@@ -1,20 +1,12 @@
 import { IonContent, IonList, IonPage } from '@ionic/react';
-import { isId, isMain } from './components/mainAssertions';
-import DisplayMainItem from './components/DisplayMainItem';
 import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
 import Link from './components/Link';
-import main from './json/main.json';
+import main from './pages/subpages/__main1';
 import './pages/Page.css';
 
 const FrontPage: React.FC = () => {
-	const id = "main";
-
-	isId(id, main);
-	const data = main[id];
-	isMain(data);
-
-	const { title, description } = data;
+	const { title, jsx } = main.main;
 
 	return (
 		<IonPage>
@@ -23,7 +15,7 @@ const FrontPage: React.FC = () => {
 			<IonContent>
 				<div className="main basicContent ion-hide-lg-up">
 					<IonList lines="full">
-						<DisplayMainItem description={description} prefixId="main--frontPage" />
+						{jsx}
 					</IonList>
 				</div>
 				<div className="ion-hide-lg-down basicContent simple">

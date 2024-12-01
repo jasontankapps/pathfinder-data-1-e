@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import traits from '../json/traits.json';
+import traits from './subpages/__trait1';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,9 +14,15 @@ interface TraitProps {
 
 const TraitGroup1Page: React.FC<TraitProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), traits);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), traits);
 
-	return <BasicPage pageId={"trait--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage
+		pageId={"trait--" + id}
+		title={title}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+		topLink={["Traits", "main/traits"]}
+	>{jsx}</BasicPage>
 };
 
 export default TraitGroup1Page;

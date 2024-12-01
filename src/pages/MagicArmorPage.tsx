@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import magic from '../json/magic_armor.json';
+import magic from './subpages/__magic-armor';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -15,16 +15,15 @@ const MagicPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>(id, magic);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, magic);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"magic-armor--" + id}
-	/>;
+		topLink={["Magic Armor", "main/magic_armor"]}
+	>{jsx}</BasicPage>;
 };
 
 export default MagicPage;

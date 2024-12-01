@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import spells from '../json/spells11.json';
+import spells from './subpages/__spell11';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,9 +14,14 @@ interface SpellProps {
 
 const SpellGroup11Page: React.FC<SpellProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), spells);
+	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), spells);
 
-	return <BasicPage pageId={"spell--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage
+		pageId={"spell--" + id}
+		title={title}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+	>{jsx}</BasicPage>;
 };
 
 export default SpellGroup11Page;

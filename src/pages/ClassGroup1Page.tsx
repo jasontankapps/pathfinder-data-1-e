@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import classes from '../json/classes.json';
+import classes from './subpages/__class1';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,16 +14,14 @@ interface ClassProps {
 
 const ClassGroup1Page: React.FC<ClassProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>((id as keyof Data), classes);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, classes);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"class-ability--" + id}
-	/>;
+		pageId={"class--" + id}
+	>{jsx}</BasicPage>;
 
 };
 

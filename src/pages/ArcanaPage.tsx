@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import arcana from '../json/class_ability_magus_arcana.json';
+import arcana from './subpages/__magusarcana';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const ArcanaPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, arcana);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arcana);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"magusarcana--" + id}
-	/>;
+		topLink={["Magus Arcana", "ability/magus_arcana"]}
+	>{jsx}</BasicPage>;
 };
 
 export default ArcanaPage;

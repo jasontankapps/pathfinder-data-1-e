@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import umr from '../json/umr.json';
+import umr from './subpages/__umr';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -19,16 +19,15 @@ const UMRPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, sources } = getItem<Data>(id, umr);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, umr);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		/* tables={tables} */
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"umr--" + id}
-	/>;
+		topLink={["Universal Monster Rules", "main/umr"]}
+	>{jsx}</BasicPage>;
 };
 
 export default UMRPage;

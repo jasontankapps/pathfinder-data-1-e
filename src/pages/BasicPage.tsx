@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { IonContent, IonPage, ScrollCustomEvent, useIonViewDidEnter } from '@ionic/react';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
-import DisplayItem from '../components/DisplayItem';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import SourcesModal, { SourceProp } from '../components/SourcesModal';
@@ -42,15 +41,13 @@ const HierarchyInset: React.FC<{linkInfo: [string, string]}> = ({linkInfo}) => {
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const { 
 		title,
-		markdown,
-		tables,
-		className,
 		children,
 		hierarchy,
 		topLink,
 		sources = [],
 		hideSources,
 		pageId,
+		className
 	} = props;
 	const dispatch = useAppDispatch();
 	const contentObj = useRef<any>(null);
@@ -68,7 +65,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const onScroll = useCallback((event: ScrollCustomEvent) => {
 		debounce(() => dispatch(setPosition({id: pageId, pos: event.detail.scrollTop})), pageId);
 	}, [pageId, dispatch]);
-	const cN = "basicContent simple" + (topLink ? " hasInset" : "");
+	const cN = "basicContent " + (className || "simple") + (topLink ? " hasInset" : "");
 
 	return (
 		<IonPage>
@@ -81,7 +78,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				}
 				<div className={cN}>
 					{topLink ? <HierarchyInset linkInfo={topLink} /> : <></>}
-					{markdown ? <DisplayItem markdown={markdown} tables={tables} className={className} prefix={pageId} /> : children}
+					{children}
 				</div>
 			</IonContent>
 			<PageFooter setIsSourcesModalOpen={hideSources ? undefined : setIsSourcesModalOpen} />

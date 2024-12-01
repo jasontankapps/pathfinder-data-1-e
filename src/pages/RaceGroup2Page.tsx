@@ -1,6 +1,5 @@
-import { SourceProp } from '../components/SourcesModal';
-import DisplayItem from '../components/DisplayItem';
-import races from '../json/races2.json';
+import { getGuaranteedItem } from '../components/getItem';
+import races from './subpages/__race2';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -9,30 +8,23 @@ const hierarchy: HierarchyArray = [["Main", "main/main"], ["Races", "main/races"
 
 type Data = typeof races;
 
-interface JsonDataPropsClass {
-	name: string,
-	description: string[]
-	sources: SourceProp[]
-}
-
 interface RaceProps {
 	id: string,
 };
 
 const RaceGroup2Page: React.FC<RaceProps> = ({id}) => {
 
-	const {
-		name: title,
-		description: markdown,
-		sources
-	} = (races[(id as keyof Data)] as JsonDataPropsClass);
+	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem((id as keyof Data), races);
 
 	const pageId = "race--" + id;
 
 	return (
-		<BasicPage pageId={pageId} title={title} hierarchy={hierarchy} sources={sources}>
-			<DisplayItem markdown={markdown} prefix={pageId} />
-		</BasicPage>
+		<BasicPage
+			pageId={pageId}
+			title={title}
+			hierarchy={[...hierarchy, ...subhierarchy]}
+			sources={sources}
+		>{jsx}</BasicPage>
 	);
 };
 

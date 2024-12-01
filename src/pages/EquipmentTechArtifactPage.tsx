@@ -1,11 +1,11 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import equipment from '../json/equipment_tech_artifacts.json';
+import equipment from './subpages/__tech-artifact';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Equipment", "main/equipment"], ["Tech Artifact", "main/tech_artifacts"]];
+const hierarchy: HierarchyArray = [["Main", "main/main"], ["Equipment", "main/equipment"], ["Tech Artifacts", "main/tech_artifacts"]];
 
 type Data = typeof equipment;
 
@@ -15,16 +15,15 @@ const EquipmentTechArtifactPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, equipment);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, equipment);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"tech-artifact--" + id}
-	/>;
+		topLink={["Tech Artifacts", "main/tech_artifacts"]}
+	>{jsx}</BasicPage>;
 };
 
 export default EquipmentTechArtifactPage;

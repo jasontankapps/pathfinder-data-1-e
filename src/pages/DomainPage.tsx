@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import domains from '../json/class_ability_domains.json';
+import domains from './subpages/__domain';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const DomainPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, domains);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, domains);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"clericdomain--" + id}
-	/>;
+		topLink={["Domains", "ability/domains"]}
+	>{jsx}</BasicPage>;
 };
 
 export default DomainPage;

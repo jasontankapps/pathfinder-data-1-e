@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import traps from '../json/traps.json';
+import traps from './subpages/__trap';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -17,23 +17,21 @@ type Data = typeof traps;
 
 type Params = { id?: keyof Data };
 
-const trapLink: [string, string] = ["All Traps", "rule/sample_traps"];
+const trapLink: [string, string] = ["Sample Traps", "rule/sample_traps"];
 
 const TrapPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, traps);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, traps);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"trap--" + id}
 		topLink={trapLink}
-	/>;
+	>{jsx}</BasicPage>;
 };
 
 export default TrapPage;

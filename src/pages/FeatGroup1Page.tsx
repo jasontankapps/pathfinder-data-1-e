@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import feats from '../json/feats.json';
+import feats from './subpages/__feat1';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,9 +14,14 @@ interface FeatProps {
 
 const FeatGroup1Page: React.FC<FeatProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), feats);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), feats);
 
-	return <BasicPage pageId={"feat--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage
+		pageId={"feat--" + id}
+		title={title}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+	>{jsx}</BasicPage>;
 };
 
 export default FeatGroup1Page;

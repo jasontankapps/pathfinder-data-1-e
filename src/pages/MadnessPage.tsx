@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import madnesses from '../json/madness.json';
+import madnesses from './subpages/__madness';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const MadnessPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, madnesses);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, madnesses);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"madness--" + id}
-	/>;
+		topLink={["Madness", "rule/madness"]}
+	>{jsx}</BasicPage>;
 };
 
 export default MadnessPage;

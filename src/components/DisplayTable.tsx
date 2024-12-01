@@ -10,7 +10,7 @@ import convertLinks from './convertLinks';
 import { useAppDispatch } from '../store/hooks';
 import { goTo } from '../store/historySlice';
 
-type TriggerSortFunc = (index: number, descending: boolean) => boolean;
+type TriggerSortFunc = (index: number, isDescending: boolean) => boolean;
 
 interface ThProps {
 	index: number
@@ -95,11 +95,11 @@ const DirectionIcon: FC<{down:boolean}> = ({down}) => {
 };
 
 const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, sortable}) => {
-	const [ descending, setDescending ] = useState(initialSort);
+	const [ isDescending, setDescending ] = useState(initialSort);
 	const onClick = useCallback(() => {
-		const isDescending = sorter(index, !descending);
-		setDescending(isDescending);
-	}, [index, sorter, descending]);
+		const newDescending = sorter(index, !isDescending);
+		setDescending(newDescending);
+	}, [index, sorter, isDescending]);
 	const markdown = useMemo(() => convertLinks([children]), [children]);
 	if(sortable) {
 		return (
@@ -107,7 +107,7 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 				<div>
 					<IonRippleEffect />
 					<Markdown components={components}>{markdown}</Markdown>
-					{active ? <DirectionIcon down={descending} /> : <IonIcon className="sortNil" icon={ellipse} />}
+					{active ? <DirectionIcon down={isDescending} /> : <IonIcon className="sortNil" icon={ellipse} />}
 				</div>
 			</th>
 		);
@@ -209,12 +209,12 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const { id, headers, types, data, initialColumn, className, nullValue = "&mdash;", ripples = [], sortable = true } = table;
 	const [rows, setRows] = useState(data);
 	const [active, setActive] = useState(initialColumn);
-	const sorter: TriggerSortFunc = useCallback((index, descending) => {
-		// sorter(index: number, descending: boolean)
-		//   Returns the boolean opposite of descending
+	const sorter: TriggerSortFunc = useCallback((index, isDescending) => {
+		// sorter(index: number, isDescending: boolean)
+		//   Returns the boolean opposite of isDescending
 		// This function reorganizes the rows and sets the 'active' column
 		const newRows = [...rows];
-		const normal = (active !== index) || descending;
+		const normal = (active !== index) || isDescending;
 		const sortfunc = normal ? descendingSort : ascendingSort;
 		newRows.sort((a, b) => sortfunc(a[index], b[index]));
 		setActive(index);

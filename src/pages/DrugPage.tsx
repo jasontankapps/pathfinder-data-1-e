@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import drugs from '../json/drugs.json';
+import drugs from './subpages/__drug';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -22,16 +22,15 @@ const DrugPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, drugs);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, drugs);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"drug--" + id}
-	/>;
+		topLink={["Drugs", "main/drugs"]}
+	>{jsx}</BasicPage>;
 };
 
 export default DrugPage;

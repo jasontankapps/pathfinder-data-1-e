@@ -1,20 +1,25 @@
-import main from '../json/main17.json';
-import { isId, isMain } from '../components/mainAssertions';
-import BasicMainPage from './BasicMainPage';
+import { getGuaranteedItem } from '../components/getItem';
+import main from './subpages/__main17';
+import BasicPage from './BasicPage';
 import './Page.css';
 
 interface MainPageProps {
 	id: string
 }
 
+type Data = typeof main;
+
 const MainGroup17Page: React.FC<MainPageProps> = ({ id }) => {
 
-	isId(id, main);
-	const data = main[id];
-	isMain(data);
-	const { title, description, tables, previous: hierarchy, sources, singleTable } = data;
+	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), main);
 
-	return <BasicMainPage pageId={"main--" + id} title={title} description={description} tables={tables} hierarchy={hierarchy} sources={sources} singleTable={singleTable} />;
+	return <BasicPage
+		pageId={"main--" + id}
+		title={title}
+		hierarchy={subhierarchy}
+		sources={sources}
+		className="main"
+	>{jsx}</BasicPage>;
 };
 
 export default MainGroup17Page;

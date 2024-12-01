@@ -1,22 +1,14 @@
 import getItem from '../components/getItem';
-import cleric from '../json/archetypes_cleric.json';
-import companion from '../json/archetypes_COMPANION.json';
-import magus from '../json/archetypes_magus.json';
-import occultist from '../json/archetypes_occultist.json';
-import oracle from '../json/archetypes_oracle.json';
+import cleric from './subpages/__archetype-cleric';
+import companion from './subpages/__archetype-companion';
+import magus from './subpages/__archetype-magus';
+import occultist from './subpages/__archetype-occultist';
+import oracle from './subpages/__archetype-oracle';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
-	"not_found": {
-		"name": "Unknown",
-		"sources": [],
-		"description": [
-			"## Error",
-			"",
-			"Unable to find the requested %CLASS% archetype."
-		]
-	},
+	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
 	...cleric,
 	...companion,
 	...magus,
@@ -34,20 +26,19 @@ interface ArchetypeProps {
 
 const ArchetypeGroup4Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
 
-	const { name: n, description, tables, sources } = getItem<Data>((id as keyof Data), archetypes);
-
-	const markdown = description.map(line => line.replace(/%CLASS%/g, parent));
+	const arches: Data = {...archetypes};
+	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
 	const pageId = `archetype-${parent}--${id}`;
 
+	const { title: n, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
+
 	return <BasicPage
 		title={n}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [title, "class/" + parent]]}
+		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [title, "class/" + parent], ...subhierarchy]}
 		sources={sources}
 		pageId={pageId}
-	/>;
+	>{jsx}</BasicPage>;
 };
 
 export default ArchetypeGroup4Page;

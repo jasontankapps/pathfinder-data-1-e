@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import classes from '../json/classes2.json';
+import classes from './subpages/__class2';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,16 +14,15 @@ interface ClassProps {
 
 const ClassGroup2Page: React.FC<ClassProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources } = getGuaranteedItem<Data>((id as keyof Data), classes);
+	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>(id as keyof Data, classes);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"class-ability--" + id}
-	/>;
+		pageId={"class--" + id}
+	>{jsx}</BasicPage>;
+
 };
 
 export default ClassGroup2Page;

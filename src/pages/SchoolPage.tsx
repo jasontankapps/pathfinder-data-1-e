@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import schools from '../json/class_ability_arcane_schools.json';
+import schools from './subpages/__arcaneschool';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const SchoolPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, schools);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, schools);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"school--" + id}
-	/>;
+		topLink={["Arcane Schools", "ability/arcane_schools"]}
+	>{jsx}</BasicPage>;
 };
 
 export default SchoolPage;

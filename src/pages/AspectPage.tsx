@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import aspects from '../json/class_ability_aspects.json';
+import aspects from './subpages/__aspect';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const AspectPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, aspects);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, aspects);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"shifteraspect--" + id}
-	/>;
+		topLink={["Shifter Aspects", "ability/aspects"]}
+	>{jsx}</BasicPage>;
 };
 
 export default AspectPage;

@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import npcs from '../json/npcs2.json';
+import npcs from './subpages/__npc2';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,9 +14,15 @@ interface NPCProps {
 
 const NPCGroup2Page: React.FC<NPCProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), npcs);
+	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), npcs);
 
-	return <BasicPage pageId={"npc--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage
+		pageId={"npc--" + id}
+		title={title}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+		topLink={["All NPCs", "main/npcs"]}
+	>{jsx}</BasicPage>;
 };
 
 export default NPCGroup2Page;

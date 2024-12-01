@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import equipment from '../json/equipment_alchemical_reagents.json';
+import equipment from './subpages/__equipment-reagent';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -15,16 +15,15 @@ const EquipmentAlchemicalReagentPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, equipment);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, equipment);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"equipment-alchemicalreagent--" + id}
-	/>;
+		topLink={["Alchemical Reagents", "main/equipment_reagents"]}
+	>{jsx}</BasicPage>;
 };
 
 export default EquipmentAlchemicalReagentPage;

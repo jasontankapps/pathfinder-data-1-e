@@ -177,7 +177,8 @@ div.main ion-list ion-item.mainItem.indented ion-label {
 div.main ion-list ion-item.mainItem.reversed {
 	text-align: end;
 }
-div.main ion-list ion-item.mainItem.linked {
+div.main.basicContent ion-list ion-item.mainItem.linked ion-label,
+div.main.basicContent ion-list ion-item.mainItem.linked {
 	--color: var(--ion-color-primary);
 }
 div.main ion-list ion-item-divider.mainItem ion-label {

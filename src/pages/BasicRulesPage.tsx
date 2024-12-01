@@ -1,8 +1,9 @@
+import { ReactElement, useMemo } from 'react';
 import { IonRippleEffect } from '@ionic/react';
-import Link from '../components/Link';
 import { SourceProp } from '../components/SourcesModal';
-import DisplayItem from '../components/DisplayItem';
-import { HierarchyArray, Table } from '../types';
+import Link from '../components/Link';
+import data from '../json/_data_rule.json';
+import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './BasicRulesPage.css';
 import './Page.css';
@@ -11,23 +12,24 @@ const hierarchy: HierarchyArray = [
 	["All Rules", "main/rules"]
 ];
 
+type Data = typeof data;
+
+type Name = keyof Data;
+
 interface BasicRulesProps {
 	title: string
 	sources: SourceProp[]
-	extraHierarchy: HierarchyArray
-	markdown: string[]
-	tables?: Table[]
-	subtopics: HierarchyArray
-	prevNext: (string[] | null)[] | false
+	jsx: ReactElement
+	parent_topics?: Name[]
+	subtopics?: Name[]
+	siblings?: Name[]
 	className?: string
-	pageId: string
+	id: Name | "not_found"
 }
 
 interface HierarchyProps {
 	extraHierarchy: HierarchyArray
 }
-
-const nulls = [null, null];
 
 const HierarchyRulesInset: React.FC<HierarchyProps> = ({extraHierarchy}) => {
 	const h = [...hierarchy, ...extraHierarchy].map((pair, i) => (
@@ -39,33 +41,66 @@ const HierarchyRulesInset: React.FC<HierarchyProps> = ({extraHierarchy}) => {
 const BasicRulesPage: React.FC<BasicRulesProps> = ({
 	title,
 	sources,
-	extraHierarchy,
-	markdown,
-	tables,
+	jsx,
 	subtopics,
-	prevNext,
 	className: cn,
-	pageId
+	id,
+	parent_topics,
+	siblings
 }) => {
-	const [previous, next] = prevNext || nulls;
 
+	const [previous, next]: (string[] | null)[] = useMemo(() => {
+		if(siblings && siblings.length > 1) {
+			const pos = siblings.indexOf((id as Name));
+			const pre = pos - 1;
+			if(pos < 0) {
+				return [null, null];
+			} else if(pos === 0) {
+				return [null, [data[siblings[1]].name, siblings[1]]];
+			} else if (pos === siblings.length - 1) {
+				return [[data[siblings[pre]].name, siblings[pre]], null];
+			}
+			const post = pos + 1;
+			return [
+				[data[siblings[pre]].name, siblings[pre]],
+				[data[siblings[post]].name, siblings[post]]
+			];
+		}
+		return [null, null];
+	}, [siblings]);
 	const prevNextClass = "prevNext" + (next && !previous ? " nextOnly" : "");
 
+	const subs: HierarchyArray = useMemo(
+		() => subtopics ? subtopics.map(
+			sub => [(data[sub] || {}).name || `ERROR fetching [${sub}.name]`, "/rule/" + sub]
+		) : [],
+	[subtopics]);
+
+	const h: HierarchyArray = useMemo(() => {
+		if(!parent_topics) {
+			return [];
+		}
+		return parent_topics.map(prop => [data[prop].name, "rule/" + prop]) as HierarchyArray;
+	}, [parent_topics]);
+
 	return (
-		<BasicPage title={title} sources={sources} pageId={pageId}>
-			<HierarchyRulesInset extraHierarchy={extraHierarchy} />
-			<DisplayItem markdown={["## " + title, "", ...markdown]} tables={tables} className={cn ? cn + " highlight" : "highlight"} prefix={pageId} />
-			{subtopics.length > 0 ?  (
+		<BasicPage title={title} sources={sources} pageId={`rule--${id}`}>
+			<HierarchyRulesInset extraHierarchy={h} />
+			<div className={cn ? cn + " highlight" : "highlight"}>
+				<h2>{title}</h2>
+				{jsx}
+			</div>
+			{subs.length > 0 ?  (
 				<div className="subtopics">
 					<header>Subtopics:</header>
 					<ul>
-						{subtopics.map((sub, i) => (
+						{subs.map((sub, i) => (
 							<li key={`subtopic/${i}/${sub[1]}`}><Link to={sub[1]}>{sub[0]}</Link></li>
 						))}
 					</ul>
 				</div>
 			) : <></>}
-			{prevNext ? (
+			{(next || previous) ? (
 				<div className={prevNextClass}>
 					{previous ?
 						<div className="prev ion-activatable">

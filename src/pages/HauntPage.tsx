@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import haunts from '../json/haunts.json';
+import haunts from './subpages/__haunt';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -22,16 +22,15 @@ const HauntPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, haunts);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, haunts);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"haunt--" + id}
-	/>;
+		topLink={["Haunts", "main/haunts"]}
+	>{jsx}</BasicPage>;
 };
 
 export default HauntPage;

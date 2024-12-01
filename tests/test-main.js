@@ -1,24 +1,24 @@
-import main1 from '../src/json/main.json' assert {type: 'json'};
-import main2 from '../src/json/main02.json' assert {type: 'json'};
-import main3 from '../src/json/main03.json' assert {type: 'json'};
-import main4 from '../src/json/main04.json' assert {type: 'json'};
-import main5 from '../src/json/main05.json' assert {type: 'json'};
-import main6 from '../src/json/main06.json' assert {type: 'json'};
-import main7 from '../src/json/main07.json' assert {type: 'json'};
-import main8 from '../src/json/main08.json' assert {type: 'json'};
-import main9 from '../src/json/main09.json' assert {type: 'json'};
-import main10 from '../src/json/main10.json' assert {type: 'json'};
-import main11 from '../src/json/main11.json' assert {type: 'json'};
-import main12 from '../src/json/main12.json' assert {type: 'json'};
-import main13 from '../src/json/main13.json' assert {type: 'json'};
-import main14 from '../src/json/main14.json' assert {type: 'json'};
-import main15 from '../src/json/main15.json' assert {type: 'json'};
-import main16 from '../src/json/main16.json' assert {type: 'json'};
-import main17 from '../src/json/main17.json' assert {type: 'json'};
-import main18 from '../src/json/main18.json' assert {type: 'json'};
-import main19 from '../src/json/main19.json' assert {type: 'json'};
-import main20 from '../src/json/main20.json' assert {type: 'json'};
-import main21 from '../src/json/main21.json' assert {type: 'json'};
+import main1 from '../json/main.json' assert {type: 'json'};
+import main2 from '../json/main02.json' assert {type: 'json'};
+import main3 from '../json/main03.json' assert {type: 'json'};
+import main4 from '../json/main04.json' assert {type: 'json'};
+import main5 from '../json/main05.json' assert {type: 'json'};
+import main6 from '../json/main06.json' assert {type: 'json'};
+import main7 from '../json/main07.json' assert {type: 'json'};
+import main8 from '../json/main08.json' assert {type: 'json'};
+import main9 from '../json/main09.json' assert {type: 'json'};
+import main10 from '../json/main10.json' assert {type: 'json'};
+import main11 from '../json/main11.json' assert {type: 'json'};
+import main12 from '../json/main12.json' assert {type: 'json'};
+import main13 from '../json/main13.json' assert {type: 'json'};
+import main14 from '../json/main14.json' assert {type: 'json'};
+import main15 from '../json/main15.json' assert {type: 'json'};
+import main16 from '../json/main16.json' assert {type: 'json'};
+import main17 from '../json/main17.json' assert {type: 'json'};
+import main18 from '../json/main18.json' assert {type: 'json'};
+import main19 from '../json/main19.json' assert {type: 'json'};
+import main20 from '../json/main20.json' assert {type: 'json'};
+import main21 from '../json/main21.json' assert {type: 'json'};
 
 const main = {
 	...main1, ...main2, ...main3, ...main4, ...main5,

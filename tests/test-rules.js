@@ -1,21 +1,21 @@
-import rules1 from '../src/json/rules.json' assert {type: 'json'};
-import rules2 from '../src/json/rules2.json' assert {type: 'json'};
-import rules3 from '../src/json/rules3.json' assert {type: 'json'};
-import rules4 from '../src/json/rules4.json' assert {type: 'json'};
-import rules5 from '../src/json/rules5.json' assert {type: 'json'};
-import rules6 from '../src/json/rules6.json' assert {type: 'json'};
-import rules7 from '../src/json/rules7.json' assert {type: 'json'};
-import rules8 from '../src/json/rules8.json' assert {type: 'json'};
-import rules9 from '../src/json/rules9.json' assert {type: 'json'};
-import rules10 from '../src/json/rules10.json' assert {type: 'json'};
-import rules11 from '../src/json/rules11.json' assert {type: 'json'};
-import rules12 from '../src/json/rules12.json' assert {type: 'json'};
-import rules13 from '../src/json/rules13.json' assert {type: 'json'};
-import rules14 from '../src/json/rules14.json' assert {type: 'json'};
-import rules15 from '../src/json/rules15.json' assert {type: 'json'};
-import rules16 from '../src/json/rules16.json' assert {type: 'json'};
-import rules17 from '../src/json/rules17.json' assert {type: 'json'};
-import rules18 from '../src/json/rules18.json' assert {type: 'json'};
+import rules1 from '../json/rules.json' assert {type: 'json'};
+import rules2 from '../json/rules2.json' assert {type: 'json'};
+import rules3 from '../json/rules3.json' assert {type: 'json'};
+import rules4 from '../json/rules4.json' assert {type: 'json'};
+import rules5 from '../json/rules5.json' assert {type: 'json'};
+import rules6 from '../json/rules6.json' assert {type: 'json'};
+import rules7 from '../json/rules7.json' assert {type: 'json'};
+import rules8 from '../json/rules8.json' assert {type: 'json'};
+import rules9 from '../json/rules9.json' assert {type: 'json'};
+import rules10 from '../json/rules10.json' assert {type: 'json'};
+import rules11 from '../json/rules11.json' assert {type: 'json'};
+import rules12 from '../json/rules12.json' assert {type: 'json'};
+import rules13 from '../json/rules13.json' assert {type: 'json'};
+import rules14 from '../json/rules14.json' assert {type: 'json'};
+import rules15 from '../json/rules15.json' assert {type: 'json'};
+import rules16 from '../json/rules16.json' assert {type: 'json'};
+import rules17 from '../json/rules17.json' assert {type: 'json'};
+import rules18 from '../json/rules18.json' assert {type: 'json'};
 
 const rules = {
 	...rules1, ...rules2, ...rules3, ...rules4,

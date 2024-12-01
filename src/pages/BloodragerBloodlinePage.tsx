@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import bloodlines from '../json/class_ability_bloodrager_bloodlines.json';
+import bloodlines from './subpages/__bloodragerbloodline';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const BloodragerBloodlinePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, bloodlines);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, bloodlines);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"bloodrager-bloodline--" + id}
-	/>;
+		topLink={["Bloodrager Bloodlines", "ability/bloodrager_bloodlines"]}
+	>{jsx}</BasicPage>;
 };
 
 export default BloodragerBloodlinePage;

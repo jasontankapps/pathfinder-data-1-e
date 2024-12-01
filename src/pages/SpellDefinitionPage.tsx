@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import defs from '../json/spell_definitions.json';
+import defs from './subpages/__spelldef';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -15,16 +15,15 @@ const SpellDefPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, defs);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, defs);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"spell-def--" + id}
-	/>;
+		topLink={["Spell Definitions", "main/spell_definitions"]}
+	>{jsx}</BasicPage>;
 };
 
 export default SpellDefPage;

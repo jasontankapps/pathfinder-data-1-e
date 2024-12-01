@@ -1,9 +1,9 @@
 import { useParams } from 'react-router';
 import { useRouteMatch } from "react-router-dom";
 import getItem from '../components/getItem';
-import base_spirits from '../json/class_ability_spirits.json';
-import legendary_spirits from '../json/class_ability_legendary_spirits.json';
-import outsider_spirits from '../json/class_ability_outsider_spirits.json';
+import base_spirits from './subpages/__spirit';
+import legendary_spirits from './subpages/__legendaryspirit';
+import outsider_spirits from './subpages/__outsiderspirit';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -30,7 +30,7 @@ const MediumSpiritPage: React.FC = () => {
 	const { path } = useRouteMatch();
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, spirits);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, spirits);
 
 	const m = path.match(/outsiderspirit/);
 	const hierarchy = m ? hierarchy2 : hierarchy1;
@@ -39,12 +39,11 @@ const MediumSpiritPage: React.FC = () => {
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={pageId}
-	/>;
+		topLink={m ? ["Medium Spirits", "ability/spirits"] : ["Outer Channeler Archetype", "archetype-medium/outer_channeler"]}
+	>{jsx}</BasicPage>;
 };
 
 export default MediumSpiritPage;

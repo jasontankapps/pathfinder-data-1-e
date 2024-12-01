@@ -1,6 +1,5 @@
-import { SourceProp } from '../components/SourcesModal';
-import DisplayItem from '../components/DisplayItem';
-import prestige_classes from '../json/prestige_classes.json';
+import getItem from '../components/getItem';
+import prestige_classes from './subpages/__prestigeclass1';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -9,30 +8,23 @@ const hierarchy: HierarchyArray = [["Main", "main/main"], ["Classes", "main/clas
 
 type Data = typeof prestige_classes;
 
-interface JsonDataPropsClass {
-	name: string,
-	description: string[],
-	sources: SourceProp[]
-}
-
 interface ClassProps {
 	id: string,
 };
 
 const PrestigeClassGroup1Page: React.FC<ClassProps> = ({id}) => {
 
-	const {
-		name: title,
-		description: markdown,
-		sources
-	} = (prestige_classes[(id as keyof Data) || "not_found"] as JsonDataPropsClass);
+	const { title, jsx, sources, subhierarchy = [] } = getItem((id as keyof Data), prestige_classes);
 
 	const pageId = "prestigeclass--" + id;
 
 	return (
-		<BasicPage pageId={pageId} title={title} hierarchy={hierarchy} sources={sources}>
-			<DisplayItem markdown={markdown} prefix={pageId} />
-		</BasicPage>
+		<BasicPage
+			pageId={pageId}
+			title={title}
+			hierarchy={[...hierarchy, ...subhierarchy]}
+			sources={sources}
+		>{jsx}</BasicPage>
 	);
 };
 

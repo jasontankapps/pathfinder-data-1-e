@@ -1,3 +1,4 @@
+import { ReactElement } from "react";
 import { SourceProp } from "./components/SourcesModal";
 
 export type Datum = string | number | [ number, string ] | [ string, string ] | [ string, string, string ];
@@ -59,6 +60,16 @@ export interface JsonRulesProps<Name> {
 	siblings?: Name[]
 	sources: SourceProp[]
 	tables?: Table[]
+	className?: string
+}
+
+export interface JsonRulesProps2<Name> {
+	title: string
+	jsx: ReactElement
+	parent_topics?: Name[]
+	subtopics?: Name[]
+	siblings?: Name[]
+	sources: SourceProp[]
 	className?: string
 }
 

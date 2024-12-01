@@ -4,21 +4,21 @@ import data from '../json/_data_ability.json';
 import Loading from '../Loading';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type ID = keyof typeof data;
 
 const ClassAbilityGroup1Page = lazy(() => import("./ClassAbilityGroup1Page"));
 const ClassAbilityGroup2Page = lazy(() => import("./ClassAbilityGroup2Page"));
 const ClassAbilityGroup3Page = lazy(() => import("./ClassAbilityGroup3Page"));
 
 const pages = [
-	({id}: {id: string}) => <ClassAbilityGroup1Page id={id} />,
-	({id}: {id: string}) => <ClassAbilityGroup2Page id={id} />,
-	({id}: {id: string}) => <ClassAbilityGroup3Page id={id} />,
+	({id}: {id: ID}) => <ClassAbilityGroup1Page id={id} />,
+	({id}: {id: ID}) => <ClassAbilityGroup2Page id={id} />,
+	({id}: {id: ID}) => <ClassAbilityGroup3Page id={id} />,
 ]
 
 const ClassAbilityPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id } = useParams<{id:ID}>();
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 

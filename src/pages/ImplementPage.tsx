@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import psychic_implements from '../json/class_ability_implements.json';
+import psychic_implements from './subpages/__implement';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const ImplementPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, psychic_implements);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, psychic_implements);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"implement--" + id}
-	/>;
+		topLink={["Psychic Implements", "ability/implements"]}
+	>{jsx}</BasicPage>;
 };
 
 export default ImplementPage;

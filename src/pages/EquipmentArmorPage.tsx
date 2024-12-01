@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import equipment from '../json/equipment_armor.json';
+import equipment from './subpages/__equipment-armor';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -15,16 +15,15 @@ const EquipmentArmorPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, equipment);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, equipment);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"equipment-armor--" + id}
-	/>;
+		topLink={["Armor", "main/equipment_armor"]}
+	>{jsx}</BasicPage>;
 };
 
 export default EquipmentArmorPage;

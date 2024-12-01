@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import masterpieces from '../json/class_ability_bardic_masterpieces.json';
+import masterpieces from './subpages/__bardicmasterpiece';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,9 +20,15 @@ const MasterpiecePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, masterpieces);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, masterpieces);
 
-	return <BasicPage pageId={"masterpiece--" + id} title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		title={title}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+		pageId={"masterpiece--" + id}
+		topLink={["Bardic Masterpieces", "ability/bardic_masterpieces"]}
+	>{jsx}</BasicPage>;
 };
 
 export default MasterpiecePage;

@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import equipment_misc from '../json/equipment_misc.json';
+import equipment_misc from './subpages/__equipment-misc1';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,9 +14,15 @@ interface EquipProps {
 
 const EquipmentMiscGroup1Page: React.FC<EquipProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), equipment_misc);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), equipment_misc);
 
-	return <BasicPage pageId={"equip-misc--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage
+		pageId={"equip-misc--" + id}
+		title={title}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+		topLink={["Misc. Equipment", "main/equipment_misc"]}
+	/>;
 };
 
 export default EquipmentMiscGroup1Page;

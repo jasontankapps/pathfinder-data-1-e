@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import spirits from '../json/class_ability_shaman_spirits.json';
+import spirits from './subpages/__shamanspirit';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const ShamanSpiritPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, spirits);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, spirits);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"shaman-spirit--" + id}
-	/>;
+		topLink={["Shaman Spirits", "ability/shaman_spirits"]}
+	>{jsx}</BasicPage>;
 };
 
 export default ShamanSpiritPage;

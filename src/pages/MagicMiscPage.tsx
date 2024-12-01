@@ -1,23 +1,23 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import construct_mods from '../json/construct_mods.json';
-import magic_altar from '../json/magic_altar.json';
-import magic_demonic_implants from '../json/magic_demonic_implants.json';
-import magic_devil_talismans from '../json/magic_devil_talismans.json';
-import magic_elemental_augmentations from '../json/magic_elemental_augmentations.json';
-import magic_favor from '../json/magic_favor.json';
-import magic_fleshcrafting from '../json/magic_fleshcrafting.json';
-import magic_fungal_grafts from '../json/magic_fungal_grafts.json';
-import magic_infused_poisons from '../json/magic_infused_poisons.json';
-import magic_juju_fetishes from '../json/magic_juju_fetishes.json';
-import magic_necrografts from '../json/magic_necrografts.json';
-import magic_necrotoxins from '../json/magic_necrotoxins.json';
-import magic_plant from '../json/magic_plant.json';
-import magic_relics from '../json/magic_relics.json';
-import magic_set from '../json/magic_set.json';
-import magic_shadow_piercings from '../json/magic_shadow_piercings.json';
-import magic_tattoo from '../json/magic_tattoo.json';
-import magic_throne from '../json/magic_throne.json';
+import construct_mods from './subpages/__constructmod';
+import magic_altar from './subpages/__magic-altar';
+import magic_demonic_implants from './subpages/__magic-implant';
+import magic_devil_talismans from './subpages/__magic-talisman';
+import magic_elemental_augmentations from './subpages/__magic-augmentation';
+import magic_favor from './subpages/__magic-favor';
+import magic_fleshcrafting from './subpages/__magic-fleshcrafting';
+import magic_fungal_grafts from './subpages/__magic-graft';
+import magic_infused_poisons from './subpages/__magic-poison';
+import magic_juju_fetishes from './subpages/__magic-fetish';
+import magic_necrografts from './subpages/__magic-necrograft';
+import magic_necrotoxins from './subpages/__magic-necrotoxin';
+import magic_plant from './subpages/__magic-plant';
+import magic_relics from './subpages/__magic-relic';
+import magic_set from './subpages/__magic-set';
+import magic_shadow_piercings from './subpages/__magic-piercing';
+import magic_tattoo from './subpages/__magic-tattoo';
+import magic_throne from './subpages/__magic-throne';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -52,16 +52,15 @@ const MagicPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getItem<Data>(id, magic);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, magic);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"magic-misc--" + id}
-	/>;
+		topLink={["Miscellaneous Magic Items", "main/magic_misc"]}
+	>{jsx}</BasicPage>;
 };
 
 export default MagicPage;

@@ -1,21 +1,13 @@
 import getItem from '../components/getItem';
-import druid from '../json/archetypes_druid.json';
-import medium from '../json/archetypes_medium.json';
-import ninja from '../json/archetypes_ninja.json';
-import wizard from '../json/archetypes_wizard.json';
+import druid from './subpages/__archetype-druid';
+import medium from './subpages/__archetype-medium';
+import ninja from './subpages/__archetype-ninja';
+import wizard from './subpages/__archetype-wizard';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
-	"not_found": {
-		"name": "Unknown",
-		"sources": [],
-		"description": [
-			"## Error",
-			"",
-			"Unable to find the requested %CLASS% archetype."
-		]
-	},
+	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
 	...druid,
 	...medium,
 	...ninja,
@@ -32,20 +24,19 @@ interface ArchetypeProps {
 
 const ArchetypeGroup9Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
 
-	const { name: n, description, tables, sources } = getItem<Data>((id as keyof Data), archetypes);
-
-	const markdown = description.map(line => line.replace(/%CLASS%/g, parent));
+	const arches: Data = {...archetypes};
+	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
 	const pageId = `archetype-${parent}--${id}`;
 
+	const { title: n, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
+
 	return <BasicPage
 		title={n}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [title, "class/" + parent]]}
+		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [title, "class/" + parent], ...subhierarchy]}
 		sources={sources}
 		pageId={pageId}
-	/>;
+	>{jsx}</BasicPage>;
 };
 
 export default ArchetypeGroup9Page;

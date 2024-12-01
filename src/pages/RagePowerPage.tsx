@@ -1,8 +1,8 @@
 import { useParams } from 'react-router';
 import { useRouteMatch } from "react-router-dom";
 import getItem from '../components/getItem';
-import powers from '../json/class_ability_rage_powers.json';
-import stances from '../json/class_ability_stance_rage_powers.json';
+import powers from './subpages/__ragepower';
+import stances from './subpages/__stanceragepower';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -29,19 +29,18 @@ const RagePowerPage: React.FC = () => {
 	const { path } = useRouteMatch();
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, rage_powers);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, rage_powers);
 
-	const m = path.match(/outsiderspirit/);
+	const m = path.match(/stance/);
 	const hierarchy = m ? hierarchy2 : hierarchy1;
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"ragepower--" + id}
-	/>;
+		topLink={(m ? hierarchy2 : hierarchy1)[2]}
+	>{jsx}</BasicPage>;
 };
 
 export default RagePowerPage;

@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import blessings from '../json/class_ability_blessings.json';
+import blessings from './subpages/__blessing';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const BlessingPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, blessings);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, blessings);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"blessing--" + id}
-	/>;
+		topLink={["Warpriest Blessings", "ability/blessings"]}
+	>{jsx}</BasicPage>;
 };
 
 export default BlessingPage;

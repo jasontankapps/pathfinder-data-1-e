@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import corruptions from '../json/corruptions.json';
+import corruptions from './subpages/__corruption';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const CorruptionPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, corruptions);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, corruptions);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"corruption--" + id}
-	/>;
+		topLink={["Corruption (Rules)", "rule/corruption"]}
+	>{jsx}</BasicPage>;
 };
 
 export default CorruptionPage;

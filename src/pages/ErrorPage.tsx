@@ -23,11 +23,13 @@ const ErrorPage: React.FC = () => {
 	const matches = useRouteMatch();
 	const m = matches.path.match(matcher);
 	return (m ?
-		<BasicPage title="Not Found" hierarchy={hierarchy} sources={sources}>
-			<p>Unable to find the requested information.</p>
+		<BasicPage pageId="error-page" title="Not Found" hierarchy={hierarchy} sources={sources}>
+			<p>Unable to find the requested information. [Error 201]</p>
 		</BasicPage>
 	:
-		<></>
+		<BasicPage pageId="error-page-other" title="Not Found" hierarchy={hierarchy} sources={sources}>
+			<p>Unable to find the requested page. [Error 202]</p>
+		</BasicPage>
 	);
 };
 

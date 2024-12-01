@@ -1,7 +1,6 @@
-import { useMemo } from 'react';
-import rules from '../json/rules12.json';
+import rules from './subpages/__rule12';
 import data from '../json/_data_rule.json';
-import { HierarchyArray, JsonRulesProps } from '../types';
+import { JsonRulesProps2 } from '../types';
 import BasicRulesPage from './BasicRulesPage';
 import './Page.css';
 
@@ -19,59 +18,24 @@ interface RulesProps {
 const RulesGroup12Page: React.FC<RulesProps> = ({id}) => {
 
 	const {
-		name: n,
-		description: markdown,
+		title,
+		jsx,
 		parent_topics,
 		subtopics,
 		siblings,
 		sources = [],
-		tables,
 		className
-	} = (rules[id as Prop]) as JsonRulesProps<Name>;
-
-	const prevNext = useMemo(() => {
-		if(siblings && siblings.length > 1) {
-			const pos = siblings.indexOf((id as Name));
-			const pre = pos - 1;
-			if(pos < 0) {
-				return false;
-			} else if(pos === 0) {
-				return [null, [data[siblings[1]].name, siblings[1]]];
-			} else if (pos === siblings.length - 1) {
-				return [[data[siblings[pre]].name, siblings[pre]], null];
-			}
-			const post = pos + 1;
-			return [
-				[data[siblings[pre]].name, siblings[pre]],
-				[data[siblings[post]].name, siblings[post]]
-			];
-		}
-		return false;
-	}, [siblings]);
-
-	const subs: HierarchyArray = useMemo(
-		() => subtopics ? subtopics.map(
-			sub => [(data[sub] || {}).name || `ERROR fetching [${sub}.name]`, "/rule/" + sub]
-		) : [],
-	[subtopics]);
-
-	const h: HierarchyArray = useMemo(() => {
-		if(!parent_topics) {
-			return [];
-		}
-		return parent_topics.map(prop => [data[prop].name, "rule/" + prop]) as HierarchyArray;
-	}, [parent_topics]);
+	} = (rules[id as Prop]) as JsonRulesProps2<Name>;
 
 	return (
 		<BasicRulesPage
-			pageId={"rules--" + id}
-			title={n}
+			id={id as Prop}
+			title={title}
 			sources={sources}
-			extraHierarchy={h}
-			markdown={markdown}
-			tables={tables}
-			subtopics={subs}
-			prevNext={prevNext}
+			jsx={jsx}
+			parent_topics={parent_topics}
+			siblings={siblings}
+			subtopics={subtopics}
 			className={className}
 		/>
 	);

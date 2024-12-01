@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import monsters from '../json/monsters25.json';
+import monsters from './subpages/__monster29';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,9 +14,14 @@ interface MonsterProps {
 
 const MonsterGroup29Page: React.FC<MonsterProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), monsters);
+	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), monsters);
 
-	return <BasicPage pageId={"monster--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage
+		pageId={"monster--" + id}
+		title={title}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+	>{jsx}</BasicPage>;
 };
 
 export default MonsterGroup29Page;

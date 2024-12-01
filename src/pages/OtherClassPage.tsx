@@ -1,8 +1,8 @@
+import { ReactElement } from 'react';
 import { useParams } from 'react-router';
-import DisplayItem from '../components/DisplayItem';
 import { SourceProp } from '../components/SourcesModal';
-import npcclasses from '../json/npc_classes.json';
-import sidekicks from '../json/sidekicks.json';
+import npcclasses from './subpages/__npcclass';
+import sidekicks from './subpages/__sidekick';
 import BasicPage from './BasicPage';
 import { HierarchyArray, Table } from '../types';
 import './Page.css';
@@ -16,9 +16,8 @@ type Data = typeof classes;
 type Params = { id?: keyof Data };
 
 interface JsonDataPropsClass {
-	name: string,
-	description: string[],
-	tables?: Table[],
+	title: string,
+	jsx: ReactElement,
 	sources: SourceProp[]
 }
 
@@ -29,8 +28,8 @@ const OtherClassPage: React.FC = () => {
 	const solidId = (id || "not_found") as keyof Data;
 
 	const {
-		name: title,
-		description: markdown,
+		title,
+		jsx,
 		sources
 	} = (classes[solidId] as JsonDataPropsClass);
 
@@ -42,9 +41,7 @@ const OtherClassPage: React.FC = () => {
 			hierarchy={hierarchy}
 			sources={sources}
 			pageId={pageId}
-		>
-			<DisplayItem markdown={markdown} prefix={pageId} />
-		</BasicPage>
+		>{jsx}</BasicPage>
 	);
 };
 

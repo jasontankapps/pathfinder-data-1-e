@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import templates from '../json/monsters_templates2.json';
+import templates from './subpages/__template2';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -17,9 +17,14 @@ interface MonsterProps {
 
 const MonsterTemplateGroup2Page: React.FC<MonsterProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), templates);
+	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), templates);
 
-	return <BasicPage pageId={"template--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage
+		pageId={"template--" + id}
+		title={title}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+	>{jsx}</BasicPage>;
 };
 
 export default MonsterTemplateGroup2Page;

@@ -1,7 +1,7 @@
-import classes1 from '../src/json/classes.json' assert {type: 'json'};
-import classes2 from '../src/json/classes2.json' assert {type: 'json'};
-import classes3 from '../src/json/classes3.json' assert {type: 'json'};
-import classes4 from '../src/json/classes4.json' assert {type: 'json'};
+import classes1 from '../json/classes.json' assert {type: 'json'};
+import classes2 from '../json/classes2.json' assert {type: 'json'};
+import classes3 from '../json/classes3.json' assert {type: 'json'};
+import classes4 from '../json/classes4.json' assert {type: 'json'};
 
 const classes = {
 	...classes1, ...classes2, ...classes3, ...classes4

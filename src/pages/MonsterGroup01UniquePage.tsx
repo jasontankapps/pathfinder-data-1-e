@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import monsters from '../json/monsters_unique.json';
+import monsters from './subpages/__monster1';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,9 +14,14 @@ interface MonsterProps {
 
 const MonsterGroup01Page: React.FC<MonsterProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>((id as keyof Data), monsters);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), monsters);
 
-	return <BasicPage pageId={"monster--" + id} title={title} markdown={markdown} tables={tables} hierarchy={hierarchy} sources={sources} />;
+	return <BasicPage
+		pageId={"monster--" + id}
+		title={title}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+	>{jsx}</BasicPage>;
 };
 
 export default MonsterGroup01Page;

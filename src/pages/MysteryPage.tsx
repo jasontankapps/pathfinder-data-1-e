@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import mysteries from '../json/class_ability_mysteries.json';
+import mysteries from './subpages/__mystery';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const MysteryPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, mysteries);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, mysteries);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"mystery--" + id}
-	/>;
+		topLink={["Oracle Mysteries", "ability/mysteries"]}
+	>{jsx}</BasicPage>;
 };
 
 export default MysteryPage;

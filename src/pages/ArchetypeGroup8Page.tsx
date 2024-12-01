@@ -1,22 +1,14 @@
 import getItem from '../components/getItem';
-import brawler from '../json/archetypes_brawler.json';
-import barbarian from '../json/archetypes_barbarian.json';
-import familiar from '../json/archetypes_FAMILIAR.json';
-import mesmerist from '../json/archetypes_mesmerist.json';
-import vigilante from '../json/archetypes_vigilante.json';
+import brawler from './subpages/__archetype-brawler';
+import barbarian from './subpages/__archetype-barbarian';
+import familiar from './subpages/__archetype-familiar';
+import mesmerist from './subpages/__archetype-mesmerist';
+import vigilante from './subpages/__archetype-vigilante';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
-	"not_found": {
-		"name": "Unknown",
-		"sources": [],
-		"description": [
-			"## Error",
-			"",
-			"Unable to find the requested %CLASS% archetype."
-		]
-	},
+	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
 	...brawler,
 	...barbarian,
 	...familiar,
@@ -34,20 +26,19 @@ interface ArchetypeProps {
 
 const ArchetypeGroup8Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
 
-	const { name: n, description, tables, sources } = getItem<Data>((id as keyof Data), archetypes);
-
-	const markdown = description.map(line => line.replace(/%CLASS%/g, parent));
+	const arches: Data = {...archetypes};
+	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
 	const pageId = `archetype-${parent}--${id}`;
 
+	const { title: n, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
+
 	return <BasicPage
 		title={n}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [title, "class/" + parent]]}
+		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [title, "class/" + parent], ...subhierarchy]}
 		sources={sources}
 		pageId={pageId}
-	/>;
+	>{jsx}</BasicPage>;
 };
 
 export default ArchetypeGroup8Page;

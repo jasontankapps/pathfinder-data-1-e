@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import orders from '../json/class_ability_hellknight_orders.json';
+import orders from './subpages/__order';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const HellknightOrderPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, orders);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, orders);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"hellknight-order--" + id}
-	/>;
+		topLink={["Hellknight Orders", "ability/hellknight_orders"]}
+	>{jsx}</BasicPage>;
 };
 
 export default HellknightOrderPage;

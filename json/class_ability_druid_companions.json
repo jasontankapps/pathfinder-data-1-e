@@ -1,0 +1,3641 @@
+{
+	"not_found": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested animal companion."
+		]
+	},
+	"amargasaurus": {
+		"name": "Amargasaurus",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Amargasaurus",
+			"",
+			"{SOURCE Bestiary 6/311}  ",
+			"**Companion Type** Animal",
+			"",
+			"This sauropod has an elongated neck and a long, tapering tail.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +3 natural armor; Attack slam (1d6), tail slap (1d6); Ability Scores Str 11, Dex 18, Con 9, Int 2, Wis 13, Cha 10; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +2 natural armor; Attack slam (1d8), tail slap (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Qualities trample."
+		]
+	},
+	"anglerfish": {
+		"name": "Anglerfish",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Anglerfish",
+			"",
+			"{SOURCE Ultimate Wilderness/178}  ",
+			"**Companion Type** Animal",
+			"",
+			"The anglerfish is a fish that uses a bioluminescent lure at the tip of a stalk protruding from its head to attract prey.",
+			"",
+			"**Starting Statistics:** Size Small; Speed swim 40 ft.; AC +1 natural armor; Attack bite (1d8 plus grab); Ability Scores Str 13, Dex 15, Con 12, Int 1, Wis 12, Cha 2; Special Qualities aquatic, grab (Medium), low-light vision, lure (sheds light as per a candle), scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (2d6 plus grab); Ability Scores Str +2, Dex -2, Con +4; Special Qualities grab (Large), swallow whole (Medium)."
+		]
+	},
+	"ant_giant": {
+		"name": "Ant, Giant",
+		"sources": [ "Ultimate Magic" ],
+		"description": [
+			"## Ant, Giant",
+			"",
+			"{SOURCE Ultimate Magic/36}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Ant}",
+			"",
+			"A thin, six-legged ant the size of a pony stands at the ready, its mandibles chittering and its stinger dripping with venom.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., climb 20 ft.; AC +2 natural armor; Attack bite (1d4 plus grab); Ability Scores Str 10, Dex 12, Con 15, Int -, Wis 12, Cha 10; Special Qualities low-light vision, scent; CMD +8 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus grab), sting (1d4 plus poison); Ability Scores Str +4, Dex -2, Con +2; Special Attacks poison (frequency 1 round [4], effect 1 Str damage, cure 1 save, Con-based DC)."
+		]
+	},
+	"giant_ant": { "copyof": "ant_giant" },
+	"antelope": {
+		"name": "Antelope",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Antelope",
+			"",
+			"{SOURCE Bestiary 3/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Antelope}",
+			"",
+			"This graceful animal has long slender legs and a pair of sharp, sturdy horns arching back from its head.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 60 ft.; AC +1 natural armor; Attack gore (1d4); Ability Scores Str 10, Dex 17, Con 14, Int 2, Wis 13, Cha 5; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Dex +2, Con +2; Special Attacks powerful charge (gore, 2d4)."
+		]
+	},
+	"ape": {
+		"name": "Ape",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Ape",
+			"",
+			"{SOURCE PRPG Core Rulebook/53}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** [Ape](monster/gorilla)",
+			"",
+			"Large, deep-set eyes peer from beneath this great ape's thick brow as it lumbers forward on its legs and knuckles.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., climb 30 ft.; AC +1 natural armor; Attack bite (1d4), 2 claws (1d4); Ability Scores Str 13, Dex 17, Con 10, Int 2, Wis 12, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d6), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"archaeopyeryx": {
+		"name": "Archaeopteryx",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Archaeopteryx",
+			"",
+			"{SOURCE Ultimate Wilderness/178}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Archaeopteryx}",
+			"",
+			"This primeval toothed bird has bright plumage, but it is a relatively poor flyer.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., fly 40 ft. (poor); AC +1 natural armor; Attack bite (1d4); Ability Scores Str 8, Dex 15, Con 12, Int 2, Wis 13, Cha 7; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Ability Scores Dex +2, Con +2."
+		]
+	},
+	"armorfish": {
+		"name": "Armorfish",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Armorfish",
+			"",
+			"{SOURCE Ultimate Wilderness/178}  ",
+			"**Companion Type** Animal",
+			"",
+			"The armorfish is a primeval aquatic creature that has exceptionally thick armored scales along its head and back.",
+			"",
+			"**Starting Statistics:** Size Small; Speed swim 30 ft.; AC +6 natural armor; Attack bite (1d4); Ability Scores Str 13, Dex 13, Con 15, Int 1, Wis 8, Cha 2; Special Qualities aquatic, low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +2, Dex -2, Con +4."
+		]
+	},
+	"assassin_bug_giant": {
+		"name": "Assassin Bug, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Assassin Bug, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/184}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Assassin Bug}",
+			"",
+			"This long-legged, beetle-like insect can spew a stream of poison at its foes from a distance.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., fly 30 ft. (clumsy); AC +2 natural armor; Attack bite (1d4 plus poison), 2 claws (1d3); Ability Scores Str 13, Dex 15, Con 13, Int -, Wis 10, Cha 2; Special Attacks poison (frequency 1 round [4]; effect 1d2 Dex; cure 1 save; Con-based DC), poison stream (exposes all creatures in a 15-ft. line to poison, Reflex save negates; Dex-based DC; usable every 1d4 rounds as a standard action); Special Qualities darkvision 60 ft.; CMD +8 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6 plus poison), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks poison (frequency 1 round [4]; effect 1d2 Dex; cure 2 saves; Con-based DC).."
+		]
+	},
+	"giant_assassin_bug": { "copyof": "assassin_bug_giant" },
+	"aurochs": {
+		"name": "Aurochs",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Aurochs",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/174}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Aurochs}",
+			"",
+			"This large, horned bull has a dirty black hide and an aggressive temper. Its horns are wide and sharp.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack gore (1d6); Ability Scores Str 14, Dex 12, Con 12, Int 2, Wis 11, Cha 4; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks stampede, trample.",
+			"",
+			"Bison companions are identical to aurochs animal companions."
+		]
+	},
+	"auroch": { "copyof": "aurochs" },
+	"bison": { "copyof": "aurochs" },
+	"axe_beak": {
+		"name": "Axe Beak",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Axe Beak",
+			"",
+			"{SOURCE Bestiary 3/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Axe Beak}",
+			"",
+			"This stout bird stands upon two long, muscular legs, each ending in a large, curved talon. A pair of undersized wings sprouts from amid its broad body feathers, as does a powerful neck ending in an avian head armed with a grisly serrated beak.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 50 ft.; Attack bite (1d6 + 1-1/2 Str); Ability Scores Str 10, Dex 17, Con 12, Int 2, Wis 11, Cha 10; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8 + 1-1/2 Str); Ability Scores Str +8, Dex -2, Con +4; Special Attacks sudden charge."
+		]
+	},
+	"baboon": {
+		"name": "Baboon",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Baboon",
+			"",
+			"{SOURCE Bestiary 2/212}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Baboon}",
+			"",
+			"A hairy, stout animal with opposable thumbs, this creature has a pronounced muzzle and bright red buttocks.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; Attack bite (1d4); Ability Scores Str 12, Dex 15, Con 12, Int 2, Wis 12, Cha 5; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
+		]
+	},
+	"bacallia": {
+		"name": "Bacallia",
+		"sources": [ "Druma, Profit and Prophecy" ],
+		"description": [
+			"## Bacallia",
+			"",
+			"{SOURCE Druma, Profit and Prophecy/62}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Bacallia}",
+			"",
+			"This animal resembles an alpaca with voluminous, shiny wool.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack 2 hooves (1d4); Ability Scores Str 13, Dex 13, Con 13, Int 2, Wis 12, Cha 13; Special Attacks spit; Special Qualities low-light vision, pristine wool",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks Aura: dazzling (10 ft.); Bonus Feat(s) {feat/Nimble Moves}."
+		]
+	},
+	"badger": {
+		"name": "Badger (Wolverine)",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Badger (Wolverine)",
+			"",
+			"{SOURCE PRPG Core Rulebook/53}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** [{monster/Wolverine}]",
+			"",
+			"This stocky, muscular mammal is the size of a badger, its snarling lips revealing a mouth full of yellow teeth.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., burrow 10 ft., climb 10 ft.; AC +2 natural armor; Attack bite (1d4), 2 claws (1d3); Ability Scores Str 10, Dex 17, Con 15, Int 2, Wis 12, Cha 10; Special Attacks rage (as a barbarian for 6 rounds per day); Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"wolverine": { "copyof": "badger" },
+	"bear": {
+		"name": "Bear",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Bear",
+			"",
+			"{SOURCE PRPG Core Rulebook/53}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Grizzly Bear}",
+			"",
+			"Broad, powerful muscles move beneath this massive bear's brown fur, promising both speed and lethal force.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +2 natural armor; Attack bite (1d4), 2 claws (1d3); Ability Scores Str 15, Dex 15, Con 13, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"beetle_giant": {
+		"name": "Beetle, Giant",
+		"sources": [ "Ultimate Magic" ],
+		"description": [
+			"## Beetle, Giant",
+			"",
+			"{SOURCE Ultimate Magic/36}  ",
+			"**Companion Type** Vermin",
+			"",
+			"With a sleek body and huge mandibles raised in a threatening pose, this large beetle stands firm in defense of its territory.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., fly 20 ft. (poor); AC +6 natural armor; Attack bite (1d6); Ability Scores Str 13, Dex 12, Con 13, Int -, Wis 11, Cha 4; Special Qualities darkvision; CMD +8 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks trample (1d4)."
+		]
+	},
+	"giant_beetle": { "copyof": "beetle_giant" },
+	"bird": {
+		"name": "Bird (Eagle/Hawk/Owl)",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Bird (Eagle/Hawk/Owl)",
+			"",
+			"{SOURCE PRPG Core Rulebook/53}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** [Bird (Eagle/Hawk/Owl)](monster/eagle)",
+			"",
+			"This magnificent bird of prey has dark feathers save for those on its head, which are pure white.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 10 ft., fly 80 ft. (average); AC +1 natural armor; Attack bite (1d4), 2 talons (1d4); Ability Scores Str 10, Dex 15, Con 12, Int 2, Wis 14, Cha 6; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
+		]
+	},
+	"eagle": { "copyof": "bird" },
+	"hawk": { "copyof": "bird" },
+	"owl": { "copyof": "bird" },
+	"blackwisp_egret": {
+		"name": "Blackwisp Egret",
+		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
+		"description": [
+			"## Blackwisp Egret",
+			"",
+			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Blackwisp Egret}",
+			"",
+			"This jet-black bird has a long, hooked beak. Its piercing orange eyes reflect any light that hits them, making them appear to glow ominously.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., fly 30 ft. (poor); AC +1 natural armor; Attack bite (1d4); Ability Scores Str 8, Dex 17, Con 8, Int 2, Wis 13, Cha 5; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities deceptive target."
+		]
+	},
+	"blue_whale": {
+		"name": "Blue Whale",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Blue Whale",
+			"",
+			"{SOURCE Bestiary 5/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Blue Whale}",
+			"",
+			"This massive aquatic mammal has bluish-gray coloration, a wide fluke tail, and a wide mouth filled with layers of baleen.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 80 ft.; AC +1 natural armor; Attack tail slap (1d8); Ability Scores Str 11, Dex 19, Con 10, Int 2, Wis 14, Cha 6; Special Qualities low-light vision, hold breath",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack tail slap (2d6); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"boar": {
+		"name": "Boar",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Boar",
+			"",
+			"{SOURCE PRPG Core Rulebook/53}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Boar}",
+			"",
+			"This ill-tempered beast's tiny, bloodshot eyes glare angrily above a mouth filled with sharp tusks.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +6 natural armor; Attack gore (1d6); Ability Scores Str 13, Dex 12, Con 15, Int 2, Wis 13, Cha 4; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack gore (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks ferocity."
+		]
+	},
+	"bristle_boar": {
+		"name": "Bristle Boar",
+		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
+		"description": [
+			"## Bristle Boar",
+			"",
+			"{SOURCE Belkzen, Hold of the Orc Hordes/55}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Bristle Boar}",
+			"",
+			"The vicious spines surrounding this boar's head are almost as unnerving as the wild look in its eyes.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +6 natural armor; Attack gore (1d6); Ability Scores Str 15, Dex 10, Con 15, Int 2, Wis 11, Cha 4; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack gore (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks spines (Those hit by a bristle boar's gore attack must succeed at a Reflex saving throw to avoid being speared by the dangerously sharp spines around its head and neck. Failure results in 1d4 points of piercing damage.)."
+		]
+	},
+	"brontotherium": {
+		"name": "Brontotherium",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Brontotherium",
+			"",
+			"{SOURCE Bestiary 6/311}  ",
+			"**Companion Type** Animal",
+			"",
+			"This stocky quadruped's lowered head puts its intimidating Y-shaped horn on full display.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +8 natural armor; Attack slam (1d10); Ability Scores Str 12, Dex 15, Con 12, Int 2, Wis 17, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack slam (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities powerful charge (slam), trample."
+		]
+	},
+	"bull_of_zagresh": {
+		"name": "Bull of Zagresh",
+		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
+		"description": [
+			"## Bull of Zagresh",
+			"",
+			"{SOURCE Belkzen, Hold of the Orc Hordes/55}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Bull of Zagresh}",
+			"",
+			"This immense bovine has horns reminiscent of a stag, with daggerlike points spreading more than fifteen feet across.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +4 natural armor; Attack gore (1d8); Ability Scores Str 15, Dex 14, Con 13, Int 2, Wis 11, Cha 4; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks trample."
+		]
+	},
+	"bustard": {
+		"name": "Bustard",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Bustard",
+			"",
+			"{SOURCE Ultimate Wilderness/178}  ",
+			"**Companion Type** Animal",
+			"",
+			"The bustard is a sizable bird with long legs. Bustards can fly, but they do so relatively poorly and prefer to walk or run.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., fly 50 ft. (poor); AC +2 natural armor; Attack bite (1d6), 2 talons (1d4); Ability Scores Str 13, Dex 14, Con 13, Int 2, Wis 13, Cha 5; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Attack Str +2, Con +2."
+		]
+	},
+	"camel": {
+		"name": "Camel",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Camel",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Camel}",
+			"",
+			"This somewhat irritated-looking, one-humped camel has been outfitted with a bridle and saddle.",
+			"",
+			"**Starting Statistics:** Size Large; Speed 50 ft.; AC +1 natural armor; Attack bite (1d4) or spit (ranged touch attack, target is sickened for 1d4 rounds, range 10 feet); Ability Scores Str 18, Dex 16, Con 14, Int 2, Wis 11, Cha 4; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
+		]
+	},
+	"cameroceras": {
+		"name": "Cameroceras",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Cameroceras",
+			"",
+			"{SOURCE Bestiary 5/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Cameroceras}",
+			"",
+			"Emerging from the open end of a long, conical shell, this huge creature's unblinking eyes peer from above a mass of tentacles.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 5 ft., swim 20 ft., jet 90 ft.; AC +1 natural armor; Attack tentalces (1d4 plus grab), bite (1d3); Ability Scores Str 14, Dex 15, Con 11, Int 2, Wis 12, Cha 2; Special Qualities low-light vision, pressure adaptation",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack tentacles (1d6 plus grab), bite (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks constrict (1d6)."
+		]
+	},
+	"capybara": {
+		"name": "Capybara",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Capybara",
+			"",
+			"{SOURCE Ultimate Wilderness/179}  ",
+			"**Companion Type** Animal",
+			"",
+			"This large, brown-furred rodent is equally at home on land or in the water, and is often found near lakes and rivers.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., swim 20 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 12, Dex 15, Con 12, Int 2, Wis 13, Cha 5; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
+		]
+	},
+	"cat_big": {
+		"name": "Cat, Big (Lion, Tiger)",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Cat, Big (Lion, Tiger)",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Lion}",
+			"",
+			"This great cat's muscles flex visibly under its skin as it bares its fangs and shakes its thick mane of hair.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str 13, Dex 17, Con 13, Int 2, Wis 15, Cha 10; Special Attacks rake (1d4); Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab, pounce, rake (1d6)."
+		]
+	},
+	"lion": { "copyof": "cat_big" },
+	"tiger": { "copyof": "cat_big" },
+	"cat_small_cheetah_leopard": {
+		"name": "Cat, Small (Cheetah, Leopard)",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Cat, Small (Cheetah, Leopard)",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Cheetah}",
+			"",
+			"This large, sleek feline has a golden coat spotted with black. Its long and powerful legs are obviously capable of great speed.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 50 ft.; AC +1 natural armor; Attack bite (1d4 plus trip), 2 claws (1d2); Ability Scores Str 12, Dex 21, Con 13, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus trip), 2 claws (1d3); Ability Scores Str +4, Dex -2, Con +2; Special Qualities sprint."
+		]
+	},
+	"cheetah": { "copyof": "cat_small_cheetah_leopard" },
+	"leopard": { "copyof": "cat_small_cheetah_leopard" },
+	"caterpillar_giant": {
+		"name": "Caterpillar, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Caterpillar, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/184}  ",
+			"**Companion Type** Vermin",
+			"",
+			"This many-legged wormlike creature is a larval form of a moth or butterfly, but as long as it remains a vermin companion, it will not go through this metamorphosis.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft. climb 30 ft.; AC +2 natural armor; Attack bite (1d6), bristles (secondary natural attack, 1d4 piercing plus poison); Ability Scores Str 14, Dex 13, Con 13, Int -, Wis 11, Cha 2; Special Attacks bristles (a creature attacking the giant caterpillar with a natural attack or non-reach melee weapon must succeed at a Reflex save or take damage as if the caterpillar had struck the creature with its bristles attack; Dex-based DC with a +2 racial bonus), poison (frequency 1 round [4]; effect 1d2 Str damage; cure 1 save; Con-based DC); Special Qualities compression, darkvision 60 ft.; CMD can't be tripped",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d8), bristles (secondary natural attack, 1d6 piercing plus poison); Ability Scores Str +4, Dex -2, Con +2"
+		]
+	},
+	"giant_caterpillar": { "copyof": "caterpillar_giant" },
+	"cattle": {
+		"name": "Cattle",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Cattle",
+			"",
+			"{SOURCE Ultimate Wilderness/179}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** [Cattle](monster/aurochs)",
+			"",
+			"Commonly seen as a docile farm animal, an ill-tempered bull or cow can be an effective animal companion as well.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +2 natural armor; Attack gore (1d6); Ability Scores Str 14, Dex 12, Con 12, Int 2, Wis 11, Cha 4; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack gore (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Qualities powerful charge (gore, 1d8), trample."
+		]
+	},
+	"cave_salamander": {
+		"name": "Cave Salamander",
+		"sources": [ "Monster Codex" ],
+		"description": [
+			"## Cave Salamander",
+			"",
+			"{SOURCE Monster Codex/128}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** [Cave Salamander](monster/monitor_lizard)",
+			"",
+			"This immense lizard moves with a slow but relentless gait. Its feet end in large talons, and ropes of drool hang from its toothy maw.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +2 natural armor; Attack bite (1d6); Ability Scores Str 13, Dex 12, Con 13, Int 1, Wis 12, Cha 4; Special Qualities darkvision 60 ft.",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks combat training (see {skill/Handle Animal})."
+		]
+	},
+	"centipede_giant": {
+		"name": "Centipede, Giant",
+		"sources": [ "Ultimate Magic" ],
+		"description": [
+			"## Centipede, Giant",
+			"",
+			"{SOURCE Ultimate Magic/36}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Centipede}",
+			"",
+			"This lengthy, segmented horror writhes and twists, pulsing its venomous mandibles in search of prey.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., climb 20 ft.; AC +2 natural armor; Attack bite (1d4 plus poison); Ability Scores Str 8, Dex 17, Con 11, Int -, Wis 10, Cha 2; Special Attacks poison (frequency 1 round [6], effect 1 Dex damage, cure 1 save, Con-based DC); Special Qualities darkvision 60 ft; CMD can't be tripped",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus poison); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"giant_centipede": { "copyof": "centipede_giant" },
+	"ceratosaurus": {
+		"name": "Ceratosaurus",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Ceratosaurus",
+			"",
+			"{SOURCE Bestiary 5/312}  ",
+			"**Companion Type** Animal",
+			"",
+			"Bladelike horns jut from the snout and eye ridges of this toothy, bipedal dinosaur.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +4 natural armor; Attack bite (1d8); Ability Scores Str 14, Dex 17, Con 11, Int 2, Wis 11, Cha 10; Special Qualities low-light vision, scent, trip",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities blood rage, ferocity."
+		]
+	},
+	"chalicotherium": {
+		"name": "Chalicotherium",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Chalicotherium",
+			"",
+			"{SOURCE Bestiary 5/312}  ",
+			"**Companion Type** Animal",
+			"",
+			"This huge, rather slow-moving and slothlike creature has long, clawed forelimbs and short rear legs.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., climb 30 ft.; AC +4 natural armor; Attack 2 claws (1d4); Ability Scores Str 12, Dex 14, Con 13, Int 2, Wis 13, Cha 3; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks red (2 claws, 1d6)."
+		]
+	},
+	"chimpanzee": {
+		"name": "Chimpanzee",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Chimpanzee",
+			"",
+			"{SOURCE Ultimate Wilderness/179}  ",
+			"**Companion Type** Animal",
+			"",
+			"This small primate is more dangerous than its size suggests.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., climb 30 ft.; AC +1 natural armor; Attack bite (1d4), slam (1d4 plus grab); Ability Scores Str 13, Dex 17, Con 12, Int 2, Wis 12, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6), slam (1d4 plus grab); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"cockroach_giant": {
+		"name": "Cockroach, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Cockroach, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/184}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Cockroach}",
+			"",
+			"Swift and unsettling, the giant cockroach is notoriously difficult to slay. These creatures prefer dark places and seem to have no opposition to crawling through filth.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., climb 30 ft., fly 20 ft. (poor); AC +1 natural armor; Attack bite (1d4); Ability Scores Str 9, Dex 10, Con 17, Int -, Wis 11, Cha 2; Special Qualities darkvision 60 ft., hold breath, light sensitivity, tremorsense 60 ft.; CMD +8 vs. trip; Bonus Feat(s) {feat/Endurance}",
+			"",
+			"**4th-Level Advancement:** Speed 30 ft. climb 30 ft., fly 30 ft. (poor); AC +2 natural armor; Ability Scores Str +2, Dex +2, Con +2; Bonus Feat(s) {feat/Diehard}."
+		]
+	},
+	"giant_cockroach": { "copyof": "cockroach_giant" },
+	"corpse_eater_fungus": {
+		"name": "Corpse-Eater Fungus",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Corpse-Eater Fungus",
+			"",
+			"{SOURCE Ultimate Wilderness/182}  ",
+			"**Companion Type** Plant",
+			"",
+			"This pale mass of fungal matter looks something like a spider with a thorny, acidic mouth in place of a body.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +2 natural armor; Attack bite (1d6 plus 1d2 acid); Ability Scores Str 14, Dex 13, Con 12, Int 1, Wis 11, Cha 4; Special Attacks spit acid (ranged touch attack, 30-foot range, 1d6 acid damage); Special Qualities darkvision 60 ft.; CMD +12 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d8 plus 1d4 acid); Ability Scores Str +4, Dex -2, Con +2; Special Attacks spit acid (ranged touch attack, 30-foot range, 1d8 acid damage); Special Qualities darkvision 60 ft.."
+		]
+	},
+	"crab_giant": {
+		"name": "Crab, Giant",
+		"sources": [ "Ultimate Magic" ],
+		"description": [
+			"## Crab, Giant",
+			"",
+			"{SOURCE Ultimate Magic/36}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Crab}",
+			"",
+			"This lumbering hard-shelled crab stands as tall as a dwarf, its massive pincers waving menacingly.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., swim 20 ft.; AC +5 natural armor; Attack 2 claws (1d3 plus grab); Ability Scores Str 13, Dex 14, Con 13, Int -, Wis 11, Cha 4; Special Attacks constrict (1d3); Special Qualities aquatic, darkvision, water dependency (survive out of water for 1 hour per point of Con, after which it begins to suffocate as if it were drowning); CMD +12 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack 2 claws (1d4 plus grab); Ability Scores Str +2, Dex -2, Con +2; Special Attacks constrict (1d4)."
+		]
+	},
+	"giant_crab": { "copyof": "crab_giant" },
+	"creeping_puffball": {
+		"name": "Creeping Puffball",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Creeping Puffball",
+			"",
+			"{SOURCE Ultimate Wilderness/182}  ",
+			"**Companion Type** Plant",
+			"",
+			"This surprisingly mobile, multicolored ball of fungus crawls around on a nest of dozens of little filament-like \"legs.\" Its poisonous spores cause those affected to endure bright, dazzling spots of color.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +1 natural armor; Attack slam (1d4 plus poison); Ability Scores Str 12, Dex 15, Con 14, Int 1, Wis 12, Cha 9; Special Attacks poison (frequency 1 round [4]; effect 1d2 Wis damage and dazzled; cure 1 save; Con-based); Special Qualities darkvision 60 ft., defensive puff (1/minute as an immediate action when hit, the fungus can expose one adjacent creature to its poison); CMD can't be tripped",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack slam (1d6 plus poison); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"crocodile": {
+		"name": "Crocodile (Alligator)",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Crocodile (Alligator)",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Crocodile}",
+			"",
+			"This reptile lunges out of the placid water with shocking speed. Its jaw gapes open in a roar, its powerful tail lashing behind.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., swim 30 ft.; AC +4 natural armor; Attack bite (1d6); Ability Scores Str 15, Dex 14, Con 15, Int 1, Wis 12, Cha 2; Special Qualities hold breath, low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d8) or tail slap (1d12); Ability Scores Str +4, Dex -2, Con +2; Special Attacks death roll, grab, sprint."
+		]
+	},
+	"alligator": { "copyof": "crocodile" },
+	"dallo": {
+		"name": "Dallo",
+		"sources": [ "Pathfinder #118: Siege of Stone" ],
+		"description": [
+			"## Dallo",
+			"",
+			"{SOURCE Pathfinder #118: Siege of Stone/82}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dallo}",
+			"",
+			"This squat, grunting creature stinks of musk and earth. Leathery plates and black horns protect its woolly underside.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., burrow 10 ft.; AC +2 natural armor; Attack 2 claws (1d3), gore (1d4); Ability Scores Str 11, Dex 12, Con 13, Int 2, Wis 13, Cha 8; Special Qualities darkvision 30 ft., low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack gore (1d6), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"deinotherium": {
+		"name": "Deinotherium",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Deinotherium",
+			"",
+			"{SOURCE Bestiary 6/311}  ",
+			"**Companion Type** Animal",
+			"",
+			"This creature resembles an elephant, though it has a shorter, thicker trunk and sharp, downward-curving tusks.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +4 natural armor; Attack gore (1d8), slam (1d6); Ability Scores Str 14, Dex 10, Con 15, Int 2, Wis 13, Cha 3; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack gore (2d6), slam (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks sweep, trample."
+		]
+	},
+	"devil_monkey": {
+		"name": "Devil Monkey",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Devil Monkey",
+			"",
+			"{SOURCE Bestiary 6/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Devil Monkey}",
+			"",
+			"This towering baboon has fiery orange fur, with two tufts of hair curling up like horns on its head.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +3 natural armor; Attack bite (1d8); Ability Scores Str 15, Dex 19, Con 8, Int 2, Wis 15, Cha 10; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Large; Speed 40; AC +2 natural armor; Attack bite (1d10); Ability Scores Str +8, Dex -2, Con +4; Special Qualities puncture armor, rock throwing."
+		]
+	},
+	"digmaul": {
+		"name": "Digmaul",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Digmaul",
+			"",
+			"{SOURCE Bestiary 5/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Digmaul}",
+			"",
+			"This muscular, cougarlike cat has fearsome teeth and a thick tail ending in a spiked ball.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 50 ft.; AC +1 natural armor; Attack bite (1d4), 2 claws (1d2), tail (1d2); Ability Scores Str 10, Dex 21, Con 13, Int 2, Wis 12, Cha 6; Special Qualities ball tail, low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6), 2 claws (1d3), tail (1d3); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"allosaurus": {
+		"name": "Allosaurus",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Dinosaur (Allosaurus)",
+			"",
+			"{SOURCE Bestiary 2/90}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Allosaurus)}",
+			"",
+			"This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful arms that end in sharp claws.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +4 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab, pounce."
+		]
+	},
+	"ankylosaurus": {
+		"name": "Ankylosaurus",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Dinosaur (Ankylosaurus)",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Ankylosaurus)}",
+			"",
+			"Thick bony plates armor the domelike back of this quadrupedal dinosaur, its powerfully muscled tail ending in a bony club.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +9 natural armor; Attack tail (1d6); Ability Scores Str 10, Dex 14, Con 9, Int 2, Wis 12, Cha 8; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack tail (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks stun."
+		]
+	},
+	"brachiosaurus": {
+		"name": "Brachiosaurus",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Dinosaur (Brachiosaurus)",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Brachiosaurus)}",
+			"",
+			"A long tail counterbalances this reptile's equally long neck, at the end of which a relatively small head pulls food from the treetop.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +3 natural armor; Attack tail (2d4); Ability Scores Str 13, Dex 14, Con 11, Int 2, Wis 13, Cha 10; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack tail (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks trample (1d8)."
+		]
+	},
+	"deinonychus": {
+		"name": "Deinonychus",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Dinosaur (Deinonychus)",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Deinonychus)}",
+			"",
+			"This brightly colored dinosaur exudes a dangerous ferocity. Each foot is armed with a large, sickle-shaped claw.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 60 ft.; AC +1 natural armor; Attack 2 talons (1d6), bite (1d4); Ability Scores Str 11, Dex 17, Con 17, Int 2, Wis 12, Cha 14; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Medium; AC +2 natural armor; Attack 2 talons (1d8), bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks pounce."
+		]
+	},
+	"dimetrodon": {
+		"name": "Dimetrodon",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Dinosaur (Dimetrodon)",
+			"",
+			"{SOURCE Bestiary 3/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Dimetrodon)}",
+			"",
+			"The massive sail on the back of this squat reptilian creature flexes and twitches as the beast stalks forward.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +2 natural armor; Attack bite (1d8); Ability Scores Str 12, Dex 16, Con 14, Int 1, Wis 12, Cha 3; Special Attacks tearing bite",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +1 natural armor; Attack bite (2d8); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"dimorphodon": {
+		"name": "Dimorphodon",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Dinosaur (Dimorphodon)",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Dimorphodon)}",
+			"",
+			"The head of this colorful red and purple flying reptile is overly large, and its jaws are lined with tiny sharp teeth.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 10 ft., fly 80 ft. (clumsy); AC +1 natural armor; Attack bite (1d4); Ability Scores Str 8, Dex 15, Con 12, Int 2, Wis 14, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Attack bite (1d6); Ability Scores Str +2, Con +2; Special Attacks poison (frequency 1 round (6); effect 1 Str damage; cure 1 save, Con-based DC)."
+		]
+	},
+	"diplodocus": {
+		"name": "Diplodocus",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Dinosaur (Diplodocus)",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Diplodocus)}",
+			"",
+			"This enormous, long-necked quadruped moves with an uncanny grace, holding its lengthy, whiplike tail out level behind it.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +6 natural armor; Attack tail (1d8); Ability Scores Str 10, Dex 14, Con 10, Int 2, Wis 12, Cha 10; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack tail (2d6); Ability Scores Str +6, Con +4; Special Attacks tail lash."
+		]
+	},
+	"elasmosaurus": {
+		"name": "Elasmosaurus",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Dinosaur (Elasmosaurus)",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/84}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Elasmosaurus)}",
+			"",
+			"Long-necked and long-tailed, this large, predatory reptile glides through the water on four powerful flippers.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., swim 50 ft.; AC +2 natural armor; Attack bite (1d8); Ability Scores Str 10, Dex 18, Con 12, Int 2, Wis 13, Cha 9; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"iguanodon": {
+		"name": "Iguanodon",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Dinosaur (Iguanodon)",
+			"",
+			"{SOURCE Bestiary 3/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Iguanodon)}",
+			"",
+			"This dinosaur seems comfortable on two legs or four. Its front limbs are each adorned with a cruel-looking, thumblike spike.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +3 natural armor; Attack claw (1d6); Ability Scores Str 17, Dex 15, Con 15, Int 2, Wis 12, Cha 7",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack claw (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Qualities thumb spikes."
+		]
+	},
+	"pachycephalosaurus": {
+		"name": "Pachycephalosaurus",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Dinosaur (Pachycephalosaurus)",
+			"",
+			"{SOURCE Bestiary 3/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Pachycephalosaurus)}",
+			"",
+			"This bipedal reptile has a rounded, dome-like head adorned with bony frills and ridges.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +3 natural armor; Attack gore (1d8); Ability Scores Str 15, Dex 16, Con 13, Int 2, Wis 12, Cha 5",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack gore (1d10); Ability Scores Str +8, Dex -2, Con +4; Special Attacks clobbering charge."
+		]
+	},
+	"parasaurolophus": {
+		"name": "Parasaurolophus",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Dinosaur (Parasaurolophus)",
+			"",
+			"{SOURCE Bestiary 2/91}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Parasaurolophus)}",
+			"",
+			"This thick-bodied dinosaur has a whip-like tail and a long neck, its head topped by the crest of a backward-curving horn.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +2 natural armor; Attack tail (1d6); Ability Scores Str 11, Dex 18, Con 9, Int 2, Wis 13, Cha 10; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack tail (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks trample (1d8)."
+		]
+	},
+	"pteranodon": {
+		"name": "Pteranodon",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Dinosaur (Pteranodon)",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/85}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Pteranodon)}",
+			"",
+			"This flying reptile has two huge wings and a distinctive backward-sweeping crest decorating its head.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 10 ft., fly 50 ft. (clumsy); AC +0 natural armor; Attack bite (1d8); Ability Scores Str 8, Dex 21, Con 10, Int 2, Wis 14, Cha 12; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"spinosaurus": {
+		"name": "Spinosaurus",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Dinosaur (Spinosaurus)",
+			"",
+			"{SOURCE Bestiary 3/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Spinosaurus)}",
+			"",
+			"This titanic saurian has a crocodilian snout, powerful front claws, and a colorful sail-like ridge that runs down its back.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., swim 20 ft.; AC +3 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str 18, Dex 15, Con 15, Int 2, Wis 13, Cha 3",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"stegosaurus": {
+		"name": "Stegosaurus",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Dinosaur (Stegosaurus)",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/85}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Stegosaurus)}",
+			"",
+			"This huge dinosaur has a small head, twin rows of sharp dorsal plates, and a muscular tail terminating in a set of bony spikes.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +6 natural armor; Attack tail (2d6); Ability Scores Str 10, Dex 18, Con 10, Int 2, Wis 12, Cha 10; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack tail (2d8 plus trip); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"styracosaurus": {
+		"name": "Styracosaurus",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Dinosaur (Styracosaurus)",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Styracosaurus)}",
+			"",
+			"This bulky, four-legged dinosaur has a long nasal horn and a crest studded with additional horns sweeping back from its skull.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +6 natural armor; Attack gore (1d8); Ability Scores Str 10, Dex 13, Con 11, Int 2, Wis 12, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks ferocity, reflexive strike."
+		]
+	},
+	"triceratops": {
+		"name": "Triceratops",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Dinosaur (Triceratops)",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/86}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Triceratops)}",
+			"",
+			"This beast's armored head has three sharp horns decorating its face and a large round crest angling back over its neck from its skull.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +6 natural armor; Attack gore (1d8); Ability Scores Str 10, Dex 13, Con 11, Int 2, Wis 12, Cha 7",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks powerful charge."
+		]
+	},
+	"tylosaurus": {
+		"name": "Tylosaurus",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Dinosaur (Tylosaurus)",
+			"",
+			"{SOURCE Bestiary 2/91}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Tylosaurus)}",
+			"",
+			"Surging out of the water, this massive lizard is shaped like a giant fish with a powerful, toothed maw.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., swim 50 ft.; AC +3 natural armor; Attack bite (1d6); Ability Scores Str 10, Dex 17, Con 10, Int 2, Wis 13, Cha 9; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab."
+		]
+	},
+	"tyrannosaurus": {
+		"name": "Tyrannosaurus",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Dinosaur (Tyrannosaurus)",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/86}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Tyrannosaurus)}",
+			"",
+			"This bipedal dinosaur's front arms seem small compared to the rest of its bulk, but its enormous head is all teeth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +4 natural armor; Attack bite (1d8); Ability Scores Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab, powerful bite."
+		]
+	},
+	"velociraptor": {
+		"name": "Velociraptor",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Dinosaur (Velociraptor)",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dinosaur (Velociraptor)}",
+			"",
+			"This small, sleek dinosaur has vicious, snapping jaws and feet that end in large talons for gutting prey.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 60 ft.; AC +1 natural armor; Attack 2 talons (1d6), bite (1d4); Ability Scores Str 11, Dex 17, Con 17, Int 2, Wis 12, Cha 14; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Medium; AC +2 natural armor; Attack 2 talons (1d8), bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks pounce."
+		]
+	},
+	"dire_bat": {
+		"name": "Dire Bat",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Dire Bat",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/30}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dire Bat}",
+			"",
+			"This giant, furry bat is nearly the size of an ox, with dark leathery wings that open wider than two men with arms outstretched.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., fly 40 ft. (good); AC +0 natural armor; Attack bite (1d6); Ability Scores Str 9, Dex 17, Con 9, Int 2, Wis 14, Cha 6; Special Qualities blindsense 40 ft.",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"dire_polar_bear": {
+		"name": "Dire Polar Bear",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Dire Polar Bear",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dire Polar Bear}",
+			"",
+			"Fearsome bony growths protrude from several spots in this massive animal's snowy fur.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +2 natural armor; Attack bite (1d4), 2 claws (1d3); Ability Scores Str 15, Dex 15, Con 13, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"dire_rat": {
+		"name": "Dire Rat",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Dire Rat",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/232}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dire Rat}",
+			"",
+			"This filthy rat is the size of a small dog. It has a coat of coarse fur, a long and scabby tail, and two glittering eyes.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft., climb 20 ft., swim 20 ft.; Attack bite (1d4); Ability Scores Str 10, Dex 17, Con 12, Int 2, Wis 12, Cha 4; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Attack bite (1d4 plus disease); Ability Scores Str +2, Con +2."
+		]
+	},
+	"dog": {
+		"name": "Dog",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Dog",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dog}",
+			"",
+			"This small dog has a rough coat and a hungry look in its dark brown eyes.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +2 natural armor; Attack bite (1d4); Ability Scores Str 13, Dex 17, Con 15, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"dolphin": {
+		"name": "Dolphin",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Dolphin",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/88}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dolphin}",
+			"",
+			"This streamlined, fish-like mammal has sparkling eyes over a smiling mouth filled with hundreds of teeth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 80 ft.; AC +1 natural armor; Attack slam (1d4); Ability Scores Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, hold breath",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Dex +2, Con +2; Special Qualities blindsight 120 ft.."
+		]
+	},
+	"dragonfly_giant": {
+		"name": "Dragonfly, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Dragonfly, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/184}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Dragonfly}",
+			"",
+			"These long-winged insects have dazzlingly colorful bodies.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., fly 40 ft. (perfect); AC +2 natural armor; Attack bite (1d8); Ability Scores Str 13, Dex 17, Con 12, Int -, Wis 12, Cha 9; Special Qualities darkvision 60 ft.; CMD +8 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +4, Dex -2, Con +4;; Bonus Feat(s) {feat/Flyby Attack}."
+		]
+	},
+	"giant_dragonfly": { "copyof": "dragonfly_giant" },
+	"dunkleosteus": {
+		"name": "Dunkleosteus",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Dunkleosteus",
+			"",
+			"{SOURCE Bestiary 6/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dunkleosteus}",
+			"",
+			"A gigantic, prehistoric fish cuts through the water, its head like a snapping turtle, complete with sharp, toothlike plates.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 60 ft.; AC +4 natural armor; Attack bite (1d8); Ability Scores Str 14, Dex 18, Con 10, Int 1, Wis 13, Cha 6; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities grab (bite), gulp."
+		]
+	},
+	"elasmotherium": {
+		"name": "Elasmotherium",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Elasmotherium",
+			"",
+			"{SOURCE Bestiary 6/312}  ",
+			"**Companion Type** Animal",
+			"",
+			"This lumbering, four-legged, rhino-like beast has thick hide and a single immense horn protruding from the top of its head.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +4 natural armor; Attack gore (1d8); Ability Scores Str 14, Dex 12, Con 15, Int 2, Wis 17, Cha 3; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks impaling horn, powerful charge (gore)."
+		]
+	},
+	"electric_eel": {
+		"name": "Electric Eel",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Electric Eel",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/119}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Electric Eel}",
+			"",
+			"This six-foot-long, snake-like fish moves slowly. A strange popping and snapping sound occasionally emits from the creature's body.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 5 ft., swim 30 ft.; Attack bite (1d6); Ability Scores Str 12, Dex 14, Con 18, Int 1, Wis 10, Cha 6; Special Qualities amphibious, low-light vision, electricity resistance 5",
+			"",
+			"**4th-Level Advancement:** AC +2 natural armor; Ability Scores Dex +2, Con +2; Special Attacks electricity (1d6); Special Qualities electricity resistance 10."
+		]
+	},
+	"elephant_mastodon": {
+		"name": "Elephant/Mastodon",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Elephant/Mastodon",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/128}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Elephant}",
+			"",
+			"These thick-skinned animals bear large ivory tusks flanking a long, prehensile snout.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +4 natural armor; Attack gore (1d8), slam (1d6); Ability Scores Str 14, Dex 14, Con 13, Int 2, Wis 13, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (2d6), slam (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks trample (2d6)."
+		]
+	},
+	"elephant": { "copyof": "elephant_mastodon" },
+	"mastodon": { "copyof": "elephant_mastodon" },
+	"elk": {
+		"name": "Elk",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Elk",
+			"",
+			"{SOURCE Bestiary 3/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Elk}",
+			"",
+			"This majestic beast stands the height of a man at its shoulders, a many-tipped rack of proud antlers crowning its head.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 50 ft.; AC +1 natural armor; Attack gore (1d6) or 2 hooves (1d3); Ability Scores Str 12, Dex 17, Con 14, Int 2, Wis 15, Cha 5; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack gore (1d8) or 2 hooves (1d4); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"enchanter_heron": {
+		"name": "Enchanter Heron",
+		"sources": [ "Pathfinder #121: The Lost Outpost" ],
+		"description": [
+			"## Enchanter Heron",
+			"",
+			"{SOURCE Pathfinder #121: The Lost Outpost/82}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Enchanter Heron}",
+			"",
+			"This large bird has gray-and-white feathers, a long beak, and a bulbous sac on its throat that glows with a pale, sapphire light.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., fly 20 ft. (average); AC +2 natural armor; Attack bite (1d6); Ability Scores Str 13, Dex 15, Con 12, Int 2, Wis 11, Cha 7; Special Qualities low-light vision, throat sack",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks swallow whole."
+		]
+	},
+	"eohippus": {
+		"name": "Eohippus",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Eohippus",
+			"",
+			"{SOURCE Ultimate Wilderness/179}  ",
+			"**Companion Type** Animal",
+			"",
+			"The eohippus is a small, primeval ancestor of the modern horse. It has three-toed feet rather than hooves.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +2 natural armor; Attack bite (1d4); Ability Scores Str 11, Dex 15, Con 12, Int 2, Wis 11, Cha 4; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Dex +2, Con +2."
+		]
+	},
+	"eurypterid": {
+		"name": "Eurypterid",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Eurypterid",
+			"",
+			"{SOURCE Ultimate Wilderness/184}  ",
+			"**Companion Type** Vermin",
+			"",
+			"Also known as sea scorpions, these aquatic insects have pincers and a long stinger.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., swim 40 ft.; AC +2 natural armor; Attack 2 claws (1d3), sting (1d3 plus poison); Ability Scores Str 10, Dex 11, Con 12, Int -, Wis 13, Cha 2; Special Attacks poison (frequency 1 round [4]; effect 1 Con damage; cure 1 save; Con-based DC); Special Qualities darkvision 60 ft.; CMD +8 vs. trip",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack 2 claws (1d4), sting (1d4 plus poison); Ability Scores Str +8, Dex -2, Con +4; Special Attacks poison (frequency 1 round [6]; effect 1d2 Con damage; cure 1 save; Con-based DC).."
+		]
+	},
+	"faerie_mount": {
+		"name": "Faerie Mount",
+		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
+		"description": [
+			"## Faerie Mount",
+			"",
+			"{SOURCE Pathfinder #119: Prisoners of the Blight/82}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Faerie Mount}",
+			"",
+			"Short legs and overlarge ears make this broad-chested canine seem almost comical.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +1 natural armor; Attack bite (1d4); Ability Scores Str 9, Dex 12, Con 15, Int 2, Wis 13, Cha 12; Special Qualities low-light vision, scent, stability",
+			"",
+			"**4th-Level Advancement:** Size Medium; Speed 40 ft.; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities sure-footed."
+		]
+	},
+	"falcon": {
+		"name": "Falcon",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Falcon",
+			"",
+			"{SOURCE Ultimate Wilderness/179}  ",
+			"**Companion Type** Animal",
+			"",
+			"This swift raptor has amazing eyesight and sharp talons.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 10 ft., fly 90 ft. (good); AC +1 natural armor; Attack bite (1d4), 2 talons (1d3); Ability Scores Str 10, Dex 15, Con 11, Int 2, Wis 15, Cha 6; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Ability Scores Dex +2, Con +2."
+		]
+	},
+	"frilled_lizard_giant": {
+		"name": "Frilled Lizard, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Frilled Lizard, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/179}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Frilled Lizard}",
+			"",
+			"This large lizard can display a frightening frill on its neck when it charges.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., climb 30 ft.; AC +4 natural armor; Attack bite (1d6), tail (1d4); Ability Scores Str 13, Dex 15, Con 13, Int 2, Wis 14, Cha 10; Special Attacks intimidating charge; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tail (1d6); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"giant_frilled_lizard": { "copyof": "frilled_lizard_giant" },
+	"frog_father": {
+		"name": "Frog Father",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Frog Father",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Frog Father}",
+			"",
+			"This elephantine amphibian has a grotesquely long tongue and beady eyes.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., swim 30 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 15, Dex 13, Con 16, Int 1, Wis 9, Cha 6; Special Attacks tongue, pull; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Dex +2; Special Attacks swallow whole."
+		]
+	},
+	"frog": {
+		"name": "Frog",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Frog",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/135}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Frog}",
+			"",
+			"This creature looks like a normal frog, with moist, mottled, blackish-green skin, but grown to truly monstrous size.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., swim 30 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 15, Dex 13, Con 16, Int 1, Wis 9, Cha 6; Special Attacks tongue, pull; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Dex +2; Special Attacks swallow whole."
+		]
+	},
+	"gallerok": {
+		"name": "Gallerok",
+		"sources": [ "Pathfinder #118: Siege of Stone" ],
+		"description": [
+			"## Gallerok",
+			"",
+			"{SOURCE Pathfinder #118: Siege of Stone/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Gallerok}",
+			"",
+			"This stout, serpentine creature's body ripples with muscle. Jagged fangs line its broad, powerful jaws.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., climb 20 ft.; AC +2 natural armor; Attack bite (1d4); Ability Scores Str 12, Dex 16, Con 13, Int 1, Wis 10, Cha 5; Special Qualities darkvision 60 ft., low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Attacks constrict (1d6), grab."
+		]
+	},
+	"gar": {
+		"name": "Gar",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Gar",
+			"",
+			"{SOURCE Bestiary 2/128}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Gar}",
+			"",
+			"This long, lean fish has a muscular body and a head with long jaws filled with sharp teeth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 60 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 14, Dex 14, Con 15, Int 1, Wis 13, Cha 2; Special Attacks grab; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"giganotosaurus": {
+		"name": "Giganotosaurus",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Giganotosaurus",
+			"",
+			"{SOURCE Bestiary 6/312}  ",
+			"**Companion Type** Animal",
+			"",
+			"This bipedal dinosaur has a large head and cavernous jaws full of large, sharp teeth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +4 natural armor; Attack bite (1d6),2 claws (1d3); Ability Scores Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (1d8), 2 claws (1d4); Ability Scores Str +8, Dex -2, Con +4; Special Qualities grab (bite)."
+		]
+	},
+	"giraffe": {
+		"name": "Giraffe",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Giraffe",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giraffe}",
+			"",
+			"This animal, covered in a spotted pattern, has a disproportionately long neck that allows it to tower over other animals.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 50 ft.; AC +2 natural armor; Attack 2 hooves (1d6); Ability Scores Str 16, Dex 17, Con 12, Int 2, Wis 13, Cha 7; Special Qualities low-light vision, natural weapons",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 hooves (1d8), slam (1d8); Ability Scores Str +4, Dex -2, Con +4."
+		]
+	},
+	"gliding_turtle": {
+		"name": "Gliding Turtle",
+		"sources": [ "Pathfinder #121: The Lost Outpost" ],
+		"description": [
+			"## Gliding Turtle",
+			"",
+			"{SOURCE Pathfinder #121: The Lost Outpost/83}  ",
+			"**Companion Type** Animal",
+			"",
+			"This giant turtle has a large, thin membrane of scaly skin extending from its shell to its legs.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 10 ft., swim 20 ft.; AC +2 natural armor; Attack bite (1d6); Ability Scores Str 12, Dex 12, Con 12, Int 2, Wis 11, Cha 5; Special Qualities low-light vision, shell",
+			"",
+			"**4th-Level Advancement:** Size Large; Speed fly 30 ft. (clumsy); AC +3 natural armor; Attack bite (1d8); Ability Scores Str +2, Dex -2, Con +2; Special Attacks gliding charge; Special Qualities glide."
+		]
+	},
+	"goblin_dog": {
+		"name": "Goblin Dog",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Goblin Dog",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/157}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Goblin Dog}",
+			"",
+			"This mangy dog's face has the flat nose, beady eyes, and protruding teeth of a rat grown grotesquely large.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 50 ft.; Attack bite (1d4); Ability Scores Str 11, Dex 16, Con 11, Int 2, Wis 12, Cha 8; Special Attacks allergic reaction; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +4."
+		]
+	},
+	"goliath_frog": {
+		"name": "Goliath Frog",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Goliath Frog",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Goliath Frog}",
+			"",
+			"This massive, mottled amphibian glistens with slime, and its tongue drips with saliva.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., swim 30 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 15, Dex 13, Con 16, Int 1, Wis 9, Cha 6; Special Attacks tongue, pull; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Dex +2; Special Attacks swallow whole."
+		]
+	},
+	"gorthek": {
+		"name": "Gorthek",
+		"sources": [ "Monster Codex" ],
+		"description": [
+			"## Gorthek",
+			"",
+			"{SOURCE Monster Codex/172}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Gorthek}",
+			"",
+			"This massive quadruped has a thick, wrinkled hide, curving horns, and shaggy hair that frames its leonine face.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +4 natural armor; Attack gore (1d8); Ability Scores Str 16, Dex 11, Con 13, Int 2, Wis 10, Cha 5; Special Qualities darkvision 60 ft., low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks powerful charge (gore, 4d6+twice Strength modifier)."
+		]
+	},
+	"griffon": {
+		"name": "Griffon",
+		"sources": [ "Inner Sea Combat" ],
+		"description": [
+			"## Griffon",
+			"",
+			"{SOURCE Inner Sea Combat/14}  ",
+			"**Companion Type** Monstrous  ",
+			"**Monster Entry:** {monster/Griffon}",
+			"",
+			"This majestic beast has the body of a lion, the head and forelegs of a great eagle, and a massive pair of feathered wings.",
+			"",
+			"**Prerequisites** Diplomacy, Intimidate, or Handle Animal 5 ranks; Ride 5 ranks",
+			"",
+			"**Starting Statistics:** Size Large; Speed 30 ft., fly 40 ft. (average); AC +4 natural armor; Attack bite (1d6); Ability Scores Str 16, Dex 15, Con 16, Int 5, Wis 13, Cha 8; Special Qualities unable to carry a rider while flying, darkvision 60 ft., low-light vision, scent; Languages Common (cannot speak)",
+			"",
+			"**7th-Level Advancement:** Speed 40 ft., fly 80 ft. (average); AC +2 natural armor; Attack bite (1d6), 2 talons (1d6); Ability Scores Str +2, Con +2; Special Attacks pounce, rake (1d6); Special Qualities unable to carry a rider while flying."
+		]
+	},
+	"grizzly_bear": {
+		"name": "Grizzly Bear",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Grizzly Bear",
+			"",
+			"{SOURCE Ultimate Wilderness/179}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Grizzly Bear}",
+			"",
+			"The infamous grizzly bear is a lumbering and quite impressive companion, particularly when it rises up on its hind feet to loom large. Grizzly bears strike fear into the hearts of most who encounter them.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str 17, Dex 13, Con 13, Int 2, Wis 13, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +4 natural armor; Attack bite (1d8), 2 claws (1d6 plus grab); Ability Scores Str +4, Dex -2, Con +4."
+		]
+	},
+	"gulper_plant": {
+		"name": "Gulper Plant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Gulper Plant",
+			"",
+			"{SOURCE Ultimate Wilderness/183}  ",
+			"**Companion Type** Plant",
+			"",
+			"This bulbous green plant can climb or crawl via a network of vines. Its central reservoir can gulp down foes to digest them in an internal well of acid, holding them tight while they struggle.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., climb 10 ft.; AC +1 natural armor; Attack 2 vines (primary natural attack, 1d4 bludgeoning plus grab); Ability Scores Str 12, Dex 11, Con 13, Int 1, Wis 10, Cha 3; Special Attacks swallow whole (1d6 acid); Special Qualities freeze, low-light vision; CMD can't be tripped",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 vines (primary natural attack, 1d6 bludgeoning plus grab); Ability Scores Str +6, Dex -2, Con +2; Special Attacks swallow whole (1d8 acid)"
+		]
+	},
+	"hammerhead_shark": {
+		"name": "Hammerhead Shark",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Hammerhead Shark",
+			"",
+			"{SOURCE Ultimate Wilderness/179}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Hammerhead Shark}",
+			"",
+			"This unusual shark is named for its blocky, rectangular head. The creature's eyes are on each side of its head.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 60 ft.; AC +3 natural armor; Attack bite (1d6); Ability Scores Str 13, Dex 14, Con 12, Int 1, Wis 15, Cha 6; Special Qualities aquatic, low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (1d8); Ability Scores Str +2, Dex -2, Con +4; Special Qualities blindsense 30 ft.."
+		]
+	},
+	"hippocampus": {
+		"name": "Hippocampus",
+		"sources": [ "Inner Sea Combat" ],
+		"description": [
+			"## Hippocampus",
+			"",
+			"{SOURCE Inner Sea Combat/14}  ",
+			"**Companion Type** Monstrous  ",
+			"**Monster Entry:** {monster/Hippocampus}",
+			"",
+			"This creature has the foreparts of a horse and the hindquarters of a fish. Its forelegs end in splayed fins rather than hooves.",
+			"",
+			"**Starting Statistics:** Size Large; Speed 5 ft., swim 40 ft.; AC +4 natural armor; Attack bite (1d4); Ability Scores Str 16, Dex 9, Con 15, Int 2, Wis 12, Cha 11; Special Qualities darkvision 60 ft., low-light vision, scent, water dependency",
+			"",
+			"**4th-Level Advancement:** Speed Swim 60 ft.; Attack bite (1d6); Ability Scores Str +2, Dex +4."
+		]
+	},
+	"hippogriff": {
+		"name": "Hippogriff",
+		"sources": [ "Inner Sea Combat" ],
+		"description": [
+			"## Hippogriff",
+			"",
+			"{SOURCE Inner Sea Combat/14}  ",
+			"**Companion Type** Monstrous  ",
+			"**Monster Entry:** {monster/Hippogriff}",
+			"",
+			"This large, brown, horse-like creature has a hawk's wings, talons, and hooked beak.",
+			"",
+			"**Starting Statistics:** Size Large; Speed 40 ft., fly 60 ft. (average); AC +2 natural armor; Attack bite (1d6); Ability Scores Str 15, Dex 15, Con 14, Int 2, Wis 12, Cha 9; Special Qualities unable to carry a rider while flying, darkvision 60 ft., low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Speed 40 ft., fly 100 ft. (average); Attack bite (1d6), 2 claws (1d4); Ability Scores Str +2, Con +2; Special Qualities unable to carry a rider while flying."
+		]
+	},
+	"hippopotamus": {
+		"name": "Hippopotamus",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Hippopotamus",
+			"",
+			"{SOURCE Bestiary 2/157}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Hippopotamus}",
+			"",
+			"This fleshy behemoth wallows forward on four stumpy legs. Its jaws spread wide in a roar of challenge, exposing massive, tusk-like teeth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +6 natural armor; Attack bite (1d8); Ability Scores Str 11, Dex 12, Con 12, Int 2, Wis 13, Cha 5; Special Qualities low-light vision, scent, sweat",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (2d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks trample."
+		]
+	},
+	"hobbe_hound": {
+		"name": "Hobbe Hound",
+		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
+		"description": [
+			"## Hobbe Hound",
+			"",
+			"{SOURCE Pathfinder #119: Prisoners of the Blight/89}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Hobbe Hound}",
+			"",
+			"Hobgoblin druids, hunters, and rangers who can take an animal companion can choose a hobbe hound.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack bite (1d4 plus allergic reaction); Ability Scores Str 12, Dex 15, Con 15, Int 2, Wis 10, Cha 7; Special Qualities allergic reaction, low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** AC +3 natural armor; Attack bite (1d6 plus allergic reaction); Ability Scores Str +6, Dex -2, Con +2; Special Qualities fire resistance 3."
+		]
+	},
+	"horse": {
+		"name": "Horse",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Horse",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Horse}",
+			"",
+			"This proud horse thunders across the grassy plain with fluid grace, wind tugging at its loose-fitting barding.",
+			"",
+			"**Starting Statistics:** Size Large; Speed 50 ft.; AC +4 natural armor; Attack bite (1d4), 2 hooves (secondary natural attack, 1d6); Ability Scores Str 16, Dex 13, Con 15, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Qualities combat trained."
+		]
+	},
+	"hunting_cactus": {
+		"name": "Hunting Cactus",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Hunting Cactus",
+			"",
+			"{SOURCE Ultimate Wilderness/183}  ",
+			"**Companion Type** Plant",
+			"",
+			"Able to crawl swiftly on five rootlike legs, the hunting cactus has long arms it can slam foes with - arms covered with hundreds of thin, sharp needles.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +3 natural armor; Attack 2 slams (1d6 bludgeoning and piercing); Ability Scores Str 14, Dex 13, Con 17, Int 2, Wis 13, Cha 6; Special Qualities needles (a creature grappling a hunting cactus or attacking it with a natural attack or unarmed strike takes 1d4 points of piercing damage); CMD +6 vs. trip",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 slams (1d8 bludgeoning and piercing); Ability Scores Str +8, Dex -2, Con +2; Special Qualities low-light vision"
+		]
+	},
+	"hyena": {
+		"name": "Hyena",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Hyena",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/179}  ",
+			"**Companion Type** Animal",
+			"",
+			"This hyena is covered in shaggy, tan-colored fur with black and brown stripes.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 50 ft.; AC +2 natural armor; Attack bite (1d4 plus trip); Ability Scores Str 10, Dex 17, Con 13, Int 2, Wis 13, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus trip); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"impaler_shrike": {
+		"name": "Impaler Shrike",
+		"sources": [ "Pathfinder #97: In Hell's Bright Shadow" ],
+		"description": [
+			"## Impaler Shrike",
+			"",
+			"{SOURCE Pathfinder #97: In Hell's Bright Shadow/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Impaler Shrike}",
+			"",
+			"This large bird has brown and gray feathers and a vicious hooked beak.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 10 ft., fly 60 ft. (average); Attack bite (1d4); Ability Scores Str 12, Dex 13, Con 13, Int 2, Wis 14, Cha 7; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +2, Con +2; Special Attacks impale."
+		]
+	},
+	"kangaroo": {
+		"name": "Kangaroo",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Kangaroo",
+			"",
+			"{SOURCE Bestiary 3/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Kangaroo}",
+			"",
+			"As tall as a grown human, this mouse-faced creature stands on powerful hind legs and has a stout tail trailing behind.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; Attack kick (1d4); Ability Scores Str 12, Dex 14, Con 13, Int 2, Wis 11, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack kick (1d6); Ability Scores Str +4, Dex +2, Con +2; Special Qualities speed increase (50 ft.)."
+		]
+	},
+	"kaprosuchus": {
+		"name": "Kaprosuchus",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Kaprosuchus",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal",
+			"",
+			"This massive, squat crocodilian has forward facing eyes, jutting teeth, and a pronounced snout.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +3 natural armor; Attack bite (1d6), tail slap (1d6); Ability Scores Str 15, Dex 14, Con 15, Int 1, Wis 14, Cha 2; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tail slap (1d8); Ability Scores Str +6, Dex -2, Con +4; Special Attacks ramming snout."
+		]
+	},
+	"kentrosaurus": {
+		"name": "Kentrosaurus",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Kentrosaurus",
+			"",
+			"{SOURCE Bestiary 6/312}  ",
+			"**Companion Type** Animal",
+			"",
+			"This quadrupedal dinosaur has two rows of dorsal spikes, a spiked tail, and two more spikes projecting from its shoulders.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +2 natural armor; Attack tail (1d8); Ability Scores Str 10, Dex 16, Con 10, Int 2, Wis 13, Cha 10; Special Qualities impaling strike, low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack tail (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities defensive spikes."
+		]
+	},
+	"leech_giant": {
+		"name": "Leech, Giant",
+		"sources": [ "Ultimate Magic" ],
+		"description": [
+			"## Leech, Giant",
+			"",
+			"{SOURCE Ultimate Magic/36}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Leech}",
+			"",
+			"A parasite ballooned to monstrous proportions undulates in the muck, its circular maw a spiral of teeth.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 5 ft., swim 20 ft.; AC +0 natural armor; Attack bite (1d4 plus attach); Ability Scores Str 9, Dex 14, Con 12, Int -, Wis 10, Cha 1; Special Attacks attach, blood drain (1 Str); Special Qualities amphibious, blindsense 30 ft., scent, susceptible to salt; CMD can't be tripped",
+			"",
+			"**7th-Level Advancement:** Size Medium; Attack bite (1d6 plus attach); Ability Scores Str +2, Dex -2, Con +2; Special Attacks blood drain (1 Str and 1 Con damage); Special Qualities blindsight 30 ft.."
+		]
+	},
+	"giant_leech": { "copyof": "leech_giant" },
+	"lizard_giant_chameleon": {
+		"name": "Lizard (Giant Chameleon)",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Lizard (Giant Chameleon)",
+			"",
+			"{SOURCE Bestiary 3/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Lizard (Giant Chameleon)}",
+			"",
+			"Nearly invisible in its surroundings, this scaly lizard's eyes dart about independently of each other.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., climb 30 ft.; Attack bite (1d6); Ability Scores Str 12, Dex 14, Con 14, Int 2, Wis 11, Cha 7; Special Qualities +10 Stealth when still, low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks pull (tongue, 5 ft.), tongue; Special Qualities speed increase (40 ft., climb 40 ft.)."
+		]
+	},
+	"giant_chameleon": { "copyof": "lizard_giant_chameleon" },
+	"giant_gecko": { "copyof": "lizard_giant_gecko" },
+	"lizard_giant_gecko": {
+		"name": "Lizard (Giant Gecko)",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Lizard (Giant Gecko)",
+			"",
+			"{SOURCE Bestiary 3/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Lizard (Giant Gecko)}",
+			"",
+			"An oversized lizard the size of a horse scans the area, its bulging eyes darting this way and that, completely independent of one another. Every few moments a long pink tongue snaps from its wide mouth, either to snatch up some unseen insect or moisten an eye.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; Attack bite (1d6); Ability Scores Str 11, Dex 15, Con 12, Int 2, Wis 14, Cha 7; Special Qualities expert climber, low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (2d4); Ability Scores Str +4, Dex -2, Con +2; Special Qualities speed increase (40 ft.)."
+		]
+	},
+	"lizard_monitor_lizard": {
+		"name": "Lizard (Monitor Lizard)",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Lizard (Monitor Lizard)",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/194}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Lizard (Monitor Lizard)}",
+			"",
+			"This immense lizard moves with a slow but relentless gait. Its feet end in large talons, and ropes of drool hang from its toothy maw.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., swim 30 ft.; AC +1 natural armor; Attack bite (1d6 plus grab); Ability Scores Str 13, Dex 17, Con 12, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d8 plus grab and poison); Ability Scores Str +4, Dex -2, Con +4."
+		]
+	},
+	"monitor_lizard": { "copyof": "lizard_monitor_lizard" },
+	"llama": {
+		"name": "Llama",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Llama",
+			"",
+			"{SOURCE Ultimate Wilderness/180}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Llama}",
+			"",
+			"While some value it for its hair, the llama makes a fine animal companion as well, and it has traditionally been used as a beast of burden in mountainous regions.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +1 natural armor; Attack bite (1d4); Ability Scores Str 11, Dex 16, Con 12, Int 2, Wis 13, Cha 9; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +4."
+		]
+	},
+	"locust_giant": {
+		"name": "Locust, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Locust, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/185}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Locust}",
+			"",
+			"The giant locust has long limber legs and the ability to spit a caustic glob of noxious goo.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., climb 20 ft., fly 20 ft. (poor); AC +3 natural armor; Attack bite (1d6); Ability Scores Str 12, Dex 17, Con 11, Int -, Wis 10, Cha 7; Special Attacks spit goo (ranged touch attack, 30-foot range, sickened for 1 round); Special Qualities +18 Acrobatics when jumping, darkvision 60 ft., leap (can take 10 on Acrobatics checks to jump, even when distracted or threatened); CMD +8 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; Speed 20 ft., climb 20 ft., fly 60 ft. (average); AC +2 natural armor; Attack bite (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks voracious (bite attack deals double damage to creatures with the plant subtype and to objects made of paper, wood, or other plant materials).."
+		]
+	},
+	"giant_locust": { "copyof": "locust_giant" },
+	"manta_ray": {
+		"name": "Manta Ray",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Manta Ray",
+			"",
+			"{SOURCE Bestiary 2/232}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Manta Ray}",
+			"",
+			"Gliding gracefully through the water on wing-like fins, this large ray scoops up tiny morsels in its wide mouth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 60 ft.; AC +1 natural armor; Attack tail slap (1d4); Ability Scores Str 8, Dex 15, Con 11, Int 1, Wis 13, Cha 2; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +2 natural armor; Attack tail slap (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities blindsense 30 ft.."
+		]
+	},
+	"mantis_shrimp_giant": {
+		"name": "Mantis Shrimp, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Mantis Shrimp, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/185}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Mantis Shrimp}",
+			"",
+			"This colorful aquatic vermin has powerful claws capable of striking with blinding speed.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft., swim 30 ft.; AC +3 natural armor; Attack 2 pincers (1d6); Ability Scores Str 12, Dex 17, Con 14, Int -, Wis 13, Cha 6; Special Qualities aquatic blindsense 10 ft., darkvision 60 ft., sonic resistance 5; CMD +12 vs. trip",
+			"",
+			"**7th-Level Advancement:** Size Medium; AC +2 natural armor; Attack 2 pincers (1d8); Ability Scores Str +6, Dex -2, Con +2; Special Attacks speedy pincers (can make iterative attacks with one of its pincer attacks); Special Qualities blindsight 10 ft., sonic resistance 10."
+		]
+	},
+	"giant_mantis_shrimp": { "copyof": "mantis_shrimp_giant" },
+	"mantis_giant": {
+		"name": "Mantis, Giant",
+		"sources": [ "Ultimate Magic" ],
+		"description": [
+			"## Mantis, Giant",
+			"",
+			"{SOURCE Ultimate Magic/37}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Mantis}",
+			"",
+			"This towering insect walks on its back four legs. Its head is triangular and its front legs sport razor-sharp edges and claws.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., climb 30 ft., fly 40 ft. (average); AC +3 natural armor; Attack 2 claws (1d4 plus grab); Ability Scores Str 10, Dex 15, Con 10, Int -, Wis 12, Cha 7; Special Attacks lunge; Special Qualities darkvision; CMD +12 vs. trip",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks mandibles (1d6 secondary attack against a grabbed target), sudden strike (may take a full attack in the surprise round)."
+		]
+	},
+	"giant_mantis": { "copyof": "mantis_giant" },
+	"marax": {
+		"name": "Marax",
+		"sources": [ "Pathfinder #90: The Divinity Drive" ],
+		"description": [
+			"## Marax",
+			"",
+			"{SOURCE Pathfinder #90: The Divinity Drive/87}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Marax}",
+			"",
+			"Dense, bony growths line the back of this bipedal predator. Between its gnashing, toothy underbite, scythe-like claws, and spiked tail, no part of this beast offers mercy.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +3 natural armor; Attack bite (1d6), tail barbs (secondary natural attack, 1d4 plus poison); Ability Scores Str 16, Dex 15, Con 12, Int 2, Wis 12, Cha 6; Special Attacks poison (frequency 1 round [4], effect 1d2 Dex damage, cure 1 save, Con-based DC); Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d4); Ability Scores Str +6, Dex -2, Con +2; Special Attacks pounce."
+		]
+	},
+	"marsupial_devil": {
+		"name": "Marsupial Devil",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Marsupial Devil",
+			"",
+			"{SOURCE Ultimate Wilderness/180}  ",
+			"**Companion Type** Animal",
+			"",
+			"This toothy marsupial has a perhaps undeserved reputation for ferocity.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 15, Dex 13, Con 12, Int 2, Wis 10, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +4, Con +2."
+		]
+	},
+	"marsupial_lion": {
+		"name": "Marsupial Lion",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Marsupial Lion",
+			"",
+			"{SOURCE Ultimate Wilderness/180}  ",
+			"**Companion Type** Animal",
+			"",
+			"Somewhat slimmer than the standard lion, the marsupial lion is no less dangerous in battle.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., climb 20 ft.; AC +1 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str 12, Dex 16, Con 13, Int 2, Wis 13, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; Speed climb 30 ft.; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"archelon": {
+		"name": "Archelon",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Megafauna (Archelon)",
+			"",
+			"{SOURCE Bestiary 3/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Megafauna (Archelon)}",
+			"",
+			"The shell of this immense sea turtle easily spans 12 feet in length. Its narrow head ends in a hooked beak.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 15 ft., swim 50 ft.; AC +10 natural armor; Attack bite (1d6); Ability Scores Str 8, Dex 10, Con 9, Int 2, Wis 13, Cha 6; Special Qualities low-light vision, hold breath, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"arsinoitherium": {
+		"name": "Arsinoitherium",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Megafauna (Arsinoitherium)",
+			"",
+			"{SOURCE Bestiary 2/186}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Megafauna (Arsinoitherium)}",
+			"",
+			"This creature is much like a rhino, some six feet tall and ten feet long, with a pair of massive, knife-like horns curving up from its nose.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +4 natural armor; Attack gore (1d8); Ability Scores Str 14, Dex 12, Con 15, Int 2, Wis 13, Cha 3; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack gore (2d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks powerful charge (2d8), trample."
+		]
+	},
+	"baluchitherium": {
+		"name": "Baluchitherium",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Megafauna (Baluchitherium)",
+			"",
+			"{SOURCE Bestiary 3/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Megafauna (Baluchitherium)}",
+			"",
+			"This towering armored herbivore resembles a hornless rhinoceros, but with longer legs and a longer neck.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +4 natural armor; Attack 2 hooves (1d4); Ability Scores Str 14, Dex 14, Con 15, Int 2, Wis 13, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack 2 hooves (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks trample."
+		]
+	},
+	"basilosaurus": {
+		"name": "Basilosaurus",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Megafauna (Basilosaurus)",
+			"",
+			"{SOURCE Bestiary 3/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Megafauna (Basilosaurus)}",
+			"",
+			"This immense primeval whale has a sleek body that looks more serpentine than mammal, and jaws filled with sharp teeth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 40 ft.; AC +1 natural armor; Attack bite (1d4), tail slap (1d4); Ability Scores Str 11, Dex 14, Con 12, Int 2, Wis 14, Cha 6; Special Qualities low-light vision, hold breath",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d6), tail slap (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities blindsense 60 ft.."
+		]
+	},
+	"chalicotherium_2": {
+		"name": "Chalicotherium",
+		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
+		"description": [
+			"## Megafauna (Chalicotherium)",
+			"",
+			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/86}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Megafauna (Chalicotherium)}",
+			"",
+			"This huge, slothlike creature has long, clawed forelimbs and short rear legs.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., climb 30 ft.; AC +4 natural armor; Attack 2 claws (1d4); Ability Scores Str 12, Dex 14, Con 13, Int 2, Wis 13, Cha 3; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks rend (2 claws, 1d6)."
+		]
+	},
+	"deinotherium_2": {
+		"name": "Deinotherium",
+		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
+		"description": [
+			"## Megafauna (Deinotherium)",
+			"",
+			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/87}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Megafauna (Deinotherium)}",
+			"",
+			"This creature resembles an elephant, though it has a shorter, thicker trunk and sharp, downward-curving tusks.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +4 natural armor; Attack slam (1d6), gore (1d8); Ability Scores Str 14, Dex 10, Con 15, Int 2, Wis 13, Cha 3; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack slam (1d8), gore (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks sweep, trample."
+		]
+	},
+	"embolotherium": {
+		"name": "Embolotherium",
+		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
+		"description": [
+			"## Megafauna (Embolotherium)",
+			"",
+			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/87}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Megafauna (Embolotherium)}",
+			"",
+			"This creature is reminiscent of a rhinoceros, but instead of pointed horns on its nose, this creature possesses a blunt, bony protrusion.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +6 natural armor; Attack bite (1d6); Ability Scores Str 14, Dex 10, Con 13, Int 2, Wis 13, Cha 3; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks trample."
+		]
+	},
+	"glyptodon": {
+		"name": "Glyptodon",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Megafauna (Glyptodon)",
+			"",
+			"{SOURCE Bestiary 2/186}  ",
+			"**Companion Type** Animal",
+			"",
+			"This armored creature has a bony, turtle-like shell from which protrude short limbs, a blunt head, and a short spiky tail.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft.; AC +5 natural armor; Attack 2 claws (1d8); Ability Scores Str 13, Dex 12, Con 13, Int 2, Wis 13, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 claws (1d10); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"megalania": {
+		"name": "Megalania",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Megafauna (Megalania)",
+			"",
+			"{SOURCE Bestiary 3/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Megafauna (Megalania)}",
+			"",
+			"This gigantic lizard has short but powerful limbs, a muscular tail, and a spiny crest that runs the length of its body.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +1 natural armor; Attack bite (1d6 plus grab); Ability Scores Str 13, Dex 17, Con 12, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +1 natural armor; Attack bite (1d8 plus grab and poison); Ability Scores Str +4, Dex -2, Con +4."
+		]
+	},
+	"megaloceros": {
+		"name": "Megaloceros",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Megafauna (Megaloceros)",
+			"",
+			"{SOURCE Bestiary 2/187}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Megafauna (Megaloceros)}",
+			"",
+			"The massive and majestic elk stands fully the height of a human at its shoulder, and its antlers stretch over ten feet across.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 50 ft.; AC +3 natural armor; Attack gore (1d8); Ability Scores Str 12, Dex 17, Con 14, Int 2, Wis 15, Cha 5; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack gore (2d6), 2 hooves (1d4); Ability Scores Str +8, Dex -2, Con +4; Special Attacks powerful charge (2d6)."
+		]
+	},
+	"megatherium": {
+		"name": "Megatherium",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Megafauna (Megatherium)",
+			"",
+			"{SOURCE Bestiary 2/187}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Megafauna (Megatherium)}",
+			"",
+			"The great sloth, standing on its hind legs, can reach the treetops with its agile tongue to grab at foliage.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft., climb 10 ft.; AC +5 natural armor; Attack 2 claws (1d4); Ability Scores Str 9, Dex 14, Con 11, Int 2, Wis 13, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks rend (2 claws, 1d8)."
+		]
+	},
+	"megaprimatus": {
+		"name": "Megaprimatus",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Megaprimatus",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal",
+			"",
+			"This titanic ape has great patches of coarse gray and brown fur, and its skin is thick and leathery.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +1 natural armor; Attack bite (1d4), 2 claws (1d4); Ability Scores Str 13, Dex 17, Con 10, Int 2, Wis 12, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d6), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"mindspin_ram": {
+		"name": "Mindspin Ram",
+		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
+		"description": [
+			"## Mindspin Ram",
+			"",
+			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/82}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Mindspin Ram}",
+			"",
+			"This stark white ram's curved horns appear to have sharp thorns studding every inch of their surface.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +1 natural armor; Attack gore (1d4); Ability Scores Str 10, Dex 17, Con 11, Int 2, Wis 14, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack gore (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Attacks bleed (gore, 1), powerful charge (gore, 1d8)."
+		]
+	},
+	"moa": {
+		"name": "Moa",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Moa",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal",
+			"",
+			"Standing on muscular legs that end in enormous talons, this flightless bird is almost twice the height of a man.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +1 natural armor; Attack 2 talons (1d3); Ability Scores Str 13, Dex 16, Con 12, Int 2, Wis 11, Cha 9; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 talons (1d4); Ability Scores Str +4, Con +2."
+		]
+	},
+	"mokele_mbembe": {
+		"name": "Mokele-Mbembe",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Mokele-Mbembe",
+			"",
+			"{SOURCE Bestiary 6/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Mokele-Mbembe}",
+			"",
+			"A triangular reptilian head with a mouth full of curved teeth, attached to a long snaking neck, rises from the surface of the water. Long spines run down its neck, back, and whip-like tail, which uncurls to snap the air with a loud report.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., swim 30 ft.; AC +5 natural armor; Attack bite (1d8), tail slap (1d8, reach 10 ft.); Ability Scores Str 16, Dex 17, Con 10, Int 2, Wis 15, Cha 11; Special Qualities low-light vision, scent",
+			"",
+			"**9th-Level Advancement:** Size Large; AC +4 natural armor; Attack bite (2d6), tail slap (2d6, reach 15 ft.); Ability Scores Str +8, Dex -2, Con +4; Special Qualities trample, whip tail."
+		]
+	},
+	"mole_giant": {
+		"name": "Mole, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Mole, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/180}  ",
+			"**Companion Type** Animal",
+			"",
+			"This large-clawed burrowing mammal is slow but can burrow through loose earth and soil with ease to surprise its foes.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., burrow 10 ft.; AC +1 natural armor; Attack 2 claws (1d4); Ability Scores Str 12, Dex 15, Con 13, Int 2, Wis 10, Cha 5; Special Qualities low-light vision, tremorsense 30 ft.",
+			"",
+			"**4th-Level Advancement:** Size Medium; Speed burrow 20 ft.; AC +2 natural armor; Attack 2 claws (1d6); Ability Scores Str +2, Dex -2, Con +4; Special Attacks rend (2 claws, 1d6)."
+		]
+	},
+	"giant_mole": { "copyof": "mole_giant" },
+	"mome_rath": {
+		"name": "Mome Rath",
+		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
+		"description": [
+			"## Mome Rath",
+			"",
+			"{SOURCE Pathfinder #119: Prisoners of the Blight/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Mome Rath}",
+			"",
+			"Moss and lichen grow from the shaggy back of this boar-like animal. Its curving claws and prehensile tail hold it in the trees.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., climb 10 ft.; AC +1 natural armor; Attack 2 claws (1d3 plus poison); Ability Scores Str 12, Dex 14, Con 15, Int 2, Wis 14, Cha 17; Special Attacks poison (frequency 1 round [3], effect sickened for 1d3 rounds, cure 1 save, Con-based DC); Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack 2 claws (1d4 plus poison); Special Attacks poison (frequency 1 round [3], effect sickened for 1d6 rounds, cure 1 save, Con-based DC)."
+		]
+	},
+	"moose": {
+		"name": "Moose",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Moose",
+			"",
+			"{SOURCE Ultimate Wilderness/180}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Moose}",
+			"",
+			"Powerful and often ill tempered, the moose is an intimidating choice for an animal companion.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +2 natural armor; Attack gore (1d6), 2 hooves (1d3); Ability Scores Str 12, Dex 15, Con 14, Int 2, Wis 13, Cha 7; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (1d8), 2 hooves (1d4); Ability Scores Str +6, Dex -2, Con +4; Special Attacks powerful charge (gore, 1d8)."
+		]
+	},
+	"moray_eel": {
+		"name": "Moray Eel",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Moray Eel",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/119}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Moray Eel}",
+			"",
+			"This sixteen-foot-long eel slithers through the water with uncanny grace, mouth open to display large teeth and a second set of jaws.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 30 ft.; AC +5 natural armor; Attack bite (1d8); Ability Scores Str 14, Dex 16, Con 12, Int 1, Wis 12, Cha 8; Special Qualities low-light vision, grab",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks gnaw."
+		]
+	},
+	"giant_moray_eel": { "copyof": "moray_eel" },
+	"mosquito_giant": {
+		"name": "Mosquito, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Mosquito, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/185}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Mosquito}",
+			"",
+			"Between its bloodthirsty nature and the annoying drone of its wings, the giant mosquito is a much-loathed creature. Unlike its smaller cousins, a giant mosquito can easily kill larger creatures by draining them of their blood.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., fly 60 ft. (good); AC +1 natural armor; Attack bite (1d6 plus bleed and grab); Ability Scores Str 14, Dex 21, Con 15, Int -, Wis 13, Cha 6; Special Attacks bleed (1d4), grab; Special Qualities darkvision 60 ft.; CMD +8 vs. trip",
+			"",
+			"**7th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d8 plus bleed and grab); Ability Scores Str +4, Dex -2, Con +2; Special Attacks bleed (2d4), blood drain (1d2 Constitution)."
+		]
+	},
+	"giant_mosquito": { "copyof": "mosquito_giant" },
+	"narwhal": {
+		"name": "Narwhal",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Narwhal",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Narwhal}",
+			"",
+			"This small whale lacks a dorsal fin and has pale, mottled skin, but its most notable feature is the single tusk protruding from its nose, easily as long as a human.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 80 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 11, Dex 19, Con 10, Int 2, Wis 14, Cha 6; Special Qualities low-light vision, hold breath",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Qualities blindsight 120 ft., tusk."
+		]
+	},
+	"octopus": {
+		"name": "Octopus",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Octopus",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/219}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Octopus}",
+			"",
+			"Eight tentacles, each adorned with rows of countless suckers, unfurl from the barrel-shaped body of this large-eyed creature.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., swim 30 ft., jet 200 ft.; AC +1 natural armor; Attack bite (1d3), tentacles (grab); Ability Scores Str 12, Dex 17, Con 14, Int 2, Wis 12, Cha 3; Special Qualities low-light vision, {umr/ink cloud} (10-ft. radius).",
+			"",
+			"**4th-Level Advancement:** Attack bite (1d3 plus poison); Ability Scores Str +2, Con +2."
+		]
+	},
+	"orca": {
+		"name": "Orca",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Orca",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/88}  ",
+			"**Companion Type** Animal",
+			"",
+			"This sleek black whale has a distinctive white patch near each eye and a mouth filled with sharp teeth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 80 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 11, Dex 19, Con 10, Int 2, Wis 14, Cha 6; Special Qualities low-light vision, hold breath",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Qualities blindsight 120 ft.."
+		]
+	},
+	"ornithomimosaur": {
+		"name": "Ornithomimosaur",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Ornithomimosaur",
+			"",
+			"{SOURCE Ultimate Wilderness/180}  ",
+			"**Companion Type** Animal",
+			"",
+			"This bipedal dinosaur has long legs built for speed and a long neck that gives it an ostrichlike profile.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack 2 claws (1d8); Ability Scores Str 11, Dex 15, Con 12, Int 2, Wis 13, Cha 8; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Speed 60 ft.; AC +2 natural armor; Attack 2 calws (1d8 plus 1d4 bleed); Ability Scores Str +2, Dex +2, Con +2; Special Qualities sprint."
+		]
+	},
+	"ostrich": {
+		"name": "Ostrich",
+		"sources": [ "Osirion, Legacy of the Pharaohs" ],
+		"description": [
+			"## Ostrich",
+			"",
+			"{SOURCE Osirion, Legacy of the Pharaohs/55}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Ostrich}",
+			"",
+			"This human-sized bird has a long neck and legs sprouting from a round body covered in fluffy gray feathers.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +1 natural armor; Attack claw (1d4); Ability Scores Str 13, Dex 16, Con 12, Int 2, Wis 13, Cha 11; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Medium; Speed 60 ft.; Attack claw (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities crouch."
+		]
+	},
+	"owl_giant": {
+		"name": "Owl, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Owl, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/181}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Owl}",
+			"",
+			"Unlike the magical beast of the same name, this owl is a mundane but unusually large specimen of its kind, with powerful wings and deadly talons.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 10 ft., fly 60 ft. (average); AC +2 natural armor; Attack 2 talons (1d4); Ability Scores Str 10, Dex 17, Con 13, Int 2, Wis 13, Cha 6; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 talons (1d6); Ability Scores Str +8, Dex -2, Con +4; Racial Skill Modifiers +4 Stealth; Special Attacks rend (2 talons, 1d6)."
+		]
+	},
+	"giant_owl": { "copyof": "owl_giant" },
+	"panda": {
+		"name": "Panda",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Panda",
+			"",
+			"{SOURCE Ultimate Wilderness/181}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Panda}",
+			"",
+			"Normally slow moving and docile, pandas are capable of surprising bursts of activity when needed.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +2 natural armor; Attack bite (1d4), 2 claws (1d3); Ability Scores Str 13, Dex 12, Con 14, Int 2, Wis 13, Cha 9; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +4; Special Attacks powerful bite."
+		]
+	},
+	"pilo": {
+		"name": "Pilo",
+		"sources": [ "Pathfinder #85: Fires of Creation" ],
+		"description": [
+			"## Pilo",
+			"",
+			"{SOURCE Pathfinder #85: Fires of Creation/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Pilo}",
+			"",
+			"Sharp quills cover this bright yellow, six-legged animal, and its long, twitching snout probes the air around it.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +2 natural armor; Attack gore (1d6); Ability Scores Str 13, Dex 13, Con 14, Int 2, Wis 14, Cha 7; Special Attacks roll up; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** AC +2 natural armor; Attack tail slap (1d4); Ability Scores Str +2, Con +2; Special Attacks poison, quills."
+		]
+	},
+	"pleiosaurus": {
+		"name": "Pleiosaurus",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Pleiosaurus",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal",
+			"",
+			"This streamlined reptile has a long, serpentine neck, at the end of which glares a many-fanged head.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 5 ft., swim 60 ft.; AC +1 natural armor; Attack bite (1d8); Ability Scores Str 12, Dex 15, Con 12, Int 2, Wis 15, Cha 9; Special Qualities keen scent, low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities ambush attack +1d6, bleed (1)."
+		]
+	},
+	"polar_bear": {
+		"name": "Polar Bear",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Polar Bear",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Polar Bear}",
+			"",
+			"Red gore stains this bear's muzzle, creating a striking contrast against its white fur.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +2 natural armor; Attack bite (1d4), 2 claws (1d3); Ability Scores Str 15, Dex 15, Con 13, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"pony": {
+		"name": "Pony",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Pony",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Pony}",
+			"",
+			"This squat equine plods forward with large, curious eyes. As it nears, it extends its muzzle, clearly expecting a treat.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +2 natural armor; Attack 2 hooves (1d3); Ability Scores Str 13, Dex 13, Con 12, Int 2, Wis 11, Cha 4; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Qualities combat trained."
+		]
+	},
+	"porcupine_giant": {
+		"name": "Porcupine, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Porcupine, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/181}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Porcupine}",
+			"",
+			"This lumbering forest creature is adorned with an array of long, sharp quills that protrude from its coarse pelt.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +1 natural armor; Attack tail slap (1d4); Ability Scores Str 14, Dex 12, Con 15, Int 2, Wis 13, Cha 5; Special Attacks quills (as {monster/porcupine} quills); Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack tail slap (1d6); Ability Scores Str +2, Dex -2, Con +4; Special Attacks quills (as {monster/giant porcupine} quills)."
+		]
+	},
+	"giant_porcupine": { "copyof": "porcupine_giant" },
+	"prionosuchus": {
+		"name": "Prionosuchus",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Prionosuchus",
+			"",
+			"{SOURCE Ultimate Wilderness/181}  ",
+			"**Companion Type** Animal",
+			"",
+			"This primeval crocodile is equally effective in the water and on land. Its jaws are capable of crushing things with great force.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., swim 30 ft.; AC +2 natural armor; Attack bite (1d8 plus grab); Ability Scores Str 13, Dex 14, Con 15, Int 1, Wis 12, Cha 4; Special Attacks constrict (1d8); Special Qualities scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (2d6 plus grab); Ability Scores Str +4, Dex -2, Con +4; Special Attacks constrict (2d6)."
+		]
+	},
+	"dimorphodon_2": {
+		"name": "Dimorphodon",
+		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
+		"description": [
+			"## Pterosaur (Dimorphodon)",
+			"",
+			"{SOURCE Pathfinder #37: Souls for Smuggler's Shiv/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dimorphodon}",
+			"",
+			"The head of this colorful red and purple flying reptile is overly large, and its jaws are lined with tiny sharp teeth.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 10 ft., fly 30 ft. (average); AC +1 natural armor; Attack bite (1d4); Ability Scores Str 10, Dex 19, Con 10, Int 2, Wis 13, Cha 12; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Medium; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities poison."
+		]
+	},
+	"quetzalcoatlus": {
+		"name": "Quetzalcoatlus",
+		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
+		"description": [
+			"## Pterosaur (Quetzalcoatlus)",
+			"",
+			"{SOURCE Pathfinder #37: Souls for Smuggler's Shiv/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Quetzalcoatlus}",
+			"",
+			"This immense flying reptile has a staggering wingspan and a brightly colored head with a razor-sharp beak.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., fly 50 ft. (clumsy); AC +2 natural armor; Attack bite (1d8); Ability Scores Str 9, Dex 21, Con 10, Int 2, Wis 14, Cha 12; Special Qualities low-light vision, scent",
+			"",
+			"**9th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (2d6/&times;3), 2 wings (1d4); Ability Scores Str +8, Dex -2, Con +4; Special Qualities razor-sharp beak."
+		]
+	},
+	"pygmy_hippopotamus": {
+		"name": "Pygmy Hippopotamus",
+		"sources": [ "Heart of the Jungle" ],
+		"description": [
+			"## Pygmy Hippopotamus",
+			"",
+			"{SOURCE Heart of the Jungle/60}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Hippopotamus}",
+			"",
+			"This fleshy behemoth wallows forward on four stumpy legs. Its jaws spread wide in a roar of challenge, exposing massive, tusk-like teeth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +4 natural armor; Attack bite (1d6); Ability Scores Str 14, Dex 10, Con 13, Int 2, Wis 10, Cha 4; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +4 natural armor; Attack bite (2d6); Ability Scores Str +4, Dex -2, Con +4; Special Attacks trample (1d8)."
+		]
+	},
+	"quetzalcoatlus_2": {
+		"name": "Quetzalcoatlus",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Quetzalcoatlus",
+			"",
+			"{SOURCE Bestiary 6/312}  ",
+			"**Companion Type** Animal",
+			"",
+			"This immense flying reptile has a staggering wingspan and a brightly colored head with a razor-sharp beak.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., fly 50 ft. (clumsy); AC +2 natural armor; Attack bite (1d8); Ability Scores Str 9, Dex 21, Con 10, Int 2, Wis 14, Cha 12; Special Qualities low-light vision, scent",
+			"",
+			"**9th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (2d6/&times;3), 2 wings (1d4); Ability Scores Str +8, Dex -2, Con +4; Special Qualities razor-sharp beak."
+		]
+	},
+	"ram": {
+		"name": "Ram",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Ram",
+			"",
+			"{SOURCE Bestiary 2/154}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Ram}",
+			"",
+			"A formidable pair of heavy horns curls from the forehead of this sturdy, brown-and-white-furred ram.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +1 natural armor; Attack gore (1d3); Ability Scores Str 10, Dex 17, Con 11, Int 2, Wis 14, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack gore (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks powerful charge (1d8); Bonus Feat(s) {feat/Improved Bull Rush}."
+		]
+	},
+	"rash_creeper": {
+		"name": "Rash Creeper",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Rash Creeper",
+			"",
+			"{SOURCE Ultimate Wilderness/183}  ",
+			"**Companion Type** Plant",
+			"",
+			"This mass of creeping vines and leaves slithers almost like a snake. Contact with this predatory plant causes a sickening and sometimes debilitating rash.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., climb 20 ft.; AC +1 natural armor; Attack slam (1d4 plus poison); Ability Scores Str 10, Dex 15, Con 13, Int 1, Wis 11, Cha 2; Special Attacks poison (frequency 1 round [4]; effect 1 Dex damage and sickened for 1 roun; cure 1 save; Con-based DC); Special Qualities low-light vision; CMD can't be tripped",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack slam (1d6 plus poison); Ability Scores Str +4, Dex -2, Con +2; Special Attacks poison (frequency 1 round [4]; effect 1d2 Dex damage and sickened for 1 roun; cure 2 saves; Con-based DC)."
+		]
+	},
+	"raven_giant": {
+		"name": "Raven, Giant",
+		"sources": [
+			"Pathfinder #97: In Hell's Bright Shadow",
+			"Bestiary 6"
+		],
+		"description": [
+			"## Raven, Giant",
+			"",
+			"{SOURCE Pathfinder #97: In Hell's Bright Shadow/82;Bestiary 6/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Raven}",
+			"",
+			"This glossy, jet-black bird stands as tall as a dwarf. Its eerily intelligent black eyes are quick to take in everything around it.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., fly 50 ft. (average); Attack bite (1d4); Ability Scores Str 8, Dex 13, Con 10, Int 2, Wis 15, Cha 7; Special Qualities low-light vision, scavenger",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex +2, Con +2."
+		]
+	},
+	"giant_raven": { "copyof": "raven_giant" },
+	"reef_snake": {
+		"name": "Reef Snake",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Reef Snake",
+			"",
+			"{SOURCE Ultimate Wilderness/181}  ",
+			"**Companion Type** Animal",
+			"",
+			"Highly venomous and an excellent swimmer, the brightly colored reef snake is at home in tidal waters but can slither about on land if needed.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 10 ft., swim 40 ft.; AC +2 natural armor; Attack bite (1d4 plus poison); Ability Scores Str 10, Dex 15, Con 12, Int 1, Wis 13, Cha 2; Special Attacks poison (frequency 1 round [6]; effect1 Str damage; cure 1 save; Con-based DC); Special Qualities low-light vision, hold breath, secnt",
+			"",
+			"**7th-Level Advancement:** Ability Scores Str +2, Dex +2; Special Attacks poison (frequency 1 round [6]; effect1d2 Str damage; cure 2 saves; Con-based DC)."
+		]
+	},
+	"reindeer": {
+		"name": "Reindeer",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Reindeer",
+			"",
+			"{SOURCE Ultimate Wilderness/181}  ",
+			"**Companion Type** Animal",
+			"",
+			"A denizen of the frozen tundra, the reindeer is a sure-footed companion in icy terrain, and it can used for transportation as well as defense.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 50 ft.; AC +2 natural armor; Attack gore (1d6); Ability Scores Str 13, Dex 14, Con 13, Int 2, Wis 12, Cha 5; Special Qualities low-light vision, scent, snow adaptation (ignore difficult terrain from ice and snow)",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Dex +2, Con +2."
+		]
+	},
+	"rhinoceros": {
+		"name": "Rhinoceros",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Rhinoceros",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/235}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Rhinoceros}",
+			"",
+			"This rhinoceros has a low-slung head with twisted ears that lie back along its neck.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +4 natural armor; Attack gore (1d8); Ability Scores Str 14, Dex 14, Con 15, Int 2, Wis 13, Cha 5; Special Qualities scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks powerful charge."
+		]
+	},
+	"riding_python": {
+		"name": "Riding Python",
+		"sources": [ "Monster Codex" ],
+		"description": [
+			"## Riding Python",
+			"",
+			"{SOURCE Monster Codex/128}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** [Riding Python](monster/venomous_snake)",
+			"",
+			"This brightly colored snake assumes an aggressive posture, its hissing mouth open to display its fangs.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 11, Dex 14, Con 13, Int 1, Wis 10, Cha 4; Special Qualities blindsight 60 ft.; CMD can't be tripped",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks combat training (see {skill/Handle Animal})."
+		]
+	},
+	"riding_rat": {
+		"name": "Riding Rat",
+		"sources": [ "Monster Codex" ],
+		"description": [
+			"## Riding Rat",
+			"",
+			"{SOURCE Monster Codex/177}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Dire Rat}",
+			"",
+			"This filthy rat is the size of a small dog. It has a coat of coarse fur, a long and scabby tail, and two glittering eyes.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft., climb 20 ft., swim 20 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 14, Dex 15, Con 17, Int 2, Wis 13, Cha 4; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** AC +2 natural armor; Ability Scores Str +2, Dex +2; Bonus Feat(s) {feat/Endurance}."
+		]
+	},
+	"ringhorn": {
+		"name": "Ringhorn",
+		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
+		"description": [
+			"## Ringhorn",
+			"",
+			"{SOURCE Pathfinder #115: Trail of the Hunted/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Ringhorn}",
+			"",
+			"The horns of this goatlike deer grow up and curve around into a pair of massive, spiraling rings atop its head.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +1 natural armor; Attack 2 hooves (1d3); Ability Scores Str 11, Dex 18, Con 11, Int 2, Wis 12, Cha 13; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack 2 hooves (1d4); Ability Scores Str +2, Dex -2, Con +2; Bonus Feat(s) {feat/Nimble Moves}."
+		]
+	},
+	"roc": {
+		"name": "Roc",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Roc",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/236}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Roc}",
+			"",
+			"This immense raptor unleashes a shrill cry as it bares its talons, each large enough to carry off a horse.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., fly 80 ft.; AC +5 natural armor; Attack 2 talons (1d4), bite (1d6); Ability Scores Str 12, Dex 19, Con 9, Int 2, Wis 13, Cha 11; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack 2 talons (1d6 plus grab), bite (1d8); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"saber_toothed_cat": {
+		"name": "Saber-Toothed Cat",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Saber-Toothed Cat",
+			"",
+			"{SOURCE Ultimate Wilderness/181}  ",
+			"**Companion Type** Animal",
+			"",
+			"Somewhat smaller than the more ferocious saber-toothed tiger, the saber-toothed cat is nonetheless an impressive predatory creature.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack 2 claws (1d4 plus grab); Ability Scores Str 15, Dex 15, Con 13, Int 2, Wis 13, Cha 8; Special Attacks saber-toothed bite (1d10 bite attack, only on a grapple check to deal damage(; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 claws (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4; Special Attacks pounce, saber-toothed bite (2d8 bite attack, only on a grapple check to deal damage)."
+		]
+	},
+	"salamander_giant": {
+		"name": "Salamander, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Salamander, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/181}  ",
+			"**Companion Type** Animal",
+			"",
+			"This oversized amphibian has a mouth full of tiny but rather sharp teeth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., swim 30 ft.; AC +3 natural armor; Attack bite (1d4); Ability Scores Str 13, Dex 14, Con 15, Int 1, Wis 12, Cha 4; Special Qualities amphibious, tremorsense 30 ft. (underwater only), scent",
+			"",
+			"**4th-Level Advancement:** AC +2 natural armor; Ability Scores Str +2, Dex -2, Con +4; Racial Skill Modifiers +4 Stealth."
+		]
+	},
+	"giant_salamander": { "copyof": "salamander_giant" },
+	"scorpion_giant": {
+		"name": "Scorpion, Giant",
+		"sources": [ "Ultimate Magic" ],
+		"description": [
+			"## Scorpion, Giant",
+			"",
+			"{SOURCE Ultimate Magic/37}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Scorpion}",
+			"",
+			"The sixteen-foot-long scorpion scrabbles forward, ferocious claws raised in challenge, stingered tail arched over its back.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack 2 claws (1d4 plus grab) and sting (1d4 plus poison); Ability Scores Str 11, Dex 12, Con 12, Int -, Wis 10, Cha 2; Special Attacks poison (frequency 1 round [6], effect 1 Str damage, cure 1 save, Con-based DC); Special Qualities darkvision, tremorsense 30 ft.; CMD +8 vs. trip",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack 2 claws (1d6 plus grab) and sting (1d6 plus poison); Ability Scores Str +8, Dex -2, Con +4; Special Attacks poison (frequency 1 round [6], effect 1d2 Str damage, cure 1 save, Con-based DC); Special Qualities tremorsense 60 ft.."
+		]
+	},
+	"giant_scorpion": { "copyof": "scorpion_giant" },
+	"sea_crawler": {
+		"name": "Sea Crawler",
+		"sources": [ "Pathfinder #121: The Lost Outpost" ],
+		"description": [
+			"## Sea Crawler",
+			"",
+			"{SOURCE Pathfinder #121: The Lost Outpost/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Sea Crawler}",
+			"",
+			"This furred creature has long tentacles that are covered in ridges and suction discs in place of arms, legs, and a tail.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 10 ft., climb 30 ft., swim 10 ft.; AC +1 natural armor; Attack bite (1d4), 2 tentacles (1d3); Ability Scores Str 9, Dex 17, Con 10, Int 2, Wis 12, Cha 6; Special Attacks remarkable grip; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d8); Ability Scores Str +2, Dex -2, Con +2; Special Attacks grab; Special Qualities regrowth."
+		]
+	},
+	"seahorse_giant": {
+		"name": "Seahorse, Giant",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Seahorse, Giant",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Seahorse}",
+			"",
+			"This sea creature resembles a cross between fish and horse; it has small fins on its flanks and a gracefully curled tail.",
+			"",
+			"**Starting Statistics:** Size Large; Speed swim 30 ft.; AC +4 natural armor; Attack bite (1d4); Ability Scores Str 16, Dex 13, Con 15, Int 1, Wis 12, Cha 6; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Attack bite (1d6); Ability Scores Str +2, Con +2; Special Attacks anchor."
+		]
+	},
+	"giant_seahorse": { "copyof": "seahorse_giant" },
+	"shark": {
+		"name": "Shark",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Shark",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Shark}",
+			"",
+			"This blue shark's fins slice through the water, its black eyes rolling and its gaping jaws showing countless teeth.",
+			"",
+			"**Starting Statistics:** Size Small; Speed swim 60 ft.; AC +4 natural armor; Attack bite (1d4); Ability Scores Str 13, Dex 15, Con 15, Int 1, Wis 12, Cha 2; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities blindsense."
+		]
+	},
+	"shissah": {
+		"name": "Shissah",
+		"sources": [ "Qadira, Jewel of the East" ],
+		"description": [
+			"## Shissah",
+			"",
+			"{SOURCE Qadira, Jewel of the East/63}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Shissah}",
+			"",
+			"This sleek equine is slightly smaller than an average horse, but its eyes contain a gleam of higher intelligence.",
+			"",
+			"**Starting Statistics:** Size Large; Speed 60 ft.; AC +1 natural armor; Attack bite (1d6), 2 hooves (1d4, secondary attack); Ability Scores Str 16, Dex 15, Con 13, Int 2, Wis 14, Cha 10; Special Qualities desert dweller, easily trained",
+			"",
+			"**7th-Level Advancement:** AC +3 natural armor; Attack bite (1d8), 2 hooves (1d4, secondary attack); Ability Scores Str +2, Dex +4, Con +2; Special Qualities desert senses."
+		]
+	},
+	"skittergoat": {
+		"name": "Skittergoat",
+		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
+		"description": [
+			"## Skittergoat",
+			"",
+			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Skittergoat}",
+			"",
+			"This small goat has sharp horns that wrap around its head to point forward, making it resemble a tiny bull.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; AC +1 natural armor; Attack gore (1d4); Ability Scores Str 13, Dex 14, Con 11, Int 2, Wis 10, Cha 5; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack gore (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities egg cracker."
+		]
+	},
+	"skunk_giant": {
+		"name": "Skunk, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Skunk, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/181}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Skunk}",
+			"",
+			"Its unmistakable black-and-white-striped coloration gives a clear warning sign to any who've experienced this foul-smelling creature's ire.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +1 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str 9, Dex 14, Con 13, Int 2, Wis 12, Cha 9; Special Attacks spray (ranged touch attack, 30-ft. range, musk, usable 1/day); Special Qualities low-light vision, musk (Fort save or sickened for 1d6 rounds, Con-based DC), scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks spray (usable 2/day); Special Qualities musk (Fort save or nauseated for 1d3 rounds)."
+		]
+	},
+	"giant_skunk": { "copyof": "skunk_giant" },
+	"slithering_sundew": {
+		"name": "Slithering Sundew",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Slithering Sundew",
+			"",
+			"{SOURCE Ultimate Wilderness/183}  ",
+			"**Companion Type** Plant",
+			"",
+			"Looking something like a two-headed serpent, this slithering plant strikes with two sticky, constricting slams.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft.; AC +1 natural armor; Attack 2 slams (1d4 plus 1d2 acid plus grab); Ability Scores Str 14, Dex 17, Con 13, Int 1, Wis 12, Cha 6; Special Attacks constrict (1d8 acid); Special Qualities low-light vision; CMD can't be tripped",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 slams (1d6 plus 1d3 acid plus grab); Ability Scores Str +6, Dex -2, Con +4; Special Attacks constrict (2d6 acid)."
+		]
+	},
+	"slug_giant": {
+		"name": "Slug, Giant",
+		"sources": [ "Ultimate Magic" ],
+		"description": [
+			"## Slug, Giant",
+			"",
+			"{SOURCE Ultimate Magic/37}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Slug}",
+			"",
+			"This massive, gray-brown slug leaves a viscous trail of slime in its wake as a long rasping tongue tastes the air for prey.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft.; AC +4 natural armor; Attack tongue (1d4 plus 1 acid); Ability Scores Str 13, Dex 8, Con 13, Int -, Wis 10, Cha 1; Special Attacks spit acid (ranged touch attack, 30 foot range, 1d6 acid damage); Special Qualities blindsense 30 ft., DR 5/slashing or piercing, susceptible to salt; CMD can't be tripped",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack tongue (1d6 plus 1d2 acid); Ability Scores Str +2, Dex -2, Con +2; Special Attacks spit acid (ranged touch attack, 30-foot range, 1d8 acid damage); Special Qualities blindsight 30 ft.."
+		]
+	},
+	"giant_slug": { "copyof": "slug_giant" },
+	"snake_constrictor": {
+		"name": "Snake, Constrictor",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Snake, Constrictor",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Constrictor Snake}",
+			"",
+			"This large snake has a thick, muscular body and dull green scales decorated with dirty brown stripes.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., climb 20 ft., swim 20 ft.; AC +2 natural armor; Attack bite (1d3); Ability Scores Str 15, Dex 17, Con 13, Int 1, Wis 12, Cha 2; Special Attacks grab; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Large; AC +1 natural armor; Attack bite (1d4); Ability Scores Str +8, Dex -2, Con +4; Special Attacks constrict 1d4."
+		]
+	},
+	"constrictor_snake": { "copyof": "snake_constrictor" },
+	"snake_viper": {
+		"name": "Snake, Viper",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Snake, Viper",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** [Viper](monster/venomous_snake)",
+			"",
+			"This brightly colored snake assumes an aggressive posture, its hissing mouth open to display its fangs.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., climb 20 ft., swim 20 ft.; AC +2 natural armor; Attack bite (1d3 plus poison); Ability Scores Str 8, Dex 17, Con 11, Int 1, Wis 12, Cha 2; Special Attacks poison (Frequency 1 round (6), Effect 1 Con damage, Cure 1 save, Con-based DC); Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d4 plus poison); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"viper": { "copyof": "snake_viper" },
+	"snapping_flytrap": {
+		"name": "Snapping Flytrap",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Snapping Flytrap",
+			"",
+			"{SOURCE Ultimate Wilderness/183}  ",
+			"**Companion Type** Plant",
+			"",
+			"This mobile flytrap features two spiky jaws and scuttles about on a tangle of roots.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft.; AC +2 natural armor; Attack 2 bites (1d4 plus grab); Ability Scores Str 12, Dex 15, Con 14, Int 1, Wis 12, Cha 5; Special Qualities low-light vision; CMD can't be tripped",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 3 bites (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"sniper_cactus": {
+		"name": "Sniper Cactus",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Sniper Cactus",
+			"",
+			"{SOURCE Ultimate Wilderness/184}  ",
+			"**Companion Type** Plant",
+			"",
+			"This single-stalked cactus sports dozens of long, thin needles. Capable of crawling on three stalklike roots, the sniper cactus can fire its thorns with deadly accuracy.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft.; AC +2 natural armor; Attack gore (1d4) or thorn (ranged attack, 60-foot range, 1d8 piercing damage, no Strength bonus on damage); Ability Scores Str 10, Dex 13, Con 14, Int 1, Wis 13, Cha 6; Special Qualities low-light vision; CMD +2 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack gore (1d6) or 2 thorns (ranged attack, 60-foot range, 2d6 piercing damage, no Strength bonus on damage); Ability Scores Dex +2, Con +2"
+		]
+	},
+	"solifugid_giant": {
+		"name": "Solifugid, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Solifugid, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/185}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Solifugid}",
+			"",
+			"This vermin's double set of vertical mandibles make this giant solifugid a particularly ferocious-looking companion. Its speed allows it to strike at its enemies from cover without them knowing what happened.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 50 ft., climb 30 ft.; AC +1 natural armor; Attack bite (1d6), 2 claws (1d3); Ability Scores Str 12, Dex 15, Con 15, Int -, Wis 11, Cha 2; Special Qualities darkvision 60 ft.; CMD +12 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (1d8), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks pounce, rend (2 claws; 1d4)."
+		]
+	},
+	"giant_solifugid": { "copyof": "solifugid_giant" },
+	"sorico": {
+		"name": "Sorico",
+		"sources": [ "Pathfinder #85: Fires of Creation" ],
+		"description": [
+			"## Sorico",
+			"",
+			"{SOURCE Pathfinder #85: Fires of Creation/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Sorico}",
+			"",
+			"This large, tawny rodent has powerful forelimbs ending in spade-like claws. Sand and mud cakes the creature's fur.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., burrow 10 ft.; Attack bite (1d4), 2 claws (1d4); Ability Scores Str 10, Dex 13, Con 15, Int 2, Wis 14, Cha 7; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d6), 2 claws (1d6); Ability Scores Str +4, Dex +2, Con +2; Special Attacks dust cloud."
+		]
+	},
+	"spider_giant": {
+		"name": "Spider, Giant",
+		"sources": [ "Ultimate Magic" ],
+		"description": [
+			"## Spider, Giant",
+			"",
+			"{SOURCE Ultimate Magic/37}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Spider}",
+			"",
+			"A spider the size of a man crawls silently from the depths of its funnel-shaped web.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., climb 30 ft.; AC +0 natural armor; Attack bite (1d4 plus poison); Ability Scores Str 6, Dex 17, Con 10, Int -, Wis 10, Cha 2; Special Attacks poison (frequency 1 round [4], effect 1 Str damage, cure 1 save, Con-based DC); Special Qualities darkvision, tremorsense 30 ft.; CMD +12 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6 plus poison); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"giant_spider": { "copyof": "spider_giant" },
+	"spider_web_tyrant": {
+		"name": "Spider, Web Tyrant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Spider, Web Tyrant",
+			"",
+			"{SOURCE Ultimate Wilderness/185}  ",
+			"**Companion Type** Vermin",
+			"",
+			"The web tyrant spider's bright coloration and long legs make for a stunning but unnerving companion.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., climb 30 ft.; AC +1 natural armor; Attack bite (1d4); Ability Scores Str 10, Dex 17, Con 10, Int -, Wis 10, Cha 2; Special Attacks web; Special Qualities darkvision 60 ft; CMD +12 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"web_tyrant": { "copyof": "spider_web_tyrant" },
+	"spitting_cobra": {
+		"name": "Spitting Cobra",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Spitting Cobra",
+			"",
+			"{SOURCE Ultimate Wilderness/182}  ",
+			"**Companion Type** Animal",
+			"",
+			"This brightly colored snake can spit its venom, giving it a dangerous ranged attack.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 20 ft., climb 20 ft.; AC +2 natural armor; Attack bite (1d3); Ability Scores Str 8, Dex 15, Con 11, Int 1, Wis 12, Cha 2; Special Attacks poison (frequency 1 round [6]; effect blurred vision [20% miss chance] 1 round; cure 1 save; Con-based DC), spit (ranged touch attack, 10-foot range, poison, usable every 2d4 rounds); Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Ability Scores Dex +2, Con +2; Special Attacks poision (frequency 1 round [6]; effect blindness 1 round; cure 1 save; Con-based DC)."
+		]
+	},
+	"squid": {
+		"name": "Squid",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"description": [
+			"## Squid",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/259}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Squid}",
+			"",
+			"This slender red squid darts through the water with alacrity. Two large eyes stare from above the creature's tentacles.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 60 ft., jet 240 ft.; AC +1 natural armor; Attack tentacles (1d4 plus grab), bite (1d3); Ability Scores Str 14, Dex 15, Con 11, Int 2, Wis 12, Cha 2; Special Qualities low-light vision, {umr/ink cloud} (5-ft. radius).",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
+		]
+	},
+	"squid_giant": {
+		"name": "Squid, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Squid, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/182}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Squid}",
+			"",
+			"Although this creature isn't nearly the size of a true giant squid, it remains large enough to do serious damage to foes with its many tentacles.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed swim 40 ft., jet 90 ft.; AC +1 natural armor; Attack bite (1d6), tentacles (1d4 plus grab); Ability Scores Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 3; Special Qualities aquatic, low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tentacles (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4; Special Attacks constrict (1d6); Special Qualities {umr/ink cloud} (20-ft. radius)."
+		]
+	},
+	"giant_squid": { "copyof": "squid_giant" },
+	"stag": {
+		"name": "Stag",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Stag",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Stag}",
+			"",
+			"Majestic and graceful, this powerful animal has branching antlers atop it head.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 50 ft.; Attack gore (1d4); Ability Scores Str 10, Dex 19, Con 14, Int 2, Wis 15, Cha 8; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack gore (1d6), 2 hooves (1d4); Ability Scores Str +2, Dex -2, Con +2."
+		]
+	},
+	"stingray": {
+		"name": "Stingray",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Stingray",
+			"",
+			"{SOURCE Bestiary 2/232}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Stingray}",
+			"",
+			"A long tail fitted with a barbed stinger trails from this flat, triangular fish's body.",
+			"",
+			"**Starting Statistics:** Size Small; Speed swim 40 ft.; Attack sting (1d3 plus poison); Ability Scores Str 6, Dex 15, Con 13, Int 1, Wis 13, Cha 2; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack sting (1d4 plus poison); Ability Scores Str +4, Dex -2, Con +2; Special Qualities blindsense 30 ft.."
+		]
+	},
+	"swan_trumpeter": {
+		"name": "Swan, Trumpeter",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Swan, Trumpeter",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Trumpeter Swan}",
+			"",
+			"This large waterfowl has a wide wingspan, all-white feathers, a black bill, and a long, curving neck.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 10 ft., fly 80 ft. (average); Attack bite (1d4), 2 wings (1d3); Ability Scores Str 10, Dex 15, Con 12, Int 2, Wis 12, Cha 5; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
+		]
+	},
+	"trumpeter_swan": { "copyof": "swan_trumpeter" },
+	"switchback_jackal": {
+		"name": "Switchback Jackal",
+		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
+		"description": [
+			"## Switchback Jackal",
+			"",
+			"{SOURCE Pathfinder #115: Trail of the Hunted/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Switchback Jackal}",
+			"",
+			"Resembling a small, half-starved wolf, this canine stares with deep intensity and undeniable hunger.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; AC +1 natural armor; Attack bite (1d4), 2 claws (1d3); Ability Scores Str 11, Dex 13, Con 14, Int 2, Wis 13, Cha 6; Special Qualities low-light vision, problem solver, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Dex +4, Con +2, Wis +2; Bonus Feat(s) Overwhelm."
+		]
+	},
+	"termite_giant": {
+		"name": "Termite, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Termite, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/185}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Termite}",
+			"",
+			"The giant termite has a set of large powerful mandibles, and it is particularly effective when fighting alongside other termite companions.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., climb 30 ft.; AC +2 natural armor; Attack bite (1d6); Ability Scores Str 12, Dex 11, Con 12, Int -, Wis 12, Cha 7; Special Attacks swarming (two giant termites can share the same space, and if they both attack the same target, they are considered to be flanking that foe); Special Qualities darkvision 60 ft.; CMD +8 vs. trip",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (1d8 plus 1d6 acid); Ability Scores Str +4, Dex -2, Con +2; Special Attacks gnaw (bite attack ignores hardness of 5 or less)."
+		]
+	},
+	"giant_termite": { "copyof": "termite_giant" },
+	"therizinosaurus": {
+		"name": "Therizinosaurus",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Therizinosaurus",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal",
+			"",
+			"This feathered bipedal saurian looks somewhat comical - save for its outlandish sword-sized claws.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +4 natural armor; Attack 2 claws (1d6); Ability Scores Str 12, Dex 18, Con 10, Int 2, Wis 15, Cha 11; Special Qualities low-light vision, scent, sprint",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack 2 claws (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks bleed (1d6), sweeping strike."
+		]
+	},
+	"thylacine": {
+		"name": "Thylacine",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Thylacine",
+			"",
+			"{SOURCE Bestiary 3/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Thylacine}",
+			"",
+			"This odd creature is about the size of a dog, but it has the slender build of a cat, heavy whiskers, and dark stripes down its back. Its long tail flips about, smacking the ground as it scans the woods. It yips and bays in a complex pattern, offering warning to anything that may cross its path.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft.; Attack bite (1d4); Ability Scores Str 12, Dex 15, Con 16, Int 2, Wis 13, Cha 7; Special Attacks powerful jaws; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +4."
+		]
+	},
+	"titanoboa": {
+		"name": "Titanoboa",
+		"sources": [ "Bestiary 6" ],
+		"description": [
+			"## Titanoboa",
+			"",
+			"{SOURCE Bestiary 6/312}  ",
+			"**Companion Type** Animal",
+			"",
+			"This immense serpent moves in deliberate, slithering undulations, its forked tongue tasting the air eagerly for the scent of prey.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., climb 30 ft., swim 30 ft.; AC +4 natural armor; Attack bite (1d4); Ability Scores Str 15, Dex 15, Con 11, Int 2, Wis 17, Cha 8; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Qualities constrict (1d6), grab."
+		]
+	},
+	"tortoise_giant": {
+		"name": "Tortoise, Giant",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Tortoise, Giant",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Tortoise}",
+			"",
+			"This tortoise is half the height of a human, and has a domed shell, leathery skin, and a long neck.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 10 ft.; AC +6 natural armor; Attack bite (1d4); Ability Scores Str 14, Dex 8, Con 16, Int 2, Wis 13, Cha 9; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +8 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities {feat/Great Fortitude} (Bonus Feat)."
+		]
+	},
+	"giant_tortoise": { "copyof": "tortoise_giant" },
+	"troodon": {
+		"name": "Troodon",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Troodon",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal",
+			"",
+			"This small, slender-necked dinosaur's bright, inquisitive eyes seem to miss nothing.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 40 ft.; Attack bite (1d4), 2 claws (1d3); Ability Scores Str 7, Dex 17, Con 10, Int 2, Wis 14, Cha 13; Special Qualities easily trained, low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex +4, Con +4."
+		]
+	},
+	"turtle_giant_snapping": {
+		"name": "Turtle, Giant Snapping",
+		"sources": [ "Bestiary 2" ],
+		"description": [
+			"## Turtle, Giant Snapping",
+			"",
+			"{SOURCE Bestiary 2/273}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Snapping Turtle}",
+			"",
+			"This lumbering turtle is the size of a house; its head features powerful, razor-sharp beak.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., swim 20 ft.; AC +10 natural armor; Attack bite (1d6); Ability Scores Str 8, Dex 10, Con 9, Int 1, Wis 13, Cha 6; Special Qualities low-light vision, hold breath, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab."
+		]
+	},
+	"giant_snapping_turtle": { "copyof": "turtle_giant_snapping" },
+	"uintatherium": {
+		"name": "Uintatherium",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Uintatherium",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal",
+			"",
+			"This large creature is built like a rhinoceros, but with fangs like a saber-toothed tiger and smaller hornlike ridges.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft.; AC +4 natural armor; Attack bite (1d8); Ability Scores Str 14, Dex 12, Con 17, Int 1, Wis 13, Cha 3; Special Qualities scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"vulture_giant": {
+		"name": "Vulture, Giant",
+		"sources": [ "Bestiary 3" ],
+		"description": [
+			"## Vulture, Giant",
+			"",
+			"{SOURCE Bestiary 3/312}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Vulture}",
+			"",
+			"A wickedly hooked beak and an immense bald head draw attention from this enormous scavenger's vast wingspan.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 10 ft., fly 50 ft. (average); AC +2 natural armor; Attack bite (1d8); Ability Scores Str 12, Dex 15, Con 14, Int 2, Wis 15, Cha 7; Special Qualities low-light vision, +4 on saves vs. disease",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"giant_vulture": { "copyof": "vulture_giant" },
+	"walrus": {
+		"name": "Walrus",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Walrus",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal",
+			"",
+			"This bulky, thick-skinned, flippered creature has on its face two enormous tusks and what looks like a coarse mustache.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 10 ft., swim 40 ft.; AC +4 natural armor; Attack bite (1d6); Ability Scores Str 12, Dex 13, Con 14, Int 2, Wis 13, Cha 6; Special Qualities hold breath, low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +4 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"warcat_of_rull": {
+		"name": "Warcat of Rull",
+		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
+		"description": [
+			"## Warcat of Rull",
+			"",
+			"{SOURCE Belkzen, Hold of the Orc Hordes/55}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Warcat of Rull}",
+			"",
+			"This massive catlike creature has the lithe grace of a feline despite a shell-like armor of segmented plates.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +4 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str 15, Dex 15, Con 14, Int 2, Wis 11, Cha 5; Special Attacks rake (1d4); Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab, pounce, rake (1d6)."
+		]
+	},
+	"wasp_giant": {
+		"name": "Wasp, Giant",
+		"sources": [ "Ultimate Magic" ],
+		"description": [
+			"## Wasp, Giant",
+			"",
+			"{SOURCE Ultimate Magic/37}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Wasp}",
+			"",
+			"This horse-sized wasp is covered in yellow and black vertical stripes - its stinger is the size of a sword and drips with venom.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 20 ft., fly 60 ft. (good); AC +2 natural armor; Attack sting (1d6 plus poison); Ability Scores Str 10, Dex 14, Con 11, Int -, Wis 13, Cha 4; Special Attacks poison (frequency 1 round [6], effect 1 Dex damage, cure 1 save, Con-based DC); Special Qualities darkvision; CMD +8 vs. trip",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack sting (1d8 plus poison); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"giant_wasp": { "copyof": "wasp_giant" },
+	"weasel_giant": {
+		"name": "Weasel, Giant",
+		"sources": [ "Bestiary 4" ],
+		"description": [
+			"## Weasel, Giant",
+			"",
+			"{SOURCE Bestiary 4/311}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Giant Weasel}",
+			"",
+			"This massive weasel moves smoothly across the ground, almost slithering like a snake, before pouncing with teeth bared.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 30 ft., climb 10 ft.; AC +1 natural armor; Attack bite (1d4); Ability Scores Str 10, Dex 19, Con 13, Int 2, Wis 12, Cha 10; Special Attacks blood drain (1 Con), grab; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Size Medium; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2."
+		]
+	},
+	"giant_weasel": { "copyof": "weasel_giant" },
+	"whiptail_centipede_giant": {
+		"name": "Whiptail Centipede, Giant",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Whiptail Centipede, Giant",
+			"",
+			"{SOURCE Ultimate Wilderness/185}  ",
+			"**Companion Type** Vermin  ",
+			"**Monster Entry:** {monster/Giant Whiptail Centipede}",
+			"",
+			"The long thin tendrils that lash out from this centipede's tail can trip foes with surprising ease.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft., climb 40 ft.; AC +3 natural armor; Attack bite (1d6 plus poison); Ability Scores Str 9, Dex 13, Con 13, Int -, Wis 10, Cha 2; Special Attacks poison (frequency 1 round [4]; effect 1d2 Dex damage; cure 1 save; Con-based DC); Special Qualities darkvision 60 ft.; CMD can't be tripped",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8 plus poison), tail slap (1d2 nonlethal plus trip, no Strength bonus on damage); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"giant_whiptail_centipede": { "copyof": "whiptail_centipede_giant" },
+	"whisperfall_vulture": {
+		"name": "Whisperfall Vulture",
+		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
+		"description": [
+			"## Whisperfall Vulture",
+			"",
+			"{SOURCE Belkzen, Hold of the Orc Hordes/55}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Whisperfall Vulture}",
+			"",
+			"This dark-winged vulture has a wickedly hooked beak stained with bright red blood.",
+			"",
+			"**Starting Statistics:** Size Small; Speed 10 ft., fly 60 ft. (average); AC +1 natural armor; Attack bite (1d6); Ability Scores Str 12, Dex 15, Con 12, Int 2, Wis 13, Cha 7; Special Qualities low-light vision",
+			"",
+			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
+		]
+	},
+	"wolf": {
+		"name": "Wolf",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"## Wolf",
+			"",
+			"{SOURCE PRPG Core Rulebook/54}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Wolf}",
+			"",
+			"This powerful canine watches its prey with piercing yellow eyes, darting its tongue across sharp white teeth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 50 ft.; AC +2 natural armor; Attack bite (1d6 plus trip); Ability Scores Str 13, Dex 15, Con 15, Int 2, Wis 12, Cha 6; Special Qualities scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8 plus trip); Ability Scores Str +8, Dex -2, Con +4."
+		]
+	},
+	"wolfdog": {
+		"name": "Wolfdog",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Wolfdog",
+			"",
+			"{SOURCE Ultimate Wilderness/182}  ",
+			"**Companion Type** Animal",
+			"",
+			"This creature is a dependable hybrid of wolf and dog.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +2 natural armor; Attack bite (1d6); Ability Scores Str 15, Dex 15, Con 13, Int 2, Wis 12, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Attack bite (1d6 plus 1d4 bleed); Ability Scores Str +2, Con +2."
+		]
+	},
+	"wolliped": {
+		"name": "Wolliped",
+		"sources": [ "Bestiary 5" ],
+		"description": [
+			"## Wolliped",
+			"",
+			"{SOURCE Bestiary 5/313}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Wolliped}",
+			"",
+			"This shaggy, multi-legged creature has a flattened face with wide nostrils and four eyes. Ivory tusks jut downward, flanking its mouth.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 50 ft.; AC +1 natural armor; Attack gore (1d6); Ability Scores Str 14, Dex 16, Con 12, Int 2, Wis 11, Cha 4; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (1d8); Ability Scores Str +4, Dex -2, Con +4; Special Attacks spit, trample."
+		]
+	},
+	"worg": {
+		"name": "Worg",
+		"sources": [ "Inner Sea Combat" ],
+		"description": [
+			"## Worg",
+			"",
+			"{SOURCE Inner Sea Combat/14}  ",
+			"**Companion Type** Monstrous  ",
+			"**Monster Entry:** {monster/Worg}",
+			"",
+			"This unusually large wolf has an evil, almost intelligent light shining in its deep red eyes.",
+			"",
+			"**Prerequisites** Alignment within one step of neutral evil.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 50 ft.; AC +2 natural armor; Attack bite (1d6); Ability Scores Str 17, Dex 15, Con 13, Int 6, Wis 14, Cha 10; Special Qualities darkvision 60 ft., low-light vision, scent; Languages Common, Goblin",
+			"",
+			"**4th-Level Advancement:** AC +2 natural armor; Attack bite (1d8 plus trip); Ability Scores Str +2, Con +2."
+		]
+	},
+	"yak": {
+		"name": "Yak",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Yak",
+			"",
+			"{SOURCE Ultimate Wilderness/182}  ",
+			"**Companion Type** Animal",
+			"",
+			"Stout and stubborn, the yak is sure footed and dependable in rough terrain.",
+			"",
+			"**Starting Statistics:** Size Large; Speed 30 ft.; AC +4 natural armor; Attack gore (1d8); Ability Scores Str 14, Dex 10, Con 12, Int 2, Wis 10, Cha 5; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** AC +2 natural armor; Ability Scores Str +4, Con +4; Special Qualities pack animal (speed is never modified by encumbrance)."
+		]
+	},
+	"yolubilis_heron": {
+		"name": "Yolubilis Heron",
+		"sources": [ "Pathfinder #97: In Hell's Bright Shadow" ],
+		"description": [
+			"## Yolubilis Heron",
+			"",
+			"{SOURCE Pathfinder #97: In Hell's Bright Shadow/83}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Yolubilis Heron}",
+			"",
+			"As tall as a tree, this dark gray bird stands on long legs. Its curved neck supports a sleek head with a slim but wicked beak.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 30 ft., fly 60 ft. (average); AC +2 natural armor; Attack bite (1d8); Ability Scores Str 13, Dex 15, Con 14, Int 2, Wis 12, Cha 9; Special Qualities low-light vision",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +2; Special Attacks still predator."
+		]
+	},
+	"yzobu": {
+		"name": "Yzobu",
+		"sources": [ "Monster Codex" ],
+		"description": [
+			"## Yzobu",
+			"",
+			"{SOURCE Monster Codex/124}  ",
+			"**Companion Type** Animal  ",
+			"**Monster Entry:** {monster/Yzobu}",
+			"",
+			"This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak.",
+			"",
+			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack gore (1d6); Ability Scores Str 14, Dex 12, Con 12, Int 2, Wis 11, Cha 4; Special Qualities low-light vision, scent",
+			"",
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks stampede, trample; Special Qualities stench."
+		]
+	},
+	"zebra": {
+		"name": "Zebra",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"## Zebra",
+			"",
+			"{SOURCE Ultimate Wilderness/182}  ",
+			"**Companion Type** Animal",
+			"",
+			"The iconic black and white stripes of the zebra make it instantly recognizable.",
+			"",
+			"**Starting Statistics:** Size Large; Speed 50 ft.; AC +2 natural armor; Attack bite (1d4), 2 hooves (primary attack, 1d4); Ability Scores Str 14, Dex 15, Con 13, Int 2, Wis 14, Cha 6; Special Qualities low-light vision, scent",
+			"",
+			"**4th-Level Advancement:** Ability Scores Dex +2, Con +2"
+		]
+	}
+}

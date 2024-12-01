@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import magic_wondrous from '../json/magic_wondrous6.json';
+import magic_wondrous from './subpages/__magic-wondrous6';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -12,11 +12,17 @@ interface MagicProps {
 	id: string,
 };
 
-const FeatGroup6Page: React.FC<MagicProps> = ({id}) => {
+const MagicWondrousGroup6Page: React.FC<MagicProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), magic_wondrous);
+	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), magic_wondrous);
 
-	return <BasicPage pageId={"magic-wondrous--" + id} title={title} markdown={markdown} tables={tables} hierarchy={[...hierarchy, ...subhierarchy]} sources={sources} />;
+	return <BasicPage
+		pageId={"magic-wondrous--" + id}
+		title={title}
+		hierarchy={[...hierarchy, ...subhierarchy]}
+		sources={sources}
+		topLink={["Wondrous Items", "main/magic_wondrous"]}
+	>{jsx}</BasicPage>;
 };
 
-export default FeatGroup6Page;
+export default MagicWondrousGroup6Page;

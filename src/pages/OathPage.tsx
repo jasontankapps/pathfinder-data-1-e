@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import oaths from '../json/class_ability_oaths.json';
+import oaths from './subpages/__oath';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const OathPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, oaths);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, oaths);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"oath--" + id}
-	/>;
+		topLink={["Paladin Oaths", "ability/oaths"]}
+	>{jsx}</BasicPage>;
 };
 
 export default OathPage;

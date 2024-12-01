@@ -14,6 +14,6 @@ The non-OGC content of *Pf Data 1e* is Copyright 2024 by Jason Tamez. It is also
 
 ## Instructions
 
-After installing this project, you will need to run `prebuild-create-index.js` to generate the search index and many helper files. If you alter the `.json` files, you will need to run the script again.
+After installing this project, you will need to run `prebuild-create-index.js` to generate the search index and many helper files, followed by `prebuild-create-data.js` to generate the majority of the app's files. If you alter the `.json` files, you will need to run the scripts again.
 
-These extra files are not included in the main repository because they rely on the main `.json` files for their data. Per the Open Game License, the raw game data must remain human-readable. The search index and helper files are not as readable, therefore we generate them as needed, keeping a separation between the human-readable data and the computer-usable data. This also means that you only need to keep track of the game data in one place, and update everything else as needed.
+These extra files are not included in the main repository because they rely on the main `.json` files for their data. Per the Open Game License, the raw game data must remain human-readable. The search index, helper files, and the other generated files are not as readable, and they would contain duplicated data. Therefore we generate them as needed, keeping a separation between the human-readable data and the computer-usable data. This also means that you only need to keep track of the game data in one place, and update everything else as needed.

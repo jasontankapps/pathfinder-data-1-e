@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import disciplines from '../json/class_ability_disciplines.json';
+import disciplines from './subpages/__discipline';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const DiscliplinePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, disciplines);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, disciplines);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"discipline--" + id}
-	/>;
+		topLink={["Psychic Disciplines", "ability/disciplines"]}
+	>{jsx}</BasicPage>;
 };
 
 export default DiscliplinePage;

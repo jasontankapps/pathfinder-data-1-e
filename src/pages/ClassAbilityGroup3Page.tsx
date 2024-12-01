@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import abilities from '../json/class_abilities3.json';
+import abilities from './subpages/__ability3';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,16 +14,15 @@ interface AbilityProps {
 
 const ClassAbilityGroup3Page: React.FC<AbilityProps> = ({id}) => {
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), abilities);
+	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>(id as keyof Data, abilities);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"class-ability--" + id}
-	/>;
+		topLink={subhierarchy.length ? subhierarchy[subhierarchy.length - 1] : undefined}
+	>{jsx}</BasicPage>;
 };
 
 export default ClassAbilityGroup3Page;

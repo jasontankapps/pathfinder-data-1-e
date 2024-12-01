@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import companions from '../json/class_ability_druid_companions.json';
+import companions from './subpages/__druidcompanion';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -20,16 +20,15 @@ const CompanionPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, companions);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, companions);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
-		hierarchy={hierarchy}
+		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"companion--" + id}
-	/>;
+		topLink={["Animal Companions", "ability/druid_companions"]}
+	>{jsx}</BasicPage>;
 };
 
 export default CompanionPage;

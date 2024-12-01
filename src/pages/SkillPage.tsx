@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import skills from '../json/skills.json';
+import skills from './subpages/__skill';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -15,16 +15,15 @@ const SkillPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { name: title, description: markdown, tables, sources } = getItem<Data>(id, skills);
+	const { title, jsx, sources } = getItem<Data>(id, skills);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
 		hierarchy={hierarchy}
 		sources={sources}
 		pageId={"skill--" + id}
-	/>;
+		topLink={["All Skills", "main/skills"]}
+	>{jsx}</BasicPage>;
 };
 
 export default SkillPage;

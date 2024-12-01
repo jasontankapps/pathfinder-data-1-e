@@ -1,9 +1,9 @@
 import { useParams } from 'react-router';
 import { useRouteMatch } from "react-router-dom";
 import getItem from '../components/getItem';
-import curses from '../json/curses.json';
-import diseases from '../json/diseases.json';
-import infestations from '../json/infestations.json';
+import curses from './subpages/__curse';
+import diseases from './subpages/__disease';
+import infestations from './subpages/__infestation';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -48,16 +48,15 @@ const AfflictionPage: React.FC = () => {
 
 	const pageId = `${type}--${id}`;
 
-	const { name: title, description: markdown, tables, sources, subhierarchy = [] } = getByType(id, type);
+	const { title, jsx, sources, subhierarchy = [] } = getByType(id, type);
 
 	return <BasicPage
 		title={title}
-		markdown={markdown}
-		tables={tables}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={pageId}
-	/>;
+		topLink={["Afflictions", "rule/afflictions"]}
+	>{jsx}</BasicPage>;
 };
 
 export default AfflictionPage;
