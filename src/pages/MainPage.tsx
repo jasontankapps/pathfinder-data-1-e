@@ -27,6 +27,22 @@ const MainGroup18Page = lazy(() => import("./MainGroup18Page"));
 const MainGroup19Page = lazy(() => import("./MainGroup19Page"));
 const MainGroup20Page = lazy(() => import("./MainGroup20Page"));
 const MainGroup21Page = lazy(() => import("./MainGroup21Page"));
+const MainGroup22Page = lazy(() => import("./MainGroup22Page"));
+const MainGroup23Page = lazy(() => import("./MainGroup23Page"));
+const MainGroup24Page = lazy(() => import("./MainGroup24Page"));
+const MainGroup25Page = lazy(() => import("./MainGroup25Page"));
+const MainGroup26Page = lazy(() => import("./MainGroup26Page"));
+const MainGroup27Page = lazy(() => import("./MainGroup27Page"));
+const MainGroup28Page = lazy(() => import("./MainGroup28Page"));
+const MainGroup29Page = lazy(() => import("./MainGroup29Page"));
+const MainGroup30Page = lazy(() => import("./MainGroup30Page"));
+const MainGroup31Page = lazy(() => import("./MainGroup31Page"));
+const MainGroup32Page = lazy(() => import("./MainGroup32Page"));
+const MainGroup33Page = lazy(() => import("./MainGroup33Page"));
+const MainGroup34Page = lazy(() => import("./MainGroup34Page"));
+const MainGroup35Page = lazy(() => import("./MainGroup35Page"));
+const MainGroup36Page = lazy(() => import("./MainGroup36Page"));
+const MainGroup37Page = lazy(() => import("./MainGroup37Page"));
 
 const pages = [
 	({id}: {id: string}) => <MainGroup01Page id={id} />,
@@ -50,6 +66,22 @@ const pages = [
 	({id}: {id: string}) => <MainGroup19Page id={id} />,
 	({id}: {id: string}) => <MainGroup20Page id={id} />,
 	({id}: {id: string}) => <MainGroup21Page id={id} />,
+	({id}: {id: string}) => <MainGroup22Page id={id} />,
+	({id}: {id: string}) => <MainGroup23Page id={id} />,
+	({id}: {id: string}) => <MainGroup24Page id={id} />,
+	({id}: {id: string}) => <MainGroup25Page id={id} />,
+	({id}: {id: string}) => <MainGroup26Page id={id} />,
+	({id}: {id: string}) => <MainGroup27Page id={id} />,
+	({id}: {id: string}) => <MainGroup28Page id={id} />,
+	({id}: {id: string}) => <MainGroup29Page id={id} />,
+	({id}: {id: string}) => <MainGroup30Page id={id} />,
+	({id}: {id: string}) => <MainGroup31Page id={id} />,
+	({id}: {id: string}) => <MainGroup32Page id={id} />,
+	({id}: {id: string}) => <MainGroup33Page id={id} />,
+	({id}: {id: string}) => <MainGroup34Page id={id} />,
+	({id}: {id: string}) => <MainGroup35Page id={id} />,
+	({id}: {id: string}) => <MainGroup36Page id={id} />,
+	({id}: {id: string}) => <MainGroup37Page id={id} />,
 ]
 
 const MainPage: React.FC = () => {

@@ -1,34 +1,27 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import domains from './subpages/__domain';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_domain.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [
-	["Main", "main/main"],
-	["Classes", "main/classes"],
-	["Cleric", "class/cleric"],
-	["Domains", "ability/domains"]
-];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof domains;
+const DomainGroup1Page = lazy(() => import("./DomainGroup1Page"));
+const DomainGroup2Page = lazy(() => import("./DomainGroup2Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <DomainGroup1Page id={id} />,
+	({id}: {id: string}) => <DomainGroup2Page id={id} />,
+]
 
 const DomainPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, domains);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage
-		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
-		sources={sources}
-		pageId={"clericdomain--" + id}
-		topLink={["Domains", "ability/domains"]}
-	>{jsx}</BasicPage>;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
+
 };
 
 export default DomainPage;

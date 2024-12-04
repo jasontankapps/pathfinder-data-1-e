@@ -1,15 +1,13 @@
 import getItem from '../components/getItem';
-import cavalier from './subpages/__archetype-cavalier';
+import psychic from './subpages/__archetype-psychic';
 import fighter from './subpages/__archetype-fighter';
-import investigator from './subpages/__archetype-investigator';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
-	...cavalier,
-	...fighter,
-	...investigator
+	...psychic,
+	...fighter
 };
 
 type Data = typeof archetypes;
@@ -20,9 +18,9 @@ interface ArchetypeProps {
 	title: string
 };
 
-const ArchetypeGroup0Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
+const ArchetypeGroup10Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
 
-	const arches: Data = {...archetypes};
+	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
 	const pageId = `archetype-${parent}--${id}`;
@@ -37,4 +35,4 @@ const ArchetypeGroup0Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
 	>{jsx}</BasicPage>;
 };
 
-export default ArchetypeGroup0Page;
+export default ArchetypeGroup10Page;

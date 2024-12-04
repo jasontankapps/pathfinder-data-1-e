@@ -116,65 +116,65 @@
 			"",
 			"For example, with a clay golem manual, you would need to provide a body worth 1,500 gp (rather than the normal full cost of 21,500 gp), spend 42 days constructing the golem's body (1 for each 1,000 gp in the normal price of the golem), have a caster level of 9th or higher (as the manual provides a +2 bonus and the normal requirement is 11th level), have {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, and {spell/resurrection} on your class's spell list, and succeed at a DC 16 Craft (sculptures) or Craft (pottery) check (but the manual gives you a +5 bonus on the check.)",
 			"",
-			"Adamantine ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/crushing hand}, [geas/quest](spell/geas_quest), {spell/heal}, {spell/stoneskin}, and {spell/wish}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting an {monster/adamantine golem}.; **Aura** strong abjuration, conjuration, enchantment, and evocation; **CL** 20th; {feat/Craft Construct}, {spell/crushing hand}, [geas/quest](spell/geas_quest), {spell/heal}, {spell/stoneskin}, {spell/wish}, creator must be caster level 20th.",
+			"Adamantine ({source/Construct Handbook/ pg. 17}): The book contains {spell/crushing hand}, [geas/quest](spell/geas_quest), {spell/heal}, {spell/stoneskin}, and {spell/wish}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting an {monster/adamantine golem}.; **Aura** strong abjuration, conjuration, enchantment, and evocation; **CL** 20th; {feat/Craft Construct}, {spell/crushing hand}, [geas/quest](spell/geas_quest), {spell/heal}, {spell/stoneskin}, {spell/wish}, creator must be caster level 20th.",
 			"",
-			"Alchemical ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), {spell/gentle repose}, {spell/major creation}, {spell/resist energy}, and {spell/telekinesis}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an {monster/alchemical golem}.; **Aura** moderate abjuration, conjuration, enchantment, necromancy, and transmutation; **CL** 10th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/major creation}, {spell/resist energy}, {spell/telekinesis}, creator must be caster level 10th.",
+			"Alchemical ({source/Construct Handbook/ pg. 17}): The book contains [geas/quest](spell/geas_quest), {spell/gentle repose}, {spell/major creation}, {spell/resist energy}, and {spell/telekinesis}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an {monster/alchemical golem}.; **Aura** moderate abjuration, conjuration, enchantment, necromancy, and transmutation; **CL** 10th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/major creation}, {spell/resist energy}, {spell/telekinesis}, creator must be caster level 10th.",
 			"",
-			"Blood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/animate dead}, {spell/bleed}, {spell/cure critical wounds}, and [geas/quest](spell/geas_quest). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/blood golem}.; **Aura** strong conjuration, enchantment, and necromancy [evil](source/construct_handbook), {spell/animate dead}, {spell/bleed}, {spell/cure critical wounds}, [geas/quest](spell/geas_quest), creator must be caster level 12th.",
+			"Blood ({source/Construct Handbook/ pg. 17}): The book contains {spell/animate dead}, {spell/bleed}, {spell/cure critical wounds}, and [geas/quest](spell/geas_quest). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/blood golem}.; **Aura** strong conjuration, enchantment, and necromancy [evil](source/construct_handbook), {spell/animate dead}, {spell/bleed}, {spell/cure critical wounds}, [geas/quest](spell/geas_quest), creator must be caster level 12th.",
 			"",
-			"Bone ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/animate objects}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/telekinesis}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/bone golem}.; **Aura** moderate enchantment and transmutation; **CL** 9th; {feat/Craft Construct}, {spell/animate objects}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/telekinesis}, creator must be caster level 9th.",
+			"Bone ({source/Construct Handbook/ pg. 17}): The book contains {spell/animate objects}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/telekinesis}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/bone golem}.; **Aura** moderate enchantment and transmutation; **CL** 9th; {feat/Craft Construct}, {spell/animate objects}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/telekinesis}, creator must be caster level 9th.",
 			"",
-			"Brass ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), {spell/incendiary cloud}, {spell/limited wish}, and {spell/see invisibility}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/brass golem}.; **Aura** strong conjuration, divination, and enchantment; **CL** 17th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/incendiary cloud}, {spell/limited wish}, {spell/see invisibility}, creator must be caster level 17th.",
+			"Brass ({source/Construct Handbook/ pg. 17}): The book contains [geas/quest](spell/geas_quest), {spell/incendiary cloud}, {spell/limited wish}, and {spell/see invisibility}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/brass golem}.; **Aura** strong conjuration, divination, and enchantment; **CL** 17th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/incendiary cloud}, {spell/limited wish}, {spell/see invisibility}, creator must be caster level 17th.",
 			"",
-			"Cannon ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/secret chest}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/cannon golem}.; **Aura** strong conjuration and enchantment; **CL** 17th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/secret chest}, creator must be caster level 17th.",
+			"Cannon ({source/Construct Handbook/ pg. 17}): The book contains [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/secret chest}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/cannon golem}.; **Aura** strong conjuration and enchantment; **CL** 17th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/secret chest}, creator must be caster level 17th.",
 			"",
-			"Carrion ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/animate dead}, {spell/contagion}, {spell/false life}, {spell/gentle repose}, and {spell/lesser geas}. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a {monster/carrion golem}.; **Aura** moderate enchantment and necromancy [evil](source/construct_handbook), {spell/animate dead}, {spell/contagion}, {spell/false life}, {spell/gentle repose}, {spell/lesser geas}, creator must be caster level 7th.",
+			"Carrion ({source/Construct Handbook/ pg. 17}): The book contains {spell/animate dead}, {spell/contagion}, {spell/false life}, {spell/gentle repose}, and {spell/lesser geas}. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a {monster/carrion golem}.; **Aura** moderate enchantment and necromancy [evil](source/construct_handbook), {spell/animate dead}, {spell/contagion}, {spell/false life}, {spell/gentle repose}, {spell/lesser geas}, creator must be caster level 7th.",
 			"",
-			"Clay ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains animate objects, bless, commune, prayer, and resurrection. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem.; **Aura** moderate conjuration; **CL** 11th; Craft Construct, animate objects, commune, prayer, resurrection, creator must be caster level 11th.",
+			"Clay ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains animate objects, bless, commune, prayer, and resurrection. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem.; **Aura** moderate conjuration; **CL** 11th; Craft Construct, animate objects, commune, prayer, resurrection, creator must be caster level 11th.",
 			"",
-			"Clockwork ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/animate objects}, {spell/blade barrier}, [geas/quest](spell/geas_quest), {spell/grease}, and {spell/telekinesis}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/clockwork golem}.; **Aura** strong enchantment, evocation, and transmutation; **CL** 15th; {feat/Craft Construct}, {spell/animate objects}, {spell/blade barrier}, [geas/quest](spell/geas_quest), {spell/grease}, {spell/telekinesis}, creator must be caster level 15th.",
+			"Clockwork ({source/Construct Handbook/ pg. 17}): The book contains {spell/animate objects}, {spell/blade barrier}, [geas/quest](spell/geas_quest), {spell/grease}, and {spell/telekinesis}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/clockwork golem}.; **Aura** strong enchantment, evocation, and transmutation; **CL** 15th; {feat/Craft Construct}, {spell/animate objects}, {spell/blade barrier}, [geas/quest](spell/geas_quest), {spell/grease}, {spell/telekinesis}, creator must be caster level 15th.",
 			"",
-			"Coral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), {spell/keen edge}, {spell/limited wish}, and {spell/water breathing}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/coral golem}.; **Aura** moderate enchantment and transmutation; **CL** 11th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/keen edge}, {spell/limited wish}, {spell/water breathing}, creator must be caster level 11th.",
+			"Coral ({source/Construct Handbook/ pg. 17}): The book contains [geas/quest](spell/geas_quest), {spell/keen edge}, {spell/limited wish}, and {spell/water breathing}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/coral golem}.; **Aura** moderate enchantment and transmutation; **CL** 11th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/keen edge}, {spell/limited wish}, {spell/water breathing}, creator must be caster level 11th.",
 			"",
-			"Crystal ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/possession}, and {spell/thoughtsense}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/crystal golem}.; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/possession}, {spell/thoughtsense}, creator must be caster level 15th.",
+			"Crystal ({source/Construct Handbook/ pg. 17}): The book contains [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/possession}, and {spell/thoughtsense}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/crystal golem}.; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/possession}, {spell/thoughtsense}, creator must be caster level 15th.",
 			"",
-			"Dragonhide ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/create greater undead}, {spell/form of the dragon I}, [geas/quest](spell/geas_quest), and {spell/limited wish}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/dragonhide golem}.; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; {feat/Craft Construct}, {spell/create greater undead}, {spell/form of the dragon I}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 16th.",
+			"Dragonhide ({source/Construct Handbook/ pg. 17}): The book contains {spell/create greater undead}, {spell/form of the dragon I}, [geas/quest](spell/geas_quest), and {spell/limited wish}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/dragonhide golem}.; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; {feat/Craft Construct}, {spell/create greater undead}, {spell/form of the dragon I}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 16th.",
 			"",
-			"Flesh ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains animate dead, bull's strength, geas/quest, and limited wish. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem.; **Aura** moderate enchantment, necromancy [evil], and transmutation; **CL** 8th; Craft Construct, animate objects, bull's strength, geas/quest, limited wish, creator must be caster level 8th.",
+			"Flesh ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains animate dead, bull's strength, geas/quest, and limited wish. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem.; **Aura** moderate enchantment, necromancy [evil], and transmutation; **CL** 8th; Craft Construct, animate objects, bull's strength, geas/quest, limited wish, creator must be caster level 8th.",
 			"",
-			"Fossil ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/flesh to stone}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/stone shape}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/fossil golem}.; **Aura** strong enchantment and transmutation; **CL** 15th; {feat/Craft Construct}, {spell/flesh to stone}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/stone shape}, creator must be caster level 15th.",
+			"Fossil ({source/Construct Handbook/ pg. 17}): The book contains {spell/flesh to stone}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/stone shape}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/fossil golem}.; **Aura** strong enchantment and transmutation; **CL** 15th; {feat/Craft Construct}, {spell/flesh to stone}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/stone shape}, creator must be caster level 15th.",
 			"",
-			"Glass ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/animate objects}, {spell/flame strike}, [geas/quest](spell/geas_quest), {spell/spell turning}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/glass golem}.; **Aura** moderate abjuration, enchantment, evocation, and transmutation; **CL** 10th; {feat/Craft Construct}, {spell/animate objects}, {spell/flame strike}, [geas/quest](spell/geas_quest), {spell/spell turning}, creator must be caster level 10th.",
+			"Glass ({source/Construct Handbook/ pg. 17}): The book contains {spell/animate objects}, {spell/flame strike}, [geas/quest](spell/geas_quest), {spell/spell turning}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/glass golem}.; **Aura** moderate abjuration, enchantment, evocation, and transmutation; **CL** 10th; {feat/Craft Construct}, {spell/animate objects}, {spell/flame strike}, [geas/quest](spell/geas_quest), {spell/spell turning}, creator must be caster level 10th.",
 			"",
-			"Gold ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/polymorph any object}, and {spell/prismatic spray}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/gold golem}.; **Aura** strong enchantment, evocation, and transmutation; **CL** 18th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/polymorph any object}, {spell/prismatic spray}, creator must be caster level 18th.",
+			"Gold ({source/Construct Handbook/ pg. 17}): The book contains [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/polymorph any object}, and {spell/prismatic spray}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/gold golem}.; **Aura** strong enchantment, evocation, and transmutation; **CL** 18th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/polymorph any object}, {spell/prismatic spray}, creator must be caster level 18th.",
 			"",
-			"Ice ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/chill touch}, {spell/cone of cold}, [geas/quest](spell/geas_quest), {spell/ice storm}, and [resist energy (cold)](spell/resist_energy). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an {monster/ice golem}.; **Aura** strong abjuration, enchantment, and evocation; **CL** 12th; {feat/Craft Construct}, {spell/chill touch}, {spell/cone of cold}, [geas/quest](spell/geas_quest), {spell/ice storm}, [resist energy (cold)](spell/resist_energy), creator must be caster level 12th.",
+			"Ice ({source/Construct Handbook/ pg. 17}): The book contains {spell/chill touch}, {spell/cone of cold}, [geas/quest](spell/geas_quest), {spell/ice storm}, and [resist energy (cold)](spell/resist_energy). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an {monster/ice golem}.; **Aura** strong abjuration, enchantment, and evocation; **CL** 12th; {feat/Craft Construct}, {spell/chill touch}, {spell/cone of cold}, [geas/quest](spell/geas_quest), {spell/ice storm}, [resist energy (cold)](spell/resist_energy), creator must be caster level 12th.",
 			"",
-			"Inubrix ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/air walk}, {spell/enervation}, [geas/quest](spell/geas_quest), and {spell/limited wish}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an {monster/inubrix golem}.; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; {feat/Craft Construct}, {spell/air walk}, {spell/enervation}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 16th.",
+			"Inubrix ({source/Construct Handbook/ pg. 17}): The book contains {spell/air walk}, {spell/enervation}, [geas/quest](spell/geas_quest), and {spell/limited wish}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an {monster/inubrix golem}.; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; {feat/Craft Construct}, {spell/air walk}, {spell/enervation}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 16th.",
 			"",
-			"Iron ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains cloudkill, geas/quest, limited wish, and polymorph any object. The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem.; **Aura** strong conjuration, enchantment, and transmutation; **CL** 16th; Craft Construct, cloudkill, geas/quest, limited wish, polymorph any object, creator must be caster level 16th.",
+			"Iron ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains cloudkill, geas/quest, limited wish, and polymorph any object. The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem.; **Aura** strong conjuration, enchantment, and transmutation; **CL** 16th; Craft Construct, cloudkill, geas/quest, limited wish, polymorph any object, creator must be caster level 16th.",
 			"",
-			"Junk ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/false life}, {spell/lesser geas}, {spell/minor creation}, and {spell/rusting grasp}. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a {monster/junk golem}.; **Aura** moderate conjuration, enchantment, necromancy, and transmutation; **CL** 7th; {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/minor creation}, {spell/rusting grasp}, creator must be caster level 7th.",
+			"Junk ({source/Construct Handbook/ pg. 17}): The book contains {spell/false life}, {spell/lesser geas}, {spell/minor creation}, and {spell/rusting grasp}. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a {monster/junk golem}.; **Aura** moderate conjuration, enchantment, necromancy, and transmutation; **CL** 7th; {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/minor creation}, {spell/rusting grasp}, creator must be caster level 7th.",
 			"",
-			"Lead ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/cloudkill}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/sequester}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/lead golem}.; **Aura** strong abjuration, conjuration, and enchantment; **CL** 13th; {feat/Craft Construct}, {spell/cloudkill}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/sequester}, creator must be caster level 13th.",
+			"Lead ({source/Construct Handbook/ pg. 17}): The book contains {spell/cloudkill}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/sequester}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/lead golem}.; **Aura** strong abjuration, conjuration, and enchantment; **CL** 13th; {feat/Craft Construct}, {spell/cloudkill}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/sequester}, creator must be caster level 13th.",
 			"",
-			"Mithral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/cloudkill}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/polymorph any object}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/mithral golem}.; **Aura** strong abjuration, enchantment, evocation, and transmutation; **CL** 16th; {feat/Craft Construct}, {spell/cloudkill}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/polymorph any object}, creator must be caster level 16th.",
+			"Mithral ({source/Construct Handbook/ pg. 17}): The book contains {spell/cloudkill}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/polymorph any object}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/mithral golem}.; **Aura** strong abjuration, enchantment, evocation, and transmutation; **CL** 16th; {feat/Craft Construct}, {spell/cloudkill}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/polymorph any object}, creator must be caster level 16th.",
 			"",
-			"Obsidian ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/volcanic storm}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an {monster/obsidian golem}.; **Aura** strong enchantment and evocation; **CL** 15th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/volcanic storm}, creator must be caster level 15th.",
+			"Obsidian ({source/Construct Handbook/ pg. 17}): The book contains [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/volcanic storm}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an {monster/obsidian golem}.; **Aura** strong enchantment and evocation; **CL** 15th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/volcanic storm}, creator must be caster level 15th.",
 			"",
-			"Quintessence ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/energy drain}, [geas/quest](spell/geas_quest), {spell/trap the soul}, and {spell/wish}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/quintessence golem}.; **Aura** strong conjuration, enchantment, and necromancy; **CL** 20th; {feat/Craft Construct}, {spell/energy drain}, [geas/quest](spell/geas_quest), {spell/trap the soul}, {spell/wish}, creator must be caster level 20th.",
+			"Quintessence ({source/Construct Handbook/ pg. 17}): The book contains {spell/energy drain}, [geas/quest](spell/geas_quest), {spell/trap the soul}, and {spell/wish}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/quintessence golem}.; **Aura** strong conjuration, enchantment, and necromancy; **CL** 20th; {feat/Craft Construct}, {spell/energy drain}, [geas/quest](spell/geas_quest), {spell/trap the soul}, {spell/wish}, creator must be caster level 20th.",
 			"",
-			"Sand ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/move earth}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/sand golem}.; **Aura** strong enchantment and transmutation; **CL** 12th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/move earth}, creator must be caster level 12th.",
+			"Sand ({source/Construct Handbook/ pg. 17}): The book contains [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/move earth}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/sand golem}.; **Aura** strong enchantment and transmutation; **CL** 12th; {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/move earth}, creator must be caster level 12th.",
 			"",
-			"Stone ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains antimagic field, geas/quest, limited wish, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field, geas/quest, limited wish, symbol of stunning, creator must be caster level 14th.",
+			"Stone ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains antimagic field, geas/quest, limited wish, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field, geas/quest, limited wish, symbol of stunning, creator must be caster level 14th.",
 			"",
-			"Stone Guardian ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains antimagic field, discern location, geas/quest, limited wish, shield other, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field discern location, geas/quest, limited wish, shield other, symbol of stunning, creator must be caster level 14th.",
+			"Stone Guardian ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains antimagic field, discern location, geas/quest, limited wish, shield other, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field discern location, geas/quest, limited wish, shield other, symbol of stunning, creator must be caster level 14th.",
 			"",
-			"Viridium ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/contagion}, [geas/quest](spell/geas_quest), {spell/horrid wilting}, {spell/poison}, and {spell/wish}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/viridium golem}.; **Aura** strong enchantment and necromancy [evil](source/construct_handbook), {spell/contagion}, [geas/quest](spell/geas_quest), {spell/horrid wilting}, {spell/poison}, {spell/wish}, creator must be caster level 18th.",
+			"Viridium ({source/Construct Handbook/ pg. 17}): The book contains {spell/contagion}, [geas/quest](spell/geas_quest), {spell/horrid wilting}, {spell/poison}, and {spell/wish}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/viridium golem}.; **Aura** strong enchantment and necromancy [evil](source/construct_handbook), {spell/contagion}, [geas/quest](spell/geas_quest), {spell/horrid wilting}, {spell/poison}, {spell/wish}, creator must be caster level 18th.",
 			"",
-			"Wax ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/animate objects}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/silent image}. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a {monster/wax golem}.; **Aura** moderate enchantment, illusion, and transmutation; **CL** 9th; {feat/Craft Construct}, {spell/animate objects}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/silent image}, creator must be caster level 9th.",
+			"Wax ({source/Construct Handbook/ pg. 17}): The book contains {spell/animate objects}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/silent image}. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a {monster/wax golem}.; **Aura** moderate enchantment, illusion, and transmutation; **CL** 9th; {feat/Craft Construct}, {spell/animate objects}, [geas/quest](spell/geas_quest), {spell/limited wish}, and {spell/silent image}, creator must be caster level 9th.",
 			"",
-			"Wood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains {spell/alarm}, {spell/animate objects}, {spell/cat's grace}, [geas/quest](spell/geas_quest), and {spell/limited wish}. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a {monster/wood golem}.; **Aura** strong abjuration, enchantment, and transmutation; **CL** 12th; {feat/Craft Construct}, {spell/alarm}, {spell/animate objects}, {spell/cat's grace}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 12th.",
+			"Wood ({source/Construct Handbook/ pg. 17}): The book contains {spell/alarm}, {spell/animate objects}, {spell/cat's grace}, [geas/quest](spell/geas_quest), and {spell/limited wish}. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a {monster/wood golem}.; **Aura** strong abjuration, enchantment, and transmutation; **CL** 12th; {feat/Craft Construct}, {spell/alarm}, {spell/animate objects}, {spell/cat's grace}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 12th.",
 			"",
 			"### Construction",
 			"",
@@ -219,6 +219,82 @@
 	},
 	"golem_manual_coral": {
 		"name": "Golem Manual (Coral)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_lead": {
+		"name": "Golem Manual (Lead)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_stone": {
+		"name": "Golem Manual (Stone)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_carrion": {
+		"name": "Golem Manual (Carrion)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_clockwork": {
+		"name": "Golem Manual (Clockwork)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_iron": {
+		"name": "Golem Manual (Iron)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_brass": {
+		"name": "Golem Manual (Brass)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_stone_guardian": {
+		"name": "Golem Manual (Stone Guardian)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_fossil": {
+		"name": "Golem Manual (Fossil)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_crystal": {
+		"name": "Golem Manual (Crystal)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_obsidian": {
+		"name": "Golem Manual (Obsidian)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_cannon": {
+		"name": "Golem Manual (Cannon)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_dragonhide": {
+		"name": "Golem Manual (Dragonhide)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_gold": {
+		"name": "Golem Manual (Gold)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_blood": {
+		"name": "Golem Manual (Blood)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_viridium": {
+		"name": "Golem Manual (Viridium)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_mithral": {
+		"name": "Golem Manual (Mithral)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_inubrix": {
+		"name": "Golem Manual (Inubrix)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_adamantine": {
+		"name": "Golem Manual (Adamantine)",
+		"copyof": "golem_manual_junk"
+	},
+	"golem_manual_quintessence": {
+		"name": "Golem Manual (Quintessence)",
 		"copyof": "golem_manual_junk"
 	},
 	"crimson_altar": {
@@ -290,6 +366,20 @@
 	"spell_winder_2nd_level": {
 		"copyof": "spell_winder_nagaji_2nd_level"
 	},
+	"spell_winder_nagaji_4th_level": {
+		"name": "Spell Winder (Nagaji) (4th level)",
+		"copyof": "spell_winder_nagaji_2nd_level"
+	},
+	"spell_winder_4th_level": {
+		"copyof": "spell_winder_nagaji_4th_level"
+	},
+	"spell_winder_nagaji_6th_level": {
+		"name": "Spell Winder (Nagaji) (6th level)",
+		"copyof": "spell_winder_nagaji_2nd_level"
+	},
+	"spell_winder_6th_level": {
+		"copyof": "spell_winder_nagaji_6th_level"
+	},
 	"runestone_of_power_1st": {
 		"name": "Runestone of Power (1st)",
 		"sources": [
@@ -316,6 +406,30 @@
 	},
 	"runestone_of_power_3rd": {
 		"name": "Runestone of Power (3rd)",
+		"copyof": "runestone_of_power_1st"
+	},
+	"runestone_of_power_4th": {
+		"name": "Runestone of Power (4th)",
+		"copyof": "runestone_of_power_1st"
+	},
+	"runestone_of_power_5th": {
+		"name": "Runestone of Power (5th)",
+		"copyof": "runestone_of_power_1st"
+	},
+	"runestone_of_power_6th": {
+		"name": "Runestone of Power (6th)",
+		"copyof": "runestone_of_power_1st"
+	},
+	"runestone_of_power_7th": {
+		"name": "Runestone of Power (7th)",
+		"copyof": "runestone_of_power_1st"
+	},
+	"runestone_of_power_8th": {
+		"name": "Runestone of Power (8th)",
+		"copyof": "runestone_of_power_1st"
+	},
+	"runestone_of_power_9th": {
+		"name": "Runestone of Power (9th)",
 		"copyof": "runestone_of_power_1st"
 	},
 	"banner_of_the_ancient_kings": {
@@ -787,6 +901,14 @@
 			"**Requirements** {feat/Craft Wondrous Item}, overland flight; **Cost** 10,000 gp (5-ft.-by-5-ft.), 17,500 gp (5-ft.-by-10-ft.), 30,000 gp (10-ft.-by-10-ft.)"
 		]
 	},
+	"carpet_of_flying_5_ft_by_10_ft": {
+		"name": "Carpet of Flying (5-ft.-by-10-ft.)",
+		"copyof": "carpet_of_flying_5_ft_by_5_ft"
+	},
+	"carpet_of_flying_10_ft_by_10_ft": {
+		"name": "Carpet of Flying (10-ft.-by-10-ft.)",
+		"copyof": "carpet_of_flying_5_ft_by_5_ft"
+	},
 	"apparatus_of_the_octopus": {
 		"name": "Apparatus of the Octopus",
 		"sources": [ "Aquatic Adventures" ],
@@ -903,10 +1025,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, plane shift, scrying; **Cost** 10,000 gp"
 		]
 	},
-	"golem_manual_lead": {
-		"name": "Golem Manual (Lead)",
-		"copyof": "golem_manual_junk"
-	},
 	"banner_of_tactical_command_lesser": {
 		"name": "Banner of Tactical Command (Lesser)",
 		"sources": [ "Quests and Campaigns" ],
@@ -928,6 +1046,13 @@
 	},
 	"lesser_banner_of_tactical_command": {
 		"copyof": "banner_of_tactical_command_lesser"
+	},
+	"banner_of_tactical_command_normal": {
+		"name": "Banner of Tactical Command (Normal)",
+		"copyof": "banner_of_tactical_command_lesser"
+	},
+	"normal_banner_of_tactical_command": {
+		"copyof": "banner_of_tactical_command_normal"
 	},
 	"magic_talking_board": {
 		"name": "Magic Talking Board",
@@ -1288,10 +1413,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, animate dead, spike growth; **Cost** 11,000 gp"
 		]
-	},
-	"golem_manual_stone": {
-		"name": "Golem Manual (Stone)",
-		"copyof": "golem_manual_junk"
 	},
 	"weirding_watch": {
 		"name": "Weirding Watch",
@@ -2057,6 +2178,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, wish or miracle; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
 	},
+	"manual_of_bodily_health_2": {
+		"name": "Manual of Bodily Health (+2)",
+		"copyof": "manual_of_bodily_health_1"
+	},
+	"manual_of_bodily_health_3": {
+		"name": "Manual of Bodily Health (+3)",
+		"copyof": "manual_of_bodily_health_1"
+	},
+	"manual_of_bodily_health_4": {
+		"name": "Manual of Bodily Health (+4)",
+		"copyof": "manual_of_bodily_health_1"
+	},
+	"manual_of_bodily_health_5": {
+		"name": "Manual of Bodily Health (+5)",
+		"copyof": "manual_of_bodily_health_1"
+	},
 	"manual_of_quickness_of_action_1": {
 		"name": "Manual of Quickness of Action (+1)",
 		"sources": [
@@ -2076,6 +2213,22 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, wish or miracle; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
+	},
+	"manual_of_quickness_of_action_2": {
+		"name": "Manual of Quickness of Action (+2)",
+		"copyof": "manual_of_quickness_of_action_1"
+	},
+	"manual_of_quickness_of_action_3": {
+		"name": "Manual of Quickness of Action (+3)",
+		"copyof": "manual_of_quickness_of_action_1"
+	},
+	"manual_of_quickness_of_action_4": {
+		"name": "Manual of Quickness of Action (+4)",
+		"copyof": "manual_of_quickness_of_action_1"
+	},
+	"manual_of_quickness_of_action_5": {
+		"name": "Manual of Quickness of Action (+5)",
+		"copyof": "manual_of_quickness_of_action_1"
 	},
 	"manual_of_gainful_exercise_1": {
 		"name": "Manual of Gainful Exercise (+1)",
@@ -2097,6 +2250,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, wish or miracle; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
 	},
+	"manual_of_gainful_exercise_2": {
+		"name": "Manual of Gainful Exercise (+2)",
+		"copyof": "manual_of_gainful_exercise_1"
+	},
+	"manual_of_gainful_exercise_3": {
+		"name": "Manual of Gainful Exercise (+3)",
+		"copyof": "manual_of_gainful_exercise_1"
+	},
+	"manual_of_gainful_exercise_4": {
+		"name": "Manual of Gainful Exercise (+4)",
+		"copyof": "manual_of_gainful_exercise_1"
+	},
+	"manual_of_gainful_exercise_5": {
+		"name": "Manual of Gainful Exercise (+5)",
+		"copyof": "manual_of_gainful_exercise_1"
+	},
 	"tome_of_clear_thought_1": {
 		"name": "Tome of Clear Thought (+1)",
 		"sources": [
@@ -2116,6 +2285,22 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, miracle or wish; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
+	},
+	"tome_of_clear_thought_2": {
+		"name": "Tome of Clear Thought (+2)",
+		"copyof": "tome_of_clear_thought_1"
+	},
+	"tome_of_clear_thought_3": {
+		"name": "Tome of Clear Thought (+3)",
+		"copyof": "tome_of_clear_thought_1"
+	},
+	"tome_of_clear_thought_4": {
+		"name": "Tome of Clear Thought (+4)",
+		"copyof": "tome_of_clear_thought_1"
+	},
+	"tome_of_clear_thought_5": {
+		"name": "Tome of Clear Thought (+5)",
+		"copyof": "tome_of_clear_thought_1"
 	},
 	"tome_of_understanding_1": {
 		"name": "Tome of Understanding (+1)",
@@ -2137,6 +2322,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, miracle or wish; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
 	},
+	"tome_of_understanding_2": {
+		"name": "Tome of Understanding (+2)",
+		"copyof": "tome_of_understanding_1"
+	},
+	"tome_of_understanding_3": {
+		"name": "Tome of Understanding (+3)",
+		"copyof": "tome_of_understanding_1"
+	},
+	"tome_of_understanding_4": {
+		"name": "Tome of Understanding (+4)",
+		"copyof": "tome_of_understanding_1"
+	},
+	"tome_of_understanding_5": {
+		"name": "Tome of Understanding (+5)",
+		"copyof": "tome_of_understanding_1"
+	},
 	"tome_of_leadership_and_influence_1": {
 		"name": "Tome of Leadership and Influence (+1)",
 		"sources": [
@@ -2156,6 +2357,22 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, miracle or wish; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
+	},
+	"tome_of_leadership_and_influence_2": {
+		"name": "Tome of Leadership and Influence (+2)",
+		"copyof": "tome_of_leadership_and_influence_1"
+	},
+	"tome_of_leadership_and_influence_3": {
+		"name": "Tome of Leadership and Influence (+3)",
+		"copyof": "tome_of_leadership_and_influence_1"
+	},
+	"tome_of_leadership_and_influence_4": {
+		"name": "Tome of Leadership and Influence (+4)",
+		"copyof": "tome_of_leadership_and_influence_1"
+	},
+	"tome_of_leadership_and_influence_5": {
+		"name": "Tome of Leadership and Influence (+5)",
+		"copyof": "tome_of_leadership_and_influence_1"
 	},
 	"ambush_cauldron": {
 		"name": "Ambush Cauldron",
@@ -2291,10 +2508,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, mage's magnificent mansion, secret chest; **Cost** 15,000 gp"
 		]
-	},
-	"golem_manual_carrion": {
-		"name": "Golem Manual (Carrion)",
-		"copyof": "golem_manual_junk"
 	},
 	"cauldron_of_the_dead": {
 		"name": "Cauldron of the Dead",
@@ -2522,10 +2735,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, calm emotions, cat's grace, forceful hand, whispering wind; **Cost** 15,420 gp"
 		]
-	},
-	"runestone_of_power_4th": {
-		"name": "Runestone of Power (4th)",
-		"copyof": "runestone_of_power_1st"
 	},
 	"asura_meditation_mat": {
 		"name": "Asura Meditation Mat",
@@ -2819,10 +3028,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, detect scrying, sending; **Cost** 16,200 gp"
 		]
 	},
-	"carpet_of_flying_5_ft_by_10_ft": {
-		"name": "Carpet of Flying (5-ft.-by-10-ft.)",
-		"copyof": "carpet_of_flying_5_ft_by_5_ft"
-	},
 	"chime_of_disillusionment": {
 		"name": "Chime of Disillusionment",
 		"sources": [ "Mythic Adventures" ],
@@ -2839,10 +3044,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, calm emotions, darkness; **Cost** 17,500 gp"
 		]
-	},
-	"golem_manual_clockwork": {
-		"name": "Golem Manual (Clockwork)",
-		"copyof": "golem_manual_junk"
 	},
 	"cornucopia_of_plenty": {
 		"name": "Cornucopia of Plenty",
@@ -2862,10 +3063,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, create food and water, heroes' feast; **Cost** 17,500 gp"
 		]
-	},
-	"golem_manual_iron": {
-		"name": "Golem Manual (Iron)",
-		"copyof": "golem_manual_junk"
 	},
 	"war_drums_of_savagery": {
 		"name": "War Drums of Savagery",
@@ -2966,10 +3163,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, dominate animal, polymorph; **Cost** 18,500 gp"
 		]
 	},
-	"golem_manual_fossil": {
-		"name": "Golem Manual (Fossil)",
-		"copyof": "golem_manual_junk"
-	},
 	"harp_of_slumber": {
 		"name": "Harp of Slumber",
 		"sources": [ "Giant Hunter's Handbook" ],
@@ -3031,13 +3224,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, greater heroism, heroes' feast, heroism; **Cost** 19,080 gp"
 		]
 	},
-	"spell_winder_nagaji_4th_level": {
-		"name": "Spell Winder (Nagaji) (4th level)",
-		"copyof": "spell_winder_nagaji_2nd_level"
-	},
-	"spell_winder_4th_level": {
-		"copyof": "spell_winder_nagaji_4th_level"
-	},
 	"truthseeker_wayfinder": {
 		"name": "Truthseeker Wayfinder",
 		"sources": [ "Pathfinder Society Primer" ],
@@ -3074,10 +3260,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, overland flight; **Cost** 20,000 gp"
 		]
-	},
-	"golem_manual_crystal": {
-		"name": "Golem Manual (Crystal)",
-		"copyof": "golem_manual_junk"
 	},
 	"dark_lens_altar": {
 		"name": "Dark Lens Altar",
@@ -3188,10 +3370,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect undead}, knock, message, spectral hand, vampiric touch; **Cost** 20,000 gp"
 		]
-	},
-	"golem_manual_obsidian": {
-		"name": "Golem Manual (Obsidian)",
-		"copyof": "golem_manual_junk"
 	},
 	"ring_gates": {
 		"name": "Ring Gates",
@@ -3324,9 +3502,21 @@
 	},
 	"crystal_ball": { "copyof": "crystal_ball_normal" },
 	"normal_crystal_ball": { "copyof": "crystal_ball_normal" },
-	"golem_manual_stone_guardian": {
-		"name": "Golem Manual (Stone Guardian)",
-		"copyof": "golem_manual_junk"
+	"crystal_ball_see_invisibility": {
+		"name": "Crystal Ball (See Invisibility)",
+		"copyof": "crystal_ball_normal"
+	},
+	"crystal_ball_detect_thoughts": {
+		"name": "Crystal Ball (Detect Thoughts)",
+		"copyof": "crystal_ball_normal"
+	},
+	"crystal_ball_telepathy": {
+		"name": "Crystal Ball (Telepathy)",
+		"copyof": "crystal_ball_normal"
+	},
+	"crystal_ball_true_seeing": {
+		"name": "Crystal Ball (True Seeing)",
+		"copyof": "crystal_ball_normal"
 	},
 	"aligned_horn_of_valhalla": {
 		"name": "Aligned Horn of Valhalla",
@@ -3405,6 +3595,14 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, crushing despair (despair), rage (ferocity), aid and bear's endurance (iron resolve); **Cost** 25,000 gp (despair), 30,000 gp (ferocity), 22,500 gp (iron resolve)"
 		]
+	},
+	"hobgoblin_battle_standard_despair": {
+		"name": "Hobgoblin Battle Standard (Despair)",
+		"copyof": "hobgoblin_battle_standard_iron_resolve"
+	},
+	"hobgoblin_battle_standard_ferocity": {
+		"name": "Hobgoblin Battle Standard (Ferocity)",
+		"copyof": "hobgoblin_battle_standard_iron_resolve"
 	},
 	"meduseion": {
 		"name": "Meduseion",
@@ -3549,7 +3747,7 @@
 			"**Aura** strong varied; **CL** 18th  ",
 			"**Slot** none; **Price** 48,000 gp; **Weight** 6 lbs.",
 			"",
-			"This glass sphere is 8 inches in diameter. The possessor can call forth all manner of weather, even supernaturally destructive storms. Once per day, she can call upon the orb to use a control weather spell. Once per month, she can conjure a storm of vengeance. The possessor of the orb is continually protected by an endure elements effect.",
+			"This glass sphere is 8 inches in diameter. The possessor can call forth all manner of weather, even supernaturally destructive storms. Once per day, she can call upon the orb to use a control weather spell. Once per month, she can conjure a storm of vengeance. The possessor of the orb is continually protected by an {spell/endure elements} effect.",
 			"",
 			"### Construction",
 			"",
@@ -3642,10 +3840,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, creator must be a 16th-level occultist who has learned the evocation implement school; **Cost** 24,000 gp"
 		]
 	},
-	"runestone_of_power_5th": {
-		"name": "Runestone of Power (5th)",
-		"copyof": "runestone_of_power_1st"
-	},
 	"book_of_banishing": {
 		"name": "Book of Banishing",
 		"sources": [ "Mythic Adventures" ],
@@ -3666,10 +3860,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, Mythic Creator, banishment, any one of cloak of chaos, holy aura, shield of law, or unholy aura; **Cost** 25,000 gp"
 		]
-	},
-	"hobgoblin_battle_standard_despair": {
-		"name": "Hobgoblin Battle Standard (Despair)",
-		"copyof": "hobgoblin_battle_standard_iron_resolve"
 	},
 	"dossal_of_salt_and_tears": {
 		"name": "Dossal of Salt and Tears",
@@ -3740,10 +3930,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, true form; **Cost** 25,000 gp"
 		]
 	},
-	"crystal_ball_see_invisibility": {
-		"name": "Crystal Ball (See Invisibility)",
-		"copyof": "crystal_ball_normal"
-	},
 	"unicorns_blackened_horn": {
 		"name": "Unicorn's Blackened Horn",
 		"sources": [ "Healer's Handbook" ],
@@ -3767,10 +3953,6 @@
 			"**Requirements** {feat/Craft Rod}, harm, heal, creator must be evil-aligned and able to channel energy; **Cost** 25,000 gp"
 		]
 	},
-	"crystal_ball_detect_thoughts": {
-		"name": "Crystal Ball (Detect Thoughts)",
-		"copyof": "crystal_ball_normal"
-	},
 	"last_leaves_of_the_autumn_dryad": {
 		"name": "Last Leaves of the Autumn Dryad",
 		"sources": [ "Ultimate Equipment" ],
@@ -3792,1903 +3974,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, arcane eye, tree shape, whispering wind; **Cost** 26,000 gp"
-		]
-	},
-	"parley_ward": {
-		"name": "Parley Ward",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"## Parley Ward",
-			"",
-			"{SOURCE Ultimate Intrigue/249}  ",
-			"**Aura** moderate abjuration; **CL** 11th  ",
-			"**Slot** none; **Price** 52,000 gp; **Weight** 2 lbs.",
-			"",
-			"This hemispherical dome of jet-black crystal has no discernible markings on its curved surface, but faint runes (including the command word) are visible on the flat side. Three times per week, whenever it is placed flat side down and the command word is spoken, the parley ward hums and projects a black dome-shaped field that slowly expands for 1 minute and then finally snaps into place, covering up to a 30-foot-radius area, though the area can be reduced and shaped to encompass the interior of a room or structure (such as a meeting hall or pavilion) in order to make it less obvious to those on the outside. The affected area becomes a protected zone that provides complete privacy, preventing sound, light, and divination and scrying spells from penetrating, as per the mage's private sanctum spell. Additionally, the protected zone discourages any creatures within from committing deliberate hostile acts, as though they were affected by the serenity spell (with no save allowed). Each use of the magic of the parley ward can function for up to 24 hours, or until the user deactivates it. Once the parley ward is activated, neither the item nor its zone can be moved; attempting to do so deactivates it, consuming one of its 3 weekly charges.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mage's private sanctum, serenity; **Cost** 26,000 gp"
-		]
-	},
-	"glass_of_veils": {
-		"name": "Glass of Veils",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"## Glass of Veils",
-			"",
-			"{SOURCE Ultimate Intrigue/247}  ",
-			"**Aura** moderate illusion; **CL** 11th  ",
-			"**Slot** none; **Price** 53,000 gp; **Weight** 40 lbs.",
-			"",
-			"This looking glass resembles a framed full-length mirror, 5 feet tall and 2 feet wide. A creature that knows the proper commands can operate the mirror in one of two modes.",
-			"",
-			"In its first mode, the mirror stores the reflection of any creature other than the user that comes within 20 feet of the device and sees its own image. A creature not aware of the nature of the device always sees its own reflection. If the creature seeks to avert its gaze in order to avoid looking at the mirror, the probability of a creature seeing its reflection drops to 50%. This mode functions continually until another command word is spoken or until 24 hours pass, whichever comes first.",
-			"",
-			"In its second mode, the mirror can call to its surface any reflection stored via the first mode of operation and bestow that appearance on the activator, as per the veil spell, for 24 hours. The stored reflection increases the bonus that its veil grants on Disguise checks from +10 to +20. The disguise is always the mirror image of the creature, however, which might reveal to astute observers familiar with the creature that something is wrong (for instance, a mole on the wrong side of the face); this increases the bonus on Perception checks to see through the disguise for creatures intimately familiar with the creature in question from +10 to +25. This mode can be activated up to three times per day, though it can provide only one veil effect at a time, so if anyone activates it again before the previous veil expires, the first effect ends.",
-			"",
-			"A glass of veils can store up to 12 different reflections. If its capacity is exceeded, the reflection that has been stored the longest is erased to accommodate the latest one. With a separate command word, the user can protect an image from being erased, or remove that protection. A glass of veils with all 12 reflections protected from erasure can't store new images until he removes the protection from at least one stored image.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, veil; **Cost** 26,500 gp"
-		]
-	},
-	"astrologers_telescope": {
-		"name": "Astrologer's Telescope",
-		"sources": [ "People of the Stars" ],
-		"description": [
-			"## Astrologer's Telescope",
-			"",
-			"{SOURCE People of the Stars/30}  ",
-			"**Aura** moderate divination; **CL** 10th  ",
-			"**Slot** none; **Price** 54,000 gp; **Weight** 30 lbs.",
-			"",
-			"This telescope has over a dozen lenses and measurement devices attached to it. An astrologer's telescope functions as a telescope with &times;50 magnification.",
-			"",
-			"A skilled astronomer can use an astrologer's telescope to glean insights into the future by carefully manipulating the various lenses and other apparatuses attached to the telescope while gazing at the stars. When doing so, the user selects a Knowledge skill and attempts a DC 20 Knowledge (geography) check over the course of 1 hour while stargazing with the telescope. If she doesn't possess ranks in Knowledge (geography), she can attempt a Perception check instead, albeit at a -5 penalty.",
-			"",
-			"If the viewing is successful, the user records that check result. Anytime during the next 24 hours that the user would roll the selected Knowledge check, she can use the result of the earlier check as the result of her Knowledge check instead of rolling as normal. If the user is untrained in the selected Knowledge skill, she can use her Knowledge (geography) check result as the Knowledge check's result only if the DC is 20 or lower. If she doesn't use this benefit within 24 hours after the viewing, it is lost. The user can increase the amount of time she has to attempt the Knowledge check by adjusting the telescope's various apparatuses and taking a cumulative -5 penalty on her Knowledge (geography) or Perception check for every additional 24 hours she wishes to retain her insight.",
-			"",
-			"On a failed check to use the telescope, the user gains no useful insight into the future. Unskilled viewers can attempt only one Perception check per night; a viewer with ranks in Knowledge (geography) can attempt to use the telescope one additional time per night for every 2 ranks she has in Knowledge (geography). Each additional viewing attempt requires the user to spend 1 hour gazing through the telescope. A character can benefit from only one viewing at a time; a second viewing removes the previous benefit, regardless of whether the new attempt succeeds or fails.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, divination, creator has at least 10 ranks in Knowledge (geography); **Cost** 27,000 gp"
-		]
-	},
-	"tome_of_leadership_and_influence_2": {
-		"name": "Tome of Leadership and Influence (+2)",
-		"copyof": "tome_of_leadership_and_influence_1"
-	},
-	"tome_of_understanding_2": {
-		"name": "Tome of Understanding (+2)",
-		"copyof": "tome_of_understanding_1"
-	},
-	"tome_of_clear_thought_2": {
-		"name": "Tome of Clear Thought (+2)",
-		"copyof": "tome_of_clear_thought_1"
-	},
-	"manual_of_gainful_exercise_2": {
-		"name": "Manual of Gainful Exercise (+2)",
-		"copyof": "manual_of_gainful_exercise_1"
-	},
-	"manual_of_quickness_of_action_2": {
-		"name": "Manual of Quickness of Action (+2)",
-		"copyof": "manual_of_quickness_of_action_1"
-	},
-	"manual_of_bodily_health_2": {
-		"name": "Manual of Bodily Health (+2)",
-		"copyof": "manual_of_bodily_health_1"
-	},
-	"golem_manual_brass": {
-		"name": "Golem Manual (Brass)",
-		"copyof": "golem_manual_junk"
-	},
-	"instant_fortress": {
-		"name": "Instant Fortress",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Instant Fortress",
-			"",
-			"{SOURCE Ultimate Equipment/305;PRPG Core Rulebook/520}  ",
-			"**Aura** strong conjuration; **CL** 13th  ",
-			"**Slot** none; **Price** 55,000 gp; **Weight** 1 lb.",
-			"",
-			"This metal cube is small, but when activated by speaking a command word it grows to form a tower 20 feet square and 30 feet high, with arrow slits on all sides and a crenellated battlement atop it. The metal walls extend 10 feet into the ground, rooting it to the spot and preventing it from being tipped over. The fortress has a small door that opens only at the command of the owner of the fortress - even {spell/knock} spells can't open the door.",
-			"",
-			"The adamantine walls of an instant fortress have 100 hit points and hardness 20. The fortress cannot be repaired except by a wish or a miracle, which restores 50 points of damage taken.",
-			"",
-			"The fortress springs up in just 1 round, with the door facing the device's owner. The door opens and closes instantly at his command. People and creatures nearby (except the owner) must be careful not to be caught by the fortress's sudden growth. Anyone so caught takes 10d10 points of damage (Reflex DC 19 halves).",
-			"",
-			"The fortress is deactivated by speaking a command word (different from the one used to activate it). It cannot be deactivated unless it is empty.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mage's magnificent mansion; **Cost** 27,500 gp"
-		]
-	},
-	"ohalias_horn": {
-		"name": "Ohalia's Horn",
-		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
-		"description": [
-			"## Ohalia's Horn",
-			"",
-			"{SOURCE Pathfinder #131: The Reaper's Right Hand/19}  ",
-			"**Aura** strong conjuration; **CL** 15th  ",
-			"**Slot** none; **Price** 55,000 gp; **Weight** 2 lbs.",
-			"",
-			"The bell of this slightly curved horn resembles the head of a roaring lioness. The horn functions in many ways like a {magic-wondrous/horn of valhalla}, but while held in one hand, the wielder gains the benefits of {spell/deathwatch}. Once per year when the wielder sounds the horn, she can summon one {monster/sleipnir} with a saddle for 1 hour in place of summoning the barbarians. The sleipnir willingly serves as a mount or combatant.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/deathwatch}, [summon monster VIII](spell/summon_monster_8); **Cost** 22,500 gp"
-		]
-	},
-	"cube_of_varied_force_walls": {
-		"name": "Cube of Varied Force Walls",
-		"sources": [ "Classic Treasures Revisited" ],
-		"description": [
-			"## Cube of Varied Force Walls",
-			"",
-			"{SOURCE Classic Treasures Revisited/13}  ",
-			"**Aura** moderate evocation; **CL** 10th  ",
-			"**Slot** none; **Price** 56,000 gp; **Weight** 1/2 lb.",
-			"",
-			"This cube functions exactly like a cube of force except that each wall of the cube can be activated independently and can even have different effects. For example, one wall can block living matter, another wall can block magic, and a third can keep out gases, while the other sides are open without any protection. Activating each wall costs the price of activating that effect for an entire standard cube of force - for instance, one wall against magic and one wall against living matter cost a total of 7 charges per minute.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 28,000 gp"
-		]
-	},
-	"headhunter_wayfinder": {
-		"name": "Headhunter Wayfinder",
-		"sources": [ "Pathfinder Society Primer" ],
-		"description": [
-			"## Headhunter Wayfinder",
-			"",
-			"{SOURCE Pathfinder Society Primer/20}  ",
-			"**Aura** moderate divination; **CL** 7th  ",
-			"**Slot** none; **Price** 56,000 gp; **Weight** 1 lb.",
-			"",
-			"The forms of numerous animals, magical beast, and other famous creatures appear in relief on every inch of this iron wayfinder's surface, creating a maze of lions, hawks, dragons, and elephants. Though a headhunter wayfinder looks like a normal compass, it doesn't point toward true north as one would expect. Rather, if a piece of hair, a drop of blood, or some other organic matter from a individual creature is placed in the socket normally reserved for an ioun stone, the wayfinder's needle points out this creature as though it were the subject of a locate creature spell with a radius of 680 feet from the wayfinder's wielder. This effect has no set duration, and functions as long as a specimen of the target creature is held within the wayfinder and the creature is within range. If the target creature isn't in range, the headhunter wayfinder's needle slowly spins clockwise. As with the locate creature spell, running water and spells such as mislead, nondetection, and polymorph fool or otherwise block the effect. A headhunter wayfinder can't hold an ioun stone and doesn't provide resonant powers.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, light, locate creature; **Cost** 28,000 gp"
-		]
-	},
-	"garden_of_sulesh": {
-		"name": "Garden of Sulesh",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Garden of Sulesh",
-			"",
-			"{SOURCE Lost Treasures/31}  ",
-			"**Aura** strong enchantment; **CL** 15th  ",
-			"**Slot** genie seal; **Price** 56,000 gp; **Weight** -;",
-			"",
-			"This magic metal imprint is a genie seal, a special type of item that must be crafted onto a receptacle that holds a genie via the minimus containment effect of a {spell/binding} spell. Binding usually has an ending trigger condition set by the binder, such as services the genie must perform before the spell can come to an end.",
-			"",
-			"When applied to an appropriate receptacle that contains a bound genie, the Garden of Sulesh gives a measure of freedom to the bottled genie in exchange for a greater demand from the binder. The genie can freely leave and return to its bottle whenever the bottle is not physically sealed. The genie is unable to move its bottle on its own, and is prevented from moving more than 300 feet from the bottle by indestructible golden chains of force.",
-			"",
-			"While crafting the seal onto a genie's receptacle, the crafter can edit the ending trigger conditions of the binding spell used to trap the genie. The new trigger condition must be a task that the genie could feasibly accomplish (though a bound genie's nigh-immortal lifespan can allow for far-reaching demands). Each year that the genie fails to complete this task, it must grant one wish to the binder if able. A genie under this seal is otherwise unable to grant wishes until its task is complete.",
-			"",
-			"If the genie is restrained or prevented from working on its task, there is a cumulative 1% chance each round that the genie into a berserk state because it can't engage in its all-consuming task. A creature actively working against the genie's task increases this chance by an additional 1% every round it remains within the genie's sight. A berserk genie attacks any creature within 300 feet of its bottle. A genie that has no further targets for its fury exits its berserk state and returns to its task after 1 minute, resetting the berserk chance to 0%.",
-			"",
-			"Only one genie seal can be crafted onto a container; if a second seal is crafted onto a genie's container, the genie is immediate freed from service. If a seal is destroyed or removed, a new one can be crafted onto the receptacle.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, binding, geas/quest, creator must have personally bound the genie contained within the receptacle upon which the seal is to be placed; **Cost** 28,000 gp"
-		]
-	},
-	"kiss_of_noctura": {
-		"name": "Kiss of Noctura",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Kiss of Noctura",
-			"",
-			"{SOURCE Lost Treasures/36}  ",
-			"**Aura** strong conjuration [evil]; **CL** 15th  ",
-			"**Slot** none; **Price** 56,000 gp; **Weight** -;",
-			"",
-			"This flap of leathery skin was flayed from the face of the succubus Noctura. In order to attach the skin graft, the new user must make several lacerations around his own mouth, cheeks, and chin, dealing 1d6 points of Constitution damage to himself. Once the skin scrap is placed over this area, the user's blood revivifies the flesh, causing it to fuse with his face. Once the scrap is attached, the user's face looks identical to how it did before the graft, except that his lips constantly appear plump and lush.",
-			"",
-			"The wearer of the Kiss of Noctura inherits a measure of Noctura's succubus abilities. Whenever the wearer kisses another creature, he imposes 1 negative level on that creature. If the victim is unwilling, it must be grappled first. Negative levels imposed by the Kiss of Noctura can be removed with a successful DC 16 Fortitude saving throw after 24 hours. Any creature that already has 1 negative level from the Kiss of Noctura does not take additional negative levels from subsequent kisses.",
-			"",
-			"Additionally, the wearer can communicate telepathically with any creature he's kissed within the past 24 hours. This telepathic link isn't limited by distance or planes, and can be terminated by the wearer at any time. Unwilling creatures can prevent this link from forming by succeeding at a Will save (DC = 10 + the wearer's Charisma modifier).",
-			"",
-			"The Kiss of Noctura can be removed by cutting the flap of skin away, which deals a further 1d6 points of Constitution damage to the wearer and leaves the wearer's face permanently scarred.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, enervation, regenerate, creator must have a Charisma score of at least 18; **Cost** 28,000 gp"
-		]
-	},
-	"wayfinder_of_many_paths": {
-		"name": "Wayfinder of Many Paths",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Wayfinder of Many Paths",
-			"",
-			"{SOURCE Lost Treasures/60}  ",
-			"**Aura** strong conjuration; **CL** 18th  ",
-			"**Slot** none; **Price** 57,750 gp; **Weight** 1 lb.",
-			"",
-			"The Wayfinder of Many Paths behaves like a normal wayfinder, allowing it to shine (as the light spell) on command and granting its user a +2 circumstance bonus on Survival checks to avoid getting lost. It has a small indentation designed to hold a single ioun stone, and when an ioun stone is placed within, the owner of the wayfinder gains the stone's normal benefits as if it were orbiting his head.",
-			"",
-			"Once per day on command, a Wayfinder of Many Paths with an implanted ioun stone can be used to create a 5-to-20-foot-diameter gateway, similar to the spell gate. The exact destination depends on the type of ioun stone slotted into the wayfinder; ioun stones of the same type always lead to the same location. The gateway remains open for up to 18 rounds, but the user can drain the socketed ioun stone, rendering it dull gray and powerless, to keep the gateway open for up to 18 additional rounds. If fitted with an ioun stone while in that stone's attuned location, a Wayfinder of Many Paths can open a gateway back to the location in which it was last used, allowing its user to make a return trip after 24 hours.",
-			"",
-			"| Known Ioun Stones | Destinations |",
-			"| --- | --- |",
-			"| Clear spindle | A long-since-despoiled tomb in the Alabastrine Peaks in the Crown of the World |",
-			"| Dark blue rhomboid | The basement of a flooded museum in Hyrantam |",
-			"| Deep red sphere | A third-floor room in an inn in the City of Brass's Common Quarter |",
-			"| Dusty rose prism | The Thuvian desert, about 150 miles west of Lamasara |",
-			"| Incandescent blue sphere | The roof of Farseer Tower in Katapesh |",
-			"| Pale blue rhomboid | A small hill in the Cairnlands outside Absalom |",
-			"| Pale lavender ellipsoid | The eastern precipice of a canyon in the Mana Wastes |",
-			"| Pink and green sphere | Miregrold Manor, the Pathfinder lodge in Karcau |",
-			"| Pearly white spindle | A copse of trees 1 mile west of Kalabuto |",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate, know direction, light; **Cost** 28,875 gp"
-		]
-	},
-	"spell_winder_nagaji_6th_level": {
-		"name": "Spell Winder (Nagaji) (6th level)",
-		"copyof": "spell_winder_nagaji_2nd_level"
-	},
-	"spell_winder_6th_level": {
-		"copyof": "spell_winder_nagaji_6th_level"
-	},
-	"carpet_of_flying_10_ft_by_10_ft": {
-		"name": "Carpet of Flying (10-ft.-by-10-ft.)",
-		"copyof": "carpet_of_flying_5_ft_by_5_ft"
-	},
-	"banner_of_the_rushing_horde": {
-		"name": "Banner of the Rushing Horde",
-		"sources": [ "Monster Codex" ],
-		"description": [
-			"## Banner of the Rushing Horde",
-			"",
-			"{SOURCE Monster Codex/165}  ",
-			"**Aura** moderate transmutation; **CL** 10th  ",
-			"**Slot** none; **Price** 60,000 gp; **Weight** 5 lbs.",
-			"",
-			"The banner of the rushing horde is a tattered cloth flag, typically 3 feet wide and 6 feet long, depicting the device or insignia of an orc tribe or unit. It can be carried on a staff, affixed to a pole that's planted in the ground, or hung from the harness of a great beast. Allies within 60 feet of the banner gain the benefits of the {feat/Improved Bull Rush} and {feat/Improved Overrun} feats. If planted, the flag does not need a bearer, but if it is toppled or touched by an enemy, it loses its effectiveness until reclaimed and replanted by allies of its owner.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bull's strength; **Cost** 30,000 gp"
-		]
-	},
-	"golem_manual_cannon": {
-		"name": "Golem Manual (Cannon)",
-		"copyof": "golem_manual_junk"
-	},
-	"canopic_jar_of_unlife": {
-		"name": "Canopic Jar of Unlife",
-		"sources": [ "Pathfinder #84: Pyramid of the Sky Pharaoh" ],
-		"description": [
-			"## Canopic Jar of Unlife",
-			"",
-			"{SOURCE Pathfinder #84: Pyramid of the Sky Pharaoh/60}  ",
-			"**Aura** strong conjuration and necromancy; **CL** 13th  ",
-			"**Slot** none; **Price** 60,000 gp; **Weight** 7 lbs.",
-			"",
-			"This stone jar, capped with the head of an animal or human, resembles one of the traditional carved limestone or pottery canopic jars commonly used to hold the intestines, liver, lungs, and stomach of the deceased in Osirian mummification rites. Unlike normal canopic jars, a canopic jar of unlife is used to preserve the existence of a powerful undead creature. When a corporeal undead creature is first created, one of its organs must be placed inside the canopic jar of unlife as part of the ritual that transforms the creature into an undead being. Thereafter, the undead creature's existence is linked to the canopic jar of unlife.",
-			"",
-			"If the undead creature is destroyed, the canopic jar of unlife disintegrates 2 hours later, and the viscera within the jar start to regenerate into a new undead body for the subject at a rate of 10 hit points per hour. The subject is helpless until restored to full hit points. Once used to regenerate an undead creature, a canopic jar of unlife is destroyed. If the jar is opened manually after viscera are secured in it, the contents disintegrate with an ear-piercing scream and the jar loses all magical power. Smashing the jar (hardness 8, hp 20) also destroys the vessel and the viscera within.",
-			"",
-			"A canopic jar of unlife only functions if linked to an undead creature during its creation; existing undead creatures or creatures with phylacteries (such as liches) or with the rejuvenation ability (such as mummy lords) cannot make use of a canopic jar of unlife.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gentle repose, regenerate; **Cost** 30,000 gp"
-		]
-	},
-	"crystal_ball_of_the_dark_void": {
-		"name": "Crystal Ball of the Dark Void",
-		"sources": [ "Pathfinder #65: Into the Nightmare Rift" ],
-		"description": [
-			"## Crystal Ball of the Dark Void",
-			"",
-			"{SOURCE Pathfinder #65: Into the Nightmare Rift/62}  ",
-			"**Aura** moderate divination; **CL** 10th  ",
-			"**Slot** none; **Price** 60,000 gp; **Weight** 7 lbs.",
-			"",
-			"Crystal balls of the dark void look like dark-colored crystal balls. Upon inspection, most appear to be filled with roiling clouds of midnight blue smoke, but some seem to contain motes of light that evoke the night sky. This item functions as a standard crystal ball, but can be used to cast sending once per day targeting any creature observed in the crystal ball.",
-			"",
-			"Once per month, the user can attempt to use a crystal ball of the dark void to contact a flying creature from the depths of space called a shantak. The user must attempt at a DC 25 Spellcraft check. If the attempt to contact a shantak is successful, the monster flies to the location where the user was when contact was made. It arrives there in 3d20 hours, at which point the user must use Diplomacy or magic to compel the shantak to serve him. Failure to do so (or failure to meet the shantak) causes the angry shantak to remain in the area for 2d6 hours, attacking anything that comes near.",
-			"",
-			"Every time a crystal ball of the dark void is used, there's a 5% chance that the item doesn't work as intended and instead reveals glimpses of alien horrors from the depths of the Dark Tapestry to the user, who must immediately attempt a DC 20 Will save to avoid taking 1d4 points of Wisdom drain.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, scrying, sending; **Cost** 30,000 gp"
-		]
-	},
-	"darkskull": {
-		"name": "Darkskull",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Darkskull",
-			"",
-			"{SOURCE Ultimate Equipment/290;PRPG Core Rulebook/508}  ",
-			"**Aura** moderate evocation [evil]; **CL** 9th  ",
-			"**Slot** none; **Price** 60,000 gp; **Weight** 5 lbs.",
-			"",
-			"This skull, carved from ebony, is wholly evil. Wherever the skull goes, the area around it is treated as though an unhallow spell had been cast with the skull as the touched point of origin. Each darkskull has a single spell effect tied to it. This spell is from the standard list given in the unhallow spell description, and it cannot be changed.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, unhallow, creator must be evil; **Cost** 30,000 gp"
-		]
-	},
-	"deadlimb_pins": {
-		"name": "Deadlimb Pins",
-		"sources": [ "Demon Hunter's Handbook" ],
-		"description": [
-			"## Deadlimb Pins",
-			"",
-			"{SOURCE Demon Hunter's Handbook/29}  ",
-			"**Aura** moderate transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 60,000 gp; **Weight** 1 lb.",
-			"",
-			"As a move action, the wielder may dip these two sharp, 4-inchlong pins into their paired vial to coat them in the viscous blueblack liquid within. This coating lasts 1 minute before dissipating. On a successful unarmed attack against a creature while both coated pins are held between the wielder's knuckles, the liquid flows under the skin of one of the target's limbs (wielder's choice; two limbs on a critical hit). The target must then attempt a DC 17 Fortitude save. On a failed save, an affected limb becomes withered and useless, anything held in the limb drops to the ground, and the victim cannot move the limb for 5 minutes. If an affected limb contributes to one of the creature's modes of movement (such as a leg), the creature's movement is halved.",
-			"",
-			"A creature may be affected by multiple instances of deadlimb pins. Generally, a creature with both legs affected by deadlimb pins can only crawl to move, and a creature with both arms affected is unable to attack (unless they can make attacks with other body parts, of course). The exact consequences of applying multiple doses of deadlimb pins to creatures with inhuman anatomies or unusual limbs are left to the GM's discretion.",
-			"",
-			"In order to function, deadlimb pins must be used with the vial of liquid they were constructed with and vice-versa. One set of deadlimb pins and their adjoining vial can be used 50 times before its magic is depleted.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, baleful polymorph; **Cost** 30,000 gp"
-		]
-	},
-	"hobgoblin_battle_standard_ferocity": {
-		"name": "Hobgoblin Battle Standard (Ferocity)",
-		"copyof": "hobgoblin_battle_standard_iron_resolve"
-	},
-	"orb_of_pure_law": {
-		"name": "Orb of Pure Law",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Orb of Pure Law",
-			"",
-			"{SOURCE Ultimate Equipment/313}  ",
-			"**Aura** moderate divination; **CL** 10th  ",
-			"**Slot** none; **Price** 60,000 gp; **Weight** 1 lb.",
-			"",
-			"This featureless gray stone is perfectly smooth and flawlessly polished. The bearer of an orb of pure law gains a +4 deflection bonus to AC against attacks from chaotic creatures and a +4 resistance bonus on saving throws against polymorph effects, effects with the chaotic descriptor, and effects that inflict the confused condition.",
-			"",
-			"When held in hand, the bearer of the orb may use {spell/detect chaos} and {spell/detect law} at will. A lawful creature may hold the orb in hand and command it to invoke dispel chaos and arrow of law each once per day.",
-			"",
-			"The orb bestows one permanent negative level on any chaotic creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by restoration spells) while the bearer has the orb.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, arrow of law, {spell/detect chaos}, {spell/detect law}, dispel chaos; **Cost** 30,000 gp"
-		]
-	},
-	"ribbon_of_the_three": {
-		"name": "Ribbon of the Three",
-		"sources": [ "Legacy of the First World" ],
-		"description": [
-			"## Ribbon of the Three",
-			"",
-			"{SOURCE Legacy of the First World/25}  ",
-			"**Aura** moderate transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 60,000 gp; **Weight** -;",
-			"",
-			"This green ribbon is fashioned in the shape of Magdh's three-pointed knot. The wearer gains three faces that each represent a different aspect of her personality, as if constantly under the effect of threefold face.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, threefold face; **Cost** 30,000 gp"
-		]
-	},
-	"thunder_strap": {
-		"name": "Thunder Strap",
-		"sources": [ "Heroes of the Wild" ],
-		"description": [
-			"## Thunder Strap",
-			"",
-			"{SOURCE Heroes of the Wild/29}  ",
-			"**Aura** moderate transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 60,000 gp; **Weight** -;",
-			"",
-			"This sturdy leather strap seems worn and weathered, but is as strong as steel. When wrapped around the grip of a melee weapon for 24 hours, the strap's magic becomes active. Once per day, the wielder of a melee weapon so wrapped can hold the weapon aloft for 1 minute to change local weather conditions to create a thunderstorm. This acts as control weather, except only thunderstorms can be created. Additionally, the wielder can cast call lightning storm once per day. If used outside, this spell is cast as if the local conditions are stormy.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, call lightning storm, control weather; **Cost** 30,000 gp"
-		]
-	},
-	"well_of_stars": {
-		"name": "Well of Stars",
-		"sources": [ "Classic Treasures Revisited" ],
-		"description": [
-			"## Well of Stars",
-			"",
-			"{SOURCE Classic Treasures Revisited/61}  ",
-			"**Aura** strong conjuration; **CL** 17th  ",
-			"**Slot** none; **Price** 60,000 gp; **Weight** -;",
-			"",
-			"Rather than opening to locations on different planes, this well instead opens to worlds on the Material Plane. It does not, however, necessarily open to worlds with similar environments to that of its user; hence it can pose much the same danger as the traditional well in terms of both the unpredictable environs of the destination and the alien beings that might step through from the other side.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate; **Cost** 30,000 gp"
-		]
-	},
-	"cube_of_force": {
-		"name": "Cube of Force",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Cube of Force",
-			"",
-			"{SOURCE Ultimate Equipment/290;PRPG Core Rulebook/508}  ",
-			"**Aura** moderate evocation; **CL** 10th  ",
-			"**Slot** none; **Price** 62,000 gp; **Weight** 1/2 lb.",
-			"",
-			"This device is just under an inch across and can be made of ivory, bone, or any hard mineral. Typically, each of the cube's faces are polished smooth, but sometimes they are etched with runes. The device enables its possessor to put up a special cube made up of 6 individual wall of force spells, 10 feet on a side around her person. This cubic screen moves with the character and is impervious to the attack forms mentioned on the table below. The cube has 36 charges when fully charged - charges used are automatically renewed each day. The possessor presses one face of the cube to activate a particular type of screen or to deactivate the device. Each effect costs a certain number of charges to maintain for every minute (or portion of a minute) it is in operation. Also, when an effect is active, the possessor's speed is limited to the maximum value given on the following table.",
-			"",
-			"When the cube of force is active, attacks dealing more than 30 points of damage to a wall drain 1 charge for every 10 points of damage beyond 30 that they deal. The charge cost to maintain each of the cube's six walls is summarized below.",
-			"",
-			"| Cube Face | Charge Cost Per Minute | Max. Speed | Effect |",
-			"| --- | --- | --- | --- |",
-			"| 1 | 1 | 30 ft. | Keeps out gases, wind, etc. |",
-			"| 2 | 2 | 20 ft. | Keeps out nonliving matter |",
-			"| 3 | 3 | 15 ft. | Keeps out living matter |",
-			"| 4 | 4 | 10 ft. | Keeps out magic |",
-			"| 5 | 6 | 10 ft. | Keeps out all things |",
-			"| 6 | 0 | As normal | Deactivates |",
-			"",
-			"Spells that affect the integrity of the screen also drain extra charges. These spells cannot be cast into or out of the cube.",
-			"",
-			"| Attack Form | Extra Charges |",
-			"| --- | --- |",
-			"| Disintegrate | 6 |",
-			"| Horn of blasting | 6 |",
-			"| Passwall | 3 |",
-			"| Phase door | 5 |",
-			"| Prismatic spray | 7 |",
-			"| Wall of fire | 2 |",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 31,000 gp"
-		]
-	},
-	"private_palanquin": {
-		"name": "Private Palanquin",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"## Private Palanquin",
-			"",
-			"{SOURCE Ultimate Intrigue/250}  ",
-			"**Aura** moderate abjuration and transmutation; **CL** 11th  ",
-			"**Slot** none; **Price** 63,000 gp; **Weight** 500 lbs.",
-			"",
-			"This versatile wooden conveyance provides a safe refuge for its passengers, free from the prying eyes of others. A private palanquin can be commanded to change its appearance, including not only its decorations and appointments but also its physical form, taking the shape of an enclosed litter, two-wheeled cart, four-wheeled light or heavy wagon, carriage, or even a small cabin, though in all shapes it retains the dimensions of a Large object occupying a 10-foot cube. When activated, a private palanquin moves on its own, following its passengers' directions, and has the following statistics: hp 150; hardness 8; Speed 40 ft.; AC 18 (-1 size, +9 natural); Attack none; CMD 24; Fort +2, Ref +2, Will +2.",
-			"",
-			"Once per day, a private palanquin can be commanded to create a set of illusory draft animals or litter bearers that last for 12 hours or until dismissed. These creatures look, sound, feel, and smell just like real creatures of their type, and they appear to move the private palanquin. Up to four Medium creatures (or a single Large creature) can fit inside a private palanquin, and creatures inside it are protected from observation, both mundane and magical, as if in a mage's private sanctum. The door to a private palanquin is locked, as per arcane lock, but opens with a command word. If the door is opened without speaking the command word, it triggers an audible alarm.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** Craft Construct, {feat/Craft Wondrous Item}, alarm, animate objects, arcane lock, mage's private sanctum, veil; **Cost** 31,500 gp"
-		]
-	},
-	"golem_manual_dragonhide": {
-		"name": "Golem Manual (Dragonhide)",
-		"copyof": "golem_manual_junk"
-	},
-	"golem_manual_gold": {
-		"name": "Golem Manual (Gold)",
-		"copyof": "golem_manual_junk"
-	},
-	"howdah_of_leisurely_travel": {
-		"name": "Howdah of Leisurely Travel",
-		"sources": [ "Pathfinder #111: Dreams of the Yellow King" ],
-		"description": [
-			"## Howdah of Leisurely Travel",
-			"",
-			"{SOURCE Pathfinder #111: Dreams of the Yellow King/43}  ",
-			"**Aura** moderate abjuration and transmutation; **CL** 10th  ",
-			"**Slot** none; **Price** 65,000 gp; **Weight** 200 lbs.",
-			"",
-			"This massive teak platform is designed to be strapped to the back of a Huge or larger quadruped like a saddle. The howdah of leisurely travel automatically resizes to fit a creature of Huge to Colossal size. It has room for four Medium creatures if mounted on a Huge creature, nine Medium creatures if mounted on a Gargantuan creature, and 16 Medium creatures if mounted on a Colossal creature. The howdah is constructed for ceremony rather than war, with upright bronze posts supporting a thin wooden roof and silk curtains; it does not provide cover to those riding within it, though the curtains provide concealment when closed.",
-			"",
-			"A howdah of leisurely travel grants a constant endure elements effect to all creatures within and grants such creatures a +4 competence bonus on saves against disease, effects that cause fatigue or exhaustion, energy drain, and poisons. Within the howdah, natural healing takes place at twice the normal rate. The creature bearing the howdah does not gain these benefits.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, endure elements, restful healing, shrink item; **Cost** 32,500 gp"
-		]
-	},
-	"lyre_of_storms": {
-		"name": "Lyre of Storms",
-		"sources": [ "Mythic Adventures" ],
-		"description": [
-			"## Lyre of Storms",
-			"",
-			"{SOURCE Mythic Adventures/153}  ",
-			"**Aura** moderate transmutation; **CL** 7th  ",
-			"**Slot** none; **Price** 65,000 gp; **Weight** 5 lbs.",
-			"",
-			"This finely made instrument is crafted of lovingly polished wood inlaid with mystic runes. When the lyre is played, sparks dance along its strings.",
-			"",
-			"By succeeding at a DC 15 Perform (string instruments) check, the bearer can produce the following spells.",
-			"",
-			"- Gust of wind (3/day)",
-			"- Call lightning (1/day)",
-			"",
-			"By succeeding at a DC 25 Perform (string instruments) check and then expending one use of mythic power, the bearer can produce the mythic version of the spell instead. If the bearer fails her Perform check, her action is wasted, but she doesn't expend one of the item's uses per day or any mythic power.",
-			"",
-			"If bearer has the appropriate mythic tier and the bardic performance ability, she can bring forth one of the following magical effects for as long as she uses the instrument as part of a bardic performance; she also gains the usual benefits of that performance. She must end the performance and start a new one to choose a new effect.",
-			"",
-			"- 3rd tier or higher: water walk, shared with all the player's allies within 20 feet",
-			"- 4th tier or higher: control winds centered on the player, used only to decrease wind strength",
-			"- 5th tier or higher: fickle winds, affecting the player only",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, call lightning, control weather, water walk; **Cost** 32,500 gp"
-		]
-	},
-	"ruby_skull_of_chast": {
-		"name": "Ruby Skull of Chast",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Ruby Skull of Chast",
-			"",
-			"{SOURCE Lost Treasures/50}  ",
-			"**Aura** moderate evocation [good]; **CL** 9th  ",
-			"**Slot** none; **Price** 65,000 gp; **Weight** 5 lbs.",
-			"",
-			"This human skull covered in red lacquer bears a holy symbol of Pharasma. The area around the Ruby Skull of Chast is treated as though a hallow spell had been cast upon it, with the skull as the point of origin. Creatures that are lawful neutral or worship Pharasma gain the benefit of death ward while in the area of this effect. Despite its powerful effect, the Ruby Skull of Chast does not register to {spell/detect good}, {spell/detect magic}, or similar divination spells unless the caster of the divination succeeds at a DC 20 caster level check.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hallow, nondetection; **Cost** 32,500 gp"
-		]
-	},
-	"suppression_gem": {
-		"name": "Suppression Gem",
-		"sources": [ "Construct Handbook" ],
-		"description": [
-			"## Suppression Gem",
-			"",
-			"{SOURCE Construct Handbook/19}  ",
-			"**Aura** moderate enchantment; **CL** 12th  ",
-			"**Slot** none; **Price** 65,000 gp; **Weight** -;",
-			"",
-			"This small gem crackles and sparks with arcing electricity. As a standard action, a creature can attempt to place the gem on a construct with a touch attack that provokes an attack of opportunity. Once placed, the creature that placed the gem can issue orders to the construct as if that creature were the original creator until the gem is destroyed. The construct can resist any self-destructive commands with a successful DC 14 Will save. The original owner of the construct can use a standard action to attempt to regain control of the construct with a successful Charisma check, opposed by a Charisma check attempted by the gem's user. The gem's user can attempt to regain control in the same fashion. A suppression gem has 30 hit points and hardness 10.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/suggestion}; **Cost** 32,500 gp"
-		]
-	},
-	"moonlight_lantern": {
-		"name": "Moonlight Lantern",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"## Moonlight Lantern",
-			"",
-			"{SOURCE Horror Adventures/221}  ",
-			"**Aura** strong transmutation; **CL** 13th  ",
-			"**Slot** none; **Price** 66,000 gp; **Weight** 3 lbs.",
-			"",
-			"This intricate silver bullseye lantern filters its light through a stained-glass image of a howling wolf silhouetted by the moon. The pale blue light it casts does little to illuminate the surrounding area, casting dim light in a 60-foot cone directed by the lantern's bearer. The lantern can remain lit for 30 minutes per day. These minutes don't need to be used consecutively, but must be spent in 5-minute increments.",
-			"",
-			"When the lantern's light falls on a creature that is not in its true form or that has more than one form - such as a creature that has been polymorphed, a doppelganger, or a lycanthrope - the light shows all of that creature's forms. Anyone who can see the target perceives any additional forms as semi-transparent illusions superimposed over the creature's current form. This is a divination effect and otherwise works as per true seeing.",
-			"",
-			"Once per day as a standard action, the bearer can force a creature within the lantern's light to assume another of its forms. If the creature is under the effects of a spell with the polymorph descriptor, the bearer can attempt to dispel the effect (as per dispel magic) using the lantern's caster level. If the creature has the shapechanger subtype, it must succeed at a DC 20 Fortitude save to resist this effect. If it fails this saving throw, the bearer of the moonlight lantern can choose another of the target's forms and force it to transform immediately. The shapechanger doesn't need to spend an action to do so. The target must remain in the chosen form for at least 1 minute before it can shift again.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dispel magic, greater polymorph, true seeing; **Cost** 33,000 gp"
-		]
-	},
-	"threshold_guardian": {
-		"name": "Threshold Guardian",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"## Threshold Guardian",
-			"",
-			"{SOURCE Horror Adventures/224}  ",
-			"**Aura** strong abjuration; **CL** 12th  ",
-			"**Slot** none; **Price** 66,000 gp; **Weight** 2 lbs.",
-			"",
-			"This wreath weaves garlic, wolfsbane, silver, and mandrake together to create a fetish capable of blocking nearly any type of creature.",
-			"",
-			"Once placed over a doorway or other entrance, a threshold guardian prevents access by a specified type of creature. The user placing the wreath must spend 10 minutes concentrating on one creature type (or subtype in the case of humanoids and outsiders) from the list of ranger favored enemies. Afterward, any creature of the chosen type or subtype trying to pass through the doorway (or another opening within 10 feet of the wreath) must attempt a DC 19 Will save. If the creature succeeds, it can move in and out without hindrance, but if it fails, it can't move through the guarded threshold while the threshold guardian remains.",
-			"",
-			"When a user places the threshold guardian, she can choose whether to block the chosen creature type or subtype in one direction or in both directions. A creature that attempts to cross the threshold several times doesn't receive additional saving throws; the results of the first saving throw stand as long as the threshold guardian is undisturbed, with no other limit on duration. Removing or destroying the threshold guardian (hardness 5, 10 hp) removes the effect. Creatures other than the one that placed a threshold guardian can't touch the threshold guardian, even with another held object, unless they succeed at a DC 19 Will save. Creatures can still attack the wreath with ranged attacks, though if placed cleverly, the wreath could have total cover from such attacks. Destroying the doorway on which it hangs causes the threshold guardian to cease functioning immediately.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, antilife shell, forbiddance; **Cost** 33,000 gp"
-		]
-	},
-	"twinned_cubes_of_force": {
-		"name": "Twinned Cubes of Force",
-		"sources": [ "Classic Treasures Revisited" ],
-		"description": [
-			"## Twinned Cubes of Force",
-			"",
-			"{SOURCE Classic Treasures Revisited/14}  ",
-			"**Aura** moderate evocation; **CL** 10th  ",
-			"**Slot** none; **Price** 66,000 gp; **Weight** 1/2 lb.",
-			"",
-			"These cubes function as two cubes of force, except that when a face on one cube is pressed, its counterpart creates the appropriate wall instead as long as the distance between the cubes does not exceed 100 feet. Both cubes can remain active even after being set down on the ground and abandoned.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 33,000 gp"
-		]
-	},
-	"behemoth_golem_manual": {
-		"name": "Behemoth Golem Manual",
-		"sources": [ "Lost Kingdoms" ],
-		"description": [
-			"## Behemoth Golem Manual",
-			"",
-			"{SOURCE Lost Kingdoms/42}  ",
-			"**Aura** strong conjuration, enchantment, and evocation; **CL** 18th  ",
-			"**Slot** none; **Price** 70,000 gp; **Weight** 5 lbs.",
-			"",
-			"This book contains earthquake, geas/quest, mage's magnificent mansion, and wish. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a behemoth golem.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** Craft Construct, creator must be caster level 18th, earthquake, geas/quest, mage's magnificent mansion, wish; **Cost** 35,000 gp"
-		]
-	},
-	"golem_manual_blood": {
-		"name": "Golem Manual (Blood)",
-		"copyof": "golem_manual_junk"
-	},
-	"horn_of_blasting_greater": {
-		"name": "Horn of Blasting (Greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Horn of Blasting (Greater)",
-			"",
-			"{SOURCE Ultimate Equipment/302;PRPG Core Rulebook/519}  ",
-			"**Aura** strong evocation; **CL** 16th  ",
-			"**Slot** none; **Price** 70,000 gp; **Weight** 1 lb.",
-			"",
-			"This horn functions as a horn of blasting, except that it deals 10d6 points of sonic damage, stuns creatures for 1 round, and deafens them for 4d6 rounds (a DC 19 Fortitude save reduces the damage by half and negates the stunning and deafening). Crystalline objects take 16d6 points of sonic damage as described for the horn of blasting. A greater horn of blasting also has a 20% cumulative chance of exploding for each usage beyond the first each day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, greater shout; **Cost** 35,000 gp"
-		]
-	},
-	"greater_horn_of_blasting": {
-		"copyof": "horn_of_blasting_greater"
-	},
-	"independent_cube_of_force": {
-		"name": "Independent Cube of Force",
-		"sources": [ "Classic Treasures Revisited" ],
-		"description": [
-			"## Independent Cube of Force",
-			"",
-			"{SOURCE Classic Treasures Revisited/13}  ",
-			"**Aura** moderate evocation; **CL** 10th  ",
-			"**Slot** none; **Price** 70,000 gp; **Weight** 1/2 lb.",
-			"",
-			"The independent cube of force functions exactly like a cube of force except that it remains activated when dropped or set down. Anyone can pick up and deactivate the item or change the active type of wall; otherwise it shuts off when it runs out of charges.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 35,000 gp"
-		]
-	},
-	"quasit_key": {
-		"name": "Quasit Key",
-		"sources": [ "Pathfinder #78: City of Locusts" ],
-		"description": [
-			"## Quasit Key",
-			"",
-			"{SOURCE Pathfinder #78: City of Locusts/63}  ",
-			"**Aura** strong conjuration (teleportation); **CL** 13th  ",
-			"**Slot** none; **Price** 70,000 gp; **Weight** 12 lbs.",
-			"",
-			"A quasit key appears as a glass jar filled with preserving fluids in which a pickled quasit floats. Each quasit key is attuned to a specific location in the Abyss when created, and as long as it is carried (even if it's carried in an extradimensional space), the carrier can use plane shift to transport himself and up to eight other creatures that are joining hands to that location (the quasit key found in this adventure is keyed to area C1 of Aponavicius's lair). If used in the Abyss, the quasit key instead uses plane shift to transport its user back to wherever the key was last used to travel to its linked location. Until a quasit key is used to travel to its linked Abyssal location, it has nowhere to go from the Abyss itself and does not function while in the Abyss. A quasit key functions only twice per day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plane shift; **Cost** 35,000 gp"
-		]
-	},
-	"rechargeable_cube_of_force": {
-		"name": "Rechargeable Cube of Force",
-		"sources": [ "Classic Treasures Revisited" ],
-		"description": [
-			"## Rechargeable Cube of Force",
-			"",
-			"{SOURCE Classic Treasures Revisited/13}  ",
-			"**Aura** moderate evocation; **CL** 10th  ",
-			"**Slot** none; **Price** 70,000 gp; **Weight** 1/2 lb.",
-			"",
-			"This cube functions like a cube of force except that it can be recharged by casting a wall of force spell into it. Each spell cast in this manner adds 2 charges to the cube. The cube cannot hold more than 36 charges.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 35,000 gp"
-		]
-	},
-	"remote_activation_cube": {
-		"name": "Remote Activation Cube",
-		"sources": [ "Classic Treasures Revisited" ],
-		"description": [
-			"## Remote Activation Cube",
-			"",
-			"{SOURCE Classic Treasures Revisited/14}  ",
-			"**Aura** moderate evocation; **CL** 10th  ",
-			"**Slot** none; **Price** 70,000 gp; **Weight** 1/2 lb.",
-			"",
-			"This cube can be activated or deactivated from a distance via use of the spell mage hand or the hand of the apprentice ability. The antimagic wall and the wall that keeps out all things prevent remote deactivation in this manner.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mage hand, wall of force; **Cost** 35,000 gp"
-		]
-	},
-	"crystal_ball_telepathy": {
-		"name": "Crystal Ball (Telepathy)",
-		"copyof": "crystal_ball_normal"
-	},
-	"tremor_bar_kobold": {
-		"name": "Tremor Bar (Kobold)",
-		"sources": [ "Inner Sea Races" ],
-		"description": [
-			"## Tremor Bar (Kobold)",
-			"",
-			"{SOURCE Inner Sea Races/235}  ",
-			"**Aura** strong evocation; **CL** 15th  ",
-			"**Slot** none; **Price** 70,000 gp; **Weight** 2 lbs.",
-			"",
-			"The following wondrous item is generally available only to members of the indicated race or ethnicity.",
-			"",
-			"This mithral crowbar can coax stone to shift aside with alarming ease. Five times per day, when a kobold wielder pries at a section of stone and speaks a command word, the touched rock reshapes as if with stone shape.",
-			"",
-			"Additionally, once per day a kobold wielder can throw the crowbar like a thrown splash weapon at a spot of earth, metal, or stone to unleash an earthquake on the spot where the crowbar lands.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, earthquake, stone shape, creator must be a kobold; **Cost** 35,000 gp"
-		]
-	},
-	"tyrants_mark": {
-		"name": "Tyrant's Mark",
-		"sources": [ "Mythic Origins" ],
-		"description": [
-			"## Tyrant's Mark",
-			"",
-			"{SOURCE Mythic Origins/19}  ",
-			"**Aura** moderate abjuration and divination; **CL** 7th  ",
-			"**Slot** none; **Price** 70,000 gp; **Weight** -;",
-			"",
-			"This macabre pin attaches to one's cloak. Tar-Baphon is said to have gifted these brooches to highly favored but still untrusted minions. When worn, a tyrant's mark provides a +3 deflection bonus to AC and a +3 resistance bonus on saving throws. As a free action after failing a saving throw, the wearer can expend one use of mythic power to reduce any damage resulting from the failed save by half.",
-			"",
-			"When a tyrant's mark is created, it is keyed to a matching black diamond worth no less than 1,000 gp. The creator of a tyrant's mark can expend two uses of mythic power at any distance to use scrying (as the spell) on the pin's wearer while gazing through the black diamond, with the pin acting as the scrying sensor. The wearer of the tyrant's mark takes a -10 penalty on the Will save against the scrying effect, as though the maker had possession of a portion of the wearer's body.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, resistance, scrying, shield of faith; **Cost** 35,500 gp"
-		]
-	},
-	"wayfinder_of_the_sleeping_eye": {
-		"name": "Wayfinder of the Sleeping Eye",
-		"sources": [ "Seekers of Secrets" ],
-		"description": [
-			"## Wayfinder of the Sleeping Eye",
-			"",
-			"{SOURCE Seekers of Secrets/51}  ",
-			"**Aura** strong illusion; **CL** 13th  ",
-			"**Slot** none; **Price** 70,000 gp; **Weight** 1 lb.",
-			"",
-			"This exquisitely crafted wayfinder bears the design of a half-closed eye in platinum and mithral. The eye is a socket for an ioun stone; when filled, you may activate the wayfinder when you sleep or meditate to create a mobile illusory image of yourself that is partly real.",
-			"",
-			"You control the image as if it were your own body and perceive things through it as if it had all of your normal senses plus darkvision with a range of 60 feet. You do not need to maintain line of sight to the image. The image is visible but transparent, and it cannot perform any action that an unseen servant is unable to perform. The image has 40% of your hit points at the time it was created. Its AC is 10 + your size modifier + your Dexterity modifier. It uses your current Will saving throw bonus but automatically fails Fortitude and Reflex saves. It is destroyed if brought to 0 hit points, which deals you 2d4 points of Charisma damage. It can be dispelled, and cannot enter areas warded against summoned creatures, your alignment, illusions, or incorporeal creatures. You may end this ability as a free action, and it ends automatically if you are awakened, your body is attacked, or 8 hours pass; ending the image in this manner does not deal you Charisma damage.",
-			"",
-			"Using this ability drains energy from the slotted ioun stone, rendering it dull gray and powerless for 24 hours. A dull gray ioun stone cannot power the projection ability of this wayfinder. The wayfinder can still have synergistic powers granted by an ioun stone, though they do not function while the slotted stone is powerless.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, arcane eye, shadow conjuration; **Cost** 35,000 gp"
-		]
-	},
-	"wayfinder_of_the_stars": {
-		"name": "Wayfinder of the Stars",
-		"sources": [ "People of the Stars" ],
-		"description": [
-			"## Wayfinder of the Stars",
-			"",
-			"{SOURCE People of the Stars/31}  ",
-			"**Aura** strong conjuration and divination; **CL** 17th  ",
-			"**Slot** none; **Price** 70,200 gp; **Weight** 2 lbs.",
-			"",
-			"About half again the size of a standard wayfinder, a wayfinder of the stars features an extra outer ring around the normal directional compass in the center. Embedded into this outer ring are 13 semi-precious stones, each representing one major celestial body of Golarion's solar system.",
-			"",
-			"At will, the owner can speak the item's command word to cause the wayfinder's compass needle to stop pointing north and instead indicate the direction of the nearest active interplanetary portal within 500 miles. If no such portal is within range, the compass needle hangs listlessly. A second command word causes the wayfinder of the stars to once again function as a basic wayfinder.",
-			"",
-			"Once per day, the owner can touch one of the semi-precious stones on the wayfinder of the stars to teleport her and any willing creatures touching her to a safe location on the indicated planet, as interplanetary teleport.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, interplanetary teleport, light, locate object; **Cost** 35,100 gp"
-		]
-	},
-	"runestone_of_power_6th": {
-		"name": "Runestone of Power (6th)",
-		"copyof": "runestone_of_power_1st"
-	},
-	"gem_of_seeing": {
-		"name": "Gem of Seeing",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Gem of Seeing",
-			"",
-			"{SOURCE Ultimate Equipment/300;PRPG Core Rulebook/514}  ",
-			"**Aura** moderate divination; **CL** 10th  ",
-			"**Slot** none; **Price** 75,000 gp; **Weight** -;",
-			"",
-			"This finely cut and polished stone is indistinguishable from an ordinary jewel in appearance. When it is gazed through, a gem of seeing enables the user to see as though she were affected by the true seeing spell. A gem of seeing can be used for as many as 30 minutes a day, in increments of 5 minutes. These increments do not need to be consecutive.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, true seeing; **Cost** 37,500 gp"
-		]
-	},
-	"golem_manual_viridium": {
-		"name": "Golem Manual (Viridium)",
-		"copyof": "golem_manual_junk"
-	},
-	"xanthuun_tablets": {
-		"name": "Xanthuun Tablets",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Xanthuun Tablets",
-			"",
-			"{SOURCE Lost Treasures/62}  ",
-			"**Aura** moderate divination and enchantment; **CL** 11th  ",
-			"**Slot** none; **Price** 78,000 gp; **Weight** 85 lbs.",
-			"",
-			"These striated greenstone tablets are marked with ancient writing in the Cyclops language and astronomical symbols dating from the cyclopes' ancient empire. One of the tablets emphasizes the course of the sun, another the course of the moon, and the third the dark spaces between the stars. A corroded iron ring running though a hole bored through each of the three tablets keeps them connected together.",
-			"",
-			"Anyone who speaks Cyclops can read these carvings, allowing the tablets to act as a library of lore about astrology. A character who spends 1d4 hours examining these inscriptions can attempt a Knowledge check on a topic related to astrology, divination, or the Dark Tapestry. If trained, the character gains a +2 circumstance bonus on the check; If not, the character can still attempt a check with a DC greater than 10.",
-			"",
-			"A reader who spends 24 hours (which need not be consecutive) studying one of the tablets can attempt DC 20 Linguistics and Knowledge (arcana) checks to discover deep truths implied by the abstruse markings, and becomes attuned to that tablet. Each tablet can have only one creature attuned to it at a time, but a single creature can be attuned to multiple tablets simultaneously. Being attuned to a tablet grants the reader mystic abilities, even if it's not in the creature's possession.",
-			"",
-			"A creature attuned to the sun tablet gains glimpses of the skeins of fate. Once per day before rolling a d20, it can roll three times and take the highest result.",
-			"",
-			"A creature attuned to the moon tablet is unnaturally calm, and can choose to automatically succeed at a concentration check. If the attuned creature is a lycanthrope, it can't be forced to involuntarily assume its animal or hybrid form. A creature attuned to the darkness tablet can view others through the blackness of space. Once per night, it can look at the night sky to view another creature as the scrying spell (Will DC 21 negates). The magical sensor from this effect bores though the alien Dark Tapestry, so any creature that notices the sensor must immediately succeed at a DC 18 Will save or be confused (as the confusion spell) for 1 round.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, borrow fortune, confusion, greater scrying; **Cost** 39,000 gp"
-		]
-	},
-	"eye_orb": {
-		"name": "Eye Orb",
-		"sources": [ "Mythic Adventures" ],
-		"description": [
-			"## Eye Orb",
-			"",
-			"{SOURCE Mythic Adventures/151}  ",
-			"**Aura** moderate divination; **CL** 9th  ",
-			"**Slot** none; **Price** 80,000 gp; **Weight** 1 lb.",
-			"",
-			"If a blind creature holds this orb, that creature can see with darkvision with a range of 120 feet, but also gains light sensitivity. If a sighted creature holds this orb and holds his eyes shut for 1 minute, he gains the blinded condition until he opens his eyes (as a free action), but can see through the orb as if he were a blind creature.",
-			"",
-			"By expending one use of mythic power, a creature using the eye orb can see as though using true seeing, and loses light sensitivity. These effects last for 1 minute or until he stops using the orb to see, whichever comes first.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, darkvision, true seeing; **Cost** 40,000 gp"
-		]
-	},
-	"flying_sled": {
-		"name": "Flying Sled",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Flying Sled",
-			"",
-			"{SOURCE Occult Adventures/257}  ",
-			"**Aura** strong conjuration; **CL** 12th  ",
-			"**Slot** none; **Price** 80,000 gp; **Weight** 100 lbs.",
-			"",
-			"A flying sled is a small vehicle akin to a rowboat, and is covered in metallic veins. The sled can hold one occupant. A psychic pilot can the control the craft. Without a psychic pilot, a flying sled acts in all regards as a rowboat.",
-			"",
-			"A control helmet that fits a Small or Medium creature is linked by cables to the metal veins of the sled. When a psychic creature (one with levels in an occult class, the Psychic Sensitivity feat, or the ability to use psychic spell-like abilities) wears the control helmet, the flying sled gains the following abilities.",
-			"",
-			"- The sled can fly with a maximum speed of 100 feet and acceleration of 30 feet.",
-			"- The sled gains fast healing 2 when reduced below half its starting hit points. Damage above this threshold must be repaired normally.",
-			"",
-			"Along with the abilities granted to the flying sled when piloted by a psychic creature, the pilot gains the following additional ability.",
-			"",
-			"- Once per day, the pilot can take a full-round action to transport herself and the flying sled between the Astral Plane and the Material Plane. This ability otherwise functions as plane shift.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, overland flight, plane shift; **Cost** 40,000 gp"
-		]
-	},
-	"golem_manual_mithral": {
-		"name": "Golem Manual (Mithral)",
-		"copyof": "golem_manual_junk"
-	},
-	"ofuda_of_dimensional_warding": {
-		"name": "Ofuda of Dimensional Warding",
-		"sources": [ "Blood of the Ancients" ],
-		"description": [
-			"## Ofuda of Dimensional Warding",
-			"",
-			"{SOURCE Blood of the Ancients/21}  ",
-			"**Aura** strong abjuration; **CL** 15th  ",
-			"**Slot** none; **Price** 80,000 gp; **Weight** -;",
-			"",
-			"These talismans are 6-inch-long strips of paper bearing mystic words of sealing written in traditional calligraphy. Hailing from the province of Tianjing, they are one of several methods the aasimars of that land have kept qlippoth invaders from entering the Material Plane, and the government of Tianjing pays a high price for them. If an ofuda of dimensional warding is placed on a prominent structure (such as a large tree, a statue, or a gate), and a special 24-hour ritual is performed, it creates a dimensional lock effect in a 240-foot-radius area which lasts until the ofuda of dimensional warding is removed. Any effect that moves the object that the ofuda of dimensional warding is attached to ends the effect until the ritual is performed again.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dimensional lock; **Cost** 40,000 gp"
-		]
-	},
-	"crystal_ball_true_seeing": {
-		"name": "Crystal Ball (True Seeing)",
-		"copyof": "crystal_ball_normal"
-	},
-	"shadow_well": {
-		"name": "Shadow Well",
-		"sources": [ "Classic Treasures Revisited" ],
-		"description": [
-			"## Shadow Well",
-			"",
-			"{SOURCE Classic Treasures Revisited/61}  ",
-			"**Aura** strong conjuration; **CL** 17th  ",
-			"**Slot** none; **Price** 82,000 gp; **Weight** -;",
-			"",
-			"Rather than opening to random locations across the planes, the shadow well opens only to random locations on the Shadow Plane (or random locations on the Material Plane when on the Shadow Plane). Regardless of which plane the user opens the well from, there is a 15% chance it randomly diverts the user into the Ethereal Plane, given its nature as a natural buffer between the two realities.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate, shadow walk; **Cost** 41,000 gp"
-		]
-	},
-	"well_of_many_worlds": {
-		"name": "Well of Many Worlds",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Well of Many Worlds",
-			"",
-			"{SOURCE Ultimate Equipment/325;PRPG Core Rulebook/532}  ",
-			"**Aura** strong conjuration; **CL** 17th  ",
-			"**Slot** none; **Price** 82,000 gp; **Weight** -;",
-			"",
-			"This strange, interdimensional device looks just like a portable hole. Anything placed within it is immediately cast to another world: a parallel world, another planet, or a different plane (chosen randomly). If the well is moved, it opens to a new plane (also randomly determined). It can be picked up, folded, or rolled, just as a portable hole can be. Objects from the world the well touches can come through the opening just as easily; it is a two-way portal.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate; **Cost** 41,000 gp"
-		]
-	},
-	"tome_of_leadership_and_influence_3": {
-		"name": "Tome of Leadership and Influence (+3)",
-		"copyof": "tome_of_leadership_and_influence_1"
-	},
-	"manual_of_bodily_health_3": {
-		"name": "Manual of Bodily Health (+3)",
-		"copyof": "manual_of_bodily_health_1"
-	},
-	"manual_of_quickness_of_action_3": {
-		"name": "Manual of Quickness of Action (+3)",
-		"copyof": "manual_of_quickness_of_action_1"
-	},
-	"manual_of_gainful_exercise_3": {
-		"name": "Manual of Gainful Exercise (+3)",
-		"copyof": "manual_of_gainful_exercise_1"
-	},
-	"tome_of_clear_thought_3": {
-		"name": "Tome of Clear Thought (+3)",
-		"copyof": "tome_of_clear_thought_1"
-	},
-	"tome_of_understanding_3": {
-		"name": "Tome of Understanding (+3)",
-		"copyof": "tome_of_understanding_1"
-	},
-	"preyfinder": {
-		"name": "Preyfinder",
-		"sources": [ "Advanced Class Guide" ],
-		"description": [
-			"## Preyfinder",
-			"",
-			"{SOURCE Advanced Class Guide/233}  ",
-			"**Aura** moderate divination; **CL** 9th  ",
-			"**Slot** none; **Price** 85,000 gp; **Weight** -;",
-			"",
-			"These sturdy brass compasses are often painted blood red and etched with images of wolves, lions, crocodiles, or sharks stalking their prey. Though preyfinders function as standard compasses, making them useful tools for navigation, they also have the power to magically identify and track down creatures.",
-			"",
-			"To use a preyfinder, its bearer must (as a standard action) take a drop of blood from a creature, smear it onto the compass's glass faceplate, and then touch the compass to his head. The blood must be no more than 1 week old, and can come from a living or dead creature, though a living or undead target can attempt a DC 18 Will save to resist the preyfinder's tracking ability. If the Will save is successful, the preyfinder can't identify or locate the creature, and none of the preyfinder's magical powers function for 24 hours. If the creature fails the Will save, the preyfinder telepathically provides its bearer with an image of the creature to which the drop of blood belonged and marks the creature as the preyfinder's quarry.",
-			"",
-			"After a creature is marked as the preyfinder's quarry, the bearer can spend a standard action to magically divine the creature's current location. As long as the quarry is no more than 100 miles away, the preyfinder provides a series of telepathic images to the bearer, who is then able to determine the direction toward and exact distance to the quarry. This detection ability can be fooled by mislead, nondetection, and polymorph spells and effects.",
-			"",
-			"A preyfinder can have only one creature designated as its quarry at any one time. If the bearer adds a new drop of blood, the old quarry is replaced by the new one. The bearer can also spend a full-round action to remove a quarry designation from the preyfinder.",
-			"",
-			"When used by a slayer with the studied target class feature, a preyfinder grants the slayer a +1 insight bonus on all attack and damage rolls made against a creature designated as the preyfinder's quarry. Additionally, instead of designating another creature as its quarry, a slayer can add a drop of his own blood to the preyfinder (a standard action) to gain a +2 morale bonus on all attack rolls, saves, and skill checks he attempts for 1 minute. After a slayer adds a drop of his own blood to the preyfinder, none of the preyfinder's magical powers functions for 24 hours.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blood biography, heroism, locate creature; **Cost** 42,500 gp"
-		]
-	},
-	"relic_of_a_virtuous_emperor": {
-		"name": "Relic of a Virtuous Emperor",
-		"sources": [ "Blood of the Ancients" ],
-		"description": [
-			"## Relic of a Virtuous Emperor",
-			"",
-			"{SOURCE Blood of the Ancients/21}  ",
-			"**Aura** strong divination; **CL** 17th  ",
-			"**Slot** none; **Price** 87,000 gp; **Weight** 1 lb.",
-			"",
-			"While most objects - such as ancient trinkets and jewelry - sold as purported belongings of a Lung Wa emperor have no actual magical value, some do have magical properties. Such items all function much the same way, despite taking a variety of shapes and being attributed to different emperors. Whatever its origin and form, a relic of a virtuous emperor can be used to cast augury three times per day. It can also be used to summon one kodama or 1d4+1 shikigami as if they had been summoned by [summon nature's ally V](spell/summon_natures_ally_5), once per day. Additionally, anyone in possession of a relic of a virtuous emperor gains a +1 insight bonus to AC.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, augury, foresight, [summon nature's ally V](spell/summon_natures_ally_5); **Cost** 43,500 gp"
-		]
-	},
-	"apparatus_of_the_crab": {
-		"name": "Apparatus of the Crab",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Apparatus of the Crab",
-			"",
-			"{SOURCE Ultimate Equipment/281;PRPG Core Rulebook/500}  ",
-			"**Aura** strong evocation and transmutation; **CL** 19th  ",
-			"**Slot** none; **Price** 90,000 gp; **Weight** 500 lbs.",
-			"",
-			"An apparatus of the crab is a metallic magical vehicle. When unoccupied, it appears to be a large, sealed iron barrel big enough to hold two Medium creatures. Close examination, and a DC 20 Perception check, reveals a secret catch that opens a hatch at one end. Anyone who crawls inside finds 10 (unlabeled) levers and seating for two Medium or Small occupants. These levers allow those inside to activate and control the apparatus's movements and actions.",
-			"",
-			"| Lever (1d10) | Lever Function |",
-			"| --- | --- |",
-			"| 1 | Extend/retract legs and tail |",
-			"| 2 | Uncover/cover forward porthole |",
-			"| 3 | Uncover/cover side portholes |",
-			"| 4 | Extend/retract pincers and feelers |",
-			"| 5 | Snap pincers |",
-			"| 6 | Move forward/backward |",
-			"| 7 | Turn left/right |",
-			"| 8 | Open/close \"eyes\" with continual flame inside |",
-			"| 9 | Rise/sink in water |",
-			"| 10 | Open/close hatch |",
-			"",
-			"Operating a lever is a full-round action, and no lever may be operated more than once per round. However, since two characters can fit inside, the apparatus can move and attack in the same round. The device can function in water up to 900 feet deep. It holds enough air for a crew of two to survive 1d4+1 hours (twice as long for a single occupant).",
-			"",
-			"When active, an apparatus of the crab has the following characteristics: hp 200; hardness 15; Speed 20 ft., swim 20 ft.; AC 20 (-1 size, +11 natural); Melee 2 pincers +12 (2d8); CMB +14; CMD 24.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate objects, continual flame, creator must have 8 ranks in Knowledge (engineering); **Cost** 45,000 gp"
-		]
-	},
-	"beacon_of_the_north": {
-		"name": "Beacon of the North",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Beacon of the North",
-			"",
-			"{SOURCE Lost Treasures/19}  ",
-			"**Aura** strong conjuration; **CL** 17th  ",
-			"**Slot** none; **Price** 90,000 gp; **Weight** 4 lbs.",
-			"",
-			"The Beacon of the North is a ship's lantern that appears to be an unusually large bullseye lantern. Activating any of its powers requires a special lamp oil made only by the White Witches of Irrisen. It can hold enough oil to burn for 8 hours. When lit, the lantern burns with a cold light, and if the burning oil is used as a weapon, it deals cold damage instead of fire damage.",
-			"",
-			"As a standard action, the wielder can focus the lantern's beam of light on a single living creature as a ranged touch attack. Doing so consumes 1 minute's worth of oil and creates a small portal from the frozen north to the interior of the target's body. The target takes 1d6 points of cold damage and suffers frostbite and hypothermia (treat the target as [fatigued](rule/exhaustion_conditions) until all nonlethal damage is healed). Any creature that dies from the cold damage caused by the Beacon rises the following midnight as a draugr.",
-			"",
-			"Also as a standard action, the beacon's user can focus the lantern's light on a depiction of a specific ship, which creates a 5-foot-wide portal connecting the depiction to the main mast of the ship itself. Any creature that touches one side of the portal instantly appears at the other. These portals appear as shimmering, blue-white patches of light; it's impossible to see what is on the other side. The portals remain open as long as the lantern is lit, even if it no longer shines directly on the depiction.",
-			"",
-			"Finally, if the Beacon of the North is lit and hung on the prow of any ship, a ship-sized portal appears before the ship, allowing the ship to sail through it. This portal always leads to Whitethrone harbor in Irrisen. This function immediately closes any other portals previously opened by the lantern.",
-			"",
-			"Creating a portal of any size consumes 10 minutes worth of oil.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, chill touch, teleportation circle; **Cost** 45,000 gp"
-		]
-	},
-	"bowl_of_conjuring_water_elementals": {
-		"name": "Bowl of Conjuring Water Elementals",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Bowl of Conjuring Water Elementals",
-			"",
-			"{SOURCE Ultimate Equipment/285}  ",
-			"**Aura** moderate conjuration; **CL** 11th  ",
-			"**Slot** none; **Price** 90,000 gp; **Weight** 3 lbs.",
-			"",
-			"This large container is usually fashioned from silver with a rippled pattern. It is about 1 foot in diameter and half that deep. The bowl must be filled with fresh or salt water to function. On command as a full-round action, the bearer may summon a water elemental. If the bowl is filled with salt water, it conjures a Huge water elemental as if using [summon monster VI](spell/summon_monster_6). If filled with fresh water, it conjures a Large water elemental as if using [summon monster V](spell/summon_monster_5). Conjuring an elemental empties the bowl. The bowl cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster V](spell/summon_monster_5), [summon monster VI](spell/summon_monster_6); **Cost** 45,000 gp"
-		]
-	},
-	"brazier_of_conjuring_fire_elementals": {
-		"name": "Brazier of Conjuring Fire Elementals",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Brazier of Conjuring Fire Elementals",
-			"",
-			"{SOURCE Ultimate Equipment/285}  ",
-			"**Aura** moderate conjuration; **CL** 11th  ",
-			"**Slot** none; **Price** 90,000 gp; **Weight** 5 lbs.",
-			"",
-			"This device appears to be a normal container for holding burning coals. The brazier must be filled with coals or wood and a fire lit within it to function. On command as a full-round action, the bearer may summon a fire elemental. If 1 pound of brimstone (sulfur) is burning in the brazier, it conjures a Huge fire elemental as if using [summon monster VI](spell/summon_monster_6). Otherwise, the brazier conjures a Large fire elemental as if using [summon monster V](spell/summon_monster_5). Conjuring an elemental extinguishes the fire in the brazier. The brazier cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster V](spell/summon_monster_5), [summon monster VI](spell/summon_monster_6); **Cost** 45,000 gp"
-		]
-	},
-	"bronze_sentinel": {
-		"name": "Bronze Sentinel",
-		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
-		"description": [
-			"## Bronze Sentinel",
-			"",
-			"{SOURCE Pathfinder #82: Secrets of the Sphinx/62}  ",
-			"**Aura** strong evocation and transmutation; **CL** 19th  ",
-			"**Slot** none; **Price** 90,000 gp; **Weight** 500 lbs.",
-			"",
-			"Built by a group of forgotten arcanists and researchers in a secret outpost deep within the Osirian desert, the bronze sentinel is a magical vehicle shaped as a 15-foot-tall bronze humanoid statue, crafted in the shape of a muscular man wearing a silver headband that resembles two serpents twined together. When the sentinel is active, its eyes shine with green light and a triangle of runes on its chest glows silver.",
-			"",
-			"Close examination and a successful DC 25 Perception check reveal a secret catch that opens a hatch in the statue's back. Anyone who crawls inside finds seating for one Medium or Small occupant and eight unlabeled levers and pedals. These controls allow a character inside to activate and control the sentinel's movements and actions. Operating a lever is normally a move action, but operating the lever to extend or retract the sentinel's arms (such as to attack) is a standard action. No lever can be operated more than once per round.",
-			"",
-			"| Lever (d8) | Lever Function |",
-			"| --- | --- |",
-			"| 1 | Uncover/cover forward porthole |",
-			"| 2 | Uncover/cover side portholes |",
-			"| 3 | Extend/retract arms |",
-			"| 4 | Close/open hands |",
-			"| 5 | Move forward/backward |",
-			"| 6 | Turn left/right |",
-			"| 7 | Open/close eyes with continual flame inside |",
-			"| 8 | Open/close hatch |",
-			"",
-			"The sentinel's hands can grasp objects as small as Fine in size, and can make slam attacks. Although the sentinel cannot swim, it can function in water up to 900 feet deep. If its portholes are covered, it holds enough air for a Medium operator to survive 1d4+1 hours.",
-			"",
-			"When active, a bronze sentinel has the following statistics: Size Large; AC 20 (-1 size, +11 natural); hardness 15; hp 150; Speed 20 ft.; Melee 2 slams +12 (2d6); CMB +14; CMD 24.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate objects, continual flame, creator must have 8 ranks in Knowledge (engineering); **Cost** 45,000 gp"
-		]
-	},
-	"carpet_of_comfort": {
-		"name": "Carpet of Comfort",
-		"sources": [ "People of the Sands" ],
-		"description": [
-			"## Carpet of Comfort",
-			"",
-			"{SOURCE People of the Sands/29}  ",
-			"**Aura** moderate transmutation; **CL** 10th  ",
-			"**Slot** none; **Price** 90,000 gp; **Weight** 15 lbs.",
-			"",
-			"This specialized carpet of flying always measures 10 feet by 10 feet. When it's in flight, its passengers are shielded from wind and extreme temperatures as if inside a tiny hut (though without creating an opaque, immobile sphere). In addition, once per day while the carpet of comfort is on the ground, a command word transforms the carpet into an opulent silk tent that, other than its appearance, is equivalent to a secure shelter.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, overland flight, secure shelter, tiny hut; **Cost** 45,000 gp"
-		]
-	},
-	"censer_of_conjuring_air_elementals": {
-		"name": "Censer of Conjuring Air Elementals",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Censer of Conjuring Air Elementals",
-			"",
-			"{SOURCE Ultimate Equipment/288}  ",
-			"**Aura** moderate conjuration; **CL** 13th  ",
-			"**Slot** none; **Price** 90,000 gp; **Weight** 1 lb.",
-			"",
-			"This 6-inch-wide, perforated metallic vessel resembles a thurible found in a place of worship. The censer must be filled with incense to function. On command as a full-round action, the bearer may summon an air elemental. If the censer is filled with incense of meditation, it conjures a greater air elemental as if using [summon monster VII](spell/summon_monster_7). If filled with any other incense, it conjures a Large air elemental as if using [summon monster V](spell/summon_monster_5). Conjuring an elemental consumes any normal incense in the censer, or one-fourth of a block of incense of meditation. The censer cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster V](spell/summon_monster_5), [summon monster VII](spell/summon_monster_7); **Cost** 45,000 gp"
-		]
-	},
-	"chariot_of_the_conqueror": {
-		"name": "Chariot of the Conqueror",
-		"sources": [ "Pathfinder #84: Pyramid of the Sky Pharaoh" ],
-		"description": [
-			"## Chariot of the Conqueror",
-			"",
-			"{SOURCE Pathfinder #84: Pyramid of the Sky Pharaoh/60}  ",
-			"**Aura** strong abjuration and conjuration; **CL** 18th  ",
-			"**Slot** none; **Price** 90,000 gp; **Weight** 200 lbs.",
-			"",
-			"This fantastic vehicle was fashioned specifically for General Tawaret, who rode it into battle throughout her military career. The chariot of the conqueror is a light chariot pulled by a team of two ghostly manticores controlled by beaded reigns. The manticores can only draw the chariot; they cannot attack or otherwise act. The chariot's statistics are Hardness 10, hp 180, Base Save +2, Maximum Speed 200 ft., fly 200 ft. (perfect); Acceleration 100 ft., fly 100 ft.; all other statistics conform to those of a standard light chariot.",
-			"",
-			"The chariot of the conqueror treats all terrain as normal, including water - the vehicle glides smoothly over liquid as though it were pavement - and can even fly. On command, the chariot can drive itself for up to 1 hour with a +20 bonus on drive checks, following the driver's verbal orders. Otherwise, the driver must attempt driving checks to control the ghostly steeds drawing the chariot as normal.",
-			"",
-			"The chariot of the conqueror can carry up to two Medium creatures: one driver and one passenger. Creatures riding in the chariot gain a +4 cover bonus to AC. Passengers balance perfectly while riding in the vehicle, even if it's moving sideways or upside down, making it a perfect platform for archers or others making ranged attacks. Damage to the chariot can be magically repaired, but if reduced to 0 hit points, it's destroyed.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mage armor, phantom driver, phantom steed; **Cost** 45,000 gp"
-		]
-	},
-	"golem_manual_inubrix": {
-		"name": "Golem Manual (Inubrix)",
-		"copyof": "golem_manual_junk"
-	},
-	"oculus_of_magnetic_fury": {
-		"name": "Oculus of Magnetic Fury",
-		"sources": [ "Construct Handbook" ],
-		"description": [
-			"## Oculus of Magnetic Fury",
-			"",
-			"{SOURCE Construct Handbook/19}  ",
-			"**Aura** moderate transmutation; **CL** 10th  ",
-			"**Slot** none; **Price** 90,000 gp; **Weight** 1 lb.",
-			"",
-			"This piece of technology is fashioned from the eye of a robot. Once per hour as a standard action, a creature holding an oculus of magnetic fury can target a single robot within 60 feet with a devastating electromagnetic pulse. The robot takes 10d6 points of electricity damage and becomes helpless for 1 minute. If the target succeeds at a DC 18 Will save, it takes half this damage and negates the helpless effect. A robot rendered helpless by the pulse receives a new Will save each round at the end of its turn to shake off the effect.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/disable construct}, {spell/lightning bolt}; **Cost** 45,000 gp"
-		]
-	},
-	"stone_of_conjuring_earth_elementals": {
-		"name": "Stone of Conjuring Earth Elementals",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Stone of Conjuring Earth Elementals",
-			"",
-			"{SOURCE Ultimate Equipment/321}  ",
-			"**Aura** moderate conjuration; **CL** 11th  ",
-			"**Slot** none; **Price** 90,000 gp; **Weight** 5 lbs.",
-			"",
-			"A stone of this nature is typically an oddly shaped bit of roughly polished rock. On command as a full-round action, the bearer may summon an earth elemental. If there is an unbroken piece of unworked stone of at least Huge size nearby, the stone conjures a Huge earth elemental as if using [summon monster VI](spell/summon_monster_6). If there is no such stone available (for example, if there is only sand, earth, worked stone, or smaller pieces of stone), the stone conjures a Large earth elemental as if using [summon monster V](spell/summon_monster_5). The stone cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster V](spell/summon_monster_5), [summon monster VI](spell/summon_monster_6); **Cost** 45,000 gp"
-		]
-	},
-	"mirror_of_opposition": {
-		"name": "Mirror of Opposition",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Mirror of Opposition",
-			"",
-			"{SOURCE Ultimate Equipment/312;PRPG Core Rulebook/524}  ",
-			"**Aura** strong necromancy; **CL** 15th  ",
-			"**Slot** none; **Price** 92,000 gp; **Weight** 45 lbs.",
-			"",
-			"This item resembles a normal mirror about 4 feet long and 3 feet wide. It can be hung or placed on a surface and then activated by speaking a command word. The same command word deactivates the mirror. If a creature sees its reflection in the mirror's surface, an exact duplicate of that creature comes into being. This opposite immediately attacks the original. The duplicate has all the possessions and powers of its original (including magic). Upon the defeat or destruction of either the duplicate or the original, the duplicate and its items disappear completely. The mirror functions up to four times per day. Destroying the mirror (hardness 1, 5 hit points) causes all of the duplicates to immediately vanish.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clone; **Cost** 46,000 gp"
-		]
-	},
-	"lightning_gun": {
-		"name": "Lightning Gun",
-		"sources": [ "Occult Bestiary" ],
-		"description": [
-			"## Lightning Gun",
-			"",
-			"{SOURCE Occult Bestiary/63}  ",
-			"**Aura** strong evocation; **CL** 17th  ",
-			"**Slot** none; **Price** 95,000 gp; **Weight** 15 lbs.",
-			"",
-			"This device appears to be a box and frame made of a strange metallic alloy. A bellows or tapered accordion structure protrudes from the box, with handles and controls at the wide end and a bright metal disk or lens at the other. The controls are seemingly designed to be operated by large creatures with only two fingers, though humanoid hands can manipulate them after some practice.",
-			"",
-			"As a standard action, the operator can hold the device in front of herself with two hands and use the controls to unleash a blast that deals 10d12 points of electricity damage on a successful ranged touch attack against a single target within 120 feet. The lightning blast sets fire to combustibles and damages objects that it strikes. It can melt metals that have a low melting point, such as lead, gold, copper, silver, or bronze.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, chain lightning; **Cost** 47,500 gp"
-		]
-	},
-	"ruby_sapphire_of_osh_maru": {
-		"name": "Ruby Sapphire of Osh-Maru",
-		"sources": [ "Pathfinder #95: Anvil of Fire" ],
-		"description": [
-			"## Ruby Sapphire of Osh-Maru",
-			"",
-			"{SOURCE Pathfinder #95: Anvil of Fire/39}  ",
-			"**Aura** moderate transmutation; **CL** 10th  ",
-			"**Slot** none; **Price** 96,000 gp; **Weight** 1 lb.",
-			"",
-			"This fist-sized uncut gem looks like a human heart. One half is ruby-red with blue flecks; the other is sapphire-blue with red flecks. Five times per day when the gem is held in one hand, a spellcaster can use this item as an additional focus component when casting a spell that deals electricity or fire damage, converting up to half the spell's electricity damage to fire damage or vice versa, as if using the Elemental Spell metamagic feat. Unlike the feat, this does not alter the casting time or spell level of the spell.",
-			"",
-			"In addition, when held, the gem provides the bearer resistance 20 against electricity and fire. At will as a free action, the bearer can command the Ruby Sapphire of Osh-Maru to glow as brightly as a torch with either blue or red flame, manipulate this light as if it were dancing lights, or snuff this light.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Elemental Spell, resist energy; **Cost** 48,000 gp"
-		]
-	},
-	"runestone_of_power_7th": {
-		"name": "Runestone of Power (7th)",
-		"copyof": "runestone_of_power_1st"
-	},
-	"banner_of_tactical_command_normal": {
-		"name": "Banner of Tactical Command (Normal)",
-		"copyof": "banner_of_tactical_command_lesser"
-	},
-	"normal_banner_of_tactical_command": {
-		"copyof": "banner_of_tactical_command_normal"
-	},
-	"tome_of_forgotten_epithets": {
-		"name": "Tome of Forgotten Epithets",
-		"sources": [ "Disciple's Doctrine" ],
-		"description": [
-			"## Tome of Forgotten Epithets",
-			"",
-			"{SOURCE Disciple's Doctrine/30}  ",
-			"**Aura** strong abjuration; **CL** 15th  ",
-			"**Slot** none; **Price** 108,000 gp; **Weight** 2 lbs.",
-			"",
-			"The cover of this hefty, leather-bound volume has an ornate spine adorned with a stylized eye worked in metal and jewels hinges and is sealed shut by a strap with a brass scarab fastener. When first created, a tome of forgotten epithets has 50 pages. Each page can hold the name of a creature, along with a short description that distinguishes it from other creatures with the same name. The wielder of a tome of forgotten epithets can speak a command word to cause the burning eye on the cover to close, protecting those named within as per mind blank for 24 hours and sealing the book shut for this duration. Afterward, the eye on the cover reopens, and any pages that held names vanish.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mind blank, secret page; **Cost** 54,000 gp"
-		]
-	},
-	"tome_of_leadership_and_influence_4": {
-		"name": "Tome of Leadership and Influence (+4)",
-		"copyof": "tome_of_leadership_and_influence_1"
-	},
-	"tome_of_understanding_4": {
-		"name": "Tome of Understanding (+4)",
-		"copyof": "tome_of_understanding_1"
-	},
-	"tome_of_clear_thought_4": {
-		"name": "Tome of Clear Thought (+4)",
-		"copyof": "tome_of_clear_thought_1"
-	},
-	"manual_of_gainful_exercise_4": {
-		"name": "Manual of Gainful Exercise (+4)",
-		"copyof": "manual_of_gainful_exercise_1"
-	},
-	"manual_of_quickness_of_action_4": {
-		"name": "Manual of Quickness of Action (+4)",
-		"copyof": "manual_of_quickness_of_action_1"
-	},
-	"manual_of_bodily_health_4": {
-		"name": "Manual of Bodily Health (+4)",
-		"copyof": "manual_of_bodily_health_1"
-	},
-	"golden_carriage_of_gaspar_longfellow": {
-		"name": "Golden Carriage of Gaspar Longfellow",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Golden Carriage of Gaspar Longfellow",
-			"",
-			"{SOURCE Lost Treasures/34}  ",
-			"**Aura** strong conjuration; **CL** 12th  ",
-			"**Slot** none; **Price** 114,000 gp; **Weight** 1,200 lbs.",
-			"",
-			"Crafted from the finest materials, the Golden Carriage of Gaspar Longfellow is a vehicle fit for royalty. Larger than an average carriage, the Golden Carriage can accommodate six occupants in the interior, as well as two drivers and a footman on the exterior. The interior is lavishly furnished and magically maintained - occupants are protected from extreme heat and cold as if under the effects of endure elements, and are treated as acclimated creatures for altitudes up to 15,000 feet (see [altitude zones](rule/mountain_travel)). Both doors of the carriage are secured against intruders with alarm and arcane lock spells, and an invisible driver can control the reins as unseen servant if no living driver is controlling the carriage.",
-			"",
-			"The most prominent features of the Golden Carriage are the four spectral steeds that pull it. Adorned in beautiful scarlet leather harnesses, these gray horses pull the carriage tirelessly over nearly any terrain. These horses function as phantom steed cast by a 12th-level caster, and grant their air walk, water walk, and other abilities to the carriage.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, phantom steed, secure shelter; **Cost** 57,000 gp"
-		]
-	},
-	"farwatcher": {
-		"name": "Farwatcher",
-		"sources": [ "Lost Kingdoms" ],
-		"description": [
-			"## Farwatcher",
-			"",
-			"{SOURCE Lost Kingdoms/12}  ",
-			"**Aura** moderate divination; **CL** 11th  ",
-			"**Slot** none; **Price** 120,850 gp; **Weight** 260 lbs.",
-			"",
-			"This exquisite telescope is crafted of brass, ivory, wood, and carefully polished crystal lenses and silver mirrors, and is over 10 feet long. Anyone using a farwatcher must possess at least 5 ranks in Profession (astronomy) in order to use it - the device is simply too complex for anyone with less training to use it properly.",
-			"",
-			"An observer using this device gains a +20 circumstance bonus on Perception checks to discern celestial bodies, as well as a +20 circumstance bonus on any Profession (astronomer) checks made while using it at night. A farwatcher can be used during either the night or day to look at celestial or terrestrial objects, though any object within 1 mile viewed through the telescope is obscured beyond recognition. A farwatcher allows its user to see things through it as though under the effects of true seeing for up to 1 hour per day. These minutes need not be consecutive, but must be expended in minimum increments of 10 minutes each.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Profession (astronomy) 11 ranks, true seeing; **Cost** 60,550 gp"
-		]
-	},
-	"planar_carriage": {
-		"name": "Planar Carriage",
-		"sources": [ "Plane-Hopper's Handbook" ],
-		"description": [
-			"## Planar Carriage",
-			"",
-			"{SOURCE Plane-Hopper's Handbook/11}  ",
-			"**Aura** moderate conjuration and transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 121,500 gp; **Weight** 1,500 lbs.",
-			"",
-			"Planar carriages are large metal-and-wood vehicles painted or styled to reflect the appearance of a certain plane. When not being used to travel to another plane, a planar carriage functions as a heavy wagon, except for the following changes: instead of muscle propulsion, a planar carriage has built-in magic propulsion that requires a driver to use Spellcraft or Use Magic Device for driving checks. A planar carriage has a maximum speed of 90 feet and an acceleration of 30 feet. Its driving device is a magic item (a 5-foot magical sphere) that occupies the forwardmost square, and its driving space consists of the squares adjacent to the device.",
-			"",
-			"Once per day, the driver of a planar carriage can attempt to transport the carriage and its occupants to a plane of her choosing other than the plane that the carriage is currently on. For the driver to do so, the vehicle must be moving at its maximum speed. While the carriage is moving at maximum speed, the driver can attempt a DC 20 Spellcraft or Use Magic Device check to open a gate in front of the planar carriage to the chosen plane, as per the {spell/gate} spell, and drive the carriage into the gate. If the driver designates a specific arrival point on the target plane, the carriage arrives at that exact location; otherwise, the carriage appears in a random location on the plane appropriate for the carriage's size.",
-			"",
-			"When the carriage arrives on another plane, it grants its occupants the benefits of {spell/planar adaptation} for that plane as long as the occupants remain within the carriage; the carriage itself also gains those benefits. A planar carriage can grant the benefits of {spell/planar adaptation} for only one plane at a time, so when the carriage moves to a different plane, the benefits from {spell/planar adaptation} change accordingly. Occupants who are native to the plane the planar carriage is on do not gain any benefits from {spell/planar adaptation}.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}, {spell/haste}, {spell/planar adaptation}, creator must have at least 5 ranks in Knowledge (engineering); **Cost** 60,850 gp"
-		]
-	},
-	"well_of_the_welcome_respite": {
-		"name": "Well of the Welcome Respite",
-		"sources": [ "Classic Treasures Revisited" ],
-		"description": [
-			"## Well of the Welcome Respite",
-			"",
-			"{SOURCE Classic Treasures Revisited/61}  ",
-			"**Aura** strong conjuration; **CL** 17th  ",
-			"**Slot** none; **Price** 122,000 gp; **Weight** -;",
-			"",
-			"While normally functioning as a standard well of many worlds, this well possesses a command word that supersedes its normal placement-based destination, and it instead opens up onto a single location designated by its maker during the well's creation (often the creator's home or a private, warded demiplane). Those finding the well are not immediately aware of this command word unless a spell more powerful than a simple identify spell is used, and the well's secret destination, whatever it might be, may or may not still be occupied.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate, mage's magnificent mansion; **Cost** 61,000 gp"
-		]
-	},
-	"golem_manual_adamantine": {
-		"name": "Golem Manual (Adamantine)",
-		"copyof": "golem_manual_junk"
-	},
-	"nightglass": {
-		"name": "Nightglass",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Nightglass",
-			"",
-			"{SOURCE Lost Treasures/45}  ",
-			"**Aura** strong conjuration; **CL** 13th  ",
-			"**Slot** none; **Price** 126,000 gp; **Weight** 5 lbs.",
-			"",
-			"This thin sheet of opaque black stone is polished to a reflective sheen, but the center of the material drinks all light, becoming a pool of total darkness.",
-			"",
-			"A nightglass can be used three times per day to summon various creatures from the Shadow Plane. Any effort to summon a creature requires a successful DC 15 Will save. On a failed save, the user takes 1d4 points of Strength damage and must attempt another save on his next turn. On a successful save, a shadow is summoned. This acts as [summon monster IV](spell/summon_monster_4), except it can be used only to summon a single shadow, and the shadow remains for 1 hour or until destroyed. If the user took Strength damage during the summoning effort, the shadow remains for 1 additional hour per point of Strength lost. Any Strength damage that is restored no longer adds to the duration of the summoned shadow.",
-			"",
-			"If a user's Strength is reduced to 0 by the nightglass while attempting to summon a shadow, the user is trapped within the nightglass as if by a trap the soul spell, except breaking the nightglass does not free the trapped soul (which can be released only through a miracle, a wish, or similar powerful magic). Additionally, a creature from the Plane of Shadow emerges from the nightglass. This creature takes the form of the user drained to 0 Strength. It uses the same stat block as the trapped soul, but also has the shadow creature template. The shadow creature has the memories, class levels, and abilities of the user it replaces, but is always of neutral evil alignment. A successful DC 20 Sense Motive check allows anyone familiar with the original character to realize the shadow creature is not actually the person it resembles. The shadow creature is not bound or controlled by the nightglass and has its own dark agenda, but may work with groups able to provide it with security and aid. Should the original user somehow manage to escape the nightglass, the shadow creature replacement is immediately sent back to the Plane of Shadow.",
-			"",
-			"A nightglass can also be used once per day to communicate with creatures with the evil subtype on other planes of existence. To use a nightglass in this way, the user must know the true name of the creature she is trying to contact. Communication works two ways, and the mirrored surface of the nightglass hazily shows the creature being contacted.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shadow conjuration, [summon monster IV](spell/summon_monster_4), trap the soul, creator must be 10th level or higher and must be a worshiper of Zon-Kuthon; **Cost** 63,000 gp"
-		]
-	},
-	"runestone_of_power_8th": {
-		"name": "Runestone of Power (8th)",
-		"copyof": "runestone_of_power_1st"
-	},
-	"sovereign_shabti": {
-		"name": "Sovereign Shabti",
-		"sources": [ "Pathfinder #84: Pyramid of the Sky Pharaoh" ],
-		"description": [
-			"## Sovereign Shabti",
-			"",
-			"{SOURCE Pathfinder #84: Pyramid of the Sky Pharaoh/91}  ",
-			"**Aura** strong conjuration; **CL** 17th  ",
-			"**Slot** none; **Price** 130,000 gp; **Weight** 1 lb.",
-			"",
-			"During its creation, a sovereign shabti is bound to a single member of royalty who willingly donates 3 drops of her blood and writes her own name upon a strip of parchment. These are placed within a hollow figurine typically made of gold, jade, or gemstone that, when completed, has hardness 5 and 5 hit points.",
-			"",
-			"If the sovereign shabti still exists when the bound individual dies, its magic takes effect. The figurine's power speeds the spirit along the River of Souls, assuring it safely reaches the Boneyard. The soul is judged 2d12 hours after dying, at which point the figurine expels its power to create a new being, a living 1st-level shabti duplicate of the bound individual. If the soul was condemned to torment or labor, the shabti goes in its place - the bound individual's spirit traveling to some favorable corner of a plane matching her alignment. If the soul was to be rewarded, the shabti appears on to the fringes of Axis. Once the shabti has been created, the bound individual cannot be returned to life by any means short of divine intervention. The sovereign shabti - which does not travel with the bound soul - crumbles as soon as it creates a shabti.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, trap the soul, true resurrection, 3 drops of royal blood, a royal name; **Cost** 65,000 gp"
-		]
-	},
-	"contingent_wayfinder": {
-		"name": "Contingent Wayfinder",
-		"sources": [ "Pathfinder Society Primer" ],
-		"description": [
-			"## Contingent Wayfinder",
-			"",
-			"{SOURCE Pathfinder Society Primer/20}  ",
-			"**Aura** moderate evocation; **CL** 11th  ",
-			"**Slot** none; **Price** 132,000 gp; **Weight** 1 lb.",
-			"",
-			"This wayfinder is constructed of delicate ivory. Its face constantly reshapes to form a relief of its bearer, and is capable of changing as quickly as two creatures can pass the wayfinder back and forth. The socket in which an ioun stone could normally be placed is instead filled with a permanently fixed gem that functions as a [ring of minor spell storing](magic-ring/ring_of_spell_storing_minor). After wielding this wayfinder for 24 hours, its wielder can designate a series of conditions upon which the wayfinder will cast the highest-level spell stored in the gem with the wearer as the spell's target, as though it were using the contingency spell. For example, the wielder of a contingent wayfinder could place a cure moderate wounds spell in the wayfinder's gem, then specify that if she ever falls unconscious because of lethal damage, the spell must be cast on her.",
-			"",
-			"Once used in such a manner, the wayfinder requires 1 month to recharge its contingency effect, though a new spell can be cast into the enclosed gem at any time during this period. If the conditions of the contingency effect are not met within 1 week of when they were assigned, the user can change the conditions, though the spell stored in the gem can't be changed until it has been cast.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, contingency, imbue with spell ability, light; **Cost** 66,000 gp"
-		]
-	},
-	"wayfinder_of_passage": {
-		"name": "Wayfinder of Passage",
-		"sources": [ "Seekers of Secrets" ],
-		"description": [
-			"## Wayfinder of Passage",
-			"",
-			"{SOURCE Seekers of Secrets/51}  ",
-			"**Aura** moderate varied; **CL** 10th  ",
-			"**Slot** none; **Price** 136,000 gp; **Weight** 1 lb.",
-			"",
-			"This wayfinder is an artistic treasure, crafted in gold and set with tiny opals, rubies, diamonds, and sapphires. Three slots on the inner side of the lid can each hold one ioun stone. It sheds light equivalent to the daylight spell on your command. It has the following abilities, each activated by a different command word:",
-			"",
-			"- dimension door (once per day)",
-			"- feather fall (at will)",
-			"- knock (at will)",
-			"- resist energy (once per day, energy resistance 20, lasts 24 hours)",
-			"",
-			"When the first ioun stone slot is used, the dimension door ability no longer functions. When the second slot is used, feather fall and resist energy are unavailable. When the third slot is used, daylight and knock no longer function.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, daylight, dimension door, feather fall, knock, resist energy; **Cost** 68,000 gp"
-		]
-	},
-	"tome_of_leadership_and_influence_5": {
-		"name": "Tome of Leadership and Influence (+5)",
-		"copyof": "tome_of_leadership_and_influence_1"
-	},
-	"manual_of_bodily_health_5": {
-		"name": "Manual of Bodily Health (+5)",
-		"copyof": "manual_of_bodily_health_1"
-	},
-	"manual_of_quickness_of_action_5": {
-		"name": "Manual of Quickness of Action (+5)",
-		"copyof": "manual_of_quickness_of_action_1"
-	},
-	"manual_of_gainful_exercise_5": {
-		"name": "Manual of Gainful Exercise (+5)",
-		"copyof": "manual_of_gainful_exercise_1"
-	},
-	"tome_of_clear_thought_5": {
-		"name": "Tome of Clear Thought (+5)",
-		"copyof": "tome_of_clear_thought_1"
-	},
-	"tome_of_understanding_5": {
-		"name": "Tome of Understanding (+5)",
-		"copyof": "tome_of_understanding_1"
-	},
-	"efreeti_bottle": {
-		"name": "Efreeti Bottle",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Efreeti Bottle",
-			"",
-			"{SOURCE Ultimate Equipment/294;PRPG Core Rulebook/511}  ",
-			"**Aura** strong conjuration; **CL** 14th  ",
-			"**Slot** none; **Price** 145,000 gp; **Weight** 1 lb.",
-			"",
-			"This item is typically fashioned of brass or bronze, with a lead stopper bearing special seals. Periodically, a thin stream of bittersmelling smoke issues from the bottle's top. The bottle can be opened once per day. When opened, the efreeti imprisoned within issues from the bottle instantly amid a cloud of noxious smoke. There is a 10% chance (01-10 on d%) that the efreeti is insane and attacks immediately upon being released. There is also a 10% chance (91-100) that the efreeti of the bottle grants three wishes. In either case, afterward the efreeti disappears forever, and the bottle becomes nonmagical. The other 80% of the time (11-90), the inhabitant of the bottle loyally serves the character for up to 10 minutes per day (or until the efreeti's death), doing as she commands. Roll each day the bottle is opened for that day's effect.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, planar binding; **Cost** 72,500 gp"
-		]
-	},
-	"golem_manual_quintessence": {
-		"name": "Golem Manual (Quintessence)",
-		"copyof": "golem_manual_junk"
-	},
-	"bell_of_obedience": {
-		"name": "Bell of Obedience",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Bell of Obedience",
-			"",
-			"{SOURCE Lost Treasures/20}  ",
-			"**Aura** strong enchantment; **CL** 15th  ",
-			"**Slot** none; **Price** 157,500 gp; **Weight** 2,000 lbs.",
-			"",
-			"The Bell of Obedience is a 4-foot-tall bell cast from high-tin bronze that's capable of transmitting a powerful compulsion to those who hear it. To function, the bell must be suspended from a yoke and sounded either with a mallet or a clapper. All creatures within 1,000 feet of the bell other than the user must succeed at a DC 20 Will save or be affected by a compulsion effect (determined by the yoke's composition) for 1 hour.",
-			"",
-			"| Material | Effect |",
-			"| --- | --- |",
-			"| Bronze | Good hope |",
-			"| Iron | Rage |",
-			"| Oak | Calm emotions |",
-			"| Stone | Crushing despair |",
-			"",
-			"In most conditions, the bell is audible to a range of 1 mile, though it has no effects on listeners farther than 1,000 feet away. Humanoids with the human subtype are particularly vulnerable to the compulsion effect, and take a -2 penalty on saving throws to resist the effects.",
-			"",
-			"Normally, the compulsion doesn't impart any special instructions, so those affected by rage might participate in wanton acts of violence, and those affected by good hope might simply become more cheerful. If the user succeeds at a DC 25 Perform (percussion) check when activating the bell, he can transmit simple secondary instructions with the compulsion, such as directing enraged listeners to hate a particular object or inspiring the hopeful to attribute their positive emotions to a particular cause.",
-			"",
-			"The bell can transmit a compulsion once every 8 hours.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Widen Spell, calm emotions, crushing despair, good hope, rage; **Cost** 78,750 gp"
-		]
-	},
-	"cage_of_captivity": {
-		"name": "Cage of Captivity",
-		"sources": [ "Cohorts and Companions" ],
-		"description": [
-			"## Cage of Captivity",
-			"",
-			"{SOURCE Cohorts and Companions/11}  ",
-			"**Aura** strong enchantment; **CL** 15th  ",
-			"**Slot** none; **Price** 160,000 gp; **Weight** 1 lb.",
-			"",
-			"This miniature cage of golden wire can be used to capture a weakened outsider once per day. The target outsider must be called or otherwise physically present; a cage of captivity has no effect on summoned outsiders. The target also must be unable to take actions continually throughout the entire process, whether cowering, dazed, dying, helpless, stunned, or unconscious.",
-			"",
-			"The user can attempt to draw a subdued outsider into the cage of captivity by placing gemstones within and concentrating for 1 minute. These gems must be worth at least 100 gp per Hit Dice of the target. If the target fails a DC 20 Will save - this increases to DC 25 if the user speaks the target's true name - the target shrinks to a height of 1 inch and is drawn into the cage, as the minimum containment option of the binding spell. Any creature holding the cage can converse with the trapped outsider. The planar being cannot use any supernatural or spell-like abilities while trapped, but it can still interact with, lie to, and manipulate captors using appropriate skill checks.",
-			"",
-			"Anyone holding the cage of captivity may attempt to open it as a standard action. If an outsider is trapped within, doing so requires a DC 22 Will save. If a creature fails this save, they cannot open the cage and are repulsed by it for 24 hours as per the antipathy spell. The user who originally captured the imprisoned outsider gains a +5 morale bonus on this save.",
-			"",
-			"Any creature opening a cage of captivity can compel the trapped outsider to perform a service in exchange for its release. The trapped creature is compelled to fulfill this request as geas/quest if the creature opening the cage of captivity knows the creature's true name. If not, this request functions as lesser geas if the trapped outsider has 7 or fewer Hit Dice, or as suggestion if it has more than 7 Hit Dice. These requests ignore any spell resistance of the trapped outsider, but a successful DC 20 Will save negates this effect. Once it performs this service, an outsider can never again be trapped by the same cage of captivity.",
-			"",
-			"Variant cages of captivity may take the form of lamps, bowls, bottles, and similar containers.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, antipathy, binding, geas/quest; **Cost** 80,000 gp"
-		]
-	},
-	"chaos_cutter": {
-		"name": "Chaos Cutter",
-		"sources": [ "Heaven Unleashed" ],
-		"description": [
-			"## Chaos Cutter",
-			"",
-			"{SOURCE Heaven Unleashed/43}  ",
-			"**Aura** strong abjuration and transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 160,000 gp; **Weight** 1200 lbs.",
-			"",
-			"This narrow, sleek sloop is made of an iridescent metal that glows a pale white and is as hard as adamantine. It boasts a single mast with two translucent planar sails and can plow across the tumultuous metaphysical seas of the Maelstrom to reach any plane in the Great Beyond. When not in the Maelstrom, the vehicle acts in all regards as a heavy chariot that hovers 5 feet off the ground instead of standing on a pair of wheels.",
-			"",
-			"When piloted in the Maelstrom, a chaos cutter can fly with a maximum speed of 100 feet and acceleration of 30 feet. Any creature can sail and direct a cutter using its rudder with a successful DC 10 Profession (sailor) check, which can be attempted untrained. Success at this check also counts as success at a Wisdom check to change the direction of gravity (and thus the cutter's trajectory); creatures on a cutter treat gravity as normal while in the vehicle.",
-			"",
-			"A chaos cutter is reinforced with an imperceptible field that protects against planar energies. While on a cutter, a passenger does not need to eat, drink, or breathe, as though it were of the outsider type. Additionally, all creatures on the vehicle are affected by planar adaptation and {spell/protection from chaos}.",
-			"",
-			"A chaos cutter has 175 hit points and is 15 feet long.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, overland flight, planar adaptation, polymorph, {spell/protection from chaos}; **Cost** 80,000 gp"
-		]
-	},
-	"runestone_of_power_9th": {
-		"name": "Runestone of Power (9th)",
-		"copyof": "runestone_of_power_1st"
-	},
-	"cubic_gate": {
-		"name": "Cubic Gate",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Cubic Gate",
-			"",
-			"{SOURCE Ultimate Equipment/290;PRPG Core Rulebook/508}  ",
-			"**Aura** strong conjuration; **CL** 13th  ",
-			"**Slot** none; **Price** 164,000 gp; **Weight** 2 lbs.",
-			"",
-			"This potent magical item is a small cube fashioned from carnelian. Each of the six sides of the cube is keyed to a different plane of existence or dimension, one of which is the Material Plane. The character creating the item chooses the planes to which the other five sides are keyed.",
-			"",
-			"If a side of the cubic gate is pressed once, it opens a gate to a random point on the plane keyed to that side. There is a 10% chance per minute that an outsider from that plane (determine randomly) comes through it looking for food, fun, or trouble. Pressing the side a second time closes the gate. It is impossible to open more than one gate at a time.",
-			"",
-			"If a side is pressed twice in quick succession, the character so doing is transported to a random point on the other plane, along with all creatures in adjacent squares. The other creatures may avoid this fate by succeeding on DC 23 Will saves.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plane shift; **Cost** 82,000 gp"
-		]
-	},
-	"iron_flask": {
-		"name": "Iron Flask",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Iron Flask",
-			"",
-			"{SOURCE Ultimate Equipment/306;PRPG Core Rulebook/521}  ",
-			"**Aura** strong conjuration; **CL** 20th  ",
-			"**Slot** none; **Price** 170,000 gp; **Weight** 1 lb.",
-			"",
-			"These special containers are typically inlaid with runes of silver and stoppered by a brass plug bearing a seal engraved with sigils, glyphs, and special symbols. When the user speaks the command word, he can force any creature from another plane into the container, provided that creature fails a DC 19 Will save. The range of this effect is 60 feet. Only one creature at a time can be so contained. Loosing the stopper frees the captured creature.",
-			"",
-			"The command word can be used only once per day.",
-			"",
-			"If the individual freeing the captured creature speaks the command word, the creature can be forced to serve for 1 hour. If freed without the command word, the creature acts according to its natural inclinations. (It usually attacks the user, unless it perceives a good reason not to.) Any attempt to force the same creature into the flask a second time provides it a +2 bonus on its saving throw and makes it hostile. A purchased bottle is empty, but a newly discovered bottle might contain any of the following:",
-			"",
-			"| d% | Contents |",
-			"| --- | --- |",
-			"| 01-50 | Empty |",
-			"| 51-54 | Large air elemental |",
-			"| 55-58 | Invisible stalker |",
-			"| 59-62 | Large earth elemental |",
-			"| 63-66 | Xorn |",
-			"| 67-70 | Large fire elemental |",
-			"| 71-74 | Salamander |",
-			"| 75-78 | Large water elemental |",
-			"| 79-82 | Xill |",
-			"| 83-85 | Yeth hound |",
-			"| 86 | Demon (shadow) |",
-			"| 87 | Demon (vrock) |",
-			"| 88 | Demon (hezrou) |",
-			"| 89 | Demon (glabrezu) |",
-			"| 90 | Demon (succubus) |",
-			"| 91 | Devil (osyluth) |",
-			"| 92 | Devil (barbazu) |",
-			"| 93 | Devil (erinyes) |",
-			"| 94 | Devil (cornugon) |",
-			"| 95 | Agathion (avoral) |",
-			"| 96 | Azata (ghaele) |",
-			"| 97 | Archon (trumpet) |",
-			"| 98 | Rakshasa |",
-			"| 99 | Demon (balor) |",
-			"| 100 | Devil (pit fiend) |",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, trap the soul; **Cost** 85,000 gp"
-		]
-	},
-	"mirror_of_mental_prowess": {
-		"name": "Mirror of Mental Prowess",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Mirror of Mental Prowess",
-			"",
-			"{SOURCE Ultimate Equipment/311}  ",
-			"**Aura** strong abjuration and divination; **CL** 17th  ",
-			"**Slot** none; **Price** 175,000 gp; **Weight** 40 lbs.",
-			"",
-			"This mirror resembles an ordinary looking glass 5 feet tall by 2 feet wide. A creature who knows the proper commands can cause it to perform as follows.",
-			"",
-			"- Read the thoughts of any creature reflected therein, as long as the creature controlling the mirror is within 25 feet of the mirror, even if those thoughts are in an unknown language.",
-			"- View other places as if with clairvoyance, and the controller can even view locations on other planes if she is sufficiently familiar with them.",
-			"- Use it as a portal to visit other places. The controller first views the place with the clairvoyance function, then steps through the mirror to the place pictured. Others can follow her through the mirror if they like. An invisible portal remains on the other side where she arrives, and she can return through that portal. Once she returns, the portal closes. The portal closes on its own after 24 hours (trapping the user if she's still in the other place), and the user can also close it with a command word. Creatures with Intelligence scores of 12 or higher might notice the portal just as they might notice a magical sensor from a scrying spell. Any creature who steps through the portal appears in front of the mirror.",
-			"- Once per week the mirror accurately answers one short question regarding a creature whose image is shown on its surface (giving answers similar to those from the legend lore spell).",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/clairvoyance, detect thoughts, gate, legend lore; **Cost** 87,500 gp"
-		]
-	},
-	"flying_skiff": {
-		"name": "Flying Skiff",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Flying Skiff",
-			"",
-			"{SOURCE Occult Adventures/257}  ",
-			"**Aura** strong conjuration and abjuration; **CL** 12th  ",
-			"**Slot** none; **Price** 180,000 gp; **Weight** 2,500 lbs.",
-			"",
-			"A flying skiff is a long, flat-bottomed vehicle akin to a naval ship, and is covered in metallic veins. Without a psychic pilot, a flying skiff acts in all regards as a keelboat. A single Large directfire siege engine can be mounted on the front of a flying skiff.",
-			"",
-			"A control helmet that fits a Small, Medium, or Large creature is linked by long, curling cables to the metal veins of the skiff. Whenever a psychic creature (one with levels in an occult class, the Psychic Sensitivity feat, or the ability to use psychic spell-like abilities) wears the control helmet, the flying skiff gains the following abilities.",
-			"",
-			"- The skiff can fly with a maximum speed of 100 feet and acceleration of 30 feet.",
-			"- The skiff gains fast healing 5 when reduced below half its starting hit points. Damage above this threshold must be repaired normally.",
-			"",
-			"Along with the abilities granted to the flying skiff when piloted by a psychic creature, the pilot gains the following additional abilities.",
-			"",
-			"- Anytime the pilot casts one of the following psychic spells, the spell affects the entire crew of the flying skiff: intellect fortress, mental barrier, thought shield, and tower of iron will. This includes all variants of these spells. The effect ends for a creature that departs the skiff before the spell's duration ends.",
-			"- The pilot can aim and fire the siege weapon on the flying skiff with her mind (using the same number of actions this would normally take). This does not grant her the ability to reload the siege weapon with her mind.",
-			"- Once per day, the pilot can take a full-round action to transport the flying skiff and all crew onboard as plane shift.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [intellect fortress III](spell/intellect_fortress_3), [mental barrier III](spell/mental_barrier_3), overland flight, plane shift, [thought shield III](spell/thought_shield_3), [tower of iron will II](spell/tower_of_iron_will_2); **Cost** 90,000 gp"
-		]
-	},
-	"bastion_banner": {
-		"name": "Bastion Banner",
-		"sources": [ "Demon Hunter's Handbook" ],
-		"description": [
-			"## Bastion Banner",
-			"",
-			"{SOURCE Demon Hunter's Handbook/28}  ",
-			"**Aura** moderate varies; **CL** 10th  ",
-			"**Slot** none; **Price** 182,000 gp; **Weight** 3 lbs.",
-			"",
-			"This banner, emblazoned with a good or lawful deity's holy symbol, is meant to be carried and displayed and has no effect when not mounted properly or when lying on the ground. A bastion banner emits a hallow effect in a 40-foot radius around it, so long as it is borne by one true to the religion whose holy symbol graces the banner.",
-			"",
-			"Within the 40-foot radius of its hallow effect, a planted bastion banner secures terrain that would otherwise be unstable, whether due to natural causes (such as a mudslide) or supernatural causes (such as a specific plane's morphic trait). Natural terrain is simply fixed in its current configuration and cannot be altered naturally or magically; a spellcaster attempting to change the terrain affected by a bastion banner (such as with move earth or transmute mud to rock) must make a successful DC 21 caster level check to do so. Unnaturally or magically morphic terrain (such as that on the Abyss) is shaped into a 40-foot sphere with the topmost hemispherical half composed of breathable air and the lower hemispherical half composed of packed earth. This effect only secures basic footing against collapse; it cannot impede moving objects from outside the area (such as rain or an avalanche) or forces that act physically on the soil (such as shovels or tunneling creatures).",
-			"",
-			"When planted, a bastion banner also has a specific spell tied to the hallow effect, as well as an additional effect, both tied to the holy symbol it bears. When a bastion banner affects allies, the allies must worship the same deity as the one portrayed on the banner to benefit from the deity-specific spell and effect, and only as long as they are within 40 feet of the banner. Enemies must also be within 40 feet of the banner to be affected. The spells and effects associated with each deity are:",
-			"",
-			"Abadar: Protection from energy (type is set when banner is planted; renews daily); allies gain a +4 sacred bonus on checks to aid another.",
-			"",
-			"Asmodeus: Cause fear (affects enemies only), and the hallow effect is unhallow instead; allies gain a +2 morale bonus on combat maneuver checks.",
-			"",
-			"Cayden Cailean: Remove fear; whenever allies successfully resist a fear effect, they gain 10 temporary hit points for 1 hour.",
-			"",
-			"Desna: Freedom of movement; once per day, whenever the banner's owner or an ally rolls a d20, the owner of the banner may choose to treat the roll as a natural 20.",
-			"",
-			"Erastil: Invisibility purge; allies gain a +1 morale bonus on damage and attack rolls with ranged weapons.",
-			"",
-			"Iomedae: Death ward; allies gain a +1 morale bonus on damage and attack rolls with melee weapons.",
-			"",
-			"Irori: Resist energy (type is set when banner is planted); allies gain a +2 sacred bonus on saves.",
-			"",
-			"Sarenrae: Daylight; all spells with the fire or light descriptor cast from within the affected area are cast at +1 caster level.",
-			"",
-			"Shelyn: Tongues; allies gain a +2 enhancement bonus to Charisma.",
-			"",
-			"Torag: Dimensional anchor; allies gain a +2 sacred bonus to AC.",
-			"",
-			"Zon-Kuthon: Darkness, and hallow effect is unhallow instead; enemies are sickened.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hallow or unhallow, move earth, additional spell depending on deity, creator must worship the related deity; **Cost** 91,000 gp"
-		]
-	},
-	"silent_aviary": {
-		"name": "Silent Aviary",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Silent Aviary",
-			"",
-			"{SOURCE Lost Treasures/53}  ",
-			"**Aura** strong (all schools); **CL** 20th  ",
-			"**Slot** none; **Price** 195,000 gp; **Weight** -;",
-			"",
-			"The Silent Aviary is a unique harrow deck that features beautiful artwork of songbirds on each card. Anyone who counts the cards while looking at the illustrated fronts sees that the deck has 54 cards. Counting the cards while looking at their backs, however, always produces a card count of 55. The mysterious 55th card is the accursed Cage.",
-			"",
-			"The Silent Aviary functions identically to a standard Harrow Deck of Many Things, except only a single character can draw from it each day, and only a single card can be drawn (although cards that allow or require redraws still function normally). The *deck of many things* can be used to model it instead if preferred (though its total card count is 22 rather than 54). However, unlike most harrow decks, the Silent Aviary offers its user a unique advantage: at any time during the drawing process, the user of the Silent Aviary may choose to immediately replace a drawn card. To do so, the user must simply utter a command phrase, put the rejected card back in the deck, and draw a new card to replace it. Only the effects of the replacement card are realized. However, every time a user rejects a card, he risks replacing it with the Cage card.",
-			"",
-			"Every time a user utters the command phrase, he must attempt a DC 20 Will saving throw. If successful, the user replaces the rejected card as detailed above. However, if he fails the Will saving throw, the replacement card automatically comes up as the Cage. In this instance, the user is sucked into the card, as if she had fallen into a bag of holding. The user is then trapped in an extradimensional space that contains 250 cubic feet of space, 24 hours worth of breathable air, and over a dozen corpses.",
-			"",
-			"A creature trapped in the Cage can escape by using either plane shift or freedom. If the Silent Aviary is destroyed or disenchanted while a creature is trapped in the Cage, the extradimensional space is immediately and permanently sealed, and becomes impossible to escape except with a miracle or wish.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plane shift, wish; **Cost** 97,500 gp"
 		]
 	}
 }

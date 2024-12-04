@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import faiths from './subpages/__faith2';
+import faiths from './subpages/__faith3';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';

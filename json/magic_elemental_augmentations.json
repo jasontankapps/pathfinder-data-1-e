@@ -92,13 +92,13 @@
 			"**Aura** moderate abjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** &mdash;",
 			"",
-			"The recipient's blood is infused with elemental fire. Anyone within 5 feet of the recipient who strikes him with a piercing or slashing weapon takes 1d6 points of fire damage from the recipient's molten blood. The recipient suffers no harm from hot and cold environments as per endure elements, but he takes a -4 penalty on saving throws against effects that cause fatigue or exhaustion.",
+			"The recipient's blood is infused with elemental fire. Anyone within 5 feet of the recipient who strikes him with a piercing or slashing weapon takes 1d6 points of fire damage from the recipient's molten blood. The recipient suffers no harm from hot and cold environments as per {spell/endure elements}, but he takes a -4 penalty on saving throws against effects that cause fatigue or exhaustion.",
 			"",
 			"This elemental augmentation cannot be applied to a creature without blood.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, endure elements, fire shield, creator must have 7 ranks in Knowledge (planes); **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, fire shield, creator must have 7 ranks in Knowledge (planes); **Cost** 4,000 gp"
 		]
 	},
 	"vaporous_lungs": {

@@ -643,7 +643,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, detect snares and pits, endure elements, freedom of movement, longstrider, pass without trace; **Cost** 13,600 gp"
+			"**Requirements** {feat/Craft Staff}, detect snares and pits, {spell/endure elements}, freedom of movement, longstrider, pass without trace; **Cost** 13,600 gp"
 		]
 	},
 	"staff_of_acid": {

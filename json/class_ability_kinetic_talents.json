@@ -2203,7 +2203,7 @@
 			"{SOURCE Occult Adventures/24}  ",
 			"**Element** fire, water; **Type** utility (Sp); **Level** 1; **Burn** 0",
 			"",
-			"You are constantly protected by endure elements against cold temperatures only. You gain cold resistance equal to twice your current amount of burn."
+			"You are constantly protected by {spell/endure elements} against cold temperatures only. You gain cold resistance equal to twice your current amount of burn."
 		]
 	},
 	"cold_snap": {
@@ -2217,7 +2217,7 @@
 			"**Element** water; **Type** utility (Sp); **Level** 3; **Burn** 1  ",
 			"**Prerequisite** cold adaptation, shroud of water",
 			"",
-			"You chill your shroud of water and send the cold around you, creating an aura of numbing cold around yourself. Until the next time your burn is removed, you can begin or end the cold aura at will as a swift action. The temperature in the area 30 feet around you lowers by 5&deg; F per kineticist level you possess, to a minimum modified temperature of -10&deg; F. If this brings the temperature in the area below 40&deg; F, all creatures within 5 feet of you take a -4 penalty to Dexterity. You are immune to these effects, as are creatures that are immune to cold or that benefit from effects that protect against temperature, such as endure elements."
+			"You chill your shroud of water and send the cold around you, creating an aura of numbing cold around yourself. Until the next time your burn is removed, you can begin or end the cold aura at will as a swift action. The temperature in the area 30 feet around you lowers by 5&deg; F per kineticist level you possess, to a minimum modified temperature of -10&deg; F. If this brings the temperature in the area below 40&deg; F, all creatures within 5 feet of you take a -4 penalty to Dexterity. You are immune to these effects, as are creatures that are immune to cold or that benefit from effects that protect against temperature, such as {spell/endure elements}."
 		]
 	},
 	"corpse_puppet": {
@@ -2792,7 +2792,7 @@
 			"{SOURCE Occult Adventures/25}  ",
 			"**Element** fire, water; **Type** utility (Sp); **Level** 1; **Burn** 0",
 			"",
-			"You are constantly protected by endure elements against hot temperatures only. You gain an amount of fire resistance equal to twice your current amount of burn."
+			"You are constantly protected by {spell/endure elements} against hot temperatures only. You gain an amount of fire resistance equal to twice your current amount of burn."
 		]
 	},
 	"heat_wave": {
@@ -2806,7 +2806,7 @@
 			"**Element** fire; **Type** utility (Sp); **Level** 3; **Burn** 1  ",
 			"**Prerequisite** heat adaptation, searing flesh",
 			"",
-			"You create an aura of shimmering heat that distorts the area around you. Until the next time your burn is removed, you can begin or end the heat aura as a swift action. The temperature in the area 30 feet around you rises by 5&deg; F per kineticist level you possess, to a maximum modified temperature of 120&deg; F. If this brings the temperature to at least 90&deg; F, all attacks made by creatures within 5 feet of you suffer a 20% miss chance due to concealment. You are immune to these effects, as are those immune to fire or benefiting from endure elements."
+			"You create an aura of shimmering heat that distorts the area around you. Until the next time your burn is removed, you can begin or end the heat aura as a swift action. The temperature in the area 30 feet around you rises by 5&deg; F per kineticist level you possess, to a maximum modified temperature of 120&deg; F. If this brings the temperature to at least 90&deg; F, all attacks made by creatures within 5 feet of you suffer a 20% miss chance due to concealment. You are immune to these effects, as are those immune to fire or benefiting from {spell/endure elements}."
 		]
 	},
 	"herbal_antivenom": {

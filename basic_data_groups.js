@@ -59,7 +59,8 @@ import blessing from './json/class_ability_blessings.json' assert {type: 'json'}
 import bloodragerbloodline from './json/class_ability_bloodrager_bloodlines.json' assert {type: 'json'};
 import oraclecurse from './json/class_ability_curses.json' assert {type: 'json'};
 import discipline from './json/class_ability_disciplines.json' assert {type: 'json'};
-import domain from './json/class_ability_domains.json' assert {type: 'json'};
+import domain1 from './json/class_ability_domains.json' assert {type: 'json'};
+import domain2 from './json/class_ability_domains2.json' assert {type: 'json'};
 import druidcompanion from './json/class_ability_druid_companions.json' assert {type: 'json'};
 import druiddomain from './json/class_ability_druid_domains.json' assert {type: 'json'};
 import emotionalfocus from './json/class_ability_emotional_focus.json' assert {type: 'json'};
@@ -98,7 +99,8 @@ import techcybertech from './json/equipment_tech_cybertech.json' assert {type: '
 import techmisc from './json/equipment_tech_misc.json' assert {type: 'json'};
 import techpharmaceutical from './json/equipment_tech_pharmaceuticals.json' assert {type: 'json'};
 import techweapon from './json/equipment_tech_weapons.json' assert {type: 'json'};
-import equipmentweapon from './json/equipment_weapons.json' assert {type: 'json'};
+import equipmentweapon1 from './json/equipment_weapons.json' assert {type: 'json'};
+import equipmentweapon2 from './json/equipment_weapons2.json' assert {type: 'json'};
 import equipmentweaponenhancement from './json/equipment_weapon_enhancements.json' assert {type: 'json'};
 import haunt from './json/haunts.json' assert {type: 'json'};
 import infestation from './json/infestations.json' assert {type: 'json'};
@@ -108,7 +110,8 @@ import magicarmor from './json/magic_armor.json' assert {type: 'json'};
 import magicimplant from './json/magic_demonic_implants.json' assert {type: 'json'};
 import magictalisman from './json/magic_devil_talismans.json' assert {type: 'json'};
 import magicaugmentation from './json/magic_elemental_augmentations.json' assert {type: 'json'};
-import magicenhancement from './json/magic_enhancements.json' assert {type: 'json'};
+import magicenhancement1 from './json/magic_enhancements.json' assert {type: 'json'};
+import magicenhancement2 from './json/magic_enhancements2.json' assert {type: 'json'};
 import magicfavor from './json/magic_favor.json' assert {type: 'json'};
 import magicfleshcrafting from './json/magic_fleshcrafting.json' assert {type: 'json'};
 import magicgraft from './json/magic_fungal_grafts.json' assert {type: 'json'};
@@ -137,17 +140,25 @@ import umr from './json/umr.json' assert {type: 'json'};
 import ability1 from './json/class_abilities.json' assert {type: 'json'};
 import ability2 from './json/class_abilities2.json' assert {type: 'json'};
 import ability3 from './json/class_abilities3.json' assert {type: 'json'};
+import ability4 from './json/class_abilities4.json' assert {type: 'json'};
+import ability5 from './json/class_abilities5.json' assert {type: 'json'};
 import classes1 from './json/classes.json' assert {type: 'json'};
 import classes2 from './json/classes2.json' assert {type: 'json'};
 import classes3 from './json/classes3.json' assert {type: 'json'};
 import classes4 from './json/classes4.json' assert {type: 'json'};
+import classes5 from './json/classes5.json' assert {type: 'json'};
+import classes6 from './json/classes6.json' assert {type: 'json'};
 import equipmentmisc1 from './json/equipment_misc.json' assert {type: 'json'};
 import equipmentmisc2 from './json/equipment_misc2.json' assert {type: 'json'};
 import equipmentmisc3 from './json/equipment_misc3.json' assert {type: 'json'};
+import equipmentmisc4 from './json/equipment_misc4.json' assert {type: 'json'};
 import faith1 from './json/faiths.json' assert {type: 'json'};
 import faith2 from './json/faiths2.json' assert {type: 'json'};
 import faith3 from './json/faiths3.json' assert {type: 'json'};
-import family from './json/monsters_families.json' assert {type: 'json'};
+import faith4 from './json/faiths4.json' assert {type: 'json'};
+import faith5 from './json/faiths5.json' assert {type: 'json'};
+import family1 from './json/monsters_families.json' assert {type: 'json'};
+import family2 from './json/monsters_families2.json' assert {type: 'json'};
 import feat1 from './json/feats.json' assert {type: 'json'};
 import feat2 from './json/feats2.json' assert {type: 'json'};
 import feat3 from './json/feats3.json' assert {type: 'json'};
@@ -156,8 +167,13 @@ import feat5 from './json/feats5.json' assert {type: 'json'};
 import feat6 from './json/feats6.json' assert {type: 'json'};
 import feat7 from './json/feats7.json' assert {type: 'json'};
 import feat8 from './json/feats8.json' assert {type: 'json'};
+import feat9 from './json/feats9.json' assert {type: 'json'};
+import feat10 from './json/feats10.json' assert {type: 'json'};
+import feat11 from './json/feats11.json' assert {type: 'json'};
+import feat12 from './json/feats12.json' assert {type: 'json'};
 import magicartifact1 from './json/magic_artifact.json' assert {type: 'json'};
 import magicartifact2 from './json/magic_artifact2.json' assert {type: 'json'};
+import magicartifact3 from './json/magic_artifact3.json' assert {type: 'json'};
 import magicweapon1 from './json/magic_weapon.json' assert {type: 'json'};
 import magicweapon2 from './json/magic_weapon2.json' assert {type: 'json'};
 import magicwondrous1 from './json/magic_wondrous.json' assert {type: 'json'};
@@ -167,6 +183,9 @@ import magicwondrous4 from './json/magic_wondrous4.json' assert {type: 'json'};
 import magicwondrous5 from './json/magic_wondrous5.json' assert {type: 'json'};
 import magicwondrous6 from './json/magic_wondrous6.json' assert {type: 'json'};
 import magicwondrous7 from './json/magic_wondrous7.json' assert {type: 'json'};
+import magicwondrous8 from './json/magic_wondrous8.json' assert {type: 'json'};
+import magicwondrous9 from './json/magic_wondrous9.json' assert {type: 'json'};
+import magicwondrous10 from './json/magic_wondrous10.json' assert {type: 'json'};
 import main1 from './json/main.json' assert {type: 'json'};
 import main2 from './json/main02.json' assert {type: 'json'};
 import main3 from './json/main03.json' assert {type: 'json'};
@@ -188,55 +207,95 @@ import main18 from './json/main18.json' assert {type: 'json'};
 import main19 from './json/main19.json' assert {type: 'json'};
 import main20 from './json/main20.json' assert {type: 'json'};
 import main21 from './json/main21.json' assert {type: 'json'};
-import monster1 from './json/monsters_unique.json' assert {type: 'json'};
-import monster2 from './json/monsters_unique2.json' assert {type: 'json'};
-import monster3 from './json/monsters_unique3.json' assert {type: 'json'};
-import monster4 from './json/mythic_monsters.json' assert {type: 'json'};
-import monster5 from './json/monsters01.json' assert {type: 'json'};
-import monster6 from './json/monsters02.json' assert {type: 'json'};
-import monster7 from './json/monsters03.json' assert {type: 'json'};
-import monster8 from './json/monsters04.json' assert {type: 'json'};
-import monster9 from './json/monsters05.json' assert {type: 'json'};
-import monster10 from './json/monsters06.json' assert {type: 'json'};
-import monster11 from './json/monsters07.json' assert {type: 'json'};
-import monster12 from './json/monsters08.json' assert {type: 'json'};
-import monster13 from './json/monsters09.json' assert {type: 'json'};
-import monster14 from './json/monsters10.json' assert {type: 'json'};
-import monster15 from './json/monsters11.json' assert {type: 'json'};
-import monster16 from './json/monsters12.json' assert {type: 'json'};
-import monster17 from './json/monsters13.json' assert {type: 'json'};
-import monster18 from './json/monsters14.json' assert {type: 'json'};
-import monster19 from './json/monsters15.json' assert {type: 'json'};
-import monster20 from './json/monsters16.json' assert {type: 'json'};
-import monster21 from './json/monsters17.json' assert {type: 'json'};
-import monster22 from './json/monsters18.json' assert {type: 'json'};
-import monster23 from './json/monsters19.json' assert {type: 'json'};
-import monster24 from './json/monsters20.json' assert {type: 'json'};
-import monster25 from './json/monsters21.json' assert {type: 'json'};
-import monster26 from './json/monsters22.json' assert {type: 'json'};
-import monster27 from './json/monsters23.json' assert {type: 'json'};
-import monster28 from './json/monsters24.json' assert {type: 'json'};
-import monster29 from './json/monsters25.json' assert {type: 'json'};
+import main22 from './json/main22.json' assert {type: 'json'};
+import main23 from './json/main23.json' assert {type: 'json'};
+import main24 from './json/main24.json' assert {type: 'json'};
+import main25 from './json/main25.json' assert {type: 'json'};
+import main26 from './json/main26.json' assert {type: 'json'};
+import main27 from './json/main27.json' assert {type: 'json'};
+import main28 from './json/main28.json' assert {type: 'json'};
+import main29 from './json/main29.json' assert {type: 'json'};
+import main30 from './json/main30.json' assert {type: 'json'};
+import main31 from './json/main31.json' assert {type: 'json'};
+import main32 from './json/main32.json' assert {type: 'json'};
+import main33 from './json/main33.json' assert {type: 'json'};
+import main34 from './json/main34.json' assert {type: 'json'};
+import main35 from './json/main35.json' assert {type: 'json'};
+import main36 from './json/main36.json' assert {type: 'json'};
+import main37 from './json/main37.json' assert {type: 'json'};
+import monster1 from './json/monsters01.json' assert {type: 'json'};
+import monster2 from './json/monsters02.json' assert {type: 'json'};
+import monster3 from './json/monsters03.json' assert {type: 'json'};
+import monster4 from './json/monsters04.json' assert {type: 'json'};
+import monster5 from './json/monsters05.json' assert {type: 'json'};
+import monster6 from './json/monsters06.json' assert {type: 'json'};
+import monster7 from './json/monsters07.json' assert {type: 'json'};
+import monster8 from './json/monsters08.json' assert {type: 'json'};
+import monster9 from './json/monsters09.json' assert {type: 'json'};
+import monster10 from './json/monsters10.json' assert {type: 'json'};
+import monster11 from './json/monsters11.json' assert {type: 'json'};
+import monster12 from './json/monsters12.json' assert {type: 'json'};
+import monster13 from './json/monsters13.json' assert {type: 'json'};
+import monster14 from './json/monsters14.json' assert {type: 'json'};
+import monster15 from './json/monsters15.json' assert {type: 'json'};
+import monster16 from './json/monsters16.json' assert {type: 'json'};
+import monster17 from './json/monsters17.json' assert {type: 'json'};
+import monster18 from './json/monsters18.json' assert {type: 'json'};
+import monster19 from './json/monsters19.json' assert {type: 'json'};
+import monster20 from './json/monsters20.json' assert {type: 'json'};
+import monster21 from './json/monsters21.json' assert {type: 'json'};
+import monster22 from './json/monsters22.json' assert {type: 'json'};
+import monster23 from './json/monsters23.json' assert {type: 'json'};
+import monster24 from './json/monsters24.json' assert {type: 'json'};
+import monster25 from './json/monsters25.json' assert {type: 'json'};
+import monster26 from './json/monsters26.json' assert {type: 'json'};
+import monster27 from './json/monsters27.json' assert {type: 'json'};
+import monster28 from './json/monsters28.json' assert {type: 'json'};
+import monster29 from './json/monsters29.json' assert {type: 'json'};
+import monster30 from './json/monsters30.json' assert {type: 'json'};
+import monster31 from './json/monsters31.json' assert {type: 'json'};
+import monster32 from './json/monsters32.json' assert {type: 'json'};
+import monster33 from './json/monsters33.json' assert {type: 'json'};
+import monster34 from './json/monsters34.json' assert {type: 'json'};
+import monster35 from './json/monsters35.json' assert {type: 'json'};
+import monster36 from './json/monsters36.json' assert {type: 'json'};
+import monster37 from './json/monsters37.json' assert {type: 'json'};
+import monster38 from './json/monsters38.json' assert {type: 'json'};
+import monster39 from './json/monsters39.json' assert {type: 'json'};
+import monster40 from './json/monsters40.json' assert {type: 'json'};
+import monster41 from './json/monsters41.json' assert {type: 'json'};
+import monsteru1 from './json/monsters_unique.json' assert {type: 'json'};
+import monsteru2 from './json/monsters_unique2.json' assert {type: 'json'};
+import monsteru3 from './json/monsters_unique3.json' assert {type: 'json'};
+import monsteru4 from './json/monsters_unique4.json' assert {type: 'json'};
+import monsterm1 from './json/mythic_monsters.json' assert {type: 'json'};
+import monsterm2 from './json/mythic_monsters2.json' assert {type: 'json'};
 import template1 from './json/monsters_templates.json' assert {type: 'json'};
 import template2 from './json/monsters_templates2.json' assert {type: 'json'};
+import template3 from './json/monsters_templates3.json' assert {type: 'json'};
 import npc1 from './json/npcs.json' assert {type: 'json'};
 import npc2 from './json/npcs2.json' assert {type: 'json'};
 import npc3 from './json/npcs3.json' assert {type: 'json'};
 import npc4 from './json/npcs4.json' assert {type: 'json'};
+import npc5 from './json/npcs5.json' assert {type: 'json'};
+import npc6 from './json/npcs6.json' assert {type: 'json'};
 import prestigeclass1 from './json/prestige_classes.json' assert {type: 'json'};
 import prestigeclass2 from './json/prestige_classes2.json' assert {type: 'json'};
 import prestigeclass3 from './json/prestige_classes3.json' assert {type: 'json'};
+import prestigeclass4 from './json/prestige_classes4.json' assert {type: 'json'};
 import race1 from './json/races.json' assert {type: 'json'};
 import race2 from './json/races2.json' assert {type: 'json'};
-import rule1 from './json/rules.json' assert {type: 'json'};
-import rule2 from './json/rules2.json' assert {type: 'json'};
-import rule3 from './json/rules3.json' assert {type: 'json'};
-import rule4 from './json/rules4.json' assert {type: 'json'};
-import rule5 from './json/rules5.json' assert {type: 'json'};
-import rule6 from './json/rules6.json' assert {type: 'json'};
-import rule7 from './json/rules7.json' assert {type: 'json'};
-import rule8 from './json/rules8.json' assert {type: 'json'};
-import rule9 from './json/rules9.json' assert {type: 'json'};
+import race3 from './json/races3.json' assert {type: 'json'};
+import race4 from './json/races4.json' assert {type: 'json'};
+import rule1 from './json/rules01.json' assert {type: 'json'};
+import rule2 from './json/rules02.json' assert {type: 'json'};
+import rule3 from './json/rules03.json' assert {type: 'json'};
+import rule4 from './json/rules04.json' assert {type: 'json'};
+import rule5 from './json/rules05.json' assert {type: 'json'};
+import rule6 from './json/rules06.json' assert {type: 'json'};
+import rule7 from './json/rules07.json' assert {type: 'json'};
+import rule8 from './json/rules08.json' assert {type: 'json'};
+import rule9 from './json/rules09.json' assert {type: 'json'};
 import rule10 from './json/rules10.json' assert {type: 'json'};
 import rule11 from './json/rules11.json' assert {type: 'json'};
 import rule12 from './json/rules12.json' assert {type: 'json'};
@@ -257,10 +316,17 @@ import spell8 from './json/spells8.json' assert {type: 'json'};
 import spell9 from './json/spells9.json' assert {type: 'json'};
 import spell10 from './json/spells10.json' assert {type: 'json'};
 import spell11 from './json/spells11.json' assert {type: 'json'};
-import spell12 from './json/occult_rituals.json' assert {type: 'json'};
+import spell12 from './json/spells12.json' assert {type: 'json'};
+import spell13 from './json/spells13.json' assert {type: 'json'};
+import spell14 from './json/spells14.json' assert {type: 'json'};
+import spell15 from './json/spells15.json' assert {type: 'json'};
+import spell16 from './json/spells16.json' assert {type: 'json'};
+import spell17 from './json/occult_rituals.json' assert {type: 'json'};
 import trait1 from './json/traits.json' assert {type: 'json'};
 import trait2 from './json/traits2.json' assert {type: 'json'};
 import trait3 from './json/traits3.json' assert {type: 'json'};
+import trait4 from './json/traits4.json' assert {type: 'json'};
+import trait5 from './json/traits5.json' assert {type: 'json'};
 
 const basic_data_groups = {
 	"skills": {
@@ -270,7 +336,7 @@ const basic_data_groups = {
 		num: 0,
 		type: "Skill"
 	},
-	"rules": {
+	"rules01": {
 		data: rule1,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -279,7 +345,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules2": {
+	"rules02": {
 		data: rule2,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -288,7 +354,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules3": {
+	"rules03": {
 		data: rule3,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -297,7 +363,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules4": {
+	"rules04": {
 		data: rule4,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -306,7 +372,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules5": {
+	"rules05": {
 		data: rule5,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -315,7 +381,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules6": {
+	"rules06": {
 		data: rule6,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -324,7 +390,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules7": {
+	"rules07": {
 		data: rule7,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -333,7 +399,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules8": {
+	"rules08": {
 		data: rule8,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -342,7 +408,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules9": {
+	"rules09": {
 		data: rule9,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -509,6 +575,20 @@ const basic_data_groups = {
 		num: 2,
 		type: "Race"
 	},
+	"races3": {
+		data: race3,
+		searchgroup: 9, // race
+		link: "race",
+		num: 3,
+		type: "Race"
+	},
+	"races4": {
+		data: race4,
+		searchgroup: 9, // race
+		link: "race",
+		num: 4,
+		type: "Race"
+	},
 	"classes": {
 		data: classes1,
 		searchgroup: 1, // classes
@@ -537,6 +617,20 @@ const basic_data_groups = {
 		num: 4,
 		type: "Class"
 	},
+	"classes5": {
+		data: classes5,
+		searchgroup: 1, // classes
+		link: "class",
+		num: 5,
+		type: "Class"
+	},
+	"classes6": {
+		data: classes6,
+		searchgroup: 1, // classes
+		link: "class",
+		num: 6,
+		type: "Class"
+	},
 	"class_abilities": {
 		data: ability1,
 		searchgroup: 1, // classes
@@ -556,6 +650,20 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "ability",
 		num: 3,
+		type: "Class Ability"
+	},
+	"class_abilities4": {
+		data: ability4,
+		searchgroup: 1, // classes
+		link: "ability",
+		num: 4,
+		type: "Class Ability"
+	},
+	"class_abilities5": {
+		data: ability5,
+		searchgroup: 1, // classes
+		link: "ability",
+		num: 5,
 		type: "Class Ability"
 	},
 	"class_ability_arcane_schools": {
@@ -607,11 +715,18 @@ const basic_data_groups = {
 		num: 0,
 		type: "Psychic Discipline"
 	},
-	"class_ability_domains": {
-		data: domain,
+	"class_ability_domains1": {
+		data: domain1,
 		searchgroup: 1, // classes
 		link: "domain",
-		num: 0,
+		num: 1,
+		type: "Cleric Domain"
+	},
+	"class_ability_domains2": {
+		data: domain2,
+		searchgroup: 1, // classes
+		link: "domain",
+		num: 2,
 		type: "Cleric Domain"
 	},
 	"class_ability_druid_companions": {
@@ -782,10 +897,18 @@ const basic_data_groups = {
 		num: 3,
 		type: "Prestige Class"
 	},
+	"prestige_classes4": {
+		data: prestigeclass4,
+		searchgroup: 1, // classes
+		link: "prestigeclass",
+		num: 4,
+		type: "Prestige Class"
+	},
 	"archetypes_alchemist": {
 		data: archetypealchemist,
 		searchgroup: 2, // archetype
 		link: "archetype-alchemist",
+		exportablelink: "archetypealchemist",
 		num: 0,
 		type: "Alchemist Archetype"
 	},
@@ -793,6 +916,7 @@ const basic_data_groups = {
 		data: archetypeantipaladin,
 		searchgroup: 2, // archetype
 		link: "archetype-antipaladin",
+		exportablelink: "archetypeantipaladin",
 		num: 0,
 		type: "Antipaladin Archetype"
 	},
@@ -800,6 +924,7 @@ const basic_data_groups = {
 		data: archetypearcanist,
 		searchgroup: 2, // archetype
 		link: "archetype-arcanist",
+		exportablelink: "archetypearcanist",
 		num: 0,
 		type: "Arcanist Archetype"
 	},
@@ -807,6 +932,7 @@ const basic_data_groups = {
 		data: archetypebarbarian,
 		searchgroup: 2, // archetype
 		link: "archetype-barbarian",
+		exportablelink: "archetypebarbarian",
 		num: 0,
 		type: "Barbarian Archetype"
 	},
@@ -814,6 +940,7 @@ const basic_data_groups = {
 		data: archetypebard,
 		searchgroup: 2, // archetype
 		link: "archetype-bard",
+		exportablelink: "archetypebard",
 		num: 0,
 		type: "Bard Archetype"
 	},
@@ -821,6 +948,7 @@ const basic_data_groups = {
 		data: archetypebloodrager,
 		searchgroup: 2, // archetype
 		link: "archetype-bloodrager",
+		exportablelink: "archetypebloodrager",
 		num: 0,
 		type: "Bloodrager Archetype"
 	},
@@ -828,6 +956,7 @@ const basic_data_groups = {
 		data: archetypebrawler,
 		searchgroup: 2, // archetype
 		link: "archetype-brawler",
+		exportablelink: "archetypebrawler",
 		num: 0,
 		type: "Brawler Archetype"
 	},
@@ -835,6 +964,7 @@ const basic_data_groups = {
 		data: archetypecavalier,
 		searchgroup: 2, // archetype
 		link: "archetype-cavalier",
+		exportablelink: "archetypecavalier",
 		num: 0,
 		type: "Cavalier Archetype"
 	},
@@ -842,6 +972,7 @@ const basic_data_groups = {
 		data: archetypecleric,
 		searchgroup: 2, // archetype
 		link: "archetype-cleric",
+		exportablelink: "archetypecleric",
 		num: 0,
 		type: "Cleric Archetype"
 	},
@@ -849,6 +980,7 @@ const basic_data_groups = {
 		data: archetypecompanion,
 		searchgroup: 2, // archetype
 		link: "archetype-companion",
+		exportablelink: "archetypecompanion",
 		num: 0,
 		type: "Companion Archetype"
 	},
@@ -856,6 +988,7 @@ const basic_data_groups = {
 		data: archetypedruid,
 		searchgroup: 2, // archetype
 		link: "archetype-druid",
+		exportablelink: "archetypedruid",
 		num: 0,
 		type: "Druid Archetype"
 	},
@@ -863,6 +996,7 @@ const basic_data_groups = {
 		data: archetypefamiliar,
 		searchgroup: 2, // archetype
 		link: "archetype-familiar",
+		exportablelink: "archetypefamiliar",
 		num: 0,
 		type: "Familiar Archetype"
 	},
@@ -870,6 +1004,7 @@ const basic_data_groups = {
 		data: archetypefighter,
 		searchgroup: 2, // archetype
 		link: "archetype-fighter",
+		exportablelink: "archetypefighter",
 		num: 0,
 		type: "Fighter Archetype"
 	},
@@ -877,6 +1012,7 @@ const basic_data_groups = {
 		data: archetypegunslinger,
 		searchgroup: 2, // archetype
 		link: "archetype-gunslinger",
+		exportablelink: "archetypegunslinger",
 		num: 0,
 		type: "Gunslinger Archetype"
 	},
@@ -884,6 +1020,7 @@ const basic_data_groups = {
 		data: archetypehunter,
 		searchgroup: 2, // archetype
 		link: "archetype-hunter",
+		exportablelink: "archetypehunter",
 		num: 0,
 		type: "Hunter Archetype"
 	},
@@ -891,6 +1028,7 @@ const basic_data_groups = {
 		data: archetypeinquisitor,
 		searchgroup: 2, // archetype
 		link: "archetype-inquisitor",
+		exportablelink: "archetypeinquisitor",
 		num: 0,
 		type: "Inquisitor Archetype"
 	},
@@ -898,6 +1036,7 @@ const basic_data_groups = {
 		data: archetypeinvestigator,
 		searchgroup: 2, // archetype
 		link: "archetype-investigator",
+		exportablelink: "archetypeinvestigator",
 		num: 0,
 		type: "Investigator Archetype"
 	},
@@ -905,6 +1044,7 @@ const basic_data_groups = {
 		data: archetypekineticist,
 		searchgroup: 2, // archetype
 		link: "archetype-kineticist",
+		exportablelink: "archetypekineticist",
 		num: 0,
 		type: "Kineticist Archetype"
 	},
@@ -912,6 +1052,7 @@ const basic_data_groups = {
 		data: archetypemagus,
 		searchgroup: 2, // archetype
 		link: "archetype-magus",
+		exportablelink: "archetypemagus",
 		num: 0,
 		type: "Magus Archetype"
 	},
@@ -919,6 +1060,7 @@ const basic_data_groups = {
 		data: archetypemedium,
 		searchgroup: 2, // archetype
 		link: "archetype-medium",
+		exportablelink: "archetypemedium",
 		num: 0,
 		type: "Medium Archetype"
 	},
@@ -926,6 +1068,7 @@ const basic_data_groups = {
 		data: archetypemesmerist,
 		searchgroup: 2, // archetype
 		link: "archetype-mesmerist",
+		exportablelink: "archetypemesmerist",
 		num: 0,
 		type: "Mesmerist Archetype"
 	},
@@ -933,6 +1076,7 @@ const basic_data_groups = {
 		data: archetypemonk,
 		searchgroup: 2, // archetype
 		link: "archetype-monk",
+		exportablelink: "archetypemonk",
 		num: 0,
 		type: "Monk Archetype"
 	},
@@ -940,6 +1084,7 @@ const basic_data_groups = {
 		data: archetypeunchained_monk,
 		searchgroup: 2, // archetype
 		link: "archetype-unchained_monk",
+		exportablelink: "archetypeunchained_monk",
 		num: 0,
 		type: "Unchained Monk Archetype"
 	},
@@ -947,6 +1092,7 @@ const basic_data_groups = {
 		data: archetypeninja,
 		searchgroup: 2, // archetype
 		link: "archetype-ninja",
+		exportablelink: "archetypeninja",
 		num: 0,
 		type: "Ninja Archetype"
 	},
@@ -954,6 +1100,7 @@ const basic_data_groups = {
 		data: archetypeoccultist,
 		searchgroup: 2, // archetype
 		link: "archetype-occultist",
+		exportablelink: "archetypeoccultist",
 		num: 0,
 		type: "Occultist Archetype"
 	},
@@ -961,6 +1108,7 @@ const basic_data_groups = {
 		data: archetypeoracle,
 		searchgroup: 2, // archetype
 		link: "archetype-oracle",
+		exportablelink: "archetypeoracle",
 		num: 0,
 		type: "Oracle Archetype"
 	},
@@ -968,6 +1116,7 @@ const basic_data_groups = {
 		data: archetypepaladin,
 		searchgroup: 2, // archetype
 		link: "archetype-paladin",
+		exportablelink: "archetypepaladin",
 		num: 0,
 		type: "Paladin Archetype"
 	},
@@ -975,6 +1124,7 @@ const basic_data_groups = {
 		data: archetypepsychic,
 		searchgroup: 2, // archetype
 		link: "archetype-psychic",
+		exportablelink: "archetypepsychic",
 		num: 0,
 		type: "Psychic Archetype"
 	},
@@ -982,6 +1132,7 @@ const basic_data_groups = {
 		data: archetyperanger,
 		searchgroup: 2, // archetype
 		link: "archetype-ranger",
+		exportablelink: "archetyperanger",
 		num: 0,
 		type: "Ranger Archetype"
 	},
@@ -989,6 +1140,7 @@ const basic_data_groups = {
 		data: archetyperogue,
 		searchgroup: 2, // archetype
 		link: "archetype-rogue",
+		exportablelink: "archetyperogue",
 		num: 0,
 		type: "Rogue Archetype"
 	},
@@ -996,6 +1148,7 @@ const basic_data_groups = {
 		data: archetypesamurai,
 		searchgroup: 2, // archetype
 		link: "archetype-samurai",
+		exportablelink: "archetypesamurai",
 		num: 0,
 		type: "Samurai Archetype"
 	},
@@ -1003,6 +1156,7 @@ const basic_data_groups = {
 		data: archetypeshaman,
 		searchgroup: 2, // archetype
 		link: "archetype-shaman",
+		exportablelink: "archetypeshaman",
 		num: 0,
 		type: "Shaman Archetype"
 	},
@@ -1010,6 +1164,7 @@ const basic_data_groups = {
 		data: archetypeshifter,
 		searchgroup: 2, // archetype
 		link: "archetype-shifter",
+		exportablelink: "archetypeshifter",
 		num: 0,
 		type: "Shifter Archetype"
 	},
@@ -1017,6 +1172,7 @@ const basic_data_groups = {
 		data: archetypeskald,
 		searchgroup: 2, // archetype
 		link: "archetype-skald",
+		exportablelink: "archetypeskald",
 		num: 0,
 		type: "Skald Archetype"
 	},
@@ -1024,6 +1180,7 @@ const basic_data_groups = {
 		data: archetypeslayer,
 		searchgroup: 2, // archetype
 		link: "archetype-slayer",
+		exportablelink: "archetypeslayer",
 		num: 0,
 		type: "Slayer Archetype"
 	},
@@ -1031,6 +1188,7 @@ const basic_data_groups = {
 		data: archetypesorcerer,
 		searchgroup: 2, // archetype
 		link: "archetype-sorcerer",
+		exportablelink: "archetypesorcerer",
 		num: 0,
 		type: "Sorcerer Archetype"
 	},
@@ -1038,6 +1196,7 @@ const basic_data_groups = {
 		data: archetypespiritualist,
 		searchgroup: 2, // archetype
 		link: "archetype-spiritualist",
+		exportablelink: "archetypespiritualist",
 		num: 0,
 		type: "Spiritualist Archetype"
 	},
@@ -1045,6 +1204,7 @@ const basic_data_groups = {
 		data: archetypesummoner,
 		searchgroup: 2, // archetype
 		link: "archetype-summoner",
+		exportablelink: "archetypesummoner",
 		num: 0,
 		type: "Summoner Archetype"
 	},
@@ -1052,6 +1212,7 @@ const basic_data_groups = {
 		data: archetypeunchained_summoner,
 		searchgroup: 2, // archetype
 		link: "archetype-unchained_summoner",
+		exportablelink: "archetypeunchained_summoner",
 		num: 0,
 		type: "Unchained Summoner Archetype"
 	},
@@ -1059,6 +1220,7 @@ const basic_data_groups = {
 		data: archetypeswashbuckler,
 		searchgroup: 2, // archetype
 		link: "archetype-swashbuckler",
+		exportablelink: "archetypeswashbuckler",
 		num: 0,
 		type: "Swashbuckler Archetype"
 	},
@@ -1066,6 +1228,7 @@ const basic_data_groups = {
 		data: archetypevigilante,
 		searchgroup: 2, // archetype
 		link: "archetype-vigilante",
+		exportablelink: "archetypevigilante",
 		num: 0,
 		type: "Vigilante Archetype"
 	},
@@ -1073,6 +1236,7 @@ const basic_data_groups = {
 		data: archetypewarpriest,
 		searchgroup: 2, // archetype
 		link: "archetype-warpriest",
+		exportablelink: "archetypewarpriest",
 		num: 0,
 		type: "Warpriest Archetype"
 	},
@@ -1080,6 +1244,7 @@ const basic_data_groups = {
 		data: archetypewitch,
 		searchgroup: 2, // archetype
 		link: "archetype-witch",
+		exportablelink: "archetypewitch",
 		num: 0,
 		type: "Witch Archetype"
 	},
@@ -1087,6 +1252,7 @@ const basic_data_groups = {
 		data: archetypewizard,
 		searchgroup: 2, // archetype
 		link: "archetype-wizard",
+		exportablelink: "archetypewizard",
 		num: 0,
 		type: "Wizard Archetype"
 	},
@@ -1094,6 +1260,7 @@ const basic_data_groups = {
 		data: equipmentreagent,
 		searchgroup: 6, // equip
 		link: "equipment-reagent",
+		exportablelink: "equipmentreagent",
 		num: 0,
 		type: "Alchemical Reagent"
 	},
@@ -1101,6 +1268,7 @@ const basic_data_groups = {
 		data: equipmentarmor,
 		searchgroup: 6, // equip
 		link: "equipment-armor",
+		exportablelink: "equipmentarmor",
 		num: 0,
 		type: "Armor"
 	},
@@ -1108,6 +1276,7 @@ const basic_data_groups = {
 		data: equipmentarmorenhancement,
 		searchgroup: 6, // equip
 		link: "equipment-armorenhancement",
+		exportablelink: "equipmentarmorenhancement",
 		num: 0,
 		type: "Armor Enhancement"
 	},
@@ -1115,6 +1284,7 @@ const basic_data_groups = {
 		data: equipmentmisc1,
 		searchgroup: 6, // equip
 		link: "equipment-misc",
+		exportablelink: "equipmentmisc",
 		num: 1,
 		type: "Equipment"
 	},
@@ -1122,6 +1292,7 @@ const basic_data_groups = {
 		data: equipmentmisc2,
 		searchgroup: 6, // equip
 		link: "equipment-misc",
+		exportablelink: "equipmentmisc",
 		num: 2,
 		type: "Equipment"
 	},
@@ -1129,13 +1300,23 @@ const basic_data_groups = {
 		data: equipmentmisc3,
 		searchgroup: 6, // equip
 		link: "equipment-misc",
+		exportablelink: "equipmentmisc",
 		num: 3,
+		type: "Equipment"
+	},
+	"equipment_misc4": {
+		data: equipmentmisc4,
+		searchgroup: 6, // equip
+		link: "equipment-misc",
+		exportablelink: "equipmentmisc",
+		num: 4,
 		type: "Equipment"
 	},
 	"equipment_poisons": {
 		data: equipmentpoison,
 		searchgroup: 6, // equip
 		link: "equipment-poison",
+		exportablelink: "equipmentpoison",
 		num: 0,
 		type: "Poison"
 	},
@@ -1143,6 +1324,7 @@ const basic_data_groups = {
 		data: equipmentsiegeengine,
 		searchgroup: 6, // equip
 		link: "equipment-siegeengine",
+		exportablelink: "equipmentsiegeengine",
 		num: 0,
 		type: "Siege Engine"
 	},
@@ -1150,6 +1332,7 @@ const basic_data_groups = {
 		data: equipmentmaterial,
 		searchgroup: 6, // equip
 		link: "equipment-material",
+		exportablelink: "equipmentmaterial",
 		num: 0,
 		type: "Special Material"
 	},
@@ -1157,6 +1340,7 @@ const basic_data_groups = {
 		data: equipmentspellbook,
 		searchgroup: 6, // equip
 		link: "equipment-spellbook",
+		exportablelink: "equipmentspellbook",
 		num: 0,
 		type: "Spellbook"
 	},
@@ -1164,6 +1348,7 @@ const basic_data_groups = {
 		data: techarmor,
 		searchgroup: 7, // tech
 		link: "tech-armor",
+		exportablelink: "techarmor",
 		num: 0,
 		type: "Tech Armor"
 	},
@@ -1171,6 +1356,7 @@ const basic_data_groups = {
 		data: techartifact,
 		searchgroup: 7, // tech
 		link: "tech-artifact",
+		exportablelink: "techartifact",
 		num: 0,
 		type: "Tech Artifact"
 	},
@@ -1178,6 +1364,7 @@ const basic_data_groups = {
 		data: techcybertech,
 		searchgroup: 7, // tech
 		link: "tech-cybertech",
+		exportablelink: "techcybertech",
 		num: 0,
 		type: "Tech Cybertech"
 	},
@@ -1185,6 +1372,7 @@ const basic_data_groups = {
 		data: techmisc,
 		searchgroup: 7, // tech
 		link: "tech-misc",
+		exportablelink: "techmisc",
 		num: 0,
 		type: "Misc. Tech"
 	},
@@ -1192,6 +1380,7 @@ const basic_data_groups = {
 		data: techpharmaceutical,
 		searchgroup: 7, // tech
 		link: "tech-pharmaceutical",
+		exportablelink: "techpharmaceutical",
 		num: 0,
 		type: "Tech Pharmaceutical"
 	},
@@ -1199,20 +1388,31 @@ const basic_data_groups = {
 		data: techweapon,
 		searchgroup: 7, // tech
 		link: "tech-weapon",
+		exportablelink: "techweapon",
 		num: 0,
 		type: "Tech Weapon"
 	},
-	"equipment_weapons": {
-		data: equipmentweapon,
+	"equipment_weapons1": {
+		data: equipmentweapon1,
 		searchgroup: 6, // equip
 		link: "equipment-weapon",
-		num: 0,
+		exportablelink: "equipmentweapon",
+		num: 1,
+		type: "Weapon"
+	},
+	"equipment_weapons2": {
+		data: equipmentweapon2,
+		searchgroup: 6, // equip
+		link: "equipment-weapon",
+		exportablelink: "equipmentweapon",
+		num: 2,
 		type: "Weapon"
 	},
 	"equipment_weapon_enhancements": {
 		data: equipmentweaponenhancement,
 		searchgroup: 6, // equip
 		link: "equipment-weaponenhancement",
+		exportablelink: "equipmentweaponenhancement",
 		num: 0,
 		type: "Weapon Enhancement"
 	},
@@ -1237,6 +1437,20 @@ const basic_data_groups = {
 		num: 3,
 		type: "Trait"
 	},
+	"traits4": {
+		data: trait4,
+		searchgroup: 4, // trait
+		link: "trait",
+		num: 4,
+		type: "Trait"
+	},
+	"traits5": {
+		data: trait5,
+		searchgroup: 4, // trait
+		link: "trait",
+		num: 5,
+		type: "Trait"
+	},
 	"faiths": {
 		data: faith1,
 		searchgroup: 10, // faith
@@ -1256,6 +1470,20 @@ const basic_data_groups = {
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 3,
+		type: "Deity/Faith"
+	},
+	"faiths4": {
+		data: faith4,
+		searchgroup: 10, // faith
+		link: "faith",
+		num: 4,
+		type: "Deity/Faith"
+	},
+	"faiths5": {
+		data: faith5,
+		searchgroup: 10, // faith
+		link: "faith",
+		num: 5,
 		type: "Deity/Faith"
 	},
 	"feats": {
@@ -1314,10 +1542,39 @@ const basic_data_groups = {
 		num: 8,
 		type: "Feat"
 	},
+	"feats9": {
+		data: feat9,
+		searchgroup: 3, // feat
+		link: "feat",
+		num: 9,
+		type: "Feat"
+	},
+	"feats10": {
+		data: feat10,
+		searchgroup: 3, // feat
+		link: "feat",
+		num: 10,
+		type: "Feat"
+	},
+	"feats11": {
+		data: feat11,
+		searchgroup: 3, // feat
+		link: "feat",
+		num: 11,
+		type: "Feat"
+	},
+	"feats12": {
+		data: feat12,
+		searchgroup: 3, // feat
+		link: "feat",
+		num: 12,
+		type: "Feat"
+	},
 	"magic_altar": {
 		data: magicaltar,
 		searchgroup: 5, // magic
 		link: "magic-altar",
+		exportablelink: "magicaltar",
 		num: 0,
 		type: "Magic Altar"
 	},
@@ -1325,6 +1582,7 @@ const basic_data_groups = {
 		data: magicarmor,
 		searchgroup: 5, // magic
 		link: "magic-armor",
+		exportablelink: "magicarmor",
 		num: 0,
 		type: "Magic Armor"
 	},
@@ -1332,6 +1590,7 @@ const basic_data_groups = {
 		data: magicartifact1,
 		searchgroup: 5, // magic
 		link: "magic-artifact",
+		exportablelink: "magicartifact",
 		num: 1,
 		type: "Artifact"
 	},
@@ -1339,13 +1598,23 @@ const basic_data_groups = {
 		data: magicartifact2,
 		searchgroup: 5, // magic
 		link: "magic-artifact",
+		exportablelink: "magicartifact",
 		num: 2,
+		type: "Artifact"
+	},
+	"magic_artifact3": {
+		data: magicartifact3,
+		searchgroup: 5, // magic
+		link: "magic-artifact",
+		exportablelink: "magicartifact",
+		num: 3,
 		type: "Artifact"
 	},
 	"magic_demonic_implants": {
 		data: magicimplant,
 		searchgroup: 5, // magic
 		link: "magic-implant",
+		exportablelink: "magicimplant",
 		num: 0,
 		type: "Demoic Implant"
 	},
@@ -1353,6 +1622,7 @@ const basic_data_groups = {
 		data: magictalisman,
 		searchgroup: 5, // magic
 		link: "magic-talisman",
+		exportablelink: "magictalisman",
 		num: 0,
 		type: "Devil Talisman"
 	},
@@ -1360,20 +1630,31 @@ const basic_data_groups = {
 		data: magicaugmentation,
 		searchgroup: 5, // magic
 		link: "magic-augmentation",
+		exportablelink: "magicaugmentation",
 		num: 0,
 		type: "Elemental Augmentation"
 	},
-	"magic_enhancements": {
-		data: magicenhancement,
+	"magic_enhancements1": {
+		data: magicenhancement1,
 		searchgroup: 5, // magic
 		link: "magic-enhancement",
-		num: 0,
+		exportablelink: "magicenhancement",
+		num: 1,
+		type: "Armor/Weapon Enchantment"
+	},
+	"magic_enhancements2": {
+		data: magicenhancement2,
+		searchgroup: 5, // magic
+		link: "magic-enhancement",
+		exportablelink: "magicenhancement",
+		num: 2,
 		type: "Armor/Weapon Enchantment"
 	},
 	"magic_favor": {
 		data: magicfavor,
 		searchgroup: 5, // magic
 		link: "magic-favor",
+		exportablelink: "magicfavor",
 		num: 0,
 		type: "Court Favor"
 	},
@@ -1381,6 +1662,7 @@ const basic_data_groups = {
 		data: magicfleshcrafting,
 		searchgroup: 5, // magic
 		link: "magic-fleshcrafting",
+		exportablelink: "magicfleshcrafting",
 		num: 0,
 		type: "Fleshcrafting"
 	},
@@ -1388,6 +1670,7 @@ const basic_data_groups = {
 		data: magicgraft,
 		searchgroup: 5, // magic
 		link: "magic-graft",
+		exportablelink: "magicgraft",
 		num: 0,
 		type: "Fungal Graft"
 	},
@@ -1395,6 +1678,7 @@ const basic_data_groups = {
 		data: magicpoison,
 		searchgroup: 5, // magic
 		link: "magic-poison",
+		exportablelink: "magicpoison",
 		num: 0,
 		type: "Infused Poison"
 	},
@@ -1402,6 +1686,7 @@ const basic_data_groups = {
 		data: magicioun,
 		searchgroup: 5, // magic
 		link: "magic-ioun",
+		exportablelink: "magicioun",
 		num: 0,
 		type: "Ioun Stone"
 	},
@@ -1409,6 +1694,7 @@ const basic_data_groups = {
 		data: magicfetish,
 		searchgroup: 5, // magic
 		link: "magic-fetish",
+		exportablelink: "magicfetish",
 		num: 0,
 		type: "Juju Fetish"
 	},
@@ -1416,6 +1702,7 @@ const basic_data_groups = {
 		data: magicnecrograft,
 		searchgroup: 5, // magic
 		link: "magic-necrograft",
+		exportablelink: "magicnecrograft",
 		num: 0,
 		type: "Necrograft"
 	},
@@ -1423,6 +1710,7 @@ const basic_data_groups = {
 		data: magicnecrotoxin,
 		searchgroup: 5, // magic
 		link: "magic-necrotoxin",
+		exportablelink: "magicnecrotoxin",
 		num: 0,
 		type: "Necrotoxin"
 	},
@@ -1430,6 +1718,7 @@ const basic_data_groups = {
 		data: magicplant,
 		searchgroup: 5, // magic
 		link: "magic-plant",
+		exportablelink: "magicplant",
 		num: 0,
 		type: "Magical Plant"
 	},
@@ -1437,6 +1726,7 @@ const basic_data_groups = {
 		data: magicrelic,
 		searchgroup: 5, // magic
 		link: "magic-relic",
+		exportablelink: "magicrelic",
 		num: 0,
 		type: "Relic"
 	},
@@ -1444,6 +1734,7 @@ const basic_data_groups = {
 		data: magicring,
 		searchgroup: 5, // magic
 		link: "magic-ring",
+		exportablelink: "magicring",
 		num: 0,
 		type: "Magic Ring"
 	},
@@ -1451,6 +1742,7 @@ const basic_data_groups = {
 		data: magicrod,
 		searchgroup: 5, // magic
 		link: "magic-rod",
+		exportablelink: "magicrod",
 		num: 0,
 		type: "Magic Rod"
 	},
@@ -1458,6 +1750,7 @@ const basic_data_groups = {
 		data: magicset,
 		searchgroup: 5, // magic
 		link: "magic-set",
+		exportablelink: "magicset",
 		num: 0,
 		type: "Magic Set"
 	},
@@ -1465,6 +1758,7 @@ const basic_data_groups = {
 		data: magicpiercing,
 		searchgroup: 5, // magic
 		link: "magic-piercing",
+		exportablelink: "magicpiercing",
 		num: 0,
 		type: "Shadow Piercing"
 	},
@@ -1472,6 +1766,7 @@ const basic_data_groups = {
 		data: magicstaff,
 		searchgroup: 5, // magic
 		link: "magic-staff",
+		exportablelink: "magicstaff",
 		num: 0,
 		type: "Magic Staff"
 	},
@@ -1479,6 +1774,7 @@ const basic_data_groups = {
 		data: magictattoo,
 		searchgroup: 5, // magic
 		link: "magic-tattoo",
+		exportablelink: "magictattoo",
 		num: 0,
 		type: "Magic Tattoo"
 	},
@@ -1486,6 +1782,7 @@ const basic_data_groups = {
 		data: magicthrone,
 		searchgroup: 5, // magic
 		link: "magic-throne",
+		exportablelink: "magicthrone",
 		num: 0,
 		type: "Magic Throne"
 	},
@@ -1493,6 +1790,7 @@ const basic_data_groups = {
 		data: magicweapon1,
 		searchgroup: 5, // magic
 		link: "magic-weapon",
+		exportablelink: "magicweapon",
 		num: 1,
 		type: "Magic Weapon"
 	},
@@ -1500,6 +1798,7 @@ const basic_data_groups = {
 		data: magicweapon2,
 		searchgroup: 5, // magic
 		link: "magic-weapon",
+		exportablelink: "magicweapon",
 		num: 2,
 		type: "Magic Weapon"
 	},
@@ -1507,6 +1806,7 @@ const basic_data_groups = {
 		data: magicwondrous1,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
 		num: 1,
 		type: "Wondrous Item"
 	},
@@ -1514,6 +1814,7 @@ const basic_data_groups = {
 		data: magicwondrous2,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
 		num: 2,
 		type: "Wondrous Item"
 	},
@@ -1521,6 +1822,7 @@ const basic_data_groups = {
 		data: magicwondrous3,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
 		num: 3,
 		type: "Wondrous Item"
 	},
@@ -1528,6 +1830,7 @@ const basic_data_groups = {
 		data: magicwondrous4,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
 		num: 4,
 		type: "Wondrous Item"
 	},
@@ -1535,6 +1838,7 @@ const basic_data_groups = {
 		data: magicwondrous5,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
 		num: 5,
 		type: "Wondrous Item"
 	},
@@ -1542,6 +1846,7 @@ const basic_data_groups = {
 		data: magicwondrous6,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
 		num: 6,
 		type: "Wondrous Item"
 	},
@@ -1549,7 +1854,32 @@ const basic_data_groups = {
 		data: magicwondrous7,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
 		num: 7,
+		type: "Wondrous Item"
+	},
+	"magic_wondrous8": {
+		data: magicwondrous8,
+		searchgroup: 5, // magic
+		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
+		num: 8,
+		type: "Wondrous Item"
+	},
+	"magic_wondrous9": {
+		data: magicwondrous9,
+		searchgroup: 5, // magic
+		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
+		num: 9,
+		type: "Wondrous Item"
+	},
+	"magic_wondrous10": {
+		data: magicwondrous10,
+		searchgroup: 5, // magic
+		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
+		num: 10,
 		type: "Wondrous Item"
 	},
 	"main01": {
@@ -1699,208 +2029,446 @@ const basic_data_groups = {
 		num: 21,
 		type: "General Info"
 	},
-	"monsters_unique": {
+	"main22": {
+		data: main22,
+		datatype: "main",
+		link: "main",
+		num: 22,
+		type: "General Info"
+	},
+	"main23": {
+		data: main23,
+		datatype: "main",
+		link: "main",
+		num: 23,
+		type: "General Info"
+	},
+	"main24": {
+		data: main24,
+		datatype: "main",
+		link: "main",
+		num: 24,
+		type: "General Info"
+	},
+	"main25": {
+		data: main25,
+		datatype: "main",
+		link: "main",
+		num: 25,
+		type: "General Info"
+	},
+	"main26": {
+		data: main26,
+		datatype: "main",
+		link: "main",
+		num: 26,
+		type: "General Info"
+	},
+	"main27": {
+		data: main27,
+		datatype: "main",
+		link: "main",
+		num: 27,
+		type: "General Info"
+	},
+	"main28": {
+		data: main28,
+		datatype: "main",
+		link: "main",
+		num: 28,
+		type: "General Info"
+	},
+	"main29": {
+		data: main29,
+		datatype: "main",
+		link: "main",
+		num: 29,
+		type: "General Info"
+	},
+	"main30": {
+		data: main30,
+		datatype: "main",
+		link: "main",
+		num: 30,
+		type: "General Info"
+	},
+	"main31": {
+		data: main31,
+		datatype: "main",
+		link: "main",
+		num: 31,
+		type: "General Info"
+	},
+	"main32": {
+		data: main32,
+		datatype: "main",
+		link: "main",
+		num: 32,
+		type: "General Info"
+	},
+	"main33": {
+		data: main33,
+		datatype: "main",
+		link: "main",
+		num: 33,
+		type: "General Info"
+	},
+	"main34": {
+		data: main34,
+		datatype: "main",
+		link: "main",
+		num: 34,
+		type: "General Info"
+	},
+	"main35": {
+		data: main35,
+		datatype: "main",
+		link: "main",
+		num: 35,
+		type: "General Info"
+	},
+	"main36": {
+		data: main36,
+		datatype: "main",
+		link: "main",
+		num: 36,
+		type: "General Info"
+	},
+	"main37": {
+		data: main37,
+		datatype: "main",
+		link: "main",
+		num: 37,
+		type: "General Info"
+	},
+	"monsters01": {
 		data: monster1,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 1,
-		type: "Unique Monster"
+		type: "Monster"
 	},
-	"monsters_unique2": {
+	"monsters02": {
 		data: monster2,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 2,
-		type: "Unique Monster"
+		type: "Monster"
 	},
-	"monsters_unique3": {
+	"monsters03": {
 		data: monster3,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 3,
-		type: "Unique Monster"
+		type: "Monster"
 	},
-	"mythic_monsters": {
+	"monsters04": {
 		data: monster4,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 4,
-		type: "Mythic Monster"
+		type: "Monster"
 	},
-	"monsters01": {
+	"monsters05": {
 		data: monster5,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 5,
 		type: "Monster"
 	},
-	"monsters02": {
+	"monsters06": {
 		data: monster6,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 6,
 		type: "Monster"
 	},
-	"monsters03": {
+	"monsters07": {
 		data: monster7,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 7,
 		type: "Monster"
 	},
-	"monsters04": {
+	"monsters08": {
 		data: monster8,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 8,
 		type: "Monster"
 	},
-	"monsters05": {
+	"monsters09": {
 		data: monster9,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 9,
 		type: "Monster"
 	},
-	"monsters06": {
+	"monsters10": {
 		data: monster10,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 10,
 		type: "Monster"
 	},
-	"monsters07": {
+	"monsters11": {
 		data: monster11,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 11,
 		type: "Monster"
 	},
-	"monsters08": {
+	"monsters12": {
 		data: monster12,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 12,
 		type: "Monster"
 	},
-	"monsters09": {
+	"monsters13": {
 		data: monster13,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 13,
 		type: "Monster"
 	},
-	"monsters10": {
+	"monsters14": {
 		data: monster14,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 14,
 		type: "Monster"
 	},
-	"monsters11": {
+	"monsters15": {
 		data: monster15,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 15,
 		type: "Monster"
 	},
-	"monsters12": {
+	"monsters16": {
 		data: monster16,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 16,
 		type: "Monster"
 	},
-	"monsters13": {
+	"monsters17": {
 		data: monster17,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 17,
 		type: "Monster"
 	},
-	"monsters14": {
+	"monsters18": {
 		data: monster18,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 18,
 		type: "Monster"
 	},
-	"monsters15": {
+	"monsters19": {
 		data: monster19,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 19,
 		type: "Monster"
 	},
-	"monsters16": {
+	"monsters20": {
 		data: monster20,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 20,
 		type: "Monster"
 	},
-	"monsters17": {
+	"monsters21": {
 		data: monster21,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 21,
 		type: "Monster"
 	},
-	"monsters18": {
+	"monsters22": {
 		data: monster22,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 22,
 		type: "Monster"
 	},
-	"monsters19": {
+	"monsters23": {
 		data: monster23,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 23,
 		type: "Monster"
 	},
-	"monsters20": {
+	"monsters24": {
 		data: monster24,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 24,
 		type: "Monster"
 	},
-	"monsters21": {
+	"monsters25": {
 		data: monster25,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 25,
 		type: "Monster"
 	},
-	"monsters22": {
+	"monsters26": {
 		data: monster26,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 26,
 		type: "Monster"
 	},
-	"monsters23": {
+	"monsters27": {
 		data: monster27,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 27,
 		type: "Monster"
 	},
-	"monsters24": {
+	"monsters28": {
 		data: monster28,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 28,
 		type: "Monster"
 	},
-	"monsters25": {
+	"monsters29": {
 		data: monster29,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 29,
 		type: "Monster"
+	},
+	"monsters30": {
+		data: monster30,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 30,
+		type: "Monster"
+	},
+	"monsters31": {
+		data: monster31,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 31,
+		type: "Monster"
+	},
+	"monsters32": {
+		data: monster32,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 32,
+		type: "Monster"
+	},
+	"monsters33": {
+		data: monster33,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 33,
+		type: "Monster"
+	},
+	"monsters34": {
+		data: monster34,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 34,
+		type: "Monster"
+	},
+	"monsters35": {
+		data: monster35,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 35,
+		type: "Monster"
+	},
+	"monsters36": {
+		data: monster36,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 36,
+		type: "Monster"
+	},
+	"monsters37": {
+		data: monster37,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 37,
+		type: "Monster"
+	},
+	"monsters38": {
+		data: monster38,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 38,
+		type: "Monster"
+	},
+	"monsters39": {
+		data: monster39,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 39,
+		type: "Monster"
+	},
+	"monsters40": {
+		data: monster40,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 40,
+		type: "Monster"
+	},
+	"monsters41": {
+		data: monster41,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 41,
+		type: "Monster"
+	},
+	"monsters_unique": {
+		data: monsteru1,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 42,
+		type: "Unique Monster"
+	},
+	"monsters_unique2": {
+		data: monsteru2,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 43,
+		type: "Unique Monster"
+	},
+	"monsters_unique3": {
+		data: monsteru3,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 44,
+		type: "Unique Monster"
+	},
+	"monsters_unique4": {
+		data: monsteru4,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 45,
+		type: "Unique Monster"
+	},
+	"mythic_monsters1": {
+		data: monsterm1,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 46,
+		type: "Mythic Monster"
+	},
+	"mythic_monsters2": {
+		data: monsterm2,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 47,
+		type: "Mythic Monster"
 	},
 	"monster_subtypes": {
 		data: subtype,
@@ -1909,11 +2477,18 @@ const basic_data_groups = {
 		num: 0,
 		type: "Creature Subtype"
 	},
-	"monsters_families": {
-		data: family,
+	"monsters_families1": {
+		data: family1,
 		searchgroup: 11, // monster
 		link: "family",
-		num: 0,
+		num: 1,
+		type: "Monster Family"
+	},
+	"monsters_families2": {
+		data: family2,
+		searchgroup: 11, // monster
+		link: "family",
+		num: 2,
 		type: "Monster Family"
 	},
 	"monsters_templates": {
@@ -1928,6 +2503,13 @@ const basic_data_groups = {
 		searchgroup: 11, // monster
 		link: "template",
 		num: 2,
+		type: "Creature Template"
+	},
+	"monsters_templates3": {
+		data: template3,
+		searchgroup: 11, // monster
+		link: "template",
+		num: 3,
 		type: "Creature Template"
 	},
 	"monster_types": {
@@ -1963,6 +2545,20 @@ const basic_data_groups = {
 		searchgroup: 11, // monster
 		link: "npc",
 		num: 4,
+		type: "NPC"
+	},
+	"npcs5": {
+		data: npc5,
+		searchgroup: 11, // monster
+		link: "npc",
+		num: 5,
+		type: "NPC"
+	},
+	"npcs6": {
+		data: npc6,
+		searchgroup: 11, // monster
+		link: "npc",
+		num: 6,
 		type: "NPC"
 	},
 	"npc_classes": {
@@ -2055,11 +2651,46 @@ const basic_data_groups = {
 		num: 11,
 		type: "Spell"
 	},
-	"occult_rituals": {
+	"spells12": {
 		data: spell12,
 		searchgroup: 8, // spell
 		link: "spell",
 		num: 12,
+		type: "Spell"
+	},
+	"spells13": {
+		data: spell13,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 13,
+		type: "Spell"
+	},
+	"spells14": {
+		data: spell14,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 14,
+		type: "Spell"
+	},
+	"spells15": {
+		data: spell15,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 15,
+		type: "Spell"
+	},
+	"spells16": {
+		data: spell16,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 16,
+		type: "Spell"
+	},
+	"occult_rituals": {
+		data: spell17,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 17,
 		type: "Occult Ritual"
 	},
 	"spell_definitions": {
@@ -2078,6 +2709,12 @@ const basic_data_groups = {
 	}
 };
 
-export default basic_data_groups;
 
-export const allsources = sources;
+export const basic_data_by_link = {};
+Object.values(basic_data_groups).forEach(object => {
+	const {data, link, exportablelink} = object;
+	const info = {...(basic_data_by_link[exportablelink || link] || {}), ...data};
+	basic_data_by_link[exportablelink || link] = info;
+});
+
+export default basic_data_groups;

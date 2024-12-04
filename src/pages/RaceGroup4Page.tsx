@@ -1,0 +1,31 @@
+import { getGuaranteedItem } from '../components/getItem';
+import races from './subpages/__race4';
+import { HierarchyArray } from '../types';
+import BasicPage from './BasicPage';
+import './Page.css';
+
+const hierarchy: HierarchyArray = [["Main", "main/main"], ["Races", "main/races"]];
+
+type Data = typeof races;
+
+interface RaceProps {
+	id: string,
+};
+
+const RaceGroup4Page: React.FC<RaceProps> = ({id}) => {
+
+	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem((id as keyof Data), races);
+
+	const pageId = "race--" + id;
+
+	return (
+		<BasicPage
+			pageId={pageId}
+			title={title}
+			hierarchy={[...hierarchy, ...subhierarchy]}
+			sources={sources}
+		>{jsx}</BasicPage>
+	);
+};
+
+export default RaceGroup4Page;

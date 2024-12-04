@@ -1,29 +1,27 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import magic from './subpages/__magic-enhancement';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_magic-enhancement.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Magic Items", "main/magic"], ["Magical Enhancements", "main/magic_enhancements"]];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof magic;
+const MagicEnhancementGroup1Page = lazy(() => import("./MagicEnhancementGroup1Page"));
+const MagicEnhancementGroup2Page = lazy(() => import("./MagicEnhancementGroup2Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <MagicEnhancementGroup1Page id={id} />,
+	({id}: {id: string}) => <MagicEnhancementGroup2Page id={id} />,
+]
 
-const MagicPage: React.FC = () => {
+const MagicEnhancementPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, magic);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage
-		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
-		sources={sources}
-		pageId={"magic-enhancement--" + id}
-		topLink={["Magical Enhancements", "main/magic_enhancements"]}
-	>{jsx}</BasicPage>;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
+
 };
 
-export default MagicPage;
+export default MagicEnhancementPage;

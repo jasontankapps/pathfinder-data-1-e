@@ -12,7 +12,7 @@ interface SpellProps {
 	id: string,
 };
 
-const OccultRitualGroup12Page: React.FC<SpellProps> = ({id}) => {
+const SpellGroup12Page: React.FC<SpellProps> = ({id}) => {
 
 	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), spells);
 
@@ -24,4 +24,4 @@ const OccultRitualGroup12Page: React.FC<SpellProps> = ({id}) => {
 	>{jsx}</BasicPage>;
 };
 
-export default OccultRitualGroup12Page;
+export default SpellGroup12Page;

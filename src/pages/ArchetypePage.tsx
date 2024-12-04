@@ -3,7 +3,6 @@ import { useParams } from 'react-router';
 import Loading from '../Loading';
 import './Page.css';
 
-const ArchetypeGroup0Page = lazy(() => import("./ArchetypeGroup0Page"));
 const ArchetypeGroup1Page = lazy(() => import("./ArchetypeGroup1Page"));
 const ArchetypeGroup2Page = lazy(() => import("./ArchetypeGroup2Page"));
 const ArchetypeGroup3Page = lazy(() => import("./ArchetypeGroup3Page"));
@@ -13,9 +12,12 @@ const ArchetypeGroup6Page = lazy(() => import("./ArchetypeGroup6Page"));
 const ArchetypeGroup7Page = lazy(() => import("./ArchetypeGroup7Page"));
 const ArchetypeGroup8Page = lazy(() => import("./ArchetypeGroup8Page"));
 const ArchetypeGroup9Page = lazy(() => import("./ArchetypeGroup9Page"));
+const ArchetypeGroup10Page = lazy(() => import("./ArchetypeGroup10Page"));
+const ArchetypeGroup11Page = lazy(() => import("./ArchetypeGroup11Page"));
+const ArchetypeGroup12Page = lazy(() => import("./ArchetypeGroup12Page"));
+const ArchetypeGroup13Page = lazy(() => import("./ArchetypeGroup13Page"));
 
 const pages = [
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup0Page id={id} parent={parent} title={title} />,
 	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup1Page id={id} parent={parent} title={title} />,
 	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup2Page id={id} parent={parent} title={title} />,
 	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup3Page id={id} parent={parent} title={title} />,
@@ -24,17 +26,14 @@ const pages = [
 	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup6Page id={id} parent={parent} title={title} />,
 	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup7Page id={id} parent={parent} title={title} />,
 	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup8Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup9Page id={id} parent={parent} title={title} />
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup9Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup10Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup11Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup12Page id={id} parent={parent} title={title} />,
+	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup13Page id={id} parent={parent} title={title} />
 ];
 
 const classes: { [key: string]: [number, string] } = {
-	cavalier: [0, "Cavalier"],
-	fighter: [0, "Fighter"],
-	investigator: [0, "Investigator"],
-
-	bloodrager: [1, "Bloodrager"],
-	gunslinger: [1, "Gunslinger"],
-	hunter: [1, "Hunter"],
 	monk: [1, "Monk"],
 	samurai: [1, "Samurai"],
 
@@ -54,11 +53,8 @@ const classes: { [key: string]: [number, string] } = {
 	occultist: [4, "Occultist"],
 	oracle: [4, "Oracle"],
 
-	psychic: [5, "Psychic"],
 	ranger: [5, "Ranger"],
-	shifter: [5, "Shifter"],
-	slayer: [5, "Slayer"],
-	spiritualist: [5, "Spiritualist"],
+	bloodrager: [5, "Bloodrager"],
 
 	alchemist: [6, "Alchemist"],
 	antipaladin: [6, "Antipaladin"],
@@ -80,7 +76,21 @@ const classes: { [key: string]: [number, string] } = {
 	druid: [9, "Druid"],
 	medium: [9, "Medium"],
 	ninja: [9, "Ninja"],
-	wizard: [9, "Wizard"]
+	wizard: [9, "Wizard"],
+
+	fighter: [10, "Fighter"],
+	psychic: [10, "Psychic"],
+
+	cavalier: [11, "Cavalier"],
+	slayer: [11, "Slayer"],
+
+	investigator: [12, "Investigator"],
+	spiritualist: [12, "Spiritualist"],
+
+	gunslinger: [13, "Gunslinger"],
+	hunter: [13, "Hunter"],
+	shifter: [13, "Shifter"]
+
 };
 
 type Params = { id?: string, parent?: string };

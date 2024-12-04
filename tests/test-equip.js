@@ -1,28 +1,41 @@
-import ar from '../json/equipment_alchemical_reagents.json' assert {type: 'json'};
-import armor from '../json/equipment_armor.json' assert {type: 'json'};
-import ae from '../json/equipment_armor_enhancements.json' assert {type: 'json'};
-import misc1 from '../json/equipment_misc.json' assert {type: 'json'};
-import misc2 from '../json/equipment_misc2.json' assert {type: 'json'};
-import misc3 from '../json/equipment_misc3.json' assert {type: 'json'};
-import poi from '../json/equipment_poisons.json' assert {type: 'json'};
-import se from '../json/equipment_siege_engines.json' assert {type: 'json'};
-import sm from '../json/equipment_special_materials.json' assert {type: 'json'};
-import sb from '../json/equipment_spellbooks.json' assert {type: 'json'};
-import ta from '../json/equipment_tech_armor.json' assert {type: 'json'};
-import tf from '../json/equipment_tech_artifacts.json' assert {type: 'json'};
-import tc from '../json/equipment_tech_cybertech.json' assert {type: 'json'};
-import tm from '../json/equipment_tech_misc.json' assert {type: 'json'};
-import tp from '../json/equipment_tech_pharmaceuticals.json' assert {type: 'json'};
-import tw from '../json/equipment_tech_weapons.json' assert {type: 'json'};
-import weap from '../json/equipment_weapons.json' assert {type: 'json'};
-import we from '../json/equipment_weapon_enhancements.json' assert {type: 'json'};
+import { basic_data_by_link } from '../basic_data_groups.js';
+
+const {
+	equipmentreagent,
+	equipmentarmor,
+	equipmentarmorenhancement,
+	equipmentmisc,
+	equipmentpoison,
+	equipmentsiegeengine,
+	equipmentmaterial,
+	equipmentspellbook,
+	techarmor,
+	techartifact,
+	techcybertech,
+	techmisc,
+	techpharmaceutical,
+	techweapon,
+	equipmentweapon,
+	equipmentweaponenhancement
+} = basic_data_by_link;
 
 const equipment = [
-	ar,
-	armor,
-	ae, {...misc1, ...misc2, ...misc3}, poi, se, sm, sb,
-	ta, tf, tc, tm, tp, tw,
-	weap, we
+	equipmentreagent,
+	equipmentarmor,
+	equipmentarmorenhancement,
+	equipmentmisc,
+	equipmentpoison,
+	equipmentsiegeengine,
+	equipmentmaterial,
+	equipmentspellbook,
+	techarmor,
+	techartifact,
+	techcybertech,
+	techmisc,
+	techpharmaceutical,
+	techweapon,
+	equipmentweapon,
+	equipmentweaponenhancement
 ];
 
 const whats = [

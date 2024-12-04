@@ -26,7 +26,7 @@ interface ArchetypeProps {
 
 const ArchetypeGroup7Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
 
-	const arches: Data = {...archetypes};
+	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
 	const pageId = `archetype-${parent}--${id}`;

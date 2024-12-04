@@ -12,7 +12,7 @@ interface MagicProps {
 	id: string,
 };
 
-const MagicWeaponGroup2Page: React.FC<MagicProps> = ({id}) => {
+const MagicArtifactGroup2Page: React.FC<MagicProps> = ({id}) => {
 
 	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), magic_artifacts);
 
@@ -25,4 +25,4 @@ const MagicWeaponGroup2Page: React.FC<MagicProps> = ({id}) => {
 	>{jsx}</BasicPage>;
 };
 
-export default MagicWeaponGroup2Page;
+export default MagicArtifactGroup2Page;

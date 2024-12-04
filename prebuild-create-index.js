@@ -1,9 +1,6 @@
 import fs from 'fs';
 import basic_data_groups from './basic_data_groups.js';
 
-const read = (file) => fs.readFileSync(file, 'utf8');
-
-const GET = (file, joiner = " ") => JSON.parse(read("./src/json/" + file).replace(/\r/g, "").replace(/ *\n */g, joiner));
 const searchgroups = [
 	"class", // 1
 	"archetype", // 2

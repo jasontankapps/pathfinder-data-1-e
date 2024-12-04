@@ -13,6 +13,9 @@ const MagicWondrousGroup4Page = lazy(() => import("./MagicWondrousGroup4Page"));
 const MagicWondrousGroup5Page = lazy(() => import("./MagicWondrousGroup5Page"));
 const MagicWondrousGroup6Page = lazy(() => import("./MagicWondrousGroup6Page"));
 const MagicWondrousGroup7Page = lazy(() => import("./MagicWondrousGroup7Page"));
+const MagicWondrousGroup8Page = lazy(() => import("./MagicWondrousGroup8Page"));
+const MagicWondrousGroup9Page = lazy(() => import("./MagicWondrousGroup9Page"));
+const MagicWondrousGroup10Page = lazy(() => import("./MagicWondrousGroup10Page"));
 
 const pages = [
 	({id}: {id: string}) => <MagicWondrousGroup1Page id={id} />,
@@ -22,6 +25,9 @@ const pages = [
 	({id}: {id: string}) => <MagicWondrousGroup5Page id={id} />,
 	({id}: {id: string}) => <MagicWondrousGroup6Page id={id} />,
 	({id}: {id: string}) => <MagicWondrousGroup7Page id={id} />,
+	({id}: {id: string}) => <MagicWondrousGroup8Page id={id} />,
+	({id}: {id: string}) => <MagicWondrousGroup9Page id={id} />,
+	({id}: {id: string}) => <MagicWondrousGroup10Page id={id} />,
 ]
 
 const MagicWondrousPage: React.FC = () => {

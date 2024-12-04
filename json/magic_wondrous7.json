@@ -372,7 +372,14 @@
 			"",
 			"This cloak comes in eight varieties - one for each school of magic. The cloak grants its wearer the ability to use a certain number of spells on command (caster level 1st) based on its school of magic. It also grants the wearer the ability to use prestidigitation on command and at will.",
 			"",
-			"Abjuration: at will-resistance; 1/day-endure elements, shield Conjuration: at will-acid splash; 1/day-mage armor, unseen servant Divination: at will-{spell/detect magic}; 1/day-detect secret doors, true strike Enchantment: at will-daze; 1/day-charm person, sleep Evocation: at will-light; 1/day-floating disk, magic missile Illusion: at will-ghost sound; 1/day-color spray, silent image Necromancy: at will-touch of fatigue; 1/day-cause fear, ray of enfeeblement Transmutation: at will-mage hand; 1/day-enlarge person, expeditious retreat",
+			"- Abjuration: at will-resistance; 1/day-endure elements, shield",
+			"- Conjuration: at will-acid splash; 1/day-mage armor, unseen servant",
+			"- Divination: at will-{spell/detect magic}; 1/day-detect secret doors, true strike",
+			"- Enchantment: at will-daze; 1/day-charm person, sleep",
+			"- Evocation: at will-light; 1/day-floating disk, magic missile",
+			"- Illusion: at will-ghost sound; 1/day-color spray, silent image",
+			"- Necromancy: at will-touch of fatigue; 1/day-cause fear, ray of enfeeblement",
+			"- Transmutation: at will-mage hand; 1/day-enlarge person, expeditious retreat",
 			"",
 			"### Construction",
 			"",
@@ -392,7 +399,7 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 2,500 gp; **Weight** 1 lb.",
 			"",
-			"This dark hooded cloak is decorated with embroidered comets, moons, and stars along its edge. If the wearer sleeps while wearing the cloak, it protects him from hot and cold environments, as endure elements, and the wearer can sleep in medium armor without becoming fatigued. The wearer can use know direction once per day.",
+			"This dark hooded cloak is decorated with embroidered comets, moons, and stars along its edge. If the wearer sleeps while wearing the cloak, it protects him from hot and cold environments, as {spell/endure elements}, and the wearer can sleep in medium armor without becoming fatigued. The wearer can use know direction once per day.",
 			"",
 			"If Desna is the wearer's patron, as a standard action the wearer can cause additional celestial bodies to appear on the cloak so that they match the current configuration in the sky above the wearer. The wearer can use longstrider once per day. Once per day, the wearer can throw a tiny, white-burning meteor that acts as a flare effect. Some priests of Desna claim to have cloaks of this type that also allow them to travel from shadow to shadow when under a starry night sky.",
 			"",
@@ -758,7 +765,7 @@
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** shoulders; **Price** 4,000 gp; **Weight** 5 lbs.",
 			"",
-			"This heavy cloak is crafted from shaggy white yeti fur. When the cloak's hood is pulled up over the wearer's head, it takes on a semblance of its arctic namesake's fearsome visage. Northern warriors value its ability to ward against the chill of winter, as well as the protection it provides in combat. The cloak of the yeti provides a constant endure elements effect in cold weather (it has no effect in hot weather). In battle, the cloak wraps around the wearer, granting a +1 natural armor bonus. In addition, with the hood drawn over the wearer's head, the cloak grants a +2 competence bonus on Intimidate skill checks.",
+			"This heavy cloak is crafted from shaggy white yeti fur. When the cloak's hood is pulled up over the wearer's head, it takes on a semblance of its arctic namesake's fearsome visage. Northern warriors value its ability to ward against the chill of winter, as well as the protection it provides in combat. The cloak of the yeti provides a constant {spell/endure elements} effect in cold weather (it has no effect in hot weather). In battle, the cloak wraps around the wearer, granting a +1 natural armor bonus. In addition, with the hood drawn over the wearer's head, the cloak grants a +2 competence bonus on Intimidate skill checks.",
 			"",
 			"### Construction",
 			"",
@@ -878,7 +885,7 @@
 			"",
 			"The wearer also gains a +2 competence bonus on Intimidate checks. This bonus increases to +5 while the pauldrons cast blue light.",
 			"",
-			"The wearer of the Iron Guard pauldrons gains the benefits of endure elements, but only for cold temperatures.",
+			"The wearer of the Iron Guard pauldrons gains the benefits of {spell/endure elements}, but only for cold temperatures.",
 			"",
 			"### Construction",
 			"",
@@ -1524,7 +1531,7 @@
 			"**Aura** moderate abjuration; **CL** 6th  ",
 			"**Slot** shoulders; **Price** 13,800 gp; **Weight** 1 lb.",
 			"",
-			"Not all who board Ulfen longships or travel the paths of Kellid mammoth hunters are capable warriors, even though they may be just as brave. A cloak of the saga keeper is made from layers of fox fur and leather cut in strips reminiscent of fluttering lengths of scroll. Seven of these strips are dyed vibrant red. The wearer of the cloak constantly benefits from the effects of endure elements while in cold conditions, and gains resist energy 2 against cold damage. Additionally, the wearer of the cloak can, as an immediate action, pluck one of the cloak's seven dyed strips to gain a +6 bonus to a Climb, Handle Animal, Ride, Survival, or Swim check made that round. These strips dissolve immediately upon being plucked. Once all seven of the cloak's strips have been torn off, the wearer can no longer maker use of the cloak's skill-improving effects, but continues to benefit from the endure elements and resistance abilities.",
+			"Not all who board Ulfen longships or travel the paths of Kellid mammoth hunters are capable warriors, even though they may be just as brave. A cloak of the saga keeper is made from layers of fox fur and leather cut in strips reminiscent of fluttering lengths of scroll. Seven of these strips are dyed vibrant red. The wearer of the cloak constantly benefits from the effects of {spell/endure elements} while in cold conditions, and gains resist energy 2 against cold damage. Additionally, the wearer of the cloak can, as an immediate action, pluck one of the cloak's seven dyed strips to gain a +6 bonus to a Climb, Handle Animal, Ride, Survival, or Swim check made that round. These strips dissolve immediately upon being plucked. Once all seven of the cloak's strips have been torn off, the wearer can no longer maker use of the cloak's skill-improving effects, but continues to benefit from the endure elements and resistance abilities.",
 			"",
 			"### Construction",
 			"",
@@ -1686,7 +1693,7 @@
 			"**Aura** faint abjuration and necromancy; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 15,600 gp; **Weight** 1 lb.",
 			"",
-			"A favored cloak of rangers, this cloak is a patchwork of hides and fur. Comfort's cloak grants a constant endure elements effect to the wearer, and grants a +4 competence bonus to saves against disease, energy drain, effects that cause fatigue or exhaustion, and poisons. Furthermore, while the wearer is resting he regains twice his Hit Dice in hit points for 8 hours of rest instead of the typical 1 hit point per Hit Die. When taking a full 24 hours of rest, the character regains 5 times his Hit Dice in hit points instead of twice his Hit Dice in hit points.",
+			"A favored cloak of rangers, this cloak is a patchwork of hides and fur. Comfort's cloak grants a constant {spell/endure elements} effect to the wearer, and grants a +4 competence bonus to saves against disease, energy drain, effects that cause fatigue or exhaustion, and poisons. Furthermore, while the wearer is resting he regains twice his Hit Dice in hit points for 8 hours of rest instead of the typical 1 hit point per Hit Die. When taking a full 24 hours of rest, the character regains 5 times his Hit Dice in hit points instead of twice his Hit Dice in hit points.",
 			"",
 			"### Construction",
 			"",
@@ -3382,15 +3389,15 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** wrist; **Price** 14,400 gp (Efreeti), 18,900 gp (Djinni), 18,900 gp (Marid), 18,900 gp (Shaitan); **Weight** 3 lbs.",
 			"",
-			"These bracers are decorated with icons representing air, earth, fire, or water, and depictions of genies appropriate to that element. The item protects the wearer against hot and cold environments as if she were using endure elements The vambraces' materials and other powers depend on their associated genie type.",
+			"These bracers are decorated with icons representing air, earth, fire, or water, and depictions of genies appropriate to that element. The item protects the wearer against hot and cold environments as if she were using {spell/endure elements} The vambraces' materials and other powers depend on their associated genie type.",
 			"",
-			"Djinni: These mithral bracers allow the wearer to use gaseous form, invisibility, and wind wall each once per day.",
-			"",
-			"Efreeti: These scorched bronze bracers allow the wearer to use invisibility (self only), produce flame, and pyrotechnics each once per day.",
-			"",
-			"Marid: These coral bracers allow the wearer to use hydraulic torrent, invisibility, and water breathing each once per day.",
-			"",
-			"Shaitan: These adamantine bracers allow the wearer to use glitterdust, meld into stone, and stone shape each once per day.",
+			">*Djinni:* These mithral bracers allow the wearer to use gaseous form, invisibility, and wind wall each once per day.",
+			">",
+			">*Efreeti:* These scorched bronze bracers allow the wearer to use invisibility (self only), produce flame, and pyrotechnics each once per day.",
+			">",
+			">*Marid:* These coral bracers allow the wearer to use hydraulic torrent, invisibility, and water breathing each once per day.",
+			">",
+			">*Shaitan:* These adamantine bracers allow the wearer to use glitterdust, meld into stone, and stone shape each once per day.",
 			"",
 			"### Construction",
 			"",
@@ -4931,465 +4938,6 @@
 			"### Construction",
 			"",
 			"**Requirements** mirror of life trapping, mirror of opposition; **Cost** -"
-		]
-	},
-	"monkeys_paw_cursed": {
-		"name": "Monkey's Paw (cursed)",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Monkey's Paw",
-			"",
-			"{SOURCE Occult Adventures/267}  ",
-			"**Aura** strong universal; **CL** 20th  ",
-			"**Slot** none; **Weight** 1/2 lb.",
-			"",
-			"This mummified monkey's hand bears the power to grant three wishes, but at a terrible cost. The paw can grant any request within the power of a wish spell, but the paw's curse twists the results to bring about despair. For example, a wish to prevent an erupting volcano from burying a town might drain the magma vault beneath the volcano, resulting in the town being swallowed up in a sinkhole when the vault collapses into a caldera. Careful wording to avoid negative effects simply results in the attempt failing without expending a wish. When the monkey's paw grants a wish, it writhes in the holder's grasp.",
-			"",
-			"Once the third wish of a monkey's paw is used, it loses its power for those who used the wishes and their acquaintances, but regains its power once passed on to a stranger.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** none; this is a unique cursed item; **Cost** -"
-		]
-	},
-	"necklace_of_strangulation": {
-		"name": "Necklace of Strangulation",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Necklace of Strangulation",
-			"",
-			"{SOURCE Ultimate Equipment/347;PRPG Core Rulebook/541}",
-			"",
-			"**Aura** strong conjuration; **CL** 18th  ",
-			"**Slot** neck; **Weight** -",
-			"",
-			"A necklace of strangulation appears to be a wondrous piece of magical jewelry. When placed on the neck, the necklace immediately tightens, dealing 6 points of damage per round. It cannot be removed by any means short of a limited wish, wish, or miracle, and remains clasped around the victim's throat even after his death. Only when he has decayed to a dry skeleton (after approximately 1 month) does the necklace loosen, ready for another victim.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** necklace of adaptation, necklace of fireballs, periapt of health, periapt of proof against poison, periapt of wound closure; **Cost** -"
-		]
-	},
-	"needful_doll": {
-		"name": "Needful Doll",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"## Needful Doll",
-			"",
-			"{SOURCE Horror Adventures/226}  ",
-			"**Aura** strong conjuration and illusion; **CL** 13th  ",
-			"**Slot** none; **Weight** 1 lb.",
-			"",
-			"When a humanoid creature picks up this ugly old doll, he triggers a horrible curse. Thereafter, the cursed doll considers that creature its owner. If the owner leaves the doll, it appears next to him the next time he sleeps.",
-			"",
-			"The doll is vindictive. If the owner repeatedly tries to get rid of it or leaves it behind at home, it torments him with terrible nightmares in which everyone he trusts abandons him. If the owner destroys the doll, he has disturbing nightmares in which people he trusts murder him in gruesome ways. If the owner keeps the doll in a backpack or other closed container for much of the day, he has nightmares in which he slowly suffocates in a dark, cramped place.",
-			"",
-			"The nightmares occur the next time the owner sleeps. This functions as per nightmare (DC 22); the doll is considered to have firsthand knowledge of the owner (or familiar knowledge if the owner has owned the doll for more than a week) and to have a body part. Regardless of how the owner abandons or destroys the doll, it returns the next night in the same condition as when the owner first found it. Using break enchantment or remove curse on the doll makes it unable to return for 1d4+1 days, though at that point, it returns as usual.",
-			"",
-			"The doll is quick to forgive, however. If the owner treats it well for a day, carrying it openly and maintaining physical contact, the nightmares fade away until the doll feels that it has been mistreated again. The only certain way to get rid of or destroy the doll (short of miracle or wish) is to find someone who accepts it as a gift. If the owner dies, the curse is lifted, and the doll patiently waits until a new owner finds it, though if the previous owner returns from the dead before that time, the doll returns to his side.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** anatomy doll, ganji doll, hexing doll; **Cost** -"
-		]
-	},
-	"one_way_window_cursed": {
-		"name": "One-Way Window (cursed)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
-		"description": [
-			"## One-Way Window (cursed)",
-			"",
-			"{SOURCE Ultimate Equipment/348;Advanced Player's Guide/310}",
-			"",
-			"**Aura** faint divination; **CL** 5th  ",
-			"**Slot** none; **Weight** 1 lb.",
-			"",
-			"This small, 6-inch-square glass tablet grows to a 6-foot by 3-foot window if placed on any sufficiently large vertical surface and returns to its original size if removed. The window melds ever so slightly into the surface, allowing it to ignore minor protrusions, curves, or anything else that would normally make it difficult to simply lay down a pane of glass.",
-			"",
-			"On command, the front of this glass displays all activities on the other side of this surface like a window, piercing wood, earth, or stone up to 10 feet deep, but not metal. The window does not reveal its existence to non-hostile creatures depicted within it, allowing observers to study them at their leisure.",
-			"",
-			"However, once the owner of the window uses it to spy on hostile creatures, its curse activates. From that moment on, the window presents its owner and anyone looking through the window with an artificial image of the other side designed to lull them into a sense of false confidence; enemies appear sleeping or drunk, pits have obvious plank bridges for easy crossing, and so on. While presenting this image to those in front of the mirror, it reveals those viewers to the enemies being observed, creating a two-way window; however, viewed creatures see those using the mirror accurately and can read their thoughts as if using {spell/detect thoughts}. Furthermore, the image shown to those using the mirror does not reveal that the creatures they are watching can see them as well.",
-			"",
-			"Once the curse activates, the owner comes to regard using the mirror to spy ahead as his most effective tactic (after all, it has no limit to its duration) and does so whenever possible until curse-breaking magic frees him from its influence. Anyone who uses the mirror to spy on hostiles, even if he wasn't the one to activate the mirror, is also subject to this desire to continue using it.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** mirror of life trapping, mirror of opposition; **Cost** -"
-		]
-	},
-	"overcharged_staff": {
-		"name": "Overcharged Staff",
-		"sources": [ "Antihero's Handbook" ],
-		"description": [
-			"## Overcharged Staff",
-			"",
-			"{SOURCE Antihero's Handbook/31}  ",
-			"**Aura** moderate evocation; **CL** 11th  ",
-			"**Slot** none; **Weight** 5 lbs.",
-			"",
-			"This staff appears as a normal staff of electricity, except it is black instead of silver and electricity occasionally arcs along the shaft. The curse on this weapon alters the shocking grasp, lightning bolt, and chain lightning spells granted by the staff, causing extra surges of energy to damage the wielder and his allies.",
-			"",
-			"When the wielder uses the overcharged staff to cast shocking grasp, he takes 1d3 points of electricity damage per caster level (maximum 5d3). When the wielder uses the overcharged staff to cast lightning bolt, a random ally takes 1d6 points of electricity damage per caster level (maximum 10d6); the ally takes half that amount with a successful Reflex save. When the wielder uses the overcharged staff to cast chain lightning, for each target the wielder chooses as a primary or secondary target, a random ally must be chosen as a secondary target.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** staff of electricity; **Cost** -"
-		]
-	},
-	"pauldrons_of_the_jackass": {
-		"name": "Pauldrons of the Jackass",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Pauldrons of the Jackass",
-			"",
-			"{SOURCE Ultimate Equipment/348}",
-			"",
-			"**Aura** moderate transmutation; **CL** 7th  ",
-			"**Slot** shoulders; **Weight** 3 lbs.",
-			"",
-			"These steel pauldrons seem to be emblazoned with stampeding horses until they are worn, and then the horses change shape to that of dumfounded donkeys. The wearer of these pauldrons takes a -4 penalty to Dexterity and reduces all speeds by 10 feet. A successful remove curse spell is required before this item can be removed.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** any pauldrons; **Cost** -"
-		]
-	},
-	"periapt_of_foul_rotting": {
-		"name": "Periapt of Foul Rotting",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Periapt of Foul Rotting",
-			"",
-			"{SOURCE Ultimate Equipment/348;PRPG Core Rulebook/541}",
-			"",
-			"**Aura** moderate abjuration; **CL** 10th  ",
-			"**Slot** neck; **Weight** -",
-			"",
-			"This engraved gem appears to be of little value. If any character keeps the periapt in her possession for more than 24 hours, she contracts a terrible rotting affliction that permanently drains 1 point of Dexterity, Constitution, and Charisma every week. The periapt (and the affliction) can be removed only by application of a remove curse spell followed by a cure disease and then a heal, miracle, limited wish, or wish spell. The rotting can also be countered by crushing a periapt of health and sprinkling its dust upon the afflicted character (a full-round action), whereupon the periapt of foul rotting likewise crumbles to dust.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** periapt of health, periapt of proof against poison, periapt of wound closure; **Cost** -"
-		]
-	},
-	"petrifying_cloak": {
-		"name": "Petrifying Cloak",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Petrifying Cloak",
-			"",
-			"{SOURCE Ultimate Equipment/348}",
-			"",
-			"**Aura** moderate transmutation; **CL** 11th  ",
-			"**Slot** shoulders; **Weight** 1 lb.",
-			"",
-			"This gray magical cloak seems to be a protective cloak, but when it is donned, the wearer must succeed at a DC 20 Fortitude save or be instantly petrified. If the initial saving throw succeeds, the creature wearing the cloak must make further checks at the start of each of its turns. On any failed saving throw the creature becomes petrified. A remove curse or stone to flesh transforms the wearer back, at least long enough for someone to take the cloak off the wearer.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** any cloak; **Cost** -"
-		]
-	},
-	"poisonous_cloak": {
-		"name": "Poisonous Cloak",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Poisonous Cloak",
-			"",
-			"{SOURCE Ultimate Equipment/349;PRPG Core Rulebook/541}",
-			"",
-			"**Aura** moderate transmutation; **CL** 15th  ",
-			"**Slot** shoulders; **Weight** 1 lb.",
-			"",
-			"This cloak is usually made of wool, although it can be made of leather. A detect poison spell can reveal the presence of poison in the cloak's fabric. The garment can be handled without harm, but as soon as it is actually donned, the wearer takes 4d6 points of Constitution damage unless she succeeds on a DC 28 Fortitude save.",
-			"",
-			"Once donned, a poisonous cloak can be removed only with a remove curse spell; doing this destroys the magical property of the cloak. If a neutralize poison spell is then used, it is possible to revive a dead victim with a raise dead or resurrection spell.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** cloak of arachnida, cloak of the bat, cloak of etherealness, cloak of resistance +5, major cloak of displacement; **Cost** -"
-		]
-	},
-	"potion_of_poison": {
-		"name": "Potion of Poison",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Potion of Poison",
-			"",
-			"{SOURCE Ultimate Equipment/349;PRPG Core Rulebook/542}  ",
-			"**Aura** strong conjuration; **CL** 12th  ",
-			"**Slot** none; **Weight** -",
-			"",
-			"This potion has lost its beneficial abilities and become a potent poison. This poison deals 1d3 Constitution damage per round for 6 rounds. A poisoned creature can make a DC 14 Fortitude save each round to negate the damage and end the affliction.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** any potion; **Cost** -"
-		]
-	},
-	"riot_pipes": {
-		"name": "Riot Pipes",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
-		"description": [
-			"## Riot Pipes",
-			"",
-			"{SOURCE Ultimate Equipment/350;Advanced Player's Guide/310}",
-			"",
-			"**Aura** moderate enchantment; **CL** 10th  ",
-			"**Slot** none; **Weight** 3 lbs.",
-			"",
-			"This simple musical instrument seems and behaves in all ways like any other kind of magical pipes until its owner plays it in an urban setting. Once he does, it requires all people within hearing range to make a DC 15 Will saving throw to avoid falling into a murderous fury. Those who fail their saves gain the effects of a rage spell for the next 1d6 hours and experience a strong compulsion (DC 15 Will save negates) to attack any stranger or disliked person whom they encounter during this time. If the owner spends more than 3 consecutive days in an urban setting, he must make a DC 15 Will saving throw each day to avoid playing the riot pipes at some point during each subsequent day. The pipes remain with the player until the curse is broken.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** pipes of haunting, pipes of the sewers, pipes of sounding; **Cost** -"
-		]
-	},
-	"robe_of_powerlessness": {
-		"name": "Robe of Powerlessness",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Robe of Powerlessness",
-			"",
-			"{SOURCE Ultimate Equipment/350;PRPG Core Rulebook/542}",
-			"",
-			"**Aura** strong transmutation; **CL** 13th  ",
-			"**Slot** body; **Weight** 1 lb.",
-			"",
-			"A robe of powerlessness appears to be a magic robe of another sort. As soon as a character dons this garment, she takes a -10 penalty to Strength, as well as to Intelligence, Wisdom, or Charisma, forgetting spells and magic knowledge accordingly. If the character is a spellcaster, the robe targets the character's primary spellcasting score, otherwise it targets Intelligence. The robe can be removed easily, but in order to restore mind and body, the character must receive a remove curse spell followed by heal.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** robe of blending, robe of bones, robe of eyes, robe of scintillating colors, robe of stars, robe of the archmagi, robe of useful items; **Cost** -"
-		]
-	},
-	"robe_of_vermin": {
-		"name": "Robe of Vermin",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Robe of Vermin",
-			"",
-			"{SOURCE Ultimate Equipment/350;PRPG Core Rulebook/542}",
-			"",
-			"**Aura** strong abjuration; **CL** 13th  ",
-			"**Slot** body; **Weight** 1 lb.",
-			"",
-			"The wearer notices nothing unusual when the robe is donned, and it functions normally. However, as soon as he is in a situation requiring concentration and action against hostile opponents, the true nature of the garment is revealed: the wearer immediately suffers a multitude of bites from the insects that magically infest the garment. He must cease all other activities in order to scratch, shift the robe, and generally show signs of the extreme discomfort caused by the bites and movement of these pests.",
-			"",
-			"The wearer takes a -5 penalty on initiative checks and a -2 penalty on all attack rolls, saves, and skill checks. If he tries to cast a spell, he must make a concentration check (DC 20 + spell level) or lose the spell.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** robe of blending, robe of bones, robe of eyes, robe of scintillating colors, robe of stars, robe of the archmagi, robe of useful items; **Cost** -"
-		]
-	},
-	"sasquatch_skull": {
-		"name": "Sasquatch Skull",
-		"sources": [ "Mystery Monsters Revisited" ],
-		"description": [
-			"## Sasquatch Skull",
-			"",
-			"{SOURCE Mystery Monsters Revisited/43}  ",
-			"**Aura** moderate transmutation; **CL** 7th  ",
-			"**Slot** none; **Price** -; **Weight** 5 lbs.",
-			"",
-			"Divination reveals this large humanoid skull to be that of a gorilla or giant, although it is actually an accursed sasquatch skull. The item seems to grant its bearer a +5 bonus on Stealth checks in wooded areas.If an individual takes possession of the sasquatch skull for more than 24 hours, it quickly begins to stink. The smell is undetectable by the skull's bearer, but companions and creatures within 30 feet find the pungent smell extremely noticeable. The smell imposes a -2 penalty on Charisma checks and Charisma-based skill checks made by the skull's owner. In addition, aggressive wild animals always target the skull's owner first during combat. The skull need not be on the owner's person for the curse to manifest, so long as ownership has not been transferred through sale, gift, or theft.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** darkskull; **Cost** -"
-		]
-	},
-	"scarab_of_death": {
-		"name": "Scarab of Death",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Scarab of Death",
-			"",
-			"{SOURCE Ultimate Equipment/350;PRPG Core Rulebook/542}  ",
-			"**Aura** strong abjuration; **CL** 19th  ",
-			"**Slot** neck; **Weight** -",
-			"",
-			"If this small scarab brooch is held for more than 1 round or carried in a living creature's possessions for 1 minute, it changes into a horrible, burrowing, beetlelike creature. The thing tears through any leather or cloth, burrows into flesh, and reaches the victim's heart in 1 round, causing death. A DC 25 Reflex save allows the wearer to tear the scarab away before it burrows out of sight, but she still takes 3d6 points of damage. The beetle then returns to its scarab form. Placing the scarab in a container of wood, ceramic, bone, ivory, or metal prevents it from coming to life and allows for long-term storage of the item.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** amulet of mighty fists, amulet of natural armor, amulet of the planes, amulet of proof against detection and location, brooch of shielding, golembane scarab, scarab of protection; **Cost** -"
-		]
-	},
-	"scattershot_bracers": {
-		"name": "Scattershot Bracers",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Scattershot Bracers",
-			"",
-			"{SOURCE Ultimate Equipment/351}",
-			"",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** wrists; **Weight** 1 lb.",
-			"",
-			"These wristbands appear to be bracers of archery until they are worn. The wearer takes a -2 penalty on all ranged attack rolls. A successful remove curse spell is required before these bracers can be removed.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** bracers of archery, either greater or lesser; **Cost** -"
-		]
-	},
-	"stone_of_weight_loadstone": {
-		"name": "Stone of Weight (Loadstone)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Stone of Weight (Loadstone)",
-			"",
-			"{SOURCE Ultimate Equipment/351;PRPG Core Rulebook/543}",
-			"",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Weight** 1 lb.",
-			"",
-			"This dark, polished stone reduces the possessor's base land speed by half. Once picked up, the stone cannot be disposed of by any nonmagical means - if it is thrown away or smashed, it reappears somewhere on the possessor's person. If a remove curse spell is cast upon a loadstone, the item may be discarded normally and no longer haunts the individual.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** ioun stone, stone of alarm, stone of controlling earth elementals, stone of good luck; **Cost** -"
-		]
-	},
-	"tome_of_heretical_revelation": {
-		"name": "Tome of Heretical Revelation",
-		"sources": [ "Faiths and Philosophies" ],
-		"description": [
-			"## Tome of Heretical Revelation",
-			"",
-			"{SOURCE Faiths and Philosophies/31}  ",
-			"**Aura** strong abjuration; **CL** 17th  ",
-			"**Slot** none; **Weight** 5 lbs.",
-			"",
-			"This thick book appears to be an educational treatise filled with philosophical insights. Anyone who reads from this cursed book and has a patron deity must make a DC 20 Will save or be overcome by a crushing sense of doubt and hopelessness as she loses all faith in her deity's teachings. Anyone who fails this save loses all divine spellcasting ability, as well as class abilities from classes that grant divine spells, and she can't gain additional levels in those classes. She can regain her abilities and advancement potential if she atones (see the {spell/atonement} spell description). Succeeding at the Will save still leaves the reader shaken for 10 minutes.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** manual of bodily health, manual of gainful exercise, tome of understanding, tome of leadership and influence; **Cost** -"
-		]
-	},
-	"unguent_of_aging": {
-		"name": "Unguent of Aging",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Unguent of Aging",
-			"",
-			"{SOURCE Ultimate Equipment/351}",
-			"",
-			"**Aura** moderate transmutation; **CL** 6th  ",
-			"**Slot** none; **Weight** -",
-			"",
-			"This unguent appears at first to be unguent of timelessness. When it touches the skin of a living creature or matter that was once alive, however, it accelerates the aging of that creature or item. Living creatures that touch the unguent age by 30 years. Once living matter - such as wood, paper, or a dead body - crumbles to dust and is destroyed. One flask contains enough unguent to affect eight Medium or smaller creatures or objects. A Large creature or object counts as two Medium creatures or objects and a Huge creature or object counts as four Medium creatures or objects.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** unguent of timelessness; **Cost** -"
-		]
-	},
-	"unlucky_figurine": {
-		"name": "Unlucky Figurine",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Unlucky Figurine",
-			"",
-			"{SOURCE Ultimate Equipment/351}",
-			"",
-			"**Aura** moderate enchantment; **CL** 11th  ",
-			"**Slot** none; **Weight** 1 lb.",
-			"",
-			"This figurine appears to be a figurine of wondrous power, but instead of having the ability to animate and serve its owner, it curses that owner with bad luck. While in possession of this figurine, the owner takes a -2 penalty to AC and CMD, and a -2 penalty on attack rolls, skill checks, ability checks, and saving throws.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** any figurine of wondrous power; **Cost** -"
-		]
-	},
-	"unspeakable_ones_vestments": {
-		"name": "Unspeakable One's Vestments",
-		"sources": [ "Pathfinder #113: What Grows Within" ],
-		"description": [
-			"## Unspeakable One's Vestments",
-			"",
-			"{SOURCE Pathfinder #113: What Grows Within/33}  ",
-			"**Aura** strong varied; **CL** 15th  ",
-			"**Slot** body; **Weight** 1 lb.",
-			"",
-			"This robe functions much as a robe of stars, granting its wearer the luck bonus on saving throws, astral travel, and ability to create shuriken made of magically hardened gold. In addition, the wearer gains a +4 armor bonus to his AC.",
-			"",
-			"The robe's curse activates after 1 month of being worn regularly, or just as a creature whose patron is Hastur or Xhamen-Dor affects the wearer with a spell or special ability. The wearer loses his luck bonus on saving throws against such effects and instead takes a -4 penalty on those saves. While the curse persists, the wearer takes 1d4 points of Wisdom drain every time he uses the robe to access the Astral Plane, and the shuriken created are +5 anarchic shuriken. After another month of continuous use, the wearer permanently becomes chaotic evil and pursues increasingly delusional goals of domination, enrichment, or anarchy. Once donned, this robe can be removed only with a remove curse spell.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** robe of stars; **Cost** -"
-		]
-	},
-	"vacuous_grimoire": {
-		"name": "Vacuous Grimoire",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Vacuous Grimoire",
-			"",
-			"{SOURCE Ultimate Equipment/351;PRPG Core Rulebook/543}  ",
-			"**Aura** strong enchantment; **CL** 20th  ",
-			"**Slot** none; **Weight** 2 lbs.",
-			"",
-			"A book of this sort looks like a normal volume on some mildly interesting topic. Any character who opens the work and reads so much as a single word therein must make two DC 15 Will saves. The first is to determine if the reader takes 1 point of permanent Intelligence and Charisma drain. The second is to find out if the reader takes 2 points of permanent Wisdom drain. To destroy the book, it must be burned while remove curse is being cast. If the grimoire is placed with other books, its appearance instantly alters to conform to the look of those other works.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** blessed book, manual of bodily health, manual of gainful exercise, manual of quickness of action, tome of clear thoughts; **Cost** -"
-		]
-	},
-	"scroll_of_blood_ink": {
-		"name": "Scroll of Blood Ink",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"## Scroll of Blood Ink",
-			"",
-			"{SOURCE Horror Adventures/143}  ",
-			"**Aura** varies; **CL** varies  ",
-			"**Slot** none; **Weight** -",
-			"",
-			"This scroll can seem to contain any spell. When the wielder attempts to cast the spell, the ink turns to blood and runs off the page, ruining the spell automatically. The scroll's edges turn sharp and cut the wielder's hands and wrists, dealing 4 points of Constitution bleed. A successful DC 15 Reflex save halves the bleed. The bleed can be stopped with any magical healing or a successful DC 20 Heal check.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** any scroll; **Cost** -"
 		]
 	}
 }

@@ -8,10 +8,14 @@ type Params = { id?: keyof typeof data };
 
 const RaceGroup1Page = lazy(() => import("./RaceGroup1Page"));
 const RaceGroup2Page = lazy(() => import("./RaceGroup2Page"));
+const RaceGroup3Page = lazy(() => import("./RaceGroup3Page"));
+const RaceGroup4Page = lazy(() => import("./RaceGroup4Page"));
 
 const pages = [
 	({id}: {id: string}) => <RaceGroup1Page id={id} />,
 	({id}: {id: string}) => <RaceGroup2Page id={id} />,
+	({id}: {id: string}) => <RaceGroup3Page id={id} />,
+	({id}: {id: string}) => <RaceGroup4Page id={id} />,
 ]
 
 const RacePage: React.FC = () => {

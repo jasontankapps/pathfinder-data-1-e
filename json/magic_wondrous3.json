@@ -432,6 +432,30 @@
 			"**Requirements** {feat/Craft Wondrous Item}, locate creature, additional spells (see text); **Cost** 3,000 gp (Eyes), 4,000 gp (Hair), 4,000 gp (Horn), 4,500 gp (Claws), 4,500 gp (Scales), 6,000 gp (Bones), 6,000 gp (Teeth)"
 		]
 	},
+	"necklace_of_beasts_might_hair": {
+		"name": "Necklace of Beast's Might (Hair)",
+		"copyof": "necklace_of_beasts_might_eyes"
+	},
+	"necklace_of_beasts_might_horn": {
+		"name": "Necklace of Beast's Might (Horn)",
+		"copyof": "necklace_of_beasts_might_eyes"
+	},
+	"necklace_of_beasts_might_claws": {
+		"name": "Necklace of Beast's Might (Claws)",
+		"copyof": "necklace_of_beasts_might_eyes"
+	},
+	"necklace_of_beasts_might_scales": {
+		"name": "Necklace of Beast's Might (Scales)",
+		"copyof": "necklace_of_beasts_might_eyes"
+	},
+	"necklace_of_beasts_might_bones": {
+		"name": "Necklace of Beast's Might (Bones)",
+		"copyof": "necklace_of_beasts_might_eyes"
+	},
+	"necklace_of_beasts_might_teeth": {
+		"name": "Necklace of Beast's Might (Teeth)",
+		"copyof": "necklace_of_beasts_might_eyes"
+	},
 	"feychild_necklace": {
 		"name": "Feychild Necklace",
 		"sources": [ "Ultimate Equipment" ],
@@ -677,6 +701,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, cure light wounds, delay poison (leech only), remove sickness (mosquito only), summon swarm; **Cost** 4,000 gp (Ant), 4,000 gp (Centipede), 4,000 gp (Spider), 5,000 gp (Leech), 5,000 gp (Mosquito)"
 		]
 	},
+	"nursing_necklace_centipede": {
+		"name": "Nursing Necklace (Centipede)",
+		"copyof": "nursing_necklace_ant"
+	},
+	"nursing_necklace_spider": {
+		"name": "Nursing Necklace (Spider)",
+		"copyof": "nursing_necklace_ant"
+	},
+	"nursing_necklace_leech": {
+		"name": "Nursing Necklace (Leech)",
+		"copyof": "nursing_necklace_ant"
+	},
+	"nursing_necklace_mosquito": {
+		"name": "Nursing Necklace (Mosquito)",
+		"copyof": "nursing_necklace_ant"
+	},
 	"apollyon_clasp": {
 		"name": "Apollyon Clasp",
 		"sources": [ "Pathfinder Spiral of Bones #5" ],
@@ -738,10 +778,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, Alignment Channel, {spell/detect chaos}, [evil](spell/detect_evil), [good](spell/detect_good), and [law](spell/detect_law), {spell/protection from chaos}, [evil](spell/protection_from_evil), [good](spell/protection_from_good), and [law](spell/protection_from_law); **Cost** 4,000 gp"
 		]
-	},
-	"nursing_necklace_centipede": {
-		"name": "Nursing Necklace (Centipede)",
-		"copyof": "nursing_necklace_ant"
 	},
 	"choker_of_the_queen_bee": {
 		"name": "Choker of the Queen Bee",
@@ -819,10 +855,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/protection from evil}; **Cost** 4,000 gp"
 		]
 	},
-	"necklace_of_beasts_might_hair": {
-		"name": "Necklace of Beast's Might (Hair)",
-		"copyof": "necklace_of_beasts_might_eyes"
-	},
 	"hand_of_glory": {
 		"name": "Hand of Glory",
 		"sources": [
@@ -876,9 +908,29 @@
 			"**Requirements** {feat/Craft Wondrous Item}, additional spells (see text), creator must be a shaman with the appropriate spirit; **Cost** 6,000 gp (Battle), 6,000 gp (Bones), 5,000 gp (Flame), 4,000 gp (Heavens), 6,000 gp (Life), 5,000 gp (Stone), 5,000 gp (Waves), 4,000 gp (Wind)"
 		]
 	},
-	"necklace_of_beasts_might_horn": {
-		"name": "Necklace of Beast's Might (Horn)",
-		"copyof": "necklace_of_beasts_might_eyes"
+	"amulet_of_the_spirits_wind": {
+		"name": "Amulet of the Spirits (Wind)",
+		"copyof": "amulet_of_the_spirits_heavens"
+	},
+	"amulet_of_the_spirits_flame": {
+		"name": "Amulet of the Spirits (Flame)",
+		"copyof": "amulet_of_the_spirits_heavens"
+	},
+	"amulet_of_the_spirits_stone": {
+		"name": "Amulet of the Spirits (Stone)",
+		"copyof": "amulet_of_the_spirits_heavens"
+	},
+	"amulet_of_the_spirits_waves": {
+		"name": "Amulet of the Spirits (Waves)",
+		"copyof": "amulet_of_the_spirits_heavens"
+	},
+	"amulet_of_the_spirits_battle": {
+		"name": "Amulet of the Spirits (Battle)",
+		"copyof": "amulet_of_the_spirits_heavens"
+	},
+	"amulet_of_the_spirits_bones": {
+		"name": "Amulet of the Spirits (Bones)",
+		"copyof": "amulet_of_the_spirits_heavens"
 	},
 	"periapt_of_proof_against_paralysis": {
 		"name": "Periapt of Proof Against Paralysis",
@@ -933,10 +985,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, hex ward; **Cost** 4,000 gp"
 		]
 	},
-	"nursing_necklace_spider": {
-		"name": "Nursing Necklace (Spider)",
-		"copyof": "nursing_necklace_ant"
-	},
 	"torc_of_bloody_rage": {
 		"name": "Torc of Bloody Rage",
 		"sources": [ "Advanced Class Guide" ],
@@ -973,10 +1021,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, remove fear; **Cost** 4,000 gp"
 		]
-	},
-	"amulet_of_the_spirits_wind": {
-		"name": "Amulet of the Spirits (Wind)",
-		"copyof": "amulet_of_the_spirits_heavens"
 	},
 	"amulet_of_hidden_light": {
 		"name": "Amulet of Hidden Light",
@@ -1031,10 +1075,6 @@
 	},
 	"greater_best_friend_pendant": {
 		"copyof": "best_friend_pendant_greater"
-	},
-	"necklace_of_beasts_might_claws": {
-		"name": "Necklace of Beast's Might (Claws)",
-		"copyof": "necklace_of_beasts_might_eyes"
 	},
 	"darksire_amulet": {
 		"name": "Darksire Amulet",
@@ -1091,10 +1131,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, alter self; **Cost** 4,500 gp"
 		]
-	},
-	"necklace_of_beasts_might_scales": {
-		"name": "Necklace of Beast's Might (Scales)",
-		"copyof": "necklace_of_beasts_might_eyes"
 	},
 	"scarf_of_glorious_histories_varisian": {
 		"name": "Scarf of Glorious Histories (Varisian)",
@@ -1253,6 +1289,29 @@
 			"**Requirements** {feat/Craft Wondrous Item}, awaken, fox's cunning; **Cost** 6,000 gp"
 		]
 	},
+	"eye_of_the_overwatched": {
+		"name": "Eye of the Overwatched",
+		"sources": [ "Occult Realms" ],
+		"description": [
+			"## Eye of the Overwatched",
+			"",
+			"{SOURCE Occult Realms/6}  ",
+			"**Aura** faint abjuration; **CL** 5th  ",
+			"**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.",
+			"",
+			"The eye of the overwatched is a 6-inch-wide stone ring inset with the symbol of a partly lidded eye. The flawless marble of onyx that's set as the eye's pupil contains glittering points of light that resemble stars.",
+			"",
+			"Made from the exotic mineral called veinstone, the eye of the overwatched is an ancient amulet crafted by Ralzeros the Overwatched. While he lived, Ralzeros used his observatory to study the otherworldly forces that reside in the Dark Tapestry. In turn, those forces watched him, and he became increasingly paranoid as a result. Just before he disappeared following a duel with the Absalom mage Beldrin, Ralzeros constructed this amulet in hopes that it would protect him from his perceived spellcaster enemies.",
+			"",
+			"He failed to create a traditional magic item, but an occultist who has learned the abjuration implement school and uses the eye of the overwatched as an implement can use the following focus power.",
+			"",
+			">*Spellarmor (Sp):* As a swift action, you can expend 1 point of mental focus to try to shake off unwanted magical effects. If you are under the effect of an enemy's spell or spell-like ability when you activate this ward, you immediately receive a new saving throw with a +2 circumstance bonus. This focus power does not grant a saving throw if the original effect did not allow one.",
+			"",
+			"### Construction",
+			"",
+			"**Requirements** {feat/Craft Wondrous Item}, creator must be a 5th-level occultist who has learned the abjuration implement school; **Cost** 5,000 gp"
+		]
+	},
 	"amulet_of_the_blooded_destined": {
 		"name": "Amulet of the Blooded (Destined)",
 		"sources": [ "Advanced Class Guide" ],
@@ -1304,36 +1363,45 @@
 			"**Requirements** {feat/Craft Wondrous Item}, additional spells (see text), creator must be a sorcerer of the appropriate bloodline; **Cost** 7,500 gp (Aberrant), 6,000 gp (Abyssal), 6,000 gp (Accursed), 6,000 gp (Celestial), 5,000 gp (Destined), 6,000 gp (Draconic), 6,000 gp (Elemental), 5,000 gp (Fey), 6,000 gp (Infernal), 6,000 gp (Undead)"
 		]
 	},
-	"eye_of_the_overwatched": {
-		"name": "Eye of the Overwatched",
-		"sources": [ "Occult Realms" ],
-		"description": [
-			"## Eye of the Overwatched",
-			"",
-			"{SOURCE Occult Realms/6}  ",
-			"**Aura** faint abjuration; **CL** 5th  ",
-			"**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.",
-			"",
-			"The eye of the overwatched is a 6-inch-wide stone ring inset with the symbol of a partly lidded eye. The flawless marble of onyx that's set as the eye's pupil contains glittering points of light that resemble stars.",
-			"",
-			"Made from the exotic mineral called veinstone, the eye of the overwatched is an ancient amulet crafted by Ralzeros the Overwatched. While he lived, Ralzeros used his observatory to study the otherworldly forces that reside in the Dark Tapestry. In turn, those forces watched him, and he became increasingly paranoid as a result. Just before he disappeared following a duel with the Absalom mage Beldrin, Ralzeros constructed this amulet in hopes that it would protect him from his perceived spellcaster enemies.",
-			"",
-			"He failed to create a traditional magic item, but an occultist who has learned the abjuration implement school and uses the eye of the overwatched as an implement can use the following focus power.",
-			"",
-			">*Spellarmor (Sp):* As a swift action, you can expend 1 point of mental focus to try to shake off unwanted magical effects. If you are under the effect of an enemy's spell or spell-like ability when you activate this ward, you immediately receive a new saving throw with a +2 circumstance bonus. This focus power does not grant a saving throw if the original effect did not allow one.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, creator must be a 5th-level occultist who has learned the abjuration implement school; **Cost** 5,000 gp"
-		]
-	},
 	"amulet_of_the_blooded_fey": {
 		"name": "Amulet of the Blooded (Fey)",
 		"copyof": "amulet_of_the_blooded_destined"
 	},
-	"amulet_of_the_spirits_flame": {
-		"name": "Amulet of the Spirits (Flame)",
+	"amulet_of_the_blooded_abyssal": {
+		"name": "Amulet of the Blooded (Abyssal)",
+		"copyof": "amulet_of_the_blooded_destined"
+	},
+	"amulet_of_the_blooded_accursed": {
+		"name": "Amulet of the Blooded (Accursed)",
+		"copyof": "amulet_of_the_blooded_destined"
+	},
+	"amulet_of_the_blooded_celestial": {
+		"name": "Amulet of the Blooded (Celestial)",
+		"copyof": "amulet_of_the_blooded_destined"
+	},
+	"amulet_of_the_blooded_draconic": {
+		"name": "Amulet of the Blooded (Draconic)",
+		"copyof": "amulet_of_the_blooded_destined"
+	},
+	"amulet_of_the_blooded_elemental": {
+		"name": "Amulet of the Blooded (Elemental)",
+		"copyof": "amulet_of_the_blooded_destined"
+	},
+	"amulet_of_the_blooded_infernal": {
+		"name": "Amulet of the Blooded (Infernal)",
+		"copyof": "amulet_of_the_blooded_destined"
+	},
+	"amulet_of_the_spirits_life": {
+		"name": "Amulet of the Spirits (Life)",
 		"copyof": "amulet_of_the_spirits_heavens"
+	},
+	"amulet_of_the_blooded_undead": {
+		"name": "Amulet of the Blooded (Undead)",
+		"copyof": "amulet_of_the_blooded_destined"
+	},
+	"amulet_of_the_blooded_aberrant": {
+		"name": "Amulet of the Blooded (Aberrant)",
+		"copyof": "amulet_of_the_blooded_destined"
 	},
 	"frost_fist_amulet": {
 		"name": "Frost Fist Amulet",
@@ -1388,10 +1456,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {feat/Spell Focus} (abjuration), resistance, creator must be able to use the ward hex; **Cost** 5,000 gp"
 		]
 	},
-	"nursing_necklace_leech": {
-		"name": "Nursing Necklace (Leech)",
-		"copyof": "nursing_necklace_ant"
-	},
 	"locket_of_true_and_false_friends_half_elf": {
 		"name": "Locket of True and False Friends (Half-Elf)",
 		"sources": [ "Inner Sea Races" ],
@@ -1430,14 +1494,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/air breathing}, {spell/expeditious retreat}; **Cost** 5,000 gp"
 		]
 	},
-	"nursing_necklace_mosquito": {
-		"name": "Nursing Necklace (Mosquito)",
-		"copyof": "nursing_necklace_ant"
-	},
-	"amulet_of_the_spirits_stone": {
-		"name": "Amulet of the Spirits (Stone)",
-		"copyof": "amulet_of_the_spirits_heavens"
-	},
 	"vishkanya_periapt": {
 		"name": "Vishkanya Periapt",
 		"sources": [ "Villain Codex" ],
@@ -1457,10 +1513,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, poison; **Cost** 5,000 gp"
 		]
 	},
-	"amulet_of_the_spirits_waves": {
-		"name": "Amulet of the Spirits (Waves)",
-		"copyof": "amulet_of_the_spirits_heavens"
-	},
 	"beguiling_bangles": {
 		"name": "Beguiling Bangles",
 		"sources": [ "Faction Guide" ],
@@ -1479,14 +1531,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, glibness; **Cost** 5,500 gp"
 		]
-	},
-	"amulet_of_the_blooded_abyssal": {
-		"name": "Amulet of the Blooded (Abyssal)",
-		"copyof": "amulet_of_the_blooded_destined"
-	},
-	"amulet_of_the_blooded_accursed": {
-		"name": "Amulet of the Blooded (Accursed)",
-		"copyof": "amulet_of_the_blooded_destined"
 	},
 	"amulet_of_channeled_life": {
 		"name": "Amulet of Channeled Life",
@@ -1527,22 +1571,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, cure light wounds, enthrall; **Cost** 6,000 gp"
 		]
-	},
-	"amulet_of_the_spirits_battle": {
-		"name": "Amulet of the Spirits (Battle)",
-		"copyof": "amulet_of_the_spirits_heavens"
-	},
-	"amulet_of_the_spirits_bones": {
-		"name": "Amulet of the Spirits (Bones)",
-		"copyof": "amulet_of_the_spirits_heavens"
-	},
-	"necklace_of_beasts_might_bones": {
-		"name": "Necklace of Beast's Might (Bones)",
-		"copyof": "necklace_of_beasts_might_eyes"
-	},
-	"amulet_of_the_blooded_celestial": {
-		"name": "Amulet of the Blooded (Celestial)",
-		"copyof": "amulet_of_the_blooded_destined"
 	},
 	"crest_of_the_fallen": {
 		"name": "Crest of the Fallen",
@@ -1586,14 +1614,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, cure light wounds, creator must be a paladin; **Cost** 6,000 gp"
 		]
-	},
-	"amulet_of_the_blooded_draconic": {
-		"name": "Amulet of the Blooded (Draconic)",
-		"copyof": "amulet_of_the_blooded_destined"
-	},
-	"amulet_of_the_blooded_elemental": {
-		"name": "Amulet of the Blooded (Elemental)",
-		"copyof": "amulet_of_the_blooded_destined"
 	},
 	"emblem_of_lost_lives": {
 		"name": "Emblem of Lost Lives",
@@ -1645,14 +1665,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, freedom of movement, [thought shield I](spell/thought_shield_1); **Cost** 6,000 gp"
 		]
-	},
-	"amulet_of_the_blooded_infernal": {
-		"name": "Amulet of the Blooded (Infernal)",
-		"copyof": "amulet_of_the_blooded_destined"
-	},
-	"amulet_of_the_spirits_life": {
-		"name": "Amulet of the Spirits (Life)",
-		"copyof": "amulet_of_the_spirits_heavens"
 	},
 	"medallion_of_thoughts": {
 		"name": "Medallion of Thoughts",
@@ -1746,14 +1758,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, creator must be female and possess orc blood, cure moderate wounds; **Cost** 6,000 gp"
 		]
 	},
-	"necklace_of_beasts_might_teeth": {
-		"name": "Necklace of Beast's Might (Teeth)",
-		"copyof": "necklace_of_beasts_might_eyes"
-	},
-	"amulet_of_the_blooded_undead": {
-		"name": "Amulet of the Blooded (Undead)",
-		"copyof": "amulet_of_the_blooded_destined"
-	},
 	"forge_fist_amulet": {
 		"name": "Forge Fist Amulet",
 		"sources": [ "Ultimate Equipment" ],
@@ -1843,10 +1847,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, disguise self, invisibility; **Cost** 7,000 gp"
 		]
-	},
-	"amulet_of_the_blooded_aberrant": {
-		"name": "Amulet of the Blooded (Aberrant)",
-		"copyof": "amulet_of_the_blooded_destined"
 	},
 	"amulet_of_the_abyss": {
 		"name": "Amulet of the Abyss",
@@ -2597,7 +2597,7 @@
 			"**Aura** strong abjuration; **CL** 9th  ",
 			"**Slot** neck; **Price** 40,000 gp; **Weight** -;",
 			"",
-			"These talismans are crafted by evil spellcasters on the first steps of the path of the wendigo. The amulet, a tiny human figure formed from unmelting ice, rests on the wearer's chest. When worn, it freezes the wearer's heart solid, chilling body and soul. The wearer immediately develops hypothermia, becoming permanently fatigued for as long as he wears the amulet, but is otherwise protected against cold weather by a constant endure elements effect. The amulet also grants 10 points of cold resistance, immunity to bleed effects, and a +4 resistance bonus on saving throws against spells with the emotion descriptor. Once per day as a standard action, the wearer can use frigid touch as a spell-like ability. Removing the amulet thaws the wearer's heart but leaves him fatigued until he spends 8 hours warming up.",
+			"These talismans are crafted by evil spellcasters on the first steps of the path of the wendigo. The amulet, a tiny human figure formed from unmelting ice, rests on the wearer's chest. When worn, it freezes the wearer's heart solid, chilling body and soul. The wearer immediately develops hypothermia, becoming permanently fatigued for as long as he wears the amulet, but is otherwise protected against cold weather by a constant {spell/endure elements} effect. The amulet also grants 10 points of cold resistance, immunity to bleed effects, and a +4 resistance bonus on saving throws against spells with the emotion descriptor. Once per day as a standard action, the wearer can use frigid touch as a spell-like ability. Removing the amulet thaws the wearer's heart but leaves him fatigued until he spends 8 hours warming up.",
 			"",
 			"### Construction",
 			"",
@@ -2973,6 +2973,38 @@
 			"**Requirements** Scibe Scroll, Silent Spell, the spell to be scribed; **Cost** 12.5 gp (Cantrip), 75 gp (1st-level spell), 187.5 gp (2nd-level spell), 350 gp (3rd-level spell), 562.5 gp (4th-level spell), 825 gp (5th-level spell), 1137.5 gp (6th-level spell), 1500 gp (7th-level spell), 1912.5 gp (8th-level spell)"
 		]
 	},
+	"riffle_scroll_1st_level_spell": {
+		"name": "Riffle Scroll (1st-level Spell)",
+		"copyof": "riffle_scroll_cantrip"
+	},
+	"riffle_scroll_2nd_level_spell": {
+		"name": "Riffle Scroll (2nd-Level Spell)",
+		"copyof": "riffle_scroll_cantrip"
+	},
+	"riffle_scroll_3rd_level_spell": {
+		"name": "Riffle Scroll (3rd-Level Spell)",
+		"copyof": "riffle_scroll_cantrip"
+	},
+	"riffle_scroll_4th_level_spell": {
+		"name": "Riffle Scroll (4th-Level Spell)",
+		"copyof": "riffle_scroll_cantrip"
+	},
+	"riffle_scroll_5th_level_spell": {
+		"name": "Riffle Scroll (5th-Level Spell)",
+		"copyof": "riffle_scroll_cantrip"
+	},
+	"riffle_scroll_6th_level_spell": {
+		"name": "Riffle Scroll (6th-Level Spell)",
+		"copyof": "riffle_scroll_cantrip"
+	},
+	"riffle_scroll_7th_level_spell": {
+		"name": "Riffle Scroll (7th-Level Spell)",
+		"copyof": "riffle_scroll_cantrip"
+	},
+	"riffle_scroll_8th_level_spell": {
+		"name": "Riffle Scroll (8th-Level Spell)",
+		"copyof": "riffle_scroll_cantrip"
+	},
 	"caltrop_bead_iron": {
 		"name": "Caltrop Bead (Iron)",
 		"sources": [ "Demon Hunter's Handbook" ],
@@ -2989,6 +3021,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, minor creation; **Cost** 20 gp (iron), 40 gp (cold iron)"
 		]
+	},
+	"caltrop_bead_cold_iron": {
+		"name": "Caltrop Bead (Cold Iron)",
+		"copyof": "caltrop_bead_iron"
 	},
 	"feather_token": {
 		"name": "Feather Token (Anchor)",
@@ -3044,6 +3080,58 @@
 	"feather_token_anchor": {
 		"name": "Feather Token (Anchor)",
 		"copyof": "feather_token"
+	},
+	"feather_token_lance": {
+		"name": "Feather Token (Lance)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_fan": {
+		"name": "Feather Token (Fan)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_sky_hook": {
+		"name": "Feather Token (Sky Hook)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_bird": {
+		"name": "Feather Token (Bird)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_catapult": {
+		"name": "Feather Token (Catapult)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_tree": {
+		"name": "Feather Token (Tree)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_floating_feather": {
+		"name": "Feather Token (Floating Feather)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_swan_boat": {
+		"name": "Feather Token (Swan Boat)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_campsite": {
+		"name": "Feather Token (Campsite)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_ram": {
+		"name": "Feather Token (Ram)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_whip": {
+		"name": "Feather Token (Whip)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_tar_and_feathers": {
+		"name": "Feather Token (Tar and Feathers)",
+		"copyof": "feather_token_anchor"
+	},
+	"feather_token_siege_tower": {
+		"name": "Feather Token (Siege Tower)",
+		"copyof": "feather_token_anchor"
 	},
 	"truecolor_dye": {
 		"name": "Truecolor Dye",
@@ -3142,10 +3230,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, continual flame, creator must be 12th level; **Cost** 62 gp, 5 SP"
 		]
 	},
-	"caltrop_bead_cold_iron": {
-		"name": "Caltrop Bead (Cold Iron)",
-		"copyof": "caltrop_bead_iron"
-	},
 	"raucous_canard": {
 		"name": "Raucous Canard",
 		"sources": [
@@ -3219,10 +3303,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, disguise self; **Cost** 60 gp"
 		]
-	},
-	"riffle_scroll_1st_level_spell": {
-		"name": "Riffle Scroll (1st-level Spell)",
-		"copyof": "riffle_scroll_cantrip"
 	},
 	"brastlewark_brew": {
 		"name": "Brastlewark Brew",
@@ -3314,10 +3394,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}; **Cost** 75 gp"
 		]
 	},
-	"feather_token_lance": {
-		"name": "Feather Token (Lance)",
-		"copyof": "feather_token_anchor"
-	},
 	"unguent_of_timelessness": {
 		"name": "Unguent of Timelessness",
 		"sources": [
@@ -3358,10 +3434,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, daylight; **Cost** 100 gp"
 		]
 	},
-	"feather_token_fan": {
-		"name": "Feather Token (Fan)",
-		"copyof": "feather_token_anchor"
-	},
 	"formula_alembic": {
 		"name": "Formula Alembic",
 		"sources": [ "Ultimate Equipment" ],
@@ -3397,10 +3469,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, fabricate or combine extracts discovery; **Cost** 100 gp"
 		]
-	},
-	"feather_token_sky_hook": {
-		"name": "Feather Token (Sky Hook)",
-		"copyof": "feather_token_anchor"
 	},
 	"soul_soap": {
 		"name": "Soul Soap",
@@ -3778,10 +3846,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, vocal alteration, creator must possess 5 ranks in Craft (alchemy); **Cost** 150 gp"
 		]
 	},
-	"feather_token_bird": {
-		"name": "Feather Token (Bird)",
-		"copyof": "feather_token_anchor"
-	},
 	"bottle_of_messages": {
 		"name": "Bottle of Messages",
 		"sources": [
@@ -3881,6 +3945,20 @@
 	"lesser_root_of_the_world_tree": {
 		"copyof": "root_of_the_world_tree_lesser"
 	},
+	"root_of_the_world_tree_normal": {
+		"name": "Root of the World Tree (Normal)",
+		"copyof": "root_of_the_world_tree_lesser"
+	},
+	"normal_root_of_the_world_tree": {
+		"copyof": "root_of_the_world_tree_normal"
+	},
+	"root_of_the_world_tree_greater": {
+		"name": "Root of the World Tree (Greater)",
+		"copyof": "root_of_the_world_tree_lesser"
+	},
+	"greater_root_of_the_world_tree": {
+		"copyof": "root_of_the_world_tree_greater"
+	},
 	"origami_swarm": {
 		"name": "Origami Swarm",
 		"sources": [ "Ultimate Equipment" ],
@@ -3966,10 +4044,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, Craft (alchemy) 5 ranks, faerie fire, sound burst; **Cost** 175 gp"
 		]
 	},
-	"riffle_scroll_2nd_level_spell": {
-		"name": "Riffle Scroll (2nd-Level Spell)",
-		"copyof": "riffle_scroll_cantrip"
-	},
 	"false_coin": {
 		"name": "False Coin",
 		"sources": [ "Occult Adventures" ],
@@ -4005,10 +4079,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, beguiling gift, hold person; **Cost** 200 gp"
 		]
-	},
-	"feather_token_catapult": {
-		"name": "Feather Token (Catapult)",
-		"copyof": "feather_token_anchor"
 	},
 	"erasing_book": {
 		"name": "Erasing Book",
@@ -4084,10 +4154,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, pyrotechnics; **Cost** 200 gp"
 		]
-	},
-	"feather_token_tree": {
-		"name": "Feather Token (Tree)",
-		"copyof": "feather_token_anchor"
 	},
 	"conquering_brand_conformity": {
 		"name": "Conquering Brand (Conformity)",
@@ -4186,6 +4252,18 @@
 			"**Requirements** {feat/Craft Wondrous Item}, additional spells; **Cost** 225 gp (Basic Pit), 500 gp (Jagged Pit), 875 gp (Corrosive Pit), 1,350 gp (Living Pit)"
 		]
 	},
+	"dimensional_acid_jagged_pit": {
+		"name": "Dimensional Acid (Jagged Pit)",
+		"copyof": "dimensional_acid_basic_pit"
+	},
+	"dimensional_acid_corrosive_pit": {
+		"name": "Dimensional Acid (Corrosive Pit)",
+		"copyof": "dimensional_acid_basic_pit"
+	},
+	"dimensional_acid_living_pit": {
+		"name": "Dimensional Acid (Living Pit)",
+		"copyof": "dimensional_acid_basic_pit"
+	},
 	"elixir_of_agility": {
 		"name": "Elixir of Agility",
 		"sources": [ "Potions and Poisons" ],
@@ -4203,10 +4281,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, cat's grace, heightened awareness; **Cost** 225 gp"
 		]
 	},
-	"feather_token_floating_feather": {
-		"name": "Feather Token (Floating Feather)",
-		"copyof": "feather_token_anchor"
-	},
 	"nesas_coin": {
 		"name": "Nesa's Coin",
 		"sources": [ "Gnomes of Golarion" ],
@@ -4223,10 +4297,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}; **Cost** 225 gp"
 		]
-	},
-	"feather_token_swan_boat": {
-		"name": "Feather Token (Swan Boat)",
-		"copyof": "feather_token_anchor"
 	},
 	"guiding_vellum_1st": {
 		"name": "Guiding Vellum (1st)",
@@ -4362,10 +4432,6 @@
 			"**Requirements** {feat/Brew Potion}, {feat/Craft Wondrous Item}, creator must be a witch with the poison steep hex; **Cost** 250 gp"
 		]
 	},
-	"feather_token_campsite": {
-		"name": "Feather Token (Campsite)",
-		"copyof": "feather_token_anchor"
-	},
 	"clockwork_key_abadar": {
 		"name": "Clockwork Key (Abadar)",
 		"sources": [ "Faiths of Balance" ],
@@ -4500,2406 +4566,5 @@
 	},
 	"greater_replenishing_aquarium_ball": {
 		"copyof": "replenishing_aquarium_ball_greater"
-	},
-	"mundanity_grease": {
-		"name": "Mundanity Grease",
-		"sources": [ "Familiar Folio" ],
-		"description": [
-			"## Mundanity Grease",
-			"",
-			"{SOURCE Familiar Folio/21}  ",
-			"**Aura** moderate abjuration; **CL** 11th  ",
-			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
-			"",
-			"This slippery, jet-black goo has a consistency comparable to warm lard. A bottle of mundanity grease can be thrown as a splash weapon with a range increment of 10 feet.",
-			"",
-			"When an animal companion, a familiar, or another bonded creature is struck by mundanity grease, the bond to its master is temporarily suspended. The creature and its master lose any of the following abilities they have from the companion or familiar bond: deliver touch spells, devotion, empathic link, evasion, improved evasion, link, scry on familiar, share spells, speak with animals of its kind, spell resistance, and speak with master. For the duration of the effect, a familiar originally of the animal type is treated as an animal (rather than a magical beast) for the purposes of determining which spells affect it. This effect lasts for 1d4 minutes or until the grease is washed off the affected creature by magical means.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, greater dispel magic; **Cost** 250 gp"
-		]
-	},
-	"nest_revealer": {
-		"name": "Nest Revealer",
-		"sources": [ "Monster Hunter's Handbook" ],
-		"description": [
-			"## Nest Revealer",
-			"",
-			"{SOURCE Monster Hunter's Handbook/29}  ",
-			"**Aura** faint divination; **CL** 3rd  ",
-			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
-			"",
-			"This small vial is sealed with a fine metal cap engraved with the visage of a noble hound. When a few drops of a creature's blood are placed in the vial, it begins to fill on its own, replicating the creature's blood over the span of 1 minute. After 1 minute, the vial shatters and a small fist-sized orb of crystallized blood falls to the ground. This animate orb rolls in the direction of the last location in which the source creature slept for at least 1 hour. The blood travels at a rate of 20 feet per round and can travel up to 10 miles over the span of 5 hours. If the orb does not reach the creature's nest within 5 hours, it collapses into a puddle containing enough blood to activate another nest revealer.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, locate creature; **Cost** 250 gp"
-		]
-	},
-	"orbicular_sac": {
-		"name": "Orbicular Sac",
-		"sources": [ "Magical Marketplace" ],
-		"description": [
-			"## Orbicular Sac",
-			"",
-			"{SOURCE Magical Marketplace/13}  ",
-			"**Aura** faint conjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 500 gp; **Weight** -;",
-			"",
-			"Breaking open this magically enhanced spider egg sac (a standard action) conjures a massive spider web in a square adjacent to the user. The web is 5 feet thick and up to 20 feet wide and high. The spider web is nearly invisible; spotting it requires a successful DC 20 Perception check in bright light. This DC increases by 4 for every step below bright light in which the spider web is placed. This effect otherwise acts as the web spell (DC 13). Alternatively, the user can enhance a web created by another orbicular sac. Each additional sac increases the duration of the web by 30 minutes and the Reflex and grapple DCs by 2 (maximum increase of +10).",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, invisibility, web; **Cost** 250 gp"
-		]
-	},
-	"planar_strap": {
-		"name": "Planar Strap",
-		"sources": [ "Planar Adventures" ],
-		"description": [
-			"## Planar Strap",
-			"",
-			"{SOURCE Planar Adventures/55}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 500 gp; **Weight** -;",
-			"",
-			"When this worn leather strap is tied around the grip of a weapon, the weapon becomes immune to the harmful environmental effects of a plane, such as heat or acidity. This does not protect the weapon against non-environmental energy effects; although it would apply to the ambient fire damage caused by being on the Plane of Fire, it would not apply to damage caused by a fireball spell. If the weapon is destroyed, the planar strap is destroyed with it. It is a full-round action to tie or untie a strap. You can only have one planar strap applied to a weapon at a time.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, planar adaptation; **Cost** 250 gp"
-		]
-	},
-	"pliability_elixir": {
-		"name": "Pliability Elixir",
-		"sources": [ "Villain Codex" ],
-		"description": [
-			"## Pliability Elixir",
-			"",
-			"{SOURCE Villain Codex/45}  ",
-			"**Aura** faint enchantment; **CL** 5th  ",
-			"**Slot** none; **Price** 500 gp; **Weight** -;",
-			"",
-			"A creature that drinks this elixir becomes particularly pliable mentally and emotionally for 10 minutes (Will DC 16 negates). Bluff, Diplomacy, and Intimidate checks automatically succeed against a pliable creature, except for Diplomacy checks to improve a pliable creature's attitude, which have the normal DC. This does not allow characters to whom the pliable creature is unfriendly or hostile to make requests of the pliable creature using Diplomacy. After 1 minute, the effects of pliability elixir are noticeable with a successful DC 25 Sense Motive check. The GM can apply circumstance bonuses to this check based on factors that make the effect more obvious, such as if the affected creature contradicts itself or agrees to something that doesn't make sense. A vial of pliability elixir appears to be an elixir of truth unless the check made to identify it succeeds by 10 or more.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, charm person, zone of truth; **Cost** 250 gp"
-		]
-	},
-	"feather_token_ram": {
-		"name": "Feather Token (Ram)",
-		"copyof": "feather_token_anchor"
-	},
-	"recondite_holy_symbol": {
-		"name": "Recondite Holy Symbol",
-		"sources": [ "Black Markets" ],
-		"description": [
-			"## Recondite Holy Symbol",
-			"",
-			"{SOURCE Black Markets/23}  ",
-			"**Aura** faint conjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
-			"",
-			"A recondite holy symbol is a silver amulet depicting an old or obscure religious symbol that has long fallen out of common use within the religion in question. Each religion has its own unique obsolete emblems, but older religions are likely to have a greater variety of emblems than newer religions. For example, a recondite holy symbol of Desna might depict a single shining star (as she was sometimes depicted in ancient Azlant) or a silhouetted woman astride an elk (as she is depicted by ancient Kellid tradition), rather than her common butterfly symbol. A successful DC 15 Knowledge (religion) check is required to identify the deity or religion associated with a recondite holy symbol, allowing the wielder to utilize the holy symbol without identifying her faith to the uninformed. When the wielder uses an appropriate recondite holy symbol to channel energy, she gains a +3 competence bonus on Knowledge (religion) checks related to her deity or religion for 1 minute.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, guidance, creator must have at least 5 ranks in Knowledge (religion); **Cost** 250 gp"
-		]
-	},
-	"scabbard_of_honing": {
-		"name": "Scabbard of Honing",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Scabbard of Honing",
-			"",
-			"{SOURCE Ultimate Equipment/318}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
-			"",
-			"This leather scabbard resizes itself to fit any axe, sword, dagger, or similar item normally stored in a scabbard. Sheathing a nonmagical weapon in the scabbard for 1 minute hones its edge as if it had been sharpened with a {equipment-misc/whetstone}.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mending; **Cost** 250 gp"
-		]
-	},
-	"scrap_collectors_strap": {
-		"name": "Scrap Collector's Strap",
-		"sources": [ "Adventurer's Armory 2" ],
-		"description": [
-			"## Scrap Collector's Strap",
-			"",
-			"{SOURCE Adventurer's Armory 2/23}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 500 gp; **Weight** -;",
-			"",
-			"When this leather strap is tied around the grip of a broken weapon, the user can ignore the effects of the broken condition on that weapon. If the weapon loses its remaining hit points, it is destroyed as normal. Tying or untying the strap is a full-round action.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mending; **Cost** 250 gp"
-		]
-	},
-	"sinners_wage": {
-		"name": "Sinner's Wage",
-		"sources": [ "Champions of Corruption" ],
-		"description": [
-			"## Sinner's Wage",
-			"",
-			"{SOURCE Champions of Corruption/31}  ",
-			"**Aura** moderate enchantment; **CL** 7th  ",
-			"**Slot** none; **Price** 500 gp; **Weight** -;",
-			"",
-			"A sinner's wage is a round golden coin with two blank faces. When placed among nonmagical currency, it adopts the size, shape, and any embellishments (such as an engraving or stamp) of the majority of the other coins.",
-			"",
-			"When included as payment for any service that compromises the recipient's morals (such as a bribe for a lawful city guard to look the other way, or a contribution to a good politician to pass dubious legislation), a sinner's wage makes the offered payment more tempting. The giver of the sinner's wage gains a +2 profane bonus on Charisma checks and Bluff, Diplomacy, and Intimidate checks to convince the recipient to perform the service in question. Thus, the item can be used to pay off a guard as well as convince an outsider to perform a service with a planar binding spell (in the latter case, the +2 profane bonus stacks with the bonus normally granted for offering a reward to the outsider).",
-			"",
-			"In addition, a sinner's wage can be used as an optional focus component when the owner casts any charm or compulsion spell of 5th level or lower. When a creature is subject to a spell incorporating this focus, it takes a -2 penalty on all rolls to resist acting against its nature (whether a Will saving throw or a Charisma check). Using the sinner's wage in this fashion temporarily drains the magic from the coin, rendering it unusable for any purpose for a period of 1 week.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, charm monster; **Cost** 250 gp"
-		]
-	},
-	"waxen_image": {
-		"name": "Waxen Image",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Waxen Image",
-			"",
-			"{SOURCE Occult Adventures/265}  ",
-			"**Aura** moderate necromancy; **CL** 7th  ",
-			"**Slot** none; **Price** 500 gp; **Weight** 1/2 lb.",
-			"",
-			"This poorly formed wax figure resembles an unfinished sculpt of a humanoid. It can be bound to a living humanoid in a similar way to a ganji doll, but must be sculpted into the shape of that humanoid and have a piece of that creature's hair, teeth, blood, bone, or flesh pressed into the wax. Those familiar with the target notice the waxen image's resemblance to the target with a DC 15 Perception check.",
-			"",
-			"A waxen image can be blinded, damaged, or targeted with a touch spell in the same way as a ganji doll, except that the bound creature is unaffected if it's farther than 100 feet from the waxen image. A waxen image can be used only once, and melts as soon as it's used.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse; **Cost** 250 gp"
-		]
-	},
-	"wayfinder": {
-		"name": "Wayfinder",
-		"sources": [
-			"Ruins of Azlant Player's Guide",
-			"Pathfinder #2: The Skinsaw Murders",
-			"Pathfinder Campaign Setting",
-			"Seekers of Secrets",
-			"Inner Sea World Guide",
-			"Shattered Star Player's Guide",
-			"Adventurer's Guide"
-		],
-		"description": [
-			"## Wayfinder",
-			"",
-			"{SOURCE Ruins of Azlant Player's Guide/11;Pathfinder #2: The Skinsaw Murders/77;Pathfinder Campaign Setting/195;Seekers of Secrets/50;Inner Sea World Guide/299;Shattered Star Player's Guide/11;Adventurer's Guide/148}  ",
-			"**Aura** faint evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
-			"",
-			"A small magical device patterned on the design of ancient Azlanti relics, a wayfinder is a compact compass typically made from silver and bearing gold accents. While it serves as a badge of office for agents of the [Pathfinder Society](rule/aff_scholars), a wayfinder is as much a handy tool as a status symbol. With a command word, you can cause a wayfinder to shine (as the {spell/light} spell). A wayfinder also acts as a nonmagical (magnetic) compass, granting you a +2 circumstance bonus on Survival checks to avoid becoming lost. All wayfinders feature a small indentation designed to hold a single {magic-wondrous/ioun stone}. An ioun stone slotted in this manner grants you its normal benefits as if it were orbiting your head; some ioun stones can grant additional powers once they are fitted into a wayfinder, at the GM's discretion.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/light}; **Cost** 250 gp"
-		]
-	},
-	"feather_token_whip": {
-		"name": "Feather Token (Whip)",
-		"copyof": "feather_token_anchor"
-	},
-	"seers_tea": {
-		"name": "Seer's Tea",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Seer's Tea",
-			"",
-			"{SOURCE Ultimate Equipment/319}  ",
-			"**Aura** faint divination; **CL** 3rd  ",
-			"**Slot** none; **Price** 550 gp; **Weight** -;",
-			"",
-			"This rich tea can be made from any number of herbs. When the tea is brewed without a filter and imbibed, the drinker can read the patterns in the leaves remaining at the bottom of her cup, gaining the benefits of an augury spell.",
-			"",
-			"Additionally, the unbrewed tea can be used as an extra material component when casting augury, removing the need for a focus. In this case, the caster instead reveals information as if she had cast divination instead.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, augury or divination; **Cost** 275 gp"
-		]
-	},
-	"abjurant_salt": {
-		"name": "Abjurant Salt",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Abjurant Salt",
-			"",
-			"{SOURCE Ultimate Equipment/276}  ",
-			"**Aura** moderate abjuration; **CL** 9th  ",
-			"**Slot** none; **Price** 600 gp; **Weight** 1 lb.",
-			"",
-			"Carried in a tube of beaten silver, this rough-ground salt is a powerful defense against evil conjurers. As a full-round action that provokes attacks of opportunity, the salt can be poured in a circle with a diameter of 5 feet or a straight line up to 15 feet long. While the line of salt remains unbroken and undisturbed, evil summoned or called creatures cannot physically cross it or interfere with it. These creatures can continue to make ranged or magical attacks over the line. Any other creature may disturb the line simply by scuffing it. The effects of the salt last as long as the line remains unbroken. Once laid, the salt cannot be recollected.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against evil}, permanency; **Cost** 300 gp"
-		]
-	},
-	"arrow_magnet": {
-		"name": "Arrow Magnet",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Arrow Magnet",
-			"",
-			"{SOURCE Ultimate Equipment/281}  ",
-			"**Aura** faint abjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"This tiny silver cube is activated by throwing it at an intersection of squares within 50 feet. The cube hovers 5 feet above the ground at that location for the next 5 rounds. Any small projectile or thrown weapon (such as arrows, shuriken, vials, and bullets) that passes through the squares adjacent to the cube automatically turn in midair to hit the cube (no attack roll needed) instead of their intended target. The cube has 5 hit points and hardness 8. If the arrow magnet is touched by a creature or reduced to 0 hit points or less, it falls to the ground and is destroyed.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, protection from arrows; **Cost** 300 gp"
-		]
-	},
-	"bottled_cloud": {
-		"name": "Bottled Cloud",
-		"sources": [ "Seers of the Drowned City" ],
-		"description": [
-			"## Bottled Cloud",
-			"",
-			"{SOURCE Seers of the Drowned City/52}  ",
-			"**Aura** faint conjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"The iridescent, hazy contents of this glass container eddy briefly into different shapes. A bottled cloud can be thrown as a splash weapon. When it strikes, it unleashes a bank of whitish-gray, semi-solid clouds in one of two configurations - a 20-foot-radius cloud or a 40-foot-radius sheet of mist that hovers a few inches above the ground. The user selects which version of the clouds she wishes to create as she throws the bottled cloud.",
-			"",
-			"If the bottled cloud forms a 20-foot-radius cloud, it functions as a {spell/solid fog} spell.",
-			"",
-			"If the bottled cloud is instead used to form a sheet, the layer of mist can be walked upon as if it were solid ground. While the bottled cloud must be thrown against solid ground in order to shatter the container and release the cloud, it can be deliberately poured out on a liquid surface to form a sheet as well. The cloud sheet extends over liquid surfaces, but pours into concavities and holes - one can use a bottled cloud to traverse water, but not a pit or chasm. The sheet of mist also allows safe movement over {equipment-misc/caltrops}, difficult terrain that lies low to the ground (GM's discretion), and other low-lying hazards (such as a sheet of [green slime](rule/slimes_molds_and_fungi)) and traps that are triggered via pressure plates.",
-			"",
-			"Either use of a bottled cloud can be dispersed by a severe wind (31+ mph) in a single round, but otherwise the effect created lasts for 3 minutes.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/solid fog}; **Cost** 300 gp"
-		]
-	},
-	"cathedral_pit_stone": {
-		"name": "Cathedral Pit Stone",
-		"sources": [ "Merchant's Manifest" ],
-		"description": [
-			"## Cathedral Pit Stone",
-			"",
-			"{SOURCE Merchant's Manifest/5}  ",
-			"**Aura** faint conjuration; **CL** 5th  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"A golden ribbon winds around this smooth, ring-shaped piece of basalt, which was created to emulate the pit of the Starstone. The stone can be thrown as a ranged attack with a range increment of 20 feet. When the stone strikes a target, it creates a 10-foot-wide, 20-foot-deep moat, as per create pit, leaving the target on a stone pillar equal in size to its space. Alternatively, the user can target a specific grid intersection (or merely drop the stone, which requires no attack roll) to create a 10-foot-wide, 20-foot-deep moat around the 5-foot square onto which it was thrown or dropped. (If the wielder throws the stone at a target and misses, treat the stone as a splash weapon to determine where it lands.) Each creature that is not the target in the area where a pit is created in this way must succeed at a DC 13 Reflex saving throw to jump to safety in the nearest open space. The pit disappears after 6 rounds. The stone is consumed upon being thrown or dropped.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, create pit; **Cost** 300 gp"
-		]
-	},
-	"dream_journal_of_the_pallid_seer": {
-		"name": "Dream Journal of the Pallid Seer",
-		"sources": [ "Pathfinder #27: What Lies in Dust" ],
-		"description": [
-			"## Dream Journal of the Pallid Seer",
-			"",
-			"{SOURCE Pathfinder #27: What Lies in Dust/57}  ",
-			"**Aura** no aura (or faint divination); **CL** 3rd  ",
-			"**Slot** none; **Price** 600 gp; **Weight** 2 lbs.",
-			"",
-			"This battered, leather-bound book looks like an aged and heavily worn notebook. Anyone reading the journal for an hour or more has strange dreams the following night, the details of which he cannot remember. The following day the character is fatigued. Reading the journal for a total of 24 hours or more causes the reader to have a prophetic dream wherein he sees his own death - though, as before, he cannot remember the details. If a character who has had this vision comes near death at any point afterward, at the moment he is about to die he may reroll any failed saving throw made within the last round or force an opponent to reroll a killing attack. The character must accept the result of the second roll, regardless of its outcome.",
-			"",
-			"Once a character has had the opportunity to avert death, regardless of its success or failure, the journal provides no more benefit and never aids the character again.",
-			"",
-			"The Dream Journal of the Pallid Seer is affected by a permanent magic aura that makes it appear to be nonmagical.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, guidance, magic aura; **Cost** 300 gp"
-		]
-	},
-	"dust_of_darkness": {
-		"name": "Dust of Darkness",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Dust of Darkness",
-			"",
-			"{SOURCE Ultimate Equipment/293}  ",
-			"**Aura** faint evocation; **CL** 3rd  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"This shimmering black dust causes one creature to be coated in a layer of darkness for 1 minute. In normal light, the creature gains concealment (20% miss chance). In dim light, the creature gains total concealment (50% miss chance). It has no effect in areas of bright light or darkness (though in bright light, a viewer can make a DC 20 Perception check to notice the target is slightly shadowed). Creatures with darkvision see through the dust's darkness as if it were normal darkness. The dust dispels and counters the outlining effects of glitterdust, but doesn't affect the spell's blinding effects. Glitterdust dispels and counters the effects of the dust of darkness.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, darkness; **Cost** 300 gp"
-		]
-	},
-	"elixir_of_oppression": {
-		"name": "Elixir of Oppression",
-		"sources": [ "Monster Codex" ],
-		"description": [
-			"## Elixir of Oppression",
-			"",
-			"{SOURCE Monster Codex/21}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"This elixir is normally made from the juice of tomb herald brambles, though other formulae have also been discovered. It allows creatures with the scent ability to smell fear, and instills a bloodlust in the imbiber when it's facing a fearful creature. The imbiber gains a +4 competence bonus on Perception checks made with the scent ability, and a successful DC 15 Perception check allows the imbiber to determine by scent whether a creature is shaken, frightened, or panicked. Once a creature's condition has been identified, the imbiber gains a +2 morale bonus on attack rolls and opposed skill checks against that opponent.",
-			"",
-			"These effects last for 1d4+1 hours. If a creature drinks a second elixir of oppression within 24 hours of the first, it is sickened for 24 hours and does not gain the benefits of the second dose.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, scare; **Cost** 300 gp"
-		]
-	},
-	"evidentiary_dust": {
-		"name": "Evidentiary Dust",
-		"sources": [ "Dungeoneer's Handbook" ],
-		"description": [
-			"## Evidentiary Dust",
-			"",
-			"{SOURCE Dungeoneer's Handbook/28}  ",
-			"**Aura** faint divination; **CL** 4th  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"This light, shimmery blue powder is typically kept in a silk satchel with hemp drawstrings. When tossed into the air, the dust can cover a chamber with up to 100 square feet of floor space, and illuminates all footprints made within that space in the last 24 hours. Illuminated footprints glow softly for 1 hour after the dust is sprinkled and grant a +20 circumstance bonus on Survival checks to follow the tracks. A handful of dust sprinkled along a trail or road illuminates footprints in the same way, and can span as much as 250 feet.",
-			"",
-			"Evidentiary dust cannot reveal footprints of creatures that hid their trail via effects such as dust of tracelessness or a druid's trackless step.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, faerie fire, residual tracking; **Cost** 300 gp"
-		]
-	},
-	"horror_dust": {
-		"name": "Horror Dust",
-		"sources": [ "Monster Codex" ],
-		"description": [
-			"## Horror Dust",
-			"",
-			"{SOURCE Monster Codex/21}  ",
-			"**Aura** faint necromancy; **CL** 3rd  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"Horror dust is the compressed stuff of nightmares. It is contained in a glass vial that can be thrown as a splash weapon with a range increment of 10 feet. It shatters on impact, creating a cloud of hallucinogenic magic in a 20-foot radius that causes victims to suffer terrible visions and hear phantom screams. Targets in this area must succeed at a DC 13 Will save or be shaken for 1d6 rounds. If a creature is directly struck with the horror dust and fails its save, it is also confused for 1 round. Goblinoids actually enjoy the visions created by horror dust, and are immune to its fear effect.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cause fear; **Cost** 300 gp"
-		]
-	},
-	"jar_of_mottled_clay": {
-		"name": "Jar of Mottled Clay",
-		"sources": [ "Daughters of Fury" ],
-		"description": [
-			"## Jar of Mottled Clay",
-			"",
-			"{SOURCE Daughters of Fury/61}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 600 gp; **Weight** 1 lb.",
-			"",
-			"This empty clay jar, suitable for holding a few ounces of liquid, smells of freshly tilled earth and changes hue in sunlight. A jar of mottled clay can be thrown as a ranged touch attack with a range increment of 10 feet.",
-			"",
-			"When the jar strikes a creature or a solid object, a mound of earth and clay rises up from where it struck. The mound is 5 feet wide and 10 feet tall, and has a hardness of 2 and 40 hit points. A creature struck by a direct hit must succeed at a DC 13 Reflex save or be pushed back 5 feet and knocked prone as the mound erupts where the target was standing. Success allows the creature struck to move 5 feet in any direction and avoid being knocked prone.",
-			"",
-			"The mound lasts for 3 rounds before losing its structure and collapsing into a pile of dirt. A creature can topple a mound with a successful DC 18 Strength check; creatures within 10 feet on the opposite side of the mound must attempt Reflex saves as if directly struck by the jar of mottled clay. When a mound collapses or is destroyed, it creates difficult terrain in a 5-foot-radius area centered on the square where it was created.",
-			"",
-			"A jar of mottled clay can optionally be filled with an alchemical item. Filling a jar requires a successful DC 15 Craft (alchemy) check. When thrown, a modified jar applies the effects of the alchemical item along with its own effect; contradictory or bizarre combinations of effects are subject to the GM's discretion.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, soften earth and stone; **Cost** 300 gp"
-		]
-	},
-	"perfect_tuning_fork": {
-		"name": "Perfect Tuning Fork",
-		"sources": [ "Inner Sea Gods" ],
-		"description": [
-			"## Perfect Tuning Fork",
-			"",
-			"{SOURCE Inner Sea Gods/267}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"Shelyn's association with harmony and music inspires many composers to pen glorious songs in the Eternal Rose's honor, and numerous tools have been devised by her church to improve the performances of such melodies. The perfect tuning fork provides the ideal pitch to quickly begin an inspirational tune. When holding a perfect tuning fork in the hand, the wielder can strike the fork as part of the action of beginning a bardic performance. If the wielder can start a bardic performance as a standard action, she can do so as a move action instead. If the wielder can start a bardic performance as a move action, she can do so as a swift action instead. A perfect tuning fork loses its magic after one use, but it can be used as an ordinary tuning fork thereafter.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, haste; **Cost** 300 gp"
-		]
-	},
-	"spire_transport_token": {
-		"name": "Spire Transport Token",
-		"sources": [ "The Emerald Spire Superdungeon" ],
-		"description": [
-			"## Spire Transport Token",
-			"",
-			"{SOURCE The Emerald Spire Superdungeon/20}  ",
-			"**Aura** moderate conjuration; **CL** 7th  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"This small token is a thumb-sized cylinder of unbreakable greenish glass. A Spire transport token allows the bearer to use the Emerald Spire's transport function. The bearer can teleport to a level only if she knows and speaks its identifying rune.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dimension door, a small shard chipped from the Emerald Spire; **Cost** 300 gp"
-		]
-	},
-	"storytellers_dust": {
-		"name": "Storyteller's Dust",
-		"sources": [ "Advanced Class Guide" ],
-		"description": [
-			"## Storyteller's Dust",
-			"",
-			"{SOURCE Advanced Class Guide/236}  ",
-			"**Aura** faint illusion; **CL** 2nd  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"This dust is kept in gaudy bags, but is a simple white powder. When thrown into a fire, it conjures a visible theater of the mind (as minor image) within a 10-foot cube above the flames. The user can manipulate this illusion, which lasts for 2 hours or until the user banishes the scene. The user gains a +2 bonus on all Performance checks to tell a story using the image created by the dust.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, minor image; **Cost** 300 gp"
-		]
-	},
-	"feather_token_tar_and_feathers": {
-		"name": "Feather Token (Tar and Feathers)",
-		"copyof": "feather_token_anchor"
-	},
-	"wanderlust_map": {
-		"name": "Wanderlust Map",
-		"sources": [ "Heroes from the Fringe" ],
-		"description": [
-			"## Wanderlust Map",
-			"",
-			"{SOURCE Heroes from the Fringe/29}  ",
-			"**Aura** faint divination and transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 600 gp; **Weight** -;",
-			"",
-			"Often used by the halflings of Segada looking to escape their insular home city and satisfy their wanderlust, these maps appear as ordinary parchment. A user of a wanderlust map can spend 1 uninterrupted hour holding the map and thinking about exploring a region within 1,000 miles. After this time has passed, the wanderlust map turns into a detailed map of that area, granting a +5 bonus on exploration checks in that region. A wanderlust map shows only geographical features of a specific area. Once a wanderlust map has turned into a detailed map, it cannot be used to map a different region.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/commune with nature}, {spell/secret page}; **Cost** 300 gp"
-		]
-	},
-	"exorcist_ofuda": {
-		"name": "Exorcist Ofuda",
-		"sources": [ "Merchant's Manifest" ],
-		"description": [
-			"## Exorcist Ofuda",
-			"",
-			"{SOURCE Merchant's Manifest/24}  ",
-			"**Aura** faint abjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 650 gp; **Weight** -;",
-			"",
-			"This paper slip covered with holy writings can be used to protect against lingering evil. A creature holding an exorcist ofuda gains a +3 bonus on Perception checks to notice a haunt when the haunt's effects manifest. Additionally, as a standard action the exorcist ofuda can be triggered to grant all allies within 30 feet a +2 sacred bonus on saving throws and a +2 deflection bonus to AC against a haunt's effects for 1 round. Triggering the ofuda this way destroys it in a gout of flame.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/protection from evil}; **Cost** 325 gp"
-		]
-	},
-	"poltergeist_knot": {
-		"name": "Poltergeist Knot",
-		"sources": [ "Daughters of Fury" ],
-		"description": [
-			"## Poltergeist Knot",
-			"",
-			"{SOURCE Daughters of Fury/62}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 650 gp; **Weight** 1/2 lb.",
-			"",
-			"This hopelessly knotted ball of golden twine defies any efforts to untangle it, forming new snarls out of nowhere just when it appears to be nearly unraveled.",
-			"",
-			"On command, the twine unrolls and snakes out through the air toward a target within 50 feet. Unless the target succeeds at a DC 13 Reflex save to avoid the poltergeist knot, at the twine's touch, the bindings of any containers the target is carrying (packs, pouches, sheaths, quivers, and so on) come undone and all their contents are swept up in a whirlwind, performing a madcap dance around the target's head.",
-			"",
-			"Anyone can grab an item as it spins by succeeding at a steal combat maneuver against a CMD of 12. In addition, the spinning objects obstruct the target's sight; other creatures gain concealment against attacks made by the target. The equipment moves with the victim, whirling around her head for 3 rounds before falling to the ground.",
-			"",
-			"A poltergeist knot affects laces and buckles only on exterior containers - bottles in a pouch or a bag of caltrops in a backpack, for example, are swept into the whirlwind but don't spill their contents. The poltergeist knot works on inanimate objects, but can't open locks. A creature who isn't carrying a significant amount of gear may be immune to the poltergeist knot's effect, at the GM's discretion.",
-			"",
-			"Once used, the knot loses its magic and becomes 50 feet of tangle, mundane twine.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, open/close, pilfering hand; **Cost** 325 gp"
-		]
-	},
-	"riffle_scroll_3rd_level_spell": {
-		"name": "Riffle Scroll (3rd-Level Spell)",
-		"copyof": "riffle_scroll_cantrip"
-	},
-	"riffle_scroll_4th_level_spell": {
-		"name": "Riffle Scroll (4th-Level Spell)",
-		"copyof": "riffle_scroll_cantrip"
-	},
-	"riffle_scroll_5th_level_spell": {
-		"name": "Riffle Scroll (5th-Level Spell)",
-		"copyof": "riffle_scroll_cantrip"
-	},
-	"riffle_scroll_6th_level_spell": {
-		"name": "Riffle Scroll (6th-Level Spell)",
-		"copyof": "riffle_scroll_cantrip"
-	},
-	"riffle_scroll_7th_level_spell": {
-		"name": "Riffle Scroll (7th-Level Spell)",
-		"copyof": "riffle_scroll_cantrip"
-	},
-	"riffle_scroll_8th_level_spell": {
-		"name": "Riffle Scroll (8th-Level Spell)",
-		"copyof": "riffle_scroll_cantrip"
-	},
-	"focusing_flask": {
-		"name": "Focusing Flask",
-		"sources": [ "Alchemy Manual" ],
-		"description": [
-			"## Focusing Flask",
-			"",
-			"{SOURCE Alchemy Manual/16}  ",
-			"**Aura** moderate transmutation; **CL** 7th  ",
-			"**Slot** none; **Price** 700 gp; **Weight** 1 lb.",
-			"",
-			"This round, rainbow-hued glass flask allows up to three alchemical splash weapons of the same type to be poured into it, concentrating them such that they never increase its weight noticeably. If multiple types of alchemical items are poured in, all the contents are ruined. The flask can be thrown as a normal splash weapon, and when it breaks, it releases all of the contained splash weapons in the same space, and the focusing flask is destroyed. If the items held within the flask normally allow a saving throw to reduce or negate the effects, the target of a focusing flask needs to succeed at only a single saving throw, regardless of the number of items held within the focusing flask. The DC of the saving throw increases by 2 if the flask contains two alchemical items, or by 4 if it contains three items.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shrink item; **Cost** 350 gp"
-		]
-	},
-	"globe_of_moonlight": {
-		"name": "Globe of Moonlight",
-		"sources": [ "Blood of the Moon" ],
-		"description": [
-			"## Globe of Moonlight",
-			"",
-			"{SOURCE Blood of the Moon/31}  ",
-			"**Aura** moderate enchantment and evocation; **CL** 7th  ",
-			"**Slot** none; **Price** 700 gp; **Weight** 1 lb.",
-			"",
-			"Silvery, pearlescent light seeps out of this skull-sized glass orb. When shattered (a standard action), the globe floods a 30-foot-radius burst in moonlight. Creatures that are affected by the light of the full moon (such as an afflicted lycanthrope) are affected as if exposed to such light, and effects that rely on moonlight function within range of this effect. This moonlight persists for 1 minute, is treated as dim light (replacing any current illumination in the area), and is equivalent to a 4th-level light spell for the purpose of interacting with other light or darkness effects.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, light, moonstruck; **Cost** 350 gp"
-		]
-	},
-	"poison_popcushion": {
-		"name": "Poison Popcushion",
-		"sources": [ "Magical Marketplace" ],
-		"description": [
-			"## Poison Popcushion",
-			"",
-			"{SOURCE Magical Marketplace/13}  ",
-			"**Aura** faint conjuration (creation); **CL** 3rd  ",
-			"**Slot** none; **Price** 700 gp; **Weight** 2 lbs.",
-			"",
-			"This squishy, gel-filled sack is the size of a fist, and its exterior is covered with countless tiny metal studs. When set on the ground or somewhere else within line of sight, a poison popcushion can be targeted with a melee or ranged attack (hardness 0, AC 7). A successful attack causes the poison popcushion to explode, sending a spray of needles everywhere within a 10-foot-radius burst and dealing 1d4+1 points of piercing damage to creatures caught in the area each round for 1d3 rounds. A successful DC 13 Reflex save halves this damage. Additionally, a poison popcushion can be loaded with an injury poison before it is placed. Fully loading a poison popcushion takes 3 doses of poison (not included in the price). In addition to dealing damage, a loaded poison popcushion affects struck creatures with the poison stored within, though the Fortitude save DC to save against this poison is 4 lower than the poison's usual DC.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, arrow eruption; **Cost** 350 gp"
-		]
-	},
-	"pyre_salt": {
-		"name": "Pyre Salt",
-		"sources": [ "Path of the Hellknight" ],
-		"description": [
-			"## Pyre Salt",
-			"",
-			"{SOURCE Path of the Hellknight/39}  ",
-			"**Aura** moderate transmutation; **CL** 7th  ",
-			"**Slot** none; **Price** 700 gp; **Weight** -;",
-			"",
-			"Said to be crafted from witches' tears and the ashes of burned heretics, pyre salt is composed of glistening black-and-white granules and smells of smoke. It typically comes in a narrow glass vial containing one use. When pyre salt is cast into any magical or mundane flame whose area is at least 10 feet by 10 feet, the fire in that area deals double the normal amount of damage to any objects or creatures in that space for 1 round. Pyre salt cannot be activated by fire spells or effects cast onto it.",
-			"",
-			"Additionally, any objects or creatures destroyed by the affected fire prove exceptionally difficult to restore. Anyone who casts mending, make whole, or a similar spell on an object destroyed by the fire must first succeed at a DC 20 caster level check or the spell fails. By the same token, anyone who casts raise dead, resurrection, or a similar spell on a creature killed by the fire must also succeed at a DC 20 caster level check or the spell fails.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, death knell, pyrotechnics; **Cost** 350 gp"
-		]
-	},
-	"swarm_bullet": {
-		"name": "Swarm Bullet",
-		"sources": [ "Ranged Tactics Toolbox" ],
-		"description": [
-			"## Swarm Bullet",
-			"",
-			"{SOURCE Ranged Tactics Toolbox/29}  ",
-			"**Aura** moderate conjuration; **CL** 7th  ",
-			"**Slot** none; **Price** 700 gp; **Weight** -;",
-			"",
-			"This small brass cylinder is inscribed with a symbol of a honeycomb, and a faint buzzing sound can be heard from within. A swarm bullet can be loaded into a weapon with the scatter weapon quality, such as a blunderbuss, as though it were ammunition. When fired, the weapon produces a wasp swarm that immediately moves to attack the nearest living target in a 15-foot cone. The wasp swarm acts on the shooter's turn each round, pursuing the closest living creature for 3 rounds or until it's destroyed. Should the weapon misfire while loaded with a swarm bullet, the swarm instead angrily emerges from the weapon and pursues the wielder.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, vomit swarm; **Cost** 350 gp"
-		]
-	},
-	"campfire_bead": {
-		"name": "Campfire Bead",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
-		"description": [
-			"## Campfire Bead",
-			"",
-			"{SOURCE Ultimate Equipment/286;Advanced Player's Guide/302}  ",
-			"**Aura** faint evocation; **CL** 1st  ",
-			"**Slot** none; **Price** 720 gp; **Weight** -;",
-			"",
-			"This tiny glass bead transforms itself into a small (2-foot-tall) pile of burning logs whenever its command word is spoken. The fire burns for 8 hours or until extinguished, at which point it turns back into a bead. The owner of the item must wait twice as long as the fire burned before he can order the bead to become a campfire again.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, produce flame; **Cost** 360 gp"
-		]
-	},
-	"kitharodian_pen": {
-		"name": "Kitharodian Pen",
-		"sources": [ "Inner Sea Intrigue" ],
-		"description": [
-			"## Kitharodian Pen",
-			"",
-			"{SOURCE Inner Sea Intrigue/54}  ",
-			"**Aura** faint transmutation; **CL** 1st  ",
-			"**Slot** none; **Price** 720 gp; **Weight** -;",
-			"",
-			"The Kitharodian pen is an ink pen that produces its own ink and never needs to be refilled. The user or last person to touch the pen can speak a command word to cause it to begin taking dictation, recording all words audible from its square. The pen has a Perception modifier of +0 and can write in all languages but does not translate or enable its user to read what it has written. If held in hand, the user can relax while the pen writes, seeming to be taking the dictation, but the pen ceases to move of its own accord as long as the user intentionally attempts to control its movements. The pen writes as quickly as the words are spoken, but if multiple creatures speak over each other, each speaker must attempt a Charisma check each round and the pen transcribes only the words of the speaker with the highest result. A different command word causes the pen to cease writing. The pen transcribes for up to 1 hour per day in 10-minute increments.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self, unseen servant; **Cost** 360 gp"
-		]
-	},
-	"kitsune_star_gem_1st": {
-		"name": "Kitsune Star Gem (1st)",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"## Kitsune Star Gem",
-			"",
-			"{SOURCE Advanced Race Guide/193}  ",
-			"**Aura** faint transmutation; **CL** 1st (1st), 3rd (2nd), or 5th (3rd)  ",
-			"**Slot** none; **Price** 750 gp (1st), 3,000 gp (2nd), 6,750 gp (3rd); **Weight** -;",
-			"",
-			"This magical jewel glows like faerie fire, shedding light as a candle. It acts as pearl of power, except it only allows a kitsune to recover a spent use of a spell-like ability of the appropriate spell level.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, creator must be a kitsune; **Cost** 365 gp (1st), 1,500 gp (2nd), or 3,375 gp (3rd)"
-		]
-	},
-	"kitsune_star_gem_2nd": {
-		"name": "Kitsune Star Gem (2nd)",
-		"copyof": "kitsune_star_gem_1st"
-	},
-	"kitsune_star_gem_3rd": {
-		"name": "Kitsune Star Gem (3rd)",
-		"copyof": "kitsune_star_gem_1st"
-	},
-	"archons_torch": {
-		"name": "Archon's Torch",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Archon's Torch",
-			"",
-			"{SOURCE Ultimate Equipment/281}  ",
-			"**Aura** faint evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** 1 lb.",
-			"",
-			"This torch is made of pale yellow wood and inscribed with holy runes. When lit, it burns as a regular torch, but only lasts for 5 minutes. When held by a lawful good creature, it functions as an archon's aura spell. The magical aura ends if a lawful good creature isn't holding it, and resumes automatically if a lawful good creature holds it again.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, archon's aura; **Cost** 375 gp"
-		]
-	},
-	"aspis_badge_of_last_resort": {
-		"name": "Aspis Badge of Last Resort",
-		"sources": [ "Adventurer's Guide" ],
-		"description": [
-			"## Aspis Badge of Last Resort",
-			"",
-			"{SOURCE Adventurer's Guide/36}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 750 gp; **Weight** -;",
-			"",
-			"This badge depicts the [Aspis Consortium's](rule/aff_profiteers) insignia: a coiled serpent. By speaking a command word, the wearer can transform the badge into one of five tools, selected from the following:",
-			"",
-			"- A masterwork light steel shield bearing the Aspis insignia",
-			"- A masterwork whip",
-			"- A dagger poisoned with a dose of blue whinnis",
-			"- A 50-foot silk rope with a grappling hook",
-			"- A set of masterwork thieves' tools",
-			"",
-			"The badge remains in the chosen form for up to 24 hours or until it is commanded to return to its natural shape. Each form retains the badge's metallic hue, and the badge can transform in this way only five times before it loses its magical properties forever, becoming a mundane Aspis badge.",
-			"",
-			"Most Aspis badges of last resort are bronze, yet some higher-ranking agents commission badges made of silver or gold. Most of these badges also have a unique array of objects they can turn into - including weapons and shields with magical properties.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate; **Cost** 375 gp"
-		]
-	},
-	"assassins_dust": {
-		"name": "Assassin's Dust",
-		"sources": [ "Advanced Class Guide" ],
-		"description": [
-			"## Assassin's Dust",
-			"",
-			"{SOURCE Advanced Class Guide/226}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** -;",
-			"",
-			"This fine dust causes bare skin that it comes in contact with to burn and tingle. When sprinkled on a corpse or an inanimate skeleton, it causes the dead flesh and bones to disintegrate into a fine brown powder similar to that left by a disintegrate spell. Assassin's dust comes in a small vial suitable for treating eight Small corpses, four Medium corpses, or one Large corpse. A skeletal corpse counts as half a corpse of its size. This dust has no effect on living or undead creatures.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disintegrate; **Cost** 375 gp"
-		]
-	},
-	"bottle_of_shifting_sand": {
-		"name": "Bottle of Shifting Sand",
-		"sources": [ "Pathfinder #81: Shifting Sands" ],
-		"description": [
-			"## Bottle of Shifting Sand",
-			"",
-			"{SOURCE Pathfinder #81: Shifting Sands/58}  ",
-			"**Aura** faint transmutation [earth]; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** 1 lb.",
-			"",
-			"This ornate glass bottle is filled with loose sand. A bottle of shifting sand can be thrown as a splash weapon targeting a specific grid intersection. Treat this attack as a ranged touch attack with a range increment of 10 feet. If thrown on an earthen or sandy surface, the bottle breaks, creating an area of churning, shifting sand in a 20-foot spread that obliterates tracks and is considered difficult terrain. Acrobatics checks in the area take a -5 penalty. Creatures entering or beginning their turn in the affected area must succeed at a DC 14 Reflex save each round or become entangled until the beginning of their next turn. If they attempt to move while entangled, they must succeed at a second Reflex save or fall prone. At the end of 5 rounds, the sand disappears, leaving no after-effects.",
-			"",
-			"If a bottle of shifting sand is thrown at a creature, a direct hit instead throws up a cloud of whirling sand that surrounds the creature. This cloud of sand provides concealment to the target and any creatures in adjacent squares for 1 round, but has no effect on the surrounding terrain.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shifting sand; **Cost** 375 gp"
-		]
-	},
-	"charmers_kiss": {
-		"name": "Charmer's Kiss",
-		"sources": [ "Inner Sea Intrigue" ],
-		"description": [
-			"## Charmer's Kiss",
-			"",
-			"{SOURCE Inner Sea Intrigue/53}  ",
-			"**Aura** moderate enchantment; **CL** 7th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** -;",
-			"",
-			"This small stick of colored wax is encased in a wooden cylinder to allow for easier application to the lips. As a standard action, a dose of charmer's kiss can be applied to the user's lips; this dose lasts for 4 hours or until discharged. During that time, the user can deliver the lipstick to one target creature as a standard action (for willing targets) or a melee touch attack. The target of this attack must succeed at a DC 16 Will saving throw or be affected by charm monster for 7 minutes. A target of a creature type different from the wearer receives a +2 bonus on this saving throw. One stick of charmer's kiss has enough wax for 3 doses. This is a mind-affecting charm and poison effect.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, charm monster; **Cost** 375 gp"
-		]
-	},
-	"fugitives_grenade": {
-		"name": "Fugitive's Grenade",
-		"sources": [ "Pathfinder #50: Night of Frozen Shadows" ],
-		"description": [
-			"## Fugitive's Grenade",
-			"",
-			"{SOURCE Pathfinder #50: Night of Frozen Shadows/60}  ",
-			"**Aura** faint conjuration and transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 750 gp; **Weight** -",
-			"",
-			"These small grenades are made from hollowed eggshells filled with assorted powders and reagents and inscribed with magical glyphs. When broken, a fugitive's grenade creates a 10-foot-radius cloud that lasts for 2 rounds. This cloud is otherwise identical to a fog cloud. A single smoke tendril in the center of the cloud forms a solid-feeling rope, 20 feet long, that functions as a rope trick spell. When the smoke cloud dissipates, so does the smoke rope, though the rope trick's extradimensional space remains for its full duration. Once the smoke rope disperses, any creatures inside the extradimensional space must jump or climb out by other means. A fugitive's grenade may be thrown as a ranged touch attack with a range increment of 10 feet.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fog cloud, rope trick; **Cost** 375 gp"
-		]
-	},
-	"greensurge_bomb": {
-		"name": "Greensurge Bomb",
-		"sources": [
-			"Ultimate Wilderness",
-			"Heroes of the Wild"
-		],
-		"description": [
-			"## Greensurge Bomb",
-			"",
-			"{SOURCE Ultimate Wilderness/251;Heroes of the Wild/28}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** 1 lb.",
-			"",
-			"A greensurge bomb is a small, magically and alchemically treated plant bulb with a root growth that forms a handle. The bomb can be thrown like a splash weapon with a range increment of 10 feet. When the bomb strikes the ground, it bursts open, scattering weeds in a 10-foot radius. At the beginning of the thrower's next turn, the weeds rapidly grow into thick undergrowth, creating an area of difficult terrain. The weeds flourish regardless of the surrounding natural terrain (even in urban settings or on hard rock floors) but don't grow on damaging surfaces, such as pools of lava or acid. The new vegetation lasts for 5 minutes before it turns brown and crumbles to dust.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plant growth; **Cost** 375 gp"
-		]
-	},
-	"honeytongue_elixir": {
-		"name": "Honeytongue Elixir",
-		"sources": [ "Pathfinder Society Primer" ],
-		"description": [
-			"## Honeytongue Elixir",
-			"",
-			"{SOURCE Pathfinder Society Primer/24}  ",
-			"**Aura** moderate transmutation; **CL** 7th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
-			"",
-			"Drinking this elixir grants the imbiber a +10 bonus on Bluff checks made to convince another that her words are the truth. This bonus lasts for 10 minutes, and doesn't apply to any other use of the Bluff skill, such as feinting in combat, creating a diversion to hide, or communicating a secret message via innuendo.",
-			"",
-			"If a magical effect is used against the honeytongue elixir's imbiber that would detect her lies or force her to speak the truth, the user of the effect must succeed at a DC 16 caster level check to compel the elixir's imbiber to tell the truth. Failure means the effect doesn't detect the imbiber's lies or force her to tell the truth.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, glibness; **Cost** 375 gp"
-		]
-	},
-	"iron_rope": {
-		"name": "Iron Rope",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Iron Rope",
-			"",
-			"{SOURCE Ultimate Equipment/306}  ",
-			"**Aura** faint transmutation; **CL** 4th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** 1 lb.",
-			"",
-			"When the end of this gray hemp rope is held and the command word is uttered, it is irrevocably transmuted into solid iron. The transmuted rope loses all magic and has the hardness and hit points of a normal inch-thick iron bar. When crafted, the rope is 25 feet long, but can be cut up to three times and each section of rope can be commanded to harden individually.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate rope; **Cost** 375 gp"
-		]
-	},
-	"book_of_extended_summoning_lesser": {
-		"name": "Book of Extended Summoning (Lesser)",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Book of Extended Summoning",
-			"",
-			"{SOURCE Ultimate Equipment/283}  ",
-			"**Aura** strong conjuration; **CL** 17th  ",
-			"**Slot** none; **Price** 750 gp (Lesser), 2,750 gp (Normal), 6,126 gp (Greater); **Weight** 1 lb.",
-			"",
-			"This leather-bound book is inscribed with runes relating to outsiders and conjuration magic. It enhances spells that summon monsters. The user may apply the {feat/Extend Spell} feat to these spells as they are cast. This does not change the spell slot of the altered spell. The book counts as a metamagic rod for the purpose of combining multiple metamagic effects on a spell. A normal book of extended summoning can be used with spells of 6th level or lower, while a lesser book can be used with spells of 3rd level or lower, and a greater book can be used with spells of 9th level or lower. Each book is keyed to a particular alignment (equal chances of chaotic, evil, good, or lawful) and only works when used to summon a creature with that alignment. Once the book is used, it crumbles into cold ash and is destroyed.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Extend Spell, [summon monster I](spell/summon_monster_1); **Cost** 375 gp (Lesser), 1,375 gp (Normal), 3,063 gp (Greater)"
-		]
-	},
-	"lesser_book_of_extended_summoning": {
-		"copyof": "book_of_extended_summoning_lesser"
-	},
-	"book_of_extended_summoning_normal": {
-		"name": "Book of Extended Summoning (Normal)",
-		"copyof": "book_of_extended_summoning_lesser"
-	},
-	"normal_book_of_extended_summoning": {
-		"copyof": "book_of_extended_summoning_normal"
-	},
-	"book_of_extended_summoning_greater": {
-		"name": "Book of Extended Summoning (Greater)",
-		"copyof": "book_of_extended_summoning_lesser"
-	},
-	"greater_book_of_extended_summoning": {
-		"copyof": "book_of_extended_summoning_greater"
-	},
-	"levitating_land_mine": {
-		"name": "Levitating Land Mine",
-		"sources": [ "Kobolds of Golarion" ],
-		"description": [
-			"## Levitating Land Mine",
-			"",
-			"{SOURCE Kobolds of Golarion/31}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** 3 lbs.",
-			"",
-			"Once the command word is spoken, this steel disc burrows 3 inches into the ground. To find it, a character with the trapfinding ability must succeed at a DC 25 Perception check. Planting the mine is a full-round action that provokes attacks of opportunity.",
-			"",
-			"Once the mine is set, any creature that steps into its square must succeed at a DC 14 Will save or the mine levitates the creature 5 inches above the ground. A levitated creature can attack but not move, is denied its Dexterity bonus to AC, and takes a -4 penalty to CMD against bull rush, drag, and reposition combat maneuvers. Flying creatures are immune. The creature can attempt a new save each round to end the effect. The effect ends after 5 rounds, with a successful DC 25 Disable Device check, or with a successful saving throw. The land mine is destroyed when the effect ends.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hostile levitation, snare; **Cost** 375 gp"
-		]
-	},
-	"machinebane_oil": {
-		"name": "Machinebane Oil",
-		"sources": [ "Construct Handbook" ],
-		"description": [
-			"## Machinebane Oil",
-			"",
-			"{SOURCE Construct Handbook/19}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
-			"",
-			"This vial of shimmering violet unguent is an effective weapon against constructs crafted from metal. A creature can throw the vial at a construct as a ranged touch attack with a range of 20 feet. On a hit, the oil immediately penetrates the metal construct and wreaks havoc on its inner workings. The construct must succeed at a DC 15 Reflex save or become staggered for the next 5 rounds. If the construct fails the initial save, it must attempt an additional save at the beginning of its turn for the next 5 rounds, taking 2 points of Dexterity damage on each failure. A construct struck by machinebane oil immediately loses the benefits of {magic-wondrous/energizing salve}.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/disable construct}; **Cost** 750 gp"
-		]
-	},
-	"polish_of_inconspicuous_armor": {
-		"name": "Polish of Inconspicuous Armor",
-		"sources": [
-			"Ultimate Intrigue",
-			"Pathfinder Society Primer"
-		],
-		"description": [
-			"## Polish of Inconspicuous Armor",
-			"",
-			"{SOURCE Ultimate Intrigue/250;Pathfinder Society Primer/25}  ",
-			"**Aura** faint conjuration; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
-			"",
-			"This pungent, tar-black armor polish comes in a small, circular tin. The 1 dose contained in the tin is enough to apply to a single Medium suit of armor or two Small suits of armor. Applying the polish takes 10 minutes, during which time the user must visualize an alternative appearance for the armor to take on, such as a normal set of clothes or another set of armor. After the polish is applied, its noxious scent dissipates and the armor appears the way the user visualized, as the glamered magic armor special ability. The armor maintains all properties other than its physical appearance, including weight, armor check penalty, and maximum Dexterity bonus. This effect remains for 24 hours before wearing off.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self; **Cost** 375 gp"
-		]
-	},
-	"skill_slug": {
-		"name": "Skill Slug",
-		"sources": [ "Pathfinder Goblins #1" ],
-		"description": [
-			"## Skill Slug",
-			"",
-			"{SOURCE Pathfinder Goblins #1/29}  ",
-			"**Aura** faint divination; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** -;",
-			"",
-			"Skill slugs are tiny, segmented parasites incubated primarily in the exposed brains of imprisoned {monster/caulborn}. Long as a baby's finger and twice as plump, these quivering gastropods draw sustenance from the memory fragments extracted from the caulborn. A measure of those memories lives on within the slug. When consumed, the skill slug grants a +10 competence bonus on a single Intelligence-based skill for 1 hour. Each slug's associated skill is determined at the time of its creation, and cannot be changed. The swallower counts as trained in the skill even if he does not have ranks in it.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/share memory}; **Cost** 375 gp"
-		]
-	},
-	"snapleaf": {
-		"name": "Snapleaf",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Snapleaf",
-			"",
-			"{SOURCE Ultimate Equipment/319}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** -;",
-			"",
-			"This crystalline carving looks like a hand-sized tree leaf. It is usually worn around the neck on a strap so it is within easy reach, but can be affixed to a belt or clothing just like a badge. While falling, the bearer can snap and destroy the snapleaf as an immediate action to gain the benefits of feather fall and invisibility. The duration of the two effects work independently; ending one early does not affect the other. The item cannot be activated to provide just one of these two effects; they are always activated simultaneously.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, feather fall, invisibility; **Cost** 375 gp"
-		]
-	},
-	"spiteful_cookie": {
-		"name": "Spiteful Cookie",
-		"sources": [ "Pathfinder #67: The Snows of Summer" ],
-		"description": [
-			"## Spiteful Cookie",
-			"",
-			"{SOURCE Pathfinder #67: The Snows of Summer/61}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 750 gp; **Weight** -;",
-			"",
-			"These appealing treats usually come wrapped in wax paper, sealed with a drop of red wax embossed with the face of a smiling child. Made from sugar and bone meal, spiteful cookies can be made in a variety of shapes, such as humanoid creatures, dragons, or other legendary beasts. When the seal is broken and the cookie unwrapped, the creature that unwrapped the cookie must succeed at a DC 12 Will save or be compelled to eat the spiteful cookie. While initially quite tasty, the treat soon turns to ash, cursing the victim to starvation for the next 6 days, as the feast of ashes spell.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, beguiling gift, feast of ashes; **Cost** 375 gp"
-		]
-	},
-	"stalagmite_seed": {
-		"name": "Stalagmite Seed",
-		"sources": [ "Magical Marketplace" ],
-		"description": [
-			"## Stalagmite Seed",
-			"",
-			"{SOURCE Magical Marketplace/29}  ",
-			"**Aura** moderate transmutation; **CL** 7th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
-			"",
-			"These dense pebbles are sometimes used by drow skirmishers for both offense and defense. If a stalagmite seed is thrown, it has a range increment of 20 feet. If it's slung, treat it as a sling bullet. If the attack misses, roll for misdirection as if it were a splash weapon.",
-			"",
-			"When a stalagmite seed strikes a natural stone surface, a stone stalagmite immediately emerges where it landed, filling the 5-foot square and growing to 10 feet in height. Any creature occupying the square takes 5d6 points of piercing and bludgeoning damage and is knocked prone. Any creature that succeeds at a DC 14 Reflex save takes half damage and is not knocked prone.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, magic stone, stone shape; **Cost** 375 gp"
-		]
-	},
-	"thoqqua_snake": {
-		"name": "Thoqqua Snake",
-		"sources": [ "Magical Marketplace" ],
-		"description": [
-			"## Thoqqua Snake",
-			"",
-			"{SOURCE Magical Marketplace/21}  ",
-			"**Aura** faint conjuration; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** -;",
-			"",
-			"When burned, this firework produces smoke as a smokestick. It also expands into a tube of ash that, after 1 round, takes the form of a thoqqua. The thoqqua attacks the user's opponents to the best of its ability. If the user speaks Ignan, she can direct the thoqqua to not attack, to attack particular enemies, or to perform other actions. After 5 rounds or when it is reduced to 0 hit points (whichever comes first), the thoqqua collapses into a pile of nonmagical ash.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster III](spell/summon_monster_3); **Cost** 375 gp"
-		]
-	},
-	"trapped_puzzle_box": {
-		"name": "Trapped Puzzle Box",
-		"sources": [ "Kobolds of Golarion" ],
-		"description": [
-			"## Trapped Puzzle Box",
-			"",
-			"{SOURCE Kobolds of Golarion/31}  ",
-			"**Aura** faint evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
-			"",
-			"Solving this simple kinetic puzzle involves removing several pegs from a handheld wooden cube. However, removing the final peg triggers the magical trap. The box explodes in the victim's hands, dealing 6d6 points of fire damage (Reflex DC 14 for half damage). Detecting that the box is trapped requires a successful DC 30 Perception check made by a character with the trapfinding ability, and disabling it requires a successful DC 30 Disable Device check.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, explosive runes; **Cost** 375 gp"
-		]
-	},
-	"bottled_yeti_fur": {
-		"name": "Bottled Yeti Fur",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Bottled Yeti Fur",
-			"",
-			"{SOURCE Ultimate Equipment/285}  ",
-			"**Aura** faint abjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 800 gp; **Weight** -;",
-			"",
-			"This small opaque flask releases a thick stream of coarse white fur when opened. This fur creeps up the user's arm and across her entire body until she is completely covered in a tangled pelt. While coated with this fur she gains cold resistance 5, a +2 natural armor bonus to AC, and a +4 competence bonus on Stealth checks in areas of ice and snow. This fur sheds from her body after 24 hours, or can be removed early by soaking it in alcohol. The flask is expended after one use.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, barkskin, resist energy; **Cost** 400 gp"
-		]
-	},
-	"defoliant_polish": {
-		"name": "Defoliant Polish",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
-		"description": [
-			"## Defoliant Polish",
-			"",
-			"{SOURCE Ultimate Equipment/291;Advanced Player's Guide/304}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 800 gp; **Weight** -;",
-			"",
-			"This container of sickly gray paste can coat the armor of one Medium or two Small creatures. Affected objects produce dark gray fumes for the next 24 hours. These fumes cause natural plants to wilt and diminish as soon as they come into contact with the affected armor. This allows the wearer to move through terrain made difficult due to the presence of vegetation as if it were normal terrain, though the creature leaves a clear path of ruined vegetation. In addition, creatures belonging to the plant type that target someone protected by defoliant polish with a natural attack or grapple take 1 point of damage with each successful attack or each round they maintain the grapple.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, diminish plants; **Cost** 400 gp"
-		]
-	},
-	"dust_of_emulation": {
-		"name": "Dust of Emulation",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
-		"description": [
-			"## Dust of Emulation",
-			"",
-			"{SOURCE Ultimate Equipment/293;Advanced Player's Guide/304}  ",
-			"**Aura** faint illusion; **CL** 1st  ",
-			"**Slot** none; **Price** 800 gp; **Weight** -;",
-			"",
-			"A creature coated with this glittering golden dust can interact with any one item or object as if she had successfully used the Use Magic Device skill to emulate a class feature or race (if the exact result of the check matters, treat the character's result as a 25). If the user of the dust does not mentally select the intended item or object while coating herself with the dust, the magic of the dust applies to the first eligible object she encounters. She can apply the result of this automatic check when dealing with the item or object for 1 hour after exposure to the dust.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self; **Cost** 400 gp"
-		]
-	},
-	"fiery_maw_elixir": {
-		"name": "Fiery Maw Elixir",
-		"sources": [ "Potions and Poisons" ],
-		"description": [
-			"## Fiery Maw Elixir",
-			"",
-			"{SOURCE Potions and Poisons/20}  ",
-			"**Aura** faint evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 800 gp; **Weight** -;",
-			"",
-			"Inside this crystalline bottle swirls a smoky orange liquid that hisses when uncorked. As a standard action, a creature that drinks this elixir can breathe out a 15-foot cone of fiery teeth. This blast deals 2d4 points of fire damage, 2d4 points of bludgeoning, piercing, and slashing damage, and 1d4 points of bleed damage. Creatures in the area can each attempt a DC 13 Reflex save for half damage. The magic of the elixir ends after 1 hour or one use, whichever comes first.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bleed, burning hands; **Cost** 400 gp"
-		]
-	},
-	"infiltrators_onyx": {
-		"name": "Infiltrator's Onyx",
-		"sources": [ "Undead Slayer's Handbook" ],
-		"description": [
-			"## Infiltrator's Onyx",
-			"",
-			"{SOURCE Undead Slayer's Handbook/28}  ",
-			"**Aura** faint divination and none (see text); **CL** 5th  ",
-			"**Slot** none; **Price** 800 gp; **Weight** -;",
-			"",
-			"These gems always come in pairs - one white onyx and one black onyx. The white onyx has an aura of faint divination, while the black onyx is nonmagical. The black onyx gem on its own is worth 50 gp as a spell component for animate dead and similar spells. If the black onyx is used as a material component in a necromancy spell, the bearer of the white onyx receives a mental alarm. This alarm reveals the direction of the paired black onyx gem as long as it is within 1,000 feet, as locate object. This effect lasts for 5 minutes.",
-			"",
-			"If the owner of the white onyx gem is within 1 mile of the black onyx at the time the necromancy spell is cast, the owner may destroy the white onyx as a standard action. Doing so also destroys the black onyx, making it unsuitable for use as a spell component and ruining the necromancy spell. The destruction of either onyx gem immediately ends the alarm and locate object effects. The white onyx turns gray and crumbles to dust after the locate object effect ends.",
-			"",
-			"More expensive sets of these gems exist; black onyx gems in such variant sets are worth up to 1,000 gp or more. The value of the black onyx gem is added to the item's construction cost.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alarm, locate object, magic aura; **Cost** 425 gp"
-		]
-	},
-	"jar_of_lightning": {
-		"name": "Jar of Lightning",
-		"sources": [ "Adventurer's Guide" ],
-		"description": [
-			"## Jar of Lightning",
-			"",
-			"{SOURCE Adventurer's Guide/185}  ",
-			"**Aura** faint evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 800 gp; **Weight** 1 lb.",
-			"",
-			"This clear glass jar has a stone lid held fast against a leather sealing ring by a hinged metal clamp. A marble-sized orb of crackling electricity flits within the jar. A jar of lightning can be activated only once in one of two ways - it can be thrown, or it can be opened. In either case, once activated, the jar of lightning is expended.",
-			"",
-			"If the jar is thrown, it behaves as a splash weapon that deals 5d6 points of electricity damage on a direct hit, and deals 1d6 points of electricity damage to adjacent targets as splash damage.",
-			"",
-			"When the jar is merely opened, the trapped sphere of lightning floats up and out of the jar to hover in the space in which it was released. When a creature or metal object enters the square in which the ball of lightning is floating, the ball detonates. If it detonates on the first round after its release, the ball of lightning deals 2d6 points of electricity damage to the creature or metal object that detonates it. This damage increases by 2d6 for each additional round after its release, until it reaches its maximum damage potential of 10d6 points of electricity damage on the fifth round. Creatures in adjacent squares take half this damage. If the ball of lightning hasn't detonated by the end of the fifth round, it fades away harmlessly. Any creature damaged in this way can attempt a DC 15 Reflex save for half damage. An arrow shot into or through the square in which the ball hovers is sufficient to detonate the sphere.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, call lightning or lightning bolt; **Cost** 400 gp"
-		]
-	},
-	"leshy_mulch_manual_leaf_leshy": {
-		"name": "Leshy Mulch Manual (Leaf Leshy)",
-		"sources": [ "Faiths and Philosophies" ],
-		"description": [
-			"## Leshy Mulch Manual",
-			"",
-			"{SOURCE Faiths and Philosophies/30}  ",
-			"**Aura** varies; **CL** varies  ",
-			"**Slot** none; **Price** 800 gp (Leaf Leshy), 1,125 gp (Gourd Leshy), 1,875 gp (Fungus Leshy), 3,600 gp (Seaweed Leshy); **Weight** 5 lbs.",
-			"",
-			"A leshy mulch manual is a fragile, bark-bound book containing a dozen pages of coarse, grainy paper. The book includes information and incantations that help in crafting a leshy. The instructions grant a +3 competence bonus on skill checks made to create a leshy, reduce the number of ranks in Knowledge (nature) needed to create a leshy by 2, and allow the user to treat her caster level as 2 higher for the purposes of creating a leshy. The book can also be chopped up and mixed into the soil used to grow a leshy, replacing the normal crafting cost for the leshy. When a leshy is cultivated from this soil, a spirit is automatically lured into the body, with no percentile roll required.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plant growth, [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 1,250 gp (fungus lechy), 750 gp (gourd leshy), 500 gp (leaf leshy), 2,250 gp (seaweed leshy)"
-		]
-	},
-	"leshy_mulch_manual_gourd_leshy": {
-		"name": "Leshy Mulch Manual (Gourd Leshy)",
-		"copyof": "leshy_mulch_manual_leaf_leshy"
-	},
-	"leshy_mulch_manual_fungus_leshy": {
-		"name": "Leshy Mulch Manual (Fungus Leshy)",
-		"copyof": "leshy_mulch_manual_leaf_leshy"
-	},
-	"leshy_mulch_manual_seaweed_leshy": {
-		"name": "Leshy Mulch Manual (Seaweed Leshy)",
-		"copyof": "leshy_mulch_manual_leaf_leshy"
-	},
-	"ranged_piton": {
-		"name": "Ranged Piton",
-		"sources": [ "Ranged Tactics Toolbox" ],
-		"description": [
-			"## Ranged Piton",
-			"",
-			"{SOURCE Ranged Tactics Toolbox/28}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 800 gp; **Weight** 1 lb.",
-			"",
-			"This pointed metallic piton bears a ring the size of a gold piece. A ranged piton is sized and designed so that it can be launched as easily as an arrow. When fired from a bow as a standard action at an object or empty square, the wielder makes a ranged attack against AC 5 to determine whether the piton hits the intended target. Range penalties apply as normal. On a hit, the piton attaches to the point struck, cleaving to vertical and horizontal surfaces alike. An attached ranged piton can be recovered only by speaking a command word while pulling on the piton's ring. Light rope, such as silk rope, can be threaded through the piton's ring before it is fired to rapidly place rope lines.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, spider climb; **Cost** 400 gp"
-		]
-	},
-	"shadow_hand_smoke_pellet": {
-		"name": "Shadow Hand Smoke Pellet",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"## Shadow Hand Smoke Pellet",
-			"",
-			"{SOURCE Ultimate Intrigue/251}  ",
-			"**Aura** moderate conjuration; **CL** 7th  ",
-			"**Slot** none; **Price** 800 gp; **Weight** -;",
-			"",
-			"This delicate metallic shell contains two sets of volatile alchemical substances, similar to those used in smoke pellets. When the sphere is broken, the substances mingle and fill a 10-foot cube with a cloud of dark gray smoke that lasts for 1 minute. The user can throw the pellet as a ranged touch attack with an increment of 10 feet. Partially tangible hands of smoke accost creatures in the cloud. These hands attempt to grapple anyone moving through the smoke (CMB +7). Upon successfully grappling an opponent, the hands attempt to maintain the grapple every round until the smoke dissipates.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, black tentacles, obscuring mist; **Cost** 400 gp"
-		]
-	},
-	"spirit_revivification_incense": {
-		"name": "Spirit Revivification Incense",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Spirit Revivification Incense",
-			"",
-			"{SOURCE Occult Adventures/263}  ",
-			"**Aura** moderate necromancy; **CL** 11th  ",
-			"**Slot** none; **Price** 800 gp; **Weight** -;",
-			"",
-			"This stick of incense is coated in the ectoplasmic residue of slain spirits. A spiritualist can burn the incense as part of her ritual to manifest her phantom, in which case the manifested phantom returns with its maximum number of hit points, regardless of previous damage incurred. A stick of spirit revivification incense can be used only once before being fully consumed.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, heal; **Cost** 400 gp"
-		]
-	},
-	"steadfast_gut_stone": {
-		"name": "Steadfast Gut-Stone",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Steadfast Gut-Stone",
-			"",
-			"{SOURCE Ultimate Equipment/320}  ",
-			"**Aura** faint abjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 800 gp; **Weight** 2 lbs.",
-			"",
-			"This fist sized chunk of off-white stone seems too large to fit inside a human's mouth, but may be swallowed with ease as a standard action. Once ingested, the gut-stone remains active for up to a week, maneuvering itself within the body to protect its bearer's vital organs. Any time an attack would subject the bearer to precision-based damage (such as a critical hit or sneak attack), that damage is instead directed to the gut-stone. All other damage from the triggering attack, as well as damage that surpasses the gut-stone's hit points, is applied to the character normally. A gut-stone has 10 hit points and hardness 0.",
-			"",
-			"When a gut-stone is damaged by a melee weapon attack, as a free action its owner may sacrifice the stone to damage the attacker's weapon. Treat this as the bearer making a free sunder combat maneuver against the weapon, except that it does not provoke an attack of opportunity, bypasses the weapon's hardness, and deals 1d4 points of damage.",
-			"",
-			"Only one gut-stone may be in a creature's body at a time. Any attempt to swallow a second destroys both stones and forces the creature to make a DC 15 Fortitude save or be sickened for 1 round. If a gut-stone is not used within a week of being swallowed or is destroyed it crumbles apart and is passed harmlessly out of the body.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, magic stone, shield other; **Cost** 400 gp"
-		]
-	},
-	"dust_of_dryness": {
-		"name": "Dust of Dryness",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Dust of Dryness",
-			"",
-			"{SOURCE Ultimate Equipment/293;PRPG Core Rulebook/510}  ",
-			"**Aura** moderate transmutation; **CL** 11th  ",
-			"**Slot** none; **Price** 850 gp; **Weight** -;",
-			"",
-			"This special dust has many uses. If it is thrown into water, a volume of as much as 100 gallons is instantly transformed into nothingness, and the dust becomes a marble-sized pellet, floating or resting where it was thrown. If this pellet is hurled, it breaks and releases the same volume of water. The dust affects only water (fresh, salt, alkaline), not other liquids.",
-			"",
-			"If the dust is employed against an outsider with the elemental and water subtypes, the creature must make a DC 18 Fortitude save or be destroyed. The dust deals 5d6 points of damage to the creature even if its saving throw succeeds.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control water; **Cost** 425 gp"
-		]
-	},
-	"luminous_facet": {
-		"name": "Luminous Facet",
-		"sources": [ "Dungeoneer's Handbook" ],
-		"description": [
-			"## Luminous Facet",
-			"",
-			"{SOURCE Dungeoneer's Handbook/29}  ",
-			"**Aura** faint evocation [light]; **CL** 3rd  ",
-			"**Slot** none; **Price** 850 gp; **Weight** 3 lbs.",
-			"",
-			"This glass cone is welded to a brass base and contains a faint crimson and violet fire that burns in the shape of a blooming flower, but sheds no discernible light.",
-			"",
-			"By speaking the item's command word, a creature can ignite the flame within a luminous facet, which then sheds light as a torch. Speaking the item's command word again immediately quenches the flame back to its original dimness. A creature need not be holding a luminous facet in order to activate or deactivate it in this way, but it must be within 60 feet of the item. Multiple luminous facets can be crafted to share the same command word, allowing a creature to ignite or extinguish numerous facets within range with a single utterance.",
-			"",
-			"The flat base of a luminous facet makes it easy to attach to walls or ceilings using alchemical cement or sovereign glue.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, continual flame, prestidigitation; **Cost** 450 gp"
-		]
-	},
-	"scarecrow_lure": {
-		"name": "Scarecrow Lure",
-		"sources": [ "Kobolds of Golarion" ],
-		"description": [
-			"## Scarecrow Lure",
-			"",
-			"{SOURCE Kobolds of Golarion/31}  ",
-			"**Aura** faint illusion and transmutation; **CL** 1st  ",
-			"**Slot** none; **Price** 850 gp; **Weight** 40 lbs.",
-			"",
-			"This life-sized scarecrow is garbed in old clothing and armor. At its center is the real skeleton of a former adventurer. A scarecrow lure is enchanted to writhe and cry out for help as if wounded. The lure's voice is usually that of the adventurer whose remains are inside, though the creator may choose any voice when creating the item. Anyone who hears or sees a scarecrow lure can attempt a DC 11 Will save to disbelieve the effect. Activating a scarecrow lure is a standard action that doesn't provoke attacks of opportunity.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mage hand, ventriloquism; **Cost** 450 gp"
-		]
-	},
-	"trapped_sword": {
-		"name": "Trapped Sword",
-		"sources": [ "Kobolds of Golarion" ],
-		"description": [
-			"## Trapped Sword",
-			"",
-			"{SOURCE Kobolds of Golarion/31}  ",
-			"**Aura** faint evocation; **CL** 1st  ",
-			"**Slot** none; **Price** 850 gp; **Weight** 4 lbs.",
-			"",
-			"This longsword glows and has an aura, making it appear valuable. Its grip is hollow and can be filled with a dose of poison (bought separately, and requiring a full-round action to refill and rearm). Once the sword is grasped, its mechanical trap engages: Small needles in the grip deliver the poison. Detecting the trap requires a successful DC 30 Perception check made by a character with the trapfinding ability, and disabling it requires a successful DC 28 Disable Device check.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Learn Ranger Trap, light, magic aura; **Cost** 175 gp"
-		]
-	},
-	"shoanti_war_paint_blue": {
-		"name": "Shoanti War Paint (Blue)",
-		"sources": [
-			"Curse of the Crimson Throne",
-			"Pathfinder #10: A History of Ashes"
-		],
-		"description": [
-			"## Shoanti War Paint",
-			"",
-			"{SOURCE Curse of the Crimson Throne/436;Pathfinder #10: A History of Ashes/14}  ",
-			"**Aura** moderate (school varies); **CL** 7th  ",
-			"**Slot** none; **Price** 900 gp (Blue), 900 gp (Green), 900 gp (Orange), 900 gp (Red), 900 gp (Silver), 900 gp (Yellow), 1,800 gp (Black), 1,800 gp (White); **Weight** -;",
-			"",
-			"The Shoanti have developed numerous types of magical war paint, each providing a specific benefit to aid their hunters, warriors, and heroes in a variety of tasks. Shoanti war paint can be applied to any visible part of the body - typically the face, shoulders, legs, or arms. Applying a dose of war paint is a full-round action that provokes an attack of opportunity. Shoanti war paint does not take up a magic item slot, but you can benefit from only one color of Shoanti war paint at a time and applying a dose of a different color replaces the effects of the previous application. Once Shoanti war paint is applied, its effects last for 24 hours. Below are the eight most common colors and their effects.",
-			"",
-			"- **Black (1,800 gp):** The wearer becomes cloaked in shadows and smoke, gaining the effects of a {spell/blur} spell.",
-			"- **Blue (900 gp):** The wearer gains a 30-foot enhancement bonus to her base move speed.",
-			"- **Green (900 gp):** When the wearer uses [bardic performance](class/bard) to inspire courage, the morale bonus she grants increases by 1.",
-			"- **Orange (900 gp):** The wearer gains damage reduction 1/-. This effect stacks with damage reduction gained via a character class, such as {class/barbarian}.",
-			"- **Red (900 gp):** The wearer gains fire resistance 10.",
-			"- **Silver (900 gp):** The wearer gains a +3 deflection bonus to her AC.",
-			"- **White (1,800 gp):** The wearer gains a +4 resistance bonus on all saving throws against energy drain and negative energy. As soon as the wearer takes a negative level from an energy drain attack, the white war paint absorbs the negative level and then fades away, ending the ongoing duration of the paint's effect immediately.",
-			"- **Yellow (900 gp):** The wearer gains a +5 competence bonus on Perception checks.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}; {spell/blur} (black), [clairaudience/clairvoyance](spell/clairaudience_clairvoyance) (yellow), {spell/death ward} (white), {spell/expeditious retreat} (blue), {spell/heroism} (green), {spell/resist energy} (red), {spell/shield of faith} (silver), {spell/stoneskin} (orange); **Cost** 900 gp (black and white paint), 450 gp (all other paints)"
-		]
-	},
-	"bottled_scream": {
-		"name": "Bottled Scream",
-		"sources": [ "Advanced Class Guide" ],
-		"description": [
-			"## Bottled Scream",
-			"",
-			"{SOURCE Advanced Class Guide/227}  ",
-			"**Aura** moderate evocation; **CL** 7th  ",
-			"**Slot** none; **Price** 900 gp; **Weight** 1/2 lb.",
-			"",
-			"Wax and resin seal this smoked glass bottle. When the bottle is opened or shattered, a shrill scream erupts in a 20-foot-radius burst. Any bardic performances with audible components immediately end. Any spellcaster concentrating on or casting a spell must succeed at a concentration check (DC 15 + spell level) or lose the spell. In addition, the scream dispels any silence spells that overlap its area. The bottle can be thrown as a splash weapon or opened by hand. If the bottle is opened, its burst is centered on the opener's space.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shout; **Cost** 450 gp"
-		]
-	},
-	"deadly_draught": {
-		"name": "Deadly Draught",
-		"sources": [ "Blood of the Night" ],
-		"description": [
-			"## Deadly Draught",
-			"",
-			"{SOURCE Blood of the Night/31}  ",
-			"**Aura** moderate evocation; **CL** 11th  ",
-			"**Slot** none; **Price** 900 gp; **Weight** -;",
-			"",
-			"This vial has a narrow, pinched spout and is sealed with gray wax. Casting a targeted spell (up to 3rd level) into the vial activates it and causes it to glow a soft red. A creature can then break the spout (destroying the vial) and imbibe the liquid therein as a standard action. Doing so infuses the drinker's blood with the spell cast on the vial, but the spell does not affect the drinker (the spell instead acts as though it had been affected by contingency). The next time a creature feeds on the drinker's blood, the infused spell immediately targets the attacking creature; if the spell allows a saving throw, the creature takes a -2 penalty on the save. The infused spell fades after it is triggered or 24 hours have passed, whichever comes first.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, contingency; **Cost** 450 gp"
-		]
-	},
-	"elemental_storing_stone": {
-		"name": "Elemental Storing Stone",
-		"sources": [ "Magical Marketplace" ],
-		"description": [
-			"## Elemental Storing Stone",
-			"",
-			"{SOURCE Magical Marketplace/19}  ",
-			"**Aura** faint evocation; **CL** 3rd  ",
-			"**Slot** none; **Price** 900 gp; **Weight** 1/2 lb.",
-			"",
-			"This small stone appears to be a normal river rock shot through with veins of white marble. At the beginning of each day, an elemental storing stone activates and can begin storing elemental energy. If the wielder of the stone takes 10 or more points of a single type of energy damage (acid, cold, electricity, fire, or sonic), the stone becomes charged with that energy. A charged elemental storing stone can be used to launch a single ray attack of the energy type stored within. The ray is a ranged touch attack with a range of 60 feet that deals 2d6 points of damage on a successful hit. An elemental storing stone may be used once per day. If the stone is charged and not used by the beginning of the next day, the charge is wasted and the stone must be charged again to function.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, elemental touch; **Cost** 450 gp"
-		]
-	},
-	"elixir_of_forceful_exhalation": {
-		"name": "Elixir of Forceful Exhalation",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"## Elixir of Forceful Exhalation",
-			"",
-			"{SOURCE Advanced Race Guide/160}  ",
-			"**Aura** faint evocation; **CL** 3rd  ",
-			"**Slot** none; **Price** 900 gp; **Weight** 1 lb.",
-			"",
-			"This fizzy, sky-blue liquid leaves its drinker feeling buoyant, yet bloated. The drinker gains a +4 competence bonus on Acrobatics checks made to make high or long jumps and on Swim checks for up to 1 hour after consuming the elixir. As a standard action, the drinker can exhale a 15-foot-long gust of wind. The drinker can exhale up to three gusts, after which the elixir's effect is discharged and the skill bonuses end. Unused gusts dissipate after 1 hour.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gust of wind; **Cost** 450 gp"
-		]
-	},
-	"shoanti_war_paint_green": {
-		"name": "Shoanti War Paint (Green)",
-		"copyof": "shoanti_war_paint_blue"
-	},
-	"healers_aid": {
-		"name": "Healer's Aid",
-		"sources": [ "Potions and Poisons" ],
-		"description": [
-			"## Healer's Aid",
-			"",
-			"{SOURCE Potions and Poisons/20}  ",
-			"**Aura** faint evocation; **CL** 7th  ",
-			"**Slot** none; **Price** 900 gp; **Weight** -;",
-			"",
-			"This squat glass jar contains a golden liquid that constantly swirls. This elixir causes the next potion or elixir that restores hit points that the imbiber consumes to be treated as if it were empowered. Increase all variable numeric effects of the potion or elixir by 50%. The effects of this elixir last for 5 minutes or until all of the imbiber's hit points are restored via an affected potion or elixir, whichever comes first.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Empower Spell, amplify elixir; **Cost** 450 gp"
-		]
-	},
-	"murderers_silence": {
-		"name": "Murderer's Silence",
-		"sources": [
-			"Ultimate Intrigue",
-			"Magical Marketplace"
-		],
-		"description": [
-			"## Murderer's Silence",
-			"",
-			"{SOURCE Ultimate Intrigue/249;Magical Marketplace/25}  ",
-			"**Aura** faint conjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 900 gp; **Weight** 1 lb.",
-			"",
-			"In areas where divine magic is readily available, speak with dead has captured many a murderer; this serum was invented by assassins to silence their victims. Murderer's silence prevents a corpse from communicating via speak with dead by dissolving the victim's vocal organs. To use this item, the thick black liquid must be slowly poured down the throat of the corpse (a full-round action that provokes attacks of opportunity). The following round, the corpse's tongue, vocal cords, and lips deteriorate and the corpse becomes incapable of responding to speak with dead. Other means of interrogating the spirit of the departed still function normally. Magic that restores the flesh to a corpse doesn't restore any parts rotted away by murderer's silence. This item has no effect on parts of the body other than those listed. The listed is for a single dose.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, contagion; **Cost** 450 gp"
-		]
-	},
-	"oozeclot_unguent": {
-		"name": "Oozeclot Unguent",
-		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
-		"description": [
-			"## Oozeclot Unguent",
-			"",
-			"{SOURCE Pathfinder #134: It Came from Hollow Mountain/10}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 900 gp; **Weight** -;",
-			"",
-			"A single dose of oozeclot unguent can be applied to a 5-foot-square surface, whereupon it remains potent for 24 hours or until an ooze comes in contact with it. An ooze that crawls onto a surface treated with oozeclot unguent must succeed at a DC 15 Fortitude save or become immobile as its amorphous body grows rigid. As long as it is thus affected, the ooze can take no physical actions. Any amount of damage causes the hardened shell surrounding the ooze to crack, allowing the creature to slither out and resume attacks; otherwise it remains immobile for an extended period of time. An ooze of CR 3 or less is immobile for 1 week, while an ooze of CR 4 to CR 6 remains immobile for only 1d6 days. A CR 7 to CR 11 ooze is rendered immobile only for 1d6 rounds, and it can attempt a new saving throw at the end of each round to end the effect early. Oozes of CR 12 or higher are immune to the effects of oozeclot unguent entirely.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}; **Cost** 450 gp"
-		]
-	},
-	"shoanti_war_paint_orange": {
-		"name": "Shoanti War Paint (Orange)",
-		"copyof": "shoanti_war_paint_blue"
-	},
-	"shoanti_war_paint_red": {
-		"name": "Shoanti War Paint (Red)",
-		"copyof": "shoanti_war_paint_blue"
-	},
-	"saline_purge": {
-		"name": "Saline Purge",
-		"sources": [ "Magical Marketplace" ],
-		"description": [
-			"## Saline Purge",
-			"",
-			"{SOURCE Magical Marketplace/9}  ",
-			"**Aura** faint conjuration; **CL** 5th  ",
-			"**Slot** none; **Price** 900 gp; **Weight** 1/2 lb.",
-			"",
-			"The putrid concoction in this glass bottle smells foul and tastes worse. Anyone who drinks a dose of saline purge must succeed at a DC 14 Fortitude save or become nauseated for 1d4+1 rounds. Whether or not this save is successful, the imbiber is cured of any curses or poisons affecting him as his body purges the ill effects.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, neutralize poison, remove curse; **Cost** 450 gp"
-		]
-	},
-	"shoanti_war_paint_silver": {
-		"name": "Shoanti War Paint (Silver)",
-		"copyof": "shoanti_war_paint_blue"
-	},
-	"smoke_bomb_of_forgetfulness": {
-		"name": "Smoke bomb of Forgetfulness",
-		"sources": [ "Villain Codex" ],
-		"description": [
-			"## Smoke bomb of Forgetfulness",
-			"",
-			"{SOURCE Villain Codex/225}  ",
-			"**Aura** moderate enchantment; **CL** 10th  ",
-			"**Slot** none; **Price** 900 gp; **Weight** -;",
-			"",
-			"Killers use smoke bombs of forgetfulness to conceal their identities and cover their escapes in the event of failed assassination attempts. The smoke bomb can be thrown to the ground as a standard action, destroying the item and creating a cloud of smoke with a 15-foot radius. This acts like the smoke from a smokestick, and can be thrown at the user's feet or as a ranged touch attack with a range of 20 feet.",
-			"",
-			"Any creature in the smoke cloud that isn't aware of the smoke bomb's nature must succeed at a DC 16 Will save or have its memory altered as though its sight had been obscured during the previous 2 rounds. This can cause it to forget the appearance of any creatures with which it had interacted or battled with during that time. From the point the smoke bomb is thrown, it functions as normal smoke, giving the user time to escape but no longer protecting its identity from creatures that leave the smoke and can see the user.",
-			"",
-			"A creature that is already aware of the abilities of a smoke bomb of forgetfulness and suspects this smoke bomb is one automatically succeeds at the save. The memory alteration is a mind-affecting effect.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, modify memory; **Cost** 450 gp"
-		]
-	},
-	"steelsheen_elixir": {
-		"name": "Steelsheen Elixir",
-		"sources": [ "Potions and Poisons" ],
-		"description": [
-			"## Steelsheen Elixir",
-			"",
-			"{SOURCE Potions and Poisons/20}  ",
-			"**Aura** moderate transmutation; **CL** 6th  ",
-			"**Slot** none; **Price** 900 gp; **Weight** -;",
-			"",
-			"This round-bellied bottle contains a deep indigo liquid. Drinking this liquid causes the imbiber's skin and organs to harden as a metallic sheen encases her body. This imparts a +2 competence bonus to her natural armor and 5 temporary hit points. This effect lasts 10 minutes. The first time the imbiber is in melee combat during the duration, he can increase the competence bonus to +4 and gain an additional 5 temporary hit points, but all of her movement speeds are halved for the remainder of the duration.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, barkskin, false life; **Cost** 450 gp"
-		]
-	},
-	"shoanti_war_paint_yellow": {
-		"name": "Shoanti War Paint (Yellow)",
-		"copyof": "shoanti_war_paint_blue"
-	},
-	"shoanti_war_paint_black": {
-		"name": "Shoanti War Paint (Black)",
-		"copyof": "shoanti_war_paint_blue"
-	},
-	"shoanti_war_paint_white": {
-		"name": "Shoanti War Paint (White)",
-		"copyof": "shoanti_war_paint_blue"
-	},
-	"boro_bead_1st": {
-		"name": "Boro Bead (1st)",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Boro Bead",
-			"",
-			"{SOURCE Ultimate Equipment/284}  ",
-			"**Aura** strong transmutation; **CL** 16th  ",
-			"**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th); **Weight** -;",
-			"",
-			"This multicolored, sturdy glass bead is an aid to members of the alchemist class. Once per day on command, a boro bead enables the bearer to recharge any one extract that he had mixed and then consumed that day. The extract is then reconstituted and usable again, just as if it had not been drank. The extract must be of a particular level, depending on the bead. Different beads exist for recalling one extract per day of each level from 1st through 6th. A bead works on an infusion, but not a potion, elixir, bomb, mutagen, or nonmagical alchemical material such as antitoxin.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, creator must be able to prepare extracts of the extract level to be recalled; **Cost** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th)"
-		]
-	},
-	"boro_bead_2nd": {
-		"name": "Boro Bead (2nd)",
-		"copyof": "boro_bead_1st"
-	},
-	"boro_bead_3rd": {
-		"name": "Boro Bead (3rd)",
-		"copyof": "boro_bead_1st"
-	},
-	"boro_bead_4th": {
-		"name": "Boro Bead (4th)",
-		"copyof": "boro_bead_1st"
-	},
-	"boro_bead_5th": {
-		"name": "Boro Bead (5th)",
-		"copyof": "boro_bead_1st"
-	},
-	"boro_bead_6th": {
-		"name": "Boro Bead (6th)",
-		"copyof": "boro_bead_1st"
-	},
-	"pearl_of_power": {
-		"name": "Pearl of Power",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Pearl of Power",
-			"",
-			"{SOURCE Ultimate Equipment/315;PRPG Core Rulebook/525}  ",
-			"**Aura** strong transmutation; **CL** 17th  ",
-			"**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 70,000 gp (Two Spells), 81,000 gp (9th); **Weight** -;",
-			"",
-			"This seemingly normal pearl of average size and luster is a potent aid to all spellcasters who prepare spells. Once per day on command, a pearl of power enables the possessor to recall any one spell that she had prepared and then cast that day. The spell is then prepared again, just as if it had not been cast. The spell must be of a particular level, depending on the pearl. Different pearls exist for recalling one spell per day of each level from 1st through 9th and for the recall of two spells per day (each of a different level, 6th or lower).",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, creator must be able to cast spells of the spell level to be recalled; **Cost** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 35,000 gp (Two Spells), 40,500 gp (9th)"
-		]
-	},
-	"pearl_of_power_1st": {
-		"name": "Pearl of Power (1st)",
-		"copyof": "pearl_of_power"
-	},
-	"pearl_of_power_2nd": {
-		"name": "Pearl of Power (2nd)",
-		"copyof": "pearl_of_power"
-	},
-	"pearl_of_power_3rd": {
-		"name": "Pearl of Power (3rd)",
-		"copyof": "pearl_of_power"
-	},
-	"pearl_of_power_4th": {
-		"name": "Pearl of Power (4th)",
-		"copyof": "pearl_of_power"
-	},
-	"pearl_of_power_5th": {
-		"name": "Pearl of Power (5th)",
-		"copyof": "pearl_of_power"
-	},
-	"pearl_of_power_6th": {
-		"name": "Pearl of Power (6th)",
-		"copyof": "pearl_of_power"
-	},
-	"pearl_of_power_7th": {
-		"name": "Pearl of Power (7th)",
-		"copyof": "pearl_of_power"
-	},
-	"pearl_of_power_8th": {
-		"name": "Pearl of Power (8th)",
-		"copyof": "pearl_of_power"
-	},
-	"pearl_of_power_9th": {
-		"name": "Pearl of Power (9th)",
-		"copyof": "pearl_of_power"
-	},
-	"pearl_of_power_two_spells": {
-		"name": "Pearl of Power (Two Spells)",
-		"copyof": "pearl_of_power"
-	},
-	"preserving_flask_1st": {
-		"name": "Preserving Flask (1st)",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Preserving Flask",
-			"",
-			"{SOURCE Ultimate Equipment/316}  ",
-			"**Aura** strong abjuration; **CL** 17th  ",
-			"**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th); **Weight** -;",
-			"",
-			"This small, durable flask is designed to preserve alchemical extracts indefinitely. An extract stored in a preserving flask remains potent until it is consumed or otherwise removed from the flask. Preserved extracts count against an alchemist's extracts per day on the day they are prepared, but not on subsequent days. Each flask is capable of preserving an extract of a particular level. An extract stored in the flask retains duration, caster level, and other properties it had when it was created. The flask works on extracts and infusions, but not mutagens.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, creator must be able to create alchemical extracts of the extract level to be stored; **Cost** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th)"
-		]
-	},
-	"preserving_flask_2nd": {
-		"name": "Preserving Flask (2nd)",
-		"copyof": "preserving_flask_1st"
-	},
-	"preserving_flask_3rd": {
-		"name": "Preserving Flask (3rd)",
-		"copyof": "preserving_flask_1st"
-	},
-	"preserving_flask_4th": {
-		"name": "Preserving Flask (4th)",
-		"copyof": "preserving_flask_1st"
-	},
-	"preserving_flask_6th": {
-		"name": "Preserving Flask (6th)",
-		"copyof": "preserving_flask_1st"
-	},
-	"preserving_flask_5th": {
-		"name": "Preserving Flask (5th)",
-		"copyof": "preserving_flask_1st"
-	},
-	"page_of_spell_knowledge_1st": {
-		"name": "Page of Spell Knowledge (1st)",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Page of Spell Knowledge",
-			"",
-			"{SOURCE Ultimate Equipment/314}  ",
-			"**Aura** strong transmutation; **CL** 17th  ",
-			"**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th); **Weight** -;",
-			"",
-			"This page is covered in densely-worded arcane or divine magical runes. It contains the knowledge of a single arcane or divine spell (chosen by the creator when the item is crafted). If the bearer is a spontaneous spellcaster and has that spell on her class spell list, she may use her spell slots to cast that spell as if it were one of her spells known. A page of spell knowledge is priced based on the spell's cleric or sorcerer/wizard spell level, unless the spell doesn't appear on either of those spell lists, in which case it is based on the highest spell level as it appears on any other spell list. For example, a spell that is on the 4th-level inquisitor list and the 2nd-level paladin list is priced as a 4th-level spell.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, creator must be able to cast the spell contained in the page; **Cost** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th)"
-		]
-	},
-	"page_of_spell_knowledge_2nd": {
-		"name": "Page of Spell Knowledge (2nd)",
-		"copyof": "page_of_spell_knowledge_1st"
-	},
-	"page_of_spell_knowledge_3rd": {
-		"name": "Page of Spell Knowledge (3rd)",
-		"copyof": "page_of_spell_knowledge_1st"
-	},
-	"page_of_spell_knowledge_4th": {
-		"name": "Page of Spell Knowledge (4th)",
-		"copyof": "page_of_spell_knowledge_1st"
-	},
-	"page_of_spell_knowledge_7th": {
-		"name": "Page of Spell Knowledge (7th)",
-		"copyof": "page_of_spell_knowledge_1st"
-	},
-	"page_of_spell_knowledge_8th": {
-		"name": "Page of Spell Knowledge (8th)",
-		"copyof": "page_of_spell_knowledge_1st"
-	},
-	"page_of_spell_knowledge_9th": {
-		"name": "Page of Spell Knowledge (9th)",
-		"copyof": "page_of_spell_knowledge_1st"
-	},
-	"page_of_spell_knowledge_5th": {
-		"name": "Page of Spell Knowledge (5th)",
-		"copyof": "page_of_spell_knowledge_1st"
-	},
-	"page_of_spell_knowledge_6th": {
-		"name": "Page of Spell Knowledge (6th)",
-		"copyof": "page_of_spell_knowledge_1st"
-	},
-	"spell_lattice_1st": {
-		"name": "Spell Lattice (1st)",
-		"sources": [ "Advanced Class Guide" ],
-		"description": [
-			"## Spell Lattice",
-			"",
-			"{SOURCE Advanced Class Guide/235}  ",
-			"**Aura** varies (see text); **CL** 17th  ",
-			"**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th); **Weight** 1 lb.",
-			"",
-			"A spell lattice is a block of transparent crystal, internally etched with a three-dimensional representation of a spell. This spell is chosen when the item is created (the contained spell determines the school of the lattice's aura). When a spell lattice is wielded by a spontaneous spellcaster who has the spell contained within it on her class spell list, she can use her spell slots to cast that spell as if it were one of her spells known. When an arcanist holds a spell lattice, as long as she has the contained spell on her class spell list, she can use her spell slots to cast that spell as if it were one of her spells currently prepared.",
-			"",
-			"A spellcaster who uses a spellbook or formula book can copy the spell from a spell lattice as if it were a scroll. Doing so expends the spell from the spell lattice.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Scribe Scroll}, creator must be able to cast the spell placed in the spell lattice; **Cost** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th)"
-		]
-	},
-	"spell_lattice_2nd": {
-		"name": "Spell Lattice (2nd)",
-		"copyof": "spell_lattice_1st"
-	},
-	"spell_lattice_3rd": {
-		"name": "Spell Lattice (3rd)",
-		"copyof": "spell_lattice_1st"
-	},
-	"spell_lattice_4th": {
-		"name": "Spell Lattice (4th)",
-		"copyof": "spell_lattice_1st"
-	},
-	"spell_lattice_5th": {
-		"name": "Spell Lattice (5th)",
-		"copyof": "spell_lattice_1st"
-	},
-	"spell_lattice_6th": {
-		"name": "Spell Lattice (6th)",
-		"copyof": "spell_lattice_1st"
-	},
-	"spell_lattice_7th": {
-		"name": "Spell Lattice (7th)",
-		"copyof": "spell_lattice_1st"
-	},
-	"spell_lattice_8th": {
-		"name": "Spell Lattice (8th)",
-		"copyof": "spell_lattice_1st"
-	},
-	"spell_lattice_9th": {
-		"name": "Spell Lattice (9th)",
-		"copyof": "spell_lattice_1st"
-	},
-	"shard_of_psychic_power_1st_level": {
-		"name": "Shard of Psychic Power (1st-level)",
-		"sources": [ "Psychic Anthology" ],
-		"description": [
-			"## Shard of Psychic Power",
-			"",
-			"{SOURCE Psychic Anthology/9}  ",
-			"**Aura** strong transmutation; **CL** 17th  ",
-			"**Slot** none; **Price** 1,000 gp (1st-level), 4,000 gp (2nd-level), 9,000 gp (3rd-level), 16,000 gp (4th-level), 25,000 gp (5th-level), 36,000 gp (6th-level), 49,000 gp (7th-level), 64,000 gp (8th-level), 81,000 gp (9th-level); **Weight** -;",
-			"",
-			"This shard of quartz is roughly the size of a human finger and covered in flowing sigils. It contains the knowledge of a psychic spell (chosen by the creator when the item is crafted). If the bearer is a psychic spellcaster and has that spell on her class spell list, she can use her spell slots to cast that spell as if it were one of her spells known. A shard of psychic power is priced based on the spell's psychic spell level. If the spell does not appear on the psychic's spell list, it is based on the highest spell level it has on any other spell list. For example, a spell that is on the 1st-level medium list and the 2nd-level spiritualist list is priced as a 2nd-level spell.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, creator must be able to cast the spell contained in the shard; **Cost** 500 gp (1st-level), 2,000 gp (2nd-level), 4,500 gp (3rd-level), 8,000 gp (4th-level), 12,500 gp (5th-level), 18,000 gp (6th-level), 24,500 gp (7th-level), 32,000 gp (8th-level), 40,500 gp (9th-level)"
-		]
-	},
-	"shard_of_psychic_power_2nd_level": {
-		"name": "Shard of Psychic Power (2nd-level)",
-		"copyof": "shard_of_psychic_power_1st_level"
-	},
-	"shard_of_psychic_power_3rd_level": {
-		"name": "Shard of Psychic Power (3rd-level)",
-		"copyof": "shard_of_psychic_power_1st_level"
-	},
-	"shard_of_psychic_power_4th_level": {
-		"name": "Shard of Psychic Power (4th-level)",
-		"copyof": "shard_of_psychic_power_1st_level"
-	},
-	"shard_of_psychic_power_5th_level": {
-		"name": "Shard of Psychic Power (5th-level)",
-		"copyof": "shard_of_psychic_power_1st_level"
-	},
-	"shard_of_psychic_power_6th_level": {
-		"name": "Shard of Psychic Power (6th-level)",
-		"copyof": "shard_of_psychic_power_1st_level"
-	},
-	"shard_of_psychic_power_7th_level": {
-		"name": "Shard of Psychic Power (7th-level)",
-		"copyof": "shard_of_psychic_power_1st_level"
-	},
-	"shard_of_psychic_power_8th_level": {
-		"name": "Shard of Psychic Power (8th-level)",
-		"copyof": "shard_of_psychic_power_1st_level"
-	},
-	"shard_of_psychic_power_9th_level": {
-		"name": "Shard of Psychic Power (9th-level)",
-		"copyof": "shard_of_psychic_power_1st_level"
-	},
-	"anatomy_doll": {
-		"name": "Anatomy Doll",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Anatomy Doll",
-			"",
-			"{SOURCE Ultimate Equipment/276}  ",
-			"**Aura** faint necromancy; **CL** 5th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.",
-			"",
-			"This stuffed rag doll might resemble a child's toy if not for the vital organs depicted on its cloth. By dabbing the doll with a few drops of blood from a living creature (a standard action), the bearer can form a sympathetic link between the doll and the victim. If the chosen victim has spell resistance, the doll must beat the target's spell resistance to create the link. As a standard action, the bearer can twist or stab the doll; this gives the target the sickened condition for one round and deals 1 point of negative energy damage plus 1 point for each die of the doll bearer's sneak attack damage (if any). Each time the target is affected by the doll, it receives a DC 14 Will save to end the link. The doll's holder needs line of effect to the victim, but not line of sight. Once linked to a particular creature, an anatomy doll cannot be linked to another creature, but the bearer can re-establish a broken link by anointing it with more of the target's blood.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, bleed; **Cost** 500 gp"
-		]
-	},
-	"bag_of_holding_minor": {
-		"name": "Bag of Holding, Minor",
-		"sources": [ "Classic Treasures Revisited" ],
-		"description": [
-			"## Bag of Holding, Minor",
-			"",
-			"{SOURCE Classic Treasures Revisited/8}  ",
-			"**Aura** moderate conjuration; **CL** 9th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 3 lbs.",
-			"",
-			"This more economical version of the bag of holding functions in the same manner, but its internal measurements are smaller than those of a regular bag of holding. It measures 2 feet by 4 feet and can carry up to 50 pounds or 6 cubic feet of material.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, secret chest; **Cost** 500 gp"
-		]
-	},
-	"minor_bag_of_holding": {
-		"copyof": "bag_of_holding_minor"
-	},
-	"bead_of_newt_prevention": {
-		"name": "Bead of Newt Prevention",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Bead of Newt Prevention",
-			"",
-			"{SOURCE Ultimate Equipment/282}  ",
-			"**Aura** faint abjuration; **CL** 5th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This bead is carved with a tiny pictogram representing a small, harmless animal such as a newt, rabbit, or frog. If the bearer fails a saving throw against a hostile polymorph effect such as baleful polymorph, the bead is destroyed and the effect does not affect the bearer.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dispel magic; **Cost** 500 gp"
-		]
-	},
-	"beast_bond_brand": {
-		"name": "Beast-bond Brand",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Beast-bond Brand",
-			"",
-			"{SOURCE Ultimate Equipment/282}  ",
-			"**Aura** faint abjuration; **CL** 5th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This sticky henna paste is used to stamp a rust-colored handprint onto the body of a familiar or animal companion, and a hoof, claw, or paw print from that creature onto its master. These brands demonstrate a bond of friendship and balance, not ownership and subservience. Applying the brand requires a full-round action each for master and companion. The brand enhances the share spells ability of druids, wizards, and other classes with animal companions or familiars, allowing these characters to cast spells with a range of personal or touch on the marked companion at a range of 30 feet, provided the character has line of effect to the creature. Each spell cast at range in this way drains one charge from the beast-bond brand for each spell level of the spell cast. A newly applied beast-bond brand has 10 charges. When all charges are consumed, the brand vanishes. For the purposes of teleportation spells and effects, the master may treat a marked companion as an object or a creature, whichever is more favorable (weight restrictions still apply).",
-			"",
-			"A character may have only one creature marked in this way at any time. The brand lasts until all charges are expended or the master marks another companion in this way.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Reach Spell, creator must have an animal companion or familiar; **Cost** 500 gp"
-		]
-	},
-	"bloodbrew_elixir": {
-		"name": "Bloodbrew Elixir",
-		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
-		"description": [
-			"## Bloodbrew Elixir",
-			"",
-			"{SOURCE Pathfinder #47: Ashes at Dawn/35}  ",
-			"**Aura** faint necromancy; **CL** 3rd  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This ruby red wine carries an aroma of fresh-spilled blood with a persistent finish tasting of iron and scarberries. Anyone who drinks the concoction gains 1d10+3 temporary hit points for 1 hour. In addition, an enslaved vampire or vampire spawn who drinks the elixir is freed from its creator's control for 1 hour, becoming a free-willed undead creature for that time. At the end of the hour, the vampire is once again enslaved under its creator's control.",
-			"",
-			"Bloodbrew elixir is highly addictive to vampires, and any vampire who drinks it must make a DC 20 Fortitude save or become addicted to the bloodbrew. Thereafter, the vampire must drink a new dose of bloodbrew every day, or take a -2 penalty to Dex, Con, Str, and Wis and lose her fast healing ability, until a new dose is taken. The addiction can only be cured with greater restoration, or the vampire must make three consecutive saves, one per day, against the elixir's DC, after a day of not taking the drug. Should the vampire take a new dose of the elixir before the addiction is cured, any past successful saves are negated.",
-			"",
-			"A living creature who drinks the elixir gains the temporary hit points, but takes a -2 penalty on saves against energy drain and negative energy effects, including channeled negative energy, for 1 hour. Bloodbrew elixir is not addictive to living creatures.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Craft (alchemy) DC 25, false life, {spell/protection from evil}; **Cost** 500 gp"
-		]
-	},
-	"bookplate_of_recall": {
-		"name": "Bookplate of Recall",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Bookplate of Recall",
-			"",
-			"{SOURCE Ultimate Equipment/284}  ",
-			"**Aura** strong conjuration; **CL** 13th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This metal bookplate is inscribed with mystical words in Draconic, leaving space for a single written name. When the bookplate is glued to the inside cover of a book, the named individual may speak the title of the book to summon it as if using instant summons. This ability functions once per day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, instant summons; **Cost** 500 gp"
-		]
-	},
-	"burdenstone": {
-		"name": "Burdenstone",
-		"sources": [ "Dirty Tactics Toolbox" ],
-		"description": [
-			"## Burdenstone",
-			"",
-			"{SOURCE Dirty Tactics Toolbox/26}  ",
-			"**Aura** faint enchantment; **CL** 5th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This smooth lodestone is gray and streaked with veins of glossy obsidian. As a ranged touch attack, the bearer can throw it at an opponent within 30 feet. If it strikes a target in metal armor, the burdenstone attaches itself to the target for 2d6 rounds.",
-			"",
-			"An attached burdenstone increases the target's load by one step. If a target's load is already heavy, the target is knocked prone, its movement is reduced to 10 feet, and it cannot run. An attached burdenstone also prevents the target from flying. A target may not be affected by more than one burdenstone at a time.",
-			"",
-			"A successful DC 20 Strength check made as a full-round action can remove the stone from a target before the duration elapses. Once a burdenstone has been removed or the duration expires, it becomes an ordinary magnetic stone.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, burdened thoughts; **Cost** 500 gp"
-		]
-	},
-	"concealing_pocket": {
-		"name": "Concealing Pocket",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Concealing Pocket",
-			"",
-			"{SOURCE Ultimate Equipment/289}  ",
-			"**Aura** faint illusion; **CL** 3rd  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This 4-inch-square cloth pocket has no powers unless it is sewn onto a garment (which takes 1d4 minutes). Once sewn, it changes its appearance to match the garment. Any magic item inside it cannot be magically detected, as if protected by magic aura. Hiding an item in the pocket gives the garment's wearer a +5 competence bonus on Sleight of Hand checks to conceal the item. The pocket can be removed from the garment with a DC 10 Heal check or an appropriate Craft check such as Craft (cloth) or Craft (leather); failing this roll by 5 or more gives the pocket the broken condition.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, magic aura; **Cost** 500 gp"
-		]
-	},
-	"deaths_head_coffer": {
-		"name": "Death's Head Coffer",
-		"sources": [
-			"Curse of the Crimson Throne",
-			"Pathfinder #8: Seven Days to the Grave"
-		],
-		"description": [
-			"## Death's Head Coffer",
-			"",
-			"{SOURCE Curse of the Crimson Throne/433;Pathfinder #8: Seven Days to the Grave/32}  ",
-			"**Aura** faint necromancy; **CL** 5th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 5 lbs.",
-			"",
-			"Typically engraved with numerous skulls, this small metal coffer allows the safe transport of infectious substances of up to Tiny size. Closing the lid seals in the contents and holds them in stasis, rendering them immune to aging or any damage. In addition, any infectious material - such as the body of a creature that died of disease - is preserved for as long as the coffer is closed. A death's head coffer's dimensions are approximately 4 inches by 4 inches by 6 inches, so it can potentially hold several Tiny items.",
-			"",
-			"A death's head coffer can spread infections between items. Any item placed into a coffer with a disease-ridden item (something capable of spreading a disease by contact) becomes infected with the same disease. For 1 week after being removed from the coffer, the newly infected item can spread the same affliction as the disease-ridden item to any creature that touches it. For example, if a coin is placed into a death's head coffer with a rat infected with the {disease/shakes}, any creature that touches the coin must succeed at a DC 13 Fortitude save or become infected with the shakes as well.",
-			"",
-			"After a death's head coffer is closed and then reopened, its magic dissipates, rendering the box completely mundane. Some death's head coffers feature complex locking mechanisms, which require successful Disable Device checks with a DC of 30 or higher to open.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/contagion}, {spell/gentle repose}; **Cost** 500 gp"
-		]
-	},
-	"dowsing_syrup": {
-		"name": "Dowsing Syrup",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Dowsing Syrup",
-			"",
-			"{SOURCE Ultimate Equipment/292}  ",
-			"**Aura** moderate divination; **CL** 11th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 1/2 lb.",
-			"",
-			"The thick liquid in this ceramic jar smells sickly sweet. To activate its powers, the user it must be unstopper the jar as a standard action while thinking deeply about a specific person or object that she has seen at least once from up to 30 feet away. When then poured onto the ground, the syrup flows at 15 feet per round following the most direct route to the creature or object visualized, provided the creature or object is on the same plane, leaving behind a sticky trail. The syrup can flow uphill or even up stairs and can pass through openings as narrow as one-sixteenth of an inch. It cannot penetrate other liquids or porous or absorbent surfaces (such as sand or sawdust).",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, find the path, locate creature, locate object; **Cost** 500 gp"
-		]
-	},
-	"elixir_of_spirit_sight": {
-		"name": "Elixir of Spirit Sight",
-		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
-		"description": [
-			"## Elixir of Spirit Sight",
-			"",
-			"{SOURCE Pathfinder #39: The City of Seven Spears/55}  ",
-			"**Aura** faint divination and transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This elixir seems to be made of thick vapor rather than liquid, and constantly emits soft whispers when uncorked. For 1 minute, the drinker gains the ability to see invisibility (as the spell), and his weapons and armor are treated as if they had the ghost touch special ability.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plane shift, see invisibility; **Cost** 500 gp"
-		]
-	},
-	"metamagic_gem_enlarging_amethyst": {
-		"name": "Metamagic Gem (Enlarging Amethyst)",
-		"sources": [ "Rival Guide" ],
-		"description": [
-			"## Metamagic Gem",
-			"",
-			"{SOURCE Rival Guide/11}  ",
-			"**Aura** strong (no school); **CL** 11th  ",
-			"**Slot** none; **Price** 1,000 gp (Enlarging Amethyst), 1,000 gp (Extending Garnet), 1,000 gp (Silent Spinel), 1,000 gp (Still Amber), 2,000 gp (Empowering Topaz), 4,000 gp (Maximizing Sapphire), 4,000 gp (Widening Emerald), 8,000 gp (Quickening Diamond); **Weight** -;",
-			"",
-			"Metamagic gems can be used to enhance spells with various metamagic effects, similar to the way metamagic rods are used, save that metamagic gems are consumed when they are used. To apply the effects of a metamagic gem to a spell, you need only use the metamagic gem as an additional material component for the spell in question.",
-			"",
-			"When you apply a metamagic effect to a spell using a metamagic gem, the spell slot of the altered spell does not change. You may only use one metamagic gem on any given spell, and while that spell cannot be further enhanced by a metamagic rod, it can be used with spells already enhanced in the normal way via any metamagic feats you possess. In this case, only the feats possessed by you adjust the spell slot of the spell being cast.",
-			"",
-			"Use of a metamagic gem does not confer the associated feat on the owner, only the one-time ability to use the given feat. A sorcerer or other spontaneous spellcaster must still take a full-round action when using a metamagic gem, just as if using a metamagic feat he possesses (except for quickening diamonds, which can be used as a swift action).",
-			"",
-			"The metamagic gems presented here are not the only such gems that exist. Other metamagic gems based on metamagic feats from other sources could easily be created - their costs should follow the pattern presented here (1,000 gp for gems that alter a spell slot by 1 level, 2,000 gp for those that alter spell slots by 2 levels, and so on), and each new gem should have a corresponding unique gemstone type associated with it.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, appropriate metamagic feat; **Cost** 1,000 gp (empowering topaz), 500 gp (enlarging amethyst), 500 gp (extending garnet), 2,000 gp (maximizing sapphire), 4,000 gp (quickening diamond), 500 gp (silent spinel), 500 gp (still amber), 2,000 gp (widening emerald)"
-		]
-	},
-	"metamagic_gem_extending_garnet": {
-		"name": "Metamagic Gem (Extending Garnet)",
-		"copyof": "metamagic_gem_enlarging_amethyst"
-	},
-	"firefoot_powder": {
-		"name": "Firefoot Powder",
-		"sources": [ "Rival Guide" ],
-		"description": [
-			"## Firefoot Powder",
-			"",
-			"{SOURCE Rival Guide/17}  ",
-			"**Aura** faint necromancy; **CL** 5th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This bright red powder contains a mixture of rare herbs and black salt. One dose of fire foot powder is enough powder to spread over two 5-foot squares, usually around doorways. The first creature to enter a powdered square must succeed on a DC 14 Fortitude save or immediately become overwhelmed by waves of fiery pain as if its legs and feet were being burned to ashes. The victim takes 1d6 points of nonlethal damage per round for 5 rounds, during which time it is also sickened.",
-			"",
-			"Once a dose of desiccating dust is applied to an area, that area remains warded by the effect for 24 hours, or until a creature is affected by the dust, at which point the entire dusted area expends its magic and becomes harmless.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, pain strike; **Cost** 500 gp"
-		]
-	},
-	"fortifying_stone": {
-		"name": "Fortifying Stone",
-		"sources": [ "Pathfinder Society Field Guide" ],
-		"description": [
-			"## Fortifying Stone",
-			"",
-			"{SOURCE Pathfinder Society Field Guide/52}  ",
-			"**Aura** moderate evocation; **CL** 7th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"On command, this semiprecious stone adheres to an object weighing not more than 100 pounds. As long as it is attached, the stone increases the object's hardness by 5, its break DC by 5, and its hit points by 20. Like temporary hit points, these additional hit points are lost first when the object the stone is protecting is damaged, and once they are exhausted, the fortifying stone is destroyed. However, unlike temporary hit points, they can be completely restored by repairing the fortifying stone via a single casting of a make whole spell. Any effect that breaks or destroys the protected object also destroys any attached fortifying stones.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, stoneskin; **Cost** 500 gp"
-		]
-	},
-	"godstar": {
-		"name": "Godstar",
-		"sources": [ "Disciple's Doctrine" ],
-		"description": [
-			"## Godstar",
-			"",
-			"{SOURCE Disciple's Doctrine/29}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 5 lbs.",
-			"",
-			"This small star is made of a brittle metal alloy and attaches easily to armor or a gauntlet. Each of the star's points is keyed to a specific god and can serve as a holy symbol for that god. As a standard action, the wearer can break off one of the star's points to activate an effect unique to that point. Once a point has been broken off, it can't be activated again and can no longer be used as a holy symbol for the deity to which it is keyed.",
-			"",
-			"When broken off, each of the godstar's points provide effects as follows.",
-			"",
-			"**Abadar:** The point emanates truth-telling magic in a 5-foot radius, as per zone of truth, for 10 minutes. Any creature that succeeds at a DC 13 Will save ignores this effect.",
-			"",
-			"**Asmodeus:** The wearer gains fire resistance 5 and her weapon attacks gain the flaming weapon special ability for 1 minute.",
-			"",
-			"**Iomedae:** If the wearer is under the effects of a fear effect, she can attempt a new saving throw against it with a +4 sacred bonus. The wearer can use this ability even if a fear effect would normally prevent her from doing so.",
-			"",
-			"**Irori:** The wearer can attempt a Knowledge check to identify a creature, even if she is untrained in the relevant Knowledge skill. She gains a +8 bonus on this check.",
-			"",
-			"**Torag:** The point transforms into a +1 warhammer when wielded by the owner of the godstar until it leaves her possession or after 1 minute. The wielder is considered proficient with this weapon for the duration of this effect, after which the weapon becomes a nonmagical masterwork warhammer.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, burst of insight, magic weapon, remove fear, resist energy, zone of truth; **Cost** 500 gp"
-		]
-	},
-	"incense_of_transcendence": {
-		"name": "Incense of Transcendence",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Incense of Transcendence",
-			"",
-			"{SOURCE Ultimate Equipment/304}  ",
-			"**Aura** moderate enchantment; **CL** 7th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.",
-			"",
-			"The heady vapors of this coiled incense facilitate a deep meditative trance. When an oracle lights a coil of incense of transcendence and then spends 8 hours praying and meditating nearby, she can replace one of her revelations with another revelation. The new revelation must be one available to her (such as from the same mystery) and must be available at the same class level as the original revelation (for example, she cannot replace a revelation available at 1st level with a revelation requiring a minimum of 7th level). If she replaces a revelation that is a prerequisite for another revelation or ability, she cannot use that other revelation or ability while under the influence of the incense.",
-			"",
-			"The coil of incense burns for 8 hours. Its effects persist for 24 hours, after which the oracle's original revelations return.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, prayer, creator must be oracle level 7th; **Cost** 500 gp"
-		]
-	},
-	"iron_lords_transforming_slivers": {
-		"name": "Iron Lord's Transforming Slivers",
-		"sources": [ "Inner Sea Gods" ],
-		"description": [
-			"## Iron Lord's Transforming Slivers",
-			"",
-			"{SOURCE Inner Sea Gods/266}  ",
-			"**Aura** moderate transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 2 lbs.",
-			"",
-			"The metal filings within this pouch are a mixture of adamantine, cold iron, mithral, and steel. The filings are faintly magnetic and stick to ferrous metal but are easily wiped away. If a metal or partly metal weapon is covered in the entire contents of the pouch and placed in a hot forge overnight, it slowly grows or shrinks by one size category toward the size of the creature who applied the powder. For example, a Small +1 longsword coated with the filings by a Medium creature transforms into a Medium +1 longsword. This transformation is permanent. The pouch contains enough material to transform one weapon, regardless of size.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate; **Cost** 500 gp"
-		]
-	},
-	"dimensional_acid_jagged_pit": {
-		"name": "Dimensional Acid (Jagged Pit)",
-		"copyof": "dimensional_acid_basic_pit"
-	},
-	"dimensional_acid_corrosive_pit": {
-		"name": "Dimensional Acid (Corrosive Pit)",
-		"copyof": "dimensional_acid_basic_pit"
-	},
-	"dimensional_acid_living_pit": {
-		"name": "Dimensional Acid (Living Pit)",
-		"copyof": "dimensional_acid_basic_pit"
-	},
-	"lantern_of_hidden_light": {
-		"name": "Lantern of Hidden Light",
-		"sources": [ "Adventurer's Guide" ],
-		"description": [
-			"## Lantern of Hidden Light",
-			"",
-			"{SOURCE Adventurer's Guide/115}  ",
-			"**Aura** faint evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 2 lbs.",
-			"",
-			"A lantern of hidden light can be an invaluable tool for one who wishes to see in darkened areas without being revealed to those accustomed to the darkness. This magical lantern can be activated with a touch to one of its crystal panes, and functions as a hooded lantern, save that this light (and what it illuminates) is visible only to the character who holds the lantern in one hand. To other observers, the lantern always appears unlit, and does not appear to be shedding any light at all.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, light; **Cost** 500 gp"
-		]
-	},
-	"neverspill_goblet": {
-		"name": "Neverspill Goblet",
-		"sources": [ "Inner Sea Temples" ],
-		"description": [
-			"## Neverspill Goblet",
-			"",
-			"{SOURCE Inner Sea Temples/22}  ",
-			"**Aura** faint conjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.",
-			"",
-			"The neverspill goblet was designed for one very simple purpose: to never have to worry about wasting Cayden Cailean's gifts. A goblet holds up to 1 cup of liquid (or 1 dose of a magic potable, such as a potion), and no matter how it is held or shaken, it never spills a drop, except down the throat of a willing drinker. A neverspill goblet does not dispense its contents for someone unwilling to drink from it. The magic of the goblet also keeps fluids from accidentally entering the goblet. This does not prevent poisoning (since the poisoner's addition is intentional), but means if a neverspill goblet is placed underwater and removed, its original contents remain undiluted. It is therefore possible to drink a potion from a neverspill goblet while underwater. Most neverspill goblets are made from light, portable materials such as wood or pewter, or come in larger sizes. Its magical nature does not prevent it from corrosion by acid. Liquids placed in a neverspill goblet do not succumb to the ravages of temperature or time, a fact that more than one adventurer has taken advantage of on journeys.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gentle repose; **Cost** 500 gp"
-		]
-	},
-	"root_of_the_world_tree_normal": {
-		"name": "Root of the World Tree (Normal)",
-		"copyof": "root_of_the_world_tree_lesser"
-	},
-	"normal_root_of_the_world_tree": {
-		"copyof": "root_of_the_world_tree_normal"
-	},
-	"root_of_the_world_tree_greater": {
-		"name": "Root of the World Tree (Greater)",
-		"copyof": "root_of_the_world_tree_lesser"
-	},
-	"greater_root_of_the_world_tree": {
-		"copyof": "root_of_the_world_tree_greater"
-	},
-	"pathfinder_pouch": {
-		"name": "Pathfinder Pouch",
-		"sources": [ "Seekers of Secrets" ],
-		"description": [
-			"## Pathfinder Pouch",
-			"",
-			"{SOURCE Seekers of Secrets/56}  ",
-			"**Aura** none; **CL** 9th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.",
-			"",
-			"This nondescript belt pouch is quite popular among Pathfinders who need to smuggle items past snooping guards or government officials. Detect magic does not detect that it is magical (as per the magic aura spell), but the pouch acts as a very small bag of holding (contents limit 10 pounds, volume limit 2 cubic feet).",
-			"",
-			"With a command word, the wearer can close or open the extradimensional space within the pouch; when closed, the pouch holds no more than a mundane belt pouch the size of a human fist, though objects within the extradimensional space remain stored, unreachable until the pouch is unsealed again. This allows the user to empty his pockets or even turn the pouch inside-out to prove he carries no contraband, and access the hidden goods later when in a safe place. Because of their nonmagical auras, these pouches sometimes hold secret treasures for generations without their owners realizing their nature.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, magic aura, secret chest; **Cost** 1,000 gp"
-		]
-	},
-	"pyxes_of_redirected_focus": {
-		"name": "Pyxes of Redirected Focus",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Pyxes of Redirected Focus",
-			"",
-			"{SOURCE Ultimate Equipment/317}  ",
-			"**Aura** moderate transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This round metal container is just large enough to contain the wooden, coin-sized token inside. Each side of the token is inscribed with a different prayer. Once per day, a cleric (or other class with cleric domains) may activate the pyxes and may select any one of her prepared domain spells and replace it with the domain spell of that level from her other domain. For example, a cleric with the Fire and Luck domains could switch her 1st-level prepared burning hands domain spell to true strike. The pyxes has no effect on creatures with no domain spells or only one domain.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, prayer; **Cost** 500 gp"
-		]
-	},
-	"quill_of_verification": {
-		"name": "Quill of Verification",
-		"sources": [ "Villain Codex" ],
-		"description": [
-			"## Quill of Verification",
-			"",
-			"{SOURCE Villain Codex/45}  ",
-			"**Aura** faint divination; **CL** 1st  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This swan-feather quill helps its wielder verify signatures. The wielder can store a signature in the quill by pressing the quill into the signature and speaking a command word. She can then tap the quill's tip on another signature to check if it was written by the same individual. The quill verifies the authenticity of the signature as if it had attained a total result of 20 on a Linguistics check. If the signature detects as legitimate (including skilled forgeries whose DC to detect them is greater than 20), the quill glows blue. A quill of verification can validate a signature up to 3 times per day. The wielder can switch the stored signature any number of times between uses of the verification ability.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, identify; **Cost** 500 gp"
-		]
-	},
-	"salve_of_slipperiness": {
-		"name": "Salve of Slipperiness",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Salve of Slipperiness",
-			"",
-			"{SOURCE Ultimate Equipment/318;PRPG Core Rulebook/529}  ",
-			"**Aura** moderate conjuration; **CL** 6th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"This substance provides a +20 competence bonus on all Escape Artist checks and combat maneuver checks made to escape from a grapple. The salve also grants a +10 competence bonus to the wearer's CMD for the purpose of avoiding grapple attempts. In addition, such obstructions as webs (magical or otherwise) do not affect an anointed individual. Magic ropes and the like do not avail against this salve. If it is smeared on a floor or on steps, the area should be treated as a long-lasting grease spell. The salve requires 8 hours to wear off normally, or it can be wiped off with an alcohol solution (even wine).",
-			"",
-			"Salve of slipperiness is needed to coat the inside of a container meant to hold sovereign glue.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, grease; **Cost** 500 gp"
-		]
-	},
-	"feather_token_siege_tower": {
-		"name": "Feather Token (Siege Tower)",
-		"copyof": "feather_token_anchor"
-	},
-	"metamagic_gem_silent_spinel": {
-		"name": "Metamagic Gem (Silent Spinel)",
-		"copyof": "metamagic_gem_enlarging_amethyst"
-	},
-	"solidsmoke_pipeweed": {
-		"name": "Solidsmoke Pipeweed",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"## Solidsmoke Pipeweed",
-			"",
-			"{SOURCE Advanced Race Guide/67}  ",
-			"**Aura** moderate conjuration; **CL** 7th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-			"",
-			"When smoked in any pipe, this pinch of magical tobacco produces a languid, milky-white smoke that the smoker can transform into useful objects. A halfling who puffs on the pipe as a full-round action can shape the smoke into an object weighing no more than 5 pounds and having a maximum volume of 1 cubic foot. The halfling can, on following rounds, spend additional full-round actions to increase the object's weight by 2 additional pounds and its volume by another cubic foot. The halfling must succeed at an appropriate Craft check to make a complex item. If the halfling stops puffing on her pipe for any reason before she finishes creating the object, the figure in the smoke collapses and her pipe is extinguished. Objects created by solidsmoke pipeweed last for 24 hours before fading away into vapor. Objects created by the pipeweed have the same hardness, hit points, and other qualities as manufactured objects of their type, but look smoky and indistinct. Each pinch of solidsmoke pipeweed is sufficient for 3 full rounds of smoking. A single larger item must be created with a single pinch of solidsmoke pipeweed, so any item created with this pipeweed can't be larger than 9 pounds and 3 cubic feet.",
-			"",
-			"A halfling cannot create an object designed to exactly duplicate or replace another specific object. For instance, while she could create a smoky lock with its own key, she could not puff smoke into an existing keyhole and then create a key that would open that particular lock.",
-			"",
-			"This smoke is caustic and chokes non-halflings. It grants non-halflings no benefits, and each time they spend a standard action to smoke the pipeweed, they are sickened for 1 round.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, minor creation, creator must be a halfling; **Cost** 500 gp"
-		]
-	},
-	"metamagic_gem_empowering_topaz": {
-		"name": "Metamagic Gem (Empowering Topaz)",
-		"copyof": "metamagic_gem_enlarging_amethyst"
-	},
-	"metamagic_gem_maximizing_sapphire": {
-		"name": "Metamagic Gem (Maximizing Sapphire)",
-		"copyof": "metamagic_gem_enlarging_amethyst"
-	},
-	"metamagic_gem_widening_emerald": {
-		"name": "Metamagic Gem (Widening Emerald)",
-		"copyof": "metamagic_gem_enlarging_amethyst"
-	},
-	"metamagic_gem_quickening_diamond": {
-		"name": "Metamagic Gem (Quickening Diamond)",
-		"copyof": "metamagic_gem_enlarging_amethyst"
-	},
-	"metamagic_gem_still_amber": {
-		"name": "Metamagic Gem (Still Amber)",
-		"copyof": "metamagic_gem_enlarging_amethyst"
 	}
 }

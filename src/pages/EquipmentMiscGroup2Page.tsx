@@ -22,7 +22,7 @@ const EquipmentMiscGroup2Page: React.FC<EquipProps> = ({id}) => {
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		topLink={["Misc. Equipment", "main/equipment_misc"]}
-	/>;
+	>{jsx}</BasicPage>;
 };
 
 export default EquipmentMiscGroup2Page;

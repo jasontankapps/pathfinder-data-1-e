@@ -219,6 +219,18 @@
 			"**Requirements** {feat/Craft Wondrous Item}, fabricate, magic aura, secret chest; **Cost** 2,500 gp (type I), 5,000 gp (type II), 7,400 gp (type III), 10,000 gp (type IV)"
 		]
 	},
+	"bag_of_concealment_type_2": {
+		"name": "Bag of Concealment (Type II)",
+		"copyof": "bag_of_concealment_type_1"
+	},
+	"bag_of_concealment_type_3": {
+		"name": "Bag of Concealment (Type III)",
+		"copyof": "bag_of_concealment_type_1"
+	},
+	"bag_of_concealment_type_4": {
+		"name": "Bag of Concealment (Type IV)",
+		"copyof": "bag_of_concealment_type_1"
+	},
 	"vial_of_reckless_courage": {
 		"name": "Vial of Reckless Courage",
 		"sources": [ "Antihero's Handbook" ],
@@ -294,7 +306,7 @@
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 5,040 gp; **Weight** 7 lbs.",
 			"",
-			"This magical standard appears to be a rather plain banner of nondescript canvas cloth, but on command it takes on the device or pattern chosen by the person using it. Once per day when the banner is planted firmly in the ground, it creates a calm and comfortable environment in a 20-foot radius from the banner, granting those within the area the benefits of endure elements. This area of calm and comfort can even resist magical weather effects, but only if those effects are of a caster level lower than that of the banner.",
+			"This magical standard appears to be a rather plain banner of nondescript canvas cloth, but on command it takes on the device or pattern chosen by the person using it. Once per day when the banner is planted firmly in the ground, it creates a calm and comfortable environment in a 20-foot radius from the banner, granting those within the area the benefits of {spell/endure elements}. This area of calm and comfort can even resist magical weather effects, but only if those effects are of a caster level lower than that of the banner.",
 			"",
 			"Also, the banner wards the area of calm and comfort as if by an alarm spell (audible alarm). The creature that plants the banner into the ground chooses the password upon doing so. The area created by the banner lasts for 8 hours or until the banner is taken out of the ground.",
 			"",
@@ -877,6 +889,62 @@
 		"name": "Figurine of Wondrous Power (Basalt Dragon)",
 		"copyof": "figurine_of_wondrous_power"
 	},
+	"figurine_of_wondrous_power_emerald_frog": {
+		"name": "Figurine of Wondrous Power (Emerald Frog)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_lapis_camel": {
+		"name": "Figurine of Wondrous Power (Lapis Camel)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_pearl_dolphin": {
+		"name": "Figurine of Wondrous Power (Pearl Dolphin)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_ruby_butterfly": {
+		"name": "Figurine of Wondrous Power (Ruby Butterfly)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_black_jade_raven": {
+		"name": "Figurine of Wondrous Power (Black Jade Raven)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_serpentine_eagle": {
+		"name": "Figurine of Wondrous Power (Serpentine Eagle)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_serpentine_owl": {
+		"name": "Figurine of Wondrous Power (Serpentine Owl)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_bronze_griffon": {
+		"name": "Figurine of Wondrous Power (Bronze Griffon)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_ebony_fly": {
+		"name": "Figurine of Wondrous Power (Ebony Fly)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_hematite_courgar": {
+		"name": "Figurine of Wondrous Power (Hematite Courgar)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_slate_spider": {
+		"name": "Figurine of Wondrous Power (Slate Spider)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_obsidian_raven": {
+		"name": "Figurine of Wondrous Power (Obsidian Raven)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_onyx_dog": {
+		"name": "Figurine of Wondrous Power (Onyx Dog)",
+		"copyof": "figurine_of_wondrous_power"
+	},
+	"figurine_of_wondrous_power_golden_lions": {
+		"name": "Figurine of Wondrous Power (Golden Lions)",
+		"copyof": "figurine_of_wondrous_power"
+	},
 	"fan_of_autumn": {
 		"name": "Fan of Autumn",
 		"sources": [ "Heroes of the Wild" ],
@@ -1334,6 +1402,18 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/awaken construct}; **Cost** 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)"
 		]
+	},
+	"ioun_memory_node_type_2": {
+		"name": "Ioun Memory Node (Type II)",
+		"copyof": "ioun_memory_node_type_1"
+	},
+	"ioun_memory_node_type_3": {
+		"name": "Ioun Memory Node (Type III)",
+		"copyof": "ioun_memory_node_type_1"
+	},
+	"ioun_memory_node_type_4": {
+		"name": "Ioun Memory Node (Type IV)",
+		"copyof": "ioun_memory_node_type_1"
 	},
 	"wavecutters_figurine": {
 		"name": "Wavecutter's Figurine",
@@ -1938,10 +2018,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, fabricate, minor creation, creator must have at least 5 ranks in Craft (clothing) or Profession (tailor); **Cost** 3,500 gp"
 		]
 	},
-	"figurine_of_wondrous_power_emerald_frog": {
-		"name": "Figurine of Wondrous Power (Emerald Frog)",
-		"copyof": "figurine_of_wondrous_power"
-	},
 	"ghostlight_lantern": {
 		"name": "Ghostlight Lantern",
 		"sources": [ "Pathfinder #92: The Hill Giant's Pledge" ],
@@ -2237,6 +2313,14 @@
 			"**Requirements** {feat/Craft Wondrous Item}, blessing of fervor (Sunwall) or remove fear (Harchist and Hordeline); **Cost** 3,750 gp (Hordeline), 7,500 gp (Harchist), 62,500 gp (Sunwall)"
 		]
 	},
+	"lastwall_banner_harchist": {
+		"name": "Lastwall Banner (Harchist)",
+		"copyof": "lastwall_banner_hordeline"
+	},
+	"lastwall_banner_sunwall": {
+		"name": "Lastwall Banner (Sunwall)",
+		"copyof": "lastwall_banner_hordeline"
+	},
 	"jalhazars_wheel": {
 		"name": "Jalhazar's Wheel",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
@@ -2253,10 +2337,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, animate objects, haste, creator must have 10 ranks in Profession (sailor); **Cost** 3,750 gp"
 		]
-	},
-	"figurine_of_wondrous_power_lapis_camel": {
-		"name": "Figurine of Wondrous Power (Lapis Camel)",
-		"copyof": "figurine_of_wondrous_power"
 	},
 	"manual_of_war": {
 		"name": "Manual of War",
@@ -2353,10 +2433,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, dominate animal, hide from animals; **Cost** 3,750 gp"
 		]
-	},
-	"figurine_of_wondrous_power_pearl_dolphin": {
-		"name": "Figurine of Wondrous Power (Pearl Dolphin)",
-		"copyof": "figurine_of_wondrous_power"
 	},
 	"teleporting_climbing_rig": {
 		"name": "Teleporting Climbing Rig",
@@ -3368,10 +3444,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, calm emotions, ability to channel positive energy; **Cost** 4,500 gp"
 		]
 	},
-	"figurine_of_wondrous_power_ruby_butterfly": {
-		"name": "Figurine of Wondrous Power (Ruby Butterfly)",
-		"copyof": "figurine_of_wondrous_power"
-	},
 	"sandstorm_dust": {
 		"name": "Sandstorm Dust",
 		"sources": [ "Blood of the Elements" ],
@@ -3407,18 +3479,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, shout; **Cost** 4,500 gp"
 		]
-	},
-	"figurine_of_wondrous_power_black_jade_raven": {
-		"name": "Figurine of Wondrous Power (Black Jade Raven)",
-		"copyof": "figurine_of_wondrous_power"
-	},
-	"figurine_of_wondrous_power_serpentine_eagle": {
-		"name": "Figurine of Wondrous Power (Serpentine Eagle)",
-		"copyof": "figurine_of_wondrous_power"
-	},
-	"figurine_of_wondrous_power_serpentine_owl": {
-		"name": "Figurine of Wondrous Power (Serpentine Owl)",
-		"copyof": "figurine_of_wondrous_power"
 	},
 	"strand_of_prayer_beads_lesser": {
 		"name": "Strand of Prayer Beads (Lesser)",
@@ -3597,10 +3657,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 5,000 gp"
 		]
 	},
-	"figurine_of_wondrous_power_bronze_griffon": {
-		"name": "Figurine of Wondrous Power (Bronze Griffon)",
-		"copyof": "figurine_of_wondrous_power"
-	},
 	"chime_of_resounding_silence": {
 		"name": "Chime of Resounding Silence",
 		"sources": [ "Ultimate Equipment" ],
@@ -3703,6 +3759,10 @@
 			"**Requirements** {feat/Craft Wondrous Item}, animate objects, flesh to stone; **Cost** 5,000 gp (Courser), 7,400 gp (Destrier)"
 		]
 	},
+	"stone_horse_destrier": {
+		"name": "Stone Horse (Destrier)",
+		"copyof": "stone_horse_courser"
+	},
 	"doomharp": {
 		"name": "Doomharp",
 		"sources": [
@@ -3739,10 +3799,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, expeditious retreat; **Cost** 5,000 gp"
 		]
-	},
-	"figurine_of_wondrous_power_ebony_fly": {
-		"name": "Figurine of Wondrous Power (Ebony Fly)",
-		"copyof": "figurine_of_wondrous_power"
 	},
 	"eldritch_egress": {
 		"name": "Eldritch Egress",
@@ -3798,10 +3854,6 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, fear; **Cost** 5,000 gp"
 		]
-	},
-	"figurine_of_wondrous_power_hematite_courgar": {
-		"name": "Figurine of Wondrous Power (Hematite Courgar)",
-		"copyof": "figurine_of_wondrous_power"
 	},
 	"hourglass_of_last_chances": {
 		"name": "Hourglass of Last Chances",
@@ -4013,10 +4065,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, align weapon; **Cost** 5,000 gp"
 		]
 	},
-	"figurine_of_wondrous_power_slate_spider": {
-		"name": "Figurine of Wondrous Power (Slate Spider)",
-		"copyof": "figurine_of_wondrous_power"
-	},
 	"summon_slave_crystal": {
 		"name": "Summon-Slave Crystal",
 		"sources": [ "Ultimate Equipment" ],
@@ -4075,1733 +4123,5 @@
 	"lords_banner_crusades": {
 		"name": "Lord's Banner (Crusades)",
 		"copyof": "lords_banner_swiftness"
-	},
-	"treasurers_seal": {
-		"name": "Treasurer's Seal",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Treasurer's Seal",
-			"",
-			"{SOURCE Ultimate Equipment/323}  ",
-			"**Aura** faint abjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.",
-			"",
-			"Six inches in diameter, one side of this porcelain seal shows a many-keyholed padlock, while the other displays a lightning bolt superimposed on an open hand. The padlock side is used to lock and alarm doors, chests, and other portals. The bearer may speak a command word to activate it when holding it against a lockable item. If the padlock side of the seal is touching the item, it bestows an alarm (mental alarm) and arcane lock on the target item. If the lightning bolt side of the seal is touching the item, it casts fire trap on the lock (the seal must be held to the lock for 10 minutes to use this ability).",
-			"",
-			"A creature carrying the seal can speak a command word to suspend its effects on an item for 1 minute. This ability is usable at will, but only works on effects created by that specific seal.",
-			"",
-			"The seal can be used at will but can only maintain effects on three items at any given time. Using it on a fourth item automatically negates the oldest effect.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alarm, arcane lock, fire trap; **Cost** 5,000 gp"
-		]
-	},
-	"bag_of_concealment_type_2": {
-		"name": "Bag of Concealment (Type II)",
-		"copyof": "bag_of_concealment_type_1"
-	},
-	"chalice_of_poison": {
-		"name": "Chalice of Poison",
-		"sources": [ "Inner Sea Intrigue" ],
-		"description": [
-			"## Chalice of Poison",
-			"",
-			"{SOURCE Inner Sea Intrigue/53}  ",
-			"**Aura** moderate necromancy; **CL** 7th  ",
-			"**Slot** none; **Price** 10,080 gp; **Weight** 1 lb.",
-			"",
-			"This chalice can be made to a variety of specifications, but is usually elegantly designed. Once per day when the user speaks a command word, the next time any potable liquid is poured into the chalice, it is infused with poison, as per the spell (Fortitude DC 16), which can be delivered as an ingested or contact poison (chosen when the command word is spoken). The poison remains potent for 24 hours, after which it becomes inert.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, poison; **Cost** 5,040 gp"
-		]
-	},
-	"clavis_somnus": {
-		"name": "Clavis Somnus",
-		"sources": [ "The House on Hook Street" ],
-		"description": [
-			"## Clavis Somnus",
-			"",
-			"{SOURCE The House on Hook Street/33}  ",
-			"**Aura** moderate transmutation and divination; **CL** 10th  ",
-			"**Slot** none; **Price** 10,300 gp; **Weight** -;",
-			"",
-			"The Clavis Somnus is a large, ornate, silver and mithral key. It is very cold to the touch and always gives off a faint vapor of condensation. Its construction and value satisfy the focus component of the breach the veil of dreams occult ritual and grants a +5 competence bonus on the primary caster's skill checks to perform the ceremony.",
-			"",
-			"The key also grants its wielder a +4 bonus on saving throws to resist illusion effects, as well as on Charisma checks made in the Dimension of Dreams. But the key imposes a -2 penalty on saving throws against sleep effects, and its holder is considered to have 2 fewer Hit Dice for the purpose of determining the number of Hit Dice used in sleep effects and the number of creatures affected. The key's holder is always counted first when determining which creatures are affected.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Lucid Dreamer, deep slumber, eagle's splendor, guidance; **Cost** 5,150 gp"
-		]
-	},
-	"deck_of_the_hellwasps_sting": {
-		"name": "Deck of the Hellwasp's Sting",
-		"sources": [ "Daughters of Fury" ],
-		"description": [
-			"## Deck of the Hellwasp's Sting",
-			"",
-			"{SOURCE Daughters of Fury/58}  ",
-			"**Aura** moderate conjuration; **CL** 9th  ",
-			"**Slot** none; **Price** 10,380 gp; **Weight** 1 lb.",
-			"",
-			"This seemingly ordinary deck of 54 playing cards is held in an ornate wooden box with a simple clasp, decorated with wasp-themed art. The clergy of Calistria sometimes gifts decks of this kind to its more devout and covert spies. As a move action, the owner of a deck of the hellwasp's sting can draw a card from the deck and speak a command word to transform that card into a thrown weapon (treat as a +1 flaming dart). Alternatively, the user can draw and activate a card covertly as a standard action, using Sleight of Hand to palm it and treat it as a hidden weapon for a subsequent attack. A card is always destroyed after being thrown, even if it doesn't hit the target. If the thrower uses the {feat/Arcane Strike} feat with this attack, the feat's bonus damage doubles.",
-			"",
-			"In addition, as long as there are at least 20 cards remaining in the deck, the entire deck can be sacrificed by speaking a command word and tossing the cards into the air as a full-round action. The cards transform into a swarm of burning, poisonous paper with the same statistics as a hellwasp swarm, except the swarm doesn't gain the inhabit ability, and all damage dealt by its swarm attack is fire damage. The character who activated the ability can control the swarm as if it were summoned by the summon swarm spell for up to 10 rounds, at which point the swarm dissipates.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** Arcane Strike, {feat/Craft Wondrous Item}, flame arrow, summon swarm; **Cost** 5,190 gp"
-		]
-	},
-	"familiars_soulstone": {
-		"name": "Familiar's Soulstone",
-		"sources": [ "Daughters of Fury" ],
-		"description": [
-			"## Familiar's Soulstone",
-			"",
-			"{SOURCE Daughters of Fury/59}  ",
-			"**Aura** moderate necromancy; **CL** 9th  ",
-			"**Slot** none; **Price** 10,500 gp; **Weight** 1 lb.",
-			"",
-			"A familiar's soulstone looks like an unpolished, rough red gem the size of a fist. The bearer can use the familiar's soulstone to perform an hour-long ritual that binds the soul of his familiar, animal companion, or bonded mount to the soulstone. Once this bond is established, the only way to sever it is to destroy the gem.",
-			"",
-			"If the bonded creature dies while on the same plane as its familiar's soulstone, its soul is siphoned into the gem, where it's preserved for 24 hours. Within this period, holding the gem to the body of the deceased bonded creature for 1 full minute restores that creature to life, as raise dead. The gem is destroyed in the process. A witch's familiar brought back to life using a familiar's soulstone retains all of its stored spells. If the soul isn't extracted from the gem within 24 hours, the gem crumbles to dust, automatically releasing the soul to the Great Beyond.",
-			"",
-			"A creature can have only one familiar's soulstone bound to it at a time, and a familiar's soulstone can be bound only to a single creature.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, raise dead; **Cost** 5,250 gp"
-		]
-	},
-	"besmaras_bones": {
-		"name": "Besmara's Bones",
-		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
-		"description": [
-			"## Besmara's Bones",
-			"",
-			"{SOURCE Pathfinder #56: Raiders of the Fever Sea/56}  ",
-			"**Aura** faint necromancy; **CL** 5th  ",
-			"**Slot** see text; **Price** 10,800 gp; **Weight** 300 lbs.",
-			"",
-			"Named for the goddess of piracy, strife, and sea monsters, this figurehead must be mounted on the prow of a ship function. Once per day, a ship carrying Besmara's Bones can inflict a curse on an enemy ship struck with a successful ramming attack. The target ship must succeed at a DC 14 Will save or its pilot takes a -4 penalty on Profession (sailor) checks to control the ship. In addition, the cursed ship can never gain the upper hand in ship-to-ship combat. The curse inflicted by the figurehead cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell. In addition, once per day, Besmara's Bones can be used to cast false life (CL 5th) on the captain of the ship carrying the figurehead. A ship may not have more than one figurehead, magical or otherwise, mounted on it at one time.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, false life; **Cost** 5,400 gp"
-		]
-	},
-	"chelish_listening_trumpet": {
-		"name": "Chelish Listening Trumpet",
-		"sources": [ "Inner Sea Intrigue" ],
-		"description": [
-			"## Chelish Listening Trumpet",
-			"",
-			"{SOURCE Inner Sea Intrigue/53}  ",
-			"**Aura** faint divination; **CL** 5th  ",
-			"**Slot** none; **Price** 10,800 gp; **Weight** 1 lb.",
-			"",
-			"This silver ear trumpet resembles the popular mundane item used for listening to Chelish opera and has elaborate spirals carved along its 1-foot length. While held to the ear, the trumpet makes it easier to hear sounds in a 200-foot cone emanating from the trumpet; the user ignores the DC increase for distance applied to sound-based Perception checks. However, this does not negate the DC modifiers for listening through closed doors, walls, or the like.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/clairvoyance; **Cost** 5,000 gp"
-		]
-	},
-	"shackles_ensign": {
-		"name": "Shackles Ensign",
-		"sources": [ "Pathfinder #57: Tempest Rising" ],
-		"description": [
-			"## Shackles Ensign",
-			"",
-			"{SOURCE Pathfinder #57: Tempest Rising/58}  ",
-			"**Aura** moderate enchantment; **CL** 10th  ",
-			"**Slot** none; **Price** 10,800 gp; **Weight** 3 lbs.",
-			"",
-			"This red-and-black naval ensign displays the grinning skull and crossed manacles of the Shackles. While the flag feels as sleek as silk, the material is stronger than the toughest sail canvas. Openly flying a Shackles ensign improves the initial attitude of most hostile or unfriendly pirates by one step, and worsens the starting attitude of those opposed to piracy by one step. The ensign has no effect when not properly mounted on a ship.",
-			"",
-			"Once per day, a Shackles ensign can be hoisted and unfurled on a ship to impose a sinister sense of doom upon an opposing ship's crew. It takes two full-round actions to raise the flag. All non-pirate creatures (defined at the GM's discretion) within 300 feet who are able to see the flag take a -1 penalty on attack rolls, weapon damage rolls, saving throws, and skill checks for 1 minute. This is a visual mind-affecting effect. In addition, all allied creatures aboard the ship flying the Shackles ensign gain a +1 luck bonus on attack rolls, weapon damage rolls, saving throws, and skill checks for 1 minute.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, prayer; **Cost** 5,400 gp"
-		]
-	},
-	"shield_of_countless_causes": {
-		"name": "Shield of Countless Causes",
-		"sources": [ "Faiths and Philosophies" ],
-		"description": [
-			"## Shield of Countless Causes",
-			"",
-			"{SOURCE Faiths and Philosophies/31}  ",
-			"**Aura** faint enchantment; **CL** 5th  ",
-			"**Slot** shield; **Price** 11,157 gp; **Weight** 10 lbs.",
-			"",
-			"Dozens of pages of scripture cover the face of this +2 heavy wooden shield, each detailing in word or illustration the tenets of a knightly order. While worn or carried, the shield acts like a phylactery of faithfulness, except that it only functions for actions that would violate the edicts of the wearer's cavalier order. A newly created shield of countless causes has 5 charges. By expending 1 charge and studying the shield's texts for 10 minutes, the wielder can regain the use of his order abilities as if 24 hours had passed. By expending 3 charges and studying the shield's texts for 8 hours, the wielder can change his order. When the last charge is used, the shield remains a +2 heavy wooden shield.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, atonement; **Cost** 5,657 gp"
-		]
-	},
-	"forgers_friend": {
-		"name": "Forger's Friend",
-		"sources": [ "Inner Sea Intrigue" ],
-		"description": [
-			"## Forger's Friend",
-			"",
-			"{SOURCE Inner Sea Intrigue/53}  ",
-			"**Aura** moderate divination; **CL** 7th  ",
-			"**Slot** none; **Price** 11,200 gp; **Weight** 5 lbs.",
-			"",
-			"This leather satchel contains a forger's kit - quills, ink, parchment, and sealing wax - as well as personal oddments ranging from braids of hair to heirloom brooches. When attempting to create a forgery, the user can place within the forger's friend a personal possession or other item connected to the person whose handwriting the user wants to forge. After 24 hours, any forgery made with paper or parchment also kept within the satchel for that duration is supernaturally convincing beyond the +2 circumstance bonus granted by the forger's kit itself. A creature attempting to detect the forgery takes a penalty on its Linguistics check equal to the penalty a target of a scrying spell would take based on the contents of the forger's friend. The forger's friend can acclimate the forging gear within to only one creature at a time.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, scrying; **Cost** 5,600 gp"
-		]
-	},
-	"fate_readers_lenses": {
-		"name": "Fate-Reader's Lenses",
-		"sources": [ "The Harrow Handbook" ],
-		"description": [
-			"## Fate-Reader's Lenses",
-			"",
-			"{SOURCE The Harrow Handbook/30}  ",
-			"**Aura** strong divination; **CL** 5th  ",
-			"**Slot** none; **Price** 11,250 gp; **Weight** -;",
-			"",
-			"Fate-reader's lenses consist of two specially crafted harrow decks. The decks sport a stylized image of an eye on the back of each card - one deck's eyes are red, and the deck's eyes are blue. Each card in the red deck is linked to its corresponding card in the blue deck. The owner can peer through the eyes of any card from the red deck to see whatever is in front of the corresponding blueeyed card, as if using enter image.",
-			"",
-			"The owner can peer through any red card at will; drawing a random card and peering through it is a standard action, while going through the deck and selecting a specific card is a full-round action. If the corresponding blue card is still shuffled in with the rest of the blue deck, it is automatically moved to the top of that deck, ready to be drawn by whoever bears it. Once a blue card is drawn, it can be placed on a creature's person with a successful Sleight of Hand check or stuck to any sturdy flat surface, where it remains until moved again by either you or another creature.",
-			"",
-			"Only a single pair of cards can have a visual link between them at any time, and placing a red card at the bottom of its deck causes the eye on the matching blue card to close, ending the visual link until the red card is peered through again. While the blue cards can be meted out and separated however the owner desires, the red cards lose their magic if separated from the red-eyed harrow deck for more than 10 minutes. If a blue card or a red card is destroyed, the matching card of the opposite deck loses its magic.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, enter image; **Cost** 5,625 gp"
-		]
-	},
-	"amazing_tools_of_manufacture": {
-		"name": "Amazing Tools of Manufacture",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"## Amazing Tools of Manufacture",
-			"",
-			"{SOURCE Advanced Race Guide/37}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 1 lb.",
-			"",
-			"Tools of this type always appear to be of the highest quality and wrought of the finest materials, most often mithral, darkwood, and adamantine. In the hands of a casual wielder, these items simply appear to be magically enhanced masterwork tools for a specific Craft skill (determined randomly), granting a +4 circumstance bonus on such skill checks.",
-			"",
-			"However, in the hands of a craftsman with 6 or more ranks in the selected Craft skill, the greater power of the amazing tools of manufacture becomes apparent. The wielder may use the tools to create items using the Craft skill much more surely and quickly. The wielder may take raw materials with a value equal to half the price of an object to be crafted, and produce a finished object in as little as 1 hour for an item with a final cost of 2,000 gp or less. For objects with a final cost of more than 2,000 gp, the wielder can perform 2,000 gp worth of work in a single hour, but only once each day. Only a single skill check is required to successfully complete the item, made on the last day of crafting and gaining the +4 circumstance bonus granted by the tools.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Master Craftsman; **Cost** 6,000 gp"
-		]
-	},
-	"black_soul_shard": {
-		"name": "Black Soul Shard",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Black Soul Shard",
-			"",
-			"{SOURCE Ultimate Equipment/283}  ",
-			"**Aura** moderate necromancy; **CL** 7th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** -;",
-			"",
-			"This dark gem attunes itself to the soul of its bearer. When carried close to the body of a creature continuously for 1 week, the gem harmlessly absorbs a portion of that creature's life essence. If separated from its bearer for at least 1 day, the gem loses this attunement. If the bearer gains one or more negative levels, the black soul shard absorbs one of these negative levels into itself, negating the effect. The black soul shard can only absorb a negative level if carried by the person it is attuned to. If an attuned black soul shard is used as an additional focus component for raising the attuned creature from the dead, the negative level cost of being raised is one less than normal (minimum 1), but only if the spell is cast within 24 hours of the creature's death.",
-			"",
-			"Absorbing a negative level (whether from an attack or raising the attuned creature from the dead) destroys the portion of the soul within a black soul shard. This does not harm the creature, but requires re-attuning the gem for another week for it to function again. A creature can only have one black soul shard attuned to it at a time.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, death ward, restoration; **Cost** 6,000 gp"
-		]
-	},
-	"blasphemous_chalice": {
-		"name": "Blasphemous Chalice",
-		"sources": [ "Pathfinder #139: The Dead Road" ],
-		"description": [
-			"## Blasphemous Chalice",
-			"",
-			"{SOURCE Pathfinder #139: The Dead Road/70}  ",
-			"**Aura** moderate conjuration; **CL** 7th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 3 lbs.",
-			"",
-			"Contrary to the name, a blasphemous chalice takes the form of an enchanted box, usually sumptuously decorated, with a lump of unidentifiable tissue inside. This tissue seems to somehow be alive and bleeds a watery, greenish-black blood.",
-			"",
-			"To benefit from the chalice's power, a character must bite the tissue and drink the blood as a full-round action. The alien blood twists and rearranges the character's organs. For the next hour, when the affected creature is hit by a critical hit or a sneak attack, there is a 50% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. A blasphemous chalice produces enough blood for a single use per day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/shield of fortification}; **Cost** 6,000 gp"
-		]
-	},
-	"bosuns_call": {
-		"name": "Bosun's Call",
-		"sources": [ "Daughters of Fury" ],
-		"description": [
-			"## Bosun's Call",
-			"",
-			"{SOURCE Daughters of Fury/57}  ",
-			"**Aura** moderate abjuration; **CL** 8th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 1 lb.",
-			"",
-			"This copper-and-bronze whistle is played by blowing through the mouthpiece while opening and closing one's hand over the hole to modify the pitch. The whistle has 3 charges, which are automatically restored at sunrise each day. As a standard action, the user can attempt a Perform (wind) check and expend the indicated number of charges to produce one of the following effects.",
-			"",
-			"- **0 charges:** Wake all allies within 30 feet (DC 15).",
-			"- **1 charge:** Wake all allies aboard the same ship (DC 20).",
-			"- **1 charge:** Convey a secret message to all allies within 60 feet, as the Bluff skill (DC 20).",
-			"- **1 charge:** Perform a countersong as the bardic performance ability, with a +2 bonus on the Perform (wind) check (DC 20).",
-			"- **2 charges:** Grant up to six allies, no two of whom can be more than 30 feet apart, climb and swim speeds of 20 feet each for 4 rounds (DC 20).",
-			"- **2 charges:** Grant all allies within 60 feet a +5 morale bonus on Swim checks for 10 minutes (DC 25).",
-			"",
-			"The charge is expended even if the Perform check fails.",
-			"",
-			"A user of the bosun's call who has the bardic performance class feature can, as a swift action, expend a number of rounds of bardic performance equal to the number of charges needed to produce the effect instead of expending those charges.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alarm, alter self, creator must have the bardic performance class ability; **Cost** 3,350 gp"
-		]
-	},
-	"drinking_horn_of_the_panacea": {
-		"name": "Drinking Horn of the Panacea",
-		"sources": [ "Advanced Class Guide" ],
-		"description": [
-			"## Drinking Horn of the Panacea",
-			"",
-			"{SOURCE Advanced Class Guide/229}  ",
-			"**Aura** moderate conjuration; **CL** 7th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 1 lb.",
-			"",
-			"This drinking horn is made from the highly polished tusk of some great beast. Etched around the rim are stylized waves and sea creatures. The horn typically appears empty, but once per day a creature holding it can command it to fill with a liquid that has the effect of one of four spells when consumed: cure serious wounds, neutralize poison, remove disease, or lesser restoration. Consuming a drink from the horn is a standard action that provokes attacks of opportunity. No matter the spell chosen, the drink in the horn has the appearance and honeyed fragrance of summer mead. If the liquid is not consumed within 1 minute or is spilled from the horn, its effects are wasted.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cure serious wounds, neutralize poison, remove disease, lesser restoration; **Cost** 6,000 gp"
-		]
-	},
-	"horn_of_the_war_leader_half_orc": {
-		"name": "Horn of the War-Leader (Half-Orc)",
-		"sources": [ "Inner Sea Races" ],
-		"description": [
-			"## Horn of the War-Leader (Half-Orc)",
-			"",
-			"{SOURCE Inner Sea Races/232}  ",
-			"**Aura** faint evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 4 lbs.",
-			"",
-			"The following wondrous item is generally available only to members of the indicated race or ethnicity.",
-			"",
-			"A cord of leather attached to this large, hollow animal horn allows it to hang from the neck, wrist, or belt. The bearer can blow the horn as a standard action up to three times per day to create a blast of sound that can be heard at a distance of up to 5 miles.",
-			"",
-			"If the blower is a half-orc, she can encode a message of up to 25 words (usually an order for deployed troops) into the sound and designate any number of allies within range. The designated allies automatically sense the blower's intention and learn the message.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, whispering wind, creator must be a half-orc; **Cost** 6,000 gp"
-		]
-	},
-	"horsemasters_saddle": {
-		"name": "Horsemaster's Saddle",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Horsemaster's Saddle",
-			"",
-			"{SOURCE Ultimate Equipment/304}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.",
-			"",
-			"This ornate military saddle, tooled with an elaborate equine motif, grants the mount a +5 competence bonus on Acrobatics checks and the mount's rider a +5 competence bonus on Ride checks. In addition, the mount gains the benefits of any teamwork feats possessed by the rider.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mount, creator must have 5 ranks in Ride; **Cost** 6,000 gp"
-		]
-	},
-	"lantern_of_concealment": {
-		"name": "Lantern of Concealment",
-		"sources": [ "Dungeoneer's Handbook" ],
-		"description": [
-			"## Lantern of Concealment",
-			"",
-			"{SOURCE Dungeoneer's Handbook/29}  ",
-			"**Aura** faint illusion; **CL** 5th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 2 lbs.",
-			"",
-			"This black lamp has a wooden frame wrapped with a cover made from white linen, on which are drawn numerous spidery runes and constellations. While lit, a lantern of concealment creates a hide campsite effect in a 20-foot cube centered on the lantern that lasts for 10 hours. This effect moves with the lantern, but only functions while the lantern is stationary. If the lantern is moved while its concealment effect is active, it must take 10 minutes to adjust to its new location before continuing the hide campsite effect. A lantern of concealment can only be used in this way once per day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hide campsite; **Cost** 6,000 gp"
-		]
-	},
-	"lithomancy_stones": {
-		"name": "Lithomancy Stones",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Lithomancy Stones",
-			"",
-			"{SOURCE Occult Adventures/260}  ",
-			"**Aura** moderate divination; **CL** 7th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 2 lbs.",
-			"",
-			"A set of lithomancy stones contains 1 5 semi-precious stones of varying shape and color, representing a mixture of elements, emotions, and various spiritual presences from the outer planes. Once per day, the possessor of a set of lithomancy stones can frame a question in her mind, cast the stones upon the ground, and attempt a reading with a Knowledge (planes) check to find the answer to her question. The check takes 1 minute, and the DC depends on the time frame of the question. The DC for a question regarding the next 30 minutes is 20. A question regarding the next day has a DC of 30, and a question about the next week has a DC of 40. The GM rolls the check in secret. If the possessor fails the check by 5 or more, she receives a false or misleading reading. If the possessor fails the check by less than 5, it yields no result. A successful check reveals information similar to that gained through a successful augury (for a reading about the next 30 minutes) or divination (for longer readings), which is communicated by the relative position of the stones.",
-			"",
-			"In addition to this function, lithomancy stones can be used as an additional focus for augury, divination, or similar spells to increase the chance of receiving correct information by 10% (to a maximum of 90%).",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, divination, creator must have at least 5 ranks in Knowledge (planes); **Cost** 6,000 gp"
-		]
-	},
-	"moonstone_cat": {
-		"name": "Moonstone Cat",
-		"sources": [ "Mythic Adventures" ],
-		"description": [
-			"## Moonstone Cat",
-			"",
-			"{SOURCE Mythic Adventures/154}  ",
-			"**Aura** moderate enchantment; **CL** 7th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 1 lb.",
-			"",
-			"This fist-sized statue of a curled-up cat is crafted from gleaming moonstone. When the statue is placed upon the chest of a helpless creature, it briefly animates and stretches like a real cat waking up from a fitful sleep, then curls up again. When this happens, the helpless creature is lulled into a deep sleep, and doesn't awaken until the cat is removed from its chest.",
-			"",
-			"If the creature placing the cat expends three uses of mythic power while doing so, the helpless creature can't be awoken for a week, even if the cat is removed. If the user instead expends six uses of mythic power, the helpless creature can't be awoken for a month. If the user expends 10 uses, the helpless creature can't be awoken for a year. If the user expends 20 uses, the helpless creature can't be awoken for an entire century.",
-			"",
-			"While in this sleep, the helpless creature's heart rate and breathing slow to a barely perceptible rate. It doesn't need to eat or drink, though it must still breathe and it ages normally while in this magical sleep. A wish, miracle, or mythic break enchantment can end this magical sleep.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, mythic deep slumber; **Cost** 6,000 gp"
-		]
-	},
-	"pipes_of_dissolution": {
-		"name": "Pipes of Dissolution",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Pipes of Dissolution",
-			"",
-			"{SOURCE Ultimate Equipment/315}  ",
-			"**Aura** faint abjuration; **CL** 5th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 3 lbs.",
-			"",
-			"Carvings of winter scenes decorate this set of pan pipes. Activating the pipes requires a DC 15 Perform (wind instruments) check. Creatures within 30 feet gain a +2 competence bonus on caster level checks to dispel magical effects and overcome spell resistance. Maintaining the performance is challenging, requiring a move action and a new Perform check each round, with the DC increasing by +1 for each round the instrument is played. The magic ends when the player voluntarily stops or fails the Perform check, after which the pipes cannot be used again for 1 hour.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dispel magic; **Cost** 6,000 gp"
-		]
-	},
-	"pipes_of_pain": {
-		"name": "Pipes of Pain",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Pipes of Pain",
-			"",
-			"{SOURCE Ultimate Equipment/315}  ",
-			"**Aura** moderate enchantment; **CL** 6th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 3 lbs.",
-			"",
-			"By making a DC 15 Perform (wind instruments) check, the bearer can use these pipes to create a wondrous melody which fascinates creatures within 30 feet for as long as the bearer continues to play (Will DC 14 negates). This is a mind-affecting sonic compulsion effect. The bearer is immune to the sound of the pipes. When the bearer stops playing, for the next 2d4 rounds all creatures who were fascinated by the music are stricken by intense pain at even the slightest noise. Unless a creature is in a totally silent area, it takes 1d4 points of damage per round on its turn, and it has sonic vulnerability until this time expires. Thereafter, the creature is shaken unless it is in a totally silent area; this hypersensitivity to noise is a curse effect.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, sound burst, creator must have the bardic performance class ability; **Cost** 6,000 gp"
-		]
-	},
-	"radiant_panel": {
-		"name": "Radiant Panel",
-		"sources": [ "Blood of Shadows" ],
-		"description": [
-			"## Radiant Panel",
-			"",
-			"{SOURCE Blood of Shadows/21}  ",
-			"**Aura** faint evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** -;",
-			"",
-			"This small glass cube bears shallow indents carved into each side. Pressing an indentation as a standard action creates a thin sheet of hard light that is 5 feet wide. The sheet covers one edge of a 5-foot square, chosen at activation. While active, the sheet blocks attacks as if it is a solid wall, granting total cover against attacks and spells that pass through this edge. The sheet has hardness 10 and 30 hp. Force effects bypass this sheet, acting normally. The edge chosen can even be a horizontal one, creating a platform that can hold 500 pounds of weight.",
-			"",
-			"Once active, the cube anchors itself in place, preventing the sheet from moving. Moving the cube while it is active requires a successful DC 22 Strength check. If the cube moves or if more than 500 pounds of weight is added to the sheet, the sheet shatters, requiring another activation to create a new sheet.",
-			"",
-			"Light sheets created by the cube remain for 1 minute and a cube can create up to 5 sheets per day. A sheet can be dismissed as a standard action, expending the full use of that sheet.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, floating disk; **Cost** 6,000 gp"
-		]
-	},
-	"see_invisibility_sight": {
-		"name": "See Invisibility Sight",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"## See Invisibility Sight",
-			"",
-			"{SOURCE Ultimate Combat/143}  ",
-			"**Aura** moderate divination; **CL** 8th  ",
-			"**Slot** none (see below); **Price** 12,000 gp; **Weight** 1 lb.",
-			"",
-			"This sight can be attached to a single two-handed firearm. When this is done, the sight becomes part of the weapon, but can be removed from that weapon with a full-round action. A firearm wielder using a firearm that has this sight can choose to spend a full-round action to either locate an invisible creature within line of sight or make a single shot that ignores the invisibility of a creature that she knows is in the area.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, true seeing; **Cost** 6,000 gp"
-		]
-	},
-	"seekers_sight": {
-		"name": "Seeker's Sight",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Seeker's Sight",
-			"",
-			"{SOURCE Ultimate Equipment/319}  ",
-			"**Aura** moderate divination; **CL** 8th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 1 lb.",
-			"",
-			"This sight can be attached to a single two-handed firearm. When this is done, the sight becomes part of the weapon, but can be removed from that weapon with a full-round action. A firearm wielder using a firearm that has this sight can choose to spend a full-round action to either locate an invisible creature within line of sight or make a single shot that ignores the invisibility of a creature that she knows is in the area.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, true seeing; **Cost** 6,000 gp"
-		]
-	},
-	"spell_totem": {
-		"name": "Spell Totem",
-		"sources": [ "Blood of the Moon" ],
-		"description": [
-			"## Spell Totem",
-			"",
-			"{SOURCE Blood of the Moon/31}  ",
-			"**Aura** moderate evocation; **CL** 13th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** -;",
-			"",
-			"Carved from a piece of bone from the kind of animal it depicts, this primitive charm can hold (but not cast) up to 3 levels of spells as a minor ring of spell storing. When the bearer uses a polymorph effect or other ability to transform into an animal that matches the animal the totem depicts (including dire versions), it can use one of the spells stored within on itself as a swift action. This spell must be able to target the bearer in its animal form. The bearer does not need to be able to cast the spell contained within a spell totem in order to use this item. When the bearer changes shape again - either by taking the form of a different creature or reverting to its natural form - the spell cast from the totem immediately ends, as though the duration had expired. Spell totems can be crafted in the form of animals or magical beasts.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Quicken Spell}, contingency, imbue with spell ability; **Cost** 6,000 gp"
-		]
-	},
-	"spirit_slate": {
-		"name": "Spirit Slate",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Spirit Slate",
-			"",
-			"{SOURCE Occult Adventures/263}  ",
-			"**Aura** faint divination; **CL** 5th  ",
-			"**Slot** none; **Price** 12,000 gp; **Weight** 2 lbs.",
-			"",
-			"This simple chalkboard consists of a book-sized wooden frame surrounding a thin, rectangular slice of flat black slate. Though mediums typically use mundane slates to demonstrate automatic writing, this magical version can obtain answers to specific questions regarding a dead creature if the user has access to at least a fragment of bone from the deceased's body. Once the user places a bone fragment upon the slate, that fragment animates and begins scribbling answers to the following four questions on the slate's surface.",
-			"",
-			"- Who were you? (The name by which the creature was most commonly known.)",
-			"- What were you? (The creature's gender, race, profession/ role.)",
-			"- How did you die? (A brief outline of the events that caused the creature's death, to the creature's best knowledge.)",
-			"- When did you die? (To the most specific time the creature can place its death.)",
-			"",
-			"These answers always appear in a language the user can read, even if the creature could not speak that or any language. The device can be used up to 3 times per day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blood biography; **Cost** 6,000 gp"
-		]
-	},
-	"deck_of_doors": {
-		"name": "Deck of Doors",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"## Deck of Doors",
-			"",
-			"{SOURCE Ultimate Intrigue/246}  ",
-			"**Aura** moderate transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 12,150 gp; **Weight** -;",
-			"",
-			"This set of 54 cards is adorned with designs reminiscent of doors and gates. As a standard action, the user can press a card from the deck against a 5-foot section of a wall. The wall must be nonmagical, can be up to 2 feet thick, and must have hardness 8 or lower. In a flash of silvery light, the card grows into a good wooden door (hardness 5, 15 hp) and embeds itself in the wall for 5 rounds, its appearance matching the style of the surrounding architecture. If the user presses two cards against a wall at the same time, the cards instead turn into a double door for 10 rounds. The door can be opened from either side, allowing passage through the affected section of the wall. When the duration ends, the door peels off the wall and withers into a blank, nonmagical card, leaving the wall intact. When used in an urban chase encounter, a card from the deck lowers the DC of any one Strength- or Dexterity-based obstacle by 5 for 5 rounds (or 10 rounds if two cards are used).",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, minor creation, passwall; **Cost** 6,075 gp"
-		]
-	},
-	"wardens_cudgel": {
-		"name": "Warden's Cudgel",
-		"sources": [ "Faiths and Philosophies" ],
-		"description": [
-			"## Warden's Cudgel",
-			"",
-			"{SOURCE Faiths and Philosophies/31}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 12,150 gp; **Weight** 3 lbs.",
-			"",
-			"Commonly created by members of the Green Faith, this type of +1 greenwood club is made from knotted wood, is covered in thorns and vines, and looks as though it is still alive. Twice per day when the wielder hits a target with a warden's cudgel, vines, leaves, and roots instantly grow from the target's square in a 15-foot radius. These plants remain for 1 minute and are treated as difficult terrain and natural plant growth for the purposes of the woodland stride class feature. If the area already has brush and trees in it, the plants in the affected area instead grow as the overgrowth version of plant growth.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plant growth; **Cost** 6,150 gp"
-		]
-	},
-	"shell_of_sending": {
-		"name": "Shell of Sending",
-		"sources": [ "Pathfinder #124: City in the Deep" ],
-		"description": [
-			"## Shell of Sending",
-			"",
-			"{SOURCE Pathfinder #124: City in the Deep/56}  ",
-			"**Aura** moderate evocation; **CL** 7th  ",
-			"**Slot** none; **Price** 12,200 gp; **Weight** -;",
-			"",
-			"This conch shell measures only a few inches long and shimmers with a delicate pink color. Shells of sending always come in pairs, with each shell attuned to the other. If pairs are mixed up or lost, a shell of sending can be attuned to a new shell of sending in a process that takes 24 hours.",
-			"",
-			"Once per day, anyone holding a shell of sending can whisper up to 25 words into the shell. The sender's words emerge from the second shell, audible to anyone holding the attuned shell, as long as the receiver is on the same plane of existence. If the receiver wishes, she can send a return message of up to 25 words.",
-			"",
-			"Anyone eavesdropping on either sender or receiver must attempt a DC 14 Will saving throw. On a success, an eavesdropper can hear the speakers normally. On a failure, the speakers seem to be relaying gibberish and nonsense words to each other. Creatures who fail this saving throw by 5 or more are deafened for 1d4 minutes.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/sending}; **Cost** 6,100 gp"
-		]
-	},
-	"assassins_sight_greater": {
-		"name": "Assassin's Sight, Greater",
-		"sources": [ "Ranged Tactics Toolbox" ],
-		"description": [
-			"## Assassin's Sight, Greater",
-			"",
-			"{SOURCE Ranged Tactics Toolbox/28}  ",
-			"**Aura** moderate divination; **CL** 9th  ",
-			"**Slot** none; **Price** 12,250 gp; **Weight** 2 lbs.",
-			"",
-			"A greater assassin's sight is similar to the standard assassin's sight, but it has a noticeably sleeker design and provides its wielder greater range. It has three settings: 0-30 feet, 30-60 feet, and 60-90 feet. In addition, setting the range on a greater assassin's sight is a standard action (though it still provokes attacks of opportunity). Finally, a greater assassin's sight grants a +4 competence bonus on attack rolls to confirm critical hits within the set range",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, locate weakness, true strike; **Cost** 6,125 gp"
-		]
-	},
-	"greater_assassins_sight": {
-		"copyof": "assassins_sight_greater"
-	},
-	"jungle_seekers_monocle": {
-		"name": "Jungle Seeker's Monocle",
-		"sources": [ "Merchant's Manifest" ],
-		"description": [
-			"## Jungle Seeker's Monocle",
-			"",
-			"{SOURCE Merchant's Manifest/20}  ",
-			"**Aura** faint conjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 12,400 gp; **Weight** -;",
-			"",
-			"The lens of this classical monocle is made of carefully shaped Shory glass. By looking through the lens, a wearer of a jungle seeker's monocle can find hidden creatures even in the thickest of jungles. The wearer can use Perception to detect the presence of other living creatures up to 3d6 &times;10 feet away in any forest, treating it as if it were a sparse forest. The monocle also grants a +2 competence bonus on Perception checks to notice creatures using Stealth, regardless whether the wearer is in a forest or elsewhere.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** Create Wondrous Item, acute senses; **Cost** 6,200 gp"
-		]
-	},
-	"blessed_book": {
-		"name": "Blessed Book",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Blessed Book",
-			"",
-			"{SOURCE Ultimate Equipment/283;PRPG Core Rulebook/502}  ",
-			"**Aura** moderate transmutation; **CL** 7th  ",
-			"**Slot** none; **Price** 12,500 gp; **Weight** 1 lb.",
-			"",
-			"This well-made tome is always of small size, typically no more than 12 inches tall, 8 inches wide, and 1 inch thick. All such books are durable, waterproof, bound with iron overlaid with silver, and locked.",
-			"",
-			"A wizard can fill the 1,000 pages of a blessed book with spells without paying the material cost. This book is never found as randomly generated treasure with spells already inscribed in it.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, secret page; **Cost** 6,250 gp"
-		]
-	},
-	"gossipers_gourd": {
-		"name": "Gossiper's Gourd",
-		"sources": [ "Daughters of Fury" ],
-		"description": [
-			"## Gossiper's Gourd",
-			"",
-			"{SOURCE Daughters of Fury/60}  ",
-			"**Aura** faint divination; **CL** 3rd  ",
-			"**Slot** none; **Price** 12,500 gp; **Weight** 1 lb.",
-			"",
-			"This drinking gourd has a slender neck capped with a tethered cork, as well as a leather strap so it can be hung from a belt or pack. Once per day, the gossiper's gourd can be filled with water from a village well or other local water source, becoming attuned to that source as long as the gourd is full of water. The bearer gains a +2 insight bonus on any Knowledge (local) checks she attempts within a 1-mile radius of the water source, and can speak and understand (though not read or write) the dominant local language in that area. These effects persist as long as the attuned gourd is full.",
-			"",
-			"By drinking all the local water from a gossiper's gourd, the imbiber gains a +5 insight bonus on all Bluff, Diplomacy, Knowledge (local), and Sense Motive checks within a 1-mile radius of the water source for 1 hour. In addition, during that hour, the user can plant an idea or suspicion in the mind of one local person within 30 feet by whispering the idea into the empty gourd. This effect functions as sow thought, except the target must be from the local area. A successful DC 12 Will save negates the effect.",
-			"",
-			"A gossiper's gourd can't become attuned to a water source more than once per day. For example, if the owner fills the gourd from a well at the beginning of the day, then drinks the water, she must wait until the beginning of the next day to benefit from the gourd again.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, share language, sow thought, creator must have at least 5 ranks in Knowledge (local); **Cost** 6,250 gp"
-		]
-	},
-	"hook_of_ascension": {
-		"name": "Hook of Ascension",
-		"sources": [ "Villain Codex" ],
-		"description": [
-			"## Hook of Ascension",
-			"",
-			"{SOURCE Villain Codex/129}  ",
-			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** none; **Price** 12,500 gp; **Weight** 1/2 lb.",
-			"",
-			"This mithral zip-line hook is attached to a black leather strap with a bronze buckle shaped like a spider. When the hook is attached to a rope, a cable, or a similar object, the user can move along the rope at a speed of 30 feet per move action, regardless of the rope's slope or inclination; a hook of ascension can even carry its user straight up vertical ropes in this manner. Furthermore, the user doesn't need to attempt Climb checks while using a hook of ascension to climb a rope, and this movement does not constitute vigorous motion for the purpose of casting spells. The hook can even be commanded to stop mid-travel, suspending its user in midair along the rope's path without risk of falling.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, levitate, spider climb; **Cost** 6,500 gp"
-		]
-	},
-	"portal_finding_gloves": {
-		"name": "Portal-Finding Gloves",
-		"sources": [ "Planar Adventures" ],
-		"description": [
-			"## Portal-Finding Gloves",
-			"",
-			"{SOURCE Planar Adventures/55}  ",
-			"**Aura** faint divination; **CL** 5th  ",
-			"**Slot** none; **Price** 12,500 gp; **Weight** -;",
-			"",
-			"These tight-fitting, black leather gloves have reinforced fingertips marked with arcane sigils. The gloves prickle slightly when in the presence of portals to other planes. The wearer gains a +5 bonus on Perception and Knowledge (planes) checks to identify portals and planar connections and can automatically learn where such connections lead by touching the portal or a connected area (such as a wall) within 10 feet of it.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, divination; **Cost** 6,250 gp"
-		]
-	},
-	"bag_of_holding_giant_type_5": {
-		"name": "Bag of Holding (Giant) (Type V)",
-		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
-		"description": [
-			"## Bag of Holding (Giant)",
-			"",
-			"{SOURCE Pathfinder #93: Forge of the Giant God/31}  ",
-			"**Aura** moderate conjuration; **CL** 9th  ",
-			"**Slot** none; **Price** 12,500 gp (Type V), 15,000 gp (Type VI); **Weight** 100-150 lbs.",
-			"",
-			"This appears to be a rugged leather sack about 4 feet by 6 feet in size. It functions exactly the same as other types of bags of holding, but weighs more and has greater weight and volume limits, as shown on the table below.",
-			"",
-			"| Bag | Bag Weight | Contents Limit | Contents Volume Limit | Market Price |",
-			"| --- | --- | --- | --- | --- |",
-			"| Type V | 100 lbs. | 2,500 lbs. | 450 cubic ft. | 12,500 gp |",
-			"| Type VI | 150 lbs. | 4,000 lbs. | 800 cubic ft. | 15,000 gp |",
-			"",
-			"Because of the larger volume of a giant-sized bag of holding, retrieving a specific item from it is always a full-round action.",
-			"",
-			"Type V and Type VI bags of holding are most commonly found in use by giants and other Large creatures, but giants of Huge size or larger sometimes use even greater bags of holding.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, secret chest; **Cost** 6,250 gp (Type V), 7,500 gp (Type VI)"
-		]
-	},
-	"giant_bag_of_holding_type_5": {
-		"copyof": "bag_of_holding_giant_type_5"
-	},
-	"waters_of_transfiguration": {
-		"name": "Waters of Transfiguration",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Waters of Transfiguration",
-			"",
-			"{SOURCE Ultimate Equipment/325}  ",
-			"**Aura** moderate transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 12,500 gp; **Weight** 1 lb.",
-			"",
-			"This small lacquered box made from exotic and colorful woods contains five vials and a single dropper. The vials are labeled \"glass,\" \"iron,\" \"paper,\" \"stone,\" and \"wood,\" and each contains a magical fluid that permanently transforms solid objects it touches into that material. Administering the fluid requires the included dropper, is a standard action, and provokes an attack of opportunity (similar to drinking a potion, and the attacker can strike at the dropper instead of the bearer). For example, using the vial marked \"paper\" on a lock transforms the lock into paper, with all of the various properties of paper (hardness, hit points, flammability, and so on). If the target object has a volume of one cubic foot or less, the transformation occurs instantly. Larger objects slowly transform at a rate of 1 hour per cubic foot of material (maximum 10 cubic feet affected). Each vial contains 5 applications of that particular fluid. Magical and attended objects may resist this transformation with a successful DC 17 Fortitude save.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate; **Cost** 6,250 gp"
-		]
-	},
-	"dagons_eye": {
-		"name": "Dagon's Eye",
-		"sources": [ "Pathfinder #124: City in the Deep" ],
-		"description": [
-			"## Dagon's Eye",
-			"",
-			"{SOURCE Pathfinder #124: City in the Deep/34}  ",
-			"**Aura** faint divination and evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 12,600 gp; **Weight** 2 lbs.",
-			"",
-			"This chunk of yellow crystal glows like a torch, shedding normal light in a 20-foot radius and increasing the light level for an additional 20 feet by one step, up to normal light. The crystal floats in the air 1 foot above any solid surface and can be moved with little effort.",
-			"",
-			"Any form of Abyssal writing (books, scrolls, etc.) read by the light of Dagon's eye can be understood by any creature that perceives it, as if under the effects of a {spell/comprehend languages} spell.",
-			"",
-			"If any form of Celestial writing is placed in the light of Dagon's Eye, the words erupt into a searing fireball that deals 6d6 points of fire damage to all creatures within 20 feet of the writing. Creatures in the area take only half damage with a successful DC 14 Reflex save. This ability functions once every 10 minutes.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/comprehend languages}, {spell/explosive runes}, creator must worship a demon lord; **Cost** 6,300 gp"
-		]
-	},
-	"gem_of_brightness": {
-		"name": "Gem of Brightness",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Gem of Brightness",
-			"",
-			"{SOURCE Ultimate Equipment/299;PRPG Core Rulebook/514}  ",
-			"**Aura** moderate evocation; **CL** 6th  ",
-			"**Slot** none; **Price** 13,000 gp; **Weight** -;",
-			"",
-			"This crystal appears to be a long, rough prism. Upon utterance of a command word, though, the gem's facets suddenly grow highly polished as the crystal emits bright light of one of three sorts.",
-			"",
-			"One command word causes the gem to shed light as a hooded lantern. This use of the gem does not expend any charges, and it continues to emit light until this command word is spoken a second time to extinguish the illumination.",
-			"",
-			"Another command word causes the gem of brightness to send out a bright ray 1 foot in diameter and 50 feet long. This strikes as a ranged touch attack, and any creature struck by this beam is blinded for 1d4 rounds unless it makes a DC 14 Fortitude save. This use of the gem expends 1 charge.",
-			"",
-			"The third command word causes the gem to flare in a blinding flash of light that fills a 30-foot cone. Although this glare lasts but a moment, any creature within the cone must make a DC 14 Fortitude save or be blinded for 1d4 rounds. This use expends 5 charges.",
-			"",
-			"A newly created gem of brightness has 50 charges. When all its charges are expended, the gem becomes nonmagical and its facets grow cloudy with a fine network of cracks.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, daylight; **Cost** 6,500 gp"
-		]
-	},
-	"harp_of_contagion": {
-		"name": "Harp of Contagion",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Harp of Contagion",
-			"",
-			"{SOURCE Ultimate Equipment/301}  ",
-			"**Aura** moderate necromancy; **CL** 7th  ",
-			"**Slot** none; **Price** 13,000 gp; **Weight** 5 lbs.",
-			"",
-			"This grand-looking wooden harp is carved with images of various venomous creatures. Once per day the bearer may play the harp to target a single opponent with a poison spell (DC 16). Alternatively, the bearer may play the harp to grant allies within 30 feet a +2 resistance bonus on saving throws against disease and poison; maintaining this benefit each round is a standard action. If the player has the countersong bardic performance ability, he may expend rounds of bardic performance to use the harp to refocus his countersong against disease and poison instead of sonic or language-dependent effects.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, poison, resistance; **Cost** 6,500 gp"
-		]
-	},
-	"horn_of_assured_victory": {
-		"name": "Horn of Assured Victory",
-		"sources": [ "Pathfinder #74: Sword of Valor" ],
-		"description": [
-			"## Horn of Assured Victory",
-			"",
-			"{SOURCE Pathfinder #74: Sword of Valor/62}  ",
-			"**Aura** moderate enchantment; **CL** 11th  ",
-			"**Slot** none; **Price** 13,000 gp; **Weight** 3 lbs.",
-			"",
-			"This coiled battle horn is crafted from fine brass. When blown, its clarion call can be heard clearly up to a range of 2 miles, cutting through any weather condition short of a windstorm. Once per day, the commander of an army can blow the horn to bolster the troops. This grants the army a +2 bonus on OM checks and Morale checks. The army also gains an additional number of hit points equal to its ACR for that battle.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, aid; **Cost** 6,500 gp"
-		]
-	},
-	"terra_cotta_talisman_horse": {
-		"name": "Terra-Cotta Talisman (Horse)",
-		"sources": [ "Pathfinder #51: The Hungry Storm" ],
-		"description": [
-			"## Terra-Cotta Talisman",
-			"",
-			"{SOURCE Pathfinder #51: The Hungry Storm/63}  ",
-			"**Aura** moderate evocation; **CL** 6th  ",
-			"**Slot** none; **Price** 13,000 gp (Horse), 16,000 gp (Warrior), 22,000 gp (Hound); **Weight** 1 lb.",
-			"",
-			"These ceramic statuettes are molded in the likenesses of armored soldiers, horses, or dogs, and are considered symbols of good fortune in battle. Once per day, the possessor of a terra-cotta talisman can reroll a single attack roll as an immediate action, with a +1 luck bonus on the reroll, and keep the most favorable result. A terra-cotta talisman also contains the vestige of a spirit of an ancient warrior or warbeast that can be called upon once per day as a standard action to manifest itself as a spiritual force. The powers of the talismans are as follows:",
-			"",
-			"- Terra-Cotta Horse: phantom steed",
-			"- Terra-Cotta Hound: mage's faithful hound",
-			"- Terra-Cotta Warrior: spiritual ally",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, borrow fortune, mage's faithful hound (hound), phantom steed (horse), or spiritual ally (warrior); **Cost** 6,500 gp (Horse), 8,000 gp (Warrior), 11,000 gp (Hound)"
-		]
-	},
-	"lyre_of_building": {
-		"name": "Lyre of Building",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Lyre of Building",
-			"",
-			"{SOURCE Ultimate Equipment/308;PRPG Core Rulebook/522}  ",
-			"**Aura** moderate transmutation; **CL** 6th  ",
-			"**Slot** none; **Price** 13,000 gp; **Weight** 5 lbs.",
-			"",
-			"This magical instrument is usually made of gold and inlaid with numerous gems. If the proper chords are struck, a single use of this lyre negates any attacks made against inanimate construction (walls, roof, floor, and so on) within 300 feet. This includes the effects of a horn of blasting, a disintegrate spell, or an attack from a ram or similar siege weapon. The lyre can be used in this way once per day, with the protection lasting for 30 minutes.",
-			"",
-			"The lyre is also useful with respect to building. Once a week, its strings can be strummed so as to produce chords that magically construct buildings, mines, tunnels, ditches, etc. The effect produced in 30 minutes of playing is equal to the work of 100 humans laboring for 3 days. Each hour after the first, a character playing the lyre must make a DC 18 Perform (string instruments) check. If she fails, she must stop and cannot play the lyre again for this purpose until a week has passed.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate; **Cost** 6,500 gp"
-		]
-	},
-	"mythopoeic_sphinx": {
-		"name": "Mythopoeic Sphinx",
-		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
-		"description": [
-			"## Mythopoeic Sphinx",
-			"",
-			"{SOURCE Pathfinder #82: Secrets of the Sphinx/63}  ",
-			"**Aura** moderate divination; **CL** 11th  ",
-			"**Slot** none; **Price** 13,000 gp; **Weight** 2 lbs.",
-			"",
-			"Carved from sandstone, this small stone statuette depicts a female sphinx and is a powerful tool for divinations. Once per week, the possessor can ask the mythopoeic sphinx about an important person, place, or thing. The sphinx then animates and relates legends about the subject in either Common, Draconic, or Sphinx, as if with legend lore. In addition, a mythopoeic sphinx can be used as a focus component that replaces the normal focus or material components for the augury, divination, and legend lore spells. Lastly, the possessor of a mythopoeic sphinx gains a +4 bonus on Diplomacy checks to influence sphinxes.",
-			"",
-			"The possessor of a mythopoeic sphinx can also use the figurine to call a gynosphinx to his presence and bargain for her services as if using planar ally to call upon an outsider. A mythopoeic sphinx permanently loses all of its magical abilities when used to call a sphinx in this way, becoming a mundane stone statuette, regardless of whether or not the called sphinx agrees to serve the possessor.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, legend lore, planar ally; **Cost** 7,250 gp"
-		]
-	},
-	"retort_of_control": {
-		"name": "Retort of Control",
-		"sources": [ "Alchemy Manual" ],
-		"description": [
-			"## Retort of Control",
-			"",
-			"{SOURCE Alchemy Manual/16}  ",
-			"**Aura** moderate transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 13,000 gp; **Weight** -;",
-			"",
-			"This crystal retort was meticulously crafted from the hides of a dozen shattered crysmals. When light is shone through the retort, the concoction within glows like a golden torch. A retort of control can be used to perform spontaneous alchemy with speed and precision. Distillation and sublimation can be carried out in merely 10 minutes when using this tool. In addition, if the user speaks a command word while using spontaneous alchemy to create an alchemical item with the retort as an additional crafting tool, she can designate one creature type or creature subtype. The created alchemical item does not affect creatures of the designated creature type or subtype - alchemical weapons do not harm such creatures on a direct hit or with splash damage, alchemical remedies do not work on such creatures, and so on.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, haste, mark of justice; **Cost** 7,500 gp"
-		]
-	},
-	"tome_of_origami_animals": {
-		"name": "Tome of Origami Animals",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Tome of Origami Animals",
-			"",
-			"{SOURCE Occult Adventures/265}  ",
-			"**Aura** strong transmutation; **CL** 12th  ",
-			"**Slot** none; **Price** 13,500 gp; **Weight** 15 lbs.",
-			"",
-			"This massive, metal-bound tome is filled with thin pages of beaten copper, each of which is indented with arcane sigils indicating precise folding points for the creation of various origami creatures. Once one or more pages are torn out and folded, the copper sheets magically expand to create a pleated origami approximation of the desired creature. Once created, each origami creature is imbued with a semblance of life, just as if animated with animate objects, and obeys the commands of its creator.",
-			"",
-			"The user can fold pages to craft a fantastic variety of Small, Medium, and Large animated constructs. Crafting a Small creature uses up one page, crafting a Medium creature uses two, and crafting a Large creature uses four. Each construct crafted by the book is built with the default number of Construction Points (CP) and hit points for its size, though all origami animations gain the basic metal Construction Point quality for free. Constructs of other metals or stone cannot be built with the book, though additional CP can be otherwise added to the creation at the expense of one page per point. This follows all rules for creating animated objects, and origami animals can never select the same CP ability more than once.",
-			"",
-			"The book contains instructions for making innumerable variations of fantastic creatures, limited only by the user's ingenuity and imagination. For example, the user may fold a Medium gorilla-like animal with two pages, then tear out an additional three pages to construct it with additional attack, grab, and constrict abilities, for a total of five pages.",
-			"",
-			"Crafting an origami animal requires a full-round action. Each one lasts for 1 hour before crumbling into useless copper shards. Tomes of origami animals have 50 pages when created, though most have 2d20+10 intact pages when found.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate objects; **Cost** 6,750 gp"
-		]
-	},
-	"flute_of_persuasion": {
-		"name": "Flute of Persuasion",
-		"sources": [ "Pathfinder Origins #6 Ezren" ],
-		"description": [
-			"## Flute of Persuasion",
-			"",
-			"{SOURCE Pathfinder Origins #6 Ezren/35}  ",
-			"**Aura** moderate conjuration; **CL** 4th  ",
-			"**Slot** none; **Price** 14,000 gp; **Weight** 2 lbs.",
-			"",
-			"This slender flute inscribed with diabolical symbols grants additional control over charmed creatures. When played by a person who succeeds at a DC 13 Perform (wind instruments) check, the flute allows the player to issue a telepathic command to a single creature within 30 feet he has previously charmed, per the suggestion spell. If the player issues a suggestion that would put the charmed creature in harm's way, the creature receives a DC 13 Will save to resist. A successful save prevents the victim from following the order that round, but the creature remains charmed in any case.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, suggestion; **Cost** 7,000 gp"
-		]
-	},
-	"sable_company_elite_saddle": {
-		"name": "Sable Company Elite Saddle",
-		"sources": [ "Inner Sea Combat" ],
-		"description": [
-			"## Sable Company Elite Saddle",
-			"",
-			"{SOURCE Inner Sea Combat/62}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 14,000 gp; **Weight** 5 lbs.",
-			"",
-			"Several alterations along the edges of this well-maintained leather saddle allow for the movement of a mount's wings. A Sable Company elite saddle grants a mount wearing it a +5 competence bonus on Fly checks, and grants the rider a +5 competence bonus on Ride checks. If the rider is unsaddled during flight, he is immediately subject to a feather fall effect.",
-			"",
-			"The mount additionally gains the benefits of any teamwork feats the rider possesses.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fly, mount, creator must have 5 ranks in Ride; **Cost** 7,000 gp"
-		]
-	},
-	"snowfall_orb": {
-		"name": "Snowfall Orb",
-		"sources": [ "Blood of the Elements" ],
-		"description": [
-			"## Snowfall Orb",
-			"",
-			"{SOURCE Blood of the Elements/30}  ",
-			"**Aura** strong transmutation; **CL** 13th  ",
-			"**Slot** none; **Price** 14,000 gp; **Weight** 1 lb.",
-			"",
-			"On the borderlands between the Plane of Air and the Plane of Water, vast sheets of glacial ice tip from one realm to the other, storms of boulder-sized hail pulverize extant structures, and entire nations of snow swirl amid the dense interplanar vapors. The snowfall orb is a relic of this harsh realm and is capable of channeling its awesome elemental power in a variety of ways.",
-			"",
-			"First, anytime the owner's equipment is targeted by heat metal, the effect is automatically countered as if the snowfall orb had cast chill metal.",
-			"",
-			"Second, once per day, the owner can concentrate on the orb for 10 minutes to alter the weather in a 1-mile radius. Doing so causes snow, heavy snow, sleet, or hail (user's choice) to fall within that radius for 1d4 hours, regardless of the environment's predominant climate or season. This ability otherwise functions as control weather.",
-			"",
-			"Finally, the user can throw a snowfall orb at an opponent as a ranged touch attack with a range increment of 20 feet. On a hit, the orb is destroyed and the target immediately takes 5d6 points of cold damage. At the beginning of each round thereafter for 4 rounds, the target takes an additional 1d6 points of cold damage and must succeed at a DC 15 Fortitude save or take 1d2 points of Dexterity damage and become staggered for 1 round. If the target takes 3 or more points of Dexterity damage in this way, the creature becomes fatigued; if the target takes 5 or more points of Dexterity damage, it becomes exhausted instead.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, chill metal, control weather, snowball; **Cost** 7,000 gp"
-		]
-	},
-	"ioun_memory_node_type_2": {
-		"name": "Ioun Memory Node (Type II)",
-		"copyof": "ioun_memory_node_type_1"
-	},
-	"ioun_memory_node_type_3": {
-		"name": "Ioun Memory Node (Type III)",
-		"copyof": "ioun_memory_node_type_1"
-	},
-	"ioun_memory_node_type_4": {
-		"name": "Ioun Memory Node (Type IV)",
-		"copyof": "ioun_memory_node_type_1"
-	},
-	"void_pennant": {
-		"name": "Void Pennant",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Void Pennant",
-			"",
-			"{SOURCE Ultimate Equipment/324}  ",
-			"**Aura** moderate abjuration; **CL** 10th  ",
-			"**Slot** none; **Price** 14,000 gp; **Weight** 1 lb.",
-			"",
-			"This long tapering pennant resembles a stylized serpentine figure wearing a shimmering crown. The figure's claws function as clasps, attaching it to a lance, polearm, frame, or staff. The pennant has no effect when not mounted properly, or when activated by a lawfully aligned creature.",
-			"",
-			"Planting the pennant in the ground generates an area of twisted space around the flag out to a range of 30 feet. Any creature that teleports into or out of this area is nauseated for 1 round (a DC 18 Fortitude save reduces this penalty to sickened). Any creature may end the effect by uprooting the pennant as a standard action. The pennant functions for 10 rounds per day. These rounds do not need to be consecutive.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dimensional anchor; **Cost** 7,000 gp"
-		]
-	},
-	"skeleton_anchor": {
-		"name": "Skeleton Anchor",
-		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
-		"description": [
-			"## Skeleton Anchor",
-			"",
-			"{SOURCE Pathfinder #58: Island of Empty Eyes/61}  ",
-			"**Aura** moderate necromancy; **CL** 7th  ",
-			"**Slot** none; **Price** 14,450 gp; **Weight** 100 lbs.",
-			"",
-			"This ship's anchor is crafted of fused bones and skulls, but it has the strength and hardness of iron. When attached to a ship by a rope or chain and dropped into the water, the anchor increases its weight to properly anchor the ship it is attached to. Once per day, the skeleton anchor can hold the ship it is attached to immobile for up to 1 day, or until commanded to release.",
-			"",
-			"The greatest property of a skeleton anchor, however, is to summon undead skeletons from the corpses of drowned mariners, who rise from the depths of the sea and clamber up the sides of the ship to serve as its crew. The undead created by the anchor are 1 Hit Die skeletons that possess Profession (sailor) scores of +7. Each skeleton can perform the duties of one crew member but has no other abilities. The skeletons cannot speak, attack, or even defend themselves. They are not proficient with any weapons or armor. The skeletons obey the commands of the ship's captain or pilot, but they only obey orders pertaining to the operation of a ship.",
-			"",
-			"A skeleton anchor can be used just once every 7 days to create up to 28 skeletal crew members. The skeletons do not count against the maximum total Hit Dice worth of undead creatures that the user can control. The skeletons act as crew for 1 week or until dismissed by the ship's captain or pilot. At the end of the week, the skeletons abandon the ship.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, desecrate, levitate, skeleton crew; **Cost** 7,250 gp"
-		]
-	},
-	"stone_horse_destrier": {
-		"name": "Stone Horse (Destrier)",
-		"copyof": "stone_horse_courser"
-	},
-	"bag_of_concealment_type_3": {
-		"name": "Bag of Concealment (Type III)",
-		"copyof": "bag_of_concealment_type_1"
-	},
-	"bag_of_concealment_type_4": {
-		"name": "Bag of Concealment (Type IV)",
-		"copyof": "bag_of_concealment_type_1"
-	},
-	"book_of_night_without_moon": {
-		"name": "Book of Night without Moon",
-		"sources": [ "The Midnight Mirror" ],
-		"description": [
-			"## Book of Night without Moon",
-			"",
-			"{SOURCE The Midnight Mirror/7}  ",
-			"**Aura** moderate illusion; **CL** 8th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 4 lbs.",
-			"",
-			"This black grimoire's pages are mostly blank, but a few contain rough watercolor silhouettes. The Book of Night without Moon is a repository for trapped shadows. To sever a shadow from its owner and add it to the book, the user must speak a command word and snap the book shut on the shadow. The shadow must be very still when it is severed, so the victim must be either willing or helpless. The book has 40 pages; a shadow takes up a number of pages equal to the Hit Dice of the creature that cast it.",
-			"",
-			"A creature whose shadow is stolen must succeed at a DC 18 Will save or be sickened by a nameless melancholy until its shadow is returned (in the meantime, the creature casts no shadow). Losing its shadow has no adverse effect on a creature that cannot be sickened. A remove curse spell cast on the creature ends the effect and retrieves the shadow from the book.",
-			"",
-			"As a standard action, the book's bearer may release a shadow from the book, conjuring an illusory duplicate of the shadow's owner as if with the spell shadow conjuration (DC 18 Will save to recognize that the conjuration is an illusion). The shadow is intelligent and can follow complex commands, but cannot speak and lacks the memories or personality of the creature that cast it. The shadow serves the character who released it for 1 hour or until destroyed, whichever comes first. The shadow then returns instantly and permanently to its original owner, wherever he or she may be. It cannot be commanded to return to the book and cannot be stolen again. The book's magic can sustain up to five active shadows at a time.",
-			"",
-			"A Book of Night without Moon purchased or found as treasure contains 2d6 shadows, chosen by the GM.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shadow conjuration; **Cost** 7,500 gp"
-		]
-	},
-	"book_of_the_loremaster": {
-		"name": "Book of the Loremaster",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
-		"description": [
-			"## Book of the Loremaster",
-			"",
-			"{SOURCE Ultimate Equipment/284;Advanced Player's Guide/300}  ",
-			"**Aura** moderate divination; **CL** 7th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 2 lbs.",
-			"",
-			"This digest-sized book contains a seemingly random collection of words, phrases, and strange mnemonic aids. Three times each day, a bard can consult it while using the lore master class feature in order to gain a +5 competence bonus when taking 10 or taking 20 on a Knowledge check.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/clairvoyance; **Cost** 7,500 gp"
-		]
-	},
-	"cauldron_of_plenty": {
-		"name": "Cauldron of Plenty",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
-		"description": [
-			"## Cauldron of Plenty",
-			"",
-			"{SOURCE Ultimate Equipment/287;Advanced Player's Guide/302}  ",
-			"**Aura** strong conjuration; **CL** 12th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 25 lbs.",
-			"",
-			"This enchanted iron pot can produce nourishing, simple fare sufficient to feed up to 36 people per day upon command. Once per week it can also be commanded to create a heroes' feast for up to 12 people. The cauldron needs neither fire nor ingredients to produce food; it does so instantly upon command.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, create food and water, heroes' feast; **Cost** 7,500 gp"
-		]
-	},
-	"cavern_compass": {
-		"name": "Cavern Compass",
-		"sources": [ "Heroes of the Darklands" ],
-		"description": [
-			"## Cavern Compass",
-			"",
-			"{SOURCE Heroes of the Darklands/30}  ",
-			"**Aura** moderate divination; **CL** 11th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 1 lb.",
-			"",
-			"Made specifically for those who frequently navigate the mazelike tunnels that wind throughout Nar-Voth, these compasses are made from stone sourced from the Darklands. However, instead of featuring the four cardinal directions, the compass's circumference is adorned with several small pictographs. To use a cavern compass, the bearer must be at an intersection of tunnels or caverns somewhere underground, and must hold it in his hand and speak the name of his desired destination. The destination must be well known enough to be likely to appear on a map of the area, such as a settlement or a prominent ruin, or else must be a location with which the holder is intimately familiar. For the next mile, the needle of the cavern compass points down whichever passageway most efficiently leads to the chosen destination.",
-			"",
-			"Additionally, if the passage contains any of the following hazards over the course of 1 mile, a corresponding pictograph glows with a faint light: magma, molds or slimes, radiation, sudden vertical passages, or water hazards. If a passage further splits into multiple pathways within 1 mile, the cavern compass selects whichever one results in being closest to the destination after 1 mile and provides information about hazards only down that route.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, find the path; **Cost** 7,500 gp"
-		]
-	},
-	"expended_lightning_gun": {
-		"name": "Expended Lightning Gun",
-		"sources": [ "Pathfinder #113: What Grows Within" ],
-		"description": [
-			"## Expended Lightning Gun",
-			"",
-			"{SOURCE Pathfinder #113: What Grows Within/45}  ",
-			"**Aura** strong evocation; **CL** 17th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 15 lbs.",
-			"",
-			"This device is made of a strange metallic alloy. A bellows or tapered accordion structure protrudes from the box, with handles and controls at the wide end and a bright metal disk or lens at the other. The controls seem to have been designed for operation by large creatures with only two fingers, though the smaller but more agile hands of humanoids can manipulate them after some practice.",
-			"",
-			"As a standard action, the operator can hold the device in front of herself with two hands and use the controls to unleash a blast that deals 10d12 points of electricity damage on a successful ranged touch attack against a single target within 120 feet. The lightning blast sets fire to combustibles and damages objects that it strikes. It can melt metals that have a low melting point, such as lead, gold, copper, silver, or bronze.",
-			"",
-			"Its long disuse has drained this gun of most of its power, but it is still capable of firing four shots before being rendered inoperable.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, chain lightning; **Cost** 7,500 gp"
-		]
-	},
-	"figurine_of_the_dwarven_forge": {
-		"name": "Figurine of the Dwarven Forge",
-		"sources": [ "Blood of the Ancients" ],
-		"description": [
-			"## Figurine of the Dwarven Forge",
-			"",
-			"{SOURCE Blood of the Ancients/30}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 1 lb.",
-			"",
-			"These stone and steel figurines depicting a forge and anvil are warm to the touch and give off a faint red glow. On command, the figurine enlarges to become a full-sized working forge with a magical fire burning within. The forge occupies a 10-foot by 5-foot area, and its transformation fails if sufficient space is unavailable. A second command word returns the forge to its original, miniature size.",
-			"",
-			"When a magic scroll containing a single spell is tossed into the forge, the scroll is consumed in flame. Thereafter, the forge and anvil provide that spell for the use of magic item creation in conjunction with {feat/Craft Magic Arms and Armor}. This allows the crafter to use the stored spell as a prerequisite for multiple magic items. If a new scroll is consumed in the forge's flame, it replaces the current spell. A spell remains available for use indefinitely until replaced.",
-			"",
-			"In addition, once per day, if touched to a melee weapon made primarily of metal as a standard action, the figurine grants that weapon the igniting special ability for 1 minute.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, flame blade, heat metal, shrink item; **Cost** 7,500 gp"
-		]
-	},
-	"handkerchief_of_finding": {
-		"name": "Handkerchief of Finding",
-		"sources": [ "Advanced Class Guide" ],
-		"description": [
-			"## Handkerchief of Finding",
-			"",
-			"{SOURCE Advanced Class Guide/230}  ",
-			"**Aura** faint divination; **CL** 3rd  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** -;",
-			"",
-			"This elegant, perfumed handkerchief always seems to be a dazzling white. The bearer can attune the handkerchief to himself by keeping it in his possession for 1 week. Once the handkerchief is attuned to its bearer, the bearer can always sense in what direction the handkerchief is, so long as it is on the same plane. A bearer unaware of the handkerchief's power cannot attune to it.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, locate object; **Cost** 7,500 gp"
-		]
-	},
-	"lastwall_banner_harchist": {
-		"name": "Lastwall Banner (Harchist)",
-		"copyof": "lastwall_banner_hordeline"
-	},
-	"lastwall_banner_sunwall": {
-		"name": "Lastwall Banner (Sunwall)",
-		"copyof": "lastwall_banner_hordeline"
-	},
-	"horn_of_judgment": {
-		"name": "Horn of Judgment",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Horn of Judgment",
-			"",
-			"{SOURCE Ultimate Equipment/303}  ",
-			"**Aura** moderate transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 1 lb.",
-			"",
-			"This golden trumpet is inlaid with silver and ivory and in. Once per day the bearer can sound a singular clarion note that affects up to 9 incorporeal creatures within 30 feet with ghostbane dirge (Will DC 17 negates) for 9 rounds.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, ghostbane dirge; **Cost** 7,500 gp"
-		]
-	},
-	"horn_of_the_tritons": {
-		"name": "Horn of the Tritons",
-		"sources": [
-			"Ultimate Equipment",
-			"Pathfinder #58: Island of Empty Eyes"
-		],
-		"description": [
-			"## Horn of the Tritons",
-			"",
-			"{SOURCE Ultimate Equipment/303;Pathfinder #58: Island of Empty Eyes/60}  ",
-			"**Aura** moderate conjuration; **CL** 9th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 2 lbs.",
-			"",
-			"This device is a large, intricately inscribed and decorated conch shell that can be blown once per day (except by a triton, who can sound it three times per day). Blowing the horn activates any one of the following functions:",
-			"",
-			"- Calm rough waters in a 1-mile radius. Alternatively, this functions as a dismissal spell against a targeted water elemental (DC 19 negates).",
-			"- Summon 1d4+1 sharks or 1d3 advanced sharks as if using [summon nature's ally V](spell/summon_natures_ally_5).",
-			"- Create a fear effect (DC 16 negates) in a 500-foot radius that only affects creatures with the aquatic or amphibious subtype which have Intelligence scores of 1 or 2.",
-			"",
-			"Any sounding of a horn of the tritons can be heard by all tritons within a 3-mile radius.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control water, dismissal, fear, [summon nature's ally V](spell/summon_natures_ally_5), creator must be a triton; **Cost** 7,500 gp"
-		]
-	},
-	"lucky_horseshoe_communal": {
-		"name": "Lucky Horseshoe (Communal)",
-		"sources": [ "Occult Adventures" ],
-		"description": [
-			"## Lucky Horseshoe (Communal)",
-			"",
-			"{SOURCE Occult Adventures/260}  ",
-			"**Aura** moderate evocation; **CL** 9th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 2 lbs.",
-			"",
-			"This item looks like and functions as a lucky horseshoe. In addition, if the horseshoe is placed prominently over the entrance of a building and left there for a period of at least 8 hours, it provides good luck to all those who spend time within that building. In order to gain this benefit, a character must spend at least 8 consecutive hours within the building; the benefit lasts for 24 hours. A single communal lucky horseshoe can provide its benefit to any number of creatures per day, but each creature can gain the benefits of only one lucky horseshoe at a time. Once a creature invokes the lucky horseshoe's ability, she can't benefit from another lucky horseshoe for 24 hours, though time she spends inside the building during that interval counts toward the 8 consecutive hours required to gain the communal lucky horseshoe's benefit for the next day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, divine favor, hallow; **Cost** 7,500 gp"
-		]
-	},
-	"figurine_of_wondrous_power_obsidian_raven": {
-		"name": "Figurine of Wondrous Power (Obsidian Raven)",
-		"copyof": "figurine_of_wondrous_power"
-	},
-	"spy_eyes": {
-		"name": "Spy Eyes",
-		"sources": [ "Pathfinder #63: The Asylum Stone" ],
-		"description": [
-			"## Spy Eyes",
-			"",
-			"{SOURCE Pathfinder #63: The Asylum Stone/59}  ",
-			"**Aura** moderate divination; **CL** 9th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 1 lbs.",
-			"",
-			"At first glance, spy eyes appear to be cat's-eye marbles. When activated, each comes to life and blinks, transforming into an eyeball. When pressed against an inanimate surface (such as a wall or article of clothing), the eyeball absorbs into it, leaving a magical sensor of the same size on the surface. Anyone holding an eye from a particular cluster of spy eyes can share the view from any other eye in the cluster as if that eye were her own, provided she is within 10 miles of that sensor. To recover a sensor, she can press a spy eye she holds from the same cluster against the one that's in sensor form to make the sensor emerge and return to marble form.",
-			"",
-			"A single bag of spy eyes contains five marbles (meaning that up to four may be deployed at any given time). Spy eyes in sensor form can be detected via the normal means for detecting scrying.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/clairvoyance; **Cost** 7,500 gp"
-		]
-	},
-	"the_lymirin_discourses": {
-		"name": "The Lymirin Discourses",
-		"sources": [ "Pathfinder #74: Sword of Valor" ],
-		"description": [
-			"## The Lymirin Discourses",
-			"",
-			"{SOURCE Pathfinder #74: Sword of Valor/68}  ",
-			"**Aura** strong transmutation; **CL** 12th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 3 lbs.",
-			"",
-			"This tome contains an extensive series of moral instructions based on the 11 heroic deeds performed by Iomedae before her ascension to divinity, known as the 11 Acts of Iomedae. These instructions are metaphysical but with a decidedly martial focus. A reader who studies and meditates over one of the acts set forth in the Lymirin Discourses for 1 hour gains a benefit that lasts for the next 12 hours. Only one reader can benefit from the Lymirin Discourses in any 24-hour period. The Lymirin Discourses cannot provide the same benefit twice in a row.",
-			"",
-			"First Act: Iomedae recovered her allies from the gullets of the beast Nakorshor-mond. Study of this act grants the reader +2 sacred bonus to CMD when resisting a grapple attempt and a +2 sacred bonus on concentration checks to cast a spell or use a spell-like ability when grappled.",
-			"",
-			"Second Act: Iomedae defeated a coven of witches. Study of this act grants the reader a +1 sacred bonus on caster level checks to overcome SR and a +1 sacred bonus on Will saves.",
-			"",
-			"Third Act: Iomedae battled Segruchen the Iron Gargoyle in midair. Study of this act grants the reader a +1 sacred bonus on damage rolls with longswords. This bonus increases to +2 when the reader is not standing on the ground.",
-			"",
-			"Fourth Act: Iomedae inspired a regiment of wounded knights to fight on. Study of this act grants the reader +1 bonus to caster level for the purpose of casting cure spells.",
-			"",
-			"Fifth Act: Iomedae smote Erum-Hel, Lord of the Morghs. Study of this act grants the reader a +4 sacred bonus on attack rolls made to confirm critical hits with longswords.",
-			"",
-			"Sixth Act: Iomedae reforged her shattered sword with a prayer and an oath. Study of this act grants the reader a +2 sacred bonus to CMD to resist sunder or disarm attempts.",
-			"",
-			"Seventh Act: Iomedae appeared as an image to heal the virtuous and burn the wicked. If the reader has the channel positive energy ability, study of this act increases the amount of damage dealt or healed by positive energy channeled by the reader by 2.",
-			"",
-			"Eighth Act: Iomedae redeemed a graveknight known as the Black Prince. Study of this act grants the reader a +2 sacred bonus to the DC of the reader's positive channeled energy.",
-			"",
-			"Ninth Act: Iomedae provided nine drops of blood to free her righteous allies from a vampire mage. Study of this act allows the reader to shield his allies. As a swift action up to nine times within the next 12 hours, the reader may take 1d4 points of nonlethal damage in order to add a +2 sacred bonus to an adjacent ally's AC.",
-			"",
-			"Tenth Act: Iomedae defended and ruled the besieged city of Kantaria for a year and a day. Study of this act grants the reader a +4 sacred bonus to AC against attacks from opponents that flank him.",
-			"",
-			"Eleventh Act: Iomedae cast her cloak across the gap to the Starstone to create a firm bridge. Study of this act allows the reader to jump as if he always had a running start.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, divine power, creator must have 12 ranks in Knowledge (religion); **Cost** 7,500 gp"
-		]
-	},
-	"bag_of_holding_giant_type_6": {
-		"name": "Bag of Holding (Giant) (Type VI)",
-		"copyof": "bag_of_holding_giant_type_5"
-	},
-	"giant_bag_of_holding_type_6": {
-		"copyof": "bag_of_holding_giant_type_6"
-	},
-	"wayfinder_of_zephyrs": {
-		"name": "Wayfinder of Zephyrs",
-		"sources": [ "Inner Sea Gods" ],
-		"description": [
-			"## Wayfinder of Zephyrs",
-			"",
-			"{SOURCE Inner Sea Gods/271}  ",
-			"**Aura** moderate transmutation; **CL** 9th  ",
-			"**Slot** none; **Price** 15,000 gp; **Weight** 1 lb.",
-			"",
-			"Swirling green and blue patterns bedeck the surface of this fine oak wayfinder, whose compass and needle are made of light polished steel engraved with themes of Gozreh's oceanic aspect. The needle does not point north as one would expect, but instead indicates the direction the wind is traveling in the area around the wayfinder. A wayfinder of zephyrs grants its bearer a +5 circumstance bonus on Profession (sailor) checks. Once per day, the bearer of a wayfinder of zephyrs can move the needle to change the direction the wind is traveling toward any direction on the compass. Optionally, the wielder may also increase or decrease the wind's intensity by one step while changing its direction. A wayfinder of zephyrs has no effect on magical wind effects other than indicating the direction they are traveling.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alter winds, control winds; **Cost** 7,500 gp"
-		]
-	},
-	"sun_wukongs_puzzle_box": {
-		"name": "Sun Wukong's Puzzle Box",
-		"sources": [ "Daughters of Fury" ],
-		"description": [
-			"## Sun Wukong's Puzzle Box",
-			"",
-			"{SOURCE Daughters of Fury/63}  ",
-			"**Aura** moderate conjuration and illusion; **CL** 10th  ",
-			"**Slot** none; **Price** 15,200 gp; **Weight** 1 lb.",
-			"",
-			"The plainly lacquered exterior of this wooden puzzle box cunningly hides the devious clockwork mechanism inside. To those unversed in its abilities, Sun Wukong's puzzle box seems to be little more than a frustratingly impossible child's toy that is adorned with the holy symbol of the Monkey King.",
-			"",
-			"Once per day as a standard action, the user can unlock Sun Wukong's puzzle box to create two simultaneous effects. First, a shower of golden sparks envelops the user, causing her to become invisible and immediately teleporting her exactly 20 feet in a direction of her choice. Second, a monkey swarm bursts from the same square the user left.",
-			"",
-			"Although the monkey swarm isn't under the control of the user, the monkeys keep at least 20 feet from the user at all times and attempt to surround as many of her opponents as possible. This effect otherwise acts as mad monkeys with a CMB of +12. Both the invisibility effect and the monkey swarm last for 10 rounds.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dimension door, invisibility, mad monkeys, creator must be chaotic; **Cost** 7,600 gp"
-		]
-	},
-	"entwined_syrinx": {
-		"name": "Entwined Syrinx",
-		"sources": [ "Pathfinder #27: What Lies in Dust" ],
-		"description": [
-			"## Entwined Syrinx",
-			"",
-			"{SOURCE Pathfinder #27: What Lies in Dust/55}  ",
-			"**Aura** moderate illusion; **CL** 7th  ",
-			"**Slot** none; **Price** 15,300 gp; **Weight** 2 lbs.",
-			"",
-			"This complex wind instrument is made of interwoven, gilded pipes. It is considered a masterwork musical instrument, granting a +2 bonus on all [Perform (wind instrument)](skill/perform_any) checks. The bonus is also added to the DC of any bardic performances made using the entwined syrinx.",
-			"",
-			"Anytime anyone attempts to play the entwined syrinx, however, he must make a DC 15 Will save or be compelled to play a dirge of somber beauty. The dirge acts like the fascinate bardic performance - even if the character is not a bard or cannot use Perform (wind instrument) - affecting every creature within 90 feet able to see and hear the character, including the musician playing the entwined syrinx. The DC to resist this effect is 12 + the character's Charisma modifier (though if it is being played by a bard, the DC increases to include 1/2 the bard's level; the +2 Perform bonus is included). This effect persists and the musician continues to play for 1 hour, or until the performance is interrupted.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hypnotic pattern; **Cost** 7,150 gp"
-		]
-	},
-	"pearl_of_the_sirines": {
-		"name": "Pearl of the Sirines",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Pearl of the Sirines",
-			"",
-			"{SOURCE Ultimate Equipment/315;PRPG Core Rulebook/525}  ",
-			"**Aura** moderate abjuration and transmutation; **CL** 8th  ",
-			"**Slot** none; **Price** 15,300 gp; **Weight** -;",
-			"",
-			"This pearl is worth at least 1,000 gp for its beauty alone, yet if it is clasped firmly in hand or held to the breast while the possessor attempts actions related to the pearl's powers, she understands and is able to employ the item.",
-			"",
-			"The pearl enables its possessor to breathe in water as if she were in clean, fresh air. Her swim speed is 60 feet, and she can cast spells and act underwater without hindrance.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, freedom of movement, water breathing; **Cost** 8,150 gp"
-		]
-	},
-	"figurine_of_wondrous_power_onyx_dog": {
-		"name": "Figurine of Wondrous Power (Onyx Dog)",
-		"copyof": "figurine_of_wondrous_power"
-	},
-	"astralabe": {
-		"name": "Astralabe",
-		"sources": [
-			"Planar Adventures",
-			"Lost Treasures"
-		],
-		"description": [
-			"## Astralabe",
-			"",
-			"{SOURCE Planar Adventures/52;Lost Treasures/16}  ",
-			"**Aura** moderate divination; **CL** 8th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 3 lbs.",
-			"",
-			"An astralabe is essentially an extraplanar compass: a device that explorers of the planes can use to orient themselves in realms without shared cardinal directions or physical laws. The device creates an abstraction of north, east, south, and west, as well as up, down, in, out, back, forward, past, future, and a variety of other directions that can prove helpful in navigating the planes. Despite diverse cosmetic differences, astralabes share a uniform internal design and, by and large, give consistent, shared directions. As such, many - if not most - planar cartographers utilize astralabes when creating maps, allowing travelers to navigate lands without magnetic poles or with malleable terrains as though there were one consistent north. The device keeps a constant orientation, but it does not adjust or circumvent hazards or show particular paths. Any creature not on the Material Plane who employs an astralabe while attempting a Knowledge, Survival, or similar skill check to navigate gains a +4 bonus on that check.",
-			"",
-			"Additionally, an astralabe can aid a traveler in preparing to travel to another plane. The device can read emanations from portals, gates, and other connections between the planes and display them upon its surface. These displays can be interpreted with a successful Knowledge (planes) check. A user must typically succeed at a DC 25 Knowledge (planes) check to correctly read an astralabe, though demiplanes and stranger realms might require a higher DC or yield inconclusive results. Those who succeed learn the name of the plane beyond the portal, though not the portal's exact location upon that plane - it doesn't reveal tiers, layers, or subrealms, in the case of planes divided into multiple parts. Those who fail the check are unable to tell what plane lies beyond. Those who fail the check by 10 or more incorrectly identify what plane lies beyond, with the details of this misinformation determined by the GM.",
-			"",
-			"Astralabes generally don't function on the Material Plane, shutting down and emanating an aura of only faint divination. However, should one be brought within 20 feet of a portal or similar passage to another plane, it becomes active for as long as it remains nearby. An astralabe operates continuously while on any plane other than the Material Plane.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, know direction, cannot be created on the Material Plane; **Cost** 8,000 gp"
-		]
-	},
-	"aviary_of_spirits": {
-		"name": "Aviary of Spirits",
-		"sources": [ "Ships of the Inner Sea" ],
-		"description": [
-			"## Aviary of Spirits",
-			"",
-			"{SOURCE Ships of the Inner Sea/44}  ",
-			"**Aura** moderate divination; **CL** 9th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 5 lbs.",
-			"",
-			"This reinforced wicker box is decorated with images of owls, ravens, or other cunning birds. It has enough room for up to three Tiny birds to perch inside. Any bird of the animal type stored in the aviary for 24 hours becomes attuned to the aviary's magic, radiating the same aura as the aviary itself. By issuing a command word and concentrating on the bond between their spirits, a user can direct a released bird to fly either to a known location (as with animal messenger) or in a specific direction. The bird flies in a direct route at its normal speed. For the next hour, by maintaining physical contact with the aviary, the user can scry through the bird's senses, making the bird the sensor for a clairaudience/clairvoyance spell. While scrying, the user cannot sense her own surroundings, but she can switch between her senses and the bird's as a move action.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animal messenger, clairaudience/clairvoyance, crafter must have 5 ranks in Handle Animal; **Cost** 8,000 gp"
-		]
-	},
-	"caravan_guardian": {
-		"name": "Caravan Guardian",
-		"sources": [ "Merchant's Manifest" ],
-		"description": [
-			"## Caravan Guardian",
-			"",
-			"{SOURCE Merchant's Manifest/27}  ",
-			"**Aura** faint abjuration and conjuration; **CL** 3rd  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.",
-			"",
-			"Traders crossing Casmaron's Grass Sea often carry a small, eagle-shaped caravan guardian with them on their journeys. These wooden statuettes serve as watchful guardians, alerting travelers when there is danger and summoning an eagle ally to fight the threat. Each day, the guardian's wielder must designate up to five allies, including himself, to be alerted of an intruder's presence. When a creature approaches within 20 feet of an unattended caravan guardian (or its wielder, if a creature has the guardian on their person), that creature must speak the command word within 1 round or an eagle appears in a space next to the statue and attacks whatever creature triggered it. Additionally, the caravan guardian sends all designated creatures a mental warning, as per the mental alarm use of the alarm spell (if the guardian's wielder did not designate allies to be alerted that day, the item alerts the most recently designated allies). If there is no appropriate space for the eagle to be summoned into, it does not appear, but the caravan guardian still sends a mental alarm. A caravan guardian can summon only one eagle per day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alarm, [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 8,000 gp"
-		]
-	},
-	"diabolus_bell": {
-		"name": "Diabolus Bell",
-		"sources": [ "Villain Codex" ],
-		"description": [
-			"## Diabolus Bell",
-			"",
-			"{SOURCE Villain Codex/93}  ",
-			"**Aura** moderate abjuration; **CL** 7th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.",
-			"",
-			"This black, iron bell is inscribed with diabolical symbols. The spherical clapper is affixed to a chain, resembling a tyrant's ball and chain. Diabolus bells can be dedicated to other powers of Hell, such as archdevils. They act as divine foci for spells granted by associated patrons.",
-			"",
-			"Once per day, when the wielder speaks a command word while ringing the bell (a standard action), lawful neutral or lawful evil creatures within a 20-foot radius that hear the toll and worship Asmodeus can say a prayer to Asmodeus as a move action to be affected as per ward the faithful. The supplication must be said before the beginning of the wielder's next turn and within 20 feet of the bell.",
-			"",
-			"Chaotic or good creatures within a 20-foot radius that hear the toll must instead succeed at a DC 13 Will save or be affected as per doom. Creatures that are both chaotic and good that fail the Will save take 1d8 points of sonic damage and must succeed at a DC 13 Fortitude save or be stunned for 1 round.",
-			"",
-			"Finally, any living creatures within a 20-foot radius that have -1 or fewer hit points must succeed at a DC 13 Will save or be slain as per death knell. At the beginning of the wielder's next turn, if the bell's death knell effect slew a creature, the wielder can then choose to grant the benefits of death knell to either himself or any one creature within sight that is benefiting from the bell's ward the faithful effect. Even if multiple enemy creatures fail their saving throws versus the death knell effect, only one creature gains the benefits.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, death knell, doom, sound burst, ward the faithful; **Cost** 8,000 gp"
-		]
-	},
-	"discordant_piccolo": {
-		"name": "Discordant Piccolo",
-		"sources": [ "Magical Marketplace" ],
-		"description": [
-			"## Discordant Piccolo",
-			"",
-			"{SOURCE Magical Marketplace/31}  ",
-			"**Aura** moderate enchantment; **CL** 6th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 1/2 lb.",
-			"",
-			"This bright silver piccolo has an uncanny connection to the alien Dark Tapestry and produces only disjointed notes when played, no matter how talented the user. In fact, talented performers produce more dissonant notes. If the user succeeds at a DC 15 Perform (wind instruments) check while playing the discordant piccolo, one target creature within 30 feet is sickened for 1 round (Will DC 14 negates). If the user succeeds at a DC 25 Perform check, the target is instead nauseated for 1 round (Will DC 16 reduces the effect to sickened). A creature that successfully saves cannot be affected by the discordant piccolo for 24 hours. This is a mind-affecting effect.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cacophonous call; **Cost** 8,000 gp"
-		]
-	},
-	"evergreen_seed_pouch": {
-		"name": "Evergreen Seed Pouch",
-		"sources": [ "Daughters of Fury" ],
-		"description": [
-			"## Evergreen Seed Pouch",
-			"",
-			"{SOURCE Daughters of Fury/59}  ",
-			"**Aura** moderate conjuration; **CL** 9th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 1/2 lb.",
-			"",
-			"This leather pouch is decorated with fresh mistletoe and sprigs of holly that are shaped to resemble the druidic symbol of the Green Faith. The pouch contains seeds of various small plants and grasses. When the pouch is used as a divine focus component for a spell that affects or creates plant matter - such as entangle or spike growth - its magic manifests as the pouch opens and the seeds float out. The seeds plant themselves in the ground and instantly grow to create any vegetation or grass that the spell requires to function inside of the spell's area of effect. The vegetation created by the pouch grows regardless of the terrain, and lasts the full duration of the spell, allowing the user to cast plant-altering or plant-creating spells in deserts, badlands, and other harsh terrains.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of thorns; **Cost** 8,000 gp"
-		]
-	},
-	"mistcaller": {
-		"name": "Mistcaller",
-		"sources": [ "Lost Treasures" ],
-		"description": [
-			"## Mistcaller",
-			"",
-			"{SOURCE Lost Treasures/44}  ",
-			"**Aura** moderate conjuration; **CL** 9th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 2 lbs.",
-			"",
-			"Carved from a mammoth tusk, this ivory flute is covered with delicate carvings of wind blowing over waves, which are inlaid with silver. It functions as a masterwork musical instrument, although the notes are pitched much lower than most flutes and any tune, no matter how jauntily played, carries a mournful quality.",
-			"",
-			"Once per day, the user can attempt a DC 15 Perform (wind) check to summon a bank of spectral fog. This effect functions as obscuring mist centered on the user, except it moves with the user. The mist lasts for as long as the user continues to play, to a maximum of 5 minutes. Spectral faces appear to anyone within the mist other than the user, whispering for those within the mist to lay down their burdens and rest. Anyone within the mist other than the user can elect to fall asleep as a free action. Creatures asleep within the spectral fog heal 1 hit point per minute spent sleeping, and recover 1 point of ability damage if they spend at least 1 full minute asleep. Sleepers under this effect can be awakened normally.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fog cloud, restoration; **Cost** 8,000 gp"
-		]
-	},
-	"monster_killers_folio": {
-		"name": "Monster Killer's Folio",
-		"sources": [ "Magic Tactics Toolbox" ],
-		"description": [
-			"## Monster Killer's Folio",
-			"",
-			"{SOURCE Magic Tactics Toolbox/17}  ",
-			"**Aura** faint divination and evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 2 lbs.",
-			"",
-			"This collection of gruesome anatomical diagrams is bound in leather that shifts slightly under the reader's fingertips. The book's many illustrations provide information about how to best wound a variety of creature types, and the book emits light equivalent to that of a candle within 5 feet, allowing it to be read in the dark. The owner can use this folio to gain a +5 bonus on Knowledge checks to identify a creature's special powers or vulnerabilities. A monster killer's folio has a tendency to quickly open to the appropriate page when consulted, as though eager to provide information that will lead to violence. Additionally, once per day the book can be used to cast discovery torch.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, discovery torch, know the enemy; **Cost** 8,000 gp"
-		]
-	},
-	"nightbane_quiver": {
-		"name": "Nightbane Quiver",
-		"sources": [ "Daughters of Fury" ],
-		"description": [
-			"## Nightbane Quiver",
-			"",
-			"{SOURCE Daughters of Fury/62}  ",
-			"**Aura** faint evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 3 lbs.",
-			"",
-			"This black silk quiver bears a silver star-and-moon motif. It can transform up to 20 arrows per day into tangible beams of light. When drawn from the quiver, these arrows produce light as the daylight spell for 5 rounds, after which they disappear. Arrows enhanced in this way prove particularly deadly to light-sensitive and shadowy creatures - an arrow altered by a nightbane quiver bypasses the DR of any creature with light sensitivity and counts as a force effect against shadows and wraiths. Arrows gain these benefits only when shot by the current owner of the quiver. Arrows placed in this quiver retain any magical effect already placed on them.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, daylight; **Cost** 8,000 gp"
-		]
-	},
-	"runes_of_the_crones_coven": {
-		"name": "Runes of the Crone's Coven",
-		"sources": [ "Advanced Class Guide" ],
-		"description": [
-			"## Runes of the Crone's Coven",
-			"",
-			"{SOURCE Advanced Class Guide/234}  ",
-			"**Aura** strong universal; **CL** 12th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.",
-			"",
-			"This leather pouch contains a set of black stones, each engraved with a different rune of ill fortune. When used as part of spell kenning, they allow the user to cast spells from the witch spell list. To cast a witch spell, the possessor must spend twice as long casting as for normal spell kenning, and must use a spell slot 1 level higher than normal. If the possessor has the master skald class feature, determine casting time as though he lacked that class feature instead of doubling casting time. The tiles can be used once per day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, imbue with spell ability, creator must be able to cast 6th-level witch spells ; **Cost** 8,000 gp"
-		]
-	},
-	"runes_of_the_old_faith": {
-		"name": "Runes of the Old Faith",
-		"sources": [ "Advanced Class Guide" ],
-		"description": [
-			"## Runes of the Old Faith",
-			"",
-			"{SOURCE Advanced Class Guide/234}  ",
-			"**Aura** strong universal; **CL** 12th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.",
-			"",
-			"This velvet pouch contains a number of stones gathered from the creator's local area that bear runes with a single druidic symbol each. Runes of the old faith work as runes of the crone's coven, except they allow casting of druid spells as part of spell kenning. The stones can be used once per day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, imbue with spell ability, creator must be able to cast 6th-level druid spells; **Cost** 8,000 gp"
-		]
-	},
-	"scabbard_of_keen_edges": {
-		"name": "Scabbard of Keen Edges",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Scabbard of Keen Edges",
-			"",
-			"{SOURCE Ultimate Equipment/318;PRPG Core Rulebook/529}  ",
-			"**Aura** faint transmutation; **CL** 5th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.",
-			"",
-			"This black scabbard is engraved with intricate silver runes that depict all manner of bladed weapons. A scabbard of keen edges can shrink or enlarge to accommodate any knife, dagger, sword, or similar weapon up to and including a greatsword. Up to three times per day on command, the scabbard casts keen edge on any blade placed within it. Runes similar to those on the outside of the scabbard appear on a blade while it is under this keen edge effect.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, keen edge; **Cost** 8,000 gp"
-		]
-	},
-	"urn_of_smoldering_shapes": {
-		"name": "Urn of Smoldering Shapes",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"## Urn of Smoldering Shapes",
-			"",
-			"{SOURCE Horror Adventures/225}  ",
-			"**Aura** moderate evocation; **CL** 10th  ",
-			"**Slot** none; **Price** 16,000 gp; **Weight** 5 lbs.",
-			"",
-			"This stone urn is decorated with carvings of vaguely humanoid creatures, and contains ash and chunks of coal. While the lid is removed, faint weeping and cries of anguish echo from within the urn.",
-			"",
-			"As a standard action, a creature holding the urn can grab some ash from the urn and toss it at an unoccupied space within 30 feet. The ash scatters in the air, but the particles quickly ignite, grow into smoldering embers, and gain momentum, coalescing in the target space as a vaguely humanoid shape. The urn produces 7 doses of ash per day. Throwing a pinch of ash uses 1 dose and creates a Small shape (AC 6, 10 hp) that is reminiscent of a cluster of cowering human children. The Small shape doesn't provide cover, but the square counts as difficult terrain. Throwing a small handful of ash uses 2 doses and creates a Medium shape (AC 5, 15 hp) that resembles a cluster of crestfallen adult humans. The Medium shape provides cover and prevents passage through the square. Throwing a large handful of ash uses 4 doses and creates a Large shape (AC 4, 25 hp) that resembles a sobbing angel. The Large shape provides cover and prevents passage through a 10-foot-square area.",
-			"",
-			"If the smoldering shape is reduced to 0 hit points or fewer, it explodes, dealing fire damage in a 10-foot-radius spread depending on the size: 2d6 points for Small, 4d6 points for Medium, or 8d6 points for Large. Any creature in the area that succeeds at a DC 16 Reflex save takes half the normal damage. For 1 round, the area of the explosion is filled with dark, acrid smoke (as per obscuring mist). The smoldering shapes are immune to fire and cold, but if a smoldering shape would be dealt any amount of cold damage, the shape becomes inert and can no longer explode.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of fire; **Cost** 8,000 gp"
-		]
-	},
-	"terra_cotta_talisman_warrior": {
-		"name": "Terra-Cotta Talisman (Warrior)",
-		"copyof": "terra_cotta_talisman_horse"
-	},
-	"terra_cotta_talisman_hound": {
-		"name": "Terra-Cotta Talisman (Hound)",
-		"copyof": "terra_cotta_talisman_horse"
-	},
-	"fey_map": {
-		"name": "Fey Map",
-		"sources": [ "The First World, Realm of the Fey" ],
-		"description": [
-			"## Fey Map",
-			"",
-			"{SOURCE The First World, Realm of the Fey/13}  ",
-			"**Aura** moderate conjuration; **CL** 9th  ",
-			"**Slot** none; **Price** 16,200 gp; **Weight** -;",
-			"",
-			"This stylized and labeled map of the First World constantly shifts to reflect the relative locations of dozens of major geographical features, settlements, and other key locations. In addition, a tiny icon of whoever is currently holding the map appears at the user's current location, moving to track the bearer's progress as he travels. The map's scale is very large, covering thousands of square miles of territory, and has little detail outside of the artistic representations of key locations. Once per day, the user can fold the map so that his icon touches the icon of one of the named locations; rubbing them together allows the user to instantly transport himself and up to three other touched creatures to a point just outside that location, as per teleport. Most fey maps acquired by residents of Golarion show only the region of the First World closest to their world on the Material Plane, but reports of those who have traveled beyond this region suggest that some maps are capable of recalibrating to show new locations unknown even to their creators. It's also not unheard of for strange new locations to appear spontaneously in familiar territory as the First World shifts.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, planar orientation, teleport; **Cost** 8,100 gp"
-		]
-	},
-	"planar_keystone": {
-		"name": "Planar Keystone",
-		"sources": [ "Planar Adventures" ],
-		"description": [
-			"## Planar Keystone",
-			"",
-			"{SOURCE Planar Adventures/54}  ",
-			"**Aura** strong conjuration; **CL** 17th  ",
-			"**Slot** none; **Price** 16,200 gp; **Weight** 2 lbs.",
-			"",
-			"A planar keystone is a small cube etched with runes. Each planar keystone is attuned to a specific site on a particular plane - this site must be determined when the planar keystone is created and cannot be changed at a later date. Anyone examining the etched patterns can determine the plane and location with a successful DC 20 Knowledge (planes) check. Once per day, up to eight intelligent creatures within 20 feet of the planar keystone can concentrate upon its etched patterns for 1 minute. This concentration is tenuous; if any of the creatures are attacked or pause to take other actions during this time, the concentration of all participants is broken and the planar keystone's use for that day is lost. At the end of this time, all creatures concentrating on the planar keystone are transported to the planar keystone's site as if via plane shift, but arriving precisely on target. The planar keystone travels with the creatures - it is not left behind in the process.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate; **Cost** 8,100 gp"
-		]
-	},
-	"caydens_cup": {
-		"name": "Cayden's Cup",
-		"sources": [ "Mythic Adventures" ],
-		"description": [
-			"## Cayden's Cup",
-			"",
-			"{SOURCE Mythic Adventures/149}  ",
-			"**Aura** faint conjuration; **CL** 5th  ",
-			"**Slot** none; **Price** 16,500 gp; **Weight** 1 lb.",
-			"",
-			"On command, this battered pewter tankard fills with ale perfectly matched to the bearer's taste and desire. Ale poured out the tankard quickly loses its flavor and virtue, becoming common swill within minutes. The tankard prevents most of the ill effects of excessive drinking, such as hangovers and blackouts, as long as it remains in its owner's possession. It also provides a +4 bonus on saving throws against poison.",
-			"",
-			"Once per hour as a move action, by drinking the contents of the tankard and voicing a toast the imbiber gains a +2 morale bonus to Strength and Constitution, but takes a -2 penalty on Dexterity- and Intelligence-based ability and skill checks. These effects last for 10 minutes. If the tankard is empty, it must be filled prior to drinking. If the imbiber expends one use of mythic power while drinking from the cup, the morale bonus increase to +4, the penalties to -4, and the duration of the tankard's effects to 1 hour.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, create food and water, heroism, neutralize poison; **Cost** 8,250 gp"
-		]
-	},
-	"figurine_of_wondrous_power_golden_lions": {
-		"name": "Figurine of Wondrous Power (Golden Lions)",
-		"copyof": "figurine_of_wondrous_power"
 	}
 }

@@ -1,31 +1,27 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import families from './subpages/__family';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_faith.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [
-	["Main", "main/main"],
-	["Monsters and NPCs", "main/monsters"],
-];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof families;
+const MonsterFamilyGroup1Page = lazy(() => import("./MonsterFamilyGroup1Page"));
+const MonsterFamilyGroup2Page = lazy(() => import("./MonsterFamilyGroup2Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <MonsterFamilyGroup1Page id={id} />,
+	({id}: {id: string}) => <MonsterFamilyGroup2Page id={id} />,
+]
 
 const MonsterFamilyPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, families);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage
-		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
-		sources={sources}
-		pageId={"monster-family--" + id}
-	>{jsx}</BasicPage>;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
+
 };
 
 export default MonsterFamilyPage;

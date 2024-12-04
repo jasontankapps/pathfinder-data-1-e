@@ -8,10 +8,12 @@ type Params = { id?: keyof typeof data };
 
 const MonsterTemplateGroup1Page = lazy(() => import("./MonsterTemplateGroup1Page"));
 const MonsterTemplateGroup2Page = lazy(() => import("./MonsterTemplateGroup2Page"));
+const MonsterTemplateGroup3Page = lazy(() => import("./MonsterTemplateGroup3Page"));
 
 const pages = [
 	({id}: {id: string}) => <MonsterTemplateGroup1Page id={id} />,
 	({id}: {id: string}) => <MonsterTemplateGroup2Page id={id} />,
+	({id}: {id: string}) => <MonsterTemplateGroup3Page id={id} />,
 ]
 
 const MonsterTemplatePage: React.FC = () => {

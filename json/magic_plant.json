@@ -226,7 +226,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, endure elements, cultivator must have 3 ranks in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** {feat/Cultivate Magic Plants}, {spell/endure elements}, cultivator must have 3 ranks in Knowledge (nature); **Cost** 6,000 gp"
 		]
 	},
 	"helping_hands_vine": {
@@ -258,7 +258,7 @@
 			"**Aura** faint abjuration; **CL** 1st  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 50 lbs.",
 			"",
-			"This leafy red or blue shrub grows to a height of 6 feet. It grows small, blue, overly sweet berries. The berries provide an effect identical to endure elements when consumed. If a berry is consumed before the effect of a previously consumed berry has worn off, it has no effect.",
+			"This leafy red or blue shrub grows to a height of 6 feet. It grows small, blue, overly sweet berries. The berries provide an effect identical to {spell/endure elements} when consumed. If a berry is consumed before the effect of a previously consumed berry has worn off, it has no effect.",
 			"",
 			"A sheltershrub produces six berries per day during its two growing seasons, which are 13 weeks each in the summer and winter. A shrub has no more than 50 berries at a time.",
 			"",

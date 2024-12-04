@@ -1,11 +1,6 @@
-import classes1 from '../json/classes.json' assert {type: 'json'};
-import classes2 from '../json/classes2.json' assert {type: 'json'};
-import classes3 from '../json/classes3.json' assert {type: 'json'};
-import classes4 from '../json/classes4.json' assert {type: 'json'};
+import { basic_data_by_link } from '../basic_data_groups.js';
 
-const classes = {
-	...classes1, ...classes2, ...classes3, ...classes4
-};
+const { class: classes } = basic_data_by_link;
 
 function isGood(value) {
 	const msg = [ "\n...beginning test: [classes]\n" ];

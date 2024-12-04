@@ -8,10 +8,12 @@ type Params = { id?: keyof typeof data };
 
 const MagicArtifactGroup1Page = lazy(() => import("./MagicArtifactGroup1Page"));
 const MagicArtifactGroup2Page = lazy(() => import("./MagicArtifactGroup2Page"));
+const MagicArtifactGroup3Page = lazy(() => import("./MagicArtifactGroup3Page"));
 
 const pages = [
 	({id}: {id: string}) => <MagicArtifactGroup1Page id={id} />,
 	({id}: {id: string}) => <MagicArtifactGroup2Page id={id} />,
+	({id}: {id: string}) => <MagicArtifactGroup3Page id={id} />,
 ]
 
 const MagicArtifactPage: React.FC = () => {

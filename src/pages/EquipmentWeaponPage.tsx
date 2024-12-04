@@ -1,29 +1,27 @@
+import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import getItem from '../components/getItem';
-import equipment from './subpages/__equipment-weapon';
-import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import data from '../json/_data_equipment-weapon.json';
+import Loading from '../Loading';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Equipment", "main/equipment"], ["Weapons", "main/equipment_weapons"]];
+type Params = { id?: keyof typeof data };
 
-type Data = typeof equipment;
+const EquipmentWeaponGroup1Page = lazy(() => import("./EquipmentWeaponGroup1Page"));
+const EquipmentWeaponGroup2Page = lazy(() => import("./EquipmentWeaponGroup2Page"));
 
-type Params = { id?: keyof Data };
+const pages = [
+	({id}: {id: string}) => <EquipmentWeaponGroup1Page id={id} />,
+	({id}: {id: string}) => <EquipmentWeaponGroup2Page id={id} />,
+]
 
 const EquipmentWeaponPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, equipment);
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <BasicPage
-		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
-		sources={sources}
-		pageId={"equipment-weapon--" + id}
-		topLink={["Weapons", "main/equipment_weapons"]}
-	>{jsx}</BasicPage>;
+	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
+
 };
 
 export default EquipmentWeaponPage;

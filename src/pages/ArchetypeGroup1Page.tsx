@@ -1,7 +1,4 @@
 import getItem from '../components/getItem';
-import bloodrager from './subpages/__archetype-bloodrager';
-import gunslinger from './subpages/__archetype-gunslinger';
-import hunter from './subpages/__archetype-hunter';
 import monk from './subpages/__archetype-monk';
 import samurai from './subpages/__archetype-samurai';
 import BasicPage from './BasicPage';
@@ -9,9 +6,6 @@ import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
-	...bloodrager,
-	...gunslinger,
-	...hunter,
 	...monk,
 	...samurai
 };
@@ -26,7 +20,7 @@ interface ArchetypeProps {
 
 const ArchetypeGroup1Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
 
-	const arches: Data = {...archetypes};
+	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
 	const pageId = `archetype-${parent}--${id}`;

@@ -1,29 +1,7 @@
-import rules1 from '../json/rules.json' assert {type: 'json'};
-import rules2 from '../json/rules2.json' assert {type: 'json'};
-import rules3 from '../json/rules3.json' assert {type: 'json'};
-import rules4 from '../json/rules4.json' assert {type: 'json'};
-import rules5 from '../json/rules5.json' assert {type: 'json'};
-import rules6 from '../json/rules6.json' assert {type: 'json'};
-import rules7 from '../json/rules7.json' assert {type: 'json'};
-import rules8 from '../json/rules8.json' assert {type: 'json'};
-import rules9 from '../json/rules9.json' assert {type: 'json'};
-import rules10 from '../json/rules10.json' assert {type: 'json'};
-import rules11 from '../json/rules11.json' assert {type: 'json'};
-import rules12 from '../json/rules12.json' assert {type: 'json'};
-import rules13 from '../json/rules13.json' assert {type: 'json'};
-import rules14 from '../json/rules14.json' assert {type: 'json'};
-import rules15 from '../json/rules15.json' assert {type: 'json'};
-import rules16 from '../json/rules16.json' assert {type: 'json'};
-import rules17 from '../json/rules17.json' assert {type: 'json'};
-import rules18 from '../json/rules18.json' assert {type: 'json'};
+import { basic_data_by_link } from '../basic_data_groups.js';
 
-const rules = {
-	...rules1, ...rules2, ...rules3, ...rules4,
-	...rules5, ...rules6, ...rules7, ...rules8,
-	...rules9, ...rules10, ...rules11, ...rules12,
-	...rules13, ...rules14, ...rules15, ...rules16,
-	...rules17, ...rules18
-};
+const { rule: rules } = basic_data_by_link;
+
 
 function isGood(value) {
 	const msg = [ "\n...beginning test: [rules]\n" ];
