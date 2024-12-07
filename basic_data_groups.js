@@ -305,6 +305,24 @@ import rule15 from './json/rules15.json' assert {type: 'json'};
 import rule16 from './json/rules16.json' assert {type: 'json'};
 import rule17 from './json/rules17.json' assert {type: 'json'};
 import rule18 from './json/rules18.json' assert {type: 'json'};
+import rule19 from './json/rules19.json' assert {type: 'json'};
+import rule20 from './json/rules20.json' assert {type: 'json'};
+import rule21 from './json/rules21.json' assert {type: 'json'};
+import rule22 from './json/rules22.json' assert {type: 'json'};
+import rule23 from './json/rules23.json' assert {type: 'json'};
+import rule24 from './json/rules24.json' assert {type: 'json'};
+import rule25 from './json/rules25.json' assert {type: 'json'};
+import rule26 from './json/rules26.json' assert {type: 'json'};
+import rule27 from './json/rules27.json' assert {type: 'json'};
+import rule28 from './json/rules28.json' assert {type: 'json'};
+import rule29 from './json/rules29.json' assert {type: 'json'};
+import rule30 from './json/rules30.json' assert {type: 'json'};
+import rule31 from './json/rules31.json' assert {type: 'json'};
+import rule32 from './json/rules32.json' assert {type: 'json'};
+import rule33 from './json/rules33.json' assert {type: 'json'};
+import rule34 from './json/rules34.json' assert {type: 'json'};
+import rule35 from './json/rules35.json' assert {type: 'json'};
+import rule36 from './json/rules36.json' assert {type: 'json'};
 import spell1 from './json/spells.json' assert {type: 'json'};
 import spell2 from './json/spells2.json' assert {type: 'json'};
 import spell3 from './json/spells3.json' assert {type: 'json'};
@@ -495,6 +513,168 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 18,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules19": {
+		data: rule19,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 19,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules20": {
+		data: rule20,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 20,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules21": {
+		data: rule21,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 21,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules22": {
+		data: rule22,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 22,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules23": {
+		data: rule23,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 23,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules24": {
+		data: rule24,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 24,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules25": {
+		data: rule25,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 25,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules26": {
+		data: rule26,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 26,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules27": {
+		data: rule27,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 27,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules28": {
+		data: rule28,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 28,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules29": {
+		data: rule29,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 29,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules30": {
+		data: rule30,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 30,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules31": {
+		data: rule31,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 31,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules32": {
+		data: rule32,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 32,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules33": {
+		data: rule33,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 33,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules34": {
+		data: rule34,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 34,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules35": {
+		data: rule35,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 35,
+		type: "Rules",
+		properties: [ "name" ]
+	},
+	"rules36": {
+		data: rule36,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 36,
 		type: "Rules",
 		properties: [ "name" ]
 	},

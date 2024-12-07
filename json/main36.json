@@ -834,9 +834,9 @@
 			"# Druids",
 			[ "{table1}" ],
 			"# Rangers",
-			[ "{table3}" ],
+			[ "{table2}" ],
 			"# Paladins",
-			[ "{table4}" ]
+			[ "{table3}" ]
 		],
 		"tables": [
 			{
@@ -1021,9 +1021,9 @@
 			"# Fighters",
 			[ "{table1}" ],
 			"# Monks",
-			[ "{table3}" ],
+			[ "{table2}" ],
 			"# Rogues",
-			[ "{table4}" ]
+			[ "{table3}" ]
 		],
 		"tables": [
 			{

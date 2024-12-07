@@ -1,4 +1,14 @@
-import { FC, SetStateAction, Dispatch, PropsWithChildren, useState, useTransition, useRef } from 'react';
+import {
+	FC,
+	SetStateAction,
+	Dispatch,
+	FormEvent,
+	PropsWithChildren,
+	useCallback,
+	useState,
+	useTransition,
+	useRef
+} from 'react';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList } from 'react-window';
 import Fuse, { FuseResult } from 'fuse.js';
@@ -251,8 +261,14 @@ const SearchPage: FC = () => {
 
 	const ref = useRef<HTMLIonSearchbarElement>(null);
 
+	const onInput = useCallback(
+		(input: FormEvent<HTMLIonSearchbarElement>) =>
+				startTransition(() => setSearchText(String(input.currentTarget.value || ""))),
+		[setSearchText]
+	);
+
 	useIonViewDidEnter(() => {
-		ref && ref.current && ref.current.setFocus();
+		ref && ref.current && !ref.current.value && ref.current.setFocus();
 	});
 
 	return (
@@ -264,7 +280,7 @@ const SearchPage: FC = () => {
 						inputmode="text"
 						type="text"
 						placeholder="Search for titles and topics"
-						onInput={(input) => startTransition(() => setSearchText(String(input.currentTarget.value || "")))}
+						onInput={onInput}
 						debounce={500}
 					/>
 					<IonButtons slot="end">

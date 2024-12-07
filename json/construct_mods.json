@@ -1,4 +1,13 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested construct modification."
+		]
+	},
 	"armor_modification": {
 		"name": "Armor Modification",
 		"sources": [ "Ultimate Magic" ],

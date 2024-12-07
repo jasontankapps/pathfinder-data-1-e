@@ -9,7 +9,8 @@ import './Page.css';
 const hierarchy: HierarchyArray = [
 	["Main", "main/main"],
 	["All Rules", "main/rules"],
-	["Gamemastering", "rule/gamemastering"],
+	["Gamemastery", "rule/gamemastery"],
+	["Monster Rules", "rule/monster_rules"],
 	["Universal Monster Rules", "main/umr"]
 ];
 

@@ -71,19 +71,20 @@ const preprocess = () => {
 			// The code below escapes extraneous curly brackets
 			tester = `${newline}${tester}`;
 			newline = "";
-			while(m = tester.match(/^(.*)\{(jumplist|table[0-9]|[-a-z_]+\/[^}]+)\}(.*)$/)) {
+			while(m = tester.match(/^(.*?)\{(jumplist [^}]+|table[0-9]|[-a-z_]+\/[^}]+)\}(.*)$/)) {
 				newline = newline + `${m[1]}BEGIN<${m[2]}>END`;
 				tester = m[3];
 			}
 			tester = `${newline}${tester}`;
 			newline = "";
-			while(m = tester.match(/^(.*)([{}])(.*)$/)) {
-				newline = newline + `${m[1]}\\${m[2]}`;
+			while(m = tester.match(/^(.*?)([{}])(.*)$/)) {
+				newline = newline + `${m[1]}${m[2] === "{" ? "&#123;" : "&#125;"}`;
+				console.log(`ERROR: Extraneous brackets: "${m[1]}${m[2]}"`);
 				tester = m[3];
 			}
 			tester = `${newline}${tester}`;
 			newline = "";
-			while(m = tester.match(/^(.*)BEGIN<(.+?)>END(.*)$/)) {
+			while(m = tester.match(/^(.*?)BEGIN<(.+?)>END(.*)$/)) {
 				newline = newline + `${m[1]}\{${m[2]}\}`;
 				tester = m[3];
 			}
@@ -154,11 +155,12 @@ const postprocess = (prefix, tables, flags) => {
 			const [x, pre, table, post] = m;
 			output = output + pre;
 			const index = parseInt(table);
-			if(index >= 0 && index < tables.length) {
+			if(index >= 0 && tables && index < tables.length) {
 				output = output + `<DisplayTable table={${JSON.stringify(tables[index])}} />`;
 				flags.displaytable = true;
 			} else {
-				output = output + `<p><code>{table${table}}</code></p>`;
+				console.log(`ERROR: Bad Table: "{table${table}}" in ${prefix}`);
+				output = output + `<p><code>\{table${table}\}</code></p>`;
 			}
 			text = post;
 		}

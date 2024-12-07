@@ -1,0 +1,1963 @@
+{
+	"optional_pc_advancement_changes": {
+		"name": "Optional PC Advancement Changes",
+		"subtopics": [
+			"automatic_bonus_progression",
+			"innate_item_bonuses",
+			"fractional_base_bonuses",
+			"staggered_advancement",
+			"variant_multiclassing"
+		],
+		"description": [
+			"These topics cover optional rules that change the way combat works."
+		]
+	},
+	"automatic_bonus_progression": {
+		"name": "Automatic Bonus Progression",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/156}",
+			"",
+			"In order to face the dangers of the game, characters in the Pathfinder RPG normally need items that grant bonuses to their statistics. With this variant, characters instead gain those bonuses automatically as they increase in level, allowing them to use magic item slots for more interesting items.",
+			"",
+			"All characters gain the abilities listed on the table below when they reach the appropriate level. Decrease character [wealth by level](rule/placing_treasure) to half the normal amount. The automatic bonuses are often more beneficial than that reduction in wealth, but characters have less flexibility, so the advantages and disadvantages balance out. Items that only grant bonuses to AC, saving throws, and ability scores don't exist in this variant, and wish and similar spells never grant inherent bonuses to ability scores. Magic weapons and armor do exist, but grant only special abilities, not enhancement bonuses; calculate their prices with the table in the [Magic Weapons and Armor section](rule/magic_weapons_and_armor).",
+			"",
+			"If you want to remove magic items entirely (or make them so exceedingly rare that there is no expectation of finding them), consider giving the characters bonuses from the following table as if they were 2 levels higher. The table extends to 22nd level to account for games without magic items.",
+			"",
+			"| Level | Bonus Gained |",
+			"| --- | --- |",
+			"| 1st | - |",
+			"| 2nd | - |",
+			"| 3rd | Resistance +1 |",
+			"| 4th | Armor attunement +1, weapon attunement +1 |",
+			"| 5th | Deflection +1 |",
+			"| 6th | Mental prowess +2 |",
+			"| 7th | Physical prowess +2 |",
+			"| 8th | Armor attunement +1/+1, resistance +2, toughening +1, weapon attunement +1/+1 |",
+			"| 9th | Armor attunement +2, weapon attunement +2 |",
+			"| 10th | Deflection +2, resistance +3 |",
+			"| 11th | Mental prowess +4 |",
+			"| 12th | Physical prowess +4 |",
+			"| 13th | Mental prowess +4/+2, physical prowess +4/+2, resistance +4, toughening +2 |",
+			"| 14th | Armor attunement +2/+2 or +3, resistance +5, weapon attunement +2/+2 or +3 |",
+			"| 15th | Armor attunement +3/+3 or +4, mental prowess +6/+2 or +4/+4, weapon attunement +3/+3 or +4 |",
+			"| 16th | Deflection +3, physical prowess +6/+2 or +4/+4, toughening +3 |",
+			"| 17th | Armor attunement +4/+3 or +5, deflection +4, mental prowess +6/+2/+2 or +4/+4/+2, physical prowess +6/+2/+2 or +4/+4/+2, toughening +4, weapon attunement +4/+3 or +5 |",
+			"| 18th | Deflection +5, mental prowess +6/+4/+2 or +4/+4/+4, physical prowess +6/+4/+2 or +4/+4/+4, toughening +5 |",
+			"| 19th | 3 legendary gifts |",
+			"| 20th | 5 legendary gifts (8 total) |",
+			"| 21st | 7 legendary gifts (15 total) |",
+			"| 22nd | 8 legendary gifts (23 total) |"
+		],
+		"parent_topics": [ "optional_pc_advancement_changes" ],
+		"subtopics": [
+			"bonuses",
+			"magic_weapons_and_armor"
+		],
+		"siblings": [
+			"automatic_bonus_progression",
+			"innate_item_bonuses",
+			"fractional_base_bonuses",
+			"staggered_advancement",
+			"variant_multiclassing"
+		]
+	},
+	"bonuses": {
+		"name": "Bonuses",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/156}",
+			"",
+			"The entries below describe the bonuses characters gain."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"automatic_bonus_progression"
+		],
+		"subtopics": [
+			"armor_attunement",
+			"deflection",
+			"legendary_gifts",
+			"mental_prowess",
+			"physical_prowess",
+			"resistance",
+			"toughening",
+			"weapon_attunement"
+		],
+		"siblings": [
+			"bonuses",
+			"magic_weapons_and_armor"
+		]
+	},
+	"armor_attunement": {
+		"name": "Armor Attunement",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/156}",
+			"",
+			"The character can attune herself to one suit of armor or one shield in her possession; she can change that attunement once per day. If she selects a normal set of clothing as her armor, it counts as having a starting enhancement bonus of +0. The attuned suit of armor gains a +1 enhancement bonus at 4th level. At 8th level, she can split her attunement between a suit of armor and a shield, granting each a +1 enhancement bonus. At 9th level, she can grant a suit of armor or a shield a +2 enhancement bonus (instead of granting each a +1 enhancement bonus). At 14th level, she can either grant a suit of armor or a shield a +3 enhancement bonus or grant each a +2 enhancement bonus. At 15th level, she can either grant a suit of armor or a shield a +4 enhancement bonus or grant both a +3 enhancement bonus. At 17th level, she can either grant a suit of armor or a shield a +5 enhancement bonus or grant one a +4 enhancement bonus and the other a +3 enhancement bonus."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"automatic_bonus_progression",
+			"bonuses"
+		],
+		"siblings": [
+			"armor_attunement",
+			"deflection",
+			"legendary_gifts",
+			"mental_prowess",
+			"physical_prowess",
+			"resistance",
+			"toughening",
+			"weapon_attunement"
+		]
+	},
+	"deflection": {
+		"name": "Deflection",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/156}",
+			"",
+			"The character gains a +1 deflection bonus to AC at 5th level; this bonus increases to +2 at 10th level, to +3 at 16th level, to +4 at 17th level, and to +5 at 18th level."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"automatic_bonus_progression",
+			"bonuses"
+		],
+		"siblings": [
+			"armor_attunement",
+			"deflection",
+			"legendary_gifts",
+			"mental_prowess",
+			"physical_prowess",
+			"resistance",
+			"toughening",
+			"weapon_attunement"
+		]
+	},
+	"legendary_gifts": {
+		"name": "Legendary Gifts",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/156}",
+			"",
+			"The character gains three legendary gifts at 19th level and five more at 20th level. (If you're using the variant with no magic treasure, characters gain seven more legendary gifts when their effective level reaches 21 and eight more when it reaches 22.) Select these legendary gifts from the following list.",
+			"",
+			"***Legendary Ability:*** Gain a +1 inherent bonus to any ability score. You can select this legendary gift multiple times, and it stacks up to +5 in any one ability score.",
+			"",
+			"***Legendary Armor:*** Your enhancement bonus from armor attunement increases by 2. If you are attuned to a suit of armor and a shield, you can either increase both bonuses by 1 or increase one bonus by 2. The enhancement bonus on a single attuned item can't exceed +5, but you can use the excess to add special abilities to the armor or shield (see {rule/Magic Weapons and Armor}. You can select this legendary gift multiple times; it stacks up to +10 on any one suit of armor or shield.",
+			"",
+			"***Legendary Body:*** Increase your bonuses from physical prowess to +6/+6/+4. This counts as two legendary gifts.",
+			"",
+			"***Legendary Body 2:*** Increase your bonuses from physical prowess to +6/+6/+6. You must already have legendary body to select this legendary gift.",
+			"",
+			"***Legendary Mind:*** Increase your bonuses from mental prowess to +6/+6/+4. This counts as two legendary gifts.",
+			"",
+			"***Legendary Mind 2:*** Increase your bonuses from mental prowess to +6/+6/+6. You must already have legendary mind to select this legendary gift.",
+			"",
+			"***Legendary Shieldmaster:*** Gain a +5 enhancement bonus from armor attunement for both your armor and your shield. You can select this legendary gift multiple times, choosing a different attuned suit of armor or shield each time.",
+			"",
+			"***Legendary Twin Weapons:*** Gain a +5 enhancement bonus from weapon attunement for two weapons at the same time. This counts as two legendary gifts. You can select this legendary gift multiple times, adding an additional attuned weapon with a +5 enhancement bonus each time.",
+			"",
+			"***Legendary Weapon:*** Your enhancement bonus from weapon attunement increases by 1. If you are attuned to more than one weapon, you can increase only one weapon's enhancement bonus in this way. The enhancement bonus on a single weapon can't exceed +5, but you can use the excess to add magic abilities to weapons (see {rule/Magic Weapons and Armor}, below). You can select this legendary gift multiple times, and it stacks up to +10 for any one weapon."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"automatic_bonus_progression",
+			"bonuses"
+		],
+		"siblings": [
+			"armor_attunement",
+			"deflection",
+			"legendary_gifts",
+			"mental_prowess",
+			"physical_prowess",
+			"resistance",
+			"toughening",
+			"weapon_attunement"
+		]
+	},
+	"mental_prowess": {
+		"name": "Mental Prowess",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/157}",
+			"",
+			"At 6th level, the character chooses one mental ability score (Intelligence, Wisdom, or Charisma) to gain a permanent +2 enhancement bonus. At 11th level, this bonus increases to +4. At 13th level, the character chooses a second mental ability score to gain a permanent +2 enhancement bonus. At 15th level, the character increases one of these enhancement bonuses by 2. At 17th level, she chooses a third mental ability score to gain a permanent +2 enhancement bonus."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"automatic_bonus_progression",
+			"bonuses"
+		],
+		"siblings": [
+			"armor_attunement",
+			"deflection",
+			"legendary_gifts",
+			"mental_prowess",
+			"physical_prowess",
+			"resistance",
+			"toughening",
+			"weapon_attunement"
+		]
+	},
+	"physical_prowess": {
+		"name": "Physical Prowess",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/157}",
+			"",
+			"At 7th level, the character chooses one physical ability score (Strength, Dexterity, or Constitution) to gain a permanent +2 enhancement bonus. At 12th level, this bonus increases to +4. At 13th level, the character chooses a second physical ability score to gain a permanent +2 enhancement bonus. At 16th level, the character increases one of these enhancement bonuses by 2. At 17th level, she chooses a third physical ability score to gain a permanent +2 enhancement bonus."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"automatic_bonus_progression",
+			"bonuses"
+		],
+		"siblings": [
+			"armor_attunement",
+			"deflection",
+			"legendary_gifts",
+			"mental_prowess",
+			"physical_prowess",
+			"resistance",
+			"toughening",
+			"weapon_attunement"
+		]
+	},
+	"resistance": {
+		"name": "Resistance",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/157}",
+			"",
+			"At 3rd level, the character gains a +1 resistance bonus on all saving throws. This bonus increases to +2 at 8th level, to +3 at 10th level, to +4 at 13th level, and to +5 at 14th level."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"automatic_bonus_progression",
+			"bonuses"
+		],
+		"siblings": [
+			"armor_attunement",
+			"deflection",
+			"legendary_gifts",
+			"mental_prowess",
+			"physical_prowess",
+			"resistance",
+			"toughening",
+			"weapon_attunement"
+		]
+	},
+	"toughening": {
+		"name": "Toughening",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/157}",
+			"",
+			"At 8th level, the character gains a +1 enhancement bonus to natural armor. This bonus increases to +2 at 13th level, to +3 at 16th level, to +4 at 17th level, and to +5 at 18th level."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"automatic_bonus_progression",
+			"bonuses"
+		],
+		"siblings": [
+			"armor_attunement",
+			"deflection",
+			"legendary_gifts",
+			"mental_prowess",
+			"physical_prowess",
+			"resistance",
+			"toughening",
+			"weapon_attunement"
+		]
+	},
+	"weapon_attunement": {
+		"name": "Weapon Attunement",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/157}",
+			"",
+			"The character can attune herself to any one weapon in her possession, and can change that attunement once per day. The attuned weapon gains a +1 enhancement bonus at 4th level. At 8th level, the character can split her attunement between two weapons, granting each a +1 enhancement bonus. At 9th level, she can grant a single weapon a +2 enhancement bonus instead of granting two weapons a +1 enhancement bonus each. At 14th level, she can either grant a single weapon a +3 enhancement bonus or grant two weapons a +2 enhancement bonus each. At 15th level, she can either grant a single weapon a +4 enhancement bonus or grant two weapons a +3 enhancement bonus each. At 17th level, she can either grant a single weapon a +5 enhancement bonus or grant one weapon a +4 enhancement bonus and another weapon a +3 enhancement bonus."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"automatic_bonus_progression",
+			"bonuses"
+		],
+		"siblings": [
+			"armor_attunement",
+			"deflection",
+			"legendary_gifts",
+			"mental_prowess",
+			"physical_prowess",
+			"resistance",
+			"toughening",
+			"weapon_attunement"
+		]
+	},
+	"magic_weapons_and_armor": {
+		"name": "Magic Weapons and Armor",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/157}",
+			"",
+			"In this system, magic weapons, armor, and shields never have enhancement bonuses of their own; those bonuses are granted only through attunement. Any weapon, armor, or shield special abilities on attuned items count against a character's enhancement bonus from attunement. To determine an attuned magic item's enhancement bonus, subtract the cost of its special ability from the enhancement bonus granted by attunement. (This applies only to special abilities whose cost is equivalent to an enhancement bonus, not to those that cost a flat amount of gold pieces.) For example, if a character with a +3 enhancement bonus from weapon attunement wields a {magic-enhancement/keen} scimitar, she subtracts 1 point of her enhancement bonus (for the cost of keen), leaving her with a +2 keen scimitar. If a character doesn't have enough of an enhancement bonus to afford the special ability (such as a 4th-level character with a {magic-enhancement/vorpal} longsword), she can still use the weapon's power on its own, but the weapon gains no enhancement bonus.",
+			"",
+			"In this system, adding bonus-equivalent special abilities to items costs significantly less because you are paying only for the special ability, not for a base enhancement bonus (see the table below). To determine the price of specific weapons and armor, remove the flat enhancement bonus and reduce the item's cost by the amount listed on the table below. For example, a {magic-weapon/flame tongue} is normally worth 20,715 gp, but under this system, it would lose its +1 enhancement bonus and its price would be reduced to 18,715 gp. Specific weapons and armor can be attuned; they then grant the character's enhancement bonuses from weapon attunement and armor attunement as normal.",
+			"",
+			"| Base Price Modifier | Weapon Cost | Armor/Shield Cost |",
+			"| --- | --- | --- |",
+			"| +1 | 2,000 gp | 1,000 gp |",
+			"| +2 | 8,000 gp | 4,000 gp |",
+			"| +3 | 18,000 gp | 9,000 gp |",
+			"| +4 | 32,000 gp | 16,000 gp |",
+			"| +5 | 50,000 gp | 25,000 gp |"
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"automatic_bonus_progression"
+		],
+		"siblings": [
+			"bonuses",
+			"magic_weapons_and_armor"
+		]
+	},
+	"innate_item_bonuses": {
+		"name": "Innate Item Bonuses",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/158}",
+			"",
+			"Some GMs may find themselves frustrated by the need for players to seek out magic items granting specific bonuses. Under this new system, characters gain the statistical bonuses they're expected to gain from magic items as they level up so long as they have any item in the relevant slot, instead of needing specific items. The system involves minimal alterations to existing items, and works especially well for campaigns with higher than normal wealth.",
+			"",
+			"The rules in the [Automatic Bonus Progression section](rule/automatic_bonus_progression) downplay the role of magic items by granting bonuses to characters directly as they increase in level, and restricting the abilities of magic items. However, those rules don't work as well as the innate item bonuses system does in games that include more magic items than is assumed in the Core Rulebook. In addition, this system helps those GMs who prefer to emphasize the wonder and power of magic items."
+		],
+		"parent_topics": [ "optional_pc_advancement_changes" ],
+		"subtopics": [
+			"bonus_and_price_overview",
+			"wondrous_items_pu",
+			"rings_pu",
+			"arms_and_armor"
+		],
+		"siblings": [
+			"automatic_bonus_progression",
+			"innate_item_bonuses",
+			"fractional_base_bonuses",
+			"staggered_advancement",
+			"variant_multiclassing"
+		]
+	},
+	"bonus_and_price_overview": {
+		"name": "Bonus and Price Overview",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/158}",
+			"",
+			"In this system, the bonus a magic item grants corresponds to the item's starting market price as it appears in the item's original statistics. This price is shown on each table in this section in the \"Starting Price\" column. The second column shows the value of the bonus at a particular price range, and the header indicates to which statistics the bonus applies. In addition, any item that gains an innate item bonus also increases its market price by the amount shown on each table's \"Price Increase\" column.",
+			"",
+			"For example, a belt of dwarvenkind isn't a popular choice, since players typically want a belt of giant strength +4 or similar item for close to the same price. When using innate bonuses, items such as the belt of giant strength - which only grants an enhancement bonus - wouldn't exist, and the belt of dwarvenkind would count as a body slot item (see the [Altered Item Slots section under Wondrous Items](rule/wondrous_items_pu)). Since it costs 14,900 gp in the Core Rulebook, it would grant a +2 bonus to two ability scores in addition to its usual effects, and cost an additional 10,000 gp, for a total of 24,900 gp.",
+			"",
+			"The price increase means that a significant range of prices doesn't come into play in a campaign that uses this system. For example, if a neck slot item would normally have a base market price of 2,000 gp, it would now grant an additional +1 enhancement bonus to natural armor, and its price would increase by 2,000 gp. That means a neck slot item can't have a final price between 2,000 gp and 3,999 gp. If you need treasure at a value in that range, look at items that don't grant innate bonuses.",
+			"",
+			"To use this system, institute the following changes."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"innate_item_bonuses"
+		],
+		"siblings": [
+			"bonus_and_price_overview",
+			"wondrous_items_pu",
+			"rings_pu",
+			"arms_and_armor"
+		]
+	},
+	"wondrous_items_pu": {
+		"name": "Wondrous Items",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/158}",
+			"",
+			"Most items that grant bonuses to statistics fall into the wondrous items category.",
+			"",
+			"***Removed Items:*** Remove all amulets of natural armor, cloaks of resistance, and items that grant enhancement bonuses to ability scores.",
+			"",
+			"***Altered Item Slots:*** Remove the belt and headband slots. For the remaining items in those slots (those that do not grant enhancement bonuses), move all belt slot items to the body slot and all headband slot items to the head slot. This alteration reduces the total number of magic item slots, and does mean that some items that could normally be worn in tandem can't in this system.",
+			"",
+			"***Ability Changes:*** If the table specifies that an item grants enhancement bonuses to ability scores, the wearer can change the associated ability scores by removing an item and then putting it back on. This causes the new bonus to become temporary for 24 hours. All items capable of granting an Intelligence bonus increase the bonus of a preset skill, just like a [headband of vast intelligence](magic-wondrous/headband_of_vast_intelligence_2). [Amulets of mighty fists](magic-wondrous/amulet_of_mighty_fists) and [bracers of armor](magic-wondrous/bracers_of_armor_1) follow the rules for weapons and armor; this means it is possible to make more powerful (+10 equivalent) amulets of mighty fists and bracers of armor than before.",
+			"",
+			"### Table 4-8: Body Slot Items",
+			"",
+			"| Starting Price | Enhancement Bonus to Physical Ability Scores | Price Increase |",
+			"| --- | --- | --- |",
+			"| 0-3,999 gp | - | - |",
+			"| 4,000-9,999 gp | +2 to one score | +4,000 gp |",
+			"| 10,000-15,999 gp | +2 to two scores | +10,000 gp |",
+			"| 16,000-35,999 gp | +4 to one score, or +2 to all three | +16,000 gp |",
+			"| 36,000-39,999 gp | 6 to one score, or +4 to one and +2 to two others | +36,000 gp |",
+			"| 40,000-63,999 gp | Any choice above, or +4 to two scores | +40,000 gp |",
+			"| 64,000-89,999 gp | +6 to one score and +4 to another, or +4 to all three | +64,000 gp |",
+			"| 90,000-143,999 gp | +6 to two scores, or +6 to one and +4 to two others | +90,000 gp |",
+			"| 144,000+ gp | +6 to all three scores | +144,000 gp |",
+			"",
+			"### Table 4-9: Head Slot Items",
+			"",
+			"| Starting Price | Enhancement Bonus to Mental Ability Scores | Price Increase |",
+			"| --- | --- | --- |",
+			"| 0-3,999 gp | - | - |",
+			"| 4,000-9,999 gp | +2 to one score | +4,000 gp |",
+			"| 10,000-15,999 gp | +2 to two scores | +10,000 gp |",
+			"| 16,000-35,999 gp | +4 to one score, or +2 to all three | +16,000 gp |",
+			"| 36,000-39,999 gp | 6 to one score, or +4 to one and +2 to two others | +36,000 gp |",
+			"| 40,000-63,999 gp | Any choice above, or +4 to two scores | +40,000 gp |",
+			"| 64,000-89,999 gp | +6 to one score and +4 to another, or +4 to all three | +64,000 gp |",
+			"| 90,000-143,999 gp | +6 to two scores, or +6 to one and +4 to two others | +90,000 gp |",
+			"| 144,000+ gp | +6 to all three scores | +144,000 gp |",
+			"",
+			"### Table 4-10: Neck Slot Items",
+			"",
+			"| Starting Price | Enhancement Bonus to Natural Armor | Price Increase |",
+			"| --- | --- | --- |",
+			"| 0-1,999 gp | - | - |",
+			"| 2,000-7,999 gp | +1 | +2,000 gp |",
+			"| 8,000-17,999 gp | +2 | +8,000 gp |",
+			"| 18,000-31,999 gp | +3 | +18,000 gp |",
+			"| 32,000-49,999 gp | +4 | +32,000 gp |",
+			"| 50,000+ gp | +5 | +50,000 gp |",
+			"",
+			"### Table 4-11: Shoulder Slot Items",
+			"",
+			"| Starting Price | Resistance Bonus on Saving Throws | Price Increase |",
+			"| --- | --- | --- |",
+			"| 0-999 gp | - | - |",
+			"| 1,000-3,999 gp | +1 | +1,000 gp |",
+			"| 4,000-8,999 gp | +2 | +4,000 gp |",
+			"| 9,000-15,999 gp | +3 | +9,000 gp |",
+			"| 16,000-24,999 gp | +4 | +16,000 gp |",
+			"| 25,000+ gp | +5 | +25,000 gp |"
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"innate_item_bonuses"
+		],
+		"siblings": [
+			"bonus_and_price_overview",
+			"wondrous_items_pu",
+			"rings_pu",
+			"arms_and_armor"
+		]
+	},
+	"rings_pu": {
+		"name": "Rings",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/159}",
+			"",
+			"Rings work in much the same way as wondrous items.",
+			"",
+			"***Removed Items:*** Remove all [rings of protection](magic-ring/ring_of_protection_1), and add the deflection bonus specified on Table 4-12: Rings to all other rings.",
+			"",
+			"***Multiple Rings:*** Note that deflection bonuses granted by multiple rings don't stack. It's up to the GM to decide how to deal with this, with two main options. The first option is to follow the rule outlined above and charge the price increase for each ring - consider the additional cost the price of essentially getting a third ring slot. The other option is to make the deflection bonus granted by rings (and the associated price increases) optional on a ring-by-ring basis, allowing characters to avoid paying twice for a non-stacking bonus. Doing so adds additional bookkeeping, however.",
+			"",
+			"### Table 4-12: Rings",
+			"",
+			"| Starting Price | Deflection Bonus to AC | Price Increase |",
+			"| --- | --- | --- |",
+			"| 0-1,999 gp | - | - |",
+			"| 2,000-7,999 gp | +1 | +2,000 gp |",
+			"| 8,000-17,999 gp | +2 | +8,000 gp |",
+			"| 18,000-31,999 gp | +3 | +18,000 gp |",
+			"| 32,000-49,999 gp | +4 | +32,000 gp |",
+			"| 50,000+ gp | +5 | +50,000 gp |"
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"innate_item_bonuses"
+		],
+		"siblings": [
+			"bonus_and_price_overview",
+			"wondrous_items_pu",
+			"rings_pu",
+			"arms_and_armor"
+		]
+	},
+	"arms_and_armor": {
+		"name": "Arms and Armor",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/159}",
+			"",
+			"Under this system, weapons and armor are not forged with pure enhancement bonuses, and don't need to have a +1 enhancement bonus to have a special ability. Instead, add up the effective enhancement bonus for the item's special abilities, then assign the total to the item as its new enhancement bonus on attack and damage rolls. To find the new price, multiply the total cost of its original special abilities - not counting the new enhancement bonus - by 4.",
+			"",
+			"For example, the {magic-enhancement/keen} ability is equivalent to a +1 bonus and would normally cost 2,000 gp. Under these rules, a keen falchion would gain a +1 bonus on top of its keen ability, and the cost would become 8,000 gp. A keen {magic-enhancement/holy} falchion, on the other hand, normally costs 18,000 gp and has abilities equivalent to a +3 bonus, so it would gain a +3 enhancement bonus on top of its abilities and cost 72,000 gp instead."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"innate_item_bonuses"
+		],
+		"siblings": [
+			"bonus_and_price_overview",
+			"wondrous_items_pu",
+			"rings_pu",
+			"arms_and_armor"
+		]
+	},
+	"fractional_base_bonuses": {
+		"name": "Multiclass Fractional Base Bonuses",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/40}",
+			"",
+			"Multiclass characters in the core rules are at a slight disadvantage when it comes to their statistics. This fractional base bonuses variant is designed to help multiclass characters fulfill their true potential and stand tall among their single-class peers. It is ideal for campaigns featuring many multiclass characters, particularly if those characters take levels in many different classes or prestige classes.",
+			"",
+			"Base attack bonuses and base save bonuses in the Core Rulebook progress at a fractional rate, but those fractions are eliminated because of rounding; it doesn't make sense to distinguish a base attack bonus of +6-1/2 from a base attack bonus of +6 when a character with either bonus would hit AC 17 on a roll of 11 and miss on a 10. For ease of reference, the values in the class tables are rounded this way since it never makes a difference for single-class characters. However, for multiclass characters, this rounding often results in a base attack bonus that's too low, as well as base save bonuses that are imbalanced. The following variant results in more accurate base bonuses for multiclass characters, based on the formulas behind the class progression tables rather than on the tables themselves.",
+			"",
+			"For example, a character who's a 1st-level wizard and a 1st-level rogue has a base attack bonus (BAB) of +0 from each class, resulting in a total BAB of +0 - worse than a 2nd-level wizard or 2nd-level rogue. But that's only because each fraction was rounded down to 0 before adding them together; the character theoretically has a BAB of +3/4 from her rogue level and +1/2 from her wizard level. If the rounding was done after adding the fractional values together rather than before, the character would have a BAB of +1 (rounded down from +1-1/4) - the same as a 2nd-level wizard or rogue.",
+			"",
+			"### Table 1-7: Fractional Bonuses by Class Level",
+			"",
+			"| Class Level | Base Save Bonus (Good)&ast; | Base Save Bonus (Poor) | Base Attack Bonus (d10 or d12) | Base Attack Bonus (d8) | Base Attack Bonus (d6) |",
+			"| --- | --- | --- | --- | --- | --- |",
+			"| 1st | +1/2 | +1/3 | +1 | +3/4 | +1/2 |",
+			"| 2nd | +1 | +2/3 | +2 | +1-1/2 | +1 |",
+			"| 3rd | +1-1/2 | +1 | +3 | +2-1/4 | +1-1/2 |",
+			"| 4th | +2 | +1-1/3 | +4 | +3 | +2 |",
+			"| 5th | +2-1/2 | +1-2/3 | +5 | +3-3/4 | +2-1/2 |",
+			"| 6th | +3 | +2 | +6 | +4-1/2 | +3 |",
+			"| 7th | +3-1/2 | +2-1/3 | +7 | +5-1/4 | +3-1/2 |",
+			"| 8th | +4 | +2-2/3 | +8 | +6 | +4 |",
+			"| 9th | +4-1/2 | +3 | +9 | +6-3/4 | +4-1/2 |",
+			"| 10th | +5 | +3-1/3 | +10 | +7-1/2 | +5 |",
+			"| 11th | +5-1/2 | +3-2/3 | +11 | +8-1/4 | +5-1/2 |",
+			"| 12th | +6 | +4 | +12 | +9 | +6 |",
+			"| 13th | +6-1/2 | +4-1/3 | +13 | +9-3/4 | +6-1/2 |",
+			"| 14th | +7 | +4-2/3 | +14 | +10-1/2 | +7 |",
+			"| 15th | +7-1/2 | +5 | +15 | +11-1/4 | +7-1/2 |",
+			"| 16th | +8 | +5-1/3 | +16 | +12 | +8 |",
+			"| 17th | +8-1/2 | +5-2/3 | +17 | +12-3/4 | +8-1/2 |",
+			"| 18th | +9 | +6 | +18 | +13-1/2 | +9 |",
+			"| 19th | +9-1/2 | +6-1/3 | +19 | +14-1/4 | +9-1/2 |",
+			"| 20th | +10 | +6-2/3 | +20 | +15 | +10 |",
+			"",
+			"&ast;If at least one of the character's classes has a good saving throw progression for the save in question, add 2 to the total save bonus."
+		],
+		"parent_topics": [ "optional_pc_advancement_changes" ],
+		"subtopics": [
+			"base_attack_bonus",
+			"base_save_bonus",
+			"bonuses_by_level"
+		],
+		"siblings": [
+			"automatic_bonus_progression",
+			"innate_item_bonuses",
+			"fractional_base_bonuses",
+			"staggered_advancement",
+			"variant_multiclassing"
+		]
+	},
+	"base_attack_bonus": {
+		"name": "Base Attack Bonus",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/40}",
+			"",
+			"There are three base attack bonus progressions. For classes with a d6 Hit Die, their BAB increases by 1/2 per level. For classes with a d8 Hit Die, their BAB increases by 3/4 per level. For classes with a d10 or d12 Hit Die, their BAB increases by 1 per level (so it's not necessary to round the BAB for these classes). A multiclass character's base attack bonus will only ever improve using this variant.",
+			"",
+			"For example, a character who's a 2nd-level rogue and a 9th-level wizard would have a BAB of +5 in the core rules: +1 from her rogue levels and +4 from her wizard levels. Using the fractional system, that character's BAB would be +6, with +1-1/2 from her rogue levels and +4-1/2 from her wizard levels - enough for her to gain a second attack at a +1 bonus."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"fractional_base_bonuses"
+		],
+		"siblings": [
+			"base_attack_bonus",
+			"base_save_bonus",
+			"bonuses_by_level"
+		]
+	},
+	"base_save_bonus": {
+		"name": "Base Save Bonus",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/40}",
+			"",
+			"There are only two base saving throw progressions: good and poor. Good saves progress at a rate of +1/2 per level, while poor saves progress at +1/3 per level. Additionally, saving throw bonuses with a good saving throw progression start higher, effectively incorporating an additional +2 bonus. Under the core rules, this additional bonus stacks between classes, letting a character who's a 1st-level barbarian and a 1st-level fighter have a +4 Fortitude save bonus while his Reflex and Will saves stagnate. However, this higher initial saving throw bonus is intended to act like the +3 bonus received on a class skill: you should get it only once for a particular type of saving throw, regardless of the number of classes in which you have levels. Under this variant, the +2 bonus at 1st level to a good save no longer stacks between classes, so a character's strongest saves are sometimes decreased. However, the improvements to that character's weakest saves usually make up the difference, and such characters are much less likely to leap ahead of (or fall dramatically behind) their single-class peers.",
+			"",
+			"When calculating each saving throw bonus, first determine whether each class you have levels in grants a good or poor saving throw progression for that type of save. To tell whether a class has a good or poor save progression for a particular saving throw, look at the 1st-level saving throw bonus it receives for that save in the core rules. If the bonus is +2, the class has a good save progression for that type of save. If it's +0, the class has a poor save progression for that type of save. Next, for each class, find the value in Table 1-7: Fractional Bonuses by Level corresponding to your level in that class and whether the saving throw progression is good or poor. Add the values from all your classes; if you have a good saving throw progression from at least one class, add 2 to the total (this is a one-time increase and doesn't stack).",
+			"",
+			"For example, in a standard game, a character who's a 5th-level cleric and a 2nd-level fighter would have a Fortitude base save bonus of +7, a Reflex base save bonus of +1, and a Will base save bonus of +4. In this variant, the same character would have a Fortitude base save bonus of +5 (rounded down from +5-1/2), a Reflex base save bonus of +2 (rounded down from +2-1/3), and a Will base save bonus of +5 (rounded down from +5-1/6).",
+			"",
+			"In the core Pathfinder rules, prestige classes advance at the same rate as base classes but have different class bonuses. These adjusted bonuses were meant to compensate for the leftover fractions from the character's base classes, since the only way to gain a prestige class is via multiclassing - taking levels in both your original class and the prestige class - or racial Hit Dice. Because fractional base bonuses already account for those fractions, instead use the base save bonuses from Table 1-7 just as you would for any other class. To tell whether a prestige class has a good or poor save progression for a saving throw, look at the 1st-level saving throw bonuses it receives for that save. If the bonus is +1, it has a good save progression. If it's +0, it has a poor save progression."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"fractional_base_bonuses"
+		],
+		"siblings": [
+			"base_attack_bonus",
+			"base_save_bonus",
+			"bonuses_by_level"
+		]
+	},
+	"bonuses_by_level": {
+		"name": "Bonuses by Level",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/41}",
+			"",
+			"The table above presents fractional values for the base save and base attack bonuses. To determine the total base save bonus or base attack bonus of a multiclass character, calculate the fractional values for each of the character's classes using the table and add them together.",
+			"",
+			"This rule affects only multiclass characters, and such characters will have a number of attacks depending on their combined base attack bonuses from several classes. For this reason, the table does not list the multiple attacks gained by characters with a BAB of +6 or greater. Just remember that a second attack is gained when a character's total BAB reaches +6, a third at +11, and a fourth at +16, just as normal. For a character who's an 11th-level fighter and a 9th-level rogue, adding a BAB of +11 to a BAB of +6-3/4 yields a BAB of +17 (rounded down from +17-3/4), with additional attacks with BABs of +12, +7, and +2, respectively."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"fractional_base_bonuses"
+		],
+		"siblings": [
+			"base_attack_bonus",
+			"base_save_bonus",
+			"bonuses_by_level"
+		]
+	},
+	"staggered_advancement": {
+		"name": "Staggered Advancement",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/42}",
+			"",
+			"When increasing in level, characters often gain new abilities and powers seemingly overnight. The following advancement variant allows you to add some verisimilitude to the way in which your characters grow in power. Instead of gaining all your new abilities when you advance to the next level, you divide them among four XP tiers: 25%, 50%, 75%, and 100%. Each XP tier represents a specific percentage of the XP required to advance to the next level."
+		],
+		"parent_topics": [ "optional_pc_advancement_changes" ],
+		"subtopics": [ "using_staggered_advancement" ],
+		"siblings": [
+			"automatic_bonus_progression",
+			"innate_item_bonuses",
+			"fractional_base_bonuses",
+			"staggered_advancement",
+			"variant_multiclassing"
+		]
+	},
+	"using_staggered_advancement": {
+		"name": "Using Staggered Advancement",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/42}",
+			"",
+			"First, select the class in which you'll gain your next level. You must meet all the prerequisites for that class level. Whenever you reach a new XP tier, gain the appropriate universal abilities and skill ranks for that class as detailed in Table 1-8: Staggered Advancement. Your feat, ability score, and spell progressions remain unchanged.",
+			"",
+			"***Universal Abilities:*** Universal abilities include your selected class's base attack bonus, hit points (hp), and saving throw bonuses. At the 25%, 50%, and 75% XP tiers, you can select one of the following options.",
+			"",
+			"***Base Attack Bonus:*** Increase your selected class's base attack bonus (if applicable).",
+			"",
+			"***Hit Points:*** Determine the number of hit points you would gain for advancing to the next level in your class and add 50% of those hit points (rounding down) to your hit point maximum. When you advance fully to the next level of your selected class, add the remaining hit points.",
+			"",
+			"***Saving Throw Bonuses:*** Increase your class's saving throw bonuses (if applicable).",
+			"",
+			"Each of the above options can only be selected once per level. Additionally, the base attack bonuses and saving throw bonuses of some classes don't increase each time they advance in level. If only one universal ability is applicable, incorporate it at the 75% tier. If two are applicable, incorporate one at the 50% tier and the other at the 75% tier (your choice).",
+			"",
+			"***Class Features:*** Characters gain all class features upon reaching the next level.",
+			"",
+			"***Skill Ranks:*** Determine the total number of skill ranks you would gain for advancing to the next level in your selected class, and allocate 50% of the skill ranks (rounding down) when you reach the 50% XP tier. When you advance fully to the next level, you can spend the remaining skill ranks.",
+			"",
+			"The following table assumes you are using the medium XP advancement track. If you use the fast or slow XP advancement track, you can use this table as a model from which to extrapolate the XP requirements for each XP tier.",
+			"",
+			"### Table 1-8: Staggered Advancement",
+			"",
+			"| Character Level | XP | XP Tier | Universal Abilities | Class Abilities | Skill Ranks |",
+			"| --- | --- | --- | --- | --- | --- |",
+			"| 1st | 0 | - | As standard rules for a 1st-level character | - | - |",
+			"| | 500 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 1,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 1,500 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 2nd | 2,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 2,750 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 3,500 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 4,250 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 3rd | 5,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 6,000 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 7,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 8,000 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 4th | 9,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 10,500 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 12,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 13,500 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 5th | 15,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 17,000 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 19,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 21,000 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 6th | 23,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 26,000 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 29,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 32,000 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 7th | 35,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 39,000 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 43,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 47,000 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 8th | 51,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 57,000 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 63,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 69,000 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 9th | 75,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 82,500 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 90,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 97,500 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 10th | 105,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 117,500 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 130,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 142,500 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 11th | 155,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 171,250 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 187,500 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 203,750 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 12th | 220,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 243,7500 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 267,500 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 291,250 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 13th | 315,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 347,500 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 380,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 412,500 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 14th | 445,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 492,500 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 540,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 587,500 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 15th | 635,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 698,750 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 762,500 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 826,250 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 16th | 890,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 992,500 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 1,095,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 1,197,500 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 17th | 1,300,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 1,425,000 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 1,550,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 1,675,000 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 18th | 1,800,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 1,987,500 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 2,175,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 2,362,500 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 19th | 2,550,000 | - | Remaining 50% of hp | All | Remaining 50% |",
+			"| | 2,812,500 | 25% | BAB, 50% hp, or saves | - | - |",
+			"| | 3,075,000 | 50% | BAB, 50% hp, or saves | - | 50% |",
+			"| | 3,337,500 | 75% | BAB, 50% hp, or saves | - | - |",
+			"| 20th | 3,600,000 | - | Remaining 50% of hp | All | Remaining 50% |"
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"staggered_advancement"
+		],
+		"siblings": [ "using_staggered_advancement" ]
+	},
+	"variant_multiclassing": {
+		"name": "Variant Multiclassing",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/88}",
+			"",
+			"Under the core rules, multiclassing can lead to a wide disparity in character ability. With this system, each character can choose a secondary class at 1st level that she trains in throughout her career, without giving up levels in her primary class. Once selected, this choice is permanent (though if using the [retraining rules](rule/retraining), the secondary class can be retrained by paying half the cost of retraining all her class levels). A character who selects this option doesn't gain feats at 3rd, 7th, 11th, 15th, and 19th levels, but instead gains class features from her secondary class as described on Table 2-8: Multiclass Character Advancement. It is probably a good idea to use either this variant system or normal multiclassing, but it's possible for the two systems to be used together. In a game using both systems, a character can't take levels in the secondary class she gains from this variant.",
+			"",
+			"### Table 2-8: Multiclass Character Advancement",
+			"",
+			"| Character Level | Ability |",
+			"| --- | --- |",
+			"| 1st | Feat |",
+			"| 2nd | - |",
+			"| 3rd | Secondary class feature |",
+			"| 4th | - |",
+			"| 5th | Feat |",
+			"| 6th | - |",
+			"| 7th | Secondary class feature |",
+			"| 8th | - |",
+			"| 9th | Feat |",
+			"| 10th | - |",
+			"| 11th | Secondary class feature |",
+			"| 12th | - |",
+			"| 13th | Feat |",
+			"| 14th | - |",
+			"| 15th | Secondary class feature |",
+			"| 16th | - |",
+			"| 17th | Feat |",
+			"| 18th | - |",
+			"| 19th | Secondary class feature |",
+			"| 20th | - |"
+		],
+		"parent_topics": [ "optional_pc_advancement_changes" ],
+		"subtopics": [
+			"core_classes",
+			"base_classes_pu"
+		],
+		"siblings": [
+			"automatic_bonus_progression",
+			"innate_item_bonuses",
+			"fractional_base_bonuses",
+			"staggered_advancement",
+			"variant_multiclassing"
+		]
+	},
+	"core_classes": {
+		"name": "Core Classes",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/88}",
+			"",
+			"The following secondary class features are based on features of the classes found in the Core Rulebook."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing"
+		],
+		"subtopics": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		],
+		"siblings": [
+			"core_classes",
+			"base_classes_pu"
+		]
+	},
+	"barbarian": {
+		"name": "Barbarian",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/88}",
+			"",
+			"A character who chooses {class/barbarian} as her secondary class gains the following secondary class features.",
+			"",
+			"***Rage:*** At 3rd level, she gains the rage class feature for a number of rounds per day equal to her Constitution modifier + her character level.",
+			"",
+			"***Uncanny Dodge:*** At 7th level, she gains uncanny dodge.",
+			"",
+			"***Rage Power:*** At 11th level, she gains a [rage power](ability/rage_powers). For the purpose of which rage powers she can select, her effective barbarian level is equal to 1/2 her character level, but for the purpose of the rage power's effect, her effective barbarian level is equal to her full character level.",
+			"",
+			"***Damage Reduction:*** At 15th level, she gains DR 3/-.",
+			"",
+			"***Greater Rage:*** At 19th level, she gains greater rage."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"bard": {
+		"name": "Bard",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/88}",
+			"",
+			"A character who chooses {class/bard} as his secondary class gains the following secondary class features.",
+			"",
+			"***Bardic Knowledge:*** At 3rd level, he gains the bardic knowledge class feature, treating his character level as his effective bard level.",
+			"",
+			"***Bardic Performance:*** At 7th level, he gains the ability to inspire courage and inspire competence as a bard of his character level - 4 for a number of rounds per day equal to his Charisma modifier + his character level.",
+			"",
+			"***Versatile Performance:*** At 11th level, he gains versatile performance in one Perform skill of his choice. He can retrain all his ranks in the two associated skills for free.",
+			"",
+			"***Lore Master:*** At 15th level, he gains lore master as a 5th-level bard.",
+			"",
+			"***Additional Performances:*** At 19th level, he gains the ability to use dirge of doom and inspire greatness as a bard of his character level - 4."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"cleric": {
+		"name": "Cleric",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/88}",
+			"",
+			"A character who chooses {class/cleric} as her secondary class gains the following secondary class features.",
+			"",
+			"***Deity:*** At 1st level, she must select a deity within one alignment step of her own. She gains the cleric's aura, bonus languages, code of conduct, and restriction from casting spells of opposed alignments. She also gains the cleric's spontaneous casting ability, which she can use with any prepared casting classes that have the appropriate spells on their spell lists.",
+			"",
+			"***Domain:*** At 3rd level, she selects one [domain](ability/domains) her deity grants, gaining that domain's 1st-level granted power, treating her character level as her effective cleric level.",
+			"",
+			"***Channel:*** At 7th level, she gains the ability to channel energy as a cleric of her character level - 6 a number of times per day equal to her Charisma modifier + 1.",
+			"",
+			"***Improved Channel:*** At 11th level, her ability to channel energy improves to that of a cleric of her character level - 4.",
+			"",
+			"***Improved Domain:*** At 15th level, she gains the additional domain power of her chosen domain, treating her character level as her effective cleric level.",
+			"",
+			"***Greater Channel:*** At 19th level, her channel energy ability improves to that of a cleric of her character level - 2."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"druid": {
+		"name": "Druid",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/88}",
+			"",
+			"A character who chooses {class/druid} as her secondary class gains the following secondary class features.",
+			"",
+			"***Code:*** At 1st level, she gains Druidic as a bonus language and must abide by the druidic code of conduct - respecting nature, not teaching the Druidic language to outsiders, not wearing metal armor, and so on.",
+			"",
+			"***Wild Empathy:*** At 3rd level, she gains wild empathy, treating her character level as her effective druid level.",
+			"",
+			"***Companion:*** At 7th level, she gains an [animal companion](ability/druid_companions) as a druid of her character level - 4. No ability other than Improved Companion can ever increase her effective druid level for this purpose.",
+			"",
+			"***Improved Companion:*** At 11th level, her animal companion increases to that of a druid of her full character level.",
+			"",
+			"***Wild Shape:*** At 15th level, she gains the ability to use wild shape to turn into a Small or Medium animal two times per day for up to 1 hour per character level each time.",
+			"",
+			"***Greater Wildshape:*** At 19th level, her wild shape improves to include the 6th-level druid options, and she can use wild shape three times per day."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"fighter": {
+		"name": "Fighter",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/89}",
+			"",
+			"A character who chooses {class/fighter} as his secondary class gains the following secondary class features.",
+			"",
+			"***Bravery:*** At 3rd level, he gains the bravery class feature as a fighter of his character level - 1.",
+			"",
+			"***Armor Training 1:*** At 7th level, he gains armor training 1.",
+			"",
+			"***Weapon Training 1:*** At 11th level, he gains weapon training 1.",
+			"",
+			"***Armor Training 2:*** At 15th level, he gains armor training 2.",
+			"",
+			"***Weapon Training 2:*** At 19th level, he gains weapon training 2."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"monk": {
+		"name": "Monk",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/89}",
+			"",
+			"A character who chooses {class/monk} as his secondary class gains the following secondary class features.",
+			"",
+			"***Armor:*** At 1st level, he loses all his secondary monk abilities when wearing armor, using a shield, or carrying a medium or heavy load.",
+			"",
+			"***Unarmed Strike:*** At 3rd level, he gains the {feat/Improved Unarmed Strike} feat and the unarmed damage of a monk of his character level - 2.",
+			"",
+			"***Evasion:*** At 7th level, he gains evasion.",
+			"",
+			"***Ki Pool:*** At 11th level, he gains the ki pool class feature of a monk of his character level - 2, with a number of ki points equal to 1/2 his character level. He only ever gains ki pool (lawful) if he is of lawful alignment.",
+			"",
+			"***AC Bonus:*** At 15th level, he gains a +3 dodge bonus to AC.",
+			"",
+			"***Improved Evasion:*** At 19th level, he gains improved evasion."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"paladin": {
+		"name": "Paladin",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/89}",
+			"",
+			"A character who chooses {class/paladin} as her secondary class gains the following secondary class features.",
+			"",
+			"***Code:*** At 1st level, she must follow the paladin's code of conduct and gains the paladin's aura of good.",
+			"",
+			"***Detect Evil:*** At 3rd level, she can {spell/detect evil} as a 1st-level paladin.",
+			"",
+			"***Lay on Hands:*** At 7th level, she gains the ability to lay on hands a number of times per day equal to 1/2 her character level, healing as much as a paladin of her character level - 4.",
+			"",
+			"***Smite Evil:*** At 11th level, she gains the ability to smite evil once per day as a paladin of her character level - 4.",
+			"",
+			"***Mercy:*** At 15th level, she selects one [mercy](ability/mercies) from the paladin's 3rd-level mercy list.",
+			"",
+			"***Divine Bond:*** At 19th level, she gains a divine bond to a weapon as a paladin of her character level - 3."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"ranger": {
+		"name": "Ranger",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/89}",
+			"",
+			"A character who chooses {class/ranger} as his secondary class gains the following secondary class features.",
+			"",
+			"***Track:*** At 3rd level, he gains the track class feature, treating his character level as his effective ranger level.",
+			"",
+			"***Favored Enemy:*** At 7th level, he gains the 1st favored enemy class feature.",
+			"",
+			"***Favored Terrain:*** At 11th level, he gains the 1st favored terrain class feature.",
+			"",
+			"***Expert Tracker:*** At 15th level, he gains the woodland stride and swift tracker class features.",
+			"",
+			"***Quarry:*** At 19th level, he gains the quarry class feature."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"rogue": {
+		"name": "Rogue",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/89}",
+			"",
+			"A character who chooses {class/rogue} as her secondary class gains the following secondary class features.",
+			"",
+			"***Trapfinding:*** At 3rd level, she gains the trapfinding class feature.",
+			"",
+			"***Sneak Attack:*** At 7th level, she gains the sneak attack class feature. She can deal 1d6 points of extra damage. This extra damage increases by 1d6 for every 4 levels beyond 7th, to a maximum of 4d6 at 19th level.",
+			"",
+			"***Evasion:*** At 11th level, she gains evasion.",
+			"",
+			"***Uncanny Dodge:*** At 15th level, she gains uncanny dodge.",
+			"",
+			"***Improved Uncanny Dodge:*** At 19th level, she gains improved uncanny dodge, treating her character level as her effective rogue level."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"sorcerer": {
+		"name": "Sorcerer",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/89}",
+			"",
+			"A character who chooses {class/sorcerer} as her secondary class gains the following secondary class features.",
+			"",
+			"***Bloodline:*** At 1st level, she must select a [sorcerer bloodline](ability/sorcerer_bloodlines). She treats her character level as her effective sorcerer level for all bloodline powers.",
+			"",
+			"***Bloodline Power:*** At 3rd level, she gains her bloodline's 1st-level bloodline power.",
+			"",
+			"***Improved Bloodline Power:*** At 7th level, she gains her bloodline's 3rd-level bloodline power",
+			"",
+			"***Blood Feat:*** At 11th level, she gains one of her bloodline's feats or {feat/Eschew Materials}.",
+			"",
+			"***Greater Bloodline Power:*** At 15th level, she gains her bloodline's 9th-level bloodline power.",
+			"",
+			"***True Bloodline Power:*** At 19th level, she gains her bloodline's 15th-level bloodline power."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"wizard": {
+		"name": "Wizard",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/90}",
+			"",
+			"A character who chooses {class/wizard} as his secondary class gains the following secondary class features.",
+			"",
+			"***School:*** At 1st level, he chooses a [school of magic](ability/arcane_schools) in which to specialize. For all powers of that school, he treats his character level as his effective wizard level.",
+			"",
+			"***Familiar:*** At 3rd level, he gains a {sidekick/familiar}, treating his character level as his effective wizard level.",
+			"",
+			"***School Power:*** At 7th level, he gains the 1st-level powers of his chosen school. If any of those powers grant an extra effect at 20th level, the character does not gain that extra effect.",
+			"",
+			"***Cantrip:*** At 11th level, if he has an Intelligence score of 10 or higher, he chooses a wizard cantrip from his chosen school and can cast that cantrip as a spell-like ability at will. He uses his character level as the caster level and Intelligence as the cantrip's key ability score.",
+			"",
+			"***Discovery:*** At 15th level, he gains an [arcane discovery](class/wizard) or wizard bonus feat, treating his character level as his effective wizard level.",
+			"",
+			"***Greater School Power:*** At 19th level, he gains the 8th-level power of his chosen school."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"core_classes"
+		],
+		"siblings": [
+			"barbarian",
+			"bard",
+			"cleric",
+			"druid",
+			"fighter",
+			"monk",
+			"paladin",
+			"ranger",
+			"rogue",
+			"sorcerer",
+			"wizard"
+		]
+	},
+	"base_classes_pu": {
+		"name": "Base Classes",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/90}",
+			"",
+			"The following secondary class features are based on features of the classes."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing"
+		],
+		"subtopics": [
+			"alchemist",
+			"cavalier",
+			"gunslinger",
+			"inquisitor",
+			"magus",
+			"oracle",
+			"summoner",
+			"witch"
+		],
+		"siblings": [
+			"core_classes",
+			"base_classes_pu"
+		]
+	},
+	"alchemist": {
+		"name": "Alchemist",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/90}",
+			"",
+			"A character who chooses {class/alchemist} as his secondary class gains the following secondary class features.",
+			"",
+			"***Alchemy:*** At 3rd level, he adds his character level as a competence bonus on all Craft (alchemy) checks and can use Craft (alchemy) to identify potions.",
+			"",
+			"***Bombs:*** At 7th level, he gains the ability to create a number of bombs per day equal to his Intelligence modifier + 1/2 his character level. The bombs deal damage as an alchemist of his character level, but since he doesn't have the alchemist's throw anything class feature, he doesn't add his Intelligence modifier to the damage.",
+			"",
+			"***Mutagen:*** At 11th level, he gains the mutagen class feature, with a duration equal to 10 minutes per character level. He counts as an alchemist for the purposes of drinking a mutagen.",
+			"",
+			"***Swift Poisoning:*** At 15th level, he gains the poison use and swift poisoning abilities.",
+			"",
+			"***Poison Immunity:*** At 19th level, he becomes immune to poison."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"base_classes_pu"
+		],
+		"siblings": [
+			"alchemist",
+			"cavalier",
+			"gunslinger",
+			"inquisitor",
+			"magus",
+			"oracle",
+			"summoner",
+			"witch"
+		]
+	},
+	"cavalier": {
+		"name": "Cavalier",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/90}",
+			"",
+			"A character who chooses {class/cavalier} as his secondary class gains the following secondary class features.",
+			"",
+			"***Order:*** At 1st level, he chooses an [order](ability/orders). He must follow the edicts of his order.",
+			"",
+			"***Challenge:*** At 3rd level, he gains the ability to issue a challenge as a cavalier of his character level - 2 once per day. He adds the appropriate order adjustment to his challenge based on the order he selected.",
+			"",
+			"***Order Ability:*** At 7th level, he gains the 2nd-level ability of his chosen order, treating his character level as his effective cavalier level.",
+			"",
+			"***Tactician:*** At 11th level, he gains the tactician class feature, treating his character level as his effective cavalier level.",
+			"",
+			"***Greater Order Ability:*** At 15th level, he gains the 8th-level ability of his chosen order, treating his character level as his effective cavalier level.",
+			"",
+			"***Greater Tactician:*** At 19th level, he gains the greater tactician class feature, treating his character level as his effective cavalier level."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"base_classes_pu"
+		],
+		"siblings": [
+			"alchemist",
+			"cavalier",
+			"gunslinger",
+			"inquisitor",
+			"magus",
+			"oracle",
+			"summoner",
+			"witch"
+		]
+	},
+	"gunslinger": {
+		"name": "Gunslinger",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/90}",
+			"",
+			"A character who chooses {class/gunslinger} as her secondary class gains the following secondary class features.",
+			"",
+			"***Firearm Proficiency:*** At 3rd level, she gains proficiency in all firearms.",
+			"",
+			"***Gunsmith:*** At 7th level, she gains the gunsmith class feature.",
+			"",
+			"***Deed:*** At 11th level, she gains the {feat/Amateur Gunslinger} feat.",
+			"",
+			"***Improved Deed:*** At 15th level, she gains a 3rd-level [gunslinger deed](ability/gunslinger_deeds) of her choice.",
+			"",
+			"***Greater Deed:*** At 19th level, she gains a 7th-level gunslinger deed of her choice."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"base_classes_pu"
+		],
+		"siblings": [
+			"alchemist",
+			"cavalier",
+			"gunslinger",
+			"inquisitor",
+			"magus",
+			"oracle",
+			"summoner",
+			"witch"
+		]
+	},
+	"inquisitor": {
+		"name": "Inquisitor",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/90}",
+			"",
+			"A character who chooses {class/inquisitor} as her secondary class gains the following secondary class features.",
+			"",
+			"***Deity:*** At 1st level, she must select a deity within one alignment step of her alignment. She gains the inquisitor's code of conduct and restriction on casting spells of opposed alignments.",
+			"",
+			"***Stern Gaze:*** At 3rd level, she gains the stern gaze class feature, treating her character level as her effective inquisitor level.",
+			"",
+			"***Judgment:*** At 7th level, once per day, she can use the judgment class feature as an inquisitor of her character level - 3.",
+			"",
+			"***Solo Tactics:*** At 11th level, she gains the solo tactics class feature.",
+			"",
+			"***Additional Judgment:*** At 15th level, she can use the judgment class feature twice per day.",
+			"",
+			"***Second Judgment:*** At 19th level, she gains the second judgment ability."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"base_classes_pu"
+		],
+		"siblings": [
+			"alchemist",
+			"cavalier",
+			"gunslinger",
+			"inquisitor",
+			"magus",
+			"oracle",
+			"summoner",
+			"witch"
+		]
+	},
+	"magus": {
+		"name": "Magus",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/90}",
+			"",
+			"A character who chooses {class/magus} as his secondary class gains the following secondary class features.",
+			"",
+			"***Arcane Pool:*** At 3rd level, he gains the arcane pool class feature as a magus of his character level - 2.",
+			"",
+			"***Magus Arcana:*** At 7th level, he gains one {ability/magus arcana}. He treats his character level as his effective magus level when determining whether or not he can select an arcana.",
+			"",
+			"***Spellstrike:*** At 11th level, he gains the *spellstrike* class feature, but he can use it only with spells that are on the magus spell list, even though he can cast them using another class's spell slots.",
+			"",
+			"***Improved Arcana:*** At 15th level, he gains one additional magus arcana.",
+			"",
+			"***Greater Arcana:*** At 19th level, he gains one additional magus arcana."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"base_classes_pu"
+		],
+		"siblings": [
+			"alchemist",
+			"cavalier",
+			"gunslinger",
+			"inquisitor",
+			"magus",
+			"oracle",
+			"summoner",
+			"witch"
+		]
+	},
+	"oracle": {
+		"name": "Oracle",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/91}",
+			"",
+			"A character who chooses {class/oracle} as her secondary class gains the following secondary class features.",
+			"",
+			"***Mystery:*** At 1st level, she must select a mystery. She never qualifies for the {feat/Extra Revelation} feat.",
+			"",
+			"***Curse:*** At 1st level, she must select a [curse](ability/oracle_curses). She gains all effects of the curse, treating her effective oracle level as equal to 1/2 her character level.",
+			"",
+			"***Revelation:*** At 3rd level, she gains one of the following revelations from the list of those available to her mystery as an oracle of her character level - 6 (minimum 1). She must have an effective oracle level high enough to select the revelation.",
+			"",
+			">**{mystery/Battle}:** Battlecry, battlefield clarity, combat healer, iron skin, resiliency, skill at arms, surprising charge, war sight.",
+			">",
+			">**{mystery/Bones}:** Armor of bones, bleeding wounds, death's touch, near death, raise the dead, resist life, soul siphon, spirit walk, undead servitude, voice of the grave.",
+			">",
+			">**{mystery/Flame}:** Burning magic, fire breath, form of flame, gaze of flames, heat aura, molten skin, touch of flame, wings of fire.",
+			">",
+			">**{mystery/Heavens}:** Coat of many stars, dweller in darkness, guiding star, interstellar void, lure of the heavens, mantle of moonlight, spray of shooting stars, star chart.",
+			">",
+			">**{mystery/Life}:** Channel, delay affliction, energy body, enhanced cures, healing hands, life link, lifesense, safe curing, spirit boost.",
+			">",
+			">**{mystery/Lore}:** Arcane archivist, automatic writing, brain drain, mental acuity, spontaneous symbology, think on it, whirlwind lesson.",
+			">",
+			">**{mystery/Nature}:** Erosion touch, life leach, natural divination, speak with animals, spirit of nature, transcendental bond, undo artifice.",
+			">",
+			">**{mystery/Stone}:** Acid skin, clobbering strike, crystal sight, earth glide, mighty pebble, rock throwing, shard explosion, steelbreaker skin, touch of acid.",
+			">",
+			">**{mystery/Waves}:** Blizzard, fluid nature, fluid travel, freezing spells, ice armor, icy skin, punitive transformation, water form, water sight, wintry touch.",
+			">",
+			">**{mystery/Wind}:** Air barrier, gaseous form, invisibility, lightning breath, spark skin, thunderburst, touch of electricity, vortex spells, wind sight, wings of air.",
+			"",
+			"***Orison:*** At 7th level, if she has a Charisma score of 10 or higher, she chooses an oracle orison to cast as a spell-like ability at will. She uses her character level as the caster level and Charisma as the orison's key ability score.",
+			"",
+			"***Curse Focus:*** At 11th level, she adds 5 to her effective oracle level for the purposes of determining her curse's effects.",
+			"",
+			"***Improved Revelation:*** At 15th level, she gains one additional revelation.",
+			"",
+			"***Greater Revelation:*** At 19th level, she gains one additional revelation."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"base_classes_pu"
+		],
+		"siblings": [
+			"alchemist",
+			"cavalier",
+			"gunslinger",
+			"inquisitor",
+			"magus",
+			"oracle",
+			"summoner",
+			"witch"
+		]
+	},
+	"summoner": {
+		"name": "Summoner",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/91}",
+			"",
+			"A character who chooses {class/summoner} as his secondary class gains the following secondary class features.",
+			"",
+			"***Summon Monster:*** At 3rd level, he gains the summoner's [summon monster](spell/summon_monster_1) spell-like ability as a summoner of his character level - 2. He can use this ability once per day; the casting time is 1 full round, and the duration is 1 round per effective summoner level.",
+			"",
+			"***Eidolon:*** At 7th level, he gains the ability to summon an eidolon, using the statistics of an eidolon for a summoner of his character level - 4, except with half as many evolution points. This eidolon can only be summoned using his [summon monster](spell/summon_monster_1) spell-like ability.",
+			"",
+			"***Additional Summons:*** At 11th level, he can use his [summon monster](spell/summon_monster_1) spell-like ability three times per day.",
+			"",
+			"***Shield Ally:*** At 15th level, he gains the shield ally class feature.",
+			"",
+			"***Aspect:*** At 19th level, he gains the aspect class feature, except he can divert only 1 evolution point from his eidolon to himself."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"base_classes_pu"
+		],
+		"siblings": [
+			"alchemist",
+			"cavalier",
+			"gunslinger",
+			"inquisitor",
+			"magus",
+			"oracle",
+			"summoner",
+			"witch"
+		]
+	},
+	"witch": {
+		"name": "Witch",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/91}",
+			"",
+			"A character who chooses {class/witch} as her secondary class gains the following secondary class features.",
+			"",
+			"***Patron:*** At 1st level, she chooses a [patron](ability/patrons). She never qualifies for the {feat/Extra Hex} feat.",
+			"",
+			"***Witch's Familiar:*** At 3rd level, she gains a {sidekick/familiar}, treating her character level as her effective witch level.",
+			"",
+			"***Hex:*** At 7th level, she gains a [hex](ability/hexes) of her choice as a 1st-level witch. If she chooses the slumber hex, it can affect only creatures with Hit Dice less than or equal to her character level.",
+			"",
+			"***Cantrip:*** At 11th level, if she has an Intelligence score of 10 or higher, she chooses a witch cantrip and can cast that cantrip as a spell-like ability at will. She uses her character level as the caster level and Intelligence as the cantrip's key ability score.",
+			"",
+			"***Improved Hex:*** At 15th level, she gains a second hex as a 1st-level witch, and her first hex advances as if she were an 8th-level witch.",
+			"",
+			"***Major Hex:*** At 19th level, she gains a major hex as a 10th-level witch. She cannot gain the ice tomb hex."
+		],
+		"parent_topics": [
+			"optional_pc_advancement_changes",
+			"variant_multiclassing",
+			"base_classes_pu"
+		],
+		"siblings": [
+			"alchemist",
+			"cavalier",
+			"gunslinger",
+			"inquisitor",
+			"magus",
+			"oracle",
+			"summoner",
+			"witch"
+		]
+	},
+	"optional_alignment_changes": {
+		"name": "Optional Alignment Changes",
+		"subtopics": [
+			"alignment_pu",
+			"changing_alignment_ucp",
+			"removing_alignment"
+		],
+		"description": [
+			"These topics cover optional changes to the alignment rules."
+		]
+	},
+	"alignment_pu": {
+		"name": "Alignment as a Storytelling Mechanic",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/95}",
+			"",
+			"Many campaigns treat alignment mechanically - as a class prerequisite, a rough concept of moral standing (often open to much bickering and debate), and a benchmark for letting you know what weapons and spells to avoid. Others treat it with more reverence, with each player delving deeply into her character's alignment and the PCs becoming exemplars of their respective moral philosophies.",
+			"",
+			"The following variant system treats alignment as a storytelling mechanic, giving you guidance on creating challenges, tracking shifts, and presenting rewards to those who champion their alignments appropriately.",
+			"",
+			"For each character in the campaign, you'll need a copy of the alignment diagram reproduced below as Tables 3-1. Whether the characters' positions are tracked by the GM or the players is up to you. There are two general ways you can start using this system. The first is the relative alignment method, which starts a character at neutral on both axes (or as near to neutral as his class's starting alignment allows). Alternatively, you can use the standard alignment method, which allows each character to start with the alignment he wants, though he will begin closely bordering neutral and must work to fulfill the true ethos of his chosen alignment. The basic principles for each method are detailed below.",
+			"",
+			"***Relative Alignment:*** In the relative alignment method, many, if not most, characters start out as truly neutral on both axes of the alignment charts (the number 5 position on both the law/chaos axis and the good/evil axis). If a character's starting class has an alignment restriction, the character starts at the nearest border to the neutral range on those charts as she can without breaking the class's alignment restriction. For instance, a monk would start at the 3 position on the law/chaos axis, but would still start at the 5 position on the good/evil axis. A paladin, on the other hand, would start at the 3 position on both axes.",
+			"",
+			"This method makes moral conflicts dangerous for low-level characters. For a character who must adhere to a specific alignment ethos to keep certain abilities or progress in her class, an early slip might have her searching for an atonement or rethinking her chosen career path.",
+			"",
+			"***Standard Alignment:*** The standard path is less restrictive than the relative method. A player chooses his character's alignment normally, and the character is positioned on the chart within that alignment but as close to the border of neutral as possible (either the 3 or the 7 position on each axis). If the player chooses neutral on either axis, then the character starts right in the middle (the 5 position) on that axis.",
+			"",
+			"This method can also make early levels and moral conflicts precarious, but it does make it easier to stay on track and gain the rewards allowed later on.",
+			"",
+			"### Tables 3-1: Changing Alignment",
+			"",
+			"| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |",
+			"| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+			"| Lawful | Lawful | Lawful | Neutral | Neutral | Neutral | Chaotic | Chaotic | Chaotic |",
+			"| Good | Good | Good | Neutral | Neutral | Neutral | Evil | Evil | Evil |"
+		],
+		"parent_topics": [ "optional_alignment_changes" ],
+		"subtopics": [
+			"moral_challengers_and_dilemmas",
+			"timing_and_focus",
+			"shifts_and_affirmations",
+			"going_cosmic",
+			"alignment_feats"
+		],
+		"siblings": [
+			"alignment_pu",
+			"changing_alignment_ucp",
+			"removing_alignment"
+		]
+	},
+	"moral_challengers_and_dilemmas": {
+		"name": "Moral Challengers and Dilemmas",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/95}",
+			"",
+			"During the course of play, characters fight monsters, find treasure, and decide to take the left fork or the right, but there are other choices that come up in a game as well: moral choices. In most games, these choices are fairly straightforward. Do you help vanquish an ancient evil from the kingdom? Do you stop the raiders from pillaging? Do you put down the hungry troll raiding far-flung hamlets? Without mitigating circumstances, all of these can be seen as good (and probably lawful) moral choices, and can count as such when you are using this system. But this system really shines when the choices are not nearly so clear-cut.",
+			"",
+			"Real moral conflict occurs through either moral challenges or moral dilemmas. A moral challenge occurs when something assumed to be a clear moral path is shown to be false or more complicated, requiring the characters to reevaluate based on the new information. What do characters do when they find out the ancient evil threatening the kingdom is actually a rebellion trying to feed the poor? What if the raiders are hill people who were displaced by a dragon and are just trying to survive? Perhaps that troll is seeking revenge for the slaughter of its mate and children by the hamlet-dwellers. What the characters do in these situations, and their reasoning for their actions, may cause individuals to shift on either of the alignment axes.",
+			"",
+			"Consider, for instance, a situation in which a group of characters is tasked by a monarch with ridding the kingdom of an ancient order of cultists threatening the status quo. The act of taking the monarch's quest poses no real moral challenges or dilemmas, and thus does not have a chance to push a characters' alignment in any direction on the two spectrums, though an argument could be made that the characters' obedience to their monarch might be an intrinsically lawful act. But for the moment, let's assume the characters are being amply rewarded for such a quest (as they usually are), so unless a particularly lawful-minded character turns down such rewards, the characters can be seen as pursuing their own self-interest, which is intrinsically neutral within this system. Through the course of their quest against the disruptive cult, the characters find that while the cult is indeed working to undermine the monarch, its reasons for doing so are not even remotely evil. The cult is chaotic, yes, but good, and it seeks to throw down the status quo as a way of relieving the social injustices the ultra-lawful king pursues to keep his power nearly absolute.",
+			"",
+			"What do the characters do? If they blindly follow the monarch's commands, and even find themselves agreeing with the throne's more draconian methods for keeping the peace, they will slide toward the lawful side. Depending on their level of support for some particularly heartless policies, they might also drift toward the evil side of the spectrum. If they throw in their lot with the cult and actively fight their former employer, they'll shift more toward the chaotic end of that spectrum, and depending on their motivations, they could also drift toward either end on the good/evil axis. These are not the only options, of course! The characters could try to get one or both sides to recognize the concerns of the other. This would be the ultimate peacemaker role and, if accomplished, would be a major victory for the good of the kingdom as a whole (and thus a large shift toward good on that axis). It is possible they could also play the sides against one another, pushing them into a deeper and more bitter conflict, then take advantage of the power vacuum created by such strife, which would be evil and probably also chaotic.",
+			"",
+			"Regardless of the outcome, it is only in moral conflict that characters have a chance to make decisions about competing moral goals on both the good/evil and law/chaos axes, and it is those kinds of challenges this system requires.",
+			"",
+			"More difficult to design, and often harder to adjudicate, is the moral dilemma. Moral dilemmas are like challenges, but they contain moral paradoxes, meaning there is never a clear solution, and the PCs must struggle to find the solution that is best for them. A group of adventurers sworn to protect the king and the royal line finds out that the king is a power-hungry demoniac who is opening a gate to the Abyss, and the only way to stop the plan is regicide. Killing the king would mean a bloody civil war, and the characters would be branded as traitors. Not killing the king, though, could lead to deeper suffering, or force the PCs to try to defeat an army of demons before the fiends tear the kingdom apart. The adventurers must decide the best course of action when neither is optimal. Naturally, the point in these situations is not to make the \"right\" decision, but to see what decision the characters make, and adjust their alignments based on that decision."
+		],
+		"parent_topics": [
+			"optional_alignment_changes",
+			"alignment_pu"
+		],
+		"siblings": [
+			"moral_challengers_and_dilemmas",
+			"timing_and_focus",
+			"shifts_and_affirmations",
+			"going_cosmic",
+			"alignment_feats"
+		]
+	},
+	"timing_and_focus": {
+		"name": "Timing and Focus",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/97}",
+			"",
+			"Nearly every adventure has the potential for moral conflicts, but you should be careful not to spring them on your players too often; otherwise you risk creating conflict fatigue or lessening the dramatic impact. While moral conflict can be a fun and thought-provoking part of a campaign, remember that some players like to focus on more concrete aspects of the game, and the best sessions often feature a diverse selection of moral, strategic, and tactical challenges. Moral challenges are often nuanced, and moral dilemmas can be frustrating with their \"damned if you do, damned if you don't\" nature. Both can be just as stressful as a challenging battle, and can ramp up tensions at the table - for better or worse.",
+			"",
+			"In addition, oversaturating a game with moral challenges and dilemmas may have the unwanted effect of cheapening them. Try to think of these conflicts as something akin to the classic \"boss fight\" in a combat-oriented game: a momentous occasion of great struggle, as opposed to the more common nuisance of a trap, which can be foiled quickly once the mechanism is understood. Consider limiting these types of challenges to once per character level, at most. Some groups may thirst for more, and you should give them what they want, but once per level is a good place to start.",
+			"",
+			"While it may be fun to constantly challenge strongly aligned individuals, try to create moral challenges that the whole group can participate in. In these situations, characters will act as individuals and put forward many points of view and desired actions. This inter-character strife is often enough to create the framework for spin-off moral challenges, and give individuals the opportunity for alignment shifts and affirmations through interactions with other party members. Be ready to assimilate such spontaneous moral challenges and gauge them as appropriate. Even more so than the moral challenges you design into your campaign, these interactions can be visceral and fulfilling to players because they come from natural character interaction."
+		],
+		"parent_topics": [
+			"optional_alignment_changes",
+			"alignment_pu"
+		],
+		"siblings": [
+			"moral_challengers_and_dilemmas",
+			"timing_and_focus",
+			"shifts_and_affirmations",
+			"going_cosmic",
+			"alignment_feats"
+		]
+	},
+	"shifts_and_affirmations": {
+		"name": "Shifts and Affirmations",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/97}",
+			"",
+			"When faced with a moral challenge or dilemma, use each character's response to inform whether he or she gains a shift or an affirmation. It's up to the GM to judge whether a response warrants a shift on the alignment axes. Often, this will be easy: Did a character act in a selfish and uncaring manner? That may cause a shift toward evil on the good/evil axis. Did the character uphold the law of the land over the rights of its citizens? That may cause a shift toward the lawful side of the law/chaos axis. Particularly severe actions may warrant a 2-step shift. However, you should never allow more than a 2-step shift for a single action. As the GM, the final decision is yours, but keep in mind that players may disagree with your initial judgments. Allow them to appeal your decision. Take their arguments seriously, and don't be afraid to change your mind.",
+			"",
+			"Early in a campaign, you will likely have many shifts as the moral dimensions of characters take shape. Later, as those moral characteristics start to gel, some characters will settle at the extreme ends on one or both of the alignment axes. At this point, they'll likely commit acts that support their alignments, but since they're already settled on one or more extreme ends of the alignment axes, there will be no movement on the charts. In these cases, the character is awarded one or two affirmations - small, temporary benefits keyed to the affirmed alignment - based on how many steps you think the action would otherwise have shifted the alignment. A character can spend an affirmation she has gained once within the next 24 hours; any affirmations not spent within that time disappear. Spending an affirmation is usually not an action, but a character must be conscious to do so. The following are benefits gained by spending affirmations.",
+			"",
+			"***Chaotic:*** When attempting a Reflex or Will save, you can spend a chaotic affirmation to roll twice and take the higher result. If you already have an ability that allows you to roll twice and take the higher result, you can spend this affirmation to gain a +2 bonus on both rolls instead.",
+			"",
+			"***Evil:*** You can spend an evil affirmation to gain a +2 bonus on the damage dealt to or healed for all targets when you use an inflict spell or channel negative energy, or you gain a +4 bonus on a single weapon damage roll you make in pursuit of your own desires.",
+			"",
+			"***Good:*** You can spend a good affirmation to gain a +2 bonus on the damage dealt to or healed for all targets when you use a cure spell or channel positive energy, or you can impose a -4 penalty on the damage roll of a weapon attack made against one of your allies or an innocent.",
+			"",
+			"***Lawful:*** You can spend a lawful affirmation to gain a +4 bonus to AC against a single attack. You must choose to spend this affirmation before the attack roll is made.",
+			"",
+			"Note that neutral characters do not gain affirmations - this is because neutral characters already have the advantage of not being targetable by alignment-based spells and effects.",
+			"",
+			"As players advance in level and become more invested in the system, feel free to create your own affirmations based on a particular character's emergent moral dimensions. For instance, if one of your players is a paladin of Torag, it's reasonable to allow her to use a lawful affirmation to grant an adjacent ally her bonus to AC. You can also design your own affirmations based on the action that led to the affirmation."
+		],
+		"parent_topics": [
+			"optional_alignment_changes",
+			"alignment_pu"
+		],
+		"siblings": [
+			"moral_challengers_and_dilemmas",
+			"timing_and_focus",
+			"shifts_and_affirmations",
+			"going_cosmic",
+			"alignment_feats"
+		]
+	},
+	"going_cosmic": {
+		"name": "Going Cosmic",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/98}",
+			"",
+			"Morality and alignment in Pathfinder are about more than just everyday actions. When you truly pledge yourself to an alignment, you become part of a timeless struggle of ideas that transcends mortal life and the physical world, a conflict so vast and eternal that the gods themselves are caught up in the fracas. As characters increase in level and power, they can play correspondingly larger roles in these cosmic struggles.",
+			"",
+			"These larger ideological battles also involve moral challenges as already outlined, but the individuals participating in them tend to be powerful extraplanar beings like angels, demons, proteans, and inevitables' creatures that in many ways exist as physical manifestations of their alignments."
+		],
+		"parent_topics": [
+			"optional_alignment_changes",
+			"alignment_pu"
+		],
+		"siblings": [
+			"moral_challengers_and_dilemmas",
+			"timing_and_focus",
+			"shifts_and_affirmations",
+			"going_cosmic",
+			"alignment_feats"
+		]
+	},
+	"alignment_feats": {
+		"name": "Alignment Feats",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/98}",
+			"",
+			"As characters enter the larger cosmic struggles of morality and alignment, they are able to gain new tools to help them champion their philosophies.",
+			"",
+			"[Alignment Feats](main/feats): If you have at least 10 Hit Dice, you can take any alignment feat that matches your alignment. You cannot have more than one alignment feat at any time, but after changing alignment, when you reach a new character level, you can freely switch your alignment feat to your new alignment's feat. Most alignment feats have a Residual entry that allows you to benefit from some part of the feat even when you no longer meet the alignment prerequisite for the feat, usually aiding you in a small way to regain that alignment. Most alignment feats also allow you to store [affirmations](rule/shifts_and_affirmations) for later use. If you shift alignment and no longer have the ability to store affirmations, any affirmations stored by that feat are lost."
+		],
+		"parent_topics": [
+			"optional_alignment_changes",
+			"alignment_pu"
+		],
+		"siblings": [
+			"moral_challengers_and_dilemmas",
+			"timing_and_focus",
+			"shifts_and_affirmations",
+			"going_cosmic",
+			"alignment_feats"
+		]
+	},
+	"changing_alignment_ucp": {
+		"name": "Changing Alignment",
+		"subtitle": "Mastering Campaigns, Gamemastery",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"{SOURCE Ultimate Campaign/136}",
+			"",
+			"Over time, a character might become disillusioned and drift toward a different alignment. This section describes an optional system for tracking incremental changes to a character's alignment.",
+			"",
+			"Every character has a 9-point scale for the lawful-chaotic alignment axis (see Table 3-1), with 1, 2, and 3 representing lawful, 7, 8, and 9 representing chaotic, and the rest representing neutral. Each character has a similar scale for the good-evil alignment axis, with 1, 2, and 3 representing good and 7, 8, and 9 representing evil.",
+			"",
+			"The player decides where the character's alignment is on the alignment track. For example, a mischievous rogue with a good heart may be a 7 on the lawful-chaotic axis and an 2 on the good-evil axis: a chaotic good character who is more good than chaotic. A cruel but honorable knight could be a 1 on the lawful-chaotic axis and a 7 on the good-evil axis, a lawful evil character who is far more lawful than evil.",
+			"",
+			"When a character performs an action that is out of character for his listed alignment, the GM decides whether the action is enough to shift the character's alignment on the appropriate alignment track, and if so by how much. Executing a captured orc combatant so the PCs don't have to haul it to a distant prison may only be 1 step toward evil; torturing a hostage for information may be 2 steps. For minor infractions, the GM can just issue a warning that further actions will cause a shift on the alignment track. Extreme, deliberate acts, such as burning down an orphanage full of children just for the fun of it, should push the character fully into that alignment, regardless of the character's original position on the alignment track.",
+			"",
+			"When a character's position on an alignment track shifts into another alignment (such as from 3 to 4 or 7 to 6), change the character's listed alignment to the new alignment. The character takes a -1 penalty on attack rolls, saving throws, and checks because of guilt, regrets, or bad luck associated with abandoning his previous ethics. After 1 week, this penalty goes away. Note that the character is still \"on the border\" of his previous alignment, and later actions could make him shift back to his previous alignment, with a repeat of the 1-week penalty, so after an alignment change, it is in the character's best interest to act in accordance with that new alignment, embracing his new beliefs and philosophy. This penalty is in addition to any other consequences of changing alignment (such as becoming an ex-cleric or ex-paladin).",
+			"",
+			"The mechanism for strengthening a character's position within a particular section of the alignment track requires greater effort than acting out of character. A person who is a little bit good (3) has to work hard to become very good (1); even a lifetime of mildly good acts is insufficient. If a character makes a great effort toward promoting or maintaining that alignment, the GM should decide whether that merits a shift toward one of the \"safest\" points on the alignment track (1, 5, and 9) where most out-of-alignment acts don't risk an immediate alignment change. This helps prevent players from gaming the system by offsetting minor evil acts with an equivalent number of minor good acts to remain within the good section of the good-evil alignment axis.",
+			"",
+			"A forced alignment change, such as from a {magic-wondrous/helm of opposite alignment}, shifts a character's position on each alignment track to the corresponding opposite position (1 becomes 9, 2 becomes 8, and so on); a true neutral character jumps to an extreme point on both alignment tracks (1/1, 1/9, 9/1, or 9/9). Unlike a deliberate alignment change, a forced alignment change does not incur the normal 1-week penalty on attack rolls, saving throws, and checks.",
+			"",
+			"Using an {spell/atonement} spell moves the character's position on the alignment track the minimum amount to return the character to his previous alignment. For example, a fallen paladin using {spell/atonement} to become good again shifts her position on the good-evil track to 3, even if she originally was at 2 or 1. The spell is a means of reversing the worst of an indiscretion, not for gaining a safe buffer within an alignment zone on the track, and this gives the character an incentive to work toward entrenching herself within the tenets of the restored alignment. Using the \"reverse magical alignment change\" option of {spell/atonement} does not give the target the normal alignment-change penalty on attack rolls, saving throws, and checks, but accepting the \"redemption or temptation\" option does.",
+			"",
+			"A GM who wants a grittier campaign or more flexibility in changing alignment can alter the size of the alignment zones (where everything but 1 and 9 are neutral), use a scale with more than 9 points to allow more granularity when quantifying alignment acts, or create transition areas between the alignment zones where characters can slowly change alignment without penalty.",
+			"",
+			"### Table 3-1: Changing Alignment",
+			"",
+			"| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |",
+			"| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+			"| Lawful | Lawful | Lawful | Neutral | Neutral | Neutral | Chaotic | Chaotic | Chaotic |",
+			"| Good | Good | Good | Neutral | Neutral | Neutral | Evil | Evil | Evil |",
+			"",
+			"### Forced Alignment Change",
+			"",
+			"When a forced alignment change is purely arbitrary (such as from a curse or magic item), some players look upon this change as a chance explore the character acting in a different way, but most players prefer the character's original concept and want it to return to normal as soon as possible. GMs should avoid overusing forced alignment changes or make them only temporary (such as a scenario where the characters are dominated by an evil entity and are freed once the entity has accomplished a particular goal). Remember that if players wanted to play characters of other alignments, they would have asked to play them, and radical shifts ruin many character concepts.",
+			"",
+			"Some classes lose class abilities when a character changes alignments. Alignment changes may be interesting for a short adventure, such as freeing a monk from the curse of a chaotic monkey god, but these situations should be unusual. For some characters, changing alignment is a character-altering concept akin to destroying a wizard's spellbook or amputating an archer's arm: the scars are long-lasting, hard to reverse, and end up punishing the player."
+		],
+		"parent_topics": [ "optional_alignment_changes" ],
+		"siblings": [
+			"alignment_pu",
+			"changing_alignment_ucp",
+			"removing_alignment"
+		]
+	},
+	"removing_alignment": {
+		"name": "Removing Alignment",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/100}",
+			"",
+			"Alignment is a cornerstone of the Pathfinder Roleplaying Game. In its most useful form, alignment is a shorthand to help players learn more about their characters' personalities. But sometimes you may want to play in a world where there is no absolute good and evil. Perhaps the only lord willing to send troops to aid the PCs' fight against an undead horde is an oppressive dictator who will use the situation to further his own power and oppress his subjects - but without his help, everyone will die. Or the PCs must face an infernal foe, but the only available way to take him down is to imbue themselves with demonic power.",
+			"",
+			"In the following rules variant, the PCs can test their convictions against impossible situations and make decisions without players feeling constrained by the mechanical consequences their characters will suffer if their alignments change. Alignment is replaced by a new character aspect called loyalties, and class alignment restrictions are redefined in those terms. Several options for handling alignment-dependent spells and effects are presented here."
+		],
+		"parent_topics": [ "optional_alignment_changes" ],
+		"subtopics": [
+			"loyalties",
+			"classes_pu",
+			"creatures_spells_and_effects"
+		],
+		"siblings": [
+			"alignment_pu",
+			"changing_alignment_ucp",
+			"removing_alignment"
+		]
+	},
+	"loyalties": {
+		"name": "Loyalties",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/100}",
+			"",
+			"When you use the loyalties system to build a character, whether a PC or an NPC, decide on three loyalties. These can represent ideals, people, organizations, or anything else to which the character is loyal, and might be as abstract as \"my honor\" or as concrete as \"my beloved mother.\" Rank these loyalties from strongest to weakest. One easy way to decide the order is to ask yourself what your character would do if these loyalties came into conflict. For a more simplified game, you could use one or two loyalties. These loyalties then replace alignment as the standard by which characters' actions are measured.",
+			"",
+			"During play, a character might take an action that causes him to change loyalties, just as a character in a game with alignment might have to change alignment. Whether this has any mechanical impact depends on how the GM has chosen to deal with loyalty-based restrictions and effects."
+		],
+		"parent_topics": [
+			"optional_alignment_changes",
+			"removing_alignment"
+		],
+		"siblings": [
+			"loyalties",
+			"classes_pu",
+			"creatures_spells_and_effects"
+		]
+	},
+	"classes_pu": {
+		"name": "Classes",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/100}",
+			"",
+			"Certain classes depend on alignment features. Below is a list of changes you'll need to make to the classes from the Pathfinder RPG Core Rulebook if you decide not to use alignment - you can use these as a guideline to change other classes as well. These assume that you've replaced the default alignment system with the aligned loyalties option outlined below under Creatures, Spells, and Effects - if you have gone further and removed even these basic alignment elements (as in the subjective morality option), then ignore all references to loyalty restrictions in the classes below.",
+			"",
+			"***Barbarian:*** Remove the alignment restriction. A barbarian may not have a loyalty to law, order, or any similar concepts.",
+			"",
+			"***Cleric:*** Remove the alignment restriction. Clerics must have a loyalty to their deity, though not necessarily to a church hierarchy or other clergy. Remove the restriction against casting spells of certain alignments (since such spells no longer exist), but create a list of spells that each deity would ban based on his or her portfolio and personality. For instance, the neutral good deity Iomedae would not tolerate spells involving consorting with outsiders from the Lower Planes. Remove the Chaos, Good, Evil, and Law domains from all deities' lists, and replace them with appropriate domains so each deity has the same number of domains.",
+			"",
+			"***Druid:*** Remove the alignment restriction. Druids must have a loyalty involving nature or the druidic code of conduct.",
+			"",
+			"***Monk:*** Remove the alignment restriction. A monk who ever has a loyalty to chaos, imbalance, or closely related concepts becomes an ex-monk for as long as he has those loyalties.",
+			"",
+			"***Paladin:*** Remove the class's alignment restriction. The paladin's code of conduct becomes \"A paladin's code requires that she respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help in a way that betrays any of the paladin's loyalties), and punish those who harm or threaten innocents.\" Remove the Associates section under the code of conduct. A paladin must have a loyalty to the concept of good, and most paladins also have loyalty to a deity. For changes to the paladin's {spell/detect evil} ability, see the Creatures, Spells, and Effects section, below. Creatures whose loyalties are in opposition to the paladin's gain no benefit from the paladin's aura of justice ability.",
+			"",
+			"The paladin's smite evil ability works against any foe whose loyalties are directly contrary to the paladin's highest loyalty. She can also recover one use of smite if she accidentally smites an invalid target. She can do this a number of times per day equal to her maximum uses per day of smite. This means the paladin isn't punished for having to guess, but she also can't use her smite class feature on every opponent as a de facto loyalty detector. If the paladin's highest loyalty is to good, she can smite foes with a loyalty to evil, but if her highest loyalty is to her king, her smite might instead apply to foes with loyalties to the jealous baron's rebellion. The GM has the final say on how the ability works, since only the GM knows the NPCs' true loyalties - a mercenary who works for a cause might not have a loyalty to that cause, for example. The GM can decide to simply have smite work only on foes with a loyalty to evil, or to require the paladin's highest loyalty be to the concept of good."
+		],
+		"parent_topics": [
+			"optional_alignment_changes",
+			"removing_alignment"
+		],
+		"siblings": [
+			"loyalties",
+			"classes_pu",
+			"creatures_spells_and_effects"
+		]
+	},
+	"creatures_spells_and_effects": {
+		"name": "Creatures, Spells, and Effects",
+		"subtitle": "Unchained",
+		"sources": [ "Pathfinder Unchained" ],
+		"description": [
+			"{SOURCE Pathfinder Unchained/100}",
+			"",
+			"Many spells and effects rely on alignment, such as {spell/detect evil}, {magic-enhancement/holy} weapons, and {spell/blasphemy}. Below are five suggested options for dealing with these abilities.",
+			"",
+			"***Full Removal:*** You can remove alignment-based spells and effects entirely. Consider replacing monster spell-like abilities with others of similar power. You'll need to replace other abilities that affect creatures of particular alignments (such as the heavenly fire ability of a sorcerer with the [celestial bloodline](sorcererbloodline/celestial)) or restrict character options to avoid such abilities.",
+			"",
+			"***Aligned Loyalties:*** You can allow alignment-based effects to instead apply to characters who have loyalties to the concepts of chaos, evil, good, or law (or any concept close enough).",
+			"",
+			"***Outsiders Only:*** You can keep the alignment subtypes for outsiders and allow alignment-based effects to apply only to them. In this style of game, mortals live in a world with shades of gray, but true evil does still exist in the multiverse in the hearts of daemons, demons, devils, and the other evil outsiders.",
+			"",
+			"***Radiant and Shadow:*** You can instead have alignment-based effects apply to everyone, or nearly everyone. Remove the alignments and replace \"good\" and \"evil\" with stand-ins that lack moral implications, such as \"radiant\" and \"shadow.\" These are then treated as simply two more forms of energy that exist in the world, and any creature can wield a weapon that deals radiant or shadow damage. You'll need to make appropriate changes, such as changing DR 5/good to DR 5/ radiant, making {magic-enhancement/unholy} weapons shadow weapons, and so on. Creatures that were once strongly defined by their alignment become more unpredictable. Maybe some angels are just as corrupt as devils, despite their celestial forms, and the PCs must team up with a noble demon and wield shadow weapons to defeat their foe. You can choose to grant certain creatures immunity; for instance, perhaps angels don't take radiant damage from radiant weapons or radiant smite, the stand-ins for holy weapons and {spell/holy smite}.",
+			"",
+			"***Subjective Morality:*** You can make your world extremely complex by replacing all alignment-based effects with subjective morality based on loyalties. In this kind of game, everyone is the hero of his own story, and the only alignment-based items and spells that exist are the ones named after the good alignment (such as holy weapons and {spell/holy word}) plus {spell/detect evil}. However, these effects apply not to good in the usual sense, but instead depend on the loyalties of their users. When someone uses {spell/detect evil}, it detects others who have loyalties that oppose the caster's. When a character wields a holy weapon, it deals extra damage to those with conflicting loyalties, and so on. It's up to the GM to decide when loyalties conflict. For instance, if a magus decides that his primary loyalty is to himself, he could not reasonably claim that everything that ever attacks him has a conflicting loyalty, but an enemy who constantly abused him in the past would have a conflicting loyalty. Against this enemy, the magus's holy attacks would strike true. This world might even do away with the idea of loyalties to the concept of good and allow paladins and antipaladins alike to use the paladin class and smite each other. Since even outsiders no longer have an alignment subtype, you'll need to add other subtypes to the list of choices for abilities such as {magic-enhancement/bane} or a ranger's favored enemy class feature. This covers subtypes such as demon or devil, but some outsiders have no non-alignment subtype. If you want such creatures to be subject to these abilities, you could lump them together under a new subtype (such as \"independent\"), or add subtypes on a case-by-case basis - the astral leviathan might have the \"astral\" subtype, for example."
+		],
+		"parent_topics": [
+			"optional_alignment_changes",
+			"removing_alignment"
+		],
+		"siblings": [
+			"loyalties",
+			"classes_pu",
+			"creatures_spells_and_effects"
+		]
+	}
+}

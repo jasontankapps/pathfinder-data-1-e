@@ -59,6 +59,7 @@ const AspectPage = lazy(() => import("./pages/AspectPage"));
 const BlessingPage = lazy(() => import("./pages/BlessingPage"));
 const BloodragerBloodlinePage = lazy(() => import("./pages/BloodragerBloodlinePage"));
 const CompanionPage = lazy(() => import("./pages/CompanionPage"));
+const ConstructModPage = lazy(() => import("./pages/ConstructModPage"));
 const CorruptionPage = lazy(() => import("./pages/CorruptionPage"));
 const CursePage = lazy(() => import("./pages/OracleCursePage"));
 const DisciplinePage = lazy(() => import("./pages/DisciplinePage"));
@@ -137,6 +138,7 @@ const App: FC = () => {
 							"/disease/:id",
 							"/infestation/:id"
 						]} render={() => <Suspense fallback={<Loading />}><AfflictionPage /></Suspense>} />
+						<Route path="/constructmod/:id" render={() => <Suspense fallback={<Loading />}><ConstructModPage /></Suspense>} />
 						<Route path="/discipline/:id" render={() => <Suspense fallback={<Loading />}><DisciplinePage /></Suspense>} />
 						<Route path="/domain/:id" render={() => <Suspense fallback={<Loading />}><DomainPage /></Suspense>} />
 						<Route path="/drug/:id" render={() => <Suspense fallback={<Loading />}><DrugPage /></Suspense>} />
@@ -178,7 +180,6 @@ const App: FC = () => {
 						<Route path="/monster/:id" render={() => <MonsterPage />} />
 						<Route path="/mystery/:id" render={() => <Suspense fallback={<Loading />}><MysteryPage /></Suspense>} />
 						<Route path={[
-							"/constructmod/:id",
 							"/magic-altar/:id",
 							"/magic-augmentation/:id",
 							"/magic-favor/:id",

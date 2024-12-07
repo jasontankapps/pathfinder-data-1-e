@@ -1044,7 +1044,6 @@
 				"**Skip to:**",
 				"",
 				"- [Altars](#altars)",
-				"- [Construct Modifications](#constructmods)",
 				"- [Demonic Implants](#implants)",
 				"- [Devil Talismans](#talismans)",
 				"- [Elemental Augmentation](#augmentations)",
@@ -1091,12 +1090,6 @@
 				"An altar is otherwise like any other permanent magic item and can be crafted with additional abilities, be intelligent, and so on.",
 				"",
 				"{table0}"
-			],
-			"# Construct Modifications ! constructmods",
-			[
-				"Detailed information on construct modifications [can be found here.](rule/construct_modifications)",
-				"",
-				"{table5}"
 			],
 			"# Demonic Implants ! implants",
 			[
@@ -1513,45 +1506,6 @@
 					[ [ "magic-tattoo/weapon_tattoo", "Weapon Tattoo" ], 10000 ]
 				],
 				"initialColumn": 0,
-				"className": "simple"
-			},
-			{
-				"id": "construct mods table",
-				"headers": [ "Construct Mod", "Type", "Cost" ],
-				"types": [ null, null, "gp" ],
-				"ripples": [0],
-				"data": [
-					[ [ "constructmod/ability_score_increase", "Ability Score Increase" ], "Basic", 5000 ],
-					[ [ "constructmod/armor_modification", "Armor Modification" ], "Basic", [0, "&mdash;"] ],
-					[ [ "constructmod/hit_dice_modification", "Hit Dice Modification" ], "Basic", [0, "&mdash;"] ],
-					[ [ "constructmod/movement_modification", "Movement Modification" ], "Basic", [0, "&mdash;"] ],
-					[ [ "constructmod/resistances", "Resistances" ], "Basic", [0, "&mdash;"] ],
-					[ [ "constructmod/sense_modifications", "Sense Modifications" ], "Basic", [0, "&mdash;"] ],
-					[ [ "constructmod/spell_like_ability_modification", "Spell-Like Ability Modification" ], "Basic", [0, "&mdash;"] ],
-					[ [ "constructmod/weapon_modification", "Weapon Modification" ], "Basic", [0, "&mdash;"] ],
-					[ [ "constructmod/alarm_link", "Alarm Link" ], "Complex", 250 ],
-					[ [ "constructmod/frost_mist_stash_shatter_stash", "Frost Mist Stash (Shatter Stash)" ], "Complex", 1000 ],
-					[ [ "constructmod/corrosive_jet_stash_shatter_stash", "Corrosive Jet Stash (Shatter Stash)" ], "Complex", 1200 ],
-					[ [ "constructmod/firebomb_stash_shatter_stash", "Firebomb Stash (Shatter Stash)" ], "Complex", 1200 ],
-					[ [ "constructmod/lightning_lash_stash_shatter_stash", "Lightning Lash Stash (Shatter Stash)" ], "Complex", 1200 ],
-					[ [ "constructmod/rune_of_shielding_rune_carved", "Rune of Shielding (Rune Carved)" ], "Complex", 1200 ],
-					[ [ "constructmod/self_repair", "Self-Repair" ], "Complex", 1500 ],
-					[ [ "constructmod/rune_of_lightning_rune_carved", "Rune of Lightning (Rune Carved)" ], "Complex", 2000 ],
-					[ [ "constructmod/willsap_gas_stash_shatter_stash", "Willsap Gas Stash (Shatter Stash)" ], "Complex", 2000 ],
-					[ [ "constructmod/self_destruct", "Self-Destruct" ], "Complex", 3570 ],
-					[ [ "constructmod/crafters_eyes", "Crafter's Eyes" ], "Complex", 8000 ],
-					[ [ "constructmod/rune_of_terror_rune_carved", "Rune of Terror (Rune Carved)" ], "Complex", 11200 ],
-					[ [ "constructmod/construct_shelter", "Construct Shelter" ], "Complex", 11250 ],
-					[ [ "constructmod/construct_storage", "Construct Storage" ], "Complex", 11250 ],
-					[ [ "constructmod/mind_link", "Mind Link" ], "Complex", 16500 ],
-					[ [ "constructmod/rune_of_agony_rune_carved", "Rune of Agony (Rune Carved)" ], "Complex", 18000 ],
-					[ [ "constructmod/bioconstruct_modification", "Bioconstruct Modification" ], "Complex", 22750 ],
-					[ [ "constructmod/construct_limb", "Construct Limb" ], "Complex", 27000 ],
-					[ [ "constructmod/construct_armor", "Construct Armor" ], "Complex", 35000 ],
-					[ [ "constructmod/rune_of_imprisonment_rune_carved", "Rune of Imprisonment (Rune Carved)" ], "Complex", 57600 ]
-				],
-				"initialColumn": 1,
-				"nullValue": "See Text",
 				"className": "simple"
 			}
 		],

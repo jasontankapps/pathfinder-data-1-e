@@ -7,7 +7,7 @@ import './Page.css';
 
 const hierarchy: HierarchyArray = [
 	["Main", "main/main"],
-	["Gamemastering", "rule/gamemastering"],
+	["GM: Specific Campaigns", "rule/gm_specific_campaigns"],
 	["Horror Rules", "rule/horror_rules"],
 	["Madness", "rule/madness"]
 ];
