@@ -148,6 +148,8 @@ import classes3 from './json/classes3.json' assert {type: 'json'};
 import classes4 from './json/classes4.json' assert {type: 'json'};
 import classes5 from './json/classes5.json' assert {type: 'json'};
 import classes6 from './json/classes6.json' assert {type: 'json'};
+import classes7 from './json/classes7.json' assert {type: 'json'};
+import classes8 from './json/classes8.json' assert {type: 'json'};
 import equipmentmisc1 from './json/equipment_misc.json' assert {type: 'json'};
 import equipmentmisc2 from './json/equipment_misc2.json' assert {type: 'json'};
 import equipmentmisc3 from './json/equipment_misc3.json' assert {type: 'json'};
@@ -264,6 +266,7 @@ import monster38 from './json/monsters38.json' assert {type: 'json'};
 import monster39 from './json/monsters39.json' assert {type: 'json'};
 import monster40 from './json/monsters40.json' assert {type: 'json'};
 import monster41 from './json/monsters41.json' assert {type: 'json'};
+import monster42 from './json/monsters42.json' assert {type: 'json'};
 import monsteru1 from './json/monsters_unique.json' assert {type: 'json'};
 import monsteru2 from './json/monsters_unique2.json' assert {type: 'json'};
 import monsteru3 from './json/monsters_unique3.json' assert {type: 'json'};
@@ -323,6 +326,7 @@ import rule33 from './json/rules33.json' assert {type: 'json'};
 import rule34 from './json/rules34.json' assert {type: 'json'};
 import rule35 from './json/rules35.json' assert {type: 'json'};
 import rule36 from './json/rules36.json' assert {type: 'json'};
+import rule37 from './json/rules37.json' assert {type: 'json'};
 import spell1 from './json/spells.json' assert {type: 'json'};
 import spell2 from './json/spells2.json' assert {type: 'json'};
 import spell3 from './json/spells3.json' assert {type: 'json'};
@@ -678,6 +682,15 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
+	"rules37": {
+		data: rule37,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 37,
+		type: "Rules",
+		properties: [ "name" ]
+	},
 	"umr": {
 		data: umr,
 		searchgroup: 12, // rule
@@ -809,6 +822,20 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "class",
 		num: 6,
+		type: "Class"
+	},
+	"classes7": {
+		data: classes7,
+		searchgroup: 1, // classes
+		link: "class",
+		num: 7,
+		type: "Class"
+	},
+	"classes8": {
+		data: classes8,
+		searchgroup: 1, // classes
+		link: "class",
+		num: 8,
 		type: "Class"
 	},
 	"class_abilities": {
@@ -2608,46 +2635,53 @@ const basic_data_groups = {
 		num: 41,
 		type: "Monster"
 	},
+	"monsters42": {
+		data: monster42,
+		searchgroup: 11, // monster
+		link: "monster",
+		num: 42,
+		type: "Monster"
+	},
 	"monsters_unique": {
 		data: monsteru1,
 		searchgroup: 11, // monster
 		link: "monster",
-		num: 42,
+		num: 43,
 		type: "Unique Monster"
 	},
 	"monsters_unique2": {
 		data: monsteru2,
 		searchgroup: 11, // monster
 		link: "monster",
-		num: 43,
+		num: 44,
 		type: "Unique Monster"
 	},
 	"monsters_unique3": {
 		data: monsteru3,
 		searchgroup: 11, // monster
 		link: "monster",
-		num: 44,
+		num: 45,
 		type: "Unique Monster"
 	},
 	"monsters_unique4": {
 		data: monsteru4,
 		searchgroup: 11, // monster
 		link: "monster",
-		num: 45,
+		num: 46,
 		type: "Unique Monster"
 	},
 	"mythic_monsters1": {
 		data: monsterm1,
 		searchgroup: 11, // monster
 		link: "monster",
-		num: 46,
+		num: 47,
 		type: "Mythic Monster"
 	},
 	"mythic_monsters2": {
 		data: monsterm2,
 		searchgroup: 11, // monster
 		link: "monster",
-		num: 47,
+		num: 48,
 		type: "Mythic Monster"
 	},
 	"monster_subtypes": {

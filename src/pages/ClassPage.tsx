@@ -14,6 +14,8 @@ const ClassGroup3Page = lazy(() => import("./ClassGroup3Page"));
 const ClassGroup4Page = lazy(() => import("./ClassGroup4Page"));
 const ClassGroup5Page = lazy(() => import("./ClassGroup5Page"));
 const ClassGroup6Page = lazy(() => import("./ClassGroup6Page"));
+const ClassGroup7Page = lazy(() => import("./ClassGroup7Page"));
+const ClassGroup8Page = lazy(() => import("./ClassGroup8Page"));
 
 const pages = [
 	({id}: {id: string}) => <ClassGroup1Page id={id} />,
@@ -22,6 +24,8 @@ const pages = [
 	({id}: {id: string}) => <ClassGroup4Page id={id} />,
 	({id}: {id: string}) => <ClassGroup5Page id={id} />,
 	({id}: {id: string}) => <ClassGroup6Page id={id} />,
+	({id}: {id: string}) => <ClassGroup7Page id={id} />,
+	({id}: {id: string}) => <ClassGroup8Page id={id} />,
 ];
 
 const ClassPage: React.FC<Params> = () => {

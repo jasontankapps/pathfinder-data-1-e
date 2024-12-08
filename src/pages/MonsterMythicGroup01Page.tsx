@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import monsters from './subpages/__monster46';
+import monsters from './subpages/__monster47';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';

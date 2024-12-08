@@ -47,6 +47,7 @@ const MonsterGroup38Page = lazy(() => import("./MonsterGroup38Page"));
 const MonsterGroup39Page = lazy(() => import("./MonsterGroup39Page"));
 const MonsterGroup40Page = lazy(() => import("./MonsterGroup40Page"));
 const MonsterGroup41Page = lazy(() => import("./MonsterGroup41Page"));
+const MonsterGroup42Page = lazy(() => import("./MonsterGroup42Page"));
 const MonsterUniqueGroup01Page = lazy(() => import("./MonsterUniqueGroup01Page"));
 const MonsterUniqueGroup02Page = lazy(() => import("./MonsterUniqueGroup02Page"));
 const MonsterUniqueGroup03Page = lazy(() => import("./MonsterUniqueGroup03Page"));
@@ -96,6 +97,7 @@ const pages = [
 	({id}: {id: string}) => <MonsterGroup39Page id={id} />,
 	({id}: {id: string}) => <MonsterGroup40Page id={id} />,
 	({id}: {id: string}) => <MonsterGroup41Page id={id} />,
+	({id}: {id: string}) => <MonsterGroup42Page id={id} />,
 	({id}: {id: string}) => <MonsterUniqueGroup01Page id={id} />,
 	({id}: {id: string}) => <MonsterUniqueGroup02Page id={id} />,
 	({id}: {id: string}) => <MonsterUniqueGroup03Page id={id} />,
