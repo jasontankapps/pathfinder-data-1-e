@@ -4511,7 +4511,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** armor of command, +1 full plate; **Cost** -"
+			"**Requirements** {magic-armor/armor of command}, +1 full plate; **Cost** -"
 		]
 	},
 	"constrictor_armor": {
@@ -4574,7 +4574,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** absorbing shield; **Cost** -"
+			"**Requirements** {magic-armor/absorbing shield}; **Cost** -"
 		]
 	}
 }

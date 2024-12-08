@@ -3638,9 +3638,9 @@
 			"| Large town | 2,000 gp | 3d4 items | 2d4 items | 1d4 items |",
 			"| Small city | 4,000 gp | 4d4 items | 3d6 items | 1d6 items |",
 			"| Large city | 8,000 gp | 4d4 items | 3d4 items | 2d4 items |",
-			"| Metropolis | 16,000 gp | &ast; | 4d4 items | 3d4 items |",
+			"| Metropolis | 16,000 gp | &#42; | 4d4 items | 3d4 items |",
 			"",
-			"&ast; In a metropolis, nearly all minor magic items are available."
+			"&#42; In a metropolis, nearly all minor magic items are available."
 		],
 		"parent_topics": [
 			"gamemastery",

@@ -939,11 +939,11 @@
 			"| --- | --- | --- | --- |",
 			"| The first time a character encounters a dead body | 10 | 1d3 sanity damage | 0 sanity damage |",
 			"| The first time a character encounters a gruesome scene of death | 12 | 1d6 sanity damge | 1 sanity damage |",
-			"| The first time a character encounters a horrifying creature&ast; | 10 + CR of the creature | Sanity damage equal to 1/2 the creature's CR | Sanity damage equal to 1/4 the creature's CR |",
+			"| The first time a character encounters a horrifying creature&#42; | 10 + CR of the creature | Sanity damage equal to 1/2 the creature's CR | Sanity damage equal to 1/4 the creature's CR |",
 			"| Each time a character encounters a {subtype/qlippoth} or other creature with a particularly horrific appearance | 10 + CR of the creature | Sanity damage equal to the creature's CR | Sanity damage equal to 1/2 the creature's CR |",
 			"| Each time a character encounters a {family/Great Old One} | 15 + CR of the creature | Sanity Damage equal to double the creature's CR | Sanity damage qual to the creature's CR |",
 			"",
-			"&ast; Horrifying creatures are typically aberrations, evil or chaotic outsiders, and undead. \"Each time\" could mean the first time for each creature type, or each time a creature encounters a new kind of specific creature of that type (for example, the first time a creature encounters a skeleton and then again the first time the character encounters a wraith), at the GM's discretion.",
+			"&#42; Horrifying creatures are typically aberrations, evil or chaotic outsiders, and undead. \"Each time\" could mean the first time for each creature type, or each time a creature encounters a new kind of specific creature of that type (for example, the first time a creature encounters a skeleton and then again the first time the character encounters a wraith), at the GM's discretion.",
 			"",
 			"### Expanded Sanity",
 			"",
@@ -1091,7 +1091,7 @@
 		"description": [
 			"{SOURCE Horror Adventures/14}",
 			"",
-			"You gain a manifestation of your curse when you first contract a corruption, and gain more at later levels. Each manifestation includes both a gift and a stain (though campaign variants can change how you acquire these gifts and stains as described in the Variants section below). Many manifestations have prerequisites that limit them to characters farther along in their corruptions. A prerequisite marked with an asterisk (&ast;) is another manifestation in the same section.",
+			"You gain a manifestation of your curse when you first contract a corruption, and gain more at later levels. Each manifestation includes both a gift and a stain (though campaign variants can change how you acquire these gifts and stains as described in the Variants section below). Many manifestations have prerequisites that limit them to characters farther along in their corruptions. A prerequisite marked with an asterisk (&#42;) is another manifestation in the same section.",
 			"",
 			"Unless stated otherwise, the DC for gifts that allow a saving throw is equal to 10 + 1/2 your level + your {rule/manifestation level}. You can have a maximum of nine manifestations."
 		],

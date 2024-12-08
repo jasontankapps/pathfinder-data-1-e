@@ -491,7 +491,7 @@
 			"",
 			"| Size | Cost (humanoid) | Weight (humanoid) | Cost (non-humanoid) | Weight (non-humanoid) |",
 			"| --- | --- | --- | --- | --- |",
-			"| Tiny or smaller&ast; | &times;1/2 | &times;1/10 | &times;1 | &times;1/10 |",
+			"| Tiny or smaller&#42; | &times;1/2 | &times;1/10 | &times;1 | &times;1/10 |",
 			"| Small | &times;1 | &times;1/2 | &times;2 | &times;1/2 |",
 			"| Medium | &times;1 | &times;1 | &times;2 | &times;1 |",
 			"| Large | &times;2 | &times;2 | &times;4 | &times;2 |",
@@ -499,7 +499,7 @@
 			"| Gargantuan | &times;8 | &times;8 | &times;16 | &times;8 |",
 			"| Colossal | &times;16 | &times;12 | &times;32 | &times;12 |",
 			"",
-			"&ast;Divide armor bonus by 2."
+			"&#42;Divide armor bonus by 2."
 		],
 		"parent_topics": [
 			"basics",
@@ -569,7 +569,7 @@
 			"",
 			"***Mounts, Pets and Related Gear:*** These are listed separately under [mounts or pets] and [animal gear](main/equipment_animal_gear).",
 			"",
-			"***Transport:*** This includes a cost per mile for [riding in a vehicle](main/equipment_transport), and costs for purchasing vehicles outright.Vehicle prices generally exclude crew or animals.",
+			"***Transport:*** This includes a cost per mile for [riding in a vehicle](main/equipment_transport), and costs for purchasing vehicles outright. Vehicle prices generally exclude crew or animals.",
 			"",
 			"***Entertainment, Spellcasting, and Services:*** Many adventurers like to sit down and play a game now and then to pass the time - or make some easy gold. But sometimes the best solution to a problem is to [hire someone else](main/equipment_entertainment_services) to take care of it."
 		],
@@ -1079,9 +1079,9 @@
 			"| Large town | 2,000 gp | 3d4 items | 2d4 items | 1d4 items |",
 			"| Small city | 4,000 gp | 4d4 items | 3d4 items | 1d6 items |",
 			"| Large city | 8,000 gp | 4d4 items | 3d4 items | 2d4 items |",
-			"| Metropolis | 16,000 gp | &ast; | 4d4 items | 3d4 items |",
+			"| Metropolis | 16,000 gp | &#42; | 4d4 items | 3d4 items |",
 			"",
-			"&ast; In a metropolis, nearly all minor magic items are available.",
+			"&#42; In a metropolis, nearly all minor magic items are available.",
 			"",
 			"### Table 15-2: Random Magic Item Generation",
 			"",

@@ -340,7 +340,7 @@
 			"",
 			"### Table 12-5: Treasure Values per Encounter",
 			"",
-			"| APL&ast; | Slow | Medium | Fast |",
+			"| APL&#42; | Slow | Medium | Fast |",
 			"| --- | --- | --- | --- |",
 			"| 1 | 170 gp | 260 gp | 400 gp |",
 			"| 2 | 350 gp | 550 gp | 800 gp |",
@@ -363,7 +363,7 @@
 			"| 19 | 35,000 gp | 53,000 gp | 79,000 gp |",
 			"| 20 | 44,000 gp | 67,000 gp | 100,000 gp |",
 			"",
-			"&ast; [Average Party Level](rule/designing_encounters)"
+			"&#42; [Average Party Level](rule/designing_encounters)"
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -741,15 +741,15 @@
 			"| Strength | 13 | 15 | 11 | 13 | 10 | 12 | 8 | 8 | 10 | 12 |",
 			"| Dexterity | 11 | 13 | 13 | 15 | 8 | 8 | 12 | 14 | 12 | 14 |",
 			"| Constitution | 12 | 14 | 12 | 14 | 12 | 14 | 10 | 12 | 11 | 13 |",
-			"| Intelligence | 9 | 10 | 10 | 12 | 9 | 10 | 13&ast; | 15&ast; | 13 | 15 |",
+			"| Intelligence | 9 | 10 | 10 | 12 | 9 | 10 | 13&#42; | 15&#42; | 13 | 15 |",
 			"| Wisdom | 10 | 12 | 9 | 10 | 13 | 15 | 9 | 10 | 8 | 8 |",
-			"| Charisma | 8 | 8 | 8 | 8 | 11 | 13 | 11&ast; | 13&ast; | 9 | 10 |",
+			"| Charisma | 8 | 8 | 8 | 8 | 11 | 13 | 11&#42; | 13&#42; | 9 | 10 |",
 			"",
-			"&ast;If the arcane caster's spellcasting relies on Charisma, exchange these scores with one another.",
+			"&#42;If the arcane caster's spellcasting relies on Charisma, exchange these scores with one another.",
 			"",
 			"### Table 14-7: Racial Ability Adjustments",
 			"",
-			"| Ability Score | Dwarf | Elf | Gnome | Half-Elf&ast; | Half-Orc&ast; | Halfling | Human&ast; |",
+			"| Ability Score | Dwarf | Elf | Gnome | Half-Elf&#42; | Half-Orc&#42; | Halfling | Human&#42; |",
 			"| --- | --- | --- | --- | --- | --- | --- | --- |",
 			"| Strength | - | - | -2 | - | - | -2 | - |",
 			"| Dexterity | - | +2 | - | - | - | +2 | - |",
@@ -758,7 +758,7 @@
 			"| Wisdom | +2 | - | - | - | - | - | - |",
 			"| Charisma | -2 | - | +2 | - | - | +2 | - |",
 			"",
-			"&ast; Half-elves, half-orcs, and humans receive a +2 bonus to one ability score of your choice."
+			"&#42; Half-elves, half-orcs, and humans receive a +2 bonus to one ability score of your choice."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -795,7 +795,7 @@
 			"",
 			"### Table 14-8",
 			"",
-			"| PC Class | Skill Selections&ast; | NPC Class | Skill Selections&ast; |",
+			"| PC Class | Skill Selections&#42; | NPC Class | Skill Selections&#42; |",
 			"| --- | --- | --- | --- |",
 			"| Barbarian | 4 + Int Mod | Adept | 2 + Int Mod |",
 			"| Bard | 6 + Int Mod | Aristocrat | 4 + Int Mod |",
@@ -809,7 +809,7 @@
 			"| Sorcerer | 2 + Int Mod | | |",
 			"| Wizard | 2 + Int Mod | | |",
 			"",
-			"&ast; Humans receive one additional skill selection."
+			"&#42; Humans receive one additional skill selection."
 		],
 		"parent_topics": [
 			"gamemastery",

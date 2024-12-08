@@ -3778,7 +3778,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** ring of sustenance; **Cost** -"
+			"**Requirements** {magic-ring/ring of sustenance}; **Cost** -"
 		]
 	},
 	"chatter_ring": {
@@ -3795,7 +3795,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** ring of eloquence; **Cost** -"
+			"**Requirements** {magic-ring/ring of eloquence}; **Cost** -"
 		]
 	},
 	"ring_of_clumsiness": {
@@ -3816,7 +3816,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** ring of feather falling; **Cost** -"
+			"**Requirements** {magic-ring/ring of feather falling}; **Cost** -"
 		]
 	},
 	"ring_of_lifebleed": {
@@ -3834,7 +3834,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** ring of regeneration; **Cost** -"
+			"**Requirements** {magic-ring/ring of regeneration}; **Cost** -"
 		]
 	},
 	"ring_of_spell_devouring": {
@@ -3852,7 +3852,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** ring of spell storing (any) or a ring of spell turning; **Cost** -"
+			"**Requirements** {magic-ring/ring of spell storing/ (any)} or a {magic-ring/ring of spell turning}; **Cost** -"
 		]
 	},
 	"ring_of_truth": {
@@ -3873,7 +3873,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** ring of mind shielding, ring of x-ray vision; **Cost** -"
+			"**Requirements** {magic-ring/ring of mind shielding}, {magic-ring/ring of x-ray vision}; **Cost** -"
 		]
 	}
 }

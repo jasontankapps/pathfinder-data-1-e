@@ -845,7 +845,7 @@
 			"",
 			"This thick hide cloak grants its wearer the divided mind of a skeltercat. While worn, the cloak imparts a +1 resistance bonus on Fortitude and Reflex saves and a +2 resistance bonus on Will saves. In addition, once per round, the wearer can reroll the percentile dice when determining her actions while confused and choose the desired result. Once the cloak is donned, the wearer cannot speak or write; she can communicate only in unintelligible growls. The wearer still understands language as normal.",
 			"",
-			"If the wearer suffers from one or more permanent mental afflictions that alter her behavior, such as insanity or the effects of a helm of opposite alignment, for 15 minutes per day she can function as if unaffected by these conditions. This time does not need to be used all at once, but must be used in 1-minute increments.",
+			"If the wearer suffers from one or more permanent mental afflictions that alter her behavior, such as insanity or the effects of a {magic-wondrous/helm of opposite alignment}, for 15 minutes per day she can function as if unaffected by these conditions. This time does not need to be used all at once, but must be used in 1-minute increments.",
 			"",
 			"### Construction",
 			"",
@@ -1806,7 +1806,7 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** shoulders; **Price** 17,500 gp; **Weight** 1 lb.",
 			"",
-			"This knee-length cape is decorated with images of butterflies, moths, and stars. Once per day, the wearer can speak a command word to cause the cape to transform into a cloud of butterflies or moths. This functions as cape of wasps, except the swarm doesn't deal poison damage and deals full damage to incorporeal creatures. In addition, the wearer can use glitterdust once per day.",
+			"This knee-length cape is decorated with images of butterflies, moths, and stars. Once per day, the wearer can speak a command word to cause the cape to transform into a cloud of butterflies or moths. This functions as {magic-wondrous/cape of wasps}, except the swarm doesn't deal poison damage and deals full damage to incorporeal creatures. In addition, the wearer can use glitterdust once per day.",
 			"",
 			"### Construction",
 			"",
@@ -2922,7 +2922,7 @@
 			"**Aura** faint transmutation; **CL** 4th  ",
 			"**Slot** wrist; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
-			"These wristbands appear similar to greater bracers of archery, though they are typically constructed of lighter material. They function as greater bracers of archery, except they grant a +1 competence bonus on attack rolls and no bonus on damage rolls.",
+			"These wristbands appear similar to {magic-wondrous/greater bracers of archery}, though they are typically constructed of lighter material. They function as greater bracers of archery, except they grant a +1 competence bonus on attack rolls and no bonus on damage rolls.",
 			"",
 			"### Construction",
 			"",
@@ -4198,7 +4198,7 @@
 			"**Aura** moderate divination; **CL** 10th  ",
 			"**Slot** headband; **Price** 71,300 gp; **Weight** 1 lb.",
 			"",
-			"A headband of vast intellect +6 also holds a consciousness that shares its knowledge and education with a suitable wearer. This intellect can be of any alignment and its only purpose is to share its vast knowledge with its wearer. The headband also functions as a helm of comprehend languages and read magic. Furthermore, instead of granting the normal skill ranks of a headband of vast intellect +6, this headband grants 4 ranks in six skills, but all of those skills must be Knowledge skills. It grants such intelligence by a stream of constant whispers and arguments that the headband communicates telepathically in Common or in one of 10 other languages it knows. Once per week on command, the wearer can also convince the headband to use legend lore as the spell, though the casting time is only a standard action.",
+			"A headband of vast intellect +6 also holds a consciousness that shares its knowledge and education with a suitable wearer. This intellect can be of any alignment and its only purpose is to share its vast knowledge with its wearer. The headband also functions as a helm of comprehend languages and read magic. Furthermore, instead of granting the normal skill ranks of a {magic-wondrous/headband of vast intellect +6}, this headband grants 4 ranks in six skills, but all of those skills must be Knowledge skills. It grants such intelligence by a stream of constant whispers and arguments that the headband communicates telepathically in Common or in one of 10 other languages it knows. Once per week on command, the wearer can also convince the headband to use legend lore as the spell, though the casting time is only a standard action.",
 			"",
 			"### Construction",
 			"",
@@ -4282,7 +4282,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** amulet of proof against detection and location; **Cost** -"
+			"**Requirements** {magic-wondrous/amulet of proof against detection and location}; **Cost** -"
 		]
 	},
 	"bag_of_devouring": {
@@ -4325,7 +4325,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** belt of mighty constitution (any); **Cost** -"
+			"**Requirements** [belt of mighty constitution (any)](magic-wondrous/belt_of_mighty_constitution_4); **Cost** -"
 		]
 	},
 	"book_of_perilous_journeys": {
@@ -4346,7 +4346,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** monster almanac; **Cost** -"
+			"**Requirements** {magic-wondrous/monster almanac}; **Cost** -"
 		]
 	},
 	"boots_of_dancing": {
@@ -4367,7 +4367,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** boots of elvenkind, boots of levitation, boots of speed, boots of striding and springing, boots of teleportation, boots of the winterlands, winged boots; **Cost** -"
+			"**Requirements** {magic-wondrous/boots of elvenkind}, {magic-wondrous/boots of levitation}, {magic-wondrous/boots of speed}, {magic-wondrous/boots of striding and springing}, {magic-wondrous/boots of teleportation}, {magic-wondrous/boots of the winterlands}, {magic-wondrous/winged boots}; **Cost** -"
 		]
 	},
 	"bracers_of_defenselessness": {
@@ -4388,7 +4388,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** bracers of armor +5; **Cost** -"
+			"**Requirements** {magic-wondrous/bracers of armor +5}; **Cost** -"
 		]
 	},
 	"broom_of_animated_attack": {
@@ -4411,7 +4411,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** broom of flying; **Cost** -"
+			"**Requirements** {magic-wondrous/broom of flying}; **Cost** -"
 		]
 	},
 	"cape_of_anchoring": {
@@ -4429,7 +4429,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** cape of the mountebank; **Cost** -"
+			"**Requirements** {magic-wondrous/cape of the mountebank}; **Cost** -"
 		]
 	},
 	"carnivorous_jar": {
@@ -4446,7 +4446,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** preserving flask, restorative ointment, or any item held in a jar or similar container; **Cost** -"
+			"**Requirements** {magic-wondrous/preserving flask}, {magic-wondrous/restorative ointment}, or any item held in a jar or similar container; **Cost** -"
 		]
 	},
 	"chomper": {
@@ -4472,7 +4472,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** bag of holding type III; **Cost** -"
+			"**Requirements** {magic-wondrous/bag of holding type III}; **Cost** -"
 		]
 	},
 	"cloak_of_immolation": {
@@ -4514,7 +4514,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** headband of alluring charisma, headband of inspired wisdom, headband of mental prowess, headband of mental superiority, headband of vast intelligence, moon circlet; **Cost** -"
+			"**Requirements** {magic-wondrous/headband of alluring charisma}, {magic-wondrous/headband of inspired wisdom}, {magic-wondrous/headband of mental prowess}, {magic-wondrous/headband of mental superiority}, {magic-wondrous/headband of vast intelligence}, {magic-wondrous/moon circlet}; **Cost** -"
 		]
 	},
 	"crystal_hypnosis_ball": {
@@ -4537,7 +4537,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** crystal ball; **Cost** -"
+			"**Requirements** {magic-wondrous/crystal ball}; **Cost** -"
 		]
 	},
 	"drums_of_lethargy": {
@@ -4555,7 +4555,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** drums of haste; **Cost** -"
+			"**Requirements** {magic-wondrous/drums of haste}; **Cost** -"
 		]
 	},
 	"dust_of_sneezing_and_choking": {
@@ -4576,7 +4576,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** dust of appearance, dust of tracelessness; **Cost** -"
+			"**Requirements** {magic-wondrous/dust of appearance}, {magic-wondrous/dust of tracelessness}; **Cost** -"
 		]
 	},
 	"eyes_of_blindness": {
@@ -4613,7 +4613,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** decanter of endless water, efreeti bottle, eversmoking bottle, iron flask; **Cost** -"
+			"**Requirements** {magic-wondrous/decanter of endless water}, {magic-wondrous/efreeti bottle}, {magic-wondrous/eversmoking bottle}, {magic-wondrous/iron flask}; **Cost** -"
 		]
 	},
 	"gauntlets_of_fumbling": {
@@ -4633,7 +4633,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** gauntlet of rust, gloves of arrow snatching, glove of storing, gloves of swimming and climbing; **Cost** -"
+			"**Requirements** {magic-wondrous/gauntlet of rust}, {magic-wondrous/gloves of arrow snatching}, {magic-wondrous/glove of storing}, {magic-wondrous/gloves of swimming and climbing}; **Cost** -"
 		]
 	},
 	"girdle_of_opposite_gender": {
@@ -4697,7 +4697,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** hat of disguise; **Cost** -"
+			"**Requirements** {magic-wondrous/hat of disguise}; **Cost** -"
 		]
 	},
 	"haunted_doll": {
@@ -4716,7 +4716,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** anatomy doll, hexing doll, ganji doll; **Cost** -"
+			"**Requirements** {magic-wondrous/anatomy doll}, {magic-wondrous/hexing doll}, {magic-wondrous/ganji doll}; **Cost** -"
 		]
 	},
 	"headband_of_stupidity": {
@@ -4734,7 +4734,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** headband of vast intellect +4; **Cost** -"
+			"**Requirements** {magic-wondrous/headband of vast intellect +4}; **Cost** -"
 		]
 	},
 	"helm_of_ikimizi": {
@@ -4755,7 +4755,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** helm of comprehend languages and read magic, helm of telepathy, helm of underwater action; **Cost** -"
+			"**Requirements** {magic-wondrous/helm of comprehend languages and read magic}, {magic-wondrous/helm of telepathy}, {magic-wondrous/helm of underwater action}; **Cost** -"
 		]
 	},
 	"helm_of_opposite_alignment": {
@@ -4778,7 +4778,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** hat of disguise, helm of comprehend languages and read magic, helm of telepathy; **Cost** -"
+			"**Requirements** {magic-wondrous/hat of disguise}, {magic-wondrous/helm of comprehend languages and read magic}, {magic-wondrous/helm of telepathy}; **Cost** -"
 		]
 	},
 	"incense_of_obsession": {
@@ -4799,7 +4799,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** incense of meditation; **Cost** -"
+			"**Requirements** {magic-wondrous/incense of meditation}; **Cost** -"
 		]
 	},
 	"kleptomaniacs_gloves": {
@@ -4816,7 +4816,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** gloves of larceny; **Cost** -"
+			"**Requirements** {magic-wondrous/gloves of larceny}; **Cost** -"
 		]
 	},
 	"liars_well": {
@@ -4860,7 +4860,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** hand of glory, hand of the mage, hand of stone; **Cost** -"
+			"**Requirements** {magic-wondrous/hand of glory}, {magic-wondrous/hand of the mage}, {magic-wondrous/hand of stone}; **Cost** -"
 		]
 	},
 	"mask_of_ugliness": {
@@ -4874,7 +4874,7 @@
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** head; **Weight** 1 lb.",
 			"",
-			"This strange, featureless mask seems to have the powers of a headband of alluring charisma +4, but instead of granting a bonus to Charisma, the mask melds to the wearer's face, making him seem uglier and his words come off as crude and insulting. The wearer takes a -4 penalty to Bluff and Diplomacy checks but gains a +2 bonus to Intimidate checks.",
+			"This strange, featureless mask seems to have the powers of a {magic-wondrous/headband of alluring charisma +4}, but instead of granting a bonus to Charisma, the mask melds to the wearer's face, making him seem uglier and his words come off as crude and insulting. The wearer takes a -4 penalty to Bluff and Diplomacy checks but gains a +2 bonus to Intimidate checks.",
 			"",
 			"### Construction",
 			"",
@@ -4899,7 +4899,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** medallion of thoughts; **Cost** -"
+			"**Requirements** {magic-wondrous/medallion of thoughts}; **Cost** -"
 		]
 	},
 	"mindborer_ioun_stone": {
@@ -4937,7 +4937,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** mirror of life trapping, mirror of opposition; **Cost** -"
+			"**Requirements** {magic-wondrous/mirror of life trapping}, {magic-wondrous/mirror of opposition}; **Cost** -"
 		]
 	}
 }

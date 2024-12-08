@@ -1289,9 +1289,9 @@
 			"| Below AC by 6 or more | Miss | None |",
 			"| Below AC by 5 or less | Glancing Blow | 1/2 minimum damage |",
 			"| Equal or exceed AC | Hit | Normal damage |",
-			"| Exceed AC by 5 or more&ast; | Additional hit | Normal damage |",
+			"| Exceed AC by 5 or more&#42; | Additional hit | Normal damage |",
 			"",
-			"&ast; You can gain an additional hit for every 5 by which the attack roll exceeds the target's AC, limited by your base attack bonus.",
+			"&#42; You can gain an additional hit for every 5 by which the attack roll exceeds the target's AC, limited by your base attack bonus.",
 			"",
 			"### Table 3-3: Maximum Hits",
 			"",
@@ -1301,10 +1301,10 @@
 			"| +6 to +10 | 2 |",
 			"| +11 to +15 | 3 |",
 			"| +16 to +20 | 4 |",
-			"| +21 to +25&ast; | 5 |",
-			"| +26 to +30&ast; | 6 |",
+			"| +21 to +25&#42; | 5 |",
+			"| +26 to +30&#42; | 6 |",
 			"",
-			"&ast;Typically, only monsters have a base attack bonus this high."
+			"&#42;Typically, only monsters have a base attack bonus this high."
 		],
 		"parent_topics": [
 			"optional_combat_changes",

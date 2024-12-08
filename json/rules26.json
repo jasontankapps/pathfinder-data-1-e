@@ -279,12 +279,12 @@
 			"| Strong wooden | 2 in. | 5 | 20 hp | DC 23 | DC 25 |",
 			"| Stone | 4 in. | 8 | 60 hp | DC 28 | DC 28 |",
 			"| Iron | 2 in. | 10 | 60 hp | DC 28 | DC 28 |",
-			"| Portcullis, wooden | 3 in. | 5 | 30 hp | DC 25&ast; | DC 25&ast; |",
-			"| Portcullis, iron | 2 in. | 10 | 60 hp | DC 25&ast; | DC 25&ast; |",
+			"| Portcullis, wooden | 3 in. | 5 | 30 hp | DC 25&#42; | DC 25&#42; |",
+			"| Portcullis, iron | 2 in. | 10 | 60 hp | DC 25&#42; | DC 25&#42; |",
 			"| Lock | - | 15 | 30 hp | - | - |",
 			"| Hinge | - | 10 | 30 hp | - | - |",
 			"",
-			"&ast;DC to lift. Use appropriate door figure for breaking."
+			"&#42;DC to lift. Use appropriate door figure for breaking."
 		],
 		"parent_topics": [
 			"environment",
@@ -821,7 +821,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/420}",
 			"",
-			"The following sample traps represent just some of the possibilities when constructing traps to challenge the player characters. Traps marked with an asterisk (&ast;) are {rule/wilderness traps}.",
+			"The following sample traps represent just some of the possibilities when constructing traps to challenge the player characters. Traps marked with an asterisk (&#42;) are {rule/wilderness traps}.",
 			"",
 			"{table0}"
 		],
@@ -844,26 +844,26 @@
 				"data": [
 					[ [ "trap/arrow_trap", "Arrow Trap" ], 1, "mechanical", 20, 20 ],
 					[ [ "trap/bear_trap", "Bear Trap" ], 1, "mechanical", 15, 20 ],
-					[ [ "trap/breakaway_vine", "Breakaway Vine&ast;" ], 1, "mechanical", 20, 20 ],
-					[ [ "trap/musk_shower", "Musk Shower&ast;" ], 1, "mechanical", 20, 20 ],
+					[ [ "trap/breakaway_vine", "Breakaway Vine&#42;" ], 1, "mechanical", 20, 20 ],
+					[ [ "trap/musk_shower", "Musk Shower&#42;" ], 1, "mechanical", 20, 20 ],
 					[ [ "trap/pit_trap", "Pit Trap" ], 1, "mechanical", 20, 20 ],
 					[ [ "trap/poisoned_dart_trap", "Poisoned Dart Trap" ], 1, "mechanical", 20, 20 ],
-					[ [ "trap/spring_snare", "Spring Snare&ast;" ], 1, "mechanical", 25, 15 ],
+					[ [ "trap/spring_snare", "Spring Snare&#42;" ], 1, "mechanical", 25, 15 ],
 					[ [ "trap/swinging_axe_trap", "Swinging Axe Trap" ], 1, "mechanical", 20, 20 ],
-					[ [ "trap/swinging_log", "Swinging Log&ast;" ], 1, "mechanical", 12, 12 ],
-					[ [ "trap/tar_snare", "Tar Snare&ast;" ], 1, "mechanical", 20, 20 ],
+					[ [ "trap/swinging_log", "Swinging Log&#42;" ], 1, "mechanical", 12, 12 ],
+					[ [ "trap/tar_snare", "Tar Snare&#42;" ], 1, "mechanical", 20, 20 ],
 					[ [ "trap/burning_hands_trap", "Burning Hands Trap" ], 2, "magic", 26, 26 ],
-					[ [ "trap/clam_clamp", "Clam Clamp&ast;" ], 2, "mechanical", 20, 17 ],
+					[ [ "trap/clam_clamp", "Clam Clamp&#42;" ], 2, "mechanical", 20, 17 ],
 					[ [ "trap/javelin_trap", "Javelin Trap" ], 2, "mechanical", 20, 20 ],
 					[ [ "trap/spiked_pit_trap", "Spiked Pit Trap" ], 2, "mechanical", 20, 20 ],
 					[ [ "trap/acid_arrow_trap", "Acid Arrow Trap" ], 3, "magic", 27, 27 ],
 					[ [ "trap/camouflaged_pit_trap", "Camouflaged Pit Trap" ], 3, "mechanical", 25, 20 ],
-					[ [ "trap/razor_grass", "Razor Grass&ast;" ], 3, "mechanical", 25, 20 ],
-					[ [ "trap/breakaway_log", "Breakaway Log&ast;" ], 4, "mechanical", 25, 30 ],
+					[ [ "trap/razor_grass", "Razor Grass&#42;" ], 3, "mechanical", 25, 20 ],
+					[ [ "trap/breakaway_log", "Breakaway Log&#42;" ], 4, "mechanical", 25, 30 ],
 					[ [ "trap/electricity_arc_trap", "Electricity Arc Trap" ], 4, "mechanical", 25, 20 ],
-					[ [ "trap/spring_arm_spike", "Spring-arm Spike&ast;" ], 4, "mechanical", 20, 20 ],
+					[ [ "trap/spring_arm_spike", "Spring-arm Spike&#42;" ], 4, "mechanical", 20, 20 ],
 					[ [ "trap/wall_scythe_trap", "Wall Scythe Trap" ], 4, "mechanical", 20, 20 ],
-					[ [ "trap/deadfall", "Deadfall&ast;" ], 5, "mechanical", 20, 20 ],
+					[ [ "trap/deadfall", "Deadfall&#42;" ], 5, "mechanical", 20, 20 ],
 					[ [ "trap/falling_block_trap", "Falling Block Trap" ], 5, "mechanical", 20, 20 ],
 					[ [ "trap/fireball_trap", "Fireball Trap" ], 5, "magic", 28, 28 ],
 					[ [ "trap/flame_strike_trap", "Flame Strike Trap" ], 6, "magic", 30, 30 ],
@@ -1154,7 +1154,7 @@
 			"",
 			"At the GM's discretion, other nonmagical mechanical traps may be considered to have associated terrains and use the wilderness trap construction rules.",
 			"",
-			"Wilderness traps are marked with an asterisk (&ast;) on the {rule/Sample Traps} page."
+			"Wilderness traps are marked with an asterisk (&#42;) on the {rule/Sample Traps} page."
 		],
 		"parent_topics": [
 			"environment",
@@ -1981,10 +1981,10 @@
 			"| [Catapult, heavy](equipment-siegeengine/heavy_catapult) | 800 gp | 6d6 | - | 200 ft. (100 ft. minimum) | 4 |",
 			"| [Catapult, light](equipment-siegeengine/light_catapult) | 550 gp | 4d6 | - | 150 ft. (100 ft. minimum) | 2 |",
 			"| [Ballista](equipment-siegeengine/heavy_ballista) | 500 gp | 3d8 | 19-20 | 120 ft. | 1 |",
-			"| [Ram](equipment-siegeengine/large_ram) | 1,000 gp | 3d6&ast; | - | - | 10 |",
+			"| [Ram](equipment-siegeengine/large_ram) | 1,000 gp | 3d6&#42; | - | - | 10 |",
 			"| [Siege tower](equipment-siegeengine/large_siege_tower) | 2,000 gp | - | - | - | 20 |",
 			"",
-			"&ast; See description for special rules.  ",
+			"&#42; See description for special rules.  ",
 			"All siege weapons [are listed here](main/equipment_siegeengines)."
 		],
 		"parent_topics": [

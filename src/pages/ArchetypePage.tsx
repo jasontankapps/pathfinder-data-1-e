@@ -101,7 +101,7 @@ const ArchetypePage: React.FC = () => {
 
 	const [num, title] = classes[parent] || classes.ninja;
 
-	const Page = pages[num];
+	const Page = pages[num - 1];
 
 	return <Suspense fallback={<Loading />}><Page id={id} parent={parent} title={title} /></Suspense>;
 };

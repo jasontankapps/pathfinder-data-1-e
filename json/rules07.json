@@ -3099,7 +3099,7 @@
 			"",
 			"***Secrecy Runes:*** Magically reinforced walls can incorporate secrecy runes to prevent magic from allowing someone to see within. Sounds cannot pass out of an area enclosed by secrecy runes on all sides (including ceilings and floors), as long as all exits are closed. In addition, the runes block divinations of or below a specified spell level (as indicated on the table below) from entering an area enclosed by secrecy runes on all sides (including ceilings and floors), even while portals to the area are open. See the table below for prices and the maximum level of spells each type of runes can block. Creating secrecy runes requires the {feat/Craft Wondrous Item} feat, the spell {spell/mage's private sanctum}, and the expenditure of the listed amount of gold for each 5-foot-by-10-foot section of wall.",
 			"",
-			"| Runes of Secrecy | Maximum Spell Level of Divination Blocked | Cost per Section of Wall[^&ast;] |",
+			"| Runes of Secrecy | Maximum Spell Level of Divination Blocked | Cost per Section of Wall[^1] |",
 			"| --- | --- | --- |",
 			"| Lesser | 3rd | 350 gp |",
 			"| Medium | 5th | 1,050 gp |",
@@ -3147,7 +3147,7 @@
 			"",
 			"All walls in the room are built with superior secrecy runes, as described above.",
 			"",
-			"[^&ast;]: A section of wall is 5 feet wide by 10 feet tall."
+			"[^1]: A section of wall is 5 feet wide by 10 feet tall."
 		],
 		"parent_topics": [
 			"optional_subsystems",

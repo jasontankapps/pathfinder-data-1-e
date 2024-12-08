@@ -1563,7 +1563,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** necklace of adaptation, necklace of fireballs, periapt of health, periapt of proof against poison, periapt of wound closure; **Cost** -"
+			"**Requirements** {magic-wondrous/necklace of adaptation}, {magic-wondrous/necklace of fireballs}, {magic-wondrous/periapt of health}, {magic-wondrous/periapt of proof against poison}, {magic-wondrous/periapt of wound closure}; **Cost** -"
 		]
 	},
 	"needful_doll": {
@@ -1586,7 +1586,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** anatomy doll, ganji doll, hexing doll; **Cost** -"
+			"**Requirements** {magic-wondrous/anatomy doll}, {magic-wondrous/ganji doll}, {magic-wondrous/hexing doll}; **Cost** -"
 		]
 	},
 	"one_way_window_cursed": {
@@ -1613,26 +1613,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** mirror of life trapping, mirror of opposition; **Cost** -"
-		]
-	},
-	"overcharged_staff": {
-		"name": "Overcharged Staff",
-		"sources": [ "Antihero's Handbook" ],
-		"description": [
-			"## Overcharged Staff",
-			"",
-			"{SOURCE Antihero's Handbook/31}  ",
-			"**Aura** moderate evocation; **CL** 11th  ",
-			"**Slot** none; **Weight** 5 lbs.",
-			"",
-			"This staff appears as a normal staff of electricity, except it is black instead of silver and electricity occasionally arcs along the shaft. The curse on this weapon alters the shocking grasp, lightning bolt, and chain lightning spells granted by the staff, causing extra surges of energy to damage the wielder and his allies.",
-			"",
-			"When the wielder uses the overcharged staff to cast shocking grasp, he takes 1d3 points of electricity damage per caster level (maximum 5d3). When the wielder uses the overcharged staff to cast lightning bolt, a random ally takes 1d6 points of electricity damage per caster level (maximum 10d6); the ally takes half that amount with a successful Reflex save. When the wielder uses the overcharged staff to cast chain lightning, for each target the wielder chooses as a primary or secondary target, a random ally must be chosen as a secondary target.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** staff of electricity; **Cost** -"
+			"**Requirements** {magic-wondrous/mirror of life trapping}, {magic-wondrous/mirror of opposition}; **Cost** -"
 		]
 	},
 	"pauldrons_of_the_jackass": {
@@ -1671,7 +1652,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** periapt of health, periapt of proof against poison, periapt of wound closure; **Cost** -"
+			"**Requirements** {magic-wondrous/periapt of health}, {magic-wondrous/periapt of proof against poison}, {magic-wondrous/periapt of wound closure}; **Cost** -"
 		]
 	},
 	"petrifying_cloak": {
@@ -1712,7 +1693,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** cloak of arachnida, cloak of the bat, cloak of etherealness, cloak of resistance +5, major cloak of displacement; **Cost** -"
+			"**Requirements** {magic-wondrous/cloak of arachnida}, {magic-wondrous/cloak of the bat}, {magic-wondrous/cloak of etherealness}, {magic-wondrous/cloak of resistance +5}, {magic-wondrous/major cloak of displacement}; **Cost** -"
 		]
 	},
 	"potion_of_poison": {
@@ -1753,7 +1734,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** pipes of haunting, pipes of the sewers, pipes of sounding; **Cost** -"
+			"**Requirements** {magic-wondrous/pipes of haunting}, {magic-wondrous/pipes of the sewers}, {magic-wondrous/pipes of sounding}; **Cost** -"
 		]
 	},
 	"robe_of_powerlessness": {
@@ -1774,7 +1755,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** robe of blending, robe of bones, robe of eyes, robe of scintillating colors, robe of stars, robe of the archmagi, robe of useful items; **Cost** -"
+			"**Requirements** {magic-wondrous/robe of blending}, {magic-wondrous/robe of bones}, {magic-wondrous/robe of eyes}, {magic-wondrous/robe of scintillating colors}, {magic-wondrous/robe of stars}, {magic-wondrous/robe of the archmagi}, {magic-wondrous/robe of useful items}; **Cost** -"
 		]
 	},
 	"robe_of_vermin": {
@@ -1797,7 +1778,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** robe of blending, robe of bones, robe of eyes, robe of scintillating colors, robe of stars, robe of the archmagi, robe of useful items; **Cost** -"
+			"**Requirements** {magic-wondrous/robe of blending}, {magic-wondrous/robe of bones}, {magic-wondrous/robe of eyes}, {magic-wondrous/robe of scintillating colors}, {magic-wondrous/robe of stars}, {magic-wondrous/robe of the archmagi}, {magic-wondrous/robe of useful items}; **Cost** -"
 		]
 	},
 	"sasquatch_skull": {
@@ -1810,11 +1791,11 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** -; **Weight** 5 lbs.",
 			"",
-			"Divination reveals this large humanoid skull to be that of a gorilla or giant, although it is actually an accursed sasquatch skull. The item seems to grant its bearer a +5 bonus on Stealth checks in wooded areas.If an individual takes possession of the sasquatch skull for more than 24 hours, it quickly begins to stink. The smell is undetectable by the skull's bearer, but companions and creatures within 30 feet find the pungent smell extremely noticeable. The smell imposes a -2 penalty on Charisma checks and Charisma-based skill checks made by the skull's owner. In addition, aggressive wild animals always target the skull's owner first during combat. The skull need not be on the owner's person for the curse to manifest, so long as ownership has not been transferred through sale, gift, or theft.",
+			"Divination reveals this large humanoid skull to be that of a gorilla or giant, although it is actually an accursed sasquatch skull. The item seems to grant its bearer a +5 bonus on Stealth checks in wooded areas. If an individual takes possession of the sasquatch skull for more than 24 hours, it quickly begins to stink. The smell is undetectable by the skull's bearer, but companions and creatures within 30 feet find the pungent smell extremely noticeable. The smell imposes a -2 penalty on Charisma checks and Charisma-based skill checks made by the skull's owner. In addition, aggressive wild animals always target the skull's owner first during combat. The skull need not be on the owner's person for the curse to manifest, so long as ownership has not been transferred through sale, gift, or theft.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** darkskull; **Cost** -"
+			"**Requirements** {magic-wondrous/darkskull}; **Cost** -"
 		]
 	},
 	"scarab_of_death": {
@@ -1834,7 +1815,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** amulet of mighty fists, amulet of natural armor, amulet of the planes, amulet of proof against detection and location, brooch of shielding, golembane scarab, scarab of protection; **Cost** -"
+			"**Requirements** {magic-wondrous/amulet of mighty fists}, {magic-wondrous/amulet of natural armor}, {magic-wondrous/amulet of the planes}, {magic-wondrous/amulet of proof against detection and location}, {magic-wondrous/brooch of shielding}, {magic-wondrous/golembane scarab}, {magic-wondrous/scarab of protection}; **Cost** -"
 		]
 	},
 	"scattershot_bracers": {
@@ -1852,7 +1833,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** bracers of archery, either greater or lesser; **Cost** -"
+			"**Requirements** [bracers of archery](magic-wondrous/bracers_of_archery_lesser), either greater or lesser; **Cost** -"
 		]
 	},
 	"stone_of_weight_loadstone": {
@@ -1873,7 +1854,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** ioun stone, stone of alarm, stone of controlling earth elementals, stone of good luck; **Cost** -"
+			"**Requirements** {magic-wondrous/ioun stone}, {magic-wondrous/stone of alarm}, {magic-wondrous/stone of controlling earth elementals}, {magic-wondrous/stone of good luck}; **Cost** -"
 		]
 	},
 	"tome_of_heretical_revelation": {
@@ -1890,7 +1871,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** manual of bodily health, manual of gainful exercise, tome of understanding, tome of leadership and influence; **Cost** -"
+			"**Requirements** {magic-wondrous/manual of bodily health}, {magic-wondrous/manual of gainful exercise}, {magic-wondrous/tome of understanding}, {magic-wondrous/tome of leadership and influence}; **Cost** -"
 		]
 	},
 	"unguent_of_aging": {
@@ -1908,7 +1889,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** unguent of timelessness; **Cost** -"
+			"**Requirements** {magic-wondrous/unguent of timelessness}; **Cost** -"
 		]
 	},
 	"unlucky_figurine": {
@@ -1945,7 +1926,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** robe of stars; **Cost** -"
+			"**Requirements** {magic-wondrous/robe of stars}; **Cost** -"
 		]
 	},
 	"vacuous_grimoire": {
@@ -1965,7 +1946,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** blessed book, manual of bodily health, manual of gainful exercise, manual of quickness of action, tome of clear thoughts; **Cost** -"
+			"**Requirements** {magic-wondrous/blessed book}, {magic-wondrous/manual of bodily health}, {magic-wondrous/manual of gainful exercise}, {magic-wondrous/manual of quickness of action}, {magic-wondrous/tome of clear thoughts}; **Cost** -"
 		]
 	},
 	"scroll_of_blood_ink": {

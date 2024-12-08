@@ -110,6 +110,8 @@ const postprocess = (prefix, tables, flags) => {
 			.replace(/<h2([^>]+)>Footnotes<\/h2>/g, "<h3$1>Footnotes</h3>")
 			// Replace unneeded HTML entity for the apostrophe
 			.replace(/&#39;/g, "'")
+			// Replace unneeded HTML entity for the quotation mark
+			.replace(/&quot;/g, "\"")
 			// Remove whitespace at start and end
 			.trim()
 		let output = "";
