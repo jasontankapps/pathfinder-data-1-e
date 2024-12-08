@@ -290,43 +290,43 @@ import race1 from './json/races.json' assert {type: 'json'};
 import race2 from './json/races2.json' assert {type: 'json'};
 import race3 from './json/races3.json' assert {type: 'json'};
 import race4 from './json/races4.json' assert {type: 'json'};
-import rule1 from './json/rules01.json' assert {type: 'json'};
-import rule2 from './json/rules02.json' assert {type: 'json'};
-import rule3 from './json/rules03.json' assert {type: 'json'};
-import rule4 from './json/rules04.json' assert {type: 'json'};
-import rule5 from './json/rules05.json' assert {type: 'json'};
-import rule6 from './json/rules06.json' assert {type: 'json'};
-import rule7 from './json/rules07.json' assert {type: 'json'};
-import rule8 from './json/rules08.json' assert {type: 'json'};
-import rule9 from './json/rules09.json' assert {type: 'json'};
-import rule10 from './json/rules10.json' assert {type: 'json'};
-import rule11 from './json/rules11.json' assert {type: 'json'};
-import rule12 from './json/rules12.json' assert {type: 'json'};
-import rule13 from './json/rules13.json' assert {type: 'json'};
-import rule14 from './json/rules14.json' assert {type: 'json'};
-import rule15 from './json/rules15.json' assert {type: 'json'};
-import rule16 from './json/rules16.json' assert {type: 'json'};
-import rule17 from './json/rules17.json' assert {type: 'json'};
-import rule18 from './json/rules18.json' assert {type: 'json'};
-import rule19 from './json/rules19.json' assert {type: 'json'};
-import rule20 from './json/rules20.json' assert {type: 'json'};
-import rule21 from './json/rules21.json' assert {type: 'json'};
-import rule22 from './json/rules22.json' assert {type: 'json'};
-import rule23 from './json/rules23.json' assert {type: 'json'};
-import rule24 from './json/rules24.json' assert {type: 'json'};
-import rule25 from './json/rules25.json' assert {type: 'json'};
-import rule26 from './json/rules26.json' assert {type: 'json'};
-import rule27 from './json/rules27.json' assert {type: 'json'};
-import rule28 from './json/rules28.json' assert {type: 'json'};
-import rule29 from './json/rules29.json' assert {type: 'json'};
-import rule30 from './json/rules30.json' assert {type: 'json'};
-import rule31 from './json/rules31.json' assert {type: 'json'};
-import rule32 from './json/rules32.json' assert {type: 'json'};
-import rule33 from './json/rules33.json' assert {type: 'json'};
-import rule34 from './json/rules34.json' assert {type: 'json'};
-import rule35 from './json/rules35.json' assert {type: 'json'};
-import rule36 from './json/rules36.json' assert {type: 'json'};
-import rule37 from './json/rules37.json' assert {type: 'json'};
+import rule1 from './json/rule01.json' assert {type: 'json'};
+import rule2 from './json/rule02.json' assert {type: 'json'};
+import rule3 from './json/rule03.json' assert {type: 'json'};
+import rule4 from './json/rule04.json' assert {type: 'json'};
+import rule5 from './json/rule05.json' assert {type: 'json'};
+import rule6 from './json/rule06.json' assert {type: 'json'};
+import rule7 from './json/rule07.json' assert {type: 'json'};
+import rule8 from './json/rule08.json' assert {type: 'json'};
+import rule9 from './json/rule09.json' assert {type: 'json'};
+import rule10 from './json/rule10.json' assert {type: 'json'};
+import rule11 from './json/rule11.json' assert {type: 'json'};
+import rule12 from './json/rule12.json' assert {type: 'json'};
+import rule13 from './json/rule13.json' assert {type: 'json'};
+import rule14 from './json/rule14.json' assert {type: 'json'};
+import rule15 from './json/rule15.json' assert {type: 'json'};
+import rule16 from './json/rule16.json' assert {type: 'json'};
+import rule17 from './json/rule17.json' assert {type: 'json'};
+import rule18 from './json/rule18.json' assert {type: 'json'};
+import rule19 from './json/rule19.json' assert {type: 'json'};
+import rule20 from './json/rule20.json' assert {type: 'json'};
+import rule21 from './json/rule21.json' assert {type: 'json'};
+import rule22 from './json/rule22.json' assert {type: 'json'};
+import rule23 from './json/rule23.json' assert {type: 'json'};
+import rule24 from './json/rule24.json' assert {type: 'json'};
+import rule25 from './json/rule25.json' assert {type: 'json'};
+import rule26 from './json/rule26.json' assert {type: 'json'};
+import rule27 from './json/rule27.json' assert {type: 'json'};
+import rule28 from './json/rule28.json' assert {type: 'json'};
+import rule29 from './json/rule29.json' assert {type: 'json'};
+import rule30 from './json/rule30.json' assert {type: 'json'};
+import rule31 from './json/rule31.json' assert {type: 'json'};
+import rule32 from './json/rule32.json' assert {type: 'json'};
+import rule33 from './json/rule33.json' assert {type: 'json'};
+import rule34 from './json/rule34.json' assert {type: 'json'};
+import rule35 from './json/rule35.json' assert {type: 'json'};
+import rule36 from './json/rule36.json' assert {type: 'json'};
+import rule37 from './json/rule37.json' assert {type: 'json'};
 import spell1 from './json/spells.json' assert {type: 'json'};
 import spell2 from './json/spells2.json' assert {type: 'json'};
 import spell3 from './json/spells3.json' assert {type: 'json'};
@@ -358,7 +358,7 @@ const basic_data_groups = {
 		num: 0,
 		type: "Skill"
 	},
-	"rules01": {
+	"rule01": {
 		data: rule1,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -367,7 +367,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules02": {
+	"rule02": {
 		data: rule2,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -376,7 +376,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules03": {
+	"rule03": {
 		data: rule3,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -385,7 +385,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules04": {
+	"rule04": {
 		data: rule4,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -394,7 +394,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules05": {
+	"rule05": {
 		data: rule5,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -403,7 +403,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules06": {
+	"rule06": {
 		data: rule6,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -412,7 +412,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules07": {
+	"rule07": {
 		data: rule7,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -421,7 +421,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules08": {
+	"rule08": {
 		data: rule8,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -430,7 +430,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules09": {
+	"rule09": {
 		data: rule9,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -439,7 +439,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules10": {
+	"rule10": {
 		data: rule10,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -448,7 +448,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules11": {
+	"rule11": {
 		data: rule11,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -457,7 +457,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules12": {
+	"rule12": {
 		data: rule12,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -466,7 +466,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules13": {
+	"rule13": {
 		data: rule13,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -475,7 +475,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules14": {
+	"rule14": {
 		data: rule14,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -484,7 +484,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules15": {
+	"rule15": {
 		data: rule15,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -493,7 +493,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules16": {
+	"rule16": {
 		data: rule16,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -502,7 +502,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules17": {
+	"rule17": {
 		data: rule17,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -511,7 +511,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules18": {
+	"rule18": {
 		data: rule18,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -520,7 +520,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules19": {
+	"rule19": {
 		data: rule19,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -529,7 +529,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules20": {
+	"rule20": {
 		data: rule20,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -538,7 +538,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules21": {
+	"rule21": {
 		data: rule21,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -547,7 +547,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules22": {
+	"rule22": {
 		data: rule22,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -556,7 +556,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules23": {
+	"rule23": {
 		data: rule23,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -565,7 +565,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules24": {
+	"rule24": {
 		data: rule24,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -574,7 +574,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules25": {
+	"rule25": {
 		data: rule25,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -583,7 +583,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules26": {
+	"rule26": {
 		data: rule26,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -592,7 +592,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules27": {
+	"rule27": {
 		data: rule27,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -601,7 +601,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules28": {
+	"rule28": {
 		data: rule28,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -610,7 +610,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules29": {
+	"rule29": {
 		data: rule29,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -619,7 +619,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules30": {
+	"rule30": {
 		data: rule30,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -628,7 +628,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules31": {
+	"rule31": {
 		data: rule31,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -637,7 +637,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules32": {
+	"rule32": {
 		data: rule32,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -646,7 +646,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules33": {
+	"rule33": {
 		data: rule33,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -655,7 +655,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules34": {
+	"rule34": {
 		data: rule34,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -664,7 +664,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules35": {
+	"rule35": {
 		data: rule35,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -673,7 +673,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules36": {
+	"rule36": {
 		data: rule36,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -682,7 +682,7 @@ const basic_data_groups = {
 		type: "Rules",
 		properties: [ "name" ]
 	},
-	"rules37": {
+	"rule37": {
 		data: rule37,
 		datatype: "rule",
 		searchgroup: 12, // rule
