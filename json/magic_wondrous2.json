@@ -834,7 +834,7 @@
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** hands; **Price** 9,000 gp; **Weight** -;",
 			"",
-			"These thin gloves are covered in reflective glyphs and sigils, and the palms are slightly tacky. Like gloves of arrow snaring, twice per day the wearer can act as if she had the {feat/Snatch Arrows} feat, even if she doesn't meet the prerequisites for that feat. In addition, the wearer can expend one of this item's uses per day to use the Snatch Arrows feat on a projectile targeting an ally in a space adjacent to her.",
+			"These thin gloves are covered in reflective glyphs and sigils, and the palms are slightly tacky. Like {magic-wondrous/gloves of arrow snaring}, twice per day the wearer can act as if she had the {feat/Snatch Arrows} feat, even if she doesn't meet the prerequisites for that feat. In addition, the wearer can expend one of this item's uses per day to use the Snatch Arrows feat on a projectile targeting an ally in a space adjacent to her.",
 			"",
 			"As an immediate action, the wearer can expend one use of mythic power and one of this item's uses per day to block a spell targeting her or an adjacent ally, as the parry spell guardian path ability.",
 			"",
@@ -4801,6 +4801,10 @@
 			"**Requirements** {feat/Craft Wondrous Item}, owl's wisdom; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
+	"headband_of_inspired_wisdom": {
+		"name": "Headband of Inspired Wisdom",
+		"copyof": "headband_of_inspired_wisdom_2"
+	},
 	"headband_of_inspired_wisdom_4": {
 		"name": "Headband of Inspired Wisdom (+4)",
 		"copyof": "headband_of_inspired_wisdom_2"
@@ -4829,6 +4833,10 @@
 			"**Requirements** {feat/Craft Wondrous Item}, fox's cunning; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
+	"headband_of_vast_intelligence": {
+		"name": "Headband of Vast Intelligence",
+		"copyof": "headband_of_vast_intelligence_2"
+	},
 	"headband_of_vast_intelligence_4": {
 		"name": "Headband of Vast Intelligence (+4)",
 		"copyof": "headband_of_vast_intelligence_2"
@@ -4856,6 +4864,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
+	},
+	"headband_of_alluring_charisma": {
+		"name": "Headband of Alluring Charisma",
+		"copyof": "headband_of_alluring_charisma_2"
 	},
 	"headband_of_alluring_charisma_4": {
 		"name": "Headband of Alluring Charisma (+4)",

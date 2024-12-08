@@ -2178,6 +2178,10 @@
 			"**Requirements** {feat/Craft Wondrous Item}, wish or miracle; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
 	},
+	"manual_of_bodily_health": {
+		"name": "Manual of Bodily Health",
+		"copyof": "manual_of_bodily_health_1"
+	},
 	"manual_of_bodily_health_2": {
 		"name": "Manual of Bodily Health (+2)",
 		"copyof": "manual_of_bodily_health_1"
@@ -2213,6 +2217,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, wish or miracle; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
+	},
+	"manual_of_quickness_of_action": {
+		"name": "Manual of Quickness of Action",
+		"copyof": "manual_of_quickness_of_action_1"
 	},
 	"manual_of_quickness_of_action_2": {
 		"name": "Manual of Quickness of Action (+2)",
@@ -2250,6 +2258,10 @@
 			"**Requirements** {feat/Craft Wondrous Item}, wish or miracle; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
 	},
+	"manual_of_gainful_exercise": {
+		"name": "Manual of Gainful Exercise",
+		"copyof": "manual_of_gainful_exercise_1"
+	},
 	"manual_of_gainful_exercise_2": {
 		"name": "Manual of Gainful Exercise (+2)",
 		"copyof": "manual_of_gainful_exercise_1"
@@ -2285,6 +2297,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, miracle or wish; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
+	},
+	"tome_of_clear_thought": {
+		"name": "Tome of Clear Thought",
+		"copyof": "tome_of_clear_thought_1"
 	},
 	"tome_of_clear_thought_2": {
 		"name": "Tome of Clear Thought (+2)",
@@ -2322,6 +2338,10 @@
 			"**Requirements** {feat/Craft Wondrous Item}, miracle or wish; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
 	},
+	"tome_of_understanding": {
+		"name": "Tome of Understanding",
+		"copyof": "tome_of_understanding_1"
+	},
 	"tome_of_understanding_2": {
 		"name": "Tome of Understanding (+2)",
 		"copyof": "tome_of_understanding_1"
@@ -2357,6 +2377,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, miracle or wish; **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)"
 		]
+	},
+	"tome_of_leadership_and_influence": {
+		"name": "Tome of Leadership and Influence",
+		"copyof": "tome_of_leadership_and_influence_1"
 	},
 	"tome_of_leadership_and_influence_2": {
 		"name": "Tome of Leadership and Influence (+2)",

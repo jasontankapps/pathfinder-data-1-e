@@ -143,7 +143,7 @@ const postprocess = (prefix, tables, flags) => {
 			output = output + `${pre}<div className="jumpList"><h2>Jump to:</h2><ul>`;
 			jumplist.split(/ +\/ +/).forEach(input => {
 				const hash = input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
-				output = output + `<li><HashLink scroll={scroller} to="#${prefix}${hash}">${input} &#8269;</HashLink></li>`;
+				output = output + `<li><HashLink scroll={scroller} to="#${prefix}${hash}">${input} &sect;</HashLink></li>`;
 			});
 			output = output + `</ul></div>`;
 			text = post;

@@ -1586,7 +1586,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-wondrous/anatomy doll}, {magic-wondrous/ganji doll}, {magic-wondrous/hexing doll}; **Cost** -"
+			"**Requirements** {magic-wondrous/anatomy doll}, {magic-fetish/ganji doll}, {magic-wondrous/hexing doll}; **Cost** -"
 		]
 	},
 	"one_way_window_cursed": {
@@ -1854,9 +1854,10 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-wondrous/ioun stone}, {magic-wondrous/stone of alarm}, {magic-wondrous/stone of controlling earth elementals}, {magic-wondrous/stone of good luck}; **Cost** -"
+			"**Requirements** {magic-wondrous/ioun stone}, {magic-wondrous/stone of alarm}, {magic-wondrous/stone of conjuring earth elementals}, {magic-wondrous/stone of good luck}; **Cost** -"
 		]
 	},
+	"stone_of_weight": { "copyof": "stone_of_weight_loadstone" },
 	"tome_of_heretical_revelation": {
 		"name": "Tome of Heretical Revelation",
 		"sources": [ "Faiths and Philosophies" ],
@@ -1946,7 +1947,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-wondrous/blessed book}, {magic-wondrous/manual of bodily health}, {magic-wondrous/manual of gainful exercise}, {magic-wondrous/manual of quickness of action}, {magic-wondrous/tome of clear thoughts}; **Cost** -"
+			"**Requirements** {magic-wondrous/blessed book}, {magic-wondrous/manual of bodily health}, {magic-wondrous/manual of gainful exercise}, {magic-wondrous/manual of quickness of action}, {magic-wondrous/tome of clear thought}; **Cost** -"
 		]
 	},
 	"scroll_of_blood_ink": {

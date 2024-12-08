@@ -402,6 +402,10 @@
 			"**Requirements** {feat/Craft Wondrous Item}, creator must be able to create alchemical extracts of the extract level to be stored; **Cost** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th)"
 		]
 	},
+	"preserving_flask": {
+		"name": "Preserving Flask",
+		"copyof": "preserving_flask_1st"
+	},
 	"preserving_flask_2nd": {
 		"name": "Preserving Flask (2nd)",
 		"copyof": "preserving_flask_1st"

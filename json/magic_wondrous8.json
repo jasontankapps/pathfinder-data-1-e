@@ -2038,6 +2038,10 @@
 			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor, fox's cunning, owl's wisdom (any two); **Cost** 5,000 gp (+2), 20,000 gp (+4), 45,000 gp (+6)"
 		]
 	},
+	"headband_of_mental_prowess": {
+		"name": "Headband of Mental Prowess",
+		"copyof": "headband_of_mental_prowess_2"
+	},
 	"headband_of_mental_prowess_4": {
 		"name": "Headband of Mental Prowess (+4)",
 		"copyof": "headband_of_mental_prowess_2"
@@ -2207,6 +2211,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor, fox's cunning, owl's wisdom; **Cost** 8,000 gp (+2), 32,000 gp (+4), 77,000 gp (+6)"
 		]
+	},
+	"headband_of_mental_superiority": {
+		"name": "Headband of Mental Superiority",
+		"copyof": "headband_of_mental_superiority_2"
 	},
 	"headband_of_mental_superiority_4": {
 		"name": "Headband of Mental Superiority (+4)",
@@ -3150,6 +3158,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, fireball; **Cost** 825 gp (Type I), 1,350 gp (Type II), 2,175 gp (Type III), 2,700 gp (Type IV), 2,925 gp (Type V), 4,050 gp (Type VI), 4,350 gp (Type VII)"
 		]
+	},
+	"necklace_of_fireballs": {
+		"name": "Necklace of Fireballs",
+		"copyof": "necklace_of_fireballs_type_1"
 	},
 	"necklace_of_fireballs_type_2": {
 		"name": "Necklace of Fireballs (Type II)",

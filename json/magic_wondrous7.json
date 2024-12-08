@@ -1806,7 +1806,7 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** shoulders; **Price** 17,500 gp; **Weight** 1 lb.",
 			"",
-			"This knee-length cape is decorated with images of butterflies, moths, and stars. Once per day, the wearer can speak a command word to cause the cape to transform into a cloud of butterflies or moths. This functions as {magic-wondrous/cape of wasps}, except the swarm doesn't deal poison damage and deals full damage to incorporeal creatures. In addition, the wearer can use glitterdust once per day.",
+			"This knee-length cape is decorated with images of butterflies, moths, and stars. Once per day, the wearer can speak a command word to cause the cape to transform into a cloud of butterflies or moths. This functions as {spell/cape of wasps}, except the swarm doesn't deal poison damage and deals full damage to incorporeal creatures. In addition, the wearer can use glitterdust once per day.",
 			"",
 			"### Construction",
 			"",
@@ -4198,7 +4198,7 @@
 			"**Aura** moderate divination; **CL** 10th  ",
 			"**Slot** headband; **Price** 71,300 gp; **Weight** 1 lb.",
 			"",
-			"A headband of vast intellect +6 also holds a consciousness that shares its knowledge and education with a suitable wearer. This intellect can be of any alignment and its only purpose is to share its vast knowledge with its wearer. The headband also functions as a helm of comprehend languages and read magic. Furthermore, instead of granting the normal skill ranks of a {magic-wondrous/headband of vast intellect +6}, this headband grants 4 ranks in six skills, but all of those skills must be Knowledge skills. It grants such intelligence by a stream of constant whispers and arguments that the headband communicates telepathically in Common or in one of 10 other languages it knows. Once per week on command, the wearer can also convince the headband to use legend lore as the spell, though the casting time is only a standard action.",
+			"A headband of vast intelligence +6 also holds a consciousness that shares its knowledge and education with a suitable wearer. This intelligence can be of any alignment and its only purpose is to share its vast knowledge with its wearer. The headband also functions as a helm of comprehend languages and read magic. Furthermore, instead of granting the normal skill ranks of a {magic-wondrous/headband of vast intelligence +6}, this headband grants 4 ranks in six skills, but all of those skills must be Knowledge skills. It grants such intelligence by a stream of constant whispers and arguments that the headband communicates telepathically in Common or in one of 10 other languages it knows. Once per week on command, the wearer can also convince the headband to use legend lore as the spell, though the casting time is only a standard action.",
 			"",
 			"### Construction",
 			"",
@@ -4307,7 +4307,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** bag of holding (any type); **Cost** -"
+			"**Requirements** {magic-wondrous/bag of holding/ (any type)}; **Cost** -"
 		]
 	},
 	"belt_of_weakness": {
@@ -4465,14 +4465,14 @@
 			"",
 			"Most bags of devouring appear to be normal sacks, but Chomper is unlike most bags of devouring. Sporting rows of vicious teeth, a bad attitude, and a thirst to devour all things, this intelligent cursed item believes that it is the favored maw and most important appendage of a creature it mysteriously refers to as the Eater of All. Chomper hates all creatures except for demons, whom it considers kindred spirits of destruction.",
 			"",
-			"Chomper has all of the magical abilities of a regular bag of devouring, along with the following additional powers. ",
+			"Chomper has all of the magical abilities of a regular {magic-wondrous/bag of devouring}, along with the following additional powers. ",
 			"",
 			"- As a standard action, Chomper's possessor can swing the bag by its straps in an attempt to strike any single creature or unattended item within a 5-foot radius. Chomper (not the wielder) can then make a single bite attack against the target. This bite has a +14 attack bonus and deals 1d10+5 points of damage plus 2 points of bleed damage. This action does not provoke attacks of opportunity. Attacks made in this way are never modified by the wielder's abilities.",
 			"- When a non-demon is in possession of Chomper, the bag's cursed aura imparts a -1 penalty on all of its wielder's attack rolls, saving throws, skill checks, and ability checks. If Chomper manages to gain dominance over a non-demon wielder through a personality conflict, it directs its bearer to seek out victims to feed to it.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-wondrous/bag of holding type III}; **Cost** -"
+			"**Requirements** {magic-wondrous/bag of holding/ type III}; **Cost** -"
 		]
 	},
 	"cloak_of_immolation": {
@@ -4633,7 +4633,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-wondrous/gauntlet of rust}, {magic-wondrous/gloves of arrow snatching}, {magic-wondrous/glove of storing}, {magic-wondrous/gloves of swimming and climbing}; **Cost** -"
+			"**Requirements** {magic-wondrous/gauntlet of rust}, {magic-wondrous/gloves of arrow snaring}, {magic-wondrous/glove of storing}, {magic-wondrous/gloves of swimming and climbing}; **Cost** -"
 		]
 	},
 	"girdle_of_opposite_gender": {
@@ -4716,7 +4716,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-wondrous/anatomy doll}, {magic-wondrous/hexing doll}, {magic-wondrous/ganji doll}; **Cost** -"
+			"**Requirements** {magic-wondrous/anatomy doll}, {magic-wondrous/hexing doll}, {magic-fetish/ganji doll}; **Cost** -"
 		]
 	},
 	"headband_of_stupidity": {
@@ -4730,11 +4730,11 @@
 			"**Aura** strong transmutation; **CL** 8th  ",
 			"**Slot** headband; **Weight** 1 lb.",
 			"",
-			"This headband appears to be a headband of vast intellect +4, but instead of granting a +4 bonus to Intelligence and bonuses to associated skills, the wearer take a -4 penalty to Intelligence and a further -2 penalty on all Knowledge checks. The wearer is not aware of the debilitating effects of the headband; even the stupidest statement or misguided insight seems intelligent to him while he is wearing it.",
+			"This headband appears to be a headband of vast intelligence +4, but instead of granting a +4 bonus to Intelligence and bonuses to associated skills, the wearer take a -4 penalty to Intelligence and a further -2 penalty on all Knowledge checks. The wearer is not aware of the debilitating effects of the headband; even the stupidest statement or misguided insight seems intelligent to him while he is wearing it.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-wondrous/headband of vast intellect +4}; **Cost** -"
+			"**Requirements** {magic-wondrous/headband of vast intelligence +4}; **Cost** -"
 		]
 	},
 	"helm_of_ikimizi": {

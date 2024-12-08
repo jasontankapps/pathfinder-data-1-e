@@ -2699,6 +2699,7 @@
 					[ [ "magic-staff/winters_reach", "Winter's Reach" ], 228000, 5, [ 1, "No" ] ],
 					[ [ "magic-staff/staff_of_power", "Staff of Power" ], 235000, 5, [ 1, "No" ] ],
 					[ [ "magic-staff/lasirros_staff", "Lasirro's Staff" ], 240000, 5, [ 1, "No" ] ],
+					[ [ "magic-staff/overcharged_staff", "Overcharged Staff" ], [ 0, "&mdash;" ], 5, [ 0, "Yes" ] ],
 					[ [ "magic-staff/staff_of_magical_decline", "Staff of Magical Decline" ], [ 0, "&mdash;" ], 5, [ 0, "Yes" ] ],
 					[ [ "magic-staff/staff_of_occasional_wonder", "Staff of Occasional Wonder" ], [ 0, "&mdash;" ], 4, [ 0, "Yes" ] ]
 				],
