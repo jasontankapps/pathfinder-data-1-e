@@ -2217,7 +2217,7 @@
 	},
 	"agent": {
 		"name": "Agent",
-		"subtitle": "Espionage Backgrounds",
+		"subtitle": "Espionage Character Backgrounds",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"{SOURCE Spymaster's Handbook/4}",
@@ -2248,7 +2248,7 @@
 	},
 	"mole": {
 		"name": "Mole",
-		"subtitle": "Espionage Backgrounds",
+		"subtitle": "Espionage Character Backgrounds",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"{SOURCE Spymaster's Handbook/4}",
@@ -2279,7 +2279,7 @@
 	},
 	"saboteur": {
 		"name": "Saboteur",
-		"subtitle": "Espionage Backgrounds",
+		"subtitle": "Espionage Character Backgrounds",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"{SOURCE Spymaster's Handbook/5}",
@@ -2309,7 +2309,7 @@
 	},
 	"spymaster_bg": {
 		"name": "Agent",
-		"subtitle": "Espionage Backgrounds",
+		"subtitle": "Espionage Character Backgrounds",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"{SOURCE Spymaster's Handbook/5}",

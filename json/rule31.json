@@ -1,7 +1,7 @@
 {
 	"influence": {
 		"name": "Influence",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/102}",
@@ -35,7 +35,7 @@
 	},
 	"individual_influence": {
 		"name": "Individual Influence",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/102}",
@@ -100,7 +100,7 @@
 	},
 	"discovery_check": {
 		"name": "Discovery Check",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/102}",
@@ -132,7 +132,7 @@
 	},
 	"influence_check": {
 		"name": "Influence Check",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/102}",
@@ -170,7 +170,7 @@
 	},
 	"before_a_social_event": {
 		"name": "Before a Social Event",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/103}",
@@ -198,7 +198,7 @@
 	},
 	"active_opponents": {
 		"name": "Active Opponents",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/103}",
@@ -226,7 +226,7 @@
 	},
 	"influence_and_magic": {
 		"name": "Influence and Magic",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/103}",
@@ -260,7 +260,7 @@
 	},
 	"secret_identities_and_hidden_allegiences": {
 		"name": "Secret Identities and Hidden Allegiences",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/104}",
@@ -290,7 +290,7 @@
 	},
 	"divided_parties": {
 		"name": "Divided Parties",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/104}",
@@ -318,7 +318,7 @@
 	},
 	"benefits_of_influence": {
 		"name": "Benefits of Influence",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/105}",
@@ -358,7 +358,7 @@
 	},
 	"countering_influence": {
 		"name": "Countering Influence",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/106}",
@@ -390,7 +390,7 @@
 	},
 	"neglect": {
 		"name": "Neglect",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/106}",
@@ -418,7 +418,7 @@
 	},
 	"social_stat_block": {
 		"name": "Social Stat Block",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/107}",
@@ -488,7 +488,7 @@
 	},
 	"using_the_individual_influence_system": {
 		"name": "Using the Individual Influence System",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/108}",
@@ -513,7 +513,7 @@
 	},
 	"setting_the_scene": {
 		"name": "Setting the Scene",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/108}",
@@ -534,7 +534,7 @@
 	},
 	"what_happened": {
 		"name": "What Happened",
-		"subtitle": "Influence, Intrigue, Gamemastery",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/108}",
@@ -555,7 +555,7 @@
 	},
 	"the_value_of_influence": {
 		"name": "The Value of Influence",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/108}",
@@ -576,7 +576,7 @@
 	},
 	"dramatis_personae": {
 		"name": "Dramatis Personae",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/108}",
@@ -659,7 +659,7 @@
 	},
 	"organizational_influence": {
 		"name": "Organizational Influence",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/109}",
@@ -692,7 +692,7 @@
 	},
 	"influence_points_and_ranks": {
 		"name": "Influence Points and Ranks",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/109}",
@@ -751,7 +751,7 @@
 	},
 	"positive_ranks": {
 		"name": "Positive Ranks",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/109}",
@@ -790,7 +790,7 @@
 	},
 	"negative_ranks": {
 		"name": "Negative Ranks",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/110}",
@@ -827,7 +827,7 @@
 	},
 	"gaining_influence_points": {
 		"name": "Gaining Influence Points",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/110}",
@@ -856,7 +856,7 @@
 	},
 	"losing_influence_points": {
 		"name": "Losing Influence Points",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/110}",
@@ -887,7 +887,7 @@
 	},
 	"organization_interactions": {
 		"name": "Organization Interactions",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/111}",
@@ -920,7 +920,7 @@
 	},
 	"prominence": {
 		"name": "Prominence",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/111}",
@@ -949,7 +949,7 @@
 	},
 	"favors": {
 		"name": "Favors",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/112}",
@@ -1017,7 +1017,7 @@
 	},
 	"clandestine_operations": {
 		"name": "Clandestine Operations",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/112}",
@@ -1050,7 +1050,7 @@
 	},
 	"organization_stat_block": {
 		"name": "Organization Stat Block",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/113}",
@@ -1103,7 +1103,7 @@
 	},
 	"common_benefits": {
 		"name": "Common Benefits",
-		"subtitle": "Organizations, Influence",
+		"subtitle": "Organizations, Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/114}",
@@ -1142,7 +1142,7 @@
 	},
 	"sample_organizations": {
 		"name": "Sample Organizations",
-		"subtitle": "Influence, Intrigue",
+		"subtitle": "Influence, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/114}",
@@ -1429,7 +1429,7 @@
 	},
 	"investment": {
 		"name": "Investment",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/164}",
@@ -1466,7 +1466,7 @@
 	},
 	"investment_mechanics": {
 		"name": "Investment Mechanics",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/164}",
@@ -1522,7 +1522,7 @@
 	},
 	"example_investments_and_problems": {
 		"name": "Example Investments and Problems",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/165}",
@@ -1566,6 +1566,7 @@
 	},
 	"primal_magic": {
 		"name": "Primal Magic",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"{SOURCE Inner Sea Magic/12}  ",
@@ -1637,7 +1638,7 @@
 	},
 	"relationships": {
 		"name": "Relationships",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/176}",
@@ -1678,7 +1679,7 @@
 	},
 	"relationship_levels": {
 		"name": "Relationship Levels",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/176}",
@@ -1717,7 +1718,7 @@
 	},
 	"growing_relationships": {
 		"name": "Growing Relationships",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/177}",
@@ -1751,7 +1752,7 @@
 	},
 	"reversing_relationships": {
 		"name": "Reversing Relationships",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/177}",
@@ -1773,7 +1774,7 @@
 	},
 	"example_relationships": {
 		"name": "Example Relationships",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/177}",
@@ -1799,7 +1800,7 @@
 	},
 	"parent": {
 		"name": "Parent",
-		"subtitle": "Relationships, Gamemastery",
+		"subtitle": "Relationships, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/177}",
@@ -1830,7 +1831,7 @@
 	},
 	"sibiling": {
 		"name": "Sibiling",
-		"subtitle": "Relationships, Gamemastery",
+		"subtitle": "Relationships, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/178}",
@@ -1863,7 +1864,7 @@
 	},
 	"childhood_rival": {
 		"name": "Childhood Rival",
-		"subtitle": "Relationships, Gamemastery",
+		"subtitle": "Relationships, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/178}",
@@ -1898,7 +1899,7 @@
 	},
 	"spouse": {
 		"name": "Spouse",
-		"subtitle": "Relationships, Gamemastery",
+		"subtitle": "Relationships, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/179}",
@@ -1929,7 +1930,7 @@
 	},
 	"reputation_and_fame": {
 		"name": "Reputation and Fame",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/180}",
@@ -1971,7 +1972,7 @@
 	},
 	"fame": {
 		"name": "Fame",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/181}",
@@ -2055,7 +2056,7 @@
 	},
 	"sphere_of_influence": {
 		"name": "Sphere of Influence",
-		"subtitle": "Gamemastery",
+		"subtitle": "Fame, Optional Subsystems",
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2096,7 +2097,7 @@
 	},
 	"prestige_points": {
 		"name": "Prestige Points",
-		"subtitle": "Gamemastery",
+		"subtitle": "Fame, Optional Subsystems",
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2134,7 +2135,7 @@
 	},
 	"fame_1": {
 		"name": "Fame 1",
-		"subtitle": "Gamemastery",
+		"subtitle": "Reputation and Fame, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/182}",
@@ -2163,7 +2164,7 @@
 	},
 	"fame_10": {
 		"name": "Fame 10",
-		"subtitle": "Gamemastery",
+		"subtitle": "Reputation and Fame, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/182}",
@@ -2194,7 +2195,7 @@
 	},
 	"fame_20": {
 		"name": "Fame 20",
-		"subtitle": "Gamemastery",
+		"subtitle": "Reputation and Fame, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/183}",
@@ -2237,7 +2238,7 @@
 	},
 	"fame_30": {
 		"name": "Fame 30",
-		"subtitle": "Gamemastery",
+		"subtitle": "Reputation and Fame, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/183}",
@@ -2272,7 +2273,7 @@
 	},
 	"fame_40": {
 		"name": "Fame 40",
-		"subtitle": "Gamemastery",
+		"subtitle": "Reputation and Fame, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/184}",
@@ -2301,7 +2302,7 @@
 	},
 	"fame_55": {
 		"name": "Fame 55+",
-		"subtitle": "Gamemastery",
+		"subtitle": "Reputation and Fame, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/184}",
@@ -2328,7 +2329,7 @@
 	},
 	"shared_fame": {
 		"name": "Shared Fame",
-		"subtitle": "Gamemastery",
+		"subtitle": "Reputation and Fame, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/185}",
@@ -2349,7 +2350,7 @@
 	},
 	"alter_egos_aliases_and_secret_identities": {
 		"name": "Alter Egos, Aliases, and Secret Identities",
-		"subtitle": "Gamemastery",
+		"subtitle": "Fame, Optional Subsystems",
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2375,7 +2376,7 @@
 	},
 	"research": {
 		"name": "Research",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/148}",
@@ -2413,7 +2414,7 @@
 	},
 	"using_a_library": {
 		"name": "Using a Library",
-		"subtitle": "Research, Intrigue",
+		"subtitle": "Research, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/148}",
@@ -2443,7 +2444,7 @@
 	},
 	"research_by_expertise": {
 		"name": "Research by Expertise",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/148}",
@@ -2465,7 +2466,7 @@
 	},
 	"designing_a_library": {
 		"name": "Designing a Library",
-		"subtitle": "Research, Intrigue",
+		"subtitle": "Research, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/149}",
@@ -2526,7 +2527,7 @@
 	},
 	"additional_elements": {
 		"name": "Additional Elements",
-		"subtitle": "Research, Intrigue",
+		"subtitle": "Research, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/151}",
@@ -2561,7 +2562,7 @@
 	"sample_libraries": {
 		"name": "Sample Libraries",
 		"tags": "library stat block",
-		"subtitle": "Research, Intrigue",
+		"subtitle": "Research, Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/152}",
@@ -2704,7 +2705,7 @@
 	},
 	"spell_alterations": {
 		"name": "Spellcasting Alterations",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/146}",
@@ -2738,7 +2739,7 @@
 	},
 	"limited_magic": {
 		"name": "Limited Magic",
-		"subtitle": "Unchained",
+		"subtitle": "Spellcasting Alterations, Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/146}",
@@ -2762,69 +2763,17 @@
 			"| 8 | 15 | - | - | 18 | 22 |",
 			"| 9 | 17 | - | - | 19 | 23 |",
 			"",
-			"&#42; For a sorcerer, increase the minimum caster level of any spell of 2nd level or higher by 1."
-		],
-		"parent_topics": [
-			"optional_subsystems",
-			"spell_alterations"
-		],
-		"subtopics": [
-			"limited_magic_items",
-			"heighten_spell",
-			"other_considerations_pu"
-		],
-		"siblings": [
-			"limited_magic",
-			"wild_magic",
-			"active_spellcasting"
-		]
-	},
-	"limited_magic_items": {
-		"name": "Limited Magic Items",
-		"subtitle": "Unchained",
-		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"{SOURCE Pathfinder Unchained/146}",
+			"&#42; For a sorcerer, increase the minimum caster level of any spell of 2nd level or higher by 1.",
 			"",
-			"Spells from magic items use the same rules as above. That means a {spell/fireball} cast from a wand created by a sorcerer or wizard has the same save DC and amount of damage dice as a {spell/fireball} cast by any sorcerer or wizard. When calculating the base cost or price of a magic item, always use the minimum CL as defined by this system (even if the item's creator would have had a higher caster level). Potions and scrolls always default to the appropriate cleric, druid, or wizard spell level to determine their base costs."
-		],
-		"parent_topics": [
-			"optional_subsystems",
-			"spell_alterations",
-			"limited_magic"
-		],
-		"siblings": [
-			"limited_magic_items",
-			"heighten_spell",
-			"other_considerations_pu"
-		]
-	},
-	"heighten_spell": {
-		"name": "Heighten Spell",
-		"subtitle": "Unchained",
-		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"{SOURCE Pathfinder Unchained/146}",
+			"### Limited Magic Items",
 			"",
-			"Under this system, spells can still be improved using {feat/Heighten Spell}. A heightened spell uses the minimum CL, but does so as though it were a higher-level spell. For example, a {spell/fireball} heightened to 5th level would have a DC of 17 and deal 9d6 points of damage, the same as a {spell/cone of cold} cast in the same slot."
-		],
-		"parent_topics": [
-			"optional_subsystems",
-			"spell_alterations",
-			"limited_magic"
-		],
-		"siblings": [
-			"limited_magic_items",
-			"heighten_spell",
-			"other_considerations_pu"
-		]
-	},
-	"other_considerations_pu": {
-		"name": "Other Considerations",
-		"subtitle": "Unchained",
-		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"{SOURCE Pathfinder Unchained/146}",
+			"Spells from magic items use the same rules as above. That means a {spell/fireball} cast from a wand created by a sorcerer or wizard has the same save DC and amount of damage dice as a {spell/fireball} cast by any sorcerer or wizard. When calculating the base cost or price of a magic item, always use the minimum CL as defined by this system (even if the item's creator would have had a higher caster level). Potions and scrolls always default to the appropriate cleric, druid, or wizard spell level to determine their base costs.",
+			"",
+			"### Heighten Spell",
+			"",
+			"Under this system, spells can still be improved using {feat/Heighten Spell}. A heightened spell uses the minimum CL, but does so as though it were a higher-level spell. For example, a {spell/fireball} heightened to 5th level would have a DC of 17 and deal 9d6 points of damage, the same as a {spell/cone of cold} cast in the same slot.",
+			"",
+			"### Other Considerations",
 			"",
 			"Limited magic can take some getting used to. It reduces the power of most spellcasters dramatically, but can speed the game up by requiring less research into the caster levels of monsters, NPCs, and magic items. Limited magic can also encourage better-rounded spellcaster characters, especially if you're using the purchase system to generate ability scores, as there's less reward for focusing solely on their spellcasting attributes. Using this system means that if a class gets a spell at a lower level than another class does, that spell's effects are weaker for the former class. A bard's {spell/heroism} is not as good as a wizard's. However, classes with slower spell progressions (such as the bard, paladin, and ranger) have other abilities that keep them competitive when limited magic weakens the overall power of spells.",
 			"",
@@ -2834,18 +2783,17 @@
 		],
 		"parent_topics": [
 			"optional_subsystems",
-			"spell_alterations",
-			"limited_magic"
+			"spell_alterations"
 		],
 		"siblings": [
-			"limited_magic_items",
-			"heighten_spell",
-			"other_considerations_pu"
+			"limited_magic",
+			"wild_magic",
+			"active_spellcasting"
 		]
 	},
 	"wild_magic": {
 		"name": "Wild Magic",
-		"subtitle": "Unchained",
+		"subtitle": "Spellcasting Alterations, Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/147}",
@@ -2918,7 +2866,7 @@
 	},
 	"implementing_wild_magic": {
 		"name": "Implementing Wild Magic",
-		"subtitle": "Unchained",
+		"subtitle": "Spellcasting Alterations, Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/147}",
@@ -2942,7 +2890,7 @@
 	},
 	"active_spellcasting": {
 		"name": "Active Spellcasting",
-		"subtitle": "Unchained",
+		"subtitle": "Spellcasting Alterations, Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/148}",
@@ -2967,7 +2915,7 @@
 	},
 	"overclocked_spells": {
 		"name": "Overclocked Spells",
-		"subtitle": "Unchained",
+		"subtitle": "Active Spellcasting, Alterations, Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/148}",
@@ -2994,7 +2942,7 @@
 	},
 	"spell_attack_rolls": {
 		"name": "Spell Attack Rolls",
-		"subtitle": "Unchained",
+		"subtitle": "Active Spellcasting, Alterations, Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/148}",
@@ -3021,7 +2969,7 @@
 	},
 	"spell_critical_hits": {
 		"name": "Spell Critical Hits",
-		"subtitle": "Unchained",
+		"subtitle": "Active Spellcasting, Alterations, Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/149}",
@@ -3048,7 +2996,7 @@
 	},
 	"spell_fumbles": {
 		"name": "Spell Fumbles",
-		"subtitle": "Unchained",
+		"subtitle": "Active Spellcasting, Alterations, Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/149}",
@@ -3090,7 +3038,7 @@
 	},
 	"stamina_and_combat_tricks": {
 		"name": "Stamina and Combat Tricks",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/112}",
@@ -3132,7 +3080,7 @@
 	},
 	"combat_stamina": {
 		"name": "Combat Stamina",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/112}",
@@ -3153,6 +3101,7 @@
 	},
 	"the_hunger": {
 		"name": "Undead Hunger",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"{SOURCE Blood of the Night/22}  ",
@@ -3190,7 +3139,7 @@
 	},
 	"creatures_and_their_hunger": {
 		"name": "Creatures and Their Hunger",
-		"subtitle": "Hunger of the Undead",
+		"subtitle": "Undead Hunger, Optional Subsystems",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"For vampires, managing their hunger is an integral part of unlife. Some revel in the feast, but for others it is nothing but a constant source of stress and shame. A vampire who refuses to feed on intelligent beings is relegated to the dull taste of animal blood out of necessity, and forsakes the euphoria of a true feed.",
@@ -3214,7 +3163,7 @@
 	},
 	"hunger_rules": {
 		"name": "Hunger Rules",
-		"subtitle": "Hunger of the Undead",
+		"subtitle": "Undead Hunger, Optional Subsystems",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"Where the living suffer physically from starvation, undead suffer mentally. After long enough without a \"meal,\" even the most arrogant vampire becomes a bestial creature of instinct. Withdrawal weakens the monster, and as its natural defenses fail, its behavior becomes irrational, particularly when it's around sources of what it is denied or has denied itself.",
@@ -3238,7 +3187,7 @@
 	},
 	"withdrawal_effects": {
 		"name": "Withdrawl Effects",
-		"subtitle": "Hunger of the Undead",
+		"subtitle": "Undead Hunger, Optional Subsystems",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"An undead that hasn't fed recently suffers from withdrawal, depending on the number of hunger saves it has failed. As shown on the Withdrawal Penalties table, an undead creature suffering from withdrawal takes penalties to channel resistance, on Will saves, to Strength and Charisma scores, to damage reduction, to fast healing, and on Disguise checks. The withdrawal penalties apply only if the creature has the ability in question. For example, a hungry moroi's damage reduction decreases,",
@@ -3274,7 +3223,7 @@
 	},
 	"feeding_bonuses": {
 		"name": "Feeding Bonuses",
-		"subtitle": "Hunger of the Undead",
+		"subtitle": "Undead Hunger, Optional Subsystems",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"What constitutes a feeding differs for each undead creature according to its own addiction. For creatures with a blood drain, level drain, or ability drain ability, each use of that ability counts as a feeding. Hungering creatures that lack a drain ability, such as zombies and ghouls, count consuming 1 pound of flesh as feeding (larger and smaller undead require proportionately more or less flesh). For these creatures, the flesh of a creature that has been dead for more than 1 hour staves off withdrawal but does not grant any other benefits, such as feeding bonuses (see below).",

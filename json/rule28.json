@@ -25,6 +25,7 @@
 	},
 	"affiliations": {
 		"name": "Affiliations",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"{SOURCE Adventurer's Guide/5}",
@@ -1030,7 +1031,7 @@
 	},
 	"bargaining": {
 		"name": "Bargaining",
-		"subtitle": "Mastering Campaigns, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/138}",
@@ -1067,7 +1068,7 @@
 	},
 	"bargaining_rules": {
 		"name": "Bargaining Rules",
-		"subtitle": "Mastering Campaigns, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/138}",
@@ -1093,7 +1094,7 @@
 	},
 	"steps_of_bargaining": {
 		"name": "The 5 Steps of Bargaining",
-		"subtitle": "Mastering Campaigns, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/138}",
@@ -1150,7 +1151,7 @@
 	},
 	"examples_of_bargaining": {
 		"name": "Examples of Bargaining",
-		"subtitle": "Mastering Campaigns, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/139}",
@@ -1171,7 +1172,7 @@
 	},
 	"other_elements_of_bargaining": {
 		"name": "Other Elements of Bargaining",
-		"subtitle": "Mastering Campaigns, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/139}",
@@ -1203,7 +1204,7 @@
 	},
 	"contacts": {
 		"name": "Contacts",
-		"subtitle": "Mastering Campaigns, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/148}",
@@ -1245,7 +1246,7 @@
 	},
 	"trust": {
 		"name": "Trust",
-		"subtitle": "Contacts, Mastering Campaigns, Gamemastery",
+		"subtitle": "Contacts, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/148}",
@@ -1280,7 +1281,7 @@
 	},
 	"risk": {
 		"name": "Risk",
-		"subtitle": "Contacts, Mastering Campaigns, Gamemastery",
+		"subtitle": "Contacts, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/148}",
@@ -1323,7 +1324,7 @@
 	},
 	"negotiation_checks": {
 		"name": "Negotiation Checks",
-		"subtitle": "Contacts, Mastering Campaigns, Gamemastery",
+		"subtitle": "Contacts, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/150}",
@@ -1364,7 +1365,7 @@
 	},
 	"gaining_cultivating_and_losing_contacts": {
 		"name": "Gaining, Cultivating, and Losing Contacts",
-		"subtitle": "Mastering Campaigns, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/151}",
@@ -1403,7 +1404,7 @@
 	},
 	"types_of_contacts": {
 		"name": "Types of Contacts",
-		"subtitle": "Mastering Campaigns, Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/151}",
@@ -1474,7 +1475,7 @@
 	},
 	"factions": {
 		"name": "Factions",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"{SOURCE Faction Guide/2}",
@@ -1521,6 +1522,7 @@
 	},
 	"faction_basics": {
 		"name": "Faction Basics",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"{SOURCE Faction Guide/3}",
@@ -1658,6 +1660,7 @@
 	},
 	"f_profiteers": {
 		"name": "Crimson Syndicate",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Aspis Consortium  ",
@@ -1726,6 +1729,7 @@
 	},
 	"f_antislavery": {
 		"name": "Breakers of Chains",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Bellflower Network  ",
@@ -1784,6 +1788,7 @@
 	},
 	"f_merceneries": {
 		"name": "Friendly Merceneries",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Bloodstone Swords  ",
@@ -1857,6 +1862,7 @@
 	},
 	"f_vangard": {
 		"name": "Vanguard of Liberty",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Eagle Knights  ",
@@ -1927,6 +1933,7 @@
 	},
 	"f_lawknights": {
 		"name": "Steel Knights",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Hellknights  ",
@@ -2005,6 +2012,7 @@
 	},
 	"f_bards": {
 		"name": "Bardic College",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Kitharodian Academy  ",
@@ -2073,6 +2081,7 @@
 	},
 	"f_clans": {
 		"name": "Clans of the Perfect Army",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Kusari-Gama  ",
@@ -2150,6 +2159,7 @@
 	},
 	"f_legion": {
 		"name": "The Lost Legion",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Ninth Battalion  ",
@@ -2233,6 +2243,7 @@
 	},
 	"f_old_cults": {
 		"name": "Old Cults",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Old Cults  ",
@@ -2288,6 +2299,7 @@
 	},
 	"f_profits": {
 		"name": "The Profits",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Prophets of Kalistrade  ",
@@ -2353,6 +2365,7 @@
 	},
 	"f_second_life": {
 		"name": "The Second Life",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Risen Guard  ",
@@ -2420,6 +2433,7 @@
 	},
 	"f_imperial": {
 		"name": "Imperial Guard",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Ulfen Guard  ",
@@ -2483,6 +2497,7 @@
 	},
 	"f_gravepath": {
 		"name": "The Gravepath",
+		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"***Pathfinder Name:*** Whispering Way  ",
@@ -2550,6 +2565,7 @@
 	},
 	"faction_costs": {
 		"name": "Standard Faction Costs",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"{SOURCE Faction Guide/54}",
@@ -2660,6 +2676,7 @@
 	},
 	"hero_points": {
 		"name": "Hero Points",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"{SOURCE Advanced Player's Guide/322}",
@@ -2696,6 +2713,7 @@
 	},
 	"awarding_hero_points": {
 		"name": "Awarding Hero Points",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"{SOURCE Advanced Player's Guide/322}",
@@ -2729,6 +2747,7 @@
 	},
 	"using_hero_points": {
 		"name": "Using Hero Points",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"{SOURCE Advanced Player's Guide/323}",
@@ -2764,6 +2783,7 @@
 	},
 	"hero_points_for_gms": {
 		"name": "Hero Points for GMs",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"{SOURCE Advanced Player's Guide/324}",
@@ -2807,7 +2827,7 @@
 	},
 	"honor": {
 		"name": "Honor",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/160}",
@@ -2850,7 +2870,7 @@
 	},
 	"honor_points": {
 		"name": "Honor Points",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/160}",
@@ -2874,7 +2894,7 @@
 	},
 	"gaining_and_losing_honor": {
 		"name": "Gaining and Losing Honor",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/161}",
@@ -2930,7 +2950,7 @@
 	},
 	"chivalric_code": {
 		"name": "Chivalric Code",
-		"subtitle": "Honor, Gamemastery",
+		"subtitle": "Honor, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/162}",
@@ -2975,7 +2995,7 @@
 	},
 	"criminal_code": {
 		"name": "Criminal Code",
-		"subtitle": "Honor, Gamemastery",
+		"subtitle": "Honor, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/162}",
@@ -3022,7 +3042,7 @@
 	},
 	"political_code": {
 		"name": "Political Code",
-		"subtitle": "Honor, Gamemastery",
+		"subtitle": "Honor, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/162}",
@@ -3074,7 +3094,7 @@
 	},
 	"samurai_code": {
 		"name": "Samurai Code",
-		"subtitle": "Honor, Gamemastery",
+		"subtitle": "Honor, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/163}",
@@ -3120,7 +3140,7 @@
 	},
 	"tribal_code": {
 		"name": "Tribal Code",
-		"subtitle": "Honor, Gamemastery",
+		"subtitle": "Honor, Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/163}",
@@ -3166,7 +3186,7 @@
 	},
 	"spending_honor": {
 		"name": "Spending Honor",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/161}",
@@ -3201,7 +3221,7 @@
 	},
 	"consequences_of_losing_honor": {
 		"name": "Consequences of Losing Honor",
-		"subtitle": "Gamemastery",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/161}",

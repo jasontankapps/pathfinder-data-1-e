@@ -32,6 +32,7 @@ const ArchetypeGroup5Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
 		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [title, "class/" + parent], ...subhierarchy]}
 		sources={sources}
 		pageId={pageId}
+		topLink={[title, "class/" + parent]}
 	>{jsx}</BasicPage>;
 };
 

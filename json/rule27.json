@@ -170,7 +170,7 @@
 	},
 	"foraging": {
 		"name": "Foraging",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/134}",
@@ -231,7 +231,7 @@
 	},
 	"harvesting_poisons": {
 		"name": "Harvesting Poisons",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/142}",
@@ -270,7 +270,7 @@
 	},
 	"crafting_antivenom": {
 		"name": "Crafting Antivenom",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Specific Rulesets",
 		"tags": "poison",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -296,7 +296,7 @@
 	},
 	"herbalism": {
 		"name": "Herbalism",
-		"subtitle": "Wilderness",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/152}",
@@ -703,7 +703,7 @@
 	},
 	"leadership": {
 		"name": "Leadership",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/130}",
@@ -733,7 +733,7 @@
 	},
 	"leadership_modifiers": {
 		"name": "Leadership Modifiers",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/130}",
@@ -769,7 +769,7 @@
 	},
 	"high_leadership_scores_and_followers": {
 		"name": "High Leadership Scores and Followers",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/130}",
@@ -793,7 +793,7 @@
 	},
 	"loyalty_and_the_leadership_feat": {
 		"name": "Loyalty and the Leadership Feat",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/131}",
@@ -819,7 +819,7 @@
 	},
 	"the_role_of_cohorts_and_followers": {
 		"name": "The Role of Cohorts and Followers",
-		"subtitle": "Leadership, Intrigue",
+		"subtitle": "Leadership, Specific Rulesets",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/131}",
@@ -859,7 +859,7 @@
 	},
 	"monstrous_allies": {
 		"name": "Monstrous Allies",
-		"subtitle": "Leadership, Intrigue",
+		"subtitle": "Leadership, Specific Rulesets",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Ultimate Intrigue"
@@ -1058,7 +1058,7 @@
 	},
 	"variant_leadership": {
 		"name": "Variant Leadership",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/132}",
@@ -1087,7 +1087,7 @@
 	},
 	"salvaging": {
 		"name": "Salvaging",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/134}",
@@ -1119,6 +1119,7 @@
 	},
 	"siege_engine_rules": {
 		"name": "Siege Engine Rules",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/158}",
@@ -1176,6 +1177,7 @@
 	},
 	"siege_engine_qualities": {
 		"name": "Siege Engine Qualities",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/159}",
@@ -1251,6 +1253,7 @@
 	},
 	"structure_hardness_and_hit_points": {
 		"name": "Structure Hardness and Hit Points",
+		"subtitle": "Siege Engines, Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/166}",
@@ -1276,8 +1279,8 @@
 	},
 	"buildings_uc": {
 		"name": "Buildings",
-		"subtitle": "Structures",
-		"tags": "hardness siege engines",
+		"subtitle": "Siege Engines, Specific Rulesets",
+		"tags": "hardness",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/167}",
@@ -1310,8 +1313,8 @@
 	},
 	"gates": {
 		"name": "Gates",
-		"subtitle": "Structures",
-		"tags": "hardness siege engines",
+		"subtitle": "Siege Engines, Specific Rulesets",
+		"tags": "hardness",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/167}",
@@ -1346,8 +1349,8 @@
 	},
 	"walls_uc": {
 		"name": "Walls",
-		"subtitle": "Structures",
-		"tags": "hardness siege engines",
+		"subtitle": "Siege Engines, Specific Rulesets",
+		"tags": "hardness",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/167}",
@@ -1380,6 +1383,7 @@
 	},
 	"vehicles": {
 		"name": "Vehicles",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/170}",
@@ -1413,6 +1417,7 @@
 	},
 	"vehicle_basics": {
 		"name": "Vehicle Basics",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/170}",
@@ -1443,6 +1448,7 @@
 	},
 	"full_vehicle_rules": {
 		"name": "Full Vehicle Rules",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/170}",
@@ -1569,6 +1575,7 @@
 	},
 	"vehicle_size_and_space": {
 		"name": "Vehicle Size and Space",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/172}",
@@ -1607,6 +1614,7 @@
 	},
 	"vehicle_facing_and_movement": {
 		"name": "Vehicle Facing and Movement",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/172}",
@@ -1638,6 +1646,7 @@
 	},
 	"driving_vehicles": {
 		"name": "Driving Vehicles",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/173}",
@@ -1717,6 +1726,7 @@
 	},
 	"vehicles_in_combat": {
 		"name": "Vehicles in Combat",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/174}",
@@ -2147,6 +2157,7 @@
 	},
 	"vehicle_statistics": {
 		"name": "Vehicle Statistics",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/180}",
@@ -2204,6 +2215,7 @@
 	},
 	"land_vehicles": {
 		"name": "Land Vehicles",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/181}",
@@ -2731,6 +2743,7 @@
 	},
 	"water_vehicles": {
 		"name": "Water Vehicles",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/184}",
@@ -2769,6 +2782,7 @@
 	},
 	"wv_galley": {
 		"name": "Galley",
+		"subtitle": "Water Vehicles",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/184}",
@@ -3058,6 +3072,7 @@
 	},
 	"air_vehicles": {
 		"name": "Air Vehicles",
+		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/186}",

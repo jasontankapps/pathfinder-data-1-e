@@ -14,7 +14,7 @@
 	},
 	"automatic_bonus_progression": {
 		"name": "Automatic Bonus Progression",
-		"subtitle": "Unchained",
+		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/156}",
@@ -65,7 +65,7 @@
 	},
 	"bonuses": {
 		"name": "Bonuses",
-		"subtitle": "Unchained",
+		"subtitle": "Automatic Bonus Progression",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/156}",
@@ -93,7 +93,7 @@
 	},
 	"armor_attunement": {
 		"name": "Armor Attunement",
-		"subtitle": "Unchained",
+		"subtitle": "Automatic Bonus Progression",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/156}",
@@ -118,7 +118,7 @@
 	},
 	"deflection": {
 		"name": "Deflection",
-		"subtitle": "Unchained",
+		"subtitle": "Automatic Bonus Progression",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/156}",
@@ -143,7 +143,7 @@
 	},
 	"legendary_gifts": {
 		"name": "Legendary Gifts",
-		"subtitle": "Unchained",
+		"subtitle": "Automatic Bonus Progression",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/156}",
@@ -186,7 +186,7 @@
 	},
 	"mental_prowess": {
 		"name": "Mental Prowess",
-		"subtitle": "Unchained",
+		"subtitle": "Automatic Bonus Progression",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/157}",
@@ -211,7 +211,7 @@
 	},
 	"physical_prowess": {
 		"name": "Physical Prowess",
-		"subtitle": "Unchained",
+		"subtitle": "Automatic Bonus Progression",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/157}",
@@ -236,7 +236,7 @@
 	},
 	"resistance": {
 		"name": "Resistance",
-		"subtitle": "Unchained",
+		"subtitle": "Automatic Bonus Progression",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/157}",
@@ -261,7 +261,7 @@
 	},
 	"toughening": {
 		"name": "Toughening",
-		"subtitle": "Unchained",
+		"subtitle": "Automatic Bonus Progression",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/157}",
@@ -286,7 +286,7 @@
 	},
 	"weapon_attunement": {
 		"name": "Weapon Attunement",
-		"subtitle": "Unchained",
+		"subtitle": "Automatic Bonus Progression",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/157}",
@@ -311,7 +311,7 @@
 	},
 	"magic_weapons_and_armor": {
 		"name": "Magic Weapons and Armor",
-		"subtitle": "Unchained",
+		"subtitle": "Automatic Bonus Progression",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/157}",
@@ -339,7 +339,7 @@
 	},
 	"innate_item_bonuses": {
 		"name": "Innate Item Bonuses",
-		"subtitle": "Unchained",
+		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/158}",
@@ -365,7 +365,7 @@
 	},
 	"bonus_and_price_overview": {
 		"name": "Bonus and Price Overview",
-		"subtitle": "Unchained",
+		"subtitle": "Innate Item Bonuses, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/158}",
@@ -391,7 +391,7 @@
 	},
 	"wondrous_items_pu": {
 		"name": "Wondrous Items",
-		"subtitle": "Unchained",
+		"subtitle": "Innate Item Bonuses, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/158}",
@@ -467,7 +467,7 @@
 	},
 	"rings_pu": {
 		"name": "Rings",
-		"subtitle": "Unchained",
+		"subtitle": "Innate Item Bonuses, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/159}",
@@ -502,7 +502,7 @@
 	},
 	"arms_and_armor": {
 		"name": "Arms and Armor",
-		"subtitle": "Unchained",
+		"subtitle": "Innate Item Bonuses, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/159}",
@@ -524,7 +524,7 @@
 	},
 	"fractional_base_bonuses": {
 		"name": "Multiclass Fractional Base Bonuses",
-		"subtitle": "Unchained",
+		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/40}",
@@ -578,7 +578,7 @@
 	},
 	"base_attack_bonus": {
 		"name": "Base Attack Bonus",
-		"subtitle": "Unchained",
+		"subtitle": "Multiclass Fractional Base Bonuses",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/40}",
@@ -599,7 +599,7 @@
 	},
 	"base_save_bonus": {
 		"name": "Base Save Bonus",
-		"subtitle": "Unchained",
+		"subtitle": "Multiclass Fractional Base Bonuses",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/40}",
@@ -624,7 +624,7 @@
 	},
 	"bonuses_by_level": {
 		"name": "Bonuses by Level",
-		"subtitle": "Unchained",
+		"subtitle": "Multiclass Fractional Base Bonuses",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/41}",
@@ -645,7 +645,7 @@
 	},
 	"staggered_advancement": {
 		"name": "Staggered Advancement",
-		"subtitle": "Unchained",
+		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/42}",
@@ -664,7 +664,7 @@
 	},
 	"using_staggered_advancement": {
 		"name": "Using Staggered Advancement",
-		"subtitle": "Unchained",
+		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/42}",
@@ -777,7 +777,7 @@
 	},
 	"variant_multiclassing": {
 		"name": "Variant Multiclassing",
-		"subtitle": "Unchained",
+		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -824,7 +824,7 @@
 	},
 	"core_classes": {
 		"name": "Core Classes",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -855,7 +855,7 @@
 	},
 	"barbarian": {
 		"name": "Barbarian",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -893,7 +893,7 @@
 	},
 	"bard": {
 		"name": "Bard",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -931,7 +931,7 @@
 	},
 	"cleric": {
 		"name": "Cleric",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -971,7 +971,7 @@
 	},
 	"druid": {
 		"name": "Druid",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -1011,7 +1011,7 @@
 	},
 	"fighter": {
 		"name": "Fighter",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1049,7 +1049,7 @@
 	},
 	"monk": {
 		"name": "Monk",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1089,7 +1089,7 @@
 	},
 	"paladin": {
 		"name": "Paladin",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1129,7 +1129,7 @@
 	},
 	"ranger": {
 		"name": "Ranger",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1167,7 +1167,7 @@
 	},
 	"rogue": {
 		"name": "Rogue",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1205,7 +1205,7 @@
 	},
 	"sorcerer": {
 		"name": "Sorcerer",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1245,7 +1245,7 @@
 	},
 	"wizard": {
 		"name": "Wizard",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1285,7 +1285,7 @@
 	},
 	"base_classes_pu": {
 		"name": "Base Classes",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1313,7 +1313,7 @@
 	},
 	"alchemist": {
 		"name": "Alchemist",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1348,7 +1348,7 @@
 	},
 	"cavalier": {
 		"name": "Cavalier",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1385,7 +1385,7 @@
 	},
 	"gunslinger": {
 		"name": "Gunslinger",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1420,7 +1420,7 @@
 	},
 	"inquisitor": {
 		"name": "Inquisitor",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1457,7 +1457,7 @@
 	},
 	"magus": {
 		"name": "Magus",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1492,7 +1492,7 @@
 	},
 	"oracle": {
 		"name": "Oracle",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/91}",
@@ -1551,7 +1551,7 @@
 	},
 	"summoner": {
 		"name": "Summoner",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/91}",
@@ -1586,7 +1586,7 @@
 	},
 	"witch": {
 		"name": "Witch",
-		"subtitle": "Unchained",
+		"subtitle": "Variant Multiclassing, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/91}",
@@ -1634,7 +1634,7 @@
 	},
 	"alignment_pu": {
 		"name": "Alignment as a Storytelling Mechanic",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/95}",
@@ -1676,7 +1676,7 @@
 	},
 	"moral_challengers_and_dilemmas": {
 		"name": "Moral Challengers and Dilemmas",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/95}",
@@ -1707,7 +1707,7 @@
 	},
 	"timing_and_focus": {
 		"name": "Timing and Focus",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/97}",
@@ -1732,7 +1732,7 @@
 	},
 	"shifts_and_affirmations": {
 		"name": "Shifts and Affirmations",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/97}",
@@ -1767,7 +1767,7 @@
 	},
 	"going_cosmic": {
 		"name": "Going Cosmic",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/98}",
@@ -1790,7 +1790,7 @@
 	},
 	"alignment_feats": {
 		"name": "Alignment Feats",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/98}",
@@ -1858,7 +1858,7 @@
 	},
 	"removing_alignment": {
 		"name": "Removing Alignment",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/100}",
@@ -1881,7 +1881,7 @@
 	},
 	"loyalties": {
 		"name": "Loyalties",
-		"subtitle": "Unchained",
+		"subtitle": "Removing Alignment, Optional Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/100}",
@@ -1902,7 +1902,7 @@
 	},
 	"classes_pu": {
 		"name": "Classes",
-		"subtitle": "Unchained",
+		"subtitle": "Removing Alignment, Optional Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/100}",
@@ -1933,7 +1933,7 @@
 	},
 	"creatures_spells_and_effects": {
 		"name": "Creatures, Spells, and Effects",
-		"subtitle": "Unchained",
+		"subtitle": "Removing Alignment, Optional Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/100}",

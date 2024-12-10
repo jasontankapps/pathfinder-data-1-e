@@ -776,8 +776,7 @@
 		]
 	},
 	"using_items": {
-		"name": "Using Items",
-		"subtitle": "Magic Items",
+		"name": "Using Magic Items",
 		"tags": "using magic items activating magic items spell completion command word spell trigger use-activated",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -1850,6 +1849,7 @@
 	"staves": {
 		"name": "Staves",
 		"subtitle": "Magic Items",
+		"tags": "staffs",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/491}",
@@ -2032,7 +2032,7 @@
 	},
 	"minor_wondrous_items": {
 		"name": "Table 15-18: Minor Wondrous Items",
-		"subtitle": "Random Item Generators, Gamemastery",
+		"subtitle": "Random Item Generator",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/497}",
@@ -2166,7 +2166,7 @@
 	},
 	"medium_wondrous_items": {
 		"name": "Table 15-19: Medium Wondrous Items",
-		"subtitle": "Random Item Generators, Gamemastery",
+		"subtitle": "Random Item Generator",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/498}",
@@ -2300,7 +2300,7 @@
 	},
 	"major_wondrous_items": {
 		"name": "Table 15-20: Major Wondrous Items",
-		"subtitle": "Random Item Generators, Gamemastery",
+		"subtitle": "Random Item Generator",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/499}",
@@ -2597,7 +2597,7 @@
 	},
 	"languages_spoken_by_item": {
 		"name": "Languages Spoken by Item",
-		"subtitle": "Magic Items",
+		"subtitle": "Intelligent Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/533}",
@@ -2624,7 +2624,7 @@
 	},
 	"senses_and_communication": {
 		"name": "Senses and Communication",
-		"subtitle": "Magic Items",
+		"subtitle": "Intelligent Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/533}",
@@ -2727,7 +2727,7 @@
 	},
 	"special_purpose_items": {
 		"name": "Special Purpose Items",
-		"subtitle": "Magic Items",
+		"subtitle": "Intelligent Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/535}",
@@ -2774,7 +2774,7 @@
 	},
 	"dedicated_powers": {
 		"name": "Dedicated Powers",
-		"subtitle": "Magic Items",
+		"subtitle": "Intelligent Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/535}",
@@ -2813,7 +2813,7 @@
 	},
 	"item_ego": {
 		"name": "Item Ego",
-		"subtitle": "Magic Items",
+		"subtitle": "Intelligent Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/535}",
@@ -2851,7 +2851,7 @@
 	},
 	"items_against_characters": {
 		"name": "Items against Characters",
-		"subtitle": "Magic Items",
+		"subtitle": "Intelligent Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/535}",
@@ -2901,8 +2901,7 @@
 		]
 	},
 	"cursed_items": {
-		"name": "Cursed Items",
-		"subtitle": "Magic Items",
+		"name": "Cursed Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/536}",

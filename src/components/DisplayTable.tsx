@@ -75,19 +75,41 @@ const translateGp = (gp: number, adjustment: boolean = false): string => {
 };
 
 const FINAL_CHAR = String.fromCodePoint(0x10FFFF);
-const getCheckableValue = (item: RawDatum, nullish: string): string => {
+function getCheckableValue (item: RawDatum, nullish: string, fromArray: boolean = false): ({string?: string, number?: number}) {
 	if(item === null || item === "~~") {
-		return nullish;
+		return {string: nullish};
 	} else if (Array.isArray(item)) {
 		return getCheckableValue(item[0], nullish);
+	} else if (typeof(item) === "number") {
+		return {number: item};
 	}
-	return typeof(item) === "number" ? String(item) : item;
+	return {string: (fromArray ? item.replace(/^[-a-z]+\//g, "") : item) + " "};
 };
 const descendingSort = (a: RawDatum, b: RawDatum) => {
-	return getCheckableValue(a, FINAL_CHAR).localeCompare(getCheckableValue(b, FINAL_CHAR), 'en', { numeric: true });
+	// a, b, c...
+	const {string: xs, number: xn} = getCheckableValue(a, FINAL_CHAR);
+	const {string: ys, number: yn} = getCheckableValue(b, FINAL_CHAR);
+	if(xs && ys) {
+		return xs.localeCompare(ys, 'en');
+	} else if (xn && yn) {
+		return xn > yn ? 1 : (xn < yn ? -1 : 0);
+	}
+	const x: string = xs || String(xn);
+	const y: string = ys || String(yn);
+	return x.localeCompare(y, 'en', { numeric: true });
 };
 const ascendingSort = (a: RawDatum, b: RawDatum) => {
-	return getCheckableValue(b, FINAL_CHAR).localeCompare(getCheckableValue(a, FINAL_CHAR), 'en', { numeric: true });
+	// z, y, x...
+	const {string: xs, number: xn} = getCheckableValue(a, FINAL_CHAR);
+	const {string: ys, number: yn} = getCheckableValue(b, FINAL_CHAR);
+	if(xs && ys) {
+		return ys.localeCompare(xs, 'en');
+	} else if (xn && yn) {
+		return xn < yn ? 1 : (xn > yn ? -1 : 0);
+	}
+	const x: string = xs || String(xn);
+	const y: string = ys || String(yn);
+	return y.localeCompare(x, 'en', { numeric: true });
 };
 
 const DirectionIcon: FC<{down:boolean}> = ({down}) => {

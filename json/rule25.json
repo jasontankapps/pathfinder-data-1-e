@@ -1,6 +1,7 @@
 {
 	"occult_rules": {
 		"name": "Occult Rules",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/194}",
@@ -43,6 +44,7 @@
 	},
 	"occult_skill_unlocks": {
 		"name": "Occult Skill Unlocks",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/194}",

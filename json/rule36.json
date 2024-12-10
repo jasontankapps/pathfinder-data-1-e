@@ -1,7 +1,7 @@
 {
 	"scaling_items": {
 		"name": "Scaling Items",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/160}",
@@ -38,7 +38,7 @@
 	},
 	"adjusting_treasure": {
 		"name": "Adjusting Treasure",
-		"subtitle": "Unchained",
+		"subtitle": "Scaling Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/160}",
@@ -82,7 +82,7 @@
 		],
 		"subtopics": [
 			"maximum_level",
-			"mismatched_evels"
+			"mismatched_levels"
 		],
 		"siblings": [
 			"adjusting_treasure",
@@ -95,7 +95,7 @@
 	},
 	"maximum_level": {
 		"name": "Maximum Level",
-		"subtitle": "Unchained",
+		"subtitle": "Scaling Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/161}",
@@ -109,12 +109,12 @@
 		],
 		"siblings": [
 			"maximum_level",
-			"mismatched_evels"
+			"mismatched_levels"
 		]
 	},
-	"mismatched_evels": {
-		"name": "Mismatched evels",
-		"subtitle": "Unchained",
+	"mismatched_levels": {
+		"name": "Mismatched Levels",
+		"subtitle": "Scaling Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/161}",
@@ -128,12 +128,12 @@
 		],
 		"siblings": [
 			"maximum_level",
-			"mismatched_evels"
+			"mismatched_levels"
 		]
 	},
 	"buying_and_selling_scaling_items": {
 		"name": "Buying and Selling Scaling Items",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/161}",
@@ -155,7 +155,7 @@
 	},
 	"crafting_scaling_items": {
 		"name": "Crafting Scaling Items",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/161}",
@@ -177,7 +177,7 @@
 	},
 	"pricing_new_scaling_items": {
 		"name": "Pricing New Scaling Items",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/161}",
@@ -238,7 +238,7 @@
 	},
 	"standalone_new_scaling_items": {
 		"name": "Standalone New Scaling Items",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/163}",
@@ -262,7 +262,7 @@
 	},
 	"scaling_item_examples": {
 		"name": "Scaling Item Examples",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/162}",
@@ -292,7 +292,7 @@
 	},
 	"scaling_magic_armor_and_shields": {
 		"name": "Scaling Magic Armor and Shields",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/162}",
@@ -388,7 +388,7 @@
 	},
 	"scaling_magic_weapons": {
 		"name": "Scaling Magic Weapons",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/163}",
@@ -418,7 +418,7 @@
 	},
 	"scaling_magic_weapons_legacy_arrow": {
 		"name": "Legacy Arrow",
-		"subtitle": "Scaling Magic Weapons, Unchained",
+		"subtitle": "Scaling Magic Weapons, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/163}",
@@ -464,7 +464,7 @@
 	},
 	"scaling_magic_weapons_multimetal_mace": {
 		"name": "Multimetal Mace",
-		"subtitle": "Scaling Magic Weapons, Unchained",
+		"subtitle": "Scaling Magic Weapons, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/163}",
@@ -502,7 +502,7 @@
 	},
 	"scaling_magic_weapons_sacred_avenger": {
 		"name": "Sacred Avenger",
-		"subtitle": "Scaling Magic Weapons, Unchained",
+		"subtitle": "Scaling Magic Weapons, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/163}",
@@ -544,7 +544,7 @@
 	},
 	"scaling_magic_weapons_spear_of_the_huntsman": {
 		"name": "Spear of the Huntsmaster",
-		"subtitle": "Scaling Magic Weapons, Unchained",
+		"subtitle": "Scaling Magic Weapons, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/163}",
@@ -582,7 +582,7 @@
 	},
 	"scaling_magic_weapons_thirsting_blade": {
 		"name": "Thirsting Blade",
-		"subtitle": "Scaling Magic Weapons, Unchained",
+		"subtitle": "Scaling Magic Weapons, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/163}",
@@ -630,7 +630,7 @@
 	},
 	"scaling_rings": {
 		"name": "Scaling Rings",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/165}",
@@ -662,7 +662,7 @@
 	},
 	"scaling_rings_fivefold": {
 		"name": "Fivefold Rings of Fire",
-		"subtitle": "Scaling Rings, Unchained",
+		"subtitle": "Scaling Rings, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/165}",
@@ -702,7 +702,7 @@
 	},
 	"scaling_rings_flame": {
 		"name": "Ring of the Dragon (Flame)",
-		"subtitle": "Scaling Rings, Unchained",
+		"subtitle": "Scaling Rings, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/165}",
@@ -744,7 +744,7 @@
 	},
 	"scaling_rings_forest": {
 		"name": "Ring of the Drake (Forest)",
-		"subtitle": "Scaling Rings, Unchained",
+		"subtitle": "Scaling Rings, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/165}",
@@ -786,7 +786,7 @@
 	},
 	"scaling_rings_frost": {
 		"name": "Ring of the Drake (Frost)",
-		"subtitle": "Scaling Rings, Unchained",
+		"subtitle": "Scaling Rings, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/165}",
@@ -828,7 +828,7 @@
 	},
 	"scaling_rings_sea": {
 		"name": "Ring of the Drake (Sea)",
-		"subtitle": "Scaling Rings, Unchained",
+		"subtitle": "Scaling Rings, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/165}",
@@ -870,7 +870,7 @@
 	},
 	"scaling_rings_earthlord": {
 		"name": "Ring of the Earthlord",
-		"subtitle": "Scaling Rings, Unchained",
+		"subtitle": "Scaling Rings, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/165}",
@@ -916,7 +916,7 @@
 	},
 	"scaling_rings_trickster": {
 		"name": "Ring of the Trickster",
-		"subtitle": "Scaling Rings, Unchained",
+		"subtitle": "Scaling Rings, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/165}",
@@ -960,7 +960,7 @@
 	},
 	"scaling_rods": {
 		"name": "Scaling Rods",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/167}",
@@ -1027,7 +1027,7 @@
 	},
 	"scaling_staves": {
 		"name": "Scaling Staves",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1109,7 +1109,7 @@
 	},
 	"scaling_wondrous_items": {
 		"name": "Scaling Wondrous Items",
-		"subtitle": "Unchained",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1170,7 +1170,7 @@
 	},
 	"swi_arachnid": {
 		"name": "Arachnid Cloak",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1245,7 +1245,7 @@
 	},
 	"swi_bag": {
 		"name": "Bag of Endless Holding",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1314,7 +1314,7 @@
 	},
 	"swi_bat": {
 		"name": "Bat Cloak",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1393,7 +1393,7 @@
 	},
 	"swi_beaker": {
 		"name": "Beaker of Plentiful Poisons",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1466,7 +1466,7 @@
 	},
 	"swi_boots_readiness": {
 		"name": "Boots of Readiness",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1533,7 +1533,7 @@
 	},
 	"swi_boots_elven_spirit": {
 		"name": "Boots of the Elven Spirit",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1604,7 +1604,7 @@
 	},
 	"swi_bracelets": {
 		"name": "Bracelets of the Fey Touch",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1671,7 +1671,7 @@
 	},
 	"swi_brutish": {
 		"name": "Brutish Boots",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1742,7 +1742,7 @@
 	},
 	"swi_cloak": {
 		"name": "Cloak of the Elven Spirit",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1811,7 +1811,7 @@
 	},
 	"swi_cord": {
 		"name": "Cord of Unearthly Grace",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1880,7 +1880,7 @@
 	},
 	"swi_crystal": {
 		"name": "Crystal Tiara",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -1959,7 +1959,7 @@
 	},
 	"swi_dragon": {
 		"name": "Dragon Robe",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2030,7 +2030,7 @@
 	},
 	"swi_eternal": {
 		"name": "Eternal Feather Token",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2103,7 +2103,7 @@
 	},
 	"swi_filthy": {
 		"name": "Filthy Rags",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2174,7 +2174,7 @@
 	},
 	"swi_flask": {
 		"name": "Flask of Reconcoction",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2247,7 +2247,7 @@
 	},
 	"swi_force": {
 		"name": "Force Bracers",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2316,7 +2316,7 @@
 	},
 	"swi_forgemasters": {
 		"name": "Forgemaster's Gauntlets",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2393,7 +2393,7 @@
 	},
 	"swi_fruitful": {
 		"name": "Fruitful Sash",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2468,7 +2468,7 @@
 	},
 	"swi_galvanic": {
 		"name": "Galvanic Gauntlets",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2541,7 +2541,7 @@
 	},
 	"swi_glorious": {
 		"name": "Glorious Gorget",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2610,7 +2610,7 @@
 	},
 	"swi_gloves": {
 		"name": "Gloves of Coud Shaping",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2681,7 +2681,7 @@
 	},
 	"swi_heart": {
 		"name": "Heart of the Elder Tree",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2754,7 +2754,7 @@
 	},
 	"swi_heroic": {
 		"name": "Heroic Saddle",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2825,7 +2825,7 @@
 	},
 	"swi_lantern": {
 		"name": "Lantern Pendant",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2896,7 +2896,7 @@
 	},
 	"swi_mark": {
 		"name": "Mark of the Grinning Skull",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -2963,7 +2963,7 @@
 	},
 	"swi_mask": {
 		"name": "Mask of Mad Memories",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -3036,7 +3036,7 @@
 	},
 	"swi_necklace": {
 		"name": "Necklace of Infernos",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -3107,7 +3107,7 @@
 	},
 	"swi_pearl": {
 		"name": "Pearl of Puissance",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -3184,7 +3184,7 @@
 	},
 	"swi_pouch": {
 		"name": "Pouch of Pixie Dust",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -3261,7 +3261,7 @@
 	},
 	"swi_robe": {
 		"name": "Robe of the Faerie Queen",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -3338,7 +3338,7 @@
 	},
 	"swi_spectacles": {
 		"name": "Spectacles of Thought-Seeing",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -3407,7 +3407,7 @@
 	},
 	"swi_star": {
 		"name": "Star of Vision",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -3476,7 +3476,7 @@
 	},
 	"swi_stargazers": {
 		"name": "Stargazer's Glass",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -3547,7 +3547,7 @@
 	},
 	"swi_strand": {
 		"name": "Strand of Many Prayer Beads",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -3620,7 +3620,7 @@
 	},
 	"swi_vest_golden": {
 		"name": "Vest of Golen Leaves",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",
@@ -3693,7 +3693,7 @@
 	},
 	"swi_vest_eldritch": {
 		"name": "Vest of Eldritch Preservation",
-		"subtitle": "Scaling Wondrous Items, Unchained",
+		"subtitle": "Scaling Wondrous Items, Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/168}",

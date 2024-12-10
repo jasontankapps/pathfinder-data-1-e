@@ -1,7 +1,7 @@
 {
 	"step_6_spells": {
 		"name": "Step 6: Spells",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/218}",
@@ -40,7 +40,7 @@
 	},
 	"choosing_spells": {
 		"name": "Choosing Spells",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/218}",
@@ -89,7 +89,7 @@
 	},
 	"spell_lists": {
 		"name": "Spell Lists",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/218}",
@@ -116,7 +116,7 @@
 	},
 	"spell_lists_1": {
 		"name": "Aberrant through Battle",
-		"subtitle": "Spell Lists, Unchained",
+		"subtitle": "Spell Lists, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/218}",
@@ -260,7 +260,7 @@
 	},
 	"spell_lists_2": {
 		"name": "Celestial through Destruction",
-		"subtitle": "Spell Lists, Unchained",
+		"subtitle": "Spell Lists, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/218}",
@@ -402,7 +402,7 @@
 	},
 	"spell_lists_3": {
 		"name": "Divination through Fire",
-		"subtitle": "Spell Lists, Unchained",
+		"subtitle": "Spell Lists, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/218}",
@@ -544,7 +544,7 @@
 	},
 	"spell_lists_4": {
 		"name": "Glory through Madness",
-		"subtitle": "Spell Lists, Unchained",
+		"subtitle": "Spell Lists, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/218}",
@@ -688,7 +688,7 @@
 	},
 	"spell_lists_5": {
 		"name": "Magic through Sonic",
-		"subtitle": "Spell Lists, Unchained",
+		"subtitle": "Spell Lists, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/218}",
@@ -830,7 +830,7 @@
 	},
 	"spell_lists_6": {
 		"name": "Strength through Weather",
-		"subtitle": "Spell Lists, Unchained",
+		"subtitle": "Spell Lists, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/218}",
@@ -972,7 +972,7 @@
 	},
 	"step_7_monster_options": {
 		"name": "Step 7: Monster Options",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/228}",
@@ -1006,7 +1006,7 @@
 	},
 	"choosing_monster_options": {
 		"name": "Choosing Monster Options",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/228}",
@@ -1070,7 +1070,7 @@
 	},
 	"combat_options": {
 		"name": "Combat Options",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/228}",
@@ -1099,7 +1099,7 @@
 	},
 	"cunning": {
 		"name": "Cunning",
-		"subtitle": "Unchained",
+		"subtitle": "Combat, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/228}",
@@ -1156,7 +1156,7 @@
 	},
 	"monstrous": {
 		"name": "Monstrous",
-		"subtitle": "Unchained",
+		"subtitle": "Combat, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/232}",
@@ -1251,7 +1251,7 @@
 	},
 	"powerful": {
 		"name": "Powerful",
-		"subtitle": "Unchained",
+		"subtitle": "Combat, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/234}",
@@ -1306,7 +1306,7 @@
 	},
 	"quick": {
 		"name": "Quick",
-		"subtitle": "Unchained",
+		"subtitle": "Combat, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/234}",
@@ -1363,7 +1363,7 @@
 	},
 	"tough": {
 		"name": "Tough",
-		"subtitle": "Unchained",
+		"subtitle": "Combat, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/235}",
@@ -1412,7 +1412,7 @@
 	},
 	"magic_options": {
 		"name": "Magic Options",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/235}",
@@ -1440,7 +1440,7 @@
 	},
 	"creature": {
 		"name": "Creature",
-		"subtitle": "Unchained",
+		"subtitle": "Magic, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/235}",
@@ -1472,7 +1472,7 @@
 	},
 	"offensive": {
 		"name": "Offensive",
-		"subtitle": "Unchained",
+		"subtitle": "Magic, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/236}",
@@ -1528,7 +1528,7 @@
 	},
 	"support": {
 		"name": "Support",
-		"subtitle": "Unchained",
+		"subtitle": "Magic, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/237}",
@@ -1574,7 +1574,7 @@
 	},
 	"versatile": {
 		"name": "Versatile",
-		"subtitle": "Unchained",
+		"subtitle": "Magic, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/237}",
@@ -1616,7 +1616,7 @@
 	},
 	"social_options": {
 		"name": "Social Options",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/238}",
@@ -1642,7 +1642,7 @@
 	},
 	"inspiration": {
 		"name": "Inspiration",
-		"subtitle": "Unchained",
+		"subtitle": "Social, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/238}",
@@ -1684,7 +1684,7 @@
 	},
 	"miscellaneous": {
 		"name": "Miscellaneous",
-		"subtitle": "Unchained",
+		"subtitle": "Social, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/239}",
@@ -1724,7 +1724,7 @@
 	},
 	"universal_options": {
 		"name": "Universal Options",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/239}",
@@ -1782,7 +1782,7 @@
 	},
 	"step_8_skills": {
 		"name": "Step 8: Skills",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/240}",
@@ -1815,7 +1815,7 @@
 	},
 	"assigning_skills": {
 		"name": "Assigning Skills",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/240}",
@@ -1836,7 +1836,7 @@
 	},
 	"choosing_skills": {
 		"name": "Choosing Skills",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/240}",
@@ -1884,7 +1884,7 @@
 	},
 	"step_9_damage": {
 		"name": "Step 9: Damage",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/241}",
@@ -1915,7 +1915,7 @@
 	},
 	"assigning_damage": {
 		"name": "Assigning Damage",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/241}",
@@ -1974,7 +1974,7 @@
 	},
 	"giving_a_monster_more_attacks": {
 		"name": "Giving a Monster More Attacks",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/241}",
@@ -1995,7 +1995,7 @@
 	},
 	"other_calculations": {
 		"name": "Other Calculations",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"The monster statistics below aren't defined in the individual steps. Calculate them at the end of the process.",
@@ -2042,7 +2042,7 @@
 	},
 	"monster_creation_examples": {
 		"name": "Monster Creation Examples",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/242}",
@@ -2073,7 +2073,7 @@
 	},
 	"extended_example_medusa": {
 		"name": "Extended Example: Medusa",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/242}",
@@ -2152,7 +2152,7 @@
 	},
 	"monster_examples": {
 		"name": "Monster Examples",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2197,7 +2197,7 @@
 	},
 	"me_worg": {
 		"name": "Worg",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2262,7 +2262,7 @@
 	},
 	"me_mastodon": {
 		"name": "Mastodon",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2331,7 +2331,7 @@
 	},
 	"me_griffon": {
 		"name": "Griffon",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2397,7 +2397,7 @@
 	},
 	"me_goblin_fighter": {
 		"name": "Goblin Fighter",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2468,7 +2468,7 @@
 	},
 	"me_zombie_minotaur": {
 		"name": "Zombie Minotaur",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2535,7 +2535,7 @@
 	},
 	"me_bat_swarm": {
 		"name": "Bat Swarm",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2605,7 +2605,7 @@
 	},
 	"me_imp": {
 		"name": "Imp",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2679,7 +2679,7 @@
 	},
 	"me_fire_giant": {
 		"name": "Fire Giant",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2751,7 +2751,7 @@
 	},
 	"me_satyr": {
 		"name": "Satyr",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2825,7 +2825,7 @@
 	},
 	"me_frost_giant_explorer": {
 		"name": "Frost Giant Explorer",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2904,7 +2904,7 @@
 	},
 	"me_vampire_cleric": {
 		"name": "Vampire Cleric",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -2984,7 +2984,7 @@
 	},
 	"me_ogre_mage": {
 		"name": "Ogre Mage",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -3060,7 +3060,7 @@
 	},
 	"me_night_hag_soul_collector": {
 		"name": "Night Hag Soul Collector",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -3174,7 +3174,7 @@
 	},
 	"me_marilith_general": {
 		"name": "Marilith General",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -3250,7 +3250,7 @@
 	},
 	"me_ancient_blue_dragon": {
 		"name": "Ancient Blue Dragon",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",
@@ -3325,7 +3325,7 @@
 	},
 	"me_pit_fiend": {
 		"name": "Pit Fiend",
-		"subtitle": "Monster Examples, Unchained",
+		"subtitle": "Example, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/243}",

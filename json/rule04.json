@@ -423,6 +423,7 @@
 	"creating_staves": {
 		"name": "Creating Staves",
 		"subtitle": "Magic Items",
+		"tags": "staffs",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/552}",
@@ -2540,7 +2541,7 @@
 	},
 	"components_oa": {
 		"name": "Components",
-		"subtitle": "Psychic Magic",
+		"subtitle": "Psychic Magic Spells",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/144}",

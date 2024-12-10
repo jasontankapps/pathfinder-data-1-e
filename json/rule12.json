@@ -31,7 +31,7 @@
 	},
 	"stat_block": {
 		"name": "Stat Block",
-		"subtitle": "Bestary",
+		"subtitle": "Monster Rules",
 		"tags": "monsters",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1085,6 +1085,7 @@
 	"race_builder": {
 		"name": "Race Builder",
 		"subtitle": "Gamemastery",
+		"tags": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/214}",
@@ -1111,6 +1112,7 @@
 	"creating_a_new_race": {
 		"name": "Creating a New Race",
 		"subtitle": "Gamemastery",
+		"tags": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/214}",

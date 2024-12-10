@@ -1,6 +1,7 @@
 {
 	"downtime": {
 		"name": "Downtime",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/76}",
@@ -45,6 +46,7 @@
 	},
 	"downtime_overview": {
 		"name": "Downtime Overview",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/76}",
@@ -82,6 +84,7 @@
 	},
 	"downtime_terminology": {
 		"name": "Downtime Terminology",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/76}",
@@ -127,6 +130,7 @@
 	},
 	"downtime_and_kingdom_building": {
 		"name": "Downtime and Kingdom Building",
+		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/77}",

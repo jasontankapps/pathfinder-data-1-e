@@ -165,6 +165,12 @@ ion-item.sourceLink {
 
 /* Main */
 
+div.main ion-list {
+	padding-block: 0;
+}
+div.main ion-list ion-item.mainItem:first-child {
+	padding-block-start: 0.25rem;
+}
 div.main ion-list ion-item.mainItem {
 	text-align: start;
 }

@@ -895,8 +895,8 @@
 	},
 	"retraining": {
 		"name": "Retraining",
-		"tags": "changing your character features",
 		"subtitle": "Player Guidance",
+		"tags": "changing your character features",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/188}",
@@ -1357,8 +1357,8 @@
 		]
 	},
 	"spells_of_the_wild": {
-		"name": "Spells of the Wild",
-		"subtitle": "Wilderness",
+		"name": "Spells of the Wilderness",
+		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/156}",
@@ -1387,7 +1387,7 @@
 	},
 	"low_level_play_levels_1_6": {
 		"name": "Low-Level Play (Levels 1-6)",
-		"subtitle": "Spells, Wilderness",
+		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/156}",
@@ -1412,7 +1412,7 @@
 	},
 	"conjuration_uw_1": {
 		"name": "Conjuration",
-		"subtitle": "Spells, Wilderness",
+		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/156}",
@@ -1443,7 +1443,7 @@
 	},
 	"divination_uw": {
 		"name": "Divination",
-		"subtitle": "Spells, Wilderness",
+		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/157}",
@@ -1468,7 +1468,7 @@
 	},
 	"enchantment_uw": {
 		"name": "Enchantment",
-		"subtitle": "Spells, Wilderness",
+		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/157}",
@@ -1493,7 +1493,7 @@
 	},
 	"transmutation_uw_1": {
 		"name": "Transmutation",
-		"subtitle": "Spells, Wilderness",
+		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/158}",
@@ -1530,7 +1530,7 @@
 	},
 	"mid_level_play_levels_7_12": {
 		"name": "Mid-Level Play (Levels 7-12)",
-		"subtitle": "Spells, Wilderness",
+		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/159}",
@@ -1554,7 +1554,7 @@
 	},
 	"abjuration_uw": {
 		"name": "Abjuration",
-		"subtitle": "Spells, Wilderness",
+		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/159}",
@@ -1578,7 +1578,7 @@
 	},
 	"conjuration_uw_2": {
 		"name": "Conjuration",
-		"subtitle": "Spells, Wilderness",
+		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/159}",
@@ -1604,7 +1604,7 @@
 	},
 	"transmutation_uw_2": {
 		"name": "Transmutation",
-		"subtitle": "Spells, Wilderness",
+		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/160}",
@@ -1640,7 +1640,7 @@
 	},
 	"high_level_play_level_13": {
 		"name": "High-Level Play (Level 13+)",
-		"subtitle": "Spells, Wilderness",
+		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/161}",
@@ -1671,7 +1671,7 @@
 	},
 	"spells_of_intrigue": {
 		"name": "Spells of Intrigue",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/154}",
@@ -1699,7 +1699,7 @@
 	},
 	"low_level_play_1_6": {
 		"name": "Low-Level Play (1-6)",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/154}",
@@ -1725,7 +1725,7 @@
 	},
 	"divinations": {
 		"name": "Divinations",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/154}",
@@ -1802,7 +1802,7 @@
 	},
 	"enchantments": {
 		"name": "Enchantments",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/157}",
@@ -1829,7 +1829,7 @@
 	},
 	"illusions": {
 		"name": "Illusions",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/158}",
@@ -1862,7 +1862,7 @@
 	},
 	"necromancy_ui": {
 		"name": "Necromancy",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/158}",
@@ -1887,7 +1887,7 @@
 	},
 	"mid_level_play_7_12": {
 		"name": "Mid-Level Play (7-12)",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/158}",
@@ -1912,7 +1912,7 @@
 	},
 	"conjuration_ui": {
 		"name": "Conjuration",
-		"subtitle": "Mid-Level Spells, Intrigue",
+		"subtitle": "Mid-Level Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/158}",
@@ -1936,7 +1936,7 @@
 	},
 	"divinations_2": {
 		"name": "Divinations",
-		"subtitle": "Mid-Level Spells, Intrigue",
+		"subtitle": "Mid-Level Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/159}",
@@ -1984,7 +1984,7 @@
 	},
 	"enchantments_2": {
 		"name": "Enchantments",
-		"subtitle": "Mid-Level Spells, Intrigue",
+		"subtitle": "Mid-Level Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/162}",
@@ -2008,7 +2008,7 @@
 	},
 	"high_level_play_13": {
 		"name": "High-Level Play (13+)",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/162}",
@@ -2052,7 +2052,7 @@
 	},
 	"example_of_intrigue_spells": {
 		"name": "Example of Intrigue Spells",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Spells of Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/163}",
@@ -2077,7 +2077,7 @@
 	},
 	"the_story": {
 		"name": "The Story",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Example of Intrigue Spells",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/163}",
@@ -2101,7 +2101,7 @@
 	},
 	"divination_poem": {
 		"name": "Divination Poem",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Example of Intrigue Spells",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/163}",
@@ -2133,7 +2133,7 @@
 	},
 	"vision": {
 		"name": "Vision",
-		"subtitle": "Spells, Intrigue",
+		"subtitle": "Example of Intrigue Spells",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/163}",
@@ -2159,7 +2159,7 @@
 	},
 	"young_characters": {
 		"name": "Young Characters",
-		"subtitle": "Gamemastery",
+		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/194}",
@@ -2184,7 +2184,7 @@
 	},
 	"creating_young_characters": {
 		"name": "Creating Young Characters",
-		"subtitle": "Gamemastery",
+		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/194}",
@@ -2226,7 +2226,7 @@
 	},
 	"leaving_youth_behind": {
 		"name": "Leaving Youth Behind",
-		"subtitle": "Gamemastery",
+		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/194}",
@@ -2251,7 +2251,7 @@
 	},
 	"considerations_of_youth": {
 		"name": "Considerations of Youth",
-		"subtitle": "Gamemastery",
+		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/195}",

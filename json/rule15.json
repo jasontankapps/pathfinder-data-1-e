@@ -26,7 +26,7 @@
 	},
 	"diseases_and_poisons": {
 		"name": "Alternate Disease and Poison Rules",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/138}",
@@ -63,7 +63,7 @@
 	},
 	"progression_and_end_states": {
 		"name": "Progression and End States",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/138}",
@@ -92,7 +92,7 @@
 	},
 	"diseases_pu": {
 		"name": "Diseases",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/138}",
@@ -117,7 +117,7 @@
 	},
 	"physical_disease_track": {
 		"name": "Physical Disease Track",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/138}",
@@ -150,7 +150,7 @@
 	},
 	"mental_disease_track": {
 		"name": "Mental Disease Track",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/138}",
@@ -183,7 +183,7 @@
 	},
 	"poisons": {
 		"name": "Poisons",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/139}",
@@ -212,7 +212,7 @@
 	},
 	"strength_poison_track": {
 		"name": "Strength Poison Track",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/139}",
@@ -245,7 +245,7 @@
 	},
 	"dexterity_poison_track": {
 		"name": "Dexterity Poison Track",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/139}",
@@ -278,7 +278,7 @@
 	},
 	"constitution_poison_track": {
 		"name": "Constitution Poison Track",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/139}",
@@ -311,7 +311,7 @@
 	},
 	"intelligence_poison_track": {
 		"name": "Intelligence Poison Track",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/139}",
@@ -344,7 +344,7 @@
 	},
 	"wisdom_poison_track": {
 		"name": "Wisdom Poison Track",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/140}",
@@ -377,7 +377,7 @@
 	},
 	"charisma_poison_track": {
 		"name": "Charisma Poison Track",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/140}",
@@ -410,7 +410,7 @@
 	},
 	"sample_diseases": {
 		"name": "Sample Diseases",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/140}",
@@ -515,7 +515,7 @@
 	},
 	"sample_poisons": {
 		"name": "Sample Poisons",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/141}",
@@ -595,7 +595,7 @@
 	},
 	"exploration_ucp": {
 		"name": "Exploration",
-		"subtitle": "Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/154}",
@@ -639,7 +639,7 @@
 	},
 	"sandbox_exploration": {
 		"name": "Sandbox Exploration",
-		"subtitle": "Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/154}",
@@ -669,8 +669,8 @@
 	},
 	"movement_ucp": {
 		"name": "Movement",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"tags": "hexes tracking movement hex paper",
-		"subtitle": "Exploration, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/154}",
@@ -724,7 +724,7 @@
 	},
 	"exploration_rewards": {
 		"name": "Exploration Rewards",
-		"subtitle": "Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/154}",
@@ -750,7 +750,7 @@
 	},
 	"keep_things_interesting": {
 		"name": "Keep Things Interesting",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/154}",
@@ -780,7 +780,7 @@
 	},
 	"getting_lost_ucp": {
 		"name": "Getting Lost",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/155}",
@@ -808,7 +808,7 @@
 	},
 	"random_encounters": {
 		"name": "Random Encounters",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/155}",
@@ -842,7 +842,7 @@
 	},
 	"planned_encounters": {
 		"name": "Planned Encounters",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/156}",
@@ -874,7 +874,7 @@
 	},
 	"hex_terrain_types": {
 		"name": "Hex Terrain Types",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/156}",
@@ -914,7 +914,7 @@
 	},
 	"desert": {
 		"name": "Desert",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/156}",
@@ -955,7 +955,7 @@
 	},
 	"forest": {
 		"name": "Forest",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/157}",
@@ -990,7 +990,7 @@
 	},
 	"hill": {
 		"name": "Hill",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/157}",
@@ -1025,7 +1025,7 @@
 	},
 	"marsh": {
 		"name": "Marsh",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/157}",
@@ -1060,7 +1060,7 @@
 	},
 	"mountain": {
 		"name": "Mountain",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/157}",
@@ -1095,7 +1095,7 @@
 	},
 	"plain": {
 		"name": "Plain",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/157}",
@@ -1130,7 +1130,7 @@
 	},
 	"settlement": {
 		"name": "Settlement",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/158}",
@@ -1165,7 +1165,7 @@
 	},
 	"water_ucp": {
 		"name": "Water",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/158}",
@@ -1200,7 +1200,7 @@
 	},
 	"random_map_generation": {
 		"name": "Random Map Generation",
-		"subtitle": "Exploration, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/158}",
@@ -1252,7 +1252,7 @@
 	},
 	"exploration_hazards": {
 		"name": "Exploration Hazards",
-		"subtitle": "Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/158}",
@@ -1306,7 +1306,7 @@
 	},
 	"discovery_and_exploration": {
 		"name": "Discovery and Exploration",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/124}",
@@ -1351,7 +1351,7 @@
 	},
 	"the_exploration_process": {
 		"name": "The Exploration Process",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/124}",
@@ -1377,7 +1377,7 @@
 	},
 	"character_actions": {
 		"name": "Character Actions",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/124}",
@@ -1407,7 +1407,7 @@
 	},
 	"additional_factors": {
 		"name": "Additional Factors",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/125}",
@@ -1435,7 +1435,7 @@
 	},
 	"exploration_rewards_uw": {
 		"name": "Exploration Rewards",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/125}",
@@ -1459,7 +1459,7 @@
 	},
 	"creating_a_territory": {
 		"name": "Creating a Territory",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/126}",
@@ -1484,7 +1484,7 @@
 	},
 	"step_1_define_the_territory": {
 		"name": "Step 1: Define the Territory",
-		"subtitle": "Creating Wilderness",
+		"subtitle": "Creating Wilderness, Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/126}",
@@ -1532,7 +1532,7 @@
 	},
 	"step_2_design_locations": {
 		"name": "Step 2: Design Locations",
-		"subtitle": "Creating Wilderness",
+		"subtitle": "Creating Wilderness, Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/126}",
@@ -1572,7 +1572,7 @@
 	},
 	"step_3_create_way_signs": {
 		"name": "Step 3: Create Way Signs",
-		"subtitle": "Creating Wilderness",
+		"subtitle": "Creating Wilderness, Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/126}",
@@ -1595,7 +1595,7 @@
 	},
 	"step_4_create_random_encounter_tables": {
 		"name": "Step 4: Create Random Encounter Tables",
-		"subtitle": "Creating Wilderness",
+		"subtitle": "Creating Wilderness, Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/127}",
@@ -1616,7 +1616,7 @@
 	},
 	"example_territory_white_canyon": {
 		"name": "Example Territory: White Canyon",
-		"subtitle": "Creating Wilderness",
+		"subtitle": "Creating Wilderness, Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/127}",
@@ -1676,6 +1676,7 @@
 	},
 	"duels": {
 		"name": "Duels",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/150}",
@@ -1715,6 +1716,7 @@
 	},
 	"starting_a_duel": {
 		"name": "Starting a Duel",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/150}",
@@ -1746,6 +1748,7 @@
 	},
 	"duel_combat": {
 		"name": "Duel Combat",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/150}",
@@ -1777,6 +1780,7 @@
 	},
 	"dueling_counter": {
 		"name": "Dueling Counter",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/151}",
@@ -1815,6 +1819,7 @@
 	},
 	"dueling_dodge": {
 		"name": "Dueling Dodge",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/151}",
@@ -1842,6 +1847,7 @@
 	},
 	"dueling_parry": {
 		"name": "Dueling Parry",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/152}",
@@ -1869,6 +1875,7 @@
 	},
 	"dueling_resolve": {
 		"name": "Dueling Resolve",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/152}",
@@ -1896,6 +1903,7 @@
 	},
 	"duels_and_performance_combat": {
 		"name": "Duels and Performance Combat",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/152}",
@@ -1919,6 +1927,7 @@
 	},
 	"duel_results": {
 		"name": "Duel Results",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/152}",
@@ -1948,6 +1957,7 @@
 	},
 	"spell_duels": {
 		"name": "Spell Duels",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/99}",
@@ -1983,7 +1993,7 @@
 	},
 	"starting_a_duel_um": {
 		"name": "Starting a Duel",
-		"subtitle": "Spell Duels",
+		"subtitle": "Spell Duels, Advanced GM Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/99}",
@@ -2010,7 +2020,7 @@
 	},
 	"duel_combat_um": {
 		"name": "Duel Combat",
-		"subtitle": "Spell Duels",
+		"subtitle": "Spell Duels, Advanced GM Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/99}",
@@ -2038,7 +2048,7 @@
 	},
 	"duel_counter": {
 		"name": "Duel Counter",
-		"subtitle": "Spell Duels",
+		"subtitle": "Spell Duels, Advanced GM Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/100}",
@@ -2073,7 +2083,7 @@
 	},
 	"duel_results_um": {
 		"name": "Duel Results",
-		"subtitle": "Spell Duels",
+		"subtitle": "Spell Duels, Advanced GM Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/100}",
@@ -2095,7 +2105,7 @@
 	},
 	"verbal_duels": {
 		"name": "Verbal Duels",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/176}",
@@ -2134,7 +2144,7 @@
 	},
 	"setting_the_scene_2": {
 		"name": "Setting the Scene",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/176}",
@@ -2163,7 +2173,7 @@
 	},
 	"assessing_an_audience": {
 		"name": "Assessing an Audience",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/176}",
@@ -2184,7 +2194,7 @@
 	},
 	"audience_biases": {
 		"name": "Audience Biases",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/176}",
@@ -2209,7 +2219,7 @@
 	},
 	"seeding_an_audience": {
 		"name": "Seeding an Audience",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/176}",
@@ -2238,7 +2248,7 @@
 	},
 	"edges": {
 		"name": "Edges",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/177}",
@@ -2265,7 +2275,7 @@
 	},
 	"dueling_with_words": {
 		"name": "Dueling with Words",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/177}",
@@ -2299,7 +2309,7 @@
 	},
 	"tactics_2": {
 		"name": "Tactics",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/178}",
@@ -2677,7 +2687,7 @@
 	},
 	"verbal_exchanges": {
 		"name": "Verbal Exchanges",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/180}",
@@ -2703,7 +2713,7 @@
 	},
 	"ending_a_duel": {
 		"name": "Ending a Duel",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/181}",
@@ -2723,7 +2733,7 @@
 	},
 	"multidirectional_duels": {
 		"name": "Multidirectional Duels",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/181}",
@@ -2744,7 +2754,7 @@
 	},
 	"team_duels": {
 		"name": "Team Duels",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/181}",
@@ -2771,7 +2781,7 @@
 	},
 	"an_example_duel": {
 		"name": "An Example Duel",
-		"subtitle": "Verbal Duel, Intrigue",
+		"subtitle": "Verbal Duel, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/181}",
@@ -2804,7 +2814,7 @@
 	},
 	"heists": {
 		"name": "Heists",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/118}",
@@ -2845,7 +2855,7 @@
 	},
 	"what_is_different": {
 		"name": "What is Different?",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/118}",
@@ -2868,7 +2878,7 @@
 	},
 	"building_a_heist": {
 		"name": "Building a Heist",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/118}",
@@ -2909,7 +2919,7 @@
 	},
 	"step_1_establish_a_goal": {
 		"name": "Step 1: Establish a Goal",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/118}",
@@ -2946,7 +2956,7 @@
 	},
 	"step_2_determine_scope": {
 		"name": "Step 2: Determine Scope",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/119}",
@@ -2973,7 +2983,7 @@
 	},
 	"step_3_devise_obstacles": {
 		"name": "Step 3: Devise Obstacles",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/120}",
@@ -3018,7 +3028,7 @@
 	},
 	"step_4_diagram_the_heist": {
 		"name": "Step 4: Diagram the Heist",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/122}",
@@ -3043,7 +3053,7 @@
 	},
 	"running_a_heist": {
 		"name": "Running a Heist",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/122}",
@@ -3069,7 +3079,7 @@
 	},
 	"planning": {
 		"name": "Planning",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/122}",
@@ -3101,7 +3111,7 @@
 	},
 	"executing_the_heist": {
 		"name": "Executing the Heist",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/123}",
@@ -3133,7 +3143,7 @@
 	},
 	"tactics": {
 		"name": "Tactics",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/124}",
@@ -3199,7 +3209,7 @@
 	},
 	"example_heist": {
 		"name": "Example Heist",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/126}",
@@ -3234,7 +3244,7 @@
 	},
 	"infiltration": {
 		"name": "Infiltration",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/128}",
@@ -3263,7 +3273,7 @@
 	},
 	"alternate_goals": {
 		"name": "Alternate Goals",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/128}",
@@ -3290,7 +3300,7 @@
 	},
 	"scope": {
 		"name": "Scope",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/128}",
@@ -3315,7 +3325,7 @@
 	},
 	"covers_and_personas": {
 		"name": "Covers and Personas",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/128}",
@@ -3354,7 +3364,7 @@
 	},
 	"maintaining_the_charade": {
 		"name": "Maintaining the Charade",
-		"subtitle": "Heists, Intrigue",
+		"subtitle": "Heists, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/129}",
@@ -3375,7 +3385,7 @@
 	},
 	"nemeses": {
 		"name": "Nemeses",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/136}",
@@ -3411,7 +3421,7 @@
 	},
 	"provoking_a_nemesis": {
 		"name": "Provoking a Nemesis",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/136}",
@@ -3449,7 +3459,7 @@
 	},
 	"opportunities": {
 		"name": "Opportunities",
-		"subtitle": "Nemeses, Intrigue",
+		"subtitle": "Nemeses, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/136}",
@@ -3471,7 +3481,7 @@
 	},
 	"stratagems": {
 		"name": "Stratagems",
-		"subtitle": "Nemeses, Intrigue",
+		"subtitle": "Nemeses, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/137}",
@@ -3497,7 +3507,7 @@
 	},
 	"stratagem_rewards": {
 		"name": "Stratagem Rewards",
-		"subtitle": "Nemeses, Intrigue",
+		"subtitle": "Nemeses, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/137}",
@@ -3524,7 +3534,7 @@
 	},
 	"simmering_stratagems": {
 		"name": "Simmering Stratagems",
-		"subtitle": "Nemeses, Intrigue",
+		"subtitle": "Nemeses, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/137}",
@@ -3605,7 +3615,7 @@
 	},
 	"engaged_stratagems": {
 		"name": "Engaged Stratagems",
-		"subtitle": "Nemeses, Intrigue",
+		"subtitle": "Nemeses, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/138}",
@@ -3716,7 +3726,7 @@
 	},
 	"intense_stratagems": {
 		"name": "Intense Stratagems",
-		"subtitle": "Nemeses, Intrigue",
+		"subtitle": "Nemeses, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/140}",
@@ -3807,7 +3817,7 @@
 	},
 	"nemesis_personas": {
 		"name": "Nemesis Personas",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/141}",
@@ -3837,6 +3847,7 @@
 	},
 	"performance_combat": {
 		"name": "Performance Combat",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/153}",
@@ -3876,6 +3887,7 @@
 	},
 	"types_of_performance_combat": {
 		"name": "Types of Performance Combat",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/153}",
@@ -3907,7 +3919,7 @@
 	},
 	"crowd_attitudes": {
 		"name": "Crowd Attitudes",
-		"subtitle": "Performance Combat",
+		"subtitle": "Performance Combat, Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/153}",
@@ -3949,7 +3961,7 @@
 	},
 	"crowds_starting_attitude": {
 		"name": "Crowd's Starting Attitude",
-		"subtitle": "Performance Combat",
+		"subtitle": "Performance Combat, Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/154}",
@@ -3971,6 +3983,7 @@
 	},
 	"performance_combat_check": {
 		"name": "Performance Combat Check",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/154}",
@@ -4016,6 +4029,7 @@
 	},
 	"performance_combat_check_dc": {
 		"name": "Performance Combat Check DC",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/154}",
@@ -4089,7 +4103,7 @@
 	},
 	"affecting_the_crowds_attitude": {
 		"name": "Affecting the Crowd's Attitude",
-		"subtitle": "Performance Combat",
+		"subtitle": "Performance Combat, Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/156}",
@@ -4125,7 +4139,7 @@
 	},
 	"swift_action_checks": {
 		"name": "Swift Action Checks",
-		"subtitle": "Performance Combat",
+		"subtitle": "Performance Combat, Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/156}",
@@ -4162,7 +4176,7 @@
 	},
 	"free_action_or_immediate_action_checks": {
 		"name": "Free Action or Immediate Action Checks",
-		"subtitle": "Performance Combat",
+		"subtitle": "Performance Combat, Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/156}",
@@ -4193,7 +4207,7 @@
 	},
 	"mandatory_checks": {
 		"name": "Mandatory Checks",
-		"subtitle": "Performance Combat",
+		"subtitle": "Performance Combat, Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/157}",
@@ -4222,7 +4236,7 @@
 	},
 	"victory_points": {
 		"name": "Victory Points",
-		"subtitle": "Performance Combat",
+		"subtitle": "Performance Combat, Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/157}",
@@ -4253,7 +4267,7 @@
 	},
 	"determining_a_winner": {
 		"name": "Determining a Winner",
-		"subtitle": "Performance Combat",
+		"subtitle": "Performance Combat, Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/157}",
@@ -4276,6 +4290,7 @@
 	},
 	"serialized_performance_combat": {
 		"name": "Serialized Performance Combat",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/157}",

@@ -1,7 +1,7 @@
 {
 	"pursuit": {
 		"name": "Pursuit",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/142}",
@@ -71,7 +71,7 @@
 	},
 	"building_a_pursuit": {
 		"name": "Building a Pursuit",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/142}",
@@ -100,7 +100,7 @@
 	},
 	"direct_pursuits": {
 		"name": "Direct Pursuits",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/142}",
@@ -144,7 +144,7 @@
 	},
 	"running_a_pursuit": {
 		"name": "Running a Pursuit",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/143}",
@@ -170,7 +170,7 @@
 	},
 	"direct_pursuits_and_tracking": {
 		"name": "Direct Pursuits and Tracking",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/143}",
@@ -349,7 +349,7 @@
 	},
 	"pursuit_advantages": {
 		"name": "Pursuit Advantages",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/145}",
@@ -415,7 +415,7 @@
 	},
 	"pursuit_tactics": {
 		"name": "Pursuit Tactics",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/146}",
@@ -442,7 +442,7 @@
 	},
 	"individual_tactics": {
 		"name": "Individual Tactics",
-		"subtitle": "Pursuit, Intrigue",
+		"subtitle": "Pursuit, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/146}",
@@ -469,7 +469,7 @@
 	},
 	"group_tactics": {
 		"name": "Group Tactics",
-		"subtitle": "Pursuit, Intrigue",
+		"subtitle": "Pursuit, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/147}",
@@ -500,7 +500,7 @@
 	},
 	"damage_fatigue_and_exhaustion": {
 		"name": "Damage, Fatigue, and Exhaustion",
-		"subtitle": "Pursuit, Intrigue",
+		"subtitle": "Pursuit, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/147}",
@@ -533,7 +533,7 @@
 	},
 	"simple_monster_creation": {
 		"name": "Simple Monster Creation",
-		"subtitle": "Unchained",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/194}",
@@ -578,7 +578,7 @@
 	},
 	"step_1_array": {
 		"name": "Step 1: Array",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/196}",
@@ -618,7 +618,7 @@
 	},
 	"character_classes": {
 		"name": "Character Classes",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/196}",
@@ -642,7 +642,7 @@
 	},
 	"using_an_array": {
 		"name": "Using an Array",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/196}",
@@ -692,7 +692,7 @@
 	},
 	"combatant_array": {
 		"name": "Combatant Array",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/198}",
@@ -814,7 +814,7 @@
 	},
 	"expert_array": {
 		"name": "Expert Array",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/200}",
@@ -934,7 +934,7 @@
 	},
 	"spellcaster_array": {
 		"name": "Spellcaster Array",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/202}",
@@ -1055,7 +1055,7 @@
 	},
 	"step_2_creature_type_or_class_graft": {
 		"name": "Step 2: Creature Type or Class Graft",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/204}",
@@ -1090,7 +1090,7 @@
 	},
 	"creature_type_grafts": {
 		"name": "Creature Type Grafts",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/204}",
@@ -1264,7 +1264,7 @@
 	},
 	"class_grafts": {
 		"name": "Class Grafts",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/206}",
@@ -1306,7 +1306,7 @@
 	},
 	"class_grafts_1": {
 		"name": "Alchemist, Barbarian, Bard, Cavalier",
-		"subtitle": "Class Grafts, Unchained",
+		"subtitle": "Class Grafts, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/206}",
@@ -1435,7 +1435,7 @@
 	},
 	"class_grafts_2": {
 		"name": "Cleric, Druid, Fighter, Gunslinger, Inquisitor",
-		"subtitle": "Class Grafts, Unchained",
+		"subtitle": "Class Grafts, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/206}",
@@ -1656,7 +1656,7 @@
 	},
 	"class_grafts_3": {
 		"name": "Magus, Monk, Oracle, Paladin, Ranger",
-		"subtitle": "Class Grafts, Unchained",
+		"subtitle": "Class Grafts, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/206}",
@@ -1858,7 +1858,7 @@
 	},
 	"class_grafts_4": {
 		"name": "Rogue, Sorcerer, Summoner, Witch, Wizard",
-		"subtitle": "Class Grafts, Unchained",
+		"subtitle": "Class Grafts, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/206}",
@@ -2045,7 +2045,7 @@
 	},
 	"class_grafts_5": {
 		"name": "Other Classes and Animal Companions",
-		"subtitle": "Class Grafts, Unchained",
+		"subtitle": "Class Grafts, Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/206}",
@@ -2091,7 +2091,7 @@
 	},
 	"step_3_subtype_graft": {
 		"name": "Step 3: Subtype Graft",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/214}",
@@ -2123,7 +2123,7 @@
 	},
 	"subtype_entries": {
 		"name": "Subtype Entries",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/214}",
@@ -2256,7 +2256,7 @@
 	},
 	"step_4_template_graft": {
 		"name": "Step 4: Template Graft",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/216}",
@@ -2419,7 +2419,7 @@
 	},
 	"step_5_size_graft": {
 		"name": "Step 5: Size Graft",
-		"subtitle": "Unchained",
+		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/217}",

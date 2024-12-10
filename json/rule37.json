@@ -1,6 +1,7 @@
 {
 	"words_of_power": {
 		"name": "Words of Power",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/160}",
@@ -31,7 +32,7 @@
 	},
 	"optional": {
 		"name": "Optional",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/163}",
@@ -57,7 +58,7 @@
 	},
 	"becoming_a_wordcaster": {
 		"name": "Becoming a Wordcaster",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/162}",
@@ -89,6 +90,7 @@
 	},
 	"learning_words_of_power": {
 		"name": "Learning Words of Power",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/162}",
@@ -123,7 +125,7 @@
 	},
 	"class_specific_rules": {
 		"name": "Class-Specific Rules",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/162}",
@@ -160,6 +162,7 @@
 	},
 	"arranging_words_of_power": {
 		"name": "Arranging Words of Power",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/163}",
@@ -211,7 +214,7 @@
 	},
 	"casting_wordspells": {
 		"name": "Casting Wordspells",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/164}",
@@ -256,7 +259,7 @@
 	},
 	"magic_item_creation_um": {
 		"name": "Magic Item Creation",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/165}",
@@ -283,7 +286,7 @@
 	},
 	"examples": {
 		"name": "Examples",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/165}",
@@ -312,7 +315,7 @@
 	},
 	"target_words": {
 		"name": "Target Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/165}",
@@ -404,7 +407,7 @@
 	},
 	"effect_word_descriptions": {
 		"name": "Effect Word Descriptions",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/167}",
@@ -483,7 +486,7 @@
 	},
 	"acid_words": {
 		"name": "Acid Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/167}",
@@ -569,7 +572,7 @@
 	},
 	"alignment_words": {
 		"name": "Alignment Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/168}",
@@ -648,7 +651,7 @@
 	},
 	"animal_words": {
 		"name": "Animal Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/168}",
@@ -727,7 +730,7 @@
 	},
 	"armor_words": {
 		"name": "Armor Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/169}",
@@ -817,7 +820,7 @@
 	},
 	"binding_words": {
 		"name": "Binding Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/170}",
@@ -905,7 +908,7 @@
 	},
 	"body_words": {
 		"name": "Body Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/170}",
@@ -1004,7 +1007,7 @@
 	},
 	"change_words": {
 		"name": "Change Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/171}",
@@ -1095,7 +1098,7 @@
 	},
 	"cold_words": {
 		"name": "Cold Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/171}",
@@ -1180,7 +1183,7 @@
 	},
 	"command_words": {
 		"name": "Command Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/172}",
@@ -1280,7 +1283,7 @@
 	},
 	"concealing_words": {
 		"name": "Concealing Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/173}",
@@ -1365,7 +1368,7 @@
 	},
 	"death_words": {
 		"name": "Death Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/173}",
@@ -1455,7 +1458,7 @@
 	},
 	"destruction_words": {
 		"name": "Destruction Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/174}",
@@ -1534,7 +1537,7 @@
 	},
 	"detection_words": {
 		"name": "Detection Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/174}",
@@ -1628,7 +1631,7 @@
 	},
 	"dispelling_words": {
 		"name": "Dispelling Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/175}",
@@ -1718,7 +1721,7 @@
 	},
 	"divination_words": {
 		"name": "Divination Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/176}",
@@ -1799,7 +1802,7 @@
 	},
 	"electricity_words": {
 		"name": "Electricity Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/176}",
@@ -1890,7 +1893,7 @@
 	},
 	"fear_words": {
 		"name": "Fear Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/177}",
@@ -1968,7 +1971,7 @@
 	},
 	"fire_words": {
 		"name": "Fire Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/177}",
@@ -2071,7 +2074,7 @@
 	},
 	"flight_words": {
 		"name": "Flight Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/177}",
@@ -2150,7 +2153,7 @@
 	},
 	"force_words": {
 		"name": "Force Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/178}",
@@ -2219,7 +2222,7 @@
 	},
 	"gravity_words": {
 		"name": "Gravity Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/179}",
@@ -2300,7 +2303,7 @@
 	},
 	"healing_words": {
 		"name": "Healing Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/179}",
@@ -2407,7 +2410,7 @@
 	},
 	"illusion_words": {
 		"name": "Illusion Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/180}",
@@ -2477,7 +2480,7 @@
 	},
 	"illumination_words": {
 		"name": "Illumination Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/180}",
@@ -2556,7 +2559,7 @@
 	},
 	"language_words": {
 		"name": "Language Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/180}",
@@ -2639,7 +2642,7 @@
 	},
 	"life_words": {
 		"name": "Life Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/181}",
@@ -2724,7 +2727,7 @@
 	},
 	"pain_words": {
 		"name": "Pain Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/181}",
@@ -2800,7 +2803,7 @@
 	},
 	"power_words": {
 		"name": "Power Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/182}",
@@ -2891,7 +2894,7 @@
 	},
 	"sonic_words": {
 		"name": "Sonic Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/182}",
@@ -2968,7 +2971,7 @@
 	},
 	"summoning_words": {
 		"name": "Summoning Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/182}",
@@ -3107,7 +3110,7 @@
 	},
 	"teleportation_words": {
 		"name": "Teleportation Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/184}",
@@ -3193,7 +3196,7 @@
 	},
 	"time_words": {
 		"name": "Time Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/185}",
@@ -3314,7 +3317,7 @@
 	},
 	"wall_words": {
 		"name": "Wall Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/186}",
@@ -3411,7 +3414,7 @@
 	},
 	"weather_words": {
 		"name": "Weather Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/186}",
@@ -3505,7 +3508,7 @@
 	},
 	"wounding_words": {
 		"name": "Wounding Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/187}",
@@ -3612,7 +3615,7 @@
 	},
 	"meta_words": {
 		"name": "Meta Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/188}",
@@ -3680,7 +3683,7 @@
 	},
 	"class_word_lists": {
 		"name": "Class Word Lists",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/189}",
@@ -3717,7 +3720,7 @@
 	},
 	"alchemist_words": {
 		"name": "Alchemist Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/189}",
@@ -3755,12 +3758,14 @@
 	},
 	"bard_words": {
 		"name": "Bard Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/189}",
 			"",
-			"***0-Level Bard Words:*** Beacon (Divination), Cramp (Pain), Decipher (Language), Echo (Illusion), Lift (Gravity), Sense Magic (Detection) 1st-Level Bard Words: Dash (Time), Decipher&#42; (Language), Fade (Concealing), Friendship (Command), Glide (Flight), Lesser Cure (Healing), Radiance (Illumination), Servitor I (Summoning), Simple Order (Command), Spook (Fear), Wrack (Pain)",
+			"***0-Level Bard Words:*** Beacon (Divination), Cramp (Pain), Decipher (Language), Echo (Illusion), Lift (Gravity), Sense Magic (Detection)",
+			"",
+			"***1st-Level Bard Words:*** Dash (Time), Decipher&#42; (Language), Fade (Concealing), Friendship (Command), Glide (Flight), Lesser Cure (Healing), Radiance (Illumination), Servitor I (Summoning), Simple Order (Command), Spook (Fear), Wrack (Pain)",
 			"",
 			"***2nd-Level Bard Words:*** Accelerate (Time), Decelerate (Time), Disappear (Concealing), Discordant Note (Sonic), Enhance Form (Body), Float (Flight), Glimmering (Illusion), Gloom (Illumination), Moderate Cure (Healing), Paralyze Humanoid (Binding), Sense Hidden (Detection), Sense Thoughts (Detection), Servitor II (Summoning), Suppress (Dispelling), Translate (Language)",
 			"",
@@ -3793,12 +3798,14 @@
 	},
 	"cleric_oracle_words": {
 		"name": "Cleric/Oracle Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/189}",
 			"",
-			"***0-Level Cleric/Oracle Words:*** Bleeding Wounds (Wounding), Cramp (Pain), Decipher (Language), Force Block (Armor), Sense Magic (Detection), Soothing Touch (Healing) 1st-Level Cleric/Oracle Words: Alignment Shield (Alignment), Decipher&#42; (Language), Fog Bank (Weather), Force Block&#42; (Armor), Fortify (Body), Lesser Cure (Healing), Lesser Wound (Wounding), Radiance (Illumination), Sense Alignment (Detection), Servitor I (Summoning), Simple Order (Command), Soothing Touch&#42; (Healing), Spook (Fear), Wrack (Pain)",
+			"***0-Level Cleric/Oracle Words:*** Bleeding Wounds (Wounding), Cramp (Pain), Decipher (Language), Force Block (Armor), Sense Magic (Detection), Soothing Touch (Healing)",
+			"",
+			"***1st-Level Cleric/Oracle Words:*** Alignment Shield (Alignment), Decipher&#42; (Language), Fog Bank (Weather), Force Block&#42; (Armor), Fortify (Body), Lesser Cure (Healing), Lesser Wound (Wounding), Radiance (Illumination), Sense Alignment (Detection), Servitor I (Summoning), Simple Order (Command), Soothing Touch&#42; (Healing), Spook (Fear), Wrack (Pain)",
 			"",
 			"***2nd-Level Cleric/Oracle Words:*** Discordant Note (Sonic), Energy Resistance (Body), Enhance Form (Body), Gloom (Illumination), Moderate Cure (Healing), Moderate Wound (Wounding), Paralyze Humanoid (Binding), Predict (Time), Sense Alignment&#42; (Detection), Sense Hidden (Detection), Servitor II (Summoning), Suppress (Dispelling), Undeath (Death)",
 			"",
@@ -3837,12 +3844,14 @@
 	},
 	"druid_words": {
 		"name": "Druid Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/190}",
 			"",
-			"***0-Level Druid Words:*** Acid Burn (Acid), Beacon (Divination), Cold Snap (Cold), Decipher (Language), Flame Jet (Fire), Sense Magic (Detection), Soothing Touch (Healing), Spark (Electricity) 1st-Level Druid Words: Decipher&#42; (Language), Fleet (Time), Fog Bank (Weather), Lesser Cure (Healing), Nature's Calm (Animal), Radiance (Illumination), Servitor I (Summoning), Soothing Touch&#42; (Healing)",
+			"***0-Level Druid Words:*** Acid Burn (Acid), Beacon (Divination), Cold Snap (Cold), Decipher (Language), Flame Jet (Fire), Sense Magic (Detection), Soothing Touch (Healing), Spark (Electricity)",
+			"",
+			"***1st-Level Druid Words:*** Decipher&#42; (Language), Fleet (Time), Fog Bank (Weather), Lesser Cure (Healing), Nature's Calm (Animal), Radiance (Illumination), Servitor I (Summoning), Soothing Touch&#42; (Healing)",
 			"",
 			"***2nd-Level Druid Words:*** Burning Flash (Fire), Energy Resistance (Body), Enhance Form (Body), Frost Fingers (Cold), Servitor II (Summoning), Suppress (Dispelling), Wild Lure (Animal), Wind Blast (Weather)",
 			"",
@@ -3881,12 +3890,14 @@
 	},
 	"inquisitor_words": {
 		"name": "Inquisitor Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/190}",
 			"",
-			"***0-Level Inquisitor Words:*** Acid Burn (Acid), Bleeding Wounds (Wounding), Cramp (Pain), Decipher (Language), Sense Magic (Detection), Soothing Touch (Healing) 1st-Level Inquisitor Words: Alignment Shield (Alignment), Dash (Time), Decipher&#42; (Language), Fade (Concealing), Fortify (Body), Lesser Cure (Healing), Lesser Wound (Wounding), Radiance (Illumination), Sense Alignment (Detection), Simple Order (Command), Soothing Touch&#42; (Healing), Spook (Fear), Wrack (Pain)",
+			"***0-Level Inquisitor Words:*** Acid Burn (Acid), Bleeding Wounds (Wounding), Cramp (Pain), Decipher (Language), Sense Magic (Detection), Soothing Touch (Healing)",
+			"",
+			"***1st-Level Inquisitor Words:*** Alignment Shield (Alignment), Dash (Time), Decipher&#42; (Language), Fade (Concealing), Fortify (Body), Lesser Cure (Healing), Lesser Wound (Wounding), Radiance (Illumination), Sense Alignment (Detection), Simple Order (Command), Soothing Touch&#42; (Healing), Spook (Fear), Wrack (Pain)",
 			"",
 			"***2nd-Level Inquisitor Words:*** Burning Flash (Fire), Disappear (Concealing), Energy Resistance (Body), Moderate Cure (Healing), Moderate Wound (Wounding), Paralyze Humanoid (Binding), Sense Alignment&#42; (Detection), Sense Hidden (Detection), Sense Thoughts (Detection), Suppress (Dispelling)",
 			"",
@@ -3919,12 +3930,14 @@
 	},
 	"magus_words": {
 		"name": "Magus Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/191}",
 			"",
-			"***0-Level Magus Words:*** Acid Burn (Acid), Cold Snap (Cold), Decipher (Language), Flame Jet (Fire), Force Block (Armor), Lift (Gravity), Sense Magic (Detection), Spark (Electricity) 1st-Level Magus Words: Burning Flash (Fire), Dash (Time), Decipher&#42; (Language), Fade (Concealing), Force Block&#42; (Armor), Force Shield (Armor), Glide (Flight), Radiance (Illumination), Shock Arc (Electricity)",
+			"***0-Level Magus Words:*** Acid Burn (Acid), Cold Snap (Cold), Decipher (Language), Flame Jet (Fire), Force Block (Armor), Lift (Gravity), Sense Magic (Detection), Spark (Electricity)",
+			"",
+			"***1st-Level Magus Words:*** Burning Flash (Fire), Dash (Time), Decipher&#42; (Language), Fade (Concealing), Force Block&#42; (Armor), Force Shield (Armor), Glide (Flight), Radiance (Illumination), Shock Arc (Electricity)",
 			"",
 			"***2nd-Level Magus Words:*** Accelerate (Time), Burning Flash&#42; (Fire), Corrosive Bolt (Acid), Decelerate (Time), Disappear (Concealing), Discordant Note (Sonic), Enhance Form (Body), Float (Flight), Force Bolt (Force), Frost Fingers (Cold), Gloom (Illumination), Suppress (Dispelling)",
 			"",
@@ -3957,7 +3970,7 @@
 	},
 	"paladin_words": {
 		"name": "Paladin Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/191}",
@@ -3991,7 +4004,7 @@
 	},
 	"ranger_words": {
 		"name": "Ranger Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/191}",
@@ -4025,12 +4038,14 @@
 	},
 	"sorcerer_wizard_words": {
 		"name": "Sorcerer/Wizard Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/191}",
 			"",
-			"***0-Level Sorcerer/Wizard Words:*** Acid Burn (Acid), Bleeding Wounds (Wounding), Cold Snap (Cold), Cramp (Pain), Decipher (Language), Echo (Illusion), Flame Jet (Fire), Force Block (Armor), Lift (Gravity), Sense Magic (Detection), Spark (Electricity) 1st-Level Sorcerer/Wizard Words: Alignment Shield (Alignment), Burning Flash (Fire), Dash (Time), Decipher&#42; (Language), Fade (Concealing), Fog Bank (Weather), Force Block&#42; (Armor), Force Shield (Armor), Fortify (Body), Friendship (Command), Glide (Flight), Lock Ward (Binding), Radiance (Illumination), Servitor I (Summoning), Shock Arc (Electricity), Simple Order (Command), Spook (Fear), Wrack (Pain)",
+			"***0-Level Sorcerer/Wizard Words:*** Acid Burn (Acid), Bleeding Wounds (Wounding), Cold Snap (Cold), Cramp (Pain), Decipher (Language), Echo (Illusion), Flame Jet (Fire), Force Block (Armor), Lift (Gravity), Sense Magic (Detection), Spark (Electricity)",
+			"",
+			"***1st-Level Sorcerer/Wizard Words:*** Alignment Shield (Alignment), Burning Flash (Fire), Dash (Time), Decipher&#42; (Language), Fade (Concealing), Fog Bank (Weather), Force Block&#42; (Armor), Force Shield (Armor), Fortify (Body), Friendship (Command), Glide (Flight), Lock Ward (Binding), Radiance (Illumination), Servitor I (Summoning), Shock Arc (Electricity), Simple Order (Command), Spook (Fear), Wrack (Pain)",
 			"",
 			"***2nd-Level Sorcerer/Wizard Words:*** Accelerate (Time), Burning Flash&#42; (Fire), Corrosive Bolt (Acid), Damage (Destruction), Decelerate (Time), Disappear (Concealing), Energy Resistance (Body), Enhance Form (Body), Float (Flight), Force Bolt (Force), Frost Fingers (Cold), Gloom (Illumination), Sense Hidden (Detection), Sense Thoughts (Detection), Servitor II (Summoning), Suppress (Dispelling)",
 			"",
@@ -4069,12 +4084,14 @@
 	},
 	"summoner_words": {
 		"name": "Summoner Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/192}",
 			"",
-			"***0-Level Summoner Words:*** Acid Burn (Acid), Decipher (Language), Force Block (Armor), Lift (Gravity), Sense Magic (Detection) 1st-Level Summoner Words: Dash (Time), Decipher&#42; (Language), Fade (Concealing), Force Block&#42; (Armor), Force Shield (Armor), Fortify (Body), Glide (Flight), Servitor I (Summoning)",
+			"***0-Level Summoner Words:*** Acid Burn (Acid), Decipher (Language), Force Block (Armor), Lift (Gravity), Sense Magic (Detection)",
+			"",
+			"***1st-Level Summoner Words:*** Dash (Time), Decipher&#42; (Language), Fade (Concealing), Force Block&#42; (Armor), Force Shield (Armor), Fortify (Body), Glide (Flight), Servitor I (Summoning)",
 			"",
 			"***2nd-Level Summoner Words:*** Accelerate (Time), Decelerate (Time), Disappear (Concealing), Energy Resistance (Body), Enhance Form (Body), Float (Flight), Sense Hidden (Detection), Sense Thoughts (Detection), Servitor II (Summoning), Suppress (Dispelling)",
 			"",
@@ -4107,12 +4124,14 @@
 	},
 	"witch_words": {
 		"name": "Witch Words",
-		"subtitle": "Words of Power",
+		"subtitle": "Words of Power, Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/193}",
 			"",
-			"***0-Level Witch Words:*** Bleeding Wounds (Wounding), Cramp (Pain), Decipher (Language), Sense Magic (Detection), Soothing Touch (Healing), Spark (Electricity) 1st-Level Witch Words: Burning Flash (Fire), Decipher&#42; (Language), Fade (Concealing), Fog Bank (Weather), Force Shield (Armor), Friendship (Command), Glide (Flight), Lesser Cure (Healing), Lesser Wound (Wounding), Nature's Calm (Animal), Radiance (Illumination), Servitor I (Summoning), Shock Arc (Electricity), Simple Order (Command), Soothing Touch&#42; (Healing), Spook (Fear), Wrack (Pain)",
+			"***0-Level Witch Words:*** Bleeding Wounds (Wounding), Cramp (Pain), Decipher (Language), Sense Magic (Detection), Soothing Touch (Healing), Spark (Electricity)",
+			"",
+			"***1st-Level Witch Words:*** Burning Flash (Fire), Decipher&#42; (Language), Fade (Concealing), Fog Bank (Weather), Force Shield (Armor), Friendship (Command), Glide (Flight), Lesser Cure (Healing), Lesser Wound (Wounding), Nature's Calm (Animal), Radiance (Illumination), Servitor I (Summoning), Shock Arc (Electricity), Simple Order (Command), Soothing Touch&#42; (Healing), Spook (Fear), Wrack (Pain)",
 			"",
 			"***2nd-Level Witch Words:*** Burning Flash&#42; (Fire), Disappear (Concealing), Float (Flight), Gloom (Illumination), Moderate Cure (Healing), Moderate Wound (Wounding), Paralyze Humanoid (Binding), Predict (Time), Sense Hidden (Detection), Sense Thoughts (Detection), Servitor II (Summoning), Suppress (Dispelling), Wild Lure (Animal)",
 			"",
@@ -4151,6 +4170,7 @@
 	},
 	"words_of_power_in_the_worlds": {
 		"name": "Words of Power in the Worlds",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/164}",
@@ -4174,6 +4194,7 @@
 	},
 	"introducing_words_of_power": {
 		"name": "Introducing Words of Power",
+		"subtitle": "Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/193}",

@@ -27,6 +27,9 @@ div.search div.searchResult a h3 {
 	font-size: 1rem;
 	margin: 0;
 	text-transform: capitalize;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 div.search div.searchResult a h4 {
 	color: var(--ion-text-color);

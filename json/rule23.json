@@ -1,6 +1,7 @@
 {
 	"mythic_rules": {
 		"name": "Mythic Rules",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"{SOURCE Mythic Adventures/4}",

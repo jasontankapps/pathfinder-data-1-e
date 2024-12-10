@@ -1,7 +1,7 @@
 {
 	"events": {
 		"name": "Events",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/220}",
@@ -134,7 +134,7 @@
 	},
 	"events_beneficial_kingdom": {
 		"name": "Beneficial Events",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"***Archaeological Find:*** A well-preserved ruin is found in your kingdom, with historical artifacts connected to the people who lived in your land long ago.  ",
@@ -173,7 +173,7 @@
 	},
 	"events_dangerous_kingdom": {
 		"name": "Dangerous Events",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"***Assassination Attempt:*** One of your leaders (determined randomly) is the target of an assassination attempt. If the target is a PC, the GM should run the attempt as an encounter, using an assassin of a CR equal to the targeted PC's level. If the target is an NPC, you must succeed at a Stability check to prevent the assassination. If the assassination occurs, Unrest increases by 1d6 and the kingdom immediately incurs the penalties for not having a leader in that role.",
@@ -217,7 +217,7 @@
 	},
 	"events_beneficial_settlement": {
 		"name": "Beneficial Settlement Events",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"***Boomtown (Settlement):*** Randomly select one settlement. Commerce booms among that settlement. Until the next Event phase, Economy increases by the number of buildings in the settlement that grant an Economy bonus, and Corruption increases by 1d4 in that settlement.",
@@ -255,7 +255,7 @@
 	},
 	"events_dangerous_settlement": {
 		"name": "Dangerous Settlement Events",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"***Building Demand (Settlement, Continuous):*** The citizens demand a particular building be built (01-75) or demolished (76-100). Select the building type randomly from those available for the settlement. If the demand is not met by the next Event phase, Unrest increases by 1. Alternatively, you can suppress the citizens' demands and negate the event by succeeding at a Loyalty check, but this reduces Loyalty by 2 and increases Unrest by 1.",
@@ -299,7 +299,7 @@
 	},
 	"gaining_experience_for_leadership": {
 		"name": "Gaining Experience for Leadership",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/215}",
@@ -355,6 +355,7 @@
 	},
 	"optional_kingdom_rules": {
 		"name": "Optional Kingdom Rules",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/228}",
@@ -384,7 +385,7 @@
 	},
 	"abandoned_buildings": {
 		"name": "Abandoned Buildings",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/228}",
@@ -412,7 +413,7 @@
 	},
 	"deities_and_holy_sites": {
 		"name": "Deities and Holy Sites",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/228}",
@@ -442,7 +443,7 @@
 	},
 	"expanding_settlement_modifiers": {
 		"name": "Expanding Settlement Modifiers",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/230}",
@@ -468,7 +469,7 @@
 	},
 	"fame_and_infamy": {
 		"name": "Fame and Infamy",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/230}",
@@ -506,7 +507,7 @@
 	},
 	"forms_of_government": {
 		"name": "Forms of Government",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/231}",
@@ -553,7 +554,7 @@
 	},
 	"independence_and_unification": {
 		"name": "Independence and Unification",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/231}",
@@ -583,7 +584,7 @@
 	},
 	"declaring_independence": {
 		"name": "Declaring Independence",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/231}",
@@ -619,7 +620,7 @@
 	},
 	"forming_a_union": {
 		"name": "Forming a Union",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/232}",
@@ -647,7 +648,7 @@
 	},
 	"leadership_role_skills": {
 		"name": "Leadership Role Skills",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/232}",
@@ -705,7 +706,7 @@
 	},
 	"settlement_sizes": {
 		"name": "Settlement Sizes",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/232}",
@@ -748,7 +749,7 @@
 	},
 	"special_edicts": {
 		"name": "Special Edicts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/229}",
@@ -782,7 +783,7 @@
 	},
 	"diplomatic_edicts": {
 		"name": "Diplomatic Edicts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/228}",
@@ -841,7 +842,7 @@
 	},
 	"type_of_diplomatic_relationships": {
 		"name": "Type of Diplomatic Relationships",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/229}",
@@ -903,7 +904,7 @@
 	},
 	"relationships_with_multiple_kingdoms": {
 		"name": "Relationships with Multiple Kingdoms",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/230}",
@@ -927,7 +928,7 @@
 	},
 	"exploration_edicts": {
 		"name": "Exploration Edicts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/230}",
@@ -957,7 +958,7 @@
 	},
 	"trade_edicts": {
 		"name": "Trade Edicts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/232}",
@@ -1005,7 +1006,7 @@
 	},
 	"vassalage_edicts": {
 		"name": "Vassalage Edicts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/233}",
@@ -1043,6 +1044,7 @@
 	},
 	"mass_combat": {
 		"name": "Mass Combat",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/234}",
@@ -1087,6 +1089,7 @@
 	},
 	"mass_combat_overview": {
 		"name": "Mass Combat Overview",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/234}",
@@ -1133,6 +1136,7 @@
 	},
 	"mass_combat_quick_reference_guide": {
 		"name": "Mass Combat Quick Reference Guide",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/235}",
@@ -1187,7 +1191,7 @@
 	},
 	"beyond_the_kingdom": {
 		"name": "Beyond the Kingdom",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/236}",
@@ -1224,6 +1228,7 @@
 	},
 	"running_mass_combat": {
 		"name": "Running Mass Combat",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/237}",
@@ -1260,7 +1265,7 @@
 	},
 	"recruiting_armies": {
 		"name": "Recruiting Armies",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/241}",
@@ -1299,7 +1304,7 @@
 	},
 	"army_statistics": {
 		"name": "Army Statistics",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/234}",
@@ -1382,7 +1387,7 @@
 	},
 	"battle_phases": {
 		"name": "Battle Phases",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/236}",
@@ -1425,7 +1430,7 @@
 	},
 	"attacking_and_taking_damage": {
 		"name": "Attacking and Taking Damage",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/236}",
@@ -1469,7 +1474,7 @@
 	},
 	"more_than_two_armies": {
 		"name": "More than Two Armies",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/237}",
@@ -1486,7 +1491,7 @@
 	},
 	"battlefield_conditions": {
 		"name": "Battlefield Conditions",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/237}",
@@ -1547,7 +1552,7 @@
 	},
 	"army_tactics": {
 		"name": "Army Tactics",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/237}",
@@ -1618,7 +1623,7 @@
 	},
 	"strategy_track": {
 		"name": "Strategy Track",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/239}",
@@ -1665,7 +1670,7 @@
 	},
 	"rout": {
 		"name": "Rout",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/239}",
@@ -1702,7 +1707,7 @@
 	},
 	"victory_rout_or_defeat": {
 		"name": "Victory, Rout, or Defeat",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/239}",
@@ -1757,7 +1762,7 @@
 	},
 	"recovery": {
 		"name": "Recovery",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/239}",
@@ -1796,7 +1801,7 @@
 	},
 	"commanders": {
 		"name": "Commanders",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/239}",
@@ -1854,7 +1859,7 @@
 	},
 	"boons": {
 		"name": "Boons",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/240}",
@@ -1897,7 +1902,7 @@
 	},
 	"kingdom_leader_commanders": {
 		"name": "Kingdom Leader Commanders",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/240}",
@@ -1948,7 +1953,7 @@
 	},
 	"losing_commanders": {
 		"name": "Losing Commanders",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/241}",
@@ -1971,7 +1976,7 @@
 	},
 	"army_resources": {
 		"name": "Army Resources",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/241}",
@@ -2041,7 +2046,7 @@
 	},
 	"transfering_resources": {
 		"name": "Transfering Resources",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/242}",
@@ -2062,7 +2067,7 @@
 	},
 	"special_abilities_ucp": {
 		"name": "Special Abilities",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"className": "hasInfoTable",
 		"description": [
@@ -2209,7 +2214,7 @@
 	},
 	"player_characters_in_battles": {
 		"name": "Player Characters in Battles",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/245}",
@@ -2248,6 +2253,7 @@
 	},
 	"optional_mass_combat_rules": {
 		"name": "Optional Mass Combat Rules",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/246}",
@@ -2290,7 +2296,7 @@
 	},
 	"combining_armies": {
 		"name": "Combining Armies",
-		"subtitle": "Mass Combat, Optional",
+		"subtitle": "Mass Combat, Optional, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/246}",
@@ -2318,7 +2324,7 @@
 	},
 	"reforming_an_army": {
 		"name": "Reforming an Army",
-		"subtitle": "Mass Combat, Optional",
+		"subtitle": "Mass Combat, Optional, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/246}",
@@ -2346,7 +2352,7 @@
 	},
 	"reserve_army": {
 		"name": "Reserve Army",
-		"subtitle": "Mass Combat, Optional",
+		"subtitle": "Mass Combat, Optional, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/246}",
@@ -2372,7 +2378,7 @@
 	},
 	"splitting_an_army": {
 		"name": "Splitting an Army",
-		"subtitle": "Mass Combat, Optional",
+		"subtitle": "Mass Combat, Optional, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/246}",
@@ -2400,7 +2406,7 @@
 	},
 	"sample_armies": {
 		"name": "Sample Armies",
-		"subtitle": "Mass Combat",
+		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/247}",

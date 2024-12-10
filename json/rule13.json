@@ -16,7 +16,7 @@
 	},
 	"dungeons": {
 		"name": "Dungeons",
-		"subtitle": "Gamemastery",
+		"subtitle": "Environment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -40,7 +40,7 @@
 	},
 	"types_of_dungeons": {
 		"name": "Types of Dungeons",
-		"subtitle": "Gamemastery",
+		"subtitle": "Environment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -74,7 +74,7 @@
 	},
 	"dungeon_terrain": {
 		"name": "Dungeon Terrain",
-		"subtitle": "Gamemastery",
+		"subtitle": "Environment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -101,7 +101,7 @@
 	},
 	"walls": {
 		"name": "Walls",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons, Environment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -163,7 +163,7 @@
 	},
 	"floors": {
 		"name": "Floors",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons, Environment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/411}",
@@ -215,7 +215,7 @@
 	},
 	"doors": {
 		"name": "Doors",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons, Environment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/412}",
@@ -303,7 +303,7 @@
 	},
 	"walls_doors_and_detect_spells": {
 		"name": "Walls, Doors, and Detect Spells",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons, Environment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
@@ -327,7 +327,7 @@
 	},
 	"stairs": {
 		"name": "Stairs",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons, Environment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
@@ -351,7 +351,7 @@
 	},
 	"cave_ins_and_collapses_cr_8": {
 		"name": "Cave-Ins and Collapses",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons, Environment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
@@ -386,7 +386,7 @@
 	"slimes_molds_and_fungi": {
 		"name": "Slimes, Molds, and Fungi",
 		"tags": "brown mold green slime shrieker yellow mold russet mold phosphorescent fungus",
-		"subtitle": "Dungeons",
+		"subtitle": "Dungeons, Environment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
@@ -1817,7 +1817,7 @@
 	},
 	"weapon_and_spell_restrictions": {
 		"name": "Weapon and Spell Restrictions",
-		"subtitle": "Urban",
+		"subtitle": "Urban Adventures",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/433}",
@@ -1863,7 +1863,7 @@
 	},
 	"walls_and_gates": {
 		"name": "Walls and Gates",
-		"subtitle": "Urban",
+		"subtitle": "Urban Adventures",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/433}",
@@ -1903,7 +1903,7 @@
 	},
 	"guards_and_soldiers": {
 		"name": "Guards and Soldiers",
-		"subtitle": "Urban",
+		"subtitle": "Urban Adventures",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/434}",
@@ -1931,7 +1931,7 @@
 	},
 	"siege_engines": {
 		"name": "Siege Engines",
-		"subtitle": "Urban",
+		"subtitle": "Urban Adventures",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/434}",
@@ -2004,7 +2004,7 @@
 	},
 	"city_streets": {
 		"name": "City Streets",
-		"subtitle": "Urban",
+		"subtitle": "Urban Adventures",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/435}",
@@ -2036,7 +2036,7 @@
 	},
 	"above_and_beneath_the_streets": {
 		"name": "Above and Beneath the Streets",
-		"subtitle": "Urban",
+		"subtitle": "Urban Adventures",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/437}",
@@ -2064,7 +2064,7 @@
 	},
 	"city_buildings": {
 		"name": "City Buildings",
-		"subtitle": "Urban",
+		"subtitle": "Urban Adventures",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/437}",
@@ -2094,7 +2094,7 @@
 	},
 	"city_lights": {
 		"name": "City Lights",
-		"subtitle": "Urban",
+		"subtitle": "Urban Adventures",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/437}",

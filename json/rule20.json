@@ -18,6 +18,7 @@
 	},
 	"aquatic_adventures_aa": {
 		"name": "Aquatic Adventures",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"The rules presented in the Pathfinder RPG Core Rulebook assume the default perspective of a game based on land, with only occasional hazards and encounters involving water - typically as ways to get terrestrial PCs out of their comfort zone. However, when you're running a game with significant portions set underwater, you often wind up needing to make a number of tricky adjudications in order to make gameplay work. This section includes advice and adjudications that make it an invaluable resource for those running and playing in aquatic adventures.",
@@ -44,6 +45,7 @@
 	},
 	"swimming_and_aquatic_adventures": {
 		"name": "Swimming and Aquatic Adventures",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"Barring the use of magic, swimming is the main way to travel in an aquatic adventure. However, the Swim skill was written from the perspective of a primarily land-based campaign.",
@@ -72,7 +74,7 @@
 	},
 	"buoyancy": {
 		"name": "Bouyancy",
-		"subtitle": "Aquatic Adventures",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"When a creature fails its Swim check by 5 or more, or when it doesn't spend any actions to swim (whether voluntarily or due to paralysis or similar conditions), it either sinks or rises based on its buoyancy. There are three normal states of buoyancy: sinking, rising, and neutral. If a creature's buoyancy is sinking, it naturally sinks; if its buoyancy is rising, it naturally rises to the surface; and if its buoyancy is neutral, it hangs in place unless it expends effort.",
@@ -105,7 +107,7 @@
 	},
 	"thinking_in_three_dimensions": {
 		"name": "Thinking in Three Dimensions",
-		"subtitle": "Aquatic Adventures",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"While flying creatures can add a third dimension to land-based combat, such creatures are an exception rather than the rule. The main challenge three-dimensional adventuring presents is representing a creature's vertical position during combat. This challenge is tougher than usual because most flying in adventures still involves encounters relatively close to the ground, rather than in the open sky, but plenty of encounters in an underwater adventure may occur in open water, nowhere near the surface or bottom. Typical solutions for flying creatures like using stackable tokens or transparent dice boxes to elevate the flying creature all depend on the main map being a consistent bottom altitude, but in an underwater fight, the combatants could just as easily move farther down.",
@@ -131,7 +133,7 @@
 	"fighting_underwater": {
 		"name": "Fighting Underwater",
 		"tags": "underwater combat",
-		"subtitle": "Aquatic Adventures",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"Combat underwater is more complex than on land, both because of the three-dimensional nature of the environment, and because being underwater changes how many actions work. This section contains rules advice and adjudication for major factors that change because of the water.",
@@ -262,7 +264,7 @@
 	},
 	"underwater_hazards_and_features": {
 		"name": "Underwater Hazards and Features",
-		"subtitle": "Aquatic Adventures",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"In addition to the ways in which being underwater affects normal actions, an underwater environment presents a variety of special dangers and features that can prove hazardous to surface-dwellers and aquatic creatures alike."
@@ -285,7 +287,7 @@
 	},
 	"drowning_aa": {
 		"name": "Drowning",
-		"subtitle": "Aquatic Adventures",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"Drowning is one of the most obvious dangers of underwater adventuring. As creature can typically hold its breath for a number of rounds equal to twice its Constitution score. Whenever a creature takes a standard or full-round action, it expends 1 additional round of breath, so practically speaking, if a creature wants to fight or double move each round, it can do so only for a number of rounds equal to its Constitution score. Intentionally exhaling breath expends 1 to 3 rounds for each exhaling action - generally 1 round for a small exhalation, and 3 rounds for an extended exhalation like singing a song or casting a spell. Certain magic, like the {spell/suffocation} spell, can expel all of a creature's held breath.",
@@ -308,7 +310,7 @@
 	},
 	"oceanic_zones": {
 		"name": "Oceanic Zones",
-		"subtitle": "Aquatic Adventures",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"The ocean is divided into four zones: the sunlight zone (from the surface to 600 feet below), the twilight zone (from 600 feet down to 3,300 feet), the midnight zone (from 3,300 feet down to 13,000 feet - which often reaches the bottom), and the Abyssal zone (from 13,000 feet to the bottom in depths greater than 13,000 feet). Some oceanographers add a fifth zone, the Abaddonian zone, which describes areas 20,000 feet and below in the deepest ocean trenches.",
@@ -345,7 +347,7 @@
 	},
 	"currents_and_running_water": {
 		"name": "Currents and Running Water",
-		"subtitle": "Aquatic Adventures",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"Currents in the ocean (or a similarly large body of water) work similarly to [rivers](rule/aquatic_terrain). Each current has a particular speed (measured in feet per round), width, and direction, and at the beginning of a creature's turn, the current pushes it that distance. This movement provokes attacks of opportunity to creatures not in the same current. A creature can try to swim against the current's flow on its turn to stay in place, but it's usually a better idea to swim perpendicular to the current to reach the edge and exit the current. Fortunately, while rivers can reach speeds up to 90 feet per round, the fastest natural ocean currents are usually not much faster than 50 feet per round in the sunlight zone, and are slower the deeper one travels. This is because currents are mainly influenced by the weather near the surface and tiny discrepancies in temperature far below the surface, and the effects of the latter are not as strong. Currents always count as at least rough water ({skill/Swim} DC 15), and faster currents count as at least stormy water (Swim DC 20).",
@@ -366,7 +368,7 @@
 	},
 	"whirlpools": {
 		"name": "Whirlpools",
-		"subtitle": "Aquatic Adventures",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"When currents flowing in opposite directions meet, they create a whirlpool. Most whirlpools are harmless, but some mighty maelstroms formed by powerful tides are capable of great destruction. The most powerful whirlpools can reach a maximum current speed of around 200 feet per round, spinning in a circle and generating a centripetal force to pull nearby creatures and objects into the whirlpool and prevent those caught in the whirlpool from leaving. Whirlpool movement doesn't normally provoke attacks of opportunity, because no one caught in the current is in a position to make one.",
@@ -387,6 +389,7 @@
 	},
 	"horror_rules": {
 		"name": "Horror Rules",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/8}",
@@ -441,6 +444,7 @@
 	},
 	"horror_characters": {
 		"name": "Horror Characters",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/8}",
@@ -467,6 +471,7 @@
 	},
 	"playing_a_horror_hero": {
 		"name": "Playing a Horror Hero",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/8}",
@@ -490,6 +495,7 @@
 	},
 	"participating_in_horror_adventures": {
 		"name": "Participating in Horror Adventures",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/8}",
@@ -515,6 +521,7 @@
 	},
 	"building_horror_characters": {
 		"name": "Building Horror Characters",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/8}",
@@ -540,7 +547,8 @@
 	},
 	"plan_to_be_frightened": {
 		"name": "Plan to Be Frightened",
-		"tags": "horror fear",
+		"subtitle": "Horror, Specific Campaigns",
+		"tags": "fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/9}",
@@ -582,7 +590,7 @@
 	},
 	"roleplaying_fear": {
 		"name": "Roleplaying Fear",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/9}",
@@ -606,7 +614,7 @@
 	},
 	"conspiring_with_the_gm": {
 		"name": "Conspiring with the GM",
-		"tags": "horror fear",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/9}",
@@ -630,6 +638,7 @@
 	},
 	"aspects_of_horror_heroes": {
 		"name": "Aspects of Horror Heroes",
+		"subtitle": "Specific Campaigns",
 		"tags": "fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -670,7 +679,7 @@
 	},
 	"fear_ha": {
 		"name": "Fear",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/10}",
@@ -702,7 +711,7 @@
 	},
 	"levels_of_fear": {
 		"name": "Levels of Fear",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/10}",
@@ -731,7 +740,7 @@
 	},
 	"lesser_fear": {
 		"name": "Lesser Fear",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/10}",
@@ -757,7 +766,7 @@
 	},
 	"greater_fear": {
 		"name": "Greater Fear",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/10}",
@@ -792,7 +801,7 @@
 	},
 	"fear_duration": {
 		"name": "Fear Duration",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/10}",
@@ -815,7 +824,7 @@
 	},
 	"adding_fear": {
 		"name": "Adding Fear",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/11}",
@@ -836,7 +845,7 @@
 	},
 	"fear_immunity": {
 		"name": "Fear Immunity",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/11}",
@@ -857,7 +866,7 @@
 	},
 	"sanity": {
 		"name": "Sanity",
-		"tags": "horror fear",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/12}",
@@ -892,7 +901,7 @@
 	},
 	"sanity_score_edge_and_thresholds": {
 		"name": "Sanity Score, Edge, and Thresholds",
-		"tags": "horror fear",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/12}",
@@ -922,7 +931,7 @@
 	},
 	"effects_of_sanity_damage": {
 		"name": "Effects of Sanity Damage",
-		"tags": "horror fear",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/12}",
@@ -962,7 +971,7 @@
 	},
 	"reducing_sanity_damage": {
 		"name": "Reducing Sanity Damage",
-		"tags": "horror fear",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/13}",
@@ -988,7 +997,7 @@
 	},
 	"corruption": {
 		"name": "Corruption",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/14}",
@@ -1025,7 +1034,7 @@
 	},
 	"corruption_glossary": {
 		"name": "Corruption Glossary",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/14}",
@@ -1061,7 +1070,7 @@
 	},
 	"contracting_a_corruption": {
 		"name": "Contracting a Corruption",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/14}",
@@ -1085,8 +1094,7 @@
 	},
 	"manifestations": {
 		"name": "Manifestations",
-		"subtitle": "Corruptions",
-		"tags": "horror",
+		"subtitle": "Corruptions, Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/14}",
@@ -1111,7 +1119,7 @@
 	},
 	"corruption_variants": {
 		"name": "Corruption Variants",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/14}",
@@ -1132,8 +1140,7 @@
 	},
 	"manifestation_level": {
 		"name": "Manifestation Level",
-		"subtitle": "Corruptions",
-		"tags": "horror",
+		"subtitle": "Corruptions, Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/15}",
@@ -1159,7 +1166,7 @@
 	},
 	"the_corruptions_progress": {
 		"name": "The Corruption's Progress",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/15}",
@@ -1181,7 +1188,7 @@
 	},
 	"curses_ha": {
 		"name": "Curses",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/138}",
@@ -1217,7 +1224,7 @@
 	},
 	"curses_in_your_game": {
 		"name": "Curses in your Game",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/138}",
@@ -1240,7 +1247,7 @@
 	},
 	"curse_spells": {
 		"name": "Curse Spells",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/138}",
@@ -1276,7 +1283,7 @@
 	},
 	"creating_new_curses": {
 		"name": "Creating New Curses",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/140}",
@@ -1312,7 +1319,7 @@
 	},
 	"types_of_curses": {
 		"name": "Types of Curses",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/140}",
@@ -1341,7 +1348,7 @@
 	},
 	"breaking_the_curse": {
 		"name": "Breaking the Curse",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/141}",
@@ -1364,8 +1371,7 @@
 	},
 	"alternative_means_of_relief": {
 		"name": "Alternative Means of Relief",
-		"subtitle": "Curses",
-		"tags": "horror",
+		"subtitle": "Curses, Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/141}",
@@ -1392,7 +1398,7 @@
 	},
 	"cursed_items_ha": {
 		"name": "Cursed Items",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/142}",
@@ -1416,7 +1422,7 @@
 	},
 	"crafting_cursed_items": {
 		"name": "Crafting Cursed Items",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/142}",
@@ -1445,7 +1451,7 @@
 	},
 	"cursed_land": {
 		"name": "Cursed Land",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/143}",
@@ -1470,7 +1476,7 @@
 	},
 	"curse_templates": {
 		"name": "Curse Templates",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/143}",
@@ -1518,7 +1524,7 @@
 	},
 	"horrific_diseases": {
 		"name": "Horrific Diseases",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/146}",
@@ -1550,7 +1556,7 @@
 	},
 	"disease_templates": {
 		"name": "Disease Templates",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/146}",
@@ -1639,7 +1645,7 @@
 	},
 	"new_diseases": {
 		"name": "New Diseases",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/148}",
@@ -1772,7 +1778,7 @@
 	},
 	"horror_environments": {
 		"name": "Horror Environments",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/152}",
@@ -1847,6 +1853,7 @@
 	},
 	"horror_hazards": {
 		"name": "Horror Hazards",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/154}",
@@ -1929,7 +1936,7 @@
 	},
 	"domains_of_evil": {
 		"name": "Domains of Evil",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/159}",
@@ -1960,7 +1967,7 @@
 	},
 	"domain_geography": {
 		"name": "Domain Geography",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/160}",
@@ -1992,7 +1999,7 @@
 	},
 	"cursed_domains": {
 		"name": "Cursed Domains",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/161}",
@@ -2018,7 +2025,7 @@
 	},
 	"nightmare_dreamscapes": {
 		"name": "Nightmare Dreamscapes",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/162}",
@@ -2045,7 +2052,7 @@
 	},
 	"naturally_occurring_nightmares": {
 		"name": "Naturally Occurring Nightmares",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/162}",
@@ -2088,7 +2095,7 @@
 	},
 	"supernatural_nightmares": {
 		"name": "Supernatural Nightmares",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/163}",
@@ -2112,7 +2119,7 @@
 	},
 	"goal_of_a_nightmare": {
 		"name": "Goal of a Nightmare",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/163}",
@@ -2146,7 +2153,7 @@
 	},
 	"nightmare_features": {
 		"name": "Nightmare Features",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/163}",
@@ -2190,7 +2197,7 @@
 	},
 	"fleshwarping": {
 		"name": "Fleshwarping",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/164}",
@@ -2225,7 +2232,7 @@
 	},
 	"true_fleshwarping": {
 		"name": "True Fleshwarping",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/164}",
@@ -2281,7 +2288,7 @@
 	},
 	"fleshcrafting": {
 		"name": "Fleshcrafting",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/165}",
@@ -2321,7 +2328,7 @@
 	},
 	"fleshwarp_mutations": {
 		"name": "Fleshwarp Mutations",
-		"tags": "horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/170}",
@@ -2401,7 +2408,7 @@
 	},
 	"madness": {
 		"name": "Madness",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/182}",
@@ -2462,7 +2469,7 @@
 	},
 	"reading_a_madness_stat_block": {
 		"name": "Reading a Madness Stat Block",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/182}",
@@ -2490,7 +2497,7 @@
 	},
 	"curing_madness": {
 		"name": "Curing Madness",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/182}",
@@ -2512,7 +2519,7 @@
 	},
 	"horrific_madnesses": {
 		"name": "Horrific Madnesses",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/185}",

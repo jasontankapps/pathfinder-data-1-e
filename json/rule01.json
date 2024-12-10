@@ -1929,7 +1929,6 @@
 	},
 	"lawful_good": {
 		"name": "Lawful Good",
-		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/134}",
@@ -1961,7 +1960,6 @@
 	},
 	"neutral_good": {
 		"name": "Neutral Good",
-		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/135}",
@@ -1993,7 +1991,6 @@
 	},
 	"chaotic_good": {
 		"name": "Chaotic Good",
-		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/135}",
@@ -2025,7 +2022,6 @@
 	},
 	"lawful_neutral": {
 		"name": "Lawful Neutral",
-		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/135}",
@@ -2057,7 +2053,6 @@
 	},
 	"neutral": {
 		"name": "Neutral",
-		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/135}",
@@ -2089,7 +2084,6 @@
 	},
 	"chaotic_neutral": {
 		"name": "Chaotic Neutral",
-		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/136}",
@@ -2119,7 +2113,6 @@
 	},
 	"lawful_evil": {
 		"name": "Lawful Evil",
-		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/136}",
@@ -2153,7 +2146,6 @@
 	},
 	"neutral_evil": {
 		"name": "Neutral Evil",
-		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/136}",
@@ -2185,7 +2177,6 @@
 	},
 	"chaotic_evil": {
 		"name": "Chaotic Evil",
-		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/136}",

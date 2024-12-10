@@ -1,6 +1,7 @@
 {
 	"skills_in_conflict": {
 		"name": "Skills in Conflict",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/182}",
@@ -39,7 +40,7 @@
 	},
 	"bluff": {
 		"name": "Bluff",
-		"subtopic": "Skills in Conflict, Intrigue",
+		"subtopic": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/182}",
@@ -66,7 +67,7 @@
 	},
 	"lying": {
 		"name": "Lying",
-		"subtopic": "Bluff, Skills in Conflict, Intrigue",
+		"subtopic": "Bluff, Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/182}",
@@ -109,7 +110,7 @@
 	},
 	"other_uses_of_bluff": {
 		"name": "Other Uses of Bluff",
-		"subtopic": "Skills in Conflict, Intrigue",
+		"subtopic": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/184}",
@@ -137,7 +138,7 @@
 	"diplomacy": {
 		"name": "Diplomacy",
 		"tags": "Attitudes and Requests",
-		"subtopic": "Skills in Conflict, Intrigue",
+		"subtopic": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/184}",
@@ -180,7 +181,7 @@
 	},
 	"disguise": {
 		"name": "Disguise",
-		"subtopic": "Skills in Conflict, Intrigue",
+		"subtopic": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/186}",
@@ -213,7 +214,7 @@
 	},
 	"intimidate_ui": {
 		"name": "Intimidate",
-		"subtopic": "Skills in Conflict, Intrigue",
+		"subtopic": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/186}",
@@ -242,7 +243,7 @@
 	},
 	"perception_and_stealth": {
 		"name": "Perception and Stealth",
-		"subtopic": "Skills in Conflict, Intrigue",
+		"subtopic": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/187}",
@@ -281,7 +282,7 @@
 	},
 	"sense_motive_ui": {
 		"name": "Sense Motive",
-		"subtopic": "Skills in Conflict, Intrigue",
+		"subtopic": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/188}",
@@ -388,7 +389,7 @@
 	},
 	"pacing": {
 		"name": "Pacing",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/166}",
@@ -415,7 +416,7 @@
 	},
 	"episodic_pacing": {
 		"name": "Episodic Pacing",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/166}",
@@ -440,7 +441,7 @@
 	},
 	"serialized_pacing": {
 		"name": "Serialized Pacing",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/166}",
@@ -465,7 +466,7 @@
 	},
 	"stakes_and_contenders": {
 		"name": "Stakes and Contenders",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/167}",
@@ -503,7 +504,7 @@
 	},
 	"measuring_the_stakes": {
 		"name": "Measuring the Stakes",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/168}",
@@ -519,7 +520,7 @@
 	},
 	"events_ui": {
 		"name": "Events",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/168}",
@@ -548,7 +549,7 @@
 	},
 	"discovery_events": {
 		"name": "Discovery Events",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/168}",
@@ -579,7 +580,7 @@
 	},
 	"challenge_events": {
 		"name": "Challenge Events",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/169}",
@@ -610,7 +611,7 @@
 	},
 	"event_consequences": {
 		"name": "Event Consequences",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/170}",
@@ -641,7 +642,7 @@
 	},
 	"freeform_events": {
 		"name": "Freeform Events",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/170}",
@@ -671,7 +672,7 @@
 	},
 	"creating_actions_and_goals": {
 		"name": "Creating Actions and Goals",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/170}",
@@ -693,7 +694,7 @@
 	},
 	"social_initiative": {
 		"name": "Social Initiative",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/171}",
@@ -715,7 +716,7 @@
 	},
 	"freeform_checks": {
 		"name": "Freeform Checks",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/171}",
@@ -768,7 +769,7 @@
 	},
 	"gauging_success": {
 		"name": "Gauging Success",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/171}",
@@ -796,7 +797,7 @@
 	},
 	"failing_forward": {
 		"name": "Failing Forward",
-		"subtitle": "Social Conflict, Intrigue",
+		"subtitle": "Social Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/172}",
@@ -818,7 +819,7 @@
 	},
 	"social_conflict_events_and_advancement": {
 		"name": "Social Conflict Events and Advancement",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/172}",
@@ -859,7 +860,7 @@
 	},
 	"example_social_conflict_the_taken": {
 		"name": "Example Social Conflict: The Taken",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/173}",
@@ -942,7 +943,7 @@
 	},
 	"taxation": {
 		"name": "Taxation",
-		"subtitle": "Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/192}",
@@ -985,7 +986,7 @@
 	},
 	"types_of_taxes": {
 		"name": "Types of Taxes",
-		"subtitle": "Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/192}",
@@ -1010,7 +1011,7 @@
 	},
 	"types_of_services": {
 		"name": "Types of Services",
-		"subtitle": "Gamemastery",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/192}",
@@ -1045,7 +1046,7 @@
 	},
 	"compliance": {
 		"name": "Compliance",
-		"subtitle": "Taxes, Gamemastery",
+		"subtitle": "Taxes, Advanced GM Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/193}",
@@ -1066,7 +1067,7 @@
 	},
 	"trophies_and_treasures": {
 		"name": "Trophies and Treasures",
-		"subtitle": "Wilderness",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/162}",
@@ -1110,7 +1111,7 @@
 	},
 	"harvesting_trophies": {
 		"name": "Harvesting Trophies",
-		"subtitle": "Wilderness",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/162}",
@@ -1138,7 +1139,7 @@
 	},
 	"trophy_weight": {
 		"name": "Trophy Weight",
-		"subtitle": "Wilderness",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/163}",
@@ -1172,7 +1173,7 @@
 	},
 	"selling_trophies": {
 		"name": "Selling Trophies",
-		"subtitle": "Wilderness",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/163}",
@@ -1219,7 +1220,7 @@
 	},
 	"magical_affinities_of_trophies": {
 		"name": "Magical Affinities of Trophies",
-		"subtitle": "Wilderness",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/163}",
@@ -1331,6 +1332,7 @@
 	},
 	"weather_in_the_wilderness": {
 		"name": "Weather in the Wilderness",
+		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/165}",
@@ -1373,7 +1375,7 @@
 	},
 	"weather_baseline": {
 		"name": "Weather Baseline",
-		"subtitle": "Wilderness",
+		"subtitle": "Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/165}",
@@ -1397,7 +1399,7 @@
 	},
 	"climate_uw": {
 		"name": "Climate",
-		"subtitle": "Weather, Wilderness",
+		"subtitle": "Weather, Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/165}",
@@ -1433,7 +1435,7 @@
 	},
 	"elevation": {
 		"name": "Elevation",
-		"subtitle": "Weather, Wilderness",
+		"subtitle": "Weather, Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/166}",
@@ -1467,7 +1469,7 @@
 	},
 	"season": {
 		"name": "Season",
-		"subtitle": "Weather, Wilderness",
+		"subtitle": "Weather, Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/166}",
@@ -1498,7 +1500,7 @@
 	},
 	"temperature_variations_and_precipitation": {
 		"name": "Temperature Variations and Precipitation",
-		"subtitle": "Weather, Wilderness",
+		"subtitle": "Weather, Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/166}",
@@ -1521,7 +1523,7 @@
 	},
 	"temperature_variations": {
 		"name": "Temperature Variations",
-		"subtitle": "Weather, Wilderness",
+		"subtitle": "Weather, Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/166}",
@@ -1578,7 +1580,7 @@
 	},
 	"precipitation": {
 		"name": "Precipitation",
-		"subtitle": "Weather, Wilderness",
+		"subtitle": "Weather, Wilderness, Advanced GM Topics",
 		"tags": "drizzle rain thunderstorm snow fog sleet",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1753,7 +1755,7 @@
 	},
 	"weather_details": {
 		"name": "Weather Details",
-		"subtitle": "Wilderness",
+		"subtitle": "Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/169}",
@@ -1777,7 +1779,7 @@
 	},
 	"wind": {
 		"name": "Wind",
-		"subtitle": "Weather, Wilderness",
+		"subtitle": "Weather, Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/170}",
@@ -1819,7 +1821,7 @@
 	},
 	"cloud_cover": {
 		"name": "Cloud Cover",
-		"subtitle": "Weather, Wilderness",
+		"subtitle": "Weather, Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/171}",
@@ -1848,7 +1850,7 @@
 	},
 	"severe_events": {
 		"name": "Severe Events",
-		"subtitle": "Weather, Wilderness",
+		"subtitle": "Weather, Wilderness, Advanced GM Topics",
 		"tags": "blizzard haboob hail hurricane sandstorm thunderstorm thundersnow tornado wildfire",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1887,7 +1889,7 @@
 	},
 	"hazards_and_disasters": {
 		"name": "Hazards and Disasters",
-		"subtitle": "Wilderness",
+		"subtitle": "Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/146}",

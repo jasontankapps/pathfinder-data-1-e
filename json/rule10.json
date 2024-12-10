@@ -1,4 +1,42 @@
 {
+	"dungeons_gg": {
+		"name": "Dungeons",
+		"subtitle": "Gamemastery",
+		"sources": [ "GameMastery Guide" ],
+		"description": [
+			"{SOURCE GameMastery Guide/174}",
+			"",
+			"One of the most beloved and common adventuring sites in the game is the dungeon. In the Pathfinder Roleplaying Game, the word \"dungeon\" has a much wider definition than merely an underground prison cell; instead, \"dungeon\" in this section refers to a connected series of rooms and hallways within which are scattered numerous encounters with monsters, traps, and other challenges. A dungeon, under this definition, could be the underground levels of a fortress, the fortress itself, a series of caverns, a basement under a house, the house itself, a lonely tower in the woods, a shipwreck, a treasure vault, an abandoned crypt, or any other location that has a series of hard boundaries to limit exploration. Generally, these boundaries are represented by solid walls, but in some cases they can be dense vegetation (such as in a hedge maze), treacherous cliffs (for a series of mountain ledges), or even a fence enclosing a large area (like a graveyard). The key defining feature of a dungeon is simply that the encounter areas are connected and self-contained.",
+			"",
+			"There's a reason that dungeons are so common in the game: they represent the simplest method of constructing an adventure, since a dungeon map really is nothing more than a flow chart. At their most basic, the chambers of a dungeon represent decision points and the hallways represent paths between those points. The layout of a dungeon removes many variables from the game, allowing the GM to focus on a limited number of areas that he knows the PCs are likely to visit. Since you know what rooms and what routes are available before the game even begins, you can prepare for encounters much more easily than you can for an adventure set in a city or the wilderness, where the flow chart concept is no longer literally represented by the solid stone walls and becomes more of an abstract guide for plotting purposes."
+		],
+		"parent_topics": [
+			"gamemastery",
+			"gamemastery_guide",
+			"adventures"
+		],
+		"subtopics": [
+			"the_dungeon_concept",
+			"drawing_a_dungeon_map",
+			"sketching_the_map",
+			"inking_the_map",
+			"tagging_the_map",
+			"adding_details_to_the_map",
+			"dungeon_ecology",
+			"encounter_archetypes",
+			"resting_in_the_dungeon",
+			"dungeon_toolbox"
+		],
+		"siblings": [
+			"elements_of_adventure",
+			"dungeons_gg",
+			"planar",
+			"taverns",
+			"urban",
+			"water",
+			"wilderness_gg"
+		]
+	},
 	"the_dungeon_concept": {
 		"name": "The Dungeon Concept",
 		"subtitle": "Gamemastery",
@@ -61,7 +99,7 @@
 	},
 	"sketching_the_map": {
 		"name": "Sketching the Map",
-		"subtitle": "Gamemastery",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/174}",

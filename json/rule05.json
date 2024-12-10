@@ -103,9 +103,8 @@
 		]
 	},
 	"surprise": {
-		"name": "Surprise",
+		"name": "Surprise Round",
 		"subtitle": "Combat",
-		"tags": "surprise round",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/178}",
@@ -1001,7 +1000,7 @@
 	},
 	"cast_a_spell_2": {
 		"name": "Cast a Spell",
-		"subtitle": "Full-Round Action",
+		"subtitle": "Full-Round Action, Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/187}",
@@ -1033,7 +1032,7 @@
 	},
 	"run": {
 		"name": "Run",
-		"subtitle": "Full-Round Action",
+		"subtitle": "Full-Round Action, Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/188}",
@@ -1061,7 +1060,7 @@
 	},
 	"withdraw": {
 		"name": "Withdraw",
-		"subtitle": "Full-Round Action",
+		"subtitle": "Full-Round Action, Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/188}",
@@ -1586,7 +1585,7 @@
 	},
 	"measuring_distance": {
 		"name": "Measuring Distance",
-		"subtitle": "Combat",
+		"subtitle": "Movement, Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/192}",
@@ -1650,7 +1649,7 @@
 	},
 	"terrain_and_obstacles": {
 		"name": "Terrain and Obstacles",
-		"subtitle": "Combat",
+		"subtitle": "Movement, Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/193}",

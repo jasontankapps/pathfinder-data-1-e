@@ -1,6 +1,7 @@
 {
 	"running_horror_adventures": {
 		"name": "Running Horror Adventures",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/190}",
@@ -44,6 +45,7 @@
 	},
 	"horror_versus_heroism": {
 		"name": "Horror Versus Heroism",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/190}",
@@ -70,6 +72,7 @@
 	},
 	"horror_games_and_consent": {
 		"name": "Horror Games and Consent",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/190}",
@@ -100,7 +103,7 @@
 	},
 	"for_game_masters": {
 		"name": "For Game Masters",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/191}",
@@ -126,7 +129,7 @@
 	},
 	"for_players": {
 		"name": "For Players",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/191}",
@@ -154,6 +157,7 @@
 	},
 	"horror_subgenres": {
 		"name": "Horror Subgenres",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/191}",
@@ -197,6 +201,7 @@
 	},
 	"body_horror": {
 		"name": "Body Horror",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/192}",
@@ -233,6 +238,7 @@
 	},
 	"cosmic_horror": {
 		"name": "Cosmic Horror",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/192}",
@@ -267,7 +273,7 @@
 	},
 	"dark_fantasy": {
 		"name": "Dark Fantasy",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/194}",
@@ -300,7 +306,7 @@
 	},
 	"ghost_story": {
 		"name": "Ghost Story",
-		"subtitle": "Horror",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/194}",
@@ -337,6 +343,7 @@
 	},
 	"gothic_horror": {
 		"name": "Gothic Horror",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/195}",
@@ -371,6 +378,7 @@
 	},
 	"psychological_horror": {
 		"name": "Psychological Horror",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/196}",
@@ -405,6 +413,7 @@
 	},
 	"slasher_horror": {
 		"name": "Slasher Horror",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/197}",
@@ -445,6 +454,7 @@
 	},
 	"creating_horror_adventures": {
 		"name": "Creating Horror Adventures",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/198}",
@@ -478,7 +488,7 @@
 	},
 	"know_the_medium": {
 		"name": "Know the Medium",
-		"subtitle": "Horror Adventures",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/198}",
@@ -501,7 +511,7 @@
 	},
 	"choose_the_terror": {
 		"name": "Choose the Terror",
-		"subtitle": "Horror Adventures",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/198}",
@@ -524,7 +534,7 @@
 	},
 	"spread_the_terror": {
 		"name": "Spread the Terror",
-		"subtitle": "Horror Adventures",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/198}",
@@ -549,7 +559,7 @@
 	},
 	"fear_from_the_unexpected": {
 		"name": "Fear from the Unexpected",
-		"subtitle": "Horror Adventures",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/199}",
@@ -580,7 +590,7 @@
 	},
 	"horrible_success_terrible_rewards": {
 		"name": "Horrible Success, Terrible Rewards",
-		"subtitle": "Horror Adventures",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/199}",
@@ -609,6 +619,7 @@
 	},
 	"horror_storytelling": {
 		"name": "Horror Storytelling",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/200}",
@@ -664,7 +675,7 @@
 	},
 	"how_to_scare_heroes": {
 		"name": "How to Scare Heroes",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/201}",
@@ -695,7 +706,7 @@
 	},
 	"how_to_scare_players": {
 		"name": "How to Scare Players",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/201}",
@@ -720,7 +731,7 @@
 	},
 	"secrets_and_suspicion": {
 		"name": "Secrets and Suspicion",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/201}",
@@ -753,7 +764,7 @@
 	},
 	"dice_and_other_deceits": {
 		"name": "Dice and Other Deceits",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/202}",
@@ -784,7 +795,7 @@
 	},
 	"stress_and_uncertainty": {
 		"name": "Stress and Uncertainty",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/202}",
@@ -821,7 +832,7 @@
 	},
 	"death_and_bargaining": {
 		"name": "Death and Bargaining",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/203}",
@@ -854,7 +865,7 @@
 	},
 	"encouraging_horror_roleplaying": {
 		"name": "Encouraging Horror Roleplaying",
-		"subtitle": "Gamemastery",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/203}",
@@ -883,7 +894,7 @@
 	},
 	"going_too_far": {
 		"name": "Going Too Far",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/204}",
@@ -916,7 +927,7 @@
 	},
 	"creating_atmosphere": {
 		"name": "Creating Atmosphere",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/204}",
@@ -947,7 +958,7 @@
 	},
 	"game_space": {
 		"name": "Game Space",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/204}",
@@ -969,7 +980,7 @@
 	},
 	"lighting_ha": {
 		"name": "Lighting",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/204}",
@@ -991,7 +1002,7 @@
 	},
 	"music_ha": {
 		"name": "Music",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/204}",
@@ -1025,7 +1036,7 @@
 	},
 	"house_ruling_distractions": {
 		"name": "House-Ruling Distractions",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/205}",
@@ -1051,7 +1062,7 @@
 	},
 	"rules_improvisation": {
 		"name": "Rules Improvisation",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/206}",
@@ -1096,7 +1107,7 @@
 	},
 	"buried_alive": {
 		"name": "Buried Alive",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/206}",
@@ -1128,7 +1139,7 @@
 	},
 	"burned_at_the_stake": {
 		"name": "Burned at the Stake",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/207}",
@@ -1158,7 +1169,7 @@
 	},
 	"burning_buildings_and_crumbling_structures": {
 		"name": "Burning Buildings and Crumbling Structures",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/207}",
@@ -1202,7 +1213,7 @@
 	},
 	"guillotine": {
 		"name": "Guillotine",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/208}",
@@ -1232,7 +1243,7 @@
 	},
 	"hanging": {
 		"name": "Hanging",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/209}",
@@ -1264,7 +1275,7 @@
 	},
 	"thematic_creepiness": {
 		"name": "Thematic Creepiness",
-		"subtitle": "Horror, Gamemastery",
+		"subtitle": "Horror, Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/209}",
@@ -1294,7 +1305,7 @@
 	},
 	"intrigue_systems": {
 		"name": "Intrigue Systems",
-		"subtitle": "Gamemastery",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/98}",
@@ -1336,7 +1347,7 @@
 	},
 	"intrigue_elements": {
 		"name": "Intrigue Elements",
-		"subtitle": "Gamemastery",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/98}",
@@ -1363,7 +1374,7 @@
 	},
 	"relationships_and_loyalty": {
 		"name": "Relationships and Loyalty",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Intrigue, Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/98}",
@@ -1397,7 +1408,7 @@
 	},
 	"measure_and_countermeasure": {
 		"name": "Measure and Countermeasure",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Intrigue, Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/99}",
@@ -1423,7 +1434,7 @@
 	},
 	"the_importance_of_appearances": {
 		"name": "The Importance of Appearances",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Intrigue, Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/99}",
@@ -1445,7 +1456,7 @@
 	},
 	"bargains_and_compromise": {
 		"name": "Bargains and Compromise",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Intrigue, Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/100}",
@@ -1467,7 +1478,7 @@
 	},
 	"the_power_of_secrets": {
 		"name": "The Power of Secrets",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Intrigue, Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/100}",
@@ -1489,7 +1500,7 @@
 	},
 	"intrigue_themes": {
 		"name": "Intrigue Themes",
-		"subtitle": "Gamemastery",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/100}",
@@ -1514,7 +1525,7 @@
 	},
 	"a_game_of_nobles": {
 		"name": "A Game of Nobles",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Intrigue, Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/100}",
@@ -1536,7 +1547,7 @@
 	},
 	"the_criminal_underworld": {
 		"name": "The Criminal Underworld",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Intrigue, Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/100}",
@@ -1562,7 +1573,7 @@
 	},
 	"war_of_propaganda": {
 		"name": "War of Propaganda",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Intrigue, Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/101}",
@@ -1584,7 +1595,7 @@
 	},
 	"law_and_order": {
 		"name": "Law and Order",
-		"subtitle": "Intrigue, Gamemastery",
+		"subtitle": "Intrigue, Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/101}",
@@ -1610,7 +1621,7 @@
 	},
 	"ultimate_intrigue": {
 		"name": "Ultimate Intrigue",
-		"subtitle": "Gamemastery",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/101}",
@@ -1632,6 +1643,7 @@
 	},
 	"kingdoms_and_war": {
 		"name": "Kingdoms and War",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/198}",
@@ -1660,6 +1672,7 @@
 	},
 	"kingdom_building": {
 		"name": "Kingdom Building",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/198}",
@@ -1701,6 +1714,7 @@
 	},
 	"kingdom_building_overview": {
 		"name": "Kingdom Building Overview",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/198}",
@@ -1745,6 +1759,7 @@
 	},
 	"kingdom_terminology": {
 		"name": "Kingdom Terminology",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/198}",
@@ -1814,6 +1829,7 @@
 	},
 	"kingdom_building_quick_reference": {
 		"name": "Kingdom Building Quick Reference",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/199}",
@@ -1857,6 +1873,7 @@
 	},
 	"founding_a_kingdom": {
 		"name": "Founding a Kingdom",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/200}",
@@ -1900,7 +1917,7 @@
 	},
 	"leadership_roles": {
 		"name": "Leadership Roles",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/200}",
@@ -1976,7 +1993,7 @@
 	},
 	"ruler": {
 		"name": "Ruler",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/201}",
@@ -2018,7 +2035,7 @@
 	},
 	"consort": {
 		"name": "Consort",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/201}",
@@ -2056,7 +2073,7 @@
 	},
 	"councilor": {
 		"name": "Councilor",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/201}",
@@ -2092,7 +2109,7 @@
 	},
 	"general": {
 		"name": "General",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -2128,7 +2145,7 @@
 	},
 	"grand_diplomat": {
 		"name": "Grand Diplomat",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -2164,7 +2181,7 @@
 	},
 	"heir": {
 		"name": "Heir",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -2202,7 +2219,7 @@
 	},
 	"high_priest": {
 		"name": "High Priest",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -2238,7 +2255,7 @@
 	},
 	"magister": {
 		"name": "Magister",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -2274,7 +2291,7 @@
 	},
 	"marshal": {
 		"name": "Marshal",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/203}",
@@ -2310,7 +2327,7 @@
 	},
 	"royal_enforcer": {
 		"name": "Royal Enforcer",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/203}",
@@ -2346,7 +2363,7 @@
 	},
 	"spymaster": {
 		"name": "Spymaster",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/203}",
@@ -2382,7 +2399,7 @@
 	},
 	"treasurer": {
 		"name": "Treasurer",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/203}",
@@ -2418,7 +2435,7 @@
 	},
 	"viceroy": {
 		"name": "Viceroy",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/203}",
@@ -2454,7 +2471,7 @@
 	},
 	"warden": {
 		"name": "Warden",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/204}",
@@ -2490,6 +2507,7 @@
 	},
 	"who_rolls_the_kingdom_check": {
 		"name": "Who Rolls the Kingdom Check?",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -2553,7 +2571,7 @@
 	},
 	"build_points": {
 		"name": "Build Points",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/204}",
@@ -2597,7 +2615,7 @@
 	},
 	"wealthy_sponsor": {
 		"name": "Wealthy Sponsor",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/205}",
@@ -2633,7 +2651,7 @@
 	},
 	"starting_from_scratch": {
 		"name": "Starting from Scratch",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/205}",
@@ -2666,6 +2684,7 @@
 	},
 	"kingdom_turn_sequence": {
 		"name": "Kingdom Turn Sequence",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/205}",
@@ -2717,6 +2736,7 @@
 	},
 	"kingdom_upkeep_phase": {
 		"name": "Kingdom Upkeep Phase",
+		"subtitle": "Kingdom Turns, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/206}",
@@ -2754,6 +2774,7 @@
 	},
 	"kingdom_edict_phase": {
 		"name": "Kingdom Edict Phase",
+		"subtitle": "Kingdom Turns, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/206}",
@@ -2797,6 +2818,7 @@
 	},
 	"kingdom_income_phase": {
 		"name": "Kingdom Income Phase",
+		"subtitle": "Kingdom Turns, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/207}",
@@ -2834,6 +2856,7 @@
 	},
 	"kingdom_event_phase": {
 		"name": "Kingdom Event Phase",
+		"subtitle": "Kingdom Turns, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/208}",
@@ -2861,7 +2884,7 @@
 	},
 	"edicts": {
 		"name": "Edicts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/208}",
@@ -2903,7 +2926,7 @@
 	},
 	"holiday_edicts": {
 		"name": "Holiday Edicts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/208}",
@@ -2939,7 +2962,7 @@
 	},
 	"improvement_edicts": {
 		"name": "Improvement Edicts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/208}",
@@ -2975,7 +2998,7 @@
 	},
 	"promotion_edicts": {
 		"name": "Promotion Edicts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/209}",
@@ -3007,7 +3030,7 @@
 	},
 	"taxation_edicts": {
 		"name": "Taxation Edicts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/209}",
@@ -3039,7 +3062,7 @@
 	},
 	"losing_hexes": {
 		"name": "Losing Hexes",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/209}",
@@ -3082,7 +3105,7 @@
 	},
 	"capital_city": {
 		"name": "Capital City",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/207}",
@@ -3099,7 +3122,7 @@
 	},
 	"terrain_improvements": {
 		"name": "Terrain Improvements",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -3182,7 +3205,7 @@
 	},
 	"aqueduct": {
 		"name": "Aqueduct",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -3219,7 +3242,7 @@
 	},
 	"bridge": {
 		"name": "Bridge",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -3252,7 +3275,7 @@
 	},
 	"canal": {
 		"name": "Canal",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -3289,7 +3312,7 @@
 	},
 	"farm": {
 		"name": "Farm",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -3326,7 +3349,7 @@
 	},
 	"fishery": {
 		"name": "Fishery",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -3363,7 +3386,7 @@
 	},
 	"fort": {
 		"name": "Fort",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -3400,7 +3423,7 @@
 	},
 	"highway": {
 		"name": "Highway",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -3437,7 +3460,7 @@
 	},
 	"mine": {
 		"name": "Mine",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -3474,7 +3497,7 @@
 	},
 	"quarry": {
 		"name": "Quarry",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -3511,7 +3534,7 @@
 	},
 	"road": {
 		"name": "Road",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -3548,7 +3571,7 @@
 	},
 	"sawmill": {
 		"name": "Sawmill",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -3585,7 +3608,7 @@
 	},
 	"watchtower": {
 		"name": "Watchtower",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -3622,7 +3645,7 @@
 	},
 	"special_terrain": {
 		"name": "Special Terrain",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -3669,7 +3692,7 @@
 	},
 	"settlements_and_districts": {
 		"name": "Settlements and Districts",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -3730,7 +3753,7 @@
 	},
 	"founding_a_settlement": {
 		"name": "Founding a Settlement",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/212}",
@@ -3781,7 +3804,7 @@
 	},
 	"magic_items_in_settlements": {
 		"name": "Magic Items in Settlements",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/213}",
@@ -3810,7 +3833,7 @@
 	},
 	"claiming_water_and_islands": {
 		"name": "Claiming Water and Islands",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/213}",
@@ -3844,6 +3867,7 @@
 	},
 	"buildings_in_the_kingdom": {
 		"name": "Buildings in the Kingdom",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/213}",
@@ -3884,7 +3908,7 @@
 	},
 	"building_descriptions": {
 		"name": "Building Descriptions",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/214}",
@@ -3938,7 +3962,7 @@
 	},
 	"kbuildings1": {
 		"name": "Buildings: Academy through Bureau",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"tags": "Academy, Alchemist, Arena, Bank, Bardic College, Barracks, Black Market, Brewery, Bridge, Bureau",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -4045,7 +4069,7 @@
 	},
 	"kbuildings2": {
 		"name": "Buildings: Caster's Tower through Foundry",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"tags": "Caster's Tower, Castle, Cathedral, Cistern, City Wall, Dance Hall, Dump, Everflowing Spring, Exotic Artisan",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -4139,7 +4163,7 @@
 	},
 	"kbuildings3": {
 		"name": "Buildings: Foreign Quarter through Inn",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"tags": "Foreign Quarter, Foundry, Garrison, Granery, Graveyard, Guildhall, Herbalist, Hospital, House, Inn",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -4244,7 +4268,7 @@
 	},
 	"kbuildings4": {
 		"name": "Buildings: Jail through Military Academy",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"tags": "Jail, Library, Luxury Store, Magic Shop, Magical Academy, Magical Streetlamps, Mansion, Market, Menagerie, Military Academy",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -4356,7 +4380,7 @@
 	},
 	"kbuildings5": {
 		"name": "Buildings: Mill through Palace",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"tags": "Mill, Mint, Moat, Monastery, Monument, Museum, Noble Villa, Observatory, Orphanage, Palace",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -4454,7 +4478,7 @@
 	},
 	"kbuildings6": {
 		"name": "Buildings: Park through Tannery",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"tags": "Park, Paved Streets, Pier, Sewer System, Shop, Shrine, Smithy, Stable, Stockyard, Tannery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -4559,7 +4583,7 @@
 	},
 	"kbuildings7": {
 		"name": "Buildings: Tavern through Waterway",
-		"subtitle": "Kingdoms",
+		"subtitle": "Kingdoms, Specific Campaigns",
 		"tags": "Tavern, Temple, Tenement, Theater, Town Hall, Trade Shop, University, Watchtower, Waterfront, Waterway",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [

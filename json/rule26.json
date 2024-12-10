@@ -1,6 +1,7 @@
 {
 	"planar_adventures": {
 		"name": "Planar Adventures",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/8}",
@@ -37,6 +38,7 @@
 	},
 	"planar_terrains": {
 		"name": "Planar Terrains",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/9}",
@@ -59,6 +61,7 @@
 	},
 	"planar_races": {
 		"name": "Planar Races",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/9}",
@@ -804,7 +807,7 @@
 	},
 	"building_a_planar_campaign": {
 		"name": "Building a Planar Campaign",
-		"subtitle": "Gamemastery",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/82}",
@@ -831,7 +834,7 @@
 	},
 	"why_the_planes": {
 		"name": "Why the Planes?",
-		"subtitle": "Gamemastery",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/82}",
@@ -858,7 +861,7 @@
 	},
 	"access": {
 		"name": "Access",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/82}",
@@ -882,7 +885,7 @@
 	},
 	"acquisition": {
 		"name": "Acquisition",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/82}",
@@ -906,7 +909,7 @@
 	},
 	"confrontation": {
 		"name": "Confrontation",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/82}",
@@ -930,7 +933,7 @@
 	},
 	"rescue": {
 		"name": "Rescue",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/82}",
@@ -954,7 +957,7 @@
 	},
 	"presenting_the_planes": {
 		"name": "Presenting the Planes",
-		"subtitle": "Gamemastery",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/83}",
@@ -980,7 +983,7 @@
 	},
 	"not_just_another_dungeon": {
 		"name": "Not Just Another Dungeon",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/83}",
@@ -1005,7 +1008,7 @@
 	},
 	"normal_is_abnormal": {
 		"name": "Normal Is Abnormal",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/84}",
@@ -1030,7 +1033,7 @@
 	},
 	"traveling_the_planes": {
 		"name": "Traveling the Planes",
-		"subtitle": "Gamemastery",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/84}",
@@ -1071,7 +1074,7 @@
 	},
 	"planar_tuning_forks": {
 		"name": "Planar Tuning Forks",
-		"subtitle": "Gamemastery",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/85}",
@@ -1115,7 +1118,7 @@
 	},
 	"untuned_fork": {
 		"name": "Untuned Fork",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/85}",
@@ -1140,7 +1143,7 @@
 	},
 	"common_tuning_fork": {
 		"name": "Common Tuning Fork",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/85}",
@@ -1163,7 +1166,7 @@
 	},
 	"uncommon_tuning_fork": {
 		"name": "Uncommon Tuning Fork",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/85}",
@@ -1188,7 +1191,7 @@
 	},
 	"rare_tuning_fork": {
 		"name": "Rare Tuning Fork",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/86}",
@@ -1213,7 +1216,7 @@
 	},
 	"unique_tuning_fork": {
 		"name": "Unique Tuning Fork",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/86}",
@@ -1238,7 +1241,7 @@
 	},
 	"alternate_cosmologies": {
 		"name": "Alternate Cosmologies",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/86}",
@@ -1267,7 +1270,7 @@
 	},
 	"alignment_free_cosmology": {
 		"name": "Alignment-Free Cosmology",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/86}",
@@ -1297,7 +1300,7 @@
 	},
 	"alternate_realities_and_parallel_worlds": {
 		"name": "Alternate Realities and Parallel Worlds",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/87}",
@@ -1325,7 +1328,7 @@
 	},
 	"dualistic_cosmology": {
 		"name": "Dualistic Cosmology",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/87}",
@@ -1353,7 +1356,7 @@
 	},
 	"extraterrestrial_planes": {
 		"name": "Extraterrestrial Planes",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/88}",
@@ -1383,7 +1386,7 @@
 	},
 	"mundane_cosmology": {
 		"name": "Mundane Cosmology",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/88}",
@@ -1411,7 +1414,7 @@
 	},
 	"world_tree": {
 		"name": "World Tree",
-		"subtitle": "Planar Adventures, Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/89}",
@@ -1439,7 +1442,7 @@
 	},
 	"the_first_world": {
 		"name": "The First World",
-		"subtitle": "Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/128}",
@@ -1479,7 +1482,7 @@
 	},
 	"history_of_the_first_world": {
 		"name": "History of the First World",
-		"subtitle": "Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/128}",
@@ -1507,7 +1510,7 @@
 	},
 	"features_and_inhabitants": {
 		"name": "Features and Inhabitants",
-		"subtitle": "The First World, Gamemastery",
+		"subtitle": "The First World, Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/129}",
@@ -1534,7 +1537,7 @@
 	},
 	"the_eldest": {
 		"name": "The Eldest",
-		"subtitle": "The First World, Gamemastery",
+		"subtitle": "The First World, Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/131}",
@@ -1566,7 +1569,7 @@
 	},
 	"getting_to_the_first_world": {
 		"name": "Getting to the First World",
-		"subtitle": "Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/130}",
@@ -1586,7 +1589,7 @@
 	},
 	"hazards_of_the_first_world": {
 		"name": "Hazards of the First World",
-		"subtitle": "Gamemastery",
+		"subtitle": "Planar Adventures, Specific Campaigns",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/130}",
@@ -1611,7 +1614,7 @@
 	},
 	"phantom_ring_cr_9": {
 		"name": "Phantom Ring",
-		"subtitle": "The First World, Gamemastery",
+		"subtitle": "The First World, Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/130}",
@@ -1643,7 +1646,7 @@
 	},
 	"pixie_pollen_cr_2": {
 		"name": "Pixie Pollen",
-		"subtitle": "The First World, Gamemastery",
+		"subtitle": "The First World, Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/131}",
@@ -1673,7 +1676,7 @@
 	},
 	"weeping_waste_cr_10": {
 		"name": "Weeping Waste",
-		"subtitle": "The First World, Gamemastery",
+		"subtitle": "The First World, Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/132}",
@@ -1703,6 +1706,7 @@
 	},
 	"technological_equipment": {
 		"name": "Technological Adventures",
+		"subtitle": "Specific Campaigns",
 		"tags": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
@@ -1783,7 +1787,7 @@
 	},
 	"timeworn_technology": {
 		"name": "Timeworn Technology",
-		"tags": "Technology",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"The technology found in the hands of Numeria's denizens isn't usually pristine. Between languishing in forgotten ruins open to the elements, being used by those ignorant of the nature of this technology, and having no one skilled at building, maintaining, or repairing such devices, most technological items are \"timeworn\" - damaged and malfunctioning (when not completely non-functional). These malfunctions manifest in two ways: limited charges and glitches.",
@@ -1822,7 +1826,7 @@
 	},
 	"tech_weapons": {
 		"name": "Tech Weapons",
-		"tags": "Technology",
+		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/20}  ",
@@ -1884,7 +1888,7 @@
 	},
 	"tech_armor": {
 		"name": "Tech Armor",
-		"tags": "Technology",
+		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/29}  ",
@@ -1936,7 +1940,7 @@
 	},
 	"cybertech": {
 		"name": "Cybertech",
-		"tags": "Technology",
+		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/35}  ",
@@ -1992,7 +1996,7 @@
 	},
 	"pharmaceuticals": {
 		"name": "Pharmaceuticals",
-		"tags": "Technology",
+		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/33}  ",
@@ -2048,7 +2052,8 @@
 	},
 	"tech_artifacts": {
 		"name": "Tech Artifacts",
-		"tags": "Technology, Power Generators",
+		"subtitle": "Technology, Specific Campaigns",
+		"tags": "Power Generators",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/60}  ",
@@ -2089,8 +2094,8 @@
 		]
 	},
 	"tech_misc": {
-		"name": "Miscellaneous Tech Gear",
-		"tags": "Technology",
+		"name": "Miscellaneous Gear",
+		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/39}  ",
@@ -2134,7 +2139,7 @@
 	},
 	"crafting_high_tech_items": {
 		"name": "Crafting High-Tech Items",
-		"tags": "Technology",
+		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"The process of building technological items has much in common with magic item creation, though it uses different feats, skills, and facilities. As with magic items, the creator invests time and money in the creation process and at the end attempts a single skill check to complete construction. Since technological items do not have caster levels, the DC of this check is defined in the description of each technological item. Failing this check means that the item does not function and the materials are wasted. Failing this check by 5 or more may result in a catastrophic failure, such as electrocution or an explosion, at the GM's discretion.",
@@ -2174,8 +2179,7 @@
 	},
 	"crafting_laboritories": {
 		"name": "Crafting Laboratories",
-		"subtitle": "High-Tech Items",
-		"tags": "Technology",
+		"subtitle": "High-Tech Items, Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"Although there is a wide range of technological items, the types of laboratories needed to craft objects are relatively limited. Crafting laboratories are, unfortunately, incredibly rare, and those whose locations are currently known and found in relatively safe regions are firmly controlled. A crafting laboratory is similar to a technological artifact, in that it cannot be assembled or built with current resources. In order to craft a technological item, one must secure a laboratory for use. (This allows GMs to limit the role high-tech crafting plays in any one game; make sure to inform your players of the limited availability of crafting laboratories at the start of your game so they know whether selecting high-tech crafting feats is a useful option for their PCs!)",
@@ -2207,8 +2211,8 @@
 	},
 	"hybrid_items": {
 		"name": "Hybrid Magic/Tech Items",
-		"subtitle": "High-Tech Items",
-		"tags": "Technology hybrid items",
+		"subtitle": "High-Tech Items, Technology",
+		"tags": "hybrid items",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"Items with both magical and technological components, such as the {tech-weapon/null blade}, use a special crafting process. The creator must first succeed at a skill check at the listed DC for crafting the technological portion of the item, and then must succeed at a check based on the item's caster level for crafting the magical portion. Any spell or level-based prerequisites not met increase this crafting DC, as described for {rule/magic item creation}. The skill used for each check is based on the item creation feats required by the item. Failure on either check ruins the item. Use the item's listed price as normal for determining crafting time, and the item's cost for raw materials. If the creator has feats or abilities that accelerate item creation, only the least favorable bonus applies. In other words, to create a hybrid item faster, the creator needs to be able to create both magical and technological items faster.",
@@ -2232,7 +2236,7 @@
 	},
 	"pricing_and_creating_new_technological_items": {
 		"name": "Pricing and Creating New Technological Items",
-		"tags": "Technology",
+		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how {tech-misc/jetpack/s} function like {magic-wondrous/winged boots}, but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or {magic-ring/ring of the ram} is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
@@ -2250,7 +2254,7 @@
 	},
 	"radiation": {
 		"name": "Radiation",
-		"tags": "Technology",
+		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"Radiation is a very real threat to those who explore the technological ruins of Numeria. Radiation is a poison effect whose initial effect causes Constitution drain and secondary effect causes Strength damage. Radiation dangers are organized into four categories: low, medium, high, and severe.",
@@ -2290,7 +2294,7 @@
 	},
 	"traps_and_technology": {
 		"name": "Traps and Technology",
-		"tags": "Technology",
+		"subtitle": "Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"Mundane and magical traps can incorporate technological elements in their construction. Computers and AIs can also be connected to traps, allowing them to selectively trigger the traps remotely. Traps that incorporate technology gain the technological type, in addition to their normal type (see the following examples). The following technological triggers are available to traps",
@@ -2341,7 +2345,8 @@
 	},
 	"artificial_intelligence": {
 		"name": "Artificial Intelligence",
-		"tags": "Technology AI",
+		"subtitle": "Technology, Specific Campaigns",
+		"tags": "AI",
 		"sources": [ "Technology Guide" ],
 		"subtopics": [ "creating_an_ai" ],
 		"description": [
@@ -2371,7 +2376,7 @@
 	},
 	"creating_an_ai": {
 		"name": "Creating an AI",
-		"tags": "Technology",
+		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"An artificial intelligence's stat block is similar to that of an intelligent magic item. Note that these statistics reflect only the intelligence itself, not the host. Building an AI stat block requires the following statistics.",
