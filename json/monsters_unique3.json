@@ -3027,6 +3027,7 @@
 			"The leader of Droskar's faithful in Mabbryn, Almara spends much of her time in the Forge Quencher, the massive fortress that protects Mabbryn's water supply. Much of Almara's daily life is fraught with political squabbles with Mabbryn's military leader, Margrave Daguda Urgadan. Nicknamed the \"Would-Be Queen\" by members of Droskar's faithful, Almara maintains a tense relationship with Daguda, but hopes to replace the other political leader of the city one day."
 		]
 	},
+	"the_would_be_queen": { "copyof": "almara_kazaar" },
 	"treerazer": {
 		"name": "Treerazer",
 		"sources": [

@@ -66,7 +66,6 @@
 	},
 	"alchemical_coal_choking_smoke": {
 		"name": "Alchemical coal (choking smoke)",
-		"sources": [ "Advanced Race Guide" ],
 		"copyof": "alchemical_coal_blinding_cinders"
 	},
 	"alchemists_fire": {
@@ -714,12 +713,10 @@
 	},
 	"dust_knuckles_diamond_dust_vial": {
 		"name": "Dust knuckles (diamond dust vial)",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "dust_knuckles"
 	},
 	"dust_knuckles_gloves": {
 		"name": "Dust knuckles (gloves)",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "dust_knuckles"
 	},
 	"ectoplasmic_residue": {
@@ -1419,17 +1416,14 @@
 	},
 	"pellet_grenade_cold_iron": {
 		"name": "Pellet grenade (cold iron)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "pellet_grenade_adamantine"
 	},
 	"pellet_grenade_iron": {
 		"name": "Pellet grenade (iron)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "pellet_grenade_adamantine"
 	},
 	"pellet_grenade_silver": {
 		"name": "Pellet grenade (silver)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "pellet_grenade_adamantine"
 	},
 	"perfect_ice": {
@@ -1649,7 +1643,6 @@
 	},
 	"specialty_smoke_pellet_smog": {
 		"name": "Specialty smoke pellet (smog)",
-		"sources": [ "Dungeoneer's Handbook" ],
 		"copyof": "specialty_smoke_pellet_pepper"
 	},
 	"spore_dehiscent": {

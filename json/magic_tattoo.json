@@ -261,7 +261,6 @@
 	},
 	"casters_tattoo_normal": {
 		"name": "Caster's Tattoo (Normal)",
-		"sources": [ "Inner Sea Magic" ],
 		"copyof": "casters_tattoo_lesser"
 	},
 	"normal_casters_tattoo": {
@@ -286,7 +285,6 @@
 	},
 	"casters_tattoo_greater": {
 		"name": "Caster's Tattoo (Greater)",
-		"sources": [ "Inner Sea Magic" ],
 		"copyof": "casters_tattoo_lesser"
 	},
 	"greater_casters_tattoo": {

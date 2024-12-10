@@ -2576,6 +2576,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"eurypterid_bluetip": { "copyof": "eurypterid_bluetip_eurypterid" },
 	"bluetip_eurypterid": { "copyof": "eurypterid_bluetip_eurypterid" },
 	"eurypterid_common_eurypterid": {
 		"name": "Eurypterid, Common Eurypterid",
@@ -2631,6 +2632,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"eurypterid_common": { "copyof": "eurypterid_common_eurypterid" },
 	"common_eurypterid": { "copyof": "eurypterid_common_eurypterid" },
 	"eurypterid": { "copyof": "eurypterid_common_eurypterid" },
 	"eurypterid_ochre_eurypterid": {
@@ -2686,6 +2688,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"eurypterid_ochre": { "copyof": "eurypterid_ochre_eurypterid" },
 	"ochre_eurypterid": { "copyof": "eurypterid_ochre_eurypterid" },
 	"eurypterid_spiny_eurypterid": {
 		"name": "Eurypterid, Spiny Eurypterid",
@@ -2744,6 +2747,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"eurypterid_spiny": { "copyof": "eurypterid_spiny_eurypterid" },
 	"spiny_eurypterid": { "copyof": "eurypterid_spiny_eurypterid" },
 	"eurypterid_spitting_eurypterid": {
 		"name": "Eurypterid, Spitting Eurypterid",
@@ -2799,6 +2803,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"eurypterid_spitting": { "copyof": "eurypterid_spitting_eurypterid" },
 	"spitting_eurypterid": { "copyof": "eurypterid_spitting_eurypterid" },
 	"exiled_shade": {
 		"name": "Exiled Shade",

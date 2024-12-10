@@ -937,6 +937,7 @@
 		]
 	},
 	"cave_blight": { "copyof": "blight_cave_blight" },
+	"blight_cave": { "copyof": "blight_cave_blight" },
 	"blight_desert_blight": {
 		"name": "Blight, Desert Blight",
 		"sources": [ "Bestiary 6" ],
@@ -999,6 +1000,7 @@
 		]
 	},
 	"desert_blight": { "copyof": "blight_desert_blight" },
+	"blight_desert": { "copyof": "blight_desert_blight" },
 	"blight_forest_blight": {
 		"name": "Blight, Forest Blight",
 		"sources": [ "Bestiary 6" ],
@@ -1061,6 +1063,7 @@
 		]
 	},
 	"forest_blight": { "copyof": "blight_forest_blight" },
+	"blight_forest": { "copyof": "blight_forest_blight" },
 	"blight_mountain_blight": {
 		"name": "Blight, Mountain Blight",
 		"sources": [ "Bestiary 6" ],
@@ -1125,6 +1128,7 @@
 		]
 	},
 	"mountain_blight": { "copyof": "blight_mountain_blight" },
+	"blight_mountain": { "copyof": "blight_mountain_blight" },
 	"blight_sewer_blight": {
 		"name": "Blight, Sewer Blight",
 		"sources": [ "Bestiary 6" ],
@@ -1190,6 +1194,7 @@
 		]
 	},
 	"sewer_blight": { "copyof": "blight_sewer_blight" },
+	"blight_sewer": { "copyof": "blight_sewer_blight" },
 	"blight_swamp_blight": {
 		"name": "Blight, Swamp Blight",
 		"sources": [ "Bestiary 6" ],
@@ -1255,6 +1260,7 @@
 		]
 	},
 	"swamp_blight": { "copyof": "blight_swamp_blight" },
+	"blight_swamp": { "copyof": "blight_swamp_blight" },
 	"blight_tundra_blight": {
 		"name": "Blight, Tundra Blight",
 		"sources": [ "Bestiary 6" ],
@@ -1322,6 +1328,7 @@
 		]
 	},
 	"tundra_blight": { "copyof": "blight_tundra_blight" },
+	"blight_tundra": { "copyof": "blight_tundra_blight" },
 	"blightspawn": {
 		"name": "Blightspawn",
 		"sources": [ "Bestiary 5" ],
@@ -2333,6 +2340,7 @@
 		]
 	},
 	"bristle_boar": { "copyof": "boar_bristle_boar" },
+	"boar_bristle": { "copyof": "boar_bristle_boar" },
 	"boar_dire_boar_daeodon": {
 		"name": "Boar, Dire Boar (Daeodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2380,6 +2388,8 @@
 	},
 	"daeodon": { "copyof": "boar_dire_boar_daeodon" },
 	"dire_boar": { "copyof": "boar_dire_boar_daeodon" },
+	"boar_dire": { "copyof": "boar_dire_boar_daeodon" },
+	"boar_dire_daeodon": { "copyof": "boar_dire_boar_daeodon" },
 	"bodak": {
 		"name": "Bodak",
 		"sources": [

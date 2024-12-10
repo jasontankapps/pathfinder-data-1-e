@@ -2003,6 +2003,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_desert": { "copyof": "drake_desert_drake" },
 	"desert_drake": { "copyof": "drake_desert_drake" },
 	"drake_ether_drake": {
 		"name": "Drake, Ether Drake",
@@ -2070,6 +2071,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_ether": { "copyof": "drake_ether_drake" },
 	"ether_drake": { "copyof": "drake_ether_drake" },
 	"drake_flame_drake": {
 		"name": "Drake, Flame Drake",
@@ -2135,6 +2137,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_flame": { "copyof": "drake_flame_drake" },
 	"flame_drake": { "copyof": "drake_flame_drake" },
 	"drake_forest_drake": {
 		"name": "Drake, Forest Drake",
@@ -2204,6 +2207,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_forest": { "copyof": "drake_forest_drake" },
 	"forest_drake": { "copyof": "drake_forest_drake" },
 	"drake_frost_drake": {
 		"name": "Drake, Frost Drake",
@@ -2269,6 +2273,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_frost": { "copyof": "drake_frost_drake" },
 	"frost_drake": { "copyof": "drake_frost_drake" },
 	"drake_jungle_drake": {
 		"name": "Drake, Jungle Drake",
@@ -2338,6 +2343,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_jungle": { "copyof": "drake_jungle_drake" },
 	"jungle_drake": { "copyof": "drake_jungle_drake" },
 	"drake_lava_drake": {
 		"name": "Drake, Lava Drake",
@@ -2404,6 +2410,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_lava": { "copyof": "drake_lava_drake" },
 	"lava_drake": { "copyof": "drake_lava_drake" },
 	"drake_mist_drake": {
 		"name": "Drake, Mist Drake",
@@ -2473,6 +2480,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_mist": { "copyof": "drake_mist_drake" },
 	"mist_drake": { "copyof": "drake_mist_drake" },
 	"drake_rift_drake": {
 		"name": "Drake, Rift Drake",
@@ -2540,6 +2548,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_rift": { "copyof": "drake_rift_drake" },
 	"rift_drake": { "copyof": "drake_rift_drake" },
 	"drake_river_drake": {
 		"name": "Drake, River Drake",
@@ -2608,6 +2617,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_river": { "copyof": "drake_river_drake" },
 	"river_drake": { "copyof": "drake_river_drake" },
 	"drake_sea_drake": {
 		"name": "Drake, Sea Drake",
@@ -2672,6 +2682,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_sea": { "copyof": "drake_sea_drake" },
 	"sea_drake": { "copyof": "drake_sea_drake" },
 	"drake_shadow_drake": {
 		"name": "Drake, Shadow Drake",
@@ -2740,6 +2751,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_shadow": { "copyof": "drake_shadow_drake" },
 	"shadow_drake": { "copyof": "drake_shadow_drake" },
 	"drake_spire_drake": {
 		"name": "Drake, Spire Drake",
@@ -2809,6 +2821,7 @@
 			"**Family:** {family/Drake}"
 		]
 	},
+	"drake_spire": { "copyof": "drake_spire_drake" },
 	"spire_drake": { "copyof": "drake_spire_drake" },
 	"fleshwarp_drider": {
 		"name": "Fleshwarp, Drider",
@@ -4267,6 +4280,7 @@
 			"Giant frogs have razor-sharp teeth lining their mouths. They are 6 feet long and weigh 200 pounds."
 		]
 	},
+	"frog_giant": { "copyof": "frog_giant_frog" },
 	"giant_frog": { "copyof": "frog_giant_frog" },
 	"frog_goliath_frog": {
 		"name": "Frog, Goliath Frog",
@@ -4318,6 +4332,7 @@
 			"These hulking frogs haunt warm marshlands and river shallows where thick undergrowth can conceal them. They are dangerous, aggressive predators that gorge themselves on smaller creatures or team up to bring down larger prey. They often climb to the low branches of ancient, mossy trees, picking off prey from the wetland's floor before their existence is even suspected."
 		]
 	},
+	"frog_goliath": { "copyof": "frog_goliath_frog" },
 	"goliath_frog": { "copyof": "frog_goliath_frog" },
 	"frog_poison_frog": {
 		"name": "Frog, Poison Frog",
@@ -4370,6 +4385,7 @@
 			"You can make a larger poison frog either by applying the giant simple template or by giving a normal giant frog a poison frog's venomous bite."
 		]
 	},
+	"frog_poison": { "copyof": "frog_poison_frog" },
 	"poison_frog": { "copyof": "frog_poison_frog" },
 	"froghemoth": {
 		"name": "Froghemoth",

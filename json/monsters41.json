@@ -55,6 +55,7 @@
 		]
 	},
 	"aether_wysp": { "copyof": "wysp_aether_wysp" },
+	"wysp_aether": { "copyof": "wysp_aether_wysp" },
 	"wysp_air_wysp": {
 		"name": "Wysp, Air Wysp",
 		"sources": [ "Bestiary 5" ],
@@ -107,6 +108,7 @@
 		]
 	},
 	"air_wysp": { "copyof": "wysp_air_wysp" },
+	"wysp_air": { "copyof": "wysp_air_wysp" },
 	"wysp_earth_wysp": {
 		"name": "Wysp, Earth Wysp",
 		"sources": [ "Bestiary 5" ],
@@ -159,6 +161,7 @@
 		]
 	},
 	"earth_wysp": { "copyof": "wysp_earth_wysp" },
+	"wysp_earth": { "copyof": "wysp_earth_wysp" },
 	"wysp_fire_wysp": {
 		"name": "Wysp, Fire Wysp",
 		"sources": [ "Bestiary 5" ],
@@ -213,6 +216,7 @@
 		]
 	},
 	"fire_wysp": { "copyof": "wysp_fire_wysp" },
+	"wysp_fire": { "copyof": "wysp_fire_wysp" },
 	"wysp_water_wysp": {
 		"name": "Wysp, Water Wysp",
 		"sources": [ "Bestiary 5" ],
@@ -270,6 +274,7 @@
 		]
 	},
 	"water_wysp": { "copyof": "wysp_water_wysp" },
+	"wysp_water": { "copyof": "wysp_water_wysp" },
 	"wyvaran": {
 		"name": "Wyvaran",
 		"sources": [ "Bestiary 4" ],

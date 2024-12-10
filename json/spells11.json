@@ -2924,10 +2924,10 @@
 		]
 	},
 	"wall_of_blindness_deafness": {
-		"name": "Wall of Blindness/Deafness",
+		"name": "Wall of Blindness or Deafness",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Wall of Blindness/Deafness",
+			"## Wall of Blindness or Deafness",
 			"",
 			"{SOURCE Advanced Class Guide/198}  ",
 			"**School** {spelldef/necromancy}; **Level** arcanist 4, bard 4, cleric 5, oracle 5, psychic 4, skald 4, sorcerer 4, warpriest 5, witch 4, wizard 4",
@@ -2949,6 +2949,7 @@
 			"The wall must be vertical and either rectangular or a ring. It need not touch the ground. The wall must be continuous and unbroken when formed. If its surface is broken by any object or creature when it is cast, the spell fails."
 		]
 	},
+	"wall_of_blindness_or_deafness": { "copyof": "wall_of_blindness_deafness" },
 	"wall_of_bone": {
 		"name": "Wall of Bone",
 		"sources": [ "Magic Tactics Toolbox" ],

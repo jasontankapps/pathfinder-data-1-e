@@ -32,42 +32,34 @@
 	},
 	"access_card_blue": {
 		"name": "Access Card (blue)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_brown": {
 		"name": "Access Card (brown)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_gray": {
 		"name": "Access Card (gray)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_green": {
 		"name": "Access Card (green)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_orange": {
 		"name": "Access Card (orange)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_prismatic": {
 		"name": "Access Card (prismatic)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_red": {
 		"name": "Access Card (red)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"access_card_white": {
 		"name": "Access Card (white)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black"
 	},
 	"e_pick_black": {
@@ -107,7 +99,6 @@
 	},
 	"e_pick_blue": {
 		"name": "E-pick (blue)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
 	"epick_blue": {
@@ -115,7 +106,6 @@
 	},
 	"e_pick_brown": {
 		"name": "E-pick (brown)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
 	"epick_brown": {
@@ -123,7 +113,6 @@
 	},
 	"e_pick_gray": {
 		"name": "E-pick (gray)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
 	"epick_gray": {
@@ -131,7 +120,6 @@
 	},
 	"e_pick_green": {
 		"name": "E-pick (green)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
 	"epick_green": {
@@ -139,7 +127,6 @@
 	},
 	"e_pick_orange": {
 		"name": "E-pick (orange)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
 	"epick_orange": {
@@ -147,7 +134,6 @@
 	},
 	"e_pick_prismatic": {
 		"name": "E-pick (prismatic)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
 	"epick_prismatic": {
@@ -155,7 +141,6 @@
 	},
 	"e_pick_red": {
 		"name": "E-pick (red)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
 	"epick_red": {
@@ -163,7 +148,6 @@
 	},
 	"e_pick_white": {
 		"name": "E-pick (white)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black"
 	},
 	"epick_white": {
@@ -203,42 +187,34 @@
 	},
 	"lock_coder_blue": {
 		"name": "Lock Coder (blue)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_brown": {
 		"name": "Lock Coder (brown)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_gray": {
 		"name": "Lock Coder (gray)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_green": {
 		"name": "Lock Coder (green)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_orange": {
 		"name": "Lock Coder (orange)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_prismatic": {
 		"name": "Lock Coder (prismatic)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_red": {
 		"name": "Lock Coder (red)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"lock_coder_white": {
 		"name": "Lock Coder (white)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black"
 	},
 	"battery": {
@@ -869,42 +845,34 @@
 	},
 	"nanite_hypogun_blue": {
 		"name": "Nanite Hypogun (blue)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_brown": {
 		"name": "Nanite Hypogun (brown)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_gray": {
 		"name": "Nanite Hypogun (gray)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_green": {
 		"name": "Nanite Hypogun (green)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_orange": {
 		"name": "Nanite Hypogun (orange)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_prismatic": {
 		"name": "Nanite Hypogun (prismatic)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_red": {
 		"name": "Nanite Hypogun (red)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"nanite_hypogun_white": {
 		"name": "Nanite Hypogun (white)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black"
 	},
 	"neurocam": {
@@ -1136,42 +1104,34 @@
 	},
 	"veemod_blue": {
 		"name": "Veemod (blue)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_brown": {
 		"name": "Veemod (brown)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_gray": {
 		"name": "Veemod (gray)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_green": {
 		"name": "Veemod (green)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_orange": {
 		"name": "Veemod (orange)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_prismatic": {
 		"name": "Veemod (prismatic)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_red": {
 		"name": "Veemod (red)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_white": {
 		"name": "Veemod (white)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black"
 	},
 	"veemod_goggles": {
@@ -1252,42 +1212,34 @@
 	},
 	"chipfinder_blue": {
 		"name": "Chipfinder (blue)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_brown": {
 		"name": "Chipfinder (brown)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_gray": {
 		"name": "Chipfinder (gray)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_green": {
 		"name": "Chipfinder (green)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_orange": {
 		"name": "Chipfinder (orange)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_prismatic": {
 		"name": "Chipfinder (prismatic)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_red": {
 		"name": "Chipfinder (red)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"chipfinder_white": {
 		"name": "Chipfinder (white)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black"
 	},
 	"commset": {
@@ -1452,42 +1404,34 @@
 	},
 	"force_field_blue": {
 		"name": "Force Field (blue)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_brown": {
 		"name": "Force Field (brown)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_gray": {
 		"name": "Force Field (gray)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_green": {
 		"name": "Force Field (green)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_orange": {
 		"name": "Force Field (orange)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_prismatic": {
 		"name": "Force Field (prismatic)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_red": {
 		"name": "Force Field (red)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"force_field_white": {
 		"name": "Force Field (white)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black"
 	},
 	"gravity_clip": {
@@ -1608,42 +1552,34 @@
 	},
 	"hologram_generator_blue": {
 		"name": "Hologram Generator (blue)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_brown": {
 		"name": "Hologram Generator (brown)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_gray": {
 		"name": "Hologram Generator (gray)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_green": {
 		"name": "Hologram Generator (green)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_orange": {
 		"name": "Hologram Generator (orange)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_prismatic": {
 		"name": "Hologram Generator (prismatic)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_red": {
 		"name": "Hologram Generator (red)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"hologram_generator_white": {
 		"name": "Hologram Generator (white)",
-		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black"
 	},
 	"inertial_dampening_belt": {

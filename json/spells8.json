@@ -1711,10 +1711,10 @@
 		]
 	},
 	"remove_blindness_deafness": {
-		"name": "Remove Blindness/Deafness",
+		"name": "Remove Blindness or Deafness",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Remove Blindness/Deafness",
+			"## Remove Blindness or Deafness",
 			"",
 			"{SOURCE PRPG Core Rulebook/332}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** alchemist 3, cleric 3, investigator 3, mesmerist 3, oracle 3, paladin 3, shaman 3, spiritualist 3, warpriest 3, witch 3",
@@ -1738,6 +1738,7 @@
 	},
 	"remove_blindness": { "copyof": "remove_blindness_deafness" },
 	"remove_deafness": { "copyof": "remove_blindness_deafness" },
+	"remove_blindness_or_deafness": { "copyof": "remove_blindness_deafness" },
 	"remove_curse": {
 		"name": "Remove Curse",
 		"sources": [ "PRPG Core Rulebook" ],

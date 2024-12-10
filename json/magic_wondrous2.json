@@ -1702,18 +1702,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, imbue with spell ability; **Cost** 750 gp (Type I), 3,000 gp (Type II), 6,750 gp (Type III), 12,000 gp (Type IV)"
 		]
 	},
+	"circlet_of_spell_eating_type_i": { "copyof": "circlet_of_spell_eating_type_1" },
 	"circlet_of_spell_eating_type_2": {
 		"name": "Circlet of Spell-Eating (Type II)",
 		"copyof": "circlet_of_spell_eating_type_1"
 	},
+	"circlet_of_spell_eating_type_ii": { "copyof": "circlet_of_spell_eating_type_2" },
 	"circlet_of_spell_eating_type_3": {
 		"name": "Circlet of Spell-Eating (Type III)",
 		"copyof": "circlet_of_spell_eating_type_1"
 	},
+	"circlet_of_spell_eating_type_iii": { "copyof": "circlet_of_spell_eating_type_3" },
 	"circlet_of_spell_eating_type_4": {
 		"name": "Circlet of Spell-Eating (Type IV)",
 		"copyof": "circlet_of_spell_eating_type_1"
 	},
+	"circlet_of_spell_eating_type_iv": { "copyof": "circlet_of_spell_eating_type_4" },
 	"false_face": {
 		"name": "False Face",
 		"sources": [ "Advanced Class Guide" ],

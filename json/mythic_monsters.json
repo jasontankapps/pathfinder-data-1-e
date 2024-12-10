@@ -237,6 +237,7 @@
 			"[^M]: mythic spell"
 		]
 	},
+	"apkallu": { "copyof": "apkallu_mythic" },
 	"apocalypse_locust_mythic": {
 		"name": "Apocalypse Locust",
 		"sources": [ "Bestiary 4" ],
@@ -297,6 +298,7 @@
 			"Apocalypse locusts are damned humans twisted and fused into the form of massive, fiendish insects. They delight in torturing living creatures, drawing out the torment for as long as possible. Though these creatures have average intelligence, they are consumed by hatred and eternal pain, and therefore lack any kind of empathy or sanity. Apocalypse locusts particularly enjoy watching holy warriors suffer their hallucinatory stings."
 		]
 	},
+	"apocalypse_locust": { "copyof": "apocalypse_locust_mythic" },
 	"argus_mythic": {
 		"name": "Argus",
 		"sources": [ "Bestiary 4" ],
@@ -368,6 +370,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"argus": { "copyof": "argus_mythic" },
 	"champion_of_the_gilded_host_mythic": {
 		"name": "Champion of the Gilded Host",
 		"sources": [ "Lost Treasures" ],
@@ -449,6 +452,7 @@
 			"**Requirements** Craft Construct, Mythic Crafter, antimagic field, good hope, remove fear, vengeful outrage, wish, creator must be at least mythic rank or tier 6th"
 		]
 	},
+	"champion_of_the_gilded_host": { "copyof": "champion_of_the_gilded_host_mythic" },
 	"chaneque_mythic": {
 		"name": "Chaneque",
 		"sources": [ "Bestiary 4" ],
@@ -513,6 +517,7 @@
 			"A typical chaneque stands about 3 feet tall, with blackish-red, rubbery flesh. It has long, filthy claws it uses to cling to trees. Between the creature's legs and arms hang wide, webbed flaps it uses for gliding. A chaneque also has long, ridged, batlike ears and needlelike teeth."
 		]
 	},
+	"chaneque": { "copyof": "chaneque_mythic" },
 	"cockatrice_mythic": {
 		"name": "Cockatrice",
 		"sources": [ "Mythic Adventures" ],
@@ -637,6 +642,8 @@
 			"**Requirements** Craft Construct, Mythic Crafter 6th mythic tier, animate dead, antimagic field, gentle repose, limited wish; Skill Heal DC 25; **Cost** 70,000 gp"
 		]
 	},
+	"colossus_flesh_colossus": { "copyof": "colossus_flesh_colossus_mythic" },
+	"colossus_flesh": { "copyof": "colossus_flesh_colossus_mythic" },
 	"flesh_colossus_mythic": { "copyof": "colossus_flesh_colossus_mythic" },
 	"colossus_iron_colossus_mythic": {
 		"name": "Colossus, Iron Colossus",
@@ -716,6 +723,8 @@
 			"**Requirements** Craft Construct, Mythic Crafter, mythic tier or rank 8, antimagic field, cloudkill, meteor swarm, rusting grasp, wall of iron, wish; Skill Craft (blacksmithing) DC 30; **Cost** 300,000 gp"
 		]
 	},
+	"colossus_iron_colossus": { "copyof": "colossus_iron_colossus_mythic" },
+	"colossus_iron": { "copyof": "colossus_iron_colossus_mythic" },
 	"iron_colossus_mythic": { "copyof": "colossus_iron_colossus_mythic" },
 	"colossus_sphinx_colossus_mythic": {
 		"name": "Colossus, Sphinx Colossus",
@@ -792,6 +801,8 @@
 			"**Requirements** Craft Construct, Mythic Crafter, Quicken Spell, 4th mythic rank or tier, antimagic field, limited wish, moment of prescience, true strike; Skill Craft (stonemasonry) DC 25; **Cost** 62,500 gp"
 		]
 	},
+	"colossus_sphinx_colossus": { "copyof": "colossus_sphinx_colossus_mythic" },
+	"colossus_sphinx": { "copyof": "colossus_sphinx_colossus_mythic" },
 	"sphinx_colossus_mythic": { "copyof": "colossus_sphinx_colossus_mythic" },
 	"colossus_stone_colossus_mythic": {
 		"name": "Colossus, Stone Colossus",
@@ -871,6 +882,8 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"colossus_stone_colossus": { "copyof": "colossus_stone_colossus_mythic" },
+	"colossus_stone": { "copyof": "colossus_stone_colossus_mythic" },
 	"stone_colossus_mythic": { "copyof": "colossus_stone_colossus_mythic" },
 	"colossus_wood_colossus_mythic": {
 		"name": "Colossus, Wood Colossus",
@@ -941,6 +954,8 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"colossus_wood_colossus": { "copyof": "colossus_wood_colossus_mythic" },
+	"colossus_wood": { "copyof": "colossus_wood_colossus_mythic" },
 	"wood_colossus_mythic": { "copyof": "colossus_wood_colossus_mythic" },
 	"cyclops_great_cyclops_mythic": {
 		"name": "Cyclops, Great Cyclops",
@@ -1259,6 +1274,7 @@
 			"In an unholy act of twisted, demonic humor, devastators derive their power from the souls of good outsiders."
 		]
 	},
+	"devastator": { "copyof": "devastator_mythic" },
 	"devil_bone_devil_mythic": {
 		"name": "Devil, Bone Devil",
 		"sources": [ "Mythic Adventures" ],
@@ -1323,6 +1339,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"devil_bone_devil": { "copyof": "devil_bone_devil_mythic" },
 	"bone_devil_mythic": { "copyof": "devil_bone_devil_mythic" },
 	"devil_ice_devil_mythic": {
 		"name": "Devil, Ice Devil",
@@ -1391,6 +1408,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"devil_ice_devil": { "copyof": "devil_ice_devil_mythic" },
 	"ice_devil_mythic": { "copyof": "devil_ice_devil_mythic" },
 	"dragon_black_mature_adult_black_dragon_mythic": {
 		"name": "Dragon (Black), Mature Adult Black Dragon",
@@ -1452,6 +1470,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"dragon_black_mature_adult_black_dragon": { "copyof": "dragon_black_mature_adult_black_dragon_mythic" },
 	"mature_adult_black_dragon_mythic": { "copyof": "dragon_black_mature_adult_black_dragon_mythic" },
 	"dragon_blue_mature_adult_blue_dragon_mythic": {
 		"name": "Dragon (Blue), Mature Adult Blue Dragon",
@@ -1513,6 +1532,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"dragon_blue_mature_adult_blue_dragon": { "copyof": "dragon_blue_mature_adult_blue_dragon_mythic" },
 	"mature_adult_blue_dragon_mythic": { "copyof": "dragon_blue_mature_adult_blue_dragon_mythic" },
 	"dragon_green_very_old_green_dragon_mythic": {
 		"name": "Dragon (Green), Very Old Green Dragon",
@@ -1575,6 +1595,7 @@
 			"**Family:** {family/Green Dragon}"
 		]
 	},
+	"dragon_green_very_old_green_dragon": { "copyof": "dragon_green_very_old_green_dragon_mythic" },
 	"very_old_green_dragon_mythic": { "copyof": "dragon_green_very_old_green_dragon_mythic" },
 	"dragon_red_wyrm_red_dragon_mythic": {
 		"name": "Dragon (Red), Wyrm Red Dragon",
@@ -1650,6 +1671,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"dragon_red_wyrm_red_dragon": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
 	"wyrm_red_dragon_mythic": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
 	"wyrm_red_dragon": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
 	"dragon_red_young_red_dragon_mythic": {
@@ -1771,6 +1793,7 @@
 			"**Family:** {family/White Dragon}"
 		]
 	},
+	"dragon_white_juvenile_white_dragon": { "copyof": "dragon_white_juvenile_white_dragon_mythic" },
 	"juvenile_white_dragon_mythic": { "copyof": "dragon_white_juvenile_white_dragon_mythic" },
 	"drakainia": {
 		"name": "Drakainia",
@@ -2174,6 +2197,7 @@
 			"An elohim is a strange being obsessed with creating miniature worlds populated with creatures of its choosing. It creates new permanent demiplanes or alters remote environments in pre-existing planes, seeds them with new life, then eventually abandons them. An elohim might return to its creation decades or centuries later to observe how its progeny have fared, and might allow them to continue or eradicate them completely. Elohim communicate with other beings only rarely, and always in a cryptic fashion."
 		]
 	},
+	"elohim": { "copyof": "elohim_mythic" },
 	"ettin_mythic": {
 		"name": "Ettin",
 		"sources": [ "Mythic Adventures" ],
@@ -2363,6 +2387,7 @@
 			"A mythic fire giant burns like the heart of a volcano. Wielding weapons of flame and ash, it brands enemies with its fury and strength."
 		]
 	},
+	"giant_fire_giant": { "copyof": "giant_fire_giant_mythic" },
 	"fire_giant_mythic": { "copyof": "giant_fire_giant_mythic" },
 	"giant_hill_giant_mythic": {
 		"name": "Giant, Hill Giant",
@@ -2502,6 +2527,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"glaistig": { "copyof": "glaistig_mythic" },
 	"golem_flesh_golem_mythic": {
 		"name": "Golem, Flesh Golem",
 		"sources": [ "Mythic Adventures" ],
@@ -2634,6 +2660,7 @@
 			"All three graeaes must spend a full-round action to take part in this form of cooperative magic. All coven spell-like abilities are CL 9th (or at the highest caster level available to the most powerful graeaes in the coven)."
 		]
 	},
+	"graeae": { "copyof": "graeae_mythic" },
 	"greater_barghest_mythic": {
 		"name": "Greater Barghest",
 		"sources": [ "Mythic Adventures" ],
@@ -2756,6 +2783,7 @@
 			"This reaver of the cold marsh is not just a monster; he is a force of nature. Where there is peace and prosperity in the world, Grendel strikes, eager to prove that tranquility is transitory and death is the only constant. Grendel stalks the edge of his fens looking for quiet settlements. Under cover of night, he strikes, murdering the strong in their beds and chasing the terrified with demonic glee. He then takes the prize of his carnage deep into his fen where his lust for blood is grotesquely sated."
 		]
 	},
+	"grendel": { "copyof": "grendel_mythic" },
 	"griffon_mythic": {
 		"name": "Griffon",
 		"sources": [ "Mythic Adventures" ],

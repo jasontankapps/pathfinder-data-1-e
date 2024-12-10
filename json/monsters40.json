@@ -59,6 +59,7 @@
 		]
 	},
 	"air_veela": { "copyof": "veela_air_veela" },
+	"veela_air": { "copyof": "veela_air_veela" },
 	"veela_earth_veela": {
 		"name": "Veela, Earth Veela",
 		"sources": [ "Bestiary 5" ],
@@ -119,6 +120,7 @@
 		]
 	},
 	"earth_veela": { "copyof": "veela_earth_veela" },
+	"veela_earth": { "copyof": "veela_earth_veela" },
 	"veela_fire_veela": {
 		"name": "Veela, Fire Veela",
 		"sources": [ "Bestiary 5" ],
@@ -180,6 +182,7 @@
 		]
 	},
 	"fire_veela": { "copyof": "veela_fire_veela" },
+	"veela_fire": { "copyof": "veela_fire_veela" },
 	"veela_water_veela": {
 		"name": "Veela, Water Veela",
 		"sources": [ "Bestiary 5" ],
@@ -240,6 +243,7 @@
 		]
 	},
 	"water_veela": { "copyof": "veela_water_veela" },
+	"veela_water": { "copyof": "veela_water_veela" },
 	"vegepygmy": {
 		"name": "Vegepygmy",
 		"sources": [
@@ -1937,6 +1941,7 @@
 			"A giant vulture stands more than 13 feet tall, has a wingspan of over 30 feet, and weighs 500 to 600 pounds."
 		]
 	},
+	"vulture_giant": { "copyof": "vulture_giant_vulture" },
 	"giant_vulture": { "copyof": "vulture_giant_vulture" },
 	"vulture_whisperfall_vulture": {
 		"name": "Vulture, Whisperfall Vulture",
@@ -1986,6 +1991,7 @@
 			"A mature Whisperfall vulture has an 8-foot-long wingspan and weighs 50 pounds."
 		]
 	},
+	"vulture_whisperfall": { "copyof": "vulture_whisperfall_vulture" },
 	"whisperfall_vulture": { "copyof": "vulture_whisperfall_vulture" },
 	"vydrarch": {
 		"name": "Vydrarch",

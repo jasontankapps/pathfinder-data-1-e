@@ -61,6 +61,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, water breathing, creator must have 5 ranks in the Swim skill; **Price** 1,230 gp"
 		]
 	},
+	"kimleacute_coat": { "copyof": "kimle_coat" },
 	"grim_gloom_mail": {
 		"name": "Grim Gloom Mail",
 		"sources": [ "Inner Sea Gods" ],

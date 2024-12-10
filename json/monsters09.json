@@ -351,6 +351,7 @@
 		]
 	},
 	"giant_eagle": { "copyof": "eagle_giant_eagle" },
+	"eagle_giant": { "copyof": "eagle_giant_eagle" },
 	"eaisge": {
 		"name": "Eaisge",
 		"sources": [ "Ire of the Storm" ],
@@ -630,6 +631,7 @@
 			"The electric eel is a curious fish that breathes air instead of water, yet certainly its most unusual characteristic is its ability to generate powerful jolts of electricity. An electric eel is 6 feet long and weighs 45 pounds."
 		]
 	},
+	"eel_electric": { "copyof": "eel_electric_eel" },
 	"electric_eel": { "copyof": "eel_electric_eel" },
 	"eel_giant_moray_eel": {
 		"name": "Eel, Giant Moray Eel",
@@ -681,6 +683,7 @@
 			"The moray eel is a ferocious predator, capable of holding prey in its primary jaws while a smaller set of jaws inside its throat chews away bite-sized portions."
 		]
 	},
+	"eel_giant_moray": { "copyof": "eel_giant_moray_eel" },
 	"giant_moray_eel": { "copyof": "eel_giant_moray_eel" },
 	"egophage": {
 		"name": "Egophage",

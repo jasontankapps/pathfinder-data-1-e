@@ -368,6 +368,7 @@
 			"Blackwood satyrs are an especially infamous breed of fey indigenous to the Verduran Forest, which straddles the borders of Andoran, Taldor, and Galt. They are well known throughout southeastern Avistan for exuding the pleasantly sweet aroma of blackwood tar, from which they gain their name. Though the human population surrounding the Verduran Forest seldom ventures deep into the fey wood for anything other than logging, the blackwood satyrs seem to take perverse pleasure in waylaying noble lords and ladies during their passage down the heavily traveled Sellen River, playing songs from the river's bank to lure vessels closer and enthrall all aboard."
 		]
 	},
+	"satyr_blackwood": { "copyof": "satyr_blackwood_satyr" },
 	"blackwood_satyr": { "copyof": "satyr_blackwood_satyr" },
 	"saumen_kar": {
 		"name": "Saumen Kar",
@@ -1142,6 +1143,7 @@
 			"The immense black scorpion is one of the largest desert predators. Capable of stinging with blinding speed, this creature is constantly on the hunt."
 		]
 	},
+	"scorpion_black": { "copyof": "scorpion_black_scorpion" },
 	"black_scorpion": { "copyof": "scorpion_black_scorpion" },
 	"scorpion_cave_scorpion": {
 		"name": "Scorpion, Cave Scorpion",
@@ -1192,6 +1194,7 @@
 			"The squat cave scorpion is quite well suited for life in caves. With its bulky armor, a cave scorpion at rest looks like a pile of stones. The cave scorpion's favorite food is dwarven meat, and when a cave scorpion finds a working dwarven mine, it can quickly become a major inconvenience. Dwarven societies often post hefty bounties on cave scorpion stingers."
 		]
 	},
+	"scorpion_cave": { "copyof": "scorpion_cave_scorpion" },
 	"cave_scorpion": { "copyof": "scorpion_cave_scorpion" },
 	"scorpion_deadfall_scorpion": {
 		"name": "Scorpion, Deadfall Scorpion",
@@ -1248,6 +1251,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"scorpion_deadfall": { "copyof": "scorpion_deadfall_scorpion" },
 	"deadfall_scorpion": { "copyof": "scorpion_deadfall_scorpion" },
 	"scorpion_ghost_scorpion": {
 		"name": "Scorpion, Ghost Scorpion",
@@ -1298,6 +1302,7 @@
 			"So named for their eerie, translucent carapaces, ghost scorpions are nocturnal desert hunters. A ghost scorpion's body is 3 feet long with a 3-foot long tail, and it weighs 45 pounds."
 		]
 	},
+	"scorpion_ghost": { "copyof": "scorpion_ghost_scorpion" },
 	"ghost_scorpion": { "copyof": "scorpion_ghost_scorpion" },
 	"scorpion_giant_emperor_scorpion": {
 		"name": "Scorpion, Giant Emperor Scorpion",
@@ -1351,6 +1356,7 @@
 			"A giant emperor scorpion is an ambush predator, burying itself in soil or sand until prey approaches."
 		]
 	},
+	"scorpion_giant_emperor": { "copyof": "scorpion_giant_emperor_scorpion" },
 	"giant_emperor_scorpion": { "copyof": "scorpion_giant_emperor_scorpion" },
 	"scorpion_giant_scorpion": {
 		"name": "Scorpion, Giant Scorpion",
@@ -1423,6 +1429,7 @@
 			"| Black scorpion | 15 | Colossal | 22d8 |"
 		]
 	},
+	"scorpion_giant": { "copyof": "scorpion_giant_scorpion" },
 	"giant_scorpion": { "copyof": "scorpion_giant_scorpion" },
 	"scorpion_greensting_scorpion": {
 		"name": "Scorpion, Greensting Scorpion",
@@ -1480,6 +1487,7 @@
 			"A greensting scorpion familiar grants a +4 bonus on Initiative checks so long as the familiar is within 1 mile of the spellcaster. A greensting scorpion familiar loses the mindless trait and has an Intelligence score appropriate for its master's level."
 		]
 	},
+	"scorpion_greensting": { "copyof": "scorpion_greensting_scorpion" },
 	"greensting_scorpion": { "copyof": "scorpion_greensting_scorpion" },
 	"scrapshell": {
 		"name": "Scrapshell",
@@ -2168,6 +2176,7 @@
 			"Giant sea snakes typically reach up to 30 feet in length and weigh 500 pounds."
 		]
 	},
+	"sea_snake_giant": { "copyof": "sea_snake_giant_sea_snake" },
 	"giant_sea_snake": { "copyof": "sea_snake_giant_sea_snake" },
 	"sea_urchin_giant_black_spot": {
 		"name": "Sea Urchin, Giant, Black Spot",
@@ -2699,6 +2708,7 @@
 			"A giant seahorse is considered a quadruped for the purpose of carrying capacity. A light load for a giant seahorse is up to 500 pounds, a medium load is 1,000 pounds, and a heavy load is 1,600 pounds. It can drag 8,000 pounds."
 		]
 	},
+	"seahorse_giant": { "copyof": "seahorse_giant_seahorse" },
 	"giant_seahorse": { "copyof": "seahorse_giant_seahorse" },
 	"seahorse_killer_seahorse": {
 		"name": "Seahorse, Killer Seahorse",
@@ -2751,6 +2761,7 @@
 			"A light load for a killer seahorse is up to 2,500 pounds, a medium load is 4,900 pounds, and a heavy load is 7,400 pounds. A killer seahorse can drag 36,800 pounds."
 		]
 	},
+	"seahorse_killer": { "copyof": "seahorse_killer_seahorse" },
 	"killer_seahorse": { "copyof": "seahorse_killer_seahorse" },
 	"seaweed_siren": {
 		"name": "Seaweed Siren",
@@ -3126,6 +3137,7 @@
 			"Sepses are born live. A hatchling soon grows up to 7 feet long and weighs 10 pounds."
 		]
 	},
+	"seps_juvenile": { "copyof": "seps_juvenile_seps" },
 	"juvenile_seps": { "copyof": "seps_juvenile_seps" },
 	"serpentfolk": {
 		"name": "Serpentfolk",
@@ -4509,5 +4521,6 @@
 			"Greater shadows are those undead shadows that have come to be particularly infused with negative energy, such as those that have spent vast lengths of time in areas of the Plane of Shadow awash in negative energy, or those that have drained the lives of thousands of victims. These undead monsters are often found with a small band of normal shadows, which typically treat a greater shadow as a leader to rally behind."
 		]
 	},
+	"shadow_greater": { "copyof": "shadow_greater_shadow" },
 	"greater_shadow": { "copyof": "shadow_greater_shadow" }
 }

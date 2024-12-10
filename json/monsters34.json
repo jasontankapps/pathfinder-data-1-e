@@ -360,6 +360,7 @@
 			"Most common in warm or temperate waters, the death's head jellyfish is an aggressive predator. The creature derives its name from the pattern on its 4-foot-wide bell and from the poison it delivers with its tentacles. Those unfortunate enough to be subjected to this toxin develop rigor of the facial muscles that results in a wide-eyed grimace if left untreated."
 		]
 	},
+	"jellyfish_deaths_head": { "copyof": "jellyfish_deaths_head_jellyfish" },
 	"deaths_head_jellyfish": { "copyof": "jellyfish_deaths_head_jellyfish" },
 	"jellyfish_giant_jellyfish": {
 		"name": "Jellyfish, Giant Jellyfish",
@@ -419,6 +420,7 @@
 			"| Whaler jellyfish | 17 | Colossal | 20 |"
 		]
 	},
+	"jellyfish_giant": { "copyof": "jellyfish_giant_jellyfish" },
 	"giant_jellyfish": { "copyof": "jellyfish_giant_jellyfish" },
 	"jellyfish_jellyfish_swarm": {
 		"name": "Jellyfish, Jellyfish Swarm",
@@ -524,6 +526,7 @@
 			"Like other giant jellyfish, a sapphire jellyfish is an active hunter. It stores powerful electrical charges in its domelike bell, which is 16 feet in diameter. Its sensory tentacles can trail for twice that length, but the dangerous toxic tentacles are positioned within about 20 feet of the creature's bell."
 		]
 	},
+	"jellyfish_sapphire": { "copyof": "jellyfish_sapphire_jellyfish" },
 	"sapphire_jellyfish": { "copyof": "jellyfish_sapphire_jellyfish" },
 	"jinmenju": {
 		"name": "Jinmenju",
@@ -3136,6 +3139,7 @@
 		]
 	},
 	"giant_leech": { "copyof": "leech_giant_leech" },
+	"leech_giant": { "copyof": "leech_giant_leech" },
 	"leech_leech_swarm": {
 		"name": "Leech, Leech Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3271,6 +3275,7 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
+	"leshy_cactus": { "copyof": "leshy_cactus_leshy" },
 	"cactus_leshy": { "copyof": "leshy_cactus_leshy" },
 	"leshy_flytrap_leshy": {
 		"name": "Leshy, Flytrap Leshy",
@@ -3349,6 +3354,7 @@
 			"**Requirements** Knowledge (nature) 5 ranks, burst of nettles, plant growth, summon nature's ally IV; Skill Knowledge (nature) DC 18; **Cost** 3,250 gp"
 		]
 	},
+	"leshy_flytrap": { "copyof": "leshy_flytrap_leshy" },
 	"flytrap_leshy": { "copyof": "leshy_flytrap_leshy" },
 	"leshy_fungus_leshy": {
 		"name": "Leshy, Fungus Leshy",
@@ -3428,6 +3434,7 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
+	"leshy_fungus": { "copyof": "leshy_fungus_leshy" },
 	"fungus_leshy": { "copyof": "leshy_fungus_leshy" },
 	"leshy_gourd_leshy": {
 		"name": "Leshy, Gourd Leshy",
@@ -3506,6 +3513,7 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
+	"leshy_gourd": { "copyof": "leshy_gourd_leshy" },
 	"gourd_leshy": { "copyof": "leshy_gourd_leshy" },
 	"leshy_leaf_leshy": {
 		"name": "Leshy, Leaf Leshy",
@@ -3579,6 +3587,7 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
+	"leshy_leaf": { "copyof": "leshy_leaf_leshy" },
 	"leaf_leshy": { "copyof": "leshy_leaf_leshy" },
 	"leshy_lichen_leshy": {
 		"name": "Leshy, Lichen Leshy",
@@ -3660,6 +3669,7 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
+	"leshy_lichen": { "copyof": "leshy_lichen_leshy" },
 	"lichen_leshy": { "copyof": "leshy_lichen_leshy" },
 	"leshy_lotus_leshy": {
 		"name": "Leshy, Lotus Leshy",
@@ -3737,6 +3747,7 @@
 			"**Requirements** Knowledge (nature) 5 ranks, Knowledge (religion) 5 ranks, lily pad stride, plant growth, summon nature's ally V; Skill Knowledge (nature or religion) DC 19; **Cost** 4,500 gp"
 		]
 	},
+	"leshy_lotus": { "copyof": "leshy_lotus_leshy" },
 	"lotus_leshy": { "copyof": "leshy_lotus_leshy" },
 	"leshy_seaweed_leshy": {
 		"name": "Leshy, Seaweed Leshy",
@@ -3813,6 +3824,7 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
+	"leshy_seaweed": { "copyof": "leshy_seaweed_leshy" },
 	"seaweed_leshy": { "copyof": "leshy_seaweed_leshy" },
 	"leshy_snapdragon_leshy": {
 		"name": "Leshy, Snapdragon Leshy",
@@ -3892,6 +3904,7 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
+	"leshy_snapdragon": { "copyof": "leshy_snapdragon_leshy" },
 	"snapdragon_leshy": { "copyof": "leshy_snapdragon_leshy" },
 	"leshy_sunflower_leshy": {
 		"name": "Leshy, Sunflower Leshy",
@@ -3971,6 +3984,7 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
+	"leshy_sunflower": { "copyof": "leshy_sunflower_leshy" },
 	"sunflower_leshy": { "copyof": "leshy_sunflower_leshy" },
 	"kraken": {
 		"name": "Kraken",

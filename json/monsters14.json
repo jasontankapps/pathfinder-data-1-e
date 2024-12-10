@@ -1150,6 +1150,7 @@
 	},
 	"hyaenodon": { "copyof": "hyena_dire_hyena_hyaenodon" },
 	"dire_hyena": { "copyof": "hyena_dire_hyena_hyaenodon" },
+	"hyena_dire_hyaenodon": { "copyof": "hyena_dire_hyena_hyaenodon" },
 	"hypnalis": {
 		"name": "Hypnalis",
 		"sources": [ "Bestiary 4" ],

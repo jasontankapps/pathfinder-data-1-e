@@ -116,6 +116,7 @@
 			"While raging, the barbarian is treated as if she has {feat/Two-Weapon Fighting} when making unarmed strike attacks. A barbarian must have the brawler rage power to select this rage power."
 		]
 	},
+	"brawler_greater": { "copyof": "greater_brawler" },
 	"breathtaker": {
 		"name": "Breathtaker",
 		"sources": [ "People of the River" ],
@@ -170,6 +171,7 @@
 			"While raging, all of the barbarian's critical hits made with melee weapons deal an additional 1d10 points of energy damage (2d10 if the weapon deals &times;3 damage on a critical hit, 3d10 if the weapon deals &times;4 on a critical hit). The type of this damage is the same as the type chosen for the elemental rage power. A barbarian must have the elemental rage power to select this rage power. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
+	"elemental_rage_greater": { "copyof": "greater_elemental_rage" },
 	"lesser_elemental_rage": {
 		"name": "Elemental Rage, Lesser",
 		"sources": [ "Advanced Player's Guide" ],
@@ -179,6 +181,7 @@
 			"As a swift action, the barbarian can cause her melee attacks to deal an additional 1d6 points of energy damage (acid, cold, electricity, or fire) for 1 round. A barbarian must be at least 4th level to select this rage power. This power can only be used once per rage."
 		]
 	},
+	"elemental_rage_lesser": { "copyof": "lesser_elemental_rage" },
 	"enhance_venom": {
 		"name": "Enhance Venom",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -206,6 +209,7 @@
 			"The barbarian can move 10 feet when using erratic charge. If she does so, the creature she is charging must be at least 20 feet away and the movement reduces the maximum distance of her charge by 20 feet. A barbarian must be at least 8th level and must have the erratic charge rage power before selecting this power."
 		]
 	},
+	"erratic_charge_greater": { "copyof": "greater_erratic_charge" },
 	"feasting_bite": {
 		"name": "Feasting Bite",
 		"sources": [ "Agents of Evil" ],
@@ -233,6 +237,7 @@
 			"A barbarian's mount can affect creatures up to its own size with its ferocious trample. In addition, it can make an overrun combat maneuver check as a free action against a creature that fails its Reflex save (or chooses not to save in order to take an attack of opportunity) against its trample. A barbarian must have the ferocious trample rage power to select this rage power. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
+	"ferocious_trample_greater": { "copyof": "greater_ferocious_trample" },
 	"fierce_fortitude": {
 		"name": "Fierce Fortitude",
 		"sources": [ "Advanced Class Guide" ],
@@ -269,6 +274,7 @@
 			"This power works as animal fury, but the barbarian's bite attack deals damage as if she were one size larger. A barbarian must have the animal fury rage power to select this rage power."
 		]
 	},
+	"animal_fury_greater": { "copyof": "greater_animal_fury" },
 	"ground_breaker": {
 		"name": "Ground Breaker",
 		"sources": [ "Advanced Player's Guide" ],
@@ -287,6 +293,7 @@
 			"When using the ground breaker rage power, the barbarian can extend the radius of the effect by 5 feet. This rage power can be selected up to three times, and its effects stack. A barbarian must have the ground breaker rage power and be at least 8th level before selecting this rage power."
 		]
 	},
+	"ground_breaker_greater": { "copyof": "greater_ground_breaker" },
 	"hissing_rage": {
 		"name": "Hissing Rage",
 		"sources": [ "Ultimate Wilderness" ],
@@ -325,6 +332,7 @@
 			"As hurling, but the barbarian can increase the range increment to 30 feet or increase the size of a hurled object by two size categories. A barbarian must have the hurling rage power to select this rage power. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
+	"hurling_greater": { "copyof": "greater_hurling" },
 	"lesser_hurling": {
 		"name": "Hurling, Lesser",
 		"sources": [ "Advanced Player's Guide" ],
@@ -334,6 +342,7 @@
 			"As a full-round action while raging, the barbarian can lift and hurl an object up to one size category smaller than herself with both hands or two size categories smaller with one hand as an improvised weapon with a range increment of 10 feet. This inflicts damage as a [falling object](rule/falling_objects) plus the barbarian's Strength bonus. This damage is halved if the object is not made of stone, metal, or similar material. This is a ranged touch attack, and the target may attempt a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) for half damage. The barbarian may apply {feat/Power Attack} to this attack as a one- or two-handed weapon, as appropriate."
 		]
 	},
+	"hurling_lesser": { "copyof": "lesser_hurling" },
 	"impelling_disarm": {
 		"name": "Impelling Disarm",
 		"sources": [ "Champions of Balance" ],
@@ -390,6 +399,7 @@
 			"**Curse of Decay:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target takes 1 point of Con damage per day and ages at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)."
 		]
 	},
+	"linnorm_death_curse_cairn": { "copyof": "cairn_linnorm_death_curse" },
 	"crag_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Crag",
 		"sources": [ "Advanced Class Guide" ],
@@ -401,6 +411,7 @@
 			"**Curse of Fire:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to fire."
 		]
 	},
+	"linnorm_death_curse_crag": { "copyof": "crag_linnorm_death_curse" },
 	"fjord_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Fjord",
 		"sources": [ "Advanced Class Guide" ],
@@ -412,6 +423,7 @@
 			"**Curse of Drowning:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is sickened whenever it holds its breath."
 		]
 	},
+	"linnorm_death_curse_fjord": { "copyof": "fjord_linnorm_death_curse" },
 	"ice_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Ice",
 		"sources": [ "Advanced Class Guide" ],
@@ -423,6 +435,7 @@
 			"**Curse of Frost:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to cold."
 		]
 	},
+	"linnorm_death_curse_ice": { "copyof": "ice_linnorm_death_curse" },
 	"taiga_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Taiga",
 		"sources": [ "Advanced Class Guide" ],
@@ -434,6 +447,7 @@
 			"**Curse of Electricity:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to electricity."
 		]
 	},
+	"linnorm_death_curse_taiga": { "copyof": "taiga_linnorm_death_curse" },
 	"tarn_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Tarn",
 		"sources": [ "Advanced Class Guide" ],
@@ -445,6 +459,7 @@
 			"**Curse of Death:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target is no longer affected by healing spells and can't heal damage naturally by resting."
 		]
 	},
+	"linnorm_death_curse_tarn": { "copyof": "tarn_linnorm_death_curse" },
 	"tor_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Tor",
 		"sources": [ "Advanced Class Guide" ],
@@ -456,6 +471,7 @@
 			"**Curse of Boiling Blood:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to fire and is permanently staggered from the pain of its boiling blood (this is a pain effect)."
 		]
 	},
+	"linnorm_death_curse_tor": { "copyof": "tor_linnorm_death_curse" },
 	"mighty_swing": {
 		"name": "Mighty Swing",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -749,6 +765,7 @@
 			"While raging, the barbarian is surrounded by an aura of howling winds. Creatures attempting to cast spells while adjacent to the barbarian must succeed at a concentration check (DC 15 + spell level), and ranged attack rolls against the barbarian take a -4 penalty. Creatures smaller than the barbarian that attack the barbarian in melee with a natural weapon or touch attack must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) or the attack fails and the creature is flung back 5 feet and knocked prone. The barbarian can suspend this aura as a free action."
 		]
 	},
+	"air_totem_greater": { "copyof": "greater_air_totem" },
 	"ancestor_totem": {
 		"name": "Ancestor Totem",
 		"sources": [ "Wilderness Origins" ],
@@ -767,6 +784,7 @@
 			"The barbarian's insight bonus to her chosen skill increases to +6. Once per rage, she can spend one round of rage as an immediate action to reroll a skill check in the chosen skill. She must take the result of the second roll, even if it is lower. A barbarian must have the ancestor totem rage power and be at least 10th level to select this rage power."
 		]
 	},
+	"ancestor_totem_greater": { "copyof": "greater_ancestor_totem" },
 	"lesser_ancestor_totem": {
 		"name": "Ancestor Totem, Lesser",
 		"sources": [ "Wilderness Origins" ],
@@ -776,6 +794,7 @@
 			"When she enters a rage, the barbarian selects a skill of her choice, which must be one she can use while raging, such as Climb or Intimidate. While raging, she gains a +2 insight bonus to the chosen skill."
 		]
 	},
+	"ancestor_totem_lesser": { "copyof": "lesser_ancestor_totem" },
 	"atavism_totem": {
 		"name": "Atavism Totem",
 		"sources": [ "Villain Codex" ],
@@ -794,6 +813,7 @@
 			"The barbarian gains trample. She must be at least 10th level to select this rage power."
 		]
 	},
+	"atavism_totem_greater": { "copyof": "greater_atavism_totem" },
 	"lesser_atavism_totem": {
 		"name": "Atavism Totem, Lesser",
 		"sources": [ "Villain Codex" ],
@@ -803,6 +823,7 @@
 			"The barbarian gains a bite attack; if she already has a bite attack, it deals damage as if the barbarian were one size larger."
 		]
 	},
+	"atavism_totem_lesser": { "copyof": "lesser_atavism_totem" },
 	"beast_totem": {
 		"name": "Beast Totem",
 		"sources": [ "Advanced Player's Guide" ],
@@ -821,6 +842,7 @@
 			"While raging, the barbarian gains the pounce special ability, allowing her to make a full attack at the end of a charge. In addition, the damage from her claws increases to 1d8 (1d6 if Small) and the claws deal &times;3 damage on a critical hit. A barbarian must have the beast totem rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
 		]
 	},
+	"beast_totem_greater": { "copyof": "greater_beast_totem" },
 	"lesser_beast_totem": {
 		"name": "Beast Totem, Lesser",
 		"sources": [ "Advanced Player's Guide" ],
@@ -830,6 +852,7 @@
 			"While raging, the barbarian gains two claw attacks. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. The claws deal 1d6 points of slashing damage (1d4 if Small) plus the barbarian's Strength modifier."
 		]
 	},
+	"beast_totem_lesser": { "copyof": "lesser_beast_totem" },
 	"celestial_totem": {
 		"name": "Celestial Totem",
 		"sources": [ "Champions of Purity" ],
@@ -848,6 +871,7 @@
 			"While raging, the barbarian gains spell resistance equal to 11 + the barbarian's class level against spells with the evil descriptor. She also gains a +2 bonus on all saving throws against spells and effects from evil creatures. A barbarian must have the celestial totem rage power and be at least 12th level to select this rage power."
 		]
 	},
+	"celestial_totem_greater": { "copyof": "greater_celestial_totem" },
 	"lesser_celestial_totem": {
 		"name": "Celestial Totem, Lesser",
 		"sources": [ "Champions of Purity" ],
@@ -857,6 +881,7 @@
 			"While raging, the barbarian benefits from increased magical healing. Whenever she is subject to a spell that cures hit point damage, she heals 1 additional point of damage per caster level. In the case of non-spell healing effects (such as channeled energy or lay on hands), she heals a number of additional points equal to the class level of the character performing the magical healing. This does not affect fast healing or regeneration."
 		]
 	},
+	"celestial_totem_lesser": { "copyof": "lesser_celestial_totem" },
 	"chaos_totem": {
 		"name": "Chaos Totem",
 		"sources": [ "Advanced Player's Guide" ],
@@ -875,6 +900,7 @@
 			"While raging, the barbarian gains DR/lawful equal to 1/2 her barbarian level. Her weapons and natural weapons are considered chaotic for the purpose of overcoming damage reduction. A barbarian must have the chaos totem rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
 		]
 	},
+	"chaos_totem_greater": { "copyof": "greater_chaos_totem" },
 	"lesser_chaos_totem": {
 		"name": "Chaos Totem, Lesser",
 		"sources": [ "Advanced Player's Guide" ],
@@ -884,6 +910,7 @@
 			"While raging, the barbarian gains a +1 deflection bonus to AC against the attacks of lawful creatures and a +1 resistance bonus on saving throws against confusion, insanity, polymorph, and effects with the lawful descriptor. This bonus increases by +1 for each chaos totem rage power she possesses."
 		]
 	},
+	"chaos_totem_lesser": { "copyof": "lesser_chaos_totem" },
 	"cult_totem": {
 		"name": "Cult Totem",
 		"sources": [ "Horror Adventures" ],
@@ -902,6 +929,7 @@
 			"While the barbarian is raging, when she takes hit point damage that would render her dying or dead, she remains conscious and raging until the end of her next turn after taking that damage, though she is disabled during that turn. She becomes dying or dead at the end of her next turn as normal for her current hit point total. This ability has no effect if the barbarian dies from a cause other than hit point damage, such as from a death effect or if her Constitution damage exceeds her Constitution score. A barbarian must be at least 10th level and have the lesser cult totem and cult totem rage powers to select this rage power."
 		]
 	},
+	"cult_totem_greater": { "copyof": "greater_cult_totem" },
 	"lesser_cult_totem": {
 		"name": "Cult Totem, Lesser",
 		"sources": [ "Horror Adventures" ],
@@ -911,6 +939,7 @@
 			"While the barbarian is raging, any morale bonuses or bonuses for flanking she gains on attacks rolls are added to her damage rolls instead of her attack rolls. They are still morale bonuses, and they don't stack with other morale bonuses on damage rolls."
 		]
 	},
+	"cult_totem_lesser": { "copyof": "lesser_cult_totem" },
 	"daemon_totem": {
 		"name": "Daemon Totem",
 		"sources": [ "Horror Adventures" ],
@@ -929,6 +958,7 @@
 			"If the barbarian kills an intelligent creature with a CR equal to at least half her character level while raging, she heals 5 hit points. If she is already at her maximum number of hit points, she instead gains 5 temporary hit points, which don't stack if she kills multiple creatures. A barbarian must be at least 10th level and have the lesser daemon totem and daemon totem rage powers to select this rage power."
 		]
 	},
+	"daemon_totem_greater": { "copyof": "greater_daemon_totem" },
 	"lesser_daemon_totem": {
 		"name": "Daemon Totem, Lesser",
 		"sources": [ "Horror Adventures" ],
@@ -938,6 +968,7 @@
 			"While raging, the barbarian gains a +2 bonus on saving throws against acid damage, death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the barbarian has, excluding this one."
 		]
 	},
+	"daemon_totem_lesser": { "copyof": "lesser_daemon_totem" },
 	"dragon_totem": {
 		"name": "Dragon Totem",
 		"sources": [ "Ultimate Combat" ],
@@ -983,6 +1014,7 @@
 			"While raging, the barbarian's skin becomes as hard as stone. If the barbarian is hit with a manufactured weapon while raging, the weapon takes an amount of damage equal to half that dealt to the barbarian (ignoring damage reduction)."
 		]
 	},
+	"earth_totem_greater": { "copyof": "greater_earth_totem" },
 	"lesser_elemental_totem": {
 		"name": "Elemental Totem, Lesser",
 		"sources": [ "Blood of the Elements" ],
@@ -992,6 +1024,7 @@
 			"The barbarian selects one elemental type (air, earth, fire, or water). Once selected, this choice cannot be changed. While raging, the barbarian gains a +1 bonus on saving throws against spells with the selected elemental descriptor. This bonus increases by 1 at 4th level and every 4 levels thereafter, to a maximum of +6 at 20th level. The barbarian gains access to the elemental totem rage power matching the element she selected. To select a standard elemental totem power, the barbarian must be at least 6th level and must have selected the appropriate element when she gained the lesser elemental totem rage power. In order to gain the greater elemental totem power, she must be 10th level and have already selected the standard elemental totem of that type."
 		]
 	},
+	"elemental_totem_lesser": { "copyof": "lesser_elemental_totem" },
 	"fiend_totem": {
 		"name": "Fiend Totem",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1010,6 +1043,7 @@
 			"While raging, the barbarian is surrounded by an aura of menace. Good creatures adjacent to the barbarian are shaken and take 2d6 points of slashing damage at the beginning of the barbarian's turn as dozens of small cuts open across their flesh. Neutral creatures that are adjacent to the barbarian are shaken, but do not take any damage. Evil creatures are unaffected. A barbarian must have the fiend totem rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
 		]
 	},
+	"fiend_totem_greater": { "copyof": "greater_fiend_totem" },
 	"lesser_fiend_totem": {
 		"name": "Fiend Totem, Lesser",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1019,6 +1053,7 @@
 			"While raging, the barbarian grows a pair of large horns, gaining a gore attack. This attack is a primary attack (unless she is also attacking with weapons, in which case it is a secondary attack) and is made at the barbarian's full base attack bonus (-5 if it is a secondary attack). The gore attack deals 1d8 points of piercing damage (1d6 if Small) plus the barbarian's Strength modifier (1/2 if it is a secondary attack)."
 		]
 	},
+	"fiend_totem_lesser": { "copyof": "lesser_fiend_totem" },
 	"fire_totem": {
 		"name": "Fire Totem",
 		"sources": [ "Blood of the Elements" ],
@@ -1037,6 +1072,7 @@
 			"While raging, the barbarian can envelope herself in a cloud of smoke that fills a 10-foot-radius sphere and follows her as she moves. Creatures in the affected area must succeed at Fortitude saves each round or [suffer the effects of breathing heavy smoke](rule/forest_fires_cr_6). The barbarian is immune to the smoke's effects, including vision obstruction. She can end this smoke as a free action, or it can be dispersed by wind in the same manner as a {spell/fog cloud} spell."
 		]
 	},
+	"fire_totem_greater": { "copyof": "greater_fire_totem" },
 	"hive_totem": {
 		"name": "Hive Totem",
 		"sources": [ "Ultimate Combat" ],
@@ -1082,6 +1118,7 @@
 			"While raging, the barbarian ignores the miss chance for concealment and treats total concealment as concealment. She must have the moon totem rage power and be at least 10th level to select this rage power."
 		]
 	},
+	"moon_totem_greater": { "copyof": "greater_moon_totem" },
 	"lesser_moon_totem": {
 		"name": "Moon Totem, Lesser",
 		"sources": [ "Wilderness Origins" ],
@@ -1091,6 +1128,7 @@
 			"While raging, the barbarian gains darkvision with a range of 30 feet. If the barbarian already has darkvision, the range of her darkvision increases by 30 feet while she is raging."
 		]
 	},
+	"moon_totem_lesser": { "copyof": "lesser_moon_totem" },
 	"psychopomp_totem": {
 		"name": "Psychopomp Totem",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
@@ -1109,6 +1147,7 @@
 			"While raging, the barbarian can detect and locate undead creatures within 30 feet, just as if it had the blindsight ability, and any weapons she wields are treated as if they had the ghost touch special ability. A barbarian must have the psychopomp totem rage power and be at least 10th level to select this rage power."
 		]
 	},
+	"psychopomp_totem_greater": { "copyof": "greater_psychopomp_totem" },
 	"lesser_psychopomp_totem": {
 		"name": "Psychopomp Totem, Lesser",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
@@ -1118,6 +1157,7 @@
 			"While raging, the barbarian gains a +1 deflection bonus to AC against the attacks of undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This bonus increases by 1 for each psychopomp totem rage power she has, excepting this one."
 		]
 	},
+	"psychopomp_totem_lesser": { "copyof": "lesser_psychopomp_totem" },
 	"spire_totem": {
 		"name": "Spire Totem",
 		"sources": [ "Wilderness Origins" ],
@@ -1136,6 +1176,7 @@
 			"While the barbarian is raging, all allies within 30 feet gain a +2 morale bonus on Will saves. When attempting a Will save against a fear effect, all allies within this area can roll twice and use the better result. A barbarian must have the spire totem rage power and be at least 10th level to select this rage power."
 		]
 	},
+	"spire_totem_greater": { "copyof": "greater_spire_totem" },
 	"lesser_spire_totem": {
 		"name": "Spire Totem, Lesser",
 		"sources": [ "Wilderness Origins" ],
@@ -1145,6 +1186,7 @@
 			"While raging, the barbarian gains a +1 morale bonus on attacks against any creature that has targeted one of her allies with an attack or a harmful spell within the last round."
 		]
 	},
+	"spire_totem_lesser": { "copyof": "lesser_spire_totem" },
 	"spirit_totem": {
 		"name": "Spirit Totem",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1163,6 +1205,7 @@
 			"While raging, the spirits that surround the barbarian become dangerous to any enemy adjacent to the barbarian. Living enemies adjacent to the barbarian at the start of her turn take 1d8 points of negative energy damage. In addition, the spirit wisps can now attack foes that are up to 15 feet away from the barbarian and the slam attack deals 1d6 points of negative energy damage. A barbarian must have the spirit totem rage power and be at least 10th level to select this rage power."
 		]
 	},
+	"spirit_totem_greater": { "copyof": "greater_spirit_totem" },
 	"lesser_spirit_totem": {
 		"name": "Spirit Totem, Lesser",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1172,6 +1215,7 @@
 			"While raging, the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian's full base attack bonus, plus the barbarian's Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian's Charisma modifier."
 		]
 	},
+	"spirit_totem_lesser": { "copyof": "lesser_spirit_totem" },
 	"sun_totem": {
 		"name": "Sun Totem",
 		"sources": [ "Qadira, Jewel of the East" ],
@@ -1190,6 +1234,7 @@
 			"The barbarian takes on aspects of the sun. She gains fire resistance 20 when raging. While raging, she is surrounded by a halo of flame that deals 1d6 points of fire damage to anyone that hits her with a touch attack or unarmed attack or succeeds at a bull rush, drag, or grapple combat maneuver against her. Her unarmed strikes and attacks with natural weapons deal 1d6 additional points of fire damage. A barbarian must have the sun totem rage power and be at least 10th level to select this rage power."
 		]
 	},
+	"sun_totem_greater": { "copyof": "greater_sun_totem" },
 	"lesser_sun_totem": {
 		"name": "Sun Totem, Lesser",
 		"sources": [ "Qadira, Jewel of the East" ],
@@ -1199,6 +1244,7 @@
 			"The sun's fire invigorates the barbarian. She is immune to environmental effects from heat and severe heat, and she gains a +2 bonus on Fortitude saves against the effects of extreme heat. In addition, the barbarian gains fire resistance 5 while raging."
 		]
 	},
+	"sun_totem_lesser": { "copyof": "lesser_sun_totem" },
 	"tyrant_totem": {
 		"name": "Tyrant Totem",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1217,6 +1263,7 @@
 			"While raging, the barbarian gains {umr/swallow whole} as per the universal monster rule. A barbarian must be at least 12th level to choose this rage power."
 		]
 	},
+	"tyrant_totem_greater": { "copyof": "greater_tyrant_totem" },
 	"lesser_tyrant_totem": {
 		"name": "Tyrant Totem, Lesser",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1226,6 +1273,7 @@
 			"While raging, the barbarian's bite attack deals damage as if the barbarian were one size larger than her actual size. The barbarian must have the animal fury rage power or a natural bite attack to choose this rage power."
 		]
 	},
+	"tyrant_totem_lesser": { "copyof": "lesser_tyrant_totem" },
 	"water_totem": {
 		"name": "Water Totem",
 		"sources": [ "Blood of the Elements" ],
@@ -1244,6 +1292,7 @@
 			"While raging, the barbarian gains tremorsense to a range of 30 feet while underwater. She can attack and move underwater as if affected by {spell/freedom of movement}. You must have the Lesser Elemental rage power before you can select this."
 		]
 	},
+	"water_totem_greater": { "copyof": "greater_water_totem" },
 	"world_serpent_spirit": {
 		"name": "World Serpent Spirit",
 		"sources": [ "Ultimate Combat" ],
@@ -1325,6 +1374,7 @@
 			"Once per rage, a barbarian can reduce damage by half from a single attack against which she has energy resistance (halve the damage, then apply resistance). A barbarian must have the energy resistance rage power to select this rage power. A barbarian must be at least 8th level to select this rage power."
 		]
 	},
+	"energy_resistance_greater": { "copyof": "greater_energy_resistance" },
 	"fearless_rage": {
 		"name": "Fearless Rage",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1388,6 +1438,7 @@
 			"When using the guarded life rage power, 1 additional hit point of lethal damage per barbarian level is converted to nonlethal damage. A barbarian must have the guarded life rage power and be at least 6th level before selecting this rage power."
 		]
 	},
+	"guarded_life_greater": { "copyof": "greater_guarded_life" },
 	"guarded_stance": {
 		"name": "Guarded Stance",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1550,6 +1601,7 @@
 			"While raging, the barbarian gains resistance 5 to acid, cold, and fire."
 		]
 	},
+	"abyssal_blood_greater": { "copyof": "greater_abyssal_blood" },
 	"lesser_abyssal_blood": {
 		"name": "Abyssal Blood, Lesser",
 		"sources": [ "Advanced Class Guide" ],
@@ -1559,6 +1611,7 @@
 			"While raging, the barbarian gains two claw attacks. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier."
 		]
 	},
+	"abyssal_blood_lesser": { "copyof": "lesser_abyssal_blood" },
 	"celestial_blood": {
 		"name": "Celestial Blood",
 		"sources": [ "Advanced Class Guide" ],
@@ -1577,6 +1630,7 @@
 			"Once per rage, the barbarian can reroll one ability check, skill check, or saving throw she just made. She must take the second result, even if it's lower. She must decide to use this ability after the die is rolled but before results are revealed."
 		]
 	},
+	"celestial_blood_greater": { "copyof": "greater_celestial_blood" },
 	"lesser_celestial_blood": {
 		"name": "Celestial Blood, Lesser",
 		"sources": [ "Advanced Class Guide" ],
@@ -1586,6 +1640,7 @@
 			"While raging, the barbarian's melee attacks are considered good-aligned weapons for the purpose of bypassing damage reduction. Furthermore, the barbarian deals an additional 1d6 points of damage when she damages an evil outsider with a melee attack."
 		]
 	},
+	"celestial_blood_lesser": { "copyof": "lesser_celestial_blood" },
 	"draconic_blood": {
 		"name": "Draconic Blood",
 		"sources": [ "Advanced Class Guide" ],
@@ -1604,6 +1659,7 @@
 			"While raging, the barbarian gains a breath weapon that she can use once per day. For every 2 barbarian levels, this breath weapon deals 1d6 points of damage of the energy type she choose for the draconic blood power, either in a 30-foot cone (if cold or fire) or a 60-foot line (if acid or electricity). Those caught in the area of the breath can attempt a Reflex saving throw for half damage. The DC of this save is equal to 10 + 1/2 the barbarian's level + her Constitution modifier."
 		]
 	},
+	"draconic_blood_greater": { "copyof": "greater_draconic_blood" },
 	"lesser_draconic_blood": {
 		"name": "Draconic Blood, Lesser",
 		"sources": [ "Advanced Class Guide" ],
@@ -1613,6 +1669,7 @@
 			"While raging, the barbarian gains two claw attacks. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier."
 		]
 	},
+	"draconic_blood_lesser": { "copyof": "lesser_draconic_blood" },
 	"elemental_blood": {
 		"name": "Elemental Blood",
 		"sources": [ "Advanced Class Guide" ],
@@ -1631,6 +1688,7 @@
 			"While raging, the barbarian gains a special movement type or bonus based on her chosen element: acid grants a burrow speed of 30 feet, cold grants a swim speed of 60 feet, fire grants an increase of 30 feet to her base land speed, and electricity grants a fly speed of 60 feet (good maneuverability)."
 		]
 	},
+	"elemental_blood_greater": { "copyof": "greater_elemental_blood" },
 	"lesser_elemental_blood": {
 		"name": "Elemental Blood, Lesser",
 		"sources": [ "Advanced Class Guide" ],
@@ -1640,6 +1698,7 @@
 			"Choose an energy type: acid, cold, fire, or electricity. While raging, as a swift action up to three times a day, the barbarian can imbue her melee attacks with elemental energy, dealing an additional 1d6 points of damage of the chosen energy type for 1 round."
 		]
 	},
+	"elemental_blood_lesser": { "copyof": "lesser_elemental_blood" },
 	"fey_blood": {
 		"name": "Fey Blood",
 		"sources": [ "Advanced Class Guide" ],
@@ -1658,6 +1717,7 @@
 			"While raging, as long as the barbarian moves at least 10 feet, she gain the effects of {spell/blur} for 1 round."
 		]
 	},
+	"fey_blood_greater": { "copyof": "greater_fey_blood" },
 	"lesser_fey_blood": {
 		"name": "Fey Blood, Lesser",
 		"sources": [ "Advanced Class Guide" ],
@@ -1667,6 +1727,7 @@
 			"While raging, each time the barbarian confirms a critical hit, the target must succeed at a Will saving throw (DC = 10 + 1/2 the barbarian's level + her Constitution modifier) or be confused for one round. This is a mind-affecting compulsion effect."
 		]
 	},
+	"fey_blood_lesser": { "copyof": "lesser_fey_blood" },
 	"infernal_blood": {
 		"name": "Infernal Blood",
 		"sources": [ "Advanced Class Guide" ],
@@ -1685,6 +1746,7 @@
 			"While raging, the barbarian gains a +4 bonus against enchantment and fear effects."
 		]
 	},
+	"infernal_blood_greater": { "copyof": "greater_infernal_blood" },
 	"lesser_infernal_blood": {
 		"name": "Infernal Blood, Lesser",
 		"sources": [ "Advanced Class Guide" ],
@@ -1694,6 +1756,7 @@
 			"While raging, up to three times a day as a swift action, the barbarian can infuse her attacks with hellfire for 1 round. During this time, all of her melee attacks gain the {magic-enhancement/flaming} magic weapon special ability."
 		]
 	},
+	"infernal_blood_lesser": { "copyof": "lesser_infernal_blood" },
 	"undead_blood": {
 		"name": "Undead Blood",
 		"sources": [ "Advanced Class Guide" ],
@@ -1712,6 +1775,7 @@
 			"While raging, the barbarian gains cold resistance 10, as well as DR 10/- against nonlethal damage."
 		]
 	},
+	"undead_blood_greater": { "copyof": "greater_undead_blood" },
 	"lesser_undead_blood": {
 		"name": "Undead Blood, Lesser",
 		"sources": [ "Advanced Class Guide" ],
@@ -1721,6 +1785,7 @@
 			"While raging, when the barbarian hits a creature with a charge attack, the creature she hit becomes shaken for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition."
 		]
 	},
+	"undead_blood_lesser": { "copyof": "lesser_undead_blood" },
 	"bestial_climber": {
 		"name": "Bestial Climber",
 		"sources": [ "Ultimate Combat" ],
@@ -1820,6 +1885,7 @@
 			"Whenever the barbarian rages, the light level within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability. A barbarian must be at least 10th level and have the eclipsing rage power to choose this rage power."
 		]
 	},
+	"eclipsing_rage_greater": { "copyof": "greater_eclipsing_rage" },
 	"energy_eruption": {
 		"name": "Energy Eruption",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1847,6 +1913,7 @@
 			"While the barbarian is raging, her animal companion shares the benefits of the barbarian's rage powers that are constant in effect. It gains no benefit from rage powers that require actions to activate, even if they are free actions. A barbarian must have the ferocious beast rage power and be at least 8th level to select this rage power."
 		]
 	},
+	"ferocious_beast_greater": { "copyof": "greater_ferocious_beast" },
 	"ferocious_mount": {
 		"name": "Ferocious Mount",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1865,6 +1932,7 @@
 			"While raging and mounted, the barbarian's mount gains the benefits of any rage powers that are constant in effect when the barbarian is raging. It does not gain the benefit of any rage powers that require actions to activate, even if they are free actions. A barbarian must have the ferocious mount rage power to select this rage power. A barbarian must be at least 8th level to select this rage power."
 		]
 	},
+	"ferocious_mount_greater": { "copyof": "greater_ferocious_mount" },
 	"flight_response": {
 		"name": "Flight Response",
 		"sources": [ "Horror Adventures" ],
@@ -2117,6 +2185,7 @@
 			"When the barbarian is using the suffocating grip rage power, the grappled creature cannot hold its breath and immediately begins suffocating. A barbarian must be at least 12th level and have the suffocating grip rage power to select this rage power."
 		]
 	},
+	"suffocating_grip_greater": { "copyof": "greater_suffocating_grip" },
 	"swift_foot": {
 		"name": "Swift Foot",
 		"sources": [ "PRPG Core Rulebook" ],

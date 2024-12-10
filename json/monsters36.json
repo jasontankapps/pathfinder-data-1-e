@@ -893,6 +893,7 @@
 			"Ningyos measure approximately 2 to 2-1/2 feet long from head to tail, and weigh 6 to 9 pounds."
 		]
 	},
+	"ningyo_undead": { "copyof": "ningyo_undead_ningyo" },
 	"undead_ningyo": { "copyof": "ningyo_undead_ningyo" },
 	"nirento": {
 		"name": "Nirento",
@@ -994,6 +995,7 @@
 			"Elder nirentos are individuals that have lived for well over a century, and have absorbed nutrients from countless victims over the years. A typical nirento is 15 feet tall and weighs 1,000 pounds, while elder nirentos can reach heights of up to 25 feet and weigh over a ton."
 		]
 	},
+	"nirento_elder": { "copyof": "nirento_elder_nirento" },
 	"elder_nirento": { "copyof": "nirento_elder_nirento" },
 	"nisid": {
 		"name": "Nisid",
@@ -1981,6 +1983,7 @@
 		]
 	},
 	"giant_owl": { "copyof": "owl_giant_owl" },
+	"owl_giant": { "copyof": "owl_giant_owl" },
 	"owl_great_horned_owl": {
 		"name": "Owl, Great Horned Owl",
 		"sources": [ "Bestiary 3" ],
@@ -2027,6 +2030,7 @@
 			"Great horned owls primarily hunt at night, locating prey through their excellent hearing. Their diet consists of rodents supplemented by smaller birds and rabbits."
 		]
 	},
+	"owl_great_horned": { "copyof": "owl_great_horned_owl" },
 	"great_horned_owl": { "copyof": "owl_great_horned_owl" },
 	"owlbear": {
 		"name": "Owlbear",
@@ -3208,7 +3212,7 @@
 			"A peuchen measures around 12 feet long and 1 foot in diameter at its thickest point, with a wingspan of 8 feet; it weighs nearly 250 pounds."
 		]
 	},
-	"phantom_armor_giant_phantom_armor": {
+	"phantom_armor_giant": {
 		"name": "Phantom Armor, Giant Phantom Armor",
 		"sources": [
 			"Bestiary 4",
@@ -3265,8 +3269,8 @@
 			"**Family:** {family/Phantom Armor}"
 		]
 	},
-	"giant_phantom_armor": { "copyof": "phantom_armor_giant_phantom_armor" },
-	"phantom_armor_guardian_phantom_armor": {
+	"giant_phantom_armor": { "copyof": "phantom_armor_giant" },
+	"phantom_armor_guardian": {
 		"name": "Phantom Armor, Guardian Phantom Armor",
 		"sources": [
 			"Bestiary 4",
@@ -3322,7 +3326,7 @@
 			"**Family:** {family/Phantom Armor}"
 		]
 	},
-	"guardian_phantom_armor": { "copyof": "phantom_armor_guardian_phantom_armor" },
+	"guardian_phantom_armor": { "copyof": "phantom_armor_guardian" },
 	"phantom_armor_hollow_helm": {
 		"name": "Phantom Armor, Hollow Helm",
 		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
@@ -4065,6 +4069,7 @@
 			"See also: {monster/Grim Reaper}"
 		]
 	},
+	"reaper_grim": { "copyof": "reaper_grim_reaper" },
 	"reaper_minor_reaper": {
 		"name": "Reaper, Minor Reaper",
 		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
@@ -4138,6 +4143,7 @@
 			"See also: {monster/Lesser Death}"
 		]
 	},
+	"reaper_minor": { "copyof": "reaper_minor_reaper" },
 	"minor_reaper": { "copyof": "reaper_minor_reaper" },
 	"rat_king": {
 		"name": "Rat King",
@@ -4250,6 +4256,7 @@
 		]
 	},
 	"dire_rat": { "copyof": "rat_dire_rat" },
+	"rat_dire": { "copyof": "rat_dire_rat" },
 	"rat_rat_swarm": {
 		"name": "Rat, Rat Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],

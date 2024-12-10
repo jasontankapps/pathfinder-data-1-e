@@ -922,6 +922,7 @@
 		]
 	},
 	"great_cyclops": { "copyof": "cyclops_great_cyclops" },
+	"cyclops_great": { "copyof": "cyclops_great_cyclops" },
 	"cyclops_kabandha": {
 		"name": "Cyclops, Kabandha",
 		"sources": [ "Bestiary 5" ],
@@ -1045,6 +1046,7 @@
 		]
 	},
 	"oracular_cyclops": { "copyof": "cyclops_oracular_cyclops" },
+	"cyclops_oracular": { "copyof": "cyclops_oracular_cyclops" },
 	"cyclops_savage_great_cyclops": {
 		"name": "Cyclops, Savage Great Cyclops",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
@@ -1103,6 +1105,7 @@
 			"In the jungles of the south, great cyclopes roam. Some brutes are especially dangerous, raining down furious blows with their huge greatclubs, and stunning and smashing foes in a blood-red rage. The roaring cries of savage great cyclopes can be heard echoing through the jungles as a warning for all other creatures to flee before its wrath."
 		]
 	},
+	"cyclops_savage_great": { "copyof": "cyclops_savage_great_cyclops" },
 	"savage_great_cyclops": { "copyof": "cyclops_savage_great_cyclops" },
 	"cynosoma": {
 		"name": "Cynosoma",

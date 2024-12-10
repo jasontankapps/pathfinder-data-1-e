@@ -2170,6 +2170,7 @@
 		]
 	},
 	"giant_mosquito": { "copyof": "mosquito_giant_mosquito" },
+	"mosquito_giant": { "copyof": "mosquito_giant_mosquito" },
 	"mosquito_mosquito_swarm": {
 		"name": "Mosquito, Mosquito Swarm",
 		"sources": [

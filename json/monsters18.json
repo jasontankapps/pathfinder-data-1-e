@@ -1052,6 +1052,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"octopus_giant": { "copyof": "octopus_giant_octopus" },
 	"giant_octopus": { "copyof": "octopus_giant_octopus" },
 	"ogre": {
 		"name": "Ogre",
@@ -2726,6 +2727,7 @@
 			"**Family:** {family/Oni}"
 		]
 	},
+	"oni_spirit": { "copyof": "oni_spirit_oni" },
 	"spirit_oni": { "copyof": "oni_spirit_oni" },
 	"oni_void_yai": {
 		"name": "Oni, Void Yai",

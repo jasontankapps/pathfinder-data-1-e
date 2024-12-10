@@ -541,7 +541,6 @@
 	},
 	"buoyant_medium_heavy_armor": {
 		"name": "Buoyant (medium/heavy armor)",
-		"sources": [ "Magical Marketplace" ],
 		"copyof": "buoyant_light_armor"
 	},
 	"buoyant_medium_or_heavy_armor": {
@@ -1485,6 +1484,10 @@
 		"name": "Improved Aquadynamic",
 		"copyof": "aquadynamic"
 	},
+	"aquadynamic_improved": {
+		"name": "Improved Aquadynamic",
+		"copyof": "aquadynamic"
+	},
 	"radiant_flight": {
 		"name": "Radiant Flight",
 		"sources": [ "Armor Master's Handbook" ],
@@ -1763,6 +1766,10 @@
 		]
 	},
 	"greater_aquadynamic": {
+		"name": "Greater Aquadynamic",
+		"copyof": "aquadynamic"
+	},
+	"aquadynamic_greater": {
 		"name": "Greater Aquadynamic",
 		"copyof": "aquadynamic"
 	},
@@ -2113,7 +2120,6 @@
 	},
 	"buoyant_shield": {
 		"name": "Buoyant (shield)",
-		"sources": [ "Magical Marketplace" ],
 		"copyof": "buoyant_light_armor"
 	},
 	"animated": {

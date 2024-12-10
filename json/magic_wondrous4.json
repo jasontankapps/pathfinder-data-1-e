@@ -2292,18 +2292,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, create food and water; **Cost** 1,000 gp (Type I), 2,000 gp (Type II), 3,750 gp (Type III), 7,500 gp (Type IV)"
 		]
 	},
+	"satchel_of_plentiful_feed_type_i": { "copyof": "satchel_of_plentiful_feed_type_1" },
 	"satchel_of_plentiful_feed_type_2": {
 		"name": "Satchel of Plentiful Feed (Type II)",
 		"copyof": "satchel_of_plentiful_feed_type_1"
 	},
+	"satchel_of_plentiful_feed_type_ii": { "copyof": "satchel_of_plentiful_feed_type_2" },
 	"satchel_of_plentiful_feed_type_3": {
 		"name": "Satchel of Plentiful Feed (Type III)",
 		"copyof": "satchel_of_plentiful_feed_type_1"
 	},
+	"satchel_of_plentiful_feed_type_iii": { "copyof": "satchel_of_plentiful_feed_type_3" },
 	"satchel_of_plentiful_feed_type_4": {
 		"name": "Satchel of Plentiful Feed (Type IV)",
 		"copyof": "satchel_of_plentiful_feed_type_1"
 	},
+	"satchel_of_plentiful_feed_type_iv": { "copyof": "satchel_of_plentiful_feed_type_4" },
 	"wayfinder_shining": {
 		"name": "Wayfinder, Shining",
 		"sources": [
@@ -3215,6 +3219,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, secret chest; **Cost** 1,250 gp (Type I), 2,500 gp (Type II), 3,700 gp (Type III), 5,000 gp (Type IV)"
 		]
 	},
+	"bag_of_holding_type_i": { "copyof": "bag_of_holding_type_1" },
 	"bag_of_holding": {
 		"name": "Bag of Holding",
 		"copyof": "bag_of_holding_type_1"
@@ -3223,14 +3228,17 @@
 		"name": "Bag of Holding (Type II)",
 		"copyof": "bag_of_holding_type_1"
 	},
+	"bag_of_holding_type_ii": { "copyof": "bag_of_holding_type_2" },
 	"bag_of_holding_type_3": {
 		"name": "Bag of Holding (Type III)",
 		"copyof": "bag_of_holding_type_1"
 	},
+	"bag_of_holding_type_iii": { "copyof": "bag_of_holding_type_3" },
 	"bag_of_holding_type_4": {
 		"name": "Bag of Holding (Type IV)",
 		"copyof": "bag_of_holding_type_1"
 	},
+	"bag_of_holding_type_iv": { "copyof": "bag_of_holding_type_4" },
 	"urgathoas_breath": {
 		"name": "Urgathoa's Breath",
 		"sources": [ "Villain Codex" ],

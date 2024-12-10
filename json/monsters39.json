@@ -295,6 +295,7 @@
 			"Elder sphinxes have little to no contact with other sphinxes. This only occurs when a younger, less powerful sphinx seeks out one of these magnificent specimens to plead for lost knowledge. When elder sphinxes do come into contact with one another, it is always a meeting of great purpose, typically on a matter of such importance that it requires them to share their ancient wisdom and unfathomable lore."
 		]
 	},
+	"sphinx_elder": { "copyof": "sphinx_elder_sphinx" },
 	"elder_sphinx": { "copyof": "sphinx_elder_sphinx" },
 	"sphinx_gynosphinx": {
 		"name": "Sphinx, Gynosphinx",
@@ -537,6 +538,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"spider_drain": { "copyof": "spider_drain_spider" },
 	"drain_spider": { "copyof": "spider_drain_spider" },
 	"spider_dream_spider": {
 		"name": "Spider, Dream Spider",
@@ -592,6 +594,7 @@
 			"Transplants from the Mwangi Expanse (where these spiders can grow to truly enormous proportions), dream spiders have become a significant but valuable infestation in Korvosa's Shingles, for the venom of one of these spiders can be distilled into the popular but dangerous drug known as {drug/shiver}."
 		]
 	},
+	"spider_dream": { "copyof": "spider_dream_spider" },
 	"dream_spider": { "copyof": "spider_dream_spider" },
 	"spider_giant_black_widow": {
 		"name": "Spider, Giant Black Widow",
@@ -695,6 +698,7 @@
 			"Giant crab spiders are dangerous ambush predators that live in dense forest vegetation. Though crab spiders are not web spinners, they are truly gifted climbers and use this talent to clamber up into places where they can observe wide areas from on high. Named for their curious scuttling walk and wide-legged stance, giant crab spiders are rarely larger than a typical adult halfling."
 		]
 	},
+	"spider_giant_crab": { "copyof": "spider_giant_crab_spider" },
 	"giant_crab_spider": { "copyof": "spider_giant_crab_spider" },
 	"spider_giant_spider": {
 		"name": "Spider, Giant Spider",
@@ -756,6 +760,7 @@
 			"| Goliath spider | 11 | Colossal | 14d8 |"
 		]
 	},
+	"spider_giant": { "copyof": "spider_giant_spider" },
 	"giant_spider": { "copyof": "spider_giant_spider" },
 	"spider_giant_tarantula": {
 		"name": "Spider, Giant Tarantula",
@@ -862,6 +867,7 @@
 			"Goliath spiders are giant hunting spiders that most often prey on large creatures such as giant scorpions, snakes, and younger dragons, but sometimes catch and paralyze smaller prey to eat later. Camouflaged by their hairs and coloration, they prowl atop the forest canopy, dropping upon unsuspecting creatures. Females often cannibalize their mates."
 		]
 	},
+	"spider_goliath": { "copyof": "spider_goliath_spider" },
 	"goliath_spider": { "copyof": "spider_goliath_spider" },
 	"spider_moon_spider": {
 		"name": "Spider, Moon Spider",
@@ -927,6 +933,7 @@
 			"Moon spiders do not speak any humanoid language, but communicate with each other in clicks and taps of their legs on the ground, and they can understand simple concepts in Common (which is useful when they're listening to prey)."
 		]
 	},
+	"spider_moon": { "copyof": "spider_moon_spider" },
 	"moon_spider": { "copyof": "spider_moon_spider" },
 	"spider_ogre_spider": {
 		"name": "Spider, Ogre Spider",
@@ -979,6 +986,7 @@
 			"Ogre spiders are brutal, terrifying hunters that spin tangled webs capable of encasing entire trees. So-named because the arrangement of its eyes and mandibles gives it a face unnervingly similar to that of an ogre as much as for their size, ogre spiders can fit into nooks and tunnels far more narrow than one might expect."
 		]
 	},
+	"spider_ogre": { "copyof": "spider_ogre_spider" },
 	"ogre_spider": { "copyof": "spider_ogre_spider" },
 	"spider_scarlet_spider": {
 		"name": "Spider, Scarlet Spider",
@@ -1036,6 +1044,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"spider_scarlet": { "copyof": "spider_scarlet_spider" },
 	"scarlet_spider": { "copyof": "spider_scarlet_spider" },
 	"spider_spider_swarm": {
 		"name": "Spider, Spider Swarm",
@@ -2267,6 +2276,7 @@
 		]
 	},
 	"canopy_troll": { "copyof": "troll_canopy_troll" },
+	"troll_canopy": { "copyof": "troll_canopy_troll" },
 	"troll_chimney_troll": {
 		"name": "Troll, Chimney Troll",
 		"sources": [
@@ -2336,6 +2346,7 @@
 		]
 	},
 	"chimney_troll": { "copyof": "troll_chimney_troll" },
+	"troll_chimney": { "copyof": "troll_chimney_troll" },
 	"troll_flood_troll": {
 		"name": "Troll, Flood Troll",
 		"sources": [
@@ -2418,6 +2429,7 @@
 		]
 	},
 	"flood_troll": { "copyof": "troll_flood_troll" },
+	"troll_flood": { "copyof": "troll_flood_troll" },
 	"troll_ice_troll": {
 		"name": "Troll, Ice Troll",
 		"sources": [
@@ -2481,6 +2493,7 @@
 		]
 	},
 	"ice_troll": { "copyof": "troll_ice_troll" },
+	"troll_ice": { "copyof": "troll_ice_troll" },
 	"troll_jotund_troll": {
 		"name": "Troll, Jotund Troll",
 		"sources": [
@@ -2548,6 +2561,7 @@
 		]
 	},
 	"jotund_troll": { "copyof": "troll_jotund_troll" },
+	"troll_jotund": { "copyof": "troll_jotund_troll" },
 	"troll_moss_troll": {
 		"name": "Troll, Moss Troll",
 		"sources": [
@@ -2616,6 +2630,7 @@
 		]
 	},
 	"moss_troll": { "copyof": "troll_moss_troll" },
+	"troll_moss": { "copyof": "troll_moss_troll" },
 	"troll_mountain_troll": {
 		"name": "Troll, Mountain Troll",
 		"sources": [
@@ -2682,6 +2697,7 @@
 		]
 	},
 	"mountain_troll": { "copyof": "troll_mountain_troll" },
+	"troll_mountain": { "copyof": "troll_mountain_troll" },
 	"troll_rock_troll": {
 		"name": "Troll, Rock Troll",
 		"sources": [
@@ -2742,6 +2758,7 @@
 		]
 	},
 	"rock_troll": { "copyof": "troll_rock_troll" },
+	"troll_rock": { "copyof": "troll_rock_troll" },
 	"troll_sewer_troll": {
 		"name": "Troll, Sewer Troll",
 		"sources": [
@@ -2807,6 +2824,7 @@
 		]
 	},
 	"sewer_troll": { "copyof": "troll_sewer_troll" },
+	"troll_sewer": { "copyof": "troll_sewer_troll" },
 	"troll_troll_acolyte": {
 		"name": "Troll, Troll Acolyte",
 		"sources": [
@@ -3792,6 +3810,7 @@
 		]
 	},
 	"giant_tick": { "copyof": "tick_giant_tick" },
+	"tick_giant": { "copyof": "tick_giant_tick" },
 	"tick_tick_swarm": {
 		"name": "Tick, Tick Swarm",
 		"sources": [ "Bestiary 2" ],
@@ -4084,6 +4103,7 @@
 	},
 	"dire_tiger_smilodon": { "copyof": "tiger_dire_tiger_smilodon" },
 	"dire_tiger": { "copyof": "tiger_dire_tiger_smilodon" },
+	"tiger_dire": { "copyof": "tiger_dire_tiger_smilodon" },
 	"tikbalang": {
 		"name": "Tikbalang",
 		"sources": [ "Bestiary 4" ],

@@ -205,7 +205,6 @@
 	},
 	"rod_of_the_thriceborn_normal": {
 		"name": "Rod of the Thriceborn (normal)",
-		"sources": [ "Legacy of the First World" ],
 		"copyof": "rod_of_the_thriceborn_lesser"
 	},
 	"normal_rod_of_the_thriceborn": {
@@ -378,7 +377,6 @@
 	},
 	"rod_of_giant_summoning_normal": {
 		"name": "Rod of Giant Summoning (normal)",
-		"sources": [ "Monster Summoner's Handbook" ],
 		"copyof": "rod_of_giant_summoning_lesser"
 	},
 	"normal_rod_of_giant_summoning": {
@@ -812,7 +810,6 @@
 	},
 	"recondite_rod_normal": {
 		"name": "Recondite Rod (normal)",
-		"sources": [ "Psychic Anthology" ],
 		"copyof": "recondite_rod_lesser"
 	},
 	"normal_recondite_rod": {
@@ -859,7 +856,6 @@
 	},
 	"rod_of_the_thriceborn_greater": {
 		"name": "Rod of the Thriceborn (greater)",
-		"sources": [ "Legacy of the First World" ],
 		"copyof": "rod_of_the_thriceborn_lesser"
 	},
 	"greater_rod_of_the_thriceborn": {
@@ -961,7 +957,6 @@
 	},
 	"rod_of_giant_summoning_greater": {
 		"name": "Rod of Giant Summoning (greater)",
-		"sources": [ "Monster Summoner's Handbook" ],
 		"copyof": "rod_of_giant_summoning_lesser"
 	},
 	"greater_rod_of_giant_summoning": {
@@ -1355,7 +1350,6 @@
 	},
 	"recondite_rod_greater": {
 		"name": "Recondite Rod (greater)",
-		"sources": [ "Psychic Anthology" ],
 		"copyof": "recondite_rod_lesser"
 	},
 	"greater_recondite_rod": {
@@ -2514,7 +2508,6 @@
 	},
 	"rod_of_metamagic_eclipsed_normal": {
 		"name": "Rod of Metamagic, Eclipsed (normal)",
-		"sources": [ "Blood of Shadows" ],
 		"copyof": "rod_of_metamagic_eclipsed_lesser"
 	},
 	"normal_eclipsed_rod_of_metamagic": {
@@ -2522,10 +2515,6 @@
 	},
 	"rod_of_metamagic_merciful_normal": {
 		"name": "Rod of Metamagic, Merciful (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_merciful_lesser"
 	},
 	"normal_merciful_rod_of_metamagic": {
@@ -2533,7 +2522,6 @@
 	},
 	"rod_of_metamagic_murky_normal": {
 		"name": "Rod of Metamagic, Murky (normal)",
-		"sources": [ "Aquatic Adventures" ],
 		"copyof": "rod_of_metamagic_murky_lesser"
 	},
 	"normal_murky_rod_of_metamagic": {
@@ -2541,7 +2529,6 @@
 	},
 	"rod_of_metamagic_steam_normal": {
 		"name": "Rod of Metamagic, Steam (normal)",
-		"sources": [ "Aquatic Adventures" ],
 		"copyof": "rod_of_metamagic_steam_lesser"
 	},
 	"normal_steam_rod_of_metamagic": {
@@ -2801,7 +2788,6 @@
 	},
 	"rod_of_metamagic_apocalyptic_normal": {
 		"name": "Rod of Metamagic, Apocalyptic (normal)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_apocalyptic_lesser"
 	},
 	"normal_apocalyptic_rod_of_metamagic": {
@@ -2809,7 +2795,6 @@
 	},
 	"rod_of_metamagic_authoritative_normal": {
 		"name": "Rod of Metamagic, Authoritative (normal)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_authoritative_lesser"
 	},
 	"normal_authoritative_rod_of_metamagic": {
@@ -2817,7 +2802,6 @@
 	},
 	"rod_of_metamagic_blissful_normal": {
 		"name": "Rod of Metamagic, Blissful (normal)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_blissful_lesser"
 	},
 	"normal_blissful_rod_of_metamagic": {
@@ -2825,10 +2809,6 @@
 	},
 	"rod_of_metamagic_bouncing_normal": {
 		"name": "Rod of Metamagic, Bouncing (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_bouncing_lesser"
 	},
 	"normal_bouncing_rod_of_metamagic": {
@@ -2836,7 +2816,6 @@
 	},
 	"rod_of_metamagic_crypt_normal": {
 		"name": "Rod of Metamagic, Crypt (normal)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_crypt_lesser"
 	},
 	"normal_crypt_rod_of_metamagic": {
@@ -2844,10 +2823,6 @@
 	},
 	"rod_of_metamagic_disruptive_normal": {
 		"name": "Rod of Metamagic, Disruptive (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_disruptive_lesser"
 	},
 	"normal_disruptive_rod_of_metamagic": {
@@ -2855,10 +2830,6 @@
 	},
 	"rod_of_metamagic_ectoplasmic_normal": {
 		"name": "Rod of Metamagic, Ectoplasmic (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_ectoplasmic_lesser"
 	},
 	"normal_ectoplasmic_rod_of_metamagic": {
@@ -2866,10 +2837,6 @@
 	},
 	"rod_of_metamagic_elemental_normal": {
 		"name": "Rod of Metamagic, Elemental (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_elemental_lesser"
 	},
 	"normal_elemental_rod_of_metamagic": {
@@ -2877,10 +2844,6 @@
 	},
 	"rod_of_metamagic_enlarge_normal": {
 		"name": "Rod of Metamagic, Enlarge (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_enlarge_lesser"
 	},
 	"normal_enlarge_rod_of_metamagic": {
@@ -2888,10 +2851,6 @@
 	},
 	"rod_of_metamagic_extend_normal": {
 		"name": "Rod of Metamagic, Extend (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_extend_lesser"
 	},
 	"normal_extend_rod_of_metamagic": {
@@ -2899,7 +2858,6 @@
 	},
 	"rod_of_metamagic_flaring_normal": {
 		"name": "Rod of Metamagic, Flaring (normal)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_flaring_lesser"
 	},
 	"normal_flaring_rod_of_metamagic": {
@@ -2907,10 +2865,6 @@
 	},
 	"rod_of_metamagic_focused_normal": {
 		"name": "Rod of Metamagic, Focused (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_focused_lesser"
 	},
 	"normal_focused_rod_of_metamagic": {
@@ -2918,7 +2872,6 @@
 	},
 	"rod_of_metamagic_furious_normal": {
 		"name": "Rod of Metamagic, Furious (normal)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "rod_of_metamagic_furious_lesser"
 	},
 	"normal_furious_rod_of_metamagic": {
@@ -2926,10 +2879,6 @@
 	},
 	"rod_of_metamagic_intensified_normal": {
 		"name": "Rod of Metamagic, Intensified (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_intensified_lesser"
 	},
 	"normal_intensified_rod_of_metamagic": {
@@ -2937,10 +2886,6 @@
 	},
 	"rod_of_metamagic_lingering_normal": {
 		"name": "Rod of Metamagic, Lingering (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_lingering_lesser"
 	},
 	"normal_lingering_rod_of_metamagic": {
@@ -2948,7 +2893,6 @@
 	},
 	"rod_of_metamagic_logical_normal": {
 		"name": "Rod of Metamagic, Logical (normal)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "rod_of_metamagic_logical_lesser"
 	},
 	"normal_logical_rod_of_metamagic": {
@@ -2956,7 +2900,6 @@
 	},
 	"rod_of_metamagic_piercing_normal": {
 		"name": "Rod of Metamagic, Piercing (normal)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_piercing_lesser"
 	},
 	"normal_piercing_rod_of_metamagic": {
@@ -2964,10 +2907,6 @@
 	},
 	"rod_of_metamagic_reach_normal": {
 		"name": "Rod of Metamagic, Reach (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_reach_lesser"
 	},
 	"normal_reach_rod_of_metamagic": {
@@ -2975,7 +2914,6 @@
 	},
 	"rod_of_metamagic_rime_normal": {
 		"name": "Rod of Metamagic, Rime (normal)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_rime_lesser"
 	},
 	"normal_rime_rod_of_metamagic": {
@@ -2983,7 +2921,6 @@
 	},
 	"rod_of_metamagic_scarring_normal": {
 		"name": "Rod of Metamagic, Scarring (normal)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "rod_of_metamagic_scarring_lesser"
 	},
 	"normal_scarring_rod_of_metamagic": {
@@ -2991,10 +2928,6 @@
 	},
 	"rod_of_metamagic_selective_normal": {
 		"name": "Rod of Metamagic, Selective (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_selective_lesser"
 	},
 	"normal_selective_rod_of_metamagic": {
@@ -3002,10 +2935,6 @@
 	},
 	"rod_of_metamagic_silent_normal": {
 		"name": "Rod of Metamagic, Silent (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_silent_lesser"
 	},
 	"normal_silent_rod_of_metamagic": {
@@ -3013,7 +2942,6 @@
 	},
 	"rod_of_metamagic_stable_normal": {
 		"name": "Rod of Metamagic, Stable (normal)",
-		"sources": [ "Wardens of the Reborn Forge" ],
 		"copyof": "rod_of_metamagic_stable_lesser"
 	},
 	"normal_stable_rod_of_metamagic": {
@@ -3021,7 +2949,6 @@
 	},
 	"rod_of_metamagic_toppling_normal": {
 		"name": "Rod of Metamagic, Toppling (normal)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_toppling_lesser"
 	},
 	"normal_toppling_rod_of_metamagic": {
@@ -3029,7 +2956,6 @@
 	},
 	"rod_of_metamagic_tumultuous_normal": {
 		"name": "Rod of Metamagic, Tumultuous (normal)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_tumultuous_lesser"
 	},
 	"normal_tumultuous_rod_of_metamagic": {
@@ -3037,7 +2963,6 @@
 	},
 	"rod_of_metamagic_eclipsed_greater": {
 		"name": "Rod of Metamagic, Eclipsed (greater)",
-		"sources": [ "Blood of Shadows" ],
 		"copyof": "rod_of_metamagic_eclipsed_lesser"
 	},
 	"greater_eclipsed_rod_of_metamagic": {
@@ -3045,10 +2970,6 @@
 	},
 	"rod_of_metamagic_merciful_greater": {
 		"name": "Rod of Metamagic, Merciful (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_merciful_lesser"
 	},
 	"greater_merciful_rod_of_metamagic": {
@@ -3056,7 +2977,6 @@
 	},
 	"rod_of_metamagic_murky_greater": {
 		"name": "Rod of Metamagic, Murky (greater)",
-		"sources": [ "Aquatic Adventures" ],
 		"copyof": "rod_of_metamagic_murky_lesser"
 	},
 	"greater_murky_rod_of_metamagic": {
@@ -3064,7 +2984,6 @@
 	},
 	"rod_of_metamagic_steam_greater": {
 		"name": "Rod of Metamagic, Steam (greater)",
-		"sources": [ "Aquatic Adventures" ],
 		"copyof": "rod_of_metamagic_steam_lesser"
 	},
 	"greater_steam_rod_of_metamagic": {
@@ -3178,7 +3097,6 @@
 	},
 	"rod_of_metamagic_apocalyptic_greater": {
 		"name": "Rod of Metamagic, Apocalyptic (greater)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_apocalyptic_lesser"
 	},
 	"greater_apocalyptic_rod_of_metamagic": {
@@ -3186,7 +3104,6 @@
 	},
 	"rod_of_metamagic_authoritative_greater": {
 		"name": "Rod of Metamagic, Authoritative (greater)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_authoritative_lesser"
 	},
 	"greater_authoritative_rod_of_metamagic": {
@@ -3194,7 +3111,6 @@
 	},
 	"rod_of_metamagic_blissful_greater": {
 		"name": "Rod of Metamagic, Blissful (greater)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_blissful_lesser"
 	},
 	"greater_blissful_rod_of_metamagic": {
@@ -3202,10 +3118,6 @@
 	},
 	"rod_of_metamagic_bouncing_greater": {
 		"name": "Rod of Metamagic, Bouncing (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_bouncing_lesser"
 	},
 	"greater_bouncing_rod_of_metamagic": {
@@ -3213,7 +3125,6 @@
 	},
 	"rod_of_metamagic_crypt_greater": {
 		"name": "Rod of Metamagic, Crypt (greater)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_crypt_lesser"
 	},
 	"greater_crypt_rod_of_metamagic": {
@@ -3221,10 +3132,6 @@
 	},
 	"rod_of_metamagic_disruptive_greater": {
 		"name": "Rod of Metamagic, Disruptive (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_disruptive_lesser"
 	},
 	"greater_disruptive_rod_of_metamagic": {
@@ -3232,10 +3139,6 @@
 	},
 	"rod_of_metamagic_ectoplasmic_greater": {
 		"name": "Rod of Metamagic, Ectoplasmic (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_ectoplasmic_lesser"
 	},
 	"greater_ectoplasmic_rod_of_metamagic": {
@@ -3243,10 +3146,6 @@
 	},
 	"rod_of_metamagic_elemental_greater": {
 		"name": "Rod of Metamagic, Elemental (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_elemental_lesser"
 	},
 	"greater_elemental_rod_of_metamagic": {
@@ -3254,10 +3153,6 @@
 	},
 	"rod_of_metamagic_enlarge_greater": {
 		"name": "Rod of Metamagic, Enlarge (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_enlarge_lesser"
 	},
 	"greater_enlarge_rod_of_metamagic": {
@@ -3265,10 +3160,6 @@
 	},
 	"rod_of_metamagic_extend_greater": {
 		"name": "Rod of Metamagic, Extend (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_extend_lesser"
 	},
 	"greater_extend_rod_of_metamagic": {
@@ -3276,7 +3167,6 @@
 	},
 	"rod_of_metamagic_flaring_greater": {
 		"name": "Rod of Metamagic, Flaring (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_flaring_lesser"
 	},
 	"greater_flaring_rod_of_metamagic": {
@@ -3284,10 +3174,6 @@
 	},
 	"rod_of_metamagic_focused_greater": {
 		"name": "Rod of Metamagic, Focused (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_focused_lesser"
 	},
 	"greater_focused_rod_of_metamagic": {
@@ -3295,7 +3181,6 @@
 	},
 	"rod_of_metamagic_furious_greater": {
 		"name": "Rod of Metamagic, Furious (greater)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "rod_of_metamagic_furious_lesser"
 	},
 	"greater_furious_rod_of_metamagic": {
@@ -3303,10 +3188,6 @@
 	},
 	"rod_of_metamagic_intensified_greater": {
 		"name": "Rod of Metamagic, Intensified (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_intensified_lesser"
 	},
 	"greater_intensified_rod_of_metamagic": {
@@ -3314,10 +3195,6 @@
 	},
 	"rod_of_metamagic_lingering_greater": {
 		"name": "Rod of Metamagic, Lingering (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_lingering_lesser"
 	},
 	"greater_lingering_rod_of_metamagic": {
@@ -3325,7 +3202,6 @@
 	},
 	"rod_of_metamagic_logical_greater": {
 		"name": "Rod of Metamagic, Logical (greater)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "rod_of_metamagic_logical_lesser"
 	},
 	"greater_logical_rod_of_metamagic": {
@@ -3333,7 +3209,6 @@
 	},
 	"rod_of_metamagic_piercing_greater": {
 		"name": "Rod of Metamagic, Piercing (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_piercing_lesser"
 	},
 	"greater_piercing_rod_of_metamagic": {
@@ -3341,10 +3216,6 @@
 	},
 	"rod_of_metamagic_reach_greater": {
 		"name": "Rod of Metamagic, Reach (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_reach_lesser"
 	},
 	"greater_reach_rod_of_metamagic": {
@@ -3352,7 +3223,6 @@
 	},
 	"rod_of_metamagic_rime_greater": {
 		"name": "Rod of Metamagic, Rime (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_rime_lesser"
 	},
 	"greater_rime_rod_of_metamagic": {
@@ -3360,7 +3230,6 @@
 	},
 	"rod_of_metamagic_scarring_greater": {
 		"name": "Rod of Metamagic, Scarring (greater)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "rod_of_metamagic_scarring_lesser"
 	},
 	"greater_scarring_rod_of_metamagic": {
@@ -3368,10 +3237,6 @@
 	},
 	"rod_of_metamagic_selective_greater": {
 		"name": "Rod of Metamagic, Selective (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_selective_lesser"
 	},
 	"greater_selective_rod_of_metamagic": {
@@ -3379,10 +3244,6 @@
 	},
 	"rod_of_metamagic_silent_greater": {
 		"name": "Rod of Metamagic, Silent (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_silent_lesser"
 	},
 	"greater_silent_rod_of_metamagic": {
@@ -3390,7 +3251,6 @@
 	},
 	"rod_of_metamagic_stable_greater": {
 		"name": "Rod of Metamagic, Stable (greater)",
-		"sources": [ "Wardens of the Reborn Forge" ],
 		"copyof": "rod_of_metamagic_stable_lesser"
 	},
 	"greater_stable_rod_of_metamagic": {
@@ -3398,7 +3258,6 @@
 	},
 	"rod_of_metamagic_toppling_greater": {
 		"name": "Rod of Metamagic, Toppling (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_toppling_lesser"
 	},
 	"greater_toppling_rod_of_metamagic": {
@@ -3406,7 +3265,6 @@
 	},
 	"rod_of_metamagic_tumultuous_greater": {
 		"name": "Rod of Metamagic, Tumultuous (greater)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_tumultuous_lesser"
 	},
 	"greater_tumultuous_rod_of_metamagic": {
@@ -3414,7 +3272,6 @@
 	},
 	"rod_of_metamagic_burning_normal": {
 		"name": "Rod of Metamagic, Burning (normal)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_burning_lesser"
 	},
 	"normal_burning_rod_of_metamagic": {
@@ -3422,7 +3279,6 @@
 	},
 	"rod_of_metamagic_concussive_normal": {
 		"name": "Rod of Metamagic, Concussive (normal)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_concussive_lesser"
 	},
 	"normal_concussive_rod_of_metamagic": {
@@ -3430,10 +3286,6 @@
 	},
 	"rod_of_metamagic_empower_normal": {
 		"name": "Rod of Metamagic, Empower (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_empower_lesser"
 	},
 	"normal_empower_rod_of_metamagic": {
@@ -3441,7 +3293,6 @@
 	},
 	"rod_of_metamagic_fearsome_normal": {
 		"name": "Rod of Metamagic, Fearsome (normal)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "rod_of_metamagic_fearsome_lesser"
 	},
 	"normal_fearsome_rod_of_metamagic": {
@@ -3449,10 +3300,6 @@
 	},
 	"rod_of_metamagic_persistent_normal": {
 		"name": "Rod of Metamagic, Persistent (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_persistent_lesser"
 	},
 	"normal_persistent_rod_of_metamagic": {
@@ -3460,10 +3307,6 @@
 	},
 	"rod_of_metamagic_sickening_normal": {
 		"name": "Rod of Metamagic, Sickening (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_sickening_lesser"
 	},
 	"normal_sickening_rod_of_metamagic": {
@@ -3471,7 +3314,6 @@
 	},
 	"rod_of_metamagic_snuffing_normal": {
 		"name": "Rod of Metamagic, Snuffing (normal)",
-		"sources": [ "Blood of Shadows" ],
 		"copyof": "rod_of_metamagic_snuffing_lesser"
 	},
 	"normal_snuffing_rod_of_metamagic": {
@@ -3479,7 +3321,6 @@
 	},
 	"rod_of_metamagic_stygian_normal": {
 		"name": "Rod of Metamagic, Stygian (normal)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_stygian_lesser"
 	},
 	"normal_stygian_rod_of_metamagic": {
@@ -3487,7 +3328,6 @@
 	},
 	"rod_of_metamagic_thanatopic_normal": {
 		"name": "Rod of Metamagic, Thanatopic (normal)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_thanatopic_lesser"
 	},
 	"normal_thanatopic_rod_of_metamagic": {
@@ -3495,7 +3335,6 @@
 	},
 	"rod_of_metamagic_threnodic_normal": {
 		"name": "Rod of Metamagic, Threnodic (normal)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_threnodic_lesser"
 	},
 	"normal_threnodic_rod_of_metamagic": {
@@ -3503,10 +3342,6 @@
 	},
 	"rod_of_metamagic_thundering_normal": {
 		"name": "Rod of Metamagic, Thundering (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_thundering_lesser"
 	},
 	"normal_thundering_rod_of_metamagic": {
@@ -3514,7 +3349,6 @@
 	},
 	"rod_of_metamagic_traumatic_normal": {
 		"name": "Rod of Metamagic, Traumatic (normal)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "rod_of_metamagic_traumatic_lesser"
 	},
 	"normal_traumatic_rod_of_metamagic": {
@@ -3545,10 +3379,6 @@
 	},
 	"rod_of_metamagic_dazing_normal": {
 		"name": "Rod of Metamagic, Dazing (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_dazing_lesser"
 	},
 	"normal_dazing_rod_of_metamagic": {
@@ -3556,7 +3386,6 @@
 	},
 	"rod_of_metamagic_echoing_normal": {
 		"name": "Rod of Metamagic, Echoing (normal)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_echoing_lesser"
 	},
 	"normal_echoing_rod_of_metamagic": {
@@ -3564,7 +3393,6 @@
 	},
 	"rod_of_metamagic_familiar_normal": {
 		"name": "Rod of Metamagic, Familiar (normal)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "rod_of_metamagic_familiar_lesser"
 	},
 	"normal_familiar_rod_of_metamagic": {
@@ -3572,10 +3400,6 @@
 	},
 	"rod_of_metamagic_maximize_normal": {
 		"name": "Rod of Metamagic, Maximize (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_maximize_lesser"
 	},
 	"normal_maximize_rod_of_metamagic": {
@@ -3583,7 +3407,6 @@
 	},
 	"rod_of_metamagic_widen_normal": {
 		"name": "Rod of Metamagic, Widen (normal)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_widen_lesser"
 	},
 	"normal_widen_rod_of_metamagic": {
@@ -3591,7 +3414,6 @@
 	},
 	"rod_of_metamagic_burning_greater": {
 		"name": "Rod of Metamagic, Burning (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_burning_lesser"
 	},
 	"greater_burning_rod_of_metamagic": {
@@ -3599,7 +3421,6 @@
 	},
 	"rod_of_metamagic_concussive_greater": {
 		"name": "Rod of Metamagic, Concussive (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_concussive_lesser"
 	},
 	"greater_concussive_rod_of_metamagic": {
@@ -3607,10 +3428,6 @@
 	},
 	"rod_of_metamagic_empower_greater": {
 		"name": "Rod of Metamagic, Empower (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_empower_lesser"
 	},
 	"greater_empower_rod_of_metamagic": {
@@ -3618,7 +3435,6 @@
 	},
 	"rod_of_metamagic_fearsome_greater": {
 		"name": "Rod of Metamagic, Fearsome (greater)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "rod_of_metamagic_fearsome_lesser"
 	},
 	"greater_fearsome_rod_of_metamagic": {
@@ -3626,10 +3442,6 @@
 	},
 	"rod_of_metamagic_persistent_greater": {
 		"name": "Rod of Metamagic, Persistent (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_persistent_lesser"
 	},
 	"greater_persistent_rod_of_metamagic": {
@@ -3637,10 +3449,6 @@
 	},
 	"rod_of_metamagic_sickening_greater": {
 		"name": "Rod of Metamagic, Sickening (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_sickening_lesser"
 	},
 	"greater_sickening_rod_of_metamagic": {
@@ -3648,7 +3456,6 @@
 	},
 	"rod_of_metamagic_snuffing_greater": {
 		"name": "Rod of Metamagic, Snuffing (greater)",
-		"sources": [ "Blood of Shadows" ],
 		"copyof": "rod_of_metamagic_snuffing_lesser"
 	},
 	"greater_snuffing_rod_of_metamagic": {
@@ -3656,7 +3463,6 @@
 	},
 	"rod_of_metamagic_stygian_greater": {
 		"name": "Rod of Metamagic, Stygian (greater)",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "rod_of_metamagic_stygian_lesser"
 	},
 	"greater_stygian_rod_of_metamagic": {
@@ -3664,7 +3470,6 @@
 	},
 	"rod_of_metamagic_thanatopic_greater": {
 		"name": "Rod of Metamagic, Thanatopic (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_thanatopic_lesser"
 	},
 	"greater_thanatopic_rod_of_metamagic": {
@@ -3672,7 +3477,6 @@
 	},
 	"rod_of_metamagic_threnodic_greater": {
 		"name": "Rod of Metamagic, Threnodic (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_threnodic_lesser"
 	},
 	"greater_threnodic_rod_of_metamagic": {
@@ -3680,10 +3484,6 @@
 	},
 	"rod_of_metamagic_thundering_greater": {
 		"name": "Rod of Metamagic, Thundering (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_thundering_lesser"
 	},
 	"greater_thundering_rod_of_metamagic": {
@@ -3691,7 +3491,6 @@
 	},
 	"rod_of_metamagic_traumatic_greater": {
 		"name": "Rod of Metamagic, Traumatic (greater)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "rod_of_metamagic_traumatic_lesser"
 	},
 	"greater_traumatic_rod_of_metamagic": {
@@ -3699,10 +3498,6 @@
 	},
 	"rod_of_metamagic_quicken_normal": {
 		"name": "Rod of Metamagic, Quicken (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_quicken_lesser"
 	},
 	"normal_quicken_rod_of_metamagic": {
@@ -3710,10 +3505,6 @@
 	},
 	"rod_of_metamagic_dazing_greater": {
 		"name": "Rod of Metamagic, Dazing (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "rod_of_metamagic_dazing_lesser"
 	},
 	"greater_dazing_rod_of_metamagic": {
@@ -3721,7 +3512,6 @@
 	},
 	"rod_of_metamagic_echoing_greater": {
 		"name": "Rod of Metamagic, Echoing (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_echoing_lesser"
 	},
 	"greater_echoing_rod_of_metamagic": {
@@ -3729,7 +3519,6 @@
 	},
 	"rod_of_metamagic_familiar_greater": {
 		"name": "Rod of Metamagic, Familiar (greater)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "rod_of_metamagic_familiar_lesser"
 	},
 	"greater_familiar_rod_of_metamagic": {
@@ -3737,10 +3526,6 @@
 	},
 	"rod_of_metamagic_maximize_greater": {
 		"name": "Rod of Metamagic, Maximize (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_maximize_lesser"
 	},
 	"greater_maximize_rod_of_metamagic": {
@@ -3748,7 +3533,6 @@
 	},
 	"rod_of_metamagic_widen_greater": {
 		"name": "Rod of Metamagic, Widen (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "rod_of_metamagic_widen_lesser"
 	},
 	"greater_widen_rod_of_metamagic": {
@@ -3756,10 +3540,6 @@
 	},
 	"rod_of_metamagic_quicken_greater": {
 		"name": "Rod of Metamagic, Quicken (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rod_of_metamagic_quicken_lesser"
 	},
 	"greater_quicken_rod_of_metamagic": {

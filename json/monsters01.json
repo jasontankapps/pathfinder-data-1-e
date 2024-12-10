@@ -1919,6 +1919,7 @@
 			"Although few known bishop agathions remain on Golarion for any length of time, some cultures revere their arrival as an omen of fortune and luck. Those seeing a bishop agathion - and being entrusted with its diplomatic knowledge - consider the encounter to be the greatest honor one can receive. Therefore, groups of eager adventurers have set sail from Varisia over the years, hoping to reap the rewards of encountering one of these strange creatures. These seekers are inevitably disappointed. Bishops appear to only those with whom they have business - or whose evil they witness and wish to stop."
 		]
 	},
+	"agathion_bishop": { "copyof": "agathion_bishop_agathion" },
 	"bishop_agathion": { "copyof": "agathion_bishop_agathion" },
 	"agathion_cervapral": {
 		"name": "Agathion, Cervapral",

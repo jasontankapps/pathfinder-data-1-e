@@ -245,6 +245,9 @@
 			"**Requirements** {feat/Forge Ring}, creator must be able to cast spells of the spell level to be granted; **Cost** 750 gp (type I), 3,000 gp (type II), 6,750 gp (type III), 12,000 gp (type IV)"
 		]
 	},
+	"ring_of_spell_knowledge_type_i": {
+		"copyof": "ring_of_spell_knowledge_type_1"
+	},
 	"ring_of_balanced_grip": {
 		"name": "Ring of Balanced Grip",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -855,7 +858,6 @@
 	},
 	"ring_of_resistance_2": {
 		"name": "Ring of Resistance (+2)",
-		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"copyof": "ring_of_resistance_1"
 	},
 	"communique_rings": {
@@ -970,8 +972,10 @@
 	},
 	"ring_of_spell_knowledge_type_2": {
 		"name": "Ring of Spell Knowledge (type II)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_spell_knowledge_type_1"
+	},
+	"ring_of_spell_knowledge_type_ii": {
+		"copyof": "ring_of_spell_knowledge_type_2"
 	},
 	"ring_of_unquenchable_passions": {
 		"name": "Ring of Unquenchable Passions",
@@ -1206,10 +1210,6 @@
 	},
 	"ring_of_protection_2": {
 		"name": "Ring of Protection (+2)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ring_of_protection_1"
 	},
 	"maintenance_overseers_ring": {
@@ -1233,7 +1233,6 @@
 	},
 	"ironbound_ring_master": {
 		"name": "Ironbound Ring (Master)",
-		"sources": [ "Adventurer's Guide" ],
 		"copyof": "ironbound_ring_minion"
 	},
 	"ring_of_forcefangs": {
@@ -1588,7 +1587,6 @@
 	},
 	"ring_of_delayed_doom_2_stones": {
 		"name": "Ring of Delayed Doom (2 stones)",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone"
 	},
 	"ring_of_revelation_lesser": {
@@ -2115,13 +2113,14 @@
 	},
 	"ring_of_resistance_3": {
 		"name": "Ring of Resistance (+3)",
-		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"copyof": "ring_of_resistance_1"
 	},
 	"ring_of_spell_knowledge_type_3": {
 		"name": "Ring of Spell Knowledge (type III)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_spell_knowledge_type_1"
+	},
+	"ring_of_spell_knowledge_type_iii": {
+		"copyof": "ring_of_spell_knowledge_type_3"
 	},
 	"ring_of_rulership": {
 		"name": "Ring of Rulership",
@@ -2180,7 +2179,6 @@
 	},
 	"ring_of_delayed_doom_3_stones": {
 		"name": "Ring of Delayed Doom (3 stones)",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone"
 	},
 	"ophidian_coil": {
@@ -2320,10 +2318,6 @@
 	},
 	"ring_of_revelation_greater": {
 		"name": "Ring of Revelation (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "ring_of_revelation_lesser"
 	},
 	"greater_ring_of_revelation": {
@@ -2352,10 +2346,6 @@
 	},
 	"dungeon_ring_jailers": {
 		"name": "Dungeon Ring (jailer's)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "dungeon_ring_prisoners"
 	},
 	"ring_of_perfect_sizing": {
@@ -2411,15 +2401,10 @@
 	},
 	"ring_of_the_godless_2": {
 		"name": "Ring of the Godless (+2)",
-		"sources": [ "People of the Sands" ],
 		"copyof": "ring_of_the_godless_1"
 	},
 	"ring_of_protection_3": {
 		"name": "Ring of Protection (+3)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ring_of_protection_1"
 	},
 	"ring_of_inner_fortitude_minor": {
@@ -2530,7 +2515,6 @@
 	},
 	"ring_of_delayed_doom_4_stones": {
 		"name": "Ring of Delayed Doom (4 stones)",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone"
 	},
 	"nethysian_ring_of_minor_spell_storing": {
@@ -2693,25 +2677,21 @@
 	},
 	"ring_of_resistance_4": {
 		"name": "Ring of Resistance (+4)",
-		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"copyof": "ring_of_resistance_1"
 	},
 	"ring_of_revelation_superior": {
 		"name": "Ring of Revelation (superior)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
 		"copyof": "ring_of_revelation_lesser"
 	},
 	"ring_of_spell_knowledge_type_4": {
 		"name": "Ring of Spell Knowledge (type IV)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_spell_knowledge_type_1"
+	},
+	"ring_of_spell_knowledge_type_iv": {
+		"copyof": "ring_of_spell_knowledge_type_4"
 	},
 	"ring_of_delayed_doom_5_stones": {
 		"name": "Ring of Delayed Doom (5 stones)",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone"
 	},
 	"ring_of_evasion": {
@@ -2796,7 +2776,6 @@
 	},
 	"ring_of_the_godless_3": {
 		"name": "Ring of the Godless (+3)",
-		"sources": [ "People of the Sands" ],
 		"copyof": "ring_of_the_godless_1"
 	},
 	"ring_of_blinking": {
@@ -2821,10 +2800,6 @@
 	},
 	"ring_of_energy_resistance_major": {
 		"name": "Ring of Energy Resistance (major)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ring_of_energy_resistance_minor"
 	},
 	"ring_of_the_ecclesiarch": {
@@ -2848,7 +2823,6 @@
 	},
 	"ring_of_delayed_doom_6_stones": {
 		"name": "Ring of Delayed Doom (6 stones)",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone"
 	},
 	"elemental_ring": {
@@ -2973,10 +2947,6 @@
 	},
 	"ring_of_protection_4": {
 		"name": "Ring of Protection (+4)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ring_of_protection_1"
 	},
 	"ring_of_refusal": {
@@ -3000,7 +2970,6 @@
 	},
 	"ring_of_delayed_doom_7_stones": {
 		"name": "Ring of Delayed Doom (7 stones)",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone"
 	},
 	"sihedron_ring": {
@@ -3027,17 +2996,14 @@
 	},
 	"ring_of_resistance_5": {
 		"name": "Ring of Resistance (+5)",
-		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"copyof": "ring_of_resistance_1"
 	},
 	"ring_of_the_godless_4": {
 		"name": "Ring of the Godless (+4)",
-		"sources": [ "People of the Sands" ],
 		"copyof": "ring_of_the_godless_1"
 	},
 	"ring_of_delayed_doom_8_stones": {
 		"name": "Ring of Delayed Doom (8 stones)",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone"
 	},
 	"ring_of_freedom_of_movement": {
@@ -3060,22 +3026,28 @@
 			"**Requirements** {feat/Forge Ring}, freedom of movement; **Cost** 20,000 gp"
 		]
 	},
+	"ring_of_mysticism_type_i": {
+		"copyof": "ring_of_mysticism_type_1"
+	},
 	"ring_of_mysticism_type_2": {
 		"name": "Ring of Mysticism (Type II)",
-		"sources": [ "Psychic Anthology" ],
 		"copyof": "ring_of_mysticism_type_1"
+	},
+	"ring_of_mysticism_type_ii": {
+		"copyof": "ring_of_mysticism_type_2"
+	},
+	"ring_of_wizardry_type_i": {
+		"copyof": "ring_of_wizardry_type_1"
 	},
 	"ring_of_wizardry_type_2": {
 		"name": "Ring of Wizardry (type II)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ring_of_wizardry_type_1"
+	},
+	"ring_of_wizardry_type_ii": {
+		"copyof": "ring_of_wizardry_type_2"
 	},
 	"ring_of_inner_fortitude_major": {
 		"name": "Ring of Inner Fortitude (major)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_inner_fortitude_minor"
 	},
 	"rings_of_bondage_greater": {
@@ -3102,10 +3074,6 @@
 	},
 	"ring_of_energy_resistance_greater": {
 		"name": "Ring of Energy Resistance (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ring_of_energy_resistance_minor"
 	},
 	"greater_ring_of_energy_resistance": {
@@ -3113,7 +3081,6 @@
 	},
 	"ring_of_delayed_doom_9_stones": {
 		"name": "Ring of Delayed Doom (9 stones)",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone"
 	},
 	"ring_of_delayed_doom": {
@@ -3157,15 +3124,10 @@
 	},
 	"ring_of_protection_5": {
 		"name": "Ring of Protection (+5)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ring_of_protection_1"
 	},
 	"ring_of_the_godless_5": {
 		"name": "Ring of the Godless (+5)",
-		"sources": [ "People of the Sands" ],
 		"copyof": "ring_of_the_godless_1"
 	},
 	"band_of_triumph": {
@@ -3333,7 +3295,6 @@
 	},
 	"ring_of_inner_fortitude_greater": {
 		"name": "Ring of Inner Fortitude (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_inner_fortitude_minor"
 	},
 	"greater_ring_of_inner_fortitude": {
@@ -3363,16 +3324,17 @@
 	},
 	"ring_of_wizardry_type_3": {
 		"name": "Ring of Wizardry (type III)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ring_of_wizardry_type_1"
+	},
+	"ring_of_wizardry_type_iii": {
+		"copyof": "ring_of_wizardry_type_3"
 	},
 	"ring_of_mysticism_type_3": {
 		"name": "Ring of Mysticism (Type III)",
-		"sources": [ "Psychic Anthology" ],
 		"copyof": "ring_of_mysticism_type_1"
+	},
+	"ring_of_mysticism_type_iii": {
+		"copyof": "ring_of_mysticism_type_3"
 	},
 	"ring_of_telekinesis": {
 		"name": "Ring of Telekinesis",
@@ -3436,16 +3398,17 @@
 	},
 	"ring_of_mysticism_type_4": {
 		"name": "Ring of Mysticism (Type IV)",
-		"sources": [ "Psychic Anthology" ],
 		"copyof": "ring_of_mysticism_type_1"
+	},
+	"ring_of_mysticism_type_iv": {
+		"copyof": "ring_of_mysticism_type_4"
 	},
 	"ring_of_wizardry_type_4": {
 		"name": "Ring of Wizardry (type IV)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "ring_of_wizardry_type_1"
+	},
+	"ring_of_wizardry_type_iv": {
+		"copyof": "ring_of_wizardry_type_4"
 	},
 	"ring_of_the_shadow_victim": {
 		"name": "Ring of the Shadow Victim",

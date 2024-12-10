@@ -952,6 +952,7 @@
 		]
 	},
 	"giant_ant": { "copyof": "ant_giant_ant" },
+	"ant_giant": { "copyof": "ant_giant_ant" },
 	"ant_knight_ant": {
 		"name": "Ant, Knight Ant",
 		"sources": [ "Bestiary 5" ],
@@ -1008,6 +1009,7 @@
 		]
 	},
 	"knight_ant": { "copyof": "ant_knight_ant" },
+	"ant_knight": { "copyof": "ant_knight_ant" },
 	"ant_megapon_ant": {
 		"name": "Ant, Megapon Ant",
 		"sources": [ "Bestiary 5" ],
@@ -1064,6 +1066,7 @@
 		]
 	},
 	"megapon_ant": { "copyof": "ant_megapon_ant" },
+	"ant_megapon": { "copyof": "ant_megapon_ant" },
 	"aoandon": {
 		"name": "Aoandon",
 		"sources": [ "Bestiary 4" ],
@@ -1234,6 +1237,7 @@
 	},
 	"gigantopithecus": { "copyof": "ape_dire_ape_gigantopithecus" },
 	"dire_ape": { "copyof": "ape_dire_ape_gigantopithecus" },
+	"ape_dire": { "copyof": "ape_dire_ape_gigantopithecus" },
 	"ape_gorilla": {
 		"name": "Ape, Gorilla",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1810,6 +1814,7 @@
 		]
 	},
 	"bastion_archon": { "copyof": "archon_bastion_archon" },
+	"archon_bastion": { "copyof": "archon_bastion_archon" },
 	"archon_codex_archon": {
 		"name": "Archon, Codex Archon",
 		"sources": [
@@ -1880,6 +1885,7 @@
 		]
 	},
 	"codex_archon": { "copyof": "archon_codex_archon" },
+	"archon_codex": { "copyof": "archon_codex_archon" },
 	"archon_exscinder": {
 		"name": "Archon, Exscinder",
 		"sources": [
@@ -2022,6 +2028,7 @@
 		]
 	},
 	"gate_archon": { "copyof": "archon_gate_archon" },
+	"archon_gate": { "copyof": "archon_gate_archon" },
 	"archon_hammer_archon": {
 		"name": "Archon, Hammer Archon",
 		"sources": [
@@ -2110,6 +2117,7 @@
 		]
 	},
 	"hammer_archon": { "copyof": "archon_hammer_archon" },
+	"archon_hammer": { "copyof": "archon_hammer_archon" },
 	"archon_harbinger_archon": {
 		"name": "Archon, Harbinger Archon",
 		"sources": [
@@ -2186,6 +2194,7 @@
 		]
 	},
 	"harbinger_archon": { "copyof": "archon_harbinger_archon" },
+	"archon_harbinger": { "copyof": "archon_harbinger_archon" },
 	"archon_hound_archon": {
 		"name": "Archon, Hound Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2247,6 +2256,7 @@
 		]
 	},
 	"hound_archon": { "copyof": "archon_hound_archon" },
+	"archon_hound": { "copyof": "archon_hound_archon" },
 	"archon_lantern_archon": {
 		"name": "Archon, Lantern Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2310,6 +2320,7 @@
 		]
 	},
 	"lantern_archon": { "copyof": "archon_lantern_archon" },
+	"archon_lantern": { "copyof": "archon_lantern_archon" },
 	"archon_legion_archon": {
 		"name": "Archon, Legion Archon",
 		"sources": [
@@ -2382,6 +2393,7 @@
 		]
 	},
 	"legion_archon": { "copyof": "archon_legion_archon" },
+	"archon_legion": { "copyof": "archon_legion_archon" },
 	"archon_preceptor_archon": {
 		"name": "Archon, Preceptor Archon",
 		"sources": [
@@ -2447,6 +2459,7 @@
 		]
 	},
 	"preceptor_archon": { "copyof": "archon_preceptor_archon" },
+	"archon_preceptor": { "copyof": "archon_preceptor_archon" },
 	"archon_shield_archon": {
 		"name": "Archon, Shield Archon",
 		"sources": [
@@ -2515,6 +2528,7 @@
 		]
 	},
 	"shield_archon": { "copyof": "archon_shield_archon" },
+	"archon_shield": { "copyof": "archon_shield_archon" },
 	"archon_spyglass_archon": {
 		"name": "Archon, Spyglass Archon",
 		"sources": [
@@ -2586,6 +2600,7 @@
 		]
 	},
 	"spyglass_archon": { "copyof": "archon_spyglass_archon" },
+	"archon_spyglass": { "copyof": "archon_spyglass_archon" },
 	"archon_stag_archon": {
 		"name": "Archon, Stag Archon",
 		"sources": [
@@ -2650,6 +2665,7 @@
 		]
 	},
 	"stag_archon": { "copyof": "archon_stag_archon" },
+	"archon_stag": { "copyof": "archon_stag_archon" },
 	"archon_star_archon": {
 		"name": "Archon, Star Archon",
 		"sources": [
@@ -2726,6 +2742,7 @@
 		]
 	},
 	"star_archon": { "copyof": "archon_star_archon" },
+	"archon_star": { "copyof": "archon_star_archon" },
 	"archon_trumpet_archon": {
 		"name": "Archon, Trumpet Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2797,6 +2814,7 @@
 		]
 	},
 	"trumpet_archon": { "copyof": "archon_trumpet_archon" },
+	"archon_trumpet": { "copyof": "archon_trumpet_archon" },
 	"ardoc_moilant": {
 		"name": "Ardoc Moilant",
 		"sources": [ "Pathfinder #135: Runeplague" ],

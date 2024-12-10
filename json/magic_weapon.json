@@ -593,11 +593,11 @@
 			"",
 			"A boulder bullet appears to be a magical sling bullet when held, but it is actually a shrunken piece of catapult ammunition. A boulder bullet expands rapidly when launched from a sling or sling staff, increasing in size and dealing greater base damage depending on the version used. This doesn't affect the bullet's range or any of the normal mechanics for using a sling bullet, though the boulder bullet is treated as siege weapon ammunition for the purposes of wind effects and similar penalties. Similarly, if a boulder bullet is launched and misses its target, roll 1d8 to determine the adjacent square in which it lands. Once it has been thrown and has expanded, a boulder bullet loses its magic and remains boulder-sized thereafter.",
 			"",
-			"Lesser Boulder Bullet (CL 10th): A lesser boulder bullet is a +1 sling bullet that expands to the size of light catapult ammunition, increasing its base damage to 4d6.",
+			"*Lesser Boulder Bullet (CL 10th):* A lesser boulder bullet is a +1 sling bullet that expands to the size of light catapult ammunition, increasing its base damage to 4d6.",
 			"",
-			"Boulder Bullet (CL 14th): A boulder bullet is a +2 sling bullet that expands to the size of standard catapult ammunition, increasing its base damage to 6d6.",
+			"*Boulder Bullet (CL 14th):* A boulder bullet is a +2 sling bullet that expands to the size of standard catapult ammunition, increasing its base damage to 6d6.",
 			"",
-			"Greater Boulder Bullet (CL 18th): A greater boulder bullet is a +3 sling bullet that expands to the size of heavy catapult ammunition, increasing its base damage to 8d6.",
+			"*Greater Boulder Bullet (CL 18th):* A greater boulder bullet is a +3 sling bullet that expands to the size of heavy catapult ammunition, increasing its base damage to 8d6.",
 			"",
 			"### Construction",
 			"",
@@ -626,7 +626,6 @@
 	},
 	"hushing_arrow_greater": {
 		"name": "Hushing Arrow (greater)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "hushing_arrow_normal"
 	},
 	"greater_hushing_arrow": {
@@ -768,7 +767,6 @@
 	},
 	"boulder_bullet_normal": {
 		"name": "Boulder Bullet (normal)",
-		"sources": [ "Ranged Tactics Toolbox" ],
 		"copyof": "boulder_bullet_lesser"
 	},
 	"detecting_dart": {
@@ -1070,10 +1068,6 @@
 	},
 	"burrowing_bullet_greater": {
 		"name": "Burrowing Bullet (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"Ultimate Combat"
-		],
 		"copyof": "burrowing_bullet_lesser"
 	},
 	"greater_burrowing_bullet": {
@@ -1187,7 +1181,6 @@
 	},
 	"boulder_bullet_greater": {
 		"name": "Boulder Bullet (greater)",
-		"sources": [ "Ranged Tactics Toolbox" ],
 		"copyof": "boulder_bullet_lesser"
 	},
 	"greater_boulder_bullet": {
@@ -1195,10 +1188,6 @@
 	},
 	"slaying_arrow_greater": {
 		"name": "Slaying Arrow (greater)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "slaying_arrow_normal"
 	},
 	"greater_slaying_arrow": {
@@ -2191,7 +2180,6 @@
 	},
 	"leng_flail_greater": {
 		"name": "Leng Flail (greater)",
-		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "leng_flail_lesser"
 	},
 	"greater_leng_flail": {
@@ -3323,7 +3311,6 @@
 	},
 	"machete_of_clearing_animal_or_plant_bane": {
 		"name": "Machete of Clearing (animal or plant bane)",
-		"sources": [ "Sargava, the Lost Colony" ],
 		"copyof": "machete_of_clearing_normal"
 	},
 	"peacekeeping_pistol": {
@@ -4051,10 +4038,6 @@
 	},
 	"mace_of_smiting_normal": {
 		"name": "Mace of Smiting (normal)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "mace_of_smiting_lesser"
 	},
 	"lesser_mace_of_smiting": {

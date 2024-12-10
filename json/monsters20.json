@@ -1427,6 +1427,7 @@
 			"The stingray presented here is a relatively large member of the species; for smaller stingrays, apply the young creature template."
 		]
 	},
+	"ray_manta": { "copyof": "ray_manta_ray" },
 	"manta_ray": { "copyof": "ray_manta_ray" },
 	"ray_stingray": {
 		"name": "Ray, Stingray",
@@ -2128,6 +2129,7 @@
 			"The woolly rhinoceros is an herbivore, though unlike its non-woolly cousin it grazes for food rather than browsing on larger plants. The woolly rhino is legendary for its foul temper, and its size and huge horn give it a ferocious bravery. Any threat (real or perceived) to the rhino or its herd is met with loud bellows and the stomping of feet. Often, those who unwittingly anger a woolly rhino have no time to amend the intrusion before the beast attacks."
 		]
 	},
+	"rhinoceros_woolly": { "copyof": "rhinoceros_woolly_rhinoceros" },
 	"woolly_rhinoceros": { "copyof": "rhinoceros_woolly_rhinoceros" },
 	"rhu_chalik": {
 		"name": "Rhu-chalik",
@@ -2372,6 +2374,7 @@
 			"**Family:** {family/Robot}"
 		]
 	},
+	"robot_annihilator": { "copyof": "robot_annihilator_robot" },
 	"annihilator_robot": { "copyof": "robot_annihilator_robot" },
 	"robot_arachnid_robot": {
 		"name": "Robot, Arachnid Robot",
@@ -2437,6 +2440,7 @@
 			"**Family:** {family/Robot}"
 		]
 	},
+	"robot_arachnid": { "copyof": "robot_arachnid_robot" },
 	"arachnid_robot": { "copyof": "robot_arachnid_robot" },
 	"robot_collector_robot": {
 		"name": "Robot, Collector Robot",
@@ -2526,6 +2530,7 @@
 			"Trapper Robots (CR +1): Some robots cover a wider range of territory by deploying traps rather than hunting creatures individually. Designed to capture specimens for retrieval and sedation, they have gravity-based snares which function similar to the snare spell. They can deploy up to five of these devices and remain linked to them via tracker chips and an integrated chipfinder. When a snare is sprung, it sends an alert to the trapper robot, which then hurries to retrieve its quarry."
 		]
 	},
+	"robot_collector": { "copyof": "robot_collector_robot" },
 	"collector_robot": { "copyof": "robot_collector_robot" },
 	"robot_director_robot": {
 		"name": "Robot, Director Robot",
@@ -2620,6 +2625,7 @@
 			"Tightly guarded reports held by the Technic League claim that a rogue director robot maintains a hidden lair somewhere in central Numeria. The robot has taken over a splintered section of Divinity that contains a technological laboratory, and the reports claim that it's building its own army of robotic followers."
 		]
 	},
+	"robot_director": { "copyof": "robot_director_robot" },
 	"director_robot": { "copyof": "robot_director_robot" },
 	"robot_evaluator_robot": {
 		"name": "Robot, Evaluator Robot",
@@ -2709,6 +2715,7 @@
 			"Crafts that split from Divinity during its crash and fell to other parts of Numeria contained two other known evaluator robots. A tribe of Ghost Wolves destroyed one of these evaluators - designed to resemble a horned, red-skinned fiend - when it appeared before the Kellid barbarians in the Sellen Hills. The robot fought with wicked claws, and after it was destroyed, it exploded in a blast that killed dozens of the barbarians. The other evaluator, reportedly appearing as a six-armed, three-faced woman with bronze skin, was spotted briefly by griffon riders at Castle Urion before it headed south into the River Kingdoms, and hasn't been seen since."
 		]
 	},
+	"robot_evaluator": { "copyof": "robot_evaluator_robot" },
 	"evaluator_robot": { "copyof": "robot_evaluator_robot" },
 	"robot_gearsman_robot": {
 		"name": "Robot, Gearsman Robot",
@@ -2774,6 +2781,7 @@
 			"**Family:** {family/Robot}"
 		]
 	},
+	"robot_gearsman": { "copyof": "robot_gearsman_robot" },
 	"gearsman_robot": { "copyof": "robot_gearsman_robot" },
 	"robot_gladiator_robot": {
 		"name": "Robot, Gladiator Robot",
@@ -2869,6 +2877,7 @@
 			"**Family:** {family/Robot}"
 		]
 	},
+	"robot_gladiator": { "copyof": "robot_gladiator_robot" },
 	"gladiator_robot": { "copyof": "robot_gladiator_robot" },
 	"robot_juggernaut_robot": {
 		"name": "Robot, Juggernaut Robot",
@@ -2962,6 +2971,7 @@
 			"Specimen One: Unearthed deep beneath Silver Mount, this juggernaut was found inert within a colossal chamber. The debased arcanists of the Technic League disassembled the dormant hulk and catalogued its every wire, circuit, and cog. When they finished, they began the long, arduous process of reassembly. Unfortunately, their efforts were only partially successful. Now, only the juggernaut's massive robotic head remains \"alive,\" forever calculating how it might escape from this pathetic existence amid a labyrinth of frayed wires, pitted alien alloys, and strange flickering bulbs."
 		]
 	},
+	"robot_juggernaut": { "copyof": "robot_juggernaut_robot" },
 	"juggernaut_robot": { "copyof": "robot_juggernaut_robot" },
 	"robot_mannequin_robot": {
 		"name": "Robot, Mannequin Robot",
@@ -3037,6 +3047,7 @@
 			"Target: Designed as an active target for weapons practice, a target model has +2 Dexterity, a 10-foot increase to speed, hardness 5, and {feat/Dodge} in place of Alertness. Reducing a target model below half its maximum hit points causes it to shut down for 10 minutes."
 		]
 	},
+	"robot_mannequin": { "copyof": "robot_mannequin_robot" },
 	"mannequin_robot": { "copyof": "robot_mannequin_robot" },
 	"robot_myrmidon_robot": {
 		"name": "Robot, Myrmidon Robot",
@@ -3105,6 +3116,7 @@
 			"**Family:** {family/Robot}"
 		]
 	},
+	"robot_myrmidon": { "copyof": "robot_myrmidon_robot" },
 	"myrmidon_robot": { "copyof": "robot_myrmidon_robot" },
 	"robot_observer_robot": {
 		"name": "Robot, Observer Robot",
@@ -3178,6 +3190,7 @@
 		]
 	},
 	"observer_robot": { "copyof": "robot_observer_robot" },
+	"robot_observer": { "copyof": "robot_observer_robot" },
 	"robot_observer_robot_swarm": {
 		"name": "Robot, Observer Robot Swarm",
 		"sources": [
@@ -3243,6 +3256,7 @@
 		]
 	},
 	"observer_robot_swarm": { "copyof": "robot_observer_robot_swarm" },
+	"robot_observer_swarm": { "copyof": "robot_observer_robot_swarm" },
 	"robot_octopod_mechanic_drone": {
 		"name": "Robot, Octopod Mechanic Drone",
 		"sources": [
@@ -3417,6 +3431,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"robot_reclamation": { "copyof": "robot_reclamation_robot" },
 	"reclamation_robot": { "copyof": "robot_reclamation_robot" },
 	"robot_repair_robot": {
 		"name": "Robot, Repair Robot",
@@ -3486,6 +3501,7 @@
 			"**Family:** {family/Robot}"
 		]
 	},
+	"robot_repair": { "copyof": "robot_repair_robot" },
 	"repair_robot": { "copyof": "robot_repair_robot" },
 	"robot_scrapyard_robot": {
 		"name": "Robot, Scrapyard Robot",
@@ -3558,6 +3574,7 @@
 			"**Family:** {family/Robot}"
 		]
 	},
+	"robot_scrapyard": { "copyof": "robot_scrapyard_robot" },
 	"scrapyard_robot": { "copyof": "robot_scrapyard_robot" },
 	"robot_surgeon_robot": {
 		"name": "Robot, Surgeon Robot",
@@ -3649,6 +3666,7 @@
 			"These robots are most commonly encountered in Silver Mount, among the Technic League compound in Starfall, or hidden away inside other ruins of Divinity's crash where they once were stationed to provide medical care. However, rogue surgeon robots may also be found in dungeons or caves that they've transformed into their own macabre operating rooms filled with all manner of strange and alien technological devices. On rare occasions, these beings form pacts with other intelligent creatures, bartering their services as surgeons in return for both materials and test subjects. Lacking any sort of conscience or ethical code, surgeon robots make excellent torturers and executioners."
 		]
 	},
+	"robot_surgeon": { "copyof": "robot_surgeon_robot" },
 	"surgeon_robot": { "copyof": "robot_surgeon_robot" },
 	"robot_terraformer_robot": {
 		"name": "Robot, Terraformer Robot",
@@ -3715,6 +3733,7 @@
 			"**Family:** {family/Robot}"
 		]
 	},
+	"robot_terraformer": { "copyof": "robot_terraformer_robot" },
 	"terraformer_robot": { "copyof": "robot_terraformer_robot" },
 	"robot_thought_harvester_robot": {
 		"name": "Robot, Thought Harvester Robot",
@@ -3795,6 +3814,7 @@
 			"These robots show little individual personality as they go about their work of harvesting memories. Unlike other robots, which are generally content to stand perfectly motionless when not in use, thought harvesters tend to fidget, scanning for danger and waving their syringetipped tendrils in the air. A thought harvester cannot itself access any of the thoughts stored within the crystalline spheres, though it does retain some general idea of the memories it has previously collected. To the thought harvester, these memories are simply cargo to be recovered and brought back to its superiors."
 		]
 	},
+	"robot_thought_harvester": { "copyof": "robot_thought_harvester_robot" },
 	"thought_harvester_robot": { "copyof": "robot_thought_harvester_robot" },
 	"robot_torturer_robot": {
 		"name": "Robot, Torturer Robot",
@@ -3863,6 +3883,7 @@
 			"**Family:** {family/Robot}"
 		]
 	},
+	"robot_torturer": { "copyof": "robot_torturer_robot" },
 	"torturer_robot": { "copyof": "robot_torturer_robot" },
 	"robot_warden_robot": {
 		"name": "Robot, Warden Robot",
@@ -3959,6 +3980,7 @@
 			"Silent Sentinel (CR 9): Explorers investigating ruins in the Felldales of western Numeria have reported encountering a unique version of the warden robot that can generate fields that cancel sound rather than induce nausea, earning it the name \"Silent Sentinel.\" This aura has the effect of a silence spell with a 30-foot radius centered on the warden, but the effect can't be dispelled or countered by magic. Instead of sonic disruptors, Silent Sentinel is equipped with integrated lasers that deal 2d8 points of fire damage. Based on recent reports from near the First Blade's Path, this specialized warden doesn't keep to just the Felldales."
 		]
 	},
+	"robot_warden": { "copyof": "robot_warden_robot" },
 	"warden_robot": { "copyof": "robot_warden_robot" },
 	"roc": {
 		"name": "Roc",

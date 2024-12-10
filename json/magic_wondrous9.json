@@ -3319,16 +3319,20 @@
 			"**Requirements** {feat/Craft Wondrous Item}, secret chest; **Cost** 6,250 gp (Type V), 7,500 gp (Type VI)"
 		]
 	},
+	"bag_of_holding_giant_type_v": { "copyof": "bag_of_holding_giant_type_5" },
 	"giant_bag_of_holding_type_5": {
 		"copyof": "bag_of_holding_giant_type_5"
 	},
+	"giant_bag_of_holding_type_v": { "copyof": "giant_bag_of_holding_type_5" },
 	"bag_of_holding_giant_type_6": {
 		"name": "Bag of Holding (Giant) (Type VI)",
 		"copyof": "bag_of_holding_giant_type_5"
 	},
+	"bag_of_holding_giant_type_vi": { "copyof": "bag_of_holding_giant_type_6" },
 	"giant_bag_of_holding_type_6": {
 		"copyof": "bag_of_holding_giant_type_6"
 	},
+	"giant_bag_of_holding_type_vi": { "copyof": "giant_bag_of_holding_type_6" },
 	"waters_of_transfiguration": {
 		"name": "Waters of Transfiguration",
 		"sources": [ "Ultimate Equipment" ],

@@ -108,7 +108,6 @@
 	},
 	"blessing_of_luck_and_resolve_mass": {
 		"name": "Blessing of Luck and Resolve, Mass",
-		"sources": [ "Advanced Race Guide" ],
 		"copyof": "blessing_of_luck_and_resolve"
 	},
 	"mass_blessing_of_luck_and_resolve": {
@@ -308,6 +307,7 @@
 			"You can cause the target to be both blinded and deafened at the same time. The target must attempt a saving throw against each effect separately."
 		]
 	},
+	"blindness_or_deafness": { "copyof": "blindness_deafness" },
 	"blink": {
 		"name": "Blink",
 		"sources": [
@@ -1611,7 +1611,6 @@
 	},
 	"brand_greater": {
 		"name": "Brand, Greater",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "brand"
 	},
 	"greater_brand": {
@@ -1796,7 +1795,6 @@
 	},
 	"break_greater": {
 		"name": "Break, Greater",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "break"
 	},
 	"greater_break": {
@@ -2112,7 +2110,6 @@
 	},
 	"bulls_strength_mass": {
 		"name": "Bull's Strength, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "bulls_strength"
 	},
 	"mass_bulls_strength": {
@@ -2719,7 +2716,6 @@
 	},
 	"cacophonous_call_mass": {
 		"name": "Cacophonous Call, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "cacophonous_call"
 	},
 	"mass_cacophonous_call": {
@@ -2996,7 +2992,6 @@
 	},
 	"call_lightning_storm": {
 		"name": "Call Lightning Storm",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "call_lightning"
 	},
 	"call_spirit": {
@@ -3147,10 +3142,6 @@
 	},
 	"callback_greater": {
 		"name": "Callback, Greater",
-		"sources": [
-			"Ultimate Wilderness",
-			"Familiar Folio"
-		],
 		"copyof": "callback"
 	},
 	"greater_callback": {
@@ -3518,7 +3509,6 @@
 	},
 	"castigate_mass": {
 		"name": "Castigate, Mass",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "castigate"
 	},
 	"mass_castigate": {
@@ -3597,7 +3587,6 @@
 	},
 	"cats_grace_mass": {
 		"name": "Cat's Grace, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "cats_grace"
 	},
 	"mass_cats_grace": {
@@ -4285,7 +4274,6 @@
 	},
 	"chameleon_stride_greater": {
 		"name": "Chameleon Stride, Greater",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "chameleon_stride"
 	},
 	"greater_chameleon_stride": {
@@ -4579,7 +4567,6 @@
 	},
 	"charm_monster_mass": {
 		"name": "Charm Monster, Mass",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "charm_monster"
 	},
 	"mass_charm_monster": {
@@ -4655,7 +4642,6 @@
 	},
 	"charm_person_mass": {
 		"name": "Charm Person, Mass",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "charm_person"
 	},
 	"mass_charm_person": {
@@ -4663,7 +4649,6 @@
 	},
 	"charm_fey": {
 		"name": "Charm Fey",
-		"sources": [ "The First World, Realm of the Fey" ],
 		"copyof": "charm_person"
 	},
 	"charnel_house": {
@@ -4983,7 +4968,6 @@
 	},
 	"claim_identity_greater": {
 		"name": "Claim Identity, Greater",
-		"sources": [ "Spymaster's Handbook" ],
 		"copyof": "claim_identity"
 	},
 	"greater_claim_identity": {

@@ -253,6 +253,7 @@
 		]
 	},
 	"giant_porcupine": { "copyof": "porcupine_giant_porcupine" },
+	"porcupine_giant": { "copyof": "porcupine_giant_porcupine" },
 	"primeval_sea_creature_kronosaurus": {
 		"name": "Primeval Sea Creature, Kronosaurus",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
@@ -2322,6 +2323,7 @@
 			"A typical adult rukh stands nearly 35 feet tall with a wingspawn of over 60 feet. Although often starving, they can weigh upward of 800 pounds. Juvenile rukhs usually stand about 10 feet tall, with a relatively small wingspan of near 18 feet. Most weigh about 200 pounds."
 		]
 	},
+	"rukh_juvenile": { "copyof": "rukh_juvenile_rukh" },
 	"juvenile_rukh": { "copyof": "rukh_juvenile_rukh" },
 	"rune_guardian": {
 		"name": "Rune Guardian",

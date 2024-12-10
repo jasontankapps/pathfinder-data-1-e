@@ -454,6 +454,7 @@
 		]
 	},
 	"arctic_hare": { "copyof": "familiar_arctic_hare" },
+	"hare_arctic": { "copyof": "familiar_arctic_hare" },
 	"familiar_arctic_tern": {
 		"name": "Familiar, Arctic Tern",
 		"sources": [
@@ -508,6 +509,7 @@
 		]
 	},
 	"arctic_tern": { "copyof": "familiar_arctic_tern" },
+	"tern_arctic": { "copyof": "familiar_arctic_tern" },
 	"familiar_armadillo": {
 		"name": "Familiar, Armadillo",
 		"sources": [
@@ -677,6 +679,7 @@
 		]
 	},
 	"blue_ringed_octopus": { "copyof": "familiar_blue_ringed_octopus" },
+	"octopus_blue_ringed": { "copyof": "familiar_blue_ringed_octopus" },
 	"familiar_butterfly_moth": {
 		"name": "Familiar, Butterfly/Moth",
 		"sources": [
@@ -727,6 +730,7 @@
 		]
 	},
 	"butterfly": { "copyof": "familiar_butterfly_moth" },
+	"familiar_butterfly": { "copyof": "familiar_butterfly_moth" },
 	"butterfly_or_moth": { "copyof": "familiar_butterfly_moth" },
 	"moth": { "copyof": "familiar_butterfly_moth" },
 	"familiar_cat": {
@@ -1483,6 +1487,7 @@
 		]
 	},
 	"giant_isopod": { "copyof": "familiar_giant_isopod" },
+	"isopod_giant": { "copyof": "familiar_giant_isopod" },
 	"familiar_giant_tardigrade": {
 		"name": "Familiar, Giant Tardigrade",
 		"sources": [
@@ -1539,6 +1544,7 @@
 		]
 	},
 	"giant_tardigrade": { "copyof": "familiar_giant_tardigrade" },
+	"tardigrade_giant": { "copyof": "familiar_giant_tardigrade" },
 	"familiar_goat": {
 		"name": "Familiar, Goat",
 		"sources": [
@@ -1803,6 +1809,7 @@
 		]
 	},
 	"house_centipede": { "copyof": "familiar_house_centipede" },
+	"centipede_house": { "copyof": "familiar_house_centipede" },
 	"familiar_ioun_wyrd": {
 		"name": "Familiar, Ioun Wyrd",
 		"sources": [
@@ -2040,6 +2047,7 @@
 		]
 	},
 	"king_crab": { "copyof": "familiar_king_crab" },
+	"crab_king": { "copyof": "familiar_king_crab" },
 	"familiar_koala": {
 		"name": "Familiar, Koala",
 		"sources": [
@@ -2261,6 +2269,7 @@
 		]
 	},
 	"leopard_slug": { "copyof": "familiar_leopard_slug" },
+	"slug_leopard": { "copyof": "familiar_leopard_slug" },
 	"familiar_lizard": {
 		"name": "Familiar, Lizard",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2361,6 +2370,7 @@
 		]
 	},
 	"margay_cat": { "copyof": "familiar_margay_cat" },
+	"cat_margay": { "copyof": "familiar_margay_cat" },
 	"familiar_meerkat": {
 		"name": "Familiar, Meerkat",
 		"sources": [
@@ -3765,6 +3775,7 @@
 		]
 	},
 	"shimmerwing_dragonfly": { "copyof": "familiar_shimmerwing_dragonfly" },
+	"dragonfly_shimmerwing": { "copyof": "familiar_shimmerwing_dragonfly" },
 	"familiar_sloth": {
 		"name": "Familiar, Sloth",
 		"sources": [
@@ -3873,6 +3884,7 @@
 		]
 	},
 	"spiny_starfish": { "copyof": "familiar_spiny_starfish" },
+	"starfish_spiny": { "copyof": "familiar_spiny_starfish" },
 	"familiar_squirrel": {
 		"name": "Familiar, Squirrel",
 		"sources": [
@@ -5883,6 +5895,7 @@
 			"Tiger fish roam tropical waterways, their long, streamlined bodies built for speed. They can grow to lengths of up to 6 feet and weigh as much as 150 pounds."
 		]
 	},
+	"fish_tiger": { "copyof": "fish_tiger_fish" },
 	"tiger_fish": { "copyof": "fish_tiger_fish" },
 	"fish_varisian_hagfish": {
 		"name": "Fish, Varisian Hagfish",
@@ -6057,6 +6070,7 @@
 			"A witch can take a giant flea as a familiar. Like all vermin, a giant flea gains 1 point of Intelligence when it becomes a familiar. A giant flea familiar grants its master a +3 bonus on Fortitude saves against disease."
 		]
 	},
+	"flea_giant": { "copyof": "flea_giant_flea" },
 	"giant_flea": { "copyof": "flea_giant_flea" },
 	"flea_mammoth_flea": {
 		"name": "Flea, Mammoth Flea",
@@ -6112,6 +6126,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"flea_mammoth": { "copyof": "flea_mammoth_flea" },
 	"mammoth_flea": { "copyof": "flea_mammoth_flea" },
 	"fleshdreg": {
 		"name": "Fleshdreg",

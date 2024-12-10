@@ -492,6 +492,7 @@
 	},
 	"cheetah": { "copyof": "cat_small_cheetah_leopard" },
 	"leopard": { "copyof": "cat_small_cheetah_leopard" },
+	"cat_small": { "copyof": "cat_small_cheetah_leopard" },
 	"caterpillar_giant": {
 		"name": "Caterpillar, Giant",
 		"sources": [ "Ultimate Wilderness" ],

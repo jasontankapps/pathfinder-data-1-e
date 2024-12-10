@@ -1609,6 +1609,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, polymorph or wild shape ability; **Cost** 1,375 gp"
 		]
 	},
+	"vestment_druids": { "copyof": "druids_vestment" },
 	"pressure_suit": {
 		"name": "Pressure Suit",
 		"sources": [ "Distant Worlds" ],
@@ -2104,6 +2105,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, righteous might or transformation; **Cost** 6,500 gp"
 		]
 	},
+	"robe_monks": { "copyof": "monks_robe" },
 	"habit_of_the_winter_explorer": {
 		"name": "Habit of the Winter Explorer",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],

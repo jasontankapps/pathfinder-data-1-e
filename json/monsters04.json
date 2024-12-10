@@ -380,6 +380,7 @@
 		]
 	},
 	"giant_botfly": { "copyof": "botfly_giant_botfly" },
+	"botfly_giant": { "copyof": "botfly_giant_botfly" },
 	"brain_mole": {
 		"name": "Brain Mole",
 		"sources": [ "Bestiary 5" ],
@@ -3533,6 +3534,7 @@
 		]
 	},
 	"blood_caterpillar": { "copyof": "caterpillar_blood_caterpillar" },
+	"caterpillar_blood": { "copyof": "caterpillar_blood_caterpillar" },
 	"caterpillar_horn_caterpillar": {
 		"name": "Caterpillar, Horn Caterpillar",
 		"sources": [ "Bestiary 5" ],
@@ -3588,6 +3590,7 @@
 		]
 	},
 	"horn_caterpillar": { "copyof": "caterpillar_horn_caterpillar" },
+	"caterpillar_horn": { "copyof": "caterpillar_horn_caterpillar" },
 	"catfolk": {
 		"name": "Catfolk",
 		"sources": [ "Bestiary 3" ],

@@ -202,65 +202,104 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {feat/Craft Magic Arms and Armor}, shield; **Cost** 500 gp"
 		]
 	},
-	"pauldrons_of_unflinching_fortitude_1_2_fortitude": {
-		"name": "Pauldrons of Unflinching Fortitude (+1/+2 Fortitude)",
+	"pauldrons_of_unflinching_fortitude_1_2f": {
+		"name": "Pauldrons of Unflinching Fortitude (+1, +2F)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Pauldrons of Unflinching Fortitude",
 			"",
 			"{SOURCE Mythic Adventures/155}  ",
 			"**Aura** moderate abjuration; **CL** 7th  ",
-			"**Slot** shoulders; **Price** 1,500 gp (+1/+2 Fortitude), 6,000 gp (+2/+3 Fortitude), 13,500 gp (+3/+4 Fortitude), 24,000 gp (+4/+5 Fortitude), 37,500 gp (+5/+6 Fortitude); **Weight** 1 lb.",
+			"**Slot** shoulders; **Price** 1,500 gp (+1, +2F), 6,000 gp (+2, +3F), 13,500 gp (+3, +4F), 24,000 gp (+4, +5F), 37,500 gp (+5/+6 Fortitude); **Weight** 1 lb.",
 			"",
 			"The wearer of these elegant, polished steel pauldrons gains a bonus on all saving throws, as with a cloak of resistance, but the resistance bonus on Fortitude saves is one greater. Furthermore, if the wearer fails a Fortitude saving throw, he can expend one use of mythic power as an immediate action to reroll that saving throw. If the wearer fails the saving throw on the reroll, he can't use this ability again for 24 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, resistance, the creator must have the mythic saves ability; **Cost** 750 gp (+1/+2 Fortitude), 3,000 gp (+2/+3 Fortitude), 6,750 gp (+3/+4 Fortitude), 12,000 gp (+4/+5 Fortitude), 18,750 gp (+5/+6 Fortitude)"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, resistance, the creator must have the mythic saves ability; **Cost** 750 gp (+1, +2F), 3,000 gp (+2, +3F), 6,750 gp (+3, +4F), 12,000 gp (+4, +5F), 18,750 gp (+5/+6 Fortitude)"
 		]
 	},
-	"pauldrons_of_unflinching_fortitude_1_or_2_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_1_2_fortitude"
+	"pauldrons_of_unflinching_fortitude_2_3f": {
+		"name": "Pauldrons of Unflinching Fortitude (+2, +3F)",
+		"copyof": "pauldrons_of_unflinching_fortitude_1_2f"
 	},
-	"cloak_of_quick_reflexes_1_2_reflex": {
-		"name": "Cloak of Quick Reflexes (+1/+2 Reflex)",
+	"pauldrons_of_unflinching_fortitude_3_4f": {
+		"name": "Pauldrons of Unflinching Fortitude (+3, +4F)",
+		"copyof": "pauldrons_of_unflinching_fortitude_1_2f"
+	},
+	"pauldrons_of_unflinching_fortitude_4_5f": {
+		"name": "Pauldrons of Unflinching Fortitude (+4, +5F)",
+		"copyof": "pauldrons_of_unflinching_fortitude_1_2f"
+	},
+	"pauldrons_of_unflinching_fortitude_5_6f": {
+		"name": "Pauldrons of Unflinching Fortitude (+5/+6 Fortitude)",
+		"copyof": "pauldrons_of_unflinching_fortitude_1_2f"
+	},
+	"cloak_of_quick_reflexes_1_2r": {
+		"name": "Cloak of Quick Reflexes (+1, +2R)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Cloak of Quick Reflexes",
 			"",
 			"{SOURCE Mythic Adventures/149}  ",
 			"**Aura** moderate abjuration; **CL** 7th  ",
-			"**Slot** shoulders; **Price** 1,500 gp (+1/+2 Reflex), 6,000 gp (+2/+3 Reflex), 13,500 gp (+3/+4 Reflex), 24,000 gp (+4/+5 Reflex), 37,500 gp (+5/+6 Reflex); **Weight** 1 lb.",
+			"**Slot** shoulders; **Price** 1,500 gp (+1, +2R), 6,000 gp (+2, +3R), 13,500 gp (+3, +4R), 24,000 gp (+4, +5R), 37,500 gp (+5/+6 Reflex); **Weight** 1 lb.",
 			"",
 			"The wearer of this light, short cloak gains a bonus on all saving throws, as with a cloak of resistance, but the resistance bonus on Reflex saves is one greater. Furthermore, if the wearer fails a Reflex saving throw, she can expend one use of mythic power as an immediate action to reroll that saving throw. If the wearer fails the saving throw on the reroll, she can't use this ability again for 24 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, resistance, the creator must have the mythic saves ability; **Cost** 750 gp (+1/+2 Reflex), 3,000 gp (+2/+3 Reflex), 6,750 gp (+3/+4 Reflex), 12,000 gp (+4/+5 Reflex), 18,750 gp (+5/+6 Reflex)"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, resistance, the creator must have the mythic saves ability; **Cost** 750 gp (+1, +2R), 3,000 gp (+2, +3R), 6,750 gp (+3, +4R), 12,000 gp (+4, +5R), 18,750 gp (+5/+6 Reflex)"
 		]
 	},
-	"cloak_of_quick_reflexes_1_or_2_reflex": {
-		"copyof": "cloak_of_quick_reflexes_1_2_reflex"
+	"cloak_of_quick_reflexes_2_3r": {
+		"name": "Cloak of Quick Reflexes (+2, +3R)",
+		"copyof": "cloak_of_quick_reflexes_1_2r"
 	},
-	"cape_of_free_will_1_2_will": {
-		"name": "Cape of Free Will (+1/+2 Will)",
+	"cloak_of_quick_reflexes_3_4r": {
+		"name": "Cloak of Quick Reflexes (+3, +4R)",
+		"copyof": "cloak_of_quick_reflexes_1_2r"
+	},
+	"cloak_of_quick_reflexes_4_5r": {
+		"name": "Cloak of Quick Reflexes (+4, +5R)",
+		"copyof": "cloak_of_quick_reflexes_1_2r"
+	},
+	"cloak_of_quick_reflexes_5_6r": {
+		"name": "Cloak of Quick Reflexes (+5/+6 Reflex)",
+		"copyof": "cloak_of_quick_reflexes_1_2r"
+	},
+	"cape_of_free_will_1_2w": {
+		"name": "Cape of Free Will (+1, +2W)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Cape of Free Will",
 			"",
 			"{SOURCE Mythic Adventures/148}  ",
 			"**Aura** moderate abjuration; **CL** 7th  ",
-			"**Slot** shoulders; **Price** 1,500 gp (+1/+2 Will), 6,000 gp (+2/+3 Will), 13,500 gp (+3/+4 Will), 24,000 gp (+4/+5 Will), 37,500 gp (+5/+6 Will); **Weight** 1 lb.",
+			"**Slot** shoulders; **Price** 1,500 gp (+1, +2W), 6,000 gp (+2, +3W), 13,500 gp (+3, +4W), 24,000 gp (+4, +5W), 37,500 gp (+5/+6 Will); **Weight** 1 lb.",
 			"",
 			"The wearer of this brightly colored patchwork cape gains a bonus on all saving throws, as with a cloak of resistance, but the resistance bonus on Will saves is one greater. Furthermore, if the wearer fails a Will saving throw, he can expend one use of mythic power as an immediate action to reroll that saving throw. If the wearer fails the saving throw on the reroll, he can't use this ability again for 24 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, resistance, the creator must have the mythic saves ability; **Cost** 750 gp (+1/+2 Will), 3,000 gp (+2/+3 Will), 6,750 gp (+3/+4 Will), 12,000 gp (+4/+5 Will), 18,750 gp (+5/+6 Will)"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, resistance, the creator must have the mythic saves ability; **Cost** 750 gp (+1, +2W), 3,000 gp (+2, +3W), 6,750 gp (+3, +4W), 12,000 gp (+4, +5W), 18,750 gp (+5/+6 Will)"
 		]
 	},
-	"cape_of_free_will_1_or_2_will": {
-		"copyof": "cape_of_free_will_1_2_will"
+	"cape_of_free_will_2_3w": {
+		"name": "Cape of Free Will (+2, +3W)",
+		"copyof": "cape_of_free_will_1_2w"
+	},
+	"cape_of_free_will_4_5w": {
+		"name": "Cape of Free Will (+4, +5W)",
+		"copyof": "cape_of_free_will_1_2w"
+	},
+	"cape_of_free_will_3_4w": {
+		"name": "Cape of Free Will (+3, +4W)",
+		"copyof": "cape_of_free_will_1_2w"
+	},
+	"cape_of_free_will_5_6w": {
+		"name": "Cape of Free Will (+5/+6 Will)",
+		"copyof": "cape_of_free_will_1_2w"
 	},
 	"quickchange_cloak": {
 		"name": "Quickchange Cloak",
@@ -892,27 +931,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, endure elements, resistance; **Cost** 2,875 gp"
 		]
 	},
-	"pauldrons_of_unflinching_fortitude_2_3_fortitude": {
-		"name": "Pauldrons of Unflinching Fortitude (+2/+3 Fortitude)",
-		"copyof": "pauldrons_of_unflinching_fortitude_1_2_fortitude"
-	},
-	"pauldrons_of_unflinching_fortitude_2_or_3_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_2_3_fortitude"
-	},
-	"cloak_of_quick_reflexes_2_3_reflex": {
-		"name": "Cloak of Quick Reflexes (+2/+3 Reflex)",
-		"copyof": "cloak_of_quick_reflexes_1_2_reflex"
-	},
-	"cloak_of_quick_reflexes_2_or_3_reflex": {
-		"copyof": "cloak_of_quick_reflexes_2_3_reflex"
-	},
-	"cape_of_free_will_2_3_will": {
-		"name": "Cape of Free Will (+2/+3 Will)",
-		"copyof": "cape_of_free_will_1_2_will"
-	},
-	"cape_of_free_will_2_or_3_will": {
-		"copyof": "cape_of_free_will_2_3_will"
-	},
 	"cloak_of_heavenly_fire": {
 		"name": "Cloak of Heavenly Fire",
 		"sources": [ "Adventurer's Guide" ],
@@ -1500,27 +1518,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, contagion; **Cost** 6,700 gp"
 		]
 	},
-	"pauldrons_of_unflinching_fortitude_3_4_fortitude": {
-		"name": "Pauldrons of Unflinching Fortitude (+3/+4 Fortitude)",
-		"copyof": "pauldrons_of_unflinching_fortitude_1_2_fortitude"
-	},
-	"pauldrons_of_unflinching_fortitude_3_or_4_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_3_4_fortitude"
-	},
-	"cloak_of_quick_reflexes_3_4_reflex": {
-		"name": "Cloak of Quick Reflexes (+3/+4 Reflex)",
-		"copyof": "cloak_of_quick_reflexes_1_2_reflex"
-	},
-	"cloak_of_quick_reflexes_3_or_4_reflex": {
-		"copyof": "cloak_of_quick_reflexes_3_4_reflex"
-	},
-	"cape_of_free_will_3_4_will": {
-		"name": "Cape of Free Will (+3/+4 Will)",
-		"copyof": "cape_of_free_will_1_2_will"
-	},
-	"cape_of_free_will_3_or_4_will": {
-		"copyof": "cape_of_free_will_3_4_will"
-	},
 	"cloak_of_the_saga_keeper": {
 		"name": "Cloak of the Saga Keeper",
 		"sources": [ "People of the North" ],
@@ -2082,27 +2079,6 @@
 	"lesser_wings_of_flying": {
 		"copyof": "wings_of_flying_lesser"
 	},
-	"pauldrons_of_unflinching_fortitude_4_5_fortitude": {
-		"name": "Pauldrons of Unflinching Fortitude (+4/+5 Fortitude)",
-		"copyof": "pauldrons_of_unflinching_fortitude_1_2_fortitude"
-	},
-	"pauldrons_of_unflinching_fortitude_4_or_5_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_4_5_fortitude"
-	},
-	"cloak_of_quick_reflexes_4_5_reflex": {
-		"name": "Cloak of Quick Reflexes (+4/+5 Reflex)",
-		"copyof": "cloak_of_quick_reflexes_1_2_reflex"
-	},
-	"cloak_of_quick_reflexes_4_or_5_reflex": {
-		"copyof": "cloak_of_quick_reflexes_4_5_reflex"
-	},
-	"cape_of_free_will_4_5_will": {
-		"name": "Cape of Free Will (+4/+5 Will)",
-		"copyof": "cape_of_free_will_1_2_will"
-	},
-	"cape_of_free_will_4_or_5_will": {
-		"copyof": "cape_of_free_will_4_5_will"
-	},
 	"lycanthrope_skin_skinwalker_boar_rat_wolf": {
 		"name": "Lycanthrope Skin (Skinwalker) (boar, rat, wolf)",
 		"sources": [ "Inner Sea Races" ],
@@ -2295,27 +2271,6 @@
 	},
 	"swordlords_cloak_3": {
 		"copyof": "swordlords_cloak_3_bonus"
-	},
-	"pauldrons_of_unflinching_fortitude_5_6_fortitude": {
-		"name": "Pauldrons of Unflinching Fortitude (+5/+6 Fortitude)",
-		"copyof": "pauldrons_of_unflinching_fortitude_1_2_fortitude"
-	},
-	"pauldrons_of_unflinching_fortitude_5_or_6_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_5_6_fortitude"
-	},
-	"cloak_of_quick_reflexes_5_6_reflex": {
-		"name": "Cloak of Quick Reflexes (+5/+6 Reflex)",
-		"copyof": "cloak_of_quick_reflexes_1_2_reflex"
-	},
-	"cloak_of_quick_reflexes_5_or_6_reflex": {
-		"copyof": "cloak_of_quick_reflexes_5_6_reflex"
-	},
-	"cape_of_free_will_5_6_will": {
-		"name": "Cape of Free Will (+5/+6 Will)",
-		"copyof": "cape_of_free_will_1_2_will"
-	},
-	"cape_of_free_will_5_or_6_will": {
-		"copyof": "cape_of_free_will_5_6_will"
 	},
 	"plumed_mantle": {
 		"name": "Plumed Mantle",

@@ -4887,6 +4887,7 @@
 			"Larger dogs (known to Small races like halflings and gnomes as riding dogs) include hardier breeds such as huskies, mastiffs, and wolfhounds. A riding dog can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a DC 10 Ride check."
 		]
 	},
+	"dog_riding": { "copyof": "dog_riding_dog" },
 	"riding_dog": { "copyof": "dog_riding_dog" },
 	"dolphin": {
 		"name": "Dolphin",

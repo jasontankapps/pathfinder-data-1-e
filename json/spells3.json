@@ -113,7 +113,6 @@
 	},
 	"create_mindscape_greater": {
 		"name": "Create Mindscape, Greater",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "create_mindscape"
 	},
 	"greater_create_mindscape": {
@@ -226,22 +225,18 @@
 	},
 	"acid_pit": {
 		"name": "Acid Pit",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "create_pit"
 	},
 	"hungry_pit": {
 		"name": "Hungry Pit",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "create_pit"
 	},
 	"spiked_pit": {
 		"name": "Spiked Pit",
-		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "create_pit"
 	},
 	"walk_the_plank": {
 		"name": "Walk the Plank",
-		"sources": [ "Villain Codex" ],
 		"copyof": "create_pit"
 	},
 	"create_soul_gem": {
@@ -500,7 +495,6 @@
 	},
 	"crime_of_opportunity": {
 		"name": "Crime of Opportunity",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "crime_wave"
 	},
 	"crimson_breath": {
@@ -1437,12 +1431,10 @@
 	},
 	"curse_terrain": {
 		"name": "Curse Terrain",
-		"sources": [ "Horror Adventures" ],
 		"copyof": "lesser_curse_terrain"
 	},
 	"curse_terrain_greater": {
 		"name": "Curse Terrain, Greater",
-		"sources": [ "Horror Adventures" ],
 		"copyof": "lesser_curse_terrain"
 	},
 	"greater_curse_terrain": {
@@ -1450,7 +1442,6 @@
 	},
 	"curse_terrain_supreme": {
 		"name": "Curse Terrain, Supreme",
-		"sources": [ "Horror Adventures" ],
 		"copyof": "lesser_curse_terrain"
 	},
 	"supreme_curse_terrain": {
@@ -1790,7 +1781,6 @@
 	},
 	"dance_of_a_thousand_cuts": {
 		"name": "Dance of a Thousand Cuts",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "dance_of_a_hundred_cuts"
 	},
 	"dancing_darkness": {
@@ -2055,7 +2045,6 @@
 	},
 	"darkvision_communal": {
 		"name": "Darkvision, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "darkvision"
 	},
 	"communal_darkvision": {
@@ -2063,7 +2052,6 @@
 	},
 	"darkvision_greater": {
 		"name": "Darkvision, Greater",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "darkvision"
 	},
 	"greater_darkvision": {
@@ -2188,10 +2176,6 @@
 	},
 	"brightest_light": {
 		"name": "Brightest Light",
-		"sources": [
-			"Adventurer's Guide",
-			"Inner Sea Intrigue"
-		],
 		"copyof": "daylight"
 	},
 	"daywalker": {
@@ -2292,7 +2276,6 @@
 	},
 	"daze_mass": {
 		"name": "Daze, Mass",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "daze"
 	},
 	"mass_daze": {
@@ -2347,7 +2330,6 @@
 	},
 	"dazzling_blade_mass": {
 		"name": "Dazzling Blade, Mass",
-		"sources": [ "Rival Guide" ],
 		"copyof": "dazzling_blade"
 	},
 	"mass_dazzling_blade": {
@@ -2636,7 +2618,6 @@
 	},
 	"death_knell_aura_greater": {
 		"name": "Death Knell Aura, Greater",
-		"sources": [ "Book of the Damned - Volume 3: Horsemen of the Apocalypse" ],
 		"copyof": "death_knell_aura"
 	},
 	"greater_death_knell_aura": {
@@ -2833,7 +2814,6 @@
 	},
 	"debilitating_pain_mass": {
 		"name": "Debilitating Pain, Mass",
-		"sources": [ "Psychic Anthology" ],
 		"copyof": "debilitating_pain"
 	},
 	"mass_debilitating_pain": {
@@ -3449,7 +3429,6 @@
 	},
 	"delay_poison_communal": {
 		"name": "Delay Poison, Communal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "delay_poison"
 	},
 	"communal_delay_poison": {
@@ -4198,7 +4177,6 @@
 	},
 	"detect_magic_greater": {
 		"name": "Detect Magic, Greater",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "detect_magic"
 	},
 	"greater_detect_magic": {
@@ -4206,7 +4184,6 @@
 	},
 	"identifiers_eye": {
 		"name": "Identifier's Eye",
-		"sources": [ "Potions and Poisons" ],
 		"copyof": "detect_magic"
 	},
 	"detect_metal": {
@@ -4598,12 +4575,10 @@
 	},
 	"detect_anxieties": {
 		"name": "Detect Anxieties",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "detect_thoughts"
 	},
 	"detect_desires": {
 		"name": "Detect Desires",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "detect_thoughts"
 	},
 	"detect_undead": {
@@ -4673,7 +4648,6 @@
 	},
 	"undeath_sense": {
 		"name": "Undeath Sense",
-		"sources": [ "Potions and Poisons" ],
 		"copyof": "detect_undead"
 	},
 	"determine_depth": {
@@ -4974,7 +4948,6 @@
 	},
 	"phase_step": {
 		"name": "Phase Step",
-		"sources": [ "Potions and Poisons" ],
 		"copyof": "dimension_door"
 	},
 	"dimensional_anchor": {
@@ -5393,7 +5366,6 @@
 	},
 	"discharge_greater": {
 		"name": "Discharge, Greater",
-		"sources": [ "Technology Guide" ],
 		"copyof": "discharge"
 	},
 	"greater_discharge": {

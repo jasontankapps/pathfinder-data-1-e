@@ -2584,6 +2584,7 @@
 			"A hooded lantern sheds normal light in a 30-foot radius and increases the light level by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A hooded lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of oil. You can carry a lantern in one hand."
 		]
 	},
+	"lantern_hooded": { "copyof": "hooded_lantern" },
 	"hoodwink_cowl": {
 		"name": "Hoodwink cowl",
 		"sources": [ "Occult Adventures" ],
@@ -4720,10 +4721,12 @@
 			"Both types of marine rope are sold in 50-foot lengths. Treated hemp has 2 hit points and can be broken with a DC 23 Strength check. Woven kelp has 3 hit points and can be broken with a DC 24 Strength check."
 		]
 	},
+	"rope_marine_treated_hemp": { "copyof": "marine_rope_treated_hemp" },
 	"marine_rope_woven_kelp": {
 		"name": "Marine rope (woven kelp)",
 		"copyof": "marine_rope_treated_hemp"
 	},
+	"rope_marine_woven_kelp": { "copyof": "marine_rope_woven_kelp" },
 	"marked_cards": {
 		"name": "Marked cards",
 		"sources": [
@@ -5308,6 +5311,7 @@
 			"A smaller version of the bullseye lantern, a miner's lantern provides normal light in a 30-foot cone and increases the light level by one step in the area beyond that, out to a 60-foot cone (darkness becomes dim light and dim light becomes normal light). A miner's lantern does not increase the light level in normal light or bright light. It burns for 6 hours on 1 pint of oil. A miner's lantern comes with straps for attachment to a helmet or other piece of sturdy headgear, but it can also be carried in one hand."
 		]
 	},
+	"lantern_miners": { "copyof": "miners_lantern" },
 	"miners_pick": {
 		"name": "Miner's pick",
 		"sources": [
@@ -5419,6 +5423,9 @@
 		]
 	},
 	"mithral_chain_ten_ft": {
+		"copyof": "mithral_chain_10_ft"
+	},
+	"chain_mithral": {
 		"copyof": "mithral_chain_10_ft"
 	},
 	"mithral_horseshoes": {

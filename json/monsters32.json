@@ -959,6 +959,7 @@
 			"A full-grown male emperor walrus measures 20 feet in length and weighs around 16 tons, with tusks up to 6 feet long. It can live up to 80 years."
 		]
 	},
+	"walrus_emperor": { "copyof": "walrus_emperor_walrus" },
 	"emperor_walrus": { "copyof": "walrus_emperor_walrus" },
 	"walrus_walrus_b4": {
 		"name": "Walrus, Walrus (B4)",
@@ -1204,6 +1205,7 @@
 			"Ash giants are 10 feet tall and weigh 1,200 pounds."
 		]
 	},
+	"giant_ash": { "copyof": "giant_ash_giant" },
 	"ash_giant": { "copyof": "giant_ash_giant" },
 	"giant_cave_giant": {
 		"name": "Giant, Cave Giant",
@@ -1266,6 +1268,7 @@
 			"Giant lizards of all types serve as both guard beasts and sport for the cave giants. Giant frilled lizards are rarely pets, as most cave giants opt to keep less dangerous monitor lizards instead. Kept in check only by fear and brutal beatings, such pets turn on their handlers at the first sign of weakness. At feeding time, live captives are tossed into the pens, a festive event filled with boisterous cheers and spirited betting."
 		]
 	},
+	"giant_cave": { "copyof": "giant_cave_giant" },
 	"cave_giant": { "copyof": "giant_cave_giant" },
 	"giant_cliff_giant": {
 		"name": "Giant, Cliff Giant",
@@ -1331,6 +1334,7 @@
 			"Cliff giants respect their elders, and some pairs living together are an adult giant with an old parent or grandparent."
 		]
 	},
+	"giant_cliff": { "copyof": "giant_cliff_giant" },
 	"cliff_giant": { "copyof": "giant_cliff_giant" },
 	"giant_cloud_giant": {
 		"name": "Giant, Cloud Giant",
@@ -1393,6 +1397,7 @@
 			"Legends abound of magical cloud giant cities nestled in the very clouds themselves that float with the winds and circumnavigate the world. While most cloud giants recognize this as a fantasy, there are some who not only claim to have seen them but have dedicated the entirety of their long lives to finding them again."
 		]
 	},
+	"giant_cloud": { "copyof": "giant_cloud_giant" },
 	"cloud_giant": { "copyof": "giant_cloud_giant" },
 	"giant_desert_giant": {
 		"name": "Giant, Desert Giant",
@@ -1454,6 +1459,7 @@
 			"Despite their nomadic ways, desert giants guard their territory fiercely, driving away all interlopers, whether intelligent or bestial."
 		]
 	},
+	"giant_desert": { "copyof": "giant_desert_giant" },
 	"desert_giant": { "copyof": "giant_desert_giant" },
 	"giant_eclipse_giant": {
 		"name": "Giant, Eclipse Giant",
@@ -1521,6 +1527,7 @@
 			"Eclipse seers are able to predict the coming of eclipses. While some believe this knowledge is divinely inspired, in truth most such giants are able to derive the eclipses using mathematical formulas. A typical eclipse seer has the advanced simple template or a few levels in bard, investigator, or wizard (specializing in divination)."
 		]
 	},
+	"giant_eclipse": { "copyof": "giant_eclipse_giant" },
 	"eclipse_giant": { "copyof": "giant_eclipse_giant" },
 	"giant_hill_giant": {
 		"name": "Giant, Hill Giant",
@@ -1577,6 +1584,7 @@
 			"Solitary, non-evil hill giants are very rare but can sometimes be found in other humanoid societies, though they are almost never accepted in central cities or population centers. They do best as laborers and soldiers in outlying frontier towns, and often serve as rudimentary diplomats to negotiate with marauding hill giant bands. Unfortunately, hill giants who shed their racial lifestyle for civilization are mocked and often killed on sight by their nomadic brethren. Still, these \"civilized\" hill giants can find their place within society and many have managed to live peaceful, uneventful lives."
 		]
 	},
+	"giant_hill": { "copyof": "giant_hill_giant" },
 	"hill_giant": { "copyof": "giant_hill_giant" },
 	"giant_jungle_giant": {
 		"name": "Giant, Jungle Giant",
@@ -1637,6 +1645,7 @@
 			"Jungle giants stand 17 feet tall and weigh 4,000 pounds. Their barklike skin bears runic brands etched into each giant as a rite of passage into adulthood. Jungle giant tribes are matriarchal, ruled by an elder female warrior. Males traditionally defend the village, gather food, tend livestock, and raise children."
 		]
 	},
+	"giant_jungle": { "copyof": "giant_jungle_giant" },
 	"jungle_giant": { "copyof": "giant_jungle_giant" },
 	"giant_marsh_giant": {
 		"name": "Giant, Marsh Giant",
@@ -1698,6 +1707,7 @@
 			"*Constant*-speak with animals; 3/day-contagion (DC 15), confusion (DC 14), quench (DC 14)."
 		]
 	},
+	"giant_marsh": { "copyof": "giant_marsh_giant" },
 	"marsh_giant": { "copyof": "giant_marsh_giant" },
 	"giant_moon_giant": {
 		"name": "Giant, Moon Giant",
@@ -1769,6 +1779,7 @@
 			"Most moon giants stand about 24 feet tall and weigh almost 18,000 pounds."
 		]
 	},
+	"giant_moon": { "copyof": "giant_moon_giant" },
 	"moon_giant": { "copyof": "giant_moon_giant" },
 	"giant_mountain_giant": {
 		"name": "Giant, Mountain Giant",
@@ -1832,6 +1843,7 @@
 			"The typical mountain giant stands a towering 45 feet tall and weighs 30,000 pounds."
 		]
 	},
+	"giant_mountain": { "copyof": "giant_mountain_giant" },
 	"mountain_giant": { "copyof": "giant_mountain_giant" },
 	"giant_ocean_giant": {
 		"name": "Giant, Ocean Giant",
@@ -1897,6 +1909,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"giant_ocean": { "copyof": "giant_ocean_giant" },
 	"ocean_giant": { "copyof": "giant_ocean_giant" },
 	"giant_plague_giant": {
 		"name": "Giant, Plague Giant",
@@ -1961,6 +1974,7 @@
 			"The average plague giant is 24 feet tall and weigh 15,000 pounds."
 		]
 	},
+	"giant_plague": { "copyof": "giant_plague_giant" },
 	"plague_giant": { "copyof": "giant_plague_giant" },
 	"giant_river_giant": {
 		"name": "Giant, River Giant",
@@ -2020,6 +2034,7 @@
 			"River giants prefer to lair on small islands, rock formations, or sediment banks where rivers come together. A river giant uses its home, usually a simple earthen hut of mud and reeds, to store its valuables or as a place to gather with others of its kind."
 		]
 	},
+	"giant_river": { "copyof": "giant_river_giant" },
 	"river_giant": { "copyof": "giant_river_giant" },
 	"giant_rune_giant": {
 		"name": "Giant, Rune Giant",
@@ -2088,6 +2103,7 @@
 			"Rune giants' charcoal flesh is decorated by dozens of runes-manifestations of their eldritch powers. Rune giants are 40 feet tall and weigh 25,000 pounds."
 		]
 	},
+	"giant_rune": { "copyof": "giant_rune_giant" },
 	"rune_giant": { "copyof": "giant_rune_giant" },
 	"giant_shadow_giant": {
 		"name": "Giant, Shadow Giant",
@@ -2150,6 +2166,7 @@
 			"Most shadow giants are especially taciturn and keep to themselves when not called to duty by the Umbral Court. They keep their own counsel and practice their own mysterious religion, whose bloody rituals of autosacrifice and cannibalism are presided over by their bone-and-featheradorned shamans atop short-stepped pyramids constructed of dark basalt blocks. On the Shadow Plane, families of shadow giants have been known to combine together to form greater tribes when times of war are at hand. Such an army arrayed upon the field of battle is often enough to make enemies sue for peace with offers of gold and prisoners for sacrifice."
 		]
 	},
+	"giant_shadow": { "copyof": "giant_shadow_giant" },
 	"shadow_giant": { "copyof": "giant_shadow_giant" },
 	"giant_slag_giant": {
 		"name": "Giant, Slag Giant",
@@ -2209,6 +2226,7 @@
 			"Slag giant settlements usually consist of several stone homes (built from or surrounded by forge slag) with built-in forges and large, smoking chimneys. Most are in hills or mountains, but they can be found anywhere there is a ready supply of iron ore. Although they prefer creation to combat, slag giants are brutal and efficient fighters, capable of destroying an enemy's weapons or armor in a few precise blows. They often let opponents retreat if it gives the giants the opportunity to collect any broken weapons and armor as salvage. If approached peacefully, they are willing to barter or sell their goods, though they usually don't have human-sized items on hand. Trespassers who carelessly or wantonly destroy a slag giant's work or foul its forge usually end up in the fire. Most settlements have several giant-sized breastplates the residents can don if they expect a serious fight."
 		]
 	},
+	"giant_slag": { "copyof": "giant_slag_giant" },
 	"slag_giant": { "copyof": "giant_slag_giant" },
 	"giant_stone_giant": {
 		"name": "Giant, Stone Giant",
@@ -2271,6 +2289,7 @@
 			"Some stone giants develop special abilities related to their environment. Called elders, these stone giants have Charisma scores of at least 15 and three spell-like abilities (CL 10th). Once per day they can use stone shape, stone tell, and either transmute rock to mud or transmute mud to rock (DC 17). The save DC is Charisma-based. One in 10 elders is a sorcerer, usually of 3rd to 6th level. Stone giant elders add +1 to their CR."
 		]
 	},
+	"giant_stone": { "copyof": "giant_stone_giant" },
 	"stone_giant": { "copyof": "giant_stone_giant" },
 	"giant_storm_giant": {
 		"name": "Giant, Storm Giant",
@@ -2335,6 +2354,7 @@
 			"Storm giants live in well-constructed towers, castles, or walled settlements, and prefer to live off the land. They maintain enormous, well-tended gardens and manage hundreds of acres of farmland per group. They often hire other humanoids, such as elves or humans, to help them run their massive farms. A storm giant enclave often takes responsibility for the safety of an entire island or stretch of coastline."
 		]
 	},
+	"giant_storm": { "copyof": "giant_storm_giant" },
 	"storm_giant": { "copyof": "giant_storm_giant" },
 	"giant_sun_giant": {
 		"name": "Giant, Sun Giant",
@@ -2400,6 +2420,7 @@
 			"Though they live for centuries, sun giants are blessed with eternally youthful appearances, a blessing that remains even for those who become selfish and corrupt. They tower over 25 feet tall and weigh roughly 18,000 pounds."
 		]
 	},
+	"giant_sun": { "copyof": "giant_sun_giant" },
 	"sun_giant": { "copyof": "giant_sun_giant" },
 	"giant_taiga_giant": {
 		"name": "Giant, Taiga Giant",
@@ -2464,6 +2485,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"giant_taiga": { "copyof": "giant_taiga_giant" },
 	"taiga_giant": { "copyof": "giant_taiga_giant" },
 	"giant_tomb_giant": {
 		"name": "Giant, Tomb Giant",
@@ -2549,6 +2571,7 @@
 			"Tomb giants are a secretive race, and go to extraordinary lengths to pursue and capture anyone they catch spying on them. Surrounding themselves with undead creatures (most of which are under their control) has provided the giants the secrecy they crave, as the dead don't utter secrets. Some folktales speak of silent, pale folk of impossible height who come out of the night in pursuit of a victim who has \"seen something no one should see.\" These stories have a grain of truth to them, and invariably end with the foolhardy individual vanished from his home, never to be seen again. Those few fortunate enough to have escaped with their lives bear scars of their interactions with the sinister giants, and survivors tell tales of pale giants who made light conversation with their victims while preparing to cook them. Darker tales hint at the tomb giants' perverse mating rituals, wherein chained victims are drained of their life force and left hanging on the walls, bearing witness to the giants' frenzied couplings before the pale creatures eat their weakened captives alive. Wherever these alabaster fiends tread, horror and madness is sure to follow."
 		]
 	},
+	"giant_tomb": { "copyof": "giant_tomb_giant" },
 	"tomb_giant": { "copyof": "giant_tomb_giant" },
 	"giant_vault_giant": {
 		"name": "Giant, Vault Giant",
@@ -2626,6 +2649,7 @@
 			"In their interactions with other intelligent denizens of the Sightless Sea, such as aboleths, munavris, and urdefhans, vault giants seem to operate according to an inscrutable agenda. They might raid one settlement, lavish gifts upon another, or raze yet another to the ground and take all of its inhabitants as prisoners. Intelligent captives receive equally erratic treatment: they might be eaten in a communal feast or set free in a distant corner of Orv. Vault giants are cautious when they meet unfamiliar intelligent creatures for the first time, preferring to take them captive until they receive instructions from their leaders. Vault giants know only that they loyally follow the orders of their psychic circle; few realize that these powerful psychics take their commands in turn from unknown masters far below the Sightless Sea."
 		]
 	},
+	"giant_vault": { "copyof": "giant_vault_giant" },
 	"vault_giant": { "copyof": "giant_vault_giant" },
 	"giant_wood_giant": {
 		"name": "Giant, Wood Giant",
@@ -2685,6 +2709,7 @@
 			"Wood giants stand 14 feet tall and weigh 1,200 pounds. They are vegetarians by choice, resorting to eating meat only when no other option is available."
 		]
 	},
+	"giant_wood": { "copyof": "giant_wood_giant" },
 	"wood_giant": { "copyof": "giant_wood_giant" },
 	"genie_djinni": {
 		"name": "Genie, Djinni",
@@ -3264,6 +3289,7 @@
 			"**Family:** {family/Gargoyle}"
 		]
 	},
+	"gargoyle_four_armed": { "copyof": "gargoyle_four_armed_gargoyle" },
 	"four_armed_gargoyle": { "copyof": "gargoyle_four_armed_gargoyle" },
 	"gargoyle_gargoyle_abductor": {
 		"name": "Gargoyle, Gargoyle Abductor",
@@ -3543,6 +3569,7 @@
 		]
 	},
 	"giant_gar": { "copyof": "gar_giant_gar" },
+	"gar_giant": { "copyof": "gar_giant_gar" },
 	"gathlain": {
 		"name": "Gathlain",
 		"sources": [ "Bestiary 4" ],

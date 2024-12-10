@@ -703,13 +703,13 @@
 		]
 	},
 	"devil_accomplice_devil_hesperian": {
-		"name": "Devil, Accomplice Devil (Hesperian)",
+		"name": "Devil, Accomplice/ (Hesperian)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Accomplice Devil (Hesperian)",
+			"## Devil, Accomplice/ (Hesperian)",
 			"",
 			"*This robed figure appears human except for snakelike eyes, a pair of devilish horns, and the occasional dart of a forked tongue.*",
 			"",
@@ -773,14 +773,15 @@
 	},
 	"hesperian": { "copyof": "devil_accomplice_devil_hesperian" },
 	"accomplice_devil": { "copyof": "devil_accomplice_devil_hesperian" },
+	"devil_accomplice": { "copyof": "devil_accomplice_devil_hesperian" },
 	"devil_accuser_devil_zebub": {
-		"name": "Devil, Accuser Devil (Zebub)",
+		"name": "Devil, Accuser/ (Zebub)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Accuser Devil (Zebub)",
+			"## Devil, Accuser/ (Zebub)",
 			"",
 			"*This childlike blasphemy conjoins the features of a plump human infant and a gigantic, gore-fattened fly.*",
 			"",
@@ -843,6 +844,7 @@
 	},
 	"zebub": { "copyof": "devil_accuser_devil_zebub" },
 	"accuser_devil": { "copyof": "devil_accuser_devil_zebub" },
+	"devil_accuser": { "copyof": "devil_accuser_devil_zebub" },
 	"devil_advodaza": {
 		"name": "Devil, Advodaza",
 		"sources": [
@@ -920,14 +922,14 @@
 	},
 	"advodaza": { "copyof": "devil_advodaza" },
 	"devil_apostate_devil_deimavigga": {
-		"name": "Devil, Apostate Devil (Deimavigga)",
+		"name": "Devil, Apostate/ (Deimavigga)",
 		"sources": [
 			"Bestiary 5",
 			"Book of the Damned - Volume 1: Princes of Darkness",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Apostate Devil (Deimavigga)",
+			"## Devil, Apostate/ (Deimavigga)",
 			"",
 			"*A grim metal mask floats above ceremonial armor that shifts and writhes, and long blades form fingers on gauntleted hands.*",
 			"",
@@ -1002,11 +1004,12 @@
 	},
 	"deimavigga": { "copyof": "devil_apostate_devil_deimavigga" },
 	"apostate_devil": { "copyof": "devil_apostate_devil_deimavigga" },
+	"devil_apostate": { "copyof": "devil_apostate_devil_deimavigga" },
 	"devil_barbed_devil_hamatula": {
-		"name": "Devil, Barbed Devil (Hamatula)",
+		"name": "Devil, Barbed/ (Hamatula)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Devil, Barbed Devil (Hamatula)",
+			"## Devil, Barbed/ (Hamatula)",
 			"",
 			"*From the tip of its lashing tail to the serrated features of its fang-filled visage, this fiery-eyed sentinel bristles with barbs.*",
 			"",
@@ -1068,11 +1071,12 @@
 	},
 	"hamatula": { "copyof": "devil_barbed_devil_hamatula" },
 	"barbed_devil": { "copyof": "devil_barbed_devil_hamatula" },
+	"devil_barbed": { "copyof": "devil_barbed_devil_hamatula" },
 	"devil_bearded_devil_barbazu": {
-		"name": "Devil, Bearded Devil (Barbazu)",
+		"name": "Devil, Bearded/ (Barbazu)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Devil, Bearded Devil (Barbazu)",
+			"## Devil, Bearded/ (Barbazu)",
 			"",
 			"*This seething devil deftly wields a vicious, saw-toothed glaive, while below its toothy maw writhes a hideous, twitching beard.*",
 			"",
@@ -1135,15 +1139,16 @@
 	},
 	"barbazu": { "copyof": "devil_bearded_devil_barbazu" },
 	"bearded_devil": { "copyof": "devil_bearded_devil_barbazu" },
+	"devil_bearded": { "copyof": "devil_bearded_devil_barbazu" },
 	"devil_belier_devil_bdellavritra": {
-		"name": "Devil, Belier Devil (Bdellavritra)",
+		"name": "Devil, Belier/ (Bdellavritra)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #12: Crown of Fangs",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Belier Devil (Bdellavritra)",
+			"## Devil, Belier/ (Bdellavritra)",
 			"",
 			"*This amphisbaenic monstrosity has the body of a slug with a leech's mouth at one end and a knot of three human heads at the other.*",
 			"",
@@ -1201,11 +1206,12 @@
 	},
 	"bdellavritra": { "copyof": "devil_belier_devil_bdellavritra" },
 	"belier_devil": { "copyof": "devil_belier_devil_bdellavritra" },
+	"devil_belier": { "copyof": "devil_belier_devil_bdellavritra" },
 	"devil_bone_devil_osyluth": {
-		"name": "Devil, Bone Devil (Osyluth)",
+		"name": "Devil, Bone/ (Osyluth)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Devil, Bone Devil (Osyluth)",
+			"## Devil, Bone/ (Osyluth)",
 			"",
 			"*Merging the most horrifying features of carrion-fed insect and withered cadaver, this bony devil moves in unsettling lurches.*",
 			"",
@@ -1266,14 +1272,15 @@
 	},
 	"osyluth": { "copyof": "devil_bone_devil_osyluth" },
 	"bone_devil": { "copyof": "devil_bone_devil_osyluth" },
+	"devil_bone": { "copyof": "devil_bone_devil_osyluth" },
 	"devil_cabal_devil_uniila": {
-		"name": "Devil, Cabal Devil (Uniila)",
+		"name": "Devil, Cabal/ (Uniila)",
 		"sources": [
 			"Pathfinder #28: The Infernal Syndrome",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Cabal Devil (Uniila)",
+			"## Devil, Cabal/ (Uniila)",
 			"",
 			"*The curves of a shapely maiden define the outline of a mysterious figure wrapped in mist and strips of ancient robes. From beneath the rune-embroidered tatters stretch four, corpse-pale arms, each bearing either a blade or some mysterious arcane device. Hidden within the cowl of its hood shimmer the faintest outlines of a veiled face and a pair of eyes flickering with barely restrained energy.*",
 			"",
@@ -1352,6 +1359,7 @@
 	},
 	"uniila": { "copyof": "devil_cabal_devil_uniila" },
 	"cabal_devil": { "copyof": "devil_cabal_devil_uniila" },
+	"devil_cabal": { "copyof": "devil_cabal_devil_uniila" },
 	"devil_chortov": {
 		"name": "Devil, Chortov",
 		"sources": [
@@ -1421,14 +1429,14 @@
 	},
 	"chortov": { "copyof": "devil_chortov" },
 	"devil_contract_devil_phistophilus": {
-		"name": "Devil, Contract Devil (Phistophilus)",
+		"name": "Devil, Contract/ (Phistophilus)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #12: Crown of Fangs",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Contract Devil (Phistophilus)",
+			"## Devil, Contract/ (Phistophilus)",
 			"",
 			"*With rust-colored skin and a jutting crown of ridge-like horns, this muscular devil is draped in lengthy contracts.*",
 			"",
@@ -1510,14 +1518,15 @@
 	},
 	"phistophilus": { "copyof": "devil_contract_devil_phistophilus" },
 	"contract_devil": { "copyof": "devil_contract_devil_phistophilus" },
+	"devil_contract": { "copyof": "devil_contract_devil_phistophilus" },
 	"devil_curse_devil_phiam": {
-		"name": "Devil, Curse Devil (Phiam)",
+		"name": "Devil, Curse/ (Phiam)",
 		"sources": [
 			"Daughters of Fury",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Curse Devil (Phiam)",
+			"## Devil, Curse/ (Phiam)",
 			"",
 			"*This short fiend has mottled pink skin, clawed fingers, and green eyes. It drags a tattered scroll behind its feminine frame.*",
 			"",
@@ -1581,15 +1590,16 @@
 	},
 	"phiam": { "copyof": "devil_curse_devil_phiam" },
 	"curse_devil": { "copyof": "devil_curse_devil_phiam" },
+	"devil_curse": { "copyof": "devil_curse_devil_phiam" },
 	"devil_drowning_devil_sarglagon": {
-		"name": "Devil, Drowning Devil (Sarglagon)",
+		"name": "Devil, Drowning/ (Sarglagon)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #60: From Hell's Heart",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Drowning Devil (Sarglagon)",
+			"## Devil, Drowning/ (Sarglagon)",
 			"",
 			"*This serpentine creature has finlike wings, ram horns, four eyes, and arms that end in masses of tentacles.*",
 			"",
@@ -1651,6 +1661,7 @@
 	},
 	"sarglagon": { "copyof": "devil_drowning_devil_sarglagon" },
 	"drowning_devil": { "copyof": "devil_drowning_devil_sarglagon" },
+	"devil_drowning": { "copyof": "devil_drowning_devil_sarglagon" },
 	"devil_erinyes": {
 		"name": "Devil, Erinyes",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1716,13 +1727,13 @@
 	},
 	"erinyes": { "copyof": "devil_erinyes" },
 	"devil_executioner_devil_munagola": {
-		"name": "Devil, Executioner Devil (Munagola)",
+		"name": "Devil, Executioner/ (Munagola)",
 		"sources": [
 			"Book of the Damned",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Executioner Devil (Munagola)",
+			"## Devil, Executioner/ (Munagola)",
 			"",
 			"*Corded muscles ripple under this massive devil's red skin as her black wings beat overhead and her black eyes smolder like coals.*",
 			"",
@@ -1776,14 +1787,15 @@
 	},
 	"munagola": { "copyof": "devil_executioner_devil_munagola" },
 	"executioner_devil": { "copyof": "devil_executioner_devil_munagola" },
+	"devil_executioner": { "copyof": "devil_executioner_devil_munagola" },
 	"devil_gambling_devil_magadaz": {
-		"name": "Devil, Gambling Devil (Magadaz)",
+		"name": "Devil, Gambling/ (Magadaz)",
 		"sources": [
 			"Pathfinder #97: In Hell's Bright Shadow",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Gambling Devil (Magadaz)",
+			"## Devil, Gambling/ (Magadaz)",
 			"",
 			"*This creature resembles a man crafted entirely of gold. Some of its features seem warped, as if the creature had been melted and then reformed.*",
 			"",
@@ -1862,14 +1874,15 @@
 	},
 	"magadaz": { "copyof": "devil_gambling_devil_magadaz" },
 	"gambling_devil": { "copyof": "devil_gambling_devil_magadaz" },
+	"devil_gambling": { "copyof": "devil_gambling_devil_magadaz" },
 	"devil_handmaiden_devil_gylou": {
-		"name": "Devil, Handmaiden Devil (Gylou)",
+		"name": "Devil, Handmaiden/ (Gylou)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Handmaiden Devil (Gylou)",
+			"## Devil, Handmaiden/ (Gylou)",
 			"",
 			"*Twin tentacles stretch from the crown of this feminine fiend's head, while her lower body blooms in a gown of writhing tendrils.*",
 			"",
@@ -1931,15 +1944,16 @@
 	},
 	"gylou": { "copyof": "devil_handmaiden_devil_gylou" },
 	"handmaiden_devil": { "copyof": "devil_handmaiden_devil_gylou" },
+	"devil_handmaiden": { "copyof": "devil_handmaiden_devil_gylou" },
 	"devil_heresy_devil_ayngavhaul": {
-		"name": "Devil, Heresy Devil (Ayngavhaul)",
+		"name": "Devil, Heresy/ (Ayngavhaul)",
 		"sources": [
 			"Bestiary 5",
 			"Book of the Damned - Volume 1: Princes of Darkness",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Heresy Devil (Ayngavhaul)",
+			"## Devil, Heresy/ (Ayngavhaul)",
 			"",
 			"*Seemingly fused with a monstrous iron throne, this impossibly corpulent being floats several feet off the ground.*",
 			"",
@@ -2003,11 +2017,12 @@
 	},
 	"ayngavhaul": { "copyof": "devil_heresy_devil_ayngavhaul" },
 	"heresy_devil": { "copyof": "devil_heresy_devil_ayngavhaul" },
+	"devil_heresy": { "copyof": "devil_heresy_devil_ayngavhaul" },
 	"devil_horned_devil_cornugon": {
-		"name": "Devil, Horned Devil (Cornugon)",
+		"name": "Devil, Horned/ (Cornugon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Devil, Horned Devil (Cornugon)",
+			"## Devil, Horned/ (Cornugon)",
 			"",
 			"*Bristling with terrible spines and a crown of deadly horns, this leering winged terror wields a whirling barbed chain.*",
 			"",
@@ -2067,6 +2082,7 @@
 	},
 	"cornugon": { "copyof": "devil_horned_devil_cornugon" },
 	"horned_devil": { "copyof": "devil_horned_devil_cornugon" },
+	"devil_horned": { "copyof": "devil_horned_devil_cornugon" },
 	"devil_host_devil_greater_magaav": {
 		"name": "Devil, Host Devil, Greater (Magaav)",
 		"sources": [
@@ -2136,6 +2152,8 @@
 		]
 	},
 	"host_devil_greater_magaav": { "copyof": "devil_host_devil_greater_magaav" },
+	"devil_host_greater": { "copyof": "devil_host_devil_greater_magaav" },
+	"host_devil_greater": { "copyof": "devil_host_devil_greater_magaav" },
 	"greater_host_devil": { "copyof": "devil_host_devil_greater_magaav" },
 	"devil_host_devil_lesser_gaav": {
 		"name": "Devil, Host Devil, Lesser (Gaav)",
@@ -2207,12 +2225,14 @@
 		]
 	},
 	"host_devil_lesser_gaav": { "copyof": "devil_host_devil_lesser_gaav" },
+	"host_devil_lesser": { "copyof": "devil_host_devil_lesser_gaav" },
+	"devil_host_lesser": { "copyof": "devil_host_devil_lesser_gaav" },
 	"lesser_host_devil": { "copyof": "devil_host_devil_lesser_gaav" },
 	"devil_ice_devil_gelugon": {
-		"name": "Devil, Ice Devil (Gelugon)",
+		"name": "Devil, Ice/ (Gelugon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"## Devil, Ice Devil (Gelugon)",
+			"## Devil, Ice/ (Gelugon)",
 			"",
 			"*A pair of frozen, multifaceted eyes coldly judge all before this towering, insectile monstrosity.*",
 			"",
@@ -2272,14 +2292,15 @@
 	},
 	"gelugon": { "copyof": "devil_ice_devil_gelugon" },
 	"ice_devil": { "copyof": "devil_ice_devil_gelugon" },
+	"devil_ice": { "copyof": "devil_ice_devil_gelugon" },
 	"devil_immolation_devil_puragaus": {
-		"name": "Devil, Immolation Devil (Puragaus)",
+		"name": "Devil, Immolation/ (Puragaus)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Immolation Devil (Puragaus)",
+			"## Devil, Immolation/ (Puragaus)",
 			"",
 			"*Ash and embers encrust the smoldering humanoid frame of this imperious, dragon-winged devil.*",
 			"",
@@ -2338,6 +2359,7 @@
 	},
 	"puragaus": { "copyof": "devil_immolation_devil_puragaus" },
 	"immolation_devil": { "copyof": "devil_immolation_devil_puragaus" },
+	"devil_immolation": { "copyof": "devil_immolation_devil_puragaus" },
 	"devil_imp": {
 		"name": "Devil, Imp",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2523,13 +2545,13 @@
 	},
 	"mnemor": { "copyof": "devil_mnemor" },
 	"devil_nemesis_devil_advodaza": {
-		"name": "Devil, Nemesis Devil (Advodaza)",
+		"name": "Devil, Nemesis/ (Advodaza)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Nemesis Devil (Advodaza)",
+			"## Devil, Nemesis/ (Advodaza)",
 			"",
 			"*This ancient monstrosity has the torso of a massively muscled giant.*",
 			"",
@@ -2606,6 +2628,7 @@
 		]
 	},
 	"nemesis_devil": { "copyof": "devil_nemesis_devil_advodaza" },
+	"devil_nemesis": { "copyof": "devil_nemesis_devil_advodaza" },
 	"devil_nupperibo": {
 		"name": "Devil, Nupperibo",
 		"sources": [
@@ -2814,6 +2837,8 @@
 	},
 	"greater_gidim": { "copyof": "devil_possession_devil_greater_gidim" },
 	"greater_possession_devil": { "copyof": "devil_possession_devil_greater_gidim" },
+	"devil_possession_greater": { "copyof": "devil_possession_devil_greater_gidim" },
+	"devil_possession_devil_greater": { "copyof": "devil_possession_devil_greater_gidim" },
 	"devil_possession_devil_lesser_gidim": {
 		"name": "Devil, Possession Devil, Lesser (Gidim)",
 		"sources": [
@@ -2895,14 +2920,16 @@
 	},
 	"lesser_gidim": { "copyof": "devil_possession_devil_lesser_gidim" },
 	"lesser_possession_devil": { "copyof": "devil_possession_devil_lesser_gidim" },
+	"devil_possession_devil_lesser": { "copyof": "devil_possession_devil_lesser_gidim" },
+	"devil_possession_lesser": { "copyof": "devil_possession_devil_lesser_gidim" },
 	"devil_rust_devil_ferrugon": {
-		"name": "Devil, Rust Devil (Ferrugon)",
+		"name": "Devil, Rust/ (Ferrugon)",
 		"sources": [
 			"Pathfinder #101: The Kintargo Contract",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Rust Devil (Ferrugon)",
+			"## Devil, Rust/ (Ferrugon)",
 			"",
 			"*This creature has curling ram's horns, metallic flesh that bears coiling ribbons of rust, and wings covered with rusty metallic feathers, each resembling a weathered dagger.*",
 			"",
@@ -2995,6 +3022,7 @@
 	},
 	"ferrugon": { "copyof": "devil_rust_devil_ferrugon" },
 	"rust_devil": { "copyof": "devil_rust_devil_ferrugon" },
+	"devil_rust": { "copyof": "devil_rust_devil_ferrugon" },
 	"devil_salikotal": {
 		"name": "Devil, Salikotal",
 		"sources": [
@@ -3075,13 +3103,13 @@
 	},
 	"salikotal": { "copyof": "devil_salikotal" },
 	"devil_sire_devil_patraavex": {
-		"name": "Devil, Sire Devil (Patraavex)",
+		"name": "Devil, Sire/ (Patraavex)",
 		"sources": [
 			"Cheliax, the Infernal Empire",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Sire Devil (Patraavex)",
+			"## Devil, Sire/ (Patraavex)",
 			"",
 			"*This fiend is a horrendous amalgamation of snapping claws and writhing tendrils with a disgusting fanged mouth running vertically across its torso.*",
 			"",
@@ -3142,14 +3170,15 @@
 	},
 	"patraavex": { "copyof": "devil_sire_devil_patraavex" },
 	"sire_devil": { "copyof": "devil_sire_devil_patraavex" },
+	"devil_sire": { "copyof": "devil_sire_devil_patraavex" },
 	"devil_tinder_devil_ukobach": {
-		"name": "Devil, Tinder Devil (Ukobach)",
+		"name": "Devil, Tinder/ (Ukobach)",
 		"sources": [
 			"Pathfinder #25: The Bastards of Erebus",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Tinder Devil (Ukobach)",
+			"## Devil, Tinder/ (Ukobach)",
 			"",
 			"*The light of a flaming pitchfork illuminates a creepily malformed little man, his red skin scarred and raw like the victim of horrific burns. Although barely taller than a child, his features mock those of a terrible old man with an oversized head, knife-like nose, and crazed round eyes flickering with wild flames.*",
 			"",
@@ -3220,15 +3249,16 @@
 	},
 	"ukobach": { "copyof": "devil_tinder_devil_ukobach" },
 	"tinder_devil": { "copyof": "devil_tinder_devil_ukobach" },
+	"devil_tinder": { "copyof": "devil_tinder_devil_ukobach" },
 	"devil_warmonger_devil_levaloch": {
-		"name": "Devil, Warmonger Devil (Levaloch)",
+		"name": "Devil, Warmonger/ (Levaloch)",
 		"sources": [
 			"Bestiary 5",
 			"Book of the Damned - Volume 1: Princes of Darkness",
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"## Devil, Warmonger Devil (Levaloch)",
+			"## Devil, Warmonger/ (Levaloch)",
 			"",
 			"*Armored like an infernal knight upon some monstrous steed, this fiend of iron and nails scuttles upon six bladed, beetle-like legs.*",
 			"",
@@ -3293,6 +3323,7 @@
 	},
 	"levaloch": { "copyof": "devil_warmonger_devil_levaloch" },
 	"warmonger_devil": { "copyof": "devil_warmonger_devil_levaloch" },
+	"devil_warmonger": { "copyof": "devil_warmonger_devil_levaloch" },
 	"devilfish": {
 		"name": "Devilfish",
 		"sources": [

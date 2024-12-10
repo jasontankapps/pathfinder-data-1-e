@@ -797,6 +797,7 @@
 		]
 	},
 	"legendary_chimera": { "copyof": "chimera_legendary_chimera" },
+	"chimera_legendary": { "copyof": "chimera_legendary_chimera" },
 	"chitikin": {
 		"name": "Chitikin",
 		"sources": [ "Pathfinder #130: City in the Lion's Eye" ],
@@ -1626,6 +1627,7 @@
 			"Sand Chuuls: Rarest of all chuul breeds, sand chuuls inhabit parched wastelands and deserts, and were intended to serve as the shock troops of a land invasion force following Earthfall. When the aboleths' plans failed to come to fruition, these specially engineered chuuls were largely forgotten. Now native to blasted regions of Casmaron and southern Garund, sand chuuls lack the aquatic subtype, the amphibious special quality, and a swim speed. Instead, a sand chuul has a burrow speed of 30 feet and tremorsense out to a distance of 30 feet."
 		]
 	},
+	"chuul_larval": { "copyof": "chuul_larval_chuul" },
 	"larval_chuul": { "copyof": "chuul_larval_chuul" },
 	"chyzaedu": {
 		"name": "Chyzaedu",
@@ -1815,6 +1817,7 @@
 		]
 	},
 	"giant_cicada": { "copyof": "cicada_giant_cicada" },
+	"cicada_giant": { "copyof": "cicada_giant_cicada" },
 	"cinderghost": {
 		"name": "Cinderghost",
 		"sources": [ "Planes of Power" ],

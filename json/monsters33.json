@@ -67,6 +67,7 @@
 			"**Requirements** Craft Construct, crushing fist, geas/quest, heal, stoneskin, wish, creator must be caster level 20th; Skill Craft (sculpture) DC 35; **Cost** 350,000 gp"
 		]
 	},
+	"golem_adamantine": { "copyof": "golem_adamantine_golem" },
 	"adamantine_golem": { "copyof": "golem_adamantine_golem" },
 	"golem_alchemical_golem": {
 		"name": "Golem, Alchemical Golem",
@@ -137,6 +138,7 @@
 			"**Requirements** Craft Construct, geas/quest, gentle repose, major creation, resist energy, telekinesis, creator must be caster level 10th; Skill Craft (alchemy) DC 20; **Cost** 18,000 gp"
 		]
 	},
+	"golem_alchemical": { "copyof": "golem_alchemical_golem" },
 	"alchemical_golem": { "copyof": "golem_alchemical_golem" },
 	"golem_behemoth_golem": {
 		"name": "Golem, Behemoth Golem",
@@ -209,6 +211,7 @@
 			"Behemoth Golem; **CL** 18th; **Price** 305,000 gp; **Requirements** Craft Construct, earthquake, geas/quest, mage's magnificent mansion, wish, creator must be at least caster level 18th; Skill Craft (stonemasonry) and Knowledge (history) DC 26; **Cost** 165,000 gp"
 		]
 	},
+	"golem_behemoth": { "copyof": "golem_behemoth_golem" },
 	"behemoth_golem": { "copyof": "golem_behemoth_golem" },
 	"golem_blood_golem": {
 		"name": "Golem, Blood Golem",
@@ -282,6 +285,7 @@
 			"**Requirements** Craft Construct, animate dead, bleed, cure critical wounds, geas/quest, creator must be caster level 12th; Skill Craft (alchemy) DC 17; **Cost** 11,500 gp"
 		]
 	},
+	"golem_blood": { "copyof": "golem_blood_golem" },
 	"blood_golem": { "copyof": "golem_blood_golem" },
 	"golem_bone_golem": {
 		"name": "Golem, Bone Golem",
@@ -354,6 +358,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"golem_bone": { "copyof": "golem_bone_golem" },
 	"bone_golem": { "copyof": "golem_bone_golem" },
 	"golem_brass_golem": {
 		"name": "Golem, Brass Golem",
@@ -430,6 +435,7 @@
 			"**Requirements** Craft Construct, geas/quest, incendiary cloud, limited wish, see invisibility, creator must be caster level 17th; Skill Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 100,000 gp"
 		]
 	},
+	"golem_brass": { "copyof": "golem_brass_golem" },
 	"brass_golem": { "copyof": "golem_brass_golem" },
 	"golem_cannon_golem": {
 		"name": "Golem, Cannon Golem",
@@ -509,6 +515,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"golem_cannon": { "copyof": "golem_cannon_golem" },
 	"cannon_golem": { "copyof": "golem_cannon_golem" },
 	"golem_carrion_golem": {
 		"name": "Golem, Carrion Golem",
@@ -584,6 +591,7 @@
 			"**Requirements** Craft Construct, animate dead, contagion, false life, gentle repose, lesser geas, creator must be caster level 7th; Skill Craft (leather) or Heal DC 13; **Cost** 5,500 gp"
 		]
 	},
+	"golem_carrion": { "copyof": "golem_carrion_golem" },
 	"carrion_golem": { "copyof": "golem_carrion_golem" },
 	"golem_clay_golem": {
 		"name": "Golem, Clay Golem",
@@ -653,6 +661,7 @@
 			"**CL** 11th; **Price** 41,500 gp; **Requirements** Craft Construct, animate objects, bless, commune, prayer, resurrection, creator must be caster level 11th; Skill Craft (sculptures) or Craft (pottery) DC 16; **Cost** 21,500 gp"
 		]
 	},
+	"golem_clay": { "copyof": "golem_clay_golem" },
 	"clay_golem": { "copyof": "golem_clay_golem" },
 	"golem_clockwork_golem": {
 		"name": "Golem, Clockwork Golem",
@@ -725,6 +734,7 @@
 			"**Requirements** Craft Construct, animate objects, blade barrier, geas/quest, grease, telekinesis, creator must be caster level 15th; Skill Craft (clocks) or Craft (locks) DC 20; **Cost** 65,000 gp"
 		]
 	},
+	"golem_clockwork": { "copyof": "golem_clockwork_golem" },
 	"clockwork_golem": { "copyof": "golem_clockwork_golem" },
 	"golem_coral_golem": {
 		"name": "Golem, Coral Golem",
@@ -800,6 +810,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"golem_coral": { "copyof": "golem_coral_golem" },
 	"coral_golem": { "copyof": "golem_coral_golem" },
 	"golem_crystal_golem": {
 		"name": "Golem, Crystal Golem",
@@ -873,6 +884,7 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, possession, thoughtsense, creator must be caster level 15th; Skill Craft (glass) or Craft (jewelry) DC 22; **Cost** 67,000 gp"
 		]
 	},
+	"golem_crystal": { "copyof": "golem_crystal_golem" },
 	"crystal_golem": { "copyof": "golem_crystal_golem" },
 	"golem_dragonhide_golem": {
 		"name": "Golem, Dragonhide Golem",
@@ -970,6 +982,7 @@
 			"**Requirements** {feat/Craft Construct}, {spell/create greater undead}, {spell/form of the dragon I}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 16th; Skill Craft (leather) or Heal DC 21; **Cost** 109,000 gp"
 		]
 	},
+	"golem_dragonhide": { "copyof": "golem_dragonhide_golem" },
 	"dragonhide_golem": { "copyof": "golem_dragonhide_golem" },
 	"golem_equine_bone_golem": {
 		"name": "Golem, Equine Bone Golem",
@@ -1035,6 +1048,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"golem_equine_bone": { "copyof": "golem_equine_bone_golem" },
 	"equine_bone_golem": { "copyof": "golem_equine_bone_golem" },
 	"golem_flesh_golem": {
 		"name": "Golem, Flesh Golem",
@@ -1120,6 +1134,7 @@
 			"**CL** 8th; **Price** 20,500 gp; **Requirements** Craft Construct, animate dead, bull's strength, geas/quest, limited wish, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; **Cost** 10,500 gp"
 		]
 	},
+	"golem_flesh": { "copyof": "golem_flesh_golem" },
 	"flesh_golem": { "copyof": "golem_flesh_golem" },
 	"golem_fossil_golem": {
 		"name": "Golem, Fossil Golem",
@@ -1192,6 +1207,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"golem_fossil": { "copyof": "golem_fossil_golem" },
 	"fossil_golem": { "copyof": "golem_fossil_golem" },
 	"golem_glass_golem": {
 		"name": "Golem, Glass Golem",
@@ -1268,6 +1284,7 @@
 			"**Requirements** Craft Construct, animate objects, flame strike, geas/quest, spell turning, creator must be caster level 10th; Skill Craft (sculptures) DC 17; **Cost** 17,000 gp (glass golem); 20,200 gp (stained glass golem)"
 		]
 	},
+	"golem_glass": { "copyof": "golem_glass_golem" },
 	"glass_golem": { "copyof": "golem_glass_golem" },
 	"golem_gold_golem": {
 		"name": "Golem, Gold Golem",
@@ -1349,6 +1366,7 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, polymorph any object, and prismatic spray, creator must be at least caster level 18th; Skill Craft (armor) DC 25; **Cost** 122,500 gp"
 		]
 	},
+	"golem_gold": { "copyof": "golem_gold_golem" },
 	"gold_golem": { "copyof": "golem_gold_golem" },
 	"golem_ice_golem": {
 		"name": "Golem, Ice Golem",
@@ -1416,6 +1434,7 @@
 			"**CL** 12th; **Price** 18,500 gp; **Requirements** Craft Construct, chill touch, cone of cold, geas/quest, ice storm, resist energy (cold), creator must be caster level 12th; Skill Craft (sculptures) DC 17; **Cost** 9,500 gp"
 		]
 	},
+	"golem_ice": { "copyof": "golem_ice_golem" },
 	"ice_golem": { "copyof": "golem_ice_golem" },
 	"golem_inubrix_golem": {
 		"name": "Golem, Inubrix Golem",
@@ -1507,6 +1526,7 @@
 			"**Requirements** {feat/Craft Construct}, {spell/air walk}, {spell/enervation}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
 		]
 	},
+	"golem_inubrix": { "copyof": "golem_inubrix_golem" },
 	"inubrix_golem": { "copyof": "golem_inubrix_golem" },
 	"golem_ioun_golem": {
 		"name": "Golem, Ioun Golem",
@@ -1596,6 +1616,7 @@
 			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, [geas/quest](spell/geas_quest), {spell/wish}, creator must be at least caster level 18th; Skill Craft (armor) DC 24, Craft (jewelry) DC 29; **Cost** 145,000 gp"
 		]
 	},
+	"golem_ioun": { "copyof": "golem_ioun_golem" },
 	"ioun_golem": { "copyof": "golem_ioun_golem" },
 	"golem_iron_golem": {
 		"name": "Golem, Iron Golem",
@@ -1668,6 +1689,7 @@
 			"**CL** 16th; **Price** 150,000 gp; **Requirements** Craft Construct, cloudkill, geas/quest, limited wish, polymorph any object, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 21; **Cost** 80,000 gp"
 		]
 	},
+	"golem_iron": { "copyof": "golem_iron_golem" },
 	"iron_golem": { "copyof": "golem_iron_golem" },
 	"golem_junk_golem": {
 		"name": "Golem, Junk Golem",
@@ -1742,6 +1764,7 @@
 			"**Requirements** Craft Construct, false life, lesser geas, minor creation, rusting grasp, creator must be caster level 7th; Skill Craft (sculpture); **Cost** 5,200 gp"
 		]
 	},
+	"golem_junk": { "copyof": "golem_junk_golem" },
 	"junk_golem": { "copyof": "golem_junk_golem" },
 	"golem_lead_golem": {
 		"name": "Golem, Lead Golem",
@@ -1817,6 +1840,7 @@
 			"**Requirements** Craft Construct, cloudkill, geas/quest, limited wish, sequester, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; **Cost** 32,500 gp"
 		]
 	},
+	"golem_lead": { "copyof": "golem_lead_golem" },
 	"lead_golem": { "copyof": "golem_lead_golem" },
 	"golem_magnetitie_golem": {
 		"name": "Golem, Magnetitie Golem",
@@ -1906,6 +1930,7 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, reverse gravity, telekinesis, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; **Cost** 47,500 gp"
 		]
 	},
+	"golem_magnetitie": { "copyof": "golem_magnetitie_golem" },
 	"magnetitie_golem": { "copyof": "golem_magnetitie_golem" },
 	"golem_marrowstone_golem": {
 		"name": "Golem, Marrowstone Golem",
@@ -1976,6 +2001,7 @@
 			"**CL** 11th; **Price** 42,500 gp; **Requirements** Craft Construct, animate object, antilife shell, create undead, creator must be caster level 11th; Skill Craft (sculpture) or Craft (stonemasonry) DC 21; **Cost** 22,500 gp"
 		]
 	},
+	"golem_marrowstone": { "copyof": "golem_marrowstone_golem" },
 	"marrowstone_golem": { "copyof": "golem_marrowstone_golem" },
 	"golem_mask_golem": {
 		"name": "Golem, Mask Golem",
@@ -2059,6 +2085,7 @@
 			"**CL** 9th; **Price** 22,500 gp; **Requirements** Craft Construct, dominate person, see invisibility, telekinesis, creator must be caster level 9th; Skill Craft (sculptures) DC 16; **Cost** 12,500 gp"
 		]
 	},
+	"golem_mask": { "copyof": "golem_mask_golem" },
 	"mask_golem": { "copyof": "golem_mask_golem" },
 	"golem_mithral_golem": {
 		"name": "Golem, Mithral Golem",
@@ -2133,6 +2160,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"golem_mithral": { "copyof": "golem_mithral_golem" },
 	"mithral_golem": { "copyof": "golem_mithral_golem" },
 	"golem_noqual_golem": {
 		"name": "Golem, Noqual Golem",
@@ -2213,6 +2241,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"golem_noqual": { "copyof": "golem_noqual_golem" },
 	"noqual_golem": { "copyof": "golem_noqual_golem" },
 	"golem_obsidian_golem": {
 		"name": "Golem, Obsidian Golem",
@@ -2287,6 +2316,7 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, and volcanic storm, creator must be at least caster level 15th; Skill Craft (glass or sculpture) DC 24; **Cost** 69,250 gp"
 		]
 	},
+	"golem_obsidian": { "copyof": "golem_obsidian_golem" },
 	"obsidian_golem": { "copyof": "golem_obsidian_golem" },
 	"golem_panthereon": {
 		"name": "Golem, Panthereon",
@@ -2475,6 +2505,7 @@
 			"The secret of the Quantium golems' construction vanished with their creator, the archmage Nex."
 		]
 	},
+	"golem_quantium": { "copyof": "golem_quantium_golem" },
 	"quantium_golem": { "copyof": "golem_quantium_golem" },
 	"golem_quintessence_golem": {
 		"name": "Golem, Quintessence Golem",
@@ -2550,6 +2581,7 @@
 			"**Requirements** Craft Construct, energy drain, geas/ quest, trap the soul, and wish, creator must be at least caster level 20th; Skill Craft (glass) DC 40 and Knowledge (planes) DC 30; **Cost** 450,000 gp"
 		]
 	},
+	"golem_quintessence": { "copyof": "golem_quintessence_golem" },
 	"quintessence_golem": { "copyof": "golem_quintessence_golem" },
 	"golem_robot_golem": {
 		"name": "Golem, Robot Golem",
@@ -2621,6 +2653,7 @@
 			"**Requirements** Craft Construct, geas/quest, limited wish, make whole, shatter, creator must be caster level 13th; Skill Craft (mechanical) DC 20; **Cost** 36,000 gp"
 		]
 	},
+	"golem_robot": { "copyof": "golem_robot_golem" },
 	"robot_golem": { "copyof": "golem_robot_golem" },
 	"golem_sand_golem": {
 		"name": "Golem, Sand Golem",
@@ -2712,6 +2745,7 @@
 			"**Requirements** {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/move earth}, creator must be caster level 12th; Skill Craft (stonemasonry) DC 20; **Cost** 28,500 gp"
 		]
 	},
+	"golem_sand": { "copyof": "golem_sand_golem" },
 	"sand_golem": { "copyof": "golem_sand_golem" },
 	"golem_sentient_wax_golem": {
 		"name": "Golem, Sentient Wax Golem",
@@ -2798,6 +2832,7 @@
 			"**CL** 9th; **Price** 14,000 gp Craft Requirements Craft Construct, animate objects, geas/quest, limited wish, silent image, creator must be caster level 9th; Skill Craft (sculptures) DC 18 (DC 25 if the creator wants the golem to look like a member of a particular race; DC 30 if the creator wants the golem to look like a specific individual); **Cost** 7,000 gp"
 		]
 	},
+	"golem_sentient_wax": { "copyof": "golem_sentient_wax_golem" },
 	"sentient_wax_golem": { "copyof": "golem_sentient_wax_golem" },
 	"golem_shadow_golem": {
 		"name": "Golem, Shadow Golem",
@@ -2884,6 +2919,7 @@
 			"**Requirements** Craft Construct, geas/quest, greater shadow conjuration, limited wish, polymorph any object, creator must be caster level 18th; Skill Craft (sculpture) or Craft (stonemasonry) DC 24; **Cost** 100,000 gp"
 		]
 	},
+	"golem_shadow": { "copyof": "golem_shadow_golem" },
 	"shadow_golem": { "copyof": "golem_shadow_golem" },
 	"golem_stone_golem": {
 		"name": "Golem, Stone Golem",
@@ -2949,6 +2985,7 @@
 			"**CL** 14th; **Price** 105,000 gp; **Requirements** Craft Construct, antimagic field, geas/quest, limited wish, symbol of stunning, creator must be caster level 14th; Skill Craft (sculpture) or Craft (stonemasonry) DC 19; **Cost** 55,000 gp"
 		]
 	},
+	"golem_stone": { "copyof": "golem_stone_golem" },
 	"stone_golem": { "copyof": "golem_stone_golem" },
 	"golem_viridium_golem": {
 		"name": "Golem, Viridium Golem",
@@ -3022,6 +3059,7 @@
 			"**Requirements** Craft Construct, contagion, geas/quest, horrid wilting, poison, and wish, creator must be at least caster level 18th; Skill Craft (glass or sculpture) DC 26; **Cost** 142,500 gp"
 		]
 	},
+	"golem_viridium": { "copyof": "golem_viridium_golem" },
 	"viridium_golem": { "copyof": "golem_viridium_golem" },
 	"golem_wax_golem": {
 		"name": "Golem, Wax Golem",
@@ -3093,6 +3131,7 @@
 			"**Requirements** Craft Construct, animate objects, geas/quest, limited wish, silent image, creator must be caster level 9th; Skill Craft (sculptures) DC 18 (DC 25 if the creator wants the golem to look like a member of a particular race; DC 30 if the creator wants the golem to look like a specific individual); **Cost** 7,000 gp"
 		]
 	},
+	"golem_wax": { "copyof": "golem_wax_golem" },
 	"wax_golem": { "copyof": "golem_wax_golem" },
 	"golem_wood_golem": {
 		"name": "Golem, Wood Golem",
@@ -3157,6 +3196,7 @@
 			"**CL** 7th; **Price** 19,300 gp; **Requirements** Craft Construct, alarm, animate objects, cat's grace, geas/quest, limited wish, creator must be caster level 12th; Skill Craft (carpentry) DC 17; **Cost** 8,800 gp"
 		]
 	},
+	"golem_wood": { "copyof": "golem_wood_golem" },
 	"wood_golem": { "copyof": "golem_wood_golem" },
 	"hag_eye_ooze": {
 		"name": "Hag Eye Ooze",
@@ -3359,6 +3399,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_annis": { "copyof": "hag_annis_hag" },
 	"annis_hag": { "copyof": "hag_annis_hag" },
 	"hag_ash_hag": {
 		"name": "Hag, Ash Hag",
@@ -3441,6 +3482,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_ash": { "copyof": "hag_ash_hag" },
 	"ash_hag": { "copyof": "hag_ash_hag" },
 	"hag_blood_hag": {
 		"name": "Hag, Blood Hag",
@@ -3528,6 +3570,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_blood": { "copyof": "hag_blood_hag" },
 	"blood_hag": { "copyof": "hag_blood_hag" },
 	"hag_dreamthief_hag": {
 		"name": "Hag, Dreamthief Hag",
@@ -3610,6 +3653,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_dreamthief": { "copyof": "hag_dreamthief_hag" },
 	"dreamthief_hag": { "copyof": "hag_dreamthief_hag" },
 	"hag_green_hag": {
 		"name": "Hag, Green Hag",
@@ -3697,6 +3741,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_green": { "copyof": "hag_green_hag" },
 	"green_hag": { "copyof": "hag_green_hag" },
 	"hag_moon_hag": {
 		"name": "Hag, Moon Hag",
@@ -3777,6 +3822,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_moon": { "copyof": "hag_moon_hag" },
 	"moon_hag": { "copyof": "hag_moon_hag" },
 	"hag_mute_hag": {
 		"name": "Hag, Mute Hag",
@@ -3858,6 +3904,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_mute": { "copyof": "hag_mute_hag" },
 	"mute_hag": { "copyof": "hag_mute_hag" },
 	"hag_night_hag": {
 		"name": "Hag, Night Hag",
@@ -3937,6 +3984,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_night": { "copyof": "hag_night_hag" },
 	"night_hag": { "copyof": "hag_night_hag" },
 	"hag_sea_hag": {
 		"name": "Hag, Sea Hag",
@@ -4017,6 +4065,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_sea": { "copyof": "hag_sea_hag" },
 	"sea_hag": { "copyof": "hag_sea_hag" },
 	"hag_storm_hag": {
 		"name": "Hag, Storm Hag",
@@ -4103,6 +4152,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_storm": { "copyof": "hag_storm_hag" },
 	"storm_hag": { "copyof": "hag_storm_hag" },
 	"hag_winter_hag": {
 		"name": "Hag, Winter Hag",
@@ -4190,6 +4240,7 @@
 			"**Family:** {family/Hag}"
 		]
 	},
+	"hag_winter": { "copyof": "hag_winter_hag" },
 	"winter_hag": { "copyof": "hag_winter_hag" },
 	"iron_cobra": {
 		"name": "Iron Cobra",

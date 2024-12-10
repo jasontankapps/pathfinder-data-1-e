@@ -111,6 +111,9 @@
 			"This 10-foot-long chain has hardness 20 and 6 hit points. A successful DC 30 Strength check is required to burst it, making it strong enough to hold many types of giants."
 		]
 	},
+	"chain_adamantine": {
+		"copyof": "adamantine_chain_10_ft"
+	},
 	"adamantine_chain": {
 		"copyof": "adamantine_chain_10_ft"
 	},
@@ -3132,6 +3135,7 @@
 			"A bullseye lantern provides normal light in a 60-foot cone and increases the light level by one step in the area beyond that, out to a 120-foot cone (darkness becomes dim light and dim light becomes normal light). A bullseye lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of oil. You can carry a lantern in one hand."
 		]
 	},
+	"lantern_bullseye": { "copyof": "bullseye_lantern" },
 	"bunk": {
 		"name": "Bunk",
 		"sources": [ "Alchemy Manual" ],

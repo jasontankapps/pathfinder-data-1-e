@@ -1065,6 +1065,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, fly; **Cost** 8,000 gp"
 		]
 	},
+	"boots_winged": { "copyof": "winged_boots" },
 	"combat_sandals": {
 		"name": "Combat Sandals",
 		"sources": [ "Heroes of the Streets" ],
@@ -3159,6 +3160,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, fireball; **Cost** 825 gp (Type I), 1,350 gp (Type II), 2,175 gp (Type III), 2,700 gp (Type IV), 2,925 gp (Type V), 4,050 gp (Type VI), 4,350 gp (Type VII)"
 		]
 	},
+	"necklace_of_fireballs_type_i": { "copyof": "necklace_of_fireballs_type_1" },
 	"necklace_of_fireballs": {
 		"name": "Necklace of Fireballs",
 		"copyof": "necklace_of_fireballs_type_1"
@@ -3167,26 +3169,32 @@
 		"name": "Necklace of Fireballs (Type II)",
 		"copyof": "necklace_of_fireballs_type_1"
 	},
+	"necklace_of_fireballs_type_ii": { "copyof": "necklace_of_fireballs_type_2" },
 	"necklace_of_fireballs_type_3": {
 		"name": "Necklace of Fireballs (Type III)",
 		"copyof": "necklace_of_fireballs_type_1"
 	},
-	"necklace_of_fireballs_type_5": {
-		"name": "Necklace of Fireballs (Type V)",
-		"copyof": "necklace_of_fireballs_type_1"
-	},
+	"necklace_of_fireballs_type_iii": { "copyof": "necklace_of_fireballs_type_3" },
 	"necklace_of_fireballs_type_4": {
 		"name": "Necklace of Fireballs (Type IV)",
 		"copyof": "necklace_of_fireballs_type_1"
 	},
+	"necklace_of_fireballs_type_iv": { "copyof": "necklace_of_fireballs_type_4" },
+	"necklace_of_fireballs_type_5": {
+		"name": "Necklace of Fireballs (Type V)",
+		"copyof": "necklace_of_fireballs_type_1"
+	},
+	"necklace_of_fireballs_type_v": { "copyof": "necklace_of_fireballs_type_5" },
 	"necklace_of_fireballs_type_6": {
 		"name": "Necklace of Fireballs (Type VI)",
 		"copyof": "necklace_of_fireballs_type_1"
 	},
+	"necklace_of_fireballs_type_vi": { "copyof": "necklace_of_fireballs_type_6" },
 	"necklace_of_fireballs_type_7": {
 		"name": "Necklace of Fireballs (Type VII)",
 		"copyof": "necklace_of_fireballs_type_1"
 	},
+	"necklace_of_fireballs_type_vii": { "copyof": "necklace_of_fireballs_type_7" },
 	"necklace_of_fangs": {
 		"name": "Necklace of Fangs",
 		"sources": [ "Blood of the Night" ],
@@ -3423,6 +3431,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, creator must be at least 10th level; **Cost** 1,250 gp"
 		]
 	},
+	"scarab_golembane": { "copyof": "golembane_scarab" },
 	"gossamer_amberstone": {
 		"name": "Gossamer Amberstone",
 		"sources": [

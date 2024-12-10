@@ -561,6 +561,7 @@
 		]
 	},
 	"dire_badger": { "copyof": "badger_dire_badger" },
+	"badger_dire": { "copyof": "badger_dire_badger" },
 	"baetriov": {
 		"name": "Baetriov",
 		"sources": [ "Taldor, the First Empire" ],
@@ -1337,6 +1338,7 @@
 			"Said to be fiendish relations of all goblinoid races, the hateful barghests come to the Material Plane to feed. As they consume the bodies of innocents, they grow increasingly powerful. A barghest eventually sheds its skin to transform into a greater barghest, at which point it often seeks out a tribe of goblins or other creatures to rule."
 		]
 	},
+	"barghest_greater": { "copyof": "barghest_greater_barghest" },
 	"greater_barghest": { "copyof": "barghest_greater_barghest" },
 	"barometz": {
 		"name": "Barometz",
@@ -1763,6 +1765,7 @@
 		]
 	},
 	"dire_bat": { "copyof": "bat_dire_bat" },
+	"bat_dire": { "copyof": "bat_dire_bat" },
 	"bat_mobat": {
 		"name": "Bat, Mobat",
 		"sources": [ "Bestiary 2" ],
@@ -1924,6 +1927,7 @@
 		]
 	},
 	"sootwing_bat": { "copyof": "bat_sootwing_bat" },
+	"bat_sootwing": { "copyof": "bat_sootwing_bat" },
 	"baykok": {
 		"name": "Baykok",
 		"sources": [ "Bestiary 3" ],
@@ -2031,6 +2035,7 @@
 	},
 	"cave_bear": { "copyof": "bear_dire_bear_cave_bear" },
 	"dire_bear": { "copyof": "bear_dire_bear_cave_bear" },
+	"bear_dire": { "copyof": "bear_dire_bear_cave_bear" },
 	"bear_dire_polar_bear": {
 		"name": "Bear, Dire Polar Bear",
 		"sources": [ "Bestiary 5" ],
@@ -2077,6 +2082,7 @@
 		]
 	},
 	"dire_polar_bear": { "copyof": "bear_dire_polar_bear" },
+	"bear_dire_polar": { "copyof": "bear_dire_polar_bear" },
 	"bear_grizzly_bear": {
 		"name": "Bear, Grizzly Bear",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2128,6 +2134,7 @@
 	},
 	"bear": { "copyof": "bear_grizzly_bear" },
 	"grizzly_bear": { "copyof": "bear_grizzly_bear" },
+	"bear_grizzly": { "copyof": "bear_grizzly_bear" },
 	"bear_polar_bear": {
 		"name": "Bear, Polar Bear",
 		"sources": [
@@ -2181,6 +2188,7 @@
 		]
 	},
 	"polar_bear": { "copyof": "bear_polar_bear" },
+	"bear_polar": { "copyof": "bear_polar_bear" },
 	"bebilith": {
 		"name": "Bebilith",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2299,6 +2307,7 @@
 		]
 	},
 	"giant_bee": { "copyof": "bee_giant_bee" },
+	"bee_giant": { "copyof": "bee_giant_bee" },
 	"bee_giant_queen_bee": {
 		"name": "Bee, Giant Queen Bee",
 		"sources": [ "Bestiary 2" ],
@@ -2355,6 +2364,7 @@
 			"Royal jelly has remarkable effects on other creatures if eaten. A pound of royal jelly provides enough nourishment for a full day, and grants a +4 resistance bonus on all saving throws against disease for the next 24 hours. If a creature sleeps enough to heal damage within 24 hours of eating at least a pound of royal jelly, it heals twice the hit points and ability damage as it otherwise would. A typical bee hive contains 2d6 pounds of royal jelly - a single pound sells for 100 gp."
 		]
 	},
+	"bee_giant_queen": { "copyof": "bee_giant_queen_bee" },
 	"giant_queen_bee": { "copyof": "bee_giant_queen_bee" },
 	"beetle_dark_spitter_beetle": {
 		"name": "Beetle, Dark Spitter Beetle",
@@ -2402,6 +2412,7 @@
 			"Spitter beetles are used as mounts by duergar explorers."
 		]
 	},
+	"beetle_dark_spitter": { "copyof": "beetle_dark_spitter_beetle" },
 	"dark_spitter_beetle": { "copyof": "beetle_dark_spitter_beetle" },
 	"beetle_fire_beetle": {
 		"name": "Beetle, Fire Beetle",
@@ -2459,6 +2470,7 @@
 		]
 	},
 	"fire_beetle": { "copyof": "beetle_fire_beetle" },
+	"beetle_fire": { "copyof": "beetle_fire_beetle" },
 	"beetle_giant_stag_beetle": {
 		"name": "Beetle, Giant Stag Beetle",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2511,6 +2523,7 @@
 			"Goliath Beetle (CR 8): The immense goliath beetle is a Huge stag beetle with 12 HD and the trample special ability."
 		]
 	},
+	"beetle_giant_stag": { "copyof": "beetle_giant_stag_beetle" },
 	"giant_stag_beetle": { "copyof": "beetle_giant_stag_beetle" },
 	"beetle_goliath_stag_beetle": {
 		"name": "Beetle, Goliath Stag Beetle",
@@ -2560,6 +2573,7 @@
 			"A goliath stag beetle is 25 feet long and weighs 8,000 pounds."
 		]
 	},
+	"beetle_goliath_stag": { "copyof": "beetle_goliath_stag_beetle" },
 	"goliath_stag_beetle": { "copyof": "beetle_goliath_stag_beetle" },
 	"beetle_juggernaut_beetle": {
 		"name": "Beetle, Juggernaut Beetle",
@@ -2614,6 +2628,7 @@
 		]
 	},
 	"juggernaut_beetle": { "copyof": "beetle_juggernaut_beetle" },
+	"beetle_juggernaut": { "copyof": "beetle_juggernaut_beetle" },
 	"beetle_scarab_beetle": {
 		"name": "Beetle, Scarab Beetle",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -2664,6 +2679,7 @@
 		]
 	},
 	"scarab_beetle": { "copyof": "beetle_scarab_beetle" },
+	"beetle_scarab": { "copyof": "beetle_scarab_beetle" },
 	"beetle_slicer_beetle": {
 		"name": "Beetle, Slicer Beetle",
 		"sources": [ "Bestiary 2" ],
@@ -2716,6 +2732,7 @@
 		]
 	},
 	"slicer_beetle": { "copyof": "beetle_slicer_beetle" },
+	"beetle_slicer": { "copyof": "beetle_slicer_beetle" },
 	"beetle_stalk_beetle": {
 		"name": "Beetle, Stalk Beetle",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -2766,6 +2783,7 @@
 		]
 	},
 	"stalk_beetle": { "copyof": "beetle_stalk_beetle" },
+	"beetle_stalk": { "copyof": "beetle_stalk_beetle" },
 	"beheaded": {
 		"name": "Beheaded",
 		"sources": [ "Bestiary 4" ],
@@ -2972,6 +2990,7 @@
 		]
 	},
 	"giant_beheaded": { "copyof": "beheaded_giant_beheaded" },
+	"beheaded_giant": { "copyof": "beheaded_giant_beheaded" },
 	"beheaded_medusa_head": {
 		"name": "Beheaded, Medusa Head",
 		"sources": [
@@ -3332,6 +3351,7 @@
 			"**Family:** {family/Behemoth}"
 		]
 	},
+	"behemoth_tempest": { "copyof": "behemoth_tempest_behemoth" },
 	"tempest_behemoth": { "copyof": "behemoth_tempest_behemoth" },
 	"behemoth_thalassic_behemoth": {
 		"name": "Behemoth, Thalassic Behemoth",
@@ -3395,6 +3415,7 @@
 			"**Family:** {family/Behemoth}"
 		]
 	},
+	"behemoth_thalassic": { "copyof": "behemoth_thalassic_behemoth" },
 	"thalassic_behemoth": { "copyof": "behemoth_thalassic_behemoth" },
 	"behemoth_thunder_behemoth": {
 		"name": "Behemoth, Thunder Behemoth",
@@ -3459,6 +3480,7 @@
 			"**Family:** {family/Behemoth}"
 		]
 	},
+	"behemoth_thunder": { "copyof": "behemoth_thunder_behemoth" },
 	"thunder_behemoth": { "copyof": "behemoth_thunder_behemoth" },
 	"behir": {
 		"name": "Behir",

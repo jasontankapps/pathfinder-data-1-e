@@ -44,37 +44,30 @@
 	},
 	"shield_boss_hooked": {
 		"name": "Shield boss (hooked)",
-		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_illuminating": {
 		"name": "Shield boss (illuminating)",
-		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_reinforcing_boss": {
 		"name": "Shield boss (reinforcing boss)",
-		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_breakaway_masterwork": {
 		"name": "Shield boss (breakaway, masterwork)",
-		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_hooked_masterwork": {
 		"name": "Shield boss (hooked, masterwork)",
-		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_illuminating_masterwork": {
 		"name": "Shield boss (illuminating, masterwork)",
-		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"shield_boss_reinforcing_boss_masterwork": {
 		"name": "Shield boss (reinforcing boss, masterwork)",
-		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway"
 	},
 	"armor_vents": {

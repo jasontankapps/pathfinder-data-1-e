@@ -142,6 +142,7 @@
 			"**Languages:** Reborn samsarans begin play speaking Common and Samsaran. Those reborn samsarans with high Intelligence scores can choose from the following: any human language, Abyssal, Aquan, Auran, Celestial, Draconic, Giant, Ignan, Infernal, and Terran."
 		]
 	},
+	"samsaran_reborn": { "copyof": "samsaran_reborn_samsaran" },
 	"reborn_samsaran": { "copyof": "samsaran_reborn_samsaran" },
 	"roper": {
 		"name": "Roper",
@@ -1020,6 +1021,7 @@
 			"A bull shark is over 7 feet long and weighs roughly 250 pounds. Female bull sharks are slightly larger than males."
 		]
 	},
+	"shark_bull": { "copyof": "shark_bull_shark" },
 	"bull_shark": { "copyof": "shark_bull_shark" },
 	"shark_dire_shark_megalodon": {
 		"name": "Shark, Dire Shark (Megalodon)",
@@ -1069,6 +1071,7 @@
 	},
 	"dire_shark_megalodon": { "copyof": "shark_dire_shark_megalodon" },
 	"dire_shark": { "copyof": "shark_dire_shark_megalodon" },
+	"shark_dire": { "copyof": "shark_dire_shark_megalodon" },
 	"shark_great_white_shark": {
 		"name": "Shark, Great White Shark",
 		"sources": [
@@ -1122,6 +1125,7 @@
 			"An adult great white shark is 20 feet long and weighs 5,000 pounds."
 		]
 	},
+	"shark_great_white": { "copyof": "shark_great_white_shark" },
 	"great_white_shark": { "copyof": "shark_great_white_shark" },
 	"shark_hammerhead_shark": {
 		"name": "Shark, Hammerhead Shark",
@@ -1168,6 +1172,7 @@
 			"Hammerheads' heads give them a wider field of vision and allow them to pin prey to the seafloor before devouring it."
 		]
 	},
+	"shark_hammerhead": { "copyof": "shark_hammerhead_shark" },
 	"hammerhead_shark": { "copyof": "shark_hammerhead_shark" },
 	"shark_helicoprion": {
 		"name": "Shark, Helicoprion",
@@ -1265,6 +1270,7 @@
 			"The fact that these sharks dwell in shallow coastal waters places them in direct contact with those making a living from the sea. It's not uncommon to hear stories of jigsaw sharks leaping from the water and taking out dockworkers or fishermen in small boats. Their patchwork coloration of browns and blue-grays partly inspires their name."
 		]
 	},
+	"shark_jigsaw": { "copyof": "shark_jigsaw_shark" },
 	"jigsaw_shark": { "copyof": "shark_jigsaw_shark" },
 	"shasalqu": {
 		"name": "Shasalqu",
@@ -2800,6 +2806,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"siktempora_misery": { "copyof": "siktempora_misery_siktempora" },
 	"misery_siktempora": { "copyof": "siktempora_misery_siktempora" },
 	"waldgeist": {
 		"name": "Waldgeist",
@@ -3308,6 +3315,7 @@
 		]
 	},
 	"giant_squid": { "copyof": "squid_giant_squid" },
+	"squid_giant": { "copyof": "squid_giant_squid" },
 	"star_monarch": {
 		"name": "Star Monarch",
 		"sources": [ "Inner Sea Bestiary" ],

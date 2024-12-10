@@ -2155,7 +2155,6 @@
 	},
 	"talon_sword_talonstrike": {
 		"name": "Talon Sword (talonstrike)",
-		"sources": [ "Andoran, Spirit of Liberty" ],
 		"copyof": "talon_sword_normal"
 	},
 	"hellscourge": {
@@ -3038,10 +3037,6 @@
 	},
 	"luck_blade_1_wish": {
 		"name": "Luck Blade (1 wish)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "luck_blade_0_wishes"
 	},
 	"hourglass_quarterstaff": {
@@ -3215,7 +3210,6 @@
 	},
 	"pale_maiden_1_wish": {
 		"name": "Pale Maiden (1 wish)",
-		"sources": [ "Lost Treasures" ],
 		"copyof": "pale_maiden_0_wishes"
 	},
 	"pistol_of_the_infinite_sky": {
@@ -3601,10 +3595,6 @@
 	},
 	"luck_blade_2_wishes": {
 		"name": "Luck Blade (2 wishes)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "luck_blade_0_wishes"
 	},
 	"shadows_touch": {
@@ -3647,7 +3637,6 @@
 	},
 	"pale_maiden_2_wishes": {
 		"name": "Pale Maiden (2 wishes)",
-		"sources": [ "Lost Treasures" ],
 		"copyof": "pale_maiden_0_wishes"
 	},
 	"masters_lash": {
@@ -3727,10 +3716,6 @@
 	},
 	"luck_blade_3_wishes": {
 		"name": "Luck Blade (3 wishes)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "luck_blade_0_wishes"
 	},
 	"blade_of_the_willing_martyr": {
@@ -3792,7 +3777,6 @@
 	},
 	"pale_maiden_3_wishes": {
 		"name": "Pale Maiden (3 wishes)",
-		"sources": [ "Lost Treasures" ],
 		"copyof": "pale_maiden_0_wishes"
 	},
 	"ghost_iron_scimitar": {
@@ -4256,6 +4240,8 @@
 			"**Requirements** +2 longsword, any magic weapon; **Cost** -"
 		]
 	},
+	"2_cursed_sword": { "copyof": "cursed_sword" },
+	"_2_cursed_sword": { "copyof": "cursed_sword" },
 	"arrowbreak_bow": {
 		"name": "Arrowbreak Bow",
 		"sources": [ "Ultimate Equipment" ],

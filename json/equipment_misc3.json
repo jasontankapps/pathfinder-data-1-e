@@ -278,7 +278,6 @@
 	},
 	"pomander_nobles": {
 		"name": "Pomander (noble's)",
-		"sources": [ "Dungeoneer's Handbook" ],
 		"copyof": "pomander_merchants"
 	},
 	"poncho": {
@@ -465,30 +464,24 @@
 	},
 	"pot_common": {
 		"name": "Pot (common)",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Pot",
-			"{SOURCE Ultimate Equipment/57}  ",
-			"**Price** 8 sp (common), 2,001 gp (mithral); **Weight** 4 lbs. (common), 2 lbs. (mithral)",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
+			"**Price** 8 sp (common, iron), 2,001 gp (mithral); **Weight** 4 lbs. (common, iron), 2 lbs. (mithral)",
 			"",
 			"This 8-inch-diameter iron pot is sturdy and has feet, a lid, and a rounded handle. It can hold enough stew to feed one hungry human for one meal. A mithral pot is lighter and food rarely sticks to it."
 		]
 	},
 	"pot_iron": {
 		"name": "Pot (iron)",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"## Pot (iron)",
-			"{SOURCE PRPG Core Rulebook/158}  ",
-			"**Price** 8 sp; **Weight** 4 lbs.  ",
-			"**Category** Adventuring Gear",
-			"",
-			"No description was provided for this entry."
-		]
+		"copyof": "pot_common"
 	},
 	"pot_mithral": {
 		"name": "Pot (mithral)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "pot_common"
 	},
 	"potion_sponge": {
@@ -531,7 +524,6 @@
 	},
 	"powder_ball_fuel": {
 		"name": "Powder ball (fuel)",
-		"sources": [ "Castles of the Inner Sea" ],
 		"copyof": "powder_ball_empty"
 	},
 	"powder_horn": {
@@ -682,29 +674,14 @@
 	},
 	"prosthetic_foot": {
 		"name": "Prosthetic (foot)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Pirates of the Inner Sea"
-		],
 		"copyof": "prosthetic_arm"
 	},
 	"prosthetic_hand": {
 		"name": "Prosthetic (hand)",
-		"sources": [
-			"Ultimate Equipment",
-			"Pirates of the Inner Sea",
-			"Adventurer's Armory"
-		],
 		"copyof": "prosthetic_arm"
 	},
 	"prosthetic_leg": {
 		"name": "Prosthetic (leg)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Pirates of the Inner Sea"
-		],
 		"copyof": "prosthetic_arm"
 	},
 	"prowlers_palliative": {
@@ -804,7 +781,6 @@
 	},
 	"pulque_wineskin": {
 		"name": "Pulque (wineskin)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "pulque_cup"
 	},
 	"pump_organ": {
@@ -1083,7 +1059,6 @@
 	},
 	"raft_travel_per_mile": {
 		"name": "Raft (travel, per mile)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "raft"
 	},
 	"ragers_aid": {
@@ -1128,7 +1103,6 @@
 	},
 	"ram_common": {
 		"name": "Ram (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "ram_combat_trained"
 	},
 	"rangers_kit": {
@@ -1156,7 +1130,6 @@
 	},
 	"rat_common": {
 		"name": "Rat (common)",
-		"sources": [ "Adventurer's Armory" ],
 		"copyof": "rat_blue"
 	},
 	"rat_dire": {
@@ -1358,7 +1331,6 @@
 	},
 	"rhinoceros_common": {
 		"name": "Rhinoceros (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "rhinoceros_combat_trained"
 	},
 	"rice_paper_sheet": {
@@ -1390,17 +1362,14 @@
 	},
 	"riding_bee_combat_trained_worker": {
 		"name": "Riding bee (combat-trained worker)",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "riding_bee_combat_trained_queen"
 	},
 	"riding_bee_queen": {
 		"name": "Riding bee (queen)",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "riding_bee_combat_trained_queen"
 	},
 	"riding_bee_worker": {
 		"name": "Riding bee (worker)",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "riding_bee_combat_trained_queen"
 	},
 	"riding_kit_common": {
@@ -1419,10 +1388,6 @@
 	},
 	"riding_kit_exotic_mount": {
 		"name": "Riding kit (exotic mount)",
-		"sources": [
-			"Ultimate Equipment",
-			"Pathfinder Society Field Guide"
-		],
 		"copyof": "riding_kit_common"
 	},
 	"riding_rat_combat_trained": {
@@ -1438,7 +1403,6 @@
 	},
 	"riding_rat_common": {
 		"name": "Riding rat (common)",
-		"sources": [ "Monster Codex" ],
 		"copyof": "riding_rat_combat_trained"
 	},
 	"ritual_bell": {
@@ -1505,7 +1469,6 @@
 	},
 	"roc_common": {
 		"name": "Roc (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "roc_combat_trained"
 	},
 	"rockshard_canister": {
@@ -1605,10 +1568,6 @@
 	},
 	"rowboat_travel_per_mile": {
 		"name": "Rowboat (travel, per mile)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "rowboat"
 	},
 	"royal_outfit": {
@@ -1636,11 +1595,6 @@
 	},
 	"tear_away_royal_outfit": {
 		"name": "Tear-away royal outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "royal_outfit"
 	},
 	"rumboozle_cup": {
@@ -1726,42 +1680,22 @@
 	},
 	"saddle_exotic_pack": {
 		"name": "Saddle (exotic, pack)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "saddle_exotic_military"
 	},
 	"saddle_exotic_riding": {
 		"name": "Saddle (exotic, riding)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "saddle_exotic_military"
 	},
 	"saddle_military": {
 		"name": "Saddle (military)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "saddle_exotic_military"
 	},
 	"saddle_pack": {
 		"name": "Saddle (pack)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "saddle_exotic_military"
 	},
 	"saddle_riding": {
 		"name": "Saddle (riding)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "saddle_exotic_military"
 	},
 	"saddlebags": {
@@ -1891,14 +1825,6 @@
 	},
 	"scarf_reinforced": {
 		"name": "Scarf (reinforced)",
-		"sources": [
-			"Ultimate Equipment",
-			"Rise of the Runelords Player's Guide",
-			"Curse of the Crimson Throne Player's Guide",
-			"Pathfinder Campaign Setting",
-			"Adventurer's Armory",
-			"Varisia, Birthplace of Legends"
-		],
 		"copyof": "scarf_pocketed"
 	},
 	"scarf": {
@@ -2026,11 +1952,6 @@
 	},
 	"tear_away_scholars_outfit": {
 		"name": "Tear-away scholar's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "scholars_outfit"
 	},
 	"scorpion_greensting": {
@@ -2058,7 +1979,6 @@
 	},
 	"scribe_text": {
 		"name": "Scribe (text)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "scribe_map"
 	},
 	"scriveners_kit": {
@@ -2430,12 +2350,10 @@
 	},
 	"shears_lopping": {
 		"name": "Shears (lopping)",
-		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "shears_adamantine"
 	},
 	"shears_small": {
 		"name": "Shears (small)",
-		"sources": [ "Adventurer's Armory 2" ],
 		"copyof": "shears_adamantine"
 	},
 	"sheep": {
@@ -2551,7 +2469,6 @@
 	},
 	"shovel_folding": {
 		"name": "Shovel (folding)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "shovel_common"
 	},
 	"shovel_common_2": {
@@ -2738,6 +2655,7 @@
 			"This 50-foot length of silk rope has 4 hit points and can be broken with a DC 24 Strength check."
 		]
 	},
+	"rope_silk_50_ft": { "copyof": "silk_rope_50_ft" },
 	"silk_rope_fifty_ft": {
 		"copyof": "silk_rope_50_ft"
 	},
@@ -2849,7 +2767,6 @@
 	},
 	"skillet_mithral": {
 		"name": "Skillet (mithral)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "skillet_common"
 	},
 	"skis_and_poles": {
@@ -2913,12 +2830,10 @@
 	},
 	"slave_household": {
 		"name": "Slave (household)",
-		"sources": [ "Adventurer's Armory" ],
 		"copyof": "slave_hard_labor"
 	},
 	"slave_slip_halfling": {
 		"name": "Slave (slip, halfling)",
-		"sources": [ "Adventurer's Armory" ],
 		"copyof": "slave_hard_labor"
 	},
 	"halfling_slave_slip": {
@@ -2926,12 +2841,10 @@
 	},
 	"slave_specialized": {
 		"name": "Slave (specialized)",
-		"sources": [ "Adventurer's Armory" ],
 		"copyof": "slave_hard_labor"
 	},
 	"slave": {
 		"name": "Slave",
-		"sources": [ "Adventurer's Armory" ],
 		"copyof": "slave_hard_labor"
 	},
 	"slayers_kit": {
@@ -2960,7 +2873,6 @@
 	},
 	"sled_travel_per_mile": {
 		"name": "Sled (travel, per mile)",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "sled"
 	},
 	"sledge": {
@@ -3004,7 +2916,6 @@
 	},
 	"sleigh_travel_per_mile": {
 		"name": "Sleigh (travel, per mile)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "sleigh"
 	},
 	"slow_heart_concoction": {
@@ -3258,7 +3169,6 @@
 	},
 	"snorkel_masterwork": {
 		"name": "Snorkel (masterwork)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "snorkel_common"
 	},
 	"snow_goggles": {
@@ -3303,12 +3213,10 @@
 	},
 	"snuffbox_ivory_or_precious_metal": {
 		"name": "Snuffbox (ivory or precious metal)",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "snuffbox_bone_or_tortoise_shell"
 	},
 	"snuffbox_tin_or_wood": {
 		"name": "Snuffbox (tin or wood)",
-		"sources": [ "Advanced Class Guide" ],
 		"copyof": "snuffbox_bone_or_tortoise_shell"
 	},
 	"soap": {
@@ -3670,6 +3578,7 @@
 	"spiders_silk_rope_fifty_ft": {
 		"copyof": "spiders_silk_rope_50_ft"
 	},
+	"rope_spiders_silk_50_ft": { "copyof": "spiders_silk_rope_50_ft" },
 	"spiderdraw": {
 		"name": "Spiderdraw",
 		"sources": [ "Monster Codex" ],
@@ -3959,11 +3868,6 @@
 	},
 	"tear_away_squires_outfit": {
 		"name": "Tear-away squire's outfit",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Adventurer's Armory 2"
-		],
 		"copyof": "squires_outfit"
 	},
 	"squirrel_common": {
@@ -3981,7 +3885,6 @@
 	},
 	"squirrel_flying": {
 		"name": "Squirrel (flying)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "squirrel_common"
 	},
 	"stabling_per_day": {
@@ -4150,7 +4053,6 @@
 	},
 	"stilts_masterwork": {
 		"name": "Stilts (masterwork)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "stilts_common"
 	},
 	"stinging_whip_calistria": {
@@ -4290,7 +4192,6 @@
 	},
 	"straitjacket_masterwork": {
 		"name": "Straitjacket (masterwork)",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "straitjacket_common"
 	},
 	"street_meat": {
@@ -4367,7 +4268,6 @@
 	},
 	"subversive_vest_vestment": {
 		"name": "Subversive vest (vestment)",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "subversive_vest_vest"
 	},
 	"suckers_barrel": {
@@ -4531,7 +4431,6 @@
 	},
 	"sureseal_bladder_potion": {
 		"name": "Sureseal bladder (potion)",
-		"sources": [ "Aquatic Adventures" ],
 		"copyof": "sureseal_bladder_mundane"
 	},
 	"surge_syrup": {
@@ -4595,7 +4494,6 @@
 	},
 	"survival_kit_masterwork": {
 		"name": "Survival kit (masterwork)",
-		"sources": [ "Ultimate Equipment" ],
 		"copyof": "survival_kit_common"
 	},
 	"swarmsuit": {
@@ -4791,10 +4689,6 @@
 	},
 	"tea_cup": {
 		"name": "Tea (cup)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory"
-		],
 		"copyof": "tea_ceremonial_cup"
 	},
 	"tea_ceremony_set": {
@@ -4899,23 +4793,21 @@
 			"| &times;250 | +6 |"
 		]
 	},
-	"telescope_xten": {
+	"telescope_times10": {
 		"copyof": "telescope_x10"
 	},
 	"telescope_x250": {
 		"name": "Telescope (&times;250)",
-		"sources": [ "People of the Stars" ],
-		"copyof": "telescope_xten"
+		"copyof": "telescope_x10"
 	},
-	"telescope_x_two_hundred_fifty": {
+	"telescope_times250": {
 		"copyof": "telescope_x250"
 	},
 	"telescope_x50": {
 		"name": "Telescope (&times;50)",
-		"sources": [ "People of the Stars" ],
-		"copyof": "telescope_xten"
+		"copyof": "telescope_x10"
 	},
-	"telescope_x_fifty": {
+	"telescope_times50": {
 		"copyof": "telescope_x50"
 	},
 	"tennis_gear": {
@@ -4947,29 +4839,14 @@
 	},
 	"tent_medium": {
 		"name": "Tent (medium)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide",
-			"Adventurer's Armory"
-		],
 		"copyof": "tent_large"
 	},
 	"tent_pavilion": {
 		"name": "Tent (pavilion)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
-		],
 		"copyof": "tent_large"
 	},
 	"tent_small": {
 		"name": "Tent (small)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide",
-			"Adventurer's Armory"
-		],
 		"copyof": "tent_large"
 	},
 	"tent_cover": {
@@ -5093,7 +4970,6 @@
 	},
 	"thieves_tool_extenders_mithral": {
 		"name": "Thieves' tool extenders (mithral)",
-		"sources": [ "Dungeoneer's Handbook" ],
 		"copyof": "thieves_tool_extenders_common"
 	},
 	"thieves_tools_common": {
@@ -5114,10 +4990,6 @@
 	},
 	"thieves_tools_masterwork": {
 		"name": "Thieves' tools (masterwork)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "thieves_tools_common"
 	},
 	"thinkers_tipple": {
@@ -5162,7 +5034,6 @@
 	},
 	"thumbscrews_masterwork": {
 		"name": "Thumbscrews (masterwork)",
-		"sources": [ "Horror Adventures" ],
 		"copyof": "thumbscrews_common"
 	},
 	"thunder_kettle": {
@@ -5220,7 +5091,6 @@
 	},
 	"tiger_common": {
 		"name": "Tiger (common)",
-		"sources": [ "Animal Archive" ],
 		"copyof": "tiger_combat_trained"
 	},
 	"tillers_gum": {
@@ -5526,7 +5396,6 @@
 	},
 	"trapped_item_trapped_scroll_case": {
 		"name": "Trapped item (trapped scroll case)",
-		"sources": [ "Kobolds of Golarion" ],
 		"copyof": "trapped_item_trapped_disguise_kit"
 	}
 }

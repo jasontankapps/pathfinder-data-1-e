@@ -2136,6 +2136,7 @@
 			"Although most Leng ghouls venerate the Great Old Ones or Outer Gods (they have a particular affinity for Nyarlathotep), a rare few of these creatures retain more of their humanity than merely their living intellect. These unique few drift away from evil in their pursuit of magical lore-while they still hunger for dead flesh, many try their best to feed only on those who died naturally or willingly offer themselves up to the carrion feast in return for favors. While many eventually succumb to the temptation to feed on fresh kills in time, a rare few manage to maintain nonevil alignments. Such rare ghouls also retain some or all of the class levels they had in life, transferring those levels onto their new undead forms. The bulk of these Leng ghouls have levels as arcane spellcasters or rogues, since those who were once divine spellcasters, or otherwise religious in life, tend to be wholly devoted to gods of evil and decay."
 		]
 	},
+	"ghoul_leng": { "copyof": "ghoul_leng_ghoul" },
 	"leng_ghoul": { "copyof": "ghoul_leng_ghoul" },
 	"ghoul_masked_murderer": {
 		"name": "Ghoul, Masked Murderer",
@@ -2345,6 +2346,7 @@
 		]
 	},
 	"fire_giant": { "copyof": "giant_fire_fire_giant" },
+	"giant_fire": { "copyof": "giant_fire_fire_giant" },
 	"giant_fire_fire_giant_doombringer": {
 		"name": "Giant (Fire), Fire Giant Doombringer",
 		"sources": [ "Monster Codex" ],

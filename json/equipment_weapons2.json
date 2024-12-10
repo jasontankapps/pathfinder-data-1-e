@@ -3235,7 +3235,6 @@
 	},
 	"kobold_tail_pounder": {
 		"name": "Kobold tail, pounder",
-		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
 	"pounder_kobold_tail": {
@@ -3243,7 +3242,6 @@
 	},
 	"kobold_tail_razored": {
 		"name": "Kobold tail, razored",
-		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
 	"razored_kobold_tail": {
@@ -3251,7 +3249,6 @@
 	},
 	"kobold_tail_spiked": {
 		"name": "Kobold tail, spiked",
-		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
 	"spiked_kobold_tail": {
@@ -3259,7 +3256,6 @@
 	},
 	"kobold_tail_sweeper": {
 		"name": "Kobold tail, sweeper",
-		"sources": [ "Advanced Race Guide" ],
 		"copyof": "long_lash_kobold_tail"
 	},
 	"sweeper_kobold_tail": {
@@ -3888,64 +3884,42 @@
 	},
 	"alchemical_cartridge_entangling_shot": {
 		"name": "Alchemical cartridge (entangling shot)",
-		"sources": [
-			"Ultimate Equipment",
-			"Ultimate Combat"
-		],
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_flare": {
 		"name": "Alchemical cartridge (flare)",
-		"sources": [
-			"Ultimate Equipment",
-			"Ultimate Combat"
-		],
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_gray_dust_shot": {
 		"name": "Alchemical cartridge (gray dust shot)",
-		"sources": [ "Heroes of Golarion" ],
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_gray_dust": {
 		"name": "Alchemical cartridge (gray dust)",
-		"sources": [ "Heroes of Golarion" ],
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_molten_shot": {
 		"name": "Alchemical cartridge (molten shot)",
-		"sources": [ "People of the Wastes" ],
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_paper_bullet_or_pellet": {
 		"name": "Alchemical cartridge (paper, bullet or pellet)",
-		"sources": [
-			"Ultimate Equipment",
-			"Ultimate Combat"
-		],
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_repellent": {
 		"name": "Alchemical cartridge (repellent)",
-		"sources": [ "People of the Wastes" ],
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_salt_shot": {
 		"name": "Alchemical cartridge (salt shot)",
-		"sources": [
-			"Ultimate Equipment",
-			"Ultimate Combat"
-		],
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_smoke_cartridge": {
 		"name": "Alchemical cartridge (smoke cartridge)",
-		"sources": [ "Heroes of Golarion" ],
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"alchemical_cartridge_toxin": {
 		"name": "Alchemical cartridge (toxin)",
-		"sources": [ "People of the Wastes" ],
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"black_powder_dose": {
@@ -3966,10 +3940,6 @@
 	},
 	"black_powder_keg": {
 		"name": "Black powder (keg)",
-		"sources": [
-			"Ultimate Equipment",
-			"Ultimate Combat"
-		],
 		"copyof": "black_powder_dose"
 	},
 	"bullet_adamantine": {

@@ -247,7 +247,6 @@
 	},
 	"ballista_heavy": {
 		"name": "Ballista, heavy",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_ballista"
 	},
 	"heavy_ballista": {
@@ -300,7 +299,6 @@
 	},
 	"ballista_gate_breaker": {
 		"name": "Ballista, gate Breaker",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_ballista"
 	},
 	"firewyrm": {
@@ -416,12 +414,10 @@
 	},
 	"bombard_standard": {
 		"name": "Bombard, standard",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_bombard"
 	},
 	"catapult_standard": {
 		"name": "Catapult, standard",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_catapult"
 	},
 	"springal_arrow": {
@@ -451,7 +447,6 @@
 	},
 	"springal_rocket": {
 		"name": "Springal, rocket",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "arrow_springal"
 	},
 	"rocket_springal": {
@@ -459,7 +454,6 @@
 	},
 	"trebuchet_standard": {
 		"name": "Trebuchet, standard",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_trebuchet"
 	},
 	"standard_trebuchet": {
@@ -467,7 +461,6 @@
 	},
 	"bombard_heavy": {
 		"name": "Bombard, heavy",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_bombard"
 	},
 	"heavy_bombard": {
@@ -475,10 +468,6 @@
 	},
 	"catapult_heavy": {
 		"name": "Catapult, heavy",
-		"sources": [
-			"Ultimate Combat",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "light_catapult"
 	},
 	"heavy_catapult": {
@@ -486,7 +475,6 @@
 	},
 	"trebuchet_heavy": {
 		"name": "Trebuchet, heavy",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_trebuchet"
 	},
 	"heavy_trebuchet": {
@@ -540,7 +528,6 @@
 	},
 	"bridge_assault_gargantuan": {
 		"name": "Bridge, assault, gargantuan",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_assault_bridge"
 	},
 	"gargantuan_assault_bridge": {
@@ -548,7 +535,6 @@
 	},
 	"bridge_assault_huge": {
 		"name": "Bridge, assault, huge",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_assault_bridge"
 	},
 	"huge_assault_bridge": {
@@ -556,7 +542,6 @@
 	},
 	"bridge_assault_large": {
 		"name": "Bridge, assault, large",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_assault_bridge"
 	},
 	"large_assault_bridge": {
@@ -656,7 +641,6 @@
 	},
 	"gallery_gargantuan": {
 		"name": "Gallery, gargantuan",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_gallery"
 	},
 	"gargantuan_gallery": {
@@ -664,7 +648,6 @@
 	},
 	"gallery_huge": {
 		"name": "Gallery, huge",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_gallery"
 	},
 	"huge_gallery": {
@@ -672,7 +655,6 @@
 	},
 	"gallery_large": {
 		"name": "Gallery, large",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_gallery"
 	},
 	"large_gallery": {
@@ -743,7 +725,6 @@
 	},
 	"ladder_escalade_colossal": {
 		"name": "Ladder, escalade, colossal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "gargantuan_ladder_escalade"
 	},
 	"colossal_ladder_escalade": {
@@ -751,7 +732,6 @@
 	},
 	"ladder_escalade_huge": {
 		"name": "Ladder, escalade, huge",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "gargantuan_ladder_escalade"
 	},
 	"huge_ladder_escalade": {
@@ -759,7 +739,6 @@
 	},
 	"ladder_escalade_large": {
 		"name": "Ladder, escalade, large",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "gargantuan_ladder_escalade"
 	},
 	"large_ladder_escalade": {
@@ -823,7 +802,6 @@
 	},
 	"ram_colossal": {
 		"name": "Ram, colossal",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "large_ram"
 	},
 	"colossal_ram": {
@@ -831,7 +809,6 @@
 	},
 	"ram_gargantuan": {
 		"name": "Ram, gargantuan",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "large_ram"
 	},
 	"gargantuan_ram": {
@@ -839,7 +816,6 @@
 	},
 	"ram_huge": {
 		"name": "Ram, huge",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "large_ram"
 	},
 	"huge_ram": {
@@ -847,7 +823,10 @@
 	},
 	"siege_tower_colossal": {
 		"name": "Siege Tower, colossal",
-		"sources": [ "Ultimate Combat" ],
+		"sources": [
+			"Ultimate Combat",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Siege Tower",
 			"{SOURCE Ultimate Combat/166}",
@@ -897,7 +876,6 @@
 	},
 	"siege_tower_gargantuan": {
 		"name": "Siege Tower, gargantuan",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_siege_tower"
 	},
 	"gargantuan_siege_tower": {
@@ -905,7 +883,6 @@
 	},
 	"siege_tower_huge": {
 		"name": "Siege Tower, huge",
-		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_siege_tower"
 	},
 	"huge_siege_tower": {
@@ -913,10 +890,6 @@
 	},
 	"siege_tower_large": {
 		"name": "Siege Tower, large",
-		"sources": [
-			"Ultimate Combat",
-			"PRPG Core Rulebook"
-		],
 		"copyof": "colossal_siege_tower"
 	},
 	"large_siege_tower": {

@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import { SourceProp } from "./components/SourcesModal";
 
-export type Datum = string | number | [ number, string ] | [ string, string ] | [ string, string, string ];
+export type Datum = string | number | [ number, string ] | [ string, string ];
 
 export type RawDatum = null | Datum;
 

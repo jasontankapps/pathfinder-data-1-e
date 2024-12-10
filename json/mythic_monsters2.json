@@ -80,6 +80,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"guardian_dragon": { "copyof": "guardian_dragon_mythic" },
 	"hell_hound_mythic": {
 		"name": "Hell Hound",
 		"sources": [ "Mythic Adventures" ],
@@ -233,6 +234,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"human_skeleton": { "copyof": "human_skeleton_mythic" },
 	"hydra_mythic": {
 		"name": "Hydra",
 		"sources": [ "Mythic Adventures" ],
@@ -347,6 +349,7 @@
 			"Every irminsul is bound to a specific plane. The bound plane determines the creature's alignment, the nature of its regeneration, and the languages it knows. Sometimes irminsuls have special abilities based on the planes they are linked to. The sample irminsul is bound to the primal land of fey."
 		]
 	},
+	"irminsul": { "copyof": "irminsul_mythic" },
 	"julunggali_mythic": {
 		"name": "Julunggali",
 		"sources": [ "Bestiary 4" ],
@@ -413,6 +416,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"julunggali": { "copyof": "julunggali_mythic" },
 	"lamia_mythic": {
 		"name": "Lamia",
 		"sources": [ "Mythic Adventures" ],
@@ -547,6 +551,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"leanan_sidhe": { "copyof": "leanan_sidhe_mythic" },
 	"lich_mythic": {
 		"name": "Lich",
 		"sources": [ "Mythic Adventures" ],
@@ -730,6 +735,7 @@
 			"[^M]: mythic spell-like ability"
 		]
 	},
+	"manasaputra_solar_pitri_agnishvatta": { "copyof": "manasaputra_solar_pitri_agnishvatta_mythic" },
 	"agnishvatta_mythic": { "copyof": "manasaputra_solar_pitri_agnishvatta_mythic" },
 	"solar_pitri_mythic": { "copyof": "manasaputra_solar_pitri_agnishvatta_mythic" },
 	"solar_pitri": { "copyof": "manasaputra_solar_pitri_agnishvatta_mythic" },
@@ -1031,6 +1037,7 @@
 			"Myrmecoleons are known to roll in the corpses of their prey, impaling the bodies upon their carapaces and leaving them there to rot. Why they perform this gruesome act remains unknown. Those who have studied the creature to understand its rudimentary intelligence hypothesize that it might be some sort of a display to showcase its strength to others of its kind, or even be one part of an elaborate mating ritual."
 		]
 	},
+	"myrmecoleon": { "copyof": "myrmecoleon_mythic" },
 	"ogre_mythic": {
 		"name": "Ogre",
 		"sources": [ "Mythic Adventures" ],
@@ -1155,6 +1162,7 @@
 			"An ophiotaurus is a strange beast tied to apocalyptic prophecies, yet imbued with the power to alter destiny and bend fate. They typically measure about 20 feet long and weigh over 4 tons."
 		]
 	},
+	"ophiotaurus": { "copyof": "ophiotaurus_mythic" },
 	"owlbear_mythic": {
 		"name": "Owlbear",
 		"sources": [ "Mythic Adventures" ],
@@ -1327,6 +1335,7 @@
 		]
 	},
 	"bat_plague_swarm_mythic": { "copyof": "plague_swarm_bat_plague_swarm_mythic" },
+	"plague_swarm_bat": { "copyof": "plague_swarm_bat_plague_swarm_mythic" },
 	"plague_swarm_locust_plague_swarm_mythic": {
 		"name": "Plague Swarm, Locust Plague Swarm",
 		"sources": [ "Bestiary 5" ],
@@ -1383,6 +1392,7 @@
 		]
 	},
 	"locust_plague_swarm_mythic": { "copyof": "plague_swarm_locust_plague_swarm_mythic" },
+	"plague_swarm_locust": { "copyof": "plague_swarm_locust_plague_swarm_mythic" },
 	"plague_swarm_rat_plague_swarm_mythic": {
 		"name": "Plague Swarm, Rat Plague Swarm",
 		"sources": [ "Bestiary 5" ],
@@ -1443,6 +1453,7 @@
 		]
 	},
 	"rat_plague_swarm_mythic": { "copyof": "plague_swarm_rat_plague_swarm_mythic" },
+	"plague_swarm_rat": { "copyof": "plague_swarm_rat_plague_swarm_mythic" },
 	"portunus_mythic": {
 		"name": "Portunus",
 		"sources": [ "Pathfinder #125: Tower of the Drowned Dead" ],
@@ -1527,6 +1538,7 @@
 			"[^M]: mythic spell"
 		]
 	},
+	"portunus": { "copyof": "portunus_mythic" },
 	"rakshasa_mythic": {
 		"name": "Rakshasa",
 		"sources": [ "Mythic Adventures" ],
@@ -1685,6 +1697,7 @@
 			"[^M]: mythic spell"
 		]
 	},
+	"shen": { "copyof": "shen_mythic" },
 	"sphinx_mythic": {
 		"name": "Sphinx",
 		"sources": [ "Mythic Adventures" ],
@@ -1823,6 +1836,7 @@
 	},
 	"danava_mythic": { "copyof": "titan_danava_mythic" },
 	"danava": { "copyof": "titan_danava_mythic" },
+	"titan_danava": { "copyof": "titan_danava_mythic" },
 	"titan_fomorian_titan_mythic": {
 		"name": "Titan, Fomorian Titan",
 		"sources": [ "Bestiary 4" ],
@@ -1885,6 +1899,7 @@
 	},
 	"fomorian_titan_mythic": { "copyof": "titan_fomorian_titan_mythic" },
 	"fomorian_titan": { "copyof": "titan_fomorian_titan_mythic" },
+	"titan_fomorian": { "copyof": "titan_fomorian_titan_mythic" },
 	"treant_mythic": {
 		"name": "Treant",
 		"sources": [ "Mythic Adventures" ],
@@ -2090,6 +2105,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
+	"tyrant_jelly": { "copyof": "tyrant_jelly_mythic" },
 	"udaeus_mythic": {
 		"name": "Udaeus",
 		"sources": [ "Bestiary 4" ],
@@ -2153,6 +2169,7 @@
 			"Udaeoi resemble tall, athletic humans with bone-white skin and black hair. They mark themselves with tattoos or brands, usually of weapons, dragons, or battle scenes. When an udaeus hardens its flesh with its innate magic, these markings look like carvings and cracks in a marble statue. Udaeoi might hire themselves out as mercenaries or serve as soldiers in a local army. Udaeoi prefer to fight alongside their own kind, and a squadron usually comprises members of the same fighting company or family unit."
 		]
 	},
+	"udaeus": { "copyof": "udaeus_mythic" },
 	"vampire_mythic": {
 		"name": "Vampire",
 		"sources": [ "Mythic Adventures" ],
@@ -2488,5 +2505,7 @@
 			"Xiomorns comprise two castes: the four-legged mythic Vault Builders and the two-legged non-mythic [Vault Keepers](monster/vault_keeper). Both are among the most ancient forms of life-primeval elemental beings who travel to raw, new worlds upon the Material Plane, pursuing strange ecological investigations into the nature of life. The worlds these enigmatic beings have visited feature strange ruins in remote regions and immense, vault-like caverns deep underground where ecologies that shouldn't exist flourish. Xiomorns have little interest in protecting a world's indigenous life, except as necessary for their experiments' goals, and wage war against such races when native empires encroach upon the xiomorns' experimental realms."
 		]
 	},
-	"vault_builder": { "copyof": "xiomorn_vault_builder_mythic" }
+	"xiomorn_vault_builder": { "copyof": "xiomorn_vault_builder_mythic" },
+	"vault_builder": { "copyof": "xiomorn_vault_builder_mythic" },
+	"xiomorn": { "copyof": "xiomorn_vault_builder_mythic" }
 }

@@ -2735,7 +2735,6 @@
 	},
 	"command_greater": {
 		"name": "Command, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "command"
 	},
 	"greater_command": {
@@ -2916,12 +2915,10 @@
 	},
 	"tectonic_communion": {
 		"name": "Tectonic Communion",
-		"sources": [ "Faiths and Philosophies" ],
 		"copyof": "commune_with_nature"
 	},
 	"signs_of_the_land": {
 		"name": "Signs of the Land",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "commune_with_nature"
 	},
 	"commune_with_plane": {
@@ -3389,7 +3386,6 @@
 	},
 	"confusion_lesser": {
 		"name": "Confusion, Lesser",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "confusion"
 	},
 	"lesser_confusion": {
@@ -3698,7 +3694,6 @@
 	},
 	"contact_entity_2": {
 		"name": "Contact Entity II",
-		"sources": [ "Horror Adventures" ],
 		"copyof": "contact_entity_1"
 	},
 	"contact_entity_ii": {
@@ -3706,7 +3701,6 @@
 	},
 	"contact_entity_3": {
 		"name": "Contact Entity III",
-		"sources": [ "Horror Adventures" ],
 		"copyof": "contact_entity_1"
 	},
 	"contact_entity_iii": {
@@ -3714,7 +3708,6 @@
 	},
 	"contact_entity_4": {
 		"name": "Contact Entity IV",
-		"sources": [ "Horror Adventures" ],
 		"copyof": "contact_entity_1"
 	},
 	"contact_entity_iv": {
@@ -3875,7 +3868,6 @@
 	},
 	"contagion_greater": {
 		"name": "Contagion, Greater",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "contagion"
 	},
 	"greater_contagion": {
@@ -4020,7 +4012,6 @@
 	},
 	"deadmans_contingency": {
 		"name": "Deadman's Contingency",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "contingency"
 	},
 	"contingent_action": {
@@ -4335,7 +4326,6 @@
 	},
 	"wandering_weather": {
 		"name": "Wandering Weather",
-		"sources": [ "Ultimate Wilderness" ],
 		"copyof": "control_weather"
 	},
 	"control_winds": {
@@ -4933,12 +4923,10 @@
 	},
 	"create_demiplane": {
 		"name": "Create Demiplane",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "lesser_create_demiplane"
 	},
 	"create_demiplane_greater": {
 		"name": "Create Demiplane, Greater",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "lesser_create_demiplane"
 	},
 	"greater_create_demiplane": {

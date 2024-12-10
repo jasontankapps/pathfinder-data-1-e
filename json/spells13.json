@@ -47,7 +47,6 @@
 	},
 	"disguise_other": {
 		"name": "Disguise Other",
-		"sources": [ "Ultimate Magic" ],
 		"copyof": "disguise_self"
 	},
 	"disguise_weapon": {
@@ -167,7 +166,6 @@
 	},
 	"homeward_bound": {
 		"name": "Homeward Bound",
-		"sources": [ "Planar Adventures" ],
 		"copyof": "dismissal"
 	},
 	"dispel_balance": {
@@ -391,7 +389,6 @@
 	},
 	"dispel_magic_greater": {
 		"name": "Dispel Magic, Greater",
-		"sources": [ "PRPG Core Rulebook" ],
 		"copyof": "dispel_magic"
 	},
 	"greater_dispel_magic": {
@@ -705,12 +702,10 @@
 	},
 	"prognostication": {
 		"name": "Prognostication",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "divination"
 	},
 	"true_prognostication": {
 		"name": "True Prognostication",
-		"sources": [ "Ultimate Intrigue" ],
 		"copyof": "divination"
 	},
 	"divine_arrow": {
@@ -2594,7 +2589,6 @@
 	},
 	"ego_whip_2": {
 		"name": "Ego Whip II",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "ego_whip_1"
 	},
 	"ego_whip_ii": {
@@ -2602,7 +2596,6 @@
 	},
 	"ego_whip_3": {
 		"name": "Ego Whip III",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "ego_whip_1"
 	},
 	"ego_whip_iii": {
@@ -2610,7 +2603,6 @@
 	},
 	"ego_whip_4": {
 		"name": "Ego Whip IV",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "ego_whip_1"
 	},
 	"ego_whip_iv": {
@@ -2618,7 +2610,6 @@
 	},
 	"ego_whip_5": {
 		"name": "Ego Whip V",
-		"sources": [ "Occult Adventures" ],
 		"copyof": "ego_whip_1"
 	},
 	"ego_whip_v": {

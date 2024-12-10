@@ -607,6 +607,7 @@
 		]
 	},
 	"gristly_demodand": { "copyof": "demodand_gristly_demodand" },
+	"demodand_gristly": { "copyof": "demodand_gristly_demodand" },
 	"demodand_shaggy_demodand": {
 		"name": "Demodand, Shaggy Demodand",
 		"sources": [ "Bestiary 3" ],
@@ -665,6 +666,7 @@
 		]
 	},
 	"shaggy_demodand": { "copyof": "demodand_shaggy_demodand" },
+	"demodand_shaggy": { "copyof": "demodand_shaggy_demodand" },
 	"demodand_slimy_demodand": {
 		"name": "Demodand, Slimy Demodand",
 		"sources": [ "Bestiary 3" ],
@@ -730,6 +732,7 @@
 		]
 	},
 	"slimy_demodand": { "copyof": "demodand_slimy_demodand" },
+	"demodand_slimy": { "copyof": "demodand_slimy_demodand" },
 	"demodand_squamous_demodand": {
 		"name": "Demodand, Squamous Demodand",
 		"sources": [
@@ -802,6 +805,7 @@
 		]
 	},
 	"squamous_demodand": { "copyof": "demodand_squamous_demodand" },
+	"demodand_squamous": { "copyof": "demodand_squamous_demodand" },
 	"demodand_stringy_demodand": {
 		"name": "Demodand, Stringy Demodand",
 		"sources": [
@@ -870,6 +874,7 @@
 		]
 	},
 	"stringy_demodand": { "copyof": "demodand_stringy_demodand" },
+	"demodand_stringy": { "copyof": "demodand_stringy_demodand" },
 	"demodand_tarry_demodand": {
 		"name": "Demodand, Tarry Demodand",
 		"sources": [ "Bestiary 3" ],
@@ -931,6 +936,7 @@
 		]
 	},
 	"tarry_demodand": { "copyof": "demodand_tarry_demodand" },
+	"demodand_tarry": { "copyof": "demodand_tarry_demodand" },
 	"demon_abrikandilu": {
 		"name": "Demon, Abrikandilu",
 		"sources": [
@@ -3184,6 +3190,7 @@
 		]
 	},
 	"shadow_demon": { "copyof": "demon_shadow_demon" },
+	"demon_shadow": { "copyof": "demon_shadow_demon" },
 	"demon_shemhazian": {
 		"name": "Demon, Shemhazian",
 		"sources": [
@@ -3470,6 +3477,7 @@
 		]
 	},
 	"thoxel_demon": { "copyof": "demon_thoxel_demon" },
+	"demon_thoxel": { "copyof": "demon_thoxel_demon" },
 	"demon_ulkreth": {
 		"name": "Demon, Ulkreth",
 		"sources": [

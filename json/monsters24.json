@@ -328,6 +328,7 @@
 			"Swans are large and aggressive waterfowl. The average adult trumpeter swan is 5 feet long and weighs around 25 pounds."
 		]
 	},
+	"swan_trumpeter": { "copyof": "swan_trumpeter_swan" },
 	"trumpeter_swan": { "copyof": "swan_trumpeter_swan" },
 	"switchback_jackal": {
 		"name": "Switchback Jackal",
@@ -635,6 +636,7 @@
 		]
 	},
 	"barrier_breaker_troop": { "copyof": "troop_barrier_breaker_troop" },
+	"troop_barrier_breaker": { "copyof": "troop_barrier_breaker_troop" },
 	"troop_cultist_troop": {
 		"name": "Troop, Cultist Troop",
 		"sources": [ "Bestiary 6" ],
@@ -701,6 +703,7 @@
 		]
 	},
 	"cultist_troop": { "copyof": "troop_cultist_troop" },
+	"troop_cultist": { "copyof": "troop_cultist_troop" },
 	"troop_goblin_troop": {
 		"name": "Troop, Goblin Troop",
 		"sources": [ "Bestiary 6" ],
@@ -756,6 +759,7 @@
 		]
 	},
 	"goblin_troop": { "copyof": "troop_goblin_troop" },
+	"troop_goblin": { "copyof": "troop_goblin_troop" },
 	"troop_outlaw_troop": {
 		"name": "Troop, Outlaw Troop",
 		"sources": [ "Bestiary 6" ],
@@ -811,6 +815,7 @@
 		]
 	},
 	"outlaw_troop": { "copyof": "troop_outlaw_troop" },
+	"troop_outlaw": { "copyof": "troop_outlaw_troop" },
 	"troop_sodden_drauger_troop": {
 		"name": "Troop, Sodden Drauger Troop",
 		"sources": [
@@ -879,6 +884,7 @@
 		]
 	},
 	"sodden_drauger_troop": { "copyof": "troop_sodden_drauger_troop" },
+	"troop_sodden_drauger": { "copyof": "troop_sodden_drauger_troop" },
 	"troops_dottari_troop": {
 		"name": "Troops, Dottari Troop",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
@@ -931,6 +937,7 @@
 		]
 	},
 	"dottari_troop": { "copyof": "troops_dottari_troop" },
+	"troop_dottari": { "copyof": "troops_dottari_troop" },
 	"troops_glorious_reclamation": {
 		"name": "Troops, Glorious Reclamation",
 		"sources": [
@@ -1081,6 +1088,7 @@
 		]
 	},
 	"hobgoblin_phalanx_troop": { "copyof": "troops_hobgoblin_phalanx_troop" },
+	"troop_hobgoblin_phalanx": { "copyof": "troops_hobgoblin_phalanx_troop" },
 	"troops_hound_archon_troop": {
 		"name": "Troops, Hound Archon Troop",
 		"sources": [
@@ -1138,6 +1146,7 @@
 		]
 	},
 	"hound_archon_troop": { "copyof": "troops_hound_archon_troop" },
+	"troop_hound_archon": { "copyof": "troops_hound_archon_troop" },
 	"troops_inquisitor_troop": {
 		"name": "Troops, Inquisitor Troop",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
@@ -1193,6 +1202,7 @@
 		]
 	},
 	"inquisitor_troop": { "copyof": "troops_inquisitor_troop" },
+	"troop_inquisitor": { "copyof": "troops_inquisitor_troop" },
 	"troops_ironfang_magehunter_troop": {
 		"name": "Troops, Ironfang Magehunter Troop",
 		"sources": [
@@ -1257,6 +1267,7 @@
 		]
 	},
 	"ironfang_magehunter_troop": { "copyof": "troops_ironfang_magehunter_troop" },
+	"troop_ironfang_magehunter": { "copyof": "troops_ironfang_magehunter_troop" },
 	"troops_ironfang_siege_alchemist_troop": {
 		"name": "Troops, Ironfang Siege Alchemist Troop",
 		"sources": [
@@ -1320,6 +1331,7 @@
 		]
 	},
 	"ironfang_siege_alchemist_troop": { "copyof": "troops_ironfang_siege_alchemist_troop" },
+	"troop_ironfang_siege_alchemist": { "copyof": "troops_ironfang_siege_alchemist_troop" },
 	"troops_ironfang_yzobu_rider_troop": {
 		"name": "Troops, Ironfang Yzobu Rider Troop",
 		"sources": [
@@ -1385,6 +1397,7 @@
 		]
 	},
 	"ironfang_yzobu_rider_troop": { "copyof": "troops_ironfang_yzobu_rider_troop" },
+	"troop_ironfang_yzobu_rider": { "copyof": "troops_ironfang_yzobu_rider_troop" },
 	"troops_morlock_swarmer_troop": {
 		"name": "Troops, Morlock Swarmer Troop",
 		"sources": [
@@ -1447,6 +1460,7 @@
 		]
 	},
 	"morlock_swarmer_troop": { "copyof": "troops_morlock_swarmer_troop" },
+	"troop_morlock_swarmer": { "copyof": "troops_morlock_swarmer_troop" },
 	"troops_warmaze_disciples_troop": {
 		"name": "Troops, Warmaze Disciples Troop",
 		"sources": [
@@ -1509,6 +1523,7 @@
 		]
 	},
 	"warmaze_disciples_troop": { "copyof": "troops_warmaze_disciples_troop" },
+	"troop_warmaze_disciples": { "copyof": "troops_warmaze_disciples_troop" },
 	"trox": {
 		"name": "Trox",
 		"sources": [ "Bestiary 4" ],
@@ -1977,6 +1992,7 @@
 			"Giant snapping turtles typically grow to diameters of about 35 feet and weigh 20,000 pounds."
 		]
 	},
+	"turtle_giant_snapping": { "copyof": "turtle_giant_snapping_turtle" },
 	"giant_snapping_turtle": { "copyof": "turtle_giant_snapping_turtle" },
 	"turtle_snapping_turtle": {
 		"name": "Turtle, Snapping Turtle",
@@ -2028,6 +2044,7 @@
 			"Snapping turtles are water-dwelling reptiles known for their propensity to bite anyone they deem threatening. Adult snapping turtles are usually about 1-1/2 feet in diameter. A spellcaster who can acquire a familiar can choose a snapping turtle as a familiar. A snapping turtle familiar grants its master a +2 bonus on all Fortitude saves."
 		]
 	},
+	"turtle_snapping": { "copyof": "turtle_snapping_turtle" },
 	"snapping_turtle": { "copyof": "turtle_snapping_turtle" },
 	"turul": {
 		"name": "Turul",
@@ -4165,6 +4182,7 @@
 		]
 	},
 	"enlightened_vampire": { "copyof": "vampire_enlightened_vampire" },
+	"vampire_enlightened": { "copyof": "vampire_enlightened_vampire" },
 	"vampire_vampire_lord": {
 		"name": "Vampire, Vampire Lord",
 		"sources": [ "Monster Codex" ],

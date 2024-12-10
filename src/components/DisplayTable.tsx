@@ -79,11 +79,16 @@ function getCheckableValue (item: RawDatum, nullish: string, fromArray: boolean 
 	if(item === null || item === "~~") {
 		return {string: nullish};
 	} else if (Array.isArray(item)) {
-		return getCheckableValue(item[0], nullish);
+		return getCheckableValue(item[0], nullish, true);
 	} else if (typeof(item) === "number") {
 		return {number: item};
+	} else if (fromArray) {
+		return {string: item.replace(/^[-a-z]+\//g, "") + " "};
 	}
-	return {string: (fromArray ? item.replace(/^[-a-z]+\//g, "") : item) + " "};
+	const m = item.match(/^\{[-a-z]+\/(.+?)\}$/);
+	return m ?
+		{string: m[1].toLowerCase().replace(/[- ]/g, "_").replace(/[^a-z_0-9]/g, "") + " "}
+		:{string: item + " "};
 };
 const descendingSort = (a: RawDatum, b: RawDatum) => {
 	// a, b, c...
@@ -100,16 +105,7 @@ const descendingSort = (a: RawDatum, b: RawDatum) => {
 };
 const ascendingSort = (a: RawDatum, b: RawDatum) => {
 	// z, y, x...
-	const {string: xs, number: xn} = getCheckableValue(a, FINAL_CHAR);
-	const {string: ys, number: yn} = getCheckableValue(b, FINAL_CHAR);
-	if(xs && ys) {
-		return ys.localeCompare(xs, 'en');
-	} else if (xn && yn) {
-		return xn < yn ? 1 : (xn > yn ? -1 : 0);
-	}
-	const x: string = xs || String(xn);
-	const y: string = ys || String(yn);
-	return y.localeCompare(x, 'en', { numeric: true });
+	return 0 - descendingSort(a, b);
 };
 
 const DirectionIcon: FC<{down:boolean}> = ({down}) => {
@@ -214,10 +210,16 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum }) => {
 	const history = useHistory();
 	const dispatch = useAppDispatch();
-	// datum will be either [ linkString, text ] or [ sortString, linkString, text ]
-	const [ one, two, three ] = Array.isArray(datum) ? datum : [ "", `MISSING LINK: ${datum}` ];
-	const link = three ? two : one;
-	const output = three || two;
+	// datum will be either `{linkString}` or `[ sortableThing, {linkString} ]`
+	const linkString = Array.isArray(datum) ? datum[1] : datum;
+	const m = (typeof linkString === "string") ? linkString.match(/^\{([-a-z]+)\/(.+?)(?:\/(.+))?\}$/): false;
+	if(!m) {
+		return (
+			<td>LINK EXPECTED: {linkString}</td>
+		);
+	}
+	const output = m[2] + m[3];
+	const link = `${m[1]}/${m[2]}`;
 	const click = useCallback(() => { history.push(`/${link}`); dispatch(goTo(`/${link}`)); }, [link, dispatch, history]);
 	return (
 		<td className="ion-activatable cell-link" onClick={click}>

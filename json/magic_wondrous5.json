@@ -219,18 +219,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, fabricate, magic aura, secret chest; **Cost** 2,500 gp (type I), 5,000 gp (type II), 7,400 gp (type III), 10,000 gp (type IV)"
 		]
 	},
+	"bag_of_concealment_type_i": { "copyof": "bag_of_concealment_type_1" },
 	"bag_of_concealment_type_2": {
 		"name": "Bag of Concealment (Type II)",
 		"copyof": "bag_of_concealment_type_1"
 	},
+	"bag_of_concealment_type_ii": { "copyof": "bag_of_concealment_type_2" },
 	"bag_of_concealment_type_3": {
 		"name": "Bag of Concealment (Type III)",
 		"copyof": "bag_of_concealment_type_1"
 	},
+	"bag_of_concealment_type_iii": { "copyof": "bag_of_concealment_type_3" },
 	"bag_of_concealment_type_4": {
 		"name": "Bag of Concealment (Type IV)",
 		"copyof": "bag_of_concealment_type_1"
 	},
+	"bag_of_concealment_type_iv": { "copyof": "bag_of_concealment_type_4" },
 	"vial_of_reckless_courage": {
 		"name": "Vial of Reckless Courage",
 		"sources": [ "Antihero's Handbook" ],
@@ -1403,18 +1407,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/awaken construct}; **Cost** 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)"
 		]
 	},
+	"ioun_memory_node_type_i": { "copyof": "ioun_memory_node_type_1" },
 	"ioun_memory_node_type_2": {
 		"name": "Ioun Memory Node (Type II)",
 		"copyof": "ioun_memory_node_type_1"
 	},
+	"ioun_memory_node_type_ii": { "copyof": "ioun_memory_node_type_2" },
 	"ioun_memory_node_type_3": {
 		"name": "Ioun Memory Node (Type III)",
 		"copyof": "ioun_memory_node_type_1"
 	},
+	"ioun_memory_node_type_iii": { "copyof": "ioun_memory_node_type_3" },
 	"ioun_memory_node_type_4": {
 		"name": "Ioun Memory Node (Type IV)",
 		"copyof": "ioun_memory_node_type_1"
 	},
+	"ioun_memory_node_type_iv": { "copyof": "ioun_memory_node_type_4" },
 	"wavecutters_figurine": {
 		"name": "Wavecutter's Figurine",
 		"sources": [ "Pathfinder #124: City in the Deep" ],
@@ -1718,7 +1726,7 @@
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Horn of Goodness/Evil",
+			"## Horn of Goodness or Evil",
 			"",
 			"{SOURCE Ultimate Equipment/303;PRPG Core Rulebook/519}  ",
 			"**Aura** moderate abjuration; **CL** 6th  ",
@@ -1731,6 +1739,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against evil}, {spell/magic circle against good}; **Cost** 3,250 gp"
 		]
 	},
+	"horn_of_goodness_or_evil": {"copyof": "horn_of_goodness_evil"},
 	"horn_of_plenty": {
 		"name": "Horn of Plenty",
 		"sources": [ "Quests and Campaigns" ],
@@ -2150,6 +2159,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, fabricate, creator must have 2 ranks in Craft (ships); **Cost** 3,600 gp"
 		]
 	},
+	"boat_folding": { "copyof": "folding_boat" },
 	"bottle_of_air": {
 		"name": "Bottle of Air",
 		"sources": [
@@ -3521,6 +3531,9 @@
 	"strand_of_prayer_beads_standard": {
 		"name": "Strand of Prayer Beads (Standard)",
 		"copyof": "strand_of_prayer_beads_lesser"
+	},
+	"strand_of_prayer_beads": {
+		"copyof": "strand_of_prayer_beads_standard"
 	},
 	"standard_strand_of_prayer_beads": {
 		"copyof": "strand_of_prayer_beads_standard"

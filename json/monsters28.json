@@ -500,6 +500,7 @@
 			"| Titan centipede | 9 | Colossal | 10d8 |"
 		]
 	},
+	"centipede_giant": { "copyof": "centipede_giant_centipede" },
 	"giant_centipede": { "copyof": "centipede_giant_centipede" },
 	"centipede_giant_whiptail_centipede": {
 		"name": "Centipede, Giant Whiptail Centipede",
@@ -553,6 +554,7 @@
 			"Whiptail centipedes are carrion eaters, though corpses large enough to satiate them are a rarity. Corpses of Huge or larger creatures left to rot often attract whiptail centipedes, who viciously defend their bounty against any who would intrude upon their lairs."
 		]
 	},
+	"centipede_giant_whiptail": { "copyof": "centipede_giant_whiptail_centipede" },
 	"giant_whiptail_centipede": { "copyof": "centipede_giant_whiptail_centipede" },
 	"centipede_titan_centipede": {
 		"name": "Centipede, Titan Centipede",
@@ -606,6 +608,7 @@
 		]
 	},
 	"titan_centipede": { "copyof": "centipede_titan_centipede" },
+	"centipede_titan": { "copyof": "centipede_titan_centipede" },
 	"cephalophore": {
 		"name": "Cephalophore",
 		"sources": [
@@ -2013,6 +2016,7 @@
 		]
 	},
 	"giant_cockroach": { "copyof": "cockroach_giant_cockroach" },
+	"cockroach_giant": { "copyof": "cockroach_giant_cockroach" },
 	"coffin_anemone": {
 		"name": "Coffin Anemone",
 		"sources": [ "Bestiary 6" ],
@@ -2539,6 +2543,7 @@
 		]
 	},
 	"enlightened_contemplative": { "copyof": "contemplative_enlightened_contemplative" },
+	"contemplative_enlightened": { "copyof": "contemplative_enlightened_contemplative" },
 	"copsewight": {
 		"name": "Copsewight",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
@@ -2863,6 +2868,7 @@
 		]
 	},
 	"elder_cordulegaster": { "copyof": "cordulegaster_elder_cordulegaster" },
+	"cordulegaster_elder": { "copyof": "cordulegaster_elder_cordulegaster" },
 	"corpse_lotus": {
 		"name": "Corpse Lotus",
 		"sources": [
@@ -3140,6 +3146,7 @@
 		]
 	},
 	"auwaz_couatl": { "copyof": "couatl_auwaz_couatl" },
+	"couatl_auwaz": { "copyof": "couatl_auwaz_couatl" },
 	"couatl_chicome": {
 		"name": "Couatl, Chicome",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
@@ -3384,6 +3391,7 @@
 		]
 	},
 	"mix_couatl": { "copyof": "couatl_mix_couatl" },
+	"couatl_mix": { "copyof": "couatl_mix_couatl" },
 	"couatl_tletli": {
 		"name": "Couatl, Tletli",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
@@ -3559,6 +3567,7 @@
 		]
 	},
 	"xiuh_couatl": { "copyof": "couatl_xiuh_couatl" },
+	"couatl_xiuh": { "copyof": "couatl_xiuh_couatl" },
 	"crab_crab_swarm": {
 		"name": "Crab, Crab Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3668,6 +3677,7 @@
 		]
 	},
 	"giant_crab": { "copyof": "crab_giant_crab" },
+	"crab_giant": { "copyof": "crab_giant_crab" },
 	"crab_shark_eating_crab": {
 		"name": "Crab, Shark-Eating Crab",
 		"sources": [ "Bestiary 3" ],
@@ -3722,6 +3732,7 @@
 		]
 	},
 	"shark_eating_crab": { "copyof": "crab_shark_eating_crab" },
+	"crab_shark_eating": { "copyof": "crab_shark_eating_crab" },
 	"crab_shipwrecker_crab": {
 		"name": "Crab, Shipwrecker Crab",
 		"sources": [ "Bestiary 3" ],
@@ -3778,6 +3789,7 @@
 		]
 	},
 	"shipwrecker_crab": { "copyof": "crab_shipwrecker_crab" },
+	"crab_shipwrecker": { "copyof": "crab_shipwrecker_crab" },
 	"crackling_skull_swarm": {
 		"name": "Crackling Skull Swarm",
 		"sources": [ "Pathfinder #141: Last Watch" ],
@@ -4099,6 +4111,7 @@
 		]
 	},
 	"dire_crocodile": { "copyof": "crocodile_dire_crocodile" },
+	"crocodile_dire": { "copyof": "crocodile_dire_crocodile" },
 	"crocodile_hetkoshu": {
 		"name": "Crocodile, Hetkoshu",
 		"sources": [ "Osirion, Legacy of the Pharaohs" ],
@@ -4271,6 +4284,7 @@
 		]
 	},
 	"marine_crocodile": { "copyof": "crocodilians_marine_crocodile" },
+	"crocodile_marine": { "copyof": "crocodilians_marine_crocodile" },
 	"crocodilians_saltwater_crocodile": {
 		"name": "Crocodilians, Saltwater Crocodile",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
@@ -4326,5 +4340,6 @@
 			"Native to tropical saltwater estuaries and the freshwater rivers that feed them, saltwater crocodiles are among the largest form of non-primordial crocodilian on Golarion. Adult saltwater crocodiles can reach lengths upward of 20 feet and weights of over 2,000 pounds, and are typically more lethargic than their smaller kin, spending their days sunning themselves on land or in shallow water and hunting at night."
 		]
 	},
-	"saltwater_crocodile": { "copyof": "crocodilians_saltwater_crocodile" }
+	"saltwater_crocodile": { "copyof": "crocodilians_saltwater_crocodile" },
+	"crocodile_saltwater": { "copyof": "crocodilians_saltwater_crocodile" }
 }

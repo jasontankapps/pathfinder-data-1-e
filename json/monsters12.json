@@ -172,6 +172,7 @@
 			"Mephengitan emits a 30-foot-radius aura of frigid cold. Any living creature that begins its turn in this area must succeed at a DC 26 Fortitude save or take 4d6 points of cold damage as its core body temperature plummets and its blood begins to freeze. Creatures that don't need water to live are immune to this effect. Creatures with the water subtype take twice as much as damage."
 		]
 	},
+	"gigas_abaddon": { "copyof": "gigas_abaddon_gigas" },
 	"abaddon_gigas": { "copyof": "gigas_abaddon_gigas" },
 	"gigas_abyss_gigas": {
 		"name": "Gigas, Abyss Gigas",
@@ -243,6 +244,7 @@
 			"**Family:** {family/Gigas}"
 		]
 	},
+	"gigas_abyss": { "copyof": "gigas_abyss_gigas" },
 	"abyss_gigas": { "copyof": "gigas_abyss_gigas" },
 	"gigas_hell_gigas": {
 		"name": "Gigas, Hell Gigas",
@@ -307,6 +309,7 @@
 			"**Family:** {family/Gigas}"
 		]
 	},
+	"gigas_hell": { "copyof": "gigas_hell_gigas" },
 	"hell_gigas": { "copyof": "gigas_hell_gigas" },
 	"gillman": {
 		"name": "Gillman",

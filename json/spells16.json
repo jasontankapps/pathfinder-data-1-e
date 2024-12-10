@@ -1437,6 +1437,41 @@
 		"name": "Summon Monster IX",
 		"copyof": "summon_monster_1"
 	},
+	"summon_monster_i": {
+		"copyof": "summon_monster_1"
+	},
+	"summon_monster_ii": {
+		"name": "Summon Monster II",
+		"copyof": "summon_monster_1"
+	},
+	"summon_monster_iii": {
+		"name": "Summon Monster III",
+		"copyof": "summon_monster_1"
+	},
+	"summon_monster_iv": {
+		"name": "Summon Monster IV",
+		"copyof": "summon_monster_1"
+	},
+	"summon_monster_v": {
+		"name": "Summon Monster V",
+		"copyof": "summon_monster_1"
+	},
+	"summon_monster_vi": {
+		"name": "Summon Monster VI",
+		"copyof": "summon_monster_1"
+	},
+	"summon_monster_vii": {
+		"name": "Summon Monster VII",
+		"copyof": "summon_monster_1"
+	},
+	"summon_monster_viii": {
+		"name": "Summon Monster VIII",
+		"copyof": "summon_monster_1"
+	},
+	"summon_monster_ix": {
+		"name": "Summon Monster IX",
+		"copyof": "summon_monster_1"
+	},
 	"summon_natures_ally_1": {
 		"name": "Summon Nature's Ally I",
 		"sources": [
@@ -1772,6 +1807,41 @@
 		"copyof": "summon_natures_ally_1"
 	},
 	"summon_natures_ally_9": {
+		"name": "Summon Nature's Ally IX",
+		"copyof": "summon_natures_ally_1"
+	},
+	"summon_natures_ally_i": {
+		"copyof": "summon_natures_ally_1"
+	},
+	"summon_natures_ally_ii": {
+		"name": "Summon Nature's Ally II",
+		"copyof": "summon_natures_ally_1"
+	},
+	"summon_natures_ally_iii": {
+		"name": "Summon Nature's Ally III",
+		"copyof": "summon_natures_ally_1"
+	},
+	"summon_natures_ally_iv": {
+		"name": "Summon Nature's Ally IV",
+		"copyof": "summon_natures_ally_1"
+	},
+	"summon_natures_ally_v": {
+		"name": "Summon Nature's Ally V",
+		"copyof": "summon_natures_ally_1"
+	},
+	"summon_natures_ally_vi": {
+		"name": "Summon Nature's Ally VI",
+		"copyof": "summon_natures_ally_1"
+	},
+	"summon_natures_ally_vii": {
+		"name": "Summon Nature's Ally VII",
+		"copyof": "summon_natures_ally_1"
+	},
+	"summon_natures_ally_viii": {
+		"name": "Summon Nature's Ally VIII",
+		"copyof": "summon_natures_ally_1"
+	},
+	"summon_natures_ally_ix": {
 		"name": "Summon Nature's Ally IX",
 		"copyof": "summon_natures_ally_1"
 	},

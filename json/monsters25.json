@@ -468,6 +468,7 @@
 		]
 	},
 	"giant_wasp": { "copyof": "wasp_giant_wasp" },
+	"wasp_giant": { "copyof": "wasp_giant_wasp" },
 	"wasp_ground_wasp_swarm": {
 		"name": "Wasp, Ground Wasp Swarm",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
@@ -521,6 +522,7 @@
 		]
 	},
 	"ground_wasp_swarm": { "copyof": "wasp_ground_wasp_swarm" },
+	"wasp_ground_swarm": { "copyof": "wasp_ground_wasp_swarm" },
 	"wasp_wasp_swarm": {
 		"name": "Wasp, Wasp Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1107,6 +1109,7 @@
 		]
 	},
 	"dire_weasel": { "copyof": "weasel_dire_weasel" },
+	"weasel_dire": { "copyof": "weasel_dire_weasel" },
 	"weasel_giant_weasel": {
 		"name": "Weasel, Giant Weasel",
 		"sources": [
@@ -1159,6 +1162,7 @@
 		]
 	},
 	"giant_weasel": { "copyof": "weasel_giant_weasel" },
+	"weasel_giant": { "copyof": "weasel_giant_weasel" },
 	"weaverworm": {
 		"name": "Weaverworm",
 		"sources": [ "Pathfinder #45: Broken Moon" ],
@@ -1453,6 +1457,7 @@
 			"Legendary in size and temper, great white whales are far more aggressive than their smaller kin."
 		]
 	},
+	"whale_great_white": { "copyof": "whale_great_white_whale" },
 	"great_white_whale": { "copyof": "whale_great_white_whale" },
 	"whaler_jellyfish": {
 		"name": "Whaler Jellyfish",
@@ -2601,6 +2606,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"witchcrow_greater": { "copyof": "witchcrow_greater_witchcrow" },
 	"greater_witchcrow": { "copyof": "witchcrow_greater_witchcrow" },
 	"witchfire": {
 		"name": "Witchfire",
@@ -2888,6 +2894,7 @@
 		]
 	},
 	"dire_wolf": { "copyof": "wolf_dire_wolf" },
+	"wolf_dire": { "copyof": "wolf_dire_wolf" },
 	"wolf_timber_wolf": {
 		"name": "Wolf, Timber Wolf",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
@@ -2938,6 +2945,7 @@
 			"The power and majesty of timber wolves inspire many sentient races. For civilized folk, the wolf has come to embody a primitive evil, often playing the role of a villain in fairy tales. This has earned the animal an undeserved reputation for aggression. Among northern peoples, the wolf symbolizes strength and prowess in battle. Many tribes revere wolf totems, and some even claim in their folklore to be originally descended from wolves."
 		]
 	},
+	"wolf_timber": { "copyof": "wolf_timber_wolf" },
 	"timber_wolf": { "copyof": "wolf_timber_wolf" },
 	"wolf_in_sheeps_clothing": {
 		"name": "Wolf-in-Sheep's-Clothing",
@@ -3390,6 +3398,7 @@
 		]
 	},
 	"dire_wolverine": { "copyof": "wolverine_dire_wolverine" },
+	"wolverine_dire": { "copyof": "wolverine_dire_wolverine" },
 	"worg": {
 		"name": "Worg",
 		"sources": [ "Pathfinder RPG Bestiary" ],

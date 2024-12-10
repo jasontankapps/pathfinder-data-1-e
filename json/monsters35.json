@@ -258,6 +258,7 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
+	"linnorm_cairn": { "copyof": "linnorm_cairn_linnorm" },
 	"cairn_linnorm": { "copyof": "linnorm_cairn_linnorm" },
 	"linnorm_crag_linnorm": {
 		"name": "Linnorm, Crag Linnorm",
@@ -326,6 +327,7 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
+	"linnorm_crag": { "copyof": "linnorm_crag_linnorm" },
 	"crag_linnorm": { "copyof": "linnorm_crag_linnorm" },
 	"linnorm_fjord_linnorm": {
 		"name": "Linnorm, Fjord Linnorm",
@@ -390,6 +392,7 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
+	"linnorm_fjord": { "copyof": "linnorm_fjord_linnorm" },
 	"fjord_linnorm": { "copyof": "linnorm_fjord_linnorm" },
 	"linnorm_gare_linnorm": {
 		"name": "Linnorm, Gare Linnorm",
@@ -473,6 +476,7 @@
 			"Despite their fearsome reputations, gare linnorms are sometimes hunted by the brave or the foolhardy. In the Lands of the Linnorm Kings, would-be kings who kill a gare linnorm are afforded extra prestige, as such combat often requires fighting the beast both on land and on or beneath the surface of the water. Frost giants are also known to hunt gare linnorms, but invariably target hatchlings or the very young, raising the captive dragons as powerful sentries and loyal companions that are often more dangerous than the giant's entire clan."
 		]
 	},
+	"linnorm_gare": { "copyof": "linnorm_gare_linnorm" },
 	"gare_linnorm": { "copyof": "linnorm_gare_linnorm" },
 	"linnorm_ice_linnorm": {
 		"name": "Linnorm, Ice Linnorm",
@@ -543,6 +547,7 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
+	"linnorm_ice": { "copyof": "linnorm_ice_linnorm" },
 	"ice_linnorm": { "copyof": "linnorm_ice_linnorm" },
 	"linnorm_sea_linnorm": {
 		"name": "Linnorm, Sea Linnorm",
@@ -622,6 +627,7 @@
 			"Few mortals know of the existence of sea linnorms, let alone hunt these ancient creatures. The sole recorded instance of a successfully slain sea linnorm was by the Linnorm King Elgar Fahrstad. As the king crossed the Arcadian Ocean on his way to the mystical paradise of Valenhall, Fahrstad is said to have leapt without uttering a word from the side of his longship into the depths of the ocean. For 3 days and 3 nights, his entourage waited. On daybreak of the fourth day, Elgar Fahrstad emerged from the sea, accompanied by a ride of eight valkyries and the severed head of a sea linnorm. A half-dozen skalds departed the expedition, forsaking the paradise of Valenhall so they could return to the Lands of the Linnorm Kings and retell the final journey of King Fahrstad."
 		]
 	},
+	"linnorm_sea": { "copyof": "linnorm_sea_linnorm" },
 	"sea_linnorm": { "copyof": "linnorm_sea_linnorm" },
 	"linnorm_taiga_linnorm": {
 		"name": "Linnorm, Taiga Linnorm",
@@ -687,6 +693,7 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
+	"linnorm_taiga": { "copyof": "linnorm_taiga_linnorm" },
 	"taiga_linnorm": { "copyof": "linnorm_taiga_linnorm" },
 	"linnorm_tarn_linnorm": {
 		"name": "Linnorm, Tarn Linnorm",
@@ -760,6 +767,7 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
+	"linnorm_tarn": { "copyof": "linnorm_tarn_linnorm" },
 	"tarn_linnorm": { "copyof": "linnorm_tarn_linnorm" },
 	"linnorm_tor_linnorm": {
 		"name": "Linnorm, Tor Linnorm",
@@ -824,6 +832,7 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
+	"linnorm_tor": { "copyof": "linnorm_tor_linnorm" },
 	"tor_linnorm": { "copyof": "linnorm_tor_linnorm" },
 	"mandragora": {
 		"name": "Mandragora",
@@ -2789,6 +2798,7 @@
 			"A freshwater merrow is 12 feet tall and weighs 500 pounds. Saltwater merrows easily reach 20 feet tall and 4,000 pounds, and have been known to hunt whales. The two species do not often come in contact, but when they do, feuding and conflict are swift to develop."
 		]
 	},
+	"merrow_freshwater": { "copyof": "merrow_freshwater_merrow" },
 	"freshwater_merrow": { "copyof": "merrow_freshwater_merrow" },
 	"merrow_saltwater_merrow": {
 		"name": "Merrow, Saltwater Merrow",
@@ -2840,6 +2850,7 @@
 			"A freshwater merrow is 12 feet tall and weighs 500 pounds. Saltwater merrows easily reach 20 feet tall and 4,000 pounds, and have been known to hunt whales. The two species do not often come in contact, but when they do, feuding and conflict are swift to develop."
 		]
 	},
+	"merrow_saltwater": { "copyof": "merrow_saltwater_merrow" },
 	"saltwater_merrow": { "copyof": "merrow_saltwater_merrow" },
 	"mezlan": {
 		"name": "Mezlan",
@@ -3112,6 +3123,7 @@
 			"Labyrinth minotaurs are rarely encountered outside of the Ivory Labyrinth, and therefore have little interaction with other races beyond visitors to their master's realm. Labyrinth minotaurs display grudging respect for glabrezu and vilsteth demons and undisguised contempt for mortal minotaurs and cultists of Baphomet. Their arrogance precludes true camaraderie with anyone other than those of their own kind."
 		]
 	},
+	"minotaur_labyrinth": { "copyof": "minotaur_labyrinth_minotaur" },
 	"labyrinth_minotaur": { "copyof": "minotaur_labyrinth_minotaur" },
 	"minotaur_minotaur_marauder": {
 		"name": "Minotaur, Minotaur Marauder",
@@ -3355,6 +3367,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"naga_dark": { "copyof": "naga_dark_naga" },
 	"dark_naga": { "copyof": "naga_dark_naga" },
 	"naga_deep_naga": {
 		"name": "Naga, Deep Naga",
@@ -3441,6 +3454,7 @@
 			"Deep nagas are very particular about and protective of their lairs. They exert a substantial effort to find one that suits their needs, so they don't give them up without a fight. Unless the source of magic depletes or they are driven out by a more powerful deep naga, they rarely abandon their lairs. However, if a deep naga learns of an even more potent magical site, she might try to conquer this new lair for herself. Deep nagas do not usually care what tribes that serve them do, as long as the offerings keep coming, but they might push the tribes to conquer a superior place for a lair."
 		]
 	},
+	"naga_deep": { "copyof": "naga_deep_naga" },
 	"deep_naga": { "copyof": "naga_deep_naga" },
 	"naga_dream_naga": {
 		"name": "Naga, Dream Naga",
@@ -3507,6 +3521,7 @@
 			"**Family:** {family/Naga}"
 		]
 	},
+	"naga_dream": { "copyof": "naga_dream_naga" },
 	"dream_naga": { "copyof": "naga_dream_naga" },
 	"naga_guardian_naga": {
 		"name": "Naga, Guardian Naga",
@@ -3573,6 +3588,7 @@
 			"**Family:** {family/Naga}"
 		]
 	},
+	"naga_guardian": { "copyof": "naga_guardian_naga" },
 	"guardian_naga": { "copyof": "naga_guardian_naga" },
 	"naga_lunar_naga": {
 		"name": "Naga, Lunar Naga",
@@ -3644,6 +3660,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"naga_lunar": { "copyof": "naga_lunar_naga" },
 	"lunar_naga": { "copyof": "naga_lunar_naga" },
 	"naga_royal_naga": {
 		"name": "Naga, Royal Naga",
@@ -3717,6 +3734,7 @@
 			"**Family:** {family/Naga}"
 		]
 	},
+	"naga_royal": { "copyof": "naga_royal_naga" },
 	"royal_naga": { "copyof": "naga_royal_naga" },
 	"naga_slime_naga": {
 		"name": "Naga, Slime Naga",
@@ -3786,6 +3804,7 @@
 			"**Family:** {family/Naga}"
 		]
 	},
+	"naga_slime": { "copyof": "naga_slime_naga" },
 	"slime_naga": { "copyof": "naga_slime_naga" },
 	"naga_spirit_naga": {
 		"name": "Naga, Spirit Naga",
@@ -3857,6 +3876,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"naga_spirit": { "copyof": "naga_spirit_naga" },
 	"spirit_naga": { "copyof": "naga_spirit_naga" },
 	"naga_water_naga": {
 		"name": "Naga, Water Naga",
@@ -3928,6 +3948,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
+	"naga_water": { "copyof": "naga_water_naga" },
 	"water_naga": { "copyof": "naga_water_naga" },
 	"nagaji": {
 		"name": "Nagaji",
