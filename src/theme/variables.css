@@ -27,6 +27,12 @@ http://ionicframework.com/docs/theming/ */
 	font-weight: bold;
 	font-style: italic;
 }
+@font-face {
+	font-family: 'Symbola';
+	src: url('/fonts/Symbola-v3.woff') format(woff);
+	font-weight: normal;
+	font-style: normal;
+}
 
 /** Ionic CSS Variables **/
 :root {
@@ -299,6 +305,6 @@ html {
   /* For more information on dynamic font scaling, visit the documentation: 
   https://ionicframework.com/docs/layout/dynamic-font-scaling */
   --ion-dynamic-font: var(--ion-default-dynamic-font);
-	--ion-font-family: 'Taviraj', serif;
+	--ion-font-family: 'Taviraj', 'Symbola', serif;
 	--ion-default-font: var(--ion-font-family);
 }

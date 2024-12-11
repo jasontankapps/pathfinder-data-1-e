@@ -1,7 +1,13 @@
-import { Suspense, lazy } from 'react';
+import { ReactNode, Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
 import Loading from '../Loading';
 import './Page.css';
+
+export interface ArchetypeProps {
+	id: string,
+	parent: string,
+	classTitle: string
+};
 
 const ArchetypeGroup1Page = lazy(() => import("./ArchetypeGroup1Page"));
 const ArchetypeGroup2Page = lazy(() => import("./ArchetypeGroup2Page"));
@@ -17,20 +23,22 @@ const ArchetypeGroup11Page = lazy(() => import("./ArchetypeGroup11Page"));
 const ArchetypeGroup12Page = lazy(() => import("./ArchetypeGroup12Page"));
 const ArchetypeGroup13Page = lazy(() => import("./ArchetypeGroup13Page"));
 
-const pages = [
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup1Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup2Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup3Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup4Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup5Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup6Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup7Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup8Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup9Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup10Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup11Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup12Page id={id} parent={parent} title={title} />,
-	({id, parent, title}: {id: string, parent: string, title: string}) => <ArchetypeGroup13Page id={id} parent={parent} title={title} />
+interface ArchGroupPageProps {id: string, parent: string, classTitle: string};
+
+const pages: ((x: ArchGroupPageProps) => ReactNode)[] = [
+	({id, parent, classTitle}) => <ArchetypeGroup1Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup2Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup3Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup4Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup5Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup6Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup7Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup8Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup9Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup10Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup11Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup12Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup13Page id={id} parent={parent} classTitle={classTitle} />
 ];
 
 const classes: { [key: string]: [number, string] } = {
@@ -99,11 +107,11 @@ const ArchetypePage: React.FC = () => {
 
 	const { id = "not_found", parent = "ninja" } = useParams<Params>();
 
-	const [num, title] = classes[parent] || classes.ninja;
+	const [num, classTitle] = classes[parent] || classes.ninja;
 
 	const Page = pages[num - 1];
 
-	return <Suspense fallback={<Loading />}><Page id={id} parent={parent} title={title} /></Suspense>;
+	return <Suspense fallback={<Loading />}><Page id={id} parent={parent} classTitle={classTitle} /></Suspense>;
 };
 
 export default ArchetypePage;

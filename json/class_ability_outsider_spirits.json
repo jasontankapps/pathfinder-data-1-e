@@ -1,6 +1,7 @@
 {
 	"aeon": {
 		"name": "Aeon",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Aeon",
 			"",
@@ -18,6 +19,7 @@
 	},
 	"agathion": {
 		"name": "Agathion",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Agathion",
 			"",
@@ -35,6 +37,7 @@
 	},
 	"angel": {
 		"name": "Angel",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Angel",
 			"",
@@ -54,6 +57,7 @@
 	},
 	"archon": {
 		"name": "Archon",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Archon",
 			"",
@@ -71,6 +75,7 @@
 	},
 	"azata": {
 		"name": "Azata",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Azata",
 			"",
@@ -88,6 +93,7 @@
 	},
 	"daemon": {
 		"name": "Daemon",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Daemon",
 			"",
@@ -105,6 +111,7 @@
 	},
 	"demon": {
 		"name": "Demon",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Demon",
 			"",
@@ -122,6 +129,7 @@
 	},
 	"devil": {
 		"name": "Devil",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Devil",
 			"",
@@ -139,6 +147,7 @@
 	},
 	"psychopomp": {
 		"name": "Psychopomp",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Psychopomp",
 			"",

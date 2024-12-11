@@ -7,6 +7,7 @@ import './Page.css';
 const hierarchy: HierarchyArray = [
 	["Main", "main/main"],
 	["Monsters and NPCs", "main/monsters"],
+	["Monster Templates", "main/monster_templates"]
 ];
 
 type Data = typeof templates;
@@ -24,6 +25,7 @@ const MonsterTemplateGroup2Page: React.FC<MonsterProps> = ({id}) => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
+		topLink={["Monster Templates", "main/monster_templates"]}
 	>{jsx}</BasicPage>;
 };
 

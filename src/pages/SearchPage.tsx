@@ -250,6 +250,18 @@ const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOp
 	);
 };
 
+// Debouncer
+let debounceTask = 0;
+const debounce = (fn: Function, delay: number = 500) => {
+	if (debounceTask) {
+		clearTimeout(debounceTask);
+	}
+	debounceTask = window.setTimeout(() => {
+		fn();
+		debounceTask = 0;
+	}, delay);
+};
+
 const SearchPage: FC = () => {
 	const [searchText, setSearchText] = useState<string>("");
 	const [isPending, startTransition] = useTransition();
@@ -263,7 +275,11 @@ const SearchPage: FC = () => {
 
 	const onInput = useCallback(
 		(input: FormEvent<HTMLIonSearchbarElement>) =>
-				startTransition(() => setSearchText(String(input.currentTarget.value || ""))),
+			debounce(() => {
+				startTransition(
+					() => setSearchText(String(input.currentTarget.value || ""))
+				)
+			}),
 		[setSearchText]
 	);
 
@@ -281,7 +297,6 @@ const SearchPage: FC = () => {
 						type="text"
 						placeholder="Search for titles and topics"
 						onInput={onInput}
-						debounce={500}
 					/>
 					<IonButtons slot="end">
 						<IonButton onClick={() => setFilterOpen(true)} color={filter.length && filter.length < 12 ? "tertiary" : undefined}>

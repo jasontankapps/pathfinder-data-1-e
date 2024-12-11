@@ -4,7 +4,7 @@ import { SourceProp } from '../components/SourcesModal';
 import npcclasses from './subpages/__npcclass';
 import sidekicks from './subpages/__sidekick';
 import BasicPage from './BasicPage';
-import { HierarchyArray, Table } from '../types';
+import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [["Main", "main/main"], ["Classes", "main/classes"]];

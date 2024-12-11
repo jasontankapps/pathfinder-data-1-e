@@ -21,7 +21,7 @@ const TraitGroup2Page: React.FC<TraitProps> = ({id}) => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		topLink={["Traits", "main/traits"]}
+		topLink={subhierarchy.length > 0 ? subhierarchy[subhierarchy.length - 1] : ["Traits", "main/traits"]}
 	>{jsx}</BasicPage>
 };
 

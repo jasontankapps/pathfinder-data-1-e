@@ -3,6 +3,7 @@ import bard from './subpages/__archetype-bard';
 import summoner from './subpages/__archetype-summoner';
 import unchained_monk from './subpages/__archetype-unchained_monk';
 import swashbuckler from './subpages/__archetype-swashbuckler';
+import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -16,27 +17,21 @@ const archetypes = {
 
 type Data = typeof archetypes;
 
-interface ArchetypeProps {
-	id: string,
-	parent: string,
-	title: string
-};
-
-const ArchetypeGroup2Page: React.FC<ArchetypeProps> = ({id, parent, title}) => {
+const ArchetypeGroup2Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
 
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
 	const pageId = `archetype-${parent}--${id}`;
 
-	const { title: n, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
+	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
 
 	return <BasicPage
-		title={n}
-		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [title, "class/" + parent], ...subhierarchy]}
+		title={title}
+		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [classTitle, "class/" + parent], ...subhierarchy]}
 		sources={sources}
 		pageId={pageId}
-		topLink={[title, "class/" + parent]}
+		topLink={[classTitle, "class/" + parent]}
 	>{jsx}</BasicPage>;
 };
 

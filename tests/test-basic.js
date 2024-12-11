@@ -1,14 +1,30 @@
 import { basic_data_by_link } from '../basic_data_groups.js';
 
 const {
-	spell, spelldef, monster, npc, race, faith, feat, trait,
-	ability, prestigeclass, sidekick, npcclass, umr, trap, skill
+	spell, spelldef, monster, npc, race,
+	faith, feat, trait, family, template,
+	subtype, type: mtype, ability,
+	prestigeclass, sidekick, npcclass,
+	umr, trap, skill, arcaneschool,
+	aspect, bardicmasterpiece, blessing,
+	bloodragerbloodline, oraclecurse,
+	discipline, domain, druidcompanion,
+	druiddomain, emotionalfocus, exploit,
+	greaterexploit, hellknightorder,
+	implement, inquisition, kinetic,
+	legendaryspirit, magusarcana, mystery,
+	oath, order, outsiderspirit, ragepower,
+	shamanspirit, sorcererbloodline,
+	spirit, stanceragepower
 } = basic_data_by_link;
 
 const basics = [
 	spell,
 	spelldef,
 	monster,
+	family,
+	template,
+	{...mtype, ...subtype},
 	npc,
 	race,
 	faith,
@@ -18,13 +34,40 @@ const basics = [
 	{...prestigeclass, ...sidekick, ...npcclass},
 	umr,
 	trap,
-	skill
+	skill,
+	arcaneschool,
+	aspect,
+	bardicmasterpiece,
+	blessing,
+	bloodragerbloodline,
+	oraclecurse,
+	discipline,
+	domain,
+	druidcompanion,
+	druiddomain,
+	emotionalfocus,
+	{...exploit, ...greaterexploit},
+	hellknightorder,
+	implement,
+	inquisition,
+	kinetic,
+	magusarcana,
+	mystery,
+	oath,
+	order,
+	{...ragepower, ...stanceragepower},
+	shamanspirit,
+	sorcererbloodline,
+	{...spirit, ...outsiderspirit, ...legendaryspirit}
 ];
 
 const whats = [
 	"spells",
 	"spell definitions",
 	"monsters",
+	"monster families",
+	"monster templates",
+	"creature types/subtypes",
 	"npcs",
 	"races",
 	"faiths",
@@ -34,7 +77,31 @@ const whats = [
 	"\"other\" classes",
 	"universal monster rules",
 	"traps",
-	"skills"
+	"skills",
+	"arcane schools",
+	"shifter aspects",
+	"bardic masterpieces",
+	"warpriest blessings",
+	"bloodrager bloodlines",
+	"oracle curses",
+	"psychic disciplines",
+	"domains",
+	"druid companions",
+	"druid domains",
+	"phantom emotional foci",
+	"arcanist exploits",
+	"hellknight orders",
+	"occultist implements",
+	"inquisitions",
+	"kinetic wild talents",
+	"magus arcana",
+	"oracle mysteries",
+	"oaths",
+	"cavalier/samurai orders",
+	"rage powers",
+	"shaman spirits",
+	"sorcerer bloodlines",
+	"medium spirits"
 ];
 
 function getCopyOf (object, copiedProp, etc, counter = 0) {
@@ -57,7 +124,7 @@ function isGood(object, what) {
 	const msg = [ "\n...beginning test: [" + what + "]\n" ];
 	if(!object.not_found) {
 		msg.push("Missing 'not_found' entry.");
-		return msg;
+		return [true, what, msg];
 	}
 	let found = false;
 	if(!Object.entries(object).some(([prop, value]) => {
@@ -157,7 +224,9 @@ function isGood(object, what) {
 		return false;
 	})) {
 		msg.push("Test passed.");
-	} else { found = true; }
+	} else {
+		found = true;
+	}
 	return [found, what, msg];
 }
 

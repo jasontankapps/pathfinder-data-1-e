@@ -10,6 +10,10 @@
 	},
 	"abjuration": {
 		"name": "Abjuration",
+		"sources": [
+			"Occult Origins",
+			"Occult Adventures"
+		],
 		"description": [
 			"## Abjuration",
 			"",
@@ -50,6 +54,10 @@
 	},
 	"conjuration": {
 		"name": "Conjuration",
+		"sources": [
+			"Occult Origins",
+			"Occult Adventures"
+		],
 		"description": [
 			"## Conjuration",
 			"",
@@ -90,6 +98,7 @@
 	},
 	"divination": {
 		"name": "Divination",
+		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Divination",
 			"",
@@ -122,6 +131,10 @@
 	},
 	"enchantment": {
 		"name": "Enchantment",
+		"sources": [
+			"Occult Origins",
+			"Occult Adventures"
+		],
 		"description": [
 			"## Enchantment",
 			"",
@@ -162,6 +175,10 @@
 	},
 	"evocation": {
 		"name": "Evocation",
+		"sources": [
+			"Occult Origins",
+			"Occult Adventures"
+		],
 		"description": [
 			"## Evocation",
 			"",
@@ -202,6 +219,10 @@
 	},
 	"illusion": {
 		"name": "Illusion",
+		"sources": [
+			"Occult Origins",
+			"Occult Adventures"
+		],
 		"description": [
 			"## Illusion",
 			"",
@@ -242,6 +263,10 @@
 	},
 	"necromancy": {
 		"name": "Necromancy",
+		"sources": [
+			"Occult Origins",
+			"Occult Adventures"
+		],
 		"description": [
 			"## Necromancy",
 			"",
@@ -282,6 +307,10 @@
 	},
 	"transmutation": {
 		"name": "Transmutation",
+		"sources": [
+			"Occult Origins",
+			"Occult Adventures"
+		],
 		"description": [
 			"## Transmutation",
 			"",
@@ -322,6 +351,7 @@
 	},
 	"mages_paraphernalia_panoply": {
 		"name": "Mage's Paraphernalia (Panoply)",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Mage's Paraphernalia",
 			"",
@@ -348,6 +378,7 @@
 	},
 	"performers_accoutrements_panoply": {
 		"name": "Performer's Accoutrements (Panoply)",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Performer's Accoutrements",
 			"",
@@ -374,6 +405,7 @@
 	},
 	"saints_holy_regalia_panoply": {
 		"name": "Saint's Holy Regalia (Panoply)",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Saint's Holy Regalia",
 			"",
@@ -400,6 +432,7 @@
 	},
 	"trappings_of_the_warrior_panoply": {
 		"name": "Trappings of the Warrior (Panoply)",
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Trappings of the Warrior",
 			"",

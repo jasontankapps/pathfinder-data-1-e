@@ -113,10 +113,10 @@ const DirectionIcon: FC<{down:boolean}> = ({down}) => {
 };
 
 const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, sortable}) => {
-	const [ isDescending, setDescending ] = useState(initialSort);
+	const [ isDescending, setIsDescending ] = useState(initialSort);
 	const onClick = useCallback(() => {
 		const newDescending = sorter(index, !isDescending);
-		setDescending(newDescending);
+		setIsDescending(newDescending);
 	}, [index, sorter, isDescending]);
 	const markdown = useMemo(() => convertLinks([children]), [children]);
 	if(sortable) {
@@ -142,7 +142,7 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 	const [ test, output ] = Array.isArray(datum) ? datum : [ datum, datum ];
 	switch(type) {
 		case "gp":
-			// RawDatum is an number
+			// RawDatum is a number
 			if(typeof test !== "number") {
 				text = `Invalid GP number [${test}]`;
 			} else {
@@ -150,7 +150,7 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 			}
 			break;
 		case "gp+":
-			// RawDatum is an number
+			// RawDatum is a number
 			if(typeof test !== "number") {
 				text = `Invalid GP+ number [${test}]`;
 			} else {

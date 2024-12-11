@@ -4240,7 +4240,6 @@
 			"**Requirements** +2 longsword, any magic weapon; **Cost** -"
 		]
 	},
-	"2_cursed_sword": { "copyof": "cursed_sword" },
 	"_2_cursed_sword": { "copyof": "cursed_sword" },
 	"arrowbreak_bow": {
 		"name": "Arrowbreak Bow",
