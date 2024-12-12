@@ -274,12 +274,10 @@ const SearchPage: FC = () => {
 	const ref = useRef<HTMLIonSearchbarElement>(null);
 
 	const onInput = useCallback(
-		(input: FormEvent<HTMLIonSearchbarElement>) =>
-			debounce(() => {
-				startTransition(
-					() => setSearchText(String(input.currentTarget.value || ""))
-				)
-			}),
+		(input: FormEvent<HTMLIonSearchbarElement>) => {
+			const text = String((input && input.currentTarget && input.currentTarget.value) || "");
+			debounce(() => startTransition(() => setSearchText(text)));
+		},
 		[setSearchText]
 	);
 

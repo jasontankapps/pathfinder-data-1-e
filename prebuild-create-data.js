@@ -33,7 +33,7 @@ const makeSourceLink = (sourceInfo) => {
 const renderer = (flags, prefix) => {
 	return {
 		renderer: {
-			// Changes <a> to <Link> and <HashLink> as needed, updating `flags` to note the outside Tags being used
+			// Changes <a> to <Link> and <InnerLink> as needed, updating `flags` to note the outside Tags being used
 			link: ({href, text}) => {
 				if (href.match(/^http/)) {
 					return `<a href="${href}">${text}</a>`;
@@ -45,8 +45,8 @@ const renderer = (flags, prefix) => {
 				} else if (href.match(/^#/)) {
 					// Hash indicates internal link, updating `flags` to note the outside Tag being used
 //					console.log(id, href);
-					flags.hashlink = true;
-					return `<HashLink scroll={scroller} to="#${prefix}${href.slice(1)}">${text}</HashLink>`;
+					flags.innerlink = true;
+					return `<InnerLink to="${prefix}${href.slice(1)}">${text}</InnerLink>`;
 				}
 				flags.link = true;
 				return `<Link to="/${href}">${text}</Link>`;
@@ -117,22 +117,24 @@ const postprocess = (prefix, tables, flags) => {
 		let output = "";
 		let m = false;
 		//<sup><a id="footnotey-ref-H" href="#footnotey-H" data-footnotey-ref aria-describedby="footnotey-label">1</a></sup>
-		//Redo footnotes into <HashLink>s with scrolling code
-		while(m = text.match(/^(.*?)<sup><a id="footnote-prefix-([^"]+)" href="#footnote-prefix-([^"]+)"[^>]*>(.*?)<\/a><\/sup>(.*)$/)) {
+		//Redo footnotes into <InnerLink>s
+		const matcher = new RegExp(`^(.*?)<sup><a id="${prefix}([^"]+)" href="#${prefix}([^"]+)"[^>]*>(.*?)</a></sup>(.*)$`);
+		while(m = text.match(matcher)) {
 			const [x, pre, id, to, linktext, post] = m;
-			output = output + `${pre}<sup><HashLink id="${prefix}${id}" scroll={scroller} to="#${prefix}${to}">${linktext}</HashLink></sup>`;
+			output = output + `${pre}<sup><InnerLink id="${prefix}${id}" to="${prefix}${to}">${linktext}</InnerLink></sup>`;
 			text = post;
-			flags.hashlink = true;
+			flags.innerlink = true;
 		}
 		text = output + text;
 		output = "";
 		//<a href="#footnote-prefix-ref-H" data-footnote-prefix-backref aria-label="Back to reference H">↩</a>
-		//Redo footnotes into <HashLink>s with scrolling code
-		while(m = text.match(/^(.*?)<a href="#footnote-prefix-([^"]+)"[^>]*?( aria-label="[^"]*")[^>]*?>(.*?)<\/a>(.*)$/)) {
+		//Redo footnotes into <InnerLink>s
+		const backmatcher = new RegExp(`^(.*?)<a href="#${prefix}([^"]+)"[^>]*?( aria-label="[^"]*")[^>]*?>(.*?)</a>(.*)$`);
+		while(m = text.match(backmatcher)) {
 			const [x, pre, to, aria, linktext, post] = m;
-			output = output + `${pre}<HashLink scroll={scroller} to="#${prefix}${to}"${aria}>${linktext}</HashLink>`;
+			output = output + `${pre}<InnerLink to="${prefix}${to}"${aria}>${linktext}</InnerLink>`;
 			text = post;
-			flags.hashlink = true;
+			flags.innerlink = true;
 		}
 		text = output + text;
 		output = "";
@@ -140,14 +142,14 @@ const postprocess = (prefix, tables, flags) => {
 		//Create JumpLists out of the plain-text code
 		while(m = text.match(/^(.*?)<p>\{jumplist (.+)\}<\/p>(.*)$/)) {
 			const [x, pre, jumplist, post] = m;
-			output = output + `${pre}<div className="jumpList"><h2>Jump to:</h2><ul>`;
+			output = output + `${pre}<div className="jumpToTop" tabIndex={0} role="link" aria-label="Top of Page" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${prefix}jumplist")} onClick={() => topScroller("${prefix}jumplist")}>&#10514;</div><div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			jumplist.split(/ +\/ +/).forEach(input => {
 				const hash = input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
-				output = output + `<li><HashLink scroll={scroller} to="#${prefix}${hash}">${input} &#8269;</HashLink></li>`;
+				output = output + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${prefix}${hash}")} onClick={()=>jumpScroller("${prefix}${hash}")}>${input} &#8269;</li>`;
 			});
 			output = output + `</ul></div>`;
 			text = post;
-			flags.hashlink = true;
+			flags.jumplist = true;
 		}
 		text = output + text;
 		output = "";
@@ -393,9 +395,10 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	flags.displaytable && imports.push(`import DisplayTable from '../../components/DisplayTable';`);
 	flags.link && imports.push(`import Link from '../../components/Link';`);
 	flags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
-	flags.hashlink && imports.push(
-		`import {HashLink} from 'react-router-hash-link';`,
-		"const scroller=(el:HTMLElement)=>{let w=el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w = w.parentElement}const yCoordinate=el.getBoundingClientRect().top+window.scrollY;w&&(w as HTMLIonContentElement).scrollByPoint(0,Math.max(0,yCoordinate-80),500)};"
+	flags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
+	flags.jumplist && imports.push(
+		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};",
+		"const topScroller=(id:string)=>{let w=document.getElementById(id);while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}w&&(w as HTMLIonContentElement).scrollToTop(500)};"
 	);
 	// Add saved info;
 	const allprops = [];

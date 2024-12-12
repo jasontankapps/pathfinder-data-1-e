@@ -3,10 +3,10 @@ import { IonIcon, IonRippleEffect } from '@ionic/react';
 import { caretDown, caretUp, ellipse } from 'ionicons/icons';
 import Markdown, { ExtraProps } from 'react-markdown';
 import { useHistory } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
 import Link from './Link';
 import convertLinks from './convertLinks';
+import InnerLink from './InnerLink';
 import { useAppDispatch } from '../store/hooks';
 import { goTo } from '../store/historySlice';
 
@@ -41,18 +41,7 @@ const a = (props: MDaProps) => {
 		return <Link to={href} id={id} aria-label={ariaLabel}>{children}<IonRippleEffect /></Link>
 	} else if (href.match(/^#/)) {
 		// Hash indicates internal link
-		//const m = href.match(/user-content-fn-(.+)/);
-		// Trying to make create the ID property that the footnote link will be pointing at,
-		//   since the plugin apparently doesn't do that automatically...
-		const scrollWithOffset = (el: HTMLElement) => {
-			const w = document.getElementsByTagName("ion-content");
-			const yCoordinate = el.getBoundingClientRect().top + window.scrollY;
-			const yOffset = id ? 0 : -80;
-			//window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
-			const element = [...w].pop();
-			element && element.scrollByPoint(0, yCoordinate + yOffset, 500);
-		}
-		return <HashLink aria-label={ariaLabel} id={id} scroll={scrollWithOffset} to={href}>{children}</HashLink>
+		return <InnerLink aria-label={ariaLabel} id={id} to={href}>{children}</InnerLink>
 	}
 	return <Link to={"/" + href} id={id} aria-label={ariaLabel}>{children}</Link>
 };
@@ -212,14 +201,14 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum }) => {
 	const dispatch = useAppDispatch();
 	// datum will be either `{linkString}` or `[ sortableThing, {linkString} ]`
 	const linkString = Array.isArray(datum) ? datum[1] : datum;
-	const m = (typeof linkString === "string") ? linkString.match(/^\{([-a-z]+)\/(.+?)(?:\/(.+))?\}$/): false;
+	const m = (typeof linkString === "string") ? linkString.match(/^\{([-a-z]+)\/(.+?)(?:\/(.+))?\}$/) : false;
 	if(!m) {
 		return (
 			<td>LINK EXPECTED: {linkString}</td>
 		);
 	}
-	const output = m[2] + m[3];
-	const link = `${m[1]}/${m[2]}`;
+	const output = m[2] + (m[3] || "")
+	const link = `${m[1]}/${m[2].toLowerCase().replace(/[- ]/g, "_").replace(/[^a-z_0-9]/g, "")}`;
 	const click = useCallback(() => { history.push(`/${link}`); dispatch(goTo(`/${link}`)); }, [link, dispatch, history]);
 	return (
 		<td className="ion-activatable cell-link" onClick={click}>

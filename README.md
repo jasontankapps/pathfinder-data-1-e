@@ -1,6 +1,6 @@
 # Pf Data 1e
 
-This app uses "open game content" (OGC) encoded in human-readable format in the [src/json](./src/json/) directory. See [OPENGAMECONTENT.md](./OPENGAMECONTENT.md) for specifics on that license and what it covers.
+This app uses "open game content" (OGC) encoded in human-readable format in the [json](./json/) directory. See [OPENGAMECONTENT.md](./OPENGAMECONTENT.md) for specifics on that license and what it covers.
 
 This app uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy ([paizo.com/communityuse](https://paizo.com/communityuse)). We are expressly prohibited from charging you to use or access this content. *Pf Data 1e* is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit [paizo.com](https://paizo.com).
 
