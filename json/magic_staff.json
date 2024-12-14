@@ -985,7 +985,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, death ward, deathwatch, {spell/detect undead}, gentle repose, speak with dead; **Cost** 16,400 gp"
+			"**Requirements** {feat/Craft Staff}, death ward, deathwatch, {spell/detect undead}, gentle repose, {spell/speak with dead}; **Cost** 16,400 gp"
 		]
 	},
 	"staff_of_toxins": {
@@ -1419,7 +1419,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, augury, commune, divination, speak with dead; **Cost** 30,608 gp"
+			"**Requirements** {feat/Craft Staff}, augury, commune, divination, {spell/speak with dead}; **Cost** 30,608 gp"
 		]
 	},
 	"staff_of_illumination": {
@@ -2313,7 +2313,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, heal, raise dead; **Cost** 79,700 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/heal}, {spell/raise dead}; **Cost** 79,700 gp"
 		]
 	},
 	"staff_of_nethys": {
@@ -2451,7 +2451,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, bless, cure critical wounds, cure moderate wounds, flame strike, freedom of movement, heightened hold person, prayer, righteous might, searing light, true resurrection, true seeing; **Cost** 110,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, bless, cure critical wounds, cure moderate wounds, flame strike, freedom of movement, heightened hold person, prayer, righteous might, searing light, {spell/true resurrection}, true seeing; **Cost** 110,000 gp"
 		]
 	},
 	"winters_reach": {

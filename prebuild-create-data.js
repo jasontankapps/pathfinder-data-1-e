@@ -119,9 +119,14 @@ const postprocess = (prefix, tables, flags) => {
 		//<sup><a id="footnotey-ref-H" href="#footnotey-H" data-footnotey-ref aria-describedby="footnotey-label">1</a></sup>
 		//Redo footnotes into <InnerLink>s
 		const matcher = new RegExp(`^(.*?)<sup><a id="${prefix}([^"]+)" href="#${prefix}([^"]+)"[^>]*>(.*?)</a></sup>(.*)$`);
+		const footnotedata = {};
 		while(m = text.match(matcher)) {
 			const [x, pre, id, to, linktext, post] = m;
-			output = output + `${pre}<sup><InnerLink id="${prefix}${id}" to="${prefix}${to}">${linktext}</InnerLink></sup>`;
+			if(!footnotedata[id]) {
+				footnotedata[id] = 0;
+			}
+			const notenumber = ++footnotedata[id];
+			output = output + `${pre}<sup><InnerLink id="${prefix}${id}-${notenumber}" to="${prefix}${to}">${linktext}</InnerLink></sup>`;
 			text = post;
 			flags.innerlink = true;
 		}
@@ -129,10 +134,11 @@ const postprocess = (prefix, tables, flags) => {
 		output = "";
 		//<a href="#footnote-prefix-ref-H" data-footnote-prefix-backref aria-label="Back to reference H">↩</a>
 		//Redo footnotes into <InnerLink>s
-		const backmatcher = new RegExp(`^(.*?)<a href="#${prefix}([^"]+)"[^>]*?( aria-label="[^"]*")[^>]*?>(.*?)</a>(.*)$`);
+		const backmatcher = new RegExp(`^(.*?)<a href="#${prefix}([^"]+)"[^>]*?( aria-label="[^"]*)"[^>]*?>(.*?(?:<sup>([0-9]+)</sup>)?)</a>(.*)$`);
 		while(m = text.match(backmatcher)) {
-			const [x, pre, to, aria, linktext, post] = m;
-			output = output + `${pre}<InnerLink to="${prefix}${to}"${aria}>${linktext}</InnerLink>`;
+			const [x, pre, to, aria, linktext, linknumber, post] = m;
+			const notenumber = linknumber || "1";
+			output = output + `${pre}<InnerLink to="${prefix}${to}-${notenumber}"${aria}-${notenumber}">${linktext}</InnerLink>`;
 			text = post;
 			flags.innerlink = true;
 		}

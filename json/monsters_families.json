@@ -2647,7 +2647,7 @@
 			"",
 			"**Fire Aura (Su)** An adult red dragon is surrounded by an aura of intense heat. All creatures within 5 feet take 1d6 points of fire damage at the beginning of the dragon's turn. An old dragon's aura extends to 10 feet. An ancient dragon's damage increases to 2d6.",
 			"",
-			"**Incinerate (Su)** A great wyrm red dragon can incinerate creatures in its fiery breath. A creature reduced to fewer than 0 hit points by its breath weapon must make a Fortitude save (using the breath weapon's DC). Failure indicates that the creature is reduced to ash. Creatures destroyed in this way can only be restored to life through true resurrection or similar magic.",
+			"**Incinerate (Su)** A great wyrm red dragon can incinerate creatures in its fiery breath. A creature reduced to fewer than 0 hit points by its breath weapon must make a Fortitude save (using the breath weapon's DC). Failure indicates that the creature is reduced to ash. Creatures destroyed in this way can only be restored to life through {spell/true resurrection} or similar magic.",
 			"",
 			"**Manipulate Flames (Su)** An old or older red dragon can control any fire spell within 10 feet per age category of the dragon as a standard action. This ability allows it to move any fire effect in the area, as if it were the caster. This ability also allows it to reposition a stationary fire effect, although the new placement must be one allowed by the spell. Finally, for 1 round following the use of this ability, the dragon can control any new fire spell cast within its area of control, as if it were the caster. It can make all decisions allowed to the caster, including canceling the spell if it so desires.",
 			"",

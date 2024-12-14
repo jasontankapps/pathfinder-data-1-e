@@ -1472,7 +1472,7 @@
 			"",
 			"***Ascension:*** The PCs are actually children of a god, the result of a pairing with a mortal. This is unknown to them until the appointed hour, when their divine heritage manifests. Using this hook, it's possible that all of the PCs are related, even if they don't realize it at first (each having been raised by a mortal surrogate parent).",
 			"",
-			"During a vicious battle at an especially holy site, one of the heroes is slain. As her companions use resurrection magic to bring her back from the dead, the spell expands in a glowing aura that imbues all the heroes, including the newly risen one, with mythic powers.",
+			"During a vicious battle at an especially holy site, one of the heroes is slain. As her companions use {spell/resurrection} magic to bring her back from the dead, the spell expands in a glowing aura that imbues all the heroes, including the newly risen one, with mythic powers.",
 			"",
 			"The heroes fight bravely to defend or restore a site of worship. When the last enemy is slain and the site is reconsecrated, the heroes are filled with a sense of divine gratitude and blessed with mythic powers.",
 			"",
@@ -1846,7 +1846,7 @@
 			"",
 			"In a world where powerful creatures are hunting you, paranoia and the willingness to abandon plans and allies are key to survival. If you want your villain to fight the players, plan an early exit. It's okay for a villain to flee even if she might win a confrontation, as her plans are a long game and require that she survive to see them through. There are many spells, mythic powers, and class abilities that give the villain the ability to get away in a hurry. She should use more mundane escape methods when possible, concealing her iconic escapes as much as possible so they're more difficult for the PCs to counter.",
 			"",
-			"Should the villain be killed, don't be afraid to have her revisit your campaign for a little posthumous mockery and mayhem. There are many ways to reintroduce a dead villain - sometimes it's as simple as having a minion cast {spell/raise dead} or {spell/resurrection}, but there are other, more sophisticated options. You can introduce a new recurring villain who tracks down one of the PCs' dead foes and brings him to some semblance of life in the form of an undead minion or possessed item, or who uses speak with dead to learn the deceased foe's secrets."
+			"Should the villain be killed, don't be afraid to have her revisit your campaign for a little posthumous mockery and mayhem. There are many ways to reintroduce a dead villain - sometimes it's as simple as having a minion cast {spell/raise dead} or {spell/resurrection}, but there are other, more sophisticated options. You can introduce a new recurring villain who tracks down one of the PCs' dead foes and brings him to some semblance of life in the form of an undead minion or possessed item, or who uses {spell/speak with dead} to learn the deceased foe's secrets."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",

@@ -315,15 +315,15 @@
 		"tables": [
 			{
 				"id": "ninja archetypes",
-				"headers": [ "Archetype", "2nd-level Ninja Trick", "10th-level Ninja Trick", "12th-level Ninja Trick", "16th-level Ninja Trick", "Class Skills", "Improved Uncanny Dodge", "Ki Pool", "Light Steps", "No Trace", "Poison Use", "Uncanny Dodge", "Weapon/Armor Proficiency" ],
-				"types": [ null, null, null, null, null, null, null, null, null, null, null, null, null ],
+				"headers": [ "Archetype", "2nd-level Ninja Trick", "10th, 12th, and 16th-level Ninja Tricks", "Class Skills", "Improved Uncanny Dodge", "Ki Pool", "Light Steps", "No Trace", "Poison Use", "Uncanny Dodge", "Weapon/Armor Proficiency" ],
+				"types": [ null, null, null, null, null, null, null, null, null, null, null ],
 				"ripples": [0],
 				"data": [
-					[ "{archetype-ninja/Frozen Shadow}", null, null, null, null, "X", "X", "X", null, null, null, "X", null ],
-					[ "{archetype-ninja/Gunpowder Bombardier}", "X", null, null, null, null, "X", "X", null, null, null, "X", null ],
-					[ "{archetype-ninja/Hunting Serpent}", null, "X", "X", "X", "X", "X", null, null, "X", null, "X", null ],
-					[ "{archetype-ninja/Mask of the Living God}", null, null, null, null, null, null, "X", null, "X", "X", null, "X" ],
-					[ "{archetype-ninja/Petal Ninja}", "X", null, null, null, "X", "X", null, "X", "X", null, "X", null ]
+					[ "{archetype-ninja/Frozen Shadow}", null, null, "X", "X", "X", null, null, null, "X", null ],
+					[ "{archetype-ninja/Gunpowder Bombardier}", "X", null, null, "X", "X", null, null, null, "X", null ],
+					[ "{archetype-ninja/Hunting Serpent}", null, "X", "X", "X", null, null, "X", null, "X", null ],
+					[ "{archetype-ninja/Mask of the Living God}", null, null, null, null, "X", null, "X", "X", null, "X" ],
+					[ "{archetype-ninja/Petal Ninja}", "X", null, "X", "X", null, "X", "X", null, "X", null ]
 				],
 				"initialColumn": 0,
 				"nullValue": "&nbsp;",
@@ -1275,7 +1275,7 @@
 			"| --- | --- | --- |",
 			"| [Amnesiac](/archetype-psychic/amnesiac) | Spellcasting | The amnesiac once possessed great psychic power, but mental blocks - resulting from either a traumatic event or intentional implantation - have caused her to forget what she knew before |",
 			"| [Esoteric Starseeker](/archetype-psychic/esoteric_starseeker) | Discipline Spells; 1st, 11th-level Phrenic Amplifications; Major Amplifications | An esoteric starseeker is a psychic who focuses her studies on uncovering the secrets of the sky and the constellations of the Cosmic Caravan. |",
-			"| [Formless Adept](/archetype-psychic/formless_adept) | Phrenic Pool; Psychic Discipline; Discipline Powers; 1st and 15th-level Phrenic Amplification; Discipline Spells; Remade Self | Formless adepts master their psychic powers to unshackle themselves from the confines of the flesh and empower their spellcasting. |",
+			"| [Formless Adept](/archetype-psychic/formless_adept) | Phrenic Pool; Psychic Discipline; Discipline Powers; 1st and 15th-level Phrenic Amplifications; Discipline Spells; Remade Self | Formless adepts master their psychic powers to unshackle themselves from the confines of the flesh and empower their spellcasting. |",
 			"| [Magaambyan Telepath](/archetype-psychic/magaambyan_telepath) | Discipline Spells; 1st, 11th-level Phrenic Amplifications; Telepathic Bond; Telepathy | Followers of Old-Mage Jatembe's more esoteric wisdom instead focus on the occult connection between all living creatures and the resonance between the natural and supernatural world. |",
 			"| [Mutation Mind](/archetype-psychic/mutation_mind) | 1st-level Phrenic Amplification; Phrenic Amplifications; Major Amplifications | Exposure to unintended spell effects, curses, or sources of radiation cause some to manifest psychic powers. When a mutation mind uses her psychic abilities, her physical body changes under the stress, and she risks losing control if she pushes too far. |",
 			"| [Psychic Duelist](/archetype-psychic/psychic_duelist) | 4th-level Discipline Spell; 7th-level Phrenic Amplification; Phrenic Amplifications; Telepathic Bond; Telepathy | Psychic duelists hone their mental powers for combat, much as warriors do with their blades. |",

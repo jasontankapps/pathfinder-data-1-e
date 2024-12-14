@@ -554,7 +554,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, speak with dead; **Cost** 2,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}; **Cost** 2,750 gp"
 		]
 	},
 	"icon_of_aspects": {
@@ -1797,7 +1797,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, speak with dead; **Cost** 3,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}; **Cost** 3,250 gp"
 		]
 	},
 	"lesser_horn_of_the_tritons": {
@@ -1966,7 +1966,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, speak with dead, temporary resurrection; **Cost** 3,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, temporary resurrection; **Cost** 3,700 gp"
 		]
 	},
 	"bottle_of_shadows": {
@@ -2115,7 +2115,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Scribe Scroll}, read magic; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Scribe Scroll}, {spell/read magic}; **Cost** 3,500 gp"
 		]
 	},
 	"vial_of_efficacious_medicine": {
@@ -3235,7 +3235,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, speak with dead, speak with plants; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, speak with plants; **Cost** 4,500 gp"
 		]
 	},
 	"decanter_of_endless_water": {

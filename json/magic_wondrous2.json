@@ -2453,7 +2453,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, disguise self, magic missile, read magic; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, disguise self, magic missile, {spell/read magic}; **Cost** 2,500 gp"
 		]
 	},
 	"mask_of_destruction_and_creation": {
@@ -2476,7 +2476,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, comprehend languages, read magic; **Cost** 2,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/comprehend languages}, {spell/read magic}; **Cost** 2,600 gp"
 		]
 	},
 	"cyclops_helm": {
@@ -3348,7 +3348,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alter self, speak with dead; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, alter self, {spell/speak with dead}; **Cost** 8,000 gp"
 		]
 	},
 	"halo_of_inner_calm": {

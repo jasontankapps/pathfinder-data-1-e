@@ -3068,9 +3068,9 @@
 			">",
 			">Kyton demagogues are far less likely than other fiendish demigods to flaunt their power. All kyton demagogues are lawful evil and range in power from CR 26 to CR 30. The boons they grant are less complex than those granted by other fiendish demigods, manifesting as spell-like abilities each usable once per day.",
 			">",
-			">1. speak with dead",
-			">2. resurrection",
-			">3. soul bind"
+			">1. {spell/speak with dead}",
+			">2. {spell/resurrection}",
+			">3. {spell/soul bind}"
 		]
 	},
 	"barzahk": {

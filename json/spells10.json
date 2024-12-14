@@ -519,7 +519,7 @@
 			"",
 			"You also can attune any number of creatures to the symbol of death, but doing this can extend the casting time. Attuning one or two creatures takes negligible time, and attuning a small group (as many as 10 creatures) extends the casting time to 1 hour. Attuning a large group (as many as 25 creatures) takes 24 hours. Attuning larger groups takes an additional 24 hours per 25 creatures. Any creature attuned to a symbol of death cannot trigger it and is immune to its effects, even if within its radius when it is triggered. You are automatically considered attuned to your own symbols of death, and thus always ignore the effects and cannot inadvertently trigger them.",
 			"",
-			"Read magic allows you to identify a symbol with a Spellcraft check (DC 10 + the symbol's spell level). Of course, if the symbol is set to be triggered by reading it, this will trigger the symbol.",
+			"{spell/Read magic} allows you to identify a symbol with a Spellcraft check (DC 10 + the symbol's spell level). Of course, if the symbol is set to be triggered by reading it, this will trigger the symbol.",
 			"",
 			"A symbol of death can be removed by a successful dispel magic targeted solely on the rune. An erase spell has no effect on a symbol of death. Destruction of the surface where a symbol of death is inscribed destroys the symbol but also triggers it.",
 			"",
@@ -2541,7 +2541,7 @@
 			"**Target** dead creature touched  ",
 			"**Duration** 24 hours",
 			"",
-			"You restore temporary life to a body that has been dead for less than 48 hours. The spell lasts for 24 hours, after which the target dies again. The target gains 1 permanent negative level while under the effect of this spell; this negative level goes away when the target dies or is permanently raised from the dead (such as with raise dead). The target still counts as a dead corpse (but not undead) for the purpose of spells that revive dead creatures, so a cleric can cast raise dead or a similar spell on the target even while this spell is active. Once a creature has been revived with temporary resurrection, this spell cannot be used on it again until it is permanently raised from the dead."
+			"You restore temporary life to a body that has been dead for less than 48 hours. The spell lasts for 24 hours, after which the target dies again. The target gains 1 permanent negative level while under the effect of this spell; this negative level goes away when the target dies or is permanently raised from the dead (such as with {spell/raise dead}). The target still counts as a dead corpse (but not undead) for the purpose of spells that revive dead creatures, so a cleric can cast raise dead or a similar spell on the target even while this spell is active. Once a creature has been revived with temporary resurrection, this spell cannot be used on it again until it is permanently raised from the dead."
 		]
 	},
 	"teratoid_caress": {
@@ -5137,13 +5137,13 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none, see text; **Spell Resistance** yes (harmless)",
 			"",
-			"This spell functions like raise dead, except that you can resurrect a creature that has been dead for as long as 10 years per caster level. This spell can even bring back creatures whose bodies have been destroyed, provided that you unambiguously identify the deceased in some fashion (reciting the deceased's time and place of birth or death is the most common method).",
+			"This spell functions like {spell/raise dead}, except that you can resurrect a creature that has been dead for as long as 10 years per caster level. This spell can even bring back creatures whose bodies have been destroyed, provided that you unambiguously identify the deceased in some fashion (reciting the deceased's time and place of birth or death is the most common method).",
 			"",
 			"Upon completion of the spell, the creature is immediately restored to full hit points, vigor, and health, with no negative levels (or Constitution points) and all of the prepared spells possessed by the creature when it died.",
 			"",
 			"You can revive someone killed by a death effect or someone who has been turned into an undead creature and then destroyed. This spell can also resurrect elementals or outsiders, but it can't resurrect constructs or undead creatures.",
 			"",
-			"Even true resurrection can't restore to life a creature who has died of old age."
+			"Even {spell/true resurrection} can't restore to life a creature who has died of old age."
 		]
 	},
 	"true_seeing": {

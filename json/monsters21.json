@@ -4151,7 +4151,7 @@
 			"",
 			"**Resist Level Drain (Ex)** A shabti takes no penalties from energy drain effects, though it can still be killed if it accrues more negative levels than it has Hit Dice. After 24 hours, any negative levels a shabti takes are automatically removed without the need for additional saving throws.",
 			"",
-			"**Shattered Soul (Ex)** Shabti who are killed are exceptionally difficult to return to life. Anyone who attempts to return a shabti to life using raise dead, resurrection, or a similar spell must succeed at a caster level check whose DC is equal to 10 + the shabti's Hit Dice. If it fails, the spell fails and the caster can't return the shabti to life for the next 24 hours (though the caster can try again after this period).",
+			"**Shattered Soul (Ex)** Shabti who are killed are exceptionally difficult to return to life. Anyone who attempts to return a shabti to life using {spell/raise dead}, {spell/resurrection}, or a similar spell must succeed at a caster level check whose DC is equal to 10 + the shabti's Hit Dice. If it fails, the spell fails and the caster can't return the shabti to life for the next 24 hours (though the caster can try again after this period).",
 			"",
 			"#### Description",
 			"",

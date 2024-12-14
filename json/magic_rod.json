@@ -16,7 +16,7 @@
 			"",
 			"{SOURCE Legacy of the First World/25}  ",
 			"**Aura** moderate divination; **CL** 5th  ",
-			"**Slot** none; **Price** 2,500 gp (lesser), 6,500 gp (normal), 19,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 2,500 gp (lesser [up to 3rd-level spells]), 6,500 gp (normal [up to 6th-level spells]), 19,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder of this elongated triangular prism can cast up to three spells per day for which the spell's targets must roll three times for their saving throws and take the middle of the three results, as per threefold sight. A lesser rod of the thriceborn can affect spells up to 3rd level, a rod of the thriceborn can affect spells up to 6th level, and a greater rod of the thriceborn can affect spells up to 9th level. A rod of the thriceborn can't be used in conjunction with metamagic rods or the Persistent Spell feat.",
 			"",
@@ -36,7 +36,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook/20}  ",
 			"**Aura** strong conjuration; **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"This iron rod has long metal flanges, like a mace, which widen as they expand from the handle. The wielder can use the rod up to three times per day to augment her casting of a conjuration (summoning) spell, causing all of her summoned creatures to gain the giant simple template. The lesser rod can be used with spells of 3rd level or lower, the standard rod can be used with spells of 6th level or lower, and the greater rod can be used with spells of 9th level or lower.",
 			"",
@@ -174,7 +174,7 @@
 			"",
 			"{SOURCE Psychic Anthology/8}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 5,000 gp (lesser), 18,000 gp (normal), 40,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 5,000 gp (lesser [up to 3rd-level spells]), 18,000 gp (normal [up to 6th-level spells]), 40,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"This odd, 2-foot-long rod appears to be made out of solidified ectoplasm shot through with energy that pulses brightly at regular intervals, almost like a heartbeat. Three times per day, this rod allows its wielder to cast a psychic spell that could be undercast (such as ego whip or mind thrust) at 1 level higher, even if the wielder doesn't know the higher-level spell or can't cast spells of that level. The spell uses the same spell slot and save DC as that of the lower-level spell, but creates the effects of the higher-level spell. For example, the wielder could use this rod to cast [mind thrust I](spell/mind_thrust_1), with the effect of [mind thrust II](spell/mind_thrust_2). This rod can't be used to cast the highest-level spell of a particular group. The wielder must the able to cast the lower-level spell to use this rod. Using this rod is part of the action of casting the modified spell. A lesser recondite rod can be used with spells of 3rd level or lower. A recondite rod can be used with spells of 6th level or lower. A greater recondite rod can be used with spells of 8th level or lower.",
 			"",
@@ -1207,7 +1207,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control water, speak with dead, stone shape; **Cost** 16,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}, {spell/speak with dead}, {spell/stone shape}; **Cost** 16,500 gp"
 		]
 	},
 	"rod_of_voracious_hexes": {
@@ -1286,7 +1286,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Snuffing Spell; **Cost** 17,500 gp"
+			"**Requirements** {feat/Craft Rod}, {feat/Snuffing Spell}; **Cost** 17,500 gp"
 		]
 	},
 	"rod_of_negation": {
@@ -1895,13 +1895,13 @@
 			"",
 			"{SOURCE Blood of Shadows/26}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 1,500 gp (lesser [up to 3rd-level spells]), 5,500 gp (normal [up to 6th-level spells]), 12,250 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that alter how the spell raises or lowers the illumination level in their affected areas as though using the {feat/Eclipsed Spell} feat.",
+			"The wielder can cast up to three spells per day that alter how the spell raises or lowers the illumination level in their affected areas as though using the Eclipsed Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Eclipsed Spell; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Eclipsed Spell}; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		]
 	},
 	"lesser_eclipsed_rod_of_metamagic": {
@@ -1918,13 +1918,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/190;Advanced Player's Guide/295}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 1,500 gp (lesser [up to 3rd-level spells]), 5,500 gp (normal [up to 6th-level spells]), 12,250 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that deal nonlethal damage as though using the Merciful Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Merciful Spell; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Merciful Spell}; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		]
 	},
 	"lesser_merciful_rod_of_metamagic": {
@@ -1938,7 +1938,7 @@
 			"",
 			"{SOURCE Aquatic Adventures/63}  ",
 			"**Aura** (no school); **CL** 5th  ",
-			"**Slot** none; **Price** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater); **Weight** -",
+			"**Slot** none; **Price** 1,500 gp (lesser [up to 3rd-level spells]), 5,500 gp (normal [up to 6th-level spells]), 12,250 gp (greater [all spells]); **Weight** -",
 			"",
 			"The wielder of this rod can transform mist and fog spells into murky sediment underwater up to three times per day as though using the Murky Spell feat.",
 			"",
@@ -1958,7 +1958,7 @@
 			"",
 			"{SOURCE Aquatic Adventures/63}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater); **Weight** 1 lb.",
+			"**Slot** none; **Price** 1,500 gp (lesser [up to 3rd-level spells]), 5,500 gp (normal [up to 6th-level spells]), 12,250 gp (greater [all spells]); **Weight** 1 lb.",
 			"",
 			"The wielder of this rod can cast fire spells effortlessly underwater up to three times per day as though using the Steam Spell feat.",
 			"",
@@ -1978,13 +1978,13 @@
 			"",
 			"{SOURCE Planar Adventures/50}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that blast terrain as though using the {feat/Apocalyptic Spell} feat.",
+			"The wielder of this metamagic rod can cast up to three spells per day that blast terrain as though using the Apocalyptic Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Apocolyptic Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Apocalyptic Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_apocalyptic_rod_of_metamagic": {
@@ -1998,13 +1998,13 @@
 			"",
 			"{SOURCE Planar Adventures/50}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that constrain the targets as though using the {feat/Authoritative Spell} feat",
+			"The wielder of this metamagic rod can cast up to three spells per day that constrain the targets as though using the Authoritative Spell feat",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Authoritative Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Authoritative Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_authoritative_rod_of_metamagic": {
@@ -2018,13 +2018,13 @@
 			"",
 			"{SOURCE Planar Adventures/51}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that enliven or pacify targets as though using the {feat/Blissful Spell} feat.",
+			"The wielder of this metamagic rod can cast up to three spells per day that enliven or pacify targets as though using the Blissful Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Blissful Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Blissful Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_blissful_rod_of_metamagic": {
@@ -2041,13 +2041,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/187;Advanced Player's Guide/294}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that bounce as though using the {feat/Bouncing Spell} feat.",
+			"The wielder can cast up to three spells per day that bounce as though using the Bouncing Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Bouncing Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Bouncing Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_bouncing_rod_of_metamagic": {
@@ -2061,13 +2061,13 @@
 			"",
 			"{SOURCE Planar Adventures/51}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that condemn the targets as though using the {feat/Crypt Spell} feat.",
+			"The wielder of this metamagic rod can cast up to three spells per day that condemn the targets as though using the Crypt Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Crypt Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Crypt Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_crypt_rod_of_metamagic": {
@@ -2084,9 +2084,9 @@
 			"",
 			"{SOURCE Ultimate Equipment/188;Advanced Player's Guide/294}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that are disruptive as though using the {feat/Disruptive Spell} feat.",
+			"The wielder can cast up to three spells per day that are disruptive as though using the Disruptive Spell feat.",
 			"",
 			"### Construction",
 			"",
@@ -2107,7 +2107,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/188;Advanced Player's Guide/294}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that have full effect against incorporeal creatures, as though she were using the Ectoplasmic Spell feat.",
 			"",
@@ -2130,13 +2130,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/188;Advanced Player's Guide/294}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"Each elemental metamagic rod is built with the power to control and transform a specific energy type (acid, cold, electricity, or fire). The wielder can cast up to three spells per day that deal damage of the rod's energy type instead of the spell's normal damage type, as though using the Elemental Spell feat. For example, an elemental metamagic rod (cold) always makes spells deal cold damage.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Elemental Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Elemental Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_elemental_rod_of_metamagic": {
@@ -2153,7 +2153,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/189;PRPG Core Rulebook/485}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that are enlarged as though using the Enlarge Spell feat.",
 			"",
@@ -2176,7 +2176,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/189;PRPG Core Rulebook/485}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that are extended as though using the Extend Spell feat.",
 			"",
@@ -2196,13 +2196,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/189}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day with the electricity, fire, or light descriptor that dazzle creatures that take damage from that spell for a number of rounds equal to the actual level of that spell as though using the Flaring Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Flaring Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Flaring Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_flaring_rod_of_metamagic": {
@@ -2219,13 +2219,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/189;Advanced Player's Guide/294}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that are focused as though using the Focused Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Focused Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Focused Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_focused_rod_of_metamagic": {
@@ -2239,13 +2239,13 @@
 			"",
 			"{SOURCE Occult Adventures/253}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 1 lb.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 1 lb.",
 			"",
 			"The wielder of this metamagic rod can cast up to three spells per day that channel her anger as though using the Furious Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Furious Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Furious Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
 		]
 	},
 	"lesser_furious_rod_of_metamagic": {
@@ -2262,13 +2262,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/189;Advanced Player's Guide/294}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that are intensified as though using the Intensified Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Intensified Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Intensified Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_intensified_rod_of_metamagic": {
@@ -2285,13 +2285,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/189;Advanced Player's Guide/295}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that linger for 1 round as though using the Lingering Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Lingering Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Lingering Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_lingering_rod_of_metamagic": {
@@ -2305,7 +2305,7 @@
 			"",
 			"{SOURCE Occult Adventures/254}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 1 lb.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 1 lb.",
 			"",
 			"The wielder of this rod can cast up to three spells per day without emotion components as though using the Logical Spell feat.",
 			"",
@@ -2325,13 +2325,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/190}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that overcome the spell resistance of a target as though use the Piercing Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Piercing Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Piercing Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_piercing_rod_of_metamagic": {
@@ -2348,7 +2348,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/190;Advanced Player's Guide/295}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day with a one-step increase in their range category (such as from close to medium, or medium to long) as though using the Reach Spell feat.",
 			"",
@@ -2368,13 +2368,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/190}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells with the cold descriptor per day that entangle creatures that take cold damage from that spell for a number of rounds equal to the spell's actual level as though using the Rime Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Rime Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Rime Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_rime_rod_of_metamagic": {
@@ -2388,13 +2388,13 @@
 			"",
 			"{SOURCE Occult Adventures/254}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 1 lb.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 1 lb.",
 			"",
 			"The wielder of this rod can cast up to three spells per day that weaken her target's will as though using the Scarring Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Scarring Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Scarring Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
 		]
 	},
 	"lesser_scarring_rod_of_metamagic": {
@@ -2411,13 +2411,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/190;Advanced Player's Guide/296}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day as though using the Selective Spell feat. For each spell, he can select up to four creatures of his choice within the area that are unaffected.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Selective Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Selective Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_selective_rod_of_metamagic": {
@@ -2434,7 +2434,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/191;PRPG Core Rulebook/485}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day without verbal components as though using the Silent Spell feat.",
 			"",
@@ -2454,13 +2454,13 @@
 			"",
 			"{SOURCE Wardens of the Reborn Forge/49}  ",
 			"**Aura** strong universal; **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"Three times per day, the wielder can lower the chance of a spell he casts triggering a {rule/primal magic} event, as though using the Stable Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Stable Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Stable Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_stable_rod_of_metamagic": {
@@ -2474,13 +2474,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/191}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells with the force descriptor per day that are affected as though the spells were augmented with the Toppling Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Toppling Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Toppling Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_toppling_rod_of_metamagic": {
@@ -2494,13 +2494,13 @@
 			"",
 			"{SOURCE Planar Adventures/52}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 3,000 gp (lesser [up to 3rd-level spells]), 11,000 gp (normal [up to 6th-level spells]), 24,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder of this metamagic rod can cast up to three spells per day that scatter the targets as though using the Tumultuous Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Tumultuous Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Tumultuous Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
 	"lesser_tumultuous_rod_of_metamagic": {
@@ -2510,6 +2510,7 @@
 		"name": "Rod of Metamagic, Eclipsed (normal)",
 		"copyof": "rod_of_metamagic_eclipsed_lesser"
 	},
+	"rod_of_metamagic_eclipsed": { "copyof": "rod_of_metamagic_eclipsed_normal" },
 	"normal_eclipsed_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_eclipsed_normal"
 	},
@@ -2517,6 +2518,7 @@
 		"name": "Rod of Metamagic, Merciful (normal)",
 		"copyof": "rod_of_metamagic_merciful_lesser"
 	},
+	"rod_of_metamagic_merciful": { "copyof": "rod_of_metamagic_merciful_normal" },
 	"normal_merciful_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_merciful_normal"
 	},
@@ -2524,6 +2526,7 @@
 		"name": "Rod of Metamagic, Murky (normal)",
 		"copyof": "rod_of_metamagic_murky_lesser"
 	},
+	"rod_of_metamagic_murky": { "copyof": "rod_of_metamagic_murky_normal" },
 	"normal_murky_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_murky_normal"
 	},
@@ -2531,6 +2534,7 @@
 		"name": "Rod of Metamagic, Steam (normal)",
 		"copyof": "rod_of_metamagic_steam_lesser"
 	},
+	"rod_of_metamagic_steam": { "copyof": "rod_of_metamagic_steam_normal" },
 	"normal_steam_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_steam_normal"
 	},
@@ -2542,7 +2546,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/187}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that deal extra acid or fire damage as though using the Burning Spell feat.",
 			"",
@@ -2562,13 +2566,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/188}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"Up to three times per day the wielder can cast a spell with the sonic descriptor that causes those who take damage from that spell to take a -2 penalty on attack rolls, saving throws, skill checks, and ability checks for a number of rounds equal to the actual spell level of the spell cast as though using the Concussive Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Concussive Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Concussive Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_concussive_rod_of_metamagic": {
@@ -2585,7 +2589,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/188;PRPG Core Rulebook/485}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that are empowered as though using the Empower Spell feat.",
 			"",
@@ -2605,13 +2609,13 @@
 			"",
 			"{SOURCE Occult Adventures/253}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 1 lb.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 1 lb.",
 			"",
 			"The wielder of this rod can cast up to three spells per day that make enemies shaken as though using the Fearsome Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Fearsome Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Fearsome Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_fearsome_rod_of_metamagic": {
@@ -2628,13 +2632,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/190;Advanced Player's Guide/295}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day as though using the Persistent Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Persistent Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Persistent Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_persistent_rod_of_metamagic": {
@@ -2651,13 +2655,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/191;Advanced Player's Guide/296}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that sicken affected creatures as though using the Sickening Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Sickening Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Sickening Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_sickening_rod_of_metamagic": {
@@ -2671,13 +2675,13 @@
 			"",
 			"{SOURCE Blood of Shadows/27}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that extinguish magical and nonmagical sources of light active on the target as though using the {feat/Snuffing Spell} feat.",
+			"The wielder can cast up to three spells per day that extinguish magical and nonmagical sources of light active on the target as though using the Snuffing Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Snuffing Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Snuffing Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_snuffing_rod_of_metamagic": {
@@ -2691,13 +2695,13 @@
 			"",
 			"{SOURCE Planar Adventures/51}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder of this metamagic rod can cast up to three spells per day that suppress memories as though using the Stygian Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Stygian Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Stygian Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_stygian_rod_of_metamagic": {
@@ -2711,7 +2715,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/191}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that are affected as though using the Thanatopic Spell feat.",
 			"",
@@ -2731,7 +2735,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/191}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that are affected as though by the Threnodic Spell feat.",
 			"",
@@ -2754,13 +2758,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/191;Advanced Player's Guide/296}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that deafen affected creatures as though using the Thundering Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Thundering Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Thundering Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_thundering_rod_of_metamagic": {
@@ -2774,13 +2778,13 @@
 			"",
 			"{SOURCE Occult Adventures/254}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 1 lb.",
+			"**Slot** none; **Price** 9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells]); **Weight** 1 lb.",
 			"",
 			"The wielder of this rod can cast up to three spells per day that cause nightmares as though using the Traumatic Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Traumatic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Traumatic Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
 	"lesser_traumatic_rod_of_metamagic": {
@@ -2790,6 +2794,7 @@
 		"name": "Rod of Metamagic, Apocalyptic (normal)",
 		"copyof": "rod_of_metamagic_apocalyptic_lesser"
 	},
+	"rod_of_metamagic_apocalyptic": { "copyof": "rod_of_metamagic_apocalyptic_normal" },
 	"normal_apocalyptic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_apocalyptic_normal"
 	},
@@ -2797,6 +2802,7 @@
 		"name": "Rod of Metamagic, Authoritative (normal)",
 		"copyof": "rod_of_metamagic_authoritative_lesser"
 	},
+	"rod_of_metamagic_authoritative": { "copyof": "rod_of_metamagic_authoritative_normal" },
 	"normal_authoritative_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_authoritative_normal"
 	},
@@ -2804,6 +2810,7 @@
 		"name": "Rod of Metamagic, Blissful (normal)",
 		"copyof": "rod_of_metamagic_blissful_lesser"
 	},
+	"rod_of_metamagic_blissful": { "copyof": "rod_of_metamagic_blissful_normal" },
 	"normal_blissful_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_blissful_normal"
 	},
@@ -2811,6 +2818,7 @@
 		"name": "Rod of Metamagic, Bouncing (normal)",
 		"copyof": "rod_of_metamagic_bouncing_lesser"
 	},
+	"rod_of_metamagic_bouncing": { "copyof": "rod_of_metamagic_bouncing_normal" },
 	"normal_bouncing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_bouncing_normal"
 	},
@@ -2818,6 +2826,7 @@
 		"name": "Rod of Metamagic, Crypt (normal)",
 		"copyof": "rod_of_metamagic_crypt_lesser"
 	},
+	"rod_of_metamagic_crypt": { "copyof": "rod_of_metamagic_crypt_normal" },
 	"normal_crypt_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_crypt_normal"
 	},
@@ -2825,6 +2834,7 @@
 		"name": "Rod of Metamagic, Disruptive (normal)",
 		"copyof": "rod_of_metamagic_disruptive_lesser"
 	},
+	"rod_of_metamagic_disruptive": { "copyof": "rod_of_metamagic_disruptive_normal" },
 	"normal_disruptive_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_disruptive_normal"
 	},
@@ -2832,6 +2842,7 @@
 		"name": "Rod of Metamagic, Ectoplasmic (normal)",
 		"copyof": "rod_of_metamagic_ectoplasmic_lesser"
 	},
+	"rod_of_metamagic_ectoplasmic": { "copyof": "rod_of_metamagic_ectoplasmic_normal" },
 	"normal_ectoplasmic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_ectoplasmic_normal"
 	},
@@ -2839,6 +2850,7 @@
 		"name": "Rod of Metamagic, Elemental (normal)",
 		"copyof": "rod_of_metamagic_elemental_lesser"
 	},
+	"rod_of_metamagic_elemental": { "copyof": "rod_of_metamagic_elemental_normal" },
 	"normal_elemental_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_elemental_normal"
 	},
@@ -2846,6 +2858,7 @@
 		"name": "Rod of Metamagic, Enlarge (normal)",
 		"copyof": "rod_of_metamagic_enlarge_lesser"
 	},
+	"rod_of_metamagic_enlarge": { "copyof": "rod_of_metamagic_enlarge_normal" },
 	"normal_enlarge_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_enlarge_normal"
 	},
@@ -2853,6 +2866,7 @@
 		"name": "Rod of Metamagic, Extend (normal)",
 		"copyof": "rod_of_metamagic_extend_lesser"
 	},
+	"rod_of_metamagic_extend": { "copyof": "rod_of_metamagic_extend_normal" },
 	"normal_extend_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_extend_normal"
 	},
@@ -2860,6 +2874,7 @@
 		"name": "Rod of Metamagic, Flaring (normal)",
 		"copyof": "rod_of_metamagic_flaring_lesser"
 	},
+	"rod_of_metamagic_flaring": { "copyof": "rod_of_metamagic_flaring_normal" },
 	"normal_flaring_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_flaring_normal"
 	},
@@ -2867,6 +2882,7 @@
 		"name": "Rod of Metamagic, Focused (normal)",
 		"copyof": "rod_of_metamagic_focused_lesser"
 	},
+	"rod_of_metamagic_focused": { "copyof": "rod_of_metamagic_focused_normal" },
 	"normal_focused_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_focused_normal"
 	},
@@ -2874,6 +2890,7 @@
 		"name": "Rod of Metamagic, Furious (normal)",
 		"copyof": "rod_of_metamagic_furious_lesser"
 	},
+	"rod_of_metamagic_furious": { "copyof": "rod_of_metamagic_furious_normal" },
 	"normal_furious_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_furious_normal"
 	},
@@ -2881,6 +2898,7 @@
 		"name": "Rod of Metamagic, Intensified (normal)",
 		"copyof": "rod_of_metamagic_intensified_lesser"
 	},
+	"rod_of_metamagic_intensified": { "copyof": "rod_of_metamagic_intensified_normal" },
 	"normal_intensified_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_intensified_normal"
 	},
@@ -2888,6 +2906,7 @@
 		"name": "Rod of Metamagic, Lingering (normal)",
 		"copyof": "rod_of_metamagic_lingering_lesser"
 	},
+	"rod_of_metamagic_lingering": { "copyof": "rod_of_metamagic_lingering_normal" },
 	"normal_lingering_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_lingering_normal"
 	},
@@ -2895,6 +2914,7 @@
 		"name": "Rod of Metamagic, Logical (normal)",
 		"copyof": "rod_of_metamagic_logical_lesser"
 	},
+	"rod_of_metamagic_logical": { "copyof": "rod_of_metamagic_logical_normal" },
 	"normal_logical_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_logical_normal"
 	},
@@ -2902,6 +2922,7 @@
 		"name": "Rod of Metamagic, Piercing (normal)",
 		"copyof": "rod_of_metamagic_piercing_lesser"
 	},
+	"rod_of_metamagic_piercing": { "copyof": "rod_of_metamagic_piercing_normal" },
 	"normal_piercing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_piercing_normal"
 	},
@@ -2909,6 +2930,7 @@
 		"name": "Rod of Metamagic, Reach (normal)",
 		"copyof": "rod_of_metamagic_reach_lesser"
 	},
+	"rod_of_metamagic_reach": { "copyof": "rod_of_metamagic_reach_normal" },
 	"normal_reach_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_reach_normal"
 	},
@@ -2916,6 +2938,7 @@
 		"name": "Rod of Metamagic, Rime (normal)",
 		"copyof": "rod_of_metamagic_rime_lesser"
 	},
+	"rod_of_metamagic_rime": { "copyof": "rod_of_metamagic_rime_normal" },
 	"normal_rime_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_rime_normal"
 	},
@@ -2923,6 +2946,7 @@
 		"name": "Rod of Metamagic, Scarring (normal)",
 		"copyof": "rod_of_metamagic_scarring_lesser"
 	},
+	"rod_of_metamagic_scarring": { "copyof": "rod_of_metamagic_scarring_normal" },
 	"normal_scarring_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_scarring_normal"
 	},
@@ -2930,6 +2954,7 @@
 		"name": "Rod of Metamagic, Selective (normal)",
 		"copyof": "rod_of_metamagic_selective_lesser"
 	},
+	"rod_of_metamagic_selective": { "copyof": "rod_of_metamagic_selective_normal" },
 	"normal_selective_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_selective_normal"
 	},
@@ -2937,6 +2962,7 @@
 		"name": "Rod of Metamagic, Silent (normal)",
 		"copyof": "rod_of_metamagic_silent_lesser"
 	},
+	"rod_of_metamagic_silent": { "copyof": "rod_of_metamagic_silent_normal" },
 	"normal_silent_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_silent_normal"
 	},
@@ -2944,6 +2970,7 @@
 		"name": "Rod of Metamagic, Stable (normal)",
 		"copyof": "rod_of_metamagic_stable_lesser"
 	},
+	"rod_of_metamagic_stable": { "copyof": "rod_of_metamagic_stable_normal" },
 	"normal_stable_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_stable_normal"
 	},
@@ -2951,6 +2978,7 @@
 		"name": "Rod of Metamagic, Toppling (normal)",
 		"copyof": "rod_of_metamagic_toppling_lesser"
 	},
+	"rod_of_metamagic_toppling": { "copyof": "rod_of_metamagic_toppling_normal" },
 	"normal_toppling_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_toppling_normal"
 	},
@@ -2958,6 +2986,7 @@
 		"name": "Rod of Metamagic, Tumultuous (normal)",
 		"copyof": "rod_of_metamagic_tumultuous_lesser"
 	},
+	"rod_of_metamagic_tumultuous": { "copyof": "rod_of_metamagic_tumultuous_normal" },
 	"normal_tumultuous_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_tumultuous_normal"
 	},
@@ -3000,13 +3029,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/188;Advanced Player's Guide/294}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 14,000 gp (lesser [up to 3rd-level spells]), 54,000 gp (normal [up to 6th-level spells]), 121,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that daze affected creatures as though using the Dazing Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Dazing Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Dazing Spell}; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
 	"lesser_dazing_rod_of_metamagic": {
@@ -3020,13 +3049,13 @@
 			"",
 			"{SOURCE Ultimate Equipment/188}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 14,000 gp (lesser [up to 3rd-level spells]), 54,000 gp (normal [up to 6th-level spells]), 121,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that can be cast an additional time that day as if using the Echoing Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Echoing Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Echoing Spell}; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
 	"lesser_echoing_rod_of_metamagic": {
@@ -3040,13 +3069,13 @@
 			"",
 			"{SOURCE Animal Archive/27}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 14,000 gp (lesser [up to 3rd-level spells]), 54,000 gp (normal [up to 6th-level spells]), 121,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that affect his familiar as though using the Familiar Spell feat.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Familiar Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
+			"**Requirements** {feat/Craft Rod}, {feat/Familiar Spell}; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
 	"lesser_familiar_rod_of_metamagic": {
@@ -3063,7 +3092,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/189;PRPG Core Rulebook/485}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 14,000 gp (lesser [up to 3rd-level spells]), 54,000 gp (normal [up to 6th-level spells]), 121,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that are maximized as though using the Maximize Spell feat.",
 			"",
@@ -3083,7 +3112,7 @@
 			"",
 			"{SOURCE Ultimate Equipment/180}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 14,000 gp (lesser [up to 3rd-level spells]), 54,000 gp (normal [up to 6th-level spells]), 121,500 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
 			"The wielder can cast up to three spells per day that are widened as though using the Widen Spell feat.",
 			"",
@@ -3274,6 +3303,7 @@
 		"name": "Rod of Metamagic, Burning (normal)",
 		"copyof": "rod_of_metamagic_burning_lesser"
 	},
+	"rod_of_metamagic_burning": { "copyof": "rod_of_metamagic_burning_normal" },
 	"normal_burning_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_burning_normal"
 	},
@@ -3281,6 +3311,7 @@
 		"name": "Rod of Metamagic, Concussive (normal)",
 		"copyof": "rod_of_metamagic_concussive_lesser"
 	},
+	"rod_of_metamagic_concussive": { "copyof": "rod_of_metamagic_concussive_normal" },
 	"normal_concussive_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_concussive_normal"
 	},
@@ -3288,6 +3319,7 @@
 		"name": "Rod of Metamagic, Empower (normal)",
 		"copyof": "rod_of_metamagic_empower_lesser"
 	},
+	"rod_of_metamagic_empower": { "copyof": "rod_of_metamagic_empower_normal" },
 	"normal_empower_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_empower_normal"
 	},
@@ -3295,6 +3327,7 @@
 		"name": "Rod of Metamagic, Fearsome (normal)",
 		"copyof": "rod_of_metamagic_fearsome_lesser"
 	},
+	"rod_of_metamagic_fearsome": { "copyof": "rod_of_metamagic_fearsome_normal" },
 	"normal_fearsome_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_fearsome_normal"
 	},
@@ -3302,6 +3335,7 @@
 		"name": "Rod of Metamagic, Persistent (normal)",
 		"copyof": "rod_of_metamagic_persistent_lesser"
 	},
+	"rod_of_metamagic_persistent": { "copyof": "rod_of_metamagic_persistent_normal" },
 	"normal_persistent_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_persistent_normal"
 	},
@@ -3309,6 +3343,7 @@
 		"name": "Rod of Metamagic, Sickening (normal)",
 		"copyof": "rod_of_metamagic_sickening_lesser"
 	},
+	"rod_of_metamagic_sickening": { "copyof": "rod_of_metamagic_sickening_normal" },
 	"normal_sickening_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_sickening_normal"
 	},
@@ -3316,6 +3351,7 @@
 		"name": "Rod of Metamagic, Snuffing (normal)",
 		"copyof": "rod_of_metamagic_snuffing_lesser"
 	},
+	"rod_of_metamagic_snuffing": { "copyof": "rod_of_metamagic_snuffing_normal" },
 	"normal_snuffing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_snuffing_normal"
 	},
@@ -3323,6 +3359,7 @@
 		"name": "Rod of Metamagic, Stygian (normal)",
 		"copyof": "rod_of_metamagic_stygian_lesser"
 	},
+	"rod_of_metamagic_stygian": { "copyof": "rod_of_metamagic_stygian_normal" },
 	"normal_stygian_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_stygian_normal"
 	},
@@ -3330,6 +3367,7 @@
 		"name": "Rod of Metamagic, Thanatopic (normal)",
 		"copyof": "rod_of_metamagic_thanatopic_lesser"
 	},
+	"rod_of_metamagic_thanatopic": { "copyof": "rod_of_metamagic_thanatopic_normal" },
 	"normal_thanatopic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_thanatopic_normal"
 	},
@@ -3337,6 +3375,7 @@
 		"name": "Rod of Metamagic, Threnodic (normal)",
 		"copyof": "rod_of_metamagic_threnodic_lesser"
 	},
+	"rod_of_metamagic_threnodic": { "copyof": "rod_of_metamagic_threnodic_normal" },
 	"normal_threnodic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_threnodic_normal"
 	},
@@ -3344,6 +3383,7 @@
 		"name": "Rod of Metamagic, Thundering (normal)",
 		"copyof": "rod_of_metamagic_thundering_lesser"
 	},
+	"rod_of_metamagic_thundering": { "copyof": "rod_of_metamagic_thundering_normal" },
 	"normal_thundering_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_thundering_normal"
 	},
@@ -3351,6 +3391,7 @@
 		"name": "Rod of Metamagic, Traumatic (normal)",
 		"copyof": "rod_of_metamagic_traumatic_lesser"
 	},
+	"rod_of_metamagic_traumatic": { "copyof": "rod_of_metamagic_traumatic_normal" },
 	"normal_traumatic_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_traumatic_normal"
 	},
@@ -3365,9 +3406,9 @@
 			"",
 			"{SOURCE Ultimate Equipment/190;PRPG Core Rulebook/485}  ",
 			"**Aura** strong (no school); **CL** 17th  ",
-			"**Slot** none; **Price** 35,000 gp (lesser), 75,500 gp (normal), 170,000 gp (greater); **Weight** 5 lbs.",
+			"**Slot** none; **Price** 35,000 gp (lesser [up to 3rd-level spells]), 75,500 gp (normal [up to 6th-level spells]), 170,000 gp (greater [all spells]); **Weight** 5 lbs.",
 			"",
-			"The wielder can cast up to three spells per day that are quickened as though using the {feat/Quicken Spell} feat.",
+			"The wielder can cast up to three spells per day that are quickened as though using the Quicken Spell feat.",
 			"",
 			"### Construction",
 			"",
@@ -3381,6 +3422,7 @@
 		"name": "Rod of Metamagic, Dazing (normal)",
 		"copyof": "rod_of_metamagic_dazing_lesser"
 	},
+	"rod_of_metamagic_dazing": { "copyof": "rod_of_metamagic_dazing_normal" },
 	"normal_dazing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_dazing_normal"
 	},
@@ -3388,6 +3430,7 @@
 		"name": "Rod of Metamagic, Echoing (normal)",
 		"copyof": "rod_of_metamagic_echoing_lesser"
 	},
+	"rod_of_metamagic_echoing": { "copyof": "rod_of_metamagic_echoing_normal" },
 	"normal_echoing_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_echoing_normal"
 	},
@@ -3395,6 +3438,7 @@
 		"name": "Rod of Metamagic, Familiar (normal)",
 		"copyof": "rod_of_metamagic_familiar_lesser"
 	},
+	"rod_of_metamagic_familiar": { "copyof": "rod_of_metamagic_familiar_normal" },
 	"normal_familiar_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_familiar_normal"
 	},
@@ -3402,6 +3446,7 @@
 		"name": "Rod of Metamagic, Maximize (normal)",
 		"copyof": "rod_of_metamagic_maximize_lesser"
 	},
+	"rod_of_metamagic_maximize": { "copyof": "rod_of_metamagic_maximize_normal" },
 	"normal_maximize_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_maximize_normal"
 	},
@@ -3409,6 +3454,7 @@
 		"name": "Rod of Metamagic, Widen (normal)",
 		"copyof": "rod_of_metamagic_widen_lesser"
 	},
+	"rod_of_metamagic_widen": { "copyof": "rod_of_metamagic_widen_normal" },
 	"normal_widen_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_widen_normal"
 	},
@@ -3500,6 +3546,7 @@
 		"name": "Rod of Metamagic, Quicken (normal)",
 		"copyof": "rod_of_metamagic_quicken_lesser"
 	},
+	"rod_of_metamagic_quicken": { "copyof": "rod_of_metamagic_quicken_normal" },
 	"normal_quicken_rod_of_metamagic": {
 		"copyof": "rod_of_metamagic_quicken_normal"
 	},
@@ -3658,7 +3705,7 @@
 			"",
 			"A metamagician's apprentice knows four metamagic feats (limited to feats that use a spell slot one or two levels higher than the spell's actual level, such as {feat/Silent Spell} and {feat/Empower Spell}) and acts as a greater metamagic rod for those feats. The rod can only apply one metamagic feat to a spell at a time, though (like a metamagic rod) the wielder can use his own feats and the rod's on the same spell.",
 			"",
-			"The rod can use read magic and {spell/detect magic} at will. The metamagician's apprentice is never overwhelmed by powerful magic auras. These abilities do not trigger effects that require reading to activate (such as the explosive runes spell). The rod grants the wielder a +2 competence bonus on three Knowledge skills; these skills are determined when the rod is created (and require the apprentice to have ranks in that skill) and can never be changed. Knowledge (arcana) is almost always one of these three skills.",
+			"The rod can use {spell/read magic} and {spell/detect magic} at will. The metamagician's apprentice is never overwhelmed by powerful magic auras. These abilities do not trigger effects that require reading to activate (such as the explosive runes spell). The rod grants the wielder a +2 competence bonus on three Knowledge skills; these skills are determined when the rod is created (and require the apprentice to have ranks in that skill) and can never be changed. Knowledge (arcana) is almost always one of these three skills.",
 			"",
 			"A typical rod of this type is lawful neutral, though rods with other alignments exist.",
 			"",

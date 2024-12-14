@@ -382,7 +382,7 @@
 			"",
 			"**Final Demise (Su):** At 10th level, once per week, when a Gray Gardener kills a creature with a melee weapon, he can draw the soul out of the dead body and imprison it in his weapon as if using a soul bind spell (caster level equal to the Gray Gardener's character level). Destroying the weapon or dispelling this effect frees the soul. After spending 24 hours in the weapon, the captured soul escapes. However, by touching the weapon holding a captured soul to a final blade, the Gray Gardener can transfer the soul into the magical guillotine to remain trapped inside indefinitely. In addition, at 10th level, a Gray Gardener receives initiation in the secret rituals that can release a soul from a {magic-artifact/final blade}.",
 			"",
-			"**True Death (Su):** At 10th level, anyone slain by a Gray Gardener becomes more difficult to bring back from the dead. Attempts to use raise dead or similar magic to resurrect such a creature require a successful DC 25 caster level check, or the spell fails and any material components are wasted."
+			"**True Death (Su):** At 10th level, anyone slain by a Gray Gardener becomes more difficult to bring back from the dead. Attempts to use {spell/raise dead} or similar magic to resurrect such a creature require a successful DC 25 caster level check, or the spell fails and any material components are wasted."
 		]
 	},
 	"green_faith_acolyte": {
@@ -1688,7 +1688,7 @@
 			"",
 			"**Ageless Stone (Ex):** At 10th level, a living monolith becomes immortal. He ceases aging (though any aging effects already accrued remain in place) and becomes immune to energy drain and death effects, though he can still be killed by other means.",
 			"",
-			"**Judgment of the Monolith (Sp):** At 10th level, a living monolith gains the divine authority to demand truthful answers. Once per day, a living monolith can conduct a ritual of inquisition. If performed on a dead body, this functions as speak with dead. Upon a living creature, it functions as a mark of justice that activates if the target lies to the living monolith. A living monolith can also use this power to entreat the spirits of the living and the dead to answer questions as if using contact other plane (treat as contacting a lesser deity).",
+			"**Judgment of the Monolith (Sp):** At 10th level, a living monolith gains the divine authority to demand truthful answers. Once per day, a living monolith can conduct a ritual of inquisition. If performed on a dead body, this functions as {spell/speak with dead}. Upon a living creature, it functions as a mark of justice that activates if the target lies to the living monolith. A living monolith can also use this power to entreat the spirits of the living and the dead to answer questions as if using contact other plane (treat as contacting a lesser deity).",
 			"",
 			"**Master Ka Stone (Su):** At 10th level, when a living monolith with a ka stone invokes his ka stone's power to increase his size, he regains lost hit points as if he had rested for a night. This healing does not restore temporary ability damage or provide other benefits of resting, and changing back does not heal him further."
 		]
@@ -2310,7 +2310,7 @@
 			"",
 			"A mystery cultist takes a -4 penalty on Charisma checks and Charisma-based skill checks during the fervor and for a number of minutes afterward equal to 2 &times; the number of rounds spent in the religious fervor.",
 			"",
-			"**Incorruptible (Su):** At 7th level, the mystery cultist gains a +2 bonus on saving throws versus disease and poison. If the mystery cultist is killed, her body does not decompose, but stays pure and whole as if targeted by a permanent gentle repose spell. This effectively extends the period in which she can be affected by a raise dead spell indefinitely. Finally, this ability prevents the mystery cultist from ever being transformed into an undead creature by any means short of a wish or miracle.",
+			"**Incorruptible (Su):** At 7th level, the mystery cultist gains a +2 bonus on saving throws versus disease and poison. If the mystery cultist is killed, her body does not decompose, but stays pure and whole as if targeted by a permanent gentle repose spell. This effectively extends the period in which she can be affected by a {spell/raise dead} spell indefinitely. Finally, this ability prevents the mystery cultist from ever being transformed into an undead creature by any means short of a wish or miracle.",
 			"",
 			"**Sacred Haven (Su):** At 10th level, the mystery cultist earns a place at the side of her celestial patron. A room is set aside for her at her patron's place of residence on the celestial planes (if her patron has no permanent residence, the room stands alone in a quiet spot on the celestial planes). Once per day, the mystery cultist can teleport herself and one willing creature per mystery cultist level to this sacred haven as per plane shift, except she always arrives exactly at the threshold of her haven. The room is outfitted with comfortable beds for everyone, a small research library, a shrine, and a chest or cupboard that functions as a portable hole but that cannot be removed from the room. The mystery cultist can teleport herself and her allies out of the sacred haven at will, but can only return to the spot from which they last left.",
 			"",
@@ -2461,7 +2461,7 @@
 			"",
 			"A nature warden may have a number of guarded lands equal to her Wisdom bonus (minimum 1). When she reaches her maximum number of guarded lands, she can select a new guarded land by abandoning an existing one and performing the ritual for a new area.",
 			"",
-			"**Companion Soul (Su):** At 10th level, a nature warden's bond with her animal companion is so strong that it transcends distance and even death. The companion's devotion ability increases to a +8 morale bonus on Will saves against enchantment spells and effects. The warden may scry on her animal companion once per day as if using the scrying spell, except she needs no focus or divine focus. She may view the area around her companion or see through its eyes. If her companion dies, she can revive it with an 8-hour ritual; this has the same effect as raise dead, except it doesn't require a material component and the companion does not gain any negative levels from the ordeal."
+			"**Companion Soul (Su):** At 10th level, a nature warden's bond with her animal companion is so strong that it transcends distance and even death. The companion's devotion ability increases to a +8 morale bonus on Will saves against enchantment spells and effects. The warden may scry on her animal companion once per day as if using the scrying spell, except she needs no focus or divine focus. She may view the area around her companion or see through its eyes. If her companion dies, she can revive it with an 8-hour ritual; this has the same effect as {spell/raise dead}, except it doesn't require a material component and the companion does not gain any negative levels from the ordeal."
 		]
 	},
 	"noble_scion": {

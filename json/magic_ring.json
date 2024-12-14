@@ -1357,11 +1357,11 @@
 			"**Aura** strong necromancy; **CL** 17th  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
-			"When the wearer of this delicate platinum ring dies, his soul remains adrift in the River of Souls and does not proceed to its final judgment in the Boneyard. Until the soultether ring is removed from the corpse, the time limit for restoring the creature to life via spells such as raise dead or resurrection is suspended. This ring has no effect if it is placed upon a corpse; it must be worn at the time the creature dies to tether its soul. Psychopomps and other followers of Pharasma consider soultether rings to be sacrilegious, and the creatures destroy the rings whenever possible.",
+			"When the wearer of this delicate platinum ring dies, his soul remains adrift in the River of Souls and does not proceed to its final judgment in the Boneyard. Until the soultether ring is removed from the corpse, the time limit for restoring the creature to life via spells such as {spell/raise dead} or {spell/resurrection} is suspended. This ring has no effect if it is placed upon a corpse; it must be worn at the time the creature dies to tether its soul. Psychopomps and other followers of Pharasma consider soultether rings to be sacrilegious, and the creatures destroy the rings whenever possible.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}; soul bind or true resurrection; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}; soul bind or {spell/true resurrection}; **Cost** 4,000 gp"
 		]
 	},
 	"ring_of_summoning_affinity_inevitable": {
@@ -2276,7 +2276,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fear, speak with dead; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, fear, {spell/speak with dead}; **Cost** 7,500 gp"
 		]
 	},
 	"ring_of_water_walking": {
@@ -3319,7 +3319,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, speak with dead, spectral hand, plane shift; **Cost** 45,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/speak with dead}, spectral hand, plane shift; **Cost** 45,000 gp"
 		]
 	},
 	"ring_of_wizardry_type_3": {
@@ -3650,7 +3650,7 @@
 			"",
 			"### Construction",
 			"",
-			"{feat/Forge Ring}, nondetection, read magic, timely inspiration; **Price** 7,300 gp",
+			"{feat/Forge Ring}, {spell/nondetection}, {spell/read magic}, {spell/timely inspiration}; **Price** 7,300 gp",
 			"",
 			"### Statistics",
 			"",

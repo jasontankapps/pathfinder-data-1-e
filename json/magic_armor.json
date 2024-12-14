@@ -242,7 +242,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, speak with dead; **Price** 1,800 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/speak with dead}; **Price** 1,800 gp"
 		]
 	},
 	"pelt_of_the_demon_mother": {
@@ -701,11 +701,11 @@
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** armor; **Price** 5,570 gp; **Weight** 25 lbs.",
 			"",
-			"This +1 chain shirt is made of shiny, bright rings on the left side and dull, dark rings on the right. The church of Nethys uses suits of all-seeing armor to help Nethysians explore and catalog ancient libraries. At will, the wearer can use {spell/detect magic} and read magic. Once per day, the wearer can use comprehend languages.",
+			"This +1 chain shirt is made of shiny, bright rings on the left side and dull, dark rings on the right. The church of Nethys uses suits of all-seeing armor to help Nethysians explore and catalog ancient libraries. At will, the wearer can use detect magic and read magic. Once per day, the wearer can use comprehend languages.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, comprehend languages, {spell/detect magic}, read magic; **Price** 2,910 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/comprehend languages}, {spell/detect magic}, {spell/read magic}; **Price** 2,910 gp"
 		]
 	},
 	"gray_masters_leathers": {
@@ -4380,7 +4380,7 @@
 			"**Aura** moderate divination; **CL** 11th  ",
 			"**Slot** shield; **Price** 14,500 gp; **Weight** 5 lbs.",
 			"",
-			"This caster's shield always has one arcane scroll and knows the same arcane spells as the wielder. When the spell on the scroll is cast, another scroll of a spell the wielder knows randomly manifests to replace it. The shield has no arcane spell failure. The shield can also read magic. It will often debate with its wielder for the most devastating course of action, but does what the wielder commands.",
+			"This caster's shield always has one arcane scroll and knows the same arcane spells as the wielder. When the spell on the scroll is cast, another scroll of a spell the wielder knows randomly manifests to replace it. The shield has no arcane spell failure. The shield can also {spell/read magic}. It will often debate with its wielder for the most devastating course of action, but does what the wielder commands.",
 			"",
 			"### Construction",
 			"",

@@ -2906,7 +2906,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, nondetection, trap the soul, true resurrection; **Cost** 60,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, nondetection, trap the soul, {spell/true resurrection}; **Cost** 60,000 gp"
 		]
 	},
 	"necklace_of_construct_aversion": {

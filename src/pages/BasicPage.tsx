@@ -1,11 +1,11 @@
 import { FC, PropsWithChildren, useCallback, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { IonContent, IonPage, ScrollCustomEvent, useIonViewDidEnter } from '@ionic/react';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import SourcesModal, { SourceProp } from '../components/SourcesModal';
+import Link from '../components/Link';
 import { DisplayItemProps, HierarchyArray } from '../types';
 import './Page.css';
 

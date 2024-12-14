@@ -2370,7 +2370,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, speak with dead; **Price** 4,808 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/speak with dead}; **Price** 4,808 gp"
 		]
 	},
 	"battlepot_cauldron": {
@@ -2514,7 +2514,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, continual flame, death knell, speak with dead, vampiric touch; **Price** 4,915 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, continual flame, death knell, {spell/speak with dead}, vampiric touch; **Price** 4,915 gp"
 		]
 	},
 	"cutlass_of_waves": {

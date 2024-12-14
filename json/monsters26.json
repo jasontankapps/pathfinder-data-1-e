@@ -302,7 +302,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Devour Soul (Su)** If a creature dies while swallowed whole by an ammut, its soul is consumed along with its body. A creature killed in this way cannot be brought back to life via any effect short of true resurrection, miracle, or wish, but even these spells require the caster to succeed at a caster level check equal to 10 + the targeted creature's Hit Dice. If this check fails, the caster can't attempt to return the targeted creature to life for the next 24 hours (though the caster can try again after this period).",
+			"**Devour Soul (Su)** If a creature dies while swallowed whole by an ammut, its soul is consumed along with its body. A creature killed in this way cannot be brought back to life via any effect short of {spell/miracle}, {spell/true resurrection}, or {spell/wish}, but even these spells require the caster to succeed at a caster level check equal to 10 + the targeted creature's Hit Dice. If this check fails, the caster can't attempt to return the targeted creature to life for the next 24 hours (though the caster can try again after this period).",
 			"",
 			"**Powerful Jaw (Ex)** An ammut's bite attack deals 4d6 points of damage plus one and a half times its Strength bonus. In addition, its reach with this attack is 5 feet further than normal and it gains the grab ability when attacking with its bite.",
 			"",

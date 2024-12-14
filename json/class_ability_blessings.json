@@ -301,7 +301,7 @@
 			"",
 			"**Replacement Blessing:** The following major blessing replaces the fast healing ability of the Healing blessing.",
 			"",
-			"*Return of the Fallen (major)*: At 10th level, your touch can defy the cold claws of death itself. You can temporarily revive a touched ally to continue fighting, as if you had cast raise dead on her. The revived ally is also staggered for a number of rounds equal to 1/2 your warpriest level, after which she immediately dies. The ally is free to act as she sees fit during this time, and you are granted no control over her."
+			"*Return of the Fallen (major)*: At 10th level, your touch can defy the cold claws of death itself. You can temporarily revive a touched ally to continue fighting, as if you had cast {spell/raise dead} on her. The revived ally is also staggered for a number of rounds equal to 1/2 your warpriest level, after which she immediately dies. The ally is free to act as she sees fit during this time, and you are granted no control over her."
 		]
 	},
 	"knowledge": {

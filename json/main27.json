@@ -1231,7 +1231,7 @@
 				"",
 				"A skilled necrograft surgeon (often a necromancer) is required to install a necrograft. Necrografts can be attached only to humanoids and only to replace a part - a necrograft arm can't be added in addition a human's two healthy arms, for example, but could replace a lost arm. When a necrograft is attached (a process requiring 1 hour), the recipient must succeed at a DC 18 Fortitude save or the necrograft fails to integrate with his body. Either way, the recipient takes 2 points of Constitution damage from the surgery.",
 				"",
-				"A raise dead or resurrection spell cast on a living creature instantly destroys any necrograft implants unless the target succeeds at a separate Will save against the spell for each necrograft implant. If the target of the spell is dead, the target is restored to life but any implants are destroyed.",
+				"A {spell/raise dead} or {spell/resurrection} spell cast on a living creature instantly destroys any necrograft implants unless the target succeeds at a separate Will save against the spell for each necrograft implant. If the target of the spell is dead, the target is restored to life but any implants are destroyed.",
 				"",
 				"| Necrograft | Price |",
 				"| --- | --- |",

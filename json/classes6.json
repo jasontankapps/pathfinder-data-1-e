@@ -1232,7 +1232,7 @@
 			"",
 			"**Bonus Feats:** At 5th, 10th, 15th, and 20th level, a wizard gains a bonus feat. At each such opportunity, he can choose a [metamagic feat](main/feats_metamagic), an [item creation feat](main/feats_item_creation), a [familiar feat](main/feats_familiar), or {feat/Spell Mastery}. The wizard must still meet all prerequisites for a bonus feat, including caster level minimums. These bonus feats are in addition to the feats that a character of any class gets from advancing levels. The wizard is not limited to the categories of item creation feats, metamagic feats, familiar feats, or Spell Mastery when choosing those feats.",
 			"",
-			"**Spellbooks:** A wizard must study his spellbook each day to prepare his spells. He cannot prepare any spell not recorded in his spellbook, except for read magic, which all wizards can prepare from memory.",
+			"**Spellbooks:** A wizard must study his spellbook each day to prepare his spells. He cannot prepare any spell not recorded in his spellbook, except for {spell/read magic}, which all wizards can prepare from memory.",
 			"",
 			"A wizard begins play with a spellbook containing all 0-level wizard spells (except those from his prohibited schools, if any; see Arcane Schools) plus three 1st-level spells of his choice. The wizard also selects a number of additional 1st-level spells equal to his Intelligence modifier to add to the spellbook. At each new wizard level, he gains two new spells of any spell level or levels that he can cast (based on his new wizard level) for his spellbook. At any time, a wizard can also add spells found in other wizards' spellbooks to his own.",
 			"",

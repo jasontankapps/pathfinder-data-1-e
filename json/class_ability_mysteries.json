@@ -196,7 +196,7 @@
 			"",
 			"*Undead Servitude (Su):* You gain Command Undead as a bonus feat. You can channel negative energy a number of times per day equal to 3 + your Charisma modifier, but only to use Command Undead. You can take other feats to add to this ability, such as Improved Channeling, but not feats that alter this ability, such as {feat/Alignment Channel}.",
 			"",
-			"*Voice of the Grave (Su):* You can speak with dead, as per the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level, and every five levels thereafter, the dead creature takes a cumulative -2 penalty on its Will save to resist this effect.",
+			"*Voice of the Grave (Su):* You can {spell/speak with dead}, as per the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level, and every five levels thereafter, the dead creature takes a cumulative -2 penalty on its Will save to resist this effect.",
 			"",
 			"*Final Revelation:* Upon reaching 20th level, you become a master of death. Once per round, you can cast bleed or stabilize as a free action. If you are brought to below 0 hit points, you automatically stabilize. You can cast animate dead at will without paying a material component cost (although you are still subject to the usual Hit Die control limit). Once per day, you can cast power word kill, but the spell can target a creature with 150 hit points or less."
 		]
@@ -760,7 +760,7 @@
 			"",
 			"*Sure Soul (Su):* Because of your experience with possessing spirits, you gain a +2 insight bonus on saving throws against possession effects such as magic jar, a ghost's malevolence ability, or domination effects. At 7th level, this bonus also applies against death effects and mind-affecting effects. At 11th level, the bonus increases to +4.",
 			"",
-			"*Voice of the Grave (Su):* You can use speak with dead, as the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level and every 5 levels thereafter, the dead creature takes a cumulative -2 penalty on its Will save to resist this effect.",
+			"*Voice of the Grave (Su):* You can use {spell/speak with dead}, as the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level and every 5 levels thereafter, the dead creature takes a cumulative -2 penalty on its Will save to resist this effect.",
 			"",
 			"*Final Revelation:* Upon reaching 20th level, you become one with the spirits. You become immune to death effects, exhaustion, fatigue, nausea, negative levels, and the sickened condition. You can cast astral projection and true seeing once per day as spell-like abilities without requiring material components. Should you die, you rise again 2d4 days later as a ghost."
 		]

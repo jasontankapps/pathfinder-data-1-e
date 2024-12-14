@@ -1705,7 +1705,7 @@
 			"**Aura** strong transmutation; **CL** 17th  ",
 			"**Slot** body; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
-			"The surface of this delicate-looking blue silk robe is adorned with tiny embossed runes across its entire surface. If the wearer is a spontaneous caster, once per day she may use a spell slot to cast a spell from a written source (such as a scroll or spellbook) as if she knew that spell. The spell must be on her spell list, the same spell level or lower than the expended spell slot, and the same type of spell (arcane or divine) as the spell slot expended. The caster must also understand the written source (such as using Decipher Script or read magic) and be carrying it. Activating the robe is not an action, but casting the spell otherwise works as normal, including casting time, providing components or foci, and so on. Using a mnemonic vestment's properties does not consume the written source. A mnemonic vestment must be worn for 24 consecutive hours before using its effects.",
+			"The surface of this delicate-looking blue silk robe is adorned with tiny embossed runes across its entire surface. If the wearer is a spontaneous caster, once per day she may use a spell slot to cast a spell from a written source (such as a scroll or spellbook) as if she knew that spell. The spell must be on her spell list, the same spell level or lower than the expended spell slot, and the same type of spell (arcane or divine) as the spell slot expended. The caster must also understand the written source (such as using Decipher Script or {spell/read magic}) and be carrying it. Activating the robe is not an action, but casting the spell otherwise works as normal, including casting time, providing components or foci, and so on. Using a mnemonic vestment's properties does not consume the written source. A mnemonic vestment must be worn for 24 consecutive hours before using its effects.",
 			"",
 			"### Construction",
 			"",
@@ -2220,7 +2220,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, speak with dead, creator must be a sorcerer; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, creator must be a sorcerer; **Cost** 8,000 gp"
 		]
 	},
 	"untouchable_jacket": {
@@ -2732,7 +2732,7 @@
 			"",
 			"The robe of eyes sees all forms of invisible or ethereal creatures or objects within 120 feet. The wearer of a robe of eyes gains a +10 competence bonus on Perception checks. She retains her Dexterity bonus to AC even when flat-footed, and can't be flanked. She is not able to avert or close her eyes when confronted by a creature with a gaze attack.",
 			"",
-			"A light or continual flame spell cast directly on a robe of eyes causes the wearer to be blinded for 1d3 minutes. A daylight spell blinds the wearer for 2d4 minutes.",
+			"A {spell/light} or {spell/continual flame} spell cast directly on a robe of eyes causes the wearer to be blinded for 1d3 minutes. A {spell/daylight} spell blinds the wearer for 2d4 minutes.",
 			"",
 			"### Construction",
 			"",
@@ -3853,7 +3853,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, read magic; **Cost** 675 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/read magic}; **Cost** 675 gp"
 		]
 	},
 	"deathwatch_eyes": {
@@ -4051,7 +4051,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, augury, read magic; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, augury, {spell/read magic}; **Cost** 2,500 gp"
 		]
 	},
 	"lenses_of_situational_sight": {

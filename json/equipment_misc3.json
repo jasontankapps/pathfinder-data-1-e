@@ -986,7 +986,7 @@
 			"",
 			"A set of quieting needles costs 25 gp. Inserted into a corpse's heart, lungs, and other organs, the needles can be well hidden inside a slain body with a minute of work and a Sleight of Hand check - the result of this Sleight of Hand check determines the Heal check DC to notice the use of quieting needles on a corpse. This Heal check gains a cumulative +1 bonus for each day the body has been allowed to decay, as the presence of the needles grows increasingly obvious as the flesh rots away.",
 			"",
-			"A body pierced with quieting needles can be brought back to life as normal via raise dead, but upon being restored to life, the victim immediately begins suffering from the fact that his major organs are perforated by hidden needles. This grisly fate can even strike someone brought back to life via resurrection or true resurrection if the body itself was intact and the needles were thus hidden. (Casting resurrection or true resurrection with only a fragment of the body or no body, forcing the spell to rebuild the body as appropriate, is a surefire way to avoid having the victim come back to life with the needles still inside him.)",
+			"A body pierced with quieting needles can be brought back to life as normal via {spell/raise dead}, but upon being restored to life, the victim immediately begins suffering from the fact that his major organs are perforated by hidden needles. This grisly fate can even strike someone brought back to life via {spell/resurrection} or {spell/true resurrection} if the body itself was intact and the needles were thus hidden. (Casting resurrection or true resurrection with only a fragment of the body or no body, forcing the spell to rebuild the body as appropriate, is a surefire way to avoid having the victim come back to life with the needles still inside him.)",
 			"",
 			"A creature brought back to life with quieting needles inside him is immediately struck with pain and must make a DC 25 Fortitude save each round to avoid being nauseated from the pain and suffering 1d6 points of Constitution damage. A successful Fortitude save negates the nauseated condition and reduces the Constitution damage to 1.",
 			"",
@@ -4089,7 +4089,7 @@
 			"**Price** special; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Most common among ratfolk alchemists, arcane stink ink is used to inscribe formulae or spells into formula books and spellbooks. Like normal stink ink, the arcane version can only be read by creatures with the scent ability (although read magic works normally on spells and arcane formulae inscribed with stink ink). Using arcane stink ink to inscribe a spell or formula into a book costs +10% of the normal amount ."
+			"Most common among ratfolk alchemists, arcane stink ink is used to inscribe formulae or spells into formula books and spellbooks. Like normal stink ink, the arcane version can only be read by creatures with the scent ability (although {spell/read magic} works normally on spells and arcane formulae inscribed with stink ink). Using arcane stink ink to inscribe a spell or formula into a book costs +10% of the normal amount ."
 		]
 	},
 	"stink_ink_common": {

@@ -188,7 +188,7 @@
 			"",
 			"**Nothing Is Taboo (Ex):** A reanimated medium doesn't gain the taboo class feature.",
 			"",
-			"**Ease Passage (Su):** At 3rd level, as long as a reanimated medium's body is intact, it's easy for him to return to it. He takes only 1 negative level instead of 2 from raise dead. This ability replaces haunt channeler.",
+			"**Ease Passage (Su):** At 3rd level, as long as a reanimated medium's body is intact, it's easy for him to return to it. He takes only 1 negative level instead of 2 from {spell/raise dead}. This ability replaces haunt channeler.",
 			"",
 			"**Lingering Spirit (Su):** At 5th level, a reanimated medium's spirit lingers for up to 1 round after death before departing if the medium spends 1 point of influence. If the reanimated medium died of hit point damage, healing works on his body during the intervening round and can bring him back to life. Once the spirit departs, the breath of life spell continues to work for 1 additional round, even though the reanimated medium has been dead for more than 1 round. This ability replaces location channel.",
 			"",
@@ -384,7 +384,7 @@
 			"",
 			"This ability replaces shared seance.",
 			"",
-			"**Wendo Tongue (Su):** At 3rd level, an uda wendo can invoke the wendo to commune with nearby spirits for a number of minutes per day equal to his level. These minutes don't need to be used consecutively, but they must be spent in 1-minute increments. The uda wendo can use this ability to speak with corpses (as per speak with dead) at 3rd level, with animals and plants (as per speak with animals or speak with plants) at 5th level, and with humanoids (as per tongues) at 7th level.",
+			"**Wendo Tongue (Su):** At 3rd level, an uda wendo can invoke the wendo to commune with nearby spirits for a number of minutes per day equal to his level. These minutes don't need to be used consecutively, but they must be spent in 1-minute increments. The uda wendo can use this ability to speak with corpses (as per {spell/speak with dead}) at 3rd level, with animals and plants (as per {spell/speak with animals} or {spell/speak with plants}) at 5th level, and with humanoids (as per {spell/tongues}) at 7th level.",
 			"",
 			"This ability replaces haunt channeler, location channel, and connection channel."
 		]

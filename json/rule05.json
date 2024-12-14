@@ -3928,7 +3928,7 @@
 			"",
 			"A creature with temporary negative levels receives a new saving throw to remove the negative level each day. The DC of this save is the same as the effect that caused the negative levels.",
 			"",
-			"Some abilities and spells (such as {spell/raise dead}) bestow permanent level drain on a creature. These are treated just like temporary negative levels, but they do not allow a new save each day to remove them. Level drain can be removed through spells like {spell/restoration}. Permanent negative levels remain after a dead creature is restored to life. A creature whose permanent negative levels equal its Hit Dice cannot be brought back to life through spells like raise dead and resurrection without also receiving a restoration spell, cast the round after it is restored to life."
+			"Some abilities and spells (such as {spell/raise dead}) bestow permanent level drain on a creature. These are treated just like temporary negative levels, but they do not allow a new save each day to remove them. Level drain can be removed through spells like {spell/restoration}. Permanent negative levels remain after a dead creature is restored to life. A creature whose permanent negative levels equal its Hit Dice cannot be brought back to life through spells like {spell/raise dead} and {spell/resurrection} without also receiving a restoration spell, cast the round after it is restored to life."
 		],
 		"parent_topics": [
 			"combat",

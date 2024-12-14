@@ -265,7 +265,7 @@
 			"",
 			"You draw forth the ebbing life force of a dying creature or one that has died in the past round, focusing it through a crystal lens focus to transform into a [soul gem](monster/cacodaemon). If the creature is alive and fails its saving throw, it dies and you capture its soul in the gem. If the creature is dead, it can still resist the spell effect by attempting a Will save as if it were still alive. The value of the soul gem created depends on the nature of the creature it is made from (see below). Soul gems created by this spell crumble to dust once the spell's duration expires, releasing the trapped soul to travel on to judgment in the Great Beyond.",
 			"",
-			"Only one soul gem can be created from a dying creature. Any attempt to resurrect a body whose soul is trapped in a soul gem requires a caster check against create soul gem's save DC. Failure results in the resurrection spell having no effect, while success shatters the target's soul gem and returns the creature to life as normal. If the soul gem resides in an unholy location, such as that created by the unhallow spell, the DC of this check increases by 2. If you are a {prestigeclass/souldrinker}, you can cast this spell and expend 5 soul points to fill the gem with the equivalent of one basic soul.",
+			"Only one soul gem can be created from a dying creature. Any attempt to resurrect a body whose soul is trapped in a soul gem requires a caster check against create soul gem's save DC. Failure results in the {spell/resurrection} spell having no effect, while success shatters the target's soul gem and returns the creature to life as normal. If the soul gem resides in an unholy location, such as that created by the unhallow spell, the DC of this check increases by 2. If you are a {prestigeclass/souldrinker}, you can cast this spell and expend 5 soul points to fill the gem with the equivalent of one basic soul.",
 			"",
 			"### The Value of Souls",
 			"",
@@ -544,7 +544,7 @@
 			"",
 			"You ward an object or an area with your personal rune or mark. You can choose for the writing to be visible or invisible, and it doesn't harm the material upon which it is placed. A detect magic spell causes an invisible mark to glow and be visible. If any creature other than you touches the warded object or area and fails a Fortitude save, its skin turns bright red for 1 hour per level. This coloring cannot be washed away, but it can be dispelled.",
 			"",
-			"See invisibility, true seeing, a gem of seeing, or a robe of eyes likewise allows the user to see an invisible mark. A read magic spell reveals the words, if any. The ward cannot be dispelled, but it can be removed by the caster or by an erase spell."
+			"{spell/See invisibility}, {spell/true seeing}, a {magic-wondrous/gem of seeing}, or a {magic-wondrous/robe of eyes} likewise allows the user to see an invisible mark. A {spell/read magic} spell reveals the words, if any. The ward cannot be dispelled, but it can be removed by the caster or by an {spell/erase} spell."
 		]
 	},
 	"cruel_jaunt": {
@@ -3791,7 +3791,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Fortitude partial; **Spell Resistance** yes",
 			"",
-			"This spell instantly delivers 10 points of damage per caster level. If the spell slays the target, it consumes the remains utterly in holy (or unholy) fire (but not its equipment or possessions). If the target's Fortitude saving throw succeeds, it instead takes 10d6 points of damage. The only way to restore life to a character who has failed to save against this spell (and was slain) is to use true resurrection, a carefully worded wish spell followed by resurrection, or miracle."
+			"This spell instantly delivers 10 points of damage per caster level. If the spell slays the target, it consumes the remains utterly in holy (or unholy) fire (but not its equipment or possessions). If the target's Fortitude saving throw succeeds, it instead takes 10d6 points of damage. The only way to restore life to a character who has failed to save against this spell (and was slain) is to use {spell/true resurrection}, a carefully worded {spell/wish} spell followed by {spell/resurrection}, or {spell/miracle}."
 		]
 	},
 	"detect_aberration": {

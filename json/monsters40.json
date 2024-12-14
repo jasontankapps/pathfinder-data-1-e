@@ -908,7 +908,7 @@
 			"",
 			"**Damage Reduction (Su)** Weapons that are chaotic-, evil-, good-, or lawful-aligned overcome a vespergaunt's damage reduction.",
 			"",
-			"**Siphon Spirit (Su)** Any creature struck by a vespergaunt must succeed at a DC 21 Will save or gain 1 negative level as the vespergaunt rips away a portion of its soul. A divine spellcaster gains an additional negative level with each failed save. A creature killed by this attack disintegrates except for its eyes and strands of brain matter, which become part of the vespergaunt. Only powerful magic such as miracle, true resurrection, or wish can resurrect a creature slain in this manner. The save DC is Charisma-based.",
+			"**Siphon Spirit (Su)** Any creature struck by a vespergaunt must succeed at a DC 21 Will save or gain 1 negative level as the vespergaunt rips away a portion of its soul. A divine spellcaster gains an additional negative level with each failed save. A creature killed by this attack disintegrates except for its eyes and strands of brain matter, which become part of the vespergaunt. Only powerful magic such as {spell/miracle}, {spell/true resurrection}, or {spell/wish} can resurrect a creature slain in this manner. The save DC is Charisma-based.",
 			"",
 			"#### Description",
 			"",

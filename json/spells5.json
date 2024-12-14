@@ -388,7 +388,7 @@
 			"",
 			"This spell functions like glyph of warding, except that a greater blast glyph deals up to 10d8 points of damage, and a greater spell glyph can store a spell of 6th level or lower.",
 			"",
-			"Read magic allows you to identify a greater glyph of warding with a DC 16 Spellcraft check.",
+			"{spell/Read magic} allows you to identify a greater glyph of warding with a DC 16 Spellcraft check.",
 			"",
 			"*Material Component:* You trace the glyph with incense, which must first be sprinkled with powdered diamond worth at least 400 gp."
 		]
@@ -2071,7 +2071,7 @@
 			"**Duration** 1 day/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This potent curse weighs upon the target's soul, hastening a living creature's journey to the Boneyard upon death or weakening an undead creature's animating force. A living creature that dies during the spell's duration cannot be affected by breath of life or similar effects, and the period during which attempts to restore the target to life can succeed is reduced to 1 hour/level (for raise dead), 1 day/level (for resurrection), or 10 days/level (for true resurrection). Reincarnate and similar effects work normally on a creature killed under this spell's effects.",
+			"This potent curse weighs upon the target's soul, hastening a living creature's journey to the Boneyard upon death or weakening an undead creature's animating force. A living creature that dies during the spell's duration cannot be affected by breath of life or similar effects, and the period during which attempts to restore the target to life can succeed is reduced to 1 hour/level (for {spell/raise dead}), 1 day/level (for {spell/resurrection}), or 10 days/level (for {spell/true resurrection}). Reincarnate and similar effects work normally on a creature killed under this spell's effects.",
 			"",
 			"An undead creature affected by this spell cannot gain temporary hit points, and any existing channel resistance the undead may have is reduced by half as long as the curse persists.",
 			"",
@@ -3128,7 +3128,7 @@
 			"",
 			"This spell functions like the spell glyph version of glyph of warding, except you can store a hex you know (but not a major hex or a grand hex) instead of a spell. If the hex has a target, it targets the intruder. If the hex has an area or an amorphous effect, the area or effect is centered on the intruder. The triggered hex uses this spell's caster level and DC.",
 			"",
-			"Read magic allows its caster to identify a hex glyph with a successful DC 13 Knowledge (arcana) check. Identifying the glyph does not discharge it and indicates that it stores a hex, but does not indicate the effect of that hex.",
+			"{spell/Read magic} allows its caster to identify a hex glyph with a successful DC 13 Knowledge (arcana) check. Identifying the glyph does not discharge it and indicates that it stores a hex, but does not indicate the effect of that hex.",
 			"",
 			"### Hex Glyph, Greater",
 			"",
@@ -3149,7 +3149,7 @@
 			"",
 			"This spell functions as hex glyph, except you can store a hex or a major hex (but not a grand hex). You trace the glyph with incense, which must first be sprinkled with powdered diamond (as noted in the material line).",
 			"",
-			"Read magic allows its caster to identify a greater hex glyph with a DC 16 Spellcraft check."
+			"{spell/Read magic} allows its caster to identify a greater hex glyph with a DC 16 Spellcraft check."
 		]
 	},
 	"hex_glyph_greater": {

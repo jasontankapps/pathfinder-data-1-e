@@ -1033,7 +1033,7 @@
 			"",
 			"The greatest strength of recorporeal incarnation is the difficulty of detecting it as a disguise. If subjected to detect magic, the living target sheds no magical aura, though the focus item gives off an aura of strong necromantic magic. True seeing does not reveal the living target's true form, since the corpse's flesh magically obscures it. The spell detect undead and similar effects indicate the living target is an undead creature, but the target is not truly undead, and is not affected by any other effects that target undead creatures. Recorporeal incarnation does not disguise the target's alignment.",
 			"",
-			"If the living target of recorporeal incarnation dies while the spell is in effect, the spell continues. Any raise dead or similar spell cast upon that target resurrects that target, not the corpse flesh. Since recorporeal incarnation destroys the majority of the target corpse's physical remains, the target corpse cannot be restored to life except by miracle, resurrection, true resurrection, or wish. Recorporeal incarnation can be made permanent by a 15th-level caster using permanency with a material component worth 17,500 gp."
+			"If the living target of recorporeal incarnation dies while the spell is in effect, the spell continues. Any {spell/raise dead} or similar spell cast upon that target resurrects that target, not the corpse flesh. Since recorporeal incarnation destroys the majority of the target corpse's physical remains, the target corpse cannot be restored to life except by {spell/miracle}, {spell/resurrection}, {spell/true resurrection}, or {spell/wish}. Recorporeal incarnation can be made permanent by a 15th-level caster using permanency with a material component worth 17,500 gp."
 		]
 	},
 	"red_hand_of_the_killer": {
@@ -3039,7 +3039,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none, see text; **Spell Resistance** yes (harmless)",
 			"",
-			"This spell functions like raise dead, except that you are able to restore life and complete strength to any deceased creature.",
+			"This spell functions like {spell/raise dead}, except that you are able to restore life and complete strength to any deceased creature.",
 			"",
 			"The condition of the remains is not a factor. So long as some small portion of the creature's body still exists, it can be resurrected, but the portion receiving the spell must have been part of the creature's body at the time of death. (The remains of a creature hit by a disintegrate spell count as a small portion of its body.) The creature can have been dead no longer than 10 years per caster level.",
 			"",
@@ -3085,7 +3085,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** none; **Spell Resistance** yes (harmless)",
 			"",
-			"This spell functions as false resurrection except that it calls a belier devil with the young simple template to possess the body and all parts of false resurrection that function like resurrection instead function like true resurrection.",
+			"This spell functions as false resurrection except that it calls a belier devil with the young simple template to possess the body and all parts of false resurrection that function like resurrection instead function like {spell/true resurrection}.",
 			"",
 			"Attempts to identify greater false resurrection with a skill check incorrectly identify it as true resurrection (see the {spelldef/ruse} descriptor). A fooled viewer mistakes greater false resurrection's aura as the lingering aura of an instantaneous conjuration effect."
 		]

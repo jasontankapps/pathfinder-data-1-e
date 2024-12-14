@@ -30,6 +30,7 @@ div.search div.searchResult a h3 {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	max-width: 100%;
 }
 div.search div.searchResult a h4 {
 	color: var(--ion-text-color);

@@ -339,7 +339,7 @@
 			"",
 			"- Magical effects that heal living creatures slow a bone golem (as the slow spell) for 1d4 rounds (no save).",
 			"- A magical attack that deals negative energy damage breaks any slow effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal. If the healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A bone golem gets no saving throw against attacks that deal negative energy damage.",
-			"- A raise dead, resurrection, or true resurrection spell negates its DR and immunity to magic for 1 minute.",
+			"- A {spell/raise dead}, {spell/resurrection}, or {spell/true resurrection} spell negates its DR and immunity to magic for 1 minute.",
 			"",
 			"#### Description",
 			"",
@@ -658,7 +658,7 @@
 			"",
 			"A clay golem's body must be sculpted from a single block of clay weighing at least 1,000 pounds, treated with rare oils and powders worth 1,500 gp.",
 			"",
-			"**CL** 11th; **Price** 41,500 gp; **Requirements** Craft Construct, animate objects, bless, commune, prayer, resurrection, creator must be caster level 11th; Skill Craft (sculptures) or Craft (pottery) DC 16; **Cost** 21,500 gp"
+			"**CL** 11th; **Price** 41,500 gp; **Requirements** Craft Construct, animate objects, bless, commune, prayer, {spell/resurrection}, creator must be caster level 11th; Skill Craft (sculptures) or Craft (pottery) DC 16; **Cost** 21,500 gp"
 		]
 	},
 	"golem_clay": { "copyof": "golem_clay_golem" },
@@ -2398,7 +2398,7 @@
 			"",
 			"**CL** 11th; **Price** 48,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, bless, commune, prayer, resurrection, searing light, true seeing, creator must be caster level 11th; Skill Craft (pottery) or Craft (sculpture) DC 16; **Cost** 28,500 gp",
+			"**Requirements** Craft Construct, animate objects, bless, commune, prayer, {spell/resurrection}, searing light, true seeing, creator must be caster level 11th; Skill Craft (pottery) or Craft (sculpture) DC 16; **Cost** 28,500 gp",
 			"",
 			"### Variant Panthereons",
 			"",
@@ -2558,7 +2558,7 @@
 			"**Immunity to Magic (Ex)** A quintessence golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.",
 			"",
 			"- A plane shift spell allows the golem's DR to be bypassed by an aligned weapon (evil, chaos, good, or law; determined randomly) for 2d4 rounds, with no save.",
-			"- A resurrection or true resurrection spell negates a quintessence golem's energy drain and soul siphon abilities for 2d4 rounds. When cast in this way, resurrection and true resurrection do not require expensive material components.",
+			"- A {spell/resurrection} or {spell/true resurrection} spell negates a quintessence golem's energy drain and soul siphon abilities for 2d4 rounds. When cast in this way, resurrection and true resurrection do not require expensive material components.",
 			"",
 			"**Powerful Blows (Ex)** A quintessence golem adds 1-1/2 times its Strength bonus to damage rolls for its slam attacks.",
 			"",
