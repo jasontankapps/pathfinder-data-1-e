@@ -2180,7 +2180,7 @@
 			"**Element** earth; **Type** utility (Su); **Level** 3; **Burn** 0  ",
 			"**Prerequisite** metal blast",
 			"",
-			"You have used your power over metal to add clockwork components to your own body. So long as these clockwork components are kept wound (per the [winding ability of the clockwork subtype](subtype/clockwork)), you gain the benefits of both the {feat/Improved Initiative} and {feat/Lightning Reflexes} feats."
+			"You have used your power over metal to add clockwork components to your own body. So long as these clockwork components are kept wound (per the {subtype/winding ability of the |clockwork/ subtype}), you gain the benefits of both the {feat/Improved Initiative} and {feat/Lightning Reflexes} feats."
 		]
 	},
 	"clockwork_puppet": {
@@ -3484,7 +3484,7 @@
 			"**Element** earth; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
 			"**Prerequisite** metal blast",
 			"",
-			"You shape metal into a clockwork creature, as {kinetic/spark of life} except you summon a clockwork earth elemental. The elemental's type is changed to construct (clockwork) and it gains construct traits and [clockwork traits](subtype/clockwork) instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the {kinetic/greater elemental whispers} utility wild talent, you can take a {monster/clockwork familiar} as an improved familiar with that ability instead of an earth elemental."
+			"You shape metal into a clockwork creature, as {kinetic/spark of life} except you summon a clockwork earth elemental. The elemental's type is changed to construct (clockwork) and it gains construct traits and {subtype/clockwork/ traits} instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the {kinetic/greater elemental whispers} utility wild talent, you can take a {monster/clockwork familiar} as an improved familiar with that ability instead of an earth elemental."
 		]
 	},
 	"spark_of_life": {

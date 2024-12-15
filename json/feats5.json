@@ -3091,7 +3091,7 @@
 			"Your fists are weapons of mind-devouring madness.  ",
 			"**Prerequisites:** Wis 17, Cha 13, {feat/Improved Unarmed Strike}, Maddening Style, {feat/Stunning Fist}, Knowledge (arcana) 8 ranks, ki pool class feature, nongood alignment.  ",
 			"**Benefit:** As a swift action, you can spend 1 point from your ki pool to imbue the next unarmed strike you make on this turn with the maddening power of the spaces between the stars. If that attack doesn't hit, you take 2 points of Wisdom damage. If the attack hits, your opponent takes damage from your unarmed strike + 1d4+1 points of Wisdom damage. A successful Will save (DC = 10 + 1/2 your character level + your Wisdom modifier) reduces this to 2 points of Wisdom damage.  ",
-			"**Special:** If you are using the [sanity system](rule/sanity), when you miss with a Maddening Strike, you take 4 points of sanity damage. If you hit, the target takes damage from the unarmed strike plus 8 points of sanity damage (or 4 points of sanity damage on a successful Will save)."
+			"**Special:** If you are using the {rule/sanity/ system}, when you miss with a Maddening Strike, you take 4 points of sanity damage. If you hit, the target takes damage from the unarmed strike plus 8 points of sanity damage (or 4 points of sanity damage on a successful Will save)."
 		]
 	},
 	"maddening_style": {
@@ -3105,7 +3105,7 @@
 			"When you clobber an opponent with your fists, you inundate its mind with visions of madness and horror.  ",
 			"**Prerequisites:** Wis 15, Cha 11, {feat/Improved Unarmed Strike}, {feat/Stunning Fist}, Knowledge (arcana) 4 ranks, ki pool class feature, nongood alignment.  ",
 			"**Benefit:** You gain one additional use of Stunning Fist per day. When using this style, if you have at least 1 point in your ki pool, you increase the DCs of your confusion, madness, and insanity effects (including Maddening Strike) by 1. Additionally, when you successfully stun an opponent with your Stunning Fist attack, your target takes 1 point of Wisdom damage.  ",
-			"**Special:** If you are using the [sanity system](rule/sanity), when you successfully stun an opponent with your Stunning Fist attack, the target takes 1d4 points of sanity damage instead of 1 point of Wisdom damage."
+			"**Special:** If you are using the {rule/sanity/ system}, when you successfully stun an opponent with your Stunning Fist attack, the target takes 1d4 points of sanity damage instead of 1 point of Wisdom damage."
 		]
 	},
 	"mage_of_the_wild": {
@@ -3827,7 +3827,7 @@
 			"{SOURCE Familiar Folio/19}",
 			"",
 			"Your familiar can bond with many creatures.  ",
-			"**Prerequisites:** Must have a familiar with the mascot archetype.  ",
+			"**Prerequisites:** Must have a familiar with the {archetype-familiar/mascot} archetype.  ",
 			"**Benefit:** The maximum number of team members your familiar can have increases by two."
 		]
 	},
@@ -4157,7 +4157,7 @@
 			"{SOURCE Familiar Folio/19}",
 			"",
 			"Your familiar is harder to kill than most.  ",
-			"**Prerequisites:** Must have a familiar with the mauler archetype.  ",
+			"**Prerequisites:** Must have a familiar with the {archetype-familiar/mauler} archetype.  ",
 			"**Benefit:** Your familiar gains 2 hit points per level you possess."
 		]
 	},

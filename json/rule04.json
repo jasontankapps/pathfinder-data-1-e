@@ -2083,7 +2083,7 @@
 			"",
 			"The Spell Resistance entry and the descriptive text of a spell description tell you whether spell resistance protects creatures from the spell. In many cases, spell resistance applies only when a resistant creature is targeted by the spell, not when a resistant creature encounters a spell that is already in place.",
 			"",
-			"The terms \"object\" and \"harmless\" mean the same thing for spell resistance as they do for [saving throws](rule/saving_throw). A creature with spell resistance must voluntarily lower the resistance (a standard action) in order to be affected by such spells without forcing the caster to make a caster level check."
+			"The terms \"object\" and \"harmless\" mean the same thing for spell resistance as they do for {rule/saving throw/s}. A creature with spell resistance must voluntarily lower the resistance (a standard action) in order to be affected by such spells without forcing the caster to make a caster level check."
 		],
 		"parent_topics": [
 			"basics",

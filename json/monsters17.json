@@ -894,7 +894,7 @@
 			"{SOURCE Undead Revisited/31}  ",
 			"A mohrg is as much a product of the method of its execution as it is an undead manifestation of one who, in life, was a murderous criminal or warmonger. At times, unusual methods of execution can trigger equally unusual mohrgs. The extreme nature of these executions are such that these variant mohrgs are only rarely created by accident; more often, they are deliberate creations by officials who themselves dabble in necromancy and may in fact be as vile as those they put to death.",
 			"",
-			"**Desert Mohrg (+0 CR):** A desert mohrg rises from a violent criminal who has been executed via torturous means in arid, hot environments, typically methods designed to kill through exposure and draw out the criminal's expiration. Being affixed to a rock, tree, or other object and being buried up to the neck and left to bake in the sun are both methods that can result in the creation of desert mohrgs. A desert mohrg looks leathery and dry, not moist, but has the same statistics as a typical mohrg. Spawn created by a desert mohrg rise as [burning skeletons](template/skeleton) rather than fast zombies.",
+			"**Desert Mohrg (+0 CR):** A desert mohrg rises from a violent criminal who has been executed via torturous means in arid, hot environments, typically methods designed to kill through exposure and draw out the criminal's expiration. Being affixed to a rock, tree, or other object and being buried up to the neck and left to bake in the sun are both methods that can result in the creation of desert mohrgs. A desert mohrg looks leathery and dry, not moist, but has the same statistics as a typical mohrg. Spawn created by a desert mohrg rise as {template/burning |skeleton/s} rather than fast zombies.",
 			"",
 			"**Fleshwalker Mohrg (+0 CR):** When a criminal is executed through methods that leave no physical mark upon the body (such as by poison or a death effect), and then the corpse is preserved via a {spell/gentle repose} spell, a fleshwalker mohrg is the result. While these mohrgs function as normal mohrgs, their flesh does not decay; further castings of gentle repose are unnecessary. Only upon close inspection (whereupon one might notice a faint underlying charnel stench, or might note the lack of breathing with a DC 30 Perception check) or in combat (when the creature's hideous tongue extrudes from its mouth) is the truth apparent.",
 			"",
@@ -1084,7 +1084,7 @@
 			"",
 			"#### Description",
 			"",
-			"While they are usually reclusive and aren't actively malevolent, moldwretches often come into conflict with adventurers who clear away patches of mold during dungeon exploration. They get along well with vegepygmies, but loathe and fear [fungus queens](monster/fungus_queen). A moldwretch is only 3 feet tall but is very dense and weighs 120 pounds."
+			"While they are usually reclusive and aren't actively malevolent, moldwretches often come into conflict with adventurers who clear away patches of mold during dungeon exploration. They get along well with vegepygmies, but loathe and fear {monster/fungus queen/s}. A moldwretch is only 3 feet tall but is very dense and weighs 120 pounds."
 		]
 	},
 	"mome_rath": {

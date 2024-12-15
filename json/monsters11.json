@@ -1633,7 +1633,7 @@
 			"",
 			"### Ghast",
 			"",
-			"Ghasts are ghouls with the [advanced monster](template/advanced) template. A ghast's paralysis even affects elves. Ghasts roam in packs of their own kind or lead groups of common ghouls. The stink of death and corruption surrounding these creatures is overwhelming, granting them the stench extraordinary ability (10-foot radius, Fort DC 15 negates, sickened for 1d6+4 minutes).",
+			"Ghasts are ghouls with the {template/advanced/ monster} template. A ghast's paralysis even affects elves. Ghasts roam in packs of their own kind or lead groups of common ghouls. The stink of death and corruption surrounding these creatures is overwhelming, granting them the stench extraordinary ability (10-foot radius, Fort DC 15 negates, sickened for 1d6+4 minutes).",
 			"",
 			"### Lacedon",
 			"",
@@ -3317,9 +3317,9 @@
 			"",
 			"#### Description",
 			"",
-			"There are certain evil fungal creatures (such as [fungus queens](monster/fungus_queen), but also rare fungal growths or extraplanar blights upon the wild) that can infest vermin with spores that have been infused with sinister power and negative energy. These foul spores grow quickly in the body of a dead vermin, eventually bursting from its head to form disturbing, antler-like growths. At the same time, the spores animate the vermin as an intelligent undead creature.",
+			"There are certain evil fungal creatures (such as {monster/fungus queen/s}, but also rare fungal growths or extraplanar blights upon the wild) that can infest vermin with spores that have been infused with sinister power and negative energy. These foul spores grow quickly in the body of a dead vermin, eventually bursting from its head to form disturbing, antler-like growths. At the same time, the spores animate the vermin as an intelligent undead creature.",
 			"",
-			"These are then known as [spore zombies](template/spore_zombie)."
+			"These are then known as {template/spore zombie/s}."
 		]
 	},
 	"giant_belostomatid": {

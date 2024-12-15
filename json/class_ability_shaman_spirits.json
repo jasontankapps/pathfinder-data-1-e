@@ -79,7 +79,7 @@
 			"",
 			"**Greater Spirit Ability:** A shaman who chooses the Battle spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.",
 			"",
-			">*Enemies' Bane (Su):* As a swift action, the shaman imbues a single weapon she's wielding with the [bane weapon](magic-enhancement/bane) special ability, choosing the type of creature affected each time she does. The effect lasts for 1 minute. If the weapon already has the bane weapon special ability of the type chosen, the additional damage dealt by bane increases to 4d6. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.",
+			">*Enemies' Bane (Su):* As a swift action, the shaman imbues a single weapon she's wielding with the {magic-enhancement/bane/ weapon} special ability, choosing the type of creature affected each time she does. The effect lasts for 1 minute. If the weapon already has the bane weapon special ability of the type chosen, the additional damage dealt by bane increases to 4d6. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier.",
 			"",
 			"**True Spirit Ability:** A shaman who chooses the Battle spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.",
 			"",
@@ -750,7 +750,7 @@
 			"",
 			">*Tree Form (Sp):* As a standard action, the shaman can assume the form of a plant creature as per [plant shape III](spell/plant_shape_3) with a duration of 1 hour per level. She can use this ability once per day.",
 			"",
-			"**Manifestation:** Upon reaching 20th level, the shaman becomes a living creature of wood. She is forevermore treated as a [plant creature](type/plant) rather than her original creature type for the purposes of spells and magical effects. Her skin takes on the appearance of polished wood grain, and she gains a +4 natural armor bonus to her Armor Class and damage reduction 10/- against wooden weapons and the natural attacks of wooden and wood-like creatures. She gains immunity to paralysis, poison, polymorph, sleep, and stun. At will, the shaman can meld with any tree or single block of wood (as per {spell/meld into stone}, except she can meld only with wood and has no limit on how long she can remain in the wood)."
+			"**Manifestation:** Upon reaching 20th level, the shaman becomes a living creature of wood. She is forevermore treated as a {type/plant/ creature} rather than her original creature type for the purposes of spells and magical effects. Her skin takes on the appearance of polished wood grain, and she gains a +4 natural armor bonus to her Armor Class and damage reduction 10/- against wooden weapons and the natural attacks of wooden and wood-like creatures. She gains immunity to paralysis, poison, polymorph, sleep, and stun. At will, the shaman can meld with any tree or single block of wood (as per {spell/meld into stone}, except she can meld only with wood and has no limit on how long she can remain in the wood)."
 		]
 	}
 }

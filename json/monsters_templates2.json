@@ -576,7 +576,7 @@
 			"",
 			"\"Mythic vampire\" is an acquired template that can be added to any creature with the {template/vampire/ template} (referred to hereafter as the base vampire). A mythic vampire uses the base vampire's stats and abilities except as noted here.",
 			"",
-			"**Mythic Subtype:** A mythic vampire gains the [mythic subtype](subtype/mythic), with a rank equal to half the CR of the base vampire. A mythic vampire gains additional abilities depending on the base vampire's CR instead of the mythic abilities it would get for having a rank. The mythic vampire gains all other benefits of having the mythic subtype: ability score bonuses, bonus hit points, mythic feats, mythic power, natural armor bonus, and spell resistance increase (if any).",
+			"**Mythic Subtype:** A mythic vampire gains the {subtype/mythic/ subtype}, with a rank equal to half the CR of the base vampire. A mythic vampire gains additional abilities depending on the base vampire's CR instead of the mythic abilities it would get for having a rank. The mythic vampire gains all other benefits of having the mythic subtype: ability score bonuses, bonus hit points, mythic feats, mythic power, natural armor bonus, and spell resistance increase (if any).",
 			"",
 			"**CR:** Adjust the base vampire's CR according to its mythic rank (this template doesn't increase the base vampire's CR other than from the mythic rank). Note that a mythic vampire's abilities on Table 6-2 depend on the base vampire's CR, not the final CR of the mythic vampire.",
 			"",
@@ -1440,7 +1440,7 @@
 			"",
 			"**Special Quality:** A rampant creatures gain the following special quality.",
 			"",
-			"**Verdant Genesis (Su):** Every week, a group of living plants within 1 mile of the rampant creature grows into new plant creatures with total combined Hit Dice no higher than the rampant creature's total Hit Dice. For instance, a rampant {monster/quickwood} with 10 HD could create two 4 HD [assassin vines](monster/assassin_vine) and two 1 HD [vegepygmies](monster/vegepygmy). These new creatures are not under the rampant creature's command. These new creatures each take 1 permanent negative level for each full day they spend more than 1 mile from the rampant creature that spawned them. A rampant creature cannot suppress its verdant genesis ability."
+			"**Verdant Genesis (Su):** Every week, a group of living plants within 1 mile of the rampant creature grows into new plant creatures with total combined Hit Dice no higher than the rampant creature's total Hit Dice. For instance, a rampant {monster/quickwood} with 10 HD could create two 4 HD {monster/assassin vine/s} and two 1 HD [vegepygmies](monster/vegepygmy). These new creatures are not under the rampant creature's command. These new creatures each take 1 permanent negative level for each full day they spend more than 1 mile from the rampant creature that spawned them. A rampant creature cannot suppress its verdant genesis ability."
 		]
 	},
 	"ranger": {
@@ -2543,7 +2543,7 @@
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
 			"",
-			"There are certain evil fungal creatures (such as [fungus queens](monster/fungus_queen), but also rare fungal growths or extraplanar blights upon the wild) that can infest vermin with spores that have been infused with sinister power and negative energy. These foul spores grow quickly in the body of a dead vermin, eventually bursting from its head to form disturbing, antler-like growths. At the same time, the spores animate the vermin as an intelligent undead creature.",
+			"There are certain evil fungal creatures (such as {monster/fungus queen/s}, but also rare fungal growths or extraplanar blights upon the wild) that can infest vermin with spores that have been infused with sinister power and negative energy. These foul spores grow quickly in the body of a dead vermin, eventually bursting from its head to form disturbing, antler-like growths. At the same time, the spores animate the vermin as an intelligent undead creature.",
 			"",
 			"These are then known as spore zombies.",
 			"",

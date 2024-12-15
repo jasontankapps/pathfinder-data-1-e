@@ -501,7 +501,7 @@
 			"",
 			"***Step 3-Begin New Downtime Activity:*** If you aren't continuing an earlier downtime activity, or are continuing one that doesn't restrict you from starting a new activity, you can begin a new downtime activity. [The list of downtime activities can be found here](rule/downtime_activities).",
 			"",
-			"Example: Patrick's character has been crafting a [wand of fireball](spell/fireball), but had to interrupt the process just short of completion to have a short adventure that didn't give him any time to work on the item. When he returns to town and begins a downtime session, he sells some loot in Step 1 (which doesn't use any downtime days), then proceeds to Step 2. In Step 2, he decides to spend downtime finishing the work on the wand, which takes him 1 day of downtime. The next day, he has no ongoing downtime activities, so he proceeds to Step 3 and starts spending Influence to recruit an Apprentice wizard."
+			"Example: Patrick's character has been crafting a {spell/wand of |fireball}, but had to interrupt the process just short of completion to have a short adventure that didn't give him any time to work on the item. When he returns to town and begins a downtime session, he sells some loot in Step 1 (which doesn't use any downtime days), then proceeds to Step 2. In Step 2, he decides to spend downtime finishing the work on the wand, which takes him 1 day of downtime. The next day, he has no ongoing downtime activities, so he proceeds to Step 3 and starts spending Influence to recruit an Apprentice wizard."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -1727,7 +1727,7 @@
 			"",
 			"A room can be as simple as a 10-foot-by-10-foot area surrounded by wooden walls, or as complex as a stone-walled guard tower with a heavy wooden gate. A team can be as simple as a few beggars or pickpockets, as skilled as a group of acolytes trained in the healing arts, or as dangerous as a band of veteran mercenary soldiers. The details of the room or team are left vague to allow you greater versatility; they provide the game mechanics for your building or organization, but you decide the layout or hierarchy that suits your aesthetics.",
 			"",
-			"Each room and team costs one or more kinds of [capital](rule/gaining_capital) (gp, Goods, Influence, Labor, or Magic). When you construct a building or create an organization, determine what rooms or teams you want, add up the gp, Goods, Influence, Labor, and Magic prices for these rooms, and spend that capital to begin construction or start recruiting. A [list of rooms begins here](rule/rooms) and a [list of teams here](rule/teams).",
+			"Each room and team costs one or more kinds of [capital](rule/gaining_capital) (gp, Goods, Influence, Labor, or Magic). When you construct a building or create an organization, determine what rooms or teams you want, add up the gp, Goods, Influence, Labor, and Magic prices for these rooms, and spend that capital to begin construction or start recruiting. A {rule/list of |rooms/ begins here} and a {rule/list of |teams/ here}.",
 			"",
 			"***Constructing Buildings from Rooms:*** If you are [constructing a building](rule/buildings), you can connect these rooms in any way you see fit using normal doors and hallways, or fit them together without interior partitions into a large common space. Unless otherwise stated, each room includes a floor, ceiling, walls, furniture, doors, windows, and other details that are appropriate to the room's purpose in your building.",
 			"",
@@ -1850,7 +1850,7 @@
 			"",
 			"If a team doesn't have a Time price, spending capital to recruit that team doesn't count as a downtime action.",
 			"",
-			"Note that the Time prices for teams are for recruiting the team for long-term employment and don't reflect the availability of these kinds of NPCs for temporary work. For example, if you need to hire a 3rd-level cleric to cast {spell/lesser restoration}, you don't have to spend 7 days of downtime recruiting a Priest team - you can just make the [standard spellcasting arrangements](equipment-misc/spellcasting).",
+			"Note that the Time prices for teams are for recruiting the team for long-term employment and don't reflect the availability of these kinds of NPCs for temporary work. For example, if you need to hire a 3rd-level cleric to cast {spell/lesser restoration}, you don't have to spend 7 days of downtime recruiting a Priest team - you can just make the {equipment-misc/standard |spellcasting/ arrangements}.",
 			"",
 			"***Size:*** If the unit is a room, this entry indicates a range of how many 5-foot squares are needed for a standard room of its type. For example, a Kitchen is 2-6 5-foot squares. If you need a larger room of this type, construct two rooms and join them. If you need a smaller room of this size, you can make it that smaller size for free. For example, if you only need a 5-foot-square Kitchen, you can construct one at the listed price, even though the smallest size listed is 2 5-foot squares.",
 			"",

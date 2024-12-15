@@ -782,7 +782,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
 			"",
-			"Under the core rules, multiclassing can lead to a wide disparity in character ability. With this system, each character can choose a secondary class at 1st level that she trains in throughout her career, without giving up levels in her primary class. Once selected, this choice is permanent (though if using the [retraining rules](rule/retraining), the secondary class can be retrained by paying half the cost of retraining all her class levels). A character who selects this option doesn't gain feats at 3rd, 7th, 11th, 15th, and 19th levels, but instead gains class features from her secondary class as described on Table 2-8: Multiclass Character Advancement. It is probably a good idea to use either this variant system or normal multiclassing, but it's possible for the two systems to be used together. In a game using both systems, a character can't take levels in the secondary class she gains from this variant.",
+			"Under the core rules, multiclassing can lead to a wide disparity in character ability. With this system, each character can choose a secondary class at 1st level that she trains in throughout her career, without giving up levels in her primary class. Once selected, this choice is permanent (though if using the {rule/retraining/ rules}, the secondary class can be retrained by paying half the cost of retraining all her class levels). A character who selects this option doesn't gain feats at 3rd, 7th, 11th, 15th, and 19th levels, but instead gains class features from her secondary class as described on Table 2-8: Multiclass Character Advancement. It is probably a good idea to use either this variant system or normal multiclassing, but it's possible for the two systems to be used together. In a game using both systems, a character can't take levels in the secondary class she gains from this variant.",
 			"",
 			"### Table 2-8: Multiclass Character Advancement",
 			"",
@@ -1940,7 +1940,7 @@
 			"",
 			"Many spells and effects rely on alignment, such as {spell/detect evil}, {magic-enhancement/holy} weapons, and {spell/blasphemy}. Below are five suggested options for dealing with these abilities.",
 			"",
-			"***Full Removal:*** You can remove alignment-based spells and effects entirely. Consider replacing monster spell-like abilities with others of similar power. You'll need to replace other abilities that affect creatures of particular alignments (such as the heavenly fire ability of a sorcerer with the [celestial bloodline](sorcererbloodline/celestial)) or restrict character options to avoid such abilities.",
+			"***Full Removal:*** You can remove alignment-based spells and effects entirely. Consider replacing monster spell-like abilities with others of similar power. You'll need to replace other abilities that affect creatures of particular alignments (such as the heavenly fire ability of a sorcerer with the {sorcererbloodline/celestial/ bloodline}) or restrict character options to avoid such abilities.",
 			"",
 			"***Aligned Loyalties:*** You can allow alignment-based effects to instead apply to characters who have loyalties to the concepts of chaos, evil, good, or law (or any concept close enough).",
 			"",

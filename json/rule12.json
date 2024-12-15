@@ -523,7 +523,7 @@
 		"description": [
 			"{SOURCE Pathfinder RPG Bestiary/292}",
 			"",
-			"Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at [existing monsters](main/monsters). Monsters should use abilities from the [Universal Monster Rules](main/umr) whenever possible, instead of creating new yet similar abilities - when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.",
+			"Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at {main/existing |monsters}. Monsters should use abilities from the [Universal Monster Rules](main/umr) whenever possible, instead of creating new yet similar abilities - when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.",
 			"",
 			"Most special abilities that cause damage, such as breath weapons, give a save (Fortitude, Reflex, or Will depending on the ability). The DC for almost all special abilities is equal to 10 + 1/2 the creature's Hit Dice + a relevant ability modifier (usually Constitution or Charisma depending on the ability). Special abilities that add to melee and ranged attacks generally do not allow a save, as they rely on the attacks hitting to be useful.",
 			"",

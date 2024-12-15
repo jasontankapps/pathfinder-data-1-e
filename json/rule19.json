@@ -1122,7 +1122,7 @@
 		"description": [
 			"{SOURCE Ultimate Magic/128}",
 			"",
-			"It is essential for you to understand the terminology used in the game to describe spells and the effects they can create. Before designing a new spell, familiarize yourself with [the magic rules](rule/magic). In particular, be sure you understand the various [schools and subschools](rule/school_subschool) and the [spell stat block categories](rule/spell_descriptions) (components, range, and so on).",
+			"It is essential for you to understand the terminology used in the game to describe spells and the effects they can create. Before designing a new spell, familiarize yourself with {rule/the |magic/ rules}. In particular, be sure you understand the various [schools and subschools](rule/school_subschool) and the [spell stat block categories](rule/spell_descriptions) (components, range, and so on).",
 			"",
 			"The following sections address aspects of spell design in order of their importance and relevance to making a balanced spell. For example, the components of a spell have very little to do with its power level unless an expensive focus or material component is involved, so components are discussed well after damage, range, duration, and saving throws.",
 			"",
@@ -1857,9 +1857,9 @@
 		"description": [
 			"{SOURCE Ultimate Campaign/170}",
 			"",
-			"If you need another character to supply one of an item's requirements (such as if you're a wizard creating an item with a divine spell), both you and the other character must be present for the entire duration of the crafting process. If the GM is using the [downtime system](rule/downtime), both you and the other character must use downtime at the same time for this purpose. Only you make the skill check to complete the item - or, if there is a chance of creating a cursed item, the GM makes the check in secret.",
+			"If you need another character to supply one of an item's requirements (such as if you're a wizard creating an item with a divine spell), both you and the other character must be present for the entire duration of the crafting process. If the GM is using the {rule/downtime/ system}, both you and the other character must use downtime at the same time for this purpose. Only you make the skill check to complete the item - or, if there is a chance of creating a cursed item, the GM makes the check in secret.",
 			"",
-			"If the second character is providing a spell effect, that character's spell is expended for the day, just as if you were using one of your own spells for a requirement. If the second character is a hired NPC, you must pay for the NPC's [spellcasting service](equipment-misc/spellcasting) for each day of the item creation."
+			"If the second character is providing a spell effect, that character's spell is expended for the day, just as if you were using one of your own spells for a requirement. If the second character is a hired NPC, you must pay for the NPC's {equipment-misc/spellcasting/ service} for each day of the item creation."
 		],
 		"parent_topics": [
 			"advanced_magic_topics",
@@ -2013,7 +2013,7 @@
 			"",
 			"The expectation in a standard campaign is that the PCs go on quests to fighting monsters and collect treasure. In other words, you aren't supposed to stay at home, work at day jobs, and earn wages instead of adventuring. The game mechanics reinforce this by only allowing you to sell items for half their normal price because it assumes selling them to an NPC shopkeeper, so even if you craft a [bag of holding](magic-wondrous/bag_of_holding_type_1), you can't sell it yourself for full price because you don't have your own store to sell it in. This prevents you from profiting by crafting an item (and paying half the price to do so) and selling it for the full market price.",
 			"",
-			"However, the [downtime system](rule/downtime) allows you to build a business such as a tavern or even a magic shop, and earn money from that business while you're away adventuring. You might want to use an appropriate business to sell crafted items for more than half price, but the downtime system already accounts for using a building to generate money, as well as spending personal time helping run the business (see {rule/Run a Business}). A typical magic shop earns about 3 gp per day, or perhaps 4-5 gp per day if a skilled owner PC directly participates in running the business. Because magic items are very expensive (with the most common potions costing 50 gp or more, far higher than what most commoners can afford), this income represents many days where the business sells nothing, followed by selling one or two high-priced items, which averages out to a few gp of profit per day. In other words, just because you can craft one +1 longsword each day doesn't mean you're likely to sell one each day in your shop. The GM has two options for resolving this mercantile dilemma.",
+			"However, the {rule/downtime/ system} allows you to build a business such as a tavern or even a magic shop, and earn money from that business while you're away adventuring. You might want to use an appropriate business to sell crafted items for more than half price, but the downtime system already accounts for using a building to generate money, as well as spending personal time helping run the business (see {rule/Run a Business}). A typical magic shop earns about 3 gp per day, or perhaps 4-5 gp per day if a skilled owner PC directly participates in running the business. Because magic items are very expensive (with the most common potions costing 50 gp or more, far higher than what most commoners can afford), this income represents many days where the business sells nothing, followed by selling one or two high-priced items, which averages out to a few gp of profit per day. In other words, just because you can craft one +1 longsword each day doesn't mean you're likely to sell one each day in your shop. The GM has two options for resolving this mercantile dilemma.",
 			"",
 			"***Use the Downtime System:*** This is the simplest solution, and assumes you are spending downtime running the business rather than crafting specific items.",
 			"",
@@ -2267,7 +2267,7 @@
 			"",
 			"**Animal Companions** {druidcompanion/badger}, {druidcompanion/bear}, {druidcompanion/capybara}, {druidcompanion/cheetah}, {druidcompanion/digmaul}, {druidcompanion/dire polar bear}, {druidcompanion/dire rat}, {druidcompanion/dog}, {druidcompanion/giant mole}, {druidcompanion/giant porcupine}, {druidcompanion/giant skunk}, {druidcompanion/giant weasel}, {druidcompanion/goblin dog}, {druidcompanion/grizzly bear}, {druidcompanion/hyena}, {druidcompanion/leopard}, {druidcompanion/lion}, {druidcompanion/marsupial devil}, {druidcompanion/marsupial lion}, {druidcompanion/panda}, {druidcompanion/polar bear}, {druidcompanion/saber-toothed cat}, {druidcompanion/thylacine}, {druidcompanion/tiger}, {druidcompanion/wolf}, {druidcompanion/wolfdog}, {druidcompanion/wolverine}",
 			"",
-			"**Familiars** [arctic fox](monster/fox), {monster/arctic hare}, {monster/armadillo}, {monster/cat}, {monster/donkey rat}, [ermine](monster/weasel) (uses weasel stats), {monster/flying fox}, {monster/flying squirrel}, {monster/fox}, {monster/hedgehog}, {monster/jerboa}, {monster/koala}, {monster/lemming}, {monster/margay cat}, {monster/meerkat}, [mole](monster/mole_ff) (FF version), [mole](monster/mole_uw) (UW version), [mongoose](monster/weasel) (uses weasel stats), {monster/otter}, {monster/platypus}, {monster/rabbit}, {monster/raccoon}, {monster/rat}, {monster/red panda}, {monster/sloth}, {monster/squirrel}, {monster/weasel}",
+			"**Familiars** {monster/arctic |fox}, {monster/arctic hare}, {monster/armadillo}, {monster/cat}, {monster/donkey rat}, [ermine](monster/weasel) (uses weasel stats), {monster/flying fox}, {monster/flying squirrel}, {monster/fox}, {monster/hedgehog}, {monster/jerboa}, {monster/koala}, {monster/lemming}, {monster/margay cat}, {monster/meerkat}, [mole](monster/mole_ff) (FF version), [mole](monster/mole_uw) (UW version), [mongoose](monster/weasel) (uses weasel stats), {monster/otter}, {monster/platypus}, {monster/rabbit}, {monster/raccoon}, {monster/rat}, {monster/red panda}, {monster/sloth}, {monster/squirrel}, {monster/weasel}",
 			"",
 			"### Quadruped (Hooves)",
 			"",
@@ -2281,7 +2281,7 @@
 			"",
 			"**Available Slots** armor, eyes, head, headband, neck, shoulders",
 			"",
-			"**Animal Companions** {druidcompanion/alligator}, {druidcompanion/archelon}, {druidcompanion/crocodile}, {druidcompanion/dimetrodon}, {druidcompanion/elasmosaurus}, {druidcompanion/frog father}, {druidcompanion/giant chameleon}, {druidcompanion/giant frilled lizard}, [giant frog](druidcompanion/frog), {druidcompanion/giant gecko}, {druidcompanion/giant salamander}, {druidcompanion/giant snapping turtle}, {druidcompanion/glyptodon}, {druidcompanion/goliath frog}, {druidcompanion/kaprosuchus}, {druidcompanion/megalania}, {druidcompanion/monitor lizard}, {druidcompanion/prionosuchus}, [tortoise](druidcompanion/giant_tortoise)",
+			"**Animal Companions** {druidcompanion/alligator}, {druidcompanion/archelon}, {druidcompanion/crocodile}, {druidcompanion/dimetrodon}, {druidcompanion/elasmosaurus}, {druidcompanion/frog father}, {druidcompanion/giant chameleon}, {druidcompanion/giant frilled lizard}, {druidcompanion/giant |frog}, {druidcompanion/giant gecko}, {druidcompanion/giant salamander}, {druidcompanion/giant snapping turtle}, {druidcompanion/glyptodon}, {druidcompanion/goliath frog}, {druidcompanion/kaprosuchus}, {druidcompanion/megalania}, {druidcompanion/monitor lizard}, {druidcompanion/prionosuchus}, [tortoise](druidcompanion/giant_tortoise)",
 			"",
 			"**Familiars** {monster/dwarf caiman}, {monster/fire salamander}, {monster/horned lizard}, {monster/lizard}, [marine iguana](monster/familiar_dwarf_caiman) (uses dwarf caiman stats), {monster/snapping turtle}, {monster/toad}, {monster/tuatara}, {monster/turtle}",
 			"",
@@ -2604,7 +2604,7 @@
 		"description": [
 			"{SOURCE Ultimate Magic/98}",
 			"",
-			"A resourceful spellcaster draws upon experience to lend power to her magic. In the same way many of the spellblight conditions above offer advantages under the right conditions, at the GM's discretion, the [standard conditions](rule/conditions) can provide benefits as well. If the following material gives a spell failure chance, this is in addition to other rolls to succeed at casting (such as caster level checks and arcane spell failure from armor) and is resolved after those rolls.",
+			"A resourceful spellcaster draws upon experience to lend power to her magic. In the same way many of the spellblight conditions above offer advantages under the right conditions, at the GM's discretion, the {rule/standard |conditions} can provide benefits as well. If the following material gives a spell failure chance, this is in addition to other rolls to succeed at casting (such as caster level checks and arcane spell failure from armor) and is resolved after those rolls.",
 			"",
 			"***Bleed:*** While a spellcaster is affected by this condition, her [inflict wounds](spell/inflict_light_wounds) spells inflict an extra point of damage per die. This only applies when using an *inflict wounds* spell, not when using those spells to heal undead.",
 			"",

@@ -22,7 +22,7 @@
 			"",
 			"While the rules for crafting in the Core Rulebook are perfectly suitable for the needs of most campaigns, they can sometimes be cumbersome to use. Those rules assume that a character spends a full week crafting an item. They also involve complex multiplication to determine the degree of success and speed with which the item can be crafted. Not only are these rules significantly different from those for other skill checks, but they can slow down play at the table and give rise to strange circumstances where it takes an unreasonably long time to create relatively simple items that happen to have a high gold piece cost. Furthermore, while the system features rules for attempting daily checks, these rules can be cumbersome for players.",
 			"",
-			"The following system presents crafting rules that are a little easier to use, especially in conjunction with the [downtime system](rule/downtime).",
+			"The following system presents crafting rules that are a little easier to use, especially in conjunction with the {rule/downtime/ system}.",
 			"",
 			"With this alternative system, use the following version of the Craft skill instead of the one presented in the Core Rulebook.",
 			"",
@@ -633,7 +633,7 @@
 			"",
 			"In addition to their normal allotment of regular skill ranks, all characters gain 2 background skill ranks each time they gain a level in a PC class. The character's Intelligence modifier doesn't adjust this value. Background skill ranks can be used to gain ranks only in background skills, not adventuring skills. Characters can expend their regular skill ranks on background skills if they desire.",
 			"",
-			"Even the most dedicated adventurers have other things they enjoy doing in their spare time. Some pursue business interests during their downtime between adventures, and though these can be modeled with the [downtime rules](rule/downtime), players who aren't interested in such a robust system still might wish to include elements of those interests on their character sheets."
+			"Even the most dedicated adventurers have other things they enjoy doing in their spare time. Some pursue business interests during their downtime between adventures, and though these can be modeled with the {rule/downtime/ rules}, players who aren't interested in such a robust system still might wish to include elements of those interests on their character sheets."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -4195,7 +4195,7 @@
 			"",
 			"Skill unlocks give characters new abilities and ways to use their skills upon reaching 5, 10, 15, and 20 ranks in a skill. Any character with the {feat/Signature Skill} feat can earn skill unlocks for a single skill, and they are a prime feature of the [revised version of the rogue](class/unchained_rogue), who uses her rogue's edge ability to gain skill unlocks for several of her most iconic skills. Alternatively, you might make skill unlocks a universal part of the game, but you should be aware they add significant power and flexibility to skills, so giving them for free to all classes would grant power boosts to other highly skilled classes such as the investigator and bard, particularly in comparison to the rogue. Another alternative is to eliminate access to the Signature Skill feat, limiting skill unlocks to rogues and rogues alone.",
 			"",
-			"See [the individual skills](main/skills) for the skill unlocks."
+			"See {main/the individual |skills} for the skill unlocks."
 		],
 		"parent_topics": [ "optional_skill_changes" ],
 		"siblings": [

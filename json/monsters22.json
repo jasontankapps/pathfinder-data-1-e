@@ -234,7 +234,7 @@
 			"",
 			"**Envyspawn (+2 Str, -2 Cha):** Short and slight, envyspawn are compelled to hunt and spy upon their enemies. They obsess over comparing their enemies' possessions and prowess to their own. Envyspawn often become {class/ranger/s} or {class/slayer/s}.",
 			"",
-			"**Fleshdregs:** Products of malfunctioning runewells, botched rituals, and the like, {monster/fleshdreg/s} are squat, half-formed sinspawn, little more than a mouth on legs. Nevertheless, their sinful bites can mangle the bodies and minds of their enemies, and sinspawn treat fleshdregs as guard animals or pets. Faulty runewells may even spit out wads of hungry flesh known as [fleshdreg swarms](monster/fleshdreg_swarm).",
+			"**Fleshdregs:** Products of malfunctioning runewells, botched rituals, and the like, {monster/fleshdreg/s} are squat, half-formed sinspawn, little more than a mouth on legs. Nevertheless, their sinful bites can mangle the bodies and minds of their enemies, and sinspawn treat fleshdregs as guard animals or pets. Faulty runewells may even spit out wads of hungry flesh known as {monster/fleshdreg swarm/s}.",
 			"",
 			"**Gluttonspawn (+2 Con, -2 Dex):** Hardy despite their obesity, gluttonspawn often become {class/fighter/s}. A few rare individuals become {class/alchemist/s}, gorging themselves on the mutagens they concoct.",
 			"",
@@ -2170,7 +2170,7 @@
 			"",
 			"### Construction",
 			"",
-			"While many secrets of Azlanti technology have been recovered from the depths of time, expert golemcrafters have yet to reverse engineer the means of building a smoke sentinel and tether. Current theories postulate that unique [ioun stones](magic-wondrous/ioun_stone) must be utilized in the creation process, though what shape or color these ioun stones need to take remains a mystery."
+			"While many secrets of Azlanti technology have been recovered from the depths of time, expert golemcrafters have yet to reverse engineer the means of building a smoke sentinel and tether. Current theories postulate that unique {magic-wondrous/ioun stone/s} must be utilized in the creation process, though what shape or color these ioun stones need to take remains a mystery."
 		]
 	},
 	"smokeshade": {

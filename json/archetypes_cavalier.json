@@ -16,7 +16,7 @@
 			"",
 			"Each time the beast rider increases in level, he can choose to select a new, more impressive mount better suited to his increased power.",
 			"",
-			"Small-sized beast riders can choose a {druidcompanion/pony} or {druidcompanion/wolf} mount at 1st level. At 4th level, a Small beast rider can also choose an {druidcompanion/allosaurus}, {druidcompanion/ankylosaurus}, {druidcompanion/arsinoitherium}, {druidcompanion/aurochs}, {druidcompanion/bison}, {druidcompanion/boar}, {druidcompanion/brachiosaurus}, {druidcompanion/elephant}, {druidcompanion/glyptodon}, {druidcompanion/hippopotamus}, {druidcompanion/mastodon}, {druidcompanion/megaloceros}, [riding dog](druidcompanion/dog), [snapping turtle (giant)](druidcompanion/giant_snapping_turtle), {druidcompanion/triceratops}, or {druidcompanion/tyrannosaurus}. At 7th level, he can also choose a dinosaur ({druidcompanion/deinonychus} or {druidcompanion/velociraptor}).",
+			"Small-sized beast riders can choose a {druidcompanion/pony} or {druidcompanion/wolf} mount at 1st level. At 4th level, a Small beast rider can also choose an {druidcompanion/allosaurus}, {druidcompanion/ankylosaurus}, {druidcompanion/arsinoitherium}, {druidcompanion/aurochs}, {druidcompanion/bison}, {druidcompanion/boar}, {druidcompanion/brachiosaurus}, {druidcompanion/elephant}, {druidcompanion/glyptodon}, {druidcompanion/hippopotamus}, {druidcompanion/mastodon}, {druidcompanion/megaloceros}, {druidcompanion/riding |dog}, [snapping turtle (giant)](druidcompanion/giant_snapping_turtle), {druidcompanion/triceratops}, or {druidcompanion/tyrannosaurus}. At 7th level, he can also choose a dinosaur ({druidcompanion/deinonychus} or {druidcompanion/velociraptor}).",
 			"",
 			"Medium beast riders can choose a {druidcompanion/camel} or {druidcompanion/horse} mount at 1st level. At 4th level, a Medium beast rider can also choose an {druidcompanion/allosaurus}, {druidcompanion/ankylosaurus}, {druidcompanion/arsinoitherium}, {druidcompanion/aurochs}, {druidcompanion/bison}, {druidcompanion/brachiosaurus}, {druidcompanion/elephant}, {druidcompanion/glyptodon}, {druidcompanion/hippopotamus}, {druidcompanion/lion}, {druidcompanion/mastodon}, {druidcompanion/megaloceros}, [snapping turtle (giant)](druidcompanion/giant_snapping_turtle), {druidcompanion/tiger}, {druidcompanion/triceratops}, or {druidcompanion/tyrannosaurus} as his mount. Additional mounts might be available with GM approval.",
 			"",
@@ -88,7 +88,7 @@
 			"",
 			"This ability replaces tactician, greater tactician, and master tactician.",
 			"",
-			"**Sentence (Ex):** Once per day as a swift action, the circuit judge can choose one target within sight to sentence. The circuit judge gains the potential for a variety of bonuses related to that target. The circuit judge chooses the form of these benefits from the following list of [inquisitor judgments](class/inquisitor): destruction, justice, protection, purity, or smiting.",
+			"**Sentence (Ex):** Once per day as a swift action, the circuit judge can choose one target within sight to sentence. The circuit judge gains the potential for a variety of bonuses related to that target. The circuit judge chooses the form of these benefits from the following list of {class/inquisitor/ judgments}: destruction, justice, protection, purity, or smiting.",
 			"",
 			"The benefits of these judgments apply only to the circuit judge and the target - the protection judgment's bonus to Armor Class, for example, applies only to attacks made by the sentenced target (not any creature who attacks the circuit judge while the judgment is active). Treat the circuit judge's level as her inquisitor level for the purposes of determining how these judgments increase in power. The circuit judge can use this ability twice per day at 1st level, plus two additional times per day for every 3 cavalier levels beyond 1st, to a maximum of 14 times per day at 19th level. She can switch her sentence as a swift action, but doing so expends an additional daily use of this ability.",
 			"",
@@ -228,7 +228,7 @@
 			"",
 			"This ability replaces expert trainer.",
 			"",
-			"**Weapon Training (Ex):** At 5th level, a disciple of the pike gains [weapon training, just like a fighter](class/fighter). He must select polearms or spears as his weapon group, and never gains another weapon group. His bonuses with the selected group otherwise progress as though his fighter level were equal to his cavalier level.",
+			"**Weapon Training (Ex):** At 5th level, a disciple of the pike gains {class/weapon training, just like a |fighter}. He must select polearms or spears as his weapon group, and never gains another weapon group. His bonuses with the selected group otherwise progress as though his fighter level were equal to his cavalier level.",
 			"",
 			"This ability replaces banner and greater banner.",
 			"",
@@ -250,7 +250,7 @@
 			"{SOURCE Legacy of Dragons/24}  ",
 			"While many cavaliers dream of riding a dragon into battle, drakeriders come to learn that the reality involves far more effort than they had expected. Unlike other cavaliers, drakeriders must train their mounts from hatchlings, fighting and toiling alongside their drakes for years through countless struggles before the proud dragons are willing to accept them as riders. Some residents of Triaxus, envious of the close connection between dragonriders and dragons, attempt to emulate this relationship by raising drake hatchlings. These efforts aren't always successful, sometimes leaving the would-be drakeriders dead or maimed.",
 			"",
-			"**Drake Mount:** A drakerider gains a [drake companion](sidekick/drake) instead of a mount. She gains cavalier's charge at 9th level instead of 3rd.",
+			"**Drake Mount:** A drakerider gains a {sidekick/drake/ companion} instead of a mount. She gains cavalier's charge at 9th level instead of 3rd.",
 			"",
 			"This ability replaces mount, tactician, expert trainer, banner, greater tactician, greater banner, and master tactician and alters cavalier's charge.",
 			"",
@@ -484,7 +484,7 @@
 			"",
 			"**Introduction (Ex):** At 1st level, whenever a herald squire tries to influence a creature's attitude with the Diplomacy skill for the first time, she may roll her Diplomacy check twice and take the best result. In addition, any improvement of a creature's attitude toward the herald squire also applies to her knight. This ability replaces tactician.",
 			"",
-			"**Fleet of Foot (Ex):** At 2nd level, a herald squire gains [fast movement, as the barbarian class feature of the same name](class/barbarian). If the herald squire gains fast movement from another class, the bonuses to her speed do not stack. Whenever she makes long overland journeys alone or with only her mount, the distance a herald squire can travel each day increases by 20%. This ability replaces the 2nd-level order ability.",
+			"**Fleet of Foot (Ex):** At 2nd level, a herald squire gains {class/fast movement, as the |barbarian/ class feature of the same name}. If the herald squire gains fast movement from another class, the bonuses to her speed do not stack. Whenever she makes long overland journeys alone or with only her mount, the distance a herald squire can travel each day increases by 20%. This ability replaces the 2nd-level order ability.",
 			"",
 			"**Transcend Language (Sp):** At 3rd level, three times per day, a herald squire can cast {spell/tongues} on herself, using her herald squire level as her caster level. The effects of this ability last for a number of rounds equal to her herald squire level. This ability replaces cavalier's charge."
 		]
@@ -566,15 +566,15 @@
 			"",
 			"**Animal Trainer (Ex):** At 4th level, a huntmaster's expert trainer ability applies to birds and dogs rather than mounts. This modifies the expert trainer ability.",
 			"",
-			"**Swift Tracker (Ex):** At 5th level, a huntmaster gains the [swift tracker ability, as the ranger ability of the same name](class/ranger). This ability replaces banner.",
+			"**Swift Tracker (Ex):** At 5th level, a huntmaster gains the {class/swift tracker ability, as the |ranger/ ability of the same name}. This ability replaces banner.",
 			"",
 			"**Bonus Feats:** At 6th level, a huntmaster and all members of his hunting pack gain {feat/Step Up} as a bonus feat. At 12th level, they gain {feat/Following Step} and at 18th level, they gain {feat/Step Up and Strike}. This ability replaces a cavalier's standard bonus feats.",
 			"",
 			"**Pack Attack (Ex):** At 11th level, whenever a huntmaster and any of his hunting pack or multiple animals in his hunting pack are adjacent and attack the same target in melee, they are treated as flanking. In addition, they can flank a creature with improved uncanny dodge if the huntmaster has at least 4 more levels than the target. This ability replaces mighty charge.",
 			"",
-			"**Quarry (Ex):** At 14th level, a huntmaster gains [quarry, as the ranger ability of the same name](class/ranger). The benefits of this ability also apply to his hunting pack. This ability replaces greater banner.",
+			"**Quarry (Ex):** At 14th level, a huntmaster gains {class/quarry, as the |ranger/ ability of the same name}. The benefits of this ability also apply to his hunting pack. This ability replaces greater banner.",
 			"",
-			"**Improved Quarry (Ex):** At 20th level, a huntmaster gains [improved quarry, as the ranger ability of the same name](class/ranger). The benefits of this ability also apply to his hunting pack. This ability replaces supreme charge."
+			"**Improved Quarry (Ex):** At 20th level, a huntmaster gains {class/improved quarry, as the |ranger/ ability of the same name}. The benefits of this ability also apply to his hunting pack. This ability replaces supreme charge."
 		]
 	},
 	"hussar": {
@@ -763,7 +763,7 @@
 			"",
 			"This ability replaces tactician.",
 			"",
-			"**Desert Mastery (Ex):** At 3rd level, a Qadiran horselord gains [favored terrain (desert) as per the ranger ability of the same name](class/ranger). At 8th level and every 5 levels thereafter, the granted bonus on initiative and skill checks increases by 2, but the Qadiran horselord never selects additional favored terrains. Additionally, his mount gains all the benefits of the favored terrain ability.",
+			"**Desert Mastery (Ex):** At 3rd level, a Qadiran horselord gains {class/favored terrain (desert) as per the |ranger/ ability of the same name}. At 8th level and every 5 levels thereafter, the granted bonus on initiative and skill checks increases by 2, but the Qadiran horselord never selects additional favored terrains. Additionally, his mount gains all the benefits of the favored terrain ability.",
 			"",
 			"This ability replaces cavalier's charge.",
 			"",
@@ -937,7 +937,7 @@
 			"## Verdivant",
 			"",
 			"{SOURCE Wilderness Origins/15}  ",
-			"Some [vine leshys](race/vine_leshy) spirits are vibrant enough to project this animus beyond their own bodies. Called verdivants, these leshys explore the world atop unique companions formed from the leshy's vines and animated by their nearly boundless energy. Both mount and rider brim with new growth, sporting bright flowers, whipping tendrils, clouds of pollen, and other manifestations charged with nature's power. This archetype is typically available only to vine leshys, but with the GM's permission, other races can take it as well.",
+			"Some {race/vine leshy} spirits are vibrant enough to project this animus beyond their own bodies. Called verdivants, these leshys explore the world atop unique companions formed from the leshy's vines and animated by their nearly boundless energy. Both mount and rider brim with new growth, sporting bright flowers, whipping tendrils, clouds of pollen, and other manifestations charged with nature's power. This archetype is typically available only to vine leshys, but with the GM's permission, other races can take it as well.",
 			"",
 			"**Plant Mount (Ex):** A verdivant buds off and cultivates his vines into an animal form, imbuing them with limited intelligence. The verdivant selects a mount appropriate for his size as normal, but this mount is a plant with the leshy subtype and has the same immunities as a vine leshy.",
 			"",
@@ -977,7 +977,7 @@
 			"",
 			"This replaces tactician, banner, greater tactician, greater banner, master tactician, and bonus feats.",
 			"",
-			"**Sinuous Steps (Ex):** At 3rd level, a verdivant and his plant mount gain the [woodland stride druid class feature](class/druid). In addition, they do not take any penalty to AC after making a charge attack.",
+			"**Sinuous Steps (Ex):** At 3rd level, a verdivant and his plant mount gain the {class/woodland stride |druid/ class feature}. In addition, they do not take any penalty to AC after making a charge attack.",
 			"",
 			"This alters cavalier's charge."
 		]
@@ -1017,7 +1017,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** Wave riders are proficient with all simple and martial weapons and with light and medium armor, but not with shields. This replaces the cavalier's weapon and armor proficiencies.",
 			"",
-			"**Seafaring Companion:** At 1st level, a wave rider gains {feat/Monstrous Mount} as a bonus feat. The wave rider can use this feat only to select a [hippocampus mount](druidcompanion/hippocampus). Otherwise, this ability functions identically to and replaces the cavalier's mount ability."
+			"**Seafaring Companion:** At 1st level, a wave rider gains {feat/Monstrous Mount} as a bonus feat. The wave rider can use this feat only to select a {druidcompanion/hippocampus/ mount}. Otherwise, this ability functions identically to and replaces the cavalier's mount ability."
 		]
 	}
 }

@@ -3849,7 +3849,7 @@
 			"",
 			"If you have the bardic performance class feature and the fascinate bardic performance, you can choose to use the spell's saving throw DC or a DC equal to 10 + 1/2 your levels in the class that grants you bardic performance + your Charisma modifier, whichever is higher. If you choose to use the latter DC, each round of the melody costs 1 round of bardic performance and it counts as an active performance for determining how many performances you can have active.",
 			"",
-			"This spell takes a toll on the caster. Each time you cast it, you take 1d4 points of Wisdom damage. If your campaign uses [the sanity system](rule/sanity), you instead take 2d6 points of sanity damage."
+			"This spell takes a toll on the caster. Each time you cast it, you take 1d4 points of Wisdom damage. If your campaign uses {rule/the |sanity/ system}, you instead take 2d6 points of sanity damage."
 		]
 	},
 	"maddening_oubliette": {

@@ -1171,7 +1171,7 @@
 			"",
 			"***Confusion Aura:*** Any creature that comes within 30 feet of the monster must attempt a Will save (DC = the monster's ability DC - 5). If it fails, it is confused for a number of rounds equal to the monster's CR. If it succeeds, it can't be affected again by this aura for 24 hours. The range increases to 60 feet at CR 10 and to 120 feet at CR 20.",
 			"",
-			"***Corrupting Gaze:*** The monster has a [gaze attack](umr/gaze) (as the universal monster rule) with a range of 30 feet. The attack deals 2d10 points of damage and 1d4 points of Charisma damage. A successful Fortitude save negates the Charisma damage.",
+			"***Corrupting Gaze:*** The monster has a {umr/gaze/ attack} (as the universal monster rule) with a range of 30 feet. The attack deals 2d10 points of damage and 1d4 points of Charisma damage. A successful Fortitude save negates the Charisma damage.",
 			"",
 			"***Corrupting Touch:*** A monster must be incorporeal to have this ability. The monster can make a touch attack. If it hits, the target supernaturally ages and takes 1d6 points of damage per CR the monster possesses (Fortitude half). Targets immune to magical aging are immune to this damage.",
 			"",

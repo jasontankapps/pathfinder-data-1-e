@@ -805,7 +805,7 @@
 			"{SOURCE Bestiary 5/298}  ",
 			"This special sense allows a creature to detect approaching enemies, sniff out hidden foes, and track by sense of smell. Creatures with the scent ability can identify familiar odors just as humans do familiar sights.",
 			"",
-			"The creature can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or [troglodyte stench](monster/troglodyte), can be detected at triple the normal range.",
+			"The creature can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or {monster/troglodyte/ stench}, can be detected at triple the normal range.",
 			"",
 			"When a creature detects a scent, the exact location of the source is not revealed-only its presence somewhere within range. The creature can take a move action to note the direction of the scent. When the creature is within 5 feet of the source, it pinpoints the source's location.",
 			"",
@@ -1223,7 +1223,7 @@
 			"## Spells",
 			"",
 			"{SOURCE Bestiary 5/299}  ",
-			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as {magic-wondrous/incense of meditation} or a {magic-wondrous/pearl of power}). If the creature has any other abilities relating to that class (such as [cleric domains](ability/domains) or a [sorcerer bloodline](ability/sorcerer_bloodlines)), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a {monster/spirit naga} who gains 3 sorcerer levels casts spells as a 10th-level sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
+			"The creature is able to cast spells like a member of a spellcasting class. The creature counts as a member of that class for the purpose of any effect or ability relating to casting spells as that class. For example, it can use spell completion and spell trigger items usable by that class or use magic items that affect that class's spellcasting (such as {magic-wondrous/incense of meditation} or a {magic-wondrous/pearl of power}). If the creature has any other abilities relating to that class (such as {ability/cleric |domains} or a {ability/sorcerer bloodline>s}), this is explained in its entry. If the creature gains levels in that spellcasting class, these abilities stack (for example, a {monster/spirit naga} who gains 3 sorcerer levels casts spells as a 10th-level sorcerer). Some creatures may have unusual abilities unavailable to spellcasters of that class (such as a spirit naga's ability to learn cleric spells with her sorcerer spells known)."
 		]
 	},
 	"freeze": {
@@ -1522,7 +1522,7 @@
 			"## Change Shape (Su)",
 			"",
 			"{SOURCE Bestiary 5/291}  ",
-			"The creature has the ability to assume the appearance of a specific creature or type of creature (usually a humanoid), but retains most of its own physical qualities. A creature cannot change shape to a form more than one size category smaller or larger than its original form unless noted otherwise. This ability functions as a [polymorph spell](spelldef/polymorph), the type of which is listed in the creature's description, but the creature does not adjust its ability scores (although it gains any other abilities of the creature it mimics). Some creatures, such as lycanthropes, can transform into unique forms with special modifiers and abilities. These creatures do adjust their ability scores, as noted in their description.",
+			"The creature has the ability to assume the appearance of a specific creature or type of creature (usually a humanoid), but retains most of its own physical qualities. A creature cannot change shape to a form more than one size category smaller or larger than its original form unless noted otherwise. This ability functions as a {spelldef/polymorph/ spell}, the type of which is listed in the creature's description, but the creature does not adjust its ability scores (although it gains any other abilities of the creature it mimics). Some creatures, such as lycanthropes, can transform into unique forms with special modifiers and abilities. These creatures do adjust their ability scores, as noted in their description.",
 			"",
 			"**Format:** change shape (wolf; {spell/beast shape I})  ",
 			"**Location:** SQ, and in Special Abilities for creatures with a unique listing."

@@ -1802,7 +1802,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Alghollthu's Bane (Su)** As a standard action, an enisysian can make a touch attack against another alghollthu: creatures including {monster/aboleth/s}, {monster/omnipath/s}, and [veiled masters](monster/veiled_master), among others. On a hit, the target's immunity to mind-affecting effects is completely suppressed as long as it remains within 50 feet of the enisysian (no save).",
+			"**Alghollthu's Bane (Su)** As a standard action, an enisysian can make a touch attack against another alghollthu: creatures including {monster/aboleth/s}, {monster/omnipath/s}, and {monster/veiled master/s}, among others. On a hit, the target's immunity to mind-affecting effects is completely suppressed as long as it remains within 50 feet of the enisysian (no save).",
 			"",
 			"**Mental Disarmament (Su)** An enisysian emits a constant telepathic barrage that lowers the mental defenses of nearby creatures. Anyone within 100 feet of an enisysian must succeed at a DC 17 Will saving throw or take a -4 penalty on Will saving throws while in range. A creature that succeeds at this saving throw is immune to the enisysian's mental disarmament for 24 hours. The enisysian and any creature bonded with it via its symbiotic bond are immune to this ability. An enisysian can suppress or reactivate this ability as a swift action. Mental disarmament is a mind-affecting effect. The save DC is Wisdom-based.",
 			"",
@@ -2997,7 +2997,7 @@
 			"",
 			"While most familiar automatons remain on Golarion, a sizable number reside elsewhere throughout the Great Beyond. The city of Axis houses quite a few familiar automatons, relaxing in peace as they go unnoticed among the strange citizens of the Eternal City. They tend to serve as messengers between the city's denizens, especially other automatons, an exception to most who tend to avoid others of their kind. Among champion automatons, familiars serve as chroniclers, recording great battles and sharing them with other champions; among stalkers, familiars usually act as solving to solve feuds or overseeing two hunters staging contests of skill where the familiar automaton serves as an impartial judge.",
 			"",
-			"The Boneyard also contains a surprising number of familiar automatons. Here, the constructs walk among the souls awaiting judgment, serving as temporary companions for petitioners. The nature of a petitioner's memory means that the petitioner usually does not recognize a familiar automaton but still retains a strong association with a beloved pet from its former life. This association provides comfort for especially distressed petitioners. Thanks to their ability to ease wary souls, a few [catrina psychopomps](monster/catrina) establish friendships with familiar automatons, the two working in tandem to make the wait for judgment as painless as possible.",
+			"The Boneyard also contains a surprising number of familiar automatons. Here, the constructs walk among the souls awaiting judgment, serving as temporary companions for petitioners. The nature of a petitioner's memory means that the petitioner usually does not recognize a familiar automaton but still retains a strong association with a beloved pet from its former life. This association provides comfort for especially distressed petitioners. Thanks to their ability to ease wary souls, a few {monster/catrina/ psychopomps} establish friendships with familiar automatons, the two working in tandem to make the wait for judgment as painless as possible.",
 			"",
 			"**Family:** {family/Automaton}"
 		]
@@ -3140,7 +3140,7 @@
 			"",
 			"**Arcane Propulsion (Su)** A sharpshooter automaton flies using arcane energy that radiates out from itself. A creature that ends its turn adjacent to a sharpshooter automaton takes 2d8 points of fire damage.",
 			"",
-			"**Automated Crossbow (Ex)** A sharpshooter automaton's automated crossbow is treated as a Large [+2 flaming heavy crossbow](magic-enhancement/flaming). The powerful weapon is treated as a siege weapon for the purposes of wind effects, wind wall, and similar effects. While the crossbow is built into the automaton, the automaton adds its Strength bonus as a bonus on damage rolls and reloads as a free action.",
+			"**Automated Crossbow (Ex)** A sharpshooter automaton's automated crossbow is treated as a Large {magic-enhancement/+2 |flaming/ heavy crossbow}. The powerful weapon is treated as a siege weapon for the purposes of wind effects, wind wall, and similar effects. While the crossbow is built into the automaton, the automaton adds its Strength bonus as a bonus on damage rolls and reloads as a free action.",
 			"",
 			"**Bolt Volley (Ex)** As a standard action, a sharpshooter automaton can fire a spray of arrows that covers a 30-foot-radius area. If it uses a full-round action, the size of the area increases to a 50-foot radius. It makes a single attack roll against all creatures in the area using its highest base attack bonus at a -4 penalty. Each creature struck takes 6d8 points of damage plus 1d6 points of fire damage. The sharpshooter automaton can use this attack once every 1d4 rounds as it must regenerate its ammunition, but it can continue to use its automated crossbow as normal during this time.",
 			"",

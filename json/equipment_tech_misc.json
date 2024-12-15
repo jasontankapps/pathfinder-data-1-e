@@ -1191,7 +1191,7 @@
 			"**Cost** 1,500 gp (black), 22,750 gp (blue), 500 gp (brown), 7,000 gp (gray), 11,250 gp (green), 30,000 gp (orange), 38,250 gp (prismatic), 16,500 gp (red), 3,750 gp (white)  ",
 			"Craft Technological Item, production lab",
 			"",
-			"A chipfinder is a handheld device fitted with a circular screen. When a chipfinder is activated, all active [tracker chips](tech-misc/tracker_chip) within a certain radius appear as glowing dots on the screen, indicating the direction and approximate distance to each installed tracker chip, as well identification number for each chip. The screen can filter out unwanted data to make it easier to track a specific chip. Chipfinders are color-coded items; the higher the chipfinder's color rating, the longer its range. This range is a signal, and can be enhanced by a {tech-misc/signal booster} or blocked by a solid enough barrier.",
+			"A chipfinder is a handheld device fitted with a circular screen. When a chipfinder is activated, all active {tech-misc/tracker chip/s} within a certain radius appear as glowing dots on the screen, indicating the direction and approximate distance to each installed tracker chip, as well identification number for each chip. The screen can filter out unwanted data to make it easier to track a specific chip. Chipfinders are color-coded items; the higher the chipfinder's color rating, the longer its range. This range is a signal, and can be enhanced by a {tech-misc/signal booster} or blocked by a solid enough barrier.",
 			"",
 			"| Color | Range |",
 			"| --- | --- |",

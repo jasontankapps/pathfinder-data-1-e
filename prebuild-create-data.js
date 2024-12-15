@@ -3,6 +3,7 @@ import { Marked } from 'marked';
 import markedFootnote from 'marked-footnote';
 import { gfmHeadingId } from "marked-gfm-heading-id";
 import basic_data_groups from './basic_data_groups.js';
+import checkForEncodedLink from './tests/checkForEncodedLink.js';
 
 // Converts {some/Link: Text/s} into [Link: Texts](some/link_text)
 const convertLinks = (input) => {
@@ -11,10 +12,10 @@ const convertLinks = (input) => {
 	input.forEach(line => {
 		let converted = "";
 		let base = line;
-		while(m = base.match(/(^.*?)\{([-a-z_]+)\/([^}]+?)(?:\/([^}]+))?\}(.*$)/)) {
-			const link = m[3].toLowerCase().replace(/[ -]/g, "_").replace(/[^-a-z_0-9]/g, "");
-			base = m[5];
-			converted = converted + `${m[1]}[${m[3]}${m[4] || ""}](${m[2]}/${link})`;
+		while(m = checkForEncodedLink(base)) {
+			const [pre, link, text, post] = m;
+			converted = converted + `${pre}[${text}](${link})`;
+			base = post;
 		}
 		output.push(converted + base);
 	});

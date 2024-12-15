@@ -331,7 +331,7 @@
 			"",
 			"You choose to use dispel magic in one of two ways: a targeted dispel or a counterspell.",
 			"",
-			"**Target**ed Dispel: One object, creature, or spell is the target of the dispel magic spell. You make one dispel check (1d20 + your caster level) and compare that to the spell with highest caster level (DC = 11 + the spell's caster level). If successful, that spell ends. If not, compare the same result to the spell with the next highest caster level. Repeat this process until you have dispelled one spell affecting the target, or you have failed to dispel every spell.",
+			"*Targeted Dispel:* One object, creature, or spell is the target of the dispel magic spell. You make one dispel check (1d20 + your caster level) and compare that to the spell with highest caster level (DC = 11 + the spell's caster level). If successful, that spell ends. If not, compare the same result to the spell with the next highest caster level. Repeat this process until you have dispelled one spell affecting the target, or you have failed to dispel every spell.",
 			"",
 			"For example, a 7th-level caster casts dispel magic, targeting a creature affected by stoneskin (caster level 12th) and fly (caster level 6th). The caster level check results in a 19. This check is not high enough to end the stoneskin (which would have required a 23 or higher), but it is high enough to end the fly (which only required a 17). Had the dispel check resulted in a 23 or higher, the stoneskin would have been dispelled, leaving the fly intact. Had the dispel check been a 16 or less, no spells would have been affected.",
 			"",
@@ -343,7 +343,7 @@
 			"",
 			"You automatically succeed on your dispel check against any spell that you cast yourself.",
 			"",
-			"Counterspell: When dispel magic is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, dispel magic may not work; you must make a dispel check to counter the other spellcaster's spell.",
+			"*Counterspell:* When dispel magic is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, dispel magic may not work; you must make a dispel check to counter the other spellcaster's spell.",
 			"",
 			"### Mythic Dispel Magic",
 			"",
@@ -372,11 +372,11 @@
 			"",
 			"You choose to use greater dispel magic in one of three ways: a targeted dispel, area dispel, or a counterspell:",
 			"",
-			"**Target**ed Dispel: This functions as a targeted dispel magic, but it can dispel one spell for every four caster levels you possess, starting with the highest level spells and proceeding to lower level spells.",
+			"*Targeted Dispel:* This functions as a targeted dispel magic, but it can dispel one spell for every four caster levels you possess, starting with the highest level spells and proceeding to lower level spells.",
 			"",
 			"Additionally, greater dispel magic has a chance to dispel any effect that remove curse can remove, even if dispel magic can't dispel that effect. The DC of this check is equal to the curse's DC.",
 			"",
-			"**Area** Dispel: When greater dispel magic is used in this way, the spell affects everything within a 20-foot-radius burst. Roll one dispel check and apply that check to each creature in the area, as if targeted by dispel magic. For each object within the area that is the target of one or more spells, apply the dispel check as with creatures. Magic items are not affected by an area dispel.",
+			"*Area Dispel:* When greater dispel magic is used in this way, the spell affects everything within a 20-foot-radius burst. Roll one dispel check and apply that check to each creature in the area, as if targeted by dispel magic. For each object within the area that is the target of one or more spells, apply the dispel check as with creatures. Magic items are not affected by an area dispel.",
 			"",
 			"For each ongoing area or effect spell whose point of origin is within the area of the greater dispel magic spell, apply the dispel check to dispel the spell. For each ongoing spell whose area overlaps that of the greater dispel magic spell, apply the dispel check to end the effect, but only within the overlapping area.",
 			"",
@@ -384,7 +384,7 @@
 			"",
 			"You may choose to automatically succeed on dispel checks against any spell that you have cast.",
 			"",
-			"Counterspell: This functions as dispel magic, but you receive a +4 bonus on your dispel check to counter the other spellcaster's spell."
+			"*Counterspell:* This functions as dispel magic, but you receive a +4 bonus on your dispel check to counter the other spellcaster's spell."
 		]
 	},
 	"dispel_magic_greater": {
@@ -1395,7 +1395,7 @@
 			"",
 			"Your targets see their surroundings as a nightmarish reflection of the world around them. Buildings and furnishings take on a dirty, ruined appearance. Even allies appear foreign and hostile, with friendly speech turning into garbled mockery and threats. Each target gains the scared condition and has a hostile attitude toward any new creature it encounters (though not toward creatures that were already present at the time of the casting). Being hostile doesn't necessarily mean the target will attack, and creatures can attempt Diplomacy checks to gain a target's trust at the normal DC. If a creature becomes frightened or panicked while under the influence of dreadscape, that creature takes 1d6 points of Wisdom damage, though only once per casting of dreadscape.",
 			"",
-			"If your campaign uses [the sanity system](rule/sanity), creatures that become frightened or panicked take 2d6 sanity damage instead of Wisdom damage."
+			"If your campaign uses {rule/the |sanity/ system}, creatures that become frightened or panicked take 2d6 sanity damage instead of Wisdom damage."
 		]
 	},
 	"dream": {
@@ -1973,7 +1973,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You summon a flight of [giant eagles](monster/giant_eagle) (one per three caster levels, maximum of six) to ferry you and your allies across the skies. The eagles avoid combat if possible but defend themselves if attacked; if the eagles attack, the remaining duration of the spell changes from 1 hour per level to 1 round per level (so if the spell had 5 full hours left, the eagles remain in combat for 5 rounds before the spell ends)."
+			"You summon a flight of {monster/giant eagle/s} (one per three caster levels, maximum of six) to ferry you and your allies across the skies. The eagles avoid combat if possible but defend themselves if attacked; if the eagles attack, the remaining duration of the spell changes from 1 hour per level to 1 round per level (so if the spell had 5 full hours left, the eagles remain in combat for 5 rounds before the spell ends)."
 		]
 	},
 	"eagle_eye": {

@@ -1,4 +1,5 @@
 import { basic_data_by_link } from '../basic_data_groups.js';
+import checkForEncodedLink from './checkForEncodedLink.js';
 
 const {
 	source: allsources,
@@ -327,21 +328,19 @@ const testLinks = () => {
 					}
 				}
 				temp = line;
-				while(m = temp.match(/\{([-a-z]+)\/([^}]+?)(?:\/[^}]+)?\}(.*$)/)) {
-					// Testing {link/Plain Text}
-					if (m) {
-						const [x, protocol, title, remainder] = m;
-						const final = title.toLowerCase().replace(/[ -]/g, "_").replace(/[^-a-z_0-9]/g, "");
-						const potential = `{${protocol}/${title}}`;
-						if(protocol === "source") {
-							if(!allsources[final]) {
-								invalid.push(potential);
-							}
-						} else if(!known_props[protocol] || !known_props[protocol][final]) {
+				while(m = checkForEncodedLink(temp)) {
+					// m = [...post, protocol, property]
+					const property = m.pop();
+					const protocol = m.pop();
+					const potential = `{${protocol}/${property}}`;
+					if(protocol === "source") {
+						if(!allsources[property]) {
 							invalid.push(potential);
 						}
-						temp = remainder;
+					} else if (!known_props[protocol] || !known_props[protocol][property]) {
+						invalid.push(potential)
 					}
+					temp = m.pop();
 				}
 			});
 		});

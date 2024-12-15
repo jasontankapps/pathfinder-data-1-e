@@ -44,7 +44,7 @@
 			"",
 			"**Bonus Feats:** An arcane duelist weaves might and magic in his combat style, gaining the following bonus feats at 2nd level and every four levels thereafter: 2nd level-{feat/Combat Casting}, 6th level-{feat/Disruptive}, 10th level-{feat/Spellbreaker}, 14th level-{feat/Penetrating Strike}, 18th level-{feat/Greater Penetrating Strike}. This ability replaces versatile performance and well-versed.",
 			"",
-			"**Arcane Bond (Ex):** At 5th level, an arcane duelist gains the [arcane bond ability as a wizard](class/wizard), using a weapon as his bonded item, allowing him to cast any one addition spell that he knows once per day. He may not choose a familiar or other type of bonded item. He may use the hand holding his bonded weapon for somatic components. This ability replaces lore master.",
+			"**Arcane Bond (Ex):** At 5th level, an arcane duelist gains the {class/arcane bond ability as a |wizard}, using a weapon as his bonded item, allowing him to cast any one addition spell that he knows once per day. He may not choose a familiar or other type of bonded item. He may use the hand holding his bonded weapon for somatic components. This ability replaces lore master.",
 			"",
 			"**Arcane Armor (Ex):** At 10th level, an arcane duelist gains Medium Armor Proficiency and can cast bard spells in medium armor with no chance of arcane spell failure. At 16th level, he gains Heavy Armor Proficiency and can cast bard spells in heavy armor with no arcane spell failure. This ability replaces jack of all trades."
 		]
@@ -58,7 +58,7 @@
 			"{SOURCE Faiths and Philosophies/13}  ",
 			"Though bards may have different reasons for wanting to heal the sick and injured, both out of pure altruism and in order to keep adventuring companions safe, the ability to heal also makes it much easier for a bard to pose as a cleric or other divine healer, opening the door for a wide array of swindles and scams.",
 			"",
-			"**Channel Energy (Su):** At 2nd level, an arcane healer gains the ability to [channel positive energy as a cleric](class/cleric) of one level lower than his level. If a creature within the channeled energy's area of effect would be allowed a save against its effects, the DC is equal to 10 + 1/2 the arcane healer's level + the arcane healer's Charisma modifier. An arcane healer can use this ability once per day at 2nd level, gaining an additional use per day every four levels thereafter (6th, 10th, 14th, and 18th), to a maximum of 5 times per day at 18th level. This ability replaces versatile performance.",
+			"**Channel Energy (Su):** At 2nd level, an arcane healer gains the ability to {class/channel positive energy as a |cleric} of one level lower than his level. If a creature within the channeled energy's area of effect would be allowed a save against its effects, the DC is equal to 10 + 1/2 the arcane healer's level + the arcane healer's Charisma modifier. An arcane healer can use this ability once per day at 2nd level, gaining an additional use per day every four levels thereafter (6th, 10th, 14th, and 18th), to a maximum of 5 times per day at 18th level. This ability replaces versatile performance.",
 			"",
 			"**Inspiring Healing (Sp):** At 5th level, an arcane healer gains the ability to expend rounds of his bardic performance to provide extra healing to his allies. By expending 2 rounds of bardic performance, an arcane healer can cast {spell/cure light wounds} as a spell-like ability. At 11th level, the arcane healer can expend 2 rounds of bardic performance to cast {spell/cure moderate wounds} as a spell-like ability. At 17th level, he may instead expend 2 rounds of bardic performance to cast {spell/cure serious wounds} as a spell-like ability. No single target may be affected by an arcane healer's inspiring healing ability more than once in a 24-hour period. This ability replaces loremaster."
 		]
@@ -78,13 +78,13 @@
 			"",
 			"**Clever Explorer (Ex):** At 2nd level, an archaeologist gains a bonus equal to half his class level on Disable Device and Perception checks. He can disable intricate and complex devices in half the normal amount of time (minimum 1 round) and open a lock as a standard action. At 6th level, an archaeologist can take 10 on Disable Device checks, even if distracted or endangered, and can disarm magical traps. This ability replaces the versatile performance ability.",
 			"",
-			"**Uncanny Dodge (Ex):** At 2nd level, an archaeologist gains [uncanny dodge, as the rogue class feature of the same name](class/rogue). This ability replaces well-versed.",
+			"**Uncanny Dodge (Ex):** At 2nd level, an archaeologist gains {class/uncanny dodge, as the |rogue/ class feature of the same name}. This ability replaces well-versed.",
 			"",
-			"**Trap Sense (Ex):** At 3rd level, an archaeologist gains [trap sense +1, as the rogue class feature of the same name](class/rogue). This bonus improves by +1 for every three levels gained after 3rd, to a maximum of +6 at 18th level.",
+			"**Trap Sense (Ex):** At 3rd level, an archaeologist gains {class/trap sense +1, as the |rogue/ class feature of the same name}. This bonus improves by +1 for every three levels gained after 3rd, to a maximum of +6 at 18th level.",
 			"",
 			"**Rogue Talents:** At 4th level, an archaeologist gains a [rogue talent](ability/rogue_talents). He gains an additional rogue talent for every four levels of archaeologist gained after 4th level. Otherwise, this works as the rogue's rogue talent ability.",
 			"",
-			"**Evasion (Ex):** At 6th level, an archaeologist gains [evasion, as the rogue ability of the same name](class/rogue).",
+			"**Evasion (Ex):** At 6th level, an archaeologist gains {class/evasion, as the |rogue/ ability of the same name}.",
 			"",
 			"**Advanced Talent:** At 12th level, and every four levels thereafter, an archaeologist can choose an [advanced rogue talent](ability/advanced_rogue_talents) in place of a rogue talent."
 		]
@@ -126,7 +126,7 @@
 			"",
 			"However, there is another reason for the Silver Ravens to recruit singers from the Chelish opera. The Silver Ravens rely on talented voices to deploy their most powerful weapon in the defense of Kintargo - the \"Song of Silver.\" While specially trained argent dramaturges can create lesser versions of this song, the true \"Song of Silver\" must be performed in Kintargo. Those among the Silver Ravens who dedicate themselves to the study of this magical performance are known as argent voices, and through practice and experience, these bards are able to modulate their own bardic performance abilities to reflect some measure of the power found in the \"Song of Silver.\" For this reason, argent voices are among the most respected and treasured of the Silver Raven's agents. While some argent voices travel the Inner Sea, fighting tyranny and oppression, many others remain in Kintargo, ready to activate the city's defenses should the need arise.",
 			"",
-			"Argent voices who wish to further explore the magic and power of the \"Song of Silver\" often further focus their training so that they can become [argent dramaturges](prestigeclass/argent_dramaturge).",
+			"Argent voices who wish to further explore the magic and power of the \"Song of Silver\" often further focus their training so that they can become {prestigeclass/argent dramaturge/s}.",
 			"",
 			"**Bardic Performance:** An argent voice gains the following bardic performances. The argent voice must use Perform (sing) with these performances.",
 			"",
@@ -138,7 +138,7 @@
 			"",
 			"This replaces suggestion and mass suggestion.",
 			"",
-			"**Devilbane Refrain (Su):** At 8th level, the argent voice learns how to mimic aspects of the magical \"Song of Silver\" with his performance, enhancing his allies' ability to combat devils and similar fiends. To be affected, a creature must be able to hear the argent voice's singing and be within 30 feet of him. Natural and manufactured weapons wielded by affected allies are treated as though they were silver for the purpose of bypassing damage reduction. At 14th level, allies' natural and manufactured weapons also gain the benefit of the [evil outsider bane](magic-enhancement/bane) weapon special ability.",
+			"**Devilbane Refrain (Su):** At 8th level, the argent voice learns how to mimic aspects of the magical \"Song of Silver\" with his performance, enhancing his allies' ability to combat devils and similar fiends. To be affected, a creature must be able to hear the argent voice's singing and be within 30 feet of him. Natural and manufactured weapons wielded by affected allies are treated as though they were silver for the purpose of bypassing damage reduction. At 14th level, allies' natural and manufactured weapons also gain the benefit of the {magic-enhancement/evil outsider |bane} weapon special ability.",
 			"",
 			"This replaces dirge of doom and frightening tune.",
 			"",
@@ -168,7 +168,7 @@
 			"",
 			"**Precise Minstrel (Ex):** At 2nd level, an Arrowsong minstrel gains {feat/Precise Shot} as a bonus feat. In addition, any creature that is affected by any of the Arrowsong minstrel's bardic performance does not provide soft cover to enemies against her ranged attacks with a bow. This ability replaces the versatile performance gained at 2nd level and well-versed.",
 			"",
-			"**Arrowsong Strike (Su):** At 6th level, an Arrowsong minstrel can use spellstrike ([as per the magus class feature](class/magus)) to cast a single-target ranged touch attack spell and deliver it through a ranged weapon attack. Even if the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies the attack. She cannot use spellstrike with normal touch attacks or melee attacks.",
+			"**Arrowsong Strike (Su):** At 6th level, an Arrowsong minstrel can use spellstrike ({class/as per the |magus/ class feature}) to cast a single-target ranged touch attack spell and deliver it through a ranged weapon attack. Even if the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies the attack. She cannot use spellstrike with normal touch attacks or melee attacks.",
 			"",
 			"At 18th level, an Arrowsong minstrel using a multiple-target spell with this ability can deliver one ray or line of effect with each attack when using a full-attack action, up to the maximum allowed by the spell (in the case of ray effects). Any effects not used in the round the spell is cast are lost.",
 			"",
@@ -434,7 +434,7 @@
 			"",
 			"This performance replaces countersong.",
 			"",
-			"**Resist Nature's Lure (Ex):** At 2nd level, a cultivator gains [resist nature's lure, as the druid class feature of the same name](class/druid), but with only a +2 bonus instead of +4. This increases to a +4 bonus at 4th level.",
+			"**Resist Nature's Lure (Ex):** At 2nd level, a cultivator gains {class/resist nature's lure, as the |druid/ class feature of the same name}, but with only a +2 bonus instead of +4. This increases to a +4 bonus at 4th level.",
 			"",
 			"This replaces well-versed.",
 			"",
@@ -472,7 +472,7 @@
 			"## Dawnflower Dervish",
 			"",
 			"{SOURCE Inner Sea Magic/34}  ",
-			"Although Sarenrae is seen mainly as a goddess of healing and redemption in most parts of the Inner Sea, her stern, evil-smiting element is more common in areas like Qadira, Osirion, and Katapesh. Many of the Dawnflower's disciples from these lands become Dawnflower dervishes, religious mystics who use a spinning dance as part of their worship. Many bards of her faith hone their skills with dance and scimitar to become [dervish dancers](archetype-bard/dervish_dancer), but some tread a similar path focused more on magic and healing than swordplay. These are the Dawnflower dervishes. A Dawnflower dervish has the following class features.",
+			"Although Sarenrae is seen mainly as a goddess of healing and redemption in most parts of the Inner Sea, her stern, evil-smiting element is more common in areas like Qadira, Osirion, and Katapesh. Many of the Dawnflower's disciples from these lands become Dawnflower dervishes, religious mystics who use a spinning dance as part of their worship. Many bards of her faith hone their skills with dance and scimitar to become {archetype-bard/dervish dancer/s}, but some tread a similar path focused more on magic and healing than swordplay. These are the Dawnflower dervishes. A Dawnflower dervish has the following class features.",
 			"",
 			"**Weapon and Armor Proficiency:** Dawnflower dervishes gain weapon proficiency with the scimitar. This ability replaces their proficiency with the rapier and whip.",
 			"",
@@ -500,11 +500,11 @@
 			"{SOURCE Ultimate Magic/26}  ",
 			"Not content with providing amusing and occasionally instructive performances, the demagogue seeks to inflame and ignite his audience, driving them toward a specific purpose with carefully chosen words and tones that may spark momentous change.",
 			"",
-			"**Famous:** At 1st level, a demagogue is famous in a particular region. This works like the [famous ability of the celebrity bard archetype](archetype-bard/celebrity), except the demagogue's skill bonuses apply to Bluff and Intimidate instead of Diplomacy and Intimidate. This ability replaces inspire courage +1.",
+			"**Famous:** At 1st level, a demagogue is famous in a particular region. This works like the {archetype-bard/famous ability of the |celebrity/ bard archetype}, except the demagogue's skill bonuses apply to Bluff and Intimidate instead of Diplomacy and Intimidate. This ability replaces inspire courage +1.",
 			"",
 			"**Bardic Performance:** A demagogue gains the following type of bardic performance.",
 			"",
-			"**Gather Crowd (Ex):** At 5th level, the demagogue gains the ability to quickly gather a crowd. This is identical to the [gather crowd ability of the celebrity bard archetype](archetype-bard/celebrity). This ability replaces lore master.",
+			"**Gather Crowd (Ex):** At 5th level, the demagogue gains the ability to quickly gather a crowd. This is identical to the {archetype-bard/gather crowd ability of the |celebrity/ bard archetype}. This ability replaces lore master.",
 			"",
 			"**Incite Violence (Ex):** At 6th level, the demagogue can use his performance to fan the fury of a crowd of people he has fascinated. Using this ability does not disrupt the fascinate effect, but does require a standard action to activate (in addition to the free action to continue the fascinate effect). The bard selects a number of targets equal to his level, who must make Will saves (DC 10 + 1/2 the bard's level + the bard's Charisma modifier) or be affected by {spell/rage} for a number of rounds equal to the bard's level. The bard indicates who is the intended target of violence (either after using this ability or as part of the performance leading to it) and the enraged members of the crowd immediately attack the target if possible. The target does not need to be present (\"kill the king\" is a suitable choice) and can be an object instead of a person (\"destroy the prison!\" is likewise appropriate). Other members of the crowd may follow suit, though they do not gain the benefits of {spell/rage}. This is a sound-based effect and is affected by countersong. If two or more bards are attempting to direct the crowd against different targets, they must make opposed Charisma checks, with the crowd following the directions of the winner. This ability replaces suggestion.",
 			"",
@@ -870,7 +870,7 @@
 			"",
 			"This ability alters the First World minstrel's spell list.",
 			"",
-			"**Wild Empathy (Ex):** A First World minstrel gains the [wild empathy druid class feature](class/druid), using his bard level as his druid level for this ability.",
+			"**Wild Empathy (Ex):** A First World minstrel gains the {class/wild empathy |druid/ class feature}, using his bard level as his druid level for this ability.",
 			"",
 			"This ability replaces bardic knowledge.",
 			"",
@@ -884,7 +884,7 @@
 			"",
 			"This ability replaces dirge of doom.",
 			"",
-			"**Resist Nature's Lure (Ex):** At 2nd level, a First World minstrel gains the [resist nature's lure druid class feature.](class/druid).",
+			"**Resist Nature's Lure (Ex):** At 2nd level, a First World minstrel gains the {class/resist nature's lure |druid/ class feature.}.",
 			"",
 			"This ability replaces well-versed."
 		]
@@ -1096,7 +1096,7 @@
 			"",
 			"If the juggler is affected by any action or condition that would require a concentration check while he is juggling, he must attempt a Sleight of Hand check to continue juggling and avoid losing concentration. The check's DC is the same as a concentration check, treating the spell level as twice the number of objects being juggled. If the juggler fails his Sleight of Hand check, he drops all juggled objects but one, determined randomly. This ability replaces versatile performance.",
 			"",
-			"**Evasion (Ex):** At 2nd level, a juggler gains [evasion, as the rogue class feature of the same name](class/rogue). At 12th level, he gains improved evasion, as the [rogue advanced talent](ability/advanced_rogue_talents). This ability replaces well-versed and soothing performance."
+			"**Evasion (Ex):** At 2nd level, a juggler gains {class/evasion, as the |rogue/ class feature of the same name}. At 12th level, he gains improved evasion, as the [rogue advanced talent](ability/advanced_rogue_talents). This ability replaces well-versed and soothing performance."
 		]
 	},
 	"lotus_geisha": {
@@ -1186,7 +1186,7 @@
 			"",
 			"**Expanded Repertoire (Ex):** At 2nd level and every four levels thereafter, a magician can add one spell to his spells known from the spell list of any arcane spellcasting class. The spell must be of a level he can cast. This ability replaces versatile performance.",
 			"",
-			"**Arcane Bond (Ex):** At 5th level, a magician gains the [arcane bond ability as a wizard](class/wizard). He may not choose a familiar or a weapon as a bonded item. This ability replaces lore master.",
+			"**Arcane Bond (Ex):** At 5th level, a magician gains the {class/arcane bond ability as a |wizard}. He may not choose a familiar or a weapon as a bonded item. This ability replaces lore master.",
 			"",
 			"**Wand Mastery (Ex):** At 10th level, when a magician uses a wand containing a spell on his spell list, he uses his Charisma bonus to set the wand's save DC. At 16th level, when using such a wand, he uses his caster level in place of the wand's caster level. This ability replaces jack of all trades."
 		]
@@ -1904,7 +1904,7 @@
 			"",
 			"This replaces bardic knowledge.",
 			"",
-			"**Wasteland Specialist (Ex):** At 3rd level and every 5 levels thereafter, the wasteland chronicler gains the benefits of the [favored terrain ranger class feature](class/ranger), but the wasteland chronicler can choose only cold, desert, mountain, or swamp from the ranger's favored terrain list. In addition, the wasteland chronicler adds half his level (minimum 1) as a bonus on Diplomacy checks to influence the attitude of wasteland dwellers.",
+			"**Wasteland Specialist (Ex):** At 3rd level and every 5 levels thereafter, the wasteland chronicler gains the benefits of the {class/favored terrain |ranger/ class feature}, but the wasteland chronicler can choose only cold, desert, mountain, or swamp from the ranger's favored terrain list. In addition, the wasteland chronicler adds half his level (minimum 1) as a bonus on Diplomacy checks to influence the attitude of wasteland dwellers.",
 			"",
 			"If the wasteland chronicler has the favored terrain ability from any other classes, the levels from these different sources stack for the purposes of improving the bonuses of selected favored terrains and choosing new favored terrains.",
 			"",

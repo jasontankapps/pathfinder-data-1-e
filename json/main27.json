@@ -1156,7 +1156,7 @@
 				"",
 				"**Fleshcraft Grafts:** Creating a fleshcraft graft requires the {feat/Fleshwarper} feat and an alchemy lab worth at least 1,000 gp as well as 1 pound of living tissue per 1,000 gp value of the graft to be created. Creating a fleshcraft graft is like creating a magic item and requires 1 day of crafting time per 1,000 gp of the graft's value.",
 				"",
-				"Applying a fleshcraft graft to a target requires a 1-hour surgical procedure, during which time the subject must be either willing or helpless. At the end of the hour, the surgeon must attempt a Heal check against the graft's listed DC. Failure indicates the patient's body rejects the graft and the graft dies. Regardless of the surgery's success, the subject takes 1d4 points of Constitution damage and 1d4 points of Wisdom damage (or 1d8 points of sanity damage, if employing the [sanity system](rule/sanity)). Although fleshcraft grafts are not magical, some occupy a magic item slot on the body, preventing that slot from being used for any magic item or other graft.",
+				"Applying a fleshcraft graft to a target requires a 1-hour surgical procedure, during which time the subject must be either willing or helpless. At the end of the hour, the surgeon must attempt a Heal check against the graft's listed DC. Failure indicates the patient's body rejects the graft and the graft dies. Regardless of the surgery's success, the subject takes 1d4 points of Constitution damage and 1d4 points of Wisdom damage (or 1d8 points of sanity damage, if employing the {rule/sanity/ system}). Although fleshcraft grafts are not magical, some occupy a magic item slot on the body, preventing that slot from being used for any magic item or other graft.",
 				"",
 				"A fleshcraft graft can be removed with another hour-long surgery and a successful Heal check against the original DC. On a failure, either the graft remains or the surgeon removes the graft, destroying it and killing the subject (surgeon's choice). Alternatively, the surgeon can remove the graft more delicately and use healing magic to save the subject, attempting a DC 15 Heal check and applying a heal or regenerate spell immediately afterward. Failing this Heal check always results in the destruction of both graft and subject. A successful surgery removes and destroys the graft. Regardless of the method used and the surgery's success, the subject takes 1d4 points of Constitution damage and 1d4 points of Wisdom damage (or 1d8 points of sanity damage, if using the sanity system).",
 				"",
@@ -1346,7 +1346,7 @@
 			"# Magical Tattoos ! tattoos",
 			[
 				"**Source:** {source/Inner Sea Magic}  ",
-				"Though known to almost any culture that practices ritual tattooing, tattoo magic is most often employed by Varisian spellcasters. Their [tattooed sorcerers](archetype-sorcerer/tattooed_sorcerer) bind magic into intricate patterns upon their flesh, and even awaken tattoos into sentient art. Yet the wonders of tattoo magic are not limited to sorcerers: any spellcaster can craft magical tattoos, given the proper training.",
+				"Though known to almost any culture that practices ritual tattooing, tattoo magic is most often employed by Varisian spellcasters. Their {archetype-sorcerer/tattooed sorcerer/s} bind magic into intricate patterns upon their flesh, and even awaken tattoos into sentient art. Yet the wonders of tattoo magic are not limited to sorcerers: any spellcaster can craft magical tattoos, given the proper training.",
 				"",
 				"{table4}"
 			],

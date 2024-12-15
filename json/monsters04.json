@@ -175,7 +175,7 @@
 			"",
 			"**Corrosive Wake (Ex)** This ability functions as the [bore worm monarch's](monster/bore_worm_monarch) ability of the same name, except it leaves a 10-foot-diameter tunnel in its wake.",
 			"",
-			"**Viviparous Birth (Ex)** In an effort to preserve the next generation, an empress bore worm violently expunges any young .it may be carrying when it dies; these young function as 1d6 [bore worm swarms](monster/bore_worm_swarm). In addition, the empress bore worm explodes in a burst of caustic blood and ichor, dealing 12d6 points of acid damage to all creatures in a 30-foot-radius burst (Reflex DC 22 half). The save DC is Constitution-based.",
+			"**Viviparous Birth (Ex)** In an effort to preserve the next generation, an empress bore worm violently expunges any young .it may be carrying when it dies; these young function as 1d6 {monster/bore worm swarm/s}. In addition, the empress bore worm explodes in a burst of caustic blood and ichor, dealing 12d6 points of acid damage to all creatures in a 30-foot-radius burst (Reflex DC 22 half). The save DC is Constitution-based.",
 			"",
 			"#### Description",
 			"",

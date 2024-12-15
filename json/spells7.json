@@ -1261,7 +1261,7 @@
 			"",
 			"The affected creature can attempt a new saving throw once per day to end night terrors, but multiple attempts to rest in a given day do not afford the target multiple saves. A creature that successfully saves against night terrors ends the spell and rests normally that night but gains the benefits of only that night's rest, not any benefits missed on previous nights.",
 			"",
-			"If your campaign uses [the sanity system](rule/sanity), the target takes 1d8 points of sanity damage instead of Wisdom damage."
+			"If your campaign uses {rule/the |sanity/ system}, the target takes 1d8 points of sanity damage instead of Wisdom damage."
 		]
 	},
 	"nightmare": {
@@ -3899,7 +3899,7 @@
 			"",
 			"You create a phantasmal image of the most fearsome creature imaginable to the subject simply by forming the fears of the subject's subconscious mind into something that its conscious mind can visualize: this most horrible beast. Only the spell's subject can see the phantasmal killer. You see only a vague shape. The target first gets a Will save to recognize the image as unreal. If that save fails, the phantasm touches the subject, and the subject must succeed on a Fortitude save or die from fear. Even if the Fortitude save is successful, the subject takes 3d6 points of damage.",
 			"",
-			"If the subject of a phantasmal killer attack succeeds in disbelieving and possesses telepathy or is wearing a helm of telepathy, the beast can be turned upon you. You must then disbelieve it or become subject to its deadly fear attack.",
+			"If the subject of a phantasmal killer attack succeeds in disbelieving and possesses telepathy or is wearing a {magic-wondrous/helm of telepathy}, the beast can be turned upon you. You must then disbelieve it or become subject to its deadly fear attack.",
 			"",
 			"### Mythic Phantasmal Killer",
 			"",
@@ -3931,11 +3931,11 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Will disbelief, then Fortitude partial (see text); **Spell Resistance** yes",
 			"",
-			"You implant within the minds of your targets the illusion that their skin is rotting away, large rents are appearing all over their bodies, and their internal organs are spilling out into a putrid half-liquid mass at their feet. Those who fail to disbelieve phantasmal putrefaction immediately take 1d4 points of Wisdom damage. This damage occurs only once. Each round at the beginning of its turn, an affected target receives another Will save to disbelieve the effect, and targets that fail must succeed at a Fortitude save or faint, falling asleep as per sleep (except that it isn't a magical sleep effect). Waking up doesn't end the spell for a target; it must continue to attempt Will saves to disbelieve and Fortitude saves to avoid fainting each round until the spell ends or the target successfully disbelieves.",
+			"You implant within the minds of your targets the illusion that their skin is rotting away, large rents are appearing all over their bodies, and their internal organs are spilling out into a putrid half-liquid mass at their feet. Those who fail to disbelieve phantasmal putrefaction immediately take 1d4 points of Wisdom damage. This damage occurs only once. Each round at the beginning of its turn, an affected target receives another Will save to disbelieve the effect, and targets that fail must succeed at a Fortitude save or faint, falling asleep as per {spell/sleep} (except that it isn't a magical sleep effect). Waking up doesn't end the spell for a target; it must continue to attempt Will saves to disbelieve and Fortitude saves to avoid fainting each round until the spell ends or the target successfully disbelieves.",
 			"",
-			"**Target**s of the spell perceive everyone else around them to be rotting away, but other creatures see no visible effect of the spell, so they, in addition to those who disbelieve, can communicate the nature of the illusion to allies, providing those allies with a +4 bonus on the saving throw to disbelieve.",
+			"Targets of the spell perceive everyone else around them to be rotting away, but other creatures see no visible effect of the spell, so they, in addition to those who disbelieve, can communicate the nature of the illusion to allies, providing those allies with a +4 bonus on the saving throw to disbelieve.",
 			"",
-			"If your campaign uses [the sanity system](rule/sanity), a creature takes 1d8 points of sanity damage instead of Wisdom damage."
+			"If your campaign uses {rule/the |sanity/ system}, a creature takes 1d8 points of sanity damage instead of Wisdom damage."
 		]
 	},
 	"phantasmal_reminder": {
@@ -3961,7 +3961,7 @@
 			"",
 			"You create a memory loop of a successful attack made against the target, forcing its conscious mind to recall the details of the attack in such excruciating detail that its physical body is racked by the recollection. This spell can affect only a creature that has taken damage since the end of your last turn. The target first can attempt a Will save to recognize the attack as unreal. If it fails that saving throw, the target must succeed at a Fortitude save or take an amount of damage equal to 1d6 &times; your caster level (maximum 10d6). Because the damage is a quasi-real memory of existing wounds, this damage can't be reduced or prevented (such as by the {spell/shield other} spell).",
 			"",
-			"If the target of a phantasmal reminder attack succeeds at the Will save to disbelieve the memory loop and either has natural telepathy or is wearing a helm of telepathy, the memory of damage automatically rebounds to affect you. You must immediately attempt a Will save to disbelieve; if you fail, you take half the spell's damage yourself."
+			"If the target of a phantasmal reminder attack succeeds at the Will save to disbelieve the memory loop and either has natural telepathy or is wearing a {magic-wondrous/helm of telepathy}, the memory of damage automatically rebounds to affect you. You must immediately attempt a Will save to disbelieve; if you fail, you take half the spell's damage yourself."
 		]
 	},
 	"phantasmal_revenge": {
@@ -4013,11 +4013,11 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Will disbelief, then Fortitude partial, see text; **Spell Resistance** yes",
 			"",
-			"You implant within the minds of your targets the illusion that they are engulfed in tangled webs teeming with swarms of tiny spiders. Those who fail to disbelieve the phantasmal web are treated as if in a web spell, but must also make a Fortitude save at the beginning of each turn or become nauseated for that round by the phantasmal spiders.",
+			"You implant within the minds of your targets the illusion that they are engulfed in tangled webs teeming with swarms of tiny spiders. Those who fail to disbelieve the phantasmal web are treated as if in a {spell/web} spell, but must also make a Fortitude save at the beginning of each turn or become nauseated for that round by the phantasmal spiders.",
 			"",
-			"As the phantasmal web exists only in the minds of the targets, it cannot be burned or destroyed, and it provides no cover (though it does provide concealment) against attacks made by the targets. Targets cannot escape the phantasmal web by moving, even by teleportation. Freedom of movement allows unobstructed movement but does not negate the concealment or nausea effects.",
+			"As the phantasmal web exists only in the minds of the targets, it cannot be burned or destroyed, and it provides no cover (though it does provide concealment) against attacks made by the targets. Targets cannot escape the phantasmal web by moving, even by teleportation. {spell/Freedom of movement} allows unobstructed movement but does not negate the concealment or nausea effects.",
 			"",
-			"**Target**s of the spell perceive everyone else around them to be engulfed in webs and swarming spiders, but the spell has no visible effect to other creatures (who may assist allies to disbelieve the effect)."
+			"Targets of the spell perceive everyone else around them to be engulfed in webs and swarming spiders, but the spell has no visible effect to other creatures (who may assist allies to disbelieve the effect)."
 		]
 	},
 	"phantom_blood": {

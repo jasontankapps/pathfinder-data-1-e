@@ -7,7 +7,16 @@ import mainTest from './test-main.js';
 import rulesTest from './test-rules.js';
 import linksTest from './test-links.js';
 
-const data = [...basicsTest(), classTest(), ...equipTest(), ...magicTest(), mainTest(), rulesTest(), ...archTest(), linksTest()];
+const data = [
+	...basicsTest(),
+	classTest(),
+	...equipTest(),
+	...magicTest(),
+	mainTest(),
+	rulesTest(),
+	...archTest(),
+	linksTest()
+];
 
 const output = [];
 
@@ -22,6 +31,6 @@ data.forEach(result => {
 	}
 });
 
-output.unshift(`OK: ${ok.join(", ")}`);
+output.unshift(`OK: ${ok.sort().join(", ")}.`);
 
 console.log(output.join("\n\n"));

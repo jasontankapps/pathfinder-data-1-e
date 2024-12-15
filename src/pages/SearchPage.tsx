@@ -32,7 +32,13 @@ import {
 	IonToolbar,
 	useIonViewDidEnter
 } from '@ionic/react';
-import { closeCircle, filterCircle, close as closePlain, filter as filterIcon, helpCircle } from 'ionicons/icons';
+import {
+	closeCircle,
+	filterCircle,
+	close as closePlain,
+	filter as filterIcon,
+	helpCircle
+} from 'ionicons/icons';
 import { RangeStartToEndMinusOne } from '../types';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
@@ -48,6 +54,8 @@ interface Item {
 	subtitle?: string
 	tags?: string
 }
+
+type SearchIndex = RangeStartToEndMinusOne<1, 13>;
 
 interface ParallelItem {
 	t: number // type
@@ -73,8 +81,6 @@ interface ParallelItem {
 
 function isIndex(value: unknown): asserts value is Item[] {}
 isIndex(fuseIndex);
-
-type SearchIndex = RangeStartToEndMinusOne<1, 13>;
 
 const allSearchFiltersActive: SearchIndex[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const nothingActive: SearchIndex[] = [];

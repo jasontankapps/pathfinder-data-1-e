@@ -201,7 +201,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/70}",
 			"",
-			"Unlike a deity, a demigod is represented in game with statistics, ranging in power from CR 26 to CR 30. [Archdevils](family/archdevil), [demon lords](family/demon_lord), [empyreal lords](family/empyreal_lord), and [Great Old Ones](family/great_old_one) are all examples of demigods. A demigod who controls a planar realm can effect physical change in that realm by thought, but such changes are not instantaneous. Beyond the reach of its realm, a demigod must rely upon its own abilities and magic to effect such changes.",
+			"Unlike a deity, a demigod is represented in game with statistics, ranging in power from CR 26 to CR 30. [Archdevils](family/archdevil), {family/demon lord/s}, {family/empyreal lord/s}, and [Great Old Ones](family/great_old_one) are all examples of demigods. A demigod who controls a planar realm can effect physical change in that realm by thought, but such changes are not instantaneous. Beyond the reach of its realm, a demigod must rely upon its own abilities and magic to effect such changes.",
 			"",
 			"Demigods grant their clerics access to four domains."
 		],
@@ -224,7 +224,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/70}",
 			"",
-			"Quasi deities are the least powerful of the divine, and the most eclectic in their nature. A quasi deity has a stat block, and can be of any CR (although the vast majority lie in the CR 21-25 range). Nascent demon lords, the malebranche, and qlippoth lords are all examples of quasi deities, as are creatures like [deep one elders](monster/elder_deep_one), [conqueror worms](monster/conqueror_worm), and [green men](monster/green_man), who have the ability to grant spells to clerics. Mythic characters who take the [divine source path ability](rule/universal_path_abilities) are also quasi deities.",
+			"Quasi deities are the least powerful of the divine, and the most eclectic in their nature. A quasi deity has a stat block, and can be of any CR (although the vast majority lie in the CR 21-25 range). Nascent demon lords, the malebranche, and qlippoth lords are all examples of quasi deities, as are creatures like [deep one elders](monster/elder_deep_one), {monster/conqueror worm/s}, and [green men](monster/green_man), who have the ability to grant spells to clerics. Mythic characters who take the [divine source path ability](rule/universal_path_abilities) are also quasi deities.",
 			"",
 			"Quasi deities have no inborn ability to shape and alter reality by thought alone, even if they somehow gain control of a planar realm, and must rely upon their own abilities and magic to effect changes of this nature.",
 			"",
@@ -1521,7 +1521,7 @@
 			"",
 			"Between the suffusion of positive energy throughout the First World and the unique qualities drafted into its planar tapestry, the cycle of life and death is not linear as it is on the Material Plane. Creatures native to the First World that die either are outright reborn anywhere from a day to a year after their death or are otherwise recycled into the plane and reconstituted as another member of their kind. Some creatures even lead asynchronous lives, having memories of versions of themselves that have not come to pass (or may never) rather than just memories of their pasts. As such, natives of the First World do not always understand the concept of death; this can lead to deadly misunderstandings with travelers from the Material Plane or natives of the First World stranded on the Material Plane. In the latter case, the death of a First World native on the Material Plane is the absolute end of its life, and the soul is instead subject to the rules of the Material Plane - often without realizing it until it is too late.",
 			"",
-			"Notable inhabitants of the First World include creatures of the animal, fey, plant, and vermin types. Of the fey, the most legendary of the First World denizens are the members of the {family/wild hunt}, but all fey have ties back to this realm. Beyond animals, fey, and plants, the following creatures are among those most often encountered in this dimension: [almirajes](monster/almiraj), [animal lords](template/animal_lord), [bandersnatches](monster/bandersnatch), [blink dogs](monster/blink_dog), [catoblepases](monster/catoblepas), {monster/cerynitis}, {monster/delgeth/s}, {monster/drakainia/s}, [drakes (all)](family/drake), [elementals (all)](family/elemental), [elohims](monster/elohim_mythic), {monster/ettercap/s}, {monster/fachen/s}, [faerie dragons](monster/faerie_dragon), [fey creatures](type/fey), [giant eagles](monster/giant_eagle), {monster/grodair/s}, {monster/grootslang/s}, {monster/jabberwock/s}, [jubjub birds](monster/jubjub_bird), {monster/leucrotta/s}, {family/linnorm/s}, {monster/manitou/s}, [pegasi](monster/pegasus), {monster/sard/s}, [shining children](monster/shining_child), {monster/thrasfyr/s}, {monster/thunderbird/s}, {monster/unicorn/s}, {monster/vishap/s}, {monster/wendigo/s}, [will-o'-wisps](monster/will_o_wisp), {monster/worg/s}, [winter wolves](monster/winter_wolf), and [yeth hounds](monster/yeth_hound). Undead are incredibly rare in the First World, but those that do exist there tend to be powerful and unique."
+			"Notable inhabitants of the First World include creatures of the animal, fey, plant, and vermin types. Of the fey, the most legendary of the First World denizens are the members of the {family/wild hunt}, but all fey have ties back to this realm. Beyond animals, fey, and plants, the following creatures are among those most often encountered in this dimension: [almirajes](monster/almiraj), {template/animal lord/s}, [bandersnatches](monster/bandersnatch), {monster/blink dog/s}, [catoblepases](monster/catoblepas), {monster/cerynitis}, {monster/delgeth/s}, {monster/drakainia/s}, [drakes (all)](family/drake), [elementals (all)](family/elemental), [elohims](monster/elohim_mythic), {monster/ettercap/s}, {monster/fachen/s}, {monster/faerie dragon/s}, {type/fey/ creatures}, {monster/giant eagle/s}, {monster/grodair/s}, {monster/grootslang/s}, {monster/jabberwock/s}, {monster/jubjub bird/s}, {monster/leucrotta/s}, {family/linnorm/s}, {monster/manitou/s}, [pegasi](monster/pegasus), {monster/sard/s}, [shining children](monster/shining_child), {monster/thrasfyr/s}, {monster/thunderbird/s}, {monster/unicorn/s}, {monster/vishap/s}, {monster/wendigo/s}, [will-o'-wisps](monster/will_o_wisp), {monster/worg/s}, [winter wolves](monster/winter_wolf), and {monster/yeth hound/s}. Undead are incredibly rare in the First World, but those that do exist there tend to be powerful and unique."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -2188,13 +2188,13 @@
 			"",
 			"***Cybernetics Lab (100 charges):*** A cybernetics lab is used to craft [cybernetic equipment](main/tech_cybertech) and devices that interface directly with a living creature's biology.",
 			"",
-			"***Graviton Lab (250 charges):*** A graviton lab is used to craft items that utilize graviton technology, such as [gravity rifles](tech-weapon/gravity_rifle), [force fields](tech-misc/force_field_black), and {tech-misc/magboots}.",
+			"***Graviton Lab (250 charges):*** A graviton lab is used to craft items that utilize graviton technology, such as {tech-weapon/gravity rifle/s}, [force fields](tech-misc/force_field_black), and {tech-misc/magboots}.",
 			"",
-			"***Medical Lab (20 charges):*** This lab is used to craft medical items like [trauma packs](tech-misc/trauma_pack) and {tech-misc/medlance/s} and pharmaceuticals.",
+			"***Medical Lab (20 charges):*** This lab is used to craft medical items like {tech-misc/trauma pack/s} and {tech-misc/medlance/s} and pharmaceuticals.",
 			"",
 			"***Military Lab (100 charges):*** A military lab is used to craft [weapons](main/tech_weapons) that don't require more specialized laboratories.",
 			"",
-			"***Nanotech Lab (150 charges):*** This lab is used to craft devices that utilize nanotechnology, such as [id rifles](tech-weapon/id_rifle).",
+			"***Nanotech Lab (150 charges):*** This lab is used to craft devices that utilize nanotechnology, such as {tech-weapon/id rifle/s}.",
 			"",
 			"***Production Lab (50 charges):*** A production lab is used to craft objects that don't require more specialized laboratories."
 		],

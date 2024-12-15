@@ -2355,7 +2355,7 @@
 			"**Areas of Concern** Cycle of life, earth, knowledge  ",
 			"**Domains** {domain/Community}, {domain/Death}, {domain/Earth}, {domain/Knowledge}, {domain/Plant}  ",
 			"**Subdomains** [Caves](domain/earth), [Family](domain/community), {domain/Growth}, [Home](domain/community), [Memory](domain/knowledge), [Thought](domain/knowledge)  ",
-			"**Favored Weapon** [Stone dagger](equipment-weapon/dagger)  ",
+			"**Favored Weapon** {equipment-weapon/Stone |dagger}  ",
 			"**Symbol** Mountain and moon  ",
 			"**Sacred Animal(s)** Mammoth  ",
 			"**Sacred Color(s)** Brown, ivory",

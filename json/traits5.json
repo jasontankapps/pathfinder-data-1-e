@@ -1947,7 +1947,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Reign of Winter",
 			"",
-			"You don't trust witches. They deal with otherworldly beings, consort with beasts, and brew vile poisons in their cauldrons. As a child, perhaps you barely escaped some horrid fate at the hands of an evil witch, or maybe a loved one was stolen from you by a witch's charms. Perhaps you wanted to be a witch yourself, but the local witch refused to take you on as an apprentice. Whatever the reason, you now hate witches, and have dedicated your life to ferreting them out and exposing their wickedness for all to see. You know that the North is full of winter witches, and should you ever find yourself there, you'll relish bringing your justice to them as well. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you. In addition, you begin the campaign with 1d4 [hex nails](magic-wondrous/hex_nail)."
+			"You don't trust witches. They deal with otherworldly beings, consort with beasts, and brew vile poisons in their cauldrons. As a child, perhaps you barely escaped some horrid fate at the hands of an evil witch, or maybe a loved one was stolen from you by a witch's charms. Perhaps you wanted to be a witch yourself, but the local witch refused to take you on as an apprentice. Whatever the reason, you now hate witches, and have dedicated your life to ferreting them out and exposing their wickedness for all to see. You know that the North is full of winter witches, and should you ever find yourself there, you'll relish bringing your justice to them as well. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you. In addition, you begin the campaign with 1d4 {magic-wondrous/hex nail/s}."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -2630,7 +2630,7 @@
 			"The arcane adept has collected useful magical gear to ensure her success on her adventures, and she prides herself on having just the right tool for the job. This equipment package is appropriate for an arcanist, sorcerer, witch, or wizard. Some bards and summoners might also find it attractive. This equipment package can also work for a magus if the 1st-level scrolls and wand are replaced with a masterwork melee weapon.",
 			"",
 			"**Weapons:** Light crossbow with 10 bolts, quarterstaff.  ",
-			"**Combat Gear:** Acid (2), [scrolls of comprehend languages](spell/comprehend_languages) (2), [scroll of detect secret doors](spell/detect_secret_doors), [scroll of glitterdust](spell/glitterdust), [scrolls of identify](spell/identify) (2), [scroll of mount](spell/mount), [scroll of rope trick](spell/rope_trick), thunderstone, [wand of mage armor](spell/mage_armor) (16 charges).  ",
+			"**Combat Gear:** Acid (2), {spell/scrolls of |comprehend languages} (2), {spell/scroll of |detect secret doors}, {spell/scroll of |glitterdust}, {spell/scrolls of |identify} (2), {spell/scroll of |mount}, {spell/scroll of |rope trick}, thunderstone, {spell/wand of |mage armor} (16 charges).  ",
 			"**Other Gear:** Backpack, bedroll, belt pouch, candles (5), chalk (5 pieces), flint and steel, ink, inkpen, ioun torch, journal, magnifying glass, mess kit, scroll box, silk rope (50 ft.), spell component pouch, trail rations (5 days), waterskin, 3 gp.  ",
 			"**Total Weight:** 45 lbs. (28-3/4 lbs. for a Small character).",
 			"",
@@ -2650,7 +2650,7 @@
 			"",
 			"**Armor:** Masterwork breastplate.  ",
 			"**Weapons:** Heavy crossbow with 10 bolts, heavy mace, masterwork longsword.  ",
-			"**Combat Gear:** Alchemist's fire, [potion of mage armor](spell/mage_armor), [potion of shield](spell/shield), [oil of magic weapon](spell/magic_weapon).  ",
+			"**Combat Gear:** Alchemist's fire, {spell/potion of |mage armor}, {spell/potion of |shield}, {spell/oil of |magic weapon}.  ",
 			"**Other Gear:** Backpack, bedroll, candles (5), chalk (5 pieces), crowbar, ioun torch, mess kit, shovel, silk rope (50 ft.), trail rations (5 days), waterskin, 10 gp.  ",
 			"**Total Weight:** 87 lbs. (48-1/2 lbs. for a Small character).",
 			"",
@@ -2679,7 +2679,7 @@
 			"The lore seeker has the equipment necessary to delve into ancient ruins searching for lost knowledge. As this equipment package contains little by way of armor or weapons, it is most appropriate for alchemists, bards, monks, sorcerers, and wizards. If the PC can cast spells, add a spell component pouch and a holy symbol (if required).",
 			"",
 			"**Weapons:** Light crossbow with 10 bolts, quarterstaff, silver dagger.  ",
-			"**Combat Gear:** Alchemist's fire (3), antitoxin, [oil of erase](spell/erase), [potions of cure light wounds](spell/cure_light_wounds) (2), [potion of protection from evil](spell/protection_from_evil), tanglefoot bag, thunderstone.  ",
+			"**Combat Gear:** Alchemist's fire (3), antitoxin, {spell/oil of |erase}, {spell/potions of |cure light wounds} (2), {spell/potion of |protection from evil}, tanglefoot bag, thunderstone.  ",
 			"**Other Gear:** Backpack, bedroll, belt pouch, candles (5), chalk (5 pieces), compass, crowbar, everburning torch, flint and steel, grappling hook, ink, inkpens (2), journals (2), magnifying glass, mapmaker's kit, mess kit, sack, signal whistle, silk rope (50 ft.), trail rations (5 days), traveler's any-tool, waterskin, 8 gp.  ",
 			"**Total Weight:** 44 lbs. (27-3/4 lbs. for a Small character).",
 			"",

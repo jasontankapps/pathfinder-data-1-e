@@ -4226,7 +4226,7 @@
 			"| 21+ | 32 | (+11) |",
 			"",
 			"Conversing with a spirit in this manner unsettles the mind. Each time you attempt a Diplomacy check using this ability to influence the spirit's attitude or make a request, you take 1 point of Wisdom damage. No effect can prevent or reduce the ability damage, nor can the ability damage be healed or suppressed by any means until you release the spirit.  ",
-			"**Special:** If you are using the [sanity system](rule/sanity), when you attempt a Diplomacy check using this ability, you take 1d6 points of sanity damage instead of 1 point of Wisdom damage. No effect can prevent or reduce the damage, nor can the damage be healed or suppressed by any means until you release the spirit."
+			"**Special:** If you are using the {rule/sanity/ system}, when you attempt a Diplomacy check using this ability, you take 1d6 points of sanity damage instead of 1 point of Wisdom damage. No effect can prevent or reduce the damage, nor can the damage be healed or suppressed by any means until you release the spirit."
 		]
 	},
 	"spirit_symbiosis": {
