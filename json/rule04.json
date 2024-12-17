@@ -1021,12 +1021,12 @@
 			"",
 			"### Conditions That Alter DCs",
 			"",
-			"| Condition | DC Adjustment&#42; |",
+			"| Condition | DC Adjustment\\* |",
 			"| --- | --- |",
 			"| Hold portal | +5 |",
 			"| Arcane lock | +10 |",
 			"",
-			"&#42; If both apply, use the larger number.",
+			"\\* If both apply, use the larger number.",
 			"",
 			"[^1]: Add +2 for each +1 enhancement bonus of magic items.",
 			"[^2]: The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium. Add 10 hp for each +1 enhancement bonus of magic items.",
@@ -1868,8 +1868,11 @@
 	},
 	"aiming_a_spell": {
 		"name": "Aiming a Spell",
-		"tags": "magic spellcasting",
-		"sources": [ "PRPG Core Rulebook" ],
+		"tags": "magic spellcasting burst emanation spread targets ray line of effect spread area cone cylinder line sphere shapeable large casters",
+		"sources": [
+			"PRPG Core Rulebook",
+			"Pathfinder #91: Battle of Bloodmarch Hills"
+		],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/213}",
 			"",
@@ -1897,7 +1900,7 @@
 			"",
 			"***Area:*** Some spells affect an area. Sometimes a spell description specifies a specially defined area, but usually an area falls into one of the categories defined below.",
 			"",
-			"Regardless of the shape of the area, you select the point where the spell originates, but otherwise you don't control which creatures or objects the spell affects. The point of origin of a spell is always a grid intersection. When determining whether a given creature is within the area of a spell, count out the distance from the point of origin in squares just as you do when moving a character or when determining the range for a ranged attack. The only difference is that instead of counting from the center of one square to the center of the next, you count from intersection to intersection.",
+			"Regardless of the shape of the area, you select the point where the spell originates, but otherwise you don't control which creatures or objects the spell affects. The point of origin of a spell is always a grid intersection.[^F] When determining whether a given creature is within the area of a spell, count out the distance from the point of origin in squares just as you do when moving a character or when determining the range for a ranged attack. The only difference is that instead of counting from the center of one square to the center of the next, you count from intersection to intersection.",
 			"",
 			"You can count diagonally across a square, but remember that every second diagonal counts as 2 squares of distance. If the far edge of a square is within the spell's area, anything within that square is within the spell's area. If the spell's area only touches the near edge of a square, however, anything within that square is unaffected by the spell.",
 			"",
@@ -1935,7 +1938,9 @@
 			"",
 			"A burst, cone, cylinder, or emanation spell affects only an area, creature, or object to which it has line of effect from its origin (a spherical burst's center point, a cone-shaped burst's starting point, a cylinder's circle, or an emanation's point of origin).",
 			"",
-			"An otherwise solid barrier with a hole of at least 1 square foot through it does not block a spell's line of effect. Such an opening means that the 5-foot length of wall containing the hole is no longer considered a barrier for purposes of a spell's line of effect."
+			"An otherwise solid barrier with a hole of at least 1 square foot through it does not block a spell's line of effect. Such an opening means that the 5-foot length of wall containing the hole is no longer considered a barrier for purposes of a spell's line of effect.",
+			"",
+			"[^F]: (**Source** {source/Pathfinder #91: Battle of Bloodmarch Hills/ pg. 72}) The rules for many character options in the Pathfinder RPG Core Rulebook and other Pathfinder RPG products often assume that creatures are Medium or Small. In the case of a handful of spells with areas that feature a \"radius emanation centered on you\" such as {spell/antimagic field}, {spell/aura of doom}, and {spell/zone of silence}, as well as some of the spells presented in this section, this can result in an area that is effectively useless when coming from a Large or larger caster. As an optional rule, when a creature casts an emanation or burst spell with the text \"centered on you,\" treat the creature's entire space as the spell's point of origin, and measure the spell's area or effect from the edge of the creature's space. For instance, an antimagic field cast by a fire giant would extend 10 feet beyond his space (effectively increasing the emanation's radius by 5 feet)."
 		],
 		"parent_topics": [
 			"basics",
@@ -2041,7 +2046,7 @@
 			"",
 			"### Table 9-2: Items Affected by Magical Attacks",
 			"",
-			"| Order&#42; | Item |",
+			"| Order\\* | Item |",
 			"| --- | --- |",
 			"| 1st | Shield |",
 			"| 2nd | Armor |",

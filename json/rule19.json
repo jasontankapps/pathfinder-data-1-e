@@ -1533,7 +1533,7 @@
 			"| Circumstance | Attacks, checks | {magic-wondrous/Robe of blending} | - |",
 			"| Competence | Attacks, checks, saves | {magic-wondrous/Boots of elvenkind} | {spell/Guidance} |",
 			"| Deflection | AC | [Ring of protection](magic-ring/ring_of_protection_1) | - |",
-			"| Dodge | AC | Never&#42; | Never&#42; |",
+			"| Dodge | AC | Never\\* | Never\\* |",
 			"| Enhancement | Ability scores, AC, attacks, damage, speed | [Belt of giant strength](magic-wondrous/belt_of_giant_strength_2) | {spell/Magic weapon} |",
 			"| Inherent | Ability scores | [Manual of bodily health](magic-wondrous/manual_of_bodily_health_1) | {spell/Wish} |",
 			"| Insight | AC, attacks, checks, saves | [Dusty rose prism ioun stone](magic-ioun/dusty_rose_prism) | {spell/True strike} |",
@@ -1546,7 +1546,7 @@
 			"| Shield | AC | {magic-ring/Ring of force shield} | {spell/Shield} |",
 			"| Size | Ability scores, attacks, AC | - | {spell/Enlarge person} |",
 			"",
-			"&#42; Spells and magic items should never grant dodge bonuses because dodge bonuses always stack, and it would be a simple matter achieving that AC using the armor, deflection, enhancement, and natural armor bonuses in the game."
+			"\\* Spells and magic items should never grant dodge bonuses because dodge bonuses always stack, and it would be a simple matter achieving that AC using the armor, deflection, enhancement, and natural armor bonuses in the game."
 		],
 		"parent_topics": [
 			"advanced_magic_topics",

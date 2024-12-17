@@ -3478,7 +3478,7 @@
 			"",
 			"In the case of spells that transport the caster and characters over a distance, you will likely have to pay for two castings of the spell (one for the caster to take you there and one for the caster to return), even if you aren't returning with the caster.",
 			"",
-			"Not every town or village has a spellcaster of sufficient level to cast any spell. In general, you must travel to a small town (or larger settlement) to be reasonably assured of finding a spellcaster capable of casting 1st-level spells, a large town for 2nd-level spells, a small city for 3rd- or 4th-level spells, a large city for 5th- or 6th-level spells, and a metropolis for 7th- or 8th-level spells. Even a metropolis isn't guaranteed to have a local spellcaster able to cast 9th-level spells.",
+			"Not every town or village has a spellcaster of sufficient level to cast any spell. In general, you must travel to [a small town (or larger settlement)](rule/the_shape_of_civilization) to be reasonably assured of finding a spellcaster capable of casting 1st-level spells, a large town for 2nd-level spells, a small city for 3rd- or 4th-level spells, a large city for 5th- or 6th-level spells, and a metropolis for 7th- or 8th-level spells. Even a metropolis isn't guaranteed to have a local spellcaster able to cast 9th-level spells.",
 			"",
 			"### Cost Grid",
 			"",
@@ -4793,23 +4793,20 @@
 			"| &times;250 | +6 |"
 		]
 	},
-	"telescope_times10": {
-		"copyof": "telescope_x10"
-	},
+	"telescope_times10": { "copyof": "telescope_x10" },
+	"telescope_10": { "copyof": "telescope_x10" },
 	"telescope_x250": {
 		"name": "Telescope (&times;250)",
 		"copyof": "telescope_x10"
 	},
-	"telescope_times250": {
-		"copyof": "telescope_x250"
-	},
+	"telescope_times250": { "copyof": "telescope_x250" },
+	"telescope_250": { "copyof": "telescope_x250" },
 	"telescope_x50": {
 		"name": "Telescope (&times;50)",
 		"copyof": "telescope_x10"
 	},
-	"telescope_times50": {
-		"copyof": "telescope_x50"
-	},
+	"telescope_times50": { "copyof": "telescope_x50" },
+	"telescope_50": { "copyof": "telescope_x50" },
 	"tennis_gear": {
 		"name": "Tennis gear",
 		"sources": [ "Ultimate Equipment" ],

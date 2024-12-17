@@ -1,34 +1,24 @@
 {
-	"environment": {
-		"name": "Environment",
-		"subtopics": [
-			"dungeons",
-			"traps",
-			"wilderness",
-			"urban_adventures",
-			"weather",
-			"the_planes",
-			"environmental_rules"
-		],
-		"description": [
-			"These topics explore different places the players may venture into."
-		]
-	},
 	"dungeons": {
 		"name": "Dungeons",
-		"subtitle": "Environment",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
 			"",
 			"Of all the strange places that an adventurer might explore, none is deadlier than the dungeon. These labyrinths, full of deadly traps, hungry monsters, and priceless treasure, test every skill a character possesses. These rules can apply to dungeons of any type, from the wreck of a sunken ship to a vast cave complex."
 		],
-		"parent_topics": [ "environment" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"types_of_dungeons",
 			"dungeon_terrain"
 		],
 		"siblings": [
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"monster_rules",
+			"race_builder",
+			"creating_new_weapons",
 			"dungeons",
 			"traps",
 			"wilderness",
@@ -40,7 +30,7 @@
 	},
 	"types_of_dungeons": {
 		"name": "Types of Dungeons",
-		"subtitle": "Environment",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -59,12 +49,12 @@
 			"",
 			"***Natural Cavern Complex:*** Underground caves provide homes for all sorts of subterranean monsters. Created naturally and connected by labyrinthine tunnel systems, these caverns lack any sort of pattern, order, or decoration. With no intelligent force behind its construction, this type of dungeon is the least likely to have traps or even doors.",
 			"",
-			"Fungi of all sorts thrive in caves, sometimes growing in huge forests of mushrooms and puff balls. Subterranean predators prowl these forests, looking for weaker creatures feeding upon the fungi. Some varieties of fungus give off a phosphorescent glow, providing a natural cavern complex with its own limited light source. In other areas, a daylight spell or similar magical effect can provide enough light for green plants to grow.",
+			"Fungi of all sorts thrive in caves, sometimes growing in huge forests of mushrooms and puff balls. Subterranean predators prowl these forests, looking for weaker creatures feeding upon the fungi. Some varieties of fungus give off a phosphorescent glow, providing a natural cavern complex with its own limited light source. In other areas, a {spell/daylight} spell or similar magical effect can provide enough light for green plants to grow.",
 			"",
 			"Natural cavern complexes often connect with other types of dungeons, the caves having been discovered when the manufactured dungeons were delved. A cavern complex can connect two otherwise unrelated dungeons, sometimes creating a strange mixed environment. A natural cavern complex joined with another dungeon often provides a route by which subterranean creatures find their way into a manufactured dungeon and populate it."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"dungeons"
 		],
 		"siblings": [
@@ -74,7 +64,7 @@
 	},
 	"dungeon_terrain": {
 		"name": "Dungeon Terrain",
-		"subtitle": "Environment",
+		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -82,7 +72,7 @@
 			"The following rules cover the basics of terrain that can be found in a dungeon."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"dungeons"
 		],
 		"subtopics": [
@@ -101,7 +91,7 @@
 	},
 	"walls": {
 		"name": "Walls",
-		"subtitle": "Dungeons, Environment",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -147,7 +137,7 @@
 			"[^3]: Or an additional 50 hit points, whichever is greater."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"dungeons",
 			"dungeon_terrain"
 		],
@@ -163,7 +153,7 @@
 	},
 	"floors": {
 		"name": "Floors",
-		"subtitle": "Dungeons, Environment",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/411}",
@@ -199,7 +189,7 @@
 			"***Trap Floors:*** Some floors are designed to become suddenly dangerous. With the application of just the right amount of weight, or the pull of a lever somewhere nearby, spikes protrude from the floor, gouts of steam or flame shoot up from hidden holes, or the entire floor tilts. These strange floors are sometimes found in arenas, designed to make combats more exciting and deadly. Construct these floors as you would any other trap."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"dungeons",
 			"dungeon_terrain"
 		],
@@ -215,7 +205,8 @@
 	},
 	"doors": {
 		"name": "Doors",
-		"subtitle": "Dungeons, Environment",
+		"subtitle": "Dungeons, Gamemastery",
+		"tags": "breaking doors, magic doors, secret doors, portcullises, stuck doors,",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/412}",
@@ -230,15 +221,15 @@
 			"",
 			"***Breaking Doors:*** Dungeon doors might be locked, trapped, reinforced, barred, magically sealed, or sometimes just stuck. All but the weakest characters can eventually knock down a door with a heavy tool such as a sledgehammer, and a number of spells and magic items give characters an easy way around a locked door. Attempts to literally chop down a door with a slashing or bludgeoning weapon use the hardness and hit points given in Table 13-2. When assigning a DC to an attempt to knock a door down, use the following as guidelines.",
 			"",
-			"***DC 10 or Lower:*** a door just about anyone can break open.",
-			"",
-			"***DC 11-15:*** a door that a strong person could break with one try and an average person might be able to break with one try.",
-			"",
-			"***DC 16-20:*** a door that almost anyone could break, given time.",
-			"",
-			"***DC 21-25:*** a door that only a strong or very strong person has a hope of breaking, probably not on the first try.",
-			"",
-			"***DC 26 or Higher:*** a door that only an exceptionally strong person has a hope of breaking.",
+			">***DC 10 or Lower:*** a door just about anyone can break open.",
+			">",
+			">***DC 11-15:*** a door that a strong person could break with one try and an average person might be able to break with one try.",
+			">",
+			">***DC 16-20:*** a door that almost anyone could break, given time.",
+			">",
+			">***DC 21-25:*** a door that only a strong or very strong person has a hope of breaking, probably not on the first try.",
+			">",
+			">***DC 26 or Higher:*** a door that only an exceptionally strong person has a hope of breaking.",
 			"",
 			"***Locks:*** Dungeon doors are often locked, and thus the Disable Device skill comes in very handy. Locks are usually built into the door, either on the edge opposite the hinges or right in the middle of the door. Built-in locks either control an iron bar that juts out of the door and into the wall of its frame, or else a sliding iron bar or heavy wooden bar that rests behind the entire door. By contrast, padlocks are not built-in but usually run through two rings, one on the door and the other on the wall. More complex locks, such as combination locks and puzzle locks, are usually built into the door itself. Because such keyless locks are larger and more complex, they are typically only found in sturdy doors (strong wooden, stone, or iron doors).",
 			"",
@@ -279,15 +270,15 @@
 			"| Strong wooden | 2 in. | 5 | 20 hp | DC 23 | DC 25 |",
 			"| Stone | 4 in. | 8 | 60 hp | DC 28 | DC 28 |",
 			"| Iron | 2 in. | 10 | 60 hp | DC 28 | DC 28 |",
-			"| Portcullis, wooden | 3 in. | 5 | 30 hp | DC 25&#42; | DC 25&#42; |",
-			"| Portcullis, iron | 2 in. | 10 | 60 hp | DC 25&#42; | DC 25&#42; |",
+			"| Portcullis, wooden | 3 in. | 5 | 30 hp | DC 25\\* | DC 25\\* |",
+			"| Portcullis, iron | 2 in. | 10 | 60 hp | DC 25\\* | DC 25\\* |",
 			"| Lock | - | 15 | 30 hp | - | - |",
 			"| Hinge | - | 10 | 30 hp | - | - |",
 			"",
-			"&#42;DC to lift. Use appropriate door figure for breaking."
+			"\\*DC to lift. Use appropriate door figure for breaking."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"dungeons",
 			"dungeon_terrain"
 		],
@@ -303,15 +294,15 @@
 	},
 	"walls_doors_and_detect_spells": {
 		"name": "Walls, Doors, and Detect Spells",
-		"subtitle": "Dungeons, Environment",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
 			"",
-			"Stone walls, iron walls, and iron doors are usually thick enough to block most detect spells, such as detect thoughts. Wooden walls, wooden doors, and stone doors are usually not thick enough to do so. A secret stone door built into a wall and as thick as the wall itself (at least 1 foot) does block most detect spells."
+			"Stone walls, iron walls, and iron doors are usually thick enough to block most detect spells, such as {spell/detect thoughts}. Wooden walls, wooden doors, and stone doors are usually not thick enough to do so. A secret stone door built into a wall and as thick as the wall itself (at least 1 foot) does block most detect spells."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"dungeons",
 			"dungeon_terrain"
 		],
@@ -327,7 +318,7 @@
 	},
 	"stairs": {
 		"name": "Stairs",
-		"subtitle": "Dungeons, Environment",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
@@ -335,7 +326,7 @@
 			"Stairs are the most common means of traveling up and down within a dungeon. A character can move up or down stairs as part of their movement without penalty, but they cannot run on them. Increase the DC of any Acrobatics skill check made on stairs by 4. Some stairs are particularly steep and are treated as difficult terrain."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"dungeons",
 			"dungeon_terrain"
 		],
@@ -351,7 +342,7 @@
 	},
 	"cave_ins_and_collapses_cr_8": {
 		"name": "Cave-Ins and Collapses",
-		"subtitle": "Dungeons, Environment",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
@@ -369,7 +360,7 @@
 			"Characters who aren't buried can dig out their friends. In 1 minute, using only her hands, a character can clear rocks and debris equal to five times her heavy load limit. The amount of loose stone that fills a 5-foot-by-5-foot area weighs 1 ton (2,000 pounds). Armed with an appropriate tool, such as a pick, crowbar, or shovel, a digger can clear loose stone twice as quickly as by hand. A buried character can attempt to free himself with a DC 25 Strength check."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"dungeons",
 			"dungeon_terrain"
 		],
@@ -386,12 +377,12 @@
 	"slimes_molds_and_fungi": {
 		"name": "Slimes, Molds, and Fungi",
 		"tags": "brown mold green slime shrieker yellow mold russet mold phosphorescent fungus",
-		"subtitle": "Dungeons, Environment",
+		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
 			"",
-			"In a dungeon's damp, dark recesses, molds and fungi thrive. For purposes of spells and other special effects, all slimes, molds, and fungi are treated as plants. Like traps, dangerous slimes and molds have CRs, and characters earn XP for encountering them.",
+			"In a dungeon's damp, dark recesses, molds and fungi thrive. For purposes of spells and other special effects, all slimes, molds, and fungi are treated as {type/plant/s}. Like traps, dangerous slimes and molds have CRs, and characters earn XP for encountering them.",
 			"",
 			"A form of glistening organic sludge coats almost anything that remains in the damp and dark for too long. This kind of slime, though it might be repulsive, is not dangerous. Molds and fungi flourish in dark, cool, damp places. While some are as inoffensive as the normal dungeon slime, others are quite dangerous. Mushrooms, puff balls, yeasts, mildew, and other sorts of bulbous, fibrous, or flat patches of fungi can be found throughout most dungeons. They are usually inoffensive, and some are even edible (although most are unappealing or odd-tasting).",
 			"",
@@ -399,7 +390,7 @@
 			"",
 			"***Green Slime (CR 4):*** This dungeon peril is a dangerous variety of normal slime. Green slime devours flesh and organic materials on contact and is even capable of dissolving metal. Bright green, wet, and sticky, it clings to walls, floors, and ceilings in patches, reproducing as it consumes organic matter. It drops from walls and ceilings when it detects movement (and possible food) below.",
 			"",
-			"A single 5-foot square of green slime deals 1d6 points of Constitution damage per round while it devours flesh. On the first round of contact, the slime can be scraped off a creature (destroying the scraping device), but after that it must be frozen, burned, or cut away (dealing damage to the victim as well). Anything that deals cold or fire damage, sunlight, or a remove disease spell destroys a patch of green slime. Against wood or metal, green slime deals 2d6 points of damage per round, ignoring metal's hardness but not that of wood. It does not harm stone.",
+			"A single 5-foot square of green slime deals 1d6 points of Constitution damage per round while it devours flesh. On the first round of contact, the slime can be scraped off a creature (destroying the scraping device), but after that it must be frozen, burned, or cut away (dealing damage to the victim as well). Anything that deals cold or fire damage, sunlight, or a {spell/remove disease} spell destroys a patch of green slime. Against wood or metal, green slime deals 2d6 points of damage per round, ignoring metal's hardness but not that of wood. It does not harm stone.",
 			"",
 			"***Phosphorescent Fungus:*** This strange underground fungus gives off a soft violet glow that illuminates underground caverns and passages as well as a candle does. Rare patches of fungus illuminate as well as a torch does.",
 			"",
@@ -410,7 +401,7 @@
 			"***Russet Mold:*** See: {monster/vegepygmy}."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"dungeons",
 			"dungeon_terrain"
 		],
@@ -432,14 +423,18 @@
 			"",
 			"Traps are a common danger in dungeon environments. From gouts of white-hot flame to hails of poisoned darts, traps can serve to protect valuable treasure or stop intruders from proceeding."
 		],
-		"parent_topics": [ "environment" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"elements_of_a_trap",
 			"sample_traps",
-			"designing_a_trap",
-			"wilderness_traps"
+			"designing_a_trap"
 		],
 		"siblings": [
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"monster_rules",
+			"race_builder",
+			"creating_new_weapons",
 			"dungeons",
 			"traps",
 			"wilderness",
@@ -458,7 +453,7 @@
 			"All traps - mechanical or magical - have the following elements: CR, type, Perception DC, Disable Device DC, trigger, reset, and effect. Some traps might also include optional elements, such as poison or a bypass. These characteristics are described below."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps"
 		],
 		"subtopics": [
@@ -474,8 +469,7 @@
 		"siblings": [
 			"elements_of_a_trap",
 			"sample_traps",
-			"designing_a_trap",
-			"wilderness_traps"
+			"designing_a_trap"
 		]
 	},
 	"type": {
@@ -502,7 +496,7 @@
 			"Spell traps are simply spells that themselves function as traps. Creating a spell trap requires the services of a character who can cast the needed spell or spells, who is usually either the character creating the trap or an NPC spellcaster hired for that purpose."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps",
 			"elements_of_a_trap"
 		],
@@ -526,12 +520,12 @@
 			"",
 			"The builder sets the Perception and Disable Device DCs for a mechanical trap. For a magic trap, the values depend on the highest-level spell used.",
 			"",
-			"***Mechanical Trap:*** The base DC for both Perception and Disable Device checks is 20. Raising or lowering either of these DCs affects the CR (Table 13-3).",
+			"***Mechanical Trap:*** The base DC for both Perception and Disable Device checks is 20. Raising or lowering either of these DCs affects the CR ([Table 13-3](rule/mechanical_trap_cost)).",
 			"",
 			"***Magic Trap:*** The DC for both Perception and Disable Device checks is equal to 25 + the spell level of the highest-level spell used. Only characters with the trapfinding class feature can attempt a Disable Device check involving a magic trap."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps",
 			"elements_of_a_trap"
 		],
@@ -559,11 +553,11 @@
 			"",
 			"***Proximity:*** This trigger activates the trap when a creature approaches within a certain distance of it. A proximity trigger differs from a location trigger in that the creature need not be standing in a particular square. Creatures that are flying can spring a trap with a proximity trigger but not one with a location trigger. Mechanical proximity triggers are extremely sensitive to the slightest change in the air. This makes them useful only in places such as crypts, where the air is unusually still.",
 			"",
-			"The proximity trigger used most often for magic device traps is the alarm spell. Unlike when the spell is cast, an alarm spell used as a trigger can have an area that's no larger than the area the trap is meant to protect. Some magic device traps have special proximity triggers that activate only when certain kinds of creatures approach. For example, a detect good spell can serve as a proximity trigger on an evil altar, springing the attached trap only when someone of good alignment gets close enough to it.",
+			"The proximity trigger used most often for magic device traps is the {spell/alarm} spell. Unlike when the spell is cast, an alarm spell used as a trigger can have an area that's no larger than the area the trap is meant to protect. Some magic device traps have special proximity triggers that activate only when certain kinds of creatures approach. For example, a {spell/detect good} spell can serve as a proximity trigger on an evil altar, springing the attached trap only when someone of good alignment gets close enough to it.",
 			"",
-			"***Sound:*** This trigger springs a magic trap when it detects any sound. A sound trigger functions like an ear and has a +15 bonus on Perception checks. A successful Stealth check, magical silence, and other effects that would negate hearing defeat it. A trap with a sound trigger requires the casting of clairaudience during its construction.",
+			"***Sound:*** This trigger springs a magic trap when it detects any sound. A sound trigger functions like an ear and has a +15 bonus on Perception checks. A successful Stealth check, magical silence, and other effects that would negate hearing defeat it. A trap with a sound trigger requires the casting of {spell/clairaudience} during its construction.",
 			"",
-			"***Visual:*** This trigger for magic traps works like an actual eye, springing the trap whenever it \"sees\" something. A trap with a visual trigger requires the casting of arcane eye, clairvoyance, or true seeing during its construction. Sight range and the Perception bonus conferred on the trap depend on the spell chosen, as shown.",
+			"***Visual:*** This trigger for magic traps works like an actual eye, springing the trap whenever it \"sees\" something. A trap with a visual trigger requires the casting of {spell/arcane eye}, {spell/clairvoyance}, or {spell/true seeing} during its construction. Sight range and the Perception bonus conferred on the trap depend on the spell chosen, as shown.",
 			"",
 			"| Spell | Sight Ranges | Perception Bonus |",
 			"| --- | --- | --- |",
@@ -571,7 +565,7 @@
 			"| Clairvoyance | One preselected location | +15 |",
 			"| True seeing | Line of sight (up to 120 ft.) | +30 |",
 			"",
-			"If you want the trap to see in the dark, you must either choose the true seeing option or add darkvision to the trap as well. (Darkvision limits the trap's sight range in the dark to 60 feet.) If invisibility, disguises, or illusions can fool the spell being used, they can fool the visual trigger as well.",
+			"If you want the trap to see in the dark, you must either choose the true seeing option or add {spell/darkvision} to the trap as well. (Darkvision limits the trap's sight range in the dark to 60 feet.) If invisibility, disguises, or illusions can fool the spell being used, they can fool the visual trigger as well.",
 			"",
 			"***Touch:*** A touch trigger, which springs the trap when touched, is one of the simplest kinds of trigger to construct. This trigger may be physically attached to the part of the mechanism that deals the damage or it may not. You can make a magic touch trigger by adding alarm to the trap and reducing the area of the effect to cover only the trigger spot.",
 			"",
@@ -580,7 +574,7 @@
 			"***Spell:*** All spell traps have this kind of trigger. The appropriate spell descriptions explain the trigger conditions for traps that contain spell triggers."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps",
 			"elements_of_a_trap"
 		],
@@ -605,7 +599,7 @@
 			"Unless otherwise stated, most traps have a duration of instantaneous; once triggered, they have their effect and then stop functioning. Some traps have a duration measured in rounds. Such traps continue to have their listed effect each round at the top of the initiative order (or whenever they were activated, if they were triggered during combat)."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps",
 			"elements_of_a_trap"
 		],
@@ -635,44 +629,10 @@
 			"",
 			"***Manual:*** Resetting the trap requires someone to move the parts back into place. This is the kind of reset element most mechanical traps have.",
 			"",
-			"***Automatic:*** The trap resets itself, either immediately or after a timed interval. Bypass (Optional Element) If the builder of a trap wants to be able to move past the trap after it is created or placed, it's a good idea to build in a bypass mechanism: something that temporarily disarms the trap. Bypass elements are typically used only with mechanical traps; spell traps usually have built-in allowances for the caster to bypass them.",
-			"",
-			"***Lock:*** A lock bypass requires a DC 30 Disable Device check to open.",
-			"",
-			"***Hidden Switch:*** A hidden switch requires a DC 25 Perception check to locate.",
-			"",
-			"***Hidden Lock:*** A hidden lock combines the features above, requiring a DC 25 Perception check to locate and a DC 30 Disable Device check to open. Effect The effect of a trap is what happens to those who spring it. This often takes the form of either damage or a spell effect, but some traps have special effects. A trap usually either makes an attack roll or forces a saving throw to avoid it. Occasionally a trap uses both of these options, or neither (see [Never Miss](rule/miscellaneous_trap_features)).",
-			"",
-			"***Pits:*** These are holes (covered or not) that characters can fall into, causing them to take damage. A pit needs no attack roll, but a successful Reflex save (DC set by the builder) avoids it. Other save-dependent mechanical traps also fall into this category. Falling into a pit deals 1d6 points of damage per 10 feet of depth.",
-			"",
-			"Pits in dungeons come in three basic varieties: uncovered, covered, and chasms. Pits and chasms can be defeated by judicious application of the Acrobatics skill, the Climb skill, or various mechanical or magical means.",
-			"",
-			"Uncovered pits and natural chasms serve mainly to discourage intruders from going a certain way, although they cause much grief to characters who stumble into them in the dark, and they can greatly complicate nearby melee.",
-			"",
-			"Covered pits are much more dangerous. They can be detected with a DC 20 Perception check, but only if the character is taking the time to carefully examine the area before walking across it. A character who fails to detect a covered pit is still entitled to a DC 20 Reflex save to avoid falling into it. If she was running or moving recklessly at the time, however, she gets no saving throw and falls automatically.",
-			"",
-			"Trap coverings can be as simple as piled refuse (straw, leaves, sticks, garbage), a large rug, or an actual trap door concealed to appear as a normal part of the floor. Such a trap door usually swings open when enough weight (usually about 50 to 80 pounds) is placed upon it. Devious trap builders sometimes design trap doors so they spring back shut after they open. The trap door might lock once it's back in place, leaving the stranded character well and truly trapped. Opening such a trap door is just as difficult as opening a regular door (assuming the trapped character can reach it), and a DC 13 Strength check is needed to keep a spring-loaded door open.",
-			"",
-			"Pit traps often have something nastier than just a hard floor at the bottom. A trap designer might put spikes, monsters, or a pool of acid, lava, or even water at the bottom. For rules on pit spikes and other such add-ons, see the Miscellaneous Trap Features section.",
-			"",
-			"Monsters sometimes live in pits. Any monster that can fit into the pit might have been placed there by the dungeon's designer, or might simply have fallen in and not been able to climb back out.",
-			"",
-			"A secondary trap, mechanical or magical, at the bottom of a pit can be particularly deadly. Activated by a falling victim, the secondary trap attacks the already injured character when she's least ready for it.",
-			"",
-			"***Ranged Attack Traps:*** These traps fling darts, arrows, spears, or the like at whomever activated the trap. The builder sets the attack bonus. A ranged attack trap can be configured to simulate the effect of a composite bow with a high Strength rating, which provides the trap with a bonus on damage equal to its Strength rating. These traps deal whatever damage their ammunition normally does. If a trap is constructed with a high Strength rating, it has a corresponding bonus on damage.",
-			"",
-			"***Melee Attack Traps:*** These traps feature such obstacles as sharp blades that emerge from walls and stone blocks that fall from ceilings. Once again, the builder sets the attack bonus. These traps deal the same damage as the melee weapons they \"wield.\" In the case of a falling stone block, you can assign any amount of bludgeoning damage you like, but remember that whoever resets the trap has to lift that stone back into place.",
-			"",
-			"A melee attack trap can be constructed with a built-in bonus on damage rolls, just as if the trap itself had a high Strength score.",
-			"",
-			"***Spell Traps:*** Spell traps produce the spell's effect. Like all spells, a spell trap that allows a saving throw has a save DC of 10 + spell level + caster's relevant ability modifier.",
-			"",
-			"***Magic Device Traps:*** These traps produce the effects of any spells included in their construction, as described in the appropriate entries. If the spell in a magic device trap allows a saving throw, its save DC is (10 + spell level) &times; 1.5. Some spells make attack rolls instead.",
-			"",
-			"**Special:** Some traps have miscellaneous features that produce special effects, such as drowning for a water trap or ability damage for poison. Saving throws and damage depend on the poison or are set by the builder, as appropriate."
+			"***Automatic:*** The trap resets itself, either immediately or after a timed interval."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps",
 			"elements_of_a_trap"
 		],
@@ -703,7 +663,7 @@
 			"***Hidden Lock:*** A hidden lock combines the features above, requiring a DC 25 Perception check to locate and a DC 30 Disable Device check to open."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps",
 			"elements_of_a_trap"
 		],
@@ -721,6 +681,7 @@
 	"effect": {
 		"name": "Effect",
 		"subtitle": "Traps",
+		"tags": "pits, spell traps, magic device traps, melee attack traps, ranged attack traps",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/418}",
@@ -753,10 +714,10 @@
 			"",
 			"***Magic Device Traps:*** These traps produce the effects of any spells included in their construction, as described in the appropriate entries. If the spell in a magic device trap allows a saving throw, its save DC is (10 + spell level) &times; 1.5. Some spells make attack rolls instead.",
 			"",
-			"**Special:** Some traps have miscellaneous features that produce special effects, such as drowning for a water trap or ability damage for poison. Saving throws and damage depend on the poison or are set by the builder, as appropriate."
+			"***Special:*** Some traps have miscellaneous features that produce special effects, such as drowning for a water trap or ability damage for poison. Saving throws and damage depend on the poison or are set by the builder, as appropriate."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps",
 			"elements_of_a_trap"
 		],
@@ -779,7 +740,7 @@
 			"",
 			"Some traps include optional features that can make them considerably more deadly. The most common features are discussed below.",
 			"",
-			"***Alchemical Item:*** Mechanical traps might incorporate alchemical devices or other special substances or items, such as tanglefoot bags, alchemist's fire, thunderstones, and the like. Some such items mimic spell effects. If the item mimics a spell effect, it increases the CR as shown on Table 13-3: CR Modifiers for Mechanical Traps.",
+			"***Alchemical Item:*** Mechanical traps might incorporate alchemical devices or other special substances or items, such as {equipment-weapon/tanglefoot bag/s}, {equipment-weapon/alchemist's fire}, {equipment-weapon/thunderstone/s}, and the like. Some such items mimic spell effects. If the item mimics a spell effect, it increases the CR as shown on [Table 13-3: CR Modifiers for Mechanical Traps](rule/mechanical_trap_cost).",
 			"",
 			"***Gas:*** With a gas trap, the danger is in the inhaled poison it delivers. Traps employing gas usually have the never miss and onset delay features.",
 			"",
@@ -791,16 +752,16 @@
 			"",
 			"***Onset Delay:*** An onset delay is the amount of time between when the trap is sprung and when it deals damage. A never miss trap always has an onset delay.",
 			"",
-			"***Poison:*** Traps that employ poison are deadlier than their non-poisonous counterparts, so they have correspondingly higher CRs. To determine the CR modifier for a given poison, consult Table 13-3. Only injury, contact, and inhaled poisons are suitable for traps; ingested types are not. Some traps simply deal the poison's damage. Others deal damage with ranged or melee attacks as well. [See here](rule/poison) for more information on poison.",
+			"***Poison:*** Traps that employ poison are deadlier than their non-poisonous counterparts, so they have correspondingly higher CRs. To determine the CR modifier for a given poison, consult [Table 13-3](rule/mechanical_trap_cost). Only injury, contact, and inhaled poisons are suitable for traps; ingested types are not. Some traps simply deal the poison's damage. Others deal damage with ranged or melee attacks as well. [See here](rule/poison) for more information on poison.",
 			"",
-			"***Pit Spikes:*** Treat spikes at the bottom of a pit as daggers, each with a +10 attack bonus. The damage bonus for each spike is +1 per 10 feet of pit depth (to a maximum of +5). Each character who falls into the pit is attacked by 1d4 spikes. This damage is in addition to any damage from the fall itself, and the statistics presented above are merely the most common variant - some traps might have far more dangerous spikes at their bottom. Pit spikes add to the average damage of the trap (see [Average Damage](rule/challenge_rating_of_a_trap)).",
+			"***Pit Spikes:*** Treat spikes at the bottom of a pit as daggers, each with a +10 attack bonus. The damage bonus for each spike is +1 per 10 feet of pit depth (to a maximum of +5). Each character who falls into the pit is attacked by 1d4 spikes. This damage is in addition to any damage from the fall itself, and the statistics presented above are merely the most common variant - some traps might have far more dangerous spikes at their bottom. Pit spikes add to the average damage of the trap (see [Average Damage](rule/designing_a_trap)).",
 			"",
-			"***Pit Bottom:*** If something other than spikes waits at the bottom of a pit, it's best to treat that as a separate trap (see Multiple Traps) with a location trigger that activates on any significant impact, such as a falling character.",
+			"***Pit Bottom:*** If something other than spikes waits at the bottom of a pit, it's best to treat that as a separate trap (see [Multiple Traps](rule/designing_a_trap)) with a location trigger that activates on any significant impact, such as a falling character.",
 			"",
 			"***Touch Attack:*** This feature applies to any trap that needs only a successful touch attack (melee or ranged) to hit."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps",
 			"elements_of_a_trap"
 		],
@@ -821,19 +782,18 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/420}",
 			"",
-			"The following sample traps represent just some of the possibilities when constructing traps to challenge the player characters. Traps marked with an asterisk (&#42;) are {rule/wilderness traps}.",
+			"The following sample traps represent just some of the possibilities when constructing traps to challenge the player characters. Traps marked with an asterisk (\\*) are {rule/wilderness traps}.",
 			"",
 			"{table0}"
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps"
 		],
 		"siblings": [
 			"elements_of_a_trap",
 			"sample_traps",
-			"designing_a_trap",
-			"wilderness_traps"
+			"designing_a_trap"
 		],
 		"tables": [
 			{
@@ -844,26 +804,26 @@
 				"data": [
 					[ "{trap/Arrow Trap}", 1, "mechanical", 20, 20 ],
 					[ "{trap/Bear Trap}", 1, "mechanical", 15, 20 ],
-					[ "{trap/Breakaway Vine/&#42;}", 1, "mechanical", 20, 20 ],
-					[ "{trap/Musk Shower/&#42;}", 1, "mechanical", 20, 20 ],
+					[ "{trap/Breakaway Vine/\\*}", 1, "mechanical", 20, 20 ],
+					[ "{trap/Musk Shower/\\*}", 1, "mechanical", 20, 20 ],
 					[ "{trap/Pit Trap}", 1, "mechanical", 20, 20 ],
 					[ "{trap/Poisoned Dart Trap}", 1, "mechanical", 20, 20 ],
-					[ "{trap/Spring Snare/&#42;}", 1, "mechanical", 25, 15 ],
+					[ "{trap/Spring Snare/\\*}", 1, "mechanical", 25, 15 ],
 					[ "{trap/Swinging Axe Trap}", 1, "mechanical", 20, 20 ],
-					[ "{trap/Swinging Log/&#42;}", 1, "mechanical", 12, 12 ],
-					[ "{trap/Tar Snare/&#42;}", 1, "mechanical", 20, 20 ],
+					[ "{trap/Swinging Log/\\*}", 1, "mechanical", 12, 12 ],
+					[ "{trap/Tar Snare/\\*}", 1, "mechanical", 20, 20 ],
 					[ "{trap/Burning Hands Trap}", 2, "magic", 26, 26 ],
-					[ "{trap/Clam Clamp/&#42;}", 2, "mechanical", 20, 17 ],
+					[ "{trap/Clam Clamp/\\*}", 2, "mechanical", 20, 17 ],
 					[ "{trap/Javelin Trap}", 2, "mechanical", 20, 20 ],
 					[ "{trap/Spiked Pit Trap}", 2, "mechanical", 20, 20 ],
 					[ "{trap/Acid Arrow Trap}", 3, "magic", 27, 27 ],
 					[ "{trap/Camouflaged Pit Trap}", 3, "mechanical", 25, 20 ],
-					[ "{trap/Razor Grass/&#42;}", 3, "mechanical", 25, 20 ],
-					[ "{trap/Breakaway Log/&#42;}", 4, "mechanical", 25, 30 ],
+					[ "{trap/Razor Grass/\\*}", 3, "mechanical", 25, 20 ],
+					[ "{trap/Breakaway Log/\\*}", 4, "mechanical", 25, 30 ],
 					[ "{trap/Electricity Arc Trap}", 4, "mechanical", 25, 20 ],
-					[ "{trap/Spring-arm Spike/&#42;}", 4, "mechanical", 20, 20 ],
+					[ "{trap/Spring-arm Spike/\\*}", 4, "mechanical", 20, 20 ],
 					[ "{trap/Wall Scythe Trap}", 4, "mechanical", 20, 20 ],
-					[ "{trap/Deadfall/&#42;}", 5, "mechanical", 20, 20 ],
+					[ "{trap/Deadfall/\\*}", 5, "mechanical", 20, 20 ],
 					[ "{trap/Falling Block Trap}", 5, "mechanical", 20, 20 ],
 					[ "{trap/Fireball Trap}", 5, "magic", 28, 28 ],
 					[ "{trap/Flame Strike Trap}", 6, "magic", 30, 30 ],
@@ -903,9 +863,41 @@
 			"",
 			"Designing new traps is a simple process. Start by deciding what type of trap you want to create.",
 			"",
-			"***Mechanical Traps:*** Simply select the elements you want the trap to have and add up the adjustments to the trap's Challenge Rating that those elements require (see Table 13-3) to arrive at the trap's final CR. From the CR you can derive the DC of the Craft (traps) checks a character must make to construct the trap.",
+			"To calculate the Challenge Rating of a trap, add all the CR modifiers to the base CR for the trap type.",
 			"",
-			"***Magic Traps:*** As with mechanical traps, decide what elements you want and then determine the CR of the resulting trap (see Table 13-4). If a player character wants to design and construct a magic trap, he, or an ally, must have the {feat/Craft Wondrous Item} feat. In addition, he must be able to cast the spell or spells that the trap requires - or he must be able to hire an NPC to cast the spells for him.",
+			"***Mechanical Trap:*** The base CR for a mechanical trap is 0. If your final CR is 0 or lower, add features until you get a CR of 1 or higher.",
+			"",
+			"***Magic Trap:*** For a spell trap or magic device trap, the base CR is 1. The highest-level spell used modifies the CR."
+		],
+		"parent_topics": [
+			"gamemastery",
+			"traps"
+		],
+		"subtopics": [
+			"mechanical_trap_cost",
+			"magic_device_trap_cost",
+			"other_modifiers_to_trap_cr",
+			"wilderness_traps"
+		],
+		"siblings": [
+			"elements_of_a_trap",
+			"sample_traps",
+			"designing_a_trap"
+		]
+	},
+	"mechanical_trap_cost": {
+		"name": "Mechanical Trap CR, Craft DC, and Cost",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"{SOURCE PRPG Core Rulebook/423}",
+			"",
+			"For mechanical traps, simply select the elements you want the trap to have and add up the adjustments to the trap's Challenge Rating that those elements require (see Table 13-3) to arrive at the trap's final CR. From the CR you can derive the DC of the Craft (traps) checks a character must make to construct the trap.",
+			"",
+			"The cost of a mechanical trap is 1,000 gp &times; the trap's Challenge Rating. If the trap uses spells in its trigger or reset, add those costs separately. If the trap cannot be reset, divide the cost in half. If the trap has an automatic reset, increase the cost by half (+50%). Particularly simple traps, such as pit traps, might have a greatly reduced cost, subject to GM discretion. Such traps might cost as little as 250 gp &times; the trap's Challenge Rating.",
+			"",
+			"After you've determined the cost by Challenge Rating, add the price of any alchemical items or poison you incorporated into the trap. If the trap uses one of these elements and has an automatic reset, multiply the poison or alchemical item cost by 20 to provide an adequate supply of doses.",
+			"",
+			"***Multiple Traps:*** If a trap is really two or more connected traps, determine the final cost of each separately, then add those values together. This holds for both multiple dependent and multiple independent traps.",
 			"",
 			"### Table 13-3: CR Modifiers for Mechanical Traps",
 			"",
@@ -928,18 +920,10 @@
 			"| +16 to +20 | +2 |",
 			"| Touch attack | +1 |",
 			"",
-			"#### Modifying by Other Features",
+			"#### Modifying by Poison Used",
 			"",
-			"| Miscellaneous Features | CR Modifier |",
-			"| --- | --- |",
-			"| Average damage | +1 per 10 points of average damage |",
-			"| Alchemical device | Level of spell mimicked |",
-			"| Automatic reset | +1 |",
-			"| Liquid | +5 |",
-			"| Multiple targets (non-damage) | +1 |",
-			"| Never miss | +2 |",
-			"| Proximity or visual trigger | +1 |",
 			"| Poison | CR of poison |",
+			"| --- | --- |",
 			"| Black adder venom | +1 |",
 			"| Black lotus extract | +8 |",
 			"| Bloodroot | +1 |",
@@ -962,152 +946,19 @@
 			"| Ungol dust | +3 |",
 			"| Wyvern poison | +5 |",
 			"",
-			"### Table 13-4: CR Modifiers for Magic Traps",
+			"#### Modifying by Other Features",
 			"",
-			"| Feature | CR Modifier |",
+			"| Miscellaneous Features | CR Modifier |",
 			"| --- | --- |",
-			"| Highest-level spell effect | +Spell level |",
-			"| Damaging spell effect | +1 per 10 points of average damage |"
-		],
-		"parent_topics": [
-			"environment",
-			"traps"
-		],
-		"subtopics": [
-			"challenge_rating_of_a_trap",
-			"mechanical_trap_cost",
-			"magic_device_trap_cost",
-			"spell_trap_cost",
-			"craft_dcs_for_mechanical_traps"
-		],
-		"siblings": [
-			"elements_of_a_trap",
-			"sample_traps",
-			"designing_a_trap",
-			"wilderness_traps"
-		]
-	},
-	"challenge_rating_of_a_trap": {
-		"name": "Challenge Rating of a Trap",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"{SOURCE PRPG Core Rulebook/423}",
+			"| Average damage | +1 per 10 points of average damage |",
+			"| Alchemical device | Level of spell mimicked |",
+			"| Automatic reset | +1 |",
+			"| Liquid | +5 |",
+			"| Multiple targets (non-damage) | +1 |",
+			"| Never miss | +2 |",
+			"| Proximity or visual trigger | +1 |",
 			"",
-			"To calculate the Challenge Rating of a trap, add all the CR modifiers (see [Table 13-3 or Table 13-4](rule/designing_a_trap)) to the base CR for the trap type.",
-			"",
-			"***Mechanical Trap:*** The base CR for a mechanical trap is 0. If your final CR is 0 or lower, add features until you get a CR of 1 or higher.",
-			"",
-			"***Magic Trap:*** For a spell trap or magic device trap, the base CR is 1. The highest-level spell used modifies the CR (see [Table 13-4](rule/designing_a_trap)).",
-			"",
-			"***Average Damage:*** If a trap (mechanical or magical) does hit point damage, calculate the average damage for a successful hit and round that value to the nearest multiple of 10. If the trap is designed to hit more than one target, multiply this value by 2. If the trap is designed to deal damage over a number of rounds, multiply this value by the number of rounds the trap will be active (or the average number of rounds, if the duration is variable). Use this value to adjust the Challenge Rating of the trap, as indicated on Table 13-3. Damage from poison does not count toward this value, but extra damage from pit spikes and multiple attacks does.",
-			"",
-			"For a magic trap, only one modifier applies to the CR: either the level of the highest-level spell used in the trap, or the average damage figure, whichever is larger.",
-			"",
-			"***Multiple Traps:*** If a trap is really two or more connected traps that affect approximately the same area, determine the CR of each one separately.",
-			"",
-			"***Multiple Dependent Traps:*** If one trap depends on the success of the other (that is, you can avoid the second trap by not falling victim to the first), characters earn XP for both traps by defeating the first one, regardless if the second one is also sprung.",
-			"",
-			"***Multiple Independent Traps:*** If two or more traps act independently (they do not depend on one another to activate), characters only earn XP for traps that they defeat."
-		],
-		"parent_topics": [
-			"environment",
-			"traps",
-			"designing_a_trap"
-		],
-		"siblings": [
-			"challenge_rating_of_a_trap",
-			"mechanical_trap_cost",
-			"magic_device_trap_cost",
-			"spell_trap_cost",
-			"craft_dcs_for_mechanical_traps"
-		]
-	},
-	"mechanical_trap_cost": {
-		"name": "Mechanical Trap Cost",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"{SOURCE PRPG Core Rulebook/423}",
-			"",
-			"The cost of a mechanical trap is 1,000 gp &times; the trap's Challenge Rating. If the trap uses spells in its trigger or reset, add those costs separately. If the trap cannot be reset, divide the cost in half. If the trap has an automatic reset, increase the cost by half (+50%). Particularly simple traps, such as pit traps, might have a greatly reduced cost, subject to GM discretion. Such traps might cost as little as 250 gp &times; the trap's Challenge Rating.",
-			"",
-			"After you've determined the cost by Challenge Rating, add the price of any alchemical items or poison you incorporated into the trap. If the trap uses one of these elements and has an automatic reset, multiply the poison or alchemical item cost by 20 to provide an adequate supply of doses.",
-			"",
-			"***Multiple Traps:*** If a trap is really two or more connected traps, determine the final cost of each separately, then add those values together. This holds for both multiple dependent and multiple independent traps."
-		],
-		"parent_topics": [
-			"environment",
-			"traps",
-			"designing_a_trap"
-		],
-		"siblings": [
-			"challenge_rating_of_a_trap",
-			"mechanical_trap_cost",
-			"magic_device_trap_cost",
-			"spell_trap_cost",
-			"craft_dcs_for_mechanical_traps"
-		]
-	},
-	"magic_device_trap_cost": {
-		"name": "Magic Device Trap Cost",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"{SOURCE PRPG Core Rulebook/423}",
-			"",
-			"Building a magic device trap involves the expenditure of gp and requires the services of a spellcaster. Table 13-5 summarizes the cost information for magic device traps. If the trap uses more than one spell (for instance, a sound or visual trigger spell in addition to the main spell effect), the builder must pay for them all (except alarm, which is free unless it must be cast by an NPC).",
-			"",
-			"The costs derived from Table 13-5 assume that the builder is casting the necessary spells himself (or perhaps some other PC is providing the spells for free). If an NPC spellcaster must be hired to cast them, those costs must be factored in as well.",
-			"",
-			"A magic device trap takes 1 day to construct per 500 gp of its cost.",
-			"",
-			"### Table 13-5: Cost Modifiers for Magic Device Traps",
-			"",
-			"| Feature | Cost Modifier |",
-			"| --- | --- |",
-			"| Alarm spell used in trigger | - |",
-			"| One-Shot Trap: Each spell used | +50 gp &times; caster level &times; spell level |",
-			"| One-Shot Trap: Material components | + material component costs |",
-			"| Automatic Reset Trap: Each spell used | +500 gp &times; caster level &times; spell level |",
-			"| Automatic Reset Trap: Material components | +material component costs &times; 100 |"
-		],
-		"parent_topics": [
-			"environment",
-			"traps",
-			"designing_a_trap"
-		],
-		"siblings": [
-			"challenge_rating_of_a_trap",
-			"mechanical_trap_cost",
-			"magic_device_trap_cost",
-			"spell_trap_cost",
-			"craft_dcs_for_mechanical_traps"
-		]
-	},
-	"spell_trap_cost": {
-		"name": "Spell Trap Cost",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"{SOURCE PRPG Core Rulebook/423}",
-			"",
-			"A spell trap has a cost only if the builder must hire an NPC spellcaster to cast it."
-		],
-		"parent_topics": [
-			"environment",
-			"traps",
-			"designing_a_trap"
-		],
-		"siblings": [
-			"challenge_rating_of_a_trap",
-			"mechanical_trap_cost",
-			"magic_device_trap_cost",
-			"spell_trap_cost",
-			"craft_dcs_for_mechanical_traps"
-		]
-	},
-	"craft_dcs_for_mechanical_traps": {
-		"name": "Craft DCs for Mechanical Traps",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"{SOURCE PRPG Core Rulebook/423}",
+			"### Craft DC",
 			"",
 			"Once you know the Challenge Rating of a trap, determine the Craft (traps) DC by referring to the values and modifiers given on Table 13-6.",
 			"",
@@ -1130,16 +981,92 @@
 			"| Automatic reset | +5 |"
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"traps",
 			"designing_a_trap"
 		],
 		"siblings": [
-			"challenge_rating_of_a_trap",
 			"mechanical_trap_cost",
 			"magic_device_trap_cost",
-			"spell_trap_cost",
-			"craft_dcs_for_mechanical_traps"
+			"other_modifiers_to_trap_cr",
+			"wilderness_traps"
+		]
+	},
+	"magic_device_trap_cost": {
+		"name": "Spell and Magic Device Trap CR and Cost",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"{SOURCE PRPG Core Rulebook/423}",
+			"",
+			"To determine the CR of magic traps, decide what elements you want and then determine the CR of the resulting trap (see Table 13-4). If a player character wants to design and construct a magic trap, he, or an ally, must have the {feat/Craft Wondrous Item} feat. In addition, he must be able to cast the spell or spells that the trap requires - or he must be able to hire an NPC to cast the spells for him.",
+			"",
+			"### Table 13-4: CR Modifiers for Magic Traps",
+			"",
+			"| Feature | CR Modifier |",
+			"| --- | --- |",
+			"| Highest-level spell effect | +Spell level |",
+			"| Damaging spell effect | +1 per 10 points of average damage |",
+			"",
+			"### Spell Trap Cost",
+			"",
+			"A spell trap has a cost only if the builder must {equipment-misc/hire an NPC |spellcast/er>ing} to cast it.",
+			"",
+			"### Magic Device Trap Cost",
+			"",
+			"Building a magic device trap involves the expenditure of gp and requires the services of a spellcaster. Table 13-5 summarizes the cost information for magic device traps. If the trap uses more than one spell (for instance, a sound or visual trigger spell in addition to the main spell effect), the builder must pay for them all (except {spell/alarm}, which is free unless it must be cast by an NPC).",
+			"",
+			"The costs derived from Table 13-5 assume that the builder is casting the necessary spells himself (or perhaps some other PC is providing the spells for free). If an NPC spellcaster must be hired to cast them, those costs must be factored in as well.",
+			"",
+			"A magic device trap takes 1 day to construct per 500 gp of its cost.",
+			"",
+			"### Table 13-5: Cost Modifiers for Magic Device Traps",
+			"",
+			"| Feature | Cost Modifier |",
+			"| --- | --- |",
+			"| Alarm spell used in trigger | - |",
+			"| One-Shot Trap: Each spell used | +50 gp &times; caster level &times; spell level |",
+			"| One-Shot Trap: Material components | + material component costs |",
+			"| Automatic Reset Trap: Each spell used | +500 gp &times; caster level &times; spell level |",
+			"| Automatic Reset Trap: Material components | +material component costs &times; 100 |"
+		],
+		"parent_topics": [
+			"gamemastery",
+			"traps",
+			"designing_a_trap"
+		],
+		"siblings": [
+			"mechanical_trap_cost",
+			"magic_device_trap_cost",
+			"other_modifiers_to_trap_cr",
+			"wilderness_traps"
+		]
+	},
+	"other_modifiers_to_trap_cr": {
+		"name": "Other Modifiers to Trap CR",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"{SOURCE PRPG Core Rulebook/423}",
+			"",
+			"***Average Damage:*** If a trap (mechanical or magical) does hit point damage, calculate the average damage for a successful hit and round that value to the nearest multiple of 10. If the trap is designed to hit more than one target, multiply this value by 2. If the trap is designed to deal damage over a number of rounds, multiply this value by the number of rounds the trap will be active (or the average number of rounds, if the duration is variable). Use this value to adjust the Challenge Rating of the trap, as indicated on [Table 13-3](rule/mechanical_trap_cost). Damage from poison does not count toward this value, but extra damage from pit spikes and multiple attacks does.",
+			"",
+			"For a magic trap, only one modifier applies to the CR: either the level of the highest-level spell used in the trap, or the average damage figure, whichever is larger.",
+			"",
+			"***Multiple Traps:*** If a trap is really two or more connected traps that affect approximately the same area, determine the CR of each one separately.",
+			"",
+			"***Multiple Dependent Traps:*** If one trap depends on the success of the other (that is, you can avoid the second trap by not falling victim to the first), characters earn XP for both traps by defeating the first one, regardless if the second one is also sprung.",
+			"",
+			"***Multiple Independent Traps:*** If two or more traps act independently (they do not depend on one another to activate), characters only earn XP for traps that they defeat."
+		],
+		"parent_topics": [
+			"gamemastery",
+			"traps",
+			"designing_a_trap"
+		],
+		"siblings": [
+			"mechanical_trap_cost",
+			"magic_device_trap_cost",
+			"other_modifiers_to_trap_cr",
+			"wilderness_traps"
 		]
 	},
 	"wilderness_traps": {
@@ -1154,16 +1081,17 @@
 			"",
 			"At the GM's discretion, other nonmagical mechanical traps may be considered to have associated terrains and use the wilderness trap construction rules.",
 			"",
-			"Wilderness traps are marked with an asterisk (&#42;) on the {rule/Sample Traps} page."
+			"Wilderness traps are marked with an asterisk (\\*) on the {rule/Sample Traps} page."
 		],
 		"parent_topics": [
-			"environment",
-			"traps"
+			"gamemastery",
+			"traps",
+			"designing_a_trap"
 		],
 		"siblings": [
-			"elements_of_a_trap",
-			"sample_traps",
-			"designing_a_trap",
+			"mechanical_trap_cost",
+			"magic_device_trap_cost",
+			"other_modifiers_to_trap_cr",
 			"wilderness_traps"
 		]
 	},
@@ -1175,7 +1103,7 @@
 			"",
 			"Outside the safety of city walls, the wilderness is a dangerous place, and many adventurers have gotten lost in its trackless wilds or fallen victim to deadly weather. The following rules give you guidelines on running adventures in a wilderness setting."
 		],
-		"parent_topics": [ "environment" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"getting_lost",
 			"forest_terrain",
@@ -1187,6 +1115,11 @@
 			"aquatic_terrain"
 		],
 		"siblings": [
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"monster_rules",
+			"race_builder",
+			"creating_new_weapons",
 			"dungeons",
 			"traps",
 			"wilderness",
@@ -1246,7 +1179,7 @@
 			"***Regaining Your Bearings:*** There are several ways for characters to find their way after becoming lost. First, if the characters successfully set a new course and follow it to the destination they're trying to reach, they're not lost anymore. Second, the characters, through random movement, might run into an unmistakable landmark. Third, if conditions suddenly improve - the fog lifts or the sun comes up - lost characters may attempt to set a new course, as described above, with a +4 bonus on the Survival check."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness"
 		],
 		"siblings": [
@@ -1291,7 +1224,7 @@
 			"The background noise in the forest makes Perception checks that rely on sound more difficult, increasing the DC of the check by 2 per 10 feet, not 1."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness"
 		],
 		"subtopics": [ "forest_fires_cr_6" ],
@@ -1325,14 +1258,14 @@
 			"",
 			"Within the bounds of a forest fire, a character faces three dangers: heat damage, catching on fire, and smoke inhalation.",
 			"",
-			"***Heat Damage:*** Getting caught within a forest fire is even worse than being exposed to extreme heat (see {rule/Heat Dangers}. Breathing the air causes a character to take 1d6 points of fire damage per round (no save). In addition, a character must make a Fortitude save every 5 rounds (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. A character who holds his breath can avoid the lethal damage, but not the nonlethal damage. Those wearing heavy clothing or any sort of armor take a -4 penalty on their saving throws. Those wearing metal armor or who come into contact with very hot metal are affected as if by a heat metal spell.",
+			"***Heat Damage:*** Getting caught within a forest fire is even worse than being exposed to extreme heat (see {rule/Heat Dangers}). Breathing the air causes a character to take 1d6 points of fire damage per round (no save). In addition, a character must make a Fortitude save every 5 rounds (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. A character who holds his breath can avoid the lethal damage, but not the nonlethal damage. Those wearing heavy clothing or any sort of armor take a -4 penalty on their saving throws. Those wearing metal armor or who come into contact with very hot metal are affected as if by a heat metal spell.",
 			"",
 			"***Catching on Fire:*** Characters engulfed in a forest fire are at risk of catching on fire when the leading edge of the fire overtakes them, and continue to be at risk once per minute thereafter. See {rule/Catching on Fire}.",
 			"",
 			"***Smoke Inhalation:*** Forest fires naturally produce a great deal of smoke. A character who breathes heavy smoke must make a Fortitude save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage. Smoke also provides concealment to characters within it."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness",
 			"forest_terrain"
 		],
@@ -1366,7 +1299,7 @@
 			"",
 			"***Quicksand:*** Patches of quicksand present a deceptively solid appearance (appearing as undergrowth or open land) that might trap careless characters. A character approaching a patch of quicksand at a normal pace is entitled to a DC 15 Survival check to spot the danger before stepping in, but charging or running characters don't have a chance to detect a hidden patch before blundering into it. A typical patch of quicksand is 20 feet in diameter; the momentum of a charging or running character carries him 1d2 &times; 5 feet into the quicksand.",
 			"",
-			"***Effects of Quicksand:*** Characters in quicksand must make a DC 10 Swim check every round to simply tread water in place, or a DC 15 Swim check to move 5 feet in whatever direction is desired. If a trapped character fails this check by 5 or more, he sinks below the surface and begins to drown whenever he can no longer hold his breath (see the [Swim skill](skill/swim) description).",
+			"***Effects of Quicksand:*** Characters in quicksand must make a DC 10 Swim check every round to simply tread water in place, or a DC 15 Swim check to move 5 feet in whatever direction is desired. If a trapped character fails this check by 5 or more, he sinks below the surface and begins to drown whenever he can no longer hold his breath (see the {skill/Swim/ skill} description).",
 			"",
 			"Characters below the surface of quicksand may swim back to the surface with a successful Swim check (DC 15, +1 per consecutive round of being under the surface).",
 			"",
@@ -1379,7 +1312,7 @@
 			"***Stealth and Detection in a Marsh:*** In a marsh, the maximum distance at which a Perception check for detecting the nearby presence of others can succeed is 6d6 &times; 10 feet. In a swamp, this distance is 2d8 &times; 10 feet. Undergrowth and deep bogs provide plentiful concealment, so it's easy to use Stealth in a marsh."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness"
 		],
 		"siblings": [
@@ -1422,7 +1355,7 @@
 			"***Stealth and Detection in Hills:*** In gentle hills, the maximum distance at which a Perception check for detecting the nearby presence of others can succeed is 2d10 &times; 10 feet. In rugged hills, this distance is 2d6 &times; 10 feet. Hiding in hills terrain can be difficult if there isn't undergrowth around. A hilltop or ridge provides enough cover to hide from anyone below the hilltop or ridge."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness"
 		],
 		"siblings": [
@@ -1457,13 +1390,13 @@
 			"| **Scree** | - | 20% | 30% |",
 			"| **Dense Rubble** | - | 20% | 30% |",
 			"",
-			"***Gradual and Steep Slopes:*** These function as described in Hills Terrain.",
+			"***Gradual and Steep Slopes:*** These function as described in {rule/Hills Terrain}.",
 			"",
 			"***Cliff:*** These terrain elements also function like their hills terrain counterparts, but they're typically 2d6 &times; 10 feet tall. Cliffs taller than 80 feet take up 20 feet of horizontal space.",
 			"",
 			"***Chasm:*** Usually formed by natural geological processes, chasms function like pits in a dungeon setting. Chasms aren't hidden, so characters won't fall into them by accident (although bull rushes are another story). A typical chasm is 2d4 &times; 10 feet deep, at least 20 feet long, and anywhere from 5 feet to 20 feet wide. It takes a DC 15 Climb check to climb out of a chasm. In forbidding mountain terrain, chasms are typically 2d8 &times; 10 feet deep.",
 			"",
-			"***Light Undergrowth:*** This functions as described in Forest Terrain.",
+			"***Light Undergrowth:*** This functions as described in {rule/Forest Terrain}.",
 			"",
 			"***Scree:*** A field of shifting gravel, scree doesn't affect speed, but it can be treacherous on a slope. The DC of Acrobatics checks increases by 2 if there's scree on a gradual slope and by 5 if there's scree on a steep slope. The DC of Stealth checks increases by 2 if the scree is on a slope of any kind.",
 			"",
@@ -1473,14 +1406,14 @@
 			"",
 			"***Cave Entrance:*** Found in cliff and steep slope squares and next to rock walls, cave entrances are typically between 5 and 20 feet wide and 5 feet deep. A cave could be anything from a simple chamber to the entrance to an elaborate dungeon. Caves used as monster lairs typically have 1d3 rooms that are 1d4 &times; 10 feet across.",
 			"",
-			"***Other Mountain Terrain Features:*** Most alpine meadows begin above the treeline, so trees and other forest elements are rare in the mountains. Mountain terrain can include active streams (5 to 10 feet wide and no more than 5 feet deep) and dry streambeds (treat as a trench 5 to 10 feet across). Particularly high-altitude areas tend to be colder than the lowland areas that surround them, so they might be covered in ice sheets (described in Desert Terrain).",
+			"***Other Mountain Terrain Features:*** Most alpine meadows begin above the treeline, so trees and other forest elements are rare in the mountains. Mountain terrain can include active streams (5 to 10 feet wide and no more than 5 feet deep) and dry streambeds (treat as a trench 5 to 10 feet across). Particularly high-altitude areas tend to be colder than the lowland areas that surround them, so they might be covered in ice sheets (described in {rule/Desert Terrain}).",
 			"",
 			"***Stealth and Detection in Mountains:*** As a guideline, the maximum distance in mountain terrain at which a Perception check for detecting the nearby presence of others can succeed is 4d10 &times; 10 feet. Certain peaks and ridgelines afford much better vantage points, of course, and twisting valleys and canyons have much shorter spotting distances. Because there's little vegetation to obstruct line of sight, the specifics on your map are your best guide for the range at which an encounter could begin. As in hills terrain, a ridge or peak provides enough cover to hide from anyone below the high point.",
 			"",
 			"It's easier to hear faraway sounds in the mountains. The DC of Perception checks that rely on sound increase by 1 per 20 feet between listener and source, not per 10 feet."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness"
 		],
 		"subtopics": [
@@ -1520,7 +1453,7 @@
 			"To determine the precise location of characters in the path of an avalanche, roll 1d6 &times; 20; the result is the number of feet from the center of the path taken by the bury zone to the center of the party's location. Avalanches of snow and ice advance at a speed of 500 feet per round, while rock and soil avalanches travel at a speed of 250 feet per round."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness",
 			"mountain_terrain"
 		],
@@ -1549,7 +1482,7 @@
 			"***High Peak (more than 15,000 feet):*** The highest mountains exceed 15,000 feet in height. At these elevations, creatures are subject to both high altitude fatigue (as described above) and altitude sickness, whether or not they're acclimated to high altitudes. Altitude sickness represents long-term oxygen deprivation, and affects mental and physical ability scores. After each 6-hour period a character spends at an altitude of over 15,000 feet, he must succeed on a Fortitude save (DC 15, +1 per previous check) or take 1 point of damage to all ability scores. Creatures acclimated to high altitude receive a +4 competence bonus on their saving throws to resist high altitude effects and altitude sickness, but eventually even seasoned mountaineers must abandon these dangerous elevations."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness",
 			"mountain_terrain"
 		],
@@ -1567,7 +1500,7 @@
 			"",
 			"Desert terrain exists in warm, temperate, and cold climates, but all deserts share one common trait: little rain. The three categories of desert terrain are tundra (cold desert), rocky deserts (often temperate), and sandy deserts (often warm).",
 			"",
-			"Tundra differs from the other desert categories in two important ways. Because snow and ice cover much of the landscape, it's easy to find water. During the height of summer, the permafrost thaws to a depth of a foot or so, turning the landscape into a vast field of mud. The muddy tundra affects movement and skill use as the shallow bogs described in Marsh Terrain, although there's little standing water.",
+			"Tundra differs from the other desert categories in two important ways. Because snow and ice cover much of the landscape, it's easy to find water. During the height of summer, the permafrost thaws to a depth of a foot or so, turning the landscape into a vast field of mud. The muddy tundra affects movement and skill use as the shallow bogs described in {rule/Marsh Terrain}, although there's little standing water.",
 			"",
 			"The table below describes terrain elements found in each of the three desert categories. The terrain elements on this table are mutually exclusive; for instance, a square of tundra might contain either light undergrowth or an ice sheet, but not both.",
 			"",
@@ -1589,12 +1522,12 @@
 			"",
 			"***Sand Dunes:*** Created by the action of wind on sand, dunes function as hills that move. If the wind is strong and consistent, a sand dune can move several hundred feet in a week's time. Sand dunes can cover hundreds of squares. They always have a gentle slope pointing in the direction of the prevailing wind and a steep slope on the leeward side.",
 			"",
-			"***Other Desert Terrain Features:*** Tundra is sometimes bordered by forests, and the occasional tree isn't out of place in the cold wastes. Rocky deserts have towers and mesas consisting of flat ground surrounded on all sides by cliffs and steep slopes (as described in Mountain Terrain). Sandy deserts sometimes have quicksand; this functions as described in Marsh Terrain, although desert quicksand is a waterless mixture of fine sand and dust. All desert terrain is crisscrossed with dry streambeds (treat as trenches 5 to 15 feet wide) that fill with water on the rare occasions when rain falls.",
+			"***Other Desert Terrain Features:*** Tundra is sometimes bordered by forests, and the occasional tree isn't out of place in the cold wastes. Rocky deserts have towers and mesas consisting of flat ground surrounded on all sides by cliffs and steep slopes (as described in {rule/Mountain Terrain}). Sandy deserts sometimes have quicksand; this functions as described in {rule/Marsh Terrain}, although desert quicksand is a waterless mixture of fine sand and dust. All desert terrain is crisscrossed with dry streambeds (treat as trenches 5 to 15 feet wide) that fill with water on the rare occasions when rain falls.",
 			"",
 			"***Stealth and Detection in the Desert:*** In general, the maximum distance in desert terrain at which a Perception check for detecting the nearby presence of others can succeed is 6d6 &times; 20 feet; beyond this distance, elevation changes and heat distortion in warm deserts makes sight-based Perception impossible. The presence of dunes in sandy deserts limits spotting distance to 6d6 &times; 10 feet. The scarcity of undergrowth or other elements that offer concealment or cover makes using Stealth more difficult."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness"
 		],
 		"subtopics": [ "sandstorms" ],
@@ -1619,7 +1552,7 @@
 			"A sandstorm reduces visibility to 1d10 &times; 5 feet and provides a -4 penalty on Perception checks. A sandstorm deals 1d3 points of nonlethal damage per hour to any creatures caught in the open, and leaves a thin coating of sand in its wake. Driving sand creeps in through all but the most secure seals and seams, chafing skin and contaminating carried gear."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness",
 			"desert_terrain"
 		],
@@ -1648,20 +1581,20 @@
 			"",
 			"***Undergrowth:*** Whether they're crops or natural vegetation, the tall grasses of the plains function like light undergrowth in a forest. Particularly thick bushes form patches of heavy undergrowth that dot the landscape in grasslands.",
 			"",
-			"***Light Rubble:*** On the battlefield, light rubble usually represents something that was destroyed: the ruins of a building or the scattered remnants of a stone wall, for example. It functions as described in the Desert Terrain section.",
+			"***Light Rubble:*** On the battlefield, light rubble usually represents something that was destroyed: the ruins of a building or the scattered remnants of a stone wall, for example. It functions as described in the {rule/Desert Terrain} section.",
 			"",
 			"***Trench:*** Often dug before a battle to protect soldiers, a trench functions as a low wall, except that it provides no cover against adjacent foes. It costs 2 squares of movement to leave a trench, but it costs nothing extra to enter one. Creatures outside a trench who make a melee attack against a creature inside the trench gain a +1 bonus on melee attacks because they have [higher ground](rule/combat_modifiers). In farm terrain, trenches are generally irrigation ditches.",
 			"",
-			"***Berm:*** A common defensive structure, a berm is a low, earthen wall that slows movement and provides a measure of cover. Put a berm on the map by drawing two adjacent rows of steep slope (described in Hills Terrain), with the edges of the berm on the downhill side. Thus, a character crossing a 2-square berm will travel uphill for 1 square, then downhill for 1 square. Two square berms provide cover as low walls for anyone standing behind them. Larger berms provide the low wall benefit for anyone standing 1 square downhill from the top of the berm.",
+			"***Berm:*** A common defensive structure, a berm is a low, earthen wall that slows movement and provides a measure of cover. Put a berm on the map by drawing two adjacent rows of steep slope (described in {rule/Hills Terrain}), with the edges of the berm on the downhill side. Thus, a character crossing a 2-square berm will travel uphill for 1 square, then downhill for 1 square. Two square berms provide cover as low walls for anyone standing behind them. Larger berms provide the low wall benefit for anyone standing 1 square downhill from the top of the berm.",
 			"",
 			"***Fences:*** Wooden fences are generally used to contain livestock or impede oncoming soldiers. It costs an extra square of movement to cross a wooden fence. A stone fence provides a measure of cover as well, functioning as low walls. Mounted characters can cross a fence without slowing their movement if they succeed on a DC 15 Ride check. If the check fails, the steed crosses the fence, but the rider falls out of the saddle.",
 			"",
-			"***Other Plains Terrain Features:*** Occasional trees dot the landscape in many plains, although on battlefields they're often felled to provide raw material for siege engines (described in Urban Features). Hedgerows (described in Marsh Terrain) are found in plains as well. Streams, generally 5 to 20 feet wide and 5 to 10 feet deep, are commonplace.",
+			"***Other Plains Terrain Features:*** Occasional trees dot the landscape in many plains, although on battlefields they're often felled to provide raw material for siege engines (described in Urban Features). Hedgerows (described in {rule/Marsh Terrain}) are found in plains as well. Streams, generally 5 to 20 feet wide and 5 to 10 feet deep, are commonplace.",
 			"",
 			"***Stealth and Detection in Plains:*** In plains terrain, the maximum distance at which a Perception check for detecting the nearby presence of others can succeed is 6d6 &times; 40 feet, although the specifics of your map might restrict line of sight. Cover and concealment are not uncommon, so a good place of refuge is often nearby, if not right at hand."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness"
 		],
 		"siblings": [
@@ -1686,7 +1619,7 @@
 			"",
 			"***Flowing Water:*** Large, placid rivers move at only a few miles per hour, so they function as still water for most purposes. But some rivers and streams are swifter; anything floating in them moves downstream at a speed of 10 to 40 feet per round. The fastest rapids send swimmers bobbing downstream at 60 to 90 feet per round. Fast rivers are always at least rough water (Swim DC 15), and whitewater rapids are stormy water (Swim DC 20). If a character is in moving water, move her downstream the indicated distance at the end of her turn. A character trying to maintain her position relative to the riverbank can spend some or all of her turn swimming upstream.",
 			"",
-			"***Swept Away:*** Characters swept away by a river moving 60 feet per round or faster must make DC 20 Swim checks every round to avoid going under. If a character gets a check result of 5 or more over the minimum necessary, she arrests her motion by catching a rock, tree limb, or bottom snag - she is no longer being carried along by the flow of the water. Escaping the rapids by reaching the bank requires three DC 20 Swim checks in a row. Characters arrested by a rock, limb, or snag can't escape under their own power unless they strike out into the water and attempt to swim their way clear. Other characters can rescue them as if they were trapped in quicksand (described in Marsh Terrain).",
+			"***Swept Away:*** Characters swept away by a river moving 60 feet per round or faster must make DC 20 Swim checks every round to avoid going under. If a character gets a check result of 5 or more over the minimum necessary, she arrests her motion by catching a rock, tree limb, or bottom snag - she is no longer being carried along by the flow of the water. Escaping the rapids by reaching the bank requires three DC 20 Swim checks in a row. Characters arrested by a rock, limb, or snag can't escape under their own power unless they strike out into the water and attempt to swim their way clear. Other characters can rescue them as if they were trapped in quicksand (described in {rule/Marsh Terrain}).",
 			"",
 			"***Non-Flowing Water:*** Lakes and oceans simply require a swim speed or successful Swim checks to move through (DC 10 in calm water, DC 15 in rough water, DC 20 in stormy water). Characters need a way to breathe if they're underwater; failing that, they risk drowning. When underwater, characters can move in any direction.",
 			"",
@@ -1697,7 +1630,7 @@
 			"***Invisibility:*** An invisible creature displaces water and leaves a visible, body-shaped \"bubble\" where the water was displaced. The creature still has concealment (20% miss chance), but not total concealment (50% miss chance)."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness"
 		],
 		"subtopics": [
@@ -1754,7 +1687,7 @@
 			"[^5]: Aquatic Adventures introduces a rule that [negates cover](rule/physical_attacks) when using piercing weapons, citing spearfishing and harpooning as reasons. This is entirely optional."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness",
 			"aquatic_terrain"
 		],
@@ -1777,7 +1710,7 @@
 			"During a flood, rivers become wider, deeper, and swifter. Assume that a river rises by 1d10+10 feet during the spring flood, and its width increases by a factor of 1d4 &times; 50%. Fords might disappear for days, bridges might be swept away, and even ferries might not be able to manage the crossing of a flooded river. A river in flood makes Swim checks one category harder (calm water becomes rough, and rough water becomes stormy). Rivers also become 50% swifter."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"wilderness",
 			"aquatic_terrain"
 		],
@@ -1788,6 +1721,7 @@
 	},
 	"urban_adventures": {
 		"name": "Urban Adventures",
+		"tags": "Weapon and Spell Restrictions, Urban Features",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/433}",
@@ -1798,55 +1732,19 @@
 			"",
 			"The freedom to retreat and ready access to the marketplace means that the players have a greater degree of control over the pacing of an urban adventure.",
 			"",
-			"***Law Enforcement:*** The other key distinctions between adventuring in a city and delving into a dungeon is that a dungeon is, almost by definition, a lawless place where the only law is that of the jungle: kill or be killed. A city, on the other hand, is held together by a code of laws, many of which are explicitly designed to prevent the sort of killing and looting that adventurers engage in all the time. Even so, most cities' laws recognize monsters as a threat to the stability the city relies on, and prohibitions about murder rarely apply to monsters such as aberrations or evil outsiders. Most evil humanoids, however, are typically protected by the same laws that protect all the citizens of the city. Having an evil alignment is not a crime (except in some severely theocratic cities, perhaps, with the magical power to back up the law); only evil deeds are against the law. Even when adventurers encounter an evildoer in the act of perpetrating some heinous evil upon the populace of the city, the law tends to frown on the sort of vigilante justice that leaves the evildoer dead or otherwise unable to testify at a trial."
-		],
-		"parent_topics": [ "environment" ],
-		"subtopics": [
-			"weapon_and_spell_restrictions",
-			"urban_features"
-		],
-		"siblings": [
-			"dungeons",
-			"traps",
-			"wilderness",
-			"urban_adventures",
-			"weather",
-			"the_planes",
-			"environmental_rules"
-		]
-	},
-	"weapon_and_spell_restrictions": {
-		"name": "Weapon and Spell Restrictions",
-		"subtitle": "Urban Adventures",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"{SOURCE PRPG Core Rulebook/433}",
+			"***Law Enforcement:*** The other key distinctions between adventuring in a city and delving into a dungeon is that a dungeon is, almost by definition, a lawless place where the only law is that of the jungle: kill or be killed. A city, on the other hand, is held together by a code of laws, many of which are explicitly designed to prevent the sort of killing and looting that adventurers engage in all the time. Even so, most cities' laws recognize monsters as a threat to the stability the city relies on, and prohibitions about murder rarely apply to monsters such as aberrations or evil outsiders. Most evil humanoids, however, are typically protected by the same laws that protect all the citizens of the city. Having an evil alignment is not a crime (except in some severely theocratic cities, perhaps, with the magical power to back up the law); only evil deeds are against the law. Even when adventurers encounter an evildoer in the act of perpetrating some heinous evil upon the populace of the city, the law tends to frown on the sort of vigilante justice that leaves the evildoer dead or otherwise unable to testify at a trial.",
+			"",
+			"### Weapon and Spell Restrictions",
 			"",
 			"Different cities have different laws about such issues as carrying weapons in public and restricting spellcasters.",
 			"",
-			"The city's laws might not affect all characters equally. A monk isn't hampered at all by a law about peace-bonding weapons, but a cleric is reduced to a fraction of his power if all holy symbols are confiscated at the city's gates."
-		],
-		"parent_topics": [
-			"environment",
-			"urban_adventures"
-		],
-		"siblings": [
-			"weapon_and_spell_restrictions",
-			"urban_features"
-		]
-	},
-	"urban_features": {
-		"name": "Urban Features",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"{SOURCE PRPG Core Rulebook/433}",
+			"The city's laws might not affect all characters equally. A monk isn't hampered at all by a law about peace-bonding weapons, but a cleric is reduced to a fraction of his power if all holy symbols are confiscated at the city's gates.",
 			"",
-			"Walls, doors, poor lighting, and uneven footing: in many ways a city is much like a dungeon. Some special considerations for an urban setting are covered below."
+			"### Urban Features",
+			"",
+			"Walls, doors, poor lighting, and uneven footing: in many ways a city is much like a dungeon. Some special considerations for an urban setting are covered in the subtopics below."
 		],
-		"parent_topics": [
-			"environment",
-			"urban_adventures"
-		],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"walls_and_gates",
 			"guards_and_soldiers",
@@ -1857,8 +1755,18 @@
 			"city_lights"
 		],
 		"siblings": [
-			"weapon_and_spell_restrictions",
-			"urban_features"
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"monster_rules",
+			"race_builder",
+			"creating_new_weapons",
+			"dungeons",
+			"traps",
+			"wilderness",
+			"urban_adventures",
+			"weather",
+			"the_planes",
+			"environmental_rules"
 		]
 	},
 	"walls_and_gates": {
@@ -1878,18 +1786,17 @@
 			"",
 			"***Watchtowers:*** Some city walls are adorned with watchtowers set at irregular intervals. Few cities have enough guards to keep someone constantly stationed at every tower, unless the city is expecting attack from outside. The towers provide a superior view of the surrounding countryside as well as a point of defense against invaders.",
 			"",
-			"Watchtowers are typically 10 feet higher than the wall they adjoin, and their diameter is 5 times the thickness of the wall. Arrow slits line the outer sides of the upper stories of a tower, and the top is crenellated like the surrounding walls are. In a small tower (25 feet in diameter adjoining a 5-foot-thick wall), a simple ladder typically connects the tower's stories and its roof. In a larger tower, stairs serve that purpose.",
+			"Watchtowers are typically 10 feet higher than the wall they adjoin, and their diameter is 5 times the thickness of the wall. [Arrow slits](rule/walls) line the outer sides of the upper stories of a tower, and the top is crenellated like the surrounding walls are. In a small tower (25 feet in diameter adjoining a 5-foot-thick wall), a simple ladder typically connects the tower's stories and its roof. In a larger tower, stairs serve that purpose.",
 			"",
 			"Heavy wooden doors, reinforced with iron and bearing good locks (Disable Device DC 30), block entry to a tower, unless the tower is in regular use. As a rule, the captain of the guard keeps the keys to the towers secured on her person, and second copies are in the city's inner fortress or barracks.",
 			"",
-			"***Gates:*** A typical city gate is a gatehouse with two portcullises and murder holes above the space between them. In towns and some small cities, the primary entry is through iron double doors set into the city wall.",
+			"***Gates:*** A typical city gate is a gatehouse with two [portcullises](rule/doors) and murder holes above the space between them. In towns and some small cities, the primary entry is through iron double doors set into the city wall.",
 			"",
 			"Gates are usually open during the day and locked or barred at night. Usually, one gate lets in travelers after sunset and is staffed by guards who will open it for someone who seems honest, presents proper papers, or offers a large enough bribe (depending on the city and the guards)."
 		],
 		"parent_topics": [
-			"environment",
-			"urban_adventures",
-			"urban_features"
+			"gamemastery",
+			"urban_adventures"
 		],
 		"siblings": [
 			"walls_and_gates",
@@ -1915,9 +1822,8 @@
 			"The majority of a city guard force is made up of warriors, mostly 1st level. Officers include higher-level warriors, fighters, a fair number of clerics, and wizards or sorcerers, as well as multiclass fighter/spellcasters."
 		],
 		"parent_topics": [
-			"environment",
-			"urban_adventures",
-			"urban_features"
+			"gamemastery",
+			"urban_adventures"
 		],
 		"siblings": [
 			"walls_and_gates",
@@ -1981,16 +1887,15 @@
 			"| [Catapult, heavy](equipment-siegeengine/heavy_catapult) | 800 gp | 6d6 | - | 200 ft. (100 ft. minimum) | 4 |",
 			"| [Catapult, light](equipment-siegeengine/light_catapult) | 550 gp | 4d6 | - | 150 ft. (100 ft. minimum) | 2 |",
 			"| [Ballista](equipment-siegeengine/heavy_ballista) | 500 gp | 3d8 | 19-20 | 120 ft. | 1 |",
-			"| [Ram](equipment-siegeengine/large_ram) | 1,000 gp | 3d6&#42; | - | - | 10 |",
+			"| [Ram](equipment-siegeengine/large_ram) | 1,000 gp | 3d6\\* | - | - | 10 |",
 			"| [Siege tower](equipment-siegeengine/large_siege_tower) | 2,000 gp | - | - | - | 20 |",
 			"",
-			"&#42; See description for special rules.  ",
+			"\\* See description for special rules.  ",
 			"All siege weapons [are listed here](main/equipment_siegeengines)."
 		],
 		"parent_topics": [
-			"environment",
-			"urban_adventures",
-			"urban_features"
+			"gamemastery",
+			"urban_adventures"
 		],
 		"siblings": [
 			"walls_and_gates",
@@ -2020,9 +1925,8 @@
 			"If two or more characters are trying to direct a crowd in different directions, they make opposed Diplomacy or Intimidate checks to determine to whom the crowd listens. The crowd ignores everyone if none of the characters' check results beat the DCs given above."
 		],
 		"parent_topics": [
-			"environment",
-			"urban_adventures",
-			"urban_features"
+			"gamemastery",
+			"urban_adventures"
 		],
 		"siblings": [
 			"walls_and_gates",
@@ -2037,6 +1941,7 @@
 	"above_and_beneath_the_streets": {
 		"name": "Above and Beneath the Streets",
 		"subtitle": "Urban Adventures",
+		"tags": "Rooftops, Sewers",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/437}",
@@ -2048,9 +1953,8 @@
 			"***Sewers:*** To get into the sewers, most characters open a grate (a full-round action) and jump down 10 feet. Sewers are built exactly like dungeons, except that they're much more likely to have floors that are slippery or covered with water. Sewers are also similar to dungeons in terms of creatures liable to be encountered therein. Some cities were built atop the ruins of older civilizations, so their sewers sometimes lead to treasures and dangers from a bygone age."
 		],
 		"parent_topics": [
-			"environment",
-			"urban_adventures",
-			"urban_features"
+			"gamemastery",
+			"urban_adventures"
 		],
 		"siblings": [
 			"walls_and_gates",
@@ -2078,9 +1982,8 @@
 			"Most city buildings are made of a combination of stone or clay brick (on the lower one or two stories) and timbers (for the upper stories, interior walls, and floors). Roofs are a mixture of boards, thatch, and slates, sealed with pitch. A typical lower-story wall is 1 foot thick, with AC 3, hardness 8, 90 hp, and a Climb DC of 25. Upper-story walls are 6 inches thick, with AC 3, hardness 5, 60 hp, and a Climb DC of 21. Exterior doors on most buildings are good wooden doors that are usually kept locked, except on public buildings such as shops and taverns."
 		],
 		"parent_topics": [
-			"environment",
-			"urban_adventures",
-			"urban_features"
+			"gamemastery",
+			"urban_adventures"
 		],
 		"siblings": [
 			"walls_and_gates",
@@ -2104,9 +2007,8 @@
 			"Alleys can be dark places even in daylight, thanks to the shadows of the tall buildings that surround them. A dark alley in daylight is rarely dark enough to afford true concealment, but it can lend a +2 circumstance bonus on Stealth checks."
 		],
 		"parent_topics": [
-			"environment",
-			"urban_adventures",
-			"urban_features"
+			"gamemastery",
+			"urban_adventures"
 		],
 		"siblings": [
 			"walls_and_gates",
@@ -2180,7 +2082,7 @@
 			"[^4]: Checked Size: Creatures of this size or smaller are unable to move forward against the force of the wind unless they succeed on a DC 10 Strength check (if on the ground) or a DC 20 Fly skill check if airborne.",
 			"[^5]: Blown Away Size: Creatures on the ground are knocked prone and rolled 1d4 &times; 10 feet, taking 1d4 points of nonlethal damage per 10 feet, unless they make a DC 15 Strength check. Flying creatures are blown back 2d6 &times; 10 feet and take 2d6 points of nonlethal damage due to battering and buffeting, unless they succeed on a DC 25 Fly skill check."
 		],
-		"parent_topics": [ "environment" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"rain_snow_sleet_and_hail",
 			"storms",
@@ -2188,6 +2090,11 @@
 			"winds"
 		],
 		"siblings": [
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"monster_rules",
+			"race_builder",
+			"creating_new_weapons",
 			"dungeons",
 			"traps",
 			"wilderness",
@@ -2219,7 +2126,7 @@
 			"***Hail:*** Hail does not reduce visibility, but the sound of falling hail makes sound-based Perception checks more difficult (-4 penalty). Sometimes (5% chance) hail can become large enough to deal 1 point of lethal damage (per storm) to anything in the open. Once on the ground, hail has the same effect on movement as snow."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"weather"
 		],
 		"siblings": [
@@ -2255,7 +2162,7 @@
 			"***Tornado:*** In addition to incredibly high winds, tornadoes can severely injure and kill those that get pulled into their funnels."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"weather"
 		],
 		"siblings": [
@@ -2275,7 +2182,7 @@
 			"Whether in the form of a low-lying cloud or a mist rising from the ground, fog obscures all sight beyond 5 feet, including darkvision. Creatures 5 feet away have concealment (attacks by or against them have a 20% miss chance)."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"weather"
 		],
 		"siblings": [
@@ -2309,7 +2216,7 @@
 			"***Tornado (CR 10):*** All flames are extinguished. All ranged attacks are impossible (even with siege weapons), as are sound-based Perception checks. Instead of being blown away (see [Table 13-10](rule/weather)), characters in close proximity to a tornado who fail their Fortitude saves are sucked toward the tornado. Those who come in contact with the actual funnel cloud are picked up and whirled around for 1d10 rounds, taking 6d6 points of damage per round, before being violently expelled (falling damage might apply). While a tornado's rotational speed can be as great as 300 mph, the funnel itself moves forward at an average of 30 mph (roughly 250 feet per round). A tornado uproots trees, destroys buildings, and causes similar forms of major destruction."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"weather"
 		],
 		"siblings": [
@@ -2349,12 +2256,17 @@
 			"",
 			"***Demiplanes:*** This catchall category covers all extradimensional spaces that function like planes but have measurable size and limited access. Other kinds of planes are theoretically infinite in size, but a demiplane might be only a few hundred feet across. There are countless demiplanes adrift in reality, and while most are connected to the Astral Plane and Ethereal Plane, some are cut off entirely from the transitive planes and can only be accessed by well-hidden portals or obscure magic spells."
 		],
-		"parent_topics": [ "environment" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"layered_planes",
 			"how_planes_interact"
 		],
 		"siblings": [
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"monster_rules",
+			"race_builder",
+			"creating_new_weapons",
 			"dungeons",
 			"traps",
 			"wilderness",
@@ -2376,7 +2288,7 @@
 			"Access to a layered plane from elsewhere usually happens on the first layer of the plane, which can be either the top or bottom layer, depending on the specific plane. Most fixed access points (such as portals and natural vortices) reach this layer, which makes it the gateway for other layers of the plane. The plane shift spell generally deposits the spellcaster on the first layer of the plane."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"the_planes"
 		],
 		"siblings": [
@@ -2398,7 +2310,7 @@
 			"***Coexistent Planes:*** If a link between two planes can be created at any point, the two planes are coexistent. These planes overlap each other completely. A coexistent plane can be reached from anywhere on the plane it overlaps. When moving on a coexistent plane, it is often possible to see into or interact with the plane with which it coexists."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"the_planes"
 		],
 		"siblings": [
@@ -2414,7 +2326,7 @@
 			"",
 			"Environmental hazards specific to one kind of terrain are described in the Wilderness section. Environmental hazards common to more than one setting are detailed below."
 		],
-		"parent_topics": [ "environment" ],
+		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
 			"acid_effects",
 			"cold_dangers",
@@ -2428,6 +2340,11 @@
 			"water_dangers"
 		],
 		"siblings": [
+			"basics_from_the_core_rulebook",
+			"gamemastery_guide",
+			"monster_rules",
+			"race_builder",
+			"creating_new_weapons",
 			"dungeons",
 			"traps",
 			"wilderness",
@@ -2451,7 +2368,7 @@
 			"Creatures immune to acid's caustic properties might still drown in it if they are totally immersed (see {rule/Drowning})."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules"
 		],
 		"siblings": [
@@ -2487,7 +2404,7 @@
 			"Characters walking on ice must spend 2 squares of movement to enter a square covered by ice, and the DC for Acrobatics checks increases by +5. Characters in prolonged contact with ice might run the risk of taking damage from severe cold."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules"
 		],
 		"siblings": [
@@ -2535,7 +2452,7 @@
 			"A creature with the scent ability automatically pinpoints unseen creatures within 5 feet of its location."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules"
 		],
 		"siblings": [
@@ -2572,7 +2489,7 @@
 			"Characters who deliberately dive into water take no damage on a successful DC 15 Swim check or DC 15 Acrobatics check, so long as the water is at least 10 feet deep for every 30 feet fallen. The DC of the check, however, increases by 5 for every 50 feet of the dive."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules"
 		],
 		"siblings": [
@@ -2614,7 +2531,7 @@
 			"| Colossal | 10d6 |"
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules"
 		],
 		"siblings": [
@@ -2650,7 +2567,7 @@
 			"Boiling water deals 1d6 points of scalding damage, unless the character is fully immersed, in which case it deals 10d6 points of damage per round of exposure."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules"
 		],
 		"subtopics": [
@@ -2684,7 +2601,7 @@
 			"Those whose clothes or equipment catch fire must make DC 15 Reflex saves for each item. Flammable items that fail take the same amount of damage as the character."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules",
 			"heat_dangers"
 		],
@@ -2705,7 +2622,7 @@
 			"Damage from lava continues for 1d3 rounds after exposure ceases, but this additional damage is only half of that dealt during actual contact (that is, 1d6 or 10d6 points per round). Immunity or resistance to fire serves as an immunity or resistance to lava or magma. A creature immune or resistant to fire might still drown if completely immersed in lava (see {rule/Drowning})."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules",
 			"heat_dangers"
 		],
@@ -2724,7 +2641,7 @@
 			"A character who breathes heavy smoke must make a Fortitude save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage. Smoke obscures vision, giving concealment (20% miss chance) to characters within it."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules"
 		],
 		"siblings": [
@@ -2756,7 +2673,7 @@
 			"Characters who have taken nonlethal damage from lack of food or water are fatigued. Nonlethal damage from thirst or starvation cannot be recovered until the character gets food or water, as needed - not even magic that restores hit points heals this damage."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules"
 		],
 		"siblings": [
@@ -2786,7 +2703,7 @@
 			"***Slow Suffocation:*** A Medium character can breathe easily for 6 hours in a sealed chamber measuring 10 feet on a side. After that time, the character takes 1d6 points of nonlethal damage every 15 minutes. Each additional Medium character or significant fire source (a torch, for example) proportionally reduces the time the air will last. Once rendered unconscious through the accumulation of nonlethal damage, the character begins to take lethal damage at the same rate. Small characters consume half as much air as Medium characters."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules"
 		],
 		"siblings": [
@@ -2816,7 +2733,7 @@
 			"Very deep water is not only generally pitch black, posing a navigational hazard, but worse, deals water pressure damage of 1d6 points per minute for every 100 feet the character is below the surface. A successful Fortitude save (DC 15, +1 for each previous check) means the diver takes no damage in that minute. Very cold water deals 1d6 points of nonlethal damage from hypothermia per minute of exposure."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules"
 		],
 		"subtopics": [ "drowning" ],
@@ -2847,7 +2764,7 @@
 			"Unconscious characters must begin making Constitution checks immediately upon being submerged (or upon becoming unconscious if the character was conscious when submerged). Once she fails one of these checks, she immediately drops to -1 (or loses 1 additional hit point, if her total is below -1). On the following round, she drowns. It is possible to drown in substances other than water, such as sand, quicksand, fine dust, and silos full of grain."
 		],
 		"parent_topics": [
-			"environment",
+			"gamemastery",
 			"environmental_rules",
 			"water_dangers"
 		],

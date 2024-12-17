@@ -648,7 +648,7 @@
 			"",
 			"| Tier | Trials |",
 			"| --- | --- |",
-			"| 1st&#42; | - |",
+			"| 1st\\* | - |",
 			"| 2nd | 1 |",
 			"| 3rd | 2 |",
 			"| 4th | 2 |",
@@ -659,7 +659,7 @@
 			"| 9th | 5 |",
 			"| 10th | 5 |",
 			"",
-			"&#42; The first tier is gained at the moment of ascension."
+			"\\* The first tier is gained at the moment of ascension."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",

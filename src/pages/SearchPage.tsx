@@ -258,7 +258,7 @@ const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOp
 
 // Debouncer
 let debounceTask = 0;
-const debounce = (fn: Function, delay: number = 500) => {
+const debounce = (fn: Function, delay: number = 300) => {
 	if (debounceTask) {
 		clearTimeout(debounceTask);
 	}

@@ -353,7 +353,7 @@
 			"",
 			"You summon elementals from their elemental planes and hurl them onto your enemies with great force. You must have line of effect to a point at least 60 feet above your intended targets and within the spell's range. You can summon one greater elemental, two Huge elementals, four Large elementals, or eight Medium elementals. You aim the elementals at targets within 60 feet of each other, no more than one elemental per target.",
 			"",
-			"Each elemental can strike only a single target, regardless of its size. When an elemental strikes a target, it makes a single slam attack at its full attack bonus with a +4 circumstance bonus. The elemental deals damage according to the table below. The type and amount of damage dealt varies by the size and type of elemental (see the table). Some elementals inflict an additional special ability upon successfully hitting a target; these additional special abilities are detailed in the elemental's full stat block and are denoted with an asterisk (&#42;). Whether or not it hits, the elemental takes bludgeoning damage according to its size. A summoned elemental acts on the same turn that it lands, starting prone in the nearest available space adjacent to its target.",
+			"Each elemental can strike only a single target, regardless of its size. When an elemental strikes a target, it makes a single slam attack at its full attack bonus with a +4 circumstance bonus. The elemental deals damage according to the table below. The type and amount of damage dealt varies by the size and type of elemental (see the table). Some elementals inflict an additional special ability upon successfully hitting a target; these additional special abilities are detailed in the elemental's full stat block and are denoted with an asterisk (\\*). Whether or not it hits, the elemental takes bludgeoning damage according to its size. A summoned elemental acts on the same turn that it lands, starting prone in the nearest available space adjacent to its target.",
 			"",
 			"You must select one type of elemental to summon when casting this spell (see the table). When you use a summoning spell to summon a creature with an elemental subtype, it is a spell of that type.",
 			"",
@@ -364,13 +364,13 @@
 			"| Huge or larger | 12d6 |",
 			"| Elemental Type | Damage Type |",
 			"| Air | Half slashing, half electricity |",
-			"| Earth | Bludgeoning and earth mastery&#42; |",
-			"| Fire | Fire and burn&#42; |",
+			"| Earth | Bludgeoning and earth mastery\\* |",
+			"| Fire | Fire and burn\\* |",
 			"| Ice | Half bludgeoning, half cold |",
-			"| Lightning | Electricity and metal mastery&#42; |",
+			"| Lightning | Electricity and metal mastery\\* |",
 			"| Magma | Half bludgeoning, half fire |",
-			"| Mud | Bludgeoning and entrap&#42; |",
-			"| Water | Bludgeoning and drench&#42; |",
+			"| Mud | Bludgeoning and entrap\\* |",
+			"| Water | Bludgeoning and drench\\* |",
 			"",
 			"### Mythic Elemental Bombardment",
 			"",
@@ -623,7 +623,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"As wall of force, except you create a hemispherical dome of force with hardness 20 and a number of hit points equal to 10 per caster level. The bottom edge of the dome forms a relatively watertight space if you are standing on a reasonably flat surface. The dome shape means that falling debris (such as rocks from a collapsing ceiling) tend to tumble to the side and pile up around the base of the dome. If you make a DC 20 Craft (stonemasonry), Knowledge (engineering), or Profession (architect or engineer) check, the debris is stable enough that it retains its dome-like configuration when the spell ends, otherwise it collapses. Normally this spell is used to buy time for dealing with avalanches, floods, and rockslides, though it is also handy in dealing with ambushes."
+			"As {spell/wall of force}, except you create a hemispherical dome of force with hardness 20 and a number of hit points equal to 10 per caster level. The bottom edge of the dome forms a relatively watertight space if you are standing on a reasonably flat surface. The dome shape means that falling debris (such as rocks from a collapsing ceiling) tend to tumble to the side and pile up around the base of the dome. If you make a DC 20 Craft (stonemasonry), Knowledge (engineering), or Profession (architect or engineer) check, the debris is stable enough that it retains its dome-like configuration when the spell ends, otherwise it collapses. Normally this spell is used to buy time for dealing with avalanches, floods, and rockslides, though it is also handy in dealing with ambushes."
 		]
 	},
 	"emotive_block": {

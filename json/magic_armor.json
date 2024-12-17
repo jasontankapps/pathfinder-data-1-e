@@ -62,6 +62,7 @@
 		]
 	},
 	"kimleacute_coat": { "copyof": "kimle_coat" },
+	"kiml_coat": { "copyof": "kimle_coat" },
 	"grim_gloom_mail": {
 		"name": "Grim Gloom Mail",
 		"sources": [ "Inner Sea Gods" ],

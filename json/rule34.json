@@ -346,11 +346,20 @@
 			"",
 			"Some GMs may find themselves frustrated by the need for players to seek out magic items granting specific bonuses. Under this new system, characters gain the statistical bonuses they're expected to gain from magic items as they level up so long as they have any item in the relevant slot, instead of needing specific items. The system involves minimal alterations to existing items, and works especially well for campaigns with higher than normal wealth.",
 			"",
-			"The rules in the [Automatic Bonus Progression section](rule/automatic_bonus_progression) downplay the role of magic items by granting bonuses to characters directly as they increase in level, and restricting the abilities of magic items. However, those rules don't work as well as the innate item bonuses system does in games that include more magic items than is assumed in the Core Rulebook. In addition, this system helps those GMs who prefer to emphasize the wonder and power of magic items."
+			"The rules in the [Automatic Bonus Progression section](rule/automatic_bonus_progression) downplay the role of magic items by granting bonuses to characters directly as they increase in level, and restricting the abilities of magic items. However, those rules don't work as well as the innate item bonuses system does in games that include more magic items than is assumed in the Core Rulebook. In addition, this system helps those GMs who prefer to emphasize the wonder and power of magic items.",
+			"",
+			"### Bonus and Price Overview",
+			"",
+			"In this system, the bonus a magic item grants corresponds to the item's starting market price as it appears in the item's original statistics. This price is shown on each table in this section in the \"Starting Price\" column. The second column shows the value of the bonus at a particular price range, and the header indicates to which statistics the bonus applies. In addition, any item that gains an innate item bonus also increases its market price by the amount shown on each table's \"Price Increase\" column.",
+			"",
+			"For example, a belt of dwarvenkind isn't a popular choice, since players typically want a belt of giant strength +4 or similar item for close to the same price. When using innate bonuses, items such as the belt of giant strength - which only grants an enhancement bonus - wouldn't exist, and the belt of dwarvenkind would count as a body slot item (see the [Altered Item Slots section under Wondrous Items](rule/wondrous_items_pu)). Since it costs 14,900 gp in the Core Rulebook, it would grant a +2 bonus to two ability scores in addition to its usual effects, and cost an additional 10,000 gp, for a total of 24,900 gp.",
+			"",
+			"The price increase means that a significant range of prices doesn't come into play in a campaign that uses this system. For example, if a neck slot item would normally have a base market price of 2,000 gp, it would now grant an additional +1 enhancement bonus to natural armor, and its price would increase by 2,000 gp. That means a neck slot item can't have a final price between 2,000 gp and 3,999 gp. If you need treasure at a value in that range, look at items that don't grant innate bonuses.",
+			"",
+			"To use this system, institute the following changes."
 		],
 		"parent_topics": [ "optional_pc_advancement_changes" ],
 		"subtopics": [
-			"bonus_and_price_overview",
 			"wondrous_items_pu",
 			"rings_pu",
 			"arms_and_armor"
@@ -361,32 +370,6 @@
 			"fractional_base_bonuses",
 			"staggered_advancement",
 			"variant_multiclassing"
-		]
-	},
-	"bonus_and_price_overview": {
-		"name": "Bonus and Price Overview",
-		"subtitle": "Innate Item Bonuses, Optional",
-		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"{SOURCE Pathfinder Unchained/158}",
-			"",
-			"In this system, the bonus a magic item grants corresponds to the item's starting market price as it appears in the item's original statistics. This price is shown on each table in this section in the \"Starting Price\" column. The second column shows the value of the bonus at a particular price range, and the header indicates to which statistics the bonus applies. In addition, any item that gains an innate item bonus also increases its market price by the amount shown on each table's \"Price Increase\" column.",
-			"",
-			"For example, a belt of dwarvenkind isn't a popular choice, since players typically want a belt of giant strength +4 or similar item for close to the same price. When using innate bonuses, items such as the belt of giant strength - which only grants an enhancement bonus - wouldn't exist, and the belt of dwarvenkind would count as a body slot item (see the [Altered Item Slots section under Wondrous Items](rule/wondrous_items_pu)). Since it costs 14,900 gp in the Core Rulebook, it would grant a +2 bonus to two ability scores in addition to its usual effects, and cost an additional 10,000 gp, for a total of 24,900 gp.",
-			"",
-			"The price increase means that a significant range of prices doesn't come into play in a campaign that uses this system. For example, if a neck slot item would normally have a base market price of 2,000 gp, it would now grant an additional +1 enhancement bonus to natural armor, and its price would increase by 2,000 gp. That means a neck slot item can't have a final price between 2,000 gp and 3,999 gp. If you need treasure at a value in that range, look at items that don't grant innate bonuses.",
-			"",
-			"To use this system, institute the following changes."
-		],
-		"parent_topics": [
-			"optional_pc_advancement_changes",
-			"innate_item_bonuses"
-		],
-		"siblings": [
-			"bonus_and_price_overview",
-			"wondrous_items_pu",
-			"rings_pu",
-			"arms_and_armor"
 		]
 	},
 	"wondrous_items_pu": {
@@ -459,7 +442,6 @@
 			"innate_item_bonuses"
 		],
 		"siblings": [
-			"bonus_and_price_overview",
 			"wondrous_items_pu",
 			"rings_pu",
 			"arms_and_armor"
@@ -494,7 +476,6 @@
 			"innate_item_bonuses"
 		],
 		"siblings": [
-			"bonus_and_price_overview",
 			"wondrous_items_pu",
 			"rings_pu",
 			"arms_and_armor"
@@ -516,7 +497,6 @@
 			"innate_item_bonuses"
 		],
 		"siblings": [
-			"bonus_and_price_overview",
 			"wondrous_items_pu",
 			"rings_pu",
 			"arms_and_armor"
@@ -537,7 +517,7 @@
 			"",
 			"### Table 1-7: Fractional Bonuses by Class Level",
 			"",
-			"| Class Level | Base Save Bonus (Good)&#42; | Base Save Bonus (Poor) | Base Attack Bonus (d10 or d12) | Base Attack Bonus (d8) | Base Attack Bonus (d6) |",
+			"| Class Level | Base Save Bonus (Good)\\* | Base Save Bonus (Poor) | Base Attack Bonus (d10 or d12) | Base Attack Bonus (d8) | Base Attack Bonus (d6) |",
 			"| --- | --- | --- | --- | --- | --- |",
 			"| 1st | +1/2 | +1/3 | +1 | +3/4 | +1/2 |",
 			"| 2nd | +1 | +2/3 | +2 | +1-1/2 | +1 |",
@@ -560,7 +540,7 @@
 			"| 19th | +9-1/2 | +6-1/3 | +19 | +14-1/4 | +9-1/2 |",
 			"| 20th | +10 | +6-2/3 | +20 | +15 | +10 |",
 			"",
-			"&#42;If at least one of the character's classes has a good saving throw progression for the save in question, add 2 to the total save bonus."
+			"\\*If at least one of the character's classes has a good saving throw progression for the save in question, add 2 to the total save bonus."
 		],
 		"parent_topics": [ "optional_pc_advancement_changes" ],
 		"subtopics": [
@@ -650,24 +630,9 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/42}",
 			"",
-			"When increasing in level, characters often gain new abilities and powers seemingly overnight. The following advancement variant allows you to add some verisimilitude to the way in which your characters grow in power. Instead of gaining all your new abilities when you advance to the next level, you divide them among four XP tiers: 25%, 50%, 75%, and 100%. Each XP tier represents a specific percentage of the XP required to advance to the next level."
-		],
-		"parent_topics": [ "optional_pc_advancement_changes" ],
-		"subtopics": [ "using_staggered_advancement" ],
-		"siblings": [
-			"automatic_bonus_progression",
-			"innate_item_bonuses",
-			"fractional_base_bonuses",
-			"staggered_advancement",
-			"variant_multiclassing"
-		]
-	},
-	"using_staggered_advancement": {
-		"name": "Using Staggered Advancement",
-		"subtitle": "Optional PC Advancement Changes",
-		"sources": [ "Pathfinder Unchained" ],
-		"description": [
-			"{SOURCE Pathfinder Unchained/42}",
+			"When increasing in level, characters often gain new abilities and powers seemingly overnight. The following advancement variant allows you to add some verisimilitude to the way in which your characters grow in power. Instead of gaining all your new abilities when you advance to the next level, you divide them among four XP tiers: 25%, 50%, 75%, and 100%. Each XP tier represents a specific percentage of the XP required to advance to the next level.",
+			"",
+			"### Using Staggered Advancement",
 			"",
 			"First, select the class in which you'll gain your next level. You must meet all the prerequisites for that class level. Whenever you reach a new XP tier, gain the appropriate universal abilities and skill ranks for that class as detailed in Table 1-8: Staggered Advancement. Your feat, ability score, and spell progressions remain unchanged.",
 			"",
@@ -769,11 +734,14 @@
 			"| | 3,337,500 | 75% | BAB, 50% hp, or saves | - | - |",
 			"| 20th | 3,600,000 | - | Remaining 50% of hp | All | Remaining 50% |"
 		],
-		"parent_topics": [
-			"optional_pc_advancement_changes",
-			"staggered_advancement"
-		],
-		"siblings": [ "using_staggered_advancement" ]
+		"parent_topics": [ "optional_pc_advancement_changes" ],
+		"siblings": [
+			"automatic_bonus_progression",
+			"innate_item_bonuses",
+			"fractional_base_bonuses",
+			"staggered_advancement",
+			"variant_multiclassing"
+		]
 	},
 	"variant_multiclassing": {
 		"name": "Variant Multiclassing",

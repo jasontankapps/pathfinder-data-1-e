@@ -324,6 +324,17 @@ const all_usable_groups = {...basic_data_groups};
 delete all_usable_groups["sources"];
 const number_of_groups = Object.keys(all_usable_groups).length;
 
+// If entities are used inside links inside tables.data, they must be converted before being saved to a file.
+const entities_in_tables = [
+	// [
+	//   matching RegExp,
+	//   replacement RegExp with global flag,
+	//   code point to be the replacement (a number)
+	// ]
+	[/\{[^}]+&eacute;/, /&eacute;/g, 0x00E9],
+	[/\{[^}]+&times;/, /&times;/g, 0x00D7]
+];
+
 // DO THE THINGS
 //   Create all files, including ___link.tsx files.
 Object.values(all_usable_groups).forEach((group, groupindex) => {
@@ -341,6 +352,26 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			parent_topics, subtopics, siblings,
 			subhierarchy
 		} = value;
+		// Convert entities in tables
+		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
+			tables.forEach((table, ti) => {
+				table.data.forEach((row, ri) => {
+					row.forEach((col, ci) => {
+						if(typeof col === "string") {
+							// Don't bother testing non-strings
+							if (col.match(matcher)) {
+								const fixed = col.replace(replacer, String.fromCharCode(codepoint));
+								tables[ti].data[ri][ci] = fixed;
+							}
+						} else if (Array.isArray(col) && col[1].match(matcher)) {
+							// The second half of an array in this context is always a displayed string
+							const fixed = col[1].replace(replacer, String.fromCharCode(codepoint));
+							tables[ti].data[ri][ci][1] = fixed;
+						}
+					})
+				})
+			})
+		})
 		const info = { sources };
 		let converted = [undefined, {}];
 		switch (datatype) {
