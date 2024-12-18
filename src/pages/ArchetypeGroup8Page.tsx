@@ -1,9 +1,9 @@
 import getItem from '../components/getItem';
-import brawler from './subpages/__archetype-brawler';
-import barbarian from './subpages/__archetype-barbarian';
-import familiar from './subpages/__archetype-familiar';
-import mesmerist from './subpages/__archetype-mesmerist';
-import vigilante from './subpages/__archetype-vigilante';
+import brawler from './subpages/__arc-brawler';
+import barbarian from './subpages/__arc-barbarian';
+import familiar from './subpages/__arc-familiar';
+import mesmerist from './subpages/__arc-mesmerist';
+import vigilante from './subpages/__arc-vigilante';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -24,7 +24,7 @@ const ArchetypeGroup8Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
-	const pageId = `archetype-${parent}--${id}`;
+	const pageId = `arc-${parent}--${id}`;
 
 	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
 

@@ -154,7 +154,7 @@
 			"",
 			"### Black Blood of Orv",
 			"",
-			"Black blood wells from the walls of a singular vault deep in Orv, a region known quite aptly as the Land of Black Blood. This noxious fluid repulses and freezes all natural life, although certain creatures like aberrations, undead, and {archetype-oracle/black-blooded oracle/s} possess an uncanny immunity to its effects. Any other creature that comes into contact with black blood takes 1d6 points of cold damage - 10d6 points of cold damage per round if fully immersed.",
+			"Black blood wells from the walls of a singular vault deep in Orv, a region known quite aptly as the Land of Black Blood. This noxious fluid repulses and freezes all natural life, although certain creatures like aberrations, undead, and {arc-oracle/black-blooded oracle/s} possess an uncanny immunity to its effects. Any other creature that comes into contact with black blood takes 1d6 points of cold damage - 10d6 points of cold damage per round if fully immersed.",
 			"",
 			"Although black blood isn't itself inherently evil, a pint of black blood can be used as unholy water. A spellcaster who consumes a dose of black blood casts all necromantic spells at +1 caster level for the next 10 minutes, but takes 3d6 points of cold damage and 1 point of Constitution damage by drinking the stuff. Normally, a dose of black blood becomes inert an hour after being harvested from the source in the Land of Black Blood, losing all mystical properties. {spell/Gentle repose} can preserve up to 1 gallon of black blood's magical properties for increased lengths of time, but no other method of stabilizing the stuff has yet been developed. The blood of a black-blooded oracle is diluted and does not have the properties of full-strength black blood."
 		]
@@ -761,7 +761,7 @@
 			"",
 			"**Bloodline Powers:** While bloodraging, you gain plantlike abilities and immunities as you become overgrown with jagged branches, rugged bark, and thick vines.",
 			"",
-			"**Verdant Growth (Su):** At 1st level, you gain fast healing 1 while bloodraging. Your fast healing increases by 1 at 4th level and every 3 levels thereafter, to a maximum of fast healing 6 at 19th level. If you have a bloodrager class feature that also grants you fast healing (such as the [spelleater's blood of life class feature](archetype-bloodrager/spelleater)), you can stack up to half of your fast healing from such abilities with the fast healing gained from this ability, but you cannot do so by an amount that exceeds your Charisma bonus (minimum 0).",
+			"**Verdant Growth (Su):** At 1st level, you gain fast healing 1 while bloodraging. Your fast healing increases by 1 at 4th level and every 3 levels thereafter, to a maximum of fast healing 6 at 19th level. If you have a bloodrager class feature that also grants you fast healing (such as the [spelleater's blood of life class feature](arc-bloodrager/spelleater)), you can stack up to half of your fast healing from such abilities with the fast healing gained from this ability, but you cannot do so by an amount that exceeds your Charisma bonus (minimum 0).",
 			"",
 			"**Oaken Skin (Ex):** At 4th level, when entering a bloodrage, your skin thickens like bark and you gain a +2 enhancement bonus to your natural armor. At 8th level and every 4 levels thereafter, this bonus increases by 1.",
 			"",

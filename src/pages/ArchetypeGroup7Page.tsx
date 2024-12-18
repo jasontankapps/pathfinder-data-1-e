@@ -1,9 +1,9 @@
 import getItem from '../components/getItem';
-import kineticist from './subpages/__archetype-kineticist';
-import rogue from './subpages/__archetype-rogue';
-import shaman from './subpages/__archetype-shaman';
-import sorcerer from './subpages/__archetype-sorcerer';
-import unchained_summoner from './subpages/__archetype-unchained_summoner';
+import kineticist from './subpages/__arc-kineticist';
+import rogue from './subpages/__arc-rogue';
+import shaman from './subpages/__arc-shaman';
+import sorcerer from './subpages/__arc-sorcerer';
+import unchained_summoner from './subpages/__arc-unchained_summoner';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -24,7 +24,7 @@ const ArchetypeGroup7Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
-	const pageId = `archetype-${parent}--${id}`;
+	const pageId = `arc-${parent}--${id}`;
 
 	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
 

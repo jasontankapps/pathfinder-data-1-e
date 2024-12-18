@@ -979,9 +979,9 @@
 			"",
 			"Swapping one archetype for another requires two retraining sessions: one to abandon the archetype, and then one to gain the new one.",
 			"",
-			"Note that you don't have to use the retraining rules to take an archetype if your class level is low enough that the archetype doesn't modify any of your current class abilities. For example, if you're a 1st-level fighter who wants the {archetype-fighter/archer/ archetype}, that archetype doesn't replace any class abilities until fighter level 2, so you don't need to use the retraining rules at all; once you reach 2nd level, you can just decide to take the archer archetype.",
+			"Note that you don't have to use the retraining rules to take an archetype if your class level is low enough that the archetype doesn't modify any of your current class abilities. For example, if you're a 1st-level fighter who wants the {arc-fighter/archer/ archetype}, that archetype doesn't replace any class abilities until fighter level 2, so you don't need to use the retraining rules at all; once you reach 2nd level, you can just decide to take the archer archetype.",
 			"",
-			"**Example:** Logan's 4th-level fighter has the {archetype-fighter/archer/ archetype}. Because he is 4th level, he has two alternative class features from his archetype (hawkeye at 2nd level and trick shot at 3rd level), so he must spend 10 days and 400 gp retraining to abandon this archetype. If he were 5th level, he would also have the expert archer alternative class feature, which would increase his retraining to 15 days and 750 gp."
+			"**Example:** Logan's 4th-level fighter has the {arc-fighter/archer/ archetype}. Because he is 4th level, he has two alternative class features from his archetype (hawkeye at 2nd level and trick shot at 3rd level), so he must spend 10 days and 400 gp retraining to abandon this archetype. If he were 5th level, he would also have the expert archer alternative class feature, which would increase his retraining to 15 days and 750 gp."
 		],
 		"parent_topics": [
 			"advanced_player_topics",

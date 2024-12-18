@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import equipment from './subpages/__equipment-siegeengine';
+import equipment from './subpages/__eq-siegeengine';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -22,7 +22,7 @@ const EquipmentSiegeEnginePage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"equipment-siegeengines--" + id}
+		pageId={"eq-siegeengines--" + id}
 		topLink={["Siege Engine", "main/equipment_siegeengines"]}
 	>{jsx}</BasicPage>;
 };

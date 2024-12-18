@@ -3827,7 +3827,7 @@
 			"{SOURCE Familiar Folio/19}",
 			"",
 			"Your familiar can bond with many creatures.  ",
-			"**Prerequisites:** Must have a familiar with the {archetype-familiar/mascot} archetype.  ",
+			"**Prerequisites:** Must have a familiar with the {arc-familiar/mascot} archetype.  ",
 			"**Benefit:** The maximum number of team members your familiar can have increases by two."
 		]
 	},
@@ -4157,7 +4157,7 @@
 			"{SOURCE Familiar Folio/19}",
 			"",
 			"Your familiar is harder to kill than most.  ",
-			"**Prerequisites:** Must have a familiar with the {archetype-familiar/mauler} archetype.  ",
+			"**Prerequisites:** Must have a familiar with the {arc-familiar/mauler} archetype.  ",
 			"**Benefit:** Your familiar gains 2 hit points per level you possess."
 		]
 	},

@@ -1088,7 +1088,7 @@
 			"**Price** 670 gp; **Weight** 22 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This sturdy satchel is the quintessential toolkit for detecting ghosts and sending them to their final slumber. This kit includes 10 candles, three flasks of holy water, one potion of lesser restoration, a crowbar, a folding shovel, four sunrods, one {equipment-misc/spiritbane spike}, and a wooden holy symbol."
+			"This sturdy satchel is the quintessential toolkit for detecting ghosts and sending them to their final slumber. This kit includes 10 candles, three flasks of holy water, one potion of lesser restoration, a crowbar, a folding shovel, four sunrods, one {eq-misc/spiritbane spike}, and a wooden holy symbol."
 		]
 	},
 	"ghost_ink": {
@@ -3366,7 +3366,7 @@
 			"",
 			"A creature wearing an iron mask can use the Escape Artist skill to slip free (DC 35, or DC 40 for a masterwork iron mask). Breaking the mask requires a Strength check (DC 30, or DC 32 for a masterwork iron mask). An iron mask has hardness 10 and 30 hit points. Half the damage dealt to an iron mask applies to the creature wearing it.",
 			"",
-			"Iron masks are typically designed for Medium creatures, but Small ones can be bought for the same price, or larger ones can be bought for higher prices (the price is calculated the same way as buying larger-sized [manacles](equipment-misc/manacles_common)). Most iron masks have locks; add the cost of the desired lock to the price of the mask. Masterwork masks also often feature frightening or demeaning sculpted visages."
+			"Iron masks are typically designed for Medium creatures, but Small ones can be bought for the same price, or larger ones can be bought for higher prices (the price is calculated the same way as buying larger-sized [manacles](eq-misc/manacles_common)). Most iron masks have locks; add the cost of the desired lock to the price of the mask. Masterwork masks also often feature frightening or demeaning sculpted visages."
 		]
 	},
 	"iron_mask_masterwork": {
@@ -5449,7 +5449,7 @@
 			"**Price** 50 gp; **Weight** 8 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This item is based on {equipment-misc/mithral horseshoes}, back-ported per the rules for {equipment-material/mithral}."
+			"This item is based on {eq-misc/mithral horseshoes}, back-ported per the rules for {eq-material/mithral}."
 		]
 	},
 	"mithral_manacles": {

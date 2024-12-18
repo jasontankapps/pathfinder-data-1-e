@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import equipment_misc from './subpages/__equipment-misc1';
+import equipment_misc from './subpages/__eq-misc1';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';

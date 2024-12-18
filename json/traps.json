@@ -170,7 +170,7 @@
 			"### Effects",
 			"",
 			"**Trigger** location; **Reset** automatic  ",
-			"**Effect** A tar snare consists of a shallow trench filled with tar or sticky mud that is then covered with a layer of debris to disguise its presence. When a creature steps into a square trapped with a tar snare, the trap makes an attempt to grapple it with a +10 bonus on the combat maneuver check. Sharp sticks can be added to the pit as well-this increases the CR of the trap by 1 and affects a creature grappled by the trap as if it had walked on {equipment-misc/caltrops}."
+			"**Effect** A tar snare consists of a shallow trench filled with tar or sticky mud that is then covered with a layer of debris to disguise its presence. When a creature steps into a square trapped with a tar snare, the trap makes an attempt to grapple it with a +10 bonus on the combat maneuver check. Sharp sticks can be added to the pit as well-this increases the CR of the trap by 1 and affects a creature grappled by the trap as if it had walked on {eq-misc/caltrops}."
 		]
 	},
 	"burning_hands_trap": {

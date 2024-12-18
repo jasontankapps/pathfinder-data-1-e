@@ -955,7 +955,7 @@
 			"",
 			"### Destruction",
 			"",
-			"A fetoring maw can be destroyed by first immersing it in a mixture of {equipment-weapon/holy water} blessed by a priest of a deity with the {domain/Healing} domain and {equipment-misc/antitoxin}, in equal parts. For 1 minute after being immersed, the fetoring maw is weakened; if dealt at least 10 points of damage in a single blow with a bludgeoning magic weapon, the artifact shatters and any fog sphere it has created dissipates harmlessly."
+			"A fetoring maw can be destroyed by first immersing it in a mixture of {eq-weapon/holy water} blessed by a priest of a deity with the {domain/Healing} domain and {eq-misc/antitoxin}, in equal parts. For 1 minute after being immersed, the fetoring maw is weakened; if dealt at least 10 points of damage in a single blow with a bludgeoning magic weapon, the artifact shatters and any fog sphere it has created dissipates harmlessly."
 		]
 	},
 	"final_blade": {

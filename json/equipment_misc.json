@@ -237,7 +237,7 @@
 			"**Price** 150 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"As malleable as ordinary wax, alchemical candle wax produces an aromatic scent when burned. A candle made from alchemical candle wax normally possesses a sweet, honeylike smell, but a character who is trained in Craft (alchemy) can infuse the wax with nearly any scent available to her. A character trained in both Craft (alchemy) and Craft (poison) can infuse one candle's worth of wax with any alchemical substance that requires inhalation, such as a vial of [alchemical pheromones](equipment-misc/alchemical_pheromones_aggression) or a dose of inhaled poison. When infusing the wax with poison, the normal rules for exposing oneself to poison apply. Only one kind of alchemical substance can be infused into a single candle at a time, though a single candle can hold up to 3 doses of a substance. A single lump of alchemical candle wax is enough to create one candle.",
+			"As malleable as ordinary wax, alchemical candle wax produces an aromatic scent when burned. A candle made from alchemical candle wax normally possesses a sweet, honeylike smell, but a character who is trained in Craft (alchemy) can infuse the wax with nearly any scent available to her. A character trained in both Craft (alchemy) and Craft (poison) can infuse one candle's worth of wax with any alchemical substance that requires inhalation, such as a vial of [alchemical pheromones](eq-misc/alchemical_pheromones_aggression) or a dose of inhaled poison. When infusing the wax with poison, the normal rules for exposing oneself to poison apply. Only one kind of alchemical substance can be infused into a single candle at a time, though a single candle can hold up to 3 doses of a substance. A single lump of alchemical candle wax is enough to create one candle.",
 			"",
 			"After burning for 1 minute, the alchemical candle releases the chosen alchemical substance as a colorless haze that lingers in a 5-foot radius centered on the candle for up to 1 hour, plus 30 minutes for each dose or vial of a substance infused into the candle wax beyond the first. A moderate wind (11+ mph) disperses the haze in 2 rounds; a strong or stronger wind (21+ mph) disperses the haze immediately. Alchemical candle wax can be created with a successful DC 20 Craft (alchemy) check.",
 			"",
@@ -1867,7 +1867,7 @@
 			"**Price** 30 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This light brown oil works similar to {equipment-misc/Kaava musk} but attracts one specific kind of creature (dogs, giant bees, and so on).",
+			"This light brown oil works similar to {eq-misc/Kaava musk} but attracts one specific kind of creature (dogs, giant bees, and so on).",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 20"
@@ -2012,7 +2012,7 @@
 			"**Price** 2 gp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
-			"Also known as deadly nightshade, this plant, with its distinctive greenish-purple leaves and dull black berries, has served as a cosmetic and medicine for longer than memory despite its [toxicity](equipment-poison/belladonna). It can also induce vivid but usually unpleasant hallucinations, particularly ones dealing with flight. Herbalists and others trained to use it safely believe it has numerous applications, including pain relief."
+			"Also known as deadly nightshade, this plant, with its distinctive greenish-purple leaves and dull black berries, has served as a cosmetic and medicine for longer than memory despite its [toxicity](eq-poison/belladonna). It can also induce vivid but usually unpleasant hallucinations, particularly ones dealing with flight. Herbalists and others trained to use it safely believe it has numerous applications, including pain relief."
 		]
 	},
 	"belled_catsuit": {
@@ -3658,7 +3658,7 @@
 			"**Price** 1,000 gp; **Price of Passage** (per mile) -  ",
 			"**Category** Transport, Land",
 			"",
-			"The caravan master's wagon is similar in most respects to a high-quality heavy {equipment-misc/smuggler's wagon}, but it additionally allows for a hidden portable hole (price not included above) secreted within in it. The portable hole rests upon the surface of the wagon bed, with a second layer of wooden planks laid atop it and fastened into place with nuts and bolts so they appear to be a normal part of the wagon. Thus the portable hole sits between the layers of wood like a thin cut of meat between two slices of bread. Those who know about the portable hole can fill it with illicit goods and then fasten the second layer of decking in place and load normal cargo atop it. The wagon weighs no more than it should. This setup allows for the transport of live cargo (rendered suitably silent or unconscious, if necessary), as the planks atop the opening of the portable hole are spaced just far enough apart to allow in breathable air, if the smugglers leave the hole open and attached. Unless someone knows what to look for, a successful DC 30 Perception check is necessary to discover the hidden second layer."
+			"The caravan master's wagon is similar in most respects to a high-quality heavy {eq-misc/smuggler's wagon}, but it additionally allows for a hidden portable hole (price not included above) secreted within in it. The portable hole rests upon the surface of the wagon bed, with a second layer of wooden planks laid atop it and fastened into place with nuts and bolts so they appear to be a normal part of the wagon. Thus the portable hole sits between the layers of wood like a thin cut of meat between two slices of bread. Those who know about the portable hole can fill it with illicit goods and then fasten the second layer of decking in place and load normal cargo atop it. The wagon weighs no more than it should. This setup allows for the transport of live cargo (rendered suitably silent or unconscious, if necessary), as the planks atop the opening of the portable hole are spaced just far enough apart to allow in breathable air, if the smugglers leave the hole open and attached. Unless someone knows what to look for, a successful DC 30 Perception check is necessary to discover the hidden second layer."
 		]
 	},
 	"cardice_oil": {
@@ -4580,7 +4580,7 @@
 			"",
 			"This drink is brewed by pouring boiling water through crushed, roasted coffee beans. Two cups is potent enough to reduce the penalties from the fatigued condition from -2 to -1 for 1 hour.",
 			"",
-			"Brewing your own coffee requires ground coffee beans (5 cp for 1 pound of coffee beans, or 8 cp for 1 pound of ground beans) and a cooking device. You can boil the grounds in a pot, then pour the liquid after allowing the solids to settle, or filter the drink by pouring it through a sieve or cloth. Many travelers prefer the convenience of using a {equipment-misc/coffee pot}."
+			"Brewing your own coffee requires ground coffee beans (5 cp for 1 pound of coffee beans, or 8 cp for 1 pound of ground beans) and a cooking device. You can boil the grounds in a pot, then pour the liquid after allowing the solids to settle, or filter the drink by pouring it through a sieve or cloth. Many travelers prefer the convenience of using a {eq-misc/coffee pot}."
 		]
 	},
 	"coffee_pot": {
@@ -4592,7 +4592,7 @@
 			"**Price** 3 gp; **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This tall, teapotlike device contains a small chamber for coffee grounds and a large chamber for water, connected by a small tube. Heating the pot forces boiling water through the tube and into the grounds. A glass knob at the top of the tube allows you to see the color of the brew and stop when it is sufficiently strong. It can brew up to 4 [cups of coffee](equipment-misc/coffee_cup) at a time. It can also be used to make tea, steep medicinal herbs, or just boil water."
+			"This tall, teapotlike device contains a small chamber for coffee grounds and a large chamber for water, connected by a small tube. Heating the pot forces boiling water through the tube and into the grounds. A glass knob at the top of the tube allows you to see the color of the brew and stop when it is sufficiently strong. It can brew up to 4 [cups of coffee](eq-misc/coffee_cup) at a time. It can also be used to make tea, steep medicinal herbs, or just boil water."
 		]
 	},
 	"coffin_common": {
@@ -4991,7 +4991,7 @@
 			"**Price** 200 gp; **Weight** 1/2 lb.  ",
 			"**Category** Tools",
 			"",
-			"This eldritch chart describes part of the unfathomably vast shape of the physical universe and the subtler motions of the stars. A cosmogram grants a +1 circumstance bonus on Knowledge (geography) checks relating to stars and on Survival checks to navigate the void of space between star systems. A cosmogram can be consulted while using an [orrery](equipment-misc/orrery_calculating_grand) as a focus for augury. Doing so increases the chance of a successful reading by 2%."
+			"This eldritch chart describes part of the unfathomably vast shape of the physical universe and the subtler motions of the stars. A cosmogram grants a +1 circumstance bonus on Knowledge (geography) checks relating to stars and on Survival checks to navigate the void of space between star systems. A cosmogram can be consulted while using an [orrery](eq-misc/orrery_calculating_grand) as a focus for augury. Doing so increases the chance of a successful reading by 2%."
 		]
 	},
 	"cot": {
@@ -5315,7 +5315,7 @@
 			"**Price** 200 gp; **Weight** 5 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"In addition to granting the same bonus on Perform (dance) checks as regular dancer's garb, silver dancer's garb is considered a silver instrument for silver balladeer bards. Silver dancer's garb can be made of {equipment-material/sunsilver}; sunsilver dancer's garb costs an additional 3,000 gp and grants the same benefits as armor made of sunsilver. As with the bonus on Perform (dance) checks, this benefit functions only when no other armor or concealing clothing is worn."
+			"In addition to granting the same bonus on Perform (dance) checks as regular dancer's garb, silver dancer's garb is considered a silver instrument for silver balladeer bards. Silver dancer's garb can be made of {eq-material/sunsilver}; sunsilver dancer's garb costs an additional 3,000 gp and grants the same benefits as armor made of sunsilver. As with the bonus on Perform (dance) checks, this benefit functions only when no other armor or concealing clothing is worn."
 		]
 	},
 	"silver_dancers_garb": {
@@ -5364,7 +5364,7 @@
 			"**Price** 20 gp; **Weight** 3 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This lantern does not burn oil, but instead burns [shadowcloy](equipment-weapon/shadowcloy_flask). When shadowcloy is used as its fuel, this lantern creates a strange, hazy darkness that decreases the light level for 30 feet around it by one step . Unlike when shadowcloy is thrown at a single target, this haze does not decrease natural darkness to supernatural darkness. One flask of shadowcloy fuels a darklight lantern for 1 minute."
+			"This lantern does not burn oil, but instead burns [shadowcloy](eq-weapon/shadowcloy_flask). When shadowcloy is used as its fuel, this lantern creates a strange, hazy darkness that decreases the light level for 30 feet around it by one step . Unlike when shadowcloy is thrown at a single target, this haze does not decrease natural darkness to supernatural darkness. One flask of shadowcloy fuels a darklight lantern for 1 minute."
 		]
 	},
 	"darkwood_mwagni_harp": {

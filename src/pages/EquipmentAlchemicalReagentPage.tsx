@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import equipment from './subpages/__equipment-reagent';
+import equipment from './subpages/__eq-reagent';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -25,7 +25,7 @@ const EquipmentAlchemicalReagentPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"equipment-alchemicalreagent--" + id}
+		pageId={"eq-alchemicalreagent--" + id}
 		topLink={["Alchemical Reagents", "main/equipment_reagents"]}
 	>{jsx}</BasicPage>;
 };

@@ -363,7 +363,7 @@
 			"**Price** 125 gp; **Weight** 9 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This specialized heavy crossbow is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a {equipment-misc/bell tripwire trap}. When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.",
+			"This specialized heavy crossbow is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a {eq-misc/bell tripwire trap}. When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.",
 			"",
 			"**Portable Bolt Trap - CR 1/2**  ",
 			"**Type** mechanical; **Perception** DC 20; **Disable Device** DC 20  ",
@@ -972,7 +972,7 @@
 			"**Price** 400 gp; **Weight** 12 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface. While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on Survival checks to predict the weather), it also functions in a method similar to a {equipment-misc/haunt detector}, but with greater accuracy - a quicksilver barometer grants a +4 circumstance bonus on Perception checks to notice haunts."
+			"A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The device interacts with atmospheric pressure, causing the mercury within the glass tube to lower or rise based on external pressure and temperature. It takes 3 rounds for a quicksilver barometer to settle once placed on a flat surface. While this device is normally used to measure and observe local temperature fluctuations (if used in this manner and studied for at least 10 minutes, a quicksilver barometer grants a +4 circumstance bonus on Survival checks to predict the weather), it also functions in a method similar to a {eq-misc/haunt detector}, but with greater accuracy - a quicksilver barometer grants a +4 circumstance bonus on Perception checks to notice haunts."
 		]
 	},
 	"quieting_needles": {
@@ -2887,7 +2887,7 @@
 			"**Price** 1 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an improvised {equipment-weapon/earth breaker}."
+			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an improvised {eq-weapon/earth breaker}."
 		]
 	},
 	"sleeve_holster": {
@@ -3789,7 +3789,7 @@
 			"**Price** 140 gp; **Weight** 12-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a book of letters, a disguise kit, a {equipment-misc/hollow-heeled boot}, ink (1 vial), an inkpen, paper (10 sheets), a poison pill ring (signet ring), sealing wax, simple invisible ink (3 vials), and a wrist sheath."
+			"This kit includes a book of letters, a disguise kit, a {eq-misc/hollow-heeled boot}, ink (1 vial), an inkpen, paper (10 sheets), a poison pill ring (signet ring), sealing wax, simple invisible ink (3 vials), and a wrist sheath."
 		]
 	},
 	"spycatchers_kit": {

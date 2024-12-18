@@ -3821,7 +3821,7 @@
 			"| Adamantine[^1] | +4 |",
 			"| Alignment-based | +5 |",
 			"",
-			"[^1]: Note that this does not give the ability to ignore hardness, like an actual {equipment-material/adamantine} weapon does"
+			"[^1]: Note that this does not give the ability to ignore hardness, like an actual {eq-material/adamantine} weapon does"
 		],
 		"parent_topics": [
 			"combat",

@@ -1,6 +1,6 @@
 import getItem from '../components/getItem';
-import monk from './subpages/__archetype-monk';
-import samurai from './subpages/__archetype-samurai';
+import monk from './subpages/__arc-monk';
+import samurai from './subpages/__arc-samurai';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -18,7 +18,7 @@ const ArchetypeGroup1Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
-	const pageId = `archetype-${parent}--${id}`;
+	const pageId = `arc-${parent}--${id}`;
 
 	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
 

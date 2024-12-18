@@ -1,6 +1,6 @@
 import getItem from '../components/getItem';
-import ranger from './subpages/__archetype-ranger';
-import bloodrager from './subpages/__archetype-bloodrager';
+import ranger from './subpages/__arc-ranger';
+import bloodrager from './subpages/__arc-bloodrager';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -18,7 +18,7 @@ const ArchetypeGroup5Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
-	const pageId = `archetype-${parent}--${id}`;
+	const pageId = `arc-${parent}--${id}`;
 
 	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
 

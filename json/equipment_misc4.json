@@ -110,7 +110,7 @@
 			"**Price** 30 gp; **Weight** 20 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit contains tools necessary for staying cool and hydrated in hot, dry terrain. It includes a 10-foot-by-10-foot piece of canvas, 3 doses of {equipment-misc/blain bane}, a hot weather outfit, a signal whistle, a scarf, and four waterskins."
+			"This kit contains tools necessary for staying cool and hydrated in hot, dry terrain. It includes a 10-foot-by-10-foot piece of canvas, 3 doses of {eq-misc/blain bane}, a hot weather outfit, a signal whistle, a scarf, and four waterskins."
 		]
 	},
 	"desnas_star": {
@@ -679,7 +679,7 @@
 			"**Price** 20 gp; **Weight** 2 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This large leather muzzle is reinforced with steel chains, and is specifically shaped for a dragon's snout. The muzzle is also treated with one type of {equipment-misc/elemental proofing} to prevent it from being destroyed by the dragon's breath weapon. The muzzle has hardness 10, 40 hp, and a break DC of 30. A dragon muzzle can be fitted on a dragon using the rules to tie up a pinned creature. A standard dragon muzzle can be resized to fit dragons from size Tiny to Large. For larger versions, the weight increases by a factor of 4 and the price doubles for each size increase."
+			"This large leather muzzle is reinforced with steel chains, and is specifically shaped for a dragon's snout. The muzzle is also treated with one type of {eq-misc/elemental proofing} to prevent it from being destroyed by the dragon's breath weapon. The muzzle has hardness 10, 40 hp, and a break DC of 30. A dragon muzzle can be fitted on a dragon using the rules to tie up a pinned creature. A standard dragon muzzle can be resized to fit dragons from size Tiny to Large. For larger versions, the weight increases by a factor of 4 and the price doubles for each size increase."
 		]
 	},
 	"dragons_blend": {
@@ -2490,7 +2490,7 @@
 			"**Price** 55 gp; **Weight** 1 lb.  ",
 			"**Category** Kits",
 			"",
-			"This bundle is often given to operatives sent to new cities to help them operate as easily as locals. This kit includes a blue book, a {equipment-misc/city map}, and {equipment-misc/fashionable accessories}."
+			"This bundle is often given to operatives sent to new cities to help them operate as easily as locals. This kit includes a blue book, a {eq-misc/city map}, and {eq-misc/fashionable accessories}."
 		]
 	},
 	"owl_verduran": {
@@ -2605,7 +2605,7 @@
 			"**Price** 324 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This small vial contains an alchemical suspension that preserves a sample of pallid gift. This functions like {equipment-weapon/plague powder} for {disease/pallid gift} (DC 20), allowing the user to apply pallid gift to a weapon (a standard action, or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for plague powder, the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
+			"This small vial contains an alchemical suspension that preserves a sample of pallid gift. This functions like {eq-weapon/plague powder} for {disease/pallid gift} (DC 20), allowing the user to apply pallid gift to a weapon (a standard action, or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for plague powder, the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
 		]
 	},
 	"palm_paws": {
@@ -2767,12 +2767,12 @@
 			"",
 			"### Specific Volumes",
 			"",
-			"- [Volume 1](equipment-misc/pathfinder_chronicles___volume_1)",
-			"- [Volume 2](equipment-misc/pathfinder_chronicles___volume_2)",
-			"- [Volume 11](equipment-misc/pathfinder_chronicles___volume_11)",
-			"- [Volume 14](equipment-misc/pathfinder_chronicles___volume_14)",
-			"- [Volume 27](equipment-misc/pathfinder_chronicles___volume_27)",
-			"- [Volume 44](equipment-misc/pathfinder_chronicles___volume_44)"
+			"- [Volume 1](eq-misc/pathfinder_chronicles___volume_1)",
+			"- [Volume 2](eq-misc/pathfinder_chronicles___volume_2)",
+			"- [Volume 11](eq-misc/pathfinder_chronicles___volume_11)",
+			"- [Volume 14](eq-misc/pathfinder_chronicles___volume_14)",
+			"- [Volume 27](eq-misc/pathfinder_chronicles___volume_27)",
+			"- [Volume 44](eq-misc/pathfinder_chronicles___volume_44)"
 		]
 	},
 	"pathfinder_chronicles___volume_1": {
@@ -3300,7 +3300,7 @@
 			"**Price** 263 gp; **Weight** 90 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit is particularly useful for dungeon explorers who specialize in trapping or taming whatever vile quarry they find. A trapper's kit contains an average lock, a bear trap, a container of {equipment-misc/bone paste}, a Small cage, a set of manacles, a bag of marbles, 50 feet of silk rope, two tanglefoot bags, 50 feet of twine, and a wire."
+			"This kit is particularly useful for dungeon explorers who specialize in trapping or taming whatever vile quarry they find. A trapper's kit contains an average lock, a bear trap, a container of {eq-misc/bone paste}, a Small cage, a set of manacles, a bag of marbles, 50 feet of silk rope, two tanglefoot bags, 50 feet of twine, and a wire."
 		]
 	},
 	"travel_cake_mix": {
@@ -4422,7 +4422,7 @@
 			"**Price** 200 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed over a hot flame for a full round, ghost salt melts and forms a temporary coating on the weapon. The blanching gives the weapon the ability to do full damage to incorporeal creatures, even if the weapon itself is nonmagical. An application of ghost salt remains effective until the weapon makes a successful attack. Each dose of weapon blanch can coat one weapon or up to 10 pieces of ammunition. Only one kind of [weapon blanch](equipment-misc/weapon_blanch_adamantine) can be on a weapon at one time."
+			"This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed over a hot flame for a full round, ghost salt melts and forms a temporary coating on the weapon. The blanching gives the weapon the ability to do full damage to incorporeal creatures, even if the weapon itself is nonmagical. An application of ghost salt remains effective until the weapon makes a successful attack. Each dose of weapon blanch can coat one weapon or up to 10 pieces of ammunition. Only one kind of [weapon blanch](eq-misc/weapon_blanch_adamantine) can be on a weapon at one time."
 		]
 	},
 	"weapon_blanch_silver": {

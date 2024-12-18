@@ -1,9 +1,9 @@
 import getItem from '../components/getItem';
-import cleric from './subpages/__archetype-cleric';
-import companion from './subpages/__archetype-companion';
-import magus from './subpages/__archetype-magus';
-import occultist from './subpages/__archetype-occultist';
-import oracle from './subpages/__archetype-oracle';
+import cleric from './subpages/__arc-cleric';
+import companion from './subpages/__arc-companion';
+import magus from './subpages/__arc-magus';
+import occultist from './subpages/__arc-occultist';
+import oracle from './subpages/__arc-oracle';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -24,7 +24,7 @@ const ArchetypeGroup4Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
-	const pageId = `archetype-${parent}--${id}`;
+	const pageId = `arc-${parent}--${id}`;
 
 	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
 

@@ -1,5 +1,5 @@
 import { getGuaranteedItem } from '../components/getItem';
-import equipment_misc from './subpages/__equipment-misc3';
+import equipment_misc from './subpages/__eq-misc3';
 import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';

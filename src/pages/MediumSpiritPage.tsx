@@ -17,7 +17,7 @@ const hierarchy1: HierarchyArray = [
 const hierarchy2: HierarchyArray = [
 	["Classes", "main/classes"],
 	["Medium", "class/medium"],
-	["Outer Channeler", "archetype-medium/outer_channeler"]
+	["Outer Channeler", "arc-medium/outer_channeler"]
 ];
 
 const spirits = {...base_spirits, ...legendary_spirits, ...outsider_spirits};
@@ -42,7 +42,7 @@ const MediumSpiritPage: React.FC = () => {
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={pageId}
-		topLink={m ? ["Medium Spirits", "ability/spirits"] : ["Outer Channeler Archetype", "archetype-medium/outer_channeler"]}
+		topLink={m ? ["Medium Spirits", "ability/spirits"] : ["Outer Channeler Archetype", "arc-medium/outer_channeler"]}
 	>{jsx}</BasicPage>;
 };
 

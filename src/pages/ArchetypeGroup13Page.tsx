@@ -1,7 +1,7 @@
 import getItem from '../components/getItem';
-import gunslinger from './subpages/__archetype-gunslinger';
-import hunter from './subpages/__archetype-hunter';
-import shifter from './subpages/__archetype-shifter';
+import gunslinger from './subpages/__arc-gunslinger';
+import hunter from './subpages/__arc-hunter';
+import shifter from './subpages/__arc-shifter';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -20,7 +20,7 @@ const ArchetypeGroup13Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
-	const pageId = `archetype-${parent}--${id}`;
+	const pageId = `arc-${parent}--${id}`;
 
 	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
 

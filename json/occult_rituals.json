@@ -1427,7 +1427,7 @@
 			"",
 			"Alarm: If a living creature that was not within the area at the time of the ritual's completion crosses into the affected area, an audible alarm sounds. The alarm lasts for 2 rounds and is sufficient to wake any creature resting in the campsite.",
 			"",
-			"Defensive Ring: The outermost 5 feet of the area take on a roughened texture, counting as {equipment-misc/caltrops} for any creature not within the area of the ritual when the ritual was cast.",
+			"Defensive Ring: The outermost 5 feet of the area take on a roughened texture, counting as {eq-misc/caltrops} for any creature not within the area of the ritual when the ritual was cast.",
 			"",
 			"Shelter: Creatures within the area of the ritual gain the benefits of {spell/endure elements} (CL = character level of the primary caster). They also gain a +4 circumstance bonus on saving throws against weather effects."
 		],

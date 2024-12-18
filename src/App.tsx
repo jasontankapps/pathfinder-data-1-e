@@ -126,7 +126,7 @@ const App: FC = () => {
 						<Route path="/main/:mainpage" render={() => <MainPage />} />
 						<Route path="/arcaneschool/:id" render={() => <Suspense fallback={<Loading />}><SchoolPage /></Suspense>} />
 						<Route path="/ability/:id" render={() => <ClassAbilityPage />} />
-						<Route path="/archetype-:parent/:id" render={() => <ArchetypePage />} />
+						<Route path="/arc-:parent/:id" render={() => <ArchetypePage />} />
 						<Route path="/aspect/:id" render={() => <Suspense fallback={<Loading />}><AspectPage /></Suspense>} />
 						<Route path="/bardicmasterpiece/:id" render={() => <Suspense fallback={<Loading />}><MasterpiecePage /></Suspense>} />
 						<Route path="/blessing/:id" render={() => <Suspense fallback={<Loading />}><BlessingPage /></Suspense>} />
@@ -144,16 +144,16 @@ const App: FC = () => {
 						<Route path="/drug/:id" render={() => <Suspense fallback={<Loading />}><DrugPage /></Suspense>} />
 						<Route path="/druidcompanion/:id" render={() => <Suspense fallback={<Loading />}><CompanionPage /></Suspense>} />
 						<Route path="/druiddomain/:id" render={() => <Suspense fallback={<Loading />}><DruidDomainPage /></Suspense>} />
-						<Route path="/equipment-armor/:id" render={() => <Suspense fallback={<Loading />}><EquipmentArmorPage /></Suspense>} />
-						<Route path="/equipment-armorenhancement/:id" render={() => <Suspense fallback={<Loading />}><EquipmentArmorEnhancementsPage /></Suspense>} />
-						<Route path="/equipment-material/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSpecMaterialPage /></Suspense>} />
-						<Route path="/equipment-misc/:id" render={() => <EquipmentMiscPage />} />
-						<Route path="/equipment-poison/:id" render={() => <Suspense fallback={<Loading />}><EquipmentPoisonPage /></Suspense>} />
-						<Route path="/equipment-reagent/:id" render={() => <Suspense fallback={<Loading />}><EquipmentAlchemicalReagentPage /></Suspense>} />
-						<Route path="/equipment-siegeengine/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSiegeEnginePage /></Suspense>} />
-						<Route path="/equipment-spellbook/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSpellbookPage /></Suspense>} />
-						<Route path="/equipment-weapon/:id" render={() => <Suspense fallback={<Loading />}><EquipmentWeaponPage /></Suspense>} />
-						<Route path="/equipment-weaponenhancement/:id" render={() => <Suspense fallback={<Loading />}><EquipmentWeaponEnhancementsPage /></Suspense>} />
+						<Route path="/eq-armor/:id" render={() => <Suspense fallback={<Loading />}><EquipmentArmorPage /></Suspense>} />
+						<Route path="/eq-armorenh/:id" render={() => <Suspense fallback={<Loading />}><EquipmentArmorEnhancementsPage /></Suspense>} />
+						<Route path="/eq-material/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSpecMaterialPage /></Suspense>} />
+						<Route path="/eq-misc/:id" render={() => <EquipmentMiscPage />} />
+						<Route path="/eq-poison/:id" render={() => <Suspense fallback={<Loading />}><EquipmentPoisonPage /></Suspense>} />
+						<Route path="/eq-reagent/:id" render={() => <Suspense fallback={<Loading />}><EquipmentAlchemicalReagentPage /></Suspense>} />
+						<Route path="/eq-siegeengine/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSiegeEnginePage /></Suspense>} />
+						<Route path="/eq-spellbook/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSpellbookPage /></Suspense>} />
+						<Route path="/eq-weapon/:id" render={() => <Suspense fallback={<Loading />}><EquipmentWeaponPage /></Suspense>} />
+						<Route path="/eq-weaponenh/:id" render={() => <Suspense fallback={<Loading />}><EquipmentWeaponEnhancementsPage /></Suspense>} />
 						<Route path={[
 							"/exploit/:id",
 							"/greaterexploit/:id"

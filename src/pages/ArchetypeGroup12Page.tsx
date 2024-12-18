@@ -1,6 +1,6 @@
 import getItem from '../components/getItem';
-import investigator from './subpages/__archetype-investigator';
-import spiritualist from './subpages/__archetype-spiritualist';
+import investigator from './subpages/__arc-investigator';
+import spiritualist from './subpages/__arc-spiritualist';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -18,7 +18,7 @@ const ArchetypeGroup12Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
 
-	const pageId = `archetype-${parent}--${id}`;
+	const pageId = `arc-${parent}--${id}`;
 
 	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
 

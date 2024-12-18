@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import equipment from './subpages/__equipment-armorenhancement';
+import equipment from './subpages/__eq-armorenh';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -25,7 +25,7 @@ const EquipmentArmorEnhancementsPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"equipment-armorenhancement--" + id}
+		pageId={"eq-armorenh--" + id}
 		topLink={["Armor Enhancements", "main/equipment_armorenhancements"]}
 	>{jsx}</BasicPage>;
 };

@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import equipment from './subpages/__equipment-spellbook';
+import equipment from './subpages/__eq-spellbook';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
@@ -21,7 +21,7 @@ const EquipmentSpellbookPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"equipment-spellbook--" + id}
+		pageId={"eq-spellbook--" + id}
 		topLink={["Spellbooks", "main/equipment_spellbook"]}
 	>{jsx}</BasicPage>;
 };

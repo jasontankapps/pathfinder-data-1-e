@@ -1004,7 +1004,7 @@
 			"",
 			"Larger and smaller creatures get size bonuses and size penalties on Strength checks to break open doors as follows: Fine -16, Diminutive -12, Tiny -8, Small -4, Large +4, Huge +8, Gargantuan +12, Colossal +16.",
 			"",
-			"A {equipment-misc/crowbar} or {equipment-misc/portable ram} improves a character's chance of breaking open a door.",
+			"A {eq-misc/crowbar} or {eq-misc/portable ram} improves a character's chance of breaking open a door.",
 			"",
 			"### Table 7-15: DCs to Break or Burst Items",
 			"",
