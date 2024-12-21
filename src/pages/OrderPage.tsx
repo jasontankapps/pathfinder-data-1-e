@@ -21,9 +21,10 @@ const OrderPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, orders);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, orders);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

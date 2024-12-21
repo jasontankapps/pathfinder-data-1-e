@@ -19,9 +19,10 @@ interface DomainProps {
 
 const DomainGroup2Page: React.FC<DomainProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), domains);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), domains);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"domain--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}

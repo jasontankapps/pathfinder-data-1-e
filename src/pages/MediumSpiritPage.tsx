@@ -30,7 +30,7 @@ const MediumSpiritPage: React.FC = () => {
 	const { path } = useRouteMatch();
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, spirits);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, spirits);
 
 	const m = path.match(/outsiderspirit/);
 	const hierarchy = m ? hierarchy2 : hierarchy1;
@@ -38,6 +38,7 @@ const MediumSpiritPage: React.FC = () => {
 	const pageId = (m ? "spirit--" : "outsiderspirit--") + id;
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

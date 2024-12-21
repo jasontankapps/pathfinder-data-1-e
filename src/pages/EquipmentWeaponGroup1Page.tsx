@@ -14,9 +14,10 @@ interface EquipProps {
 
 const EquipmentWeaponGroup1Page: React.FC<EquipProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), equipment_weapons);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), equipment_weapons);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"equip-weapon--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}

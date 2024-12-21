@@ -14,9 +14,10 @@ interface MonsterProps {
 
 const MonsterGroup31Page: React.FC<MonsterProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), monsters);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), monsters);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"monster--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}

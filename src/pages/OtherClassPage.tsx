@@ -16,6 +16,7 @@ type Data = typeof classes;
 type Params = { id?: keyof Data };
 
 interface JsonDataPropsClass {
+	hasJL?: boolean
 	title: string,
 	jsx: ReactElement,
 	sources: SourceProp[]
@@ -28,6 +29,7 @@ const OtherClassPage: React.FC = () => {
 	const solidId = (id || "not_found") as keyof Data;
 
 	const {
+		hasJL,
 		title,
 		jsx,
 		sources
@@ -37,6 +39,7 @@ const OtherClassPage: React.FC = () => {
 
 	return (
 		<BasicPage
+			hasJL={hasJL}
 			title={title}
 			hierarchy={hierarchy}
 			sources={sources}

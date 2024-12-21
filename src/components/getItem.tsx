@@ -3,6 +3,7 @@ import { SourceProp } from "./SourcesModal";
 import { HierarchyArray } from "../types";
 
 interface JsonDataProps {
+	hasJL?: boolean,
 	title: string,
 	jsx: ReactElement,
 	sources: SourceProp[],
@@ -25,23 +26,6 @@ function getItem<T extends { not_found: JsonDataProps}> (id: keyof T | undefined
 export default getItem;
 
 export function getGuaranteedItem<T> (id: keyof T, json: T): JsonDataProps {
-	let data = json[id] as MaybeCopyOf<keyof T>;
-	while(data.copyof) {
-		const { copyof, ...etc } = data;
-		data = {...(json[copyof] as MaybeCopyOf<keyof T>), ...etc};
-	}
-	return data as JsonDataProps;
-};
-
-export interface JsonDataPropsMain {
-	title: string,
-	jsx: ReactElement,
-	sources?: SourceProp[]
-	previous?: HierarchyArray
-	singleTable?: boolean
-}
-
-export function getMainItem<T> (id: keyof T, json: T): JsonDataProps {
 	let data = json[id] as MaybeCopyOf<keyof T>;
 	while(data.copyof) {
 		const { copyof, ...etc } = data;

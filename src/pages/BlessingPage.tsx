@@ -20,9 +20,10 @@ const BlessingPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, blessings);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, blessings);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

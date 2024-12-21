@@ -20,9 +20,10 @@ const SorcererBloodlinePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, bloodlines);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, bloodlines);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

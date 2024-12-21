@@ -15,9 +15,10 @@ const SkillPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources } = getItem<Data>(id, skills);
+	const { hasJL, title, jsx, sources } = getItem<Data>(id, skills);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={hierarchy}
 		sources={sources}

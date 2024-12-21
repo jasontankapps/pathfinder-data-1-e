@@ -14,9 +14,10 @@ interface MagicProps {
 
 const MagicArtifactGroup2Page: React.FC<MagicProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), magic_artifacts);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), magic_artifacts);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"magic-artifact--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}

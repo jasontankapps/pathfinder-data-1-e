@@ -20,9 +20,10 @@ const ArcanaPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arcana);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arcana);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

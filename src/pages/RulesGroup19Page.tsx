@@ -1,6 +1,6 @@
 import rules from './subpages/__rule19';
 import data from '../json/_data_rule.json';
-import { JsonRulesProps2 } from '../types';
+import { JsonRulesProps } from '../types';
 import BasicRulesPage from './BasicRulesPage';
 import './Page.css';
 
@@ -18,6 +18,7 @@ interface RulesProps {
 const RulesGroup19Page: React.FC<RulesProps> = ({id}) => {
 
 	const {
+		hasJL,
 		title,
 		jsx,
 		parent_topics,
@@ -25,10 +26,11 @@ const RulesGroup19Page: React.FC<RulesProps> = ({id}) => {
 		siblings,
 		sources = [],
 		className
-	} = (rules[id as Prop]) as JsonRulesProps2<Name>;
+	} = (rules[id as Prop]) as JsonRulesProps<Name>;
 
 	return (
 		<BasicRulesPage
+			hasJL={hasJL}
 			id={id as Prop}
 			title={title}
 			sources={sources}

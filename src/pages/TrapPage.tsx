@@ -23,9 +23,10 @@ const TrapPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, traps);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, traps);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

@@ -109,7 +109,7 @@ div.jumpList {
 	border-radius: 1rem;
 	margin: 0.5rem;
 	text-align: end;
-	float:inline-end;
+	float: inline-end;
 	padding-inline: 0.625rem;
 	padding-block: 0.25rem;
 	margin-block-start: 0;
@@ -118,7 +118,8 @@ div.jumpList {
 	position: relative;
 }
 div.jumpList h2 {
-	font-size: 1rem;
+	font-size: 1rem !important;
+	margin-block-end: 0.5rem !important;
 }
 div.jumpList ul {
 	margin: 0;
@@ -146,6 +147,16 @@ div.jumpToTop {
 	color: var(--ion-color-secondary);
 	text-decoration: none;
 	cursor: pointer;
+}
+ion-content ion-fab {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 1s ease-out,visibility 0s;
+}
+ion-content.atTop ion-fab {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 250ms ease-in,visibility 0s 255ms;
 }
 
 /* Footer */

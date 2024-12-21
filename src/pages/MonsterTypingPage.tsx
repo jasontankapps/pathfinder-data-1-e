@@ -24,9 +24,10 @@ const MonsterTypingPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, typings);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, typings);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

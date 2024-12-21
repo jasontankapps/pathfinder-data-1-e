@@ -17,6 +17,7 @@ type Data = typeof data;
 type Name = keyof Data;
 
 interface BasicRulesProps {
+	hasJL?: boolean
 	title: string
 	sources: SourceProp[]
 	jsx: ReactElement
@@ -39,6 +40,7 @@ const HierarchyRulesInset: React.FC<HierarchyProps> = ({extraHierarchy}) => {
 };
 
 const BasicRulesPage: React.FC<BasicRulesProps> = ({
+	hasJL,
 	title,
 	sources,
 	jsx,
@@ -84,7 +86,7 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 	}, [parent_topics]);
 
 	return (
-		<BasicPage title={title} sources={sources} pageId={`rule--${id}`}>
+		<BasicPage title={title} sources={sources} pageId={`rule--${id}`} hasJL={hasJL}>
 			<HierarchyRulesInset extraHierarchy={h} />
 			<div className={cn ? cn + " highlight" : "highlight"}>
 				<h2>{title}</h2>

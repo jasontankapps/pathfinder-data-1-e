@@ -2031,10 +2031,11 @@
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			[
-				"The following terms and actions are some of the most commonly used around a game table."
-			],
-			[
-				"## Rolepaying Shorthand",
+				"{jumplist Character Elements / Combat Basics / Actions During Combat / Advanced Combat Actions / Common Conditions / Identifying Monsters / Magic Items}",
+				"",
+				"The following terms and actions are some of the most commonly used around a game table.",
+				"",
+				"## Roleplaying Shorthand",
 				"",
 				"Below are several common abbreviations used when talking about the game.",
 				"",
@@ -2042,9 +2043,8 @@
 				"- **PC:** Player Character. A character controlled by you or one of the other players.",
 				"- **NPC:** Nonplayer Character. A character run by the Game Master, such as townsfolk, villains, monsters, and so on.",
 				"- **1d4, 1d20, 2d6, etc:** How many dice of what type you need to roll; 1d20 translates into \"1 die with 20 sides,\" while 2d6 means \"2 dice with 6 sides each.\"",
-				"- **DC:** Difficulty Class. The number you must match or roll higher than to succeed on a die roll."
-			],
-			[
+				"- **DC:** Difficulty Class. The number you must match or roll higher than to succeed on a die roll.",
+				"",
 				"## Character Elements",
 				"",
 				"Every character has the following traits, which reflect their capabilities with regards to things like combat and interpersonal interactions.",
@@ -2055,21 +2055,22 @@
 				"- **Saving Throw:** Your skill at avoiding negative effects, such as poisons, effects that target a wide area, or mental attacks, divided into three categories: Fortitude, Reflex, and Will. A [saving throw](rule/saving_throws) is a d20 roll + your relevant saving throw bonus + the relevant ability modifier (Constitution, Dexterity, and Wisdom, respectively).",
 				"- **Skill Check:** Your ability to do something, from lying to climbing a wall or healing wounds. A [skill check](rule/skill_checks) is a d20 roll + your skill modifier from the related skill (if any).",
 				"    - **Taking 10 and Taking 20:** [Ways to reduce your chances of failing a check.](rule/taking_10_and_taking_20) They require extra time, and are not allowed for all uses of all skills.",
-				"    - **Aid Another:** You [assist a friend](rule/aid_another) in their skill check."
-			],
-			[
+				"    - **Aid Another:** You [assist a friend](rule/aid_another) in their skill check.",
+				"",
 				"## Combat Basics",
 				"",
 				"These are some of the most common terms that arise during battle.",
 				"",
 				"- **AC:** {rule/Armor Class.} This is the target number enemies need to hit you. Your basic AC is 10 + Dex modifier + armor bonus + shield bonus + spells or magic items that grant an AC bonus.",
+				"    - **Touch AC:** It is generally easier to hit someone when you merely need to touch them. Your touch AC is the same as your regular AC, minus your armor bonus, shield bonus, and any natural armor bonus you may have.",
+				"    - **Flat-Footed AC:** If you haven't yet acted in combat, you are considered \"flat-footed\" and are easier to hit. Your Flat-footed AC is the same as your regular AC, minus any Dexterity *bonus* you may have, and any dodge bonuses you may have.",
+				"    - Your AC may temporarily improve if you have {rule/Cover} in between you and your attacker, and {rule/Concealment} can also help you evade an attack.",
 				"- **hp:** Hit points. These represent your character's health, based on your Hit Dice. Damage subtracts hit points, while healing restores hit points.",
 				"- **Attack roll:** [Resolving an attack.](rule/attack_roll)",
 				"    - **Melee attack:** An attack in hand-to-hand combat. A basic melee attack is a d20 roll + base attack bonus + Strength modifier + any related or magical bonuses.",
 				"    - **Ranged attack:** An attack with a projectile weapon, such as a bow and arrow. A basic ranged attack is a d20 roll + base attack bonus + Dexterity modifier + any related or magical bonuses.",
-				"- **Damage:** Damage is determined by rolling the dice listed with the weapon. Melee weapons deal their listed damage + Strength modifier. Ranged weapons usually do only their listed damage. Some weapons gain additional bonuses from magic or other effects. Spells do their listed damage."
-			],
-			[
+				"- **Damage:** Damage is determined by rolling the dice listed with the weapon. Melee weapons and thrown weapons deal their listed damage + your Strength modifier. Two-handed melee weapons will deal their listed damage + 1.5&times; your Strength modifier. Ranged weapons usually deal only their listed damage. Some weapons gain additional bonuses from magic or other effects. Spells do their listed damage.",
+				"",
 				"## Actions During Combat",
 				"",
 				"Here's [an overview of combat](rule/how_combat_works), outlining how it starts and continues. [This section summarizes combat statistics](rule/combat_statistics)",
@@ -2083,9 +2084,8 @@
 				"- A **swift action** consumes a very small amount of time. You can perform one swift action per turn.",
 				"    - An **immediate action** is the same as swift action, but you can do it during someone else's turn. Using an immediate action before your turn \"uses up\" your swift action for the coming turn.",
 				"    - Swift actions and immediate actions are generally rare and often involve feats, class abilities, or specific reactionary spells like {spell/feather fall}.",
-				"- **Free actions** can be done at any time during your turn for free. They include speaking, dropping an item, dropping prone on the ground, [and more](rule/free_actions)."
-			],
-			[
+				"- **Free actions** can be done at any time during your turn for free. They include speaking, dropping an item, dropping prone on the ground, [and more](rule/free_actions).",
+				"",
 				"## Advanced Combat Actions",
 				"",
 				"You can do more in battle than simply swing or shoot a weapon. On your turn you might attempt any of the following actions to hinder your opponents or aid your allies.",
@@ -2106,9 +2106,8 @@
 				"    - **{rule/Trip:}** A strike that knocks an enemy down.",
 				"- **Combat Maneuver Bonus (CMB):** Attempts to use combat maneuvers rely on a character's Combat Maneuver Bonus (or CMB). Your CMB is your base attack bonus + Strength modifier + special size modifier. This number is added to a d20 roll whenever you attempt one of the combat maneuvers noted above.",
 				"- **Combat Maneuver Defense (CMD):** To succeed at a combat maneuver (or for a foe to succeed at a maneuver against you) you must make a combat maneuver roll that equals or exceeds your target's Combat Maneuver Defense. Your CMD is 10 + base attack bonus + Strength modifier + Dexterity modifier + special size modifier.",
-				"- **Flanking:** When a character or enemy is in battle with foes directly on opposite sides of him (directly in front and behind for example), he is considered \"flanked.\" Those who attack a flanked foe gain a +2 bonus on melee attack rolls against that foe."
-			],
-			[
+				"- **Flanking:** When a character or enemy is in battle with foes directly on opposite sides of him (directly in front and behind for example), he is considered \"flanked.\" Those who attack a flanked foe gain a +2 bonus on melee attack rolls against that foe.",
+				"",
 				"## Common Conditions",
 				"",
 				"- **Dazed:** The character can take no actions, but has no penalty to AC.",
@@ -2124,9 +2123,8 @@
 				"- **Sickened:** The character has -2 on all attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks.",
 				"- **Stunned:** The character drops everything held, can't take actions, takes -2 to AC, and loses its Dexterity bonus to AC (if any).",
 				"",
-				"The full list of conditions can be found [here](rule/conditions)."
-			],
-			[
+				"The full list of conditions can be found [here](rule/conditions).",
+				"",
 				"## Identifying Monsters",
 				"",
 				"You can use Knowledge skills to identify the type of monster you're dealing with. The Knowledge skill used depends on the monster's type:",
@@ -2136,9 +2134,8 @@
 				"- **Local:** humanoids",
 				"- **Nature:** animals, fey, monstrous humanoids, plants, vermin",
 				"- **Planes:** outsiders",
-				"- **Religion:** undead"
-			],
-			[
+				"- **Religion:** undead",
+				"",
 				"## Magic Items",
 				"",
 				"There is a limit to how many magic items you can utilize at the same time, based on \"slots\", [explained here](rule/magic_items_on_the_body).",

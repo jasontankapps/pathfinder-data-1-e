@@ -21,9 +21,10 @@ const UMRPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, umr);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, umr);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

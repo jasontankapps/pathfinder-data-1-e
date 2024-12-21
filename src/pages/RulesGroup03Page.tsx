@@ -1,6 +1,6 @@
 import rules from './subpages/__rule3';
 import data from '../json/_data_rule.json';
-import { JsonRulesProps2 } from '../types';
+import { JsonRulesProps } from '../types';
 import BasicRulesPage from './BasicRulesPage';
 
 type Rules = typeof rules;
@@ -17,6 +17,7 @@ interface RulesProps {
 const RulesGroup3Page: React.FC<RulesProps> = ({id}) => {
 
 	const {
+		hasJL,
 		title,
 		jsx,
 		parent_topics,
@@ -24,10 +25,11 @@ const RulesGroup3Page: React.FC<RulesProps> = ({id}) => {
 		siblings,
 		sources = [],
 		className
-	} = (rules[id as Prop]) as JsonRulesProps2<Name>;
+	} = (rules[id as Prop]) as JsonRulesProps<Name>;
 
 	return (
 		<BasicRulesPage
+			hasJL={hasJL}
 			id={id as Prop}
 			title={title}
 			sources={sources}

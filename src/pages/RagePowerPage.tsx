@@ -29,12 +29,13 @@ const RagePowerPage: React.FC = () => {
 	const { path } = useRouteMatch();
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, rage_powers);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, rage_powers);
 
 	const m = path.match(/stance/);
 	const hierarchy = m ? hierarchy2 : hierarchy1;
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

@@ -20,9 +20,10 @@ const InquisitionPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, inquisitions);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, inquisitions);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

@@ -18,9 +18,10 @@ interface MonsterProps {
 
 const MonsterTemplateGroup2Page: React.FC<MonsterProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), templates);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), templates);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"template--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}

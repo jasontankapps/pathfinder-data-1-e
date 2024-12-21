@@ -14,9 +14,10 @@ interface FeatProps {
 
 const FeatGroup8Page: React.FC<FeatProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), feats);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), feats);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"feat--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}

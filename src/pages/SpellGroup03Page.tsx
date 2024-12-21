@@ -14,9 +14,10 @@ interface SpellProps {
 
 const SpellGroup3Page: React.FC<SpellProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), spells);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), spells);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"spell--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}

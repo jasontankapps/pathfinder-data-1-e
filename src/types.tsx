@@ -53,17 +53,7 @@ export interface SourceProps {
 }
 
 export interface JsonRulesProps<Name> {
-	name: string
-	description: string[]
-	parent_topics?: Name[]
-	subtopics?: Name[]
-	siblings?: Name[]
-	sources: SourceProp[]
-	tables?: Table[]
-	className?: string
-}
-
-export interface JsonRulesProps2<Name> {
+	hasJL?: boolean
 	title: string
 	jsx: ReactElement
 	parent_topics?: Name[]

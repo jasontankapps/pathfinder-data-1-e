@@ -14,12 +14,13 @@ interface ClassProps {
 
 const PrestigeClassGroup3Page: React.FC<ClassProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), prestige_classes);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), prestige_classes);
 
 	const pageId = "prestigeclass--" + id;
 
 	return (
 		<BasicPage
+			hasJL={hasJL}
 			pageId={pageId}
 			title={title}
 			hierarchy={[...hierarchy, ...subhierarchy]}

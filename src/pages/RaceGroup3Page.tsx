@@ -14,12 +14,13 @@ interface RaceProps {
 
 const RaceGroup3Page: React.FC<RaceProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem((id as keyof Data), races);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem((id as keyof Data), races);
 
 	const pageId = "race--" + id;
 
 	return (
 		<BasicPage
+			hasJL={hasJL}
 			pageId={pageId}
 			title={title}
 			hierarchy={[...hierarchy, ...subhierarchy]}

@@ -14,9 +14,10 @@ interface NPCProps {
 
 const NPCGroup5Page: React.FC<NPCProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), npcs);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), npcs);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"npc--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}

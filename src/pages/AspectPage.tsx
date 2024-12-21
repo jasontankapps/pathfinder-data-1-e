@@ -20,9 +20,10 @@ const AspectPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, aspects);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, aspects);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

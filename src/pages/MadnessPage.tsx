@@ -20,9 +20,10 @@ const MadnessPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, madnesses);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, madnesses);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

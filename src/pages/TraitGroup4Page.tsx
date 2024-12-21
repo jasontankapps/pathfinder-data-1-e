@@ -14,9 +14,10 @@ interface TraitProps {
 
 const TraitGroup4Page: React.FC<TraitProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), traits);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), traits);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"trait--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}

@@ -149,7 +149,7 @@ const postprocess = (prefix, tables, flags) => {
 		//Create JumpLists out of the plain-text code
 		while(m = text.match(/^(.*?)<p>\{jumplist (.+)\}<\/p>(.*)$/)) {
 			const [x, pre, jumplist, post] = m;
-			output = output + `${pre}<div className="jumpToTop" tabIndex={0} role="link" aria-label="Top of Page" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${prefix}jumplist")} onClick={() => topScroller("${prefix}jumplist")}>&#10514;</div><div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
+			output = output + `${pre}<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			jumplist.split(/ +\/ +/).forEach(input => {
 				const hash = input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
 				output = output + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${prefix}${hash}")} onClick={()=>jumpScroller("${prefix}${hash}")}>${input} &#8269;</li>`;
@@ -435,13 +435,15 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	flags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
 	flags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	flags.jumplist && imports.push(
-		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};",
-		"const topScroller=(id:string)=>{let w=document.getElementById(id);while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}w&&(w as HTMLIonContentElement).scrollToTop(500)};"
+		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};"
 	);
 	// Add saved info;
 	const allprops = [];
 	const output = imports.concat(final.map(([prop, object]) => {
 		allprops.push(prop);
+		if(flags.jumplist && object.match(/="jumpList"/)) {
+			return object.replace(/\{title:/, "{hasJL:true,title:");
+		}
 		return object;
 	}));
 	// Add an export

@@ -20,9 +20,10 @@ const CursePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, curses);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, curses);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

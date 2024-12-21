@@ -14,9 +14,10 @@ interface MagicEnhancementProps {
 
 const MagicEnhancementGroup1Page: React.FC<MagicEnhancementProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), enhancements);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), enhancements);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"magic-enhancement--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}

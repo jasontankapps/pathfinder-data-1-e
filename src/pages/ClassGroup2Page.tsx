@@ -14,9 +14,10 @@ interface ClassProps {
 
 const ClassGroup2Page: React.FC<ClassProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>(id as keyof Data, classes);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>(id as keyof Data, classes);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

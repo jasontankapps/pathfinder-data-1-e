@@ -48,9 +48,10 @@ const AfflictionPage: React.FC = () => {
 
 	const pageId = `${type}--${id}`;
 
-	const { title, jsx, sources, subhierarchy = [] } = getByType(id, type);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getByType(id, type);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

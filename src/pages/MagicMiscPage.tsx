@@ -52,9 +52,10 @@ const MagicPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, magic);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, magic);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

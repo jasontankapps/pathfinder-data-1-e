@@ -14,9 +14,10 @@ interface AbilityProps {
 
 const ClassAbilityGroup5Page: React.FC<AbilityProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>(id as keyof Data, abilities);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>(id as keyof Data, abilities);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

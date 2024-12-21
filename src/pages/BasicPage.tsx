@@ -1,5 +1,6 @@
 import { FC, PropsWithChildren, useCallback, useRef, useState } from 'react';
-import { IonContent, IonPage, ScrollCustomEvent, useIonViewDidEnter } from '@ionic/react';
+import { IonContent, IonFab, IonFabButton, IonIcon, IonPage, ScrollCustomEvent, useIonViewDidEnter } from '@ionic/react';
+import { arrowUp } from 'ionicons/icons';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
 import PageFooter from '../components/PageFooter';
@@ -10,6 +11,7 @@ import { DisplayItemProps, HierarchyArray } from '../types';
 import './Page.css';
 
 interface PageProps extends Partial<DisplayItemProps> {
+	hasJL?: boolean
 	title: string
 	hierarchy?: HierarchyArray
 	topLink?: [string, string]
@@ -39,7 +41,8 @@ const HierarchyInset: React.FC<{linkInfo: [string, string]}> = ({linkInfo}) => {
 };
 
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
-	const { 
+	const {
+		hasJL,
 		title,
 		children,
 		hierarchy,
@@ -54,27 +57,45 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const storedPos = useAppSelector(state => state.scroll[pageId] || 0);
 	// Create state for sources modal
 	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
+	const [goToTopFlag, setGoToTopFlag] = useState(true);
 	useIonViewDidEnter(() => {
 		if(storedPos && contentObj && contentObj.current && contentObj.current.scrollToPoint) {
 			// Stop this scroll event from triggering other scroll events
 			debounceNamespace[pageId] = "frozen";
 			debounce(() => (delete debounceNamespace[pageId]), "autoscroll" + pageId, 100);
 			contentObj.current.scrollToPoint(0, storedPos);
+			setGoToTopFlag(storedPos < 200);
 		}
 	}, [storedPos, pageId]);
 	const onScroll = useCallback((event: ScrollCustomEvent) => {
 		debounce(() => dispatch(setPosition({id: pageId, pos: event.detail.scrollTop})), pageId);
-	}, [pageId, dispatch]);
+		if (hasJL && contentObj && contentObj.current && ((event.detail.scrollTop < 200) !== goToTopFlag)) {
+			setGoToTopFlag(!goToTopFlag);
+		}
+	}, [pageId, dispatch, goToTopFlag, setGoToTopFlag]);
+	const goToTop = useCallback(
+		() => (contentObj && contentObj.current && contentObj.current.scrollToTop(500)),
+		[contentObj]
+	);
 	const cN = "basicContent " + (className || "simple") + (topLink ? " hasInset" : "");
 
 	return (
 		<IonPage>
 			<PageHeader title={title} hierarchy={hierarchy} />
-			<IonContent scrollEvents={true} onIonScroll={onScroll} ref={contentObj}>
+			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={contentObj}>
 				{hideSources ?
 					<></>
 				:
 					<SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />
+				}
+				{hasJL ?
+					<IonFab slot="fixed" vertical="top" horizontal="end">
+						<IonFabButton size="small" color="secondary" onClick={goToTop}>
+							<IonIcon icon={arrowUp} />
+						</IonFabButton>
+					</IonFab>
+				:
+					<></>
 				}
 				<div className={cN}>
 					{topLink ? <HierarchyInset linkInfo={topLink} /> : <></>}

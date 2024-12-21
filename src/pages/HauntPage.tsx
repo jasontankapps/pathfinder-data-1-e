@@ -22,9 +22,10 @@ const HauntPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, haunts);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, haunts);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

@@ -22,9 +22,10 @@ const ArchetypeGroup13Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}
 
 	const pageId = `arc-${parent}--${id}`;
 
-	const { title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id as keyof Data, arches);
 
 	return <BasicPage
+		hasJL={hasJL}
 		title={title}
 		hierarchy={[["Main", "main/main"], ["Classes", "main/classes"], [classTitle, "class/" + parent], ...subhierarchy]}
 		sources={sources}

@@ -11,9 +11,10 @@ type Data = typeof main;
 
 const MainGroup01Page: React.FC<MainPageProps> = ({ id }) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), main);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), main);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"main--" + id}
 		title={title}
 		hierarchy={subhierarchy}

@@ -14,9 +14,10 @@ interface FaithProps {
 
 const FaithGroup3Page: React.FC<FaithProps> = ({id}) => {
 
-	const { title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), faiths);
+	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), faiths);
 
 	return <BasicPage
+		hasJL={hasJL}
 		pageId={"faith--" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
