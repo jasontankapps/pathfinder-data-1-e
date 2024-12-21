@@ -3384,7 +3384,7 @@
 			"{SOURCE Occult Adventures/137}",
 			"",
 			"You are skilled at attacking opponents in psychic duels.  ",
-			"**Prerequisites:** Int 13, Psychic Sensitivity or the ability to cast psychic spells or use psychic spell-like abilities, character level 3rd.  ",
+			"**Prerequisites:** Int 13, {feat/Psychic Sensitivity} or the ability to cast psychic spells or use psychic spell-like abilities, character level 3rd.  ",
 			"**Benefit:** You gain an extra pool of manifestation points with a number of points equal to 1/2 your character level. You can use these points at any time during a psychic duel. When you are not participating in a psychic duel, you can spend 1 of these extra manifestation points as a swift action to gain a +1 bonus on saving throws against psychic spells until the start of your next turn, or 3 points as a swift action to gain a +2 bonus on saving throws against psychic spells until the start of your next turn. This pool refreshes at the start of each day."
 		]
 	},
@@ -3397,7 +3397,7 @@
 			"{SOURCE Occult Adventures/138}",
 			"",
 			"You are adept at defending yourself during psychic duels.  ",
-			"**Prerequisites:** Int 13, Psychic Sensitivity or the ability to cast psychic spells or use psychic spell-like abilities, character level 3rd.  ",
+			"**Prerequisites:** Int 13, {feat/Psychic Sensitivity} or the ability to cast psychic spells or use psychic spell-like abilities, character level 3rd.  ",
 			"**Benefit:** Each time you enter a psychic duel, you gain a number of temporary hit points equal to your manifesting level. These temporary hit points last until the end of the psychic duel."
 		]
 	},
@@ -3424,7 +3424,7 @@
 			"{SOURCE Occult Adventures/138}",
 			"",
 			"The spirit finds ways to heal the body, guided by your faith.  ",
-			"**Prerequisites:** Cha 11, Psychic Sensitivity or the ability to cast psychic spells, Heal 3 ranks.  ",
+			"**Prerequisites:** Cha 11, {feat/Psychic Sensitivity} or the ability to cast psychic spells, Heal 3 ranks.  ",
 			"**Benefit:** As an additional use of the faith healing skill unlock, you can attempt to manipulate a creature's psychic form to heal damage to its physical form. This works as the treat deadly wounds use of the Heal skill, but also grants the creature a number of temporary hit points equal to the amount of damage healed. These temporary hit points last for 1 hour. Psychic healing doesn't require a healer's kit. A creature can benefit from psychic healing only once per day, and can't benefit from both this ability and treat deadly wounds in the same day."
 		]
 	},
@@ -3437,7 +3437,7 @@
 			"{SOURCE Occult Adventures/138}",
 			"",
 			"You can use two occult skill unlocks more often.  ",
-			"**Prerequisites:** Psychic Sensitivity or the ability to cast psychic spells.  ",
+			"**Prerequisites:** {feat/Psychic Sensitivity} or the ability to cast psychic spells.  ",
 			"**Benefit:** Choose two occult skill unlocks. You can use each of those one additional time per day (or per week, in the case of automatic writing). You must have at least 1 rank in the skills associated with the chosen occult skill unlocks."
 		]
 	},
@@ -3463,7 +3463,7 @@
 			"{SOURCE Occult Adventures/138}",
 			"",
 			"You can use all of your occult skill unlocks more often and you are more talented at using them.  ",
-			"**Prerequisites:** Psychic Sensitivity or ability to cast psychic spells.  ",
+			"**Prerequisites:** {feat/Psychic Sensitivity} or ability to cast psychic spells.  ",
 			"**Benefit:** You gain a +2 bonus on checks to use occult skill unlocks. If you have more than 10 ranks in the base skill, this bonus increases to +4. This bonus doesn't apply on other checks using the base skills - only on checks for occult skill unlocks."
 		]
 	},

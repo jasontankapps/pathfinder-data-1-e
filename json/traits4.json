@@ -110,7 +110,7 @@
 			"## Dawn Renewal",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae  ",
+			"**Religion:** {faith/Sarenrae}  ",
 			"**Requirements:** Halfling",
 			"",
 			"Your morning prayers often send a welcome spark of divine vitality into your most recent patients. When you use the Heal skill to provide long-term care, your patients heal an extra 2 hit points at sunrise."
@@ -137,7 +137,7 @@
 			"## Deadeye Bowman",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Erastil",
+			"**Religion:** {faith/Erastil}",
 			"",
 			"When you are using a longbow, if only a single creature is providing soft cover to your target, your target does not receive the +4 bonus to AC."
 		],
@@ -206,7 +206,7 @@
 			"## Deathspeaker",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Urgathoa",
+			"**Religion:** {faith/Urgathoa}",
 			"",
 			"Your experience with undead creatures gives you a +2 trait bonus on Diplomacy checks when dealing with undead, as well as a +2 trait bonus on Charisma checks to influence undead (such as with the command undead spell)."
 		],
@@ -262,7 +262,7 @@
 			"## Deck Fighter",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Besmara",
+			"**Religion:** {faith/Besmara}",
 			"",
 			"Your long experience in compensating for the pitch and yaw of ocean-going ships grants you a +1 trait bonus on attacks of opportunity when fighting aboard a ship."
 		],
@@ -337,7 +337,7 @@
 			"## Deep Wounding",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Achaekek",
+			"**Religion:** {faith/Achaekek}",
 			"",
 			"You have learned the bloody secret of striking true and deep. When you deal bleed damage with a melee weapon, a successful DC 20 Heal check is required to stop the bleed damage. Magical healing stops the damage as normal."
 		],
@@ -369,7 +369,7 @@
 			"## Defensive Strategist",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Torag",
+			"**Religion:** {faith/Torag}",
 			"",
 			"Your study of dwarven history has trained you in defensive strategy. You aren't flat-footed during a surprise round that you don't get to act in or before you get to act at the start of a battle."
 		],
@@ -385,7 +385,7 @@
 			"## Deformed",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Lamashtu",
+			"**Religion:** {faith/Lamashtu}",
 			"",
 			"Your monstrous deformities grant you a +1 trait bonus on Intimidate checks, and Intimidate is a class skill for you."
 		],
@@ -453,7 +453,7 @@
 			"## Demon Hunter",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Asmodeus",
+			"**Religion:** {faith/Asmodeus}",
 			"",
 			"Raised in the church (whether or not you are currently a follower), you've focused your indoctrinated fervor primarily on the elimination of demons. You gain a +3 trait bonus on Knowledge (planes) checks about demons and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons."
 		],
@@ -545,7 +545,7 @@
 			"## Demoralizing Presence",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Zon-Kuthon",
+			"**Religion:** {faith/Zon-Kuthon}",
 			"",
 			"Your very existence is unsettling to your foes. You gain a +2 trait bonus on Intimidate checks made to demoralize opponents."
 		],
@@ -558,7 +558,7 @@
 			"## Denial of Fate",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Urgathoa",
+			"**Religion:** {faith/Urgathoa}",
 			"",
 			"The Pallid Princess has blessed you with the ability to avoid the final fate. Once per day while you are below 0 hit points, at the start of your turn you can choose to stabilize without needing to succeed at a Constitution check."
 		],
@@ -692,7 +692,7 @@
 			"## Destructive Blows",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Rovagug",
+			"**Religion:** {faith/Rovagug}",
 			"",
 			"Your faith strengthens your powers of destruction. You gain a +2 trait bonus on Strength checks to break objects, as well as on combat maneuver checks to sunder."
 		],
@@ -769,7 +769,7 @@
 			"## Devotee of a Dead God",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Aroden",
+			"**Religion:** {faith/Aroden}",
 			"",
 			"You simply cannot and will not accept that Aroden is dead. Your faith in his teachings and religion are stronger than ever. You gain a +1 trait bonus on Diplomacy checks and Knowledge (religion) checks. One of these skills (your choice) is always a class skill for you."
 		],
@@ -969,7 +969,7 @@
 			"## Diseased Heart",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Ghlaunder",
+			"**Religion:** {faith/Ghlaunder}",
 			"",
 			"Your work with infections has infused your spirit with disease. Any creature that performs a blood drain or swallow whole attack on you must succeed at a Fortitude saving throw (DC = 10 + your character level + your Constitution modifier) or become infected with filth fever. This is a poison effect."
 		],
@@ -1117,7 +1117,7 @@
 			"## Divine Warrior",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Iomedae",
+			"**Religion:** {faith/Iomedae}",
 			"",
 			"From an early age, you were trained by a militaristic order of clerics. You are devoted to the teachings of Iomedae and to spreading those teachings by force. Whenever you cast a divine spell that affects any melee weapons, choose one of those weapons; it gains a +1 trait bonus on damage rolls for the duration of the spell."
 		],
@@ -1374,7 +1374,7 @@
 			"## Dragon Tracker",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Dahak",
+			"**Religion:** {faith/Dahak}",
 			"",
 			"You have been taught to identify the subtle and not-so-subtle signs of a dragon's passage. You gain a +2 trait bonus on Survival checks to track dragons, and you can track a dragon with Survival untrained if the check's DC is 15 or lower."
 		],
@@ -1418,7 +1418,7 @@
 			"## Dragonslayer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Dahak",
+			"**Religion:** {faith/Dahak}",
 			"",
 			"You're greatly skilled in hunting and slaying those who resemble your lord's favored prey. You gain a +1 trait bonus on attack rolls against creatures of the dragon type."
 		],
@@ -1671,7 +1671,7 @@
 			"## Ear for Music",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Shelyn",
+			"**Religion:** {faith/Shelyn}",
 			"",
 			"You spent countless hours of your youth in one of Shelyn's temples, listening to wonderful musicians and singers. You gain a +1 trait bonus on one category of Perform checks and a +2 trait bonus on Knowledge (local) checks that deal with the local art or music scene."
 		],
@@ -2116,7 +2116,7 @@
 			"## Empty Heart, Full Heart",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Naderi",
+			"**Religion:** {faith/Naderi}",
 			"",
 			"Because of the aching strength of your forbidden love, you gain a +1 trait bonus on saving throws against charm effects, and targets of your charm spells take a -1 penalty on their saving throws."
 		],
@@ -2197,7 +2197,7 @@
 			"## Enchanting Conniver",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Calistria",
+			"**Religion:** {faith/Calistria}",
 			"",
 			"You gain a +2 trait bonus on Bluff and Diplomacy checks against creatures affected by one of your charm or compulsion effects."
 		],
@@ -2263,7 +2263,7 @@
 			"## Enemy of Delusion",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Andoletta",
+			"**Religion:** {faith/Andoletta}",
 			"",
 			"You were once faced with a grave injustice committed by an ignorant or delusional person, and righteous indignation moved you to correct the mistaken party. Once per day, when you confirm a critical hit against, successfully use a smite attack on, or use lay on hands on a creature that is affected by a charm or compulsion effect, you can invoke Andoletta to open the target's eyes. If the effect originally allowed a saving throw to resist it, the target can attempt a new saving throw against the charm or compulsion; if she's successful, the effect ends immediately."
 		],
@@ -2327,7 +2327,7 @@
 			"## Envoy of Healing",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae",
+			"**Religion:** {faith/Sarenrae}",
 			"",
 			"You strive to spread the Dawnflower's message of kindness and compassion throughout the land, no matter how dangerous the road may be. Whenever you use channel energy, fervor, or lay on hands to heal a living creature, you can reroll any healing die roll that results in a natural 1 (you must use the new result)."
 		],
@@ -2382,7 +2382,7 @@
 			"## Erastil's Speaker",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Erastil",
+			"**Religion:** {faith/Erastil}",
 			"",
 			"You understand the importance of keeping the peace in your community, and you have learned how to speak to the faithful in ways that they understand. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you."
 		],
@@ -2435,7 +2435,7 @@
 			"## Eternal Understanding",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Irori",
+			"**Religion:** {faith/Irori}",
 			"",
 			"Though you haven't been traditionally educated, you're blessed with potent observation and discernment. You can attempt Knowledge checks with a DC of 15 or lower untrained."
 		],
@@ -2680,7 +2680,7 @@
 			"## Expert Boarder",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Besmara",
+			"**Religion:** {faith/Besmara}",
 			"",
 			"Besmara rewards those who board other vessels and take what they want. While fighting on the deck of a ship, you gain a +1 bonus on all attacks made with one-handed weapons."
 		],
@@ -2792,7 +2792,7 @@
 			"## Extended Toil",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Droskar",
+			"**Religion:** {faith/Droskar}",
 			"",
 			"Your faith teaches you to push magical servants to the limit. When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as unseen servant, mount, or spiritual weapon, but not summon monster spells), you may choose to increase its duration by 50%. This does not stack with the {feat/Extend Spell} feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus."
 		],
@@ -2832,7 +2832,7 @@
 			"## Eye for Quality",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Abadar",
+			"**Religion:** {faith/Abadar}",
 			"",
 			"Your deity has granted you an uncanny ability to find the true worth of items. You gain a +1 trait bonus on Appraise checks, you don't suffer the effects of failing such checks by 5 or more, and Appraise is a class skill for you."
 		],
@@ -2858,7 +2858,7 @@
 			"## Eye of Arqueros",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Arqueros",
+			"**Religion:** {faith/Arqueros}",
 			"",
 			"You once fell asleep during a task that required your attention. A vision of Arqueros awakened you just in time to avoid failing at your task. You gain a +3 trait bonus on Perception checks attempted while you are alone on guard duty."
 		],
@@ -2886,7 +2886,7 @@
 			"## Eye of the Father",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Torag",
+			"**Religion:** {faith/Torag}",
 			"",
 			"You have an innate sense of what is right and wrong in the works you craft, based on your years studying with the church elders at their forges. Choose one Craft skill; you gain a +1 trait bonus on Craft checks of the selected type."
 		],
@@ -2903,7 +2903,7 @@
 			"## Eyes and Ears of the City",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Abadar",
+			"**Religion:** {faith/Abadar}",
 			"",
 			"Your religious training involved serving in the city watch of a large city, the primary duty of which was standing sentinel on a city wall. You gain a +1 trait bonus on Perception checks, and Perception is always a class skill for you."
 		],
@@ -2932,7 +2932,7 @@
 			"## Eyes of the Wild",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Green Faith",
+			"**Religion:** {faith/Green Faith}",
 			"",
 			"Having spent much time immersed in the wilderness, you're now attuned to its ways. You gain a +2 trait bonus on Perception checks in natural settings."
 		],
@@ -3015,7 +3015,7 @@
 			"## Faithful Arodenite",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Aroden",
+			"**Religion:** {faith/Aroden}",
 			"",
 			"You worship a dead god, and are skilled at making that sound reasonable. You gain a +1 trait bonus on Diplomacy checks; this bonus increases to +3 if you are dealing with a follower of Aroden or Iomedae."
 		],
@@ -3031,7 +3031,7 @@
 			"## Faithful Artist",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Desna",
+			"**Religion:** {faith/Desna}",
 			"",
 			"With Desna's blessing, you have pursued an artistic path. Choose one Perform skill; you gain a +1 trait bonus on Perform checks of the selected type, and Perform is a class skill for you."
 		],
@@ -3334,7 +3334,7 @@
 			"## Natural Magic",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Yulreal",
+			"**Religion:** {faith/Yuelral}",
 			"",
 			"Yuelral's teachings revealed to you that all magic can ultimately be traced back to nature. Choose two 0-level druid spells. You treat each spell as being on your class spell list and as a spell known for all spellcasting classes you have."
 		],
@@ -3347,7 +3347,7 @@
 			"## Natural Philosopher",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Gozreh",
+			"**Religion:** {faith/Gozreh}",
 			"",
 			"You study the outdoors, and leave books for dusty libraries. You can attempt Knowledge (geography) and Knowledge (nature) checks as if you were trained."
 		],
@@ -3595,7 +3595,7 @@
 			"## Nimble Fingers, Keen Mind",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Brigh",
+			"**Religion:** {faith/Brigh}",
 			"",
 			"Your study of clockwork mechanisms and other mechanical wonders grants you a +1 trait bonus on Disable Device checks, and Disable Device is a class skill for you."
 		],
@@ -3834,7 +3834,7 @@
 			"## Oathkeeper's Vow",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Kol",
+			"**Religion:** {faith/Kols}",
 			"",
 			"The clergy of Kols trained you to make unbreakable vows. You add the following spells to the paladin spell list at the indicated levels: command (1st), forbid action (1st), suggestion (to fulfill a prior promise only; 2nd), lesser geas (3rd), geas/quest (4th)."
 		],
@@ -4079,7 +4079,7 @@
 			"## Opener of Doors",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Alseta",
+			"**Religion:** {faith/Alseta}",
 			"",
 			"Because of your devotion to Alseta, you are blessed with the ability to find hidden portals. You gain a +2 trait bonus on Perception checks to find secret doors."
 		],
@@ -4105,7 +4105,7 @@
 			"## Opportune Slayer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Lamashtu",
+			"**Religion:** {faith/Lamashtu}",
 			"",
 			"Those who open themselves to your attacks feel your wrath. You gain a +2 trait bonus on damage rolls against those you hit with attacks of opportunity."
 		],
@@ -4121,7 +4121,7 @@
 			"## Opportunistic",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Calistria",
+			"**Religion:** {faith/Calistria}",
 			"",
 			"You have learned to recognize openings that your foes leave, and you know how to take advantage of them. You gain a +1 trait bonus on attacks of opportunity when using a dagger, sword, or whip."
 		],
@@ -4454,7 +4454,7 @@
 			"## Pain Is Pleasure",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Zon-Kuthon",
+			"**Religion:** {faith/Zon-Kuthon}",
 			"",
 			"You have discovered a hint of the dark truths that lay hidden within blood and flesh. You gain a +1 trait bonus on Fortitude and Will saves whenever you have fewer than half your maximum number of hit points."
 		],
@@ -4585,7 +4585,7 @@
 			"## Patient Optimist",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Erastil",
+			"**Religion:** {faith/Erastil}",
 			"",
 			"You know that all things pass in time, and are used to having to repeat arguments multiple times to convince stubborn believers. You gain a +2 trait bonus on Diplomacy checks to influence hostile or unfriendly creatures, and if you fail at such an attempt, you may retry it once."
 		],
@@ -4927,7 +4927,7 @@
 			"## Planar Wayfarer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Onos",
+			"**Religion:** {faith/Onos}",
 			"",
 			"The countless natural hazards of the planes cannot deter you from witnessing their grandeur. Once per day you can meditate on the nature of the planes for 1 hour to gain energy resistance 2 against acid, cold, electricity, fire, or sonic damage. This resistance lasts 24 hours or until you perform this meditation again and choose a new resistance."
 		],
@@ -4992,7 +4992,7 @@
 			"## Poisonous Slayer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Norgorber",
+			"**Religion:** {faith/Norgorber}",
 			"",
 			"You know the secret of plunging a poisoned weapon in just the right spot. You gain a +1 trait bonus on attack rolls when you are wielding a weapon treated with poison."
 		],
@@ -5060,7 +5060,7 @@
 			"## Potent Concoctions",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Ghlaunder",
+			"**Religion:** {faith/Ghlaunder}",
 			"",
 			"You have dedicated your life to honoring famine and disease. Choose any two [poisons](main/equipment_poisons); when you attempt to inflict either of these poisons on an enemy, the DC to resist it increases by 1."
 		],

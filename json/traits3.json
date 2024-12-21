@@ -9,7 +9,7 @@
 			"## Practiced Deception",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Norgorber",
+			"**Religion:** {faith/Norgorber}",
 			"",
 			"You gain a +1 trait bonus on Disguise checks, and you can apply and remove a disguise in half the normal time."
 		],
@@ -274,7 +274,7 @@
 			"## Pristine Reputation",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Shizuru",
+			"**Religion:** {faith/Shizuru}",
 			"",
 			"You come from an especially esteemed family, religious order, school, or other group that worships Shizuru, and draw upon that tradition to maintain your identity. The first time each day that you fail a saving throw against a charm or compulsion effect, you can reroll that saving throw. If you do so, you gain a +2 trait bonus on this roll and use this result as the actual result for that saving throw."
 		],
@@ -380,7 +380,7 @@
 			"## Protective Faith",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Torag",
+			"**Religion:** {faith/Torag}",
 			"",
 			"Your faith in the Father of Creation strengthens your ability to shield others. When you use the aid another action to grant your ally a bonus to AC, you grant a +3 bonus to AC instead of the normal +2."
 		],
@@ -432,7 +432,7 @@
 			"## Provider",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Erastil  ",
+			"**Religion:** {faith/Erastil}  ",
 			"**Requirements:** Halfling",
 			"",
 			"Few things exalt your faith more than feeding the hungry with your own honest sweat. You gain a +1 trait bonus on any d20 roll to acquire food or water for others. Though this bonus most often applies to Survival checks, it could also apply to attacking monsters that are safe and nutritious to eat (mainly animals and plants). However, Erastil takes a dim view of waste and of those who scorn his favor, and if you abuse this gift (for example, by using the bonus to defeat a bear, then only eating one bite of it), he punishes you with a -2 penalty on attacks, checks, and saves for 24 hours."
@@ -526,7 +526,7 @@
 			"## Purity of Faith",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Iomedae",
+			"**Religion:** {faith/Iomedae}",
 			"",
 			"Your soul is free from impurity, and you are deeply committed to fulfilling your duties to the church. You gain a +1 trait bonus on Will saving throws and a +1 trait bonus on saving throws against spells and effects originating from an outsider with the evil subtype."
 		],
@@ -830,7 +830,7 @@
 			"## Reckless Luck",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Chaldira Zuzaristan",
+			"**Religion:** {faith/Chaldira Zuzaristan}",
 			"",
 			"Like your deity, you charge in when others fall back. When you make a charge attack in the surprise round or first round of combat, you gain a +2 trait bonus to your AC for 1 round."
 		],
@@ -880,7 +880,7 @@
 			"## Redeemed by Ragathiel",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Ragathiel",
+			"**Religion:** {faith/Ragathiel}",
 			"",
 			"You were born into a family, nation, or other group that tried to impress evil ideals upon you, but you were inspired by Ragathiel to live a moral life despite their influence. You gain a +2 trait bonus on Sense Motive checks to see through an evil creature's Bluff attempts."
 		],
@@ -905,7 +905,7 @@
 			"## Regal Presence",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Iomedae",
+			"**Religion:** {faith/Iomedae}",
 			"",
 			"You've always had a presence that people respect. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you."
 		],
@@ -978,7 +978,7 @@
 			"## Relentless Duty",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Kol",
+			"**Religion:** {faith/Kols}",
 			"",
 			"You were raised with the mantra that fulfilling your duty must always come first. Now living up to a promise comes as easily as breathing. Once per day, you can take 10 on a skill check attempted as part of fulfilling a prior promise even if you are distracted or in combat."
 		],
@@ -1107,7 +1107,7 @@
 			"## Resigned",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Droskar",
+			"**Religion:** {faith/Droskar}",
 			"",
 			"Existence is little more than unending toil. By laboring unto exhaustion, greatness can be achieved. You receive a +1 trait bonus when retrying a previously failed skill check or ability check, as well as when taking 20 on skill checks and ability checks."
 		],
@@ -1161,7 +1161,7 @@
 			"## Resilient Martyr",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Vildeis",
+			"**Religion:** {faith/Vildeis}",
 			"",
 			"You interposed yourself between an innocent and a dangerous evil monster or force, lost a great deal of blood as a result, and barely survived. Now, your blood seems to replenish with blessed speed, a sure sign of Vildeis's favor. You recover twice as many hit points and points of ability damage as normal when you rest, or three times as many when you take total bed rest."
 		],
@@ -1239,7 +1239,7 @@
 			"## Restless Hunger",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Venkelvore  ",
+			"**Religion:** {faith/Venkelvore}  ",
 			"**Requirements:** Goblin",
 			"",
 			"If you have a piece of food (or something a goblin might consider food), you can quickly eat it as part of a charge attack once per day. Doing so increases your speed by 10 feet for 1 round."
@@ -1458,7 +1458,7 @@
 			"## River Freedom",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Hanspur",
+			"**Religion:** {faith/Hanspur}",
 			"",
 			"The freedom of water inspires you. While touching flowing water, you gain a +2 trait bonus on saving throws against effects that would hamper your movement."
 		],
@@ -1622,7 +1622,7 @@
 			"## Rousing Courage",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Andradd",
+			"**Religion:** {faith/Angradd}",
 			"",
 			"A dwarven warrior's simple act of courage in Angradd's name inspired you during one of your first battles. Now, you strive to be equally inspiring to others. Once per day, when you generate an effect that grants a morale bonus, increase that bonus by 1 for all creatures affected."
 		],
@@ -1714,7 +1714,7 @@
 			"## Sacred Avenger",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Calistria  ",
+			"**Religion:** {faith/Calistria}  ",
 			"**Requirements:** Elf",
 			"",
 			"You have a special connection between you and Calistria that enhances your ability to achieve vengeance. When a creature damages you with a weapon, on your next turn you gain a +1 trait bonus on weapon damage against that creature. If this creature is your *ilduliel* (a personal, mutual nemesis), this bonus increases to +2."
@@ -1744,7 +1744,7 @@
 			"## Sacred Orienteer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Elion",
+			"**Religion:** {faith/Elion}",
 			"",
 			"You have traveled far with only your compass and faith as your guides. You begin play with a compass, and any compass or wayfinder in your possession also functions as a holy symbol of Elion. Either Knowledge (geography) or Survival becomes a class skill for you. Once per day you can consult your compass or wayfinder as a full-round action to gain a +2 trait bonus on one Knowledge (geography) or Survival check."
 		],
@@ -1757,7 +1757,7 @@
 			"## Sacred Smasher",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Rovagug",
+			"**Religion:** {faith/Rovagug}",
 			"",
 			"Your love of carnage extends even to the defenseless, inanimate objects around you. Whenever you make an attempt to break an object, you receive a +2 trait bonus on your Strength check."
 		],
@@ -1907,7 +1907,7 @@
 			"## Scaly Ally",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Apsu",
+			"**Religion:** {faith/Apsu}",
 			"",
 			"Because of your devotion to Apsu, you gain a +2 trait bonus on Diplomacy checks involving reptiles or those of draconic blood, whether they are good-aligned or not."
 		],
@@ -1969,7 +1969,7 @@
 			"## Scarred by War",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Dalenydra",
+			"**Religion:** {faith/Dalenydra}",
 			"",
 			"You have experienced firsthand the horrors of war, which have left you physically or mentally scarred. Now you have committed yourself to the teachings of the Blessed Attendant, seeking to heal those wounded in combat and to prevent battles from occurring whenever you can. You gain a +1 trait bonus on Diplomacy checks outside of combat. In addition, when you heal creatures other than yourself using class abilities, feats, spells, and spell-completion or spell-trigger magic items, you restore 1 additional hit point."
 		],
@@ -2270,7 +2270,7 @@
 			"## Searing Beacon",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Iomedae  ",
+			"**Religion:** {faith/Iomedae}  ",
 			"**Requirements:** Knight of Ozem",
 			"",
 			"You deal additional precision damage equal to your Wisdom modifier when you score a critical hit with a melee weapon against an undead opponent."
@@ -2340,7 +2340,7 @@
 			"## Secret Knowledge",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Norgorber",
+			"**Religion:** {faith/Norgorber}",
 			"",
 			"At any point after taking this trait, you may choose one Knowledge skill. You gain a permanent +2 trait bonus on checks with that skill, and it is a class skill for you. Once this skill is chosen, it cannot be changed."
 		],
@@ -2471,7 +2471,7 @@
 			"## Seer of Reality",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Irori",
+			"**Religion:** {faith/Irori}",
 			"",
 			"You have a deep understanding of the world around you, and thus you are more perceptive about what belongs and what does not. You gain a +2 trait bonus on saving throws against illusion magic."
 		],
@@ -2546,7 +2546,7 @@
 			"## Self-Sacrifice",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Shelyn  ",
+			"**Religion:** {faith/Shelyn}  ",
 			"**Requirements:** Halfling",
 			"",
 			"You honor your goddess through your willingness to take risks for those you care about. As a move action, you can use your own body to grant soft cover to an adjacent ally regardless of the difference in your respective sizes."
@@ -2598,7 +2598,7 @@
 			"## Sense of Order",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Abadar  ",
+			"**Religion:** {faith/Abadar}  ",
 			"**Requirements:** Halfling",
 			"",
 			"Your ability to notice even the slightest change, and the discomfort it causes, made service to Abadar a logical choice. You gain a +3 trait bonus on any Perception check made to identify any changes to a location that have occurred since you last visited it."
@@ -2612,7 +2612,7 @@
 			"## Sensing Imperfection",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Irori  ",
+			"**Religion:** {faith/Irori}  ",
 			"**Requirements:** Halfling",
 			"",
 			"Your belief in Irori has honed your ability to recognize when someone lies or dissembles. Sense Motive is a class skill for you, and you gain a +1 trait bonus on Sense Motive checks."
@@ -2689,7 +2689,7 @@
 			"## Serpentine Squeeze",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Ydersius",
+			"**Religion:** {faith/Ydersius}",
 			"",
 			"You gain a +1 trait bonus on combat maneuver checks to grapple a foe, as well as a +1 trait bonus to your CMD whenever an opponent tries to grapple you."
 		],
@@ -2848,7 +2848,7 @@
 			"## Shadow Whispers",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Norgorber",
+			"**Religion:** {faith/Norgorber}",
 			"",
 			"You have a penchant for just knowing others' secrets. You gain a +1 trait bonus on Knowledge (local) checks and a +2 trait bonus on Intimidate checks made to demoralize opponents."
 		],
@@ -2913,7 +2913,7 @@
 			"## Shared Ancestors",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Myr",
+			"**Religion:** {faith/Myr}",
 			"",
 			"Through your detailed study of your own lineage, you can better understand and honor even your most distant relatives. You gain a +1 trait bonus on Diplomacy, Knowledge (history), Knowledge (local), Knowledge (nobility), and Sense Motive checks associated with any creature who shares your type and at least one of your subtypes. One of these skills becomes a class skill."
 		],
@@ -3016,7 +3016,7 @@
 			"## Shield-Trained",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Gorum",
+			"**Religion:** {faith/Gorum}",
 			"",
 			"You were trained to use shields as weapons. Heavy and light shields are considered simple weapons rather than martial weapons for you. Heavy shields are considered light weapons for you."
 		],
@@ -3502,7 +3502,7 @@
 			"",
 			"**Type:** Regional  ",
 			"**Region:** Osirion  ",
-			"**Religion:** Apep or Wadjet",
+			"**Religion:** {faith/Apep} or {faith/Wadjet}",
 			"",
 			"You have spent time as a member of a cult of either Apep or Wadjet, the serpent gods of Osirion. Membership involved the handling of dangerous snakes during rituals, and you have learned how to keep yourself and others safe around them. You gain a +2 bonus on Fortitude saves against poison. Handle Animal is always a class skill for you."
 		],
@@ -3891,7 +3891,7 @@
 			"## Spirit Guide",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Pharasma",
+			"**Religion:** {faith/Pharasma}",
 			"",
 			"As someone who has performed or observed funeral rites for a wide variety of people, you have a basic understanding of many different religions. You gain a +2 trait bonus on Knowledge (religion) checks, and Knowledge (religion) is a class skill for you."
 		],
@@ -4021,7 +4021,7 @@
 			"## Split-Second Defense",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Milani",
+			"**Religion:** {faith/Milani}",
 			"",
 			"When you are the target of an attack by an opponent that is flanking you, as an immediate action once per day you can foil that opponent's attack. For that attack, the opponent does not gain any of the bonuses or effects that are associated with flanking."
 		],
@@ -4084,7 +4084,7 @@
 			"## Stabilizing Touch",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Pharasma",
+			"**Religion:** {faith/Pharasma}",
 			"",
 			"You were born with the ability to stop the passage to death's door. Once per day, you can use stabilize as a spell-like ability, but with a range of touch."
 		],
@@ -4176,7 +4176,7 @@
 			"## Starchild",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Desna",
+			"**Religion:** {faith/Desna}",
 			"",
 			"Desna sensed your love of travel and promised you would always be able to find your way home. You can automatically determine where true north is. You gain a +4 trait bonus on Survival checks to avoid becoming lost."
 		],
@@ -4269,7 +4269,7 @@
 			"## Steady Strength",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Trudd",
+			"**Religion:** {faith/Trudd}",
 			"",
 			"Your strength training conditioned you to wearing heavy armor. When you wear medium or heavy armor, your armor check penalty on Strength-based skills is reduced by 2."
 		],
@@ -4334,7 +4334,7 @@
 			"## Stoic Optimism",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Desna",
+			"**Religion:** {faith/Desna}",
 			"",
 			"You realize that accepting the pain in life accentuates its joys by contrast, and so your hope sustains you where others despair. You receive a +2 trait bonus on saving throws against fear effects."
 		],
@@ -4496,7 +4496,7 @@
 			"## Strength of the Barghest",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Hadregash  ",
+			"**Religion:** {faith/Hadregash}  ",
 			"**Requirements:** Goblin",
 			"",
 			"The blood of the barghests is strong in you. Once per day as a free action, you can gain a +2 trait bonus on any Strength check or Strength-based skill check."
@@ -4523,7 +4523,7 @@
 			"## Strength of the Sun",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae",
+			"**Religion:** {faith/Sarenrae}",
 			"",
 			"You take solace in the purifying light of the sun. During the day, you gain a +1 trait bonus on all Charisma-based checks."
 		],
@@ -4536,7 +4536,7 @@
 			"## Strength's Fanfare",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Kurgess",
+			"**Religion:** {faith/Kurgess}",
 			"",
 			"Songs of your glory and prowess bolster your strength. When you are the subject of any sonic effect that grants a morale bonus on attack or damage rolls, you also gain a +1 trait bonus on Strength-based skill checks; on combat maneuver checks to bull rush, grapple, and reposition; and to your CMD against those combat maneuvers."
 		],
@@ -4549,7 +4549,7 @@
 			"## Strict Judgment",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Kols",
+			"**Religion:** {faith/Kols}",
 			"",
 			"Your respect for the letter of the law bleeds into your spellcasting. Any spells you cast that prescribe certain behaviors with a consequence for breaking these directives (such as mark of justice or geas) have their save DC increased by 1."
 		],
@@ -4565,7 +4565,7 @@
 			"## Strip the Veils",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sivanah",
+			"**Religion:** {faith/Sivanah}",
 			"",
 			"You are unusually perceptive when dealing with others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you."
 		],
@@ -4596,7 +4596,7 @@
 			"## Strong Heart",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Gorum",
+			"**Religion:** {faith/Gorum}",
 			"",
 			"You can stand firm against even the most terrifying foes. You gain a +1 trait bonus on saves against fear effects, and the DC of Intimidate checks against you increases by 2."
 		],
@@ -4612,7 +4612,7 @@
 			"## Strong Swimmer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Gozreh",
+			"**Religion:** {faith/Gozreh}",
 			"",
 			"Your faith in Gozreh's grace gives you the confidence to swim without fear. You gain a +2 trait bonus on Swim checks, and can hold your breath for an extra 2 rounds when underwater."
 		],
@@ -4628,7 +4628,7 @@
 			"## Strong-Willed",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Cayden Cailean",
+			"**Religion:** {faith/Cayden Cailean}",
 			"",
 			"Your fervent desire to choose your own path gives you strong willpower. You receive a +2 trait bonus on saving throws against charm and compulsion effects."
 		],
@@ -4641,7 +4641,7 @@
 			"## Structural Knowledge",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Findeladlara",
+			"**Religion:** {faith/Findeladlara}",
 			"",
 			"You are blessed with an insight into architecture and artifice. You gain a +1 trait bonus on Knowledge (engineering) checks, and Knowledge (engineering) is a class skill for you."
 		],
@@ -5217,7 +5217,7 @@
 			"## Talented Organizer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Milani",
+			"**Religion:** {faith/Milani}",
 			"",
 			"You are both skilled and knowledgeable when at putting together strong resistance organizations, thanks to your keen sense of how to motivate people. You gain a +1 trait bonus on Sense Motive skill checks, and Sense Motive is a class skill for you."
 		],
@@ -5424,7 +5424,7 @@
 			"## The City Protects",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Abadar",
+			"**Religion:** {faith/Abadar}",
 			"",
 			"You feel safe and secure in urban environments, even in cities whose laws you find unjust - it is the physical fact of the city that you take solace in. In any settlement, you gain a +2 trait bonus against fear effects. If you fail a save against a fear effect, you may make a new save each round you remain in the city to overcome the fear effect as long as the fear effect persists. If you are a paladin, this ability to make additional saves to overcome fear extends to all allies within your aura of courage."
 		],
@@ -5453,7 +5453,7 @@
 			"## The Flexing Arm",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Kurgess",
+			"**Religion:** {faith/Kurgess}",
 			"",
 			"You are practiced at using physical might to escape your bonds. You can use Strength instead of Dexterity as your base ability for Escape Artist skill checks to free yourself from bondage. Additionally, you gain a +1 trait bonus on such Escape Artist checks."
 		],
@@ -5738,7 +5738,7 @@
 			"## Thirst for Knowledge",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Nethys",
+			"**Religion:** {faith/Nethys}",
 			"",
 			"You have a need to bring old knowledge into the light, no matter what language it's written in. You gain a +1 trait bonus on Linguistics checks, and Linguistics is a class skill for you."
 		],
@@ -5815,7 +5815,7 @@
 			"## Thrill-Seeker",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Desna",
+			"**Religion:** {faith/Desna}",
 			"",
 			"Desna has blessed you not just with a love of taking chances, but also the fortune to come out of such risky situations unscathed. Once per day, when you attempt an Acrobatics check, you can roll twice and take the better result. You must choose to use this ability before making the check."
 		],

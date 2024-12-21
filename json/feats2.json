@@ -2463,7 +2463,7 @@
 			"",
 			"You have learned to manually adjust the plates that make up the skull, inducing altered states in your subjects.  ",
 			"**Prerequisites:** Deft Hands or Trepanation.  ",
-			"**Benefit:** You can perform the hypnotism occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use hypnotism one additional time per day.",
+			"**Benefit:** You can perform the hypnotism occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the {feat/Psychic Sensitivity} feat, you can use hypnotism one additional time per day.",
 			"",
 			"You can use the Sleight of Hand skill in place of Diplomacy to hypnotize a subject, but doing so requires 10 minutes of contact with the target's skull. You can perform an adjustment that takes 1 hour to access the deeper recesses of a target's emotional mind, either granting the target a +2 bonus or imposing a -2 penalty on the target's saving throws against mind-affecting emotion effects for 24 hours."
 		]
@@ -2478,7 +2478,7 @@
 			"",
 			"You turn the science of phrenology inward, driving needles and nails into your or another's brain to grant focus through the pathways of pain.  ",
 			"**Prerequisites:** {feat/Self-Sufficient} or {feat/Trepanation}, Heal 7 ranks.  ",
-			"**Benefit:** You can perform the phrenology occult skill unlock, though you must use needles or similar sharp implements rather than your fingertips, dealing 1d3 points of damage to the subject. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use phrenology one additional time per day.",
+			"**Benefit:** You can perform the phrenology occult skill unlock, though you must use needles or similar sharp implements rather than your fingertips, dealing 1d3 points of damage to the subject. If you can cast psychic spells or have the {feat/Psychic Sensitivity} feat, you can use phrenology one additional time per day.",
 			"",
 			"In addition, you can insert needles into a creature's brain to help center its thoughts and emotions. Doing so requires a successful Heal check (DC = 25 + the target's Hit Dice). Creatures with implanted needles gain a +1 bonus on saving throws against spells with the emotion or fear descriptor (or similar effects), but take a -1 penalty on saving throws against spells with the electricity or pain descriptors. Implanting needles deals 1d6 points of damage to the patient, which can't be healed by any means until the needles are removed (which requires a second successful Heal check at the same DC, or a restoration or regenerate spell).",
 			"",
@@ -4616,7 +4616,7 @@
 			"",
 			"You can possess creatures.  ",
 			"**Prerequisites:** Demon or half-demon, Cha 21, Wis 17  ",
-			"**Benefit:** You gain the ability to use magic jar as a spell-like ability once per day.  ",
+			"**Benefit:** You gain the ability to use {spell/magic jar} as a spell-like ability once per day.  ",
 			"**Special:** You may take this feat more than once. Each time you select this feat, you gain the ability to use your magic jar spell-like ability one additional time per day."
 		]
 	},

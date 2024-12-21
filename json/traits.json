@@ -18,7 +18,7 @@
 			"## A Shining Beacon",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Iomedae",
+			"**Religion:** {faith/Iomedae}",
 			"",
 			"You carry a burning hatred in your heart for all things demonic, and have studied their weaknesses carefully. You deal an amount of additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon against a demon. This damage is added only after the damage is totaled, and is not multiplied by the critical hit multiplier."
 		],
@@ -183,7 +183,7 @@
 			"## Accident Resistant",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Zyphus",
+			"**Religion:** {faith/Zyphus}",
 			"",
 			"Your understanding of pointless and unexpected death grants you a special awareness. You gain a +2 trait bonus on Reflex saves when denied your Dexterity bonus or during a surprise round."
 		],
@@ -460,7 +460,7 @@
 			"## Adventurous Imbiber",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Cayden Cailean",
+			"**Religion:** {faith/Cayden Cailean}",
 			"",
 			"You've never been afraid of good, strong drink, and that has prepared you for the perils of more dangerous substances. You gain a +1 trait bonus on saving throws against poison."
 		],
@@ -558,7 +558,7 @@
 			"## Agent of Chance",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Nivi Rhombodazzle",
+			"**Religion:** {faith/Nivi Rhombodazzle}",
 			"",
 			"You can change the fortunes of others, typically for the better. Once per day, you can allow an adjacent ally to reroll a skill check as an immediate action before the result is revealed. The ally must take the second roll, even if it is worse."
 		],
@@ -782,7 +782,7 @@
 			"## Alluring",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Bolka",
+			"**Religion:** {faith/Bolka}",
 			"",
 			"You have the art of turning a passing glance into love. You receive a +2 trait bonus on Diplomacy checks with those who find you attractive. You can use daze once per day as a spell-like ability, with a caster level equal to your character level."
 		],
@@ -821,7 +821,7 @@
 			"## Always Threatening",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Thamir Gixx",
+			"**Religion:** {faith/Thamir Gixx}",
 			"",
 			"You are fast on the draw. As a move action, you can draw a light, concealed weapon for which you have {feat/Weapon Focus}. If you have the {feat/Quick Draw} feat, drawing this weapon is a free action."
 		],
@@ -847,7 +847,7 @@
 			"## Ambassador",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae",
+			"**Religion:** {faith/Sarenrae}",
 			"",
 			"Your natural abilities at mediation and compromise manifested at a young age. For as long as you can remember, you were always more able to solve disputes and carefully settle violent disagreements than others. You gain a +2 trait bonus to Diplomacy checks."
 		],
@@ -966,7 +966,7 @@
 			"## Ancestor's Blade",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Shizuru",
+			"**Religion:** {faith/Shizuru}",
 			"",
 			"You were trained by your family with a weapon passed down from a venerable ancestor. You begin play with an heirloom masterwork weapon worth up to 400 gp. You gain a +1 trait bonus on attack rolls with weapons of this type (not just your initial heirloom weapon) when you smite evil."
 		],
@@ -1006,7 +1006,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Numeria",
 			"",
-			"You have inherited a sacred tribal weapon wielded by your forebears since the days before the Rain of Stars, and you were trained in its use from a young age. Select either cold iron or silver. You begin play with a masterwork melee weapon made of the material of your choice. You must be proficient with this weapon, and its combined cost cannot exceed 500 gp. You gain a +1 trait bonus on attack rolls with weapons made of the selected material."
+			"You have inherited a sacred tribal weapon wielded by your forebears since the days before the Rain of Stars, and you were trained in its use from a young age. Select either {eq-material/cold iron} or {eq-material/alchemical_<silver}. You begin play with a masterwork melee weapon made of the material of your choice. You must be proficient with this weapon, and its combined cost cannot exceed 500 gp. You gain a +1 trait bonus on attack rolls with weapons made of the selected material."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -1032,7 +1032,7 @@
 			"## Andoletta's Consolation",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Andoletta",
+			"**Religion:** {faith/Andoletta}",
 			"",
 			"You had a close encounter with a servant or worshiper of Andoletta who provided you with a memorable, if unconventional, consolation after a loss. As a result, you gain a +2 trait bonus on saving throws against emotion and fear effects. If you are immune to fear, you instead gain a +4 trait bonus on saves against emotion effects."
 		],
@@ -1058,7 +1058,7 @@
 			"## Angradd's Flame",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Angradd",
+			"**Religion:** {faith/Angradd}",
 			"",
 			"Your faith in the Forge-Fire fans the passionate flames of war in your heart. Whenever you confirm a critical hit, you deal 1 additional point of damage to your target. This damage is considered precision damage."
 		],
@@ -1071,7 +1071,7 @@
 			"## Angradd's Valor",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Angradd",
+			"**Religion:** {faith/Angradd}",
 			"",
 			"You hope to earn a place at Angradd's side after death and are inspired to charge with all your might into any righteous battle. You gain a +1 trait bonus on all melee attack rolls when you charge."
 		],
@@ -1272,7 +1272,7 @@
 			"## Arcane Depth",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Nethys",
+			"**Religion:** {faith/Nethys}",
 			"",
 			"You have studied the great masters of spellcraft, and your knowledge is exceptional. You gain a bonus of either +1 on Spellcraft checks or +2 on Knowledge (arcana) checks. You must choose which bonus you receive when you take the trait; once chosen, it cannot be changed."
 		],
@@ -1600,7 +1600,7 @@
 			"## Asmodean Demon Hunter",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Asmodeus",
+			"**Religion:** {faith/Asmodeus}",
 			"",
 			"Raised in the church of Asmodeus (whether or not you are currently a follower), you've focused your indoctrinated fervor primarily on the elimination of demons. You gain a +3 trait bonus on Knowledge (planes) checks about demons and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons."
 		],
@@ -1817,7 +1817,7 @@
 			"## Avowed Inspiration",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Ragathiel",
+			"**Religion:** {faith/Ragathiel}",
 			"",
 			"In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield. Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a move action. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll."
 		],
@@ -1938,7 +1938,7 @@
 			"## Backstabber",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Thamir Gixx  ",
+			"**Religion:** {faith/Thamir Gixx}  ",
 			"**Requirements:** Halfling",
 			"",
 			"Pledging your faith to Norgorber's lethal shadow gives you the skill to make a brutal attack against an opponent who cannot fully fend you off. When you hit a foe you are flanking, you deal an additional 1 point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus."
@@ -2059,7 +2059,7 @@
 			"## Battlefield Caster",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Angradd, Gorum, Torag, or Trudd",
+			"**Religion:** {faith/Angradd}, {faith/Gorum}, {faith/Torag}, or {faith/Trudd}",
 			"",
 			"Your faith protects you even as you unleash spells in the thick of battle. You receive a +1 trait bonus on concentration checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting."
 		],
@@ -2087,7 +2087,7 @@
 			"## Battlefield Surgeon",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Zon-Kuthon",
+			"**Religion:** {faith/Zon-Kuthon}",
 			"",
 			"You're skilled at both dealing and repairing wounds. Heal is a class skill for you, and you can use the treat deadly wounds aspect of Heal 1 additional time per creature per day."
 		],
@@ -2339,7 +2339,7 @@
 			"## Besmara's Name",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Besmara",
+			"**Religion:** {faith/Besmara}",
 			"",
 			"Besmara sometimes answers your call. Once per day when casting a divine spell, you can speak or whisper her name in place of using a divine focus."
 		],
@@ -2352,7 +2352,7 @@
 			"## Besmara's Strength",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Besmara",
+			"**Religion:** {faith/Besmara}",
 			"",
 			"The Pirate Queen sometimes answers your calls when you tread dangerous waters. Once per day when attempting a Swim check, you can treat the water as if it were one category calmer (as if stormy water were rough water or rough water were calm water)."
 		],
@@ -2395,7 +2395,7 @@
 			"## Bestial Wrath",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Rovagug",
+			"**Religion:** {faith/Rovagug}",
 			"",
 			"When you strike hard, you strike deep. You gain a +2 trait bonus on critical confirmation rolls."
 		],
@@ -2720,7 +2720,7 @@
 			"## Blade of Mercy",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae",
+			"**Religion:** {faith/Sarenrae}",
 			"",
 			"You know that within the heart of even the most hateful and cruel living creature exists a sliver of shame and hope for redemption. You have trained long on martial techniques to use bladed weapons not to kill, but to subdue. When striking to inflict nonlethal damage with any slashing weapon, you do not take the normal -4 penalty on your attack roll, and gain a +1 trait bonus to any nonlethal damage you inflict with a slashing weapon."
 		],
@@ -2773,7 +2773,7 @@
 			"## Blessed Orphan",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Folgrit",
+			"**Religion:** {faith/Folgrit}",
 			"",
 			"As an orphan, you have always looked to Folgrit for protection. Once per day, you gain a +1 trait bonus on any saving throw. You must use this ability after the roll is made but before the result is revealed."
 		],
@@ -2824,7 +2824,7 @@
 			"## Blessing of the Feast",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Zura",
+			"**Religion:** {faith/Zura}",
 			"",
 			"You come from a cannibal tribe, and find strength in the flesh of your foes. Whenever you eat the flesh or drink the blood of another orc - a full-round action that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day."
 		],
@@ -2875,7 +2875,7 @@
 			"## Blind Zeal",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Vildeis",
+			"**Religion:** {faith/Vildeis}",
 			"",
 			"You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed. You take a -4 penalty from blindness on only Acrobatics, Ride, Sleight of Hand, and Stealth checks. You gain {feat/Blind-Fight} as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind."
 		],
@@ -3008,7 +3008,7 @@
 			"## Bloody Vengeance",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Vildeis",
+			"**Religion:** {faith/Vildeis}",
 			"",
 			"You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death. You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see {spell/detect evil})."
 		],
@@ -3408,7 +3408,7 @@
 			"## Brigh's Insight",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Brigh",
+			"**Religion:** {faith/Brigh}",
 			"",
 			"You hear Brigh's whisper in the workings of technology, granting you better understanding of and insight into constructs. You gain a +2 trait bonus on caster level checks to overcome the spell resistance of constructs."
 		],
@@ -3437,7 +3437,7 @@
 			"## Broken Mind",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Groetus",
+			"**Religion:** {faith/Groetus}",
 			"",
 			"You're used to living with your own madness, and gain a +2 trait bonus on saving throws against madness and confusion effects."
 		],
@@ -3685,7 +3685,7 @@
 			"## Calistrian Courtesan",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Calistria",
+			"**Religion:** {faith/Calistria}",
 			"",
 			"You worked in one of Calistria's temples as a sacred courtesan, and you know how to flatter, please, and (most of all) listen. You gain a +1 trait bonus on Sense Motive checks and Diplomacy checks to gather information, and one of these skills (your choice) is always a class skill for you."
 		],
@@ -3698,7 +3698,7 @@
 			"## Call for Help",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Chaldira Zuzaristan  ",
+			"**Religion:** {faith/Chaldira Zuzaristan}  ",
 			"**Requirements:** Halfling",
 			"",
 			"Offering your devotion to and modeling your life on Desna's impetuous companion means you frequently find yourself in a jam but also ensures that you can always rely upon your friends to bail you out. When you take the total defense action, allies gain a +1 trait bonus on rolls made against a creature threatening you."
@@ -4059,7 +4059,7 @@
 			"## Centered",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Irori",
+			"**Religion:** {faith/Irori}",
 			"",
 			"Having anchored yourself in your faith and your knowledge of yourself, you've made it difficult for others to dominate you. You gain a +1 trait bonus on saving throws against charm and compulsion effects, and the DC of any attempts to use the Intimidate skill on you increases by 1."
 		],
@@ -4098,7 +4098,7 @@
 			"## Chaldira's Luck",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Chaldira",
+			"**Religion:** {faith/Chaldira}",
 			"",
 			"You found yourself in deep trouble in your youth but stumbled upon an unlikely way out after praying to Chaldira Zuzaristan for luck. Once per day, you can roll twice and take the better result on a skill check."
 		],
@@ -4228,7 +4228,7 @@
 			"## Cheat Death",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Besmara",
+			"**Religion:** {faith/Besmara}",
 			"",
 			"Even Besmara's most faithful worshipers usually call upon her only in times of greatest need. Sometimes Besmara intervenes on behalf of her faithful; other times, she turns her face away as they sink beneath the waves. Once per day, when you would be reduced to 0 or fewer hit points as a result of a failed ability check, skill check, or saving throw on your part, you may invoke this ability in order to reroll the failed check. You must take the result of the second roll, even if it is worse than the original."
 		],
@@ -4342,7 +4342,7 @@
 			"## Child of Nature",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Gozreh",
+			"**Religion:** {faith/Gozreh}",
 			"",
 			"The wild places are your home, and provide everything you need to be happy. You gain a +2 trait bonus on Survival checks, and Survival is a class skill for you."
 		],
@@ -4575,7 +4575,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"At your birth, your parents dedicated your soul to Iomedae to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will. You may cast light once per day as a spell-like ability (caster level 1st), and you begin play with a masterwork longsword. In addition, whenever light is cast upon this sword, the radius of light and its duration is doubled."
+			"At your birth, your parents dedicated your soul to Iomedae to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will. You may cast {spell/light} once per day as a spell-like ability (caster level 1st), and you begin play with a masterwork longsword. In addition, whenever light is cast upon this sword, the radius of light and its duration is doubled."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -4656,7 +4656,7 @@
 			"## Cleansing Light",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae",
+			"**Religion:** {faith/Sarenrae}",
 			"",
 			"Your faith is pure and strong, and your positive energy purges undead. When dealing damage to undead with your channel energy ability, you can reroll any damage die roll that results in a natural 1."
 		],
@@ -4669,7 +4669,7 @@
 			"## Cleansing the Twisted",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae",
+			"**Religion:** {faith/Sarenrae}",
 			"",
 			"You have studied well the many religious texts that chronicle Sarenrae's neverending struggle against Rovagug and his monstrous offspring. Your fighting style works particularly well when you utilize slashing weapons against aberrations. You gain a +1 trait bonus to slashing weapon damage against all aberrations."
 		],
@@ -4785,7 +4785,7 @@
 			"## Clockwork Surgeon",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Aesocar",
+			"**Religion:** {faith/Aesocar}",
 			"",
 			"Thanks to your medical innovations, you can perform especially comprehensive or speedy surgeries. You begin play with a special healer's kit at no cost and can fully restock your kit by expending materials worth 10 gp and spending 8 hours assembling medical devices. When using this healer's kit to treat deadly wounds, you can either halve the time required to perform the action or add your Intelligence modifier to the number of hit points healed."
 		],
@@ -5120,7 +5120,7 @@
 			"## Contract Master",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Asmodeus",
+			"**Religion:** {faith/Asmodeus}",
 			"",
 			"Your facility with contracts makes you good at understanding dense text and obfuscating your intent. You gain a +1 trait bonus on Linguistics checks, and Linguistics is a class skill for you."
 		],
@@ -5146,7 +5146,7 @@
 			"## Corpse Cannibal",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Urgathoa",
+			"**Religion:** {faith/Urgathoa}",
 			"",
 			"Your faith encourages you to indulge a variety of perverse hungers, leading you to shrug at even some of the darkest taboos. You gain a +2 trait bonus on Fortitude saves against diseases and can gain sustenance from rotting flesh with no negative side effects."
 		],
@@ -5175,7 +5175,7 @@
 			"## Corpse Hunter",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Pharasma",
+			"**Religion:** {faith/Pharasma}",
 			"",
 			"You have dedicated yourself to the destruction of undead, and gain a +1 trait bonus on attacks made against undead."
 		],

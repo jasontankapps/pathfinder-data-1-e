@@ -1082,7 +1082,7 @@
 			"",
 			"**Quick Rules:** +1 to AC; DR 5/silver; +1 on rolls based on Str, Dex, and Con; +1 hp/HD; bite attack that deals 1d6 points of damage (for Medium creatures) plus curse of lycanthropy; change shape (normal or hybrid form; polymorph); lycanthropic empathy (as appropriate for the lycanthrope).",
 			"",
-			"**Rebuild Rules:** **Type** gain the shapechanger subtype; DR 5/ silver; **Senses** low-light vision, scent; **AC** natural armor bonus increases by 1; **Melee** bite attack that deals 1d6 points of damage (for Medium creatures) plus curse of lycanthropy; **Special Attacks** curse of lycanthropy; **Special Qualities** change shape (normal or hybrid form; polymorph), lycanthropic empathy (as appropriate for the lycanthrope); **Ability Scores** +2 Str, +2 Dex, +2 Con."
+			"**Rebuild Rules:** **Type** gain the shapechanger subtype; DR 5/silver; **Senses** low-light vision, scent; **AC** natural armor bonus increases by 1; **Melee** bite attack that deals 1d6 points of damage (for Medium creatures) plus curse of lycanthropy; **Special Attacks** curse of lycanthropy; **Special Qualities** change shape (normal or hybrid form; polymorph), lycanthropic empathy (as appropriate for the lycanthrope); **Ability Scores** +2 Str, +2 Dex, +2 Con."
 		]
 	},
 	"taxidermic_creature": {
@@ -2129,7 +2129,7 @@
 			"",
 			"**Cursed Zombie:** Created as the result of a powerful curse rather than through necromantic spells, cursed zombies can bestow a curse upon their victims. A cursed zombie gains the curse special attack, delivered with its slam attack. *Zombie curse (Su)* slam; save Will DC = 10 + 1/2 the zombie's Hit Dice + the zombie's Cha modifier; frequency -; effect as {spell/bestow curse}; cure -. (CR +1)",
 			"",
-			"**Gasburst Zombie:** These bloated zombies are filled with toxic gas. When a gasburst zombie dies, it explodes in a cloud of noxious vapors which fill a 10-foot cube surrounding the zombie. Gasburst zombies are commonly filled with {eq-poison/burnt othur fumes} or {eq-poison/ungol dust}, but any poisonous gas may be used. Gas burst zombies have DR 5/ piercing instead of DR 5/slashing. (CR depends on poison used, usually +1)",
+			"**Gasburst Zombie:** These bloated zombies are filled with toxic gas. When a gasburst zombie dies, it explodes in a cloud of noxious vapors which fill a 10-foot cube surrounding the zombie. Gasburst zombies are commonly filled with {eq-poison/burnt othur fumes} or {eq-poison/ungol dust}, but any poisonous gas may be used. Gas burst zombies have DR 5/piercing instead of DR 5/slashing. (CR depends on poison used, usually +1)",
 			"",
 			"**Host Corpse:** This skeleton or zombie has been infested with a swarm of vermin or Tiny undead creatures that it releases from its body. Skeletal hosts often hold {monster/carrionstorm/s} or bat swarms in their rib cages, while zombie hosts frequently carry locusts or [flesh-eating cockroach swarms](monster/cockroach_swarm) inside their rotting husks. Acid, bloody, and burning skeletons cannot be host corpses. (CR +0, with the swarm's CR counting as a separate creature)",
 			"",

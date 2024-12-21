@@ -2048,7 +2048,7 @@
 			"",
 			"***Precipitation:*** Roll d% to determine whether the precipitation is fog (01-30), rain/snow (31-90), or sleet/hail (91-00). Snow and sleet occur only when the temperature is 30&deg; Fahrenheit or below. Most precipitation lasts for 2d4 hours. By contrast, hail lasts for only 1d20 minutes but usually accompanies 1d4 hours of rain.",
 			"",
-			"***Storm (Duststorm/Snowstorm/Thunderstorm):*** Wind speeds are severe (30 to 50 mph) and visibility is cut by three-quarters. Storms last for 2d4-1 hours. See Storms, below, for more details.",
+			"***Storm (Duststorm/Snowstorm/Thunderstorm):*** Wind speeds are severe (30 to 50 mph) and visibility is cut by three-quarters. Storms last for 2d4-1 hours. See {rule/Storms} for more details.",
 			"",
 			"***Warm:*** Between 60&deg; and 85&deg; Fahrenheit during the day, 10 to 20 degrees colder at night.",
 			"",
@@ -2079,8 +2079,8 @@
 			"[^1]: Temperate includes forests, hills, marshes, mountains, plains, and warm aquatic environments.",
 			"[^2]: Winter is cold, summer is warm, spring and autumn are temperate. Marsh regions are slightly warmer in winter.",
 			"[^3]: The siege weapon category includes ballista and catapult attacks as well as boulders tossed by giants.",
-			"[^4]: Checked Size: Creatures of this size or smaller are unable to move forward against the force of the wind unless they succeed on a DC 10 Strength check (if on the ground) or a DC 20 Fly skill check if airborne.",
-			"[^5]: Blown Away Size: Creatures on the ground are knocked prone and rolled 1d4 &times; 10 feet, taking 1d4 points of nonlethal damage per 10 feet, unless they make a DC 15 Strength check. Flying creatures are blown back 2d6 &times; 10 feet and take 2d6 points of nonlethal damage due to battering and buffeting, unless they succeed on a DC 25 Fly skill check."
+			"[^4]: Creatures of this size or smaller are unable to move forward against the force of the wind unless they succeed on a DC 10 Strength check (if on the ground) or a DC 20 Fly skill check if airborne.",
+			"[^5]: Creatures on the ground are knocked prone and rolled 1d4 &times; 10 feet, taking 1d4 points of nonlethal damage per 10 feet, unless they make a DC 15 Strength check. Flying creatures are blown back 2d6 &times; 10 feet and take 2d6 points of nonlethal damage due to battering and buffeting, unless they succeed on a DC 25 Fly skill check."
 		],
 		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
@@ -2115,7 +2115,7 @@
 			"",
 			"Most precipitation is rain, but in cold conditions it can manifest as snow, sleet, or hail. Precipitation of any kind followed by a cold snap in which the temperature dips from above freezing to 30&deg; F or below might produce ice.",
 			"",
-			"***Rain:*** Rain reduces visibility ranges by half, resulting in a -4 penalty on Perception checks. It has the same effect on flames, ranged weapon attacks, and Perception checks as severe wind.",
+			"***Rain:*** Rain reduces visibility ranges by half, resulting in a -4 penalty on Perception checks. It has the same effect on flames, ranged weapon attacks, and Perception checks as severe wind ([Table 3-10](rule/weather)).",
 			"",
 			"***Snow:*** Falling snow has the same effects on visibility, ranged weapon attacks, and skill checks as rain, and it costs 2 squares of movement to enter a snow-covered square. A day of snowfall leaves 1d6 inches of snow on the ground.",
 			"",
@@ -2236,25 +2236,41 @@
 			"",
 			"Although the number of planes is limited only by imagination, they can all be categorized into five general types: the Material Plane, the transitive planes, the Inner Planes, the Outer Planes, and the countless demiplanes.",
 			"",
-			"***Material Plane:*** The Material Plane tends to be the most Earth-like of all planes and operates under the same set of natural laws that our own real world does. The \"size\" of the Material Plane depends upon the campaign - it might conform only to the single world on which your game is set, or it might encompass an entire universe of planets, moons, stars, and galaxies. The Material Plane is the default plane for the Pathfinder Roleplaying Game.",
+			"### Material Plane",
 			"",
-			"***Transitive Planes:*** Transitive planes have one important common characteristic: they \"overlap\" with other planes, and as such can be used to travel between these overlapping realities. These planes have the strongest regular interaction with the Material Plane and are often accessed by using various spells. They have native inhabitants as well. Example transitive planes include the following.",
+			"The Material Plane tends to be the most Earth-like of all planes and operates under the same set of natural laws that our own real world does. The \"size\" of the Material Plane depends upon the campaign - it might conform only to the single world on which your game is set, or it might encompass an entire universe of planets, moons, stars, and galaxies. The Material Plane is the default plane for the Pathfinder Roleplaying Game.",
 			"",
-			"***Astral Plane:*** A silvery void that connects the Material and Inner Planes to the Outer Planes, the astral plane is the medium through which the souls of the departed travel to the afterlife. A traveler in the Astral Plane sees the plane as a vast empty void periodically dotted with tiny motes of physical reality calved off of the countless planes it overlaps. Powerful spellcasters utilize the Astral Plane for a tiny fraction of a second when they teleport, or they can use it to travel between planes with spells like astral projection.",
+			"### Transitive Planes",
 			"",
-			"***Ethereal Plane:*** The Ethereal Plane is a ghostly realm that exists as a buffer between the Material Plane and the Shadow Plane, overlapping each. A traveler in the Ethereal plane experiences the real world as if the world were an insubstantial ghost, and can move through solid objects without being seen in the real world. Strange creatures dwell in the Ethereal Plane, as well as ghosts and dreams, many of which can sometimes extend their influence into the real world in mysterious and terrifying ways. Powerful spellcasters utilize the Ethereal Plane with spells like blink, etherealness, and ethereal jaunt.",
+			"Transitive planes have one important common characteristic: they \"overlap\" with other planes, and as such can be used to travel between these overlapping realities. These planes have the strongest regular interaction with the Material Plane and are often accessed by using various spells. They have native inhabitants as well. Example transitive planes include the following.",
 			"",
-			"***Shadow Plane:*** The eerie and deadly Shadow Plane is a grim, colorless \"duplicate\" of the Material Plane. It overlaps with the Material Plane but is smaller in size, and is in many ways a warped and mocking \"reflection\" of the Material Plane, one infused with negative energy (see Inner Planes) and serving as home for strange monsters like undead shadows and worse. Powerful spellcasters utilize the Shadow Plane to swiftly travel immense distances on the Material Plane with shadow walk, or draw upon the mutable essence of the Shadow Plane to create quasi-real effects and creatures with spells like shadow evocation or shades.",
+			"***Astral Plane:*** A silvery void that connects the Material and Inner Planes to the Outer Planes, the astral plane is the medium through which the souls of the departed travel to the afterlife. A traveler in the Astral Plane sees the plane as a vast empty void periodically dotted with tiny motes of physical reality calved off of the countless planes it overlaps. Powerful spellcasters utilize the Astral Plane for a tiny fraction of a second when they {spell/teleport}, or they can use it to travel between planes with spells like {spell/astral projection}.",
 			"",
-			"***Inner Planes:*** The Inner Planes contain the building blocks of reality - it's easiest to envision these planes as \"containing\" the Material Plane, but they do not overlap with the Material Plane as do the transitive planes. Each Inner Plane is made up of a single type of energy or element that overwhelms all others. The natives of a particular Inner Plane are made of the same energy or element as the plane itself. Example Inner Planes include the following.",
+			"***Ethereal Plane:*** The Ethereal Plane is a ghostly realm that exists as a buffer between the Material Plane and the Shadow Plane, overlapping each. A traveler in the Ethereal plane experiences the real world as if the world were an insubstantial ghost, and can move through solid objects without being seen in the real world. Strange creatures dwell in the Ethereal Plane, as well as ghosts and dreams, many of which can sometimes extend their influence into the real world in mysterious and terrifying ways. Powerful spellcasters utilize the Ethereal Plane with spells like {spell/blink}, {spell/etherealness}, and {spell/ethereal jaunt}.",
 			"",
-			"***Elemental Planes:*** The four classic Inner Planes are the Plane of Air, the Plane of Earth, the Plane of Fire, and the Plane of Water - it is from these planes that the creatures known as elementals hail, yet they house many other strange denizens as well, such as the genie races, strange metal-eating xorns, unseen invisible stalkers, and mischievous mephits.",
+			"***Shadow Plane:*** The eerie and deadly Shadow Plane is a grim, colorless \"duplicate\" of the Material Plane. It overlaps with the Material Plane but is smaller in size, and is in many ways a warped and mocking \"reflection\" of the Material Plane, one infused with negative energy (see Inner Planes) and serving as home for strange monsters like undead {monster/shadow/s} and worse. Powerful spellcasters utilize the Shadow Plane to swiftly travel immense distances on the Material Plane with {spell/shadow walk}, or draw upon the mutable essence of the Shadow Plane to create quasi-real effects and creatures with spells like {spell/shadow evocation} or {spell/shades}.",
+			"",
+			"### Inner Planes",
+			"",
+			"The Inner Planes contain the building blocks of reality - it's easiest to envision these planes as \"containing\" the Material Plane, but they do not overlap with the Material Plane as do the transitive planes. Each Inner Plane is made up of a single type of energy or element that overwhelms all others. The natives of a particular Inner Plane are made of the same energy or element as the plane itself. Example Inner Planes include the following.",
+			"",
+			"***Elemental Planes:*** The four classic Inner Planes are the Plane of Air, the Plane of Earth, the Plane of Fire, and the Plane of Water - it is from these planes that the creatures known as {family/elemental/s} hail, yet they house many other strange denizens as well, such as the {family/genie} races, strange metal-eating {monster/xorn/s}, unseen {monster/invisible stalker/s}, and mischievous {monster/mephit/s}.",
 			"",
 			"***Energy Planes:*** Two energy planes exist - the Positive Energy Plane (from which the animating spark of life hails) and the Negative Energy Plane (from which the sinister taint of undeath hails). Energy from both planes infuses reality, the ebb and flow of this energy running through all creatures to bear them along the journey from birth to death. Clerics utilize power from these planes when they channel energy.",
 			"",
-			"***Outer Planes:*** Beyond the realm of the mortal world, beyond the building blocks of reality, lie the Outer Planes. Vast beyond imagining, it is to these realms that the souls of the dead travel, and it is upon these realms in which the gods themselves hold court. Each of the Outer Planes has an alignment, representing a particular moral or ethical outlook, and the natives of each plane tend to behave in agreement with that plane's alignment. The Outer Planes are also the final resting place of souls from the Material Plane, whether that final rest takes the form of calm introspection or eternal damnation. The denizens of the Outer Planes form the mythologies of civilization, comprising angels and demons, titans and devils, and countless other incarnations of possibility. Each campaign world should have different Outer Planes to match its themes and needs, but classic Outer Planes include lawful good Heaven, the chaos and evil of the Abyss, the regimented lawful evil of Hell, and the capricious freedom and joys of chaotic good Elysium. Powerful spellcasters can contact the Outer Planes for advice or guidance with spells like commune and contact outer plane, or can conjure allies with spells like planar ally or summon monster.",
+			"### Outer Planes",
 			"",
-			"***Demiplanes:*** This catchall category covers all extradimensional spaces that function like planes but have measurable size and limited access. Other kinds of planes are theoretically infinite in size, but a demiplane might be only a few hundred feet across. There are countless demiplanes adrift in reality, and while most are connected to the Astral Plane and Ethereal Plane, some are cut off entirely from the transitive planes and can only be accessed by well-hidden portals or obscure magic spells."
+			"Beyond the realm of the mortal world, beyond the building blocks of reality, lie the Outer Planes. Vast beyond imagining, it is to these realms that the souls of the dead travel, and it is upon these realms in which the gods themselves hold court.",
+			"",
+			"Each of the Outer Planes has an alignment, representing a particular moral or ethical outlook, and the natives of each plane tend to behave in agreement with that plane's alignment. The Outer Planes are also the final resting place of souls from the Material Plane, whether that final rest takes the form of calm introspection or eternal damnation.",
+			"",
+			"The denizens of the Outer Planes form the mythologies of civilization, comprising angels and demons, titans and devils, and countless other incarnations of possibility. Each campaign world should have different Outer Planes to match its themes and needs, but classic Outer Planes include lawful good Heaven, the chaos and evil of the Abyss, the regimented lawful evil of Hell, and the capricious freedom and joys of chaotic good Elysium.",
+			"",
+			"Powerful spellcasters can contact the Outer Planes for advice or guidance with spells like {spell/commune} and {spell/contact other plane}, or can conjure allies with spells like {spell/planar ally} or {spell/summon monster>_1}.",
+			"",
+			"### Demiplanes",
+			"",
+			"This catchall category covers all extradimensional spaces that function like planes but have measurable size and limited access. Other kinds of planes are theoretically infinite in size, but a demiplane might be only a few hundred feet across. There are countless demiplanes adrift in reality, and while most are connected to the Astral Plane and Ethereal Plane, some are cut off entirely from the transitive planes and can only be accessed by well-hidden portals or obscure magic spells."
 		],
 		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
@@ -2285,7 +2301,7 @@
 			"",
 			"Infinities may be broken into smaller infinities, and planes into smaller, related planes. These layers are effectively separate planes of existence, and each layer can have its own features and qualities. Layers are connected to each other through a variety of planar gates, natural vortices, paths, and shifting borders.",
 			"",
-			"Access to a layered plane from elsewhere usually happens on the first layer of the plane, which can be either the top or bottom layer, depending on the specific plane. Most fixed access points (such as portals and natural vortices) reach this layer, which makes it the gateway for other layers of the plane. The plane shift spell generally deposits the spellcaster on the first layer of the plane."
+			"Access to a layered plane from elsewhere usually happens on the first layer of the plane, which can be either the top or bottom layer, depending on the specific plane. Most fixed access points (such as portals and natural vortices) reach this layer, which makes it the gateway for other layers of the plane. The {spell/plane shift} spell generally deposits the spellcaster on the first layer of the plane."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2324,7 +2340,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/442}",
 			"",
-			"Environmental hazards specific to one kind of terrain are described in the Wilderness section. Environmental hazards common to more than one setting are detailed below."
+			"Environmental hazards specific to one kind of terrain are described in the {rule/Wilderness} section. Environmental hazards common to more than one setting are detailed below."
 		],
 		"parent_topics": [ "gamemastery" ],
 		"subtopics": [
@@ -2449,7 +2465,7 @@
 			"",
 			"If a blinded creature is struck by an unseen foe, the blinded character pinpoints the location of the creature that struck him (until the unseen creature moves, of course). The only exception is if the unseen creature has a reach greater than 5 feet (in which case the blinded character knows the location of the unseen opponent, but has not pinpointed him) or uses a ranged attack (in which case the blinded character knows the general direction of the foe, but not his location).",
 			"",
-			"A creature with the scent ability automatically pinpoints unseen creatures within 5 feet of its location."
+			"A creature with the {umr/scent} ability automatically pinpoints unseen creatures within 5 feet of its location."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2470,7 +2486,7 @@
 	},
 	"falling": {
 		"name": "Falling",
-		"tags": "falling damage",
+		"tags": "falling damage, diving into water",
 		"subtitle": "Environmental Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -2482,7 +2498,7 @@
 			"",
 			"Falls onto yielding surfaces (soft ground, mud) also convert the first 1d6 of damage to nonlethal damage. This reduction is cumulative with reduced damage due to deliberate jumps and the Acrobatics skill.",
 			"",
-			"A character cannot cast a spell while falling, unless the fall is greater than 500 feet or the spell is an immediate action, such as feather fall. Casting a spell while falling requires a concentration check with a DC equal to 20 + the spell's level. Casting teleport or a similar spell while falling does not end your momentum, it just changes your location, meaning that you still take falling damage, even if you arrive atop a solid surface.",
+			"A character cannot cast a spell while falling, unless the fall is greater than 500 feet or the spell is an immediate action, such as {spell/feather fall}. Casting a spell while falling requires a concentration check with a DC equal to 20 + the spell's level. Casting {spell/teleport} or a similar spell while falling does not end your momentum, it just changes your location, meaning that you still take falling damage, even if you arrive atop a solid surface.",
 			"",
 			"***Falling into Water:*** Falls into water are handled somewhat differently. If the water is at least 10 feet deep, the first 20 feet of falling do no damage. The next 20 feet do nonlethal damage (1d3 per 10-foot increment). Beyond that, falling damage is lethal damage (1d6 per additional 10-foot increment).",
 			"",
@@ -2516,7 +2532,7 @@
 			"",
 			"Objects that fall upon characters deal damage based on their size and the distance they have fallen. Table 13-11 determines the amount of damage dealt by an object based on its size. Note that this assumes that the object is made of dense, heavy material, such as stone. Objects made of lighter materials might deal as little as half the listed damage, subject to GM discretion. For example, a Huge boulder that hits a character deals 6d6 points of damage, whereas a Huge wooden wagon might deal only 3d6 damage. In addition, if an object falls less than 30 feet, it deals half the listed damage. If an object falls more than 150 feet, it deals double the listed damage. Note that a falling object takes the same amount of damage as it deals.",
 			"",
-			"Dropping an object on a creature requires a ranged touch attack. Such attacks generally have a range increment of 20 feet. If an object falls on a creature (instead of being thrown), that creature can make a DC 15 Reflex save to halve the damage if he is aware of the object. Falling objects that are part of a trap use the trap rules instead of these general guidelines.",
+			"Dropping an object on a creature requires a ranged touch attack. Such attacks generally have a range increment of 20 feet. If an object falls on a creature (instead of being thrown), that creature can make a DC 15 Reflex save to halve the damage if he is aware of the object. Falling objects that are part of a trap use the {rule/trap>s} rules instead of these general guidelines.",
 			"",
 			"### Table 13-11: Damage from Falling Objects",
 			"",

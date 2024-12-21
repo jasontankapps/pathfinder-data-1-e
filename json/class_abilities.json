@@ -305,7 +305,11 @@
 	},
 	"advanced_weapon_training": {
 		"name": "Advanced Weapon Training",
-		"sources": [ "Weapon Master's Handbook" ],
+		"sources": [
+			"Weapon Master's Handbook",
+			"Blood of the Beast",
+			"Magic Tactics Toolbox"
+		],
 		"description": [
 			"## Advanced Weapon Training",
 			"",
@@ -362,7 +366,7 @@
 			"### Fighter's Stamina (Ex)",
 			"",
 			"{SOURCE Blood of the Beast/29}  ",
-			"The fighter gains Combat Stamina as a bonus feat, even when not wielding a weapon from the appropriate weapon group. If the fighter already has this feat, he gains Extra Stamina as a bonus feat instead.",
+			"The fighter gains {feat/Combat Stamina} as a bonus feat, even when not wielding a weapon from the appropriate weapon group. If the fighter already has this feat, he gains {feat/Extra Stamina} as a bonus feat instead.",
 			"",
 			"### Fighter's Tactics (Ex)",
 			"",
@@ -1824,7 +1828,7 @@
 			"",
 			"**Greater Cognatogen (Su)** (*{source/Ultimate Magic}*): The alchemist's mutagen now grants a +4 natural armor bonus, a +6 alchemical bonus to one mental ability score (Intelligence, Wisdom, or Charisma), and a +4 alchemical bonus to a second mental ability score. The alchemist takes a -2 penalty on both associated physical ability scores as long as the mutagen persists, and takes 2 points of ability damage to both associated physical ability scores when the cognatogen ends. An alchemist must be at least 12th level and must have the cognatogen discovery or class ability before selecting this discovery.",
 			"",
-			"**Greater Fey Mutagen (Su)** (*{source/Legacy of the First World}*): The alchemist's fey mutagen now grants a +4 alchemical bonus to Dexterity and Charisma, a -2 penalty to his Strength, DR 5/ cold iron, and the [druid's woodland stride class feature](class/druid). An alchemist must be at least 12th level and must have the fey mutagen discovery before selecting this discovery.",
+			"**Greater Fey Mutagen (Su)** (*{source/Legacy of the First World}*): The alchemist's fey mutagen now grants a +4 alchemical bonus to Dexterity and Charisma, a -2 penalty to his Strength, DR 5/cold iron, and the [druid's woodland stride class feature](class/druid). An alchemist must be at least 12th level and must have the fey mutagen discovery before selecting this discovery.",
 			"",
 			"**Greater Inspiring Cognatogen (Su)** (*{source/Advanced Class Guide}*): The alchemist's inspiring cognatogen now grants a +2 dodge bonus to AC and a +2 bonus to Reflex saving throws; a -4 penalty to Strength and Constitution; and the effects of having the amazing inspiration, eidetic recollection, and expanded inspiration {ability/investigator talents}. An alchemist must be at least 12th level and must have the inspiring cognatogen discovery or class feature to select this discovery.",
 			"",

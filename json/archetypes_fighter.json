@@ -441,13 +441,13 @@
 			"",
 			"This ability replaces armor training 1, 2, and 3.",
 			"",
-			"**Draconic Strike (Su):** At 3rd level, whenever the dragonheir scion damages a target with an attack augmented by {feat/Arcane Strike}, the attack deals an additional 1d4 points of damage of the dragonheir scion's energy type.",
+			"**Draconic Strike (Su):** At 4th level, whenever the dragonheir scion damages a target with an attack augmented by {feat/Arcane Strike}, the attack deals an additional 1d4 points of damage of the dragonheir scion's energy type.",
 			"",
-			"This ability replaces the bonus feat gained at 3rd level.",
+			"This ability replaces the bonus feat gained at 4th level.[^1]",
 			"",
-			"**Draconic Presense (Su):** At 5th level, the dragonheir scion receives {feat/Dazzling Display} as a bonus feat. She does not need a weapon in hand to use this ability, and can use it as a standard action.",
+			"**Draconic Presense (Su):** At 6th level, the dragonheir scion receives {feat/Dazzling Display} as a bonus feat. She does not need a weapon in hand to use this ability, and can use it as a standard action.",
 			"",
-			"This ability replaces the bonus feat gained at 5th level.",
+			"This ability replaces the bonus feat gained at 6th level.[^1]",
 			"",
 			"**Wings (Su):** At 15th level, a dragonheir scion can grow leathery dragon wings from her back as a standard action, granting her a fly speed of 60 feet with average maneuverability. She can dismiss the wings as a free action.",
 			"",
@@ -455,7 +455,9 @@
 			"",
 			"**Might of Wyrms (Su):** At 20th level, a dragonheir scion's draconic heritage becomes manifest. She gains immunity to paralysis, sleep, and damage of her energy type, as well as blindsense with a range of 60 feet.",
 			"",
-			"This ability replaces weapon mastery."
+			"This ability replaces weapon mastery.",
+			"",
+			"[^1]: The original text says that *Draconic Strike* is a 3rd-level ability that replaces your 3rd-level bonus feat, and *Draconic Presense* likewise targets your 5th level. However, fighters do not get bonus feats at 3rd or 5th level. The general concensus is that they should be bumped to 4th and 6th level respectively, which is what is shown above."
 		]
 	},
 	"dragoon": {

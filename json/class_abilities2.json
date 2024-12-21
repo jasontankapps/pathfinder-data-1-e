@@ -262,10 +262,11 @@
 	},
 	"druid_domains": {
 		"name": "Druid Domains",
-		"sources": [],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Druid Domains",
 			"",
+			"{SOURCE Ultimate Magic/33}  ",
 			"Presented in the section below are new rules for animal and terrain domains - domains for druids whose focus is more specific than the Animal, Plant, Weather, or elemental domains. A druid with the nature's bond ability can choose an animal domain or terrain domain. Just like cleric domains, animal and terrain domains have granted powers and domain spells, and a druid who selects an animal or terrain domain gains a domain spell slot at each level. A druid who worships a deity (as opposed to nature in general) cannot select an animal or terrain domain that contradicts or is outside of the portfolio of her deity.",
 			"",
 			"If an animal or terrain domain ability calls for a saving throw, the DC of the save is equal to 10 + 1/2 the character's druid level + her Wisdom modifier",

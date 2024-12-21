@@ -149,7 +149,7 @@
 			"## Mother's Rage",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Lamashtu",
+			"**Religion:** {faith/Lamashtu}",
 			"",
 			"The blood of the beast runs thick in your veins, and your appearance is bestial. You receive a +1 trait bonus on Survival checks, and you treat your caster level as +1 higher when summoning creatures."
 		],
@@ -162,7 +162,7 @@
 			"## Mother's Teeth",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Lamashtu  ",
+			"**Religion:** {faith/Lamashtu}  ",
 			"**Requirements:** Goblin",
 			"",
 			"Your teeth are more jagged and pointed than normal. You can make a bite attack for 1d2 points of damage as a secondary attack."
@@ -372,7 +372,7 @@
 			"## Toilcrafter",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Droskar",
+			"**Religion:** {faith/Droskar}",
 			"",
 			"You can craft passable if inferior magical weapons, armors, and shields through diligence and toil. Choose one Craft or Profession skill in which you have at least 1 rank. Ranks in your chosen skill count as your caster level for the purpose of qualifying for the {feat/Craft Magic Arms and Armor} feat. You may craft +1 armor, weapons, or shields (with no special qualities), substituting your rank in the chosen skill for your caster level. You must use the chosen skill for the check to create the item. Crafting in this fashion takes twice as long as normal. These items cannot be upgraded with new abilities."
 		],
@@ -1138,7 +1138,7 @@
 			"## Undead Slayer (Pharasma)",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Pharasma",
+			"**Religion:** {faith/Pharasma}",
 			"",
 			"Instructed at a young age in the tenets of the faith of Pharasma, you view the undead as abominations that must be destroyed so their souls can journey beyond to be judged. You gain a +1 trait bonus on weapon damage rolls against undead."
 		],
@@ -1151,7 +1151,7 @@
 			"## Under Siege",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae",
+			"**Religion:** {faith/Sarenrae}",
 			"",
 			"In order to maintain your devotion to Sarenrae in Taldor and stay alive, you and your fellow worshipers developed a complex system of hand signs and facial gestures to identify yourselves as faithful in the Cult of the Dawnflower. You gain a +1 trait bonus on Bluff and Sense Motive checks. One of these skills (your choice) is always a class skill for you."
 		],
@@ -1205,7 +1205,7 @@
 			"## Underlying Principles",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Nethys",
+			"**Religion:** {faith/Nethys}",
 			"",
 			"You've spent a large amount of time around magical items, and understand the similarities between many of them. You gain a +1 trait bonus on Use Magic Device checks, and Use Magic Device is a class skill for you."
 		],
@@ -1308,7 +1308,7 @@
 			"## Unhinged Mentality",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Lamashtu",
+			"**Religion:** {faith/Lamashtu}",
 			"",
 			"Your goddess-granted madness gives you a +2 trait bonus on saving throws against confusion, insanity, and fear effects."
 		],
@@ -1493,7 +1493,7 @@
 			"## Unswaying Love",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Shelyn",
+			"**Religion:** {faith/Shelyn}",
 			"",
 			"Your resolute devotion to the unadulterated purity of your goddess protects you from those who would manipulate you. You gain a +2 trait bonus on saving throws against charm or compulsion effects."
 		],
@@ -1756,7 +1756,7 @@
 			"## Veils upon Veils",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sivanah",
+			"**Religion:** {faith/Sivanah}",
 			"",
 			"You have learned a holy secret that makes your illusions more powerful. Once per day when casting an illusion spell, you can do so at +1 caster level."
 		],
@@ -1820,7 +1820,7 @@
 			"## Venom-Drenched",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Norgorber  ",
+			"**Religion:** {faith/Norgorber}  ",
 			"**Requirements:** Halfling",
 			"",
 			"You have nothing to fear from one sort of poison. In fact, you can actually drink the toxic brew in order to make your blood dangerous. You are immune to one specific nonmagical poison. If you ingest a dose of that poison (even if it is a contact, inhaled, or injury poison), it remains in your system for 24 hours; any creature that bites you during that time is subject to the poison's effects."
@@ -1863,7 +1863,7 @@
 			"## Veteran of Battle",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Gorum",
+			"**Religion:** {faith/Gorum}",
 			"",
 			"You have fought in several battles, and each time felt the presence of Gorum guiding your sword-arm, making you ready to act at a moment's notice. You gain a +1 trait bonus on initiative checks, and if you are able to act during a surprise round, you may draw a weapon (but not a potion or magic item) as a free action during that round."
 		],
@@ -1996,7 +1996,7 @@
 			"## Vindictive Strike",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Gyronna",
+			"**Religion:** {faith/Gyronna}",
 			"",
 			"Once per day during a combat encounter, you can choose to gain a +1 trait bonus on a single attack roll against the creature that last hit you."
 		],
@@ -2009,7 +2009,7 @@
 			"## Voice of Monsters",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Lamashtu",
+			"**Religion:** {faith/Lamashtu}",
 			"",
 			"Your faith leads you to see the power and wonder in even the most horrible abominations. Once per day, you can cast speak with animals. When you cast this spell, it can affect animals (as normal) as well as aberrations and magical beasts with an Intelligence of 2 or lower."
 		],
@@ -2297,7 +2297,7 @@
 			"## Wasp Whisperer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Calistria  ",
+			"**Religion:** {faith/Calistria}  ",
 			"**Requirements:** Elf",
 			"",
 			"Your association with Calistria's church has toughened your flesh against venom and blessed you with the ability to influence wasps and similar insectile vermin. You gain a +1 trait bonus on Fortitude saving throws against poison. You may make Diplomacy checks (or wild empathy checks if you are a druid or ranger) to improve a Hostile or Unfriendly insectile vermin's attitude toward Indifferent."
@@ -2550,7 +2550,7 @@
 			"## Wedded Bliss",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Bolka",
+			"**Religion:** {faith/Bolka}",
 			"",
 			"Your commitment to your own marriage or your burning desire to be wed grants you a +2 trait bonus on saving throws against charm and compulsion effects."
 		],
@@ -2606,7 +2606,7 @@
 			"## Well-Prepared",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Angradd",
+			"**Religion:** {faith/Angradd}",
 			"",
 			"Angradd teaches that a good offense can be the best defense. You gain a +1 trait bonus on attack rolls made as part of a readied action, and a +1 trait bonus on caster level checks when casting a spell as a readied action."
 		],
@@ -3029,7 +3029,7 @@
 			"## Wisdom in the Flesh",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Irori",
+			"**Religion:** {faith/Irori}",
 			"",
 			"Your hours of meditation on inner perfection and the nature of strength and speed allow you to focus your thoughts to achieve things your body might not normally be able to do on its own. Select any Strength-, Constitution-, or Dexterity-based skill. You may make checks with that skill using your Wisdom modifier instead of the skill's normal ability score. That skill is always a class skill for you."
 		],
@@ -3045,7 +3045,7 @@
 			"## Wise Teacher",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Erastil",
+			"**Religion:** {faith/Erastil}",
 			"",
 			"You are skilled in passing along knowledge of rural matters. If you have 4 or more ranks in Knowledge (Nature) or Survival, when you aid another with these skills, you grant a +4 bonus on the check you are aiding instead of the normal +2."
 		],
@@ -3097,7 +3097,7 @@
 			"## Wolf Cub",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Zarongel  ",
+			"**Religion:** {faith/Zarongel}  ",
 			"**Requirements:** Goblin",
 			"",
 			"Your body has clumps of ugly fur, a sure sign of wolf blood! You win! Once per day as a standard action, you can take a deep breath through your nose to gain the scent ability for 1 minute."
@@ -3166,7 +3166,7 @@
 			"## Wrecking Wrath",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Rovagug",
+			"**Religion:** {faith/Rovagug}",
 			"",
 			"Your ferocity is devastating, sometimes even to your own weapons. Once per day, after successful hitting a foe with a melee weapon, you can add your Strength modifier to the damage roll a second time (your Strength Modifier is not doubled if you are using a two-handed weapon). Doing so has a 25% chance of giving your weapon the broken condition."
 		],
@@ -3179,7 +3179,7 @@
 			"## Wronged",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Gyronna",
+			"**Religion:** {faith/Gyronna}",
 			"",
 			"Somewhere in your past, you were taken advantage of because of your gender. You gain a +2 trait bonus on Sense Motive checks against male creatures of your race, and the DC for men to intimidate you increases by 2."
 		],

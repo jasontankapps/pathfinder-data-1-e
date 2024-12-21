@@ -4229,7 +4229,7 @@
 			"",
 			"**Vanishing Shadow (CR +1):** Shadows dwelling in a place of strong negative energy or with a connection to the Shadow Plane can develop the ability to shadow slip through the Shadow Plane, vanishing into the darkness and reappearing some distance away. These shadows have the {template/Advanced} creature simple template; while they do not gain the bonus to natural armor that this template typically imparts, vanishing shadows possess {spell/blink} as a constant spell-like ability.",
 			"",
-			">*Shadow Slip (Su):* At will as a move action, the vanishing shadow may shadow slip-this functions identically to the spell {spell/dimension door}, save that the starting point and destination must lie in darkness or dim light."
+			">*Shadow Slip (Su):* At will as a move action, the vanishing shadow may shadow slip; this functions identically to the spell {spell/dimension door}, save that the starting point and destination must lie in darkness or dim light."
 		]
 	},
 	"shadow_collector": {

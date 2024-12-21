@@ -9,7 +9,7 @@
 			"## Fatal Trapper",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Zyphus",
+			"**Religion:** {faith/Zyphus}",
 			"",
 			"Your patron grants you expertise at creating or disabling traps. You gain a +1 trait bonus on Craft (traps) checks, as well as a +1 trait bonus on Disable Device checks to disable traps."
 		],
@@ -47,7 +47,7 @@
 			"## Favored Prey",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Ketephys",
+			"**Religion:** {faith/Ketephys}",
 			"",
 			"Those you track feel the sting of your arrows. You gain a +1 trait bonus on damage rolls when making bow attacks against a creature whose tracks you have successfully followed in the last hour."
 		],
@@ -227,7 +227,7 @@
 			"## Fiendish Confidence",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Asmodeus",
+			"**Religion:** {faith/Asmodeus}",
 			"",
 			"You expect to be obeyed, and are rarely proven wrong. You gain a +1 trait bonus on Intimidate checks, and Intimidate is a class skill for you."
 		],
@@ -440,7 +440,7 @@
 			"## Flame of the Dawnflower",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae",
+			"**Religion:** {faith/Sarenrae}",
 			"",
 			"You have been raised to view yourself as a blade in Sarenrae's service, or you have taken on that duty for yourself. Whenever you score a critical hit with a scimitar, you deal 2 additional points of fire damage to your target."
 		],
@@ -520,7 +520,7 @@
 			"## Flounderer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Zogmugot  ",
+			"**Religion:** {faith/Zogmugot}  ",
 			"**Requirements:** Goblin",
 			"",
 			"You are adept at swimming and holding your breath. You gain a +1 trait bonus on Swim checks, and can hold your breath for a number of rounds equal to three times your Constitution score before you risk drowning."
@@ -589,7 +589,7 @@
 			"## Folgrit's Bounty",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Folgrit",
+			"**Religion:** {faith/Folgrit}",
 			"",
 			"You were taught to tend the sacred hearth-fire and cook nourishing meals as a child. You gain a +1 trait bonus on Profession (cook) checks and can prepare a nourishing meal of up to eight portions with 1 hour of effort at a cost of 20 gp. Anyone who eats a portion within 1 day (which takes 10 minutes) gains a +1 morale bonus that can be applied to any one skill check or attack roll in the next 8 hours. The bonus must be applied before the roll is made and cannot be renewed by another meal for 1 day."
 		],
@@ -602,7 +602,7 @@
 			"## Folgrit's Mercy",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Folgrit",
+			"**Religion:** {faith/Folgrit}",
 			"",
 			"You were called upon to defend your home or family at a vulnerable time and led with a clarity of mind you did not know you had. Once per day when you use lay on hands, you also cure the target of 1d4 points of Intelligence, Wisdom, or Charisma damage. You choose which ability score gains the healing effect."
 		],
@@ -615,7 +615,7 @@
 			"## Follower of the Stars",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Desna",
+			"**Religion:** {faith/Desna}",
 			"",
 			"You gain a +4 trait bonus when using Survival to navigate under clear skies."
 		],
@@ -802,7 +802,7 @@
 			"## Fortified Drinker",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Cayden Cailean",
+			"**Religion:** {faith/Cayden Cailean}",
 			"",
 			"Cayden Cailean's holy brews invigorate your mind, making you less susceptible to mental attacks. Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mind-affecting effects for 1 hour."
 		],
@@ -1174,7 +1174,7 @@
 			"## Frightening Speed",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Achaekek",
+			"**Religion:** {faith/Achaekek}",
 			"",
 			"Your careful study of Achaekek's kills has unlocked a divine speed in you. Once per day during a combat encounter, you can move an additional 5 feet as a part of a move action without penalty."
 		],
@@ -1252,7 +1252,7 @@
 			"## Fruits of Your Labor",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Jaidi",
+			"**Religion:** {faith/Jaidi}",
 			"",
 			"You take pride in providing for your community. Once per day you can serve a meal comprising food you have produced, purchased, or foraged to yourself and up to six other creatures. Serving and consuming this meal takes 10 minutes, during which the other participants can also partake in light activity such as conversation, reading, and keeping watch. Each creature regains 1d3 hit points at the end of the meal, and gains a +1 trait bonus on its next d20 roll using the aid another action to assist other creatures who consumed the meal. The +1 trait bonus lasts 24 hours, and a creature can gain that bonus on its next d20 roll to assist other creatures from this trait only once per day."
 		],
@@ -1303,7 +1303,7 @@
 			"## Furious Vengeance",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Dranngvit",
+			"**Religion:** {faith/Dranngvit}",
 			"",
 			"Once wronged, your vengeance can be swift and brutal. Once per day as an immediate action, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll."
 		],
@@ -1316,7 +1316,7 @@
 			"## Fury",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Rovagug",
+			"**Religion:** {faith/Rovagug}",
 			"",
 			"The flood of battle and destruction stirs deep within you. When wielding a greataxe, you receive a +2 trait bonus on attack rolls to confirm critical hits."
 		],
@@ -1354,7 +1354,7 @@
 			"## Gemstone Collector",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Yulreal",
+			"**Religion:** {faith/Yuelral}",
 			"",
 			"You have long found focus and inspiration in the natural beauty of rare gemstones. As long as you carry bejeweled objects worth a total combined value of 200 gp &times; your character level, you gain a +1 trait bonus on all Will saving throws and a +2 trait bonus on a single Charisma-based skill check of your choice."
 		],
@@ -1604,7 +1604,7 @@
 			"## Gifted Medium",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Magrim",
+			"**Religion:** {faith/Magrim}",
 			"",
 			"Your understanding of Magrim's teachings makes you a perfect conduit for mystical forces. You gain a +1 trait bonus on your caster level when using divinations to reach out to other entities, such as {spell/commune} or speak with dead."
 		],
@@ -1831,7 +1831,7 @@
 			"## Good Dreams",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Desna  ",
+			"**Religion:** {faith/Desna}  ",
 			"**Requirements:** Halfling",
 			"",
 			"Your dreams often give you a hint of possible dangers you might face during your day - such as a fall, a blast of fire, or a poisonous snake - and this hint sometimes makes all the difference. Each time you sleep, the GM tells you of a dangerous dream you had. Once per day, if you have to make a saving throw against a threat related or similar to that dream, you can roll twice and take the more favorable result. If you do not encounter circumstances similar to the threat or situation you dreamed, this trait has no effect that day. If you have the Halfling Jinx alternate racial trait, you cannot select this trait, and vice versa."
@@ -1890,7 +1890,7 @@
 			"## Good-Natured",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Cayden Cailean",
+			"**Religion:** {faith/Cayden Cailean}",
 			"",
 			"You have an unusually sunny spirit, and it takes something truly intimidating to dampen your mood. You gain a +2 trait bonus on saving throws against fear effects."
 		],
@@ -1903,7 +1903,7 @@
 			"## Gozreh's Sight",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Gozreh",
+			"**Religion:** {faith/Gozreh}",
 			"",
 			"Your faith in the Wind and the Waves helps you navigate through all manner of mist or haze. You can see normally up to 5 feet away in areas of nonmagical fog, mist, rain, or similar conditions (such as the spray of a waterfall). Your sight is still obscured beyond 5 feet as normal in these conditions."
 		],
@@ -2086,7 +2086,7 @@
 			"## Guardian Smite",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Trudd",
+			"**Religion:** {faith/Trudd}",
 			"",
 			"Paladins of Trudd taught you to be a blessed, living barrier against enemies who threaten those you hold dear. Once per day, when you strike a foe with smite evil, you can halve the total damage dealt to the foe to reduce that foe's speed to 5 feet for 1 round."
 		],
@@ -2103,7 +2103,7 @@
 			"## Guardian of the Forge",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Torag",
+			"**Religion:** {faith/Torag}",
 			"",
 			"Torag's sacred duties are to protect the faithful, take lessons from the great craftsmen and strategists of the past, and prepare against dark times. You receive a +1 trait bonus on Knowledge (engineering) and Knowledge (history) checks. One of these skills (your choice) is a class skill for you."
 		],
@@ -2295,7 +2295,7 @@
 			"## Hatred of the Gods",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Rovagug",
+			"**Religion:** {faith/Rovagug}",
 			"",
 			"Your god's own hatred of other deities is reflected in your ability to withstand the attacks of their followers. You gain a +1 trait bonus on saving throws made against divine spells."
 		],
@@ -2766,7 +2766,7 @@
 			"## Holy Schemer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Calistria",
+			"**Religion:** {faith/Calistria}",
 			"",
 			"You are well versed in the arts of misdirection, plotting, and intrigue, and you know how to recognize these tactics when they're used against you. You receive a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you."
 		],
@@ -2822,7 +2822,7 @@
 			"## Honey-Tongued",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Abadar",
+			"**Religion:** {faith/Abadar}",
 			"",
 			"Your deep understanding of human nature and social philosophy grants you a +1 trait bonus on Diplomacy or Bluff checks when dealing with agents of the law, such as judges, guards, and paladins."
 		],
@@ -2848,7 +2848,7 @@
 			"## Honeyed Words",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Grundinnar",
+			"**Religion:** {faith/Grundinnar}",
 			"",
 			"Your tact soothes bristling tempers and cools heated blood. You receive a +1 trait bonus on Diplomacy checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion that does not provide ongoing control and results in peaceful acts, such as calm emotions, sleep, or a suggestion to lay down arms."
 		],
@@ -3127,7 +3127,7 @@
 			"## Illuminator",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae",
+			"**Religion:** {faith/Sarenrae}",
 			"",
 			"When you are filled with the light of Sarenrae, your speech takes on a fiery eloquence. You gain a +2 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you."
 		],
@@ -3434,7 +3434,7 @@
 			"## Inheritor's Immunity",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Iomedae",
+			"**Religion:** {faith/Iomedae}",
 			"",
 			"Iomedae's valor fills you with divine energy, allowing you to stave off even the worst plague. Once per day, you can reroll a saving throw against a disease or poison. You must take the second result, even if it is worse."
 		],
@@ -3450,7 +3450,7 @@
 			"## Inner Beauty",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Shelyn",
+			"**Religion:** {faith/Shelyn}",
 			"",
 			"Once per day when you manifest your faith in your goddess, you gain a +4 trait bonus on a single Bluff, Craft, Diplomacy, or Perform skill check. You must choose to use this trait immediately after rolling the skill check but before the result is revealed by the GM."
 		],
@@ -3479,7 +3479,7 @@
 			"## Inoculated",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Urgathoa",
+			"**Religion:** {faith/Urgathoa}",
 			"",
 			"Your regular exposure to plagues grants you a +2 trait bonus on saving throws against disease effects."
 		],
@@ -3586,7 +3586,7 @@
 			"## Inspiring Leader",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Apsu",
+			"**Religion:** {faith/Apsu}",
 			"",
 			"Imitating the leadership of your deity, you spur others on to great deeds. When you cast a spell that grants allies a morale bonus, you cast that spell at +1 caster level."
 		],
@@ -3679,7 +3679,7 @@
 			"## Intense Artist",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Shelyn",
+			"**Religion:** {faith/Shelyn}",
 			"",
 			"Your devotion to Shelyn has caused you to delve more deeply into your art. Choose two Perform skills; you gain a +1 trait bonus on Perform checks of the selected types, and Perform is a class skill for you."
 		],
@@ -3816,7 +3816,7 @@
 			"## Iron Grip",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Gorum",
+			"**Religion:** {faith/Gorum}",
 			"",
 			"You and your weapon are practically one. You receive a +2 trait bonus to your CMD against disarm attempts."
 		],
@@ -4353,7 +4353,7 @@
 			"## Know the Land",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Green Faith",
+			"**Religion:** {faith/Green Faith}",
 			"",
 			"Your familiarity with the plants and animals of a variety of environments gives you a +1 trait bonus on Knowledge (nature) and Survival checks, and one of these skills is a class skill for you."
 		],
@@ -4446,7 +4446,7 @@
 			"## Kuthite Caster",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Zon-Kuthon",
+			"**Religion:** {faith/Zon-Kuthon}",
 			"",
 			"You gain a +4 trait bonus on concentration checks when casting spells with the darkness, pain, or shadow descriptor."
 		],
@@ -4695,7 +4695,7 @@
 			"## Lessons of Chaldira",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Chaldira Zuzaristan",
+			"**Religion:** {faith/Chaldira Zuzaristan}",
 			"",
 			"Your studies of Chaldira Zuzaristan's exploits have given you a knack for avoiding trouble. Once per day before the result of a saving throw is known, you can reroll that saving throw. You must take the second result even if it is worse."
 		],
@@ -4721,7 +4721,7 @@
 			"## Liar's Tongue",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Asmodeus",
+			"**Religion:** {faith/Asmodeus}",
 			"",
 			"Thanks to your friendly mien and sly tongue, your lies are often believed. You gain a +1 trait bonus on Bluff checks, and Bluff is a class skill for you."
 		],
@@ -4759,7 +4759,7 @@
 			"## Light Sleeper",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Hanspur",
+			"**Religion:** {faith/Hanspur}",
 			"",
 			"Because of a blessing from your god, or worries inspired by the way he died as a mortal, you are a light sleeper. Your modifier to Perception DCs when sleeping is +5 instead of +10."
 		],
@@ -4784,7 +4784,7 @@
 			"## Light-Bringer",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Sarenrae",
+			"**Religion:** {faith/Sarenrae}",
 			"",
 			"You were born with a blessing of the Dawnflower. Once per day, you can use light as a spell-like ability. Your caster level is equal to your character level."
 		],
@@ -4916,7 +4916,7 @@
 			"## Living Bulwark",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Arqueros",
+			"**Religion:** {faith/Arqueros}",
 			"",
 			"The Golden Bulwark inspires you to give your all for those you protect. Once per day, when an adjacent ally is targeted by an attack but before the attack roll is attempted, you can interpose yourself as an immediate action. You become the target of the attack instead."
 		],
@@ -5050,7 +5050,7 @@
 			"## Loreseeker",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Lissala",
+			"**Religion:** {faith/Lissala}",
 			"",
 			"You gain a +2 trait bonus on Spellcraft checks made to identify magical items."
 		],
@@ -5128,7 +5128,7 @@
 			"## Lover of the Law",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Abadar",
+			"**Religion:** {faith/Abadar}",
 			"",
 			"You have a strong belief in the righteousness of law and justice. You receive a +1 trait bonus on saving throws against charm and compulsion effects, and may attempt a new saving throw with an additional +1 bonus (for a total of +2) if you are directed to break the law."
 		],
@@ -5165,7 +5165,7 @@
 			"## Loyal Bond",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Grudinnar",
+			"**Religion:** {faith/Grundinnar}",
 			"",
 			"You are at your best when you serve others. When you cast spells that offer protection to an ally at your expense (such as {spell/shield other}) or spells whose duration is divided when shared among many (such as water breathing or any of the communal spells), you do so at +1 caster level."
 		],
@@ -5286,7 +5286,7 @@
 			"## Magic Is Life",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Nethys",
+			"**Religion:** {faith/Nethys}",
 			"",
 			"Your faith in magic allows you to reflexively use the energy of any spell effect currently on you to save you from death. As long as you are under the effects of a spell, you gain a +2 trait bonus on saving throws against death effects. If you are reduced to negative hit points while you are under the effects of any spell, you automatically confirm stabilization checks to stop bleeding."
 		],
@@ -5325,7 +5325,7 @@
 			"## Magic's Might",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Yuelral",
+			"**Religion:** {faith/Yuelral}",
 			"",
 			"Your natural affinity for magic allows you to affect even those who resist it. You gain a +1 trait bonus on caster level checks to overcome spell resistance."
 		],
@@ -5918,7 +5918,7 @@
 			"## Mighty Protector",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Trudd",
+			"**Religion:** {faith/Trudd}",
 			"",
 			"When you were too young to fight, you witnessed a great tragedy befall an innocent and you swore to Trudd you'd become strong enough to prevent something like that from happening again. Once per day when you hit a foe with a melee attack, you can attempt an aid another action as a free action to increase an adjacent ally's AC against that foe. If you succeed, you grant the ally a +4 bonus to AC instead of a +2 bonus for that round."
 		],
@@ -6050,7 +6050,7 @@
 			"## Mischievous Smile",
 			"",
 			"**Type:** Religion  ",
-			"**Religion:** Chaldira",
+			"**Religion:** {faith/Chaldira}",
 			"",
 			"You consider mischief a sacred rite in humbling enemies. You do not provoke attacks of opportunity when performing a dirty trick combat maneuver while your smite evil bonus applies to combat maneuver checks. If you already do not provoke such attacks of opportunity (such as by having {feat/Improved Dirty Trick}), you instead gain a +2 trait bonus on dirty trick combat maneuver checks against creatures that are the targets of your smite."
 		],
