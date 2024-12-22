@@ -1,28 +1,6 @@
-import { getGuaranteedItem } from '../components/getItem';
 import monsters from './subpages/__monster4';
-import { HierarchyArray } from '../types';
-import BasicPage from './BasicPage';
-import './Page.css';
+import MainGroupBasic from './MonsterGroupBasic';
 
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Monsters", "main/monsters"]];
+const MonsterGroup04Page: React.FC<{id: string}> = ({id}) => <MainGroupBasic id={id} info={monsters} />;
 
-type Data = typeof monsters;
-
-interface MonsterProps {
-	id: string,
-};
-
-const MainGroup04Page: React.FC<MonsterProps> = ({id}) => {
-
-	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), monsters);
-
-	return <BasicPage
-		hasJL={hasJL}
-		pageId={"monster--" + id}
-		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
-		sources={sources}
-	>{jsx}</BasicPage>;
-};
-
-export default MainGroup04Page;
+export default MonsterGroup04Page;

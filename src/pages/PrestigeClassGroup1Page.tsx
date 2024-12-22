@@ -1,32 +1,7 @@
-import getItem from '../components/getItem';
 import prestige_classes from './subpages/__prestigeclass1';
-import { HierarchyArray } from '../types';
-import BasicPage from './BasicPage';
-import './Page.css';
+import PrestigeClassGroupBasic from './PrestigeClassGroupBasic';
 
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Classes", "main/classes"]];
-
-type Data = typeof prestige_classes;
-
-interface ClassProps {
-	id: string,
-};
-
-const PrestigeClassGroup1Page: React.FC<ClassProps> = ({id}) => {
-
-	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem((id as keyof Data), prestige_classes);
-
-	const pageId = "prestigeclass--" + id;
-
-	return (
-		<BasicPage
-			hasJL={hasJL}
-			pageId={pageId}
-			title={title}
-			hierarchy={[...hierarchy, ...subhierarchy]}
-			sources={sources}
-		>{jsx}</BasicPage>
-	);
-};
+const PrestigeClassGroup1Page: React.FC<{id: string}> = ({id}) =>
+	<PrestigeClassGroupBasic id={id} info={prestige_classes} possiblyUnknown={true} />;
 
 export default PrestigeClassGroup1Page;

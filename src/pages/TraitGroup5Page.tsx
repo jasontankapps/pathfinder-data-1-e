@@ -1,29 +1,6 @@
-import { getGuaranteedItem } from '../components/getItem';
 import traits from './subpages/__trait5';
-import { HierarchyArray } from '../types';
-import BasicPage from './BasicPage';
-import './Page.css';
+import TraitGroupBasic from './TraitGroupBasic';
 
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Traits", "main/traits"]];
-
-type Data = typeof traits;
-
-interface TraitProps {
-	id: string,
-};
-
-const TraitGroup5Page: React.FC<TraitProps> = ({id}) => {
-
-	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), traits);
-
-	return <BasicPage
-		hasJL={hasJL}
-		pageId={"trait--" + id}
-		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
-		sources={sources}
-		topLink={subhierarchy.length > 0 ? subhierarchy[subhierarchy.length - 1] : ["Traits", "main/traits"]}
-	>{jsx}</BasicPage>
-};
+const TraitGroup5Page: React.FC<{id: string}> = ({id}) => <TraitGroupBasic id={id} info={traits} />;
 
 export default TraitGroup5Page;

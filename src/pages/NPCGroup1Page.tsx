@@ -1,29 +1,7 @@
-import getItem from '../components/getItem';
 import npcs from './subpages/__npc1';
-import { HierarchyArray } from '../types';
-import BasicPage from './BasicPage';
-import './Page.css';
+import NPCGroupBasic from './NPCGroupBasic';
 
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Monsters", "main/monsters"], ["All NPCs", "main/npcs"]];
-
-type Data = typeof npcs;
-
-interface NPCProps {
-	id: string,
-};
-
-const NPCGroup1Page: React.FC<NPCProps> = ({id}) => {
-
-	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>((id as keyof Data), npcs);
-
-	return <BasicPage
-		hasJL={hasJL}
-		pageId={"npc--" + id}
-		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
-		sources={sources}
-		topLink={["All NPCs", "main/npcs"]}
-	>{jsx}</BasicPage>;
-};
+const NPCGroup1Page: React.FC<{id: string}> = ({id}) =>
+	<NPCGroupBasic id={id} info={npcs} possiblyUnknown={true} />;
 
 export default NPCGroup1Page;
