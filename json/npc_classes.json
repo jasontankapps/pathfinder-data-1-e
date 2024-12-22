@@ -19,13 +19,13 @@
 			"",
 			"{SOURCE PRPG Core Rulebook/448}",
 			"",
-			"**Hit Die**: d6.",
+			"**Hit Die:** d6.",
 			"",
 			"### Class Skills",
 			"",
 			"The Adept's class skills are Craft (Int), Handle Animal (Cha), Heal (Wis), Knowledge (all skills taken individually) (Int), Profession (Wis), Spellcraft (Int), and Survival (Wis).",
 			"",
-			"**Skill Points at each Level**: 2 + Int modifier.",
+			"**Skill Points at each Level:** 2 + Int modifier.",
 			"",
 			"### Class Features and Spells Per Day",
 			"",
@@ -54,9 +54,9 @@
 			"",
 			"### Class Features",
 			"",
-			"**Weapon and Armor Proficiency**: Adepts are skilled with all simple weapons. Adepts are not proficient with any type of armor or shield.",
+			"**Weapon and Armor Proficiency:** Adepts are skilled with all simple weapons. Adepts are not proficient with any type of armor or shield.",
 			"",
-			"**Spells**: An adept casts divine spells, which are drawn from the [adept spell list](main/spells_adept). Like a cleric, an adept must choose and prepare her spells in advance. Unlike a cleric, an adept cannot spontaneously cast *cure* or *inflict* spells.",
+			"**Spells:** An adept casts divine spells, which are drawn from the [adept spell list](main/spells_adept). Like a cleric, an adept must choose and prepare her spells in advance. Unlike a cleric, an adept cannot spontaneously cast *cure* or *inflict* spells.",
 			"",
 			"To prepare or cast a spell, an adept must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against an adept's spell is 10 + the spell level + the adept's Wisdom modifier.",
 			"",
@@ -68,7 +68,7 @@
 			"",
 			"Each adept has a particular holy symbol (as a divine focus) depending on the adept's magical tradition.",
 			"",
-			"**Summon Familiar**: At 2nd level, an adept can call a familiar, just as a wizard can using the arcane bond ability."
+			"**Summon Familiar:** At 2nd level, an adept can call a familiar, just as a wizard can using the arcane bond ability."
 		]
 	},
 	"aristocrat": {
@@ -82,13 +82,13 @@
 			"",
 			"{SOURCE PRPG Core Rulebook/449}",
 			"",
-			"**Hit Die**: d8.",
+			"**Hit Die:** d8.",
 			"",
 			"### Class Skills",
 			"",
 			"The Aristocrat's class skills are Appraise (Int), Bluff (Cha), Craft (Int), Diplomacy (Cha), Disguise (Cha), Handle Animal (Cha), Intimidate (Cha), Knowledge (all skills taken individually) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Ride (Dex), Sense Motive (Wis), Swim (Str), and Survival (Wis).",
 			"",
-			"**Skill Points at each Level**: 4 + Int modifier.",
+			"**Skill Points at each Level:** 4 + Int modifier.",
 			"",
 			"### Class Features",
 			"",
@@ -115,7 +115,7 @@
 			"| 19th | +14/+9/+4 | +6 | +6 | +11 | - |",
 			"| 20th | +15/+10/+5 | +6 | +6 | +12 | - |",
 			"",
-			"**Weapon and Armor Proficiency**: The aristocrat is proficient in the use of all simple and martial weapons and with all types of armor and shields."
+			"**Weapon and Armor Proficiency:** The aristocrat is proficient in the use of all simple and martial weapons and with all types of armor and shields."
 		]
 	},
 	"commoner": {
@@ -129,13 +129,13 @@
 			"",
 			"{SOURCE PRPG Core Rulebook/449}",
 			"",
-			"**Hit Die**: d6.",
+			"**Hit Die:** d6.",
 			"",
 			"### Class Skills",
 			"",
 			"The Commoner's class skills are Climb (Str), Craft (Int), Handle Animal (Cha), Perception (Wis), Profession (Wis), Ride (Dex), and Swim (Str).",
 			"",
-			"**Skill Points at each Level**: 2 + Int modifier.",
+			"**Skill Points at each Level:** 2 + Int modifier.",
 			"",
 			"### Class Features",
 			"",
@@ -162,7 +162,7 @@
 			"| 19th | +9/+4 | +6 | +6 | +6 | - |",
 			"| 20th | +10/+5 | +6 | +6 | +6 | - |",
 			"",
-			"**Weapon and Armor Proficiency**: The commoner is proficient with one simple weapon. He is not proficient with any other weapons, nor is he proficient with any type of armor or shield."
+			"**Weapon and Armor Proficiency:** The commoner is proficient with one simple weapon. He is not proficient with any other weapons, nor is he proficient with any type of armor or shield."
 		]
 	},
 	"expert": {
@@ -176,13 +176,13 @@
 			"",
 			"{SOURCE PRPG Core Rulebook/450}",
 			"",
-			"**Hit Die**: d8.",
+			"**Hit Die:** d8.",
 			"",
 			"### Class Skills",
 			"",
 			"The Expert's class skills are any 10 skills.",
 			"",
-			"**Skill Points at each Level**: 6 + Int modifier.",
+			"**Skill Points at each Level:** 6 + Int modifier.",
 			"",
 			"### Class Features",
 			"",
@@ -209,7 +209,7 @@
 			"| 19th | +14/+9/+4 | +6 | +6 | +11 | - |",
 			"| 20th | +15/+10/+5 | +6 | +6 | +12 | - |",
 			"",
-			"**Weapon and Armor Proficiency**: The expert is proficient in the use of all simple weapons and with light armor, but not with any type of shield."
+			"**Weapon and Armor Proficiency:** The expert is proficient in the use of all simple weapons and with light armor, but not with any type of shield."
 		]
 	},
 	"warrior": {
@@ -223,13 +223,13 @@
 			"",
 			"{SOURCE PRPG Core Rulebook/450}",
 			"",
-			"**Hit Die**: d10.",
+			"**Hit Die:** d10.",
 			"",
 			"### Class Skills",
 			"",
 			"The Warrior's class skills are Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Profession (Wis), Ride (Dex), and Swim (Str).",
 			"",
-			"**Skill Points at each Level**: 2 + Int modifier.",
+			"**Skill Points at each Level:** 2 + Int modifier.",
 			"",
 			"### Class Features",
 			"",
@@ -256,7 +256,7 @@
 			"| 19th | +19/+14/+9/+4 | +11 | +6 | +6 | - |",
 			"| 20th | +20/+15/+10/+5 | +12 | +6 | +6 | - |",
 			"",
-			"**Weapon and Armor Proficiency**: The warrior is proficient in the use of all simple and martial weapons and with all types of armor and shields."
+			"**Weapon and Armor Proficiency:** The warrior is proficient in the use of all simple and martial weapons and with all types of armor and shields."
 		]
 	}
 }
