@@ -217,7 +217,7 @@ const convertDescription = (desc, prefix, tables) => {
 	marked.use(gfmHeadingId({prefix}));
 	marked.use(renderer(flags, prefix));
 	const parsed = marked.parse(convertLinks(desc).join("\n"));
-	return [parsed, flags];
+	return [`<>${parsed}</>`, flags];
 };
 
 // Convert markdown code into HTML for main#.json description, updating `flags` to note the outside Tags being used
@@ -303,7 +303,7 @@ const createItem = (info, prop) => {
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
 	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
 	subhierarchy && (output = output + `, subhierarchy: ${JSON.stringify(subhierarchy)}`);
-	output = output + `, jsx: <>${description}</>};`;
+	output = output + `, jsx: ${description}};`;
 	return output;
 };
 

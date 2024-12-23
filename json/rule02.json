@@ -1912,7 +1912,7 @@
 					[ null, "99-100", "{magic-staff/Staff of Power}", 235000 ]		
 				],
 				"initialColumn": 0,
-				"className": "allcenter",
+				"className": "",
 				"ripples": [2],
 				"nullValue": "&mdash;",
 				"sortable": false
@@ -2168,7 +2168,7 @@
 				],
 				"ripples": [1],
 				"initialColumn": 0,
-				"className": "allcenter",
+				"className": "",
 				"sortable": false
 			}
 		]
@@ -2302,7 +2302,7 @@
 				],
 				"ripples": [1],
 				"initialColumn": 0,
-				"className": "allcenter",
+				"className": "",
 				"sortable": false
 			}
 		]
@@ -2436,7 +2436,7 @@
 				],
 				"ripples": [1],
 				"initialColumn": 0,
-				"className": "allcenter",
+				"className": "",
 				"sortable": false
 			}
 		]

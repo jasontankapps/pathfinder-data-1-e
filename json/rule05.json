@@ -3506,7 +3506,7 @@
 					[ "{curse/Werewolf Lycanthropy}", "Fortitude DC 15" ]		
 				],
 				"initialColumn": 0,
-				"className": "allcenter"
+				"className": ""
 			}
 		]
 	},
@@ -3588,7 +3588,7 @@
 					[ "{disease/Daemonic Wasting}", "DC 23" ]
 				],
 				"initialColumn": 1,
-				"className": "allcenter"
+				"className": ""
 			}
 		]
 	},
@@ -3630,7 +3630,7 @@
 					[ "{infestation/Thought Crawlers}", "16", "These parasitic worms live in cerebrospinal fluid, causing an escalating progression of debilitating neurological symptoms." ]
 				],
 				"initialColumn": 0,
-				"className": "allcenter"
+				"className": ""
 			}
 		]
 	},
