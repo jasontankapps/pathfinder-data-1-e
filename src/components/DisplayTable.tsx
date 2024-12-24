@@ -1,6 +1,32 @@
-import { AnchorHTMLAttributes, ClassAttributes, FC, PropsWithChildren, useCallback, useMemo, useState } from 'react';
-import { IonIcon, IonRippleEffect } from '@ionic/react';
-import { caretDown, caretUp, ellipse } from 'ionicons/icons';
+import {
+	AnchorHTMLAttributes,
+	ClassAttributes,
+	Dispatch,
+	FC,
+	PropsWithChildren,
+	useCallback,
+	useMemo,
+	useState
+} from 'react';
+import {
+	IonIcon,
+	IonRippleEffect,
+	IonModal,
+	IonHeader,
+	IonContent,
+	IonFooter,
+	IonToolbar,
+	IonButtons,
+	IonButton,
+	IonTitle,
+	IonLabel,
+	IonList,
+	IonItem,
+	IonItemDivider,
+	IonToggle,
+	useIonAlert
+} from '@ionic/react';
+import { caretDown, caretUp, ellipse, closeCircle, close, filter, refresh } from 'ionicons/icons';
 import Markdown, { ExtraProps } from 'react-markdown';
 import { useHistory } from 'react-router-dom';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
@@ -79,7 +105,7 @@ function getCheckableValue (item: RawDatum, nullish: string, fromArray: boolean 
 		{string: m[1].toLowerCase().replace(/[- ]/g, "_").replace(/[^a-z_0-9]/g, "") + " "}
 		:{string: item + " "};
 };
-const descendingSort = (a: RawDatum, b: RawDatum) => {
+const normalSort = (a: RawDatum, b: RawDatum) => {
 	// a, b, c...
 	const {string: xs, number: xn} = getCheckableValue(a, FINAL_CHAR);
 	const {string: ys, number: yn} = getCheckableValue(b, FINAL_CHAR);
@@ -92,9 +118,9 @@ const descendingSort = (a: RawDatum, b: RawDatum) => {
 	const y: string = ys || String(yn);
 	return x.localeCompare(y, 'en', { numeric: true });
 };
-const ascendingSort = (a: RawDatum, b: RawDatum) => {
+const reverseSort = (a: RawDatum, b: RawDatum) => {
 	// z, y, x...
-	return 0 - descendingSort(a, b);
+	return 0 - normalSort(a, b);
 };
 
 const DirectionIcon: FC<{down:boolean}> = ({down}) => {
@@ -201,7 +227,7 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum }) => {
 	const dispatch = useAppDispatch();
 	// datum will be either `{linkString}` or `[ sortableThing, {linkString} ]`
 	const linkString = Array.isArray(datum) ? datum[1] : datum;
-	const m = (typeof linkString === "string") ? linkString.match(/^\{([-a-z]+)\/(.+?)(?:\/(.+))?\}$/) : false;
+	const m = (typeof linkString === "string") ? linkString.match(/^\{([-a-z_]+)\/(.+?)(?:\/(.+))?\}$/) : false;
 	if(!m) {
 		return (
 			<td>LINK EXPECTED: {linkString}</td>
@@ -218,22 +244,253 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum }) => {
 	);
 };
 
+interface FilterProps {
+	originalHeaders: string[]
+	displayedHeaders: number[]
+	typings: TableColumnInfoTypes[]
+	originalRows: RawDatum[][]
+	displayedRows: number[] | null
+	active: number
+	setHeaders: Dispatch<number[]>
+	setTypes: Dispatch<TableColumnInfoTypes[]>
+	setActiveRows: Dispatch<number[] | null>
+	setActive: Dispatch<number>
+	open: boolean
+	setOpen: Dispatch<boolean>
+}
+
+const makeTestString = (input:boolean[]) => input.map(x => x ? "T" : "F").join("");
+
+const translateLink = (input: string) => {
+	const m = input.match(/^(?:\{[-a-z_]+\/|\[})(.+?)(?:\}|\]\([-a-z_]+\/[^)]+?\))$/);
+	return m ? m[1] : input;
+};
+
+const DisplayTableFilterModal: FC<FilterProps> = (props) => {
+	const {
+		originalHeaders: oh, // original headers
+		displayedHeaders: dh, // indexes of displayed headers
+		typings, // original types
+		originalRows, // original rows
+		displayedRows, // indexes of displayed rows (or null if all visible)
+		active, // current sort
+		setHeaders,
+		setTypes,
+		setActiveRows: setAcRow,
+		setActive,
+		open,
+		setOpen
+	} = props;
+	// Active Headers/Rows are arrays of true/false indicating if the element is visible or not
+	const [activeHeaders, setActiveHeaders] = useState<boolean[]>([]);
+	const [activeRows, setActiveRows] = useState<boolean[]>([]);
+	const [rowTitles, setRowTitles] = useState<string[]>([]);
+	const [testString, setTestString] = useState<string>("");
+	const [doAlert] = useIonAlert();
+	const originalHeaders = oh.slice(1);
+	const displayedHeaders = dh.slice(1);
+	const toggleAll = () => {
+		const which = !activeHeaders[0];
+		setActiveHeaders(originalHeaders.map(x => which));
+	};
+	const onLoad = useCallback(() => {
+		const finalHeaders: boolean[] = [];
+		// displayedHeaders will always be equal to or shorter than originalHeaders
+		originalHeaders.forEach((h, i) => {
+			finalHeaders.push(displayedHeaders.indexOf(i + 1) > -1);
+		});
+		setActiveHeaders(finalHeaders);
+		const finalRows: boolean[] = [];
+		const titles: string[] = [];
+		originalRows.forEach((r, i) => {
+			const title = r[0];
+			if(Array.isArray(title)) {
+				titles.push(translateLink(title[1]));
+			} else if (typeof title !== "string") {
+				titles.push(String(title));
+			} else {
+				titles.push(translateLink(title));
+			}
+			finalRows.push(displayedRows && (displayedRows.indexOf(i) > -1) ? true : false);
+		});
+		setRowTitles(titles);
+		setActiveRows(finalRows);
+		setTestString(makeTestString([...finalHeaders, ...finalRows]));
+	}, [
+		displayedHeaders,
+		originalHeaders,
+		originalRows,
+		displayedRows,
+		setRowTitles,
+		setActiveHeaders,
+		setActiveRows,
+		setTestString
+	]);
+	const toggleHeader = (i: number) => {
+		const newHeaders = [...activeHeaders];
+		newHeaders[i] = !newHeaders[i];
+		setActiveHeaders(newHeaders);
+	};
+	const toggleRow = (i: number) => {
+		const newRows = [...activeRows];
+		newRows[i] = !newRows[i];
+		setActiveRows(newRows);
+	};
+	const maybeCancel = () => {
+		if(testString === makeTestString([...activeHeaders, ...activeRows])) {
+			setOpen(false);
+		} else {
+			doAlert({
+				header: "Unsaved Work",
+				message: "Are you sure you want to close this without saving?",
+				buttons: [
+					{
+						text: "Cancel",
+						role: "cancel"
+					},
+					{
+						text: "Yes, Close",
+						role: "confirm",
+						handler: () => setOpen(false)
+					}
+				]
+			});
+		}
+	};
+	const doSave = () => {
+		if(testString === makeTestString([...activeHeaders, ...activeRows])) {
+			// Nothing to do.
+			setOpen(false);
+			return;
+		}
+		const newHeaders = [0];
+		const newTypes = [typings[0]];
+		originalHeaders.forEach((h, i) => {
+			if(activeHeaders[i]) {
+				newHeaders.push(i + 1);
+				newTypes.push(typings[i + 1])
+			}
+		});
+		const newRows = originalRows.filter((r, i) => activeRows[i]);
+		setHeaders(newHeaders);
+		setTypes(newTypes);
+		if(active && !activeHeaders[active - 1]) {
+			// The sorted header has gone away; reset to the first column and sort
+			setActive(0);
+			const newActive: [boolean, RawDatum[]][] = activeRows.map((r, i) => [r, newRows[i]]);
+			newActive.sort((a, b) => normalSort(a[1][0], b[1][0]));
+			const translatedRows = newActive.map((r, i) => r[0] ? i : -1).filter(r => r > -1);
+			setAcRow(translatedRows.length ? translatedRows : null);
+			newRows.sort((a, b) => normalSort(a[0], b[0]));
+		} else {
+			// Set active rows
+			const newActiveRows = activeRows.map((r, i) => r ? i : -1).filter(r => r > -1);
+			setAcRow(newActiveRows.length ? newActiveRows : null);
+		}
+		// Close
+		setOpen(false);
+	};
+	return (
+		<IonModal isOpen={open} onIonModalDidDismiss={() => setOpen(false)} onIonModalWillPresent={onLoad}>
+			<IonHeader>
+				<IonToolbar>
+					<IonTitle>Filter Table</IonTitle>
+					<IonButtons slot="end">
+						<IonButton onClick={maybeCancel}><IonIcon slot="icon-only" icon={closeCircle} /></IonButton>
+					</IonButtons>
+				</IonToolbar>
+			</IonHeader>
+			<IonContent>
+				<IonList lines="full">
+					<IonItem>
+						<IonLabel>Toggle all headers</IonLabel>
+						<IonButton slot="end" color="tertiary" onClick={toggleAll}>
+							<IonIcon slot="icon-only" icon={refresh} />
+						</IonButton>
+					</IonItem>
+					<IonItemDivider>Table Headers</IonItemDivider>
+					{originalHeaders.map((oh, i) => (
+						<IonItem key={`head${i}/-/${oh}`}>
+							<IonToggle
+								labelPlacement="start"
+								checked={activeHeaders[i]}
+								onIonChange={() => toggleHeader(i)}
+							>{oh}</IonToggle>
+						</IonItem>
+					))}
+					<IonItemDivider>Table Content</IonItemDivider>
+					<IonItem>
+						<IonLabel>
+							<p>Selected items will be shown in the table.</p>
+							<p>If no items are selected, <strong>all</strong> items are shown.</p>
+						</IonLabel>
+					</IonItem>
+					{rowTitles.map((rt, i) => (
+						<IonItem key={`row${i}/-/${rt}`}>
+							<IonToggle
+								labelPlacement="start"
+								checked={activeRows[i]}
+								onIonChange={() => toggleRow(i)}
+							>{rt}</IonToggle>
+						</IonItem>
+					))}
+				</IonList>
+			</IonContent>
+			<IonFooter>
+				<IonToolbar>
+					<IonButtons slot="start">
+						<IonButton onClick={maybeCancel} color="warning">
+							<IonLabel>Cancel</IonLabel>
+							<IonIcon slot="start" icon={close} />
+						</IonButton>
+					</IonButtons>
+					<IonButtons slot="end">
+						<IonButton onClick={doSave} color="success">
+							<IonLabel>Save</IonLabel>
+							<IonIcon slot="start" icon={filter} />
+						</IonButton>
+					</IonButtons>
+				</IonToolbar>
+			</IonFooter>
+		</IonModal>
+	);
+};
+
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
-	const { id, headers, types, data, initialColumn, className, nullValue = "&mdash;", ripples = [], sortable = true } = table;
+	const {
+		id,
+		headers,
+		types: typings,
+		data,
+		initialColumn,
+		className,
+		nullValue = "&mdash;",
+		ripples = [],
+		sortable = true
+	} = table;
+	const [activeHeaders, setActiveHeaders] = useState<number[]>(headers.map((h, i) => i));
+	const [types, setTypes] = useState(typings);
 	const [rows, setRows] = useState(data);
 	const [active, setActive] = useState(initialColumn);
+	const [activeRows, setActiveRows] = useState<number[] | null>(null);
+	const [open, setOpen] = useState(false);
 	const sorter: TriggerSortFunc = useCallback((index, isDescending) => {
 		// sorter(index: number, isDescending: boolean)
 		//   Returns the boolean opposite of isDescending
 		// This function reorganizes the rows and sets the 'active' column
 		const newRows = [...rows];
 		const normal = (active !== index) || isDescending;
-		const sortfunc = normal ? descendingSort : ascendingSort;
+		const sortfunc = normal ? normalSort : reverseSort;
+		if(activeRows) {
+			const newActive: [number, RawDatum[]][] = activeRows.map((r, i) => [r, newRows[i]]);
+			newActive.sort((a, b) => sortfunc(a[1][index], b[1][index]));
+			setActiveRows(newActive.map(a => a[0]));
+		}
 		newRows.sort((a, b) => sortfunc(a[index], b[index]));
 		setActive(index);
 		setRows(newRows);
 		return normal;
-	}, [rows, setRows, active, setActive]);
+	}, [rows, setRows, active, activeRows, setActive]);
 	const headerItems = useMemo(() => headers.map((th, i) => {
 		return <Th
 			key={`table/${id}/header/${i}`}
@@ -243,34 +500,60 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			sorter={sorter}
 			sortable={sortable && (types[i] !== 0)}
 		>{th}</Th>;
-	}), [headers, id, initialColumn, sorter, active]);
-	const rowItems = useMemo(() => rows.map((row, i) => {
-		const cells = row.map((cell, j) => {
-			return (ripples.indexOf(j) > -1) ?
-				<TdRouterLink
-					datum={cell === null ? nullValue : cell}
-					key={`table/${id}/row/${i}/cell/${j}`}
-				/>
-			:
-				<Td
-					type={types[j]}
-					datum={cell === null ? nullValue : cell}
-					key={`table/${id}/row/${i}/cell/${j}`}
-				/>;
+	}).filter((h, i) => (activeHeaders.indexOf(i) > -1)), [headers, activeHeaders, id, initialColumn, sorter, active, types, sortable]);
+	const rowItems = useMemo(() => {
+		const visible = (activeRows) ? activeRows.map(n => rows[n]) : rows;
+		return visible.map((row, i) => {
+			const cells = row.filter((cell, j) => activeHeaders.indexOf(j) > -1).map((cell, j) => {
+				const adjustedI = activeHeaders[j];
+				return (ripples.indexOf(adjustedI) > -1) ?
+					<TdRouterLink
+						datum={cell === null ? nullValue : cell}
+						key={`table/${id}/row/${i}/cell/${adjustedI}`}
+					/>
+				:
+					<Td
+						type={types[adjustedI]}
+						datum={cell === null ? nullValue : cell}
+						key={`table/${id}/row/${i}/cell/${adjustedI}`}
+					/>;
+			});
+			return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
 		});
-		return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
-	}), [rows, types, nullValue, id, ripples]);
+	}, [activeRows, activeHeaders, rows, types, nullValue, id, ripples]);
+	const theFilterStuff = (data.length < 10 || headers.length <= 3) ? <></> : <>
+		<DisplayTableFilterModal
+			originalHeaders={headers}
+			displayedHeaders={activeHeaders}
+			typings={typings}
+			originalRows={rows}
+			displayedRows={activeRows}
+			active={active}
+			setHeaders={setActiveHeaders}
+			setTypes={setTypes}
+			setActiveRows={setActiveRows}
+			setActive={setActive}
+			open={open}
+			setOpen={setOpen}
+		/>
+		<IonButton className="tableFilterButton" color="tertiary" size="small" shape="round" fill="outline" onClick={() => setOpen(true)}>
+			<IonIcon slot="icon-only" icon={filter} />
+		</IonButton>
+	</>;
 	return (
-		<div className="tableWrap">
-			<table key={`table/${id}`} className={className}>
-				<thead>
-					<tr>{headerItems}</tr>
-				</thead>
-				<tbody>
-					{rowItems}
-				</tbody>
-			</table>
-		</div>
+		<>
+			{theFilterStuff}
+			<div className="tableWrap">
+				<table key={`table/${id}`} className={className}>
+					<thead>
+						<tr>{headerItems}</tr>
+					</thead>
+					<tbody>
+						{rowItems}
+					</tbody>
+				</table>
+			</div>
+		</>
 	);
 };
 

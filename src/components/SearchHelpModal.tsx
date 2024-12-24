@@ -18,7 +18,7 @@ interface PageProps {
 	setOpen: React.Dispatch<React.SetStateAction<boolean>>
 }
 
-const PageFooter: React.FC<PageProps> = ({open, setOpen}) => {
+const SearchHelpModal: React.FC<PageProps> = ({open, setOpen}) => {
 	return (
 		<IonModal isOpen={open} onIonModalDidDismiss={() => setOpen(false)}>
 			<IonHeader>
@@ -97,7 +97,7 @@ const PageFooter: React.FC<PageProps> = ({open, setOpen}) => {
 	);
 };
 
-export default PageFooter;/*
+export default SearchHelpModal;/*
 
 jscript fuzzy-match Items that fuzzy match jscript
 =scheme exact-match Items that are scheme

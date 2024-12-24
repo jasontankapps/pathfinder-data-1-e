@@ -311,6 +311,11 @@ div.basicContent ion-list ion-item.mainItem.singleTable {
 
 /* General tables */
 
+ion-button.tableFilterButton {
+	float: inline-end;
+	font-size: 0.65rem;
+}
+
 div.tableWrap {
 	overflow-x: auto;
 	width: 100%;
