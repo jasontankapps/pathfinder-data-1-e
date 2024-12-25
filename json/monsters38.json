@@ -4023,10 +4023,10 @@
 			"| Gem | Typical Value | Effect |",
 			"| --- | --- | --- |",
 			"| Beryl | 25 gp | Gem gaze causes the sickened condition. |",
-			"| Diamond | 1,500 gp | Gem gaze causes a charm monster effect that lasts for 1 hour. |",
-			"| Jade | 50 gp | Cast poison as a spell-like ability 3/day. |",
-			"| Opal | 100 gp | Cast stone shape as a spell-like ability 3/day. |",
-			"| Painite | 1,750 gp | Erupts in a 8d6 fireball dealing acid damage if thrown. |"
+			"| Diamond | 1,500 gp | Gem gaze causes a {spell/charm monster} effect that lasts for 1 hour. |",
+			"| Jade | 50 gp | Cast {spell/poison} as a spell-like ability 3/day. |",
+			"| Opal | 100 gp | Cast {spell/stone shape} as a spell-like ability 3/day. |",
+			"| Painite | 1,750 gp | Erupts in a 8d6 {spell/fireball} dealing acid damage if thrown. |"
 		]
 	}
 }

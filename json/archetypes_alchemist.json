@@ -908,7 +908,7 @@
 			"",
 			"This replaces the discovery gained at 4th level.",
 			"",
-			"**Fury of Nature (Sp):** At 14th level, a horticulturist's connection with nature allows him to bring down nature's fury on his opponents. He can cast one of the following spells, chosen at the time of casting, once per day as a spell-like ability: call lightning storm, eagle aerie, or liveoak.",
+			"**Fury of Nature (Sp):** At 14th level, a horticulturist's connection with nature allows him to bring down nature's fury on his opponents. He can cast one of the following spells, chosen at the time of casting, once per day as a spell-like ability: {spell/call lightning storm}, {spell/eagle aerie}, or {spell/liveoak}.",
 			"",
 			"This replaces persistent mutagen."
 		]

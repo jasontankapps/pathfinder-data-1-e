@@ -114,7 +114,7 @@
 			"",
 			"**Evolve Base Form (Su):** Starting at 8th level, whenever he gains a level, the evolutionist can change his eidolon's base form to a new base form. Once chosen, this base form is set until the evolutionist gains another summoner level. This ability replaces transposition.",
 			"",
-			"**Transmogrify (Sp):** At 12th level, the evolutionist can cast transmogrify as a spell-like ability once per day without the need for a material component. This ability has a casting time of 1 minute. This ability replaces greater shield ally."
+			"**Transmogrify (Sp):** At 12th level, the evolutionist can cast {spell/transmogrify} as a spell-like ability once per day without the need for a material component. This ability has a casting time of 1 minute. This ability replaces greater shield ally."
 		]
 	},
 	"first_worlder": {
@@ -126,7 +126,7 @@
 			"{SOURCE Inner Sea Magic/35}  ",
 			"Most summoners have a close connection to creatures from the farthest reaches of the planes. A few have a primal connection to nature, and their power is tied to the First World. It is not unusual for these summoners to associate with druids, for like druids, first worlders have a powerful tie to the natural world. Some first worlders are driven half-mad by the strange energies and intelligences that seep into their minds and bodies, though, and these poor souls are prone to lash out at loggers, druids, or innocent passersby without considering whether or not they are threats. A first worlder's eidolon usually resembles a fey creature or a plant monster, though some are fantastic otherworldly animals with exaggerated features. A first worlder has the following class features.",
 			"",
-			"**Summon Nature's Ally (Sp):** Starting at 1st level, a first worlder can cast summon nature's ally a number of times per day equal to 3 + his Charisma modifier. At levels where a summoner would gain a more powerful summon monster spell as a spell-like ability, he instead gains the equivalent summon nature's ally spell (at 19th level, he can use summon nature's ally IX or gate). When a first worlder gains a summon nature's ally spell as a spell-like ability, he adds it to his class spell list (he must still select it as a spell known if he wants to cast it as an actual spell). This ability otherwise replaces the summon monster ability of a normal summoner.",
+			"**Summon Nature's Ally (Sp):** Starting at 1st level, a first worlder can cast {spell/summon nature's ally>_1} a number of times per day equal to 3 + his Charisma modifier. At levels where a summoner would gain a more powerful summon monster spell as a spell-like ability, he instead gains the equivalent summon nature's ally spell (at 19th level, he can use summon nature's ally IX or gate). When a first worlder gains a summon nature's ally spell as a spell-like ability, he adds it to his class spell list (he must still select it as a spell known if he wants to cast it as an actual spell). This ability otherwise replaces the summon monster ability of a normal summoner.",
 			"",
 			"**Fey Summons (Su):** At 3rd level, a first worlder adds the following creatures to the lists of what he can summon with his summon nature's ally spell-like ability:",
 			"",
@@ -168,7 +168,7 @@
 			"",
 			"This ability alters the summoner's class skills.",
 			"",
-			"**Guidance (Sp):** A god caller's eidolon has a tiny spark of divinity. It can use guidance as a spell-like ability at will. However, the eidolon and the god caller must remain within 50 feet of one another for the eidolon to remain at full strength. If the eidolon is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by half.",
+			"**Guidance (Sp):** A god caller's eidolon has a tiny spark of divinity. It can use {spell/guidance} as a spell-like ability at will. However, the eidolon and the god caller must remain within 50 feet of one another for the eidolon to remain at full strength. If the eidolon is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by half.",
 			"",
 			"This ability alters life link.",
 			"",
@@ -218,7 +218,7 @@
 			"",
 			"This alters the summoner's eidolon.",
 			"",
-			"**Summon Nature's Ally (Sp):** A leshy caller can cast summon nature's ally as a spell-like ability a number of times per day equal to 3 + her Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the leshy caller instead gains the equivalent summon nature's ally spell; at 19th level, she can cast summon nature's ally IX or gate. When a leshy caller gains a summon nature's ally spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds leaf leshys, gourd leshys, fungus leshys, seaweed leshys, and lotus leshys to her list of creatures for summon nature's ally I, II, III, IV, and V, respectively.",
+			"**Summon Nature's Ally (Sp):** A leshy caller can cast {spell/summon nature's ally>_1} as a spell-like ability a number of times per day equal to 3 + her Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the leshy caller instead gains the equivalent summon nature's ally spell; at 19th level, she can cast {spell/summon nature's ally IX} or {spell/gate}. When a leshy caller gains a summon nature's ally spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds leaf leshys, gourd leshys, fungus leshys, seaweed leshys, and lotus leshys to her list of creatures for summon nature's ally I, II, III, IV, and V, respectively.",
 			"",
 			"This alters summon monster."
 		]
@@ -234,7 +234,7 @@
 			"",
 			"**Lesser Eidolon:** A master summoner's class level is halved (minimum 1) for the purposes of determining his eidolon's abilities, Hit Dice, evolution pool, and so on. The eidolon otherwise functions as normal. This ability replaces the summoner's normal eidolon ability.",
 			"",
-			"**Summoning Mastery (Sp):** Starting at 1st level, a master summoner can cast summon monster I as a spell-like ability a number of times per day equal to 5 + his Charisma modifier. The summoner can use this ability when his eidolon is summoned. Only one summon monster spell may be in effect while the eidolon is summoned. If the summoner's eidolon is not summoned, the number of creatures that can be summoned with this ability is only limited by its uses per day. This ability otherwise functions as the summoner's normal summon monster I ability. Other than these restrictions, there is no limit to how many summon monster or gate spells the summoner can have active at one time. This ability replaces the summoner's normal summon monster I ability and shield ally.",
+			"**Summoning Mastery (Sp):** Starting at 1st level, a master summoner can cast {spell/summon monster I} as a spell-like ability a number of times per day equal to 5 + his Charisma modifier. The summoner can use this ability when his eidolon is summoned. Only one summon monster spell may be in effect while the eidolon is summoned. If the summoner's eidolon is not summoned, the number of creatures that can be summoned with this ability is only limited by its uses per day. This ability otherwise functions as the summoner's normal summon monster I ability. Other than these restrictions, there is no limit to how many summon monster or {spell/gate} spells the summoner can have active at one time. This ability replaces the summoner's normal summon monster I ability and shield ally.",
 			"",
 			"**Augment Summoning:** At 2nd level, a master summoner gains Augment Summoning as a bonus feat. He does not have to meet any requirements for this feat. This ability replaces bond senses.",
 			"",
@@ -370,7 +370,7 @@
 			"",
 			"**Stone Curse (Su):** At 18th level, a shaitan binder may select stone curse as a 4-point evolution. This allows the eidolon to trap creatures in stone like the shaitan stone curse ability. The DC to resist or break free of the stone curse is 10 + 1/2 the eidolon's Hit Dice + the eidolon's Strength score. This ability replaces greater aspect.",
 			"",
-			"**Noble Eidolon (Sp):** At 20th level, a shaitan binder's eidolon gains the ability to grant its summoner's wishes. Once per day, the eidolon can cast limited wish as a spell-like ability. The eidolon's caster level is equal to its level. The wish must be spoken aloud by the shaitan binder, beginning with the words \"I wish,\" and cannot duplicate a wish the eidolon has granted within the past 24 hours. If the eidolon uses this ability to duplicate a spell with a costly material component, the shaitan binder must provide that component. This ability replaces twin eidolon."
+			"**Noble Eidolon (Sp):** At 20th level, a shaitan binder's eidolon gains the ability to grant its summoner's wishes. Once per day, the eidolon can cast {spell/limited wish} as a spell-like ability. The eidolon's caster level is equal to its level. The wish must be spoken aloud by the shaitan binder, beginning with the words \"I wish,\" and cannot duplicate a wish the eidolon has granted within the past 24 hours. If the eidolon uses this ability to duplicate a spell with a costly material component, the shaitan binder must provide that component. This ability replaces twin eidolon."
 		]
 	},
 	"spirit_summoner": {
@@ -548,7 +548,7 @@
 			"",
 			"This ability alters the normal summoner's eidolon class feature, but is otherwise identical to that class feature.",
 			"",
-			"**Summon Nature's Ally I (Sp):** Starting at 1st level, a wild caller can cast summon nature's ally a number of times per day equal to 3 + his Charisma modifier. At 3rd level and every 2 levels thereafter, the power of this ability increases by one spell level, allowing him to summon more powerful creatures (to a maximum of summon nature's ally IX at 17th level). Furthermore, at 19th level, the wild caller cannot use gate as a spell-like ability, but can use either summon elder worm or summon froghemoth instead. This ability otherwise functions like the standard summoner's summon monster I ability and replaces that ability."
+			"**Summon Nature's Ally I (Sp):** Starting at 1st level, a wild caller can cast summon nature's ally a number of times per day equal to 3 + his Charisma modifier. At 3rd level and every 2 levels thereafter, the power of this ability increases by one spell level, allowing him to summon more powerful creatures (to a maximum of summon nature's ally IX at 17th level). Furthermore, at 19th level, the wild caller cannot use *gate* as a spell-like ability, but can use either {spell/summon elder worm} or {spell/summon froghemoth} instead. This ability otherwise functions like the standard summoner's summon monster I ability and replaces that ability."
 		]
 	},
 	"wild_caller_hotw": {
@@ -578,7 +578,7 @@
 			"",
 			"This ability alters the summoner's eidolon.",
 			"",
-			"**Summon Nature's Ally (Sp):** A wild caller can cast summon nature's ally as a spell-like ability a number of times per day equal to 3 + his Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the wild caller instead gains the equivalent summon nature's ally spell; at 19th level, he can use summon nature's ally IX or gate. When a wild caller gains a summon nature's ally spell as a spell-like ability, he adds it to his class spell list (though he must still select it as a spell known if he wants to gain the ability to cast it as a normal spell). This ability alters the summon monster ability.",
+			"**Summon Nature's Ally (Sp):** A wild caller can cast {spell/summon nature's ally>_1} as a spell-like ability a number of times per day equal to 3 + his Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the wild caller instead gains the equivalent summon nature's ally spell; at 19th level, he can use {spell/summon nature's ally IX} or {spell/gate}. When a wild caller gains a summon nature's ally spell as a spell-like ability, he adds it to his class spell list (though he must still select it as a spell known if he wants to gain the ability to cast it as a normal spell). This ability alters the summon monster ability.",
 			"",
 			"**Fey Friend (Ex):** At 10th level, the wild caller gains a +4 bonus on Bluff, Diplomacy, and Sense Motive checks against fey. This ability replaces aspect, which is instead gained at 18th level in place of greater aspect."
 		]

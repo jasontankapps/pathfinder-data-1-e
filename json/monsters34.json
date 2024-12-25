@@ -1621,13 +1621,13 @@
 			"",
 			"When a jinushigami becomes this powerful, it is known as an elder jinushigami. An elder jinushigami is generally a Colossal creature, and rarely has fewer than 28 Hit Dice-most are between CR 22 and CR 25, although exact details vary. An elder jinushigami's ward can cover a much larger area than that of a typical jinushigami, usually with a radius of 1 mile per CR possessed by the elder jinushigami. An elder jinushigami also gains additional spell-like abilities to more closely reflect its role in the world. Listed below are several examples.",
 			"",
-			"Glacier Kami: An elder jinushigami associated with a vast glacier, be it one that carves mountains or runs along a polar coastline, appears as a humanoid made of blocks of ice. These kami have the cold subtype instead of the earth subtype (and thus gain immunity to cold and vulnerability to fire), and can use cone of cold and wall of ice as spell-like abilities three times per day each.",
+			"**Glacier Kami:** An elder jinushigami associated with a vast glacier, be it one that carves mountains or runs along a polar coastline, appears as a humanoid made of blocks of ice. These kami have the cold subtype instead of the earth subtype (and thus gain immunity to cold and vulnerability to fire), and can use {spell/cone of cold} and {spell/wall of ice} as spell-like abilities three times per day each.",
 			"",
-			"Great Reef Kami: An elder jinushigami whose domain contains a sizable coral reef of considerable age appears as a humanoid constructed of living coral draped with seaweed. Great reef kami have the water subtype instead of the earth subtype, gain the aquatic subtype (and the amphibious special quality), gain a swim speed of 60 ft., and gain the ability to use tsunami once per day as a spell-like ability.",
+			"**Great Reef Kami:** An elder jinushigami whose domain contains a sizable coral reef of considerable age appears as a humanoid constructed of living coral draped with seaweed. Great reef kami have the water subtype instead of the earth subtype, gain the aquatic subtype (and the amphibious special quality), gain a swim speed of 60 ft., and gain the ability to use {spell/tsunami} once per day as a spell-like ability.",
 			"",
-			"Mountain Kami: When an elder jinushigami's ward includes the tallest peak in a range or region, it gains the use of flesh to stone and wall of stone three times per day each.",
+			"**Mountain Kami:** When an elder jinushigami's ward includes the tallest peak in a range or region, it gains the use of {spell/flesh to stone} and {spell/wall of stone} three times per day each.",
 			"",
-			"Volcano Kami: An elder jinushigami that includes in its ward an active volcano appears as a humanoid made of equal parts molten rock and solid stone. A volcano kami has the fire subtype instead of the earth subtype (and thus gains immunity to fire and vulnerability to cold), can use fireball three times per day as a spell-like ability, and can use wall of lava once per day as a spell-like ability.",
+			"**Volcano Kami:** An elder jinushigami that includes in its ward an active volcano appears as a humanoid made of equal parts molten rock and solid stone. A volcano kami has the fire subtype instead of the earth subtype (and thus gains immunity to fire and vulnerability to cold), can use {spell/fireball} three times per day as a spell-like ability, and can use {spell/wall of lava} once per day as a spell-like ability.",
 			"",
 			"**Family:** {family/Kami}"
 		]

@@ -1590,7 +1590,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Detect Thoughts (Su)** A rakshasa can detect thoughts as the spell (CL 18th). It can suppress or resume this ability as a free action. When a rakshasa uses this ability, it always functions as if it had spent 3 rounds concentrating and thus gains the maximum amount of information possible. A creature can resist this effect with a successful DC 20 Will save. The save DC is Charisma-based.",
+			"**Detect Thoughts (Su)** A rakshasa can {spell/detect thoughts} as the spell (CL 18th). It can suppress or resume this ability as a free action. When a rakshasa uses this ability, it always functions as if it had spent 3 rounds concentrating and thus gains the maximum amount of information possible. A creature can resist this effect with a successful DC 20 Will save. The save DC is Charisma-based.",
 			"",
 			"**Modify Memory (Sp)** A mythic rakshasa can expend one use of mythic power as a swift action to modify the memory of a creature whose mind it is reading, as the modify memory spell (CL 18th). The creature can resist with a successful DC 20 Will save. The save DC is Charisma-based.",
 			"",

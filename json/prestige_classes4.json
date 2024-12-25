@@ -75,7 +75,7 @@
 			"",
 			"**Infernal Transport (Sp):** At 6th level, a diabolist can transport herself through Hell in a burst of flames. She can use this ability twice per day as per dimension door, or she can expend both uses to travel as per teleport. She cannot use this ability to enter or leave areas warded against evil creatures.",
 			"",
-			"**Hellfire Ray (Sp):** At 8th level, a diabolist can cast hellfire ray twice per day as a spell-like ability.",
+			"**Hellfire Ray (Sp):** At 8th level, a diabolist can cast {spell/hellfire ray} twice per day as a spell-like ability.",
 			"",
 			"**Master Conjurer (Ex):** At 10th level, when a diabolist calls a devil whose name she knows, she can cast the calling spell as a standard action and bargain with the devil as a move action. She adds half her Bluff, Diplomacy, or Intimidate modifier to the bargaining Charisma check (if any)."
 		]
@@ -1453,7 +1453,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** A Pure Legion enforcer is proficient with all simple weapons, plus the falchion, scimitar, and shortbow. Pure Legion enforcers are proficient with all light and medium armor and shields (except tower shields).",
 			"",
-			"**Aura Sense (Sp):** A Pure Legion enforcer can cast {spell/detect chaos}/evil/good/law at will as a spell-like ability, though he can detect only auras of moderate or higher power. He can detect only one type of aura at any given time.",
+			"**Aura Sense (Sp):** A Pure Legion enforcer can cast [detect chaos/evil/good/law](spell/detect_evil) at will as a spell-like ability, though he can detect only auras of moderate or higher power. He can detect only one type of aura at any given time.",
 			"",
 			"**Nonbeliever (Su):** A Pure Legion enforcer gains a bonus equal to 1/2 his class level (minimum +1) on saving throws against divine spells and spell-like abilities granted by a divine spellcasting class. The enforcer must always attempt a saving throw against the effects of beneficial divine magic.",
 			"",

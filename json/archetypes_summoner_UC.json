@@ -104,13 +104,13 @@
 			"",
 			"At 4th level, fey eidolons gain woodland stride (as the druid ability).",
 			"",
-			"At 8th level, fey eidolons gain the ability to use either charm person, entangle, grease, silent image, obscuring mist, or vanish as a spell-like ability three times per day, and they can select an additional spell-like ability from the 1st-level list.",
+			"At 8th level, fey eidolons gain the ability to use either {spell/charm person}, {spell/entangle}, {spell/grease}, {spell/silent image}, {spell/obscuring mist}, or {spell/vanish} as a spell-like ability three times per day, and they can select an additional spell-like ability from the 1st-level list.",
 			"",
 			"At 12th level, fey eidolons gain DR 5/cold iron. They also grow gossamer wings, gaining the flight evolution.",
 			"",
-			"At 16th level, fey eidolons gain the ability to use either blindness/deafness, detect thoughts, glitterdust, hideous laughter, invisibility (self only), minor image, mirror image, or tongues as a spell-like ability three times per day. They also can select an additional spell-like ability from the 1st-level list or the 8th-level list.",
+			"At 16th level, fey eidolons gain the ability to use either {spell/blindness//deafness}, {spell/detect thoughts}, {spell/glitterdust}, {spell/hideous laughter}, {spell/invisibility} (self only), {spell/minor image}, {spell/mirror image}, or {spell/tongues} as a spell-like ability three times per day. They also can select an additional spell-like ability from the 1st-level list or the 8th-level list.",
 			"",
-			"At 20th level, fey eidolons increase their DR to DR 10/cold iron. They gain the ability to use either mass suggestion, mislead, programmed image, or veil as a spell-like ability once per day. They also can select an additional spell-like ability from the 1st-level list, the 8th-level list, or the 16th-level list."
+			"At 20th level, fey eidolons increase their DR to DR 10/cold iron. They gain the ability to use either {spell/mass suggestion}, {spell/mislead}, {spell/programmed image}, or {spell/veil} as a spell-like ability once per day. They also can select an additional spell-like ability from the 1st-level list, the 8th-level list, or the 16th-level list."
 		]
 	},
 	"god_caller": {
@@ -126,7 +126,7 @@
 			"",
 			"This ability alters the summoner's class skills.",
 			"",
-			"**Guidance (Sp):** A god caller's eidolon has a tiny spark of divinity. It can use guidance as a spell-like ability at will. However, the eidolon and the god caller must remain within 50 feet of one another for the eidolon to remain at full strength. If the eidolon is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by half.",
+			"**Guidance (Sp):** A god caller's eidolon has a tiny spark of divinity. It can use {spell/guidance} as a spell-like ability at will. However, the eidolon and the god caller must remain within 50 feet of one another for the eidolon to remain at full strength. If the eidolon is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by half.",
 			"",
 			"This ability alters life link.",
 			"",
@@ -176,7 +176,7 @@
 			"",
 			"This alters the summoner's eidolon.",
 			"",
-			"**Summon Nature's Ally (Sp):** A leshy caller can cast summon nature's ally as a spell-like ability a number of times per day equal to 3 + her Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the leshy caller instead gains the equivalent summon nature's ally spell; at 19th level, she can cast summon nature's ally IX or gate. When a leshy caller gains a summon nature's ally spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds leaf leshys, gourd leshys, fungus leshys, seaweed leshys, and lotus leshys to her list of creatures for summon nature's ally I, II, III, IV, and V, respectively.",
+			"**Summon Nature's Ally (Sp):** A leshy caller can cast {spell/summon nature's ally>_1} as a spell-like ability a number of times per day equal to 3 + her Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the leshy caller instead gains the equivalent summon nature's ally spell; at 19th level, she can cast {spell/summon nature's ally IX} or {spell/gate}. When a leshy caller gains a summon nature's ally spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds leaf leshys, gourd leshys, fungus leshys, seaweed leshys, and lotus leshys to her list of creatures for summon nature's ally I, II, III, IV, and V, respectively.",
 			"",
 			"This alters summon monster."
 		]
@@ -200,7 +200,7 @@
 			"",
 			"This alters life link.",
 			"",
-			"**Weakened Summoning:** A soulbound summoner's eidolon is usually the result of unintended magic, trauma, or a singular pact, instead of rigorous arcane study. Soulbound summoners do not gain the ability to cast the [summon monster](spell/summon_monster_1) or {spell/gate} spells as a spell-like ability.",
+			"**Weakened Summoning:** A soulbound summoner's eidolon is usually the result of unintended magic, trauma, or a singular pact, instead of rigorous arcane study. Soulbound summoners do not gain the ability to cast the {spell/summon monster>_1} or {spell/gate} spells as a spell-like ability.",
 			"",
 			"**Soulbound Evolution:** A soulbound summoner's eidolon gains power from its unusually strong bond with its summoner. At 3rd level, and again at 5th, 7th, and 9th level, the eidolon adds 1 point to its evolution pool. At 11th level, and again at 15th, 17th, and 19th level, the eidolon adds 2 points to its evolution pool. At 7th level, the eidolon can select evolutions even if it does not meet the subtype requirements for that evolution.",
 			"",

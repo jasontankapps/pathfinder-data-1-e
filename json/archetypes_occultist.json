@@ -120,7 +120,7 @@
 			"",
 			"This alters mental focus, implements, and shift focus.",
 			"",
-			"**Symbolism (Sp):** At 5th level, an initiate who spends 1 minute carefully studying any written work can understand its gist even if he doesn't speak the language in which the text is written. A number of times per day equal to the initiate's occultist level, the initiate can cast comprehend languages as a spell-like ability to read a written work, using his occultist level as his caster level. If he uses symbolism to read a portion of the work that contains a hidden message or a cypher, he is automatically granted a Linguistics check with a bonus equal to his occultist level to decipher the message.",
+			"**Symbolism (Sp):** At 5th level, an initiate who spends 1 minute carefully studying any written work can understand its gist even if he doesn't speak the language in which the text is written. A number of times per day equal to the initiate's occultist level, the initiate can cast {spell/comprehend languages} as a spell-like ability to read a written work, using his occultist level as his caster level. If he uses symbolism to read a portion of the work that contains a hidden message or a cypher, he is automatically granted a Linguistics check with a bonus equal to his occultist level to decipher the message.",
 			"",
 			"This replaces aura sight."
 		]
@@ -270,11 +270,11 @@
 			"",
 			"This alters mental focus and replaces magic circles and fast circles.",
 			"",
-			"**Tree Talker (Sp):** At 8th level, a naturalist can cast speak with plants three times per day as a spell-like ability with a caster level equal to his occultist level. In addition, when the naturalist uses this power, he can whisper a message of 25 or fewer words to the surrounding plant life and designate a creature with which he is familiar. The next time that creature is on the same plane of existence and in an area of similar vegetation, it receives the message.",
+			"**Tree Talker (Sp):** At 8th level, a naturalist can cast {spell/speak with plants} three times per day as a spell-like ability with a caster level equal to his occultist level. In addition, when the naturalist uses this power, he can whisper a message of 25 or fewer words to the surrounding plant life and designate a creature with which he is familiar. The next time that creature is on the same plane of existence and in an area of similar vegetation, it receives the message.",
 			"",
 			"This replaces outside contact.",
 			"",
-			"**Reflect on the Land (Sp):** At 12th level, a naturalist can cast commune with nature once per day as a spell-like ability with a caster level equal to his occultist level.",
+			"**Reflect on the Land (Sp):** At 12th level, a naturalist can cast {spell/commune with nature} once per day as a spell-like ability with a caster level equal to his occultist level.",
 			"",
 			"This replaces binding circles."
 		]
@@ -404,7 +404,7 @@
 			"",
 			"This ability replaces object reading.",
 			"",
-			"**Seek Prey (Su):** At 5th level, a psychodermist can supernaturally detect creatures around him as a standard action. This functions as the spell aura sight, except the duration is 1 round and the psychodermist learns the locations and power of all auras of a specific creature type, similar to detect undead except the psychodermist can choose any creature type represented among the trophies he has selected for that day.",
+			"**Seek Prey (Su):** At 5th level, a psychodermist can supernaturally detect creatures around him as a standard action. This functions as the spell {spell/aura sight}, except the duration is 1 round and the psychodermist learns the locations and power of all auras of a specific creature type, similar to detect undead except the psychodermist can choose any creature type represented among the trophies he has selected for that day.",
 			"",
 			"This ability replaces aura sight.",
 			"",
@@ -606,7 +606,7 @@
 			"",
 			"This ability replaces shift focus.",
 			"",
-			"**Warding Seal (Su):** At 5th level, a talisman crafter can inscribe a warding seal, infusing an inscribed glyph with psychic energy. Inscribing the seal follows the rules for drawing magic circles, takes 1 minute, and requires the occultist to expend 1 point of mental focus (either generic focus or focus from any one of her implements). As a full-round action that provokes attacks of opportunity, the talisman crafter expends 1 point of mental focus to scribe a special seal, infusing the glyph with a psychic spell she knows that affects one or more creatures and expending the spell slot just as if she had cast the spell. This seal holds the spell energy in check until it's triggered by conditions set forth when the seal is crafted or until the occultist refreshes her mental focus. The seal functions as the spell glyph option of the glyph of warding spell. At 17th level, the talisman crafter's fast circles ability applies to her warding seals, and she treats the ability as the greater spell glyph option of the greater glyph of warding spell.",
+			"**Warding Seal (Su):** At 5th level, a talisman crafter can inscribe a warding seal, infusing an inscribed glyph with psychic energy. Inscribing the seal follows the rules for drawing magic circles, takes 1 minute, and requires the occultist to expend 1 point of mental focus (either generic focus or focus from any one of her implements). As a full-round action that provokes attacks of opportunity, the talisman crafter expends 1 point of mental focus to scribe a special seal, infusing the glyph with a psychic spell she knows that affects one or more creatures and expending the spell slot just as if she had cast the spell. This seal holds the spell energy in check until it's triggered by conditions set forth when the seal is crafted or until the occultist refreshes her mental focus. The seal functions as the spell glyph option of the {spell/glyph of warding} spell. At 17th level, the talisman crafter's fast circles ability applies to her warding seals, and she treats the ability as the greater spell glyph option of the greater glyph of warding spell.",
 			"",
 			"This ability replaces aura sight and the focus powers normally gained at 5th and 17th levels."
 		]

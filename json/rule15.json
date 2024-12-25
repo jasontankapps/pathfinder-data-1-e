@@ -665,9 +665,6 @@
 		"subtopics": [
 			"sandbox_exploration",
 			"movement_ucp",
-			"exploration_rewards",
-			"keep_things_interesting",
-			"getting_lost_ucp",
 			"random_encounters",
 			"planned_encounters",
 			"hex_terrain_types",
@@ -716,9 +713,6 @@
 		"siblings": [
 			"sandbox_exploration",
 			"movement_ucp",
-			"exploration_rewards",
-			"keep_things_interesting",
-			"getting_lost_ucp",
 			"random_encounters",
 			"planned_encounters",
 			"hex_terrain_types",
@@ -762,31 +756,9 @@
 			"",
 			"### Tracking Movement",
 			"",
-			"The simplest method of tracking the PCs' progress as they travel and survey the wilderness is to do so on hex paper. As the PCs explore a hex, the players should note their progress by placing a small **X** in the hex. Tracking which hexes are fully explored is important for determining exploration rewards."
-		],
-		"parent_topics": [
-			"advanced_gm_topics",
-			"exploration_ucp"
-		],
-		"siblings": [
-			"sandbox_exploration",
-			"movement_ucp",
-			"exploration_rewards",
-			"keep_things_interesting",
-			"getting_lost_ucp",
-			"random_encounters",
-			"planned_encounters",
-			"hex_terrain_types",
-			"random_map_generation",
-			"exploration_hazards"
-		]
-	},
-	"exploration_rewards": {
-		"name": "Exploration Rewards",
-		"subtitle": "Advanced GM Topics",
-		"sources": [ "Ultimate Campaign" ],
-		"description": [
-			"{SOURCE Ultimate Campaign/154}",
+			"The simplest method of tracking the PCs' progress as they travel and survey the wilderness is to do so on hex paper. As the PCs explore a hex, the players should note their progress by placing a small **X** in the hex. Tracking which hexes are fully explored is important for determining exploration rewards.",
+			"",
+			"### Exploration Rewards",
 			"",
 			"Whenever a hex is explored fully, the party earns 100 XP for the effort. Some modifiers can add to this amount. The party gains an additional 25 XP after fully exploring a hex that contains either difficult terrain or a hazard. You might decide that some hexes are more dangerous, especially in a higher-level campaign, and award the party more XP per hex (perhaps up to 500 XP for especially hostile areas)."
 		],
@@ -797,14 +769,15 @@
 		"siblings": [
 			"sandbox_exploration",
 			"movement_ucp",
-			"exploration_rewards",
-			"keep_things_interesting",
-			"getting_lost_ucp",
 			"random_encounters",
 			"planned_encounters",
 			"hex_terrain_types",
 			"random_map_generation",
 			"exploration_hazards"
+		],
+		"subtopics": [
+			"keep_things_interesting",
+			"getting_lost_ucp"
 		]
 	},
 	"keep_things_interesting": {
@@ -822,19 +795,12 @@
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"exploration_ucp"
+			"exploration_ucp",
+			"movement_ucp"
 		],
 		"siblings": [
-			"sandbox_exploration",
-			"movement_ucp",
-			"exploration_rewards",
 			"keep_things_interesting",
-			"getting_lost_ucp",
-			"random_encounters",
-			"planned_encounters",
-			"hex_terrain_types",
-			"random_map_generation",
-			"exploration_hazards"
+			"getting_lost_ucp"
 		]
 	},
 	"getting_lost_ucp": {
@@ -850,19 +816,12 @@
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"exploration_ucp"
+			"exploration_ucp",
+			"movement_ucp"
 		],
 		"siblings": [
-			"sandbox_exploration",
-			"movement_ucp",
-			"exploration_rewards",
 			"keep_things_interesting",
-			"getting_lost_ucp",
-			"random_encounters",
-			"planned_encounters",
-			"hex_terrain_types",
-			"random_map_generation",
-			"exploration_hazards"
+			"getting_lost_ucp"
 		]
 	},
 	"random_encounters": {
@@ -889,9 +848,6 @@
 		"siblings": [
 			"sandbox_exploration",
 			"movement_ucp",
-			"exploration_rewards",
-			"keep_things_interesting",
-			"getting_lost_ucp",
 			"random_encounters",
 			"planned_encounters",
 			"hex_terrain_types",
@@ -921,9 +877,6 @@
 		"siblings": [
 			"sandbox_exploration",
 			"movement_ucp",
-			"exploration_rewards",
-			"keep_things_interesting",
-			"getting_lost_ucp",
 			"random_encounters",
 			"planned_encounters",
 			"hex_terrain_types",
@@ -961,9 +914,6 @@
 		"siblings": [
 			"sandbox_exploration",
 			"movement_ucp",
-			"exploration_rewards",
-			"keep_things_interesting",
-			"getting_lost_ucp",
 			"random_encounters",
 			"planned_encounters",
 			"hex_terrain_types",
@@ -1299,9 +1249,6 @@
 		"siblings": [
 			"sandbox_exploration",
 			"movement_ucp",
-			"exploration_rewards",
-			"keep_things_interesting",
-			"getting_lost_ucp",
 			"random_encounters",
 			"planned_encounters",
 			"hex_terrain_types",
@@ -1318,7 +1265,7 @@
 			"",
 			"Hazards are dangerous obstacles or events relevant to a hex's terrain type. They represent the natural disasters, harsh weather, and bad luck that can befall an expedition, and are included to liven up the PCs' journey as they explore the world. In addition to these hazards, you might use an [environmental danger that's suitable to the current terrain](rule/wilderness). After the effects of a hazard have been resolved, treat the hex as a standard example of that terrain.",
 			"",
-			"### Bad Weather (Any",
+			"### Bad Weather (Any)",
 			"",
 			"Bad weather can range from minor precipitation to a [serious storm](rule/storms). The weather can include lightning strikes and cause floods, landslides, and other natural hazards.",
 			"",
@@ -1353,9 +1300,6 @@
 		"siblings": [
 			"sandbox_exploration",
 			"movement_ucp",
-			"exploration_rewards",
-			"keep_things_interesting",
-			"getting_lost_ucp",
 			"random_encounters",
 			"planned_encounters",
 			"hex_terrain_types",
@@ -1364,7 +1308,7 @@
 		]
 	},
 	"discovery_and_exploration": {
-		"name": "Discovery and Exploration",
+		"name": "Wilderness Exploration",
 		"subtitle": "Exploration, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -1503,7 +1447,7 @@
 			"",
 			"Finding a location is often its own reward, but given the time, energy, and sometimes the resources needed to successfully conduct an exploration, you should consider the following additional rewards for parties that successfully discover all of the locations hidden in a territory.",
 			"",
-			"***Experience Points:*** The PCs should earn experience points equal to what they would have normally earned for defeating a monster of a CR equal to the territory's CR once all locations within the territory are discovered. (If you're using this system with the [hex-based exploration rules](rule/sandbox_exploration), you should decide if you want to use this method of XP reward, the one detailed in [those rules](rule/exploration_rewards), or both, as appropriate for your game table.)",
+			"***Experience Points:*** The PCs should earn experience points equal to what they would have normally earned for defeating a monster of a CR equal to the territory's CR once all locations within the territory are discovered. (If you're using this system with the [hex-based exploration rules](rule/sandbox_exploration), you should decide if you want to use this method of XP reward, the one detailed in [those rules](rule/movement_ucp), or both, as appropriate for your game table.)",
 			"",
 			"***Maps and Gazetteers:*** The successful completion of a map or gazetteer can generate a monetary reward if the PCs sell their hard work back in civilization. A complete map or gazetteer of a region that has never before been explored can be sold for a number of gold pieces equal to 100 &times; the territory's CR; once a map or gazetteer of a region has been sold, further copies of a map or gazetteer of that region (regardless of whether the first item sold was a map or gazetteer) are generally worth only 10% of that value or less, depending on GM's discretion and supply and demand."
 		],

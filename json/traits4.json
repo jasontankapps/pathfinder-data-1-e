@@ -1289,7 +1289,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Blue-scaled",
 			"",
-			"Like the blue dragons your tribe reveres, you have a touch of illusory magic. You are able to cast ghost sound twice per day as a spell-like ability. The caster level for this effect is equal to your character level. This spell-like ability's save DC is Intelligence-based."
+			"Like the blue dragons your tribe reveres, you have a touch of illusory magic. You are able to cast {spell/ghost sound} twice per day as a spell-like ability. The caster level for this effect is equal to your character level. This spell-like ability's save DC is Intelligence-based."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -3898,7 +3898,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Geb",
 			"",
-			"Survival in Geb requires convincing your betters that you would be of more service to them if they let you live another day than if they turn you into an unliving thrall, and you have mastered the art of buying time against undead attacks. Once per day as a swift action, you can use sanctuary as a spell-like ability (caster level = your highest caster level, or 1st if you have no caster level), with a DC equal to 10 + 1/2 your caster level (minimum 0) + your Charisma modifier. Only undead must save to attack you (other creature types are not affected). The effect ends as soon as you attack a creature, as normal."
+			"Survival in Geb requires convincing your betters that you would be of more service to them if they let you live another day than if they turn you into an unliving thrall, and you have mastered the art of buying time against undead attacks. Once per day as a swift action, you can use {spell/sanctuary} as a spell-like ability (caster level = your highest caster level, or 1st if you have no caster level), with a DC equal to 10 + 1/2 your caster level (minimum 0) + your Charisma modifier. Only undead must save to attack you (other creature types are not affected). The effect ends as soon as you attack a creature, as normal."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -4968,7 +4968,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Taldor",
 			"",
-			"When the ceaseless bickering and elaborate posturing of Taldan politics proves ineffective, it is not unheard of for the nobility of Taldor to turn to poison to solve their problems, and therefore many are taught to identify the telltale signs of commonly used toxins. You gain a +2 trait bonus on saving throws against ingested poisons. Additionally, you can cast detect poison as a spell-like ability once per day, using your character level as your caster level."
+			"When the ceaseless bickering and elaborate posturing of Taldan politics proves ineffective, it is not unheard of for the nobility of Taldor to turn to poison to solve their problems, and therefore many are taught to identify the telltale signs of commonly used toxins. You gain a +2 trait bonus on saving throws against ingested poisons. Additionally, you can cast {spell/detect poison} as a spell-like ability once per day, using your character level as your caster level."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},

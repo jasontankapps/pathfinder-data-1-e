@@ -2166,7 +2166,7 @@
 			"",
 			"You can channel your inner magic to summon allies.  ",
 			"**Prerequisites:** Character level 5th, hydraulic push spell-like ability, undine.  ",
-			"**Benefit:** Once per day, you may expend your racial hydraulic push ability to instead cast summon nature's ally III as a spell-like ability with a caster level equal to your character level. This use of the ability can only summon 1d3 Small water elementals, 1d4+1 dolphins, a shark, or an electric eel. Using this ability is a full-round action."
+			"**Benefit:** Once per day, you may expend your racial hydraulic push ability to instead cast {spell/summon nature's ally III} as a spell-like ability with a caster level equal to your character level. This use of the ability can only summon 1d3 Small water elementals, 1d4+1 dolphins, a shark, or an electric eel. Using this ability is a full-round action."
 		]
 	},
 	"troth_of_the_forgotten_pharaoh": {
@@ -2799,7 +2799,7 @@
 			"",
 			"New spell-like abilities are unlocked for you as you rise to ascendency among the drow people.  ",
 			"**Prerequisites:** Cha 13, Wis 13, {feat/Drow Nobility}, {feat/Greater Drow Nobility}, {feat/Improved Drow Nobility}, able to use drow spell-like abilities, drow.  ",
-			"**Benefit:** Select one of the following: dispel magic, divine favor, or suggestion. You may use this spell once per day as a spell-like ability. Your caster level is equal to your character level."
+			"**Benefit:** Select one of the following: {spell/dispel magic}, {spell/divine favor}, or {spell/suggestion}. You may use this spell once per day as a spell-like ability. Your caster level is equal to your character level."
 		]
 	},
 	"umbral_shift": {
@@ -3560,7 +3560,7 @@
 			"",
 			"Your heritage is strange or difficult to trace, and people fear your otherworldly powers.  ",
 			"**Prerequisites:** Gillman.  ",
-			"**Benefit:** As a so-called \"Low Azlanti,\" you have abilities supposedly tied to mysterious ancestors who still watch over you and your ilk. Your divination spells and spell-like abilities manifest at 1 caster level higher. In addition, once per day while fully immersed in water, you can cast augury as a spell-like ability."
+			"**Benefit:** As a so-called \"Low Azlanti,\" you have abilities supposedly tied to mysterious ancestors who still watch over you and your ilk. Your divination spells and spell-like abilities manifest at 1 caster level higher. In addition, once per day while fully immersed in water, you can cast {spell/augury} as a spell-like ability."
 		]
 	},
 	"unyielding_ferocity": {

@@ -2304,7 +2304,7 @@
 			"",
 			"Your unarmed strikes can induce a near-crippling lethargy in your enemies.  ",
 			"**Prerequisites:** {feat/Scorpion Style}.  ",
-			"**Benefit:** Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell slow, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modifier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds."
+			"**Benefit:** Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell {spell/slow}, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modifier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds."
 		],
 		"has_mythic_version": true
 	},
@@ -2747,7 +2747,7 @@
 			"",
 			"You're so attuned to the earth that your skin can harden to the thickness of stone.  ",
 			"**Prerequisites:** Stone giant.  ",
-			"**Benefit:** Your natural armor bonus increases by 1. Once per day, you can use stoneskin (on yourself only) as a spell-like ability. Your caster level is equal to 1/2 your Hit Dice.  ",
+			"**Benefit:** Your natural armor bonus increases by 1. Once per day, you can use {spell/stoneskin} (on yourself only) as a spell-like ability. Your caster level is equal to 1/2 your Hit Dice.  ",
 			"**Special:** You can take this feat up to three times. Each additional time you take this feat, the number of times you can use stoneskin per day increases by one."
 		]
 	},
@@ -3256,7 +3256,7 @@
 			"",
 			"You have studied the life and works of the aasimar Sulunai, who led the people of Tianjing in a time of nationwide chaos. You know that second chances are opportunities for salvation.  ",
 			"**Prerequisites:** Aasimar.  ",
-			"**Benefit:** Whenever a creature within 30 feet of you rerolls an ability check, saving throw, or skill check, you can give the creature a +2 insight bonus on the new roll as an immediate action. You can also cast divine favor as a spell-like ability once per day, using your character level as your caster level."
+			"**Benefit:** Whenever a creature within 30 feet of you rerolls an ability check, saving throw, or skill check, you can give the creature a +2 insight bonus on the new roll as an immediate action. You can also cast {spell/divine favor} as a spell-like ability once per day, using your character level as your caster level."
 		]
 	},
 	"studied_combatant": {

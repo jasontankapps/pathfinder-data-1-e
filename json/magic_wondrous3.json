@@ -162,11 +162,11 @@
 			"**Aura** faint evocation and illusion; **CL** 3rd  ",
 			"**Slot** neck; **Price** 4,800 gp; **Weight** -;",
 			"",
-			"This amulet allows the wearer to use the same spells many drow can cast innately. The wearer can use each of the following spells once per day as a spell-like ability: dancing lights, darkness, and faerie fire. In addition, while wearing this item, the wearer is granted the ability to speak and understand Undercommon and gains proficiency with the hand crossbow, the rapier, and the short sword. While the target is wearing the amulet, she radiates the aura of a chaotic evil creature for the purposes of spells such as {spell/detect chaos} and {spell/detect evil}. A bloodlink can serve as the focus for a recorporeal incarnation spell.",
+			"This amulet allows the wearer to use the same spells many drow can cast innately. The wearer can use each of the following spells once per day as a spell-like ability: {spell/dancing lights}, {spell/darkness}, and {spell/faerie fire}. In addition, while wearing this item, the wearer is granted the ability to speak and understand Undercommon and gains proficiency with the hand crossbow, the rapier, and the short sword. While the target is wearing the amulet, she radiates the aura of a chaotic evil creature for the purposes of spells such as {spell/detect chaos} and {spell/detect evil}. A bloodlink can serve as the focus for a recorporeal incarnation spell.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow weapon proficiency, comprehend languages, dancing lights, darkness, faerie fire, misdirection; **Cost** 6,075 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow weapon proficiency}, {spell/comprehend languages}, dancing lights, darkness, faerie fire, {spell/misdirection}; **Cost** 6,075 gp"
 		]
 	},
 	"thundering_collar": {
@@ -466,7 +466,7 @@
 			"**Aura** moderate divination; **CL** 8th  ",
 			"**Slot** neck; **Price** 6,000 gp; **Weight** 1/2 lb.",
 			"",
-			"This necklace is set with a bloodstone sculpted to look like a scintillating green eye. It gives the wearer a +4 competence bonus on Charisma checks and Charisma-based checks made to interact with gnomes, a +2 competence bonus on similar checks when dealing with beings of the fey creature type, and a -2 penalty on similar checks when interacting with anyone else. The wearer can read, speak, and understand the Gnome language. If the wearer is not a gnome, she gains low-light vision, and may cast dancing lights, ghost sound, prestidigitation, and speak with animals each once per day as a spell-like ability.",
+			"This necklace is set with a bloodstone sculpted to look like a scintillating green eye. It gives the wearer a +4 competence bonus on Charisma checks and Charisma-based checks made to interact with gnomes, a +2 competence bonus on similar checks when dealing with beings of the fey creature type, and a -2 penalty on similar checks when interacting with anyone else. The wearer can read, speak, and understand the Gnome language. If the wearer is not a gnome, she gains low-light vision, and may cast {spell/dancing lights}, {spell/ghost sound}, {spell/prestidigitation}, and {spell/speak with animals} each once per day as a spell-like ability.",
 			"",
 			"### Construction",
 			"",
@@ -2424,11 +2424,11 @@
 			"",
 			"Mothmen sometimes create these tokens when they know their powers won't be needed for a long period of time or they are close to death and wish to preserve their legacies. A mothman memento can be any item that is worn around the neck, such as an amulet or pendant. As a full-round action while wearing a mothman memento, a mothman can simultaneously kill itself and inject its soul into the item.",
 			"",
-			"A mothman memento can lie untouched for years or even decades before it winds up in the hands of another creature. Any humanoid or monstrous humanoid that wears the memento gains the ability to cast modify memory as a spell-like ability three times per day (caster level 12th). If a creature goes to sleep or falls unconscious while wearing a mothman memento, the wearer must succeed at a DC 19 Will save or be affected as though by a nightmare spell (no modifiers due to knowledge or physical connection; caster level 12th). A creature can be affected by this nightmare effect only once every 24 hours. After the first time the wearer is affected by the nightmare effect, the memento can only be removed by means of a remove curse spell. A creature that dies from the nightmare effect rises as a mothman the next morning.",
+			"A mothman memento can lie untouched for years or even decades before it winds up in the hands of another creature. Any humanoid or monstrous humanoid that wears the memento gains the ability to cast {spell/modify memory} as a spell-like ability three times per day (caster level 12th). If a creature goes to sleep or falls unconscious while wearing a mothman memento, the wearer must succeed at a DC 19 Will save or be affected as though by a {spell/nightmare} spell (no modifiers due to knowledge or physical connection; caster level 12th). A creature can be affected by this nightmare effect only once every 24 hours. After the first time the wearer is affected by the nightmare effect, the memento can only be removed by means of a {spell/remove curse} spell. A creature that dies from the nightmare effect rises as a {monster/mothman} the next morning.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, modify memory, nightmare, soul bind; **Cost** 14,400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, modify memory, nightmare, {spell/soul bind}; **Cost** 14,400 gp"
 		]
 	},
 	"medallion_of_demonic_disruption": {
@@ -2597,11 +2597,11 @@
 			"**Aura** strong abjuration; **CL** 9th  ",
 			"**Slot** neck; **Price** 40,000 gp; **Weight** -;",
 			"",
-			"These talismans are crafted by evil spellcasters on the first steps of the path of the wendigo. The amulet, a tiny human figure formed from unmelting ice, rests on the wearer's chest. When worn, it freezes the wearer's heart solid, chilling body and soul. The wearer immediately develops hypothermia, becoming permanently fatigued for as long as he wears the amulet, but is otherwise protected against cold weather by a constant {spell/endure elements} effect. The amulet also grants 10 points of cold resistance, immunity to bleed effects, and a +4 resistance bonus on saving throws against spells with the emotion descriptor. Once per day as a standard action, the wearer can use frigid touch as a spell-like ability. Removing the amulet thaws the wearer's heart but leaves him fatigued until he spends 8 hours warming up.",
+			"These talismans are crafted by evil spellcasters on the first steps of the path of the wendigo. The amulet, a tiny human figure formed from unmelting ice, rests on the wearer's chest. When worn, it freezes the wearer's heart solid, chilling body and soul. The wearer immediately develops hypothermia, becoming permanently fatigued for as long as he wears the amulet, but is otherwise protected against cold weather by a constant {spell/endure elements} effect. The amulet also grants 10 points of cold resistance, immunity to bleed effects, and a +4 resistance bonus on saving throws against spells with the emotion descriptor. Once per day as a standard action, the wearer can use {spell/frigid touch} as a spell-like ability. Removing the amulet thaws the wearer's heart but leaves him fatigued until he spends 8 hours warming up.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, calm emotions, endure elements, frigid touch; **Cost** 21,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, endure elements, frigid touch; **Cost** 21,600 gp"
 		]
 	},
 	"necklace_of_netted_stars": {
@@ -2681,7 +2681,7 @@
 			"**Aura** strong conjuration; **CL** 18th  ",
 			"**Slot** neck; **Price** 50,000 gp; **Weight** -;",
 			"",
-			"The Iron Road is a {magic-talisman/melancholic talisman}, a potent magic item that contains a bound hellmouth devil (a portal to Hell crafted from a devil). Once per day the wearer can activate the talisman to summon a hellmouth, which takes the form of Jyangzipao, an eyeless, amphisbaenic underworld dragon with corroded iron scales. Each of Jyangzipao's two mouths forms a 10-foot portal to Hell; one connects to Avernus and the other to Dis. Only one portal can be used each time the talisman is activated, remaining open for 10 minutes (or until the wearer dismisses it) and functioning as the spell gate. The portal cannot connect to any other locations, so should the wearer of the Iron Road pass through the gate and linger in Hell for more than 10 minutes, the hellmouth closes behind him and traps him in Hell. Jyangzipao currently exists only as a portal, and is not an independent creature with his own desires or needs.",
+			"The Iron Road is a {magic-talisman/melancholic talisman}, a potent magic item that contains a bound hellmouth devil (a portal to Hell crafted from a devil). Once per day the wearer can activate the talisman to summon a hellmouth, which takes the form of Jyangzipao, an eyeless, amphisbaenic underworld dragon with corroded iron scales. Each of Jyangzipao's two mouths forms a 10-foot portal to Hell; one connects to Avernus and the other to Dis. Only one portal can be used each time the talisman is activated, remaining open for 10 minutes (or until the wearer dismisses it) and functioning as the spell {spell/gate}. The portal cannot connect to any other locations, so should the wearer of the Iron Road pass through the gate and linger in Hell for more than 10 minutes, the hellmouth closes behind him and traps him in Hell. Jyangzipao currently exists only as a portal, and is not an independent creature with his own desires or needs.",
 			"",
 			"The hellmouth maw that connects to Dis always connects to the Souk Sinister, an auction house in the city of Dis operated by Hasharizi, a heavily tattooed contract devil. Hasharizi happily offers her services as a fence for stolen goods, and she is willing to search the markets of Dis for rare treasures for a commission (typically 10% of the item's cost), providing the talisman's wearer a portable means of liquidating wealth and securing otherwise unavailable goods. It usually takes at least a day for the devil to fence or find the requested items. For those requiring more immediate boons, Hasharizi is always willing to tailor an infernal contract to meet her patron's needs.",
 			"",
@@ -3727,7 +3727,7 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
-			"Nightmare tears are a toxic alchemical solution that, when applied to the eyes, allows the individual to see past certain supernatural effects, as the spell true seeing. These include reality-warping effects such as those caused by the Plateau of Leng and spells or supernatural powers that create phantasms such as weird, nightmare, and phantasmal killer. The effect of the tears lasts for 1 hour.",
+			"Nightmare tears are a toxic alchemical solution that, when applied to the eyes, allows the individual to see past certain supernatural effects, as the spell {spell/true seeing}. These include reality-warping effects such as those caused by the Plateau of Leng and spells or supernatural powers that create phantasms such as weird, nightmare, and phantasmal killer. The effect of the tears lasts for 1 hour.",
 			"",
 			"Nightmare tears have horrific side effects - users suffer both temporary blindness and insanity. Immediately after applying the tears, the user goes blind for 1d4 rounds and looses 1d4 points of Wisdom until the tears wear off. However, if the user fails a DC 11 Will save, both effects become permanent.",
 			"",

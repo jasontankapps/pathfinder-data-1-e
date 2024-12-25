@@ -147,7 +147,7 @@ const postprocess = (prefix, tables, flags) => {
 		output = "";
 		//{jumplist header / etc}
 		//Create JumpLists out of the plain-text code
-		while(m = text.match(/^(.*?)<p>\{jumplist (.+)\}<\/p>(.*)$/)) {
+		while(m = text.match(/^(.*?)<p>\{jumplist ([^}]+)\}<\/p>(.*)$/)) {
 			const [x, pre, jumplist, post] = m;
 			output = output + `${pre}<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			jumplist.split(/ +\/ +/).forEach(input => {

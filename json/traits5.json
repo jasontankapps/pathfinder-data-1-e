@@ -767,7 +767,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Varisian wanderers",
 			"",
-			"A childhood spent at your mystically gifted grandmother's side has taught you the basics of real magic. You may cast prestidigitation three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
+			"A childhood spent at your mystically gifted grandmother's side has taught you the basics of real magic. You may cast {spell/prestidigitation} three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -2744,7 +2744,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"For a time during your childhood, you were left in the care of a juju oracle or wendifa, who saw your potential and taught you simple juju magic to influence the weakminded for brief periods of time. You can use daze as a spell-like ability once per day, using your character level as your caster level (minimum 1). The save DC of this effect is Charisma-based. The dazed individual looks ashen and deathly for the duration of the effect."
+			"For a time during your childhood, you were left in the care of a juju oracle or wendifa, who saw your potential and taught you simple juju magic to influence the weakminded for brief periods of time. You can use {spell/daze} as a spell-like ability once per day, using your character level as your caster level (minimum 1). The save DC of this effect is Charisma-based. The dazed individual looks ashen and deathly for the duration of the effect."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -3002,7 +3002,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Irrisen",
 			"",
-			"The eternal winter of Irrisen is as much a part of you as it is the land. You may cast ray of frost once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
+			"The eternal winter of Irrisen is as much a part of you as it is the land. You may cast {spell/ray of frost} once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},

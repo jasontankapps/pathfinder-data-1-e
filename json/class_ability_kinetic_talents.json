@@ -871,7 +871,7 @@
 			"**Associated Blasts** {kinetic/Force Blast}  ",
 			"**Saving Throw** Fortitude partial; see text",
 			"",
-			"You can use force to rip your targets apart. Against creatures, your kinetic blast deals double its normal amount of damage, but targets receive a saving throw to reduce the damage to half the blast's normal amount of damage (for a total of 1/4 of the blast's increased damage). Any creature reduced to 0 or fewer hit points by the blast is disintegrated, as the spell disintegrate. You can use the infused blast to destroy force effects or objects as disintegrate, but for each force effect or 10-foot cube of nonliving matter you destroy in this way, you must accept 1 point of burn, which can't be reduced by effects such as infusion specialization or gather power."
+			"You can use force to rip your targets apart. Against creatures, your kinetic blast deals double its normal amount of damage, but targets receive a saving throw to reduce the damage to half the blast's normal amount of damage (for a total of 1/4 of the blast's increased damage). Any creature reduced to 0 or fewer hit points by the blast is disintegrated, as the spell {spell/disintegrate}. You can use the infused blast to destroy force effects or objects as disintegrate, but for each force effect or 10-foot cube of nonliving matter you destroy in this way, you must accept 1 point of burn, which can't be reduced by effects such as infusion specialization or gather power."
 		]
 	},
 	"draining_infusion": {
@@ -1399,7 +1399,7 @@
 			"**Associated Blasts** {kinetic/Charged Water Blast}, {kinetic/Water Blast}  ",
 			"**Saving Throw** none",
 			"",
-			"Your blast puts out nonmagical fires as if they had been touched by a water elemental. If you increase the burn cost to 2 or reduce the damage to 0, it also dispels magical fires as if you were a water elemental with a number of Hit Dice equal to your kineticist level."
+			"Your blast puts out nonmagical fires as if they had been touched by a {family/water elemental}. If you increase the burn cost to 2 or reduce the damage to 0, it also dispels magical fires as if you were a water elemental with a number of Hit Dice equal to your kineticist level."
 		]
 	},
 	"rare_metal_infusion": {
@@ -1511,7 +1511,7 @@
 			"",
 			"Creatures that take piercing or slashing damage from your blast are infected with spores. If a target fails its Fortitude save, it takes 1d6 points of damage per round for 10 rounds as plants and fungi grow out of its body. At the end of that time, the target is exposed to the pulsing puffs disease. This infusion is a disease effect. When using a wood kinetic blast against a creature infected by this infusion, you gain a +2 bonus on attack rolls, to saving throw DCs, and on caster level checks to overcome spell resistance.",
 			"",
-			"Pulsing Puffs: Blast-injury; save Fort DC 18; onset 1 minute; frequency 1/day; effect 1d6 Dex damage; cure 2 consecutive saving throws."
+			"**Pulsing Puffs:** Blast-injury; save Fort DC 18; onset 1 minute; frequency 1/day; effect 1d6 Dex damage; cure 2 consecutive saving throws."
 		]
 	},
 	"spray": {
@@ -1544,7 +1544,7 @@
 			"",
 			"When you learn this infusion, select an [unchained monk style strike](ability/style_strikes). You can use that style strike during a flurry of blows with your infused blast, though you must still follow the limitation of one style strike per flurry of blows (or two if you are a 15th-level {class/unchained monk}). If you select flying kick, the distance is equal to your elemental overflow bonus on attack rolls &times; 10 feet. You can use this infusion only while also using the kinetic fist form infusion.",
 			"",
-			"Special: You can select this infusion multiple times. Each time, you must select a different style strike."
+			"**Special:** You can select this infusion multiple times. Each time, you must select a different style strike."
 		]
 	},
 	"synaptic_infusion": {
@@ -2876,7 +2876,7 @@
 			"{SOURCE Occult Adventures/25}  ",
 			"**Element** water; **Type** utility (Sp); **Level** 4; **Burn** 0",
 			"",
-			"You can sculpt ice and snow into new shapes, as the spell stone shape but affecting ice and snow instead of stone."
+			"You can sculpt ice and snow into new shapes, as the spell {spell/stone shape} but affecting ice and snow instead of stone."
 		]
 	},
 	"icewalker": {
@@ -3385,7 +3385,7 @@
 			"**Element** earth; **Type** utility (Sp); **Level** 7; **Burn** 0  ",
 			"**Prerequisite** kinetic cover, shift earth",
 			"",
-			"You can move greater quantities of earth, as the spell move earth."
+			"You can move greater quantities of earth, as the spell {spell/move earth}."
 		]
 	},
 	"shift_earth_greater": { "copyof": "greater_shift_earth" },
@@ -3552,7 +3552,7 @@
 			"{SOURCE Occult Adventures/27}  ",
 			"**Element** earth; **Type** utility (Sp); **Level** 5; **Burn** 0",
 			"",
-			"You can sculpt earth into any shape, as the spell stone shape."
+			"You can sculpt earth into any shape, as the spell {spell/stone shape}."
 		]
 	},
 	"suffocate": {
@@ -3579,7 +3579,7 @@
 			"{SOURCE Occult Adventures/27}  ",
 			"**Element** aether; **Type** utility (Sp); **Level** 8; **Burn** 0",
 			"",
-			"You can deflect your foes' attacks, as the spell deflection with a duration of 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess."
+			"You can deflect your foes' attacks, as the spell {spell/deflection} with a duration of 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess."
 		]
 	},
 	"telekinetic_finesse": {

@@ -3013,7 +3013,7 @@
 			"",
 			"### Bloodbond Insight - CR 12",
 			"",
-			"XP 19,200 Devil rust devil (ferrugon) Creation Time 1d4 weeks Benefit The contracted mortal gains a +4 profane bonus on Craft and Profession checks, and gains the ability to use major creation once per day as a spell-like ability. When the contracted mortal crafts any magic or technological item, the cost of creating the item is reduced by 5%. Payment The contracted mortal must allow the rust devil to harvest a single rib from his torso; the method of extraction is particularly invasive and painful, resulting in 2 points of Constitution drain. If the mortal ever allows this Constitution drain to be healed, his soul is damned to Hell upon his death.",
+			"XP 19,200 Devil rust devil (ferrugon) Creation Time 1d4 weeks Benefit The contracted mortal gains a +4 profane bonus on Craft and Profession checks, and gains the ability to use {spell/major creation} once per day as a spell-like ability. When the contracted mortal crafts any magic or technological item, the cost of creating the item is reduced by 5%. Payment The contracted mortal must allow the rust devil to harvest a single rib from his torso; the method of extraction is particularly invasive and painful, resulting in 2 points of Constitution drain. If the mortal ever allows this Constitution drain to be healed, his soul is damned to Hell upon his death.",
 			"",
 			"### Research",
 			"",
@@ -3522,7 +3522,7 @@
 			"**Manipulative:** +2 racial bonus on Bluff and Perception.  ",
 			"**Undead Resistance:** Dhampirs gain a +2 racial bonus on saving throws against disease and mind-affecting effects.  ",
 			"**Light Sensitivity, Negative Energy Affinity:** See [universal](umr/light_sensitivity) [monster](umr/negative_energy_affinity) rules.  ",
-			"**Spell-Like Ability:** A dhampir can use detect undead three times per day as a spell-like ability. The caster level for this ability equals the dhampir's class level.  ",
+			"**Spell-Like Ability:** A dhampir can use {spell/detect undead} three times per day as a spell-like ability. The caster level for this ability equals the dhampir's class level.  ",
 			"**Resist Level Drain:** See above.  ",
 			"**Languages:** Dhampirs begin play speaking Common. Those with high Intelligence can choose any language as a bonus language (except druidic and other secret languages)."
 		]
@@ -3703,7 +3703,7 @@
 			"",
 			"Draugr captains have malevolent, burning red eyes. They may be more richly dressed than other draugr, though their clothes are always in a similar tattered condition.",
 			"",
-			"A draugr captain is a draugr with the advanced simple template. In addition to this, most draugr captains have additional class levels, usually as barbarians, fighters, or rogues. Draugr captains can also use obscuring mist as a spell-like ability (CL 5th; concentration +8) three times per day, and instead of causing nausea with a successful hit, they bestow 1 negative level on a hit. A draugr captain can even bestow a negative level via a weapon it wields, but if it gains multiple attacks with a weapon, it can only bestow 1 negative level per round in this manner."
+			"A draugr captain is a draugr with the advanced simple template. In addition to this, most draugr captains have additional class levels, usually as barbarians, fighters, or rogues. Draugr captains can also use {spell/obscuring mist} as a spell-like ability (CL 5th; concentration +8) three times per day, and instead of causing nausea with a successful hit, they bestow 1 negative level on a hit. A draugr captain can even bestow a negative level via a weapon it wields, but if it gains multiple attacks with a weapon, it can only bestow 1 negative level per round in this manner."
 		]
 	},
 	"drekavac": {

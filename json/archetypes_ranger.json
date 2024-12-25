@@ -1243,7 +1243,7 @@
 			"",
 			"This replaces quarry.",
 			"",
-			"**Control Weather (Sp):** At 16th level, a stormwalker can cast control weather as a spell-like ability once per day.",
+			"**Control Weather (Sp):** At 16th level, a stormwalker can cast {spell/control weather} as a spell-like ability once per day.",
 			"",
 			"This replaces improved evasion.",
 			"",
@@ -1375,7 +1375,7 @@
 			"",
 			"This replaces woodland stride.",
 			"",
-			"**Tidal Surge (Sp):** At 16th level, a tidal hunter gains control over water, and he can use the tides to attack his foes. Once per day, he can cast tidal surge as a spell-like ability.",
+			"**Tidal Surge (Sp):** At 16th level, a tidal hunter gains control over water, and he can use the tides to attack his foes. Once per day, he can cast {spell/tidal surge} as a spell-like ability.",
 			"",
 			"This replaces improved evasion."
 		]

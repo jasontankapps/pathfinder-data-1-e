@@ -105,7 +105,7 @@
 			"",
 			"You can fly short distances through the air.  ",
 			"**Prerequisites:** Dex 15, Wis 15, {feat/Dragonfly Style}, {feat/Dragonfly Wings}, {feat/Improved Unarmed Strike}, Acrobatics 10 ranks, Climb 10 ranks.  ",
-			"**Benefit:** While using {feat/Dragonfly Style} as the spell for 1 round. If you have not used your standard action after using Dragonfly Flight to make a high jump and start gliding, you can charge while gliding. This charge follows the rules for charging when you are only able to take a standard action."
+			"**Benefit:** While using {feat/Dragonfly Style}, you can attempt an Acrobatics check to high jump as a move action, and then immediately {spell/glide} as the spell for 1 round. If you have not used your standard action after using Dragonfly Flight to make a high jump and start gliding, you can charge while gliding. This charge follows the rules for charging when you are only able to take a standard action."
 		]
 	},
 	"dragonfly_style": {
@@ -339,7 +339,7 @@
 			"",
 			"Although you are of mixed heritage, the magic of your drow relatives flows freely through your veins.  ",
 			"**Prerequisites:** Half-elf.  ",
-			"**Benefit:** You gain the ability to cast dancing lights, darkness, and faerie fire each once per day as a spell-like ability. You use your character level as your caster level for these abilities. Alternatively, you can instead gain any one racial trait that elves can exchange for the elven magic racial trait.  ",
+			"**Benefit:** You gain the ability to cast {spell/dancing lights}, {spell/darkness}, and {spell/faerie fire} each once per day as a spell-like ability. You use your character level as your caster level for these abilities. Alternatively, you can instead gain any one racial trait that elves can exchange for the elven magic racial trait.  ",
 			"**Special:** You can take this feat only at 1st level. If you take this feat, you cannot take the Human Spirit or Elven Spirit feat."
 		]
 	},
@@ -1341,7 +1341,7 @@
 			"",
 			"The spirits of your ancestral home call to you, beckoning you to return.  ",
 			"**Prerequisites:** Character level 15th, ifrit, oread, sylph, or undine.  ",
-			"**Benefit:** Once per day, you can cast plane shift as a spell-like ability with a caster level equal to your level to transport yourself and willing targets to an elemental plane that is appropriate to your race (ifrits to the Plane of Fire, oreads to the Plane of Earth, sylphs to the Plane of Air, and undines to the Plane of Water). While on that plane, you (but not anyone transported with you) are treated as though under the effect of the spell planar adaptation."
+			"**Benefit:** Once per day, you can cast {spell/plane shift} as a spell-like ability with a caster level equal to your level to transport yourself and willing targets to an elemental plane that is appropriate to your race (ifrits to the Plane of Fire, oreads to the Plane of Earth, sylphs to the Plane of Air, and undines to the Plane of Water). While on that plane, you (but not anyone transported with you) are treated as though under the effect of the spell planar adaptation."
 		]
 	},
 	"elemental_ki": {
@@ -1698,6 +1698,7 @@
 			"Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level."
 		]
 	},
+	"empowered": { "copyof": "empower_spell" },
 	"empower_spell_like_ability": {
 		"name": "Empower Spell-Like Ability",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1876,7 +1877,7 @@
 			"",
 			"You have crossed paths with a cult opposed to everything in which you believe.  ",
 			"**Prerequisites:** You must have encountered a cult whose general alignment is opposite to yours on at least one axis or who threatened your beliefs or way of life.  ",
-			"**Benefit:** Choose an appropriate detect chaos/evil/good/law spell that would aid you in opposing your chosen enemy cult. You can cast this spell twice per day as a spell-like ability with a caster level equal to your character level.  ",
+			"**Benefit:** Choose an appropriate [detect chaos/evil/good/law](spell/detect_evil) spell that would aid you in opposing your chosen enemy cult. You can cast this spell twice per day as a spell-like ability with a caster level equal to your character level.  ",
 			"**Goal:** Thwart the enemy cult, whose leader must be a challenging foe. You must deal that cult leader a decisive defeat, and additionally eradicate the cult or drive the cult from the area.  ",
 			"**Completion Benefit:** You gain a +2 resistance bonus on saving throws against evil creatures and a +2 deflection bonus to AC against evil creatures' attacks. These bonuses double against evil summoned creatures."
 		]
@@ -3413,6 +3414,7 @@
 			"**Benefit:** An extended spell lasts twice as long as normal. A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat. An extended spell uses up a spell slot one level higher than the spell's actual level."
 		]
 	},
+	"extended": { "copyof": "extend_spell" },
 	"extend_the_bulwark": {
 		"name": "Extend the Bulwark",
 		"sources": [
@@ -4231,7 +4233,7 @@
 			"{SOURCE Ultimate Magic/150}",
 			"",
 			"You can summon monsters more often each day.  ",
-			"**Prerequisites:** Ability to cast summon monster as a spell-like ability, summoner 1st.  ",
+			"**Prerequisites:** Ability to cast {spell/summon monster>_1} as a spell-like ability, summoner 1st.  ",
 			"**Benefit:** You gain 1 additional use of your summon monster spell-like ability per day.  ",
 			"**Special:** You can take this feat multiple times, but it can only be taken once for every five summoner levels you possess."
 		]
@@ -4921,7 +4923,7 @@
 			"",
 			"You can unleash powerful watery torrents to push back your foes underwater.  ",
 			"**Prerequisites:** Worshiper of Lysianassa or pearl seeker paladin, character level 5th.  ",
-			"**Benefit:** Once per day while underwater, you can use hydraulic torrent as a spell-like ability. At 10th level and every 5 levels thereafter, you can use this ability an additional time each day."
+			"**Benefit:** Once per day while underwater, you can use {spell/hydraulic torrent} as a spell-like ability. At 10th level and every 5 levels thereafter, you can use this ability an additional time each day."
 		]
 	},
 	"favored_animal_focus": {

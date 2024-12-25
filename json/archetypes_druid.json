@@ -58,7 +58,7 @@
 			"",
 			"**Unimpeachable (Ex):** At 4th level, an ancient guardian gains a +4 bonus on saves against enchantments. This ability replaces resist nature's lure.",
 			"",
-			"**Undo Artifice (Sp):** At 13th level, an ancient guardian gains the ability to reduce a nonliving item to its component raw materials. This acts as the spell polymorph any object, but works on magical or nonmagical nonliving objects. The duration is always permanent. Unlike polymorph any object, this ability can't be used to mimic the effects of other spells. Items subject to this effect receive a Fortitude saving throw to negate the effect (DC = 10 + 1/2 the ancient guardian's druid level + her Wisdom modifier). Magic items receive a circumstance bonus on this save equal to +1 for every 5,000 gp of the item's value. An ancient guardian can use undo artifice a number of times per day equal to her Wisdom modifier. This ability replaces a thousand faces."
+			"**Undo Artifice (Sp):** At 13th level, an ancient guardian gains the ability to reduce a nonliving item to its component raw materials. This acts as the spell {spell/polymorph any object}, but works on magical or nonmagical nonliving objects. The duration is always permanent. Unlike polymorph any object, this ability can't be used to mimic the effects of other spells. Items subject to this effect receive a Fortitude saving throw to negate the effect (DC = 10 + 1/2 the ancient guardian's druid level + her Wisdom modifier). Magic items receive a circumstance bonus on this save equal to +1 for every 5,000 gp of the item's value. An ancient guardian can use undo artifice a number of times per day equal to her Wisdom modifier. This ability replaces a thousand faces."
 		]
 	},
 	"ape_shaman": {
@@ -144,7 +144,7 @@
 			"",
 			"**Class Skills:** Eliminate Diplomacy and Heal from the druid's class skill list. Add Intimidate and Knowledge (arcana).",
 			"",
-			"**Bestial Bond (Sp):** At 4th level, the druid can call out to savage powers of the wilds, entreating them to aid her and her companion. Doing so allows her to cast cure serious wounds, neutralize poison, or remove disease on her animal companion as a spell-like ability by channeling the power of nature. The druid does not need to have these spells prepared as they come directly from the goddess. Using this ability, however, causes the druid to take 1d4 points of Wisdom damage. Any effect that prevents this Wisdom damage from occurring also prevents the use of this ability.",
+			"**Bestial Bond (Sp):** At 4th level, the druid can call out to savage powers of the wilds, entreating them to aid her and her companion. Doing so allows her to cast {spell/cure serious wounds}, {spell/neutralize poison}, or {spell/remove disease} on her animal companion as a spell-like ability by channeling the power of nature. The druid does not need to have these spells prepared as they come directly from the goddess. Using this ability, however, causes the druid to take 1d4 points of Wisdom damage. Any effect that prevents this Wisdom damage from occurring also prevents the use of this ability.",
 			"",
 			"**Variant Companion (Ex):** At 4th level the druid adds additional non-animals to her alternate list of animal companions. If she chooses one of these creatures as an animal companion, she may use her wild empathy ability to influence the creature (even though it is not an animal and its intelligence may be above 2), though she takes a -4 penalty on this check. If the druid and the companion share a common language these checks are not needed. If the companion's intelligence is 3 or higher, the number of \"tricks\" the druid can teach it refers to the number of commands the creature understands regardless of language.",
 			"",
@@ -743,7 +743,7 @@
 			"",
 			"This replaces trackless step.",
 			"",
-			"**Zephyr Message (Sp):** At 6th level, once per day, a Green Faith initiate can cast whispering wind as a spell-like ability, treating her druid level as her caster level.",
+			"**Zephyr Message (Sp):** At 6th level, once per day, a Green Faith initiate can cast {spell/whispering wind} as a spell-like ability, treating her druid level as her caster level.",
 			"",
 			"This replaces the druid's additional daily use of wild shape gained at 6th level.",
 			"",
@@ -751,7 +751,7 @@
 			"",
 			"This replaces venom immunity.",
 			"",
-			"**Secrets across Lifetimes (Sp):** At 10th level, a Green Faith initiate can use legend lore once per week as a spell-like ability, drawing upon the knowledge of Green Faith archdruids recorded in secret across the generations in places where magic such as this can retrieve it. This ability does not require material components.",
+			"**Secrets across Lifetimes (Sp):** At 10th level, a Green Faith initiate can use {spell/legend lore} once per week as a spell-like ability, drawing upon the knowledge of Green Faith archdruids recorded in secret across the generations in places where magic such as this can retrieve it. This ability does not require material components.",
 			"",
 			"This replaces the druid's additional daily use of wild shape gained at 10th level.",
 			"",
@@ -1174,7 +1174,7 @@
 			"",
 			"This ability replaces resist nature's lure.",
 			"",
-			"**Locate Nithveil (Sp):** At 9th level, a Nithveil adept can cast find the path as a spell-like ability, but only to locate Nithveil. The spell's duration is extended until the druid reaches her destination or until Nithveil recedes from the Material Plane at the end of the new moon. This ability can be used only once per month, during the new moon."
+			"**Locate Nithveil (Sp):** At 9th level, a Nithveil adept can cast {spell/find the path} as a spell-like ability, but only to locate Nithveil. The spell's duration is extended until the druid reaches her destination or until Nithveil recedes from the Material Plane at the end of the new moon. This ability can be used only once per month, during the new moon."
 		]
 	},
 	"pack_lord": {
@@ -1304,7 +1304,7 @@
 			"",
 			"**Resist Death's Touch (Ex):** At 4th level, a reincarnated druid gains a +4 bonus on saving throws against death effects, energy drain, and necromancy effects, and on stabilization checks when dying. This ability replaces resist nature's lure.",
 			"",
-			"**Many Lives (Ex):** At 5th level, if a reincarnated druid is killed, she may automatically reincarnate (as the spell) 1 day later. The reincarnated druid appears in a safe location within 1 mile of her previous body. At will for the next 7 days, she can sense the presence of her remains as if using locate object as a spell-like ability. If she is killed during these 7 days, she remains dead and does not reincarnate. The many lives ability does not function ifthe reincarnated druid is slain by a death effect. A reincarnated druid cannot be raised from the dead or resurrected, though she can be reincarnated.",
+			"**Many Lives (Ex):** At 5th level, if a reincarnated druid is killed, she may automatically reincarnate (as the spell) 1 day later. The reincarnated druid appears in a safe location within 1 mile of her previous body. At will for the next 7 days, she can sense the presence of her remains as if using {spell/locate object} as a spell-like ability. If she is killed during these 7 days, she remains dead and does not reincarnate. The many lives ability does not function ifthe reincarnated druid is slain by a death effect. A reincarnated druid cannot be raised from the dead or resurrected, though she can be reincarnated.",
 			"",
 			"**Wild Shape (Su):** A reincarnated druid gains this ability at 6th level, and it functions at her druid level - 2.",
 			"",
@@ -1523,7 +1523,7 @@
 			"",
 			"**Winter Chill:** The area of effect is treated as if it were under the effects of extreme cold. At 8th level, as a swift action the season sage can have the area deal 1d6 points of cold damage each round to other creatures in the area.",
 			"",
-			"**Season Mastery (Sp):** At 12th level, a season sage can cast control weather as a spell-like ability once per day; his choice of effects is not limited by the season."
+			"**Season Mastery (Sp):** At 12th level, a season sage can cast {spell/control weather} as a spell-like ability once per day; his choice of effects is not limited by the season."
 		]
 	},
 	"serpent_shaman": {

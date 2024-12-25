@@ -424,7 +424,7 @@
 			"",
 			"This replaces uncanny dodge.",
 			"",
-			"**Dream Infiltrator (Sp):** A dreamthief can enter dreams, whether to learn secrets or meddle more directly. At 8th level, a dreamthief can cast dream scan once per day as a spell-like ability. At 12th level, once per day she can cast either dream scan or dream travel as a spell-like ability. The caster level of these spell-like abilities is equal to her rogue level.",
+			"**Dream Infiltrator (Sp):** A dreamthief can enter dreams, whether to learn secrets or meddle more directly. At 8th level, a dreamthief can cast {spell/dream scan} once per day as a spell-like ability. At 12th level, once per day she can cast either dream scan or {spell/dream travel} as a spell-like ability. The caster level of these spell-like abilities is equal to her rogue level.",
 			"",
 			"This replaces improved uncanny dodge and the rogue talent gained at 12th level."
 		]
@@ -832,7 +832,7 @@
 			"",
 			"**Kitsune's Guile (Ex):** At 1st level, a trickster relies on her intellect as much as her personality. She adds her Intelligence modifier on Bluff, Diplomacy, Disguise, and Sense Motive checks. This ability replaces trapfinding.",
 			"",
-			"**Kitsune's Charm (Sp):** At 3rd level, a kitsune trickster can use charm person once per day as a spell-like ability (caster level equal to her rogue level - 2). At 6th level, and every three levels thereafter, the kitsune trickster gains an additional daily use of this ability. This ability replaces trap sense.",
+			"**Kitsune's Charm (Sp):** At 3rd level, a kitsune trickster can use {spell/charm person} once per day as a spell-like ability (caster level equal to her rogue level - 2). At 6th level, and every three levels thereafter, the kitsune trickster gains an additional daily use of this ability. This ability replaces trap sense.",
 			"",
 			"**Rogue Talents:** The following rogue talents complement the kitsune trickster archetype: major magic, minor magic; false friend, obfuscate story, steal the story; charmer, coax information, honeyed words; convincing lie.",
 			"",
@@ -1453,7 +1453,7 @@
 			"",
 			"This replaces uncanny dodge.",
 			"",
-			"**Disable Magic Device (Su):** At 8th level, a sly saboteur can use Disable Device to rig a magic item to fail as if it were an extremely complex device. If the item's effect is instantaneous, the effect is countered the next time the item is activated, but the activation still consumes a charge or use. If the item's effect is continuous or has a duration, the effect fails after 1d4 rounds or minutes of use (sly saboteur's choice). This ends the duration or suppresses a continuous effect for 1d4 rounds (as the spell dispel magic). This ability cannot be used on artifacts.",
+			"**Disable Magic Device (Su):** At 8th level, a sly saboteur can use Disable Device to rig a magic item to fail as if it were an extremely complex device. If the item's effect is instantaneous, the effect is countered the next time the item is activated, but the activation still consumes a charge or use. If the item's effect is continuous or has a duration, the effect fails after 1d4 rounds or minutes of use (sly saboteur's choice). This ends the duration or suppresses a continuous effect for 1d4 rounds (as the spell {spell/dispel magic}). This ability cannot be used on artifacts.",
 			"",
 			"If this ability is combined with the catastrophic failure ability, the resulting damage is untyped magic and is not reduced by damage reduction or energy resistance.",
 			"",

@@ -98,7 +98,7 @@
 			"",
 			"This ability alters the revelation class feature.",
 			"",
-			"**Final Revelation:** Upon reaching 20th level, you embody ancient cyclopes' insight. You can use each of the following once per day as a spell-like ability: discern location, prying eyes, and stone tell. In addition, using flash of insight to select a d20 roll result equal to or lower than your Charisma modifier doesn't expend that ability. This replaces the final revelation of the oracle's mystery."
+			"**Final Revelation:** Upon reaching 20th level, you embody ancient cyclopes' insight. You can use each of the following once per day as a spell-like ability: {spell/discern location}, {spell/prying eyes}, and {spell/stone tell}. In addition, using flash of insight to select a d20 roll result equal to or lower than your Charisma modifier doesn't expend that ability. This replaces the final revelation of the oracle's mystery."
 		]
 	},
 	"divine_numerologist": {
@@ -283,10 +283,10 @@
 			"| Perform (Dance) Result | Benefit |",
 			"| --- | --- |",
 			"| 0-9 | Increase the saving throw DC of any divination spells you cast by 1. |",
-			"| 10-19 | Once in the next 24 hours, as an immediate action, you can use augury as a spell-like ability, using your oracle level as your caster level. |",
-			"| 20-29 | Once in the next 24 hours, you can use divination as a spell-like ability, using your oracle level as your caster level. If you are at least 8th level, you can cast it in 1 minute instead of 10 minutes. |",
-			"| 30-39 | Once in the next 24 hours, you can use commune as a spell-like ability, using your oracle level as your caster level. If you are at least 10th level, its casting time is in 1 minute instead of 10 minutes. |",
-			"| 40+ | Once in the next 24 hours, you can use contact other plane as a spell-like ability, using your oracle level as your caster level. |"
+			"| 10-19 | Once in the next 24 hours, as an immediate action, you can use {spell/augury} as a spell-like ability, using your oracle level as your caster level. |",
+			"| 20-29 | Once in the next 24 hours, you can use {spell/divination} as a spell-like ability, using your oracle level as your caster level. If you are at least 8th level, you can cast it in 1 minute instead of 10 minutes. |",
+			"| 30-39 | Once in the next 24 hours, you can use {spell/commune} as a spell-like ability, using your oracle level as your caster level. If you are at least 10th level, its casting time is in 1 minute instead of 10 minutes. |",
+			"| 40+ | Once in the next 24 hours, you can use {spell/contact other plane} as a spell-like ability, using your oracle level as your caster level. |"
 		]
 	},
 	"oceans_echo": {

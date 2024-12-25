@@ -3369,7 +3369,7 @@
 			"**Aura** strong conjuration; **CL** 15th  ",
 			"**Slot** ring; **Price** 90,000 gp; **Weight** -",
 			"",
-			"This white gold ring is generally set with a large green sapphire. When worn, the ring continually allows a living wearer to heal 1 point of damage per round and an equal amount of nonlethal damage. In addition, the wearer is immune to bleed damage while wearing a ring of regeneration. If the wearer loses a limb, an organ, or any other body part while wearing this ring, the ring regenerates it as the spell regenerate. In either case, only damage taken while wearing the ring is regenerated.",
+			"This white gold ring is generally set with a large green sapphire. When worn, the ring continually allows a living wearer to heal 1 point of damage per round and an equal amount of nonlethal damage. In addition, the wearer is immune to bleed damage while wearing a ring of regeneration. If the wearer loses a limb, an organ, or any other body part while wearing this ring, the ring regenerates it as the spell {spell/regenerate}. In either case, only damage taken while wearing the ring is regenerated.",
 			"",
 			"### Construction",
 			"",

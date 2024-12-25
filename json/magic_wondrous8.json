@@ -294,7 +294,7 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** feet; **Price** 4,400 gp; **Weight** 1 lb.",
 			"",
-			"The wearer of these slippers may walk on air (as the spell air walk) for up to 10 minutes per day, which may be used in 1-minute increments and requires no action to activate. However, she may only walk on air within or on top of natural or magical mist or fog, including fog-like gases such as those created by acid fog, cloudkill, incendiary cloud, or stinking cloud. Walking on top of such clouds carries no danger for the wearer, but walking through the cloud has its normal effect.",
+			"The wearer of these slippers may walk on air (as the spell {spell/air walk}) for up to 10 minutes per day, which may be used in 1-minute increments and requires no action to activate. However, she may only walk on air within or on top of natural or magical mist or fog, including fog-like gases such as those created by acid fog, cloudkill, incendiary cloud, or stinking cloud. Walking on top of such clouds carries no danger for the wearer, but walking through the cloud has its normal effect.",
 			"",
 			"### Construction",
 			"",
@@ -962,7 +962,7 @@
 			"**Aura** moderate conjuration; **CL** 13th  ",
 			"**Slot** feet; **Price** 12,500 gp; **Weight** 2 lbs.",
 			"",
-			"Ants occasionally crawl in and out of the numerous tiny holes dotting these sturdy, thick-soled boots. The boots' wearer receives a +4 competence bonus on Fortitude saving throws against swarms' distraction ability. Additionally, once per day, the wearer can call forth a swarm of army ants as a standard action. This functions as the spell vomit swarm, except the swarm crawls out from the boots instead of being vomited forth. The swarm lasts for 13 rounds before dissipating.",
+			"Ants occasionally crawl in and out of the numerous tiny holes dotting these sturdy, thick-soled boots. The boots' wearer receives a +4 competence bonus on Fortitude saving throws against swarms' distraction ability. Additionally, once per day, the wearer can call forth a swarm of army ants as a standard action. This functions as the spell {spell/vomit swarm}, except the swarm crawls out from the boots instead of being vomited forth. The swarm lasts for 13 rounds before dissipating.",
 			"",
 			"### Construction",
 			"",
@@ -1408,11 +1408,11 @@
 			"**Aura** strong evocation; **CL** 15th  ",
 			"**Slot** feet; **Price** 67,500 gp; **Weight** 1 lb.",
 			"",
-			"These thick hide boots allow the wearer to detect unseen enemies, and they provide a final line of defense against overwhelming foes. The wearer gains tremorsense with a range of up to 60 feet as long as she is standing on solid ground. Additionally, once per day, by stomping repeatedly on an earthen or stone surface as a full-round action that provokes attacks of opportunity, the wearer can cast earthquake as a spell-like ability.",
+			"These thick hide boots allow the wearer to detect unseen enemies, and they provide a final line of defense against overwhelming foes. The wearer gains tremorsense with a range of up to 60 feet as long as she is standing on solid ground. Additionally, once per day, by stomping repeatedly on an earthen or stone surface as a full-round action that provokes attacks of opportunity, the wearer can cast {spell/earthquake} as a spell-like ability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, earthquake, see invisibility; **Cost** 33,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, earthquake, {spell/see invisibility}; **Cost** 33,750 gp"
 		]
 	},
 	"seven_league_boots": {
@@ -2484,7 +2484,7 @@
 			"**Aura** faint enchantment and transmutation; **CL** 5th  ",
 			"**Slot** headband; **Price** 40,000 gp; **Weight** 1 lb.",
 			"",
-			"This plain white band makes the wearer seem more attractive. The wearer gains a +2 competence bonus on Charisma-based checks with other members of his creature type. If the wearer is of the humanoid type, he gains a +5 competence bonus on creatures of his subtype instead. Once per day, the wearer can attempt to affect a creature as the spell unnatural lust but with a duration of 10 minutes.",
+			"This plain white band makes the wearer seem more attractive. The wearer gains a +2 competence bonus on Charisma-based checks with other members of his creature type. If the wearer is of the humanoid type, he gains a +5 competence bonus on creatures of his subtype instead. Once per day, the wearer can attempt to affect a creature as the spell {spell/unnatural lust} but with a duration of 10 minutes.",
 			"",
 			"### Construction",
 			"",

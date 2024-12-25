@@ -543,7 +543,7 @@
 			"",
 			"This ability replaces aura of justice.",
 			"",
-			"**Champion of Life (Sp):** An invigorator's holy resolve can sometimes overcome death - or smite the horror that is undeath. At 20th level, three times per day as a standard action, an invigorator can use breath of life as a spell-like ability, using her paladin level as her caster level. Creatures brought back to life with this ability do not suffer the normal temporary negative level the spell imposes.",
+			"**Champion of Life (Sp):** An invigorator's holy resolve can sometimes overcome death - or smite the horror that is undeath. At 20th level, three times per day as a standard action, an invigorator can use {spell/breath of life} as a spell-like ability, using her paladin level as her caster level. Creatures brought back to life with this ability do not suffer the normal temporary negative level the spell imposes.",
 			"",
 			"This ability replaces holy champion."
 		]
@@ -637,7 +637,7 @@
 			"- The target gains a +4 sacred bonus on Appraise and Sense Motive checks.",
 			"- The target gains a +4 sacred bonus on Perception checks and to CMD against disarm and steal combat maneuvers.",
 			"- The target gains a +4 sacred bonus on Craft, Perform, and Profession checks.",
-			"- The target can use locate object as a spell-like ability once, using the knight of coins' class level as the caster level.",
+			"- The target can use {spell/locate object} as a spell-like ability once, using the knight of coins' class level as the caster level.",
 			"- The target can treat one settlement as having its base value and purchase limit increased by 30%. The target must choose the affected settlement when the knight of coins bestows this blessing.",
 			"- The target can treat one settlement as being one size category larger for the purposes of determining available magic items. The target must choose the affected settlement when the knight of coins bestows this blessing.",
 			"",
@@ -743,7 +743,7 @@
 			"",
 			"This alters the paladin's armor proficiency and class skills.",
 			"",
-			"**Seek Impressions (Ex, Sp):** Pearl seekers gain their power from a rare resonant sensitivity to the visiongranting entity. A pearl seeker gains {feat/Psychic Sensitivity} as a bonus feat and can use detect psychic significance at will as a spell-like ability.",
+			"**Seek Impressions (Ex, Sp):** Pearl seekers gain their power from a rare resonant sensitivity to the visiongranting entity. A pearl seeker gains {feat/Psychic Sensitivity} as a bonus feat and can use {spell/detect psychic significance} at will as a spell-like ability.",
 			"",
 			"This ability replaces detect evil.",
 			"",
@@ -799,7 +799,7 @@
 			"",
 			"If a holy symbol with a celestial spirit is destroyed, the sacred servant loses the use of this ability for 30 days, or until she gains a level, whichever comes first. During this 30-day period, the sacred servant takes a -1 penalty on attack and weapon damage rolls.",
 			"",
-			"**Call Celestial Ally (Sp):** At 8th level, a sacred servant can call upon her deity for aid, in the form of a powerful servant. This allows the sacred servant to cast lesser planar ally once per week as a spell-like ability without having to pay the material component cost or the servant (for reasonable tasks). At 12th level, this improves to planar ally and at 16th level, this improves to greater planar ally. The sacred servant's caster level for this effect is equal to her paladin level. This ability replaces aura of resolve."
+			"**Call Celestial Ally (Sp):** At 8th level, a sacred servant can call upon her deity for aid, in the form of a powerful servant. This allows the sacred servant to cast {spell/lesser planar ally} once per week as a spell-like ability without having to pay the material component cost or the servant (for reasonable tasks). At 12th level, this improves to {spell/planar ally} and at 16th level, this improves to {spell/greater planar ally}. The sacred servant's caster level for this effect is equal to her paladin level. This ability replaces aura of resolve."
 		]
 	},
 	"sacred_shield": {
@@ -1087,7 +1087,7 @@
 			"",
 			"This alters the paladin's aura.",
 			"",
-			"**Locate Ally (Sp):** Once per day, a vindictive bastard can cast locate creature as a spell-like ability with a caster level equal to her paladin level, but she can do so only to target an ally whom she has spent at least 24 hours in close proximity to within the last week.",
+			"**Locate Ally (Sp):** Once per day, a vindictive bastard can cast {spell/locate creature} as a spell-like ability with a caster level equal to her paladin level, but she can do so only to target an ally whom she has spent at least 24 hours in close proximity to within the last week.",
 			"",
 			"This replaces detect evil.",
 			"",

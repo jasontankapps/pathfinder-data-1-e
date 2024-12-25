@@ -7,6 +7,8 @@
 			"Blood of the Beast"
 		],
 		"description": [
+			"{jumplist Class Skills / Class Features / Ex-Monks / Alternate Capstones / Favored Class Bonuses / Archetypes}",
+			"",
 			"## Unchained Monk",
 			"",
 			"{SOURCE Pathfinder Unchained/14}",
@@ -195,6 +197,8 @@
 			"Blood of the Beast"
 		],
 		"description": [
+			"{jumplist Class Skills / Class Features / Alternate Capstones / Favored Class Bonuses / Archetypes}",
+			"",
 			"## Ninja",
 			"",
 			"{SOURCE Ultimate Combat/13}",
@@ -342,6 +346,8 @@
 			"Psychic Anthology"
 		],
 		"description": [
+			"{jumplist Class Skills / Class Features and Spells Per Day / Alternate Capstones / Favored Class Bonuses / Archetypes}",
+			"",
 			"## Occultist",
 			"",
 			"{SOURCE Occult Adventures/46}",
@@ -573,6 +579,8 @@
 			"Villain Codex"
 		],
 		"description": [
+			"{jumplist Class Skills / Class Features and Spells Per Day / Alternate Capstones / Favored Class Bonuses / Archetypes}",
+			"",
 			"## Oracle",
 			"",
 			"{SOURCE Advanced Player's Guide/42}",
@@ -814,6 +822,8 @@
 			"Ultimate Magic"
 		],
 		"description": [
+			"{jumplist Class Skills / Class Features and Spells Per Day / Ex-Paladins / Alternate Capstones / Favored Class Bonuses / Archetypes}",
+			"",
 			"## Paladin",
 			"",
 			"{SOURCE PRPG Core Rulebook/60}",
@@ -1134,6 +1144,8 @@
 			"Ultimate Wilderness"
 		],
 		"description": [
+			"{jumplist Class Skills / Class Features and Spells Per Day / Alternate Capstones / Favored Class Bonuses / Archetypes}",
+			"",
 			"## Psychic",
 			"",
 			"{SOURCE Occult Adventures/60}",
@@ -1225,9 +1237,9 @@
 			"",
 			"At 1st level, a psychic learns an additional spell determined by her discipline. She learns another additional spell at 4th level and every 2 levels thereafter, until learning the final one at 18th level. These spells are in addition to the number of spells gained each level. Spells learned from a discipline can't be exchanged for different spells at higher levels.",
 			"",
-			"**Detect Thoughts (Sp):** At 2nd level, a psychic can use *detect thoughts* as a spell-like ability once per day. She can also expend any unused spell slot of 1st level or higher to cast *detect thoughts*. If she does so, she uses the level of the spell slot expended to determine the Will save DC. When a psychic gains this ability, if she knows *detect thoughts*, she can learn a different 1st-level spell in place of *detect thoughts*, losing the old spell in exchange for the new one.",
+			"**Detect Thoughts (Sp):** At 2nd level, a psychic can use {spell/detect thoughts} as a spell-like ability once per day. She can also expend any unused spell slot of 1st level or higher to cast *detect thoughts*. If she does so, she uses the level of the spell slot expended to determine the Will save DC. When a psychic gains this ability, if she knows *detect thoughts*, she can learn a different 1st-level spell in place of *detect thoughts*, losing the old spell in exchange for the new one.",
 			"",
-			"**Telepathic Bond (Sp):** At 9th level, a psychic can use *telepathic bond* as a spell-like ability once per day, using her psychic level as her caster level. She can't leave herself out of a bond created in this way. She can also expend any unused spell slot of 4th level or higher to cast *telepathic bond*. Casting the spell using a higher-level spell slot gives no benefit on its own, but the psychic can apply metamagic feats that would increase the spell level to the appropriate level. For instance, if the psychic knows Extend Spell, she can use a 5th-level spell slot to cast extended *telepathic bond* as a full-round action. When a psychic who knows *telepathic bond* gains this ability, she can learn a different 4th-level spell in place of *telepathic bond*, losing the old spell in exchange for the new one.",
+			"**Telepathic Bond (Sp):** At 9th level, a psychic can use {spell/telepathic bond} as a spell-like ability once per day, using her psychic level as her caster level. She can't leave herself out of a bond created in this way. She can also expend any unused spell slot of 4th level or higher to cast *telepathic bond*. Casting the spell using a higher-level spell slot gives no benefit on its own, but the psychic can apply metamagic feats that would increase the spell level to the appropriate level. For instance, if the psychic knows {feat/Extend Spell}, she can use a 5th-level spell slot to cast extended *telepathic bond* as a full-round action. When a psychic who knows *telepathic bond* gains this ability, she can learn a different 4th-level spell in place of *telepathic bond*, losing the old spell in exchange for the new one.",
 			"",
 			"**Major Amplifications:** At 11th level and every 4 levels thereafter, a psychic can choose a [major amplification](ability/major_phrenic_amplifications) in place of a phrenic amplification.",
 			"",

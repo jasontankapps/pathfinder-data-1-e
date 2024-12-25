@@ -2113,7 +2113,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse",
 			"",
-			"The blood of a Shory aeromancer flows through your veins. You gain a +2 bonus on concentration checks when casting flight spells such as levitate, fly, or overland flight. Once per day, you can use message as a spell-like ability."
+			"The blood of a Shory aeromancer flows through your veins. You gain a +2 bonus on concentration checks when casting flight spells such as {spell/levitate}, {spell/fly}, or {spell/overland flight}. Once per day, you can use {spell/message} as a spell-like ability."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -2457,7 +2457,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Legacy of Fire",
 			"",
-			"The [Pathfinder Society](rule/aff_scholars) has long intrigued you-tales of the exotic lands and strange discoveries made by Pathfinders have enchanted your dreams and fired your imagination since childhood. When Pathfinders came through your village or neighborhood, they immediately enthralled you with their stories and knowledge. Yet at the time, you were far too young to join them, and when they left for adventure you had to stay behind. Now that you are of age, you've traveled to Absalom to apply for membership. The application process went well, and you're now a full member. Your first assignment is to accompany Garavel's group to Kelmarane - the Pathfinder Society has heard rumors of several ancient structures in the area, including a ruined monastery once dedicated to Sarenrae, and would like to learn more about them. Even more pressing is the mystery of what brought about Kelmarane's ruin in the first place-reports of which are vague at best. If you can determine the cause of the village's abandonment so many years ago, you're sure the Society would be impressed. You begin the game with your own wayfinder, a loan from your venture-captain. you've promised to pay your venturecaptain 500 gp for the wayfinder some day, but for now it's yours to use. A wayfinder is a magical compass that grants you a +2 circumstance bonus on Survival checks to avoid becoming lost, and can be commanded to emit light as the spell (CL 5th) as a standard action."
+			"The [Pathfinder Society](rule/aff_scholars) has long intrigued you-tales of the exotic lands and strange discoveries made by Pathfinders have enchanted your dreams and fired your imagination since childhood. When Pathfinders came through your village or neighborhood, they immediately enthralled you with their stories and knowledge. Yet at the time, you were far too young to join them, and when they left for adventure you had to stay behind. Now that you are of age, you've traveled to Absalom to apply for membership. The application process went well, and you're now a full member. Your first assignment is to accompany Garavel's group to Kelmarane - the Pathfinder Society has heard rumors of several ancient structures in the area, including a ruined monastery once dedicated to Sarenrae, and would like to learn more about them. Even more pressing is the mystery of what brought about Kelmarane's ruin in the first place-reports of which are vague at best. If you can determine the cause of the village's abandonment so many years ago, you're sure the Society would be impressed. You begin the game with your own wayfinder, a loan from your venture-captain. you've promised to pay your venturecaptain 500 gp for the wayfinder some day, but for now it's yours to use. A wayfinder is a magical compass that grants you a +2 circumstance bonus on Survival checks to avoid becoming lost, and can be commanded to emit {spell/light} as the spell (CL 5th) as a standard action."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -2562,7 +2562,7 @@
 			"**Type:** Faith  ",
 			"**Requirements:** See text",
 			"",
-			"As a follower of Razmir, the [Prophecies of Kalistrade](rule/f_profits), or some other tradition that preaches self-reliance, you make a point of not seeking divine aid for minor matters. When you gain this trait, choose one of the following 0-level spells: create water, mending, purify food and drink, or stabilize. You can cast this spell once per day as a spell-like ability, using your character level as your caster level. Once chosen, this selection can't change."
+			"As a follower of Razmir, the [Prophecies of Kalistrade](rule/f_profits), or some other tradition that preaches self-reliance, you make a point of not seeking divine aid for minor matters. When you gain this trait, choose one of the following 0-level spells: {spell/create water}, {spell/mending}, {spell/purify food and drink}, or {spell/stabilize}. You can cast this spell once per day as a spell-like ability, using your character level as your caster level. Once chosen, this selection can't change."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -4086,7 +4086,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Pharasma}",
 			"",
-			"You were born with the ability to stop the passage to death's door. Once per day, you can use stabilize as a spell-like ability, but with a range of touch."
+			"You were born with the ability to stop the passage to death's door. Once per day, you can use {spell/stabilize} as a spell-like ability, but with a range of touch."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -4929,7 +4929,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
 			"",
-			"You're not frightened of the old wives' tales of vampires and ghosts, and though you try to avoid the undead, you've learned how to deal with them. You may cast disrupt undead once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
+			"You're not frightened of the old wives' tales of vampires and ghosts, and though you try to avoid the undead, you've learned how to deal with them. You may cast {spell/disrupt undead} once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -5336,7 +5336,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Vampire; Nosferatu",
 			"",
-			"Your body is so ancient you fear damaging it with exertion. You gain a +1 trait bonus to your caster level when casting (or using as a spell-like ability) fly, levitate, mage hand, telekinesis, and similar spells that move objects through sheer will."
+			"Your body is so ancient you fear damaging it with exertion. You gain a +1 trait bonus to your caster level when casting (or using as a spell-like ability) {spell/fly}, {spell/levitate}, {spell/mage hand}, {spell/telekinesis}, and similar spells that move objects through sheer will."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -5481,7 +5481,7 @@
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 21 Abadius and 16 Calistril",
 			"",
-			"You are bathed in the light of the Lantern Bearer, who guides the Caravan through the darkest nights. You can cast light three times per day as a spell-like ability, treating your character level as your caster level."
+			"You are bathed in the light of the Lantern Bearer, who guides the Caravan through the darkest nights. You can cast {spell/light} three times per day as a spell-like ability, treating your character level as your caster level."
 		],
 		"subhierarchy": [[ "Cosmic Traits", "main/traits_cosmic" ]]
 	},
@@ -5572,7 +5572,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
 			"",
-			"Westcrown's dilapidated Pathfinder lodge of Delvehaven has long excited your imagination. Forcibly closed by the order of the city's diabolical rulers, the Pathfinders of Westcrown were exiled, forcing them to leave behind untold knowledge and the treasures of countless expeditions. Today, Delvehaven lies under the pale of fearful rumors and dark magic, and bureaucratic red tape has prevented trespass on the lodge's well-protected grounds. Having secretly and illegally contacted agents of the Pathfinders, you've expressed your interest in aiding their ventures in Cheliax-with a particular eye toward investigating Delvehaven, the source of your long-standing adventuresome interests. To your surprise, some days ago you received a message back from an unnamed Pathfinder operating underground in the country. Along with encouraging you to investigate the lodge and report your findings to the Grand Lodge in Absalom, he's sent along a battered and tarnished, yet still functional wayfinder. you've promised yourself to pay back your unknown contact the 500 gp cost of the item someday, but until then, it's yours to use. A wayfinder is a magical compass that grants you a +2 circumstance bonus on Survival checks to avoid becoming lost, and can be commanded to emit light as the spell (CL 5th) as a standard action."
+			"Westcrown's dilapidated Pathfinder lodge of Delvehaven has long excited your imagination. Forcibly closed by the order of the city's diabolical rulers, the Pathfinders of Westcrown were exiled, forcing them to leave behind untold knowledge and the treasures of countless expeditions. Today, Delvehaven lies under the pale of fearful rumors and dark magic, and bureaucratic red tape has prevented trespass on the lodge's well-protected grounds. Having secretly and illegally contacted agents of the Pathfinders, you've expressed your interest in aiding their ventures in Cheliax-with a particular eye toward investigating Delvehaven, the source of your long-standing adventuresome interests. To your surprise, some days ago you received a message back from an unnamed Pathfinder operating underground in the country. Along with encouraging you to investigate the lodge and report your findings to the Grand Lodge in Absalom, he's sent along a battered and tarnished, yet still functional wayfinder. you've promised yourself to pay back your unknown contact the 500 gp cost of the item someday, but until then, it's yours to use. A wayfinder is a magical compass that grants you a +2 circumstance bonus on Survival checks to avoid becoming lost, and can be commanded to emit {spell/light} as the spell (CL 5th) as a standard action."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -5585,7 +5585,7 @@
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 21 Sarenith and 20 Erastus",
 			"",
-			"Like the father of the Cosmic Caravan, you have an innate sense of direction. Three times per day, you can use know direction as a spell-like ability, treating your character level as your caster level."
+			"Like the father of the Cosmic Caravan, you have an innate sense of direction. Three times per day, you can use {spell/know direction} as a spell-like ability, treating your character level as your caster level."
 		],
 		"subhierarchy": [[ "Cosmic Traits", "main/traits_cosmic" ]]
 	},

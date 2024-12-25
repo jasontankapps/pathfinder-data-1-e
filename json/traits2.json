@@ -386,7 +386,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Red-scaled",
 			"",
-			"Like the red dragons that inspire your tribe, you're blessed with a small spark of incendiary magic. You are able to cast spark three times per day as a spell-like ability. The caster level is equal to your character level. This spell-like ability's save DC is Intelligence-based."
+			"Like the red dragons that inspire your tribe, you're blessed with a small spark of incendiary magic. You are able to cast {spell/spark} three times per day as a spell-like ability. The caster level is equal to your character level. This spell-like ability's save DC is Intelligence-based."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -1970,7 +1970,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"You are touched by the supernatural essence of nature, marking you since birth as something other than purely mortal. Choose a single 0-level druid spell. You can cast this spell once per day as a spell-like ability with a caster level equal to your character level."
+			"You are touched by the supernatural essence of nature, marking you since birth as something other than purely mortal. Choose a single 0-level {main/spells_<druid/ spell}. You can cast this spell once per day as a spell-like ability with a caster level equal to your character level."
 		],
 		"subhierarchy": [[ "Magic Traits", "main/traits_magic" ]]
 	},
@@ -3345,7 +3345,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
 			"",
-			"You are a tiefling. You might be an escaped slave, a hidden shame, or a homeless vagabond, but whatever your upbringing, life has been particularly hard on you. You have suffered greatly, nearly starving to death one winter, nearly being beaten to death by racist sailors one summer, and so on. Whether or not these experiences have made you a bitter and cynical scoundrel or a pious and hopeful optimist is up to you, but one thing is certain-you are something less than even your tiefling kin. Perhaps it is a result of your hard life, or perhaps it is due to some fault in your fiendish heritage, but you lack a tiefling's standard resistances to cold, electricity, and fire-instead, you merely have a +2 bonus on all saving throws made against these effects. Likewise, you do not have the ability to use darkness as a spell-like ability once per day-instead, you may choose any one 0-level spell that you can instead use at will as a spell-like ability."
+			"You are a tiefling. You might be an escaped slave, a hidden shame, or a homeless vagabond, but whatever your upbringing, life has been particularly hard on you. You have suffered greatly, nearly starving to death one winter, nearly being beaten to death by racist sailors one summer, and so on. Whether or not these experiences have made you a bitter and cynical scoundrel or a pious and hopeful optimist is up to you, but one thing is certain-you are something less than even your tiefling kin. Perhaps it is a result of your hard life, or perhaps it is due to some fault in your fiendish heritage, but you lack a tiefling's standard resistances to cold, electricity, and fire-instead, you merely have a +2 bonus on all saving throws made against these effects. Likewise, you do not have the ability to use {spell/darkness} as a spell-like ability once per day-instead, you may choose any one 0-level spell that you can instead use at will as a spell-like ability."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -4539,7 +4539,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Elf",
 			"",
-			"You still remember a few prayers from your past experience serving in a temple. Once per day you may cast cure minor wounds as a spell-like ability at caster level 1. The save DC is Wisdom-based."
+			"You still remember a few prayers from your past experience serving in a temple. Once per day you may cast {spell/cure light wounds} as a spell-like ability at caster level 1. The save DC is Wisdom-based."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -4773,7 +4773,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"You're destined to bring light to the darkness and expunge the faithless from the deep. Whenever you cast a spell granted by the sun domain (or associated subdomains) while in the Darklands, the spell functions at 1 caster level higher than your actual caster level."
+			"You're destined to bring light to the darkness and expunge the faithless from the deep. Whenever you cast a spell granted by the {domain/sun} domain (or associated subdomains) while in the Darklands, the spell functions at 1 caster level higher than your actual caster level."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},
@@ -4786,7 +4786,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
 			"",
-			"You were born with a blessing of the Dawnflower. Once per day, you can use light as a spell-like ability. Your caster level is equal to your character level."
+			"You were born with a blessing of the Dawnflower. Once per day, you can use {spell/light} as a spell-like ability. Your caster level is equal to your character level."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},
@@ -5545,7 +5545,7 @@
 			"",
 			"**Type:** Social",
 			"",
-			"That which has marked you for power has also given you proof to show others. You may cast light three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth - a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers)."
+			"That which has marked you for power has also given you proof to show others. You may cast {spell/light} three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth - a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers)."
 		],
 		"subhierarchy": [[ "Social Traits", "main/traits_social" ]]
 	},

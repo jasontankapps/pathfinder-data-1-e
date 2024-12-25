@@ -1991,7 +1991,7 @@
 			"**Prerequisites:** {feat/Improved Planar Mentor}, {feat/Planar Mentor}, character level 13th.  ",
 			"**Benefit:** You can benefit from your {feat/Planar Mentor} feat one additional time per day. You add the following to the list of spell-like abilities you can cast using Improved Planar Mentor for their respective alignments, each of which affects only a single target within 30 feet: *blasphemy* (evil), *dictum* (lawful), *holy word* (good), *slay living* (neutral), and *word of chaos* (chaotic).",
 			"",
-			"Once per week you can cast *greater planar ally* as a spell-like ability, but only to conjure your planar mentor. Your mentor requires only half the normal payment for its services."
+			"Once per week you can cast {spell/greater planar ally} as a spell-like ability, but only to conjure your planar mentor. Your mentor requires only half the normal payment for its services."
 		]
 	},
 	"greater_ray_shield": {
@@ -2549,7 +2549,7 @@
 			"",
 			"You know the language of the plants.  ",
 			"**Prerequisites:** Cha 13, character level 5th, gathlain.  ",
-			"**Benefit:** You can cast speak with plants once per day, as a spell-like ability. At 10th level and every 5 levels thereafter, you can cast speak with plants an additional time per day."
+			"**Benefit:** You can cast {spell/speak with plants} once per day, as a spell-like ability. At 10th level and every 5 levels thereafter, you can cast speak with plants an additional time per day."
 		]
 	},
 	"grenade_expert": {
@@ -2623,7 +2623,7 @@
 			"",
 			"You can speak with burrowing animals.  ",
 			"**Prerequisites:** Cha 13, gnome, gnome magic racial trait.  ",
-			"**Benefit:** You can use speak with animals as a spell-like ability at will, but only to communicate with burrowing animals like gophers, moles, and the like. You can still use your gnome speak with animals ability once per day to speak with any animal, as usual."
+			"**Benefit:** You can use {spell/speak with animals} as a spell-like ability at will, but only to communicate with burrowing animals like gophers, moles, and the like. You can still use your gnome speak with animals ability once per day to speak with any animal, as usual."
 		]
 	},
 	"group_deliver_touch_spells": {
@@ -4979,7 +4979,7 @@
 			"",
 			"If you listen close, you can hear the secrets of stone.  ",
 			"**Prerequisites:** {feat/Improved Stonecunning}.  ",
-			"**Benefit:** You gain stone tell as a spell-like ability usable once per day with a caster level equal to twice your tier."
+			"**Benefit:** You gain {spell/stone tell} as a spell-like ability usable once per day with a caster level equal to twice your tier."
 		],
 		"has_mythic_version": true
 	},

@@ -418,7 +418,7 @@
 			"",
 			"You can use your darkness spell-like ability more often.  ",
 			"**Prerequisites:** Darkness spell-like ability, tiefling.  ",
-			"**Benefit:** You can use darkness three times per day as a spell-like ability.  ",
+			"**Benefit:** You can use {spell/darkness} three times per day as a spell-like ability.  ",
 			"**Normal:** Tieflings can use darkness once per day as a spell-like ability."
 		]
 	},
@@ -2173,7 +2173,7 @@
 			"",
 			"Some ghorans glow with a nurturing inner light.  ",
 			"**Prerequisites:** Wis 13, ghoran.  ",
-			"**Benefit:** Once per day, you can cast daylight as a spell-like ability with a caster level equal to your character level. If you have the light dependent racial trait, you can instead cast this spell without the usual effect, but you are considered to be exposed to sunlight for that day."
+			"**Benefit:** Once per day, you can cast {spell/daylight} as a spell-like ability with a caster level equal to your character level. If you have the light dependent racial trait, you can instead cast this spell without the usual effect, but you are considered to be exposed to sunlight for that day."
 		]
 	},
 	"innocent_blood": {
@@ -2332,11 +2332,11 @@
 			"",
 			"| Spell-Like Ability | Minimum Character Level |",
 			"| --- | --- |",
-			"| Flare burst | 1st |",
-			"| Wake of light | 3rd |",
-			"| Searing light | 5th |",
-			"| Wandering star motes | 7th |",
-			"| Sunbeam (one beam only) | 9th |",
+			"| {spell/Flare burst} | 1st |",
+			"| {spell/Wake of light} | 3rd |",
+			"| {spell/Searing light} | 5th |",
+			"| {spell/Wandering star motes} | 7th |",
+			"| {spell/Sunbeam} (one beam only) | 9th |",
 			"",
 			"**Special:** You may take this feat multiple times. Each time you select it, you gain an additional use of daylight and may select another spell from the table."
 		]
@@ -2407,6 +2407,7 @@
 			"**Benefit:** A heightened spell has a higher spell level than normal (up to a maximum of 9th level). Unlike other metamagic feats, Heighten Spell actually increases the effective level of the spell that it modifies. All effects dependent on spell level (such as saving throw DCs and ability to penetrate a lesser globe of invulnerability) are calculated according to the heightened level. The heightened spell is as difficult to prepare and cast as a spell of its effective level."
 		]
 	},
+	"heightened": { "copyof": "heighten_spell" },
 	"heightened_trap_sense": {
 		"name": "Heightened Trap Sense",
 		"sources": [ "Osirion, Land of the Pharaohs" ],
@@ -4593,7 +4594,7 @@
 			"",
 			"You are able to use simple spells by drawing on nature's raw majesty.  ",
 			"**Prerequisites:** Knowledge (nature) 1 rank.  ",
-			"**Benefit:** You gain know direction as a constant spell-like ability, and can choose another druid orison you can cast as a spell-like ability once per day. Your caster level for both of these spell-like abilities is equal to your character level."
+			"**Benefit:** You gain {spell/know direction} as a constant spell-like ability, and can choose another [druid orison](main/spells_druid) you can cast as a spell-like ability once per day. Your caster level for both of these spell-like abilities is equal to your character level."
 		]
 	},
 	"nature_soul": {

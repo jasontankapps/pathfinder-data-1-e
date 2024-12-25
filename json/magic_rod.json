@@ -532,7 +532,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, charm animal; **Cost** 6,150 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/charm animal}; **Cost** 6,150 gp"
 		]
 	},
 	"rod_of_subtle_menace": {

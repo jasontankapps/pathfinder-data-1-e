@@ -1436,7 +1436,7 @@
 				"",
 				"**Requirements:** Born between 21 Abadius and 16 Calistril (or 8-14 on d%)",
 				"",
-				"You are bathed in the light of the [Lantern Bearer](rule/aff_lights), who guides the Caravan through the darkest nights. You can cast light three times per day as a spell-like ability, treating your character level as your caster level."
+				"You are bathed in the light of the [Lantern Bearer](rule/aff_lights), who guides the Caravan through the darkest nights. You can cast {spell/light} three times per day as a spell-like ability, treating your character level as your caster level."
 			],
 			[
 				"## {trait/The Newlyweds}",
@@ -1471,7 +1471,7 @@
 				"",
 				"**Requirements:** Born between 21 Sarenith and 20 Erastus (or 43-49 on d%)",
 				"",
-				"Like the father of the Cosmic Caravan, you have an innate sense of direction. Three times per day, you can use know direction as a spell-like ability, treating your character level as your caster level."
+				"Like the father of the Cosmic Caravan, you have an innate sense of direction. Three times per day, you can use {spell/know direction} as a spell-like ability, treating your character level as your caster level."
 			],
 			[
 				"## {trait/The Wagon}",

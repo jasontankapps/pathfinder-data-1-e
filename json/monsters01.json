@@ -2480,7 +2480,7 @@
 			"",
 			"Like other outsiders, muldnals are ageless and live immortal lives on the Outer Planes, ceaselessly carrying out their designated task without complaint. Rarely do they evolve without fully transforming into more powerful variants of agathions, but those who live eons in the dark caverns of Nirvana may grow in both size and prowess, and present an even larger threat to forces that would threaten the subterranean regions of the plane. These elder muldnals often lead small enclaves of other muldnals and take on saintlike qualities in many of their followers' eyes.",
 			"",
-			"Elder (+2 CR): A muldnal elder commands tremendous respect among its kind. It gains the advanced and giant creature simple templates, gains blindsight instead of tremorsense, and can cast spiked pit as a spell-like ability once per day."
+			"**Elder (+2 CR):** A muldnal elder commands tremendous respect among its kind. It gains the {template/advanced} and {template/giant} creature simple templates, gains {umr/blindsight} instead of tremorsense, and can cast {spell/spiked pit} as a spell-like ability once per day."
 		]
 	},
 	"muldnal": { "copyof": "agathion_muldnal" },

@@ -1245,11 +1245,11 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 9,000 gp; **Weight** 2 lbs.",
 			"",
-			"This long cloak is a patchwork of beast and humanoid hides roughly stitched together. A crude, crown-shaped patch of yellow-dyed fabric is sewn on the back, and a length of knotted hemp rope secures the cloak around the wearer's neck. The wearer gains a +5 competence bonus on Intimidate checks and the ability to use burning hands as a spell-like ability three times per day.",
+			"This long cloak is a patchwork of beast and humanoid hides roughly stitched together. A crude, crown-shaped patch of yellow-dyed fabric is sewn on the back, and a length of knotted hemp rope secures the cloak around the wearer's neck. The wearer gains a +5 competence bonus on Intimidate checks and the ability to use {spell/burning hands} as a spell-like ability three times per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, burning hands, cause fear; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, burning hands, {spell/cause fear}; **Cost** 4,500 gp"
 		]
 	},
 	"phantom_entourage": {
@@ -1710,7 +1710,7 @@
 			"These lustrous animal pelts are particularly treasured among Ulfen barbarians. While any humanoid creature can don and use such pelts, their powers are vastly enhanced for skinwalkers. All pelts of the beast grant the following powers:",
 			"",
 			"- A bite attack that deals damage appropriate to the wearer's size. If the wearer already has a bite attack, the critical threat range of this attack doubles. This does not stack with other magical effects that increase the threat range of a natural weapon.",
-			"- Speak with animals 1/day. If the wearer can already use speak with animals as a spell-like ability, she may do so at will.",
+			"- Speak with animals 1/day. If the wearer can already use {spell/speak with animals} as a spell-like ability, she may do so at will.",
 			"- The wearer may take the form of the animal from which the pelt came three times per day as if using {spell/beast shape I}. In addition, if the wearer is a skinwalker, her change shape ability is enhanced so that she may gain an additional bestial feature when taking her bestial form, selectable from the skinwalker heritage tied to the animal from which the pelt came. For instance, a werewolf-kin wearing a bear pelt of the beast could use her change shape ability to gain a climb speed from the pelt's bestial features (identical to the set listed for werebear-kin) in addition to darkvision from her set of werewolf-kin bestial features. Feats or abilities that affect how many bestial features the skinwalker may gain at a single time stack with this ability.",
 			"",
 			"Each pelt also grants a competence bonus on a check, based on its type. These bonuses increase by 50% for skinwalkers wearing a pelt that matches their lycanthropic heritage.",
@@ -2984,7 +2984,7 @@
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** wrist; **Price** 6,000 gp; **Weight** -;",
 			"",
-			"Consisting of a vine with five green berries, a verdant vine is worn tied around the wrist. Once per day on command, the wearer can pinch a berry off the vine, and throw it up to 30 feet away, like a splash weapon. Viciously thorny vines erupt in a 20-foot radius from the point of impact, even if the berry misses its target. Creatures within the area must succeed at a DC 16 Reflex saving throw or become entangled, as the spell entangle, as the vines coil around the creature's legs. The vines persist, but at the start of the affected creature's turn, it gains a new saving throw against the effect. If the affected creature fails the saving throw, it also takes 1d4 points of damage.",
+			"Consisting of a vine with five green berries, a verdant vine is worn tied around the wrist. Once per day on command, the wearer can pinch a berry off the vine, and throw it up to 30 feet away, like a splash weapon. Viciously thorny vines erupt in a 20-foot radius from the point of impact, even if the berry misses its target. Creatures within the area must succeed at a DC 16 Reflex saving throw or become entangled, as the spell {spell/entangle}, as the vines coil around the creature's legs. The vines persist, but at the start of the affected creature's turn, it gains a new saving throw against the effect. If the affected creature fails the saving throw, it also takes 1d4 points of damage.",
 			"",
 			"A DC 20 Strength check, made as a standard action, allows an affected creature to break free and end the effect. Failing the check causes the vines to constrict, dealing 1d4 points of damage.",
 			"",
@@ -3079,7 +3079,7 @@
 			"",
 			"Healthy Apple: When detached, this charm becomes an apple that when eaten (a standard action that provokes attacks of opportunity) heals 2d8 hit points. In addition, if the creature eating the apple is afflicted with any poison or diseases, it can attempt a new saving throw against each such affliction. Each successful saving throw immediately ends the corresponding affliction.",
 			"",
-			"Loving Heart: Upon detaching this charm, the wearer can use charm person as a spell-like ability (as the spell, Will DC 11) any time before the end of her next turn.",
+			"Loving Heart: Upon detaching this charm, the wearer can use {spell/charm person} as a spell-like ability (as the spell, Will DC 11) any time before the end of her next turn.",
 			"",
 			"Lucky Star: When this charm is activated, it releases good luck in a 20-foot-radius burst centered on the wearer. The wearer and her allies within the burst gain a +2 luck bonus on ability checks, attack rolls, saving throws, and skill checks for 1 round.",
 			"",
@@ -3411,11 +3411,11 @@
 			"",
 			"These bracers find particular use by Aspis agents who often tangle with the [Pathfinder Society](rule/aff_scholars). As a standard action, a creature wearing these bracers can attempt a steal combat maneuver check to nab any orbiting ioun stone within 30 feet, though the ioun stone's owner receives a +4 circumstance bonus to her CMD. If the bracers' wearer succeeds, the stolen ioun stone embeds itself in one of the bracers' four available slots (each bracer has two). Embedded ioun stones provide their bonuses to the wearer and can be removed with a move action.",
 			"",
-			"As a standard action, the wearer can temporarily drain the power of any ioun stone that is embedded in the bracers and isn't dull gray, and can then channel that power to cast magic missile as a spell-like ability, firing three missiles at a target or targets up to 160 feet away. Drained ioun stones become dull gray for the next 2d4 hours.",
+			"As a standard action, the wearer can temporarily drain the power of any ioun stone that is embedded in the bracers and isn't dull gray, and can then channel that power to cast {spell/magic missile} as a spell-like ability, firing three missiles at a target or targets up to 160 feet away. Drained ioun stones become dull gray for the next 2d4 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, magic missile, telekinesis; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, magic missile, {spell/telekinesis}; **Cost** 7,500 gp"
 		]
 	},
 	"style_stealing_vambrace": {
@@ -3999,15 +3999,15 @@
 			"",
 			"In addition to its ability to cast {spell/light}, as a typical {magic-wondrous/wayfinder}, the wayfinder of cooperation can be attuned to an {magic-wondrous/ioun stone} as a standard action by touching the stone to the wayfinder's sturdy rosewood casing. Once the wayfinder of cooperation is attuned, the bearer of the wayfinder of cooperation can concentrate as a standard action to sense the direction of and distance to the attuned ioun stone. This bond functions across any distance, a long as the bearer and the stone are on the same plane. The wayfinder can be attuned to only one ioun stone at a time, and the bearer can dismiss the attunement at any time as a free action.",
 			"",
-			"6th Level: The bearer increases the bonus she grants from the aid another action by 1. This does not stack with the benefits of other feats or class features that improve the bonus she grants to an ally with aid another.",
+			"*6th Level:* The bearer increases the bonus she grants from the aid another action by 1. This does not stack with the benefits of other feats or class features that improve the bonus she grants to an ally with aid another.",
 			"",
-			"8th Level: Once per day as a standard action, the bearer can use [inspire competence](class/bard) as if she were a bard with a level equal to her character level. The bonuses granted by this ability last until the ally completes the task he is attempting.",
+			"*8th Level:* Once per day as a standard action, the bearer can use [inspire competence](class/bard) as if she were a bard with a level equal to her character level. The bonuses granted by this ability last until the ally completes the task he is attempting.",
 			"",
-			"11th Level: The bearer is constantly aware of the position and condition (as {spell/status}) of anyone who has activated an ioun stone attuned to the wayfinder of cooperation.",
+			"*11th Level:* The bearer is constantly aware of the position and condition (as {spell/status}) of anyone who has activated an ioun stone attuned to the wayfinder of cooperation.",
 			"",
 			"The bearer can use {spell/shadow walk} once per day as a spell-like ability.",
 			"",
-			"16th Level: Once per day, the bearer of an ioun stone attuned to the wayfinder of cooperation can summon the wayfinder's bearer to her side as if she were activating an appropriately keyed charm from a {magic-wondrous/bracelet of friends}.",
+			"*16th Level:* Once per day, the bearer of an ioun stone attuned to the wayfinder of cooperation can summon the wayfinder's bearer to her side as if she were activating an appropriately keyed charm from a {magic-wondrous/bracelet of friends}.",
 			"",
 			"**Goal:** The bearer must successfully use the aid another action to increase an attack roll, a skill check, or a saving throw of at least 10 allies. To count toward this goal, the bearer's assistance must have made the difference between success and failure on the roll.  ",
 			"**Reward:** The wayfinder of cooperation can be simultaneously attuned to a number of additional ioun stones equal to half the bearer's character level, rather than a single ioun stone."
