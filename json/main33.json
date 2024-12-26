@@ -4,10 +4,32 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"description": [
-			"# Mythic Spells by Class",
-			"## main/spells_mythic_arcane Arcane Classes",
-			"## main/spells_mythic_divine Divine Classes",
-			"## main/spells_mythic_occult Occult Classes",
+			"# Arcane Mythic Spells by Class",
+			"## main/spells_mythic_alchemist Alchemist",
+			"## main/spells_mythic_arcanist_sorcerer_wizard Arcanist, Sorcerer and Wizard",
+			"## main/spells_mythic_bard_skald Bard and Skald",
+			"## main/spells_mythic_bloodrager Bloodrager",
+			"## main/spells_mythic_investigator Investigator",
+			"## main/spells_mythic_magus Magus",
+			"## main/spells_mythic_summoner Summoner",
+			"## main/spells_mythic_unchained_summoner Unchained Summoner",
+			"## main/spells_mythic_witch Witch",
+			"# Divine Mythic Spells by Class",
+			"## main/spells_mythic_antipaladin Antipaladin",
+			"## main/spells_mythic_cleric_oracle Cleric and Oracle",
+			"## main/spells_mythic_druid Druid",
+			"## main/spells_mythic_hunter Hunter",
+			"## main/spells_mythic_inquisitor Inquisitor",
+			"## main/spells_mythic_paladin Paladin",
+			"## main/spells_mythic_rangers Ranger",
+			"## main/spells_mythic_shaman Shaman",
+			"## main/spells_mythic_warpriest Warpriest",
+			"# Occult Mythic Spells by Class",
+			"## main/spells_mythic_medium Mythic Medium Spells",
+			"## main/spells_mythic_mesmerist Mythic Mesmerist Spells",
+			"## main/spells_mythic_occultist Mythic Occultist Spells",
+			"## main/spells_mythic_psychic Mythic Psychic Spells",
+			"## main/spells_mythic_spiritualist Mythic Spiritualist Spells",
 			"---",
 			[ "{table0}" ]
 		],
@@ -145,30 +167,15 @@
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
-	"spells_mythic_arcane": {
-		"title": "Arcane Mythic Spells",
+	"spells_mythic_arcanist_sorcerer_wizard": {
+		"title": "Mythic Arcanist, Sorcerer and Wizard Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"description": [
-			"# Arcanist, Sorcerer and Wizard",
-			[ "{table0}" ],
-			"# Bard and Skald",
-			[ "{table5}" ],
-			"# Magus",
-			[ "{table6}" ],
-			"# Alchemist",
-			[ "{table1}" ],
-			"# Investigator",
-			[ "{table2}" ],
-			"# Witch",
-			[ "{table7}" ],
-			"# Bloodrager",
-			[ "{table8}" ],
-			"# Summoner",
-			[ "{table3}" ],
-			"# Unchained Summoner",
-			[ "{table4}" ]
-		],
+		"description": [ [
+			"## Mythic Arcanist, Sorcerer and Wizard Spells",
+			"",
+			"{table0}"
+		] ],
 		"tables": [
 			{
 				"id": "arcanist sorcerer wizards mythic spells table",
@@ -262,7 +269,20 @@
 					[ "{spell/Time Stop}", 9, "transmutation", null, null, "You act freely for 1d4+1 rounds." ],
 					[ "{spell/Wish}", 9, "universal", null, null, "As limited wish, but with fewer limits." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_alchemist": {
+		"title": "Mythic Alchemist Extracts",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Alchemist Extracts",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "alchemist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -295,7 +315,20 @@
 					[ "{spell/Form of the Dragon I}", 6, "transmutation", "polymorph", null, "Turns you into a Medium dragon." ],
 					[ "{spell/Mislead}", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_investigator": {
+		"title": "Mythic Investigator Extracs",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Investigator Extracs",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "investigator mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -328,7 +361,20 @@
 					[ "{spell/Form of the Dragon I}", 6, "transmutation", "polymorph", null, "Turns you into a Medium dragon." ],
 					[ "{spell/Mislead}", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_summoner": {
+		"title": "Mythic Summoner Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Summoner Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "summoner mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -349,7 +395,20 @@
 					[ "{spell/Wall of Stone}", 4, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ],
 					[ "{spell/Maze}", 6, "conjuration", "teleportation", null, "Traps subject in extradimensional maze." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_unchained_summoner": {
+		"title": "Mythic Unchained Summoner Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Unchained Summoner Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "unchained_summoner mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -371,7 +430,20 @@
 					[ "{spell/Sending}", 5, "evocation", null, null, "Delivers short message anywhere, instantly." ],
 					[ "{spell/Wall of Stone}", 5, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_bard_skald": {
+		"title": "Mythic Bard and Skald Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Bard and Skald Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "bard and skald mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -401,7 +473,20 @@
 					[ "{spell/Shield of the Dawnflower}", 4, "evocation", null, "fire, good, light", "Create a protective shield of sunlight." ],
 					[ "{spell/Mislead}", 5, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_magus": {
+		"title": "Mythic Magus Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Magus Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "magus mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -445,7 +530,20 @@
 					[ "{spell/Form of the Dragon I}", 6, "transmutation", "polymorph", null, "Turns you into a Medium dragon." ],
 					[ "{spell/Mislead}", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_witch": {
+		"title": "Mythic Witch Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Witch Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "witch mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -498,7 +596,20 @@
 					[ "{spell/Spawn Calling}", 9, "conjuration", "calling", "chaotic, evil", "Call the Spawn of Rovagug." ],
 					[ "{spell/Storm of Vengeance}", 9, "conjuration", "summoning", null, "Storm rains acid, lightning, and hail." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_bloodrager": {
+		"title": "Mythic Bloodrager Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Bloodrager Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "bloodrager mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -540,32 +651,17 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
 	},
-	"spells_mythic_divine": {
-		"title": "Divine Mythic Spells",
+	"spells_mythic_cleric_oracle": {
+		"title": "Mythic Cleric and Oracle Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"description": [
-			"# Cleric and Oracle",
-			[ "{table0}" ],
-			"# Druid",
-			[ "{table1}" ],
-			"# Ranger",
-			[ "{table2}" ],
-			"# Hunter",
-			[ "{table3}" ],
-			"# Paladin",
-			[ "{table6}" ],
-			"# Antipaladin",
-			[ "{table7}" ],
-			"# Inquisitor",
-			[ "{table4}" ],
-			"# Shaman",
-			[ "{table8}" ],
-			"# Warpriest",
-			[ "{table5}" ]
-		],
+		"description": [ [
+			"## Mythic Cleric and Oracle Spells",
+			"",
+			"{table0}"
+		] ],
 		"tables": [
 			{
 				"id": "cleric oracle mythic spells table",
@@ -614,7 +710,20 @@
 					[ "{spell/Spawn Calling}", 9, "conjuration", "calling", "chaotic, evil", "Call the Spawn of Rovagug." ],
 					[ "{spell/Storm of Vengeance}", 9, "conjuration", "summoning", null, "Storm rains acid, lightning, and hail." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_druid": {
+		"title": "Mythic Druid Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Druid Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "druid mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -652,7 +761,20 @@
 					[ "{spell/Regenerate}", 9, "conjuration", "healing", null, "Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35)." ],
 					[ "{spell/Storm of Vengeance}", 9, "conjuration", "summoning", null, "Storm rains acid, lightning, and hail." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_rangers": {
+		"title": "Mythic Ranger Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Ranger Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "ranger mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -670,7 +792,20 @@
 					[ "{spell/Named Bullet}", 3, "divination", null, null, "Imbues ammunition with accuracy against a specific creature type." ],
 					[ "{spell/Shield of the Dawnflower}", 4, "evocation", null, "fire, good, light", "Create a protective shield of sunlight." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_hunter": {
+		"title": "Mythic Hunter Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Hunter Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "hunter mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -702,7 +837,20 @@
 					[ "{spell/Move Earth}", 6, "transmutation", null, "earth", "Digs trenches and builds hills." ],
 					[ "{spell/Wall of Stone}", 6, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_inquisitor": {
+		"title": "Mythic Inquisitor Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Inquisitor Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "inquisitor mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -734,7 +882,20 @@
 					[ "{spell/Sending}", 4, "evocation", null, null, "Delivers short message anywhere, instantly." ],
 					[ "{spell/Unholy Blight}", 4, "evocation", null, "evil", "Harms and sickens good creatures (1d8 damage/2 levels)." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_warpriest": {
+		"title": "Mythic Warpriest Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Warpriest Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "warpriest mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -774,7 +935,20 @@
 					[ "{spell/Unholy Blight}", 4, "evocation", null, "evil", "Harms and sickens good creatures (1d8 damage/2 levels)." ],
 					[ "{spell/Wall of Stone}", 5, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_paladin": {
+		"title": "Mythic Paladin Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Paladin Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "paladin mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -792,7 +966,20 @@
 					[ "{spell/Oath of Peace}", 4, "abjuration", null, null, "Grants +5 AC and DR 10/evil, can't attack." ],
 					[ "{spell/Shield of the Dawnflower}", 4, "evocation", null, "fire, good, light", "Create a protective shield of sunlight." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_antipaladin": {
+		"title": "Mythic Antipaladin Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Antipaladin Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "antipaladin mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -812,7 +999,20 @@
 					[ "{spell/Contagion}", 3, "necromancy", null, "disease, evil", "Infects subject with chosen disease." ],
 					[ "{spell/Inflict Serious Wounds}", 4, "necromancy", null, null, "Touch attack, 3d8 damage + 1/level (max +15)." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_shaman": {
+		"title": "Mythic Shaman Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Shaman Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "shaman mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -852,24 +1052,17 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
 	},
-	"spells_mythic_occult": {
-		"title": "Occult Mythic Spells",
+	"spells_mythic_medium": {
+		"title": "Mythic Medium Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"description": [
-			"# Medium",
-			[ "{table0}" ],
-			"# Mesmerist",
-			[ "{table1}" ],
-			"# Occultist",
-			[ "{table2}" ],
-			"# Psychic",
-			[ "{table3}" ],
-			"# Spiritualist",
-			[ "{table4}" ]
-		],
+		"description": [ [
+			"## Mythic Medium Spells",
+			"",
+			"{table0}"
+		] ],
 		"tables": [
 			{
 				"id": "medium mythic spells table",
@@ -900,7 +1093,20 @@
 					[ "{spell/Battlemind Link}", 4, "divination", null, "mind-affecting", "You and an ally gain attack and AC bonuses." ],
 					[ "{spell/Modify Memory}", 4, "enchantment", "compulsion", "mind-affecting", "Changes 5 minutes of subject's memories." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_mesmerist": {
+		"title": "Mythic Mesmerist Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Mesmerist Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "mesmerist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -936,7 +1142,20 @@
 					[ "{spell/Phantasmal Killer}", 4, "illusion", "phantasm", "emotion, fear, mind-affecting", "Fearsome illusion kills subject or deals 3d6 damage." ],
 					[ "{spell/Mislead}", 5, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_occultist": {
+		"title": "Mythic Occultist Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Occultist Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "occultist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -986,7 +1205,20 @@
 					[ "{spell/Disintegrate}", 6, "transmutation", null, null, "Reduces one creature or object to dust." ],
 					[ "{spell/Globe of Invulnerability}", 6, "abjuration", null, null, "As lesser globe of invulnerability, plus 4th-level spell effects." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_psychic": {
+		"title": "Mythic Psychic Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Psychic Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "psychic mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -1047,7 +1279,20 @@
 					[ "{spell/Time Stop}", 9, "transmutation", null, null, "You act freely for 1d4+1 rounds." ],
 					[ "{spell/Wish}", 9, "universal", null, null, "As limited wish, but with fewer limits." ]
 				]
-			},
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+	},
+	"spells_mythic_spiritualist": {
+		"title": "Mythic Spiritualist Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [ [
+			"## Mythic Spiritualist Spells",
+			"",
+			"{table0}"
+		] ],
+		"tables": [
 			{
 				"id": "spiritualist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
@@ -1082,7 +1327,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
 	},
 	"spells_redmantisassassin": {
 		"title": "All Red Mantis Assassin Spells",

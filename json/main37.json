@@ -7,7 +7,7 @@
 		"singleTable": true,
 		"tables": [
 			{
-				"id": "all spells table",
+				"id": "evocation school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"ripples": [0],
@@ -372,7 +372,7 @@
 		"singleTable": true,
 		"tables": [
 			{
-				"id": "all spells table",
+				"id": "illusion school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"ripples": [0],
@@ -614,7 +614,7 @@
 		"singleTable": true,
 		"tables": [
 			{
-				"id": "all spells table",
+				"id": "necromancy school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"ripples": [0],
@@ -951,7 +951,7 @@
 		"singleTable": true,
 		"tables": [
 			{
-				"id": "all spells table",
+				"id": "transmutation school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"ripples": [0],
