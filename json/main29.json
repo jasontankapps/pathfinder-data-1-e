@@ -9,6 +9,7 @@
 			{
 				"id": "inquisitor spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -685,6 +686,7 @@
 			{
 				"id": "medium spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1086,6 +1088,7 @@
 			{
 				"id": "ranger spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1411,7 +1414,7 @@
 					[ "{spell/Stench of Prey}", 3, "transmutation", null, null, "Predatory animals must successfully save or attack the target." ],
 					[ "{spell/Strong Jaw}", 3, "transmutation", null, null, "Natural attacks damage as two sizes bigger." ],
 					[ "{spell/Summon Nature's Ally III}", 3, "conjuration", "summoning", null, "Summons creature to fight." ],
-					[ "{spell/Summon Totem Creature (Shoanti)}", 3, "conjuration", "summoning", null, "Summon animals sacred to your tribe." ],
+					[ "{spell/Summon Totem Creature}", 3, "conjuration", "summoning", null, "Summon animals sacred to your tribe." ],
 					[ "{spell/Sunstalker}", 3, "illusion", "glamer", null, "Creature becomes invisible in sunlight" ],
 					[ "{spell/Sylvan Hideaway}", 3, "conjuration", "creation", null, "Create a secret extradimensional hideaway." ],
 					[ "{spell/Symbol of Storms}", 3, "evocation", null, "air, electricity", "Symbol creates stormwinds and lightning when triggered" ],
@@ -1496,6 +1499,7 @@
 			{
 				"id": "investigator spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1918,6 +1922,7 @@
 			{
 				"id": "adept spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",

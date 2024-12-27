@@ -9,6 +9,7 @@
 			{
 				"id": "monsters outsiders",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -612,6 +613,7 @@
 			{
 				"id": "monsters elementals",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -714,6 +716,7 @@
 			{
 				"id": "monsters extraplanar outsiders",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -1212,6 +1215,7 @@
 			{
 				"id": "monsters native outsiders",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [

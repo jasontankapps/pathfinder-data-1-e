@@ -9,6 +9,7 @@
 			{
 				"id": "psychic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1129,6 +1130,7 @@
 			{
 				"id": "skald spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",

@@ -9,6 +9,7 @@
 			{
 				"id": "antipaladin spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -309,6 +310,7 @@
 			{
 				"id": "magus spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -812,6 +814,7 @@
 			{
 				"id": "occultist spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1502,6 +1505,7 @@
 			{
 				"id": "mesmerist spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",

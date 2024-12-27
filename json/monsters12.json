@@ -3887,7 +3887,7 @@
 			"",
 			"**Dispersion (Ex)** As an immediate action, a gray goo can disperse, spreading itself across a cube-shaped area 30 feet on a side. While dispersed, the goo deals no damage and can't use its other special abilities until it reforms. A dispersed gray goo can hide in plain sight (as a ranger in her favored terrain) with a +10 bonus on its Stealth checks and doesn't take additional damage from area effects for being a swarm. It takes 2 rounds for a dispersed gray goo to reform.",
 			"",
-			"**Infest (Ex)** As a standard action, a gray goo can infest a Medium or larger creature (Fortitude DC 21 negates), including constructs and undead. The gray goo moves inside the creature's body, dealing double its normal damage to its host each round. It can't use its dismantle ability while infesting a creature. A host reduced to 0 hit points while infested by a gray goo is reduced to dust and destroyed (similar to disintegrate). A gray goo infesting a host can be expelled by any effect that cures disease, with a disease save equal to this ability's DC. The save DC is Constitution-based and includes a +2 racial bonus.",
+			"**Infest (Ex)** As a standard action, a gray goo can infest a Medium or larger creature (Fortitude DC 21 negates), including constructs and undead. The gray goo moves inside the creature's body, dealing double its normal damage to its host each round. It can't use its dismantle ability while infesting a creature. A host reduced to 0 hit points while infested by a gray goo is reduced to dust and destroyed (similar to {spell/disintegrate}). A gray goo infesting a host can be expelled by any effect that cures disease, with a disease save equal to this ability's DC. The save DC is Constitution-based and includes a +2 racial bonus.",
 			"",
 			"#### Description",
 			"",
@@ -3895,7 +3895,7 @@
 			"",
 			"### Benign Nanites",
 			"",
-			"Nanites meant for benign purposes that retain their original programming are capable of bringing benefits as great as the devastation wrought by their destructive kin, though it can be difficult to tell them apart. Harvest nanites that tend a field can enhance production and eliminate pests and blight, increasing the yield as the plant growth spell. Medical nanites can infest a host body, using their infest ability, but choose not to damage the creature itself, instead surgically targeting invasive organisms, functioning as a remove disease spell with a caster level equal to the swarm's hit dice. Crafter nanites can dismantle objects to build others, as fabricate, and potentially even do the same with flesh, as regenerate."
+			"Nanites meant for benign purposes that retain their original programming are capable of bringing benefits as great as the devastation wrought by their destructive kin, though it can be difficult to tell them apart. Harvest nanites that tend a field can enhance production and eliminate pests and blight, increasing the yield as the {spell/plant growth} spell. Medical nanites can infest a host body, using their infest ability, but choose not to damage the creature itself, instead surgically targeting invasive organisms, functioning as a {spell/remove disease} spell with a caster level equal to the swarm's hit dice. Crafter nanites can dismantle objects to build others, as {spell/fabricate}, and potentially even do the same with flesh, as {spell/regenerate}."
 		]
 	},
 	"gray_ooze": {

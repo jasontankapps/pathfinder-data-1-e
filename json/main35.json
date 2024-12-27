@@ -9,6 +9,7 @@
 			{
 				"id": "monsters fr le",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -572,6 +573,7 @@
 			{
 				"id": "monsters humanoids",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -900,6 +902,7 @@
 			{
 				"id": "monsters giants",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -1013,6 +1016,7 @@
 			{
 				"id": "monsters goblinoids",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -1070,6 +1074,7 @@
 			{
 				"id": "monsters shapechangers",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -1200,6 +1205,7 @@
 			{
 				"id": "monsters swarms",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [

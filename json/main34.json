@@ -9,6 +9,7 @@
 			{
 				"id": "monsters a c",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -557,6 +558,7 @@
 			{
 				"id": "monsters sco z",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [

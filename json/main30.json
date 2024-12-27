@@ -9,6 +9,7 @@
 			{
 				"id": "paladin spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -329,6 +330,7 @@
 			{
 				"id": "alchemist spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -757,6 +759,7 @@
 			{
 				"id": "spiritualist spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1185,6 +1188,7 @@
 			{
 				"id": "bloodrager spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1543,6 +1547,7 @@
 			{
 				"id": "summoner spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"ripples": [0],
@@ -1717,7 +1722,7 @@
 					[ "{spell/Evolution Surge}", 3, "transmutation", null, null, "Grants eidolon an evolution with 4 evolution points." ],
 					[ "{spell/Fiendish Wrath}", 3, "enchantment", "compulsion", "emotion, mind-affecting", "Targets gain a moral bonus to Strength, Constitution, and Will, as well as the rend ability with claws or unarmed strikes" ],
 					[ "{spell/Fire Shield}", 3, "evocation", null, "fire, cold", "Creatures attacking you take fire damage; you're protected from heat or cold." ],
-					[ "{spell/Fleshwarping Swarm (Drow)}", 3, "conjuration", "summoning", null, "As summon swarm, but the swarm makes creatures more susceptible to transmutation spells along with penalizing Dexterity." ],
+					[ "{spell/Fleshwarping Swarm}", 3, "conjuration", "summoning", null, "As summon swarm, but the swarm makes creatures more susceptible to transmutation spells along with penalizing Dexterity." ],
 					[ "{spell/Fly}", 3, "transmutation", null, null, "Subject flies at speed of 60 ft." ],
 					[ "{spell/Glimpse the Hidden}", 3, "divination", null, null, "As per see invisibility, except affecting a creature you touch" ],
 					[ "{spell/Grasping Tentacles}", 3, "conjuration", "creation", null, "Use a mass of tentacles to perform dirty tricks." ],
@@ -1776,7 +1781,7 @@
 					[ "{spell/Summon Genie, Lesser}", 3, "conjuration", "summoning", null, "As summon monster I, except you can summon one janni." ],
 					[ "{spell/Summon Monster IV}", 3, "conjuration", "summoning", "see text", "Summons extraplanar creature to fight for you." ],
 					[ "{spell/Summon Ship}", 3, "conjuration", "creation", null, "Conjure a ship out of extradimensional materials" ],
-					[ "{spell/Summon Totem Creature (Shoanti)}", 3, "conjuration", "summoning", null, "Summon animals sacred to your tribe." ],
+					[ "{spell/Summon Totem Creature}", 3, "conjuration", "summoning", null, "Summon animals sacred to your tribe." ],
 					[ "{spell/Sundered Serpent Coil}", 3, "conjuration", "creation", null, "As black tentacles, except creating a decapitated snake to grapple your enemies." ],
 					[ "{spell/Swarm of Fangs}", 3, "conjuration", "summoning", null, "Summon a swarm of animated, flying teeth." ],
 					[ "{spell/Thunderous Footfalls}", 3, "transmutation", null, null, "Knock down smaller creatures by moving close to them." ],

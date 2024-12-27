@@ -1990,11 +1990,11 @@
 			"This spell functions like summon monster, except it summons a single thanadaemon. You can only use this spell in an area with enough open water to accommodate the daemon's skiff, or when on the Astral Plane or Ethereal Plane."
 		]
 	},
-	"summon_totem_creature_shoanti": {
-		"name": "Summon Totem Creature (Shoanti)",
+	"summon_totem_creature": {
+		"name": "Summon Totem Creature",
 		"sources": [ "Humans of Golarion" ],
 		"description": [
-			"## Summon Totem Creature (Shoanti)",
+			"## Summon Totem Creature",
 			"",
 			"{SOURCE Humans of Golarion/29}  ",
 			"**School** {spelldef/conjuration} ({spelldef/summoning}); **Level** arcanist 3, cleric 3, druid 3, hunter 3, oracle 3, ranger 3, sorcerer 3, summoner 3, unchained summoner 3, warpriest 3, wizard 3",
@@ -2027,9 +2027,6 @@
 			"",
 			"*Tamiir-Quah (Wind Clan):* air elemental (small), 1d3 eagles, earth elemental (small)."
 		]
-	},
-	"summon_totem_creature": {
-		"copyof": "summon_totem_creature_shoanti"
 	},
 	"summon_vanth": {
 		"name": "Summon Vanth",

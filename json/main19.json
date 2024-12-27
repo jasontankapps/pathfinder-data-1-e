@@ -9,6 +9,7 @@
 			{
 				"id": "monsters magical beasts",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -269,6 +270,7 @@
 			{
 				"id": "monsters monstrous humanoids",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -431,6 +433,7 @@
 			{
 				"id": "monsters plants",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -562,6 +565,7 @@
 			{
 				"id": "monsters undead",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -795,6 +799,7 @@
 			{
 				"id": "monsters vermin",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -959,6 +964,7 @@
 			{
 				"id": "monsters aquatic",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -1225,6 +1231,7 @@
 			{
 				"id": "monsters incorporeal",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [

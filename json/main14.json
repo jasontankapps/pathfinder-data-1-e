@@ -9,6 +9,7 @@
 			{
 				"id": "witch spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -495,7 +496,7 @@
 					[ "{spell/Find Fault}", 3, "divination", null, null, "Learn many of the target's weaknesses and gain a +5 bonus on your next attack." ],
 					[ "{spell/Fins to Feet}", 3, "transmutation", "polymorph", null, "Give a creature legs, allowing it to walk on land." ],
 					[ "{spell/Flash Fire}", 3, "transmutation", null, null, "Ammunition in the targeted firearm creates a tremendous flash capable of blinding the weapon's bearer and those around him." ],
-					[ "{spell/Fleshwarping Swarm (Drow)}", 3, "conjuration", "summoning", null, "As summon swarm, but the swarm makes creatures more susceptible to transmutation spells along with penalizing Dexterity." ],
+					[ "{spell/Fleshwarping Swarm}", 3, "conjuration", "summoning", null, "As summon swarm, but the swarm makes creatures more susceptible to transmutation spells along with penalizing Dexterity." ],
 					[ "{spell/Flexile Curse}", 3, "transmutation", null, "curse", "Creature's armor and shield lose 1 AC and hardness/hour" ],
 					[ "{spell/Fly}", 3, "transmutation", null, null, "Subject flies at speed of 60 ft." ],
 					[ "{spell/Forced Mutation}", 3, "transmutation", null, null, "Warp a creature's flesh, inflicting deformaties and penalties to Constitution and Charisma" ],
@@ -1221,6 +1222,7 @@
 			{
 				"id": "sahirafiyun spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1262,6 +1264,7 @@
 			{
 				"id": "shaman spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",

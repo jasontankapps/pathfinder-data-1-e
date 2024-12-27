@@ -9,6 +9,7 @@
 			{
 				"id": "warpriest spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -365,7 +366,7 @@
 					[ "{spell/Shield Other}", 2, "abjuration", null, null, "You take half of subject's damage." ],
 					[ "{spell/Silence}", 2, "illusion", "glamer", null, "Negates sound in 20-ft. radius." ],
 					[ "{spell/Silent Table}", 2, "illusion", "glamer", null, "Give yourself privacy by muffling sound leaving the area." ],
-					[ "{spell/Snow Shape (Ulfen)}", 2, "transmutation", null, "water", "Form snow into any shape you wish, including hard ice weapons." ],
+					[ "{spell/Snow Shape}", 2, "transmutation", null, "water", "Form snow into any shape you wish, including hard ice weapons." ],
 					[ "{spell/Solidify Earth}", 2, "transmutation", null, "earth", "Harden earth and stone, impeding burrowing creatures" ],
 					[ "{spell/Soothing Word}", 2, "conjuration", "healing", null, "Lessen the severity of a target's conditions." ],
 					[ "{spell/Sound Burst}", 2, "evocation", null, "sonic", "Deals 1d8 sonic damage and may stun subjects." ],
@@ -585,7 +586,7 @@
 					[ "{spell/Stunning Barrier, Greater}", 3, "abjuration", null, null, "Magical field grants a +2 bonus to AC and on saves, and stuns multiple creatures attacking you." ],
 					[ "{spell/Summon Ancestral Guardian}", 3, "conjuration", "summoning", null, "Conjure your ancestors' spirits to help you in combat." ],
 					[ "{spell/Summon Monster III}", 3, "conjuration", "summoning", "see text", "Summons extraplanar creature to fight for you." ],
-					[ "{spell/Summon Totem Creature (Shoanti)}", 3, "conjuration", "summoning", null, "Summon animals sacred to your tribe." ],
+					[ "{spell/Summon Totem Creature}", 3, "conjuration", "summoning", null, "Summon animals sacred to your tribe." ],
 					[ "{spell/Symbol of Exsanguination}", 3, "necromancy", null, "evil", "Triggered rune causes nearby creatures to bleed." ],
 					[ "{spell/Symbol of Healing}", 3, "conjuration", "healing", null, "Triggered rune heals living creatures." ],
 					[ "{spell/Tactical Formation}", 3, "abjuration", null, null, "Grant targets a bonus to AC so long as they remain in formation." ],
@@ -1009,6 +1010,7 @@
 			{
 				"id": "bard spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",

@@ -2214,11 +2214,11 @@
 			"This spell fills the area with violet flames that scour an area clean of life - especially of the corrupted life of the Abyss. Creatures (and foliage) in the area take 1d8 points of fire damage per 2 caster levels you possess (maximum 7d8) unless they are outsiders with the chaotic and evil subtypes or are otherwise tainted by demons, in which case they instead take 1d6 points of fire damage per caster level (maximum 15d6). This fire damage ignores the fire resistance granted by the demon subtype, but it does not penetrate any other form of fire resistance or immunity."
 		]
 	},
-	"burning_arc_keleshite": {
-		"name": "Burning Arc (Keleshite)",
+	"burning_arc": {
+		"name": "Burning Arc",
 		"sources": [ "Humans of Golarion" ],
 		"description": [
-			"## Burning Arc (Keleshite)",
+			"## Burning Arc",
 			"",
 			"{SOURCE Humans of Golarion/28}  ",
 			"**School** {spelldef/evocation} [{spelldef/fire}]; **Level** arcanist 2, sorcerer 2, wizard 2",
@@ -2241,9 +2241,6 @@
 			"",
 			"Each target can attempt a Reflex saving throw for half damage. The Reflex DC to halve the damage of the secondary bolts is 2 lower than the DC to halve the damage of the primary bolt. You may choose secondary targets as you like, but they must all be within 15 feet of the primary target, and no target can be struck more than once. You can choose to affect fewer secondary targets than the maximum."
 		]
-	},
-	"burning_arc": {
-		"copyof": "burning_arc_keleshite"
 	},
 	"burning_disarm": {
 		"name": "Burning Disarm",

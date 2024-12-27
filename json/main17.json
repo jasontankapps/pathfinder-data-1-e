@@ -9,6 +9,7 @@
 			{
 				"id": "monsters abberations",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -192,6 +193,7 @@
 			{
 				"id": "monsters animals",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -505,6 +507,7 @@
 			{
 				"id": "monsters constructs",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -700,6 +703,7 @@
 			{
 				"id": "monsters dragons",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [
@@ -895,6 +899,7 @@
 			{
 				"id": "monsters fey",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [

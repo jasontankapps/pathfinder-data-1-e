@@ -37,6 +37,8 @@ export interface Table {
 	ripples?: number[]
 	// some tables do not need sorting information (defaults to true)
 	sortable?: boolean
+	// some tables have an additional filter (usually spell levels or CR)
+	filterable?: number
 }
 
 export interface DisplayItemProps {

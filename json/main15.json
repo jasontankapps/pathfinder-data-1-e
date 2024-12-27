@@ -9,6 +9,7 @@
 			{
 				"id": "all monsters table",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0 ],
 				"ripples": [0],
 				"data": [

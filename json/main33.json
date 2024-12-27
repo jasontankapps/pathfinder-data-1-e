@@ -180,6 +180,7 @@
 			{
 				"id": "arcanist sorcerer wizards mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -286,6 +287,7 @@
 			{
 				"id": "alchemist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -332,6 +334,7 @@
 			{
 				"id": "investigator mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -378,6 +381,7 @@
 			{
 				"id": "summoner mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -412,6 +416,7 @@
 			{
 				"id": "unchained_summoner mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -447,6 +452,7 @@
 			{
 				"id": "bard and skald mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -490,6 +496,7 @@
 			{
 				"id": "magus mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -547,6 +554,7 @@
 			{
 				"id": "witch mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -613,6 +621,7 @@
 			{
 				"id": "bloodrager mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -666,6 +675,7 @@
 			{
 				"id": "cleric oracle mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -727,6 +737,7 @@
 			{
 				"id": "druid mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -778,6 +789,7 @@
 			{
 				"id": "ranger mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -809,6 +821,7 @@
 			{
 				"id": "hunter mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -854,6 +867,7 @@
 			{
 				"id": "inquisitor mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -899,6 +913,7 @@
 			{
 				"id": "warpriest mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -952,6 +967,7 @@
 			{
 				"id": "paladin mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -983,6 +999,7 @@
 			{
 				"id": "antipaladin mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1016,6 +1033,7 @@
 			{
 				"id": "shaman mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1067,6 +1085,7 @@
 			{
 				"id": "medium mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1110,6 +1129,7 @@
 			{
 				"id": "mesmerist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1159,6 +1179,7 @@
 			{
 				"id": "occultist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1222,6 +1243,7 @@
 			{
 				"id": "psychic mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1296,6 +1318,7 @@
 			{
 				"id": "spiritualist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1339,6 +1362,7 @@
 			{
 				"id": "redmantisassassin spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
@@ -1480,7 +1504,7 @@
 					[ "{spell/Shadow Anchor}", 2, "illusion", "shadow", "shadow", "Tether a creature to its shadow, preventing it from moving too far." ],
 					[ "{spell/Silent Table}", 2, "illusion", "glamer", null, "Give yourself privacy by muffling sound leaving the area." ],
 					[ "{spell/Silk To Steel}", 2, "transmutation", null, null, "Use a scarf as a shield or whip." ],
-					[ "{spell/Snow Shape (Ulfen)}", 2, "transmutation", null, "water", "Form snow into any shape you wish, including hard ice weapons." ],
+					[ "{spell/Snow Shape}", 2, "transmutation", null, "water", "Form snow into any shape you wish, including hard ice weapons." ],
 					[ "{spell/Spider Climb}", 2, "transmutation", null, null, "Grants ability to walk on walls and ceilings." ],
 					[ "{spell/Squeeze}", 2, "transmutation", "polymorph", null, "Increase the target's flexibility, allowing it to move through tight spaces and squeeze with ease." ],
 					[ "{spell/Stabilize Powder}", 2, "transmutation", null, null, "Ammunition in the targeted firearm is less likely to misfire." ],
