@@ -1190,7 +1190,7 @@
 					[ "{feat/Tandem Trip}", "", "When you make a trip against an opponent threatened by any ally, roll twice and take the higher result" ],
 					[ "{feat/Tangle Feet}", "{feat/Dodge}, {feat/Mobility}, {feat/Underfoot}, goblin, Small size or smaller.", "Trip up larger opponents when you use Acrobatics to move through their square" ],
 					[ "{feat/Tangled Limbs}", "Int 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Weapon Focus} with the chosen weapon.", "When you use a reach weapon to trip a creature, it doesn't get a bonus to its CMD for having more than 2 legs" ],
-					[ "{feat/Target of Opportunity}", "{feat/Point-Blank Shot}, base attack bonus +6.", "When an ally hits with a ranged attack, youmay make an attack as an immediate action" ],
+					[ "{feat/Target of Opportunity}", "{feat/Point-Blank Shot}, base attack bonus +6.", "When an ally hits with a ranged attack, you may make an attack as an immediate action" ],
 					[ "{feat/Taskmaster}", "{feat/Demoralizing Lash}, Intimidate 5 ranks, hobgoblin.", "Spur an ally into combat to increase their offense at the cost of defense" ],
 					[ "{feat/Tatzlwyrm Claw Style}", "Dex 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, Escape Artist 1 rank.", "Unarmed attacks deal slashing damage, force a creature to release a grappled ally." ],
 					[ "{feat/Tatzlwyrm Grappler}", "Dex 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Tatzlwyrm Claw Style}, Escape Artist 3 ranks.", "Use Escape Artist instead of CMD when resisting a grapple." ],

@@ -316,6 +316,18 @@ ion-button.tableFilterButton {
 	float: inline-end;
 	font-size: 0.65rem;
 }
+ion-modal ion-list[lines=full] {
+	padding-block-start: 0;
+	padding-block-end: 0;
+}
+div.listLike ion-item.itemLike::part(native) {
+	border-block-end-width: 3px;
+	border-block-end-color: var(--ion-color-step-50);
+	border-block-end-style: solid;
+	height: 50px;
+	box-sizing: border-box;
+	background: var(--ion-color-step-100);
+}
 
 div.tableWrap {
 	overflow-x: auto;

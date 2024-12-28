@@ -33,6 +33,8 @@ import {
 import { caretDown, caretUp, ellipse, closeCircle, close, filter, refresh } from 'ionicons/icons';
 import Markdown, { ExtraProps } from 'react-markdown';
 import { useHistory } from 'react-router-dom';
+import AutoSizer from 'react-virtualized-auto-sizer';
+import { FixedSizeList } from 'react-window';
 import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
 import Link from './Link';
 import convertLinks, { checkForEncodedLink } from './convertLinks';
@@ -270,6 +272,17 @@ const getLinkText = (input: string) => {
 	return m ? m[2] : input;
 };
 
+interface RowItem {
+	index: number
+	style: {
+		[key: string]: any
+	}
+	data: {
+		activeRows: boolean[]
+		rowTitles: string[]
+	}
+}
+
 const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const {
 		originalHeaders: oh, // original headers
@@ -455,6 +468,15 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 			})
 		}		
 	};
+	const Row = ({data, index, style}: RowItem) => (
+		<IonItem style={style} lines="full" className="itemLike">
+			<IonToggle
+				labelPlacement="start"
+				checked={data.activeRows[index]}
+				onIonChange={() => toggleRow(index)}
+			>{data.rowTitles[index]}</IonToggle>
+		</IonItem>
+	);
 	return (
 		<IonModal isOpen={open} onIonModalDidDismiss={() => setOpen(false)} onIonModalWillPresent={onLoad}>
 			<IonHeader>
@@ -496,26 +518,22 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						<IonButton slot="end" onClick={() => toggleFilter(chosenFilter)}>Toggle</IonButton>
 					</IonItem> : <></>}
 					<IonItem>
-						<IonLabel>
-							<p>Selected items will be shown in the table.</p>
+						<IonLabel className="ion-text-center">
+							<p>Selected items below will be shown in the table.</p>
 							<p>If no items are selected, <strong>all</strong> items are shown.</p>
 						</IonLabel>
 					</IonItem>
-					{rowTitles.map((rt, i) => ( 
-						
-						
-						/* NEED TO UPDATE THIS TO USE REACT-WINDOW */
-
-
-						<IonItem key={`row${i}/-/${rt}`}>
-							<IonToggle
-								labelPlacement="start"
-								checked={activeRows[i]}
-								onIonChange={() => toggleRow(i)}
-							>{rt}</IonToggle>
-						</IonItem>
-					))}
 				</IonList>
+				<AutoSizer className="listLike">{
+					({height, width}) =>
+						<FixedSizeList
+							height={height * 0.75}
+							width={width}
+							itemCount={rowTitles.length}
+							itemSize={50}
+							itemData={{rowTitles, activeRows}}
+						>{Row}</FixedSizeList>
+				}</AutoSizer>
 			</IonContent>
 			<IonFooter>
 				<IonToolbar>

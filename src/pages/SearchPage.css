@@ -31,16 +31,21 @@ div.search div.searchResult a h3 {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	max-width: 100%;
+	border-block-start-width: 0;
+	border-block-end-width: 0;
 }
 div.search div.searchResult a h4 {
 	color: var(--ion-text-color);
 	font-size: 0.825rem;
 	margin: 0;
 	font-weight: normal;
+	border-block-start-width: 0;
+	border-block-end-width: 0;
 }
 div.searchHelpModal {
 	padding: 1rem 1rem;
-	border-inline: 2px solid var(--ion-color-light);
+	border-inline-start: 2px solid var(--ion-color-light);
+	border-inline-end: 2px solid var(--ion-color-light);
 }
 div.searchHelpModal p {
 	text-indent: 1.5rem;

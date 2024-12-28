@@ -147,7 +147,7 @@
 		"subtopics": [
 			"weapon_types",
 			"weapon_encumbrance",
-			"weapon_qualities",
+			"weapon_descriptions",
 			"weapon_special_features",
 			"masterwork_weapons"
 		],
@@ -192,7 +192,7 @@
 		"siblings": [
 			"weapon_types",
 			"weapon_encumbrance",
-			"weapon_qualities",
+			"weapon_descriptions",
 			"weapon_special_features",
 			"masterwork_weapons"
 		]
@@ -230,12 +230,12 @@
 		"siblings": [
 			"weapon_types",
 			"weapon_encumbrance",
-			"weapon_qualities",
+			"weapon_descriptions",
 			"weapon_special_features",
 			"masterwork_weapons"
 		]
 	},
-	"weapon_qualities": {
+	"weapon_descriptions": {
 		"name": "Weapon Descriptions",
 		"tags": "scatter weapon quality",
 		"sources": [
@@ -301,7 +301,7 @@
 		"siblings": [
 			"weapon_types",
 			"weapon_encumbrance",
-			"weapon_qualities",
+			"weapon_descriptions",
 			"weapon_special_features",
 			"masterwork_weapons"
 		]
@@ -360,7 +360,7 @@
 		"siblings": [
 			"weapon_types",
 			"weapon_encumbrance",
-			"weapon_qualities",
+			"weapon_descriptions",
 			"weapon_special_features",
 			"masterwork_weapons"
 		]
@@ -389,7 +389,7 @@
 		"siblings": [
 			"weapon_types",
 			"weapon_encumbrance",
-			"weapon_qualities",
+			"weapon_descriptions",
 			"weapon_special_features",
 			"masterwork_weapons"
 		]
