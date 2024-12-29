@@ -455,8 +455,8 @@
 			"**Caster Level** 13th  ",
 			"**Notice** Perception DC 18 (to see rippling, rainbow-hued distortions in the air)  ",
 			"**hp** 27; **Weaknesses** negative energy (see {rule/echoes of the first world}); **Trigger** proximity  ",
-			"**Effect** As soon as a Small or larger creature enters the area of a dimensional tear, it is affected as if by {spell/plane shift} and must succeed at a Will save (DC 21) or be immediately transported to the First World. When this occurs, a creature from the First World (determined randomly from the [summon nature's ally VI](spell/summon_natures_ally_6) list) is teleported to a space adjacent to the echo, determined by the GM. The creature has a starting attitude of hostile.  ",
-			"**Benefit** Determine the First World creature called using the [summon nature's ally VII](spell/summon_natures_ally_7) list instead, and then add the {template/fey creature/ template}.  ",
+			"**Effect** As soon as a Small or larger creature enters the area of a dimensional tear, it is affected as if by {spell/plane shift} and must succeed at a Will save (DC 21) or be immediately transported to the First World. When this occurs, a creature from the First World (determined randomly from the {spell/summon nature's ally VI} list) is teleported to a space adjacent to the echo, determined by the GM. The creature has a starting attitude of hostile.  ",
+			"**Benefit** Determine the First World creature called using the {spell/summon nature's ally VII} list instead, and then add the {template/fey creature/ template}.  ",
 			"**Destruction** A character with {spell/plane shift} prepared can attempt to counterspell the echo's effect. Successfully doing so destroys the dimensional tear."
 		]
 	},

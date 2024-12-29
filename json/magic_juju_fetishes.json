@@ -15,7 +15,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, resistance, bane; **Cost** 250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/resistance}, {spell/bane}; **Cost** 250 gp"
 		]
 	},
 	"ganji_doll": {
@@ -42,7 +42,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
 		]
 	},
 	"ganji_doll_greater": {
@@ -72,7 +72,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, suggestion, and a piece of the body of the humanoid to be affected; **Cost** 18,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}, {spell/suggestion}, and a piece of the body of the humanoid to be affected; **Cost** 18,000 gp"
 		]
 	},
 	"greater_ganji_doll": {
@@ -96,7 +96,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dominate person, disguise self; **Cost** 1,400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate person}, {spell/disguise self}; **Cost** 1,400 gp"
 		]
 	},
 	"spirit_tear": {
@@ -115,7 +115,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, see invisibility; **Cost** 900 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/see invisibility}; **Cost** 900 gp"
 		]
 	}
 }

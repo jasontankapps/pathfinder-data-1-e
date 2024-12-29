@@ -2928,7 +2928,7 @@
 			"**Create** 3 Goods, 2 Influence, 3 Labor (180 gp); **Time** 10 days  ",
 			"**Size** 10-30 squares",
 			"",
-			"A Blind is a semi-solid wall constructed out of area-appropriate debris and flora. Between 10 and 15 feet high, a Blind helps to conceal any structures behind it as it blends in with the nearby landscape. Structures behind a Blind can be seen only with a successful DC 15 Perception check, and targets of ranged attacks made through a blind gain concealment. One Blind can cover 20 squares' worth of structures; multiple Blinds can be used to conceal larger structures. A Blind can be thickened for double the construction cost, increasing the DC of the Perception check to see through the Blind to 20 and granting total concealment to creatures hiding behind it.",
+			"A Blind is a semi-solid wall constructed out of area-appropriate debris and flora. Between 10 and 15 feet high, a Blind helps to conceal any structures behind it as it blends in with the nearby landscape. Structures behind a Blind can be seen only with a successful DC 15 Perception check, and targets of ranged attacks made through a blind gain {rule/concealment}. One Blind can cover 20 squares' worth of structures; multiple Blinds can be used to conceal larger structures. A Blind can be thickened for double the construction cost, increasing the DC of the Perception check to see through the Blind to 20 and granting total concealment to creatures hiding behind it.",
 			"",
 			"### Grotto",
 			"",

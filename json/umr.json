@@ -317,7 +317,7 @@
 			"## Blindsense (Ex)",
 			"",
 			"{SOURCE Bestiary 5/290}  ",
-			"A creature with blindsense notices things it cannot see. The creature usually does not need to succeed at Perception checks to pinpoint the location of a creature within range of its blindsense ability, provided that it has line of effect to that creature. Any opponent the creature with blindsense cannot see still has total concealment from the creature, and the creature still has the normal miss chance when attacking foes that have concealment. Visibility still affects the movement of a creature with blindsense. A creature with blindsense is still denied its Dexterity bonus to Armor Class against attacks from creatures it cannot see.",
+			"A creature with blindsense notices things it cannot see. The creature usually does not need to succeed at Perception checks to pinpoint the location of a creature within range of its blindsense ability, provided that it has line of effect to that creature. Any opponent the creature with blindsense cannot see still has total {rule/concealment} from the creature, and the creature still has the normal miss chance when attacking foes that have concealment. Visibility still affects the movement of a creature with blindsense. A creature with blindsense is still denied its Dexterity bonus to Armor Class against attacks from creatures it cannot see.",
 			"",
 			"**Format:** blindsense 60 ft.  ",
 			"**Location:** Senses."
@@ -701,7 +701,7 @@
 			"## Blindsight (Ex)",
 			"",
 			"{SOURCE Bestiary 5/290}  ",
-			"Using nonvisual senses, such as sensitivity to vibrations, keen smell, acute hearing, or echolocation, a creature with blindsight can maneuver and fight as well as a sighted creature. Invisibility, darkness, and most kinds of concealment are irrelevant, though a creature with blindsight must have line of effect to an object or another creature to discern that object or creature. The ability's range is specified in the creature's descriptive text. The creature usually does not need to succeed at Perception checks to notice creatures within range of its blindsight ability. Unless noted otherwise, blindsight is continuous, and the creature doesn't need to do anything to use it. Some forms of blindsight, however, must be triggered as a free action. If so, this is noted in the creature's description. If a creature must trigger its blindsight ability, it gains the benefits of blindsight only during its turn.",
+			"Using nonvisual senses, such as sensitivity to vibrations, keen smell, acute hearing, or echolocation, a creature with blindsight can maneuver and fight as well as a sighted creature. Invisibility, darkness, and most kinds of {rule/concealment} are irrelevant, though a creature with blindsight must have line of effect to an object or another creature to discern that object or creature. The ability's range is specified in the creature's descriptive text. The creature usually does not need to succeed at Perception checks to notice creatures within range of its blindsight ability. Unless noted otherwise, blindsight is continuous, and the creature doesn't need to do anything to use it. Some forms of blindsight, however, must be triggered as a free action. If so, this is noted in the creature's description. If a creature must trigger its blindsight ability, it gains the benefits of blindsight only during its turn.",
 			"",
 			"**Format:** blindsight 60 ft.  ",
 			"**Location:** Senses."
@@ -953,7 +953,7 @@
 			"",
 			"Creatures trapped in the whirlwind cannot move except to go where the whirlwind carries them or to escape the whirlwind. Trapped creatures can otherwise act normally, but must succeed on a concentration check (DC 15 + spell level) to cast a spell. Creatures caught in the whirlwind take a -4 penalty to Dexterity and a -2 penalty on attack rolls. The whirlwind can have only as many creatures trapped inside at one time as will fit inside the whirlwind's volume. The whirlwind can eject any carried creatures whenever it wishes as a free action, depositing them in its space.",
 			"",
-			"If the whirlwind's base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the creature and has a diameter equal to half the whirlwind's height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment. Those caught in the cloud of debris must succeed on a concentration check (DC 15 + spell level) to cast a spell.",
+			"If the whirlwind's base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the creature and has a diameter equal to half the whirlwind's height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have {rule/concealment}, while those farther away have total concealment. Those caught in the cloud of debris must succeed on a concentration check (DC 15 + spell level) to cast a spell.",
 			"",
 			"**Format:** whirlwind (3/day, 10-30 ft. high, 1d6+6 damage, DC 15)  ",
 			"**Location:** Special Attacks."
@@ -1869,9 +1869,9 @@
 			"{SOURCE Bestiary 5/293}  ",
 			"This attack takes effect when foes look at the attacking creature's eyes. The attack can have any sort of effect; charm, death, and petrification are common. The typical range is 30 feet, but check the creature's entry for details. The type of saving throw for a gaze attack varies, but it is usually a Will or Fortitude save (DC = 10 + 1/2 the gazing creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's text). A successful saving throw negates the effect. A monster's gaze attack is described in abbreviated form in its description. Each opponent within range of a gaze attack must attempt a saving throw each round at the beginning of her turn in the initiative order. Only looking directly at a creature with a gaze attack leaves an opponent vulnerable. Opponents can avoid the need to attempt the save by not looking at the creature, in one of two ways.",
 			"",
-			"Averting Eyes: The opponent avoids looking at the creature's face, instead looking at its body, watching its shadow, tracking it in a reflective surface, etc. Each round, the opponent has a 50% chance to avoid having to attempt a saving throw against the gaze attack. The creature with the gaze attack, however, gains concealment against that opponent.",
-			"",
-			"Wearing a Blindfold: The foe cannot see the creature at all (also possible to achieve by turning one's back on the creature or shutting one's eyes). The creature with the gaze attack gains total concealment against the opponent.",
+			">*Averting Eyes:* The opponent avoids looking at the creature's face, instead looking at its body, watching its shadow, tracking it in a reflective surface, etc. Each round, the opponent has a 50% chance to avoid having to attempt a saving throw against the gaze attack. The creature with the gaze attack, however, gains {rule/concealment} against that opponent.",
+			">",
+			">*Wearing a Blindfold:* The foe cannot see the creature at all (also possible to achieve by turning one's back on the creature or shutting one's eyes). The creature with the gaze attack gains total concealment against the opponent.",
 			"",
 			"A creature with a gaze attack can actively gaze as an attack action by choosing a target within range. That opponent must attempt a saving throw but can try to avoid this as described above. Thus, it is possible for an opponent to save against a creature's gaze twice during the same round, once before the opponent's action and once during the creature's turn.",
 			"",
@@ -1940,7 +1940,7 @@
 			"## Ink Cloud (Ex)",
 			"",
 			"**Source** {source/Pathfinder RPG Bestiary/ pg. 219, 259}  ",
-			"Some cephalopods can emit a spherical cloud of ink once per minute as a free action while underwater. This cloud provides total concealment. The radius of the ink cloud is included in the monster's description. The ink persists for 1 minute.",
+			"Some cephalopods can emit a spherical cloud of ink once per minute as a free action while underwater. This cloud provides {rule/total |concealment}. The radius of the ink cloud is included in the monster's description. The ink persists for 1 minute.",
 			"",
 			"**Format:** ink cloud (5-ft. radius)  ",
 			"**Location:** Defensive Abilities."

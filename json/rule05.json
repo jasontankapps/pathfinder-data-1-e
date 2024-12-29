@@ -1955,7 +1955,7 @@
 			"",
 			"Delivering a coup de grace provokes attacks of opportunity from threatening opponents.",
 			"",
-			"You can't deliver a coup de grace against a creature that is immune to critical hits. You can deliver a coup de grace against a creature with total concealment, but doing this requires two consecutive full-round actions (one to \"find\" the creature once you've determined what square it's in, and one to deliver the coup de grace)."
+			"You can't deliver a coup de grace against a creature that is immune to critical hits. You can deliver a coup de grace against a creature with total {rule/concealment}, but doing this requires two consecutive full-round actions (one to \"find\" the creature once you've determined what square it's in, and one to deliver the coup de grace)."
 		],
 		"parent_topics": [
 			"combat",
@@ -2081,7 +2081,7 @@
 			"",
 			"***Performing a Combat Maneuver:*** When performing a combat maneuver, you must use an action appropriate to the maneuver you are attempting to perform. While many combat maneuvers can be performed as part of an attack action, full-attack action, or attack of opportunity (in place of a melee attack), others require a specific action. Unless otherwise noted, performing a combat maneuver provokes an attack of opportunity from the target of the maneuver. If you are hit by the target, you take the damage normally and apply that amount as a penalty to the attack roll to perform the maneuver. If your target is immobilized, unconscious, or otherwise incapacitated, your maneuver automatically succeeds (treat as if you rolled a natural 20 on the attack roll). If your target is stunned, you receive a +4 bonus on your attack roll to perform a combat maneuver against it.",
 			"",
-			"When you attempt to perform a combat maneuver, make an attack roll and add your CMB in place of your normal attack bonus. Add any bonuses you currently have on attack rolls due to spells, feats, and other effects. These bonuses must be applicable to the weapon or attack used to perform the maneuver. The DC of this maneuver is your target's Combat Maneuver Defense. Combat maneuvers are attack rolls, so you must roll for concealment and take any other penalties that would normally apply to an attack roll.",
+			"When you attempt to perform a combat maneuver, make an attack roll and add your CMB in place of your normal attack bonus. Add any bonuses you currently have on attack rolls due to spells, feats, and other effects. These bonuses must be applicable to the weapon or attack used to perform the maneuver. The DC of this maneuver is your target's Combat Maneuver Defense. Combat maneuvers are attack rolls, so you must roll for {rule/concealment} and take any other penalties that would normally apply to an attack roll.",
 			"",
 			"***Combat Maneuver Defense:*** Each character and creature has a Combat Maneuver Defense (or CMD) that represents its ability to resist combat maneuvers. A creature's CMD is determined using the following formula:",
 			"",
@@ -3676,7 +3676,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/560}",
 			"",
-			"Some creatures possess ***blindsight,*** the extraordinary ability to use a nonvisual sense (or a combination of senses) to operate effectively without vision. Such senses may include sensitivity to vibrations, acute scent, keen hearing, or echolocation. This makes invisibility and concealment (even magical darkness) irrelevant to the creature (though it still can't see ethereal creatures). This ability operates out to a range specified in the creature description.",
+			"Some creatures possess ***blindsight,*** the extraordinary ability to use a nonvisual sense (or a combination of senses) to operate effectively without vision. Such senses may include sensitivity to vibrations, acute scent, keen hearing, or echolocation. This makes invisibility and {rule/concealment} (even magical darkness) irrelevant to the creature (though it still can't see ethereal creatures). This ability operates out to a range specified in the creature description.",
 			"",
 			"- Blindsight never allows a creature to distinguish color or visual contrast. A creature cannot read with blindsight.",
 			"- Blindsight does not subject a creature to gaze attacks (even though darkvision does).",
@@ -4063,7 +4063,7 @@
 			"",
 			"If an invisible creature strikes a character, the character struck knows the location of the creature that struck him (until, of course, the invisible creature moves). The only exception is if the invisible creature has a reach greater than 5 feet. In this case, the struck character knows the general location of the creature but has not pinpointed the exact location.",
 			"",
-			"If a character tries to attack an invisible creature whose location he has pinpointed, he attacks normally, but the invisible creature still benefits from full concealment (and thus a 50% miss chance). A particularly large and slow invisible creature might get a smaller miss chance.",
+			"If a character tries to attack an invisible creature whose location he has pinpointed, he attacks normally, but the invisible creature still benefits from full {rule/concealment} (and thus a 50% miss chance). A particularly large and slow invisible creature might get a smaller miss chance.",
 			"",
 			"If a character tries to attack an invisible creature whose location he has not pinpointed, have the player choose the space where the character will direct the attack. If the invisible creature is there, conduct the attack normally. If the enemy's not there, roll the miss chance as if it were there and tell him that the character has missed, regardless of the result. That way the player doesn't know whether the attack missed because the enemy's not there or because you successfully rolled the miss chance.",
 			"",

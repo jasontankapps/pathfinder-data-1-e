@@ -1250,7 +1250,7 @@
 			"",
 			"**Hallowed Lights (Su)** The glowing orbs surrounding a hallowed lynx radiate light out to a distance of 60 feet. This light counters and is countered by {spell/darkness} as though it were an 8th-level spell. Allies in this light, including the hallowed lynx, gain an insight bonus on Charisma-based skill checks and Will saving throws equal to the lynx's Charisma modifier. Enemies in the light at the start of the lynx's turn must succeed at a DC 26 Will save or become blinded for 1 round. If the hallowed lynx has expended all seven of its orbs through its blinding orb or release shining child ability, the hallowed lights cease until at least one of the hallowed lynx's orbs has refreshed. The save DC is Charisma-based.",
 			"",
-			"**Release Shining Child (Su)** As a standard action, a hallowed lynx can release the {monster/shining child} encapsulated within any one of its glowing orbs. This functions as if the shining child had been summoned using a [summon monster IX](spell/summon_monster_9) spell (CL 23rd). Once an orb has been used in this manner, it loses its innate brilliance and cannot be used again until 24 hours have passed, after which time its energy refreshes and it resumes glowing.",
+			"**Release Shining Child (Su)** As a standard action, a hallowed lynx can release the {monster/shining child} encapsulated within any one of its glowing orbs. This functions as if the shining child had been summoned using a {spell/summon monster IX} spell (CL 23rd). Once an orb has been used in this manner, it loses its innate brilliance and cannot be used again until 24 hours have passed, after which time its energy refreshes and it resumes glowing.",
 			"",
 			"#### Description",
 			"",

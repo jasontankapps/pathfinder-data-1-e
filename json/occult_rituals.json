@@ -15,7 +15,7 @@
 			"**Duration** instantaneous; see text  ",
 			"**Saving Throw** none; **SR** no  ",
 			"**Backlash** The primary caster is exhausted.  ",
-			"**Failure** The portal creates a temporary one-way link with a random location, immediately delivering a hostile creature as though via [summon monster VI](spell/summon_monster_6). At the GM's discretion, the creature may be accompanied by 1d3 creatures of the same kind from the 5th-level summon monster list, or 1d4+1 creatures of the same type from a lower-level list.",
+			"**Failure** The portal creates a temporary one-way link with a random location, immediately delivering a hostile creature as though via {spell/summon monster VI}. At the GM's discretion, the creature may be accompanied by 1d3 creatures of the same kind from the 5th-level summon monster list, or 1d4+1 creatures of the same type from a lower-level list.",
 			"",
 			"### Effect",
 			"",
@@ -25,7 +25,7 @@
 			"",
 			"Created using ancient elven knowledge, the aiudara network is a system of gates placed throughout the solar system. Also known as \"elf gates\" - a term elves consider vulgar - these portals come in two distinct models: linked gates and hubs. Linked gateways connect two aiudara together, while hubs allow a single location access to multiple sites.",
 			"",
-			"The art of crafting new aiudara remains lost to Golarion's elves, but occult rituals for activating most existing linked gates persist. Rules for this ritual are presented below. Rules also exist for activating hub gates, although these aiudara are rare. The ritual for reconnecting a hub gate to all its affiliated gates is modified from the ritual below as follows: Level 7; Casting Time 70 minutes; Components add F (a rare gem worth at least 5,000 gp); Skill Checks add 1 Knowledge (history) success; Failure same effect, except the hostile creature comes from the [summon monster VII](spell/summon_monster_7) list (and potential additional creatures come from the 6th-level list or lower-level lists).",
+			"The art of crafting new aiudara remains lost to Golarion's elves, but occult rituals for activating most existing linked gates persist. Rules for this ritual are presented below. Rules also exist for activating hub gates, although these aiudara are rare. The ritual for reconnecting a hub gate to all its affiliated gates is modified from the ritual below as follows: Level 7; Casting Time 70 minutes; Components add F (a rare gem worth at least 5,000 gp); Skill Checks add 1 Knowledge (history) success; Failure same effect, except the hostile creature comes from the {spell/summon monster VII} list (and potential additional creatures come from the 6th-level list or lower-level lists).",
 			"",
 			"Known rituals to activate aiudara can be found within the libraries of Kyonin and the Mordant Spire, while the writings of the Ekujae and Snowcaster elves detail similar procedures for maintaining gateways in their respective territories."
 		],
@@ -1117,7 +1117,7 @@
 			"**Duration** 14 hours  ",
 			"**Saving Throw** Will (harmless); **SR** yes  ",
 			"**Backlash** The primary caster takes 2d6 points of damage and becomes host to a restless \"god\" spirit (see text).  ",
-			"**Failure** A random creature conjurable via [summon monster IX](spell/summon_monster_9) appears and attacks all participants for 9 minutes. At the GM's discretion, the conjured creature can have the advanced template, be accompanied by additional creatures, or both.",
+			"**Failure** A random creature conjurable via {spell/summon monster IX} appears and attacks all participants for 9 minutes. At the GM's discretion, the conjured creature can have the advanced template, be accompanied by additional creatures, or both.",
 			"",
 			"### Effect",
 			"",
@@ -1703,7 +1703,7 @@
 			"",
 			"### Effect",
 			"",
-			"The primary caster appeals to a local kami to ask for assistance in battle. The casters must assemble a shrine within 100 feet of the kami's ward. Once the ritual begins, the casters each utter a unique prayer to the kami, complete with devotionals and explanations about why the kami's help is needed. If the casting is successful, the kami manifests (as per [summon monster V](spell/summon_monster_5)) and fights alongside the casters. This kami uses the statistics for a {monster/kodama} and refuses to move farther than 1 mile from its ward."
+			"The primary caster appeals to a local kami to ask for assistance in battle. The casters must assemble a shrine within 100 feet of the kami's ward. Once the ritual begins, the casters each utter a unique prayer to the kami, complete with devotionals and explanations about why the kami's help is needed. If the casting is successful, the kami manifests (as per {spell/summon monster V}) and fights alongside the casters. This kami uses the statistics for a {monster/kodama} and refuses to move farther than 1 mile from its ward."
 		],
 		"subhierarchy": [["Occult Rituals", "occult_rituals"]]
 	},
@@ -1757,7 +1757,7 @@
 			"**Range** 10 miles/character level of the primary caster  ",
 			"**Area** 1 mile radius/character level of primary caster  ",
 			"**Duration** instantaneous; see text  ",
-			"**Saving Throw** none ; **SR** none  ",
+			"**Saving Throw** none; **SR** none  ",
 			"**Backlash** The primary caster gains 2 permanent negative levels, and all secondary casters are permanently blinded and deafened. None of these effects can be removed by any means unless the ritual is reversed.  ",
 			"**Failure** The primary caster and all secondary casters are immediately transported to different locations on the Negative Energy Plane or Shadow Plane (50% for either plane, roll separately for each caster). The secondary casters remain catatonic for 1 hour upon arriving.",
 			"",

@@ -2809,7 +2809,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Undine",
 			"",
-			"When the air is full of water, your elemental blood allows you to blend with your surroundings and become one with the precipitation. In areas of nonmagical fog, rain, snow, or similar conditions (such as the spray of a waterfall), you gain the effects of concealment, but with a miss chance of 10%. If the precipitation would already grant you concealment, the miss chances stack."
+			"When the air is full of water, your elemental blood allows you to blend with your surroundings and become one with the precipitation. In areas of nonmagical fog, rain, snow, or similar conditions (such as the spray of a waterfall), you gain the effects of {rule/concealment}, but with a miss chance of 10%. If the precipitation would already grant you concealment, the miss chances stack."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},

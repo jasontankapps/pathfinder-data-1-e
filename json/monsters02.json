@@ -3080,7 +3080,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Ashen Cloud (Ex)** When an ashen forgemaster is struck in combat, some of its scales crumble off to create a noxious cloud of ash, smoke, and rotting flesh that lingers for 1 round in all adjacent squares. Any creature that starts its turn in this cloud is sickened for 1 round (Fortitude DC 30 negates). The cloud obscures all sight beyond 5 feet, providing total concealment. A creature within 5 feet has concealment. The save DC is Constitution-based.",
+			"**Ashen Cloud (Ex)** When an ashen forgemaster is struck in combat, some of its scales crumble off to create a noxious cloud of ash, smoke, and rotting flesh that lingers for 1 round in all adjacent squares. Any creature that starts its turn in this cloud is sickened for 1 round (Fortitude DC 30 negates). The cloud obscures all sight beyond 5 feet, providing total {rule/concealment}. A creature within 5 feet has concealment. The save DC is Constitution-based.",
 			"",
 			"**Fire Aura (Su)** An ashen forgemaster is surrounded by an aura of intense heat. All creatures within 5 feet take 1d6 points of fire damage at the beginning of the forgemaster's turn.",
 			"",

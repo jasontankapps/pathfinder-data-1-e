@@ -134,7 +134,7 @@
 			"",
 			"**Trap Saboteur (Su):** At 8th level, a cat burglar becomes a master of avoiding and manipulating traps and locks. She can attempt to open a lock as a standard action and takes 1/2 the normal amount of time to disable traps (minimum 1 round) . When she has bypassed a trap without disarming it, she can also choose to suppress its trigger for up to 1 minute. If she does, she can also choose to end this suppression prematurely as a free action. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the cat burglar archetype: fast stealth, quick disable ; convincing fakes, dodge trap ; fast picks terrain mastery .",
+			"**Rogue Talents:** The following rogue talents complement the cat burglar archetype: fast stealth, quick disable; convincing fakes, dodge trap; fast picks terrain mastery .",
 			"",
 			"**Advanced Talents:** The following advanced rogue talents complement the cat burglar archetype: another day, fast tumble hide in plain sight ."
 		]
@@ -290,7 +290,7 @@
 			"{SOURCE Heroes of the Streets/26}  ",
 			"Dark lurkers use darkness as an ally. They are widely feared in many major metropolises, spoken of as \"living shadows\" by guards of Magnimar who patrol under the Irespan and called \"the hungry night\" by citizens of Absalom who mistake them for fetchling assassins.",
 			"",
-			"**Blades from the Shadows (Ex):** At 2nd level, a dark lurker gains shadow strike as a bonus rogue talent. (A character using the unchained rogue class instead gains the ability to make attacks of opportunity against foes with cover, though not foes with improved cover or total cover). At 6th level, the dark lurker can deal precision damage to targets with total concealment (though any miss chance applies normally, and may prevent an attack from hitting in the first place).",
+			"**Blades from the Shadows (Ex):** At 2nd level, a dark lurker gains shadow strike as a bonus rogue talent. (A character using the unchained rogue class instead gains the ability to make attacks of opportunity against foes with {rule/cover}, though not foes with improved cover or total cover). At 6th level, the dark lurker can deal precision damage to targets with {rule/total |concealment} (though any miss chance applies normally, and may prevent an attack from hitting in the first place).",
 			"",
 			"This ability replaces evasion; the dark lurker can take evasion as a rogue talent.",
 			"",
@@ -624,9 +624,9 @@
 			"",
 			"**Superior Filching (Ex):** At 8th level, a filcher becomes a master at separating owners from their property. She gains {feat/Greater Steal} as a bonus feat, and opponents do not gain a +5 bonus to their CMD when she tries to remove items fastened to them. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the filcher archetype: fast stealth, slow reactions; fast fingers, fast getaway ; black market connections, deft palm.",
+			"**Rogue Talents:** The following rogue talents complement the filcher archetype: fast stealth, slow reactions; fast fingers, fast getaway; black market connections, deft palm.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the filcher archetype: skill mastery; fast tumble ; weapon snatcher."
+			"**Advanced Talents:** The following advanced rogue talents complement the filcher archetype: skill mastery; fast tumble; weapon snatcher."
 		]
 	},
 	"galtan_agitator": {
@@ -676,7 +676,7 @@
 			"",
 			"This ability replaces trapfinding.",
 			"",
-			"**Cover of Night (Ex):** At 2nd level, a guerrilla learns to use darkness to her advantage. She gains a +5 bonus on Disguise, Sleight of Hand, and Stealth checks while she is in areas of dim light or darkness, and can create mundane disguises in dim light or darkness with a full-round action (instead of the normal 1d3 &times; 10 minutes). Additionally, while in dim light or darkness, if a guerrilla would have concealment, she instead has total concealment.",
+			"**Cover of Night (Ex):** At 2nd level, a guerrilla learns to use darkness to her advantage. She gains a +5 bonus on Disguise, Sleight of Hand, and Stealth checks while she is in areas of dim light or darkness, and can create mundane disguises in dim light or darkness with a full-round action (instead of the normal 1d3 &times; 10 minutes). Additionally, while in dim light or darkness, if a guerrilla would have {rule/concealment}, she instead has total concealment.",
 			"",
 			"This ability replaces evasion.",
 			"",
@@ -836,7 +836,7 @@
 			"",
 			"**Rogue Talents:** The following rogue talents complement the kitsune trickster archetype: major magic, minor magic; false friend, obfuscate story, steal the story; charmer, coax information, honeyed words; convincing lie.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the kitsune trickster archetype: skill mastery, slippery mind; master of disguise ; rumormonger."
+			"**Advanced Talents:** The following advanced rogue talents complement the kitsune trickster archetype: skill mastery, slippery mind; master of disguise; rumormonger."
 		]
 	},
 	"knife_master": {
@@ -1327,7 +1327,7 @@
 			"",
 			"This ability replaces the rogue talent gained at 2nd level.",
 			"",
-			"**Shadow Step (Sp):** At 8th level, a shadow scion can walk through the Shadow Plane and reappear elsewhere on the Material Plane as a standard action. The shadow scion can travel up to 30 feet per rogue level per day in this fashion, either in a single round or broken up across multiple shadow steps. This movement must be used in increments of at least 5 feet and does not provoke attacks of opportunity. Travel through the Shadow Plane is imprecise; when the shadow scion arrives back on the Material Plane, she reenters 1 square off target, as per the rules for thrown splash weapons. If this would place her in an occupied square, she instead arrives in the nearest safe location. When the shadow scion arrives on the Material Plane, she is cloaked in shadow and gains concealment as per the blur spell for 1 round.",
+			"**Shadow Step (Sp):** At 8th level, a shadow scion can walk through the Shadow Plane and reappear elsewhere on the Material Plane as a standard action. The shadow scion can travel up to 30 feet per rogue level per day in this fashion, either in a single round or broken up across multiple shadow steps. This movement must be used in increments of at least 5 feet and does not provoke attacks of opportunity. Travel through the Shadow Plane is imprecise; when the shadow scion arrives back on the Material Plane, she reenters 1 square off target, as per the rules for thrown splash weapons. If this would place her in an occupied square, she instead arrives in the nearest safe location. When the shadow scion arrives on the Material Plane, she is cloaked in shadow and gains concealment as per the {spell/blur} spell for 1 round.",
 			"",
 			"This ability replaces the rogue talent gained at 8th level.",
 			"",
@@ -1663,9 +1663,9 @@
 			"",
 			"This ability replaces all increments of trap sense.",
 			"",
-			"**Rogue Talents:** The following rogue talents complement the swordmaster archetype: combat trick, stand up, surprise attack, weapon training ; befuddling strike, positioning strike.",
+			"**Rogue Talents:** The following rogue talents complement the swordmaster archetype: combat trick, stand up, surprise attack, weapon training; befuddling strike, positioning strike.",
 			"",
-			"**Advanced Talents:** The following advanced rogue talents complement the swordmaster archetype: crippling strike, defensive roll ; hunter's surprise, redirect attack confounding blade."
+			"**Advanced Talents:** The following advanced rogue talents complement the swordmaster archetype: crippling strike, defensive roll; hunter's surprise, redirect attack confounding blade."
 		]
 	},
 	"sylvan_trickster": {

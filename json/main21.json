@@ -1047,6 +1047,7 @@
 					[ "{spell/Spirit Bonds}", 3, "Gain a bond with 1 creature/3 levels for 24 hours. End bond to send a message as Sending" ],
 					[ "{spell/Starsight}", 1, "Observe the night sky as if it were a clear and unobstructed night." ],
 					[ "{spell/Status}", 2, "Monitors condition, position of allies." ],
+					[ "{spell/Steal Book}", 3, "Move mundane text from a book into a blank copy." ],
 					[ "{spell/Stone Tell}", [ 6.251, "6, 7" ], "Talk to natural or worked stone." ],
 					[ "{spell/Storm Sight}", 2, "Spread your senses through a storm, learning about other creatures affected by the weather" ],
 					[ "{spell/Sure Casting}", 1, "Treat your CL as 5 higher for the purposes of bypassing SR with the next spell you cast" ],

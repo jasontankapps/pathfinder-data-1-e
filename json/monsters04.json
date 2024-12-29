@@ -648,7 +648,7 @@
 			"",
 			"Since bramble thrones develop only from rulers who are both vain and ambitious, they are almost exclusively solitary plants. Where multiple power-hungry rulers share a gravesite - such as a king and queen, or ruling siblings - the resulting bramble throne can be particularly intelligent and sometimes even displays additional psychic powers. These bramble thrones are often racked with indecision or hesitation created by the powerful dueling psyches that gave the creature its psychic abilities.",
 			"",
-			"Native animals learn to avoid an area with a bramble throne, so keen-eyed travelers might suspect a predator is near even before spotting the distinctive thronelike tree. Vegetation is usually lush around a bramble throne as a result of the blood-soaked soil from the creature's kills, providing it with some concealment against its prey."
+			"Native animals learn to avoid an area with a bramble throne, so keen-eyed travelers might suspect a predator is near even before spotting the distinctive thronelike tree. Vegetation is usually lush around a bramble throne as a result of the blood-soaked soil from the creature's kills, providing it with some {rule/concealment} against its prey."
 		]
 	},
 	"brambleblight": {
@@ -4289,7 +4289,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Ink Cloud (Ex)** Once per hour as a standard action, a cecaelia can emit a 10-foot-radius sphere of ink while underwater. This ink cloud provides total concealment and persists for 1 minute.",
+			"**Ink Cloud (Ex)** Once per hour as a standard action, a cecaelia can emit a 10-foot-radius sphere of ink while underwater. This ink cloud provides {rule/total |concealment} and persists for 1 minute.",
 			"",
 			"**Tentacle Sense (Ex)** As a swift action while swimming and while it is not grappled or grappling, the cecaelia can spread its tentacles wide to form a sensory net around it. This grants blindsight to a range of 10 feet and lasts as long as the cecaelia concentrates. While this effect lasts, the creature cannot attack with its tentacles or move.",
 			"",

@@ -417,6 +417,9 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_multiperson).",
 			"",
+			"- Feats marked with an asterisk (\\*) are Betrayal feats.",
+			"- Feats marked with a dagger (&dagger;) are Coven feats.",
+			"",
 			"{table0}"
 		]],
 		"tables": [
@@ -431,7 +434,7 @@
 				"data": [
 					[ "{feat/Alien Mindpaths}", "Android, kasatha, lashunta, or Triaxian.", "Gain +4 on saves vs. mind-affecting effects and scrying" ],
 					[ "{feat/Allied Spellcaster}", "Caster level 1st.", "+2 bonus on level checks to overcome spell resistance" ],
-					[ "{feat/Ally Shield}", "", "Use your allies as shields" ],
+					[ "{feat/Ally Shield}\\*", "", "Use your allies as shields" ],
 					[ "{feat/Ambush Squad}", "Base attack bonus +1, kobold.", "Take both a move action and a standard action on a surprise round when you and ally can both act" ],
 					[ "{feat/Amplified Radiance}", "Aasimar, daylight racial spell-like ability.", "Shed an aura of light when near allies who share this feat" ],
 					[ "{feat/Amplified Rage}", "Half-orc or orc, rage class feature.", "Make your rage more powerful when near others raging" ],
@@ -446,7 +449,7 @@
 					[ "{feat/Broken Wing Gambit}", "Bluff 5 ranks.", "Grant opponent bonus to hit you, but opponent's attack provokes attacks of opportunity" ],
 					[ "{feat/Brutal Grappler}", "Half-orc or orc.", "Help an ally grapple a creature" ],
 					[ "{feat/Burn It Down!}", "Base attack bonus +1, goblin.", "Nearby allies with this feat grant a cumulative +1 bonus (max +4) on damage with certain fire attacks" ],
-					[ "{feat/Callous Casting}", "Spellcraft 1 rank.", "Include allies in the area of your spells to dishearten your enemies" ],
+					[ "{feat/Callous Casting}\\*", "Spellcraft 1 rank.", "Include allies in the area of your spells to dishearten your enemies" ],
 					[ "{feat/Casting Conduit}", "Spellcraft 1 rank.", "When casting a touch spell, adjacent ally can take minimum damage to make an identical attack" ],
 					[ "{feat/Cavalry Formation}", "{feat/Mounted Combat}.", "May share space with other mounts, charge through space occupied by allied mount" ],
 					[ "{feat/Choir of Blades}", "", "Gain an ally's bonus on attack rolls against a creature or a subtype, as well as the ally's racial weapon proficiencies" ],
@@ -494,14 +497,14 @@
 					[ "{feat/Extend the Bulwark}", "", "Extend the protection of your armor to your allies" ],
 					[ "{feat/Extraplanar Conjunction}", "Any racial spell-like ability, outsider.", "Increase the save DC of a racial spell-like ability by 2 when near an ally with this feat and the same spell-like ability" ],
 					[ "{feat/Fall Guy}", "Bluff 1 rank.", "Take a -2 penalty to Charisma-based checks to give an ally a +2 bonus on such checks" ],
-					[ "{feat/Familiar Link}", "Coven hex or Coven-Touched, familiar or spirit animal class feature, witch level 1st.", "Within your coven, you have formed a bond with your fellow witches' familiars" ],
+					[ "{feat/Familiar Link}&dagger;", "Coven hex or Coven-Touched, familiar or spirit animal class feature, witch level 1st.", "Within your coven, you have formed a bond with your fellow witches' familiars" ],
 					[ "{feat/Feint Partner}", "Bluff 1 rank.", "When ally successfully feints, opponent loses Dex bonus against your next attack" ],
 					[ "{feat/Ferocious Horde}", "Orc, ferocity racial trait.", "Gain +2 morale bonus on attack rolls when you and an ally with this feat are both at or below half hit points" ],
 					[ "{feat/Ferocious Loyalty}", "", "Bonus on attacks when the enemy threatens or knocks out your allies" ],
 					[ "{feat/Fighting Frenzy}", "Cha 13, rage class feature.", "Avoid an AC penalty while in rage if allies are close by" ],
 					[ "{feat/Flow of Elements}", "Ability to cast spells; Ifrit, oread, sylph, or undine.", "Change all or part of a spell's damage to the energy type associated with the race of an adjacent ally who has this feat" ],
 					[ "{feat/Focusing Blow}", "{feat/Hobgoblin Discipline}, hobgoblin.", "Cause damage to break an ally from an ongoing mind-affecting effect" ],
-					[ "{feat/Friendly Fire}", "{feat/Precise Shot}.", "Increase your ability to attack in ranged combat by not caring if you hit your allies" ],
+					[ "{feat/Friendly Fire}\\*", "{feat/Precise Shot}.", "Increase your ability to attack in ranged combat by not caring if you hit your allies" ],
 					[ "{feat/Friendly Fire Maneuvers}", "{feat/Point-Blank Shot}, {feat/Precise Shot}.", "Stay out of each other's way with ranged and area attacks" ],
 					[ "{feat/Friendly Rivalry}", "Human (Taldan).", "Gain +2 morale bonus on melee attacks against foes only you threaten if an ally is the only one threatening a different foe" ],
 					[ "{feat/Giantslaying Team}", "Dex 13, {feat/Dodge}, {feat/Mobility}, base attack bonus +4, defensive training racial trait.", "Attack a giant as an immediate action when the giant's attack of opportunity misses an ally with this feat" ],
@@ -535,7 +538,7 @@
 					[ "{feat/Living Fortress}", "Dwarf, hardy racial trait.", "Racial bonus on saves against spells and spell-like abilities increases by 2 when you're adjacent to an ally who has this feat" ],
 					[ "{feat/Lookout}", "", "Act in surprise round if ally can act" ],
 					[ "{feat/Loyal to the Death}", "Human (Tian).", "You can become the target of an attack directed against an adjacent ally who has this feat" ],
-					[ "{feat/Metamagical Synergy}", "{feat/Allied Spellcaster}.", "You and the other members of your coven can weave your spells together to great effect" ],
+					[ "{feat/Metamagical Synergy}&dagger;", "{feat/Allied Spellcaster}.", "You and the other members of your coven can weave your spells together to great effect" ],
 					[ "{feat/Mirror Kin}", "Bluff 8 ranks, gnome, gnome magic racial trait.", "You become difficult to distinguish from your allies, giving you a 20% miss chance due to concealment" ],
 					[ "{feat/My Blade is Yours}", "Int 13, {feat/Combat Expertise}, Sense Motive 3 ranks.", "Use a weapon special quality from adjacent ally's weapon" ],
 					[ "{feat/Mystical Reverberation}", "Ability to spontaneously cast spells.", "Grant an ally use of a metamagic feat you know" ],
@@ -556,7 +559,7 @@
 					[ "{feat/Pursuit of Glory}", "Human (Ulfen).", "Gain a +2 morale bonus on one attack roll made as part of a charge if you start or end the charge adjacent to an ally" ],
 					[ "{feat/Quah Bond}", "{feat/Totem Spirit}, human (Shoanti).", "Double benefits granted by your Totem Spirit feat when an ally from the same quah with this feat is within 30 feet" ],
 					[ "{feat/Rat Stack}", "Dex 13, swarming racial trait.", "You and two allies can share the same space" ],
-					[ "{feat/Reckless Moves}", "Acrobatics 3 ranks.", "Use an ally as a counterweight to improve your balance" ],
+					[ "{feat/Reckless Moves}\\*", "Acrobatics 3 ranks.", "Use an ally as a counterweight to improve your balance" ],
 					[ "{feat/Relentless Cheer}", "Halfling, fearless and halfling luck racial traits.", "+1 on all saves, increasing to +3 vs. fear, when adjacent to allies who have this feat" ],
 					[ "{feat/Rending Swarm}", "Dex 15, {feat/Rat Stack}, swarming racial trait.", "While swarming, rend creature hit by more than one of you" ],
 					[ "{feat/Returning Throw}", "{feat/Point-Blank Shot}, {feat/Precise Shot}, Sleight of Hand 3 ranks, goblinoid subtype.", "When an ally misses with a thrown weapon attack, you can catch the weapon and use it to attack the original target" ],
@@ -582,7 +585,7 @@
 					[ "{feat/Spell Chain}", "{feat/Spell Penetration}.", "Help your allies to bypass a target's spell resistance." ],
 					[ "{feat/Spell Synergy}", "Spellcraft 5 ranks.", "Amplify the effects of a spell on yourself" ],
 					[ "{feat/Spirit of the Corps}", "", "Duplicate morale bonuses from teammates" ],
-					[ "{feat/Splash Volley}", "Base attack bonus +1.", "Allies can help to redirect missed splash weapons nearby" ],
+					[ "{feat/Splash Volley}\\*", "Base attack bonus +1.", "Allies can help to redirect missed splash weapons nearby" ],
 					[ "{feat/Squirming Pile}", "Acrobatics 5 ranks, swarming racial trait.", "While swarming, gain fortification against critical hits and sneak attack" ],
 					[ "{feat/Stealth Synergy}", "", "Take the highest roll made by you and your allies on Stealth checks" ],
 					[ "{feat/Stick Together}", "", "Gain extra movement when a nearby ally moves" ],
@@ -616,7 +619,7 @@
 					[ "{feat/Usurper's Guard}", "Base attack bonus +3 or ability to cast 2nd-level spells.", "You can guard your ally while they make a concentration check" ],
 					[ "{feat/Volley Fire}", "{feat/Point-Blank Shot}.", "+1 for each ally attacking the same target at range" ],
 					[ "{feat/Wall of Flesh}", "Small size or smaller.", "Increase your size modifier with combat maneuvers" ],
-					[ "{feat/Wild Flanking}", "{feat/Power Attack}, base attack bonus +4.", "Hit an enemy with stronger power attacks, but risk damaging your allies" ],
+					[ "{feat/Wild Flanking}\\*", "{feat/Power Attack}, base attack bonus +4.", "Hit an enemy with stronger power attacks, but risk damaging your allies" ],
 					[ "{feat/Wounded Paw Gambit}", "{feat/Broken Wing Gambit}, Bluff 5 ranks.", "When you use Broken Wing Gambit, nearby allies can attempt a ranged attack against the attacker" ]
 				]
 			}
@@ -630,27 +633,15 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_multiperson).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Ally Shield} |  | Use your allies as shields |",
+			"| {feat/Callous Casting} | Spellcraft 1 rank. | Include allies in the area of your spells to dishearten your enemies |",
+			"| {feat/Friendly Fire} | {feat/Precise Shot}. | Increase your ability to attack in ranged combat by not caring if you hit your allies |",
+			"| {feat/Reckless Moves} | Acrobatics 3 ranks. | Use an ally as a counterweight to improve your balance |",
+			"| {feat/Splash Volley} | Base attack bonus +1. | Allies can help to redirect missed splash weapons nearby |",
+			"| {feat/Wild Flanking} | {feat/Power Attack}, base attack bonus +4. | Hit an enemy with stronger power attacks, but risk damaging your allies |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"className": "plain",
-				"id": "Betrayal feats table",
-				"ripples": [0],
-				"data": [
-					[ "{feat/Ally Shield}", "", "Use your allies as shields" ],
-					[ "{feat/Callous Casting}", "Spellcraft 1 rank.", "Include allies in the area of your spells to dishearten your enemies" ],
-					[ "{feat/Friendly Fire}", "{feat/Precise Shot}.", "Increase your ability to attack in ranged combat by not caring if you hit your allies" ],
-					[ "{feat/Reckless Moves}", "Acrobatics 3 ranks.", "Use an ally as a counterweight to improve your balance" ],
-					[ "{feat/Splash Volley}", "Base attack bonus +1.", "Allies can help to redirect missed splash weapons nearby" ],
-					[ "{feat/Wild Flanking}", "{feat/Power Attack}, base attack bonus +4.", "Hit an enemy with stronger power attacks, but risk damaging your allies" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_coven": {
@@ -660,23 +651,11 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_multiperson).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Familiar Link} | Coven hex or Coven-Touched, familiar or spirit animal class feature, witch level 1st. | Within your coven, you have formed a bond with your fellow witches' familiars |",
+			"| {feat/Metamagical Synergy} | {feat/Allied Spellcaster} | You and the other members of your coven can weave your spells together to great effect |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"className": "plain",
-				"id": "Coven feats table",
-				"ripples": [0],
-				"data": [
-					[ "{feat/Familiar Link}", "Coven hex or Coven-Touched, familiar or spirit animal class feature, witch level 1st.", "Within your coven, you have formed a bond with your fellow witches' familiars" ],
-					[ "{feat/Metamagical Synergy}", "{feat/Allied Spellcaster}.", "You and the other members of your coven can weave your spells together to great effect" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_trick": {

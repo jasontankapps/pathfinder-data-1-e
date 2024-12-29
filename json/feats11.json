@@ -225,7 +225,7 @@
 			"**Completion Benefit:** The secrets of Heaven and the other goodly Outer Planes are now known to you. You gain the completion benefits of the Blessed story feat.",
 			"",
 			"Linnorm Head  ",
-			"**Completion Benefit:** Slaying a linnorm in the northlands of Avistan enables you to become a ruler in the Lands of the Linnorm Kings. You gain favored enemy (dragon) +2 , as the ranger class feature of t he same name. T his bonus stacks with favored enemy bonuses granted by other sources.",
+			"**Completion Benefit:** Slaying a linnorm in the northlands of Avistan enables you to become a ruler in the Lands of the Linnorm Kings. You gain favored enemy (dragon) +2, as the ranger class feature of t he same name. T his bonus stacks with favored enemy bonuses granted by other sources.",
 			"",
 			"Red Mantis Hit List  ",
 			"**Completion Benefit:** By stealing a comprehensive list of all the targets slain and being kept dead by the [Red Mantis](rule/aff_assassins) assassins, you gain insights into their deadliest secrets. You gain {feat/Exotic Weapon Proficiency} (sawtooth sabre) and {feat/Weapon Focus} (sawtooth sabre) as bonus feats.",
@@ -1183,7 +1183,7 @@
 			"",
 			"You can ricochet a firearm shot off the wall and still hit your target.  ",
 			"**Prerequisites:** Grit class feature or Amateur Gunslinger feat, {feat/Blind-Fight}.  ",
-			"**Benefit:** You can fire a shot at a wall or piece of solid terrain, and have it ricochet off. When you do, use the square immediately in front of the wall or piece of solid terrain to determine line of sight to a target, and this square is considered the new origin square of the attack. Use that square to determine the effects of cover, and your own square to determine the effects of concealment. You can make this shot as long as you have at least 1 grit point. When making this shot, you can spend 1 grit point to ignore the effects of all cover or concealment. You must choose to spend the grit point before you make the attack roll."
+			"**Benefit:** You can fire a shot at a wall or piece of solid terrain, and have it ricochet off. When you do, use the square immediately in front of the wall or piece of solid terrain to determine line of sight to a target, and this square is considered the new origin square of the attack. Use that square to determine the effects of cover, and your own square to determine the effects of {rule/concealment}. You can make this shot as long as you have at least 1 grit point. When making this shot, you can spend 1 grit point to ignore the effects of all cover or concealment. You must choose to spend the grit point before you make the attack roll."
 		]
 	},
 	"ricochet_splash_weapon": {
@@ -2651,7 +2651,7 @@
 			"",
 			"You can use stone around you to help you avoid attacks.  ",
 			"**Prerequisites:** Wis 15, {feat/Stone Shroud}, Stealth 6 ranks, dwarf, stonecunning racial trait.  ",
-			"**Benefit:** While in areas of rocky terrain or while underground, you can gain 10% miss chance as a swift action. Alternatively, you can take a moment to better position yourself and gain concealment as a move action. The miss chance or concealment you gain from this feat does not stack with similar effects and remains until the start of your next turn."
+			"**Benefit:** While in areas of rocky terrain or while underground, you can gain 10% miss chance as a swift action. Alternatively, you can take a moment to better position yourself and gain {rule/concealment} as a move action. The miss chance or concealment you gain from this feat does not stack with similar effects and remains until the start of your next turn."
 		]
 	},
 	"stone_dodger": {
@@ -3666,7 +3666,7 @@
 			"    - Shadow mastiff (NE)",
 			"- 6th Level",
 			"    - Efreeti (genie, LE)",
-			"    - Erinyes (devil , LE)",
+			"    - Erinyes (devil, LE)",
 			"    - Fiendish giant octopus (NE)",
 			"    - Pairaka (div, NE)",
 			"    - Shadow demon (CE)",
@@ -3781,7 +3781,7 @@
 			"{SOURCE Monster Summoner's Handbook/26}",
 			"",
 			"A guardian spirit has selected you as its ward.  ",
-			"**Prerequisites:** Ability to cast [summon monster III](spell/summon_monster_3) or [summon nature's ally III](spell/summon_natures_ally_3).  ",
+			"**Prerequisites:** Ability to cast {spell/summon monster III} or {spell/summon nature's ally III}.  ",
 			"**Benefit:** Select one creature that qualifies to be an improved familiar, and apply the {template/guardian spirit/ template} to it. That creature is added to either your summon monster III or summon nature's ally III list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours.",
 			"",
 			"If you're capable of casting a higher-level summon monster or summon nature's ally spell, you can perform a ritual to attune the guardian spirit to a higher-level version of the spell. This also allows you to change any selections made regarding the abilities the creature gains based on the level of spell used to conjure it. This ritual takes 24 hours, and once complete it moves the guardian spirit to the higher-level list of creatures that can be summoned."
@@ -4356,7 +4356,7 @@
 			"",
 			"The soft ground and flowing reeds of fetid bogs and misty marshes are as comfortable to you as any sunny meadow would be for others.  ",
 			"**Prerequisites:** Favored terrain (swamp) class feature.  ",
-			"**Benefit:** You gain a +2 bonus on Climb checks, Swim checks, and Acrobatics checks to maintain your balance when moving across a slippery surface, and you can move at full speed through shallow and deep bog terrain. You can see twice as far as normal in fog, mist, murky water, vegetation, and similarly obscuring conditions, and creatures adjacent to you never gain concealment from fog, mist, murky water, or vegetation."
+			"**Benefit:** You gain a +2 bonus on Climb checks, Swim checks, and Acrobatics checks to maintain your balance when moving across a slippery surface, and you can move at full speed through shallow and deep bog terrain. You can see twice as far as normal in fog, mist, murky water, vegetation, and similarly obscuring conditions, and creatures adjacent to you never gain {rule/concealment} from fog, mist, murky water, or vegetation."
 		]
 	},
 	"swap_places": {

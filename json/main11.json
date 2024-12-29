@@ -899,6 +899,7 @@
 					[ "{spell/Spiked Pit}", 3, "conjuration", "creation", "acid", "As create pit, but filled with spikes." ],
 					[ "{spell/Spotlight}", 3, "evocation", null, "darkness, light", "Create a mobile area of bright light while also suppressing light surrounding it." ],
 					[ "{spell/Stage Fright}", 3, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Give the target a -4 penalty on ability checks, skill checks, and any checks requiring concentration." ],
+					[ "{spell/Steal Book}", 3, "divination", null, null, "Move mundane text from a book into a blank copy." ],
 					[ "{spell/Steal Years}", 3, "transmutation", null, null, "Temporarily steal youth and vitality from the target." ],
 					[ "{spell/Stinking Cloud}", 3, "conjuration", "creation", "poison", "Nauseating vapors, 1 round/level." ],
 					[ "{spell/Stolen Light}", 3, "illusion", "figment", null, "Store images within a gem." ],

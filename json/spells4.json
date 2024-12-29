@@ -2267,7 +2267,7 @@
 			"",
 			"You can excavate and move earth, dust, and sand up to the size of a 5-foot cube. If you are buried, you may open a 5-foot cube around yourself, but the spell cannot be used for tunneling. Besides its mundane applications, you can open a 5-foot-deep pit at a creature's feet. A Medium or smaller creature falls prone in the pit unless it succeeds on a Reflex save. With a successful save, it can choose to land harmlessly on its feet in the pit or hop to an adjacent square; this movement does not provoke attacks of opportunity. A creature can escape a 5-foot-deep pit with a DC 5 Climb check. Larger creatures may ignore pits smaller than their size.",
 			"",
-			"The earth excavated by this spell is ordinarily distributed harmlessly across the spell's range, but you may choose to throw up a burst of grit and debris when you dig a pit. This cloud of debris provides concealment to any creatures in the square affected and all adjacent squares for 1 round. Expeditious excavation has no effect on solid rock or earth creatures."
+			"The earth excavated by this spell is ordinarily distributed harmlessly across the spell's range, but you may choose to throw up a burst of grit and debris when you dig a pit. This cloud of debris provides {rule/concealment} to any creatures in the square affected and all adjacent squares for 1 round. Expeditious excavation has no effect on solid rock or earth creatures."
 		]
 	},
 	"expeditious_retreat": {
@@ -2588,7 +2588,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will disbelief; **Spell Resistance** yes",
 			"",
-			"The spell weaves shadows and colors from your kapenia into the shape of legendary characters from Varisian folktales. This spell functions as {spell/shadow conjuration} emulating [summon monster I](spell/summon_monster_1), except as noted here. You can summon only one copy of the same character at the same time, even with multiple castings of this spell. The shadow creatures are 40% real and are drawn from the list below.",
+			"The spell weaves shadows and colors from your kapenia into the shape of legendary characters from Varisian folktales. This spell functions as {spell/shadow conjuration} emulating {spell/summon monster I}, except as noted here. You can summon only one copy of the same character at the same time, even with multiple castings of this spell. The shadow creatures are 40% real and are drawn from the list below.",
 			"",
 			"- Anelda the beautiful ({npc/freelance thief})",
 			"- Old Mother Toad ({monster/giant toad} with {template/fey animal} template)",
@@ -2727,7 +2727,7 @@
 			"**Duration** 1 min./level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"A pale glow surrounds and outlines the subjects. Outlined subjects shed light as candles. Creatures outlined by faerie fire take a -20 penalty on all Stealth checks. Outlined creatures do not benefit from the concealment normally provided by darkness (though a 2nd-level or higher magical darkness effect functions normally), blur, displacement, invisibility, or similar effects. The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light. The faerie fire can be blue, green, or violet, according to your choice at the time of casting. The faerie fire does not cause any harm to the objects or creatures thus outlined.",
+			"A pale glow surrounds and outlines the subjects. Outlined subjects shed light as candles. Creatures outlined by faerie fire take a -20 penalty on all Stealth checks. Outlined creatures do not benefit from the {rule/concealment} normally provided by {spell/darkness} (though a 2nd-level or higher magical darkness effect functions normally), {spell/blur}, {spell/displacement}, {spell/invisibility}, or similar effects. The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light. The faerie fire can be blue, green, or violet, according to your choice at the time of casting. The faerie fire does not cause any harm to the objects or creatures thus outlined.",
 			"",
 			"### Mythic Faerie Fire",
 			"",
@@ -4860,7 +4860,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Reflex negates (object) and Fortitude negates; **Spell Resistance** yes (object)",
 			"",
-			"You cause flames to spring up in the area of effect. These flames deal 1d6 points of fire damage for every 3 caster levels you have (maximum 5d6) to each creature that enters a burning area or begins its turn in the area; these creatures also catch on fire. A creature that succeeds at a Reflex save negates the damage and avoids catching on fire. The area and all adjacent 5-foot squares are smoky, providing concealment within. You can concentrate as a standard action to ignite one 5-foot square adjacent to a currently burning square. Heavy precipitation (including sleet storm) ends the spell. Strong and severe winds spread each square of flashfire downwind by one square each round, but windstorm-force or stronger winds extinguish the fires."
+			"You cause flames to spring up in the area of effect. These flames deal 1d6 points of fire damage for every 3 caster levels you have (maximum 5d6) to each creature that enters a burning area or begins its turn in the area; these creatures also catch on fire. A creature that succeeds at a Reflex save negates the damage and avoids catching on fire. The area and all adjacent 5-foot squares are smoky, providing {rule/concealment} within. You can concentrate as a standard action to ignite one 5-foot square adjacent to a currently burning square. Heavy precipitation (including sleet storm) ends the spell. Strong and severe winds spread each square of flashfire downwind by one square each round, but windstorm-force or stronger winds extinguish the fires."
 		]
 	},
 	"fleeting_defect": {

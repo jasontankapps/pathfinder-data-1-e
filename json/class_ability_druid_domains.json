@@ -202,7 +202,7 @@
 			"",
 			"**Ranged Legerdemain (Su):** At 6th level, you can use the Disable Device and Sleight of Hand skills at a range of 30 feet. Working at a distance increases the normal skill check DC by 5, and you cannot take 10 on this check. Any object to be manipulated must weigh 5 pounds or less. You can only use this ability if you have at least 1 rank in the skill being used.",
 			"",
-			"**Domain Spells:** 1st-{spell/beguiling gift}, 2nd-{spell/spider climb}, 3rd-{spell/cacophonous call}, 4th-{spell/freedom of movement}, 5th-[summon nature's ally V](spell/summon_natures_ally_5) (dire ape or girallon only), 6th-{spell/confusion}, 7th-{spell/animal shapes} (apes and monkeys only), 8th-{spell/clenched fist}, 9th-{spell/foresight}."
+			"**Domain Spells:** 1st-{spell/beguiling gift}, 2nd-{spell/spider climb}, 3rd-{spell/cacophonous call}, 4th-{spell/freedom of movement}, 5th-{spell/summon nature's ally V} (dire ape or girallon only), 6th-{spell/confusion}, 7th-{spell/animal shapes} (apes and monkeys only), 8th-{spell/clenched fist}, 9th-{spell/foresight}."
 		]
 	},
 	"mountain": {
@@ -382,7 +382,7 @@
 			"",
 			"**Natural Healing (Su):** You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure ability damage (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced. You can take other feats to add to this ability, such as {feat/Extra Channel}, but not feats that alter this ability, such as {feat/Elemental Channel} and {feat/Alignment Channel}.",
 			"",
-			"**Reed Hunter (Ex):** At 6th level, you gain blindsense 30 feet with respect to concealment and cover from fog, vegetation, or water. At 12th level, this improves to blindsight 30 feet with respect to these conditions.",
+			"**Reed Hunter (Ex):** At 6th level, you gain blindsense 30 feet with respect to {rule/concealment} and {rule/cover} from fog, vegetation, or water. At 12th level, this improves to blindsight 30 feet with respect to these conditions.",
 			"",
 			"**Domain Spells:** 1st-{spell/hydraulic push}, 2nd-{spell/burst of nettles}, 3rd-{spell/lily pad stride}, 4th-{spell/cape of wasps}, 5th-{spell/insect plague}, 6th-{spell/mass fester}, 7th-{spell/animate plants}, 8th-{spell/blood mist}, 9th-{spell/shambler}."
 		]
@@ -421,7 +421,7 @@
 			"",
 			"**Sudden Sting (Su):** At 8th level, you can inflict a lingering, painful sting as a swift action that requires a successful melee touch attack. This sting deals 1d4 points of piercing damage plus 1 point for every 2 druid levels you have, and the target must succeed at a Fortitude save (DC = 10 + half your druid level + your Constitution modifier) or become staggered for 1 round. This is a pain effect. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Domain Spells:** 1st-{spell/ant haul}, 2nd-{spell/summon swarm}, 3rd-{spell/vermin shape I}, 4th-{spell/vermin shape II}, 5th-{spell/insect plague}, 6th-{spell/swarm skin}, 7th-{spell/creeping doom}, 8th-{spell/verminous transformation}, 9th-[summon nature's ally IX](spell/summon_natures_ally_9) (1d3 purple worms only)."
+			"**Domain Spells:** 1st-{spell/ant haul}, 2nd-{spell/summon swarm}, 3rd-{spell/vermin shape I}, 4th-{spell/vermin shape II}, 5th-{spell/insect plague}, 6th-{spell/swarm skin}, 7th-{spell/creeping doom}, 8th-{spell/verminous transformation}, 9th-{spell/summon nature's ally IX} (1d3 purple worms only)."
 		]
 	},
 	"vulture": {

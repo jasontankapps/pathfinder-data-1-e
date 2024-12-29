@@ -2506,6 +2506,7 @@
 					[ "{spell/Stave Off Corruption}", 2, "abjuration", "Protect against a corruption's progression." ],
 					[ "{spell/Stay the Hand}", 4, "enchantment", "Subject cannot attack with melee weapon." ],
 					[ "{spell/Steady Saddle}", 1, "transmutation", "Affected saddle has reduced penalties for actions requiring focus" ],
+					[ "{spell/Steal Book}", 3, "divination", "Move mundane text from a book into a blank copy." ],
 					[ "{spell/Steal Breath}", 2, "transmutation", "Steal the breath from a creature's lungs." ],
 					[ "{spell/Steal Power}", [ 4.891, "4, 5" ], "necromancy", "Sap mythic power from another creature." ],
 					[ "{spell/Steal Size}", [ 2.381, "2, 3" ], "transmutation", "Reduce a creature's size, enlarge your own." ],

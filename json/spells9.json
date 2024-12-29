@@ -542,7 +542,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You shield yourself with darkness, reducing the illumination level in your space to magical darkness and granting you total concealment. Your opponents are automatically aware of which squares you occupy, preventing you from attempting Stealth checks using this concealment unless every square adjacent to you has an illumination level of darkness or lower. Shield of darkness does not hinder your vision, and creatures that can see in magical darkness ignore this effect."
+			"You shield yourself with darkness, reducing the illumination level in your space to magical darkness and granting you {rule/total |concealment}. Your opponents are automatically aware of which squares you occupy, preventing you from attempting Stealth checks using this concealment unless every square adjacent to you has an illumination level of darkness or lower. Shield of darkness does not hinder your vision, and creatures that can see in magical darkness ignore this effect."
 		]
 	},
 	"shield_of_faith": {
@@ -1589,7 +1589,7 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell generates an illusory silt cloud that drifts around you and moves with you. The cloud provides total concealment to creatures within it (including you) when the spell is cast. Creatures moving into the cloud after the spell is cast gain concealment (but not total concealment) due to the illusion. Any creatures within the cloud can see each other normally and can see out from within the cloud as though it were transparent. If a creature other than you that has total concealment due to the cloud makes an attack against any foe, it loses total concealment and gains concealment instead. If you make an attack against any creature, the spell ends.",
+			"This spell generates an illusory silt cloud that drifts around you and moves with you. The cloud provides total {rule/concealment} to creatures within it (including you) when the spell is cast. Creatures moving into the cloud after the spell is cast gain concealment (but not total concealment) due to the illusion. Any creatures within the cloud can see each other normally and can see out from within the cloud as though it were transparent. If a creature other than you that has total concealment due to the cloud makes an attack against any foe, it loses total concealment and gains concealment instead. If you make an attack against any creature, the spell ends.",
 			"",
 			"A creature that examines the cloud from the outside and succeeds at a DC 20 Knowledge (nature) check notices the silt cloud is unnaturally compact and fast moving, and that creature can attempt an immediate saving throw to disbelieve the illusion. Other circumstances (such as if the silt cloud floats in the middle of otherwise clear waters) can modify the DC of the Knowledge (nature) check.",
 			"",
@@ -4938,6 +4938,33 @@
 			"**Saving Throw** Will negates (harmless, object); **Spell Resistance** yes (harmless, object)",
 			"",
 			"A saddle affected by this spell becomes more comfortable to sit in, and the magic stabilizes any shaking motion caused by riding at a high speed. For the duration of the spell, the penalty to use ranged weapons while mounted in the target saddle decreases by 2. This stacks with the benefit of the {feat/Mounted Archery} feat and similar effects. Furthermore, the DC for any concentration check required as a result of the mount's movement decreases by 2."
+		]
+	},
+	"steal_book": {
+		"name": "Steal Book",
+		"sources": [],
+		"description": [
+			"## Steal Book",
+			"",
+			"**School** {spelldef/divination}; **Level** bard 3, inquisitor 3, sorcerer 3, witch 3, wizard 3",
+			"",
+			"### Casting",
+			"",
+			"**Casting Time** 1 standard action  ",
+			"**Components** V, S",
+			"",
+			"### Effect",
+			"",
+			"**Range** touch  ",
+			"**Target** one book touched  ",
+			"**Duration** permanent  ",
+			"**Saving Throw** Fortitude negates (object); **Spell Resistance** yes (object)",
+			"",
+			"This spell allows you to copy the contents of one book, folio, scroll, or other text to a blank one of suffient size. In doing so, the original pages are wiped blank, though any covers or bindings remain unchanged. Differences in size between the original and blank folio don't matter, though the blank folio must have an equal or greater amount of space (in number of pages or inches of scroll), or else any text that overflows the document is lost forever.",
+			"",
+			"This spell cannot transfer magical writing (such as a wizard's spellbook or a magical scroll).",
+			"",
+			"Optionally, if the GM allows it, the spell can restore lost information, such as a page obscured by spilled wine, text erased by magical or mundane means, or even pages lost to fire or another type of damage."
 		]
 	},
 	"steal_breath": {

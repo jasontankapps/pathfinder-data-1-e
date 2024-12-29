@@ -240,7 +240,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster I}; **Price** +1 bonus"
 		]
 	},
 	"evolving": {
@@ -328,7 +328,7 @@
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** armor/shield quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"The polished surface of a mirrored shield or armor gleams and shines, and can be used as an ordinary mirror. Furthermore, it aids in battling creatures with gaze attacks. If the wearer averts his eyes, he can roll the miss chance twice, selecting the better result. The wearer can deal sneak attack or other precision-based damage to the target even though it has concealment against him. This provides no benefit if the wearer closes his eyes, wears a blindfold, or otherwise can't see the target at all. The mirrored armor or shield also adds its enhancement bonus to the wearer's touch AC against rays. it. This special ability may only be added to metallic armor or shields.",
+			"The polished surface of a mirrored shield or armor gleams and shines, and can be used as an ordinary mirror. Furthermore, it aids in battling creatures with gaze attacks. If the wearer averts his eyes, he can roll the miss chance twice, selecting the better result. The wearer can deal sneak attack or other precision-based damage to the target even though it has {rule/concealment} against him. This provides no benefit if the wearer closes his eyes, wears a blindfold, or otherwise can't see the target at all. The mirrored armor or shield also adds its enhancement bonus to the wearer's touch AC against rays. it. This special ability may only be added to metallic armor or shields.",
 			"",
 			"### Construction",
 			"",
@@ -846,7 +846,7 @@
 			"**Aura** moderate illusion; **CL** 11th  ",
 			"**Slot** none; **Price** +2 bonus; **Weight** -",
 			"",
-			"Shadow blending armor is drab and mutes any colors in its wearer's attire into dull grays. Attacks against the wearer in dim light have a 40% miss chance instead of the normal 20%. This ability does not grant total concealment; it only increases the miss chance. If the armor also has the shadow, improved shadow, or greater shadow armor special ability, the miss chance increases to 50%.",
+			"Shadow blending armor is drab and mutes any colors in its wearer's attire into dull grays. Attacks against the wearer in dim light have a 40% miss chance instead of the normal 20%. This ability does not grant {rule/total |concealment}; it only increases the miss chance. If the armor also has the shadow, improved shadow, or greater shadow armor special ability, the miss chance increases to 50%.",
 			"",
 			"### Construction",
 			"",
@@ -925,7 +925,7 @@
 			"**Aura** strong evocation; **CL** 14th  ",
 			"**Slot** none; **Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on heavy armor. Volcanic armor is often stony in appearance and gives off a soft red glow. Once per day, the wearer can command the armor to erupt, causing a cloud of smoke and hot molten liquid to shoot forth from the armor in a 5-foot radius centered on the wearer. The smoke provides concealment, and the liquid deals 1d6 points of fire damage and ignites flammable substances. One round after the armor erupts, the smoke clears and the liquid cools and solidifies, creating difficult terrain. The wearer of this armor isn't affected by the smoke, fire damage, or difficult terrain created by this armor.",
+			"This special ability can be placed only on heavy armor. Volcanic armor is often stony in appearance and gives off a soft red glow. Once per day, the wearer can command the armor to erupt, causing a cloud of smoke and hot molten liquid to shoot forth from the armor in a 5-foot radius centered on the wearer. The smoke provides {rule/concealment}, and the liquid deals 1d6 points of fire damage and ignites flammable substances. One round after the armor erupts, the smoke clears and the liquid cools and solidifies, creating difficult terrain. The wearer of this armor isn't affected by the smoke, fire damage, or difficult terrain created by this armor.",
 			"",
 			"### Construction",
 			"",
@@ -2159,7 +2159,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, shield; **Price** +2 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shield}; **Price** +2 bonus"
 		]
 	},
 	"guarding_greater": {
@@ -2449,7 +2449,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster I}; **Price** -"
 		]
 	},
 	"benevolent_weapon": {
@@ -2514,7 +2514,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster I}; **Price** -"
 		]
 	},
 	"bloodsong": {
@@ -2908,7 +2908,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/darkvision}, {spell/detect evil}, [summon monster I](spell/summon_monster_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/darkvision}, {spell/detect evil}, {spell/summon monster I}; **Price** -"
 		]
 	},
 	"dueling_psfg": {
@@ -3190,7 +3190,7 @@
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons. A heartseeker weapon is drawn unerringly toward beating hearts. A heartseeker weapon ignores the miss chance for concealment against most living targets, though the attack must still target the proper square. This special ability does not apply against aberrations, oozes, plants, outsiders with the elemental subtype, or any creature specifically noted to lack a heart.",
+			"This special ability can only be placed on melee weapons. A heartseeker weapon is drawn unerringly toward beating hearts. A heartseeker weapon ignores the miss chance for {rule/concealment} against most living targets, though the attack must still target the proper square. This special ability does not apply against aberrations, oozes, plants, outsiders with the elemental subtype, or any creature specifically noted to lack a heart.",
 			"",
 			"### Construction",
 			"",

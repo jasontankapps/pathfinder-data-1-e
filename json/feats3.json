@@ -684,11 +684,11 @@
 			"**Prerequisites:** Character level 5th, convince four different Eagle Knights and either a member of the People's Council or an Andoran town mayor to write letters of commendation on your behalf.  ",
 			"**Benefit:** Choose one branch of the Eagle Knights you hope to join. You gain a specific benefit based on this choice.",
 			"",
-			"Golden Legion: Each round as a move action, you may issue commands to all allies within 30 feet who can see and hear you. Each affected ally that obeys your orders gains a +1 bonus on attack rolls, Armor Class, and saving throws during that round.",
+			"*Golden Legion:* Each round as a move action, you may issue commands to all allies within 30 feet who can see and hear you. Each affected ally that obeys your orders gains a +1 bonus on attack rolls, Armor Class, and saving throws during that round.",
 			"",
-			"Steel Falcons: You deal +1 damage with weapon attacks directed at any creature against which you have concealment. If you have total concealment against the creature, this bonus increases to +2.",
+			"*Steel Falcons:* You deal +1 damage with weapon attacks directed at any creature against which you have {rule/concealment}. If you have total concealment against the creature, this bonus increases to +2.",
 			"",
-			"Twilight Talons: During the surprise round, the threat range of your weapons doubles for any attack made against unaware targets. This does not stack with any other effect that expands the threat range of a weapon."
+			"*Twilight Talons:* During the surprise round, the threat range of your weapons doubles for any attack made against unaware targets. This does not stack with any other effect that expands the threat range of a weapon."
 		]
 	},
 	"eagle_eyed": {
@@ -1074,7 +1074,7 @@
 			"",
 			"You make deadly strikes when magic cloaks your location.  ",
 			"**Prerequisites:** {feat/Blind-Fight}, {feat/Improved Initiative}.  ",
-			"**Benefit:** Whenever you attack from total concealment provided by a magical source (such as the displacement or invisibility spells), the first attack roll you make each round that is a critical threat is automatically confirmed as a critical hit."
+			"**Benefit:** Whenever you attack from total concealment provided by a magical source (such as the {spell/displacement} or {spell/invisibility} spells), the first attack roll you make each round that is a critical threat is automatically confirmed as a critical hit."
 		]
 	},
 	"eldritch_claws": {
@@ -1496,7 +1496,7 @@
 			"",
 			"Your sharp eyesight makes difficult shots easier.  ",
 			"**Prerequisites:** Elf.  ",
-			"**Benefit:** If you miss due to concealment when making a ranged attack with a longbow or shortbow (including composite bows), you can reroll your miss chance roll one time to see if you actually hit.",
+			"**Benefit:** If you miss due to {rule/concealment} when making a ranged attack with a longbow or shortbow (including composite bows), you can reroll your miss chance roll one time to see if you actually hit.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
@@ -2333,7 +2333,7 @@
 			"",
 			"*Little Wall* (Escape Artist 5 ranks): You can contort your body behind your shield in order to gain a brief moment of security. Whenever you use the total defense action, you may choose to gain cover instead of the normal dodge bonus to AC.",
 			"",
-			"*Keen Eye* (Perception 5 ranks): You have mastered the art of using the reflective surface of your shield to locate foes that you dare not look at directly. On your turn, you may choose to forfeit your shield's AC bonus for 1 round to improve your defenses against one creature using a gaze attack. Your chance to avoid having to make a saving throw against that creature's gaze attack increases to 100%, and the creature does not gain concealment against you. For every 5 ranks in Perception you have above 5, you may simultaneously use this ability against another creature with a gaze attack.",
+			"*Keen Eye* (Perception 5 ranks): You have mastered the art of using the reflective surface of your shield to locate foes that you dare not look at directly. On your turn, you may choose to forfeit your shield's AC bonus for 1 round to improve your defenses against one creature using a gaze attack. Your chance to avoid having to make a saving throw against that creature's gaze attack increases to 100%, and the creature does not gain {rule/concealment} against you. For every 5 ranks in Perception you have above 5, you may simultaneously use this ability against another creature with a gaze attack.",
 			"",
 			"*Release Shield* (no prerequisites): You may remove a light or heavy shield as a swift action instead of a move action. You may remove a throwing shield as a free action. Once you've removed the shield, you may hold it in one hand or drop it as a free action.",
 			"",
@@ -4435,7 +4435,7 @@
 			"",
 			"Your eyes have grown accustomed to the half-light of dusk and dawn.  ",
 			"**Prerequisites:** {feat/Sharp Senses}, Perception 7 ranks, keen senses racial trait, low-light vision.  ",
-			"**Benefit:** Creatures within an area of dim light don't gain concealment from you. You're still effectively blinded in an area of darkness.  ",
+			"**Benefit:** Creatures within an area of dim light don't gain {rule/concealment} from you. You're still effectively blinded in an area of darkness.  ",
 			"**Normal:** Creatures within an area of dim light gain concealment (20% miss chance in combat) from those without darkvision or the ability to see in darkness."
 		]
 	},

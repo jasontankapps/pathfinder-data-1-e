@@ -77,7 +77,7 @@
 			"| {feat/Armor Proficiency, Light} | &mdash; | No penalties on attack rolls while wearing light armor |",
 			"| {feat/Armor Proficiency, Medium} | Light Armor Proficiency. | No penalties on attack rolls while wearing medium armor |",
 			"| {feat/Athletic} | &mdash; | +2 bonus on Climb and Swim checks |",
-			"| {feat/Blind-Fight} | &mdash; | Reroll miss chances for concealment |",
+			"| {feat/Blind-Fight} | &mdash; | Reroll miss chances for {rule/concealment} |",
 			"| {feat/Combat Reflexes} | &mdash; | Make additional attacks of opportunity |",
 			"| {feat/Devotion Against the Unnatural} | Animal companion, devotion special ability. | Gain additional resistance to certain creature's abilities |",
 			"| {feat/Diehard} | Endurance. | Automatically stabilize and remain conscious below 0 hp |",

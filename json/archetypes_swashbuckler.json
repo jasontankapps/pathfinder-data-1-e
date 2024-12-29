@@ -500,7 +500,7 @@
 			"",
 			"**Deeds:** A Shackles corsair gains the following deeds.",
 			"",
-			"**Eyes of Abendego (Ex):** Every true Shackles captain dreams of winning the Free Captain's Regatta, and the wise begin training for it early. At 3rd level, whenever she has at least 1 panache point, a Shackles corsair can see three times as far as normal in nonmagical fog. In magical fog, she can see normally for 10 feet; after that, creatures and objects have partial concealment for the next 10 feet and total concealment thereafter. This deed replaces swashbuckler initiative.",
+			"**Eyes of Abendego (Ex):** Every true Shackles captain dreams of winning the Free Captain's Regatta, and the wise begin training for it early. At 3rd level, whenever she has at least 1 panache point, a Shackles corsair can see three times as far as normal in nonmagical fog. In magical fog, she can see normally for 10 feet; after that, creatures and objects have partial {rule/concealment} for the next 10 feet and total concealment thereafter. This deed replaces swashbuckler initiative.",
 			"",
 			"**Plunder (Ex):** A Shackles corsair knows she doesn't always need to win the fight - she just needs to get what she came for. At 7th level, as a full-round action she can make a single attack with a light or one-handed piercing melee weapon against a foe that is either shaken or denied its Dexterity bonus to AC. If the attack hits, the Shackles corsair also pilfers a small, loose item from her target as if she had succeeded at a Sleight of Hand or steal combat maneuver check. She doesn't need to attempt a Sleight of Hand check, but if she does so and surpasses the target's opposed Perception check, the target is unaware that the item is stolen. This deed replaces targeted strike."
 		]
@@ -584,7 +584,7 @@
 			"",
 			"This deed replaces kip-up.",
 			"",
-			"**Keen Gaze (Ex):** At 11th level, while a wildstrider has at least 1 panache point, she can ignore the miss chance from concealment (but not total concealment) caused by normal and magical fog, smoke, and undergrowth, but not other sources of concealment or a miss chance, such as blur.",
+			"**Keen Gaze (Ex):** At 11th level, while a wildstrider has at least 1 panache point, she can ignore the miss chance from {rule/concealment} (but not total concealment) caused by normal and magical fog, smoke, and undergrowth, but not other sources of concealment or a miss chance, such as {spell/blur}.",
 			"",
 			"This deed replaces subtle blade."
 		]

@@ -601,7 +601,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Fortitude negates (see text); **Spell Resistance** yes",
 			"",
-			"This spell summons forth a misty cloud of rust-red toxic algae. Any creature within the mist is coated by it, turning the creature the same reddish color. All targets within the mist gain concealment. Any creature within the mist must save or take 1d4 points of Wisdom damage and become enraged, attacking any creatures it detects nearby (as the \"attack nearest creature\" result of the confused condition). An enraged creature remains so as long as the spell is in effect. A creature only needs to save once each time it is within the mist (though leaving and returning requires another save)."
+			"This spell summons forth a misty cloud of rust-red toxic algae. Any creature within the mist is coated by it, turning the creature the same reddish color. All targets within the mist gain {rule/concealment}. Any creature within the mist must save or take 1d4 points of Wisdom damage and become enraged, attacking any creatures it detects nearby (as the \"attack nearest creature\" result of the confused condition). An enraged creature remains so as long as the spell is in effect. A creature only needs to save once each time it is within the mist (though leaving and returning requires another save)."
 		]
 	},
 	"blood_money": {
@@ -3270,7 +3270,7 @@
 			"**Duration** 2 hours/level; see below (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You can create a barrier around a fire of at least campfire size that shelters everyone inside so long as the fire continues to burn. The barrier appears as a crackling sphere of light and fire that is clearly visible, providing as much illumination as a torch. The barrier bocks line of sight, granting creatures on either side of the barrier total concealment from creatures on the other side. Any object or creature passing through the barrier from outside takes 1d6 points of fire damage and is also outlined with light equivalent to that of a torch, for 1d6 minutes. Creatures outlined in this way are plainly visible regardless of the light conditions and do not benefit from any sort of concealment, magical or otherwise. The light is not bright enough to have any special effect on undead or creatures vulnerable to light. Creatures inside the barrier can leave without penalty, but if they try to return they suffer the same consequences as anyone else. If the fire source at the barrier's center is extinguished or moved, the spell ends."
+			"You can create a barrier around a fire of at least campfire size that shelters everyone inside so long as the fire continues to burn. The barrier appears as a crackling sphere of light and fire that is clearly visible, providing as much illumination as a torch. The barrier bocks line of sight, granting creatures on either side of the barrier {rule/total |concealment} from creatures on the other side. Any object or creature passing through the barrier from outside takes 1d6 points of fire damage and is also outlined with light equivalent to that of a torch, for 1d6 minutes. Creatures outlined in this way are plainly visible regardless of the light conditions and do not benefit from any sort of concealment, magical or otherwise. The light is not bright enough to have any special effect on undead or creatures vulnerable to light. Creatures inside the barrier can leave without penalty, but if they try to return they suffer the same consequences as anyone else. If the fire source at the barrier's center is extinguished or moved, the spell ends."
 		]
 	},
 	"canopic_conversion": {
@@ -3327,7 +3327,7 @@
 			"**Target** you  ",
 			"**Duration** 1 round/level (D)",
 			"",
-			"You summon a wasp swarm, which fills your space (up to 5 feet by 5 feet) but does not attack you. The dense cloud of vermin gives you partial concealment against ranged attacks. Any creature that makes a successful melee attack against you takes 2d6 points of swarm damage and poison from the wasp swarm, but is not affected by the swarm's distraction ability. As a free action on your turn, you may have the swarm cling to you tightly, giving you a fly speed of 20 feet (poor maneuverability); when using the swarm to fly, it does not provide concealment or harm creatures that strike you. You can return the swarm to its protective shape as a free action on your turn.",
+			"You summon a wasp swarm, which fills your space (up to 5 feet by 5 feet) but does not attack you. The dense cloud of vermin gives you partial {rule/concealment} against ranged attacks. Any creature that makes a successful melee attack against you takes 2d6 points of swarm damage and poison from the wasp swarm, but is not affected by the swarm's distraction ability. As a free action on your turn, you may have the swarm cling to you tightly, giving you a fly speed of 20 feet (poor maneuverability); when using the swarm to fly, it does not provide concealment or harm creatures that strike you. You can return the swarm to its protective shape as a free action on your turn.",
 			"",
 			"### Mythic Cape of Wasps",
 			"",
@@ -4878,7 +4878,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"You create a magical emanation that interferes with all figments and glamers within it, giving creatures a +4 bonus on saving throws to recognize them as illusions. The emanation negates concealment less than total concealment within the area. Perception checks to notice creatures or objects within the area gain a bonus equal to half your caster level (maximum +10). The spell is stationary if cast on a point in space. It is mobile if centered on a creature or object, though creatures or attended objects can negate the spell with a saving throw or spell resistance."
+			"You create a magical emanation that interferes with all figments and glamers within it, giving creatures a +4 bonus on saving throws to recognize them as illusions. The emanation negates {rule/concealment} less than total concealment within the area. Perception checks to notice creatures or objects within the area gain a bonus equal to half your caster level (maximum +10). The spell is stationary if cast on a point in space. It is mobile if centered on a creature or object, though creatures or attended objects can negate the spell with a saving throw or spell resistance."
 		]
 	},
 	"circle_of_death": {
@@ -4960,7 +4960,7 @@
 			"",
 			"This spell functions as per claim identity, except it transforms its target into a helpless, inanimate porcelain mask for the spell's duration. The target remains aware of everything it can see or hear while transformed. The target can't speak or move, but can still take purely mental actions (such as casting certain spells) or be targeted by spells that affect its mind.",
 			"",
-			"Any creature donning this mask is transformed into a flawless imitation of the spell's target, as if affected by claim identity , and reverts to its natural form upon removing the mask. Any damage dealt to the mask immediately ends this spell."
+			"Any creature donning this mask is transformed into a flawless imitation of the spell's target, as if affected by claim identity, and reverts to its natural form upon removing the mask. Any damage dealt to the mask immediately ends this spell."
 		]
 	},
 	"claim_identity_greater": {

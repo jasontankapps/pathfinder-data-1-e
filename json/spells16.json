@@ -944,7 +944,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as [summon monster V](spell/summon_monster_5), save that it can only be used to summon host devils, noxious flying devils, known also as [gaavs](monster/lesser_host_devil) and [magaavs](monster/greater_host_devil)."
+			"This spell functions as {spell/summon monster V}, save that it can only be used to summon host devils, noxious flying devils, known also as [gaavs](monster/lesser_host_devil) and [magaavs](monster/greater_host_devil)."
 		]
 	},
 	"summon_instrument": {
@@ -2519,7 +2519,7 @@
 			"",
 			"You harden the air around the target into jagged invisible blades that deal damage based on how fast the target moves. On its turn, the target takes 1d6 points of slashing damage if it moves at least 5 feet, plus 1d6 points of slashing damage for each additional 10 feet of movement. Movement that doesn't pass through air (such as burrowing, swimming, or teleportation) doesn't cause this damage.",
 			"",
-			"In areas of strong wind , the target takes damage on its turn, even if it doesn't move. The wind deals 1d8 points of slashing damage for strong wind, plus 1d8 for every wind category above strong. This extra damage does not occur from instantaneous wind effects (such as gust of wind), only from wind effects that last at least 1 round."
+			"In areas of strong wind, the target takes damage on its turn, even if it doesn't move. The wind deals 1d8 points of slashing damage for strong wind, plus 1d8 for every wind category above strong. This extra damage does not occur from instantaneous wind effects (such as gust of wind), only from wind effects that last at least 1 round."
 		]
 	},
 	"wind_walk": {

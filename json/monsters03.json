@@ -4411,7 +4411,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Cloud of Smoke and Fire (Su)** As a swift action, a blast shadow can surround itself with a cloud of smoke that burns living flesh. While this ability is active, the blast shadow gains concealment, and all living creatures within 5 feet take 1d6 points of fire damage per round. If the blast shadow takes any cold damage, this cloud is dispelled and can't be activated again for 1d6 rounds.",
+			"**Cloud of Smoke and Fire (Su)** As a swift action, a blast shadow can surround itself with a cloud of smoke that burns living flesh. While this ability is active, the blast shadow gains {rule/concealment}, and all living creatures within 5 feet take 1d6 points of fire damage per round. If the blast shadow takes any cold damage, this cloud is dispelled and can't be activated again for 1d6 rounds.",
 			"",
 			"**Death Burst (Su)** When a blast shadow is reduced to 0 or fewer hit points, it explodes in a blast of flame. All creatures within 30 feet take 5d6 points of fire damage (Reflex DC 17 half). The save DC is Charisma-based.",
 			"",

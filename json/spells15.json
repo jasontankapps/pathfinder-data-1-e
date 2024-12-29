@@ -1471,7 +1471,7 @@
 			"",
 			"Spells that modify or remove text - such as {spell/erase} or {spell/secret page} - also affect the target's memory if they persist after its release. Modify memory can be used to repair any changes to its original state, or alter the accounts recorded within the book. A creature imprisoned by scribe's binding automatically fails any saving throws against effects to change or modify its memories.",
 			"",
-			"A target bound by this spell can be freed by only freedom , miracle , or wish . Polymorph any object restores the target's normal form for 24 hours. Scribe's binding makes the imprisoning tome supernaturally durable (hardness 20, 10 hp per HD the imprisoned creature had). Destroying the tome immediately slays the creature imprisoned within."
+			"A target bound by this spell can be freed by only freedom, miracle, or wish . Polymorph any object restores the target's normal form for 24 hours. Scribe's binding makes the imprisoning tome supernaturally durable (hardness 20, 10 hp per HD the imprisoned creature had). Destroying the tome immediately slays the creature imprisoned within."
 		]
 	},
 	"scriveners_chant": {
@@ -2323,7 +2323,7 @@
 			"",
 			"You gain the ability to see through solid rock as if it were transparent glass. You may see through 1 foot of stone per caster level. You see within the stone as if you were looking at the area in normal light, even if there is no illumination, though low-light vision and darkvision have no effect on your ability to see through stone. Metal at least 1 inch thick or wood or dirt at least 3 feet thick blocks your vision.",
 			"",
-			"The spell does not negate concealment for those creatures hiding behind stone objects (the stone is still an obstacle to your attacks)."
+			"The spell does not negate {rule/concealment} for those creatures hiding behind stone objects (the stone is still an obstacle to your attacks)."
 		]
 	},
 	"seed_spies": {
@@ -3156,7 +3156,7 @@
 			"**Target** you  ",
 			"**Duration** 1 minute/level (D)",
 			"",
-			"You exchange the crude matter of your material body with the insubstantial essence of the Plane of Shadow, becoming a living shadow yourself. You are visible as an unattached shadow in bright light or normal light, but you gain total concealment in dim light or darkness. Against creatures with darkvision, you gain concealment rather than total concealment. Your shadow body is incorporeal for most purposes, though you can't fly or pass through solid objects or creatures. However, you can move at your normal speed along any surface, including horizontal and vertical surfaces and liquids, and you are never slowed by difficult terrain. Your size doesn't change.",
+			"You exchange the crude matter of your material body with the insubstantial essence of the Plane of Shadow, becoming a living shadow yourself. You are visible as an unattached shadow in bright light or normal light, but you gain total {rule/concealment} in dim light or darkness. Against creatures with darkvision, you gain concealment rather than total concealment. Your shadow body is incorporeal for most purposes, though you can't fly or pass through solid objects or creatures. However, you can move at your normal speed along any surface, including horizontal and vertical surfaces and liquids, and you are never slowed by difficult terrain. Your size doesn't change.",
 			"",
 			"You can speak and cast spells and perform mental actions, but you have no physical substance and cannot manipulate objects or attack physically. You can deliver touch spells and effects as if making an incorporeal touch attack. Your equipment merges with your shadow body, so you can't cast spells with a material component unless those spells are prepared with {feat/Eschew Materials}."
 		]
@@ -3184,7 +3184,7 @@
 			"",
 			"Upon drinking an extract created with this formula, you make a significant change to your magical reserve that modifies the nature of all bombs you create and throw during this extract's duration. This effect on your magical reserve has no effect on any discoveries that you use to modify your bombs, but you can only have one admixture effect (formula with the word \"bomb admixture\" in its title) active at a time. If you drink another bomb admixture, the effects of the former bomb admixture end and the new one becomes active.",
 			"",
-			"When you throw a bomb and hit a direct target, a shadowy substance is released from the bomb covering the direct target and up to three creatures that take damage from the bomb's splash (alchemist's choice). The affected creatures must successfully make a Fortitude saving throw, or they gain concealment but treat all other creatures as having concealment for the duration of the shadow bomb admixture. This effect does not ignore spell resistance."
+			"When you throw a bomb and hit a direct target, a shadowy substance is released from the bomb covering the direct target and up to three creatures that take damage from the bomb's splash (alchemist's choice). The affected creatures must successfully make a Fortitude saving throw, or they gain {rule/concealment} but treat all other creatures as having concealment for the duration of the shadow bomb admixture. This effect does not ignore spell resistance."
 		]
 	},
 	"shadow_claws": {
@@ -3748,7 +3748,7 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"In areas of darkness, the target of shadowfade is invisible to creatures using darkvision to see. In areas of dim light, the target gains concealment against creatures using darkvision. This spell has no effect in areas of normal light or brighter, and is automatically dispelled if the target enters an area of bright light or takes a hostile action."
+			"In areas of darkness, the target of shadowfade is invisible to creatures using darkvision to see. In areas of dim light, the target gains {rule/concealment} against creatures using darkvision. This spell has no effect in areas of normal light or brighter, and is automatically dispelled if the target enters an area of bright light or takes a hostile action."
 		]
 	},
 	"shadowform": {

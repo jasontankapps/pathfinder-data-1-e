@@ -7,7 +7,7 @@
 			"",
 			"{SOURCE Black Markets/12}  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
-			"**Slot** ; **Price** 420 gp; **Weight** &mdash;",
+			"**Slot**; **Price** 420 gp; **Weight** &mdash;",
 			"",
 			"Favored by demon cultists, this malign variant of arsenic causes a wide variety of painful deformations in the victim's flesh.",
 			"",
@@ -27,7 +27,7 @@
 			"",
 			"{SOURCE Black Markets/13}  ",
 			"**Aura** faint evocation; **CL** 1st  ",
-			"**Slot** ; **Price** 150 gp; **Weight** &mdash;",
+			"**Slot**; **Price** 150 gp; **Weight** &mdash;",
 			"",
 			"Brewed from belladonna and popular among the backstabbing nobility of Taldor and Cheliax, burning heart causes victims to burst into flames at the most embarrassing times.",
 			"",
@@ -47,7 +47,7 @@
 			"",
 			"{SOURCE Black Markets/13}  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
-			"**Slot** ; **Price** 1,150 gp; **Weight** &mdash;",
+			"**Slot**; **Price** 1,150 gp; **Weight** &mdash;",
 			"",
 			"This black metallic powder infuses lich dust with magic-destroying energies, tearing down any protective spells its imbiber may have in place. It is especially favored by [Red Mantis](rule/aff_assassins) assassins when they must target wizards, arcanists, or nobles with abundant magical servants.",
 			"",
@@ -56,7 +56,7 @@
 			"**Effect** 1d3 Str damage; **Cure** 2 consecutive saves  ",
 			"**Spell Effect** dispel magic",
 			"",
-			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, dispel magic; **Cost** 775 gp"
+			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, {spell/dispel magic}; **Cost** 775 gp"
 		]
 	},
 	"liquid_influence": {
@@ -67,7 +67,7 @@
 			"",
 			"{SOURCE Black Markets/13}  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
-			"**Slot** ; **Price** 900 gp; **Weight** &mdash;",
+			"**Slot**; **Price** 900 gp; **Weight** &mdash;",
 			"",
 			"This heady liquid brewed from the toxin indigo dreams imparts a compulsion to its victim, decided when the poison is first created.",
 			"",
@@ -76,7 +76,7 @@
 			"**Effect** 1d3 Wis damage; **Cure** 2 consecutive saves  ",
 			"**Spell Effect** suggestion (Will DC 14)",
 			"",
-			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, suggestion; **Cost** 525 gp"
+			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, {spell/suggestion}; **Cost** 525 gp"
 		]
 	}
 }

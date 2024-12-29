@@ -331,7 +331,7 @@
 			"",
 			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of an {monster/octopus}. While in this form, you gain the {subtype/aquatic} subtype, a swim speed of 30 feet, low-light vision, a bite attack (1d3), a tentacles attack (no damage) with the {umr/grab} ability, and {feat/Multiattack} as a bonus feat. At 8th level, you gain the {umr/jet} ability (200 feet). At 15th level, you gain the ability to produce an ink cloud (see below) and deal an amount of bludgeoning damage with your tentacles attack equal to the damage dealt by your shifter claws.",
 			"",
-			"*Ink Cloud (Ex):* While within water, you can emit a 10-foot-radius sphere of ink once per minute as a swift action. This ink provides total concealment and persists for 1 minute.",
+			"*Ink Cloud (Ex):* While within water, you can emit a 10-foot-radius sphere of ink once per minute as a swift action. This ink provides {rule/total |concealment} and persists for 1 minute.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), tentacle (B)"
 		]

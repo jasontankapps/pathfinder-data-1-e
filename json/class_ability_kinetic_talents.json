@@ -3763,7 +3763,7 @@
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** earth; **Type** utility (Su); **Level** 3; **Burn** 0",
 			"",
-			"You can take a move action to gain tremorsense 30 feet for 1 round on any earth or stone surface that you touch. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess. While benefiting from this tremorsense, your earth blasts and composite blasts that include earth components don't suffer a miss chance from concealment or total concealment against creatures you detect with your tremorsense."
+			"You can take a move action to gain tremorsense 30 feet for 1 round on any earth or stone surface that you touch. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess. While benefiting from this tremorsense, your earth blasts and composite blasts that include earth components don't suffer a miss chance from {rule/concealment} or total concealment against creatures you detect with your tremorsense."
 		]
 	},
 	"greater_tremorsense": {
@@ -3949,7 +3949,7 @@
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** water; **Type** utility (Su); **Level** 4; **Burn** 0",
 			"",
-			"You gain tremorsense with a range of 30 feet to detect anything in contact with the same body of water as you. While you are benefiting from this tremorsense, your water blasts and composite blasts that include water don't suffer a miss chance from concealment or total concealment against creatures you detect with this tremorsense."
+			"You gain tremorsense with a range of 30 feet to detect anything in contact with the same body of water as you. While you are benefiting from this tremorsense, your water blasts and composite blasts that include water don't suffer a miss chance from {rule/concealment} or total concealment against creatures you detect with this tremorsense."
 		]
 	},
 	"greater_watersense": {

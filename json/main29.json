@@ -445,6 +445,7 @@
 					[ "{spell/Spiral Ascent}", 3, "conjuration", "teleportation", null, "Teleport straight upwards" ],
 					[ "{spell/Spotlight}", 3, "evocation", null, "darkness, light", "Create a mobile area of bright light while also suppressing light surrounding it." ],
 					[ "{spell/Stage Fright}", 3, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Give the target a -4 penalty on ability checks, skill checks, and any checks requiring concentration." ],
+					[ "{spell/Steal Book}", 3, "divination", null, null, "Move mundane text from a book into a blank copy." ],
 					[ "{spell/Stunning Barrier, Greater}", 3, "abjuration", null, null, "Magical field grants a +2 bonus to AC and on saves, and stuns multiple creatures attacking you." ],
 					[ "{spell/Sweat Poison}", 3, "necromancy", null, "poison", "Secrete a poison from your skin" ],
 					[ "{spell/Terrible Remorse}", 3, "enchantment", "compulsion", "emotion, mind-affecting", "Creature is compelled to harm itself." ],

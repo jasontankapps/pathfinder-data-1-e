@@ -2841,7 +2841,7 @@
 			"**Target** you  ",
 			"**Duration** 10 minutes; see text",
 			"",
-			"You utter a question in the form of a low-pitched bird call that can be heard up to a mile away, and can understand the responses given by birds in the area. Over the next 10 minutes, the birds reply as if you had asked them the question using speak with animals, giving you a general consensus answer to the question based on their knowledge. For example, you could ask if there is drinkable water in the area, the location of predators or other creatures, directions to a mountaintop or other natural feature, and so on, and the local bird communities would answer to the best of their ability.",
+			"You utter a question in the form of a low-pitched bird call that can be heard up to a mile away, and can understand the responses given by birds in the area. Over the next 10 minutes, the birds reply as if you had asked them the question using {spell/speak with animals}, giving you a general consensus answer to the question based on their knowledge. For example, you could ask if there is drinkable water in the area, the location of predators or other creatures, directions to a mountaintop or other natural feature, and so on, and the local bird communities would answer to the best of their ability.",
 			"",
 			"If there are no birds in range, the spell has no effect and you do not get a response. Any creature using speak with animals (or a similar ability) who hears this bird call can understand your question, though it may not be able to reply in a way you can hear."
 		]
@@ -3225,7 +3225,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You condense the substance of the Ethereal Plane as it interpenetrates the Material Plane. This thickened planar conjunction slows movement through the area to a crawl. Creatures moving through condensed ether (even incorporeal creatures), move at only half their normal speed and can't take 5-foot steps. This slowing of movement doesn't stack with solid fog or similar effects. Creatures within condensed ether take a -2 penalty to Armor Class and on Reflex saves, and condensed ether prevents effective ranged weapon attacks. Even magic rays and similar ranged attacks suffer a 20% miss chance on attacks into or passing through condensed ether. This miss chance is not based on concealment, and {feat/Blind-Fight}, true seeing, and similar effects do not reduce it."
+			"You condense the substance of the Ethereal Plane as it interpenetrates the Material Plane. This thickened planar conjunction slows movement through the area to a crawl. Creatures moving through condensed ether (even incorporeal creatures), move at only half their normal speed and can't take 5-foot steps. This slowing of movement doesn't stack with solid fog or similar effects. Creatures within condensed ether take a -2 penalty to Armor Class and on Reflex saves, and condensed ether prevents effective ranged weapon attacks. Even magic rays and similar ranged attacks suffer a 20% miss chance on attacks into or passing through condensed ether. This miss chance is not based on {rule/concealment}, and {feat/Blind-Fight}, true seeing, and similar effects do not reduce it."
 		]
 	},
 	"conditional_favor": {
@@ -3636,7 +3636,7 @@
 			"### Contact Entity III",
 			"",
 			"{SOURCE Horror Adventures/113}  ",
-			"**School** {spelldef/evocation} ; **Level** arcanist 5, cleric 5, medium 3, occultist 4, oracle 5, psychic 5, shaman 5, sorcerer 5, summoner 4, unchained summoner 4, warpriest 5, witch 5, wizard 5",
+			"**School** {spelldef/evocation}; **Level** arcanist 5, cleric 5, medium 3, occultist 4, oracle 5, psychic 5, shaman 5, sorcerer 5, summoner 4, unchained summoner 4, warpriest 5, witch 5, wizard 5",
 			"",
 			"#### Casting",
 			"",

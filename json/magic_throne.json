@@ -13,7 +13,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor, heroism, resistance; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}, {spell/heroism}, {spell/resistance}; **Cost** 4,000 gp"
 		]
 	},
 	"throne_of_fetters": {
@@ -30,7 +30,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bear's endurance, freedom of movement, heroism; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/freedom of movement}, {spell/heroism}; **Cost** 8,000 gp"
 		]
 	},
 	"throne_of_the_ardent_defense": {
@@ -47,7 +47,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, heroism, shield other; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/heroism}, {spell/shield other}; **Cost** 8,000 gp"
 		]
 	}
 }

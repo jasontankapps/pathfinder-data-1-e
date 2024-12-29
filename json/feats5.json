@@ -1889,7 +1889,7 @@
 			"",
 			"You allies depend far too much on your leadership and encouraging words for you to actually put yourself in harms' way.  ",
 			"**Prerequisites:** Goblin, Intimidate 1 rank.  ",
-			"**Benefit:** During any round in which you gain the benefit of cover or concealment against at least one opponent, and you are not threatened by any opponent, you can bark orders and encouragement to your allies as a standard action. Doing so grants all allies within 30 feet a +1 bonus on all weapon damage rolls for 1 round."
+			"**Benefit:** During any round in which you gain the benefit of {rule/cover} or {rule/concealment} against at least one opponent, and you are not threatened by any opponent, you can bark orders and encouragement to your allies as a standard action. Doing so grants all allies within 30 feet a +1 bonus on all weapon damage rolls for 1 round."
 		]
 	},
 	"leadership": {
@@ -2493,7 +2493,7 @@
 			"",
 			"The speed at which you move makes it nearly impossible for opponents to strike you.  ",
 			"**Prerequisites:** Dex 17, {feat/Dodge}, {feat/Wind Stance}, base attack bonus +11.  ",
-			"**Benefit:** If you take two actions to move or a withdraw action in a turn, you gain 50% concealment for 1 round.",
+			"**Benefit:** If you take two actions to move or a withdraw action in a turn, you gain 50% {rule/concealment} for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/125}",
@@ -2524,7 +2524,7 @@
 			"",
 			"You remain briefly translucent after losing invisibility.  ",
 			"**Prerequisites:** Duergar.  ",
-			"**Benefit:** When your invisibility ends, you gain concealment for 1 round per minute of duration the invisibility effect had remaining (minimum 1 round). This only occurs if the invisibility is from your racial spell-like ability or a spell you cast. Effects that negate invisibility negate this concealment."
+			"**Benefit:** When your {spell/invisibility} ends, you gain {rule/concealment} for 1 round per minute of duration the invisibility effect had remaining (minimum 1 round). This only occurs if the invisibility is from your racial spell-like ability or a spell you cast. Effects that negate invisibility negate this concealment."
 		]
 	},
 	"lingering_performance": {
@@ -2890,7 +2890,7 @@
 			"",
 			"You're so loyal to your family or friends that you're willing to suffer for them.  ",
 			"**Prerequisites:** Human (Tian).  ",
-			"**Benefit:** Whenever an opponent makes a melee or ranged attack against one of your allies who is adjacent to you and who also has this feat, you can spend an immediate action to shield the ally with your own body. You become the target of the attack, and the opponent gains a +4 bonus on her attack roll. For the purpose of determining distance, cover and concealment, you count as being in your ally's square when the attack is resolved. If the attack misses you due to concealment, blink, or a similar effect, it instead targets your ally as if you had not used this feat's ability."
+			"**Benefit:** Whenever an opponent makes a melee or ranged attack against one of your allies who is adjacent to you and who also has this feat, you can spend an immediate action to shield the ally with your own body. You become the target of the attack, and the opponent gains a +4 bonus on her attack roll. For the purpose of determining distance, {rule/cover} and {rule/concealment}, you count as being in your ally's square when the attack is resolved. If the attack misses you due to concealment, {spell/blink}, or a similar effect, it instead targets your ally as if you had not used this feat's ability."
 		]
 	},
 	"lucid_dreamer": {
@@ -3213,11 +3213,11 @@
 			"",
 			"Shastalla of the Shackles was a bloodthirsty pirate, famous for her raids on Chelish patrols under the cover of obscuring mist. After Shastalla was caught and executed, the [Pathfinder Society](rule/aff_scholars) purchased her magical library for a small fortune to learn her secrets. In addition to the feat, skill, or other requirements listed in parentheses for each of these tricks, you must have the Magic Trick (obscuring mist) feat to use the trick.",
 			"",
-			"*Clinging Mist* (Extend Spell, Spellcraft 6 ranks): Your thick mist is difficult to escape. A creature that leaves the obscuring mist continues to treat other creatures as if they had concealment for 1d4+1 rounds after it leaves.",
+			"*Clinging Mist* (Extend Spell, Spellcraft 6 ranks): Your thick mist is difficult to escape. A creature that leaves the obscuring mist continues to treat other creatures as if they had {rule/concealment} for 1d4+1 rounds after it leaves.",
 			"",
 			"*Hydrating Mist* (Survival 3 ranks): Your mist clings to creatures, soaking them and their equipment. This grants each creature a +4 bonus on Fortitude saves to resist effects of heat and a -4 penalty on saves against effects that deal electricity damage and spells with the electricity descriptor. This effect functions as submersion in water for aquatic creatures and penetrates the skin, hydrating creatures in the mist as if they consumed a canteen full of water.",
 			"",
-			"*Mist Screen* (Heighten Spell): You can shape your obscuring mist into a dense wall of mist with an area up to one 10-foot square per 2 levels. The sections of wall are 5 feet thick and must remain contiguous, but they do not need to be anchored to a solid surface. At least one section of the wall must include your space. Creatures standing within the wall have concealment. Creatures on the opposite side of the wall have total concealment.",
+			"*Mist Screen* (Heighten Spell): You can shape your obscuring mist into a dense wall of mist with an area up to one 10-foot square per 2 levels. The sections of wall are 5 feet thick and must remain contiguous, but they do not need to be anchored to a solid surface. At least one section of the wall must include your space. Creatures standing within the wall have {rule/concealment}. Creatures on the opposite side of the wall have total concealment.",
 			"",
 			"*Obscure Self* (Stealth 6 ranks): You reduce the area of the obscuring mist to your space plus all adjacent squares, but the mist is no longer stationary and instead automatically moves with you when you move. This does not create enough concealment to attempt Stealth checks. As a swift action, you can anchor the mist, causing it to become stationary and allowing enough concealment to hide. You can release the mist as a swift action, allowing it to move with you again. If you take any fire damage while this trick is in effect, the spell immediately ends.",
 			"",

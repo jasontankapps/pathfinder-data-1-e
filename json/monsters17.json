@@ -1564,7 +1564,7 @@
 			"",
 			"Morgod jelly causes vivid hallucinations and a sense of euphoria, and proves remarkably addictive to most humanoids. Morgodeas not only coat their stingers in this jelly, but also collect it in vials or wax-covered paper to sell to victims once they become addicted. For further details on drugs and addiction, [see here](rule/drugs_and_addiction).",
 			"",
-			"**Type** ingested or injury; **Addiction** special (see below), Fortitude DC 15 Price 10 gp Effects 1 hour; +1d2 Cha and all creatures are considered to have concealment against the user Damage 1d2 Cha and 1d2 Wis",
+			"**Type** ingested or injury; **Addiction** special (see below), Fortitude DC 15 Price 10 gp Effects 1 hour; +1d2 Cha and all creatures are considered to have {rule/concealment} against the user Damage 1d2 Cha and 1d2 Wis",
 			"",
 			"### Morgod Addiction",
 			"",

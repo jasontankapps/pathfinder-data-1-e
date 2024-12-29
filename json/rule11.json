@@ -1328,7 +1328,7 @@
 			"",
 			"Forests and jungles are, in the broadest possible terms, places where a significant number of trees grow and where a wide variety of other plants and animals live and thrive. The type of forest changes by latitude and terrain, ranging from sparse evergreens and other conifers in the coldest and highest parts of the world to dense, broadleaf jungle in the tropics. The strength of a forest's canopy should be determined - if the canopy creates too much shadow on the ground below, it can prevent the growth of underbrush. Leafier and more mature trees cast greater shadows, and thus more of the forest's inhabitants may live in the trees.",
 			"",
-			"[Forest terrain is described here,](rule/forest_terrain) but when adventuring in the forest or jungle, some possible encounters might also incorporate {rule/darkness}, [falling branches or trees](rule/falling_objects), {rule/fog}, [forest fires and smoke](rule/forest_fires_cr_6), or swampy terrain. In addition, trees and undergrowth can provide cover and concealment."
+			"[Forest terrain is described here,](rule/forest_terrain) but when adventuring in the forest or jungle, some possible encounters might also incorporate {rule/darkness}, [falling branches or trees](rule/falling_objects), {rule/fog}, [forest fires and smoke](rule/forest_fires_cr_6), or swampy terrain. In addition, trees and undergrowth can provide {rule/cover} and {rule/concealment}."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2342,7 +2342,7 @@
 			"",
 			"A character who wants to attempt to move three cards during his turn can do so by taking a full-round action. That character must overcome both obstacles on the card he is leaving. In this case, if a character fails either obstacle check by 5 or less, he only moves one card forward and his turn ends. If a character fails either obstacle check by more than 5, he cannot move at all that turn. A character unfortunate enough to fail two obstacle checks in a turn becomes mired in his current square (he might have fallen from a ledge, gotten a foot stuck amid roots, or got caught in a crowd, for example). A character who is mired must spend another full-round action becoming unmired and effectively loses his next turn in the chase. In some cases, becoming mired might impart additional penalties (such as falling damage).",
 			"",
-			"A character can also choose to make a ranged attack or cast a spell during his turn in a chase. If the action is a full-round action, he can't move at all. Use the number of cards and their established distances to determine ranges as necessary. The terrain where the chase takes place might provide the target partial or even full cover or concealment, as you wish. A character can only choose to make melee attacks against targets that are on the same card."
+			"A character can also choose to make a ranged attack or cast a spell during his turn in a chase. If the action is a full-round action, he can't move at all. Use the number of cards and their established distances to determine ranges as necessary. The terrain where the chase takes place might provide the target partial or even full {rule/cover} or {rule/concealment}, as you wish. A character can only choose to make melee attacks against targets that are on the same card."
 		],
 		"parent_topics": [
 			"gamemastery",

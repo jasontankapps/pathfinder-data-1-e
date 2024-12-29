@@ -1667,7 +1667,7 @@
 			"",
 			"Your deep knowledge of natural environments allows you to take your enemy by surprise, dealing a deadly blow.  ",
 			"**Prerequisites:** Stealth 1 rank, Survival 1 rank.  ",
-			"**Benefit:** In natural environments, you can spend 5 minutes to cover yourself in loose debris (such as branches, grass, or dirt) and take 20 on a Stealth check. You fall prone and are considered to have concealment for purposes of being allowed to attempt Stealth checks. As a full-round action that doesn't provoke attacks of opportunity, you can burst from your hiding place, stand, and make a single melee attack or ranged attack against a target within 30 feet. If the target didn't notice you before you jumped from hiding and your attack hits, that attack deals an additional 1d6 points of precision damage. Effects that negate sneak attack damage also negate this damage."
+			"**Benefit:** In natural environments, you can spend 5 minutes to cover yourself in loose debris (such as branches, grass, or dirt) and take 20 on a Stealth check. You fall prone and are considered to have {rule/concealment} for purposes of being allowed to attempt Stealth checks. As a full-round action that doesn't provoke attacks of opportunity, you can burst from your hiding place, stand, and make a single melee attack or ranged attack against a target within 30 feet. If the target didn't notice you before you jumped from hiding and your attack hits, that attack deals an additional 1d6 points of precision damage. Effects that negate sneak attack damage also negate this damage."
 		]
 	},
 	"forester": {
@@ -3709,7 +3709,7 @@
 			"",
 			"You are adept at using shadows to conceal your attacks.  ",
 			"**Prerequisites:** Int 13, {feat/Blind-Fight}, {feat/Combat Expertise}, Bluff 3 ranks, darkvision or low-light vision racial trait.  ",
-			"**Benefit:** While you have concealment from an opponent, you gain a +2 bonus on attack and damage rolls against that opponent.",
+			"**Benefit:** While you have {rule/concealment} from an opponent, you gain a +2 bonus on attack and damage rolls against that opponent.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",
@@ -3730,7 +3730,7 @@
 			"",
 			"You strike through the shadows so quickly that your opponent can barely react to your attacks.  ",
 			"**Prerequisites:** 13, {feat/Blind-Fight}, {feat/Combat Expertise}, {feat/Improved Feint}, {feat/Moonlight Stalker}, Bluff 6 ranks, darkvision or low-light vision racial trait.  ",
-			"**Benefit:** Once per round, against an opponent from whom you have concealment, you can spend a swift action to make a Bluff check to feint.  ",
+			"**Benefit:** Once per round, against an opponent from whom you have {rule/concealment}, you can spend a swift action to make a Bluff check to feint.  ",
 			"**Normal:** Feinting is a standard action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3752,7 +3752,7 @@
 			"",
 			"You leave your opponents swinging at shadows while you slide elusively through the darkness.  ",
 			"**Prerequisites:** Int 13, {feat/Blind-Fight} {feat/Combat Expertise}, {feat/Improved Feint}, {feat/Moonlight Stalker}, {feat/Moonlight Stalker Feint}, Bluff 9 ranks, darkvision or low-light vision racial trait.  ",
-			"**Benefit:** While you have concealment, your opponents' miss chance against you increases by 10%. If an opponent misses you due to your concealment, you can spend an immediate action to move 5 feet, this movement does not provoke attacks of opportunity and does not count as a 5-foot step.",
+			"**Benefit:** While you have {rule/concealment}, your opponents' miss chance against you increases by 10%. If an opponent misses you due to your concealment, you can spend an immediate action to move 5 feet, this movement does not provoke attacks of opportunity and does not count as a 5-foot step.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",
@@ -3854,7 +3854,7 @@
 			"",
 			"Your gaze cuts through vapors with ease.  ",
 			"**Prerequisites:** {feat/Blind-Fight}, Perception 5 ranks.  ",
-			"**Benefit:** You ignore concealment (but not total concealment) caused by fog, rain, smoke, wind, and other gases or weather effects (including magical effects like obscuring mist), and you ignore up to -4 in penalties on Perception checks from such effects. You treat total concealment resulting from any such gas or weather effects within 10 feet of you as concealment (20% miss chance)."
+			"**Benefit:** You ignore {rule/concealment} (but not total concealment) caused by fog, rain, smoke, wind, and other gases or weather effects (including magical effects like obscuring mist), and you ignore up to -4 in penalties on Perception checks from such effects. You treat total concealment resulting from any such gas or weather effects within 10 feet of you as concealment (20% miss chance)."
 		]
 	},
 	"mountaineer": {

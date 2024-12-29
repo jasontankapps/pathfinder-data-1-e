@@ -700,7 +700,7 @@
 			"",
 			"Using a portion of your innate magic, you cloak your body in darkness to evade attacks.  ",
 			"**Prerequisites:** {feat/Combat Reflexes}, darkness racial spell-like ability.  ",
-			"**Benefit:** As an immediate action, you can create a shifting haze of darkness around yourself, granting you concealment against one attack. The haze dissipates after the attack is resolved. You can use this ability once per day, plus one additional time per day when your caster level for your racial darkness spell-like ability reaches 5th, 10th, 15th, and 20th."
+			"**Benefit:** As an immediate action, you can create a shifting haze of darkness around yourself, granting you {rule/concealment} against one attack. The haze dissipates after the attack is resolved. You can use this ability once per day, plus one additional time per day when your caster level for your racial darkness spell-like ability reaches 5th, 10th, 15th, and 20th."
 		]
 	},
 	"shadow_strike": {
@@ -716,7 +716,7 @@
 			"",
 			"You accurately strike even those you cannot clearly see.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** You can deal precision damage, such as sneak attack damage, against targets with concealment (but not total concealment).",
+			"**Benefit:** You can deal precision damage, such as sneak attack damage, against targets with {rule/concealment} (but not total concealment).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
@@ -773,7 +773,7 @@
 			"",
 			"You can camouflage yourself in shadows and gloom.  ",
 			"**Prerequisites:** Knowledge (planes) 5 ranks.  ",
-			"**Benefit:** As a swift action, you can shroud yourself in shifting, camouflaging shadow. While shrouded in this fashion, you can attempt Stealth checks as though you had concealment, even in areas of normal or bright light. Creatures that can see normally in supernatural darkness can still see you normally.",
+			"**Benefit:** As a swift action, you can shroud yourself in shifting, camouflaging shadow. While shrouded in this fashion, you can attempt Stealth checks as though you had {rule/concealment}, even in areas of normal or bright light. Creatures that can see normally in supernatural darkness can still see you normally.",
 			"",
 			"You can use this feat's benefit for a number of rounds per day equal to your ranks in Knowledge (planes). These rounds need not be consecutive.  ",
 			"**Special:** Unlike spells like shadow walk, which require you to be on a plane that is coterminous with the Shadow Plane, this feat functions even on planes that do not normally share a border with the Shadow Plane. Like all conduit feats, the effects are suppressed when planar travel is forbidden."
@@ -4199,7 +4199,7 @@
 			"",
 			"You fully open your mind to the spirit world, learning to perceive the hidden.  ",
 			"**Prerequisites:** Wis 15, {feat/Iron Will}, {feat/Spirit Beacon}.  ",
-			"**Benefit:** Invisible creatures of the fey, outsider, and undead types gain only concealment from you, rather than total concealment (though they can still gain total concealment from cover or use of the Stealth skill). Such creatures do not gain a bonus on attack rolls against you or ignore your Dexterity bonus to AC as normally granted by invisibility."
+			"**Benefit:** Invisible creatures of the fey, outsider, and undead types gain only {rule/concealment} from you, rather than total concealment (though they can still gain total concealment from cover or use of the Stealth skill). Such creatures do not gain a bonus on attack rolls against you or ignore your Dexterity bonus to AC as normally granted by invisibility."
 		]
 	},
 	"spirit_speaker": {

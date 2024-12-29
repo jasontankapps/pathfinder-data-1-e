@@ -32,7 +32,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, hypnotism; **Cost** 450 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/hypnotism}; **Cost** 450 gp"
 		]
 	},
 	"runeward_tattoo": {
@@ -49,7 +49,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/detect magic}, guidance; **Cost** 500 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/detect magic}, {spell/guidance}; **Cost** 500 gp"
 		]
 	},
 	"radiant_tattoo": {
@@ -66,7 +66,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, daylight; **Cost** 750 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/daylight}; **Cost** 750 gp"
 		]
 	},
 	"kins_face_tattoo": {
@@ -88,7 +88,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, disguise self; **Cost** 800 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/disguise self}; **Cost** 800 gp"
 		]
 	},
 	"serpentine_tattoo": {
@@ -105,7 +105,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Improved Dirty Trick}, {feat/Inscribe Magical Tattoo}, [summon monster I](spell/summon_monster_1); **Cost** 1,000 gp"
+			"**Requirements** {feat/Improved Dirty Trick}, {feat/Inscribe Magical Tattoo}, {spell/summon monster I}; **Cost** 1,000 gp"
 		]
 	},
 	"casters_tattoo_lesser": {
@@ -124,7 +124,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, Silent Spell, Still Spell; **Cost** 3,000 gp (lesser), 10,500 gp (normal), 24,000 gp (greater)"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {feat/Silent Spell}, {feat/Still Spell}; **Cost** 3,000 gp (lesser), 10,500 gp (normal), 24,000 gp (greater)"
 		]
 	},
 	"lesser_casters_tattoo": {
@@ -180,7 +180,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, disguise weapon; **Cost** 5,000 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/disguise weapon}; **Cost** 5,000 gp"
 		]
 	},
 	"mesmerizing_tattoo": {
@@ -199,7 +199,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, suggestion; **Cost** 5,400 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/suggestion}; **Cost** 5,400 gp"
 		]
 	},
 	"animal_totem_tattoo": {
@@ -233,7 +233,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, blur; **Cost** 6,250 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/blur}; **Cost** 6,250 gp"
 		]
 	},
 	"viper_tattoo": {
@@ -256,7 +256,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, [summon nature's ally I](spell/summon_natures_ally_1); **Cost** 9,000 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/summon nature's ally I}; **Cost** 9,000 gp"
 		]
 	},
 	"casters_tattoo_normal": {
@@ -280,7 +280,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, protective penumbra; **Cost** 12,000 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/protective penumbra}; **Cost** 12,000 gp"
 		]
 	},
 	"casters_tattoo_greater": {

@@ -971,7 +971,7 @@
 			"",
 			"If the investigator's attack used a weapon that deals nonlethal damage (like a sap, whip, or an unarmed strike), he may choose to have the additional damage from studied strike be nonlethal damage instead of lethal damage. If the investigator chose to make an attack with a lethal weapon instead deal nonlethal damage (with the usual -4 penalty), the studied strike damage may also deal nonlethal damage.",
 			"",
-			"The investigator must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. An investigator cannot use studied strike against a creature with concealment.",
+			"The investigator must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. An investigator cannot use studied strike against a creature with {rule/concealment}.",
 			"",
 			"**Swift Alchemy (Ex):** At 4th level, an investigator can create alchemical items with astounding speed. It takes an investigator half the normal amount of time to create alchemical items. He can also apply poison to a weapon as a move action instead of a standard action.",
 			"",

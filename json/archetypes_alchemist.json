@@ -238,7 +238,7 @@
 			"",
 			"**Discovery Options:** A bogborn alchemist can select the toxic skin grippli racial trait in place of an alchemical discovery.",
 			"",
-			"**Discoveries:** The following discoveries complement the bogborn alchemist archetype: chameleon; concentrate poison, sticky poison ; nauseating flesh, poison conversion; bottled ooze, tanglefoot bomb, tentacle ."
+			"**Discoveries:** The following discoveries complement the bogborn alchemist archetype: chameleon; concentrate poison, sticky poison; nauseating flesh, poison conversion; bottled ooze, tanglefoot bomb, tentacle ."
 		]
 	},
 	"bramble_brewer": {
@@ -708,7 +708,7 @@
 			"",
 			"**Greater Fire Body (Ex):** At 14th level, fire bombers add {spell/elemental body IV} to their spell list as a 5th-level extract. [Elemental body](spell/elemental_body_1) extracts prepared using greater fire body are limited to fire elementals only. This ability replaces persistent mutagen.",
 			"",
-			"**Discoveries:** The following discoveries complement the fire bomber archetype: fire brand, rocket bomb ; explosive bombs, fast bombs, inferno bomb, precise bombs breath weapon bomb, explosive missile, immolation bomb ; bottled ooze, confusion bomb, strafe bomb ."
+			"**Discoveries:** The following discoveries complement the fire bomber archetype: fire brand, rocket bomb; explosive bombs, fast bombs, inferno bomb, precise bombs breath weapon bomb, explosive missile, immolation bomb; bottled ooze, confusion bomb, strafe bomb ."
 		]
 	},
 	"first_world_innovator": {
@@ -1242,13 +1242,13 @@
 			"",
 			"As a standard action, the plague bringer can infect a weapon with this sickness (typically by licking it or wiping his blood or pus on it). The disease on the weapon works like a poisoned weapon, except the source is a disease instead of a poison (so a dwarf's resistance to poison does not apply).",
 			"",
-			"Anyone other than a plague bringer (including another alchemist) who drinks a plague vial must make a saving throw against the vial's DC or become nauseated for 1 hour. Unless he learns how to brew a mutagen by taking the mutagen discovery , he can never benefit from a mutagen and reacts to it as if he were a non-alchemist. At any particular time, a plague bringer can only be under the effect of either a plague vial or a mutagen (not both); drinking another immediately ends the effects of any ongoing plague vial or mutagen.",
+			"Anyone other than a plague bringer (including another alchemist) who drinks a plague vial must make a saving throw against the vial's DC or become nauseated for 1 hour. Unless he learns how to brew a mutagen by taking the mutagen discovery, he can never benefit from a mutagen and reacts to it as if he were a non-alchemist. At any particular time, a plague bringer can only be under the effect of either a plague vial or a mutagen (not both); drinking another immediately ends the effects of any ongoing plague vial or mutagen.",
 			"",
 			"All limitations to mutagens apply to plague vials as if they were the same substance. The infuse mutagen discovery and persistent mutagen class ability apply to plague vials. The sticky poison discovery applies to a weapon infected with a plague vial. The plague vial is a disease effect. This ability replaces mutagen.",
 			"",
 			"**Disease Resistance (Ex):** At 2nd level, a plague bringer gains a +2 bonus on all saving throws against disease. This bonus increases to +4 at 5th level, and to +6 at 8th level. At 10th level, a plague bringer becomes completely immune to disease (including magical diseases). This ability replaces all increments of poison resistance and poison immunity.",
 			"",
-			"**Discoveries:** The following discoveries complement the plague bringer archetype: explosive bomb, precise bombs, smoke bomb breath weapon bomb, fast bomb, nauseating bomb ; plague bomb."
+			"**Discoveries:** The following discoveries complement the plague bringer archetype: explosive bomb, precise bombs, smoke bomb breath weapon bomb, fast bomb, nauseating bomb; plague bomb."
 		]
 	},
 	"preservationist": {
@@ -1260,17 +1260,17 @@
 			"{SOURCE Ultimate Magic/19}  ",
 			"Some alchemists are obsessed with collecting and preserving exotic creatures. These preservationists may use bottled animals and monsters as teaching tools, but some learn how to reanimate them for short periods to battle on the alchemist's behalf. A preservationist has the following class features.",
 			"",
-			"**Bottled Ally I:** At 2nd level, a preservationist adds Handle Animal to his list of class skills. He adds [summon nature's ally I](spell/summon_natures_ally_1) to his formula book as a 1st-level extract. When he prepares that extract, he actually prepares a tiny, preserved specimen in a bottle (as with a caster casting the spell, the preservationist doesn't have to choose the creature until he uses the extract). When the alchemist opens the bottle, the specimen animates and grows to normal size, serving the preservationist as per the spell and otherwise being treated as a summoned creature. When the duration expires, the preserved creature decays into powder. If the preservationist has the infusion discovery, another character can use the infused specimen. The {feat/Augment Summoning} feat can be applied to these specimens. This ability replaces poison use.",
+			"**Bottled Ally I:** At 2nd level, a preservationist adds Handle Animal to his list of class skills. He adds {spell/summon nature's ally I} to his formula book as a 1st-level extract. When he prepares that extract, he actually prepares a tiny, preserved specimen in a bottle (as with a caster casting the spell, the preservationist doesn't have to choose the creature until he uses the extract). When the alchemist opens the bottle, the specimen animates and grows to normal size, serving the preservationist as per the spell and otherwise being treated as a summoned creature. When the duration expires, the preserved creature decays into powder. If the preservationist has the infusion discovery, another character can use the infused specimen. The {feat/Augment Summoning} feat can be applied to these specimens. This ability replaces poison use.",
 			"",
-			"**Bottled Ally II:** At 5th level, a preservationist adds [summon nature's ally II](spell/summon_natures_ally_2) to his formula book as a 2nd-level extract. This ability replaces poison resistance +4.",
+			"**Bottled Ally II:** At 5th level, a preservationist adds {spell/summon nature's ally II} to his formula book as a 2nd-level extract. This ability replaces poison resistance +4.",
 			"",
-			"**Bottled Ally III:** At 8th level, a preservationist adds [summon nature's ally IV](spell/summon_natures_ally_4) to his formula book as a 3rd-level extract. This ability replaces poison resistance +6.",
+			"**Bottled Ally III:** At 8th level, a preservationist adds {spell/summon nature's ally IV} to his formula book as a 3rd-level extract. This ability replaces poison resistance +6.",
 			"",
-			"**Bottled Ally IV:** At 10th level, a preservationist adds [summon nature's ally V](spell/summon_natures_ally_5) to his formula book as a 4th-level extract. This ability replaces poison immunity.",
+			"**Bottled Ally IV:** At 10th level, a preservationist adds {spell/summon nature's ally V} to his formula book as a 4th-level extract. This ability replaces poison immunity.",
 			"",
-			"**Bottled Ally V:** At 14th level, a preservationist adds [summon nature's ally VII](spell/summon_natures_ally_7) to his formula book as a 5th-level extract. This ability replaces persistent mutagen.",
+			"**Bottled Ally V:** At 14th level, a preservationist adds {spell/summon nature's ally VII} to his formula book as a 5th-level extract. This ability replaces persistent mutagen.",
 			"",
-			"**Bottled Ally VI:** At 18 level, a preservationist adds [summon nature's ally IX](spell/summon_natures_ally_9) to his formula book as a 6th-level extract. This ability replaces his 18th-level discovery.",
+			"**Bottled Ally VI:** At 18 level, a preservationist adds {spell/summon nature's ally IX} to his formula book as a 6th-level extract. This ability replaces his 18th-level discovery.",
 			"",
 			"**Discoveries:** The following discoveries complement the preservationist archetype: bottled ooze, preserve organs, tentacle, vestigial arm, and wings."
 		]
@@ -1479,7 +1479,7 @@
 			"",
 			"**True Chameleon Mutagen:** The saboteur's chameleon mutagen now acts as if he was under the effects of the greater invisibility and spider climb spells, using his alchemist level as the caster level, for the duration of the mutagen. The saboteur must possess the grand chameleon mutagen discovery to select this grand discovery.",
 			"",
-			"**Discoveries:** The following discoveries complement the saboteur archetype: acid bomb, concussive bomb, delayed bomb, explosive bomb, fast bombs, inferno bomb, madness bomb, precise bombs, smoke bomb, stink bomb ; explosive missile, immolation bomb, siege bomb; blinding bomb, cognatogen, confusion bomb, tanglefoot bomb."
+			"**Discoveries:** The following discoveries complement the saboteur archetype: acid bomb, concussive bomb, delayed bomb, explosive bomb, fast bombs, inferno bomb, madness bomb, precise bombs, smoke bomb, stink bomb; explosive missile, immolation bomb, siege bomb; blinding bomb, cognatogen, confusion bomb, tanglefoot bomb."
 		]
 	},
 	"sacrament_alchemist": {

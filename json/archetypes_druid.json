@@ -875,7 +875,7 @@
 			"",
 			"At each of 6th, 8th, 10th, and 12th levels, a kraken caller can grow an additional tentacle. As a move action, she can retract or regrow any number of the additional tentacles, redistributing the mass of any retracted tentacles. For every 2 retracted tentacles, she can increase the reach of the remaining tentacles by 5 feet (to a maximum of 15 feet), or increase the damage dealt by her tentacles as if she were one size category larger.",
 			"",
-			"While in this form, a kraken caller can expel a 10-foot-radius cloud of ink once per minute as a standard action. This cloud provides total concealment in water and persists for 1 round per level. The ink has no effect out of water. This ability alters wild shape.",
+			"While in this form, a kraken caller can expel a 10-foot-radius cloud of ink once per minute as a standard action. This cloud provides {rule/total |concealment} in water and persists for 1 round per level. The ink has no effect out of water. This ability alters wild shape.",
 			"",
 			"**Beast of the Depths (Su):** At 13th level, a kraken caller gains a swim speed equal to her base land speed and can breathe water as though affected by the spell water breathing. This ability replaces a thousand faces."
 		]
@@ -1206,7 +1206,7 @@
 			"",
 			"**Run Like the Wind (Ex):** At 3rd level, a plains druid gains +10 feet to her land speed when wearing light or no armor and carrying a light load, and once per hour, she may run or charge at double the normal speed for 1 round. If riding her animal companion, it gains this ability instead. This ability replaces trackless step.",
 			"",
-			"**Savanna Ambush (Ex):** At 4th level, a plains druid gains concealment whenever she is prone in natural surroundings, and can make Stealth checks at no penalty when prone and not moving or at -5 when crawling. A plains druid can stand up from prone as an immediate action during a surprise round. This ability replaces resist nature's lure.",
+			"**Savanna Ambush (Ex):** At 4th level, a plains druid gains {rule/concealment} whenever she is prone in natural surroundings, and can make Stealth checks at no penalty when prone and not moving or at -5 when crawling. A plains druid can stand up from prone as an immediate action during a surprise round. This ability replaces resist nature's lure.",
 			"",
 			"**Wild Shape (Su):** A plains druid gains this ability at 6th level, except that her effective druid level for the ability is equal to her druid level - 2.",
 			"",
@@ -1517,7 +1517,7 @@
 			"",
 			"**Summer Heat:** The area of effect is treated as if it were under the effects of extreme heat. At 8th level, as a swift action the season sage can have the area deal 1d6 points of fire damage each round to other creatures in the area.",
 			"",
-			"**Autumn Squall:** The area is filled with fog, rain, and blown leaves. All creatures in the area gain concealment (abilities to specifically see through fog or rain don't apply).",
+			"**Autumn Squall:** The area is filled with fog, rain, and blown leaves. All creatures in the area gain {rule/concealment} (abilities to specifically see through fog or rain don't apply).",
 			"",
 			"At 8th level, the season sage can affect the area with diminish plants as a swift action at will, which also lingers after the aura passes.",
 			"",

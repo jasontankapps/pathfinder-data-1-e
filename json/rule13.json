@@ -1211,7 +1211,7 @@
 			"",
 			"***Trees:*** The most important terrain element in a forest is the trees, obviously. A creature standing in the same square as a tree gains partial cover, which grants a +2 bonus to Armor Class and a +1 bonus on Reflex saves. The presence of a tree doesn't otherwise affect a creature's fighting space, because it's assumed that the creature is using the tree to its advantage when it can. The trunk of a typical tree has AC 4, hardness 5, and 150 hp. A DC 15 Climb check is sufficient to climb a tree. Medium and dense forests have massive trees as well. These trees take up an entire square and provide cover to anyone behind them. They have AC 3, hardness 5, and 600 hp. Like their smaller counterparts, it takes a DC 15 Climb check to climb them.",
 			"",
-			"***Undergrowth:*** Vines, roots, and short bushes cover much of the ground in a forest. A space covered with light undergrowth costs 2 squares of movement to move into, and provides concealment. Undergrowth increases the DC of Acrobatics and Stealth checks by 2 because the leaves and branches get in the way. Heavy undergrowth costs 4 squares of movement to move into and provides concealment with a 30% miss chance (instead of the usual 20%). It increases the DC of Acrobatics checks by 5. Heavy undergrowth is easy to hide in, granting a +5 circumstance bonus on Stealth checks. Running and charging are impossible. Squares with undergrowth are often clustered together. Undergrowth and trees aren't mutually exclusive; it's common for a 5-foot square to have both a tree and undergrowth.",
+			"***Undergrowth:*** Vines, roots, and short bushes cover much of the ground in a forest. A space covered with light undergrowth costs 2 squares of movement to move into, and provides {rule/concealment}. Undergrowth increases the DC of Acrobatics and Stealth checks by 2 because the leaves and branches get in the way. Heavy undergrowth costs 4 squares of movement to move into and provides concealment with a 30% miss chance (instead of the usual 20%). It increases the DC of Acrobatics checks by 5. Heavy undergrowth is easy to hide in, granting a +5 circumstance bonus on Stealth checks. Running and charging are impossible. Squares with undergrowth are often clustered together. Undergrowth and trees aren't mutually exclusive; it's common for a 5-foot square to have both a tree and undergrowth.",
 			"",
 			"***Forest Canopy:*** It's common for elves and other forest dwellers to live on raised platforms far above the surface floor. These wooden platforms often have rope bridges between them. To get to the treehouses, characters ascend the trees' branches (Climb DC 15), use rope ladders (Climb DC 0), or take pulley elevators (which can be made to rise a number of feet equal to a Strength check, made each round as a full-round action). Creatures on platforms or branches in a forest canopy are considered to have cover when fighting creatures on the ground, and in medium or dense forests they have concealment as well.",
 			"",
@@ -1262,7 +1262,7 @@
 			"",
 			"***Catching on Fire:*** Characters engulfed in a forest fire are at risk of catching on fire when the leading edge of the fire overtakes them, and continue to be at risk once per minute thereafter. See {rule/Catching on Fire}.",
 			"",
-			"***Smoke Inhalation:*** Forest fires naturally produce a great deal of smoke. A character who breathes heavy smoke must make a Fortitude save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage. Smoke also provides concealment to characters within it."
+			"***Smoke Inhalation:*** Forest fires naturally produce a great deal of smoke. A character who breathes heavy smoke must make a Fortitude save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage. Smoke also provides {rule/concealment} to characters within it."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1309,7 +1309,7 @@
 			"",
 			"***Other Marsh Terrain Elements:*** Some marshes, particularly swamps, have trees just as forests do, usually clustered in small stands. Paths lead across many marshes, winding to avoid bog areas. As in forests, paths allow normal movement and don't provide the concealment that undergrowth does.",
 			"",
-			"***Stealth and Detection in a Marsh:*** In a marsh, the maximum distance at which a Perception check for detecting the nearby presence of others can succeed is 6d6 &times; 10 feet. In a swamp, this distance is 2d8 &times; 10 feet. Undergrowth and deep bogs provide plentiful concealment, so it's easy to use Stealth in a marsh."
+			"***Stealth and Detection in a Marsh:*** In a marsh, the maximum distance at which a Perception check for detecting the nearby presence of others can succeed is 6d6 &times; 10 feet. In a swamp, this distance is 2d8 &times; 10 feet. Undergrowth and deep bogs provide plentiful {rule/concealment}, so it's easy to use Stealth in a marsh."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1348,7 +1348,7 @@
 			"",
 			"***Cliff:*** A cliff typically requires a DC 15 Climb check to scale and is 1d4 &times; 10 feet tall, although the needs of your map might mandate a taller cliff. A cliff isn't perfectly vertical, taking up 5-foot squares if it's less than 30 feet tall and 10-foot squares if it's 30 feet or taller.",
 			"",
-			"***Light Undergrowth:*** Sagebrush and other scrubby bushes grow on hills, although they rarely cover the landscape. Light undergrowth provides concealment and increases the DC of Acrobatics and Stealth checks by 2.",
+			"***Light Undergrowth:*** Sagebrush and other scrubby bushes grow on hills, although they rarely cover the landscape. Light undergrowth provides {rule/concealment} and increases the DC of Acrobatics and Stealth checks by 2.",
 			"",
 			"***Other Hills Terrain Elements:*** Trees aren't out of place in hills terrain, and valleys often have active streams (5 to 10 feet wide and no more than 5 feet deep) or dry streambeds (treat as a trench 5 to 10 feet across) in them. If you add a stream or streambed, remember that water always flows downhill.",
 			"",
@@ -1524,7 +1524,7 @@
 			"",
 			"***Other Desert Terrain Features:*** Tundra is sometimes bordered by forests, and the occasional tree isn't out of place in the cold wastes. Rocky deserts have towers and mesas consisting of flat ground surrounded on all sides by cliffs and steep slopes (as described in {rule/Mountain Terrain}). Sandy deserts sometimes have quicksand; this functions as described in {rule/Marsh Terrain}, although desert quicksand is a waterless mixture of fine sand and dust. All desert terrain is crisscrossed with dry streambeds (treat as trenches 5 to 15 feet wide) that fill with water on the rare occasions when rain falls.",
 			"",
-			"***Stealth and Detection in the Desert:*** In general, the maximum distance in desert terrain at which a Perception check for detecting the nearby presence of others can succeed is 6d6 &times; 20 feet; beyond this distance, elevation changes and heat distortion in warm deserts makes sight-based Perception impossible. The presence of dunes in sandy deserts limits spotting distance to 6d6 &times; 10 feet. The scarcity of undergrowth or other elements that offer concealment or cover makes using Stealth more difficult."
+			"***Stealth and Detection in the Desert:*** In general, the maximum distance in desert terrain at which a Perception check for detecting the nearby presence of others can succeed is 6d6 &times; 20 feet; beyond this distance, elevation changes and heat distortion in warm deserts makes sight-based Perception impossible. The presence of dunes in sandy deserts limits spotting distance to 6d6 &times; 10 feet. The scarcity of undergrowth or other elements that offer {rule/concealment} or {rule/cover} makes using Stealth more difficult."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2179,7 +2179,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/439}",
 			"",
-			"Whether in the form of a low-lying cloud or a mist rising from the ground, fog obscures all sight beyond 5 feet, including darkvision. Creatures 5 feet away have concealment (attacks by or against them have a 20% miss chance)."
+			"Whether in the form of a low-lying cloud or a mist rising from the ground, fog obscures all sight beyond 5 feet, including darkvision. Creatures 5 feet away have {rule/concealment} (attacks by or against them have a 20% miss chance)."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2451,7 +2451,7 @@
 			"",
 			"Blind creatures must make a DC 10 Acrobatics skill check to move faster than half speed. Creatures that fail this check fall prone. Blinded creatures can't run or charge.",
 			"",
-			"All opponents have total concealment from a blinded creature, so the blinded creature has a 50% miss chance in combat. A blinded creature must first pinpoint the location of an opponent in order to attack the right square; if the blinded creature launches an attack without pinpointing its foe, it attacks a random square within its reach. For ranged attacks or spells against a foe whose location is not pinpointed, roll to determine which adjacent square the blinded creature is facing; its attack is directed at the closest target that lies in that direction.",
+			"All opponents have total {rule/concealment} from a blinded creature, so the blinded creature has a 50% miss chance in combat. A blinded creature must first pinpoint the location of an opponent in order to attack the right square; if the blinded creature launches an attack without pinpointing its foe, it attacks a random square within its reach. For ranged attacks or spells against a foe whose location is not pinpointed, roll to determine which adjacent square the blinded creature is facing; its attack is directed at the closest target that lies in that direction.",
 			"",
 			"A blinded creature loses its Dexterity modifier to AC (if positive) and takes a -2 penalty to AC.",
 			"",
@@ -2459,7 +2459,7 @@
 			"",
 			"Creatures blinded by darkness cannot use gaze attacks and are immune to gaze attacks.",
 			"",
-			"A creature blinded by darkness can make a Perception check as a free action each round in order to locate foes (DC equal to opponents' Stealth checks). A successful check lets a blinded character hear an unseen creature \"over there somewhere.\" It's almost impossible to pinpoint the location of an unseen creature. A Perception check that beats the DC by 20 reveals the unseen creature's square (but the unseen creature still has total concealment from the blinded creature).",
+			"A creature blinded by darkness can make a Perception check as a free action each round in order to locate foes (DC equal to opponents' Stealth checks). A successful check lets a blinded character hear an unseen creature \"over there somewhere.\" It's almost impossible to pinpoint the location of an unseen creature. A Perception check that beats the DC by 20 reveals the unseen creature's square (but the unseen creature still has total {rule/concealment} from the blinded creature).",
 			"",
 			"A blinded creature can grope about to find unseen creatures. A character can make a touch attack with his hands or a weapon into two adjacent squares using a standard action. If an unseen target is in the designated square, there is a 50% miss chance on the touch attack. If successful, the groping character deals no damage but has pinpointed the unseen creature's current location. If the unseen creature moves, its location is once again unknown.",
 			"",

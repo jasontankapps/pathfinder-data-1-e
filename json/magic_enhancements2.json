@@ -26,7 +26,7 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"When a limning weapon is wielded, a pale glow outlines it. On a successful strike against a creature affected by a means of magical concealment, the weapon outlines the creature in faerie fire (as the spell) for 1 round. Magical means of concealment include blur, displacement, invisibility, and similar effects, whether from a spell, spell-like ability, or supernatural means, but not those provided by extraordinary abilities. A limning weapon has no special effect against creatures merely hiding or concealed by nonmagical means, or those hidden by environmental conditions (even magical) such as darkness or fog.",
+			"When a limning weapon is wielded, a pale glow outlines it. On a successful strike against a creature affected by a means of magical concealment, the weapon outlines the creature in faerie fire (as the spell) for 1 round. Magical means of concealment include {spell/blur}, {spell/displacement}, {spell/invisibility}, and similar effects, whether from a spell, spell-like ability, or supernatural means, but not those provided by extraordinary abilities. A limning weapon has no special effect against creatures merely hiding or concealed by nonmagical means, or those hidden by environmental conditions (even magical) such as darkness or fog.",
 			"",
 			"### Construction",
 			"",
@@ -124,7 +124,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster I}; **Price** -"
 		]
 	},
 	"mythic_bane": {
@@ -194,7 +194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster I}; **Price** -"
 		]
 	},
 	"pitfall": {
@@ -438,7 +438,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon nature's ally I](spell/summon_natures_ally_1); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon nature's ally I}; **Price** -"
 		]
 	},
 	"sticky": {
@@ -472,7 +472,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster IV](spell/summon_monster_4) or [summon nature's ally IV](spell/summon_natures_ally_4); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster IV} or {spell/summon nature's ally IV}; **Price** -"
 		]
 	},
 	"thawing": {
@@ -529,7 +529,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [blindness/deafness](spell/blindness_deafness); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/blindness//deafness}; **Price** -"
 		]
 	},
 	"training": {
@@ -690,7 +690,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major creation} ; **Price** 1,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major creation}; **Price** 1,500 gp"
 		]
 	},
 	"lesser_concealed": {
@@ -835,7 +835,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major creation} ; **Price** 3,750 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major creation}; **Price** 3,750 gp"
 		]
 	},
 	"advancing_weapon": {
@@ -1118,7 +1118,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [blindness/deafness](spell/blindness_deafness), {spell/daylight}, flare; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/blindness//deafness}, {spell/daylight}, {spell/flare}; **Price** -"
 		]
 	},
 	"harvesting": {
@@ -1321,7 +1321,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, Channel Smite, cure serious wounds, {spell/death ward}, {spell/disrupt undead}; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Channel Smite}, {spell/cure serious wounds}, {spell/death ward}, {spell/disrupt undead}; **Price** -"
 		]
 	},
 	"negating": {
@@ -1559,7 +1559,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/silence} ; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/silence}; **Price** -"
 		]
 	},
 	"stalking": {
@@ -1612,7 +1612,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [summon monster I](spell/summon_monster_1), {spell/weapon of awe}, creator must be a member of the attuned nationality; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster I}, {spell/weapon of awe}, creator must be a member of the attuned nationality; **Price** -"
 		]
 	},
 	"truthful": {
@@ -1625,7 +1625,7 @@
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** none; **Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on a melee weapon. A truthful weapon unerringly pierces concealment provided by illusions, allowing the wielder to ignore the miss chance provided by illusions such as blur, displacement, and invisibility. Attacks with a truthful weapon against a creature affected by mirror image or a similar figment always attack the real target. This ability allows the wielder to ignore the miss chance, not to otherwise detect the target. When attacking an invisible creature, for instance, the wielder might still need to guess the target's location.",
+			"This special ability can be placed only on a melee weapon. A truthful weapon unerringly pierces {rule/concealment} provided by illusions, allowing the wielder to ignore the miss chance provided by illusions such as blur, displacement, and invisibility. Attacks with a truthful weapon against a creature affected by mirror image or a similar figment always attack the real target. This ability allows the wielder to ignore the miss chance, not to otherwise detect the target. When attacking an invisible creature, for instance, the wielder might still need to guess the target's location.",
 			"",
 			"In addition to its other abilities, a truthful weapon functions as a special kind of dispelling weapon against figments and shadow conjuration effects; if the wielder makes an attack against such an effect, the weapon automatically attempts to use the stored dispel magic against the illusion. If the attempt fails, the wielder is not aware of the attempt, and unless she disbelieves the illusion or the illusion's duration ends, the weapon continues to impart that it is storing dispel magic (though she is free to cast dispel magic on the weapon again if she has another reason to believe the effect was expended and failed to dispel an illusion).",
 			"",
@@ -1664,7 +1664,7 @@
 			"**Aura** moderate illusion; **CL** 7th  ",
 			"**Slot** none; **Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on a melee weapon. Upon command, an unseen weapon can be made invisible, including any scabbard, sheath, or similar accessory used to hold the weapon. A careful search will still reveal its presence, but purely visual examination will not. While invisible, an unseen weapon causes its wielder to take a -1 penalty on attack rolls unless she has the {feat/Blind-Fight} feat or is able to see invisible objects. On the first attack made with an unseen weapon during a combat, the defender is denied its Dexterity bonus to Armor Class unless it has the Blind-Fight feat, is able to see invisible objects, or is specifically aware that the wielder is using an unseen weapon. An unseen weapon is considered to have total concealment for attacks or effects directed at it, such as combat maneuver checks made to disarm, steal, or sunder it and {spell/disintegrate} or {spell/rusting grasp}.",
+			"This special ability can be placed only on a melee weapon. Upon command, an unseen weapon can be made invisible, including any scabbard, sheath, or similar accessory used to hold the weapon. A careful search will still reveal its presence, but purely visual examination will not. While invisible, an unseen weapon causes its wielder to take a -1 penalty on attack rolls unless she has the {feat/Blind-Fight} feat or is able to see invisible objects. On the first attack made with an unseen weapon during a combat, the defender is denied its Dexterity bonus to Armor Class unless it has the Blind-Fight feat, is able to see invisible objects, or is specifically aware that the wielder is using an unseen weapon. An unseen weapon is considered to have total {rule/concealment} for attacks or effects directed at it, such as combat maneuver checks made to disarm, steal, or sunder it and {spell/disintegrate} or {spell/rusting grasp}.",
 			"",
 			"### Construction",
 			"",
@@ -1923,7 +1923,7 @@
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** +3 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on a melee weapon with a hilt or handle. An umbral weapon does not reflect any sources of ambient light and is perpetually cloaked in shadow. It is considered to have concealment for the purposes of attacks or effects directed at the weapon, such as combat maneuver checks made to disarm, steal or sunder it and {spell/disintegrate} or {spell/rusting grasp}. The wielder gains darkvision 30 feet while grasping the hilt or handle of the weapon, even if the weapon is not drawn.",
+			"This special ability can be placed only on a melee weapon with a hilt or handle. An umbral weapon does not reflect any sources of ambient light and is perpetually cloaked in shadow. It is considered to have {rule/concealment} for the purposes of attacks or effects directed at the weapon, such as combat maneuver checks made to disarm, steal or sunder it and {spell/disintegrate} or {spell/rusting grasp}. The wielder gains darkvision 30 feet while grasping the hilt or handle of the weapon, even if the weapon is not drawn.",
 			"",
 			"Upon command, an umbral weapon radiates darkness in a 20-foot radius, causing illumination in the area to drop by one step (from bright light to normal light, normal light to dim light, or dim light to darkness). Due to the darkvision granted by the weapon, the wielder's vision is not impaired by darkness created by an umbral weapon. The darkness shed by an umbral weapon is considered a 2nd-level spell effect for the purpose of comparing its effect to the effects of magical light sources. This darkness suppresses light spells, but can't be used to counter or dispel them. The weapon must be drawn and in the wielder's hand to radiate darkness. The darkness ends immediately if the weapon is dropped, disarmed, sheathed, or otherwise stowed.",
 			"",
@@ -2174,7 +2174,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/clairaudience//clairvoyance}; **Price** -"
 		]
 	},
 	"driving": {
@@ -2301,7 +2301,7 @@
 			"**Aura** strong divination; **CL** 12th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on ranged weapons. A seeking weapon veers toward its target, negating any miss chances that would otherwise apply, such as from concealment. The wielder still has to aim the weapon at the right square. Arrows mistakenly shot into an empty space, for example, do not veer and hit invisible enemies, even if they are nearby.",
+			"This special ability can only be placed on ranged weapons. A seeking weapon veers toward its target, negating any miss chances that would otherwise apply, such as from {rule/concealment}. The wielder still has to aim the weapon at the right square. Arrows mistakenly shot into an empty space, for example, do not veer and hit invisible enemies, even if they are nearby.",
 			"",
 			"### Construction",
 			"",
@@ -2337,7 +2337,7 @@
 			"**Aura** weak evocation; **CL** 3rd  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"The fat crystal head of this arrow contains tiny motes of light; on closer scrutiny, they are actually tiny glowing insects similar to fireflies, held in stasis. When the arrow hits a target, it shatters the crystal and releases the insects, which distract the target with their aggressive flight. The creature takes a -1 penalty on attacks and checks for the next minute or until they rid themselves of the flying pests (such as by diving into water, suffering a damaging area attack, and so on). The lights reduce a target's concealment by one step (turning a 50% miss chance from total concealment into a 20% miss chance from concealment, and concealment into no concealment at all).",
+			"The fat crystal head of this arrow contains tiny motes of light; on closer scrutiny, they are actually tiny glowing insects similar to fireflies, held in stasis. When the arrow hits a target, it shatters the crystal and releases the insects, which distract the target with their aggressive flight. The creature takes a -1 penalty on attacks and checks for the next minute or until they rid themselves of the flying pests (such as by diving into water, suffering a damaging area attack, and so on). The lights reduce a target's {rule/concealment} by one step (turning a 50% miss chance from total concealment into a 20% miss chance from concealment, and concealment into no concealment at all).",
 			"",
 			"### Construction",
 			"",

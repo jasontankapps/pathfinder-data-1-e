@@ -7,13 +7,13 @@
 			"",
 			"{SOURCE Black Markets/15}  ",
 			"**Aura** moderate necromancy and transmutation; **CL** 9th  ",
-			"**Slot** ; **Price** 16,000 gp; **Weight** &mdash;",
+			"**Slot**; **Price** 16,000 gp; **Weight** &mdash;",
 			"",
 			"A ghoulgut consists of a ghoul's stomach, gallbladder, and liver implanted in the host's torso, resulting in a potent resistance to disease, but also a hunger for flesh. Once per day, the necrograft host can charge her second stomach by feeding on at least 1 pound of raw meat (doing so provides no nutritional value). This charge lasts for 24 hours. While charged, a ghoulgut grants the host a +4 enhancement bonus on saving throws against disease and poison. As a swift or immediate action, the host can expend her stomach's charge to reroll a failed Fortitude saving throw.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, create undead, [undead anatomy II](spell/undead_anatomy_2), creator must have 8 ranks in Heal; **Cost** 8000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/create undead}, [undead anatomy II](spell/undead_anatomy_2), creator must have 8 ranks in Heal; **Cost** 8000 gp"
 		]
 	},
 	"gravespawn_gland": {
@@ -24,7 +24,7 @@
 			"",
 			"{SOURCE Black Markets/15}  ",
 			"**Aura** moderate necromancy; **CL** 11th  ",
-			"**Slot** ; **Price** 6,200 gp; **Weight** &mdash;",
+			"**Slot**; **Price** 6,200 gp; **Weight** &mdash;",
 			"",
 			"A gravespawn gland is a piece of zombie brain implanted in the host's skull. When the command word (which is often kept secret by its creator) is spoken within 60 feet of the host, the gravespawn gland releases a surge of necromantic power, dealing 4d6 points of negative energy damage to the host. The host must succeed at a Fortitude saving throw (DC = 10 + the damage dealt) or be instantly slain. Creatures killed in this manner cannot be revived by {spell/breath of life} or {spell/raise dead}. A creature killed by a gravespawn gland rises 1 round later as a mindless zombie.",
 			"",
@@ -32,7 +32,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate dead, inflict critical wounds, creator must have 11 ranks in Heal; **Cost** 3100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate dead}, {spell/inflict critical wounds}, creator must have 11 ranks in Heal; **Cost** 3100 gp"
 		]
 	},
 	"necrograft_arm": {
@@ -43,13 +43,13 @@
 			"",
 			"{SOURCE Black Markets/15}  ",
 			"**Aura** strong necromancy and transmutation; **CL** 13th  ",
-			"**Slot** ; **Price** 12,000 gp; **Weight** &mdash;",
+			"**Slot**; **Price** 12,000 gp; **Weight** &mdash;",
 			"",
 			"An arm of undead flesh allows its host to lift up to 1-1/2 times his maximum load over his head. A humanoid with two necrograft arms can lift up to twice his maximum load over his head. Each necrograft arm also provides its host with a natural slam attack (replacing any natural attacks that limb may have once had) that deals 1d4 points of bludgeoning damage (1d3 for Small creatures) as a secondary attack. If a host attacks with only slam attacks in a round, the slams are instead considered primary attacks. A necrograft arm is clumsy, imposing a cumulative -2 circumstance penalty on all Craft, Disable Device, and Sleight of Hand checks per limb replaced, as well as on relevant Perform checks (such as for stringed instruments and wind instruments).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate dead, regenerate, creator must have 8 ranks in Heal; **Cost** 6000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate dead}, {spell/regenerate}, creator must have 8 ranks in Heal; **Cost** 6000 gp"
 		]
 	},
 	"necrograft_leg": {
@@ -60,13 +60,13 @@
 			"",
 			"{SOURCE Black Markets/15}  ",
 			"**Aura** strong necromancy and transmutation; **CL** 13th  ",
-			"**Slot** ; **Price** 6,400 gp; **Weight** &mdash;",
+			"**Slot**; **Price** 6,400 gp; **Weight** &mdash;",
 			"",
 			"A single necrograft leg allows its host to travel overland for 1-1/2 times longer than normal before needing to attempt Constitution checks to continue running or to avoid nonlethal damage from a forced march. A humanoid with two necrograft legs can travel overland twice as longer than normal before needing to attempt these same checks. In addition, each necrograft leg grants its host a +2 bonus to CMD against bull rush and overrun attempts and provides a 50% chance to ignore caltrops.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate dead, regenerate, creator must have 8 ranks in Heal; **Cost** 3200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate dead}, {spell/regenerate}, creator must have 8 ranks in Heal; **Cost** 3200 gp"
 		]
 	},
 	"sallowflesh": {
@@ -77,13 +77,13 @@
 			"",
 			"{SOURCE Black Markets/15}  ",
 			"**Aura** faint abjuration and necromancy; **CL** 5th  ",
-			"**Slot** ; **Price** 20,000 gp; **Weight** &mdash;",
+			"**Slot**; **Price** 20,000 gp; **Weight** &mdash;",
 			"",
 			"This necrograft weaves strips of rotted skin across the bearer's body in a grisly process of scarification. The dense, undead hide provides a +2 enhancement bonus to its host's natural armor bonus, and causes undead creatures to perceive the host as one of their own - skeletons, zombies, and other mindless undead ignore a character implanted with sallowflesh unless attacked first. Intelligent undead may also be fooled by this effect, but can recognize the host as a living creature with a successful DC 11 Will save; on a failed save, the undead assumes the host to be another intelligent undead. Undead attacked by the host, or that witness the host channel positive energy, can immediately see through this effect. Sallowflesh has no effect on living creatures' perceptions.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate dead, hide from undead, creator must have 5 ranks in Heal; **Cost** 10000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate dead}, {spell/hide from undead}, creator must have 5 ranks in Heal; **Cost** 10000 gp"
 		]
 	},
 	"stranglers_tongue": {
@@ -94,13 +94,13 @@
 			"",
 			"{SOURCE Black Markets/15}  ",
 			"**Aura** faint enchantment and necromancy; **CL** 5th  ",
-			"**Slot** ; **Price** 36,000 gp; **Weight** &mdash;",
+			"**Slot**; **Price** 36,000 gp; **Weight** &mdash;",
 			"",
 			"Extracted from a mohrg, this ropy, claw-tipped tongue is implanted into a recipient's mouth or throat. A strangler's tongue lacks the strength to grasp or hold items, but the host can lash out with the tongue as a standard action as a melee touch attack. A humanoid hit by the strangler's tongue is paralyzed for 1d4 minutes (Will DC 15 negates).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, create undead, hold person, creator must have 5 ranks in Heal; **Cost** 18000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/create undead}, {spell/hold person}, creator must have 5 ranks in Heal; **Cost** 18000 gp"
 		]
 	}
 }

@@ -1614,6 +1614,7 @@
 					[ "{spell/Spectral Scout}", 3, "conjuration", "creation", null, "Summon a spectral animal to scout for you." ],
 					[ "{spell/Spotlight}", 3, "evocation", null, "darkness, light", "Create a mobile area of bright light while also suppressing light surrounding it." ],
 					[ "{spell/Stage Fright}", 3, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Give the target a -4 penalty on ability checks, skill checks, and any checks requiring concentration." ],
+					[ "{spell/Steal Book}", 3, "divination", null, null, "Move mundane text from a book into a blank copy." ],
 					[ "{spell/Stolen Light}", 3, "illusion", "figment", null, "Store images within a gem." ],
 					[ "{spell/Summon Ancestral Guardian}", 3, "conjuration", "summoning", null, "Conjure your ancestors' spirits to help you in combat." ],
 					[ "{spell/Summon Monster III}", 3, "conjuration", "summoning", "see text", "Summons extraplanar creature to fight for you." ],

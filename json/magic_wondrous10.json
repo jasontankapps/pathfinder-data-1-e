@@ -27,7 +27,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate, know direction, light; **Cost** 28,875 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}, {spell/know direction}, {spell/light}; **Cost** 28,875 gp"
 		]
 	},
 	"banner_of_the_rushing_horde": {
@@ -44,7 +44,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bull's strength; **Cost** 30,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}; **Cost** 30,000 gp"
 		]
 	},
 	"canopic_jar_of_unlife": {
@@ -65,7 +65,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gentle repose, regenerate; **Cost** 30,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gentle repose}, {spell/regenerate}; **Cost** 30,000 gp"
 		]
 	},
 	"crystal_ball_of_the_dark_void": {
@@ -86,7 +86,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, scrying, sending; **Cost** 30,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/scrying}, {spell/sending}; **Cost** 30,000 gp"
 		]
 	},
 	"darkskull": {
@@ -106,7 +106,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, unhallow, creator must be evil; **Cost** 30,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/unhallow}, creator must be evil; **Cost** 30,000 gp"
 		]
 	},
 	"deadlimb_pins": {
@@ -127,7 +127,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, baleful polymorph; **Cost** 30,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/baleful polymorph}; **Cost** 30,000 gp"
 		]
 	},
 	"orb_of_pure_law": {
@@ -182,7 +182,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, call lightning storm, control weather; **Cost** 30,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/call lightning storm}, {spell/control weather}; **Cost** 30,000 gp"
 		]
 	},
 	"well_of_stars": {
@@ -199,7 +199,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate; **Cost** 30,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}; **Cost** 30,000 gp"
 		]
 	},
 	"cube_of_force": {
@@ -241,7 +241,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 31,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/wall of force}; **Cost** 31,000 gp"
 		]
 	},
 	"private_palanquin": {
@@ -260,7 +260,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Construct, {feat/Craft Wondrous Item}, alarm, animate objects, arcane lock, mage's private sanctum, veil; **Cost** 31,500 gp"
+			"**Requirements** Craft Construct, {feat/Craft Wondrous Item}, {spell/alarm}, {spell/animate objects}, {spell/arcane lock}, {spell/mage's private sanctum}, {spell/veil}; **Cost** 31,500 gp"
 		]
 	},
 	"howdah_of_leisurely_travel": {
@@ -273,13 +273,13 @@
 			"**Aura** moderate abjuration and transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 65,000 gp; **Weight** 200 lbs.",
 			"",
-			"This massive teak platform is designed to be strapped to the back of a Huge or larger quadruped like a saddle. The howdah of leisurely travel automatically resizes to fit a creature of Huge to Colossal size. It has room for four Medium creatures if mounted on a Huge creature, nine Medium creatures if mounted on a Gargantuan creature, and 16 Medium creatures if mounted on a Colossal creature. The howdah is constructed for ceremony rather than war, with upright bronze posts supporting a thin wooden roof and silk curtains; it does not provide cover to those riding within it, though the curtains provide concealment when closed.",
+			"This massive teak platform is designed to be strapped to the back of a Huge or larger quadruped like a saddle. The howdah of leisurely travel automatically resizes to fit a creature of Huge to Colossal size. It has room for four Medium creatures if mounted on a Huge creature, nine Medium creatures if mounted on a Gargantuan creature, and 16 Medium creatures if mounted on a Colossal creature. The howdah is constructed for ceremony rather than war, with upright bronze posts supporting a thin wooden roof and silk curtains; it does not provide cover to those riding within it, though the curtains provide {rule/concealment} when closed.",
 			"",
 			"A howdah of leisurely travel grants a constant {spell/endure elements} effect to all creatures within and grants such creatures a +4 competence bonus on saves against disease, effects that cause fatigue or exhaustion, energy drain, and poisons. Within the howdah, natural healing takes place at twice the normal rate. The creature bearing the howdah does not gain these benefits.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, endure elements, restful healing, shrink item; **Cost** 32,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/restful sleep}, {spell/shrink item}; **Cost** 32,500 gp"
 		]
 	},
 	"lyre_of_storms": {
@@ -309,7 +309,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, call lightning, control weather, water walk; **Cost** 32,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/call lightning}, {spell/control weather}, {spell/water walk}; **Cost** 32,500 gp"
 		]
 	},
 	"ruby_skull_of_chast": {
@@ -326,7 +326,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hallow, nondetection; **Cost** 32,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hallow}, {spell/nondetection}; **Cost** 32,500 gp"
 		]
 	},
 	"suppression_gem": {
@@ -364,7 +364,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dispel magic, greater polymorph, true seeing; **Cost** 33,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dispel magic}, {spell/greater polymorph}, {spell/true seeing}; **Cost** 33,000 gp"
 		]
 	},
 	"threshold_guardian": {
@@ -402,7 +402,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 33,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/wall of force}; **Cost** 33,000 gp"
 		]
 	},
 	"behemoth_golem_manual": {
@@ -419,7 +419,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Construct, creator must be caster level 18th, earthquake, geas/quest, mage's magnificent mansion, wish; **Cost** 35,000 gp"
+			"**Requirements** Craft Construct, creator must be caster level 18th, {spell/earthquake}, {spell/geas//quest}, {spell/mage's magnificent mansion}, {spell/wish}; **Cost** 35,000 gp"
 		]
 	},
 	"horn_of_blasting_greater": {
@@ -459,7 +459,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/wall of force}; **Cost** 35,000 gp"
 		]
 	},
 	"quasit_key": {
@@ -476,7 +476,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plane shift; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/plane shift}; **Cost** 35,000 gp"
 		]
 	},
 	"rechargeable_cube_of_force": {
@@ -493,7 +493,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/wall of force}; **Cost** 35,000 gp"
 		]
 	},
 	"remote_activation_cube": {
@@ -510,7 +510,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mage hand, wall of force; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mage hand}, {spell/wall of force}; **Cost** 35,000 gp"
 		]
 	},
 	"tremor_bar_kobold": {
@@ -531,7 +531,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, earthquake, stone shape, creator must be a kobold; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/earthquake}, {spell/stone shape}, creator must be a kobold; **Cost** 35,000 gp"
 		]
 	},
 	"tyrants_mark": {
@@ -550,7 +550,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, resistance, scrying, shield of faith; **Cost** 35,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/resistance}, {spell/scrying}, {spell/shield of faith}; **Cost** 35,500 gp"
 		]
 	},
 	"wayfinder_of_the_sleeping_eye": {
@@ -571,7 +571,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, arcane eye, shadow conjuration; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/arcane eye}, {spell/shadow conjuration}; **Cost** 35,000 gp"
 		]
 	},
 	"wayfinder_of_the_stars": {
@@ -592,7 +592,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, interplanetary teleport, light, locate object; **Cost** 35,100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/interplanetary teleport}, {spell/light}, {spell/locate object}; **Cost** 35,100 gp"
 		]
 	},
 	"gem_of_seeing": {
@@ -637,7 +637,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, borrow fortune, confusion, greater scrying; **Cost** 39,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/borrow fortune}, {spell/confusion}, {spell/greater scrying}; **Cost** 39,000 gp"
 		]
 	},
 	"eye_orb": {
@@ -656,7 +656,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, darkvision, true seeing; **Cost** 40,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/darkvision}, {spell/true seeing}; **Cost** 40,000 gp"
 		]
 	},
 	"flying_sled": {
@@ -682,7 +682,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, overland flight, plane shift; **Cost** 40,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/overland flight}, {spell/plane shift}; **Cost** 40,000 gp"
 		]
 	},
 	"ofuda_of_dimensional_warding": {
@@ -716,7 +716,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate, shadow walk; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}, {spell/shadow walk}; **Cost** 41,000 gp"
 		]
 	},
 	"well_of_many_worlds": {
@@ -736,7 +736,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}; **Cost** 41,000 gp"
 		]
 	},
 	"preyfinder": {
@@ -761,7 +761,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blood biography, heroism, locate creature; **Cost** 42,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blood biography}, {spell/heroism}, {spell/locate creature}; **Cost** 42,500 gp"
 		]
 	},
 	"relic_of_a_virtuous_emperor": {
@@ -774,11 +774,11 @@
 			"**Aura** strong divination; **CL** 17th  ",
 			"**Slot** none; **Price** 87,000 gp; **Weight** 1 lb.",
 			"",
-			"While most objects - such as ancient trinkets and jewelry - sold as purported belongings of a Lung Wa emperor have no actual magical value, some do have magical properties. Such items all function much the same way, despite taking a variety of shapes and being attributed to different emperors. Whatever its origin and form, a relic of a virtuous emperor can be used to cast augury three times per day. It can also be used to summon one kodama or 1d4+1 shikigami as if they had been summoned by [summon nature's ally V](spell/summon_natures_ally_5), once per day. Additionally, anyone in possession of a relic of a virtuous emperor gains a +1 insight bonus to AC.",
+			"While most objects - such as ancient trinkets and jewelry - sold as purported belongings of a Lung Wa emperor have no actual magical value, some do have magical properties. Such items all function much the same way, despite taking a variety of shapes and being attributed to different emperors. Whatever its origin and form, a relic of a virtuous emperor can be used to cast augury three times per day. It can also be used to summon one kodama or 1d4+1 shikigami as if they had been summoned by {spell/summon nature's ally V}, once per day. Additionally, anyone in possession of a relic of a virtuous emperor gains a +1 insight bonus to AC.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, augury, foresight, [summon nature's ally V](spell/summon_natures_ally_5); **Cost** 43,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}, {spell/foresight}, {spell/summon nature's ally V}; **Cost** 43,500 gp"
 		]
 	},
 	"apparatus_of_the_crab": {
@@ -815,7 +815,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate objects, continual flame, creator must have 8 ranks in Knowledge (engineering); **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/continual flame}, creator must have 8 ranks in Knowledge (engineering); **Cost** 45,000 gp"
 		]
 	},
 	"beacon_of_the_north": {
@@ -840,7 +840,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, chill touch, teleportation circle; **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/chill touch}, {spell/teleportation circle}; **Cost** 45,000 gp"
 		]
 	},
 	"bowl_of_conjuring_water_elementals": {
@@ -853,11 +853,11 @@
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 90,000 gp; **Weight** 3 lbs.",
 			"",
-			"This large container is usually fashioned from silver with a rippled pattern. It is about 1 foot in diameter and half that deep. The bowl must be filled with fresh or salt water to function. On command as a full-round action, the bearer may summon a water elemental. If the bowl is filled with salt water, it conjures a Huge water elemental as if using [summon monster VI](spell/summon_monster_6). If filled with fresh water, it conjures a Large water elemental as if using [summon monster V](spell/summon_monster_5). Conjuring an elemental empties the bowl. The bowl cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
+			"This large container is usually fashioned from silver with a rippled pattern. It is about 1 foot in diameter and half that deep. The bowl must be filled with fresh or salt water to function. On command as a full-round action, the bearer may summon a water elemental. If the bowl is filled with salt water, it conjures a Huge water elemental as if using {spell/summon monster VI}. If filled with fresh water, it conjures a Large water elemental as if using {spell/summon monster V}. Conjuring an elemental empties the bowl. The bowl cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster V](spell/summon_monster_5), [summon monster VI](spell/summon_monster_6); **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon monster V}, {spell/summon monster VI}; **Cost** 45,000 gp"
 		]
 	},
 	"brazier_of_conjuring_fire_elementals": {
@@ -870,11 +870,11 @@
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 90,000 gp; **Weight** 5 lbs.",
 			"",
-			"This device appears to be a normal container for holding burning coals. The brazier must be filled with coals or wood and a fire lit within it to function. On command as a full-round action, the bearer may summon a fire elemental. If 1 pound of brimstone (sulfur) is burning in the brazier, it conjures a Huge fire elemental as if using [summon monster VI](spell/summon_monster_6). Otherwise, the brazier conjures a Large fire elemental as if using [summon monster V](spell/summon_monster_5). Conjuring an elemental extinguishes the fire in the brazier. The brazier cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
+			"This device appears to be a normal container for holding burning coals. The brazier must be filled with coals or wood and a fire lit within it to function. On command as a full-round action, the bearer may summon a fire elemental. If 1 pound of brimstone (sulfur) is burning in the brazier, it conjures a Huge fire elemental as if using {spell/summon monster VI}. Otherwise, the brazier conjures a Large fire elemental as if using {spell/summon monster V}. Conjuring an elemental extinguishes the fire in the brazier. The brazier cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster V](spell/summon_monster_5), [summon monster VI](spell/summon_monster_6); **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon monster V}, {spell/summon monster VI}; **Cost** 45,000 gp"
 		]
 	},
 	"bronze_sentinel": {
@@ -908,7 +908,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate objects, continual flame, creator must have 8 ranks in Knowledge (engineering); **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/continual flame}, creator must have 8 ranks in Knowledge (engineering); **Cost** 45,000 gp"
 		]
 	},
 	"carpet_of_comfort": {
@@ -925,7 +925,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, overland flight, secure shelter, tiny hut; **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/overland flight}, {spell/secure shelter}, {spell/tiny hut}; **Cost** 45,000 gp"
 		]
 	},
 	"censer_of_conjuring_air_elementals": {
@@ -938,11 +938,11 @@
 			"**Aura** moderate conjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 90,000 gp; **Weight** 1 lb.",
 			"",
-			"This 6-inch-wide, perforated metallic vessel resembles a thurible found in a place of worship. The censer must be filled with incense to function. On command as a full-round action, the bearer may summon an air elemental. If the censer is filled with incense of meditation, it conjures a greater air elemental as if using [summon monster VII](spell/summon_monster_7). If filled with any other incense, it conjures a Large air elemental as if using [summon monster V](spell/summon_monster_5). Conjuring an elemental consumes any normal incense in the censer, or one-fourth of a block of incense of meditation. The censer cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
+			"This 6-inch-wide, perforated metallic vessel resembles a thurible found in a place of worship. The censer must be filled with incense to function. On command as a full-round action, the bearer may summon an air elemental. If the censer is filled with incense of meditation, it conjures a greater air elemental as if using {spell/summon monster VII}. If filled with any other incense, it conjures a Large air elemental as if using {spell/summon monster V}. Conjuring an elemental consumes any normal incense in the censer, or one-fourth of a block of incense of meditation. The censer cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster V](spell/summon_monster_5), [summon monster VII](spell/summon_monster_7); **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon monster V}, {spell/summon monster VII}; **Cost** 45,000 gp"
 		]
 	},
 	"chariot_of_the_conqueror": {
@@ -963,7 +963,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mage armor, phantom driver, phantom steed; **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mage armor}, {spell/phantom driver}, {spell/phantom steed}; **Cost** 45,000 gp"
 		]
 	},
 	"oculus_of_magnetic_fury": {
@@ -993,11 +993,11 @@
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 90,000 gp; **Weight** 5 lbs.",
 			"",
-			"A stone of this nature is typically an oddly shaped bit of roughly polished rock. On command as a full-round action, the bearer may summon an earth elemental. If there is an unbroken piece of unworked stone of at least Huge size nearby, the stone conjures a Huge earth elemental as if using [summon monster VI](spell/summon_monster_6). If there is no such stone available (for example, if there is only sand, earth, worked stone, or smaller pieces of stone), the stone conjures a Large earth elemental as if using [summon monster V](spell/summon_monster_5). The stone cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
+			"A stone of this nature is typically an oddly shaped bit of roughly polished rock. On command as a full-round action, the bearer may summon an earth elemental. If there is an unbroken piece of unworked stone of at least Huge size nearby, the stone conjures a Huge earth elemental as if using {spell/summon monster VI}. If there is no such stone available (for example, if there is only sand, earth, worked stone, or smaller pieces of stone), the stone conjures a Large earth elemental as if using {spell/summon monster V}. The stone cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster V](spell/summon_monster_5), [summon monster VI](spell/summon_monster_6); **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon monster V}, {spell/summon monster VI}; **Cost** 45,000 gp"
 		]
 	},
 	"mirror_of_opposition": {
@@ -1017,7 +1017,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clone; **Cost** 46,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clone}; **Cost** 46,000 gp"
 		]
 	},
 	"lightning_gun": {
@@ -1036,7 +1036,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, chain lightning; **Cost** 47,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/chain lightning}; **Cost** 47,500 gp"
 		]
 	},
 	"ruby_sapphire_of_osh_maru": {
@@ -1055,7 +1055,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Elemental Spell, resist energy; **Cost** 48,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Elemental Spell}, {spell/resist energy}; **Cost** 48,000 gp"
 		]
 	},
 	"tome_of_forgotten_epithets": {
@@ -1072,7 +1072,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mind blank, secret page; **Cost** 54,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mind blank}, {spell/secret page}; **Cost** 54,000 gp"
 		]
 	},
 	"golden_carriage_of_gaspar_longfellow": {
@@ -1091,7 +1091,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, phantom steed, secure shelter; **Cost** 57,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/phantom steed}, {spell/secure shelter}; **Cost** 57,000 gp"
 		]
 	},
 	"farwatcher": {
@@ -1110,7 +1110,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Profession (astronomy) 11 ranks, true seeing; **Cost** 60,550 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Profession (astronomy) 11 ranks, {spell/true seeing}; **Cost** 60,550 gp"
 		]
 	},
 	"planar_carriage": {
@@ -1148,7 +1148,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate, mage's magnificent mansion; **Cost** 61,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}, {spell/mage's magnificent mansion}; **Cost** 61,000 gp"
 		]
 	},
 	"nightglass": {
@@ -1163,7 +1163,7 @@
 			"",
 			"This thin sheet of opaque black stone is polished to a reflective sheen, but the center of the material drinks all light, becoming a pool of total darkness.",
 			"",
-			"A nightglass can be used three times per day to summon various creatures from the Shadow Plane. Any effort to summon a creature requires a successful DC 15 Will save. On a failed save, the user takes 1d4 points of Strength damage and must attempt another save on his next turn. On a successful save, a shadow is summoned. This acts as [summon monster IV](spell/summon_monster_4), except it can be used only to summon a single shadow, and the shadow remains for 1 hour or until destroyed. If the user took Strength damage during the summoning effort, the shadow remains for 1 additional hour per point of Strength lost. Any Strength damage that is restored no longer adds to the duration of the summoned shadow.",
+			"A nightglass can be used three times per day to summon various creatures from the Shadow Plane. Any effort to summon a creature requires a successful DC 15 Will save. On a failed save, the user takes 1d4 points of Strength damage and must attempt another save on his next turn. On a successful save, a shadow is summoned. This acts as {spell/summon monster IV}, except it can be used only to summon a single shadow, and the shadow remains for 1 hour or until destroyed. If the user took Strength damage during the summoning effort, the shadow remains for 1 additional hour per point of Strength lost. Any Strength damage that is restored no longer adds to the duration of the summoned shadow.",
 			"",
 			"If a user's Strength is reduced to 0 by the nightglass while attempting to summon a shadow, the user is trapped within the nightglass as if by a trap the soul spell, except breaking the nightglass does not free the trapped soul (which can be released only through a miracle, a wish, or similar powerful magic). Additionally, a creature from the Plane of Shadow emerges from the nightglass. This creature takes the form of the user drained to 0 Strength. It uses the same stat block as the trapped soul, but also has the shadow creature template. The shadow creature has the memories, class levels, and abilities of the user it replaces, but is always of neutral evil alignment. A successful DC 20 Sense Motive check allows anyone familiar with the original character to realize the shadow creature is not actually the person it resembles. The shadow creature is not bound or controlled by the nightglass and has its own dark agenda, but may work with groups able to provide it with security and aid. Should the original user somehow manage to escape the nightglass, the shadow creature replacement is immediately sent back to the Plane of Shadow.",
 			"",
@@ -1171,7 +1171,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shadow conjuration, [summon monster IV](spell/summon_monster_4), trap the soul, creator must be 10th level or higher and must be a worshiper of Zon-Kuthon; **Cost** 63,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shadow conjuration}, {spell/summon monster IV}, {spell/trap the soul}, creator must be 10th level or higher and must be a worshiper of Zon-Kuthon; **Cost** 63,000 gp"
 		]
 	},
 	"sovereign_shabti": {
@@ -1190,7 +1190,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, trap the soul, {spell/true resurrection}, 3 drops of royal blood, a royal name; **Cost** 65,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/trap the soul}, {spell/true resurrection}, 3 drops of royal blood, a royal name; **Cost** 65,000 gp"
 		]
 	},
 	"contingent_wayfinder": {
@@ -1209,7 +1209,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, contingency, imbue with spell ability, light; **Cost** 66,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/contingency}, {spell/imbue with spell ability}, {spell/light}; **Cost** 66,000 gp"
 		]
 	},
 	"wayfinder_of_passage": {
@@ -1233,7 +1233,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, daylight, dimension door, feather fall, knock, resist energy; **Cost** 68,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/daylight}, {spell/dimension door}, {spell/feather fall}, {spell/knock}, {spell/resist energy}; **Cost** 68,000 gp"
 		]
 	},
 	"efreeti_bottle": {
@@ -1253,7 +1253,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, planar binding; **Cost** 72,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/planar binding}; **Cost** 72,500 gp"
 		]
 	},
 	"bell_of_obedience": {
@@ -1283,7 +1283,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Widen Spell, calm emotions, crushing despair, good hope, rage; **Cost** 78,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Widen Spell}, {spell/calm emotions}, {spell/crushing despair}, {spell/good hope}, {spell/rage}; **Cost** 78,750 gp"
 		]
 	},
 	"cage_of_captivity": {
@@ -1331,7 +1331,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, overland flight, planar adaptation, polymorph, {spell/protection from chaos}; **Cost** 80,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/overland flight}, {spell/planar adaptation}, {spell/polymorph}, {spell/protection from chaos}; **Cost** 80,000 gp"
 		]
 	},
 	"cubic_gate": {
@@ -1355,7 +1355,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plane shift; **Cost** 82,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/plane shift}; **Cost** 82,000 gp"
 		]
 	},
 	"iron_flask": {
@@ -1407,7 +1407,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, trap the soul; **Cost** 85,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/trap the soul}; **Cost** 85,000 gp"
 		]
 	},
 	"mirror_of_mental_prowess": {
@@ -1429,7 +1429,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/clairvoyance, detect thoughts, gate, legend lore; **Cost** 87,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}, {spell/detect thoughts}, {spell/gate}, {spell/legend lore}; **Cost** 87,500 gp"
 		]
 	},
 	"flying_skiff": {
@@ -1457,7 +1457,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [intellect fortress III](spell/intellect_fortress_3), [mental barrier III](spell/mental_barrier_3), overland flight, plane shift, [thought shield III](spell/thought_shield_3), [tower of iron will II](spell/tower_of_iron_will_2); **Cost** 90,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, [intellect fortress III](spell/intellect_fortress_3), [mental barrier III](spell/mental_barrier_3), {spell/overland flight}, {spell/plane shift}, [thought shield III](spell/thought_shield_3), [tower of iron will II](spell/tower_of_iron_will_2); **Cost** 90,000 gp"
 		]
 	},
 	"bastion_banner": {
@@ -1500,7 +1500,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hallow or unhallow, move earth, additional spell depending on deity, creator must worship the related deity; **Cost** 91,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hallow} or {spell/unhallow}, {spell/move earth}, additional spell depending on deity, creator must worship the related deity; **Cost** 91,000 gp"
 		]
 	},
 	"silent_aviary": {
@@ -1523,7 +1523,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plane shift, wish; **Cost** 97,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/plane shift}, {spell/wish}; **Cost** 97,500 gp"
 		]
 	},
 	"monkeys_paw_cursed": {

@@ -2551,7 +2551,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}; **Cost** 2,000 gp"
 		]
 	},
 	"eastern_star": {
@@ -2576,7 +2576,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, comprehend languages; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/comprehend languages}; **Cost** 3,000 gp"
 		]
 	},
 	"azure_briolette": {

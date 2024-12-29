@@ -444,7 +444,7 @@
 			"",
 			"**Battlefield Preparation (Ex):** At 6th level, the investigator can create 10 feet of difficult terrain by spending a full-round action to analyze and manipulate his surroundings. This terrain can be in any shape designated by the investigator, but at least 1 square must be adjacent to his position. For every 4 levels he has beyond 6th, the investigator can create an additional 10 feet of difficult terrain, to a maximum of 40 feet at 18th level. This is a physical alteration that remains in place until the surface is altered again (the road is repaved, the floor repaired, etc.), and the Holomog demolitionist ignores the effects of any difficult terrain he creates in this way.",
 			"",
-			"At 10th level, the Holomog demolitionist can use this ability to create clouds of dust and rubble that create concealment rather than difficult terrain in the same area. This concealment lasts 1d4 rounds plus 1 round for every 4 investigator levels, and the Holomog demolitionist is affected by the concealment as normal.",
+			"At 10th level, the Holomog demolitionist can use this ability to create clouds of dust and rubble that create {rule/concealment} rather than difficult terrain in the same area. This concealment lasts 1d4 rounds plus 1 round for every 4 investigator levels, and the Holomog demolitionist is affected by the concealment as normal.",
 			"",
 			"At 14th level, the difficult terrain the Holomog demolitionist creates provides cover for himself and his allies."
 		]
@@ -1051,7 +1051,7 @@
 			"",
 			"**Shot in the Dark (Ex):** At 4th level, a steel hound gains the following deed. This deed works and interacts with grit the same way as gunslinger deeds, but only the steel hound can use it. If the steel hound also has levels in gunslinger, he can spend grit points from that class to use this deed.",
 			"",
-			"**Blind Shot (Su):** A steel hound can spend 1 grit point to ignore all miss chances due to concealment when making firearm attacks. This effect lasts until the end of his turn. This ability allows the steel hound to ignore concealment, but does not reveal or allow him to see the enemy. This ability replaces swift alchemy.",
+			"**Blind Shot (Su):** A steel hound can spend 1 grit point to ignore all miss chances due to {rule/concealment} when making firearm attacks. This effect lasts until the end of his turn. This ability allows the steel hound to ignore concealment, but does not reveal or allow him to see the enemy. This ability replaces swift alchemy.",
 			"",
 			"**Talented Shot (Ex):** At 11th level, a steel hound can select a gunslinger deed in place of an investigator talent. He can select from any deed available to a gunslinger of his investigator level - 4."
 		]

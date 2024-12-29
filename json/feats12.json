@@ -170,7 +170,7 @@
 			"",
 			"The influence of your deity guides your favored weapon.  ",
 			"**Prerequisites:** {feat/Weapon Focus} with deity's favored weapon, must worship and receive spells from a deity.  ",
-			"**Benefit:** As a swift action, you can call upon your deity to guide an attack you make with your deity's favored weapon. On your next attack in that round with that weapon, your weapon counts as magical for the purpose of overcoming damage reduction or striking an incorporeal creature. If your attack misses because of concealment, you can reroll your miss chance one time to see whether you actually hit.",
+			"**Benefit:** As a swift action, you can call upon your deity to guide an attack you make with your deity's favored weapon. On your next attack in that round with that weapon, your weapon counts as magical for the purpose of overcoming damage reduction or striking an incorporeal creature. If your attack misses because of {rule/concealment}, you can reroll your miss chance one time to see whether you actually hit.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/135}",
@@ -847,7 +847,7 @@
 			"",
 			"Your erratic movements make it difficult for enemies to pinpoint your location.  ",
 			"**Prerequisites:** Dex 15, {feat/Dodge}, base attack bonus +6.  ",
-			"**Benefit:** If you move more than 5 feet this turn, you gain 20% concealment for 1 round against ranged attacks.",
+			"**Benefit:** If you move more than 5 feet this turn, you gain 20% {rule/concealment} for 1 round against ranged attacks.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/135}",
@@ -1068,7 +1068,7 @@
 			"",
 			"You put the terrain between yourself and your opponents to avoid attacks.  ",
 			"**Prerequisites:** Dex 15, {feat/Dodge}, base attack bonus +6.  ",
-			"**Benefit:** If you take two actions to move or a withdrawal action in a turn while starting or ending your movement in either naturally occurring difficult terrain (bushes, brambles, etc.) or a space with a natural object providing at least partial cover (a tree, rock, etc.), you gain concealment until you attack, until you move out of that space, or until the end of your next turn, whichever occurs first."
+			"**Benefit:** If you take two actions to move or a withdrawal action in a turn while starting or ending your movement in either naturally occurring difficult terrain (bushes, brambles, etc.) or a space with a natural object providing at least partial cover (a tree, rock, etc.), you gain {rule/concealment} until you attack, until you move out of that space, or until the end of your next turn, whichever occurs first."
 		]
 	},
 	"word_of_healing": {

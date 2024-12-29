@@ -1064,7 +1064,7 @@
 			"",
 			"**Sharpshooter:** A shieldmarshal ignores 1 point of any AC bonus granted by cover per shieldmarshal level. This does not allow the shieldmarshal to ignore total cover.",
 			"",
-			"**Sure Shot:** A shieldmarshal reduces his miss chance with firearms due to concealment, blink, blur, or similar effects by 5% per two shieldmarshal levels (to a maximum reduction of 25% at 10th level). He must still target the correct square to hit a creature with concealment. This judgment can't decrease his miss chance to lower than 0%.",
+			"**Sure Shot:** A shieldmarshal reduces his miss chance with firearms due to {rule/concealment}, {spell/blink}, {spell/blur}, or similar effects by 5% per two shieldmarshal levels (to a maximum reduction of 25% at 10th level). He must still target the correct square to hit a creature with concealment. This judgment can't decrease his miss chance to lower than 0%.",
 			"",
 			"**Danger Sense (Ex):** At 2nd level, a shieldmarshal gains a bonus on initiative checks equal to 1/2 his level, and can always act during a surprise round even if unaware of opponents.",
 			"",

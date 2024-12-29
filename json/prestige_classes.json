@@ -2210,7 +2210,7 @@
 			"",
 			"**Artistic Flourish (Su):** At 2nd level, when a devoted muse has at least 1 panache point and successfully feints against an opponent in combat, instead of denying the opponent its Dexterity bonus, she can instead create one of the following effects (all of which are mind-affecting effects). A creature can be affected by only one such effect at a time, and imposing a second effect immediately ends the first. The DC of any saving throws to resist these effects is equal to 10 + the devoted muse's class level + her Charisma modifier.",
 			"",
-			"**Distracted:** The target treats all other creatures as though they had concealment, suffering a 20% miss chance on all attack rolls (even if the creature has blindsight). This effect lasts for a number of rounds equal to the devoted muse's Charisma modifier, though a successful Will save reduces the duration to 1 round.",
+			"**Distracted:** The target treats all other creatures as though they had {rule/concealment}, suffering a 20% miss chance on all attack rolls (even if the creature has blindsight). This effect lasts for a number of rounds equal to the devoted muse's Charisma modifier, though a successful Will save reduces the duration to 1 round.",
 			"",
 			"**Confused:** At 5th level, the devoted muse can cause the target to be confused for 1 round (Will negates). Whether or not the save is successful, a creature cannot be the target of this artistic flourish again for 1 day.",
 			"",

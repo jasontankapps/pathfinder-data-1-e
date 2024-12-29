@@ -15,7 +15,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blindness/deafness, charm person, doom, see invisibility; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blindness//deafness}, {spell/charm person}, {spell/doom}, {spell/see invisibility}; **Cost** 3,500 gp"
 		]
 	},
 	"brazen_hooves": {
@@ -36,7 +36,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bull's strength, wall of fire; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/wall of fire}; **Cost** 7,500 gp"
 		]
 	},
 	"crown_of_horns": {
@@ -77,7 +77,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, desecrate; **Cost** 400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/desecrate}; **Cost** 400 gp"
 		]
 	},
 	"demon_heart": {
@@ -96,7 +96,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, remove fear, stabilize; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/remove fear}, {spell/stabilize}; **Cost** 3,000 gp"
 		]
 	},
 	"demon_senses": {
@@ -115,7 +115,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, limited wish, regenerate; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/limited wish}, {spell/regenerate}; **Cost** 10,000 gp"
 		]
 	},
 	"demon_talon": {
@@ -134,7 +134,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, limited wish, regenerate; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/limited wish}, {spell/regenerate}; **Cost** 10,000 gp"
 		]
 	},
 	"demon_tongue": {
@@ -153,7 +153,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, detect poison, eagle's splendor; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect poison}, {spell/eagle's splendor}; **Cost** 5,000 gp"
 		]
 	},
 	"demonhide": {
@@ -172,7 +172,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, barkskin, delay poison, resist energy; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}, {spell/delay poison}, {spell/resist energy}; **Cost** 10,000 gp"
 		]
 	},
 	"splintered_mind": {
@@ -193,7 +193,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, confusion, misdirection; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/confusion}, {spell/misdirection}; **Cost** 8,000 gp"
 		]
 	},
 	"wicked_wings": {

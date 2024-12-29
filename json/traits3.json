@@ -4969,7 +4969,7 @@
 			"**Type:** Regional  ",
 			"**Region:** underground",
 			"",
-			"You were born and raised in a subterranean home with little or no bright light. Your miss chance for concealment or total concealment due to either mundane or magical darkness decreases by 10%. You are dazzled for 1 round when you are suddenly exposed to bright light."
+			"You were born and raised in a subterranean home with little or no bright light. Your miss chance for {rule/concealment} or total concealment due to either mundane or magical darkness decreases by 10%. You are dazzled for 1 round when you are suddenly exposed to bright light."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},

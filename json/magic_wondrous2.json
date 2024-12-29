@@ -47,7 +47,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cat's grace, haste; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, {spell/haste}; **Cost** 1,250 gp"
 		]
 	},
 	"touch_of_avolition": {
@@ -68,7 +68,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, hold person; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}, {spell/hold person}; **Cost** 1,250 gp"
 		]
 	},
 	"inheritors_gauntlet": {
@@ -90,7 +90,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, light, magic weapon, [summon monster I](spell/summon_monster_1); **Cost** 1,350 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/light}, {spell/magic weapon}, {spell/summon monster I}; **Cost** 1,350 gp"
 		]
 	},
 	"dianxue_gloves": {
@@ -107,7 +107,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, status, true strike, creator must have 5 ranks in Heal; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/status}, {spell/true strike}, creator must have 5 ranks in Heal; **Cost** 1,500 gp"
 		]
 	},
 	"engineers_workgloves": {
@@ -143,7 +143,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, resist energy, chill metal or icicle dagger; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/resist energy}, {spell/chill metal} or {spell/icicle dagger}; **Cost** 1,500 gp"
 		]
 	},
 	"gloves_of_stolen_unlife": {
@@ -160,7 +160,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, false life; **Cost** 1,520 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/false life}; **Cost** 1,520 gp"
 		]
 	},
 	"deaths_will": {
@@ -177,7 +177,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cat's grace, spit venom; **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, {spell/spit venom}; **Cost** 1,800 gp"
 		]
 	},
 	"kalistocrats_gloves": {
@@ -196,7 +196,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hydraulic push, sanctuary; **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hydraulic push}, {spell/sanctuary}; **Cost** 1,800 gp"
 		]
 	},
 	"gloves_of_improvised_might": {
@@ -215,7 +215,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, greater magic weapon, creator's caster level must be at least three times the gloves' bonus, plus any requirements of the melee weapon special abilities; **Cost** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/greater magic weapon}, creator's caster level must be at least three times the gloves' bonus, plus any requirements of the melee weapon special abilities; **Cost** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)"
 		]
 	},
 	"gloves_of_improvised_might_1": {
@@ -273,7 +273,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect undead}, searing light, channel positive energy class ability; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect undead}, {spell/searing light}, channel positive energy class ability; **Cost** 2,000 gp"
 		]
 	},
 	"gloves_of_arrow_snaring": {
@@ -293,7 +293,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shield; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shield}; **Cost** 2,000 gp"
 		]
 	},
 	"irongrip_gauntlets": {
@@ -310,7 +310,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bull's strength, enlarge person; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/enlarge person}; **Cost** 2,000 gp"
 		]
 	},
 	"trapspringers_gloves": {
@@ -350,7 +350,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, breath of life, cure critical wounds, cure light wounds, cure moderate wounds, cure serious wounds, mass cure light wounds; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/breath of life}, {spell/cure critical wounds}, {spell/cure light wounds}, {spell/cure moderate wounds}, {spell/cure serious wounds}, {spell/mass cure light wounds}; **Cost** 2,250 gp"
 		]
 	},
 	"impact_gauntlets": {
@@ -367,7 +367,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shrink item; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shrink item}; **Cost** 2,250 gp"
 		]
 	},
 	"extractors_gloves": {
@@ -388,7 +388,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, magic weapon, vampiric touch; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic weapon}, {spell/vampiric touch}; **Cost** 2,500 gp"
 		]
 	},
 	"gauntlets_of_the_deep": {
@@ -422,7 +422,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Improved Grapple}, entangle; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Improved Grapple}, {spell/entangle}; **Cost** 2,500 gp"
 		]
 	},
 	"gloves_of_arcane_striking": {
@@ -443,7 +443,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Arcane Strike, magic weapon; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Arcane Strike}, {spell/magic weapon}; **Cost** 2,500 gp"
 		]
 	},
 	"poisoners_gloves": {
@@ -460,7 +460,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, touch injection; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/touch injection}; **Cost** 2,500 gp"
 		]
 	},
 	"gloves_of_bony_power": {
@@ -477,7 +477,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cure moderate wounds, inflict moderate wounds, spectral hand; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure moderate wounds}, {spell/inflict moderate wounds}, {spell/spectral hand}; **Cost** 2,700 gp"
 		]
 	},
 	"masterful_gray_gloves": {
@@ -496,7 +496,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, invisibility; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/invisibility}; **Cost** 2,700 gp"
 		]
 	},
 	"bonebreaker_gauntlets": {
@@ -513,7 +513,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}; **Cost** 3,000 gp"
 		]
 	},
 	"gauntlets_of_catching": {
@@ -530,7 +530,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shield; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shield}; **Cost** 3,000 gp"
 		]
 	},
 	"magnetists_gloves": {
@@ -547,7 +547,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, telekinesis; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/telekinesis}; **Cost** 3,000 gp"
 		]
 	},
 	"gloves_of_swimming_and_climbing": {
@@ -567,7 +567,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bull's strength, cat's grace; **Cost** 3,125 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/cat's grace}; **Cost** 3,125 gp"
 		]
 	},
 	"quicksilver_gloves": {
@@ -588,7 +588,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, haste, versatile weapon; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/haste}, {spell/versatile weapon}; **Cost** 3,500 gp"
 		]
 	},
 	"gloves_of_marking": {
@@ -607,7 +607,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cause fear, heroism; **Cost** 3,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cause fear}, {spell/heroism}; **Cost** 3,600 gp"
 		]
 	},
 	"fervent_searchers_gloves": {
@@ -624,7 +624,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, residual tracking; **Cost** 3,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/residual tracking}; **Cost** 3,700 gp"
 		]
 	},
 	"beast_wrestlers_gauntlets": {
@@ -641,7 +641,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster I](spell/summon_monster_1); **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon monster I}; **Cost** 3,750 gp"
 		]
 	},
 	"gloves_of_elvenkind": {
@@ -675,7 +675,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, instant enemy; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/instant enemy}; **Cost** 4,000 gp"
 		]
 	},
 	"deliquescent_gloves": {
@@ -694,7 +694,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, acid arrow, [summon monster V](spell/summon_monster_5); **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/acid arrow}, {spell/summon monster V}; **Cost** 4,000 gp"
 		]
 	},
 	"demonic_smiths_gloves": {
@@ -713,7 +713,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate, fireball; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, {spell/fireball}; **Cost** 4,000 gp"
 		]
 	},
 	"form_fixing_gauntlets": {
@@ -730,7 +730,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, polymorph any object; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/polymorph any object}; **Cost** 4,000 gp"
 		]
 	},
 	"iron_cobra_gauntlet": {
@@ -751,7 +751,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate objects, discern location, geas/quest; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/discern location}, {spell/geas//quest}; **Cost** 4,000 gp"
 		]
 	},
 	"rubble_gloves": {
@@ -785,7 +785,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shadow conjuration; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shadow conjuration}; **Cost** 4,000 gp"
 		]
 	},
 	"spellstrike_gloves": {
@@ -821,7 +821,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, polymorph; **Cost** 4,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/polymorph}; **Cost** 4,200 gp"
 		]
 	},
 	"gloves_of_spell_snaring": {
@@ -840,7 +840,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, shield, spell turning, creator must have the parry spell path ability; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/shield}, {spell/spell turning}, creator must have the parry spell path ability; **Cost** 4,500 gp"
 		]
 	},
 	"glyphbane_gloves": {
@@ -857,7 +857,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, detect traps, dispel magic; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/find traps}, {spell/dispel magic}; **Cost** 4,500 gp"
 		]
 	},
 	"inescapable_gloves": {
@@ -874,7 +874,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, dimensional anchor, bull's strength; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/dimensional anchor}, {spell/bull's strength}; **Cost** 4,500 gp"
 		]
 	},
 	"swindlers_gloves": {
@@ -910,7 +910,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, restoration, neutralize poison; **Cost** 4,625 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/restoration}, {spell/neutralize poison}; **Cost** 4,625 gp"
 		]
 	},
 	"gloves_of_pulverizing_disruption": {
@@ -927,7 +927,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, corrosive touch; **Cost** 4,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/corrosive touch}; **Cost** 4,700 gp"
 		]
 	},
 	"glove_of_storing": {
@@ -947,7 +947,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shrink item; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shrink item}; **Cost** 5,000 gp"
 		]
 	},
 	"gloves_of_shaping": {
@@ -968,7 +968,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, soften earth and stone, stone shape, transmute rock to mud; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/soften earth and stone}, {spell/stone shape}, {spell/transmute rock to mud}; **Cost** 5,000 gp"
 		]
 	},
 	"gloves_of_unfolding_wind": {
@@ -985,7 +985,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gust of wind; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gust of wind}; **Cost** 5,000 gp"
 		]
 	},
 	"hand_wraps_of_blinding_ki": {
@@ -1021,7 +1021,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, inflict light wounds, unerring weapon; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/inflict light wounds}, {spell/unerring weapon}; **Cost** 2,500 gp"
 		]
 	},
 	"pliant_gloves": {
@@ -1084,7 +1084,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, stoneskin; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/stoneskin}; **Cost** 5,000 gp"
 		]
 	},
 	"gauntlet_of_rust": {
@@ -1121,7 +1121,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bear's endurance, bull's strength; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/bull's strength}; **Cost** 6,000 gp"
 		]
 	},
 	"gauntlets_of_the_unchained": {
@@ -1140,7 +1140,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, chaos hammer, order's wrath, creator must be neutral; **Cost** 6,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/chaos hammer}, {spell/order's wrath}, creator must be neutral; **Cost** 6,600 gp"
 		]
 	},
 	"gloves_of_dueling": {
@@ -1160,7 +1160,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, greater magic weapon; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/greater magic weapon}; **Cost** 7,500 gp"
 		]
 	},
 	"saboteurs_gloves": {
@@ -1177,7 +1177,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, glyph of warding; **Cost** 7,620 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/glyph of warding}; **Cost** 7,620 gp"
 		]
 	},
 	"skullcrusher_gauntlets": {
@@ -1198,7 +1198,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, deep slumber, stone fist; **Cost** 7,802 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/deep slumber}, {spell/stone fist}; **Cost** 7,802 gp"
 		]
 	},
 	"whispering_gloves_tobm": {
@@ -1217,7 +1217,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, message, silence; **Cost** 7,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/message}, {spell/silence}; **Cost** 7,700 gp"
 		]
 	},
 	"raven_bracers": {
@@ -1240,7 +1240,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animal messenger, animate object, teleport object, telekinesis; **Cost** 8,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animal messenger}, {spell/animate objects}, {spell/teleport object}, {spell/telekinesis}; **Cost** 8,300 gp"
 		]
 	},
 	"vampiric_gloves": {
@@ -1261,7 +1261,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bleed, vampiric touch; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bleed}, {spell/vampiric touch}; **Cost** 9,000 gp"
 		]
 	},
 	"giant_fist_gauntlets": {
@@ -1278,7 +1278,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, enlarge person; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/enlarge person}; **Cost** 10,000 gp"
 		]
 	},
 	"gloves_of_distant_action": {
@@ -1297,7 +1297,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, mage hand, telekinesis; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/mage hand}, {spell/telekinesis}; **Cost** 10,000 gp"
 		]
 	},
 	"glove_of_familiars_touch": {
@@ -1314,7 +1314,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, imbue with spell ability; **Cost** 11,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/imbue with spell ability}; **Cost** 11,500 gp"
 		]
 	},
 	"armguards_of_waning_hope": {
@@ -1348,7 +1348,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, death knell, false life; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/death knell}, {spell/false life}; **Cost** 12,500 gp"
 		]
 	},
 	"gloves_of_the_shortened_path": {
@@ -1371,7 +1371,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, teleport; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/teleport}; **Cost** 8,000 gp"
 		]
 	},
 	"gloves_of_the_commanding_conjurer": {
@@ -1390,7 +1390,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, comprehend languages, control summoned creature; **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/comprehend languages}, {spell/control summoned creature}; **Cost** 15,000 gp"
 		]
 	},
 	"gauntlet_of_rust_greater": {
@@ -1429,7 +1429,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, lightning bolt, shock shield; **Cost** 22,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/lightning bolt}, {spell/shock shield}; **Cost** 22,500 gp"
 		]
 	},
 	"mantis_embrace": {
@@ -1449,7 +1449,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, explode head, suffocation; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/explode head}, {spell/suffocation}; **Cost** 25,000 gp"
 		]
 	},
 	"gloves_of_stolen_breath": {
@@ -1466,7 +1466,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, breath of life, death knell; **Cost** 27,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/breath of life}, {spell/death knell}; **Cost** 27,000 gp"
 		]
 	},
 	"talons_of_leng": {
@@ -1489,7 +1489,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Wondrous Item}, greater magic fang, insanity; **Cost** 33,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Wondrous Item}, {spell/greater magic fang}, {spell/insanity}; **Cost** 33,500 gp"
 		]
 	},
 	"gauntlets_of_the_weaponmaster": {
@@ -1508,7 +1508,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, heroism, rope trick; **Cost** 55,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/heroism}, {spell/rope trick}; **Cost** 55,000 gp"
 		]
 	},
 	"gag_of_silence": {
@@ -1525,7 +1525,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, silence; **Cost** 250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/silence}; **Cost** 250 gp"
 		]
 	},
 	"quick_change_mask": {
@@ -1542,7 +1542,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self, eagle's splendor, prestidigitation; **Cost** 325 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, {spell/eagle's splendor}, {spell/prestidigitation}; **Cost** 325 gp"
 		]
 	},
 	"veil_of_attentiveness": {
@@ -1561,7 +1561,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, keen senses; **Cost** 375 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/keen senses}; **Cost** 375 gp"
 		]
 	},
 	"cap_of_human_guise": {
@@ -1583,7 +1583,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self; **Cost** 400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}; **Cost** 400 gp"
 		]
 	},
 	"bridle_of_tricks_3_tricks": {
@@ -1600,7 +1600,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, speak with animals, creator must have 5 ranks in the Handle Animal skill; **Cost** 450 gp (3 tricks), 800 gp (4 tricks), 1,250 gp (5 tricks)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with animals}, creator must have 5 ranks in the Handle Animal skill; **Cost** 450 gp (3 tricks), 800 gp (4 tricks), 1,250 gp (5 tricks)"
 		]
 	},
 	"bridle_of_tricks_4_tricks": {
@@ -1625,7 +1625,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, light; **Cost** 450 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/light}; **Cost** 450 gp"
 		]
 	},
 	"plume_of_panache": {
@@ -1642,7 +1642,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, heroism; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/heroism}; **Cost** 500 gp"
 		]
 	},
 	"shawl_of_shadowy_disguise": {
@@ -1680,7 +1680,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, deathwatch; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/deathwatch}; **Cost** 750 gp"
 		]
 	},
 	"circlet_of_spell_eating_type_1": {
@@ -1699,7 +1699,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, imbue with spell ability; **Cost** 750 gp (Type I), 3,000 gp (Type II), 6,750 gp (Type III), 12,000 gp (Type IV)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}, {spell/imbue with spell ability}; **Cost** 750 gp (Type I), 3,000 gp (Type II), 6,750 gp (Type III), 12,000 gp (Type IV)"
 		]
 	},
 	"circlet_of_spell_eating_type_i": { "copyof": "circlet_of_spell_eating_type_1" },
@@ -1732,7 +1732,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self, magic aura; **Cost** 800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, {spell/magic aura}; **Cost** 800 gp"
 		]
 	},
 	"besmaras_bicorne": {
@@ -1754,7 +1754,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, levitate, creator must have 5 ranks in Acrobatics and Climb; **Cost** 850 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/levitate}, creator must have 5 ranks in Acrobatics and Climb; **Cost** 850 gp"
 		]
 	},
 	"hat_of_disguise": {
@@ -1774,7 +1774,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self; **Cost** 900 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}; **Cost** 900 gp"
 		]
 	},
 	"buffering_cap": {
@@ -1791,7 +1791,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shield; **Cost** 1,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shield}; **Cost** 1,000 gp"
 		]
 	},
 	"callers_feather": {
@@ -1808,7 +1808,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, planar ally or planar binding; **Cost** 1,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/planar ally} or {spell/planar binding}; **Cost** 1,000 gp"
 		]
 	},
 	"plaguebringers_mask": {
@@ -1845,7 +1845,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Heighten Spell, disguise self, mage hand; **Cost** 1,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Heighten Spell}, {spell/disguise self}, {spell/mage hand}; **Cost** 1,200 gp"
 		]
 	},
 	"mask_of_the_cursed_eye": {
@@ -1862,7 +1862,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blindness/deafness; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blindness//deafness}; **Cost** 1,250 gp"
 		]
 	},
 	"besmaras_tricorne": {
@@ -1884,7 +1884,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, guidance, shrink item, creator must have 5 ranks in Profession (sailor); **Cost** 1,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/shrink item}, creator must have 5 ranks in Profession (sailor); **Cost** 1,300 gp"
 		]
 	},
 	"animal_mask": {
@@ -1941,7 +1941,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, charm person, disguise self, infernal healing; **Cost** 1,450 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/charm person}, {spell/disguise self}, {spell/infernal healing}; **Cost** 1,450 gp"
 		]
 	},
 	"hollow_mask": {
@@ -1980,7 +1980,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate rope, magic missile, resistance; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate rope}, {spell/magic missile}, {spell/resistance}; **Cost** 1,500 gp"
 		]
 	},
 	"misers_mask": {
@@ -2014,7 +2014,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, guidance, resistance; **Cost** 1,550 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/resistance}; **Cost** 1,550 gp"
 		]
 	},
 	"explorers_pith_helmet": {
@@ -2031,7 +2031,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, endure elements, floating disk, hide from animals, unseen servant; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/floating disk}, {spell/hide from animals}, {spell/unseen servant}; **Cost** 1,600 gp"
 		]
 	},
 	"shawl_of_the_lingering_phantom": {
@@ -2048,7 +2048,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, borrow skill, creator must be a spiritualist with the shared consciousness class feature.; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/borrow skill}, creator must be a spiritualist with the shared consciousness class feature.; **Cost** 1,600 gp"
 		]
 	},
 	"veil_of_veils": {
@@ -2070,7 +2070,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blur, disguise self, creator must have 5 ranks in Bluff; **Cost** 1,650 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blur}, {spell/disguise self}, creator must have 5 ranks in Bluff; **Cost** 1,650 gp"
 		]
 	},
 	"cap_of_enervation": {
@@ -2087,7 +2087,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, ray of enfeeblement, vampiric touch; **Cost** 1,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/ray of enfeeblement}, {spell/vampiric touch}; **Cost** 1,750 gp"
 		]
 	},
 	"maidens_helm": {
@@ -2107,7 +2107,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cause fear, command; **Cost** 1,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cause fear}, {spell/command}; **Cost** 1,750 gp"
 		]
 	},
 	"mortuary_mask": {
@@ -2124,7 +2124,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cause fear, deathwatch; **Cost** 1,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cause fear}, {spell/deathwatch}; **Cost** 1,750 gp"
 		]
 	},
 	"stags_helm": {
@@ -2143,7 +2143,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, creator must have at least 5 ranks in Perception, true strike; **Cost** 1,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, creator must have at least 5 ranks in Perception, {spell/true strike}; **Cost** 1,750 gp"
 		]
 	},
 	"stalkers_mask": {
@@ -2164,7 +2164,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self, rage; **Cost** 1,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, {spell/rage}; **Cost** 1,750 gp"
 		]
 	},
 	"demon_mothers_mask": {
@@ -2182,11 +2182,11 @@
 			"",
 			"This primitive hyena mask is usually made of leather, but may be made of soft metal like copper or carved from an animal's skull. The wearer gains a +2 competence bonus on Handle Animal and Heal checks. The wearer can smell when nearby creatures are in heat or otherwise especially fertile (creatures such as humans that can breed at any time of the year always smell fertile unless they are barren).",
 			"",
-			"If Lamashtu is the wearer's patron, the mask counts as an unholy symbol and a hole for a third eye appears in its forehead. The wearer can use [summon monster II](spell/summon_monster_2) once per day to summon a fiendish hyena, which obeys the wearer as if they shared a common language. The wearer may interbreed with animals within one size category of the wearer's size. The offspring of such unions are members of the mother's race with the fiendish simple template and bear monstrous aesthetic features of the father's race.",
+			"If Lamashtu is the wearer's patron, the mask counts as an unholy symbol and a hole for a third eye appears in its forehead. The wearer can use {spell/summon monster II} once per day to summon a fiendish hyena, which obeys the wearer as if they shared a common language. The wearer may interbreed with animals within one size category of the wearer's size. The offspring of such unions are members of the mother's race with the fiendish simple template and bear monstrous aesthetic features of the father's race.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, detect animals or plants, polymorph, [summon monster II](spell/summon_monster_2), creator must have 5 ranks in Handle Animal and Heal; **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect animals or plants}, {spell/polymorph}, {spell/summon monster II}, creator must have 5 ranks in Handle Animal and Heal; **Cost** 1,800 gp"
 		]
 	},
 	"kybwaka_war_mask": {
@@ -2203,7 +2203,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, scare, shield; **Cost** 1,850 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/scare}, {spell/shield}; **Cost** 1,850 gp"
 		]
 	},
 	"tlil_mask": {
@@ -2237,7 +2237,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, modify memory; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/modify memory}; **Cost** 2,000 gp"
 		]
 	},
 	"mask_of_conflicting_energies": {
@@ -2271,7 +2271,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate rope, endure elements, rope trick; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate rope}, {spell/endure elements}, {spell/rope trick}; **Cost** 2,000 gp"
 		]
 	},
 	"vagrants_hood": {
@@ -2288,7 +2288,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self, vocal alteration; **Cost** 2,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, {spell/vocal alteration}; **Cost** 2,200 gp"
 		]
 	},
 	"bastion_crown": {
@@ -2305,7 +2305,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, death ward, neutralize poison, stoneskin; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/death ward}, {spell/neutralize poison}, {spell/stoneskin}; **Cost** 2,250 gp"
 		]
 	},
 	"circlet_of_persuasion": {
@@ -2325,7 +2325,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}; **Cost** 2,250 gp"
 		]
 	},
 	"diadem_of_inspiring_rule": {
@@ -2342,7 +2342,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}; **Cost** 2,250 gp"
 		]
 	},
 	"hat_of_the_seven_winds": {
@@ -2359,7 +2359,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control winds; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control winds}; **Cost** 2,250 gp"
 		]
 	},
 	"ushanka_of_the_northlands": {
@@ -2376,7 +2376,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, resistance, creator must have 5 ranks in Survival; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/resistance}, creator must have 5 ranks in Survival; **Cost** 2,250 gp"
 		]
 	},
 	"grapplers_mask": {
@@ -2396,7 +2396,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bull's strength, cat's grace, expeditious retreat; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/cat's grace}, {spell/expeditious retreat}; **Cost** 2,500 gp"
 		]
 	},
 	"helm_of_fearsome_mien": {
@@ -2416,7 +2416,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cause fear; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cause fear}; **Cost** 2,500 gp"
 		]
 	},
 	"jingasa_of_the_fortunate_soldier": {
@@ -2436,7 +2436,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, divine favor, moment of prescience; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}, {spell/moment of prescience}; **Cost** 2,500 gp"
 		]
 	},
 	"mask_of_destruction_and_creation_nethys": {
@@ -2453,7 +2453,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, disguise self, magic missile, {spell/read magic}; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, {spell/disguise self}, {spell/magic missile}, {spell/read magic}; **Cost** 2,500 gp"
 		]
 	},
 	"mask_of_destruction_and_creation": {
@@ -2493,7 +2493,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, true strike; **Cost** 2,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/true strike}; **Cost** 2,800 gp"
 		]
 	},
 	"crown_of_swords": {
@@ -2513,7 +2513,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, spiritual weapon; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/spiritual weapon}; **Cost** 3,000 gp"
 		]
 	},
 	"mask_of_the_mantis": {
@@ -2537,7 +2537,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, darkvision, deathwatch, see invisibility; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/darkvision}, {spell/deathwatch}, {spell/see invisibility}; **Cost** 3,000 gp"
 		]
 	},
 	"seashell_diving_mask": {
@@ -2573,7 +2573,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, good hope, haste; **Cost** 3,150 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/good hope}, {spell/haste}; **Cost** 3,150 gp"
 		]
 	},
 	"crown_of_blasting_minor": {
@@ -2593,7 +2593,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, searing light; **Cost** 3,240 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/searing light}; **Cost** 3,240 gp"
 		]
 	},
 	"minor_crown_of_blasting": {
@@ -2632,7 +2632,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, know the enemy; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/know the enemy}; **Cost** 3,500 gp"
 		]
 	},
 	"mask_of_the_krenshar": {
@@ -2649,7 +2649,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self, scare; **Cost** 3,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, {spell/scare}; **Cost** 3,600 gp"
 		]
 	},
 	"plague_mask": {
@@ -2666,7 +2666,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, remove disease; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/remove disease}; **Cost** 3,750 gp"
 		]
 	},
 	"fog_cutting_lenses": {
@@ -2687,7 +2687,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, darkvision, fog cloud; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/darkvision}, {spell/fog cloud}; **Cost** 4,000 gp"
 		]
 	},
 	"goz_mask": {
@@ -2709,7 +2709,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control winds, water breathing; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control winds}, {spell/water breathing}; **Cost** 4,000 gp"
 		]
 	},
 	"mask_of_stony_demeanor": {
@@ -2729,7 +2729,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, innocence , stone shape; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/innocence}, {spell/stone shape}; **Cost** 4,000 gp"
 		]
 	},
 	"mouthpiece_of_the_dominion": {
@@ -2750,7 +2750,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, magic mouth; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/magic mouth}; **Cost** 4,000 gp"
 		]
 	},
 	"muzzle_of_suppression": {
@@ -2767,7 +2767,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, arcane lock, silence; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/arcane lock}, {spell/silence}; **Cost** 4,000 gp"
 		]
 	},
 	"shadow_fletching": {
@@ -2808,7 +2808,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, charm animal, detect animals or plants, endure elements, speak with animals, creator must have 5 ranks in Handle Animal and Ride; **Cost** 4,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/charm animal}, {spell/detect animals or plants}, {spell/endure elements}, {spell/speak with animals}, creator must have 5 ranks in Handle Animal and Ride; **Cost** 4,250 gp"
 		]
 	},
 	"shepsi_aks_funerary_mask": {
@@ -2825,7 +2825,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, polymorph, sanctify corpse; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/polymorph}, {spell/sanctify corpse}; **Cost** 4,500 gp"
 		]
 	},
 	"snipers_helmet": {
@@ -2838,7 +2838,7 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** head; **Price** 9,000 gp; **Weight** 3 lbs.",
 			"",
-			"A sniper's helmet looks like the simple steel soldier's helmet common to the European trenches of the First World War, with the addition of a steel eye shield. Once per day, the wearer of a sniper's helmet can, as a standard action, denote one creature within her line of sight as her target. The wearer can perceive the target when it is invisible or ethereal as though using the see invisibility spell, and gains a +20 competence bonus on Perception checks to locate the target. The wearer ignores concealment provided by fog or mist, blur, displacement, invisibility, and similar effects affecting the target, but not concealment provided by darkness. These bonuses last for 5 minutes or until the target creature is dead. The sniper's helmet provides no benefits to the wearer's allies, and the wearer gains no benefits against creatures other than her chosen target.",
+			"A sniper's helmet looks like the simple steel soldier's helmet common to the European trenches of the First World War, with the addition of a steel eye shield. Once per day, the wearer of a sniper's helmet can, as a standard action, denote one creature within her line of sight as her target. The wearer can perceive the target when it is invisible or ethereal as though using the see invisibility spell, and gains a +20 competence bonus on Perception checks to locate the target. The wearer ignores {rule/concealment} provided by fog or mist, blur, displacement, invisibility, and similar effects affecting the target, but not concealment provided by darkness. These bonuses last for 5 minutes or until the target creature is dead. The sniper's helmet provides no benefits to the wearer's allies, and the wearer gains no benefits against creatures other than her chosen target.",
 			"",
 			"In addition, once per day, the wearer of a sniper's helmet can create a magical sensor up to 600 feet above her that gives her a full 360-degree viewpoint as if she were actually there. The wearer perceives with her normal visual senses, and though the sensor cannot penetrate solid surfaces, it is unaffected by foliage and the like.",
 			"",
@@ -2863,7 +2863,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blindness/deafness, true strike; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blindness//deafness}, {spell/true strike}; **Cost** 4,500 gp"
 		]
 	},
 	"war_mask_of_terror": {
@@ -2884,7 +2884,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, scare, shield; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/scare}, {spell/shield}; **Cost** 4,500 gp"
 		]
 	},
 	"baxs_mask": {
@@ -2901,7 +2901,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, scare; **Cost** 4,550 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/scare}; **Cost** 4,550 gp"
 		]
 	},
 	"visage_of_the_broodlord": {
@@ -2937,7 +2937,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fox's cunning, timely inspiration; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, {spell/timely inspiration}; **Cost** 5,000 gp"
 		]
 	},
 	"earth_child_faceguard": {
@@ -2954,7 +2954,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Earth Child Style, know the enemy; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Earth Child Style}, {spell/know the enemy}; **Cost** 5,000 gp"
 		]
 	},
 	"flame_of_bakrakhan": {
@@ -2971,7 +2971,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, scorching ray; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/scorching ray}; **Cost** 5,000 gp"
 		]
 	},
 	"hunters_nose_ring": {
@@ -3045,7 +3045,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/clairvoyance; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}; **Cost** 5,000 gp"
 		]
 	},
 	"medusa_mask": {
@@ -3066,7 +3066,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, flesh to stone, resistance; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/flesh to stone}, {spell/resistance}; **Cost** 5,000 gp"
 		]
 	},
 	"vermin_mask": {
@@ -3100,7 +3100,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, endure elements, grove of respite; **Cost** 5,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/grove of respite}; **Cost** 5,500 gp"
 		]
 	},
 	"hyena_shawl": {
@@ -3119,7 +3119,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fear; **Cost** 5,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fear}; **Cost** 5,500 gp"
 		]
 	},
 	"nose_ring_of_unearthly_scent": {
@@ -3138,7 +3138,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, augury, {spell/detect magic}; **Cost** 6,675 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}, {spell/detect magic}; **Cost** 6,675 gp"
 		]
 	},
 	"cap_of_the_free_thinker": {
@@ -3155,7 +3155,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mind blank; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mind blank}; **Cost** 6,000 gp"
 		]
 	},
 	"greater_hat_of_disguise": {
@@ -3172,7 +3172,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alter self; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alter self}; **Cost** 6,000 gp"
 		]
 	},
 	"helm_of_the_fanged_crown": {
@@ -3191,7 +3191,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, heroism; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, {spell/heroism}; **Cost** 6,000 gp"
 		]
 	},
 	"mask_of_the_rabbit_prince": {
@@ -3208,7 +3208,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, jump, remove fear; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/jump}, {spell/remove fear}; **Cost** 6,000 gp"
 		]
 	},
 	"reapers_mask": {
@@ -3229,7 +3229,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, confusion, deathwatch; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/confusion}, {spell/deathwatch}; **Cost** 6,000 gp"
 		]
 	},
 	"clasp_of_the_mind_scream": {
@@ -3248,7 +3248,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, detect thoughts, shout; **Cost** 6,400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect thoughts}, {spell/shout}; **Cost** 6,400 gp"
 		]
 	},
 	"bitter_widows_veil": {
@@ -3269,7 +3269,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, crushing despair, overwhelming grief, see invisibility; **Cost** 7,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/crushing despair}, {spell/overwhelming grief}, {spell/see invisibility}; **Cost** 7,000 gp"
 		]
 	},
 	"horned_helm_of_the_wild_stag": {
@@ -3288,7 +3288,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, aspect of the stag, moonstruck; **Cost** 7,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/aspect of the stag}, {spell/moonstruck}; **Cost** 7,000 gp"
 		]
 	},
 	"translators_cap_human": {
@@ -3309,7 +3309,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, tongues or the ability to speak all seven languages, creator must be a human; **Cost** 7,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/tongues} or the ability to speak all seven languages, creator must be a human; **Cost** 7,000 gp"
 		]
 	},
 	"translators_cap": {
@@ -3329,7 +3329,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mind blank; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mind blank}; **Cost** 7,500 gp"
 		]
 	},
 	"death_mask": {
@@ -3348,7 +3348,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alter self, {spell/speak with dead}; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alter self}, {spell/speak with dead}; **Cost** 8,000 gp"
 		]
 	},
 	"halo_of_inner_calm": {
@@ -3368,7 +3368,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, holy aura, creator must be a tiefling of good alignment; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/holy aura}, creator must be a tiefling of good alignment; **Cost** 8,000 gp"
 		]
 	},
 	"helm_of_the_valkyrie": {
@@ -3385,7 +3385,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, phantom steed; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/phantom steed}; **Cost** 8,000 gp"
 		]
 	},
 	"frontoviks_gas_mask": {
@@ -3398,11 +3398,11 @@
 			"**Aura** moderate abjuration; **CL** 7th  ",
 			"**Slot** head; **Price** 17,000 gp; **Weight** 2 lbs.",
 			"",
-			"A frontovik's gas mask has the appearance of a typical Zelinsky-Kummant gas mask used by the Russian army: a rubberized cloth bag worn over the face, with two thick glass eyepieces and a rectangular filter canister. Named for the frontovik, the typical combat-hardened veteran of the front line, a frontovik's gas mask allows its wearer to breathe freely, even underwater or in a vacuum, as well as making its wearer immune to harmful gases and vapors, including inhaled diseases, poisons, and magic spells such as cloudkill and stinking cloud. In addition, the wearer can see through magical and normal clouds, fogs, mists, and similar effects that grant concealment, but only so long as the wearer is within the area of such concealment. A frontovik's gas mask does not grant any other kind of vision (such as darkvision or low-light vision). Wearing a gas mask imposes a -2 penalty on hearing- and sight-based Perception checks.",
+			"A frontovik's gas mask has the appearance of a typical Zelinsky-Kummant gas mask used by the Russian army: a rubberized cloth bag worn over the face, with two thick glass eyepieces and a rectangular filter canister. Named for the frontovik, the typical combat-hardened veteran of the front line, a frontovik's gas mask allows its wearer to breathe freely, even underwater or in a vacuum, as well as making its wearer immune to harmful gases and vapors, including inhaled diseases, poisons, and magic spells such as cloudkill and stinking cloud. In addition, the wearer can see through magical and normal clouds, fogs, mists, and similar effects that grant {rule/concealment}, but only so long as the wearer is within the area of such concealment. A frontovik's gas mask does not grant any other kind of vision (such as darkvision or low-light vision). Wearing a gas mask imposes a -2 penalty on hearing- and sight-based Perception checks.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, darkvision, fog cloud, life bubble; **Cost** 8,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/darkvision}, {spell/fog cloud}, {spell/life bubble}; **Cost** 8,500 gp"
 		]
 	},
 	"mask_of_stolen_mien": {
@@ -3421,7 +3421,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alter self, misdirection, tongues; **Cost** 8,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alter self}, {spell/misdirection}, {spell/tongues}; **Cost** 8,600 gp"
 		]
 	},
 	"cats_eye_crown": {
@@ -3441,7 +3441,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/clairvoyance, darkvision, creator must be a catfolk; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}, {spell/darkvision}, creator must be a catfolk; **Cost** 9,000 gp"
 		]
 	},
 	"maw_of_the_wyrm": {
@@ -3460,7 +3460,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dragon's breath; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dragon's breath}; **Cost** 9,000 gp"
 		]
 	},
 	"mitre_of_the_hierophant": {
@@ -3477,7 +3477,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, atonement, commune, guidance; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/atonement}, {spell/commune}, {spell/guidance}; **Cost** 9,000 gp"
 		]
 	},
 	"laurel_wreath": {
@@ -3496,7 +3496,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, false hope, good hope; **Cost** 9,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/crushing despair}, {spell/good hope}; **Cost** 9,500 gp"
 		]
 	},
 	"amulet_of_reverse_incantation": {
@@ -3519,7 +3519,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dispel magic, tongues; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dispel magic}, {spell/tongues}; **Cost** 10,000 gp"
 		]
 	},
 	"daylight_diadem": {
@@ -3559,7 +3559,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mnemonic enhancer; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mnemonic enhancer}; **Cost** 10,000 gp"
 		]
 	},
 	"crown_of_challenge": {
@@ -3578,7 +3578,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, greater planar ally; **Cost** 10,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/greater planar ally}; **Cost** 10,500 gp"
 		]
 	},
 	"helm_of_ooze": {
@@ -3605,7 +3605,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, greater command; **Cost** 10,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/greater command}; **Cost** 10,750 gp"
 		]
 	},
 	"circlet_of_mindsight": {
@@ -3629,7 +3629,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/clairvoyance, detect thoughts; **Cost** 11,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}, {spell/detect thoughts}; **Cost** 11,000 gp"
 		]
 	},
 	"mask_of_the_skull": {
@@ -3651,7 +3651,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate objects, finger of death, fly; **Cost** 11,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/finger of death}, {spell/fly}; **Cost** 11,000 gp"
 		]
 	},
 	"vudran_ashak_helmet": {
@@ -3685,11 +3685,11 @@
 			"",
 			"The wearer of this helm, crafted from a beast's skull, gains the ability to communicate with dogs, wolves, dire wolves, foxes, jackals, coyotes, and similar canine animals as the speak with animals spell. The wearer gains a +2 competence bonus on Diplomacy checks and Charisma checks to influence wolf-like magical beasts such as blink dogs, winter wolves, and worgs.",
 			"",
-			"On command three times per day, the wearer can unleash a terrifying howl. When he does so, he makes a single Intimidate check to demoralize all opponents within 30 feet that can hear the howl. At the start of the wearer's following turn, 1d3 wolves appear as if summoned by the spell [summon nature's ally III](spell/summon_natures_ally_3). They act on the wearer's initiative and follow her instructions (or attacking her opponents, if she cannot communicate with them) for 5 rounds before vanishing in a swirl of pine needles and snow.",
+			"On command three times per day, the wearer can unleash a terrifying howl. When he does so, he makes a single Intimidate check to demoralize all opponents within 30 feet that can hear the howl. At the start of the wearer's following turn, 1d3 wolves appear as if summoned by the spell {spell/summon nature's ally III}. They act on the wearer's initiative and follow her instructions (or attacking her opponents, if she cannot communicate with them) for 5 rounds before vanishing in a swirl of pine needles and snow.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, speak with animals, [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 11,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with animals}, {spell/summon nature's ally III}; **Cost** 11,300 gp"
 		]
 	},
 	"visage_of_the_bound": {
@@ -3708,7 +3708,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, imbue with spell ability, [summon monster V](spell/summon_monster_5); **Cost** 11,450 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/imbue with spell ability}, {spell/summon monster V}; **Cost** 11,450 gp"
 		]
 	},
 	"miasmatic_mask": {
@@ -3745,7 +3745,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Maximize Spell, searing light; **Cost** 11,880 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Maximize Spell}, {spell/searing light}; **Cost** 11,880 gp"
 		]
 	},
 	"major_crown_of_blasting": {
@@ -3765,7 +3765,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, air breathing, water breathing; **Cost** 12,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/air breathing}, {spell/water breathing}; **Cost** 12,000 gp"
 		]
 	},
 	"helm_of_underwater_action": {
@@ -3785,7 +3785,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, water breathing; **Cost** 12,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/water breathing}; **Cost** 12,000 gp"
 		]
 	},
 	"crown_of_conquest": {
@@ -3807,7 +3807,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bless, eagle's splendor, prayer; **Cost** 12,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bless}, {spell/eagle's splendor}, {spell/prayer}; **Cost** 12,300 gp"
 		]
 	},
 	"greathelm_of_the_mammoth_lord": {
@@ -3826,7 +3826,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape III}, charm animal, detect animals or plants, endure elements, speak with animals, creator must have 5 ranks in Handle Animal and Ride; **Cost** 12,350 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape III}, {spell/charm animal}, {spell/detect animals or plants}, {spell/endure elements}, {spell/speak with animals}, creator must have 5 ranks in Handle Animal and Ride; **Cost** 12,350 gp"
 		]
 	},
 	"hat_of_infinite_disguises": {
@@ -3843,7 +3843,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, veil; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/veil}; **Cost** 12,500 gp"
 		]
 	},
 	"mask_of_anonymous_mien": {
@@ -3862,7 +3862,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alter self, nondetection ; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alter self}, {spell/nondetection}; **Cost** 12,500 gp"
 		]
 	},
 	"mask_of_the_mesmerist": {
@@ -3902,7 +3902,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, telekinesis; **Cost** 13,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/telekinesis}; **Cost** 13,000 gp"
 		]
 	},
 	"dance_of_seven_veils": {
@@ -3939,7 +3939,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, detect thoughts, suggestion; **Cost** 13,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect thoughts}, {spell/suggestion}; **Cost** 13,500 gp"
 		]
 	},
 	"sensory_deprivation_hood": {
@@ -3962,7 +3962,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, contact other plane; **Cost** 13,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/contact other plane}; **Cost** 13,750 gp"
 		]
 	},
 	"token_of_the_eldest": {
@@ -3985,7 +3985,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, charm monster, commune with nature; **Cost** 13,840 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/charm monster}, {spell/commune with nature}; **Cost** 13,840 gp"
 		]
 	},
 	"imperial_army_greathelm": {
@@ -4004,7 +4004,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Leadership, eagle's splendor, greater command; **Cost** 14,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Leadership}, {spell/eagle's splendor}, {spell/greater command}; **Cost** 14,500 gp"
 		]
 	},
 	"crown_of_ash": {
@@ -4023,7 +4023,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, comprehend languages, eagle's splendor; **Cost** 14,950 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/comprehend languages}, {spell/eagle's splendor}; **Cost** 14,950 gp"
 		]
 	},
 	"crown_of_false_rule": {
@@ -4040,7 +4040,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, magic aura, veil; **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic aura}, {spell/veil}; **Cost** 15,000 gp"
 		]
 	},
 	"iron_circlet_of_guarded_souls": {
@@ -4057,7 +4057,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, nondetection, trap the soul; **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/nondetection}, {spell/trap the soul}; **Cost** 15,000 gp"
 		]
 	},
 	"laurel_of_command": {
@@ -4074,7 +4074,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, heroism; **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/heroism}; **Cost** 15,000 gp"
 		]
 	},
 	"mask_of_giants_lesser": {
@@ -4112,11 +4112,11 @@
 			"",
 			"A black, horned nightgaunt mask has two eyeholes but no other facial features. When the mask is worn, even the eyeholes vanish, leaving the wearer with no visible face at all. The wearer gains the advantages shared by the faceless nightgaunts on which the mask is based. The entire face of the mask functions as a sort of \"eye,\" allowing the wearer to see normally. The wearer also gains a +4 bonus on all saving throws against gaze attacks, and does not breathe (and is thus immune to inhaled toxins and scent-based effects). However, the wearer can't speak, and therefore can't cast spells or use items that require verbal components or command words.",
 			"",
-			"Once per day, but only after wearing the mask for at least 1 hour, the wearer can summon 1d4+1 nightgaunts to do her bidding, as if by casting [summon monster VI](spell/summon_monster_6). These nightgaunts remain for 11 rounds. Alternatively, the wearer can summon a single nightgaunt that remains for 24 hours. She can communicate with and thus give orders to these nightgaunts via telepathy to a range of 100 feet. If the wearer removes the nightgaunt mask, any summoned nightgaunts immediately turn on her and attempt to carry her off and drop her from a great height before vanishing.",
+			"Once per day, but only after wearing the mask for at least 1 hour, the wearer can summon 1d4+1 nightgaunts to do her bidding, as if by casting {spell/summon monster VI}. These nightgaunts remain for 11 rounds. Alternatively, the wearer can summon a single nightgaunt that remains for 24 hours. She can communicate with and thus give orders to these nightgaunts via telepathy to a range of 100 feet. If the wearer removes the nightgaunt mask, any summoned nightgaunts immediately turn on her and attempt to carry her off and drop her from a great height before vanishing.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alter self, blindness/deafness, [summon monster VI](spell/summon_monster_6); **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alter self}, {spell/blindness//deafness}, {spell/summon monster VI}; **Cost** 15,000 gp"
 		]
 	},
 	"thremyrs_beard_lesser": {
@@ -4139,7 +4139,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, grasping hand (lesser and greater), ill omen (greater); **Cost** 17,625 gp (Lesser), 21,125 gp (Greater)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/grasping hand} (lesser and greater), {spell/ill omen} (greater); **Cost** 17,625 gp (Lesser), 21,125 gp (Greater)"
 		]
 	},
 	"lesser_thremyrs_beard": {
@@ -4185,7 +4185,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, call lightning, control weather; **Cost** 17,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/call lightning}, {spell/control weather}; **Cost** 17,500 gp"
 		]
 	},
 	"yithian_thought_ring": {
@@ -4206,7 +4206,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, telepathic bond, creator must be a yithian; **Cost** 17,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/telepathic bond}, creator must be a yithian; **Cost** 17,500 gp"
 		]
 	},
 	"helm_of_brilliance_lesser": {
@@ -4228,7 +4228,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect undead}, fireball, flame blade, flaming sphere, light, protection from energy, scorching ray; **Cost** 18,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect undead}, {spell/fireball}, {spell/flame blade}, {spell/flaming sphere}, {spell/light}, {spell/protection from energy}, {spell/scorching ray}; **Cost** 18,000 gp"
 		]
 	},
 	"lesser_helm_of_brilliance": {
@@ -4248,7 +4248,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, barkskin, thorn body; **Cost** 18,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}, {spell/thorn body}; **Cost** 18,500 gp"
 		]
 	},
 	"mask_of_the_far_traveler": {
@@ -4265,7 +4265,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, tongues; **Cost** 19,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/tongues}; **Cost** 19,000 gp"
 		]
 	},
 	"bridle_of_charon": {
@@ -4301,7 +4301,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Arcane Blast, {feat/Craft Wondrous Item}, foresight, haste; **Cost** 21,000 gp"
+			"**Requirements** Arcane Blast, {feat/Craft Wondrous Item}, {spell/foresight}, {spell/haste}; **Cost** 21,000 gp"
 		]
 	},
 	"frostwild_bridle": {
@@ -4318,7 +4318,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cone of cold, resist energy; **Cost** 24,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cone of cold}, {spell/resist energy}; **Cost** 24,000 gp"
 		]
 	},
 	"grim_helm": {
@@ -4354,7 +4354,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, discern lies; **Cost** 29,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/discern lies}; **Cost** 29,600 gp"
 		]
 	},
 	"khepresh_of_refuge": {
@@ -4371,7 +4371,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, moment of prescience, resist energy, shield of faith; **Cost** 31,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/moment of prescience}, {spell/resist energy}, {spell/shield of faith}; **Cost** 31,500 gp"
 		]
 	},
 	"diadem_of_the_interplanetary_emissary_lashunta": {
@@ -4390,7 +4390,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, planetary adaptation, tongues, creator must be a Lashunta; **Cost** 33,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/planetary adaptation}, {spell/tongues}, creator must be a Lashunta; **Cost** 33,750 gp"
 		]
 	},
 	"diadem_of_the_interplanetary_emissary": {
@@ -4413,7 +4413,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, teleport; **Cost** 36,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/teleport}; **Cost** 36,750 gp"
 		]
 	},
 	"helm_of_reclamation": {
@@ -4430,7 +4430,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, daylight, {spell/detect undead}, flame blade, searing light, sunburst; **Cost** 40,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/daylight}, {spell/detect undead}, {spell/flame blade}, {spell/searing light}, {spell/sunburst}; **Cost** 40,000 gp"
 		]
 	},
 	"circlet_of_petty_discord": {
@@ -4447,7 +4447,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, confusion, suggestion; **Cost** 42,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/confusion}, {spell/suggestion}; **Cost** 42,000 gp"
 		]
 	},
 	"halo_of_menace": {
@@ -4467,7 +4467,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, order's wrath, creator must be an aasimar or an archon; **Cost** 42,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/order's wrath}, creator must be an aasimar or an archon; **Cost** 42,000 gp"
 		]
 	},
 	"blind_helm": {
@@ -4484,7 +4484,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, echolocation, true seeing; **Cost** 42,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/echolocation}, {spell/true seeing}; **Cost** 42,500 gp"
 		]
 	},
 	"cap_of_darkest_dreams_changeling": {
@@ -4505,7 +4505,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cloak of dreams, major curse, nightmare, creator must be a changeling; **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cloak of dreams}, {spell/major curse}, {spell/nightmare}, creator must be a changeling; **Cost** 45,000 gp"
 		]
 	},
 	"cap_of_darkest_dreams": {
@@ -4574,7 +4574,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/beast shape III}, [summon nature's ally III](spell/summon_natures_ally_3); **Cost** 48,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/beast shape III}, {spell/summon nature's ally III}; **Cost** 48,000 gp"
 		]
 	},
 	"hood_of_privacy": {
@@ -4591,7 +4591,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, detect scrying, mind blank; **Cost** 60,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect scrying}, {spell/mind blank}; **Cost** 60,000 gp"
 		]
 	},
 	"helm_of_brilliance": {
@@ -4628,7 +4628,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect undead}, fireball, flame blade, daylight, prismatic spray, protection from energy, wall of fire; **Cost** 62,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect undead}, {spell/fireball}, {spell/flame blade}, {spell/daylight}, {spell/prismatic spray}, {spell/protection from energy}, {spell/wall of fire}; **Cost** 62,500 gp"
 		]
 	},
 	"helm_of_electric_radiance": {
@@ -4648,7 +4648,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, chain lightning, daylight, {spell/detect undead}, flaming sphere, lightning bolt, protection from energy, shocking grasp; **Cost** 62,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/chain lightning}, {spell/daylight}, {spell/detect undead}, {spell/flaming sphere}, {spell/lightning bolt}, {spell/protection from energy}, {spell/shocking grasp}; **Cost** 62,500 gp"
 		]
 	},
 	"hurricane_crown": {
@@ -4669,7 +4669,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control winds, disguise self, phase door, seamantle, true seeing, winds of vengeance; **Cost** 62,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control winds}, {spell/disguise self}, {spell/phase door}, {spell/seamantle}, {spell/true seeing}, {spell/winds of vengeance}; **Cost** 62,500 gp"
 		]
 	},
 	"crown_of_heaven": {
@@ -4692,7 +4692,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, aura of doom, {spell/detect evil}, dispel evil, {spell/magic circle against evil}, tongues; **Cost** 75,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/aura of doom}, {spell/detect evil}, {spell/dispel evil}, {spell/magic circle against evil}, {spell/tongues}; **Cost** 75,000 gp"
 		]
 	},
 	"centering_jewel": {
@@ -4709,7 +4709,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, burst of insight; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/burst of insight}; **Cost** 500 gp"
 		]
 	},
 	"headband_of_social_competence": {
@@ -4782,7 +4782,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, doom, shrink item; **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/doom}, {spell/shrink item}; **Cost** 1,800 gp"
 		]
 	},
 	"headband_of_inspired_wisdom_2": {
@@ -4802,7 +4802,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, owl's wisdom; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/owl's wisdom}; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
 	"headband_of_inspired_wisdom": {
@@ -4834,7 +4834,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fox's cunning; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
 	"headband_of_vast_intelligence": {
@@ -4866,7 +4866,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
 	"headband_of_alluring_charisma": {

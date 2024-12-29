@@ -591,7 +591,7 @@
 		"description": [
 			"## Sharpened Accuracy (Ex)",
 			"",
-			"When using her surprise accuracy rage power, the barbarian ignores the miss chance for concealment and treats total concealment as concealment. She also ignores cover penalties except those from total cover. A barbarian must have the surprise accuracy rage power and be at least 8th level before selecting this rage power."
+			"When using her surprise accuracy rage power, the barbarian ignores the miss chance for {rule/concealment} and treats total concealment as concealment. She also ignores cover penalties except those from total cover. A barbarian must have the surprise accuracy rage power and be at least 8th level before selecting this rage power."
 		]
 	},
 	"smasher": {
@@ -726,7 +726,7 @@
 		"description": [
 			"## Hshurha's Veil (Su)",
 			"",
-			"When raging, the barbarian can use Stealth, and she gains a bonus equal to 1/2 her barbarian level on Stealth checks plus the benefits of concealment against ranged attacks and attacks of opportunity."
+			"When raging, the barbarian can use Stealth, and she gains a bonus equal to 1/2 her barbarian level on Stealth checks plus the benefits of {rule/concealment} against ranged attacks and attacks of opportunity."
 		]
 	},
 	"kelizandris_tide": {
@@ -1115,7 +1115,7 @@
 		"description": [
 			"## Moon Totem, Greater (Su)",
 			"",
-			"While raging, the barbarian ignores the miss chance for concealment and treats total concealment as concealment. She must have the moon totem rage power and be at least 10th level to select this rage power."
+			"While raging, the barbarian ignores the miss chance for {rule/concealment} and treats total concealment as concealment. She must have the moon totem rage power and be at least 10th level to select this rage power."
 		]
 	},
 	"moon_totem_greater": { "copyof": "greater_moon_totem" },
@@ -1864,7 +1864,7 @@
 		"description": [
 			"## Dissipating Rage (Su)",
 			"",
-			"When the barbarian rages, her feverish frenzy and hot breath burn or blow fog, smoke and similar effects away from her. The barbarian and creatures adjacent to her do not gain concealment from obfuscating effects like fog or precipitation. Magical effects that require more than a strong wind to dissipate are not affected by this rage power."
+			"When the barbarian rages, her feverish frenzy and hot breath burn or blow fog, smoke and similar effects away from her. The barbarian and creatures adjacent to her do not gain {rule/concealment} from obfuscating effects like fog or precipitation. Magical effects that require more than a strong wind to dissipate are not affected by this rage power."
 		]
 	},
 	"eclipsing_rage": {
@@ -2047,7 +2047,7 @@
 		"description": [
 			"## Primal Scent (Ex)",
 			"",
-			"When using her scent rage power, the barbarian adds half her barbarian level on Survival checks made to track by scent and on Perception checks to pinpoint the location of creatures she cannot see. If she pinpoints the location of a creature that has total concealment, she treats it as having concealment. A barbarian must have the scent rage power and be at least 8th level before selecting this rage power."
+			"When using her scent rage power, the barbarian adds half her barbarian level on Survival checks made to track by scent and on Perception checks to pinpoint the location of creatures she cannot see. If she pinpoints the location of a creature that has total concealment, she treats it as having {rule/concealment}. A barbarian must have the scent rage power and be at least 8th level before selecting this rage power."
 		]
 	},
 	"raging_climber": {
@@ -2201,7 +2201,7 @@
 		"description": [
 			"## Ultimate Clarity (Su)",
 			"",
-			"Once per rage, the character can refine her senses, seeing through normal and magical darkness (including from magical effects such as blur and displacement), invisibility, and illusions; she can also discern the exact locations of creatures with concealment. This lasts for 1 round. A character must be at least 6th level and have the moment of clarity and perfect clarity rage powers to select this rage power. The character does not need to be using moment of clarity to use this rage power."
+			"Once per rage, the character can refine her senses, seeing through normal and magical darkness (including from magical effects such as blur and displacement), invisibility, and illusions; she can also discern the exact locations of creatures with {rule/concealment}. This lasts for 1 round. A character must be at least 6th level and have the moment of clarity and perfect clarity rage powers to select this rage power. The character does not need to be using moment of clarity to use this rage power."
 		]
 	},
 	"water_sense": {

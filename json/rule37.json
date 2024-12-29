@@ -1584,7 +1584,7 @@
 			"",
 			"This effect word allows the caster to see invisible creatures and objects. The caster can sense that the objects and creatures are hidden in this way, but he can still see them normally.",
 			"",
-			"**Boost:** The caster can see through illusions, see the true form of polymorphed creatures and objects, and locate creatures protected by spells and effects that grant concealment. The caster also receives a +4 circumstance bonus on saves against illusion spells and effects. Boosting this effect word increases its level by 4."
+			"**Boost:** The caster can see through illusions, see the true form of polymorphed creatures and objects, and locate creatures protected by spells and effects that grant {rule/concealment}. The caster also receives a +4 circumstance bonus on saves against illusion spells and effects. Boosting this effect word increases its level by 4."
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -3428,7 +3428,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** barrier, burst (emanation)",
 			"",
-			"This effect word creates a thick fog in its area of effect. It obscures all sight, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, whereas creatures farther away have total concealment. A moderate wind or fire effect removes the fog in the affected area. The fog is stationary.",
+			"This effect word creates a thick fog in its area of effect. It obscures all sight, including darkvision, beyond 5 feet. Creatures 5 feet away have {rule/concealment}, whereas creatures farther away have total concealment. A moderate wind or fire effect removes the fog in the affected area. The fog is stationary.",
 			"",
 			"**Boost:** If a wordspell with this effect word uses the burst target word, it can be directed to move up to 10 feet each round by the caster as a swift action.",
 			"",
@@ -3448,7 +3448,7 @@
 			"**Saving Throw** none; **Spell Resistance** no  ",
 			"**Target Restrictions** burst (emanation)",
 			"",
-			"This effect word causes heavy snow to fall in the area of effect. This provides concealment as the fog bank effect word, but it cannot be removed by wind. In addition, the ground in the area of effect is treated as difficult terrain for the duration and as being very slippery for the purposes of Acrobatics and Climb skill checks.",
+			"This effect word causes heavy snow to fall in the area of effect. This provides {rule/concealment} as the fog bank effect word, but it cannot be removed by wind. In addition, the ground in the area of effect is treated as difficult terrain for the duration and as being very slippery for the purposes of Acrobatics and Climb skill checks.",
 			"",
 			"**Boost:** Each creature in the area of effect takes 2d6 points of cold damage each round at the end of its turn. Boosting this effect word increases its level by 1.",
 			"",

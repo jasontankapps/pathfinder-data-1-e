@@ -13,7 +13,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, prying eyes; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/prying eyes}; **Cost** 2,500 gp"
 		]
 	},
 	"seven_sided_coin": {
@@ -30,7 +30,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mark of justice; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mark of justice}; **Cost** 2,500 gp"
 		]
 	},
 	"sheath_of_bladestealth": {
@@ -50,7 +50,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, invisibility; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/invisibility}; **Cost** 2,500 gp"
 		]
 	},
 	"soul_jar": {
@@ -91,7 +91,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, spell turning; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/spell turning}; **Cost** 2,500 gp"
 		]
 	},
 	"steadfast_grapple": {
@@ -108,7 +108,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate rope, true strike; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate rope}, {spell/true strike}; **Cost** 2,500 gp"
 		]
 	},
 	"stone_of_alliance": {
@@ -129,7 +129,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shield other, status; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shield other}, {spell/status}; **Cost** 2,500 gp"
 		]
 	},
 	"stone_of_tomb_warding": {
@@ -146,7 +146,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, command undead; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/command undead}; **Cost** 2,500 gp"
 		]
 	},
 	"summoning_shackle": {
@@ -163,7 +163,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Extend Spell, dimensional anchor, [summon monster I](spell/summon_monster_1); **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, {spell/dimensional anchor}, {spell/summon monster I}; **Cost** 2,500 gp"
 		]
 	},
 	"tireless_wayfinder": {
@@ -180,7 +180,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, light, lesser restoration; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/light}, {spell/lesser restoration}; **Cost** 2,500 gp"
 		]
 	},
 	"toastmasters_teacup": {
@@ -197,7 +197,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, nondetection, poison; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/nondetection}, {spell/poison}; **Cost** 2,500 gp"
 		]
 	},
 	"bag_of_concealment_type_1": {
@@ -216,7 +216,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate, magic aura, secret chest; **Cost** 2,500 gp (type I), 5,000 gp (type II), 7,400 gp (type III), 10,000 gp (type IV)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, {spell/magic aura}, {spell/secret chest}; **Cost** 2,500 gp (type I), 5,000 gp (type II), 7,400 gp (type III), 10,000 gp (type IV)"
 		]
 	},
 	"bag_of_concealment_type_i": { "copyof": "bag_of_concealment_type_1" },
@@ -249,7 +249,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, haste, remove fear; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/haste}, {spell/remove fear}; **Cost** 2,500 gp"
 		]
 	},
 	"wayfinder_of_hidden_strength": {
@@ -276,7 +276,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gallant inspiration, light; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gallant inspiration}, {spell/light}; **Cost** 2,500 gp"
 		]
 	},
 	"zonzon_doll_of_forgiveness": {
@@ -297,7 +297,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, atonement, eagle's splendor; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/atonement}, {spell/eagle's splendor}; **Cost** 3,750 gp"
 		]
 	},
 	"banner_of_restful_nights": {
@@ -316,7 +316,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alarm, endure elements; **Cost** 2,520 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/endure elements}; **Cost** 2,520 gp"
 		]
 	},
 	"universal_lock": {
@@ -333,7 +333,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, arcane lock, hold portal; **Cost** 2,650 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/arcane lock}, {spell/hold portal}; **Cost** 2,650 gp"
 		]
 	},
 	"assassins_sight": {
@@ -350,7 +350,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, locate weakness, true strike; **Cost** 2,625 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, locate weakness, {spell/true strike}; **Cost** 2,625 gp"
 		]
 	},
 	"tankard_of_the_drunken_hero": {
@@ -372,7 +372,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate rope, heroism, knock, remove fear, resistance; **Cost** 2,650 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate rope}, {spell/heroism}, {spell/knock}, {spell/remove fear}, {spell/resistance}; **Cost** 2,650 gp"
 		]
 	},
 	"discord_bottle": {
@@ -395,7 +395,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, confusion, stinking cloud; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/confusion}, {spell/stinking cloud}; **Cost** 2,700 gp"
 		]
 	},
 	"eversmoking_bottle": {
@@ -417,7 +417,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, pyrotechnics; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/pyrotechnics}; **Cost** 2,700 gp"
 		]
 	},
 	"field_scriveners_desk": {
@@ -434,7 +434,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shrink item, tiny hut; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shrink item}, {spell/tiny hut}; **Cost** 2,700 gp"
 		]
 	},
 	"harvesting_lens": {
@@ -459,7 +459,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blinding ray, light, protective penumbra; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blinding ray}, {spell/light}, {spell/protective penumbra}; **Cost** 2,700 gp"
 		]
 	},
 	"lantern_of_the_shining_truth": {
@@ -476,7 +476,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, glitterdust, light; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/glitterdust}, {spell/light}; **Cost** 2,700 gp"
 		]
 	},
 	"planar_guide": {
@@ -495,7 +495,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, locate portal, planar orientation; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/locate portal}, {spell/planar orientation}; **Cost** 2,700 gp"
 		]
 	},
 	"sustaining_spoon": {
@@ -515,7 +515,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, create food and water; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/create food and water}; **Cost** 2,700 gp"
 		]
 	},
 	"all_seeing_eye": {
@@ -532,7 +532,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, commune, {spell/guidance}; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/commune}, {spell/guidance}; **Cost** 2,250 gp"
 		]
 	},
 	"grave_candle": {
@@ -571,7 +571,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, imbue with spell ability, creator must be a divine spellcaster; **Cost** 2,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/imbue with spell ability}, creator must be a divine spellcaster; **Cost** 2,750 gp"
 		]
 	},
 	"metalseeker_swarm": {
@@ -592,7 +592,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, detect metal, faerie fire, summon swarm; **Cost** 2,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect metal}, {spell/faerie fire}, {spell/summon swarm}; **Cost** 2,750 gp"
 		]
 	},
 	"resplendent_diplomats_palette": {
@@ -611,7 +611,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self, eagle's splendor; **Cost** 2,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, {spell/eagle's splendor}; **Cost** 2,750 gp"
 		]
 	},
 	"seishinru_spirit_elixir": {
@@ -628,7 +628,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, breath of life, brilliant inspiration; **Cost** 2,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/breath of life}, {spell/brilliant inspiration}; **Cost** 2,750 gp"
 		]
 	},
 	"wind_fan": {
@@ -648,7 +648,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gust of wind; **Cost** 2,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gust of wind}; **Cost** 2,750 gp"
 		]
 	},
 	"gorthek_masks": {
@@ -669,7 +669,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, speak with animals, versatile weapon; **Cost** 2,900 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with animals}, {spell/versatile weapon}; **Cost** 2,900 gp"
 		]
 	},
 	"gory_beacon": {
@@ -686,7 +686,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** ; **Cost** 2,800 gp"
+			"**Requirements**; **Cost** 2,800 gp"
 		]
 	},
 	"grim_lantern": {
@@ -703,7 +703,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, burning hands, creator cannot be good; **Cost** 2,900 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/burning hands}, creator cannot be good; **Cost** 2,900 gp"
 		]
 	},
 	"book_of_written_whispers": {
@@ -724,7 +724,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, magic aura, secret page, sending; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic aura}, {spell/secret page}, {spell/sending}; **Cost** 3,000 gp"
 		]
 	},
 	"cavers_bolt": {
@@ -743,7 +743,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, force hook charge; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/force hook charge}; **Cost** 3,000 gp"
 		]
 	},
 	"coin_of_the_untrodden_road": {
@@ -760,7 +760,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alter self; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alter self}; **Cost** 3,000 gp"
 		]
 	},
 	"figurine_of_wondrous_power": {
@@ -794,53 +794,53 @@
 			"",
 			"If a figurine of wondrous power is broken or destroyed in its statuette form, it is forever ruined. All magic is lost, its power departed. If slain in animal form, the figurine simply reverts to a statuette that can be used again at a later time.",
 			"",
-			"**Silver Raven:** This silver figurine turns into a raven on command (but it retains its metallic consistency, which gives it hardness 10). Another command sends it off into the air, bearing a message just like a creature affected by an animal messenger spell. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special powers or telepathic abilities. It can maintain its non-figurine status for only 24 hours per week, but the duration need not be continuous.; **CL** 6th; {feat/Craft Wondrous Item}, animal messenger, animate objects.",
+			"**Silver Raven:** This silver figurine turns into a raven on command (but it retains its metallic consistency, which gives it hardness 10). Another command sends it off into the air, bearing a message just like a creature affected by an animal messenger spell. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special powers or telepathic abilities. It can maintain its non-figurine status for only 24 hours per week, but the duration need not be continuous.; **CL** 6th; {feat/Craft Wondrous Item}, {spell/animal messenger}, {spell/animate objects}.",
 			"",
-			"**Coral Hippocampus:** When animated, this figurine of wondrous power acts in all ways like a normal combat-trained hippocampus. The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the coral hippocampus again becomes a tiny statuette.; **CL** 19th; {feat/Craft Wondrous Item}, animate objects.",
+			"**Coral Hippocampus:** When animated, this figurine of wondrous power acts in all ways like a normal combat-trained hippocampus. The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the coral hippocampus again becomes a tiny statuette.; **CL** 19th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
 			"**Emerald Frog:** This figurine of wondrous power appears as a small, innocuous frog carved of cloudy emerald. On command, it transforms into either a giant frog with the advanced template or 3 poisonous frogs - the user makes this choice at the time of activation. The frog (or frogs) can be animated up to 3 times per week, for a maximum total duration of 12 hours per week. If the advanced giant frog is slain, the emerald frog cannot be activated again for 1 full week. Each poisonous frog that is slain in combat reduces the total duration that the figurine can be activated for the week by 4 hours.",
 			"",
-			"Either the giant frog or the poisonous frogs can be used as combatants or as small, unintelligent servant-creatures, performing minor tasks or fetching small objects. The giant frog can be used by Small or smaller creatures as a makeshift mount, although it is not equipped with a saddle or similar equipment, and its slick hide imposes an additional -4 penalty on Ride attempts.; **CL** 8th; {feat/Craft Wondrous Item}, animate objects.",
+			"Either the giant frog or the poisonous frogs can be used as combatants or as small, unintelligent servant-creatures, performing minor tasks or fetching small objects. The giant frog can be used by Small or smaller creatures as a makeshift mount, although it is not equipped with a saddle or similar equipment, and its slick hide imposes an additional -4 penalty on Ride attempts.; **CL** 8th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
-			"**Lapis Camel:** This palm-sized camel figurine is sculpted of lapis lazuli. When you throw the lapis camel to the ground and speak the command word, it turns into a dromedary camel. The camel acts as a normal camel in all respects, except that it obeys your verbal commands to the best of its animal-level intelligence. At your command, the camel returns to its figurine form. The lapis camel can be used up to 3 times per week for up 8 hours each use.; **CL** 11th; {feat/Craft Wondrous Item}, animate object.",
+			"**Lapis Camel:** This palm-sized camel figurine is sculpted of lapis lazuli. When you throw the lapis camel to the ground and speak the command word, it turns into a dromedary camel. The camel acts as a normal camel in all respects, except that it obeys your verbal commands to the best of its animal-level intelligence. At your command, the camel returns to its figurine form. The lapis camel can be used up to 3 times per week for up 8 hours each use.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
 			"**Pearl Dolphin:** This 2-inch-long pearl figurine turns into a dolphin on command (but it retains its composition, which gives it hardness 10). The dolphin follows the verbal commands of the creature who spoke the command word and will follow commands as a summoned creature. With a second command word, the dolphin will swim to an indicated location at double its swim speed, bearing a message just like a creature affected by an {spell/animal messenger} spell.",
 			"",
 			"The pearl dolphin can maintain its non-figurine status for only 24 hours per week. The duration need not be continuous, but it must be used in 1-hour increments.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animal messenger}, {spell/animate objects}.",
 			"",
-			"**Ruby Butterfly:** Upon command, this figurine of wondrous power transforms into a hand-sized red butterfly (same statistics as a {monster/bat}). A spellcaster can use a ruby butterfly to deliver touch spells, as if the ruby butterfly were a [familiar](class/wizard) capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures' dreams (such as {spell/nightmare} or a [night hag's dream haunting](monster/night_hag) ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; **CL** 9th; {feat/Craft Wondrous Item}, [animate object](spell/animate_objects), {spell/dream}.",
+			"**Ruby Butterfly:** Upon command, this figurine of wondrous power transforms into a hand-sized red butterfly (same statistics as a {monster/bat}). A spellcaster can use a ruby butterfly to deliver touch spells, as if the ruby butterfly were a [familiar](class/wizard) capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures' dreams (such as {spell/nightmare} or a [night hag's dream haunting](monster/night_hag) ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; **CL** 9th; {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/dream}.",
 			"",
 			"**Black Jade Raven:** This fist-sized piece of black jade is exquisitely tooled into the shape of a raven with outstretched wings. Upon command, it transforms into a black raven (use the stats for an eagle) or a giant black raven (use the stats for a giant eagle). Both forms of the raven have {feat/Improved Steal} as a bonus feat. The raven understands Common but cannot speak. It can answer questions related to its abilities or what it has seen by cawing once for \"yes\" and twice for \"no.\"",
 			"",
-			"The raven can maintain its non-figurine status for only 24 hours per week. This duration need not be continuous, but it must be used in 1-hour increments. After three transformations into its giant raven form (though not its smaller version), the statuette loses all magical properties. ; **CL** 11th; {feat/Craft Wondrous Item}, animate objects.",
+			"The raven can maintain its non-figurine status for only 24 hours per week. This duration need not be continuous, but it must be used in 1-hour increments. After three transformations into its giant raven form (though not its smaller version), the statuette loses all magical properties.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
-			"**Serpentine Eagle:** This Andoren variant of the serpentine owl can be transformed into an eagle or giant eagle but is otherwise identical to the owl figurine. Serpentine eagles are popular among [Eagle Knights](rule/aff_vangard) for scouting and emergency transportation.; **CL** 11th; {feat/Craft Wondrous Item}, animate objects.",
+			"**Serpentine Eagle:** This Andoren variant of the serpentine owl can be transformed into an eagle or giant eagle but is otherwise identical to the owl figurine. Serpentine eagles are popular among [Eagle Knights](rule/aff_vangard) for scouting and emergency transportation.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
-			"**Serpentine Owl:** This figurine becomes either a normal-sized horned owl or a giant owl (use the stats for the giant eagle) according to the command word used. The transformation can take place once per day, with a maximum duration of 8 continuous hours. However, after three transformations into giant owl form, the statuette loses all its magical properties. The owl communicates with its owner by telepathic means, informing her of all it sees and hears.; **CL** 11th; {feat/Craft Wondrous Item}, animate objects.",
+			"**Serpentine Owl:** This figurine becomes either a normal-sized horned owl or a giant owl (use the stats for the giant eagle) according to the command word used. The transformation can take place once per day, with a maximum duration of 8 continuous hours. However, after three transformations into giant owl form, the statuette loses all its magical properties. The owl communicates with its owner by telepathic means, informing her of all it sees and hears.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
-			"**Bronze Griffon:** When animated, a bronze griffon acts in all ways like a normal griffon under the command of its possessor. The item can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the bronze griffon once again becomes a tiny statuette.; **CL** 11th; {feat/Craft Wondrous Item}, animate objects.",
+			"**Bronze Griffon:** When animated, a bronze griffon acts in all ways like a normal griffon under the command of its possessor. The item can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the bronze griffon once again becomes a tiny statuette.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
-			"**Ebony Fly:** When animated, an ebony fly is the size of a pony and has all the statistics of a pegasus but can make no attacks. The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the ebony fly again becomes a tiny statuette.; **CL** 11th; {feat/Craft Wondrous Item}, animate objects.",
+			"**Ebony Fly:** When animated, an ebony fly is the size of a pony and has all the statistics of a pegasus but can make no attacks. The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the ebony fly again becomes a tiny statuette.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
-			"**Hematite Courgar:** This palm-sized figurine of a cat with a spiked tail is made of gleaming hematite. A hematite cougar turns into a digmaul that is fully obedient to the figurine's owner. Even in its animated form, the hematite cougar is made of dense metal, granting it a +2 armor bonus to AC and a +2 bonus to its CMD. An animated hematite cougar conducts low levels of electricity; creatures adjacent to the hematite cougar gain electricity resistance 2, but any damage prevented by this ability is dealt to the hematite cougar instead. A hematite cougar can be animated twice per week for up to 8 hours per use; speaking the command word before the 8 hours expires returns the hematite cougar to a figurine.; **CL** 11th; {feat/Craft Wondrous Item}, animate objects, resist energy.",
+			"**Hematite Courgar:** This palm-sized figurine of a cat with a spiked tail is made of gleaming hematite. A hematite cougar turns into a digmaul that is fully obedient to the figurine's owner. Even in its animated form, the hematite cougar is made of dense metal, granting it a +2 armor bonus to AC and a +2 bonus to its CMD. An animated hematite cougar conducts low levels of electricity; creatures adjacent to the hematite cougar gain electricity resistance 2, but any damage prevented by this ability is dealt to the hematite cougar instead. A hematite cougar can be animated twice per week for up to 8 hours per use; speaking the command word before the 8 hours expires returns the hematite cougar to a figurine.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/resist energy}.",
 			"",
-			"**Slate Spider:** This statuette of a spider with stubby legs can be used once per day for 1 minute. When activated, the figurine sprouts longer, segmented legs, and scampers about the bearer, picking lint off robes, chiseling grime from armor, or otherwise grooming the bearer. If commanded to do so (a free action), it perches on the muzzle of a one-handed or two-handed firearm barrel and, after the firearm is fired, travels down the barrel and cleans out the firearm. Each time the slate spider cleans a firearm, the next shot the firearm fires has no chance of misfiring.; **CL** 11th; {feat/Craft Wondrous Item}, animate objects.",
+			"**Slate Spider:** This statuette of a spider with stubby legs can be used once per day for 1 minute. When activated, the figurine sprouts longer, segmented legs, and scampers about the bearer, picking lint off robes, chiseling grime from armor, or otherwise grooming the bearer. If commanded to do so (a free action), it perches on the muzzle of a one-handed or two-handed firearm barrel and, after the firearm is fired, travels down the barrel and cleans out the firearm. Each time the slate spider cleans a firearm, the next shot the firearm fires has no chance of misfiring.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
 			"**Tin Imp:** These fat, smirking imp figurines are made of solid tin. A tin imp turns into an imp on command, though it retains its metallic consistency, which gives it a +4 armor bonus to AC. In imp form, a tin imp can turn invisible at will as a swift action, though it retains none of an imp's other spell-like abilities and lacks a poisoned sting. Tin imps generally avoid combat, but make excellent spies and trackers.",
 			"",
 			"The tin imp's owner can, as a move action, designate a single creature in his line of sight as the tin imp's quarry. The tin imp then follows its quarry clandestinely, and sends a whispered message to its owner once each hour detailing the quarry's location and activities. The message is similar to the whispering wind spell, though the message unerringly locates the tin imp's owner instead of moving to a predetermined location. A tin imp can maintain its animate status for up to 48 hours per week. This duration doesn't need to be continuous, but must be used in 1-hour increments. If slain in combat, a tin imp is destroyed.",
 			"",
-			"Additionally, a creature with the track class feature can command a tin imp he owns to study a set of footprints (a standard action) and designate the creature that made the footprints as its quarry. The tin imp can then attempt to track the creature as if its owner was tracking it, using the owner's Perception and Survival skill (and any tracking bonuses).; **CL** 11th; {feat/Craft Wondrous Item}, animate objects, invisibility, whispering wind.",
+			"Additionally, a creature with the track class feature can command a tin imp he owns to study a set of footprints (a standard action) and designate the creature that made the footprints as its quarry. The tin imp can then attempt to track the creature as if its owner was tracking it, using the owner's Perception and Survival skill (and any tracking bonuses).; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/invisibility}, {spell/whispering wind.}",
 			"",
-			"**Glass Walrus:** This figurine of wondrous power is shaped like a walrus and is carved out of a prismatic crystal. It follows all the normal rules for figurines of wondrous power. When animated, a glass walrus acts in all ways like a normal walrus except it can glide along the surface of water as though under the constant effects of water walk. Up to two Medium creatures or four Small creatures can fit on a glass walrus's back as the creature glides across water (the walrus moves at half speed while carrying creatures), and the walrus can carry up to 600 pounds in this way before it becomes too encumbered to move. A glass walrus can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the glass walrus again becomes a tiny statuette.; **CL** 11th; {feat/Craft Wondrous Item}, animate objects, water walk.",
+			"**Glass Walrus:** This figurine of wondrous power is shaped like a walrus and is carved out of a prismatic crystal. It follows all the normal rules for figurines of wondrous power. When animated, a glass walrus acts in all ways like a normal walrus except it can glide along the surface of water as though under the constant effects of water walk. Up to two Medium creatures or four Small creatures can fit on a glass walrus's back as the creature glides across water (the walrus moves at half speed while carrying creatures), and the walrus can carry up to 600 pounds in this way before it becomes too encumbered to move. A glass walrus can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the glass walrus again becomes a tiny statuette.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/water walk}.",
 			"",
-			"**Obsidian Raven:** This figurine of wondrous power is similar to a silver raven, but it can be used to send messages across the planes. On command, the figurine turns into a raven (retaining its stone-like consistency, which gives it hardness 8). Another command sends it off into the air, bearing a message as the sending spell (with no chance of the message not arriving). The recipient of the message can then use the obsidian raven to plane shift (self only) to the plane from which the message was sent. The figurine can be used in this way once per day. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special abilities, and it can maintain its non-figurine status for 24 hours per week (the duration need not be continuous).; **CL** 11th; {feat/Craft Wondrous Item}, animate objects, plane shift, sending.",
+			"**Obsidian Raven:** This figurine of wondrous power is similar to a silver raven, but it can be used to send messages across the planes. On command, the figurine turns into a raven (retaining its stone-like consistency, which gives it hardness 8). Another command sends it off into the air, bearing a message as the sending spell (with no chance of the message not arriving). The recipient of the message can then use the obsidian raven to plane shift (self only) to the plane from which the message was sent. The figurine can be used in this way once per day. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special abilities, and it can maintain its non-figurine status for 24 hours per week (the duration need not be continuous).; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/plane shift}, {spell/sending}.",
 			"",
-			"**Onyx Dog:** When commanded, this statuette changes into a creature with the same properties as a riding dog except that it is endowed with an Intelligence of 8, can communicate in Common, and has exceptional olfactory and visual abilities. It has the scent ability and adds +4 on its Perception checks. It has 60-foot darkvision, and it can see invisibility. An onyx dog can be used once per week for up to 6 hours. It obeys only its owner.; **CL** 11th; {feat/Craft Wondrous Item}, animate objects.",
+			"**Onyx Dog:** When commanded, this statuette changes into a creature with the same properties as a riding dog except that it is endowed with an Intelligence of 8, can communicate in Common, and has exceptional olfactory and visual abilities. It has the scent ability and adds +4 on its Perception checks. It has 60-foot darkvision, and it can see invisibility. An onyx dog can be used once per week for up to 6 hours. It obeys only its owner.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
-			"**Golden Lions:** These figurines come in pairs. They become normal adult male lions. If slain in combat, the lions cannot be brought back from statuette form for 1 full week. Otherwise, they can be used once per day for up to 1 hour. They enlarge and shrink upon speaking the command word.; **CL** 11th; {feat/Craft Wondrous Item}, animate objects.",
+			"**Golden Lions:** These figurines come in pairs. They become normal adult male lions. If slain in combat, the lions cannot be brought back from statuette form for 1 full week. Otherwise, they can be used once per day for up to 1 hour. They enlarge and shrink upon speaking the command word.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
-			"**Marble Elephant:** This is the largest of the figurines, the statuette being about the size of a human hand. Upon utterance of the command word, a marble elephant grows to the size and specifications of a true elephant. The animal created from the statuette is fully obedient to the figurine's owner, serving as a beast of burden, a mount, or a combatant. The statuette can be used four times per month for up to 24 hours at a time.; **CL** 11th; {feat/Craft Wondrous Item}, animate objects.",
+			"**Marble Elephant:** This is the largest of the figurines, the statuette being about the size of a human hand. Upon utterance of the command word, a marble elephant grows to the size and specifications of a true elephant. The animal created from the statuette is fully obedient to the figurine's owner, serving as a beast of burden, a mount, or a combatant. The statuette can be used four times per month for up to 24 hours at a time.; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
 			"**Ivory Goats:** These figurines come in threes. Each goat of this trio looks slightly different from the others, and each has a different function:",
 			"",
@@ -848,17 +848,17 @@
 			"- *The Goat of Travail:* This statuette becomes an enormous creature, larger than a bull, with the statistics of a nightmare except for the addition of a pair of wicked horns of exceptional size (damage 1d8+4 for each horn). If it is charging to attack, it may only use its horns (but add 6 points of damage to each successful attack in that round). It can be called to life just once per month for up to 12 hours at a time.",
 			"- *The Goat of Terror:* When called upon with the proper command word, this statuette becomes a destrier-like mount with the statistics of a light horse. However, its rider can employ the goat's horns as weapons (one horn as a +3 heavy lance, the other as a +5 longsword). When ridden in an attack against an opponent, the goat of terror radiates {spell/fear} as the spell in a 30-foot radius (Will DC 16 partial). It can be used once every 2 weeks for up to 3 hours per use.",
 			"",
-			"; **CL** 11th; {feat/Craft Wondrous Item}, animate objects.",
+			"; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
-			"**Obsidian Steed:** This figurine appears to be a small, shapeless lump of black stone. Only careful inspection reveals that it vaguely resembles some form of quadruped. On command, the near-formless piece of obsidian becomes a fantastic mount. Treat it as a heavy horse with the following additional powers usable once per round at will: overland flight, plane shift, and ethereal jaunt. The steed allows itself to be ridden, but if the rider is of good alignment, the steed is 10% likely per use to carry him to the lower planes and then return to its statuette form. The statuette can be used once per week for one continuous period of up to 24 hours. Note that when an obsidian steed becomes ethereal or plane shifts, its rider and his gear follow suit. Thus, the user can travel to other planes via this means.; **CL** 15th; {feat/Craft Wondrous Item}, animate objects, etherealness, fly, plane shift.",
+			"**Obsidian Steed:** This figurine appears to be a small, shapeless lump of black stone. Only careful inspection reveals that it vaguely resembles some form of quadruped. On command, the near-formless piece of obsidian becomes a fantastic mount. Treat it as a heavy horse with the following additional powers usable once per round at will: overland flight, plane shift, and ethereal jaunt. The steed allows itself to be ridden, but if the rider is of good alignment, the steed is 10% likely per use to carry him to the lower planes and then return to its statuette form. The statuette can be used once per week for one continuous period of up to 24 hours. Note that when an obsidian steed becomes ethereal or plane shifts, its rider and his gear follow suit. Thus, the user can travel to other planes via this means.; **CL** 15th; {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/etherealness}, {spell/fly}, {spell/plane shift}.",
 			"",
 			"**Basalt Dragon:** This fist-sized, carved dragon is sculpted from volcanic rock. It becomes either a pseudodragon or a flame drake, depending on the command word used. The transformation can take place twice per day, with a maximum duration of 2 continuous hours. The pseudodragon can use its telepathy to communicate with its owner over any distance, but not across planes.",
 			"",
-			"By expending one use of mythic power, the user of the figurine can instead transform the figurine into a young red dragon. If the user is at least 5th tier, she can instead expend two uses of mythic power to transform the figurine into an adult red dragon. If the user is at least 9th tier, she can instead expend four uses of mythic power to transform the figurine into an ancient red dragon. Transforming the figurine into a true dragon renders the figurine powerless for 1 week after the transformation ends.; **CL** 20th; {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, animate objects, [form of the dragon III](spell/form_of_the_dragon_3), telepathic bond.",
+			"By expending one use of mythic power, the user of the figurine can instead transform the figurine into a young red dragon. If the user is at least 5th tier, she can instead expend two uses of mythic power to transform the figurine into an adult red dragon. If the user is at least 9th tier, she can instead expend four uses of mythic power to transform the figurine into an ancient red dragon. Transforming the figurine into a true dragon renders the figurine powerless for 1 week after the transformation ends.; **CL** 20th; {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/animate objects}, [form of the dragon III](spell/form_of_the_dragon_3), {spell/telepathic bond}.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate objects, additional spells, see text; **Cost** 1,900 gp (Silver Raven), 3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp (Lapis Camel), 3,800 gp (Pearl Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven), 4,550 gp (Serpentine Eagle), 4,550 gp (Serpentine Owl), 5,000 gp (Bronze Griffon), 5,000 gp (Ebony Fly), 5,000 gp (Hematite Courgar), 5,000 gp (Slate Spider), 6,500 gp (Tin Imp), 7,000 gp (Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp (Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)"
+			"**Requirements** {feat/Craft Wondrous Item}, additional spells, see text; **Cost** 1,900 gp (Silver Raven), 3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp (Lapis Camel), 3,800 gp (Pearl Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven), 4,550 gp (Serpentine Eagle), 4,550 gp (Serpentine Owl), 5,000 gp (Bronze Griffon), 5,000 gp (Ebony Fly), 5,000 gp (Hematite Courgar), 5,000 gp (Slate Spider), 6,500 gp (Tin Imp), 7,000 gp (Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp (Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)"
 		]
 	},
 	"figurine_of_wondrous_power_silver_raven": {
@@ -959,11 +959,11 @@
 			"**Aura** faint illusion; **CL** 3rd  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.",
 			"",
-			"This delicate fan is made of dried leaves and thin twigs. Three times per day as a standard action, the wielder can wave the fan to summon forth a 30-foot cone of swirling red and gold leaves that lasts for 3 rounds. This area acts as obscuring mist, except for the duration and the fact it is composed of leaves rather than fog (thus, creatures able to see through mist and fog can't see through the fan of autumn's concealment). As long as the wielder has the fan in her hand, the leaves don't obscure her vision.",
+			"This delicate fan is made of dried leaves and thin twigs. Three times per day as a standard action, the wielder can wave the fan to summon forth a 30-foot cone of swirling red and gold leaves that lasts for 3 rounds. This area acts as {spell/obscuring mist}, except for the duration and the fact it is composed of leaves rather than fog (thus, creatures able to see through mist and fog can't see through the fan of autumn's concealment). As long as the wielder has the fan in her hand, the leaves don't obscure her vision.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gust of wind; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gust of wind}; **Cost** 3,000 gp"
 		]
 	},
 	"fortifying_leeches": {
@@ -982,7 +982,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bear's endurance; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}; **Cost** 3,000 gp"
 		]
 	},
 	"gremlin_skin_drum": {
@@ -1015,7 +1015,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, one dead gremlin of the type used to make the drum; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}, one dead gremlin of the type used to make the drum; **Cost** 3,000 gp"
 		]
 	},
 	"horn_of_battle_clarity": {
@@ -1034,7 +1034,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, rage; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/rage}; **Cost** 3,000 gp"
 		]
 	},
 	"life_link_badge": {
@@ -1051,7 +1051,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, rejuvenate eidolon; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/rejuvenate eidolon}; **Cost** 3,000 gp"
 		]
 	},
 	"luminous_lockpicks": {
@@ -1068,7 +1068,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, knock; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/knock}; **Cost** 3,000 gp"
 		]
 	},
 	"martyrs_tear": {
@@ -1087,7 +1087,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, vampiric touch; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/vampiric touch}; **Cost** 3,000 gp"
 		]
 	},
 	"master_vidlians_squeeze_box": {
@@ -1104,7 +1104,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cushioning bands, grease; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cushioning bands}, {spell/grease}; **Cost** 3,000 gp"
 		]
 	},
 	"memoriam_root": {
@@ -1133,7 +1133,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, goodberry, tree shape; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/goodberry}, {spell/tree shape}; **Cost** 3,000 gp"
 		]
 	},
 	"panacea_flask": {
@@ -1150,7 +1150,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, remove disease, resistance, creator must worship Cayden Cailean; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/remove disease}, {spell/resistance}, creator must worship Cayden Cailean; **Cost** 3,000 gp"
 		]
 	},
 	"pentacle_token": {
@@ -1189,7 +1189,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, scare; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/scare}; **Cost** 3,000 gp"
 		]
 	},
 	"pipes_of_the_warren_guardian": {
@@ -1202,11 +1202,11 @@
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** -;",
 			"",
-			"These finely crafted yellow-ivory pipes are bound in bronze and decorated with bits of amber. If the possessor learns the proper tune, once per day he can use these pipes to summon 1d4+1 dire rats as if using [summon monster III](spell/summon_monster_3). The summoned dire rats also have the swarming racial trait, and count as ratfolk for the purposes of the ratfolk's swarming racial trait.",
+			"These finely crafted yellow-ivory pipes are bound in bronze and decorated with bits of amber. If the possessor learns the proper tune, once per day he can use these pipes to summon 1d4+1 dire rats as if using {spell/summon monster III}. The summoned dire rats also have the swarming racial trait, and count as ratfolk for the purposes of the ratfolk's swarming racial trait.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [summon monster III](spell/summon_monster_3); **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon monster III}; **Cost** 3,000 gp"
 		]
 	},
 	"pocket_prey": {
@@ -1223,7 +1223,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gentle repose, major image; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gentle repose}, {spell/major image}; **Cost** 3,000 gp"
 		]
 	},
 	"righteous_medal": {
@@ -1254,7 +1254,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}; bless; bear's endurance, bull's strength, cat's grace, eagle's splendor, fox's cunning, or owl's wisdom; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}; {spell/bless}; {spell/bear's endurance}, {spell/bull's strength}, {spell/cat's grace}, {spell/eagle's splendor}, {spell/fox's cunning}, or {spell/owl's wisdom}; **Cost** 3,000 gp"
 		]
 	},
 	"rope_of_knots": {
@@ -1271,7 +1271,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate rope; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate rope}; **Cost** 3,000 gp"
 		]
 	},
 	"singing_bell_of_striking": {
@@ -1288,7 +1288,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, versatile weapon; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/versatile weapon}; **Cost** 3,000 gp"
 		]
 	},
 	"spiral_tiles_pharasma": {
@@ -1307,7 +1307,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, augury, guidance; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}, {spell/guidance}; **Cost** 3,000 gp"
 		]
 	},
 	"steelbone_frame": {
@@ -1324,7 +1324,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bull's strength, longstrider; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/longstrider}; **Cost** 3,000 gp"
 		]
 	},
 	"stone_familiar": {
@@ -1358,7 +1358,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, divine favor, the creator must be a halfling; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}, the creator must be a halfling; **Cost** 3,000 gp"
 		]
 	},
 	"time_bomb_greater": {
@@ -1375,7 +1375,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alarm, delayed blast fireball; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/delayed blast fireball}; **Cost** 3,000 gp"
 		]
 	},
 	"greater_time_bomb": {
@@ -1456,7 +1456,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alarm, demand offering, magic aura, memory lapse, secret chest; **Cost** 3,100 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/demand offering}, {spell/magic aura}, {spell/memory lapse}, {spell/secret chest}; **Cost** 3,100 gp"
 		]
 	},
 	"jar_of_haunt_siphoning": {
@@ -1473,7 +1473,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gentle repose, mass inflict light wounds; **Cost** 3,125 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gentle repose}, {spell/mass inflict light wounds}; **Cost** 3,125 gp"
 		]
 	},
 	"insidious_bear_trap": {
@@ -1492,7 +1492,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alarm, invisibility, snare; **Cost** 3,150 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/invisibility}, {spell/snare}; **Cost** 3,150 gp"
 		]
 	},
 	"whistle_of_calling": {
@@ -1509,7 +1509,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, teleport; **Cost** 3,150 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/teleport}; **Cost** 3,150 gp"
 		]
 	},
 	"clockwork_arm": {
@@ -1526,7 +1526,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bull's strength, regenerate, creator must have 8 ranks in Craft (clockwork); **Cost** 3,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/regenerate}, creator must have 8 ranks in Craft (clockwork); **Cost** 3,200 gp"
 		]
 	},
 	"clockwork_prosthesis": {
@@ -1551,7 +1551,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bull's strength, regenerate, creator must have 8 ranks in Craft (clockwork); **Cost** 3,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}, {spell/regenerate}, creator must have 8 ranks in Craft (clockwork); **Cost** 3,200 gp"
 		]
 	},
 	"dawnflower_lantern": {
@@ -1568,7 +1568,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bless, consecrate, continual flame; **Cost** 3,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bless}, {spell/consecrate}, {spell/continual flame}; **Cost** 3,200 gp"
 		]
 	},
 	"dragonbone_divination_sticks": {
@@ -1585,7 +1585,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, augury, guidance; **Cost** 3,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}, {spell/guidance}; **Cost** 3,200 gp"
 		]
 	},
 	"elocution_tooth": {
@@ -1623,7 +1623,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hide from animals, tiny hut; **Cost** 3,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hide from animals}, {spell/tiny hut}; **Cost** 3,200 gp"
 		]
 	},
 	"farglass": {
@@ -1640,7 +1640,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/ clairvoyance; **Cost** 3,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}; **Cost** 3,700 gp"
 		]
 	},
 	"tillers_pendant": {
@@ -1657,7 +1657,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, disguise self, goodberry; **Cost** 3,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, {spell/goodberry}; **Cost** 3,200 gp"
 		]
 	},
 	"brazen_head": {
@@ -1678,7 +1678,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bless, augury, must worship Baphomet; **Cost** 3,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bless}, {spell/augury}, must worship Baphomet; **Cost** 3,250 gp"
 		]
 	},
 	"foresight_quill": {
@@ -1695,7 +1695,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, borrow fortune; **Cost** 3,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/borrow fortune}; **Cost** 3,250 gp"
 		]
 	},
 	"gas_trap_cylinder": {
@@ -1758,7 +1758,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, charm person; **Cost** 3,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/charm person}; **Cost** 3,250 gp"
 		]
 	},
 	"instant_muzzle": {
@@ -1777,7 +1777,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fumbletongue, telekinesis; **Cost** 3,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fumbletongue}, {spell/telekinesis}; **Cost** 3,250 gp"
 		]
 	},
 	"trumpet_of_spirit_speaking": {
@@ -1820,7 +1820,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, calm animals, communal mount, slipstream, creator must be a triton; **Cost** 3,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm animals}, {spell/communal mount}, {spell/slipstream}, creator must be a triton; **Cost** 3,300 gp"
 		]
 	},
 	"naga_scale_bindi": {
@@ -1870,7 +1870,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, haste, shrink item, creator must be a dwarf; **Cost** 3,350 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/haste}, {spell/shrink item}, creator must be a dwarf; **Cost** 3,350 gp"
 		]
 	},
 	"anvil_of_the_skyseeker": {
@@ -1894,7 +1894,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, command undead, creator must have the bardic performance class ability; **Cost** 3,350 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/command undead}, creator must have the bardic performance class ability; **Cost** 3,350 gp"
 		]
 	},
 	"bathing_basin": {
@@ -1911,7 +1911,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, create water, shrink item; **Cost** 3,375 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/create water}, {spell/shrink item}; **Cost** 3,375 gp"
 		]
 	},
 	"chime_of_storm_calling": {
@@ -1930,7 +1930,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, call lightning, gust of wind, obscuring mist; **Cost** 3,375 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/call lightning}, {spell/gust of wind}, {spell/obscuring mist}; **Cost** 3,375 gp"
 		]
 	},
 	"lucky_horseshoe": {
@@ -1947,7 +1947,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, divine favor; **Cost** 3,400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}; **Cost** 3,400 gp"
 		]
 	},
 	"effigy_of_anubis": {
@@ -1983,7 +1983,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate dead; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate dead}; **Cost** 3,500 gp"
 		]
 	},
 	"cape_of_bravado": {
@@ -2002,7 +2002,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, compel hostility, creator must have 5 ranks in the Bluff skill; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/compel hostility}, creator must have 5 ranks in the Bluff skill; **Cost** 3,500 gp"
 		]
 	},
 	"costume_bureau": {
@@ -2024,7 +2024,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate, minor creation, creator must have at least 5 ranks in Craft (clothing) or Profession (tailor); **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, {spell/minor creation}, creator must have at least 5 ranks in Craft (clothing) or Profession (tailor); **Cost** 3,500 gp"
 		]
 	},
 	"ghostlight_lantern": {
@@ -2041,7 +2041,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, faerie fire, find the path, flare, shocking grasp; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/faerie fire}, {spell/find the path}, {spell/flare}, {spell/shocking grasp}; **Cost** 3,500 gp"
 		]
 	},
 	"instant_bridge": {
@@ -2060,7 +2060,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shrink item, wall of iron; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shrink item}, wall of iron; **Cost** 3,500 gp"
 		]
 	},
 	"mirror_of_guarding_reflections": {
@@ -2077,7 +2077,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mirror image; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mirror image}; **Cost** 3,500 gp"
 		]
 	},
 	"noisemaker_wayfinder": {
@@ -2096,7 +2096,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alarm, light; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/light}; **Cost** 3,500 gp"
 		]
 	},
 	"orb_of_arcane_research": {
@@ -2132,7 +2132,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cure light wounds, polypurpose panacea; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/polypurpose panacea}; **Cost** 4,500 gp"
 		]
 	},
 	"folding_boat": {
@@ -2156,7 +2156,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate, creator must have 2 ranks in Craft (ships); **Cost** 3,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, creator must have 2 ranks in Craft (ships); **Cost** 3,600 gp"
 		]
 	},
 	"boat_folding": { "copyof": "folding_boat" },
@@ -2177,7 +2177,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, water breathing; **Cost** 3,625 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/water breathing}; **Cost** 3,625 gp"
 		]
 	},
 	"balm_of_impish_grace": {
@@ -2213,7 +2213,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, erase, geas/quest, tongues, creator must be a Chelaxian; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/erase}, {spell/geas//quest}, {spell/tongues}, creator must be a Chelaxian; **Cost** 3,750 gp"
 		]
 	},
 	"candle_of_clean_air": {
@@ -2232,7 +2232,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wind wall; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/wind wall}; **Cost** 3,750 gp"
 		]
 	},
 	"cauldron_of_fireworks": {
@@ -2272,7 +2272,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Brew Potion}, {feat/Craft Wondrous Item}, universal formula, creator must be an elf; **Cost** 3,750 gp"
+			"**Requirements** {feat/Brew Potion}, {feat/Craft Wondrous Item}, {spell/universal formula}, creator must be an elf; **Cost** 3,750 gp"
 		]
 	},
 	"elven_still": {
@@ -2295,7 +2295,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, suggestion; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/suggestion}; **Cost** 3,750 gp"
 		]
 	},
 	"lastwall_banner_hordeline": {
@@ -2320,7 +2320,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blessing of fervor (Sunwall) or remove fear (Harchist and Hordeline); **Cost** 3,750 gp (Hordeline), 7,500 gp (Harchist), 62,500 gp (Sunwall)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blessing of fervor} (Sunwall) or {spell/remove fear} (Harchist and Hordeline); **Cost** 3,750 gp (Hordeline), 7,500 gp (Harchist), 62,500 gp (Sunwall)"
 		]
 	},
 	"lastwall_banner_harchist": {
@@ -2345,7 +2345,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate objects, haste, creator must have 10 ranks in Profession (sailor); **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/haste}, creator must have 10 ranks in Profession (sailor); **Cost** 3,750 gp"
 		]
 	},
 	"manual_of_war": {
@@ -2362,7 +2362,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, modify memory, creator must be a fighter; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/modify memory}, creator must be a fighter; **Cost** 3,750 gp"
 		]
 	},
 	"one_way_window": {
@@ -2379,7 +2379,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/clairvoyance; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}; **Cost** 2,000 gp"
 		]
 	},
 	"wave_harp": {
@@ -2419,7 +2419,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, arcane sight, daylight; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/arcane sight}, {spell/daylight}; **Cost** 3,750 gp"
 		]
 	},
 	"zoic_fetish": {
@@ -2441,7 +2441,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dominate animal, hide from animals; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate animal}, {spell/hide from animals}; **Cost** 3,750 gp"
 		]
 	},
 	"teleporting_climbing_rig": {
@@ -2458,7 +2458,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dimension door; **Cost** 3,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dimension door}; **Cost** 3,800 gp"
 		]
 	},
 	"magnificent_map": {
@@ -2501,7 +2501,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Vermin Heart, speak with animals, summon swarm; **Cost** 3,900 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Vermin Heart}, {spell/speak with animals}, {spell/summon swarm}; **Cost** 3,900 gp"
 		]
 	},
 	"alpine_ice_axe": {
@@ -2520,7 +2520,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shatter, snow shape, creator must have 5 ranks in the Climb skill; **Cost** 4,176 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shatter}, {spell/snow shape}, creator must have 5 ranks in the Climb skill; **Cost** 4,176 gp"
 		]
 	},
 	"censer_of_dreams": {
@@ -2537,7 +2537,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dream; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dream}; **Cost** 4,000 gp"
 		]
 	},
 	"chalice_of_poison_weeping": {
@@ -2554,7 +2554,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate, neutralize poison; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, {spell/neutralize poison}; **Cost** 4,000 gp"
 		]
 	},
 	"champions_banner": {
@@ -2573,7 +2573,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor, creator must have 5 ranks in the Knowledge (nobility) skill; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}, creator must have 5 ranks in the Knowledge (nobility) skill; **Cost** 4,000 gp"
 		]
 	},
 	"cups_of_rapport": {
@@ -2590,7 +2590,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, charm person; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/charm person}; **Cost** 4,000 gp"
 		]
 	},
 	"desnas_coin": {
@@ -2609,7 +2609,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, divine favor; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}; **Cost** 4,000 gp"
 		]
 	},
 	"exorcists_aspergillum": {
@@ -2643,7 +2643,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gentle repose, resilient sphere; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gentle repose}, {spell/resilient sphere}; **Cost** 4,000 gp"
 		]
 	},
 	"harp_of_shattering": {
@@ -2663,7 +2663,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, break, shatter; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/break}, {spell/shatter}; **Cost** 4,000 gp"
 		]
 	},
 	"herald_seed": {
@@ -2682,7 +2682,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, commune with nature, message; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/commune with nature}, {spell/message}; **Cost** 4,000 gp"
 		]
 	},
 	"hezzilreens_spellbook": {
@@ -2699,7 +2699,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, erase, greater glyph of warding, creator must be a kobold; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/erase}, {spell/greater glyph of warding}, creator must be a kobold; **Cost** 4,000 gp"
 		]
 	},
 	"insignia_of_valor": {
@@ -2716,7 +2716,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cure critical wounds; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure critical wounds}; **Cost** 4,000 gp"
 		]
 	},
 	"malleable_monument": {
@@ -2733,7 +2733,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hallow, remove fear, stone shape, unhallow; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hallow}, {spell/remove fear}, {spell/stone shape}, {spell/unhallow}; **Cost** 4,000 gp"
 		]
 	},
 	"mockingskull": {
@@ -2752,7 +2752,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alarm, animate dead; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/animate dead}; **Cost** 4,000 gp"
 		]
 	},
 	"needles_of_fleshgraving": {
@@ -2769,7 +2769,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shrink item, creator must have 5 ranks in Craft (tattoos); **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shrink item}, creator must have 5 ranks in Craft (tattoos); **Cost** 4,000 gp"
 		]
 	},
 	"padma_blossom": {
@@ -2786,7 +2786,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, calm emotions, remove fear; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, {spell/remove fear}; **Cost** 4,000 gp"
 		]
 	},
 	"psychic_aurascope": {
@@ -2822,7 +2822,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, knock, mage hand; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/knock}, {spell/mage hand}; **Cost** 4,000 gp"
 		]
 	},
 	"retriever_drone": {
@@ -2845,7 +2845,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Construct, {feat/Craft Wondrous Item}, greater planar binding, scrying; **Cost** 4,000 gp"
+			"**Requirements** Craft Construct, {feat/Craft Wondrous Item}, {spell/greater planar binding}, {spell/scrying}; **Cost** 4,000 gp"
 		]
 	},
 	"symbol_of_unholy_command": {
@@ -2864,7 +2864,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Command Undead or command undead; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Command Undead} or {spell/command undead}; **Cost** 4,000 gp"
 		]
 	},
 	"throne_of_the_sky_father": {
@@ -2881,7 +2881,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control winds, guidance, {spell/magic circle against law}, stone shape, creator must worship Gozreh; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control winds}, {spell/guidance}, {spell/magic circle against law}, {spell/stone shape}, creator must worship Gozreh; **Cost** 4,000 gp"
 		]
 	},
 	"wayfinder_of_revelation": {
@@ -2898,7 +2898,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, detect secret doors, invisibility purge, light; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect secret doors}, {spell/invisibility purge}, {spell/light}; **Cost** 4,000 gp"
 		]
 	},
 	"wayfinder_of_spellbreaking": {
@@ -2915,7 +2915,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dispel magic, light; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dispel magic}, {spell/light}; **Cost** 4,000 gp"
 		]
 	},
 	"wayfinder_vanishing": {
@@ -2935,7 +2935,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, invisibility, light; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/invisibility}, {spell/light}; **Cost** 4,000 gp"
 		]
 	},
 	"vanishing_wayfinder": {
@@ -2955,7 +2955,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, baleful polymorph; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/baleful polymorph}; **Cost** 4,000 gp"
 		]
 	},
 	"whisper_safe": {
@@ -3031,7 +3031,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, major image; **Cost** 4,050 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/major image}; **Cost** 4,050 gp"
 		]
 	},
 	"witchmarket_coin": {
@@ -3054,7 +3054,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, plane shift; **Cost** 4,050 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/plane shift}; **Cost** 4,050 gp"
 		]
 	},
 	"razored_ropes": {
@@ -3073,7 +3073,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate rope; **Cost** 4,150 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate rope}; **Cost** 4,150 gp"
 		]
 	},
 	"candle_of_invocation": {
@@ -3097,7 +3097,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gate, creator must be same alignment as candle created; **Cost** 4,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}, creator must be same alignment as candle created; **Cost** 4,200 gp"
 		]
 	},
 	"scabbard_of_the_lost_kiss": {
@@ -3116,7 +3116,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, flame blade, flame strike; **Cost** 4,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/flame blade}, {spell/flame strike}; **Cost** 4,300 gp"
 		]
 	},
 	"blackwick_cauldron": {
@@ -3133,11 +3133,11 @@
 			"",
 			"In addition to its crafting uses, a blackwick cauldron can cast identify once per day on an item placed inside of it.",
 			"",
-			"A blackwick cauldron can also be used as a focus or inexpensive material component for spells of the divination school, such as clairaudience/clairvoyance or prying eyes, as long as such focus or material component has a cost of 5 gp or less.",
+			"A blackwick cauldron can also be used as a focus or inexpensive material component for spells of the divination school, such as {spell/clairaudience//clairvoyance} or prying eyes, as long as such focus or material component has a cost of 5 gp or less.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, identify, scrying; **Cost** 4,425 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/identify}, {spell/scrying}; **Cost** 4,425 gp"
 		]
 	},
 	"branding_iron_of_tracking": {
@@ -3154,7 +3154,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, brand, locate creature, locate object; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/brand}, {spell/locate creature}, {spell/locate object}; **Cost** 4,500 gp"
 		]
 	},
 	"candle_of_abaddon": {
@@ -3176,7 +3176,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, desecrate, {spell/magic circle against evil}, creator must be evil; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/desecrate}, {spell/magic circle against evil}, creator must be evil; **Cost** 4,500 gp"
 		]
 	},
 	"chest_of_keeping": {
@@ -3193,7 +3193,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gentle repose, secret chest; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gentle repose}, {spell/secret chest}; **Cost** 4,500 gp"
 		]
 	},
 	"commanders_tent": {
@@ -3212,7 +3212,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, rope trick, sand table; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/rope trick}, {spell/sand table}; **Cost** 4,500 gp"
 		]
 	},
 	"confabulation_plates": {
@@ -3235,7 +3235,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, speak with plants; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, {spell/speak with plants}; **Cost** 4,500 gp"
 		]
 	},
 	"decanter_of_endless_water": {
@@ -3261,7 +3261,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control water; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}; **Cost** 4,500 gp"
 		]
 	},
 	"dune_boat": {
@@ -3278,7 +3278,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate, shifting sand, creator must have 2 ranks in Craft (ships); **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, {spell/shifting sand}, creator must have 2 ranks in Craft (ships); **Cost** 4,500 gp"
 		]
 	},
 	"gemcarvers_tools": {
@@ -3297,7 +3297,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fabricate, [summon monster V](spell/summon_monster_5) or [summon nature's ally V](spell/summon_natures_ally_5), 5 ranks in Craft (jewelry); **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, {spell/summon monster V} or {spell/summon nature's ally V}, 5 ranks in Craft (jewelry); **Cost** 4,500 gp"
 		]
 	},
 	"investigators_pipe": {
@@ -3316,7 +3316,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, guidance, unseen servant; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/unseen servant}; **Cost** 4,500 gp"
 		]
 	},
 	"fetish_of_the_frog_queen_lesser": {
@@ -3345,7 +3345,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, poison; **Cost** 4,500 gp (Lesser), 16,250 gp (Standard), 36,500 gp (Greater)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/poison}; **Cost** 4,500 gp (Lesser), 16,250 gp (Standard), 36,500 gp (Greater)"
 		]
 	},
 	"lesser_fetish_of_the_frog_queen": {
@@ -3396,7 +3396,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, magic weapon; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/magic weapon}; **Cost** 4,500 gp"
 		]
 	},
 	"mother_sphinx_token": {
@@ -3432,7 +3432,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}; **Cost** 4,500 gp"
 		]
 	},
 	"redemptors_blessing": {
@@ -3451,7 +3451,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, calm emotions, ability to channel positive energy; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, ability to channel positive energy; **Cost** 4,500 gp"
 		]
 	},
 	"sandstorm_dust": {
@@ -3470,7 +3470,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, sirocco; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/sirocco}; **Cost** 4,500 gp"
 		]
 	},
 	"three_reasons_to_live": {
@@ -3487,7 +3487,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shout; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shout}; **Cost** 4,500 gp"
 		]
 	},
 	"strand_of_prayer_beads_lesser": {
@@ -3522,7 +3522,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item} and one of the following spells per bead, as appropriate: bless (blessing); cure serious wounds, remove blindness/deafness, or remove disease (healing); righteous might (karma); gate (summons); chaos hammer, holy smite, order's wrath, or unholy blight (smiting); wind walk (wind walking); **Cost** 4,800 gp (Lesser), 22,900 gp (Standard), 47,900 gp (Greater)"
+			"**Requirements** {feat/Craft Wondrous Item} and one of the following spells per bead, as appropriate: {spell/bless} (blessing); {spell/cure serious wounds}, {spell/remove blindness//deafness}, or {spell/remove disease} (healing); {spell/righteous might} (karma); {spell/gate} (summons); {spell/chaos hammer}, {spell/holy smite}, {spell/order's wrath}, or {spell/unholy blight} (smiting); {spell/wind walk} (wind walking); **Cost** 4,800 gp (Lesser), 22,900 gp (Standard), 47,900 gp (Greater)"
 		]
 	},
 	"lesser_strand_of_prayer_beads": {
@@ -3576,7 +3576,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, greater heroism, heal; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/greater heroism}, {spell/heal}; **Cost** 5,000 gp"
 		]
 	},
 	"ancestral_clasp": {
@@ -3612,7 +3612,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, consecrate; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/consecrate}; **Cost** 5,000 gp"
 		]
 	},
 	"black_feather_fan": {
@@ -3629,7 +3629,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gust of wind, whispering wind, wind wall; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gust of wind}, {spell/whispering wind}, {spell/wind wall}; **Cost** 5,000 gp"
 		]
 	},
 	"book_thiefs_satchel": {
@@ -3650,7 +3650,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, secret chest, steal book; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/secret chest}, {spell/steal book}; **Cost** 5,000 gp"
 		]
 	},
 	"boundary_chalk": {
@@ -3667,7 +3667,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, wall of force; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/wall of force}; **Cost** 5,000 gp"
 		]
 	},
 	"chime_of_resounding_silence": {
@@ -3684,7 +3684,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shout, silence; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shout}, {spell/silence}; **Cost** 5,000 gp"
 		]
 	},
 	"codex_of_conversations": {
@@ -3705,7 +3705,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience/clairvoyance, comprehend languages, illusory script; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}, {spell/comprehend languages}, {spell/illusory script}; **Cost** 5,000 gp"
 		]
 	},
 	"commanders_banner": {
@@ -3724,7 +3724,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor, creator must have 5 ranks in the Diplomacy skill; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}, creator must have 5 ranks in the Diplomacy skill; **Cost** 5,000 gp"
 		]
 	},
 	"construct_channel_brick": {
@@ -3744,7 +3744,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, make whole; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/make whole}; **Cost** 5,000 gp"
 		]
 	},
 	"stone_horse_courser": {
@@ -3769,7 +3769,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, animate objects, flesh to stone; **Cost** 5,000 gp (Courser), 7,400 gp (Destrier)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/flesh to stone}; **Cost** 5,000 gp (Courser), 7,400 gp (Destrier)"
 		]
 	},
 	"stone_horse_destrier": {
@@ -3793,7 +3793,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cause fear; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cause fear}; **Cost** 5,000 gp"
 		]
 	},
 	"drum_of_advance_and_retreat": {
@@ -3810,7 +3810,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, expeditious retreat; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/expeditious retreat}; **Cost** 5,000 gp"
 		]
 	},
 	"eldritch_egress": {
@@ -3829,7 +3829,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, passwall; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/passwall}; **Cost** 5,000 gp"
 		]
 	},
 	"embalming_thread": {
@@ -3848,7 +3848,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gentle repose, stoneskin; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gentle repose}, {spell/stoneskin}; **Cost** 5,000 gp"
 		]
 	},
 	"eye_of_the_void": {
@@ -3865,7 +3865,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fear; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fear}; **Cost** 5,000 gp"
 		]
 	},
 	"hourglass_of_last_chances": {
@@ -3884,7 +3884,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, freedom of movement, heal; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/freedom of movement}, {spell/heal}; **Cost** 5,000 gp"
 		]
 	},
 	"hunters_tree_fort": {
@@ -3907,7 +3907,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, warp wood, rope trick; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/warp wood}, {spell/rope trick}; **Cost** 5,000 gp"
 		]
 	},
 	"ki_mat": {
@@ -3927,7 +3927,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, lesser restoration, creator must be a monk; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/lesser restoration}, creator must be a monk; **Cost** 5,000 gp"
 		]
 	},
 	"lorestone": {
@@ -3946,7 +3946,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, commune with nature, creator must speak Druidic, creator must have 15 ranks in Knowledge (nature); **Cost** varies"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/commune with nature}, creator must speak Druidic, creator must have 15 ranks in Knowledge (nature); **Cost** varies"
 		]
 	},
 	"malleable_symbol": {
@@ -3969,7 +3969,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mass cure light wounds, creator must be able to channel energy; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mass cure light wounds}, creator must be able to channel energy; **Cost** 5,000 gp"
 		]
 	},
 	"meltdown_safe": {
@@ -3986,7 +3986,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, fire trap, secret chest; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fire trap}, {spell/secret chest}; **Cost** 5,000 gp"
 		]
 	},
 	"migrus_locker": {
@@ -4007,7 +4007,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, reincarnate or stone to flesh; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/reincarnate} or {spell/stone to flesh}; **Cost** 5,000 gp"
 		]
 	},
 	"molech": {
@@ -4024,7 +4024,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bless, produce flame, unholy blight; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bless}, {spell/produce flame}, {spell/unholy blight}; **Cost** 5,000 gp"
 		]
 	},
 	"orb_of_consumption": {
@@ -4041,7 +4041,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bestow curse, eagle's splendor; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}, {spell/eagle's splendor}; **Cost** 5,000 gp"
 		]
 	},
 	"ornament_of_healing_light": {
@@ -4075,7 +4075,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, align weapon; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/align weapon}; **Cost** 5,000 gp"
 		]
 	},
 	"summon_slave_crystal": {
@@ -4092,7 +4092,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, magic jar; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic jar}; **Cost** 5,000 gp"
 		]
 	},
 	"lords_banner_swiftness": {
@@ -4122,7 +4122,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, eagle's splendor (leadership), hallow (crusades), freedom of movement (swiftness), fear (terror), heroism (victory); **Cost** 5,000 gp (Swiftness), 28,000 gp (Terror), 37,500 gp (Victory), 50,000 gp (Crusades)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor} (leadership), {spell/hallow} (crusades), {spell/freedom of movement} (swiftness), {spell/fear} (terror), {spell/heroism} (victory); **Cost** 5,000 gp (Swiftness), 28,000 gp (Terror), 37,500 gp (Victory), 50,000 gp (Crusades)"
 		]
 	},
 	"lords_banner_terror": {

@@ -298,7 +298,7 @@
 			"**Prerequisites:** {feat/Far Shot}, {feat/Precise Shot}.  ",
 			"**Benefit:** Whenever you gain a magic bonus on an attack roll with a ranged weapon, you can deduct any range penalties from your damage roll, instead of your attack roll.",
 			"",
-			"Additionally, when you gain a magic bonus on a ranged attack roll, you can deal sneak attack damage to a target that has concealment (but not total concealment) as long as the attack otherwise qualifies to deal sneak attack damage. The maximum number of sneak attack dice you can use in this way is equal to the value of your magic bonus on attack rolls."
+			"Additionally, when you gain a magic bonus on a ranged attack roll, you can deal sneak attack damage to a target that has {rule/concealment} (but not total concealment) as long as the attack otherwise qualifies to deal sneak attack damage. The maximum number of sneak attack dice you can use in this way is equal to the value of your magic bonus on attack rolls."
 		]
 	},
 	"adaptive_fortune": {
@@ -581,7 +581,7 @@
 			"",
 			"You temporarily blind yourself with blood to heighten your other senses.",
 			"",
-			"Obedience: Scratch at your eyes with your fingernails, jagged metal shavings, and thorny branches, allowing the blood from your wounds to form thick scabs over your eyelids and tear ducts. Take a -4 penalty on vision-based Perception checks, and anytime you make an attack against a target benefiting from concealment, increase the miss chance by 10% (maximum 50%). Gain a +4 bonus on saving throws against illusions in the pattern subschool and against gaze attacks.",
+			"Obedience: Scratch at your eyes with your fingernails, jagged metal shavings, and thorny branches, allowing the blood from your wounds to form thick scabs over your eyelids and tear ducts. Take a -4 penalty on vision-based Perception checks, and anytime you make an attack against a target benefiting from {rule/concealment}, increase the miss chance by 10% (maximum 50%). Gain a +4 bonus on saving throws against illusions in the pattern subschool and against gaze attacks.",
 			"",
 			"Boon 1: Creatures affected by your agony strike have the distance they can see in areas of dim light and darkness reduced by 50%.",
 			"",
@@ -4191,7 +4191,7 @@
 			"",
 			"Your lack of sight enables you to strike your foes with uncanny precision.  ",
 			"**Prerequisites:** {feat/Blinded Blade Style}, Perception 10 ranks.  ",
-			"**Benefit:** While you are using Blinded Blade Style and you are blinded or unable to see, you do not need to succeed at Perception checks to pinpoint the location of creatures within reach of your melee weapon, or your unmodified reach if you are not wielding a melee weapon. This ability functions like blindsense, except creatures you cannot see do not gain total concealment against you. Having this feat counts as having 15 ranks in Perception for the purpose of satisfying the prerequisites of the {feat/Greater Blind-Fight} feat, as well as any feat that lists Greater Blind-Fight as a prerequisite."
+			"**Benefit:** While you are using Blinded Blade Style and you are blinded or unable to see, you do not need to succeed at Perception checks to pinpoint the location of creatures within reach of your melee weapon, or your unmodified reach if you are not wielding a melee weapon. This ability functions like blindsense, except creatures you cannot see do not gain total {rule/concealment} against you. Having this feat counts as having 15 ranks in Perception for the purpose of satisfying the prerequisites of the {feat/Greater Blind-Fight} feat, as well as any feat that lists Greater Blind-Fight as a prerequisite."
 		]
 	},
 	"blinded_master": {
@@ -4220,7 +4220,7 @@
 			"{SOURCE PRPG Core Rulebook/118}",
 			"",
 			"You are skilled at attacking opponents that you cannot clearly perceive.  ",
-			"**Benefit:** In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit.",
+			"**Benefit:** In melee, every time you miss because of {rule/concealment}, you can reroll your miss chance percentile roll one time to see if you actually hit.",
 			"",
 			"An invisible attacker gets no advantages related to hitting you in melee. That is, you don't lose your Dexterity bonus to Armor Class, and the attacker doesn't get the usual +2 bonus for being invisible. The invisible attacker's bonuses do still apply for ranged attacks, however.",
 			"",
