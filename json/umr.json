@@ -388,7 +388,7 @@
 			"## Dual Initiative (Ex) [Mythic]",
 			"",
 			"{SOURCE Mythic Adventures/227}  ",
-			"The creature gets two turns each round, one on its initiative count and another on its initiative count - 20. For example, if the monster's initiative is 23, on its first turn it could make a full attack (and take a 5-foot step) at initiative 23, and on its second turn at initiative 3 it could take a move action and cast a spell. This allows the monster to perform two actions per round that normally take an entire round, such as using a [summon monster](spell/summon_monster_1) spell. For the purposes of spells and effects that have a duration of a round or longer or trigger at the beginning of the creature's round or the start of its turn (such as saving throws against ongoing effects or taking bleed damage), only the monster's first turn each round counts toward such durations.",
+			"The creature gets two turns each round, one on its initiative count and another on its initiative count - 20. For example, if the monster's initiative is 23, on its first turn it could make a full attack (and take a 5-foot step) at initiative 23, and on its second turn at initiative 3 it could take a move action and cast a spell. This allows the monster to perform two actions per round that normally take an entire round, such as using a {spell/summon monster>_1} spell. For the purposes of spells and effects that have a duration of a round or longer or trigger at the beginning of the creature's round or the start of its turn (such as saving throws against ongoing effects or taking bleed damage), only the monster's first turn each round counts toward such durations.",
 			"",
 			"**Format:** 21  ",
 			"**Location:** Init."
@@ -448,7 +448,7 @@
 			"## Plantbringer (Su) [Mythic]",
 			"",
 			"{SOURCE Bestiary 4/297}  ",
-			"All plants within a 1-mile radius of the creature grow at double their normal rate and don't suffer from any diseases or maladies. Allied plant creatures within 30 feet of the creature gain fast healing equal to the creature's mythic rank. If the creature uses [plant shape](spell/plant_shape_1) or wild shape to take the form of a plant, it gains this fast healing in plant form.",
+			"All plants within a 1-mile radius of the creature grow at double their normal rate and don't suffer from any diseases or maladies. Allied plant creatures within 30 feet of the creature gain fast healing equal to the creature's mythic rank. If the creature uses {spell/plant shape>_1} or wild shape to take the form of a plant, it gains this fast healing in plant form.",
 			"",
 			"**Format:** plantbringer  ",
 			"**Location:** SQ"
@@ -503,7 +503,7 @@
 			"{SOURCE Bestiary 5/297}  ",
 			"A creature with this ability can use the power of its mind to cast certain spells. Each spell cast using psychic magic consumes an amount of psychic energy. The creature has a maximum amount of psychic energy (PE) per day that refreshes after a night's rest. A creature with this ability can cast any of the spells listed in this entry as long as it has enough psychic energy remaining to pay the spell's PE cost. The DC for any of these spells is equal to 10 + the amount of psychic energy used to cast the spell + the creature's Charisma or Intelligence modifier (whichever is higher). A creature that gains access to [undercast spells](rule/undercasting_spells) via this ability can cast an undercast version of the spell by spending 1 PE fewer for each level lower that the spell is cast. A psychic magic spell with a PE cost of 0 can be cast any number of times, and can be cast even if the creature has 0 PE remaining. The psychic magic granted by this ability has the same thought and emotion components as psychic spells. The monster can apply metamagic feats to these spells by spending an amount of additional PE equal to the level increase of the metamagic feat and by increasing the casting time as normal for spontaneously casting a metamagic spell. Because this ability grants psychic spellcasting, it also allows the creature to use {rule/occult skill unlocks}.",
 			"",
-			"**Format:** Psychic Magic (Sp) (CL 10th; concentration +14) 12 PE-{spell/charm person} (1 PE, DC 14), {spell/disguise self} (2 PE), [mind thrust III](spell/mind_thrust_3) (3 PE, DC 16), [tower of iron will I](spell/tower_of_iron_will_1) (5 PE)  ",
+			"**Format:** Psychic Magic (Sp) (CL 10th; concentration +14) 12 PE-{spell/charm person} (1 PE, DC 14), {spell/disguise self} (2 PE), {spell/mind thrust III} (3 PE, DC 16), {spell/tower of iron will I} (5 PE)  ",
 			"**Location:** before Spell-Like Abilities."
 		]
 	},
@@ -1789,7 +1789,7 @@
 			"## Summon (Sp)",
 			"",
 			"{SOURCE Bestiary 5/300}  ",
-			"A creature with the summon ability can summon other specific creatures of its kind much as though casting a [summon monster](spell/summon_monster_1) spell, but it usually has only a limited chance of success (as specified in the creature's entry). Roll d%; on a failure, no creature answers the summons. Summoned creatures automatically return to wherever they came from after 1 hour. A creature summoned in this way cannot use any spells or spell-like abilities that require material components costing more than 1 gp unless those components are supplied, nor can it use its own summon ability for 1 hour. An appropriate spell level is given for each summoning ability for the purposes of caster level checks, concentration checks, and Will saves. No experience points are awarded for defeating summoned monsters.",
+			"A creature with the summon ability can summon other specific creatures of its kind much as though casting a {spell/summon monster>_1} spell, but it usually has only a limited chance of success (as specified in the creature's entry). Roll d%; on a failure, no creature answers the summons. Summoned creatures automatically return to wherever they came from after 1 hour. A creature summoned in this way cannot use any spells or spell-like abilities that require material components costing more than 1 gp unless those components are supplied, nor can it use its own summon ability for 1 hour. An appropriate spell level is given for each summoning ability for the purposes of caster level checks, concentration checks, and Will saves. No experience points are awarded for defeating summoned monsters.",
 			"",
 			"**Format:** 1/day-summon (level 4, 1 {monster/hezrou} 35%)  ",
 			"**Location:** Spell-Like Abilities."

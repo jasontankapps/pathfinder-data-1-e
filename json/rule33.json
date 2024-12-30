@@ -365,7 +365,7 @@
 			"",
 			"***Critical Called Shot:*** A critical hit to the ear deafens that ear for 2d6 minutes and leaves the target staggered for 1 round. The target also suffers the effects of a called shot to the ear for that duration.",
 			"",
-			"***Debilitating Blow:*** A debilitating blow to the ear destroys that ear and stuns the target for 1 round, then leaves it staggered for 1d4 rounds, and deafened until removed with the [remove blindness/deafness](spell/remove_blindness_deafness) spell or a similar effect. A successful Fortitude saving throw deafens the creature until it is restored by the [remove blindness/deafness](spell/remove_blindness_deafness) spell or a similar effect."
+			"***Debilitating Blow:*** A debilitating blow to the ear destroys that ear and stuns the target for 1 round, then leaves it staggered for 1d4 rounds, and deafened until removed with the {spell/remove blindness//deafness} spell or a similar effect. A successful Fortitude saving throw deafens the creature until it is restored by the {spell/remove blindness//deafness} spell or a similar effect."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -398,7 +398,7 @@
 			"",
 			"***Critical Called Shot:*** A critical hit to the eye costs the target sight in that eye for 1d4 minutes. The target also suffers the effects of a called shot to the eye for that duration.",
 			"",
-			"***Debilitating Blow:*** A debilitating blow to the eye destroys that eye, causes blindness until the condition is removed with a [remove blindness/deafness](spell/remove_blindness_deafness) spell or similar effect, and deals 1d6 points of bleed damage. A successful Reflex saving throw reduces this to 1d4 hours of loss of sight in that eye and eliminates the bleeding. The target also suffers the effects of a called shot to the eye for 2d6 minutes."
+			"***Debilitating Blow:*** A debilitating blow to the eye destroys that eye, causes blindness until the condition is removed with a {spell/remove blindness//deafness} spell or similar effect, and deals 1d6 points of bleed damage. A successful Reflex saving throw reduces this to 1d4 hours of loss of sight in that eye and eliminates the bleeding. The target also suffers the effects of a called shot to the eye for 2d6 minutes."
 		],
 		"parent_topics": [
 			"optional_combat_changes",

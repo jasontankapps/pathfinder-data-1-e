@@ -2445,7 +2445,7 @@
 			"{SOURCE Cheliax, Empire of Devils/27}",
 			"",
 			"You are difficult to see in the light.  ",
-			"**Prerequisites:** [Skill Focus (Stealth)](feat/skill_focus), Stealth 6 ranks.  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Stealth)}, Stealth 6 ranks.  ",
 			"**Benefit:** You may make Stealth checks in normal or bright light even when observed, but at a -10 penalty.  ",
 			"**Normal:** You cannot make Stealth checks while observed."
 		]
@@ -3769,7 +3769,7 @@
 			"{SOURCE Ultimate Magic/153}",
 			"",
 			"Your summoned minions are infused with the power of the moon.  ",
-			"**Prerequisites:** [Spell Focus (conjuration)](feat/spell_focus), able to cast summon nature's ally.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}, able to cast summon nature's ally.  ",
 			"**Benefit:** Creatures you summon shed light as a light spell. They are immune to confusion and sleep effects, and their natural weapons are treated as silver for the purposes of overcoming damage reduction."
 		]
 	},
@@ -4691,7 +4691,7 @@
 			"{SOURCE Monster Hunter's Handbook/15}",
 			"",
 			"Once you have even the trace of a creature you're tracking, you can't be thrown off the trail.  ",
-			"**Prerequisites:** [Skill Focus (Perception)](feat/skill_focus), Perception 3 ranks.  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Perception)}, Perception 3 ranks.  ",
 			"**Benefit:** You can use Perception (rather than Survival) to follow tracks. After you track a creature using the Perception skill, you gain a +2 insight bonus on Perception checks to avoid being surprised by that creature for 1 hour. If you have 10 or more ranks in Perception, this bonus increases to +4."
 		]
 	},
@@ -4878,7 +4878,7 @@
 			"{SOURCE Monster Codex/153;Classic Monsters Revisited/49}",
 			"",
 			"You excel at hunting humans in the dead of night and murdering them quietly.  ",
-			"**Prerequisites:** [Skill Focus (Stealth)](feat/skill_focus), darkvision, half-ogre or ogre, size Large or larger.  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Stealth)}, darkvision, half-ogre or ogre, size Large or larger.  ",
 			"**Benefit:** While in areas of dim lighting or natural darkness, you ignore all size penalties on Stealth checks and gain a +2 bonus on attack rolls against flat-footed enemies."
 		]
 	},
@@ -5010,7 +5010,7 @@
 			"{SOURCE Inner Sea Gods/214;Faiths of Purity/24}",
 			"",
 			"Your summoned natural allies may walk the wild parts of the world unimpeded.  ",
-			"**Prerequisites:** Augment Summoning, [Spell Focus (conjuration)](feat/spell_focus), ability to cast summon nature's ally, caster level 6th, worshiper of Erastil.  ",
+			"**Prerequisites:** Augment Summoning, {feat/Spell Focus/ (conjuration)}, ability to cast summon nature's ally, caster level 6th, worshiper of Erastil.  ",
 			"**Benefit:** Creatures you summon with summon nature's ally can move through any sort of undergrowth (such as natural thorns, briars, and similar terrain) at their normal speeds without taking damage or suffering other impairment. Thorns, briars, and undergrowth areas that have been magically manipulated to impede motion, however, still affect summoned creatures."
 		]
 	},

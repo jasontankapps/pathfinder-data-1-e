@@ -1457,7 +1457,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [intellect fortress III](spell/intellect_fortress_3), [mental barrier III](spell/mental_barrier_3), {spell/overland flight}, {spell/plane shift}, [thought shield III](spell/thought_shield_3), [tower of iron will II](spell/tower_of_iron_will_2); **Cost** 90,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/intellect fortress III}, {spell/mental barrier III}, {spell/overland flight}, {spell/plane shift}, {spell/thought shield III}, {spell/tower of iron will II}; **Cost** 90,000 gp"
 		]
 	},
 	"bastion_banner": {

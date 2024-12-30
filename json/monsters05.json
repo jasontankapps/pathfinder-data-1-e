@@ -720,7 +720,7 @@
 			"",
 			"**Str** 19, **Dex** 12, **Con** 17, **Int** 4, **Wis** 13, **Cha** 10  ",
 			"**Base Atk** +9; **CMB** +14; **CMD** 25 (29 vs. trip)  ",
-			"**Feats** {feat/Hover}, {feat/Improved Initiative}, {feat/Iron Will}, [Skill Focus (Perception)](feat/skill_focus), {feat/Toughness}  ",
+			"**Feats** {feat/Hover}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Skill Focus/ (Perception)}, {feat/Toughness}  ",
 			"**Skills** Fly +2, Perception +10, Stealth +4 (+8 in scrubland or brush); **Racial Modifiers** +2 Perception, +4 Stealth in scrubland or brush  ",
 			"**Languages** Draconic",
 			"",
@@ -785,7 +785,7 @@
 			"",
 			"**Str** 27, **Dex** 10, **Con** 21, **Int** 5, **Wis** 12, **Cha** 10  ",
 			"**Base Atk** +17; **CMB** +27 (+31 grapple); **CMD** 37  ",
-			"**Feats** {feat/Cleave}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Power Attack}, [Skill Focus (Perception)](feat/skill_focus), {feat/Vital Strike}  ",
+			"**Feats** {feat/Cleave}, [Improved Critical (bite)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Vital Strike}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Skill Focus/ (Perception)}, {feat/Vital Strike}  ",
 			"**Skills** Perception +20, Stealth +2 (+6 in scrubland or brush); **Racial Modifiers** +4 Stealth in scrubland or brush  ",
 			"**Languages** Draconic",
 			"",
@@ -907,7 +907,7 @@
 			"",
 			"**Str** 16, **Dex** 14, **Con** 13, **Int** 4, **Wis** 13, **Cha** 7  ",
 			"**Base Atk** +2; **CMB** +4 (+8 grappling); **CMD** 16  ",
-			"**Feats** {feat/Improved Initiative}, [Skill Focus (Stealth)](feat/skill_focus)  ",
+			"**Feats** {feat/Improved Initiative}, {feat/Skill Focus/ (Stealth)}  ",
 			"**Skills** Climb +16, Stealth +13  ",
 			"**SQ** quickness",
 			"",
@@ -1244,7 +1244,7 @@
 			"",
 			"**Str** -, **Dex** 33, **Con** -, **Int** 10, **Wis** 19, **Cha** 25  ",
 			"**Base Atk** +13; **CMB** +24; **CMD** 42  ",
-			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, [Improved Critical (incorporeal touch)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Mobility}, [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, [Improved Critical (incorporeal touch)](feat/improved_critical), {feat/Improved Initiative}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Mobility}, {feat/Skill Focus/ (Perception)}  ",
 			"**Skills** Fly +40, Intimidate +28, Perception +31, Sense Motive +25  ",
 			"**Languages** Thassilonian",
 			"",
@@ -2053,7 +2053,7 @@
 			"",
 			"**Str** 21, **Dex** 16, **Con** 19, **Int** 14, **Wis** 15, **Cha** 14  ",
 			"**Base Atk** +4; **CMB** +10; **CMD** 23 (can't be tripped)  ",
-			"**Feats** {feat/Combat Reflexes}, {feat/Improved Initiative}, [Skill Focus (Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Skill Focus/ (Perception)}  ",
 			"**Skills** Disguise +8 (+16 as cloak), Fly +10, Knowledge (religion) +11, Perception +14, Sense Motive +8, Stealth +8; **Racial Modifiers** +8 Disguise to appear as a cloak, sheet, manta ray, or similarly shaped object or creature  ",
 			"**Languages** Undercommon",
 			"",
@@ -2635,7 +2635,7 @@
 			"",
 			"**CL** 12th; **Price** 9,250 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/burning hands}, [geas/quest](spell/geas_quest), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 5,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/burning hands}, {spell/geas//quest}, creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 5,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2852,7 +2852,7 @@
 			"",
 			"**CL** 12th; **Price** 40,250 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, [Exotic Weapon Proficiency (pistol)](feat/exotic_weapon_proficiency), {spell/haste}, [geas/quest](spell/geas_quest), {spell/slow}, creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 21,750 gp",
+			"**Requirements** {feat/Craft Construct}, [Exotic Weapon Proficiency (pistol)](feat/exotic_weapon_proficiency), {spell/haste}, {spell/geas//quest}, {spell/slow}, creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 21,750 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3184,7 +3184,7 @@
 			"",
 			"**CL** 14th; **Price** 200,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/true seeing}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 25; **Cost** 109,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/true seeing}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 25; **Cost** 109,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3280,7 +3280,7 @@
 			"",
 			"**CL** 12th; **Price** 42,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, [geas/quest](spell/geas_quest) and {spell/haste}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 22,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest} and {spell/haste}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 22,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3354,7 +3354,7 @@
 			"",
 			"**CL** 12th; **Price** 95,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3650,7 +3650,7 @@
 			"",
 			"**CL** 12th; **Price** 3,250 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/ghost sound}, {spell/haste}, {spell/heroism}, {spell/sleep}, creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 1,750 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/ghost sound}, {spell/haste}, {spell/heroism}, {spell/sleep}, creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 1,750 gp"
 		]
 	},
 	"clockwork_songbird": { "copyof": "clockwork_clockwork_songbird" },

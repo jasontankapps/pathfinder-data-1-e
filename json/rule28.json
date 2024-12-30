@@ -387,7 +387,7 @@
 			"",
 			"***Feats:*** The following feats are used by many of those who ally with or join the Inheritors, but they are no longer considered secret and are available to anyone to select, regardless of affiliation; those who seek to join or become affiliated with the organization are well advised to select one or both of the following feats themselves in their lore: {feat/Cypher Magic}, {feat/Cypher Script}",
 			"",
-			"***Spells:*** Some of the spells they've researched and invented on their own, such as {spell/codespeak}, have gone on to become widespread in their use, but others, such as those detailed below, remain controlled by the Inheritors and are generally only available to their members and affiliates: [Absorb Rune I-III](spell/absorb_rune_1), {spell/Hidden Knowledge}, {spell/Rune Trace}, {spell/Rune of Rule}, {spell/Slave to Sin}"
+			"***Spells:*** Some of the spells they've researched and invented on their own, such as {spell/codespeak}, have gone on to become widespread in their use, but others, such as those detailed below, remain controlled by the Inheritors and are generally only available to their members and affiliates: {spell/Absorb Rune I/-III}, {spell/Hidden Knowledge}, {spell/Rune Trace}, {spell/Rune of Rule}, {spell/Slave to Sin}"
 		],
 		"parent_topics": [
 			"optional_subsystems",

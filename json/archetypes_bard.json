@@ -772,7 +772,7 @@
 			"| 14th | 8,000 gp | 50,000 gp |",
 			"| 18th | 32,000 gp | 200,000 gp |",
 			"",
-			"**Summon Fey Allies:** At 3rd level, the fey courtier gains {feat/Augment Summoning} as a bonus feat and can call upon natural allies who owe him favors. He adds {spell/summon nature's ally I} to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher [summon nature's ally](spell/summon_natures_ally_1) spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster/grimple), {monster/mite}, {monster/sprite}; 2nd-{monster/atomie}, [fuath (gremlin)](monster/fuath), {monster/nixie}; 3rd-{monster/leprechaun}, [nuglub (gremlin)](monster/nuglub), {monster/pooka}; 4th-{monster/kelpie}, {monster/korred}, {monster/twigjack}; 5th-{monster/lampad}, {monster/lurker in light}, {monster/swan maiden}; 6th-{monster/cold rider}, {monster/oceanid}, {monster/sangoi}.",
+			"**Summon Fey Allies:** At 3rd level, the fey courtier gains {feat/Augment Summoning} as a bonus feat and can call upon natural allies who owe him favors. He adds {spell/summon nature's ally I} to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher {spell/summon nature's ally>_1} spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster/grimple), {monster/mite}, {monster/sprite}; 2nd-{monster/atomie}, [fuath (gremlin)](monster/fuath), {monster/nixie}; 3rd-{monster/leprechaun}, [nuglub (gremlin)](monster/nuglub), {monster/pooka}; 4th-{monster/kelpie}, {monster/korred}, {monster/twigjack}; 5th-{monster/lampad}, {monster/lurker in light}, {monster/swan maiden}; 6th-{monster/cold rider}, {monster/oceanid}, {monster/sangoi}.",
 			"",
 			"This replaces inspire competence."
 		]
@@ -866,7 +866,7 @@
 			"{SOURCE Legacy of the First World/11}  ",
 			"Most cultures tell stories of people stolen away by the fey, only to return years later, forever changed. The First World minstrel was changed in such a way by the fey, and his performances channel the mysterious powers of the First World.",
 			"",
-			"**Fey Magic:** A First World minstrel adds [summon nature's ally](spell/summon_natures_ally_1) spells to his spell list instead of the equivalent [summon monster](spell/summon_monster_1) spells.",
+			"**Fey Magic:** A First World minstrel adds {spell/summon nature's ally>_1} spells to his spell list instead of the equivalent {spell/summon monster>_1} spells.",
 			"",
 			"This ability alters the First World minstrel's spell list.",
 			"",
@@ -918,7 +918,7 @@
 			"{SOURCE Elemental Master's Handbook/5}  ",
 			"The flamesinger finds inspiration in the mesmerizing beauty of fire. While the flamesinger's tradition originated among the varied peoples of the Padishah Empire of Kelesh, it long ago spread to Qadira and from there throughout the Inner Sea region.",
 			"",
-			"**Fire Music:** A flamesinger gains {feat/Fire Music} as a bonus feat at 1st level (without needing the meet the normal prerequisites). At 4th level (when she gains access to 2nd-level spells), she adds {spell/summon monster I} and {spell/summon monster II} to her bard spells known; every 3 levels thereafter she gains the next level of [summon monster](spell/summon_monster_1), until she adds {spell/summon monster VI} to her spells known at 16th level. The flamesinger must apply the {feat/Fire Music} feat's effect when casting these spells.",
+			"**Fire Music:** A flamesinger gains {feat/Fire Music} as a bonus feat at 1st level (without needing the meet the normal prerequisites). At 4th level (when she gains access to 2nd-level spells), she adds {spell/summon monster I} and {spell/summon monster II} to her bard spells known; every 3 levels thereafter she gains the next level of {spell/summon monster>_1}, until she adds {spell/summon monster VI} to her spells known at 16th level. The flamesinger must apply the {feat/Fire Music} feat's effect when casting these spells.",
 			"",
 			"This ability replaces bardic knowledge and lore master.",
 			"",
@@ -1118,7 +1118,7 @@
 			"",
 			"This ability replaces well-versed.",
 			"",
-			"**Bonus Feats:** At 1st level, a lotus geisha gains [Spell Focus (enchantment)](feat/spell_focus) as a bonus feat. At 5th level, she gains [Greater Spell Focus (enchantment)](feat/greater_spell_focus) as a bonus feat. These bonus feats replace bardic knowledge and lore master."
+			"**Bonus Feats:** At 1st level, a lotus geisha gains {feat/Spell Focus/ (enchantment)} as a bonus feat. At 5th level, she gains {feat/Greater Spell Focus/ (enchantment)} as a bonus feat. These bonus feats replace bardic knowledge and lore master."
 		]
 	},
 	"luring_piper": {
@@ -1298,7 +1298,7 @@
 			"",
 			"**Fast Talk (Su):** At 1st level, a negotiator can use performance to affect the perceptions of any number of targets that can hear him. While the negotiator performs, these targets take a -1 penalty on saving throws against enchantment (charm) and illusion (figment, glamer, or shadow) effects, as well as a penalty on Appraise checks equal to half the negotiator's level (minimum -1). A target that fails its Appraise check believes that the object in question is worth 10% more or less (negotiator's choice) than its actual value. At 5th, 11th, and 17th levels, the saving throw penalty increases by 1 and the shift in an object's perceived value increases by 10%. Fast talk is a language-dependent, mind-affecting ability that uses audible components. This performance replaces inspire courage.",
 			"",
-			"**Binding Contract (Sp):** At 9th level, the negotiator can bind another creature's promise to the negotiator with a geas. This acts as {spell/lesser geas}, except the creature must have Hit Dice equal to or less than the negotiator's level. The target can negate this effect with a successful Will save (DC = 10 + 1/2 the negotiator's level + the negotiator's Charisma modifier). The geas is discharged if the negotiator breaks his end of the bargain. Using this ability requires 3 rounds of continuous performance, and the target must be able to see and hear the bard throughout the performance. At 18th level, this effect acts as [geas/quest](spell/geas_quest) (no HD limit, and the target cannot attempt a saving throw). Binding contract is an enchantment (compulsion), mind-affecting, language-dependent ability that relies on audible components. This performance replaces inspire greatness.",
+			"**Binding Contract (Sp):** At 9th level, the negotiator can bind another creature's promise to the negotiator with a geas. This acts as {spell/lesser geas}, except the creature must have Hit Dice equal to or less than the negotiator's level. The target can negate this effect with a successful Will save (DC = 10 + 1/2 the negotiator's level + the negotiator's Charisma modifier). The geas is discharged if the negotiator breaks his end of the bargain. Using this ability requires 3 rounds of continuous performance, and the target must be able to see and hear the bard throughout the performance. At 18th level, this effect acts as {spell/geas//quest} (no HD limit, and the target cannot attempt a saving throw). Binding contract is an enchantment (compulsion), mind-affecting, language-dependent ability that relies on audible components. This performance replaces inspire greatness.",
 			"",
 			"**Rogue Talents:** At 2nd level, a negotiator gains a [rogue talent](ability/rogue_talents), as the rogue class feature of the same name. At 6th level and every 4 levels thereafter, the negotiator gains an additional rogue talent. A negotiator cannot select a rogue talent that modifies the sneak attack ability. This ability replaces versatile performance.",
 			"",
@@ -1574,7 +1574,7 @@
 			"",
 			"**Shadow Servant (Sp):** At 1st level, the puppeteer can create a shadow servant to perform simple tasks. The shadow servant is identical to an {spell/unseen servant} (caster level equal to the shadow puppeteer's bard level), except it appears as a formless shadow. Shadow servant relies on visual components.",
 			"",
-			"**Shadow Puppets (Sp):** At 1st level, a shadow puppeteer can use bardic performance to create one quasi-real shadowy creature resembling a monster from the {spell/summon monster I} list. These shadowy creatures otherwise work like {spell/shadow conjuration}, and targets interacting with them get a Will saving throw (DC 10 + 1/2 your bard level + your Charisma bonus) to treat them as only 20% real. At 4th level and every three levels thereafter, this ability acts like the next higher version of [summon monster](spell/summon_monster_1) ({spell/summon monster II} at 4th level and so on)."
+			"**Shadow Puppets (Sp):** At 1st level, a shadow puppeteer can use bardic performance to create one quasi-real shadowy creature resembling a monster from the {spell/summon monster I} list. These shadowy creatures otherwise work like {spell/shadow conjuration}, and targets interacting with them get a Will saving throw (DC 10 + 1/2 your bard level + your Charisma bonus) to treat them as only 20% real. At 4th level and every three levels thereafter, this ability acts like the next higher version of {spell/summon monster>_1} ({spell/summon monster II} at 4th level and so on)."
 		]
 	},
 	"silver_balladeer": {

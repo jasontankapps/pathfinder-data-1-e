@@ -955,11 +955,11 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 1,500 gp; **Weight** -;",
 			"",
-			"This small iron key has the number 9 and a right triangle engraved upon it. While the Nine-Eaves key is held, the bearer can use [open/close](spell/open_close) at will, but only to open, not to close. Once per day as a standard action, the bearer can touch the Nine-Eaves key to a magic item. For the following 24 hours, all Use Magic Device skill checks to use or activate the touched magic item gain a +4 insight bonus.",
+			"This small iron key has the number 9 and a right triangle engraved upon it. While the Nine-Eaves key is held, the bearer can use {spell/open//close} at will, but only to open, not to close. Once per day as a standard action, the bearer can touch the Nine-Eaves key to a magic item. For the following 24 hours, all Use Magic Device skill checks to use or activate the touched magic item gain a +4 insight bonus.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/identify}, [open/close](spell/open_close); **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/identify}, {spell/open//close}; **Cost** 750 gp"
 		]
 	},
 	"healers_satchel_normal": {
@@ -3475,7 +3475,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [elemental body I](spell/elemental_body_1); **Cost** 1,400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/elemental body I}; **Cost** 1,400 gp"
 		]
 	},
 	"incense_of_open_thoughts": {

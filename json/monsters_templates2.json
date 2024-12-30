@@ -161,7 +161,7 @@
 			"",
 			"{monster/Marsh Giant}: Marsh mongrels have pale green skin and hairless bodies. They gain a swim speed of 20 feet and can use the following spell-like abilities once per day: {spell/augury}, {spell/bestow curse}, and {spell/fog cloud}. Strength +2.",
 			"",
-			"{monster/Moon Giant}: Moon giant mongrels have pale gray skin that sparkles faintly in dim light. They gain cold resistance 10 and fire resistance 10, and can use the following spell-like abilities once per day: [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/dancing lights}, and {spell/true seeing}. Wisdom +2.",
+			"{monster/Moon Giant}: Moon giant mongrels have pale gray skin that sparkles faintly in dim light. They gain cold resistance 10 and fire resistance 10, and can use the following spell-like abilities once per day: {spell/clairaudience//clairvoyance}, {spell/dancing lights}, and {spell/true seeing}. Wisdom +2.",
 			"",
 			"{monster/Mountain Giant}: Mountain mongrels have warty skin. They gain immunity to fear and can use the following spell-like abilities once per day: {spell/deeper darkness}, {spell/dimension door}, and {spell/invisibility}. Strength +2.",
 			"",
@@ -2529,7 +2529,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, [geas/quest](spell/geas_quest), {spell/magic jar}, soul of a living creature who dies or is slain during the creation process; Skill Craft (gemcutting); **Cost** 5,000 gp + 1,000 gp per Hit Die of the base creature"
+			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, {spell/geas//quest}, {spell/magic jar}, soul of a living creature who dies or is slain during the creation process; Skill Craft (gemcutting); **Cost** 5,000 gp + 1,000 gp per Hit Die of the base creature"
 		]
 	},
 	"spore_zombie": {

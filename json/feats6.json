@@ -163,7 +163,7 @@
 			"{SOURCE Advanced Class Guide/152}",
 			"",
 			"You're able to construct statements and commands that are much more convincing than their content would otherwise suggest.  ",
-			"**Prerequisites:** [Skill Focus (Linguistics)](feat/skill_focus).  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Linguistics)}.  ",
 			"**Benefit:** You can use a Linguistics check in place of a Bluff check to tell a falsehood or conceal information, in place of a Diplomacy check to change the attitude of a creature, or in place of an Intimidate check to force a creature to cooperate. You must deliver your attempt in a language the target understands."
 		]
 	},
@@ -664,7 +664,7 @@
 			"{SOURCE Ultimate Intrigue/88}",
 			"",
 			"You can move with the quiet grace of an owl.  ",
-			"**Prerequisites:** Dex 13, [Skill Focus (Stealth)](feat/skill_focus), Stealth 1 rank.  ",
+			"**Prerequisites:** Dex 13, {feat/Skill Focus/ (Stealth)}, Stealth 1 rank.  ",
 			"**Benefit:** While using this style, you can use your base attack bonus in place of your ranks in Stealth to determine your Stealth skill modifier (as usual, this does not replace your ranks for other purposes, such as determining the effects of {feat/Skill Focus}). While in this stance and using Stealth, you can charge at a -10 penalty beyond the penalty you take for using Stealth at full speed (which is typically -5). Foes that fail their Perception checks and don't otherwise notice you (for instance, with an ability like blindsight) are denied their Dexterity bonuses to AC against all attacks you make against them during or at the end of that charge instead of just against the first attack."
 		]
 	},
@@ -2894,7 +2894,7 @@
 			"{SOURCE Inner Sea Monster Codex/53}",
 			"",
 			"You have a large wingspan for a member of your race, and can use these appendages to batter your foes.  ",
-			"**Prerequisites:** Str 13, [Skill Focus (Fly)](feat/skill_focus), base attack bonus +8.  ",
+			"**Prerequisites:** Str 13, {feat/Skill Focus/ (Fly)}, base attack bonus +8.  ",
 			"**Benefit:** You gain two wing attacks. These are secondary natural attacks that each deal damage appropriate to a creature one size category larger than yourself. You are also considered one size category larger for the purposes of any feats or abilities related to your wings, such as the {feat/Hover} feat.  ",
 			"**Special:** While the following feats are primarily taken by strix, other creatures with natural wings can also take them at the GM's discretion."
 		]
@@ -3754,7 +3754,7 @@
 			"{SOURCE Horror Adventures/91}",
 			"",
 			"You summon creatures whose very presence turns the stomach of your foes.  ",
-			"**Prerequisites:** [Spell Focus (conjuration)](feat/spell_focus); ability to cast summon monster or summon nature's ally.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}; ability to cast summon monster or summon nature's ally.  ",
 			"**Benefit:** When you cast a summon monster or summon nature's ally spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the {umr/stench} universal monster ability. The duration of the sickened condition created by this stench is a number of rounds equal to the spell's level. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast summon monster IV, you summon a creature from the summon monster III list."
 		]
 	},

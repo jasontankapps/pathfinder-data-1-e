@@ -850,7 +850,7 @@
 			"",
 			"**Utilitarian Magic**  ",
 			"{SOURCE Inner Sea Races/211}  ",
-			"Some gnomes develop practical magic to assist them with their obsessive projects. These gnomes add 1 to the DC of any saving throws against transmutation spells they cast. If their Intelligence score is 11 or higher, they also gain the following spell-like abilities: 1/day-{spell/mage hand}, [open/close](spell/open_close), {spell/prestidigitation}, and {spell/unseen servant}. The DC for these spells is equal to 10 + the spell's level + the gnome's Intelligence modifier. This racial trait replaces gnome magic.",
+			"Some gnomes develop practical magic to assist them with their obsessive projects. These gnomes add 1 to the DC of any saving throws against transmutation spells they cast. If their Intelligence score is 11 or higher, they also gain the following spell-like abilities: 1/day-{spell/mage hand}, {spell/open//close}, {spell/prestidigitation}, and {spell/unseen servant}. The DC for these spells is equal to 10 + the spell's level + the gnome's Intelligence modifier. This racial trait replaces gnome magic.",
 			"",
 			"#### Replaces Gnome Magic, Illusion Resistance",
 			"",

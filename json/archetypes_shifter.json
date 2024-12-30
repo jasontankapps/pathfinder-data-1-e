@@ -217,7 +217,7 @@
 			"",
 			"This alters and replaces all improvements to shifter aspect.",
 			"",
-			"**Fey Shape (Su):** At 4th level, a feyform shifter can use her wild shape ability to become a fey creature. The fey shifter must spend at least one use of wild shape to transform into a fey creature; this ability functions as [fey form I](spell/fey_form_1), except that it lasts for only 1 minute per use of wild shape spent. Using fey shape or reverting back is a standard action that does not cause attacks of opportunity. At 8th level this ability instead functions as [fey form II](spell/fey_form_2). At 10th level this ability functions as [fey form III](spell/fey_form_3), and at 14th level it functions as [fey form IV](spell/fey_form_4).",
+			"**Fey Shape (Su):** At 4th level, a feyform shifter can use her wild shape ability to become a fey creature. The fey shifter must spend at least one use of wild shape to transform into a fey creature; this ability functions as {spell/fey form I}, except that it lasts for only 1 minute per use of wild shape spent. Using fey shape or reverting back is a standard action that does not cause attacks of opportunity. At 8th level this ability instead functions as {spell/fey form II}. At 10th level this ability functions as {spell/fey form III}, and at 14th level it functions as {spell/fey form IV}.",
 			"",
 			"This alters wild shape.",
 			"",

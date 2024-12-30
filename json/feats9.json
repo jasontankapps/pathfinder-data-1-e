@@ -29,7 +29,7 @@
 			"{SOURCE Antihero's Handbook/8}",
 			"",
 			"Your recklessness often puts you in harm's way, and you are terrifying to behold when covered in your own blood.  ",
-			"**Prerequisites:** [Skill Focus (Intimidate)](feat/skill_focus).  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Intimidate)}.  ",
 			"**Benefit:** Whenever you take an amount of piercing, slashing, or bleed damage equal to or greater than double your character level, you can attempt an Intimidate check as an immediate action to demoralize the creature that dealt the damage as long as it is within 30 feet of you. If the damage resulted from a critical hit, you can cause the target creature to be sickened instead of shaken if you successfully demoralize it. You can use this feat only once per round to attempt an Intimidate check to demoralize an opponent."
 		]
 	},
@@ -2457,7 +2457,7 @@
 			"{SOURCE Inner Sea Gods/210}",
 			"",
 			"You treat the art of negotiation as devilish science.  ",
-			"**Prerequisites:** [Skill Focus (Diplomacy)](feat/skill_focus), worshiper of Asmodeus.  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Diplomacy)}, worshiper of Asmodeus.  ",
 			"**Benefit:** You can add your Intelligence or Wisdom modifier (whichever is higher) on Diplomacy checks in place of your Charisma modifier. You can shift a creature's attitude more than two steps with Diplomacy, and a creature's attitude is only decreased by one step if you roll a natural 1 and fail the check by 5 or more."
 		]
 	},
@@ -3749,7 +3749,7 @@
 			"{SOURCE Advanced Player's Guide/158}",
 			"",
 			"Your keen magical intuition makes reading signs, portents, and mystical clues quick and easy.  ",
-			"**Prerequisites:** [Spell Focus (divination)](feat/spell_focus).  ",
+			"**Prerequisites:** {feat/Spell Focus/ (divination)}.  ",
 			"**Benefit:** You gain a +2 bonus on caster level checks with divinations to overcome spell resistance or effects that impede divination (for example, nondetection). When using a divination spell that requires concentration, you gain information from the spell 1 round sooner than normal (so you gain information from the first 2 rounds with 1 round of concentration, and information from the third round in the second round of concentration)."
 		]
 	},
@@ -3873,7 +3873,7 @@
 			"{SOURCE We Be Goblins Free!/15;We Be Goblins!/12;We Be Goblins Too!/13}",
 			"",
 			"Unlike many goblins, you're not particularly afraid of dogs. You know what dogs smell like, and that smell makes you mad - very mad.  ",
-			"**Prerequisites:** [Skill Focus (Perception)](feat/skill_focus), goblin.  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Perception)}, goblin.  ",
 			"**Benefit:** You gain the scent ability, but only against canines (including dogs, goblin dogs, wolves, worgs, yeth hounds, and any similar creatures, subject to GM approval). Against these creatures, you gain a +1 morale bonus on attack rolls and a +2 morale bonus on weapon damage rolls."
 		]
 	},

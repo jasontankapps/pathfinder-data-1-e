@@ -638,7 +638,7 @@
 			"{SOURCE Inner Sea Magic/15}",
 			"",
 			"You can tap into the Plane of Shadow to momentarily lend reality to one of your illusion (figment) spells.  ",
-			"**Prerequisites:** [Spell Focus (illusion)](feat/spell_focus), caster level 5th.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (illusion)}, caster level 5th.  ",
 			"**Benefit:** As a standard action, you can draw upon energies from the Plane of Shadow to cause an ongoing figment spell you cast to damage a foe as if the illusion were real. The illusion must be one you retain ongoing control of, such as minor image, and the target must be both visible to you and within or adjacent to the area of your illusion. Using this feat immediately ends the figment's duration.",
 			"",
 			"You must either make a melee touch attack or give the target a saving throw (Fortitude or Reflex) to resist the damage (see below). If you choose a melee touch attack, you use your own melee touch attack bonus, and if you miss, the spell deals no damage. If you choose to allow the target a saving throw, a successful save means it takes half damage. The shadowy attack deals 1d6 points of damage per spell level. If the target disbelieves or sees through the illusion, reduce the damage by half.",
@@ -1729,7 +1729,7 @@
 			"{SOURCE Distant Realms/42}",
 			"",
 			"You can focus your concentration when maintaining pattern effects to slowly move them.  ",
-			"**Prerequisites:** [Spell Focus (illusion)](feat/spell_focus), caster level 5th.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (illusion)}, caster level 5th.  ",
 			"**Benefit:** When you are concentrating to maintain a spell from the pattern subschool, you can move any area effects associated with that spell by up to 10 feet as a move action. Creatures within the new area of effect are subject to the spell as if it had just been cast (attempting saves as normal). When concentrating on a pattern spell that already allows you to move the effect, such as rainbow pattern, increase the distance you can move the pattern by 50%."
 		]
 	},
@@ -2424,7 +2424,7 @@
 			"{SOURCE Ultimate Magic/155}",
 			"",
 			"The walking dead respond to your call.  ",
-			"**Prerequisites:** [Spell Focus (necromancy)](feat/spell_focus), ability to cast summon monster.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (necromancy)}, ability to cast summon monster.  ",
 			"**Benefit:** Add \"human skeleton\" to the list of creatures you can summon with summon monster I and \"human skeletal champion\" to the list of creatures you can summon with summon monster III.",
 			"",
 			"Once per day, when you cast summon monster, you may summon a skeletal version of one of the creatures on that spell's summoning list (apply the skeleton template to that creature to create this monster)."
@@ -3340,7 +3340,7 @@
 			"{SOURCE Monster Summoner's Handbook/14}",
 			"",
 			"Your shadowy illusions are more potent.  ",
-			"**Prerequisites:** [Spell Focus (illusion)](feat/spell_focus).  ",
+			"**Prerequisites:** {feat/Spell Focus/ (illusion)}.  ",
 			"**Benefit:** When casting greater shadow conjuration, greater shadow evocation, shadow conjuration, or shadow evocation (and, at the GM's discretion, any similar spell with the shadow descriptor that mimics a spell of another school), that spell is 20% more real then normal. A solid shadows spell takes up a spell slot 1 level higher than the spell's actual level."
 		]
 	},
@@ -4911,7 +4911,7 @@
 			"{SOURCE Ultimate Magic/157}",
 			"",
 			"Your summoned minions slink along under the shadows of the stars.  ",
-			"**Prerequisites:** [Spell Focus (conjuration)](feat/spell_focus), able to cast summon nature's ally.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}, able to cast summon nature's ally.  ",
 			"**Benefit:** Creatures you summon gain the {feat/Blind-Fight} feat, a +5 bonus to Perception and Stealth checks in dim light or darkness, and their natural weapons are treated as cold iron for overcoming damage reduction."
 		]
 	},

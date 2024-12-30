@@ -1665,7 +1665,7 @@
 				"| --- | --- |",
 				"| 1 | The concoctions combine to form a deadly poison. You take 1d6 points of Constitution damage per round for 1d3+1 rounds |",
 				"| 2-3 | The concoctions react explosively... inside you. You take 5d12 points of fire damage. |",
-				"| 4-7 | You are rendered permanently blind or deaf (determined randomly). A [remove blindness/deafness](spell/remove_blindness_deafness) spell or similar effect is required to restore your lost sense. |",
+				"| 4-7 | You are rendered permanently blind or deaf (determined randomly). A {spell/remove blindness//deafness} spell or similar effect is required to restore your lost sense. |",
 				"| 8-12 | The concoctions thin your blood so that any injury causes rapid bleeding. Whenever you take piercing or slashing damage during the next 24 hours, you also take 1 point of bleed damage. This bleed damage stacks with itself and with other bleed effects. |",
 				"| 13-25 | The concoctions render you violently ill. You become nauseated for 2d6 rounds |",
 				"| 26-33 | The concoctions unsettle your health. You become sickened for 3d4 minutes. |",

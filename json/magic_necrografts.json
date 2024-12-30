@@ -13,7 +13,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/create undead}, [undead anatomy II](spell/undead_anatomy_2), creator must have 8 ranks in Heal; **Cost** 8000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/create undead}, {spell/undead anatomy II}, creator must have 8 ranks in Heal; **Cost** 8000 gp"
 		]
 	},
 	"gravespawn_gland": {

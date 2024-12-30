@@ -2002,7 +2002,7 @@
 			"{SOURCE Blood of the Coven/13}",
 			"",
 			"By deepening your connection with your coven members, you have made your coven capable of casting more spells each day.  ",
-			"**Prerequisites:** Changeling, coven hex or Coven-Touched.  ",
+			"**Prerequisites:** Changeling, coven hex or {feat/Coven-Touched}.  ",
 			"**Benefit:** Your changeling coven can cast three more spells each day from its list of spell-like abilities. If multiple members of your coven take this feat, the benefits stack."
 		]
 	},
@@ -2586,7 +2586,7 @@
 			"{SOURCE Advanced Class Guide/146}",
 			"",
 			"You can decipher even the most exotic of writings, including those that contain magic.  ",
-			"**Prerequisites:** [Skill Focus (Linguistics)](feat/skill_focus).  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Linguistics)}.  ",
 			"**Benefit:** You can attempt a Linguistics check in place of a Use Magic Device check to activate a scroll, or in place of a Spellcraft check to identify a scroll. You must still have (or emulate) the ability score required to cast a spell of the desired level, and you cannot use Linguistics on the check to emulate the required ability score."
 		]
 	},
@@ -2673,7 +2673,7 @@
 			"{SOURCE Advanced Class Guide/146}",
 			"",
 			"The creatures you summon have evolved to have even greater abilities.  ",
-			"**Prerequisites:** {feat/Augment Summoning}, [Spell Focus (conjuration)](feat/spell_focus), ability to cast summon monster I.  ",
+			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus/ (conjuration)}, ability to cast summon monster I.  ",
 			"**Benefit:** Each time you cast a summon monster spell, you can select a 1-point evolution other than pounce or reach from those available to a summoner's eidolon. Your summoned creature gains this evolution. The summoned creature must conform to any limitations of the evolution. (For instance, only a creature with a reach of 10 feet or more can have the pull evolution.) Evolutions that grant additional attacks or enhance existing attacks can be applied only to Medium or larger summoned creatures.",
 			"",
 			"If you summon more than one creature with a single spell, only one creature gains this evolution.  ",
@@ -4464,7 +4464,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"Your illusions are astonishingly realistic.  ",
-			"**Prerequisites:** [Spell Focus (illusion)](feat/spell_focus).  ",
+			"**Prerequisites:** {feat/Spell Focus/ (illusion)}.  ",
 			"**Benefit:** Non-mythic creatures can't identify your illusion spells with Spellcraft, including checks attempted as part of arcane sight, detect magic, or similar effects. When mythic creatures attempt to identify your illusions, add your tier to the DC of those Spellcraft checks. Mythic creatures informed by their allies that one of your illusions isn't real gain only a +2 bonus on their Will saves to disbelieve. Non-mythic creatures gain no bonus to disbelieve."
 		],
 		"mythic_only": true
@@ -4661,7 +4661,7 @@
 			"{SOURCE Blood of the Coven/13}",
 			"",
 			"Within your coven, you have formed a bond with your fellow witches' familiars.  ",
-			"**Prerequisites:** Coven hex or Coven-Touched, familiar or spirit animal class feature, witch level 1st.  ",
+			"**Prerequisites:** Coven hex or {feat/Coven-Touched}, familiar or spirit animal class feature, witch level 1st.  ",
 			"**Benefit:** You share an empathic link with the familiars of all other witches in your coven who also have this feat, as per the witch's familiar ability. Additionally, you can use the share spells, deliver touch spells, and scry on familiar abilities with a coven member's familiar as the target, as long as your witch level is high enough to grant access to these abilities. You can communicate with the familiar using its speak with master ability. You gain a +5 bonus on Spellcraft checks to help your familiar learn spells from a coven member's familiar."
 		]
 	},

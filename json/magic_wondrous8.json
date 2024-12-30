@@ -626,7 +626,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [elemental body I](spell/elemental_body_1); **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/elemental body I}; **Cost** 4,000 gp"
 		]
 	},
 	"sandals_of_interception": {
@@ -1110,11 +1110,11 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** feet; **Price** 20,000 gp; **Weight** -;",
 			"",
-			"Crafted of stout, wax-treated leather and wrapped with warm fur reminiscent of a frost giant's beard, these boots are sometimes given as gifts by the frost giant tribes of the north to their smaller allies. In addition to functioning as boots of the winterlands, the boots of the winter jarl enable their wearer to take the form of a frost giant once per day, as with the [giant form I](spell/giant_form_1) spell. While in giant form, the wearer gains a +6 size bonus to Strength, a -2 penalty to Dexterity, a +4 size bonus to Constitution, a +4 natural armor bonus, low-light vision, rock catching, rock throwing, and resist cold 20, but also gains vulnerability to fire. The wearer can remain in giant form for up to 10 minutes.",
+			"Crafted of stout, wax-treated leather and wrapped with warm fur reminiscent of a frost giant's beard, these boots are sometimes given as gifts by the frost giant tribes of the north to their smaller allies. In addition to functioning as boots of the winterlands, the boots of the winter jarl enable their wearer to take the form of a frost giant once per day, as with the {spell/giant form I} spell. While in giant form, the wearer gains a +6 size bonus to Strength, a -2 penalty to Dexterity, a +4 size bonus to Constitution, a +4 natural armor bonus, low-light vision, rock catching, rock throwing, and resist cold 20, but also gains vulnerability to fire. The wearer can remain in giant form for up to 10 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, {spell/endure elements}, [giant form I](spell/giant_form_1), {spell/pass without trace}; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, {spell/endure elements}, {spell/giant form I}, {spell/pass without trace}; **Cost** 10,000 gp"
 		]
 	},
 	"horseshoes_of_sacred_silver": {

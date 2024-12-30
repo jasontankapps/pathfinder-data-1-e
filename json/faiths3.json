@@ -391,8 +391,8 @@
 			">{SOURCE Book of the Damned - Volume 2: Lords of Chaos/39}",
 			">",
 			">1. **First Boon (Sp)** {spell/Wood Shape} 1/day",
-			">2. **Second Boon (Sp)** [Summon Monster IV](spell/summon_monster_4) (1d3 sharks only) 1/day",
-			">3. **Third Boon (Sp)** [Beast Shape IV](spell/beast_shape_4) (sharks only) 1/day",
+			">2. **Second Boon (Sp)** {spell/Summon Monster IV} (1d3 sharks only) 1/day",
+			">3. **Third Boon (Sp)** {spell/Beast Shape IV} (sharks only) 1/day",
 			"",
 			"---",
 			"",
@@ -728,24 +728,24 @@
 			">#### Cleric, Oracle, Warpriest",
 			">",
 			">- {spell/False Life} can be prepared as a 2nd-level spell",
-			">- [Clairaudience/Clairvoyance](spell/clairaudience_clairvoyance) can be prepared as a 3rd-level spell",
+			">- {spell/Clairaudience//Clairvoyance} can be prepared as a 3rd-level spell",
 			">- {spell/Moment of Prescience} can be prepared as a 8th-level spell",
 			">",
 			">#### Inquisitor",
 			">",
 			">- {spell/Augury} can be prepared as a 2nd-level spell",
 			">- {spell/False Life} can be prepared as a 2nd-level spell",
-			">- [Clairaudience/Clairvoyance](spell/clairaudience_clairvoyance) can be prepared as a 3rd-level spell",
+			">- {spell/Clairaudience//Clairvoyance} can be prepared as a 3rd-level spell",
 			">- {spell/Moment of Prescience} can be prepared as a 6th-level spell",
 			">",
 			">### Unique Summon Rules",
 			">",
 			">{SOURCE Pathfinder #44: Trial of the Beast/69}",
 			">",
-			">- **[Summon Monster III](spell/summon_monster_3):** {monster/Nosoi}",
-			">- **[Summon Monster VI](spell/summon_monster_6):** {monster/Vanth}",
-			">- **[Summon Monster I](spell/summon_monster_1):** [Whippoorwill](monster/eagle) (uses eagle statistics)",
-			">- **[Summon Nature's Ally I](spell/summon_natures_ally_1):** [Whippoorwill](monster/eagle) (uses eagle statistics)",
+			">- **{spell/Summon Monster III}:** {monster/Nosoi}",
+			">- **{spell/Summon Monster VI}:** {monster/Vanth}",
+			">- **{spell/Summon Monster I}:** [Whippoorwill](monster/eagle) (uses eagle statistics)",
+			">- **{spell/Summon Nature's Ally I}:** [Whippoorwill](monster/eagle) (uses eagle statistics)",
 			">",
 			">### Other Rules",
 			">",
@@ -1784,9 +1784,9 @@
 			">",
 			">{SOURCE Pathfinder #23: The Impossible Eye/65}",
 			">",
-			">- **[Summon Monster III](spell/summon_monster_3):** {monster/Choker} - CE (extraplanar)",
-			">- **[Summon Monster V](spell/summon_monster_5):** {template/Fiendish} {monster/Grick} - NE",
-			">- **[Summon Monster V](spell/summon_monster_5):** {monster/Gibbering Mouther} - CE (extraplanar)",
+			">- **{spell/Summon Monster III}:** {monster/Choker} - CE (extraplanar)",
+			">- **{spell/Summon Monster V}:** {template/Fiendish} {monster/Grick} - NE",
+			">- **{spell/Summon Monster V}:** {monster/Gibbering Mouther} - CE (extraplanar)",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2356,11 +2356,11 @@
 			">",
 			">{SOURCE Pathfinder #20: House of the Beast/62}",
 			">",
-			">- **[Summon Monster VI](spell/summon_monster_6):** {monster/Janni} - NG",
-			">- **[Summon Monster VII](spell/summon_monster_7):** {monster/Djinni} - NG",
-			">- **[Summon Monster VIII](spell/summon_monster_8):** {monster/Efreeti} - LG (redeemed) (does not have the *wish* spell-like ability)",
-			">- **[Summon Nature's Ally VII](spell/summon_natures_ally_7):** {monster/Djinni} - NG",
-			">- **[Summon Nature's Ally VIII](spell/summon_natures_ally_8):** {monster/Efreeti} - LG (redeemed) (does not have the *wish* spell-like ability)",
+			">- **{spell/Summon Monster VI}:** {monster/Janni} - NG",
+			">- **{spell/Summon Monster VII}:** {monster/Djinni} - NG",
+			">- **{spell/Summon Monster VIII}:** {monster/Efreeti} - LG (redeemed) (does not have the *wish* spell-like ability)",
+			">- **{spell/Summon Nature's Ally VII}:** {monster/Djinni} - NG",
+			">- **{spell/Summon Nature's Ally VIII}:** {monster/Efreeti} - LG (redeemed) (does not have the *wish* spell-like ability)",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3002,9 +3002,9 @@
 			">",
 			">{SOURCE Pathfinder #50: Night of Frozen Shadows/75}",
 			">",
-			">- **[Summon Monster II](spell/summon_monster_2):** {monster/Grig} (extraplanar)",
-			">- **[Summon Monster III](spell/summon_monster_3):** {monster/Silvanshee}",
-			">- **[Summon Monster V](spell/summon_monster_5):** {monster/Vulpinal}",
+			">- **{spell/Summon Monster II}:** {monster/Grig} (extraplanar)",
+			">- **{spell/Summon Monster III}:** {monster/Silvanshee}",
+			">- **{spell/Summon Monster V}:** {monster/Vulpinal}",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -4228,10 +4228,10 @@
 			">",
 			">{SOURCE Pathfinder #71: Rasputin Must Die!/70}",
 			">",
-			">- **[Summon Monster III](spell/summon_monster_3):** {monster/Cacodaemon}",
-			">- **[Summon Monster IV](spell/summon_monster_4):** {template/Fiendish} {monster/urdefhan}",
-			">- **[Summon Monster V](spell/summon_monster_5):** {monster/Genthodaemon}",
-			">- **[Summon Monster V](spell/summon_monster_5):** {monster/Nightmare}"
+			">- **{spell/Summon Monster III}:** {monster/Cacodaemon}",
+			">- **{spell/Summon Monster IV}:** {template/Fiendish} {monster/urdefhan}",
+			">- **{spell/Summon Monster V}:** {monster/Genthodaemon}",
+			">- **{spell/Summon Monster V}:** {monster/Nightmare}"
 		]
 	},
 	"tamede": {
@@ -4497,8 +4497,8 @@
 			">",
 			">{SOURCE Pathfinder #131: The Reaper's Right Hand/72}",
 			">",
-			">- **[Summon Monster IV](spell/summon_monster_4):** {monster/Shadow}",
-			">- **[Summon Monster VII](spell/summon_monster_7):** {monster/Greater Shadow}"
+			">- **{spell/Summon Monster IV}:** {monster/Shadow}",
+			">- **{spell/Summon Monster VII}:** {monster/Greater Shadow}"
 		]
 	},
 	"the_green_mother": {
@@ -5155,9 +5155,9 @@
 			">",
 			">{SOURCE Pathfinder #62: Curse of the Lady's Light/75}",
 			">",
-			">- **[Summon Monster I](spell/summon_monster_1):** {monster/Badger}",
-			">- **[Summon Monster III](spell/summon_monster_3):** {monster/Azer}",
-			">- **[Summon Monster III](spell/summon_monster_3):** {monster/Dire Badger}"
+			">- **{spell/Summon Monster I}:** {monster/Badger}",
+			">- **{spell/Summon Monster III}:** {monster/Azer}",
+			">- **{spell/Summon Monster III}:** {monster/Dire Badger}"
 		]
 	},
 	"treerazer": {

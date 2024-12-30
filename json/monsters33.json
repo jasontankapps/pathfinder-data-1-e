@@ -979,7 +979,7 @@
 			"",
 			"**CL** 16th; **Price** 209,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/create greater undead}, {spell/form of the dragon I}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 16th; Skill Craft (leather) or Heal DC 21; **Cost** 109,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/create greater undead}, {spell/form of the dragon I}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th; Skill Craft (leather) or Heal DC 21; **Cost** 109,000 gp"
 		]
 	},
 	"golem_dragonhide": { "copyof": "golem_dragonhide_golem" },
@@ -1523,7 +1523,7 @@
 			"",
 			"**CL** 16th; **Price** 300,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/air walk}, {spell/enervation}, [geas/quest](spell/geas_quest), {spell/limited wish}, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/air walk}, {spell/enervation}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
 		]
 	},
 	"golem_inubrix": { "copyof": "golem_inubrix_golem" },
@@ -1613,7 +1613,7 @@
 			"",
 			"**CL** 18th; **Price** 220,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, [geas/quest](spell/geas_quest), {spell/wish}, creator must be at least caster level 18th; Skill Craft (armor) DC 24, Craft (jewelry) DC 29; **Cost** 145,000 gp"
+			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, {spell/geas//quest}, {spell/wish}, creator must be at least caster level 18th; Skill Craft (armor) DC 24, Craft (jewelry) DC 29; **Cost** 145,000 gp"
 		]
 	},
 	"golem_ioun": { "copyof": "golem_ioun_golem" },
@@ -2742,7 +2742,7 @@
 			"",
 			"**CL** 12th; **Price** 53,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, [geas/quest](spell/geas_quest), {spell/limited wish}, {spell/move earth}, creator must be caster level 12th; Skill Craft (stonemasonry) DC 20; **Cost** 28,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/move earth}, creator must be caster level 12th; Skill Craft (stonemasonry) DC 20; **Cost** 28,500 gp"
 		]
 	},
 	"golem_sand": { "copyof": "golem_sand_golem" },
@@ -3296,7 +3296,7 @@
 			"",
 			"**Str** 16, **Dex** 1, **Con** 22, **Int** 2, **Wis** 3, **Cha** 1  ",
 			"**Base Atk** +8; **CMB** +12; **CMD** 17 (can't be tripped)  ",
-			"**Feats** {feat/Cleave}, {feat/Great Cleave}, [Improved Critical (slam)](feat/improved_critical), {feat/Power Attack}, [Skill Focus (Perception)](feat/skill_focus), [Weapon Focus (slam)](feat/weapon_focus)  ",
+			"**Feats** {feat/Cleave}, {feat/Great Cleave}, [Improved Critical (slam)](feat/improved_critical), {feat/Power Attack}, {feat/Skill Focus/ (Perception)}, [Weapon Focus (slam)](feat/weapon_focus)  ",
 			"**Skills** Climb +12, Perception +7, Swim +5  ",
 			"**SQ** suction",
 			"",
@@ -3392,9 +3392,9 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
-			"The Annis Hag adds the following spells to the coven: {spell/charm monster}, {spell/cloudkill}, [giant form I](spell/giant_form_1), mass bull's strength",
+			"The Annis Hag adds the following spells to the coven: {spell/charm monster}, {spell/cloudkill}, {spell/giant form I}, mass bull's strength",
 			"",
 			"**Family:** {family/Hag}"
 		]
@@ -3475,7 +3475,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
 			"The Ash Hag adds the following spells to the coven: {spell/ash storm}, {spell/fire storm}, {spell/solid fog}, {spell/volcanic storm}",
 			"",
@@ -3563,7 +3563,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
 			"The Blood Hag adds the following spells to the coven: {spell/blood mist}, mass inflict serious wounds, mass pain strike, {spell/skinsend}",
 			"",
@@ -3646,7 +3646,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
 			"The Dreamthief Hag adds the following spells to the coven: {spell/cloak of dreams}, {spell/dream voyage}, {spell/modify memory}, {spell/nightmare}",
 			"",
@@ -3734,7 +3734,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
 			"The Green Hag adds the following spells to the coven: {spell/blight}, {spell/charm monster}, {spell/control weather}, {spell/mirage arcana}",
 			"",
@@ -3783,7 +3783,7 @@
 			"",
 			"**Str** 20, **Dex** 12, **Con** 19, **Int** 14, **Wis** 17, **Cha** 19  ",
 			"**Base Atk** +9; **CMB** +14; **CMD** 29  ",
-			"**Feats** {feat/Alertness}, {feat/Combat Casting}, {feat/Great Fortitude}, {feat/Power Attack}, [Skill Focus (Intimidate)](feat/skill_focus)  ",
+			"**Feats** {feat/Alertness}, {feat/Combat Casting}, {feat/Great Fortitude}, {feat/Power Attack}, {feat/Skill Focus/ (Intimidate)}  ",
 			"**Skills** Intimidate +19, Knowledge (planes) +11, Knowledge (religion) +11, Perception +17, Sense Motive +14, Spellcraft +11  ",
 			"**Languages** Aklo, Common",
 			"",
@@ -3817,7 +3817,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
 			"**Family:** {family/Hag}"
 		]
@@ -3897,7 +3897,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
 			"The Mute Hag adds the following spells to the coven: {spell/epidemic}, greater age resistance, {spell/insanity}, {spell/malicious spite}, {spell/vengeful outrage}",
 			"",
@@ -3977,7 +3977,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
 			"The Night Hag adds the following spells to the coven: {spell/contagion}, {spell/finger of death}, major curse, {spell/maze}, {spell/nightmare}",
 			"",
@@ -4023,7 +4023,7 @@
 			"",
 			"**Str** 19, **Dex** 16, **Con** 18, **Int** 12, **Wis** 13, **Cha** 15  ",
 			"**Base Atk** +4; **CMB** +8; **CMD** 21  ",
-			"**Feats** [Skill Focus (Bluff, Perception)](feat/skill_focus)  ",
+			"**Feats** {feat/Skill Focus/ (Bluff, Perception)}  ",
 			"**Skills** Bluff +9, Knowledge (any one) +5, Perception +11, Stealth +10, Swim +19  ",
 			"**Languages** Common, Giant  ",
 			"**SQ** amphibious",
@@ -4058,7 +4058,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
 			"The Sea Hag adds the following spells to the coven: {spell/control weather}, {spell/eyebite}, {spell/power word blind}, {spell/water breathing}",
 			"",
@@ -4145,7 +4145,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
 			"The Storm Hag adds the following spells to the coven: {spell/call lightning storm}, {spell/control weather}, {spell/solid fog}, {spell/scouring winds}",
 			"",
@@ -4233,7 +4233,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
 			"The Winter Hag adds the following spells to the coven: {spell/circle of death}, {spell/dominate person}, {spell/icy prison}, {spell/simulacrum}",
 			"",

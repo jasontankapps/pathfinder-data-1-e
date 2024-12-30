@@ -511,8 +511,8 @@
 			">",
 			">{SOURCE Pathfinder #119: Prisoners of the Blight/71}",
 			">",
-			">- **[Summon Monster IV](spell/summon_monster_4):** {monster/Mandragora}",
-			">- **[Summon Monster V](spell/summon_monster_5):** {monster/Tendriculos}"
+			">- **{spell/Summon Monster IV}:** {monster/Mandragora}",
+			">- **{spell/Summon Monster V}:** {monster/Tendriculos}"
 		]
 	},
 	"dachzerul": {
@@ -586,7 +586,7 @@
 			">",
 			">1. **First Boon (Sp)** {spell/Death Knell} 1/day",
 			">2. **Second Boon (Sp)** {spell/Contagion} 1/day",
-			">3. **Third Boon (Sp)** [Beast Shape IV](spell/beast_shape_4) 1/day",
+			">3. **Third Boon (Sp)** {spell/Beast Shape IV} 1/day",
 			"",
 			"---",
 			"",
@@ -1032,23 +1032,23 @@
 			">#### Antipaladin",
 			">",
 			">- {spell/Cape of Wasps} can be prepared as a 4th-level spell",
-			">- [Vermin Shape I](spell/vermin_shape_1) can be prepared as a 4th-level spell",
+			">- {spell/Vermin Shape I} can be prepared as a 4th-level spell",
 			">",
 			">#### Cleric, Warpriest",
 			">",
 			">- {spell/Create Pit} can be prepared as a 3rd-level spell",
 			">- {spell/Cape of Wasps} can be prepared as a 4th-level spell",
-			">- [Vermin Shape I](spell/vermin_shape_1) can be prepared as a 4th-level spell",
-			">- [Vermin Shape II](spell/vermin_shape_2) can be prepared as a 5th-level spell",
+			">- {spell/Vermin Shape I} can be prepared as a 4th-level spell",
+			">- {spell/Vermin Shape II} can be prepared as a 5th-level spell",
 			">- {spell/Acid Pit} can be prepared as a 6th-level spell",
 			">",
 			">### Unique Summon Rules",
 			">",
 			">{SOURCE Pathfinder #78: City of Locusts/70}",
 			">",
-			">- **[Summon Monster IV](spell/summon_monster_4):** {monster/Vermlek}",
-			">- **[Summon Monster V](spell/summon_monster_5):** {template/Fiendish} {monster/Giant Locust}",
-			">- **[Summon Monster VI](spell/summon_monster_6):** {template/Fiendish} {monster/Giant Mosquito}",
+			">- **{spell/Summon Monster IV}:** {monster/Vermlek}",
+			">- **{spell/Summon Monster V}:** {template/Fiendish} {monster/Giant Locust}",
+			">- **{spell/Summon Monster VI}:** {template/Fiendish} {monster/Giant Mosquito}",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1245,13 +1245,13 @@
 			">",
 			">{SOURCE Pathfinder #2: The Skinsaw Murders/72}",
 			">",
-			">- **[Summon Monster II](spell/summon_monster_2):** {monster/Lyrakien} - CG",
-			">- **[Summon Monster III](spell/summon_monster_3):** {monster/Star Monarch} - CG [stats as a giant eagle]",
-			">- **[Summon Monster VII](spell/summon_monster_7):** {monster/Young Brass Dragon} - CG (extraplanar)",
+			">- **{spell/Summon Monster II}:** {monster/Lyrakien} - CG",
+			">- **{spell/Summon Monster III}:** {monster/Star Monarch} - CG [stats as a giant eagle]",
+			">- **{spell/Summon Monster VII}:** {monster/Young Brass Dragon} - CG (extraplanar)",
 			">",
 			">{SOURCE Monster Summoner's Handbook/30}",
 			">",
-			">- **[Summon Monster II](spell/summon_monster_2):** {monster/Pseudodragon} - CG"
+			">- **{spell/Summon Monster II}:** {monster/Pseudodragon} - CG"
 		]
 	},
 	"deumus": {
@@ -2199,8 +2199,8 @@
 			">",
 			">{SOURCE Pathfinder #32: Rivers Run Red/71}",
 			">",
-			">- **[Summon Monster II](spell/summon_monster_2):** {template/Celestial} {monster/Elk} - LG",
-			">- **[Summon Monster III](spell/summon_monster_3):** {template/Celestial} {monster/Dire Boar} - LG",
+			">- **{spell/Summon Monster II}:** {template/Celestial} {monster/Elk} - LG",
+			">- **{spell/Summon Monster III}:** {template/Celestial} {monster/Dire Boar} - LG",
 			">",
 			">### Other Rules",
 			">",
@@ -3035,9 +3035,9 @@
 			">",
 			">{SOURCE Pathfinder #107: Scourge of the Godclaw/73}",
 			">",
-			">- **[Summon Monster IV](spell/summon_monster_4):** {monster/Venomous Snake Swarm}",
-			">- **[Summon Monster VI](spell/summon_monster_6):** [Drowning Devil (Sarglagon)](monster/sarglagon)",
-			">- **[Summon Monster VIII](spell/summon_monster_8):** [Aghasura (Asura)](monster/aghasura)"
+			">- **{spell/Summon Monster IV}:** {monster/Venomous Snake Swarm}",
+			">- **{spell/Summon Monster VI}:** [Drowning Devil (Sarglagon)](monster/sarglagon)",
+			">- **{spell/Summon Monster VIII}:** [Aghasura (Asura)](monster/aghasura)"
 		]
 	},
 	"ghatanothoa": {
@@ -3471,7 +3471,7 @@
 			">",
 			">1. **Rune Master (Sp)** {spell/rune trace} 3/day, {spell/share language} 2/day, or {spell/symbol of healing} 1/day",
 			">2. **Runes of Comprehension (Sp)** Once per day you can cast {spell/communal tongues} as a spell-like ability. Each creature touched is marked with a glowing rune, which changes to represent the language that creature is able to speak and understand at any given moment.",
-			">3. **The Task Ahead (Su)** Once per week, you can give a willing creature an opportunity to prepare for the afterlife. This functions as a [geas/quest](spell/geas_quest), but the task assigned is one randomly determined by the GM and is lawful in nature and in keeping with the tenets of Magrim. Only a creature that is willing to be the target of this ability, without coercion, can be affected. After the task is completed, the target creature receives the benefit of an {spell/atonement} spell.",
+			">3. **The Task Ahead (Su)** Once per week, you can give a willing creature an opportunity to prepare for the afterlife. This functions as a {spell/geas//quest}, but the task assigned is one randomly determined by the GM and is lawful in nature and in keeping with the tenets of Magrim. Only a creature that is willing to be the target of this ability, without coercion, can be affected. After the task is completed, the target creature receives the benefit of an {spell/atonement} spell.",
 			">",
 			">### Exalted",
 			">",
@@ -3633,9 +3633,9 @@
 			">",
 			">{SOURCE Pathfinder #99: Dance of the Damned/75}",
 			">",
-			">- **[Summon Monster III](spell/summon_monster_3):** {monster/Forlarren}",
-			">- **[Summon Monster V](spell/summon_monster_5):** {monster/Achaierai}",
-			">- **[Summon Monster VIII](spell/summon_monster_8):** {monster/Cabal Devil}"
+			">- **{spell/Summon Monster III}:** {monster/Forlarren}",
+			">- **{spell/Summon Monster V}:** {monster/Achaierai}",
+			">- **{spell/Summon Monster VIII}:** {monster/Cabal Devil}"
 		]
 	},
 	"malacoda": {
@@ -4124,9 +4124,9 @@
 			">",
 			">{SOURCE Pathfinder #102: Breaking the Bones of Hell/72}",
 			">",
-			">- **[Summon Monster IV](spell/summon_monster_4):** {monster/Guardian Scroll}",
-			">- **[Summon Monster VIII](spell/summon_monster_8):** [Contract Devil (Phistophilus)](monster/phistophilus)",
-			">- **[Summon Monster IX](spell/summon_monster_9):** [Heresy Devil (Ayngavhaul)](monster/ayngavhaul)"
+			">- **{spell/Summon Monster IV}:** {monster/Guardian Scroll}",
+			">- **{spell/Summon Monster VIII}:** [Contract Devil (Phistophilus)](monster/phistophilus)",
+			">- **{spell/Summon Monster IX}:** [Heresy Devil (Ayngavhaul)](monster/ayngavhaul)"
 		]
 	},
 	"mestama": {
@@ -4376,8 +4376,8 @@
 			">",
 			">{SOURCE Pathfinder #68: The Shackled Hut/69}",
 			">",
-			">- **[Summon Monster I](spell/summon_monster_1):** {monster/Great Horned Owl} (extraplanar)",
-			">- **[Summon Monster IV](spell/summon_monster_4):** {monster/Hound Archon} - CG",
+			">- **{spell/Summon Monster I}:** {monster/Great Horned Owl} (extraplanar)",
+			">- **{spell/Summon Monster IV}:** {monster/Hound Archon} - CG",
 			">",
 			">### Other Rules",
 			">",
@@ -4431,7 +4431,7 @@
 			">2. **Hands of Justice (Su)** For a number of rounds per day equal to your Hit Dice, you can infuse your slams or a melee weapon you wield with the power of pure law. Your attacks with these weapons gain the axiomatic weapon special ability. Any attacks that would damage these weapons first have their damage reduced by 5 before you apply DR, hardness, or any resistances. Activating or dismissing this ability is a free action, and the rounds need not be consecutive. Any weapon affected by this ability returns to normal 1 round after it leaves your hands.",
 			">3. **Rocky Flesh (Sp)** You gain a profane bonus equal to your Charisma modifier on your Fortitude saving throws and to your natural armor bonus.",
 			">",
-			">### [Summon Monster VII](spell/summon_monster_7): {monster/Stone Giant} (fiendish or resolute)",
+			">### {spell/Summon Monster VII}: {monster/Stone Giant} (fiendish or resolute)",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -4589,9 +4589,9 @@
 			">",
 			">{SOURCE Pathfinder #105: The Inferno Gate/73}",
 			">",
-			">- **[Summon Monster III](spell/summon_monster_3):** [Phantom Armor (Guardian)](monster/guardian_phantom_armor) - LE",
-			">- **[Summon Monster VI](spell/summon_monster_6):** [Warmonger Devil (Levaloch)](monster/levaloch)",
-			">- **[Summon Monster VIII](spell/summon_monster_8):** {monster/Tophet}"
+			">- **{spell/Summon Monster III}:** [Phantom Armor (Guardian)](monster/guardian_phantom_armor) - LE",
+			">- **{spell/Summon Monster VI}:** [Warmonger Devil (Levaloch)](monster/levaloch)",
+			">- **{spell/Summon Monster VIII}:** {monster/Tophet}"
 		]
 	},
 	"monad": {
@@ -4834,7 +4834,7 @@
 			">{SOURCE Book of the Damned - Volume 2: Lords of Chaos/38}",
 			">",
 			">1. **First Boon (Sp)** {spell/Summon Swarm} 1/day",
-			">2. **Second Boon (Sp)** [Beast Shape II](spell/beast_shape_2) 1/day",
+			">2. **Second Boon (Sp)** {spell/Beast Shape II} 1/day",
 			">3. **Third Boon (Sp)** {spell/Control Water} 1/day",
 			"",
 			"---",

@@ -122,7 +122,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, [undead anatomy I](spell/undead_anatomy_1); **Cost** 225 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/undead anatomy I}; **Cost** 225 gp"
 		]
 	}
 }

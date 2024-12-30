@@ -1791,7 +1791,7 @@
 			"{SOURCE Black Markets/18;Dark Markets - A Guide to Katapesh/56}",
 			"",
 			"You have intertwined your familiarities with pesh and magic to unlock strange powers.  ",
-			"**Prerequisites:** [Spell Focus (any)](feat/spell_focus), ability to cast 2nd-level spells.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (any)}, ability to cast 2nd-level spells.  ",
 			"**Benefit:** When you consume pesh, you take 1 fewer point of Constitution or Wisdom damage (your choice). In addition, you add spells from the sahir-afiyun spells listed below to your own class spell list or list of spells known. You can add one spell from the highest level you can cast; you can instead add two spells to your list of spells known, but both of these spells must be at least 1 level lower than the highest-level spell you can cast for that class. If you have more than one spellcasting class, choose one and add the sahir-afiyun spell or spells listed below to that class's spell list or list of spells known.",
 			"",
 			"*1st*-alleviate addiction, lesser confusion, night blindness, pesh vigor, ray of sickening, remove fear, sleep.",
@@ -2317,7 +2317,7 @@
 			"{SOURCE Monster Summoner's Handbook/14}",
 			"",
 			"Your experiments with the connection between summoners and the creatures they summon have taught you to see through the eyes of a summoned creature for a short time.  ",
-			"**Prerequisites:** [Spell Focus (conjuration)](feat/spell_focus), ability to cast magic jar.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}, ability to cast magic jar.  ",
 			"**Benefit:** When casting a conjuration (summoning) spell that summons a single creature, you can possess the creature as per magic jar (but with no receptacle necessary). If the creature takes damage while you possess it, you must succeed at a concentration check (DC equal to the amount of damage taken) or be ejected from the creature immediately. If the creature takes enough damage to reduce it to 0 hit points or fewer, you are immediately ejected from the creature and take an amount of damage equal to double the level of the spell slot used to summon that creature. A scouting summons spell takes up a spell slot 2 levels higher than the spell's actual level."
 		]
 	},
@@ -3099,7 +3099,7 @@
 			"{SOURCE Advanced Race Guide/201}",
 			"",
 			"You strengthen your crippled wings.  ",
-			"**Prerequisites:** Str 13, [Skill Focus (Fly)](feat/skill_focus), strix, wing-clipped racial trait.  ",
+			"**Prerequisites:** Str 13, {feat/Skill Focus/ (Fly)}, strix, wing-clipped racial trait.  ",
 			"**Benefit:** Your strix racial fly speed increases to 60 feet (average). You ignore the wing-clipped trait's Fly check requirement to fly upward."
 		]
 	},
@@ -3965,7 +3965,7 @@
 			"{SOURCE Ultimate Magic/157}",
 			"",
 			"Your summoned minions shine with the power of the sun.  ",
-			"**Prerequisites:** [Spell Focus (conjuration)](feat/spell_focus), able to cast summon nature's ally.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}, able to cast summon nature's ally.  ",
 			"**Benefit:** Creatures that you summon shed light as a light spell. They are immune to blinding or dazzling effects, and their natural weapons are treated as magical for overcoming damage reduction."
 		]
 	},
@@ -4031,7 +4031,7 @@
 			"{SOURCE Ultimate Intrigue/94}",
 			"",
 			"You are adept at seeing more when scrying.  ",
-			"**Prerequisites:** [Spell Focus (divination)](feat/spell_focus), the ability to cast at least one spell of the scrying subschool.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (divination)}, the ability to cast at least one spell of the scrying subschool.  ",
 			"**Benefit:** When casting a scrying spell, you see through the spell's sensor with darkvision 60 feet, whether or not you possess darkvision normally and whether or not the spell normally allows you to see with darkvision. If the spell sends back sensory information only within 10 feet of the sensor (such as with scrying and greater scrying), this feat doesn't increase that range. You receive a +2 bonus on Perception checks to notice things through a scrying sensor, and your prying eyes and insect spies also receive a +2 bonus on Perception checks.",
 			"",
 			"When you use the scrying or greater scrying spell, you have a 10% increase to the chance of using spells through the sensor."

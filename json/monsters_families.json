@@ -1538,7 +1538,7 @@
 			"",
 			"**Luck (Sp)** Once per day an adult or older gold dragon can touch a gem, usually one embedded in the dragon's hide, and enspell it to bring good luck. As long as the dragon carries the gem, it and every good creature within a given radius of it (10 ft. per age category) receives a +1 luck bonus on all saving throws. If the dragon gives an enspelled gem to another creature, only that bearer gets the bonus. The effect lasts 1d3 hours plus 3 hours per age category of the dragon. This ability is the equivalent of a 2nd-level spell.",
 			"",
-			"**Spell-Like Abilities (Sp)** A gold dragon gains the following spell-like abilities upon reaching the listed age category. Its caster level for these effects is equal to its Hit Dice, and any save DCs are Charisma-based. A gold dragon can use these abilities at will. Very young-{spell/detect evil}; Juvenile-{spell/bless}; Adult-{spell/daylight}; Old-[geas/quest](spell/geas_quest); Ancient-{spell/sunburst}; Great wyrm-{spell/foresight}.",
+			"**Spell-Like Abilities (Sp)** A gold dragon gains the following spell-like abilities upon reaching the listed age category. Its caster level for these effects is equal to its Hit Dice, and any save DCs are Charisma-based. A gold dragon can use these abilities at will. Very young-{spell/detect evil}; Juvenile-{spell/bless}; Adult-{spell/daylight}; Old-{spell/geas//quest}; Ancient-{spell/sunburst}; Great wyrm-{spell/foresight}.",
 			"",
 			"**Weakening Breath (Su)** Instead of a cone of fire, a gold dragon can breathe a cone of weakening gas. Creatures within the cone must succeed on a Fortitude save or take 1 point of Strength damage per age category (Will save half).",
 			"",

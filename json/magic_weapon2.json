@@ -1505,7 +1505,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [giant form I](spell/giant_form_1); **Price** 15,160 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/giant form I}; **Price** 15,160 gp"
 		]
 	},
 	"starbow": {
@@ -3590,7 +3590,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bull's strength}, {spell/earthquake}, [giant form I](spell/giant_form_1), {spell/lead blades}, {spell/shrink item}; **Price** 49,320 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bull's strength}, {spell/earthquake}, {spell/giant form I}, {spell/lead blades}, {spell/shrink item}; **Price** 49,320 gp"
 		]
 	},
 	"luck_blade_2_wishes": {

@@ -4110,7 +4110,7 @@
 			"{SOURCE Aquatic Adventures/58}",
 			"",
 			"You've trained at swimming in combat and over long distances for so long that you can move through the water like a native.  ",
-			"**Prerequisites:** [Skill Focus (Swim)](feat/skill_focus), Swim 10 ranks.  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Swim)}, Swim 10 ranks.  ",
 			"**Benefit:** You gain a swim speed of 30 feet or your unmodified base land speed, whichever is slower; your racial bonus on Swim checks for having a swim speed is +2, instead of +8."
 		]
 	},
@@ -4215,7 +4215,7 @@
 			"{SOURCE Monster Hunter's Handbook/15}",
 			"",
 			"You have a near-perfect sense of direction.  ",
-			"**Prerequisites:** [Skill Focus (Survival)](feat/skill_focus), Survival 5 ranks.  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Survival)}, Survival 5 ranks.  ",
 			"**Benefit:** You gain a +4 bonus on Survival checks to avoid becoming lost and to determine whether you are lost. You also gain a +4 bonus on Intelligence checks to navigate mazes, including to escape a maze spell. Once per day, you can use your intuition to determine whether traveling a particular direction from a fork in the road (or other junction) might be productive or dangerous. This functions like the augury spell, except it provides weal or woe based on traveling in a particular direction."
 		]
 	},
