@@ -6,9 +6,9 @@
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
-			"spell_duels",
 			"verbal_duels",
 			"heists",
+			"infiltration",
 			"nemeses",
 			"performance_combat",
 			"pursuit",
@@ -48,9 +48,9 @@
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
-			"spell_duels",
 			"verbal_duels",
 			"heists",
+			"infiltration",
 			"nemeses",
 			"performance_combat",
 			"pursuit",
@@ -676,9 +676,9 @@
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
-			"spell_duels",
 			"verbal_duels",
 			"heists",
+			"infiltration",
 			"nemeses",
 			"performance_combat",
 			"pursuit",
@@ -1337,9 +1337,9 @@
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
-			"spell_duels",
 			"verbal_duels",
 			"heists",
+			"infiltration",
 			"nemeses",
 			"performance_combat",
 			"pursuit",
@@ -1692,10 +1692,6 @@
 		"subtopics": [
 			"starting_a_duel",
 			"duel_combat",
-			"dueling_counter",
-			"dueling_dodge",
-			"dueling_parry",
-			"dueling_resolve",
 			"duels_and_performance_combat",
 			"duel_results"
 		],
@@ -1704,9 +1700,9 @@
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
-			"spell_duels",
 			"verbal_duels",
 			"heists",
+			"infiltration",
 			"nemeses",
 			"performance_combat",
 			"pursuit",
@@ -1745,10 +1741,6 @@
 		"siblings": [
 			"starting_a_duel",
 			"duel_combat",
-			"dueling_counter",
-			"dueling_dodge",
-			"dueling_parry",
-			"dueling_resolve",
 			"duels_and_performance_combat",
 			"duel_results"
 		]
@@ -1777,12 +1769,14 @@
 		"siblings": [
 			"starting_a_duel",
 			"duel_combat",
+			"duels_and_performance_combat",
+			"duel_results"
+		],
+		"subtopics": [
 			"dueling_counter",
 			"dueling_dodge",
 			"dueling_parry",
-			"dueling_resolve",
-			"duels_and_performance_combat",
-			"duel_results"
+			"dueling_resolve"
 		]
 	},
 	"dueling_counter": {
@@ -1811,17 +1805,14 @@
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"duels"
+			"duels",
+			"duel_combat"
 		],
 		"siblings": [
-			"starting_a_duel",
-			"duel_combat",
 			"dueling_counter",
 			"dueling_dodge",
 			"dueling_parry",
-			"dueling_resolve",
-			"duels_and_performance_combat",
-			"duel_results"
+			"dueling_resolve"
 		]
 	},
 	"dueling_dodge": {
@@ -1839,17 +1830,14 @@
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"duels"
+			"duels",
+			"duel_combat"
 		],
 		"siblings": [
-			"starting_a_duel",
-			"duel_combat",
 			"dueling_counter",
 			"dueling_dodge",
 			"dueling_parry",
-			"dueling_resolve",
-			"duels_and_performance_combat",
-			"duel_results"
+			"dueling_resolve"
 		]
 	},
 	"dueling_parry": {
@@ -1867,17 +1855,14 @@
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"duels"
+			"duels",
+			"duel_combat"
 		],
 		"siblings": [
-			"starting_a_duel",
-			"duel_combat",
 			"dueling_counter",
 			"dueling_dodge",
 			"dueling_parry",
-			"dueling_resolve",
-			"duels_and_performance_combat",
-			"duel_results"
+			"dueling_resolve"
 		]
 	},
 	"dueling_resolve": {
@@ -1895,17 +1880,14 @@
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"duels"
+			"duels",
+			"duel_combat"
 		],
 		"siblings": [
-			"starting_a_duel",
-			"duel_combat",
 			"dueling_counter",
 			"dueling_dodge",
 			"dueling_parry",
-			"dueling_resolve",
-			"duels_and_performance_combat",
-			"duel_results"
+			"dueling_resolve"
 		]
 	},
 	"duels_and_performance_combat": {
@@ -1924,10 +1906,6 @@
 		"siblings": [
 			"starting_a_duel",
 			"duel_combat",
-			"dueling_counter",
-			"dueling_dodge",
-			"dueling_parry",
-			"dueling_resolve",
 			"duels_and_performance_combat",
 			"duel_results"
 		]
@@ -1954,162 +1932,8 @@
 		"siblings": [
 			"starting_a_duel",
 			"duel_combat",
-			"dueling_counter",
-			"dueling_dodge",
-			"dueling_parry",
-			"dueling_resolve",
 			"duels_and_performance_combat",
 			"duel_results"
-		]
-	},
-	"spell_duels": {
-		"name": "Spell Duels",
-		"subtitle": "Advanced GM Topics",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/99}",
-			"",
-			"Spellcasters are no strangers to battle, but there's a difference between the chaos of a huge melee, with dozens of feral monsters seeking to tear the caster limb from limb, and a more civilized duel between rivals seeking to settle a dispute. Make no mistake, these duels can be just as deadly, but the rules surrounding them make for a different style of combat - one in which both combatants can attack and defend with ease, allowing the true skill and power of each to determine the victor."
-		],
-		"parent_topics": [ "advanced_gm_topics" ],
-		"subtopics": [
-			"starting_a_duel_um",
-			"duel_combat_um",
-			"duel_counter",
-			"duel_results_um"
-		],
-		"siblings": [
-			"diseases_and_poisons",
-			"exploration_ucp",
-			"discovery_and_exploration",
-			"duels",
-			"spell_duels",
-			"verbal_duels",
-			"heists",
-			"nemeses",
-			"performance_combat",
-			"pursuit",
-			"simple_monster_creation",
-			"skills_in_conflict",
-			"social_conflicts",
-			"spells_of_intrigue",
-			"spells_of_the_wild",
-			"taxation",
-			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
-		]
-	},
-	"starting_a_duel_um": {
-		"name": "Starting a Duel",
-		"subtitle": "Spell Duels, Advanced GM Topics",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/99}",
-			"",
-			"A spell duel is a form of combat, but unlike ordinary combat, the participants must all agree to willingly enter the duel and abide by its rules. If either side breaks the rules, it is considered the loser of the duel, regardless of any other outcome, and if its members continue aggressive action, the fight returns to the standard rules for combat.",
-			"",
-			"The rules for a duel between spellcasters are usually very simple, but can be changed and altered by the participants, so long as both sides agree. Such discussions typically happen before the duel, allowing both sides to properly prepare, but as with all elements of a duel, this is not always the case. Most duels utilize the following simple rules.",
-			"",
-			"- Each participant must fight alone and can receive no help from outside sources, with the exception of familiars or other bonded creatures.",
-			"- Each participant must fight with magic. The use of melee or ranged weapons is forbidden, with the exception of bonded objects and weapons that can cast spells, such as staves.",
-			"- The use of summoned or otherwise conjured creatures is forbidden, unless the duel expects such creatures to combat one another at the behest of the participants (rather than directly attacking the dueling opponent). This sort of creature duel is common among druids, summoners, and conjurers.",
-			"- The duel lasts until one of the casters has been knocked unconscious or otherwise prevented from continuing. Spells such as {spell/hold person} do not end duels, but {spell/flesh to stone} certainly does, assuming the target fails her saving throw. Some duels go to the death and are only ended when one duelist or team is a smoking pile of ash."
-		],
-		"parent_topics": [
-			"advanced_gm_topics",
-			"spell_duels"
-		],
-		"siblings": [
-			"starting_a_duel_um",
-			"duel_combat_um",
-			"duel_counter",
-			"duel_results_um"
-		]
-	},
-	"duel_combat_um": {
-		"name": "Duel Combat",
-		"subtitle": "Spell Duels, Advanced GM Topics",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/99}",
-			"",
-			"A duel functions much like ordinary combat, with a few notable exceptions that make for a more exciting and challenging encounter.",
-			"",
-			"At the start of the duel, each participant makes an initiative check, just like in standard combat. Because duels are always planned and expected, there is never a surprise round. Alternatively, some duels start off with each side facing off, waiting for the other to flinch or break resolve. In such cases, substitute a Bluff, Intimidate, or Sense Motive check in place of the standard initiative check. The skill used is decided by the individual participants and is reflective of their approach to the duel.",
-			"",
-			"At the beginning of each round, the participants check the status of the duel (the GM may want to mark the beginning of each round in some way during initiative tracking as a reminder to check this status). So long as all participants agree to continue dueling, the duel goes on. If any one of the participants withdraws from the duel, the duel immediately ends for all participants, even those who want to see it continue. The participant or side that ended the duel is considered the loser of the duel. The duel's remaining participants can, among themselves, agree to resume the duel, but this is considered a separate duel from the previous one and does not involve those who withdrew from the duel.",
-			"",
-			"Each participant in a duel can act normally on her turn, but if she casts a spell, that spell must affect or target either herself or one of the other duel participants (whether this participant is an ally or an opponent). For example, a dueling mage could not cast haste on her allies and exclude herself, but she could cast it on herself and her allies. The same goes for offensive spells, such as {spell/fireball} - the dueling caster must include one of her opponents in the duel among the targets of the spell, and could not affect some nearby creatures to the exclusion of her opponent.",
-			"",
-			"In addition to the normal set of actions a dueling caster can perform each round, each participant in a duel may take a special counterspell action called a dueling counter, as noted below."
-		],
-		"parent_topics": [
-			"advanced_gm_topics",
-			"spell_duels"
-		],
-		"siblings": [
-			"starting_a_duel_um",
-			"duel_combat_um",
-			"duel_counter",
-			"duel_results_um"
-		]
-	},
-	"duel_counter": {
-		"name": "Duel Counter",
-		"subtitle": "Spell Duels, Advanced GM Topics",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/100}",
-			"",
-			"Each participant in a duel can take a special action once per round called a dueling counter. A dueling counter is similar to a counterspell, but is easier to use.",
-			"",
-			"When a dueling opponent tries to cast a spell, the targeted spellcaster can make a Spellcraft check (DC 15 + the spell's level) as a free action. If the check succeeds, she identifies her opponent's spell and can attempt a dueling counter. If it fails, she cannot attempt a dueling counter against that spell.",
-			"",
-			"A dueling counter is an immediate action that does not provoke attacks of opportunity. To attempt a dueling counter, the countering duelist must expend a spell or a spell slot of a level equal to or higher than that of the spell being cast. Note that characters who cast spells spontaneously (such as bards and sorcerers) must choose what exact spell they are using to counterspell in addition to the slot being used. The countering duelist must then make a caster level check against a DC of 15 + the spell's caster level. Unlike when using a true counterspell action (which requires a readied action), even expending an exact copy of the spell being cast does not guarantee success. The caster attempting the counterspell receives a bonus or penalty on her check depending upon the level of the spell slot expended and the exact spell used, as noted in Table 2-3. If the check is successful, the spell is countered - it is negated and the spell is lost. If not, the spell happens as normal and the duelist attempting to counter the spell takes a -2 penalty on any saving throws made against the spell's effect.",
-			"",
-			"Alternatively, a spellcaster can use {spell/dispel magic} or {spell/dispel magic, greater} as a dueling counter. When a dueling spellcaster does so, she does not need to identify the spell being cast, can counter a spell of any level, and must succeed at a caster level check against a DC of 11 + the spell's caster level. When {spell/dispel magic} is used as a dueling counter, it is not modified by any of the circumstances in Table 2-3.",
-			"",
-			"Because readying to counterspell is its own action, a participant can choose to ready to counterspell and make a dueling counter in the same round. This is only useful if the participant is facing multiple opponents or someone with access to {feat/Quicken Spell} or other abilities that allow casting two spells in the same round.",
-			"",
-			"| Circumstance | Check Modifier |",
-			"| --- | --- |",
-			"| Spell is of a different school | -2 |",
-			"| Spell is of the same school, but not the same spell | +2 |",
-			"| Spell is a higher level than the spell being countered | +1 per level higher |",
-			"| Spell is the same as the spell being countered | +10 |"
-		],
-		"parent_topics": [
-			"advanced_gm_topics",
-			"spell_duels"
-		],
-		"siblings": [
-			"starting_a_duel_um",
-			"duel_combat_um",
-			"duel_counter",
-			"duel_results_um"
-		]
-	},
-	"duel_results_um": {
-		"name": "Duel Results",
-		"subtitle": "Spell Duels, Advanced GM Topics",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"{SOURCE Ultimate Magic/100}",
-			"",
-			"While duels can be treated as another form of combat, they are usually done to resolve a dispute between colleagues or rivals and are not usually intended to end in death. As a result, duels are usually fought with a specific prize in mind. Arcane academies are known for having duels to assign important faculty positions and as competitions between students for valuable prizes. In some places, magical duels of this kind are so common that special areas are constructed specifically for duels. Such dueling yards are sometimes made with special magic that can be activated for dueling competitions, converting all damage to nonlethal damage and preventing or reversing magic that instantly slays a foe or does permanent harm. That is not to say that accidents don't happen, and more than one student has lost a limb or even her life while on such \"safe\" fields.",
-			"",
-			"Regardless of the conditions, most duels are serious affairs, with each side putting pride, honor, treasure, and even their lives on the line to win the day. While villains might try to cheat the rules and exploit every advantage, the more noble duelist sees the competition as a chance to prove her superiority and skill on the field of battle, using only her magic and wits."
-		],
-		"parent_topics": [
-			"advanced_gm_topics",
-			"spell_duels"
-		],
-		"siblings": [
-			"starting_a_duel_um",
-			"duel_combat_um",
-			"duel_counter",
-			"duel_results_um"
 		]
 	},
 	"verbal_duels": {
@@ -2136,9 +1960,9 @@
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
-			"spell_duels",
 			"verbal_duels",
 			"heists",
+			"infiltration",
 			"nemeses",
 			"performance_combat",
 			"pursuit",
@@ -2325,7 +2149,7 @@
 		"description": [
 			"{SOURCE Ultimate Intrigue/178}",
 			"",
-			"Tactics are the weapons of verbal dueling. At the start of each duel, each duelist can assign her skills to tactics that have those skills associated with them. A duelist can only assign a given skill to a single tactic, so if a duelist assigned Perform (oratory) to allegory, she couldn't also assign it to emotional appeal. For the purpose of a verbal duel, a character calculates her associated skill bonus by adding her ranks in the skill (including the +3 bonus for having ranks in the skill if it is a class skill) and her Charisma modifier (regardless of which skill she chooses, unless she has the {feat/Ironclad Logic} feat). If she has other modifiers to the skill, they grant her edges (see above). The bard's versatile performance ability allows two skills to use the bonus from a Perform skill, and a character with that ability can assign all three of those skills to different tactics, even though he technically might only have ranks in the Perform skill.",
+			"Tactics are the weapons of verbal dueling. At the start of each duel, each duelist can assign her skills to tactics that have those skills associated with them. A duelist can only assign a given skill to a single tactic, so if a duelist assigned Perform (oratory) to allegory, she couldn't also assign it to emotional appeal. For the purpose of a verbal duel, a character calculates her associated skill bonus by adding her ranks in the skill (including the +3 bonus for having ranks in the skill if it is a class skill) and her Charisma modifier (regardless of which skill she chooses, unless she has the {feat/Ironclad Logic} feat). If she has other modifiers to the skill, they grant her {rule/edges}. The bard's versatile performance ability allows two skills to use the bonus from a Perform skill, and a character with that ability can assign all three of those skills to different tactics, even though he technically might only have ranks in the Perform skill.",
 			"",
 			"A duelist might apply bonuses or penalties to a tactic's associated skill check due to the audience's bias, as well as from the following considerations.",
 			"",
@@ -2841,17 +2665,16 @@
 			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
-			"example_heist",
-			"infiltration"
+			"example_heist"
 		],
 		"siblings": [
 			"diseases_and_poisons",
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
-			"spell_duels",
 			"verbal_duels",
 			"heists",
+			"infiltration",
 			"nemeses",
 			"performance_combat",
 			"pursuit",
@@ -2875,7 +2698,7 @@
 			"",
 			"Adventuring is about overcoming obstacles to achieve a goal. Normally, PCs react to whatever impediments are set before them - kick in a door, disarm the traps, or slay the monsters. Heists flip this familiar script: the PCs carefully research everything that might stand between them and their goal, and construct plans to disrupt the status quo, while the GM must determine how the monsters and NPCs react to the PCs' machinations. In essence, when planning a heist, the PCs write an adventure and the GM reacts.",
 			"",
-			"Parties will often split up for a heist. The GM should treat each member of the party (or subgroups of two or three) as if she were an individual adventuring group, and provide opportunities for all characters to showcase their respective skills. Working backward, consider each hero's strengths and each player's interests, and then present an obstacle against which that hero is most likely to excel. In a well-planned heist, every character (and by extension, player) needs an opportunity to take center stage-PCs will naturally gravitate toward activities at which they excel, and will want to build their heist schemes around those skills. Making sure the pieces of the heist interconnect - that many goals can be achieved only by characters working on different tasks in tandem - ensures that each player has a stake in what the others are doing. This sense of teamwork is the driving force behind making a heist rewarding for everyone involved."
+			"Parties will often split up for a heist. The GM should treat each member of the party (or subgroups of two or three) as if she were an individual adventuring group, and provide opportunities for all characters to showcase their respective skills. Working backward, consider each hero's strengths and each player's interests, and then present an obstacle against which that hero is most likely to excel. In a well-planned heist, every character (and by extension, player) needs an opportunity to take center stage - PCs will naturally gravitate toward activities at which they excel, and will want to build their heist schemes around those skills. Making sure the pieces of the heist interconnect - that many goals can be achieved only by characters working on different tasks in tandem - ensures that each player has a stake in what the others are doing. This sense of teamwork is the driving force behind making a heist rewarding for everyone involved."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -2885,8 +2708,7 @@
 			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
-			"example_heist",
-			"infiltration"
+			"example_heist"
 		]
 	},
 	"building_a_heist": {
@@ -2926,8 +2748,7 @@
 			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
-			"example_heist",
-			"infiltration"
+			"example_heist"
 		]
 	},
 	"step_1_establish_a_goal": {
@@ -3017,11 +2838,15 @@
 			"",
 			"### Obstacles",
 			"",
-			"The most effective security set-ups employ multiple, mixed elements of the following obstacle categories. The list is intended as a starting point. PCs will likely want to exploit strange abilities or focused skills, and may offer GMs inspiration for new obstacles. Each obstacle category's entry offers tactics that are typically strongest against those types of obstacles. Details about those tactics appear in the {rule/Running a Heist} section. Alarms and Divinations: Passive in nature, alarms and divinations do nothing to stop would-be thieves from executing the heist, but do help other forms of defense, like guardians, to stay aware, and might reveal the identity of the PCs, potentially adding a complication even after the heist is complete. Alarms can include mechanical devices like tripwires attached to ringing bells, barking dogs (see Guardians below), or magical effects such as {spell/alarm} or any of a number of sensing and scrying spells. A key advantage of this kind of defense is ease of concealment - if would-be thieves don't know an alarm is there, it might be too late by the time they figure it out. The disadvantage, of course, is that it is fairly easy to circumvent passive systems with a little preparation. If the party fails to overcome an alarm or divination, it typically makes the other obstacles (usually guardians) stronger rather than putting up a barrier to the PCs' progress. Stealth and countermagic can foil alarms and divinations, as can disguises in some circumstances.",
+			"The most effective security set-ups employ multiple, mixed elements of the following obstacle categories. The list is intended as a starting point. PCs will likely want to exploit strange abilities or focused skills, and may offer GMs inspiration for new obstacles. Each obstacle category's entry offers tactics that are typically strongest against those types of obstacles. Details about those tactics appear in the {rule/Running a Heist} section.",
+			"",
+			"***Alarms and Divinations:*** Passive in nature, alarms and divinations do nothing to stop would-be thieves from executing the heist, but do help other forms of defense, like guardians, to stay aware, and might reveal the identity of the PCs, potentially adding a complication even after the heist is complete. Alarms can include mechanical devices like tripwires attached to ringing bells, barking dogs (see Guardians below), or magical effects such as {spell/alarm} or any of a number of sensing and scrying spells.",
+			"",
+			"A key advantage of this kind of defense is ease of concealment - if would-be thieves don't know an alarm is there, it might be too late by the time they figure it out. The disadvantage, of course, is that it is fairly easy to circumvent passive systems with a little preparation. If the party fails to overcome an alarm or divination, it typically makes the other obstacles (usually guardians) stronger rather than putting up a barrier to the PCs' progress. Stealth and countermagic can foil alarms and divinations, as can disguises in some circumstances.",
 			"",
 			"***Barriers:*** Barred doors, castle moats, gates, locks, and thick stone walls are useful in preventing a heist. Some barriers are simple but take time to penetrate (like walls). Special tools might be required to get through good-quality locks, and magic might counter a hallway filled with poisonous gas. Barriers are cheap and not designed to function effectively on their own, because given enough time, any barrier can be overcome. Force and finesse work best against barriers, though observation can clue a PC into a secret bypass. Barriers that normally require force to overcome might be bypassed by spells like {spell/gaseous form}, {spell/phase door}, or {spell/stone shape}, or by teleportation spells. Defeating some magical barriers requires dispelling or a specific type of countermagic.",
 			"",
-			"***Guardians:*** Some obstacles take the form of intelligent guards who patrol an area and keep watch, dangerous beasts that attack intruders (trained dogs, giant snakes, great cats, or even abominations or planar creatures with preternaturally keen senses), or magical beings and constructs (gargoyles, golems, or animated suits of armor). Guards are proactive and often skilled in spotting intruders or unusual activity. Diverse tactics work against guardians. They're especially vulnerable to diversions and bribery, but can also be bypassed by stealth or disguise or defeated through force. Sometimes, guards can be dispatched quickly with spells like {spell/sleep} or {spell/deep slumber} instead of a battle. Smuggling can be used to make a PC appear as though she's not a threat, allowing her to bypass guardians while still carrying hidden weapons or tools.",
+			"***Guardians:*** Some obstacles take the form of intelligent guards who patrol an area and keep watch, dangerous beasts that attack intruders (trained {monster/dog/s}, {monster/giant /snake>anaconda}, [great cats](monster/lion), or even abominations or planar creatures with preternaturally keen senses), or magical beings and constructs ({monster/gargoyle/s}, {family/golem/s}, or {family/phantom<animated suits of| armor}). Guards are proactive and often skilled in spotting intruders or unusual activity. Diverse tactics work against guardians. They're especially vulnerable to diversions and bribery, but can also be bypassed by stealth or disguise or defeated through force. Sometimes, guards can be dispatched quickly with spells like {spell/sleep} or {spell/deep slumber} instead of a battle. Smuggling can be used to make a PC appear as though she's not a threat, allowing her to bypass guardians while still carrying hidden weapons or tools.",
 			"",
 			"***Hazards:*** Dangerous obstacles that directly harm intruders rather than warning guardians or preventing entry fall into the hazards category. Hazards include mundane dangers like mechanical traps, as well as abjuration magic such as glyphs and other triggered defensive spells. Spells like {spell/explosive runes} can be used to trap documents, adding a hazard that can have an effect late in the heist - or even after it's over. Their advantage is that they are usually less expensive to create and put into place, but they are also typically easier to overcome, provided the infiltrators are aware of them and can plan ahead. Finesse and observation are the best tools against hazards, and some require dispelling to bypass.",
 			"",
@@ -3086,8 +2911,7 @@
 			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
-			"example_heist",
-			"infiltration"
+			"example_heist"
 		]
 	},
 	"planning": {
@@ -3135,7 +2959,7 @@
 			"",
 			"***Splitting the Group:*** One of the trickiest parts of running a heist is overcoming the reluctance of players to split the party. As mentioned before, giving the characters reasons to split up is vital. Much of this comes down to timing, and impressing on the players how important it is that their characters keep to a tight schedule as they execute their plans. Multiple parts of the plan need to happen at the same time, so everybody staying together is rarely an option. Though keeping the group together usually helps in a task, sometimes having a crowd is detrimental. This is easiest to see with Stealth, where the lowest roll can expose the party, but social interaction can also be fraught since a group can appear more suspicious, some party members may be poor at Bluff and give the others away, and disguising an entire group is far more difficult than just disguising one person. Combats pose the greatest challenge, since few characters want to go into a fight without backup. Fortunately, in most heists combat is better used as a diversion. Heists may run slowly at the table when the PCs split up, and the GM may wish to let players not participating in the scene to control friendly NPCs to keep them involved.",
 			"",
-			"Once a heist begins, PCs realistically have little knowledge of how their teammates are doing. Using an in-game means of communication can help reduce the temptation to act on knowledge a character wouldn't have. These can include communication spells like message and sending, sending secret messages using Bluff (though this usually requires a close range), and magic items like bird feather tokens. It's also helpful to create a set of common signals for the group before they go in. Bird calls, graffiti, and other relatively subtle signals can help communicate a PC's success or failure to other members of the party. In extreme cases, some players might need to step outside when it's not their characters' turns. If this becomes necessary, GMs should keep the action moving so no one stays out of the game too long.",
+			"Once a heist begins, PCs realistically have little knowledge of how their teammates are doing. Using an in-game means of communication can help reduce the temptation to act on knowledge a character wouldn't have. These can include communication spells like {spell/message} and {spell/sending}, sending secret messages using Bluff (though this usually requires a close range), and magic items like {magic-wondrous/bird |feather token/s>_bird}. It's also helpful to create a set of common signals for the group before they go in. Bird calls, graffiti, and other relatively subtle signals can help communicate a PC's success or failure to other members of the party. In extreme cases, some players might need to step outside when it's not their characters' turns. If this becomes necessary, GMs should keep the action moving so no one stays out of the game too long.",
 			"",
 			"***Complications and Contingencies:*** Inevitably, some aspect of a heist goes wrong, adding interest and tension without immediately ending the heist. In a game setting, the GM should specifically plan for fun twists by examining every phase and step of a heist that a group puts together, and figure out what might go wrong and how NPCs would react. In many instances in which a single die roll might make or break a task, consider treating a failure as a lesser degree of success, a time delay, or a success that comes at a heavy cost. As always, GMs should reward smart thinking and good roleplaying by the characters over punishing them for bad die rolls.",
 			"",
@@ -3193,19 +3017,23 @@
 			"",
 			"***Puppet Brawl:*** In an urban setting, some of the PCs can start a brawl with random locals or each other in order to draw guards away from their post.",
 			"",
-			"***Razzle-Dazzle:*** The most common way to use social skills for a diversion, the razzle-dazzle entices guards to engage in an interesting conversation or engaging performance and shirk their duties. Group Stealth and Disguise Sneaking around and using disguises can be difficult when operating as a group. Though one person might be highly skilled and specialized, it's often the party member with the worst Stealth or weakest disguise who causes the whole group to get caught. Though the most effective tactic is to assign those characters to different tasks, that's not always possible. Here are a few ways to help mitigate this risk.",
+			"***Razzle-Dazzle:*** The most common way to use social skills for a diversion, the razzle-dazzle entices guards to engage in an interesting conversation or engaging performance and shirk their duties.",
 			"",
-			"### Unseen Numbers",
+			"### Group Stealth and Disguise",
+			"",
+			"Sneaking around and using disguises can be difficult when operating as a group. Though one person might be highly skilled and specialized, it's often the party member with the worst Stealth or weakest disguise who causes the whole group to get caught. Though the most effective tactic is to assign those characters to different tasks, that's not always possible. Here are a few ways to help mitigate this risk.",
+			"",
+			"#### Unseen Numbers",
 			"",
 			"More people require more or larger places to conceal themselves, and even then the group is only as stealthy as its clumsiest member. Using aid another on an ally's Stealth check is often infeasible. It's useful when attempting to sneak as a group to have the stealthier or more perceptive characters move ahead of the rest of the party. The job of the forward characters is to spot guards or traps before the rest of the party can stumble into them. Once warned of the danger, other party members can either change their route or use their own talents to handle the situation. Characters farther back are harder to perceive because of distance and possibly doors or walls.",
 			"",
 			"Characters with the teamwork feat {feat/Stealth Synergy} can use the highest Stealth check roll among them (though they still use their own skill modifiers). A few archetypes have abilities to boost their allies' Stealth checks, including the [daring infiltrator swashbuckler](arc-swashbuckler/daring_infiltrator), the {arc-ranger/guide/ ranger}, and the {arc-ranger/warden/ ranger}.",
 			"",
-			"### Armored Subterfuge",
+			"#### Armored Subterfuge",
 			"",
-			"Medium and heavy armor are vital to the survival of many characters, yet often counterproductive when sneaking past guards or disguising oneself. Though lighter armor is always an option, there are a number of ways to reduce the penalties associated with heavier armor. Masterwork armor and those made from special materials such as mithral have lower armor check penalties. A number of magic armor special abilities improve skills normally penalized by armor, including {magic-enhancement/creeping}, {magic-enhancement/shadow}, and {magic-enhancement/slick}. The {magic-enhancement/glamered} armor special ability allows even a heavily armored character to blend into a crowd. Any armor's penalty can be reduced with the {trait/Armor Expert} trait or the [fighter's armor training](class/fighter) ability. Applying {eq-misc/armor ointment} or casting {spell/effortless armor} also reduces armor check penalty.",
+			"Medium and heavy armor are vital to the survival of many characters, yet often counterproductive when sneaking past guards or disguising oneself. Though lighter armor is always an option, there are a number of ways to reduce the penalties associated with heavier armor. Masterwork armor and those made from special materials such as {eq-material/mithral} have lower armor check penalties. A number of magic armor special abilities improve skills normally penalized by armor, including {magic-enhancement/creeping}, {magic-enhancement/shadow}, and {magic-enhancement/slick}. The {magic-enhancement/glamered} armor special ability allows even a heavily armored character to blend into a crowd. Any armor's penalty can be reduced with the {trait/Armor Expert} trait or the [fighter's armor training](class/fighter) ability. Applying {eq-misc/armor ointment} or casting {spell/effortless armor} also reduces armor check penalty.",
 			"",
-			"### Group Disguises",
+			"#### Group Disguises",
 			"",
 			"Disguise has an advantage over stealth, as sometimes not everyone in the party needs to be disguised for a plan to work. For instance, one or more characters might disguise themselves as bounty hunters or guards bringing in the others in chains. {eq-misc/Breakaway chains} and {eq-misc/false manacles} allow PCs to appear chained while able to easily free themselves. Even a good disguise fails, however, if the character can't play the assumed persona convincingly. The best disguises are often as people unlikely to be questioned or engaged in conversation - servants, laborers, and guards. A brazen infiltrator might pretend to be someone in authority, such as a foreign noble or a military officer, relying on aloofness or brusqueness to avoid questions. For a group, one character can be disguised as an authority figure while the rest play her servants. This provides a built-in excuse for party members to defer to the PC with the best social skills."
 		],
@@ -3251,8 +3079,7 @@
 			"what_is_different",
 			"building_a_heist",
 			"running_a_heist",
-			"example_heist",
-			"infiltration"
+			"example_heist"
 		]
 	},
 	"infiltration": {
@@ -3266,10 +3093,7 @@
 			"",
 			"Infiltration covers both a direct infiltration with a single, set goal (similar to a heist) and long-term espionage that requires living a double life and has a less specific goal. Infiltration ranges from breaking and entering to using social skills to get inside a location. Infiltration usually requires the Stealth and Disguise skills, and often social skills and Sleight of Hand as well."
 		],
-		"parent_topics": [
-			"advanced_gm_topics",
-			"heists"
-		],
+		"parent_topics": [ "advanced_gm_topics" ],
 		"subtopics": [
 			"alternate_goals",
 			"scope",
@@ -3277,11 +3101,25 @@
 			"maintaining_the_charade"
 		],
 		"siblings": [
-			"what_is_different",
-			"building_a_heist",
-			"running_a_heist",
-			"example_heist",
-			"infiltration"
+			"diseases_and_poisons",
+			"exploration_ucp",
+			"discovery_and_exploration",
+			"duels",
+			"verbal_duels",
+			"heists",
+			"infiltration",
+			"nemeses",
+			"performance_combat",
+			"pursuit",
+			"simple_monster_creation",
+			"skills_in_conflict",
+			"social_conflicts",
+			"spells_of_intrigue",
+			"spells_of_the_wild",
+			"taxation",
+			"trophies_and_treasures",
+			"weather_in_the_wilderness",
+			"hazards_and_disasters"
 		]
 	},
 	"alternate_goals": {
@@ -3301,7 +3139,6 @@
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"heists",
 			"infiltration"
 		],
 		"siblings": [
@@ -3322,11 +3159,12 @@
 			"",
 			"***Fast:*** The PC or PCs need to get in quickly and take care of their task. The infiltration usually takes no more than a few hours in game time and 10-15 minutes or so at the game table. This requires one to three obstacles for a single PC or one obstacle per PC if multiple PCs are involved. If you find yourself needing more than three obstacles, use a heist instead so all the characters get involved.",
 			"",
-			"***Long-Term:*** This covers long-term espionage, and requires the PC to create a cover story or alternate identity. It plays out over the course of several sessions, but usually takes up 10 minutes or less per session. Rather than having a set number of obstacles to obtain a single goal, put two obstacles in front of the PC as she tries to infiltrate the organization or befriend the target. Then provide a single obstacle or two each session in which the PC attempts to get something out of the infiltration. Provide a minor piece of useful information for each obstacle overcome, or a more important piece at certain intervals (typically after the PC has overcome four or five obstacles). Structure the secrets of the organization in layers from the least secret to the most secret, so the PC gets closer and closer to the innermost levels of the organization. People from the organization the PC is infiltrating might encounter the PC elsewhere, in which case she might need to quickly adopt her cover or avoid being noticed. Long-term espionage can go on indefinitely, but each time the PC fails to overcome an obstacle, the organization or target becomes more suspicious of her true agenda. After three failures (or one egregious failure), the interloping character's motivation is revealed unless she takes extraordinary steps to repair her reputation."
+			"***Long-Term:*** This covers long-term espionage, and requires the PC to create a cover story or alternate identity. It plays out over the course of several sessions, but usually takes up 10 minutes or less per session. Rather than having a set number of obstacles to obtain a single goal, put two obstacles in front of the PC as she tries to infiltrate the organization or befriend the target. Then provide a single obstacle or two each session in which the PC attempts to get something out of the infiltration. Provide a minor piece of useful information for each obstacle overcome, or a more important piece at certain intervals (typically after the PC has overcome four or five obstacles).",
+			"",
+			"Structure the secrets of the organization in layers from the least secret to the most secret, so the PC gets closer and closer to the innermost levels of the organization. People from the organization the PC is infiltrating might encounter the PC elsewhere, in which case she might need to quickly adopt her cover or avoid being noticed. Long-term espionage can go on indefinitely, but each time the PC fails to overcome an obstacle, the organization or target becomes more suspicious of her true agenda. After three failures (or one egregious failure), the interloping character's motivation is revealed unless she takes extraordinary steps to repair her reputation."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"heists",
 			"infiltration"
 		],
 		"siblings": [
@@ -3365,7 +3203,6 @@
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"heists",
 			"infiltration"
 		],
 		"siblings": [
@@ -3386,7 +3223,6 @@
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"heists",
 			"infiltration"
 		],
 		"siblings": [
@@ -3417,9 +3253,9 @@
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
-			"spell_duels",
 			"verbal_duels",
 			"heists",
+			"infiltration",
 			"nemeses",
 			"performance_combat",
 			"pursuit",
@@ -3501,31 +3337,9 @@
 		"description": [
 			"{SOURCE Ultimate Intrigue/137}",
 			"",
-			"A nemesis typically only employs one stratagem at a time. Only if the PCs continually cause the nemesis major setbacks will he use two stratagems simultaneously. A nemesis typically employs stratagems appropriate for his current Nemesis Level and that tie into the archetype or modus operandi that you've chosen for the villain (see {rule/Nemesis Personas}). Occasionally a lesser strategy might make sense for a nemesis after he's endured a lesser setback, but he should never employ a stratagem meant for a higher Nemesis Level."
-		],
-		"parent_topics": [
-			"advanced_gm_topics",
-			"nemeses"
-		],
-		"subtopics": [
-			"stratagem_rewards",
-			"simmering_stratagems",
-			"engaged_stratagems",
-			"intense_stratagems"
-		],
-		"siblings": [
-			"provoking_a_nemesis",
-			"opportunities",
-			"stratagems",
-			"nemesis_personas"
-		]
-	},
-	"stratagem_rewards": {
-		"name": "Stratagem Rewards",
-		"subtitle": "Nemeses, Advanced GM Topics",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"{SOURCE Ultimate Intrigue/137}",
+			"A nemesis typically only employs one stratagem at a time. Only if the PCs continually cause the nemesis major setbacks will he use two stratagems simultaneously. A nemesis typically employs stratagems appropriate for his current Nemesis Level and that tie into the archetype or modus operandi that you've chosen for the villain (see {rule/Nemesis Personas}). Occasionally a lesser strategy might make sense for a nemesis after he's endured a lesser setback, but he should never employ a stratagem meant for a higher Nemesis Level.",
+			"",
+			"### Stratagem Rewards",
 			"",
 			"The PCs receive an XP reward when engaging a nemesis's stratagem, regardless of whether they emerge victorious. When the PCs gain this XP is up to you. It may make sense to award this XP at the end of an encounter, whether it's a single combat or interaction with the nemesis's agents, or it might come at the end of a larger adventure influenced by the strategem's benefits or theme. The PCs do not gain the XP if they avoid or ignore the stratagem. This XP reward is in addition to any XP the PCs receive for overcoming encounters as the stratagem plays out. Stratagem XP rewards are relative to the PCs' Average Party Level. After engaging a nemesis's strategem, the PCs should never receive less than the amount they'd receive for defeating a CR 1 encounter.",
 			"",
@@ -3537,14 +3351,18 @@
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
-			"nemeses",
-			"stratagems"
+			"nemeses"
 		],
-		"siblings": [
-			"stratagem_rewards",
+		"subtopics": [
 			"simmering_stratagems",
 			"engaged_stratagems",
 			"intense_stratagems"
+		],
+		"siblings": [
+			"provoking_a_nemesis",
+			"opportunities",
+			"stratagems",
+			"nemesis_personas"
 		]
 	},
 	"simmering_stratagems": {
@@ -3600,7 +3418,7 @@
 			"",
 			"**XP Reward** low",
 			"",
-			"The nemesis engages in a campaign to spread rumors that impugn the PCs' reputation. These rumors aren't ubiquitous, but they are just believable enough to cause others to have doubts about the PCs. This stratagem decreases the characters' Leadership score, {rule/contact |trust}, {rule/Fame}, {rule/honor points}, and [total influence points with organizations](rule/influence_points_and_ranks) by 1. Alternatively, the nemesis can target a single character and double the decrease.",
+			"The nemesis engages in a campaign to spread rumors that impugn the PCs' reputation. These rumors aren't ubiquitous, but they are just believable enough to cause others to have doubts about the PCs. This stratagem decreases the characters' {feat/Leadership} score, {rule/contact |trust}, {rule/Fame}, {rule/honor points}, and [total influence points with organizations](rule/influence_points_and_ranks) by 1. Alternatively, the nemesis can target a single character and double the decrease.",
 			"",
 			"#### Opportunities",
 			"",
@@ -3622,7 +3440,6 @@
 			"stratagems"
 		],
 		"siblings": [
-			"stratagem_rewards",
 			"simmering_stratagems",
 			"engaged_stratagems",
 			"intense_stratagems"
@@ -3733,7 +3550,6 @@
 			"stratagems"
 		],
 		"siblings": [
-			"stratagem_rewards",
 			"simmering_stratagems",
 			"engaged_stratagems",
 			"intense_stratagems"
@@ -3802,7 +3618,7 @@
 			"",
 			"**XP Reward** high",
 			"",
-			"The nemesis uses a {spell/clone}, {spell/simulacrum}, doppelganger, or other impostor version of himself to make it seem like he is in one place rather than another. The GM should decide to implement this stratagem before the PCs encounter the nemesis and use the stats for the impostor, rather than having the PCs fight the real, full-powered nemesis; after the PCs kill the impostor, the GM should reveal that it was a fake.",
+			"The nemesis uses a {spell/clone}, {spell/simulacrum}, {monster/doppelganger}, or other impostor version of himself to make it seem like he is in one place rather than another. The GM should decide to implement this stratagem before the PCs encounter the nemesis and use the stats for the impostor, rather than having the PCs fight the real, full-powered nemesis; after the PCs kill the impostor, the GM should reveal that it was a fake.",
 			"",
 			"#### Opportunities",
 			"",
@@ -3824,7 +3640,6 @@
 			"stratagems"
 		],
 		"siblings": [
-			"stratagem_rewards",
 			"simmering_stratagems",
 			"engaged_stratagems",
 			"intense_stratagems"
@@ -3843,7 +3658,7 @@
 			"",
 			"***Fallen Idol:*** The nemesis was once a person of great repute, honored for his heroic deeds, or revered as a mentor of the PCs. Whatever his former prominence, the idol has fallen on hard times. This may not be public knowledge, and early encounters with the fallen idol might preserve the facade that things are going well. However, the PCs have unknowingly disrupted the fallen idol's (possibly illicit) scheme to recover his position, plunging him further into desperation. The nemesis becomes obsessed with regaining his former fame, resorting to ever-more-questionable methods and outrageous schemes in a losing battle to regain respect; in short, he's become the very thing he once stood against. The PCs might never realize that their old mentor and their new nemesis are one and the same until the final confrontation, after which they must decide whether to redeem or slay the fallen idol.",
 			"",
-			"***Herald of the Future:*** The nemesis is devoted to the cause of progress, seeking to abolish the old ways and usher in a glorious destiny. This new future might come about through science, political upheaval, the rapturous return of a deity, or the advent of alien intelligence. Whatever his creed, the nemesis promises it will change everything. His goals and dogma might be strange, leading the PCs to either oppose his view of the future or simply compete with him for the same resources. For instance, his goal to collect strange artifacts might place him in a race against the PCs for the otherworldly relics. While urbane and sophisticated, the herald dismisses dissent as smallminded ignorance. At first, he might feel more sorrow for his opposition's shortsightedness than anger, but he still won't let the PCs stand in the way of progress.",
+			"***Herald of the Future:*** The nemesis is devoted to the cause of progress, seeking to abolish the old ways and usher in a glorious destiny. This new future might come about through science, political upheaval, the rapturous return of a deity, or the advent of alien intelligence. Whatever his creed, the nemesis promises it will change everything. His goals and dogma might be strange, leading the PCs to either oppose his view of the future or simply compete with him for the same resources. For instance, his goal to collect strange artifacts might place him in a race against the PCs for the otherworldly relics. While urbane and sophisticated, the herald dismisses dissent as small-minded ignorance. At first, he might feel more sorrow for his opposition's short-sightedness than anger, but he still won't let the PCs stand in the way of progress.",
 			"",
 			"***Obstructive Official:*** The nemesis is a person of political power or prominence, such as an officer of the law, a moralizing judge, an ambitious aristocrat, or an arrogant noble. Whatever his role, or whether he holds his position through birth, wealth, or personal strength, he is dogmatically dedicated to a specific set of rules that the PCs, in the course of their adventuring activities, violate with some frequency. The obstructive official is not interested in the PCs' motivations or justifications. To the nemesis, they are dangerous vigilantes who bring trouble in their wake. So-called \"heroes\" are menaces that need to be controlled or, failing that, eliminated. This sort of nemesis uses his connections to make life more difficult for the PCs, but always through legal avenues. Eventually he hopes to have the PCs thrown in jail, exiled, or otherwise removed from the equation, but only after he has built an ironclad case against them.",
 			"",
@@ -3875,9 +3690,7 @@
 		"subtopics": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowds_starting_attitude",
 			"performance_combat_check",
-			"performance_combat_check_dc",
 			"affecting_the_crowds_attitude"
 		],
 		"siblings": [
@@ -3885,9 +3698,9 @@
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
-			"spell_duels",
 			"verbal_duels",
 			"heists",
+			"infiltration",
 			"nemeses",
 			"performance_combat",
 			"pursuit",
@@ -3928,9 +3741,7 @@
 		"siblings": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowds_starting_attitude",
 			"performance_combat_check",
-			"performance_combat_check_dc",
 			"affecting_the_crowds_attitude"
 		]
 	},
@@ -3961,27 +3772,9 @@
 			"",
 			"***Helpful:*** The crowd loves what it is seeing from a given side. Audience members stand up, chant, cheer, and scream for the combatants to push on toward ultimate success. A helpful crowd grants its chosen champions a +2 morale bonus on all attack rolls, combat maneuver checks, ability checks, skill checks, and saving throws. This is a mind-affecting effect.",
 			"",
-			"If the crowd is helpful toward one side of the combat and a member of that side succeeds at a performance combat check, that side gains a victory point."
-		],
-		"parent_topics": [
-			"advanced_gm_topics",
-			"performance_combat"
-		],
-		"siblings": [
-			"types_of_performance_combat",
-			"crowd_attitudes",
-			"crowds_starting_attitude",
-			"performance_combat_check",
-			"performance_combat_check_dc",
-			"affecting_the_crowds_attitude"
-		]
-	},
-	"crowds_starting_attitude": {
-		"name": "Crowd's Starting Attitude",
-		"subtitle": "Performance Combat, Advanced GM Topics",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"{SOURCE Ultimate Combat/154}",
+			"If the crowd is helpful toward one side of the combat and a member of that side succeeds at a performance combat check, that side gains a victory point.",
+			"",
+			"### Crowd's Starting Attitude",
 			"",
 			"The first thing a GM must do in a performance combat is determine the crowd's starting attitude. Typically a crowd starts out with an indifferent attitude toward each side, but it could start with an attitude that's a step higher or lower based on other circumstances. Favored champions of a fighting pit or a city may start at a higher attitude step, while outsiders, prisoners of war, or criminals may start at a lower attitude step. If you are running a series of combats, a crowd may start with a higher or lower starting attitude based on a combatant's or a group of combatants' performance in the last bout, which is determined by the number of victory points the individual or group has (see [Serialized Performance Combats](rule/serialized_performance_combat))."
 		],
@@ -3992,9 +3785,7 @@
 		"siblings": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowds_starting_attitude",
 			"performance_combat_check",
-			"performance_combat_check_dc",
 			"affecting_the_crowds_attitude"
 		]
 	},
@@ -4029,27 +3820,9 @@
 			"",
 			"Using a performance weapon grants a combatant a +2 bonus on performance combat checks. Some feats, spells, or other circumstances may grant a combatant a bonus on performance combat checks.",
 			"",
-			"Succeeding at a performance combat check improves the attitude of the crowd by one step. Unlike skill checks, a roll of a natural 20 on a performance combat check always succeeds. Failing the check either leaves the attitude unchanged or, if the check fails by 5 or more, causes the attitude of the crowd to decrease by one step. The DC of the check is determined by the crowd's current attitude, with a number of adjustments to the DC granted by the circumstances of the performance combat. If the crowd's current attitude is helpful, a successful check grants the favored side 1 victory point."
-		],
-		"parent_topics": [
-			"advanced_gm_topics",
-			"performance_combat"
-		],
-		"siblings": [
-			"types_of_performance_combat",
-			"crowd_attitudes",
-			"crowds_starting_attitude",
-			"performance_combat_check",
-			"performance_combat_check_dc",
-			"affecting_the_crowds_attitude"
-		]
-	},
-	"performance_combat_check_dc": {
-		"name": "Performance Combat Check DC",
-		"subtitle": "Advanced GM Topics",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"{SOURCE Ultimate Combat/154}",
+			"Succeeding at a performance combat check improves the attitude of the crowd by one step. Unlike skill checks, a roll of a natural 20 on a performance combat check always succeeds. Failing the check either leaves the attitude unchanged or, if the check fails by 5 or more, causes the attitude of the crowd to decrease by one step. The DC of the check is determined by the crowd's current attitude, with a number of adjustments to the DC granted by the circumstances of the performance combat. If the crowd's current attitude is helpful, a successful check grants the favored side 1 victory point.",
+			"",
+			"### Performance Combat Check DC",
 			"",
 			"The performance combat check's DC is based on a number of factors, including the starting or current attitude of the crowd, the size of the crowd, and the number of creatures participating in the performance combat. The base DC of the performance combat check is determined by the current attitude of the crowd toward the side of combat.",
 			"",
@@ -4112,9 +3885,7 @@
 		"siblings": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowds_starting_attitude",
 			"performance_combat_check",
-			"performance_combat_check_dc",
 			"affecting_the_crowds_attitude"
 		]
 	},
@@ -4148,9 +3919,7 @@
 		"siblings": [
 			"types_of_performance_combat",
 			"crowd_attitudes",
-			"crowds_starting_attitude",
 			"performance_combat_check",
-			"performance_combat_check_dc",
 			"affecting_the_crowds_attitude"
 		]
 	},
