@@ -224,7 +224,6 @@ import main33 from './json/main33.json' assert {type: 'json'};
 import main34 from './json/main34.json' assert {type: 'json'};
 import main35 from './json/main35.json' assert {type: 'json'};
 import main36 from './json/main36.json' assert {type: 'json'};
-import main37 from './json/main37.json' assert {type: 'json'};
 import monster1 from './json/monsters01.json' assert {type: 'json'};
 import monster2 from './json/monsters02.json' assert {type: 'json'};
 import monster3 from './json/monsters03.json' assert {type: 'json'};
@@ -697,62 +696,6 @@ const basic_data_groups = {
 		link: "umr",
 		num: 0,
 		type: "Universal Monster Rule"
-	},
-	"corruptions": {
-		data: corruption,
-		searchgroup: 12, // rule
-		link: "corruption",
-		num: 0,
-		type: "Corruption"
-	},
-	"curses": {
-		data: curse,
-		searchgroup: 12, // rule
-		link: "curse",
-		num: 0,
-		type: "Curse"
-	},
-	"diseases": {
-		data: disease,
-		searchgroup: 12, // rule
-		link: "disease",
-		num: 0,
-		type: "Disease"
-	},
-	"drugs": {
-		data: drug,
-		searchgroup: 12, // rule
-		link: "drug",
-		num: 0,
-		type: "Drug"
-	},
-	"haunts": {
-		data: haunt,
-		searchgroup: 12, // rule
-		link: "haunt",
-		num: 0,
-		type: "Haunt"
-	},
-	"infestations": {
-		data: infestation,
-		searchgroup: 12, // rule
-		link: "infestation",
-		num: 0,
-		type: "Infestation"
-	},
-	"madness": {
-		data: madness,
-		searchgroup: 12, // rule
-		link: "madness",
-		num: 0,
-		type: "Madness"
-	},
-	"traps": {
-		data: trap,
-		searchgroup: 12, // rule
-		link: "trap",
-		num: 0,
-		type: "Trap"
 	},
 	"races": {
 		data: race1,
@@ -2089,6 +2032,188 @@ const basic_data_groups = {
 		num: 10,
 		type: "Wondrous Item"
 	},
+	"spells": {
+		data: spell1,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 1,
+		type: "Spell"
+	},
+	"spells2": {
+		data: spell2,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 2,
+		type: "Spell"
+	},
+	"spells3": {
+		data: spell3,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 3,
+		type: "Spell"
+	},
+	"spells4": {
+		data: spell4,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 4,
+		type: "Spell"
+	},
+	"spells5": {
+		data: spell5,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 5,
+		type: "Spell"
+	},
+	"spells6": {
+		data: spell6,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 6,
+		type: "Spell"
+	},
+	"spells7": {
+		data: spell7,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 7,
+		type: "Spell"
+	},
+	"spells8": {
+		data: spell8,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 8,
+		type: "Spell"
+	},
+	"spells9": {
+		data: spell9,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 9,
+		type: "Spell"
+	},
+	"spells10": {
+		data: spell10,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 10,
+		type: "Spell"
+	},
+	"spells11": {
+		data: spell11,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 11,
+		type: "Spell"
+	},
+	"spells12": {
+		data: spell12,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 12,
+		type: "Spell"
+	},
+	"spells13": {
+		data: spell13,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 13,
+		type: "Spell"
+	},
+	"spells14": {
+		data: spell14,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 14,
+		type: "Spell"
+	},
+	"spells15": {
+		data: spell15,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 15,
+		type: "Spell"
+	},
+	"spells16": {
+		data: spell16,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 16,
+		type: "Spell"
+	},
+	"occult_rituals": {
+		data: spell17,
+		searchgroup: 8, // spell
+		link: "spell",
+		num: 17,
+		type: "Occult Ritual"
+	},
+	"spell_definitions": {
+		data: spelldef,
+		searchgroup: 8, // spell
+		link: "spelldef",
+		num: 0,
+		type: "Spell Definition"
+	},
+	"corruptions": {
+		data: corruption,
+		searchgroup: 12, // rule
+		link: "corruption",
+		num: 0,
+		type: "Corruption"
+	},
+	"curses": {
+		data: curse,
+		searchgroup: 12, // rule
+		link: "curse",
+		num: 0,
+		type: "Curse"
+	},
+	"diseases": {
+		data: disease,
+		searchgroup: 12, // rule
+		link: "disease",
+		num: 0,
+		type: "Disease"
+	},
+	"drugs": {
+		data: drug,
+		searchgroup: 12, // rule
+		link: "drug",
+		num: 0,
+		type: "Drug"
+	},
+	"haunts": {
+		data: haunt,
+		searchgroup: 12, // rule
+		link: "haunt",
+		num: 0,
+		type: "Haunt"
+	},
+	"infestations": {
+		data: infestation,
+		searchgroup: 12, // rule
+		link: "infestation",
+		num: 0,
+		type: "Infestation"
+	},
+	"madness": {
+		data: madness,
+		searchgroup: 12, // rule
+		link: "madness",
+		num: 0,
+		type: "Madness"
+	},
+	"traps": {
+		data: trap,
+		searchgroup: 12, // rule
+		link: "trap",
+		num: 0,
+		type: "Trap"
+	},
 	"main01": {
 		data: main1,
 		datatype: "main",
@@ -2339,13 +2464,6 @@ const basic_data_groups = {
 		datatype: "main",
 		link: "main",
 		num: 36,
-		type: "General Info"
-	},
-	"main37": {
-		data: main37,
-		datatype: "main",
-		link: "main",
-		num: 37,
 		type: "General Info"
 	},
 	"monsters01": {
@@ -2787,132 +2905,6 @@ const basic_data_groups = {
 		link: "source",
 		num: 0,
 		type: "Source"
-	},
-	"spells": {
-		data: spell1,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 1,
-		type: "Spell"
-	},
-	"spells2": {
-		data: spell2,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 2,
-		type: "Spell"
-	},
-	"spells3": {
-		data: spell3,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 3,
-		type: "Spell"
-	},
-	"spells4": {
-		data: spell4,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 4,
-		type: "Spell"
-	},
-	"spells5": {
-		data: spell5,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 5,
-		type: "Spell"
-	},
-	"spells6": {
-		data: spell6,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 6,
-		type: "Spell"
-	},
-	"spells7": {
-		data: spell7,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 7,
-		type: "Spell"
-	},
-	"spells8": {
-		data: spell8,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 8,
-		type: "Spell"
-	},
-	"spells9": {
-		data: spell9,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 9,
-		type: "Spell"
-	},
-	"spells10": {
-		data: spell10,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 10,
-		type: "Spell"
-	},
-	"spells11": {
-		data: spell11,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 11,
-		type: "Spell"
-	},
-	"spells12": {
-		data: spell12,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 12,
-		type: "Spell"
-	},
-	"spells13": {
-		data: spell13,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 13,
-		type: "Spell"
-	},
-	"spells14": {
-		data: spell14,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 14,
-		type: "Spell"
-	},
-	"spells15": {
-		data: spell15,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 15,
-		type: "Spell"
-	},
-	"spells16": {
-		data: spell16,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 16,
-		type: "Spell"
-	},
-	"occult_rituals": {
-		data: spell17,
-		searchgroup: 8, // spell
-		link: "spell",
-		num: 17,
-		type: "Occult Ritual"
-	},
-	"spell_definitions": {
-		data: spelldef,
-		searchgroup: 8, // spell
-		link: "spelldef",
-		num: 0,
-		type: "Spell Definition"
 	},
 	"construct_mods": {
 		data: constructmod,
