@@ -18,6 +18,7 @@
 				"id": "all npcs",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Acolyte}", [ -3, "1/3" ], "Human adept 1" ],
@@ -508,8 +509,7 @@
 					[ "{npc/Scarred Wanderer}", 19, "Dwarf barbarian 20" ],
 					[ "{npc/Supreme Hunter}", 19, "Human ranger 20" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -535,6 +535,7 @@
 				"id": "npcs adept",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Acolyte}", [ -3, "1/3" ], "Human adept 1" ],
@@ -550,13 +551,13 @@
 					[ "{npc/Healer}", 7, "Halfling adept 9" ],
 					[ "{npc/Cultist}", 8, "Human adept 10" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs expert",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Apprentice Jeweler}", [ -3, "1/3" ], "Human expert 1" ],
@@ -585,13 +586,13 @@
 					[ "{npc/Sailor (Captain)}", 11, "Human expert 3/fighter 9" ],
 					[ "{npc/Scholar (Sage)}", 11, "Human abjurer 5/expert 7" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs commoner",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Beggar}", [ -3, "1/3" ], "Half-elf commoner 1" ],
@@ -613,13 +614,13 @@
 					[ "{npc/Constable}", 7, "Human commoner 9" ],
 					[ "{npc/Traitor}", 8, "Human commoner 10" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs aristocrat",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Crusader (Squire)}", [ -3, "1/3" ], "Human aristocrat 1" ],
@@ -645,13 +646,13 @@
 					[ "{npc/Royalty (King)}", 14, "Human aristocrat 16" ],
 					[ "{npc/Geb Blood Lord}", 18, "Human lich aristocrat 4/necromancer 13" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs warrior",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Military (Foot Soldier)}", [ -3, "1/3" ], "Human warrior 1" ],
@@ -675,8 +676,7 @@
 					[ "{npc/Gladiator Champion}", 8, "Human warrior 10" ],
 					[ "{npc/Tribe (Chieftain)}", 10, "Human warrior 12" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -698,6 +698,7 @@
 				"id": "npcs bard",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Tavern Singer}", [ -2, "1/2" ], "Half-elf bard 1" ],
@@ -743,13 +744,13 @@
 					[ "{npc/Battle Skald}", 19, "Human barbarian 6/bard 4/Pathfinder chronicler 10" ],
 					[ "{npc/Doomsayer}", 19, "Human bard 20" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs sorcerer",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Mercenary Magician}", [ -2, "1/2" ], "Human sorcerer 1" ],
@@ -791,13 +792,13 @@
 					[ "{npc/Chaos Arrow}", 19, "Gnome rogue 6/sorcerer 4/arcane archer 10" ],
 					[ "{npc/Ice Maiden}", 19, "Elf sorcerer 10/dragon disciple 10" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs wizard",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Cautious Mage}", [ -2, "1/2" ], "Human wizard 1" ],
@@ -818,8 +819,7 @@
 					[ "{npc/Master Universalist}", 19, "Elf wizard 20" ],
 					[ "{npc/Mithral Wizard}", 19, "Human fighter 2/evoker 8/eldritch knight 10" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -843,6 +843,7 @@
 				"id": "npcs cleric",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Mercenary Healer}", [ -2, "1/2" ], "Human cleric of Abadar 1" ],
@@ -884,13 +885,13 @@
 					[ "{npc/Fire Diabolist}", 19, "Human cleric of Asmodeus 20" ],
 					[ "{npc/Holy Battle Mage}", 19, "Dwarf cleric of Torag 5/wizard 5/mystic theurge 10" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs druid",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Initiate of Flame}", [ -2, "1/2" ], "Dwarf druid 1" ],
@@ -922,13 +923,13 @@
 					[ "{npc/Rage Flame}", 18, "Half-orc druid 19" ],
 					[ "{npc/Earthfather}", 19, "Dwarf druid 20" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs ranger",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Novice Scout}", [ -2, "1/2" ], "Half-elf ranger 1" ],
@@ -969,13 +970,13 @@
 					[ "{npc/Mage Hunter}", 18, "Human ranger 19" ],
 					[ "{npc/Supreme Hunter}", 19, "Human ranger 20" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs paladin",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Callous Rake}", [ -2, "1/2" ], "Human paladin of Iomedae 1" ],
@@ -1005,8 +1006,7 @@
 					[ "{npc/Mithral Master}", 18, "Half-elf paladin of Abadar 19" ],
 					[ "{npc/Demon Hunter}", 19, "Human paladin 20" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -1030,6 +1030,7 @@
 				"id": "npcs barbarian",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Savage Mercenary}", [ -2, "1/2" ], "Human barbarian 1" ],
@@ -1067,13 +1068,13 @@
 					[ "{npc/Battle Skald}", 19, "Human barbarian 6/bard 4/Pathfinder chronicler 10" ],
 					[ "{npc/Scarred Wanderer}", 19, "Dwarf barbarian 20" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs fighter",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Superstitious Mercenary}", [ -2, "1/2" ], "Human fighter 1" ],
@@ -1135,13 +1136,13 @@
 					[ "{npc/Master Duelist}", 19, "Human fighter 10/duelist 10" ],
 					[ "{npc/Mithral Wizard}", 19, "Human fighter 2/evoker 8/eldritch knight 10" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs monk",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Careful Initiate}", [ -2, "1/2" ], "Human monk 1" ],
@@ -1172,13 +1173,13 @@
 					[ "{npc/Sword Savant}", 18, "Elf monk 19" ],
 					[ "{npc/Ageless Master}", 19, "Human monk 20" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			},
 			{
 				"id": "npcs rogue",
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Criminal (Pickpocket)}", [ -2, "1/2" ], "Human rogue 1" ],
@@ -1243,8 +1244,7 @@
 					[ "{npc/Fatal Axe}", 19, "Dwarf rogue 10/assassin 10" ],
 					[ "{npc/God Stealer}", 19, "Elf rogue 3/enchanter 7/arcane trickster 10" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -1337,6 +1337,7 @@
 				"headers": [ "Name", "Armor Type", "Cost", "Armor/Shield Bonus", "Max Dex Bonus", "Armor Check Penalty", "Arcane Spell Failure Chance", "Speed (30 ft.)", "Speed (20 ft.)", "Weight", "Capacity", "Usage" ],
 				"ripples": [0],
 				"types": [ null, null, "gp", "bonus", "bonus", "num", null, null, null, "lbs", "num", null ],
+				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null ],
 				"data": [
 					[ "{tech-armor/chameleon suit}", [ 0, "light" ], 15000, 2, 6, 0, "10%", "30 ft.", "20 ft.", 5, 50, "1 charge/minute" ],
 					[ "{tech-armor/deep diving suit}", [ 0, "light" ], 26000, 3, 5, -2, "30%", "30 ft.", "20 ft.", 20, 25, "1 charge/hour" ],
@@ -1361,8 +1362,7 @@
 					[ "{tech-armor/spacesuit}", [ 2, "heavy" ], 90000, 7, 0, -8, "50%", "20 ft.", "15 ft.", 35, 25, "1 charge/hour" ],
 					[ "{tech-armor/hard light shield}", [ 3, "shield" ], 6400, 2, 0, 0, "10%", "30 ft.", "20 ft.", 1, 20, "1 charge/minute" ]
 				],
-				"initialColumn": 1,
-				"className": "simple"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -1377,6 +1377,7 @@
 				"id": "tech weapons",
 				"headers": [ "Name", "Weapon Type", "Proficiency", "Cost", "Dmg (S)", "Dmg (M)", "Critical", "Range", "Capacity", "Usage", "Weight", "Dmg Type", "Special" ],
 				"types": [ null, null, null, "gp", null, null, null, null, null, null, "lbs", null, null ],
+				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{tech-weapon/neural inhibitor}", [ 0, "light" ], [ 0, "simple" ], 2400, [ 3.5, "1d6" ], [ 3.5, "1d6" ], [ 2, "&times;2" ], null, "10", "see text", 2, "B", null ],
@@ -1423,8 +1424,7 @@
 					[ "{tech-weapon/Vortex gun}", [ 4, "two-handed ranged" ], [ 4, "exotic (heavy weaponry)" ], 182000, [ 28, "8d6" ], [ 35, "10d6" ], [ 2.1, "19-20/&times;2" ], "100-ft. cone", "30", "10 charges", 15, "Force", "Slow-firing, scatter, touch" ],
 					[ "{tech-weapon/x-laser}", [ 4, "two-handed ranged" ], [ 4, "exotic (heavy weaponry)" ], 40000, [ 15, "6d4" ], [ 17.5, "5d6" ], [ 4, "&times;4" ], "200 ft.", "20", "5 charges", 10, "F", "Touch" ]
 				],
-				"initialColumn": 2,
-				"className": "endcaps"
+				"initialColumn": 2
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -1439,6 +1439,7 @@
 				"id": "tech cybertech",
 				"headers": [ "Name", "Cost", "Slot", "Weight", "Implantation", "Install DC" ],
 				"types": [ null, "gp", null, "lbs", "num", "num" ],
+				"alignments": [ true, null, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{tech-cybertech/biofilter}", 16000, "body", 2, 3, 25 ],
@@ -1468,8 +1469,7 @@
 					[ "{tech-cybertech/wirejack tendons (mark II)}", 32000, "body", 10, 4, 28 ],
 					[ "{tech-cybertech/wirejack tendons (mark III)}", 72000, "body", 10, 8, 36 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -1484,6 +1484,7 @@
 				"id": "tech pharmaceuticals",
 				"headers": [ "Name", "Cost" ],
 				"types": [ null, "gp" ],
+				"alignments": [ true, null ],
 				"ripples": [0],
 				"data": [
 					[ "{tech-pharmaceutical/azonite pellets}", 100 ],
@@ -1503,8 +1504,7 @@
 					[ "{tech-pharmaceutical/vive}", 200 ],
 					[ "{tech-pharmaceutical/zortaphen}", 2250 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -1519,6 +1519,7 @@
 				"id": "tech artifacts",
 				"headers": [ "Name", "Type", "Weight" ],
 				"types": [ null, null, "lbs" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{tech-artifact/Arms of the Iron God}", "cybertech", 28 ],
@@ -1542,8 +1543,7 @@
 					[ "{tech-artifact/Solar generator}", "generator", [ 9999999, "&mdash;" ] ],
 					[ "{tech-artifact/Temporal accelerator}", "misc", 1 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -1584,6 +1584,7 @@
 				"id": "misc tech",
 				"headers": [ "Name", "Cost", "Weight", "Slot" ],
 				"types": [ null, "gp", "lbs", null ],
+				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{tech-misc/access card (black)}", 10, 0, null ],
@@ -1729,8 +1730,7 @@
 					[ "{tech-misc/zipstick}", 20, 1, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "",
-				"className": "simple"
+				"nullValue": ""
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -1783,6 +1783,7 @@
 				"id": "spellbooks",
 				"headers": [ "Spellbook", "Cost (base)", "Cost (w/ritual)", "Type", "Class Requirements" ],
 				"types": [ null, "gp", "gp", null, null ],
+				"alignments": [ true, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{eq-spellbook/Apprentice Chapbook of Rul Thaven}", 195, [999999, "&mdash;"], "Spellbook", "Diviner - Level 2" ],
@@ -1828,8 +1829,7 @@
 					[ "{eq-spellbook/Wisdom of Jatembe (Six Warriors Edition)}", 4725, 6025, "Spellbook", "Diviner - Level 11" ],
 					[ "{eq-spellbook/Wisdom of Jatembe (Three Warriors Edition)}", 375, 875, "Spellbook", "Diviner - Level 5" ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -1846,6 +1846,7 @@
 				"headers": [ "Name", "Type", "Cost", "Weight", "Damage", "Critical", "Range", "Damage Type", "Crew", "Aim", "Load", "Speed" ],
 				"ripples": [0],
 				"types": [ null, null, "gp", "lbs", "num", "num", null, null, null, null, null, null ],
+				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null ],
 				"data": [
 					[ "{eq-siegeengine/alchemist's fire}", [ 0, "siege engine ammunition" ], 200, 10, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, [ -1, "&mdash;" ], [ -1, "&mdash;" ], null, [ -1, "&mdash;" ] ],
 					[ "{eq-siegeengine/ballista net}", [ 0, "siege engine ammunition" ], 75, 15, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, [ -1, "&mdash;" ], [ -1, "&mdash;" ], null, [ -1, "&mdash;" ] ],
@@ -1905,8 +1906,7 @@
 					[ [ "ram 4", "{eq-siegeengine/ram, colossal}" ], [ 10, "colossal close assault siege engine" ], 5000, [ 0, "&mdash;" ], [ 35, "10d6" ], [ 3, "&times;3" ], [ 0, "&mdash;" ], "B", "40", [ -1, "&mdash;" ], null, "15" ],
 					[ [ "siege tower 4", "{eq-siegeengine/siege tower, colossal}" ], [ 10, "colossal close assault siege engine" ], 10000, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, "48", [ -1, "&mdash;" ], null, "15" ]
 				],
-				"initialColumn": 1,
-				"className": "simple"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -1921,9 +1921,9 @@
 				"id": "clothing equipment",
 				"headers": [ "Name", "Cost", "Weight" ],
 				"types": [ null, "gp", "lbs" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"initialColumn": 0,
-				"className": "simple",
 				"data": [
 					[ "{eq-misc/artisan's outfit}", 1, 4 ],
 					[ "{eq-misc/battle mask}", 50, 2 ],
@@ -2056,9 +2056,9 @@
 				"id": "food drink equipment",
 				"headers": [ "Name", "Type", "Cost", "Weight" ],
 				"types": [ null, null, "gp", "lbs" ],
+				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"initialColumn": 0,
-				"className": "simple",
 				"data": [
 					[ "{eq-misc/absinthe (bottle)}", "food or drink", 30, 1.5 ],
 					[ "{eq-misc/absinthe (glass)}", "food or drink", 3, 0 ],
@@ -2166,9 +2166,9 @@
 				"id": "lodging services equipment",
 				"headers": [ "Name", "Type", "Cost", "Weight" ],
 				"types": [ null, null, "gp", "lbs" ],
+				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"initialColumn": 0,
-				"className": "simple",
 				"data": [
 					[ "{eq-misc/ball (10 in.)}", "entertainment", 6, 1 ],
 					[ "{eq-misc/ball (2 in.)}", "entertainment", 0.08, 0 ],
@@ -2240,9 +2240,9 @@
 				"id": "transport equipment",
 				"headers": [ "Name", "Type", "Cost", "Weight" ],
 				"types": [ null, null, "gp", "lbs" ],
+				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"initialColumn": 0,
-				"className": "simple",
 				"data": [
 					[ "{eq-misc/wind platform}", "transport, air", 5000, 1600 ],
 					[ "{eq-misc/caravan master's wagon}", "transport, land", 1000, 0 ],
@@ -2302,9 +2302,9 @@
 				"id": "mounts pets equipment",
 				"headers": [ "Name", "Cost", "Weight" ],
 				"types": [ null, "gp", "lbs" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"initialColumn": 0,
-				"className": "simple",
 				"data": [
 					[ "{eq-misc/allosaurus}", 3850, 0 ],
 					[ "{eq-misc/ankylosaurus}", 3000, 0 ],
@@ -2543,9 +2543,9 @@
 				"id": "illicit equipment",
 				"headers": [ "Name", "Type", "Cost", "Weight" ],
 				"types": [ null, null, "gp", "lbs" ],
+				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"initialColumn": 0,
-				"className": "simple",
 				"data": [
 					[ "{eq-misc/allnight}", "black market", 75, 0 ],
 					[ "{eq-misc/angry jack}", "black market", 25, 2 ],
@@ -2623,6 +2623,7 @@
 				"id": "poisons",
 				"headers": [ "Name", "Type", "Saving Throw", "Onset", "Frequency", "Effect", "Cost" ],
 				"types": [ null, null, null, null, null, null, "gp" ],
+				"alignments": [ true, null, null, null, null, true, null ],
 				"ripples": [0],
 				"data": [
 					[ "{eq-poison/Aconite root}", "ingested", "Fortitude DC 25", "1 minute", "1/round for 5 rounds", "1d3 Dex damage, 1 Con damage, nauseated 1 round", 1800 ],
@@ -2770,8 +2771,7 @@
 					[ "{eq-poison/Woundweal}", "injury", "Fortitude DC 18", "1 round", "1/day", "impaired healing (see text)", 100 ],
 					[ "{eq-poison/Wyvern Poison}", "injury", "Fortitude DC 17", null, "1/round for 6 rounds", "1d4 Con damage", 3000 ]
 				],
-				"initialColumn": 0,
-				"className": "poisons"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]

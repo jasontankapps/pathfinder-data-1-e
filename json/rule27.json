@@ -892,6 +892,7 @@
 				"id": "monster cohorts",
 				"headers": [ "Monster", "Cohort Level" ],
 				"types": [ null, "num" ],
+				"alignments": [ true, null ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Adlet}", 14 ],
@@ -1051,8 +1052,7 @@
 					[ "{monster/Wyvern}", 10 ],
 					[ "{monster/Xanthos}", 17 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}			
 		]
 	},

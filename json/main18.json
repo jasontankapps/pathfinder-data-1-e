@@ -10,6 +10,7 @@
 				"id": "monsters by cr table",
 				"headers": [ "Monster", "Type", "Size", "CR", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"types": [ null, null, "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
+				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Familiar, Bat}", "animal", [ 1, "diminutive" ], [ -8, "1/8" ], 1, 15, 6, 2, 14, 5, 0, -2, 3 ],
@@ -2755,8 +2756,7 @@
 					[ "{monster/Leviathan}", "magical beast", [ 8, "colossal" ], 30, 50, 33, 44, 15, 32, 31, 34, 62, 83 ]
 				],
 				"filterable": 3,
-				"initialColumn": 3,
-				"className": "simple"
+				"initialColumn": 3
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]

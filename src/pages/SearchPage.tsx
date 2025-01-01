@@ -39,7 +39,7 @@ import {
 	filter as filterIcon,
 	helpCircle
 } from 'ionicons/icons';
-import { RangeStartToEndMinusOne } from '../types';
+import { RangeInSliceFormat } from '../types';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import SearchHelpModal from '../components/SearchHelpModal';
@@ -55,7 +55,7 @@ interface Item {
 	tags?: string
 }
 
-type SearchIndex = RangeStartToEndMinusOne<1, 13>;
+type SearchIndex = RangeInSliceFormat<1, 13>;
 
 interface ParallelItem {
 	t: number // type

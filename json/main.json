@@ -237,6 +237,7 @@
 				"id": "all races table",
 				"headers": [ "Race", "Rarity", "Monster Link?", "Description" ],
 				"types": [null, null, null, 0],
+				"alignments": [ true, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{race/Dwarf}",[0,"Common"],"No","These short and stocky defenders of mountain fortresses are often seen as stern and humorless. Known for mining the earth's treasures and crafting magnificent items from ore and gemstones, they have an unrivaled affinity for the bounties of the deep earth. Dwarves also have a tendency toward traditionalism and isolation that sometimes manifests as xenophobia."],
@@ -317,8 +318,7 @@
 					[ "{race/Yaddithian}",[3,"Rare"],"[Yes](monster/yaddithian)","Yaddithians are an ancient race of scholarly starfarers"]
 				],
 				"initialColumn": 1,
-				"nullValue": "",
-				"className": "endcaps"
+				"nullValue": ""
 			}
 		],
 		"previous": [ ["Main", "main/main"] ]
@@ -560,6 +560,7 @@
 				"id": "skills table",
 				"headers": [ "Skill", "Stat", "TO", "ACP", "BS", "UN" ],
 				"types": [ null, null, null, null, null, null ],
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{skill/Acrobatics}", "DEX", null, "X", null, null ],
@@ -601,8 +602,7 @@
 					[ "{skill/Use Magic Device}", "CHA", "X", null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "",
-				"className": "endcaps"
+				"nullValue": ""
 			}
 		],
 		"previous": [ ["Main", "main/main"] ]
@@ -1125,7 +1125,7 @@
 				"headers": ["Template", "CR", "Acquired", "Inherited", "Simple", "Summonable"],
 				"types": [null, "num", "num", "num", "num", "num"],
 				"initialColumn": 0,
-				"className": "simple",
+				"alignments": [ true, null, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{template/Accursed}", [1, "+1"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],
@@ -1401,6 +1401,7 @@
 				"id": "drugs table",
 				"headers": [ "Drug", "Addiction", "Type", "Fortitude Save DC", "Price" ],
 				"types": [ null, "num", null, "num", "gp" ],
+				"alignments": [ true, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{drug/Keleshite Coffee}", [ 0, "minor" ], "ingested", 12, 5 ],
@@ -1435,8 +1436,7 @@
 					[ "{drug/Old-Mage}", [ 2, "major" ], "injury", 18, 1500 ],
 					[ "{drug/Adyton}", [ 2, "major" ], "contact", 20, 2000 ]
 				],
-				"initialColumn": 4,
-				"className": "simple"
+				"initialColumn": 4
 			}
 		],
 		"previous": [

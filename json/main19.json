@@ -11,6 +11,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abaia}", 10, "magical beast", "aquatic", [ 6, "huge" ], [ 4, "N" ], "This multi-eyed eel's brightly colored markings shift in complex, ever-changing patterns." ],
@@ -254,8 +255,7 @@
 					[ "{monster/Yrthak}", 9, "magical beast", null, [ 6, "huge" ], [ 4, "N" ], "This flying reptile has large, leathery wings and a vibrantly colored crest on its horned, narrow-snouted head." ],
 					[ "{monster/Zoog}", 1, "magical beast", null, [ 2, "tiny" ], [ 8, "CE" ], "This skittish amalgam of beast parts has luminous eyes, a rat's tail, simian appendages, and tendrils extending from a mole-like nose" ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -272,6 +272,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Adaro}", 3, "monstrous humanoid", "aquatic", [ 4, "medium" ], [ 5, "NE" ], "This hybrid of human and shark holds its spear menacingly, thick, glistening saliva dripping from its razor-sharp teeth." ],
@@ -417,8 +418,7 @@
 					[ "{monster/Witchwyrd}", 6, "monstrous humanoid", null, [ 4, "medium" ], [ 1, "LN" ], "This gray-skinned humanoid wears fine red robes. The being has four arms, each ending in a three-fingered hand." ],
 					[ "{monster/Yeti}", 4, "monstrous humanoid", "cold", [ 5, "large" ], [ 4, "N" ], "This creature stands like a man, yet is half again the height of most men and covered with a coat of thick white fur." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -435,6 +435,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Alraune}", 13, "plant", null, [ 5, "large" ], [ 5, "NE" ], "An attractive green-skinned woman sits in the depths of this enormous, sweet-smelling flower." ],
@@ -549,8 +550,7 @@
 					[ "{monster/Zomok}", 16, "plant", "extraplanar", [ 7, "gargantuan" ], [ 4, "N" ], "At first glance, this creature resembles a dragon, but its body is entirely made of plants and soil, and it exhales clouds of dirt." ],
 					[ "{monster/Zygomind}", 18, "plant", null, [ 8, "colossal" ], [ 4, "N" ], "This enormous fungus looks like a cage, and a strange glow emanates from within." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -567,6 +567,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abandoned One}", 4, "undead", null, [ 4, "medium" ], [ 8, "CE" ], "This corpse of a soldier is twisted and ghoulish, its old-fashioned clothes are caked in mud, and its is expression lost and forlorn." ],
@@ -783,8 +784,7 @@
 					[ "{monster/Zealot Wraith}", 7, "undead", "incorporeal", [ 4, "medium" ], [ 5, "NE" ], "This spectral human is draped in multicolored vestments that trail off into mist, and has open black pits for eyes and an expression of sorrow and horror." ],
 					[ "{monster/Zuvembie}", 4, "undead", null, [ 4, "medium" ], [ 5, "NE" ], "This withered old corpse has a feral glint in her eyes and clasps a rusty axe in her yellow-nailed hands." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -801,6 +801,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Ant Lion, Giant Adult Ant Lion}", 6, "vermin", null, [ 6, "huge" ], [ 4, "N" ], "This spindly insect, borne aloft on four delicate wings, snaps its mandibles in obvious hunger." ],
@@ -948,8 +949,7 @@
 					[ "{monster/Xenopterid}", 7, "vermin", null, [ 4, "medium" ], [ 4, "N" ], "What appears to be this creature's cloak unfurls into bug wings, and its apparently human face is merely patterns on its head." ],
 					[ "{monster/Zhen Worm}", [ -2, "1/2" ], "vermin", null, [ 4, "medium" ], [ 4, "N" ], "Barely thicker than hempen rope, this orange-banded worm stretches many feet in length." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -966,6 +966,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abaia}", 10, "magical beast", "aquatic", [ 6, "huge" ], [ 4, "N" ], "This multi-eyed eel's brightly colored markings shift in complex, ever-changing patterns." ],
@@ -1215,8 +1216,7 @@
 					[ "{monster/Whaler Jellyfish}", 17, "vermin", "aquatic", [ 8, "colossal" ], [ 4, "N" ], "This enormous, translucent blob trails a mass of six immense tentacles and a central forest of tendrils below its body." ],
 					[ "{monster/Wizard's Shackle}", [ -2, "1/2" ], "aberration", "aquatic", [ 2, "tiny" ], [ 4, "N" ], "This eel-like creature has a thick, greasy body and a large, circular mouth full of tiny teeth." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -1233,6 +1233,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Allip}", 3, "undead", "incorporeal", [ 4, "medium" ], [ 8, "CE" ], "This malignant cloud of shadows boils in the air, its skeletal maw eerily babbling as the creature's claws manifest from the darkness." ],
@@ -1305,8 +1306,7 @@
 					[ "{monster/Yuki-Onna}", 8, "undead", "cold, incorporeal", [ 4, "medium" ], [ 2, "LE" ], "This beautiful but sad-looking woman wears an ornate robe and is surrounded by a whirling mass of snow." ],
 					[ "{monster/Zealot Wraith}", 7, "undead", "incorporeal", [ 4, "medium" ], [ 5, "NE" ], "This spectral human is draped in multicolored vestments that trail off into mist, and has open black pits for eyes and an expression of sorrow and horror." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]

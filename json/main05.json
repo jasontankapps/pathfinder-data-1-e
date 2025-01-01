@@ -54,6 +54,7 @@
 				"id": "all armors",
 				"headers": [ "Name", "Type", "Cost", "Armor/Shield Bonus", "Max Dex Bonus", "Armor Check Penalty", "Arcane Spell Failure Chance", "Speed (30 ft.)", "Speed (20 ft.)", "Weight" ],
 				"types": [ null, null, "gp", "bonus", "bonus", "num", null, null, null, "lbs" ],
+				"alignments": [ true, null, null, null, null, null, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{eq-armor/armored kilt}", [ 0, "light" ], 20, 1, 6, 0, "0%", "30 ft.", "20 ft.", 10 ],
@@ -123,8 +124,7 @@
 					[ "{eq-armor/tower shield}", [ 3, "shield" ], 30, 4, 2, -10, "50%", "30 ft.", "20 ft.", 45 ],
 					[ "{eq-armor/barding}", [ 4, "animal armor" ], [ 99999, "Varies" ], [ -100, "Varies" ], [ -100, "Varies" ], [ 101, "Varies" ], [ 101, "Varies" ], [ 0, "Varies" ], [ 0, "Varies" ], [ 99999, "Varies" ] ]
 				],
-				"initialColumn": 1,
-				"className": "simple"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -140,6 +140,7 @@
 				"id": "armor and shield enhancements",
 				"headers": [ "Name", "Cost Adjustment", "Weight Adjustment" ],
 				"types": [ null, "gp+", "lbs+" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{eq-armorenh/armor spikes}", 50, 10 ],
@@ -165,8 +166,7 @@
 					[ "{eq-armorenh/throwing shield}", 50, 0 ],
 					[ "{eq-armorenh/vitalguard}", 500, 15 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -194,6 +194,7 @@
 				"id": "all weapons",
 				"headers": [ "Name", "Weapon Type", "Proficiency", "Cost", "Damage (S)", "Damage (M)", "Damage (Special)", "Critical", "Range", "Weight", "Dmg Type" ],
 				"types": [ null, null, null, "gp", "num", "num", null, "num", null, "lbs", null ],
+				"alignments": [ true, null, null, null, null, null, null, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{eq-weapon/battle aspergillum}", [ 0, "light" ], [ 0, "simple" ], 5, [ 2.5, "1d4" ], [ 3.5, "1d6" ], null, [ 0, "&mdash;" ], null, 4, "B" ],
@@ -631,8 +632,7 @@
 					[ "{eq-weapon/flechette bolt}", [ 3.5, "ammunition" ], null, 30, [ 0, " " ], [ 0, "&mdash;" ], null, [ 0, "&mdash;" ], null, 20, null ],
 					[ "{eq-weapon/weighted bolt}", [ 3.5, "ammunition" ], null, 50, [ 0, " " ], [ 0, "&mdash;" ], null, [ 0, "&mdash;" ], null, 40, null ]
 				],
-				"initialColumn": 2,
-				"className": "simple"
+				"initialColumn": 2
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -657,6 +657,7 @@
 				"id": "weapon modifications",
 				"headers": [ "Name", "Cost Adjustment", "Weight Adjustment" ],
 				"types": [ null, "gp+", "lbs+" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{eq-weaponenh/sawback sword}", 5, [ 0, "&mdash;" ] ],
@@ -670,8 +671,7 @@
 					[ "{eq-weaponenh/serrated edge}", 2000, [ 0, "&mdash;" ] ],
 					[ "{eq-weaponenh/tactically adapted}", 2000, [ 0, "&mdash;" ] ]
 				],
-				"initialColumn": 1,
-				"className": "simple"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -693,6 +693,7 @@
 				"id": "all firearms",
 				"headers": [ "Name", "Firearm Type", "Era", "Cost", "Damage (S)", "Damage (M)", "Critical", "Range", "Misfire", "Capacity", "Weight", "Dmg Type" ],
 				"types": [ null, null, null, "gp", "num", "num", "num", null, null, null, "lbs", null ],
+				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{eq-weapon/breech-loader}", [ 0, "one-handed" ], [ 0, "early" ], 3000, [ 2.5, "1d4" ], [ 3.5, "1d6" ], [ 4, "&times;4" ], "20 ft.", "1 (5 ft.)", "2", 4, "B and P" ],
@@ -750,8 +751,7 @@
 					[ "{eq-weapon/pitted bullet}", [ 2, "ammunition" ], null, 5, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, null, null, [ 0, "&mdash;" ], null ],
 					[ "{eq-weapon/powder horn}", [ 3, "gear" ], null, 3, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, null, null, 1, null ]
 				],
-				"initialColumn": 2,
-				"className": "simple"
+				"initialColumn": 2
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"], ["Weapons", "main/equipment_weapons"] ]
@@ -766,9 +766,9 @@
 				"id": "misc equipment",
 				"headers": [ "Name", "Cost", "Weight" ],
 				"types": [ null, "gp", "lbs" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"initialColumn": 0,
-				"className": "simple",
 				"data": [
 					[ "{eq-misc/adventurer's sash}", 20, 3 ],
 					[ "{eq-misc/air bladder}", 0.1, 0.5 ],
@@ -1226,9 +1226,9 @@
 				"id": "animal gear equipment",
 				"headers": [ "Name", "Cost", "Weight" ],
 				"types": [ null, "gp", "lbs" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"initialColumn": 0,
-				"className": "simple",
 				"data": [
 					[ "{eq-misc/animal call}", 0.1, 0 ],
 					[ "{eq-misc/animal harness}", 2, 2 ],
@@ -1299,9 +1299,9 @@
 				"id": "kits equipment",
 				"headers": [ "Name", "Cost", "Weight" ],
 				"types": [ null, "gp", "lbs" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"initialColumn": 0,
-				"className": "simple",
 				"data": [
 					[ "{eq-misc/alchemist's kit}", 40, 24 ],
 					[ "{eq-misc/arcane adept package}", 1000, 45 ],
@@ -1439,9 +1439,9 @@
 				"id": "tools equipment",
 				"headers": [ "Name", "Cost", "Weight" ],
 				"types": [ null, "gp", "lbs" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"initialColumn": 0,
-				"className": "simple",
 				"data": [
 					[ "{eq-misc/abacus}", 2, 2 ],
 					[ "{eq-misc/acrobat's pillar}", 50, 40 ],
@@ -1689,6 +1689,7 @@
 				"headers": [ "Item", "Type", "Cost", "Weight" ],
 				"ripples": [0],
 				"types": [ null, null, "gp", "lbs" ],
+				"alignments": [ true, null, null, null ],
 				"data": [
 					[ "{eq-misc/aboleth mucus extract}", "alchemical tool", 100, 0.5 ],
 					[ "{eq-misc/accuracy lozenge}", "alchemical tool", 330, 0 ],
@@ -2047,8 +2048,7 @@
 					[ "{eq-misc/woad painting (paint, 1 block)}", "alchemical tool", 60, 0 ],
 					[ "{eq-misc/wyrm's breath bitter}", "alchemical remedy", 30, 1 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
@@ -2063,6 +2063,7 @@
 				"id": "misc equipment",
 				"headers": [ "Name", "Type", "Cost", "Weight" ],
 				"types": [ null, null, "gp", "lbs" ],
+				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{eq-misc/A Thread of Silver}", "dungeon guide", 6700, 0 ],
@@ -2118,8 +2119,7 @@
 					[ "{eq-misc/winterbite}", "herbs", 20, 0 ],
 					[ "{eq-misc/wyrm pesh}", "dragoncraft", 500, 0 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]

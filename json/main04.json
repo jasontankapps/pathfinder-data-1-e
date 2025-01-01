@@ -226,8 +226,7 @@
 					[ "{trait/Outlander}", null ]
 				],
 				"initialColumn": 1,
-				"nullValue": "*(any)*",
-				"className": "plain"
+				"nullValue": "*(any)*"
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
@@ -671,8 +670,7 @@
 					[ "{trait/Draconic Lineage}", null ]
 				],
 				"initialColumn": 1,
-				"nullValue": "*(any)*",
-				"className": "plain"
+				"nullValue": "*(any)*"
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
@@ -1759,8 +1757,7 @@
 					[ "{trait/Wrecking Wrath}", "Rovagug" ],
 					[ "{trait/Wronged}", "Gyronna" ]
 				],
-				"initialColumn": 0,
-				"className": "plain"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
@@ -2232,8 +2229,7 @@
 					[ "{trait/Xa Hoi Soldier}", "Xa Hoi" ]
 				],
 				"initialColumn": 0,
-				"nullValue": "",
-				"className": "plain"
+				"nullValue": ""
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]

@@ -1,6 +1,21 @@
 import { ReactElement } from "react";
 import { SourceProp } from "./components/SourcesModal";
 
+// RangeInSliceFormat<desired start, desired end + 1>
+// This will fail if (END - START) >= 1000
+export type RangeInSliceFormat<START extends number, END extends number, N extends number = never> =
+	START extends END ? N : RangeInSliceFormat<Inc<START>, END, START | N>;
+
+// These are equivalent:
+//    type X = RangeInSliceFormat<-4, 5>;
+//    type Y = -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4;
+// NOTE: The high end will cap out at (END - 1)
+//
+// Based on JS Slice method (except in how it handles negative numbers)
+//   [0, 1, 2, 3, 4].slice(0, 2) => [0, 1]
+//   [0, 1, 2, 3, 4].slice(1, 2) => [1]
+//   [0, 1, 2, 3, 4].slice(2, 4) => [2, 3]
+
 export type Datum = string | number | [ number, string ] | [ string, string ];
 
 export type RawDatum = null | Datum;
@@ -31,8 +46,6 @@ export interface Table {
 	initialColumn: number
 	// what to print if a cell is `null` (defaults to &mdash;)
 	nullValue?: string
-	// the CSS class to assign to the table
-	className: string
 	// cells that are only going to contain links
 	ripples?: number[]
 	// some tables do not need sorting information (defaults to true)
@@ -121,32 +134,3 @@ type Dec<T extends number> =
 					(T extends 0 ? -1 : Prev[T])
 			)
 	);
-
-// RangeStartToEndMinusOne<desired start, desired end + 1>
-// This will fail if (END - START) >= 1000
-export type RangeStartToEndMinusOne<START extends number, END extends number, N extends number = never> =
-	START extends END ? N : RangeStartToEndMinusOne<Inc<START>, END, START | N>;
-
-// These are equivalent:
-//    type X = RangeStartToEndMinusOne<-4, 5>;
-//    type Y = -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4;
-// NOTE: The high end will cap out at (END - 1)
-
-
-/* OLD METHOD
-// This will fail if (START | END) >= 1000 || (START | END) < 0
-
-type NumericRange<
-	START extends number,
-	END extends number,
-	ARR extends unknown[] = [],
-	ACC extends number = never
-> = ARR['length'] extends END
-	? ACC | START | END
-	: NumericRange<START, END, [...ARR, 1], ARR[START] extends undefined ? ACC : ACC | ARR['length']>;
-
-// These are equivalent:
-//    type X = NumericRange<0, 4>;
-//    type Y = 0 | 1 | 2 | 3 | 4;
-
-*/

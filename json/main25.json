@@ -23,6 +23,7 @@
 				"id": "all deities and faiths table",
 				"headers": [ "Deity/Faith", "Pantheon(s)", "Alignment", "Areas of Concern", "Domains", "Subdomains", "Favored Weapon" ],
 				"types": [ null, null, null, null, null, null, null ],
+				"alignments": [ null, true, null, true, true, true, true ],
 				"ripples": [0],
 				"data": [
 					[ "{faith/Abadar}", "Core Deities, Deities of Tian Xia, Halfling Deities, Order of the God Claw Pantheon, Sandpoint Pantheon, Taldan Pantheon", [ 1, "LN" ], "Cities, laws, merchants, wealth", "Earth, Law, Nobility, Protection, Travel", "Aristocracy, Defense, Fortifications, Inevitable, Leadership, Legislation, Martyr, Metal, Portal, Trade", "Light crossbow" ],
@@ -489,8 +490,7 @@
 					[ "{faith/Zursvaater}", "Giant Deities", [ 2, "LE" ], "Conquest, slavery, weapons", "Evil, Fire, Law, Trickery, War", "Ash, Blood, Slavery, Tyranny", "Greatsword" ],
 					[ "{faith/Zyphus}", "Other Deities", [ 5, "NE" ], "Accidental death, graveyards, tragedy", "Death, Destruction, Evil, Plant, War", "Blood, Catastrophe, Daemon, Decay, Murder, Thorns, Undead", "Heavy pick" ]
 				],
-				"initialColumn": 0,
-				"className": "faiths"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Deities and Faiths", "main/faiths"] ]

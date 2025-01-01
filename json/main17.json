@@ -11,6 +11,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aatheriexa}", 7, "aberration", null, [ 4, "medium" ], [ 5, "NE" ], "A tangle of thin, tentacle-like eyestalks floats in the air, its innumerable unblinking eyes each projecting an air of cruelty." ],
@@ -177,8 +178,7 @@
 					[ "{monster/Yithian}", 9, "aberration", null, [ 5, "large" ], [ 1, "LN" ], "This bizarre creature has a conical body topped with four tentacles tipped with pincers, tubes, and a tentacled, spherical head." ],
 					[ "{monster/Yithian Elder}", 13, "aberration", null, [ 5, "large" ], [ 1, "LN" ], "This creature's conical body bears four rubbery appendages: two end in strong pincers, another ends in a cluster of four trumpetlike organs, and yet another is attached to a round head with three eyes that glow with ancient, forbidden power." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -195,6 +195,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Ape, Dire Ape (Gigantopithecus)}", 3, "animal", null, [ 5, "large" ], [ 4, "N" ], "Sharp teeth fill this large, feral ape's mouth, and its long, muscular arms stretch to the ground, ending in wickedly curved claws." ],
@@ -491,8 +492,7 @@
 					[ "{monster/Yolubilis Heron}", 6, "animal", null, [ 6, "huge" ], [ 4, "N" ], "As tall as a tree, this dark gray bird stands on long legs. Its curved neck supports a sleek head with a slim but wicked beak." ],
 					[ "{monster/Yzobu}", 1, "animal", null, [ 5, "large" ], [ 4, "N" ], "This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -509,6 +509,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aballonian}", 7, "construct", null, [ 4, "medium" ], [ 4, "N" ], "This insectile construct skitters around on metallic legs, its manipulators clacking and glowing eyes searching." ],
@@ -687,8 +688,7 @@
 					[ "{monster/Wickerman}", 13, "construct", "fire", [ 8, "colossal" ], [ 4, "N" ], "This humanoid-shaped colossus is a towering fury of burning wicker and wood." ],
 					[ "{monster/Wyrwood}", [ -2, "1/2" ], "construct", null, [ 3, "small" ], [ 4, "N" ], "Though obviously a wooden construct, this small, nimble creature moves fluidly and purposefully." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -705,6 +705,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aashaq's Wyvern}", 8, "dragon", null, [ 5, "large" ], [ 7, "CN" ], "This light purple dragon has immense wings and a bifurcated tail, each end tipped with a hooked stinger. Heavy smoke drips from the beast's nostrils and jaws." ],
@@ -883,8 +884,7 @@
 					[ "{monster/Wyvaran}", [ -2, "1/2" ], "dragon", null, [ 4, "medium" ], [ 1, "LN" ], "This dragonlike humanoid brandishes its spear, spreads its wings, and shows its fangs in a angry snarl." ],
 					[ "{monster/Wyvern}", 6, "dragon", null, [ 5, "large" ], [ 4, "N" ], "A dark blue dragon, its wings immense and its tail tipped with a hooked stinger, lands on two taloned feet and roars a challenge." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -901,6 +901,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Alp}", 10, "fey", null, [ 4, "medium" ], [ 7, "CN" ], "This hoofed creature's large yellow eyes are set in a noseless face above a grinning, fang-filled mouth." ],
@@ -1026,8 +1027,7 @@
 					[ "{monster/Zana}", 14, "fey", null, [ 4, "medium" ], [ 3, "NG" ], "This stunningly beautiful and athletic woman has skin of various shades of gray. She wears a pearlescent breastplate and wields a shimmering longspear." ],
 					[ "{monster/Zephyr}", 12, "fey", "air, shapechanger", [ 5, "large" ], [ 7, "CN" ], "This blue-furred horse with a cloudlike mane and tail has gray, humanlike eyes that show obvious intelligence." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]

@@ -11,6 +11,7 @@
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/D'ziriak}", 3, "outsider", [ 4, "medium" ], [ 4, "N" ], "This four-armed creature looks like a cross between a human and a black and ochre termite. Its body and arms display glowing runes." ],
@@ -568,8 +569,7 @@
 					[ "{monster/Fossegrim}", 4, "fey", [ 4, "medium" ], [ 5, "NE" ], "This striking, blue-eyed man with luminous skin and flowing white hair holds an ethereal harp." ],
 					[ "{monster/Fox/ (Familiar)}", [ -4, "1/4" ], "animal", [ 2, "tiny" ], [ 4, "N" ], null ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -586,6 +586,7 @@
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Liavaran Dreamer}", 8, "aberration", [ 5, "large" ], [ 4, "N" ], "This amorphous creature resembles a golden-hued jellyfish that floats through the air, fleshy tentacles dangling down in a line." ],
@@ -1145,8 +1146,7 @@
 					[ "{monster/Sceazir}", 9, "outsider", [ 5, "large" ], [ 5, "NE" ], "This winged, six-legged creature seems to be constructed of dark crystal. Its mouth is disproportionately large for its wolfish head, gaping open to display rows of jagged teeth, and its spiky, manyjointed legs bend in unsettling ways." ],
 					[ "{monster/Scitalis}", 12, "dragon", [ 5, "large" ], [ 4, "N" ], "This ophidian dragon's scales and frills form a brightly colored pattern, backlit like stained glass by the creature's inner glow." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]

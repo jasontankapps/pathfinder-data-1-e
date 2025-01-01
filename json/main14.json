@@ -11,8 +11,8 @@
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"initialColumn": 1,
-				"className": "endcaps",
 				"ripples": [0],
 				"data": [
 					[ "{spell/Arcane Mark}", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],
@@ -1225,8 +1225,8 @@
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"initialColumn": 1,
-				"className": "endcaps",
 				"ripples": [0],
 				"data": [
 					[ "{spell/Alleviate Addiction}", 1, "conjuration", "healing", null, "Ignore the effects of addictions." ],
@@ -1267,8 +1267,8 @@
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"initialColumn": 1,
-				"className": "endcaps",
 				"ripples": [0],
 				"data": [
 					[ "{spell/Arcane Mark}", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],

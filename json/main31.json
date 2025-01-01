@@ -12,7 +12,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Animal Purpose Training}", 1, "enchantment", "compulsion", "mind-affecting", "Animal gains a new general purpose." ],
@@ -313,7 +313,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Acid Splash}", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
@@ -817,7 +817,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
@@ -1508,7 +1508,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],

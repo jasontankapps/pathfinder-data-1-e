@@ -11,6 +11,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aasimar}", [ -2, "1/2" ], "outsider", "native", [ 4, "medium" ], [ 3, "NG" ], "This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and benevolence." ],
@@ -597,8 +598,7 @@
 					[ "{monster/Zentragt}", 4, "outsider", "chaotic, extraplanar", [ 5, "large" ], [ 7, "CN" ], "This ferocious ursine brute has blade-like metallic teeth and appears to be covered in overlapping iron plates." ],
 					[ "{monster/Zhyen}", [ -2, "1/2" ], "outsider", "air, earth, fire, or water", [ 2, "tiny" ], [ 4, "N" ], "This short, genie-like creature floats in midair, barely a foot tall but possessing no legs with which to determine its true height. Wisps of elemental light trail from its eyes, and it bows, ready to serve." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -615,6 +615,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aerial Servant}", 11, "outsider", "air, elemental, extraplanar", [ 4, "medium" ], [ 4, "N" ], "A faint ripple in the air suggests a hazy and vaguely humanoid vapor moving with terrible swiftness." ],
@@ -700,8 +701,7 @@
 					[ "{monster/Xiomorn, Vault Keeper}", 14, "outsider", "earth, elemental, extraplanar", [ 4, "medium" ], [ 1, "LN" ], "This towering, spindly, four-armed entity appears to be made of stone and crystal, yet it moves with a fluid grace." ],
 					[ "{monster/Zarxorin}", 19, "outsider", "earth, elemental, extraplanar", [ 8, "colossal" ], [ 4, "N" ], "This titanic earthen creature is humanoid-shaped with a hunched, pugnacious posture. The enormous hump of its back bears a ring of standing stones that crackle faintly with energy." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -718,6 +718,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Achaierai}", 5, "outsider", "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
@@ -1199,8 +1200,7 @@
 					[ "{monster/Zarxorin}", 19, "outsider", "earth, elemental, extraplanar", [ 8, "colossal" ], [ 4, "N" ], "This titanic earthen creature is humanoid-shaped with a hunched, pugnacious posture. The enormous hump of its back bears a ring of standing stones that crackle faintly with energy." ],
 					[ "{monster/Zentragt}", 4, "outsider", "chaotic, extraplanar", [ 5, "large" ], [ 7, "CN" ], "This ferocious ursine brute has blade-like metallic teeth and appears to be covered in overlapping iron plates." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -1217,6 +1217,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aasimar}", [ -2, "1/2" ], "outsider", "native", [ 4, "medium" ], [ 3, "NG" ], "This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and benevolence." ],
@@ -1306,8 +1307,7 @@
 					[ "{monster/Wakandagi}", 14, "outsider", "native, water", [ 5, "large" ], [ 3, "NG" ], "This antlered beast combines the features of an elegant deer and a slithering serpent." ],
 					[ "{monster/Wendigo}", 17, "outsider", "cold, native", [ 5, "large" ], [ 8, "CE" ], "This hideous shape has the head of a feral elk with jagged teeth and sharp antlers. Its humanoid legs end in blackened, burnt stumps." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]

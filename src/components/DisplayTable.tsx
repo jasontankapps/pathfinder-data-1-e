@@ -562,7 +562,6 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		types: typings,
 		data,
 		initialColumn,
-		className,
 		nullValue = "&mdash;",
 		ripples = [],
 		sortable = true,
@@ -655,7 +654,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		<>
 			{theFilterStuff}
 			<div className="tableWrap">
-				<table key={`table/${id}`} className={className}>
+				<table key={`table/${id}`}>
 					<thead>
 						<tr>{headerItems}</tr>
 					</thead>

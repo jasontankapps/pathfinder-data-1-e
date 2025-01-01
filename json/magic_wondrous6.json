@@ -1830,6 +1830,7 @@
 				"id": "ioun stones table",
 				"headers": [ "Ioun Stone", "Strength", "Shape", "Effect", "Cost" ],
 				"types": [ null, null, null, null, "gp" ],
+				"alignments": [ true, null, null, true, null ],
 				"ripples": [0],
 				"data": [
 					[ "[Dull Gray](magic-ioun/dull_gray_stone)", "Flawed", "Stone", null, 25 ],
@@ -1977,8 +1978,7 @@
 					[ "[Pale Orange](magic-ioun/pale_orange_rhomboid)", "Normal", "Rhomboid", "Store your soul prior to death", 200000 ]
 				],
 				"initialColumn": 4,
-				"nullValue": "None",
-				"className": "ioun"
+				"nullValue": "None"
 			}
 		]
 	},

@@ -10,6 +10,7 @@
 				"id": "wondrous items table",
 				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
 				"types": [ null, "gp", "lbs", null, null ],
+				"alignments": [ true, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-wondrous/Hex Nail}", 20, 0, "none", [ 1, "No" ] ],
@@ -2576,8 +2577,7 @@
 					[ "{magic-wondrous/Vacuous Grimoire}", null, 2, "none", [ 0, "Yes" ] ],
 					[ "{magic-wondrous/Scroll of Blood Ink}", null, 0, "none", [ 0, "Yes" ] ]
 				],
-				"initialColumn": 1,
-				"className": "simple"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]

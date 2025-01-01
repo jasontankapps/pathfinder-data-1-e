@@ -800,6 +800,7 @@
 				"id": "traps table",
 				"headers": [ "Trap", "CR", "Type", "Perception DC", "Disable Device DC" ],
 				"types": [ null, "num", null, "num", "num" ],
+				"alignments": [ true, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{trap/Arrow Trap}", 1, "mechanical", 20, 20 ],
@@ -850,8 +851,7 @@
 					[ "{trap/Meteor Swarm Trap}", 19, "magic", 34, 34 ],
 					[ "{trap/Destruction Trap}", 20, "magic", 34, 34 ]
 				],
-				"initialColumn": 1,
-				"className": "simple"
+				"initialColumn": 1
 			}
 		]
 	},

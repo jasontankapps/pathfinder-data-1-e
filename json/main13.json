@@ -11,7 +11,6 @@
 				"types": [ null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "&ndash;",
-				"className": "plain",
 				"ripples": [0],
 				"id": "all mythic feats table",
 				"data": [
@@ -179,7 +178,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Meditation feats table",
 				"ripples": [0],
 				"data": [
@@ -217,7 +215,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Weapon Mastery feats table",
 				"ripples": [0],
 				"data": [
@@ -258,7 +255,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Armor Mastery feats table",
 				"ripples": [0],
 				"data": [
@@ -293,7 +289,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Shield Mastery feats table",
 				"ripples": [0],
 				"data": [
@@ -331,7 +326,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Item Mastery feats table",
 				"ripples": [0],
 				"data": [
@@ -374,7 +368,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Monster feats table",
 				"ripples": [0],
 				"data": [
@@ -428,7 +421,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Teamwork feats table",
 				"ripples": [0],
 				"data": [
@@ -673,7 +665,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Trick feats table",
 				"ripples": [0],
 				"data": [
@@ -703,7 +694,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Stare feats table",
 				"ripples": [0],
 				"data": [
@@ -730,7 +720,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Trick feats table",
 				"ripples": [0],
 				"data": [
@@ -760,7 +749,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Story feats table",
 				"ripples": [0],
 				"data": [
@@ -860,7 +848,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Style feats table",
 				"ripples": [0],
 				"data": [
@@ -973,7 +960,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Item Creation feats table",
 				"ripples": [0],
 				"data": [
@@ -1022,7 +1008,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Metamagic feats table",
 				"ripples": [0],
 				"data": [
@@ -1036,14 +1021,14 @@
 					[ "{feat/Brackish Spell}", "", "Modfy a spell to sheath you in protective seawater when cast" ],
 					[ "{feat/Brisk Spell}", "Dex 13+.", "Increase the speed of a granted movement type" ],
 					[ "{feat/Burning Spell}", "", "Spell with the acid or fire descriptor deals extra damage the next round" ],
-					[ "{feat/Centered Spell}", "Spellcraft 3 ranks.", "Center a spells area on yourself" ],
+					[ "{feat/Centered Spell}", "Spellcraft 3 ranks.", "Center a spell's area on yourself" ],
 					[ "{feat/Cherry Blossom Spell}", "", "Creatures that take damage from your spell have their age manipulated" ],
 					[ "{feat/Coaxing Spell}", "{feat/Spell Focus/ (enchantment)}, Knowledge (dungeoneering) 6 ranks.", "Use mind-affecting spells to affect mindless oozes or vermin" ],
 					[ "{feat/Concussive Spell}", "", "Spell with the sonic descriptor gains a debilitating concussive effect" ],
 					[ "{feat/Conditional Spell}", "", "Apply conditional favor to a spell you cast" ],
 					[ "{feat/Consecrate Spell}", "Aasimar, able to prepare or cast consecrate.", "Maximize spell variables against evil creatures." ],
 					[ "{feat/Contagious Spell}", "", "Spell spreads to those who fail to remove it" ],
-					[ "{feat/Contingent Spell}", "Ability to cast cure spells (a cure spell is any spell with \"cure\" in its name).", "Turn a healing spell into a contengent effect" ],
+					[ "{feat/Contingent Spell}", "Ability to cast cure spells (a cure spell is any spell with \"cure\" in its name).", "Turn a healing spell into a contingent effect" ],
 					[ "{feat/Crypt Spell}", "", "Damaging spell hinders resurrection or sickens undead" ],
 					[ "{feat/Dazing Spell}", "", "Daze creature with spell damage" ],
 					[ "{feat/Delayed Spell}", "", "Set a spell to trigger on a delay" ],
@@ -1130,7 +1115,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Grit feats table",
 				"ripples": [0],
 				"data": [
@@ -1175,7 +1159,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Panache feats table",
 				"ripples": [0],
 				"data": [

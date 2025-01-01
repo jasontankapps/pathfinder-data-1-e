@@ -11,6 +11,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Adaptive Ooze}", 7, "ooze", null, [ 5, "large" ], [ 4, "N" ], "The color and texture of this massive, metallic ooze shift whenever it touches something." ],
@@ -86,8 +87,7 @@
 					[ "{monster/Vespergaunt}", 12, "ooze", null, [ 4, "medium" ], [ 5, "NE" ], "This amorphous mass of eyes, tentacles, and protoplasm exudes thick, roiling clouds of green vapor." ],
 					[ "{monster/Warpglass Ooze}", 2, "ooze", null, [ 4, "medium" ], [ 4, "N" ], "This watery puddle reflects a distorted image of its surroundings, as though it were a window to another reality." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -112,6 +112,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abrakarn Viper}", 13, "construct", "chaotic, evil", [ 6, "huge" ], [ 8, "CE" ], "This massive, three-headed clockwork snake is crafted of brass and strange, dark alloys." ],
@@ -247,14 +248,14 @@
 					[ "{monster/Xacarba}", 15, "outsider", "chaotic, evil, extraplanar", [ 7, "gargantuan" ], [ 8, "CE" ], "This towering, three-tailed, six-eyed beast seems like three rune-backed serpents partially melded together into one body." ],
 					[ "{monster/Zentragt}", 4, "outsider", "chaotic, extraplanar", [ 5, "large" ], [ 7, "CN" ], "This ferocious ursine brute has blade-like metallic teeth and appears to be covered in overlapping iron plates." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			},
 			{
 				"id": "monsters evil",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abrakarn Viper}", 13, "construct", "chaotic, evil", [ 6, "huge" ], [ 8, "CE" ], "This massive, three-headed clockwork snake is crafted of brass and strange, dark alloys." ],
@@ -501,14 +502,14 @@
 					[ "{monster/Xill}", 6, "outsider", "evil, extraplanar", [ 4, "medium" ], [ 2, "LE" ], "This flame-red humanoid appears to be a strange mix of insect and reptile, with four arms and twitching, fanged mandibles." ],
 					[ "{monster/Yeth Hound}", 3, "outsider", "evil, extraplanar", [ 4, "medium" ], [ 5, "NE" ], "This emaciated, hairless canine has a strange air of menace and cruelty about it." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			},
 			{
 				"id": "monsters good",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Agathion, Avoral}", 9, "outsider", "agathion, extraplanar, good", [ 4, "medium" ], [ 3, "NG" ], "Great feathers sweep back from this fierce bird-man's brow, and long, clawed hands grow from the end of his wings." ],
@@ -598,14 +599,14 @@
 					[ "{monster/Troops, Hound Archon Troop}", 16, "outsider", "archon, extraplanar, good, lawful, troop", [ 4, "medium" ], [ 0, "LG" ], null ],
 					[ "{monster/Yhohm}", 4, "outsider", "extraplanar, fire, good", [ 2, "tiny" ], [ 3, "NG" ], "This beautiful dove is as bright as the sun and the size of an eagle, surrounded by an aura of blazing white flames." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			},
 			{
 				"id": "monsters lawful",
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Achaierai}", 5, "outsider", "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
@@ -739,8 +740,7 @@
 					[ "{monster/Typhilipede}", 2, "outsider", "evil, extraplanar, lawful", [ 2, "tiny" ], [ 2, "LE" ], "This hideous creature has a jet-black segmented body, four beady eyes, batlike wings, and a pair of oversized mandibles that glisten with green ichor." ],
 					[ "{monster/Wisagatcak}", 14, "outsider", "evil, extraplanar, lawful", [ 3, "small" ], [ 2, "LE" ], "This spiderlike monstrosity watches quietly, skittering about on six needle-sharp legs." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -761,6 +761,7 @@
 				"headers": [ "Monster", "CR", "MR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", "num", null, 0, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Agmazar the Star Titan}", 26, [-1, "&mdash;"], "undead", "cold, kaiju", [ 8, "colossal" ], [ 5, "NE" ], "Stony segments cover this towering colossus like armor plates. Though it looks lifeless, its four arms move with supple grace." ],
@@ -921,13 +922,13 @@
 					[ "{monster/Elemental Lord, Ymeri}", 28, [-1, "&mdash;"], "outsider", "evil, extraplanar, fire", [ 5, "large" ], [ 5, "NE" ], "This woman with four armor-clad arms and wings of incandescent magma has the lower torso of a powerful reptile." ],
 					[ "{monster/Zelishkar of the Bitter Flame}", 21, [-1, "&mdash;"], "outsider", "daemon, evil, extraplanar, fire", [ 5, "large" ], [ 5, "NE" ], "This fiendish figure appears to be shaped from pure flame with a feline face. Three wicked tongues dart from the creature's mouth." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			},
 			{
 				"id": "monsters by cr unique",
 				"headers": [ "Monster", "Type", "Size", "CR", "MR", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"types": [ null, null, "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
+				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null, null, null ],
 				"ripples": [0],
 				"filterable": 3,
 				"data": [
@@ -1089,8 +1090,7 @@
 					[ "{monster/Kaiju, Varklops}", "magical beast", [ 8, "colossal" ], 30, [-1, "&mdash;"], 48, 37, 42, 3, 30, 29, 35, 62, 86 ],
 					[ "{monster/Oliphaunt of Jandelay}", "outsider", [ 8, "colossal" ], 30, [-1, "&mdash;"], 44, 27, 37, 14, 17, 32, 40, 65, 103 ]
 				],
-				"initialColumn": 3,
-				"className": "simple"
+				"initialColumn": 3
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -1111,6 +1111,7 @@
 				"headers": [ "Monster", "CR", "MR", "Type", "Subtype", "Size", "Alignment", "Description" ],
 				"filterable": 2,
 				"types": [ null, "num", "num", null, 0, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aboleth}", 9, 3, "aberration", "aquatic, mythic", [ 6, "huge" ], [ 2, "LE" ], "A foul mist surrounds this huge, three-eyed, tentacled fish creature, and plates of hardened slime guard its body." ],
@@ -1195,13 +1196,13 @@
 					[ "{monster/Wyvern}", 8, 3, "dragon", "mythic", [ 5, "large" ], [ 4, "N" ], "This serpentine dragon has huge wings, two taloned legs, and a tail stinger, and its blue scales are mottled with other colors." ],
 					[ "{monster/Xiomorn/, Vault Builder}", 20, 8, "outsider", "earth, elemental, extraplanar, mythic", [ 4, "medium" ], [ 1, "LN" ], "This towering, spindly, four-armed entity appears to be made of stone and crystal, yet it moves with a fluid grace." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			},
 			{
 				"id": "monsters by cr mythic",
 				"headers": [ "Monster", "Type", "Size", "CR", "MR", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"types": [ null, null, "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
+				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null, null, null ],
 				"ripples": [0],
 				"filterable": 3,
 				"data": [
@@ -1287,8 +1288,7 @@
 					[ "{monster/Dragon (Red), Wyrm Red Dragon}", "dragon", [ 7, "gargantuan" ], 25, 10, 45, 6, 29, 20, 21, 24, 27, 48, 56 ],
 					[ "{monster/Drakainia}", "aberration", [ 6, "huge" ], 25, 10, 38, 20, 46, 29, 21, 41, 18, 34, 49 ]
 				],
-				"initialColumn": 3,
-				"className": "simple"
+				"initialColumn": 3
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]

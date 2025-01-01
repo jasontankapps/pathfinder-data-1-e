@@ -10,6 +10,7 @@
 				"id": "abjuration school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abeyance}", 2, "Suppress the effects of a single curse." ],
@@ -330,7 +331,6 @@
 				]
 				,
 				"initialColumn": 0,
-				"className": "endcaps",
 				"filterable": 1
 			}
 		],
@@ -347,6 +347,7 @@
 				"id": "conjuration school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Ablative Barrier}", [ 2.451, "2, 3" ], "Surrounds the target with layers of force." ],
@@ -804,7 +805,6 @@
 					[ "{spell/Word of Recall}", [ 6.601, "6, 7, 8" ], "Teleports you back to designated place." ]
 				],
 				"initialColumn": 0,
-				"className": "endcaps",
 				"filterable": 1
 			}
 		],
@@ -821,6 +821,7 @@
 				"id": "divination school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Aerial Tracks}", [ 3.601, "3, 4" ], "Track flying creatures through the air." ],
@@ -1089,7 +1090,6 @@
 					[ "{spell/Witness}", 3, "See through the target's eyes and ears." ]
 				],
 				"initialColumn": 0,
-				"className": "endcaps",
 				"filterable": 1
 			}
 		],
@@ -1106,6 +1106,7 @@
 				"id": "enchantment school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abadar's Truthtelling}", 1, "Force the target to speak the truth." ],
@@ -1436,7 +1437,6 @@
 					[ "{spell/Zone of Truth}", 2, "Subjects within range cannot lie." ]
 				],
 				"initialColumn": 0,
-				"className": "endcaps",
 				"filterable": 1
 			}
 		],

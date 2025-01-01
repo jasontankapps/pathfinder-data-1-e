@@ -12,7 +12,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Acid Splash}", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
@@ -690,7 +690,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
@@ -1092,7 +1092,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abundant Ammunition}", 1, "conjuration", "summoning", null, "Replaces nonmagical ammunition every round." ],
@@ -1503,7 +1503,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abjuring Step}", 1, "abjuration", null, "force", "You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell." ],
@@ -1926,7 +1926,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Create Water}", 0, "conjuration", "creation", "water", "Creates 2 gallons/level of pure water." ],

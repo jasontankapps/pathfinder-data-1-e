@@ -11,6 +11,7 @@
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aashaq's Wyvern}", 8, "dragon", [ 5, "large" ], [ 7, "CN" ], "This light purple dragon has immense wings and a bifurcated tail, each end tipped with a hooked stinger. Heavy smoke drips from the beast's nostrils and jaws." ],
@@ -542,8 +543,7 @@
 					[ "{monster/Cytillesh Zombie}", 1, "undead", [ 4, "medium" ], [ 5, "NE" ], null ],
 					[ "{monster/Cytillipede}", 6, "magical beast", [ 5, "large" ], [ 4, "N" ], "This segmented creature has a chitinous body covered in patches of glowing, purple fungus. Syrupy venom drips from its mandibles." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -560,6 +560,7 @@
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Scorpion, Black}", 15, "vermin", [ 8, "colossal" ], [ 4, "N" ], "This towering scorpion's carapace is as black as coal, and its claws are each as long as a man's body." ],
@@ -1123,8 +1124,7 @@
 					[ "{monster/Zuvembie}", 4, "undead", [ 4, "medium" ], [ 5, "NE" ], "This withered old corpse has a feral glint in her eyes and clasps a rusty axe in her yellow-nailed hands." ],
 					[ "{monster/Zygomind}", 18, "plant", [ 8, "colossal" ], [ 4, "N" ], "This enormous fungus looks like a cage, and a strange glow emanates from within." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]

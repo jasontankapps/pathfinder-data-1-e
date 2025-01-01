@@ -365,7 +365,6 @@ table tr td:last-child {
 	border-width: var(--half-width) 0;
 }
 table tr td {
-	text-align: var(--alignment);
 	/* This is so linked cells will ripple */
 	position: relative;
 }
@@ -396,30 +395,6 @@ table tr td a {
 table tr td.cell-link {
 	color: var(--ion-color-primary);
 	cursor: pointer;
-}
-table,
-table.faiths tr td:nth-child(3),
-table.traits tr td:nth-child(2) {
-	--alignment: center;
-}
-table.simple tr td:first-child,
-table.poisons tr td:nth-child(5n+1),
-table.endcaps tr td:first-child,
-table.endcaps tr td:last-child,
-table.infusions tr td:first-child,
-table.infusions tr td:nth-child(n+6),
-table.compositeblasts tr td:first-child,
-table.compositeblasts tr td:nth-child(4n+2),
-table.ioun tr td:first-child,
-table.ioun tr td:nth-child(4),
-table.traits,
-table.faiths,
-div.hasInfoTable table,
-div.centerFirst tr td:last-child {
-	--alignment: start;
-}
-table.archetypegrid tr td:first-child {
-	--alignment: end;
 }
 table thead tr th.sortable {
 	cursor: pointer;

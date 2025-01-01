@@ -11,6 +11,7 @@
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Freezing Flow}", 4, "ooze", [ 5, "large" ], [ 4, "N" ], "This transparent blue formation of ice is as forbidding as the serpent it resembles." ],
@@ -557,8 +558,7 @@
 					[ "{monster/Leucrotta}", 5, "magical beast", [ 5, "large" ], [ 8, "CE" ], "This freakish beast has the head of a badger, the hooves of a stag, and a wide mouth with sharp ridges of bone instead of teeth." ],
 					[ "{monster/Leviathan}", 30, "magical beast", [ 8, "colossal" ], [ 4, "N" ], "This impossibly enormous, whalelike monstrosity glares with a hundred red eyes, its cavernous maw lined with rows of sharp teeth." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -575,6 +575,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abysogh}", 15, "humanoid", "giant", [ 7, "gargantuan" ], [ 8, "CE" ], "The footsteps of this pale titan cause the very earth to shudder. Each muscle in its body is pulled taut as if in perpetual convulsion." ],
@@ -886,8 +887,7 @@
 					[ "{monster/Wikkawak}", 4, "humanoid", "goblinoid", [ 4, "medium" ], [ 8, "CE" ], "This thick-bodied, white-furred bugbear wears bearskins and carries an axe made of ice and bone." ],
 					[ "{monster/Xulgath}", 4, "humanoid", "reptilian", [ 4, "medium" ], [ 8, "CE" ], "A rigid crest runs from the head of this bipedal lizard to the tip of its long tail, and oil glistens on its scales." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -904,6 +904,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abysogh}", 15, "humanoid", "giant", [ 7, "gargantuan" ], [ 8, "CE" ], "The footsteps of this pale titan cause the very earth to shudder. Each muscle in its body is pulled taut as if in perpetual convulsion." ],
@@ -1000,8 +1001,7 @@
 					[ "{monster/Troll, Troll Warden}", 6, "humanoid", "giant", [ 5, "large" ], [ 8, "CE" ], null ],
 					[ "{monster/Ved}", 5, "humanoid", "giant", [ 5, "large" ], [ 5, "NE" ], "This hairy humanoid's misshapen head appears too large for its body and it wields a lumpy, primitive club." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -1018,6 +1018,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Bugbear}", 2, "humanoid", "goblinoid", [ 4, "medium" ], [ 8, "CE" ], "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill." ],
@@ -1058,8 +1059,7 @@
 					[ "{monster/Troops, Ironfang Yzobu Rider Troop}", 18, "humanoid", "goblinoid, troop", [ 4, "medium" ], [ 2, "LE" ], "These hobgoblin knights ride atop brutish stinking yaks that paw the ground angrily." ],
 					[ "{monster/Wikkawak}", 4, "humanoid", "goblinoid", [ 4, "medium" ], [ 8, "CE" ], "This thick-bodied, white-furred bugbear wears bearskins and carries an axe made of ice and bone." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -1076,6 +1076,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Akhlut}", 13, "magical beast", "cold, shapechanger", [ 6, "huge" ], [ 4, "N" ], "A dorsal fin rises up from the back of this immense black-and-white-furred, wolflike beast." ],
@@ -1189,8 +1190,7 @@
 					[ "{monster/Vrykolakas}", 10, "undead", "shapechanger", [ 4, "medium" ], [ 5, "NE" ], "This twisted, barely-humanoid monstrosity has rancid-looking flesh, an unnaturally long neck, and a mouth full of fangs." ],
 					[ "{monster/Zephyr}", 12, "fey", "air, shapechanger", [ 5, "large" ], [ 7, "CN" ], "This blue-furred horse with a cloudlike mane and tail has gray, humanlike eyes that show obvious intelligence." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
@@ -1207,6 +1207,7 @@
 				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Alchemical Ooze Swarm, Choleric Ooze Swarm}", 2, "ooze", "swarm", [ 2, "tiny" ], [ 4, "N" ], null ],
@@ -1280,8 +1281,7 @@
 					[ "{monster/Wasp, Wasp Swarm}", 3, "vermin", "swarm", [ 1, "diminutive" ], [ 4, "N" ], "A low, ominous buzz announces the arrival of a mass of many thousands of angry, stinging wasps." ],
 					[ "{monster/Water Strider Swarm}", 1, "vermin", "swarm", [ 1, "diminutive" ], [ 4, "N" ], "Countless thousands of long-legged water bugs glide soundlessly over the surface of the water, skimming over it in a wave of twitching bodies." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]

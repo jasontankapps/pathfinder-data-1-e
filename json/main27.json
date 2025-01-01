@@ -10,6 +10,7 @@
 				"id": "magic weapon table",
 				"headers": [ "Weapon", "Cost", "Weight", "Slot", "Cursed?" ],
 				"types": [ null, "gp", "lbs", null, null ],
+				"alignments": [ true, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-weapon/Darkness Arrow}", 80, 0, null, [ 1, "No" ] ],
@@ -508,8 +509,7 @@
 					[ "{magic-weapon/Unstable Musket}", [ 0, "&mdash;" ], 9, null, [ 0, "Yes" ] ],
 					[ "{magic-weapon/Unwieldy Glaive}", [ 0, "&mdash;" ], 10, null, [ 0, "Yes" ] ]
 				],
-				"initialColumn": 1,
-				"className": "simple"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
@@ -525,6 +525,7 @@
 				"id": "magic rings table",
 				"headers": [ "Ring", "Cost", "Weight", "Cursed?" ],
 				"types": [ null, "gp", "lbs", null ],
+				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-ring/Dungeon Ring (prisoner's)}", 250, 0, [ 1, "No" ] ],
@@ -750,8 +751,7 @@
 					[ "{magic-ring/Ring of Spell Devouring}", [ 0, "&mdash;" ], 0, [ 0, "Yes" ] ],
 					[ "{magic-ring/Ring of Truth}", [ 0, "&mdash;" ], 0, [ 0, "Yes" ] ]
 				],
-				"initialColumn": 1,
-				"className": "simple"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
@@ -767,6 +767,7 @@
 				"id": "magic rods table",
 				"headers": [ "Rod", "Cost", "Weight", "Cursed?" ],
 				"types": [ null, "gp", "lbs", null ],
+				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-rod/Rod of Metamagic, Eclipsed (lesser)}", 1500, 5, [ 1, "No" ] ],
@@ -1014,8 +1015,7 @@
 					[ "{magic-rod/Rod of Arson}", [ 0, "&mdash;" ], 5, [ 0, "Yes" ] ],
 					[ "{magic-rod/Rod of Foiled Magic}", [ 0, "&mdash;" ], 5, [ 0, "Yes" ] ]
 				],
-				"initialColumn": 1,
-				"className": "simple"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
@@ -1374,6 +1374,7 @@
 				"id": "magic altars table",
 				"headers": [ "Altar", "Price", "Weight" ],
 				"types": [ null, "gp", "lbs" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-altar/Altar of Abadar}", 10000, 1000 ],
@@ -1399,13 +1400,13 @@
 					[ "{magic-altar/Altar of Zon-Kuthon}", 8000, 150 ],
 					[ "{magic-altar/Altar of Zursvaater}", 10000, 1000 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			},
 			{
 				"id": "demonic implants table",
 				"headers": [ "Implant", "Price", "Weight" ],
 				"types": [ null, "gp", "lbs" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-implant/Baleful Eye}", 7000, 1 ],
@@ -1420,13 +1421,13 @@
 					[ "{magic-implant/Splintered Mind}", 16000, 3 ],
 					[ "{magic-implant/Wicked Wings}", 55000, 3 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			},
 			{
 				"id": "fleshcraftings table",
 				"headers": [ "Favor", "Slot", "Price", "Elixir Price" ],
 				"types": [ null, null, "gp", "gp" ],
+				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-fleshcrafting/Adhesive Slime}", "none", [0, "&mdash;"], 500 ],
@@ -1447,13 +1448,13 @@
 					[ "{magic-fleshcrafting/Webbed Appendages}", "none", [0, "&mdash;"], 300 ],
 					[ "{magic-fleshcrafting/Wings of Darkness}", "shoulders", 36000, 600 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			},
 			{
 				"id": "magical plants table",
 				"headers": [ "Plant", "Price", "Weight" ],
 				"types": [ null, "gp", "lbs" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-plant/Acidic Lemon Tree}", 12000, 500 ],
@@ -1478,13 +1479,13 @@
 					[ "{magic-plant/Tree of Woe}", 20000, 500 ],
 					[ "{magic-plant/Waterwalk Reeds}", 30000, 50 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			},
 			{
 				"id": "magic tattoos table",
 				"headers": [ "Tattoo", "Cost" ],
 				"types": [ null, "gp" ],
+				"alignments": [ true, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-tattoo/Animal Totem Tattoo}", 12000 ],
@@ -1505,8 +1506,7 @@
 					[ "{magic-tattoo/Watchtower Tattoo}", 9500 ],
 					[ "{magic-tattoo/Weapon Tattoo}", 10000 ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
@@ -1522,6 +1522,7 @@
 				"id": "magic armor table",
 				"headers": [ "Armor", "Slot", "Cost", "Weight", "Cursed?" ],
 				"types": [ null, null, "gp", "lbs", null ],
+				"alignments": [ true, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-armor/Mithral Shirt}", "armor", 1100, 10, [ 1, "No" ] ],
@@ -1769,8 +1770,7 @@
 					[ "{magic-armor/Gravesoul Armor}", "armor", [ 0, "&mdash;" ], 20, [ 0, "Yes" ] ],
 					[ "{magic-armor/Planar Invasion Shield}", "shield", [ 0, "&mdash;" ], 15, [ 0, "Yes" ] ]
 				],
-				"initialColumn": 2,
-				"className": "simple"
+				"initialColumn": 2
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
@@ -1787,6 +1787,7 @@
 				"headers": [ "Artifact", "Weight", "Slot", "Intelligent?", "Cursed?" ],
 				"ripples": [0],
 				"types": [ null, "lbs", null, null, null ],
+				"alignments": [ true, null, null, null, null ],
 				"data": [
 					[ "{magic-artifact/Abyssal Runestone}", 1, null, [ 1, "No" ], [ 1, "No" ] ],
 					[ "{magic-artifact/Aegis}", 15, "shield", [ 1, "No" ], [ 1, "No" ] ],
@@ -2118,8 +2119,7 @@
 					[ "{magic-artifact/Witherfang}", 2, null, [ 1, "No" ], [ 1, "No" ] ],
 					[ "{magic-artifact/Zellara's Harrow Deck}", 1, null, [ 0, "Yes" ], [ 1, "No" ] ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
@@ -2240,6 +2240,7 @@
 				"id": "all magic enhancements table",
 				"headers": [ "Enhancement", "Base Price Modifier (bonus equivalent)", "Base Price Modifier (raw)", "Armor", "Shield", "Melee Weapon", "Ranged Weapon" ],
 				"types": [ null, "bonus", "gp+", null, null, null, null ],
+				"alignments": [ true, null, null, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{magic-enhancement/Adamant}", 2, [ 0, "&mdash;" ], [0, "Yes"], [1, "No"], [1, "No"], [1, "No"] ],
@@ -2576,8 +2577,7 @@
 					[ "{magic-enhancement/Wounding}", 2, [ 0, "&mdash;" ], [1, "No"], [1, "No"], [0, "Yes"], [1, "No"] ],
 					[ "{magic-enhancement/Wyrmsbreath}", 0, 5000, [1, "No"], [0, "Yes"], [1, "No"], [1, "No"] ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
@@ -2594,6 +2594,7 @@
 				"headers": [ "Staff", "Cost", "Weight", "Cursed?" ],
 				"ripples": [0],
 				"types": [ null, "gp", "lbs", null ],
+				"alignments": [ true, null, null, null ],
 				"data": [
 					[ "{magic-staff/Staff of Blessed Relief}", 7200, 5, [ 1, "No" ] ],
 					[ "{magic-staff/Staff of Minor Arcana}", 8000, 5, [ 1, "No" ] ],
@@ -2703,8 +2704,7 @@
 					[ "{magic-staff/Staff of Magical Decline}", [ 0, "&mdash;" ], 5, [ 0, "Yes" ] ],
 					[ "{magic-staff/Staff of Occasional Wonder}", [ 0, "&mdash;" ], 4, [ 0, "Yes" ] ]
 				],
-				"initialColumn": 1,
-				"className": "simple"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]

@@ -10,6 +10,7 @@
 				"id": "all spells table",
 				"headers": [ "Spell", "Level(s)", "School", "Description" ],
 				"types": [ null, "num", null, 0 ],
+				"alignments": [ true, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abadar's Truthtelling}", 1, "enchantment", "Force the target to speak the truth." ],
@@ -3041,8 +3042,7 @@
 					[ "{spell/Zone of Silence}", 4, "illusion", "Keeps eavesdroppers from overhearing you." ],
 					[ "{spell/Zone of Truth}", 2, "enchantment", "Subjects within range cannot lie." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]

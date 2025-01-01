@@ -1380,6 +1380,7 @@
 				"headers": [ "Composite Blast", "Prerequisites", "Elements", "Burn", "Blast Type", "Damage" ],
 				"ripples": [0],
 				"types": [ null, null, null, "num", null, null ],
+				"alignments": [ true, true, null, null, null, true ],
 				"data": [
 					[ "{kinetic/Aetheric Boost/ (Sp)}", "{kinetic/telekinetic blast}, expanded element (any)", "aether", 2, "special", "see text" ],
 					[ "{kinetic/Autumn Blast/ (Sp)}", "{kinetic/earth blast}, {kinetic/wood blast}", "earth, wood", 2, "physical", "any two of bludgeoning, piercing, and slashing (half each)" ],
@@ -1404,8 +1405,7 @@
 					[ "{kinetic/Void Blast/ (Sp)}", "primary element (void), expanded element (void)", "void", 2, "physical", "half bludgeoning, half negative energy" ],
 					[ "{kinetic/Winter Blast/ (Sp)}", "{kinetic/cold blast}, {kinetic/wood blast}", "water, wood", 2, "physical", "half cold and half bludgeoning, piercing, or slashing" ]
 				],
-				"initialColumn": 0,
-				"className": "compositeblasts"
+				"initialColumn": 0
 			}
 		],
 		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
@@ -1555,6 +1555,7 @@
 				"id": "psychic disciplines",
 				"headers": [ "Discipline", "Pool Stat", "Description" ],
 				"types": [ null, null, null ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{discipline/Abomination}", "Charisma", "Your mind is impure, tainted by outside forces." ],
@@ -1581,8 +1582,7 @@
 					[ "{discipline/Tranquility}", "Wisdom", "Psychic magic flows through you when you attain a peaceful mental state." ],
 					[ "{discipline/Warp}", "Charisma", "Ratfolk mythology claims they were appointed by the gods to sniff out the ragged edges of creation." ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			}
 		],
 		"subhierarchy": [[ "Psychic", "class/psychic" ]]

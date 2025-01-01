@@ -38,6 +38,7 @@
 				"id": "mythic spells table",
 				"headers": [ "Spell", "Level(s)", "School", "Description" ],
 				"types": [ null, "num", null, 0 ],
+				"alignments": [ true, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Animate Plants}", 7, "transmutation", "One or more plants animate and fight for you." ],
@@ -161,8 +162,7 @@
 					[ "{spell/Wish}", 9, "universal", "As limited wish, but with fewer limits." ],
 					[ "{spell/Zone of Truth}", 2, "enchantment", "Subjects within range cannot lie." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
@@ -183,7 +183,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
@@ -290,7 +290,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -337,7 +337,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -384,7 +384,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -419,7 +419,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -455,7 +455,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Chord of Shards}", 1, "evocation", null, null, "Performance deals 2d6 piercing damage." ],
@@ -499,7 +499,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -557,7 +557,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -624,7 +624,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
@@ -678,7 +678,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -740,7 +740,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -792,7 +792,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -824,7 +824,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -870,7 +870,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -916,7 +916,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -970,7 +970,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -1002,7 +1002,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -1036,7 +1036,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -1088,7 +1088,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -1132,7 +1132,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -1182,7 +1182,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
@@ -1246,7 +1246,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
@@ -1321,7 +1321,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -1365,7 +1365,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
-				"className": "endcaps",
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Alchemical Tinkering}", 1, "transmutation", null, null, "Transform an alchemical item or firearm into another similar item." ],

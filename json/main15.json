@@ -11,6 +11,7 @@
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aashaq's Wyvern}", 8, "dragon", [ 5, "Lg" ], [ 7, "CN" ], "This light purple dragon has immense wings and a bifurcated tail, each end tipped with a hooked stinger. Heavy smoke drips from the beast's nostrils and jaws." ],
@@ -2755,8 +2756,7 @@
 					[ "{monster/Zuvembie}", 4, "undead", [ 4, "Md" ], [ 5, "NE" ], "This withered old corpse has a feral glint in her eyes and clasps a rusty axe in her yellow-nailed hands." ],
 					[ "{monster/Zygomind}", 18, "plant", [ 8, "Co" ], [ 4, "N" ], "This enormous fungus looks like a cage, and a strange glow emanates from within." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]

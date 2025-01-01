@@ -1019,6 +1019,7 @@
 				"id": "construct mods table",
 				"headers": [ "Construct Mod", "Type", "Cost" ],
 				"types": [ null, null, "gp" ],
+				"alignments": [ true, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{constructmod/Ability Score Increase}", "Basic", 5000 ],
@@ -1051,8 +1052,7 @@
 					[ "{constructmod/Rune of Imprisonment (Rune Carved)}", "Complex", 57600 ]
 				],
 				"initialColumn": 1,
-				"nullValue": "See Text",
-				"className": "simple"
+				"nullValue": "See Text"
 			}
 		],
 		"parent_topics": [

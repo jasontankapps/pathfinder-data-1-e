@@ -407,6 +407,7 @@
 				"headers": [ "Rage Power", "Minimum Level", "Type", "Short Description" ],
 				"ripples": [0],
 				"types": [ null, null, null, null ],
+				"alignments": [ true, null, null, true ],
 				"data": [
 					[ "{ragepower/Abyssal Blood/ (Su)}", "6th", "Blood", "Grow larger during a rage." ],
 					[ "{ragepower/Abyssal Blood, Greater/ (Su)}", "10th", "Blood", "Gain resistance 5 to acid, cold, and fire." ],
@@ -583,14 +584,14 @@
 					[ "{ragepower/Witch Hunter/ (Ex)}", "2nd", "Offensive", "Upgrade your *superstition*, gaining a bonus to damage vs creatures possessing spells or spell-like abilities." ],
 					[ "{ragepower/Ymeri's Pyre/ (Su)}", "6th", "Elemental", "Your rage reduces the duration of negative spells and effects inflicted upon you." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			},
 			{
 				"id": "totem rage powers",
 				"ripples": [0],
 				"headers": [ "Rage Power", "Minimum Level" ],
 				"types": [ null, null ],
+				"alignments": [ true, null ],
 				"data": [
 					[ "{ragepower/Air Totem/ (Su)}", "6th" ],
 					[ "{ragepower/Air Totem, Greater/ (Su)}", "10th" ],
@@ -653,8 +654,7 @@
 					[ "{ragepower/World Serpent Totem/ (Su)}", "2nd" ],
 					[ "{ragepower/World Serpent Totem Unity/ (Su)}", "10th" ]
 				],
-				"initialColumn": 0,
-				"className": "simple"
+				"initialColumn": 0
 			}
 		],
 		"subhierarchy": [[ "Barbarian", "class/barbarian" ]]
@@ -1504,6 +1504,7 @@
 				"headers": [ "Simple Blast", "Elements", "Burn", "Blast Type", "Damage Type" ],
 				"ripples": [0],
 				"types": [ null, null, "num", null, null ],
+				"alignments": [ true, null, null, null, true ],
 				"data": [
 					[ "{kinetic/Air Blast/ (Sp)}", "air", 0, "physical", "bludgeoning" ],
 					[ "{kinetic/Cold Blast/ (Sp)}", "water", 0, "energy", "cold" ],
@@ -1517,8 +1518,7 @@
 					[ "{kinetic/Water Blast/ (Sp)}", "water", 0, "physical", "bludgeoning" ],
 					[ "{kinetic/Wood Blast/ (Sp)}", "wood", 0, "physical", "bludgeoning, piercing, or slashing" ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]

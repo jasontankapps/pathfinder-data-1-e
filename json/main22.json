@@ -77,7 +77,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"ripples": [0],
 				"id": "General feats table",
 				"data": [
@@ -1703,7 +1702,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"ripples": [0],
 				"id": "Critical feats table",
 				"data": [
@@ -1754,7 +1752,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Familiar feats table",
 				"ripples": [0],
 				"data": [
@@ -1785,7 +1782,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"ripples": [0],
 				"id": "Blood Hex feats table",
 				"data": [
@@ -1856,7 +1852,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"ripples": [0],
 				"id": "Hero Point feats table",
 				"data": [
@@ -1870,7 +1865,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Called Shot feats table",
 				"ripples": [0],
 				"data": [
@@ -1883,7 +1877,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"ripples": [0],
 				"id": "Targeting feats table",
 				"data": [
@@ -1898,7 +1891,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"ripples": [0],
 				"id": "Words of Power feats table",
 				"data": [
@@ -1912,7 +1904,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Esoteric feats table",
 				"ripples": [0],
 				"data": [
@@ -1944,7 +1935,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Achievement feats table",
 				"ripples": [0],
 				"data": [
@@ -1971,7 +1961,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Faction feats table",
 				"ripples": [0],
 				"data": [
@@ -2011,7 +2000,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Gathlain Court Title feats table",
 				"ripples": [0],
 				"data": [
@@ -2038,7 +2026,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"ripples": [0],
 				"id": "Alignment feats table",
 				"data": [
@@ -2070,7 +2057,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Damnation feats table",
 				"ripples": [0],
 				"data": [
@@ -2097,7 +2083,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Combination feats table",
 				"ripples": [0],
 				"data": [
@@ -2127,7 +2112,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"ripples": [0],
 				"id": "Conduit feats table",
 				"data": [
@@ -2173,7 +2157,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Performance feats table",
 				"ripples": [0],
 				"data": [
@@ -2211,7 +2194,6 @@
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "plain",
 				"id": "Origin feats table",
 				"ripples": [0],
 				"data": [

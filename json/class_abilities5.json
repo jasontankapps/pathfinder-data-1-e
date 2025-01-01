@@ -1479,6 +1479,7 @@
 				"headers": [ "Infusion", "Elements", "Level", "Burn", "Prerequisites" ],
 				"ripples": [0],
 				"types": [ null, null, "num", "num", null ],
+				"alignments": [ true, null, null, null, true ],
 				"data": [
 					[ "{kinetic/Absentia/ (Sp)}", "void", 4, 0, "{kinetic/emptiness}" ],
 					[ "{kinetic/Aerial Adaptation/ (Sp)}", "air", 1, 0, null ],
@@ -1638,8 +1639,7 @@
 					[ "{kinetic/Woodland Step/ (Su)}", "wood", 1, 0, null ],
 					[ "{kinetic/Woodland Step, Greater/ (Sp)}", "wood", 5, 0, "{kinetic/woodland step}" ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]

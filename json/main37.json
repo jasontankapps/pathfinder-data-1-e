@@ -10,6 +10,7 @@
 				"id": "evocation school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Admonishing Ray}", 2, "Fire multiple rays that deal nonlethal force." ],
@@ -359,7 +360,6 @@
 					[ "{spell/Wrathful Mantle}", 3, "Subject shines and gets +1/four levels on all saves." ]
 				],
 				"initialColumn": 0,
-				"className": "endcaps",
 				"filterable": 1
 			}
 		],
@@ -376,6 +376,7 @@
 				"id": "illusion school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Absurdity}", 2, "Threats seem like a ridiculous farce." ],
@@ -602,7 +603,6 @@
 					[ "{spell/Zone of Silence}", 4, "Keeps eavesdroppers from overhearing you." ]
 				],
 				"initialColumn": 0,
-				"className": "endcaps",
 				"filterable": 1
 			}
 		],
@@ -619,6 +619,7 @@
 				"id": "necromancy school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Absorb Toxicity}", [ 4.221, "3, 4, 5" ], "You become immune to diseases and toxins, absorb one, and then spread it to others." ],
@@ -940,7 +941,6 @@
 					[ "{spell/Wracking Ray}", 5, "Fire a ray to deal Dexterity and Strength damage." ]
 				],
 				"initialColumn": 0,
-				"className": "endcaps",
 				"filterable": 1
 			}
 		],
@@ -957,6 +957,7 @@
 				"id": "transmutation school spells table",
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
+				"alignments": [ true, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Aboleth's Lung}", 2, "Allow the target to breathe water at the cost of no longer being able to breathe air." ],
@@ -1746,7 +1747,6 @@
 					[ "{spell/Zone of Foul Flames}", 4, "Create an area that returns fire spells and effects back onto their caster." ]
 				],
 				"initialColumn": 0,
-				"className": "endcaps",
 				"filterable": 1
 			}
 		],

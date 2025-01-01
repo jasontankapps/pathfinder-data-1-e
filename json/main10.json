@@ -11,8 +11,8 @@
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"initialColumn": 1,
-				"className": "endcaps",
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
@@ -1012,8 +1012,8 @@
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
+				"alignments": [ true, null, null, null, null, true ],
 				"initialColumn": 1,
-				"className": "endcaps",
 				"ripples": [0],
 				"data": [
 					[ "{spell/Dancing Lights}", 0, "evocation", null, "light", "Creates torches or other lights." ],
@@ -1899,6 +1899,7 @@
 				"id": "occult rituals table",
 				"headers": [ "Ritual", "Level", "School", "Description" ],
 				"types": [ null, "num", null, 0 ],
+				"alignments": [ true, null, null, true ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Analytical Congress}", 4, "transmutation", "Grant a group an increased capacity to research and learn" ],
@@ -1983,8 +1984,7 @@
 					[ "{spell/Waking the Drowned God}", 9, "conjuration", "Free the drowned god from its hidden prison" ],
 					[ "{spell/Welcome the Blighted Soul}", 9, "necromancy", "Turns the caster into a {monster/siabrae}" ]
 				],
-				"initialColumn": 1,
-				"className": "endcaps"
+				"initialColumn": 1
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]

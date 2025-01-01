@@ -43,7 +43,7 @@
 				"types": [ null, null, null, null, null, null, null, null, null, null ],
 				"initialColumn": 0,
 				"nullValue": "",
-				"className": "traits",
+				"alignments": [ true, null, true, true, true, true, true, true, true, true ],
 				"ripples": [0],
 				"id": "all traits table",
 				"data": [

@@ -39,6 +39,7 @@
 				"headers": [ "Companion", "Type", "Description" ],
 				"ripples": [0],
 				"types": [ null, null, null ],
+				"alignments": [ true, null, true ],
 				"data": [
 					[ "{druidcompanion/Allosaurus}", "animal", "This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful arms that end in sharp claws." ],
 					[ "{druidcompanion/Amargasaurus}", "animal", "This sauropod has an elongated neck and a long, tapering tail." ],
@@ -254,8 +255,7 @@
 					[ "{druidcompanion/Yzobu}", "animal", "This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak." ],
 					[ "{druidcompanion/Zebra}", "animal", "The iconic black and white stripes of the zebra make it instantly recognizable." ]
 				],
-				"initialColumn": 0,
-				"className": "endcaps"
+				"initialColumn": 0
 			}
 		],
 		"subhierarchy": [[ "Druid", "class/druid" ]]
@@ -1904,6 +1904,7 @@
 				"headers": [ "Infusion", "Type", "Elements", "Level", "Burn", "Prerequisites", "Associated Blasts" ],
 				"ripples": [0],
 				"types": [ null, null, null, "num", "num", null, null ],
+				"alignments": [ true, null, null, null, null, true, true ],
 				"data": [
 					[ "{kinetic/Blade Rush}", "form infusion", "universal", 2, 2, "{kinetic/kinetic blade}", "any" ],
 					[ "{kinetic/Blade Whirlwind}", "form infusion", "universal", 5, 3, "{kinetic/kinetic blade}", "any" ],
@@ -1987,8 +1988,7 @@
 					[ "{kinetic/Weighing Infusion}", "substance infusion", "void", 2, 2, null, "{kinetic/Gravity Blast}, {kinetic/Void Blast}" ],
 					[ "{kinetic/Whip Hurricane}", "form infusion", "universal", 6, 4, "{kinetic/kinetic blade}, {kinetic/kinetic whip}, {kinetic/blade whirlwind}", "any" ]
 				],
-				"initialColumn": 1,
-				"className": "infusions"
+				"initialColumn": 1
 			}
 		],
 		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
