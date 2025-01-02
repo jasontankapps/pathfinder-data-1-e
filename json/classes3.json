@@ -184,8 +184,7 @@
 					[ "{arc-unchained_monk/Windstep Master}", null, null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X", null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -330,8 +329,7 @@
 					[ "{arc-ninja/Petal Ninja}", "X", null, "X", "X", null, "X", "X", null, "X", null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -537,8 +535,7 @@
 					[ "{arc-occultist/Tome Eater}", null, null, "X", null, null, null, null, null, "X", "X", null, "X", null, "X", "X", null, "X", null, "X", null, "X", null, null, null, "X", "X", null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -797,8 +794,7 @@
 					[ "{arc-oracle/Warsighted}", "X", null, null, null, null, null, null, "X", null, null, "X", null, null, "X", null, null, null, null, null, null, null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1117,8 +1113,7 @@
 					[ "{arc-paladin/Wilderness Warden}", "X", null, "X", null, "X", null, null, null, "X", null, null, "X", "X", null, null, "X", null, null, null, null, "X", null, null, null, null, null, null, null, "X", "X", null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1315,8 +1310,7 @@
 					[ "{arc-psychic/Terror Weaver}", null, null, null, null, "X", "X", "X", null, "X", null, null, null, null, null, null, null, null, "X", null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	}

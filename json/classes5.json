@@ -258,8 +258,7 @@
 					[ "{arc-cavalier/Wave Rider}", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X" ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -525,8 +524,7 @@
 					[ "{arc-cleric/Varisian Pilgrim}", null, null, null, "X", null, null, null, "X", null, null, null, null, null, null, "X", null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -920,8 +918,7 @@
 					[ "{arc-druid/World Walker}", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null, "X", "X", "X", null, null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1250,8 +1247,7 @@
 					[ "{arc-monk/Zen Archer}", null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, "X", null, null, null, "X", null, null, null, null, null, "X", null, null, "X", null, null, "X", "X", null, "X", null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	}

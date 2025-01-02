@@ -5,6 +5,6 @@ const hierarchy: HierarchyArray = [["Main", "main/main"], ["Monsters", "main/mon
 const topLink: Hierarchy = ["All NPCs", "main/npcs"];
 
 const NPCGroupBasic = (props: GroupProps) =>
-	<BasicGroupPage {...props} hierarchy={hierarchy} topLink={topLink} prefix="npc" />;
+	<BasicGroupPage {...props} hierarchy={hierarchy} topLink={topLink} prefix="npc" className="hasStatblock simple" />;
 
 export default NPCGroupBasic;

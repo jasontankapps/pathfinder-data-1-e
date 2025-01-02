@@ -40,6 +40,11 @@ export interface Table {
 	headers: string[]
 	// declares what type of data each column has
 	types: TableColumnInfoTypes[]
+	// marking if certain columns are sligned differently
+	//   null = centered (default)
+	//   true = start
+	//   false = end
+	alignments?: (boolean | null)[]
 	// the rows that will form a table
 	data: RawDatum[][]
 	// the index of the column that is initially sorted

@@ -285,8 +285,7 @@
 					[ "{arc-fighter/Weapon Master}", null, null, null, null, null, null, null, null, null, null, null, "X", null, "X", null, null, null, null, null, "X", null, null, null, "X", null, null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -550,8 +549,7 @@
 					[ "{arc-hunter/Verminous Hunter}", null, "X", "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", "X" ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -864,8 +862,7 @@
 					[ "{arc-inquisitor/Witch Hunter}", null, null, null, null, null, null, null, null, null, null, "X", "X", null, "X", null, null, null, null, "X", null, null, null, null, null, null, null, null, null, null, null, "X", "X" ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1107,8 +1104,7 @@
 					[ "{arc-investigator/Toxin Codexer}", "X", null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X", null, null, null, null, null, null, "X", "X", null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1323,8 +1319,7 @@
 					[ "{arc-kineticist/Terrakineticist}", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", "X", null, "X", null, null, null, null, null, null, null, "X", null, null, null, "X", null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	}

@@ -305,8 +305,7 @@
 					[ "{arc-skald/Wyrm Singer}", null, null, null, null, "X", null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, null, null, null, "X", null, null, null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -508,8 +507,7 @@
 					[ "{arc-slayer/Woodland Sniper}", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", "X", "X", null, "X", "X", null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -736,8 +734,7 @@
 					[ "{arc-sorcerer/Wishcrafter}", null, null, null, null, "X", null, "X", null, "X", null, "X", null, "X", null, null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -993,8 +990,7 @@
 					[ "{arc-spiritualist/Zeitgeist Binder}", null, null, null, null, null, null, "X", "X", "X", null, "X", null, null, null, null, null, "X", null, "X", null, "X", null, null, null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1173,8 +1169,7 @@
 					[ "{arc-swashbuckler/Wildstrider}", null, null, null, null, null, null, null, "X", null, "X", null, "X", "X", null, null, null, null, null, null, "X", null, null, null, null, null, "X", null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1376,8 +1371,7 @@
 					[ "{arc-vigilante/Zealot}", null, null, null, "X", null, null, null, "X", null, "X", null, null, "X", null, "X", null, null, null, "X", null, null, "X", null, null, null, "X", null, null, null, null, null, "X", null, "X", null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	}

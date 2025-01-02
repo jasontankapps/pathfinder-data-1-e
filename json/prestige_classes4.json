@@ -1238,6 +1238,7 @@
 			"**Showmanship (Ex):** Once per day at 1st level, a pit fighter can treat a regular combat as a {rule/performance combat}, with the crowd's starting attitude being indifferent. He makes performance checks, may use performance feats, and takes bonuses or penalties based on the crowd's reaction as normal, even if there is no crowd actually watching the fight. Only the pit fighter is affected by this ability. Activating this ability is a swift action. The encounter's CR determines the DC of the pit fighter's performance checks, as summarized in the table below.",
 			"",
 			"| Starting or Current Attitude | DC to Improve Attitude |",
+			"| --- | --- |",
 			"| Hostile | 15 + CR |",
 			"| Unfriendly | 10 + CR |",
 			"| Indifferent | 5 + CR |",

@@ -69,8 +69,6 @@ div.basicContent ion-item.mainItem {
 }
 div.basicContent.simple {
 	padding-inline: 1em;
-}
-div.basicContent.simple {
 	padding-block-end: 1rem;
 }
 ion-content hr {
@@ -308,6 +306,50 @@ div.main.basicContent h6 a {
 
 div.basicContent ion-list ion-item.mainItem.singleTable {
 	margin-block-start: 1em; /* bump past hierarchy tab */
+}
+
+/* Statblocks */
+
+.hasStatblock p {
+	margin: 0.5rem 0;
+}
+.hasStatblock p.statblockHeaderFull {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.hasStatblock p.statblockHeaderFull span:first-child {
+	letter-spacing: 0.05rem;
+	flex: 3 0 auto;
+}
+.hasStatblock p.statblockHeaderFull span:last-child {
+	flex: 0 1 auto;
+}
+.hasStatblock p.statblockHeaderFull,
+.hasStatblock p.statblockSubHeader,
+.hasStatblock p.statblockHeader {
+	text-transform: uppercase;
+	font-variant: small-caps;
+	font-weight: bold;
+	padding: 0 0.25rem;
+	margin: 0.75rem 0;
+	border-width: 2px 0;
+	border-style: solid;
+	border-color: var(--ion-text-color);
+}
+.hasStatblock p.statblockSubHeader {
+	letter-spacing: 0.1rem;
+	font-weight: normal;
+	font-size: 0.9rem;
+}
+.hasStatblock p.statblockHeaderFull,
+.hasStatblock p.statblockHeader {
+	background: var(--ion-text-color);
+	color: var(--ion-background-color);
+}
+.hasStatblock p.statblockHeader {
+	letter-spacing: 0.1rem;
 }
 
 /* General tables */

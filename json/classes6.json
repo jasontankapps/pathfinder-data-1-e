@@ -211,8 +211,7 @@
 					[ "{arc-medium/Voice of the Void}", null, null, null, null, null, null, null, "X", null, null, null, null, null, null, "X", null, null, null, null, null, null, "X", null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -418,8 +417,7 @@
 					[ "{arc-samurai/Yojimbo}", null, null, null, null, null, null, null, null, "X", "X", null, null, null, "X", null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -627,8 +625,7 @@
 					[ "{arc-shaman/Witch Doctor}", null, "X", null, "X", "X", "X", null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -854,8 +851,7 @@
 					[ "{arc-warpriest/Sixth Wing Bulwark}", null, "X", null, "X", null, "X", null, null, "X", null, null, null, null, null, null, null, null, null, "X", "X", "X", null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1133,8 +1129,7 @@
 					[ "{arc-witch/Wyrm Witch}", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, "X", null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1382,8 +1377,7 @@
 					[ "{arc-wizard/Worldseeker}", null, "X", "X", "X", null, "X", null, null, null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	}

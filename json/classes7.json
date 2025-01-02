@@ -378,8 +378,7 @@
 					[ "{arc-ranger/Yokai Hunter}", null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, null, "X", null, null, null, null, null, null, null, null, null, null, null, null, "X" ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -596,8 +595,7 @@
 					[ "{arc-shifter/Wild Effigy}", null, null, null, "X", null, null, null, null, null, null, null, "X", "X", null, "X", null, "X" ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -829,8 +827,7 @@
 					[ "{arc-magus/Staff Magus}", null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, "X", null, null, null, "X", null, null, null, null, null, null, null, null, "X" ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1022,8 +1019,7 @@
 					[ "{arc-gunslinger/Wyrm Sniper}", null, null, null, null, null, null, null, null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", "X", null, null, null, null, null, "X", null, null, null ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},
@@ -1280,8 +1276,7 @@
 					[ "{arc-barbarian/Wildborn}", null, null, null, null, null, null, null, null, null, null, null, null, "X", null, null, null, null, null, null, "X", null, "X", null, null, null, null, null, null, "X" ]
 				],
 				"initialColumn": 0,
-				"nullValue": "&nbsp;",
-				"className": ""
+				"nullValue": "&nbsp;"
 			}
 		]
 	},

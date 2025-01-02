@@ -2,8 +2,28 @@ import fs from 'fs';
 import { Marked } from 'marked';
 import markedFootnote from 'marked-footnote';
 import { gfmHeadingId } from "marked-gfm-heading-id";
+import { createDirectives } from 'marked-directive';
 import basic_data_groups from './basic_data_groups.js';
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
+
+const statblockHeader = {
+	level: "block",
+	marker: "::",
+	renderer: (token) => {
+		const {text, attrs = {}, meta} = token;
+		if(meta.name === "mh") {
+			const {cr, mr} = attrs;
+			if(cr || mr) {
+				const ender = (cr && mr) ? `CR ${cr}/MR ${mr}` : (cr ? `CR ${cr}` : `MR ${mr}`);
+				return `<p className="statblockHeaderFull"><span>${text}</span><span>${ender}</span></p>\n`;
+			}
+			return `<p className="statblockHeader">${text}</p>\n`;
+		} else if (meta.name === "sh") {
+			return `<p className="statblockSubHeader">${text}</p>\n`;
+		}
+		return false;
+	}
+};
 
 // Converts {some/Link: Text/s} into [Link: Texts](some/link_text)
 const convertLinks = (input) => {
@@ -27,7 +47,7 @@ const makeSourceLink = (sourceInfo) => {
 	const m = sourceInfo.match(/(.+?)\/([0-9]+)/);
 	const source = m ? m[1] : sourceInfo;
 	const sourceText = m ? `${source} pg. ${m[2]}` : source;
-	const link = source.toLowerCase().replace(/[ -]/g, "_").replace(/[^-a-z_0-9]/g, "");
+	const link = source.toLowerCase().replace(/[- ]/g, "_").replace(/[^-a-z_0-9]/g, "");
 	return `[${sourceText}](source/${link})`;
 };
 // Renderer object for Marked
@@ -67,26 +87,6 @@ const preprocess = () => {
 			while(m = tester.match(/^(.*)\{SOURCE ([^}]+?)\}(.*)$/)) {
 				const sources = m[2].split(/;/).map(source => makeSourceLink(source));
 				newline = newline + `${m[1]}**Sources** ${sources.join(", ")}`;
-				tester = m[3];
-			}
-			// The code below escapes extraneous curly brackets
-			tester = `${newline}${tester}`;
-			newline = "";
-			while(m = tester.match(/^(.*?)\{(jumplist [^}]+|table[0-9]|[-a-z_]+\/[^}]+)\}(.*)$/)) {
-				newline = newline + `${m[1]}BEGIN<${m[2]}>END`;
-				tester = m[3];
-			}
-			tester = `${newline}${tester}`;
-			newline = "";
-			while(m = tester.match(/^(.*?)([{}])(.*)$/)) {
-				newline = newline + `${m[1]}${m[2] === "{" ? "&#123;" : "&#125;"}`;
-				console.log(`ERROR: Extraneous brackets: "${m[1]}${m[2]}"`);
-				tester = m[3];
-			}
-			tester = `${newline}${tester}`;
-			newline = "";
-			while(m = tester.match(/^(.*?)BEGIN<(.+?)>END(.*)$/)) {
-				newline = newline + `${m[1]}\{${m[2]}\}`;
 				tester = m[3];
 			}
 			output.push(`${newline}${tester}`);
@@ -208,16 +208,36 @@ const postprocess = (prefix, tables, flags) => {
 	};
 };
 
+// Remove curly brackets
+const removeCurlyBrackets = (input) => {
+	return input.split(/\n/).map(line => {
+		let test = line;
+		let m;
+		let final = "";
+		while(test && (m = test.match(/(^<.*?(?<!=)>)([^<]*)(.*$)/))) {
+			const [x, tag, content, etc] = m;
+			final = final + tag + content.replace(/\{/g, "&#123;").replace(/\}/g, "&#125;");
+			test = etc;
+		}
+		if(test) {
+			console.log("ERROR, non-complete tag?: " + line);
+			console.log(">> " + test);
+		}
+		return final;
+	}).join("\n");
+};
+
 // Convert markdown code into HTML, updating `flags` to note the outside Tags being used
 const convertDescription = (desc, prefix, tables) => {
 	const marked = new Marked();
 	const flags = {};
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
+	marked.use(createDirectives([statblockHeader]));
 	marked.use(markedFootnote({prefixId: prefix}));
 	marked.use(gfmHeadingId({prefix}));
 	marked.use(renderer(flags, prefix));
 	const parsed = marked.parse(convertLinks(desc).join("\n"));
-	return [`<>${parsed}</>`, flags];
+	return [`<>${removeCurlyBrackets(parsed)}</>`, flags];
 };
 
 // Convert markdown code into HTML for main#.json description, updating `flags` to note the outside Tags being used
@@ -227,6 +247,7 @@ const convertMainDescription = (desc, prefix, tables, singleTable) => {
 	let output = "";
 	const flags = {};
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
+	marked.use(createDirectives([statblockHeader]));
 	marked.use(markedFootnote({prefixId: prefix}));
 	marked.use(gfmHeadingId({prefix}));
 	marked.use(renderer(flags, prefix));
@@ -287,7 +308,9 @@ const convertMainDescription = (desc, prefix, tables, singleTable) => {
 			}
 		} else {
 			// An array portion of a main.json description is treated as a "normal" description.
-			output = output + `<IonItem className="${baseClass} basic"><IonLabel>${marked.parse(convertLinks(portion).join("\n"))}</IonLabel></IonItem>`;
+			output = output + `<IonItem className="${baseClass} basic"><IonLabel>${
+				removeCurlyBrackets(marked.parse(convertLinks(portion).join("\n")))
+			}</IonLabel></IonItem>`;
 			flags.item = true;
 			flags.label = true;
 		}
