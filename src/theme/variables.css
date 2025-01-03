@@ -135,6 +135,9 @@ http://ionicframework.com/docs/theming/ */
   --ion-background-color: #fff;
   --ion-background-color-rgb: 255,255,255;
 
+  --ion-text-color: #000;
+  --ion-text-color-rgb: 0,0,0;
+
   --background-faint: rgba( var(--ion-color-secondary-rgb) , 0.1);
 
 }

@@ -223,7 +223,6 @@ import main32 from './json/main32.json' assert {type: 'json'};
 import main33 from './json/main33.json' assert {type: 'json'};
 import main34 from './json/main34.json' assert {type: 'json'};
 import main35 from './json/main35.json' assert {type: 'json'};
-import main36 from './json/main36.json' assert {type: 'json'};
 import monster1 from './json/monsters01.json' assert {type: 'json'};
 import monster2 from './json/monsters02.json' assert {type: 'json'};
 import monster3 from './json/monsters03.json' assert {type: 'json'};
@@ -2457,13 +2456,6 @@ const basic_data_groups = {
 		datatype: "main",
 		link: "main",
 		num: 35,
-		type: "General Info"
-	},
-	"main36": {
-		data: main36,
-		datatype: "main",
-		link: "main",
-		num: 36,
 		type: "General Info"
 	},
 	"monsters01": {

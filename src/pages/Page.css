@@ -443,7 +443,7 @@ table thead tr th.sortable {
 }
 table thead tr th.sortable div {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
 }
