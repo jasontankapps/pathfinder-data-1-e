@@ -8,7 +8,8 @@ span.innerlink {
 h1, h2, h3, h4, h5, h6 {
 	border-block-start-width: 5px;
 	border-block-end-width: 2px;
-	border-inline-width: 0;
+	border-inline-start-width: 0;
+	border-inline-end-width: 0;
 	padding-block-start: 4px;
 	padding-inline-start: 0.1rem;
 	border-block-start-color: var(--ion-color-light);
@@ -381,9 +382,9 @@ div.tableWrap table {
 table {
 	--half-width: 1px;
 	--full-width: 2px;
-	background: var(--ion-color-light-shade);
+	background: var(--table-bg);
 	border-style: solid;
-	border-color: var(--ion-color-light-tint);
+	border-color: var(--table-border-color);
 	border-width: var(--half-width) var(--full-width) var(--half-width) 0;
 	border-collapse: separate !important;
 	border-spacing: 0;
@@ -394,7 +395,7 @@ table tr td {
 	padding-inline: 0.5em;
 	padding-block: 0.25em;
 	border-style: solid;
-	border-color: var(--ion-color-light-tint);
+	border-color: var(--table-border-color);
 	border-width: var(--half-width) var(--full-width) var(--half-width) 0;
 	text-align: center;
 	vertical-align: middle;
@@ -413,7 +414,8 @@ table tr td {
 table thead th {
 	position: sticky;
 	inset-block-start: 0;
-	background: var(--ion-color-light);
+	color: var(--table-header-fg);
+	background: var(--table-header-bg);
 	border-width: var(--half-width) var(--full-width) var(--half-width) 0;
 	z-index: 3;
 }
@@ -422,7 +424,7 @@ table thead tr th:first-child {
 }
 table tbody tr td:first-child {
 	position: sticky;
-	background: var(--ion-color-light-shade);
+	background: var(--table-bg);
 	z-index: 2;
 }
 table thead tr th:first-child,
@@ -448,7 +450,7 @@ table thead tr th.sortable div {
 	align-items: center;
 }
 table thead tr th.sortable div ion-icon {
-	padding-inline-start: 0.5rem;
+	padding: 0;
 	flex-shrink: 0;
 }
 table thead tr th.sortable div ion-icon.sortNil {

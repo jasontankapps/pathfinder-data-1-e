@@ -58,9 +58,7 @@
 			"- {monster/Small Aether Elemental}"
 		]
 	},
-	"aether_elemental": {
-		"copyof": "elemental_aether"
-	},
+	"aether_elemental": { "copyof": "elemental_aether" },
 	"elemental_air": {
 		"name": "Elemental (Air)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -97,17 +95,14 @@
 			"- {monster/Huge Air Elemental}",
 			"- {monster/Large Air Elemental}",
 			"- {monster/Medium Air Elemental}",
-			"- {monster/Small Air Elemental}"
-,
+			"- {monster/Small Air Elemental}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
-			"- {monster/Elder Air Elemental}"
+			"- {monster/Elder Air Elemental>_mythic}"
 		]
 	},
-	"air_elemental": {
-		"copyof": "elemental_air"
-	},
+	"air_elemental": { "copyof": "elemental_air" },
 	"elemental_earth": {
 		"name": "Elemental (Earth)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -144,17 +139,14 @@
 			"- {monster/Huge Earth Elemental}",
 			"- {monster/Large Earth Elemental}",
 			"- {monster/Medium Earth Elemental}",
-			"- {monster/Small Earth Elemental}"
-,
+			"- {monster/Small Earth Elemental}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
-			"- {monster/Elder Earth Elemental}"
+			"- {monster/Elder Earth Elemental>_mythic}"
 		]
 	},
-	"earth_elemental": {
-		"copyof": "elemental_earth"
-	},
+	"earth_elemental": { "copyof": "elemental_earth" },
 	"elemental_fire": {
 		"name": "Elemental (Fire)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -193,17 +185,14 @@
 			"- {monster/Huge Fire Elemental}",
 			"- {monster/Large Fire Elemental}",
 			"- {monster/Medium Fire Elemental}",
-			"- {monster/Small Fire Elemental}"
-,
+			"- {monster/Small Fire Elemental}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
-			"- {monster/Elder Fire Elemental}"
+			"- {monster/Elder Fire Elemental>_mythic}"
 		]
 	},
-	"fire_elemental": {
-		"copyof": "elemental_fire"
-	},
+	"fire_elemental": { "copyof": "elemental_fire" },
 	"elemental_ice": {
 		"name": "Elemental (Ice)",
 		"sources": [ "Bestiary 2" ],
@@ -236,9 +225,7 @@
 			"- {monster/Small Ice Elemental}"
 		]
 	},
-	"ice_elemental": {
-		"copyof": "elemental_ice"
-	},
+	"ice_elemental": { "copyof": "elemental_ice" },
 	"elemental_lightning": {
 		"name": "Elemental (Lightning)",
 		"sources": [ "Bestiary 2" ],
@@ -269,9 +256,7 @@
 			"- {monster/Small Lightning Elemental}"
 		]
 	},
-	"lightning_elemental": {
-		"copyof": "elemental_lightning"
-	},
+	"lightning_elemental": { "copyof": "elemental_lightning" },
 	"elemental_magma": {
 		"name": "Elemental (Magma)",
 		"sources": [ "Bestiary 2" ],
@@ -302,9 +287,7 @@
 			"- {monster/Small Magma Elemental}"
 		]
 	},
-	"magma_elemental": {
-		"copyof": "elemental_magma"
-	},
+	"magma_elemental": { "copyof": "elemental_magma" },
 	"elemental_mud": {
 		"name": "Elemental (Mud)",
 		"sources": [ "Bestiary 2" ],
@@ -333,9 +316,7 @@
 			"- {monster/Small Mud Elemental}"
 		]
 	},
-	"mud_elemental": {
-		"copyof": "elemental_mud"
-	},
+	"mud_elemental": { "copyof": "elemental_mud" },
 	"elemental_water": {
 		"name": "Elemental (Water)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -374,17 +355,14 @@
 			"- {monster/Huge Water Elemental}",
 			"- {monster/Large Water Elemental}",
 			"- {monster/Medium Water Elemental}",
-			"- {monster/Small Water Elemental}"
-,
+			"- {monster/Small Water Elemental}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
-			"- {monster/Elder Water Elemental}"
+			"- {monster/Elder Water Elemental>_mythic}"
 		]
 	},
-	"water_elemental": {
-		"copyof": "elemental_water"
-	},
+	"water_elemental": { "copyof": "elemental_water" },
 	"empyreal_lord": {
 		"name": "Empyreal Lord",
 		"sources": [ "Bestiary 4" ],
@@ -766,12 +744,11 @@
 			"- {monster/Stone Golem}",
 			"- {monster/Viridium Golem}",
 			"- {monster/Wax Golem}",
-			"- {monster/Wood Golem}"
-,
+			"- {monster/Wood Golem}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
-			"- {monster/Flesh Golem}"
+			"- {monster/Flesh Golem>_mythic}"
 		]
 	},
 	"great_old_one": {
@@ -1418,12 +1395,11 @@
 			"- {monster/Maharishi Manu}",
 			"- {monster/Manu}",
 			"- {monster/Rishi Manu}",
-			"- [Twilight Pitri (Barhisad)](monster/barhisad)"
-,
+			"- {monster/Twilight Pitri/ (Barhisad)}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
-			"- [Solar Pitri (Agnishvatta)](monster/solar_pitri)"
+			"- {monster/Solar Pitri/ (Agnishvatta)}"
 		]
 	},
 	"megafauna": {
@@ -2265,10 +2241,9 @@
 			"",
 			"- {monster/Elysian}",
 			"- {monster/Hekatonkheires}",
-			"- {monster/Thanatotic}"
-,
+			"- {monster/Thanatotic}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
 			"- {monster/Danava}",
 			"- {monster/Fomorian Titan}"
@@ -2372,9 +2347,7 @@
 			"- {monster/Sodden Drauger Troop}"
 		]
 	},
-	"troop": {
-		"copyof": "troops"
-	},
+	"troop": { "copyof": "troops" },
 	"vampire_servant": {
 		"name": "Vampire Servant",
 		"sources": [ "Monster Codex" ],

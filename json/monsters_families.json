@@ -821,11 +821,11 @@
 			"- {monster/Vrolikai}",
 			"- {monster/Yaenit}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
-			"- {monster/Marilith}",
-			"- {monster/Nalfeshnee}",
-			"- {monster/Vrock}"
+			"- {monster/Marilith>_mythic}",
+			"- {monster/Nalfeshnee>_mythic}",
+			"- {monster/Vrock>_mythic}"
 		]
 	},
 	"demon_lord": {
@@ -957,13 +957,12 @@
 			"- {monster/Salikotal}",
 			"- [Sire Devil (Patraavex)](monster/patraavex)",
 			"- [Tinder Devil (Ukobach)](monster/ukobach)",
-			"- [Warmonger Devil (Levaloch)](monster/levaloch)"
-,
+			"- [Warmonger Devil (Levaloch)](monster/levaloch)",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
-			"- {monster/Bone Devil}",
-			"- {monster/Ice Devil}"
+			"- {monster/Bone Devil>_mythic}",
+			"- {monster/Ice Devil>_mythic}"
 		]
 	},
 	"dinosaur": {
@@ -1151,15 +1150,32 @@
 			"",
 			"**Immunities (Ex):** Every dragon is immune to sleep and paralysis. In addition, a dragon is immune to one or two additional forms of attack no matter what its age, as given in its description.",
 			"",
-			"**Spell Resistance (Ex):** As dragons grow older, they become more resistant to spells and spell-like abilities, as indicated in the dragon descriptions. A dragon's SR is equal to 11 + its CR."
+			"**Spell Resistance (Ex):** As dragons grow older, they become more resistant to spells and spell-like abilities, as indicated in the dragon descriptions. A dragon's SR is equal to 11 + its CR.",
+			"",
+			"**Subfamilies:**",
+			"",
+			"- {family/Dragon (Black)}",
+			"- {family/Dragon (Blue)}",
+			"- {family/Dragon (Brass)}",
+			"- {family/Dragon (Bronze)}",
+			"- {family/Dragon (Copper)}",
+			"- {family/Dragon (Gold)}",
+			"- {family/Dragon (Green)}",
+			"- {family/Dragon (Imperial)}",
+			"- {family/Dragon (Outer)}",
+			"- {family/Dragon (Planar)}",
+			"- {family/Dragon (Primal)}",
+			"- {family/Dragon (Red)}",
+			"- {family/Dragon (Silver)}",
+			"- {family/Dragon (White)}",
+			"- {family/Dragon (Black)}",
+			"- {family/Dragon (Black)}",
+			"- {family/Dragon (Black)}",
+			"- {family/Dragon (Black)}"
 		]
 	},
-	"true_dragon": {
-		"copyof": "dragon_true"
-	},
-	"dragon": {
-		"copyof": "dragon_true"
-	},
+	"true_dragon": { "copyof": "dragon_true" },
+	"dragon": { "copyof": "dragon_true" },
 	"dragon_black": {
 		"name": "Dragon (Black)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1205,17 +1221,14 @@
 			"",
 			"- {monster/Adult Black Dragon}",
 			"- {monster/Ancient Black Dragon}",
-			"- {monster/Young Black Dragon}"
-,
+			"- {monster/Young Black Dragon}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
 			"- [Mature Adult Black Dragon](monster/mature_adult_black_dragon_mythic)"
 		]
 	},
-	"black_dragon": {
-		"copyof": "dragon_black"
-	},
+	"black_dragon": { "copyof": "dragon_black" },
 	"dragon_blue": {
 		"name": "Dragon (Blue)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1259,17 +1272,14 @@
 			"",
 			"- {monster/Adult Blue Dragon}",
 			"- {monster/Ancient Blue Dragon}",
-			"- {monster/Young Blue Dragon}"
-,
+			"- {monster/Young Blue Dragon}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
 			"- [Mature Adult Blue Dragon](monster/mature_adult_blue_dragon_mythic)"
 		]
 	},
-	"blue_dragon": {
-		"copyof": "dragon_blue"
-	},
+	"blue_dragon": { "copyof": "dragon_blue" },
 	"dragon_brass": {
 		"name": "Dragon (Brass)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1307,9 +1317,7 @@
 			"- {monster/Young Brass Dragon}"
 		]
 	},
-	"brass_dragon": {
-		"copyof": "dragon_brass"
-	},
+	"brass_dragon": { "copyof": "dragon_brass" },
 	"dragon_bronze": {
 		"name": "Dragon (Bronze)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1343,9 +1351,7 @@
 			"- {monster/Young Bronze Dragon}"
 		]
 	},
-	"bronze_dragon": {
-		"copyof": "dragon_bronze"
-	},
+	"bronze_dragon": { "copyof": "dragon_bronze" },
 	"dragon_copper": {
 		"name": "Dragon (Copper)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1379,9 +1385,7 @@
 			"- {monster/Young Copper Dragon}"
 		]
 	},
-	"copper_dragon": {
-		"copyof": "dragon_copper"
-	},
+	"copper_dragon": { "copyof": "dragon_copper" },
 	"dragon_esoteric": {
 		"name": "Dragon (Esoteric)",
 		"sources": [ "Bestiary 5" ],
@@ -1513,9 +1517,7 @@
 			"- {monster/Young Occult Dragon}"
 		]
 	},
-	"esoteric_dragon": {
-		"copyof": "dragon_esoteric"
-	},
+	"esoteric_dragon": { "copyof": "dragon_esoteric" },
 	"dragon_gold": {
 		"name": "Dragon (Gold)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1549,9 +1551,7 @@
 			"- {monster/Young Gold Dragon}"
 		]
 	},
-	"gold_dragon": {
-		"copyof": "dragon_gold"
-	},
+	"gold_dragon": { "copyof": "dragon_gold" },
 	"dragon_green": {
 		"name": "Dragon (Green)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1580,17 +1580,14 @@
 			"",
 			"- {monster/Adult Green Dragon}",
 			"- {monster/Ancient Green Dragon}",
-			"- {monster/Young Green Dragon}"
-,
+			"- {monster/Young Green Dragon}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
 			"- [Very Old Green Dragon](monster/very_old_green_dragon_mythic)"
 		]
 	},
-	"green_dragon": {
-		"copyof": "dragon_green"
-	},
+	"green_dragon": { "copyof": "dragon_green" },
 	"dragon_imperial": {
 		"name": "Dragon (Imperial)",
 		"sources": [ "Bestiary 3" ],
@@ -1600,14 +1597,20 @@
 			"",
 			"{SOURCE Bestiary 3}",
 			"",
-			"Although chromatic and metallic dragons are the most widely known, other categories of true dragon exist. Presented here are the five imperial dragons, regal guardians of ancient lands and servants of cosmic balance.",
+			"Although chromatic and metallic dragons are the most widely known, other categories of true dragon exist, such as the five imperial dragons, regal guardians of ancient lands and servants of cosmic balance.",
 			"",
-			"**Family:** {family/True Dragon}"
+			"**Family:** {family/True Dragon}",
+			"",
+			"**Subfamilies:**",
+			"",
+			"- {family/Dragon (Imperial, Forest)}",
+			"- {family/Dragon (Imperial, Sea)}",
+			"- {family/Dragon (Imperial, Sky)}",
+			"- {family/Dragon (Imperial, Sovereign)}",
+			"- {family/Dragon (Imperial, Underworld)}"
 		]
 	},
-	"imperial_dragon": {
-		"copyof": "dragon_imperial"
-	},
+	"imperial_dragon": { "copyof": "dragon_imperial" },
 	"dragon_imperial_forest": {
 		"name": "Dragon (Imperial, Forest)",
 		"sources": [ "Bestiary 3" ],
@@ -1652,9 +1655,7 @@
 			"- {monster/Young Forest Dragon}"
 		]
 	},
-	"forest_dragon": {
-		"copyof": "dragon_imperial_forest"
-	},
+	"forest_dragon": { "copyof": "dragon_imperial_forest" },
 	"dragon_imperial_sea": {
 		"name": "Dragon (Imperial, Sea)",
 		"sources": [ "Bestiary 3" ],
@@ -1697,9 +1698,7 @@
 			"- {monster/Young Sea Dragon}"
 		]
 	},
-	"sea_dragon": {
-		"copyof": "dragon_imperial_sea"
-	},
+	"sea_dragon": { "copyof": "dragon_imperial_sea" },
 	"dragon_imperial_sky": {
 		"name": "Dragon (Imperial, Sky)",
 		"sources": [ "Bestiary 3" ],
@@ -1744,9 +1743,7 @@
 			"- {monster/Young Sky Dragon}"
 		]
 	},
-	"sky_dragon": {
-		"copyof": "dragon_imperial_sky"
-	},
+	"sky_dragon": { "copyof": "dragon_imperial_sky" },
 	"dragon_imperial_sovereign": {
 		"name": "Dragon (Imperial, Sovereign)",
 		"sources": [ "Bestiary 3" ],
@@ -1789,9 +1786,7 @@
 			"- {monster/Young Sovereign Dragon}"
 		]
 	},
-	"sovereign_dragon": {
-		"copyof": "dragon_imperial_sovereign"
-	},
+	"sovereign_dragon": { "copyof": "dragon_imperial_sovereign" },
 	"dragon_imperial_underworld": {
 		"name": "Dragon (Imperial, Underworld)",
 		"sources": [ "Bestiary 3" ],
@@ -1834,9 +1829,7 @@
 			"- {monster/Young Underworld Dragon}"
 		]
 	},
-	"underworld_dragon": {
-		"copyof": "dragon_imperial_underworld"
-	},
+	"underworld_dragon": { "copyof": "dragon_imperial_underworld" },
 	"dragon_outer": {
 		"name": "Dragon (Outer)",
 		"sources": [ "Bestiary 4" ],
@@ -1848,12 +1841,18 @@
 			"",
 			"Outer dragons, natives of the vast reaches of space, can be encountered on diverse worlds. They are generally neutral, but their alignments vary more than those of other dragons.",
 			"",
-			"**Family:** {family/True Dragon}"
+			"**Family:** {family/True Dragon}",
+			"",
+			"**Subfamilies:**",
+			"",
+			"- {family/Dragon (Outer, Lunar)}",
+			"- {family/Dragon (Outer, Solar)}",
+			"- {family/Dragon (Outer, Time)}",
+			"- {family/Dragon (Outer, Void)}",
+			"- {family/Dragon (Outer, Vortex)}"
 		]
 	},
-	"outer_dragon": {
-		"copyof": "dragon_outer"
-	},
+	"outer_dragon": { "copyof": "dragon_outer" },
 	"dragon_outer_lunar": {
 		"name": "Dragon (Outer, Lunar)",
 		"sources": [ "Bestiary 4" ],
@@ -1898,9 +1897,7 @@
 			"- {monster/Young Lunar Dragon}"
 		]
 	},
-	"lunar_dragon": {
-		"copyof": "dragon_outer_lunar"
-	},
+	"lunar_dragon": { "copyof": "dragon_outer_lunar" },
 	"dragon_outer_solar": {
 		"name": "Dragon (Outer, Solar)",
 		"sources": [ "Bestiary 4" ],
@@ -1943,9 +1940,7 @@
 			"- {monster/Young Solar Dragon}"
 		]
 	},
-	"solar_dragon": {
-		"copyof": "dragon_outer_solar"
-	},
+	"solar_dragon": { "copyof": "dragon_outer_solar" },
 	"dragon_outer_time": {
 		"name": "Dragon (Outer, Time)",
 		"sources": [ "Bestiary 4" ],
@@ -1990,9 +1985,7 @@
 			"- {monster/Young Time Dragon}"
 		]
 	},
-	"time_dragon": {
-		"copyof": "dragon_outer_time"
-	},
+	"time_dragon": { "copyof": "dragon_outer_time" },
 	"dragon_outer_void": {
 		"name": "Dragon (Outer, Void)",
 		"sources": [ "Bestiary 4" ],
@@ -2035,9 +2028,7 @@
 			"- {monster/Young Void Dragon}"
 		]
 	},
-	"void_dragon": {
-		"copyof": "dragon_outer_void"
-	},
+	"void_dragon": { "copyof": "dragon_outer_void" },
 	"dragon_outer_vortex": {
 		"name": "Dragon (Outer, Vortex)",
 		"sources": [ "Bestiary 4" ],
@@ -2080,9 +2071,7 @@
 			"- {monster/Young Vortex Dragon}"
 		]
 	},
-	"vortex_dragon": {
-		"copyof": "dragon_outer_vortex"
-	},
+	"vortex_dragon": { "copyof": "dragon_outer_vortex" },
 	"dragon_planar": {
 		"name": "Dragon (Planar)",
 		"sources": [
@@ -2097,12 +2086,22 @@
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
-			"**Family:** {family/True Dragon}"
+			"**Family:** {family/True Dragon}",
+			"",
+			"**Subfamilies:**",
+			"",
+			"- {family/Dragon (Planar, Apocalypse)}",
+			"- {family/Dragon (Planar, Bliss)}",
+			"- {family/Dragon (Planar, Crypt)}",
+			"- {family/Dragon (Planar, Edict)}",
+			"- {family/Dragon (Planar, Havoc)}",
+			"- {family/Dragon (Planar, Infernal)}",
+			"- {family/Dragon (Planar, Paradise)}",
+			"- {family/Dragon (Planar, Rift)}",
+			"- {family/Dragon (Planar, Tumult)}"
 		]
 	},
-	"planar_dragon": {
-		"copyof": "dragon_planar"
-	},
+	"planar_dragon": { "copyof": "dragon_planar" },
 	"dragon_planar_apocalypse": {
 		"name": "Dragon (Planar, Apocalypse)",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
@@ -2122,9 +2121,7 @@
 			"- {monster/Young Apocalypse Dragon}"
 		]
 	},
-	"apocalypse_dragon": {
-		"copyof": "dragon_planar_apocalypse"
-	},
+	"apocalypse_dragon": { "copyof": "dragon_planar_apocalypse" },
 	"dragon_planar_bliss": {
 		"name": "Dragon (Planar, Bliss)",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
@@ -2144,9 +2141,7 @@
 			"- {monster/Young Bliss Dragon}"
 		]
 	},
-	"bliss_dragon": {
-		"copyof": "dragon_planar_bliss"
-	},
+	"bliss_dragon": { "copyof": "dragon_planar_bliss" },
 	"dragon_planar_crypt": {
 		"name": "Dragon (Planar, Crypt)",
 		"sources": [ "Bestiary 6" ],
@@ -2166,9 +2161,7 @@
 			"- {monster/Young Crypt Dragon}"
 		]
 	},
-	"crypt_dragon": {
-		"copyof": "dragon_planar_crypt"
-	},
+	"crypt_dragon": { "copyof": "dragon_planar_crypt" },
 	"dragon_planar_edict": {
 		"name": "Dragon (Planar, Edict)",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
@@ -2280,9 +2273,7 @@
 			"- {monster/Young Edict Dragon}"
 		]
 	},
-	"edict_dragon": {
-		"copyof": "dragon_planar_edict"
-	},
+	"edict_dragon": { "copyof": "dragon_planar_edict" },
 	"dragon_planar_havoc": {
 		"name": "Dragon (Planar, Havoc)",
 		"sources": [ "Bestiary 6" ],
@@ -2302,9 +2293,7 @@
 			"- {monster/Young Havoc Dragon}"
 		]
 	},
-	"havoc_dragon": {
-		"copyof": "dragon_planar_havoc"
-	},
+	"havoc_dragon": { "copyof": "dragon_planar_havoc" },
 	"dragon_planar_infernal": {
 		"name": "Dragon (Planar, Infernal)",
 		"sources": [ "Bestiary 6" ],
@@ -2324,9 +2313,7 @@
 			"- {monster/Young Infernal Dragon}"
 		]
 	},
-	"infernal_dragon": {
-		"copyof": "dragon_planar_infernal"
-	},
+	"infernal_dragon": { "copyof": "dragon_planar_infernal" },
 	"dragon_planar_paradise": {
 		"name": "Dragon (Planar, Paradise)",
 		"sources": [ "Bestiary 6" ],
@@ -2346,9 +2333,7 @@
 			"- {monster/Young Paradise Dragon}"
 		]
 	},
-	"paradise_dragon": {
-		"copyof": "dragon_planar_paradise"
-	},
+	"paradise_dragon": { "copyof": "dragon_planar_paradise" },
 	"dragon_planar_rift": {
 		"name": "Dragon (Planar, Rift)",
 		"sources": [ "Bestiary 6" ],
@@ -2368,9 +2353,7 @@
 			"- {monster/Young Rift Dragon}"
 		]
 	},
-	"rift_dragon": {
-		"copyof": "dragon_planar_rift"
-	},
+	"rift_dragon": { "copyof": "dragon_planar_rift" },
 	"dragon_planar_tumult": {
 		"name": "Dragon (Planar, Tumult)",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
@@ -2390,9 +2373,7 @@
 			"- {monster/Young Tumult Dragon}"
 		]
 	},
-	"tumult_dragon": {
-		"copyof": "dragon_planar_tumult"
-	},
+	"tumult_dragon": { "copyof": "dragon_planar_tumult" },
 	"dragon_primal": {
 		"name": "Dragon (Primal)",
 		"sources": [ "Bestiary 2" ],
@@ -2402,14 +2383,20 @@
 			"",
 			"{SOURCE Bestiary 2}",
 			"",
-			"Though chromatic and metallic dragons are the most widely known, other categories of true dragon exist. Presented on the following pages are the five primal dragons-powerful creatures that hail from the elemental planes and the Plane of Shadows.",
+			"Though chromatic and metallic dragons are the most widely known, other categories of true dragon exist, such as the five primal dragons - powerful creatures that hail from the elemental planes and the Plane of Shadows.",
 			"",
-			"**Family:** {family/True Dragon}"
+			"**Family:** {family/True Dragon}",
+			"",
+			"**Subfamilies:**",
+			"",
+			"- {family/Dragon (Primal, Brine)}",
+			"- {family/Dragon (Primal, Cloud)}",
+			"- {family/Dragon (Primal, Crystal)}",
+			"- {family/Dragon (Primal, Magma)}",
+			"- {family/Dragon (Primal, Umbral)}"
 		]
 	},
-	"primal_dragon": {
-		"copyof": "dragon_primal"
-	},
+	"primal_dragon": { "copyof": "dragon_primal" },
 	"dragon_primal_brine": {
 		"name": "Dragon (Primal, Brine)",
 		"sources": [ "Bestiary 2" ],
@@ -2450,9 +2437,7 @@
 			"- {monster/Young Brine Dragon}"
 		]
 	},
-	"brine_dragon": {
-		"copyof": "dragon_primal_brine"
-	},
+	"brine_dragon": { "copyof": "dragon_primal_brine" },
 	"dragon_primal_cloud": {
 		"name": "Dragon (Primal, Cloud)",
 		"sources": [ "Bestiary 2" ],
@@ -2495,9 +2480,7 @@
 			"- {monster/Young Cloud Dragon}"
 		]
 	},
-	"cloud_dragon": {
-		"copyof": "dragon_primal_cloud"
-	},
+	"cloud_dragon": { "copyof": "dragon_primal_cloud" },
 	"dragon_primal_crystal": {
 		"name": "Dragon (Primal, Crystal)",
 		"sources": [ "Bestiary 2" ],
@@ -2540,9 +2523,7 @@
 			"- {monster/Young Crystal Dragon}"
 		]
 	},
-	"crystal_dragon": {
-		"copyof": "dragon_primal_crystal"
-	},
+	"crystal_dragon": { "copyof": "dragon_primal_crystal" },
 	"dragon_primal_magma": {
 		"name": "Dragon (Primal, Magma)",
 		"sources": [ "Bestiary 2" ],
@@ -2583,9 +2564,7 @@
 			"- {monster/Young Magma Dragon}"
 		]
 	},
-	"magma_dragon": {
-		"copyof": "dragon_primal_magma"
-	},
+	"magma_dragon": { "copyof": "dragon_primal_magma" },
 	"dragon_primal_umbral": {
 		"name": "Dragon (Primal, Umbral)",
 		"sources": [ "Bestiary 2" ],
@@ -2632,9 +2611,7 @@
 			"- {monster/Young Umbral Dragon}"
 		]
 	},
-	"umbral_dragon": {
-		"copyof": "dragon_primal_umbral"
-	},
+	"umbral_dragon": { "copyof": "dragon_primal_umbral" },
 	"dragon_red": {
 		"name": "Dragon (Red)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2661,18 +2638,15 @@
 			"",
 			"- {monster/Adult Red Dragon}",
 			"- {monster/Ancient Red Dragon}",
-			"- {monster/Young Red Dragon}"
-,
+			"- {monster/Young Red Dragon}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
 			"- {monster/Wyrm Red Dragon}",
 			"- {monster/Young Red Dragon}"
 		]
 	},
-	"red_dragon": {
-		"copyof": "dragon_red"
-	},
+	"red_dragon": { "copyof": "dragon_red" },
 	"dragon_silver": {
 		"name": "Dragon (Silver)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2708,9 +2682,7 @@
 			"- {monster/Young Silver Dragon}"
 		]
 	},
-	"silver_dragon": {
-		"copyof": "dragon_silver"
-	},
+	"silver_dragon": { "copyof": "dragon_silver" },
 	"dragon_white": {
 		"name": "Dragon (White)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2741,17 +2713,14 @@
 			"",
 			"- {monster/Adult White Dragon}",
 			"- {monster/Ancient White Dragon}",
-			"- {monster/Young White Dragon}"
-,
+			"- {monster/Young White Dragon}",
 			"",
-			"### Members of This Family:",
+			"### Mythic Members of This Family:",
 			"",
 			"- [Juvenile White Dragon](monster/juvenile_white_dragon_mythic)"
 		]
 	},
-	"white_dragon": {
-		"copyof": "dragon_white"
-	},
+	"white_dragon": { "copyof": "dragon_white" },
 	"drake": {
 		"name": "Drake",
 		"sources": [ "Bestiary 2" ],
