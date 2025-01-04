@@ -51,15 +51,18 @@ interface ThProps {
 	active: boolean
 	children: string
 	sortable: boolean
+	size?: number
 }
 
 interface TdProps {
 	datum: Datum
 	type: TableColumnInfoTypes
+	size?: number
 }
 
 interface TdRouterLinkProps {
 	datum: Datum
+	size?: number
 }
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
@@ -133,7 +136,14 @@ const DirectionIcon: FC<{down:boolean}> = ({down}) => {
 	return <IonIcon className="sortArrow" icon={down ? caretDown : caretUp} />;
 };
 
-const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, sortable}) => {
+const getStyle = (size: number | undefined) => {
+	if(size === undefined) {
+		return undefined;
+	}
+	return { width: size };
+}
+
+const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, sortable, size}) => {
 	const [ isDescending, setIsDescending ] = useState(initialSort);
 	const onClick = useCallback(() => {
 		const newDescending = sorter(index, !isDescending);
@@ -142,7 +152,7 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 	const markdown = useMemo(() => convertLinks([children]), [children]);
 	if(sortable) {
 		return (
-			<th className="ion-activatable sortable" onClick={onClick}>
+			<th className="ion-activatable sortable" onClick={onClick} style={getStyle(size)}>
 				<div>
 					<IonRippleEffect />
 					<Markdown components={components}>{markdown}</Markdown>
@@ -152,7 +162,7 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 		);
 	}
 	return (
-		<th>
+		<th style={getStyle(size)}>
 			<Markdown components={components}>{markdown}</Markdown>
 		</th>
 	);
@@ -565,7 +575,8 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		nullValue = "&mdash;",
 		ripples = [],
 		sortable = true,
-		filterable
+		filterable,
+		sizes
 	} = table;
 	const [activeHeaders, setActiveHeaders] = useState<number[]>(headers.map((h, i) => i));
 	const [types, setTypes] = useState(typings);
@@ -608,8 +619,9 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			active={i === active}
 			sorter={sorter}
 			sortable={sortable && (types[i] !== 0)}
+			size={Array.isArray(sizes) ? sizes[i] : sizes}
 		>{th}</Th>;
-	}).filter((h, i) => (activeHeaders.indexOf(i) > -1)), [headers, activeHeaders, id, initialColumn, sorter, active, types, sortable]);
+	}).filter((h, i) => (activeHeaders.indexOf(i) > -1)), [headers, activeHeaders, id, initialColumn, sorter, active, types, sortable, sizes]);
 	const rowItems = useMemo(() => {
 		const visible = (activeRows) ? activeRows.map(n => rows[n]) : rows;
 		return visible.map((row, i) => {
@@ -630,6 +642,14 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
 		});
 	}, [activeRows, activeHeaders, rows, types, nullValue, id, ripples]);
+	const tableWidth = useMemo(() => {
+		if(!sizes) {
+			return undefined;
+		} else if (Array.isArray(sizes)) {
+			return { width: activeHeaders.reduce((total, i) => total + sizes[i], 0) };
+		}
+		return { width: activeHeaders.length * sizes };
+	}, [sizes, activeHeaders]);
 	const theFilterStuff = (data.length < 10 && headers.length <= 3) ? <></> : <>
 		<DisplayTableFilterModal
 			originalHeaders={headers}
@@ -654,7 +674,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		<>
 			{theFilterStuff}
 			<div className="tableWrap">
-				<table key={`table/${id}`}>
+				<table key={`table/${id}`} style={tableWidth}>
 					<thead>
 						<tr>{headerItems}</tr>
 					</thead>

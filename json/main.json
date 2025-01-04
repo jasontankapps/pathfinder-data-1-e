@@ -239,6 +239,7 @@
 				"types": [null, null, null, 0],
 				"alignments": [ true, null, null, true ],
 				"ripples": [0],
+				"sizes": [ 100, 90, 80, 225 ],
 				"data": [
 					[ "{race/Dwarf}",[0,"Common"],"No","These short and stocky defenders of mountain fortresses are often seen as stern and humorless. Known for mining the earth's treasures and crafting magnificent items from ore and gemstones, they have an unrivaled affinity for the bounties of the deep earth. Dwarves also have a tendency toward traditionalism and isolation that sometimes manifests as xenophobia."],
 					[ "{race/Elf}",[0,"Common"],"No","Tall, noble, and often haughty, elves are long-lived and subtle masters of the wilderness. Elves excel in the arcane arts. Often they use their intrinsic link to nature to forge new spells and create wondrous items that, like their creators, seem nearly impervious to the ravages of time. A private and often introverted race, elves can give the impression they are indifferent to the plights of others."],
@@ -1133,6 +1134,7 @@
 				"initialColumn": 0,
 				"alignments": [ true, null, null, null, null, null ],
 				"ripples": [0],
+				"sizes": [ 125, 75, 90, 90, 70, 120 ],
 				"data": [
 					[ "{template/Accursed}", [1, "+1"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],
 					[ "{template/Advanced}", [1, "+1"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],

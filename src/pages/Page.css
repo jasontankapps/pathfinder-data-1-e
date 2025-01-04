@@ -388,6 +388,7 @@ table {
 	border-width: var(--half-width) var(--full-width) var(--half-width) 0;
 	border-collapse: separate !important;
 	border-spacing: 0;
+	table-layout: fixed;
 }
 table tr th,
 table tr td {

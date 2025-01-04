@@ -13,6 +13,7 @@
 				"nullValue": "&ndash;",
 				"ripples": [0],
 				"id": "all mythic feats table",
+				"sizes": [ 125, 200 ],
 				"data": [
 					[ "{feat/Accursed Hex}", "Your hexes flare with persistent potency." ],
 					[ "{feat/Acrobatic}", "Your grace and fluidity are beyond compare." ],
@@ -179,6 +180,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Meditation feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Bend with the Wind}", "Wis 15, {feat/Body Control}, {feat/Endurance}, {feat/Meditation Master}.", "Gain cold and fire resist 5." ],
@@ -216,6 +218,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Weapon Mastery feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Ace Disarm}", "Dex 13, {feat/Deadly Aim}, {feat/Ranged Disarm} base attack bonus +6, weapon training class feature with a ranged weapon.", "No penalty when using Ranged Disarm, make Steal attempts instead of Disarm at range" ],
@@ -256,6 +259,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Armor Mastery feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Armor Material Expertise}", "Base attack bonus +6 or fighter level 4th, armor training class feature.", "Gain a benefit based on your armor's special material" ],
@@ -290,6 +294,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Shield Mastery feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Cushioning Shield}", "{feat/Shield Focus}, base attack bonus +6 or fighter level 4th.", "Tranfer half your falling damage to your shield" ],
@@ -327,6 +332,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Item Mastery feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Ability Mastery}", "Use Magic Device 3 ranks, base Fortitude saving throw bonus +4.", "Gain an enhancement bonus to an ability score with a suit of magic armor or transmutation-crafted item" ],
@@ -369,6 +375,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Monster feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Ability Focus}", "Special attack.", "Increase the DC of a special attack by 2." ],
@@ -422,6 +429,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Teamwork feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Alien Mindpaths}", "Android, kasatha, lashunta, or Triaxian.", "Gain +4 on saves vs. mind-affecting effects and scrying" ],
@@ -666,6 +674,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Trick feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Bouncing Trick}", "Mesmerist trick class feature.", "Triggered trick jumps to new target" ],
@@ -695,6 +704,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Stare feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Bleeding Stare}", "Mesmerist level 5th, painful stare class feature.", "Painful stare causes bleed damage" ],
@@ -721,6 +731,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Trick feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Bouncing Trick}", "Mesmerist trick class feature.", "Triggered trick jumps to new target" ],
@@ -750,6 +761,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Story feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Accursed}", "You must carry a curse that can be lifted only by a quest or similar great undertaking, or have the Cursed Birth background.", "Gain SR 5 + level, cannot be lowered" ],
@@ -849,6 +861,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Style feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Aldori Style}", "{feat/Alertness}, [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), {feat/Weapon Finesse}, [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).", "Gain a +2 bonus to damage when fighting defensively or using {feat/Combat Expertise}" ],
@@ -961,6 +974,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Item Creation feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Aligned Crafting}", "Craft Magic Arms and Armor or Craft Wondrous Item.", "Create magic items infused with your alignment" ],
@@ -1009,6 +1023,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Metamagic feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Apocalyptic Spell}", "", "Area affected by spell becomes difficult to move in" ],
@@ -1116,6 +1131,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Grit feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Battering Ram}", "Craft (alchemy) 3 ranks; grit class feature or {feat/Amateur Gunslinger}; pistol-whip gunslinger deed; quick clear gunslinger deed.", "Use the pistol-whip deed to remove your gun's broken condition after a misfire" ],
@@ -1160,6 +1176,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Panache feats table",
+				"sizes": [ 125, 150, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Confounding Tumble Deed}", "{feat/Amateur Swashbuckler} feat or panache class feature, {feat/Canny Tumble}, Acrobatics 7 ranks.", "When you avoid attacks of opportunity and hit a foe, you can deny it its Dex bonus to AC for 1 round" ],

@@ -40,7 +40,7 @@ export interface Table {
 	headers: string[]
 	// declares what type of data each column has
 	types: TableColumnInfoTypes[]
-	// marking if certain columns are sligned differently
+	// marking if certain columns are aligned differently
 	//   null = centered (default)
 	//   true = start
 	//   false = end
@@ -57,6 +57,8 @@ export interface Table {
 	sortable?: boolean
 	// some tables have an additional filter (usually spell levels or CR)
 	filterable?: number
+	// specifying column widths
+	sizes?: number | number[]
 }
 
 export interface DisplayItemProps {

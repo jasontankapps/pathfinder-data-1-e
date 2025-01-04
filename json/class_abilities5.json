@@ -1480,6 +1480,7 @@
 				"ripples": [0],
 				"types": [ null, null, "num", "num", null ],
 				"alignments": [ true, null, null, null, true ],
+				"sizes": [ 150, 90, 60, 60, 200 ],
 				"data": [
 					[ "{kinetic/Absentia/ (Sp)}", "void", 4, 0, "{kinetic/emptiness}" ],
 					[ "{kinetic/Aerial Adaptation/ (Sp)}", "air", 1, 0, null ],

@@ -214,7 +214,7 @@ const removeCurlyBrackets = (input) => {
 		let test = line;
 		let m;
 		let final = "";
-		while(test && (m = test.match(/(^<.*?(?<!=)>)([^<]*)(.*$)/))) {
+		while(test && (m = test.match(/(^<.*?(?<!=)>(?![a-z_0-9]+\}))([^<]*)(.*$)/))) {
 			const [x, tag, content, etc] = m;
 			final = final + tag + content.replace(/\{/g, "&#123;").replace(/\}/g, "&#125;");
 			test = etc;

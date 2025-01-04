@@ -160,7 +160,7 @@ function isGood(object, what) {
 						msg.push(`Non-object table at ${prop}.tables[${i}]`)
 						return true;
 					} else {
-						const { id, headers, types, alignments, data, initialColumn, nullValue } = table;
+						const { id, headers, types, alignments, sizes, data, initialColumn, nullValue } = table;
 						if(
 							typeof id !== "string"
 							|| typeof initialColumn !== "number"
@@ -189,6 +189,17 @@ function isGood(object, what) {
 						) {
 							found = true;
 							msg.push(`Alignment array table error at ${prop}.tables[${i}]`)
+							return true;
+						} else if (
+							sizes !== undefined && (
+								Array.isArray(sizes) ?
+									sizes.length !== types.length
+									|| sizes.some(size => typeof size !== "number")
+								: typeof sizes !== "number"
+							)
+						) {
+							found = true;
+							msg.push(`Error with sizes property at ${prop}.tables[${i}]`)
 							return true;
 						} else if (data.some((line, j) => {
 							if(
