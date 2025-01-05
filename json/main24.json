@@ -12,6 +12,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
+				"sizes": [ 150, 75, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Azata, Nualidu}", 5, "outsider", [ 4, "medium" ], [ 6, "CG" ], "Clear, flowing water forms the arms and the lower half of this angelic, elflike being.", 19, 16, 16, 13, 14, 15, 6, 9, 24 ],
@@ -402,6 +403,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
+				"sizes": [ 150, 75, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Azata, Lillend}", 7, "outsider", [ 5, "large" ], [ 6, "CG" ], "This creature has the body of a seductive, winged elven woman from the waist up and that of a snake from the waist down.", 20, 17, 21, 14, 16, 19, 7, 13, 26 ],
@@ -763,6 +765,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
+				"sizes": [ 150, 75, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Angazhani (High Girallon)}", 9, "magical beast", [ 5, "large" ], [ 8, "CE" ], "This horned, albino ape has four arms and thick white fur braided with bone fetishes and trophies. It carries a strangely shaped throwing axe.", 21, 17, 18, 12, 14, 14, 12, 18, 31 ],

@@ -12,6 +12,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aasimar}", [ -2, "1/2" ], "outsider", "native", [ 4, "medium" ], [ 3, "NG" ], "This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and benevolence." ],
@@ -616,6 +617,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aerial Servant}", 11, "outsider", "air, elemental, extraplanar", [ 4, "medium" ], [ 4, "N" ], "A faint ripple in the air suggests a hazy and vaguely humanoid vapor moving with terrible swiftness." ],
@@ -719,6 +721,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Achaierai}", 5, "outsider", "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
@@ -1218,6 +1221,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aasimar}", [ -2, "1/2" ], "outsider", "native", [ 4, "medium" ], [ 3, "NG" ], "This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and benevolence." ],

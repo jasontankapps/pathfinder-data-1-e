@@ -11,6 +11,7 @@
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 75, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abeyance}", 2, "Suppress the effects of a single curse." ],
@@ -348,6 +349,7 @@
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 75, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Ablative Barrier}", [ 2.451, "2, 3" ], "Surrounds the target with layers of force." ],
@@ -822,6 +824,7 @@
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 75, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Aerial Tracks}", [ 3.601, "3, 4" ], "Track flying creatures through the air." ],
@@ -1107,6 +1110,7 @@
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 75, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abadar's Truthtelling}", 1, "Force the target to speak the truth." ],

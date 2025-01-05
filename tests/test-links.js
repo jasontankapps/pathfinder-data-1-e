@@ -280,7 +280,7 @@ const testLinks = () => {
 			(tables || []).forEach(table => {
 				const ripples = table.ripples || [];
 				table.data.forEach(row => {
-					TESTING.push(...row.map((bit, i) => {
+					Array.isArray(row) && TESTING.push(...row.map((bit, i) => {
 						if(Array.isArray(bit)) {
 							if(bit.length === 3) {
 								return `[](${bit[1]})`;

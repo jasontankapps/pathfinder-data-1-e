@@ -57,12 +57,12 @@ interface ThProps {
 interface TdProps {
 	datum: Datum
 	type: TableColumnInfoTypes
-	size?: number
+	align?: (boolean | null)
 }
 
 interface TdRouterLinkProps {
 	datum: Datum
-	size?: number
+	align?: (boolean | null)
 }
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
@@ -168,7 +168,7 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 	);
 };
 
-const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
+const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type, align }) => {
 	let text = "";
 	const [ test, output ] = Array.isArray(datum) ? datum : [ datum, datum ];
 	switch(type) {
@@ -232,13 +232,13 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 			text = convertLinks([typeof output === "string" ? output : String(output)]);
 	}
 	return (
-		<td>
+		<td className={align === false ? "ion-text-end" : (align === null ? "ion-text-center" : (align && "ion-text-start"))}>
 			<Markdown components={components}>{text}</Markdown>
 		</td>
 	);
 };
 
-const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum }) => {
+const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }) => {
 	const history = useHistory();
 	const dispatch = useAppDispatch();
 	// datum will be either `{linkString}` or `[ sortableThing, {linkString} ]`
@@ -246,13 +246,13 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum }) => {
 	const m = (typeof linkString === "string") ? checkForEncodedLink(linkString) : false;
 	if(!m) {
 		return (
-			<td>LINK EXPECTED: {linkString}</td>
+			<td className={align === false ? "ion-text-end" : (align === null ? "ion-text-center" : (align && "ion-text-start"))}>LINK EXPECTED: {linkString}</td>
 		);
 	}
 	const [pre, link, output] = m;
 	const click = useCallback(() => { history.push(`/${link}`); dispatch(goTo(`/${link}`)); }, [link, dispatch, history]);
 	return (
-		<td className="ion-activatable cell-link" onClick={click}>
+		<td className={"ion-activatable cell-link" + (align === false ? " ion-text-end" : ((align || "") && " ion-text-start"))} onClick={click}>
 			{output}
 			<IonRippleEffect />
 		</td>
@@ -576,6 +576,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		ripples = [],
 		sortable = true,
 		filterable,
+		alignments,
 		sizes
 	} = table;
 	const [activeHeaders, setActiveHeaders] = useState<number[]>(headers.map((h, i) => i));
@@ -627,15 +628,18 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		return visible.map((row, i) => {
 			const cells = row.filter((cell, j) => activeHeaders.indexOf(j) > -1).map((cell, j) => {
 				const adjustedI = activeHeaders[j];
+				const align = alignments && (alignments[j] || undefined)
 				return (ripples.indexOf(adjustedI) > -1) ?
 					<TdRouterLink
 						datum={cell === null ? nullValue : cell}
+						align={align}
 						key={`table/${id}/row/${i}/cell/${adjustedI}`}
 					/>
 				:
 					<Td
 						type={types[adjustedI]}
 						datum={cell === null ? nullValue : cell}
+						align={align}
 						key={`table/${id}/row/${i}/cell/${adjustedI}`}
 					/>;
 			});

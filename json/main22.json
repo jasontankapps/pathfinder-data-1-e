@@ -11,6 +11,7 @@
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 75, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Admonishing Ray}", 2, "Fire multiple rays that deal nonlethal force." ],
@@ -377,6 +378,7 @@
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 75, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Absurdity}", 2, "Threats seem like a ridiculous farce." ],
@@ -620,6 +622,7 @@
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 75, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Absorb Toxicity}", [ 4.221, "3, 4, 5" ], "You become immune to diseases and toxins, absorb one, and then spread it to others." ],
@@ -958,6 +961,7 @@
 				"headers": [ "Spell", "Level(s)", "Description" ],
 				"types": [ null, "num", 0 ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 75, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Aboleth's Lung}", 2, "Allow the target to breathe water at the cost of no longer being able to breathe air." ],

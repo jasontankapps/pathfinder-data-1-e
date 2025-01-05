@@ -171,35 +171,23 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_class).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Bend with the Wind} | Wis 15, {feat/Body Control}, {feat/Endurance}, {feat/Meditation Master}. | Gain cold and fire resist 5. |",
+			"| {feat/Body Control} | Wis 11, {feat/Meditation Master}. | +1 Fort vs. poison, disease, starvation, fatigue/exhausted effects. Eat less food, drink less water, sleep half as much. |",
+			"| {feat/Body Mastery} | Wis 19, {feat/Body Control}, {feat/Meditation Master}, character level 15th. | Gain DR 2/-. |",
+			"| {feat/Combat Meditation} | Wis 13, {feat/Meditation Master}, character level 5th. | Learn to meditate quickly, though your meditation benefits will not last as long. |",
+			"| {feat/Extended Combat Meditation} | Wis 13, {feat/Combat Meditation}, {feat/Meditation Master}, character level 9th. | Increase the duration of Combat Meditation by your Wisdom modifier |",
+			"| {feat/Greater Meditation Master} | Wis 15, {feat/Combat Meditation}, {feat/Meditation Master}, character level 11th. | After meditating, either gain a +2 insight bonus to one roll or a +1 insight bonus to 2 rolls. |",
+			"| {feat/Meditation Master} |  | Meditate for an hour to gain unique benefits. |",
+			"| {feat/Meditative Concentration} | Wis 13, {feat/Combat Meditation}, {feat/Meditation Master}, character level 5th. | Enhance your concentration after meditating. |",
+			"| {feat/Mindful Meditation} | Wis 11, {feat/Meditation Master}. | Gain a bonus on Will saving throws vs charm, compuslsion, emotion, and fear effects |",
+			"| {feat/Mindfulness Mastery} | Wis 19, {feat/Meditation Master}, {feat/Mindful Meditation}, character level 13th. | Gain a second chance at saving against a failed charm, compulsion, emotion, or fear effect |",
+			"| {feat/Perfect Awareness} | Wis 17, {feat/Combat Meditation}, {feat/Meditation Master}, character level 9th. | Take 20 on Perception 1/day. |",
+			"| {feat/Perfect Center} | Wis 21, {feat/Combat Meditation}, {feat/Meditation Master}, character level 17th. | Take 10 on any skill check/concentration check, even if not normally allowed. |",
+			"| {feat/Sensory Control} | Wis 15, {feat/Blind-Fight}, {feat/Meditation Master}. | Gain low-light vision and scent |",
+			"| {feat/Slow Time} | Wis 15, {feat/Combat Meditation}, {feat/Meditation Master}, character level 7th. | Gain a brief amount of haste after meditation. |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Meditation feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Bend with the Wind}", "Wis 15, {feat/Body Control}, {feat/Endurance}, {feat/Meditation Master}.", "Gain cold and fire resist 5." ],
-					[ "{feat/Body Control}", "Wis 11, {feat/Meditation Master}.", "+1 Fort vs. poison, disease, starvation, fatigue/exhausted effects. Eat less food, drink less water, sleep half as much." ],
-					[ "{feat/Body Mastery}", "Wis 19, {feat/Body Control}, {feat/Meditation Master}, character level 15th.", "Gain DR 2/-." ],
-					[ "{feat/Combat Meditation}", "Wis 13, {feat/Meditation Master}, character level 5th.", "Learn to meditate quickly, though your meditation benefits will not last as long." ],
-					[ "{feat/Extended Combat Meditation}", "Wis 13, {feat/Combat Meditation}, {feat/Meditation Master}, character level 9th.", "Increase the duration of Combat Meditation by your Wisdom modifier" ],
-					[ "{feat/Greater Meditation Master}", "Wis 15, {feat/Combat Meditation}, {feat/Meditation Master}, character level 11th.", "After meditating, either gain a +2 insight bonus to one roll or a +1 insight bonus to 2 rolls." ],
-					[ "{feat/Meditation Master}", "", "Meditate for an hour to gain unique benefits." ],
-					[ "{feat/Meditative Concentration}", "Wis 13, {feat/Combat Meditation}, {feat/Meditation Master}, character level 5th.", "Enhance your concentration after meditating." ],
-					[ "{feat/Mindful Meditation}", "Wis 11, {feat/Meditation Master}.", "Gain a bonus on Will saving throws vs charm, compuslsion, emotion, and fear effects" ],
-					[ "{feat/Mindfulness Mastery}", "Wis 19, {feat/Meditation Master}, {feat/Mindful Meditation}, character level 13th.", "Gain a second chance at saving against a failed charm, compulsion, emotion, or fear effect" ],
-					[ "{feat/Perfect Awareness}", "Wis 17, {feat/Combat Meditation}, {feat/Meditation Master}, character level 9th.", "Take 20 on Perception 1/day." ],
-					[ "{feat/Perfect Center}", "Wis 21, {feat/Combat Meditation}, {feat/Meditation Master}, character level 17th.", "Take 10 on any skill check/concentration check, even if not normally allowed." ],
-					[ "{feat/Sensory Control}", "Wis 15, {feat/Blind-Fight}, {feat/Meditation Master}.", "Gain low-light vision and scent" ],
-					[ "{feat/Slow Time}", "Wis 15, {feat/Combat Meditation}, {feat/Meditation Master}, character level 7th.", "Gain a brief amount of haste after meditation." ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_weapon_mastery": {
@@ -209,38 +197,26 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_mastery).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Ace Disarm} | Dex 13, {feat/Deadly Aim}, {feat/Ranged Disarm} base attack bonus +6, weapon training class feature with a ranged weapon. | No penalty when using Ranged Disarm, make Steal attempts instead of Disarm at range |",
+			"| {feat/Ace Trip} | Dex 13, {feat/Deadly Aim}, {feat/Ranged Trip}, base attack bonus +6, weapon training class feature with a ranged weapon. | No penalty when using Ranged Trip, make special ranged trips against flying creatures |",
+			"| {feat/Burrowing Shot} | Dex 13, {feat/Deadly Aim}, base attack bonus +9, weapon training class feature with a ranged weapon. | Lodge a ranged attack within someone's body |",
+			"| {feat/Cut from the Air} | Str 13, {feat/Power Attack}, base attack bonus +5, weapon training class feature with a melee weapon. | Cut ranged attacks out of the air |",
+			"| {feat/Devastating Assault} | Base attack bonus +9, weapon training class feature with a melee weapon. | Batter through an opponent's defenses |",
+			"| {feat/Difficult Swings} | Base attack bonus +5, weapon training class feature with a melee weapon. | Force creatures to treat terrain as difficult after an attack |",
+			"| {feat/Finesse Shot} | Marksman's Utility, base attack bonus +7, weapon training class feature with a ranged weapon. | Gain new utility shots |",
+			"| {feat/Impressive Grit} | Base attack bonus +11, weapon training class feature with a ranged weapon. | Gain a gunslinger deed or reduce the grit it takes to use one |",
+			"| {feat/Liberating Shot} | Dex 13, {feat/Deadly Aim}, base attack bonus +7, weapon training class feature with a ranged weapon. | Help grappled allies escape by shooting the opponent |",
+			"| {feat/Marksman's Utility} | Base attack bonus +6, weapon training class feature with a ranged weapon. | Gain the utility shot deed, or +4 attack with it if already possessed |",
+			"| {feat/Retributive Kick} | {feat/Improved Unarmed Strike}, base attack bonus +5, weapon training class feature with a melee weapon. | Get an extra unarmed attack if one misses |",
+			"| {feat/Ricochet Toss} | {feat/Quick Draw}, base attack bonus +6, weapon training class feature with a ranged weapon. | Angle your throwing weapons so they return to you |",
+			"| {feat/Smash from the Air} | Str 13, {feat/Cut from the Air}, {feat/Power Attack}, base attack bonus +9, weapon training class feature with a melee weapon. | Use Cut from the Air against unusually large ranged weapons |",
+			"| {feat/Spellcut} | Str 13, {feat/Cut from the Air}, {feat/Power Attack}, base attack bonus +9, Spellcraft 1 rank, weapon training class feature with a melee weapon. | Use your BAB in place of a saving throw against an effect |",
+			"| {feat/Targeted Blow} | Str 13, {feat/Power Attack}, base attack bonus +9, weapon training class feature with a melee weapon. | Target a specific body part with an attack |",
+			"| {feat/Weapon Material Mastery} | Base attack bonus +7, weapon training class feature with a melee weapon. | Perform impressive deeds with weapons made of special materials |",
+			"| {feat/Weapon Style Mastery} | Any two style feats from different styles, base attack bonus +6, weapon training class feature with a melee weapon. | Have two weapon styles active at once |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Weapon Mastery feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Ace Disarm}", "Dex 13, {feat/Deadly Aim}, {feat/Ranged Disarm} base attack bonus +6, weapon training class feature with a ranged weapon.", "No penalty when using Ranged Disarm, make Steal attempts instead of Disarm at range" ],
-					[ "{feat/Ace Trip}", "Dex 13, {feat/Deadly Aim}, {feat/Ranged Trip}, base attack bonus +6, weapon training class feature with a ranged weapon.", "No penalty when using Ranged Trip, make special ranged trips against flying creatures" ],
-					[ "{feat/Burrowing Shot}", "Dex 13, {feat/Deadly Aim}, base attack bonus +9, weapon training class feature with a ranged weapon.", "Lodge a ranged attack within someone's body" ],
-					[ "{feat/Cut from the Air}", "Str 13, {feat/Power Attack}, base attack bonus +5, weapon training class feature with a melee weapon.", "Cut ranged attacks out of the air" ],
-					[ "{feat/Devastating Assault}", "Base attack bonus +9, weapon training class feature with a melee weapon.", "Batter through an opponent's defenses" ],
-					[ "{feat/Difficult Swings}", "Base attack bonus +5, weapon training class feature with a melee weapon.", "Force creatures to treat terrain as difficult after an attack" ],
-					[ "{feat/Finesse Shot}", "Marksman's Utility, base attack bonus +7, weapon training class feature with a ranged weapon.", "Gain new utility shots" ],
-					[ "{feat/Impressive Grit}", "Base attack bonus +11, weapon training class feature with a ranged weapon.", "Gain a gunslinger deed or reduce the grit it takes to use one" ],
-					[ "{feat/Liberating Shot}", "Dex 13, {feat/Deadly Aim}, base attack bonus +7, weapon training class feature with a ranged weapon.", "Help grappled allies escape by shooting the opponent" ],
-					[ "{feat/Marksman's Utility}", "Base attack bonus +6, weapon training class feature with a ranged weapon.", "Gain the utility shot deed, or +4 attack with it if already possessed" ],
-					[ "{feat/Retributive Kick}", "{feat/Improved Unarmed Strike}, base attack bonus +5, weapon training class feature with a melee weapon.", "Get an extra unarmed attack if one misses" ],
-					[ "{feat/Ricochet Toss}", "{feat/Quick Draw}, base attack bonus +6, weapon training class feature with a ranged weapon.", "Angle your throwing weapons so they return to you" ],
-					[ "{feat/Smash from the Air}", "Str 13, {feat/Cut from the Air}, {feat/Power Attack}, base attack bonus +9, weapon training class feature with a melee weapon.", "Use Cut from the Air against unusually large ranged weapons" ],
-					[ "{feat/Spellcut}", "Str 13, {feat/Cut from the Air}, {feat/Power Attack}, base attack bonus +9, Spellcraft 1 rank, weapon training class feature with a melee weapon.", "Use your BAB in place of a saving throw against an effect" ],
-					[ "{feat/Targeted Blow}", "Str 13, {feat/Power Attack}, base attack bonus +9, weapon training class feature with a melee weapon.", "Target a specific body part with an attack" ],
-					[ "{feat/Weapon Material Mastery}", "Base attack bonus +7, weapon training class feature with a melee weapon.", "Perform impressive deeds with weapons made of special materials" ],
-					[ "{feat/Weapon Style Mastery}", "Any two style feats from different styles, base attack bonus +6, weapon training class feature with a melee weapon.", "Have two weapon styles active at once" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_armor_mastery": {
@@ -250,32 +226,20 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_mastery).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Armor Material Expertise} | Base attack bonus +6 or fighter level 4th, armor training class feature. | Gain a benefit based on your armor's special material |",
+			"| {feat/Armor Material Mastery} | {feat/Armor Material Expertise}, base attack bonus +11 or fighter level 8th, armor training class feature. | Use Armor Material Expertise two additional times per day |",
+			"| {feat/Cushioning Armor} | Armor training class feature, proficiency with medium or heavy armor. | Transfer half your falling damage to your armor |",
+			"| {feat/Greater Ironclad Reactions} | {feat/Combat Reflexes}, {feat/Ironclad Reactions}, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with medium armor. | Use Ironclad Reactions more than once per round. |",
+			"| {feat/Imposing Bearing} | {feat/Poised Bearing}, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with heavy armor. | Treat your size as two category larger for combat maneuvers |",
+			"| {feat/Intense Blows} | Str 13, {feat/Power Attack}, base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with heavy armor. | Gain a bonus to CMD when using Power Attack |",
+			"| {feat/Ironclad Reactions} | Base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with medium armor. | Take a bonus 5-foot step when struck in combat |",
+			"| {feat/Knocking Blows} | Str 13, {feat/Intense Blows}, {feat/Power Attack}, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with heavy armor. | Creatures you Power Attack take a penalty to CMD for 1 round |",
+			"| {feat/Poised Bearing} | Base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with medium or heavy armor. | Treat your size as one category larger for combat maneuvers |",
+			"| {feat/Secured Armor} | Base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with medium or heavy armor. | 25% chance to negate a critical hit or sneak attack |",
+			"| {feat/Sprightly Armor} | Dex 13, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with light armor. | Gain your armor's enhancement bonus to initiative |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Armor Mastery feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Armor Material Expertise}", "Base attack bonus +6 or fighter level 4th, armor training class feature.", "Gain a benefit based on your armor's special material" ],
-					[ "{feat/Armor Material Mastery}", "{feat/Armor Material Expertise}, base attack bonus +11 or fighter level 8th, armor training class feature.", "Use Armor Material Expertise two additional times per day" ],
-					[ "{feat/Cushioning Armor}", "Armor training class feature, proficiency with medium or heavy armor.", "Tranfer half your falling damage to your armor" ],
-					[ "{feat/Greater Ironclad Reactions}", "{feat/Combat Reflexes}, {feat/Ironclad Reactions}, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with medium armor.", "Use Ironclad Reactions more than once per round." ],
-					[ "{feat/Imposing Bearing}", "{feat/Poised Bearing}, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with heavy armor.", "Treat your size as two category larger for combat maneuvers" ],
-					[ "{feat/Intense Blows}", "Str 13, {feat/Power Attack}, base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with heavy armor.", "Gain a bonus to CMD when using Power Attack" ],
-					[ "{feat/Ironclad Reactions}", "Base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with medium armor.", "Take a bonus 5-foot step when struck in combat" ],
-					[ "{feat/Knocking Blows}", "Str 13, {feat/Intense Blows}, {feat/Power Attack}, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with heavy armor.", "Creatures you Power Attack take a penalty to CMD for 1 round" ],
-					[ "{feat/Poised Bearing}", "Base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with medium or heavy armor.", "Treat your size as one category larger for combat maneuvers" ],
-					[ "{feat/Secured Armor}", "Base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with medium or heavy armor.", "25% chance to negate a critical hit or sneak attack" ],
-					[ "{feat/Sprightly Armor}", "Dex 13, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with light armor.", "Gain your armor's enhancement bonus to initiative" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_shield_mastery": {
@@ -285,35 +249,23 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_mastery).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Cushioning Shield} | {feat/Shield Focus}, base attack bonus +6 or fighter level 4th. | Transfer half your falling damage to your shield |",
+			"| {feat/Defended Movement} | {feat/Shield Focus}, base attack bonus +6 or fighter level 4th. | Gain +2 AC vs attacks of opportunity |",
+			"| {feat/Feint Defender} | {feat/Shield Focus}, base attack bonus +6 or fighter level 4th, Sense Motive 1 rank. | Increase the DC required to feint you |",
+			"| {feat/Greater Ray Shield} | Dex 17, {feat/Missile Shield}, {feat/Ray Shield}, {feat/Spellbreaker}. | Your shield is unaffected when using Ray Shield |",
+			"| {feat/Guarded Charge} | {feat/Shield Focus}, base attack bonus +6 or fighter level 4th. | Don't provoke for making a bull rush or overrun at the end of a charge |",
+			"| {feat/Shield Brace} | {feat/Shield Focus}; base attack bonus +3 or fighter level 1st; proficiency with light shields, heavy shields, or tower shields. | Wield a polearm or spear while using a shield |",
+			"| {feat/Shield Material Expertise} | {feat/Shield Focus}, base attack bonus +6 or fighter level 4th. | Gain a benefit based on your shield's special material |",
+			"| {feat/Shield Material Mastery} | {feat/Shield Focus}, {feat/Shield Material Expertise}, base attack bonus +11 or fighter level 8th. | Use Shield Material Experties two additional times per day |",
+			"| {feat/Shielded Mage} | {feat/Shield Focus}, base attack bonus +3 or fighter level 1st. | Cast spells while using a shield |",
+			"| {feat/Shielded Stand} | {feat/Shield Focus}, base attack bonus +3 or fighter level 1st. | Guard yourself or an ally while standing up |",
+			"| {feat/Stumbling Bash} | {feat/Improved Shield Bash}, {feat/Shield Focus}, base attack bonus +6 or fighter level 4th. | Creatures you shield bash take an AC penalty for 1 round |",
+			"| {feat/Toppling Bash} | {feat/Improved Shield Bash}, {feat/Shield Focus}, {feat/Stumbling Bash}, base attack bonus +11 or fighter level 8th. | Trip creatures you shield bash as a swift action |",
+			"| {feat/Tower Shield Specialist} | {feat/Shield Focus}, {feat/Tower Shield Proficiency}, base attack bonus +11 or fighter level 8th. | Reduce the armor check penalty of a tower shield |",
+			"| {feat/Unhindering Shield} | {feat/Shield Focus}, base attack bonus +6 or fighter level 4th, proficiency with bucklers. | Treat your buckler hand as free for all purposes |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Shield Mastery feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Cushioning Shield}", "{feat/Shield Focus}, base attack bonus +6 or fighter level 4th.", "Tranfer half your falling damage to your shield" ],
-					[ "{feat/Defended Movement}", "{feat/Shield Focus}, base attack bonus +6 or fighter level 4th.", "Gain +2 AC vs attacks of opportunity" ],
-					[ "{feat/Feint Defender}", "{feat/Shield Focus}, base attack bonus +6 or fighter level 4th, Sense Motive 1 rank.", "Increase the DC required to feint you" ],
-					[ "{feat/Greater Ray Shield}", "Dex 17, {feat/Missile Shield}, {feat/Ray Shield}, {feat/Spellbreaker}.", "Your shield is unaffected when using Ray Shield" ],
-					[ "{feat/Guarded Charge}", "{feat/Shield Focus}, base attack bonus +6 or fighter level 4th.", "Don't provoke for making a bull rush or overrun at the end of a charge" ],
-					[ "{feat/Shield Brace}", "{feat/Shield Focus}; base attack bonus +3 or fighter level 1st; proficiency with light shields, heavy shields, or tower shields.", "Wield a polearm or spear while using a shield" ],
-					[ "{feat/Shield Material Expertise}", "{feat/Shield Focus}, base attack bonus +6 or fighter level 4th.", "Gain a benefit based on your shield's special material" ],
-					[ "{feat/Shield Material Mastery}", "{feat/Shield Focus}, {feat/Shield Material Expertise}, base attack bonus +11 or fighter level 8th.", "Use Shield Material Experties two additional times per day" ],
-					[ "{feat/Shielded Mage}", "{feat/Shield Focus}, base attack bonus +3 or fighter level 1st.", "Cast spells while using a shield" ],
-					[ "{feat/Shielded Stand}", "{feat/Shield Focus}, base attack bonus +3 or fighter level 1st.", "Guard yourself or an ally while standing up" ],
-					[ "{feat/Stumbling Bash}", "{feat/Improved Shield Bash}, {feat/Shield Focus}, base attack bonus +6 or fighter level 4th.", "Creatures you shield bash take an AC penalty for 1 round" ],
-					[ "{feat/Toppling Bash}", "{feat/Improved Shield Bash}, {feat/Shield Focus}, {feat/Stumbling Bash}, base attack bonus +11 or fighter level 8th.", "Trip creatures you shield bash as a swift action" ],
-					[ "{feat/Tower Shield Specialist}", "{feat/Shield Focus}, {feat/Tower Shield Proficiency}, base attack bonus +11 or fighter level 8th.", "Reduce the armor check penalty of a tower shield" ],
-					[ "{feat/Unhindering Shield}", "{feat/Shield Focus}, base attack bonus +6 or fighter level 4th, proficiency with bucklers.", "Treat your buckler hand as free for all purposes" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_item_mastery": {
@@ -323,40 +275,28 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_mastery).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Ability Mastery} | Use Magic Device 3 ranks, base Fortitude saving throw bonus +4. | Gain an enhancement bonus to an ability score with a suit of magic armor or transmutation-crafted item |",
+			"| {feat/Compulsion Mastery} | Use Magic Device 3 ranks, base Fortitude save bonus +6. | Cast suggestion with an enchantment-crafted item |",
+			"| {feat/Concealment Mastery} | Stealth 3 ranks, Use Magic Device 3 ranks, base Fortitude saving throw bonus +3. | Cast invisibility with an illusion-crafted item |",
+			"| {feat/Curative Mastery} | Use Magic Device 1 rank, base Fortitude bonus +2. | Cast healing spells with a conjuration-crafted item |",
+			"| {feat/Curse Mastery} | Use Magic Device 3 ranks, base Fortitude save bonus +6. | Cast bestow curse with a necromancy-crafted item |",
+			"| {feat/Dispel Mastery} | Use Magic Device 3 ranks, base Fortitude save bonus +6. | Cast dispel magic with an abjuration-crafted item |",
+			"| {feat/Energy Mastery} | Use Magic Device 1 rank, base Fortitude save bonus +4. | Cast burning hands or lightning bolt with an evocation-crafted item |",
+			"| {feat/Flight Mastery} | Use Magic Device 3 ranks, base Fortitude save bonus +6. | Cast fly with a transmutation-crafted item |",
+			"| {feat/Force Shield Mastery} | Use Magic Device 3 ranks, base Fortitude saving throw bonus +3. | Cast shield with an abjuration-crafted item |",
+			"| {feat/Illusion Mastery} | Use Magic Device 2 ranks, base Fortitude save bonus +4. | Cast minor image with an illusion-crafted item |",
+			"| {feat/Implement Mastery} | Implements class feature, mental focus class feature. | Treat your implements as magic items of their associated school for Item Mastery feats. |",
+			"| {feat/Racial Item Mastery} | Use Magic Device 6 ranks, base Fortitude saving throw bonus +3. | Use a magic item to recharge your racial spell-like abilities. |",
+			"| {feat/Resistance Mastery} | Use Magic Device 3 ranks, base Fortitude saving throw bonus +3. | Gain a resistance bonus to saves or energy resistance with a suit of magic armor or abjuration-crafted item |",
+			"| {feat/Restoration Mastery} | Heal 5 ranks, Use Magic Device 5 ranks, base Fortitude saving throw bonus +3. | Cast lesser restoration with a conjuration (healing)-crafted item |",
+			"| {feat/Symbolic Mastery} | Use Magic Device 4 ranks, base Fortitude saving throw bonus +2. | Launch destructive blasts from your holy symbol |",
+			"| {feat/Telekinetic Mastery} | Use Magic Device 5 ranks, base Fortitude save bonus +7. | Cast telekinesis with a transmutation-crafted item |",
+			"| {feat/Teleportation Mastery} | Use Magic Device 4 ranks, base Fortitude save bonus +6. | Cast dimension door with a conjuration-crafted item |",
+			"| {feat/Vision Mastery} | Use Magic Device 2 ranks, base Fortitude save bonus +4. | Cast darkvision or see invisibility with a divination-crafted item |",
+			"| {feat/Weapon Evoker Mastery} | Use Magic Device 2 ranks, base Fortitude saving throw bonus +3. | Amplify the power of a magic weapon that deals energy damage |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Item Mastery feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Ability Mastery}", "Use Magic Device 3 ranks, base Fortitude saving throw bonus +4.", "Gain an enhancement bonus to an ability score with a suit of magic armor or transmutation-crafted item" ],
-					[ "{feat/Compulsion Mastery}", "Use Magic Device 3 ranks, base Fortitude save bonus +6.", "Cast suggestion with an enchantment-crafted item" ],
-					[ "{feat/Concealment Mastery}", "Stealth 3 ranks, Use Magic Device 3 ranks, base Fortitude saving throw bonus +3.", "Cast invisibility with an illusion-crafted item" ],
-					[ "{feat/Curative Mastery}", "Use Magic Device 1 rank, base Fortitude bonus +2.", "Cast healing spells with a conjuration-crafted item" ],
-					[ "{feat/Curse Mastery}", "Use Magic Device 3 ranks, base Fortitude save bonus +6.", "Cast bestow curse with a necromancy-crafted item" ],
-					[ "{feat/Dispel Mastery}", "Use Magic Device 3 ranks, base Fortitude save bonus +6.", "Cast dispel magic with an abjuration-crafted item" ],
-					[ "{feat/Energy Mastery}", "Use Magic Device 1 rank, base Fortitude save bonus +4.", "Cast burning hands or lightning bolt with an evocation-crafted item" ],
-					[ "{feat/Flight Mastery}", "Use Magic Device 3 ranks, base Fortitude save bonus +6.", "Cast fly with a transmutation-crafted item" ],
-					[ "{feat/Force Shield Mastery}", "Use Magic Device 3 ranks, base Fortitude saving throw bonus +3.", "Cast shield with an abjuration-crafted item" ],
-					[ "{feat/Illusion Mastery}", "Use Magic Device 2 ranks, base Fortitude save bonus +4.", "Cast minor image with an illusion-crafted item" ],
-					[ "{feat/Implement Mastery}", "Implements class feature, mental focus class feature.", "Treat your implements as magic items of their associated school for Item Mastery feats." ],
-					[ "{feat/Racial Item Mastery}", "Use Magic Device 6 ranks, base Fortitude saving throw bonus +3.", "Use a magic item to recharge your racial spell-like abilities." ],
-					[ "{feat/Resistance Mastery}", "Use Magic Device 3 ranks, base Fortitude saving throw bonus +3.", "Gain a resistance bonus to saves or energy resistance with a suit of magic armor or abjuration-crafted item" ],
-					[ "{feat/Restoration Mastery}", "Heal 5 ranks, Use Magic Device 5 ranks, base Fortitude saving throw bonus +3.", "Cast lesser restoration with a conjuration (healing)-crafted item" ],
-					[ "{feat/Symbolic Mastery}", "Use Magic Device 4 ranks, base Fortitude saving throw bonus +2.", "Launch destructive blasts from your holy symbol" ],
-					[ "{feat/Telekinetic Mastery}", "Use Magic Device 5 ranks, base Fortitude save bonus +7.", "Cast telekinesis with a transmutation-crafted item" ],
-					[ "{feat/Teleportation Mastery}", "Use Magic Device 4 ranks, base Fortitude save bonus +6.", "Cast dimension door with a conjuration-crafted item" ],
-					[ "{feat/Vision Mastery}", "Use Magic Device 2 ranks, base Fortitude save bonus +4.", "Cast darkvision or see invisibility with a divination-crafted item" ],
-					[ "{feat/Weapon Evoker Mastery}", "Use Magic Device 2 ranks, base Fortitude saving throw bonus +3.", "Amplify the power of a magic weapon that deals energy damage" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_monster": {
@@ -665,27 +605,15 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_class).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Bouncing Trick} | Mesmerist trick class feature. | Triggered trick jumps to new target |",
+			"| {feat/Contingent Trick} | Any two trick feats. | Implant a flexible trick that has multiple options |",
+			"| {feat/Reflexive Trick} | Mesmerist tricks class feature. | Implant a new trick in yourself when you trigger a trick |",
+			"| {feat/Spell Trick} | Masterful tricks class feature, ability to cast 4th-level mesmerist spells. | Implant one of your spells as a trick |",
+			"| {feat/Split Trick} | Mesmerist trick class feature. | Split a trick among two creatures |",
+			"| {feat/Swap Trick} | Mesmerist tricks class feature. | Switch which trick is implanted |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Trick feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Bouncing Trick}", "Mesmerist trick class feature.", "Triggered trick jumps to new target" ],
-					[ "{feat/Contingent Trick}", "Any two trick feats.", "Implant a flexible trick that has multiple options" ],
-					[ "{feat/Reflexive Trick}", "Mesmerist tricks class feature.", "Implant a new trick in yourself when you trigger a trick" ],
-					[ "{feat/Spell Trick}", "Masterful tricks class feature, ability to cast 4th-level mesmerist spells.", "Implant one of your spells as a trick" ],
-					[ "{feat/Split Trick}", "Mesmerist trick class feature.", "Split a trick among two creatures" ],
-					[ "{feat/Swap Trick}", "Mesmerist tricks class feature.", "Switch which trick is implanted" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_stare": {
@@ -695,54 +623,25 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_class).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Bleeding Stare} | Mesmerist level 5th, painful stare class feature. | Painful stare causes bleed damage |",
+			"| {feat/Blinding Stare} | Mesmerist level 7th, painful stare class feature. | Painful stare inflicts blindness |",
+			"| {feat/Confusing Stare} | Mesmerist level 7th, painful stare class feature. | Painful stare inflicts confusion |",
+			"| {feat/Demoralizing Stare} | Mesmerist level 9th, painful stare class feature. | Painful stare causes the shaken condition |",
+			"| {feat/Disconcerting Stare} | Mesmerist level 5th, painful stare class feature. | Your painful stare causes creatures to be more vulnerable to traps |",
+			"| {feat/Entwining Stare} | Mesmerist level 7th, painful stare class feature. | Target takes a -4 penalty to CMD vs grapple |",
+			"| {feat/Excoriating Stare} | Mesmerist level 11th, painful stare class feature. | Painful stare causes the sickened condition |",
+			"| {feat/Fatiguing Stare} | Mesmerist level 7th, painful stare class feature. | Painful stare causes the fatigued condition |",
+			"| {feat/Intense Pain} | Mesmerist level 7th, painful stare class feature. | Painful stare deals more damage |",
+			"| {feat/Manifold Stare} | Mesmerist level 3rd, painful stare class feature. | Use painful stare more than once per round |",
+			"| {feat/Mental Stare} | Hypnotic stare class feature. | Your hypnotic stare doesn't rely on sight |",
+			"| {feat/Oblivating Stare} | Allure bold stare improvement, hypnotic stare class feature, Mesmerist level 5th. | Your stare can cause a target to lose track of someone. |",
+			"| {feat/Overpowering Stare} | {class/Mesmerist} level 11th, painful stare class feature. | Your painful stare can confuse your target |",
+			"| {feat/Penetrating Stare} | Mesmerist level 7th, painful stare class feature. | Painful stare ignores damage reduction |",
+			"| {feat/Perturbing Stare} | Mesmerist level 5th, painful stare class feature. | Painful stare removes foe's Dexterity bonus to AC |",
+			"| {feat/Venomous Stare} | Mesmerist level 11th, painful stare class feature. | Target of painful stare is poisoned |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Stare feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Bleeding Stare}", "Mesmerist level 5th, painful stare class feature.", "Painful stare causes bleed damage" ],
-					[ "{feat/Blinding Stare}", "Mesmerist level 7th, painful stare class feature.", "Painful stare inflicts blindness" ],
-					[ "{feat/Confusing Stare}", "Mesmerist level 7th, painful stare class feature.", "Painful stare inflicts confusion" ],
-					[ "{feat/Demoralizing Stare}", "Mesmerist level 9th, painful stare class feature.", "Painful stare causes the shaken condition" ],
-					[ "{feat/Disconcerting Stare}", "Mesmerist level 5th, painful stare class feature.", "Your painful stare causes creatures to be more vulnerable to traps" ],
-					[ "{feat/Entwining Stare}", "Mesmerist level 7th, painful stare class feature.", "Target takes a -4 penalty to CMD vs grapple" ],
-					[ "{feat/Excoriating Stare}", "Mesmerist level 11th, painful stare class feature.", "Painful stare causes the sickened condition" ],
-					[ "{feat/Fatiguing Stare}", "Mesmerist level 7th, painful stare class feature.", "Painful stare causes the fatigued condition" ],
-					[ "{feat/Intense Pain}", "Mesmerist level 7th, painful stare class feature.", "Painful stare deals more damage" ],
-					[ "{feat/Manifold Stare}", "Mesmerist level 3rd, painful stare class feature.", "Use painful stare more than once per round" ],
-					[ "{feat/Mental Stare}", "Hypnotic stare class feature.", "Your hypnotic stare doesn't rely on sight" ],
-					[ "{feat/Oblivating Stare}", "Allure bold stare improvement, hypnotic stare class feature, Mesmerist level 5th.", "Your stare can cause a target to lose track of someone." ],
-					[ "{feat/Overpowering Stare}", "{class/Mesmerist} level 11th, painful stare class feature.", "Your painful stare can confuse your target" ],
-					[ "{feat/Penetrating Stare}", "Mesmerist level 7th, painful stare class feature.", "Painful stare ignores damage reduction" ],
-					[ "{feat/Perturbing Stare}", "Mesmerist level 5th, painful stare class feature.", "Painful stare removes foe's Dexterity bonus to AC" ],
-					[ "{feat/Venomous Stare}", "Mesmerist level 11th, painful stare class feature.", "Target of painful stare is poisoned" ]
-				]
-			},
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Trick feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Bouncing Trick}", "Mesmerist trick class feature.", "Triggered trick jumps to new target" ],
-					[ "{feat/Contingent Trick}", "Any two trick feats.", "Implant a flexible trick that has multiple options" ],
-					[ "{feat/Reflexive Trick}", "Mesmerist tricks class feature.", "Implant a new trick in yourself when you trigger a trick" ],
-					[ "{feat/Spell Trick}", "Masterful tricks class feature, ability to cast 4th-level mesmerist spells.", "Implant one of your spells as a trick" ],
-					[ "{feat/Split Trick}", "Mesmerist trick class feature.", "Split a trick among two creatures" ],
-					[ "{feat/Swap Trick}", "Mesmerist tricks class feature.", "Switch which trick is implanted" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_story": {
@@ -965,47 +864,35 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_basic).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Aligned Crafting} | Craft Magic Arms and Armor or Craft Wondrous Item. | Create magic items infused with your alignment |",
+			"| {feat/Brew Potion} | Caster level 3rd. | Create magic potions |",
+			"| {feat/Craft Construct} | Caster level 5th, {feat/Craft Magic Arms and Armor}, {feat/Craft Wondrous Item}. | Learn how to craft constructs. |",
+			"| {feat/Craft Magic Arms and Armor} | Caster level 5th. | Create magic armors, shields, and weapons |",
+			"| {feat/Craft Ooze} | {feat/Brew Potion}, {feat/Craft Wondrous Item}, Craft (alchemy) 3 ranks, caster level 5th. | You can use alchemy to create dangerous ooze creatures |",
+			"| {feat/Craft Poppet} | Caster level 1st. | Create poppets |",
+			"| {feat/Craft Rod} | Caster level 9th. | Create magic rods |",
+			"| {feat/Craft Shadow Piercing} | Craft (jewelry) 5 ranks, caster level 5th. | Learn to craft magical piercings infused with shadow |",
+			"| {feat/Craft Staff} | Caster level 11th. | Create magic staves |",
+			"| {feat/Craft Wand} | Caster level 5th. | Create magic wands |",
+			"| {feat/Craft Wondrous Item} | Caster level 3rd. | Create magic wondrous items |",
+			"| {feat/Create Enhanced Firearm} | {feat/Craft Magic Arms and Armor}; Craft (weapons) 1 rank or {feat/Gunsmithing}. | Firearms you create are less likely to misfire |",
+			"| {feat/Cultivate Magic Plants} | {feat/Brew Potion}, {feat/Craft Wondrous Item}, Knowledge (nature) 1 rank. | Grow magical plants |",
+			"| {feat/Demon Grafter} | {feat/Demonologist}, Heal 5 ranks, Knowledge (planes) 5 ranks, Spellcraft 5 ranks. | Learn how to implant demonic tissue into mortal flesh |",
+			"| {feat/Fleshwarper} | Craft (alchemy) 5 ranks, Heal 5 ranks, evil alignment. | Create fleshwarped creatures and items |",
+			"| {feat/Forge Ring} | Caster level 7th. | Create magic rings |",
+			"| {feat/Grisly Ornament} | {feat/Harvest Parts}. | Craft grotesque ornaments that provide moral bonuses to AC, attack, CMB, CMD, saves, or skills |",
+			"| {feat/Grow Plant Creature} | {feat/Train Plants}, Handle Animal 5 ranks, Knowledge (nature) 5 ranks. | Learn to cultivate and raise plant creatures |",
+			"| {feat/Harvest Parts} | Craft (any) 1 rank or Heal 1 rank. | Harvest parts from a creature to be used for crafting |",
+			"| {feat/Haunt Scavenger} | Any one item creation feat or Craft (alchemy) 3 ranks. | Syphon ectoplasm from haunts to use in crafting magic items |",
+			"| {feat/Infuse Poison} | {feat/Brew Potion}, Craft (alchemy) 5 ranks, caster level 3rd. | Infuse poisons with other spells |",
+			"| {feat/Inscribe Magical Tattoo} | Craft (calligraphy, paintings, or tattoos) 5 ranks, caster level 5th | Learn to craft magical tattoos |",
+			"| {feat/Lifecrafting} | {feat/Craft Construct}, {feat/Leadership}. | Create a new wyrwood from an ioun stone |",
+			"| {feat/Monstrous Crafter} | {feat/Craft Wondrous Item}, {feat/Grisly Ornament}, {feat/Harvest Parts}. | Integrate an ornament into a magic item to gain its benefit once per day |",
+			"| {feat/Reinforced Crafting} | {feat/Craft Magic Arms and Armor}, ability to cast make whole or mending. | Your magic items are more resilient |",
+			"| {feat/Scribe Scroll} | Caster level 1st. | Create magic scrolls |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Item Creation feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Aligned Crafting}", "Craft Magic Arms and Armor or Craft Wondrous Item.", "Create magic items infused with your alignment" ],
-					[ "{feat/Brew Potion}", "Caster level 3rd.", "Create magic potions" ],
-					[ "{feat/Craft Construct}", "Caster level 5th, {feat/Craft Magic Arms and Armor}, {feat/Craft Wondrous Item}.", "Learn how to craft constructs." ],
-					[ "{feat/Craft Magic Arms and Armor}", "Caster level 5th.", "Create magic armors, shields, and weapons" ],
-					[ "{feat/Craft Ooze}", "{feat/Brew Potion}, {feat/Craft Wondrous Item}, Craft (alchemy) 3 ranks, caster level 5th.", "You can use alchemy to create dangerous ooze creatures" ],
-					[ "{feat/Craft Poppet}", "Caster level 1st.", "Create poppets" ],
-					[ "{feat/Craft Rod}", "Caster level 9th.", "Create magic rods" ],
-					[ "{feat/Craft Shadow Piercing}", "Craft (jewelry) 5 ranks, caster level 5th.", "Learn to craft magical piercings infused with shadow" ],
-					[ "{feat/Craft Staff}", "Caster level 11th.", "Create magic staves" ],
-					[ "{feat/Craft Wand}", "Caster level 5th.", "Create magic wands" ],
-					[ "{feat/Craft Wondrous Item}", "Caster level 3rd.", "Create magic wondrous items" ],
-					[ "{feat/Create Enhanced Firearm}", "{feat/Craft Magic Arms and Armor}; Craft (weapons) 1 rank or {feat/Gunsmithing}.", "Firearms you create are less likely to misfire" ],
-					[ "{feat/Cultivate Magic Plants}", "{feat/Brew Potion}, {feat/Craft Wondrous Item}, Knowledge (nature) 1 rank.", "Grow magical plants" ],
-					[ "{feat/Demon Grafter}", "{feat/Demonologist}, Heal 5 ranks, Knowledge (planes) 5 ranks, Spellcraft 5 ranks.", "Learn how to implant demonic tissue into mortal flesh" ],
-					[ "{feat/Fleshwarper}", "Craft (alchemy) 5 ranks, Heal 5 ranks, evil alignment.", "Create fleshwarped creatures and items" ],
-					[ "{feat/Forge Ring}", "Caster level 7th.", "Create magic rings" ],
-					[ "{feat/Grisly Ornament}", "{feat/Harvest Parts}.", "Craft grotesque ornaments that provide moral bonuses to AC, attack, CMB, CMD, saves, or skills" ],
-					[ "{feat/Grow Plant Creature}", "{feat/Train Plants}, Handle Animal 5 ranks, Knowledge (nature) 5 ranks.", "Learn to cultivate and raise plant creatures" ],
-					[ "{feat/Harvest Parts}", "Craft (any) 1 rank or Heal 1 rank.", "Harvest parts from a creature to be used for crafting" ],
-					[ "{feat/Haunt Scavenger}", "Any one item creation feat or Craft (alchemy) 3 ranks.", "Syphon ectoplasm from haunts to use in crafting magic items" ],
-					[ "{feat/Infuse Poison}", "{feat/Brew Potion}, Craft (alchemy) 5 ranks, caster level 3rd.", "Infuse poisons with other spells" ],
-					[ "{feat/Inscribe Magical Tattoo}", "Craft (calligraphy, paintings, or tattoos) 5 ranks, caster level 5th", "Learn to craft magical tattoos" ],
-					[ "{feat/Lifecrafting}", "{feat/Craft Construct}, {feat/Leadership}.", "Create a new wyrwood from an ioun stone" ],
-					[ "{feat/Monstrous Crafter}", "{feat/Craft Wondrous Item}, {feat/Grisly Ornament}, {feat/Harvest Parts}.", "Integrate an ornament into a magic item to gain its benefit once per day" ],
-					[ "{feat/Reinforced Crafting}", "{feat/Craft Magic Arms and Armor}, ability to cast make whole or mending.", "Your magic items are more resilient" ],
-					[ "{feat/Scribe Scroll}", "Caster level 1st.", "Create magic scrolls" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_metamagic": {
@@ -1122,42 +1009,30 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_class).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Battering Ram} | Craft (alchemy) 3 ranks; grit class feature or {feat/Amateur Gunslinger}; pistol-whip gunslinger deed; quick clear gunslinger deed. | Use the pistol-whip deed to remove your gun's broken condition after a misfire |",
+			"| {feat/Blowout Shot Deed} | Craft (alchemy) 3 ranks, grit class feature or {feat/Amateur Gunslinger} feat. | Create concussive blasts with a specially prepared black powder mix |",
+			"| {feat/Casterbane Shot} | {feat/Amateur Gunslinger} or grit class feature, {feat/Point-Blank Shot}, {feat/Precise Shot}, base attack bonus +4. | Make it harder for spellcasters to concentrate while under fire |",
+			"| {feat/Deft Shootist} | Grit class feature or {feat/Amateur Gunslinger} feat, {feat/Dodge}, {feat/Mobility}. | Do not provoke attacks of opportunity while shooting or reloading firearms as long as you have 1 grit point |",
+			"| {feat/Dragon Shot} | {feat/Amateur Gunslinger} feat or grit class feature, Spellcraft 5 ranks. | Spend grit to change the damage type of your gun to energy damage |",
+			"| {feat/Extra Grit} | Grit class feature or the {feat/Amateur Gunslinger} feat. | Gain 2 extra grit points per day, and maximum grit increases by 2 |",
+			"| {feat/Fabulist} | {feat/Amateur Gunslinger} feat or grit class feature. | Bonus to Perform checks, regain grit by successfully lying |",
+			"| {feat/Gun Twirling} | {feat/Amateur Gunslinger} feat or grit class feature, {feat/Dazzling Display}, {feat/Weapon Focus}. | Utilize grit to feint with your firearm |",
+			"| {feat/Leaping Shot} | Dex 13, grit class feature or {feat/Amateur Gunslinger} feat, {feat/Dodge}, {feat/Mobility}, base attack bonus +4. | May move your speed and make firearm attacks |",
+			"| {feat/Musketeer's Dodge} | [Exotic Weapon Proficiency (firearms)](feat/exotic_weapon_proficiency), gunslinger level 3rd, gunslinger's dodge deed. | Increase the bonus from gunslinger's dodge and your movement doesn't provoke |",
+			"| {feat/Musketeer's Reposition} | [Exotic Weapon Proficiency (firearms)](feat/exotic_weapon_proficiency), gunslinger level 6th, pistol-whip deed. | When you use the pistol-whip deed, you can reposition instead of tripping |",
+			"| {feat/Named Bullet} | {feat/Amateur Gunslinger} feat or grit class feature, {feat/Gunsmithing}, base attack bonus +5. | Inscribe names of your targets on bullets to grant them bane against that target |",
+			"| {feat/No Name} | Grit class feature or {feat/Amateur Gunslinger} feat, Bluff 4 ranks. | Gain +2 on Bluff checks, and spend grit to gain +10 on Disguise checks |",
+			"| {feat/Poison Shot Deed} | {feat/Amateur Gunslinger} or grit class feature. | Prepare bullets to deliver poison |",
+			"| {feat/Recall Ammunition} | {feat/Amateur Gunslinger} feat or grit class feature, base attack bonus +9, Spellcraft 5 ranks. | You can spend grit to teleport a missed bullet back into your gun |",
+			"| {feat/Redirected Shot} | {feat/Amateur Gunslinger} or the grit class feature, {feat/Deadly Aim}, {feat/Precise Shot}. | Help redirect your allies' poorly aimed ranged attacks |",
+			"| {feat/Ricochet Shot Deed} | Grit class feature or {feat/Amateur Gunslinger} feat, {feat/Blind-Fight}. | Ricochet your shots off of a wall or other solid terrain |",
+			"| {feat/Secret Stash Deed} | Grit class feature or {feat/Amateur Gunslinger} feat, Sleight of Hand 1 rank. | Spend 1 grit point to recover powder or ammunitionfrom your person |",
+			"| {feat/Signature Deed} | Grit class feature, gunslinger level 11th. | Use 1 deed for 1 fewer grit point |",
+			"| {feat/Sizzling Shot} | Grit class feature or {feat/Amateur Gunslinger}, base attack bonus +4. | Cause your firearm attacks to be half fire damage |",
+			"| {feat/Whip-Shot Deed} | Grit class feature or {feat/Amateur Gunslinger} feat, pistol-whip deed. | Fire your gun at the same time you use pistol-whip |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Grit feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Battering Ram}", "Craft (alchemy) 3 ranks; grit class feature or {feat/Amateur Gunslinger}; pistol-whip gunslinger deed; quick clear gunslinger deed.", "Use the pistol-whip deed to remove your gun's broken condition after a misfire" ],
-					[ "{feat/Blowout Shot Deed}", "Craft (alchemy) 3 ranks, grit class feature or {feat/Amateur Gunslinger} feat.", "Create concussive blasts with a specially prepared black powder mix" ],
-					[ "{feat/Casterbane Shot}", "{feat/Amateur Gunslinger} or grit class feature, {feat/Point-Blank Shot}, {feat/Precise Shot}, base attack bonus +4.", "Make it harder for spellcasters to concentrate while under fire" ],
-					[ "{feat/Deft Shootist}", "Grit class feature or {feat/Amateur Gunslinger} feat, {feat/Dodge}, {feat/Mobility}.", "Do not provoke attacks of opportunity while shooting or reloading firearms as long as you have 1 grit point" ],
-					[ "{feat/Dragon Shot}", "{feat/Amateur Gunslinger} feat or grit class feature, Spellcraft 5 ranks.", "Spend grit to change the damage type of your gun to energy damage" ],
-					[ "{feat/Extra Grit}", "Grit class feature or the {feat/Amateur Gunslinger} feat.", "Gain 2 extra grit points per day, and maximum grit increases by 2" ],
-					[ "{feat/Fabulist}", "{feat/Amateur Gunslinger} feat or grit class feature.", "Bonus to Perform checks, regain grit by successfully lying" ],
-					[ "{feat/Gun Twirling}", "{feat/Amateur Gunslinger} feat or grit class feature, {feat/Dazzling Display}, {feat/Weapon Focus}.", "Utilize grit to feint with your firearm" ],
-					[ "{feat/Leaping Shot}", "Dex 13, grit class feature or {feat/Amateur Gunslinger} feat, {feat/Dodge}, {feat/Mobility}, base attack bonus +4.", "May move your speed and make firearm attacks" ],
-					[ "{feat/Musketeer's Dodge}", "[Exotic Weapon Proficiency (firearms)](feat/exotic_weapon_proficiency), gunslinger level 3rd, gunslinger's dodge deed.", "Increase the bonus from gunslinger's dodge and your movement doesn't provoke" ],
-					[ "{feat/Musketeer's Reposition}", "[Exotic Weapon Proficiency (firearms)](feat/exotic_weapon_proficiency), gunslinger level 6th, pistol-whip deed.", "When you use the pistol-whip deed, you can reposition instead of tripping" ],
-					[ "{feat/Named Bullet}", "{feat/Amateur Gunslinger} feat or grit class feature, {feat/Gunsmithing}, base attack bonus +5.", "Inscribe names of your targets on bullets to grant them bane against that target" ],
-					[ "{feat/No Name}", "Grit class feature or {feat/Amateur Gunslinger} feat, Bluff 4 ranks.", "Gain +2 on Bluff checks, and spend grit to gain +10 on Disguise checks" ],
-					[ "{feat/Poison Shot Deed}", "{feat/Amateur Gunslinger} or grit class feature.", "Prepare bullets to deliver poison" ],
-					[ "{feat/Recall Ammunition}", "{feat/Amateur Gunslinger} feat or grit class feature, base attack bonus +9, Spellcraft 5 ranks.", "You can spend grit to teleport a missed bullet back into your gun" ],
-					[ "{feat/Redirected Shot}", "{feat/Amateur Gunslinger} or the grit class feature, {feat/Deadly Aim}, {feat/Precise Shot}.", "Help redirect your allies' poorly aimed ranged attacks" ],
-					[ "{feat/Ricochet Shot Deed}", "Grit class feature or {feat/Amateur Gunslinger} feat, {feat/Blind-Fight}.", "Ricochet your shots off of a wall or other solid terrain" ],
-					[ "{feat/Secret Stash Deed}", "Grit class feature or {feat/Amateur Gunslinger} feat, Sleight of Hand 1 rank.", "Spend 1 grit point to recover powder or ammunitionfrom your person" ],
-					[ "{feat/Signature Deed}", "Grit class feature, gunslinger level 11th.", "Use 1 deed for 1 fewer grit point" ],
-					[ "{feat/Sizzling Shot}", "Grit class feature or {feat/Amateur Gunslinger}, base attack bonus +4.", "Cause your firearm attacks to be half fire damage" ],
-					[ "{feat/Whip-Shot Deed}", "Grit class feature or {feat/Amateur Gunslinger} feat, pistol-whip deed.", "Fire your gun at the same time you use pistol-whip" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_panache": {
@@ -1167,32 +1042,20 @@
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_class).",
 			"",
-			"{table0}"
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Confounding Tumble Deed} | {feat/Amateur Swashbuckler} feat or panache class feature, {feat/Canny Tumble}, Acrobatics 7 ranks. | When you avoid attacks of opportunity and hit a foe, you can deny it its Dex bonus to AC for 1 round |",
+			"| {feat/Dastardly Trick} | Int 13; {feat/Amateur Swashbuckler} or panache class feature; {feat/Combat Expertise}; {feat/Improved Dirty Trick}. | Your dirty tricks are harder to remove |",
+			"| {feat/Disarming Threat Deed} | {feat/Amateur Swashbuckler} or panache class feature; Diplomacy 2 ranks, Intimidate 2 ranks. | Use Intimidate without making the target unfriendly |",
+			"| {feat/Dueling Cape} | {feat/Amateur Swashbuckler} or panache class feature; {feat/Dodge}, Sleight of Hand 1 rank. | Use your cape as a snaring buckler |",
+			"| {feat/Enrage Opponent} | Cha 13, {feat/Persuasive}, either {feat/Amateur Swashbuckler} or the panache class feature. | Lower angered opponent's defenses until she attacks you |",
+			"| {feat/Extra Panache} | {feat/Amateur Swashbuckler} or panache class feature. | Gain 2 extra panache points |",
+			"| {feat/Lightning Draw} | {feat/Quick Draw}, swashbuckler initiative deed, swashbuckler level 7th. | Draw weapons reflexively |",
+			"| {feat/Musketeer's Daring} | Dex 15, derring-do deed, swashbuckler level 6th. | Reroll derring-do on a natural 5 |",
+			"| {feat/Musketeer's Sidestep} | Dodging panache deed, swashbuckler level 3rd. | Increase the bonus from dodging panahce and your movement doesn't provoke |",
+			"| {feat/Pommel Strike Deed} | {feat/Amateur Swashbuckler} or panache class feature; base attack bonus +3. | Attack with a light or one-handed piercing weapon's pommel and knock down foes |",
+			"| {feat/Structural Strike} | Knowledge (engineering) 5 ranks, precise strike class feature or precise strike deed. | Use precise strike against creatures normally immune |"
 		]],
-		"tables": [
-			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
-				"id": "Panache feats table",
-				"sizes": [ 125, 150, 200 ],
-				"ripples": [0],
-				"data": [
-					[ "{feat/Confounding Tumble Deed}", "{feat/Amateur Swashbuckler} feat or panache class feature, {feat/Canny Tumble}, Acrobatics 7 ranks.", "When you avoid attacks of opportunity and hit a foe, you can deny it its Dex bonus to AC for 1 round" ],
-					[ "{feat/Dastardly Trick}", "Int 13; {feat/Amateur Swashbuckler} or panache class feature; {feat/Combat Expertise}; {feat/Improved Dirty Trick}.", "Your dirty tricks are harder to remove" ],
-					[ "{feat/Disarming Threat Deed}", "{feat/Amateur Swashbuckler} or panache class feature; Diplomacy 2 ranks, Intimidate 2 ranks.", "Use Intimidate without making the target unfriendly" ],
-					[ "{feat/Dueling Cape}", "{feat/Amateur Swashbuckler} or panache class feature; {feat/Dodge}, Sleight of Hand 1 rank.", "Use your cape as a snaring buckler" ],
-					[ "{feat/Enrage Opponent}", "Cha 13, {feat/Persuasive}, either {feat/Amateur Swashbuckler} or the panache class feature.", "Lower angered opponent's defenses until she attacks you" ],
-					[ "{feat/Extra Panache}", "{feat/Amateur Swashbuckler} or panache class feature.", "Gain 2 extra panache points" ],
-					[ "{feat/Lightning Draw}", "{feat/Quick Draw}, swashbuckler initiative deed, swashbuckler level 7th.", "Draw weapons reflexively" ],
-					[ "{feat/Musketeer's Daring}", "Dex 15, derring-do deed, swashbuckler level 6th.", "Reroll derring-do on a natural 5" ],
-					[ "{feat/Musketeer's Sidestep}", "Dodging panache deed, swashbuckler level 3rd.", "Increase the bonus from dodging panahce and your movement doesn't provoke" ],
-					[ "{feat/Pommel Strike Deed}", "{feat/Amateur Swashbuckler} or panache class feature; base attack bonus +3.", "Attack with a light or one-handed piercing weapon's pommel and knock down foes" ],
-					[ "{feat/Structural Strike}", "Knowledge (engineering) 5 ranks, precise strike class feature or precise strike deed.", "Use precise strike against creatures normally immune" ]
-				]
-			}
-		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	}
 }

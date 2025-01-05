@@ -12,6 +12,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abaia}", 10, "magical beast", "aquatic", [ 6, "huge" ], [ 4, "N" ], "This multi-eyed eel's brightly colored markings shift in complex, ever-changing patterns." ],
@@ -273,6 +274,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Adaro}", 3, "monstrous humanoid", "aquatic", [ 4, "medium" ], [ 5, "NE" ], "This hybrid of human and shark holds its spear menacingly, thick, glistening saliva dripping from its razor-sharp teeth." ],
@@ -436,6 +438,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Alraune}", 13, "plant", null, [ 5, "large" ], [ 5, "NE" ], "An attractive green-skinned woman sits in the depths of this enormous, sweet-smelling flower." ],
@@ -568,6 +571,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abandoned One}", 4, "undead", null, [ 4, "medium" ], [ 8, "CE" ], "This corpse of a soldier is twisted and ghoulish, its old-fashioned clothes are caked in mud, and its is expression lost and forlorn." ],
@@ -802,6 +806,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Ant Lion, Giant Adult Ant Lion}", 6, "vermin", null, [ 6, "huge" ], [ 4, "N" ], "This spindly insect, borne aloft on four delicate wings, snaps its mandibles in obvious hunger." ],
@@ -967,6 +972,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abaia}", 10, "magical beast", "aquatic", [ 6, "huge" ], [ 4, "N" ], "This multi-eyed eel's brightly colored markings shift in complex, ever-changing patterns." ],
@@ -1234,6 +1240,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Allip}", 3, "undead", "incorporeal", [ 4, "medium" ], [ 8, "CE" ], "This malignant cloud of shadows boils in the air, its skeletal maw eerily babbling as the creature's claws manifest from the darkness." ],

@@ -12,6 +12,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aatheriexa}", 7, "aberration", null, [ 4, "medium" ], [ 5, "NE" ], "A tangle of thin, tentacle-like eyestalks floats in the air, its innumerable unblinking eyes each projecting an air of cruelty." ],
@@ -196,6 +197,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Ape, Dire Ape (Gigantopithecus)}", 3, "animal", null, [ 5, "large" ], [ 4, "N" ], "Sharp teeth fill this large, feral ape's mouth, and its long, muscular arms stretch to the ground, ending in wickedly curved claws." ],
@@ -510,6 +512,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aballonian}", 7, "construct", null, [ 4, "medium" ], [ 4, "N" ], "This insectile construct skitters around on metallic legs, its manipulators clacking and glowing eyes searching." ],
@@ -706,6 +709,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aashaq's Wyvern}", 8, "dragon", null, [ 5, "large" ], [ 7, "CN" ], "This light purple dragon has immense wings and a bifurcated tail, each end tipped with a hooked stinger. Heavy smoke drips from the beast's nostrils and jaws." ],
@@ -902,6 +906,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
+				"sizes": [ 150, 50, 100, 100, 110, 90, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Alp}", 10, "fey", null, [ 4, "medium" ], [ 7, "CN" ], "This hoofed creature's large yellow eyes are set in a noseless face above a grinning, fang-filled mouth." ],

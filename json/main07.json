@@ -11,6 +11,7 @@
 				"headers": [ "Spell", "Level(s)", "School", "Description" ],
 				"types": [ null, "num", null, 0 ],
 				"alignments": [ true, null, null, true ],
+				"sizes": [ 125, 75, 125, 200 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abadar's Truthtelling}", 1, "enchantment", "Force the target to speak the truth." ],

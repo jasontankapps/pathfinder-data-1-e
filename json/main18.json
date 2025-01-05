@@ -20,6 +20,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Acolyte}", [ -3, "1/3" ], "Human adept 1" ],
 					[ "{npc/Apprentice Jeweler}", [ -3, "1/3" ], "Human expert 1" ],
@@ -536,6 +537,7 @@
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 50, 150 ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Acolyte}", [ -3, "1/3" ], "Human adept 1" ],
@@ -559,6 +561,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Apprentice Jeweler}", [ -3, "1/3" ], "Human expert 1" ],
 					[ "{npc/Old Sailor}", [ -2, "1/2" ], "Elf expert 2" ],
@@ -594,6 +597,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Beggar}", [ -3, "1/3" ], "Half-elf commoner 1" ],
 					[ "{npc/Villager (Village Idiot)}", [ -3, "1/3" ], "Human commoner 1" ],
@@ -621,6 +625,7 @@
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 50, 150 ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Crusader (Squire)}", [ -3, "1/3" ], "Human aristocrat 1" ],
@@ -654,6 +659,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Military (Foot Soldier)}", [ -3, "1/3" ], "Human warrior 1" ],
 					[ "{npc/Recruit}", [ -3, "1/3" ], "Dwarf warrior 1" ],
@@ -700,6 +706,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Tavern Singer}", [ -2, "1/2" ], "Half-elf bard 1" ],
 					[ "{npc/Entertainer (Storyteller)}", 1, "Human bard 2" ],
@@ -752,6 +759,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Mercenary Magician}", [ -2, "1/2" ], "Human sorcerer 1" ],
 					[ "{npc/Gem Sorcerer}", 1, "Dwarf sorcerer 2" ],
@@ -800,6 +808,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Cautious Mage}", [ -2, "1/2" ], "Human wizard 1" ],
 					[ "{npc/Battle Mage}", 2, "Elf wizard 3" ],
@@ -845,6 +854,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Mercenary Healer}", [ -2, "1/2" ], "Human cleric of Abadar 1" ],
 					[ "{npc/Temple (Acolyte)}", [ -2, "1/2" ], "Human cleric 1" ],
@@ -893,6 +903,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Initiate of Flame}", [ -2, "1/2" ], "Dwarf druid 1" ],
 					[ "{npc/Sail Master}", 1, "Human druid 2" ],
@@ -931,6 +942,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Novice Scout}", [ -2, "1/2" ], "Half-elf ranger 1" ],
 					[ "{npc/Town Watcher}", 1, "Halfling ranger 2" ],
@@ -978,6 +990,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Callous Rake}", [ -2, "1/2" ], "Human paladin of Iomedae 1" ],
 					[ "{npc/Honorable Outcast}", 1, "Half-orc paladin of Torag 2" ],
@@ -1032,6 +1045,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Savage Mercenary}", [ -2, "1/2" ], "Human barbarian 1" ],
 					[ "{npc/Ulfen Raider}", [ -2, "1/2" ], "Human barbarian 1" ],
@@ -1076,6 +1090,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Superstitious Mercenary}", [ -2, "1/2" ], "Human fighter 1" ],
 					[ "{npc/Criminal (Street Thug)}", 1, "Human fighter 1/rogue 1" ],
@@ -1144,6 +1159,7 @@
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 50, 150 ],
 				"data": [
 					[ "{npc/Careful Initiate}", [ -2, "1/2" ], "Human monk 1" ],
 					[ "{npc/Bullying Brawler}", 1, "Human monk 2" ],
@@ -1180,6 +1196,7 @@
 				"headers": [ "NPC", "CR", "Race/Class" ],
 				"types": [ null, "num", null ],
 				"alignments": [ true, null, true ],
+				"sizes": [ 150, 50, 150 ],
 				"ripples": [0],
 				"data": [
 					[ "{npc/Criminal (Pickpocket)}", [ -2, "1/2" ], "Human rogue 1" ],
@@ -1338,6 +1355,7 @@
 				"ripples": [0],
 				"types": [ null, null, "gp", "bonus", "bonus", "num", null, null, null, "lbs", "num", null ],
 				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null ],
+				"sizes": [ 150, 80, 90, 115, 75, 75, 75, 125, 125, 75, 75, 125 ],
 				"data": [
 					[ "{tech-armor/chameleon suit}", [ 0, "light" ], 15000, 2, 6, 0, "10%", "30 ft.", "20 ft.", 5, 50, "1 charge/minute" ],
 					[ "{tech-armor/deep diving suit}", [ 0, "light" ], 26000, 3, 5, -2, "30%", "30 ft.", "20 ft.", 20, 25, "1 charge/hour" ],
@@ -1378,6 +1396,7 @@
 				"headers": [ "Name", "Weapon Type", "Proficiency", "Cost", "Dmg (S)", "Dmg (M)", "Critical", "Range", "Capacity", "Usage", "Weight", "Dmg Type", "Special" ],
 				"types": [ null, null, null, "gp", null, null, null, null, null, null, "lbs", null, null ],
 				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null, true ],
+				"sizes": [ 150, 100, 100, 75, 90, 90, 75, 100, 90, 125, 75, 100, 125 ],
 				"ripples": [0],
 				"data": [
 					[ "{tech-weapon/neural inhibitor}", [ 0, "light" ], [ 0, "simple" ], 2400, [ 3.5, "1d6" ], [ 3.5, "1d6" ], [ 2, "&times;2" ], null, "10", "see text", 2, "B", null ],
@@ -1440,6 +1459,7 @@
 				"headers": [ "Name", "Cost", "Slot", "Weight", "Implantation", "Install DC" ],
 				"types": [ null, "gp", null, "lbs", "num", "num" ],
 				"alignments": [ true, null, null, null, null, null ],
+				"sizes": [ 150, 100, 100, 100, 110, 90 ],
 				"ripples": [0],
 				"data": [
 					[ "{tech-cybertech/biofilter}", 16000, "body", 2, 3, 25 ],
@@ -1521,6 +1541,7 @@
 				"types": [ null, null, "lbs" ],
 				"alignments": [ true, null, null ],
 				"ripples": [0],
+				"sizes": [ 150, 100, 100 ],
 				"data": [
 					[ "{tech-artifact/Arms of the Iron God}", "cybertech", 28 ],
 					[ "{tech-artifact/Autodoc}", "misc", 1200 ],
@@ -1585,6 +1606,7 @@
 				"headers": [ "Name", "Cost", "Weight", "Slot" ],
 				"types": [ null, "gp", "lbs", null ],
 				"alignments": [ true, null, null, null ],
+				"sizes": [ 150, 100, 100, 100 ],
 				"ripples": [0],
 				"data": [
 					[ "{tech-misc/access card (black)}", 10, 0, null ],
@@ -1785,6 +1807,7 @@
 				"types": [ null, "gp", "gp", null, null ],
 				"alignments": [ true, null, null, null, true ],
 				"ripples": [0],
+				"sizes": [ 150, 100, 125, 110, 150 ],
 				"data": [
 					[ "{eq-spellbook/Apprentice Chapbook of Rul Thaven}", 195, [999999, "&mdash;"], "Spellbook", "Diviner - Level 2" ],
 					[ "{eq-spellbook/Arctic Call}", 4335, 5985,  "Spellbook", "Evoker - Level 11" ],
@@ -1847,6 +1870,7 @@
 				"ripples": [0],
 				"types": [ null, null, "gp", "lbs", "num", "num", null, null, null, null, null, null ],
 				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null ],
+				"sizes": [ 125, 100, 75, 75, 75, 75, 90, 75, 50, 50, 50, 50 ],
 				"data": [
 					[ "{eq-siegeengine/alchemist's fire}", [ 0, "siege engine ammunition" ], 200, 10, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, [ -1, "&mdash;" ], [ -1, "&mdash;" ], null, [ -1, "&mdash;" ] ],
 					[ "{eq-siegeengine/ballista net}", [ 0, "siege engine ammunition" ], 75, 15, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, [ -1, "&mdash;" ], [ -1, "&mdash;" ], null, [ -1, "&mdash;" ] ],
@@ -1923,6 +1947,7 @@
 				"types": [ null, "gp", "lbs" ],
 				"alignments": [ true, null, null ],
 				"ripples": [0],
+				"sizes": [ 150, 110, 90 ],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/artisan's outfit}", 1, 4 ],
@@ -2058,6 +2083,7 @@
 				"types": [ null, null, "gp", "lbs" ],
 				"alignments": [ true, null, null, null ],
 				"ripples": [0],
+				"sizes": [ 150, 110, 90, 90 ],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/absinthe (bottle)}", "food or drink", 30, 1.5 ],
@@ -2168,6 +2194,7 @@
 				"types": [ null, null, "gp", "lbs" ],
 				"alignments": [ true, null, null, null ],
 				"ripples": [0],
+				"sizes": [ 150, 125, 90, 90 ],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/ball (10 in.)}", "entertainment", 6, 1 ],
@@ -2242,6 +2269,7 @@
 				"types": [ null, null, "gp", "lbs" ],
 				"alignments": [ true, null, null, null ],
 				"ripples": [0],
+				"sizes": [ 150, 125, 90, 90 ],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/wind platform}", "transport, air", 5000, 1600 ],
@@ -2304,6 +2332,7 @@
 				"types": [ null, "gp", "lbs" ],
 				"alignments": [ true, null, null ],
 				"ripples": [0],
+				"sizes": [ 150, 90, 90 ],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/allosaurus}", 3850, 0 ],
@@ -2545,6 +2574,7 @@
 				"types": [ null, null, "gp", "lbs" ],
 				"alignments": [ true, null, null, null ],
 				"ripples": [0],
+				"sizes": [ 150, 125, 90, 90 ],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/allnight}", "black market", 75, 0 ],
@@ -2623,6 +2653,7 @@
 				"id": "poisons",
 				"headers": [ "Name", "Type", "Saving Throw", "Onset", "Frequency", "Effect", "Cost" ],
 				"types": [ null, null, null, null, null, null, "gp" ],
+				"sizes": [ 150, 75, 90, 125, 110, 150, 110 ],
 				"alignments": [ true, null, null, null, null, true, null ],
 				"ripples": [0],
 				"data": [
