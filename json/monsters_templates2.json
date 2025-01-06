@@ -1161,9 +1161,9 @@
 			"",
 			"| Hit Dice | DR | Spell-Like Abilities |",
 			"| --- | --- | --- |",
-			"| 1-4 | - | Dancing lights |",
-			"| 5-10 | 5/cold iron | Faerie fire |",
-			"| 11+ | 10/cold iron | Lesser confusion |"
+			"| 1-4 | - | {spell/Dancing lights} |",
+			"| 5-10 | 5/cold iron | {spell/Faerie fire} |",
+			"| 11+ | 10/cold iron | {spell/Lesser confusion} |"
 		]
 	},
 	"promethean_creature": {

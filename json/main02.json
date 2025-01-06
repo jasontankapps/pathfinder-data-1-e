@@ -79,7 +79,7 @@
 				"nullValue": "",
 				"ripples": [0],
 				"id": "General feats table",
-				"sizes": [ 125, 150, 200 ],
+				"sizes": [ 150, 150, 225 ],
 				"data": [
 					[ "{feat/Aberrant Tumor}", "Aberrant bloodline.", "Gain a tumor familiar" ],
 					[ "{feat/Aberration-Bane Caster}", "Caster level 4th, gillman, favored enemy (aberrations) class feature.", "Increase the save DC of your spells that target aberrations" ],
@@ -1704,7 +1704,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"ripples": [0],
-				"sizes": [ 125, 150, 200 ],
+				"sizes": [ 150, 150, 225 ],
 				"id": "Critical feats table",
 				"data": [
 					[ "{feat/Accursed Critical}", "{feat/Critical Focus}, ability to cast bestow curse or major curse, caster level 9th.", "Confirm a critical hit and cast a curse as part of the attack" ],

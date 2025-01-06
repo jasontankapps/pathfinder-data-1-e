@@ -12,7 +12,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 150, 75, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
+				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Alghollthu, Plizeazoth}", 12, "aberration", [ 6, "huge" ], [ 5, "NE" ], "This massive raylike aquatic creature has five bulbous red eyes. Long tentacles protrude from the sides of its wide mouth, and its slimy skin undulates with sickening shudders.", 30, 18, 23, 5, 18, 23, 11, 23, 38 ],
@@ -318,7 +318,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 150, 75, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
+				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Akaruzug}", 15, "construct", [ 5, "large" ], [ 2, "LE" ], "This stony guardian has been sculpted in the shape of a grim, horned angel, and a crucified corpse has been affixed to its chest.", 26, 17, [ -1, "&mdash;" ], 15, 18, 19, 20, 29, 46 ],

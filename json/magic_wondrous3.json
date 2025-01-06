@@ -2368,11 +2368,11 @@
 			"**Aura** moderate divination; **CL** 7th  ",
 			"**Slot** neck; **Price** 27,000 gp; **Weight** 2 lbs.",
 			"",
-			"This mummified dwarf hand hangs on a steel chain around a character's neck, bringing the wearer more in tune with the earth beneath her feet. If the wearer spends a standard action concentrating on the hand, she gains tremorsense out to a range of 30 feet until the start of her next turn. This ability only allows her to sense creatures and objects that are in contact with earth or stone.",
+			"This mummified dwarf hand hangs on a steel chain around a character's neck, bringing the wearer more in tune with the earth beneath her feet. If the wearer spends a standard action concentrating on the hand, she gains {umr/tremorsense} out to a range of 30 feet until the start of her next turn. This ability only allows her to sense creatures and objects that are in contact with earth or stone.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairvoyance/clairaudience; **Cost** 13,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairvoyance//clairaudience}; **Cost** 13,500 gp"
 		]
 	},
 	"periapt_of_proof_against_poison": {

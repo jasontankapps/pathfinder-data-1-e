@@ -1002,7 +1002,7 @@
 			"",
 			"| d% | Action |",
 			"| --- | --- |",
-			"| 1-20 | Move action (must use move action to move) |",
+			"| 01-20 | Move action (must use move action to move) |",
 			"| 21-40 | Other move action (perform a move action other than moving) |",
 			"| 41-60 | Attack action (spend a standard action on the attack action, attacking once with a weapon) |",
 			"| 61-80 | Other standard action (perform a standard action that isn't the attack action) |",

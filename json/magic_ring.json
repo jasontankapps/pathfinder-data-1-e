@@ -3838,5 +3838,31 @@
 			"",
 			"**Requirements** {magic-ring/ring of mind shielding}, {magic-ring/ring of x-ray vision}; **Cost** -"
 		]
+	},
+	"ring_of_sealed_souls": {
+		"name": "Ring of Sealed Souls",
+		"sources": [ "Chronicle of Legends" ],
+		"description": [
+			"## Ring of Sealed Souls",
+			"",
+			"{SOURCE Chronicle of Legends/21}  ",
+			"**Slot** ring; **CL** 15th; **Weight** -  ",
+			"**Aura** strong abjuration",
+			"",
+			"According to records salvaged from abandoned temples of Aroden, the high priest Narthoc was wearing a ring of sealed souls when he trapped the [Whispering Tyrant](monster/the_whispering_tyrant) under Gallowspire in 3827 ar.",
+			"",
+			"If the wearer of this braided ring is slain while wearing the ring, he cannot be raised as undead. Additionally, the wearer can be revived with {spell/raise dead} or similar effects even if he was slain by a death effect.",
+			"",
+			"**8th Level:** The wearer can use {spell/hold portal} at will as a spell-like ability, though he can have only one portal held by this ability at a time. Should he use the ability again while the spell is already active, the first casting is immediately dismissed.",
+			"",
+			"**11th Level:** Weapons wielded by the wearer gain the {magic-enhancement/ghost touch} weapon property.",
+			"",
+			"**14th Level:** The wearer can use {spell/guards and wards} once per day as a spell-like ability.",
+			"",
+			"**17th Level:** The wearer adds {spell/binding} to his class spell list and list of spells known. The wearer can use {spell/binding} once per day as a spell-like ability, but he must provide the expensive material component for the spell.",
+			"",
+			"**Goal:** The wearer must defeat an undead creature or evil outsider whose CR is at least 4 greater than his Hit Dice.  ",
+			"**Reward:** The wearer is constantly under the effect of {spell/protection from evil} with a caster level equal to his character level. Should this effect be dispelled, he can resume it as a free action."
+		]
 	}
 }

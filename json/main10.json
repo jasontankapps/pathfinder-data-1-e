@@ -12,7 +12,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 130, 50, 110, 110, 110, 220 ],
+				"sizes": [ 150, 55, 125, 110, 110, 250 ],
 				"initialColumn": 1,
 				"ripples": [0],
 				"data": [
@@ -1014,7 +1014,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 130, 50, 110, 110, 110, 220 ],
+				"sizes": [ 150, 55, 125, 110, 110, 250 ],
 				"initialColumn": 1,
 				"ripples": [0],
 				"data": [
@@ -1902,7 +1902,7 @@
 				"headers": [ "Ritual", "Level", "School", "Description" ],
 				"types": [ null, "num", null, 0 ],
 				"alignments": [ true, null, null, true ],
-				"sizes": [ 125, 50, 125, 200 ],
+				"sizes": [ 150, 50, 125, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Analytical Congress}", 4, "transmutation", "Grant a group an increased capacity to research and learn" ],

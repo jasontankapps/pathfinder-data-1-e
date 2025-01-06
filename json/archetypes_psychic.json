@@ -20,7 +20,7 @@
 			"",
 			"| d% | Result |",
 			"| --- | --- |",
-			"| 1-10 | The amnesiac is unable to cast spells this round. |",
+			"| 01-10 | The amnesiac is unable to cast spells this round. |",
 			"| 11-35 | The amnesiac can't remember the new spell (but can still cast spells this round). |",
 			"| 36-95 | The amnesiac remembers and can cast the new spell. |",
 			"| 96+ | The amnesiac can choose to treat this result as 36-95. Alternatively, once per day, she can instead temporarily recall any spell from the psychic spell list that's 1 level higher than the spell she's attempting to remember. When she does, her caster level counts as the minimum caster level required to cast the higher-level spell, and she forgets the spell after it's cast. |"

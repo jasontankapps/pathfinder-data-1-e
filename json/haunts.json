@@ -790,7 +790,7 @@
 			"",
 			"| d% | Quickening Effect |",
 			"| --- | --- |",
-			"| 1-25 | The target transforms into a Tiny animal that is not native to the local region (as per {spell/baleful polymorph}). As typical for that spell, a creature that fails the initial Fortitude saving throw must succeed at a secondary Will saving throw or lose significant mental abilities. |",
+			"| 01-25 | The target transforms into a Tiny animal that is not native to the local region (as per {spell/baleful polymorph}). As typical for that spell, a creature that fails the initial Fortitude saving throw must succeed at a secondary Will saving throw or lose significant mental abilities. |",
 			"| 26-40 | The target gains a random mutation from the {template/mutant/ creature template}, with the exception of radiation affinity. Roll 1d20 to select the mutation. |",
 			"| 41-75 | The target gains a random deformity from the {template/mutant/ creature template}. Roll 1d12 to select the specific deformity. |",
 			"| 76-95 | The First World lashes out at the target vindictively, bestowing the {corruption/accursed} corruption. |",

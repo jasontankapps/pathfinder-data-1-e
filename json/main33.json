@@ -25,11 +25,11 @@
 			"## main/spells_mythic_shaman Shaman",
 			"## main/spells_mythic_warpriest Warpriest",
 			"# Occult Mythic Spells by Class",
-			"## main/spells_mythic_medium Mythic Medium Spells",
-			"## main/spells_mythic_mesmerist Mythic Mesmerist Spells",
-			"## main/spells_mythic_occultist Mythic Occultist Spells",
-			"## main/spells_mythic_psychic Mythic Psychic Spells",
-			"## main/spells_mythic_spiritualist Mythic Spiritualist Spells",
+			"## main/spells_mythic_medium Medium",
+			"## main/spells_mythic_mesmerist Mesmerist",
+			"## main/spells_mythic_occultist Occultist",
+			"## main/spells_mythic_psychic Psychic",
+			"## main/spells_mythic_spiritualist Spiritualist",
 			"---",
 			[ "{table0}" ]
 		],
@@ -39,7 +39,7 @@
 				"headers": [ "Spell", "Level(s)", "School", "Description" ],
 				"types": [ null, "num", null, 0 ],
 				"alignments": [ true, null, null, true ],
-				"sizes": [ 150, 75, 110, 250 ],
+				"sizes": [ 150, 75, 125, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Animate Plants}", 7, "transmutation", "One or more plants animate and fight for you." ],
@@ -185,7 +185,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
@@ -293,7 +293,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -341,7 +341,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -389,7 +389,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -425,7 +425,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -463,7 +463,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"data": [
 					[ "{spell/Chord of Shards}", 1, "evocation", null, null, "Performance deals 2d6 piercing damage." ],
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -507,7 +507,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -567,7 +567,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"data": [
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -635,7 +635,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -689,7 +689,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -752,7 +752,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -805,7 +805,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -838,7 +838,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -886,7 +886,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -933,7 +933,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -987,7 +987,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -1020,7 +1020,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -1055,7 +1055,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -1109,7 +1109,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"data": [
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
 					[ "{spell/Ear-Piercing Scream}", 1, "evocation", null, "sonic", "Deal sonic damage and daze target." ],
@@ -1154,7 +1154,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -1204,7 +1204,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
@@ -1269,7 +1269,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
@@ -1345,7 +1345,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -1390,7 +1390,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Alchemical Tinkering}", 1, "transmutation", null, null, "Transform an alchemical item or firearm into another similar item." ],

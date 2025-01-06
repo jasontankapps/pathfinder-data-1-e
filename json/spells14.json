@@ -998,7 +998,7 @@
 			"| HD of Undead | Touch Spells Infused |",
 			"| --- | --- |",
 			"| 5 or lower | One 1st-level spell |",
-			"| 6-10 | One or two 1st-level spells |",
+			"| 06-10 | One or two 1st-level spells |",
 			"| 11 or higher | One or two 1st-level spells and one 2nd-level spell |",
 			"",
 			"Once you cast infuse decay, you can't prepare a new 4th-level spell to replace it (see {spell/imbue with spell ability} for further details). The infused spell is automatically triggered the next time the undead creature makes a successful touch attack or attack with a natural weapon. An intelligent undead can choose not to trigger the spell on a hit. Only one infused spell can be triggered per attack. An intelligent undead can choose which spell to trigger if it has more than one infused spell. A nonintelligent undead triggers a random spell when it hits with a natural weapon. Only one spell can be triggered per round, regardless of the number of attacks the undead makes."
@@ -2236,7 +2236,7 @@
 			"",
 			"| d% | Maze Section |",
 			"| --- | --- |",
-			"| 1-20 | Circus |",
+			"| 01-20 | Circus |",
 			"| 21-40 | Haunted forest |",
 			"| 41-60 | Hellscape |",
 			"| 61-80 | Oasis of respite |",

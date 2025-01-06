@@ -13,7 +13,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"alignments": [ true, null, null, null, null, true ],
 				"initialColumn": 1,
-				"sizes": [ 130, 50, 110, 110, 110, 220 ],
+				"sizes": [ 150, 55, 125, 110, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Arcane Mark}", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],
@@ -1259,7 +1259,7 @@
 				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 130, 50, 110, 110, 110, 220 ],
+				"sizes": [ 150, 55, 125, 110, 110, 250 ],
 				"initialColumn": 1,
 				"ripples": [0],
 				"data": [

@@ -776,7 +776,7 @@
 			"",
 			"| d% | Effect |",
 			"| --- | --- |",
-			"| 1-19 | The spell rebounds on its caster with normal effect. If the spell cannot affect the caster, it simply fails. |",
+			"| 01-19 | The spell rebounds on its caster with normal effect. If the spell cannot affect the caster, it simply fails. |",
 			"| 20-23 | A circular pit 15 feet wide opens under the caster's feet; it is 10 feet deep per caster level. |",
 			"| 24-27 | The spell fails, but the target or targets of the spell are pelted with a rain of small objects (anything from flowers to rotten fruit), which disappear upon striking. The barrage continues for 1 round. During this time, the targets are blinded and must succeed at concentration checks (DC = 15 + spell level) to cast spells. |",
 			"| 28-31 | The spell affects a random target or area. Randomly determine a target from among those in range of the spell or center the spell at a random place within range of the spell. To generate the direction randomly, roll 1d8 and count clockwise around the compass, starting with south. To generate the range randomly, roll 3d6 and multiply the result by 5 feet for close-range spells, 20 feet for medium-range spells, or 80 feet for long-range spells. |",

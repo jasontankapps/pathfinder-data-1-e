@@ -1911,7 +1911,7 @@
 					[ null, "96-98", "{magic-staff/Staff of Passage}", 206900 ],
 					[ null, "99-100", "{magic-staff/Staff of Power}", 235000 ]		
 				],
-				"initialColumn": 0,
+				"initialColumn": 3,
 				"ripples": [2],
 				"nullValue": "&mdash;",
 				"sortable": false
@@ -2063,6 +2063,7 @@
 				"id": "table 15-18 minor wondrous items",
 				"headers": ["d%", "Item", "Market Price"],
 				"types": [0, 0, "gp"],
+				"sizes": [ 25, 150, 90 ],
 				"data": [
 					[ "01", "{magic-wondrous/Feather token, anchor}", 50 ],
 					[ "02", "{magic-wondrous/Universal solvent}", 50 ],
@@ -2196,6 +2197,7 @@
 				"id": "table 15-19 medium wondrous items",
 				"headers": ["d%", "Item", "Market Price"],
 				"types": [0, 0, "gp"],
+				"sizes": [ 25, 150, 90 ],
 				"data": [
 					[ "01", "{magic-wondrous/Amulet of natural armor +2}", 8000 ],
 					[ "02", "{magic-wondrous/Golem manual, flesh}", 8000 ],
@@ -2329,6 +2331,7 @@
 				"id": "table 15-20 major wondrous items",
 				"headers": ["d%", "Item", "Market Price"],
 				"types": [0, 0, "gp"],
+				"sizes": [ 25, 150, 90 ],
 				"data": [
 					[ "01", "{magic-wondrous/Dimensional shackles}", 28000 ],
 					[ "02", "{magic-wondrous/Figurine of wondrous power, obsidian steed}", 28500 ],
