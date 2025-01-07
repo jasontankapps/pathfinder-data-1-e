@@ -361,7 +361,7 @@
 					[ "{spell/Wrathful Mantle}", 3, "Subject shines and gets +1/four levels on all saves." ]
 				],
 				"initialColumn": 0,
-				"filterable": 1
+				"filter": [ { "col": 1, "has": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] } ]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
@@ -605,7 +605,7 @@
 					[ "{spell/Zone of Silence}", 4, "Keeps eavesdroppers from overhearing you." ]
 				],
 				"initialColumn": 0,
-				"filterable": 1
+				"filter": [ { "col": 1, "has": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] } ]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
@@ -827,7 +827,7 @@
 					[ "{spell/Pesh Addiction, Lesser}", 3, "Force someone to use pesh." ],
 					[ "{spell/Phantom Blood}", 1, "Gain temporary hp if Con loss would knock you out or kill you." ],
 					[ "{spell/Phantom Limb}", [ 5.501, "5, 6" ], "Create a semi-visible psychic manifestation of a limb, allowing a creature to replace a missing body part or parts." ],
-					[ "{spell/Plague Bearer}", [ 6.231, "6, 7" ], "Make the target a carrier of numerous diseases." ],
+					[ "{spell/Plague Bearer}", [ 6.077, "4, 6, 7" ], "Make the target a carrier of numerous diseases." ],
 					[ "{spell/Plague Carrier}", [ 4.441, "4, 5" ], "Target's attacks carry filth fever." ],
 					[ "{spell/Plague Storm}", [ 6.331, "6, 7" ], "Cloud infects creatures like contagion." ],
 					[ "{spell/Plundered Power}", [ 6.731, "6, 7" ], "Kill a creature and steal its strongest spell-like ability" ],
@@ -944,7 +944,7 @@
 					[ "{spell/Wracking Ray}", 5, "Fire a ray to deal Dexterity and Strength damage." ]
 				],
 				"initialColumn": 0,
-				"filterable": 1
+				"filter": [ { "col": 1, "has": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] } ]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
@@ -1751,7 +1751,7 @@
 					[ "{spell/Zone of Foul Flames}", 4, "Create an area that returns fire spells and effects back onto their caster." ]
 				],
 				"initialColumn": 0,
-				"filterable": 1
+				"filter": [ { "col": 1, "has": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] } ]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]

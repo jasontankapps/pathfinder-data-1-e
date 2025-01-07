@@ -38,6 +38,19 @@
 				"id": "mythic spells table",
 				"headers": [ "Spell", "Level(s)", "School", "Description" ],
 				"types": [ null, "num", null, 0 ],
+				"filter": [
+					{ "col": 2, "equals": [
+						"universal",
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
 				"alignments": [ true, null, null, true ],
 				"sizes": [ 150, 75, 125, 250 ],
 				"ripples": [0],
@@ -181,7 +194,6 @@
 			{
 				"id": "arcanist sorcerer wizards mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -289,7 +301,6 @@
 			{
 				"id": "alchemist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -337,7 +348,6 @@
 			{
 				"id": "investigator mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -385,7 +395,6 @@
 			{
 				"id": "summoner mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -421,7 +430,6 @@
 			{
 				"id": "unchained_summoner mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -458,7 +466,6 @@
 			{
 				"id": "bard and skald mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -503,7 +510,6 @@
 			{
 				"id": "magus mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -562,7 +568,6 @@
 			{
 				"id": "witch mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -630,7 +635,6 @@
 			{
 				"id": "bloodrager mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -685,7 +689,6 @@
 			{
 				"id": "cleric oracle mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -748,7 +751,6 @@
 			{
 				"id": "druid mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -801,7 +803,6 @@
 			{
 				"id": "ranger mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -834,7 +835,6 @@
 			{
 				"id": "hunter mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -881,7 +881,6 @@
 			{
 				"id": "inquisitor mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -928,7 +927,6 @@
 			{
 				"id": "warpriest mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -983,7 +981,6 @@
 			{
 				"id": "paladin mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -1016,7 +1013,6 @@
 			{
 				"id": "antipaladin mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -1051,7 +1047,6 @@
 			{
 				"id": "shaman mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -1104,7 +1099,6 @@
 			{
 				"id": "medium mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -1149,7 +1143,6 @@
 			{
 				"id": "mesmerist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -1200,7 +1193,6 @@
 			{
 				"id": "occultist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -1265,7 +1257,6 @@
 			{
 				"id": "psychic mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -1341,7 +1332,6 @@
 			{
 				"id": "spiritualist mythic spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -1386,7 +1376,20 @@
 			{
 				"id": "redmantisassassin spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
+				"filter": [
+					{ "col": 1, "range": [1, 4] },
+					{ "col": 2, "equals": [
+						"universal",
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],

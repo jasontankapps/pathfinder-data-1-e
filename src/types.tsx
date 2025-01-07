@@ -33,6 +33,18 @@ export type TableColumnInfoTypes = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "nu
 export type Hierarchy = [string, string];
 export type HierarchyArray = Hierarchy[];
 
+export interface Filter {
+	col: number
+	header?: string
+	labels?: string[]
+	// range of numbers
+	range?: [number, number]
+	// array of values
+	equals?: (string | number)[]
+	// array of strings that may partially match
+	has?: string[]
+}
+
 export interface Table {
 	// unique identifier
 	id: string
@@ -55,8 +67,8 @@ export interface Table {
 	ripples?: number[]
 	// some tables do not need sorting information (defaults to true)
 	sortable?: boolean
-	// some tables have an additional filter (usually spell levels or CR)
-	filterable?: number
+	// some tables have additional filters (usually spell levels or CR)
+	filter?: Filter[]
 	// specifying column widths
 	sizes?: number | number[]
 }

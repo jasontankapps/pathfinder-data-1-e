@@ -329,10 +329,9 @@
 					[ "{spell/Woodland Rune}", 3, "Triggered rune slows the movements of creatures in the area" ],
 					[ "{spell/Word of Resolve}", 1, "Ally rerolls a save against charm or fear." ],
 					[ "{spell/Wreath of Blades}", [ 4.701, "4, 5" ], "Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity." ]
-				]
-				,
+				],
 				"initialColumn": 0,
-				"filterable": 1
+				"filter": [ { "col": 1, "has": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] } ]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
@@ -807,7 +806,7 @@
 					[ "{spell/Word of Recall}", [ 6.601, "6, 7, 8" ], "Teleports you back to designated place." ]
 				],
 				"initialColumn": 0,
-				"filterable": 1
+				"filter": [ { "col": 1, "has": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] } ]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
@@ -1093,7 +1092,7 @@
 					[ "{spell/Witness}", 3, "See through the target's eyes and ears." ]
 				],
 				"initialColumn": 0,
-				"filterable": 1
+				"filter": [ { "col": 1, "has": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] } ]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
@@ -1441,7 +1440,7 @@
 					[ "{spell/Zone of Truth}", 2, "Subjects within range cannot lie." ]
 				],
 				"initialColumn": 0,
-				"filterable": 1
+				"filter": [ { "col": 1, "has": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] } ]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]

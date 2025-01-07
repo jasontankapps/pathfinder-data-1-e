@@ -42,7 +42,7 @@ function isGood(value) {
 						msg.push(`Non-object table at ${prop}.tables[${i}]`)
 						return true;
 					} else {
-						const { id, headers, types, alignments, data, sizes, initialColumn, nullValue } = table;
+						const { id, headers, types, alignments, data, sizes, initialColumn, nullValue, filter } = table;
 						if(
 							typeof id !== "string"
 							|| typeof initialColumn !== "number"
@@ -71,6 +71,46 @@ function isGood(value) {
 						) {
 							found = true;
 							msg.push(`Alignment array table error at ${prop}.tables[${i}]`)
+							return true;
+						} else if (
+							filter && (
+								!Array.isArray(filter)
+								|| filter.some(f => {
+									if(!f || typeof f !== "object") {
+										return true;
+									} else if (f.col === undefined) {
+										found = true;
+										msg.push(`Filter missing "col" prop in ${prop}.tables[${i}]`);
+										return true;
+									} else if (f.range && (
+										!Array.isArray(f.range)
+										|| f.range.length !== 2
+										|| f.range.some(s => typeof(s) !== "number")
+										|| f.range[0] >= f.range[1]
+									)) {
+										found = true;
+										msg.push(`Filter has incorrect "range" prop in ${prop}.tables[${i}]`);
+										return true;
+									} else if (f.equals && (!Array.isArray(f.equals) || f.equals.some(x => typeof x !== "string" && typeof x !== "number"))) {
+										found = true;
+										msg.push(`Filter has bad "equals" prop in ${prop}.tables[${i}]`);
+										return true;
+									} else if (f.has && (!Array.isArray(f.has) || f.has.some(x => typeof x !== "string"))) {
+										found = true;
+										msg.push(`Filter has bad "has" prop in ${prop}.tables[${i}]`);
+										return true;
+									} else if (f.labels && (!Array.isArray(f.labels) || f.labels.some(x => typeof x !== "string"))) {
+										found = true;
+										msg.push(`Filter has bad "labels" prop in ${prop}.tables[${i}]`);
+										return true;
+									}
+									return false;
+								})
+							)
+						) {
+							if(!found) {
+								msg.push(`Bad filter property at ${prop}.tables[${i}]`);
+							}
 							return true;
 						} else if (
 							sizes !== undefined && (

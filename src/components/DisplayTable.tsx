@@ -30,12 +30,12 @@ import {
 	SelectCustomEvent,
 	useIonToast
 } from '@ionic/react';
-import { caretDown, caretUp, ellipse, closeCircle, close, filter, refresh } from 'ionicons/icons';
+import { caretDown, caretUp, ellipse, closeCircle, close, filter as filterIcon, refresh } from 'ionicons/icons';
 import Markdown, { ExtraProps } from 'react-markdown';
 import { useHistory } from 'react-router-dom';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList } from 'react-window';
-import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
+import { Datum, Filter, RawDatum, Table, TableColumnInfoTypes } from '../types';
 import Link from './Link';
 import convertLinks, { checkForEncodedLink } from './convertLinks';
 import InnerLink from './InnerLink';
@@ -259,6 +259,12 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 	);
 };
 
+interface FilterObject {
+	text: string
+	options: string[]
+	toggles: number[][]
+}
+
 interface FilterProps {
 	originalHeaders: string[]
 	displayedHeaders: number[]
@@ -270,7 +276,7 @@ interface FilterProps {
 	setTypes: Dispatch<TableColumnInfoTypes[]>
 	setActiveRows: Dispatch<number[] | null>
 	setActive: Dispatch<number>
-	filterable?: number
+	filter?: Filter[]
 	open: boolean
 	setOpen: Dispatch<boolean>
 }
@@ -280,6 +286,10 @@ const makeTestString = (input:boolean[]) => input.map(x => x ? "T" : "F").join("
 const getLinkText = (input: string) => {
 	const m = checkForEncodedLink(input);
 	return m ? m[2] : input;
+};
+
+const getValue = (x: RawDatum) => {
+	return Array.isArray(x) ? x[0] : x;
 };
 
 interface RowItem {
@@ -293,6 +303,31 @@ interface RowItem {
 	}
 }
 
+const FilterOption: FC<{filter: FilterObject, index: number, func: (output: number[], value: string) => void}> = (props) => {
+	const { filter, index, func } = props;
+	const { text, options, toggles } = filter;
+	const [currentValue, setCurrentValue] = useState(0);
+	return (
+		<IonItem>
+			<IonSelect
+				justify="start"
+				label={`Where ${text}:`}
+				onIonChange={(ev: SelectCustomEvent<number>) => setCurrentValue(ev.detail.value)}
+				value={currentValue}
+			>
+				{
+					options.map((opt, i) => {
+						return (
+							<IonSelectOption key={`filter${index}option${i}:${opt}`} value={i}>{opt}</IonSelectOption>
+						);
+					})
+				}
+			</IonSelect>
+			<IonButton slot="end" onClick={() => func(toggles[currentValue], options[currentValue])}>Toggle</IonButton>
+		</IonItem>
+	);
+};
+
 const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const {
 		originalHeaders: oh, // original headers
@@ -305,7 +340,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		setTypes,
 		setActiveRows: setAcRow,
 		setActive,
-		filterable,
+		filter,
 		open,
 		setOpen
 	} = props;
@@ -314,12 +349,9 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const [activeRows, setActiveRows] = useState<boolean[]>([]);
 	const [rowTitles, setRowTitles] = useState<string[]>([]);
 	const [testString, setTestString] = useState<string>("");
-	const [filterLabel, setFilterLabel] = useState("");
-	const [filterableByRow, setFilterableByRow] = useState<null | { [x: string]: number[] }>(null);
-	const [possibleFilters, setPossibleFilters] = useState<number[]>([])
-	const [chosenFilter, setChosenFilter] = useState<number>(0);
+	const [filterObjects, setFilterObjects] = useState<null | FilterObject[]>(null);
 	const [doAlert] = useIonAlert();
-	const [toast] = useIonToast();
+	const [toast, closeToast] = useIonToast();
 	const originalHeaders = oh.slice(1);
 	const displayedHeaders = dh.slice(1);
 	const toggleAll = () => {
@@ -327,44 +359,75 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		setActiveHeaders(originalHeaders.map(x => which));
 	};
 	const onLoad = useCallback(() => {
-		if(filterable !== undefined) {
-			setFilterLabel(oh[filterable]);
-			const possibles = new Set<number>();
-			const byRow: { [x: string]: number[] } = {};
-			if (originalRows.every((row, i) => {
-				const f = row[filterable];
-				if(Array.isArray(f)) {
-					if(f[1].match(/^1\/[0-9]$/)) {
-						// CR match
-						const n: number = f[0] as number;
-						possibles.add(n as number);
-						byRow[String(n)] = [...(byRow[String(n)] || []), i];
-					} else {
-						const values = f[1].split(/, */).map(v => Number(v));
-						if(values.some(v => v !== v)) {
-							console.log(`ERROR: filterable [${filterable}] at row ${i}: ${f}`);
-							return false;
-						}
-						values.forEach(v => {
-							possibles.add(v);
-							byRow[String(v)] = [...(byRow[String(v)] || []), i];
+		if(filter) {
+			const filters: FilterObject[] = [];
+			filter.forEach((f, fi) => {
+				const toggles: number[][] = [];
+				const {col, labels, header} = f;
+				const options: string[] = [];
+				let how = "is";
+				if(f.range) {
+					const [ min, max ] = f.range;
+					let x = min, i = 0;
+					while(x <= max) {
+						const found: number[] = [];
+						originalRows.forEach((row, i) => {
+							const test = getValue(row[col]) as number;
+							if(test === x) {
+								found.push(i);
+							}
 						});
+						toggles.push(found);
+						options.push(labels ? labels[i++] : `${x}`);
+						x++;
 					}
-				} else if (typeof f !== "number" || f !== f) {
-					console.log(`ERROR: filterable [${filterable}] at row ${i}`);
-					return false;
+				} else if (f.has) {
+					how = "includes";
+					const has = f.has;
+					has.forEach((h, i) => {
+						toggles.push([]);
+						options.push(labels ? labels[i] : h)
+					});
+					originalRows.forEach((row, i) => {
+						const test = String(getValue(row[col]));
+						has.forEach((looking, j) => {
+							if(test.indexOf(looking) >= -1) {
+								toggles[j].push(i);
+							}
+						});
+					});
+				} else if (f.equals) {
+					const equals = f.equals;
+					equals.forEach((e, i) => {
+						toggles.push([]);
+						options.push(labels ? labels[i] : `${e}`)
+					});
+					originalRows.forEach((row, i) => {
+						const test = getValue(row[col]);
+						equals.forEach((looking, j) => {
+							if(test === looking) {
+								toggles[j].push(i);
+							}
+						});
+					});
 				} else {
-					possibles.add(f);
-					byRow[String(f)] = [...(byRow[String(f)] || []), i];
+					console.log(`Invalid option in filter ${fi}.`);
+					return;
 				}
-				return true;
-			})) {
-				// ok to go
-				const f = Array.from(possibles).sort((a, b) => a - b);
-				setPossibleFilters(f);
-				setFilterableByRow(byRow);
-				setChosenFilter(f[0]);
-			}
+				toggles.forEach((tog, i) => {
+					if(tog.length === 0) {
+						console.log(`Empty filter category ${header || oh[col]}, ${i}`);
+					}
+				});
+				// Add filter to list of filters
+				const obj: FilterObject = {
+					text: `${header || oh[col]} ${how}`,
+					options,
+					toggles
+				};
+				filters.push(obj);
+			});
+			setFilterObjects(filters);
 		}
 		const finalHeaders: boolean[] = [];
 		// displayedHeaders will always be equal to or shorter than originalHeaders
@@ -389,7 +452,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		setActiveRows(finalRows);
 		setTestString(makeTestString([...finalHeaders, ...finalRows]));
 	}, [
-		filterable,
+		filter,
 		displayedHeaders,
 		originalHeaders,
 		originalRows,
@@ -463,20 +526,17 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		// Close
 		setOpen(false);
 	};
-	const toggleFilter = (i: number) => {
-		const label = String(i);
-		if (filterableByRow) {
-			const newRows = [...activeRows];
-			const which = !newRows[filterableByRow[label][0]];
-			filterableByRow[label].forEach(r => (newRows[r] = which));
-			setActiveRows(newRows);
-			toast({
-				message: `Toggled all ${filterLabel} ${i < 0 ? `1/${0-i}` : i} ${which ? "on" : "off"}.`,
-				color: "success",
-				duration: 2500,
-				position: "middle"
-			})
-		}		
+	const toggleRows = (output: number[], text: string, value: string) => {
+		const newRows = [...activeRows];
+		const bool = !newRows[output[0]];
+		output.forEach(i => (newRows[i] = bool));
+		setActiveRows(newRows);
+		closeToast().then(() => toast({
+			message: `Toggled ${bool ? "ON" : "OFF"} ${output.length} rows where ${text} ${value}.`,
+			color: bool ? "success" : "danger",
+			duration: 2500,
+			position: "middle"
+		}));
 	};
 	const Row = ({data, index, style}: RowItem) => (
 		<IonItem style={style} lines="full" className="itemLike">
@@ -516,17 +576,13 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						</IonItem>
 					))}
 					<IonItemDivider>Table Content</IonItemDivider>
-					{ filterableByRow ? <IonItem>
-						<IonSelect
-							justify="start"
-							label={`Select ${filterLabel}`}
-							onIonChange={(ev: SelectCustomEvent<number>) => setChosenFilter(ev.detail.value)}
-							value={chosenFilter}
-						>
-							{possibleFilters.map(f => <IonSelectOption key={`filterValue${f}`} value={f}>{f < 0 ? `1/${0-f}` : f}</IonSelectOption>)}
-						</IonSelect>
-						<IonButton slot="end" onClick={() => toggleFilter(chosenFilter)}>Toggle</IonButton>
-					</IonItem> : <></>}
+					{ !filterObjects ? <></> :
+						filterObjects.map((f, i) =>
+							<FilterOption key={`filter${i}:${f.text}`} filter={f} index={i} func={
+								(output: number[], value: string) => toggleRows(output, f.text, value)
+							} />
+						)
+					}
 					<IonItem>
 						<IonLabel className="ion-text-center">
 							<p>Selected items below will be shown in the table.</p>
@@ -556,7 +612,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					<IonButtons slot="end">
 						<IonButton onClick={doSave} color="success">
 							<IonLabel>Save</IonLabel>
-							<IonIcon slot="start" icon={filter} />
+							<IonIcon slot="start" icon={filterIcon} />
 						</IonButton>
 					</IonButtons>
 				</IonToolbar>
@@ -575,7 +631,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		nullValue = "&mdash;",
 		ripples = [],
 		sortable = true,
-		filterable,
+		filter,
 		alignments,
 		sizes
 	} = table;
@@ -666,12 +722,12 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			setTypes={setTypes}
 			setActiveRows={setActiveRows}
 			setActive={setActive}
-			filterable={filterable}
+			filter={filter}
 			open={open}
 			setOpen={setOpen}
 		/>
 		<IonButton className="tableFilterButton" color="tertiary" size="small" shape="round" fill="outline" onClick={() => setOpen(true)}>
-			<IonIcon slot="icon-only" icon={filter} />
+			<IonIcon slot="icon-only" icon={filterIcon} />
 		</IonButton>
 	</>;
 	return (

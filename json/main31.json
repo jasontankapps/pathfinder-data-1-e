@@ -9,7 +9,20 @@
 			{
 				"id": "antipaladin spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
+				"filter": [
+					{ "col": 1, "range": [1, 4] },
+					{ "col": 2, "equals": [
+						"universal",
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -280,6 +293,7 @@
 					[ "{spell/Night of Blades}", 4, "evocation", null, null, "Create an immobile wall of tiny black blades." ],
 					[ "{spell/Nondetection, Communal}", 4, "abjuration", null, null, "As nondetection, but you may divide the duration among creatures touched." ],
 					[ "{spell/Overwhelming Poison}", 4, "necromancy", null, "poison", "Make a poison more difficult to resist." ],
+					[ "{spell/Plague Bearer}", 4, "necromancy", null, "disease, evil", "Make the target a carrier of numerous diseases." ],
 					[ "{spell/Poison}", 4, "necromancy", null, "poison", "Touch deals 1d3 Con damage 1/round for 6 rounds." ],
 					[ "{spell/Profane Nimbus}", 4, "evocation", null, "evil", "Unholy energy damages good creatures that attack you and protects you from good attacks." ],
 					[ "{spell/Redcap's Touch}", 4, "transmutation", null, null, "Gain a +2 bonus on damage rolls and heal slightly when you kill a creature" ],
@@ -294,8 +308,7 @@
 					[ "{spell/Transplant Visage}", 4, "transmutation", null, "evil", "Remove the face and eyes of a creature, magically melding them with your own." ],
 					[ "{spell/Umbral Infusion}", 4, "necromancy", null, "shadow", "Infuse mindless undead with power from the Shadow Plane, increasing their power." ],
 					[ "{spell/Unholy Sword}", 4, "evocation", null, "evil", "Weapon becomes +5, deals +2d6 damage vs. good." ],
-					[ "{spell/Wall of Bone}", 4, "necromancy", null, null, "Create a wall of bones that damages and grapples adjacent creatures" ],
-					[ "{spell/Plague Bearer}", 6, "necromancy", null, "disease, evil", "Make the target a carrier of numerous diseases." ]
+					[ "{spell/Wall of Bone}", 4, "necromancy", null, null, "Create a wall of bones that damages and grapples adjacent creatures" ]
 				]
 			}
 		],
@@ -311,7 +324,20 @@
 			{
 				"id": "magus spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
+				"filter": [
+					{ "col": 1, "range": [0, 6] },
+					{ "col": 2, "equals": [
+						"universal",
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -816,7 +842,20 @@
 			{
 				"id": "occultist spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
+				"filter": [
+					{ "col": 1, "range": [0, 6] },
+					{ "col": 2, "equals": [
+						"universal",
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -1508,7 +1547,20 @@
 			{
 				"id": "mesmerist spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
+				"filter": [
+					{ "col": 1, "range": [0, 6] },
+					{ "col": 2, "equals": [
+						"universal",
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],

@@ -11,6 +11,20 @@
 				"headers": [ "Spell", "Level(s)", "School", "Description" ],
 				"types": [ null, "num", null, 0 ],
 				"alignments": [ true, null, null, true ],
+				"filter": [
+					{ "col": 1, "has": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] },
+					{ "col": 2, "equals": [
+						"universal",
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
 				"sizes": [ 125, 75, 125, 200 ],
 				"ripples": [0],
 				"data": [
@@ -1904,7 +1918,7 @@
 					[ "{spell/Pillow Talk}", 3, "enchantment", "Sleeping creature answers your questions" ],
 					[ "{spell/Pinecone Bomb}", [ 2.201, "2, 3" ], "evocation", "Thrown pinecone deals 1d6 piercing damage/2 levels in a 10-ft.-radius" ],
 					[ "{spell/Placebo Effect}", 2, "illusion", "Temporarily suppress an affliction or condition." ],
-					[ "{spell/Plague Bearer}", [ 6.231, "6, 7" ], "necromancy", "Make the target a carrier of numerous diseases." ],
+					[ "{spell/Plague Bearer}", [ 6.077, "4, 6, 7" ], "necromancy", "Make the target a carrier of numerous diseases." ],
 					[ "{spell/Plague Carrier}", [ 4.441, "4, 5" ], "necromancy", "Target's attacks carry filth fever." ],
 					[ "{spell/Plague Storm}", [ 6.331, "6, 7" ], "necromancy", "Cloud infects creatures like contagion." ],
 					[ "{spell/Planar Adaptation}", [ 4.571, "4, 5" ], "transmutation", "Resist harmful effects of other plane." ],

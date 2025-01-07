@@ -9,7 +9,20 @@
 			{
 				"id": "unchained_summoner spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
+				"filter": [
+					{ "col": 1, "range": [0, 6] },
+					{ "col": 2, "equals": [
+						"universal",
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -393,7 +406,20 @@
 			{
 				"id": "druid spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
+				"filter": [
+					{ "col": 1, "range": [0, 9] },
+					{ "col": 2, "equals": [
+						"universal",
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
@@ -1206,7 +1232,20 @@
 			{
 				"id": "hunter spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"filterable": 1,
+				"filter": [
+					{ "col": 1, "range": [0, 9] },
+					{ "col": 2, "equals": [
+						"universal",
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],

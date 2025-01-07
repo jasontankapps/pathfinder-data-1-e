@@ -9,7 +9,7 @@
 			{
 				"id": "cr 12 to 14 monsters table",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
-				"filterable": 1,
+				"filter": [ { "col": 1, "equals": [12, 13, 14] } ],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
 				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
@@ -315,7 +315,7 @@
 			{
 				"id": "cr 15 and up monsters table",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
-				"filterable": 1,
+				"filter": [ { "col": 1, "equals": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30] } ],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
 				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
