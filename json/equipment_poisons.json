@@ -75,21 +75,6 @@
 			"The people of Farnvale make use of the following rare toxin to help mask their condition and prepare visitors for transport to the bodythief."
 		]
 	},
-	"burnt_other_fumes": {
-		"name": "Burnt Other Fumes",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"## Burnt Other Fumes",
-			"",
-			"{SOURCE PRPG Core Rulebook/558}",
-			"",
-			"**Price** N/A; **Weight** &mdash;  ",
-			"**Type** inhaled; **Save** Fortitude DC 18  ",
-			"**Frequency** 1/round for 6 rounds  ",
-			"**Initial Effect** 1 Con drain; **Secondary Effect** 1d3 Con damage  ",
-			"**Cure** 2 consecutive saves"
-		]
-	},
 	"green_prismatic_poison": {
 		"name": "Green Prismatic Poison",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2212,11 +2197,14 @@
 	},
 	"burnt_othur_fumes": {
 		"name": "Burnt othur fumes",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Equipment"
+		],
 		"description": [
 			"## Burnt othur fumes",
 			"",
-			"{SOURCE Ultimate Equipment/111}",
+			"{SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111}",
 			"",
 			"**Price** 2,100 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 18  ",

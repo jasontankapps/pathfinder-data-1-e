@@ -24,7 +24,7 @@
 				"headers": [ "Deity/Faith", "Pantheon(s)", "Alignment", "Areas of Concern", "Domains", "Subdomains", "Favored Weapon" ],
 				"types": [ null, null, null, null, null, null, null ],
 				"alignments": [ null, true, null, true, true, true, true ],
-				"sizes": [ 125, 125, 90, 125, 200, 150, 125 ],
+				"sizes": [ 125, 125, 100, 125, 200, 150, 125 ],
 				"ripples": [0],
 				"data": [
 					[ "{faith/Abadar}", "Core Deities, Deities of Tian Xia, Halfling Deities, Order of the God Claw Pantheon, Sandpoint Pantheon, Taldan Pantheon", [ 1, "LN" ], "Cities, laws, merchants, wealth", "Earth, Law, Nobility, Protection, Travel", "Aristocracy, Defense, Fortifications, Inevitable, Leadership, Legislation, Martyr, Metal, Portal, Trade", "Light crossbow" ],

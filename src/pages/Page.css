@@ -82,6 +82,7 @@ ion-list ion-item.item-lines-default::part(native) {
 	--border-width: 0 0 3px 0;
 }
 ion-list ion-item-divider {
+	--color: var(--ion-color-step-800);
 	border-bottom-width: 3px;
 }
 
