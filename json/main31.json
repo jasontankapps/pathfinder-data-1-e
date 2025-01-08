@@ -12,7 +12,6 @@
 				"filter": [
 					{ "col": 1, "range": [1, 4] },
 					{ "col": 2, "equals": [
-						"universal",
 						"abjuration",
 						"conjuration",
 						"divination",
@@ -845,7 +844,6 @@
 				"filter": [
 					{ "col": 1, "range": [0, 6] },
 					{ "col": 2, "equals": [
-						"universal",
 						"abjuration",
 						"conjuration",
 						"divination",

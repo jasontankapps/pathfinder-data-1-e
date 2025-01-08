@@ -12,7 +12,6 @@
 				"filter": [
 					{ "col": 1, "range": [0, 6] },
 					{ "col": 2, "equals": [
-						"universal",
 						"abjuration",
 						"conjuration",
 						"divination",
@@ -1120,7 +1119,6 @@
 				"filter": [
 					{ "col": 1, "range": [1, 4] },
 					{ "col": 2, "equals": [
-						"universal",
 						"abjuration",
 						"conjuration",
 						"divination",
@@ -1543,9 +1541,8 @@
 				"id": "investigator spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"filter": [
-					{ "col": 1, "range": [0, 9] },
+					{ "col": 1, "range": [1, 6] },
 					{ "col": 2, "equals": [
-						"universal",
 						"abjuration",
 						"conjuration",
 						"divination",
@@ -1982,7 +1979,6 @@
 				"filter": [
 					{ "col": 1, "range": [0, 5] },
 					{ "col": 2, "equals": [
-						"universal",
 						"abjuration",
 						"conjuration",
 						"divination",

@@ -268,7 +268,7 @@ interface FilterObject {
 interface FilterProps {
 	originalHeaders: string[]
 	displayedHeaders: number[]
-	typings: TableColumnInfoTypes[]
+	originalTypes: TableColumnInfoTypes[]
 	originalRows: RawDatum[][]
 	displayedRows: number[] | null
 	active: number
@@ -332,7 +332,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const {
 		originalHeaders: oh, // original headers
 		displayedHeaders: dh, // indexes of displayed headers
-		typings, // original types
+		originalTypes, // original types
 		originalRows, // original rows
 		displayedRows, // indexes of displayed rows (or null if all visible)
 		active, // current sort
@@ -500,11 +500,11 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 			return;
 		}
 		const newHeaders = [0];
-		const newTypes = [typings[0]];
+		const newTypes = [originalTypes[0]];
 		originalHeaders.forEach((h, i) => {
 			if(activeHeaders[i]) {
 				newHeaders.push(i + 1);
-				newTypes.push(typings[i + 1])
+				newTypes.push(originalTypes[i + 1])
 			}
 		});
 		const newRows = originalRows.filter((r, i) => activeRows[i]);
@@ -625,7 +625,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const {
 		id,
 		headers,
-		types: typings,
+		types: originalTypes,
 		data,
 		initialColumn,
 		nullValue = "&mdash;",
@@ -636,7 +636,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		sizes
 	} = table;
 	const [activeHeaders, setActiveHeaders] = useState<number[]>(headers.map((h, i) => i));
-	const [types, setTypes] = useState(typings);
+	const [types, setTypes] = useState(originalTypes);
 	const [rows, setRows] = useState(data);
 	const [active, setActive] = useState(initialColumn);
 	const [activeRows, setActiveRows] = useState<number[] | null>(null);
@@ -689,11 +689,11 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 					<TdRouterLink
 						datum={cell === null ? nullValue : cell}
 						align={align}
-						key={`table/${id}/row/${i}/cell/${adjustedI}`}
+						key={`table/${id}/row/${i}/cell/link/${adjustedI}`}
 					/>
 				:
 					<Td
-						type={types[adjustedI]}
+						type={types[j]}
 						datum={cell === null ? nullValue : cell}
 						align={align}
 						key={`table/${id}/row/${i}/cell/${adjustedI}`}
@@ -714,7 +714,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		<DisplayTableFilterModal
 			originalHeaders={headers}
 			displayedHeaders={activeHeaders}
-			typings={typings}
+			originalTypes={originalTypes}
 			originalRows={rows}
 			displayedRows={activeRows}
 			active={active}

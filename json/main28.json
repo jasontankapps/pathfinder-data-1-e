@@ -1233,7 +1233,7 @@
 				"id": "hunter spells table",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"filter": [
-					{ "col": 1, "range": [0, 9] },
+					{ "col": 1, "range": [0, 6] },
 					{ "col": 2, "equals": [
 						"universal",
 						"abjuration",

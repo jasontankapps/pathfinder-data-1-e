@@ -9,7 +9,7 @@
 			{
 				"id": "wondrous items belt headband table",
 				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null, null ],
+				"types": [ null, "gp", "lbs", null, "num" ],
 				"alignments": [ true, null, null, null, null ],
 				"ripples": [0],
 				"sizes": [ 150, 90, 90, 90, 80 ],
@@ -186,7 +186,7 @@
 			{
 				"id": "wondrous items body chest table",
 				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null, null ],
+				"types": [ null, "gp", "lbs", null, "num" ],
 				"alignments": [ true, null, null, null, null ],
 				"ripples": [0],
 				"sizes": [ 150, 90, 90, 90, 80 ],
@@ -345,7 +345,7 @@
 			{
 				"id": "wondrous items head table",
 				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null ],
+				"types": [ null, "gp", "lbs", "num" ],
 				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"sizes": [ 150, 90, 90, 80 ],
@@ -543,7 +543,7 @@
 			{
 				"id": "wondrous items neck table",
 				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null ],
+				"types": [ null, "gp", "lbs", "num" ],
 				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"sizes": [ 150, 90, 90, 80 ],
@@ -845,7 +845,7 @@
 			{
 				"id": "wondrous items hands wrists table",
 				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null, null ],
+				"types": [ null, "gp", "lbs", null, "num" ],
 				"alignments": [ true, null, null, null, null ],
 				"ripples": [0],
 				"sizes": [ 150, 90, 90, 90, 80 ],
@@ -1046,7 +1046,7 @@
 			{
 				"id": "wondrous items shoulders table",
 				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null ],
+				"types": [ null, "gp", "lbs", "num" ],
 				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"sizes": [ 150, 90, 90, 80 ],
@@ -1224,7 +1224,7 @@
 			{
 				"id": "wondrous items eyes feet table",
 				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null, null ],
+				"types": [ null, "gp", "lbs", null, "num" ],
 				"alignments": [ true, null, null, null, null ],
 				"ripples": [0],
 				"sizes": [ 150, 90, 90, 90, 80 ],
@@ -1407,7 +1407,7 @@
 			{
 				"id": "wondrous items a-f table",
 				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null ],
+				"types": [ null, "gp", "lbs", "num" ],
 				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"sizes": [ 150, 100, 90, 80 ],
@@ -1892,7 +1892,7 @@
 			{
 				"id": "wondrous items g-p table",
 				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null ],
+				"types": [ null, "gp", "lbs", "num" ],
 				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"sizes": [ 150, 100, 90, 80 ],
@@ -2378,7 +2378,7 @@
 			{
 				"id": "wondrous items q-z table",
 				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null ],
+				"types": [ null, "gp", "lbs", "num" ],
 				"alignments": [ true, null, null, null ],
 				"ripples": [0],
 				"sizes": [ 150, 100, 90, 80 ],

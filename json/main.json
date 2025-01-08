@@ -236,7 +236,7 @@
 			{
 				"id": "all races table",
 				"headers": [ "Race", "Rarity", "Monster Link?", "Description" ],
-				"types": [null, null, null, 0],
+				"types": [null, "num", null, 0],
 				"alignments": [ true, null, null, true ],
 				"ripples": [0],
 				"sizes": [ 110, 110, 80, 250 ],

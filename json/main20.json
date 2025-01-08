@@ -1260,7 +1260,7 @@
 				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null, null, null ],
 				"sizes": [ 150, 100, 110, 50, 50, 75, 75, 75, 75, 75, 75, 75, 75, 75 ],
 				"ripples": [0],
-				"filter": [ { "col": 3, "range": [ 1, 10 ] } ],
+				"filter": [ { "col": 4, "range": [ 1, 10 ] } ],
 				"data": [
 					[ "{monster/Chaneque}", "fey", [ 3, "small" ], 1, 1, 6, 17, 10, 13, 14, 9, 1, -2, 11 ],
 					[ "{monster/Human Skeleton}", "undead", [ 4, "medium" ], 1, 1, 15, 14, [-1, "&mdash;"], [-1, "&mdash;"], 10, 10, 1, 3, 15 ],

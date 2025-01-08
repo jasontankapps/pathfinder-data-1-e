@@ -1379,14 +1379,7 @@
 				"filter": [
 					{ "col": 1, "range": [1, 4] },
 					{ "col": 2, "equals": [
-						"universal",
-						"abjuration",
-						"conjuration",
-						"divination",
-						"enchantment",
-						"evocation",
 						"illusion",
-						"necromancy",
 						"transmutation"
 					]}
 				],
