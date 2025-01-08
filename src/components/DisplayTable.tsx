@@ -391,7 +391,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					originalRows.forEach((row, i) => {
 						const test = String(getValue(row[col]));
 						has.forEach((looking, j) => {
-							if(test.indexOf(looking) >= -1) {
+							if(test.indexOf(looking) > -1) {
 								toggles[j].push(i);
 							}
 						});
@@ -414,11 +414,6 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					console.log(`Invalid option in filter ${fi}.`);
 					return;
 				}
-				toggles.forEach((tog, i) => {
-					if(tog.length === 0) {
-						console.log(`Empty filter category ${header || oh[col]}, ${i}`);
-					}
-				});
 				// Add filter to list of filters
 				const obj: FilterObject = {
 					text: `${header || oh[col]} ${how}`,
