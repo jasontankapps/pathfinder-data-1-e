@@ -1722,7 +1722,7 @@
 			"",
 			"This spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius, and increasing the light level for an additional 20 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). In an area of normal or bright light, this spell has no effect. The effect is immobile, but it can be cast on a movable object.",
 			"",
-			"You can only have one light spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through permanency or a similar effect), it does not count against this limit. Light can be used to counter or dispel any darkness spell of equal or lower spell level."
+			"You can only have one light spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through {spell/permanency} or a similar effect), it does not count against this limit. Light can be used to counter or dispel any {spelldef/darkness} spell of equal or lower spell level."
 		]
 	},
 	"light_lance": {
@@ -2552,7 +2552,7 @@
 			"",
 			"A successful saving throw ignores all effects of the veil. Sightless creatures are not affected by loathsome veil. Affected creatures can avert or close their eyes to avoid seeing the veil, similar to avoiding a gaze attack.",
 			"",
-			"Loathsome veil can be made permanent with the permanency spell by a caster of 10th level or higher for the cost of 7,500 gp."
+			"Loathsome veil can be made permanent with the {spell/permanency} spell by a caster of 10th level or higher for the cost of 7,500 gp."
 		]
 	},
 	"locate_creature": {
@@ -2838,7 +2838,7 @@
 			"",
 			"Creatures in the area of this spell are subject to a subtle enchantment that confounds their senses of direction, interferes with recognizing landmarks, and causes them to misjudge distances and angles. Creatures that enter the area must succeed at a new Survival check to avoid becoming lost immediately, whether or not they succeed at their saving throws. Those that fail the save take a penalty on such Survival checks equal to double your caster level, treat all squares they enter as difficult terrain for as long as they are in the area and for 1 hour per caster level thereafter, lose the benefit of all effects that allow them to ignore difficult terrain, and take a -4 penalty to Dexterity.",
 			"",
-			"Lost passage can be made permanent with permanency at a cost of 10,000 gp.",
+			"Lost passage can be made permanent with {spell/permanency} at a cost of 10,000 gp.",
 			"",
 			"### Lost Locale",
 			"",
@@ -2851,7 +2851,7 @@
 			"**Duration** 2 hours/level (D)  ",
 			"**Saving Throw** Will partial; **Spell Resistance** yes",
 			"",
-			"This spell functions as lost passage, except that it affects a larger area. Lost locale can be made permanent with permanency at a cost of 90,000 gp."
+			"This spell functions as lost passage, except that it affects a larger area. Lost locale can be made permanent with {spell/permanency} at a cost of 90,000 gp."
 		]
 	},
 	"lovers_vengeance": {
@@ -3210,7 +3210,7 @@
 			"",
 			"The spell does not prevent creatures or objects from moving into and out of the area.",
 			"",
-			"Mage's private sanctum can be made permanent with a permanency spell."
+			"Mage's private sanctum can be made permanent with a {spell/permanency} spell."
 		]
 	},
 	"mages_sword": {
@@ -3446,7 +3446,7 @@
 			"",
 			"Magic fang gives one natural weapon or unarmed strike of the subject a +1 enhancement bonus on attack and damage rolls. The spell can affect a slam attack, fist, bite, or other natural weapon. The spell does not change an unarmed strike's damage from nonlethal damage to lethal damage.",
 			"",
-			"Magic fang can be made permanent with a permanency spell.",
+			"Magic fang can be made permanent with a {spell/permanency} spell.",
 			"",
 			"### Mythic Magic Fang",
 			"",
@@ -3469,15 +3469,15 @@
 			"",
 			"Alternatively, you may imbue all of the creature's natural weapons with a +1 enhancement bonus (regardless of your caster level).",
 			"",
-			"Greater magic fang can be made permanent with a permanency spell.",
+			"Greater magic fang can be made permanent with a {spell/permanency} spell.",
 			"",
 			"### Mythic Magic Fang, Greater",
 			"",
 			"{SOURCE Mythic Adventures/100}",
 			"",
-			"This functions like mythic magic fang. You can add one of the following weapon special abilities to natural attacks or unarmed strikes affected by the spell: flaming, frost, keen, merciful, shock, or thundering. You must choose only one with each casting of the spell. For example, you can't add flaming to a tiger's bite and keen to its claws with the same casting. If the target has an Intelligence score less than 3, these abilities are always on (the target can't activate or deactivate the effect) and it might react with fear if its attacks make noise or create visible energy.",
+			"This functions like mythic magic fang. You can add one of the following weapon special abilities to natural attacks or unarmed strikes affected by the spell: {magic-enhancement/flaming}, {magic-enhancement/frost}, {magic-enhancement/keen}, {magic-enhancement/merciful}, {magic-enhancement/shock}, or {magic-enhancement/thundering}. You must choose only one with each casting of the spell. For example, you can't add flaming to a tiger's bite and keen to its claws with the same casting. If the target has an Intelligence score less than 3, these abilities are always on (the target can't activate or deactivate the effect) and it might react with fear if its attacks make noise or create visible energy.",
 			"",
-			"*Augmented (5th):* If you expend two uses of mythic power, you can reduce the granted enhancement bonuses by 1 to add two of the above abilities or one of the following abilities: flaming burst, icy burst, or shocking burst."
+			"*Augmented (5th):* If you expend two uses of mythic power, you can reduce the granted enhancement bonuses by 1 to add two of the above abilities or one of the following abilities: {magic-enhancement/flaming burst}, {magic-enhancement/icy burst}, or {magic-enhancement/shocking burst}."
 		]
 	},
 	"magic_fang_greater": {
@@ -3612,7 +3612,7 @@
 			"",
 			"The range limit of a trigger is 15 feet per caster level, so a 6th-level caster can command a magic mouth to respond to triggers as far as 90 feet away. Regardless of range, the mouth can respond only to visible or audible triggers and actions in line of sight or within hearing distance.",
 			"",
-			"Magic mouth can be made permanent with a permanency spell."
+			"Magic mouth can be made permanent with a {spell/permanency} spell."
 		]
 	},
 	"magic_siege_engine": {
@@ -4137,7 +4137,7 @@
 			"",
 			"You cause the touched object to become lighter than air, such that it floats if not weighted down. The object is effectively weightless and, if left unattended, will rise to a number of feet off the ground equal to twice your caster level, and then remain floating at that height. The object can be pushed, dragged, carried, or otherwise moved normally, and it can be carried by the wind if not held or secured. The object is buoyant enough that it can carry an additional weight of up to 10 pounds per caster level with it, potentially allowing it to be used to carry small objects or creatures.",
 			"",
-			"Mark of buoyancy can be made permanent with a permanency spell cast by a caster of 11th level or higher at the cost of 7,500 gp."
+			"Mark of buoyancy can be made permanent with a {spell/permanency} spell cast by a caster of 11th level or higher at the cost of 7,500 gp."
 		]
 	},
 	"mark_of_justice": {

@@ -11,11 +11,11 @@ const hierarchy: HierarchyArray = [
 
 type Data = typeof families;
 
-interface FaithProps {
+interface MonsterFamilyProps {
 	id: string,
 };
 
-const FaithGroup2Page: React.FC<FaithProps> = ({id}) => {
+const MonsterFamilyGroup2Page: React.FC<MonsterFamilyProps> = ({id}) => {
 
 	const { hasJL, title, jsx, sources, subhierarchy = [] } = getGuaranteedItem<Data>((id as keyof Data), families);
 
@@ -28,4 +28,4 @@ const FaithGroup2Page: React.FC<FaithProps> = ({id}) => {
 	>{jsx}</BasicPage>;
 };
 
-export default FaithGroup2Page;
+export default MonsterFamilyGroup2Page;

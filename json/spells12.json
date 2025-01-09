@@ -2473,7 +2473,7 @@
 			"",
 			"Written material can be read at the rate of one page (250 words) per minute. Magical writing cannot be read, though the spell reveals that it is magical. This spell can be foiled by certain warding magic (such as the secret page and illusory script spells). It does not decipher codes or reveal messages concealed in otherwise normal text.",
 			"",
-			"Comprehend languages can be made permanent with a permanency spell."
+			"Comprehend languages can be made permanent with a {spell/permanency} spell."
 		]
 	},
 	"compulsive_liar": {
@@ -3504,7 +3504,7 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as dancing lights, except it summons up to four spheres of light, each of which glows a sickly pale green. These corpse lanterns shed dim light in a 20-foot radius, and do not increase the light level in areas of normal light or bright light. In dim or normal light, the radiance of corpse lanterns provides a strange contrast, giving all creatures in the area a -5 penalty on Stealth checks. In addition, the hue interferes with illusion (pattern) spells, giving all creatures in the illuminated area a +2 bonus on any saving throws against such spells. Unlike dancing lights, you may have more than one corpse lanterns spell active at a time, but you may only move one set in any given round. Moving the corpse lanterns does not require concentration. Corpse lanterns can be made permanent on an area with a permanency spell by a caster of at least 11th level for the cost of 7,500 gp."
+			"This spell functions as {spell/dancing lights}, except it summons up to four spheres of light, each of which glows a sickly pale green. These corpse lanterns shed dim light in a 20-foot radius, and do not increase the light level in areas of normal light or bright light. In dim or normal light, the radiance of corpse lanterns provides a strange contrast, giving all creatures in the area a -5 penalty on Stealth checks. In addition, the hue interferes with illusion (pattern) spells, giving all creatures in the illuminated area a +2 bonus on any saving throws against such spells. Unlike dancing lights, you may have more than one corpse lanterns spell active at a time, but you may only move one set in any given round. Moving the corpse lanterns does not require concentration. Corpse lanterns can be made permanent on an area with a {spell/permanency} spell by a caster of at least 11th level for the cost of 7,500 gp."
 		]
 	},
 	"corrosive_consumption": {
@@ -3823,7 +3823,7 @@
 			"",
 			"If you are within the demiplane, you can add to its area by casting the spell again. Alternatively, you may cast this spell again to reset the duration of an existing area to that of your latest casting. If the duration on one area of the demiplane ends and other parts remain, creatures in the expiring area are shunted to remaining areas. If a collapsing portion of the demiplane would leave one section cut off from other sections of the demiplane (for example, if there were three areas connected in a straight line and the center part expired), the stranded sections count as separate demiplanes under your control. You may reconnect these stranded sections by casting the spell again to create a linked area between the two.",
 			"",
-			"You can make this spell permanent with the permanency spell, at a cost of 17,500 gp. If you have cast create lesser demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell.",
+			"You can make this spell permanent with the {spell/permanency} spell, at a cost of 17,500 gp. If you have cast create lesser demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell.",
 			"",
 			"### Create Demiplane",
 			"",
@@ -3852,7 +3852,7 @@
 			"",
 			"**Structure:** Your demiplane has a specific, linked physical structure, such as a giant tree, floating castle, labyrinth, mountain, and so on. (This option exists so you can pick a theme for your plane without having to worry about the small details of determining what spells you need for every hill, hole, wall, floor, and corner).",
 			"",
-			"You can make this spell permanent with the permanency spell, at a cost of 20,000 gp. If you have cast create demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell.",
+			"You can make this spell permanent with the {spell/permanency} spell, at a cost of 20,000 gp. If you have cast create demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell.",
 			"",
 			"### Create Demiplane, Greater",
 			"",
@@ -3877,7 +3877,7 @@
 			"",
 			"**Time:** By default, time passes at the normal rate in your demiplane. By selecting this feature, you may make your plane have the erratic time, flowing time (half or double normal time), or timeless trait (see {rule/Time}).",
 			"",
-			"You can make this spell permanent with the permanency spell, at a cost of 22,500 gp. If you have cast create greater demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell."
+			"You can make this spell permanent with the {spell/permanency} spell, at a cost of 22,500 gp. If you have cast create greater demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell."
 		]
 	},
 	"lesser_create_demiplane": {

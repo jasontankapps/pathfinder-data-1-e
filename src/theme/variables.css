@@ -137,6 +137,7 @@ http://ionicframework.com/docs/theming/ */
 
   --ion-text-color: #000;
   --ion-text-color-rgb: 0,0,0;
+  --faded-text: var(--ion-color-step-650);
 
   --background-faint: rgba( var(--ion-color-secondary-rgb) , 0.1);
 
@@ -218,6 +219,7 @@ http://ionicframework.com/docs/theming/ */
     --ion-color-light-tint: #383a3e;
 
     --background-faint: rgba( var(--ion-color-secondary-rgb) , 0.05);
+    --faded-text: var(--ion-color-step-800);
 
   }
 

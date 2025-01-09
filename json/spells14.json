@@ -1833,7 +1833,7 @@
 			"",
 			"Of course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as swimming in water or stepping in a puddle). If a check is required, a stationary invisible creature has a +40 bonus on its Stealth checks. This bonus is reduced to +20 if the creature is moving. The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. Exactly who is a foe depends on the invisible character's perceptions. Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as bless that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.",
 			"",
-			"Invisibility can be made permanent (on objects only) with a permanency spell.",
+			"Invisibility can be made permanent (on objects only) with a {spell/permanency} spell.",
 			"",
 			"### Mythic Invisibility",
 			"",
@@ -1901,7 +1901,7 @@
 			"",
 			"This spell functions as alarm, except it is triggered only by invisible creatures entering or leaving the warded area. The spell has a different mental alarm depending on whether the invisible creature is entering or leaving the area. This spell does not aid you in sensing or pinpointing the location of an invisible creature within the spell's area.",
 			"",
-			"Invisibility alarm can be made permanent with a permanency spell by a caster of 9th level or higher at a cost of 2,500 gp."
+			"Invisibility alarm can be made permanent with a {spell/permanency} spell by a caster of 9th level or higher at a cost of 2,500 gp."
 		]
 	},
 	"invisibility_bubble": {
@@ -4166,7 +4166,7 @@
 			"",
 			"You imbue one or more objects with magic that dramatically slows down natural processes that lead to decay and spoilage. For the duration of the spell, food, water, plants, and other perishable objects affected by the spell remain as fresh as they were when the spell was cast. The spell also protects these objects against spells of the same level or lower that cause spoilage, such as putrefy food and drink. When the duration of preserve expires, the objects resume aging at their normal rate. The spell also works on severed body parts and the bodies of small creatures as per gentle repose, provided that the weight of the creature or part does not exceed the spell's limit.",
 			"",
-			"Preserve can be made permanent with a permanency spell by a caster of 9th level or higher for 500 gp."
+			"Preserve can be made permanent with a {spell/permanency} spell by a caster of 9th level or higher for 500 gp."
 		]
 	},
 	"preserve_grace": {
@@ -4292,7 +4292,7 @@
 			"",
 			"The colors of the sphere have the same effects as the colors of a prismatic wall.",
 			"",
-			"Prismatic sphere can be made permanent with a permanency spell.",
+			"Prismatic sphere can be made permanent with a {spell/permanency} spell.",
 			"",
 			"### Mythic Prismatic Sphere",
 			"",
@@ -4366,7 +4366,7 @@
 			"",
 			"The wall can be destroyed, color by color, in consecutive order, by casting the specified spells on the wall; however, the first color must be brought down before the second can be affected, and so on. A rod of cancellation or a mage's disjunction spell destroys a prismatic wall, but an antimagic field fails to penetrate it. Dispel magic and greater dispel magic can only be used on the wall once all the other colors have been destroyed. Spell resistance is effective against a prismatic wall, but the caster level check must be repeated for each color present.",
 			"",
-			"Prismatic wall can be made permanent with a permanency spell.",
+			"Prismatic wall can be made permanent with a {spell/permanency} spell.",
 			"",
 			"| Order | Color | Effect of Color | Negated By |",
 			"| --- | --- | --- | --- |",

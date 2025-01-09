@@ -1,6 +1,6 @@
 import { Suspense, lazy } from 'react';
 import { useParams } from 'react-router';
-import data from '../json/_data_faith.json';
+import data from '../json/_data_family.json';
 import Loading from '../Loading';
 import './Page.css';
 

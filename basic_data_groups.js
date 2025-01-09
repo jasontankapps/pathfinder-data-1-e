@@ -836,13 +836,6 @@ const basic_data_groups = {
 		num: 0,
 		type: "Bardic Masterpiece"
 	},
-	"class_ability_blessings": {
-		data: blessing,
-		searchgroup: 1, // classes
-		link: "blessing",
-		num: 0,
-		type: "Warpriest Blessing"
-	},
 	"class_ability_bloodrager_bloodlines": {
 		data: bloodragerbloodline,
 		searchgroup: 1, // classes
@@ -877,6 +870,13 @@ const basic_data_groups = {
 		link: "domain",
 		num: 2,
 		type: "Cleric Domain"
+	},
+	"class_ability_blessings": {
+		data: blessing,
+		searchgroup: 1, // classes
+		link: "blessing",
+		num: 0,
+		type: "Warpriest Blessing"
 	},
 	"class_ability_druid_companions": {
 		data: druidcompanion,

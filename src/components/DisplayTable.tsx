@@ -30,7 +30,16 @@ import {
 	SelectCustomEvent,
 	useIonToast
 } from '@ionic/react';
-import { caretDown, caretUp, ellipse, closeCircle, close, filter as filterIcon, refresh } from 'ionicons/icons';
+import {
+	caretDown,
+	caretUp,
+	close,
+	closeCircle,
+	ellipse,
+	filter as filterIcon,
+	refresh,
+	repeat
+} from 'ionicons/icons';
 import Markdown, { ExtraProps } from 'react-markdown';
 import { useHistory } from 'react-router-dom';
 import AutoSizer from 'react-virtualized-auto-sizer';
@@ -303,7 +312,11 @@ interface RowItem {
 	}
 }
 
-const FilterOption: FC<{filter: FilterObject, index: number, func: (output: number[], value: string) => void}> = (props) => {
+const FilterOption: FC<{
+	filter: FilterObject,
+	index: number,
+	func: (output: number[], value: string, to: boolean) => void
+}> = (props) => {
 	const { filter, index, func } = props;
 	const { text, options, toggles } = filter;
 	const [currentValue, setCurrentValue] = useState(0);
@@ -323,7 +336,8 @@ const FilterOption: FC<{filter: FilterObject, index: number, func: (output: numb
 					})
 				}
 			</IonSelect>
-			<IonButton slot="end" onClick={() => func(toggles[currentValue], options[currentValue])}>Toggle</IonButton>
+			<IonButton slot="end" color="success" onClick={() => func(toggles[currentValue], options[currentValue], true)}>On</IonButton>
+			<IonButton slot="end" color="danger" onClick={() => func(toggles[currentValue], options[currentValue], false)}>Off</IonButton>
 		</IonItem>
 	);
 };
@@ -354,7 +368,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const [toast, closeToast] = useIonToast();
 	const originalHeaders = oh.slice(1);
 	const displayedHeaders = dh.slice(1);
-	const toggleAll = () => {
+	const toggleAllHeaders = () => {
 		const which = !activeHeaders[0];
 		setActiveHeaders(originalHeaders.map(x => which));
 	};
@@ -521,16 +535,24 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		// Close
 		setOpen(false);
 	};
-	const toggleRows = (output: number[], text: string, value: string) => {
+	const toggleAllRows = () => {
+		setActiveRows(activeRows.map(x => false));
+		closeToast().then(() => toast({
+			message: `Toggled OFF all rows.`,
+			color: "warning",
+			duration: 2500,
+			position: "middle"
+		}));
+	};
+	const toggleRows = (output: number[], text: string, value: string, bool: boolean) => {
 		const newRows = [...activeRows];
-		const bool = !newRows[output[0]];
 		output.forEach(i => (newRows[i] = bool));
 		setActiveRows(newRows);
 		closeToast().then(() => toast({
 			message: `Toggled ${bool ? "ON" : "OFF"} ${output.length} rows where ${text} ${value}.`,
 			color: bool ? "success" : "danger",
 			duration: 2500,
-			position: "middle"
+			position: "top"
 		}));
 	};
 	const Row = ({data, index, style}: RowItem) => (
@@ -556,8 +578,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 				<IonList lines="full">
 					<IonItem>
 						<IonLabel>Toggle all headers</IonLabel>
-						<IonButton slot="end" color="tertiary" onClick={toggleAll}>
-							<IonIcon slot="icon-only" icon={refresh} />
+						<IonButton slot="end" color="tertiary" onClick={toggleAllHeaders}>
+							<IonIcon slot="icon-only" icon={repeat} />
 						</IonButton>
 					</IonItem>
 					<IonItemDivider>Table Headers</IonItemDivider>
@@ -571,17 +593,23 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						</IonItem>
 					))}
 					<IonItemDivider>Table Content</IonItemDivider>
+					<IonItem>
+						<IonLabel>Reset all rows</IonLabel>
+						<IonButton slot="end" color="tertiary" onClick={toggleAllRows}>
+							<IonIcon slot="icon-only" icon={refresh} />
+						</IonButton>
+					</IonItem>
 					{ !filterObjects ? <></> :
 						filterObjects.map((f, i) =>
 							<FilterOption key={`filter${i}:${f.text}`} filter={f} index={i} func={
-								(output: number[], value: string) => toggleRows(output, f.text, value)
+								(output: number[], value: string, to: boolean) => toggleRows(output, f.text, value, to)
 							} />
 						)
 					}
 					<IonItem>
 						<IonLabel className="ion-text-center">
-							<p>Selected items below will be shown in the table.</p>
-							<p>If no items are selected, <strong>all</strong> items are shown.</p>
+							<p>Selected rows below will be shown in the table.</p>
+							<p>If no rows are selected, <strong>all</strong> rows are shown.</p>
 						</IonLabel>
 					</IonItem>
 				</IonList>
@@ -679,7 +707,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		return visible.map((row, i) => {
 			const cells = row.filter((cell, j) => activeHeaders.indexOf(j) > -1).map((cell, j) => {
 				const adjustedI = activeHeaders[j];
-				const align = alignments && (alignments[j] || undefined)
+				const align = alignments && (alignments[adjustedI] || undefined)
 				return (ripples.indexOf(adjustedI) > -1) ?
 					<TdRouterLink
 						datum={cell === null ? nullValue : cell}

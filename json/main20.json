@@ -16,7 +16,7 @@
 				} ],
 				"types": [ null, "num", null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 110, 110, 100, 250 ],
+				"sizes": [ 150, 50, 125, 110, 100, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Adaptive Ooze}", 7, null, [ 5, "large" ], [ 4, "N" ], "The color and texture of this massive, metallic ooze shift whenever it touches something." ],
@@ -115,7 +115,7 @@
 				} ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 150, 50, 100, 110, 110, 100, 250 ],
+				"sizes": [ 150, 50, 100, 125, 110, 100, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Agathion, Avoral}", 9, "outsider", "agathion, extraplanar, good", [ 4, "medium" ], [ 3, "NG" ], "Great feathers sweep back from this fierce bird-man's brow, and long, clawed hands grow from the end of his wings." ],
@@ -228,7 +228,7 @@
 				} ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 150, 50, 100, 110, 110, 100, 250 ],
+				"sizes": [ 150, 50, 100, 125, 110, 100, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abrakarn Viper}", 13, "construct", "chaotic, evil", [ 6, "huge" ], [ 8, "CE" ], "This massive, three-headed clockwork snake is crafted of brass and strange, dark alloys." ],
@@ -499,7 +499,7 @@
 				} ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 150, 50, 100, 110, 110, 100, 250 ],
+				"sizes": [ 150, 50, 100, 125, 110, 100, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Achaierai}", 5, "outsider", "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
@@ -656,7 +656,7 @@
 				} ],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 150, 50, 100, 110, 110, 100, 250 ],
+				"sizes": [ 150, 50, 100, 125, 110, 100, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abrakarn Viper}", 13, "construct", "chaotic, evil", [ 6, "huge" ], [ 8, "CE" ], "This massive, three-headed clockwork snake is crafted of brass and strange, dark alloys." ],
@@ -814,7 +814,7 @@
 				"filter": [ { "col": 1, "range": [ 5, 30 ] } ],
 				"types": [ null, "num", "num", null, 0, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, null, true ],
-				"sizes": [ 150, 50, 50, 100, 110, 110, 100, 250 ],
+				"sizes": [ 150, 50, 50, 100, 125, 110, 100, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Agmazar the Star Titan}", 26, [-1, "&mdash;"], "undead", "cold, kaiju", [ 8, "colossal" ], [ 5, "NE" ], "Stony segments cover this towering colossus like armor plates. Though it looks lifeless, its four arms move with supple grace." ],
@@ -1166,7 +1166,7 @@
 				"filter": [ { "col": 2, "range": [ 1, 10 ] } ],
 				"types": [ null, "num", "num", null, 0, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, null, true ],
-				"sizes": [ 150, 50, 50, 100, 110, 110, 100, 250 ],
+				"sizes": [ 150, 50, 50, 100, 125, 110, 100, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Aboleth}", 9, 3, "aberration", "aquatic, mythic", [ 6, "huge" ], [ 2, "LE" ], "A foul mist surrounds this huge, three-eyed, tentacled fish creature, and plates of hardened slime guard its body." ],

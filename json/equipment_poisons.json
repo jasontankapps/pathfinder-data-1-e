@@ -72,7 +72,7 @@
 			"**Effect** 1d4 Wisdom damage plus -4 penalty on Sense Motive checks and saving throws versus sleep effects for 1 hour;  ",
 			"**Cure** 2 saves",
 			"",
-			"The people of Farnvale make use of the following rare toxin to help mask their condition and prepare visitors for transport to the bodythief."
+			"The people of Farnvale make use of thisg rare toxin to help mask their condition and prepare visitors for transport to the bodythief."
 		]
 	},
 	"green_prismatic_poison": {
@@ -173,7 +173,7 @@
 			"**Effect** 1d3 Dex damage plus paralysis for 1 round  ",
 			"**Cure** 1 save",
 			"",
-			"The ettercaps collect the sap of small white flowers that grow on the nearby cliffs to create a paralytic poison known as slow nectar, which the creatures use in their traps."
+			"The {monster/ettercap/s} collect the sap of small white flowers that grow on the nearby cliffs to create a paralytic poison known as slow nectar, which the creatures use in their traps."
 		]
 	},
 	"spidervine_poison": {
@@ -700,7 +700,7 @@
 			"**Effect** sickened  ",
 			"**Cure** 2 consecutive saves or 1 minute spent washing the affected area",
 			"",
-			"Extracted from the mashed leaves of the pernicious goblinvine, this irritant is favored by goblins and tricksters alike."
+			"Extracted from the mashed leaves of the pernicious {eq-misc/goblinvine}, this irritant is favored by goblins and tricksters alike."
 		]
 	},
 	"id_moss": {
@@ -859,7 +859,7 @@
 			"**Initial Effect** 1 Con damage; **Secondary Effect** nausea for 1d4 rounds  ",
 			"**Cure** 1 save",
 			"",
-			"Black whinnis is a poison made from the same red creeper vine that produces the better-known blue whinnis poison, but the distilled sap from the blue whinnis thorns is further refined using a slightly more volatile process."
+			"Black whinnis is a poison made from the same red creeper vine that produces the better-known {eq-poison/blue whinnis} poison, but the distilled sap from the blue whinnis thorns is further refined using a slightly more volatile process."
 		]
 	},
 	"chelish_deathapple": {
@@ -974,7 +974,7 @@
 			"**Effect** 1d2 Wis damage. Additionally, the creature has double vision, imposing a 50% miss chance on its attacks against all opponents. Blind creatures are unaffected by this additional effect  ",
 			"**Cure** 1 save",
 			"",
-			"Pei Zin herbalists accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from dew of lunary, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
+			"{arc-oracle/Pei Zin>_practitioner} herbalists accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from dew of lunary, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
 		]
 	},
 	"malyass_root_paste": {
@@ -1131,7 +1131,7 @@
 			"**Effect** 1d3 Dex  ",
 			"**Cure** 2 saves",
 			"",
-			"Ossivane mimics the petrification capability of cockatrices, but the toxin relies on the victim's heart pumping hard to spread the poison throughout the body as it stiffens limbs and locks joints. After the initial save, the victim attempts an additional Fortitude save against the poison only during rounds in which she takes a move, standard, or full-round action."
+			"Ossivane mimics the petrification capability of {monster/cockatrice/s}, but the toxin relies on the victim's heart pumping hard to spread the poison throughout the body as it stiffens limbs and locks joints. After the initial save, the victim attempts an additional Fortitude save against the poison only during rounds in which she takes a move, standard, or full-round action."
 		]
 	},
 	"slavers_will": {
@@ -1182,7 +1182,7 @@
 			"**Initial Effect** 1d6 Str damage and scented for 10 minutes; **Secondary Effect** 1d3 Str damage  ",
 			"**Cure** 1 save",
 			"",
-			"The morlock creepers brew a potent and fragrant poison harvested from the bright red sap of brain-shaped mushrooms that flourish in the lower caverns. Creatures struck by the poisoned darts are marked with a pungent fungal aroma for 10 minutes, even if they succeed at their Fortitude save. The scent is particularly potent to morlocks, allowing them to detect creatures tainted by it with their scent ability at a range of 100 feet even in the still air of the caves. The smell can be scrubbed off as a full round action with an alkalai substance, such as milk or soap.",
+			"The {monster/morlock/ creepers} brew a potent and fragrant poison harvested from the bright red sap of brain-shaped mushrooms that flourish in the lower caverns. Creatures struck by the poisoned darts are marked with a pungent fungal aroma for 10 minutes, even if they succeed at their Fortitude save. The scent is particularly potent to morlocks, allowing them to detect creatures tainted by it with their scent ability at a range of 100 feet even in the still air of the caves. The smell can be scrubbed off as a full round action with an alkalai substance, such as milk or soap.",
 			"",
 			"One dose of bloodbrain venom costs 400 gp."
 		]
@@ -1201,7 +1201,7 @@
 			"**Effect** nauseated for 5 rounds  ",
 			"**Cure** 1 save",
 			"",
-			"Invented as part of a series of dares between feuding goblin camps, this noxious brew fermented from a slurry of swamp flora is a favored concoction of the Licktoad tribe. The potent intoxicant is popular among goblinoids (who are immune to its nauseating effect), but all other races that partake of this frothy drink are wracked with nausea."
+			"Invented as part of a series of dares between feuding {monster/goblin} camps, this noxious brew fermented from a slurry of swamp flora is a favored concoction of the Licktoad tribe. The potent intoxicant is popular among goblinoids (who are immune to its nauseating effect), but all other races that partake of this frothy drink are wracked with nausea."
 		]
 	},
 	"cloudthorn_venom": {
@@ -1235,7 +1235,7 @@
 			"**Effect** 1d2 Wis, see text  ",
 			"**Cure** 2 saves",
 			"",
-			"Crafted by alchemists in Galt, gray justice has found use among the Gray Gardeners as an apparent truth serum. Gray justice makes victims more susceptible to interrogation and causes side effects such as lethargy, confusion, and nausea; some Gardeners administer it to prisoners before their execution to make them publicly admit their crimes. The grim truth of the poison is damning, however. Gray justice is no truth serum, but instead compels its victims to say whatever they think will please those around them. Each round a victim takes Wisdom damage from the poison, he answers any questions in the affirmative, agreeing to the best of his ability and even lying to confirm whatever he assumes the questioner wants to hear. If questioned by multiple people, the victim might contradict himself. If asked questions without an affirmative response or leading answer, the victim does not need to respond."
+			"Crafted by alchemists in Galt, gray justice has found use among the {prestigeclass/Gray Gardener/s} as an apparent truth serum. Gray justice makes victims more susceptible to interrogation and causes side effects such as lethargy, confusion, and nausea; some Gardeners administer it to prisoners before their execution to make them publicly admit their crimes. The grim truth of the poison is damning, however. Gray justice is no truth serum, but instead compels its victims to say whatever they think will please those around them. Each round a victim takes Wisdom damage from the poison, he answers any questions in the affirmative, agreeing to the best of his ability and even lying to confirm whatever he assumes the questioner wants to hear. If questioned by multiple people, the victim might contradict himself. If asked questions without an affirmative response or leading answer, the victim does not need to respond."
 		]
 	},
 	"lich_dust": {
@@ -1577,7 +1577,7 @@
 			"**Effect** 1 Wis drain. The creature looks younger by as much as half his age for a duration of 1 day. The younger appearance is purely cosmetic and has no mechanical effect  ",
 			"**Cure** 1 save",
 			"",
-			"Swindlers claim this green capsule restores the victim's youth. After 1 day, anyone taking juvebloom sees the seemingly time-bending results in the mirror. However, the benefit is not only temporary but also potentially quite damaging. Particularly daring confidence artists mix this capsule into a solution, attempting to sell it as the much more valuable sun orchid elixir."
+			"Swindlers claim this green capsule restores the victim's youth. After 1 day, anyone taking juvebloom sees the seemingly time-bending results in the mirror. However, the benefit is not only temporary but also potentially quite damaging. Particularly daring confidence artists mix this capsule into a solution, attempting to sell it as the much more valuable {magic-artifact/sun orchid elixir}."
 		]
 	},
 	"liquid_leprosy": {
@@ -1744,7 +1744,7 @@
 			"**Effect** 1d2 Str and Con damage  ",
 			"**Cure** 1 save",
 			"",
-			"The putrefying essence of a violet fungus must be harvested with great care from a living specimen and processed quickly before it loses potency. Numerous kinds of subterranean creatures harvest this toxin to help them in their hunts for food, and they coat their weapons in the poison to help defend their underground settlements."
+			"The putrefying essence of a {monster/violet fungus} must be harvested with great care from a living specimen and processed quickly before it loses potency. Numerous kinds of subterranean creatures harvest this toxin to help them in their hunts for food, and they coat their weapons in the poison to help defend their underground settlements."
 		]
 	},
 	"flaming_doom": {
@@ -2227,7 +2227,7 @@
 			"**Effect** 1d4 Dexterity damage  ",
 			"**Cure** 1 save",
 			"",
-			"This poisonous paste, made from dried cockatrice organs, causes extreme muscle stiffness and joint pain, with an unpleasant feeling of gravel grinding in the victim's shoulders, hips, and knees. As long as a creature has any Dexterity damage from this poison, the creature finds it physically painful to make wide motions with its limbs. Whenever the creature attacks with a two-handed weapon or moves more than 10 feet in a round (other than via travel that doesn't require movement, such as by wagon, or teleportation), it takes 2d6 points of damage."
+			"This poisonous paste, made from dried {monster/cockatrice} organs, causes extreme muscle stiffness and joint pain, with an unpleasant feeling of gravel grinding in the victim's shoulders, hips, and knees. As long as a creature has any Dexterity damage from this poison, the creature finds it physically painful to make wide motions with its limbs. Whenever the creature attacks with a two-handed weapon or moves more than 10 feet in a round (other than via travel that doesn't require movement, such as by wagon, or teleportation), it takes 2d6 points of damage."
 		]
 	},
 	"dream_crystal_toxin": {
@@ -2261,7 +2261,7 @@
 			"**Effect** sleep 10 minutes, see text  ",
 			"**Cure** 1 save",
 			"",
-			"Imported in stoppered quartz vials by the enigmatic denizens of Leng, this green and violet gas lulls mortal creatures into a sleep filled with abominable nightmares and maddening half-truths. Creatures that fail their saving throws against dreaming death immediately fall into a fitful slumber for 10 minutes. This toxic sleep affects creatures normally immune to magical sleep effects (such as elves), and victims can be woken from the sleep only by overcoming or being cured of the poison. Each failed save extends the duration of this magical sleep by 10 minutes.",
+			"Imported in stoppered quartz vials by the enigmatic [denizens of Leng](monster/denizen_of_leng), this green and violet gas lulls mortal creatures into a sleep filled with abominable nightmares and maddening half-truths. Creatures that fail their saving throws against dreaming death immediately fall into a fitful slumber for 10 minutes. This toxic sleep affects creatures normally immune to magical sleep effects (such as elves), and victims can be woken from the sleep only by overcoming or being cured of the poison. Each failed save extends the duration of this magical sleep by 10 minutes.",
 			"",
 			"Creatures awaken from these visions scarred and prone to self-harm. Victims must succeed at a Will save (DC = 14 + 2 for every 10 minutes spent sleeping) or begin cutting their own flesh with any available weapons. Affected creatures attempt to deliver a coup de grace attack upon themselves every round. A victim can attempt a new Will save at the beginning of each round, with a cumulative +2 bonus for each round she successfully damaged herself."
 		]

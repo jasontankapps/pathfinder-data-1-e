@@ -932,7 +932,7 @@
 			"",
 			"You are able to shrink one nonmagical item (if it is within the size limit) to 1/16 of its normal size in each dimension (to about 1/4,000 the original volume and mass). This change effectively reduces the object's size by four categories. Optionally, you can also change its now shrunken composition to a clothlike one. Objects changed by a shrink item spell can be returned to normal composition and size merely by tossing them onto any solid surface or by a word of command from the original caster. Even a burning fire and its fuel can be shrunk by this spell. Restoring the shrunken object to its normal size and composition ends the spell.",
 			"",
-			"Shrink item can be made permanent with a permanency spell, in which case the affected object can be shrunk and expanded an indefinite number of times, but only by the original caster."
+			"Shrink item can be made permanent with a {spell/permanency} spell, in which case the affected object can be shrunk and expanded an indefinite number of times, but only by the original caster."
 		]
 	},
 	"shroud_of_darkness": {
@@ -1958,7 +1958,7 @@
 			"",
 			"Unlike normal fog, only a severe wind (31+ mph) disperses these vapors, and it does so in 1 round.",
 			"",
-			"Solid fog can be made permanent with a permanency spell. A permanent solid fog dispersed by wind reforms in 10 minutes.",
+			"Solid fog can be made permanent with a {spell/permanency} spell. A permanent solid fog dispersed by wind reforms in 10 minutes.",
 			"",
 			"### Mythic Solid Fog",
 			"",
@@ -2238,7 +2238,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** Will negates; **Spell Resistance** no",
 			"",
-			"You draw the soul from a newly dead body and imprison it in a black sapphire gem. The subject must have been dead no more than 1 round per caster level. The soul, once trapped in the gem, cannot be returned through clone, {spell/raise dead}, {spell/reincarnate}, {spell/resurrection}, {spell/true resurrection}, or even a {spell/miracle} or a {spell/wish}. Only by destroying the gem or dispelling the spell on the gem can one free the soul (which is then still dead).",
+			"You draw the soul from a newly dead body and imprison it in a black sapphire gem. The subject must have been dead no more than 1 round per caster level. The soul, once trapped in the gem, cannot be returned through {spell/clone}, {spell/raise dead}, {spell/reincarnate}, {spell/resurrection}, {spell/true resurrection}, or even a {spell/miracle} or a {spell/wish}. Only by destroying the gem or dispelling the spell on the gem can one free the soul (which is then still dead).",
 			"",
 			"The focus for this spell is a black sapphire of at least 1,000 gp value for every HD possessed by the creature whose soul is to be bound. If the gem is not valuable enough, it shatters when the binding is attempted. (While creatures have no concept of level or HD as such, the value of the gem needed to trap an individual can be researched.)"
 		]
@@ -2260,7 +2260,7 @@
 			"",
 			"This spell protects the target's soul by briefly enveloping the target in an ethereal vault. The target gains a +4 bonus on saving throws against spells and effects that would trap or redirect its soul (such as magic jar, soul bind, and trap the soul) and effects that would transform the target into an undead creature. The target is granted a save to negate such effects even if one is not normally allowed. If it's cast on a living creature that then dies, the target's body and spirit are protected by the spell for its duration. If it's cast on a corpse within 1 round of death, the target's body and soul are both protected. Otherwise, only the body receives the protection.",
 			"",
-			"Any spellcaster that worships Abadar may learn and cast soul vault as a 4th level spell, if it isn't normally on her class spell list. Soul vault can be made permanent with the permanency spell at a cost of 7,500 gp and a minimum caster level of 11th."
+			"Any spellcaster that worships Abadar may learn and cast soul vault as a 4th level spell, if it isn't normally on her class spell list. Soul vault can be made permanent with the {spell/permanency} spell at a cost of 7,500 gp and a minimum caster level of 11th."
 		]
 	},
 	"soulreaver": {
@@ -2673,7 +2673,7 @@
 			"",
 			"If a creature within 100 feet that you can see is speaking a language you understand, you can read its lips with perfect accuracy. Reading lips in this manner gives the exact wording of conversation and does not assist in deciphering any obfuscated ideas such as secret messages or slang. Reading lips requires moderate concentration, and you take a -4 penalty on other Perception checks while doing so.",
 			"",
-			"Speechreader's sight can be made permanent with a permanency spell cast by a caster of 9th level or higher, at a cost of 2,500 gp."
+			"Speechreader's sight can be made permanent with a {spell/permanency} spell cast by a caster of 9th level or higher, at a cost of 2,500 gp."
 		]
 	},
 	"spell_absorption": {
@@ -4022,7 +4022,7 @@
 			"",
 			"Stinking cloud creates a bank of fog like that created by fog cloud, except that the vapors are nauseating. Living creatures in the cloud become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. (Roll separately for each nauseated character.) Any creature that succeeds on its save but remains in the cloud must continue to save each round on your turn. This is a poison effect.",
 			"",
-			"Stinking cloud can be made permanent with a permanency spell. A permanent stinking cloud dispersed by wind reforms in 10 minutes.",
+			"Stinking cloud can be made permanent with a {spell/permanency} spell. A permanent stinking cloud dispersed by wind reforms in 10 minutes.",
 			"",
 			"### Mythic Stinking Cloud",
 			"",
@@ -4069,7 +4069,7 @@
 			"",
 			"To release an image, you touch a gem holding stolen light as a standard action and speak a command word chosen at the time of casting. For 1 minute per caster level, the image stored within the gem becomes visible. Details can be made out as clearly as they could be perceived at the time of casting. Darkvision is of no use for making out details in a stolen image, though low-light vision or other exceptional visual talents may reveal information the caster did not see. Light sources brighter than bright light are reduced to bright light in the stolen image. Once the image has been released, it cannot again be recovered from the gem.",
 			"",
-			"Stolen light can be made permanent with the permanency spell by a caster of 10th level for a cost of 5,000 gp. This leaves the gem capable of projecting the image indefinitely, activated and deactivated by its command word, until it is destroyed or dispelled."
+			"Stolen light can be made permanent with the {spell/permanency} spell by a caster of 10th level for a cost of 5,000 gp. This leaves the gem capable of projecting the image indefinitely, activated and deactivated by its command word, until it is destroyed or dispelled."
 		]
 	},
 	"stone_call": {

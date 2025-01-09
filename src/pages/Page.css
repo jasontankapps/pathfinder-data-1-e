@@ -82,7 +82,7 @@ ion-list ion-item.item-lines-default::part(native) {
 	--border-width: 0 0 3px 0;
 }
 ion-list ion-item-divider {
-	--color: var(--ion-color-step-800);
+	--color: var(--faded-text);
 	border-bottom-width: 3px;
 }
 
@@ -264,7 +264,7 @@ div.main.basicContent ion-list ion-item.mainItem.linked {
 	--color: var(--ion-color-primary);
 }
 div.main ion-list ion-item-divider.mainItem ion-label {
-	--color: var(--ion-color-step-800);
+	--color: var(--faded-text);
 	font-weight: bold;
 	font-size: 1rem;
 }
@@ -356,6 +356,9 @@ div.basicContent ion-list ion-item.mainItem.singleTable {
 
 /* General tables */
 
+ion-button[slot=end] + ion-button[slot=end] {
+	margin-inline-start: 16px;
+}
 ion-button.tableFilterButton {
 	float: inline-end;
 	font-size: 0.65rem;

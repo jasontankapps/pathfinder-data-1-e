@@ -1080,7 +1080,7 @@
 			"",
 			"Ethereal or astral creatures do not trigger the alarm.",
 			"",
-			"Alarm can be made permanent with a permanency spell.",
+			"Alarm can be made permanent with a {spell/permanency} spell.",
 			"",
 			"### Escape Alarm",
 			"",
@@ -1459,7 +1459,7 @@
 			"",
 			"*Divert River:* The river diverts its course in a direction of your choosing. The river flows in the general direction indicated, but otherwise conforms to the shape of the local terrain. This spell cannot cause a river to flow uphill, though the river surges over its natural banks and inundates terrain lower than its average depth. Creatures in the path of the redirected river are in danger of being swept away; if directed properly, this spell causes a flood. See {rule/Aquatic Terrain} for more details.",
 			"",
-			"Alter river can be made permanent with a permanency spell. Clever application of spells such as move earth can be combined with this spell to likewise make the river's new course permanent."
+			"Alter river can be made permanent with a {spell/permanency} spell. Clever application of spells such as {spell/move earth} can be combined with this spell to likewise make the river's new course permanent."
 		]
 	},
 	"alter_self": {
@@ -2069,7 +2069,7 @@
 			"",
 			"This spell cannot affect objects carried or worn by a creature.",
 			"",
-			"Animate objects can be made permanent with a permanency spell.",
+			"Animate objects can be made permanent with a {spell/permanency} spell.",
 			"",
 			"### Mythic Animate Objects",
 			"",
@@ -2250,7 +2250,7 @@
 			"",
 			"You transform the touched animal into a bipedal hybrid of its original form with a humanoid form, similar to how a lycanthrope's hybrid form is a mix of a humanoid and animal form. The animal's size, type, and ability scores do not change. It loses its natural attacks except for bite (if it had one as an animal), all types of movement other than its land speed, and special attacks that rely on its natural attacks. One pair of its limbs is able to manipulate objects and weapons as well as human hands do; limbless animals like snakes temporarily grow a pair of arms. The creature's Intelligence increases to 3, and it gains the ability to speak one language you know. It is not considered proficient in any manufactured weapons. It can attack with unarmed strikes, dealing unarmed strike damage for a creature of its size (unless it has a bite attack, which is a natural attack).",
 			"",
-			"Anthropomorphic animal can be made permanent with a permanency spell cast by a caster of 11th level or higher at a cost of 7,500 gp."
+			"Anthropomorphic animal can be made permanent with a {spell/permanency} spell cast by a caster of 11th level or higher at a cost of 7,500 gp."
 		]
 	},
 	"anticipate_peril": {
@@ -2682,9 +2682,9 @@
 			"",
 			"The illusion makes undead creatures of Medium size or smaller appear as if they were living humanoid creatures. You can target a number of undead creatures whose total number of Hit Dice is no greater than twice your caster level. When you create the illusion, you choose the races, genders, and attire for the undead creatures. Additionally, the illusion makes the undead creatures' movements appear lifelike (two shuffling zombies could be made to appear as two strolling lovers). The illusion doesn't create smell, sound, texture, or temperature. Undead with Intelligence scores can attempt a saving throw to negate the effect of the spell, but mindless undead do not. Any creatures interacting with the illusion receive a saving throw to disbelieve the illusion.",
 			"",
-			"The illusion interferes with detect undead, requiring the caster to succeed at a caster check (DC = 11 + your caster level) for the spell to determine the creatures are undead.",
+			"The illusion interferes with {spell/detect undead}, requiring the caster to succeed at a caster check (DC = 11 + your caster level) for the spell to determine the creatures are undead.",
 			"",
-			"Appearance of life can be made permanent with a permanency spell by a caster of 12th level or higher for the cost of 10,000 gp.",
+			"Appearance of life can be made permanent with a {spell/permanency} spell by a caster of 12th level or higher for the cost of 10,000 gp.",
 			"",
 			"### Appearance of Life, Greater",
 			"",
@@ -3148,7 +3148,7 @@
 			"",
 			"As with detect magic, you can use this spell to identify the properties of magic items, but not artifacts.",
 			"",
-			"Arcane sight can be made permanent with a permanency spell.",
+			"Arcane sight can be made permanent with a {spell/permanency} spell.",
 			"",
 			"### Arcane Sight, Greater",
 			"",
@@ -4023,7 +4023,7 @@
 			"",
 			"You know the location and power of all chaotic, evil, good, and lawful auras within your sight. An aura's power depends on a creature's Hit Dice or an item's caster level, as noted in the description of the detect evil spell. If an item or a creature bearing an aura is in line of sight, you can attempt a Knowledge (religion) check to determine the aura's strength (one check per aura; DC 15 + spell level, or 15 + 1/2 caster level for a non-spell effect).",
 			"",
-			"Aura sight can be made permanent with a permanency spell by a caster of 11th level or higher at a cost of 7,500 gp."
+			"Aura sight can be made permanent with a {spell/permanency} spell by a caster of 11th level or higher at a cost of 7,500 gp."
 		]
 	},
 	"authenticating_gaze": {

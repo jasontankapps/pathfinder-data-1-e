@@ -2735,7 +2735,7 @@
 					[ "{eq-poison/Jackalroot essence}", "injury", "Fortitude DC 18", null, "1/round for 1d6 rounds", "uncontrollble laughter (as per hideous laughter)", 600 ],
 					[ "{eq-poison/Juvebloom}", "ingested", "Fortitude DC 16", "1 day", "1/day for 7 days", "1 Wis drain, youthful appearance 1 day", 750 ],
 					[ "{eq-poison/King's Sleep}", "ingested", "Fortitude DC 18", "1 day", "1/day", "1 Con drain", 5000 ],
-					[ "{eq-poison/Kiss of barbatos}", "contact, ingested", "Fortitude DC 23", "1d6 days", "1/day", "fatigued, 1d Str drain, 1 Con drain", 7500 ],
+					[ "{eq-poison/Kiss of barbatos}", "contact, ingested", "Fortitude DC 23", "1d6 days", "1/day", "fatigued, 1d2 Str drain, 1 Con drain", 7500 ],
 					[ "{eq-poison/Large Scorpion Venom}", "injury", "Fortitude DC 17", null, "1/round for 6 rounds", "1d2 Str damage, possibly cure lycanthropy", 200 ],
 					[ "{eq-poison/Laughing gas}", "inhaled", "Fortitude DC 12", "immediate", "1/round for 5 rounds", "laughter and dazed 1 tound", 500 ],
 					[ "{eq-poison/Leng's tears}", "contact", "Fortitude DC 18", "1 round", "1/10 minutes for 1 hour", "1d2 Wis damage, paralyzed 10 minutes", 1500 ],

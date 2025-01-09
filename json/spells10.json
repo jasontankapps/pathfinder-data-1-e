@@ -409,7 +409,7 @@
 			"",
 			"A symbol of death can be removed by a successful dispel magic targeted solely on the rune. An erase spell has no effect on a symbol of death. Destruction of the surface where a symbol of death is inscribed destroys the symbol but also triggers it.",
 			"",
-			"Symbol of death can be made permanent with a permanency spell. A permanent symbol of death that is disabled or has affected its maximum number of hit points becomes inactive for 10 minutes, but then can be triggered again as normal.",
+			"Symbol of death can be made permanent with a {spell/permanency} spell. A permanent symbol of death that is disabled or has affected its maximum number of hit points becomes inactive for 10 minutes, but then can be triggered again as normal.",
 			"",
 			"*Note:* Magic traps such as symbol of death are hard to detect and disable. A rogue (only) can use the Perception skill to find a symbol of death and Disable Device to thwart it. The DC in each case is 25 + spell level, or 33 for symbol of death.",
 			"",
@@ -542,7 +542,7 @@
 			"",
 			"This spell functions as symbol of death, except all creatures within 60 feet of the symbol of healing instead are bathed in positive energy and heal 2d8 points + 1 point of damage per caster level (maximum +15). Undead and other creatures harmed by positive energy instead take 2d8 points of damage + 1 point per caster level (maximum +15); a Will save reduces this damage by half. A creature can only be healed or harmed by the symbol once in any 24-hour period. Once triggered, the symbol remains active for 10 minutes per caster level.",
 			"",
-			"Symbol of healing can be made permanent with a permanency spell by a caster of 10th level or higher for the cost of 10,000 gp."
+			"Symbol of healing can be made permanent with a {spell/permanency} spell by a caster of 10th level or higher for the cost of 10,000 gp."
 		]
 	},
 	"symbol_of_insanity": {
@@ -586,7 +586,7 @@
 			"",
 			"Unlike symbol of death, symbol of laughter has no hit point limit; once it is triggered, a symbol of laughter remains active for 1 minute per caster level.",
 			"",
-			"Symbol of laughter can be made permanent with a permanency spell by a caster of 10th level or higher at a cost of 5,000 gp."
+			"Symbol of laughter can be made permanent with a {spell/permanency} spell by a caster of 10th level or higher at a cost of 5,000 gp."
 		]
 	},
 	"symbol_of_mirroring": {
@@ -606,7 +606,7 @@
 			"",
 			"This spell functions as symbol of death, except it instead creates one illusory duplicate of each creature within 60 feet of the symbol. These duplicates function as mirror image, moving with the original creatures and mimicking their movements, sounds, and actions exactly. If an illusory double is destroyed, a new one appears on the creature's turn. The images last for as long as a creature remains within 60 feet of the symbol, and for 1 round/level thereafter. Once triggered, the symbol remains active for 10 minutes per caster level.",
 			"",
-			"Symbol of mirroring can be made permanent with a permanency spell by a caster of 10th level or higher for the cost of 5,000 gp."
+			"Symbol of mirroring can be made permanent with a {spell/permanency} spell by a caster of 10th level or higher for the cost of 5,000 gp."
 		]
 	},
 	"symbol_of_pain": {
@@ -670,7 +670,7 @@
 			"",
 			"This spell functions as symbol of death, except it is only activated by invisible creatures, creatures affected by an illusion (glamer) effect, creatures with the shapechanger subtype, or creatures that have magically changed their shape. These creatures are outlined by a pale light that functions like faerie fire, except it lasts for 10 minutes per caster level; the symbol does not otherwise reveal their true form. Once triggered, a symbol of revelation remains active for 10 minutes per caster level.",
 			"",
-			"Symbol of revelation can be made permanent with a permanency spell by a caster of 12th level or higher for the cost of 10,000 gp."
+			"Symbol of revelation can be made permanent with a {spell/permanency} spell by a caster of 12th level or higher for the cost of 10,000 gp."
 		]
 	},
 	"symbol_of_scrying": {
@@ -690,7 +690,7 @@
 			"",
 			"This spell functions as symbol of death, except that, when triggered, it creates a scrying sensor linked to you and centered on the symbol, even if you are on a different plane than the symbol. You are immediately aware that the symbol has been triggered if you are conscious, and are awakened from normal sleep if sleeping. The symbol does not otherwise disturb your concentration. You may observe the area through the symbol as if using a scrying spell with the sensor as the target creature. Once triggered, the symbol remains active for 10 minutes per caster level.",
 			"",
-			"Unlike symbol of death, a symbol of scrying is not considered a magical trap. Symbol of scrying can be made permanent with a permanency spell by a caster of 13th level or higher for the cost of 10,000 gp."
+			"Unlike symbol of death, a symbol of scrying is not considered a magical trap. Symbol of scrying can be made permanent with a {spell/permanency} spell by a caster of 13th level or higher for the cost of 10,000 gp."
 		]
 	},
 	"symbol_of_sealing": {
@@ -754,7 +754,7 @@
 			"",
 			"This spell functions as symbol of death, except all creatures within 60 feet of a symbol of slowing are slowed (as the slow spell) for 1 round per caster level.",
 			"",
-			"Symbol of slowing can be made permanent with a permanency spell by a caster of 11th level or higher for the cost of 10,000 gp."
+			"Symbol of slowing can be made permanent with a {spell/permanency} spell by a caster of 11th level or higher for the cost of 10,000 gp."
 		]
 	},
 	"symbol_of_storms": {
@@ -778,7 +778,7 @@
 			"",
 			"This spell functions as symbol of death, except all creatures within the radius of a symbol of strife are compelled to attack the nearest conscious creature for 1 round per caster level (similar to the \"attack nearest creature\" result of the confusion spell), even after leaving the symbol's area of effect. If no other creatures are visible, an affected creature can act normally. Once triggered, the symbol remains active for 10 minutes per caster level.",
 			"",
-			"Symbol of strife can be made permanent with a permanency spell by a caster of 18th level or higher for the cost of 25,000 gp."
+			"Symbol of strife can be made permanent with a {spell/permanency} spell by a caster of 18th level or higher for the cost of 25,000 gp."
 		]
 	},
 	"symbol_of_striking": {
@@ -800,7 +800,7 @@
 			"",
 			"The symbol attacks any non-attuned creature that provokes an attack of opportunity from the symbol. However, when the symbol first attacks a creature, the symbol must overcome that creature's spell resistance or be rendered unable to harm it. The symbol never again attacks such creatures. Further, when the symbol first attacks a creature, a successful Will saving throw allows the creature to see the shadow nature of the attacks and take half damage when such attacks hit.",
 			"",
-			"Symbol of striking can be made permanent with a permanency spell by a caster of 13th level or higher for the cost of 10,000 gp."
+			"Symbol of striking can be made permanent with a {spell/permanency} spell by a caster of 13th level or higher for the cost of 10,000 gp."
 		]
 	},
 	"symbol_of_stunning": {
@@ -840,7 +840,7 @@
 			"",
 			"This spell functions as symbol of death, except it saps the defenses of all creatures within 60 feet. Affected creatures receive a -4 penalty to spell resistance and a -4 penalty on saving throws, and energy resistances and damage reduction (if any) are reduced by 10 each (to a minimum of 0). Once triggered, the symbol remains active for 10 minutes per level. The effects last as long as the creature is within 60 feet of the symbol, and for 1 round per caster level afterward.",
 			"",
-			"Symbol of vulnerability can be made permanent with a permanency spell by a caster of 18h level or higher for the cost of 25,000 gp."
+			"Symbol of vulnerability can be made permanent with a {spell/permanency} spell by a caster of 18h level or higher for the cost of 25,000 gp."
 		]
 	},
 	"symbol_of_weakness": {
@@ -1642,7 +1642,7 @@
 			"",
 			"If desired, you may leave yourself out of the telepathic bond forged. This decision must be made at the time of casting.",
 			"",
-			"Telepathic bond can be made permanent with a permanency spell, though it only bonds two creatures per casting of permanency."
+			"Telepathic bond can be made permanent with a {spell/permanency} spell, though it only bonds two creatures per casting of permanency."
 		]
 	},
 	"telepathic_censure": {
@@ -1833,7 +1833,7 @@
 			"",
 			"At your discretion, the teleport trap can exclude a category of creatures, such as an alignment, a type of creature, or creatures that carry a specific item or know a password (though this only works if the creature is teleporting out of the area, not into it). You select this option and the conditions at the time you cast the spell. Overly complicated conditions may cause the spell to fail entirely. Multiple castings of teleport trap can be linked to cover a larger area, allowing teleported creatures to be directed to a single point within the combined area of the spells.",
 			"",
-			"Teleport trap can be made permanent at the cost of 7,000 gp. A single permanency spell can be used on all teleport traps that share a linked destination, but the gold piece cost must be paid for each individual spell.",
+			"Teleport trap can be made permanent at the cost of 7,000 gp. A single {spell/permanency} spell can be used on all teleport traps that share a linked destination, but the gold piece cost must be paid for each individual spell.",
 			"",
 			"The Pathfinders of the Grand Lodge make use of permanent teleport traps in several key locations, trapping would-be intruders in a small wing of jail cells. At least one crypt of the Whispering Tyrant makes use of the spell as well, trapping grave robbers in coffin-sized stone cysts, there to die a slow and agonizing death from thirst and starvation."
 		]
@@ -1860,11 +1860,11 @@
 			"**Duration** 10 min./level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You create a circle on the floor or other horizontal surface that teleports, as greater teleport, any creature who stands on it to a designated spot. Once you designate the destination for the circle, you can't change it. The spell fails if you attempt to set the circle to teleport creatures into a solid object, to a place with which you are not familiar and have no clear description, or to another plane.",
+			"You create a circle on the floor or other horizontal surface that teleports, as {spell/greater teleport}, any creature who stands on it to a designated spot. Once you designate the destination for the circle, you can't change it. The spell fails if you attempt to set the circle to teleport creatures into a solid object, to a place with which you are not familiar and have no clear description, or to another plane.",
 			"",
 			"The circle itself is subtle and nearly impossible to notice. If you intend to keep creatures from activating it accidentally, you need to mark the circle in some way.",
 			"",
-			"Teleportation circle can be made permanent with a permanency spell. A permanent teleportation circle that is disabled becomes inactive for 10 minutes, then can be triggered again as normal.",
+			"Teleportation circle can be made permanent with a {spell/permanency} spell. A permanent teleportation circle that is disabled becomes inactive for 10 minutes, then can be triggered again as normal.",
 			"",
 			"Magic traps such as teleportation circle are hard to detect and disable. A character with the trapfinding class feature can use the Disable Device to disarm magic traps. The DC in each case is 25 + spell level, or 34 in the case of teleportation circle."
 		]
@@ -2810,7 +2810,7 @@
 			"",
 			"This spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak only one language at a time, although it may be able to understand several languages. Tongues does not enable the subject to speak with creatures who don't speak. The subject can make itself understood as far as its voice carries. This spell does not predispose any creature addressed toward the subject in any way.",
 			"",
-			"Tongues can be made permanent with a permanency spell.",
+			"Tongues can be made permanent with a {spell/permanency} spell.",
 			"",
 			"### Tongues, Communal",
 			"",
@@ -3247,7 +3247,7 @@
 			"",
 			"The target creature's blood becomes poisonous. Anytime the target takes piercing or slashing damage, a spray of acidic blood spurts from its body in the direction of the opponent who inflicted the wound. This blood travels in a 10-foot line, striking the first creature or object it touches. A creature struck by the blood is exposed to black adder venom and must save against the poison as normal, with a DC equal to the spell's DC.",
 			"",
-			"Toxic blood can be made permanent with a permanency spell cast by a caster of 11th level or higher, at a cost of 7,500 gp."
+			"Toxic blood can be made permanent with a {spell/permanency} spell cast by a caster of 11th level or higher, at a cost of 7,500 gp."
 		]
 	},
 	"toxic_gift": {

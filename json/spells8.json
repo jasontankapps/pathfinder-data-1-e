@@ -170,7 +170,7 @@
 			"",
 			"You draw forth the idealized image of the target creature or object, masking any flaws or damage. An injured or ill creature appears healthy, and a damaged object or one with the broken condition appears intact. However, a corpse masked by quintessence remains obviously dead, and a completely destroyed object can't be made to seem whole. This illusion has visual and tactile components. Careful examination of or handling the target grants a saving throw to disbelieve, but casual observation does not. Using a broken object for its intended purpose automatically reveals the deception. Appraise checks to assess the value of an object affected by quintessence estimate the value as an item of its type in perfect condition, unless the appraiser disbelieves the illusion.",
 			"",
-			"Unwilling targets can negate the spell's effect on them with successful Will saves or with spell resistance. Those who interact with the target can attempt Will saves to see through the glamer, but spell resistance doesn't apply. Quintessence counters and dispels decrepit disguise."
+			"Unwilling targets can negate the spell's effect on them with successful Will saves or with spell resistance. Those who interact with the target can attempt Will saves to see through the glamer, but spell resistance doesn't apply. Quintessence counters and dispels {spell/decrepit disguise}."
 		]
 	},
 	"quintessence_mastery": {
@@ -191,7 +191,7 @@
 			"",
 			"*Planewarp:* This allows the caster to create various objects or effects. When this spell is cast, you can replicate a number of effects from one or more of the following spells: control water, diminish plants, fog cloud, major creation, move earth, plant growth, secure shelter, soften earth and stone, spike growth, spike stones, stone shape, transmute mud to rock, transmute rock to mud, wall of stone, or wall of thorns. The total spell levels of effects to be created must not exceed 8. For example, you could use this spell to replicate the effects of fog cloud, secure shelter, and soften earth and stone (since these three spells have levels that add up to 8) or diminish plants and spike stones (since these two spells have levels that add up to 7), but not move earth and plant growth (since these two spells have levels that add up to 9). If a spell appears on different spell lists at different levels, use the lowest level-control water, for example, counts as a 4th-level spell even though it's a 6th-level spell for sorcerers and wizards. This list need not be exhaustive; at the GM's discretion, this list may be expanded to include similar spells from other sources or similarly themed effects that do not mimic specific spells. This version of the spell has a casting time of 1 round and lasts for 1 hour per caster level or until its effects are expended.",
 			"",
-			"*Shape Realm:* This functions similarly to create demiplane, except that it alters an equivalent area of the plane the caster is on rather than creating a self-contained realm on the Astral or Ethereal Plane. You cannot grant the affected area an alignment or essence trait opposed by the plane's traits (such as granting the lawful-aligned trait to a portion of Elysium), and the area is not self-contained. At the GM's discretion, additional restrictions beyond those listed in the create demiplane spell may limit this spell's effects, and additional options for customizing the affected area may be available. This version of the spell has a casting time of 4 hours and lasts for 1 day per caster level. This version of quintessence mastery can be made permanent in the same way and for the same cost as create demiplane. This version of quintessence mastery does not function within the boundaries of a divine realm."
+			"*Shape Realm:* This functions similarly to {spell/create demiplane}, except that it alters an equivalent area of the plane the caster is on rather than creating a self-contained realm on the Astral or Ethereal Plane. You cannot grant the affected area an alignment or essence trait opposed by the plane's traits (such as granting the lawful-aligned trait to a portion of Elysium), and the area is not self-contained. At the GM's discretion, additional restrictions beyond those listed in the create demiplane spell may limit this spell's effects, and additional options for customizing the affected area may be available. This version of the spell has a casting time of 4 hours and lasts for 1 day per caster level. This version of quintessence mastery can be made {spell/permanen/t>cy} in the same way and for the same cost as create demiplane. This version of quintessence mastery does not function within the boundaries of a divine realm."
 		]
 	},
 	"radiation_ward": {
@@ -552,7 +552,7 @@
 			"",
 			"You can decipher magical inscriptions on objects-books, scrolls, weapons, and the like-that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed or trapped scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic. You can read at the rate of one page (250 words) per minute. The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check (DC 10 + spell level).",
 			"",
-			"Read magic can be made permanent with a permanency spell."
+			"Read magic can be made permanent with a {spell/permanency} spell."
 		]
 	},
 	"read_weather": {
@@ -793,7 +793,7 @@
 			"",
 			"The greatest strength of recorporeal incarnation is the difficulty of detecting it as a disguise. If subjected to detect magic, the living target sheds no magical aura, though the focus item gives off an aura of strong necromantic magic. True seeing does not reveal the living target's true form, since the corpse's flesh magically obscures it. The spell detect undead and similar effects indicate the living target is an undead creature, but the target is not truly undead, and is not affected by any other effects that target undead creatures. Recorporeal incarnation does not disguise the target's alignment.",
 			"",
-			"If the living target of recorporeal incarnation dies while the spell is in effect, the spell continues. Any {spell/raise dead} or similar spell cast upon that target resurrects that target, not the corpse flesh. Since recorporeal incarnation destroys the majority of the target corpse's physical remains, the target corpse cannot be restored to life except by {spell/miracle}, {spell/resurrection}, {spell/true resurrection}, or {spell/wish}. Recorporeal incarnation can be made permanent by a 15th-level caster using permanency with a material component worth 17,500 gp."
+			"If the living target of recorporeal incarnation dies while the spell is in effect, the spell continues. Any {spell/raise dead} or similar spell cast upon that target resurrects that target, not the corpse flesh. Since recorporeal incarnation destroys the majority of the target corpse's physical remains, the target corpse cannot be restored to life except by {spell/miracle}, {spell/resurrection}, {spell/true resurrection}, or {spell/wish}. Recorporeal incarnation can be made permanent by a 15th-level caster using {spell/permanency} with a material component worth 17,500 gp."
 		]
 	},
 	"red_hand_of_the_killer": {
@@ -1995,7 +1995,7 @@
 			"",
 			"You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves.",
 			"",
-			"Resistance can be made permanent with a permanency spell."
+			"Resistance can be made permanent with a {spell/permanency} spell."
 		]
 	},
 	"resize_item": {
@@ -2015,7 +2015,7 @@
 			"",
 			"You alter a magic weapon or suit of armor to be up to two size categories larger or smaller. If the spell on a resized suit of armor ends while the armor is being worn, the armor falls off harmlessly. If the spell would cause an item to grow too large for the area containing it, its growth halts just before that point.",
 			"",
-			"Resize item can be made permanent with a permanency spell for 7,500 gp, in which case the affected object is set at one specific new size within two steps of its original size."
+			"Resize item can be made permanent with a {spell/permanency} spell for 7,500 gp, in which case the affected object is set at one specific new size within two steps of its original size."
 		]
 	},
 	"resonating_word": {
@@ -3749,7 +3749,7 @@
 			"",
 			"This spell blesses a corpse with positive energy, preventing it from being turned into an undead creature. Attempts to raise the corpse as an undead automatically fail. If the corpse is of a person slain by a creature that creates undead out of its slain foes (such as a shadow, vampire, or wraith), that effect is delayed until the end of this spell. It is possible to protect a corpse for an extended time by casting this spell each day.",
 			"",
-			"Sanctify corpse can be made permanent with a permanency spell by a caster of 9th level or higher for the cost of 500 gp."
+			"Sanctify corpse can be made permanent with a {spell/permanency} spell by a caster of 9th level or higher for the cost of 500 gp."
 		]
 	},
 	"sanctify_weapons": {
@@ -4162,7 +4162,7 @@
 			"",
 			"If you create the wall so that it appears in the same space as one or more creatures, each affected creature must succeed at a Fortitude save or become blinded. Creatures that successfully save against the blindness are subject to the fascination effect unless they leave the wall within 1 round of casting the spell.",
 			"",
-			"Scintillating wall can be made permanent with a permanency spell cast by a caster of 13th level or higher, at a cost of 12,500 gp."
+			"Scintillating wall can be made permanent with a {spell/permanency} spell cast by a caster of 13th level or higher, at a cost of 12,500 gp."
 		]
 	},
 	"scoop": {

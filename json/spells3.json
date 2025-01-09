@@ -61,7 +61,7 @@
 			"",
 			"You designate where both you and your subject appear. You don't need line of sight to draw the subject creature into the mindscape, but you must be aware of its presence within range. If you target an area with more than one sentient creature and you have never seen any of the creatures before (for example, if you know a group of soldiers is inside a barracks but you can't see them through the door), the subject of this spell is selected at random. If you have seen firsthand the creature you wish to target (continuing the example, if you spied the sergeant entering the room moments before), you can select it unerringly from among all the creatures. You must appear somewhere in your mindscape, though it's relatively easy to shield yourself from the view of any other creatures inside if they don't realize they're in a mindscape. You must also create a method of exit from the mindscape when you cast this spell, and that method must be possible to achieve based on the traits of the mindscape, even if it is obscure or difficult. The GM decides whether a method of escape is reasonable. Anything that would be a reasonable method of waking from a dream during deep sleep could allow one to leave a mindscape.",
 			"",
-			"More creatures than the initial two can enter an existing mindscape, typically through the use of the mindscape door spell. You can create illusory creatures within the mindscape, but you're able to direct or concentrate on only one at a time. Only this creature is believable; any others largely remain silent or speak generic, repetitive phrases.",
+			"More creatures than the initial two can enter an existing mindscape, typically through the use of the {spell/mindscape door} spell. You can create illusory creatures within the mindscape, but you're able to direct or concentrate on only one at a time. Only this creature is believable; any others largely remain silent or speak generic, repetitive phrases.",
 			"",
 			"As is normal with mindscapes, you and any other creatures within the mindscape are unable to take actions within the real world, and your bodies lose their Dexterity bonuses to AC.",
 			"",
@@ -69,7 +69,7 @@
 			"",
 			"This spell ends at any time that you choose to depart the mindscape, freeing the target as well. Any creature that drops below 0 hit points while inside the mindscape returns to its body. If this happens to you, the spell also ends, freeing anyone still inside.",
 			"",
-			"Create mindscape can be made permanent with a permanency spell by a caster of 12th level or higher at a cost of 10,000 gp. You and other creatures aware of a permanent mindscape can come and go using the mindscape door spell.",
+			"Create mindscape can be made permanent with a {spell/permanency} spell by a caster of 12th level or higher at a cost of 10,000 gp. You and other creatures aware of a permanent mindscape can come and go using the mindscape door spell.",
 			"",
 			"### Create Mindscape, Greater",
 			"",
@@ -84,7 +84,7 @@
 			"",
 			"This spell functions like create mindscape, except it can affect more creatures, the mindscape lasts longer, and you can choose the mindscape's magic trait. You can also direct a number of believable creatures at a time equal to your caster level.",
 			"",
-			"Greater create mindscape can be made permanent with a permanency spell by a caster of 15th level or higher at a cost of 17,500 gp. You and other creatures aware of a permanent mindscape can come and go using the mindscape door spell."
+			"Greater create mindscape can be made permanent with a {spell/permanency} spell by a caster of 15th level or higher at a cost of 17,500 gp. You and other creatures aware of a permanent mindscape can come and go using the mindscape door spell."
 		]
 	},
 	"create_mindscape_greater": {
@@ -1046,7 +1046,7 @@
 			"",
 			"By touching the ground, you curse the land with three unnatural hazards, as the minor perilous demesne curse (see below). Though this makes the hazards appear frequently, their manifestations are still unpredictable-you can't control when the hazards begin or end, nor where they appear within the cursed terrain.",
 			"",
-			"Curse terrain spells can be made permanent with a permanency spell. The minimum caster level and gp cost are shown on the table. The spell is still dismissable if made permanent.",
+			"Curse terrain spells can be made permanent with a {spell/permanency} spell. The minimum caster level and gp cost are shown on the table. The spell is still dismissable if made permanent.",
 			"",
 			"| Spell | Minimum Caster Level | GP Cost |",
 			"| --- | --- | --- |",
@@ -1416,7 +1416,7 @@
 			"",
 			"You create either up to four spheres of darkness that each reduce the illumination level by one step within a 20-foot-radius, or one dimly lit, vaguely humanoid shape. Each sphere of dancing darkness must stay within a 10-foot-radius area of one another but can otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The darkness can move up to 100 feet per round. The effect winks out if the distance between you and it exceeds the spell's range.",
 			"",
-			"Dancing shadows can be made permanent with a permanency spell."
+			"Dancing shadows can be made permanent with a {spell/permanency} spell."
 		]
 	},
 	"dancing_lantern": {
@@ -1434,7 +1434,7 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You can animate a lantern and order it to follow you. The lantern floats at shoulder height and remains within 5 feet of you, no matter how fast you move. The lantern cannot support any additional weight. The lantern illuminates its normal area, even if it does not have any oil in it. For the purposes of spells or effects targeting it the lantern always acts as if in your possession even when not directly on your person. A dancing lantern can be made permanent with a permanency spell (CL 9th, 2,500 gp)."
+			"You can animate a lantern and order it to follow you. The lantern floats at shoulder height and remains within 5 feet of you, no matter how fast you move. The lantern cannot support any additional weight. The lantern illuminates its normal area, even if it does not have any oil in it. For the purposes of spells or effects targeting it the lantern always acts as if in your possession even when not directly on your person. A dancing lantern can be made permanent with a {spell/permanency} spell (CL 9th, 2,500 gp)."
 		]
 	},
 	"dancing_lights": {
@@ -1456,7 +1456,7 @@
 			"",
 			"You can only have one dancing lights spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent, it does not count against this limit.",
 			"",
-			"Dancing lights can be made permanent with a permanency spell."
+			"Dancing lights can be made permanent with a {spell/permanency} spell."
 		]
 	},
 	"dark_whispers": {
@@ -1546,7 +1546,7 @@
 			"",
 			"You ward an area's shadows such that light cannot penetrate them. The illumination level in the affected area no longer changes when nonmagical light enters it. Any magical effect must succeed at a caster level check (DC = 10 + your caster level) in order to change the light level within the spell's radius. Darkvault has no effect on spells or effects that would make the spell's area darker.",
 			"",
-			"The spell must be cast on an area, such as a cave or room. A spellcaster of 11th level or higher can make darkvault permanent with a permanency spell, at a cost of 7,500 gp."
+			"The spell must be cast on an area, such as a cave or room. A spellcaster of 11th level or higher can make darkvault permanent with a {spell/permanency} spell, at a cost of 7,500 gp."
 		]
 	},
 	"darkvision": {
@@ -1570,7 +1570,7 @@
 			"",
 			"The subject gains the ability to see 60 feet even in total darkness. Darkvision is black and white only but otherwise like normal sight.",
 			"",
-			"Darkvision can be made permanent with a permanency spell.",
+			"Darkvision can be made permanent with a {spell/permanency} spell.",
 			"",
 			"### Darkvision, Communal",
 			"",
@@ -2354,9 +2354,9 @@
 			"**Duration** 1 day/level  ",
 			"**Saving Throw** none (object) or Will disbelief (if interacted with); **Spell Resistance** no",
 			"",
-			"You make an object seem like a worthless version of itself. A masterwork or magic sword could seem to be a useless, rusting, discarded blade, and a luxurious throne could appear to be a decrepit wooden chair. If used against an attended object, the wielder can immediately attempt a Will save to disbelieve the effect. Decrepit disguise counters and dispels quintessence.",
+			"You make an object seem like a worthless version of itself. A masterwork or magic sword could seem to be a useless, rusting, discarded blade, and a luxurious throne could appear to be a decrepit wooden chair. If used against an attended object, the wielder can immediately attempt a Will save to disbelieve the effect. Decrepit disguise counters and dispels {spell/quintessence}.",
 			"",
-			"Decrepit disguise can be made permanent with a permanency spell by a caster of 9th level or higher for the cost of 500 gp."
+			"Decrepit disguise can be made permanent with a {spell/permanency} spell by a caster of 9th level or higher for the cost of 500 gp."
 		]
 	},
 	"deep_slumber": {
@@ -3225,7 +3225,7 @@
 			"",
 			"Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
 			"",
-			"Detect magic can be made permanent with a permanency spell.",
+			"Detect magic can be made permanent with a {spell/permanency} spell.",
 			"",
 			"| Item | Faint Aura | Moderate | Strong | Overwhelming |",
 			"| --- | --- | --- | --- | --- |",

@@ -566,7 +566,7 @@
 			"",
 			"This spell empowers the natural attacks or unarmed strikes of undead creatures, granting a +1 enhancement bonus on attack and damage rolls made by the target with its unarmed strikes or attacks with one natural attack. This spell can cause an undead creature's unarmed strike to deal lethal damage, but in this case, the attack does not gain an enhancement bonus.",
 			"",
-			"Unhallowed blows can be made permanent with a permanency spell. In this case, the caster must be at least 9th level and must expend 2,500 gp worth of diamond dust as a material component.",
+			"Unhallowed blows can be made permanent with a {spell/permanency} spell. In this case, the caster must be at least 9th level and must expend 2,500 gp worth of diamond dust as a material component.",
 			"",
 			"### Unhallowed Blows, Greater",
 			"",
@@ -581,7 +581,7 @@
 			"",
 			"This spell functions as unhallowed blows, except the enhancement bonus is +1 per 4 caster levels (maximum +5). Alternatively, you can imbue all of a creature's natural weapons with a +1 enhancement bonus (regardless of your caster level).",
 			"",
-			"Greater unhallowed blows can be made permanent with a permanency spell. In this case, the caster must be at least 11th level and must expend 7,500 gp worth of diamond dust as a material component."
+			"Greater unhallowed blows can be made permanent with a {spell/permanency} spell. In this case, the caster must be at least 11th level and must expend 7,500 gp worth of diamond dust as a material component."
 		]
 	},
 	"unhallowed_blows_greater": {
@@ -2394,7 +2394,7 @@
 			"",
 			"If you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall. If any 5-foot length of wall takes 20 points or more of cold damage in 1 round, that length goes away. (Do not divide cold damage by 2, as normal for objects.)",
 			"",
-			"Wall of fire can be made permanent with a permanency spell. A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.",
+			"Wall of fire can be made permanent with a {spell/permanency} spell. A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.",
 			"",
 			"### Mythic Wall of Fire",
 			"",
@@ -2553,7 +2553,7 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** Fortitude partial, see text; **Spell Resistance** yes",
 			"",
-			"An immobile, blinding curtain of white light that blocks line of sight springs into existence. The wall sheds bright light to a range of 60 feet in all directions. A creature adjacent to the wall is blinded as long as it remains adjacent plus an additional 1d4 rounds thereafter-closing its eyes or succeeding at a Fortitude save negates the effect for 1 round. A creature that passes through the wall is automatically blinded, even if its eyes are closed. A creature from the Plane of Shadow gains 1d4 negative levels each round it spends within 5 feet of the wall (Fortitude negates). Passing through the wall imposes a -4 penalty on the save for that round. Twenty-four hours after gaining these negative levels, the subject must attempt a new Fortitude saving throw for each negative level. If a save succeeds, 1 negative level is removed. If it fails, the negative level becomes permanent. Wall of light can be made permanent with permanency (with a minimum caster level of 13th and cost of 11,000 gp)."
+			"An immobile, blinding curtain of white light that blocks line of sight springs into existence. The wall sheds bright light to a range of 60 feet in all directions. A creature adjacent to the wall is blinded as long as it remains adjacent plus an additional 1d4 rounds thereafter-closing its eyes or succeeding at a Fortitude save negates the effect for 1 round. A creature that passes through the wall is automatically blinded, even if its eyes are closed. A creature from the Plane of Shadow gains 1d4 negative levels each round it spends within 5 feet of the wall (Fortitude negates). Passing through the wall imposes a -4 penalty on the save for that round. Twenty-four hours after gaining these negative levels, the subject must attempt a new Fortitude saving throw for each negative level. If a save succeeds, 1 negative level is removed. If it fails, the negative level becomes permanent. Wall of light can be made permanent with {spell/permanency} (with a minimum caster level of 13th and cost of 11,000 gp)."
 		]
 	},
 	"wall_of_mist": {
@@ -3318,7 +3318,7 @@
 			"",
 			"The strands of a web spell are flammable. A flaming weapon can slash them away as easily as a hand brushes away cobwebs. Any fire can set the webs alight and burn away one 5-foot square in 1 round. All creatures within flaming webs take 2d4 points of fire damage from the flames.",
 			"",
-			"Web can be made permanent with a permanency spell. A permanent web that is damaged (but not destroyed) regrows in 10 minutes.",
+			"Web can be made permanent with a {spell/permanency} spell. A permanent web that is damaged (but not destroyed) regrows in 10 minutes.",
 			"",
 			"### Mythic Web",
 			"",

@@ -1203,7 +1203,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
 			"",
-			"Alchemy is a point of national pride in Thuvia, home of the famous sun orchid elixir. But resources are often hard to come by in the blasted desert landscape, so you have found creative ways to create many of the tools you need to survive. You gain a +2 trait bonus on Craft (alchemy) skill checks. This bonus increases to +3 when you are using Craft (alchemy) to craft an alchemical item."
+			"Alchemy is a point of national pride in Thuvia, home of the famous {magic-artifact/sun orchid elixir}. But resources are often hard to come by in the blasted desert landscape, so you have found creative ways to create many of the tools you need to survive. You gain a +2 trait bonus on Craft (alchemy) skill checks. This bonus increases to +3 when you are using Craft (alchemy) to craft an alchemical item."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	},
@@ -5896,7 +5896,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
 			"",
-			"You have traveled the great circular trade route around Thuvia, following the sale of the sun orchid elixir from city to city, and are used to haggling with foreigners. You gain a +1 trait bonus on Appraise, Bluff, and Sense Motive checks made for business deals and transactions."
+			"You have traveled the great circular trade route around Thuvia, following the sale of the {magic-artifact/sun orchid elixir} from city to city, and are used to haggling with foreigners. You gain a +1 trait bonus on Appraise, Bluff, and Sense Motive checks made for business deals and transactions."
 		],
 		"subhierarchy": [[ "Regional Traits", "main/traits_regional" ]]
 	}
