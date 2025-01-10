@@ -273,13 +273,13 @@
 			"",
 			"**{domain/Medicine}:** {faith/Dalenydra}, {faith/Immonhiel}, {faith/Irori}, {faith/Korada}, {faith/Qi Zhong}, {faith/Sarenrae}",
 			"",
-			"**[Monsoon](domain/monsoons):** {faith/Daikitsu}, {faith/Gozreh}, {faith/Hei Feng}, {faith/Rull}",
+			"**{domain/Monsoon>s}:** {faith/Daikitsu}, {faith/Gozreh}, {faith/Hei Feng}, {faith/Rull}",
 			"",
 			"**{domain/Petrification}:** {faith/Ayrzul}, {faith/Minderhal}, {faith/Soralyon}, {faith/Xoveron}",
 			"",
 			"**{domain/Portal}:** {faith/Abadar}, {faith/Alseta}\\*, {faith/Barbatos}, {faith/Yog-Sothoth}",
 			"",
-			"**{domain/Rites}:** {faith/Abraxas}, {faith/Asmodeus}, {faith/Nalinivati}, {faith/Nethys}, [Nyarlathotep](faith/nyarlathotep_black_pharaoh), {faith/Sivanah}",
+			"**{domain/Rites}:** {faith/Abraxas}, {faith/Asmodeus}, {faith/Nalinivati}, {faith/Nethys}, {faith/Nyarlathotep>_black_pharaoh}, {faith/Sivanah}",
 			"",
 			"**{domain/Self-Realization} ({domain/Liberation}/{domain/Strength}):** {faith/Arshea}, {faith/Falayna}, {faith/Haagenti}, {faith/Irori}, {faith/Kurgess}, {faith/Shei}, {faith/Urgathoa}",
 			"",
@@ -926,7 +926,7 @@
 			"",
 			"You have always looked after yourself first, and done whatever you need to do to survive. You've killed before, and you'll kill again, but you don't lose sleep over it. If it's you or them, you invariably choose yourself. You follow no code, unless it's doing whatever brings you to the top. Of course, sometimes you have to work with others, and that's fine too, as long as the pay is right-whatever it takes to get the job done. With the current unrest in Cheliax, it's starting to look like a good deal to work with House Thrune. You know Thrune rewards those who serve it well, and there's no one else in Cheliax who can offer the power, prestige, and money that Thrune can.",
 			"",
-			"You've got a keen eye for what makes a good arrangement and when to walk away from a bad deal. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you. In addition, as an immediate action once per day, you can shift your effective alignment so that you are considered neutral instead of evil for the purpose of good effects that target evil creatures (such as {spell/holy smite} or a [paladin's smite evil](class/paladin) ability). Your alignment does not actually change when you use this ability."
+			"You've got a keen eye for what makes a good arrangement and when to walk away from a bad deal. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you. In addition, as an immediate action once per day, you can shift your effective alignment so that you are considered neutral instead of evil for the purpose of good effects that target evil creatures (such as {spell/holy smite} or a {class/paladin/'s smite evil} ability). Your alignment does not actually change when you use this ability."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},

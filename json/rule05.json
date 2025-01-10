@@ -301,7 +301,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/179}",
 			"",
-			"When your hit point total reaches 0, you're [disabled](rule/disabled_0_hit_points). When it reaches -1, you're [dying](rule/dying_negative_hit_points). When it gets to a negative amount equal to your Constitution score, you're {rule/dead}."
+			"When your hit point total reaches 0, you're {rule/disabled>_0_hit_points}. When it reaches -1, you're {rule/dying>_negative_hit_points}. When it gets to a negative amount equal to your Constitution score, you're {rule/dead}."
 		],
 		"parent_topics": [
 			"combat",
@@ -353,7 +353,7 @@
 			"- Load a crossbow",
 			"- Move a heavy item",
 			"- Pick up an item, or retrieve a stored item",
-			"- Use a [skill](main/skills) that takes 1 action or longer (usually; some exceptions apply)",
+			"- Use a {main/skill>s} that takes 1 action or longer (usually; some exceptions apply)",
 			"- Move out of a threatened square (including running)",
 			"- Light a torch with a tindertwig",
 			"- Control a frightened mount",
@@ -1414,7 +1414,7 @@
 			"",
 			"A stable character who has been tended by a healer or who has been magically healed eventually regains consciousness and recovers hit points naturally. If the character has no one to tend him, however, his life is still in danger, and he may yet slip away.",
 			"",
-			"***Recovering with Help:*** One hour after a tended, dying character becomes stable, the character must make a DC 10 Constitution check to become conscious. The character takes a penalty on this roll equal to his negative hit point total. Conscious characters with negative hit point totals are treated as [disabled](rule/disabled_0_hit_points) characters. If the character remains unconscious, he receives another check every hour to regain consciousness. A natural 20 on this check is an automatic success. Even if unconscious, the character recovers hit points naturally. He automatically regains consciousness when his hit points rise to 1 or higher.",
+			"***Recovering with Help:*** One hour after a tended, dying character becomes stable, the character must make a DC 10 Constitution check to become conscious. The character takes a penalty on this roll equal to his negative hit point total. Conscious characters with negative hit point totals are treated as {rule/disabled>_0_hit_points} characters. If the character remains unconscious, he receives another check every hour to regain consciousness. A natural 20 on this check is an automatic success. Even if unconscious, the character recovers hit points naturally. He automatically regains consciousness when his hit points rise to 1 or higher.",
 			"",
 			"***Recovering without Help:*** A severely wounded character left alone usually dies. He has a small chance of recovering on his own. Treat such characters as those attempting to recover with help, but every failed Constitution check to regain consciousness results in the loss of 1 hit point. An unaided character does not recover hit points naturally. Once conscious, the character can make a DC 10 Constitution check once per day, after resting for 8 hours, to begin recovering hit points naturally. The character takes a penalty on this roll equal to his negative hit point total. Failing this check causes the character to lose 1 hit point, but this does not cause the character to become unconscious. Once a character makes this check, he continues to heal naturally and is no longer in danger of losing hit points naturally."
 		],
@@ -4074,7 +4074,7 @@
 			"",
 			"A creature with the {feat/Blind-Fight} feat has a better chance to hit an invisible creature. Roll the miss chance twice, and he misses only if both rolls indicate a miss. (Alternatively, make one 25% miss chance roll rather than two 50% miss chance rolls.)",
 			"",
-			"A creature with [blindsight](rule/blindsight_and_blindsense) can attack (and otherwise interact with) creatures regardless of invisibility.",
+			"A creature with {rule/blindsight>_and_blindsense} can attack (and otherwise interact with) creatures regardless of invisibility.",
 			"",
 			"An invisible burning torch still gives off light, as does an invisible object with a light or similar spell cast upon it.",
 			"",

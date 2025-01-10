@@ -197,7 +197,7 @@
 			"**Effect** 1d4 hours; an opponent who attempts a Bluff check to fool the user or a Diplomacy check to change the user's attitude can roll twice and take the better result  ",
 			"**Damage** 1d2 Wis damage",
 			"",
-			"The \"sting\" administered to willing recipients at some [Calistrian](faith/calistria) temples helps nervous visitors relax. Black-market alchemists have reverse-engineered the drug to meet demand from less savory individuals who appreciate the pliability it elicits in users."
+			"The \"sting\" administered to willing recipients at some {faith/Calistria/n} temples helps nervous visitors relax. Black-market alchemists have reverse-engineered the drug to meet demand from less savory individuals who appreciate the pliability it elicits in users."
 		]
 	},
 	"dwarven_fire_ale": {
@@ -523,10 +523,10 @@
 			"{SOURCE Book of the Damned/183}  ",
 			"**Type** contact; **Addiction** major, Fortitude DC 20  ",
 			"**Price** 2,000 gp  ",
-			"**Effect** An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the [mindscape](rule/mindscapes) called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.  ",
+			"**Effect** An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the {rule/mindscape>s} called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.  ",
 			"**Damage** 1d4 Str damage",
 			"",
-			"The drug adyton is central to [Mahathallah's](faith/mahathallah) worship and the spreading of her mysteries. It can be purchased only from worshipers of Mahathallah, and typically only by servants of the goddess."
+			"The drug adyton is central to {faith/Mahathallah/'s} worship and the spreading of her mysteries. It can be purchased only from worshipers of Mahathallah, and typically only by servants of the goddess."
 		]
 	}
 }

@@ -2527,7 +2527,7 @@
 			"**Aura** moderate abjuration and transmutation [chaotic, evil, good, lawful]; **CL** 5th  ",
 			"**Slot** ring; **Price** 20,000 gp; **Weight** -",
 			"",
-			"This ring is made of several metals hammered together into a mottled pattern, with Nethys's holy symbol stamped on one end. It functions as a [ring of minor spell storing](magic-ring/ring_of_spell_storing_minor), except domain spells from [Nethys's domains](faith/nethys) count as 1 spell level lower (minimum 1st level) for the purpose of storing them in the ring.",
+			"This ring is made of several metals hammered together into a mottled pattern, with Nethys's holy symbol stamped on one end. It functions as a [ring of minor spell storing](magic-ring/ring_of_spell_storing_minor), except domain spells from {faith/Nethys/'s domains} count as 1 spell level lower (minimum 1st level) for the purpose of storing them in the ring.",
 			"",
 			"### Construction",
 			"",

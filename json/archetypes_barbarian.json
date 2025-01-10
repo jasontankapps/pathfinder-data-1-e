@@ -342,7 +342,7 @@
 			"",
 			"This ability alters rage.",
 			"",
-			"**Haunt Channeler (Su):** At 3rd level, a geminate invoker gains the power to sense and absorb lingering spiritual energy. This functions identically to the [medium class ability of the same name](class/medium), except the geminate invoker deals 1d6 points of damage to haunts for every 3 barbarian levels he has.",
+			"**Haunt Channeler (Su):** At 3rd level, a geminate invoker gains the power to sense and absorb lingering spiritual energy. This functions identically to the {class/medium/ class ability of the same name}, except the geminate invoker deals 1d6 points of damage to haunts for every 3 barbarian levels he has.",
 			"",
 			"This ability replaces trap sense.",
 			"",
@@ -398,7 +398,7 @@
 			"",
 			"**Reduced Rage (Ex):** At 2nd level and every level thereafter, a hateful rager only gains 1 additional round of rage per day instead of the normal 2 additional rounds of rage per day.",
 			"",
-			"**Favored Enemy (Ex):** At 2nd level, a hateful rager selects a favored enemy. This ability works identically to the [ranger ability of the same name](class/ranger). At 8th, 14th, and 20th level, the hateful rager selects another favored enemy and increases her bonus against one favored enemy type, as described in the ranger class.",
+			"**Favored Enemy (Ex):** At 2nd level, a hateful rager selects a favored enemy. This ability works identically to the {class/ranger/ ability of the same name}. At 8th, 14th, and 20th level, the hateful rager selects another favored enemy and increases her bonus against one favored enemy type, as described in the ranger class.",
 			"",
 			"While raging, the hateful rager makes every effort to fight a favored enemy rather than other opponents. If aware of the presence of a favored enemy, the hateful rager must make a DC 20 Will save each round to attack another creature; failure means the barbarian must attack the favored enemy or move closer to that enemy. She may freely attack creatures preventing her from reaching that favored enemy (regardless of whether they are actively trying to prevent her attacks or merely in the way). She can avoid harmful obstacles normally in her attempts to reach the target and is not forced to take the shortest route.",
 			"",
@@ -524,7 +524,7 @@
 			"",
 			"**Fast Rider (Ex):** The speed of any mount the barbarian rides is increased by 10 feet. This ability replaces fast movement.",
 			"",
-			"**Bestial Mount (Ex):** At 5th level, the mounted fury gains the service of a feral mount. This ability functions as a [druid's animal companion](class/druid), using the barbarian's level -4 as her effective druid level. This companion must be one that she is capable of riding and is suitable as a mount. A Medium barbarian can select a camel or a horse. A Small barbarian can select a pony or a wolf, but can also select a boar or a dog if she is at least 8th level. Whenever a barbarian is raging while mounted on her bestial mount, the mount gains a +2 morale bonus to its Strength. This ability replaces uncanny dodge and improved uncanny dodge.",
+			"**Bestial Mount (Ex):** At 5th level, the mounted fury gains the service of a feral mount. This ability functions as a {class/druid/'s animal companion}, using the barbarian's level -4 as her effective druid level. This companion must be one that she is capable of riding and is suitable as a mount. A Medium barbarian can select a camel or a horse. A Small barbarian can select a pony or a wolf, but can also select a boar or a dog if she is at least 8th level. Whenever a barbarian is raging while mounted on her bestial mount, the mount gains a +2 morale bonus to its Strength. This ability replaces uncanny dodge and improved uncanny dodge.",
 			"",
 			"**Rage Powers:** The following rage powers complement the mounted fury archetype: {ragepower/ferocious mount}, {ragepower/ferocious trample}, {ragepower/greater ferocious mount}, {ragepower/greater ferocious trample}, {ragepower/spirit steed}."
 		]
@@ -546,7 +546,7 @@
 			"",
 			"**Hide from Constructs (Su):** At 14th level, a Numerian liberator can control her movement, breathing, body temperature, and other physiological signs to confuse the artificial visions of constructs. At will, the barbarian can make herself undetectable to constructs as if she were affected by a {spell/hide from undead} spell that instead hides the subject from constructs. Intelligent constructs receive a Will save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) to see through this effect. The barbarian must expend 1 round of rage for each round she uses this ability. This ability replaces indomitable will.",
 			"",
-			"**Rage Powers:** The following rage powers complement the Numerian liberator archetype: {ragepower/deadly accuracy}, [energy absorption (fire)](ragepower/energy_absorption), [energy resistance (fire)](ragepower/energy_resistance), [greater energy resistance (fire)](ragepower/greater_energy_resistance), {ragepower/gearbreaker}, {ragepower/guarded stance}, {ragepower/lethal accuracy}, {ragepower/low-light vision}, {ragepower/night vision}, {ragepower/rolling dodge}, {ragepower/reflexive dodge}, {ragepower/surprise accuracy}."
+			"**Rage Powers:** The following rage powers complement the Numerian liberator archetype: {ragepower/deadly accuracy}, {ragepower/energy absorption/ (fire)}, {ragepower/energy resistance/ (fire)}, {ragepower/greater energy resistance/ (fire)}, {ragepower/gearbreaker}, {ragepower/guarded stance}, {ragepower/lethal accuracy}, {ragepower/low-light vision}, {ragepower/night vision}, {ragepower/rolling dodge}, {ragepower/reflexive dodge}, {ragepower/surprise accuracy}."
 		]
 	},
 	"pack_hunter": {
@@ -769,7 +769,7 @@
 			"",
 			"**Cinder Dance (Ex):** At 3rd level, when a burn rider succeeds at a Reflex save to avoid fire damage, she can spend an immediate action to move up to half her speed. If the burn rider ends this movement outside the area of effect, she takes no damage from the effect. After this sudden movement, the burn rider is staggered until the end of her next turn. If the burn rider is mounted, her mount makes the movement instead, and both the mount and the burn rider are staggered until the end of the burn rider's next turn. This ability replaces trap sense.",
 			"",
-			"**Mount:** At 4th level, a burn rider gains a loyal mount. This ability functions like the [druid's animal companion ability](class/druid) (as described in the nature bond class feature), except that the burn rider always gains a horse or pony (though she can gain additional options at the GM's discretion) and her effective druid level is equal to her Shoanti burn rider level - 3. This ability replaces the rage powers gained at 4th, 8th, 12th, and 16th level.",
+			"**Mount:** At 4th level, a burn rider gains a loyal mount. This ability functions like the {class/druid/'s animal companion ability} (as described in the nature bond class feature), except that the burn rider always gains a horse or pony (though she can gain additional options at the GM's discretion) and her effective druid level is equal to her Shoanti burn rider level - 3. This ability replaces the rage powers gained at 4th, 8th, 12th, and 16th level.",
 			"",
 			"**Give Me Fire (Ex):** At 5th level, if a Shoanti burn rider takes fire damage while raging, she regains 1 round of rage. The burn rider regains the round of rage only if the fire damage bypasses or exceeds any energy resistance or other protections in effect. The burn rider can only regain 1 round of rage per round. This ability replaces improved uncanny dodge.",
 			"",

@@ -378,7 +378,15 @@ div.listLike ion-item.itemLike::part(native) {
 
 div.tableWrap {
 	overflow-x: auto;
+	overflow-y: auto;
 	width: 100%;
+	/*
+		56px page header,
+		56px page footer,
+		8px margin on filter button,
+		filter button min-height 2.1em
+	*/
+	max-height: calc(100vh - 56px - 56px - 8px - 2.1em);
 }
 div.tableWrap table {
 	margin: 0 auto;
@@ -391,8 +399,9 @@ table {
 	border-color: var(--table-border-color);
 	border-width: var(--half-width) var(--full-width) var(--half-width) 0;
 	border-collapse: separate !important;
-	border-spacing: 0;
+	border-spacing: 0 !important;
 	table-layout: fixed;
+	position: relative;
 }
 table tr th,
 table tr td {
@@ -416,7 +425,7 @@ table tr td {
 	/* This is so linked cells will ripple */
 	position: relative;
 }
-table thead th {
+table thead tr th {
 	position: sticky;
 	inset-block-start: 0;
 	color: var(--table-header-fg);

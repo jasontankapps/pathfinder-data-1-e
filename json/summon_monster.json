@@ -99,7 +99,7 @@
 			"",
 			"{SOURCE Pathfinder #68: The Shackled Hut}",
 			"",
-			"- [Great Horned Owl (Extraplanar)](monster/great_horned_owl)"
+			"- {monster/Great Horned Owl/ (Extraplanar)}"
 		]
 	},
 	"summon_monster_i_pharasma": {
@@ -191,15 +191,15 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Antelope (Herd Animal)](monster/antelope) [^A][^I]",
-			"- [Baboon (Primate)](monster/baboon) [^A][^I]",
+			"- {monster/Antelope/ (Herd Animal)} [^A][^I]",
+			"- {monster/Baboon/ (Primate)} [^A][^I]",
 			"- {monster/Badger} [^A][^I]",
 			"- {monster/Great Horned Owl} [^A][^I]",
-			"- [Kangaroo (Marsupial)](monster/kangaroo) [^A][^I]",
+			"- {monster/Kangaroo/ (Marsupial)} [^A][^I]",
 			"- {monster/Snapping Turtle} [^A][^I]",
 			"- {monster/Stingray} [^A][^I]",
-			"- [Thlacine (Marsupial)](monster/thylacine) [^A][^I]",
-			"- [Trumpeter Swan](monster/trumpeter_swan) [^A][^I]",
+			"- {monster/Thylacine/ (Marsupial)} [^A][^I]",
+			"- {monster/Trumpeter Swan} [^A][^I]",
 			"- {monster/Vulture} [^A][^I]"
 		],
 		"footnotes": ["A", "I"]
@@ -282,8 +282,8 @@
 			"",
 			"{SOURCE Champions of Balance}",
 			"",
-			"- [Sprite (CN)](monster/sprite)",
-			"- [Stirge (N)](monster/stirge)"
+			"- {monster/Sprite/ (CN)}",
+			"- {monster/Stirge/ (N)}"
 		]
 	},
 	"summon_monster_i_basic": {
@@ -302,8 +302,8 @@
 			"- {monster/Eagle} [^A]",
 			"- [Fire Beetle](monster/fire_beetle) [^A]",
 			"- [Frog, Poison](monster/poison_frog) [^A]",
-			"- [Pony (Horse)](monster/pony) [^A]",
-			"- [Viper (Snake)](monster/viper) [^A]"
+			"- {monster/Pony/ (Horse)} [^A]",
+			"- {monster/Viper/ (Snake)} [^A]"
 		],
 		"footnotes": ["A"]
 	},
@@ -336,7 +336,7 @@
 			"{SOURCE Monster Summoner's Handbook;Pathfinder #17: A Memory of Darkness}",
 			"",
 			"- [Entropic Giant Bee](monster/giant_bee) [^I]",
-			"- [Tiefling Rogue 1 (CN)](monster/tiefling)"
+			"- {monster/Tiefling/ Rogue 1 (CN)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -366,7 +366,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Pseudodragon (CG)](monster/pseudodragon) [^I]"
+			"- {monster/Pseudodragon/ (CG)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -399,7 +399,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook;Pathfinder #38: Racing to Ruin}",
 			"",
-			"- [Dimorphodon (Dinosaur)](monster/dimorphodon) [^A][^I]",
+			"- {monster/Dimorphodon/ (Dinosaur)} [^A][^I]",
 			"- {monster/Merfolk} [^A]"
 		],
 		"footnotes": ["A", "I"]
@@ -429,7 +429,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Shikigami (Kami)](monster/shikigami) [^I]"
+			"- {monster/Shikigami/ (Kami)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -504,7 +504,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Augur (Kyton)](monster/augur) [evil, lawful][^I]"
+			"- {monster/Augur/ (Kyton)} [evil, lawful][^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -535,16 +535,16 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Camel (Herd Animal)](monster/camel) [^A][^I]",
-			"- [Compsognathus (Dinosaur)](monster/compsognathus) [^A][^I]",
-			"- [Dimorphodon (Dinosaur)](monster/dimorphodon) [^A][^I]",
+			"- {monster/Camel/ (Herd Animal)} [^A][^I]",
+			"- {monster/Compsognathus/ (Dinosaur)} [^A][^I]",
+			"- {monster/Dimorphodon/ (Dinosaur)} [^A][^I]",
 			"- {monster/Gar} [^A][^I]",
-			"- [Giant Gecko (Lizard)](monster/giant_gecko) [^A][^I]",
+			"- {monster/Giant Gecko/ (Lizard)} [^A][^I]",
 			"- [Giant Tortoise](monster/giant_tortoise) [^A][^I]",
 			"- [Giant Weasel](monster/giant_weasel) [^A][^I]",
 			"- [Manta Ray](monster/manta_ray) [^A][^I]",
-			"- [Ram (Herd Animal)](monster/ram) [^A][^I]",
-			"- [Stag (Herd Animal)](monster/stag) [^A][^I]"
+			"- {monster/Ram/ (Herd Animal)} [^A][^I]",
+			"- {monster/Stag/ (Herd Animal)} [^A][^I]"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -561,11 +561,11 @@
 			"",
 			"- [Damned Petitioner (LE)](template/petitioner)",
 			"- [Fiendish Squid (NE)](monster/squid)",
-			"- [Fuath (Gremlin, CE)](monster/fuath)",
+			"- {monster/Fuath/ (Gremlin, CE)}",
 			"- [Hunted Petitioner (NE)](template/petitioner)",
 			"- [Larvae Petitioner (CE)](template/petitioner)",
-			"- [Lemure (Devil, LE)](monster/lemure) [evil, lawful]",
-			"- [Pugwampi (Gremlin, NE)](monster/pugwampi)"
+			"- {monster/Lemure/ (Devil, LE)} [evil, lawful]",
+			"- {monster/Pugwampi/ (Gremlin, NE)}"
 		]
 	},
 	"summon_monster_ii_summon_good_monster": {
@@ -581,9 +581,9 @@
 			"",
 			"- [Celestial Octopus (NG)](monster/octopus)",
 			"- [Celestial Wolf (NG)](monster/wolf)",
-			"- [Faun (CG)](monster/faun)",
-			"- [Grig (NG)](monster/grig)",
-			"- [Pseudodragon (NG)](monster/pseudodragon)"
+			"- {monster/Faun/ (CG)}",
+			"- {monster/Grig/ (NG)}",
+			"- {monster/Pseudodragon/ (NG)}"
 		]
 	},
 	"summon_monster_ii_summon_neutral_monster": {
@@ -597,8 +597,8 @@
 			"",
 			"{SOURCE Champions of Balance}",
 			"",
-			"- [Atomie (CN)](monster/atomie)",
-			"- [Brownie (N)](monster/brownie)"
+			"- {monster/Atomie/ (CN)}",
+			"- {monster/Brownie/ (N)}"
 		]
 	},
 	"summon_monster_ii_basic": {
@@ -628,7 +628,7 @@
 			"- {monster/Horse} [^A]",
 			"- [Hyena](monster/hyena) [^A]",
 			"- [Ice Elemental (Small)](monster/small_ice_elemental) [air, cold, water]",
-			"- [Lemure (Devil)](monster/lemure) [evil, lawful]",
+			"- {monster/Lemure/ (Devil)} [evil, lawful]",
 			"- [Lightning Elemental (Small)](monster/small_lightning_elemental) [air]",
 			"- [Magma Elemental (Small)](monster/small_magma_elemental) [earth, fire]",
 			"- [Mud Elemental (Small)](monster/small_mud_elemental) [earth, water]",
@@ -667,7 +667,7 @@
 			"",
 			"{SOURCE Pathfinder #140: Eulogy for Roslar's Coffer}",
 			"",
-			"- [Augur Kyton](monster/augur) [evil, lawful]"
+			"- {monster/Augur/ Kyton} [evil, lawful]"
 		]
 	},
 	"summon_monster_iii_asmodeus": {
@@ -696,7 +696,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Satyr (without pipes, CG)](monster/satyr) [^I]"
+			"- {monster/Satyr/ (without pipes, CG)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -711,7 +711,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Lyrakien (Azata)](monster/lyrakien) [chaotic, good][^I]"
+			"- {monster/Lyrakien/ (Azata)} [chaotic, good][^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -726,7 +726,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Iron Cobra (no poison)](monster/iron_cobra) [^A][^I]"
+			"- {monster/Iron Cobra/ (no poison)} [^A][^I]"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -815,7 +815,7 @@
 			"{SOURCE Pathfinder #41: The Thousand Fangs Below;Monster Summoner's Handbook}",
 			"",
 			"- {monster/Blink Dog} [^A]",
-			"- [Paracletus (Aeon)](monster/paracletus) [^I]"
+			"- {monster/Paracletus/ (Aeon)} [^I]"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -849,7 +849,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Nosoi (Psychopomp)](monster/nosoi) [^I]"
+			"- {monster/Nosoi/ (Psychopomp)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -867,8 +867,8 @@
 			"",
 			"{SOURCE Pathfinder #23: The Impossible Eye;Monster Summoner's Handbook}",
 			"",
-			"- [Choker (CE)](monster/choker)",
-			"- [Cythnigot (Qlippoth)](monster/cythnigot) [chaotic, evil]"
+			"- {monster/Choker/ (CE)}",
+			"- {monster/Cythnigot/ (Qlippoth)} [chaotic, evil]"
 		],
 		"footnotes": ["I"]
 	},
@@ -883,7 +883,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Silvanshee (agathion)](monster/silvanshee) [good]"
+			"- {monster/Silvanshee/ (agathion)} [good]"
 		],
 		"footnotes": ["I"]
 	},
@@ -956,7 +956,7 @@
 			"{SOURCE The First World, Realm of the Fey}",
 			"",
 			"- [Brownie](monster/brownie) [^E]",
-			"- [Leprechaun (without major creation)](monster/leprechaun) [^E]"
+			"- {monster/Leprechaun/ (without major creation)} [^E]"
 		],
 		"footnotes": ["E"]
 	},
@@ -971,25 +971,25 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Arbiter (Inevitable)](monster/arbiter) [lawful][^I]",
-			"- [Augur (Kyton)](monster/augur) [evil, lawful][^I]",
+			"- {monster/Arbiter/ (Inevitable)} [lawful][^I]",
+			"- {monster/Augur/ (Kyton)} [evil, lawful][^I]",
 			"- {monster/Axe Beak} [^A][^I]",
 			"- {monster/Azer} [fire][^I]",
 			"- [Bull Shark](monster/bull_shark) [^A][^I]",
-			"- [Cacodaemon (Daemon)](monster/cacodaemon) [evil][^I]",
-			"- [Cassisian (Angel)](monster/cassisian) [good][^I]",
-			"- [Cythnigot (Qlippoth)](monster/cythnigot) [chaotic, evil][^I]",
+			"- {monster/Cacodaemon/ (Daemon)} [evil][^I]",
+			"- {monster/Cassisian/ (Angel)} [good][^I]",
+			"- {monster/Cythnigot/ (Qlippoth)} [chaotic, evil][^I]",
 			"- {monster/Dire Badger} [^A][^I]",
-			"- [Doru (Div)](monster/doru) [evil][^I]",
+			"- {monster/Doru/ (Div)} [evil][^I]",
 			"- [Foo Dog](template/foo_creature) [good][^I]",
 			"- {monster/Giant Porcupine} [^A][^I]",
-			"- [Lyrakien (Azata)](monster/lyrakien) [chaotic, good][^I]",
-			"- [Paracletus (Aeon)](monster/paracletus) [^I]",
-			"- [Silvanshee (Agathion)](monster/silvanshee) [good][^I]",
+			"- {monster/Lyrakien/ (Azata)} [chaotic, good][^I]",
+			"- {monster/Paracletus/ (Aeon)} [^I]",
+			"- {monster/Silvanshee/ (Agathion)} [good][^I]",
 			"- {monster/Thoqqua} [earth, fire][^I]",
-			"- [Tripurasura (Asura)](monster/tripurasura) [evil, lawful][^I]",
-			"- [Velociraptor (Dinosaur)](monster/velociraptor) [^A][^I]",
-			"- [Voidworm (Protean)](monster/voidworm) [chaotic][^I]"
+			"- {monster/Tripurasura/ (Asura)} [evil, lawful][^I]",
+			"- {monster/Velociraptor/ (Dinosaur)} [^A][^I]",
+			"- {monster/Voidworm/ (Protean)} [chaotic][^I]"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -1018,13 +1018,13 @@
 			"",
 			"{SOURCE Champions of Corruption}",
 			"",
-			"- [Augur (Kyton, LE)](monster/augur) [evil, lawful]",
-			"- [Cacodaemon (Daemon, NE)](monster/cacodaemon) [evil]",
-			"- [Doru (Div, NE)](monster/doru) [evil]",
-			"- [Dretch (Demon, CE)](monster/dretch) [chaotic, evil]",
+			"- {monster/Augur/ (Kyton, LE)} [evil, lawful]",
+			"- {monster/Cacodaemon/ (Daemon, NE)} [evil]",
+			"- {monster/Doru/ (Div, NE)} [evil]",
+			"- {monster/Dretch/ (Demon, CE)} [chaotic, evil]",
 			"- [Fiendish Shark (NE)](monster/shark)",
-			"- [Howler (CE)](monster/howler) [chaotic, evil]",
-			"- [Tripurasura (Asura, LE)](monster/tripurasura) [evil, lawful]"
+			"- {monster/Howler/ (CE)} [chaotic, evil]",
+			"- {monster/Tripurasura/ (Asura, LE)} [evil, lawful]"
 		]
 	},
 	"summon_monster_iii_summon_good_monster": {
@@ -1038,12 +1038,12 @@
 			"",
 			"{SOURCE Champions of Purity}",
 			"",
-			"- [Blink Dog (LG)](monster/blink_dog)",
+			"- {monster/Blink Dog/ (LG)}",
 			"- [Celestial Shark (NG)](monster/shark)",
 			"- [Foo Dog (NG)](template/foo_creature) [good]",
-			"- [Lantern Archon (LG)](monster/lantern_archon) [good, lawful]",
-			"- [Lyrakien Azata (CG)](monster/lyrakien) [chaotic, good]",
-			"- [Silvanshee Agathion (NG)](monster/silvanshee) [good]"
+			"- {monster/Lantern Archon/ (LG)} [good, lawful]",
+			"- {monster/Lyrakien/ Azata (CG)} [chaotic, good]",
+			"- {monster/Silvanshee/ Agathion (NG)} [good]"
 		]
 	},
 	"summon_monster_iii_summon_neutral_monster": {
@@ -1057,11 +1057,11 @@
 			"",
 			"{SOURCE Champions of Balance}",
 			"",
-			"- [Arbiter (Inevitable) (LN)](monster/arbiter) [lawful]",
-			"- [Nosoi (Psychopomp) (N)](monster/nosoi)",
-			"- [Paracletus (Aeon) (N)](monster/paracletus)",
-			"- [Thoqqua (N)](monster/thoqqua) [earth, fire]",
-			"- [Voidworm (Protean) (CN)](monster/voidworm) [chaotic]"
+			"- {monster/Arbiter/ (Inevitable) (LN)} [lawful]",
+			"- {monster/Nosoi/ (Psychopomp) (N)}",
+			"- {monster/Paracletus/ (Aeon) (N)}",
+			"- {monster/Thoqqua/ (N)} [earth, fire]",
+			"- {monster/Voidworm/ (Protean) (CN)} [chaotic]"
 		]
 	},
 	"summon_monster_iii_ring_of_summoning_affinity_aeon": {
@@ -1258,16 +1258,16 @@
 			"",
 			"- [Ant, Giant (Soldier)](monster/giant_ant) [^A]",
 			"- [Ape](monster/gorilla) [^A]",
-			"- [Aurochs (Herd Animal)](monster/aurochs) [^A]",
+			"- {monster/Aurochs/ (Herd Animal)} [^A]",
 			"- {monster/Boar} [^A]",
 			"- [Cheetah](monster/cheetah) [^A]",
 			"- [Constrictor Snake](monster/constrictor_snake) [^A]",
 			"- {monster/Crocodile} [^A]",
 			"- [Dire Bat](monster/dire_bat) [^A]",
-			"- [Dretch (Demon)](monster/dretch) [chaotic, evil]",
+			"- {monster/Dretch/ (Demon)} [chaotic, evil]",
 			"- {monster/Electric Eel} [^A]",
 			"- {monster/Lantern Archon} [good, lawful]",
-			"- [Leopard (Cat)](monster/leopard) [^A]",
+			"- {monster/Leopard/ (Cat)} [^A]",
 			"- [Monitor Lizard](monster/monitor_lizard) [^A]",
 			"- [Shark](monster/shark) [^A]",
 			"- {monster/Wolverine} [^A]"
@@ -1430,7 +1430,7 @@
 			"",
 			"{SOURCE Pathfinder #69: Maiden, Mother, Crone}",
 			"",
-			"- [Hound Archon (CG)](monster/hound_archon) [good, lawful]"
+			"- {monster/Hound Archon/ (CG)} [good, lawful]"
 		]
 	},
 	"summon_monster_iv_lamashtu": {
@@ -1444,7 +1444,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Yeth Hound (CE)](monster/yeth_hound) [evil][^I]"
+			"- {monster/Yeth Hound/ (CE)} [evil][^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -1473,7 +1473,7 @@
 			"",
 			"{SOURCE Pathfinder #68: The Shackled Hut}",
 			"",
-			"- [Hound Archon (CG)](monster/hound_archon) [good, lawful]"
+			"- {monster/Hound Archon/ (CG)} [good, lawful]"
 		]
 	},
 	"summon_monster_iv_norgorber": {
@@ -1487,7 +1487,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Giant Black Widow (Spider)](monster/giant_black_widow) [^A][^I]"
+			"- {monster/Giant Black Widow/ (Spider)} [^A][^I]"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -1502,7 +1502,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Catrina (Psychopomp)](monster/catrina) [^I]"
+			"- {monster/Catrina/ (Psychopomp)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -1574,7 +1574,7 @@
 			"",
 			"{SOURCE Pathfinder #11: Skeletons of Scarwall}",
 			"",
-			"- [Shadow (LE)](monster/shadow)"
+			"- {monster/Shadow/ (LE)}"
 		]
 	},
 	"summon_monster_iv_zyphus": {
@@ -1621,20 +1621,20 @@
 			"",
 			"- {monster/Crysmal} [earth][^I]",
 			"- {monster/D'ziriak} [^I]",
-			"- [Dimetrodon (Dinasaur)](monster/dimetrodon) [^A][^I]",
+			"- {monster/Dimetrodon/ (Dinasaur)} [^A][^I]",
 			"- [Dire Weasel](monster/dire_weasel) [^A][^I]",
 			"- [Foo Lion](template/foo_creature) [good][^I]",
 			"- [Giant Seahorse](monster/giant_seahorse) [^A][^I]",
 			"- {monster/Giant Vulture} [^A][^I]",
-			"- [Giraffe (Herd Animal)](monster/giraffe) [^A][^I]",
+			"- {monster/Giraffe/ (Herd Animal)} [^A][^I]",
 			"- [Great White Shark](monster/great_white_shark) [^A][^I]",
 			"- {monster/Howler} [chaotic, evil][^I]",
 			"- {monster/Magmin} [fire][^I]",
-			"- [Megaloceros (Megafauna)](monster/megaloceros) [^A][^I]",
-			"- [Pachycephalosaurus (Dinosaur)](monster/pachycephalosaurus) [^A][^I]",
-			"- [Parasaurolophus (Dinosaur)](monster/parasaurolophus) [^A][^I]",
-			"- [Schir (Demon)](monster/schir) [chaotic, evil][^I]",
-			"- [Vulnudaemon (Daemon)](monster/vulnudaemon) [evil][^I]"
+			"- {monster/Megaloceros/ (Megafauna)} [^A][^I]",
+			"- {monster/Pachycephalosaurus/ (Dinosaur)} [^A][^I]",
+			"- {monster/Parasaurolophus/ (Dinosaur)} [^A][^I]",
+			"- {monster/Schir/ (Demon)} [chaotic, evil][^I]",
+			"- {monster/Vulnudaemon/ (Daemon)} [evil][^I]"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -1664,12 +1664,12 @@
 			"",
 			"{SOURCE Champions of Corruption}",
 			"",
-			"- [Aghash (Div, NE)](monster/aghash) [evil]",
-			"- [Hell Hound (LE)](monster/hell_hound) [evil, fire, lawful]",
-			"- [Kelpie (NE)](monster/kelpie)",
-			"- [Schir (Demon, CE)](monster/schir) [chaotic, evil]",
-			"- [Spring-Heeled Jack (CE)](monster/spring_heeled_jack)",
-			"- [Yeth Hound (NE)](monster/yeth_hound) [evil]",
+			"- {monster/Aghash/ (Div, NE)} [evil]",
+			"- {monster/Hell Hound/ (LE)} [evil, fire, lawful]",
+			"- {monster/Kelpie/ (NE)}",
+			"- {monster/Schir/ (Demon, CE)} [chaotic, evil]",
+			"- {monster/Spring-Heeled Jack/ (CE)}",
+			"- {monster/Yeth Hound/ (NE)} [evil]",
 			"- [Zebub (Devil, LE)](monster/accuser_devil) [evil, lawful]"
 		]
 	},
@@ -1687,10 +1687,10 @@
 			"- [Celestial Dire Wolf (NG)](monster/dire_wolf)",
 			"- [Celestial Giant Eagle (NG)](monster/giant_eagle)",
 			"- [Celestial Pegasus (NG)](monster/pegasus)",
-			"- [Faerie Dragon (NG)](monster/faerie_dragon)",
+			"- {monster/Faerie Dragon/ (NG)}",
 			"- [Foo Lion (NG)](template/foo_creature) [good]",
-			"- [Hound Archon (LG)](monster/hound_archon) [good, lawful]",
-			"- [Pixie (NG)](monster/pixie)"
+			"- {monster/Hound Archon/ (LG)} [good, lawful]",
+			"- {monster/Pixie/ (NG)}"
 		]
 	},
 	"summon_monster_iv_summon_neutral_monster": {
@@ -1704,12 +1704,12 @@
 			"",
 			"{SOURCE Champions of Balance}",
 			"",
-			"- [D'ziriak (N)](monster/dziriak)",
-			"- [Magmin (CN)](monster/magmin) [fire]",
-			"- [Mephit (Any) (N)](monster/mephit)",
-			"- [Satyr (CN)](monster/satyr)",
-			"- [Shae (N)](monster/shae)",
-			"- [Viduus (Psychopomp) (N)](monster/viduus)"
+			"- {monster/D'ziriak/ (N)}",
+			"- {monster/Magmin/ (CN)} [fire]",
+			"- {monster/Mephit/ (Any) (N)}",
+			"- {monster/Satyr/ (CN)}",
+			"- {monster/Shae/ (N)}",
+			"- {monster/Viduus/ (Psychopomp) (N)}"
 		]
 	},
 	"summon_monster_iv_ring_of_summoning_affinity_div": {
@@ -1758,8 +1758,8 @@
 			"- [Aether Elemental (Medium)](monster/medium_aether_elemental)",
 			"- [Air Elemental (Medium)](monster/medium_air_elemental) [air]",
 			"- [Ant, Giant (Drone)](monster/giant_ant) [^A]",
-			"- [Bison (Herd Animal)](monster/bison) [^A]",
-			"- [Deinonychus (Dinosaur)](monster/deinonychus) [^A]",
+			"- {monster/Bison/ (Herd Animal)} [^A]",
+			"- {monster/Deinonychus/ (Dinosaur)} [^A]",
 			"- [Dire Ape](monster/dire_ape_gigantopithecus) [^A]",
 			"- {monster/Dire Boar} [^A]",
 			"- [Dire Wolf](monster/dire_wolf) [^A]",
@@ -1774,9 +1774,9 @@
 			"- [Lightning Elemental (Medium)](monster/medium_lightning_elemental) [air]",
 			"- {monster/Lion} [^A]",
 			"- [Magma Elemental (Medium)](monster/medium_magma_elemental) [earth, fire]",
-			"- [Mephit (Any)](monster/mephit)",
+			"- {monster/Mephit/ (Any)}",
 			"- [Mud Elemental (Medium)](monster/medium_mud_elemental) [earth, water]",
-			"- [Pteranodon (Dinosaur)](monster/pteranodon) [^A]",
+			"- {monster/Pteranodon/ (Dinosaur)} [^A]",
 			"- [Rhinoceros](monster/rhinoceros) [^A]",
 			"- [Water Elemental (Medium)](monster/medium_water_elemental) [water]",
 			"- [Nightmare Bats](monster/nightmare_bats) [evil]"
@@ -1838,7 +1838,7 @@
 			"",
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny}",
 			"",
-			"- [Saltwater Merrow (NE)](monster/saltwater_merrow)"
+			"- {monster/Saltwater Merrow/ (NE)}"
 		]
 	},
 	"summon_monster_v_calistria": {
@@ -1871,8 +1871,8 @@
 			"{SOURCE Monster Summoner's Handbook;Pathfinder #14: Children of the Void}",
 			"",
 			"- {monster/Cayhound} [^I]",
-			"- [Rust Monster (N)](monster/rust_monster)",
-			"- [Satyr (with pipes) (CG)](monster/satyr)"
+			"- {monster/Rust Monster/ (N)}",
+			"- {monster/Satyr/ (with pipes) (CG)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -2041,7 +2041,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Vulpinal (Agathion)](monster/vulpinal) [good][^I]"
+			"- {monster/Vulpinal/ (Agathion)} [good][^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -2100,7 +2100,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Ostiarius (Kyton)](monster/ostiarius) [evil, lawful][^I]"
+			"- {monster/Ostiarius/ (Kyton)} [evil, lawful][^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -2146,25 +2146,25 @@
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
 			"- {monster/Achaierai} [evil, lawful][^I]",
-			"- [Archelon (Megafauna)](monster/archelon) [^I]",
+			"- {monster/Archelon/ (Megafauna)} [^I]",
 			"- {monster/Belker} [air, evil][^I]",
 			"- {monster/Cerberi} [evil, lawful][^I]",
-			"- [Ceustodaemon (Daemon)](monster/ceustodaemon) [evil][^I]",
-			"- [Emperor Cobra (Snake)](monster/emperor_cobra) [^A][^I]",
+			"- {monster/Ceustodaemon/ (Daemon)} [evil][^I]",
+			"- {monster/Emperor Cobra/ (Snake)} [^A][^I]",
 			"- {monster/Giant Gar} [^A][^I]",
-			"- [Glyptodon (Megafauna)](monster/glyptodon) [^A][^I]",
+			"- {monster/Glyptodon/ (Megafauna)} [^A][^I]",
 			"- [Greater Host Devil](monster/host_devil_greater_magaav) [evil, lawful][^I]",
 			"- {monster/Hippopotamus} [^A][^I]",
 			"- {monster/Hypnalis} [^I]",
-			"- [Iguanodon (Dinosaur)](monster/iguanodon) [^A][^I]",
-			"- [Incubus (Demon)](monster/incubus) [chaotic, evil][^I]",
-			"- [Megatherium (Dinosaur)](monster/megatherium) [^A][^I]",
+			"- {monster/Iguanodon/ (Dinosaur)} [^A][^I]",
+			"- {monster/Incubus/ (Demon)} [chaotic, evil][^I]",
+			"- {monster/Megatherium/ (Dinosaur)} [^A][^I]",
 			"- {monster/Mudlord} [earth, water][^I]",
-			"- [Ostiarius (Kyton)](monster/ostiarius) [evil, lawful][^I]",
+			"- {monster/Ostiarius/ (Kyton)} [evil, lawful][^I]",
 			"- {monster/Shadow Mastiff} [evil][^I]",
-			"- [Styracosaurus (Dinosaur)](monster/styracosaurus) [^I]",
+			"- {monster/Styracosaurus/ (Dinosaur)} [^I]",
 			"- {monster/Tojanida} [water][^I]",
-			"- [Vulpinal (Agathion)](monster/vulpinal) [good][^I]"
+			"- {monster/Vulpinal/ (Agathion)} [good][^I]"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -2194,13 +2194,13 @@
 			"",
 			"{SOURCE Champions of Corruption}",
 			"",
-			"- [Babau (Demon, CE)](monster/babau) [chaotic, evil]",
-			"- [Barbazu (Devil, LE)](monster/barbazu) [evil, lawful]",
+			"- {monster/Babau/ (Demon, CE)} [chaotic, evil]",
+			"- {monster/Barbazu/ (Devil, LE)} [evil, lawful]",
 			"- [Evangelist (Kyton, LE)](monster/kyton) [evil, lawful]",
 			"- [Fiendish Giant Moray Eel (NE)](monster/giant_moray_eel)",
-			"- [Lurker in Light (NE)](monster/lurker_in_light)",
-			"- [Salamander (CE)](monster/salamander) [fire]",
-			"- [Shadow Mastiff (NE)](monster/shadow_mastiff) [evil]"
+			"- {monster/Lurker in Light/ (NE)}",
+			"- {monster/Salamander/ (CE)} [fire]",
+			"- {monster/Shadow Mastiff/ (NE)} [evil]"
 		]
 	},
 	"summon_monster_v_summon_good_monster": {
@@ -2214,11 +2214,11 @@
 			"",
 			"{SOURCE Champions of Purity}",
 			"",
-			"- [Bralani Azata (CG)](monster/bralani) [chaotic, good]",
+			"- {monster/Bralani/ Azata (CG)} [chaotic, good]",
 			"- [Celestial Orca (NG)](monster/orca)",
-			"- [Djinni (CG)](monster/djinni) [air]",
-			"- [Unicorn (CG)](monster/unicorn)",
-			"- [Vulpinal Agathion (NG)](monster/vulpinal) [good]"
+			"- {monster/Djinni/ (CG)} [air]",
+			"- {monster/Unicorn/ (CG)}",
+			"- {monster/Vulpinal/ Agathion (NG)} [good]"
 		]
 	},
 	"summon_monster_v_summon_neutral_monster": {
@@ -2232,10 +2232,10 @@
 			"",
 			"{SOURCE Champions of Balance}",
 			"",
-			"- [Catrina (Psychopomp) (N)](monster/catrina)",
-			"- [Mercane (LN)](monster/mercane)",
-			"- [Rast (N)](monster/rast) [fire]",
-			"- [Tojanida (N)](monster/tojanida) [water]"
+			"- {monster/Catrina/ (Psychopomp) (N)}",
+			"- {monster/Mercane/ (LN)}",
+			"- {monster/Rast/ (N)} [fire]",
+			"- {monster/Tojanida/ (N)} [water]"
 		]
 	},
 	"summon_monster_v_ring_of_summoning_affinity_agathion": {
@@ -2299,10 +2299,10 @@
 			"",
 			"- [Aether Elemental (Large)](monster/large_aether_elemental)",
 			"- [Air Elemental (Large)](monster/large_air_elemental) [air]",
-			"- [Ankylosaurus (Dinosaur)](monster/ankylosaurus) [^A]",
-			"- [Babau (Demon)](monster/babau) [chaotic, evil]",
+			"- {monster/Ankylosaurus/ (Dinosaur)} [^A]",
+			"- {monster/Babau/ (Demon)} [chaotic, evil]",
 			"- {monster/Bearded Devil} [evil, lawful]",
-			"- [Bralani Azata](monster/bralani) [chaotic, good]",
+			"- {monster/Bralani/ Azata} [chaotic, good]",
 			"- [Dire Lion](monster/dire_lion_spotted_lion) [^A]",
 			"- [Earth Elemental (Large)](monster/large_earth_elemental) [earth]",
 			"- [Fire Elemental (Large)](monster/large_fire_elemental) [fire]",
@@ -2312,7 +2312,7 @@
 			"- [Lightning Elemental (Large)](monster/large_lightning_elemental) [air]",
 			"- [Magma Elemental (Large)](monster/large_magma_elemental) [earth, fire]",
 			"- [Mud Elemental (Large)](monster/large_mud_elemental) [earth, water]",
-			"- [Orca (Dolphin)](monster/orca) [^A]",
+			"- {monster/Orca/ (Dolphin)} [^A]",
 			"- [Salamander](monster/salamander) [fire]",
 			"- [Water Elemental (Large)](monster/large_water_elemental) [water]",
 			"- [Woolly Rhinoceros](monster/woolly_rhinoceros) [^A]",
@@ -2362,7 +2362,7 @@
 			"",
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny}",
 			"",
-			"- [Tylosaurus (N)](monster/tylosaurus)"
+			"- {monster/Tylosaurus/ (N)}"
 		]
 	},
 	"summon_monster_vi_brigh": {
@@ -2404,7 +2404,7 @@
 			"",
 			"{SOURCE Pathfinder #107: Scourge of the Godclaw}",
 			"",
-			"- [Drowning Devil (Sarglagon)](monster/sarglagon) [evil, lawful]"
+			"- {monster/Drowning Devil (|Sarglagon)} [evil, lawful]"
 		]
 	},
 	"summon_monster_vi_gorum": {
@@ -2418,7 +2418,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Arsinoitherium (Megafauna)](monster/arsinoitherium) [^A][^I]"
+			"- {monster/Arsinoitherium/ (Megafauna)} [^A][^I]"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -2508,7 +2508,7 @@
 			"{SOURCE Pathfinder #65: Into the Nightmare Rift}",
 			"",
 			"- [Advanced Kyton Evangelist (LE)](monster/kyton) [evil, lawful]",
-			"- [Dark Naga (LE)](monster/dark_naga)"
+			"- {monster/Dark Naga/ (LE)}"
 		]
 	},
 	"summon_monster_vi_moloch": {
@@ -2522,7 +2522,7 @@
 			"",
 			"{SOURCE Pathfinder #105: The Inferno Gate}",
 			"",
-			"- [Warmonger Devil (Levaloch)](monster/levaloch) [evil, lawful]"
+			"- {monster/Warmonger Devil (|Levaloch)} [evil, lawful]"
 		]
 	},
 	"summon_monster_vi_nethys": {
@@ -2536,7 +2536,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Theletos (Aeon)](monster/theletos) [^I]"
+			"- {monster/Theletos/ (Aeon)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -2551,7 +2551,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Vanth (Psychopomp)](monster/vanth) [^I]"
+			"- {monster/Vanth/ (Psychopomp)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -2566,7 +2566,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Shoggti (Qlippoth)](monster/shoggti) [chaotic, evil]"
+			"- {monster/Shoggti/ (Qlippoth)} [chaotic, evil]"
 		],
 		"footnotes": ["I"]
 	},
@@ -2581,7 +2581,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Janni (Genie, NG)](monster/janni) [^I]"
+			"- {monster/Janni/ (Genie, NG)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -2640,23 +2640,23 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Adhukait (Asura)](monster/adhukait) [evil, lawful][^I]",
-			"- [Allosaurus (Dinosaur)](monster/allosaurus) [^A][^I]",
+			"- {monster/Adhukait/ (Asura)} [evil, lawful][^I]",
+			"- {monster/Allosaurus/ (Dinosaur)} [^A][^I]",
 			"- [Animate Dream](monster/animate_dream) [^I]",
-			"- [Arsinoitherium (Megafauna)](monster/arsinoitherium) [^A][^I]",
+			"- {monster/Arsinoitherium/ (Megafauna)} [^A][^I]",
 			"- {monster/Axiomite} [lawful][^I]",
-			"- [Baluchitherium (Megafauna)](monster/baluchitherium) [^A][^I]",
+			"- {monster/Baluchitherium/ (Megafauna)} [^A][^I]",
 			"- {monster/Hellcat} [evil, lawful][^I]",
-			"- [Hydrodaemon (Daemon)](monster/hydrodaemon) [evil][^I]",
+			"- {monster/Hydrodaemon/ (Daemon)} [evil][^I]",
 			"- [Immense Tortoise](monster/immense_tortoise) [^A][^I]",
 			"- {monster/Legion Archon} [good, lawful][^I]",
-			"- [Megalania (Megafauna)](monster/megalania) [^A][^I]",
+			"- {monster/Megalania/ (Megafauna)} [^A][^I]",
 			"- {monster/Mihstu} [air][^I]",
-			"- [Naunet (Protean)](monster/naunet) [chaotic][^I]",
-			"- [Pairaka (Div)](monster/pairaka) [evil][^I]",
-			"- [Shoggti (Qlippoth)](monster/shoggti) [chaotic, evil][^I]",
-			"- [Theletos (Aeon)](monster/theletos) [^I]",
-			"- [Tylosaurus (Dinosaur)](monster/tylosaurus) [^I]"
+			"- {monster/Naunet/ (Protean)} [chaotic][^I]",
+			"- {monster/Pairaka/ (Div)} [evil][^I]",
+			"- {monster/Shoggti/ (Qlippoth)} [chaotic, evil][^I]",
+			"- {monster/Theletos/ (Aeon)} [^I]",
+			"- {monster/Tylosaurus/ (Dinosaur)} [^I]"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -2671,13 +2671,13 @@
 			"",
 			"{SOURCE Champions of Corruption}",
 			"",
-			"- [Efreeti (Genie, LE)](monster/efreeti) [fire]",
-			"- [Erinyes (Devil, LE)](monster/erinyes) [evil, lawful]",
+			"- {monster/Efreeti/ (Genie, LE)} [fire]",
+			"- {monster/Erinyes/ (Devil, LE)} [evil, lawful]",
 			"- [Fiendish Giant Octopus (NE)](monster/giant_octopus)",
-			"- [Pairaka (Div, NE)](monster/pairaka) [evil]",
-			"- [Shadow Demon (CE)](monster/shadow_demon) [chaotic, evil]",
-			"- [Soul Eater (NE)](monster/soul_eater) [evil]",
-			"- [Succubus (Demon, CE)](monster/succubus) [chaotic, evil]"
+			"- {monster/Pairaka/ (Div, NE)} [evil]",
+			"- {monster/Shadow Demon/ (CE)} [chaotic, evil]",
+			"- {monster/Soul Eater/ (NE)} [evil]",
+			"- {monster/Succubus/ (Demon, CE)} [chaotic, evil]"
 		]
 	},
 	"summon_monster_vi_summon_good_monster": {
@@ -2692,10 +2692,10 @@
 			"{SOURCE Champions of Purity}",
 			"",
 			"- [Celestial Giant Octopus (NG)](monster/giant_octopus)",
-			"- [Kirin (LG)](monster/kirin) [air]",
-			"- [Legion Archon (LG)](monster/legion_archon) [good, lawful]",
-			"- [Lillend Azata (CG)](monster/lillend) [chaotic, good]",
-			"- [Wood Giant (CG)](monster/wood_giant)"
+			"- {monster/Kirin/ (LG)} [air]",
+			"- {monster/Legion Archon/ (LG)} [good, lawful]",
+			"- {monster/Lillend/ Azata (CG)} [chaotic, good]",
+			"- {monster/Wood Giant/ (CG)}"
 		]
 	},
 	"summon_monster_vi_summon_neutral_monster": {
@@ -2709,11 +2709,11 @@
 			"",
 			"{SOURCE Champions of Balance}",
 			"",
-			"- [Chaos Beast (CN)](monster/chaos_beast) [chaotic]",
-			"- [Invisible Stalker (N)](monster/invisible_stalker) [air]",
-			"- [Naunet (Protean) (CN)](monster/naunet) [chaotic]",
-			"- [Theletos (Aeon) (N)](monster/theletos)",
-			"- [Vanth (Psychopomp) (N)](monster/vanth)"
+			"- {monster/Chaos Beast/ (CN)} [chaotic]",
+			"- {monster/Invisible Stalker/ (N)} [air]",
+			"- {monster/Naunet/ (Protean) (CN)} [chaotic]",
+			"- {monster/Theletos/ (Aeon) (N)}",
+			"- {monster/Vanth/ (Psychopomp) (N)}"
 		]
 	},
 	"summon_monster_vi_ring_of_summoning_affinity_aeon": {
@@ -2877,20 +2877,20 @@
 			"- [Dire Bear](monster/dire_bear_cave_bear) [^A]",
 			"- [Dire Tiger](monster/dire_tiger_smilodon) [^A]",
 			"- [Earth Elemental (Huge)](monster/huge_earth_elemental) [earth]",
-			"- [Elasmosaurus (dinosaur)](monster/elasmosaurus) [^A]",
+			"- {monster/Elasmosaurus/ (dinosaur)} [^A]",
 			"- {monster/Elephant} [^A]",
-			"- [Erinyes (devil)](monster/erinyes) [evil, lawful]",
+			"- {monster/Erinyes/ (devil)} [evil, lawful]",
 			"- [Fire Elemental (Huge)](monster/huge_fire_elemental) [fire]",
 			"- [Giant Octopus](monster/giant_octopus) [^A]",
 			"- [Ice Elemental (Huge)](monster/huge_ice_elemental) [air, cold, water]",
 			"- [Invisibile Stalker](monster/invisible_stalker) [air]",
 			"- [Lightning Elemental (Huge)](monster/huge_lightning_elemental) [air]",
-			"- [Lillend Azata](monster/lillend) [chaotic, good]",
+			"- {monster/Lillend/ Azata} [chaotic, good]",
 			"- [Magma Elemental (Huge)](monster/huge_magma_elemental) [earth, fire]",
 			"- [Mud Elemental (Huge)](monster/huge_mud_elemental) [earth, water]",
 			"- {monster/Shadow Demon} [chaotic, evil]",
-			"- [Succubus (demon)](monster/succubus) [chaotic, evil]",
-			"- [Triceratops (dinosaur)](monster/triceratops) [^A]",
+			"- {monster/Succubus/ (demon)} [chaotic, evil]",
+			"- {monster/Triceratops/ (dinosaur)} [^A]",
 			"- [Water Elemental (Huge)](monster/huge_water_elemental) [water]"
 		],
 		"footnotes": ["A"]
@@ -2910,7 +2910,7 @@
 			"{SOURCE Monster Summoner's Handbook;Pathfinder #2: The Skinsaw Murders}",
 			"",
 			"- {monster/Star Monarch} [^I]",
-			"- [Young Brass Dragon (CG)](monster/young_brass_dragon) [fire]"
+			"- {monster/Young Brass Dragon/ (CG)} [fire]"
 		],
 		"footnotes": ["I"]
 	},
@@ -2929,7 +2929,7 @@
 			"{SOURCE Monster Summoner's Handbook;Pathfinder #35: War of the River Kings}",
 			"",
 			"- [Advanced Bulette](monster/bulette) [^A][^I]",
-			"- [Behir (N)](monster/behir)"
+			"- {monster/Behir/ (N)}"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -2963,7 +2963,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Zuishin (Kami, NG)](monster/zuishin) [^I]"
+			"- {monster/Zuishin/ (Kami, NG)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -3042,8 +3042,8 @@
 			"",
 			"{SOURCE Pathfinder #20: House of the Beast;Monster Summoner's Handbook}",
 			"",
-			"- [Djinni (NG)](monster/djinni) [air]",
-			"- [Movanic Deva (Angel)](monster/movanic_deva) [good][^I]"
+			"- {monster/Djinni/ (NG)} [air]",
+			"- {monster/Movanic Deva/ (Angel)} [good][^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -3058,7 +3058,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Avoral (Agathion)](monster/avoral) [good][^I]"
+			"- {monster/Avoral/ (Agathion)} [good][^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -3103,7 +3103,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Sacristan (Kyton)](monster/sacristan) [evil, lawful][^I]"
+			"- {monster/Sacristan/ (Kyton)} [evil, lawful][^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -3118,7 +3118,7 @@
 			"",
 			"{SOURCE The First World, Realm of the Fey}",
 			"",
-			"- [Bogeyman (without phantasmal killer)](monster/bogeyman) [^E]",
+			"- {monster/Bogeyman/ (without phantasmal killer)} [^E]",
 			"- [Nuckelavee](monster/nuckelavee) [^E]"
 		],
 		"footnotes": ["E"]
@@ -3134,20 +3134,20 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Avoral (Agathion)](monster/avoral) [good][^I]",
+			"- {monster/Avoral/ (Agathion)} [good][^I]",
 			"- [Behemoth Hippopotamus](monster/behemoth_hippopotamus) [^A][^I]",
 			"- [Contract Devil](monster/contract_devil) [evil, lawful][^I]",
-			"- [Ghawwas (Div)](monster/ghawwas) [evil][^I]",
-			"- [Giant Anaconda (Snake)](monster/giant_anaconda) [^A][^I]",
+			"- {monster/Ghawwas/ (Div)} [evil][^I]",
+			"- {monster/Giant Anaconda/ (Snake)} [^A][^I]",
 			"- {monster/Giant Snapping Turtle} [^A][^I]",
-			"- [Kalavakus (Div)](monster/kalavakus) [chaotic, evil][^I]",
-			"- [Leukodaemon (Daemon)](monster/leukodaemon) [evil][^I]",
-			"- [Movanic Deva (Angel)](monster/movanic_deva) [good][^I]",
-			"- [Nyogoth (Qlippoth)](monster/nyogoth) [chaotic, evil][^I]",
-			"- [Piscodaemon (Daemon)](monster/piscodaemon) [evil][^I]",
-			"- [Sacristan (Kyton)](monster/sacristan) [evil, lawful][^I]",
+			"- {monster/Kalavakus/ (Div)} [chaotic, evil][^I]",
+			"- {monster/Leukodaemon/ (Daemon)} [evil][^I]",
+			"- {monster/Movanic Deva/ (Angel)} [good][^I]",
+			"- {monster/Nyogoth/ (Qlippoth)} [chaotic, evil][^I]",
+			"- {monster/Piscodaemon/ (Daemon)} [evil][^I]",
+			"- {monster/Sacristan/ (Kyton)} [evil, lawful][^I]",
 			"- {monster/Shield Archon} [good, lawful][^I]",
-			"- [Upasunda (Asura)](monster/upasunda) [evil, lawful][^I]",
+			"- {monster/Upasunda/ (Asura)} [evil, lawful][^I]",
 			"- {monster/Whale} [^A][^I]"
 		],
 		"footnotes": ["A", "I"]
@@ -3178,13 +3178,13 @@
 			"",
 			"{SOURCE Champions of Corruption}",
 			"",
-			"- [Bebilith (CE)](monster/bebilith) [chaotic, evil]",
-			"- [Bogeyman (NE)](monster/bogeyman)",
-			"- [Leukodaemon (daemon, NE)](monster/leukodaemon) [evil]",
-			"- [Nuckelavee (NE)](monster/nuckelavee)",
-			"- [Osyluth (Devil, LE)](monster/osyluth) [evil, lawful]",
-			"- [Sacristan (Kyton, LE)](monster/sacristan) [evil, lawful]",
-			"- [Vrock (Demon, CE)](monster/vrock) [chaotic, evil]"
+			"- {monster/Bebilith/ (CE)} [chaotic, evil]",
+			"- {monster/Bogeyman/ (NE)}",
+			"- {monster/Leukodaemon/ (daemon, NE)} [evil]",
+			"- {monster/Nuckelavee/ (NE)}",
+			"- {monster/Osyluth/ (Devil, LE)} [evil, lawful]",
+			"- {monster/Sacristan/ (Kyton, LE)} [evil, lawful]",
+			"- {monster/Vrock/ (Demon, CE)} [chaotic, evil]"
 		]
 	},
 	"summon_monster_vii_summon_good_monster": {
@@ -3200,11 +3200,11 @@
 			"",
 			"- [Celestial Dire Shark (NG)](monster/dire_shark_megalodon)",
 			"- [Celestial Roc (NG)](monster/roc)",
-			"- [Movanic Deva (NG)](monster/movanic_deva) [good]",
-			"- [Shedu (LG)](monster/shedu)",
-			"- [Shield Archon (LG)](monster/shield_archon) [good, lawful]",
-			"- [Treant (NG)](monster/treant)",
-			"- [Young Bronze Dragon (LG)](monster/young_bronze_dragon) [water]"
+			"- {monster/Movanic Deva/ (NG)} [good]",
+			"- {monster/Shedu/ (LG)}",
+			"- {monster/Shield Archon/ (LG)} [good, lawful]",
+			"- {monster/Treant/ (NG)}",
+			"- {monster/Young Bronze Dragon/ (LG)} [water]"
 		]
 	},
 	"summon_monster_vii_summon_neutral_monster": {
@@ -3218,10 +3218,10 @@
 			"",
 			"{SOURCE Champions of Balance}",
 			"",
-			"- [Axiomite (LN)](monster/axiomite) [lawful]",
-			"- [Jyoti (N)](monster/jyoti)",
-			"- [Shoki (Psychopomp) (N)](monster/shoki)",
-			"- [Zelekhut (Inevitable) (LN)](monster/zelekhut) [lawful]"
+			"- {monster/Axiomite/ (LN)} [lawful]",
+			"- {monster/Jyoti/ (N)}",
+			"- {monster/Shoki/ (Psychopomp) (N)}",
+			"- {monster/Zelekhut/ (Inevitable) (LN)} [lawful]"
 		]
 	},
 	"summon_monster_vii_ring_of_summoning_affinity_agathion": {
@@ -3384,7 +3384,7 @@
 			"- [Air Elemental (Greater)](monster/greater_air_elemental) [air]",
 			"- [Bebilith](monster/bebilith) [chaotic, evil]",
 			"- {monster/Bone Devil} [evil, lawful]",
-			"- [Brachiosaurus (Dinosaur)](monster/brachiosaurus) [^A]",
+			"- {monster/Brachiosaurus/ (Dinosaur)} [^A]",
 			"- [Dire Crocodile](monster/dire_crocodile) [^A]",
 			"- [Dire Shark](monster/dire_shark_megalodon) [^A]",
 			"- [Earth Elemental (Greater)](monster/greater_earth_elemental) [earth]",
@@ -3393,11 +3393,11 @@
 			"- [Ice Elemental (Greater)](monster/greater_ice_elemental) [air, cold, water]",
 			"- [Lightning Elemental (Greater)](monster/greater_lightning_elemental) [air]",
 			"- [Magma Elemental (Greater)](monster/greater_magma_elemental) [earth, fire]",
-			"- [Mastodon (Elephant)](monster/mastodon) [^A]",
+			"- {monster/Mastodon/ (Elephant)} [^A]",
 			"- [Mud Elemental (Greater)](monster/greater_mud_elemental) [earth, water]",
 			"- [Roc](monster/roc) [^A]",
-			"- [Tyrannosaurus (Dinosaur)](monster/tyrannosaurus) [^A]",
-			"- [Vrock (Demon)](monster/vrock) [chaotic, evil]",
+			"- {monster/Tyrannosaurus/ (Dinosaur)} [^A]",
+			"- {monster/Vrock/ (Demon)} [chaotic, evil]",
 			"- [Water Elemental (Greater)](monster/greater_water_elemental) [water]"
 		],
 		"footnotes": ["A"]
@@ -3413,7 +3413,7 @@
 			"",
 			"{SOURCE Pathfinder #140: Eulogy for Roslar's Coffer}",
 			"",
-			"- [Interlocutor Kyton](monster/interlocutor) [evil, lawful]"
+			"- {monster/Interlocutor/ Kyton} [evil, lawful]"
 		]
 	},
 	"summon_monster_viii_calistria": {
@@ -3431,7 +3431,7 @@
 			"{SOURCE Monster Summoner's Handbook;Pathfinder #17: A Memory of Darkness}",
 			"",
 			"- [Advanced Entropic Chaos Beast](monster/chaos_beast) [chaotic][^I]",
-			"- [Hellwasp Swarm (CE)](monster/hellwasp_swarm)"
+			"- {monster/Hellwasp Swarm/ (CE)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -3446,7 +3446,7 @@
 			"",
 			"{SOURCE Pathfinder #107: Scourge of the Godclaw}",
 			"",
-			"- [Aghasura (Asura)](monster/aghasura) [evil, lawful]"
+			"- {monster/Aghasura/ (Asura)} [evil, lawful]"
 		]
 	},
 	"summon_monster_viii_gorum": {
@@ -3460,7 +3460,7 @@
 			"",
 			"{SOURCE Pathfinder #35: War of the River Kings}",
 			"",
-			"- [Gorgon (N)](monster/gorgon)"
+			"- {monster/Gorgon/ (N)}"
 		]
 	},
 	"summon_monster_viii_gozreh": {
@@ -3504,8 +3504,8 @@
 			"",
 			"{SOURCE Pathfinder #5: Sins of the Saviors}",
 			"",
-			"- [Nightmare (NE)](monster/nightmare) [evil]",
-			"- [Warped One (CE)](monster/warped_one) [chaotic, evil]"
+			"- {monster/Nightmare/ (NE)} [evil]",
+			"- {monster/Warped One/ (CE)} [chaotic, evil]"
 		]
 	},
 	"summon_monster_viii_mahathallah": {
@@ -3533,7 +3533,7 @@
 			"",
 			"{SOURCE Pathfinder #102: Breaking the Bones of Hell}",
 			"",
-			"- [Contract Devil (Phistophilus)](monster/phistophilus) [evil, lawful]"
+			"- {monster/Contract Devil (|Phistophilus)} [evil, lawful]"
 		]
 	},
 	"summon_monster_viii_moloch": {
@@ -3576,7 +3576,7 @@
 			"",
 			"{SOURCE Pathfinder #20: House of the Beast}",
 			"",
-			"- [Efreeti (LG)](monster/efreeti) [fire][^W]"
+			"- {monster/Efreeti/ (LG)} [fire][^W]"
 		],
 		"footnotes": ["W"]
 	},
@@ -3591,7 +3591,7 @@
 			"",
 			"{SOURCE Pathfinder #11: Skeletons of Scarwall}",
 			"",
-			"- [Greater Shadow (LE)](monster/greater_shadow)"
+			"- {monster/Greater Shadow/ (LE)}"
 		]
 	},
 	"summon_monster_viii_the_eldest_pantheon": {
@@ -3621,20 +3621,20 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Aghasura (Asura)](monster/aghasura) [evil, lawful][^I]",
+			"- {monster/Aghasura/ (Asura)} [evil, lawful][^I]",
 			"- {monster/Baregara} [chaotic, evil][^I]",
-			"- [Basilosaurus (Dinosaur)](monster/basilosaurus) [^A][^I]",
-			"- [Chernobue (Qlippth)](monster/chernobue) [chaotic, evil][^I]",
-			"- [Coloxus (Demon)](monster/coloxus) [chaotic, evil][^I]",
-			"- [Diplodocus (Dinosaur)](monster/diplodocus) [^A][^I]",
-			"- [Interlocutor (Kyton)](monster/interlocutor) [evil, lawful][^I]",
-			"- [Kolyarut (Inevitable)](monster/kolyarut) [lawful][^I]",
-			"- [Leonal (Agthion)](monster/leonal) [good][^I]",
-			"- [Meladaemon (Daemon)](monster/meladaemon) [evil][^I]",
-			"- [Monadic Deva (Angel)](monster/monadic_deva) [good][^I]",
-			"- [Omox (Demon)](monster/omox) [chaotic, evil][^I]",
-			"- [Shira (Div)](monster/shira) [evil][^I]",
-			"- [Spinosaurus (Dinosaur)](monster/spinosaurus) [^A][^I]"
+			"- {monster/Basilosaurus/ (Dinosaur)} [^A][^I]",
+			"- {monster/Chernobue/ (Qlippth)} [chaotic, evil][^I]",
+			"- {monster/Coloxus/ (Demon)} [chaotic, evil][^I]",
+			"- {monster/Diplodocus/ (Dinosaur)} [^A][^I]",
+			"- {monster/Interlocutor/ (Kyton)} [evil, lawful][^I]",
+			"- {monster/Kolyarut/ (Inevitable)} [lawful][^I]",
+			"- {monster/Leonal/ (Agthion)} [good][^I]",
+			"- {monster/Meladaemon/ (Daemon)} [evil][^I]",
+			"- {monster/Monadic Deva/ (Angel)} [good][^I]",
+			"- {monster/Omox/ (Demon)} [chaotic, evil][^I]",
+			"- {monster/Shira/ (Div)} [evil][^I]",
+			"- {monster/Spinosaurus/ (Dinosaur)} [^A][^I]"
 		],
 		"footnotes": ["A", "I"]
 	},
@@ -3649,12 +3649,12 @@
 			"",
 			"{SOURCE Champions of Corruption}",
 			"",
-			"- [Baregara (CE)](monster/baregara) [chaotic, evil]",
-			"- [Dorvae (NE)](monster/dorvae) [evil]",
-			"- [Hamatula (Devil, LE)](monster/hamatula) [evil, lawful]",
-			"- [Hezrou (Demon, CE)](monster/hezrou) [chaotic, evil]",
-			"- [Meladaemon (Daemon, NE)](monster/meladaemon) [evil]",
-			"- [Rusalka (NE)](monster/rusalka)",
+			"- {monster/Baregara/ (CE)} [chaotic, evil]",
+			"- {monster/Dorvae/ (NE)} [evil]",
+			"- {monster/Hamatula/ (Devil, LE)} [evil, lawful]",
+			"- {monster/Hezrou/ (Demon, CE)} [chaotic, evil]",
+			"- {monster/Meladaemon/ (Daemon, NE)} [evil]",
+			"- {monster/Rusalka/ (NE)}",
 			"- [Young Adult Green Dragon (LE)](monster/young_green_dragon) [air]"
 		]
 	},
@@ -3669,11 +3669,11 @@
 			"",
 			"{SOURCE Champions of Purity}",
 			"",
-			"- [Cloud Giant (NG)](monster/cloud_giant)",
-			"- [Dragon Horse (NG)](monster/dragon_horse) [air]",
-			"- [Lammasu (LG)](monster/lammasu)",
-			"- [Monadic Deva (NG)](monster/monadic_deva) [good]",
-			"- [Young Gold Dragon (LG)](monster/young_gold_dragon) [fire]"
+			"- {monster/Cloud Giant/ (NG)}",
+			"- {monster/Dragon Horse/ (NG)} [air]",
+			"- {monster/Lammasu/ (LG)}",
+			"- {monster/Monadic Deva/ (NG)} [good]",
+			"- {monster/Young Gold Dragon/ (LG)} [fire]"
 		]
 	},
 	"summon_monster_viii_summon_neutral_monster": {
@@ -3687,7 +3687,7 @@
 			"",
 			"{SOURCE Champions of Balance}",
 			"",
-			"- [Imentesh (Protean) (CN)](monster/imentesh) [chaotic]"
+			"- {monster/Imentesh/ (Protean) (CN)} [chaotic]"
 		]
 	},
 	"summon_monster_viii_ring_of_summoning_affinity_agathion": {
@@ -3808,7 +3808,7 @@
 			"- [Barbed Devil](monster/hamatula) [evil, lawful]",
 			"- [Earth Elemental (Elder)](monster/elder_earth_elemental) [earth]",
 			"- [Fire Elemental (Elder)](monster/elder_fire_elemental) [fire]",
-			"- [Hezrou (Demon)](monster/hezrou) [chaotic, evil]",
+			"- {monster/Hezrou/ (Demon)} [chaotic, evil]",
 			"- [Ice Elemental (Elder)](monster/elder_ice_elemental) [air, cold, water]",
 			"- [Lightning Elemental (Elder)](monster/elder_lightning_elemental) [air]",
 			"- [Magma Elemental (Elder)](monster/elder_magma_elemental) [earth, fire]",
@@ -3830,8 +3830,8 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook;Pathfinder #8: Seven Days to the Grave}",
 			"",
-			"- [Kolyarut (Inevitable)](monster/kolyarut) [lawful][^I]",
-			"- [Kolyarut (LN)](monster/kolyarut) [lawful]"
+			"- {monster/Kolyarut/ (Inevitable)} [lawful][^I]",
+			"- {monster/Kolyarut/ (LN)} [lawful]"
 		],
 		"footnotes": ["I"]
 	},
@@ -3880,7 +3880,7 @@
 			"",
 			"{SOURCE Pathfinder #102: Breaking the Bones of Hell}",
 			"",
-			"- [Heresy Devil (Ayngavhaul)](monster/ayngavhaul) [evil, lawful]"
+			"- {monster/Heresy Devil (|Ayngavhaul)} [evil, lawful]"
 		]
 	},
 	"summon_monster_ix_pharasma": {
@@ -3894,7 +3894,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Morrigna (Psychopomp)](monster/morrigna) [^I]"
+			"- {monster/Morrigna/ (Psychopomp)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -3940,10 +3940,10 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Augnagar (Qlippoth)](monster/augnagar) [chaotic, evil][^I]",
+			"- {monster/Augnagar/ (Qlippoth)} [chaotic, evil][^I]",
 			"- {monster/Couatl} [^I]",
 			"- [Great White Whale](monster/great_white_whale) [^A][^I]",
-			"- [Sepid (Div)](monster/sepid) [evil][^I]",
+			"- {monster/Sepid/ (Div)} [evil][^I]",
 			"- {monster/Storm Giant} [^I]",
 			"- {monster/Tarry Demodand} [chaotic, evil][^I]",
 			"- {monster/Valkyrie} [^I]"
@@ -3961,13 +3961,13 @@
 			"",
 			"{SOURCE Champions of Corruption}",
 			"",
-			"- [Ankou (LE)](monster/ankou)",
-			"- [Derghodaemon (Daemon, NE)](monster/derghodaemon) [evil]",
-			"- [Gelugon (Devil, LE)](monster/gelugon) [evil, lawful]",
-			"- [Glabrezu (Demon, CE)](monster/glabrezu) [chaotic, evil]",
-			"- [Nalfeshnee (Demon, CE)](monster/nalfeshnee) [chaotic, evil]",
-			"- [Sepid (Div, NE)](monster/sepid) [evil]",
-			"- [Thanadaemon (Daemon, NE)](monster/thanadaemon) [evil]"
+			"- {monster/Ankou/ (LE)}",
+			"- {monster/Derghodaemon/ (Daemon, NE)} [evil]",
+			"- {monster/Gelugon/ (Devil, LE)} [evil, lawful]",
+			"- {monster/Glabrezu/ (Demon, CE)} [chaotic, evil]",
+			"- {monster/Nalfeshnee/ (Demon, CE)} [chaotic, evil]",
+			"- {monster/Sepid/ (Div, NE)} [evil]",
+			"- {monster/Thanadaemon/ (Daemon, NE)} [evil]"
 		]
 	},
 	"summon_monster_ix_summon_good_monster": {
@@ -3981,12 +3981,12 @@
 			"",
 			"{SOURCE Champions of Purity}",
 			"",
-			"- [Astral Deva (NG)](monster/astral_deva) [good]",
-			"- [Couatl (LG)](monster/couatl)",
-			"- [Ghaele Azata (CG)](monster/ghaele) [chaotic, good]",
-			"- [Leonal Agathion (NG)](monster/leonal) [good]",
-			"- [Storm Giant (CG)](monster/storm_giant)",
-			"- [Trumpet Archon (LG)](monster/trumpet_archon) [good, lawful]"
+			"- {monster/Astral Deva/ (NG)} [good]",
+			"- {monster/Couatl/ (LG)}",
+			"- {monster/Ghaele/ Azata (CG)} [chaotic, good]",
+			"- {monster/Leonal/ Agathion (NG)} [good]",
+			"- {monster/Storm Giant/ (CG)}",
+			"- {monster/Trumpet Archon/ (LG)} [good, lawful]"
 		]
 	},
 	"summon_monster_ix_summon_neutral_monster": {
@@ -4000,9 +4000,9 @@
 			"",
 			"{SOURCE Champions of Balance}",
 			"",
-			"- [Akhana (Aeon) (N)](monster/akhana)",
-			"- [Morrigna (Psychopomp)](monster/morrigna)",
-			"- [Valkyrie (CN)](monster/valkyrie)"
+			"- {monster/Akhana/ (Aeon) (N)}",
+			"- {monster/Morrigna/ (Psychopomp)}",
+			"- {monster/Valkyrie/ (CN)}"
 		]
 	},
 	"summon_monster_ix_ring_of_summoning_affinity_aeon": {
@@ -4141,11 +4141,11 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"- [Astral Deva (Angel)](monster/astral_deva) [good]",
-			"- [Ghaele Azata](monster/ghaele) [chaotic, good]",
-			"- [Glabrezu (Demon)](monster/glabrezu) [chaotic, evil]",
+			"- {monster/Astral Deva/ (Angel)} [good]",
+			"- {monster/Ghaele/ Azata} [chaotic, good]",
+			"- {monster/Glabrezu/ (Demon)} [chaotic, evil]",
 			"- {monster/Ice Devil} [evil, lawful]",
-			"- [Nalfeshnee (Demon)](monster/nalfeshnee) [chaotic, evil]",
+			"- {monster/Nalfeshnee/ (Demon)} [chaotic, evil]",
 			"- {monster/Trumpet Archon} [good, lawful]"
 		]
 	},
@@ -4156,7 +4156,7 @@
 		"grantor": "Druid Shark Shaman",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Archetype: [Druid Shark Shaman](class/druid)",
+			"## Archetype: {class/Druid/ Shark Shaman}",
 			"",
 			"{SOURCE Ultimate Magic}",
 			"",
@@ -4313,10 +4313,10 @@
 			"- [Fire Beetle](monster/fire_beetle)",
 			"- [Frog, Poison](monster/poison_frog)",
 			"- [Giant Centipede](monster/giant_centipede)",
-			"- [Mite (Gremlin)](monster/mite)",
-			"- [Pony (Horse)](monster/pony)",
+			"- {monster/Mite/ (Gremlin)}",
+			"- {monster/Pony/ (Horse)}",
 			"- [Stirge](monster/stirge)",
-			"- [Viper (Snake)](monster/viper)"
+			"- {monster/Viper/ (Snake)}"
 		]
 	},
 	"summon_natures_ally_ii_druid_shark_shaman": {
@@ -4326,7 +4326,7 @@
 		"grantor": "Druid Shark Shaman",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Archetype: [Druid Shark Shaman](class/druid)",
+			"## Archetype: {class/Druid/ Shark Shaman}",
 			"",
 			"{SOURCE Ultimate Magic}",
 			"",
@@ -4374,7 +4374,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Pseudodragon (CG)](monster/pseudodragon) [^I]"
+			"- {monster/Pseudodragon/ (CG)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -4404,7 +4404,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Dimorphodon (Dinosaur)](monster/dimorphodon) [^I]"
+			"- {monster/Dimorphodon/ (Dinosaur)} [^I]"
 		],
 		"footnotes": ["I"]
 	},
@@ -4437,7 +4437,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Shikigami (Kami)](monster/shikigami)"
+			"- {monster/Shikigami/ (Kami)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -4482,7 +4482,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Augur (Kyton)](monster/augur) [evil, lawful]"
+			"- {monster/Augur/ (Kyton)} [evil, lawful]"
 		],
 		"footnotes": ["I"]
 	},
@@ -4605,7 +4605,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Satyr (without pipes, CG)](monster/satyr)"
+			"- {monster/Satyr/ (without pipes, CG)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -4620,7 +4620,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Lyrakien (Azata)](monster/lyrakien) [chaotic, good]"
+			"- {monster/Lyrakien/ (Azata)} [chaotic, good]"
 		],
 		"footnotes": ["I"]
 	},
@@ -4635,7 +4635,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Iron Cobra (no poison)](monster/iron_cobra)"
+			"- {monster/Iron Cobra/ (no poison)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -4650,7 +4650,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Paracletus (Aeon)](monster/paracletus)"
+			"- {monster/Paracletus/ (Aeon)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -4680,7 +4680,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Nosoi (Psychopomp)](monster/nosoi)"
+			"- {monster/Nosoi/ (Psychopomp)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -4695,7 +4695,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Cythnigot (Qlippoth)](monster/cythnigot) [chaotic, evil]"
+			"- {monster/Cythnigot/ (Qlippoth)} [chaotic, evil]"
 		],
 		"footnotes": ["I"]
 	},
@@ -4710,7 +4710,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Silvanshee (agathion)](monster/silvanshee) [good]"
+			"- {monster/Silvanshee/ (agathion)} [good]"
 		],
 		"footnotes": ["I"]
 	},
@@ -4741,7 +4741,7 @@
 			"{SOURCE The First World, Realm of the Fey}",
 			"",
 			"- [Brownie](monster/brownie) [^E]",
-			"- [Leprechaun (without major creation)](monster/leprechaun) [^E]"
+			"- {monster/Leprechaun/ (without major creation)} [^E]"
 		],
 		"footnotes": ["E"]
 	},
@@ -4800,7 +4800,7 @@
 			"",
 			"- [Ant, Giant (Soldier)](monster/giant_ant)",
 			"- [Ape](monster/gorilla)",
-			"- [Aurochs (Herd Animal)](monster/aurochs)",
+			"- {monster/Aurochs/ (Herd Animal)}",
 			"- {monster/Boar}",
 			"- [Cheetah](monster/cheetah)",
 			"- [Constrictor Snake](monster/constrictor_snake)",
@@ -4808,7 +4808,7 @@
 			"- [Dire Bat](monster/dire_bat)",
 			"- {monster/Electric Eel}",
 			"- [Giant Crab](monster/giant_crab)",
-			"- [Leopard (Cat)](monster/leopard)",
+			"- {monster/Leopard/ (Cat)}",
 			"- [Monitor Lizard](monster/monitor_lizard)",
 			"- [Shark](monster/shark)",
 			"- {monster/Wolverine}"
@@ -4857,7 +4857,7 @@
 			"{SOURCE Pathfinder #75: Demon's Heresy}",
 			"",
 			"- **Order of the Fang**",
-			"    - [Giant Chameleon Lizard](monster/giant_chameleon)",
+			"    - {monster/Giant Chameleon/ Lizard}",
 			"- **Order of the Earth**",
 			"    - {monster/Giant Skunk}",
 			"- **Order of the Wing**",
@@ -4892,7 +4892,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Yeth Hound (CE)](monster/yeth_hound) [evil]"
+			"- {monster/Yeth Hound/ (CE)} [evil]"
 		],
 		"footnotes": ["I"]
 	},
@@ -4907,7 +4907,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Giant Black Widow (Spider)](monster/giant_black_widow)"
+			"- {monster/Giant Black Widow/ (Spider)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -4922,7 +4922,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Catrina (Psychopomp)](monster/catrina)"
+			"- {monster/Catrina/ (Psychopomp)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -5033,8 +5033,8 @@
 			"",
 			"- [Air Elemental (Medium)](monster/medium_air_elemental) [air]",
 			"- [Ant, Giant (Drone)](monster/giant_ant)",
-			"- [Bison (Herd Animal)](monster/bison)",
-			"- [Deinonychus (Dinosaur)](monster/deinonychus)",
+			"- {monster/Bison/ (Herd Animal)}",
+			"- {monster/Deinonychus/ (Dinosaur)}",
 			"- [Dire Ape](monster/dire_ape_gigantopithecus)",
 			"- {monster/Dire Boar}",
 			"- [Dire Wolf](monster/dire_wolf)",
@@ -5049,10 +5049,10 @@
 			"- [Lightning Elemental (Medium)](monster/medium_lightning_elemental) [air]",
 			"- {monster/Lion}",
 			"- [Magma Elemental (Medium)](monster/medium_magma_elemental) [earth, fire]",
-			"- [Mephit (Any)](monster/mephit)",
+			"- {monster/Mephit/ (Any)}",
 			"- [Mud Elemental (Medium)](monster/medium_mud_elemental) [earth, water]",
 			"- [Owlbear](monster/owlbear)",
-			"- [Pteranodon (Dinosaur)](monster/pteranodon)",
+			"- {monster/Pteranodon/ (Dinosaur)}",
 			"- [Rhinoceros](monster/rhinoceros)",
 			"- {monster/Satyr}",
 			"- {monster/Tiger}",
@@ -5196,7 +5196,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Vulpinal (Agathion)](monster/vulpinal) [good]"
+			"- {monster/Vulpinal/ (Agathion)} [good]"
 		],
 		"footnotes": ["I"]
 	},
@@ -5211,7 +5211,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Ostiarius (Kyton)](monster/ostiarius) [evil, lawful]"
+			"- {monster/Ostiarius/ (Kyton)} [evil, lawful]"
 		],
 		"footnotes": ["I"]
 	},
@@ -5302,7 +5302,7 @@
 			"{SOURCE PRPG Core Rulebook;Bestiary 2}",
 			"",
 			"- [Air Elemental (Large)](monster/large_air_elemental) [air]",
-			"- [Ankylosaurus (Dinosaur)](monster/ankylosaurus)",
+			"- {monster/Ankylosaurus/ (Dinosaur)}",
 			"- [Cyclops](monster/cyclops)",
 			"- [Dire Lion](monster/dire_lion_spotted_lion)",
 			"- [Earth Elemental (Large)](monster/large_earth_elemental) [earth]",
@@ -5315,7 +5315,7 @@
 			"- [Magma Elemental (Large)](monster/large_magma_elemental) [earth, fire]",
 			"- [Manticore](monster/manticore)",
 			"- [Mud Elemental (Large)](monster/large_mud_elemental) [earth, water]",
-			"- [Orca (Dolphin)](monster/orca)",
+			"- {monster/Orca/ (Dolphin)}",
 			"- [Water Elemental (Large)](monster/large_water_elemental) [water]",
 			"- [Woolly Rhinoceros](monster/woolly_rhinoceros)"
 		]
@@ -5391,7 +5391,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Theletos (Aeon)](monster/theletos)"
+			"- {monster/Theletos/ (Aeon)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -5406,7 +5406,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Vanth (Psychopomp)](monster/vanth)"
+			"- {monster/Vanth/ (Psychopomp)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -5421,7 +5421,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Shoggti (Qlippoth)](monster/shoggti) [chaotic, evil]"
+			"- {monster/Shoggti/ (Qlippoth)} [chaotic, evil]"
 		],
 		"footnotes": ["I"]
 	},
@@ -5436,7 +5436,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Janni (Genie, NG)](monster/janni)"
+			"- {monster/Janni/ (Genie, NG)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -5503,7 +5503,7 @@
 			"- [Dire Bear](monster/dire_bear_cave_bear)",
 			"- [Dire Tiger](monster/dire_tiger_smilodon)",
 			"- [Earth Elemental (Huge)](monster/huge_earth_elemental) [earth]",
-			"- [Elasmosaurus (Dinosaur)](monster/elasmosaurus)",
+			"- {monster/Elasmosaurus/ (Dinosaur)}",
 			"- {monster/Elephant}",
 			"- [Fire Elemental (Huge)](monster/huge_fire_elemental) [fire]",
 			"- [Giant Octopus](monster/giant_octopus)",
@@ -5512,9 +5512,9 @@
 			"- [Lightning Elemental (Huge)](monster/huge_lightning_elemental) [air]",
 			"- [Magma Elemental (Huge)](monster/huge_magma_elemental) [earth, fire]",
 			"- [Mud Elemental (Huge)](monster/huge_mud_elemental) [earth, water]",
-			"- [Stegosaurus (Dinosaur)](monster/stegosaurus)",
+			"- {monster/Stegosaurus/ (Dinosaur)}",
 			"- {monster/Stone Giant}",
-			"- [Triceratops (Dinosaur)](monster/triceratops)",
+			"- {monster/Triceratops/ (Dinosaur)}",
 			"- [Water Elemental (Huge)](monster/huge_water_elemental) [water]"
 		]
 	},
@@ -5593,7 +5593,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Zuishin (Kami, NG)](monster/zuishin)"
+			"- {monster/Zuishin/ (Kami, NG)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -5626,8 +5626,8 @@
 			"",
 			"{SOURCE Pathfinder #20: House of the Beast;Monster Summoner's Handbook}",
 			"",
-			"- [Djinni (NG)](monster/djinni) [air]",
-			"- [Movanic Deva (Angel)](monster/movanic_deva) [good]"
+			"- {monster/Djinni/ (NG)} [air]",
+			"- {monster/Movanic Deva/ (Angel)} [good]"
 		],
 		"footnotes": ["I"]
 	},
@@ -5642,7 +5642,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Avoral (Agathion)](monster/avoral) [good]"
+			"- {monster/Avoral/ (Agathion)} [good]"
 		],
 		"footnotes": ["I"]
 	},
@@ -5672,7 +5672,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Sacristan (Kyton)](monster/sacristan) [evil, lawful]"
+			"- {monster/Sacristan/ (Kyton)} [evil, lawful]"
 		],
 		"footnotes": ["I"]
 	},
@@ -5687,7 +5687,7 @@
 			"",
 			"{SOURCE The First World, Realm of the Fey}",
 			"",
-			"- [Bogeyman (without phantasmal killer)](monster/bogeyman) [^E]",
+			"- {monster/Bogeyman/ (without phantasmal killer)} [^E]",
 			"- [Nuckelavee](monster/nuckelavee) [^E]"
 		],
 		"footnotes": ["E"]
@@ -5748,7 +5748,7 @@
 			"{SOURCE PRPG Core Rulebook;Bestiary 2}",
 			"",
 			"- [Air Elemental (Greater)](monster/greater_air_elemental) [air]",
-			"- [Brachiosaurus (Dinosaur)](monster/brachiosaurus)",
+			"- {monster/Brachiosaurus/ (Dinosaur)}",
 			"- [Dire Crocodile](monster/dire_crocodile)",
 			"- [Dire Shark](monster/dire_shark_megalodon)",
 			"- [Earth Elemental (Greater)](monster/greater_earth_elemental) [earth]",
@@ -5759,10 +5759,10 @@
 			"- [Ice Elemental (Greater)](monster/greater_ice_elemental) [air, cold, water]",
 			"- [Lightning Elemental (Greater)](monster/greater_lightning_elemental) [air]",
 			"- [Magma Elemental (Greater)](monster/greater_magma_elemental) [earth, fire]",
-			"- [Mastodon (Elephant)](monster/mastodon)",
+			"- {monster/Mastodon/ (Elephant)}",
 			"- [Mud Elemental (Greater)](monster/greater_mud_elemental) [earth, water]",
 			"- [Roc](monster/roc)",
-			"- [Tyrannosaurus (Dinosaur)](monster/tyrannosaurus)",
+			"- {monster/Tyrannosaurus/ (Dinosaur)}",
 			"- [Water Elemental (Greater)](monster/greater_water_elemental) [water]"
 		]
 	},
@@ -5807,7 +5807,7 @@
 			"",
 			"{SOURCE Pathfinder #20: House of the Beast}",
 			"",
-			"- [Efreeti (LG)](monster/efreeti) [fire][^W]"
+			"- {monster/Efreeti/ (LG)} [fire][^W]"
 		],
 		"footnotes": ["W"]
 	},
@@ -5877,7 +5877,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Kolyarut (Inevitable)](monster/kolyarut) [lawful]"
+			"- {monster/Kolyarut/ (Inevitable)} [lawful]"
 		],
 		"footnotes": ["I"]
 	},
@@ -5907,7 +5907,7 @@
 			"",
 			"{SOURCE Monster Summoner's Handbook}",
 			"",
-			"- [Morrigna (Psychopomp)](monster/morrigna)"
+			"- {monster/Morrigna/ (Psychopomp)}"
 		],
 		"footnotes": ["I"]
 	},
@@ -5994,7 +5994,7 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"- [Pixie (w/irresisitible dance and sleep arrows)](monster/pixie)",
+			"- {monster/Pixie/ (w/irresisitible dance and sleep arrows)}",
 			"- {monster/Storm Giant}"
 		]
 	}

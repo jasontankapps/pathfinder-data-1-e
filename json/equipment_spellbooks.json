@@ -320,7 +320,7 @@
 			"- 5th-{spell/dismissal}, {spell/hold monster}, {spell/magic jar}[^S], {spell/possess object}[^S], {spell/wall of force}, {spell/waves of fatigue}[^S]",
 			"- 4th-{spell/animate dead}[^S], {spell/bestow curse}[^S], {spell/contagion}[^S], {spell/enervation}[^S], {spell/shadow projection}[^S], {spell/shout}, {spell/wall of ice}",
 			"- 3rd-{spell/gentle repose}[^S], {spell/halt undead}[^S], {spell/lightning bolt}, {spell/magic circle against good}, {spell/nondetection}, {spell/ray of exhaustion}[^S], {spell/stinking cloud}, {spell/vampiric touch}[^S]",
-			"- 2nd-{spell/arcane lock}, [blindness](spell/blindness_deafness)[^S], {spell/darkness}, {spell/false life}[^S], {spell/obscure object}, {spell/resist energy}, {spell/scare}[^S], {spell/summon swarm}",
+			"- 2nd-{spell/arcane lock}, {spell/blindness>_deafness}[^S], {spell/darkness}, {spell/false life}[^S], {spell/obscure object}, {spell/resist energy}, {spell/scare}[^S], {spell/summon swarm}",
 			"- 1st-{spell/cause fear}[^S], {spell/chill touch}[^S], {spell/floating disk}, {spell/hypnotism}, {spell/obscuring mist}, {spell/ray of enfeeblement}[^S], {spell/restore corpse}[^S], {spell/sculpt corpse}[^S], {spell/shield}, {spell/sleep}",
 			"",
 			"[^S]: A spell from the caster's specialty school."

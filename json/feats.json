@@ -697,7 +697,7 @@
 			"{SOURCE Adventurer's Guide/24}",
 			"",
 			"You have learned the classic Aldori dueling stance.  ",
-			"**Prerequisites:** {feat/Alertness}, [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), {feat/Weapon Finesse}, [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).  ",
+			"**Prerequisites:** {feat/Alertness}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (Aldori dueling sword)}.  ",
 			"**Benefit:** While using Aldori Style and wielding only a single Aldori dueling sword in one hand (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons), when you fight defensively or use {feat/Combat Expertise}, you gain a +2 bonus on weapon damage rolls."
 		]
 	},
@@ -710,7 +710,7 @@
 			"{SOURCE Adventurer's Guide/24}",
 			"",
 			"Baron Aldori's dueling style is at its strongest when employed in one-on-one duels. Adjusting to a reverse grip and keeping your blade in motion, you parry your rival's strikes with ease.  ",
-			"**Prerequisites:** {feat/Aldori Style}, {feat/Alertness}, {feat/Combat Reflexes}, [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), {feat/Weapon Finesse}, [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).  ",
+			"**Prerequisites:** {feat/Aldori Style}, {feat/Alertness}, {feat/Combat Reflexes}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (Aldori dueling sword)}.  ",
 			"**Benefit:** While using Aldori Style, at the beginning of your turn, you can designate a focused target as a swift action. This designation lasts until the beginning of your next turn, and you take a -2 penalty to your AC against all other creatures' attacks for that duration. As an immediate action while using {feat/Combat Expertise} or fighting defensively, you can attempt to parry the focused target's attack. This functions as the swashbuckler's opportune parry and riposte deed, except that it does not cost panache and you cannot riposte."
 		]
 	},
@@ -723,7 +723,7 @@
 			"{SOURCE Adventurer's Guide/25}",
 			"",
 			"Defense is now second nature to you, and your blade punishes those who try to attack and fail.  ",
-			"**Prerequisites:** {feat/Aldori Style}, {feat/Aldori Style Aegis}, {feat/Alertness}, {feat/Combat Reflexes}, [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), {feat/Weapon Finesse}, [Weapon Focus (Aldori dueling sword)](feat/weapon_focus).  ",
+			"**Prerequisites:** {feat/Aldori Style}, {feat/Aldori Style Aegis}, {feat/Alertness}, {feat/Combat Reflexes}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (Aldori dueling sword)}.  ",
 			"**Benefit:** When you attempt to parry an attack using Aldori Style Aegis, you do not take any penalties on the attack roll incurred from using {feat/Combat Expertise} or fighting defensively."
 		]
 	},
@@ -3027,7 +3027,7 @@
 			"{SOURCE Villain Codex/80}",
 			"",
 			"You can drag distant foes toward you with your whip.  ",
-			"**Prerequisites:** [Weapon Focus (whip)](feat/weapon_focus), {feat/Whip Mastery}, base attack bonus +8.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (whip)}, {feat/Whip Mastery}, base attack bonus +8.  ",
 			"**Benefit:** When you perform a drag combat maneuver with your whip, you can choose not to move with your target, instead bringing your target closer to you. If you do this, you can't drag the target any farther than the distance it takes to move it adjacent to you, even if your result was high enough to drag the target farther. You gain a +2 bonus on drag combat maneuver checks when using a whip to drag, but this bonus doesn't stack with the bonus from Improved Drag.  ",
 			"**Special:** Balor Whip counts as Improved Drag for the purpose of qualifying for Quick Drag."
 		]
@@ -3326,7 +3326,7 @@
 			"{SOURCE Blood of the Moon/11}",
 			"",
 			"You can crush your foes with your powerful arms.  ",
-			"**Prerequisites:** Str 17, {feat/Beartrap Bite}, [Weapon Focus (bite)](feat/weapon_focus), base attack bonus +8.  ",
+			"**Prerequisites:** Str 17, {feat/Beartrap Bite}, {feat/Weapon Focus/ (bite)}, base attack bonus +8.  ",
 			"**Benefit:** You can attempt to initiate a grapple against a foe trapped by your Beartrap Bite feat without provoking attacks of opportunity. You gain a +2 bonus on damage rolls against foes you are grappling."
 		]
 	},
@@ -3352,7 +3352,7 @@
 			"{SOURCE Blood of the Moon/11}",
 			"",
 			"You can hold your foes even if you do not manage to grapple them.  ",
-			"**Prerequisites:** [Weapon Focus (bite)](feat/weapon_focus), base attack bonus +6.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (bite)}, base attack bonus +6.  ",
 			"**Benefit:** Whenever you confirm a critical hit against a foe with your bite attack, if your confirmation roll matches or exceeds your foe's CMD, you can clamp down on your foe to prevent it from moving away as a free action. The foe cannot move outside the area threatened by your bite attack unless it breaks free of your bite. It can attempt to free itself with a combat maneuver check or Escape Artist check as if you were grappling it, but neither of you gains the grappled condition. You cannot use your bite attack while you maintain your grip on your foe, but you can release the bite as a swift action to end the effect."
 		]
 	},
@@ -3873,7 +3873,7 @@
 			"{SOURCE Paths of the Righteous/15}",
 			"",
 			"You know how to balance a polearm perfectly, striking with artful, yet deadly precision.  ",
-			"**Prerequisites:** [Weapon Focus (glaive)](feat/weapon_focus), must be a worshiper of Shelyn.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (glaive)}, must be a worshiper of Shelyn.  ",
 			"**Benefit:** You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a glaive sized for you, even though it isn't a light weapon. When wielding a glaive, you can treat it as a one-handed piercing or slashing melee weapon and as if you were not making attacks with your off-hand for all feats and class abilities that require such a weapon (such as a duelist's or swashbuckler's precise strike).",
 			"",
 			"As a move action, you can shorten your grip on the glaive, treating it as though it lacked the reach weapon property. You can adjust your grip to grant the weapon the reach property as a move action."
@@ -3996,7 +3996,7 @@
 			"{SOURCE Mythic Adventures/60}",
 			"",
 			"Your deadliest blows unleash rivers of blood.  ",
-			"**Prerequisites:** {feat/Bleeding Critical}, [Mythic Critical Focus](feat/critical_focus).  ",
+			"**Prerequisites:** {feat/Bleeding Critical}, {feat/Mythic |Critical Focus}.  ",
 			"**Benefit:** The bleed damage dealt with Bleeding Critical increases by your tier. Stopping this bleed damage requires a Heal check with a DC equal to 15 + 1/2 your tier. Any magical healing ends the bleed damage normally.",
 			"",
 			"You can expend one use of mythic power to deal 1 Con bleed, in addition to the hit point bleed damage you deal with this feat. This effect increases by 1 for each additional use of mythic power you expend."

@@ -14,6 +14,20 @@
 						"col": 1,
 						"equals": [-10, -8, -6, -4, -3, -2],
 						"labels": [ "0", "1/8", "1/6", "1/4", "1/3", "1/2" ]
+					},
+					{
+						"col": 2,
+						"equals": ["aberration", "animal", "construct", "dragon", "fey", "humanoid", "magical beast", "monstrous humanoid", "ooze", "outsider", "plant", "undead", "vermin"]
+					},
+					{
+						"col": 3,
+						"range": [1, 4],
+						"labels": [ "diminutive", "tiny", "small", "medium" ]
+					},
+					{
+						"col": 4,
+						"equals": [0, 1, 2, 3, 4, 5, 7, 8],
+						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CN", "CE"]
 					}
 				],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
@@ -262,7 +276,23 @@
 			{
 				"id": "cr 1 to 2 monsters table",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
-				"filter": [ { "col": 1, "equals": [1, 2] } ],
+				"filter": [
+					{ "col": 1, "equals": [1, 2] },
+					{
+						"col": 2,
+						"equals": ["aberration", "animal", "construct", "dragon", "fey", "humanoid", "magical beast", "monstrous humanoid", "ooze", "outsider", "plant", "undead", "vermin"]
+					},
+					{
+						"col": 3,
+						"range": [0, 5],
+						"labels": [ "fine", "diminutive", "tiny", "small", "medium", "large" ]
+					},
+					{
+						"col": 4,
+						"range": [0, 8],
+						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
+					}
+				],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
 				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
@@ -653,7 +683,23 @@
 			{
 				"id": "cr 3 to 4 monsters table",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
-				"filter": [ { "col": 1, "equals": [3, 4] } ],
+				"filter": [
+					{ "col": 1, "equals": [3, 4] },
+					{
+						"col": 2,
+						"equals": ["aberration", "animal", "construct", "dragon", "fey", "humanoid", "magical beast", "monstrous humanoid", "ooze", "outsider", "plant", "undead", "vermin"]
+					},
+					{
+						"col": 3,
+						"range": [0, 6],
+						"labels": [ "fine", "diminutive", "tiny", "small", "medium", "large", "huge" ]
+					},
+					{
+						"col": 4,
+						"range": [0, 8],
+						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
+					}
+				],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
 				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],

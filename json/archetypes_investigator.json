@@ -568,7 +568,7 @@
 			"",
 			"Whenever an ally begins a workday task such as Craft, Profession, magic item creation, spell research, managing a kingdom, using the downtime rules, or other similar tasks, the majordomo can spend one use of inspiration and 1 minute of planning to create a plan for that ally. If the ally chooses to follow the majordomo's plan and attempts the task on the same day, if the task would normally take at least 4 hours, it instead takes 30 minutes less time, and if the task would normally take at least 8 hours, it instead takes 1 hour less time.",
 			"",
-			"If using the [kingdom-building rules](rule/kingdom_building), at 3rd level, the majordomo counts her Intelligence score as 2 higher when determining the bonus she provides in a kingdom leadership role. Her effective Intelligence score increases by an additional 2 at 6th level and every 3 investigator levels thereafter.",
+			"If using the {rule/kingdom-building/ rules}, at 3rd level, the majordomo counts her Intelligence score as 2 higher when determining the bonus she provides in a kingdom leadership role. Her effective Intelligence score increases by an additional 2 at 6th level and every 3 investigator levels thereafter.",
 			"",
 			"This ability replaces all instances of trap sense."
 		]
@@ -819,7 +819,7 @@
 			"",
 			"This replaces trapfinding.",
 			"",
-			"**Experimental Potable (Su):** At 5th level, once per day, a reckless epicurean can prepare one experimental potable using a formula that she does not know from the alchemist formulae list into an extract slot of the appropriate level. These experimental potables often have side effects. When a creature consumes one of these potables, the investigator must succeed at a Spellcraft check (DC = 15 + the formula's level). On a failure, she must roll on the [Wild Magic Surge table](rule/wild_magic) to determine the extra effects. If the wild magic surge effect isn't possible due to the nature of the spell or effect, roll instead on the Universal Surge Effects table. Results concerning the caster affect the drinker of the experimental potable instead.",
+			"**Experimental Potable (Su):** At 5th level, once per day, a reckless epicurean can prepare one experimental potable using a formula that she does not know from the alchemist formulae list into an extract slot of the appropriate level. These experimental potables often have side effects. When a creature consumes one of these potables, the investigator must succeed at a Spellcraft check (DC = 15 + the formula's level). On a failure, she must roll on the {rule/Wild Magic/ Surge table} to determine the extra effects. If the wild magic surge effect isn't possible due to the nature of the spell or effect, roll instead on the Universal Surge Effects table. Results concerning the caster affect the drinker of the experimental potable instead.",
 			"",
 			"At 8th level, and every 3 levels thereafter, the reckless epicurean can prepare one additional experimental potable per day.",
 			"",

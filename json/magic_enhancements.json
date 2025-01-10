@@ -1321,7 +1321,7 @@
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/etherealness}; **Price** +3 bonus",
 			"",
-			"See also: [ghost touch weapon enhancement](magic-enhancement/ghost_touch_weapon)"
+			"See also: {magic-enhancement/ghost touch weapon/ enhancement}"
 		]
 	},
 	"ghost_touch": {
@@ -2319,7 +2319,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [cure](spell/cure_moderate_wounds)/{spell/inflict moderate wounds}, creator must be able to channel energy; **Price** +9,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cure>_moderate_wounds}/{spell/inflict moderate wounds}, creator must be able to channel energy; **Price** +9,000 gp"
 		]
 	},
 	"reflecting": {
@@ -3084,7 +3084,7 @@
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/plane shift}; **Price** -",
 			"",
-			"See also: [ghost touch armor enhancement](magic-enhancement/ghost_touch_armor)"
+			"See also: {magic-enhancement/ghost touch armor/ enhancement}"
 		]
 	},
 	"grayflame": {

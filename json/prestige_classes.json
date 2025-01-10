@@ -127,7 +127,7 @@
 			"",
 			"**Display Weapon Prowess (Ex):** At 2nd level, an Aldori swordlord adds a bonus equal to half his class level on Intimidate checks while using Dazzling Display with an Aldori dueling sword. He also gains an additional +1 bonus on these Intimidate checks for each of the following feats he has with the Aldori dueling sword: {feat/Greater Weapon Focus}, {feat/Greater Weapon Specialization}, {feat/Improved Critical}, {feat/Weapon Focus}, or {feat/Weapon Specialization}. The bonuses stack with each other (the total bonus is considered a competence bonus).",
 			"",
-			"When involved in a duel, an Aldori swordlord's mastery of elaborate strikes and stances grants him a bonus equal to half his class level on [performance combat checks](rule/performance_combat). These tricks can also be of great help in countering an enemy during a duel, granting him a bonus equal to half his class level on rolls to attempt a {rule/dueling parry} or to use {rule/dueling resolve}.",
+			"When involved in a duel, an Aldori swordlord's mastery of elaborate strikes and stances grants him a bonus equal to half his class level on {rule/performance combat/ checks}. These tricks can also be of great help in countering an enemy during a duel, granting him a bonus equal to half his class level on rolls to attempt a {rule/dueling parry} or to use {rule/dueling resolve}.",
 			"",
 			"**Defensive Parry (Ex):** At 3rd level, an Aldori swordlord gains a +1 dodge bonus to his AC when making a full attack with an Aldori dueling sword. This AC bonus increases to +2 at 7th level. If an Aldori duelist is also a fighter with the {arc-fighter/Aldori defender} fighter archetype, levels in this class stack with his fighter levels when determining the AC bonus from this ability.",
 			"",
@@ -247,7 +247,7 @@
 			"",
 			"This alters Spells per Day.",
 			"",
-			"**Energy Arrow (Su):** At 4th level, when casting either a [cure](spell/cure_light_wounds) or [inflict](spell/inflict_light_wounds) spell, a deadeye devotee can create an arrow composed of positive or negative energy. This ability allows the devotee to use the bow's range rather than the spell's range to make a ranged touch attack. The physical damage that would be dealt from a mundane arrow is converted into additional damage to the inflict spell or into additional healing for a cure spell. A spell cast in this way is a standard action and the deadeye devotee can fire the arrow as part of the casting. If the arrow misses, the spell is wasted.",
+			"**Energy Arrow (Su):** At 4th level, when casting either a {spell/cure>_light_wounds} or {spell/inflict>_light_wounds} spell, a deadeye devotee can create an arrow composed of positive or negative energy. This ability allows the devotee to use the bow's range rather than the spell's range to make a ranged touch attack. The physical damage that would be dealt from a mundane arrow is converted into additional damage to the inflict spell or into additional healing for a cure spell. A spell cast in this way is a standard action and the deadeye devotee can fire the arrow as part of the casting. If the arrow misses, the spell is wasted.",
 			"",
 			"This replaces seeker arrow."
 		]
@@ -1844,7 +1844,7 @@
 			"",
 			"**Dare-Driven:** If the darechaser adds 1d8 to a roll as a part of a dare, she can roll again and add the result if she rolls a natural 7 or 8 (not just an 8). If she rolls 1d10, she instead rolls again on a result of a natural 9 or 10.",
 			"",
-			"**Diehard Performer:** The darechaser adds her adrenaline rush bonus on all Perform checks and [performance combat checks](rule/performance_combat).",
+			"**Diehard Performer:** The darechaser adds her adrenaline rush bonus on all Perform checks and {rule/performance combat/ checks}.",
 			"",
 			"**Impossible Speed:** The darechaser's base speed increases by 10 feet. At 6th level, her speed instead increases by 20 feet, and at 10th level it increases by 30 feet.",
 			"",

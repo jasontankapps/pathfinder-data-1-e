@@ -1946,7 +1946,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/437}",
 			"",
-			"***Rooftops:*** Getting to a roof usually requires climbing a wall (see the [Walls](rule/walls_and_gates) section), unless the character can reach a roof by jumping down from a higher window, balcony, or bridge. Flat roofs, common only in warm climates (as accumulated snow can cause a flat roof to collapse), are easy to run across. Moving along the peak of a pitched roof requires a DC 20 Acrobatics check. Moving on an angled roof surface without changing altitude (moving parallel to the peak, in other words) requires a DC 15 Acrobatics check. Moving up and down across the peak of a roof requires a DC 10 Acrobatics check.",
+			"***Rooftops:*** Getting to a roof usually requires climbing a wall (see the {rule/Walls>_and_gates} section), unless the character can reach a roof by jumping down from a higher window, balcony, or bridge. Flat roofs, common only in warm climates (as accumulated snow can cause a flat roof to collapse), are easy to run across. Moving along the peak of a pitched roof requires a DC 20 Acrobatics check. Moving on an angled roof surface without changing altitude (moving parallel to the peak, in other words) requires a DC 15 Acrobatics check. Moving up and down across the peak of a roof requires a DC 10 Acrobatics check.",
 			"",
 			"Eventually a character runs out of roof, requiring a long jump across to the next roof or down to the ground. The distance to the closest roof is usually 1d3 &times; 5 feet horizontally, but the next roof is equally likely to be 5 feet higher, 5 feet lower, or the same height. Use the guidelines in the Acrobatics skill (a horizontal jump's peak height is one-fourth of the horizontal distance) to determine whether a character can make a jump.",
 			"",
@@ -2574,7 +2574,7 @@
 			"",
 			"A character in very hot conditions (above 90&deg; F) must make a Fortitude saving throw each hour (DC 15, +1 for each previous check) or take 1d4 points of nonlethal damage. Characters wearing heavy clothing or armor of any sort take a -4 penalty on their saves. A character with the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well (see the [skill description](skill/survival)). Characters reduced to unconsciousness begin taking lethal damage (1d4 points per hour).",
 			"",
-			"In severe heat (above 110&deg; F), a character must make a Fortitude save once every 10 minutes (DC 15, +1 for each previous check) or take 1d4 points of nonlethal damage. Characters wearing heavy clothing or armor of any sort take a -4 penalty on their saves. A character with the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well (see the [Survival skill](skill/survival)). Characters reduced to unconsciousness begin taking lethal damage (1d4 points per each 10-minute period).",
+			"In severe heat (above 110&deg; F), a character must make a Fortitude save once every 10 minutes (DC 15, +1 for each previous check) or take 1d4 points of nonlethal damage. Characters wearing heavy clothing or armor of any sort take a -4 penalty on their saves. A character with the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well (see the {skill/Survival/ skill}). Characters reduced to unconsciousness begin taking lethal damage (1d4 points per each 10-minute period).",
 			"",
 			"A character who takes any nonlethal damage from heat exposure now suffers from heatstroke and is fatigued. These penalties end when the character recovers from the nonlethal damage she took from the heat.",
 			"",
@@ -2742,7 +2742,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/445}",
 			"",
-			"Any character can wade in relatively calm water that isn't over his head, no check required. Similarly, swimming in calm water only requires Swim skill checks with a DC of 10. Trained swimmers can just take 10. Remember, however, that armor or heavy gear makes any attempt at swimming much more difficult (see the [Swim skill description](skill/swim)).",
+			"Any character can wade in relatively calm water that isn't over his head, no check required. Similarly, swimming in calm water only requires Swim skill checks with a DC of 10. Trained swimmers can just take 10. Remember, however, that armor or heavy gear makes any attempt at swimming much more difficult (see the {skill/Swim/ skill description}).",
 			"",
 			"By contrast, fast-moving water is much more dangerous. Characters must make a successful DC 15 Swim check or a DC 15 Strength check to avoid going under. On a failed check, the character takes 1d3 points of nonlethal damage per round (1d6 points of lethal damage if flowing over rocks and cascades).",
 			"",

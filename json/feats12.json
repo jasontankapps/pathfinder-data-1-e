@@ -444,7 +444,7 @@
 			"{SOURCE Ultimate Combat/123}",
 			"",
 			"Your superior expertise with this weapon does not provoke attacks of opportunity from your enemies.  ",
-			"**Prerequisites:** [Weapon Focus (whip)](feat/weapon_focus), base attack bonus +2.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (whip)}, base attack bonus +2.  ",
 			"**Benefit:** You no longer provoke attacks of opportunity when attacking with a whip. You can deal lethal damage with a whip, although you can still deal nonlethal damage when you want. Further, you can deal damage with a whip despite a creature's armor bonus or natural armor bonus.  ",
 			"**Normal:** Attacking with a whip provokes attacks of opportunity as if you used a ranged weapon. A whip deals no damage to a creature that has an armor bonus of +1 or natural armor bonus of +3.",
 			"",
@@ -562,7 +562,7 @@
 			"{SOURCE Agents of Evil/13}",
 			"",
 			"Your research has gained the attention of the [Whispering Way](rule/f_gravepath), which rewards you with access to its libraries.  ",
-			"**Prerequisites:** [Associate (Whispering Way)](feat/associate).  ",
+			"**Prerequisites:** {feat/Associate/ (Whispering Way)}.  ",
 			"**Benefit:** You can exploit lore acquired from the Whispering Way once per day to combine your own blood and a vial of unholy water to create a potion of cure light wounds or a potion of inflict light wounds as a full-round action. The blood loss from this transformation deals 1 point of Constitution damage to you. In addition, in any settlement that is the size of a small town or larger, you can always find scrolls of the following spells available for purchase regardless of their legality: animate dead, control undead, create undead, detect undead, disrupt undead, false life, greater false life, ghoul touch, lesser animate dead, mass repair undead, repair undead, and undead anatomy I-IV."
 		]
 	},
@@ -1198,7 +1198,7 @@
 			"{SOURCE Legacy of Dragons/21}",
 			"",
 			"You can combine sweeping attacks with a whip and quick stabs with a blade, imitating a wyvern's powerful bite and tail tipped with a stinger.  ",
-			"**Prerequisites:** [Exotic Weapon Proficiency (whip)](feat/exotic_weapon_proficiency), Acrobatics 3 ranks, brawler's flurry class feature or flurry of blows class feature.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (whip)}, Acrobatics 3 ranks, brawler's flurry class feature or flurry of blows class feature.  ",
 			"**Benefit:** While using this style, you can make attacks with a dagger, punching dagger, scorpion whip, spiked gauntlet, or whip when using a flurry of blows or brawler's flurry. Only one of these attacks can be made with a whip or scorpion whip."
 		]
 	},
@@ -1211,7 +1211,7 @@
 			"{SOURCE Legacy of Dragons/21}",
 			"",
 			"You can use your whip like a wyvern's sting, forcing foes to give it their undivided attention.  ",
-			"**Prerequisites:** [Exotic Weapon Proficiency (whip)](feat/exotic_weapon_proficiency), {feat/Wyvern Fury Style}, Acrobatics 6 ranks, brawler's flurry class feature or flurry of blows class feature.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (whip)}, {feat/Wyvern Fury Style}, Acrobatics 6 ranks, brawler's flurry class feature or flurry of blows class feature.  ",
 			"**Benefit:** While using Wyvern Fury Style, if you successfully attack a foe with a whip or scorpion whip, as a swift action you can choose one ally. Until the beginning of your next turn, that ally can leave spaces threatened by that foe without provoking an attack of opportunity from the foe."
 		]
 	},
@@ -1224,7 +1224,7 @@
 			"{SOURCE Legacy of Dragons/21}",
 			"",
 			"Like a wyvern on the wing, you command a fluid style that enables you to make attacks while moving.  ",
-			"**Prerequisites:** [Exotic Weapon Proficiency (whip)](feat/exotic_weapon_proficiency), {feat/Wyvern Fury Style}, {feat/Wyvern Sting}, Acrobatics 10 ranks, brawler's flurry class feature or flurry of blows class feature.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (whip)}, {feat/Wyvern Fury Style}, {feat/Wyvern Sting}, Acrobatics 10 ranks, brawler's flurry class feature or flurry of blows class feature.  ",
 			"**Benefit:** While using the Wyvern Style feat, if you use flurry of blows or brawler's flurry and take a 5-foot step, you can take an additional 5-foot step. You can take this extra 5-foot step only between two attacks in your flurry, but you can take both your 5-foot steps consecutively without making an attack between them."
 		]
 	},

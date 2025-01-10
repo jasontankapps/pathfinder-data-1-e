@@ -309,7 +309,7 @@
 			"",
 			"This alters shifter claws.",
 			"",
-			"**Divine Fury (Su):** A holy beast shifter focuses entirely on hunting down specific outsiders on behalf of her deity. She gains the [ranger's favored enemy](class/ranger) class feature, except she can select only an outsider type from the favored enemy table. The bonus against her favored enemy automatically increases by 1 at 5th level and every 5 levels thereafter. At 5th level and every 5 levels thereafter, she can forgo gaining an additional shifter aspect to instead gain an additional outsider type as her favored enemy. Her bonuses from the favored enemy feature against new outsider types chosen in this way are equal to the bonus for the type chosen at 1st level.",
+			"**Divine Fury (Su):** A holy beast shifter focuses entirely on hunting down specific outsiders on behalf of her deity. She gains the {class/ranger/'s favored enemy} class feature, except she can select only an outsider type from the favored enemy table. The bonus against her favored enemy automatically increases by 1 at 5th level and every 5 levels thereafter. At 5th level and every 5 levels thereafter, she can forgo gaining an additional shifter aspect to instead gain an additional outsider type as her favored enemy. Her bonuses from the favored enemy feature against new outsider types chosen in this way are equal to the bonus for the type chosen at 1st level.",
 			"",
 			"This replaces wild empathy, track, woodland stride, and trackless step."
 		]
@@ -358,7 +358,7 @@
 		"description": [
 			"## Oozemorph",
 			"",
-			"**Source** [Ultimate Wilderness pg. 81](source/ultimate_wilderness), [official Paizo FAQ](https://paizo.com/paizo/faq/v5748nruor1hj)  ",
+			"**Source** {source/Ultimate Wilderness/ pg. 81}, [official Paizo FAQ](https://paizo.com/paizo/faq/v5748nruor1hj)  ",
 			"While most shifters are trained in druidic traditions that allow them to tap into animalistic powers, others look instead to the simplest forms of life for inspiration. Known as oozemorphs, these shifters focus on the ooze - a form of life as simple in construction as it is dangerous in combat. While some shifters consider the oozemorph to be unsettling or even vile, these shifters merely embrace a stranger form of life than most. They are not inherently evil, yet they are often misunderstood by druidic circles and these circles' shifter champions.",
 			"",
 			"**Weapon and Armor Proficiency:** An oozemorph is proficient with all simple weapons and light armor.",
@@ -471,7 +471,7 @@
 			"",
 			"**Style Mastery (Ex):** At 1st level, 5th level, and every 5 levels thereafter, a style shifter gains a bonus [style feat](main/feats_style). He does not need to meet the prerequisites of the feat. Starting at 5th level, he can choose to instead gain a wildcard style slot. Whenever he enters one or more styles, he can spend his wildcard style slots to gain feats in those styles' feat paths (such as {feat/Panther Claw} if he enters {feat/Panther Style}) as long as he meets their prerequisites. Each time he changes styles, he can also change these wildcard style slots.",
 			"",
-			"**Form of the Wild (Su):** At 6th level, a style shifter gains the ability to turn into other creatures. This functions as a [druid's wild shape ability](class/druid), except he does not gain the ability to turn into an elemental. The shifter's effective druid level is equal to his class level. He can use this ability for a number of hours per day equal to 1/3 his effective druid level. This duration does not need to be consecutive, but must be spent in 1-hour increments. For abilities that function based on uses of wild shape, each hour of form of the wild counts as a use.",
+			"**Form of the Wild (Su):** At 6th level, a style shifter gains the ability to turn into other creatures. This functions as a {class/druid/'s wild shape ability}, except he does not gain the ability to turn into an elemental. The shifter's effective druid level is equal to his class level. He can use this ability for a number of hours per day equal to 1/3 his effective druid level. This duration does not need to be consecutive, but must be spent in 1-hour increments. For abilities that function based on uses of wild shape, each hour of form of the wild counts as a use.",
 			"",
 			"This alters wild shape.",
 			"",
@@ -615,7 +615,7 @@
 			"",
 			"This replaces wild empathy, track, woodland stride, and trackless step.",
 			"",
-			"**Heart of Earth (Su):** At 4th level, a wild effigy's stone aspects no longer require even the semblance of flesh and blood to function. When a wild effigy is shifted into a minor or major aspect, or is transformed into one of her aspects using wild shape, she adds her shifter level on checks to stabilize at negative hit points and gains a 25% chance to ignore a critical hit or precision damage. This does not stack with the [fortification armor property](magic-enhancement/fortification) or similar effects.",
+			"**Heart of Earth (Su):** At 4th level, a wild effigy's stone aspects no longer require even the semblance of flesh and blood to function. When a wild effigy is shifted into a minor or major aspect, or is transformed into one of her aspects using wild shape, she adds her shifter level on checks to stabilize at negative hit points and gains a 25% chance to ignore a critical hit or precision damage. This does not stack with the {magic-enhancement/fortification/ armor property} or similar effects.",
 			"",
 			"At 9th level, this chance increases to 50% and she becomes immune to petrification.",
 			"",

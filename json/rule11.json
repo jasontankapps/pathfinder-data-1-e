@@ -281,7 +281,7 @@
 			"| 16-22 | 1 {monster/minotaur} | 4 |",
 			"| 23-27 | 1 {monster/tiger} | 4 |",
 			"| 28-29 | 1 {monster/yeti} | 4 |",
-			"| 30-33 | 1d4 [giant mantises](monster/giant_mantis) | 5 |",
+			"| 30-33 | 1d4 {monster/giant mantis/es} | 5 |",
 			"| 34-37 | 1d6 {monster/sahuagin/s} | 5 |",
 			"| 38-42 | 1d4 {monster/giant scorpion/s} | 5 |",
 			"| 43-45 | 1 {monster/troll} | 5 |",
@@ -292,7 +292,7 @@
 			"| 60-61 | 1 {monster/wood golem} | 6 |",
 			"| 62-68 | 1 {monster/girallon} | 6 |",
 			"| 69-73 | 1d4 {monster/owlbear/s} | 6 |",
-			"| 74-77 | 1d4 [rhinoceroses](monster/rhinoceros) | 6 |",
+			"| 74-77 | 1d4 {monster/rhinoceros/es} | 6 |",
 			"| 78-81 | 1d8 [prisoners](npc/dungeon_prisoner) | 6 |",
 			"| 82-83 | 1d4 {monster/dire lion/s} | 7 |",
 			"| 84-87 | 1 {monster/gorgon} | 8 |",
@@ -349,7 +349,7 @@
 			"| 62-64 | 1d6 {monster/iron cobra/s} | 5 |",
 			"| 65-67 | 1d6 {template/skeletal champion/s} | 5 |",
 			"| 68-72 | 1d4 {monster/owlbear/s} | 6 |",
-			"| 73-75 | 1d4 [rhinoceroses](monster/rhinoceros) | 6 |",
+			"| 73-75 | 1d4 {monster/rhinoceros/es} | 6 |",
 			"| 76-82 | 1 {monster/chimera} | 7 |",
 			"| 83-84 | 1 {monster/behir} | 8 |",
 			"| 85-87 | 1 {monster/gorgon} | 8 |",
@@ -428,7 +428,7 @@
 			"| 63-67 | 1d6 {monster/crocodile/s} | 5 |",
 			"| 68-72 | 1 {monster/gibbering mouther} | 5 |",
 			"| 73-76 | 1 {monster/ochre jelly} | 5 |",
-			"| 77-79 | 1d8 [giant leeches](monster/giant_leech) | 6 |",
+			"| 77-79 | 1d8 {monster/giant leech/es} | 6 |",
 			"| 80-82 | 1 {monster/black pudding} | 7 |",
 			"| 83-85 | 1 {monster/flesh golem} | 7 |",
 			"| 86-89 | 1d6 {monster/leech swarm/s} | 7 |",
@@ -1246,7 +1246,7 @@
 			"",
 			"Another question to consider is what the locals do to protect themselves. Note that in a fantasy world this doesn't necessarily entail just dressing more warmly or finding shelter; it may also mean appeasing the spirits of nature or the gods through propitiatory sacrifices. Safeguarding oneself from the weather - be it scorching sun or howling blizzard - is a crucial part of traveling or living in the wilderness, and the best protection against the weather may not be the best defense in combat.",
 			"",
-			"Types of weather that may factor into encounters include blizzards, severe cold or extreme heat, fog, hurricanes and typhoons, monsoons, dust storms, hailstorms, sandstorms, snowstorms, and thunderstorms (with or without lightning), tornadoes, and windstorms (see the other [Weather section](rule/weather))."
+			"Types of weather that may factor into encounters include blizzards, severe cold or extreme heat, fog, hurricanes and typhoons, monsoons, dust storms, hailstorms, sandstorms, snowstorms, and thunderstorms (with or without lightning), tornadoes, and windstorms (see the other {rule/Weather/ section})."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1300,7 +1300,7 @@
 			"",
 			"Deserts are defined not by climate, but rather by the amount of rainfall a region receives; they can be cold, temperate, or hot. They exist in weather shadows, blocked from ordinary precipitation patterns. Desert vegetation is tough and sparse, able to store water for long periods, which means in turn that the soil in a desert is loose and barren, if not entirely rocky. Desert animals tend to be smaller insects, arachnids, mammals, and lizards, with some predatory birds. Venomous creatures are common. In hot deserts, the days are scorching; but at night the heat dissipates quickly, and those who don't have proper cover or clothing can suffer from exposure.",
 			"",
-			"[Desert terrain is described here,](rule/desert_terrain) but encounters in the desert might also include exposure to either severe [heat](rule/heat_dangers) or [cold](rule/cold_dangers); {rule/storms}, whether blizzards, sandstorms, or thunderstorms, which can lead to flash {rule/floods} in the higher deserts in particular; and [thirst](rule/starvation_and_thirst), when water stores eventually vanish."
+			"{rule/Desert terrain/ is described here,} but encounters in the desert might also include exposure to either severe {rule/heat>_dangers} or {rule/cold>_dangers}; {rule/storms}, whether blizzards, sandstorms, or thunderstorms, which can lead to flash {rule/floods} in the higher deserts in particular; and [thirst](rule/starvation_and_thirst), when water stores eventually vanish."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1328,7 +1328,7 @@
 			"",
 			"Forests and jungles are, in the broadest possible terms, places where a significant number of trees grow and where a wide variety of other plants and animals live and thrive. The type of forest changes by latitude and terrain, ranging from sparse evergreens and other conifers in the coldest and highest parts of the world to dense, broadleaf jungle in the tropics. The strength of a forest's canopy should be determined - if the canopy creates too much shadow on the ground below, it can prevent the growth of underbrush. Leafier and more mature trees cast greater shadows, and thus more of the forest's inhabitants may live in the trees.",
 			"",
-			"[Forest terrain is described here,](rule/forest_terrain) but when adventuring in the forest or jungle, some possible encounters might also incorporate {rule/darkness}, [falling branches or trees](rule/falling_objects), {rule/fog}, [forest fires and smoke](rule/forest_fires_cr_6), or swampy terrain. In addition, trees and undergrowth can provide {rule/cover} and {rule/concealment}."
+			"{rule/Forest terrain/ is described here,} but when adventuring in the forest or jungle, some possible encounters might also incorporate {rule/darkness}, [falling branches or trees](rule/falling_objects), {rule/fog}, [forest fires and smoke](rule/forest_fires_cr_6), or swampy terrain. In addition, trees and undergrowth can provide {rule/cover} and {rule/concealment}."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1356,7 +1356,7 @@
 			"",
 			"Hills can be of many different types. They might be rolling hills in a broad grassland, or they can be the transitional point between plains and more rugged mountains. They could be small, craggy bluffs or smooth, gentle slopes. Much depends on the terrain surrounding the hilly area. Streams or rivers may wind between the hills, cutting their banks. If the hills are the tallest features in an area, they are of immense strategic value: anyone who occupies them can see farther than would-be enemies.",
 			"",
-			"[Hills terrain is described here;](rule/hills_terrain) hills also provide a good setting for both natural caves and dungeons. Additional environmental hazards for hill encounters include [avalanches](rule/avalanches_cr_7), the danger of [falls](rule/falling), [icy terrain](rule/cold_dangers), inclement {rule/weather}, rivers and streams, and [rubble](rule/floors). Hills used as defensive positions might also incorporate trenches and berms."
+			"{rule/Hills terrain/ is described here;} hills also provide a good setting for both natural caves and dungeons. Additional environmental hazards for hill encounters include {rule/avalanches>_cr_7}, the danger of [falls](rule/falling), [icy terrain](rule/cold_dangers), inclement {rule/weather}, rivers and streams, and [rubble](rule/floors). Hills used as defensive positions might also incorporate trenches and berms."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1412,7 +1412,7 @@
 			"",
 			"As with hills terrain, mountains come in a variety of shapes and sizes. In places where tectonic activity has for the most part stabilized and the rock is exposed to the upper air, the mountains are smoother and more eroded. In places where the earth is still relatively unstable, the mountains are harsher and more jagged and pose a greater (and more dangerous) challenge to climbers. Caves, chasms, cliff faces, and dense rubble are all common in mountains, to say nothing of the animals and monsters that make their homes in the peaks. Mountains flank strategic passes and overlook fertile valleys, which makes them common locales for fortresses and brigands.",
 			"",
-			"[Mountain terrain is described here.](rule/mountain_terrain) Remember the effects of [high altitude](rule/mountain_travel) on those not acclimated to it. Mountain encounters might also include rockslides or [avalanches](rule/avalanches_cr_7) of snow, mud, or rock, low clouds that function as {rule/fog}, and [ice sheets](rule/cold_dangers). [Volcanic mountains](rule/volcanoes) add dangers of smoke and lava."
+			"{rule/Mountain terrain/ is described here.} Remember the effects of [high altitude](rule/mountain_travel) on those not acclimated to it. Mountain encounters might also include rockslides or {rule/avalanches>_cr_7} of snow, mud, or rock, low clouds that function as {rule/fog}, and [ice sheets](rule/cold_dangers). [Volcanic mountains](rule/volcanoes) add dangers of smoke and lava."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1440,7 +1440,7 @@
 			"",
 			"Plains are large swaths of flat terrain with few trees. Several types of plains exist in different climates: prairie, savanna, steppe, and the like. The most common place for people to live, plains serve as farmlands, enabling the growth of culture on a huge number of levels. Because plains are so valuable, they are frequently contested, and those who rule the plains defend their turf ferociously. Because they are relatively flat and easy to traverse, plains also make convenient battlefields, as they afford the room needed for large-scale maneuvers. Lakes, ponds, rivers, streams, irrigation ditches, and other natural and man-made features divide plains and serve as impediments to travel.",
 			"",
-			"[Plains terrain is described here.](rule/plains_terrain) With few terrain features to shield them, plains are often beset by {rule/high |winds}, causing {rule/dust |storms} and even tornadoes. Grassfires are also a danger (treat as [forest fires](rule/forest_fires_cr_6)), and they can cause normally placid herd animals to stampede, effectively granting them the {umr/stampede and |trample} special abilities."
+			"{rule/Plains terrain/ is described here.} With few terrain features to shield them, plains are often beset by {rule/high |winds}, causing {rule/dust |storms} and even tornadoes. Grassfires are also a danger (treat as [forest fires](rule/forest_fires_cr_6)), and they can cause normally placid herd animals to stampede, effectively granting them the {umr/stampede and |trample} special abilities."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1889,7 +1889,7 @@
 			"| 19-22 | 1 {monster/mimic} | 4 |",
 			"| 23-30 | 1d6 [wanderers](npc/road_wanderer) | 5 |",
 			"| 31-35 | 1 [traveling merchant](npc/merchant_traveling_merchant) | 5 |",
-			"| 36-39 | 1d4 [Medium water elementals](monster/medium_water_elemental) | 5 |",
+			"| 36-39 | 1d4 {monster/Medium water elemental/s} | 5 |",
 			"| 40-42 | 2d4 {monster/hyena/s} | 5 |",
 			"| 43-44 | 1d4 {monster/giant scorpion/s} | 5 |",
 			"| 45-46 | 1d6 {monster/aurochs} | 5 |",
@@ -1922,7 +1922,7 @@
 			"| 37-38 | 1 [white dragon (young)](monster/young_white_dragon) | 6 |",
 			"| 39-42 | 1 {monster/remorhaz} | 7 |",
 			"| 43-49 | 1d8 [dire wolves](monster/dire_wolf) | 7 |",
-			"| 50-55 | 1d4 [woolly rhinoceroses](monster/woolly_rhinoceros) | 8 |",
+			"| 50-55 | 1d4 {monster/woolly rhinoceros/es} | 8 |",
 			"| 56-57 | 1d8 {monster/frost |wight/s} | 8 |",
 			"| 58-61 | 1 {monster/dire tiger} | 8 |",
 			"| 62-64 | 1d6 [monster hunters](npc/adventurer_monster_hunter) | 8 |",
@@ -2009,7 +2009,7 @@
 			"| 68-71 | 1d6 {monster/giant scorpion/s} | 6 |",
 			"| 72-78 | 1d8 {monster/worg/s} | 6 |",
 			"| 79-84 | 2d6 {monster/gnoll/s} | 6 |",
-			"| 85-89 | 1d6 [rhinoceroses](monster/rhinoceros) | 7 |",
+			"| 85-89 | 1d6 {monster/rhinoceros/es} | 7 |",
 			"| 90-93 | 1 {monster/dire tiger} | 8 |",
 			"| 94-96 | 1 {monster/gorgon} | 8 |",
 			"| 97-98 | 1 {monster/mastodon} | 9 |",
@@ -2399,7 +2399,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/234}",
 			"",
-			"When the world's crust ruptures and expels its molten heart, one of the most dramatic natural disasters results: a volcano. Volcanic eruptions offer a wide range of options for the GM, including lava, lava bombs, poisonous gases, and pyroclastic flows. GMs might also consider presaging a dramatic volcanic eruption with existing hazards, like [avalanches](rule/avalanches_cr_7) and minor [earthquakes](rule/earthquake_cr_9).",
+			"When the world's crust ruptures and expels its molten heart, one of the most dramatic natural disasters results: a volcano. Volcanic eruptions offer a wide range of options for the GM, including lava, lava bombs, poisonous gases, and pyroclastic flows. GMs might also consider presaging a dramatic volcanic eruption with existing hazards, like {rule/avalanches>_cr_7} and minor [earthquakes](rule/earthquake_cr_9).",
 			"",
 			"### Lava",
 			"",
@@ -2473,19 +2473,19 @@
 			"",
 			"### Skeletal Awakening",
 			"",
-			"As the uprising progresses, older and older corpses join the shambling ranks of the undead. [Skeletons](template/skeleton) wearing traces of long-rotted funeral garb claw their way out of graveyards and crypts, and act with a malevolence and organization rarely encountered among their ilk. The undead remain mindless, but the magical power behind the incursion gives them the efficiency and tactical acumen of a living army. The skeletons seek out weapons and armor to gird themselves for battle. Elite {template/skeletal champion/s} lead the troops, wielding magic items scavenged from abandoned graves. Eventually, {monster/ghoul/s} and {monster/wight/s} prowl the streets after dark as well, along with other lesser, free-willed undead.",
+			"As the uprising progresses, older and older corpses join the shambling ranks of the undead. {template/Skeleton/s} wearing traces of long-rotted funeral garb claw their way out of graveyards and crypts, and act with a malevolence and organization rarely encountered among their ilk. The undead remain mindless, but the magical power behind the incursion gives them the efficiency and tactical acumen of a living army. The skeletons seek out weapons and armor to gird themselves for battle. Elite {template/skeletal champion/s} lead the troops, wielding magic items scavenged from abandoned graves. Eventually, {monster/ghoul/s} and {monster/wight/s} prowl the streets after dark as well, along with other lesser, free-willed undead.",
 			"",
 			"### Lost Souls",
 			"",
-			"As the uprising gathers strength, the unquiet souls of bodies long since turned to dust awaken as well. [Ghosts](template/ghost), {monster/shadow/s}, {monster/wraith/s}, and even {monster/spectre/s} arise to prey upon the living. A handful of the ghosts might be free from the malevolent influence of the uprising, and enterprising PCs may be able to glean valuable intelligence from these troubled spirits.",
+			"As the uprising gathers strength, the unquiet souls of bodies long since turned to dust awaken as well. {template/Ghost/s}, {monster/shadow/s}, {monster/wraith/s}, and even {monster/spectre/s} arise to prey upon the living. A handful of the ghosts might be free from the malevolent influence of the uprising, and enterprising PCs may be able to glean valuable intelligence from these troubled spirits.",
 			"",
-			"The infusion of negative energy strengthens the undead within the area of the incursion, providing the benefits of a {spell/desecrate} spell. Areas that were once {spell/consecrate/d} are now treated as normal ground, and may well provide new sources of corpses for the undead armies, but [hallowed](spell/hallow) ground remains inviolate.",
+			"The infusion of negative energy strengthens the undead within the area of the incursion, providing the benefits of a {spell/desecrate} spell. Areas that were once {spell/consecrate/d} are now treated as normal ground, and may well provide new sources of corpses for the undead armies, but {spell/hallow/ed} ground remains inviolate.",
 			"",
 			"As the undead grow stronger, the growing flood of negative energy brings the {rule/Shadow Plane} closer, leaving colors muted or gray except during the brightest hours of daylight. Even those undead most vulnerable to light can move about with impunity from late afternoon to mid-morning.",
 			"",
 			"### Necropolis",
 			"",
-			"If the flow of negative energy is not reversed, darkness finally claims the area, cloaking it in perpetual shadow. The entire area of the undead uprising functions as if under the effects of an {spell/unhallow} spell (with no additional spell effect tied to it). [Hallowed](spell/hallow) ground remains a rare sanctuary, but only until destroyed by the malevolent forces without.",
+			"If the flow of negative energy is not reversed, darkness finally claims the area, cloaking it in perpetual shadow. The entire area of the undead uprising functions as if under the effects of an {spell/unhallow} spell (with no additional spell effect tied to it). {spell/Hallow/ed} ground remains a rare sanctuary, but only until destroyed by the malevolent forces without.",
 			"",
 			"Heroes who perished in the battle against the uprising return as fearsome undead generals. The few living survivors are enslaved as thralls. The area becomes a city of the dead, or construction begins if no such city existed or survived. Free-willed undead flock to this new sanctuary, and only the greatest of heroes can return this now-blighted area to the world of the living."
 		],
@@ -2804,7 +2804,7 @@
 			"",
 			"One of the first things PCs are likely to wonder before or after having their fates revealed is whether or not their fortune-teller's words are true. Some fortune-tellers are complete con artists, devoid of any kind of mystical power, using the same techniques as real-world mystics. If a fortune teller is scamming the PCs, you should roll a Bluff check to determine the effectiveness of her performance. Don't call for a Sense Motive check from the characters unless they raise the question of their seer's legitimacy. Part of the effectiveness of fortune-telling is the recipient's belief in the medium's miraculous insights. Only once a character doubts these powers does the illusion risk breaking down.",
 			"",
-			"The Pathfinder RPG also presents many magical options for fortune-telling. The spells {spell/augury}, {spell/contact other plane}, and {spell/vision}, along with a host of other divination spells, all prove useful in giving characters insights into the future, where classic magic items like {magic-wondrous/crystal ball/s} and [medallions of thoughts](magic-wondrous/medallion_of_thoughts) allow seers to demonstrate their uncanny insights. A variety of illusion-based spells and magic items, such as a [wand of major image](spell/major_image) or a {magic-wondrous/deck of illusions}, help bring flair to a fortuneteller's readings, regardless of actual truthfulness. There is also the [harrower prestige class](prestigeclass/harrower), which employs the aforementioned Harrow Deck and allows characters to play a kind of adventuring fortune-teller."
+			"The Pathfinder RPG also presents many magical options for fortune-telling. The spells {spell/augury}, {spell/contact other plane}, and {spell/vision}, along with a host of other divination spells, all prove useful in giving characters insights into the future, where classic magic items like {magic-wondrous/crystal ball/s} and [medallions of thoughts](magic-wondrous/medallion_of_thoughts) allow seers to demonstrate their uncanny insights. A variety of illusion-based spells and magic items, such as a [wand of major image](spell/major_image) or a {magic-wondrous/deck of illusions}, help bring flair to a fortuneteller's readings, regardless of actual truthfulness. There is also the {prestigeclass/harrower/ prestige class}, which employs the aforementioned Harrow Deck and allows characters to play a kind of adventuring fortune-teller."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -3112,7 +3112,7 @@
 			"",
 			"### Clarifying Haunts",
 			"",
-			"Adjudicating the mind-affecting, fear-based effects of a haunt's primary attack can be problematic for characters outside the haunt's range or those immune to such effects. This can deprive some PCs of the ability to witness the haunt's story elements and thus assist allies plagued by a haunting presence. Fortunately, a haunt's secondary effects are less absolute. A haunt's secondary effect should reflect its primary effect in some manner, in ways all PCs can witness. For example, a [spectral vermin haunt](haunt/spectral_vermin) should still manifest a visible, ghostly phantom of a scurrying, skeletal rat swarm to those immune to the effect or beyond its range, even though the haunt's primary effect does not affect those PCs. This enables PCs to not only witness the haunt's secondary effect so as to better interpret a haunt's clues, but also to more easily recognize when fellow PCs are afflicted and need assistance.",
+			"Adjudicating the mind-affecting, fear-based effects of a haunt's primary attack can be problematic for characters outside the haunt's range or those immune to such effects. This can deprive some PCs of the ability to witness the haunt's story elements and thus assist allies plagued by a haunting presence. Fortunately, a haunt's secondary effects are less absolute. A haunt's secondary effect should reflect its primary effect in some manner, in ways all PCs can witness. For example, a {haunt/spectral vermin/ haunt} should still manifest a visible, ghostly phantom of a scurrying, skeletal rat swarm to those immune to the effect or beyond its range, even though the haunt's primary effect does not affect those PCs. This enables PCs to not only witness the haunt's secondary effect so as to better interpret a haunt's clues, but also to more easily recognize when fellow PCs are afflicted and need assistance.",
 			"",
 			"Haunts created using spells with non-instantaneous durations can also create problems. If the haunts do not have the persistent quality, it is unclear whether these spells continue with their normal durations after the haunt's surprise-round attack. To resolve this matter, consider creating haunts with durations as persistent haunts."
 		],
@@ -3155,7 +3155,7 @@
 			"",
 			"### Chained Haunts",
 			"",
-			"Some haunts are intrinsically connected with incorporeal undead entities (most commonly {template/ghost/s}) and manifest as displays of the associated creatures' fractured psyches. Chained haunts can be destroyed only by bringing final rest to their connected entities. Chained haunts can be used to illustrate and emphasize a ghost's tragic story. For example, a series of chained haunts could be spread across the site of a ruined mansion: while the linked creature - a ghost - dwells in the attic where it was murdered, a downstairs bedroom might manifest a bleeding walls haunt to emphasize the scene of a tragic loss pertinent to the ghost's history; a {haunt/demanding dead} haunt might cause a trespasser to dig up a shallow grave in the garden where the ghost's corpse is buried; and the murder weapon might roam the halls of the mansion, manifesting as a [malignant weapon haunt](haunt/malignant_weapon).",
+			"Some haunts are intrinsically connected with incorporeal undead entities (most commonly {template/ghost/s}) and manifest as displays of the associated creatures' fractured psyches. Chained haunts can be destroyed only by bringing final rest to their connected entities. Chained haunts can be used to illustrate and emphasize a ghost's tragic story. For example, a series of chained haunts could be spread across the site of a ruined mansion: while the linked creature - a ghost - dwells in the attic where it was murdered, a downstairs bedroom might manifest a bleeding walls haunt to emphasize the scene of a tragic loss pertinent to the ghost's history; a {haunt/demanding dead} haunt might cause a trespasser to dig up a shallow grave in the garden where the ghost's corpse is buried; and the murder weapon might roam the halls of the mansion, manifesting as a {haunt/malignant weapon/ haunt}.",
 			"",
 			"### Elusive Haunt (CR +1 or +2)",
 			"",
@@ -3552,7 +3552,7 @@
 			"",
 			"### Poison Oak (CR 1 or 3)",
 			"",
-			"Contact with poison oak (CR 1) causes a painful rash, and the resulting itch leaves the hapless victim [sickened](rule/sickened_conditions) until the damage is healed. Full body contact or inhaling the smoke from burning poison oak is particularly dangerous, and can be fatal (CR 3). A DC 15 Knowledge (nature) check reveals this seemingly innocuous plant for what it is. This hazard can also be used for similar noxious plants such as poison ivy, poison sumac, and stinging nettles, the latter not being hazardous when burned.",
+			"Contact with poison oak (CR 1) causes a painful rash, and the resulting itch leaves the hapless victim {rule/sickened>_conditions} until the damage is healed. Full body contact or inhaling the smoke from burning poison oak is particularly dangerous, and can be fatal (CR 3). A DC 15 Knowledge (nature) check reveals this seemingly innocuous plant for what it is. This hazard can also be used for similar noxious plants such as poison ivy, poison sumac, and stinging nettles, the latter not being hazardous when burned.",
 			"",
 			">#### Poison Oak (brief contact)",
 			">",
@@ -4074,7 +4074,7 @@
 			"- Noble:",
 			"    - [Knight](npc/noble_knight)",
 			"    - [Noble Scion](npc/noble_noble_scion)",
-			"    - [Noble](npc/noble_noble)",
+			"    - {npc/Noble>_noble}",
 			"- Road:",
 			"    - [Pilgrim](npc/road_pilgrim)",
 			"    - [Vagabond](npc/road_vagabond)",

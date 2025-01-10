@@ -451,7 +451,7 @@
 			"",
 			"These tactics apply to individual characters, and each character decides whether she's using the tactic.",
 			"",
-			"***Fast Track:*** A character using this tactic does not reduce her progress by half while tracking. However, she takes a -5 penalty on the Survival check to track. Abilities such as the [ranger's master hunter class feature](class/ranger) negate this penalty.",
+			"***Fast Track:*** A character using this tactic does not reduce her progress by half while tracking. However, she takes a -5 penalty on the Survival check to track. Abilities such as the {class/ranger/'s master hunter class feature} negate this penalty.",
 			"",
 			"***Obscure Trail:*** Mark the terrain tile where a character starts and stops using this tactic. A character using this tactic reduces her progress by half in order to increase the DC to track her group by 5 throughout the marked section. This tactic requires the group to be quarries.",
 			"",
@@ -1066,7 +1066,7 @@
 			"",
 			"With the normal monster creation system, foundational statistics such as base attack bonus, saving throw bonuses, and hit points are calculated from a monster's creature type and class levels. In this system, a monster's array sets its main statistics based on the broad role and CR it fits into. Creature types and classes then adjust those statistics to better resemble a particular monster concept.",
 			"",
-			"Creature types and character classes are represented by \"grafts\" - groups of adjustments applied to an array's statistics. A monster made with this system is primarily defined either by its creature type or a character class. For example, a ghoul that is a powerful cleric would most likely use the cleric class graft rather than being defined primarily as undead. A fire giant with 3 levels in bard, on the other hand, should use the humanoid creature type graft and later choose some monster options that grant bardlike abilities.",
+			"Creature types and character classes are represented by \"grafts\" - groups of adjustments applied to an array's statistics. A monster made with this system is primarily defined either by its creature type or a character class. For example, a ghoul that is a powerful cleric would most likely use the cleric class graft rather than being defined primarily as undead. A fire giant with 3 levels in bard, on the other hand, should use the humanoid creature type graft and later choose some monster options that grant bard-like abilities.",
 			"",
 			"If the focus is on a creature type, choose the appropriate creature type graft and apply the adjustments in that graft as described in the next section. If the focus is on a class, still choose a creature type graft but only apply its \"automatic traits\" entry, then apply the class graft. Even if a dragon has 20 levels in rogue (thus using the rogue class graft), for example, it still gets a dragon's normal vision types and immunities."
 		],

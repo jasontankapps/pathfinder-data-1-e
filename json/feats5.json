@@ -574,7 +574,7 @@
 			"{SOURCE Pathfinder #26: The Sixfold Trial/72}",
 			"",
 			"By swearing to never use a weapon other than a longsword, you can achieve things normally limited to the most highly trained swordsmen.  ",
-			"**Prerequisites:** Proficient in longsword, [Weapon Focus (longsword)](feat/weapon_focus), base attack bonus +4, worshiper of Iomedae.  ",
+			"**Prerequisites:** Proficient in longsword, {feat/Weapon Focus/ (longsword)}, base attack bonus +4, worshiper of Iomedae.  ",
 			"**Benefit:** You may select longsword-related feats as if you were a 4th-level fighter. For example, you may select {feat/Weapon Specialization} (longsword) as a feat.  ",
 			"**Special:** If you ever use a melee or ranged weapon other than a longsword in combat, you lose the benefits of this feat until you receive an atonement spell. You may still use spells that act as weapons (such as flame blade and spiritual weapon) without affecting your oath."
 		]
@@ -1417,7 +1417,7 @@
 			"{SOURCE Blood of the Beast/11}",
 			"",
 			"You are capable of entangling far greater prey with the help of your allies.  ",
-			"**Prerequisites:** [Exotic Weapon Proficiency (net)](feat/exotic_weapon_proficiency), base attack bonus +1.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (net)}, base attack bonus +1.  ",
 			"**Benefit:** If you ready an attack with a net to entangle a creature when an ally of your size who also has this feat attempts to entangle that creature with a net, the two of you can entangle the creature as if you were one size category larger. The entangled creature can attempt to escape both nets as though they were a single net, using the lower of the nets' hit points, hardness (if any), and DCs to break or escape. Only you or your ally can attempt to control the entangled creature's movement with an opposed Strength check, but your ally grants you a +1 bonus on the check. If you work with three other allies of the same size who have this feat, you can entangle a creature as if you were two size categories larger. If you work with seven other allies in this way, you can instead entangle a creature as if you were three size categories larger.  ",
 			"**Normal:** A net is useful against only creatures within one size category of you."
 		]
@@ -1648,7 +1648,7 @@
 			"{SOURCE Horror Adventures/88}",
 			"",
 			"You lash yourself and share the pain with your opponent.  ",
-			"**Prerequisites:** Wis 17, [Exotic Weapon Proficiency (spiked chain)](feat/exotic_weapon_proficiency), {feat/Kyton Shield}, {feat/Kyton Style}, base attack bonus +8 or monk level 6th, Knowledge (planes) 3 ranks, ki pool class feature.  ",
+			"**Prerequisites:** Wis 17, {feat/Exotic Weapon Proficiency/ (spiked chain)}, {feat/Kyton Shield}, {feat/Kyton Style}, base attack bonus +8 or monk level 6th, Knowledge (planes) 3 ranks, ki pool class feature.  ",
 			"**Benefit:** When using Kyton Style, your spiked chain attacks can be brutal, both to yourself and your foe. Before attempting an attack roll with a spiked chain attack, you can choose to make a Kyton Cut. Before making the attack, you take 1d6 points of nonlethal damage. This damage cannot be avoided or reduced in any way. If you are immune to nonlethal damage, you take normal damage instead. If the attack hits, its target takes an additional 1d6 points of nonlethal damage and a -4 penalty on concentration checks for 1 round. The penalty is a pain effect."
 		]
 	},
@@ -1661,7 +1661,7 @@
 			"{SOURCE Horror Adventures/88}",
 			"",
 			"Whether in your hand or draped around your body, the spiked chain serves as both weapon and shield.  ",
-			"**Prerequisites:** Wis 15, [Exotic Weapon Proficiency (spiked chain)](feat/exotic_weapon_proficiency), {feat/Kyton Style}, base attack bonus +5, Knowledge (planes) 3 ranks, ki pool class feature.  ",
+			"**Prerequisites:** Wis 15, {feat/Exotic Weapon Proficiency/ (spiked chain)}, {feat/Kyton Style}, base attack bonus +5, Knowledge (planes) 3 ranks, ki pool class feature.  ",
 			"**Benefit:** When using Kyton Style, you gain a +1 shield bonus to your Armor Class as long as you are wielding a spiked chain. If the spiked chain is magical, add 1/2 its enhancement bonus to this shield bonus. If the spiked chain has the vicious ability, instead add its full enhancement bonus to the shield bonus."
 		]
 	},
@@ -1674,7 +1674,7 @@
 			"{SOURCE Horror Adventures/89}",
 			"",
 			"Your fighting style emulates the disciplined nature of the kytons, with passion and pain held tightly in chains.  ",
-			"**Prerequisites:** Wis 13, [Exotic Weapon Proficiency (spiked chain)](feat/exotic_weapon_proficiency), Knowledge (planes) 3 ranks, ki pool class feature.  ",
+			"**Prerequisites:** Wis 13, {feat/Exotic Weapon Proficiency/ (spiked chain)}, Knowledge (planes) 3 ranks, ki pool class feature.  ",
 			"**Benefit:** When using this style, you treat spiked chains as if they had the monk special weapon feature. Additionally, if you have Stunning Fist, you can spend 1 point from your ki pool to make a Stunning Fist attack with your spiked chain instead of an unarmed strike. This still costs a use of Stunning Fist as normal."
 		]
 	},
@@ -3984,7 +3984,7 @@
 			"",
 			"Your superior crafting skills allow you to create simple magic items.  ",
 			"**Prerequisites:** 5 ranks in any Craft or Profession skill.  ",
-			"**Benefit:** Choose one Craft or Profession skill in which you possess at least 5 ranks. You receive a +2 bonus on your chosen Craft or Profession skill. Ranks in your chosen skill count as your caster level for the purposes of qualifying for the {feat/Craft Magic Arms and Armor} and {feat/Craft Wondrous Item} feats. You can create magic items using these feats, substituting your ranks in the chosen skill for your total caster level. You must use the chosen skill for the check to create the item. The DC to create the item still increases for any necessary spell requirements (see the [magic item creation rules](rule/magic_item_creation)). You cannot use this feat to create any spell-trigger or spell-activation item.  ",
+			"**Benefit:** Choose one Craft or Profession skill in which you possess at least 5 ranks. You receive a +2 bonus on your chosen Craft or Profession skill. Ranks in your chosen skill count as your caster level for the purposes of qualifying for the {feat/Craft Magic Arms and Armor} and {feat/Craft Wondrous Item} feats. You can create magic items using these feats, substituting your ranks in the chosen skill for your total caster level. You must use the chosen skill for the check to create the item. The DC to create the item still increases for any necessary spell requirements (see the {rule/magic item creation/ rules}). You cannot use this feat to create any spell-trigger or spell-activation item.  ",
 			"**Normal:** Only spellcasters can qualify for the {feat/Craft Magic Arms and Armor} and {feat/Craft Wondrous Item} feats."
 		]
 	},

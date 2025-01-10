@@ -65,7 +65,7 @@
 			"{SOURCE Inner Sea World Guide/289;Pathfinder Campaign Setting/137}",
 			"",
 			"You trained at one of Taldor's elite fighting schools and are skilled at rondelero, the art of fighting with the falcata and buckler.  ",
-			"**Prerequisites:** Dex 13, [Exotic Weapon Proficiency (falcata)](feat/exotic_weapon_proficiency), [Shield Proficiency (buckler)](feat/shield_proficiency), [Weapon Focus (falcata)](feat/weapon_focus).  ",
+			"**Prerequisites:** Dex 13, {feat/Exotic Weapon Proficiency/ (falcata)}, {feat/Shield Proficiency/ (buckler)}, {feat/Weapon Focus/ (falcata)}.  ",
 			"**Benefit:** When fighting with the falcata and buckler, your shield bonus to AC increases by +1 and you gain a +2 bonus on Acrobatics checks.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -441,7 +441,7 @@
 			"{SOURCE Technology Guide/7}",
 			"",
 			"You utilize high-tech firearms to maximum effect.  ",
-			"**Prerequisites:** Dex 13, [Exotic Weapon Proficiency (firearms)](feat/exotic_weapon_proficiency), {feat/Point-Blank Shot}  ",
+			"**Prerequisites:** Dex 13, {feat/Exotic Weapon Proficiency/ (firearms)}, {feat/Point-Blank Shot}  ",
 			"**Benefit:** When you attack with a technological firearm that consumes charges, the save DC of any effect caused by that firearm increases by 1. If your bonuses from Point-Blank Shot apply, it increases by 2 instead."
 		]
 	},
@@ -1051,7 +1051,7 @@
 			"{SOURCE Varisia, Birthplace of Legends/10;Pathfinder #10: A History of Ashes/28}",
 			"",
 			"You have mastered the ancient Shoanti Thunder and Fang fighting style, allowing you to fight with increased effectiveness when wielding an earth breaker and klar.  ",
-			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Tripping Staff}, [Weapon Focus (quarterstaff)](feat/weapon_focus), [Weapon Specialization (quarterstaff)](feat/weapon_specialization), base attack bonus +12.  ",
+			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Tripping Staff}, {feat/Weapon Focus/ (quarterstaff)}, {feat/Weapon Specialization/ (quarterstaff)}, base attack bonus +12.  ",
 			"**Benefit:** You can use an earth breaker as though it were a one-handed weapon. When using an earth breaker in one hand and a klar in your off hand, you retain the shield bonus your klar grants to your Armor Class even when you use it to attack. Treat your klar as a light weapon for the purposes of determining your two-weapon fighting penalty.  ",
 			"**Normal:** An earth breaker is a two-handed weapon, preventing the use of a klar in one hand without imposing penalties for using the earth breaker one-handed. A klar can be used either as a one-handed weapon or a shield; it does not grant a bonus to AC during rounds in which it is used as a weapon.  ",
 			"**Special:** This is a combat feat, and may be selected with class features that grant bonus combat feats."
@@ -1211,7 +1211,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"Your fists can fell titanic foes.  ",
-			"**Prerequisites:** [Improved Unarmed Strike (mythic)](feat/improved_unarmed_strike).  ",
+			"**Prerequisites:** {feat/Improved Unarmed Strike/ (mythic)}.  ",
 			"**Benefit:** Your unarmed strike deals damage as if you were one size category larger. You also gain a +1 bonus for each size category that your target is larger than you on the following: bull rush, drag, grapple, overrun, sunder, and trip combat maneuver checks and the DC of your Stunning Fist."
 		],
 		"mythic_only": true
@@ -3683,7 +3683,7 @@
 			"",
 			"Your courage is unnaturally strong.  ",
 			"**Prerequisites:** Animal or magical beast.  ",
-			"**Benefit:** You gain a +4 morale bonus on saves against fear and emotion effects. If you can serve as a mount, your rider gains a +4 morale bonus on Handle Animal, Ride, and wild empathy checks to force you within range of a creature with the [unnatural aura universal monster rule](umr/unnatural_aura). In addition, the DC to push you with the Handle Animal skill does not increase if you are wounded or have taken any nonlethal damage or ability score damage.  ",
+			"**Benefit:** You gain a +4 morale bonus on saves against fear and emotion effects. If you can serve as a mount, your rider gains a +4 morale bonus on Handle Animal, Ride, and wild empathy checks to force you within range of a creature with the {umr/unnatural aura/ universal monster rule}. In addition, the DC to push you with the Handle Animal skill does not increase if you are wounded or have taken any nonlethal damage or ability score damage.  ",
 			"**Normal:** The DC to push an animal increases by 2 if the animal is wounded or has taken any nonlethal damage or ability score damage."
 		]
 	},
@@ -4531,7 +4531,7 @@
 			"{SOURCE Inner Sea Monster Codex/59}",
 			"",
 			"You can channel your daemonic energies through the vile blade you wield.  ",
-			"**Prerequisites:** [Weapon Focus (rhoka sword)](feat/weapon_focus), base attack bonus +4, urdefhan.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (rhoka sword)}, base attack bonus +4, urdefhan.  ",
 			"**Benefit:** When wielding a rhoka sword, you can channel your daemonic energies through the blade as a swift action, causing it to deal Strength damage as your bite attack. You can use this ability a number of times per day equal to your Constitution modifier (minimum 1)."
 		]
 	},

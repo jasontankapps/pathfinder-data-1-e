@@ -1842,7 +1842,7 @@
 			"- Emotion: The wearer can smother a target's emotions as if by a calm emotions spell. Alternatively, the wearer can force a creature with the rage class ability to enter a raging state for at least 1 round (though the target can remain in this state longer if it chooses). The wearer can expend 2 charges when using this ability to increase the duration the target must rage to 3 rounds.",
 			"- Memory: The wearer can blot out the target's memories of events from the past minute. This functions as modify memory, but can only eliminate memories.",
 			"- Thoughts: The wearer can delve into a target's mind and pluck out thoughts, as per detect thoughts.",
-			"- Vision: The wearer can wind wisps of shadow matter around a creature's eyes, blinding it for as long as the wearer concentrates. Darkvision can't penetrate this supernatural darkness, but the [see in darkness universal monster ability](umr/see_in_darkness) can.",
+			"- Vision: The wearer can wind wisps of shadow matter around a creature's eyes, blinding it for as long as the wearer concentrates. Darkvision can't penetrate this supernatural darkness, but the {umr/see in darkness/ universal monster ability} can.",
 			"",
 			"### Construction",
 			"",
@@ -3899,11 +3899,11 @@
 			"",
 			"**7th Level:** Once per day when the wearer attempts a saving throw against a magical glyph, symbol, sigil, or similar written trap, as an immediate action, he can attempt a Spellcraft check against the same DC to dispel the effect.",
 			"",
-			"**10th Level:** The carved king's band acts as a headband of vast intelligence +4 (granting skill ranks in Knowledge [history] and Spellcraft).",
+			"**10th Level:** The carved king's band acts as a {magic-wondrous/headband of vast intelligence +4} (granting skill ranks in Knowledge [history] and Spellcraft).",
 			"",
 			"**13th Level:** The DC and caster level of all spells with the earth descriptor that the wearer casts increase by 1.",
 			"",
-			"**15th Level:** The carved king's band acts as a headband of vast intelligence +6 (granting skill ranks in Knowledge [history], Sense Motive, and Spellcraft).",
+			"**15th Level:** The carved king's band acts as a {magic-wondrous/headband of vast intelligence +6} (granting skill ranks in Knowledge [history], Sense Motive, and Spellcraft).",
 			"",
 			"**Goal:** Prepare and cast 50 unique spells, at least three of which must be 8th-level or higher.  ",
 			"**Reward:** The wearer can spontaneously cast any spell with the earth descriptor from his spellbook by sacrificing a prepared spell of equal or higher level. He can apply any metamagic feats he has to this spell when he casts it. This increases the minimum level of the prepared spell sacrificed in order to cast it but does not affect the casting time."
@@ -3956,7 +3956,7 @@
 			"**16th Level:** Once per day, the wearer can use {spell/find the path} as a spell-like ability.",
 			"",
 			"**Goal:** The wearer must travel 1,000 miles by foot.  ",
-			"**Reward:** Each morning the wearer can designate one type of terrain from the [ranger's list of favored terrain](class/ranger) as his favored terrain for the day. While in that terrain, he gains a bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
+			"**Reward:** Each morning the wearer can designate one type of terrain from the {class/ranger/'s list of favored terrain} as his favored terrain for the day. While in that terrain, he gains a bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
 		]
 	},
 	"wayfinder_of_cooperation": {
@@ -4127,7 +4127,7 @@
 			"**Aura** moderate divination; **CL** 10th  ",
 			"**Slot** headband; **Price** 71,300 gp; **Weight** 1 lb.",
 			"",
-			"A headband of vast intelligence +6 also holds a consciousness that shares its knowledge and education with a suitable wearer. This intelligence can be of any alignment and its only purpose is to share its vast knowledge with its wearer. The headband also functions as a helm of comprehend languages and read magic. Furthermore, instead of granting the normal skill ranks of a {magic-wondrous/headband of vast intelligence +6}, this headband grants 4 ranks in six skills, but all of those skills must be Knowledge skills. It grants such intelligence by a stream of constant whispers and arguments that the headband communicates telepathically in Common or in one of 10 other languages it knows. Once per week on command, the wearer can also convince the headband to use legend lore as the spell, though the casting time is only a standard action.",
+			"This headband of vast intelligence +6 also holds a consciousness that shares its knowledge and education with a suitable wearer. This intelligence can be of any alignment and its only purpose is to share its vast knowledge with its wearer. The headband also functions as a helm of comprehend languages and read magic. Furthermore, instead of granting the normal skill ranks of a {magic-wondrous/headband of vast intelligence +6}, this headband grants 4 ranks in six skills, but all of those skills must be Knowledge skills. It grants such intelligence by a stream of constant whispers and arguments that the headband communicates telepathically in Common or in one of 10 other languages it knows. Once per week on command, the wearer can also convince the headband to use legend lore as the spell, though the casting time is only a standard action.",
 			"",
 			"### Construction",
 			"",
@@ -4659,7 +4659,7 @@
 			"**Aura** strong transmutation; **CL** 8th  ",
 			"**Slot** headband; **Weight** 1 lb.",
 			"",
-			"This headband appears to be a headband of vast intelligence +4, but instead of granting a +4 bonus to Intelligence and bonuses to associated skills, the wearer take a -4 penalty to Intelligence and a further -2 penalty on all Knowledge checks. The wearer is not aware of the debilitating effects of the headband; even the stupidest statement or misguided insight seems intelligent to him while he is wearing it.",
+			"This headband appears to be a {magic-wondrous/headband of vast intelligence +4}, but instead of granting a +4 bonus to Intelligence and bonuses to associated skills, the wearer take a -4 penalty to Intelligence and a further -2 penalty on all Knowledge checks. The wearer is not aware of the debilitating effects of the headband; even the stupidest statement or misguided insight seems intelligent to him while he is wearing it.",
 			"",
 			"### Construction",
 			"",

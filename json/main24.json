@@ -9,7 +9,23 @@
 			{
 				"id": "cr 5 to 1/2 monsters table",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
-				"filter": [ { "col": 1, "equals": [5, 6] } ],
+				"filter": [
+					{ "col": 1, "equals": [5, 6] },
+					{
+						"col": 2,
+						"equals": ["aberration", "animal", "construct", "dragon", "fey", "humanoid", "magical beast", "monstrous humanoid", "ooze", "outsider", "plant", "undead", "vermin"]
+					},
+					{
+						"col": 3,
+						"range": [0, 6],
+						"labels": [ "fine", "diminutive", "tiny", "small", "medium", "large", "huge" ]
+					},
+					{
+						"col": 4,
+						"range": [0, 8],
+						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
+					}
+				],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
 				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
@@ -400,7 +416,23 @@
 			{
 				"id": "cr 7 to 8 monsters table",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
-				"filter": [ { "col": 1, "equals": [7, 8] } ],
+				"filter": [
+					{ "col": 1, "equals": [7, 8] },
+					{
+						"col": 2,
+						"equals": ["aberration", "animal", "construct", "dragon", "fey", "humanoid", "magical beast", "monstrous humanoid", "ooze", "outsider", "plant", "undead", "vermin"]
+					},
+					{
+						"col": 3,
+						"range": [0, 8],
+						"labels": [ "fine", "diminutive", "tiny", "small", "medium", "large", "huge", "gargantuan", "colossal" ]
+					},
+					{
+						"col": 4,
+						"range": [0, 8],
+						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
+					}
+				],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
 				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
@@ -762,7 +794,23 @@
 			{
 				"id": "cr 9 to 11 monsters table",
 				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
-				"filter": [ { "col": 1, "equals": [9, 10, 11] } ],
+				"filter": [
+					{ "col": 1, "equals": [9, 10, 11] },
+					{
+						"col": 2,
+						"equals": ["aberration", "animal", "construct", "dragon", "fey", "humanoid", "magical beast", "monstrous humanoid", "ooze", "outsider", "plant", "undead", "vermin"]
+					},
+					{
+						"col": 3,
+						"range": [0, 8],
+						"labels": [ "fine", "diminutive", "tiny", "small", "medium", "large", "huge", "gargantuan", "colossal" ]
+					},
+					{
+						"col": 4,
+						"range": [0, 8],
+						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
+					}
+				],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
 				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],

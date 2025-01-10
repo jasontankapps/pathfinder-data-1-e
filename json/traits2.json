@@ -578,7 +578,7 @@
 			"",
 			"You awake feeling emboldened after a terrifying nightmare. Instead of being frightened by the bizarre creatures from your nightmares, these experiences have steeled you against these startling alien beings. You know that you fell victim to strange circumstances and loathsome forces, but you refuse to give in to a creeping sense of helplessness. Instead, you vow to fight back against whoever or whatever is responsible for your current situation. The creatures of your nightmares won't hold fear over your head. You'll take the fight to them.",
 			"",
-			"You gain a +1 trait bonus on saving throws against extraordinary, spell-like, and supernatural abilities of aberrations (for example, a [gibbering mouther's gibbering](monster/gibbering_mouther) or an [intellect devourer's confusion](monster/intellect_devourer)). In addition, whenever you're confused and roll to determine behavior in a given round, subtract 10 from the result."
+			"You gain a +1 trait bonus on saving throws against extraordinary, spell-like, and supernatural abilities of aberrations (for example, a {monster/gibbering mouther/'s gibbering} or an {monster/intellect devourer/'s confusion}). In addition, whenever you're confused and roll to determine behavior in a given round, subtract 10 from the result."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},
@@ -5883,7 +5883,7 @@
 			"",
 			"When you awake with nothing but hazy memories, you begin carefully cataloging your thoughts to determine the reasons for your condition and where you might be. This comforts you, and you know deep down that you have always relied on your ordered mind and pragmatic approach to face challenges. You use this focus and sensibility to your advantage as you investigate your current dire situation.",
 			"",
-			"Choose three Knowledge skills. You gain a +1 trait bonus on Knowledge checks of these kinds and on concentration checks. In addition, choose one Knowledge skill. When [researching](rule/research), you are considered to have {feat/Skill Focus} for that Knowledge skill when determining what die you roll to reduce a library's knowledge points (kp)."
+			"Choose three Knowledge skills. You gain a +1 trait bonus on Knowledge checks of these kinds and on concentration checks. In addition, choose one Knowledge skill. When {rule/research/ing}, you are considered to have {feat/Skill Focus} for that Knowledge skill when determining what die you roll to reduce a library's knowledge points (kp)."
 		],
 		"subhierarchy": [[ "Campaign Traits", "main/traits_campaign" ]]
 	},

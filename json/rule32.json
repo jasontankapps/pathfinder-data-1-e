@@ -1118,7 +1118,7 @@
 			"",
 			"The skills in the Core Rulebook allow for complex specialization. In some games, the GM might wish to use a smaller list to make characters more broadly talented, to group skills that characters typically choose together, and to speed up the leveling-up process. The consolidated skills system reduces the number of skills by combining related skills. In many cases, the new skills have been renamed to highlight the nature of the consolidated skill. This variant system makes each skill rank matter more. Even after reducing the number of skill ranks granted, characters will be somewhat more skilled. Character classes that are highly skilled, such as the bard or rogue, get the biggest boost.",
 			"",
-			"The consolidated skills system reduces the number of skills from 35 to 12. Many knowledge skills have been placed into larger categories with a similar theme. Knowledge (arcana), for example, is combined with Use Magic Device under Spellcraft. The list of new skills appears on Table 2-1: Consolidated Skills, along with the key ability for each consolidated skill and the core skills it replaces. Several skills are removed and not replicated by this system, as indicated by a dash (-) on Table 2-2: Converting Core Skills. These are typically skills that are less important for adventuring, but can be put back into your game using the [background skills variant](rule/background_skills). Skills can be converted to and from the consolidated skills system using Table 2-2. This is most helpful when running published adventures or using monsters built using the core system.",
+			"The consolidated skills system reduces the number of skills from 35 to 12. Many knowledge skills have been placed into larger categories with a similar theme. Knowledge (arcana), for example, is combined with Use Magic Device under Spellcraft. The list of new skills appears on Table 2-1: Consolidated Skills, along with the key ability for each consolidated skill and the core skills it replaces. Several skills are removed and not replicated by this system, as indicated by a dash (-) on Table 2-2: Converting Core Skills. These are typically skills that are less important for adventuring, but can be put back into your game using the {rule/background skills/ variant}. Skills can be converted to and from the consolidated skills system using Table 2-2. This is most helpful when running published adventures or using monsters built using the core system.",
 			"",
 			"### Table 2-1: Consolidated Skills",
 			"",
@@ -1430,7 +1430,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/56}",
 			"",
-			"This use of Acrobatics functions as the [Fly core skill](skill/fly) The skill alone doesn't give you the ability to fly.",
+			"This use of Acrobatics functions as the {skill/Fly/ core skill} The skill alone doesn't give you the ability to fly.",
 			"",
 			"***Action:*** None."
 		],
@@ -1456,7 +1456,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/56}",
 			"",
-			"This use of Acrobatics functions as the [Ride core skill](skill/ride).",
+			"This use of Acrobatics functions as the {skill/Ride/ core skill}.",
 			"",
 			"***Action:*** Varies. Mounting or dismounting is normally a move action."
 		],
@@ -1673,7 +1673,7 @@
 			"",
 			"***Making Handholds and Footholds:*** You can pound pitons into a wall to change the wall's base DC to 15. This takes 1 minute per piton, and one piton is needed per 5 feet of distance. You can cut your own handholds into an ice wall for the same purpose if you have a handaxe or similar implement.",
 			"",
-			"***Climb Speeds:*** A creature with a climb speed gains a +8 racial bonus on Athletics checks to climb. See the [Climb skill](skill/climb) for more information on climb speeds.",
+			"***Climb Speeds:*** A creature with a climb speed gains a +8 racial bonus on Athletics checks to climb. See the {skill/Climb/ skill} for more information on climb speeds.",
 			"",
 			"***Hauling:*** You can haul a character up or down on a rope by sheer strength so that character doesn't need to attempt Athletics checks. You can lift double your maximum load in this manner."
 		],
@@ -2125,7 +2125,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/59}",
 			"",
-			"[Feinting in combat is described here.](rule/feint) You use Influence instead of the Bluff core skill, and your opponent uses Perception instead of the Sense Motive core skill.",
+			"{rule/Feint/ing in combat is described here.} You use Influence instead of the Bluff core skill, and your opponent uses Perception instead of the Sense Motive core skill.",
 			"",
 			"***Action:*** Standard.",
 			"",
@@ -2385,7 +2385,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/61}",
 			"",
-			"This use of Nature functions as the [Handle Animal core skill](skill/handle_animal), but uses Intelligence instead of Charisma.",
+			"This use of Nature functions as the {skill/Handle Animal/ core skill}, but uses Intelligence instead of Charisma.",
 			"",
 			"***Action:*** Varies. Handling an animal is a move action, while \"pushing\" an animal is a full-round action.",
 			"",
@@ -2622,7 +2622,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/62}",
 			"",
-			"You can thoroughly comb an area, looking for hidden traps, doors, and the like. The same modifiers that apply to Perception DCs to [notice](rule/notice_creatures_and_details) also apply to Perception DCs to search.",
+			"You can thoroughly comb an area, looking for hidden traps, doors, and the like. The same modifiers that apply to Perception DCs to {rule/notice>_creatures_and_details} also apply to Perception DCs to search.",
 			"",
 			"| Hidden Object | Perception DC |",
 			"| --- | --- |",
@@ -2752,7 +2752,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/62}",
 			"",
-			"This use of Performance functions as the [Disguise core skill](skill/disguise).",
+			"This use of Performance functions as the {skill/Disguise/ core skill}.",
 			"",
 			"***Action:*** 1d3 &times; 10 minutes. Using magic (such as disguise self) reduces this to the time required to cast the spell or trigger the effect.",
 			"",
@@ -3030,7 +3030,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
 			"",
-			"Each time you put a rank in Society, you learn to speak and read a new language. See the [Linguistics core skill](skill/linguistics) for a list of common languages.",
+			"Each time you put a rank in Society, you learn to speak and read a new language. See the {skill/Linguistics/ core skill} for a list of common languages.",
 			"",
 			"***Action:*** None. Unlike with other skill uses, you gain this benefit at all times."
 		],
@@ -3138,7 +3138,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/64}",
 			"",
-			"This use of Spellcraft functions as the [Use Magic Device core skill](skill/use_magic_device), but uses Intelligence instead of Charisma.",
+			"This use of Spellcraft functions as the {skill/Use Magic Device/ core skill}, but uses Intelligence instead of Charisma.",
 			"",
 			"***Action:*** None.",
 			"",
@@ -3353,7 +3353,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/65}",
 			"",
-			"This use of Stealth functions as the [Stealth core skill](skill/stealth).",
+			"This use of Stealth functions as the {skill/Stealth/ core skill}.",
 			"",
 			"***Action:*** None, though using Stealth immediately after making a ranged attack is a move action."
 		],
@@ -3560,7 +3560,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/66}",
 			"",
-			"This use of Survival functions as the [Heal core skill](skill/heal).",
+			"This use of Survival functions as the {skill/Heal/ core skill}.",
 			"",
 			"***Action:*** Providing first aid, treating a wound, or treating poison is a standard action. Treating a disease or tending to a creature that has been wounded by a spike growth or spike stones spell requires 10 minutes of work. Treating deadly wounds requires 1 hour of work. Providing long-term care requires 8 hours of light activity.",
 			"",

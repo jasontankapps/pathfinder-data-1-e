@@ -234,7 +234,7 @@
 			"**Completion Benefit:** Upon acquiring a dose of {magic-artifact/sun orchid elixir} and restoring your youth, you completely lose your fear of physical harm. You gain a +2 bonus on saves against Strength, Dexterity, and Constitution damage.",
 			"",
 			"*Throne Card*  ",
-			"**Completion Benefit:** By snagging the Throne card from a deck of many things, you produce a fortress like Castle Everstand in Lastwall, using it as the seat for your new nation. You gain a +4 bonus on Stability checks and control checks while using the [kingdom-building rules](rule/kingdom_building)."
+			"**Completion Benefit:** By snagging the Throne card from a deck of many things, you produce a fortress like Castle Everstand in Lastwall, using it as the seat for your new nation. You gain a +4 bonus on Stability checks and control checks while using the {rule/kingdom-building/ rules}."
 		]
 	},
 	"oblivating_stare": {
@@ -459,7 +459,7 @@
 			"{SOURCE Agents of Evil/13}",
 			"",
 			"You pass along private details to the [Red Mantis](rule/aff_assassins), and they protect you in return.  ",
-			"**Prerequisites:** [Associate (Red Mantis)](feat/associate).  ",
+			"**Prerequisites:** {feat/Associate/ (Red Mantis)}.  ",
 			"**Benefit:** The Red Mantis can help you hide from trouble in one of their secret safe houses. Anyone attempting Diplomacy or Survival checks to locate you during this time takes a -10 penalty, and anyone attempting to scry upon you or magically divine your location must first succeed at a caster level check (DC = 15 + your character level). You can stay in a Mantis safe house for up to 1 day per character level before you are forced to vacate."
 		]
 	},
@@ -546,7 +546,7 @@
 			"{SOURCE Adventurer's Guide/26}",
 			"",
 			"You've gained enough control over your body to translate strength into swiftness.  ",
-			"**Prerequisites:** Con 13, Wis 13, [Exotic Weapon Proficiency (aldori dueling sword)](feat/exotic_weapon_proficiency), {feat/Iron Will}, base attack bonus +4.  ",
+			"**Prerequisites:** Con 13, Wis 13, {feat/Exotic Weapon Proficiency/ (aldori dueling sword)}, {feat/Iron Will}, base attack bonus +4.  ",
 			"**Benefit:** Whenever an effect would grant you an enhancement or morale bonus to your Strength score (such as via bull's strength or a skald's inspired rage performance), you can instead apply that bonus to your Dexterity score. You make this choice when you first gain the bonus. The bonus type does not change."
 		]
 	},
@@ -2331,7 +2331,7 @@
 			"",
 			"You can create magic scrolls.  ",
 			"**Prerequisites:** Caster level 1st.  ",
-			"**Benefit:** You can create a scroll of any spell that you know. Scribing a scroll takes 2 hours if its base price is 250 gp or less, otherwise scribing a scroll takes 1 day for each 1,000 gp in its base price. To scribe a scroll, you must use up raw materials costing half of this base price. See the [magic item creation rules](rule/magic_item_creation) for more information."
+			"**Benefit:** You can create a scroll of any spell that you know. Scribing a scroll takes 2 hours if its base price is 250 gp or less, otherwise scribing a scroll takes 1 day for each 1,000 gp in its base price. To scribe a scroll, you must use up raw materials costing half of this base price. See the {rule/magic item creation/ rules} for more information."
 		]
 	},
 	"scribe_spell_equation": {
@@ -2979,7 +2979,7 @@
 			"{SOURCE Monster Codex/20}",
 			"",
 			"You can choke foes with a lasso.  ",
-			"**Prerequisites:** [Exotic Weapon Proficiency (lasso)](feat/exotic_weapon_proficiency), [Weapon Focus (lasso)](feat/weapon_focus).  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (lasso)}, {feat/Weapon Focus/ (lasso)}.  ",
 			"**Benefit:** When you successfully entangle a creature with a lasso and beat the target's CMD by 5 or more, the target cannot speak above a whisper and must succeed at a concentration check (DC = 20 + your CMB + the spell level) to cast a spell with a verbal component, use a command word item, or use any magic requiring speech. Additionally, the DC of an Escape Artist check to slip free of a lasso you are using equals 15 or your CMD, whichever is higher."
 		]
 	},

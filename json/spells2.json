@@ -716,7 +716,7 @@
 			"**Target** you  ",
 			"**Duration** 1 hour/level",
 			"",
-			"Developed due to [Arazni's](faith/arazni) fear that her stolen organs might be used to control her, this spell reflects any attempts to steal your free will. Whenever you are exposed to a mind-affecting effect or a spell that would otherwise give another creature control of your actions (such as {spell/control undead}), you can dispel this effect as an immediate action to redirect the spell to a creature within 30 feet. The affected creature must attempt a save against the original DC of the triggering effect. On a failure, it is subject to the effects of the triggering spell, with the exception that you are treated as the original caster (statistics determined by caster level are still calculated according to its original caster). The target creature applies any spell resistance or immunities it has normally. You can have only one instance of this spell active at a time."
+			"Developed due to {faith/Arazni/'s} fear that her stolen organs might be used to control her, this spell reflects any attempts to steal your free will. Whenever you are exposed to a mind-affecting effect or a spell that would otherwise give another creature control of your actions (such as {spell/control undead}), you can dispel this effect as an immediate action to redirect the spell to a creature within 30 feet. The affected creature must attempt a save against the original DC of the triggering effect. On a failure, it is subject to the effects of the triggering spell, with the exception that you are treated as the original caster (statistics determined by caster level are still calculated according to its original caster). The target creature applies any spell resistance or immunities it has normally. You can have only one instance of this spell active at a time."
 		]
 	},
 	"bloodsworn_retribution": {
@@ -3665,7 +3665,7 @@
 			"## Charnel House",
 			"",
 			"{SOURCE Horror Adventures/111}  ",
-			"**School** {spelldef/illusion} ([shadow](spelldef/shadow_subschool)) [{spelldef/evil}, [shadow](spelldef/shadow_descriptor)]; **Level** antipaladin 3, arcanist 5, cleric 5, mesmerist 5, oracle 5, psychic 5, sorcerer 5, warpriest 5, witch 5, wizard 5  ",
+			"**School** {spelldef/illusion} ({spelldef/shadow>_subschool}) [{spelldef/evil}, {spelldef/shadow>_descriptor}]; **Level** antipaladin 3, arcanist 5, cleric 5, mesmerist 5, oracle 5, psychic 5, sorcerer 5, warpriest 5, witch 5, wizard 5  ",
 			"**Casting Time** 10 minutes  ",
 			"**Components** V, S, M (one Tiny or larger living creature)  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -4178,7 +4178,7 @@
 			"## Cloak of Shadows",
 			"",
 			"{SOURCE Villain Codex/80}  ",
-			"**School** {spelldef/illusion} ([shadow](spelldef/shadow_subschool)) [{spelldef/evil}, [shadow](spelldef/shadow_descriptor)]; **Level** antipaladin 4, arcanist 5, bard 5, mesmerist 5, skald 5, sorcerer 5, wizard 5  ",
+			"**School** {spelldef/illusion} ({spelldef/shadow>_subschool}) [{spelldef/evil}, {spelldef/shadow>_descriptor}]; **Level** antipaladin 4, arcanist 5, bard 5, mesmerist 5, skald 5, sorcerer 5, wizard 5  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** personal  ",

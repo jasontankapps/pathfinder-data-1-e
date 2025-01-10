@@ -16,7 +16,7 @@
 			"",
 			"**Bardic Performance:** An animal speaker gains the following types of bardic performance.",
 			"",
-			"**Soothing Performance:** At 3rd level, an animal speaker can use bardic performance to influence animals. This works like the [druid ability wild empathy](class/druid), except he expends 1 round of bardic performance and makes a Perform check. If the bard already has wild empathy from another class, he adds the class levels that provide wild empathy to the result of his Perform check to influence an animal. This ability replaces inspire competence.",
+			"**Soothing Performance:** At 3rd level, an animal speaker can use bardic performance to influence animals. This works like the {class/druid/ ability wild empathy}, except he expends 1 round of bardic performance and makes a Perform check. If the bard already has wild empathy from another class, he adds the class levels that provide wild empathy to the result of his Perform check to influence an animal. This ability replaces inspire competence.",
 			"",
 			"**Attract Rats:** At 6th level, the animal speaker can use bardic performance to summon 1d3 rat swarms; they remain as long as he continues performing. At 11th level, he summons 2d3 swarms instead of 1d3 and the swarms have the advanced creature simple template. At 17th level, the number of swarms he summons increases to 3d3. This ability replaces suggestion.",
 			"",
@@ -622,7 +622,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** The dragon herald is proficient with simple weapons and light armor, but not with shields. Dragon heralds are messengers, not warriors. Like other bards, dragon heralds don't incur the normal arcane spell failure chance from wearing light armor.",
 			"",
-			"**Dragon Patron (Ex):** A dragon herald must choose a particular true dragon species whose glory to extol. In most cases, this is a dragon with whom the herald is familiar, but it could be a dragon deity, a long-dead dragon hero, or even an entire dragon lineage. The energy type associated with her dragon patron (as shown on the [draconic sorcerer bloodline](sorcererbloodline/draconic)) determines the energy type used by several of her abilities. She must also designate a sacred space relevant to her dragon choice - usually the lair of a patron dragon or a shrine or holy place associated with a dragon type.",
+			"**Dragon Patron (Ex):** A dragon herald must choose a particular true dragon species whose glory to extol. In most cases, this is a dragon with whom the herald is familiar, but it could be a dragon deity, a long-dead dragon hero, or even an entire dragon lineage. The energy type associated with her dragon patron (as shown on the {sorcererbloodline/draconic/ sorcerer bloodline}) determines the energy type used by several of her abilities. She must also designate a sacred space relevant to her dragon choice - usually the lair of a patron dragon or a shrine or holy place associated with a dragon type.",
 			"",
 			"**Coat of Arms (Ex):** A dragon herald gains energy resistance equal to her dragon herald level against the energy type associated with her dragon patron. This resistance stacks with any inherent racial resistances, but not with magical or temporary resistances.",
 			"",
@@ -736,7 +736,7 @@
 			"",
 			"**Faithful:** Like a cleric, a faith singer must worship a deity, and his alignment must be within one step of his deity's alignment.",
 			"",
-			"**Devout Spell Knowledge (Su):** At 2nd level, a faith singer can select one [domain](ability/domains) from among those belonging to his deity. Once per day as a spell-like ability using his bard level as his caster level, he can cast the 1st-level domain spell while giving a bardic performance. At 6th level, and every 4 bard levels thereafter, he can similarly cast the next-higher domain spell as a spell-like ability (to a maximum of the 5th-level domain spell at bard level 18th). He can use each spell-like ability only once per day.",
+			"**Devout Spell Knowledge (Su):** At 2nd level, a faith singer can select one {ability/domain>s} from among those belonging to his deity. Once per day as a spell-like ability using his bard level as his caster level, he can cast the 1st-level domain spell while giving a bardic performance. At 6th level, and every 4 bard levels thereafter, he can similarly cast the next-higher domain spell as a spell-like ability (to a maximum of the 5th-level domain spell at bard level 18th). He can use each spell-like ability only once per day.",
 			"",
 			"This ability replaces versatile performance."
 		]
@@ -772,7 +772,7 @@
 			"| 14th | 8,000 gp | 50,000 gp |",
 			"| 18th | 32,000 gp | 200,000 gp |",
 			"",
-			"**Summon Fey Allies:** At 3rd level, the fey courtier gains {feat/Augment Summoning} as a bonus feat and can call upon natural allies who owe him favors. He adds {spell/summon nature's ally I} to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher {spell/summon nature's ally>_1} spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster/grimple), {monster/mite}, {monster/sprite}; 2nd-{monster/atomie}, [fuath (gremlin)](monster/fuath), {monster/nixie}; 3rd-{monster/leprechaun}, [nuglub (gremlin)](monster/nuglub), {monster/pooka}; 4th-{monster/kelpie}, {monster/korred}, {monster/twigjack}; 5th-{monster/lampad}, {monster/lurker in light}, {monster/swan maiden}; 6th-{monster/cold rider}, {monster/oceanid}, {monster/sangoi}.",
+			"**Summon Fey Allies:** At 3rd level, the fey courtier gains {feat/Augment Summoning} as a bonus feat and can call upon natural allies who owe him favors. He adds {spell/summon nature's ally I} to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher {spell/summon nature's ally>_1} spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-{monster/grimple/ (gremlin)}, {monster/mite}, {monster/sprite}; 2nd-{monster/atomie}, {monster/fuath/ (gremlin)}, {monster/nixie}; 3rd-{monster/leprechaun}, {monster/nuglub/ (gremlin)}, {monster/pooka}; 4th-{monster/kelpie}, {monster/korred}, {monster/twigjack}; 5th-{monster/lampad}, {monster/lurker in light}, {monster/swan maiden}; 6th-{monster/cold rider}, {monster/oceanid}, {monster/sangoi}.",
 			"",
 			"This replaces inspire competence."
 		]
@@ -1070,7 +1070,7 @@
 			"",
 			"This ability replaces suggestion and mass suggestion.",
 			"",
-			"**Unbroken Stride (Su):** At 8th level, an impervious messenger draws upon his bardic abilities to imbue himself with grace and speed. While using this bardic performance, an impervious messenger gains an insight bonus equal to half his bard level on all Acrobatics, Climb, Fly, and Ride checks. In addition, while maintaining this performance, he gains the benefits of the [ranger's woodland stride ability](class/ranger) and a +10-foot enhancement bonus to his base land speed. At 12th level, an impervious messenger using his unbroken stride bardic performance also acts as if under the effect of {spell/freedom of movement}. In addition, the enhancement bonus to his base land speed increases to +30 feet.",
+			"**Unbroken Stride (Su):** At 8th level, an impervious messenger draws upon his bardic abilities to imbue himself with grace and speed. While using this bardic performance, an impervious messenger gains an insight bonus equal to half his bard level on all Acrobatics, Climb, Fly, and Ride checks. In addition, while maintaining this performance, he gains the benefits of the {class/ranger/'s woodland stride ability} and a +10-foot enhancement bonus to his base land speed. At 12th level, an impervious messenger using his unbroken stride bardic performance also acts as if under the effect of {spell/freedom of movement}. In addition, the enhancement bonus to his base land speed increases to +30 feet.",
 			"",
 			"This ability replaces dirge of doom and frightening tune.",
 			"",
@@ -1200,7 +1200,7 @@
 			"{SOURCE Ultimate Intrigue/20}  ",
 			"Not merely a entertainer in a disguise, the masked performer takes on the persona represented by the likeness she wears. Her alter ego might be a theatrical archetype, a legendary hero, or a revered spirit. Masked performers are often the stars of religious plays and festivals, and aficionados easily recognize them and associate them with their most famous role.",
 			"",
-			"**Dual Identity (Ex):** This ability acts as the [vigilante ability of the same name](class/vigilante), except as follows. The masked performer's identities are referred to as social and masked, rather than social and vigilante.",
+			"**Dual Identity (Ex):** This ability acts as the {class/vigilante/ ability of the same name}, except as follows. The masked performer's identities are referred to as social and masked, rather than social and vigilante.",
 			"",
 			"Unlike a vigilante, most people who know of the masked performer actually know that the masked performer's identities are one and the same. Nonetheless, the dual identity ability is valuable to the masked performer due to offering her two perspectives on any problem and two different alignments.",
 			"",
@@ -1556,7 +1556,7 @@
 			"",
 			"**World Traveler (Ex):** A sea singer gains a bonus equal to half his bard level on Knowledge (geography), Knowledge (local), Knowledge (nature), and Linguistics checks. He can reroll a check against one of these skills, but must take the result of the second roll even if it is worse. He can reroll one additional time per day at 5th level and every five levels thereafter. This ability replaces bardic knowledge.",
 			"",
-			"**Familiar:** At 2nd level, a sea singer acquires an exotic pet - a monkey or parrot (treat as raven) - that gains abilities as a [wizard's familiar](class/wizard), using the sea singer's bard level as his wizard level. This ability replaces versatile performance.",
+			"**Familiar:** At 2nd level, a sea singer acquires an exotic pet - a monkey or parrot (treat as raven) - that gains abilities as a {class/wizard/'s familiar}, using the sea singer's bard level as his wizard level. This ability replaces versatile performance.",
 			"",
 			"**Sea Legs (Ex):** At 2nd level, a sea singer gains a +4 bonus on saving throws against air and water effects and effects that would cause the sea singer to slip, trip, or otherwise be knocked prone. He gains a +2 bonus to CMD against grapple, overrun, and trip. This ability replaces well-versed."
 		]
@@ -1624,7 +1624,7 @@
 			"",
 			"This bardic performance replaces countersong.",
 			"",
-			"**Creative Treatment (Su):** Beginning at 2nd level, once per day when a solacer attempts a Heal check and fails, he can immediately reroll the check and take the better result. He can use this ability one additional time per day at 6th level and every 4 bard levels thereafter (to a maximum of five times per day at 18th level). Additionally, when acting as a confidante (or any other type of advisor) to [reduce sanity damage with rest](rule/reducing_sanity_damage), the solacer can attempt a Charisma check instead of an Intelligence or Wisdom check and add his Charisma modifier to the amount of sanity damage removed instead of his Intelligence or Wisdom modifier. When acting as a confidante (or any other type of advisor) to reduce a [madness's DC with rest](rule/madness), the solacer can attempt a Charisma check instead of an Intelligence or Wisdom check and reduce the madness's DC by 1/2 his Charisma modifier instead of 1/2 his Intelligence or Wisdom modifier.",
+			"**Creative Treatment (Su):** Beginning at 2nd level, once per day when a solacer attempts a Heal check and fails, he can immediately reroll the check and take the better result. He can use this ability one additional time per day at 6th level and every 4 bard levels thereafter (to a maximum of five times per day at 18th level). Additionally, when acting as a confidante (or any other type of advisor) to [reduce sanity damage with rest](rule/reducing_sanity_damage), the solacer can attempt a Charisma check instead of an Intelligence or Wisdom check and add his Charisma modifier to the amount of sanity damage removed instead of his Intelligence or Wisdom modifier. When acting as a confidante (or any other type of advisor) to reduce a {rule/madness/'s DC with rest}, the solacer can attempt a Charisma check instead of an Intelligence or Wisdom check and reduce the madness's DC by 1/2 his Charisma modifier instead of 1/2 his Intelligence or Wisdom modifier.",
 			"",
 			"This ability replaces versatile performance.",
 			"",
@@ -1687,7 +1687,7 @@
 		"description": [
 			"## Sound Striker",
 			"",
-			"**Source** [Ultimate Magic pg. 27](source/ultimate_magic), [errata](https://paizo.com/paizo/faq/v5748nruor1fz#v5748eaic9t4f)",
+			"**Source** {source/Ultimate Magic/ pg. 27}, [errata](https://paizo.com/paizo/faq/v5748nruor1fz#v5748eaic9t4f)",
 			"",
 			"They say that words can cut deeper than any blade, and the sound striker proves this true. Using music and words as a weapon, he can focus his performances into a deadly delivery.",
 			"",
@@ -1888,7 +1888,7 @@
 			"",
 			"**Bardic Performance:** Voices of the wild gain the following bardic performance.",
 			"",
-			"**Song of the Wild (Su):** At 3rd level, the voice of the wild can use bardic performance to grant an animal aspect to an ally, as if using the [hunter's animal focus class feature](class/hunter). The ally must be able to hear or see the performance. The voice of the wild uses his bard level as his hunter level for determining the effect of the animal aspect. The bard can affect a second ally with this performance at 10th level and a third at 17th level. Song of the wild relies on audible or visual components. This ability replaces all increments of inspire competence, dirge of doom, and inspire heroics."
+			"**Song of the Wild (Su):** At 3rd level, the voice of the wild can use bardic performance to grant an animal aspect to an ally, as if using the {class/hunter/'s animal focus class feature}. The ally must be able to hear or see the performance. The voice of the wild uses his bard level as his hunter level for determining the effect of the animal aspect. The bard can affect a second ally with this performance at 10th level and a third at 17th level. Song of the wild relies on audible or visual components. This ability replaces all increments of inspire competence, dirge of doom, and inspire heroics."
 		]
 	},
 	"wasteland_chronicler": {

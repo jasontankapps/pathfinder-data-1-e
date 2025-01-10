@@ -550,7 +550,7 @@
 			"{SOURCE Monster Codex/68}",
 			"",
 			"You can sweep multiple foes to the ground with a single blow of your axe.  ",
-			"**Prerequisites:** Str 15, {feat/Cleave}, {feat/Improved Trip}, [Weapon Focus (greataxe)](feat/weapon_focus), base attack bonus +11.  ",
+			"**Prerequisites:** Str 15, {feat/Cleave}, {feat/Improved Trip}, {feat/Weapon Focus/ (greataxe)}, base attack bonus +11.  ",
 			"**Benefit:** When using a full-attack action with a two-handed weapon, you can give up your regular attacks and instead attempt a trip combat maneuver at your highest base attack bonus against each opponent within reach. You must attempt a separate combat maneuver check against each opponent."
 		]
 	},
@@ -1442,7 +1442,7 @@
 			"{SOURCE Horror Adventures/84}",
 			"",
 			"Creatures that you swallow are quickly absorbed and soon utterly annihilated.  ",
-			"**Prerequisites:** Base attack bonus +6; evil alignment; [swallow whole universal monster ability](umr/swallow_whole); must be of the magical beast, outsider, or undead type.  ",
+			"**Prerequisites:** Base attack bonus +6; evil alignment; {umr/swallow whole/ universal monster ability}; must be of the magical beast, outsider, or undead type.  ",
 			"**Benefit:** When you start your turn having swallowed at least one creature, each swallowed creature must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) or gain a temporary negative level. Swallowed creatures that die from these negative levels are consumed as per disintegrate. This is a death effect.  ",
 			"**Special:** If you are of the undead type, each time a swallowed creature gains a temporary negative level from his ability, you add 5 temporary hit points to the number of hit points that swallowed creatures must deal to escape, up to a maximum of 15 temporary hit points. These temporary hit points last for 10 minutes."
 		]
@@ -1803,7 +1803,7 @@
 			"{SOURCE Cheliax, Empire of Devils/26}",
 			"",
 			"You can use your spiked chain as both armor and weapon.  ",
-			"**Prerequisites:** Dex 15, [Weapon Focus (spiked chain)](feat/weapon_focus).  ",
+			"**Prerequisites:** Dex 15, {feat/Weapon Focus/ (spiked chain)}.  ",
 			"**Benefit:** When wielding a spiked chain, you gain a +1 shield bonus to your AC. When you are fighting defensively or using the total defense action, this shield bonus increases to +2."
 		]
 	},
@@ -1843,7 +1843,7 @@
 			"{SOURCE Cheliax, Empire of Devils/26}",
 			"",
 			"You can throw your spiked chain to make trip attacks.  ",
-			"**Prerequisites:** Dex 15, {feat/Improved Trip}, [Weapon Focus (spiked chain).](feat/weapon_focus).  ",
+			"**Prerequisites:** Dex 15, {feat/Improved Trip}, {feat/Weapon Focus/ (spiked chain).}.  ",
 			"**Benefit:** You may throw your spiked chain (as if it were a thrown weapon with a range increment of 10 feet) and can make trip attacks when throwing it. Failing at this attack does not knock you prone."
 		]
 	},
@@ -2108,7 +2108,7 @@
 			"{SOURCE Villain Codex/56}",
 			"",
 			"Your shot can put an enemy off guard, giving your teammates the opportunity to act.  ",
-			"**Prerequisites:** [Exotic Weapon Proficiency (firearms)](feat/exotic_weapon_proficiency), [Weapon Focus (at least one firearm)](feat/weapon_focus).  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (firearms)}, {feat/Weapon Focus/ (at least one firearm)}.  ",
 			"**Benefit:** When you hit a foe with a firearm for which you have Weapon Focus, that creature takes a -2 penalty on attack rolls for 1 round against any other ally that also has this feat; this changes to a -4 penalty on attacks of opportunity. The penalty applied by this feat does not stack with itself. However, if both you and an ally with this feat attack the same foe, you can cover each other (since a penalty you impose with this feat doesn't apply to attacks against you)."
 		]
 	},
@@ -2186,7 +2186,7 @@
 			"",
 			"You can create magic armor, shields, and weapons.  ",
 			"**Prerequisites:** Caster level 5th.  ",
-			"**Benefit:** You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the [magic item creation rules](rule/magic_item_creation) for more information.",
+			"**Benefit:** You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the {rule/magic item creation/ rules} for more information.",
 			"",
 			"The weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost.",
 			"",
@@ -2271,7 +2271,7 @@
 			"",
 			"You can create magic rods.  ",
 			"**Prerequisites:** Caster level 9th.  ",
-			"**Benefit:** You can create magic rods. Crafting a rod takes 1 day for each 1,000 gp in its base price. To craft a rod, you must use up raw materials costing half of its base price. See the [magic item creation rules](rule/magic_item_creation) for more information."
+			"**Benefit:** You can create magic rods. Crafting a rod takes 1 day for each 1,000 gp in its base price. To craft a rod, you must use up raw materials costing half of its base price. See the {rule/magic item creation/ rules} for more information."
 		]
 	},
 	"craft_shadow_piercing": {
@@ -2329,7 +2329,7 @@
 			"",
 			"You can create magic staves.  ",
 			"**Prerequisites:** Caster level 11th.  ",
-			"**Benefit:** You can create any staff whose prerequisites you meet. Crafting a staff takes 1 day for each 1,000 gp in its base price. To craft a staff, you must use up raw materials costing half of its base price. A newly created staff has 10 charges. See the [magic item creation rules](rule/magic_item_creation) for more information."
+			"**Benefit:** You can create any staff whose prerequisites you meet. Crafting a staff takes 1 day for each 1,000 gp in its base price. To craft a staff, you must use up raw materials costing half of its base price. A newly created staff has 10 charges. See the {rule/magic item creation/ rules} for more information."
 		]
 	},
 	"craft_technological_arms_and_armor": {
@@ -2372,7 +2372,7 @@
 			"",
 			"You can create magic wands.  ",
 			"**Prerequisites:** Caster level 5th.  ",
-			"**Benefit:** You can create a wand of any 4th-level or lower spell that you know. Crafting a wand takes 1 day for each 1,000 gp in its base price. To craft a wand, you must use up raw materials costing half of this base price. A newly created wand has 50 charges. See the [magic item creation rules](rule/magic_item_creation) for more information."
+			"**Benefit:** You can create a wand of any 4th-level or lower spell that you know. Crafting a wand takes 1 day for each 1,000 gp in its base price. To craft a wand, you must use up raw materials costing half of this base price. A newly created wand has 50 charges. See the {rule/magic item creation/ rules} for more information."
 		]
 	},
 	"craft_wondrous_item": {
@@ -2385,7 +2385,7 @@
 			"",
 			"You can create wondrous items, a type of magic item.  ",
 			"**Prerequisites:** Caster level 3rd.  ",
-			"**Benefit:** You can create a wide variety of magic wondrous items. Crafting a wondrous item takes 1 day for each 1,000 gp in its price. To create a wondrous item, you must use up raw materials costing half of its base price. See the [magic item creation rules](rule/magic_item_creation) for more information.",
+			"**Benefit:** You can create a wide variety of magic wondrous items. Crafting a wondrous item takes 1 day for each 1,000 gp in its price. To create a wondrous item, you must use up raw materials costing half of its base price. See the {rule/magic item creation/ rules} for more information.",
 			"",
 			"You can also mend a broken wondrous item if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item."
 		]
@@ -2761,7 +2761,7 @@
 			"{SOURCE Mythic Adventures/61}",
 			"",
 			"Your critical hits are versatile and devastating.  ",
-			"**Prerequisites:** [Mythic Critical Focus](feat/critical_focus), {feat/Critical Mastery}.  ",
+			"**Prerequisites:** {feat/Mythic |Critical Focus}, {feat/Critical Mastery}.  ",
 			"**Benefit:** When using Critical Mastery, increase the number of critical feats you may apply by every 3 tiers that you possess."
 		],
 		"has_mythic_version": true
@@ -3379,7 +3379,7 @@
 			"{SOURCE Book of the Damned/178}",
 			"",
 			"In your hands, a spiked chain dances like a living thing.  ",
-			"**Prerequisites:** Dex 15, {feat/Chain Mastery}, [Exotic Weapon Proficiency (spiked chain)](feat/exotic_weapon_proficiency), {feat/Weapon Finesse}, Perform (dance) 1 rank.  ",
+			"**Prerequisites:** Dex 15, {feat/Chain Mastery}, {feat/Exotic Weapon Proficiency/ (spiked chain)}, {feat/Weapon Finesse}, Perform (dance) 1 rank.  ",
 			"**Benefit:** When wielding a spiked chain one-handed, you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The spiked chain must be one appropriate for your size. During your turn, you treat your reach with the spiked chain as 5 feet greater. You lose these benefits while fighting with multiple weapons or when using a shield (but not when using a buckler)."
 		]
 	},

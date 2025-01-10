@@ -36,7 +36,7 @@
 		"description": [
 			"{SOURCE Ultimate Campaign/107}",
 			"",
-			"Below are example buildings and their component rooms. Note that many of these buildings can also be found in the [kingdom-building rules](rule/kingdom_building).",
+			"Below are example buildings and their component rooms. Note that many of these buildings can also be found in the {rule/kingdom-building/ rules}.",
 			"",
 			"- [Group 1:](rule/buildings1) *Academy, Alchemist, Arena, Bank, Bardic College, Barracks, Black Market, Brewery, Bureau*",
 			"- [Group 2:](rule/buildings2) *Caster's Tower, Castle, Cathedral, Courthouse, Dance Hall, Exotic Artisan, Farm, Fort*",
@@ -884,7 +884,7 @@
 			"",
 			"The first set of events consists of events that could happen to any kind of building - bad weather, a fire, a famous visitor, and so on. Following those generic events are specific events keyed to certain types of buildings - an Inn has different events than a Military Academy or Smithy. This section concludes with events for several kinds of organizations. Not every building and organization has its own event table - the GM should use the Generic Building Events table or take inspiration from this section to make tables for other buildings and organizations.",
 			"",
-			"If you don't own any buildings or organizations in a settlement, the GM can use these event tables to create events for buildings you are in or near. For example, the GM can use the [Tavern Events table](rule/tavern_events) to generate an event while you are at a tavern. The event descriptions assume that you are the owner, so the GM should adjust the outcome if you are merely present for an event.",
+			"If you don't own any buildings or organizations in a settlement, the GM can use these event tables to create events for buildings you are in or near. For example, the GM can use the {rule/Tavern Events/ table} to generate an event while you are at a tavern. The event descriptions assume that you are the owner, so the GM should adjust the outcome if you are merely present for an event.",
 			"",
 			"These tables are designed so low rolls tend to be beneficial and high rolls are harmful or dangerous. If you're using the [settlement danger value](rule/the_settlement_stat_block), add the danger value to the percentile roll. Some results have you roll on another event table. Reroll any results that don't make sense.",
 			"",
@@ -1272,7 +1272,7 @@
 			"",
 			"***Fiendish Skill:*** One of your best dancers is tainted by evil magic - he's possessed, was replaced by a shapechanging evil outsider, or something similar - and is preying upon your customers. Spend 5 Magic or use appropriate spells to exorcise the evil presence. If not, you lose 1 point of Influence or Labor (your choice) each day, but the building gains a +10 bonus on checks to generate gp or Magic.",
 			"",
-			"***Sweaty Pox:*** Your employees are all developing fevers and unsightly sores, scaring away and possibly infecting customers. Until you spend 1d6 points of Goods, 1d6 points of Influence, or 1d3 points of Magic to eradicate this problem, your building takes a -5 penalty on checks to generate capital. Each Event phase that this pox persists, there is a 20% chance that your building also gets an infestation (see the [Generic Building Events Table](rule/generic_building_events)).",
+			"***Sweaty Pox:*** Your employees are all developing fevers and unsightly sores, scaring away and possibly infecting customers. Until you spend 1d6 points of Goods, 1d6 points of Influence, or 1d3 points of Magic to eradicate this problem, your building takes a -5 penalty on checks to generate capital. Each Event phase that this pox persists, there is a 20% chance that your building also gets an infestation (see the {rule/Generic Building Events/ Table}).",
 			"",
 			"***Wild Night:*** Overzealous patrons damage furnishings in a lounge or the main hall. The building takes a -10 penalty on checks to generate capital until repairs costing 1d3 points of Goods and 1d2 points of Labor are made."
 		],

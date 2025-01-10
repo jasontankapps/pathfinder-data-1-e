@@ -1096,7 +1096,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates (harmless, object); **Spell Resistance** yes (harmless, object)",
 			"",
-			"You gain a brief but incomplete understanding of one book's contents, equivalent to having skimmed its pages for 1 hour. This insight is not sufficient to translate unknown languages, decipher codes, or memorize text, but it does allow the caster to learn what topics the book discusses-invaluable to a Pathfinder who must make a snap decision when performing research or deciding whether or not to abscond with a volume. In addition, you instantly benefit from any bonuses or effects the book would normally grant to anyone who reads it for 1 hour (such as the bonuses gained from reading volumes of the [Pathfinder Chronicles](eq-misc/pathfinder_chronicle))."
+			"You gain a brief but incomplete understanding of one book's contents, equivalent to having skimmed its pages for 1 hour. This insight is not sufficient to translate unknown languages, decipher codes, or memorize text, but it does allow the caster to learn what topics the book discusses-invaluable to a Pathfinder who must make a snap decision when performing research or deciding whether or not to abscond with a volume. In addition, you instantly benefit from any bonuses or effects the book would normally grant to anyone who reads it for 1 hour (such as the bonuses gained from reading volumes of the {eq-misc/Pathfinder Chronicle/s})."
 		]
 	},
 	"lament_of_summers_last_breath": {
@@ -2919,7 +2919,7 @@
 			"## Lunar Veil",
 			"",
 			"{SOURCE Ultimate Magic/227}  ",
-			"**School** {spelldef/illusion} ([shadow](spelldef/shadow_subschool)) [{spelldef/darkness}, [shadow](spelldef/shadow_descriptor)]; **Level** arcanist 7, cleric 7, oracle 7, psychic 7, sorcerer 7, witch 7, wizard 7  ",
+			"**School** {spelldef/illusion} ({spelldef/shadow>_subschool}) [{spelldef/darkness}, {spelldef/shadow>_descriptor}]; **Level** arcanist 7, cleric 7, oracle 7, psychic 7, sorcerer 7, witch 7, wizard 7  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** long (400 ft. + 40 ft./level)  ",
@@ -3821,7 +3821,7 @@
 			"## Major Phantom Object",
 			"",
 			"{SOURCE Advanced Race Guide/39}  ",
-			"**School** {spelldef/illusion} ([shadow](spelldef/shadow_subschool)) [[shadow](spelldef/shadow_descriptor)]; **Level** arcanist 5, mesmerist 5, psychic 5, sorcerer 5, wizard 5 (gnome)  ",
+			"**School** {spelldef/illusion} ({spelldef/shadow>_subschool}) [{spelldef/shadow>_descriptor}]; **Level** arcanist 5, mesmerist 5, psychic 5, sorcerer 5, wizard 5 (gnome)  ",
 			"**Casting Time** 10 minutes  ",
 			"**Components** V, S, M (a tiny piece of matter of the same sort of item you plan to create with major phantom object)  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",

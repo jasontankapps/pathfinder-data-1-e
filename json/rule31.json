@@ -44,7 +44,7 @@
 			"",
 			"In this system, a social encounter is divided into one or more phases. The length of a phase is flexible, and typically lasts 15 minutes to 1 hour-long enough for each PC to perform several minutes' worth of actions per phase that are unrelated to influence checks (such as investigating a murder scene or surreptitiously defeating an assassin) without forgoing their chances to participate in the social encounter. GMs should determine beforehand how many phases a social encounter will last, thus determining how many chances the PCs will have to influence or learn about their targets - generally two to six. The GM should also determine whether the PCs' actions can win them additional phases. For example, seducing a baroness or forestalling her carriage may both earn the PCs an extra phase in which to win her favor.",
 			"",
-			"At the beginning of a phase, each PC selects an NPC. During each phase, a PC can either try to directly influence the NPC via an influence check, or attempt to learn more about that NPC with a discovery check - a check to learn about an NPC that can help with future influence checks during the same social encounter. The kinds of checks required for an influence check or a discovery check, known as influence skills, are unique to each individual. The PCs can learn an NPC's influence skills through successful discovery checks (see [Discovery Checks](rule/discovery_check)); otherwise, they must guess.",
+			"At the beginning of a phase, each PC selects an NPC. During each phase, a PC can either try to directly influence the NPC via an influence check, or attempt to learn more about that NPC with a discovery check - a check to learn about an NPC that can help with future influence checks during the same social encounter. The kinds of checks required for an influence check or a discovery check, known as influence skills, are unique to each individual. The PCs can learn an NPC's influence skills through successful discovery checks (see {rule/Discovery Check/s}); otherwise, they must guess.",
 			"",
 			"### Discovery and Influence Check DCs",
 			"",
@@ -175,7 +175,7 @@
 		"description": [
 			"{SOURCE Ultimate Intrigue/103}",
 			"",
-			"If the PCs know which NPCs they need to influence in advance, they can seek out information to assist them in doing so ahead of time, potentially gaining information from the social stat block before the encounter. To represent the results of such preparations, each PC can attempt one Knowledge-based discovery check in advance with a - 5 penalty. The GM can allow other discovery skills to work, but Sense Motive should never work in advance unless the PC is actively stalking the NPC, which might require additional Disguise or Stealth checks and could lead to negative consequences. If the PCs attempt a discovery check against a particularly prominent NPC in advance, the PCs can attempt the Knowledge check to receive a +4 on the discovery check in advance, as well (see [Discovery Checks](rule/discovery_check))."
+			"If the PCs know which NPCs they need to influence in advance, they can seek out information to assist them in doing so ahead of time, potentially gaining information from the social stat block before the encounter. To represent the results of such preparations, each PC can attempt one Knowledge-based discovery check in advance with a - 5 penalty. The GM can allow other discovery skills to work, but Sense Motive should never work in advance unless the PC is actively stalking the NPC, which might require additional Disguise or Stealth checks and could lead to negative consequences. If the PCs attempt a discovery check against a particularly prominent NPC in advance, the PCs can attempt the Knowledge check to receive a +4 on the discovery check in advance, as well (see {rule/Discovery Check/s})."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -1225,7 +1225,7 @@
 			"",
 			"**Membership Requirements** The PCs must steal an item worth at least 250 gp, and donate half the value of the item to the thieves' guild.",
 			"",
-			"**Influence Limitations** A PC must formally join the thieves' guild to rise to Rank 2. To rise to Rank 4, the PCs must execute a complex [heist](rule/heists).",
+			"**Influence Limitations** A PC must formally join the thieves' guild to rise to Rank 2. To rise to Rank 4, the PCs must execute a complex {rule/heist>s}.",
 			"",
 			"**Benefits** While this thieves' guild cannot operate openly, it helps its members scope out potential jobs.",
 			"",
@@ -1701,7 +1701,7 @@
 			"",
 			"***Devotion/Enmity:*** You and the NPC are devoted to each other or actively opposed to one another. Whenever you gain this Relationship Level with an NPC for the first time, your party gains 1,600 XP. The first time you gain this benefit in a campaign, your party gains an additional 1,600 XP.",
 			"",
-			"When a relationship with an NPC reaches this strength, it grants you a bonus [trait](rule/traits), whether your relationship is friendly or competitive and whether this is your first relationship to do so or the latest in a series of strong relationships. The nature of this trait is decided by the GM, and is specific to the NPC and the campaign (for example, the bonus trait from a notable NPC fighter is probably about combat rather than improving spell DCs). You keep this trait for as long as the NPC is alive and active in the campaign; if the NPC dies, retires, or otherwise is no longer an active part of the campaign, you lose the trait.",
+			"When a relationship with an NPC reaches this strength, it grants you a bonus {rule/trait>s}, whether your relationship is friendly or competitive and whether this is your first relationship to do so or the latest in a series of strong relationships. The nature of this trait is decided by the GM, and is specific to the NPC and the campaign (for example, the bonus trait from a notable NPC fighter is probably about combat rather than improving spell DCs). You keep this trait for as long as the NPC is alive and active in the campaign; if the NPC dies, retires, or otherwise is no longer an active part of the campaign, you lose the trait.",
 			"",
 			"The bonus XP from a relationship is divided among all PCs, just like other campaign-based XP awards. You can't gain XP bonuses from reaching a particular new Relationship Level with an individual NPC more than once (such as if you decrease your Relationship Level with an NPC or change its nature and bring it back up)."
 		],
@@ -1727,7 +1727,7 @@
 			"",
 			"***Campaign Trait:*** If your GM is using [campaign traits](main/traits_campaign) for this campaign, and you have a campaign trait associated with a specific NPC, your Relationship Score with that NPC gains a one-time increase of 4 points.",
 			"",
-			"***Charisma:*** Since your base Relationship Score with any NPC is equal to your Charisma modifier, when your Charisma score changes permanently (such as from Charisma drain or a [headband of alluring Charisma](magic-wondrous/headband_of_alluring_charisma_2)), your Relationship Scores with NPCs change with it. Temporary changes, such as from ability damage or bonuses from spells like {spell/eagle's splendor}, do not alter Relationship Scores.",
+			"***Charisma:*** Since your base Relationship Score with any NPC is equal to your Charisma modifier, when your Charisma score changes permanently (such as from Charisma drain or a {magic-wondrous/headband of alluring charisma>_2}), your Relationship Scores with NPCs change with it. Temporary changes, such as from ability damage or bonuses from spells like {spell/eagle's splendor}, do not alter Relationship Scores.",
 			"",
 			"***Companionship:*** Every time you gain a character level, you may increase your Relationship Score with one NPC still active in the campaign by 1 point.",
 			"",
@@ -2548,7 +2548,7 @@
 			"",
 			"***Penalty for Failure:*** Some libraries are so convoluted and bewildering that failing a Research check can hamper a researcher's progress, or even thwart it entirely. This can be the result of excessively poor organization, such as in a senile old wizard's hodgepodge of books accumulated over decades, or due to deliberate obfuscation, as in the case of infernal contracts. In such libraries, various unusual penalties or consequences might occur after a particular number of Research checks or after a failed Research check. Such a library might not allow the cumulative bonus on further Research checks for each 8-hour period. Furthermore, failing two consecutive Research checks means the researcher has reached a dead end in her studies and is unable to further decrease the library's knowledge points. In this case, the library's knowledge points return to maximum and the researcher can't attempt to research in that particular library again until she gains a rank in at least one of the library's associated skills or recovers some key or clue to help decipher it.",
 			"",
-			"***Research Rewards:*** Characters can gain more than just knowledge in libraries; they might also find valuable treasures. You can place treasures in a library that are uncovered only when the library's kp are reduced to specific research thresholds. Such treasures often take the form of scrolls, spellbooks, and magic manuals and tomes, or \"intellectual\" items such as a [headband of vast intelligence](magic-wondrous/headband_of_vast_intelligence_2) or a {magic-wondrous/helm of comprehend languages and read magic}. Other objects such as rods, wands, figurines of wondrous power, or even crystal balls might be buried or hidden behind larger stacks of books, just waiting to be discovered by diligent researchers.",
+			"***Research Rewards:*** Characters can gain more than just knowledge in libraries; they might also find valuable treasures. You can place treasures in a library that are uncovered only when the library's kp are reduced to specific research thresholds. Such treasures often take the form of scrolls, spellbooks, and magic manuals and tomes, or \"intellectual\" items such as a {magic-wondrous/headband of vast intelligence>_2} or a {magic-wondrous/helm of comprehend languages and read magic}. Other objects such as rods, wands, figurines of wondrous power, or even crystal balls might be buried or hidden behind larger stacks of books, just waiting to be discovered by diligent researchers.",
 			"",
 			"***Specialized Skills:*** Instead of assigning specific Knowledge skills to a library's Research check, you can use Linguistics as the default Research check skill, and assign specialized skills that reflect the specific nature of the library's collections. To carry out research in such a library, a character must succeed at a Linguistics check or at one of the specialized skill checks listed in the library's stat block. The Linguistics check follows all of the normal rules for Research checks, but if a researcher uses the more specialized check to perform her research, she gains a +2 circumstance bonus on the check for using precisely the correct skill for that library, as opposed to the more general use of Linguistics. This element otherwise follows all of the other rules for Research checks. Any skill, not just Knowledge skills, can be a specialized skill. For example, a military library might have Profession (soldier) as a specialized skill, an archive of famous plays might use Perform (act), or a tome of arcane magic might allow Spellcraft as a specialized skill. The circumstance bonus from specialized skills replaces the general bonus to Knowledge checks a library would otherwise grant; thus if the library is particularly helpful, it might grant more than a +2 circumstance bonus."
 		],
@@ -2779,7 +2779,7 @@
 			"",
 			"Consider altering other rules to account for a landscape with lower average DCs. For instance, {feat/Great Fortitude}, {feat/Iron Will}, and {feat/Lightning Reflexes} might provide only a +1 bonus on saves, or the increases to spell DCs from {feat/Spell Focus} and {feat/Greater Spell Focus} could go up to 2.",
 			"",
-			"***With Esoteric Spell Components:*** This system works especially well with the [esoteric spell components system](rule/esoteric_material_components). Using both systems means that spellcasting in the campaign is weaker overall, but can be boosted on occasion by characters willing to spend money to increase the potency of their spells."
+			"***With Esoteric Spell Components:*** This system works especially well with the {rule/esoteric material components/ system}. Using both systems means that spellcasting in the campaign is weaker overall, but can be boosted on occasion by characters willing to spend money to increase the potency of their spells."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2924,7 +2924,7 @@
 			"",
 			"As a swift action while casting a spell, a spellcaster can attempt to increase either the spell's DC or her caster level for the spell. She must attempt a Spellcraft check with a DC equal to 15 + the spell's level + the minimum caster level of that spell for her class. If she succeeds, she can increase either her caster level or the DC of the spell by 2. If she fails, the spell is not cast and she loses the prepared spell or spell slot. If she fails the Spellcraft check by 5 or more, she also suffers a mishap, similar to a [scroll mishap](rule/scrolls).",
 			"",
-			"***With Limited Magic:*** If you are using the [limited magic rules](rule/limited_magic), instead of increasing the caster level or DC by 2 on a successfully overclocked spell, instead allow the caster to gain the standard benefits of her full caster level and ability scores.",
+			"***With Limited Magic:*** If you are using the {rule/limited magic/ rules}, instead of increasing the caster level or DC by 2 on a successfully overclocked spell, instead allow the caster to gain the standard benefits of her full caster level and ability scores.",
 			"",
 			"***With Spell Fumbles:*** Apply the results of a [spell fumble](rule/spell_fumbles) in place of a mishap."
 		],
@@ -2980,7 +2980,7 @@
 			"",
 			"***With Spell Attack Rolls:*** This rule combines well with the [spell attack roll rule](rule/spell_attack_rolls). If you roll a natural 20 on your spell attack roll, you threaten a critical hit, then roll the attack roll again to confirm the critical. Avoid the faster variant of spell attack rolls if you're also using spell critical hits, or at the very least roll to confirm each one separately.",
 			"",
-			"***With Spell Fumbles:*** This system is meant to be used in a campaign alongside the [spell fumbles variant](rule/spell_fumbles), though the two can be used separately."
+			"***With Spell Fumbles:*** This system is meant to be used in a campaign alongside the {rule/spell fumbles/ variant}, though the two can be used separately."
 		],
 		"parent_topics": [
 			"optional_subsystems",

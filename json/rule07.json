@@ -1492,7 +1492,7 @@
 			"",
 			"If none of the above suggestions fix the problem, it's best to talk to the player privately and determine what he intends to do with this character. Explain your concerns about what you perceive as the character's glass jaw and the impact it might have on the rest of the group. Together, you and the player should explore creative solutions to help improve everyone's time around the gaming table, modifying the character concept as necessary.",
 			"",
-			"***[Power Gamers](rule/power_gamer) and Glass Jaws:*** As players finish character generation, level up, or make other choices related to their character's statistics, encourage your players who are skilled at using the rules to offer suggestions to those less adept. While the final choices in such collaborations lie with the player running the character, having someone else point out potential problems or advantages can make the game's sometimes daunting rules and options more manageable."
+			"***{rule/Power Gamer/s} and Glass Jaws:*** As players finish character generation, level up, or make other choices related to their character's statistics, encourage your players who are skilled at using the rules to offer suggestions to those less adept. While the final choices in such collaborations lie with the player running the character, having someone else point out potential problems or advantages can make the game's sometimes daunting rules and options more manageable."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2229,7 +2229,7 @@
 			"",
 			"The concept of NPC includes any and all creatures not controlled by a player, although NPCs are commonly associated with a measure of deliberateness and design work, while monsters are more likely drawn whole cloth from the pages of bestiaries or similar ready-made resource. Any creature has the potential to be an NPC, though. Anything the PCs decide to talk with instead of slay might have a reaction: something to say, views shaped by its culture, and an attitude toward the PCs dependant on its alignment and the PCs' actions. Many monsters are simply NPCs whose purpose is to be an opponent for the PCs, but spells like charm monster can change all that very quickly, and so can other actions on the part of the PCs, such as not simply killing everything they encounter. Turning monsters into NPCs creates some great roleplaying opportunities. For example, all {monster/orc/s} and {monster/kobold/s} are not alike - at least in their own opinion - and they have goals of their own beside standing in a dungeon location waiting for PCs to come and kill them.",
 			"",
-			"GMs should remain aware of a creature's setting and believability when considering monstrous NPCs. Although a conversation with a hobgoblin might prove novel in the right circumstance, the surest way to make the local green grocer interesting is not to make him a {monster/bugbear}, while having the true villain of a campaign be an [awakened](spell/awaken) pigeon can shatter the believably of even the most outlandish fantasy campaign. An unusual race should never be considered a replacement for the work of creating an interesting personality and motivation for a character, and monstrous NPCs should be thought through just as thoroughly as normal NPCs."
+			"GMs should remain aware of a creature's setting and believability when considering monstrous NPCs. Although a conversation with a hobgoblin might prove novel in the right circumstance, the surest way to make the local green grocer interesting is not to make him a {monster/bugbear}, while having the true villain of a campaign be an {spell/awaken/ed} pigeon can shatter the believably of even the most outlandish fantasy campaign. An unusual race should never be considered a replacement for the work of creating an interesting personality and motivation for a character, and monstrous NPCs should be thought through just as thoroughly as normal NPCs."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2527,7 +2527,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/89}",
 			"",
-			"[Aristocrats](npcclass/aristocrat) vary in rank from village squires to emperors, with most having wealth and position that grants them great influence in a community.",
+			"{npcclass/Aristocrat/s} vary in rank from village squires to emperors, with most having wealth and position that grants them great influence in a community.",
 			"",
 			"***Favor:*** Provides an invitation to an aristocratic event, such as an estate party, royal gala, or public celebration.",
 			"",

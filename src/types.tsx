@@ -20,7 +20,7 @@ export type Datum = string | number | [ number, string ] | [ string, string ];
 
 export type RawDatum = null | Datum;
 
-export type TableColumnInfoTypes = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "num" | null | 0;
+export type TableColumnInfoTypes = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "num" | "pct" | null | 0;
 // gp = gold pieces
 // gp+ = gold piece adjustment
 // lbs = weight

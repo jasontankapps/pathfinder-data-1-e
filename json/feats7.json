@@ -564,7 +564,7 @@
 			"{SOURCE Adventurer's Guide/26}",
 			"",
 			"When bypassing a foe's defenses while feinting, you can deal devastating damage.  ",
-			"**Prerequisites:** [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +6.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Focus/ (Aldori dueling sword)}, base attack bonus +6.  ",
 			"**Benefit:** Once per round when you hit a foe you have successfully feinted against via a melee attack using an Aldori dueling sword, you deal an extra 2d6 points of precision damage. When your base attack bonus reaches +11, this damage bonus increases to +3d6, and at base attack bonus +16, it increases to +4d6. This precision damage does not stack with damage from sneak attack, a vigilante's sudden strike, or similar effects. Any effect which protects against sneak attack damage also protects against this additional damage."
 		]
 	},
@@ -908,7 +908,7 @@
 			"A familiar is more than just an animal. It's a spirit and an intelligence, and your familiar can choose to take more than one physical form.  ",
 			"**Prerequisites:** Familiar class feature, caster level 7th.  ",
 			"**Benefit:** Your familiar gains the {umr/change shape} universal monster ability. This ability functions as {spell/beast shape II} and grants access to a single alternate form, which must be the same size as the familiar. Once chosen, this form cannot be changed.  ",
-			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the [change shape universal monster ability](umr/change_shape) (like an {monster/imp}), this grants a single additional form."
+			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the {umr/change shape/ universal monster ability} (like an {monster/imp}), this grants a single additional form."
 		]
 	},
 	"shapeshifter_foil": {
@@ -1400,7 +1400,7 @@
 			"{SOURCE Armor Master's Handbook/12}",
 			"",
 			"You use your gauntlet to shield you from harm.  ",
-			"**Prerequisites:** [Weapon Focus (gauntlet or spiked gauntlet)](feat/weapon_focus), proficiency with bucklers and light shields.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (gauntlet or spiked gauntlet)}, proficiency with bucklers and light shields.  ",
 			"**Benefit:** When using this style, if you begin your turn wearing a gauntlet or spiked gauntlet on your off hand, and you are not using that hand to hold or make attacks with any other weapons or shield, you gain a +1 shield bonus to AC. You lose this shield bonus whenever you attack with your gauntlet or hold a weapon or shield in that hand. While receiving this shield bonus to AC, your gauntlet or spiked gauntlet is treated as a buckler for the purpose of using other feats and abilities (though you are also considered to have a free hand). This feat acts as the {feat/Improved Unarmed Strike} feat for the purpose of satisfying the prerequisites of the {feat/Deflect Arrows} and {feat/Snatch Arrows} feats."
 		]
 	},
@@ -2686,7 +2686,7 @@
 			"{SOURCE Ultimate Combat/119}",
 			"",
 			"You can use your loaded sling to effectively strike at nearby foes.  ",
-			"**Prerequisites:** [Weapon Focus (sling)](feat/weapon_focus), base attack bonus +1.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (sling)}, base attack bonus +1.  ",
 			"**Benefit:** You can make melee attacks using your loaded sling, using that weapon's normal statistics but treating it as a flail. Using a sling in this way does not expend mundane ammunition, but magical or masterwork ammunition loses its special properties after a single hit.  ",
 			"**Special:** Any feats you have that apply when you use a flail also apply when you use a loaded sling as a melee weapon.",
 			"",
@@ -2733,7 +2733,7 @@
 			"{SOURCE Weapon Master's Handbook/13}",
 			"",
 			"You can fire all manner of slings and sling-like weapons.  ",
-			"**Prerequisites:** [Weapon Focus (sling) or weapon training (thrown) class feature](feat/weapon_focus) or weapon training (thrown) class feature), warslinger racial trait.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (sling) or weapon training (thrown) class feature} or weapon training (thrown) class feature), warslinger racial trait.  ",
 			"**Benefit:** You gain a +1 bonus on damage rolls made with all types of slings, and don't provoke attacks of opportunity when reloading a sling. In addition, you treat all ranged and thrown weapons that have \"sling\" in their name as if they were slings for all feats and class abilities that require such weapons, as well as the warslinger racial trait."
 		]
 	},
@@ -3526,7 +3526,7 @@
 			"{SOURCE Inner Sea Gods/216;Faiths of Purity/25}",
 			"",
 			"You incorporate your two-handed reach weapon into a dizzying martial dance.  ",
-			"**Prerequisites:** [Weapon Focus (any two-handed reach weapon)](feat/weapon_focus), Perform (dance) 4 ranks.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (any two-handed reach weapon)}, Perform (dance) 4 ranks.  ",
 			"**Benefit:** Each time you hit a creature with a two-handed reach weapon that you have {feat/Weapon Focus} in, the creature is dazzled for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

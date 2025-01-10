@@ -447,7 +447,7 @@
 			"{SOURCE Adventurer's Guide/26}",
 			"",
 			"You've learned to defend yourself against spell and storm with dazzling flourishes of your weapon.  ",
-			"**Prerequisites:** {feat/Alertness}, [Exotic Weapon Proficiency (Aldori dueling sword)](feat/exotic_weapon_proficiency), [Weapon Focus (Aldori dueling sword)](feat/weapon_focus), base attack bonus +4.  ",
+			"**Prerequisites:** {feat/Alertness}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Focus/ (Aldori dueling sword)}, base attack bonus +4.  ",
 			"**Prerequisites:** {feat/Alertness}, base attack bonus +4.  ",
 			"**Benefit:** Whenever you use {feat/Combat Expertise}, fight defensively, or take the total defense action, choose a type of saving throw. (You can choose a different type each time you take such an action.) Once per round before attempting a saving throw using the selected save, you gain a +2 bonus on that save. If you have a base attack bonus of +11 or higher, this bonus increases to +3. If you have a base attack bonus of +16 or higher, the bonus instead increases to +4."
 		]
@@ -2888,7 +2888,7 @@
 			"",
 			"Additionally, when you are in a settlement no smaller than a small city and are seeking a magic item with a value equal to or less than the city's base value and the item is not available, you can check again after 1 day (rather than 1 week).",
 			"",
-			"If using the contact rules you gain a single reliable contact each time you enter a settlement no smaller than a small city. This contact is randomly determined to be a fence, gossip, manipulator, merchant, petty criminal, snitch, or thug. The contact operates only within that city, and if the contact's [Trust score](rule/trust) goes down, it immediately drops to 1."
+			"If using the contact rules you gain a single reliable contact each time you enter a settlement no smaller than a small city. This contact is randomly determined to be a fence, gossip, manipulator, merchant, petty criminal, snitch, or thug. The contact operates only within that city, and if the contact's {rule/Trust/ score} goes down, it immediately drops to 1."
 		]
 	},
 	"gun_twirling": {
@@ -3700,7 +3700,7 @@
 			"{SOURCE Demons Revisited/44}",
 			"",
 			"Your death-stealing gaze creates more powerful undead.  ",
-			"**Prerequisites:** Nabasu, [Ability Focus (death-stealing gaze)](feat/ability_focus)  ",
+			"**Prerequisites:** Nabasu, {feat/Ability Focus/ (death-stealing gaze)}  ",
 			"**Benefit:** When you would normally create a ghoul with your death-stealing gaze, you instead create a ghast. As a free action, you may also spend a number of growth points in order to even further augment your new undead minion as it is created. If you spend 1 growth point, you create a wight instead of a ghast. If you spend 3 growth points, you create a wraith instead of a ghast. And if you spend 5 growth points, you transform the target into a juju zombie instead of a ghast. Note that spending growth in this manner reduces your statistics as appropriate."
 		]
 	},
@@ -5315,7 +5315,7 @@
 			"{SOURCE Ultimate Combat/106}",
 			"",
 			"You are able to entangle opponents with the coils of your whip.  ",
-			"**Prerequisites:** [Weapon Focus (whip)](feat/weapon_focus), {feat/Whip Mastery}, base attack bonus +5.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (whip)}, {feat/Whip Mastery}, base attack bonus +5.  ",
 			"**Benefit:** While wielding a whip, you threaten the area of your natural reach plus 5 feet. You can also use a whip to grasp an unattended Small or Tiny object within your whip's reach and pull that object into your square. To do so, you must hit AC 10 with a melee touch attack. Further, you can use the whip to grasp onto an object within your whip's reach, using 5 feet of your whip as if it were a grappling hook, allowing you to use the rest of your whip to swing on like a rope. As a free action, you can release the object your whip is grasping, but you cannot use the whip to attack while the whip is grasping an object.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

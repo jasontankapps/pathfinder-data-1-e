@@ -871,7 +871,7 @@
 			"",
 			"Not all constructs are built with the {feat/Craft Construct} feat. Spells like {spell/animate objects} allow a caster to temporarily animate an existing object. These constructs are in many ways weaker than manufactured constructs, as they are susceptible to dispelling and antimagic.",
 			"",
-			"A caster can use the {spell/animate objects} spell to instantly create a temporary construct. A {spell/permanency} spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. {feat/Craft Construct} creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the [animated object monster entry](monster/animated_object)."
+			"A caster can use the {spell/animate objects} spell to instantly create a temporary construct. A {spell/permanency} spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. {feat/Craft Construct} creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the {monster/animated object/ monster entry}."
 		],
 		"parent_topics": [
 			"advanced_magic_topics",
@@ -892,7 +892,7 @@
 		"description": [
 			"{SOURCE Ultimate Magic/111}",
 			"",
-			"The following are new abilities that can be applied to animated objects, whether created by the animate objects spell or with the [Craft Constructs](feat/craft_construct) feat. Adding to these abilities requires the expenditure of Construction Points (CP), as described in the [Animated Object monster entry](monster/animated_object).",
+			"The following are new abilities that can be applied to animated objects, whether created by the animate objects spell or with the {feat/Craft Construct/s} feat. Adding to these abilities requires the expenditure of Construction Points (CP), as described in the {monster/Animated Object/ monster entry}.",
 			"",
 			"***Augmented Critical (Ex, 1 CP):*** Increase the threat range for the animated object's melee attacks by 1 or the threat multiplier by 1. This cannot combine with itself or with the piercing attack or slashing attack object abilities.",
 			"",
@@ -955,7 +955,7 @@
 			"",
 			"Constructs with multiple special abilities cost more to create. The first special ability is included in the construct's base cost. The next two special abilities increase the calculated price by +1/2 CR per ability. Thereafter, any additional special abilities add +1 CR per ability. Examples of special abilities include having a higher DR value than a typical construct of its CR (above DR 5 for CRs 1-8, above DR 10 for CR 9+), monster statistics that exceed those recommended for the [construct's CR](rule/step_2_target_statistics), the standard golem immunity to magic, DR or hardness that can't be overcome by all adamantine weapons, ability to be fully healed by a single spell, and most special attacks and special qualities.",
 			"",
-			"Particularly powerful special abilities, such as an iron golem's exceptionally high attack bonus, count as two lesser abilities. Animated objects are a special case - their base price is not increased by any abilities paid for with Construction Points (see the [Animated Object monster entry](monster/animated_object)), since these abilities are already factored into an animated object's CR. In addition, golems and homunculi created with extra Hit Dice, the advanced template, or shield guardian abilities should all be priced as described in the Bestiary, rather than by adjusting pricing for their new CR.",
+			"Particularly powerful special abilities, such as an iron golem's exceptionally high attack bonus, count as two lesser abilities. Animated objects are a special case - their base price is not increased by any abilities paid for with Construction Points (see the {monster/Animated Object/ monster entry}), since these abilities are already factored into an animated object's CR. In addition, golems and homunculi created with extra Hit Dice, the advanced template, or shield guardian abilities should all be priced as described in the Bestiary, rather than by adjusting pricing for their new CR.",
 			"",
 			"Abilities that weaken or potentially place a construct at a disadvantage rarely reduce the construct's price. An exception is the berserk ability. Constructs that have a chance of going berserk receive -1 CR adjustment to their calculated price if control can be reestablished (like a flesh golem) or -2 CR adjustment for permanent loss of control (like a clay golem).",
 			"",
@@ -1536,7 +1536,7 @@
 			"| Dodge | AC | Never\\* | Never\\* |",
 			"| Enhancement | Ability scores, AC, attacks, damage, speed | [Belt of giant strength](magic-wondrous/belt_of_giant_strength_2) | {spell/Magic weapon} |",
 			"| Inherent | Ability scores | [Manual of bodily health](magic-wondrous/manual_of_bodily_health_1) | {spell/Wish} |",
-			"| Insight | AC, attacks, checks, saves | [Dusty rose prism ioun stone](magic-ioun/dusty_rose_prism) | {spell/True strike} |",
+			"| Insight | AC, attacks, checks, saves | {magic-ioun/Dusty rose prism/ ioun stone} | {spell/True strike} |",
 			"| Luck | AC, attacks, checks, damage, saves | {magic-wondrous/Stone of good luck} | {spell/Divine favor} |",
 			"| Morale | Attacks, checks, damage, saves, Str, Con, Dex | {magic-wondrous/Candle of invocation} | {spell/Bless} |",
 			"| Natural armor | AC | {magic-wondrous/Amulet of natural armor} | {spell/Barkskin} |",
@@ -1743,7 +1743,7 @@
 			"",
 			"{spell/Cloudkill}: This spell is key because it automatically kills weak creatures, deals poison damage each round to stronger creatures in the area, persists for several rounds, and moves.",
 			"",
-			"{spell/Cone of Cold}: This spell is an interesting benchmark because it's actually a weak spell for its level; at the level you gain it, {spell/fireball} does just as much damage and at a longer range, and [cone of cold's](spell/cone_of_cold) damage cap is only 5 dice higher than fireball. If your 5th-level attack spell is weaker than this spell, you should increase its power or consider making it a 4th-level spell.",
+			"{spell/Cone of Cold}: This spell is an interesting benchmark because it's actually a weak spell for its level; at the level you gain it, {spell/fireball} does just as much damage and at a longer range, and {spell/cone of cold/'s} damage cap is only 5 dice higher than fireball. If your 5th-level attack spell is weaker than this spell, you should increase its power or consider making it a 4th-level spell.",
 			"",
 			"{spell/Dominate Person}: This is the lowest-level spell that allows you to utterly control a hostile intelligent creature (with the exception of self-destructive orders).",
 			"",
@@ -1833,7 +1833,7 @@
 			"",
 			"**Example:** Patrick's wizard wants to create bracers with a continuous {spell/mage armor} ability, granting the wearer a +4 armor bonus to AC. The formula indicates this would cost 2,000 gp (spell level 1, caster level 1). Jessica reminds him that {magic-wondrous/bracers of armor +4} are priced at 16,000 gp and Patrick's bracers should have that price as well. Patrick agrees, and because he only has 2,000 gp to spend, he decides to spend 1,000 gp of that to craft {magic-wondrous/bracers of armor +1} using the standard bracer prices.",
 			"",
-			"Some new items are really existing magic items with a different weapon or armor type, such as a {magic-weapon/dagger of venom} that is a rapier instead of a dagger or a {magic-armor/lion's shield} that's a wooden shield instead of a metal shield. For these items, just replace the price of the nonmagical masterwork item with the cost of the new type of item. For example, a *rapier of venom* has a price of 8,320 gp instead of the [dagger of venom's](magic-weapon/dagger_of_venom) price of 8,302 gp."
+			"Some new items are really existing magic items with a different weapon or armor type, such as a {magic-weapon/dagger of venom} that is a rapier instead of a dagger or a {magic-armor/lion's shield} that's a wooden shield instead of a metal shield. For these items, just replace the price of the nonmagical masterwork item with the cost of the new type of item. For example, a *rapier of venom* has a price of 8,320 gp instead of the {magic-weapon/dagger of venom/'s} price of 8,302 gp."
 		],
 		"parent_topics": [
 			"advanced_magic_topics",
@@ -2017,7 +2017,7 @@
 			"",
 			"***Use the Downtime System:*** This is the simplest solution, and assumes you are spending downtime running the business rather than crafting specific items.",
 			"",
-			"**Example:** Patrick owns a magic shop and has 5 days free between adventures. Instead of crafting specific items for his own use, he uses that time on the [run a business downtime activity](rule/run_a_business), with the assumption that he is using his crafting feat to create minor magic items for customers to increase the money generated by his magic shop. Patrick doesn't have to specify what items he is creating, track inventory of completed items, or worry about interrupting his crafting; the details aren't important, just that he is using his skills to increase the profit of his business.",
+			"**Example:** Patrick owns a magic shop and has 5 days free between adventures. Instead of crafting specific items for his own use, he uses that time on the {rule/run a business/ downtime activity}, with the assumption that he is using his crafting feat to create minor magic items for customers to increase the money generated by his magic shop. Patrick doesn't have to specify what items he is creating, track inventory of completed items, or worry about interrupting his crafting; the details aren't important, just that he is using his skills to increase the profit of his business.",
 			"",
 			"***Alter Wealth By Level:*** Similar to using the item crafting rules to adjust wealth by level, this just applies a flat adjustment to your expected wealth. You don't even have to account for what specific items were crafted using this method.",
 			"",
@@ -2267,7 +2267,7 @@
 			"",
 			"**Animal Companions** {druidcompanion/badger}, {druidcompanion/bear}, {druidcompanion/capybara}, {druidcompanion/cheetah}, {druidcompanion/digmaul}, {druidcompanion/dire polar bear}, {druidcompanion/dire rat}, {druidcompanion/dog}, {druidcompanion/giant mole}, {druidcompanion/giant porcupine}, {druidcompanion/giant skunk}, {druidcompanion/giant weasel}, {druidcompanion/goblin dog}, {druidcompanion/grizzly bear}, {druidcompanion/hyena}, {druidcompanion/leopard}, {druidcompanion/lion}, {druidcompanion/marsupial devil}, {druidcompanion/marsupial lion}, {druidcompanion/panda}, {druidcompanion/polar bear}, {druidcompanion/saber-toothed cat}, {druidcompanion/thylacine}, {druidcompanion/tiger}, {druidcompanion/wolf}, {druidcompanion/wolfdog}, {druidcompanion/wolverine}",
 			"",
-			"**Familiars** {monster/arctic |fox}, {monster/arctic hare}, {monster/armadillo}, {monster/cat}, {monster/donkey rat}, [ermine](monster/weasel) (uses weasel stats), {monster/flying fox}, {monster/flying squirrel}, {monster/fox}, {monster/hedgehog}, {monster/jerboa}, {monster/koala}, {monster/lemming}, {monster/margay cat}, {monster/meerkat}, [mole](monster/mole_ff) (FF version), [mole](monster/mole_uw) (UW version), [mongoose](monster/weasel) (uses weasel stats), {monster/otter}, {monster/platypus}, {monster/rabbit}, {monster/raccoon}, {monster/rat}, {monster/red panda}, {monster/sloth}, {monster/squirrel}, {monster/weasel}",
+			"**Familiars** {monster/arctic |fox}, {monster/arctic hare}, {monster/armadillo}, {monster/cat}, {monster/donkey rat}, [ermine](monster/weasel) (uses weasel stats), {monster/flying fox}, {monster/flying squirrel}, {monster/fox}, {monster/hedgehog}, {monster/jerboa}, {monster/koala}, {monster/lemming}, {monster/margay cat}, {monster/meerkat}, {monster/mole>_ff} (FF version), {monster/mole>_uw} (UW version), [mongoose](monster/weasel) (uses weasel stats), {monster/otter}, {monster/platypus}, {monster/rabbit}, {monster/raccoon}, {monster/rat}, {monster/red panda}, {monster/sloth}, {monster/squirrel}, {monster/weasel}",
 			"",
 			"### Quadruped (Hooves)",
 			"",
@@ -2305,7 +2305,7 @@
 			"",
 			"**Available Slots** belt, eyes",
 			"",
-			"**Animal Companions** {druidcompanion/cameroceras}, {druidcompanion/corpse-eater fungus}, {druidcompanion/creeping puffball}, {druidcompanion/eurypterid}, {druidcompanion/giant ant}, {druidcompanion/giant assassin bug}, {druidcompanion/giant beetle}, {druidcompanion/giant caterpillar}, {druidcompanion/giant centipede}, {druidcompanion/giant cockroach}, {druidcompanion/giant crab}, {monster/giant dragonfly}, {druidcompanion/giant locust}, {druidcompanion/giant mantis}, {monster/giant mantis shrimp}, {druidcompanion/giant mosquito}, {druidcompanion/giant scorpion}, {druidcompanion/giant solifugid}, {druidcompanion/giant spider}, {druidcompanion/giant squid}, {monster/giant termite}, {druidcompanion/giant wasp}, {druidcompanion/giant whiptail centipede}, {druidcompanion/gulper plant}, {druidcompanion/hunting cactus}, {druidcompanion/octopus}, {druidcompanion/rash creeper}, {druidcompanion/slithering sundew}, {druidcompanion/snapping flytrap}, {druidcompanion/sniper cactus}, {druidcompanion/squid}, [web tyrant spider](druidcompanion/web_tyrant)",
+			"**Animal Companions** {druidcompanion/cameroceras}, {druidcompanion/corpse-eater fungus}, {druidcompanion/creeping puffball}, {druidcompanion/eurypterid}, {druidcompanion/giant ant}, {druidcompanion/giant assassin bug}, {druidcompanion/giant beetle}, {druidcompanion/giant caterpillar}, {druidcompanion/giant centipede}, {druidcompanion/giant cockroach}, {druidcompanion/giant crab}, {monster/giant dragonfly}, {druidcompanion/giant locust}, {druidcompanion/giant mantis}, {monster/giant mantis shrimp}, {druidcompanion/giant mosquito}, {druidcompanion/giant scorpion}, {druidcompanion/giant solifugid}, {druidcompanion/giant spider}, {druidcompanion/giant squid}, {monster/giant termite}, {druidcompanion/giant wasp}, {druidcompanion/giant whiptail centipede}, {druidcompanion/gulper plant}, {druidcompanion/hunting cactus}, {druidcompanion/octopus}, {druidcompanion/rash creeper}, {druidcompanion/slithering sundew}, {druidcompanion/snapping flytrap}, {druidcompanion/sniper cactus}, {druidcompanion/squid}, {druidcompanion/web tyrant/ spider}",
 			"",
 			"**Familiars** {monster/blue-ringed octopus}, {monster/butterfly}, {monster/cockroach}, {monster/creeper ivy}, {monster/dweomer cap}, {monster/flowering lattice}, {monster/giant isopod}, {monster/giant tardigrade}, {monster/greensting scorpion}, {monster/house centipede}, {monster/ioun wyrd}, {monster/king crab}, {monster/leopard slug}, {monster/moth}, {monster/petrifern}, {monster/ravenous tumbleweed}, {monster/razor fern}, {monster/sawleg locust}, {monster/scarlet spider}, {monster/shimmerwing dragonfly}, {monster/spiny starfish}, {monster/suture vine}, {monster/trilobite}, {monster/vampire squid}"
 		],

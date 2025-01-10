@@ -281,7 +281,7 @@
 			"",
 			"*Sudden Attack (Ex):* As a swift action, you can expend one use of mythic power to make a melee attack at your highest attack bonus. This is in addition to any other attacks you make this round. When making a sudden attack, you roll twice and take the better result, adding your tier to the attack roll. Damage from this attack bypasses all damage reduction.",
 			"",
-			"***Path Ability:*** At 1st tier and every tier thereafter, select one new path ability from the champion path abilities lists or from the [universal path abilities lists](rule/universal_path_abilities). Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
+			"***Path Ability:*** At 1st tier and every tier thereafter, select one new path ability from the champion path abilities lists or from the {rule/universal path abilities/ lists}. Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
 			"",
 			"***Legendary Champion (Ex):*** At 10th tier, whenever you make an attack roll against a non-mythic foe and miss, you may immediately roll again. You must take the second roll, even if it's lower. Once per round when you roll a natural 20 on an attack roll, you regain one use of mythic power."
 		],
@@ -536,7 +536,7 @@
 			"",
 			"*Sudden Block (Su):* As an immediate action, you can expend one use of mythic power to hinder a melee attack made against you or an adjacent ally. Add your tier to your AC or the ally's AC against this attack. The creature making the attack must make two attack rolls and take the lower result. Once the attack is resolved, you or your ally (your choice) can make one melee attack against the creature. The damage from this attack bypasses all damage reduction.",
 			"",
-			"***Path Ability:*** At 1st tier and every tier thereafter, select one new path ability from the guardian path abilities lists or from the [universal path abilities lists](rule/universal_path_abilities). Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
+			"***Path Ability:*** At 1st tier and every tier thereafter, select one new path ability from the guardian path abilities lists or from the {rule/universal path abilities/ lists}. Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
 			"",
 			"***True Defender (Su):*** At 10th tier, whenever you take damage from a melee or ranged attack scored by a non-mythic creature, the damage is halved. This reduction is applied after all other reductions in damage, such as energy resistance or damage reduction. Once per round, when an enemy scores a critical hit against you, you regain one use of mythic power."
 		],
@@ -791,7 +791,7 @@
 			"",
 			"*Recalled Blessing (Su):* You can expend one use of mythic power to cast any one divine spell without expending a prepared spell or spell slot. If you prepare spells, this spell must be one you prepared today; if you're a spontaneous caster, this spell must be one of your spells known. You can't apply metamagic feats to this spell. If the spell requires a saving throw, non-mythic creatures roll twice and take the lower result. If the spell heals damage or requires you to attempt a caster level check to cure an affliction or remove a condition, roll twice and take the higher result.",
 			"",
-			"***Path Ability:*** At 1st tier and every tier thereafter, select one new path ability from the hierophant path abilities lists or from the [universal path abilities lists](rule/universal_path_abilities). Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
+			"***Path Ability:*** At 1st tier and every tier thereafter, select one new path ability from the hierophant path abilities lists or from the {rule/universal path abilities/ lists}. Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
 			"",
 			"***Divine Vessel (Ex):*** At 10th tier, whenever you cast a spell that targets one or more non-mythic creatures, those creatures must roll twice for any saving throws associated with the spell and take the lower result. Whenever you are healed of hit point damage by a spell or effect, you are healed for the maximum possible amount. You also gain DR 10/epic. Once per round when you take more than 20 points of damage (after damage reduction is applied), you regain one use of mythic power."
 		],
@@ -1140,7 +1140,7 @@
 			"",
 			"*Rally (Su):* As a swift action, you can expend one use of mythic power to rally your allies. This gives you and each of your allies within 30 feet the option to reroll any one d20 roll after the roll is made. The granted reroll must be used before the beginning of your next turn, and the creature must take the result of the reroll, even if it is lower.",
 			"",
-			"***Path Ability:*** At 1st tier and every tier thereafter, select one new path ability from the marshal path abilities lists or from the [universal path abilities lists](rule/universal_path_abilities). Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
+			"***Path Ability:*** At 1st tier and every tier thereafter, select one new path ability from the marshal path abilities lists or from the {rule/universal path abilities/ lists}. Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
 			"",
 			"***Visionary Commander (Su):*** At 10th tier, whenever you or an ally within 30 feet rolls an initiative check, roll twice and take either result. If the first round of combat is a surprise round, you and all allies within 30 feet at the start of the combat can take a full round's worth of actions instead of just a move or standard action. Once per round, when you or an ally within 30 feet scores a critical hit against a mythic creature, you regain one use of mythic power."
 		],
@@ -1406,7 +1406,7 @@
 			"",
 			"*Surprise Strike (Ex):* As a swift action, you can expend one use of mythic power to make a melee attack or ranged attack against a target within 30 feet, in addition to any other attacks you make this round. When you make a surprise strike, the target is considered flat-footed regardless of any class features or abilities it might have, and you add your tier to the attack roll. Damage from this attack bypasses damage reduction.",
 			"",
-			"***Path Ability:*** At 1st tier and every tier thereafter, select one new path ability from the trickster path abilities lists or from the [universal path abilities lists](rule/universal_path_abilities). Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
+			"***Path Ability:*** At 1st tier and every tier thereafter, select one new path ability from the trickster path abilities lists or from the {rule/universal path abilities/ lists}. Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be selected only once. Some abilities have requirements, such as a class ability or minimum mythic tier, that you must meet before you select them.",
 			"",
 			"***Supreme Trickster (Su):*** At 10th tier, whenever you make an attack roll against a non-mythic foe, that foe is treated as flat-footed, even if it has abilities that prevent it from being flat-footed. Once per round when you roll a natural 20 on an opposed skill check against a mythic foe, you regain one use of mythic power."
 		],

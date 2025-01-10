@@ -50,7 +50,7 @@
 			"{SOURCE Advanced Class Guide/76}  ",
 			"A small number of arcanists learn to use blades as part of their spellcasting and in combat. While these blade adepts are not as capable with a sword as a true master duelist, their combination of swordplay and arcane power makes them quite deadly.",
 			"",
-			"**Sword Bond (Su):** At 1st level, a blade adept develops a bond with a blade and infuses it with arcane power. This ability works like a [wizard's arcane bond ability](class/wizard) save that the blade adept must bond to a one-handed piercing or slashing melee weapon. Additionally, the blade adept gains proficiency with the weapon if it is a simple or martial weapon. This ability replaces the arcanist exploits gained at 1st and 9th levels.",
+			"**Sword Bond (Su):** At 1st level, a blade adept develops a bond with a blade and infuses it with arcane power. This ability works like a {class/wizard/'s arcane bond ability} save that the blade adept must bond to a one-handed piercing or slashing melee weapon. Additionally, the blade adept gains proficiency with the weapon if it is a simple or martial weapon. This ability replaces the arcanist exploits gained at 1st and 9th levels.",
 			"",
 			"**Sentient Sword (Su):** At 3rd level, the blade adept's bonded sword becomes a powerful, sentient black blade. The blade advances as a [black blade](arc-magus/bladebound) using the blade adept's class level in place of the magus's class level and points from her arcane reservoir in place of the magus's arcane pool. A blade adept with this class feature cannot have a familiar of any kind, even from another class. This ability replaces the arcanist exploit gained at 3rd level.",
 			"",
@@ -62,7 +62,7 @@
 			"",
 			"**Spell Strike (Su):** The blade adept can deliver touch spells with her bonded weapon. This works as the magus ability of the same name.",
 			"",
-			"**Student of the Blade (Ex):** A blade adept can choose from any of the following bonus feats: {feat/Arcane Strike}, {feat/Weapon Finesse}, and [Weapon Focus (in the weapon she is bonded to)](feat/weapon_focus). This exploit can be taken multiple times. Each time it is taken, it applies to a different feat.",
+			"**Student of the Blade (Ex):** A blade adept can choose from any of the following bonus feats: {feat/Arcane Strike}, {feat/Weapon Finesse}, and {feat/Weapon Focus/ (in the weapon she is bonded to)}. This exploit can be taken multiple times. Each time it is taken, it applies to a different feat.",
 			"",
 			"**Weapon Specialization (Ex):** The arcanist gains {feat/Weapon Specialization} with her chosen weapon as a bonus feat. The blade adept does not need to meet the prerequisites for this feat, but must have the {feat/Weapon Focus} feat with her chosen weapon to select this exploit. The arcanist must be at least 5th level to select this exploit."
 		]
@@ -76,7 +76,7 @@
 			"{SOURCE Advanced Class Guide/77}  ",
 			"Though most arcanists possess only a rudimentary innate arcane gift, the blood arcanist has the full power of a bloodline to draw upon.",
 			"",
-			"**Bloodline:** A blood arcanist selects one bloodline from those available through the [sorcerer bloodline class feature](class/sorcerer). The blood arcanist gains the bloodline arcana and bloodline powers of that bloodline, treating her arcanist level as her sorcerer level. The blood arcanist does not gain the class skill, bonus feats, or bonus spells from her bloodline.",
+			"**Bloodline:** A blood arcanist selects one bloodline from those available through the {class/sorcerer/ bloodline class feature}. The blood arcanist gains the bloodline arcana and bloodline powers of that bloodline, treating her arcanist level as her sorcerer level. The blood arcanist does not gain the class skill, bonus feats, or bonus spells from her bloodline.",
 			"",
 			"If the blood arcanist takes levels in another class that grants a bloodline, the bloodlines must be the same type, even if that means that the bloodline of one of her classes must change. Subject to GM discretion, the blood arcanist can change her former bloodline to make them conform.",
 			"",

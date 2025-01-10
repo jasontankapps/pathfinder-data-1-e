@@ -149,13 +149,13 @@
 			"",
 			"{monster/Cloud Giant}: Cloud mongrels have fine features and pale blue or white skin. They can use the following spell-like abilities once per day: {spell/fog cloud}, {spell/levitate} (self plus 2,000 pounds), and {spell/obscuring mist}. They also gain the oversized weapon ability (the giant can wield a weapon of one size category larger than his size would normally allow without penalty). Wisdom +2.",
 			"",
-			"{monster/Desert Giant}: Desert mongrels have roughly textured tan or orange skin. They gain immunity to fire and [Martial Weapon Proficiency (scimitar)](feat/martial_weapon_proficiency) as a bonus feat. Dexterity +2.",
+			"{monster/Desert Giant}: Desert mongrels have roughly textured tan or orange skin. They gain immunity to fire and {feat/Martial Weapon Proficiency/ (scimitar)} as a bonus feat. Dexterity +2.",
 			"",
 			"{monster/Eclipse Giant}: Eclipse mongrels have dark gray skin and appear somewhat overweight. They gain immunity to death effects and can use the following spell-like abilities once per day: {spell/daylight} or {spell/deeper darkness} (choose one) and {spell/heal} or {spell/harm} (choose one). Wisdom +2.",
 			"",
-			"{monster/Fire Giant}: Fire mongrels have orange hair and red or black skin. They gain the {subtype/fire} subtype (including immunity to fire and vulnerability to cold), and gain [Martial Weapon Proficiency (greatsword)](feat/martial_weapon_proficiency) as a bonus feat. Strength +2.",
+			"{monster/Fire Giant}: Fire mongrels have orange hair and red or black skin. They gain the {subtype/fire} subtype (including immunity to fire and vulnerability to cold), and gain {feat/Martial Weapon Proficiency/ (greatsword)} as a bonus feat. Strength +2.",
 			"",
-			"{monster/Frost Giant}: Frost mongrels have light blue skin and dirty yellow hair. They gain the {subtype/cold} subtype (including immunity to cold and vulnerability to fire), and gain [Martial Weapon Proficiency (greataxe)](feat/martial_weapon_proficiency) as a bonus feat. Constitution +4.",
+			"{monster/Frost Giant}: Frost mongrels have light blue skin and dirty yellow hair. They gain the {subtype/cold} subtype (including immunity to cold and vulnerability to fire), and gain {feat/Martial Weapon Proficiency/ (greataxe)} as a bonus feat. Constitution +4.",
 			"",
 			"{monster/Jungle Giant}: Jungle mongrels have brown and green skin that is textured like fibrous plant material or tree bark. They gain immunity to poison and gain the jungle giant's archery expert ability. Dexterity +2.",
 			"",
@@ -187,7 +187,7 @@
 			"",
 			"{monster/Tomb Giant}: Tomb mongrels have milky-white, hairless flesh. They gain immunity to death effects and paralysis, gain the {umr/negative energy affinity} defensive ability, and can use {spell/control undead} once per day as a spell-like ability. Wisdom +2.",
 			"",
-			"{monster/Wood Giant}: Wood mongrels have pale pink skin and prominent brows. They can use the following spell-like abilities once per day: {spell/charm animal}, [enlarge person (self only)](spell/enlarge_person), {spell/pass without trace}, {spell/quench}, {spell/speak with animals}, {spell/spike growth}, and {spell/tree shape}. Dexterity +2."
+			"{monster/Wood Giant}: Wood mongrels have pale pink skin and prominent brows. They can use the following spell-like abilities once per day: {spell/charm animal}, {spell/enlarge person/ (self only)}, {spell/pass without trace}, {spell/quench}, {spell/speak with animals}, {spell/spike growth}, and {spell/tree shape}. Dexterity +2."
 		]
 	},
 	"monk": {
@@ -1972,7 +1972,7 @@
 			"",
 			"**Fear Aura (Su):** Any creature within a 60-foot radius of the shadow animal that can see or hear it must succeed at a Will saving throw (DC = 10 + half the shadow animal's HD + the shadow animal's Charisma modifier) or be shaken for as long as it remains within the aura. Whether or not it succeeds at its save, that creature cannot be affected again by the same shadow animal's fear aura for 24 hours. This is a mind-affecting fear effect.",
 			"",
-			"**Frightful Presence (Su):** The shadow animal gains the [frightful presence universal monster ability](umr/frightful_presence), which activates as a free action when the shadow animal charges, attacks during a surprise round, or succeeds at a DC 15 Intimidate check. Its frightful presence has a range of 30 feet and a duration of 5d6 rounds.",
+			"**Frightful Presence (Su):** The shadow animal gains the {umr/frightful presence/ universal monster ability}, which activates as a free action when the shadow animal charges, attacks during a surprise round, or succeeds at a DC 15 Intimidate check. Its frightful presence has a range of 30 feet and a duration of 5d6 rounds.",
 			"",
 			"**Hide in Plain Sight (Su):** The shadow animal can use Stealth even while being observed. As long as it is within 10 feet of a shadow other than its own, a shadow animal can attempt to use Stealth to hide itself from view even if it does not have cover or concealment.",
 			"",

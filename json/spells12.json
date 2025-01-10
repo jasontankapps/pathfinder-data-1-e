@@ -99,7 +99,7 @@
 			"## Baleful Shadow Transmutation",
 			"",
 			"{SOURCE Blood of Shadows/30}  ",
-			"**School** {spelldef/illusion} ([shadow](spelldef/shadow_subschool)) [[shadow](spelldef/shadow_descriptor)]; **Level** alchemist 6, arcanist 6, bard 6, druid 7, investigator 6, medium 6, shaman 6, skald 6, sorcerer 6, spiritualist 6, summoner 6, witch 6, wizard 6  ",
+			"**School** {spelldef/illusion} ({spelldef/shadow>_subschool}) [{spelldef/shadow>_descriptor}]; **Level** alchemist 6, arcanist 6, bard 6, druid 7, investigator 6, medium 6, shaman 6, skald 6, sorcerer 6, spiritualist 6, summoner 6, witch 6, wizard 6  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -3844,7 +3844,7 @@
 			"",
 			"**Elemental:** Your plane gains the air-, earth-, fire-, or water-elemental dominant trait (see {rule/Elemental and Energy Traits}).",
 			"",
-			"**Gravity:** By default a demiplane's gravity is normal and oriented in one direction, like what most creatures are used to on the Material Plane. By selecting this feature, the plane's gravity is heavy, light, none, objectively directional, or subjectively directional (see [Gravity](rule/gravity_traits)).",
+			"**Gravity:** By default a demiplane's gravity is normal and oriented in one direction, like what most creatures are used to on the Material Plane. By selecting this feature, the plane's gravity is heavy, light, none, objectively directional, or subjectively directional (see {rule/Gravity>_traits}).",
 			"",
 			"**Seasonal:** The demiplane has a seasonal cycle and a light cycle, usually similar to those of a land on the Material Plane, but customizable as you see fit (for example, your demiplane could always be winter, day and night could alternate every 4 hours, and so on).",
 			"",
@@ -3925,7 +3925,7 @@
 			"**Adyton**  ",
 			"**Type** contact; **Addiction** major, Fortitude DC 20  ",
 			"**Price** 2,000 gp  ",
-			"**Effect** An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the [mindscape](rule/mindscapes) called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.  ",
+			"**Effect** An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the {rule/mindscape>s} called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.  ",
 			"**Damage** 1d4 Str damage"
 		]
 	},

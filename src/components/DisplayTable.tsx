@@ -227,6 +227,16 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type, align }) => {
 					: output;
 			}
 			break;
+		case "pct":
+			// RawDatum is a number
+			if(typeof test !== "number") {
+				text = `Invalid PCT number [${test}]`;
+			} else {
+				text = typeof output === "number"
+					? output.toLocaleString() + "%"
+					: output;
+			}
+			break;
 		case "num":
 			// RawDatum is a number
 			if(typeof test !== "number") {
@@ -541,7 +551,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 			message: `Toggled OFF all rows.`,
 			color: "warning",
 			duration: 2500,
-			position: "middle"
+			position: "top"
 		}));
 	};
 	const toggleRows = (output: number[], text: string, value: string, bool: boolean) => {

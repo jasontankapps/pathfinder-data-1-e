@@ -341,7 +341,7 @@
 			"## Display Aversion",
 			"",
 			"{SOURCE Blood of the Night/30}  ",
-			"**School** {spelldef/illusion} ([shadow](spelldef/shadow_subschool)); **Level** arcanist 3, bard 2, cleric 2, inquisitor 2, oracle 2, redmantisassassin 3, skald 2, sorcerer 3, warpriest 2, witch 2, wizard 3  ",
+			"**School** {spelldef/illusion} ({spelldef/shadow>_subschool}); **Level** arcanist 3, bard 2, cleric 2, inquisitor 2, oracle 2, redmantisassassin 3, skald 2, sorcerer 3, warpriest 2, witch 2, wizard 3  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, M (a drop of holy water)  ",
 			"**Range** long (400 ft. + 40 ft./level)  ",
@@ -750,7 +750,7 @@
 			"",
 			"If you and the subject have a common language, you can generally force the subject to perform as you desire, within the limits of its abilities. If no common language exists, you can communicate only basic commands, such as \"Come here,\" \"Go there,\" \"Fight,\" and \"Stand still.\" You know what the subject is experiencing, but you do not receive direct sensory input from it, nor can it communicate with you telepathically.",
 			"",
-			"Once you have given a dominated creature a command, it continues to attempt to carry out that command to the exclusion of all other activities except those necessary for day-to-day survival (such as sleeping, eating, and so forth). Because of this limited range of activity, a Sense Motive check against DC 15 (rather than DC 25) can determine that the subject's behavior is being influenced by an enchantment effect (see the [Sense Motive skill description](skill/sense_motive)).",
+			"Once you have given a dominated creature a command, it continues to attempt to carry out that command to the exclusion of all other activities except those necessary for day-to-day survival (such as sleeping, eating, and so forth). Because of this limited range of activity, a Sense Motive check against DC 15 (rather than DC 25) can determine that the subject's behavior is being influenced by an enchantment effect (see the {skill/Sense Motive/ skill description}).",
 			"",
 			"Changing your orders or giving a dominated creature a new command is a move action.",
 			"",
@@ -1170,7 +1170,7 @@
 			"",
 			"You create a comforting phantasm, which leeches onto the psyche of a nearby target. The creature can attempt a Will saving throw to prevent the phantasm from entering its psyche, but otherwise it takes up permanent residence in the creature's mind. The phantasm fills its target's dreams with happy visions, comforting manifestations of loved ones, and incredible vistas, feeding the target a perfect fantasy life it never wishes to leave. After the target's next night's sleep, the target must succeed at a Will saving throw to wake up; otherwise, it remains asleep for the rest of the day and following night. Each night it must succeed at a new saving throw or remain asleep for days or weeks on end as it slowly starves to death (presuming it normally needs to eat to survive). Loud noises, jostling, and even pain won't rouse the slumbering target. Dealing 1 point of damage per the target's Hit Die awakens the target, but it awakens fatigued and takes a -2 penalty on all saving throws against spells and effects that may put it back to sleep until the phantasm has been banished.",
 			"",
-			"The phantasm remains in its host's mind indefinitely, requiring a new Will saving throw to wake up every time the target rests, until it is removed via break enchantment, greater restoration, or miracle. Alternatively, the phantasm can be confronted in its host's [mindscape](rule/mindscapes), where it manifests as a slothful duplicate of its host with identical abilities, skills, and attributes."
+			"The phantasm remains in its host's mind indefinitely, requiring a new Will saving throw to wake up every time the target rests, until it is removed via break enchantment, greater restoration, or miracle. Alternatively, the phantasm can be confronted in its host's {rule/mindscape>s}, where it manifests as a slothful duplicate of its host with identical abilities, skills, and attributes."
 		]
 	},
 	"dream_feast": {
@@ -3781,7 +3781,7 @@
 			"## Ghost Brand",
 			"",
 			"{SOURCE Ultimate Intrigue/215}  ",
-			"**School** {spelldef/transmutation} [[shadow](spelldef/shadow_descriptor)]; **Level** bard 4, occultist 3, skald 4, spiritualist 4, witch 4  ",
+			"**School** {spelldef/transmutation} [{spelldef/shadow>_descriptor}]; **Level** bard 4, occultist 3, skald 4, spiritualist 4, witch 4  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, M (a branding iron an a strip of white silk worth 10 gp)  ",
 			"**Range** touch  ",

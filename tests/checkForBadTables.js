@@ -27,7 +27,7 @@ const checkForBadTables = (tables, objectDescription) => {
 					// Check headers and types
 					headers.length !== types.length
 					|| headers.some(header => typeof header !== "string")
-					|| types.some(type => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", null, 0].indexOf(type) === -1)
+					|| types.some(type => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct", null, 0].indexOf(type) === -1)
 				) {
 					found = `Header/type table error at ${tableDesc} (${id})`;
 					return true;
@@ -113,7 +113,7 @@ const checkForBadTables = (tables, objectDescription) => {
 					found = found || `Bad filter property at ${tableDesc} (${id})`;
 					return true;
 				} else if (data.some((line, j) => {
-					const correspondingType = types.map(t => ["gp", "gp+", "lbs", "lbs+", "bonus", "num"].indexOf(t) === -1 ? "string" : "number");
+					const correspondingType = types.map(t => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct"].indexOf(t) === -1 ? "string" : "number");
 					// Check data
 					if(
 						!Array.isArray(line)
@@ -155,7 +155,7 @@ const checkForBadTables = (tables, objectDescription) => {
 							if(missing.length === 0) {
 								return false;
 							}
-							found = `Filter ${fi} in ${tableDesc} (${id}) doesn't exactly match any of [${missing.join(", ")}] in column ${col}`;
+							found = `${tableDesc}.filter[${fi}] (${id}) doesn't exactly match any of [${missing.join(", ")}] in column ${col}`;
 							return true;
 						})
 						|| checkHas.some(has => {
@@ -170,7 +170,7 @@ const checkForBadTables = (tables, objectDescription) => {
 							if(missing.length === 0) {
 								return false;
 							}
-							found = `Filter ${fi} in ${tableDesc} (${id}) doesn't match any of [${missing.join(", ")}] in column ${col}`;
+							found = `${tableDesc}.filter[${fi}] (${id}) doesn't match any of [${missing.join(", ")}] in column ${col}`;
 							return true;
 						})
 					)

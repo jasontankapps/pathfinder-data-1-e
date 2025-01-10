@@ -1432,7 +1432,7 @@
 			"",
 			"Appearing on the same line as the school and subschool, when applicable, is a descriptor that further categorizes the spell in some way. Some spells have more than one descriptor.",
 			"",
-			"The descriptors are {spelldef/acid}, {spelldef/air}, {spelldef/chaotic}, {spelldef/cold}, {spelldef/curse}, {spelldef/darkness}, {spelldef/death}, {spelldef/disease}, {spelldef/draconic}, {spelldef/earth}, {spelldef/electricity}, {spelldef/emotion}, {spelldef/evil}, {spelldef/fear}, {spelldef/fire}, {spelldef/force}, {spelldef/good}, {spelldef/language-dependent}, {spelldef/lawful}, {spelldef/light}, {spelldef/meditative}, {spelldef/mind-affecting}, {spelldef/pain}, {spelldef/poison}, {spelldef/ruse}, [shadow](spelldef/shadow_descriptor), {spelldef/sonic}, and {spelldef/water}.",
+			"The descriptors are {spelldef/acid}, {spelldef/air}, {spelldef/chaotic}, {spelldef/cold}, {spelldef/curse}, {spelldef/darkness}, {spelldef/death}, {spelldef/disease}, {spelldef/draconic}, {spelldef/earth}, {spelldef/electricity}, {spelldef/emotion}, {spelldef/evil}, {spelldef/fear}, {spelldef/fire}, {spelldef/force}, {spelldef/good}, {spelldef/language-dependent}, {spelldef/lawful}, {spelldef/light}, {spelldef/meditative}, {spelldef/mind-affecting}, {spelldef/pain}, {spelldef/poison}, {spelldef/ruse}, {spelldef/shadow>_descriptor}, {spelldef/sonic}, and {spelldef/water}.",
 			"",
 			"Most of these descriptors have no game effect by themselves, but they govern how the spell interacts with other spells, with special abilities, with unusual creatures, with alignment, and so on.",
 			"",

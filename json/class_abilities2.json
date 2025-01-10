@@ -38,7 +38,10 @@
 				"id": "druid animal companions",
 				"headers": [ "Companion", "Type", "Description" ],
 				"ripples": [0],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
+				"filter": [
+					{ "col": 1, "equals": [ "animal", "monstrous", "plant", "vermin" ] }
+				],
 				"alignments": [ true, null, true ],
 				"data": [
 					[ "{druidcompanion/Allosaurus}", "animal", "This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful arms that end in sharp claws." ],
@@ -255,7 +258,7 @@
 					[ "{druidcompanion/Yzobu}", "animal", "This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak." ],
 					[ "{druidcompanion/Zebra}", "animal", "The iconic black and white stripes of the zebra make it instantly recognizable." ]
 				],
-				"sizes": [125, 100, 200],
+				"sizes": [150, 100, 200],
 				"initialColumn": 0
 			}
 		],

@@ -178,7 +178,7 @@ const postprocess = (prefix, tables, flags) => {
 		text = output + text;
 		output = "";
 		//<table>
-		//Add "tableWrap" <div> around <table> so it can scroll horizontally
+		//Add "tableWrap" <div> around <table> so it can be contained to one pageview and scroll horizontally
 		while(m = text.match(/^(.*?)(<table>.+?<\/table>)(.*)$/)) {
 			const [x, pre, table, post] = m;
 			output = output + `${pre}<div className="tableWrap">${table}</div>`;

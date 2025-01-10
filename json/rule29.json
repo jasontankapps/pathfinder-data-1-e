@@ -57,7 +57,7 @@
 			"- [Earning downtime capital](rule/gaining_capital) such as Goods, Influence, and Labor.",
 			"- The [phase sequence](rule/downtime_phases) for using downtime.",
 			"- The kinds of [activities](rule/downtime_activities) you can do with this system.",
-			"- Constructing [rooms](rule/rooms_and_teams), the building blocks of buildings such as guildhalls or temples, and recruiting teams such as apprentices and guards.",
+			"- Constructing {rule/rooms>_and_teams}, the building blocks of buildings such as guildhalls or temples, and recruiting teams such as apprentices and guards.",
 			"- [Example](rule/buildings_and_organizations) buildings constructed out of rooms, and example organizations built out of teams.",
 			"- Positive and negative [events](rule/downtime_events) that can occur during downtime.",
 			"- Downtime tracking sheet (included in physical book only)."
@@ -93,7 +93,7 @@
 			"",
 			"***Building:*** A building is a physical structure you construct or purchase, such as a house, inn, or temple. The downtime system allows you to construct buildings out of specialized rooms - see {rule/Rooms and Teams}.",
 			"",
-			"***Build Points:*** A build point (BP) is a unit of wealth and productivity used in the [kingdom-building rules](rule/kingdom_building). The downtime system doesn't normally use BP, but if you are using the kingdom-building rules, you may have ways to spend BP as part of your downtime. BP are a larger-scale combination of Goods, Influence, Labor, and Prestige.",
+			"***Build Points:*** A build point (BP) is a unit of wealth and productivity used in the {rule/kingdom-building/ rules}. The downtime system doesn't normally use BP, but if you are using the kingdom-building rules, you may have ways to spend BP as part of your downtime. BP are a larger-scale combination of Goods, Influence, Labor, and Prestige.",
 			"",
 			"***Business:*** A business is a building or organization that earns you one or more kinds of capital, such as a blacksmith's shop or thieves' guild.",
 			"",
@@ -463,7 +463,7 @@
 			"",
 			"***Step 4-Determine Business Attrition:*** Business attrition is loss caused by poor morale among employees due to your absence. If a building doesn't generate capital (and therefore isn't a business), skip Step 4. Without any employees to speculate about your absence, there is no chance of mutiny. However, the GM may decide that opportunistic thieves, squatters, monsters, animals, or vermin may move into an abandoned building if you are gone for a long time, requiring you to clear them out if you want to use it again.",
 			"",
-			"Because adventuring is dangerous work, if you're away from a settlement for 30 days or more, you risk losing control of your businesses there as employees begin to wonder whether you're dead. Upon your return, you must attempt a leadership check (1d20 + your Leadership score) against a DC equal to the number of days since you last had contact with that businesses - 10 (so if you've been gone for 30 days, the DC is 20). Having contact with the business requires visiting it personally, sending a qualified representative on your behalf (such as a cohort or [manager](rule/managers)), or sending a formal letter or magical communication (such as {spell/dream}, {spell/sending}, or {spell/whispering wind}); doing so resets your number of days away to 0.",
+			"Because adventuring is dangerous work, if you're away from a settlement for 30 days or more, you risk losing control of your businesses there as employees begin to wonder whether you're dead. Upon your return, you must attempt a leadership check (1d20 + your Leadership score) against a DC equal to the number of days since you last had contact with that businesses - 10 (so if you've been gone for 30 days, the DC is 20). Having contact with the business requires visiting it personally, sending a qualified representative on your behalf (such as a cohort or {rule/manager>s}), or sending a formal letter or magical communication (such as {spell/dream}, {spell/sending}, or {spell/whispering wind}); doing so resets your number of days away to 0.",
 			"",
 			"If this leadership check succeeds, the business remains under your control. For each business you've been away from for at least 30 days, you must continue to attempt this leadership check each day until you make contact again.",
 			"",
@@ -968,7 +968,7 @@
 		"description": [
 			"{SOURCE Ultimate Campaign/85}",
 			"",
-			"If you are using the [kingdom-building rules](rule/kingdom_building) and have a leadership role in the kingdom, you must spend 7 days per month performing various [leadership duties](rule/leadership_roles). In the downtime system, performing leadership duties for a day costs 1 day of downtime. You can't perform any other downtime activities on a day you perform kingdom leadership duties."
+			"If you are using the {rule/kingdom-building/ rules} and have a leadership role in the kingdom, you must spend 7 days per month performing various [leadership duties](rule/leadership_roles). In the downtime system, performing leadership duties for a day costs 1 day of downtime. You can't perform any other downtime activities on a day you perform kingdom leadership duties."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -1450,7 +1450,7 @@
 			"",
 			"A manager is a competent employee qualified to run a business while you're gone, even for weeks or months at a time. A manager is authorized to make certain decisions about your property while you're away, such as paying tax collectors, banning cultists from your store, and handling emergency situations.",
 			"",
-			"Having a manager delays capital attrition [Upkeep phase step 3](rule/upkeep_phase)) from 1 every 7 days to 1 every 14 days. As long as the manager's pay is up to date, having a manager look after your business prevents business attrition [see step 4 of the Upkeep phase](rule/upkeep_phase)).",
+			"Having a manager delays capital attrition {rule/Upkeep phase/ step 3}) from 1 every 7 days to 1 every 14 days. As long as the manager's pay is up to date, having a manager look after your business prevents business attrition [see step 4 of the Upkeep phase](rule/upkeep_phase)).",
 			"",
 			"Unlike a team, a manager requires daily wages paid in gp. It's customary to pay a manager in advance when you're going to be absent, or arrange to pay wages through a bank or accountant. If you trust the manager, you can even allow her to take wages out of your business's earnings or from money you've set aside for your building or organization.",
 			"",
