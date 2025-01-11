@@ -622,7 +622,7 @@
 			"These C-shaped bows are most often used in the Hongal tundra by the outriders of Tianjing, and in rare cases by the nobility of Xa Hoi. The unique shape and craft of these bows allows them to shoot with the same velocity and power as a longbow. The shorter size also allows them to be wielded easily while mounted on horseback (or atop any other steed). While mounted, you gain a +1 circumstance bonus on attack rolls with a reflex bow. All reflex bows are composite bows and can be modified to benefit from high Strength scores in the same way as composite bows. Effects that apply to both longbows and shortbows also apply to reflex bows.",
 			"",
 			"**Cost** 125 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 100 ft.; **Type** P; **Special** See text  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 100 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial"
 		]
 	},
@@ -1306,7 +1306,7 @@
 			"Used in Avistan since before Earthfall, seaxes are straight, single-edged blades. The broken-back seax is the size of a short sword, and has a broad blade with a distinctive trapezoidal shape. If your Strength score is less than 15, you take a -2 penalty on attack rolls with a broken-back seax, as you're unable to put enough force into the blows to land them effectively.",
 			"",
 			"**Cost** 40 gp **Weight** 4 lbs  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P & S; **Special** See text  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P & S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
 		]
@@ -1656,7 +1656,7 @@
 			"Patterned after the fiery blades masterfully wielded by Sarenite angels, the split-blade sword is both a holy symbol and a difficult-yet-effective weapon. A split-blade sword resembles a large scimitar whose blade splits into two about two-thirds of the way toward the tip. If your Dexterity score is less than 15, you take a -2 penalty on attacks rolls with a split-blade sword, as you're unable to maneuver its unusual blade.",
 			"",
 			"**Cost** 200 gp **Weight** 8 lbs  ",
-			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** Disarm, trip, see text  ",
+			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, trip, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
 		]
@@ -1977,7 +1977,7 @@
 			"This long, heavy spear has a point at each end, allowing it to be used as a double weapon.",
 			"",
 			"**Cost** 25 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** Double  ",
+			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**[Weapon Group](ability/weapon_groups)** Spears"
 		]
@@ -2669,7 +2669,7 @@
 			"A grappling hook's weight includes the weight of 50 feet of hemp rope. It can be reduced by using shorter or lighter rope.",
 			"",
 			"**Cost** 6 gp **Weight** 14 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** grappling  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** grapple  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		]
 	},

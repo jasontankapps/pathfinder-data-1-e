@@ -513,6 +513,7 @@
 				"initialColumn": 1
 			}
 		],
+		"topLink": [ "Magic Weapons", "rule/magic_weapons" ],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_rings": {
@@ -757,6 +758,7 @@
 				"initialColumn": 1
 			}
 		],
+		"topLink": [ "Rings", "rule/rings" ],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_rods": {
@@ -1022,6 +1024,7 @@
 				"initialColumn": 1
 			}
 		],
+		"topLink": [ "Rods", "rule/rods" ],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_misc": {
@@ -1782,6 +1785,7 @@
 				"initialColumn": 2
 			}
 		],
+		"topLink": [ "Magic Armor", "rule/magic_armor" ],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_artifacts": {
@@ -2132,6 +2136,7 @@
 				"initialColumn": 0
 			}
 		],
+		"topLink": [ "Artifacts", "rule/artifacts" ],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_cursed": {
@@ -2233,6 +2238,7 @@
 			"## magic-wondrous/unspeakable_ones_vestments Unspeakable One's Vestments",
 			"## magic-wondrous/vacuous_grimoire Vacuous Grimoire"
 		],
+		"topLink": [ "Cursed Magic Items", "rule/cursed_items" ],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	},
 	"magic_enhancements": {
@@ -2725,6 +2731,7 @@
 				"initialColumn": 1
 			}
 		],
+		"topLink": [ "Staves", "rule/staves" ],
 		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
 	}
 }

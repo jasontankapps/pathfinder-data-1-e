@@ -2463,7 +2463,7 @@
 			"Many unarmed fighters wrap their hands in cloth to minimize injuries to their fists. Some martial artists also weave small coins or metal bars into their handwraps, adding special material effects as well. Handwraps don't alter the damage a character's unarmed attacks deal. However, masterwork handwraps can be enchanted as weapons, providing their benefits on unarmed attacks the character makes with her hands. A character can't benefit from both handwraps and other items that provide enhancement bonuses or weapon special abilities (such as an {magic-wondrous/amulet of mighty fists}) on the same attack.",
 			"",
 			"**Cost** 0.1 gp **Weight** -  ",
-			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** See text  ",
+			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
 			"**Category** Light; **Proficiency** Simple"
 		]
 	},
@@ -2626,7 +2626,7 @@
 			"These small tea kettles are made with clamping lids and heavily reinforced handles, allowing them to be swung like a club. A traveling kettle with boiling water inside deals an additional 1 point of fire damage on a hit. Boiling water cools to a non-damaging temperature after 5 minutes.",
 			"",
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** Monk, see text  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**[Weapon Group](ability/weapon_groups)** Monk"
 		]
@@ -2661,7 +2661,7 @@
 			"These weapons are treated sticks of wood, either left bare or covered in elaborate decorative designs. Baston fighting sticks vary in length from 2 to 4 feet, with thicknesses varying between 1 to 3 inches. In most applications, these weapons are similar to clubs or quarterstaffs, but in the hands of a trained expert, they truly shine. A creature with the {feat/Combat Reflexes} feat treats the weapon as having the blocking and performance weapon special features.",
 			"",
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** Monk, see text  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
 			"**Category** One-Handed; **Proficiency** Simple"
 		]
 	},
@@ -2818,7 +2818,7 @@
 			"## Kumade",
 			"{SOURCE Melee Tactics Toolbox/19}",
 			"",
-			"Adapted from a garden rake, the kumade consists of a wood or bamboo pole topped with a metal claw. The rake head doubles as a grappling hook. When a kumade is secured to a surface, such as a rafter or window sill, its handle can be climbed as a 5-foot length of rope.",
+			"Adapted from a garden rake, the kumade consists of a wood or bamboo pole topped with a metal claw. The rake head doubles as a {eq-weapon/grappling hook}. When a kumade is secured to a surface, such as a rafter or window sill, its handle can be climbed as a 5-foot length of rope.",
 			"",
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** grapple  ",

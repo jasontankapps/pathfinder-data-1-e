@@ -65,7 +65,7 @@
 					[ "{druidcompanion/Basilosaurus}", "animal", "This immense primeval whale has a sleek body that looks more serpentine than mammal, and jaws filled with sharp teeth." ],
 					[ "{druidcompanion/Bear}", "animal", "Broad, powerful muscles move beneath this massive bear's brown fur, promising both speed and lethal force." ],
 					[ "{druidcompanion/Beetle, Giant}", "vermin", "With a sleek body and huge mandibles raised in a threatening pose, this large beetle stands firm in defense of its territory." ],
-					[ "{druidcompanion/Bird/ (Eagle/Hawk/Owl)}", "animal", "This magnificent bird of prey has dark feathers save for those on its head, which are pure white." ],
+					[ "{druidcompanion/Bird/ (Eagle, Hawk, Owl)}", "animal", "This magnificent bird of prey has dark feathers save for those on its head, which are pure white." ],
 					[ "{druidcompanion/Blackwisp Egret}", "animal", "This jet-black bird has a long, hooked beak. Its piercing orange eyes reflect any light that hits them, making them appear to glow ominously." ],
 					[ "{druidcompanion/Blue Whale}", "animal", "This massive aquatic mammal has bluish-gray coloration, a wide fluke tail, and a wide mouth filled with layers of baleen." ],
 					[ "{druidcompanion/Boar}", "animal", "This ill-tempered beast's tiny, bloodshot eyes glare angrily above a mouth filled with sharp tusks." ],
@@ -1694,7 +1694,7 @@
 			"",
 			"**Throat Jab (Ex)** ({source/Ultimate Intrigue/ pg. 16}): The vigilante's hidden strike jabs his opponent in the throat, preventing that opponent from speaking until the vigilante's next turn. (If the vigilante uses this ability on the surprise round, it lasts until the end of his first full turn after the surprise round.) This prevents the target from calling out for help, using spells with verbal components, or doing anything else that requires speaking. The target cannot be affected by that vigilante's throat jab again for 24 hours. Only a stalker vigilante of at least 4th level can select this talent."
 		],
-		"subhierarchy": [[ "Vigilante", "class/vigilante" ], [ "Stalker", "archetype-vigilante/stalker" ]]
+		"subhierarchy": [[ "Vigilante", "class/vigilante" ]]
 	},
 	"implements": {
 		"name": "Implements",

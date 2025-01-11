@@ -268,14 +268,14 @@
 	},
 	"giant_beetle": { "copyof": "beetle_giant" },
 	"bird": {
-		"name": "Bird (Eagle/Hawk/Owl)",
+		"name": "Bird (Eagle, Hawk, Owl)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Bird (Eagle/Hawk/Owl)",
+			"## Bird (Eagle, Hawk, Owl)",
 			"",
 			"{SOURCE PRPG Core Rulebook/53}  ",
 			"**Companion Type** Animal  ",
-			"**Monster Entry:** [Bird (Eagle/Hawk/Owl)](monster/eagle)",
+			"**Monster Entry:** {monster/Eagle}, {monster/Hawk}, {monster/Owl}",
 			"",
 			"This magnificent bird of prey has dark feathers save for those on its head, which are pure white.",
 			"",

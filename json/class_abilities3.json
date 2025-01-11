@@ -946,7 +946,7 @@
 			"",
 			"**Effect:** This trap makes a melee attack against the target using the ranger's base attack bonus + his Wisdom modifier for the attack roll. It deals an amount of damage equal to 1d6 + 1/2 the ranger's level. The ranger chooses whether this damage is bludgeoning, piercing, or slashing. If this is a supernatural trap, the attack counts as magical for the purposes of overcoming damage reduction."
 		],
-		"subhierarchy": [[ "Ranger", "class/ranger" ], [ "Trapper", "archetype-ranger/trapper" ]]
+		"subhierarchy": [[ "Ranger", "class/ranger" ], [ "Trapper", "arc-ranger/trapper" ]]
 	},
 	"rogue_talents": {
 		"name": "Rogue Talents",

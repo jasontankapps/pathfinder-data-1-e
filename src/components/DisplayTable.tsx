@@ -37,7 +37,6 @@ import {
 	closeCircle,
 	ellipse,
 	filter as filterIcon,
-	refresh,
 	repeat
 } from 'ionicons/icons';
 import Markdown, { ExtraProps } from 'react-markdown';
@@ -63,15 +62,13 @@ interface ThProps {
 	size?: number
 }
 
-interface TdProps {
-	datum: Datum
-	type: TableColumnInfoTypes
-	align?: (boolean | null)
-}
-
 interface TdRouterLinkProps {
 	datum: Datum
 	align?: (boolean | null)
+}
+
+interface TdProps extends TdRouterLinkProps {
+	type: TableColumnInfoTypes
 }
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
@@ -545,11 +542,11 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		// Close
 		setOpen(false);
 	};
-	const toggleAllRows = () => {
-		setActiveRows(activeRows.map(x => false));
+	const toggleAllRows = (bool: boolean) => {
+		setActiveRows(activeRows.map(x => bool));
 		closeToast().then(() => toast({
-			message: `Toggled OFF all rows.`,
-			color: "warning",
+			message: `Toggled ${bool ? "ON" : "OFF"} all rows.`,
+			color: bool ? "success" : "danger",
 			duration: 2500,
 			position: "top"
 		}));
@@ -604,10 +601,9 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					))}
 					<IonItemDivider>Table Content</IonItemDivider>
 					<IonItem>
-						<IonLabel>Reset all rows</IonLabel>
-						<IonButton slot="end" color="tertiary" onClick={toggleAllRows}>
-							<IonIcon slot="icon-only" icon={refresh} />
-						</IonButton>
+						<IonLabel>Toggle all rows</IonLabel>
+						<IonButton slot="end" color="success" onClick={() => toggleAllRows(true)}>On</IonButton>
+						<IonButton slot="end" color="danger" onClick={() => toggleAllRows(false)}>Off</IonButton>
 					</IonItem>
 					{ !filterObjects ? <></> :
 						filterObjects.map((f, i) =>

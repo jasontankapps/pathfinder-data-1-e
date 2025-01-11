@@ -234,7 +234,7 @@ const testLinks = () => {
 		// `invalid links in ${link} files:`
 		const invalid = [];
 		Object.keys(object).forEach(prop => {
-			const {sources, tables, description, members, mythic_members} = object[prop];
+			const {sources, tables, description, topLink, previous = [], subhierarchy = []} = object[prop];
 			if(sources !== undefined) {
 				if(!sources || !Array.isArray(sources)) {
 					msg.push(`\tINVALID ${prop}.sources`);
@@ -341,6 +341,15 @@ const testLinks = () => {
 						invalid.push(potential)
 					}
 					temp = m.pop();
+				}
+			});
+			const hierarchies = [...subhierarchy, ...previous];
+			topLink && hierarchies.unshift(topLink);
+			hierarchies.forEach(pair => {
+				const [ title, link ] = pair;
+				const m = link.match(/^([-a-z0-9_]+)\/([a-z_0-9]+)$/);
+				if(!m || (!known_props[m[1]] || !known_props[m[1]][m[2]])) {
+					invalid.push(`[ "${title}", "${link}" ]`);
 				}
 			});
 		});
