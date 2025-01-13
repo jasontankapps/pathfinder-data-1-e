@@ -1,5 +1,6 @@
 import { FC, ReactNode } from 'react';
 import {IonItem,IonLabel} from '@ionic/react';
+import { useLocation } from 'wouter';
 import { useAppDispatch } from '../store/hooks';
 import { goTo } from '../store/historySlice';
 
@@ -33,13 +34,12 @@ const getElementAndUrl = (input: string): [ReactNode, string | null] => {
 
 const MainLink: FC<MainLinkProps> = ({className, info}) => {
 	const dispatch = useAppDispatch();
+	const [location, navigate] = useLocation();
 	const [label, link] = getElementAndUrl(info);
 	return (
 		<IonItem
 			className={"mainItem linked" + (className ? " " + className : "")}
-			routerLink={link || undefined}
-			onClick={link ? () => dispatch(goTo(link)) : undefined}
-			routerDirection={link ? "forward" : undefined}
+			onClick={link ? () => { dispatch(goTo(link)); navigate(link); } : undefined}
 		>
 			{label}
 		</IonItem>

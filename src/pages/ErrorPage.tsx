@@ -1,4 +1,4 @@
-import { useRouteMatch } from "react-router-dom";
+import { useLocation } from "wouter";
 import { SourceProp } from '../components/SourcesModal';
 import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
 import { HierarchyArray } from '../types';
@@ -20,8 +20,8 @@ const hierarchy: HierarchyArray = [["Main", "main/main"]];
 const sources: SourceProp[] = [];
 
 const ErrorPage: React.FC = () => {
-	const matches = useRouteMatch();
-	const m = matches.path.match(matcher);
+	const [ path ] = useLocation();
+	const m = path.match(matcher);
 	return (m ?
 		<BasicPage pageId="error-page" title="Not Found" hierarchy={hierarchy} sources={sources}>
 			<p>Unable to find the requested information. [Error 201]</p>

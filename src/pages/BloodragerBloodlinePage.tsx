@@ -1,4 +1,4 @@
-import { useParams } from 'react-router';
+import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import bloodlines from './subpages/__bloodragerbloodline';
 import BasicPage from './BasicPage';

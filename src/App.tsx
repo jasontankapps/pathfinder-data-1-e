@@ -1,7 +1,6 @@
 import { FC, Suspense, lazy } from 'react';
-import { IonApp, IonRouterOutlet, IonSplitPane, setupIonicReact } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
-import { Route } from 'react-router-dom';
+import { IonApp, IonContent, IonSplitPane, setupIonicReact } from '@ionic/react';
+import { Route, Switch } from 'wouter';
 
 import Menu from './components/Menu';
 
@@ -117,132 +116,94 @@ const UMRPage = lazy(() => import("./pages/UMRPage"));
 const App: FC = () => {
 	return (
 		<IonApp>
-			<IonReactRouter>
-				<IonSplitPane contentId="main">
-					<Menu />
-					<IonRouterOutlet id="main">
-						<Route path="/" exact={true} render={() => <FrontPage />} />
-						<Route path="/about" exact={true} render={() => <AboutOnlyPage />} />
-						<Route path="/main/:mainpage" render={() => <MainPage />} />
-						<Route path="/arcaneschool/:id" render={() => <Suspense fallback={<Loading />}><SchoolPage /></Suspense>} />
-						<Route path="/ability/:id" render={() => <ClassAbilityPage />} />
-						<Route path="/arc-:parent/:id" render={() => <ArchetypePage />} />
-						<Route path="/aspect/:id" render={() => <Suspense fallback={<Loading />}><AspectPage /></Suspense>} />
-						<Route path="/bardicmasterpiece/:id" render={() => <Suspense fallback={<Loading />}><MasterpiecePage /></Suspense>} />
-						<Route path="/blessing/:id" render={() => <Suspense fallback={<Loading />}><BlessingPage /></Suspense>} />
-						<Route path="/bloodragerbloodline/:id" render={() => <Suspense fallback={<Loading />}><BloodragerBloodlinePage /></Suspense>} />
-						<Route path="/class/:id" render={() => <ClassPage />} />
-						<Route path="/corruption/:id" render={() => <Suspense fallback={<Loading />}><CorruptionPage /></Suspense>} />
-						<Route path={[
-							"/curse/:id",
-							"/disease/:id",
-							"/infestation/:id"
-						]} render={() => <Suspense fallback={<Loading />}><AfflictionPage /></Suspense>} />
-						<Route path="/constructmod/:id" render={() => <Suspense fallback={<Loading />}><ConstructModPage /></Suspense>} />
-						<Route path="/discipline/:id" render={() => <Suspense fallback={<Loading />}><DisciplinePage /></Suspense>} />
-						<Route path="/domain/:id" render={() => <Suspense fallback={<Loading />}><DomainPage /></Suspense>} />
-						<Route path="/drug/:id" render={() => <Suspense fallback={<Loading />}><DrugPage /></Suspense>} />
-						<Route path="/druidcompanion/:id" render={() => <Suspense fallback={<Loading />}><CompanionPage /></Suspense>} />
-						<Route path="/druiddomain/:id" render={() => <Suspense fallback={<Loading />}><DruidDomainPage /></Suspense>} />
-						<Route path="/eq-armor/:id" render={() => <Suspense fallback={<Loading />}><EquipmentArmorPage /></Suspense>} />
-						<Route path="/eq-armorenh/:id" render={() => <Suspense fallback={<Loading />}><EquipmentArmorEnhancementsPage /></Suspense>} />
-						<Route path="/eq-material/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSpecMaterialPage /></Suspense>} />
-						<Route path="/eq-misc/:id" render={() => <EquipmentMiscPage />} />
-						<Route path="/eq-poison/:id" render={() => <Suspense fallback={<Loading />}><EquipmentPoisonPage /></Suspense>} />
-						<Route path="/eq-reagent/:id" render={() => <Suspense fallback={<Loading />}><EquipmentAlchemicalReagentPage /></Suspense>} />
-						<Route path="/eq-siegeengine/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSiegeEnginePage /></Suspense>} />
-						<Route path="/eq-spellbook/:id" render={() => <Suspense fallback={<Loading />}><EquipmentSpellbookPage /></Suspense>} />
-						<Route path="/eq-weapon/:id" render={() => <Suspense fallback={<Loading />}><EquipmentWeaponPage /></Suspense>} />
-						<Route path="/eq-weaponenh/:id" render={() => <Suspense fallback={<Loading />}><EquipmentWeaponEnhancementsPage /></Suspense>} />
-						<Route path={[
-							"/exploit/:id",
-							"/greaterexploit/:id"
-						]} render={() => <Suspense fallback={<Loading />}><ExploitPage /></Suspense>} />
-						<Route path="/faith/:id" render={() => <FaithPage />} />
-						<Route path="/family/:id" render={() => <Suspense fallback={<Loading />}><MonsterFamilyPage /></Suspense>} />
-						<Route path="/feat/:id" render={() => <FeatPage />} />
-						<Route path="/haunt/:id" render={() => <Suspense fallback={<Loading />}><HauntPage /></Suspense>} />
-						<Route path="/hellknightorder/:id" render={() => <Suspense fallback={<Loading />}><HellknightOrderPage /></Suspense>} />
-						<Route path="/implement/:id" render={() => <Suspense fallback={<Loading />}><ImplementPage /></Suspense>} />
-						<Route path="/inquisition/:id" render={() => <Suspense fallback={<Loading />}><InquisitionPage /></Suspense>} />
-						<Route path="/kinetic/:id" render={() => <Suspense fallback={<Loading />}><KineticPage /></Suspense>} />
-						<Route path="/madness/:id" render={() => <Suspense fallback={<Loading />}><MadnessPage /></Suspense>} />
-						<Route path="/magic-armor/:id" render={() => <Suspense fallback={<Loading />}><MagicArmorPage /></Suspense>} />
-						<Route path="/magic-artifact/:id" render={() => <MagicArtifactPage />} />
-						<Route path="/magic-enhancement/:id" render={() => <Suspense fallback={<Loading />}><MagicEnhancementPage /></Suspense>} />
-						<Route path="/magic-ioun/:id" render={() => <Suspense fallback={<Loading />}><MagicIounStonePage /></Suspense>} />
-						<Route path="/magic-ring/:id" render={() => <Suspense fallback={<Loading />}><MagicRingPage /></Suspense>} />
-						<Route path="/magic-rod/:id" render={() => <Suspense fallback={<Loading />}><MagicRodPage /></Suspense>} />
-						<Route path="/magic-staff/:id" render={() => <Suspense fallback={<Loading />}><MagicStaffPage /></Suspense>} />
-						<Route path="/magic-weapon/:id" render={() => <MagicWeaponPage />} />
-						<Route path="/magic-wondrous/:id" render={() => <MagicWondrousPage />} />
-						<Route path="/magusarcana/:id" render={() => <Suspense fallback={<Loading />}><ArcanaPage /></Suspense>} />
-						<Route path="/monster/:id" render={() => <MonsterPage />} />
-						<Route path="/mystery/:id" render={() => <Suspense fallback={<Loading />}><MysteryPage /></Suspense>} />
-						<Route path={[
-							"/magic-altar/:id",
-							"/magic-augmentation/:id",
-							"/magic-favor/:id",
-							"/magic-fetish/:id",
-							"/magic-fleshcrafting/:id",
-							"/magic-graft/:id",
-							"/magic-implant/:id",
-							"/magic-necrograft/:id",
-							"/magic-necrotoxin/:id",
-							"/magic-piercing/:id",
-							"/magic-plant/:id",
-							"/magic-poison/:id",
-							"/magic-relic/:id",
-							"/magic-set/:id",
-							"/magic-talisman/:id",
-							"/magic-tattoo/:id",
-							"/magic-throne/:id"
-						]} render={() => <Suspense fallback={<Loading />}><MagicMiscPage /></Suspense>} />
-						<Route path="/npc/:id" render={() => <NPCPage />} />
-						<Route path="/oath/:id" render={() => <Suspense fallback={<Loading />}><OathPage /></Suspense>} />
-						<Route path="/oraclecurse/:id" render={() => <Suspense fallback={<Loading />}><CursePage /></Suspense>} />
-						<Route path="/order/:id" render={() => <Suspense fallback={<Loading />}><OrderPage /></Suspense>} />
-						<Route path="/prestigeclass/:id" render={() => <PrestigeClassPage />} />
-						<Route path="/race/:id" render={() => <RacePage />} />
-						<Route path={[
-							"/ragepower/:id",
-							"/stanceragepower/:id"
-						]} render={() => <Suspense fallback={<Loading />}><RagePowerPage /></Suspense>} />
-						<Route path="/rule/:id" render={() => <RulesPage />} />
-						<Route path="/search" render={() => <Suspense fallback={<Loading />}><SearchPage /></Suspense>} />
-						<Route path="/shamanspirit/:id" render={() => <Suspense fallback={<Loading />}><ShamanSpiritPage /></Suspense>} />
-						<Route path={[
-							"/npcclass/:id",
-							"/sidekick/:id"
-						]} render={() => <Suspense fallback={<Loading />}><OtherClassPage /></Suspense>} />
-						<Route path="/skill/:id" render={() => <Suspense fallback={<Loading />}><SkillPage /></Suspense>} />
-						<Route path="/sorcererbloodline/:id" render={() => <Suspense fallback={<Loading />}><SorcererBloodlinePage /></Suspense>} />
-						<Route path="/source/:id" render={() => <Suspense fallback={<Loading />}><SourcePage /></Suspense>} />
-						<Route path="/spell/:id" render={() => <SpellPage />} />
-						<Route path="/spelldef/:id" render={() => <Suspense fallback={<Loading />}><SpellDefPage /></Suspense>} />
-						<Route path={[
-							"/legendaryspirit/:id",
-							"/spirit/:id",
-							"/outsiderspirit/:id"
-						]} render={() => <Suspense fallback={<Loading />}><MediumSpiritPage /></Suspense>} />
-						<Route path={[
-							"/subtype/:id",
-							"/type/:id"
-						]} render={() => <Suspense fallback={<Loading />}><MonsterTypingPage /></Suspense>} />
-						<Route path="/tech-armor/:id" render={() => <Suspense fallback={<Loading />}><TechArmorPage /></Suspense>} />
-						<Route path="/tech-artifact/:id" render={() => <Suspense fallback={<Loading />}><TechArtifactPage /></Suspense>} />
-						<Route path="/tech-cybertech/:id" render={() => <Suspense fallback={<Loading />}><TechCybertechPage /></Suspense>} />
-						<Route path="/tech-misc/:id" render={() => <Suspense fallback={<Loading />}><TechMiscPage /></Suspense>} />
-						<Route path="/tech-pharmaceutical/:id" render={() => <Suspense fallback={<Loading />}><TechPharmaceuticalsPage /></Suspense>} />
-						<Route path="/tech-weapon/:id" render={() => <Suspense fallback={<Loading />}><TechWeaponPage /></Suspense>} />
-						<Route path="/template/:id" render={() => <MonsterTemplatePage />} />
-						<Route path="/trait/:id" render={() => <TraitPage />} />
-						<Route path="/trap/:id" render={() => <Suspense fallback={<Loading />}><TrapPage /></Suspense>} />
-						<Route path="/umr/:id" render={() => <Suspense fallback={<Loading />}><UMRPage /></Suspense>} />
-						<Route render={() => <ErrorPage />} />
-					</IonRouterOutlet>
-				</IonSplitPane>
-			</IonReactRouter>
+			<IonSplitPane contentId="main">
+				<Menu />
+				<IonContent id="main">
+					<Switch>
+						<Route path="/about"><AboutOnlyPage /></Route>
+						<Route path="/main/:mainpage"><MainPage /></Route>
+						<Route path="/arcaneschool/:id"><Suspense fallback={<Loading />}><SchoolPage /></Suspense></Route>
+						<Route path="/ability/:id"><ClassAbilityPage /></Route>
+						<Route path={/^[/]arc-(?<parent>[a-z_]+)[/](?<id>[a-z_0-9]+)[/]?$/}><ArchetypePage /></Route>
+						<Route path="/aspect/:id"><Suspense fallback={<Loading />}><AspectPage /></Suspense></Route>
+						<Route path="/bardicmasterpiece/:id"><Suspense fallback={<Loading />}><MasterpiecePage /></Suspense></Route>
+						<Route path="/blessing/:id"><Suspense fallback={<Loading />}><BlessingPage /></Suspense></Route>
+						<Route path="/bloodragerbloodline/:id"><Suspense fallback={<Loading />}><BloodragerBloodlinePage /></Suspense></Route>
+						<Route path="/class/:id"><ClassPage /></Route>
+						<Route path="/corruption/:id"><Suspense fallback={<Loading />}><CorruptionPage /></Suspense></Route>
+						<Route path={/^[/](curse|disease|infestation)[/](?<id>[a-z_0-9]+)[/]?$/}><Suspense fallback={<Loading />}><AfflictionPage /></Suspense></Route>
+						<Route path="/constructmod/:id"><Suspense fallback={<Loading />}><ConstructModPage /></Suspense></Route>
+						<Route path="/discipline/:id"><Suspense fallback={<Loading />}><DisciplinePage /></Suspense></Route>
+						<Route path="/domain/:id"><Suspense fallback={<Loading />}><DomainPage /></Suspense></Route>
+						<Route path="/drug/:id"><Suspense fallback={<Loading />}><DrugPage /></Suspense></Route>
+						<Route path="/druidcompanion/:id"><Suspense fallback={<Loading />}><CompanionPage /></Suspense></Route>
+						<Route path="/druiddomain/:id"><Suspense fallback={<Loading />}><DruidDomainPage /></Suspense></Route>
+						<Route path="/eq-armor/:id"><Suspense fallback={<Loading />}><EquipmentArmorPage /></Suspense></Route>
+						<Route path="/eq-armorenh/:id"><Suspense fallback={<Loading />}><EquipmentArmorEnhancementsPage /></Suspense></Route>
+						<Route path="/eq-material/:id"><Suspense fallback={<Loading />}><EquipmentSpecMaterialPage /></Suspense></Route>
+						<Route path="/eq-misc/:id"><EquipmentMiscPage /></Route>
+						<Route path="/eq-poison/:id"><Suspense fallback={<Loading />}><EquipmentPoisonPage /></Suspense></Route>
+						<Route path="/eq-reagent/:id"><Suspense fallback={<Loading />}><EquipmentAlchemicalReagentPage /></Suspense></Route>
+						<Route path="/eq-siegeengine/:id"><Suspense fallback={<Loading />}><EquipmentSiegeEnginePage /></Suspense></Route>
+						<Route path="/eq-spellbook/:id"><Suspense fallback={<Loading />}><EquipmentSpellbookPage /></Suspense></Route>
+						<Route path="/eq-weapon/:id"><Suspense fallback={<Loading />}><EquipmentWeaponPage /></Suspense></Route>
+						<Route path="/eq-weaponenh/:id"><Suspense fallback={<Loading />}><EquipmentWeaponEnhancementsPage /></Suspense></Route>
+						<Route path={/^[/](greater)?exploit[/](?<id>[a-z_0-9]+)[/]?$/}><Suspense fallback={<Loading />}><ExploitPage /></Suspense></Route>
+						<Route path="/faith/:id"><FaithPage /></Route>
+						<Route path="/family/:id"><Suspense fallback={<Loading />}><MonsterFamilyPage /></Suspense></Route>
+						<Route path="/feat/:id"><FeatPage /></Route>
+						<Route path="/haunt/:id"><Suspense fallback={<Loading />}><HauntPage /></Suspense></Route>
+						<Route path="/hellknightorder/:id"><Suspense fallback={<Loading />}><HellknightOrderPage /></Suspense></Route>
+						<Route path="/implement/:id"><Suspense fallback={<Loading />}><ImplementPage /></Suspense></Route>
+						<Route path="/inquisition/:id"><Suspense fallback={<Loading />}><InquisitionPage /></Suspense></Route>
+						<Route path="/kinetic/:id"><Suspense fallback={<Loading />}><KineticPage /></Suspense></Route>
+						<Route path="/madness/:id"><Suspense fallback={<Loading />}><MadnessPage /></Suspense></Route>
+						<Route path="/magic-armor/:id"><Suspense fallback={<Loading />}><MagicArmorPage /></Suspense></Route>
+						<Route path="/magic-artifact/:id"><MagicArtifactPage /></Route>
+						<Route path="/magic-enhancement/:id"><Suspense fallback={<Loading />}><MagicEnhancementPage /></Suspense></Route>
+						<Route path="/magic-ioun/:id"><Suspense fallback={<Loading />}><MagicIounStonePage /></Suspense></Route>
+						<Route path="/magic-ring/:id"><Suspense fallback={<Loading />}><MagicRingPage /></Suspense></Route>
+						<Route path="/magic-rod/:id"><Suspense fallback={<Loading />}><MagicRodPage /></Suspense></Route>
+						<Route path="/magic-staff/:id"><Suspense fallback={<Loading />}><MagicStaffPage /></Suspense></Route>
+						<Route path="/magic-weapon/:id"><MagicWeaponPage /></Route>
+						<Route path="/magic-wondrous/:id"><MagicWondrousPage /></Route>
+						<Route path={/^[/]magic-(altar|augmentation|favor|fetish|fleshcrafting|graft|implant|necro(graft|toxin)|piercing|plant|poison|relic|set|talisman|tattoo|throne)[/](?<id>[a-z_0-9]+)[/]?$/}><Suspense fallback={<Loading />}><MagicMiscPage /></Suspense></Route>
+						<Route path="/magusarcana/:id"><Suspense fallback={<Loading />}><ArcanaPage /></Suspense></Route>
+						<Route path="/monster/:id"><MonsterPage /></Route>
+						<Route path="/mystery/:id"><Suspense fallback={<Loading />}><MysteryPage /></Suspense></Route>
+						<Route path="/npc/:id"><NPCPage /></Route>
+						<Route path="/oath/:id"><Suspense fallback={<Loading />}><OathPage /></Suspense></Route>
+						<Route path="/oraclecurse/:id"><Suspense fallback={<Loading />}><CursePage /></Suspense></Route>
+						<Route path="/order/:id"><Suspense fallback={<Loading />}><OrderPage /></Suspense></Route>
+						<Route path="/prestigeclass/:id"><PrestigeClassPage /></Route>
+						<Route path="/race/:id"><RacePage /></Route>
+						<Route path={/^[/](stance)?ragepower[/](?<id>[a-z_0-9]+)[/]?$/}><Suspense fallback={<Loading />}><RagePowerPage /></Suspense></Route>
+						<Route path="/rule/:id"><RulesPage /></Route>
+						<Route path="/search"><Suspense fallback={<Loading />}><SearchPage /></Suspense></Route>
+						<Route path="/shamanspirit/:id"><Suspense fallback={<Loading />}><ShamanSpiritPage /></Suspense></Route>
+						<Route path={/^[/](npcclass|sidekick)[/](?<id>[a-z_0-9]+)[/]?$/}><Suspense fallback={<Loading />}><OtherClassPage /></Suspense></Route>
+						<Route path="/skill/:id"><Suspense fallback={<Loading />}><SkillPage /></Suspense></Route>
+						<Route path="/sorcererbloodline/:id"><Suspense fallback={<Loading />}><SorcererBloodlinePage /></Suspense></Route>
+						<Route path="/source/:id"><Suspense fallback={<Loading />}><SourcePage /></Suspense></Route>
+						<Route path="/spell/:id"><SpellPage /></Route>
+						<Route path="/spelldef/:id"><Suspense fallback={<Loading />}><SpellDefPage /></Suspense></Route>
+						<Route path={/^[/](legendary|outsider)?spirit[/](?<id>[a-z_0-9]+)[/]?$/}><Suspense fallback={<Loading />}><MediumSpiritPage /></Suspense></Route>
+						<Route path={/^[/](sub)?type[/](?<id>[a-z0-9_]+)[/]?$/}><Suspense fallback={<Loading />}><MonsterTypingPage /></Suspense></Route>
+						<Route path="/tech-armor/:id"><Suspense fallback={<Loading />}><TechArmorPage /></Suspense></Route>
+						<Route path="/tech-artifact/:id"><Suspense fallback={<Loading />}><TechArtifactPage /></Suspense></Route>
+						<Route path="/tech-cybertech/:id"><Suspense fallback={<Loading />}><TechCybertechPage /></Suspense></Route>
+						<Route path="/tech-misc/:id"><Suspense fallback={<Loading />}><TechMiscPage /></Suspense></Route>
+						<Route path="/tech-pharmaceutical/:id"><Suspense fallback={<Loading />}><TechPharmaceuticalsPage /></Suspense></Route>
+						<Route path="/tech-weapon/:id"><Suspense fallback={<Loading />}><TechWeaponPage /></Suspense></Route>
+						<Route path="/template/:id"><MonsterTemplatePage /></Route>
+						<Route path="/trait/:id"><TraitPage /></Route>
+						<Route path="/trap/:id"><Suspense fallback={<Loading />}><TrapPage /></Suspense></Route>
+						<Route path="/umr/:id"><Suspense fallback={<Loading />}><UMRPage /></Suspense></Route>
+						<Route path={/^[/]$/}><FrontPage /></Route>
+						<Route><ErrorPage /></Route>
+					</Switch>
+				</IonContent>
+			</IonSplitPane>
 		</IonApp>
 	);
 };

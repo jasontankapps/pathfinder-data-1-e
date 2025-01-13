@@ -1,4 +1,4 @@
-import { useParams } from 'react-router';
+import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import monster_types from './subpages/__type';
 import monster_subtypes from './subpages/__subtype';

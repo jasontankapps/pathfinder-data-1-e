@@ -1,4 +1,4 @@
-import { useParams } from 'react-router';
+import { useParams } from 'wouter';
 import sources from '../json/sources.json';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';

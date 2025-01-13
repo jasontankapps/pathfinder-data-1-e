@@ -40,15 +40,16 @@ import {
 	repeat
 } from 'ionicons/icons';
 import Markdown, { ExtraProps } from 'react-markdown';
-import { useHistory } from 'react-router-dom';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList } from 'react-window';
+import { useLocation } from 'wouter';
 import { Datum, Filter, RawDatum, Table, TableColumnInfoTypes } from '../types';
 import Link from './Link';
 import convertLinks, { checkForEncodedLink } from './convertLinks';
 import InnerLink from './InnerLink';
 import { useAppDispatch } from '../store/hooks';
 import { goTo } from '../store/historySlice';
+import ScrollContainer from './ScrollContainer';
 
 type TriggerSortFunc = (index: number, isDescending: boolean) => boolean;
 
@@ -255,7 +256,7 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type, align }) => {
 };
 
 const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }) => {
-	const history = useHistory();
+	const [ location, navigate ] = useLocation();
 	const dispatch = useAppDispatch();
 	// datum will be either `{linkString}` or `[ sortableThing, {linkString} ]`
 	const linkString = Array.isArray(datum) ? datum[1] : datum;
@@ -266,7 +267,7 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 		);
 	}
 	const [pre, link, output] = m;
-	const click = useCallback(() => { history.push(`/${link}`); dispatch(goTo(`/${link}`)); }, [link, dispatch, history]);
+	const click = useCallback(() => { navigate(`/${link}`); dispatch(goTo(`/${link}`)); }, [link, dispatch, navigate]);
 	return (
 		<td className={"ion-activatable cell-link" + (align === false ? " ion-text-end" : ((align || "") && " ion-text-start"))} onClick={click}>
 			{output}
@@ -762,7 +763,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	return (
 		<>
 			{theFilterStuff}
-			<div className="tableWrap">
+			<ScrollContainer id={id}>
 				<table key={`table/${id}`} style={tableWidth}>
 					<thead>
 						<tr>{headerItems}</tr>
@@ -771,7 +772,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 						{rowItems}
 					</tbody>
 				</table>
-			</div>
+			</ScrollContainer>
 		</>
 	);
 };

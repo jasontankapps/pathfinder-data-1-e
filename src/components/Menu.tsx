@@ -6,10 +6,11 @@ import {
 	IonList,
 	IonListHeader,
 	IonMenu,
-	IonMenuToggle
+	IonMenuToggle,
+	IonRippleEffect
 } from '@ionic/react';
 import { alertCircle, shieldCheckmark } from 'ionicons/icons';
-import { useLocation } from 'react-router-dom';
+import { useLocation } from 'wouter';
 import { useAppDispatch } from '../store/hooks';
 import { goTo } from '../store/historySlice';
 import './Menu.css';
@@ -112,8 +113,9 @@ const appPages: AppPage[] = [
 ];
 
 const Menu: React.FC = () => {
-	const location = useLocation();
+	const [loc] = useLocation();
 	const dispatch = useAppDispatch();
+	const [path, navigate] = useLocation();
 
 	return (
 		<IonMenu contentId="main" type="overlay">
@@ -124,8 +126,7 @@ const Menu: React.FC = () => {
 						if (appPage.hr) {
 							return <hr key={index} />;
 						}
-						const { url, icon, title, prefix = "", equals } = appPage;
-						const loc = location.pathname;
+						const { url, icon, title, prefix, equals } = appPage;
 						let cn = "";
 						if(loc === url) {
 							cn = "selected";
@@ -140,11 +141,13 @@ const Menu: React.FC = () => {
 						} else if (equals && (loc === equals)) {
 							cn = "selected";
 						}
+						cn = cn ? (cn + " linked") : "linked";
 						return (
 							<IonMenuToggle key={index} autoHide={false}>
-								<IonItem onClick={() => dispatch(goTo(url!)) } className={cn} routerLink={url} routerDirection="none" lines="none" detail={false}>
+								<IonItem onClick={() => { dispatch(goTo(url)); navigate(url); } } className={cn} lines="none" detail={false}>
 									<IonIcon aria-hidden="true" slot="start" src={icon} />
 									<IonLabel>{title}</IonLabel>
+									<IonRippleEffect />
 								</IonItem>
 							</IonMenuToggle>
 						);

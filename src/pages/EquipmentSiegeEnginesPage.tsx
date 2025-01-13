@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router';
+import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import equipment from './subpages/__eq-siegeengine';
 import BasicPage from './BasicPage';

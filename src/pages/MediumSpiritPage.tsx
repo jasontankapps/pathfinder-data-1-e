@@ -1,5 +1,4 @@
-import { useParams } from 'react-router';
-import { useRouteMatch } from "react-router-dom";
+import { useParams, useLocation } from 'wouter';
 import getItem from '../components/getItem';
 import base_spirits from './subpages/__spirit';
 import legendary_spirits from './subpages/__legendaryspirit';
@@ -27,7 +26,7 @@ type Data = typeof base_spirits;
 type Params = { id?: keyof Data };
 
 const MediumSpiritPage: React.FC = () => {
-	const { path } = useRouteMatch();
+	const [ path ] = useLocation();
 	const { id } = useParams<Params>();
 
 	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, spirits);

@@ -1,11 +1,11 @@
 import { SetStateAction, useState, FC, useRef } from 'react';
-import { useHistory } from 'react-router';
 import {
 	IonButton, IonButtons, IonFooter, IonIcon,
 	IonLabel, IonToolbar, IonTabButton,
 	IonActionSheet, ActionSheetButton
 } from '@ionic/react';
 import { chevronBack, chevronForward, book } from 'ionicons/icons';
+import { useLocation } from 'wouter';
 import { useLongPress } from '@uidotdev/usehooks';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
@@ -28,7 +28,7 @@ const Slotless: FC<{func: Action}> = ({ func }) => {
 };
 
 const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpen }) => {
-	const history = useHistory();
+	const [ location, navigate ] = useLocation();
 	const {previous, next} = useAppSelector(state => state.history);
 	const dispatch = useAppDispatch();
 	const [prevOpen, setPrevOpen] = useState<boolean>(false);
@@ -56,7 +56,7 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 						handler: () => {
 							Haptics.impact({ style: ImpactStyle.Light });
 							dispatch(goBackNum(i + 1));
-							history.push(page);
+							navigate(page);
 						}
 					} as ActionSheetButton)).concat([{ text: "Cancel", role: "cancel" }])
 				}
@@ -72,7 +72,7 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 						handler: () => {
 							Haptics.impact({ style: ImpactStyle.Light });
 							dispatch(goForwardNum(i + 1));
-							history.push(page);
+							navigate(page);
 						}
 					} as ActionSheetButton)).concat([{ text: "Cancel", role: "cancel" }])
 				}
@@ -82,7 +82,7 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 					<IonButton {...longPressPrev} id="prevButton" onClick={() => {
 						Haptics.impact({ style: ImpactStyle.Light });
 						dispatch(goBack());
-						history.push(previous[0]);
+						navigate(previous[0]);
 					}} disabled={previous.length === 0}>
 						<IonIcon slot="icon-only" icon={chevronBack} />
 					</IonButton>
@@ -92,7 +92,7 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 					<IonButton {...longPressNext} id="nextButton" onClick={() => {
 						Haptics.impact({ style: ImpactStyle.Light });
 						dispatch(goForward());
-						history.push(next[0]);
+						navigate(next[0]);
 					}} disabled={next.length === 0}>
 						<IonIcon slot="icon-only" icon={chevronForward} />
 					</IonButton>

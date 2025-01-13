@@ -262,6 +262,7 @@ div.main ion-list ion-item.mainItem.reversed {
 div.main.basicContent ion-list ion-item.mainItem.linked ion-label,
 div.main.basicContent ion-list ion-item.mainItem.linked {
 	--color: var(--ion-color-primary);
+	cursor: pointer;
 }
 div.main ion-list ion-item-divider.mainItem ion-label {
 	--color: var(--faded-text);
@@ -379,7 +380,8 @@ div.listLike ion-item.itemLike::part(native) {
 div.tableWrap {
 	overflow-x: auto;
 	overflow-y: auto;
-	width: calc(100% - 2rem);
+	width: max-content;
+	max-width: calc(100% - 2rem);
 	/*
 		56px page header,
 		56px page footer,
@@ -387,8 +389,6 @@ div.tableWrap {
 		filter button min-height 2.1em
 	*/
 	max-height: calc(100vh - 56px - 56px - 8px - 2.1em - 1rem);
-}
-div.tableWrap table {
 	margin: 0 auto;
 }
 table {

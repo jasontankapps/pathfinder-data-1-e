@@ -1,4 +1,4 @@
-import { useParams } from 'react-router';
+import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import magic from './subpages/__magic-armor';
 import BasicPage from './BasicPage';

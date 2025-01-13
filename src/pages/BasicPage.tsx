@@ -1,5 +1,5 @@
-import { FC, PropsWithChildren, useCallback, useRef, useState } from 'react';
-import { IonContent, IonFab, IonFabButton, IonIcon, IonPage, ScrollCustomEvent, useIonViewDidEnter } from '@ionic/react';
+import { FC, PropsWithChildren, useCallback, useEffect, useRef, useState } from 'react';
+import { IonContent, IonFab, IonFabButton, IonIcon, IonPage, ScrollCustomEvent/*, useIonViewDidEnter*/ } from '@ionic/react';
 import { arrowUp } from 'ionicons/icons';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
@@ -35,6 +35,10 @@ const debounce = (fn: Function, ns: string, delay: number = 500) => {
 		delete debounceNamespace[ns];
 	}, delay);
 };
+const freezeDebounce = (pageId: string) => {
+	debounceNamespace[pageId] = "frozen";
+	debounce(() => (delete debounceNamespace[pageId]), "autoscroll" + pageId, 100);
+};
 
 const HierarchyInset: React.FC<{linkInfo: [string, string]}> = ({linkInfo}) => {
 	return <div className="hierarchyInset"><Link to={"/" + linkInfo[1]}>{linkInfo[0]}</Link></div>;
@@ -58,15 +62,15 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	// Create state for sources modal
 	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
 	const [goToTopFlag, setGoToTopFlag] = useState(true);
-	useIonViewDidEnter(() => {
+	useEffect(() => {
 		if(storedPos && contentObj && contentObj.current && contentObj.current.scrollToPoint) {
 			// Stop this scroll event from triggering other scroll events
-			debounceNamespace[pageId] = "frozen";
-			debounce(() => (delete debounceNamespace[pageId]), "autoscroll" + pageId, 100);
+			freezeDebounce(pageId);
+			// Do the scrolling
 			contentObj.current.scrollToPoint(0, storedPos);
 			setGoToTopFlag(storedPos < 200);
 		}
-	}, [storedPos, pageId]);
+	}, [contentObj]);
 	const onScroll = useCallback((event: ScrollCustomEvent) => {
 		debounce(() => dispatch(setPosition({id: pageId, pos: event.detail.scrollTop})), pageId);
 		if (hasJL && contentObj && contentObj.current && ((event.detail.scrollTop < 200) !== goToTopFlag)) {

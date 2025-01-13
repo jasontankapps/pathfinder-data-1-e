@@ -1,4 +1,4 @@
-import { useParams } from 'react-router';
+import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import oaths from './subpages/__oath';
 import BasicPage from './BasicPage';

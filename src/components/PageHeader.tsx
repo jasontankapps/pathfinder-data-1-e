@@ -1,6 +1,7 @@
 import { PropsWithChildren, useState } from 'react';
 import { IonButton, IonButtons, IonHeader, IonIcon, IonMenuButton, IonTitle, IonToolbar } from '@ionic/react';
 import { listCircleSharp, search } from 'ionicons/icons';
+import { useLocation } from 'wouter';
 import { HierarchyArray } from '../types';
 import { goTo } from '../store/historySlice';
 import { useAppDispatch } from '../store/hooks';
@@ -13,6 +14,7 @@ const PageHeader: React.FC<PropsWithChildren<{
 	className?: string
 }>> = ({ title, children, noSearch, hierarchy, className }) => {
 	const [isHierarchyModalOpen, setHierarchyModalOpen] = useState(false);
+	const [location, navigate] = useLocation();
 	const dispatch = useAppDispatch();
 	return (
 		<IonHeader className={className}>
@@ -35,7 +37,7 @@ const PageHeader: React.FC<PropsWithChildren<{
 							{noSearch
 								? <></>
 								: (
-									<IonButton onClick={() => dispatch(goTo("/search"))} routerLink="/search" routerDirection="forward">
+									<IonButton onClick={() => { dispatch(goTo("/search")); navigate("/search"); }}>
 										<IonIcon slot="icon-only" icon={search} />
 									</IonButton>
 								)

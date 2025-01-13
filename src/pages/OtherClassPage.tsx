@@ -1,5 +1,5 @@
 import { ReactElement } from 'react';
-import { useParams } from 'react-router';
+import { useParams } from 'wouter';
 import { SourceProp } from '../components/SourcesModal';
 import npcclasses from './subpages/__npcclass';
 import sidekicks from './subpages/__sidekick';

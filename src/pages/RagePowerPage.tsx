@@ -1,5 +1,4 @@
-import { useParams } from 'react-router';
-import { useRouteMatch } from "react-router-dom";
+import { useParams, useLocation } from 'wouter';
 import getItem from '../components/getItem';
 import powers from './subpages/__ragepower';
 import stances from './subpages/__stanceragepower';
@@ -26,7 +25,7 @@ type Data = typeof rage_powers;
 type Params = { id?: keyof Data };
 
 const RagePowerPage: React.FC = () => {
-	const { path } = useRouteMatch();
+	const [ path ] = useLocation();
 	const { id } = useParams<Params>();
 
 	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, rage_powers);

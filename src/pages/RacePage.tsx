@@ -1,5 +1,5 @@
 import { Suspense, lazy } from 'react';
-import { useParams } from 'react-router';
+import { useParams } from 'wouter';
 import data from '../json/_data_race.json';
 import Loading from '../Loading';
 import './Page.css';

@@ -1,4 +1,4 @@
-import { useParams } from 'react-router';
+import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import orders from './subpages/__order';
 import BasicPage from './BasicPage';

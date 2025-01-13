@@ -96,6 +96,7 @@ const preprocess = () => {
 };
 // Postprocessor object for Marked, updating `flags` to note the outside Tags being used
 const postprocess = (prefix, tables, flags) => {
+	let counter = 0;
 	return (html) => {
 		let text = html
 			// Condense multiple newlines (and whitespace) into a single newline,
@@ -181,16 +182,17 @@ const postprocess = (prefix, tables, flags) => {
 		//Add "tableWrap" <div> around <table> so it can be contained to one pageview and scroll horizontally
 		while(m = text.match(/^(.*?)(<table>.+?<\/table>)(.*)$/)) {
 			const [x, pre, table, post] = m;
-			output = output + `${pre}<div className="tableWrap">${table}</div>`;
+			output = output + `${pre}<ScrollContainer id="${`${prefix}-table-${counter++}`}">${table}</ScrollContainer>`;
 			text = post;
+			flags.scrollContainer = true;
 		}
 		text = output + text;
 		output = "";
 		//<td>
 		//Add "ion-activatable" class to <td>
 		while(m = text.match(/^(.*?)<td>(.*?<\/td>)(.*)$/)) {
-			const [x, pre, table, post] = m;
-			output = output + `${pre}<td className="ion-activatable">${table}`;
+			const [x, pre, td, post] = m;
+			output = output + `${pre}<td className="ion-activatable">${td}`;
 			text = post;
 		}
 		text = output + text;
@@ -457,6 +459,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	flags.link && imports.push(`import Link from '../../components/Link';`);
 	flags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
 	flags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
+	flags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
 	flags.jumplist && imports.push(
 		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};"
 	);

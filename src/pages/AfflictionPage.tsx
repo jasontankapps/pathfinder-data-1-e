@@ -1,5 +1,4 @@
-import { useParams } from 'react-router';
-import { useRouteMatch } from "react-router-dom";
+import { useLocation, useParams } from 'wouter';
 import getItem from '../components/getItem';
 import curses from './subpages/__curse';
 import diseases from './subpages/__disease';
@@ -39,7 +38,7 @@ const getByType = (id: Id | undefined, type: Affliction) => {
 
 const AfflictionPage: React.FC = () => {
 
-	const { path } = useRouteMatch();
+	const [ path ] = useLocation();
 	const { id } = useParams<Params>();
 
 	const m = path.match(/\/(curse|disease|infestation)\//);
