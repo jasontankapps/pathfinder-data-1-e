@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren, useCallback, useEffect, useRef, useState } from 'react';
-import { IonContent, IonFab, IonFabButton, IonIcon, IonPage, ScrollCustomEvent/*, useIonViewDidEnter*/ } from '@ionic/react';
+import { IonContent, IonFab, IonFabButton, IonIcon, IonPage, ScrollCustomEvent } from '@ionic/react';
 import { arrowUp } from 'ionicons/icons';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';

@@ -33,17 +33,31 @@ export type TableColumnInfoTypes = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "nu
 export type Hierarchy = [string, string];
 export type HierarchyArray = Hierarchy[];
 
-export interface Filter {
+interface BaseFilter {
 	col: number
 	header?: string
 	labels?: string[]
-	// range of numbers
-	range?: [number, number]
-	// array of values
-	equals?: (string | number)[]
-	// array of strings that may partially match
-	has?: string[]
 }
+interface RangeFilter extends BaseFilter {
+	// range of numbers
+	range: [number, number]
+	equals?: never
+	has?: never
+}
+interface EqualsFilter extends BaseFilter {
+	// array of values
+	equals: (string | number)[]
+	range?: never
+	has?: never
+}
+interface HasFilter extends BaseFilter {
+	// array of strings that may partially match
+	has: string[]
+	range?: never
+	equals?: never
+}
+
+export type Filter = RangeFilter | EqualsFilter | HasFilter;
 
 export interface Table {
 	// unique identifier

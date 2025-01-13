@@ -5,6 +5,7 @@ import {
 	FormEvent,
 	PropsWithChildren,
 	useCallback,
+	useEffect,
 	useState,
 	useTransition,
 	useRef
@@ -29,8 +30,7 @@ import {
 	IonSearchbar,
 	IonSpinner,
 	IonTitle,
-	IonToolbar,
-	useIonViewDidEnter
+	IonToolbar
 } from '@ionic/react';
 import {
 	closeCircle,
@@ -287,9 +287,7 @@ const SearchPage: FC = () => {
 		[setSearchText]
 	);
 
-	useIonViewDidEnter(() => {
-		ref && ref.current && !ref.current.value && ref.current.setFocus();
-	});
+	useEffect(() => debounce(() => ref && ref.current && !ref.current.value && ref.current.setFocus(), 10), [ref]);
 
 	return (
 		<IonPage>
@@ -307,6 +305,9 @@ const SearchPage: FC = () => {
 							<IonIcon slot="icon-only" icon={filterCircle} />
 						</IonButton>
 						<IonButton onClick={() => setHelpOpen(true)}>
+							<IonIcon slot="icon-only" icon={helpCircle} />
+						</IonButton>
+						<IonButton onClick={() => ref && ref.current && !ref.current.value && ref.current.setFocus()}>
 							<IonIcon slot="icon-only" icon={helpCircle} />
 						</IonButton>
 					</IonButtons>

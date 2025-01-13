@@ -11,7 +11,6 @@
 	"abjuration": {
 		"name": "Abjuration",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "school",
 		"description": [
 			"## Abjuration (school of magic)",
 			"",
@@ -27,7 +26,6 @@
 	"conjuration": {
 		"name": "Conjuration",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "school",
 		"description": [
 			"## Conjuration (school of magic)",
 			"",
@@ -43,7 +41,6 @@
 	"divination": {
 		"name": "Divination",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "school",
 		"description": [
 			"## Divination (school of magic)",
 			"",
@@ -57,7 +54,6 @@
 	"enchantment": {
 		"name": "Enchantment",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "school",
 		"description": [
 			"## Enchantment (school of magic)",
 			"",
@@ -69,7 +65,6 @@
 	"evocation": {
 		"name": "Evocation",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "school",
 		"description": [
 			"## Evocation (school of magic)",
 			"",
@@ -81,7 +76,6 @@
 	"illusion": {
 		"name": "Illusion",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "school",
 		"description": [
 			"## Illusion (school of magic)",
 			"",
@@ -93,7 +87,6 @@
 	"necromancy": {
 		"name": "Necromancy",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "school",
 		"description": [
 			"## Necromancy (school of magic)",
 			"",
@@ -105,7 +98,6 @@
 	"transmutation": {
 		"name": "Transmutation",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "school",
 		"description": [
 			"## Transmutation (school of magic)",
 			"",
@@ -117,7 +109,6 @@
 	"universal": {
 		"name": "Universal",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "school",
 		"description": [
 			"## Universal (school of magic)",
 			"",
@@ -129,7 +120,6 @@
 	"calling": {
 		"name": "Calling",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Calling (subschool of magic)",
 			"",
@@ -143,7 +133,6 @@
 	"charm": {
 		"name": "Charm",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Charm (subschool of magic)",
 			"",
@@ -157,7 +146,6 @@
 	"compulsion": {
 		"name": "Compulsion",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Compulsion (subschool of magic)",
 			"",
@@ -171,7 +159,6 @@
 	"creation": {
 		"name": "Creation",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Creation (subschool of magic)",
 			"",
@@ -185,7 +172,6 @@
 	"figment": {
 		"name": "Figment",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Figment (subschool of magic)",
 			"",
@@ -203,7 +189,6 @@
 	"glamer": {
 		"name": "Glamer",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Glamer (subschool of magic)",
 			"",
@@ -217,7 +202,6 @@
 	"haunted": {
 		"name": "Haunted",
 		"sources": [ "Haunted Heroes Handbook" ],
-		"type": "subschool",
 		"description": [
 			"## Haunted (subschool of magic)",
 			"",
@@ -237,7 +221,6 @@
 	"healing": {
 		"name": "Healing",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Healing (subschool of magic)",
 			"",
@@ -251,7 +234,6 @@
 	"pattern": {
 		"name": "Pattern",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Pattern (subschool of magic)",
 			"",
@@ -265,7 +247,6 @@
 	"phantasm": {
 		"name": "Phantasm",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Phantasm (subschool of magic)",
 			"",
@@ -279,7 +260,6 @@
 	"polymorph": {
 		"name": "Polymorph",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Polymorph (subschool of magic)",
 			"",
@@ -317,7 +297,6 @@
 	"scrying": {
 		"name": "Scrying",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Scrying (subschool of magic)",
 			"",
@@ -335,7 +314,6 @@
 	"shadow_subschool": {
 		"name": "Shadow (subschoool)",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Shadow (subschool of magic)",
 			"",
@@ -349,7 +327,6 @@
 	"summoning": {
 		"name": "Summoning",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Summoning (subschool of magic)",
 			"",
@@ -365,7 +342,6 @@
 	"teleportation": {
 		"name": "Teleportation",
 		"sources": [ "PRPG Core Rulebook" ],
-		"type": "subschool",
 		"description": [
 			"## Teleportation (subschool of magic)",
 			"",
@@ -381,7 +357,6 @@
 	"acid": {
 		"name": "Acid",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Acid (spell discriptor)",
 			"",
@@ -393,7 +368,6 @@
 	"air": {
 		"name": "Air",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Air (spell discriptor)",
 			"",
@@ -405,7 +379,6 @@
 	"chaotic": {
 		"name": "Chaotic",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Chaotic (spell discriptor)",
 			"",
@@ -417,7 +390,6 @@
 	"cold": {
 		"name": "Cold",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Cold (spell discriptor)",
 			"",
@@ -429,7 +401,6 @@
 	"curse": {
 		"name": "Curse",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Curse (spell discriptor)",
 			"",
@@ -441,7 +412,6 @@
 	"darkness": {
 		"name": "Darkness",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Darkness (spell discriptor)",
 			"",
@@ -453,7 +423,6 @@
 	"death": {
 		"name": "Death",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Death (spell discriptor)",
 			"",
@@ -465,7 +434,6 @@
 	"disease": {
 		"name": "Disease",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Disease (spell discriptor)",
 			"",
@@ -477,7 +445,6 @@
 	"draconic": {
 		"name": "Draconic",
 		"sources": [ "Legacy of Dragons" ],
-		"type": "descriptor",
 		"description": [
 			"## Draconic (spell discriptor)",
 			"",
@@ -489,7 +456,6 @@
 	"earth": {
 		"name": "Earth",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Earth (spell discriptor)",
 			"",
@@ -501,7 +467,6 @@
 	"electricity": {
 		"name": "Electricity",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Electricity (spell discriptor)",
 			"",
@@ -513,7 +478,6 @@
 	"emotion": {
 		"name": "Emotion",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Emotion (spell discriptor)",
 			"",
@@ -525,7 +489,6 @@
 	"evil": {
 		"name": "Evil",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Evil (spell discriptor)",
 			"",
@@ -537,7 +500,6 @@
 	"fear": {
 		"name": "Fear",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Fear (spell discriptor)",
 			"",
@@ -549,7 +511,6 @@
 	"fire": {
 		"name": "Fire",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Fire (spell discriptor)",
 			"",
@@ -561,7 +522,6 @@
 	"force": {
 		"name": "Force",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Force (spell discriptor)",
 			"",
@@ -573,7 +533,6 @@
 	"good": {
 		"name": "Good",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Good (spell discriptor)",
 			"",
@@ -585,7 +544,6 @@
 	"language_dependent": {
 		"name": "Language-Dependent",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Language-Dependent (spell discriptor)",
 			"",
@@ -598,7 +556,6 @@
 	"lawful": {
 		"name": "Lawful",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Lawful (spell discriptor)",
 			"",
@@ -610,7 +567,6 @@
 	"light": {
 		"name": "Light",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Light (spell discriptor)",
 			"",
@@ -622,7 +578,6 @@
 	"meditative": {
 		"name": "Meditative",
 		"sources": [ "Divine Anthology" ],
-		"type": "descriptor",
 		"description": [
 			"## Meditative (spell discriptor)",
 			"",
@@ -634,7 +589,6 @@
 	"mindaffecting": {
 		"name": "Mind-Affecting",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Mind-Affecting (spell discriptor)",
 			"",
@@ -647,7 +601,6 @@
 	"pain": {
 		"name": "Pain",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Pain (spell discriptor)",
 			"",
@@ -659,7 +612,6 @@
 	"poison": {
 		"name": "Poison",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Poison (spell discriptor)",
 			"",
@@ -671,7 +623,6 @@
 	"ruse": {
 		"name": "Ruse",
 		"sources": [ "Ultimate Intrigue" ],
-		"type": "descriptor",
 		"description": [
 			"## Ruse (spell discriptor)",
 			"",
@@ -683,7 +634,6 @@
 	"shadow_descriptor": {
 		"name": "Shadow (descriptor)",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Shadow (spell discriptor)",
 			"",
@@ -695,7 +645,6 @@
 	"sonic": {
 		"name": "Sonic",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Sonic (spell discriptor)",
 			"",
@@ -707,7 +656,6 @@
 	"water": {
 		"name": "Water",
 		"sources": [ "Ultimate Magic" ],
-		"type": "descriptor",
 		"description": [
 			"## Water (spell discriptor)",
 			"",

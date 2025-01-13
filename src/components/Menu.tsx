@@ -15,16 +15,35 @@ import { useAppDispatch } from '../store/hooks';
 import { goTo } from '../store/historySlice';
 import './Menu.css';
 
-interface AppPage {
-	url?: string
-	title?: string
-	icon?: string
+interface BaseInfo {
+	url: string
+	title: string
+	icon: string
 	className?: string
-	prefix?: string
-	equals?: string
-	newSection?: boolean
-	hr?: boolean
+	hr?: never
 }
+interface PrefixedPage extends BaseInfo {
+	prefix?: string
+	equals?: never
+}
+interface ExactPage extends BaseInfo {
+	prefix?: never
+	equals?: string
+}
+
+type Page = ExactPage | PrefixedPage;
+
+interface Separator {
+	hr: true
+	url?: never
+	title?: never
+	icon?: never
+	className?: never
+	prefix?: never
+	equals?: never
+}
+
+type AppPage = Page | Separator
 
 const appPages: AppPage[] = [
 	{
