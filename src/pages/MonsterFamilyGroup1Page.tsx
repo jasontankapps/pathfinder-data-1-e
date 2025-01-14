@@ -21,7 +21,7 @@ const MonsterFamilyGroup1Page: React.FC<MonsterFamilyProps> = ({id}) => {
 
 	return <BasicPage
 		hasJL={hasJL}
-		pageId={"family--" + id}
+		pageId={"/family/" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

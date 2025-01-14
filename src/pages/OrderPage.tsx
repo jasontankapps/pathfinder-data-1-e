@@ -28,7 +28,7 @@ const OrderPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"order--" + id}
+		pageId={"/order/" + id}
 		topLink={["Cavalier/Samurai Orders", "ability/orders"]}
 	>{jsx}</BasicPage>;
 };

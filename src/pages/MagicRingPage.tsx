@@ -22,7 +22,7 @@ const MagicPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"magic-ring--" + id}
+		pageId={"/magic-ring/" + id}
 		topLink={["Magic Rings", "main/magic_rings"]}
 	>{jsx}</BasicPage>;
 };

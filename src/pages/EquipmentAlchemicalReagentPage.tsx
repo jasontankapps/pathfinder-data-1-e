@@ -26,7 +26,7 @@ const EquipmentAlchemicalReagentPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"eq-alchemicalreagent--" + id}
+		pageId={"/eq-reagent/" + id}
 		topLink={["Alchemical Reagents", "main/equipment_reagents"]}
 	>{jsx}</BasicPage>;
 };

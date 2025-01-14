@@ -27,7 +27,7 @@ const SchoolPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"school--" + id}
+		pageId={"/arcaneschool/" + id}
 		topLink={["Arcane Schools", "ability/arcane_schools"]}
 	>{jsx}</BasicPage>;
 };

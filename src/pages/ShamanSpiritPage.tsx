@@ -27,7 +27,7 @@ const ShamanSpiritPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"shaman-spirit--" + id}
+		pageId={"/shamanspirit/" + id}
 		topLink={["Shaman Spirits", "ability/shaman_spirits"]}
 	>{jsx}</BasicPage>;
 };

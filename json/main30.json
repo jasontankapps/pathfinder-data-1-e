@@ -3,7 +3,6 @@
 		"title": "All Paladin Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -25,7 +24,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abadar's Truthtelling}", 1, "enchantment", "compulsion", "mind-affecting", "Force the target to speak the truth." ],
@@ -337,7 +336,6 @@
 		"title": "All Alchemist Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -359,7 +357,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abjuring Step}", 1, "abjuration", null, "force", "You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell." ],
@@ -780,7 +778,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "spell",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "spiritualist spells table",
@@ -801,7 +798,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
@@ -1221,7 +1218,6 @@
 		"title": "All Bloodrager Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1243,7 +1239,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Barbed Chains}", 1, "conjuration", "summoning", "emotion, fear, mind-affecting", "Hellish chains attack and cause a target to become shaken" ],
@@ -1593,7 +1589,6 @@
 		"title": "All Summoner Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1616,7 +1611,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"ripples": [0],
-				"sizes": [ 150, 50, 125, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 125, 110, 250 ],
 				"alignments": [ true, null, null, null, null, true ],
 				"data": [
 					[ "{spell/Acid Splash}", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],

@@ -5,6 +5,7 @@ import {
 	FC,
 	PropsWithChildren,
 	useCallback,
+	useEffect,
 	useMemo,
 	useState
 } from 'react';
@@ -47,11 +48,12 @@ import { Datum, Filter, RawDatum, Table, TableColumnInfoTypes } from '../types';
 import Link from './Link';
 import convertLinks, { checkForEncodedLink } from './convertLinks';
 import InnerLink from './InnerLink';
-import { useAppDispatch } from '../store/hooks';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goTo } from '../store/historySlice';
+import { SortObject, TableObject, setTableActive, setTableFilter } from '../store/displayTableSlice';
 import ScrollContainer from './ScrollContainer';
 
-type TriggerSortFunc = (index: number, isDescending: boolean) => boolean;
+type TriggerSortFunc = (index: number, isDescending: boolean, activeRows?: number[] | null, save?: boolean) => boolean;
 
 interface ThProps {
 	index: number
@@ -283,15 +285,16 @@ interface FilterObject {
 }
 
 interface FilterProps {
+	id: string
 	originalHeaders: string[]
 	displayedHeaders: number[]
 	originalTypes: TableColumnInfoTypes[]
 	originalRows: RawDatum[][]
-	displayedRows: number[] | null
+	displayedRows: number[]
 	active: number
 	setHeaders: Dispatch<number[]>
 	setTypes: Dispatch<TableColumnInfoTypes[]>
-	setActiveRows: Dispatch<number[] | null>
+	setActiveRows: Dispatch<number[]>
 	setActive: Dispatch<number>
 	filter?: Filter[]
 	open: boolean
@@ -352,6 +355,7 @@ const FilterOption: FC<{
 
 const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const {
+		id,
 		originalHeaders: oh, // original headers
 		displayedHeaders: dh, // indexes of displayed headers
 		originalTypes, // original types
@@ -366,6 +370,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		open,
 		setOpen
 	} = props;
+	const dispatch = useAppDispatch();
 	// Active Headers/Rows are arrays of true/false indicating if the element is visible or not
 	const [activeHeaders, setActiveHeaders] = useState<boolean[]>([]);
 	const [activeRows, setActiveRows] = useState<boolean[]>([]);
@@ -381,6 +386,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		setActiveHeaders(originalHeaders.map(x => which));
 	};
 	const onLoad = useCallback(() => {
+		// Set up filters
 		if(filter) {
 			const filters: FilterObject[] = [];
 			filter.forEach((f, fi) => {
@@ -446,12 +452,14 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 			});
 			setFilterObjects(filters);
 		}
+		// Set up headers info
 		const finalHeaders: boolean[] = [];
-		// displayedHeaders will always be equal to or shorter than originalHeaders
+			// displayedHeaders will always be equal to or shorter than originalHeaders
 		originalHeaders.forEach((h, i) => {
 			finalHeaders.push(displayedHeaders.indexOf(i + 1) > -1);
 		});
 		setActiveHeaders(finalHeaders);
+		// Set up rows info - an array of titles and an array of booleans showing if that row is active
 		const finalRows: boolean[] = [];
 		const titles: string[] = [];
 		originalRows.forEach((r, i) => {
@@ -467,6 +475,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		});
 		setRowTitles(titles);
 		setActiveRows(finalRows);
+		// Make something to test quickly
 		setTestString(makeTestString([...finalHeaders, ...finalRows]));
 	}, [
 		filter,
@@ -480,11 +489,13 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		setTestString
 	]);
 	const toggleHeader = (i: number) => {
+		// Toggle the header at index `i`
 		const newHeaders = [...activeHeaders];
 		newHeaders[i] = !newHeaders[i];
 		setActiveHeaders(newHeaders);
 	};
 	const toggleRow = (i: number) => {
+		// Toggle the row at index `i`
 		const newRows = [...activeRows];
 		newRows[i] = !newRows[i];
 		setActiveRows(newRows);
@@ -512,11 +523,11 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	};
 	const doSave = () => {
 		if(testString === makeTestString([...activeHeaders, ...activeRows])) {
-			// Nothing to do.
+			// No changes to save.
 			setOpen(false);
 			return;
 		}
-		const newHeaders = [0];
+		const newHeaders = [0]; // The `names` column is always shown
 		const newTypes = [originalTypes[0]];
 		originalHeaders.forEach((h, i) => {
 			if(activeHeaders[i]) {
@@ -524,22 +535,24 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 				newTypes.push(originalTypes[i + 1])
 			}
 		});
-		const newRows = originalRows.filter((r, i) => activeRows[i]);
 		setHeaders(newHeaders);
 		setTypes(newTypes);
+		let rows: number[] = [];
 		if(active && !activeHeaders[active - 1]) {
 			// The sorted header has gone away; reset to the first column and sort
 			setActive(0);
-			const newActive: [boolean, RawDatum[]][] = activeRows.map((r, i) => [r, newRows[i]]);
-			newActive.sort((a, b) => normalSort(a[1][0], b[1][0]));
-			const translatedRows = newActive.map((r, i) => r[0] ? i : -1).filter(r => r > -1);
-			setAcRow(translatedRows.length ? translatedRows : null);
-			newRows.sort((a, b) => normalSort(a[0], b[0]));
+			dispatch(setTableActive({id, data: {sortingOn: 0, normalSort: true}}));
+			const sortedMixedData: [RawDatum[], boolean, number][] = originalRows.map((data, i) => [data, activeRows[i], i]);
+			sortedMixedData.sort((a, b) => normalSort(a[0][0], b[0][0]));
+			const translatedRows = sortedMixedData.filter(data => data[1]).map(data => data[2]);
+			rows = translatedRows;
 		} else {
 			// Set active rows
-			const newActiveRows = activeRows.map((r, i) => r ? i : -1).filter(r => r > -1);
-			setAcRow(newActiveRows.length ? newActiveRows : null);
+			rows = activeRows.map((r, i) => r ? i : -1).filter(r => r > -1);
 		}
+		// If rows are blank, reset to ALL rows
+		setAcRow(rows.length ? rows : originalRows.map((r, i) => i));
+		dispatch(setTableFilter({id, data: { headers: newHeaders, rows }}));
 		// Close
 		setOpen(false);
 	};
@@ -665,21 +678,30 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		alignments,
 		sizes
 	} = table;
+	const dispatch = useAppDispatch();
+	const [
+		incomingColumnInfo,
+		incomingFilterInfo
+	]: [SortObject | undefined, TableObject | undefined] = useAppSelector(state => [
+		state.displayTable.actives[id],
+		state.displayTable.filters[id]
+	]);
+	const [initialized, setInitialized] = useState(false);
 	const [activeHeaders, setActiveHeaders] = useState<number[]>(headers.map((h, i) => i));
 	const [types, setTypes] = useState(originalTypes);
 	const [rows, setRows] = useState(data);
 	const [active, setActive] = useState(initialColumn);
-	const [activeRows, setActiveRows] = useState<number[] | null>(null);
+	const [activeRows, setActiveRows] = useState<number[]>(data.map((x, i) => i));
 	const [open, setOpen] = useState(false);
-	const sorter: TriggerSortFunc = useCallback((index, isDescending) => {
+	const sorter: TriggerSortFunc = useCallback((index, isDescending, rowsToSort = activeRows, save = true) => {
 		// sorter(index: number, isDescending: boolean)
-		//   Returns the boolean opposite of isDescending
+		//   Returns the new isDescending (true for normal, false for reverse)
 		// This function reorganizes the rows and sets the 'active' column
-		const normal = (active !== index) || isDescending;
-		const sortfunc = normal ? normalSort : reverseSort;
-		if(activeRows) {
+		const sortDirection = (active !== index) || isDescending;
+		const sortfunc = sortDirection ? normalSort : reverseSort;
+		if(rowsToSort) {
 			const testRows: [boolean, RawDatum[]][] = rows.map(r => [false, r]);
-			activeRows.forEach(r => (testRows[r][0] = true));
+			rowsToSort.forEach(r => (testRows[r][0] = true));
 			testRows.sort((a, b) => sortfunc(a[1][index], b[1][index]));
 			const newActive: number[] = [];
 			const newRows: RawDatum[][] = [];
@@ -693,11 +715,13 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		} else {
 			const newRows = [...rows];
 			newRows.sort((a, b) => sortfunc(a[index], b[index]));
+			setActiveRows(newRows.map((m, i) => i));
 			setRows(newRows);
 		}
 		setActive(index);
-		return normal;
-	}, [rows, setRows, active, activeRows, setActive]);
+		save && dispatch(setTableActive({id, data: {sortingOn: index, normalSort: sortDirection}}));
+		return sortDirection;
+	}, [rows, setRows, active, activeRows, setActive, dispatch]);
 	const headerItems = useMemo(() => headers.map((th, i) => {
 		return <Th
 			key={`table/${id}/header/${i}`}
@@ -740,8 +764,30 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		}
 		return { width: activeHeaders.length * sizes };
 	}, [sizes, activeHeaders]);
+	useEffect(() => {
+		// Restore saved table filters and sort status
+		if(initialized) {
+			return;
+		}
+		let sortRows = activeRows;
+		if(incomingFilterInfo) {
+			const { headers, rows } = incomingFilterInfo;
+			setActiveHeaders(headers);
+			sortRows = rows;
+		}
+		if(incomingColumnInfo) {
+			const { sortingOn, normalSort } = incomingColumnInfo;
+			sorter(sortingOn, normalSort, sortRows, false);
+		}
+		setInitialized(true);
+	}, [
+		incomingColumnInfo, incomingFilterInfo,
+		initialized, setInitialized, activeRows,
+		sorter, setActive, setActiveHeaders
+	]);
 	const theFilterStuff = (data.length < 10 && headers.length <= 3) ? <></> : <>
 		<DisplayTableFilterModal
+			id={id}
 			originalHeaders={headers}
 			displayedHeaders={activeHeaders}
 			originalTypes={originalTypes}

@@ -31,10 +31,10 @@ const MediumSpiritPage: React.FC = () => {
 
 	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, spirits);
 
-	const m = path.match(/outsiderspirit/);
-	const hierarchy = m ? hierarchy2 : hierarchy1;
+	const m = path.match(/^[/](outsider)?((?<=[/])legendary)?spirit[/]/);
+	const hierarchy = (m && m[1]) ? hierarchy2 : hierarchy1;
 
-	const pageId = (m ? "spirit--" : "outsiderspirit--") + id;
+	const pageId = ((m && m[0]) || "/spirit/") + id;
 
 	return <BasicPage
 		hasJL={hasJL}

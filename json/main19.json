@@ -3,7 +3,6 @@
 		"title": "Magical Beasts",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -281,7 +280,6 @@
 		"title": "Monstrous Humanoids",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -461,7 +459,6 @@
 		"title": "Plants",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -611,7 +608,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters undead",
@@ -862,7 +858,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters vermin",
@@ -1044,7 +1039,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters aquatic",
@@ -1332,7 +1326,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters incorporeal",

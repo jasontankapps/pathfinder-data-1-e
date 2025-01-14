@@ -22,7 +22,7 @@ const SkillPage: React.FC = () => {
 		title={title}
 		hierarchy={hierarchy}
 		sources={sources}
-		pageId={"skill--" + id}
+		pageId={"/skill/" + id}
 		topLink={["All Skills", "main/skills"]}
 	>{jsx}</BasicPage>;
 };

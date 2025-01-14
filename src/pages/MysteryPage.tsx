@@ -27,7 +27,7 @@ const MysteryPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"mystery--" + id}
+		pageId={"/mystery/" + id}
 		topLink={["Oracle Mysteries", "ability/mysteries"]}
 	>{jsx}</BasicPage>;
 };

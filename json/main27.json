@@ -3,7 +3,6 @@
 		"title": "Magic Weapons",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -520,7 +519,6 @@
 		"title": "Magic Rings",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -765,7 +763,6 @@
 		"title": "Magic Rods",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1528,7 +1525,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "magic",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "magic armor table",
@@ -1792,7 +1788,6 @@
 		"title": "Artifacts",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -2609,7 +2604,6 @@
 		"title": "Magic Staves",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{

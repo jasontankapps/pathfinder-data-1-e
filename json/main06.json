@@ -3,7 +3,6 @@
 		"title": "Belt/Headband Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -181,7 +180,6 @@
 		"title": "Body/Chest Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -341,7 +339,6 @@
 		"title": "Head Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -540,7 +537,6 @@
 		"title": "Neck Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -843,7 +839,6 @@
 		"title": "Hands/Wrists Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1045,7 +1040,6 @@
 		"title": "Shoulders Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1224,7 +1218,6 @@
 		"title": "Eyes/Feet Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1408,7 +1401,6 @@
 		"title": "A-F Slotless Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1894,7 +1886,6 @@
 		"title": "G-P Slotless Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -2381,7 +2372,6 @@
 		"title": "Q-Z Slotless Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "magic",
 		"tables": [
 			{

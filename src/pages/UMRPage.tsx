@@ -28,7 +28,7 @@ const UMRPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"umr--" + id}
+		pageId={"/umr/" + id}
 		topLink={["Universal Monster Rules", "main/umr"]}
 	>{jsx}</BasicPage>;
 };

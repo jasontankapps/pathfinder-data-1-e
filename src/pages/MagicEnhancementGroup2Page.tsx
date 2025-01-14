@@ -18,7 +18,7 @@ const MagicEnhancementGroup2Page: React.FC<MagicEnhancementProps> = ({id}) => {
 
 	return <BasicPage
 		hasJL={hasJL}
-		pageId={"magic-enhancement--" + id}
+		pageId={"/magic-enhancement/" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

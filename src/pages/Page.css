@@ -307,10 +307,6 @@ div.main.basicContent h6 a {
 	text-decoration: none;
 }
 
-div.basicContent ion-list ion-item.mainItem.singleTable {
-	margin-block-start: 1em; /* bump past hierarchy tab */
-}
-
 /* Statblocks */
 
 .hasStatblock p {

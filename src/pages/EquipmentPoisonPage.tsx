@@ -22,7 +22,7 @@ const EquipmentPoisonPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"eq-poison--" + id}
+		pageId={"/eq-poison/" + id}
 		topLink={["Poisons", "main/equipment_poisons"]}
 	>{jsx}</BasicPage>;
 };

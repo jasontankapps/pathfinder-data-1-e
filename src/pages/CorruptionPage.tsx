@@ -28,7 +28,7 @@ const CorruptionPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"corruption--" + id}
+		pageId={"/corruption/" + id}
 		topLink={["Corruption (Rules)", "rule/corruption"]}
 	>{jsx}</BasicPage>;
 };

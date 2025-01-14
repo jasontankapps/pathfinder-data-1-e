@@ -1,6 +1,8 @@
 import { FC, PropsWithChildren, useCallback, useEffect, useRef, useState } from 'react';
 import { IonContent, IonFab, IonFabButton, IonIcon, IonPage, ScrollCustomEvent } from '@ionic/react';
 import { arrowUp } from 'ionicons/icons';
+import { useLocation, useRoute } from 'wouter';
+import { motion, AnimatePresence } from 'motion/react';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
 import PageFooter from '../components/PageFooter';
@@ -18,6 +20,7 @@ interface PageProps extends Partial<DisplayItemProps> {
 	sources?: SourceProp[]
 	hideSources?: boolean
 	pageId: string
+	error?: boolean
 }
 
 const debounceNamespace: { [key: string]: any } = {};
@@ -62,15 +65,18 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	// Create state for sources modal
 	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
 	const [goToTopFlag, setGoToTopFlag] = useState(true);
+	const [path] = useLocation();
 	useEffect(() => {
-		if(storedPos && contentObj && contentObj.current && contentObj.current.scrollToPoint) {
-			// Stop this scroll event from triggering other scroll events
-			freezeDebounce(pageId);
-			// Do the scrolling
-			contentObj.current.scrollToPoint(0, storedPos);
-			setGoToTopFlag(storedPos < 200);
-		}
-	}, [contentObj]);
+		debounce(() => {
+			if(contentObj && contentObj.current && contentObj.current.scrollToPoint) {
+				// Stop this scroll event from triggering other scroll events
+				freezeDebounce(pageId);
+				// Do the scrolling
+				contentObj.current.scrollToPoint(0, storedPos);
+				setGoToTopFlag(storedPos < 200);
+			}
+		}, pageId + "/enter", 10);
+	}, [contentObj, path]);
 	const onScroll = useCallback((event: ScrollCustomEvent) => {
 		debounce(() => dispatch(setPosition({id: pageId, pos: event.detail.scrollTop})), pageId);
 		if (hasJL && contentObj && contentObj.current && ((event.detail.scrollTop < 200) !== goToTopFlag)) {
@@ -81,10 +87,16 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		() => (contentObj && contentObj.current && contentObj.current.scrollToTop(500)),
 		[contentObj]
 	);
+	const [isMatch] = useRoute(pageId);
 	const cN = "basicContent " + (className || "simple") + (topLink ? " hasInset" : "");
 
 	return (
-		<IonPage>
+		<AnimatePresence>
+		{isMatch && <motion.div
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			exit={{ opacity: 0 }}
+		><IonPage>
 			<PageHeader title={title} hierarchy={hierarchy} />
 			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={contentObj}>
 				{hideSources ?
@@ -107,7 +119,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				</div>
 			</IonContent>
 			<PageFooter setIsSourcesModalOpen={hideSources ? undefined : setIsSourcesModalOpen} />
-		</IonPage>
+		</IonPage></motion.div>}
+		</AnimatePresence>
 	);
 };
 

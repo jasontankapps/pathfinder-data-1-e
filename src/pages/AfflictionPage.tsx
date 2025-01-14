@@ -41,11 +41,11 @@ const AfflictionPage: React.FC = () => {
 	const [ path ] = useLocation();
 	const { id } = useParams<Params>();
 
-	const m = path.match(/\/(curse|disease|infestation)\//);
+	const m = path.match(/^[/](curse|disease|infestation)[/]/);
 
 	const type: Affliction = m ? m[1] as Affliction : "curse";
 
-	const pageId = `${type}--${id}`;
+	const pageId = `/${type}/${id}`;
 
 	const { hasJL, title, jsx, sources, subhierarchy = [] } = getByType(id, type);
 

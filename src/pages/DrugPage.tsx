@@ -29,7 +29,7 @@ const DrugPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"drug--" + id}
+		pageId={"/drug/" + id}
 		topLink={["Drugs", "main/drugs"]}
 	>{jsx}</BasicPage>;
 };

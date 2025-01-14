@@ -27,7 +27,7 @@ const DruidDomainPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"druiddomain--" + id}
+		pageId={"/druiddomain/" + id}
 		topLink={["Druid Domains", "ability/druid_domains"]}
 	>{jsx}</BasicPage>;
 };

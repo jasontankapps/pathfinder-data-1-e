@@ -23,7 +23,7 @@ const DomainGroup1Page: React.FC<DomainProps> = ({id}) => {
 
 	return <BasicPage
 		hasJL={hasJL}
-		pageId={"domain--" + id}
+		pageId={"/domain/" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

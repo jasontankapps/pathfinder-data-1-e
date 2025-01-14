@@ -18,7 +18,7 @@ const EquipmentWeaponGroup2Page: React.FC<EquipProps> = ({id}) => {
 
 	return <BasicPage
 		hasJL={hasJL}
-		pageId={"equip-weapon--" + id}
+		pageId={"/eq-weapon/" + id}
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}

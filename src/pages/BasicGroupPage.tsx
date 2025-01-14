@@ -27,7 +27,7 @@ export const BasicGroupPage: React.FC<BasicGroupPageProps> =
 	const { hasJL, title, jsx, sources, subhierarchy = [] } =
 		possiblyUnknown ? getItem((id as Name), info as BasicPlusUnknown) : getGuaranteedItem((id as Name), info);
 
-	const pageId = prefix + "--" + id;
+	const pageId = `/${prefix}/${id}`;
 
 	const tl = topLink || ((maybeTopLink !== undefined) && subhierarchy.length > 0 ? subhierarchy[subhierarchy.length - 1] : (maybeTopLink || undefined));
 

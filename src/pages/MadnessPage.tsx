@@ -27,7 +27,7 @@ const MadnessPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"madness--" + id}
+		pageId={"/madness/" + id}
 		topLink={["Madness", "rule/madness"]}
 	>{jsx}</BasicPage>;
 };

@@ -86,7 +86,7 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 	}, [parent_topics]);
 
 	return (
-		<BasicPage title={title} sources={sources} pageId={`rule--${id}`} hasJL={hasJL}>
+		<BasicPage title={title} sources={sources} pageId={`/rule/${id}`} hasJL={hasJL}>
 			<HierarchyRulesInset extraHierarchy={h} />
 			<div className={cn ? cn + " highlight" : "highlight"}>
 				<h2>{title}</h2>

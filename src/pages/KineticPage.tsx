@@ -28,7 +28,7 @@ const KineticPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"kinetic--" + id}
+		pageId={"/kinetic/" + id}
 		topLink={topLink}
 	>{jsx}</BasicPage>;
 };

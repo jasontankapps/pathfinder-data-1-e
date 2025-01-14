@@ -27,7 +27,7 @@ const DiscliplinePage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"discipline--" + id}
+		pageId={"/discipline/" + id}
 		topLink={["Psychic Disciplines", "ability/disciplines"]}
 	>{jsx}</BasicPage>;
 };

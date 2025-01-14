@@ -4,7 +4,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "spell",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "evocation school spells table",
@@ -398,14 +397,13 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "spell",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "illusion school spells table",
 				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, 0 ],
 				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 150, 75, 110, 110, 250 ],
+				"sizes": [ 150, 75, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Absurdity}", 2, "phantasm", "emotion, mind-affecting", "Threats seem like a ridiculous farce." ],
@@ -658,14 +656,13 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "spell",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "necromancy school spells table",
 				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, 0 ],
 				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 150, 75, 110, 110, 250 ],
+				"sizes": [ 150, 75, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Absorb Toxicity}", [ 4.221, "3, 4, 5" ], null, null, "You become immune to diseases and toxins, absorb one, and then spread it to others." ],
@@ -1019,14 +1016,13 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "spell",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "transmutation school spells table",
 				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, 0 ],
 				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 150, 75, 110, 110, 250 ],
+				"sizes": [ 150, 75, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Aboleth's Lung}", 2, null, null, "Allow the target to breathe water at the cost of no longer being able to breathe air." ],

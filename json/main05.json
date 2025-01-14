@@ -139,7 +139,6 @@
 		"sources": [],
 		"searchgroup": "equip",
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "armor and shield enhancements",
@@ -777,7 +776,6 @@
 		"title": "Adventuring Gear",
 		"description": [[ "{table0}" ]],
 		"searchgroup": "equip",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "misc equipment",
@@ -1238,7 +1236,6 @@
 		"title": "Animal Gear",
 		"description": [[ "{table0}" ]],
 		"searchgroup": "equip",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "animal gear equipment",
@@ -1312,7 +1309,6 @@
 		"title": "Class Kits",
 		"description": [[ "{table0}" ]],
 		"searchgroup": "equip",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "kits equipment",
@@ -1453,7 +1449,6 @@
 		"title": "Tools",
 		"description": [[ "{table0}" ]],
 		"searchgroup": "equip",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "tools equipment",
@@ -2082,7 +2077,6 @@
 		"title": "Miscellaneous Equipment",
 		"description": [[ "{table0}" ]],
 		"searchgroup": "equip",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "misc equipment",

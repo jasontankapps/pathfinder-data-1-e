@@ -27,7 +27,7 @@ const CompanionPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"companion--" + id}
+		pageId={"/druidcompanion/" + id}
 		topLink={["Animal Companions", "ability/druid_companions"]}
 	>{jsx}</BasicPage>;
 };

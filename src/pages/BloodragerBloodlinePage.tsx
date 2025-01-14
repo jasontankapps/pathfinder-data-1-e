@@ -27,7 +27,7 @@ const BloodragerBloodlinePage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"bloodrager-bloodline--" + id}
+		pageId={"/bloodragerbloodline/" + id}
 		topLink={["Bloodrager Bloodlines", "ability/bloodrager_bloodlines"]}
 	>{jsx}</BasicPage>;
 };

@@ -27,7 +27,7 @@ const HellknightOrderPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"hellknight-order--" + id}
+		pageId={"/hellknightorder/" + id}
 		topLink={["Hellknight Orders", "ability/hellknight_orders"]}
 	>{jsx}</BasicPage>;
 };

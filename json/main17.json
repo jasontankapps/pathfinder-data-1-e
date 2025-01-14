@@ -4,7 +4,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters aberrations",
@@ -204,7 +203,6 @@
 		"title": "Animals",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -531,7 +529,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters constructs",
@@ -743,7 +740,6 @@
 		"title": "Dragons",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -957,7 +953,6 @@
 		"sources": [],
 		"searchgroup": "monster",
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters fey",

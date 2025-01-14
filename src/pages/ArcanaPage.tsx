@@ -27,7 +27,7 @@ const ArcanaPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"magusarcana--" + id}
+		pageId={"/magusarcana/" + id}
 		topLink={["Magus Arcana", "ability/magus_arcana"]}
 	>{jsx}</BasicPage>;
 };

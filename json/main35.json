@@ -4,7 +4,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters humanoids",
@@ -350,7 +349,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters giants",
@@ -477,7 +475,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters goblinoids",
@@ -552,7 +549,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters shapechangers",
@@ -704,7 +700,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "monsters swarms",

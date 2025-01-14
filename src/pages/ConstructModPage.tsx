@@ -28,7 +28,7 @@ const ConstructModPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"constructmod--" + id}
+		pageId={"/constructmod/" + id}
 		topLink={["Construct Modifications", "rule/construct_modifications"]}
 	>{jsx}</BasicPage>;
 };

@@ -23,7 +23,7 @@ const EquipmentSiegeEnginePage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"eq-siegeengines--" + id}
+		pageId={"/eq-siegeengine/" + id}
 		topLink={["Siege Engine", "main/equipment_siegeengines"]}
 	>{jsx}</BasicPage>;
 };

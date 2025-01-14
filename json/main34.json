@@ -4,7 +4,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "cr 12 to 14 monsters table",
@@ -326,7 +325,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "monster",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "cr 15 and up monsters table",

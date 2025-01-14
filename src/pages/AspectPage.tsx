@@ -27,7 +27,7 @@ const AspectPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"shifteraspect--" + id}
+		pageId={"/aspect/" + id}
 		topLink={["Shifter Aspects", "ability/aspects"]}
 	>{jsx}</BasicPage>;
 };

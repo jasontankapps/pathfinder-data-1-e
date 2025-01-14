@@ -27,7 +27,7 @@ const BlessingPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"blessing--" + id}
+		pageId={"/blessing/" + id}
 		topLink={["Warpriest Blessings", "ability/blessings"]}
 	>{jsx}</BasicPage>;
 };

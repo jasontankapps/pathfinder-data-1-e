@@ -39,11 +39,14 @@ import {
 	filter as filterIcon,
 	helpCircle
 } from 'ionicons/icons';
+import { useLocation } from 'wouter';
 import { RangeInSliceFormat } from '../types';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import SearchHelpModal from '../components/SearchHelpModal';
 import Link from '../components/Link';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { setSearchQuery, setSearchFilter } from '../store/searchSlice';
 import fuseIndex from '../json/_data__fuse-index.json';
 import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
 import './Page.css';
@@ -55,7 +58,7 @@ interface Item {
 	tags?: string
 }
 
-type SearchIndex = RangeInSliceFormat<1, 13>;
+export type SearchIndex = RangeInSliceFormat<1, 13>;
 
 interface ParallelItem {
 	t: number // type
@@ -196,6 +199,7 @@ interface SearchModalProps {
 }
 
 const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOpen, filter, setFilter}) => {
+	const dispatch = useAppDispatch();
 	const [temp, setTemp] = useState<SearchIndex[]>([...filter]);
 	const registerClick = (x: SearchIndex) => {
 		if(temp.indexOf(x) > -1) {
@@ -205,7 +209,9 @@ const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOp
 		}
 	}
 	const save = () => {
-		setFilter(temp.length ? temp : nothingActive);
+		const data: SearchIndex[] = temp.length ? temp : nothingActive;
+		setFilter(data);
+		dispatch(setSearchFilter(data));
 		setOpen(false);
 	};
 	const close = () => setOpen(false);
@@ -269,9 +275,12 @@ const debounce = (fn: Function, delay: number = 300) => {
 };
 
 const SearchPage: FC = () => {
-	const [searchText, setSearchText] = useState<string>("");
+	const { searchtext = "", filter: incomingFilter = [] } = useAppSelector(state => state.search);
+	const dispatch = useAppDispatch();
+	const [initialized, setInitialized] = useState(false);
+	const [searchText, setSearchText] = useState<string>(searchtext);
 	const [isPending, startTransition] = useTransition();
-	const [filter, setFilter] = useState<SearchIndex[]>(nothingActive);
+	const [filter, setFilter] = useState<SearchIndex[]>(incomingFilter);
 	const [filterOpen, setFilterOpen] = useState<boolean>(false);
 	const [helpOpen, setHelpOpen] = useState<boolean>(false);
 
@@ -279,15 +288,28 @@ const SearchPage: FC = () => {
 
 	const ref = useRef<HTMLIonSearchbarElement>(null);
 
+	const [path] = useLocation();
+
 	const onInput = useCallback(
 		(input: FormEvent<HTMLIonSearchbarElement>) => {
 			const text = String((input && input.currentTarget && input.currentTarget.value) || "");
-			debounce(() => startTransition(() => setSearchText(text)));
+			debounce(() => {
+				startTransition(() => setSearchText(text));
+				dispatch(setSearchQuery(text));
+			});
 		},
-		[setSearchText]
+		[setSearchText, dispatch]
 	);
 
-	useEffect(() => debounce(() => ref && ref.current && !ref.current.value && ref.current.setFocus(), 10), [ref]);
+	useEffect(() => {
+		if (!initialized && ref && ref.current) {
+			debounce(() => !searchtext && ref && ref.current && !ref.current.value && ref.current.setFocus(), 10);
+			ref.current.getInputElement().then(input => {
+				setInitialized(true);
+				input.value = searchtext;
+			});
+		}
+	}, [ref, initialized, setInitialized, searchtext]);
 
 	return (
 		<IonPage>
@@ -305,9 +327,6 @@ const SearchPage: FC = () => {
 							<IonIcon slot="icon-only" icon={filterCircle} />
 						</IonButton>
 						<IonButton onClick={() => setHelpOpen(true)}>
-							<IonIcon slot="icon-only" icon={helpCircle} />
-						</IonButton>
-						<IonButton onClick={() => ref && ref.current && !ref.current.value && ref.current.setFocus()}>
 							<IonIcon slot="icon-only" icon={helpCircle} />
 						</IonButton>
 					</IonButtons>

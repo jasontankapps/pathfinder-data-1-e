@@ -1,4 +1,4 @@
-import { useParams } from 'wouter';
+import { useLocation, useParams } from 'wouter';
 import getItem from '../components/getItem';
 import monster_types from './subpages/__type';
 import monster_subtypes from './subpages/__subtype';
@@ -24,6 +24,10 @@ const MonsterTypingPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
+	const [ path ] = useLocation();
+
+	const m = path.match(/^[/](sub)?type[/]/);
+
 	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, typings);
 
 	return <BasicPage
@@ -31,7 +35,7 @@ const MonsterTypingPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"monster-typing--" + id}
+		pageId={((m && m[0]) || "/type/") + id}
 		topLink={["Universal Monster Rules", "main/umr"]}
 	>{jsx}</BasicPage>;
 };

@@ -1,4 +1,4 @@
-import { useParams } from 'wouter';
+import { useLocation, useParams } from 'wouter';
 import getItem from '../components/getItem';
 import construct_mods from './subpages/__constructmod';
 import magic_altar from './subpages/__magic-altar';
@@ -52,6 +52,10 @@ const MagicPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
+	const [ path ] = useLocation();
+
+	const m = path.match(/^([/]magic-[a-z]+[/])/);
+
 	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, magic);
 
 	return <BasicPage
@@ -59,7 +63,7 @@ const MagicPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"magic-misc--" + id}
+		pageId={(m ? m[1] : "/magic-misc/") + id}
 		topLink={["Miscellaneous Magic Items", "main/magic_misc"]}
 	>{jsx}</BasicPage>;
 };

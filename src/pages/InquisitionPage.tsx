@@ -27,7 +27,7 @@ const InquisitionPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"inquisition--" + id}
+		pageId={"/inquisition/" + id}
 		topLink={["Inquisitions", "ability/inquisitions"]}
 	>{jsx}</BasicPage>;
 };

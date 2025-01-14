@@ -27,7 +27,7 @@ const MasterpiecePage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"masterpiece--" + id}
+		pageId={"/bardicmasterpiece/" + id}
 		topLink={["Bardic Masterpieces", "ability/bardic_masterpieces"]}
 	>{jsx}</BasicPage>;
 };

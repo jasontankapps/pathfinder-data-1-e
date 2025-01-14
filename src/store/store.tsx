@@ -2,11 +2,15 @@ import type { Action, ThunkAction } from '@reduxjs/toolkit';
 import { configureStore } from '@reduxjs/toolkit';
 import scrollReducer from './scrollSlice';
 import historyReducer from './historySlice';
+import searchReducer from './searchSlice';
+import displayTableReducer from './displayTableSlice';
 
 export const store = configureStore({
 	reducer: {
 		scroll: scrollReducer,
-		history: historyReducer
+		history: historyReducer,
+		search: searchReducer,
+		displayTable: displayTableReducer
 	}
 });
 

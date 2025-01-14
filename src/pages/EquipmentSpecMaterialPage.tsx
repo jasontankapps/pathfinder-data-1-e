@@ -22,7 +22,7 @@ const EquipmentSpecMaterialPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"eq-specialmaterials--" + id}
+		pageId={"/eq-material/" + id}
 		topLink={["Special Materials", "main/equipment_materials"]}
 	>{jsx}</BasicPage>;
 };

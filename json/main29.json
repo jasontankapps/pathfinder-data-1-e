@@ -3,7 +3,6 @@
 		"title": "All Inquisitor Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -25,7 +24,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Acid Splash}", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
@@ -695,7 +694,6 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "medium spells table",
@@ -717,7 +715,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
@@ -1110,7 +1108,6 @@
 		"title": "All Ranger Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1132,7 +1129,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abundant Ammunition}", 1, "conjuration", "summoning", null, "Replaces nonmagical ammunition every round." ],
@@ -1534,7 +1531,6 @@
 		"title": "All Investigator Formulae",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1556,7 +1552,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abjuring Step}", 1, "abjuration", null, "force", "You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell." ],
@@ -1970,7 +1966,6 @@
 		"title": "All Adept Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1992,7 +1987,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 110, 250 ],
+				"sizes": [ 150, 50, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Create Water}", 0, "conjuration", "creation", "water", "Creates 2 gallons/level of pure water." ],

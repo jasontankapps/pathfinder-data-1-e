@@ -22,7 +22,7 @@ const EquipmentTechArmorPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"tech-armor--" + id}
+		pageId={"/tech-armor/" + id}
 		topLink={["Tech Armor", "main/tech_armor"]}
 	>{jsx}</BasicPage>;
 };

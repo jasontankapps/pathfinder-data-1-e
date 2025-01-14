@@ -27,7 +27,7 @@ const MagicPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"magic-ioun--" + id}
+		pageId={"/magic-ioun/" + id}
 		topLink={["Ioun Stone", "magic-wondrous/ioun_stone"]}
 	>{jsx}</BasicPage>;
 };

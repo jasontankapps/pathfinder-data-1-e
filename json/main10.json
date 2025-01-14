@@ -3,7 +3,6 @@
 		"title": "All Warpriest Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -25,7 +24,7 @@
 				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 55, 125, 110, 110, 250 ],
+				"sizes": [ 150, 55, 125, 125, 110, 250 ],
 				"initialColumn": 1,
 				"ripples": [0],
 				"data": [
@@ -1019,7 +1018,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "spell",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "bard spells table",
@@ -1040,7 +1038,7 @@
 				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 55, 125, 110, 110, 250 ],
+				"sizes": [ 150, 55, 125, 125, 110, 250 ],
 				"initialColumn": 1,
 				"ripples": [0],
 				"data": [

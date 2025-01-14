@@ -27,7 +27,7 @@ const CursePage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"oraclecurse--" + id}
+		pageId={"/oraclecurse/" + id}
 		topLink={["Oracle Curses", "ability/oracle_curses"]}
 	>{jsx}</BasicPage>;
 };

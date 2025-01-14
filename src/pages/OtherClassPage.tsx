@@ -1,5 +1,5 @@
 import { ReactElement } from 'react';
-import { useParams } from 'wouter';
+import { useLocation, useParams } from 'wouter';
 import { SourceProp } from '../components/SourcesModal';
 import npcclasses from './subpages/__npcclass';
 import sidekicks from './subpages/__sidekick';
@@ -26,6 +26,10 @@ const OtherClassPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
+	const [ path ] = useLocation();
+
+	const m = path.match(/^[/](sidekick|npcclass)[/]/)
+
 	const solidId = (id || "not_found") as keyof Data;
 
 	const {
@@ -35,7 +39,7 @@ const OtherClassPage: React.FC = () => {
 		sources
 	} = (classes[solidId] as JsonDataPropsClass);
 
-	const pageId = "otherclasses--" + id;
+	const pageId = ((m && m[0]) || "/otherclasses/") + id;
 
 	return (
 		<BasicPage

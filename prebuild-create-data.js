@@ -243,9 +243,9 @@ const convertDescription = (desc, prefix, tables) => {
 };
 
 // Convert markdown code into HTML for main#.json description, updating `flags` to note the outside Tags being used
-const convertMainDescription = (desc, prefix, tables, singleTable) => {
+const convertMainDescription = (desc, prefix, tables) => {
 	const marked = new Marked();
-	const baseClass = "mainItem" + (singleTable ? " singleTable" : "");
+	const baseClass = "mainItem";
 	let output = "";
 	const flags = {};
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
@@ -373,9 +373,8 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	Object.entries(data).forEach(([prop, value]) => {
 		const {
 			name: n, title: t, description: d, copyof,
-			sources, tables, singleTable, previous,
-			parent_topics, subtopics, siblings,
-			subhierarchy
+			sources, tables, previous, parent_topics,
+			subtopics, siblings, subhierarchy
 		} = value;
 		// Convert entities in tables
 		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
@@ -403,7 +402,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			case "main":
 				info.title = t;
 				info.subhierarchy = previous;
-				copyof || (converted = convertMainDescription(d, `${link}-${prop}-`, tables, singleTable));
+				copyof || (converted = convertMainDescription(d, `${link}-${prop}-`, tables));
 				break;
 			case "rule":
 				info.parent_topics = parent_topics;

@@ -3,7 +3,6 @@
 		"title": "Campaign Traits",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "trait",
 		"tables": [
 			{
@@ -1532,7 +1531,6 @@
 			"{table0}"
 		]],
 		"searchgroup": "trait",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "religion traits",

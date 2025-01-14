@@ -22,7 +22,7 @@ const EquipmentSpellbookPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"eq-spellbook--" + id}
+		pageId={"/eq-spellbook/" + id}
 		topLink={["Spellbooks", "main/equipment_spellbook"]}
 	>{jsx}</BasicPage>;
 };

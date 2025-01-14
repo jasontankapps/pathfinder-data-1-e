@@ -26,7 +26,7 @@ const SpellDefPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"spell-def--" + id}
+		pageId={"/spelldef/" + id}
 		topLink={["Spell Definitions", "main/spell_definitions"]}
 	>{jsx}</BasicPage>;
 };

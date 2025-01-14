@@ -38,7 +38,7 @@ const RagePowerPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"ragepower--" + id}
+		pageId={`/${m ? "stance" : ""}ragepower/${id}`}
 		topLink={(m ? hierarchy2 : hierarchy1)[2]}
 	>{jsx}</BasicPage>;
 };

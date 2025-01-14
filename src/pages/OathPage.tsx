@@ -27,7 +27,7 @@ const OathPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"oath--" + id}
+		pageId={"/oath/" + id}
 		topLink={["Paladin Oaths", "ability/oaths"]}
 	>{jsx}</BasicPage>;
 };

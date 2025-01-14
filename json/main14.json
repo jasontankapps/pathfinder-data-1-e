@@ -4,7 +4,6 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "witch spells table",
@@ -26,7 +25,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"alignments": [ true, null, null, null, null, true ],
 				"initialColumn": 1,
-				"sizes": [ 150, 55, 125, 110, 110, 250 ],
+				"sizes": [ 150, 55, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Arcane Mark}", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible)." ],
@@ -1256,7 +1255,6 @@
 			"| {spell/Suffocation, Instant} | 5 | necromancy |  | death | Slay someone through pesh suffocation. |",
 			"| {spell/Symbol of Sleep} | 5 | enchantment | compulsion | mind-affecting | Triggered rune puts nearby creatures into catatonic slumber. |"
 		]],
-		"singleTable": true,
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_shaman": {
@@ -1264,7 +1262,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "spell",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "shaman spells table",
@@ -1285,7 +1282,7 @@
 				],
 				"types": [ null, "num", null, null, null, 0 ],
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 55, 125, 110, 110, 250 ],
+				"sizes": [ 150, 55, 125, 125, 110, 250 ],
 				"initialColumn": 1,
 				"ripples": [0],
 				"data": [

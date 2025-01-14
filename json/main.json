@@ -230,7 +230,6 @@
 		"title": "Races",
 		"sources": [],
 		"description": [[ "{table0}" ]],
-		"singleTable": true,
 		"searchgroup": "race",
 		"tables": [
 			{
@@ -574,7 +573,7 @@
 				"id": "skills table",
 				"headers": [ "Skill", "Stat", "TO", "ACP", "BS", "UN" ],
 				"types": [ null, null, null, null, null, null ],
-				"alignments": [ true, null, null, null, null, true ],
+				"alignments": [ true, null, null, null, null, null ],
 				"ripples": [0],
 				"data": [
 					[ "{skill/Acrobatics}", "DEX", null, "X", null, null ],

@@ -29,7 +29,7 @@ const HauntPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"haunt--" + id}
+		pageId={"/haunt/" + id}
 		topLink={["Haunts", "main/haunts"]}
 	>{jsx}</BasicPage>;
 };

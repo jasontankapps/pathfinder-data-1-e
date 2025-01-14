@@ -4,7 +4,6 @@
 		"sources": [],
 		"description": [[ "{table0}" ]],
 		"searchgroup": "spell",
-		"singleTable": true,
 		"tables": [
 			{
 				"id": "arcanist spells table",
@@ -26,7 +25,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"alignments": [ true, null, null, null, null, true ],
 				"initialColumn": 1,
-				"sizes": [ 150, 55, 125, 110, 110, 250 ],
+				"sizes": [ 150, 55, 125, 125, 110, 250 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Acid Splash}", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],

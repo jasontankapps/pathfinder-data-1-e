@@ -27,7 +27,7 @@ const ImplementPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"implement--" + id}
+		pageId={"/implement/" + id}
 		topLink={["Psychic Implements", "ability/implements"]}
 	>{jsx}</BasicPage>;
 };

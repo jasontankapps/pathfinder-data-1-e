@@ -30,7 +30,7 @@ const TrapPage: React.FC = () => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		pageId={"trap--" + id}
+		pageId={"/trap/" + id}
 		topLink={trapLink}
 	>{jsx}</BasicPage>;
 };
