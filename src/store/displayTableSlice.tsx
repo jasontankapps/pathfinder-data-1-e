@@ -4,6 +4,7 @@ import type { PayloadAction } from '@reduxjs/toolkit'
 export interface TableObject {
 	headers: number[]
 	rows: number[]
+	order: number[]
 }
 export interface SortObject {
 	sortingOn: number
@@ -36,10 +37,17 @@ export const tableSlice = createSlice({
 	initialState,
 	// The `reducers` field lets us define reducers and generate associated actions
 	reducers: {
-		setTableFilter: (state, action: PayloadAction<{ id: string, data: TableObject}>) => {
+		setTableFilter: (state, action: PayloadAction<{ id: string, data: TableObject }>) => {
 			const { id, data } = action.payload;
 			const newState = {...state.filters};
 			newState[id] = data;
+			return {actives: state.actives, filters: newState};
+		},
+		updateTableFilterRows: (state, action: PayloadAction<{ id: string, data: Omit<TableObject, "headers"> }>) => {
+			const { id, data } = action.payload;
+			const newState = {...state.filters};
+			const bit = state.filters[id];
+			newState[id] = {headers: bit ? bit.headers : [-1], ...data};
 			return {actives: state.actives, filters: newState};
 		},
 		setTableActive: (state, action: PayloadAction<{ id: string, data: SortObject }>) => {
@@ -52,7 +60,7 @@ export const tableSlice = createSlice({
 });
 
 // Export the generated action creators for use in components
-export const { setTableFilter, setTableActive } = tableSlice.actions;
+export const { setTableFilter, setTableActive, updateTableFilterRows } = tableSlice.actions;
 
 // Export the slice reducer for use in the store configuration
 export default tableSlice.reducer;

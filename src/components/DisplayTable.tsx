@@ -50,15 +50,15 @@ import convertLinks, { checkForEncodedLink } from './convertLinks';
 import InnerLink from './InnerLink';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goTo } from '../store/historySlice';
-import { SortObject, TableObject, setTableActive, setTableFilter } from '../store/displayTableSlice';
+import { SortObject, TableObject, setTableActive, setTableFilter, updateTableFilterRows } from '../store/displayTableSlice';
 import ScrollContainer from './ScrollContainer';
 
-type TriggerSortFunc = (index: number, isDescending: boolean, activeRows?: number[] | null, save?: boolean) => boolean;
+type TriggerSortFunc = (index: number, useNormalSort: boolean, activeRows?: number[] | null, save?: boolean) => void;
 
 interface ThProps {
 	index: number
 	sorter: TriggerSortFunc
-	initialSort?: boolean
+	sortState?: boolean
 	active: boolean
 	children: string
 	sortable: boolean
@@ -152,12 +152,14 @@ const getStyle = (size: number | undefined) => {
 	return { width: size };
 }
 
-const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, sortable, size}) => {
-	const [ isDescending, setIsDescending ] = useState(initialSort);
+const Th: FC<ThProps> = ({index, sorter, sortState = true, children, active, sortable, size}) => {
+	const [ useNormalSort, setUseNormalSort ] = useState(sortState);
+	useEffect(() => setUseNormalSort(sortState), [sortState]);
 	const onClick = useCallback(() => {
-		const newDescending = sorter(index, !isDescending);
-		setIsDescending(newDescending);
-	}, [index, sorter, isDescending]);
+		const newDescending = active ? !useNormalSort : true;
+		sorter(index, newDescending);
+		setUseNormalSort(newDescending);
+	}, [index, sorter, useNormalSort, active]);
 	const markdown = useMemo(() => convertLinks([children]), [children]);
 	if(sortable) {
 		return (
@@ -165,7 +167,7 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active, 
 				<div>
 					<IonRippleEffect />
 					<Markdown components={components}>{markdown}</Markdown>
-					{active ? <DirectionIcon down={isDescending} /> : <IonIcon className="sortNil" icon={ellipse} />}
+					{active ? <DirectionIcon down={useNormalSort} /> : <IonIcon className="sortNil" icon={ellipse} />}
 				</div>
 			</th>
 		);
@@ -284,21 +286,20 @@ interface FilterObject {
 	toggles: number[][]
 }
 
+type SaveFunc = (
+	headersActive: boolean[],
+	rowsActive: boolean[]
+) => void;
+
 interface FilterProps {
-	id: string
 	originalHeaders: string[]
 	displayedHeaders: number[]
-	originalTypes: TableColumnInfoTypes[]
 	originalRows: RawDatum[][]
 	displayedRows: number[]
-	active: number
-	setHeaders: Dispatch<number[]>
-	setTypes: Dispatch<TableColumnInfoTypes[]>
-	setActiveRows: Dispatch<number[]>
-	setActive: Dispatch<number>
 	filter?: Filter[]
 	open: boolean
 	setOpen: Dispatch<boolean>
+	saveFunc: SaveFunc
 }
 
 const makeTestString = (input:boolean[]) => input.map(x => x ? "T" : "F").join("");
@@ -355,20 +356,14 @@ const FilterOption: FC<{
 
 const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const {
-		id,
 		originalHeaders: oh, // original headers
 		displayedHeaders: dh, // indexes of displayed headers
-		originalTypes, // original types
 		originalRows, // original rows
-		displayedRows, // indexes of displayed rows (or null if all visible)
-		active, // current sort
-		setHeaders,
-		setTypes,
-		setActiveRows: setAcRow,
-		setActive,
+		displayedRows, // indexes of displayed rows
 		filter,
 		open,
-		setOpen
+		setOpen,
+		saveFunc
 	} = props;
 	const dispatch = useAppDispatch();
 	// Active Headers/Rows are arrays of true/false indicating if the element is visible or not
@@ -527,32 +522,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 			setOpen(false);
 			return;
 		}
-		const newHeaders = [0]; // The `names` column is always shown
-		const newTypes = [originalTypes[0]];
-		originalHeaders.forEach((h, i) => {
-			if(activeHeaders[i]) {
-				newHeaders.push(i + 1);
-				newTypes.push(originalTypes[i + 1])
-			}
-		});
-		setHeaders(newHeaders);
-		setTypes(newTypes);
-		let rows: number[] = [];
-		if(active && !activeHeaders[active - 1]) {
-			// The sorted header has gone away; reset to the first column and sort
-			setActive(0);
-			dispatch(setTableActive({id, data: {sortingOn: 0, normalSort: true}}));
-			const sortedMixedData: [RawDatum[], boolean, number][] = originalRows.map((data, i) => [data, activeRows[i], i]);
-			sortedMixedData.sort((a, b) => normalSort(a[0][0], b[0][0]));
-			const translatedRows = sortedMixedData.filter(data => data[1]).map(data => data[2]);
-			rows = translatedRows;
-		} else {
-			// Set active rows
-			rows = activeRows.map((r, i) => r ? i : -1).filter(r => r > -1);
-		}
-		// If rows are blank, reset to ALL rows
-		setAcRow(rows.length ? rows : originalRows.map((r, i) => i));
-		dispatch(setTableFilter({id, data: { headers: newHeaders, rows }}));
+		// Save data
+		saveFunc(activeHeaders, activeRows);
 		// Close
 		setOpen(false);
 	};
@@ -629,7 +600,6 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					<IonItem>
 						<IonLabel className="ion-text-center">
 							<p>Selected rows below will be shown in the table.</p>
-							<p>If no rows are selected, <strong>all</strong> rows are shown.</p>
 						</IonLabel>
 					</IonItem>
 				</IonList>
@@ -664,6 +634,20 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	);
 };
 
+const makeString = (rows: RawDatum[][]) => {
+	return rows.map((row, i) => {
+		let output = "";
+		row.forEach(bit => {
+			if(Array.isArray(bit)) {
+				output = output + bit.join(',');
+			} else {
+				output = output + String(bit);
+			}
+		});
+		return output;
+	});
+};
+
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const {
 		id,
@@ -691,42 +675,89 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const [types, setTypes] = useState(originalTypes);
 	const [rows, setRows] = useState(data);
 	const [active, setActive] = useState(initialColumn);
+	const [latestSortDirection, setLatestSortDirection] = useState(true);
 	const [activeRows, setActiveRows] = useState<number[]>(data.map((x, i) => i));
 	const [open, setOpen] = useState(false);
-	const sorter: TriggerSortFunc = useCallback((index, isDescending, rowsToSort = activeRows, save = true) => {
-		// sorter(index: number, isDescending: boolean)
-		//   Returns the new isDescending (true for normal, false for reverse)
+	const originalRowsAsStrings = makeString(data);
+	const filterModalSaveFunc: SaveFunc = (headersActive, rowsActive) => {
+		const newHeaders = [0]; // The `names` column is always shown
+		const newTypes = [originalTypes[0]];
+		headers.forEach((h, i) => {
+			if(i && headersActive[i - 1]) {
+				newHeaders.push(i);
+				newTypes.push(originalTypes[i])
+			}
+		});
+		setActiveHeaders(newHeaders);
+		setTypes(newTypes);
+		const newActiveRows: number[] = [];
+		const newRows: RawDatum[][] = [];
+		if(newHeaders.indexOf(active) === -1) {
+			// The sorted header has gone away; reset to the first column and sort
+			setActive(0);
+			dispatch(setTableActive({id, data: {sortingOn: 0, normalSort: true}}));
+			const sortedMixedData: [RawDatum[], boolean][] = rows.map((data, i) => [data, rowsActive[i]]);
+			sortedMixedData.sort((a, b) => normalSort(a[0][0], b[0][0]));
+			newActiveRows.push(
+				...(sortedMixedData.map((data, i) => [i, ...data]) as [number, RawDatum[], boolean][])
+				.filter(data => data[2])
+				.map(data => data[0])
+			);
+			newRows.push(...sortedMixedData.map(data => data[0]));
+		} else {
+			// Set active rows
+			newActiveRows.push(...rowsActive.map((r, i) => r ? i : -1).filter(r => r > -1));
+			newRows.push(...rows);
+		}
+		// If rows are blank, reset to ALL rows
+		setActiveRows(newActiveRows.length ? newActiveRows : data.map((r, i) => i));
+		setRows(newRows);
+		// Determine relative order of new rows order compared to original rows order
+		//    old [A, B, C, D, E]
+		//    new [E, B, A, D, C]
+		//    result = [4, 1, 0, 3, 2]
+		const compare = makeString(newRows);
+		const newRowPositions = compare.map(c => originalRowsAsStrings.indexOf(c));
+		// Save state
+		dispatch(setTableFilter({id, data: { headers: newHeaders, rows: newActiveRows, order: newRowPositions }}));
+	};
+	const sorter: TriggerSortFunc = useCallback((index, sortDirection, rowsToSort = activeRows, save = true) => {
+		// sorter(index: number, sortDirection: boolean)
+		//   Returns the new sortDirection (true for normal, false for reverse)
 		// This function reorganizes the rows and sets the 'active' column
-		const sortDirection = (active !== index) || isDescending;
 		const sortfunc = sortDirection ? normalSort : reverseSort;
+		const newAcRows: number[] = [];
+		const newRows: RawDatum[][] = [];
 		if(rowsToSort) {
 			const testRows: [boolean, RawDatum[]][] = rows.map(r => [false, r]);
 			rowsToSort.forEach(r => (testRows[r][0] = true));
 			testRows.sort((a, b) => sortfunc(a[1][index], b[1][index]));
-			const newActive: number[] = [];
-			const newRows: RawDatum[][] = [];
 			testRows.forEach((r, i) => {
 				const [ flag, row ] = r;
-				flag && newActive.push(i);
+				flag && newAcRows.push(i);
 				newRows.push(row);
 			});
-			setActiveRows(newActive);
-			setRows(newRows);
 		} else {
-			const newRows = [...rows];
+			newRows.push(...rows);
 			newRows.sort((a, b) => sortfunc(a[index], b[index]));
-			setActiveRows(newRows.map((m, i) => i));
-			setRows(newRows);
+			newRows.forEach((m, i) => newAcRows.push(i));
 		}
+		setActiveRows(newAcRows);
+		setRows(newRows);
 		setActive(index);
-		save && dispatch(setTableActive({id, data: {sortingOn: index, normalSort: sortDirection}}));
-		return sortDirection;
+		setLatestSortDirection(sortDirection);
+		if(save) {
+			const compare = makeString(newRows);
+			const newRowPositions = compare.map(c => originalRowsAsStrings.indexOf(c));
+			dispatch(updateTableFilterRows({id, data: {rows: newAcRows, order: newRowPositions}}));
+			dispatch(setTableActive({id, data: {sortingOn: index, normalSort: sortDirection}}));
+		}
 	}, [rows, setRows, active, activeRows, setActive, dispatch]);
 	const headerItems = useMemo(() => headers.map((th, i) => {
 		return <Th
 			key={`table/${id}/header/${i}`}
 			index={i}
-			initialSort={i === initialColumn}
+			sortState={i === active ? latestSortDirection : undefined}
 			active={i === active}
 			sorter={sorter}
 			sortable={sortable && (types[i] !== 0)}
@@ -769,38 +800,40 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		if(initialized) {
 			return;
 		}
-		let sortRows = activeRows;
 		if(incomingFilterInfo) {
-			const { headers, rows } = incomingFilterInfo;
-			setActiveHeaders(headers);
-			sortRows = rows;
+			const { headers, rows, order } = incomingFilterInfo;
+			// incoming headers may be [-1], which indicates the active headers were never changed
+			if(!(headers.length && (headers[0] === -1))) {
+				setActiveHeaders(headers);
+				const newTypes = headers.map(h => originalTypes[h]);
+				setTypes(newTypes);
+			}
+			setActiveRows(rows);
+			const orderedRows = order.map(i => data[i]);
+			setRows(orderedRows);
 		}
 		if(incomingColumnInfo) {
 			const { sortingOn, normalSort } = incomingColumnInfo;
-			sorter(sortingOn, normalSort, sortRows, false);
+			setActive(sortingOn);
+			setLatestSortDirection(normalSort);
 		}
 		setInitialized(true);
 	}, [
 		incomingColumnInfo, incomingFilterInfo,
 		initialized, setInitialized, activeRows,
-		sorter, setActive, setActiveHeaders
+		sorter, setActive, setActiveHeaders,
+		originalTypes, setTypes, setActiveRows
 	]);
 	const theFilterStuff = (data.length < 10 && headers.length <= 3) ? <></> : <>
 		<DisplayTableFilterModal
-			id={id}
 			originalHeaders={headers}
 			displayedHeaders={activeHeaders}
-			originalTypes={originalTypes}
 			originalRows={rows}
 			displayedRows={activeRows}
-			active={active}
-			setHeaders={setActiveHeaders}
-			setTypes={setTypes}
-			setActiveRows={setActiveRows}
-			setActive={setActive}
 			filter={filter}
 			open={open}
 			setOpen={setOpen}
+			saveFunc={filterModalSaveFunc}
 		/>
 		<IonButton className="tableFilterButton" color="tertiary" size="small" shape="round" fill="outline" onClick={() => setOpen(true)}>
 			<IonIcon slot="icon-only" icon={filterIcon} />

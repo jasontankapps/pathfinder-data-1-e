@@ -1,3 +1,5 @@
+const tableIds = {};
+
 // checkForBadTables(tables array, property name) => false | string
 //   returns false or a non-empty string describing the first problem found
 const checkForBadTables = (tables, objectDescription) => {
@@ -23,11 +25,17 @@ const checkForBadTables = (tables, objectDescription) => {
 				) {
 					found = `Simple table error at ${tableDesc}`;
 					return true;
+				} else if (tableIds[id]) {
+					found = `Duplicate table id ${id} in ${tableDesc} (originally in ${tableIds[id]})`;
+					return true;
 				} else if (
-					// Check headers and types
-					headers.length !== types.length
-					|| headers.some(header => typeof header !== "string")
-					|| types.some(type => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct", null, 0].indexOf(type) === -1)
+					// Save id and continue to check
+					(tableIds[id] = tableDesc) && (
+						// Check headers and types
+						headers.length !== types.length
+						|| headers.some(header => typeof header !== "string")
+						|| types.some(type => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct", null, 0].indexOf(type) === -1)
+					)
 				) {
 					found = `Header/type table error at ${tableDesc} (${id})`;
 					return true;

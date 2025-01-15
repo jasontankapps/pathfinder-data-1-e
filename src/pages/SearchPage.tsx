@@ -303,7 +303,16 @@ const SearchPage: FC = () => {
 
 	useEffect(() => {
 		if (!initialized && ref && ref.current) {
-			debounce(() => !searchtext && ref && ref.current && !ref.current.value && ref.current.setFocus(), 10);
+			debounce(() => {
+				!searchtext && ref && ref.current && !ref.current.value && ref.current.setFocus();
+				if(ref && ref.current) {
+					if(searchtext) {
+						ref.current.value = searchtext;
+					} else if (!ref.current.value) {
+						ref.current.setFocus();
+					}
+				}
+			}, 10);
 			ref.current.getInputElement().then(input => {
 				setInitialized(true);
 				input.value = searchtext;
@@ -321,6 +330,7 @@ const SearchPage: FC = () => {
 						type="text"
 						placeholder="Search for titles and topics"
 						onInput={onInput}
+						showClearButton="always"
 					/>
 					<IonButtons slot="end">
 						<IonButton onClick={() => setFilterOpen(true)} color={filter.length && filter.length < 12 ? "tertiary" : undefined}>

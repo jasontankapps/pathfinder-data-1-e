@@ -1436,7 +1436,7 @@
 			"### Haunt Statistics",
 			"",
 			"**Notice** Perception DC DC 20 (to taste a hint of rot) or DC 25 (if the affected creature is wearing armor or heavy clothing)  ",
-			"**hp** 5 hp; **Trigger** conditional (using the item or the spell's remote effects; **Reset** none"
+			"**hp** 5 hp; **Trigger** conditional (using the item or the spell's remote effects); **Reset** none"
 		]
 	},
 	"skinsend": {

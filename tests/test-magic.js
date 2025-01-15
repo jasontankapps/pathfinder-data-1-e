@@ -126,7 +126,7 @@ function isGood(object, what) {
 			found || msg.push(`Basic problem with ${prop}`);
 			found = true;
 			return true;
-		} else if (test.tables) {
+		} else if (test.tables && (!copyof || etc.tables)) { // ignore copies without tables, as we've already scanned them
 			const result = checkForBadTables(test.tables, what + "." + prop);
 			result && msg.push(result);
 			return result;

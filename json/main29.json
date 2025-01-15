@@ -805,7 +805,7 @@
 					[ "{spell/Share Glory}", 1, "transmutation", null, null, "Imbue targets with a fraction of your mythic nature." ],
 					[ "{spell/Share Language}", 1, "divination", null, null, "Subject understands chosen language." ],
 					[ "{spell/Silent Image}", 1, "illusion", "figment", null, "Creates minor illusion of your design." ],
-					[ "{spell/Skin Tag}", 1, "necromancy", "haunted", "emotion, fear, mind-affecting", "Curse food or drink to gain afamilar connection to the creature" ],
+					[ "{spell/Skin Tag}", 1, "necromancy", "haunted", "emotion, fear, mind-affecting", "Curse food or drink to gain a familiar connection to the creature" ],
 					[ "{spell/Speechreader's Sight}", 1, "divination", null, null, "Read lips from a distance" ],
 					[ "{spell/Summon Minor Monster}", 1, "conjuration", "summoning", null, "Summon 1d3 Tiny animals." ],
 					[ "{spell/Summon Monster I}", 1, "conjuration", "summoning", "see text", "Summons extraplanar creature to fight for you." ],

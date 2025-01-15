@@ -418,7 +418,7 @@
 					[ "{spell/Shield}", 1, "abjuration", null, "force", "Invisible disc gives +4 to AC, blocks magic missiles." ],
 					[ "{spell/Shock Shield}", 1, "abjuration", null, "electricity, force", "A shield of force protects you until you dismiss it in an explosion of electricity." ],
 					[ "{spell/Skim}", 1, "divination", null, null, "Read four times faster than normal" ],
-					[ "{spell/Skin Tag}", 1, "necromancy", "haunted", "emotion, fear, mind-affecting", "Curse food or drink to gain afamilar connection to the creature" ],
+					[ "{spell/Skin Tag}", 1, "necromancy", "haunted", "emotion, fear, mind-affecting", "Curse food or drink to gain a familiar connection to the creature" ],
 					[ "{spell/Speechreader's Sight}", 1, "divination", null, null, "Read lips from a distance" ],
 					[ "{spell/Spirit Share}", 1, "transmutation", null, null, "Grant beneficial liquids with a touch" ],
 					[ "{spell/Starsight}", 1, "divination", null, null, "Observe the night sky as if it were a clear and unobstructed night." ],

@@ -257,7 +257,7 @@
 					[ "{spell/Shocking Grasp}", 1, "evocation", null, "electricity", "Touch delivers 1d6/level electricity damage (max 5d6)." ],
 					[ "{spell/Silent Image}", 1, "illusion", "figment", null, "Creates minor illusion of your design." ],
 					[ "{spell/Skim}", 1, "divination", null, null, "Read four times faster than normal" ],
-					[ "{spell/Skin Tag}", 1, "necromancy", "haunted", "emotion, fear, mind-affecting", "Curse food or drink to gain afamilar connection to the creature" ],
+					[ "{spell/Skin Tag}", 1, "necromancy", "haunted", "emotion, fear, mind-affecting", "Curse food or drink to gain a familiar connection to the creature" ],
 					[ "{spell/Sleep}", 1, "enchantment", "compulsion", "mind-affecting", "Puts 4 HD of creatures into magical slumber." ],
 					[ "{spell/Snapdragon Fireworks}", 1, "transmutation", null, "fire, light", "Create 1 dragon firework/level." ],
 					[ "{spell/Snowball}", 1, "evocation", null, "cold, water", "Throw a conjured ball of snow at a target" ],

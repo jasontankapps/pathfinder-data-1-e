@@ -20,7 +20,9 @@
 			"",
 			"If one abjuration spell is active within 10 feet of another for 24 hours or more, the magical fields interfere with each other and create barely visible energy fluctuations. The DC to find such spells with the Perception skill drops by 4.",
 			"",
-			"If an abjuration creates a barrier that keeps certain types of creatures at bay, that barrier cannot be used to push away those creatures. If you force the barrier against such a creature, you feel a discernible pressure against the barrier. If you continue to apply pressure, you end the spell."
+			"If an abjuration creates a barrier that keeps certain types of creatures at bay, that barrier cannot be used to push away those creatures. If you force the barrier against such a creature, you feel a discernible pressure against the barrier. If you continue to apply pressure, you end the spell.",
+			"",
+			"Find all Abjuration spells [here](main/spells_abjuration) (315 spells)."
 		]
 	},
 	"conjuration": {
@@ -31,11 +33,13 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"Each conjuration spell belongs to one of five subschools. Conjurations transport creatures from another plane of existence to your plane (calling); create objects or effects on the spot (creation); heal (healing); bring manifestations of objects, creatures, or forms of energy to you (summoning); or transport creatures or objects over great distances (teleportation). Creatures you conjure usually - but not always - obey your commands.",
+			"Each conjuration spell belongs to one of five subschools. Conjurations transport creatures from another plane of existence to your plane {spelldef/(calling)}; create objects or effects on the spot {spelldef/(creation)}; heal {spelldef/(healing)}; bring manifestations of objects, creatures, or forms of energy to you {spelldef/(summoning)}; or transport creatures or objects over great distances {spelldef/(teleportation)}. Creatures you conjure usually - but not always - obey your commands.",
 			"",
 			"A creature or object brought into being or transported to your location by a conjuration spell cannot appear inside another creature or object, nor can it appear floating in an empty space. It must arrive in an open location on a surface capable of supporting it.",
 			"",
-			"The creature or object must appear within the spell's range, but it does not have to remain within the range."
+			"The creature or object must appear within the spell's range, but it does not have to remain within the range.",
+			"",
+			"Find all Conjuration spells [here](main/spells_conjuration) (453 spells)."
 		]
 	},
 	"divination": {
@@ -48,7 +52,11 @@
 			"",
 			"Divination spells enable you to learn secrets long forgotten, predict the future, find hidden things, and foil deceptive spells.",
 			"",
-			"Many divination spells have cone-shaped areas. These move with you and extend in the direction you choose. The cone defines the area that you can sweep each round. If you study the same area for multiple rounds, you can often gain additional information, as noted in the descriptive text for the spell."
+			"Many divination spells have [cone-shaped](rule/aiming_a_spell) areas. These move with you and extend in the direction you choose. The cone defines the area that you can sweep each round. If you study the same area for multiple rounds, you can often gain additional information, as noted in the descriptive text for the spell.",
+			"",
+			"{spelldef/Scrying} is a subschool of Divination.",
+			"",
+			"Find all Divination spells [here](main/spells_divination) (264 spells)."
 		]
 	},
 	"enchantment": {
@@ -59,7 +67,9 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"Enchantment spells affect the minds of others, influencing or controlling their behavior. All enchantments are mind-affecting spells. Two subschools of enchantment spells grant you influence over a subject creature."
+			"Enchantment spells affect the minds of others, influencing or controlling their behavior. All enchantments are {spelldef/mind-affecting} spells. Two subschools of enchantment spells grant you influence over a subject creature: {spelldef/Charm} and {spelldef/Compulsion}.",
+			"",
+			"Find all Enchantment spells [here](main/spells_enchantment) (326 spells)."
 		]
 	},
 	"evocation": {
@@ -70,7 +80,9 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"Evocation spells manipulate magical energy or tap an unseen source of power to produce a desired end. In effect, an evocation draws upon magic to create something out of nothing. Many of these spells produce spectacular effects, and evocation spells can deal large amounts of damage."
+			"Evocation spells manipulate magical energy or tap an unseen source of power to produce a desired end. In effect, an evocation draws upon magic to create something out of nothing. Many of these spells produce spectacular effects, and evocation spells can deal large amounts of damage.",
+			"",
+			"Find all Evocation spells [here](main/spells_evocation) (345 spells)."
 		]
 	},
 	"illusion": {
@@ -81,7 +93,11 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"Illusion spells deceive the senses or minds of others. They cause people to see things that are not there, not see things that are there, hear phantom noises, or remember things that never happened."
+			"Illusion spells deceive the senses or minds of others. They cause people to see things that are not there, not see things that are there, hear phantom noises, or remember things that never happened.",
+			"",
+			"Illusion has five subschools: {spelldef/Figment}, {spelldef/Glamer}, {spelldef/Pattern}, {spelldef/Phantasm}, and {spelldef/Shadow>_subschool}.",
+			"",
+			"Find all Illusion spells [here](main/spells_illusion) (222 spells)."
 		]
 	},
 	"necromancy": {
@@ -92,7 +108,9 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"Necromancy spells manipulate the power of death, unlife, and the life force. Spells involving undead creatures make up a large part of this school."
+			"Necromancy spells manipulate the power of death, unlife, and the life force. Spells involving {type/undead} creatures make up a large part of this school.",
+			"",
+			"Find all Necromancy spells [here](main/spells_necromancy) (317 spells)."
 		]
 	},
 	"transmutation": {
@@ -103,7 +121,9 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"Transmutation spells change the properties of some creature, thing, or condition."
+			"Transmutation spells change the properties of some creature, thing, or condition. {spelldef/Polymorph} is a subschool of Transmutation.",
+			"",
+			"Find all Transmutation spells [here](main/spells_transmutation) (785 spells)."
 		]
 	},
 	"universal": {
@@ -114,7 +134,7 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"A small number of spells (arcane mark, limited wish, permanency, prestidigitation, and wish) are universal, belonging to no school."
+			"A small number of spells ({spell/arcane mark}, {spell/limited wish}, {spell/permanency}, {spell/prestidigitation}, and {spell/wish}) are universal, belonging to no school."
 		]
 	},
 	"calling": {
@@ -207,7 +227,7 @@
 			"",
 			"{SOURCE Haunted Heroes Handbook}",
 			"",
-			"These spells manipulate the lingering spiritual energy suffusing an area or surrounding an object into semi-autonomous magical effects. Haunted spells function like regular spells, but those with ongoing durations can be neutralized as though they were haunts as they take effect. The statistics for each spell's haunt-like manifestation are listed at the end of the spell's other statistics.",
+			"These spells manipulate the lingering spiritual energy suffusing an area or surrounding an object into semi-autonomous magical effects. Haunted spells function like regular spells, but those with ongoing durations can be neutralized as though they were {rule/haunts} as they take effect. The statistics for each spell's haunt-like manifestation are listed at the end of the spell's other statistics.",
 			"",
 			"Events during a haunted spell's duration may cause its haunt-like manifestation to reoccur during that round, causing a surprise round if combat has not yet begun. These manifestations grant victims and their allies additional chances to notice and neutralize the haunted spell before it takes effect. These additional manifestations do not allow new saving throws to negate the spell.",
 			"",
@@ -239,7 +259,7 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"Like a figment, a pattern spell creates an image that others can see, but a pattern also affects the minds of those who see it or are caught in it. All patterns are mind-affecting spells.",
+			"Like a {spelldef/figment}, a pattern spell creates an image that others can see, but a pattern also affects the minds of those who see it or are caught in it. All patterns are {spelldef/mind-affecting} spells.",
 			"",
 			"Pattern is a subschool of {spelldef/Illusion}."
 		]
@@ -252,7 +272,7 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"A phantasm spell creates a mental image that usually only the caster and the subject (or subjects) of the spell can perceive. This impression is totally in the minds of the subjects. It is a personalized mental impression, all in their heads and not a fake picture or something that they actually see. Third parties viewing or studying the scene don't notice the phantasm. All phantasms are mind-affecting spells.",
+			"A phantasm spell creates a mental image that usually only the caster and the subject (or subjects) of the spell can perceive. This impression is totally in the minds of the subjects. It is a personalized mental impression, all in their heads and not a fake picture or something that they actually see. Third parties viewing or studying the scene don't notice the phantasm. All phantasms are {spelldef/mind-affecting} spells.",
 			"",
 			"Phantasm is a subschool of {spelldef/Illusion}."
 		]
@@ -347,9 +367,9 @@
 			"",
 			"{SOURCE PRPG Core Rulebook}",
 			"",
-			"A teleportation spell transports one or more creatures or objects a great distance. The most powerful of these spells can cross planar boundaries. Unlike summoning spells, the transportation is (unless otherwise noted) one-way and not dispellable.",
+			"A teleportation spell transports one or more creatures or objects a great distance. The most powerful of these spells can cross planar boundaries. Unlike {spelldef/summoning} spells, the transportation is (unless otherwise noted) one-way and not dispellable.",
 			"",
-			"Teleportation is instantaneous travel through the Astral Plane. Anything that blocks astral travel also blocks teleportation.",
+			"Teleportation is instantaneous travel through the {rule/Astral Plane}. Anything that blocks astral travel also blocks teleportation.",
 			"",
 			"Teleportation is a subschool of {spelldef/Conjuration}."
 		]
@@ -439,7 +459,7 @@
 			"",
 			"{SOURCE Ultimate Magic}",
 			"",
-			"Disease effects give the target a disease, which may be an invading organism such as a bacteria or virus, an abnormal internal condition (such as a cancer or mental disorder), or a recurring magical effect that acts like one of the former. Creatures with resistance or immunity to disease apply that resistance to their saving throw and the effects of disease spells."
+			"Disease effects give the target a {rule/disease>s}, which may be an invading organism such as a bacteria or virus, an abnormal internal condition (such as a cancer or mental disorder), or a recurring magical effect that acts like one of the former. Creatures with resistance or immunity to disease apply that resistance to their saving throw and the effects of disease spells."
 		]
 	},
 	"draconic": {
@@ -450,7 +470,7 @@
 			"",
 			"{SOURCE Legacy of Dragons}",
 			"",
-			"Spells with the draconic descriptor were created by dragons in ages long past, and still resonate within the blood of true dragons to this day. Creatures of the dragon type with 5 or more racial hit dice can select a draconic spell as a spell known regardless of the class spell list it's on. Each time such a creature gains an additional racial hit die, it can select a draconic spell in place of an existing spell known of the same or higher spell level."
+			"Spells with the draconic descriptor were created by {family/dragon/s} in ages long past, and still resonate within the blood of true dragons to this day. Creatures of the {type/dragon/ type} with 5 or more racial hit dice can select a draconic spell as a spell known regardless of the class spell list it's on. Each time such a creature gains an additional racial hit die, it can select a draconic spell in place of an existing spell known of the same or higher spell level."
 		]
 	},
 	"earth": {
@@ -483,7 +503,7 @@
 			"",
 			"{SOURCE Ultimate Magic}",
 			"",
-			"Spells with this descriptor create emotions or manipulate the target's existing emotions. Most emotion spells are enchantments, except for fear spells, which are usually necromancy."
+			"Spells with this descriptor create emotions or manipulate the target's existing emotions. Most emotion spells are {spelldef/enchantment/s}, except for {spelldef/fear} spells, which are usually {spelldef/necromancy}."
 		]
 	},
 	"evil": {
@@ -505,7 +525,7 @@
 			"",
 			"{SOURCE Ultimate Magic}",
 			"",
-			"Spells with the fear descriptor create, enhance, or manipulate fear. Most fear spells are necromancy spells, though some are enchantment spells."
+			"Spells with the fear descriptor create, enhance, or manipulate fear. Most fear spells are {spelldef/necromancy} spells, though some are {spelldef/enchantment} spells."
 		]
 	},
 	"fire": {
@@ -606,7 +626,7 @@
 			"",
 			"{SOURCE Ultimate Magic}",
 			"",
-			"Pain effects cause unpleasant sensations without any permanent physical damage (though a sensitive target may suffer mental repercussions from lengthy exposure to pain). Creatures that are immune to effects that require a Fort save (such as constructs and undead) are immune to pain effects."
+			"Pain effects cause unpleasant sensations without any permanent physical damage (though a sensitive target may suffer mental repercussions from lengthy exposure to pain). Creatures that are immune to effects that require a Fortitude save (such as constructs and undead) are immune to pain effects."
 		]
 	},
 	"poison": {
@@ -617,7 +637,7 @@
 			"",
 			"{SOURCE Ultimate Magic}",
 			"",
-			"Poison effects use poison, venom, drugs, or similar toxic substances to disrupt and damage living creatures through chemical reactions. Technically, acids and poisons are both chemical reactions, but for the purpose of the Pathfinder Roleplaying Game, they are categorized as different effects, with acids dealing hit point damage and poisons causing ability damage, ability drain, bleeding, confusion, convulsions, nausea, paralysis, reduced healing, suffocation, unconsciousness, or death. Creatures with resistance to poison (such as dwarves) apply that resistance to their saving throws and the effects of poison spells. Creatures with immunity are immune to poisonous aspects of poison spells, but not necessarily all effects of the spell (for example, a spell that creates a pit full of liquid poison could still trap or drown a poison-immune creature)."
+			"Poison effects use {main/equipment_<poison>s}, venom, {rule/drugs}, or similar toxic substances to disrupt and damage living creatures through chemical reactions. Technically, acids and poisons are both chemical reactions, but for the purpose of the Pathfinder Roleplaying Game, they are categorized as different effects, with acids dealing hit point damage and poisons causing ability damage, ability drain, bleeding, confusion, convulsions, nausea, paralysis, reduced healing, suffocation, unconsciousness, or death. Creatures with resistance to poison (such as dwarves) apply that resistance to their saving throws and the effects of poison spells. Creatures with immunity are immune to poisonous aspects of poison spells, but not necessarily all effects of the spell (for example, a spell that creates a pit full of liquid poison could still trap or drown a poison-immune creature)."
 		]
 	},
 	"ruse": {
@@ -639,7 +659,7 @@
 			"",
 			"{SOURCE Ultimate Magic}",
 			"",
-			"Shadow spells manipulate matter or energy from the Shadow Plane, or allow transport to or from that plane."
+			"Shadow spells manipulate matter or energy from the {rule/Shadow Plane}, or allow transport to or from that plane."
 		]
 	},
 	"sonic": {
@@ -650,7 +670,7 @@
 			"",
 			"{SOURCE Ultimate Magic}",
 			"",
-			"Sonic effects transmit energy to the target through frequent oscillations of pressure through the air, water, or ground. Sounds that are too high or too low for the humanoid ear to detect can still transmit enough energy to cause harm, which means that these effects can even affect deafened creatures. Sound effects can cause hit point damage, deafness, dizziness, nausea, pain, shortness of breath, and temporary blindness, and can detect creatures using batlike echolocation."
+			"Sonic effects transmit energy to the target through frequent oscillations of pressure through the air, water, or ground. Sounds that are too high or too low for the humanoid ear to detect can still transmit enough energy to cause harm, which means that these effects can even affect deafened creatures. Sound effects can cause hit point damage, deafness, dizziness, nausea, pain, shortness of breath, and temporary blindness, and can detect creatures using bat-like echolocation."
 		]
 	},
 	"water": {

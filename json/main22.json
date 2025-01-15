@@ -919,7 +919,7 @@
 					[ "{spell/Sharesister}", 3, null, null, "Take a negative level to grant another creature of the same gender a bonus on their casting ability." ],
 					[ "{spell/Siphon Might}", 3, null, null, "Drain strength from a creature and transfer it to another." ],
 					[ "{spell/Skeleton Crew}", [ 3.671, "3, 4" ], null, null, "Turn corpses into obedient skeleton crew." ],
-					[ "{spell/Skin Tag}", 1, "haunted", "emotion, fear, mind-affecting", "Curse food or drink to gain afamilar connection to the creature" ],
+					[ "{spell/Skin Tag}", 1, "haunted", "emotion, fear, mind-affecting", "Curse food or drink to gain a familiar connection to the creature" ],
 					[ "{spell/Skinsend}", 2, null, null, "Animate and possess your own skin as if it were a separate creature." ],
 					[ "{spell/Slay Living}", [ 5.141, "4, 5, 6" ], null, "death", "Touch attack deals 12d6 + 1 per level." ],
 					[ "{spell/Sotto Voce}", [ 0.251, "0, 1" ], null, "fear, mind-affecting, sonic", "Use your dry, rasping whisper to fill a creature with dread." ],
