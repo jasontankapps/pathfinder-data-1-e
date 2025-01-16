@@ -1301,7 +1301,7 @@
 					[ "{spell/Reduce Person}", 1, "transmutation", null, null, "Humanoid creature halves in size." ],
 					[ "{spell/Returning Weapon}", 1, "conjuration", "teleportation", null, "Grants a weapon the returning special weapon quality." ],
 					[ "{spell/Sense Fear}", 1, "divination", null, null, "Perceive nearby creatures that are experiencing fear" ],
-					[ "{spell/Shadow Trap}", 1, "illusion", "shadow", null, "Pin someone's target, causing them to become stuck." ],
+					[ "{spell/Shadow Trap}", 1, "illusion", "shadow", null, "Pin someone's shadow, causing them to become stuck." ],
 					[ "{spell/Shadow Weapon}", 1, "illusion", "shadow", "shadow", "Create a quasi-real masterwork weapon." ],
 					[ "{spell/Shield}", 1, "abjuration", null, "force", "Invisible disc gives +4 to AC, blocks magic missiles." ],
 					[ "{spell/Shield Of Shards}", 1, "transmutation", null, null, "Turn your shield into a storm of shards that attack adjacent creatures" ],

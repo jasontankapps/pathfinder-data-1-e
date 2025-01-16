@@ -329,7 +329,7 @@
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, M/DF (a chip of mica)  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
-			"**Area** or Target 5-ft.-radius spread; or one solid object or one crystaline creature  ",
+			"**Area or Target** 5-ft.-radius spread; or one solid object or one crystaline creature  ",
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates (object); Will negates (object) or Fortitude half; see text; **Spell Resistance** yes",
 			"",
@@ -1330,7 +1330,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell attempts to transfer a magical effect from a creature you touch to yourself. When you touch the creature, siphon magic attempts to end one ongoing spell that has been cast on that creature, as if via a targeted dispel magic. If you know the specific spell effect you wish to target, you can name that spell effect to target that specific spell; otherwise siphon magic begins with the highest-level spell in effect and works its way down through all spells affecting the target until it dispels one or runs out of effects, as per dispel magic.",
+			"This spell attempts to transfer a magical effect from a creature you touch to yourself. When you touch the creature, siphon magic attempts to end one ongoing spell that has been cast on that creature, as if via a targeted {spell/dispel magic}. If you know the specific spell effect you wish to target, you can name that spell effect to target that specific spell; otherwise siphon magic begins with the highest-level spell in effect and works its way down through all spells affecting the target until it dispels one or runs out of effects, as per dispel magic.",
 			"",
 			"If siphon magic successfully ends a spell effect on the target, the remaining duration of that spell effect is transferred to you. That spell effect plays out for the rest of its duration as if you had been the original target. If the spell allows a saving throw to resist the effect, you gain a saving throw as if the spell were just being cast upon you, although this does not \"reset\" the spell's duration."
 		]
@@ -1731,7 +1731,7 @@
 			"",
 			"An affected creature moves and attacks at a drastically slowed rate. Creatures affected by this spell are staggered and can take only a single move action or standard action each turn, but not both (nor may it take full-round actions). Additionally, it takes a -1 penalty on attack rolls, AC, and Reflex saves. A slowed creature moves at half its normal speed (round down to the next 5-foot increment), which affects the creature's jumping distance as normal for decreased speed.",
 			"",
-			"Multiple slow effects don't stack. Slow counters and dispels haste.",
+			"Multiple slow effects don't stack. Slow counters and dispels {spell/haste}.",
 			"",
 			"### Mythic Slow",
 			"",
@@ -4126,7 +4126,7 @@
 			"",
 			"This spell transforms your hands into living stone. While this spell is in effect, your unarmed strikes do not provoke attacks of opportunity and deal 1d6 points of lethal bludgeoning damage (1d4 if you are Small). In addition, your unarmed strikes ignore the hardness of any object with a hardness less than 8.",
 			"",
-			"Stone to flesh immediately dispels stone fist. Should you be the target of transmute rock to mud, this spell immediately ends and you take 4d6 points of damage."
+			"{spell/Stone to flesh} immediately dispels stone fist. Should you be the target of {spell/transmute rock to mud}, this spell immediately ends and you take 4d6 points of damage."
 		]
 	},
 	"stone_shape": {
@@ -4173,7 +4173,7 @@
 			"",
 			"A 1-inch-thick slab of stone springs up from the ground, interposing itself between you and an opponent of your choice. The stone shield provides you with cover from that enemy until the beginning of your next turn, granting you a +4 bonus to Armor Class and a +2 bonus on Reflex saving throws. If the opponent's attack misses you by 4 or less, the attack strikes the shield instead. The stone shield has hardness 8 and 15 hit points. If the shield is destroyed, the spell ends and the shield crumbles away into nothingness. Spells and effects that damage an area deal damage to the shield.",
 			"",
-			"You cannot use this spell if you are not adjacent to a large area of earth or stone such as the ground or a wall. At 4th level, a quinggong monk may select this spell as a ki power costing 1 ki point to activate."
+			"You cannot use this spell if you are not adjacent to a large area of earth or stone such as the ground or a wall. At 4th level, a {arc-monk/qinggong monk} may select this spell as a ki power costing 1 ki point to activate."
 		]
 	},
 	"stone_tell": {

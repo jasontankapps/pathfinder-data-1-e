@@ -248,7 +248,7 @@
 					[ "{spell/Secluded Grimoire}", 1, "conjuration", "summoning", null, "Safeguard your spellbook on the Ethereal Plane" ],
 					[ "{spell/See Alignment}", 1, "divination", null, null, "Pick an alignment; in your sight, creatures and items with that alignment emit a ghostly radiance." ],
 					[ "{spell/Serren's Swift Girding}", 1, "transmutation", null, null, "Immediately clad a number of targets in armor." ],
-					[ "{spell/Shadow Trap}", 1, "illusion", "shadow", null, "Pin someone's target, causing them to become stuck." ],
+					[ "{spell/Shadow Trap}", 1, "illusion", "shadow", null, "Pin someone's shadow, causing them to become stuck." ],
 					[ "{spell/Shadow Weapon}", 1, "illusion", "shadow", "shadow", "Create a quasi-real masterwork weapon." ],
 					[ "{spell/Shadowfade}", 1, "illusion", "shadow", null, "Become invisibile to creatures using darkvision" ],
 					[ "{spell/Shield}", 1, "abjuration", null, "force", "Invisible disc gives +4 to AC, blocks magic missiles." ],

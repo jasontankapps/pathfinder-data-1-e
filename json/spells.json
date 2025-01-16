@@ -1246,7 +1246,7 @@
 			"**Target** you  ",
 			"**Duration** 1 round/level (D) or until discharged",
 			"",
-			"This spell allows you to act more swiftly while maintaining a bardic performance. You must already be maintaining a bardic performance before you can cast allegro. You gain the benefits of the spell haste for as long as you maintain that bardic performance. If you cease maintaining the bardic performance or it is interrupted, this spell's duration ends. As an immediate action while you are maintaining a bardic performance, you can dismiss allegro to reroll a Reflex save or Dexterity-based skill check-you must choose to reroll before the result of the original roll is known. You must take the result of the reroll, even if it's worse than the original roll. Allegro dispels and is dispelled by slow."
+			"This spell allows you to act more swiftly while maintaining a bardic performance. You must already be maintaining a bardic performance before you can cast allegro. You gain the benefits of the spell haste for as long as you maintain that bardic performance. If you cease maintaining the bardic performance or it is interrupted, this spell's duration ends. As an immediate action while you are maintaining a bardic performance, you can dismiss allegro to reroll a Reflex save or Dexterity-based skill check-you must choose to reroll before the result of the original roll is known. You must take the result of the reroll, even if it's worse than the original roll. Allegro dispels and is dispelled by {spell/slow}."
 		]
 	},
 	"alleviate_addiction": {
@@ -2420,7 +2420,7 @@
 			"",
 			"A compulsion forces them to abandon the area or item, shunning it and never willingly returning to it while the spell is in effect. A creature that makes a successful saving throw can stay in the area or touch the item but feels uncomfortable doing so. This distracting discomfort reduces the creature's Dexterity score by 4 points.",
 			"",
-			"Antipathy counters and dispels sympathy."
+			"Antipathy counters and dispels {spell/sympathy}."
 		]
 	},
 	"antiplant_shell": {
@@ -2617,7 +2617,7 @@
 			"",
 			"You render the target unable to understand any language, including spoken language, written language, sign language, gestures attempting to mimic a crude language, or even truespeech and telepathy. The affected creature is unable to communicate, use command words, cast spells with verbal components, or use any other abilities that requires language. At the end of each of its turns, the subject can attempt a new saving throw to end the effect.",
 			"",
-			"Tongues counters and dispels aphasia, and a creature with the tongues spell active is immune to aphasia. Oracles with the Tongues curse ignore aphasia in combat."
+			"{spell/Tongues} counters and dispels aphasia, and a creature with the tongues spell active is immune to aphasia. Oracles with the Tongues curse ignore aphasia in combat."
 		]
 	},
 	"apparent_master": {

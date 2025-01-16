@@ -1460,7 +1460,7 @@
 					[ "{spell/Stunning Finale}", 5, null, null, "Stuns 3 creatures for 1 round." ],
 					[ "{spell/Suggestion}", [ 2.501, "2, 3" ], "compulsion", "language-dependent, mind-affecting", "Compels subject to follow stated course of action." ],
 					[ "{spell/Suggestion, Mass}", [ 5.441, "5, 6" ], "compulsion", "language-dependent, mind-affecting", "As suggestion, affects subject/level." ],
-					[ "{spell/Swallow Your Fear}", 1, null, null, "Increase creatures' combat effectiveness when they under a fear effect." ],
+					[ "{spell/Swallow Your Fear}", 1, null, null, "Increase creatures' combat effectiveness when under a fear effect." ],
 					[ "{spell/Symbol of Debauchery}", [ 7.501, "6, 8" ], "compulsion", "emotion, mind-affecting", "Conjure a symbol that makes all who see it lust for each other." ],
 					[ "{spell/Symbol of Distraction}", [ 5.821, "4, 6" ], "compulsion", "mind-affecting", "Fascinates all creatures within 60 ft." ],
 					[ "{spell/Symbol of Insanity}", [ 7.711, "6, 8" ], "compulsion", "mind-affecting", "Triggered rune renders nearby creatures insane." ],

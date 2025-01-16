@@ -265,7 +265,7 @@
 			"**Casting Time** 10 minutes  ",
 			"**Components** V, S, M (powdered diamond worth 200 gp)  ",
 			"**Range** touch  ",
-			"**Target** or Area object touched or up to 5 sq. ft./level  ",
+			"**Target or Area** object touched or up to 5 sq. ft./level  ",
 			"**Duration** permanent until discharged (D)  ",
 			"**Saving Throw** see text; **Spell Resistance** no (object) and yes; see text",
 			"",
@@ -298,7 +298,7 @@
 			"**Casting Time** 10 minutes  ",
 			"**Components** V, S, M (powdered diamond worth 200 gp)  ",
 			"**Range** touch  ",
-			"**Target** or Area object touched or up to 5 sq. ft./level  ",
+			"**Target or Area** object touched or up to 5 sq. ft./level  ",
 			"**Duration** permanent until discharged (D)  ",
 			"**Saving Throw** see text; **Spell Resistance** no (object) and yes; see text",
 			"",
@@ -351,7 +351,7 @@
 			"",
 			"This spell instills powerful hope in the subjects. Each affected creature gains a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls.",
 			"",
-			"Good hope counters and dispels crushing despair."
+			"Good hope counters and dispels {spell/crushing despair}."
 		]
 	},
 	"goodberry": {
@@ -1247,7 +1247,7 @@
 			"",
 			"Spell effects that may be tied to a hallowed site include {spell/aid}, {spell/bane}, {spell/bless}, {spell/cause fear}, {spell/darkness}, {spell/daylight}, {spell/death ward}, {spell/deeper darkness}, {spell/detect evil}, {spell/detect magic}, {spell/dimensional anchor}, {spell/discern lies}, {spell/dispel magic}, {spell/endure elements}, {spell/freedom of movement}, {spell/invisibility purge}, {spell/protection from energy}, {spell/remove fear}, {spell/resist energy}, {spell/silence}, {spell/tongues}, and {spell/zone of truth}. Saving throws and spell resistance might apply to these spells' effects. (See the individual spell descriptions for details.)",
 			"",
-			"An area can receive only one hallow spell (and its associated spell effect) at a time. Hallow counters but does not dispel unhallow."
+			"An area can receive only one hallow spell (and its associated spell effect) at a time. Hallow counters but does not dispel {spell/unhallow}."
 		]
 	},
 	"hallucinatory_decor": {
@@ -1613,7 +1613,7 @@
 			"",
 			"A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.",
 			"",
-			"All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed. Multiple haste effects don't stack. Haste dispels and counters slow.",
+			"All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed. Multiple haste effects don't stack. Haste dispels and counters {spell/slow}.",
 			"",
 			"### Mythic Haste",
 			"",
@@ -2002,7 +2002,7 @@
 			"",
 			"Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, heat metal deals half damage and boils the surrounding water.",
 			"",
-			"Heat metal counters and dispels chill metal.",
+			"Heat metal counters and dispels {spell/chill metal}.",
 			"",
 			"### Mythic Heat Metal",
 			"",
@@ -2462,7 +2462,7 @@
 			"**Casting Time** 10 minutes  ",
 			"**Components** V, S, M (powdered diamond worth 200 gp)  ",
 			"**Range** touch  ",
-			"**Target** or Area object touched or up to 5 sq. ft./level  ",
+			"**Target or Area** object touched or up to 5 sq. ft./level  ",
 			"**Duration** permanent until discharged (D)  ",
 			"**Saving Throw** see text; **Spell Resistance** no (object) and yes (see text)",
 			"",
@@ -2477,7 +2477,7 @@
 			"**Casting Time** 10 minutes  ",
 			"**Components** V, S, M (powdered diamond worth 400 gp)  ",
 			"**Range** touch  ",
-			"**Target** or Area object touched or up to 5 sq. ft./level  ",
+			"**Target or Area** object touched or up to 5 sq. ft./level  ",
 			"**Duration** permanent until discharged (D)  ",
 			"**Saving Throw** see text; **Spell Resistance** no (object) and yes (see text)",
 			"",

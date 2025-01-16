@@ -71,7 +71,7 @@
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** medium (100 ft. + 10 ft./level)  ",
-			"**Area** or Target one 20-ft. cube/level (S) or one fire-based magic item  ",
+			"**Area or Target** one 20-ft. cube/level (S) or one fire-based magic item  ",
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none or Will negates (object); **Spell Resistance** no or yes (object)",
 			"",
@@ -748,7 +748,7 @@
 			"",
 			"You fill your target with feelings of intense infatuation for a specific individual known to the target. At the time of the casting, you designate a single creature as the focus of the target's desire. Thereafter, the target does all it can to remain within 30 feet of the object of its desire. If the target moves outside this range, it gains the staggered condition until it is again near the focus of its desire. If remaining within 30 feet of the focus of its affection would place the target in obvious physical danger, the target can attempt a second save to break the spell's effect.",
 			"",
-			"Reckless infatuation counters unadulterated loathing."
+			"Reckless infatuation counters {spell/unadulterated loathing}."
 		]
 	},
 	"recoil_fire": {
@@ -890,7 +890,7 @@
 			"",
 			"You can decrease the target's size by up to two categories, to a minimum of Tiny. If the target shrinks two sizes, its weight decreases by a factor of 16 and it gains a +4 size bonus to Dexterity, a -4 size penalty to Strength, and a +2 bonus on attack rolls and to AC because of its decreased size. A Medium or Small humanoid creature whose size decreases to Tiny has a space of 2-1/2 feet and a natural reach of 0 feet.",
 			"",
-			"Mythic reduce person counters and dispels mythic enlarge person.",
+			"Mythic reduce person counters and dispels mythic {spell/enlarge person}.",
 			"",
 			"### Reduce Person, Mass",
 			"",
@@ -1355,7 +1355,7 @@
 			"",
 			"Remove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.",
 			"",
-			"Remove blindness/deafness counters and dispels blindness/deafness."
+			"Remove blindness/deafness counters and dispels {spell/blindness//deafness}."
 		]
 	},
 	"remove_blindness": { "copyof": "remove_blindness_deafness" },
@@ -1418,7 +1418,7 @@
 			"",
 			"You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell.",
 			"",
-			"Remove fear counters and dispels cause fear."
+			"Remove fear counters and dispels {spell/cause fear}."
 		]
 	},
 	"remove_paralysis": {
