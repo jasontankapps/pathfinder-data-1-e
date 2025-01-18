@@ -1022,7 +1022,7 @@
 			"",
 			"The nature of the curse that becomes infused into the effigy you touch depends more on the nature of the effigy than anything else. You can cast this spell on a standard effigy (such as a head stuck onto a spike, or on a body hanging from a tree), but can generate more powerful effects by casting the spell on one of the more elaborate effigies detailed above - in this case, it is the established traditions of the effigy as much as the effigy itself that empowers the curse. The larger effigies, such as the tree of souls and the wicker man, have minimum caster level requirements; you must be this level or higher in order to cast infuse effigy on such a target.",
 			"",
-			"Once an effigy is infused, it radiates an aura of unease to a radius of 5 feet per caster level - the first time a creature enters this area, it must make a Will save or become shaken for 1 minute per caster level. This effect can only occur once per creature and is a mind-affecting fear effect. As long as an effigy remains under the effects of this spell, the body parts associated with the effigy become preserved as if by gentle repose. Once an effigy has been the focus for an infuse effigy spell, it can never again be the target of this spell - a new effigy must be constructed from new victims if you wish to recreate it. An infused effigy is treated as a magic item for the purposes of saving throws.",
+			"Once an effigy is infused, it radiates an aura of unease to a radius of 5 feet per caster level - the first time a creature enters this area, it must make a Will save or become shaken for 1 minute per caster level. This effect can only occur once per creature and is a mind-affecting fear effect. As long as an effigy remains under the effects of this spell, the body parts associated with the effigy become preserved as if by {spell/gentle repose}. Once an effigy has been the focus for an infuse effigy spell, it can never again be the target of this spell - a new effigy must be constructed from new victims if you wish to recreate it. An infused effigy is treated as a magic item for the purposes of saving throws.",
 			"",
 			"An infused effigy has an additional effect on creatures of the same type as the largest creature incorporated into the effigy. If the largest creature is a humanoid or outsider, the additional effect only affects creatures of the largest creature's subtype. Creatures of this type (and subtype) take a -2 penalty on the saving throw against the effigy's aura, and as soon as such creatures attack or damage the effigy (from any distance) or approach within 10 feet of it, they must make a Will saving throw or become cursed. If a creature becomes cursed by an infused effigy, the spell effect on the effigy ends (and the caster can now use that spell slot to prepare or cast spells again), but the curse itself is permanent until it is removed. If the creature that triggers the effigy was close friends with or related to anyone whose body was used to construct the effigy, that creature takes a -4 penalty on the Will save to avoid becoming cursed. The specific effects of each type of effigy's curse are listed below. At the GM's discretion, other specific effigies might exist, along with specific effects they exhibit when they are the subject of an infuse effigy spell.",
 			"",
@@ -2310,7 +2310,7 @@
 			"",
 			"The target gains a perfect memory of the page you used as a focus component. The target can visualize this page as easily as looking at it in person, including minute details visible to close scrutiny by the naked eye. The memory of the page includes text and images, such as a drawing or a map. Someone unfamiliar with the language on the page (or even an illiterate person) could relay what is written simply by copying the shapes of the letters so another person can read them.",
 			"",
-			"The maximum number of pages that a particular target can memorize through repeated castings of this spell is equal to the target's Intelligence modifier (minimum 1); any attempts beyond this limit have no effect, although the target's memory of a page could be erased (using modify memory or a similar effect) to effectively make room for a different one.",
+			"The maximum number of pages that a particular target can memorize through repeated castings of this spell is equal to the target's Intelligence modifier (minimum 1); any attempts beyond this limit have no effect, although the target's memory of a page could be erased (using {spell/modify memory} or a similar effect) to effectively make room for a different one.",
 			"",
 			"A creature that memorizes magical writing (such as a scroll or a page from a spellbook) cannot borrow, duplicate, or retain any of the magic in the writing. However, this would allow a wizard to copy a spell into his spellbook so he could prepare the spell from his book (assuming the spell takes up only one page in a spellbook)."
 		]
@@ -2341,7 +2341,7 @@
 			"",
 			"The target forgets an additional round, back to the beginning of the turn before its last turn.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend 1 round implanting a false memory in the affected target. This false memory is limited to events that could have occurred during the time it just forgot, as if using modify memory but limited to that short period of time. For example, you couldn't implant the memory of a lengthy conversation, as that couldn't happen in the forgotten length of time.",
+			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend 1 round implanting a false memory in the affected target. This false memory is limited to events that could have occurred during the time it just forgot, as if using {spell/modify memory} but limited to that short period of time. For example, you couldn't implant the memory of a lengthy conversation, as that couldn't happen in the forgotten length of time.",
 			"",
 			"The target can attempt a Will saving throw (DC equal to the mythic memory lapse DC plus your tier) to resist this implanted memory. Success means no memory is implanted, but the target still forgets the allotted time."
 		]
@@ -2778,7 +2778,7 @@
 			"**Duration** 24 hours  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"The subject is protected from all devices and spells that gather information about the target through divination magic (such as detect evil, locate creature, scry, and see invisible). This spell also grants a +8 resistance bonus on saving throws against all mind-affecting spells and effects. Mind blank even foils limited wish, miracle, and wish spells when they are used in such a way as to gain information about the target. In the case of scrying that scans an area the creature is in, such as arcane eye, the spell works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the subject do not work at all.",
+			"The subject is protected from all devices and spells that gather information about the target through divination magic (such as {spell/detect evil}, {spell/locate creature}, {spell/scrying}, and {spell/see invisibility}). This spell also grants a +8 resistance bonus on saving throws against all mind-affecting spells and effects. Mind blank even foils {spell/limited wish}, {spell/miracle}, and {spell/wish} spells when they are used in such a way as to gain information about the target. In the case of scrying that scans an area the creature is in, such as {spell/arcane eye}, the spell works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the subject do not work at all.",
 			"",
 			"### Mind Blank, Communal",
 			"",
@@ -3548,7 +3548,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** none or Will negates; see text; **Spell Resistance** no",
 			"",
-			"By means of this spell, you misdirect the information from divination spells that reveal auras (detect evil, detect magic, discern lies, and the like). On casting the spell, you choose another object within range. For the duration of the spell, the subject of misdirection is detected as if it were the other object. Neither the subject nor the other object gets a saving throw against this effect. Detection spells provide information based on the second object rather than on the actual target of the detection unless the caster of the detection succeeds on a Will save. For instance, you could make yourself detect as a tree if one were within range at casting: not evil, not lying, not magical, neutral in alignment, and so forth. This spell does not affect other types of divination magic (augury, detect thoughts, clairaudience/clairvoyance, and the like)."
+			"By means of this spell, you misdirect the information from divination spells that reveal auras ({spell/detect evil}, {spell/detect magic}, {spell/discern lies}, and the like). On casting the spell, you choose another object within range. For the duration of the spell, the subject of misdirection is detected as if it were the other object. Neither the subject nor the other object gets a saving throw against this effect. Detection spells provide information based on the second object rather than on the actual target of the detection unless the caster of the detection succeeds on a Will save. For instance, you could make yourself detect as a tree if one were within range at casting: not evil, not lying, not magical, neutral in alignment, and so forth. This spell does not affect other types of divination magic ({spell/augury}, {spell/detect thoughts}, {spell/clairaudience//clairvoyance}, and the like)."
 		]
 	},
 	"miserable_pity": {
@@ -3566,7 +3566,7 @@
 			"**Duration** 1 round/level and 1 minute; see text  ",
 			"**Saving Throw** Will negates (see text); **Spell Resistance** yes",
 			"",
-			"This spell functions as sanctuary, except creatures attempting to attack the target who fail their saves also feel a strong sense of pity toward the target, as if it were weak, pathetic, and not a threat. If the target breaks the spell by attacking, any creature that failed its save against the spell gains a +2 morale bonus on attack rolls against the target for 1 minute."
+			"This spell functions as {spell/sanctuary}, except creatures attempting to attack the target who fail their saves also feel a strong sense of pity toward the target, as if it were weak, pathetic, and not a threat. If the target breaks the spell by attacking, any creature that failed its save against the spell gains a +2 morale bonus on attack rolls against the target for 1 minute."
 		]
 	},
 	"mislead": {
@@ -4164,7 +4164,7 @@
 			"**Duration** 1 week  ",
 			"**Saving Throw** Will negates (object); **Spell Resistance** yes (object)",
 			"",
-			"You imbue one or more objects with magic that dramatically slows down natural processes that lead to decay and spoilage. For the duration of the spell, food, water, plants, and other perishable objects affected by the spell remain as fresh as they were when the spell was cast. The spell also protects these objects against spells of the same level or lower that cause spoilage, such as putrefy food and drink. When the duration of preserve expires, the objects resume aging at their normal rate. The spell also works on severed body parts and the bodies of small creatures as per gentle repose, provided that the weight of the creature or part does not exceed the spell's limit.",
+			"You imbue one or more objects with magic that dramatically slows down natural processes that lead to decay and spoilage. For the duration of the spell, food, water, plants, and other perishable objects affected by the spell remain as fresh as they were when the spell was cast. The spell also protects these objects against spells of the same level or lower that cause spoilage, such as {spell/putrefy food and drink}. When the duration of preserve expires, the objects resume aging at their normal rate. The spell also works on severed body parts and the bodies of small creatures as per {spell/gentle repose}, provided that the weight of the creature or part does not exceed the spell's limit.",
 			"",
 			"Preserve can be made permanent with a {spell/permanency} spell by a caster of 9th level or higher for 500 gp."
 		]

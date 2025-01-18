@@ -330,7 +330,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, find traps; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/find traps}; **Cost** 2,000 gp"
 		]
 	},
 	"first_aid_gloves": {
@@ -768,7 +768,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, expeditious excavation; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/expeditious excavation}; **Cost** 4,000 gp"
 		]
 	},
 	"shadow_falconers_glove": {
@@ -1038,7 +1038,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, liquid form; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fluid form}; **Cost** 5,000 gp"
 		]
 	},
 	"gloves_of_unexpected_violence_standard": {
@@ -1104,7 +1104,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, rusting grasp; **Cost** 5,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/rusting grasp}; **Cost** 5,750 gp"
 		]
 	},
 	"ratcheting_gauntlets": {
@@ -1331,7 +1331,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, siphon magic; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/siphon magic}; **Cost** 12,500 gp"
 		]
 	},
 	"hand_of_hoarded_deaths": {
@@ -1407,7 +1407,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, rusting grasp; **Cost** 17,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/rusting grasp}; **Cost** 17,250 gp"
 		]
 	},
 	"greater_gauntlet_of_rust": {
@@ -1659,7 +1659,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, penumbral disguise; **Cost** 675 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/penumbral disguise}; **Cost** 675 gp"
 		]
 	},
 	"skinsaw_mask": {
@@ -1997,7 +1997,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bloodhound, the creator must have 4 ranks in Appraise; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bloodhound}, the creator must have 4 ranks in Appraise; **Cost** 1,500 gp"
 		]
 	},
 	"ossuary_mask": {
@@ -2254,7 +2254,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Elemental Spell; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Elemental Spell}; **Cost** 2,000 gp"
 		]
 	},
 	"traveling_masters_turban": {
@@ -2784,7 +2784,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, gloomblind bolts, creator must be a fetchling; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gloomblind bolts}, creator must be a fetchling; **Cost** 4,000 gp"
 		]
 	},
 	"helm_of_the_mammoth_lord": {
@@ -2844,7 +2844,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, eagle eye, hunter's eye; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle eye}, {spell/hunter's eye}; **Cost** 4,500 gp"
 		]
 	},
 	"veil_of_fleeting_glances": {
@@ -2988,7 +2988,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bloodhound, platinum ring worth 250 gp; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bloodhound}, platinum ring worth 250 gp; **Cost** 5,000 gp"
 		]
 	},
 	"commanders_helm_dwarf_lesser": {
@@ -3011,7 +3011,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, the teamwork feat to be imbued, tactical acumen, creator must be a dwarf; **Cost** 5,000 gp (Lesser), 8,000 gp (Greater), 12,000 gp (Superior)"
+			"**Requirements** {feat/Craft Wondrous Item}, the {main/feats_<teamwork/ feat} to be imbued, {spell/tactical acumen}, creator must be a dwarf; **Cost** 5,000 gp (Lesser), 8,000 gp (Greater), 12,000 gp (Superior)"
 		]
 	},
 	"lesser_commanders_helm": {
@@ -3670,7 +3670,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairvoyance; **Cost** 11,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairvoyance}; **Cost** 11,000 gp"
 		]
 	},
 	"howling_helm": {
@@ -3725,7 +3725,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, miasmatic form; **Cost** 11,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/miasmatic form}; **Cost** 11,500 gp"
 		]
 	},
 	"crown_of_blasting_major": {
@@ -3881,7 +3881,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, aversion, focused scrutiny; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/aversion}, {spell/focused scrutiny}; **Cost** 12,500 gp"
 		]
 	},
 	"batrachian_helm": {
@@ -4168,7 +4168,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, surmount affliction; **Cost** 16,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/surmount affliction}; **Cost** 16,800 gp"
 		]
 	},
 	"stormlords_helm": {
@@ -4527,7 +4527,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, divide mind, possession, {spell/tower of iron will V}; **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/divide mind}, {spell/possession}, {spell/tower of iron will V}; **Cost** 45,000 gp"
 		]
 	},
 	"mask_of_giants_greater": {
@@ -4726,7 +4726,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cultural adaptation; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cultural adaptation}; **Cost** 500 gp"
 		]
 	},
 	"headband_of_vermin_control": {
@@ -4745,7 +4745,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control vermin; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control vermin}; **Cost** 500 gp"
 		]
 	},
 	"phylactery_of_faithfulness": {

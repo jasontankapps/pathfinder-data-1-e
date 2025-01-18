@@ -899,7 +899,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** no",
 			"",
-			"The target gains the benefit of shield of faith and your choice of protection from chaos, evil, good, or law. As a move action, the target can transfer this spell to a touched ally, who becomes the new target of the spell.",
+			"The target gains the benefit of {spell/shield of faith} and your choice of {spell/protection from chaos/, evil, good, or law}. As a move action, the target can transfer this spell to a touched ally, who becomes the new target of the spell.",
 			"",
 			"The alignment descriptor of this spell matches the alignment descriptor of the protection spell you chose when casting it. For example, granting the target protection from evil gives this spell the good descriptor."
 		]
@@ -1237,7 +1237,7 @@
 			"",
 			"Hallow makes a particular site, building, or structure a holy site. This has four major effects.",
 			"",
-			"First, the site is warded by a magic circle against evil effect.",
+			"First, the site is warded by a {spell/magic circle against evil} effect.",
 			"",
 			"Second, the DC to resist positive channeled energy within this area gains a +4 sacred bonus and the DC to resist negative energy is reduced by 4. Spell resistance does not apply to this effect. This provision does not apply to the druid version of the spell.",
 			"",
@@ -1325,7 +1325,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates (see text); **Spell Resistance** yes",
 			"",
-			"This spell renders as many as three undead creatures immobile. A nonintelligent undead creature gets no saving throw; an intelligent undead creature does. If the spell is successful, it renders the undead creature immobile for the duration of the spell (similar to the effect of hold person on a living creature). The effect is broken if the halted creatures are attacked or take damage."
+			"This spell renders as many as three undead creatures immobile. A nonintelligent undead creature gets no saving throw; an intelligent undead creature does. If the spell is successful, it renders the undead creature immobile for the duration of the spell (similar to the effect of {spell/hold person} on a living creature). The effect is broken if the halted creatures are attacked or take damage."
 		]
 	},
 	"hammer_of_mending": {
@@ -3024,7 +3024,7 @@
 			"",
 			"A brilliant divine radiance surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by evil creatures, and causing evil creatures to become blinded when they strike the subjects. This abjuration has four effects.",
 			"",
-			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike protection from evil, this benefit applies against all attacks, not just against attacks by evil creatures.",
+			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike {spell/protection from evil}, this benefit applies against all attacks, not just against attacks by evil creatures.",
 			"",
 			"Second, each warded creature gains spell resistance 25 against evil spells and spells cast by evil creatures.",
 			"",
@@ -3176,7 +3176,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell allows you to channel holy power into your sword, or any other melee weapon you choose. The weapon acts as a +5 holy weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against evil opponents). It also emits a magic circle against evil effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one holy sword at a time.",
+			"This spell allows you to channel holy power into your sword, or any other melee weapon you choose. The weapon acts as a +5 holy weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against evil opponents). It also emits a {spell/magic circle against evil} effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one holy sword at a time.",
 			"",
 			"If this spell is cast on a magic weapon, the powers of the spell supercede any that the weapon normally has, rendering the normal enhancement bonus and powers of the weapon inoperative for the duration of the spell. This spell is not cumulative with bless weapon or any other spell that might modify the weapon in any way. This spell does not work on artifacts. A masterwork weapon's bonus to attack does not stack with an enhancement bonus to attack."
 		]

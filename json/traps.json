@@ -495,7 +495,7 @@
 			"### Effects",
 			"",
 			"**Trigger** proximity (alarm); **Reset** none  ",
-			"**Effect** spell effect (summon monster VI, summons 1d3 Large elementals or 1 Huge elemental)"
+			"**Effect** spell effect ({spell/summon monster VI}, summons 1d3 Large elementals or 1 Huge elemental)"
 		]
 	},
 	"camouflaged_spiked_pit_trap": {

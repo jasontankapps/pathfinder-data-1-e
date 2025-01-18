@@ -132,7 +132,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [calm emotion](spell/calm_emotions); **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/calm emotions}; **Price** +1 bonus"
 		]
 	},
 	"champion": {
@@ -620,7 +620,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, talismanic implement; **Price** 1,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/talismanic implement}; **Price** 1,500 gp"
 		]
 	},
 	"aquadynamic": {

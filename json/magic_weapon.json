@@ -39,7 +39,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, entangled; **Price** 40 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/entangle}; **Price** 40 gp"
 		]
 	},
 	"tracer_bullet": {
@@ -230,7 +230,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, elemental touch; **Price** 100 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/elemental touch}; **Price** 100 gp"
 		]
 	},
 	"dart_of_recovery": {
@@ -247,7 +247,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, apport object; **Price** 106 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/apport object}; **Price** 106 gp"
 		]
 	},
 	"tangle_bolt": {
@@ -601,7 +601,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, shrink object; **Price** 406 gp (lesser), 986 gp (normal), 2,006 gp (greater)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shrink item}; **Price** 406 gp (lesser), 986 gp (normal), 2,006 gp (greater)"
 		]
 	},
 	"lesser_boulder_bullet": {
@@ -1538,7 +1538,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, reloading hands; **Price** 2,650 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/reloading hands}; **Price** 2,650 gp"
 		]
 	},
 	"cestus_of_security": {
@@ -1664,7 +1664,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, defoliate (plus {spell/summon monster I} for animal or plant bane); **Price** 2,930 gp (5,930 gp for animal or plant bane)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/defoliate} (plus {spell/summon monster I} for animal or plant bane); **Price** 2,930 gp (5,930 gp for animal or plant bane)"
 		]
 	},
 	"bloatstrike_tail": {
@@ -2306,7 +2306,7 @@
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 8,902 gp; **Weight** 1 lb.",
 			"",
-			"This short, curved dagger shimmers with folded layers of iron and steel. It acts as a +1 undead-bane dagger. Once per day when the dagger of repose is used to perform a coup de grace to slay a living creature, the wielder can bless the victim's corpse, preventing the victim from rising as an undead because of ongoing diseases or curse effects. This protection also prevents the victim's corpse from being animated by necromancy magic such as animate dead or create undead for 24 hours.",
+			"This short, curved dagger shimmers with folded layers of iron and steel. It acts as a +1 undead-bane dagger. Once per day when the dagger of repose is used to perform a coup de grace to slay a living creature, the wielder can bless the victim's corpse, preventing the victim from rising as an undead because of ongoing diseases or curse effects. This protection also prevents the victim's corpse from being animated by necromancy magic such as {spell/animate dead} or {spell/create undead} for 24 hours.",
 			"",
 			"### Construction",
 			"",
@@ -2457,7 +2457,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, frostbite; **Price** 4,840 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/frostbite}; **Price** 4,840 gp"
 		]
 	},
 	"fang_of_erebus": {
@@ -2662,7 +2662,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, necromantic burden; **Price** 5,402 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/necromantic burden}; **Price** 5,402 gp"
 		]
 	},
 	"trident_of_warning": {
@@ -2861,7 +2861,7 @@
 			"**Aura** moderate evocation [evil]; **CL** 10th  ",
 			"**Slot** none; **Price** 10,305 gp; **Weight** 4 lbs.",
 			"",
-			"This +1 flaming light mace has an iron shaft and a polished ruby-red stone head, similar to a gemstone. Sometimes a diabolical eye or face is visible for a moment within the stone. The stone is suitable for use as a scrying device for spells such as scrying. Once per day as a swift action, the wielder can transform the mace's flames to hellfire for 1 minute. This hellfire deals half fire damage and half damage from unholy energy. Evil creatures and creatures with the evil subtype take no damage from this unholy energy; good creatures and those with the good subtype take double the usual damage from it. Protection from evil and similar effects protect against the damage from unholy energy.",
+			"This +1 flaming light mace has an iron shaft and a polished ruby-red stone head, similar to a gemstone. Sometimes a diabolical eye or face is visible for a moment within the stone. The stone is suitable for use as a scrying device for spells such as scrying. Once per day as a swift action, the wielder can transform the mace's flames to hellfire for 1 minute. This hellfire deals half fire damage and half damage from unholy energy. Evil creatures and creatures with the evil subtype take no damage from this unholy energy; good creatures and those with the good subtype take double the usual damage from it. {spell/Protection from evil} and similar effects protect against the damage from unholy energy.",
 			"",
 			"### Construction",
 			"",
@@ -2936,7 +2936,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, lesser object possession; **Price** 5,310 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/lesser object possession}; **Price** 5,310 gp"
 		]
 	},
 	"heartspit": {
@@ -3454,7 +3454,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/ash storm}, {spell/fireball}, creator must worship Moloch and have 5 ranks in Craft (armor) or Craft (weapons); **Price** 6,812 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/ash storm}, {spell/fireball}, creator must worship {faith/Moloch} and have 5 ranks in Craft (armor) or Craft (weapons); **Price** 6,812 gp"
 		]
 	},
 	"blade_of_binding": {
@@ -3801,7 +3801,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater magic weapon}, {spell/spirit-bound blade}, phantom class feature, creator must worship Ashava; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater magic weapon}, {spell/spirit-bound blade}, phantom class feature, creator must worship {faith/Ashava}; **Price** -"
 		]
 	},
 	"censuring_placard": {
@@ -4087,11 +4087,11 @@
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** weapon; **Price** 16,302 gp; **Weight** 1 lb.",
 			"",
-			"Appearing as a bloodstained icicle with a worn leather handle, this +1 frost dagger is impervious to both cold and fire. Once per day, the dagger can blast forth a ray of hellfrost at any target within 30 feet as a ranged touch attack, dealing 4d6 points of damage. This hellfrost deals half cold damage and half damage from unholy energy. Evil creatures and creatures with the evil subtype take no damage from this unholy energy; good creatures and those with the good subtype take double the usual damage. Protection from evil and similar effects protect against the damage from the ray's unholy energy. If the shard of Cocytus is used to deliver a coup de grace against a good creature, it recovers its ray of hellfrost ability for the day.",
+			"Appearing as a bloodstained icicle with a worn leather handle, this +1 frost dagger is impervious to both cold and fire. Once per day, the dagger can blast forth a ray of hellfrost at any target within 30 feet as a ranged touch attack, dealing 4d6 points of damage. This hellfrost deals half cold damage and half damage from unholy energy. Evil creatures and creatures with the evil subtype take no damage from this unholy energy; good creatures and those with the good subtype take double the usual damage. {spell/Protection from evil} and similar effects protect against the damage from the ray's unholy energy. If the shard of Cocytus is used to deliver a coup de grace against a good creature, it recovers its ray of hellfrost ability for the day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, unholy ice; **Price** 8,302 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/unholy ice}; **Price** 8,302 gp"
 		]
 	},
 	"rimeblade": {
@@ -4146,7 +4146,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, heroic fortune; **Price** 8,815 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/heroic fortune}; **Price** 8,815 gp"
 		]
 	},
 	"disarming_blade": {
@@ -4361,7 +4361,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mage's disjunction; **Price** 9,253 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mage's disjunction}; **Price** 9,253 gp"
 		]
 	},
 	"oathtaker": {

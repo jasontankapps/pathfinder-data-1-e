@@ -361,7 +361,7 @@
 			"",
 			"This replaces the 4th- or 7th-level ability score and size advancement.",
 			"",
-			"**Fey Magic (Sp):** A feytouched companion can cast {spell/dancing lights} at will as a spell-like ability as a full-round action. At 3rd level, a feytouched companion can ready an action for its master's spellcasting while adjacent to its master, to allow its master to spontaneously cast one of the following spells by sacrificing a spell slot of equal or higher level: faerie fire (1st), glitterdust (2nd), deep slumber (3rd), major image (4th), confusion (5th), feeblemind (7th), mislead (8th). A feytouched companion's master can cast each of the spells on the list only once each day in this way.",
+			"**Fey Magic (Sp):** A feytouched companion can cast {spell/dancing lights} at will as a spell-like ability as a full-round action. At 3rd level, a feytouched companion can ready an action for its master's spellcasting while adjacent to its master, to allow its master to spontaneously cast one of the following spells by sacrificing a spell slot of equal or higher level: {spell/faerie fire} (1st), {spell/glitterdust} (2nd), {spell/deep slumber} (3rd), {spell/major image} (4th), {spell/confusion} (5th), {spell/feeblemind} (7th), {spell/mislead} (8th). A feytouched companion's master can cast each of the spells on the list only once each day in this way.",
 			"",
 			"This replaces share spells and Multiattack.",
 			"",

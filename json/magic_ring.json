@@ -262,7 +262,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, masterwork transformation; **Cost** 800 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/masterwork transformation}; **Cost** 800 gp"
 		]
 	},
 	"ring_of_starlight": {
@@ -353,7 +353,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, sculpt corpse; **Cost** 1,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/sculpt corpse}; **Cost** 1,000 gp"
 		]
 	},
 	"ring_of_feather_falling": {
@@ -510,7 +510,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/bless weapon}, {spell/prestidigitation}, {spell/shield of faith}, wartrain mount, creator must be at least 3rd level; **Cost** 1,500 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/bless weapon}, {spell/prestidigitation}, {spell/shield of faith}, {spell/wartrain mount}, creator must be at least 3rd level; **Cost** 1,500 gp"
 		]
 	},
 	"profane_seal_signet": {
@@ -1228,7 +1228,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, create treasure map; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/create treasure map}; **Cost** 4,000 gp"
 		]
 	},
 	"ironbound_ring_master": {
@@ -1269,7 +1269,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, Luck of Heroes; **Cost** 4,000 gp"
+			"**Requirements** {feat/Forge Ring}, {feat/Luck of Heroes}; **Cost** 4,000 gp"
 		]
 	},
 	"ring_of_mind_shielding": {
@@ -1511,7 +1511,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, Selective Channeling, creator must have the channel energy class feature; **Cost** 4,500 gp"
+			"**Requirements** {feat/Forge Ring}, {feat/Selective Channeling}, creator must have the channel energy class feature; **Cost** 4,500 gp"
 		]
 	},
 	"rings_of_friend_finding": {
@@ -1712,7 +1712,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, ki leech, the creator must be able to use ki; **Cost** 5,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/ki leech}, the creator must be able to use ki; **Cost** 5,000 gp"
 		]
 	},
 	"ring_of_seven_virtues": {
@@ -2108,7 +2108,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/ghostly disguise}, {spell/haste}, sculpt corpse; **Cost** 6,500 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/ghostly disguise}, {spell/haste}, {spell/sculpt corpse}; **Cost** 6,500 gp"
 		]
 	},
 	"ring_of_resistance_3": {
@@ -2222,7 +2222,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, ki leech, the creator must have the ki pool class feature; **Cost** 7,500 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/ki leech}, the creator must have the ki pool class feature; **Cost** 7,500 gp"
 		]
 	},
 	"ring_of_resilience": {
@@ -2362,7 +2362,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, resize item; **Cost** 8,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/resize item}; **Cost** 8,000 gp"
 		]
 	},
 	"sigil_of_kraggodan": {

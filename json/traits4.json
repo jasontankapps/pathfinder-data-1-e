@@ -2212,7 +2212,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling",
 			"",
-			"You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as detect evil). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a swift action. You can maintain this effect for a number of rounds per day equal to your HD."
+			"You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as {spell/detect evil}). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a swift action. You can maintain this effect for a number of rounds per day equal to your HD."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},
@@ -3836,7 +3836,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Kols}",
 			"",
-			"The clergy of Kols trained you to make unbreakable vows. You add the following spells to the paladin spell list at the indicated levels: command (1st), forbid action (1st), suggestion (to fulfill a prior promise only; 2nd), lesser geas (3rd), geas/quest (4th)."
+			"The clergy of Kols trained you to make unbreakable vows. You add the following spells to the paladin spell list at the indicated levels: {spell/command} (1st), {spell/forbid action} (1st), {spell/suggestion} (to fulfill a prior promise only; 2nd), {spell/lesser geas} (3rd), {spell/geas//quest} (4th)."
 		],
 		"subhierarchy": [[ "Religion Traits", "main/traits_religion" ]]
 	},

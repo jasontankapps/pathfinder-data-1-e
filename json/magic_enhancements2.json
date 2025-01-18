@@ -986,7 +986,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, Heroic Defiance, {spell/break enchantment}, {spell/stabilize}; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Heroic Defiance}, {spell/break enchantment}, {spell/stabilize}; **Price** -"
 		]
 	},
 	"dispelling_burst": {
@@ -1372,7 +1372,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [calm emotion](spell/calm_emotions), {spell/cure light wounds}; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/calm emotions}, {spell/cure light wounds}; **Price** -"
 		]
 	},
 	"phase_locking": {
@@ -1986,7 +1986,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [animate object](spell/animate_objects); **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/animate objects}; **Price** -"
 		]
 	},
 	"spell_siphon": {

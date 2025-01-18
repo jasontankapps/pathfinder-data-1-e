@@ -687,7 +687,7 @@
 			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}, {kinetic/Plasma Blast}  ",
 			"**Saving Throw** none",
 			"",
-			"Your kinetic blast leaves an afterglow that banishes the darkness. Treat each square of the path of your ranged attack kinetic blast, the target square of your melee attack kinetic blast, or the area of your area of effect kinetic blast as the center of a continual flame effect that lasts until the end of your next turn. This effect counts as a 6th-level spell with the light descriptor."
+			"Your kinetic blast leaves an afterglow that banishes the darkness. Treat each square of the path of your ranged attack kinetic blast, the target square of your melee attack kinetic blast, or the area of your area of effect kinetic blast as the center of a {spell/continual flame} effect that lasts until the end of your next turn. This effect counts as a 6th-level spell with the light descriptor."
 		]
 	},
 	"burning_infusion": {
@@ -3256,7 +3256,7 @@
 			"{SOURCE Occult Adventures/26}  ",
 			"**Element** universal; **Type** utility (Sp); **Level** 8; **Burn** 0",
 			"",
-			"You reverse the flow of your connection to the planes, sending your body into the Ethereal Plane as ethereal jaunt. As long as you concentrate on reverse shift, you remain on the Ethereal Plane; after a number of consecutive rounds spent on the Ethereal Plane equal to your kineticist level (and every such interval thereafter), you must accept 1 point of burn. Once you return to the Material Plane, you cannot use reverse shift again for a number of rounds equal to the number of rounds you spent on the Ethereal Plane."
+			"You reverse the flow of your connection to the planes, sending your body into the Ethereal Plane as {spell/ethereal jaunt}. As long as you concentrate on reverse shift, you remain on the Ethereal Plane; after a number of consecutive rounds spent on the Ethereal Plane equal to your kineticist level (and every such interval thereafter), you must accept 1 point of burn. Once you return to the Material Plane, you cannot use reverse shift again for a number of rounds equal to the number of rounds you spent on the Ethereal Plane."
 		]
 	},
 	"ride_the_blast": {
@@ -3497,7 +3497,7 @@
 			"{SOURCE Occult Adventures/27}  ",
 			"**Element** universal; **Type** utility (Sp); **Level** 5; **Burn** 0",
 			"",
-			"You breathe a semblance of life into elemental matter, which takes the form of a Medium elemental of any of your elements as if summoned by summon monster IV with a caster level equal to your kineticist level, except the elemental gains the mindless trait. Each round on your turn, you must take a move action to guide the elemental or it collapses back into its component element. By accepting 1 point of burn, you can pour a bit of your own sentience into the elemental, removing the mindless quality and allowing it to persist for 1 round per kineticist level without requiring any further actions. At 12th level, you can choose to form a Large elemental as if by summon monster V; at 14th level, you can choose to form a Huge elemental as if by summon monster VI; at 16th level, you can choose to form a greater elemental as if by summon monster VII; and at 18th level, you can choose to form an elder elemental as if by summon monster VIII."
+			"You breathe a semblance of life into elemental matter, which takes the form of a Medium elemental of any of your elements as if summoned by {spell/summon monster IV} with a caster level equal to your kineticist level, except the elemental gains the mindless trait. Each round on your turn, you must take a move action to guide the elemental or it collapses back into its component element. By accepting 1 point of burn, you can pour a bit of your own sentience into the elemental, removing the mindless quality and allowing it to persist for 1 round per kineticist level without requiring any further actions. At 12th level, you can choose to form a Large elemental as if by summon monster V; at 14th level, you can choose to form a Huge elemental as if by summon monster VI; at 16th level, you can choose to form a greater elemental as if by summon monster VII; and at 18th level, you can choose to form an elder elemental as if by summon monster VIII."
 		]
 	},
 	"spell_deflection": {
@@ -3792,7 +3792,7 @@
 			"**Element** void; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
 			"**Saving Throw** Will negates; **SR** yes",
 			"",
-			"This functions as elemental grip, except it works on a single undead creature as per halt undead. Unintelligent undead must succeed at a saving throw with a -4 penalty to negate the effects."
+			"This functions as elemental grip, except it works on a single undead creature as per {spell/halt undead}. Unintelligent undead must succeed at a saving throw with a -4 penalty to negate the effects."
 		]
 	},
 	"veil_of_mists": {

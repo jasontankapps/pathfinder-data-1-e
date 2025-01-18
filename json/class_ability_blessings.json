@@ -33,7 +33,7 @@
 			"",
 			"**Animal Fury (minor):** At 1st level, you can touch one ally and grant it feral features. The ally gains 2 claw attacks that each deal 1d6 points of damage if the ally is Medium or 1d4 if it's Small, or 1 bite attack that deals 1d8 points of damage if the ally is Medium or 1d6 if it's Small. These are primary natural attacks that replace any similar primary natural attacks the ally might have. This effect lasts for 1 minute.",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as summon nature's ally V with a duration of 1 minute. This ability can summon only one animal, regardless of the list used. For every 2 levels beyond 10th, the level of the summon nature's ally spell increases by 1 (to a maximum of summon nature's ally IX at 18th level)."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon nature's ally V} with a duration of 1 minute. This ability can summon only one animal, regardless of the list used. For every 2 levels beyond 10th, the level of the summon nature's ally spell increases by 1 (to a maximum of {spell/summon nature's ally IX} at 18th level)."
 		]
 	},
 	"artifice": {
@@ -61,7 +61,7 @@
 			"",
 			"**Anarchic Strike (minor):** At 1st level, you can touch one weapon and grant it a chaotic blessing. For 1 minute, this weapon glows yellow or purple and deals an additional 1d6 points of damage against lawful creatures. During this time, it's treated as chaotic for the purposes of overcoming damage reduction. This blessing's additional damage doesn't stack with the additional damage from the anarchic weapon special ability.",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as summon monster IV with a duration of 1 minute, but for only a chaotic outsider or an animal with the entropic creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level)."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only a chaotic outsider or an animal with the entropic creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level)."
 		]
 	},
 	"charm": {
@@ -198,7 +198,7 @@
 			"",
 			"**Unholy Strike (minor):** At 1st level, you can touch one weapon and give it an evil blessing. For 1 minute, this weapon takes on a black, orange, or violet cast and deals an additional 1d6 points of damage against good creatures. During this time, it's treated as evil for the purposes of overcoming damage reduction. This additional damage doesn't stack with the additional damage from the unholy weapon special ability.",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as summon monster IV with a duration of 1 minute, but for only an evil outsider or an animal with the fiendish creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level)."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only an evil outsider or an animal with the fiendish creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level)."
 		]
 	},
 	"fire": {
@@ -268,7 +268,7 @@
 			"",
 			"**Holy Strike (minor):** At 1st level, you can touch one weapon and bless it with the power of purity and goodness. For 1 minute, this weapon glows green, white, or yellow-gold and deals an additional 1d6 points of damage against evil creatures. During this time, it's treated as good for the purposes of overcoming damage reduction. This additional damage doesn't stack with the additional damage from the holy weapon special ability.",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as summon monster IV with a duration of 1 minute, but for only a good outsider or an animal with the celestial creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level)."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only a good outsider or an animal with the celestial creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level)."
 		]
 	},
 	"healing": {
@@ -329,7 +329,7 @@
 			"",
 			"**Axiomatic Strike (minor):** At 1st level, you can touch one weapon and enhance it with the essence of law. For 1 minute, this weapon glows blue, pale yellow, or white and deals an additional 1d6 points of damage against chaotic creatures. During this time, it's treated as lawful for the purposes of overcoming damage reduction. This additional damage doesn't stack with the additional damage from the axiomatic weapon special ability.",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as summon monster IV with a duration of 1 minute, but for only a lawful outsider or an animal with the resolute creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20 level)."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only a lawful outsider or an animal with the resolute creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of {spell/summon monster IX} at 20 level)."
 		]
 	},
 	"liberation": {
@@ -435,7 +435,7 @@
 			"",
 			"**Creeping Vines (minor):** At 1st level, upon hitting with a melee attack, as a swift action you cause the creature you hit to sprout entangling vines that attempt to hold it in place, entangling it for 1 round (Reflex negates).",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as summon nature's ally IV, with a duration of 1 minute. This ability can summon only one animal, regardless of the list used, and the creature's type changes to plant instead of animal. For every 2 levels beyond 10th, the level of the summon nature's ally spell increases by 1, to a maximum of summon nature's ally IX at 20th level."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon nature's ally IV}, with a duration of 1 minute. This ability can summon only one animal, regardless of the list used, and the creature's type changes to plant instead of animal. For every 2 levels beyond 10th, the level of the summon nature's ally spell increases by 1, to a maximum of {spell/summon nature's ally IX} at 20th level."
 		]
 	},
 	"protection": {

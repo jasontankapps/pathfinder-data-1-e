@@ -1332,7 +1332,7 @@
 			"**Price** 110 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This otherwise normal torch has a continual flame spell cast on it. This causes it to shed light like an ordinary torch, but it does not emit heat or deal fire damage if used as a weapon."
+			"This otherwise normal torch has a {spell/continual flame} spell cast on it. This causes it to shed light like an ordinary torch, but it does not emit heat or deal fire damage if used as a weapon."
 		]
 	},
 	"executioners_outfit": {
@@ -1823,6 +1823,10 @@
 		]
 	},
 	"musical_instrument_masterwork": {
+		"name": "Musical instrument (masterwork)",
+		"copyof": "musical_instrument_common"
+	},
+	"masterwork_musical_instrument": {
 		"name": "Musical instrument (masterwork)",
 		"copyof": "musical_instrument_common"
 	},
@@ -3679,7 +3683,7 @@
 			"**Price** 402 gp; **Weight** 7 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a wooden holy symbol, a necklace of garlic bulbs, a hammer, a wooden stake, 2 flasks of holy water, one sunrod, a potion of lesser restoration, and a potion of protection from evil."
+			"This kit includes a wooden holy symbol, a necklace of garlic bulbs, a hammer, a wooden stake, 2 flasks of holy water, one sunrod, a potion of {spell/lesser restoration}, and a potion of {spell/protection from evil}."
 		]
 	},
 	"undead_survivors_kit": {
@@ -3691,7 +3695,7 @@
 			"**Price** 900 gp; **Weight** 3 lbs.  ",
 			"**Category** Kits",
 			"",
-			"Although this sturdy leather bandolier contains a few items to help combat undead foes, its primary purpose is to supply the right tools to recover from an undead attack and escape. This kit includes 4 potions of hide from undead, a potion of lesser restoration, 2 flasks of holy water, 2 doses of holy weapon balm, a vial of soul stimulant, and 2 vials of twitch tonic."
+			"Although this sturdy leather bandolier contains a few items to help combat undead foes, its primary purpose is to supply the right tools to recover from an undead attack and escape. This kit includes 4 potions of {spell/hide from undead}, a potion of {spell/lesser restoration}, 2 flasks of holy water, 2 doses of holy weapon balm, a vial of soul stimulant, and 2 vials of twitch tonic."
 		]
 	},
 	"undeath_aid_kit": {
@@ -4576,9 +4580,15 @@
 			"With a DC 5 Perform (wind instruments) check, you can use a whistle to signal the same sorts of situations as signal horns. A whistle's piercing report can be clearly heard (Perception DC 0) up to a quarter-mile away. For each quarter-mile beyond, Perception checks to hear a whistle take a -2 penalty. Silent whistles that only animals and other creatures with keen hearing can hear also exist."
 		]
 	},
-	"whistle_silent": {
+	"silent_whistle": {
 		"name": "Whistle (silent)",
 		"copyof": "whistle_signal"
+	},
+	"signal_whistle": {
+		"copyof": "whistle_signal"
+	},
+	"whistle_silent": {
+		"copyof": "silent_whistle"
 	},
 	"wig": {
 		"name": "Wig",

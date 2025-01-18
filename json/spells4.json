@@ -1026,7 +1026,7 @@
 			"**Duration** 10 minutes/level (D)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"You become warded against the mental prying of others, including the effects of divination spells such as detect thoughts and seek thoughts, as well as enchantment spells such as modify memory and memory lapse. If another creature attempts to target you with a mind-affecting spell that detects or alters your thoughts or memories, the caster must succeed at a caster level check against a DC equal to 11 + your caster level or the spell fails. Only spells that detect or alter your thoughts or memories are blocked by this spell; effects such as clairaudience/clairvoyance, detect evil, and locate creature continue to affect you as normal."
+			"You become warded against the mental prying of others, including the effects of divination spells such as {spell/detect thoughts} and {spell/seek thoughts}, as well as enchantment spells such as {spell/modify memory} and {spell/memory lapse}. If another creature attempts to target you with a mind-affecting spell that detects or alters your thoughts or memories, the caster must succeed at a caster level check against a DC equal to 11 + your caster level or the spell fails. Only spells that detect or alter your thoughts or memories are blocked by this spell; effects such as {spell/clairaudience//clairvoyance}, {spell/detect evil}, and {spell/locate creature} continue to affect you as normal."
 		]
 	},
 	"entangle": {
@@ -1272,7 +1272,7 @@
 			"",
 			"You designate an aboveground area and send it deep within the earth. During the casting of this spell, the chosen area is rocked by minor tremors that alert nearby creatures to the impending danger. Once the spell is complete, the chosen area is drawn into the earth and buried in a self-contained vault, with the uppermost point at a depth of up to 10 feet per caster level below the surface. The surrounding atmosphere and all creatures within the selected area at the end of the spell's casting time are entombed in this vault.",
 			"",
-			"The magic of the vault maintains the natural light, temperature, and air quality of the area as it originally existed aboveground, but any magical effects that affected these qualities do not have their duration extended. For example, a sunny field would remain brightly lit indefinitely, despite being buried underground, while a daylight spell would expire at the end of that spell's duration.",
+			"The magic of the vault maintains the natural light, temperature, and air quality of the area as it originally existed aboveground, but any magical effects that affected these qualities do not have their duration extended. For example, a sunny field would remain brightly lit indefinitely, despite being buried underground, while a {spell/daylight} spell would expire at the end of that spell's duration.",
 			"",
 			"When creating the vault, you can leave a tunnel to the surface world (up to 20 feet wide), or you can completely isolate the vault from the outside world. Casting this spell does not destroy or damage anything that may have existed in the ground where you choose to place this vault, but instead pushes it farther down into the earth. Should your vault be dispelled, the entombed area returns to the surface, and anything that may have been displaced by the vault returns to its original place. If there is something already on the surface that blocks the vault's path, the vault pushes it harmlessly aside when returning."
 		]
@@ -1482,7 +1482,7 @@
 			"**Target** you  ",
 			"**Duration** see text",
 			"",
-			"You step into the Ethereal Plane long enough to dodge a blow or confound a spell; you must cast ether step after you are targeted by an attack or effect but before you learn the results of the attack or effect. This spell functions as ethereal jaunt, except that you become ethereal until the beginning of your next turn. On the turn after you cast this spell and return to your starting point, you can take only move actions or free actions."
+			"You step into the Ethereal Plane long enough to dodge a blow or confound a spell; you must cast ether step after you are targeted by an attack or effect but before you learn the results of the attack or effect. This spell functions as {spell/ethereal jaunt}, except that you become ethereal until the beginning of your next turn. On the turn after you cast this spell and return to your starting point, you can take only move actions or free actions."
 		]
 	},
 	"ethereal_envelope": {
@@ -1581,7 +1581,7 @@
 			"**Duration** 1 min./level (D)  ",
 			"**Spell Resistance** yes",
 			"",
-			"This spell functions like ethereal jaunt, except that you and other willing creatures joined by linked hands (along with their equipment) become ethereal. Besides yourself, you can bring one creature per three caster levels to the Ethereal Plane. Once ethereal, the subjects need not stay together.",
+			"This spell functions like {spell/ethereal jaunt}, except that you and other willing creatures joined by linked hands (along with their equipment) become ethereal. Besides yourself, you can bring one creature per three caster levels to the Ethereal Plane. Once ethereal, the subjects need not stay together.",
 			"",
 			"When the spell expires, all affected creatures on the Ethereal Plane return to material existence."
 		]
@@ -2266,7 +2266,7 @@
 			"**Duration** permanent; see text  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions similarly to modify memory, except you can modify the target's memory only in a specific way. In response to a triggering condition you determine, up to the last 5 minutes of the target's memory are eliminated and replaced with a memory of your choosing (or no memory at all). For example, you could cast this on an assassin, set it to trigger when he completes his kill, and replace his memory of the murder with the memory of him discovering the body and picking up the murder weapon. You can cast this spell multiple times on the same target, even with the same trigger, affecting different memories. A single casting of false alibi affects a creature only until the specified condition has been triggered; once a condition has been triggered and the target's memory altered, that condition no longer triggers this spell unless the victim is subject to another casting of false alibi that specifies the same trigger."
+			"This spell functions similarly to {spell/modify memory}, except you can modify the target's memory only in a specific way. In response to a triggering condition you determine, up to the last 5 minutes of the target's memory are eliminated and replaced with a memory of your choosing (or no memory at all). For example, you could cast this on an assassin, set it to trigger when he completes his kill, and replace his memory of the murder with the memory of him discovering the body and picking up the murder weapon. You can cast this spell multiple times on the same target, even with the same trigger, affecting different memories. A single casting of false alibi affects a creature only until the specified condition has been triggered; once a condition has been triggered and the target's memory altered, that condition no longer triggers this spell unless the victim is subject to another casting of false alibi that specifies the same trigger."
 		]
 	},
 	"false_belief": {
@@ -2284,7 +2284,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You temporarily alter the target's memory (similar to modify memory) to eliminate, change, or implant a memory of up to 1 hour in length. When the duration of this expires, the target's real memory returns, and the false memory fades to little more than a vague outline, like a dream. This false memory seems true to the target, so effects that detect lies or force the target to speak the truth (as the subject understands it) don't detect the falsehood."
+			"You temporarily alter the target's memory (similar to {spell/modify memory}) to eliminate, change, or implant a memory of up to 1 hour in length. When the duration of this expires, the target's real memory returns, and the false memory fades to little more than a vague outline, like a dream. This false memory seems true to the target, so effects that detect lies or force the target to speak the truth (as the subject understands it) don't detect the falsehood."
 		]
 	},
 	"false_face": {
@@ -3882,7 +3882,7 @@
 			"**Duration** permanent (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You animate one corpse that has been dead no more than 48 hours. It rises as a zombie that is magically tethered to you and obeys your commands. As noted in animate dead, you can't control more than 4 HD per caster level worth of undead in total, nor can a single casting create more than 2 HD per caster level.",
+			"You animate one corpse that has been dead no more than 48 hours. It rises as a zombie that is magically tethered to you and obeys your commands. As noted in {spell/animate dead}, you can't control more than 4 HD per caster level worth of undead in total, nor can a single casting create more than 2 HD per caster level.",
 			"",
 			"This spell disguises the zombie's appearance and allows you to control it. The zombie's outward appearance, movement, and voice appear the same as if it were still alive. The zombie's normal staggered condition doesn't apply (though it can still be staggered by other means). Successfully detecting the flesh puppet as a zombie without magic requires an opposed Perception check against your Disguise check, and you add your caster level as a bonus on this Disguise check.",
 			"",
@@ -4060,7 +4060,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Fortitude partial (see text); **Spell Resistance** yes",
 			"",
-			"With a touch, you cause an infestation of ravenous worms to manifest in the target's flesh. The target must make a Fortitude save every round. Failure means it takes 1d6 hit points of damage and 2 points of Dexterity damage, and is staggered for 1 round. If it makes the save, it takes no hit point or Dexterity damage and is only sickened for 1 round rather than staggered. Fleshworm infestation cannot be ended early by remove disease or heal, as the infestation starts anew if the current worms are slain. Protection from evil negates this spell's effects for as long as the two durations overlap. Dispel evil automatically ends a fleshworm infestation."
+			"With a touch, you cause an infestation of ravenous worms to manifest in the target's flesh. The target must make a Fortitude save every round. Failure means it takes 1d6 hit points of damage and 2 points of Dexterity damage, and is staggered for 1 round. If it makes the save, it takes no hit point or Dexterity damage and is only sickened for 1 round rather than staggered. Fleshworm infestation cannot be ended early by remove disease or heal, as the infestation starts anew if the current worms are slain. {spell/Protection from evil} negates this spell's effects for as long as the two durations overlap. {spell/Dispel evil} automatically ends a fleshworm infestation."
 		]
 	},
 	"fleshy_facade": {
@@ -4078,7 +4078,7 @@
 			"**Duration** 10 minutes/level (D)  ",
 			"**Saving Throw** yes (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"The target's flesh fills out and gains a healthy, natural color. This gives the target the appearance of a living creature of the type it was when it was still alive (if applicable). Creatures casting spells such as detect undead must succeed at a saving throw (with a DC equal to the spell's save DC) to detect the target's presence, and if the target is intelligent, it gains a +10 bonus on Disguise checks to appear alive or recently deceased. If the undead has any features different from those of the type of living creature it most resembles (such as a ghoul's elongated teeth and claws), those features shrink and become less prominent, and the subject deals damage as though it were one size smaller. This spell has no effect on creatures that are skeletal or otherwise lack flesh."
+			"The target's flesh fills out and gains a healthy, natural color. This gives the target the appearance of a living creature of the type it was when it was still alive (if applicable). Creatures casting spells such as {spell/detect undead} must succeed at a saving throw (with a DC equal to the spell's save DC) to detect the target's presence, and if the target is intelligent, it gains a +10 bonus on Disguise checks to appear alive or recently deceased. If the undead has any features different from those of the type of living creature it most resembles (such as a ghoul's elongated teeth and claws), those features shrink and become less prominent, and the subject deals damage as though it were one size smaller. This spell has no effect on creatures that are skeletal or otherwise lack flesh."
 		]
 	},
 	"flexible_fury": {

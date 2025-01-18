@@ -251,7 +251,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"A much more potent spell than animate dead, this evil spell allows you to infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs. The type or types of undead you can create are based on your caster level, as shown on the table below.",
+			"A much more potent spell than {spell/animate dead}, this evil spell allows you to infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs. The type or types of undead you can create are based on your caster level, as shown on the table below.",
 			"",
 			"| Caster Level | Undead Created |",
 			"| --- | --- |",
@@ -984,7 +984,7 @@
 			"",
 			"**Type** regional curse; **Area** 1-mile-radius emanation; **Save** Will DC 22 negates",
 			"",
-			"**Effect** Nonmagical light and magical light sources that produce normal light create only dim light in the cursed area, and even direct sunlight leads to only an ambient dim light in the area (similar to a full moon). Twilight and night are always dark. Creatures harmed or weakened by daylight can move about during the day in this area and the only impairment they take from the dimmed sunlight is that they become dazzled in its area. Plant growth in the area is stunted, as per the stunt growth usage of diminish plants. Any spellcaster attempting to cast daylight or a spell that creates true daylight or bright light in the area fails unless she succeeds at a Will saving throw against the curse. Success leads to normal light, rather than bright light.",
+			"**Effect** Nonmagical light and magical light sources that produce normal light create only dim light in the cursed area, and even direct sunlight leads to only an ambient dim light in the area (similar to a full moon). Twilight and night are always dark. Creatures harmed or weakened by daylight can move about during the day in this area and the only impairment they take from the dimmed sunlight is that they become dazzled in its area. Plant growth in the area is stunted, as per the stunt growth usage of diminish plants. Any spellcaster attempting to cast {spell/daylight} or a spell that creates true daylight or bright light in the area fails unless she succeeds at a Will saving throw against the curse. Success leads to normal light, rather than bright light.",
 			"",
 			"**Cure** An endless night can be lifted only by successfully casting remove curse followed by sunburst at noon on a clear day."
 		]
@@ -1944,7 +1944,7 @@
 			"**Duration** instantaneous/1 round per HD of subject; see text  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** yes",
 			"",
-			"This spell functions like death knell, except instead of using the slain target's life energy to enhance yourself, you use it to summon a Small fire elemental resembling a burning, howling version of the slain creature. The elemental acts immediately on your turn and otherwise behaves as if you had summoned it with summon monster II. The elemental remains for a number of rounds equal to the Hit Dice of the slain creature."
+			"This spell functions like death knell, except instead of using the slain target's life energy to enhance yourself, you use it to summon a Small fire elemental resembling a burning, howling version of the slain creature. The elemental acts immediately on your turn and otherwise behaves as if you had summoned it with {spell/summon monster II}. The elemental remains for a number of rounds equal to the Hit Dice of the slain creature."
 		]
 	},
 	"death_clutch": {
@@ -2867,7 +2867,7 @@
 			"",
 			"If the desecrated area contains an altar, shrine, or other permanent fixture dedicated to your deity or aligned higher power, the modifiers given above are doubled (+6 profane bonus to negative channeled energy DCs, +2 profane bonus and +2 hit points per HD for undead created in the area).",
 			"",
-			"Furthermore, anyone who casts animate dead within this area may create as many as double the normal amount of undead (that is, 4 HD per caster level rather than 2 HD per caster level).",
+			"Furthermore, anyone who casts {spell/animate dead} within this area may create as many as double the normal amount of undead (that is, 4 HD per caster level rather than 2 HD per caster level).",
 			"",
 			"If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron, the desecrate spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.",
 			"",
@@ -3903,7 +3903,7 @@
 			"**Duration** 1 min./level  ",
 			"**Saving Throw** none; **Spell Resistance** yes (object)",
 			"",
-			"A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a dimensional anchor include astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport, and similar spell-like abilities. The spell also prevents the use of a gate or teleportation circle for the duration of the spell.",
+			"A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a dimensional anchor include {spell/astral projection}, {spell/blink}, {spell/dimension door}, {spell/ethereal jaunt}, {spell/etherealness}, {spell/gate}, {spell/maze}, {spell/plane shift}, {spell/shadow walk}, {spell/teleport}, and similar spell-like abilities. The spell also prevents the use of a gate or {spell/teleportation circle} for the duration of the spell.",
 			"",
 			"A dimensional anchor does not interfere with the movement of creatures already in ethereal or astral form when the spell is cast, nor does it block extradimensional perception or attack forms. Also, dimensional anchor does not prevent summoned creatures from disappearing at the end of a summoning spell."
 		]
@@ -3963,7 +3963,7 @@
 			"**Duration** 1 day/level  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You create a shimmering emerald barrier that completely blocks extradimensional travel. Forms of movement barred include astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport, and similar spell-like abilities. Once dimensional lock is in place, extradimensional travel into or out of the area is not possible.",
+			"You create a shimmering emerald barrier that completely blocks extradimensional travel. Forms of movement barred include {spell/astral projection}, {spell/blink}, {spell/dimension door}, {spell/ethereal jaunt}, {spell/etherealness}, {spell/gate}, {spell/maze}, {spell/plane shift}, {spell/shadow walk}, {spell/teleport}, and similar spell-like abilities. Once dimensional lock is in place, extradimensional travel into or out of the area is not possible.",
 			"",
 			"A dimensional lock does not interfere with the movement of creatures already in ethereal or astral form when the spell is cast, nor does it block extradimensional perception or attack forms. Also, the spell does not prevent summoned creatures from disappearing at the end of a summoning spell.",
 			"",

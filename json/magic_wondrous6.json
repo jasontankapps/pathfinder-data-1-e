@@ -130,7 +130,7 @@
 			"",
 			"**Carrion** ({source/Construct Handbook/ pg. 17}): The book contains {spell/animate dead}, {spell/contagion}, {spell/false life}, {spell/gentle repose}, and {spell/lesser geas}. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a {monster/carrion golem}.; **Aura** moderate enchantment and necromancy [evil], {spell/animate dead}, {spell/contagion}, {spell/false life}, {spell/gentle repose}, {spell/lesser geas}, creator must be caster level 7th.",
 			"",
-			"**Clay** ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, and {spell/resurrection}. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem.; **Aura** moderate conjuration; **CL** 11th; Craft Construct, animate objects, commune, prayer, resurrection, creator must be caster level 11th.",
+			"**Clay** ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, and {spell/resurrection}. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem.; **Aura** moderate conjuration; **CL** 11th; {feat/Craft Construct}, {spell/animate objects}, {spell/commune}, {spell/prayer}, {spell/resurrection}, creator must be caster level 11th.",
 			"",
 			"**Clockwork** ({source/Construct Handbook/ pg. 17}): The book contains {spell/animate objects}, {spell/blade barrier}, {spell/geas//quest}, {spell/grease}, and {spell/telekinesis}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/clockwork golem}.; **Aura** strong enchantment, evocation, and transmutation; **CL** 15th; {feat/Craft Construct}, {spell/animate objects}, {spell/blade barrier}, {spell/geas//quest}, {spell/grease}, {spell/telekinesis}, creator must be caster level 15th.",
 			"",
@@ -140,7 +140,7 @@
 			"",
 			"**Dragonhide** ({source/Construct Handbook/ pg. 17}): The book contains {spell/create greater undead}, {spell/form of the dragon I}, {spell/geas//quest}, and {spell/limited wish}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/dragonhide golem}.; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; {feat/Craft Construct}, {spell/create greater undead}, {spell/form of the dragon I}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th.",
 			"",
-			"**Flesh** ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains animate dead, bull's strength, geas/quest, and limited wish. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem.; **Aura** moderate enchantment, necromancy [evil], and transmutation; **CL** 8th; Craft Construct, animate objects, bull's strength, geas/quest, limited wish, creator must be caster level 8th.",
+			"**Flesh** ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains animate dead, bull's strength, geas/quest, and limited wish. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem.; **Aura** moderate enchantment, necromancy [evil], and transmutation; **CL** 8th; {feat/Craft Construct}, {spell/animate objects}, {spell/bull's strength}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 8th.",
 			"",
 			"**Fossil** ({source/Construct Handbook/ pg. 17}): The book contains {spell/flesh to stone}, {spell/geas//quest}, {spell/limited wish}, and {spell/stone shape}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a {monster/fossil golem}.; **Aura** strong enchantment and transmutation; **CL** 15th; {feat/Craft Construct}, {spell/flesh to stone}, {spell/geas//quest}, {spell/limited wish}, {spell/stone shape}, creator must be caster level 15th.",
 			"",
@@ -152,7 +152,7 @@
 			"",
 			"**Inubrix** ({source/Construct Handbook/ pg. 17}): The book contains {spell/air walk}, {spell/enervation}, {spell/geas//quest}, and {spell/limited wish}. The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an {monster/inubrix golem}.; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; {feat/Craft Construct}, {spell/air walk}, {spell/enervation}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th.",
 			"",
-			"**Iron** ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains cloudkill, geas/quest, limited wish, and polymorph any object. The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem.; **Aura** strong conjuration, enchantment, and transmutation; **CL** 16th; Craft Construct, cloudkill, geas/quest, limited wish, polymorph any object, creator must be caster level 16th.",
+			"**Iron** ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains cloudkill, geas/quest, limited wish, and polymorph any object. The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem.; **Aura** strong conjuration, enchantment, and transmutation; **CL** 16th; {feat/Craft Construct}, {spell/cloudkill}, {spell/geas//quest}, {spell/limited wish}, {spell/polymorph any object}, creator must be caster level 16th.",
 			"",
 			"**Junk** ({source/Construct Handbook/ pg. 17}): The book contains {spell/false life}, {spell/lesser geas}, {spell/minor creation}, and {spell/rusting grasp}. The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a {monster/junk golem}.; **Aura** moderate conjuration, enchantment, necromancy, and transmutation; **CL** 7th; {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/minor creation}, {spell/rusting grasp}, creator must be caster level 7th.",
 			"",
@@ -166,9 +166,9 @@
 			"",
 			"**Sand** ({source/Construct Handbook/ pg. 17}): The book contains {spell/geas//quest}, {spell/limited wish}, and {spell/move earth}. The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a {monster/sand golem}.; **Aura** strong enchantment and transmutation; **CL** 12th; {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/move earth}, creator must be caster level 12th.",
 			"",
-			"**Stone** ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains antimagic field, geas/quest, limited wish, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field, geas/quest, limited wish, symbol of stunning, creator must be caster level 14th.",
+			"**Stone** ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains antimagic field, geas/quest, limited wish, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem.; **Aura** strong abjuration and enchantment; **CL** 14th; {feat/Craft Construct}, {spell/antimagic field}, {spell/geas//quest}, {spell/limited wish}, {spell/symbol of stunning}, creator must be caster level 14th.",
 			"",
-			"**Stone Guardian** ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains antimagic field, discern location, geas/quest, limited wish, shield other, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field discern location, geas/quest, limited wish, shield other, symbol of stunning, creator must be caster level 14th.",
+			"**Stone Guardian** ({source/Ultimate Equipment/ pg. 300}, {source/PRPG Core Rulebook/ pg. 1}): The book contains antimagic field, discern location, geas/quest, limited wish, shield other, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian.; **Aura** strong abjuration and enchantment; **CL** 14th; {feat/Craft Construct}, {spell/antimagic field}, {spell/discern location}, {spell/geas//quest}, {spell/limited wish}, {spell/shield other}, {spell/symbol of stunning}, creator must be caster level 14th.",
 			"",
 			"**Viridium** ({source/Construct Handbook/ pg. 17}): The book contains {spell/contagion}, {spell/geas//quest}, {spell/horrid wilting}, {spell/poison}, and {spell/wish}. The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a {monster/viridium golem}.; **Aura** strong enchantment and necromancy [evil], {spell/contagion}, {spell/geas//quest}, {spell/horrid wilting}, {spell/poison}, {spell/wish}, creator must be caster level 18th.",
 			"",
@@ -549,7 +549,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dread bolt, creator must be evil; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dread bolt}, creator must be evil; **Cost** 9,000 gp"
 		]
 	},
 	"pipes_of_shifting_tempo": {
@@ -608,7 +608,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hunter's eye; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hunter's eye}; **Cost** 9,000 gp"
 		]
 	},
 	"trophy_box": {
@@ -644,7 +644,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, exquisite accompaniment, creator must have the bardic performance class feature; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/exquisite accompaniment}, creator must have the bardic performance class feature; **Cost** 9,000 gp"
 		]
 	},
 	"wanderer_compass": {
@@ -851,7 +851,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/neutralize poison}, purify food and water; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/neutralize poison}, {spell/purify food and drink}; **Cost** 8,000 gp"
 		]
 	},
 	"talisman_of_spying": {
@@ -1041,7 +1041,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, tactical insight; **Cost** 10,000 gp (Lesser), 50,000 gp (Normal)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/tactical insight}; **Cost** 10,000 gp (Lesser), 50,000 gp (Normal)"
 		]
 	},
 	"lesser_banner_of_tactical_command": {
@@ -1172,7 +1172,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}, true; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}, {spell/true seeing}; **Cost** 10,000 gp"
 		]
 	},
 	"stone_of_good_luck_luckstone": {
@@ -1301,7 +1301,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Ectoplasmic Spell, Persistent Spell, Rime Spell, Sickening Spell; **Cost** 10,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Ectoplasmic Spell}, {feat/Persistent Spell}, {feat/Rime Spell}, {feat/Sickening Spell}; **Cost** 10,750 gp"
 		]
 	},
 	"congregants_compass": {
@@ -1704,7 +1704,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blood transcription; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blood transcription}; **Cost** 12,500 gp"
 		]
 	},
 	"tablet_of_arustun": {
@@ -2058,7 +2058,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dominate monster, {spell/summon nature's ally VIII}; **Cost** 13,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate monster}, {spell/summon nature's ally VIII}; **Cost** 13,000 gp"
 		]
 	},
 	"osirian_spirit_jars": {
@@ -2690,7 +2690,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, shadowbard, creator must have the bardic performance class ability, creator must be a goblin; **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shadowbard}, creator must have the bardic performance class ability, creator must be a goblin; **Cost** 15,000 gp"
 		]
 	},
 	"watchful_tankard": {
@@ -2853,7 +2853,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dictum; **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dictum}; **Cost** 16,000 gp"
 		]
 	},
 	"healers_burning_glass": {
@@ -3027,7 +3027,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control undead, {spell/ghost sound}, creator must be evil; **Cost** 17,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control undead}, {spell/ghost sound}, creator must be evil; **Cost** 17,000 gp"
 		]
 	},
 	"harrow_deck_of_secret_schemes": {
@@ -3321,7 +3321,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/daylight}, {spell/detect evil}, creator must worship Sarenrae; **Cost** 20,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/daylight}, {spell/detect evil}, creator must worship {faith/Sarenrae}; **Cost** 20,000 gp"
 		]
 	},
 	"discriminating_cube": {
@@ -3756,7 +3756,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, control undead; **Cost** 24,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control undead}; **Cost** 24,000 gp"
 		]
 	},
 	"orb_of_storms": {
@@ -3904,7 +3904,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/commune}, {spell/hallow}, {spell/order's wrath}, {spell/summon monster I}, creator must worship Aroden; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/commune}, {spell/hallow}, {spell/order's wrath}, {spell/summon monster I}, creator must worship {faith/Aroden}; **Cost** 25,000 gp"
 		]
 	},
 	"horn_of_valhalla": {
@@ -3952,7 +3952,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, true form; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/true form}; **Cost** 25,000 gp"
 		]
 	},
 	"unicorns_blackened_horn": {

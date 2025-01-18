@@ -130,7 +130,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, expeditious excavation, {spell/create pit}, {spell/spiked pit}; **Cost** 6,100 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/expeditious excavation}, {spell/create pit}, {spell/spiked pit}; **Cost** 6,100 gp"
 		]
 	},
 	"spark_staff": {
@@ -240,7 +240,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, allegro, chord of shards, saving finale; **Cost** 7,400 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/allegro}, {spell/chord of shards}, {spell/saving finale}; **Cost** 7,400 gp"
 		]
 	},
 	"crook_of_cildhureen": {
@@ -643,7 +643,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, detect snares and pits, {spell/endure elements}, {spell/freedom of movement}, {spell/longstrider}, {spell/pass without trace}; **Cost** 13,600 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/detect snares and pits}, {spell/endure elements}, {spell/freedom of movement}, {spell/longstrider}, {spell/pass without trace}; **Cost** 13,600 gp"
 		]
 	},
 	"staff_of_acid": {
@@ -1228,7 +1228,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/air walk}, {spell/ant haul}, {spell/dimension door}, {spell/freedom of movement}, {spell/plane shift}, {spell/water walk}, creator must worship Desna; **Cost** 21,700 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/air walk}, {spell/ant haul}, {spell/dimension door}, {spell/freedom of movement}, {spell/plane shift}, {spell/water walk}, creator must worship {faith/Desna}; **Cost** 21,700 gp"
 		]
 	},
 	"staff_of_curses": {
@@ -1297,7 +1297,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, heroic fortune, mass heroic fortune; **Cost** 37,200 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/heroic fortune}, {spell/mass heroic fortune}; **Cost** 37,200 gp"
 		]
 	},
 	"staff_of_dark_flame": {
@@ -1770,7 +1770,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/fly}, mass fly, {spell/overland flight}, {spell/silent image}; **Cost** 29,700 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/fly}, {spell/mass fly}, {spell/overland flight}, {spell/silent image}; **Cost** 29,700 gp"
 		]
 	},
 	"staff_of_defense": {
@@ -1894,7 +1894,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, changestaff, quench, repel metal or stone, transmute metal to wood, {spell/tree stride}; **Cost** 36,375 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/changestaff}, {spell/quench}, {spell/repel metal or stone}, {spell/transmute metal to wood}, {spell/tree stride}; **Cost** 36,375 gp"
 		]
 	},
 	"dragon_staff": {
@@ -2290,7 +2290,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, animate plants, {spell/barkskin}, {spell/charm animal}, {spell/pass without trace}, {spell/speak with animals}, {spell/summon nature's ally VI}, {spell/wall of thorns}; **Cost** 50,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/animate plants}, {spell/barkskin}, {spell/charm animal}, {spell/pass without trace}, {spell/speak with animals}, {spell/summon nature's ally VI}, {spell/wall of thorns}; **Cost** 50,500 gp"
 		]
 	},
 	"staff_of_life": {
@@ -2339,7 +2339,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, Heightened Spell, {spell/arcane sight}, channel the gift or {spell/imbue with spell ability}, {spell/fractions of heal and harm}, {spell/prying eyes}, {spell/spell gauge}, {spell/spell scourge}; **Cost** 65,775 gp"
+			"**Requirements** {feat/Craft Staff}, {feat/Heighten Spell}, {spell/arcane sight}, {spell/channel the gift} or {spell/imbue with spell ability}, {spell/fractions of heal and harm}, {spell/prying eyes}, {spell/spell gauge}, {spell/spell scourge}; **Cost** 65,775 gp"
 		]
 	},
 	"staff_of_one_hundred_hands": {
@@ -2451,7 +2451,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/bless}, {spell/cure critical wounds}, {spell/cure moderate wounds}, {spell/flame strike}, {spell/freedom of movement}, heightened hold person, {spell/prayer}, {spell/righteous might}, {spell/searing light}, {spell/true resurrection}, {spell/true seeing}; **Cost** 110,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/bless}, {spell/cure critical wounds}, {spell/cure moderate wounds}, {spell/flame strike}, {spell/freedom of movement}, {feat/heighten/ed>_spell} {spell/hold person}, {spell/prayer}, {spell/righteous might}, {spell/searing light}, {spell/true resurrection}, {spell/true seeing}; **Cost** 110,000 gp"
 		]
 	},
 	"winters_reach": {
@@ -2479,7 +2479,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/cone of cold}, {spell/dispel magic}, freezing sphere, frostbite, {spell/ice body}, {spell/ice storm}, icy prison, {spell/wall of ice}; **Cost** 114,000 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/cone of cold}, {spell/dispel magic}, {spell/freezing sphere}, {spell/frostbite}, {spell/ice body}, {spell/ice storm}, {spell/icy prison}, {spell/wall of ice}; **Cost** 114,000 gp"
 		]
 	},
 	"staff_of_power": {
@@ -2516,7 +2516,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/cone of cold}, {spell/continual flame}, heightened {spell/fireball}, {spell/globe of invulnerability}, {spell/hold monster}, {spell/levitate}, heightened {spell/lightning bolt}, {spell/magic missile}, heightened {spell/ray of enfeeblement}, {spell/wall of force}; **Cost** 117,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/cone of cold}, {spell/continual flame}, {feat/heighten/ed>_spell} {spell/fireball}, {spell/globe of invulnerability}, {spell/hold monster}, {spell/levitate}, heightened {spell/lightning bolt}, {spell/magic missile}, heightened {spell/ray of enfeeblement}, {spell/wall of force}; **Cost** 117,500 gp"
 		]
 	},
 	"lasirros_staff": {
@@ -2548,7 +2548,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, Heighten Spell, Widen Spell, {spell/break enchantment}, {spell/fireball}, {spell/flame arrow}, {spell/greater dispel magic}, {spell/invisibility}, {spell/knock}, {spell/nondetection}, {spell/repulsion}, {spell/wall of force}; **Cost** 120,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {feat/Heighten Spell}, {feat/Widen Spell}, {spell/break enchantment}, {spell/fireball}, {spell/flame arrow}, {spell/greater dispel magic}, {spell/invisibility}, {spell/knock}, {spell/nondetection}, {spell/repulsion}, {spell/wall of force}; **Cost** 120,000 gp"
 		]
 	},
 	"staff_of_magical_decline": {

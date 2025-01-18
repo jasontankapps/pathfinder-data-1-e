@@ -329,7 +329,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, countless eyes; **Cost** 600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/countless eyes}; **Cost** 600 gp"
 		]
 	},
 	"elixir_of_darksight": {
@@ -534,7 +534,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, rusting grasp; **Cost** 700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/rusting grasp}; **Cost** 700 gp"
 		]
 	},
 	"deathgag_elixir": {
@@ -643,7 +643,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, anti-incorporeal shell, {spell/magic circle against evil}; **Cost** 700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/anti-incorporeal shell}, {spell/magic circle against evil}; **Cost** 700 gp"
 		]
 	},
 	"herbs_of_the_primal_beast": {
@@ -715,7 +715,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, beanstalk; **Cost** 700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beanstalk}; **Cost** 700 gp"
 		]
 	},
 	"nagaji_scale_polish": {
@@ -836,7 +836,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, antilife shell; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/antilife shell}; **Cost** 750 gp"
 		]
 	},
 	"desiccating_dust": {
@@ -1186,7 +1186,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, polar midnight; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/polar midnight}; **Cost** 750 gp"
 		]
 	},
 	"wintertide_candle": {
@@ -1207,7 +1207,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Elemental Spell (cold), holy ice; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Elemental Spell} (cold), {spell/holy ice}; **Cost** 750 gp"
 		]
 	},
 	"word_bottle": {
@@ -1444,7 +1444,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Furious Spell; **Cost** 875 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Furious Spell}; **Cost** 875 gp"
 		]
 	},
 	"attentive_mirror": {
@@ -2125,7 +2125,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hallucinatory terrain; **Cost** 1,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hallucinatory terrain}; **Cost** 1,000 gp"
 		]
 	},
 	"prophetic_paraphernalia": {
@@ -2368,7 +2368,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alchemical allocation; **Cost** 1,100 gp (1st), 1,500 gp (2nd), 1,900 gp (3rd)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alchemical allocation}; **Cost** 1,100 gp (1st), 1,500 gp (2nd), 1,900 gp (3rd)"
 		]
 	},
 	"volatile_vaporizer_2nd": {
@@ -2728,7 +2728,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, threefold sight; **Cost** 1,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/threefold sight}; **Cost** 1,200 gp"
 		]
 	},
 	"saccadic_focusing_prism": {
@@ -3107,7 +3107,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, speak with dead; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}; **Cost** 1,250 gp"
 		]
 	},
 	"nettles_poppet": {
@@ -3348,7 +3348,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, starsight, creator has at least 2 ranks in Knowledge (geography); **Cost** 1,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/starsight}, creator has at least 2 ranks in Knowledge (geography); **Cost** 1,300 gp"
 		]
 	},
 	"moon_clock": {
@@ -3580,7 +3580,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/raise dead}, summon nature's ally; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/raise dead}, {spell/summon nature's ally>_1}; **Cost** 1,500 gp"
 		]
 	},
 	"boulder_bag": {
@@ -3673,7 +3673,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, mythic daylight; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, mythic {spell/daylight}; **Cost** 1,500 gp"
 		]
 	},
 	"explosion_pocket": {
@@ -3781,7 +3781,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mindlink; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mindlink}; **Cost** 1,500 gp"
 		]
 	},
 	"ointment_of_void_sealing": {
@@ -4081,7 +4081,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, minor image, {spell/summon nature's ally I}; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/minor image}, {spell/summon nature's ally I}; **Cost** 1,600 gp"
 		]
 	},
 	"charts_of_the_fair_winds": {
@@ -4499,7 +4499,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, geas/quest; **Cost** 1,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/geas//quest}; **Cost** 1,750 gp"
 		]
 	},
 	"dust_of_weighty_burdens": {

@@ -56,7 +56,7 @@
 			"",
 			"**Wasteland Stride (Ex):** At 2nd level, you may move through light or dense rubble, as well as up or down steep slopes, at your normal speed without suffering any impairment. Areas that have been magically manipulated to impede motion still affect you, however. This replaces woodland stride.",
 			"",
-			"**Badlands Spirit (Su):** At 8th level, whenever you use wild shape to take on the form of an earth elemental, you also gain the following spell-like abilities, depending on your druid class level: geyser (8th); sirocco (12th), scouring winds (15th). Each spell-like ability is usable once per day.",
+			"**Badlands Spirit (Su):** At 8th level, whenever you use wild shape to take on the form of an earth elemental, you also gain the following spell-like abilities, depending on your druid class level: {spell/geyser} (8th); {spell/sirocco} (12th), {spell/scouring winds} (15th). Each spell-like ability is usable once per day.",
 			"",
 			"**Domain Spells:** 1st-{spell/cloak of shade}, 2nd-{spell/feast of ashes}, 3rd-{spell/cloak of winds}, 4th-{spell/spike stones}, 5th-{spell/wind blades}, 6th-{spell/find the path}, 7th-{spell/fire storm}, 8th-{spell/earthquake}, 9th-{spell/storm of vengeance}."
 		]

@@ -466,7 +466,7 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You open a rift between dimensions that summons your eidolon. Treat this as if you had summoned your eidolon normally, except that it only remains with you for the duration of this spell. While summoned in this way, your eidolon cannot touch any creature warded by protection from evil or a similar effect and your eidolon can be sent back to its home plane by dispel magic.",
+			"You open a rift between dimensions that summons your eidolon. Treat this as if you had summoned your eidolon normally, except that it only remains with you for the duration of this spell. While summoned in this way, your eidolon cannot touch any creature warded by {spell/protection from evil} or a similar effect and your eidolon can be sent back to its home plane by {spell/dispel magic}.",
 			"",
 			"If you cast this spell while your eidolon is already on your plane, this spell has no effect. This spell allows you to summon your eidolon even if it has been returned to its home plane due to damage."
 		]
@@ -486,7 +486,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as summon nature's ally VIII, except you summon a purple worm with the giant creature simple template."
+			"This spell functions as {spell/summon nature's ally VIII}, except you summon a purple worm with the giant creature simple template."
 		]
 	},
 	"summon_elemental_steed": {
@@ -567,7 +567,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as summon nature's ally IX, except you summon a froghemoth."
+			"This spell functions as {spell/summon nature's ally IX}, except you summon a froghemoth."
 		]
 	},
 	"summon_genie_lesser": {
@@ -585,7 +585,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like summon monster I, except you can summon one janni.",
+			"This spell functions like {spell/summon monster I}, except you can summon one janni.",
 			"",
 			"### Summon Genie",
 			"",
@@ -643,7 +643,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as summon nature's ally VI, except its casting time is shorter and you can summon one cave, hill, marsh, river, slag, stone, or wood giant.",
+			"This spell functions as {spell/summon nature's ally VI}, except its casting time is shorter and you can summon one cave, hill, marsh, river, slag, stone, or wood giant.",
 			"",
 			"### Summon Giant Ally II",
 			"",
@@ -830,7 +830,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as summon nature's ally I, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature."
+			"This spell functions as {spell/summon nature's ally I}, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature."
 		]
 	},
 	"summon_minor_monster": {
@@ -848,7 +848,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as summon monster I, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature. As with animals summoned with summon monster I, you may apply one alignment-appropriate template to these animals."
+			"This spell functions as {spell/summon monster I}, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature. As with animals summoned with summon monster I, you may apply one alignment-appropriate template to these animals."
 		]
 	},
 	"summon_monster_1": {
@@ -1597,7 +1597,7 @@
 			"**Duration** 1 hour (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"The Shoanti revere more than the deities of distant planes, but also the animals and natural forces of the rugged lands they call home. Shoanti spellcasters have learned ways to call upon the might of their quahs' totem creatures in times of need. A character must have been raised by the Shoanti and be considered part of a quah to be able to cast this spell. Characters with access to this spell can only summon creatures revered by the quah they are a part of, as noted on the following lists. Except as noted above, this spell functions as summon nature's ally III.",
+			"The Shoanti revere more than the deities of distant planes, but also the animals and natural forces of the rugged lands they call home. Shoanti spellcasters have learned ways to call upon the might of their quahs' totem creatures in times of need. A character must have been raised by the Shoanti and be considered part of a quah to be able to cast this spell. Characters with access to this spell can only summon creatures revered by the quah they are a part of, as noted on the following lists. Except as noted above, this spell functions as {spell/summon nature's ally III}.",
 			"",
 			"*Lyrune-Quah (Moon Clan):* air elemental (small), 1d3 bats, wolf, 1d3 owls.",
 			"",
@@ -1807,7 +1807,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You alter a creature so the touch of the sun is hostile to it. The cursed creature gains light blindness and is blinded for 1 round if exposed to bright light, such as sunlight or the daylight spell. The cursed creature is dazzled as long as it remains in areas of bright light, and it is treated as being particularly susceptible to sunlight for the purposes of resolving spells like searing light, sunbeam, and sunburst.",
+			"You alter a creature so the touch of the sun is hostile to it. The cursed creature gains light blindness and is blinded for 1 round if exposed to bright light, such as sunlight or the {spell/daylight} spell. The cursed creature is dazzled as long as it remains in areas of bright light, and it is treated as being particularly susceptible to sunlight for the purposes of resolving spells like {spell/searing light}, {spell/sunbeam}, and {spell/sunburst}.",
 			"",
 			"### Sun's Disdain, Mass",
 			"",

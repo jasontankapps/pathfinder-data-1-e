@@ -306,7 +306,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, undead anatomy; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/undead anatomy>_1}; **Cost** 2,700 gp"
 		]
 	},
 	"stormlure": {
@@ -364,7 +364,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, create soul gem; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/create soul gem}; **Cost** 2,700 gp"
 		]
 	},
 	"amulet_of_courage": {
@@ -982,7 +982,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, hex ward; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hex ward}; **Cost** 4,000 gp"
 		]
 	},
 	"torc_of_bloody_rage": {
@@ -1208,7 +1208,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bleaching resistance}, {spell/planar adaptation}, regeneration, creator must be a gnome; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bleaching resistance}, {spell/planar adaptation}, {spell/regenerate}, creator must be a gnome; **Cost** 5,000 gp"
 		]
 	},
 	"amulet_of_eldests_blessing": {
@@ -1880,7 +1880,7 @@
 			"",
 			"The following wondrous item is generally available only to members of the indicated race or ethnicity.",
 			"",
-			"Once per day, this bloodstone amulet can be commanded to produce a red liquid that temporarily satisfies one undead creature's hunger for 24 hours, though feeding on the stone's liquid is unappealing, much like eating the food from create food and water. The wearer can collect and store the liquid in a vial for later use, but the fluid vanishes at the next sunrise if unused. A dhampir wearer gains a +4 bonus on Diplomacy checks to influence undead who have consumed the substance in the past day, and those undead take a -2 penalty on saving throws against the dhampir wearer's spells and effects. Additionally, a dhampir wearer can use command undead once per day on an undead who has consumed the liquid from the amulet.",
+			"Once per day, this bloodstone amulet can be commanded to produce a red liquid that temporarily satisfies one undead creature's hunger for 24 hours, though feeding on the stone's liquid is unappealing, much like eating the food from {spell/create food and water}. The wearer can collect and store the liquid in a vial for later use, but the fluid vanishes at the next sunrise if unused. A dhampir wearer gains a +4 bonus on Diplomacy checks to influence undead who have consumed the substance in the past day, and those undead take a -2 penalty on saving throws against the dhampir wearer's spells and effects. Additionally, a dhampir wearer can use command undead once per day on an undead who has consumed the liquid from the amulet.",
 			"",
 			"### Construction",
 			"",
@@ -2067,7 +2067,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, mythic regenerate; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, mythic {spell/regenerate}; **Cost** 9,000 gp"
 		]
 	},
 	"beast_talisman": {
@@ -2145,7 +2145,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Construct, {feat/Craft Wondrous Item}, soul bind; **Cost** 10,000 gp"
+			"**Requirements** Craft Construct, {feat/Craft Wondrous Item}, {spell/soul bind}; **Cost** 10,000 gp"
 		]
 	},
 	"dragonfoe_amulet": {
@@ -2304,7 +2304,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/lesser globe of invulnerability}, {spell/magic circle against chaos}, evil, good, or law, {spell/shield}; **Cost** 12,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/lesser globe of invulnerability}, {spell/magic circle against chaos/, evil, good, or law}, {spell/shield}; **Cost** 12,000 gp"
 		]
 	},
 	"cloud_engineer_badge": {
@@ -2645,7 +2645,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, radiation ward, remove radioactivity; **Cost** 22,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/radiation ward}, {spell/remove radioactivity}; **Cost** 22,500 gp"
 		]
 	},
 	"iron_collar_of_the_unbound_coven": {
@@ -2727,7 +2727,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dominate monster; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate monster}; **Cost** 25,000 gp"
 		]
 	},
 	"agents_clasp_taldan": {
@@ -3207,7 +3207,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, curse water; **Cost** 30 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/curse water}; **Cost** 30 gp"
 		]
 	},
 	"ioun_torch": {
@@ -3525,7 +3525,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, treasure stitching; **Cost** 125 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/treasure stitching}; **Cost** 125 gp"
 		]
 	},
 	"corpse_puppet": {
@@ -3542,7 +3542,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, sculpt corpse; **Cost** 125 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/sculpt corpse}; **Cost** 125 gp"
 		]
 	},
 	"dust_of_hex_hiding": {
@@ -3990,7 +3990,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, pup shape; **Cost** 150 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/pup shape}; **Cost** 150 gp"
 		]
 	},
 	"trapped_beverage": {
@@ -4524,7 +4524,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, silk to steel; **Cost** 250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/silk to steel}; **Cost** 250 gp"
 		]
 	},
 	"replenishing_aquarium_ball_lesser": {

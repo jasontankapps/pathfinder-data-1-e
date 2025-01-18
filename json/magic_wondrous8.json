@@ -535,7 +535,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, anticipate thoughts; **Cost** 3,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/anticipate thoughts}; **Cost** 3,250 gp"
 		]
 	},
 	"jaunt_boots": {
@@ -552,7 +552,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, jester's jaunt; **Cost** 3,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/jester's jaunt}; **Cost** 3,600 gp"
 		]
 	},
 	"boots_of_levitation": {
@@ -1269,7 +1269,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, getaway; **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/getaway}; **Cost** 15,000 gp"
 		]
 	},
 	"horseshoes_of_crushing_blows_3": {
@@ -1290,7 +1290,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape IV}, protection from chaos/evil/ good/law; **Cost** 19,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape IV}, [protection from chaos/evil/good/law](spell/protection_from_evil); **Cost** 19,800 gp"
 		]
 	},
 	"boots_of_fiendish_escape_tiefling": {
@@ -1329,7 +1329,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, find traps, creator must have at least 12 ranks in Perception; **Cost** 23,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/find traps}, creator must have at least 12 ranks in Perception; **Cost** 23,000 gp"
 		]
 	},
 	"major_burglar_boots": {
@@ -1811,7 +1811,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, bloodhound, creator must have the animal focus class feature; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bloodhound}, creator must have the animal focus class feature; **Cost** 2,500 gp"
 		]
 	},
 	"headband_of_ponderous_recollection": {
@@ -2065,7 +2065,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/instant enemy}, tireless pursuit, creator must have 5 ranks in Survival; **Cost** 5,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/instant enemy}, {spell/tireless pursuit}, creator must have 5 ranks in Survival; **Cost** 5,500 gp"
 		]
 	},
 	"phylactery_of_negative_channeling": {
@@ -2892,7 +2892,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, life pact; **Cost** 450 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/life pact}; **Cost** 450 gp"
 		]
 	},
 	"hand_of_the_mage": {
@@ -2992,7 +2992,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, mnemonic enhancement; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/mnemonic enhancer}; **Cost** 500 gp"
 		]
 	},
 	"pendant_of_the_blood_scarab": {
@@ -3565,7 +3565,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, corruption resistance; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/corruption resistance}; **Cost** 1,500 gp"
 		]
 	},
 	"swarmbane_clasp": {
@@ -3582,7 +3582,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, repel vermin; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/repel vermin}; **Cost** 1,500 gp"
 		]
 	},
 	"spidersilk_medallion": {
@@ -3826,7 +3826,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, delusional pride; **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/delusional pride}; **Cost** 1,800 gp"
 		]
 	},
 	"aegis_of_recovery_greater": {
@@ -4373,7 +4373,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, minor image; **Cost** 300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/minor image}; **Cost** 300 gp"
 		]
 	},
 	"wanderlust_map": {
@@ -4432,7 +4432,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, open/close, pilfering hand; **Cost** 325 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/open//close}, {spell/pilfering hand}; **Cost** 325 gp"
 		]
 	},
 	"focusing_flask": {
@@ -4483,7 +4483,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, arrow eruption; **Cost** 350 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/arrow eruption}; **Cost** 350 gp"
 		]
 	},
 	"pyre_salt": {
@@ -4519,7 +4519,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, vomit swarm; **Cost** 350 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/vomit swarm}; **Cost** 350 gp"
 		]
 	},
 	"campfire_bead": {
@@ -4982,7 +4982,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, diminish plants; **Cost** 400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/diminish plants}; **Cost** 400 gp"
 		]
 	},
 	"dust_of_emulation": {

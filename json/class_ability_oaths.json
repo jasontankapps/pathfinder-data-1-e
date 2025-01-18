@@ -17,7 +17,7 @@
 			"{SOURCE Inner Sea Combat/15}  ",
 			"Despite the seemingly inherent contradiction, the militant [Hellknights](rule/aff_lawknights) of Cheliax count a number of paladins among their ranks, especially the Order of the Godclaw. Typically these paladins reconcile their allegiance to the Hellknights by dedication to the rule of law above all other things.",
 			"",
-			"*Detect Chaos (Su):* This ability works like the standard paladin ability to detect evil, except as detect chaos instead of detect evil. This ability replaces detect evil.",
+			"*Detect Chaos (Su):* This ability works like the standard paladin ability to detect evil, except as {spell/detect chaos} instead of detect evil. This ability replaces detect evil.",
 			"",
 			"*Smite Chaos (Su):* This ability works like the standard paladin ability to smite evil, except the paladin gains bonuses against targets with chaotic alignments instead of evil. The paladin deals additional damage against outsiders with the chaotic subtype, chaotic-aligned dragons, and aberrations, instead of against evil outsiders, evil dragons, and undead. This ability replaces smite evil.",
 			"",
@@ -25,7 +25,7 @@
 			"",
 			"*Code of Conduct*: Spread the order of law wherever you go, so long as the law is just; do not serve as a tool of tyranny. Fight vigilantly the servants of chaos.",
 			"",
-			"*Oath Spells*: 1st-command; 2nd-calm emotions; 3rd-suggestion; 4th-order's wrath."
+			"**Oath Spells:** 1st-{spell/command}; 2nd-{spell/calm emotions}; 3rd-{spell/suggestion}; 4th-{spell/order's wrath}."
 		]
 	},
 	"oath_against_corruption": {
@@ -47,7 +47,7 @@
 			"",
 			"*Code of Conduct*: Hunt aberrations and do not allow them to roam freely or harm others. Destroy them if you can, or banish them if you cannot.",
 			"",
-			"*Oath Spells*: 1st-true strike; 2nd-acute senses; 3rd-touch of idiocy; 4th-spell immunity."
+			"**Oath Spells:** 1st-{spell/true strike}; 2nd-{spell/acute senses}; 3rd-{spell/touch of idiocy}; 4th-{spell/spell immunity}."
 		]
 	},
 	"oath_against_fiends": {
@@ -69,7 +69,7 @@
 			"",
 			"*Code of Conduct*: Never suffer an evil outsider to live if it is in your power to destroy it. Banish fiends you cannot kill. Purge the evil from those possessed by fiends.",
 			"",
-			"*Oath Spells*: 1st-resist energy; 2nd-detect thoughts; 3rd-invisibility purge; 4th-plane shift."
+			"**Oath Spells:** 1st-{spell/resist energy}; 2nd-{spell/detect thoughts}; 3rd-{spell/invisibility purge}; 4th-{spell/plane shift}."
 		]
 	},
 	"oath_against_grotesquery": {
@@ -87,7 +87,7 @@
 			"",
 			"*Code of Conduct*: Respect the innate beauty in all things, and strive to preserve it from corruption and perversion. Never willfully cause damage to crafted objects or works of art, nor cause a creature or object to be deformed in any way.",
 			"",
-			"*Oath Spells*: 1st-sanctuary; 2nd-make whole; 3rd-banish seeming; 4th-true form."
+			"**Oath Spells:** 1st-{spell/sanctuary}; 2nd-{spell/make whole}; 3rd-{spell/banish seeming}; 4th-{spell/true form}."
 		]
 	},
 	"oath_against_savagery": {
@@ -105,7 +105,7 @@
 			"",
 			"*Code of Conduct*: Always heed the call of a community in danger from savages. Be the first in line to defend a settlement and the last to retreat.",
 			"",
-			"*Oath Spells*: 1st-deathwatch; 2nd-protection from arrows; 3rd-haste; 4th-divine power."
+			"**Oath Spells:** 1st-{spell/deathwatch}; 2nd-{spell/protection from arrows}; 3rd-{spell/haste}; 4th-{spell/divine power}."
 		]
 	},
 	"oath_against_the_whispering_way": {
@@ -143,7 +143,7 @@
 			"",
 			"*Code of Conduct*: Slay evil dragons, as well as other dangerous dragons whether or not they are evil. Prevent the bloodlines of other creatures from being corrupted with draconic power. Protect the innocent against the predation of dragons.",
 			"",
-			"*Oath Spells*: 1st-enlarge person; 2nd-bear's endurance; 3rd-fly; 4th-stoneskin."
+			"**Oath Spells:** 1st-{spell/enlarge person}; 2nd-{spell/bear's endurance}; 3rd-{spell/fly}; 4th-{spell/stoneskin}."
 		]
 	},
 	"oath_against_undeath": {
@@ -155,7 +155,7 @@
 			"{SOURCE Ultimate Magic/61}  ",
 			"A paladin with this oath vows to restore the natural state of death to any animate corpse she encounters, and destroy the undead energy in the process. While a few paladins who take this oath recognize that not all undead are evil, others are quite willing to purge neutral and good undead along with all the evil ones.",
 			"",
-			"*Detect Undead (Su):* This ability works like the standard paladin ability to detect evil, except as detect undead instead of detect evil. This ability replaces detect evil.",
+			"*Detect Undead (Su):* This ability works like the standard paladin ability to detect evil, except as {spell/detect undead} instead of detect evil. This ability replaces detect evil.",
 			"",
 			"*Ghost Touch Aura (Su):* At 3rd level, the paladin's armor is treated as if it had the ghost touch armor property. This does not affect the cost or effect of any other abilities of the armor. At 9th level, this ability also applies to the paladin's shield. This ability replaces the paladin's 3rd-level and 9th-level mercies.",
 			"",
@@ -167,7 +167,7 @@
 			"",
 			"*Code of Conduct*: Destroy all undead. Put to rest the poor souls turned against their will. Prevent the taint of undeath from spreading to the newly dead, blessing or burning the corpses as necessary.",
 			"",
-			"*Oath Spells*: 1st-sanctify corpse; 2nd-darkvision; 3rd-searing light; 4th-halt undead."
+			"**Oath Spells**: 1st-{spell/sanctify corpse}; 2nd-{spell/darkvision}; 3rd-{spell/searing light}; 4th-{spell/halt undead}."
 		]
 	},
 	"oath_of_charity": {
@@ -185,7 +185,7 @@
 			"",
 			"*Code of Conduct*: Always offer help to good creatures who need it. Always offer help to the poor and destitute. (In settlements, this help is often handled by donating to charitable religious organizations, rather than the paladin being required to dole out coppers to every beggar in the street.)",
 			"",
-			"*Oath Spells*: 1st-magic stone; 2nd-make whole; 3rd-magic vestment; 4th-imbue with spell ability."
+			"**Oath Spells:** 1st-{spell/magic stone}; 2nd-{spell/make whole}; 3rd-{spell/magic vestment}; 4th-{spell/imbue with spell ability}."
 		]
 	},
 	"oath_of_chastity": {
@@ -203,7 +203,7 @@
 			"",
 			"*Code of Conduct*: Never engage in a romantic relationship or a sexual act.",
 			"",
-			"*Oath Spells*: 1st-remove fear; 2nd-confess; 3rd-heroism; 4th-freedom of movement."
+			"**Oath Spells:** 1st-{spell/remove fear}; 2nd-{spell/confess}; 3rd-{spell/heroism}; 4th-{spell/freedom of movement}."
 		]
 	},
 	"oath_of_loyalty": {
@@ -223,7 +223,7 @@
 			"",
 			"*Code of Conduct*: Keep all promises. Never make an oath or promise lightly. Never go back on an oath.",
 			"",
-			"*Oath Spells*: 1st-wrath; 2nd-aid; 3rd-helping hand; 4th-sending."
+			"**Oath Spells:** 1st-{spell/wrath}; 2nd-{spell/aid}; 3rd-{spell/helping hand}; 4th-{spell/sending}."
 		]
 	},
 	"oath_of_the_mendevian_crusade": {
@@ -275,7 +275,7 @@
 			"",
 			"*Code of Conduct*: Know the laws of Andoran and do not exempt authorities from the application of the law.",
 			"",
-			"*Oath Spells*: 1st-comprehend languages; 2nd-locate object; 3rd-tongues; 4th-true seeing."
+			"**Oath Spells:** 1st-{spell/comprehend languages}; 2nd-{spell/locate object}; 3rd-{spell/tongues}; 4th-{spell/true seeing}."
 		]
 	},
 	"oath_of_the_skyseeker": {
@@ -307,7 +307,7 @@
 			"",
 			"*Code of Conduct*: Reclaim a Sky Citadel in the name of honorable dwarven ideals. Defend Sky Citadels already held by dwarves.",
 			"",
-			"*Oath Spells*: 1st-enlarge person; 2nd-find traps; 3rd-spiritual ally; 4th-blessing of fervor."
+			"**Oath Spells:** 1st-{spell/enlarge person}; 2nd-{spell/find traps}; 3rd-{spell/spiritual ally}; 4th-{spell/blessing of fervor}."
 		]
 	},
 	"oath_of_vengeance": {
@@ -325,7 +325,7 @@
 			"",
 			"*Code of Conduct*: Never let lesser eveils distract you from your pursuit of just vengeance.",
 			"",
-			"*Oath Spells*: 1st-wrath; 2nd-confess; 3rd-blessing of fervor; 4th-order's wrath."
+			"**Oath Spells:** 1st-{spell/wrath}; 2nd-{spell/confess}; 3rd-{spell/blessing of fervor}; 4th-{spell/order's wrath}."
 		]
 	}
 }

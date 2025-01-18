@@ -110,7 +110,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none and Reflex partial (see text); **Spell Resistance** no and yes (see text)",
 			"",
-			"Your body glows with a terrible light. Creatures within 30 feet of you that can see you are dazzled (no saving throw). Creatures with light sensitivity must succeed at a Reflex saving throw or be blinded. This light counts as daylight for the purpose of affecting darkness effects (and vice versa). If the emanation enters an area under the effect of magical darkness (or vice versa), both effects are temporarily negated so that the otherwise prevailing light conditions exist in the overlapping areas of effect. Dazzled and blinded conditions from your light end when the spell ends or when the creature is out of line of sight."
+			"Your body glows with a terrible light. Creatures within 30 feet of you that can see you are dazzled (no saving throw). Creatures with light sensitivity must succeed at a Reflex saving throw or be blinded. This light counts as {spell/daylight} for the purpose of affecting darkness effects (and vice versa). If the emanation enters an area under the effect of magical darkness (or vice versa), both effects are temporarily negated so that the otherwise prevailing light conditions exist in the overlapping areas of effect. Dazzled and blinded conditions from your light end when the spell ends or when the creature is out of line of sight."
 		]
 	},
 	"unbreakable_construct": {
@@ -224,7 +224,7 @@
 			"",
 			"When you cast this spell, you can assume the form of any Small or Medium corporeal creature of the undead type, which must be vaguely humanoid-shaped (like a ghoul, skeleton, or zombie). You gain a bite attack (1d6 for Medium forms, 1d4 for Small forms), two claw or slam attacks (1d6 for Medium forms, 1d4 for Small forms), and darkvision 60 feet. If the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet, fly 30 feet (average maneuverability), swim 30 feet, low-light vision, and scent.",
 			"",
-			"In this form, you detect as an undead creature (such as with detect undead, but not with magic that reveals your true form, such as true seeing) and are treated as undead for the purposes of channeled energy, cure spells, and inflict spells, but not for other effects that specifically target or react differently to undead (such as searing light).",
+			"In this form, you detect as an undead creature (such as with {spell/detect undead}, but not with magic that reveals your true form, such as {spell/true seeing}) and are treated as undead for the purposes of channeled energy, cure spells, and inflict spells, but not for other effects that specifically target or react differently to undead (such as {spell/searing light}).",
 			"",
 			"*Small undead:* If the form you take is that of a Small undead, you gain a +2 size bonus to your Dexterity and a +1 natural armor bonus.",
 			"",
@@ -416,7 +416,7 @@
 			"**Duration** 1 day/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You shroud a single trap with a powerful illusion to make it more difficult to locate. Spells like detect magic can't locate any magic aura from either the target trap or from undetectable trap. Furthermore, a character under the effect of the find traps spell doesn't receive an automatic chance to locate the target trap when she comes within 10 feet of it, and the bonus on Perception checks from find traps doesn't apply to attempts to notice the target trap. Add 1/2 your caster level to the DC for any creature without the trapfinding class ability to notice the target trap with Perception checks.",
+			"You shroud a single trap with a powerful illusion to make it more difficult to locate. Spells like detect magic can't locate any magic aura from either the target trap or from undetectable trap. Furthermore, a character under the effect of the {spell/find traps} spell doesn't receive an automatic chance to locate the target trap when she comes within 10 feet of it, and the bonus on Perception checks from find traps doesn't apply to attempts to notice the target trap. Add 1/2 your caster level to the DC for any creature without the trapfinding class ability to notice the target trap with Perception checks.",
 			"",
 			"A ranger with the ranger traps class feature can cast this spell on a ranger trap he creates as part of the same action he uses to prepare a ranger trap. This doesn't reduce the spell's casting time if such a ranger casts this spell on an ordinary trap, even one that he created himself using Craft (traps)."
 		]
@@ -536,7 +536,7 @@
 			"",
 			"Unhallow makes a particular site, building, or structure an unholy site. This has three major effects.",
 			"",
-			"First, the site or structure is guarded by a magic circle against good effect.",
+			"First, the site or structure is guarded by a {spell/magic circle against good} effect.",
 			"",
 			"Second, the DC to resist negative channeled energy within the spell's area of effect gains a +4 sacred bonus and the DC to resist positive energy is reduced by 4. Spell resistance does not apply to this effect. This provision does not apply to the druid version of the spell.",
 			"",
@@ -610,7 +610,7 @@
 			"",
 			"A malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by good creatures, and weakening good creatures when they strike the subjects. This abjuration has four effects.",
 			"",
-			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike the effect of protection from good, this benefit applies against all attacks, not just against attacks by good creatures.",
+			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike the effect of {spell/protection from good}, this benefit applies against all attacks, not just against attacks by good creatures.",
 			"",
 			"Second, a warded creature gains SR 25 against good spells and spells cast by good creatures.",
 			"",
@@ -683,7 +683,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell allows you to channel the powers of evil into your sword, or any other melee weapon you choose. The weapon acts as a +5 unholy weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against good opponents). It also emits a magic circle against good effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one unholy sword at a time.",
+			"This spell allows you to channel the powers of evil into your sword, or any other melee weapon you choose. The weapon acts as a +5 unholy weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against good opponents). It also emits a {spell/magic circle against good} effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one unholy sword at a time.",
 			"",
 			"If this spell is cast on a magic weapon, the powers of the spell supersede any that the weapon normally has, rendering the normal enhancement bonus and powers of the weapon inoperative for the duration of the spell. This spell is not cumulative with any spells that modify the weapon in any way. This spell does not work on artifacts. A masterwork weapon's bonus to attack does not stack with this spell's enhancement bonus to attack."
 		]
@@ -1107,7 +1107,7 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You shroud an area in Urgathoa's unclean influence, rendering those who pass through it and fail their Will saving throws more enticing to ravenous undead. When an affected creature comes within 60 feet of an undead creature, the spell immediately draws the undead creature's attention, granting it a +4 bonus on Perception checks to notice the affected creature and on saving throws to resist spells that hide or disguise the affected creature (such as hide from undead). Once the undead creature notices the affected creature, it feels compelled to kill and devour the affected creature, and gains a +1 profane bonus on attack rolls made against the affected creature and a +1 profane bonus on saving throws against the affected creature's spells and special abilities. The undead also ignores any {rule/concealment} less than total concealment that an affected creature has. Each time the spell draws an undead creature's attention to an affected creature, the spell's haunt-like manifestation occurs during that round.",
+			"You shroud an area in Urgathoa's unclean influence, rendering those who pass through it and fail their Will saving throws more enticing to ravenous undead. When an affected creature comes within 60 feet of an undead creature, the spell immediately draws the undead creature's attention, granting it a +4 bonus on Perception checks to notice the affected creature and on saving throws to resist spells that hide or disguise the affected creature (such as {spell/hide from undead}). Once the undead creature notices the affected creature, it feels compelled to kill and devour the affected creature, and gains a +1 profane bonus on attack rolls made against the affected creature and a +1 profane bonus on saving throws against the affected creature's spells and special abilities. The undead also ignores any {rule/concealment} less than total concealment that an affected creature has. Each time the spell draws an undead creature's attention to an affected creature, the spell's haunt-like manifestation occurs during that round.",
 			"",
 			"### Haunt Statistics",
 			"",
@@ -2892,7 +2892,7 @@
 			"",
 			"You can warp one Small or smaller object or its equivalent per caster level. A Medium object counts as two Small objects, a Large object as four, a Huge object as eight, a Gargantuan object as 16, and a Colossal object as 32.",
 			"",
-			"Alternatively, you can unwarp metal (effectively warping it back to normal) with this spell. Make whole, on the other hand, does nothing to repair a warped item.",
+			"Alternatively, you can unwarp metal (effectively warping it back to normal) with this spell. {spell/Make whole}, on the other hand, does nothing to repair a warped item.",
 			"",
 			"You can combine multiple consecutive castings of warp metal to warp (or unwarp) an object that is too large for you to warp with a single casting. Until the object is completely warped, it suffers no ill effects."
 		]
@@ -2916,7 +2916,7 @@
 			"",
 			"You may warp one Small or smaller object or its equivalent per caster level. A Medium object counts as two Small objects, a Large object as four, a Huge object as eight, a Gargantuan object as 16, and a Colossal object as 32.",
 			"",
-			"Alternatively, you can unwarp wood (effectively warping it back to normal) with this spell. Make whole, on the other hand, does no good in repairing a warped item.",
+			"Alternatively, you can unwarp wood (effectively warping it back to normal) with this spell. {spell/Make whole}, on the other hand, does no good in repairing a warped item.",
 			"",
 			"You can combine multiple consecutive warp wood spells to warp (or unwarp) an object that is too large for you to warp with a single spell. Until the object is completely warped, it suffers no ill effects."
 		]

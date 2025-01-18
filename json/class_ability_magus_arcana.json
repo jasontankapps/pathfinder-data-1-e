@@ -218,7 +218,7 @@
 		"name": "Intuitive Protection",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"**Intuitive Protection (Sp)** ({source/Monster Summoner's Handbook/ pg. 9}): When a conjuration (summoning) spell is cast by an opponent and the magus successfully identifies the spell with a Spellcraft check, he can spend 1 point form his arcane pool as an immediate action to cast protection from chaos, evil, good, or law (chosen when using this ability) on himself; this lasts a number of rounds equal to his magus level. At 7th level, he can instead cast magic circle against chaos, evil, good, or law when using this ability. The magus must be at least 3rd level before selecting this arcana."
+			"**Intuitive Protection (Sp)** ({source/Monster Summoner's Handbook/ pg. 9}): When a conjuration (summoning) spell is cast by an opponent and the magus successfully identifies the spell with a Spellcraft check, he can spend 1 point form his arcane pool as an immediate action to cast {spell/protection from chaos/, evil, good, or law} (chosen when using this ability) on himself; this lasts a number of rounds equal to his magus level. At 7th level, he can instead cast {spell/magic circle against chaos/, evil, good, or law} when using this ability. The magus must be at least 3rd level before selecting this arcana."
 		]
 	},
 	"ki_arcana": {

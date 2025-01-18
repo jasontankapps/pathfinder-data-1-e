@@ -501,7 +501,7 @@
 			"",
 			"A dim, blue glow surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by chaotic creatures, and slowing chaotic creatures when they strike the subjects. This abjuration has four effects.",
 			"",
-			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike protection from chaos, this benefit applies against all attacks, not just against attacks by chaotic creatures.",
+			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike {spell/protection from chaos}, this benefit applies against all attacks, not just against attacks by chaotic creatures.",
 			"",
 			"Second, a warded creature gains spell resistance 25 against chaotic spells and spells cast by chaotic creatures.",
 			"",
@@ -549,7 +549,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** see text; **Spell Resistance** no",
 			"",
-			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of fire damage + 1 point per caster level (maximum +15). Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination as if it were a continual flame spell. You can only have one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield.",
+			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of fire damage + 1 point per caster level (maximum +15). Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination as if it were a {spell/continual flame} spell. You can only have one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield.",
 			"",
 			"### Mythic Shield of the Dawnflower",
 			"",
@@ -569,7 +569,7 @@
 			"**Target** you  ",
 			"**Duration** 1 round/level",
 			"",
-			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of damage + 1 point per caster level. Half of this damage is fire damage and half is holy damage (as the spell {spell/flame strike}). An undead creature or a creature particularly vulnerable to light that hits you instead takes 2d6 points of damage +1 point per caster level. Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination equivalent to a daylight spell. You can have only one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield or shield of the Dawnflower."
+			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of damage + 1 point per caster level. Half of this damage is fire damage and half is holy damage (as the spell {spell/flame strike}). An undead creature or a creature particularly vulnerable to light that hits you instead takes 2d6 points of damage +1 point per caster level. Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination equivalent to a {spell/daylight} spell. You can have only one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield or shield of the Dawnflower."
 		]
 	},
 	"shield_of_the_dawnflower_greater": {
@@ -697,7 +697,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** no",
 			"",
-			"This spell is used to protect one of a tribe's most valuable possessions: its tribal banner. Any creature (other than a member of the tribe which the standard represents) attempting to directly attack or touch the standard must make a Will save. This spell functions as sanctuary, but only protects a standard or banner. In addition, the spell grants a +2 bonus to the standard's hardness, and +10 to the standard's hit points for the duration of the spell."
+			"This spell is used to protect one of a tribe's most valuable possessions: its tribal banner. Any creature (other than a member of the tribe which the standard represents) attempting to directly attack or touch the standard must make a Will save. This spell functions as {spell/sanctuary}, but only protects a standard or banner. In addition, the spell grants a +2 bonus to the standard's hardness, and +10 to the standard's hit points for the duration of the spell."
 		]
 	},
 	"shifted_steps": {
@@ -1119,7 +1119,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"You teleport up to one ally per five caster levels to your location. You determine which allies you want to teleport at the time of casting; these allies have 1 round to decide to allow or refuse your spell, and they teleport immediately upon accepting. Allies are teleported as if you had cast teleport on them (your current location is at least \"studied carefully\" for this purpose), appearing in a puff of brimstone in a space adjacent to you. If you are in combat and your allies were not, your allies may roll initiative upon arrival but are not considered flat-footed even though they have not taken any actions. The spell does not function in areas warded against intrusion by evil creatures (such as a magic circle against evil effect)."
+			"You teleport up to one ally per five caster levels to your location. You determine which allies you want to teleport at the time of casting; these allies have 1 round to decide to allow or refuse your spell, and they teleport immediately upon accepting. Allies are teleported as if you had cast teleport on them (your current location is at least \"studied carefully\" for this purpose), appearing in a puff of brimstone in a space adjacent to you. If you are in combat and your allies were not, your allies may roll initiative upon arrival but are not considered flat-footed even though they have not taken any actions. The spell does not function in areas warded against intrusion by evil creatures (such as a {spell/magic circle against evil} effect)."
 		]
 	},
 	"silence": {
@@ -1269,7 +1269,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Fortitude partial (see text); **Spell Resistance** no",
 			"",
-			"As daylight, except the object touched sheds bright silvery light in a 20-foot radius. In addition to providing illumination, the area of bright light is painful to creatures that are susceptible to alchemical silver. A creature with DR/silver that begins its turn within the light of this spell is automatically dazzled and becomes sickened unless it succeeds on a Fortitude save. These effects disappear 1 round after the target leaves the silverlight. A creature that leaves the area and then returns must make a new saving throw. This spell provides dim light up to 40 feet away, but only creatures within 20 feet are subject to the above effects."
+			"As {spell/daylight}, except the object touched sheds bright silvery light in a 20-foot radius. In addition to providing illumination, the area of bright light is painful to creatures that are susceptible to alchemical silver. A creature with DR/silver that begins its turn within the light of this spell is automatically dazzled and becomes sickened unless it succeeds on a Fortitude save. These effects disappear 1 round after the target leaves the silverlight. A creature that leaves the area and then returns must make a new saving throw. This spell provides dim light up to 40 feet away, but only creatures within 20 feet are subject to the above effects."
 		]
 	},
 	"simulacrum": {
@@ -1457,9 +1457,9 @@
 			"",
 			"Your possessed skin is identical to you in all ways, except the following: It has only half the number of hit points you had at the time you cast the spell, and cannot be healed above this maximum; construct type, traits, and immunities; Str 3, Con -; DR 10/piercing or slashing; and {umr/compression}. Your skin can take any actions you could normally take in your own body (such as to fight or cast spells).",
 			"",
-			"When your skin leaves your body, your body's hit points drop to 0. Your body cannot heal damage naturally while you have no skin, nor do spells that cure hit point damage work on your body; only regeneration (from a regenerate spell, ring of regeneration, the regeneration monster ability, or any other effect that can regrow missing limbs) or heal can regrow your skin and allow you heal above 0 hit points.",
+			"When your skin leaves your body, your body's hit points drop to 0. Your body cannot heal damage naturally while you have no skin, nor do spells that cure hit point damage work on your body; only regeneration (from a {spell/regenerate} spell, {magic-ring/ring of regeneration}, the {umr/regeneration} monster ability, or any other effect that can regrow missing limbs) or heal can regrow your skin and allow you heal above 0 hit points.",
 			"",
-			"If your body is regenerated before your skin returns to it, the skin dies and your consciousness returns automatically to your body. Your skin can be preserved with gentle repose and is suitable for any purpose that requires some of your flesh (such as a {spell/resurrection} spell) or any magic or ritual that requires a creature's skin.",
+			"If your body is regenerated before your skin returns to it, the skin dies and your consciousness returns automatically to your body. Your skin can be preserved with {spell/gentle repose} and is suitable for any purpose that requires some of your flesh (such as a {spell/resurrection} spell) or any magic or ritual that requires a creature's skin.",
 			"",
 			"When your skin returns to your body, you regain hit points equal to your skin's remaining hit points. If the spell ends before you reunite with your skin or if your skin is killed while you are in your body, you remain helpless and at 0 hit points until your full body is restored to you (requiring powerful magic, as described above). If your body dies while you are possessing your skin, you die when the spell ends, regardless of how many hit points the skin has left. If your body or skin is slain with your consciousness in it, the spell ends and you are instantly killed.",
 			"",
@@ -2287,7 +2287,7 @@
 			"",
 			"{SOURCE Mythic Origins/15}",
 			"",
-			"You can expend one use of mythic power to raise creatures killed by this effect as undead thralls. You can animate a number of Hit Dice worth of undead up to double your tier as if you had animated them with animate dead. The undead created by this spell count toward the total number of Hit Dice worth of undead you can control.",
+			"You can expend one use of mythic power to raise creatures killed by this effect as undead thralls. You can animate a number of Hit Dice worth of undead up to double your tier as if you had animated them with {spell/animate dead}. The undead created by this spell count toward the total number of Hit Dice worth of undead you can control.",
 			"",
 			"*Augmented (8th):* If you expend two uses of mythic power, you can raise slain foes as undead creatures chosen from the list of undead for create undead. By expending three uses of mythic power, you can select from the list for create greater undead. The total number of Hit Dice worth of undead created in this way can't exceed double your tier. Created undead are not automatically under your control. If you are capable of commanding undead, you may attempt to command the undead creatures as they form."
 		]
@@ -2410,7 +2410,7 @@
 			"",
 			"At the beginning of your next turn, a massive fissure full of dark fire and shrieking cries appears at a point you designate within the spell's range, and a Spawn of Rovagug emerges. This creature takes the form of a thunder behemoth with the advanced and entropic simple templates. Unlike with summon monster or similar spells, the caster has no control whatsoever over the called creature. The spawn immediately heads in a random direction or toward an obvious target such as a population center, destroying anything in its path, yourself and your allies included.",
 			"",
-			"Any creature may attempt to control the called Spawn of Rovagug via spells like dominate monster or binding. However, if such an attempt fails, it draws the spawn's attention, and the monster immediately tries to destroy the creature that attempted to control it. Because the Spawn of Rovagug are all magical beasts native to the Material Plane, spells such as banishment or dismissal have no effect on the called spawn.",
+			"Any creature may attempt to control the called Spawn of Rovagug via spells like dominate monster or binding. However, if such an attempt fails, it draws the spawn's attention, and the monster immediately tries to destroy the creature that attempted to control it. Because the Spawn of Rovagug are all magical beasts native to the Material Plane, spells such as {spell/banishment} or {spell/dismissal} have no effect on the called spawn.",
 			"",
 			"### Mythic Spawn Calling",
 			"",
@@ -3979,7 +3979,7 @@
 			"**Target** you  ",
 			"**Duration** 1 round/level",
 			"",
-			"For the duration of the spell, you can fire three rays of steam once per round as a standard action (and you also fire three such rays as part of casting the spell). These rays function similarly to the rays from scorching ray (you can fire them at close range, they're ranged touch attacks, they deal 4d6 points of fire damage each, and spell resistance negates them) except that they work both underwater and above water without a caster level check for being a fire spell."
+			"For the duration of the spell, you can fire three rays of steam once per round as a standard action (and you also fire three such rays as part of casting the spell). These rays function similarly to the rays from {spell/scorching ray} (you can fire them at close range, they're ranged touch attacks, they deal 4d6 points of fire damage each, and spell resistance negates them) except that they work both underwater and above water without a caster level check for being a fire spell."
 		]
 	},
 	"stench_of_prey": {

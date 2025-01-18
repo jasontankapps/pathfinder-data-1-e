@@ -229,7 +229,7 @@
 			"",
 			"**Emotional Conduit (Feat):** 1st-charm person, 2nd-blessing of courage and life, 3rd-good hope, 4th-mass charm person, 5th-waves of ecstasy, 6th-sympathy.",
 			"",
-			"**Fractured Mind (Archetype):** Bless (5th), calm emotions (7th), heroism (9th), good hope (16th).",
+			"**Fractured Mind (Archetype):** {spell/Bless} (5th), {spell/calm emotions} (7th), {spell/heroism} (9th), {spell/good hope} (16th).",
 			"",
 			"**Spirit-Bound Blade (Spell):** The weapon also gains the allying special ability."
 		]
@@ -311,7 +311,7 @@
 			"",
 			"**Emotional Conduit (Feat):** 1st-inflict light wounds, 2nd-disfiguring touch, 3rd-howling agony, 4th-debilitating portent, 5th-nightmare, 6th-harm.",
 			"",
-			"**Fractured Mind (Archetype):** Doom (5th), inflict pain (7th), stricken heart (9th), mind fog (16th).",
+			"**Fractured Mind (Archetype):** {spell/Doom} (5th), {spell/inflict pain} (7th), {spell/stricken heart} (9th), {spell/mind fog} (16th).",
 			"",
 			"**Spirit-Bound Blade (Spell):** The weapon also gains the heartseeker special ability."
 		]

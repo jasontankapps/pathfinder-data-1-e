@@ -14,7 +14,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes",
 			"",
-			"A touched creature becomes invisible (as per invisibility) as long as it is in direct sunlight (or bright light shed by a daylight spell). If an action the target creature takes causes the invisible creature to become visible but does not end the sunstalker spell's duration, the creature can use this spell's magic to become invisible again as a standard action as long as it stands in an area of sunlight (as defined above). The creature gains only concealment (20% miss chance) in normal light."
+			"A touched creature becomes invisible (as per invisibility) as long as it is in direct sunlight (or bright light shed by a {spell/daylight} spell). If an action the target creature takes causes the invisible creature to become visible but does not end the sunstalker spell's duration, the creature can use this spell's magic to become invisible again as a standard action as long as it stands in an area of sunlight (as defined above). The creature gains only concealment (20% miss chance) in normal light."
 		]
 	},
 	"suppress_charms_and_compulsions": {
@@ -1660,7 +1660,7 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell creates an invisible psychic interference that inhibits telepathic communication. When cast upon a creature that can communicate via telepathy, this spell prevents that ability's use: either to receive or project thoughts. When cast upon a creature without telepathy, the spell merely prevents the target from receiving telepathic communication. Those affected by this spell or that attempt to telepathically communicate with creatures under its effects are not innately aware that their communication is being inhibited. This spell temporarily disrupts spells and effects like telepathic bond or telepathic messages sent by a helm of telepathy, but not attacks and effects unrelated to communication like detect thoughts or a neothelid's psychic crush."
+			"This spell creates an invisible psychic interference that inhibits telepathic communication. When cast upon a creature that can communicate via telepathy, this spell prevents that ability's use: either to receive or project thoughts. When cast upon a creature without telepathy, the spell merely prevents the target from receiving telepathic communication. Those affected by this spell or that attempt to telepathically communicate with creatures under its effects are not innately aware that their communication is being inhibited. This spell temporarily disrupts spells and effects like {spell/telepathic bond} or telepathic messages sent by a {magic-wondrous/helm of telepathy}, but not attacks and effects unrelated to communication like {spell/detect thoughts} or a {monster/neothelid/'s} psychic crush."
 		]
 	},
 	"telepathic_silence": {
@@ -1991,7 +1991,7 @@
 			"",
 			"With a gentle caress, you infuse the creature touched with a blight of energy from the Abyss that feeds upon goodness and transforms flesh into monstrous deformity. The target can resist a teratoid caress with a successful Fortitude save, but even on a successful save, the target becomes sickened for 1 round by the vile energies.",
 			"",
-			"If the target fails the save, his body becomes infected with Abyssal energy and a small portion of his body distorts and grows hideous, inflicting 2 points of Dexterity damage or 2 points of Charisma damage (50% chance of either effect). This deformity is always unsightly and offensive. Thereafter, the victim suffers a -1 penalty on all saving throws against evil effects. Worse, whenever the victim casts a good spell, channels positive energy, or offers a prayer to a good-aligned deity, the Abyssal energies seethe inside him, forcing a new Fortitude save to resist suffering an additional 1 point of Dexterity or Charisma damage. A good-aligned divine spellcaster who suffers from this curse suffers a -4 penalty on all concentration checks. This is a curse effect, but the effect can also be instantly removed with a dispel evil or atonement spell."
+			"If the target fails the save, his body becomes infected with Abyssal energy and a small portion of his body distorts and grows hideous, inflicting 2 points of Dexterity damage or 2 points of Charisma damage (50% chance of either effect). This deformity is always unsightly and offensive. Thereafter, the victim suffers a -1 penalty on all saving throws against evil effects. Worse, whenever the victim casts a good spell, channels positive energy, or offers a prayer to a good-aligned deity, the Abyssal energies seethe inside him, forcing a new Fortitude save to resist suffering an additional 1 point of Dexterity or Charisma damage. A good-aligned divine spellcaster who suffers from this curse suffers a -4 penalty on all concentration checks. This is a curse effect, but the effect can also be instantly removed with a {spell/dispel evil} or {spell/atonement} spell."
 		]
 	},
 	"terraform": {
@@ -2091,7 +2091,7 @@
 			"**Duration** 10 min./level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** no",
 			"",
-			"This spell functions as magic circle against chaos, evil, good, or law, but rather than stipulating an alignment descriptor, you can designate any one non-alignment subtype of outsider, including air, earth, fire, and water, as well as outsider races such as angels and devils."
+			"This spell functions as {spell/magic circle against chaos}, evil, good, or law, but rather than stipulating an alignment descriptor, you can designate any one non-alignment subtype of outsider, including air, earth, fire, and water, as well as outsider races such as angels and devils."
 		]
 	},
 	"theft_ward": {
@@ -2848,7 +2848,7 @@
 			"**Duration** 1 day/caster level and instantaneous (see text)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell works like animate dead except you set a specific condition for when the animation occurs and you do not immediately have control of the creatures. The condition can be simple, such as being touched, a certain word spoken, or on hearing a specific sound. You can also set a condition based on time, but it must occur within a number of days equal to your caster level. At any time, you can cause the animation to occur as a standard action.",
+			"This spell works like {spell/animate dead} except you set a specific condition for when the animation occurs and you do not immediately have control of the creatures. The condition can be simple, such as being touched, a certain word spoken, or on hearing a specific sound. You can also set a condition based on time, but it must occur within a number of days equal to your caster level. At any time, you can cause the animation to occur as a standard action.",
 			"",
 			"You can gain control of any uncontrolled undead you created with this spell as a free action if you are within at least 60 feet of the undead creature and have line of sight to it; if you have control of an undead you created with this spell and later lose control of that undead, you can't use this ability to regain control of the same undead. The limit on the number of Hit Dice you can control with animate dead still applies."
 		]
@@ -3793,7 +3793,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like arcane eye, except as noted above. Upon casting this spell, you fall asleep for its duration, creating an invisible magic sensor (called a dreamscryer) that is the exact size and shape of your body, is recognizable as you, and cannot pass through spaces that your body cannot enter. Unlike the invisible sensor created by arcane eye, children of any race (no older than the human equivalent of 10) and animals can see your dreamscryer. Sleeping creatures can sense its presence and might incorporate your image into their dreams. Force effects and abjuration spells that ward out creatures (such as magic circle against evil) are effective barriers against a dreamscryer (regardless of your creature type, alignment, or other specifics). If you dismiss the spell or the dreamscryer is dispelled or destroyed, you awaken."
+			"This spell functions like arcane eye, except as noted above. Upon casting this spell, you fall asleep for its duration, creating an invisible magic sensor (called a dreamscryer) that is the exact size and shape of your body, is recognizable as you, and cannot pass through spaces that your body cannot enter. Unlike the invisible sensor created by arcane eye, children of any race (no older than the human equivalent of 10) and animals can see your dreamscryer. Sleeping creatures can sense its presence and might incorporate your image into their dreams. Force effects and abjuration spells that ward out creatures (such as {spell/magic circle against evil}) are effective barriers against a dreamscryer (regardless of your creature type, alignment, or other specifics). If you dismiss the spell or the dreamscryer is dispelled or destroyed, you awaken."
 		]
 	},
 	"treasure_stitching": {

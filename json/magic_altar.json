@@ -22,7 +22,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/hallow}, {spell/summon monster I}, creator must worship Pharasma; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hallow}, {spell/summon monster I}, creator must worship {faith/Pharasma}; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_cayden_cailean": {
@@ -39,7 +39,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against evil}, {spell/magic circle against law}, {spell/neutralize poison}, {spell/remove fear}, creator must worship Cayden Cailean; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against evil}, {spell/magic circle against law}, {spell/neutralize poison}, {spell/remove fear}, creator must worship {faith/Cayden Cailean}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_gorum": {
@@ -56,7 +56,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against law}, masterwork transformation, {spell/remove fear}, creator must worship Gorum; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against law}, {spell/masterwork transformation}, {spell/remove fear}, creator must worship {faith/Gorum}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_gozreh": {
@@ -73,7 +73,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}, {spell/control winds}, {spell/guidance}, [magic circle against chaos/evil/good/law](spell/magic_circle_against_evil) (as appropriate), creator must worship Gozreh; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}, {spell/control winds}, {spell/guidance}, [magic circle against chaos/evil/good/law](spell/magic_circle_against_evil) (as appropriate), creator must worship {faith/Gozreh}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_iomedae": {
@@ -90,7 +90,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bless}, {spell/magic circle against chaos}, {spell/magic circle against evil}, creator must worship Iomedae; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bless}, {spell/magic circle against chaos}, {spell/magic circle against evil}, creator must worship {faith/Iomedae}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_irori": {
@@ -107,7 +107,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, creator must worship Irori; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, creator must worship {faith/Irori}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_nethys": {
@@ -124,7 +124,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Heighten Spell, {spell/guidance}, [magic circle against chaos/evil/good/law](spell/magic_circle_against_evil) (as appropriate), creator must worship Nethys; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Heighten Spell, {spell/guidance}, [magic circle against chaos/evil/good/law](spell/magic_circle_against_evil) (as appropriate), creator must worship {faith/Nethys}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_sarenrae": {
@@ -141,7 +141,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/magic circle against evil}, {spell/resistance}, creator must worship Sarenrae; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/magic circle against evil}, {spell/resistance}, creator must worship {faith/Sarenrae}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_shelyn": {
@@ -158,7 +158,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against evil}, {spell/resistance}, creator must worship Shelyn; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against evil}, {spell/resistance}, creator must worship {faith/Shelyn}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_urgathoa": {
@@ -175,7 +175,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/death ward}, {spell/false life}, {spell/magic circle against good}, creator must worship Urgathoa; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/death ward}, {spell/false life}, {spell/magic circle against good}, creator must worship {faith/Urgathoa}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_zon_kuthon": {
@@ -192,7 +192,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against chaos}, {spell/magic circle against good}, {spell/rage}, creator must worship Zon-Kuthon; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against chaos}, {spell/magic circle against good}, {spell/rage}, creator must worship {faith/Zon-Kuthon}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_abadar": {
@@ -209,7 +209,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, {spell/sanctuary}, creator must worship Abadar; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, {spell/sanctuary}, creator must worship {faith/Abadar}; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_desna": {
@@ -226,7 +226,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/freedom of movement}, {spell/longstrider}, {spell/magic circle against evil}, {spell/magic circle against law}, creator must worship Desna; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/freedom of movement}, {spell/longstrider}, {spell/magic circle against evil}, {spell/magic circle against law}, creator must worship {faith/Desna}; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_erastil": {
@@ -243,7 +243,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/abundant ammunition}, {spell/cure light wounds}, {spell/detect animals or plants}, {spell/magic circle against chaos}, {spell/magic circle against evil}, {spell/summon monster I}, creator must worship Erastil; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/abundant ammunition}, {spell/cure light wounds}, {spell/detect animals or plants}, {spell/magic circle against chaos}, {spell/magic circle against evil}, {spell/summon monster I}, creator must worship {faith/Erastil}; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_lamashtu": {
@@ -260,7 +260,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against good}, {spell/magic circle against law}, {spell/magic fang}, creator must worship Lamashtu; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against good}, {spell/magic circle against law}, {spell/magic fang}, creator must worship {faith/Lamashtu}; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_norgorber": {
@@ -277,7 +277,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/false alibi}, {spell/magic circle against good}, creator must worship Norgorber; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/false alibi}, {spell/magic circle against good}, creator must worship {faith/Norgorber}; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_rovagug": {
@@ -294,7 +294,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/keen edge}, {spell/magic circle against good}, {spell/magic circle against law}, creator must worship Rovagug; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/keen edge}, {spell/magic circle against good}, {spell/magic circle against law}, creator must worship {faith/Rovagug}; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_the_dawnflower": {
@@ -313,7 +313,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/eagle's splendor}, {spell/magic circle against evil}, creator must worship Sarenrae; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/eagle's splendor}, {spell/magic circle against evil}, creator must worship {faith/Sarenrae}; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_torag": {
@@ -330,7 +330,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, {spell/magic circle against evil}, {spell/magic vestment}, creator must worship Torag; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, {spell/magic circle against evil}, {spell/magic vestment}, creator must worship {faith/Torag}; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_zursvaater": {
@@ -347,7 +347,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, {spell/magic circle against good}, {spell/resist energy}, creator must worship Zursvaater; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, {spell/magic circle against good}, {spell/resist energy}, creator must worship {faith/Zursvaater}; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_asmodeus": {
@@ -364,7 +364,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/hold person}, {spell/magic circle against chaos}, {spell/magic circle against good}, creator must worship Asmodeus; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/hold person}, {spell/magic circle against chaos}, {spell/magic circle against good}, creator must worship {faith/Asmodeus}; **Cost** 8,000 gp"
 		]
 	},
 	"altar_of_calistria": {
@@ -381,7 +381,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}, {spell/magic circle against law}, creator must worship Calistria; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}, {spell/magic circle against law}, creator must worship {faith/Calistria}; **Cost** 8,000 gp"
 		]
 	}
 }

@@ -413,7 +413,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Eschew Materials, creator must have 3 ranks in Knowledge (arcana) and Spellcraft; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Eschew Materials}, creator must have 3 ranks in Knowledge (arcana) and Spellcraft; **Cost** 2,500 gp"
 		]
 	},
 	"infernal_cord": {
@@ -516,7 +516,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, detect animals and plants, creator must have 1 rank in Survival; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect animals or plants}, creator must have 1 rank in Survival; **Cost** 3,000 gp"
 		]
 	},
 	"khangarad_scabbard": {
@@ -2027,7 +2027,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Heighten Spell, {spell/resist energy}, {spell/lightning bolt}; **Cost** 5,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Heighten Spell}, {spell/resist energy}, {spell/lightning bolt}; **Cost** 5,500 gp"
 		]
 	},
 	"voidfrost_robe": {
@@ -2518,7 +2518,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Maximize Spell}, {spell/gate}, summon eidolon; **Cost** 32,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Maximize Spell}, {spell/gate}, {spell/summon eidolon}; **Cost** 32,000 gp"
 		]
 	},
 	"otherworldly_kimono": {
@@ -2559,7 +2559,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, recorporeal incarnation; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/recorporeal incarnation}; **Cost** 35,000 gp"
 		]
 	},
 	"bodywrap_of_mighty_strikes_5": {
@@ -2868,7 +2868,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, summon instrument; **Cost** 900 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon instrument}; **Cost** 900 gp"
 		]
 	},
 	"corset_of_delicate_moves": {
@@ -3029,7 +3029,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, amplify elixir; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/amplify elixir}; **Cost** 2,500 gp"
 		]
 	},
 	"tunic_of_careful_casting": {
@@ -3274,7 +3274,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, overloo, creator must be a halfling; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/overlook}, creator must be a halfling; **Cost** 4,000 gp"
 		]
 	},
 	"shirt_of_inconspicuousness": {
@@ -3340,7 +3340,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic missile}, creator must worship Calistria; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic missile}, creator must worship {faith/Calistria}; **Cost** 4,500 gp"
 		]
 	},
 	"bane_baldric": {
@@ -3834,7 +3834,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, minor globe of invulnerability; **Cost** 375 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/lesser globe of invulnerability}; **Cost** 375 gp"
 		]
 	},
 	"antiquarians_monocle": {
@@ -4199,7 +4199,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, share senses; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/share senses}; **Cost** 3,750 gp"
 		]
 	},
 	"lenses_of_the_predators_gaze": {
@@ -4529,7 +4529,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, countless eyes; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/countless eyes}; **Cost** 7,500 gp"
 		]
 	},
 	"eyes_of_the_damned": {
@@ -4565,7 +4565,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, analyze aura; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/analyze aura}; **Cost** 7,500 gp"
 		]
 	},
 	"soulsight_goggles": {
@@ -4793,7 +4793,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, eyebite; **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/eyebite}; **Cost** 15,000 gp"
 		]
 	},
 	"eye_of_the_cyclops": {
@@ -4918,7 +4918,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blindness, locate weakness; **Cost** 40,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blindness>_deafness}, {spell/locate weakness}; **Cost** 40,000 gp"
 		]
 	},
 	"mindmasters_eyes": {

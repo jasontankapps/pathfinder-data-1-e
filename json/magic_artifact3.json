@@ -393,7 +393,7 @@
 			"",
 			"The void crystal is attuned to the creature that wears its control ring, which is inherently linked to the ring at the center of the crystal. As a move action, a creature wearing the ring can trigger the crystal to discharge negative energy. This discharge fills the chamber, and deals 150 points of negative energy damage (Will DC 20 half). Undead creatures in the area of the discharge are healed of 150 points of damage. The reservoirs in the Dim Gate usually contain enough energy to power this discharge three times per week.",
 			"",
-			"Also, a creature in control of the void crystal can use its necromantic energy to raise any creature killed by the discharge as an undead creature as if using animate dead, create undead, or create greater undead. The creature in control of the void crystal can control up to 30 HD of undead created in this manner.",
+			"Also, a creature in control of the void crystal can use its necromantic energy to raise any creature killed by the discharge as an undead creature as if using {spell/animate dead}, {spell/create undead}, or {spell/create greater undead}. The creature in control of the void crystal can control up to 30 HD of undead created in this manner.",
 			"",
 			"Finally, a creature in control of the void crystal can use {spell/dimension door} at will to travel to the collection chamber or the Dim Gate's control room.",
 			"",
@@ -806,7 +806,7 @@
 			"**Aura** strong necromancy; **CL** 16th  ",
 			"**Slot** none; **Price** -; **Weight** 8 lbs.",
 			"",
-			"This +5 ghost touch vicious falchion has a misty, ethereal quality that makes it appear to be spectral in nature despite being perfectly tangible to the touch. Anytime Ungarato's wielder takes damage from the weapon's vicious special ability he adds an amount equal to that damage to his next attack roll. Ungarato faintly glows a sickly, unsettling green anytime there is an undead creature within 50 feet of the wielder. Whenever the falchion strikes a foe, the target must succeed at a DC 20 Fortitude save or take an additional 1d6 points of damage, which the sword's wielder gains as bonus hit points that last for the next hour. If the sword scores a critical hit, the target must succeed at a DC 25 Fortitude save or be slain outright, with half of its remaining hit points passing to the sword's wielder as bonus hit points. Any creature slain by Ungarato - either as the effect of a critical hit or otherwise - reanimates as a {template/juju zombie} 1d4 rounds later under the control of the sword wielder. The sword can control up to 32 HD worth of juju zombies in this way. If this amount is exceeded, undead are released from control as per animate dead.",
+			"This +5 ghost touch vicious falchion has a misty, ethereal quality that makes it appear to be spectral in nature despite being perfectly tangible to the touch. Anytime Ungarato's wielder takes damage from the weapon's vicious special ability he adds an amount equal to that damage to his next attack roll. Ungarato faintly glows a sickly, unsettling green anytime there is an undead creature within 50 feet of the wielder. Whenever the falchion strikes a foe, the target must succeed at a DC 20 Fortitude save or take an additional 1d6 points of damage, which the sword's wielder gains as bonus hit points that last for the next hour. If the sword scores a critical hit, the target must succeed at a DC 25 Fortitude save or be slain outright, with half of its remaining hit points passing to the sword's wielder as bonus hit points. Any creature slain by Ungarato - either as the effect of a critical hit or otherwise - reanimates as a {template/juju zombie} 1d4 rounds later under the control of the sword wielder. The sword can control up to 32 HD worth of juju zombies in this way. If this amount is exceeded, undead are released from control as per {spell/animate dead}.",
 			"",
 			"**Dormancy** The Alara-hai were crafted to serve the runelords of Thassilon. In modern times, however, these runelords lie dead or dormant. With no lords to serve, the weapons of their champions lie dormant as well, reducing each to a +2 weapon with the noted weapon special abilities but no other properties. The only way to awaken one of the blades is to restore its runelord master to active life or have some other legitimate ruler take up its master's mantle (the weapon determines what is considered legitimate). The swords can detect such restorations and flare to full power immediately, demanding their wielder seek out the restored runelord and swear eternal fealty.",
 			"",
@@ -820,7 +820,7 @@
 			"**Senses** 30 ft. (vision and hearing)  ",
 			"**Int** 18, Wis 10, Cha 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
-			"**Powers** If the sword is active (see Dormancy above), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
+			"**Powers** If the sword is active (see Dormancy above), it can cast {spell/create food and water}, {spell/endure elements}, and {spell/cure serious wounds} 3 times per day."
 		]
 	},
 	"sword_of_greed_chellan": {
@@ -853,7 +853,7 @@
 			"**Senses** 30 ft., sight and hearing  ",
 			"**Int** 18, Wis 10, Cha 10  ",
 			"**Communication** telepathy (Common, Thassilonian)  ",
-			"**Powers** 3/day - create food and water, cure serious wounds, endure elements"
+			"**Powers** 3/day - {spell/create food and water}, {spell/cure serious wounds}, {spell/endure elements}"
 		]
 	},
 	"sword_of_lust_asheia": {
@@ -883,7 +883,7 @@
 			"**Senses** 30 ft. (vision and hearing)  ",
 			"**Int** 18, Wis 10, Cha 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
-			"**Powers** If the sword is active (see Dormancy above), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
+			"**Powers** If the sword is active (see Dormancy above), it can cast {spell/create food and water}, {spell/endure elements}, and {spell/cure serious wounds} 3 times per day."
 		]
 	},
 	"sword_of_pride_baraket": {
@@ -942,7 +942,7 @@
 			"**Senses** 30 ft. (vision and hearing)  ",
 			"**Int** 18, Wis 10, Cha 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
-			"**Powers** If the sword is active (see Dormancy above), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
+			"**Powers** If the sword is active (see Dormancy above), it can cast {spell/create food and water}, endure elements, and cure serious wounds 3 times per day."
 		]
 	},
 	"sword_of_valor": {
@@ -986,7 +986,7 @@
 			"**Senses** 30 ft. (vision and hearing)  ",
 			"**Int** 18, Wis 10, Cha 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
-			"**Powers** If the sword is active (see Dormancy above), it can cast create food and water, endure elements, and cure serious wounds 3 times per day."
+			"**Powers** If the sword is active (see Dormancy above), it can cast {spell/create food and water}, {spell/endure elements}, and {spell/cure serious wounds} 3 times per day."
 		]
 	},
 	"synchrony_device": {
@@ -1281,7 +1281,7 @@
 			"",
 			"The Black Book corrupts its reader's mind and heart. Every day the GM should make a secret Will save for the bearer; the DC starts at 10 but increases by +1 for every consecutive successful save the bearer makes. Every failed save shifts the bearer's alignment one step toward chaotic evil.",
 			"",
-			"Rebinding the Gluttonous Tome: If two or more portions of the Gluttonous Tome are brought within 10 feet of each other, they surge together, tearing free from anyone holding them and bathing a 30-foot radius spread with ghoulish green light. This light causes all living creatures within it to become nauseated for 1d6 rounds (no save). The sections mesh and meld, flesh knitting with flesh and bones grinding together. If two or more individuals control a portion of the tome when they fuse together, the one with the highest total character level gains control (determined randomly if there is a tie). Two fused sections grant the bearer the effects of both parts and the following spell-like abilities at a caster level equal to the bearer's HD: At will-{spell/detect undead}, gentle repose 3/day-empowered ray of enfeeblement, false life 1/day-bestow curse",
+			"Rebinding the Gluttonous Tome: If two or more portions of the Gluttonous Tome are brought within 10 feet of each other, they surge together, tearing free from anyone holding them and bathing a 30-foot radius spread with ghoulish green light. This light causes all living creatures within it to become nauseated for 1d6 rounds (no save). The sections mesh and meld, flesh knitting with flesh and bones grinding together. If two or more individuals control a portion of the tome when they fuse together, the one with the highest total character level gains control (determined randomly if there is a tie). Two fused sections grant the bearer the effects of both parts and the following spell-like abilities at a caster level equal to the bearer's HD: At will-{spell/detect undead}, {spell/gentle repose} 3/day-{feat/empower/ed>_spell} {spell/ray of enfeeblement}, {spell/false life} 1/day-{spell/bestow curse}",
 			"",
 			"If all three parts of the Gluttonous Tome are brought together, their bearer is granted the benefits noted above as well as the following: 3/day-maximized vampiric touch, create undead 1/day-create greater undead, waves of exhaustion",
 			"",
@@ -1333,11 +1333,11 @@
 			"",
 			"The jewel also has several additional powers, all of which the bearer knows how to use the moment she touches the artifact.",
 			"",
-			"- Clairaudience/Clairvoyance: At will, the bearer of the jewel of everlasting gold can hear and see what transpires in any part of Xin-Grafar simply by concentrating on the jewel. This power functions similar to the {spell/clairaudience//clairvoyance} spell but can be used to spy on any location within the city's confines.",
-			"- Continual Flame: At will, the bearer of the jewel of everlasting gold can cause the artifact to burst into harmless flame, as per the continual flame spell.",
-			"- Touch of Gold: Once per day, the bearer of the jewel of everlasting gold can touch the artifact to a single inanimate object weighing no more than 1,000 pounds and transmute that object into pure gold. The object retains its basic shape and appearance, but it is now composed of solid gold.",
-			"- Elemental Transformation: Once per week, the bearer of the jewel of everlasting gold can transform himself into a Huge fire elemental, as per the {spell/elemental body IV} spell. The transformation lasts as long as the bearer likes, but she cannot leave the confines of Xin-Grafar while in elemental form. This ability allows the jewel's bearer to survive the molten-gold floods.",
-			"- Summon Wealth: Once per month, the jewel of everlasting gold can summon vast sums of wealth from the Elemental Plane of Earth, in whatever form the bearer wishes. This ability can only create mundane sources of wealth, such as art objects, coins, gems, or even rivers of molten gold - it cannot be used to create items with magical properties.",
+			"- *Clairaudience/Clairvoyance:* At will, the bearer of the jewel of everlasting gold can hear and see what transpires in any part of Xin-Grafar simply by concentrating on the jewel. This power functions similar to the {spell/clairaudience//clairvoyance} spell but can be used to spy on any location within the city's confines.",
+			"- *Continual Flame:* At will, the bearer of the jewel of everlasting gold can cause the artifact to burst into harmless flame, as per the {spell/continual flame} spell.",
+			"- *Touch of Gold:* Once per day, the bearer of the jewel of everlasting gold can touch the artifact to a single inanimate object weighing no more than 1,000 pounds and transmute that object into pure gold. The object retains its basic shape and appearance, but it is now composed of solid gold.",
+			"- *Elemental Transformation:* Once per week, the bearer of the jewel of everlasting gold can transform himself into a Huge fire elemental, as per the {spell/elemental body IV} spell. The transformation lasts as long as the bearer likes, but she cannot leave the confines of Xin-Grafar while in elemental form. This ability allows the jewel's bearer to survive the molten-gold floods.",
+			"- *Summon Wealth:* Once per month, the jewel of everlasting gold can summon vast sums of wealth from the Elemental Plane of Earth, in whatever form the bearer wishes. This ability can only create mundane sources of wealth, such as art objects, coins, gems, or even rivers of molten gold - it cannot be used to create items with magical properties.",
 			"",
 			"Because the jewel of everlasting gold contains a portion of Tar-Baphon's malign will, any wealth created with its touch of gold ability or summoned with its summon wealth ability cannot be removed from Xin-Grafar except by Tar-Baphon himself. Like the jewel itself, any such treasure taken outside of Xin-Grafar disappears and reappears scattered throughout the city.",
 			"",
@@ -1535,7 +1535,7 @@
 			"",
 			"- At will, the wielder can use a standard action to manipulate the aura to emulate the effects of either sanctuary or protection against chaos. These effects include all willing creatures within the aura of dominion. If the wielder activates the sanctuary effect (DC 15), all allies within the aura are subject to the usual terms of the spell. If any allies break the spell's terms, the effect immediately ends for everyone affected.",
 			"- Three times per day as a standard action, the wielder can manipulate the aura to block any extradimensional travel within the aura of dominion. The area within the aura is treated as if under the effects of dimensional lock.",
-			"- Once per day as a standard action, the wielder can manipulate the aura to force extraplanar creatures entering the aura of dominion to return to their home planes immediately, as if targeted by a banishment spell. Up to 40 Hit Dice of creatures can be affected by this effect, and creatures subject to this effect can resist with a successful DC 21 Will save.",
+			"- Once per day as a standard action, the wielder can manipulate the aura to force extraplanar creatures entering the aura of dominion to return to their home planes immediately, as if targeted by a {spell/banishment} spell. Up to 40 Hit Dice of creatures can be affected by this effect, and creatures subject to this effect can resist with a successful DC 21 Will save.",
 			"- Lastly, once per day as a standard action, the wielder can alter time within the aura of dominion. The wielder can use time stop and include a number of people in the effect equal to 1 + the user's Charisma modifier (minimum 1). Unwilling creatures can resist this effect with a successful DC 23 Will save. Those affected by the time stop can interact with each other as normal, and individuals are not restricted from leaving the aura of dominion while the effect is in place.",
 			"",
 			"### Destruction",

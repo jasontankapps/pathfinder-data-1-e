@@ -1686,6 +1686,10 @@
 		"name": "Saddle (exotic, riding)",
 		"copyof": "saddle_exotic_military"
 	},
+	"military_saddle": {
+		"name": "Saddle (military)",
+		"copyof": "saddle_exotic_military"
+	},
 	"saddle_military": {
 		"name": "Saddle (military)",
 		"copyof": "saddle_exotic_military"
@@ -4984,6 +4988,10 @@
 			"",
 			"**Masterwork Thieves' Tools:** This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks."
 		]
+	},
+	"thieves_tools": {
+		"name": "Thieves' tools",
+		"copyof": "thieves_tools_common"
 	},
 	"thieves_tools_masterwork": {
 		"name": "Thieves' tools (masterwork)",

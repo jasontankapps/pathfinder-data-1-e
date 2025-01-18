@@ -1431,6 +1431,10 @@
 			"**Weaponrack Backpack:** This leather backpack includes a small weapons rack. The rack holds up to four weapons, such as battleaxes, longswords, maces, or short swords. Allies adjacent to you can retrieve a weapon from the rack as a move action without provoking attacks of opportunity, as if they were simply drawing a weapon. Like a normal backpack, it can hold 2 cubic feet of material in its main compartment."
 		]
 	},
+	"backpack": {
+		"name": "Backpack",
+		"copyof": "backpack_common"
+	},
 	"backpack_carrier": {
 		"name": "Backpack (carrier)",
 		"copyof": "backpack_common"

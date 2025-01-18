@@ -350,7 +350,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, locate weakness, {spell/true strike}; **Cost** 2,625 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/locate weakness}, {spell/true strike}; **Cost** 2,625 gp"
 		]
 	},
 	"tankard_of_the_drunken_hero": {
@@ -850,7 +850,7 @@
 			"",
 			"; **CL** 11th; {feat/Craft Wondrous Item}, {spell/animate objects}.",
 			"",
-			"**Obsidian Steed:** This figurine appears to be a small, shapeless lump of black stone. Only careful inspection reveals that it vaguely resembles some form of quadruped. On command, the near-formless piece of obsidian becomes a fantastic mount. Treat it as a heavy horse with the following additional powers usable once per round at will: overland flight, plane shift, and ethereal jaunt. The steed allows itself to be ridden, but if the rider is of good alignment, the steed is 10% likely per use to carry him to the lower planes and then return to its statuette form. The statuette can be used once per week for one continuous period of up to 24 hours. Note that when an obsidian steed becomes ethereal or plane shifts, its rider and his gear follow suit. Thus, the user can travel to other planes via this means.; **CL** 15th; {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/etherealness}, {spell/fly}, {spell/plane shift}.",
+			"**Obsidian Steed:** This figurine appears to be a small, shapeless lump of black stone. Only careful inspection reveals that it vaguely resembles some form of quadruped. On command, the near-formless piece of obsidian becomes a fantastic mount. Treat it as a heavy horse with the following additional powers usable once per round at will: {spell/overland flight}, plane shift, and {spell/ethereal jaunt}. The steed allows itself to be ridden, but if the rider is of good alignment, the steed is 10% likely per use to carry him to the lower planes and then return to its statuette form. The statuette can be used once per week for one continuous period of up to 24 hours. Note that when an obsidian steed becomes ethereal or plane shifts, its rider and his gear follow suit. Thus, the user can travel to other planes via this means.; **CL** 15th; {feat/Craft Wondrous Item}, {spell/animate objects}, {spell/etherealness}, {spell/fly}, {spell/plane shift}.",
 			"",
 			"**Basalt Dragon:** This fist-sized, carved dragon is sculpted from volcanic rock. It becomes either a pseudodragon or a flame drake, depending on the command word used. The transformation can take place twice per day, with a maximum duration of 2 continuous hours. The pseudodragon can use its telepathy to communicate with its owner over any distance, but not across planes.",
 			"",
@@ -1150,7 +1150,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/remove disease}, {spell/resistance}, creator must worship Cayden Cailean; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/remove disease}, {spell/resistance}, creator must worship {faith/Cayden Cailean}; **Cost** 3,000 gp"
 		]
 	},
 	"pentacle_token": {
@@ -1169,7 +1169,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, refuge, creator must be a cleric of Asmodeus; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/refuge}, creator must be a cleric of Asmodeus; **Cost** 3,750 gp"
 		]
 	},
 	"pipes_of_haunting": {
@@ -1341,7 +1341,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, share memory, creator must be a witch; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/share memory}, creator must be a witch; **Cost** 3,000 gp"
 		]
 	},
 	"symbol_of_luck": {
@@ -1678,7 +1678,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bless}, {spell/augury}, must worship Baphomet; **Cost** 3,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bless}, {spell/augury}, must worship {faith/Baphomet}; **Cost** 3,250 gp"
 		]
 	},
 	"foresight_quill": {
@@ -1716,7 +1716,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, blinding; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/binding}; **Cost** 3,500 gp"
 		]
 	},
 	"horn_of_goodness_evil": {
@@ -1966,7 +1966,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, temporary resurrection; **Cost** 3,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, {spell/temporary resurrection}; **Cost** 3,700 gp"
 		]
 	},
 	"bottle_of_shadows": {
@@ -2060,7 +2060,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/shrink item}, wall of iron; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shrink item}, {spell/wall of iron}; **Cost** 3,500 gp"
 		]
 	},
 	"mirror_of_guarding_reflections": {
@@ -2194,7 +2194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, grace; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/grace}; **Cost** 3,750 gp"
 		]
 	},
 	"binding_contract_chelaxian": {
@@ -2251,7 +2251,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Brew Potion}, {feat/Craft Wondrous Item}, Reach Spell, cauldron hex; **Cost** 3,750 gp"
+			"**Requirements** {feat/Brew Potion}, {feat/Craft Wondrous Item}, {feat/Reach Spell}, cauldron hex; **Cost** 3,750 gp"
 		]
 	},
 	"elven_still_elf": {
@@ -2481,7 +2481,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, permanent image; **Cost** 3,900 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/permanent image}; **Cost** 3,900 gp"
 		]
 	},
 	"scarab_of_khepri": {
@@ -2626,7 +2626,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Ectoplasmic Spell, {spell/detect undead}, creator must be an inquisitor; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Ectoplasmic Spell}, {spell/detect undead}, creator must be an inquisitor; **Cost** 4,000 gp"
 		]
 	},
 	"force_casket": {
@@ -2805,7 +2805,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, analyze aura, speak with haunt; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/analyze aura}, {spell/speak with haunt}; **Cost** 4,000 gp"
 		]
 	},
 	"restless_lockpicks": {
@@ -2881,7 +2881,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/control winds}, {spell/guidance}, {spell/magic circle against law}, {spell/stone shape}, creator must worship Gozreh; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control winds}, {spell/guidance}, {spell/magic circle against law}, {spell/stone shape}, creator must worship {faith/Gozreh}; **Cost** 4,000 gp"
 		]
 	},
 	"wayfinder_of_revelation": {
@@ -2972,7 +2972,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, rumormonger; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/rumormonger}; **Cost** 4,000 gp"
 		]
 	},
 	"deck_of_illusions": {
@@ -3379,7 +3379,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, unadulterated loathing; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/unadulterated loathing}; **Cost** 4,500 gp"
 		]
 	},
 	"mithral_rose": {
@@ -3413,7 +3413,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, arcane concordance; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/arcane concordance}; **Cost** 4,500 gp"
 		]
 	},
 	"pugwampi_braid": {
@@ -3593,7 +3593,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, paragon surge, creator must be a half-elf; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/paragon surge}, creator must be a half-elf; **Cost** 5,000 gp"
 		]
 	},
 	"anointed_holy_symbol": {
@@ -4058,7 +4058,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, sacred bond; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/sacred bond}; **Cost** 5,000 gp"
 		]
 	},
 	"prayer_wheel_of_ethical_strength": {

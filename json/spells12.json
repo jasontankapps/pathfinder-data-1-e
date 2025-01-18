@@ -235,7 +235,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"A banishment spell is a more powerful version of the dismissal spell. It enables you to force extraplanar creatures out of your home plane. As many as 2 Hit Dice of creatures per caster level can be banished.",
+			"A banishment spell is a more powerful version of the {spell/dismissal} spell. It enables you to force extraplanar creatures out of your home plane. As many as 2 Hit Dice of creatures per caster level can be banished.",
 			"",
 			"You can improve the spell's chance of success by presenting at least one object or substance that the target hates, fears, or otherwise opposes. For each such object or substance, you gain a +1 bonus on your caster level check to overcome the target's spell resistance (if any), and the saving throw DC increases by 2.",
 			"",
@@ -1272,7 +1272,7 @@
 			">",
 			">*Minimus Containment:* The subject is shrunk to a height of 1 inch or less and held within some gem, jar, or similar object. The binding is permanent. The subject does not need to breathe, eat, or drink while contained, nor does it age. Reduce the save DC by 4.",
 			"",
-			"You can't dispel a binding spell with dispel magic or a similar effect, though an antimagic field or mage's disjunction affects it normally. A bound extraplanar creature cannot be sent back to its home plane by dismissal, banishment, or a similar effect."
+			"You can't dispel a binding spell with dispel magic or a similar effect, though an antimagic field or mage's disjunction affects it normally. A bound extraplanar creature cannot be sent back to its home plane by {spell/dismissal}, {spell/banishment}, or a similar effect."
 		]
 	},
 	"binding_earth": {
@@ -1418,7 +1418,7 @@
 			"",
 			"{SOURCE Mythic Adventures/85}",
 			"",
-			"Any time the cursed creature travels on or in the water more than 1 mile from shore, each day it (or the vessel it's on) is attacked by one or more aquatic or water monsters, as if summoned by summon nature's ally VII (caster level 13th)."
+			"Any time the cursed creature travels on or in the water more than 1 mile from shore, each day it (or the vessel it's on) is attacked by one or more aquatic or water monsters, as if summoned by {spell/summon nature's ally VII} (caster level 13th)."
 		]
 	},
 	"black_spot": {
@@ -1646,7 +1646,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell infuses a weapon with pure sunlight (the weapon need not be a bladed weapon). A weapon enhanced by this spell sheds light as if daylight had been cast on it. It functions as a magic and good weapon for the purposes of overcoming damage reduction. The weapon grants a +2 sacred bonus on attack rolls against undead and deals +1d6 points of damage on a successful hit against such foes; against incorporeal undead, it functions as if it had the ghost touch weapon special ability. The weapon automatically confirms critical hits against foes that are vulnerable to sunlight."
+			"This spell infuses a weapon with pure sunlight (the weapon need not be a bladed weapon). A weapon enhanced by this spell sheds light as if {spell/daylight} had been cast on it. It functions as a magic and good weapon for the purposes of overcoming damage reduction. The weapon grants a +2 sacred bonus on attack rolls against undead and deals +1d6 points of damage on a successful hit against such foes; against incorporeal undead, it functions as if it had the ghost touch weapon special ability. The weapon automatically confirms critical hits against foes that are vulnerable to sunlight."
 		]
 	},
 	"blade_snare": {
@@ -1767,7 +1767,7 @@
 			"",
 			"*Killed:* Living creatures die. Undead creatures are destroyed. Save negates. If the save is successful, the creature instead takes 3d6 points of damage + 1 point per caster level (maximum +25).",
 			"",
-			"Furthermore, if you are on your home plane when you cast this spell, nonevil extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the blasphemy or not. The banishment effect allows a Will save (at a -4 penalty) to negate.",
+			"Furthermore, if you are on your home plane when you cast this spell, nonevil extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the blasphemy or not. The {spell/banishment} effect allows a Will save (at a -4 penalty) to negate.",
 			"",
 			"Creatures whose Hit Dice exceed your caster level are unaffected by blasphemy.",
 			"",
@@ -2026,10 +2026,10 @@
 		]
 	},
 	"bless_water": {
-		"name": "Bless Water",
+		"name": "{spell/Bless Water}",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Bless Water",
+			"## {spell/Bless Water}",
 			"",
 			"{SOURCE PRPG Core Rulebook/249}  ",
 			"**School** {spelldef/transmutation} [{spelldef/good}]; **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1  ",
@@ -3161,7 +3161,7 @@
 			"",
 			"This spell functions as contingency, except as noted above. This spell also only comes into effect after your death and works only with certain spells. The companion spell triggers 1d6 rounds after your death. All decisions made involving the companion spell must be made when deadman's contingency is cast (including messages and recipients for spells like magic mouth or sending). If the spell targets an object or appears in a certain location, it must target or be centered on your corpse.",
 			"",
-			"The following spells can be companion spells for deadman's contingency: animate dead (animating your corpse as an uncontrolled skeleton or zombie), disintegrate, fireball, gentle repose, magic mouth, major image (with a duration of 3 rounds), permanent image, sending, stinking cloud, and teleport object."
+			"The following spells can be companion spells for deadman's contingency: {spell/animate dead} (animating your corpse as an uncontrolled skeleton or zombie), {spell/disintegrate}, {spell/fireball}, {spell/gentle repose}, {spell/magic mouth}, {spell/major image} (with a duration of 3 rounds), {spell/permanent image}, {spell/sending}, {spell/stinking cloud}, and {spell/teleport object}."
 		]
 	},
 	"deadmans_contingency": {
@@ -3217,10 +3217,10 @@
 		]
 	},
 	"continual_flame": {
-		"name": "Continual Flame",
+		"name": "{spell/Continual Flame}",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Continual Flame",
+			"## {spell/Continual Flame}",
 			"",
 			"{SOURCE PRPG Core Rulebook/260}  ",
 			"**School** {spelldef/evocation} [{spelldef/light}]; **Level** adept 3, arcanist 2, cleric 3, inquisitor 3, occultist 2, oracle 3, psychic 3, sorcerer 2, warpriest 3, wizard 2  ",
@@ -3232,7 +3232,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A continual flame can be covered and hidden but not smothered or quenched.",
+			"A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A {spell/continual flame} can be covered and hidden but not smothered or quenched.",
 			"",
 			"Light spells counter and dispel darkness spells of an equal or lower level."
 		]
@@ -3605,7 +3605,7 @@
 			"",
 			"Second, a warded creature gains spell resistance 23 against spells cast by chaotic neutral, lawful neutral, neutral evil, and neutral good creatures, and spell resistance 27 against spells cast by neutral creatures with no other alignment components.",
 			"",
-			"Third, the spell protects warded creatures from possession and influence by such creatures (otherwise as protection from evil).",
+			"Third, the spell protects warded creatures from possession and influence by such creatures (otherwise as {spell/protection from evil}).",
 			"",
 			"Finally, if a chaotic neutral, lawful neutral, neutral evil, or neutral good creature successfully hits a warded creature with a melee attack, the attacker is sickened for 1d6 rounds (Fortitude negates). If a neutral creature successfully hits a warded creature with a melee attack, the attacker is instead nauseated for 1d6 rounds (Fortitude negates)."
 		]
@@ -3930,10 +3930,10 @@
 		]
 	},
 	"create_food_and_water": {
-		"name": "Create Food and Water",
+		"name": "{spell/Create Food and Water}",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Create Food and Water",
+			"## {spell/Create Food and Water}",
 			"",
 			"{SOURCE PRPG Core Rulebook/261}  ",
 			"**School** {spelldef/conjuration} ({spelldef/creation}); **Level** cleric 3, occultist 3, oracle 3, shaman 3, warpriest 3  ",
@@ -3944,7 +3944,7 @@
 			"**Duration** 24 hours; see text  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"The food that this spell creates is simple fare of your choice-highly nourishing, if rather bland. Food so created decays and becomes inedible after 24 hours, although it can be kept fresh for another 24 hours by casting a purify food and water spell on it. The water created by this spell is just like clean rain water, and it doesn't go bad as the food does."
+			"The food that this spell creates is simple fare of your choice-highly nourishing, if rather bland. Food so created decays and becomes inedible after 24 hours, although it can be kept fresh for another 24 hours by casting a {spell/purify food and drink} spell on it. The water created by this spell is just like clean rain water, and it doesn't go bad as the food does."
 		]
 	}
 }

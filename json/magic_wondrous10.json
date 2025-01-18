@@ -148,7 +148,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, arrow of law, {spell/detect chaos}, {spell/detect law}, dispel chaos; **Cost** 30,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/arrow of law}, {spell/detect chaos}, {spell/detect law}, {spell/dispel chaos}; **Cost** 30,000 gp"
 		]
 	},
 	"ribbon_of_the_three": {
@@ -165,7 +165,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, threefold face; **Cost** 30,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/threefold face}; **Cost** 30,000 gp"
 		]
 	},
 	"thunder_strap": {
@@ -385,7 +385,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, antilife shell, forbiddance; **Cost** 33,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/antilife shell}, {spell/forbiddance}; **Cost** 33,000 gp"
 		]
 	},
 	"twinned_cubes_of_force": {
@@ -439,7 +439,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, greater shout; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/greater shout}; **Cost** 35,000 gp"
 		]
 	},
 	"greater_horn_of_blasting": {
@@ -699,7 +699,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, dimensional lock; **Cost** 40,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dimensional lock}; **Cost** 40,000 gp"
 		]
 	},
 	"shadow_well": {
@@ -1308,7 +1308,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, antipathy, binding, geas/quest; **Cost** 80,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/antipathy}, {spell/binding}, {spell/geas//quest}; **Cost** 80,000 gp"
 		]
 	},
 	"chaos_cutter": {
@@ -1476,27 +1476,27 @@
 			"",
 			"When planted, a bastion banner also has a specific spell tied to the hallow effect, as well as an additional effect, both tied to the holy symbol it bears. When a bastion banner affects allies, the allies must worship the same deity as the one portrayed on the banner to benefit from the deity-specific spell and effect, and only as long as they are within 40 feet of the banner. Enemies must also be within 40 feet of the banner to be affected. The spells and effects associated with each deity are:",
 			"",
-			"Abadar: Protection from energy (type is set when banner is planted; renews daily); allies gain a +4 sacred bonus on checks to aid another.",
-			"",
-			"Asmodeus: Cause fear (affects enemies only), and the hallow effect is unhallow instead; allies gain a +2 morale bonus on combat maneuver checks.",
-			"",
-			"Cayden Cailean: Remove fear; whenever allies successfully resist a fear effect, they gain 10 temporary hit points for 1 hour.",
-			"",
-			"Desna: Freedom of movement; once per day, whenever the banner's owner or an ally rolls a d20, the owner of the banner may choose to treat the roll as a natural 20.",
-			"",
-			"Erastil: Invisibility purge; allies gain a +1 morale bonus on damage and attack rolls with ranged weapons.",
-			"",
-			"Iomedae: Death ward; allies gain a +1 morale bonus on damage and attack rolls with melee weapons.",
-			"",
-			"Irori: Resist energy (type is set when banner is planted); allies gain a +2 sacred bonus on saves.",
-			"",
-			"Sarenrae: Daylight; all spells with the fire or light descriptor cast from within the affected area are cast at +1 caster level.",
-			"",
-			"Shelyn: Tongues; allies gain a +2 enhancement bonus to Charisma.",
-			"",
-			"Torag: Dimensional anchor; allies gain a +2 sacred bonus to AC.",
-			"",
-			"Zon-Kuthon: Darkness, and hallow effect is unhallow instead; enemies are sickened.",
+			">**{faith/Abadar}:** {spell/Protection from energy} (type is set when banner is planted; renews daily); allies gain a +4 sacred bonus on checks to aid another.",
+			">",
+			">**{faith/Asmodeus}:** {spell/Cause fear} (affects enemies only), and the hallow effect is unhallow instead; allies gain a +2 morale bonus on combat maneuver checks.",
+			">",
+			">**{faith/Cayden Cailean}:** {spell/Remove fear}; whenever allies successfully resist a fear effect, they gain 10 temporary hit points for 1 hour.",
+			">",
+			">**{faith/Desna}:** {spell/Freedom of movement}; once per day, whenever the banner's owner or an ally rolls a d20, the owner of the banner may choose to treat the roll as a natural 20.",
+			">",
+			">**{faith/Erastil}:** {spell/Invisibility purge}; allies gain a +1 morale bonus on damage and attack rolls with ranged weapons.",
+			">",
+			">**{faith/Iomedae}:** {spell/Death ward}; allies gain a +1 morale bonus on damage and attack rolls with melee weapons.",
+			">",
+			">**{faith/Irori}:** {spell/Resist energy} (type is set when banner is planted); allies gain a +2 sacred bonus on saves.",
+			">",
+			">**{faith/Sarenrae}:** {spell/Daylight}; all spells with the fire or light descriptor cast from within the affected area are cast at +1 caster level.",
+			">",
+			">**{faith/Shelyn}:** {spell/Tongues}; allies gain a +2 enhancement bonus to Charisma.",
+			">",
+			">**{faith/Torag}:** {spell/Dimensional anchor}; allies gain a +2 sacred bonus to AC.",
+			">",
+			">**{faith/Zon-Kuthon}:** {spell/Darkness}, and hallow effect is unhallow instead; enemies are sickened.",
 			"",
 			"### Construction",
 			"",
@@ -1987,7 +1987,7 @@
 			"",
 			"### Construction",
 			"",
-			"{feat/Craft Wondrous Item}, the item's performance and teamwork feat, bless, eagle's splendor, prayer, scare, true strike; **Price** 31,000 gp",
+			"{feat/Craft Wondrous Item}, the item's performance and teamwork feat, {spell/bless}, {spell/eagle's splendor}, {spell/prayer}, {spell/scare}, {spell/true strike}; **Price** 31,000 gp",
 			"",
 			"### Statistics",
 			"",

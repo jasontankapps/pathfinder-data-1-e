@@ -2567,7 +2567,7 @@
 			"",
 			"This spell eviscerates the target, drawing forth its life essence as well as its internal organs. The target takes 1d6 hit points of damage per caster level (maximum 20d6). If this damage kills the target, the spell pulls the creature's organs into a set of 4 canopic jars and seals them; 1d4 rounds later, the corpse revives as a mummy (if 8 HD or fewer) or an advanced mummy (if 9 HD or more).",
 			"",
-			"The mummy is not under your control, but the canopic jars give the bearer certain powers over it. Anyone holding one of the jars can communicate with the mummy as if the two shared a common language. The bearer gains the benefits of protection from evil and sanctuary, but only against that mummy. Unsealing or breaking a jar is a standard action, which dissipates its power (and protection) but lets the bearer issue a short command to the mummy, similar to a suggestion spell (Will DC 23 negates). You (and only you) may unseal all 4 jars in a 10-minute ritual to control the mummy with an effect similar to geas (Will DC 23 negates); most casters typically include a restriction that the mummy will not harm them, as unsealing the jars leaves them vulnerable.",
+			"The mummy is not under your control, but the canopic jars give the bearer certain powers over it. Anyone holding one of the jars can communicate with the mummy as if the two shared a common language. The bearer gains the benefits of {spell/protection from evil} and {spell/sanctuary}, but only against that mummy. Unsealing or breaking a jar is a standard action, which dissipates its power (and protection) but lets the bearer issue a short command to the mummy, similar to a suggestion spell (Will DC 23 negates). You (and only you) may unseal all 4 jars in a 10-minute ritual to control the mummy with an effect similar to geas (Will DC 23 negates); most casters typically include a restriction that the mummy will not harm them, as unsealing the jars leaves them vulnerable.",
 			"",
 			"The pharaohs of ancient Osirion sometimes used this spell to punish their enemies. The [Risen Guard](rule/f_second_life) does not use the spell (though they have access to it), preferring trustworthy living guardians for the Ruby Prince. The [Whispering Way](rule/f_gravepath) may have copies of the spell."
 		]
@@ -2672,7 +2672,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** see text; **Spell Resistance** no",
 			"",
-			"You can excavate and move an amount of snow, earth, dust, sand, and loose or packed rocks or ice chunks (each no more than 5 feet in diameter) whose volume fills one 5-foot cube per level. If you are buried, you can open a space around yourself and use any remaining cubes for tunneling. This spell is otherwise similar to expeditious excavation. Carve passage has no effect on earth creatures or solid rock or ice."
+			"You can excavate and move an amount of snow, earth, dust, sand, and loose or packed rocks or ice chunks (each no more than 5 feet in diameter) whose volume fills one 5-foot cube per level. If you are buried, you can open a space around yourself and use any remaining cubes for tunneling. This spell is otherwise similar to {spell/expeditious excavation}. Carve passage has no effect on earth creatures or solid rock or ice."
 		]
 	},
 	"cast_out": {
@@ -2997,7 +2997,7 @@
 			"",
 			"#### Naming",
 			"",
-			"A naming must involve a willing parent or parents and a newborn (who is touched but unaffected). The subject can use sanctuary once.",
+			"A naming must involve a willing parent or parents and a newborn (who is touched but unaffected). The subject can use {spell/sanctuary} once.",
 			"",
 			"The augmented versions of these four ceremonies are identical, granting the subject a +2 sacred bonus on all saving throws.",
 			"",
@@ -3007,13 +3007,13 @@
 			"",
 			"##### Air",
 			"",
-			"**Celebration of Storms.** The subject can use feather fall once.  ",
+			"**Celebration of Storms.** The subject can use {spell/feather fall} once.  ",
 			"*Augmented:* The subject gains a +4 sacred bonus on saves against effects with the air descriptor.",
 			"",
 			"##### Animal",
 			"",
-			"**Ritual of Beasts.** The subject can use speak with animals once (this effect lasts 3 rounds).  ",
-			"*Augmented:* The subject can use charm animal once.",
+			"**Ritual of Beasts.** The subject can use {spell/speak with animals} once (this effect lasts 3 rounds).  ",
+			"*Augmented:* The subject can use {spell/charm animal} once.",
 			"",
 			"##### Artifice",
 			"",
@@ -3042,8 +3042,8 @@
 			"",
 			"##### Death",
 			"",
-			"**Dance of the Dead.** The subject can use bleed up to three times.  ",
-			"*Augmented:* The subject can use cause fear once.",
+			"**Dance of the Dead.** The subject can use {spell/bleed} up to three times.  ",
+			"*Augmented:* The subject can use {spell/cause fear} once.",
 			"",
 			"##### Destruction",
 			"",
@@ -3052,7 +3052,7 @@
 			"",
 			"##### Earth",
 			"",
-			"**Festival of Soil.** The subject can cast plant growth (enrichment) once.  ",
+			"**Festival of Soil.** The subject can cast {spell/plant growth} (enrichment) once.  ",
 			"*Augmented:* The subject gains a +4 sacred bonus on saves against effects with the earth descriptor.",
 			"",
 			"##### Evil",
@@ -3117,12 +3117,12 @@
 			"",
 			"##### Plant",
 			"",
-			"**Harvest Festival.** The subject can use speak with plants once, but the duration is 1 minute.  ",
+			"**Harvest Festival.** The subject can use {spell/speak with plants} once, but the duration is 1 minute.  ",
 			"*Augmented:* This boon can be used three times.",
 			"",
 			"##### Protection",
 			"",
-			"**Ceremony of Sanctuary.** The subject can use sanctuary once.  ",
+			"**Ceremony of Sanctuary.** The subject can use {spell/sanctuary} once.  ",
 			"*Augmented:* The subject gains a +2 sacred bonus to AC.",
 			"",
 			"##### Repose",
@@ -3287,7 +3287,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Reflex negates; **Spell Resistance** no",
 			"",
-			"A creature targeted by this spell is held immobile by glowing golden chains composed of pure light. The creature is paralyzed and held in place, but may attempt a new saving throw each round to end the effect. While held by the golden chains, a creature cannot use any sort of extradimensional travel, such as astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport, and similar spells and spell-like abilities. The spell does not affect creatures that are already in ethereal or astral form when the spell is cast."
+			"A creature targeted by this spell is held immobile by glowing golden chains composed of pure light. The creature is paralyzed and held in place, but may attempt a new saving throw each round to end the effect. While held by the golden chains, a creature cannot use any sort of extradimensional travel, such as {spell/astral projection}, {spell/blink}, {spell/dimension door}, {spell/ethereal jaunt}, {spell/etherealness}, {spell/gate}, {spell/maze}, {spell/plane shift}, {spell/shadow walk}, {spell/teleport}, and similar spells and spell-like abilities. The spell does not affect creatures that are already in ethereal or astral form when the spell is cast."
 		]
 	},
 	"challenge_evil": {
@@ -3696,7 +3696,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"The target of this spell gains immunity to the harmful effects of touching or drinking from the River Styx and a +4 profane bonus on saves against effects that alter or suppress memory (such as modify memory or mindwipe). This does not grant the target the ability to breathe water, nor does it grant any protection against creatures or mundane hazards such as rapids. The spell has no power to restore memory to a creature already suffering from an existing fugue or amnesia state."
+			"The target of this spell gains immunity to the harmful effects of touching or drinking from the River Styx and a +4 profane bonus on saves against effects that alter or suppress memory (such as {spell/modify memory} or {spell/mindwipe}). This does not grant the target the ability to breathe water, nor does it grant any protection against creatures or mundane hazards such as rapids. The spell has no power to restore memory to a creature already suffering from an existing fugue or amnesia state."
 		]
 	},
 	"chastise": {
@@ -4108,7 +4108,7 @@
 			"",
 			"A random pattern of color surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by lawful creatures, and causing lawful creatures that strike the subjects to become confused. This abjuration has four effects.",
 			"",
-			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike protection from law, the benefit of this spell applies against all attacks, not just against attacks by lawful creatures.",
+			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike {spell/protection from law}, the benefit of this spell applies against all attacks, not just against attacks by lawful creatures.",
 			"",
 			"Second, each warded creature gains spell resistance 25 against lawful spells and spells cast by lawful creatures.",
 			"",

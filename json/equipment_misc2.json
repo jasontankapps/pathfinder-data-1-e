@@ -65,7 +65,7 @@
 			"**Price** 1,100 gp; **Weight** 9 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This pack includes several items necessary to injure or intimidate a variety of evil outsiders, or to overcome their damage reduction. The kit contains a celestial censer, a silver holy symbol, 2 cold iron weapon blanches, 2 vials of holy water, 10 sticks of incense, an oil of align weapon (good), a vial of silversheen, and a scroll of magic circle against evil. Most of the items in this kit are items evil outsiders hate, increasing the effectiveness of spells such as banishment."
+			"This pack includes several items necessary to injure or intimidate a variety of evil outsiders, or to overcome their damage reduction. The kit contains a celestial censer, a silver holy symbol, 2 cold iron weapon blanches, 2 vials of holy water, 10 sticks of incense, an oil of align weapon (good), a vial of silversheen, and a scroll of {spell/magic circle against evil}. Most of the items in this kit are items evil outsiders hate, increasing the effectiveness of spells such as {spell/banishment}."
 		]
 	},
 	"fighters_kit": {
@@ -2504,6 +2504,14 @@
 			"In some religions, you are allowed to tattoo or brand your deity's holy symbol onto your skin (typically the palm, back of the hand, or forearm) in a special ceremony. Thereafter, it functions like an actual holy symbol of your faith, and you may use it as a divine focus for spellcasting, channeling energy, and so on. The tattoo must be fully visible to use it in this way (it cannot be covered with a glove, gauntlet, or any other material). The listed price includes the cost of a simple brand or non-fading black tattoo; add appropriate tattoo costs if you want something more elaborate. Specifically damaging or erasing the tattoo or brand negates its use as an actual holy symbol."
 		]
 	},
+	"holy_symbol": {
+		"name": "Holy symbol",
+		"copyof": "holy_symbol_gold"
+	},
+	"wooden_holy_symbol": {
+		"name": "Holy symbol (wooden)",
+		"copyof": "holy_symbol_gold"
+	},
 	"holy_symbol_wooden": {
 		"name": "Holy symbol (wooden)",
 		"copyof": "holy_symbol_gold"
@@ -2535,7 +2543,7 @@
 			"",
 			"**Weapons:** Cold iron morningstar, heavy crossbow with 10 bolts, masterwork longsword.",
 			"",
-			"**Combat Gear:** Alchemist's fire (3), holy water (4), oil of bless weapon, potions of cure light wounds (2), potion of protection from evil, sunrods (3).",
+			"**Combat Gear:** Alchemist's fire (3), holy water (4), oil of {spell/bless weapon}, potions of {spell/cure light wounds} (2), potion of {spell/protection from evil}, sunrods (3).",
 			"",
 			"**Other Gear:** Backpack, bedroll, belt pouch, candles (5), chalk (5 pieces), crowbar, flint and steel, holy symbol (silver), mess kit, sack, silk rope (50 ft.), trail rations (5 days), waterskin, 7 gp.",
 			"",
@@ -2654,8 +2662,16 @@
 		"name": "Horse (heavy, combat trained)",
 		"copyof": "horse_heavy"
 	},
+	"heavy_horse_combat_trained": {
+		"name": "Horse (heavy, combat trained)",
+		"copyof": "horse_heavy"
+	},
 	"horse_light": {
 		"name": "Horse (light)",
+		"copyof": "horse_heavy"
+	},
+	"light_horse_combat_trained": {
+		"name": "Horse (light, combat trained)",
 		"copyof": "horse_heavy"
 	},
 	"horse_light_combat_trained": {
@@ -2664,6 +2680,10 @@
 	},
 	"horse_pony": {
 		"name": "Horse (pony)",
+		"copyof": "horse_heavy"
+	},
+	"pony_combat_trained": {
+		"name": "Horse (pony, combat trained)",
 		"copyof": "horse_heavy"
 	},
 	"horse_pony_combat_trained": {
@@ -3080,6 +3100,10 @@
 			"",
 			"This vial contains 1 ounce of ink. Ink in colors other than black costs twice as much."
 		]
+	},
+	"ink": {
+		"name": "Ink",
+		"copyof": "ink_black"
 	},
 	"ink_non_black": {
 		"name": "Ink, non-black",
@@ -4327,7 +4351,7 @@
 			"",
 			"Weapons: Light crossbow with 10 bolts, quarterstaff, silver dagger.",
 			"",
-			"**Combat Gear:** Alchemist's fire (3), antitoxin, oil of erase, potions of cure light wounds (2), potion of protection from evil, tanglefoot bag, thunderstone.",
+			"**Combat Gear:** Alchemist's fire (3), antitoxin, oil of {spell/erase}, potions of {spell/cure light wounds} (2), potion of {spell/protection from evil}, tanglefoot bag, thunderstone.",
 			"",
 			"**Other Gear:** Backpack, bedroll, belt pouch, candles (5), chalk (5 pieces), compass, crowbar, everburning torch, flint and steel, grappling hook, ink, inkpens (2), journals (2), magnifying glass, mapmaker's kit, mess kit, sack, signal whistle, silk rope (50 ft.), trail rations (5 days), traveler's any-tool, waterskin, 8 gp.",
 			"",

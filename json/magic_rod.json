@@ -22,7 +22,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, threefold sight; **Cost** 1,250 gp (lesser), 3,250 gp (normal), 9,750 (greater)"
+			"**Requirements** {feat/Craft Rod}, {spell/threefold sight}; **Cost** 1,250 gp (lesser), 3,250 gp (normal), 9,750 (greater)"
 		]
 	},
 	"lesser_rod_of_the_thriceborn": {
@@ -85,7 +85,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, pain strike; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/pain strike}; **Cost** 2,500 gp"
 		]
 	},
 	"immovable_rod": {
@@ -338,7 +338,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, mage's disjunction; **Cost** 5,500 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/mage's disjunction}; **Cost** 5,500 gp"
 		]
 	},
 	"rod_of_grasping_hexes": {
@@ -769,7 +769,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, hypnosis; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/hypnotism}; **Cost** 9,000 gp"
 		]
 	},
 	"rod_of_nettles": {
@@ -805,7 +805,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, ectoplasmic snare; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/ectoplasmic snare}; **Cost** 9,000 gp"
 		]
 	},
 	"recondite_rod_normal": {
@@ -1131,7 +1131,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, firefall; **Cost** 14,000 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/firefall}; **Cost** 14,000 gp"
 		]
 	},
 	"rod_of_the_aboleth": {
@@ -1224,7 +1224,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, Split Hex, creator must have the hex class feature; **Cost** 16,250 gp"
+			"**Requirements** {feat/Craft Rod}, {feat/Split Hex}, creator must have the hex class feature; **Cost** 16,250 gp"
 		]
 	},
 	"rod_of_thunder_and_lightning": {
@@ -1328,7 +1328,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, {spell/bless}, calm emotion, creator must have the human subtype; **Cost** 19,305 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/bless}, {spell/calm emotions}, creator must have the human subtype; **Cost** 19,305 gp"
 		]
 	},
 	"ivory_baton": {

@@ -159,7 +159,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, elemental touch; **Cost** 450 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/elemental touch}; **Cost** 450 gp"
 		]
 	},
 	"elixir_of_forceful_exhalation": {
@@ -193,7 +193,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Empower Spell, amplify elixir; **Cost** 450 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Empower Spell}, {spell/amplify elixir}; **Cost** 450 gp"
 		]
 	},
 	"murderers_silence": {
@@ -645,7 +645,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Reach Spell, creator must have an animal companion or familiar; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Reach Spell}, creator must have an animal companion or familiar; **Cost** 500 gp"
 		]
 	},
 	"bloodbrew_elixir": {
@@ -704,7 +704,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, burdened thoughts; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/burdened thoughts}; **Cost** 500 gp"
 		]
 	},
 	"concealing_pocket": {
@@ -849,7 +849,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, pain strike; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/pain strike}; **Cost** 500 gp"
 		]
 	},
 	"fortifying_stone": {
@@ -1078,7 +1078,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, heroic fortune; **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/heroic fortune}; **Cost** 1,800 gp"
 		]
 	},
 	"fates_shears": {
@@ -1194,7 +1194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, alchemical allocation, amplify elixir; **Cost** 1,875 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alchemical allocation}, {spell/amplify elixir}; **Cost** 1,875 gp"
 		]
 	},
 	"four_leaf_clover": {
@@ -1317,7 +1317,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, contact other planes, {spell/speak with dead}; **Cost** 2,000 gp (brass spirit planchette), 5,000 gp (cold iron spirit planchette), 9,000 gp (silver spirit planchette)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/contact other plane}, {spell/speak with dead}; **Cost** 2,000 gp (brass spirit planchette), 5,000 gp (cold iron spirit planchette), 9,000 gp (silver spirit planchette)"
 		]
 	},
 	"spirit_planchette_cold_iron": {
@@ -1884,7 +1884,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/ghost sound}, exquisite accompaniment; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/ghost sound}, {spell/exquisite accompaniment}; **Cost** 2,250 gp"
 		]
 	},
 	"phoenix_feather": {
@@ -2048,7 +2048,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, touch of idiocy; **Cost** 250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/touch of idiocy}; **Cost** 250 gp"
 		]
 	},
 	"memory_musk_gourd": {
@@ -2813,7 +2813,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Master Craftsman; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Master Craftsman}; **Cost** 6,000 gp"
 		]
 	},
 	"black_soul_shard": {
@@ -2991,7 +2991,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, mythic deep slumber; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, mythic {spell/deep slumber}; **Cost** 6,000 gp"
 		]
 	},
 	"pipes_of_dissolution": {
@@ -3193,7 +3193,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, locate weakness, {spell/true strike}; **Cost** 6,125 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/locate weakness}, {spell/true strike}; **Cost** 6,125 gp"
 		]
 	},
 	"greater_assassins_sight": {
@@ -4075,7 +4075,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cacophonous call; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cacophonous call}; **Cost** 8,000 gp"
 		]
 	},
 	"evergreen_seed_pouch": {
@@ -4438,7 +4438,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, binding, geas/quest, creator must have personally bound the genie contained within the receptacle upon which the seal is to be placed; **Cost** 28,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/binding}, {spell/geas//quest}, creator must have personally bound the genie contained within the receptacle upon which the seal is to be placed; **Cost** 28,000 gp"
 		]
 	},
 	"kiss_of_noctura": {

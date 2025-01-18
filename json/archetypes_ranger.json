@@ -198,7 +198,7 @@
 			"",
 			"**Class Skills:** A corpse hunter adds Knowledge (religion) to his list of class skills, and removes Knowledge (nature) from his list of class skills.",
 			"",
-			"**Spells:** In addition to the default spells on the ranger spell list, a corpse hunter adds the following to his list of spells at the indicated spell levels: 1st-bless water, detect undead, hide from undead, sanctify corpse, 2nd-halt undead, 3rd-speak with dead, 4th-searing light.",
+			"**Spells:** In addition to the default spells on the ranger spell list, a corpse hunter adds the following to his list of spells at the indicated spell levels: 1st-{spell/bless water}, {spell/detect undead}, {spell/hide from undead}, {spell/sanctify corpse}, 2nd-{spell/halt undead}, 3rd-{spell/speak with dead}, 4th-{spell/searing light}.",
 			"",
 			"**Undead Exterminator:** At 1st level, a corpse hunter must select undead as his first and only favored enemy, granting him a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks when dealing with creatures of the undead type and a +2 bonus on weapon attack and damage rolls against undead. A corpse hunter does not gain additional favored enemies at 5th, 10th, 15th, and 20th level, though his favored enemy bonus against undead creatures increases by 2 at each of these levels (to a maximum bonus of +10 at 20th level).",
 			"",
@@ -452,7 +452,7 @@
 			"",
 			"This replaces hunter's bond.",
 			"",
-			"**Spells:** A flamewarden can prepare spells from the druid list that have the fire descriptor.",
+			"**Spells:** A flamewarden can prepare spells from the {main/spells_<druid/ list} that have the fire descriptor.",
 			"",
 			"This alters the ranger's spells.",
 			"",
@@ -820,7 +820,7 @@
 			"",
 			"While the vast majority of lantern lighters are elves from Kyonin, a few non-elven members of the organization have proven themselves trustworthy and dedicated enough to join their ranks. As their efforts to spread the light to other regions beyond Kyonin grow, lantern lighters of other races are beginning to round out the order's numbers, particularly in areas and regions that suffer under oppressive regimes.",
 			"",
-			"**Daylight:** A lantern lighter treats daylight as a 3rd-level ranger spell.",
+			"**Daylight:** A lantern lighter treats {spell/daylight} as a 3rd-level ranger spell.",
 			"",
 			"This ability alters the ranger's spells.",
 			"",
@@ -1038,7 +1038,7 @@
 			"",
 			"**Shrewdest Monarch (Su):** At 20th level, the realm wanderer has become a true master of the territories with which he is familiar. As a standard action, he can make a single attack at his full attack bonus against an enemy in one of the terrains chosen using the dual master ability. If the attack hits, the target takes damage normally and must succeed at a Fortitude saving throw or die. The DC of this saving throw is equal to 10 + half the realm wanderer's level + his Wisdom modifier. A realm wanderer can instead deal an amount of nonlethal damage equal to the creature's current hit points; the target can attempt a Fortitude save at the same DC to negates this damage. The realm wanderer can use this ability in these favored terrains only up to four times per day, but not against the same creature more than once in a 24-hour period.",
 			"",
-			"Further, the realm wanderer gains a bonus on attack rolls equal to his Wisdom modifier against creatures that have successfully learned his alignment (using detect chaos/evil/good/law, as appropriate, or similar effects).",
+			"Further, the realm wanderer gains a bonus on attack rolls equal to his Wisdom modifier against creatures that have successfully learned his alignment (using [detect chaos/evil/good/law](spell/detect_evil), as appropriate, or similar effects).",
 			"",
 			"This replaces master hunter."
 		]
@@ -1275,7 +1275,7 @@
 			"",
 			"This alters favored terrain.",
 			"",
-			"**Spells:** A summit sentinel adds stoneskin to the ranger spell list as a 4th-level spell.",
+			"**Spells:** A summit sentinel adds {spell/stoneskin} to the ranger spell list as a 4th-level spell.",
 			"",
 			"This alters the ranger's spells.",
 			"",
@@ -1343,7 +1343,7 @@
 			"",
 			"**Demonologist (Ex):** At 3rd level, a Tanglebriar demonslayer gains insight into his Abyssal enemies. The demonslayer gains a bonus equal to 1/2 his class level on Knowledge (planes) checks that relate to demons, Perception checks to pierce a demon's disguise, and Survival checks while tracking demons. This bonus stacks with any bonuses from favored enemy. This ability replaces endurance.",
 			"",
-			"**Expanded Spell List:** A Tanglebriar demonslayer adds the following spells to his spell list: 1st-protection from evil; 2nd-align weapon, magic circle against evil; 4th-dimensional anchor, dismissal.",
+			"**Expanded Spell List:** A Tanglebriar demonslayer adds the following spells to his spell list: 1st-{spell/protection from evil}; 2nd-{spell/align weapon}, {spell/magic circle against evil}; 4th-{spell/dimensional anchor}, {spell/dismissal}.",
 			"",
 			"**Fiendish Quarry (Su):** At 11th level, when a Tanglebriar demonslayer chooses an evil outsider as his quarry, he can the forgo the normal +2 attack bonus and instead treat his weapon as if it were good-aligned versus his quarry. This ability is otherwise identical to quarry and replaces that ability.",
 			"",
@@ -1569,7 +1569,7 @@
 			"",
 			"**Seaborn (Ex):** At 7th level, a wave warden may move through any sort of aquatic growth (such as coral or seaweed) or across a wet surface at his normal speed and without taking damage or suffering any other impairment. Obstacles that are enchanted or magically manipulated to impede motion still affect him. This ability replaces woodland stride.",
 			"",
-			"**Watery Summons (Sp):** At 8th level, a wave warden can summon allies once per day as a full-round action. This functions as summon nature's ally III, except it can only be used to summon creatures with the aquatic or water subtypes. At 11th level, this ability improves to summon nature's ally IV, with this progression continuing every three levels thereafter. The warden's caster level is equal to his ranger level. This ability replaces swift tracker."
+			"**Watery Summons (Sp):** At 8th level, a wave warden can summon allies once per day as a full-round action. This functions as {spell/summon nature's ally III}, except it can only be used to summon creatures with the aquatic or water subtypes. At 11th level, this ability improves to summon nature's ally IV, with this progression continuing every three levels thereafter. The warden's caster level is equal to his ranger level. This ability replaces swift tracker."
 		]
 	},
 	"wild_hunter": {

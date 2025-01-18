@@ -461,7 +461,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, stone shield; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/stone shield}; **Cost** 1,250 gp"
 		]
 	},
 	"cloak_of_fiery_vanishing": {
@@ -907,7 +907,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/create water}, {spell/feather fall}, {spell/invisibility}, creator must worship Ylimancha; **Cost** 2,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/create water}, {spell/feather fall}, {spell/invisibility}, creator must worship {faith/Ylimancha}; **Cost** 2,600 gp"
 		]
 	},
 	"iron_guard_pauldrons": {
@@ -1824,7 +1824,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Quick Draw, wreath of blades, creator must possess the sneak attack class ability; **Cost** 9,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Quick Draw, {spell/wreath of blades}, creator must possess the sneak attack class ability; **Cost** 9,000 gp"
 		]
 	},
 	"ebony_bolero": {
@@ -2016,7 +2016,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, overwhelming poison; **Cost** 10,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/overwhelming poison}; **Cost** 10,800 gp"
 		]
 	},
 	"erinyes_company_cloak": {
@@ -2054,7 +2054,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape III}, burrow; **Cost** 11,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape III}, {spell/burrow}; **Cost** 11,000 gp"
 		]
 	},
 	"wings_of_flying_lesser": {
@@ -2262,7 +2262,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Improved Disarm}, pilfering hand, creator must be a panache user; **Cost** 17,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Improved Disarm}, {spell/pilfering hand}, creator must be a panache user; **Cost** 17,500 gp"
 		]
 	},
 	"swordlords_cloak_3_bonus": {
@@ -2290,7 +2290,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/feather fall}, {spell/fly}, minor image; **Cost** 19,775 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/feather fall}, {spell/fly}, {spell/minor image}; **Cost** 19,775 gp"
 		]
 	},
 	"lycanthrope_skin_skinwalker_brown_bear_bat_crocodile_shark_tiger": {
@@ -2375,7 +2375,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, displacement; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, {spell/displacement}; **Cost** 25,000 gp"
 		]
 	},
 	"major_cloak_of_displacement": {
@@ -2698,7 +2698,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/protection from chaos}, evil, good, or law; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/protection from chaos/, evil, good, or law}; **Cost** 750 gp"
 		]
 	},
 	"bracers_of_steadiness": {
@@ -2901,7 +2901,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Combat Casting}, {feat/Craft Wondrous Item}, warding weapon; **Cost** 2,500 gp"
+			"**Requirements** {feat/Combat Casting}, {feat/Craft Wondrous Item}, {spell/warding weapon}; **Cost** 2,500 gp"
 		]
 	},
 	"vanishing_sheath": {
@@ -3026,7 +3026,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, effortless armor; **Cost** 3,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/effortless armor}; **Cost** 3,600 gp"
 		]
 	},
 	"longarm_bracers": {
@@ -3121,7 +3121,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, cleanse; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cleanse}; **Cost** 4,000 gp"
 		]
 	},
 	"vambraces_of_the_tactician": {
@@ -3344,19 +3344,19 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** wrist; **Price** 14,400 gp (Efreeti), 18,900 gp (Djinni), 18,900 gp (Marid), 18,900 gp (Shaitan); **Weight** 3 lbs.",
 			"",
-			"These bracers are decorated with icons representing air, earth, fire, or water, and depictions of genies appropriate to that element. The item protects the wearer against hot and cold environments as if she were using {spell/endure elements} The vambraces' materials and other powers depend on their associated genie type.",
+			"These bracers are decorated with icons representing air, earth, fire, or water, and depictions of genies appropriate to that element. The item protects the wearer against hot and cold environments as if she were using endure elements The vambraces' materials and other powers depend on their associated genie type.",
 			"",
-			">*Djinni:* These mithral bracers allow the wearer to use gaseous form, invisibility, and wind wall each once per day.",
+			">*Djinni:* These mithral bracers allow the wearer to use {spell/gaseous form}, {spell/invisibility}, and {spell/wind wall} each once per day.",
 			">",
-			">*Efreeti:* These scorched bronze bracers allow the wearer to use invisibility (self only), produce flame, and pyrotechnics each once per day.",
+			">*Efreeti:* These scorched bronze bracers allow the wearer to use {spell/invisibility} (self only), {spell/produce flame}, and {spell/pyrotechnics} each once per day.",
 			">",
-			">*Marid:* These coral bracers allow the wearer to use hydraulic torrent, invisibility, and water breathing each once per day.",
+			">*Marid:* These coral bracers allow the wearer to use {spell/hydraulic torrent}, {spell/invisibility}, and {spell/water breathing} each once per day.",
 			">",
-			">*Shaitan:* These adamantine bracers allow the wearer to use glitterdust, meld into stone, and stone shape each once per day.",
+			">*Shaitan:* These adamantine bracers allow the wearer to use {spell/glitterdust}, {spell/meld into stone}, and {spell/stone shape} each once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, protection from elements and the three spells the wearer can use; **Cost** 7,200 gp (Efreeti), 9,450 gp (Djinni), 9,450 gp (Marid), 9,450 gp (Shaitan)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, and the three spells the wearer can use; **Cost** 7,200 gp (Efreeti), 9,450 gp (Djinni), 9,450 gp (Marid), 9,450 gp (Shaitan)"
 		]
 	},
 	"bracelet_of_bargaining": {
@@ -3604,7 +3604,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, refuge; **Cost** 9,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/refuge}; **Cost** 9,500 gp"
 		]
 	},
 	"armband_of_the_golden_serpent": {
@@ -3706,7 +3706,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}, {spell/dream}, creator must worship Desna; **Cost** 13,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}, {spell/dream}, creator must worship {faith/Desna}; **Cost** 13,500 gp"
 		]
 	},
 	"dimensional_shackles": {
@@ -4762,7 +4762,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}, mirage arcana; **Cost** 42,125 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}, {spell/mirage arcana}; **Cost** 42,125 gp"
 		]
 	},
 	"maniac_hand": {
