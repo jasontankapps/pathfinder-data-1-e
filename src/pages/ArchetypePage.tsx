@@ -47,7 +47,6 @@ const classes: { [key: string]: [number, string] } = {
 
 	bard: [2, "Bard"],
 	summoner: [2, "Summoner"],
-	unchained_monk: [2, "Unchained Monk"],
 	swashbuckler: [2, "Swashbuckler"],
 
 	inquisitor: [3, "Inquisitor"],
@@ -63,10 +62,9 @@ const classes: { [key: string]: [number, string] } = {
 
 	ranger: [5, "Ranger"],
 	bloodrager: [5, "Bloodrager"],
+	unchained_monk: [5, "Unchained Monk"],
 
 	alchemist: [6, "Alchemist"],
-	antipaladin: [6, "Antipaladin"],
-	arcanist: [6, "Arcanist"],
 	witch: [6, "Witch"],
 
 	kineticist: [7, "Kineticist"],
@@ -88,9 +86,11 @@ const classes: { [key: string]: [number, string] } = {
 
 	fighter: [10, "Fighter"],
 	psychic: [10, "Psychic"],
+	arcanist: [10, "Arcanist"],
 
 	cavalier: [11, "Cavalier"],
 	slayer: [11, "Slayer"],
+	antipaladin: [11, "Antipaladin"],
 
 	investigator: [12, "Investigator"],
 	spiritualist: [12, "Spiritualist"],

@@ -1,7 +1,6 @@
 import getItem from '../components/getItem';
 import bard from './subpages/__arc-bard';
 import summoner from './subpages/__arc-summoner';
-import unchained_monk from './subpages/__arc-unchained_monk';
 import swashbuckler from './subpages/__arc-swashbuckler';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
@@ -11,7 +10,6 @@ const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
 	...bard,
 	...summoner,
-	...unchained_monk,
 	...swashbuckler
 };
 

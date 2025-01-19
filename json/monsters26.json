@@ -1170,7 +1170,7 @@
 			"",
 			"While other angels arise from an amalgam of good souls or the soul of an ascended mortal, the birth of a new empyrean is a momentous event, for it occurs only if another empyrean is slain. To fill the void, the remaining empyreans temporarily become receptive to the energy of good deities other than their original progenitors, which can eventually cause an empyrean to split in two. The offspring empyrean shares many of the memories and personality traits of the original, but its power is influenced by the deity who sparked its creation.",
 			"",
-			"Empyreans serve as secret agents for deities - operatives who can be trusted to perform sensitive tasks, especially those that require a long view. Unlike solars, who often become slayers of great evils, empyreans rarely pick fights, but when they do, they prefer to use their deities' favorite weapons.",
+			"Empyreans serve as secret agents for deities - operatives who can be trusted to perform sensitive tasks, especially those that require a long view. Unlike {monster/solar/s}, who often become slayers of great evils, empyreans rarely pick fights, but when they do, they prefer to use their deities' favorite weapons.",
 			"",
 			"### Empyrean Paragons",
 			"",
@@ -1178,11 +1178,11 @@
 			"",
 			">*Paragon of the Dawn (Ex):* The paragon glows like the sun, shining light in a radius of up to 1 mile. This light automatically shines through and dispels all effects with the darkness descriptor, and counts as true sunlight for all purposes (including harming undead that are vulnerable to sunlight).",
 			">",
-			">*Paragon of the Rose (Su):* The paragon is surrounded by rose petals and songbirds. It gains a 30-foot aura that has the effects of euphoric tranquility and that affects creatures for as long as they remain in the aura and for 1d4 rounds thereafter. A creature that succeeds at its Will save ends the effect completely, but if the effect expires naturally, the creature can accept the effects of an atonement spell to change its alignment to neutral good. Either way, the creature is immune to this ability's effects for 24 hours.",
+			">*Paragon of the Rose (Su):* The paragon is surrounded by rose petals and songbirds. It gains a 30-foot aura that has the effects of {spell/euphoric tranquility} and that affects creatures for as long as they remain in the aura and for 1d4 rounds thereafter. A creature that succeeds at its Will save ends the effect completely, but if the effect expires naturally, the creature can accept the effects of an {spell/atonement} spell to change its alignment to neutral good. Either way, the creature is immune to this ability's effects for 24 hours.",
 			">",
-			">*Paragon of the Shield (Ex):* The paragon's protective aura is extraordinarily powerful. It acts as a globe of invulnerability instead of a lesser globe of invulnerability, and all allies within the aura except the paragon take half damage from all attacks.",
+			">*Paragon of the Shield (Ex):* The paragon's protective aura is extraordinarily powerful. It acts as a {spell/globe of invulnerability} instead of a lesser globe of invulnerability, and all allies within the aura except the paragon take half damage from all attacks.",
 			">",
-			">*Paragon of the Sword (Sp, Su):* The paragon's blade is fueled by honor. The paragon is lawful good and gains bestow grace of the champion as a constant spell-like ability, except the paragon counts as a 20th-level paladin for the purposes of lay on hands and smite evil and gains the number of daily uses of each that it would as a 20th-level paladin.",
+			">*Paragon of the Sword (Sp, Su):* The paragon's blade is fueled by honor. The paragon is lawful good and gains {spell/bestow grace of the champion} as a constant spell-like ability, except the paragon counts as a 20th-level paladin for the purposes of lay on hands and smite evil and gains the number of daily uses of each that it would as a 20th-level paladin.",
 			"",
 			"**Family:** {family/Angel}"
 		]

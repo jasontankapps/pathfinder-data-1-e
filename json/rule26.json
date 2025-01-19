@@ -1601,9 +1601,9 @@
 			"the_first_world"
 		],
 		"subtopics": [
-			"phantom_ring_cr_9",
-			"pixie_pollen_cr_2",
-			"weeping_waste_cr_10"
+			"phantom_ring",
+			"pixie_pollen",
+			"weeping_waste"
 		],
 		"siblings": [
 			"history_of_the_first_world",
@@ -1612,7 +1612,7 @@
 			"hazards_of_the_first_world"
 		]
 	},
-	"phantom_ring_cr_9": {
+	"phantom_ring": {
 		"name": "Phantom Ring",
 		"subtitle": "The First World, Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1639,12 +1639,12 @@
 			"hazards_of_the_first_world"
 		],
 		"siblings": [
-			"phantom_ring_cr_9",
-			"pixie_pollen_cr_2",
-			"weeping_waste_cr_10"
+			"phantom_ring",
+			"pixie_pollen",
+			"weeping_waste"
 		]
 	},
-	"pixie_pollen_cr_2": {
+	"pixie_pollen": {
 		"name": "Pixie Pollen",
 		"subtitle": "The First World, Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1669,12 +1669,12 @@
 			"hazards_of_the_first_world"
 		],
 		"siblings": [
-			"phantom_ring_cr_9",
-			"pixie_pollen_cr_2",
-			"weeping_waste_cr_10"
+			"phantom_ring",
+			"pixie_pollen",
+			"weeping_waste"
 		]
 	},
-	"weeping_waste_cr_10": {
+	"weeping_waste": {
 		"name": "Weeping Waste",
 		"subtitle": "The First World, Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1699,9 +1699,9 @@
 			"hazards_of_the_first_world"
 		],
 		"siblings": [
-			"phantom_ring_cr_9",
-			"pixie_pollen_cr_2",
-			"weeping_waste_cr_10"
+			"phantom_ring",
+			"pixie_pollen",
+			"weeping_waste"
 		]
 	},
 	"technological_equipment": {

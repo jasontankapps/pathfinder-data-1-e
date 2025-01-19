@@ -5,7 +5,7 @@ span.innerlink {
 	text-decoration: underline;
 	cursor: pointer;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, div.headerLike {
 	border-block-start-width: 5px;
 	border-block-end-width: 2px;
 	border-inline-start-width: 0;
@@ -283,7 +283,8 @@ div.main.basicContent ion-list ion-item.mainItem.basic ion-label th p,
 div.main.basicContent ion-list ion-item.mainItem.basic ion-label td p {
 	margin-block-end: 0;
 }
-div.main.basicContent ion-list ion-item.mainItem.basic ion-label h2 {
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label h2,
+div.headerLike {
 	font-size: 1.5rem;
 	margin-block-end: 1.35rem;
 }
@@ -305,6 +306,12 @@ div.main.basicContent h4 a,
 div.main.basicContent h5 a,
 div.main.basicContent h6 a {
 	text-decoration: none;
+}
+div.headerLike {
+	font-weight: bold;
+}
+div.headerLike div.sub {
+	font-size: 1.25rem;
 }
 
 /* Statblocks */

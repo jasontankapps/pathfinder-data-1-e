@@ -1650,6 +1650,7 @@
 	"terrain_and_obstacles": {
 		"name": "Terrain and Obstacles",
 		"subtitle": "Movement, Combat",
+		"tags": "Difficult terrain",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/193}",

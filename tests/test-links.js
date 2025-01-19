@@ -317,7 +317,7 @@ const testLinks = () => {
 					// Testing {SOURCE Title/##}
 					if (m) {
 						m[1].split(/;/).forEach(bit => {
-							const xx = bit.match(/([^/]+)(\/[0-9]*)?$/);
+							const xx = bit.match(/([^/]+)(\/[, 0-9]+)?$/);
 							if(!xx) {
 								msg.push(`\t{SOURCE} error [${bit}]`);
 							} else if (!allsources[xx[1]]) {

@@ -81,7 +81,7 @@
 			"doors",
 			"walls_doors_and_detect_spells",
 			"stairs",
-			"cave_ins_and_collapses_cr_8",
+			"cave_ins_and_collapses",
 			"slimes_molds_and_fungi"
 		],
 		"siblings": [
@@ -147,7 +147,7 @@
 			"doors",
 			"walls_doors_and_detect_spells",
 			"stairs",
-			"cave_ins_and_collapses_cr_8",
+			"cave_ins_and_collapses",
 			"slimes_molds_and_fungi"
 		]
 	},
@@ -199,7 +199,7 @@
 			"doors",
 			"walls_doors_and_detect_spells",
 			"stairs",
-			"cave_ins_and_collapses_cr_8",
+			"cave_ins_and_collapses",
 			"slimes_molds_and_fungi"
 		]
 	},
@@ -288,7 +288,7 @@
 			"doors",
 			"walls_doors_and_detect_spells",
 			"stairs",
-			"cave_ins_and_collapses_cr_8",
+			"cave_ins_and_collapses",
 			"slimes_molds_and_fungi"
 		]
 	},
@@ -312,7 +312,7 @@
 			"doors",
 			"walls_doors_and_detect_spells",
 			"stairs",
-			"cave_ins_and_collapses_cr_8",
+			"cave_ins_and_collapses",
 			"slimes_molds_and_fungi"
 		]
 	},
@@ -336,11 +336,11 @@
 			"doors",
 			"walls_doors_and_detect_spells",
 			"stairs",
-			"cave_ins_and_collapses_cr_8",
+			"cave_ins_and_collapses",
 			"slimes_molds_and_fungi"
 		]
 	},
-	"cave_ins_and_collapses_cr_8": {
+	"cave_ins_and_collapses": {
 		"name": "Cave-Ins and Collapses",
 		"subtitle": "Dungeons, Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -370,7 +370,7 @@
 			"doors",
 			"walls_doors_and_detect_spells",
 			"stairs",
-			"cave_ins_and_collapses_cr_8",
+			"cave_ins_and_collapses",
 			"slimes_molds_and_fungi"
 		]
 	},
@@ -411,7 +411,7 @@
 			"doors",
 			"walls_doors_and_detect_spells",
 			"stairs",
-			"cave_ins_and_collapses_cr_8",
+			"cave_ins_and_collapses",
 			"slimes_molds_and_fungi"
 		]
 	},
@@ -1227,7 +1227,7 @@
 			"gamemastery",
 			"wilderness"
 		],
-		"subtopics": [ "forest_fires_cr_6" ],
+		"subtopics": [ "forest_fires" ],
 		"siblings": [
 			"getting_lost",
 			"forest_terrain",
@@ -1239,7 +1239,7 @@
 			"aquatic_terrain"
 		]
 	},
-	"forest_fires_cr_6": {
+	"forest_fires": {
 		"name": "Forest Fires",
 		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1269,7 +1269,7 @@
 			"wilderness",
 			"forest_terrain"
 		],
-		"siblings": [ "forest_fires_cr_6" ]
+		"siblings": [ "forest_fires" ]
 	},
 	"marsh_terrain": {
 		"name": "Marsh Terrain",
@@ -1417,7 +1417,7 @@
 			"wilderness"
 		],
 		"subtopics": [
-			"avalanches_cr_7",
+			"avalanches",
 			"mountain_travel"
 		],
 		"siblings": [
@@ -1431,7 +1431,7 @@
 			"aquatic_terrain"
 		]
 	},
-	"avalanches_cr_7": {
+	"avalanches": {
 		"name": "Avalanches",
 		"subtitle": "Wilderness",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1446,7 +1446,7 @@
 			"",
 			"A landslide or avalanche consists of two distinct areas: the bury zone (in the direct path of the falling debris) and the slide zone (the area the debris spreads out to encompass). Characters in the bury zone always take damage from the avalanche; characters in the slide zone might be able to get out of the way. Characters in the bury zone take 8d6 points of damage, or half that amount if they make a DC 15 Reflex save. They are subsequently buried. Characters in the slide zone take 3d6 points of damage, or no damage if they make a DC 15 Reflex save. Those who fail their saves are buried.",
 			"",
-			"Buried characters take 1d6 points of nonlethal damage per minute. If a buried character falls unconscious, he must make a DC 15 Constitution check or take 1d6 points of lethal damage each minute thereafter until freed or dead. See [Cave-Ins and Collapses](rule/cave_ins_and_collapses_cr_8) for rules on digging out buried characters.",
+			"Buried characters take 1d6 points of nonlethal damage per minute. If a buried character falls unconscious, he must make a DC 15 Constitution check or take 1d6 points of lethal damage each minute thereafter until freed or dead. See {rule/Cave-Ins and Collapses} for rules on digging out buried characters.",
 			"",
 			"The typical avalanche has a width of 1d6 &times; 100 feet, from one edge of the slide zone to the opposite edge. The bury zone in the center of the avalanche is half as wide as the avalanche's full width.",
 			"",
@@ -1458,7 +1458,7 @@
 			"mountain_terrain"
 		],
 		"siblings": [
-			"avalanches_cr_7",
+			"avalanches",
 			"mountain_travel"
 		]
 	},
@@ -1487,7 +1487,7 @@
 			"mountain_terrain"
 		],
 		"siblings": [
-			"avalanches_cr_7",
+			"avalanches",
 			"mountain_travel"
 		]
 	},

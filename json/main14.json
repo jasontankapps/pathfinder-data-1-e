@@ -732,7 +732,7 @@
 					[ "{spell/Flesh Puppet}", 4, "necromancy", null, "evil", "Control a zombie in human guise." ],
 					[ "{spell/Fleshworm Infestation}", 4, "conjuration", "summoning", "evil", "Worms deal hp and Dex damage." ],
 					[ "{spell/Foretell Failure}", 4, "divination", null, null, "Learn if an action you are about to take would be too difficult; choose an alternate path if it is." ],
-					[ "{spell/Forgetful Slumber}", 4, "enchantment", "compulsion", "mind-affecting", "As deeper slumber, but only on one creature. This also causes them to lose some memories." ],
+					[ "{spell/Forgetful Slumber}", 4, "enchantment", "compulsion", "mind-affecting", "As deep slumber, but only on one creature. This also causes them to lose some memories." ],
 					[ "{spell/Frigid Souls}", 4, "necromancy", "haunted", "emotion, fear, mind-affecting", "Disrupt and dispel spells that protect against cold" ],
 					[ "{spell/Frosty Aura}", 4, "transmutation", null, "cold", "Gain the cold subtype or enhance an already existing subtype." ],
 					[ "{spell/Geas, Lesser}", 4, "enchantment", "compulsion", "curse, language-dependent, mind-affecting", "Commands subject of 7 HD or less." ],

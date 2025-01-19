@@ -1963,7 +1963,7 @@
 					[ "{spell/Erase Impressions}", 4, "abjuration", null, null, "Erase psychic impressions from an object." ],
 					[ "{spell/Feast on Fear}", 4, "necromancy", null, "emotion, fear, mind-affecting", "Targets are panicked, and you gain temporary hit points." ],
 					[ "{spell/Forbid Action, Greater}", 4, "enchantment", "compulsion", "language-dependent, mind-affecting", "As forbid action, but 1 creature/level." ],
-					[ "{spell/Forgetful Slumber}", 4, "enchantment", "compulsion", "mind-affecting", "As deeper slumber, but only on one creature. This also causes them to lose some memories." ],
+					[ "{spell/Forgetful Slumber}", 4, "enchantment", "compulsion", "mind-affecting", "As deep slumber, but only on one creature. This also causes them to lose some memories." ],
 					[ "{spell/Freedom of Movement}", 4, "abjuration", null, null, "Subject moves normally despite impediments to restrict movement." ],
 					[ "{spell/Hallucinatory Terrain}", 4, "illusion", "glamer", null, "Makes one type of terrain appear like another (field as forest, or the like)." ],
 					[ "{spell/Harvest Knowledge}", 4, "divination", null, "mind-affecting", "Sift through a creatures memories and make Knowledge checks with their modifier" ],

@@ -1069,7 +1069,7 @@
 		"description": [
 			"## Fire Totem, Greater (Su)",
 			"",
-			"While raging, the barbarian can envelope herself in a cloud of smoke that fills a 10-foot-radius sphere and follows her as she moves. Creatures in the affected area must succeed at Fortitude saves each round or [suffer the effects of breathing heavy smoke](rule/forest_fires_cr_6). The barbarian is immune to the smoke's effects, including vision obstruction. She can end this smoke as a free action, or it can be dispersed by wind in the same manner as a {spell/fog cloud} spell."
+			"While raging, the barbarian can envelope herself in a cloud of smoke that fills a 10-foot-radius sphere and follows her as she moves. Creatures in the affected area must succeed at Fortitude saves each round or [suffer the effects of breathing heavy smoke](rule/forest_fires). The barbarian is immune to the smoke's effects, including vision obstruction. She can end this smoke as a free action, or it can be dispersed by wind in the same manner as a {spell/fog cloud} spell."
 		]
 	},
 	"fire_totem_greater": { "copyof": "greater_fire_totem" },

@@ -1766,7 +1766,7 @@
 		"description": [
 			[ "[Jump to the table](#spellbookstable)" ],
 			[
-				"**Source:** {source/Ultimate Magic}  ",
+				"{SOURCE Ultimate Magic}  ",
 				"Each spellbook or formula book is a unique reflection of the personality and capabilities of its creator. Many of these tomes contain more than just spells, such as notes on the caster's other research, personal diaries, naturalist sketches, or even political treatises. Some contain preparation rituals, each of which grants a boon - or sometimes a hindrance - to spellcasters who use the book to prepare their spells.",
 				"",
 				"The sample spellbooks and formula books below each list a description of the book, information on the caster's specialty school and oppositional schools (if any), the book's spells, and its preparation ritual (if any). Some books also contain precautions against prying eyes.",
@@ -1785,7 +1785,7 @@
 			],
 			"# Transcribing Spellbook Preparation Rituals",
 			[
-				"**Source:** {source/Arcane Anthology}  ",
+				"{SOURCE Arcane Anthology}  ",
 				"Preparation rituals grant a unique boon to anyone who prepares at least three spells from the associated spellbook. Like spells, preparation rituals can be copied into new spellbooks. To imbue a spellbook with a preparation ritual, you must have the {feat/Scribe Scroll} feat, as well as a number of ranks in Spellcraft and a caster level each equal to double the highest spell level in the original spellbook. You also must have scribed at least three spells from the original spellbook into the new spellbook; at least one of these spells must be of the highest spell level found in the original spellbook. You must prepare those three spells (or know them, if you cast spells spontaneously) and perform an 8-hour creation ritual that requires supplies costing half as much as the value of the preparation ritual (the difference in the spellbook's value with and without the preparation ritual). At the ritual's end, attempt a Spellcraft check (DC = 10 + double the highest spell level in the original spellbook). If you succeed, the new spellbook gains that preparation ritual. If you fail, the supplies are wasted to no effect. Formula book preparation rituals are similarly imbued, but use extracts rather than spells, and instead of {feat/Scribe Scroll}, you must have {feat/Brew Potion}. A spellbook can have multiple preparation rituals, but it must meet the requirements for each. This does not affect the number of preparation rituals from which a character can benefit."
 			],
 			"# Prayer Book and Meditation Book Rituals",
@@ -2629,10 +2629,10 @@
 		"description": [
 			[ "[Jump to the table](#poisonstable)" ],
 			[
-				"**Source:** {source/PRPG Core Rulebook}  ",
+				"{SOURCE PRPG Core Rulebook}  ",
 				"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
 				"",
-				"**Source** {source/Inner Sea Intrigue}  ",
+				"{SOURCE Inner Sea Intrigue}  ",
 				"*Triggered Poisons:* Numerous Inner Sea poisons are designed to take effect only after exposure to a particular stimulus. Poisons with onset triggers list the specific triggers in their Onset entries (rather than a number of rounds, minutes, or days). A character who fails his Fortitude saving throw upon exposure doesn't start attempting saving throws against the poison's effects until exposed to the listed stimulus.",
 				"",
 				"Some triggered poisons have initial and secondary effects. The first time after an affected character triggers the poison and fails a saving throw to resist the poison, the character suffers the initial effect. If the affected character fails any subsequent saving throws, he suffers the secondary effect. Unless noted otherwise, a triggered poison that isn't triggered after 1 day has no effect."

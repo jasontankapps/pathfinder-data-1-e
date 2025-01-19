@@ -1791,7 +1791,7 @@
 		"description": [
 			"# Hero Point Feats ! heropoints",
 			[
-				"**Source** {source/Advanced Player's Guide/ pg. 323}  ",
+				"{SOURCE Advanced Player's Guide/323}  ",
 				"The following feats enhance your ability to store and gain {rule/hero points}.",
 				"",
 				"| Feat | Prerequisites | Description |",
@@ -1802,7 +1802,7 @@
 		],
 			"# Called Shot Feats ! calledshot",
 			[
-				"**Source** {source/Ultimate Combat/ pg. 193}  ",
+				"{SOURCE Ultimate Combat/193}  ",
 				"Called Shot feats are used with [alternate rules](rule/called_shots).",
 				"",
 				"| Feat | Prerequisites | Description |",
@@ -1812,7 +1812,7 @@
 			],
 			"# Targeting Feats ! targeting",
 			[
-				"**Source** {source/Ranged Tactics Toolbox/ pg. 8}  ",
+				"{SOURCE Ranged Tactics Toolbox/8}  ",
 				"Several of the following feats have the new targeting type. If you are using the optional {rule/called shots/ rules}, attacks made with targeting feats count as called shots for the purposes of abilities or effects that modify called shots, such as the Improved Called Shot.",
 				"",
 				"| Feat | Prerequisites | Description |",
@@ -1824,7 +1824,7 @@
 			],
 			"# Words of Power Feats ! words",
 			[
-				"**Source** {source/Ultimate Magic/ pg. 166}  ",
+				"{SOURCE Ultimate Magic/166}  ",
 				"Words of Power feats go with the [alternate rules](rule/words_of_power) involving words of power.",
 				"",
 				"| Feat | Prerequisites | Description |",
@@ -1835,7 +1835,7 @@
 			],
 			"# Esoteric Feats ! esoteric",
 			[
-				"**Source** {source/Pathfinder Unchained/ pg. 154}  ",
+				"{SOURCE Pathfinder Unchained/154}  ",
 				"In a campaign that uses the {rule/esoteric material component/ system>s}, characters have access to the following feats. Any time a character would gain a bonus metamagic feat, he can choose to take an esoteric feat instead. These feats have no prerequisites.",
 				"",
 				"| Feat | Description |",

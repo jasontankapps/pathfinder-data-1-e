@@ -1081,7 +1081,7 @@
 					[ "{spell/Flesh Puppet}", 4, "necromancy", null, "evil", "Control a zombie in human guise." ],
 					[ "{spell/Fleshworm Infestation}", 4, "conjuration", "summoning", "evil", "Worms deal hp and Dex damage." ],
 					[ "{spell/Fool's Teleport}", 4, "illusion", "glamer", null, "Become invisible, but appear as if you used teleportation magic to escape." ],
-					[ "{spell/Forgetful Slumber}", 4, "enchantment", "compulsion", "mind-affecting", "As deeper slumber, but only on one creature. This also causes them to lose some memories." ],
+					[ "{spell/Forgetful Slumber}", 4, "enchantment", "compulsion", "mind-affecting", "As deep slumber, but only on one creature. This also causes them to lose some memories." ],
 					[ "{spell/Freedom's Toast}", 4, "conjuration", "teleportation", null, "Teleport the target a short distance while freeing them from restraints." ],
 					[ "{spell/Frigid Souls}", 4, "necromancy", "haunted", "emotion, fear, mind-affecting", "Disrupt and dispel spells that protect against cold" ],
 					[ "{spell/Frosty Aura}", 4, "transmutation", null, "cold", "Gain the cold subtype or enhance an already existing subtype." ],

@@ -1701,7 +1701,7 @@
 					[ "{spell/Feast on Fear}", 4, "necromancy", null, "emotion, fear, mind-affecting", "Targets are panicked, and you gain temporary hit points." ],
 					[ "{spell/Flash Forward}", 4, "conjuration", "teleportation", null, "Charge, then teleport back to starting poisiton" ],
 					[ "{spell/Foretell Failure}", 4, "divination", null, null, "Learn if an action you are about to take would be too difficult; choose an alternate path if it is." ],
-					[ "{spell/Forgetful Slumber}", 4, "enchantment", "compulsion", "mind-affecting", "As deeper slumber, but only on one creature. This also causes them to lose some memories." ],
+					[ "{spell/Forgetful Slumber}", 4, "enchantment", "compulsion", "mind-affecting", "As deep slumber, but only on one creature. This also causes them to lose some memories." ],
 					[ "{spell/Freedom of Movement}", 4, "abjuration", null, null, "Subject moves normally despite impediments to restrict movement." ],
 					[ "{spell/Ghost Brand}", 4, "transmutation", null, "shadow", "Allow an item to transform into a brand and back." ],
 					[ "{spell/Ghostbane Dirge, Mass}", 4, "transmutation", null, null, "As ghostbane dirge, but affects multiple creatures." ],

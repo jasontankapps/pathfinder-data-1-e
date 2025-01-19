@@ -1314,7 +1314,7 @@
 					[ "{spell/Forbid Action}", 1, "compulsion", "language-dependent, mind-affecting", "Target obeys command to not do something." ],
 					[ "{spell/Forbid Action, Greater}", [ 4.861, "4, 5" ], "compulsion", "language-dependent, mind-affecting", "As forbid action, but 1 creature/level." ],
 					[ "{spell/Forced Repentance}", 4, "compulsion", "emotion, mind-affecting", "Target falls prone and confesses sins." ],
-					[ "{spell/Forgetful Slumber}", 4, "compulsion", "mind-affecting", "As deeper slumber, but only on one creature. This also causes them to lose some memories." ],
+					[ "{spell/Forgetful Slumber}", 4, "compulsion", "mind-affecting", "As deep slumber, but only on one creature. This also causes them to lose some memories." ],
 					[ "{spell/Foster Hatred}", [ 4.999, "4, 5, 6" ], "compulsion", "emotion", "Cause creatures to hate one type of creature." ],
 					[ "{spell/Frozen Note}", 5, null, null, "Paralyzes creatures listening to your song." ],
 					[ "{spell/Fumbletongue}", 1, "compulsion", "mind-affecting", "Target cannot speak intelligently." ],

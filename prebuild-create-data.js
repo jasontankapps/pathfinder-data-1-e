@@ -20,6 +20,12 @@ const statblockHeader = {
 			return `<p className="statblockHeader">${text}</p>\n`;
 		} else if (meta.name === "sh") {
 			return `<p className="statblockSubHeader">${text}</p>\n`;
+		} else if (meta.name === "fh") {
+			const {sub} = attrs;
+			if(sub) {
+				return `<p className="headerLike"><div>${text}</div><div className="sub">${sub}</div></p>\n`;
+			}
+			return `<p className="headerLike">${text}</p>\n`;
 		}
 		return false;
 	}
@@ -44,7 +50,7 @@ const convertLinks = (input) => {
 // Converts 'Source Title/1' to [Source Title pg. 1](source/source_title)
 //    and 'Source Title' to [Source Title](source/source_title)
 const makeSourceLink = (sourceInfo) => {
-	const m = sourceInfo.match(/(.+?)\/([0-9]+)/);
+	const m = sourceInfo.match(/(.+?)\/([, 0-9]+)/);
 	const source = m ? m[1] : sourceInfo;
 	const sourceText = m ? `${source} pg. ${m[2]}` : source;
 	const link = source.toLowerCase().replace(/[- ]/g, "_").replace(/[^-a-z_0-9]/g, "");

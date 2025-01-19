@@ -1,6 +1,7 @@
 import getItem from '../components/getItem';
 import cavalier from './subpages/__arc-cavalier';
 import slayer from './subpages/__arc-slayer';
+import antipaladin from './subpages/__arc-antipaladin';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -8,7 +9,8 @@ import './Page.css';
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
 	...cavalier,
-	...slayer
+	...slayer,
+	...antipaladin
 };
 
 type Data = typeof archetypes;

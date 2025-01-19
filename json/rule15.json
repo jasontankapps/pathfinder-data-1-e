@@ -19,8 +19,7 @@
 			"spells_of_the_wild",
 			"taxation",
 			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
+			"weather_in_the_wilderness"
 		],
 		"description": [
 			"These topics contain more \"advanced\" topics for GMs of the Pathfinder RPG."
@@ -61,8 +60,7 @@
 			"spells_of_the_wild",
 			"taxation",
 			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
+			"weather_in_the_wilderness"
 		]
 	},
 	"progression_and_end_states": {
@@ -689,8 +687,7 @@
 			"spells_of_the_wild",
 			"taxation",
 			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
+			"weather_in_the_wilderness"
 		]
 	},
 	"sandbox_exploration": {
@@ -934,7 +931,7 @@
 			"",
 			"***Difficult:*** A difficult desert is a treacherous place, full of sand dunes, sinkholes, rubble, [sandstorms](rule/severe_events), or numerous ravines. Rare seasonal rains might cause flash floods, sweeping away or drowning any creature in their path. Survival checks to avoid getting lost or to become un-lost in this hex gain a +1 bonus. Survival checks to get along in the wild increase by 5.",
 			"",
-			"Treat a flash flood as an {rule/avalanche>s_cr_7}, except instead of suffocating from being buried under rock, creatures who are buried must hold their breaths or start drowning.",
+			"Treat a flash flood as an {rule/avalanche>s}, except instead of suffocating from being buried under rock, creatures who are buried must hold their breaths or start drowning.",
 			"",
 			"***Feature:*** A desert hex feature might be a city or tomb long buried under the sands, one or more geoglyphs, an unusual mesa, a majestic canyon, a tar pit, or an oasis. A tall structure - such as a mesa or ruined tower - can be used as a landmark for navigation or an observation point to get a better view of the surrounding area. Other features might point to hidden treasures, ley lines, or celestial conjunctions.",
 			"",
@@ -1146,7 +1143,7 @@
 			"",
 			"Normal settlement hexes are small villages or military encampments. Settlements usually appear with another terrain type they're built upon. Frequently used trails or even simple roads reduce travel time through the hex by 25-50% depending on the terrain type for that hex.",
 			"",
-			"***Difficult:*** A difficult settlement hex holds the ruins of an abandoned town or one full of the victims of famine, [plague](rule/disease_templates), or another devastating event. Decrepit buildings might collapse at any moment (treat as a [cave-in or collapse](rule/cave_ins_and_collapses_cr_8)).",
+			"***Difficult:*** A difficult settlement hex holds the ruins of an abandoned town or one full of the victims of famine, [plague](rule/disease_templates), or another devastating event. Decrepit buildings might collapse at any moment (treat as a {rule/cave-in>s_and_collapses}).",
 			"",
 			"***Feature:*** The settlement hex has a community with a well-known reputation or historical significance.",
 			"",
@@ -1287,7 +1284,7 @@
 			"",
 			"### Grass Fire (Hill, Plain)",
 			"",
-			"Grass fires are often caused by lightning or careless camp fires. A grass fire is similar to a [forest fire](rule/forest_fires_cr_6), except it can be spotted at twice the normal distance, and a PC caught in its area saves against heat damage only every 10 rounds.",
+			"Grass fires are often caused by lightning or careless camp fires. A grass fire is similar to a [forest fire](rule/forest_fires), except it can be spotted at twice the normal distance, and a PC caught in its area saves against heat damage only every 10 rounds.",
 			"",
 			"### Volcanic Tremor (Hill, Mountain)",
 			"",
@@ -1350,8 +1347,7 @@
 			"spells_of_the_wild",
 			"taxation",
 			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
+			"weather_in_the_wilderness"
 		]
 	},
 	"the_exploration_process": {
@@ -1713,8 +1709,7 @@
 			"spells_of_the_wild",
 			"taxation",
 			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
+			"weather_in_the_wilderness"
 		]
 	},
 	"starting_a_duel": {
@@ -1973,8 +1968,7 @@
 			"spells_of_the_wild",
 			"taxation",
 			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
+			"weather_in_the_wilderness"
 		]
 	},
 	"setting_the_scene_2": {
@@ -2685,8 +2679,7 @@
 			"spells_of_the_wild",
 			"taxation",
 			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
+			"weather_in_the_wilderness"
 		]
 	},
 	"what_is_different": {
@@ -3118,8 +3111,7 @@
 			"spells_of_the_wild",
 			"taxation",
 			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
+			"weather_in_the_wilderness"
 		]
 	},
 	"alternate_goals": {
@@ -3266,8 +3258,7 @@
 			"spells_of_the_wild",
 			"taxation",
 			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
+			"weather_in_the_wilderness"
 		]
 	},
 	"provoking_a_nemesis": {
@@ -3711,8 +3702,7 @@
 			"spells_of_the_wild",
 			"taxation",
 			"trophies_and_treasures",
-			"weather_in_the_wilderness",
-			"hazards_and_disasters"
+			"weather_in_the_wilderness"
 		]
 	},
 	"types_of_performance_combat": {
