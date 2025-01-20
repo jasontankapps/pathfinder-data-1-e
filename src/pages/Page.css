@@ -36,8 +36,37 @@ h2:first-child,
 h3:first-child,
 h4:first-child,
 h5:first-child,
-h6:first-child {
+h6:first-child,
+div.headerLike:first-child,
+.hierarchyInset + h1,
+.hierarchyInset + h2,
+.hierarchyInset + h3,
+.hierarchyInset + h4,
+.hierarchyInset + h5,
+.hierarchyInset + h6,
+.jumpList + div.headerLike,
+.jumpList + h1,
+.jumpList + h2,
+.jumpList + h3,
+.jumpList + h4,
+.jumpList + h5,
+.jumpList + h6,
+.jumpList + div.headerLike {
 	border-block-start-width: 0;
+}
+div.headerLike {
+	font-size: 1.5rem;
+	margin-block-end: 1.35rem;
+	font-weight: bold;
+	line-height: 1.75rem;
+}
+div.headerLike div {
+	margin-block-end: 0;
+}
+div.headerLike div.sub {
+	font-size: 1.25rem;
+	padding-block-start: 0;
+	padding-inline-start: 1rem;
 }
 
 /* Main */
@@ -95,7 +124,8 @@ div.hierarchyInset {
 	font-style: italic;
 	font-weight: bold;
 	margin-inline: 0.5rem;
-	margin-block: 0.5rem;
+	margin-block-start: 0.5rem;
+	margin-block-end: 0;
 }
 div.hierarchyRulesInset span {
 	white-space: nowrap;
@@ -283,8 +313,7 @@ div.main.basicContent ion-list ion-item.mainItem.basic ion-label th p,
 div.main.basicContent ion-list ion-item.mainItem.basic ion-label td p {
 	margin-block-end: 0;
 }
-div.main.basicContent ion-list ion-item.mainItem.basic ion-label h2,
-div.headerLike {
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label h2 {
 	font-size: 1.5rem;
 	margin-block-end: 1.35rem;
 }
@@ -306,12 +335,6 @@ div.main.basicContent h4 a,
 div.main.basicContent h5 a,
 div.main.basicContent h6 a {
 	text-decoration: none;
-}
-div.headerLike {
-	font-weight: bold;
-}
-div.headerLike div.sub {
-	font-size: 1.25rem;
 }
 
 /* Statblocks */
@@ -361,7 +384,7 @@ div.headerLike div.sub {
 /* General tables */
 
 ion-button[slot=end] + ion-button[slot=end] {
-	margin-inline-start: 16px;
+	margin-inline-start: 8px;
 }
 ion-button.tableFilterButton {
 	float: inline-end;

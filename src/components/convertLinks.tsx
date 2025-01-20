@@ -1,7 +1,11 @@
 // Below needs to be copied to tests/checkForEncodedLink.js (minus Typescript) when changed
-export const checkForEncodedLink = (input: string): false | string[] => {
+export const checkForEncodedLink = (input: string, normal: boolean = false): false | string[] => {
 	let m = input.match(/(^.*?)\{([-a-z_]+)\/([^}]+)\}(.*$)/);
 	if(!m) {
+		if(normal && (m = input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)\/([^)]+)\)(.*$)/))) {
+			const [x, pre, text, protocol, property, post] = m;
+			return [pre, `${protocol}/${property}`, text, post, protocol, property];
+		}
 		return false;
 	}
 	const [x, pre, protocol, matchedx, post] = m;

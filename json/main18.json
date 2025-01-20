@@ -2632,10 +2632,7 @@
 				"{SOURCE PRPG Core Rulebook}  ",
 				"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
 				"",
-				"{SOURCE Inner Sea Intrigue}  ",
-				"*Triggered Poisons:* Numerous Inner Sea poisons are designed to take effect only after exposure to a particular stimulus. Poisons with onset triggers list the specific triggers in their Onset entries (rather than a number of rounds, minutes, or days). A character who fails his Fortitude saving throw upon exposure doesn't start attempting saving throws against the poison's effects until exposed to the listed stimulus.",
-				"",
-				"Some triggered poisons have initial and secondary effects. The first time after an affected character triggers the poison and fails a saving throw to resist the poison, the character suffers the initial effect. If the affected character fails any subsequent saving throws, he suffers the secondary effect. Unless noted otherwise, a triggered poison that isn't triggered after 1 day has no effect."
+				"Rules for poisons and explanations for their stats [are found here.](rule/poison)"
 			],
 			"# Table ! poisonstable",
 			[ "{table0}" ]

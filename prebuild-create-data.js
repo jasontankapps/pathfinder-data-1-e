@@ -23,9 +23,9 @@ const statblockHeader = {
 		} else if (meta.name === "fh") {
 			const {sub} = attrs;
 			if(sub) {
-				return `<p className="headerLike"><div>${text}</div><div className="sub">${sub}</div></p>\n`;
+				return `<div className="headerLike"><div>${text}</div><div className="sub">${sub}</div></div>\n`;
 			}
-			return `<p className="headerLike">${text}</p>\n`;
+			return `<div className="headerLike">${text}</div>\n`;
 		}
 		return false;
 	}

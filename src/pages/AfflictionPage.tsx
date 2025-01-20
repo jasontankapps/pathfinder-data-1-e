@@ -55,7 +55,7 @@ const AfflictionPage: React.FC = () => {
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={pageId}
-		topLink={["Afflictions", "rule/afflictions"]}
+		topLink={subhierarchy.length ? subhierarchy[0] : ["Afflictions", "rule/afflictions"]}
 	>{jsx}</BasicPage>;
 };
 

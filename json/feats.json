@@ -389,7 +389,7 @@
 			"",
 			"Some orc adepts enjoy a greater connection to their gods, and can channel their faith through their unholy symbols. You gain the ability to channel energy as a cleric.  ",
 			"**Prerequisites:** Ability to cast divine spells, summon familiar class ability, caster level 4th, Cha 13.  ",
-			"**Benefit:** You gain the channel energy class feature, as a cleric, usable 2 times per day. This ability otherwise functions like the cleric's channel energy ability, except that your effective cleric level is equal to your divine spellcasting class level -3. Unlike a cleric, however, the number of times per day you may channel energy is not affected by your Charisma modifier."
+			"**Benefit:** You gain the channel energy class feature, as a cleric, usable 2 times per day. This ability otherwise functions like the cleric's channel energy ability, except that your effective cleric level is equal to your divine spellcasting class level - 3. Unlike a cleric, however, the number of times per day you may channel energy is not affected by your Charisma modifier."
 		]
 	},
 	"advanced_armor_training": {
@@ -1377,7 +1377,7 @@
 			"",
 			"Your respect for nature is so great that you can form a deep and lasting friendship with an animal.  ",
 			"**Prerequisites:** {feat/Nature Soul}, character level 4th, must not have an animal companion or mount that advances as an animal companion.  ",
-			"**Benefit:** You gain an animal companion as if you were a druid of your character level -3 from the following list: badger, bird, camel, cat (small), dire rat, dog, horse, pony, snake (viper), or wolf. If you later gain an animal companion through another source (such as the Animal domain, divine bond, hunter's bond, mount, or nature bond class features), the effective druid level granted by this feat stacks with that granted by other sources."
+			"**Benefit:** You gain an animal companion as if you were a druid of your character level - 3 from the following list: badger, bird, camel, cat (small), dire rat, dog, horse, pony, snake (viper), or wolf. If you later gain an animal companion through another source (such as the Animal domain, divine bond, hunter's bond, mount, or nature bond class features), the effective druid level granted by this feat stacks with that granted by other sources."
 		]
 	},
 	"animal_call": {

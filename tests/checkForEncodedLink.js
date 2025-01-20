@@ -19,9 +19,13 @@
 // The advanced forms can be used together in the order <|/>
 //   {rule/special_<Pre |Link//Text/ Stuff>_info} => [Pre Link/Text Stuff](rule/special_link_text_info)
 
-const checkForEncodedLink = (input) => {
+const checkForEncodedLink = (input, normal = false) => {
 	let m = input.match(/(^.*?)\{([-a-z_]+)\/([^}]+)\}(.*$)/);
 	if(!m) {
+		if(normal && (m = input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)\/([^)]+)\)(.*$)/))) {
+			const [x, pre, text, protocol, property, post] = m;
+			return [pre, `${protocol}/${property}`, text, post, protocol, property];
+		}
 		return false;
 	}
 	const [x, pre, protocol, matchedx, post] = m;

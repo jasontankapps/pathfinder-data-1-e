@@ -68,9 +68,12 @@ const checkForBadTables = (tables, objectDescription) => {
 							if(!f || typeof f !== "object") {
 								return true;
 							}
-							const { col, range, equals, has, labels } = f;
+							const { col, range, equals, has, word, labels } = f;
 							if (col === undefined || typeof col !== "number" || parseInt(col) !== col || col < 0 || col >= headers.length) {
 								found = `Missing or invalid "col" prop in ${tableDesc}.filter[${fi}]`;
+								return true;
+							} else if (word !== undefined && (!has || range || equals || (word !== false && word !== true))) {
+								found = `Bad "word" prop in ${tableDesc}.filter[${fi}]`;
 								return true;
 							} else if (range) {
 								if (!Array.isArray(range)

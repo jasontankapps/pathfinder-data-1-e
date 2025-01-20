@@ -264,7 +264,7 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 	const dispatch = useAppDispatch();
 	// datum will be either `{linkString}` or `[ sortableThing, {linkString} ]`
 	const linkString = Array.isArray(datum) ? datum[1] : datum;
-	const m = (typeof linkString === "string") ? checkForEncodedLink(linkString) : false;
+	const m = (typeof linkString === "string") ? checkForEncodedLink(linkString, true) : false;
 	if(!m) {
 		return (
 			<td className={align === false ? "ion-text-end" : (align === null ? "ion-text-center" : (align && "ion-text-start"))}>LINK EXPECTED: {linkString}</td>
@@ -282,6 +282,7 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 
 interface FilterObject {
 	text: string
+	otherText: string
 	options: string[]
 	toggles: number[][]
 }
@@ -327,9 +328,10 @@ interface RowItem {
 const FilterOption: FC<{
 	filter: FilterObject,
 	index: number,
-	func: (output: number[], value: string, to: boolean) => void
+	func: (output: number[], value: string, to: boolean) => void,
+	func2: (output: number[], value: string) => void
 }> = (props) => {
-	const { filter, index, func } = props;
+	const { filter, index, func, func2 } = props;
 	const { text, options, toggles } = filter;
 	const [currentValue, setCurrentValue] = useState(0);
 	return (
@@ -349,6 +351,7 @@ const FilterOption: FC<{
 				}
 			</IonSelect>
 			<IonButton slot="end" color="success" onClick={() => func(toggles[currentValue], options[currentValue], true)}>On</IonButton>
+			<IonButton slot="end" color="secondary" onClick={() => func2(toggles[currentValue], options[currentValue])}><IonIcon slot="icon-only" src="/icons/overlap.svg" /></IonButton>
 			<IonButton slot="end" color="danger" onClick={() => func(toggles[currentValue], options[currentValue], false)}>Off</IonButton>
 		</IonItem>
 	);
@@ -365,7 +368,6 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		setOpen,
 		saveFunc
 	} = props;
-	const dispatch = useAppDispatch();
 	// Active Headers/Rows are arrays of true/false indicating if the element is visible or not
 	const [activeHeaders, setActiveHeaders] = useState<boolean[]>([]);
 	const [activeRows, setActiveRows] = useState<boolean[]>([]);
@@ -389,6 +391,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 				const {col, labels, header} = f;
 				const options: string[] = [];
 				let how = "is";
+				let other = "isn't";
 				if(f.range) {
 					const [ min, max ] = f.range;
 					let x = min, i = 0;
@@ -406,19 +409,32 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					}
 				} else if (f.has) {
 					how = "includes";
+					other = "doesn't include";
 					const has = f.has;
 					has.forEach((h, i) => {
 						toggles.push([]);
 						options.push(labels ? labels[i] : h)
 					});
-					originalRows.forEach((row, i) => {
-						const test = String(getValue(row[col]));
-						has.forEach((looking, j) => {
-							if(test.indexOf(looking) > -1) {
-								toggles[j].push(i);
-							}
+					if(f.word) {
+						const hasRx = has.map(h => new RegExp(`\\b${h}\\b`));
+						originalRows.forEach((row, i) => {
+							const test = String(getValue(row[col]));
+							hasRx.forEach((looking, j) => {
+								if(test.match(looking)) {
+									toggles[j].push(i);
+								}
+							});
 						});
-					});
+					} else {
+						originalRows.forEach((row, i) => {
+							const test = String(getValue(row[col]));
+							has.forEach((looking, j) => {
+								if(test.indexOf(looking) > -1) {
+									toggles[j].push(i);
+								}
+							});
+						});
+					}
 				} else if (f.equals) {
 					const equals = f.equals;
 					equals.forEach((e, i) => {
@@ -440,6 +456,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 				// Add filter to list of filters
 				const obj: FilterObject = {
 					text: `${header || oh[col]} ${how}`,
+					otherText: `${header || oh[col]} ${other}`,
 					options,
 					toggles
 				};
@@ -538,11 +555,39 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	};
 	const toggleRows = (output: number[], text: string, value: string, bool: boolean) => {
 		const newRows = [...activeRows];
-		output.forEach(i => (newRows[i] = bool));
+		let total = 0;
+		output.forEach(i => {
+			if(newRows[i] !== bool) {
+				newRows[i] = bool;
+				total++;
+			}
+		});
 		setActiveRows(newRows);
 		closeToast().then(() => toast({
-			message: `Toggled ${bool ? "ON" : "OFF"} ${output.length} rows where ${text} ${value}.`,
+			message: `Toggled ${bool ? "ON" : "OFF"} ${total} rows where ${text} ${value}.`,
 			color: bool ? "success" : "danger",
+			duration: 2500,
+			position: "top"
+		}));
+	};
+	const intersectRows = (output: number[], text: string, value: string) => {
+		let total = 0;
+		let saved = 0;
+		const newRows = activeRows.map((r, i) => {
+			if((output.indexOf(i) === -1) && r) {
+				// If this is NOT in the target output,
+				//   AND it's already on,
+				// THEN toggle it off
+				total++;
+				return false;
+			}
+			r && saved++;
+			return r;
+		});
+		setActiveRows(newRows);
+		closeToast().then(() => toast({
+			message: `Toggled OFF ${total} rows where ${text} ${value}, leaving ${saved} rows ON.`,
+			color: "secondary",
 			duration: 2500,
 			position: "top"
 		}));
@@ -594,6 +639,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						filterObjects.map((f, i) =>
 							<FilterOption key={`filter${i}:${f.text}`} filter={f} index={i} func={
 								(output: number[], value: string, to: boolean) => toggleRows(output, f.text, value, to)
+							} func2={
+								(output: number[], value: string) => intersectRows(output, f.otherText, value)
 							} />
 						)
 					}
