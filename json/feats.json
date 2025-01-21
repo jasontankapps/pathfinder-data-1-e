@@ -151,7 +151,7 @@
 			"{SOURCE Ultimate Campaign/67}",
 			"",
 			"Your curse weighs down your soul like a millstone around your neck.  ",
-			"**Prerequisites:** You must carry a curse that can be lifted only by a quest or similar great undertaking, or have the Cursed Birth background.  ",
+			"**Prerequisites:** You must carry a curse that can be lifted only by a quest or similar great undertaking, or have the [Cursed Birth](rule/birth_circumstances_and_more) circumstance background.  ",
 			"**Benefit:** You gain spell resistance equal to 5 + your character level, as the curse interferes with all magic. Unlike most spell resistance, it can't voluntarily be lowered, though your own spells and magic items still automatically affect you.  ",
 			"**Goal:** Your curse is lifted or you are able to purge the corruption of your fiendish blood (the circumstances of either vary widely based on the nature of the curse, and are up to the GM).  ",
 			"**Completion Benefit:** You lose the spell resistance described above. You gain spell resistance equal to 11 + your character level, but only against harmful enchantment, necromancy, and transmutation spells and spell-like abilities; your aura resists further attempts to curse you. Harmless spells automatically bypass this spell resistance whether you desire it or not. This spell resistance can be voluntarily lowered."
@@ -2006,7 +2006,7 @@
 			"{SOURCE Ultimate Campaign/67}",
 			"",
 			"Escaping death strengthened your bond to life, but fills you with a need for answers.  ",
-			"**Prerequisites:** You must have been slain and brought back from the dead, or have the Left to Die or Cursed Birth background.  ",
+			"**Prerequisites:** You must have been slain and brought back from the dead, or have the [Left to Die or Cursed Birth](rule/birth_circumstances_and_more) circumstance background.  ",
 			"**Benefit:** You don't die until your negative hit point total is equal to or greater than 4 + your Constitution score. Once per day as a standard action, you can force yourself to carry on by strength of will alone, gaining 1 temporary hit point per hit die. These temporary hit points last for 10 minutes.  ",
 			"**Normal:** You die when your negative hit point total is equal to or greater than your Constitution score.  ",
 			"**Goal:** You meet in person and hear the words of your deity or your deity's chosen herald. If you worship a pantheon of deities, you must meet and hear a member of that pantheon - a herald does not suffice in this case. If you worship no specific deity, you must hear the words of an appropriate entity of the GM's choice.  ",
@@ -3298,7 +3298,7 @@
 			"{SOURCE Ultimate Campaign/67}",
 			"",
 			"In even the fiercest battles, you risk life and limb to save your allies.  ",
-			"**Prerequisites:** You must successfully cast a conjuration (healing) spell on an ally after being hit by an attack of opportunity, or have the Battle, Chaplain, or Healed background.  ",
+			"**Prerequisites:** You must successfully cast a conjuration (healing) spell on an ally after being hit by an attack of opportunity, or have the Battle (oracle), Chaplain (inquisitor), or Healed (cleric) {rule/class background>_tables}.  ",
 			"**Benefit:** When attempting a concentration check caused by receiving damage (including ongoing damage), you reduce the damage taken by 50% for the purposes of determining the concentration check DC.  ",
 			"**Goal:** Over time, provoke at least 20 attacks of opportunity for casting conjuration (healing) spells on allies. These spells don't have to succeed to count.  ",
 			"**Completion Benefit:** You automatically succeed at concentration checks for conjuration (healing) spells caused by taking damage."
@@ -3667,7 +3667,7 @@
 			"{SOURCE Agents of Evil/8}",
 			"",
 			"Believing in a just cause left you with a knife in your back. Now you hoard your trust in others, rarely sharing it.  ",
-			"**Prerequisites:** You must have had a valuable item (worth at least 1, 000 gp per character level) stolen by a former ally, have been left for dead by a former ally, or have the Wrong Enemy background.  ",
+			"**Prerequisites:** You must have had a valuable item (worth at least 1, 000 gp per character level) stolen by a former ally, have been left for dead by a former ally, or have the [Wrong Enemy](rule/bad_beginnings) conflict background.  ",
 			"**Benefit:** When you are in a harmful area of effect created by an ally (through a spell or other means), you can roll your saving throw twice and take the better result. If you do so, your shaken trust means you do not provide flanking bonuses to any allies for 1 hour.  ",
 			"**Goal:** Track down the people who betrayed you, and either bring them to justice or slay them. At the GM's discretion, certain members of this group can be spared if they provide important information leading to more prominent targets.  ",
 			"**Completion Benefit:** You grow more confident in reading others, if not exactly more trusting of them. Your allies and enemies no longer provide cover bonuses on attacks you make against other creatures. You also gain a 20% miss chance against any attacks of opportunity made against you, as long as an ally is threatening the creature making the attack."

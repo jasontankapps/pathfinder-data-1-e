@@ -76,7 +76,7 @@
 			"{SOURCE Pathfinder #131: The Reaper's Right Hand/78}",
 			"",
 			"You have vowed to infiltrate your wicked kin and redeem your family's reputation.  ",
-			"**Prerequisites:** Be a member of House Kastner, be a good-aligned member of a family or organization whose secret evil has been publicly revealed, or have the Dishonored Family or Betrayal backgrounds.  ",
+			"**Prerequisites:** Be a member of House Kastner, be a good-aligned member of a family or organization whose secret evil has been publicly revealed, or have the Dishonored Family (circumstance) or Betrayal (chldhood event) [backgrounds](rule/birth_circumstances_and_more).  ",
 			"**Benefit:** Your experience with infiltrating your own family or organization gives you a +2 bonus on Disguise checks. If you have 10 or more ranks in Disguise, this bonus increases to +4. If you are not evil, as a standard action you can choose to radiate a faint aura of evil for the purposes of spells such as {spell/detect evil}. You can dismiss this ersatz aura as a standard action.  ",
 			"**Goal:** Redeem your family or organization.  ",
 			"**Completion Benefit:** You gain the benefit of {spell/undetectable alignment} as a constant spell-like ability. You can suppress or resume this ability as a standard action."
@@ -761,7 +761,7 @@
 			"{SOURCE Ultimate Campaign/69}",
 			"",
 			"You have glimpsed the madness at the edges of reality.  ",
-			"**Prerequisites:** You must have faced an undead, evil outsider, or aberration with a CR greater than your level +4, or have the Raised Among the Dead or The Dead One background.  ",
+			"**Prerequisites:** You must have faced an undead, evil outsider, or aberration with a CR greater than your level +4, or have the [Raised Among the Dead](rule/birth_circumstances_and_more) (adopted) or [The Dead One](rule/influential_associates_table) (associate) background.  ",
 			"**Benefit:** You gain a +2 bonus on Knowledge (dungeoneering) checks to identify the vulnerabilities and powers of aberrations, Knowledge (planes) checks to identify the vulnerabilities and powers of evil outsiders, and Knowledge (religion) checks to identify the vulnerabilities and powers of undead, and you can make such checks untrained. If you have 10 or more ranks in any of these Knowledge skills, the bonus increases to +4 for the appropriate skill. In addition, you gain a +2 bonus on saves against fear effects.  ",
 			"**Goal:** Be killed or driven insane (as determined by the GM) by an aberration, evil outsider, or undead. This leaves your mind permanently marked.  ",
 			"**Completion Benefit:** Any sane creature that attempts to read your thoughts takes 1d6 points of Wisdom damage (Will DC 10 + 1/2 your level + your Charisma modified negates). In addition, the effect of any ability damage, ability drain, or penalty to your Intelligence, Wisdom, or Charisma is halved (minimum 1). You take a -2 penalty on Will saving throws. Whenever you roll a save against a mind-affecting effect, roll twice and keep the better result."
@@ -2741,7 +2741,7 @@
 			"{SOURCE Agents of Evil/9}",
 			"",
 			"You dedicated yourself to the cause of slaughter against a specific group or people, either for country, for vengeance, or perhaps just for sport.  ",
-			"**Prerequisites:** You must have been rendered unconscious and left for dead on a battlefield between warring factions or have the Child Soldier or Drafted background.  ",
+			"**Prerequisites:** You must have been rendered unconscious and left for dead on a battlefield between warring factions or have the Child Soldier (early event) or Drafted (conflict) [background](rule/bad_beginnings).  ",
 			"**Benefit:** Select a particular nation, organization, or humanoid subtype (such as Cheliax, [Eagle Knights](rule/aff_vangard), or goblinoids). You gain a +4 bonus on Sense Motive checks to determine whether a given creature is affiliated with that group and a +4 bonus on Bluff and Diplomacy checks to conceal your animosity toward members of that group.  ",
 			"**Goal:** Deliver the killing blow to a number of your hated foes whose combined Hit Dice total is equal to 10 &times; your current character level.  ",
 			"**Completion Benefit:** You gain a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against foes of your selected type, and a +2 bonus on weapon attack and damage rolls against them. These bonuses stack with a ranger's favored enemy bonuses.  ",

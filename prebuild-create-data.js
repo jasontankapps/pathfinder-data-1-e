@@ -159,7 +159,7 @@ const postprocess = (prefix, tables, flags) => {
 			output = output + `${pre}<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			jumplist.split(/ +\/ +/).forEach(input => {
 				const hash = input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
-				output = output + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${prefix}${hash}")} onClick={()=>jumpScroller("${prefix}${hash}")}>${input} &#8269;</li>`;
+				output = output + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${prefix}${hash}")} onClick={()=>jumpScroller("${prefix}${hash}")}>${input}</li>`;
 			});
 			output = output + `</ul></div>`;
 			text = post;

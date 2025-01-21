@@ -398,7 +398,7 @@
 			"{SOURCE Agents of Evil/9}",
 			"",
 			"Extradimensional forces vie for your soul, and have offered you riches and power to claim it.  ",
-			"**Prerequisites:** You must have refused an evil creature with at least 15 Hit Dice who offered gifts or assistance, have refused an evil creature offering to cast a spell of 7th-level or higher on your behalf, or have the Planar Offering background.  ",
+			"**Prerequisites:** You must have refused an evil creature with at least 15 Hit Dice who offered gifts or assistance, have refused an evil creature offering to cast a spell of 7th-level or higher on your behalf, or have the [Planar Offering](rule/bad_beginnings) early event background.  ",
 			"**Benefit:** When negotiating with evil outsiders, you gain a +2 bonus on Bluff and Diplomacy checks. You gain an amount of spell resistance equal to 5 + your character level against spells and spell-like abilities originating from outsiders with the evil subtype.  ",
 			"**Goal:** Receive a boon from an evil creature that is equivalent in value to a month's service or an 8th-level spell without becoming indebted to the creature or giving up anything in return. This cannot be the result of magical compulsion.  ",
 			"**Completion Benefit:** You gain an amount of spell resistance equal to 5 + your character level against spells or spell-like abilities originating from outsiders."
@@ -413,7 +413,7 @@
 			"{SOURCE Pathfinder #131: The Reaper's Right Hand/77}",
 			"",
 			"You can ignore privation and channel your emotions to prepare for a later bounty.  ",
-			"**Prerequisites:** Be a member of House Denzarni, or have the Bloodthirsty, Omen, Tree Tender, or Unsuspecting Master background.  ",
+			"**Prerequisites:** Be a member of House Denzarni, or have The Omen {rule/birth circumstance/ background>s_and_more}, or the Bloodthirsty (barbarian), Tree Tender (druid), or Unsuspecting Master (monk)  {rule/class background>_tables}}.  ",
 			"**Benefit:** You add 1 day to the time you can go without food or water before making Constitution checks and you add +4 to Constitution checks to stave off the effects of starvation and thirst.  ",
 			"**Goal:** You must succumb to your emotions and be victorious. Thwart an appropriate number of foes while you are subject to an effect with the emotion descriptor, such as {spell/rage}.  ",
 			"**Completion Benefit:** Once per day, you can use {spell/heroes' feast} as a spell-like ability with a caster level equal to your character level, although your feast does not grant the effects of {spell/neutralize poison} or {spell/remove disease}."
@@ -531,7 +531,7 @@
 			"{SOURCE Agents of Evil/9}",
 			"",
 			"Others made you feel small for too long, and now you drive yourself hard and never settle for second place.  ",
-			"**Prerequisites:** You must have been defeated by the same individual, organization, or creature type at least four times, or have the Boarding School or Humiliated background.  ",
+			"**Prerequisites:** You must have been defeated by the same individual, organization, or creature type at least four times, or have the Boarding School or Humiliated [\"growing up\"](rule/bad_beginnings) background.  ",
 			"**Benefit:** You take only half the normal penalties from exhaustion. Choose one skill upon selecting this feat. Once per day, you can forgo rest to study or practice, gaining a +3 bonus on all checks attempted with your selected skill for 24 hours but becoming fatigued in the process. If you rest to recover from this fatigue, this bonus ends (but not if you recover from your fatigue in other ways, such as via lesser restoration). Forgoing rest for this purpose does not interfere with a spellcaster's ability to prepare spells.  ",
 			"**Goal:** You must utterly humiliate a member of your hated group by besting that creature at an activity for which it is known or in which it takes pride. This opponent's Hit Dice must exceed your current character level by at least 1.  ",
 			"**Completion Benefit:** Each time you forgo rest to study or practice, you can apply this feat's +3 bonus to a different skill. If you have 10 or more ranks in the skill selected, this bonus increases to +6."
@@ -3229,7 +3229,7 @@
 			"{SOURCE Quests and Campaigns/12;Ultimate Campaign/71}",
 			"",
 			"The truth has been revealed, and you have been chosen to deliver it.  ",
-			"**Prerequisites:** Ability to cast divine spells, and you must either have received a vision from your god (or another appropriate supernatural entity) or have the Marked by the Gods background.  ",
+			"**Prerequisites:** Ability to cast divine spells, and you must either have received a vision from your god (or another appropriate supernatural entity) or have the [Marked by the Gods](rule/birth_circumstances_and_more) circumstance background.  ",
 			"**Benefit:** If you are nonevil and worship a nonevil deity, whenever you cast a beneficial spell on an ally you gain a +1 sacred bonus to AC for 1 round per spell level. If you are evil or worship an evil deity, whenever you cast a harmful spell on an enemy you gain a +1 profane bonus to AC for 1 round per spell level. Casting a spell on yourself does not count unless it also affects an ally.  ",
 			"**Goal:** Convert an appropriate number of creatures to the worship of your deity.  ",
 			"**Completion Benefit:** Your bonus to AC for casting beneficial or harmful spells on allies increases to +2, and the bonus also applies on saving throws for the same duration.",
@@ -3284,7 +3284,7 @@
 			"{SOURCE Pathfinder #131: The Reaper's Right Hand/76}",
 			"",
 			"Your family has raised cities and mastered trade, and you seek to do the same.  ",
-			"**Prerequisites:** Be a member of House Corcina, or have the Craftsperson, Inheritance, Well-Connected Friend, or Worldshaker background.  ",
+			"**Prerequisites:** Be a member of House Corcina, or have the Inheritance [major childhood event](rule/birth_circumstances_and_more) background, Worldshaker (bard) {rule/class background>_tables}, or the Craftsperson or Well-Connected Friend [background](rule/influential_associates_table).  ",
 			"**Benefit:** When in a settlement the size of a large city or smaller, you receive a +2 bonus on Appraise checks and Diplomacy checks. If you have 10 or more ranks in one of these skills, the bonus on that skill increases to +4.  ",
 			"**Goal:** Your actions must spur a settlement to grow to the next size category; this usually involves decisively defeating a challenging foe or an appropriate number of foes preying upon or impeding the settlement's citizenry.  ",
 			"**Completion Benefit:** You teach others how to get the most out of their equipment. Three times per day as a standard action, you can increase the armor bonus provided by a suit of nonmagical armor, the circumstance bonus to a skill provided by a tool or skill kit, or the shield bonus provided by a nonmagical shield by 1. This bonus lasts for 1 hour and doesn't stack with other uses of this ability."
@@ -3640,7 +3640,7 @@
 			"{SOURCE Spymaster's Handbook/16}",
 			"",
 			"You crave power you can wield without drawing attention to yourself.  ",
-			"**Prerequisites:** You must have survived an encounter with a challenging foe without suffering significant harm by striking a deal (regardless of whether the deal was with the challenging foe or not), or have the Boss, the Liege Lord, or the Well-Connected Friend background.  ",
+			"**Prerequisites:** You must have survived an encounter with a challenging foe without suffering significant harm by striking a deal (regardless of whether the deal was with the challenging foe or not), or have the Boss, the Liege Lord, or the Well-Connected Friend [background](rule/influential_associates_table).  ",
 			"**Benefit:** If you succeed at a Diplomacy check to make a request of a creature by 5 or more, the DCs of additional requests you attempt increase by 1 per request, rather than 5.  ",
 			"**Goal:** Either thwart or decisively defeat an appropriate number of challenging foes as a direct result of bargains you have struck or control at least three leaders of settlements of at least 2,000 residents or similarly influential administrators for at least 6 months without being publicly exposed.  ",
 			"**Completion Benefit:** If you succeed at a Diplomacy check to make a request of a creature, the DCs of additional requests you attempt increase by 1 per request, rather than 5."

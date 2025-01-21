@@ -489,7 +489,7 @@
 			"{SOURCE Ultimate Campaign/71}",
 			"",
 			"Your past failure haunts you and drives you on.  ",
-			"**Prerequisites:** You must have lost class features by violating the code of conduct of a class that possesses such a code, or have the Dishonored Family background.  ",
+			"**Prerequisites:** You must have lost class features by violating the code of conduct of a class that possesses such a code, or have the Dishonored Family [background](rule/birth_circumstances_and_more).  ",
 			"**Benefit:** As an immediate action, you can add a +1 bonus to the result of an ability check, attack roll, saving throw, or skill check you have just rolled by becoming shaken for 1 minute. You must choose before the result is revealed.  ",
 			"**Goal:** Regain any lost class features and complete a quest to prove your worth. In the course of completing this quest, you must decisively defeat a challenging foe. The quest should relate in some fashion to the transgression that removed your class abilities or led to you being disgraced.  ",
 			"**Completion Benefit:** You gain the ability to reroll a failed saving throw once per day. You must keep the result of the second roll, even if it is lower."
@@ -4072,7 +4072,7 @@
 			"{SOURCE Spymaster's Handbook/17}",
 			"",
 			"Your familiarity with magic drives you to discover a great supernatural secret. You might work with an eldritch organization, which could be a school of magic such as the Arcanamirium or part of a government with strong ties to magic such as that of Irrisen, or you might attempt to keep your magical inquiries hidden from your employers.  ",
-			"**Prerequisites:** Alchemist discovery, arcane discovery, arcanist exploit, or magus arcana class feature and you must either have observed a created magical effect you could not understand or have the Master Craftsman or the Unquenchable Hunger for Knowledge background.  ",
+			"**Prerequisites:** Alchemist discovery, arcane discovery, arcanist exploit, or magus arcana class feature and you must either have observed a created magical effect you could not understand or have the Master Craftsman (alchemist) or the Unquenchable Hunger for Knowledge (wizard) {rule/class_<background>_tables}.  ",
 			"**Benefit:** Treat your Intelligence, Wisdom, or Charisma score as 2 higher for the purpose of calculating the effects and save DCs of one of the following class features: alchemist discoveries, arcane discoveries, arcanist exploits, or magus arcana. You select both the ability score and class feature to be affected when you select this feat, and the choice cannot be changed. This increases the potency of the abilities but does not grant access to additional abilities.  ",
 			"**Goal:** Learn a great supernatural secret, connected in some manner to an aspect of the class feature you selected with this story feat. You must evade or thwart a challenging foe in the process.  ",
 			"**Completion Benefit:** When calculating the effect of the class feature selected with this feat, you treat your class level for the relevant class as 2 higher. This does not impact when you gain access to additional abilities tied to that class feature, only the effectiveness of abilities from the feature you already have."

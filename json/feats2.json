@@ -344,7 +344,7 @@
 			"{SOURCE Legacy of the First World/5}",
 			"",
 			"Your soul craves travel through wild places, but you are stuck in a sedentary urban life by legal matters, honor-bound duties, or other responsibilities.  ",
-			"**Prerequisites:** You must permanently dwell in a settlement at least as large as a large town. You must also have a fey ancestor somewhere in your family line, or have The Wanderer background.  ",
+			"**Prerequisites:** You must permanently dwell in a settlement at least as large as a large town. You must also have a fey ancestor somewhere in your family line, or have The Wanderer [background](rule/influential_associates_table).  ",
 			"**Benefit:** When interacting with NPCs who live in your settlement, you gain a +1 bonus on Bluff, Diplomacy, and Sense Motive checks.  ",
 			"**Goal:** Complete the tasks to satisfy the terms of the law, matter of honor, or other responsibility, freeing you to leave the settlement without shame.  ",
 			"**Special:** Your newfound freedom inspires your body and mind. You gain a +1 bonus on Dexterity- and Intelligence-based ability checks and skill checks and on Will saving throws."
@@ -3310,7 +3310,7 @@
 			"{SOURCE Quests and Campaigns/8;Ultimate Campaign/67}",
 			"",
 			"From your earliest days, you were destined to sacrifice everything in your quest for power.  ",
-			"**Prerequisites:** You must have had friendly contact with an evil-aligned outsider that would qualify as a challenging foe, have a fiend-related sorcerous bloodline such as abyssal or infernal, have direct fiendish ancestry (such as being a tiefling or half-fiend), or have the Fiend Raised or The Fiend background.  ",
+			"**Prerequisites:** You must have had friendly contact with an evil-aligned outsider that would qualify as a challenging foe, have a fiend-related sorcerous bloodline such as abyssal or infernal, have direct fiendish ancestry (such as being a tiefling or half-fiend), or have the Fiend Raised [adopted background](rule/birth_circumstances_and_more) or The Fiend {rule/influential_<associate/ background>s_table}.  ",
 			"**Benefit:** You gain a +2 bonus on Charisma-based checks involving evil-aligned outsiders and +1 bonus to the DC of spells and spell-like abilities you use against such creatures. You take a -2 penalty on Charisma-based checks involving good-aligned outsiders.  ",
 			"**Goal:** Successfully trade your soul to an evil outsider.  ",
 			"**Completion Benefit:** You gain a +2 enhancement bonus to an ability score of your choice. This enhancement bonus can't be dispelled or removed save by the direct intervention of a deity, and counts as a supernatural ability. In addition, you gain a +2 bonus on caster level checks (including dispel checks and checks to bypass spell resistance) against good-aligned outsiders. If you die while under the effects of this agreement, you can't be brought back from the dead unless the evil outsider permits it. You lose your story benefits immediately and permanently if you renege on the arrangement by which you traded your soul, though you keep the feat's basic benefits.",
@@ -4737,7 +4737,7 @@
 			"{SOURCE Ultimate Campaign/68}",
 			"",
 			"The lives you could not save stay with you to your final breath.  ",
-			"**Prerequisites:** You must have witnessed the death of a close companion in battle - a death that could have been prevented, such as from bleeding, failure to stabilize, or ongoing poison damage - or have the Death in the Family or The War background.  ",
+			"**Prerequisites:** You must have witnessed the death of a close companion in battle - a death that could have been prevented, such as from bleeding, failure to stabilize, or ongoing poison damage - or have the Death in the Family or The War [major childhood event background](rule/birth_circumstances_and_more).  ",
 			"**Benefit:** You gain a +2 bonus on Heal checks. If you have 10 or more ranks in Heal, this bonus increases to +4. You can apply first aid as a move action and don't take a penalty when treating deadly wounds without a healing kit.  ",
 			"**Goal:** Bring an ally back from the dead, including by using breath of life or reincarnate.  ",
 			"**Completion Benefit:** You and each ally within 10 feet of you gain a +2 bonus on saves against death effects. In addition, once per day you can spontaneously convert any 5th-level or higher conjuration (healing) spell into breath of life."

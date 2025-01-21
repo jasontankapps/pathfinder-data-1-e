@@ -799,7 +799,7 @@
 			"{SOURCE Ultimate Campaign/73}",
 			"",
 			"More than just a burglar, you aspire to commit crimes of legendary stature.  ",
-			"**Prerequisites:** You must have stolen at least 1, 000 gp worth of treasure without being caught and kept mementos of these thefts worth at least 500 gp, or have the Greed background.  ",
+			"**Prerequisites:** You must have stolen at least 1, 000 gp worth of treasure without being caught and kept mementos of these thefts worth at least 500 gp, or have the Greed {rule/class_<background>_tables} (rogue).  ",
 			"**Benefit:** Once per day when you attempt a Disable Device check to open a lock or Sleight of Hand check to pick a pocket, you can roll twice and take the better result.  ",
 			"**Goal:** Steal a famous and well-guarded treasure worth at least 50,000 gp while leaving no evidence of your involvement behind. The treasure must be protected by a mix of at least 8 traps or challenging foes. Any guardians need not be defeated, merely bypassed. You don't need to keep the treasure, and you can boast of the theft afterward.  ",
 			"**Completion Benefit:** You gain the ability to reactively disarm a trap. When you trigger a trap, you can attempt a Disable Device check with a -5 penalty to interrupt the trap's function, leaving it still armed but effectively preventing it from activating. You can use this ability a number of times per day equal to 3 + your Intelligence modifier. Since the trap is still armed, it might activate again if you don't immediately back away or otherwise avoid repeating the act that set it off the first time."
@@ -2225,7 +2225,7 @@
 			"{SOURCE Ultimate Campaign/73}",
 			"",
 			"You found love, only to have it denied by the cruelty of fate.  ",
-			"**Prerequisites:** You must have found love with a person you can't be with, have a current lover, or have the Current Lover, For Love, or The Lover background. Possible complications include distance, your love being with another, your feelings being unrequited, or your relationship being forbidden.  ",
+			"**Prerequisites:** You must have found love with a person you can't be with, have a current lover, or have the [Current Lover](rule/romantic_relationships), [For Love (bard)](rule/class_background_tables), or [The Lover](rule/influential_associates_table) background. Possible complications include distance, your love being with another, your feelings being unrequited, or your relationship being forbidden.  ",
 			"**Benefit:** You add 1 to the save DC and caster level of your spells and spell-like abilities with the emotion descriptor. In addition, you gain a +2 bonus on Sense Motive checks. If you have 10 or more ranks in Sense Motive, this bonus increases to +4.  ",
 			"**Goal:** Find a way to be with your true love (even if you can't formally wed).  ",
 			"**Completion Benefit:** The inspiration of knowing your love waits for your return gives you a +2 bonus on attack rolls, saving throws, and skill checks whenever you are below a quarter of your total hit points (not counting any temporary hit points). You lose this completion benefit if your relationship with your true love comes to an end for any reason, including death.  ",
@@ -3940,7 +3940,7 @@
 			"{SOURCE Ultimate Campaign/73}",
 			"",
 			"The need to avenge those you loved drives you to great deeds.  ",
-			"**Prerequisites:** You must have a close family member or other loved one slain by a specific challenging foe or that foe's minions, or have the Raiders or Vengeance background.  ",
+			"**Prerequisites:** You must have a close family member or other loved one slain by a specific challenging foe or that foe's minions, or have the [Raiders (childhood event)](rule/birth_circumstances_and_more) or [Vengeance (barbarian)](rule/class_background_tables) background.  ",
 			"**Benefit:** You gain a +1 bonus on saving throws, attack rolls, and weapon damage rolls against your chosen foe and known minions of that foe.  ",
 			"**Goal:** Thwart your chosen foe.  ",
 			"**Completion Benefit:** You gain a +1 bonus on all saving throws. This bonus stacks with this feats's bonus against your foe and its minions, should they survive."
@@ -4194,7 +4194,7 @@
 			"{SOURCE Pathfinder #131: The Reaper's Right Hand/79}",
 			"",
 			"You have practiced your family's genetic experimentations upon your own familiar.  ",
-			"**Prerequisites:** You must have a familiar, and you must either be a member of House Merrosett or have the Initiated or Storied Lineage background.  ",
+			"**Prerequisites:** You must have a familiar, and you must either be a member of House Merrosett or have the Initiated (witch) or Storied Lineage (wizard) {rule/class_<background>_tables}.  ",
 			"**Benefit:** When you gain this feat, choose an animal aspect granted by the hunter's animal focus class ability and apply it to your familiar. Your hunter level for this ability is 1st, and you cannot change this ability once you have selected it. If your familiar dies, it loses its aspect and you may choose a new aspect if you take a new familiar. Your familiar's form is altered by superficial changes appropriate to its aspect.  ",
 			"**Goal:** You must breed a new magical creature.  ",
 			"**Completion Benefit:** You may either choose and apply a second animal aspect to your familiar or apply an evolution from the 1-point evolutions available to a summoner's eidolon. The familiar must conform to any limitations of the evolution (such as being one size category larger than its rider to serve as a mount). Once selected, this decision cannot be changed, but if your familiar dies it loses these abilities and you may choose new abilities if you take a new familiar. If your familiar breeds with its original kind, it has the potential to pass on these extra abilities as permanent traits."
