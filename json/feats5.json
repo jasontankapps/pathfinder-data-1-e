@@ -4176,6 +4176,7 @@
 			"An empowered, maximized spell gains the separate benefits of each feat: the maximum result plus half the normally rolled result."
 		]
 	},
+	"maximized": { "copyof": "maximize_spell" },
 	"maximize_surge": {
 		"name": "Maximize Surge",
 		"sources": [

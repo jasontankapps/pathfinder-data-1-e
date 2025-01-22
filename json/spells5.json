@@ -147,6 +147,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Globe of Invulnerability / Globe of Invulnerability, Lesser}",
+			"",
 			"## Globe of Invulnerability",
 			"",
 			"{SOURCE PRPG Core Rulebook/290}  ",
@@ -258,6 +260,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Glyph of Warding / Glyph of Warding, Greater}",
+			"",
 			"## Glyph of Warding",
 			"",
 			"{SOURCE PRPG Core Rulebook/290}  ",
@@ -671,6 +675,8 @@
 			"Dirty Tactics Toolbox"
 		],
 		"description": [
+			"{jumplist Mythic Grease / Grease, Greater}",
+			"",
 			"## Grease",
 			"",
 			"{SOURCE PRPG Core Rulebook/291}  ",
@@ -780,7 +786,7 @@
 			"",
 			"Each time the grim stalker lunges at the affected creature, the spell's haunt-like manifestation occurs during that round. Alternatively, a haunted creature can attempt to force the grim stalker to manifest using a simple ritual that requires a successful Knowledge (arcana), Knowledge (religion), or Spellcraft check; occult reagents costing 450 gp (which are consumed as part of the ritual); and a full-round action. The DC for this check equals the spell's save DC. Successfully performing the ritual causes the grim stalker to manifest as a Nessian warhound in an available square 20 feet away from the victim, save that its only subtype is extraplanar, its alignment is neutral, its bite and breath weapon deal negative energy damage instead of fire damage, and it has negative energy affinity instead of fire immunity and vulnerability to cold. The grim stalker immediately attacks the affected creature, persisting until either it or the creature is slain, at which point the spell effect (and the warhound) disappears.",
 			"",
-			"### Haunt Statistics",
+			"#### Haunt Statistics",
 			"",
 			"**Notice** Perception DC 30 (to see a black dog darting toward the target out of the corner of the eye)  ",
 			"**hp** 4 hp/level; **Trigger** touch (object); **Reset** none"
@@ -1039,6 +1045,8 @@
 			"Elemental Master's Handbook"
 		],
 		"description": [
+			"{jumplist Mythic Gust of Wind / Blast of Wind}",
+			"",
 			"## Gust of Wind",
 			"",
 			"{SOURCE PRPG Core Rulebook/293}  ",
@@ -1464,6 +1472,8 @@
 			"The Harrow Handbook"
 		],
 		"description": [
+			"{jumplist Mythic Harrowing / Harrowing, Greater}",
+			"",
 			"## Harrowing",
 			"",
 			"{SOURCE Inner Sea World Guide/295}  ",
@@ -1482,7 +1492,7 @@
 			"",
 			"A single creature can only be under the effects of one harrowing at a time. If it is subjected to a second harrowing while a previous harrowing is still in effect, the new harrowing automatically fails.",
 			"",
-			"### Suit",
+			"#### Suit",
 			"",
 			"| Suit | Associated Check |",
 			"| --- | --- |",
@@ -1493,7 +1503,7 @@
 			"| Star (Wis) | Will saving throws |",
 			"| Crown (Cha) | Any d20 roll |",
 			"",
-			"### Alignment",
+			"#### Alignment",
 			"",
 			"| Alignment | Opposition |",
 			"| --- | --- |",
@@ -1747,6 +1757,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Heal / Heal, Mass}",
+			"",
 			"## Heal",
 			"",
 			"{SOURCE PRPG Core Rulebook/294}  ",
@@ -2351,6 +2363,8 @@
 			"Ultimate Intrigue"
 		],
 		"description": [
+			"{jumplist Mythic Heroism / Heroism, Greater / Hollow Heroism / Hollow Heroism, Greater}",
+			"",
 			"## Heroism",
 			"",
 			"{SOURCE PRPG Core Rulebook/295}  ",
@@ -2909,6 +2923,8 @@
 			"The First World, Realm of the Fey"
 		],
 		"description": [
+			"{jumplist Hold Fey / Hold Person, Mass}",
+			"",
 			"## Hold Person",
 			"",
 			"{SOURCE PRPG Core Rulebook/296}  ",
@@ -3360,7 +3376,7 @@
 			"",
 			"You channel residual feelings of terror into the minds of creatures within the area, causing those fears to manifest when confronted with a specific object. All creatures in the area must succeed at a Will save or acquire a phobia for the spell's duration. You choose one kind of creature, object, or image within the area of the spell when it is cast that triggers the phobia. The kind of creature, object, or image that triggers the phobia must be named specifically. A creature type or subtype is not specific enough. The phobia can be cured using traditional methods of treating insanity, and spells or effects that prevent possession or mind control suppress the phobia for their duration. Each time the phobia is triggered in an affected creature, the spell's haunt-like manifestation occurs during that round.",
 			"",
-			"### Haunt Statistics",
+			"#### Haunt Statistics",
 			"",
 			"**Notice** Perception DC 25 (to hear a distant cry of fright, or see a horrified ghostly face appear over a victim's face)  ",
 			"**hp** 2 hp/level; **Trigger** proximity; **Reset** none"
@@ -4080,6 +4096,8 @@
 		"name": "Id Insinuation I",
 		"sources": [ "Occult Adventures" ],
 		"description": [
+			"{jumplist Id Insinuation II / Id Insinuation III / Id Insinuation IV}",
+			"",
 			"## Id Insinuation I",
 			"",
 			"{SOURCE Occult Adventures/173}  ",

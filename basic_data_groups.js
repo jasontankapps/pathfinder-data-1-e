@@ -159,6 +159,7 @@ import faith2 from './json/faiths2.json' assert {type: 'json'};
 import faith3 from './json/faiths3.json' assert {type: 'json'};
 import faith4 from './json/faiths4.json' assert {type: 'json'};
 import faith5 from './json/faiths5.json' assert {type: 'json'};
+import faith6 from './json/faiths6.json' assert {type: 'json'};
 import family1 from './json/monsters_families.json' assert {type: 'json'};
 import family2 from './json/monsters_families2.json' assert {type: 'json'};
 import feat1 from './json/feats.json' assert {type: 'json'};
@@ -1633,6 +1634,13 @@ const basic_data_groups = {
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 5,
+		type: "Deity/Faith"
+	},
+	"faiths6": {
+		data: faith6,
+		searchgroup: 10, // faith
+		link: "faith",
+		num: 6,
 		type: "Deity/Faith"
 	},
 	"feats": {

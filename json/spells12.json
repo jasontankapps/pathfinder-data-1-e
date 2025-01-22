@@ -574,6 +574,8 @@
 			"Animal Archive"
 		],
 		"description": [
+			"{jumplist Mythic Beast Shape I / Beast Shape II / Mythic Beast Shape II / Beast Shape III / Mythic Beast Shape III / Beast Shape IV / Mythic Beast Shape IV / Magical Beast Shape / Share Shape}",
+			"",
 			"## Beast Shape I",
 			"",
 			"{SOURCE PRPG Core Rulebook/247}  ",
@@ -872,7 +874,7 @@
 			"",
 			"The haunt can grab and attempt to drown multiple creatures in its area on its initiative count. The magic holding the haunt together is unstable and deteriorates while the haunt is active. Each round at the end of its turn, the haunt automatically loses 1d6 hit points per creature it is currently affecting. Furthermore, the spell's haunt-like manifestation is active throughout the spell's duration, rendering it vulnerable to effects that damage haunts. When the haunt reaches 0 hit points, the spell ends.",
 			"",
-			"### Haunt Statistics",
+			"#### Haunt Statistics",
 			"",
 			"**Notice** Perception DC 30 (To detect the smell of brine)  ",
 			"**hp** 5 hp/level; **Trigger** proximity; **Reset** none"
@@ -907,6 +909,8 @@
 			"Ultimate Magic"
 		],
 		"description": [
+			"{jumplist Bestow Curse, Greater / Conditional Curse / Curse, Major}",
+			"",
 			"## Bestow Curse",
 			"",
 			"{SOURCE PRPG Core Rulebook/247}  ",
@@ -1056,6 +1060,8 @@
 		"name": "Bestow Planar Infusion I",
 		"sources": [ "Planar Adventures" ],
 		"description": [
+			"{jumplist Bestow Planar Infusion II / Bestow Planar Infusion III}",
+			"",
 			"## Bestow Planar Infusion I",
 			"",
 			"{SOURCE Planar Adventures/39}  ",
@@ -1471,6 +1477,8 @@
 			"Dirty Tactics Toolbox"
 		],
 		"description": [
+			"{jumplist Mythic Black Tentacles / Grasping Tentacles}",
+			"",
 			"## Black Tentacles",
 			"",
 			"{SOURCE PRPG Core Rulebook/248}  ",
@@ -2106,6 +2114,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Command / Command, Greater}",
+			"",
 			"## Command",
 			"",
 			"{SOURCE PRPG Core Rulebook/256}  ",
@@ -2248,6 +2258,8 @@
 			"Faiths and Philosophies"
 		],
 		"description": [
+			"{jumplist Signs of the Land / Tectonic Communion}",
+			"",
 			"## Commune with Nature",
 			"",
 			"{SOURCE PRPG Core Rulebook/258}  ",
@@ -2607,6 +2619,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Confusion / Confusion, Lesser}",
+			"",
 			"## Confusion",
 			"",
 			"{SOURCE PRPG Core Rulebook/258}  ",
@@ -2806,6 +2820,8 @@
 		"name": "Contact Entity I",
 		"sources": [ "Horror Adventures" ],
 		"description": [
+			"{jumplist Contact Entity II / Contact Entity III / Contact Entity IV}",
+			"",
 			"## Contact Entity I",
 			"",
 			"{SOURCE Horror Adventures/112}  ",
@@ -2823,7 +2839,7 @@
 			"",
 			"Each type of creature requires a different material component that must be included when casting the spell, as shown on Table 4-1: Contact Entity below. Some of these components are expensive or might require quests to acquire. Contacting certain types of creatures makes the spell chaotic, evil, or both, as indicated on the table.",
 			"",
-			"### Table 4-1: Contact Entity",
+			"#### Table 4-1: Contact Entity",
 			"",
 			"| Contact Entity I | Material Component |",
 			"| --- | --- |",
@@ -3015,6 +3031,8 @@
 			"Ultimate Magic"
 		],
 		"description": [
+			"{jumplist Mythic Contagion / Contagion, Greater}",
+			"",
 			"## Contagion",
 			"",
 			"{SOURCE PRPG Core Rulebook/259}  ",
@@ -3123,6 +3141,8 @@
 			"Ultimate Intrigue"
 		],
 		"description": [
+			"{jumplist Mythic Contingency / Deadman's Contingency}",
+			"",
 			"## Contingency",
 			"",
 			"{SOURCE PRPG Core Rulebook/259}  ",
@@ -3363,6 +3383,8 @@
 			"Ultimate Wilderness"
 		],
 		"description": [
+			"{jumplist Mythic Control Weather / Wandering Weather}",
+			"",
 			"## Control Weather",
 			"",
 			"{SOURCE PRPG Core Rulebook/261}  ",
@@ -3772,7 +3794,7 @@
 			"",
 			"You concentrate feelings of competitiveness, envy, and ill will into a poltergeist-like haunt that wreaks havoc on its victim's long-term endeavors. Every time a creature in the affected area attempts a Craft or Profession check to generate income, create an item, or earn capital, any skill check required for crafting or repairing a magic item, or any skill check required for an occult ritual, the haunt imposes a -5 penalty on the check. If the creature fails its check by 5 or more, the haunt's mischief deals 1d6 points of damage to the creature in addition to any other negative effects from such a failure. If the creature attempts to cast a spell with a casting time of 1 minute or longer, the haunt becomes similarly disruptive, requiring the caster to succeed at a concentration check (DC = 15 + spell level) or lose the spell and take 1d6 points of damage from the mischief. Each time the haunt is disruptive, the spell's haunt-like manifestation occurs during that round.",
 			"",
-			"### Haunt Statistics",
+			"#### Haunt Statistics",
 			"",
 			"**Notice** Perception DC 20 (to hear faint, sinister laughter)  ",
 			"**hp** 2 hp/level; **Trigger** skill check or spell; **Reset** none"
@@ -3800,6 +3822,8 @@
 		"name": "Create Demiplane, Lesser",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
+			"{jumplist Create Demiplane / Create Demiplane, Greater}",
+			"",
 			"## Create Demiplane, Lesser",
 			"",
 			"{SOURCE Ultimate Magic/214}  ",
@@ -3918,7 +3942,7 @@
 			"",
 			"As a special use of this spell, a lawful evil worshiper of Mahathallah, the Dowager of Illusions, can create doses of the drug {drug/adyton}. A Mahathallah worshiper can create adyton only once per week, regardless of her level or how many times she casts this spell. The spell otherwise functions - and creates as many doses - as normal.",
 			"",
-			"### Adyton",
+			"#### Adyton",
 			"",
 			"The drug adyton is central to Mahathallah's worship and the spreading of her mysteries. It can be purchased only from worshipers of Mahathallah, and typically only by servants of the goddess.",
 			"",

@@ -523,7 +523,7 @@
 			"",
 			"*Unwilling Host (Su):* You command spirits to invade the bodies of your enemies. Once per day as a standard action you may target a number of creatures equal to your Charisma modifier within 100 feet, no two of which can be more than 30 feet apart. Targeted creatures must make a Will save or suffer the effects of a confusion spell as the spirits possess them and cause them to behave erratically for a number of rounds equal to your oracle level. You must be at least 7th level to select this revelation.",
 			"",
-			"**Final Revelation:** At 20th level, you become a master of the connections between the mortal world and the spirit world. Your knowledge enables you to gain incredible insight and control over others by manipulating spiritual energy. You gain an insight bonus equal to your Charisma modifier to your AC and on all saving throws and Knowledge checks. Additionally, once per day, you may cast {feat/extend/ed>_spell} {spell/dominate monster} as a spell-like ability. With this ability, you may dominate a number of creatures equal to double your Charisma modifier."
+			"**Final Revelation:** At 20th level, you become a master of the connections between the mortal world and the spirit world. Your knowledge enables you to gain incredible insight and control over others by manipulating spiritual energy. You gain an insight bonus equal to your Charisma modifier to your AC and on all saving throws and Knowledge checks. Additionally, once per day, you may cast {feat/extended} {spell/dominate monster} as a spell-like ability. With this ability, you may dominate a number of creatures equal to double your Charisma modifier."
 		]
 	},
 	"life": {
@@ -881,7 +881,7 @@
 			"",
 			"*Wings of Darkness (Su):* This ability functions as the dark tapestry mystery revelation of the same name. You must be at least 7th level to select this revelation.",
 			"",
-			"**Final Revelation:** Upon reaching 20th level, your body becomes permanently suffused with the essence of the Shadow Plane. You gain regeneration 5 while in dim light or darkness and immunity to cold, critical hits, and sneak attacks. Your regeneration is suppressed while in any level of illumination brighter than dim light. In addition, any spells you cast of the shadow subschool or with the darkness descriptor are automatically enlarged without affecting their spell level."
+			"**Final Revelation:** Upon reaching 20th level, your body becomes permanently suffused with the essence of the Shadow Plane. You gain regeneration 5 while in dim light or darkness and immunity to cold, critical hits, and sneak attacks. Your regeneration is suppressed while in any level of illumination brighter than dim light. In addition, any spells you cast of the shadow subschool or with the darkness descriptor are automatically {feat/enlarged} without affecting their spell level."
 		]
 	},
 	"solar": {
@@ -922,7 +922,7 @@
 			"",
 			"*Torch Touch (Su):* As a move action, you can alter the amount of light shed by any nonmagical light source within 60 feet so that its light radius is either halved or doubled. At 1st level, you can affect light sources up to the size of a torch. At 7th level, you can affect any Medium or smaller nonmagical light source (such as a campfire). At 14th level, you can affect Large or smaller nonmagical light sources (such as bonfires) and magical light sources up to the size of an everburning torch. If a creature is holding the light source you are trying to affect, the creature can attempt a Reflex save to avoid the effect.",
 			"",
-			"**Final Revelation:** At 20th level, yours becomes a journey without end. You cease aging, no longer suffer age-related penalties to ability scores, and cannot be magically aged. Any spells you cast of the conjuration (teleport) subschool or with the fire or light descriptor are automatically enlarged without affecting their spell level."
+			"**Final Revelation:** At 20th level, yours becomes a journey without end. You cease aging, no longer suffer age-related penalties to ability scores, and cannot be magically aged. Any spells you cast of the conjuration (teleport) subschool or with the fire or light descriptor are automatically {feat/enlarged} without affecting their spell level."
 		]
 	},
 	"spellscar": {

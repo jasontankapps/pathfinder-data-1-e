@@ -6,7 +6,7 @@ import { createDirectives } from 'marked-directive';
 import basic_data_groups from './basic_data_groups.js';
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
 
-const statblockHeader = {
+const alternateHeaderBlocks = {
 	level: "block",
 	marker: "::",
 	renderer: (token) => {
@@ -29,6 +29,33 @@ const statblockHeader = {
 		}
 		return false;
 	}
+};
+
+const specialContainerBlocks = {
+	level: "container",
+	marker: ":::",
+	renderer: (token, flags = {}) => {
+		const {text = "", attrs = {}, meta} = token;
+		const n = meta.name;
+		const trimmed = text.trim();
+		switch(n) {
+			case "archetype":
+				const { c = "" } = attrs;
+				const [ title = "", repl = "", desc = "" ] = trimmed.split(/\n+/);
+				const link = title.toLowerCase().replace(/[-/_ ]/g, "_").replace(/[^a-z_0-9]/g, "");
+				flags.link = true;
+				return `<div className="archetype">`
+					+ `<p><Link to="/arc-${c}/${link}">${title}</Link></p>`
+					+ `<p><strong>Modifes or Replaces:</strong> ${repl}</p>`
+					+ `<p>${desc}</p>`
+					+ `</div>\n`;
+		}
+		return false;
+	}
+};
+
+const getSpecialContainerBlocks = (flags) => {
+	return {...specialContainerBlocks, renderer: (token) => specialContainerBlocks.renderer(token, flags)};
 };
 
 // Converts {some/Link: Text/s} into [Link: Texts](some/link_text)
@@ -240,7 +267,7 @@ const convertDescription = (desc, prefix, tables) => {
 	const marked = new Marked();
 	const flags = {};
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
-	marked.use(createDirectives([statblockHeader]));
+	marked.use(createDirectives([alternateHeaderBlocks, getSpecialContainerBlocks(specialContainerBlocks, flags)]));
 	marked.use(markedFootnote({prefixId: prefix}));
 	marked.use(gfmHeadingId({prefix}));
 	marked.use(renderer(flags, prefix));
@@ -255,7 +282,7 @@ const convertMainDescription = (desc, prefix, tables) => {
 	let output = "";
 	const flags = {};
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
-	marked.use(createDirectives([statblockHeader]));
+	marked.use(createDirectives([alternateHeaderBlocks, getSpecialContainerBlocks(specialContainerBlocks, flags)]));
 	marked.use(markedFootnote({prefixId: prefix}));
 	marked.use(gfmHeadingId({prefix}));
 	marked.use(renderer(flags, prefix));

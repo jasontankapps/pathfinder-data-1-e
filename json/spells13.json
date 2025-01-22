@@ -244,6 +244,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Dispel Magic / Dispel Magic, Greater}",
+			"",
 			"## Dispel Magic",
 			"",
 			"{SOURCE PRPG Core Rulebook/272}  ",
@@ -504,6 +506,8 @@
 			"Ultimate Intrigue"
 		],
 		"description": [
+			"{jumplist Prognostication / True Prognostication}",
+			"",
 			"## Divination",
 			"",
 			"{SOURCE PRPG Core Rulebook/273}  ",
@@ -1960,6 +1964,8 @@
 		"name": "Ego Whip I",
 		"sources": [ "Occult Adventures" ],
 		"description": [
+			"{jumplist Ego Whip II / Ego Whip III / Ego Whip IV / Ego Whip V}",
+			"",
 			"## Ego Whip I",
 			"",
 			"{SOURCE Occult Adventures/169}  ",
@@ -2561,6 +2567,8 @@
 		"name": "Form of the Alien Dragon I",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
+			"{jumplist Form of the Alien Dragon II / Form of the Alien Dragon III}",
+			"",
 			"## Form of the Alien Dragon I",
 			"",
 			"{SOURCE Legacy of Dragons/29}  ",
@@ -2645,6 +2653,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Form of the Dragon I / Form of the Dragon II / Mythic Form of the Dragon II / Form of the Dragon III / Mythic Form of the Dragon III}",
+			"",
 			"## Form of the Dragon I",
 			"",
 			"{SOURCE PRPG Core Rulebook/286}  ",
@@ -2756,6 +2766,8 @@
 		"name": "Form of the Exotic Dragon I",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
+			"{jumplist Form of the Exotic Dragon II / Form of the Exotic Dragon III}",
+			"",
 			"## Form of the Exotic Dragon I",
 			"",
 			"{SOURCE Legacy of Dragons/30}  ",
@@ -3083,7 +3095,7 @@
 			"",
 			"You harness the Irriseni people's palpable fear of their frozen environment and cruel Jadwiga overlords into a haunt that withers defenses against the cold. Any creature that enters the affected area must succeed at a Will save or gain spell resistance equal to 11 + your caster level against any abjuration effect that provides resistance to or protection against cold damage or cold climates. This spell resistance cannot be voluntarily lowered. Once every 30 minutes as an immediate action, the haunt attempts a dispel check (1d20 + your caster level) against an active abjuration effect currently protecting a creature in the affected area against cold, even if it was active before the creature was haunted or it successfully bypassed the spell resistance imposed by the haunt. Against creatures with multiple layers of protection, these dispel checks start with the highest-level abjuration effects and work their way down the list. Each time the haunt attempts a dispel check, the spell's haunt-like manifestation occurs during that round.",
 			"",
-			"### Haunt Statistics",
+			"#### Haunt Statistics",
 			"",
 			"**Notice** Perception 25 (to feel a biting chill as if through the touch of a frozen hand)  ",
 			"**hp** 2 hp/level; **Trigger** proximity; **Reset** none"

@@ -100,6 +100,8 @@
 			"Ultimate Combat"
 		],
 		"description": [
+			"{jumplist Compel Tongue / Share Language, Communal}",
+			"",
 			"## Share Language",
 			"",
 			"{SOURCE Advanced Player's Guide/243}  ",
@@ -538,6 +540,8 @@
 			"Inner Sea Gods"
 		],
 		"description": [
+			"{jumplist Mythic Shield of the Dawnflower / Shield of the Dawnflower, Greater}",
+			"",
 			"## Shield of the Dawnflower",
 			"",
 			"{SOURCE Inner Sea World Guide/296;Gods and Magic/35}  ",
@@ -605,6 +609,8 @@
 			"Animal Archive"
 		],
 		"description": [
+			"{jumplist Mythic Shield Other / Shield Companion (AA)}",
+			"",
 			"## Shield Other",
 			"",
 			"{SOURCE PRPG Core Rulebook/342}  ",
@@ -875,6 +881,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Shout / Shout, Greater}",
+			"",
 			"## Shout",
 			"",
 			"{SOURCE PRPG Core Rulebook/343}  ",
@@ -1433,7 +1441,7 @@
 			"",
 			"You mix a malign spirit into a piece of food, a drink, or some other item to be consumed (including alchemical items, potions, elixirs, or similar items). The skin tag spell discharges when the item is consumed, affecting the creature that used the item unless it succeeds at a Fortitude save. The spirit embeds itself somewhere in the affected creature's skin, forming a painless set of wrinkles and tags of skin that looks vaguely like a face when the haunt activates. You are considered to have a body part from the affected creature for the purpose of scrying and similar divination spells. Once per day as a standard action, you can remotely cause the spirit to make the affected creature's skin crawl, causing the creature to become sickened for 1d4 rounds + 1 round per 2 caster levels you have (to a maximum of 5 extra rounds at 10th level) unless it succeeds at a Fortitude save. Alternatively, once per day you can remotely use a hex, a mind-affecting spell, or a necromancy spell that causes disease or possession on the affected creature. Each time you use the remote sickening or spell or hex effect, the spell's haunt-like manifestation occurs during that round.",
 			"",
-			"### Haunt Statistics",
+			"#### Haunt Statistics",
 			"",
 			"**Notice** Perception DC DC 20 (to taste a hint of rot) or DC 25 (if the affected creature is wearing armor or heavy clothing)  ",
 			"**hp** 5 hp; **Trigger** conditional (using the item or the spell's remote effects); **Reset** none"
@@ -2740,6 +2748,8 @@
 			"Ultimate Combat"
 		],
 		"description": [
+			"{jumplist Spell Immunity, Communal / Spell Immunity, Greater / Spell Immunity, Greater Communal}",
+			"",
 			"## Spell Immunity",
 			"",
 			"{SOURCE PRPG Core Rulebook/346}  ",
@@ -2882,6 +2892,8 @@
 		"name": "Spellcasting Contract, Lesser",
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"description": [
+			"{jumplist Spellcasting Contract / Spellcasting Contract, Greater}",
+			"",
 			"## Spellcasting Contract, Lesser",
 			"",
 			"{SOURCE Pathfinder #29: Mother of Flies/67}  ",
@@ -2948,6 +2960,8 @@
 		"name": "Spellcrash, Lesser",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
+			"{jumplist Spellcrash / Spellcrash, Greater}",
+			"",
 			"## Spellcrash, Lesser",
 			"",
 			"{SOURCE Advanced Class Guide/194}  ",
@@ -3141,6 +3155,8 @@
 			"Ultimate Combat"
 		],
 		"description": [
+			"{jumplist Mythic Spider Climb / Spider Climb, Communal}",
+			"",
 			"## Spider Climb",
 			"",
 			"{SOURCE PRPG Core Rulebook/347}  ",
@@ -4260,6 +4276,8 @@
 			"Ultimate Combat"
 		],
 		"description": [
+			"{jumplist Mythic Stoneskin / Clay Skin / Stoneskin, Communal}",
+			"",
 			"## Stoneskin",
 			"",
 			"{SOURCE PRPG Core Rulebook/350}  ",

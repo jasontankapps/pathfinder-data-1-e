@@ -201,7 +201,7 @@
 			"",
 			"Delay poison allows the target to ignore the effects of the phantasmal poison until the delay poison spell ends, at which time it may make a Will save to realize the poison is illusory and recover all illusory poison damage. Neutralize poison, lesser restoration, or restoration immediately recovers all damage from the spell. A successful dispel magic spell ends the effect of the illusion, as do spells that penetrate illusions (such as true seeing). The target automatically recovers all illusory poison damage after 1 hour.",
 			"",
-			"### Phantasmal Poison",
+			"#### Phantasmal Poison",
 			"",
 			"**Type** poison, injury; **Save** Fortitude DC as the spell  ",
 			"**Frequency** 1/round for 6 rounds  ",
@@ -735,6 +735,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Inflict Critical Wounds / Inflict Critical Wounds, Mass}",
+			"",
 			"## Inflict Critical Wounds",
 			"",
 			"{SOURCE PRPG Core Rulebook/300}  ",
@@ -782,6 +784,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Inflict Light Wounds / Inflict Light Wounds, Mass}",
+			"",
 			"## Inflict Light Wounds",
 			"",
 			"{SOURCE PRPG Core Rulebook/300}  ",
@@ -833,6 +837,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Inflict Moderate Wounds / Inflict Moderate Wounds, Mass}",
+			"",
 			"## Inflict Moderate Wounds",
 			"",
 			"{SOURCE PRPG Core Rulebook/300}  ",
@@ -919,6 +925,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Inflict Serious Wounds / Inflict Serious Wounds, Mass}",
+			"",
 			"## Inflict Serious Wounds",
 			"",
 			"{SOURCE PRPG Core Rulebook/301}  ",
@@ -1517,6 +1525,8 @@
 		"name": "Intellect Fortress I",
 		"sources": [ "Occult Adventures" ],
 		"description": [
+			"{jumplist Intellect Fortress II / Intellect Fortress III}",
+			"",
 			"## Intellect Fortress I",
 			"",
 			"{SOURCE Occult Adventures/174}  ",
@@ -1816,6 +1826,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Invisibility / Invisibility, Greater / Invisibility, Mass}",
+			"",
 			"## Invisibility",
 			"",
 			"{SOURCE PRPG Core Rulebook/301}  ",
@@ -1908,6 +1920,8 @@
 		"name": "Invisibility Bubble",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{jumplist Invisibility Bubble, Giant / Invisibility Bubble, Mass}",
+			"",
 			"## Invisibility Bubble",
 			"",
 			"{SOURCE Aquatic Adventures/60}  ",
@@ -2390,6 +2404,8 @@
 		"name": "Mental Barrier I",
 		"sources": [ "Occult Adventures" ],
 		"description": [
+			"{jumplist Mental Barrier II / Mental Barrier III / Mental Barrier IV / Mental Barrier V}",
+			"",
 			"## Mental Barrier I",
 			"",
 			"{SOURCE Occult Adventures/175}  ",
@@ -2528,6 +2544,8 @@
 			"Ultimate Intrigue"
 		],
 		"description": [
+			"{jumplist Demanding Message / Demanding Message, Mass}",
+			"",
 			"## Message",
 			"",
 			"{SOURCE PRPG Core Rulebook/313}  ",
@@ -2927,6 +2945,8 @@
 		"name": "Mind Thrust I",
 		"sources": [ "Occult Adventures" ],
 		"description": [
+			"{jumplist Mind Thrust II / Mind Thrust III / Mind Thrust IV / Mind Thrust V / Mind Thrust VI}",
+			"",
 			"## Mind Thrust I",
 			"",
 			"{SOURCE Occult Adventures/177}  ",
@@ -3266,6 +3286,8 @@
 		"name": "Minor Reversion",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"description": [
+			"{jumplist Greater Reversion / Minor Reversion, Mass}",
+			"",
 			"## Minor Reversion",
 			"",
 			"{SOURCE Plane-Hopper's Handbook/28}  ",
@@ -3527,7 +3549,7 @@
 			"",
 			"You direct spirits into the shadows of creatures. The shadows of creatures that fail their Will saving throws appear slightly different for the duration of the spell, bearing small horns, unusually long and slender arms, or other small discrepancies. This spell does not work on creatures that do not cast shadows or reflections. At will as an immediate action (but no more often than once every 10 minutes), a mischievous shadow can interfere with its host's actions or the actions of adjacent creatures by interacting with their shadows in ways that affect their physical counterparts, such as grabbing the shadow of a crossbow to redirect the physical weapon's aim. Each disruption either imposes a -8 penalty on a single attack roll, combat maneuver check, or Strength- or Dexterity-based skill check, or requires a spellcaster to succeed at a concentration check (DC = 15 + spell level) or lose a spell being cast. If you are within range of the spell effect, you can decide how these shadows interfere; otherwise, their actions are timed and decided by the GM as needed, typically manifesting during important or crucial roles. Each time a mischievous shadow makes such a disruption, the spell's haunt-like manifestation occurs during that round.",
 			"",
-			"### Haunt Statistics",
+			"#### Haunt Statistics",
 			"",
 			"**Notice** Perception DC 25 (to see a target's shadow act incongruously with its physical motions)  ",
 			"**hp** 2 hp/level; **Trigger** proximity; **Reset** none"
@@ -3870,7 +3892,7 @@
 			"",
 			"As a standard action, you can shift freely back to your own body regardless of range, so long as it remains on the same plane. If the host's body is killed, you return to your own body and the life force of the host departs (it is dead). If your body is slain, when the spell expires or the host's body is killed, you are slain. It is possible to cast this spell on a new target from within another creature's body; this resets the duration. You still return to your original body (not any intermediate body) when you take a standard action to do so or the spell's duration expires. Returning to your body ends the spell. Creatures whose souls are their bodies, such as incorporeal undead and non-native outsiders, use the effects of greater possession instead.",
 			"",
-			"### Possession and Magic Jar",
+			"#### Possession and Magic Jar",
 			"",
 			"The old magic jar spell is unwieldy, particularly with respect to creatures like ghosts and shadow demons that don't really use a jar at all. Consider replacing magic jar with the new possession spells for both spellcasters and monsters. Likewise, consider using spells based on possession rather than magic jar.",
 			"",

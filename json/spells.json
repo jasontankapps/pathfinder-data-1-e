@@ -159,6 +159,8 @@
 		"name": "Absorb Rune I",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
+			"{jumplist Absorb Rune II / Absorb Rune III}",
+			"",
 			"## Absorb Rune I",
 			"",
 			"{SOURCE Adventurer's Guide/60}  ",
@@ -707,6 +709,8 @@
 		"name": "Age Resistance, Lesser",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
+			"{jumplist Age Resistance / Age Resistance, Greater}",
+			"",
 			"## Age Resistance, Lesser",
 			"",
 			"{SOURCE Ultimate Magic/205}  ",
@@ -1059,6 +1063,8 @@
 			"Ultimate Intrigue"
 		],
 		"description": [
+			"{jumplist Escape Alarm / Selective Alarm}",
+			"",
 			"## Alarm",
 			"",
 			"{SOURCE PRPG Core Rulebook/240}  ",
@@ -1726,6 +1732,8 @@
 		"name": "Angelic Aspect, Lesser",
 		"sources": [ "Champions of Purity" ],
 		"description": [
+			"{jumplist Angelic Aspect / Angelic Aspect, Greater}",
+			"",
 			"## Angelic Aspect, Lesser",
 			"",
 			"{SOURCE Champions of Purity/28}  ",
@@ -1813,6 +1821,8 @@
 			"Mythic Adventures"
 		],
 		"description": [
+			"{jumplist Mythic Animal Aspect / Animal Aspect, Greater}",
+			"",
 			"## Animal Aspect",
 			"",
 			"{SOURCE Ultimate Combat/222}  ",
@@ -1993,6 +2003,8 @@
 			"Ultimate Magic"
 		],
 		"description": [
+			"{jumplist Mythic Animate Dead / Animate Dead, Lesser}",
+			"",
 			"## Animate Dead",
 			"",
 			"{SOURCE PRPG Core Rulebook/241}  ",
@@ -2350,6 +2362,8 @@
 			"Faiths and Philosophies"
 		],
 		"description": [
+			"{jumplist Mythic Antimagic Field / Source Severance}",
+			"",
 			"## Antimagic Field",
 			"",
 			"{SOURCE PRPG Core Rulebook/242}  ",
@@ -3718,6 +3732,8 @@
 		"name": "Auditory Hallucination",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
+			"{jumplist Audiovisual Hallucination / Complex Hallucination / Permanent Hallucination / Scripted Hallucination / Triggered Hallucination}",
+			"",
 			"## Auditory Hallucination",
 			"",
 			"{SOURCE Ultimate Intrigue/204}  ",

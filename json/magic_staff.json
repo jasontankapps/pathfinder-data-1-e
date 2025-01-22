@@ -102,10 +102,10 @@
 			"**Aura** faint transmutation (polymorph); **CL** 8th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 4 lbs.",
 			"",
-			"The figures on this scrimshawed ivory staff slowly morph from one monstrous figure into another, and often grow to take up more space on the staff's surface. An alchemist or other character capable of creating extracts can pour an extract of enlarge person over this staff to restore 1 charge to the staff or pour an extract of {spell/monstrous physique I} over it to restore 3 charges. ",
+			"The figures on this scrimshawed ivory staff slowly morph from one monstrous figure into another, and often grow to take up more space on the staff's surface. An alchemist or other character capable of creating extracts can pour an extract of enlarge person over this staff to restore 1 charge to the staff or pour an extract of monstrous physique I over it to restore 3 charges. ",
 			"",
 			"- Enlarge person (1 charge)",
-			"- {spell/Monstrous physique I} (3 charges)",
+			"- Monstrous physique I (3 charges)",
 			"",
 			"### Construction",
 			"",
@@ -1367,7 +1367,7 @@
 			"- Mending (1 charge)",
 			"- Animate objects (2 charges)",
 			"",
-			"In addition, once per day, the staff can become a Medium animated object with the metal special ability. It can remain in this form for up to 10 minutes. If destroyed while in this form, it reverts to being a staff, but it loses all of its charges and this ability cannot be used again until it is fully recharged.",
+			"In addition, once per day, the staff can become a Medium {monster/animated object} with the metal special ability. It can remain in this form for up to 10 minutes. If destroyed while in this form, it reverts to being a staff, but it loses all of its charges and this ability cannot be used again until it is fully recharged.",
 			"",
 			"### Construction",
 			"",
@@ -2451,7 +2451,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/bless}, {spell/cure critical wounds}, {spell/cure moderate wounds}, {spell/flame strike}, {spell/freedom of movement}, {feat/heighten/ed>_spell} {spell/hold person}, {spell/prayer}, {spell/righteous might}, {spell/searing light}, {spell/true resurrection}, {spell/true seeing}; **Cost** 110,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/bless}, {spell/cure critical wounds}, {spell/cure moderate wounds}, {spell/flame strike}, {spell/freedom of movement}, {feat/heightened} {spell/hold person}, {spell/prayer}, {spell/righteous might}, {spell/searing light}, {spell/true resurrection}, {spell/true seeing}; **Cost** 110,000 gp"
 		]
 	},
 	"winters_reach": {
@@ -2516,7 +2516,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/cone of cold}, {spell/continual flame}, {feat/heighten/ed>_spell} {spell/fireball}, {spell/globe of invulnerability}, {spell/hold monster}, {spell/levitate}, heightened {spell/lightning bolt}, {spell/magic missile}, heightened {spell/ray of enfeeblement}, {spell/wall of force}; **Cost** 117,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/cone of cold}, {spell/continual flame}, {feat/heightened} {spell/fireball}, {spell/globe of invulnerability}, {spell/hold monster}, {spell/levitate}, heightened {spell/lightning bolt}, {spell/magic missile}, heightened {spell/ray of enfeeblement}, {spell/wall of force}; **Cost** 117,500 gp"
 		]
 	},
 	"lasirros_staff": {

@@ -223,6 +223,8 @@
 			"Advanced Class Guide"
 		],
 		"description": [
+			"{jumplist Mythic Suggestion / Contagious Suggestion / Suggestion, Mass / Triggered Suggestion}",
+			"",
 			"## Suggestion",
 			"",
 			"{SOURCE PRPG Core Rulebook/350}  ",
@@ -574,6 +576,8 @@
 		"name": "Summon Genie, Lesser",
 		"sources": [ "People of the Sands" ],
 		"description": [
+			"{jumplist Summon Genie / Summon Genie, Greater}",
+			"",
 			"## Summon Genie, Lesser",
 			"",
 			"{SOURCE People of the Sands/11}  ",
@@ -632,6 +636,8 @@
 		"name": "Summon Giant Ally I",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
+			"{jumplist Summon Giant Ally II / Summon Giant Ally III}",
+			"",
 			"## Summon Giant Ally I",
 			"",
 			"{SOURCE Inner Sea Races/223}  ",
@@ -858,6 +864,8 @@
 			"Monster Summoner's Handbook"
 		],
 		"description": [
+			"{jumplist Summon Monster II / Summon Monster III / Summon Monster IV / Summon Monster V / Summon Monster VI / Summon Monster VII / Summon Monster VIII / Summon Monster IX}",
+			"",
 			"## Summon Monster I",
 			"",
 			"{SOURCE PRPG Core Rulebook/350}  ",
@@ -882,7 +890,7 @@
 			"| Lawful | {template/Resolute} |",
 			"| Chaotic | {template/Entropic} |",
 			"",
-			"### Table 10-1",
+			"#### Table 10-1",
 			"",
 			"| Level | Creature | Subtype |",
 			"| --- | --- | --- |",
@@ -1161,6 +1169,8 @@
 			"Inner Sea Races"
 		],
 		"description": [
+			"{jumplist Summon Kami / Summon Nature's Ally II / Summon Nature's Ally III / Summon Nature's Ally IV / Summon Nature's Ally V / Summon Nature's Ally VI / Summon Nature's Ally VII / Summon Nature's Ally VIII / Summon Nature's Ally IX}",
+			"",
 			"## Summon Nature's Ally I",
 			"",
 			"{SOURCE PRPG Core Rulebook/354}  ",
@@ -1187,7 +1197,7 @@
 			"| Lawful | {template/Resolute} |",
 			"| Chaotic | {template/Entropic} |",
 			"",
-			"### Table 10-2",
+			"#### Table 10-2",
 			"",
 			"| Level | Creature | Subtype |",
 			"| --- | --- | --- |",
@@ -1527,6 +1537,8 @@
 			"Ultimate Magic"
 		],
 		"description": [
+			"{jumplist Mythic Summon Swarm / Rain of Frogs}",
+			"",
 			"## Summon Swarm",
 			"",
 			"{SOURCE PRPG Core Rulebook/354}  ",

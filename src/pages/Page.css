@@ -545,3 +545,19 @@ ion-item.mainItem.linked ion-label.bottomcap div:nth-child(2) {
 	font-size: 0.75rem;
 	color: var(--ion-color-dark-tint);
 }
+
+/* Archetypes */
+
+div.archetype {
+	margin: 1em 0;
+}
+div.archetype p {
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 0;
+}
+div.archetype p:nth-child(n+2) {
+	font-size: 0.875rem;
+	font-weight: normal;
+	text-indent: 1.5em;
+}
