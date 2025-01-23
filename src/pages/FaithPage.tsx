@@ -11,6 +11,7 @@ const FaithGroup2Page = lazy(() => import("./FaithGroup2Page"));
 const FaithGroup3Page = lazy(() => import("./FaithGroup3Page"));
 const FaithGroup4Page = lazy(() => import("./FaithGroup4Page"));
 const FaithGroup5Page = lazy(() => import("./FaithGroup5Page"));
+const FaithGroup6Page = lazy(() => import("./FaithGroup6Page"));
 
 const pages = [
 	({id}: {id: string}) => <FaithGroup1Page id={id} />,
@@ -18,6 +19,7 @@ const pages = [
 	({id}: {id: string}) => <FaithGroup3Page id={id} />,
 	({id}: {id: string}) => <FaithGroup4Page id={id} />,
 	({id}: {id: string}) => <FaithGroup5Page id={id} />,
+	({id}: {id: string}) => <FaithGroup6Page id={id} />,
 ]
 
 const FaithPage: React.FC = () => {
