@@ -887,7 +887,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		</IonButton>
 	</>;
 	return (
-		<>
+		<div className="displayTable">
 			{theFilterStuff}
 			<ScrollContainer id={id}>
 				<table key={`table/${id}`} style={tableWidth}>
@@ -899,7 +899,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 					</tbody>
 				</table>
 			</ScrollContainer>
-		</>
+		</div>
 	);
 };
 

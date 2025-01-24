@@ -15,7 +15,7 @@ const getElementAndUrl = (input: string): [ReactNode, string | null] => {
 	// ###### link/text Title of the link || Extra text underneath title
 	const m = input.match(/^\/?([^ ]+) (.+$)/);
 	if(!m) {
-		return [<h1 className="error">{input}</h1>, null];
+		return [<h2 className="error">{input}</h2>, null];
 	}
 	const url = "/" + m[1];
 	const text = m[2];

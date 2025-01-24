@@ -194,6 +194,7 @@ ion-content ion-fab {
 	opacity: 1;
 	visibility: visible;
 	transition: opacity 1s ease-out,visibility 0s;
+	margin-top: 1.5rem;
 }
 ion-content.atTop ion-fab {
 	opacity: 0;
@@ -425,6 +426,9 @@ div.tableWrap {
 	max-height: calc(100vh - 56px - 56px - 8px - 2.1em - 1rem);
 	margin: 0 auto;
 }
+div.displayTable { /* Dunno if this is needed, but... */
+	display: contents;
+}
 table {
 	--half-width: 1px;
 	--full-width: 2px;
@@ -560,4 +564,59 @@ div.archetype p:nth-child(n+2) {
 	font-size: 0.875rem;
 	font-weight: normal;
 	text-indent: 1.5em;
+}
+
+/* Find in Page */
+
+div.finder {
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: calc(100% - 2rem);
+	margin-inline: 1rem;
+	z-index: 9999;
+	background: var(--ion-color-step-100);
+	padding: 0.5rem;
+	padding-block-end: 0.25rem;
+	border-radius: 0 0 1rem 1rem;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	max-height: 2.5rem;
+	overflow: hidden;
+	transition:
+		transform ease-out 0.5s,
+		max-height ease-out 0.5s,
+		padding-block ease-out 0.5s,
+		opacity 0s;
+}
+div.finder.hidden {
+	transform: translateY(-2rem);
+	max-height: 0;
+	padding-block: 0;
+	opacity: 0;
+	transition:
+		transform ease-in 0.5s,
+		max-height ease-in 0.5s,
+		padding-block ease-in 0.5s,
+		opacity 0s 0.5s;
+}
+div.finder > * {
+	flex: 0 0 auto;
+}
+div.finder ion-searchbar {
+	margin-inline-end: 0.5rem;
+	height: 2rem;
+	flex: 1 1 50%;
+}
+div.finder ion-searchbar input {
+	background: transparent;
+}
+div.finder button {
+	height: 2rem;
+}
+mark {
+	background: var(--ion-color-tertiary);
+	color: var(--ion-color-tertiary-contrast);
 }

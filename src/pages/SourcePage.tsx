@@ -41,7 +41,7 @@ const SourcePage: React.FC = () => {
 		<BasicPage title={title} hierarchy={hierarchy} hideSources pageId={"/source/" + id}>
 			{unknown ? (
 				<>
-					<h1>Unknown</h1>
+					<h2>Unknown</h2>
 					<p>Unable to find the requested source.</p>
 				</>
 			) : (

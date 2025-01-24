@@ -75,7 +75,7 @@ const SourcesModal: FC<ModalProps> = (props) => {
 								})}
 							</>
 						) : (
-							<IonItem><IonLabel><i>No sources provided for this page.</i></IonLabel></IonItem>
+							<IonItem><IonLabel><em>No sources provided for this page.</em></IonLabel></IonItem>
 						)
 					}
 				</IonList>

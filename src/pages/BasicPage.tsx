@@ -1,8 +1,9 @@
-import { FC, PropsWithChildren, useCallback, useEffect, useRef, useState } from 'react';
-import { IonContent, IonFab, IonFabButton, IonIcon, IonPage, ScrollCustomEvent } from '@ionic/react';
+import { FC, FormEvent, PropsWithChildren, useCallback, useEffect, useRef, useState } from 'react';
+import { IonContent, IonFab, IonFabButton, IonIcon, IonPage, IonSearchbar, ScrollCustomEvent } from '@ionic/react';
 import { arrowUp } from 'ionicons/icons';
 import { useLocation, useRoute } from 'wouter';
 import { motion, AnimatePresence } from 'motion/react';
+import { useMarker } from "react-mark.js";
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
 import PageFooter from '../components/PageFooter';
@@ -47,6 +48,14 @@ const HierarchyInset: React.FC<{linkInfo: [string, string]}> = ({linkInfo}) => {
 	return <div className="hierarchyInset"><Link to={"/" + linkInfo[1]}>{linkInfo[0]}</Link></div>;
 };
 
+const markerConfig = {
+	exclude: [ "div.displayTable *" ],
+	acrossElements: true,
+	ignorePunctuation: ":;.,(){}[]!'?*\"".split(""),
+	debug: true,
+	separateWordSearch: false
+};
+
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const {
 		hasJL,
@@ -60,11 +69,18 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		className
 	} = props;
 	const dispatch = useAppDispatch();
+	const { markerRef, marker } = useMarker<HTMLDivElement>();
 	const contentObj = useRef<any>(null);
+	const findInPageSearchbarObj = useRef<any>(null);
 	const storedPos = useAppSelector(state => state.scroll[pageId] || 0);
 	// Create state for sources modal
 	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
 	const [goToTopFlag, setGoToTopFlag] = useState(true);
+	// Create state for find-in-page system
+	const [searchBoxOpen, setSearchBoxOpen] = useState(false);
+	const [numberOfTextsFound, setNumberOfTextsFound] = useState<number>(0);
+	const [highlightedText, setHighlightedText] = useState<number>(0);
+
 	const [path] = useLocation();
 	useEffect(() => {
 		debounce(() => {
@@ -90,6 +106,30 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const [isMatch] = useRoute(pageId);
 	const cN = "basicContent " + (className || "simple") + (topLink ? " hasInset" : "");
 
+	const onInput = useCallback((input: FormEvent<HTMLIonSearchbarElement>) => {
+		const text = String((input && input.currentTarget && input.currentTarget.value) || "");
+		if(marker) {
+			debounce(() => {
+				marker.unmark({
+					done: () => {
+						if(text) {
+							marker.mark(text, {
+								...markerConfig,
+								done: (n) => {
+									setNumberOfTextsFound(Number(n));
+									setHighlightedText(0);
+								}
+							});
+						} else {
+							setNumberOfTextsFound(0);
+							setHighlightedText(0);
+						}
+					}
+				});
+			}, "marking search terms");
+		}
+	}, [marker, markerRef, setNumberOfTextsFound, setHighlightedText]);
+
 	return (
 		<AnimatePresence>
 		{isMatch && <motion.div
@@ -97,7 +137,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			animate={{ opacity: 1 }}
 			exit={{ opacity: 0 }}
 		><IonPage>
-			<PageHeader title={title} hierarchy={hierarchy} />
+			<PageHeader title={title} hierarchy={hierarchy} findInPage={marker ? () => setSearchBoxOpen(!searchBoxOpen) : undefined} findingInPage={searchBoxOpen} />
 			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={contentObj}>
 				{hideSources ?
 					<></>
@@ -113,7 +153,21 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				:
 					<></>
 				}
-				<div className={cN}>
+				{marker ? <div className={"finder" + (searchBoxOpen ? "" : " hidden")}>
+					<IonSearchbar
+						ref={findInPageSearchbarObj}
+						searchIcon="/icons/find-in-page.svg"
+						placeholder="Find in page"
+						type="text"
+						inputmode="text"
+						onInput={onInput}
+						onIonClear={() => marker.unmark({done: () => {setNumberOfTextsFound(0); setHighlightedText(0);}})}
+					/>
+					<button title='Up'>Prev</button>
+					<span style={{ padding: '0px 12px' }}>{highlightedText}/{numberOfTextsFound}</span>
+					<button title='Down'>Next</button>
+				</div> : <></>}
+				<div className={cN} ref={markerRef}>
 					{topLink ? <HierarchyInset linkInfo={topLink} /> : <></>}
 					{children}
 				</div>

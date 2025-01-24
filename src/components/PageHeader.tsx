@@ -1,4 +1,4 @@
-import { PropsWithChildren, useState } from 'react';
+import { Dispatch, PropsWithChildren, useState } from 'react';
 import { IonButton, IonButtons, IonHeader, IonIcon, IonMenuButton, IonTitle, IonToolbar } from '@ionic/react';
 import { listCircleSharp, search } from 'ionicons/icons';
 import { useLocation } from 'wouter';
@@ -11,8 +11,10 @@ const PageHeader: React.FC<PropsWithChildren<{
 	title: string,
 	noSearch?: boolean,
 	hierarchy?: HierarchyArray,
+	findInPage?: Dispatch<boolean>,
+	findingInPage?: boolean,
 	className?: string
-}>> = ({ title, children, noSearch, hierarchy, className }) => {
+}>> = ({ title, children, noSearch, hierarchy, findInPage, findingInPage, className }) => {
 	const [isHierarchyModalOpen, setHierarchyModalOpen] = useState(false);
 	const [location, navigate] = useLocation();
 	const dispatch = useAppDispatch();
@@ -27,6 +29,13 @@ const PageHeader: React.FC<PropsWithChildren<{
 					noSearch && (!hierarchy || !hierarchy.length)
 						? <></>
 						: <IonButtons slot="end">
+							{findInPage
+								? (
+									<IonButton onClick={() => findInPage(!findingInPage)} color={findingInPage ? "tertiary" : undefined}>
+										<IonIcon slot="icon-only" icon="/icons/find-in-page.svg" />
+									</IonButton>
+								) : <></>
+							}
 							{(hierarchy && hierarchy.length)
 								? (
 									<IonButton onClick={() => setHierarchyModalOpen(!isHierarchyModalOpen)}>
