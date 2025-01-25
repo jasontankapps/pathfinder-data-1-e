@@ -576,14 +576,17 @@ div.finder {
 	margin-inline: 1rem;
 	z-index: 9999;
 	background: var(--ion-color-step-100);
-	padding: 0.5rem;
-	padding-block-end: 0.25rem;
+	padding-inline: 0.5rem;
 	border-radius: 0 0 1rem 1rem;
+	border-width: 1px;
+	border-color: var(--ion-color-step-200);
+	border-style: solid;
+	border-block-start-width: 0;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
 	justify-content: center;
-	max-height: 2.5rem;
+	max-height: 3.5rem;
 	overflow: hidden;
 	transition:
 		transform ease-out 0.5s,

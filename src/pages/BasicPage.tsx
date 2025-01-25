@@ -106,7 +106,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const [isMatch] = useRoute(pageId);
 	const cN = "basicContent " + (className || "simple") + (topLink ? " hasInset" : "");
 
-	const onInput = useCallback((input: FormEvent<HTMLIonSearchbarElement>) => {
+	const onInput = useCallback((input: FormEvent<HTMLIonSearchbarElement> | null) => {
 		const text = String((input && input.currentTarget && input.currentTarget.value) || "");
 		if(marker) {
 			debounce(() => {
@@ -137,7 +137,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			animate={{ opacity: 1 }}
 			exit={{ opacity: 0 }}
 		><IonPage>
-			<PageHeader title={title} hierarchy={hierarchy} findInPage={marker ? () => setSearchBoxOpen(!searchBoxOpen) : undefined} findingInPage={searchBoxOpen} />
+			<PageHeader title={title} hierarchy={hierarchy} findInPage={marker ? () => { setSearchBoxOpen(!searchBoxOpen); searchBoxOpen && onInput(null); } : undefined} findingInPage={searchBoxOpen} />
 			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={contentObj}>
 				{hideSources ?
 					<></>
