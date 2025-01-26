@@ -616,10 +616,11 @@ div.finder ion-searchbar {
 div.finder ion-searchbar input {
 	background: transparent;
 }
-div.finder button {
-	height: 2rem;
-}
 mark {
 	background: var(--ion-color-tertiary);
 	color: var(--ion-color-tertiary-contrast);
+}
+mark.current {
+	background: var(--ion-color-success);
+	color: var(--ion-color-success-contrast);
 }

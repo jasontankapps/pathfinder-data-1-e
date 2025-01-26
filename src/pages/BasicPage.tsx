@@ -1,6 +1,6 @@
-import { FC, FormEvent, PropsWithChildren, useCallback, useEffect, useRef, useState } from 'react';
-import { IonContent, IonFab, IonFabButton, IonIcon, IonPage, IonSearchbar, ScrollCustomEvent } from '@ionic/react';
-import { arrowUp } from 'ionicons/icons';
+import { Dispatch, FC, FormEvent, PropsWithChildren, useCallback, useEffect, useRef, useState } from 'react';
+import { IonButton, IonContent, IonFab, IonFabButton, IonIcon, IonPage, IonSearchbar, ScrollCustomEvent } from '@ionic/react';
+import { arrowUp, chevronBack, chevronForward } from 'ionicons/icons';
 import { useLocation, useRoute } from 'wouter';
 import { motion, AnimatePresence } from 'motion/react';
 import { useMarker } from "react-mark.js";
@@ -55,6 +55,68 @@ const markerConfig = {
 	debug: true,
 	separateWordSearch: false
 };
+const checkElementsForText = (nodes: HTMLElement[], search: string) => {
+	let count = 0;
+	let hold: null | string = null;
+	let original: HTMLElement[] = [];
+	const text = search.replace(/[:;.,(){}\[\]!'?*"]/g, "");
+	const contents: (HTMLElement | HTMLElement[])[] = [];
+	while(nodes.length > 0) {
+		const el = nodes.shift()!;
+		const test = (el.textContent || "").replace(/[:;.,(){}\[\]!'?*"]/g, "");
+		if(hold !== null) {
+			hold = hold + test;
+			if (hold === text || (hold.indexOf(text) > -1)) {
+				count++;
+				hold = "";
+				contents.push([...original, el]);
+				original = [];
+			} else {
+				hold = test;
+				original.push(el);
+			}
+		} else if (test === text) {
+			count++;
+			contents.push(el);
+		} else {
+			hold = test;
+			original.push(el);
+		}
+	}
+	if(original.length > 0) {
+		count++;
+		contents.push(original);
+	}
+	return {
+		count,
+		contents
+	};
+};
+const doFocus = (
+	inputmarks: (HTMLElement | HTMLElement[])[],
+	current: number,
+	mod: 1 | -1,
+	setCurrent: Dispatch<number>
+) => {
+	const marks = inputmarks.map(m => Array.isArray(m) ? m : [m]);
+	if(current >= 0) {
+		marks[current].forEach(m => m.classList.remove("current"));
+	}
+	let next = current + mod;
+	if(next < 0) {
+		next = marks.length - 1;
+	} else if (next === marks.length) {
+		next = 0;
+	}
+	setCurrent(next);
+	const target = marks[next][0];
+	marks[next].forEach(target => target.classList.add("current"));
+	target.scrollIntoView({
+		behavior: "smooth",
+		block: "center",
+		inline: "center"
+	});
+};
 
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const {
@@ -79,7 +141,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	// Create state for find-in-page system
 	const [searchBoxOpen, setSearchBoxOpen] = useState(false);
 	const [numberOfTextsFound, setNumberOfTextsFound] = useState<number>(0);
-	const [highlightedText, setHighlightedText] = useState<number>(0);
+	const [markers, setMarkers] = useState<(HTMLElement| HTMLElement[])[]>([]);
+	const [highlightedText, setHighlightedText] = useState<number>(-1);
 
 	const [path] = useLocation();
 	useEffect(() => {
@@ -116,20 +179,41 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 							marker.mark(text, {
 								...markerConfig,
 								done: (n) => {
-									setNumberOfTextsFound(Number(n));
-									setHighlightedText(0);
+									const found = Number(n);
+									const markers = (
+										markerRef
+										&& markerRef.current
+										&& [...markerRef.current.querySelectorAll("mark")]
+										|| []
+									);
+									setHighlightedText(-1);
+									const { count, contents } = checkElementsForText(
+										markers,
+										text
+									);
+									setNumberOfTextsFound(count);
+									setMarkers(contents);
 								}
 							});
 						} else {
 							setNumberOfTextsFound(0);
-							setHighlightedText(0);
+							setMarkers([]);
+							setHighlightedText(-1);
 						}
 					}
 				});
 			}, "marking search terms");
 		}
-	}, [marker, markerRef, setNumberOfTextsFound, setHighlightedText]);
+		input || (findInPageSearchbarObj && findInPageSearchbarObj.current && (findInPageSearchbarObj.current.value = ""));
+	}, [marker, markerRef, setNumberOfTextsFound, setHighlightedText, setMarkers, markers, findInPageSearchbarObj]);
 
+	const show = useCallback((mod: 1 | -1) => doFocus(
+		markers,
+		highlightedText,
+		mod,
+		setHighlightedText
+	), [markers, highlightedText, setHighlightedText]);
+	
 	return (
 		<AnimatePresence>
 		{isMatch && <motion.div
@@ -161,11 +245,11 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 						type="text"
 						inputmode="text"
 						onInput={onInput}
-						onIonClear={() => marker.unmark({done: () => {setNumberOfTextsFound(0); setHighlightedText(0);}})}
+						onIonClear={() => marker.unmark({done: () => {setNumberOfTextsFound(0); setHighlightedText(-1);}})}
 					/>
-					<button title='Up'>Prev</button>
-					<span style={{ padding: '0px 12px' }}>{highlightedText}/{numberOfTextsFound}</span>
-					<button title='Down'>Next</button>
+					<IonButton shape="round" onClick={() => show(-1)} color="tertiary" size="small"><IonIcon slot="icon-only" icon={chevronBack} /></IonButton>
+					<span style={{ padding: '0px 12px' }}>{highlightedText + 1}/{numberOfTextsFound}</span>
+					<IonButton shape="round" onClick={() => show(1)} color="tertiary" size="small"><IonIcon slot="icon-only" icon={chevronForward} /></IonButton>
 				</div> : <></>}
 				<div className={cN} ref={markerRef}>
 					{topLink ? <HierarchyInset linkInfo={topLink} /> : <></>}
