@@ -59,11 +59,11 @@ const checkElementsForText = (nodes: HTMLElement[], search: string) => {
 	let count = 0;
 	let hold: null | string = null;
 	let original: HTMLElement[] = [];
-	const text = search.replace(/[:;.,(){}\[\]!'?*"]/g, "");
+	const text = search.replace(/[:;.,(){}\[\]!'?*"]/g, "").toLowerCase();
 	const contents: (HTMLElement | HTMLElement[])[] = [];
 	while(nodes.length > 0) {
 		const el = nodes.shift()!;
-		const test = (el.textContent || "").replace(/[:;.,(){}\[\]!'?*"]/g, "");
+		const test = (el.textContent || "").replace(/[:;.,(){}\[\]!'?*"]/g, "").toLowerCase();
 		if(hold !== null) {
 			hold = hold + test;
 			if (hold === text || (hold.indexOf(text) > -1)) {

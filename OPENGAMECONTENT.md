@@ -157,7 +157,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 **Pathfinder Chronicles: Princes of Darkness, Book of the Damned, Vol. I** &copy; 2009, Paizo Publishing, LLC; Author: F. Wesley Schneider.  
 **Pathfinder Chronicles: Seekers of Secrets** &copy; 2009, Paizo Publishing, LLC; Authors: Tim Hitchcock, Erik Mona, Sean K Reynolds, James L. Sutter, and Russ Taylor.  
 **Pathfinder Chronicles: The Great Beyond, A Guide to the Multiverse** &copy; 2009, Paizo Publishing, LLC; Author: Todd Stewart.  
-**Pathfinder Companion: Cheliax, Empire of Devils** &copy; 2009, Paizo Publishing, LLC; Authors:Jonathan H. Keith, Colin McComb, Steven E. Schend, Leandra Christine Schneider, and Amber E. Scott.  
+**Pathfinder Companion: Cheliax, Empire of Devils** &copy; 2009, Paizo Publishing, LLC; Authors: Jonathan H. Keith, Colin McComb, Steven E. Schend, Leandra Christine Schneider, and Amber E. Scott.  
 **Pathfinder Companion: Dwarves of Golarion** &copy; 2009, Paizo Publishing, LLC; Authors: David A. Eitelbach, Russ Taylor, JD Wiker, Keri Wiker, and Hank Woon.  
 **Pathfinder Companion: Legacy of Fire Player's Guide** &copy; 2009, Paizo Publishing, LLC; Authors: Brian Cortijo, Stephen S. Greer, James Jacobs, Jonathan H. Keith, F. Wesley Schneider, Amber E. Scott, and James L. Sutter.  
 **Pathfinder Companion: Qadira, Gateway to the East** &copy; 2009, Paizo Publishing, LLC; Author: Brian Cortijo.  
@@ -192,7 +192,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 **Pathfinder Chronicles: Faction Guide** &copy; 2010, Paizo Publishing, LLC; Authors: Joshua J. Frost, Jason Nelson, and Sean K Reynolds.  
 **Pathfinder Chronicles: Guide to the River Kingdoms** &copy; 2010, Paizo Publishing, LLC; Authors: Eric Bailey, Kevin Carter, Elaine Cunningham, Adam Daigle, Mike Ferguson, Joshua J. Frost, Steve Kenson, Rob Manning, Alison McKenzie, Colin Moulder-McComb, China Mi&eacute;ville, Brock Mitchel-Slentz, Jason Nelson, Richard Pett, Chris Pramas, Je' Quick, Sean K Reynolds, F. Wesley Schneider, Lisa Stevens, Neil Spicer, Matthew Stinson, and John Wick.  
 **Pathfinder Companion: Adventurer's Armory** &copy; 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Jeff Quick, Christopher Self, JD Wiker, and Keri Wiker.  
-**Pathfinder Companion: Andoran, Spirit of Liberty** &copy; 2010, Paizo Publishing, LLC; Authors:Jonathan Keith, Hal Maclean, Colin Moulder-McComb, Jason Nelson, and Hank Woon.  
+**Pathfinder Companion: Andoran, Spirit of Liberty** &copy; 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Colin Moulder-McComb, Jason Nelson, and Hank Woon.  
 **Pathfinder Companion: Gnomes of Golarion** &copy; 2010, Paizo Publishing, LLC; Authors: Hal Maclean, Colin McComb, Mark Moreland, Jeff Quick, Sean K Reynolds, Steven Schend, and Owen K.C. Stephens.  
 **Pathfinder Companion: Orcs of Golarion** &copy; 2010, Paizo Publishing, LLC; Authors: Steve Kenson, Rob McCreary, Richard Pett, Sean K Reynolds, and JD Wiker.  
 **Pathfinder Companion: Sargava, the Lost Colony.** &copy; 2010, Paizo Publishing, LLC; Author: JD Wiker.  

@@ -58,6 +58,37 @@ const getSpecialContainerBlocks = (flags) => {
 	return {...specialContainerBlocks, renderer: (token) => specialContainerBlocks.renderer(token, flags)};
 };
 
+const inlineTags = {
+	level: "inline",
+	marker: ":",
+	renderer: (token, prefix) => {
+		const {text = "", attrs = {}, meta} = token;
+		let tag = meta.name;
+		const s = attrs.s || "/";
+		const texts = text.split(s);
+		const id = attrs.id || texts[0].replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
+		switch(tag) {
+			case "b":
+				tag = "strong";
+				break;
+			case "i":
+				tag = "em";
+				break;
+			case "strong":
+			case "span":
+			case "em":
+				break;
+			default:
+				return false;
+		}
+		return `<${tag} id="${prefix}${id}">${texts.join("")}</${tag}>`;
+	}
+};
+
+const getInlineTags = (prefix) => {
+	return {...inlineTags, renderer: (token) => inlineTags.renderer(token, prefix)};
+};
+
 // Converts {some/Link: Text/s} into [Link: Texts](some/link_text)
 const convertLinks = (input) => {
 	let output = [];
@@ -267,7 +298,11 @@ const convertDescription = (desc, prefix, tables) => {
 	const marked = new Marked();
 	const flags = {};
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
-	marked.use(createDirectives([alternateHeaderBlocks, getSpecialContainerBlocks(specialContainerBlocks, flags)]));
+	marked.use(createDirectives([
+		alternateHeaderBlocks,
+		getSpecialContainerBlocks(flags),
+		getInlineTags(prefix)
+	]));
 	marked.use(markedFootnote({prefixId: prefix}));
 	marked.use(gfmHeadingId({prefix}));
 	marked.use(renderer(flags, prefix));
@@ -282,7 +317,11 @@ const convertMainDescription = (desc, prefix, tables) => {
 	let output = "";
 	const flags = {};
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
-	marked.use(createDirectives([alternateHeaderBlocks, getSpecialContainerBlocks(specialContainerBlocks, flags)]));
+	marked.use(createDirectives([
+		alternateHeaderBlocks,
+		getSpecialContainerBlocks(flags),
+		getInlineTags(prefix)
+	]));
 	marked.use(markedFootnote({prefixId: prefix}));
 	marked.use(gfmHeadingId({prefix}));
 	marked.use(renderer(flags, prefix));
