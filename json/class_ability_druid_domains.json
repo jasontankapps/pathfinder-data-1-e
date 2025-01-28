@@ -37,7 +37,7 @@
 			"",
 			"**Call Cold (Su):** You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the cold subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats that add to this ability, such as {feat/Extra Channel} and {feat/Improved Channel}, but not feats that alter this ability, such as {feat/Elemental Channel} and {feat/Alignment Channel}. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.",
 			"",
-			"**Banish Flame (Su):** At 6th level, you may use your call cold ability to damage creatures with the fire subtype (as a cleric channeling negative energy) or to cause them to flee from you (as the Turn Undead feat). Alternatively, you may use this ability to negate magical fire effects as if using a targeted dispel magic; at 12th level, this functions as targeted or area greater dispel magic instead of dispel magic.",
+			"**Banish Flame (Su):** At 6th level, you may use your call cold ability to damage creatures with the fire subtype (as a cleric channeling negative energy) or to cause them to flee from you (as the Turn Undead feat). Alternatively, you may use this ability to negate magical fire effects as if using a targeted {spell/dispel magic}; at 12th level, this functions as targeted or area {spell/greater dispel magic} instead of dispel magic.",
 			"",
 			"**Domain Spells:** 1st-{spell/frostbite}, 2nd-{spell/aspect of the bear}, 3rd-{spell/sleet storm}, 4th-{spell/wall of ice}, 5th-{spell/aspect of the wolf}, 6th-{spell/freezing sphere}, 7th-{spell/wind walk}, 8th-{spell/polar ray}, 9th-{spell/polar midnight}."
 		]

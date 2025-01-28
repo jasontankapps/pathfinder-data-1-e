@@ -602,7 +602,7 @@
 			"",
 			"A protective spirit is an invisible, mindless, shapeless force that hovers about you, defending you against unexpected attacks. When a creature makes an attack of opportunity against you, the protective spirit makes an immediate attack using your base attack bonus plus your Dexterity modifier. On a successful hit, the spirit does no damage, but it causes the attack of opportunity to automatically miss. A protective spirit can defend against a number of attacks of opportunity equal to your Dexterity bonus (minimum 1) per round.",
 			"",
-			"A protective spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A protective spirit's AC against touch attacks is 10 + your Dexterity modifier."
+			"A protective spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. A protective spirit's AC against touch attacks is 10 + your Dexterity modifier."
 		]
 	},
 	"prying_eyes": {
@@ -630,7 +630,7 @@
 			"",
 			"If an eye ever gets more than 1 mile away from you, it instantly ceases to exist. However, your link with the eye is such that you won't know if the eye was destroyed because it wandered out of range or because of some other event.",
 			"",
-			"The eyes exist for up to 1 hour per caster level or until they return to you. Dispel magic can destroy eyes. Roll separately for each eye caught in an area dispel. Of course, if an eye is sent into darkness, it could hit a wall or similar obstacle and destroy itself."
+			"The eyes exist for up to 1 hour per caster level or until they return to you. {spell/Dispel magic} can destroy eyes. Roll separately for each eye caught in an area dispel. Of course, if an eye is sent into darkness, it could hit a wall or similar obstacle and destroy itself."
 		]
 	},
 	"prying_eyes_greater": {
@@ -858,7 +858,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"Psychic surgery cures the target of all Intelligence, Wisdom, and Charisma damage and restores all points permanently drained from the target's Intelligence, Wisdom, and Charisma scores. It also eliminates all ongoing insanity, confusion, and fear effects. Psychic surgery can also remove other mental afflictions, including enchantment spells and abilities, and even instantaneous effects, but in this case, if dispel magic couldn't remove the effect, psychic surgery works only if the spell level or equivalent spell level of the effect was 6th level or lower. Psychic surgery removes all effects magically altering the target's memory, even instantaneous effects, and it can restore a memory to perfect clarity like the second use of {spell/modify memory}."
+			"Psychic surgery cures the target of all Intelligence, Wisdom, and Charisma damage and restores all points permanently drained from the target's Intelligence, Wisdom, and Charisma scores. It also eliminates all ongoing insanity, confusion, and fear effects. Psychic surgery can also remove other mental afflictions, including enchantment spells and abilities, and even instantaneous effects, but in this case, if {spell/dispel magic} couldn't remove the effect, psychic surgery works only if the spell level or equivalent spell level of the effect was 6th level or lower. Psychic surgery removes all effects magically altering the target's memory, even instantaneous effects, and it can restore a memory to perfect clarity like the second use of {spell/modify memory}."
 		]
 	},
 	"psychonaut_manifestation": {
@@ -1147,7 +1147,7 @@
 			"",
 			"Spells that modify or remove text - such as {spell/erase} or {spell/secret page} - also affect the target's memory if they persist after its release. {spell/Modify memory} can be used to repair any changes to its original state, or alter the accounts recorded within the book. A creature imprisoned by scribe's binding automatically fails any saving throws against effects to change or modify its memories.",
 			"",
-			"A target bound by this spell can be freed by only freedom, miracle, or wish . Polymorph any object restores the target's normal form for 24 hours. Scribe's binding makes the imprisoning tome supernaturally durable (hardness 20, 10 hp per HD the imprisoned creature had). Destroying the tome immediately slays the creature imprisoned within."
+			"A target bound by this spell can be freed by only {spell/freedom}, {spell/miracle}, or {spell/wish}. {spell/Polymorph any object} restores the target's normal form for 24 hours. Scribe's binding makes the imprisoning tome supernaturally durable (hardness 20, 10 hp per HD the imprisoned creature had). Destroying the tome immediately slays the creature imprisoned within."
 		]
 	},
 	"scriveners_chant": {
@@ -1437,7 +1437,7 @@
 			"",
 			"The seamantle blocks line of effect for any fire spell or supernatural fire effect, but enemies can attempt to use fire spells within the seamantle; this requires a caster level check (DC 20 + spell level), and if successful the fire spell takes effect as a bubble of steam contained within the seamantle rather than its usual effect.",
 			"",
-			"The seamantle allows you to make a slam attack by forming a pseudopod of water, inflicting damage appropriate for your size. This slam attack has a reach of 30 feet. In addition, as a standard action, you can attempt to extinguish fires by touch. You automatically extinguish up to a 10-foot cube of normal fire. Against magical fire effects, your touch acts as dispel magic; this also applies to any non-instantaneous fire affect that comes into contact with you (such as flame blade, flaming sphere, or incendiary cloud). Even if you fail to extinguish a fire, you are not harmed by it. A flaming or flaming burst weapon that strikes you has its power suppressed for 1d4 rounds if the wielder fails a Fortitude save."
+			"The seamantle allows you to make a slam attack by forming a pseudopod of water, inflicting damage appropriate for your size. This slam attack has a reach of 30 feet. In addition, as a standard action, you can attempt to extinguish fires by touch. You automatically extinguish up to a 10-foot cube of normal fire. Against magical fire effects, your touch acts as {spell/dispel magic}; this also applies to any non-instantaneous fire affect that comes into contact with you (such as {spell/flame blade}, {spell/flaming sphere}, or {spell/incendiary cloud}). Even if you fail to extinguish a fire, you are not harmed by it. A {magic-enhancement/flaming} or {magic-enhancement/flaming burst} weapon that strikes you has its power suppressed for 1d4 rounds if the wielder fails a Fortitude save."
 		]
 	},
 	"searching_shadows": {
@@ -2207,7 +2207,7 @@
 			"",
 			"The hidden sigil cannot be detected by normal observation, and detect magic reveals only that the entire text is magical.",
 			"",
-			"A dispel magic can remove the sigil. An erase spell destroys the entire page of text.",
+			"A {spell/dispel magic} can remove the sigil. An {spell/erase} spell destroys the entire page of text.",
 			"",
 			"Sepia snake sigil can be cast in combination with other spells that hide or garble text, such as secret page."
 		]
@@ -2340,7 +2340,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You curse the target, preventing it from drawing upon the powers of destiny. The target is shaken and cannot use hero points for the duration of the spell. This effect can be removed by dispel magic, remove curse, or other similar effects."
+			"You curse the target, preventing it from drawing upon the powers of destiny. The target is shaken and cannot use hero points for the duration of the spell. This effect can be removed by {spell/dispel magic}, {spell/remove curse}, or other similar effects."
 		]
 	},
 	"shackle": {

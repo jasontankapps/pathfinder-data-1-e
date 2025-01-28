@@ -199,7 +199,7 @@
 			"",
 			"You create a phantasm of an oily green phantasmal poison on the target weapon. The first creature hit by the poisoned weapon must make a Will save against the illusion spell; success means the spell has no effect and is expended from the weapon. If the creature fails its save, it believes it has been poisoned and must make Fortitude saves at the spell's DC to avoid suffering illusory poison damage.",
 			"",
-			"Delay poison allows the target to ignore the effects of the phantasmal poison until the delay poison spell ends, at which time it may make a Will save to realize the poison is illusory and recover all illusory poison damage. Neutralize poison, lesser restoration, or restoration immediately recovers all damage from the spell. A successful dispel magic spell ends the effect of the illusion, as do spells that penetrate illusions (such as true seeing). The target automatically recovers all illusory poison damage after 1 hour.",
+			"Delay poison allows the target to ignore the effects of the phantasmal poison until the delay poison spell ends, at which time it may make a Will save to realize the poison is illusory and recover all illusory poison damage. Neutralize poison, lesser restoration, or restoration immediately recovers all damage from the spell. A successful {spell/dispel magic} spell ends the effect of the illusion, as do spells that penetrate illusions (such as {spell/true seeing}). The target automatically recovers all illusory poison damage after 1 hour.",
 			"",
 			"#### Phantasmal Poison",
 			"",
@@ -225,7 +225,7 @@
 			"",
 			"You write instructions or other information on parchment, paper, or any suitable writing material. The illusory script appears to be some form of foreign or magical writing. Only the person (or people) designated by you at the time of the casting can read the writing; it's unintelligible to any other character.",
 			"",
-			"Any unauthorized creature attempting to read the script triggers a potent illusory effect and must make a saving throw. A successful saving throw means the creature can look away with only a mild sense of disorientation. Failure means the creature is subject to a suggestion implanted in the script by you at the time the illusory script spell was cast. The suggestion lasts only 30 minutes. Typical suggestions include \"Close the book and leave,\" \"Forget the existence of this note,\" and so forth. If successfully dispelled by dispel magic, the illusory script and its secret message disappear. The hidden message can be read by a combination of the {spell/true seeing} spell with the {spell/read magic} or {spell/comprehend languages} spell."
+			"Any unauthorized creature attempting to read the script triggers a potent illusory effect and must make a saving throw. A successful saving throw means the creature can look away with only a mild sense of disorientation. Failure means the creature is subject to a suggestion implanted in the script by you at the time the illusory script spell was cast. The suggestion lasts only 30 minutes. Typical suggestions include \"Close the book and leave,\" \"Forget the existence of this note,\" and so forth. If successfully dispelled by {spell/dispel magic}, the illusory script and its secret message disappear. The hidden message can be read by a combination of the {spell/true seeing} spell with the {spell/read magic} or {spell/comprehend languages} spell."
 		]
 	},
 	"illusory_wall": {
@@ -443,7 +443,7 @@
 			"**Duration** 10 min./level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This minor curse interferes with the target's ability to speak. On a failed save, the target has difficulty stringing words together. Only with great concentration can he communicate intelligibly. Speaking in combat becomes a move-equivalent action rather than a free action. If the target attempts to cast a spell with a verbal component, he has a 50% chance of making an error and losing the spell. Even if he can successfully cast a spell, doing so takes 1 round if the spell's normal casting time is less than 1 round. If the spell's casting time is usually 1 round or longer, its casting time doubles (up until the end of impede speech). Impede speech cannot be dispelled, but break enchantment, limited wish, miracle, remove curse, or wish can end it prematurely."
+			"This minor curse interferes with the target's ability to speak. On a failed save, the target has difficulty stringing words together. Only with great concentration can he communicate intelligibly. Speaking in combat becomes a move-equivalent action rather than a free action. If the target attempts to cast a spell with a verbal component, he has a 50% chance of making an error and losing the spell. Even if he can successfully cast a spell, doing so takes 1 round if the spell's normal casting time is less than 1 round. If the spell's casting time is usually 1 round or longer, its casting time doubles (up until the end of impede speech). Impede speech cannot be dispelled, but {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} can end it prematurely."
 		]
 	},
 	"impenetrable_veil": {
@@ -1190,9 +1190,9 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"The affected creature suffers from a continuous confusion effect, as the spell.",
+			"The affected creature suffers from a continuous {spell/confusion} effect, as the spell.",
 			"",
-			"Remove curse does not remove insanity. Greater restoration, heal, limited wish, miracle, or wish can restore the creature."
+			"{spell/Remove curse} does not remove insanity. {spell/Greater restoration}, {spell/heal}, {spell/limited wish}, {spell/miracle}, or {spell/wish} can restore the creature."
 		]
 	},
 	"insect_plague": {
@@ -1645,7 +1645,7 @@
 			"",
 			"The hand never provokes attacks of opportunity from opponents. It cannot push through a wall of force or enter an antimagic field, but it suffers the full effect of a prismatic wall or prismatic sphere. The hand makes saving throws as its caster.",
 			"",
-			"Disintegrate or a successful dispel magic destroys it.",
+			"{spell/Disintegrate} or a successful {spell/dispel magic} destroys it.",
 			"",
 			"Any creature weighing 2,000 pounds or less that tries to push past the hand is slowed to half its normal speed. The hand cannot reduce the speed of a creature weighing more than 2,000 pounds, but it still affects the creature's attacks.",
 			"",
@@ -4078,7 +4078,7 @@
 			"",
 			"You curse the target to attract negative assumptions and rumors of a sort you specify when you cast the spell. If the target fails the initial save to negate the curse, every day that it spends in a settlement, it must attempt a Will save. If it fails, it accidentally says or does something that makes others assume the rumor you specified is true in some way that is unflattering or incriminating. If the creature is not aware of the nature of the rumors, it takes a -4 penalty on these secondary saves. After the first failed save, the attitude each resident in the settlement has regarding the target is worsened by one step. For each additional failure, the target becomes the victim of focused harassment. A group of residents taunts or attacks the creature, potentially sending the authorities to investigate if the rumor indicates criminal guilt.",
 			"",
-			"The spell can be cast at any distance. The difficulty of the save depends on your knowledge of the subject and what sort of physical connection you have to that creature. The target gains the same bonuses and penalties on its Will save to resist this spell as the bonuses and penalties that apply to the scrying spell (including a +5 bonus if the target is on another plane), except that you can't cast pox of rumors without at least a possession or garment to use as the material component, and the target takes no penalty when you use a possession or garment and only a -5 penalty when you use a piece of the target's body. Pox of rumors is a curse, and until its duration expires, it can be removed only by remove curse or similar magic."
+			"The spell can be cast at any distance. The difficulty of the save depends on your knowledge of the subject and what sort of physical connection you have to that creature. The target gains the same bonuses and penalties on its Will save to resist this spell as the bonuses and penalties that apply to the scrying spell (including a +5 bonus if the target is on another plane), except that you can't cast pox of rumors without at least a possession or garment to use as the material component, and the target takes no penalty when you use a possession or garment and only a -5 penalty when you use a piece of the target's body. Pox of rumors is a curse, and until its duration expires, it can be removed only by {spell/remove curse} or similar magic."
 		]
 	},
 	"pox_pustules": {
@@ -4283,7 +4283,7 @@
 			"**Target** you  ",
 			"**Duration** 1 round/level",
 			"",
-			"You voice a mighty yell from the depths of your soul, invigorating yourself and dispelling enchantment and paralysis effects. This functions as break enchantment, except it only affects you and only frees you from enchantment and paralysis effects. If the caster level check to break the hostile effect succeeds, you give voice to your scream and the spell takes effect normally; if not, this spell fails without further effect. You can cast this spell even when paralyzed or unable to speak because of an enchantment effect, but not in an area of silence, if you are unable to speak for reasons other than enchantments or paralysis (for example, if you are gagged), or if cast in an environment where speaking is not possible."
+			"You voice a mighty yell from the depths of your soul, invigorating yourself and dispelling enchantment and paralysis effects. This functions as {spell/break enchantment}, except it only affects you and only frees you from enchantment and paralysis effects. If the caster level check to break the hostile effect succeeds, you give voice to your scream and the spell takes effect normally; if not, this spell fails without further effect. You can cast this spell even when paralyzed or unable to speak because of an enchantment effect, but not in an area of silence, if you are unable to speak for reasons other than enchantments or paralysis (for example, if you are gagged), or if cast in an environment where speaking is not possible."
 		]
 	},
 	"prismatic_sphere": {
@@ -4386,19 +4386,20 @@
 			"",
 			"Each color in the wall has a special effect. The accompanying table shows the seven colors of the wall, the order in which they appear, their effects on creatures trying to attack you or pass through the wall, and the magic needed to negate each color.",
 			"",
-			"The wall can be destroyed, color by color, in consecutive order, by casting the specified spells on the wall; however, the first color must be brought down before the second can be affected, and so on. A rod of cancellation or a mage's disjunction spell destroys a prismatic wall, but an antimagic field fails to penetrate it. Dispel magic and greater dispel magic can only be used on the wall once all the other colors have been destroyed. Spell resistance is effective against a prismatic wall, but the caster level check must be repeated for each color present.",
+			"The wall can be destroyed, color by color, in consecutive order, by casting the specified spells on the wall; however, the first color must be brought down before the second can be affected, and so on. A {magic-rod/rod of cancellation} or a {spell/mage's disjunction} spell destroys a prismatic wall, but an {spell/antimagic field} fails to penetrate it. {spell/Dispel magic} and {spell/greater dispel magic} can only be used on the wall once all the other colors have been destroyed. Spell resistance is effective against a prismatic wall, but the caster level check must be repeated for each color present.",
 			"",
 			"Prismatic wall can be made permanent with a {spell/permanency} spell.",
 			"",
 			"| Order | Color | Effect of Color | Negated By |",
 			"| --- | --- | --- | --- |",
-			"| 1st | Red | Stops nonmagical ranged weapons. Deals 20 points of fire damage (Reflex half). | Cone of cold |",
-			"| 2nd | Orange | Stops magical ranged weapons. Deals 40 points of acid damage (Reflex half). | Gust of wind |",
-			"| 3rd | Yellow | Stops poisons, gases, and petrification. Deals 80 points of electricity damage (Reflex half). | Disintegrate |",
-			"| 4th | Green | Stops breath weapons. *Poison: (frequency: 1/rd for 6 rd.; init. effect: death, sec. effect: 1 Con/rd.; cure 2 consecutive Fort saves)*. | Passwall |",
-			"| 5th | Blue | Stops divination and mental attacks. Turned to stone (Fortitude negates). | Magic missile |",
-			"| 6th | Indigo | Stops all spells. Will save or become insane (as insanity spell). | Daylight |",
-			"| 7th | Violet | Energy field destroys all objects and effects.[^V] Creatures sent to another plane (Will negates). | Dispel magic or greater dispel magic |",
+			"| 1st | Red | Stops nonmagical ranged weapons. Deals 20 points of fire damage (Reflex half). | {spell/Cone of cold} |",
+			"| 2nd | Orange | Stops magical ranged weapons. Deals 40 points of acid damage (Reflex half). | {spell/Gust of wind} |",
+			"| 3rd | Yellow | Stops poisons, gases, and petrification. Deals 80 points of electricity damage (Reflex half). | {spell/Disintegrate} |",
+			"| 4th | Green | Stops breath weapons. *Poison: (frequency: 1/rd for 6 rd.; init. effect: death, sec. effect: 1 Con/rd.; cure 2 consecutive Fort saves)*. | {spell/Passwall} |",
+			"| 5th | Blue | Stops divination and mental attacks. Turned to stone (Fortitude negates). | {spell/Magic missile} |",
+			"| 6th | Indigo | Stops all spells. Will save or become insane (as insanity spell). | {spell/Daylight} |",
+			"| 7th | Violet | Energy field destroys all objects and effects.[^V] Creatures sent to another plane (Will negates). | {spell/Dispel magic} or {spell/greater dispel magic} |",
+			"",
 			"[^V]: The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above)."
 		]
 	},

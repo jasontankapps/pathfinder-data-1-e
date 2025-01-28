@@ -304,11 +304,11 @@ const SearchPage: FC = () => {
 	useEffect(() => {
 		if (!initialized && ref && ref.current) {
 			debounce(() => {
-				!searchtext && ref && ref.current && !ref.current.value && ref.current.setFocus();
+				!searchtext && ref && ref.current && !ref.current.value && ref.current.setFocus && ref.current.setFocus();
 				if(ref && ref.current) {
 					if(searchtext) {
 						ref.current.value = searchtext;
-					} else if (!ref.current.value) {
+					} else if (!ref.current.value && ref.current.setFocus) {
 						ref.current.setFocus();
 					}
 				}

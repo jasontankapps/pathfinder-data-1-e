@@ -3272,7 +3272,7 @@
 			"{SOURCE Blood of Shadows/25}",
 			"",
 			"Your magic disrupts sources of light.  ",
-			"**Benefit:** You can modify a spell to extinguish magical and nonmagical light sources that the target has. The first time a creature takes damage from or fails a saving throw against a snuffing spell, any nonmagical light sources it has are immediately extinguished and you can attempt to dispel any active spells with the light descriptor that are affecting the target as if you had also cast the targeted version of dispel magic. Spells that do not target creatures can't be snuffing spells.",
+			"**Benefit:** You can modify a spell to extinguish magical and nonmagical light sources that the target has. The first time a creature takes damage from or fails a saving throw against a snuffing spell, any nonmagical light sources it has are immediately extinguished and you can attempt to dispel any active spells with the light descriptor that are affecting the target as if you had also cast the targeted version of {spell/dispel magic}. Spells that do not target creatures can't be snuffing spells.",
 			"",
 			"A snuffing spell uses up a spell slot 2 levels higher than the spell's actual level."
 		]
@@ -4159,7 +4159,7 @@
 			"**Prerequisites:** Wis 17; {feat/Iron Will}; {feat/Spirit Beacon}; Diplomacy 5 ranks or Intimidate 5 ranks.  ",
 			"**Benefit:** Select one specific category of spirit (fey, outsiders, or undead). Once per day as a standard action, you can condemn these spirits with such force of will that you can drive them from hosts, unravel their magic, or damage them physically. A rebuke targets a single spirit you can see (or one that is possessing a creature you can see) within 30 feet.",
 			"",
-			"Rebuking a spirit either functions as a targeted dispel magic spell or channels damaging energy directly into the creature, similar to a cleric's channel energy ability. To dispel a spirit's magic, attempt a dispel check, using your character level as your caster level (DC = 11 + spell level); if you're successful, that effect is dispelled. You can dispel only spells and spell-like abilities affecting the spirit itself or a creature it is currently possessing. If you use this dispel effect to end a spirit's possession of a creature or object, you gain a +2 bonus on this check. Channeling damaging energy instead deals 1d6 points of damage for every 2 character levels you have. A successful Will saving throw (DC = 10 + half your character level + your Charisma modifier) halves this damage.  ",
+			"Rebuking a spirit either functions as a targeted {spell/dispel magic} spell or channels damaging energy directly into the creature, similar to a cleric's channel energy ability. To dispel a spirit's magic, attempt a dispel check, using your character level as your caster level (DC = 11 + spell level); if you're successful, that effect is dispelled. You can dispel only spells and spell-like abilities affecting the spirit itself or a creature it is currently possessing. If you use this dispel effect to end a spirit's possession of a creature or object, you gain a +2 bonus on this check. Channeling damaging energy instead deals 1d6 points of damage for every 2 character levels you have. A successful Will saving throw (DC = 10 + half your character level + your Charisma modifier) halves this damage.  ",
 			"**Special:** You can select this feat up to three times. Each time you do, you must select a different category of spirit your rebuke can affect, and you can use the feat one additional time each day."
 		]
 	},

@@ -3019,7 +3019,7 @@
 			"{SOURCE Monster Summoner's Handbook/9}",
 			"",
 			"You are skilled at the art of dispelling.  ",
-			"**Prerequisites:** Ability to cast dispel magic.  ",
+			"**Prerequisites:** Ability to cast {spell/dispel magic}.  ",
 			"**Benefit:** Whenever you attempt a dispel check based on your caster level, you gain a +2 bonus on the check."
 		]
 	},
@@ -3031,7 +3031,7 @@
 			"",
 			"{SOURCE Weapon Master's Handbook/26}",
 			"",
-			"You can dispel magic with abjuration magic items.  ",
+			"You can {spell/dispel magic} with abjuration magic items.  ",
 			"**Prerequisites:** Use Magic Device 3 ranks, base Fortitude save bonus +6.  ",
 			"**Benefit:** You can cause an item that has an abjuration spell of 2nd level or higher in its construction requirements to cast dispel magic, but only to perform a targeted dispel. You can use this feat once per day, plus an additional time per day at base Fortitude save bonus +9 and +12."
 		]
@@ -3059,7 +3059,7 @@
 			"",
 			"You can change your toxic blood to unravel magic itself.  ",
 			"**Prerequisites:** Knowledge (arcana) 7 ranks, vishkanya.  ",
-			"**Benefit:** As a swift action, you can alter the effects of your venom to affect magic instead of flesh. Your venom functions as a targeted dispel magic effect when it strikes a creature, using your character level as your caster level. This dispelling effect affects creatures even if they are immune to poison effects.  ",
+			"**Benefit:** As a swift action, you can alter the effects of your venom to affect magic instead of flesh. Your venom functions as a targeted {spell/dispel magic} effect when it strikes a creature, using your character level as your caster level. This dispelling effect affects creatures even if they are immune to poison effects.  ",
 			"**Normal:** Vishkanya venom deals Dexterity damage."
 		]
 	},
@@ -3072,7 +3072,7 @@
 			"{SOURCE Ultimate Combat/97}",
 			"",
 			"Your blows attack the physical and arcane forms of your enemies at the same time.  ",
-			"**Prerequisites:** {feat/Arcane Strike}, base attack bonus +11, ability to cast dispel magic.  ",
+			"**Prerequisites:** {feat/Arcane Strike}, base attack bonus +11, ability to cast {spell/dispel magic}.  ",
 			"**Benefit:** If you have dispel magic prepared or can cast it spontaneously, when you score a critical hit against an opponent, you may use a swift action to cast dispel magic to make a targeted dispel against that opponent."
 		]
 	},
@@ -3085,7 +3085,7 @@
 			"{SOURCE Ultimate Combat/97}",
 			"",
 			"By focusing on your knowledge of magic and spells that negate its powers, you use your bare hands to rip magical defenses from your enemy.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike}, base attack bonus +11, ability to cast dispel magic, caster level 7th.  ",
+			"**Prerequisites:** {feat/Improved Unarmed Strike}, base attack bonus +11, ability to cast {spell/dispel magic}, caster level 7th.  ",
 			"**Benefit:** If you have dispel magic prepared or can cast it spontaneously, you can cast it as a swift action after hitting an opponent with an unarmed strike. Treat this as a targeted dispel against the opponent you hit."
 		]
 	},

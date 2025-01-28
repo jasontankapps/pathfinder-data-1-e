@@ -3,6 +3,7 @@
 		"title": "Outsiders",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -623,6 +624,7 @@
 		"title": "Elementals",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -742,6 +744,7 @@
 		"title": "Extraplanar Outsiders",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -1257,6 +1260,7 @@
 		"title": "Native Outsiders",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{

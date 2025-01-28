@@ -256,7 +256,7 @@
 			"**Duration** 1 day/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"Ironwood is a magical substance created by druids from normal wood. While remaining natural wood in almost every way, ironwood is as strong, heavy, and resistant to fire as steel. Spells that affect metal or iron do not function on ironwood. Spells that affect wood do affect ironwood, although ironwood does not burn. Using this spell with wood shape or a wood-related Craft check, you can fashion wooden items that function as steel items. Thus, wooden plate armor and wooden swords can be created that are as durable as their normal steel counterparts. These items are freely usable by druids.",
+			"Ironwood is a magical substance created by druids from normal wood. While remaining natural wood in almost every way, ironwood is as strong, heavy, and resistant to fire as steel. Spells that affect metal or iron do not function on ironwood. Spells that affect wood do affect ironwood, although ironwood does not burn. Using this spell with {spell/wood shape} or a wood-related Craft check, you can fashion wooden items that function as steel items. Thus, wooden plate armor and wooden swords can be created that are as durable as their normal steel counterparts. These items are freely usable by druids.",
 			"",
 			"Further, if you make only half as much ironwood as the spell would normally allow, any weapon, shield, or suit of armor so created is treated as a magic item with a +1 enhancement bonus."
 		]
@@ -514,11 +514,12 @@
 	},
 	"jolt": {
 		"name": "Jolt",
+		"subtitle": "Rare Cantrip",
 		"sources": [ "Paizo Blog - Ultimate Cantrips" ],
 		"description": [
 			"## Jolt",
 			"",
-			"{SOURCE Paizo Blog - Ultimate Cantrips/0}  ",
+			"{SOURCE Paizo Blog - Ultimate Cantrips}  ",
 			"**School** {spelldef/transmutation} [{spelldef/electricity}]; **Level** arcanist 0, sorcerer 0, wizard 0  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
@@ -700,7 +701,7 @@
 			"**Duration** 1 hour/level (see text)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You temporarily curse a creature so its touch lessens the value of coins it touches. While under the effects of this curse, whenever the target touches a coin of higher value than copper piece, that coin changes into a copper piece. The change takes place over the course of the following minute, allowing the target to interact with multiple coins before the effect of the curse becomes apparent. The affected coins are permanently transmuted from their previous material (typically gold or silver) into copper coins, though remove curse (which can affect up to 50 coins with a single casting) or a similar spell can restore them to their previous material."
+			"You temporarily curse a creature so its touch lessens the value of coins it touches. While under the effects of this curse, whenever the target touches a coin of higher value than copper piece, that coin changes into a copper piece. The change takes place over the course of the following minute, allowing the target to interact with multiple coins before the effect of the curse becomes apparent. The affected coins are permanently transmuted from their previous material (typically gold or silver) into copper coins, though {spell/remove curse} (which can affect up to 50 coins with a single casting) or a similar spell can restore them to their previous material."
 		]
 	},
 	"karmic_blessing": {
@@ -992,7 +993,7 @@
 			"",
 			"{SOURCE Mythic Adventures/99}",
 			"",
-			"The spell unlocks up to three means of closure instead of two. The spell automatically opens locks of simple or average quality, without requiring a caster level check to do so). If used on a door locked with arcane lock, you can attempt a free dispel check against it as if using a targeted dispel magic, adding your tier to the check.",
+			"The spell unlocks up to three means of closure instead of two. The spell automatically opens locks of simple or average quality, without requiring a caster level check to do so). If used on a door locked with arcane lock, you can attempt a free dispel check against it as if using a targeted {spell/dispel magic}, adding your tier to the check.",
 			"",
 			"*Augmented (3rd):* You can expend two uses of mythic power to target one locked item per tier, unlocking up to four means of closure on each, allowing a free dispel against an arcane lock on each, and automatically opening locks of up to good quality (no caster level check needed).",
 			"",
@@ -1669,7 +1670,7 @@
 			"",
 			"The target moves by Stealth whenever possible, and lies and deceives others instinctively to further its personal agenda. In addition, when the target is conscious, it must succeed at a Will save against the spell's save DC each hour (or each round during combat or a similarly stressful situation) or behave as if affected by a crime wave spell for 1 round.",
 			"",
-			"Life of crime is particularly difficult to remove. Only a remove curse with a higher caster level than life of crime's caster level, or a limited wish, wish, or miracle can remove its effects."
+			"Life of crime is particularly difficult to remove. Only a {spell/remove curse} with a higher caster level than life of crime's caster level, or a {spell/limited wish}, {spell/wish}, or {spell/miracle} can remove its effects."
 		]
 	},
 	"life_pact": {
@@ -2148,7 +2149,7 @@
 			"**Duration** permanent or until discharged; 1 day/level; see text  ",
 			"**Saving Throw** Reflex negates; **Spell Resistance** no",
 			"",
-			"There are seven variants of this spell, one for each of the Thassilonian schools of magic. Each functions like sepia snake sigil (and counts as that spell for the purpose of combining other spells that hide or garble text), except instead of trapping the subject, the triggered sigil's effect depends on this spell's school. This effect lasts for 1 day/level. This is a curse effect that can be removed via remove curse.",
+			"There are seven variants of this spell, one for each of the Thassilonian schools of magic. Each functions like sepia snake sigil (and counts as that spell for the purpose of combining other spells that hide or garble text), except instead of trapping the subject, the triggered sigil's effect depends on this spell's school. This effect lasts for 1 day/level. This is a curse effect that can be removed via {spell/remove curse}.",
 			"",
 			"*Abjuration:* All beneficial magical effects on the target last half as long as normal.",
 			"",
@@ -3115,7 +3116,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates (object); **Spell Resistance** no",
 			"",
-			"All magical effects and magic items within the radius of the spell, except for those that you carry or touch, are disjoined. That is, spells and spell-like effects are unraveled and destroyed completely (ending the effect as a dispel magic spell does), and each permanent magic item must make a successful Will save or be turned into a normal item for the duration of this spell. An item in a creature's possession uses its own Will save bonus or its possessor's Will save bonus, whichever is higher. If an item's saving throw results in a natural 1 on the die, the item is destroyed instead of being suppressed.",
+			"All magical effects and magic items within the radius of the spell, except for those that you carry or touch, are disjoined. That is, spells and spell-like effects are unraveled and destroyed completely (ending the effect as a {spell/dispel magic} spell does), and each permanent magic item must make a successful Will save or be turned into a normal item for the duration of this spell. An item in a creature's possession uses its own Will save bonus or its possessor's Will save bonus, whichever is higher. If an item's saving throw results in a natural 1 on the die, the item is destroyed instead of being suppressed.",
 			"",
 			"You also have a 1% chance per caster level of destroying an antimagic field. If the antimagic field survives the disjunction, no items within it are disjoined.",
 			"",
@@ -3238,7 +3239,7 @@
 			"",
 			"Each round after the first, you can use a standard action to switch the sword to a new target. If you do not, the sword continues to attack the previous round's target.",
 			"",
-			"The sword cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. The sword's AC is 13 (10, +0 size bonus for Medium object, +3 deflection bonus).",
+			"The sword cannot be attacked or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. The sword's AC is 13 (10, +0 size bonus for Medium object, +3 deflection bonus).",
 			"",
 			"If an attacked creature has spell resistance, the resistance is checked the first time mage's sword strikes it. If the sword is successfully resisted, the spell is dispelled. If not, the sword has its normal full effect on that creature for the duration of the spell."
 		]
@@ -3937,7 +3938,7 @@
 			"",
 			"A soul can also be freed by the efforts of someone bodily going to the appropriate plane, locating the affected soul, and leading it out of the plane, which allows it to go to its intended destination in the afterlife and be resurrected as normal. You can end the effects of your own malediction by casting the spell again and concentrating on a past target. Doing so only frees the past target to go to its rightful place in death; it does not return the target to life.",
 			"",
-			"Spells such as break enchantment, dispel magic, and remove curse negate this spell if successfully cast before the target dies."
+			"Spells such as {spell/break enchantment}, {spell/dispel magic}, and {spell/remove curse} negate this spell if successfully cast before the target dies."
 		]
 	},
 	"malediction_hero_points": {
@@ -4131,7 +4132,7 @@
 			"**Duration** 1 minute and permanent (see text)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You place a drop of your blood on a weapon and charge it with magic so that you transfer a small amount of your life essence to the next living creature you strike with the weapon. Thereafter, you can spend a move action to know the direction and general distance of that creature. The target can negate this effect with a successful Will save. You must strike a creature within 1 minute of casting this spell or the magic is wasted, but once the mark of blood takes effect it is permanent until dispelled or removed via an effect like remove curse."
+			"You place a drop of your blood on a weapon and charge it with magic so that you transfer a small amount of your life essence to the next living creature you strike with the weapon. Thereafter, you can spend a move action to know the direction and general distance of that creature. The target can negate this effect with a successful Will save. You must strike a creature within 1 minute of casting this spell or the magic is wasted, but once the mark of blood takes effect it is permanent until dispelled or removed via an effect like {spell/remove curse}."
 		]
 	},
 	"mark_of_buoyancy": {
@@ -4173,7 +4174,7 @@
 			"",
 			"Since this spell takes 10 minutes to cast and involves writing on the target, you can cast it only on a creature that is willing or restrained.",
 			"",
-			"Like the effect of bestow curse, a mark of justice cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell. Remove curse works only if its caster level is equal to or higher than your mark of justice caster level. These restrictions apply regardless of whether the mark has activated."
+			"Like the effect of bestow curse, a mark of justice cannot be dispelled, but it can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell. Remove curse works only if its caster level is equal to or higher than your mark of justice caster level. These restrictions apply regardless of whether the mark has activated."
 		]
 	},
 	"mark_of_obvious_ethics": {
@@ -4231,7 +4232,7 @@
 			"",
 			"Additionally, each day the target remains cursed, more and more of its flesh becomes covered in reptilian scales. The target must succeed at a Fortitude save each day or take 1d4 points of Charisma damage, 1 point of which is Charisma drain instead. A creature reduced to 0 Charisma by this effect is immediately transformed into a small, harmless cave lizard, as the baleful polymorph spell.",
 			"",
-			"As with the effects of bestow curse, the curse inflicted by this spell cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell."
+			"As with the effects of bestow curse, the curse inflicted by this spell cannot be dispelled, but it can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell."
 		]
 	},
 	"marks_of_forbiddance": {

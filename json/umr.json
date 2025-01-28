@@ -1013,6 +1013,8 @@
 			"Bestiary 5"
 		],
 		"description": [
+			"{jumplist Base Damage of Natural Attacks by Size}",
+			"",
 			"## Natural Attacks",
 			"",
 			"{SOURCE Bestiary 5/296}  ",
@@ -1028,7 +1030,8 @@
 			"",
 			"See Table 3-1 for typical damage values for natural attacks by creature size.",
 			"",
-			"#### Table 3-1: Base Damage of Natural Attacks by Size  ",
+			"#### Table 3-1: Base Damage of Natural Attacks by Size",
+			"",
 			"*(Individual creatures vary from values below as appropriate.)*",
 			"",
 			"| Natural Attack | Fine | Diminutive | Tiny | Small | Medium | Large | Huge | Gargantuan | Colossal | Damage Type | Attack Type |",
@@ -1575,7 +1578,7 @@
 			"## Disease (Ex or Su)",
 			"",
 			"{SOURCE Bestiary 5/292}  ",
-			"A creature with this ability causes disease in those it contacts. The effects of the disease, including its save, frequency, and cure, are included in the creature's description. The saving throw to negate the disease is usually a Fortitude save (DC = 10 + 1/2 infecting creature's racial HD + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text). Diseases can be removed through remove disease and similar effects.",
+			"A creature with this ability causes disease in those it contacts. The effects of the disease, including its save, frequency, and cure, are included in the creature's description. The saving throw to negate the disease is usually a Fortitude save (DC = 10 + 1/2 infecting creature's racial HD + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text). Diseases can be removed through {spell/remove disease} and similar effects.",
 			"",
 			"**Format:** Disease Name (Ex or Su) Bite-injury; save Fort DC 15, onset 1d3 days, frequency 1/day, effect 1 Con damage, cure 2 consecutive saves  ",
 			"**Location:** Special Attacks and individual attacks."

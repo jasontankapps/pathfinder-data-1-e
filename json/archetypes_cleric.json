@@ -380,7 +380,7 @@
 			"",
 			"At 11th level, the target takes 1d6+1 points of Wisdom damage and is confused and sickened for 2d4 rounds. A successful Will save reduces the Wisdom damage to 1 point, and the target is instead sickened for 1d6 rounds.",
 			"",
-			"At 19th level, the target takes 2d6 points of Wisdom damage and is rendered permanently confused and sickened. Only greater restoration, heal, limited wish, miracle, or wish can remove the confused and sickened conditions. A successful Will save halves the Wisdom damage, and the target is instead sickened for 2d6 rounds.",
+			"At 19th level, the target takes 2d6 points of Wisdom damage and is rendered permanently confused and sickened. Only {spell/greater restoration}, {spell/heal}, {spell/limited wish}, {spell/miracle}, or {spell/wish} can remove the confused and sickened conditions. A successful Will save halves the Wisdom damage, and the target is instead sickened for 2d6 rounds.",
 			"",
 			"This ability replaces the increases to channel energy gained at 5th, 11th, and 19th levels."
 		]
@@ -664,23 +664,23 @@
 			"",
 			"**Circumvent Obfuscation (Sp):** As a standard action, a lawspeaker can expend two uses of channel energy to expose truths and banish falsehoods. The energy manifests as a spell-like ability, and this action does not count as channeling for the purposes of abilities and feats. Unless listed otherwise, the resulting abilities use the lawspeaker's cleric level as her caster level and have the same range and required components as the corresponding spell. The spell-like abilities available are cumulative and are listed below at the level at which the lawspeaker can first access them.",
 			"",
-			"*Level 1:* Calm emotions.",
+			"*Level 1:* {spell/Calm emotions}.",
 			"",
-			"*Level 3:* Zone of truth.",
+			"*Level 3:* {spell/Zone of truth}.",
 			"",
-			"*Level 5:* Invisibility purge.",
+			"*Level 5:* {spell/Invisibility purge}.",
 			"",
-			"*Level 7:* Discern lies.",
+			"*Level 7:* {spell/Discern lies}.",
 			"",
-			"*Level 9:* True seeing (self only).",
+			"*Level 9:* {spell/True seeing} (self only).",
 			"",
-			"*Level 11:* Greater dispel magic (30-foot burst; targets only illusion spells, polymorph effects, and spells granting a bonus on Bluff and Disguise checks).",
+			"*Level 11:* {spell/Greater dispel magic} (30-foot burst; targets only illusion spells, polymorph effects, and spells granting a bonus on Bluff and Disguise checks).",
 			"",
-			"*Level 13:* Communal tongues.",
+			"*Level 13:* {spell/Communal tongues}.",
 			"",
-			"*Level 15:* Discern location.",
+			"*Level 15:* {spell/Discern location}.",
 			"",
-			"*Level 17:* Antimagic field (30-foot radius)."
+			"*Level 17:* {spell/Antimagic field} (30-foot radius)."
 		]
 	},
 	"mendevian_priest": {

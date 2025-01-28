@@ -3,6 +3,7 @@
 		"title": "All Paladin Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -336,6 +337,7 @@
 		"title": "All Alchemist Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -777,6 +779,7 @@
 		"title": "All Spiritualist Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1218,6 +1221,7 @@
 		"title": "All Bloodrager Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1589,6 +1593,7 @@
 		"title": "All Summoner Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{

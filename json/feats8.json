@@ -2825,7 +2825,7 @@
 			"",
 			"Targets of your darkness spells radiate darkness.  ",
 			"**Prerequisites:** {feat/Tenebrous Spell}.  ",
-			"**Benefit:** An umbral spell gains the darkness descriptor. As long as the spell is in effect, the creature or object affected radiates darkness in a 10-foot radius, reducing illumination similar to the effects of the darkness spell. Nonmagical sources of light, such as torches or lanterns, do not increase the light level in this area. Magical light sources only increase the light level in an area affected by an umbral spell if they are of a higher level than the umbral spell's unmodified spell level. This effect does not stack with itself or with any other effect that creates darkness. An umbral spell uses up a spell slot two levels higher than the spell's actual level.",
+			"**Benefit:** An umbral spell gains the {spelldef/darkness} descriptor. As long as the spell is in effect, the creature or object affected radiates darkness in a 10-foot radius, reducing illumination similar to the effects of the darkness spell. Nonmagical sources of light, such as torches or lanterns, do not increase the light level in this area. Magical light sources only increase the light level in an area affected by an umbral spell if they are of a higher level than the umbral spell's unmodified spell level. This effect does not stack with itself or with any other effect that creates darkness. An umbral spell uses up a spell slot two levels higher than the spell's actual level.",
 			"",
 			"You cannot use this feat on a spell with an instantaneous duration or a spell that does not target a creature or object."
 		]
@@ -3366,7 +3366,7 @@
 			"",
 			"Your toxic blood has the power to destroy both flesh and foul curses.  ",
 			"**Prerequisites:** {feat/Dispelling Blood}, Knowledge (arcana) 9 ranks, vishkanya.  ",
-			"**Benefit:** As a swift action, you can alter the effects of your vishkanya venom to function as break enchantment when striking a creature, using your character level as your caster level. This dispelling effect affects creatures even if they are immune to poison effects.  ",
+			"**Benefit:** As a swift action, you can alter the effects of your vishkanya venom to function as {spell/break enchantment} when striking a creature, using your character level as your caster level. This dispelling effect affects creatures even if they are immune to poison effects.  ",
 			"**Normal:** Vishkanya venom deals Dexterity damage."
 		]
 	},

@@ -280,7 +280,7 @@
 			[
 				"## {trait/Dispelled Battler}",
 				"",
-				"When deprived of magic, you fight harder. You gain a +1 trait bonus on weapon attack and damage rolls while within an area of antimagic such as that created by an antimagic field. You also gain this bonus for 1 round after you are subject to an area or targeted dispel magic spell, regardless of the effect's success or failure in dispelling your spells and magical effects."
+				"When deprived of magic, you fight harder. You gain a +1 trait bonus on weapon attack and damage rolls while within an area of antimagic such as that created by an antimagic field. You also gain this bonus for 1 round after you are subject to an area or targeted {spell/dispel magic} spell, regardless of the effect's success or failure in dispelling your spells and magical effects."
 			],
 			[
 				"## {trait/Dormant Defense}",
@@ -1280,7 +1280,7 @@
 			[
 				"## {trait/Rebuke the Curse}",
 				"",
-				"Once per day, you can attempt to suppress the effects of a curse on a single creature with a touch. This functions as a remove curse spell, treating your character level as your caster level. If you succeed at your caster level check against the curse, the curse's effects are negated for 1 minute. This trait does not allow a person burdened with a cursed item to remove or discard it. Use of this trait is a supernatural ability."
+				"Once per day, you can attempt to suppress the effects of a curse on a single creature with a touch. This functions as a {spell/remove curse} spell, treating your character level as your caster level. If you succeed at your caster level check against the curse, the curse's effects are negated for 1 minute. This trait does not allow a person burdened with a cursed item to remove or discard it. Use of this trait is a supernatural ability."
 			],
 			[
 				"## {trait/Redeemer}",

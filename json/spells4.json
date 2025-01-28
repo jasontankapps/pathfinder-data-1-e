@@ -432,7 +432,7 @@
 			"**Target** you  ",
 			"**Duration** up to 1 minute/level; see text",
 			"",
-			"You place yourself in a state of suspended animation, similar to temporal stasis. At the time of casting, you choose when the stasis will expire, up to the maximum duration of the spell. Until the duration ends, time ceases to flow for you, and all bodily functions cease. No force or effect can harm you until the spell expires or is removed, such as by a successful dispel magic spell."
+			"You place yourself in a state of suspended animation, similar to temporal stasis. At the time of casting, you choose when the stasis will expire, up to the maximum duration of the spell. Until the duration ends, time ceases to flow for you, and all bodily functions cease. No force or effect can harm you until the spell expires or is removed, such as by a successful {spell/dispel magic} spell."
 		]
 	},
 	"emblazon_crest": {
@@ -1156,7 +1156,7 @@
 			"",
 			"When you fill an image with your consciousness it gains a limited form of animation. Statues and similar three-dimensional representations can move their heads, make gestures, and talk, but cannot attack or leave their square without assistance. Portraits or similar two-dimensional representations bearing your likeness can also talk and your image can move anywhere within the picture or even temporarily alter it (such as by picking a flower in the painting). You cannot use any spells or other abilities while within an image.",
 			"",
-			"You may leave the image at any time, returning you to your body. Once your consciousness departs from an object bearing your likeness, it immediately reverts to the appearance it had before you entered it. If someone destroys or damages the image you return to your body unharmed. The spell lasts until you cease concentrating, or until it is terminated by some outside means, such as a dispel magic cast upon either the image or your body, or if your body is killed."
+			"You may leave the image at any time, returning you to your body. Once your consciousness departs from an object bearing your likeness, it immediately reverts to the appearance it had before you entered it. If someone destroys or damages the image you return to your body unharmed. The spell lasts until you cease concentrating, or until it is terminated by some outside means, such as a {spell/dispel magic} cast upon either the image or your body, or if your body is killed."
 		]
 	},
 	"enthrall": {
@@ -1675,7 +1675,7 @@
 			"",
 			"You summon an insubstantial lens of force 4 inches in diameter that hovers in front of your face. When you attempt a saving throw against a spell with the figment or pattern descriptor, you can roll twice and take the higher result. You gain a +10 enhancement bonus on Appraise checks to appraise the worth of an item viewed through the lens, and you never judge an item's value wildly inaccurately. If you successfully identify that the item has magical properties, you can immediately attempt a Spellcraft check to determine the item's properties, as if you had cast {spell/detect magic} on the item and examined it for 3 rounds. This spell cannot determine the properties of artifacts.",
 			"",
-			"The lens cannot be targeted or harmed by physical attacks, but dispel magic, disintegrate, or a rod of cancellation affects it. The lens's AC against touch attacks is equal to 10 + your Dexterity modifier."
+			"The lens cannot be targeted or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, or a {magic-rod/rod of cancellation} affects it. The lens's AC against touch attacks is equal to 10 + your Dexterity modifier."
 		]
 	},
 	"evolution_surge_lesser": {
@@ -1918,7 +1918,7 @@
 			"",
 			"You trace mystic runes upon a book, map, scroll, or similar object bearing written information. The explosive runes detonate when read, dealing 6d6 points of force damage. Anyone next to the explosive runes (close enough to read them) takes the full damage with no saving throw; any other creature within 10 feet of the explosive runes is entitled to a Reflex save for half damage. The object on which the explosive runes were written also takes full damage (no saving throw).",
 			"",
-			"You and any characters you specifically instruct can read the protected writing without triggering the explosive runes. Likewise, you can remove the explosive runes whenever desired. Another creature can remove them with a successful dispel magic or erase spell, but attempting to dispel or erase the explosive runes and failing to do so triggers the explosion.",
+			"You and any characters you specifically instruct can read the protected writing without triggering the explosive runes. Likewise, you can remove the explosive runes whenever desired. Another creature can remove them with a successful {spell/dispel magic} or {spell/erase} spell, but attempting to dispel or erase the explosive runes and failing to do so triggers the explosion.",
 			"",
 			"Magic traps such as explosive runes are hard to detect and disable. A character with the trapfinding class feature (only) can use Disable Device to thwart explosive runes. The DC to find magic traps using Perception and to disable them is 25 + spell level, or 28 for explosive runes."
 		]
@@ -2001,7 +2001,7 @@
 			"",
 			"The effects are cumulative and concurrent.",
 			"",
-			"*Sickened:* Sudden pain and fever sweeps over the subject's body. A creature affected by this spell remains sickened for 10 minutes per caster level. The effects cannot be negated by a remove disease or heal spell, but a remove curse is effective.",
+			"*Sickened:* Sudden pain and fever sweeps over the subject's body. A creature affected by this spell remains sickened for 10 minutes per caster level. The effects cannot be negated by a {spell/remove disease} or {spell/heal} spell, but a {spell/remove curse} is effective.",
 			"",
 			"*Panicked:* The subject becomes panicked for 1d4 rounds. Even after the panic ends, the creature remains shaken for 10 minutes per caster level, and it automatically becomes panicked again if it comes within sight of you during that time. This is a fear effect.",
 			"",
@@ -2177,7 +2177,7 @@
 			"**Duration** permanent (D)  ",
 			"**Saving Throw** Fort negates; **Spell Resistance** yes",
 			"",
-			"You curse the target with a disfiguring or painful mutation. The target gains one random deformity from the {trait/Arcane Malignancies/ table}. The curse bestowed by this spell cannot be dispelled but can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell."
+			"You curse the target with a disfiguring or painful mutation. The target gains one random deformity from the {trait/Arcane Malignancies/ table}. The curse bestowed by this spell cannot be dispelled but can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell."
 		]
 	},
 	"fairness": {
@@ -2568,7 +2568,7 @@
 			"**Duration** 2 days/level (D)  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** yes",
 			"",
-			"You curse the target with a hunger no food can assuage. On a failed saving throw, the target begins to starve. The effects of this spell cannot inflict more nonlethal damage than the target has hit points. No amount of eating can counter the effect and, further, even attempting to eat causes the target to become nauseated for 1 round unless they make a DC 12 Fortitude save. The target still experiences the other normal effects of anything consumed (such as poisons or potions). Feast of ashes can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell, but effects suffered as a result of starvation must be healed by normal means.",
+			"You curse the target with a hunger no food can assuage. On a failed saving throw, the target begins to starve. The effects of this spell cannot inflict more nonlethal damage than the target has hit points. No amount of eating can counter the effect and, further, even attempting to eat causes the target to become nauseated for 1 round unless they make a DC 12 Fortitude save. The target still experiences the other normal effects of anything consumed (such as poisons or potions). Feast of ashes can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell, but effects suffered as a result of starvation must be healed by normal means.",
 			"",
 			"### Mythic Feast of Ashes",
 			"",
@@ -2685,7 +2685,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates; see text; **Spell Resistance** yes",
 			"",
-			"**Target** creature's Intelligence and Charisma scores each drop to 1. The affected creature is unable to use Intelligence- or Charisma-based skills, cast spells, understand language, or communicate coherently. Still, it knows who its friends are and can follow them and even protect them. The subject remains in this state until a heal, limited wish, miracle, or wish spell is used to cancel the effect of the feeblemind. A creature that can cast arcane spells, such as a sorcerer or a wizard, takes a -4 penalty on its saving throw."
+			"**Target** creature's Intelligence and Charisma scores each drop to 1. The affected creature is unable to use Intelligence- or Charisma-based skills, cast spells, understand language, or communicate coherently. Still, it knows who its friends are and can follow them and even protect them. The subject remains in this state until a {spell/heal}, {spell/limited wish}, {spell/miracle}, or {spell/wish} spell is used to cancel the effect of the feeblemind. A creature that can cast arcane spells, such as a sorcerer or a wizard, takes a -4 penalty on its saving throw."
 		]
 	},
 	"ferment": {
@@ -3343,7 +3343,7 @@
 			"",
 			"When casting fire trap, you select a point on the object as the spell's center. When someone other than you opens the object, a fiery explosion fills the area within a 5-foot radius around the spell's center. The flames deal 1d4 points of fire damage + 1 point per caster level (maximum +20). The item protected by the trap is not harmed by this explosion.",
 			"",
-			"A fire-trapped item cannot have a second closure or warding spell placed on it. A knock spell does not bypass a fire trap. An unsuccessful dispel magic spell does not detonate the spell. Underwater, this ward deals half damage and creates a large cloud of steam.",
+			"A fire-trapped item cannot have a second closure or warding spell placed on it. A knock spell does not bypass a fire trap. An unsuccessful {spell/dispel magic} spell does not detonate the spell. Underwater, this ward deals half damage and creates a large cloud of steam.",
 			"",
 			"You can use the fire-trapped object without discharging it, as can any individual to whom the object was specifically attuned when cast. Attuning a fire-trapped object to an individual usually involves setting a password that you can share with friends.",
 			"",
@@ -4078,7 +4078,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Fortitude partial (see text); **Spell Resistance** yes",
 			"",
-			"With a touch, you cause an infestation of ravenous worms to manifest in the target's flesh. The target must make a Fortitude save every round. Failure means it takes 1d6 hit points of damage and 2 points of Dexterity damage, and is staggered for 1 round. If it makes the save, it takes no hit point or Dexterity damage and is only sickened for 1 round rather than staggered. Fleshworm infestation cannot be ended early by remove disease or heal, as the infestation starts anew if the current worms are slain. {spell/Protection from evil} negates this spell's effects for as long as the two durations overlap. {spell/Dispel evil} automatically ends a fleshworm infestation."
+			"With a touch, you cause an infestation of ravenous worms to manifest in the target's flesh. The target must make a Fortitude save every round. Failure means it takes 1d6 hit points of damage and 2 points of Dexterity damage, and is staggered for 1 round. If it makes the save, it takes no hit point or Dexterity damage and is only sickened for 1 round rather than staggered. Fleshworm infestation cannot be ended early by {spell/remove disease} or {spell/heal}, as the infestation starts anew if the current worms are slain. {spell/Protection from evil} negates this spell's effects for as long as the two durations overlap. {spell/Dispel evil} automatically ends a fleshworm infestation."
 		]
 	},
 	"fleshy_facade": {

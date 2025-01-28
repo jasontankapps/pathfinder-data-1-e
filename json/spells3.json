@@ -576,7 +576,7 @@
 			"**Duration** 1 day/level (D)  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** yes",
 			"",
-			"You curse the target with a thirst no drink can quench. On a failed saving throw, the target begins to dehydrate. The effects of this spell cannot inflict more nonlethal damage than the target has hit points. No amount of drinking can counter this effect, although the target still experiences the other normal effects of any liquid imbibed (such as poisons or potions). Cup of dust can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell, but effects suffered as a result of dehydration must be healed by normal means.",
+			"You curse the target with a thirst no drink can quench. On a failed saving throw, the target begins to dehydrate. The effects of this spell cannot inflict more nonlethal damage than the target has hit points. No amount of drinking can counter this effect, although the target still experiences the other normal effects of any liquid imbibed (such as poisons or potions). Cup of dust can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell, but effects suffered as a result of dehydration must be healed by normal means.",
 			"",
 			"### Mythic Cup of Dust",
 			"",
@@ -842,7 +842,7 @@
 			"",
 			"You curse the target, making it incredibly unlucky. While affected by curse of befouled fortune, the target can't receive luck bonuses or benefit from effects that grant it the ability to roll multiple times and take the higher result (like the swashbuckler's charmed life ability). The target also can't choose a die result, such as taking 10 or 20 in lieu of rolling (as per the bard's lore master ability). Finally, the first time each turn the target would succeed at an attack, saving throw, or skill check, it must roll twice and use the worse of the two results.",
 			"",
-			"This curse cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell."
+			"This curse cannot be dispelled, but it can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell."
 		]
 	},
 	"curse_of_burning_sleep": {
@@ -926,7 +926,7 @@
 			"",
 			"**Effect** The weather in the cursed region changes drastically, even bringing snow to a blazing desert. The area is plagued by your choice of cold weather conditions, very hot conditions, or frequent powerful storms. The weather remains unpredictable, and can change over time (as determined by the GM), but the baseline weather is altered as long as the curse remains.",
 			"",
-			"**Cure** The cursed weather can be returned to normal only by casting remove curse at the center of the affected area, followed by a casting of control weather."
+			"**Cure** The cursed weather can be returned to normal only by casting {spell/remove curse} at the center of the affected area, followed by a casting of control weather."
 		]
 	},
 	"curse_of_keeping": {
@@ -944,7 +944,7 @@
 			"**Duration** 1 day/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You curse the target with the inability to sell, barter, or give away any item it owns, other than ordinary currency, for as long as the spell remains in effect. The target cannot sell, trade, drop, or give away possessions. The target can purchase items using ordinary currency but can't then sell the purchased items. The target can accept gifts from others but can't offer anything in exchange. A curse of keeping can be ended by break enchantment, limited wish, remove curse, miracle, or wish. Dispel magic does not affect a curse of keeping."
+			"You curse the target with the inability to sell, barter, or give away any item it owns, other than ordinary currency, for as long as the spell remains in effect. The target cannot sell, trade, drop, or give away possessions. The target can purchase items using ordinary currency but can't then sell the purchased items. The target can accept gifts from others but can't offer anything in exchange. A curse of keeping can be ended by {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish}. {spell/Dispel magic} does not affect a curse of keeping."
 		]
 	},
 	"curse_of_magic_negation": {
@@ -988,7 +988,7 @@
 			"",
 			"**Effect** Nonmagical light and magical light sources that produce normal light create only dim light in the cursed area, and even direct sunlight leads to only an ambient dim light in the area (similar to a full moon). Twilight and night are always dark. Creatures harmed or weakened by daylight can move about during the day in this area and the only impairment they take from the dimmed sunlight is that they become dazzled in its area. Plant growth in the area is stunted, as per the stunt growth usage of diminish plants. Any spellcaster attempting to cast {spell/daylight} or a spell that creates true daylight or bright light in the area fails unless she succeeds at a Will saving throw against the curse. Success leads to normal light, rather than bright light.",
 			"",
-			"**Cure** An endless night can be lifted only by successfully casting remove curse followed by sunburst at noon on a clear day."
+			"**Cure** An endless night can be lifted only by successfully casting {spell/remove curse} followed by {spell/sunburst} at noon on a clear day."
 		]
 	},
 	"curse_of_the_outcast": {
@@ -1028,7 +1028,7 @@
 			"",
 			"You curse one living creature with a chance of instant and unexpected death. When you cast this spell, your hand seethes with eerie gray fire. You must succeed at a melee touch attack to touch the target, at which time the fire buries itself within the target's body and disappears. On the round you touch the creature and once per minute thereafter, roll 1d100. On a result of 01-05, the spell is triggered and the creature takes 8d6 points of damage + 1 point per caster level; the creature can attempt a saving throw to reduce the damage to 2d6 points of damage + 1 point per caster level. On a result of 06-100, nothing happens.",
 			"",
-			"Once the spell is triggered or if the duration expires before it triggers, the magic ends and no further 1d100 rolls are made. If the target has spell resistance, a caster level check is made when you succeed at the touch attack. A creature can be affected by only one instance of this spell at a time. The untriggered spell can be removed with dispel magic, remove curse, or similar effects."
+			"Once the spell is triggered or if the duration expires before it triggers, the magic ends and no further 1d100 rolls are made. If the target has spell resistance, a caster level check is made when you succeed at the touch attack. A creature can be affected by only one instance of this spell at a time. The untriggered spell can be removed with {spell/dispel magic}, {spell/remove curse}, or similar effects."
 		]
 	},
 	"curse_terrain_lesser": {
@@ -1101,7 +1101,7 @@
 			"",
 			"**Effect** As per major perilous demesne (see above), except up to six hazards, each of CR 10 or less, imperil creatures in the area. The hazards are arranged so that if any are encountered together, the encounter's effective CR from hazards must be no more than 11 (for instance, two CR 9 hazards could be encountered together).",
 			"",
-			"**Cure** Remove curse removes a greater perilous demesne only if followed by a casting of hallow at the effect's center.",
+			"**Cure** {spell/Remove curse} removes a greater perilous demesne only if followed by a casting of {spell/hallow} at the effect's center.",
 			"",
 			"### Curse Terrain, Supreme",
 			"",
@@ -1121,7 +1121,7 @@
 			"",
 			"**Effect** As per major perilous demesne (see above), except up to seven hazards, each of CR 14 or less, imperil creatures in the area. The hazards are arranged so that if any are encountered together, the encounter's effective CR from hazards must be no more than 15 (for instance, two CR 13 hazards could be encountered together).",
 			"",
-			"**Cure** Remove curse removes a grand perilous demesne only if followed by a casting of hallow at the effect's center, and then casting disintegrate on each of the hazards before the next nightfall or midnight."
+			"**Cure** {spell/Remove curse} removes a grand perilous demesne only if followed by a casting of {spell/hallow} at the effect's center, and then casting {spell/disintegrate} on each of the hazards before the next nightfall or midnight."
 		]
 	},
 	"lesser_curse_terrain": {
@@ -2306,7 +2306,7 @@
 			"**Duration** 10 minutes/level or until triggered, then 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You create a contingent ward that defies those who would dispel your magic, convincing them that their spell worked. When a spell such as dispel magic would end one of your spells that's affecting you, you can dismiss deceptive redundancy as an immediate action to attempt an opposed caster level check against the spellcaster. If you succeed, the dispelling effect fails to end your spell, and your spell's aura becomes difficult to detect for 1 round per caster level. Any divination attempted during this time fails to perceive the spell's aura unless the caster succeeds at a caster level check (DC = 15 + your caster level). Deceptive redundancy is most effective when hiding auras for spells that don't have easily perceived effects, rather than visually obvious spells such as enlarge person or fire shield."
+			"You create a contingent ward that defies those who would dispel your magic, convincing them that their spell worked. When a spell such as {spell/dispel magic} would end one of your spells that's affecting you, you can dismiss deceptive redundancy as an immediate action to attempt an opposed caster level check against the spellcaster. If you succeed, the dispelling effect fails to end your spell, and your spell's aura becomes difficult to detect for 1 round per caster level. Any divination attempted during this time fails to perceive the spell's aura unless the caster succeeds at a caster level check (DC = 15 + your caster level). Deceptive redundancy is most effective when hiding auras for spells that don't have easily perceived effects, rather than visually obvious spells such as enlarge person or fire shield."
 		]
 	},
 	"decollate": {
@@ -2850,7 +2850,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This simple jinx causes a target's hair or fur to fall out in patchy clumps, leaving the creature disheveled and less commanding. A jinxed creature takes a -2 penalty on all Diplomacy, Intimidate, and Perform checks until the hair begins to regrow 1 week later, or until the damage can be concealed with a successful Disguise or Heal check (the DC is equal to the original save DC of the spell). A successful break enchantment, remove curse, or similar effect instantly regrows the target's hair or fur and removes the spell's effects."
+			"This simple jinx causes a target's hair or fur to fall out in patchy clumps, leaving the creature disheveled and less commanding. A jinxed creature takes a -2 penalty on all Diplomacy, Intimidate, and Perform checks until the hair begins to regrow 1 week later, or until the damage can be concealed with a successful Disguise or Heal check (the DC is equal to the original save DC of the spell). A successful {spell/break enchantment}, {spell/remove curse}, or similar effect instantly regrows the target's hair or fur and removes the spell's effects."
 		]
 	},
 	"desecrate": {

@@ -3,6 +3,7 @@
 		"title": "NPCs",
 		"sources": [],
 		"searchgroup": "monster",
+		"noFinder": true,
 		"description": [
 			"# NPCs by Class",
 			"## main/npcs_npc_classes Adepts, Aristocrats, Commoners, Experts, Warriors",
@@ -519,6 +520,7 @@
 		"title": "NPCs: NPC Classes",
 		"sources": [],
 		"searchgroup": "monster",
+		"noFinder": true,
 		"description": [
 			"# Adepts",
 			[ "{table0}" ],
@@ -691,6 +693,7 @@
 		"title": "NPCs: Core Arcane Classes",
 		"sources": [],
 		"searchgroup": "monster",
+		"noFinder": true,
 		"description": [
 			"# Bards",
 			[ "{table0}" ],
@@ -836,6 +839,7 @@
 	"npcs_clerics_druids_paladins": {
 		"title": "NPCs: Core Divine Classes",
 		"sources": [],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"description": [
 			"# Clerics",
@@ -1027,6 +1031,7 @@
 	"npcs_other_core": {
 		"title": "NPCs: Core Non-Spellcasters",
 		"searchgroup": "monster",
+		"noFinder": true,
 		"sources": [],
 		"description": [
 			"# Barbarians",
@@ -1347,6 +1352,7 @@
 		"title": "Technology - Armor",
 		"sources": [ "Technology Guide" ],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
 			{
@@ -1389,6 +1395,7 @@
 		"title": "Technology - Weapons",
 		"sources": [ "Technology Guide" ],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
 			{
@@ -1452,6 +1459,7 @@
 		"title": "Technology - Cybertech",
 		"sources": [ "Technology Guide" ],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
 			{
@@ -1498,6 +1506,7 @@
 		"title": "Technology - Pharmaceuticals",
 		"sources": [ "Technology Guide" ],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
 			{
@@ -1533,6 +1542,7 @@
 		"title": "Technology - Artifacts",
 		"sources": [ "Technology Guide" ],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
 			{
@@ -1862,6 +1872,7 @@
 		"sources": [],
 		"searchgroup": "equip",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"tables": [
 			{
 				"id": "siege engines",
@@ -1937,6 +1948,7 @@
 	"equipment_clothing": {
 		"title": "Clothing",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2072,6 +2084,7 @@
 	"equipment_food_and_drink": {
 		"title": "Food, Drink, and Lodging",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2182,6 +2195,7 @@
 	"equipment_entertainment_services": {
 		"title": "Entertainment and Services",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2256,6 +2270,7 @@
 	"equipment_transport": {
 		"title": "Transportation",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2318,6 +2333,7 @@
 	"equipment_mounts_pets": {
 		"title": "Mounts and Pets",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2552,6 +2568,7 @@
 	},
 	"equipment_illicit": {
 		"title": "Illicit Items",
+		"noFinder": true,
 		"description": [
 			[
 				"These listings include black market items and instruments of torture.",
@@ -2626,6 +2643,7 @@
 			"PRPG Core Rulebook",
 			"Inner Sea Intrigue"
 		],
+		"noFinder": true,
 		"description": [
 			[ "[Jump to the table](#poisonstable)" ],
 			[

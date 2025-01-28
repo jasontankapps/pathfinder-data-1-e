@@ -942,6 +942,7 @@
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"tables": [
 			{
 				"id": "magus arcana",
@@ -1064,7 +1065,7 @@
 			"",
 			"**Hidden Home (Sp):** The witch can conceal or disguise her home and the area around it as if using mirage arcana. Before using the hex, she must spend 1 day pacing out the border of an area that measures roughly 40,000 square feet (approximately 200 feet by 200 feet) to define her home territory. Thereafter, she can use the hex to change the appearance of that area as a standard action as long as she is within the area. The illusion persists until the witch changes or dismisses it. For the purpose of this ability, a witch can only have one \"home\" at a time.",
 			"",
-			"**Hoarfrost (Su):** The target is rimed with a shell of frost needles that slowly work their way into its flesh (Fortitude negates). The target turns pale and blue, and takes 1 point of Constitution damage per minute until it dies, saves (once per minute), or is cured. Break enchantment, dispel magic, remove curse, and similar spells end the effect. If the target saves, it is immune to this hex for 1 day. This is a cold effect.",
+			"**Hoarfrost (Su):** The target is rimed with a shell of frost needles that slowly work their way into its flesh (Fortitude negates). The target turns pale and blue, and takes 1 point of Constitution damage per minute until it dies, saves (once per minute), or is cured. {spell/Break enchantment}, {spell/dispel magic}, {spell/remove curse}, and similar spells end the effect. If the target saves, it is immune to this hex for 1 day. This is a cold effect.",
 			"",
 			"**Ice Tomb (Su):** A storm of ice and freezing wind envelops the target, which takes 3d8 points of cold damage (Fortitude half). If the target fails its save, it is paralyzed and unconscious but does not need to eat or breathe while the ice lasts. The ice has 20 hit points; destroying the ice frees the creature, which is staggered for 1d4 rounds after being released. Whether or not the target's saving throw is successful, it cannot be the target of this hex again for 1 day.",
 			"",

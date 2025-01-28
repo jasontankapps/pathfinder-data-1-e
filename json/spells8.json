@@ -1771,7 +1771,7 @@
 			"",
 			"This spell allows you to safeguard important knowledge, even from yourself. When casting this spell, you recount one piece of knowledge you possess (up to a maximum of 50 words). This knowledge disappears utterly from your mind, and you might not realize you forgot something. The magic of the spell patches omissions in your memory with indistinct haze. Repress memory protects against detect thoughts, discern lies, zone of truth, and similar spells, though careful questioning may reveal the gaps in your memory, or that your memory has been affected by the spell.",
 			"",
-			"A repressed memory can be restored only by break enchantment, psychic surgery, limited wish, miracle, or wish. If you use this spell to negate the memory of a magical compulsion, it doesn't remove the compulsion, nor does it remove procedural memories that might affect your skills or class abilities.",
+			"A repressed memory can be restored only by {spell/break enchantment}, {spell/psychic surgery}, {spell/limited wish}, {spell/miracle}, or {spell/wish}. If you use this spell to negate the memory of a magical compulsion, it doesn't remove the compulsion, nor does it remove procedural memories that might affect your skills or class abilities.",
 			"",
 			"At the GM's discretion, multiple castings of this spell might erase memories of a lengthier event or all memory of a place or individual from your memory."
 		]
@@ -1801,7 +1801,7 @@
 			"",
 			"This powerful spell with no saving throw is used to punish severe transgressions that do not deserve death or when you prefer to be merciful rather than meting out a more severe punishment. However, the spell has one drawback that prevents it from being overused. If the target did not commit any acts or misdeeds against your faith, the spell does not affect it but affects you instead, even if you are innocent of the charges. This potential backlash prevents inquisitions run by corrupt members of the faith, and it means that most accusations of misconduct are carefully investigated (and usually verified with magic) before this sentence is handed down.",
 			"",
-			"This mark can be removed like any other curse effect. In addition, a member of your faith can use atonement to break the curse if he makes a caster level check against your caster level; remove curse also requires a caster of your faith and a caster level check to end the reprobation."
+			"This mark can be removed like any other curse effect. In addition, a member of your faith can use {spell/atonement} to break the curse if he makes a caster level check against your caster level; {spell/remove curse} also requires a caster of your faith and a caster level check to end the reprobation."
 		]
 	},
 	"repugnant_taste": {
@@ -1895,7 +1895,7 @@
 			"**Duration** 1 min./level (D)  ",
 			"**Saving Throw** Reflex negates; **Spell Resistance** yes",
 			"",
-			"A globe of shimmering force encloses a creature, provided the creature is small enough to fit within the diameter of the sphere. The sphere contains its subject for the spell's duration. The sphere functions as a wall of force, except that it can be negated by dispel magic. A subject inside the sphere can breathe normally. The sphere cannot be physically moved either by people outside it or by the struggles of those within."
+			"A globe of shimmering force encloses a creature, provided the creature is small enough to fit within the diameter of the sphere. The sphere contains its subject for the spell's duration. The sphere functions as a {spell/wall of force}, except that it can be negated by {spell/dispel magic}. A subject inside the sphere can breathe normally. The sphere cannot be physically moved either by people outside it or by the struggles of those within."
 		]
 	},
 	"resinous_skin": {
@@ -2166,7 +2166,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You place a curse upon a dead creature that bars its spirit from returning. Anyone casting a spell that would communicate with the dead creature, return it to life, or turn it into an undead creature must succeed on a caster level check with a DC of 11 plus your caster level. Rest eternal cannot be dispelled, but it can be negated with remove curse or break enchantment."
+			"You place a curse upon a dead creature that bars its spirit from returning. Anyone casting a spell that would communicate with the dead creature, return it to life, or turn it into an undead creature must succeed on a caster level check with a DC of 11 plus your caster level. Rest eternal cannot be dispelled, but it can be negated with {spell/remove curse} or {spell/break enchantment}."
 		]
 	},
 	"restful_cloak": {
@@ -2466,7 +2466,7 @@
 			"",
 			"If a creature successfully takes the item targeted by this spell while you are holding, wearing, or wielding it, the creature must attempt a Will save. If the creature fails its save, it becomes fatigued, and it must attempt a new saving throw at the end of its turn every round it does not return the item to you. Failing a second saving throw causes the target to become exhausted. As long as the victim of the curse is actively working to return the object, its exhaustion is reduced to fatigue. The fatigue and exhaustion cannot be removed by effects that normally remove them, though immunity to fatigue and exhaustion protect against the conditions as normal.",
 			"",
-			"This curse can be ended with remove curse or by returning the item to you. You can have this spell active on one item at a time."
+			"This curse can be ended with {spell/remove curse} or by returning the item to you. You can have this spell active on one item at a time."
 		]
 	},
 	"retrieve_item": {
@@ -3104,11 +3104,12 @@
 	},
 	"root": {
 		"name": "Root",
+		"subtitle": "Rare Cantrip",
 		"sources": [ "Paizo Blog - Ultimate Cantrips" ],
 		"description": [
 			"## Root",
 			"",
-			"{SOURCE Paizo Blog - Ultimate Cantrips/0}  ",
+			"{SOURCE Paizo Blog - Ultimate Cantrips}  ",
 			"**School** {spelldef/transmutation} [{spelldef/earth}]; **Level** arcanist 0, sorcerer 0, wizard 0  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, M (a pinch of dirt)  ",
@@ -3227,7 +3228,7 @@
 			"",
 			"You curse two or more creatures to sicken and waste away while in each others' company. Each target that fails a Fortitude save becomes cursed with a wasting sickness. The disease has no onset period, and those who contracted it must attempt a second Fortitude save immediately. A target that fails this second saving throw takes 1d6 points of Constitution damage and 1d6 points of Charisma damage. Every day thereafter, each target that was within 100 feet of another target during the previous 24 hours takes 1d6 points of Constitution damage and 1d6 points of Charisma damage (reroll to determine the specific amount of damage each day). A successful Fortitude save negates the damage for that day only.",
 			"",
-			"A target cannot be healed of damage from this disease (naturally or by magic) while the target is within 100 feet of another target. If healed of such damage while away from other targets, a target might take damage again the day they reconvene. This disease is a curse, and can never be cured by successful saving throws. The spell can be ended on a single target only with a successful casting of remove curse followed by a successful casting of remove disease while the target is within 100 feet of at least one other target. When the curse remains on only one target, it ends automatically."
+			"A target cannot be healed of damage from this disease (naturally or by magic) while the target is within 100 feet of another target. If healed of such damage while away from other targets, a target might take damage again the day they reconvene. This disease is a curse, and can never be cured by successful saving throws. The spell can be ended on a single target only with a successful casting of {spell/remove curse} followed by a successful casting of {spell/remove disease} while the target is within 100 feet of at least one other target. When the curse remains on only one target, it ends automatically."
 		]
 	},
 	"rovagugs_fury": {
@@ -3502,7 +3503,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You trap the target in an object decorated with the holy symbols of your god or faith. While trapped in the object, the creature can't take any actions and is immune to spells and spell-like abilities. The creature remains permanently trapped in the object as long the object remains in your possession. Only a freedom, miracle, or wish spell can dispel the enchantment, though destroying the object frees the creature.",
+			"You trap the target in an object decorated with the holy symbols of your god or faith. While trapped in the object, the creature can't take any actions and is immune to spells and spell-like abilities. The creature remains permanently trapped in the object as long the object remains in your possession. Only a {spell/freedom}, {spell/miracle}, or {spell/wish} spell can dispel the enchantment, though destroying the object frees the creature.",
 			"",
 			"If you relinquish your stewardship of the object (such as giving it away or leaving it in a remote location or extradimensional space), the trapped creature begins to gain control over the object. It immediately gains the ability to communicate telepathically with any creature now in possession of the object. It still can't take any actions besides communicating but can use feats and skills related to speaking (such as Bluff and Diplomacy).",
 			"",
@@ -4181,11 +4182,12 @@
 	},
 	"scoop": {
 		"name": "Scoop",
+		"subtitle": "Rare Cantrip",
 		"sources": [ "Paizo Blog - Ultimate Cantrips" ],
 		"description": [
 			"## Scoop",
 			"",
-			"{SOURCE Paizo Blog - Ultimate Cantrips/0}  ",
+			"{SOURCE Paizo Blog - Ultimate Cantrips}  ",
 			"**School** {spelldef/evocation} [{spelldef/force}]; **Level** arcanist 0, sorcerer 0, wizard 0  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",

@@ -1753,7 +1753,7 @@
 			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}  ",
 			"**Saving Throw** none",
 			"",
-			"Your kinetic blast burns so hot that it melts away your foe's magical effects. Whenever your infused blast hits a foe and penetrates its spell resistance, you can attempt a caster level check as if using a targeted dispel magic before determining whether the foe takes damage from the blast. You can choose to reduce the blast's damage by half to increase your bonus on the caster level check by 2. If you don't choose a specific spell effect to attempt to dispel, you automatically attempt to dispel effects that would protect the target from fire damage before other spells."
+			"Your kinetic blast burns so hot that it melts away your foe's magical effects. Whenever your infused blast hits a foe and penetrates its spell resistance, you can attempt a caster level check as if using a targeted {spell/dispel magic} before determining whether the foe takes damage from the blast. You can choose to reduce the blast's damage by half to increase your bonus on the caster level check by 2. If you don't choose a specific spell effect to attempt to dispel, you automatically attempt to dispel effects that would protect the target from fire damage before other spells."
 		]
 	},
 	"untwisting_iron_infusion": {
@@ -2247,7 +2247,7 @@
 			"{SOURCE Psychic Anthology/22}  ",
 			"**Element** water; **Type** utility (Sp); **Level** 8; **Burn** 1",
 			"",
-			"You encase yourself or a willing target in an icy sheen, placing the target in a state of suspended animation, as per temporal stasis except fire spells and spell-like abilities of 3rd level or higher count as if the caster used dispel magic against the stasis. Otherwise, no other force or effect can harm the target."
+			"You encase yourself or a willing target in an icy sheen, placing the target in a state of suspended animation, as per temporal stasis except fire spells and spell-like abilities of 3rd level or higher count as if the caster used {spell/dispel magic} against the stasis. Otherwise, no other force or effect can harm the target."
 		]
 	},
 	"curse_breaker": {
@@ -2261,7 +2261,7 @@
 			"**Element** void; **Type** utility (Sp); **Level** 4; **Burn** 0  ",
 			"**Prerequisite** emptiness",
 			"",
-			"The power of void protects you from curses and allows you to remove or suppress them. You gain a +4 bonus on saving throws against curses and hexes. You can accept 1 point of burn as a standard action to attempt a caster level check to remove a curse on yourself or another as per remove curse. If the curse normally could not be removed by remove curse, you can instead suppress the curse until the next time your burn is removed with a successful caster level check. When your burn is removed, you can choose not to remove the burn you spent in this way to continue suppressing the curse without interruption. If you die, any curse suppressed in this way returns instantly."
+			"The power of void protects you from curses and allows you to remove or suppress them. You gain a +4 bonus on saving throws against curses and hexes. You can accept 1 point of burn as a standard action to attempt a caster level check to remove a curse on yourself or another as per {spell/remove curse}. If the curse normally could not be removed by remove curse, you can instead suppress the curse until the next time your burn is removed with a successful caster level check. When your burn is removed, you can choose not to remove the burn you spent in this way to continue suppressing the curse without interruption. If you die, any curse suppressed in this way returns instantly."
 		]
 	},
 	"earth_child": {
@@ -2442,7 +2442,7 @@
 			"{SOURCE Occult Adventures/24}  ",
 			"**Element** air; **Type** utility (Sp); **Level** 3; **Burn** 0",
 			"",
-			"You bend your winds into a formidable barrier. Until the start of your next turn, you lose the benefits of enveloping winds, but can create a wind wall as the spell. You can extend the wall's duration to 1 round per kineticist level by accepting 1 point of burn."
+			"You bend your winds into a formidable barrier. Until the start of your next turn, you lose the benefits of enveloping winds, but can create a {spell/wind wall} as the spell. You can extend the wall's duration to 1 round per kineticist level by accepting 1 point of burn."
 		]
 	},
 	"expanded_defense": {
@@ -3226,7 +3226,7 @@
 			"{SOURCE Occult Realms/9}  ",
 			"**Element** fire; **Type** utility (Sp); **Level** 6; **Burn** 1",
 			"",
-			"You can purge yourself or another with flame, removing all impurities. This functions as break enchantment on a single target. The target must be willing and takes 2 points of fire damage per character level as well as 1 point of burn (you do not need to accept burn unless you are the target). You can use this ability even when affected by an effect that denies you actions, so long as this effect is one that break enchantment could remove. If you burn rare incense or igneous rocks from Mount Kumijinja worth 100 gp or 1,000 gp as part of using purging flame, your target also benefits from restoration, as if the spell were cast using diamonds of equal value as a material component.",
+			"You can purge yourself or another with flame, removing all impurities. This functions as {spell/break enchantment} on a single target. The target must be willing and takes 2 points of fire damage per character level as well as 1 point of burn (you do not need to accept burn unless you are the target). You can use this ability even when affected by an effect that denies you actions, so long as this effect is one that break enchantment could remove. If you burn rare incense or igneous rocks from Mount Kumijinja worth 100 gp or 1,000 gp as part of using purging flame, your target also benefits from restoration, as if the spell were cast using diamonds of equal value as a material component.",
 			"",
 			"### Attunement",
 			"",

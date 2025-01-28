@@ -3,6 +3,7 @@
 		"title": "Evocation Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -396,6 +397,7 @@
 		"title": "Illusion Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -655,6 +657,7 @@
 		"title": "Necromancy Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1015,6 +1018,7 @@
 		"title": "Transmutation Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{

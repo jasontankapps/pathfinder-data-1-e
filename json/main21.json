@@ -3,6 +3,7 @@
 		"title": "Abjuration Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -361,6 +362,7 @@
 		"title": "Conjuration Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -865,6 +867,7 @@
 		"title": "Divination Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1169,6 +1172,7 @@
 		"title": "Enchantment Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{

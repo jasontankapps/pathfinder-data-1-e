@@ -30,7 +30,7 @@
 			"",
 			"This ability replaces haunt channeler, location channel, connection channel, and ask the spirits.",
 			"",
-			"**Ex-Fiend Keepers:** A fiend keeper who becomes permanently evil loses control of the spirit after 1d4+1 days, at which point he becomes an NPC under the GM's full control. Seeking an atonement spell before then can change the medium's alignment. This effect also can be undone with a limited wish, miracle, or wish spell."
+			"**Ex-Fiend Keepers:** A fiend keeper who becomes permanently evil loses control of the spirit after 1d4+1 days, at which point he becomes an NPC under the GM's full control. Seeking an atonement spell before then can change the medium's alignment. This effect also can be undone with a {spell/limited wish}, {spell/miracle}, or {spell/wish} spell."
 		]
 	},
 	"kami_medium": {
@@ -48,7 +48,7 @@
 			"",
 			"**Ofuda (Su):** A kami medium uses ofudas - psychically charged prayer scrolls - to focus his spells. Each of his spells gains an ofuda as an additional inexpensive material component, and the ofuda replaces the divine focus for spells the kami medium gains via the divine surge spirit power. Unless the spell involves a touch attack or ranged touch attack, the kami medium doesn't need to attempt an attack roll to place an ofuda on an unwilling target; the ofuda simply appears on affected targets. For instantaneous spells, the ofuda is consumed during the casting, but for spells with any other duration, the ofuda remains on the target or targets throughout the duration and then disintegrates when the duration expires.",
 			"",
-			"A kami medium's spells can't be dispelled by dispel magic or greater dispel magic, but removing or destroying the ofuda ends the duration immediately. An ofuda must be displayed prominently and can't be hidden (though a creature bearing an ofuda can hide normally). A successful steal or grapple combat maneuver check to remove an item is sufficient to remove an ofuda from an unwilling target, and a standard action automatically removes it from a willing target. An ofuda counts as an object made of paper with 5 hit points per medium level. The target of the spell can't see, harm, or remove the ofuda attached to her, though her allies can do so. If the spell is harmless, the target can see her ofuda.",
+			"A kami medium's spells can't be dispelled by {spell/dispel magic} or {spell/greater dispel magic}, but removing or destroying the ofuda ends the duration immediately. An ofuda must be displayed prominently and can't be hidden (though a creature bearing an ofuda can hide normally). A successful steal or grapple combat maneuver check to remove an item is sufficient to remove an ofuda from an unwilling target, and a standard action automatically removes it from a willing target. An ofuda counts as an object made of paper with 5 hit points per medium level. The target of the spell can't see, harm, or remove the ofuda attached to her, though her allies can do so. If the spell is harmless, the target can see her ofuda.",
 			"",
 			"This ability alters the medium's spellcasting.",
 			"",

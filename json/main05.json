@@ -50,6 +50,7 @@
 			"# Table ! armortable",
 			[ "{table0}" ]
 		],
+		"noFinder": true,
 		"tables": [
 			{
 				"id": "all armors",
@@ -139,6 +140,7 @@
 		"sources": [],
 		"searchgroup": "equip",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"tables": [
 			{
 				"id": "armor and shield enhancements",
@@ -179,6 +181,7 @@
 		"title": "Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "equip",
+		"noFinder": true,
 		"description": [
 			[ "[Jump to the table](#weaponstable)" ],
 			[
@@ -691,6 +694,7 @@
 		"title": "Firearms",
 		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "equip",
+		"noFinder": true,
 		"description": [
 			[
 				"Cost given is the same for a Small or Medium version of the weapon. A Large version costs twice the listed price.",
@@ -775,6 +779,7 @@
 	"equipment_adventuring_gear": {
 		"title": "Adventuring Gear",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -1235,6 +1240,7 @@
 	"equipment_animal_gear": {
 		"title": "Animal Gear",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -1308,6 +1314,7 @@
 	"equipment_class_kits": {
 		"title": "Class Kits",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -1448,6 +1455,7 @@
 	"equipment_tools": {
 		"title": "Tools",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2076,6 +2084,7 @@
 	"equipment_misc": {
 		"title": "Miscellaneous Equipment",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{

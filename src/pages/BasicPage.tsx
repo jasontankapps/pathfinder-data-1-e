@@ -18,6 +18,7 @@ interface PageProps extends Partial<DisplayItemProps> {
 	title: string
 	hierarchy?: HierarchyArray
 	topLink?: [string, string]
+	noFinder?: boolean
 	sources?: SourceProp[]
 	hideSources?: boolean
 	pageId: string
@@ -125,6 +126,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		children,
 		hierarchy,
 		topLink,
+		noFinder,
 		sources = [],
 		hideSources,
 		pageId,
@@ -221,7 +223,26 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			animate={{ opacity: 1 }}
 			exit={{ opacity: 0 }}
 		><IonPage>
-			<PageHeader title={title} hierarchy={hierarchy} findInPage={marker ? () => { setSearchBoxOpen(!searchBoxOpen); searchBoxOpen && onInput(null); } : undefined} findingInPage={searchBoxOpen} />
+			<PageHeader
+				title={title}
+				hierarchy={hierarchy}
+				findInPage={
+					(!noFinder && marker) ?
+						() => {
+							setSearchBoxOpen(!searchBoxOpen);
+							searchBoxOpen
+								? onInput(null)
+								: (
+									findInPageSearchbarObj
+									&& findInPageSearchbarObj.current
+									&& findInPageSearchbarObj.current.setFocus
+									&& findInPageSearchbarObj.current.setFocus()
+								);
+						}
+						: undefined
+				}
+				findingInPage={searchBoxOpen}
+			/>
 			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={contentObj}>
 				{hideSources ?
 					<></>
@@ -237,7 +258,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				:
 					<></>
 				}
-				{marker ? <div className={"finder" + (searchBoxOpen ? "" : " hidden")}>
+				{(!noFinder && marker) ? <div className={"finder" + (searchBoxOpen ? "" : " hidden")}>
 					<IonSearchbar
 						ref={findInPageSearchbarObj}
 						searchIcon="/icons/find-in-page.svg"

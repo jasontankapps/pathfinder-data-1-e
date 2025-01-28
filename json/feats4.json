@@ -1728,7 +1728,7 @@
 			"{SOURCE Monster Summoner's Handbook/9}",
 			"",
 			"You are a master of the art of dispelling.  ",
-			"**Prerequisites:** {feat/Dispel Focus}, ability to cast dispel magic.  ",
+			"**Prerequisites:** {feat/Dispel Focus}, ability to cast {spell/dispel magic}.  ",
 			"**Benefit:** Whenever you attempt a dispel check based on your caster level, you gain a +2 bonus to the check. This stacks with the bonus from Dispel Focus."
 		]
 	},
@@ -5187,7 +5187,7 @@
 			"",
 			"You are a master of drow noble magic.  ",
 			"**Prerequisites:** Cha 13, Wis 13, {feat/Drow Nobility}, {feat/Greater Drow Nobility}, {feat/Improved Drow Nobility}, {feat/Umbral Scion}, able to use drow spell-like abilities, drow.  ",
-			"**Benefit:** You may use dispel magic, divine favor, and suggestion once per day as spell-like abilities. Your caster level is equal to your character level."
+			"**Benefit:** You may use {spell/dispel magic}, {spell/divine favor}, and {spell/suggestion} once per day as spell-like abilities. Your caster level is equal to your character level."
 		]
 	},
 	"improved_unarmed_strike": {

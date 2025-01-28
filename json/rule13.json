@@ -243,7 +243,7 @@
 			"",
 			"***Barred Doors:*** When characters try to bash down a barred door, it's the quality of the bar that matters, not the material the door is made of. It takes a DC 25 Strength check to break through a door with a wooden bar, and a DC 30 Strength check if the bar is made of iron. Characters can attack the door and destroy it instead, leaving the bar hanging in the now-open doorway.",
 			"",
-			"***Magic Seals:*** Spells such as arcane lock can discourage passage through a door. A door with an arcane lock spell on it is considered locked even if it doesn't have a physical lock. It takes a knock spell, a dispel magic spell, or a successful Strength check to open such a door.",
+			"***Magic Seals:*** Spells such as {spell/arcane lock} can discourage passage through a door. A door with an arcane lock spell on it is considered locked even if it doesn't have a physical lock. It takes a {spell/knock} spell, a {spell/dispel magic} spell, or a successful Strength check to open such a door.",
 			"",
 			"***Hinges:*** Most doors have hinges, but sliding doors do not. They usually have tracks or grooves instead, allowing them to slide easily to one side.",
 			"",
@@ -786,6 +786,7 @@
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"parent_topics": [
 			"gamemastery",
 			"traps"

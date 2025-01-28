@@ -807,7 +807,7 @@
 			"**Duration** 24 hours  ",
 			"**Saving Throw** Will negates (object); **Spell Resistance** yes (object)",
 			"",
-			"This spell reduces all types of writing and other recognizable symbols found on any sort of surface within range into illegible smears. It affects books, carvings on stone, or even tattoos with equal ease. It does not affect writing that is not actually on a surface, such as an illusion, projection, reflection, or anything similar. Spellbooks and magical items that contain writing (such as scrolls) gain a saving throw to resist the effects of this spell. Against magical writing created by spell effects (such as glyphs of warding or symbols), blot instead functions as a dispel magic spell capable of targeting all such spell effects in the area. This spell has no effect on writing found on artifacts or similarly unique surfaces."
+			"This spell reduces all types of writing and other recognizable symbols found on any sort of surface within range into illegible smears. It affects books, carvings on stone, or even tattoos with equal ease. It does not affect writing that is not actually on a surface, such as an illusion, projection, reflection, or anything similar. Spellbooks and magical items that contain writing (such as scrolls) gain a saving throw to resist the effects of this spell. Against magical writing created by spell effects (such as {spell/glyph<glyphs| of warding} or {spell/symbol/s>_of_death}), blot instead functions as a {spell/dispel magic} spell capable of targeting all such spell effects in the area. This spell has no effect on writing found on artifacts or similarly unique surfaces."
 		]
 	},
 	"blur": {
@@ -1054,7 +1054,7 @@
 			"",
 			"You touch a creature with at least one manifestation from a {rule/corruption}. You temporarily gain any stains and gifts that corruption grants to the creature, and the creature retains them. If the gifts have limited uses, you count as having no uses remaining. You take 1d3 points of Wisdom drain whenever you cast this spell.",
 			"",
-			"If your campaign uses {rule/the |sanity/ system}, your sanity score decreases by 2 (and thus your sanity edge decreases by 1) each time you cast this spell, instead of you taking Wisdom drain. Only greater restoration, miracle, or wish can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting {spell/borrow corruption}, while a casting of miracle or wish removes them all."
+			"If your campaign uses {rule/the |sanity/ system}, your sanity score decreases by 2 (and thus your sanity edge decreases by 1) each time you cast this spell, instead of you taking Wisdom drain. Only {spell/greater restoration}, {spell/miracle}, or {spell/wish} can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting {spell/borrow corruption}, while a casting of miracle or wish removes them all."
 		]
 	},
 	"borrow_fortune": {
@@ -1191,7 +1191,7 @@
 			"",
 			"A bow spirit is a shapeless force that hovers about you, taking ammunition from your quiver and firing it. For as long as the bow spirit lasts, you can spend a swift action to direct the bow spirit to fire an arrow or a bolt at a target of your choice, as if the bow spirit were firing the necessary ranged weapon. The bow spirit uses your base attack bonus plus your Dexterity modifier, as well as any bonuses and effects from feats you have that affect ranged attacks, or bonuses from the ammunition it uses. A bow spirit's attacks do not provoke attacks of opportunity. There must be ammunition available for the bow spirit to use, and it expends ammunition as if used by you.",
 			"",
-			"A bow spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A bow spirit's AC against touch attacks is 10 + your Dexterity modifier."
+			"A bow spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. A bow spirit's AC against touch attacks is 10 + your Dexterity modifier."
 		]
 	},
 	"bowstaff": {
@@ -1437,11 +1437,12 @@
 	},
 	"breeze": {
 		"name": "Breeze",
+		"subtitle": "Rare Cantrip",
 		"sources": [ "Paizo Blog - Ultimate Cantrips" ],
 		"description": [
 			"## Breeze",
 			"",
-			"{SOURCE Paizo Blog - Ultimate Cantrips/0}  ",
+			"{SOURCE Paizo Blog - Ultimate Cantrips}  ",
 			"**School** {spelldef/evocation} [{spelldef/air}]; **Level** arcanist 0, sorcerer 0, wizard 0  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, M (a miniature fan)  ",
@@ -1450,7 +1451,7 @@
 			"**Duration** 1 hour (D)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes",
 			"",
-			"You create a light wind that blows against the target, from a direction of your choice. The breeze grants the subject a +2 bonus on saves against very hot conditions, severe heat, breath weapons, and saves against cloud vapors and gases (such as cloudkill, stinking cloud, and inhaled poisons). This spell does not function without air or underwater.",
+			"You create a light wind that blows against the target, from a direction of your choice. The breeze grants the subject a +2 bonus on saves against very hot conditions, severe heat, breath weapons, and saves against cloud vapors and gases (such as {spell/cloudkill}, {spell/stinking cloud}, and inhaled poisons). This spell does not function without air or underwater.",
 			"",
 			"You can only have one breeze active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled.",
 			"",
@@ -2128,7 +2129,7 @@
 			"",
 			"Creatures within the area are caught and contained unless any creature within the splash radius is too big to fit inside, in which case the effect automatically fails. Teleportation and other forms of astral travel provide means for escape, but the force walls extend into the Ethereal Plane, blocking ethereal travel.",
 			"",
-			"Like a wall of force, the cage created by the caging bomb admixture resists dispel magic, although a mage's disjunction still functions. The walls of the cage can be damaged by spells as normal, except for disintegrate, which automatically destroys the cage. The walls of this cage can be damaged by weapons and supernatural abilities, but the cage has a hardness of 20 and a number of hit points equal to 20 per alchemist level. Contact with a sphere of annihilation or a rod of cancellation instantly destroys this cage.",
+			"Like a {spell/wall of force}, the cage created by the caging bomb admixture resists {spell/dispel magic}, although a {spell/mage's disjunction} still functions. The walls of the cage can be damaged by spells as normal, except for {spell/disintegrate}, which automatically destroys the cage. The walls of this cage can be damaged by weapons and supernatural abilities, but the cage has a hardness of 20 and a number of hit points equal to 20 per alchemist level. Contact with a {magic-artifact/sphere of annihilation} or a {magic-rod/rod of cancellation} instantly destroys this cage.",
 			"",
 			"When using caging bomb admixture, an alchemist can only have one cage in effect at a time. If the alchemist throws another bomb during the duration of caging bomb admixture, any other cage created by the earlier admixture ends, and a new one is created. When the duration of the caging bomb admixture ends, so does any remaining cage created by this admixture's effect."
 		]
@@ -2166,7 +2167,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Fortitude partial; **Spell Resistance** yes",
 			"",
-			"Your touch progressively transmutes the substance of creatures you touch into stone. Once per round, you may deliver a touch attack that inflicts 1d4 points of Dexterity damage and slows the target (as the spell) for 1 round. A successful Fortitude save negates the slow effect but not the ability damage. A target reduced to 0 Dexterity is petrified permanently. Break enchantment, restoration, or stone to flesh can reverse the effects of calcific touch."
+			"Your touch progressively transmutes the substance of creatures you touch into stone. Once per round, you may deliver a touch attack that inflicts 1d4 points of Dexterity damage and {spell/slow/s} the target (as the spell) for 1 round. A successful Fortitude save negates the slow effect but not the ability damage. A target reduced to 0 Dexterity is petrified permanently. {spell/Break enchantment}, {spell/restoration}, or {spell/stone to flesh} can reverse the effects of calcific touch."
 		]
 	},
 	"calculated_luck": {
@@ -2641,7 +2642,7 @@
 			"",
 			"You touch an animal or magical beast that has a helpful attitude toward you, instantly transforming the creature into a miniature figurine of stone, small enough to fit into the palm of your hand. Creatures with an attitude of less than helpful will not tolerate this spell, and it automatically fails to work on them. An intelligent animal or magical beast must be a willing subject in order for this spell to take effect. Any items that the creature wears (such as a harness or saddle) or carries (such as those stowed in saddlebags) are transformed along with the creature.",
 			"",
-			"While miniaturized, the creature is under an effect similar to that of a {spell/flesh to stone} spell: It is mindless and inert, and does not seem alive when viewed with spells like {spell/deathwatch}. However, you may return the creature to its normal form at any time simply by placing the figurine on the ground, touching it, and uttering a word of command. Otherwise, the creature remains in miniature form unless the spell is broken, such as by dispel magic or stronger magic. Unlike a *flesh to stone* spell, a creature affected by *carry companion* is unaffected by {spell/stone to flesh}. If the miniature figurine is broken or damaged, the creature (if returned to its original state) has similar damage or deformities."
+			"While miniaturized, the creature is under an effect similar to that of a {spell/flesh to stone} spell: It is mindless and inert, and does not seem alive when viewed with spells like {spell/deathwatch}. However, you may return the creature to its normal form at any time simply by placing the figurine on the ground, touching it, and uttering a word of command. Otherwise, the creature remains in miniature form unless the spell is broken, such as by {spell/dispel magic} or stronger magic. Unlike a *flesh to stone* spell, a creature affected by *carry companion* is unaffected by {spell/stone to flesh}. If the miniature figurine is broken or damaged, the creature (if returned to its original state) has similar damage or deformities."
 		]
 	},
 	"carrying_wind": {
@@ -2694,7 +2695,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will partial; **Spell Resistance** yes",
 			"",
-			"With a melee touch attack you blast a single creature and disrupt any magic controlling it. The target takes 2d8 points of damage + 1 point per caster level (maximum +15). In addition, you make a dispel check against any magic jar effect (including a ghost's malevolence ability) or enchantment (compulsion) spells on the target creature, starting with the highest level spells and proceeding to lower level spells. Treat this as a targeted dispel magic spell, except cast out can dispel one such spell for every four caster levels you possess. A successful Will save halves the damage and limits the dispelling to a single spell or effect."
+			"With a melee touch attack you blast a single creature and disrupt any magic controlling it. The target takes 2d8 points of damage + 1 point per caster level (maximum +15). In addition, you make a dispel check against any magic jar effect (including a ghost's malevolence ability) or enchantment (compulsion) spells on the target creature, starting with the highest level spells and proceeding to lower level spells. Treat this as a targeted {spell/dispel magic} spell, except cast out can dispel one such spell for every four caster levels you possess. A successful Will save halves the damage and limits the dispelling to a single spell or effect."
 		]
 	},
 	"castigate": {
@@ -3249,7 +3250,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"A floating chain of force with hooks at each end appears within an unoccupied space of your choosing within range. This chain is a Medium object that has a 10-foot reach. Physical attacks cannot hit or harm the chain of perdition, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it normally. The chain's AC against touch attacks is 10 + your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric).",
+			"A floating chain of force with hooks at each end appears within an unoccupied space of your choosing within range. This chain is a Medium object that has a 10-foot reach. Physical attacks cannot hit or harm the chain of perdition, but {spell/dispel magic}, {disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it normally. The chain's AC against touch attacks is 10 + your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric).",
 			"",
 			"The chain can perform the dirty trick (blind or entangle), drag, reposition, and trip combat maneuvers, using your caster level in place of your Combat Maneuver Bonus, and your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric) in place of your Strength or Dexterity modifier. The chain does not provoke attacks of opportunity for making combat maneuvers. It suffers no penalty or miss chance due to darkness, invisibility, or other forms of concealment.",
 			"",
@@ -3993,7 +3994,7 @@
 			"**Target** you  ",
 			"**Duration** instantaneous",
 			"",
-			"Positive energy infuses and cleanses your body. This spell cures 4d8 points of damage + 1 point per caster level (maximum +25) and ends any and all of the following adverse conditions affecting you: ability damage, blinded, confused, dazzled, deafened, diseased, exhausted, fatigued, nauseated, poisoned, and sickened. In addition, cleanse functions as break enchantment upon a single additional effect of your choice that is affecting you and that can be legally affected by this effect.",
+			"Positive energy infuses and cleanses your body. This spell cures 4d8 points of damage + 1 point per caster level (maximum +25) and ends any and all of the following adverse conditions affecting you: ability damage, blinded, confused, dazzled, deafened, diseased, exhausted, fatigued, nauseated, poisoned, and sickened. In addition, cleanse functions as {spell/break enchantment} upon a single additional effect of your choice that is affecting you and that can be legally affected by this effect.",
 			"",
 			"If used by undead or other creatures healed by negative energy, the spell cleanses with negative energy rather than positive."
 		]
@@ -4015,7 +4016,7 @@
 			"",
 			"A ring of fire surrounds the area affected by the spell. The flames radiate heat, but not enough to damage adjacent creatures. The flames deal 2d6 points of fire damage to any creatures that pass through them (or 4d6 points of damage to undead creatures). If you manifest a portion of the ring in a square that contains a creature, that creature takes damage as if it passed through the ring.",
 			"",
-			"The ring of flames attempts to dispel all ongoing spell effects with the evil descriptor within it, targeting each spell effect once per round as per dispel magic. Any attempt to cast a spell with the evil descriptor inside the ring of flames is targeted by a dispel magic affect that attempts to counterspell the evil spell."
+			"The ring of flames attempts to dispel all ongoing spell effects with the evil descriptor within it, targeting each spell effect once per round as per {spell/dispel magic}. Any attempt to cast a spell with the evil descriptor inside the ring of flames is targeted by a dispel magic affect that attempts to counterspell the evil spell."
 		]
 	},
 	"clear_grove": {

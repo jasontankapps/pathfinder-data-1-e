@@ -3235,7 +3235,7 @@
 			"",
 			"***Alignment and Area:*** This line gives the haunt's alignment and the dimensions of the area it infuses (up to 5 feet per CR). If a haunt is persistent, this is noted here as well.",
 			"",
-			"***Caster Level:*** This is the haunt's effective caster level for the purposes of dispelling any ongoing effects with dispel magic, and for determining the results of spell effects it creates.",
+			"***Caster Level:*** This is the haunt's effective caster level for the purposes of dispelling any ongoing effects with {spell/dispel magic}, and for determining the results of spell effects it creates.",
 			"",
 			"***Notice:*** This indicates the skill check and DC required to notice the haunt in the surprise round before it manifests. The sensory input for what a successful check notices - such as a faint ghostly wailing, a smell of burning flesh, or fresh blood oozing from the walls - is listed in parentheses after the DC.",
 			"",
@@ -3430,6 +3430,7 @@
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"tables": [
 			{
 				"id": "hazards table",

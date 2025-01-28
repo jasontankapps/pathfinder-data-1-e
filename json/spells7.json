@@ -674,7 +674,7 @@
 			"",
 			"This spell curses the creature touched, making it inimical to the natural world. All animals have an initial attitude of hostile toward the target. Familiars, being magical beasts, are not affected by this spell, but animal companions are. If you have an animal companion, it does not become hostile, but as long as you remain cursed, your animal companion takes a -2 penalty on all attack rolls, skill checks, and saving throws. The target also takes a -10 penalty on Survival skill checks as the weather and environment themselves seem to conspire to cause trouble.",
 			"",
-			"Nature's exile can be removed with break enchantment, limited wish, miracle, remove curse, or wish."
+			"Nature's exile can be removed with {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish}."
 		]
 	},
 	"natures_paths": {
@@ -1561,7 +1561,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You inflict a curse of the roiling sea upon the target, making it permanently sickened. Anytime the target is on or in the water more than a mile from shore, it also becomes staggered with seasickness. This curse cannot be dispelled, though remove curse or break enchantment can negate it."
+			"You inflict a curse of the roiling sea upon the target, making it permanently sickened. Anytime the target is on or in the water more than a mile from shore, it also becomes staggered with seasickness. This curse cannot be dispelled, though {spell/remove curse} or {spell/break enchantment} can negate it."
 		]
 	},
 	"oneiric_horror": {
@@ -2596,11 +2596,12 @@
 	},
 	"penumbra": {
 		"name": "Penumbra",
+		"subtitle": "Rare Cantrip",
 		"sources": [ "Paizo Blog - Ultimate Cantrips" ],
 		"description": [
 			"## Penumbra",
 			"",
-			"{SOURCE Paizo Blog - Ultimate Cantrips/0}  ",
+			"{SOURCE Paizo Blog - Ultimate Cantrips}  ",
 			"**School** {spelldef/evocation} [{spelldef/darkness}]; **Level** arcanist 0, sorcerer 0, wizard 0  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, M (a bit of soot)  ",
@@ -3075,7 +3076,7 @@
 			"",
 			"*Wasting:* The target believes she has contracted a wasting disease. Each day, the creature takes 1d4 points of Constitution damage and becomes fatigued. A successful Fortitude save prevents this damage. Two consecutive successful saves end the effect.",
 			"",
-			"Since the affliction exists entirely in the creature's mind, phantasmal affliction is not affected by normal cures like neutralize poison or remove disease, or other effects like delay poison or the Heal skill. Ordinary immunities do not apply in this case (though a creature immune to the affliction receives a +4 bonus on the Will save to disbelieve the illusion). Constitution damage from the affliction can't kill the target. Instead, it causes the target to fall unconscious like other forms of ability damage. Phantasmal affliction is a spell effect and can be dispelled normally.",
+			"Since the affliction exists entirely in the creature's mind, phantasmal affliction is not affected by normal cures like {spell/neutralize poison} or {spell/remove disease}, or other effects like {spell/delay poison} or the Heal skill. Ordinary immunities do not apply in this case (though a creature immune to the affliction receives a +4 bonus on the Will save to disbelieve the illusion). Constitution damage from the affliction can't kill the target. Instead, it causes the target to fall unconscious like other forms of ability damage. Phantasmal affliction is a spell effect and can be dispelled normally.",
 			"",
 			"{spell/Placebo effect} counters and dispels phantasmal affliction."
 		]
@@ -3349,9 +3350,9 @@
 			"",
 			"*8th Level:* The mount can ride over sandy, muddy, or even swampy ground without difficulty or decrease in speed.",
 			"",
-			"*10th Level:* The mount can use water walk at will (as the spell, no action required to activate this ability).",
+			"*10th Level:* The mount can use {spell/water walk} at will (as the spell, no action required to activate this ability).",
 			"",
-			"*12th Level:* The mount can use air walk at will (as the spell, no action required to activate this ability) for up to 1 round at a time, after which it falls to the ground.",
+			"*12th Level:* The mount can use {spell/air walk} at will (as the spell, no action required to activate this ability) for up to 1 round at a time, after which it falls to the ground.",
 			"",
 			"*14th Level:* The mount can fly at its speed with a bonus on Fly skill checks equal to your caster level.",
 			"",
@@ -3440,7 +3441,7 @@
 			"",
 			"This spell creates an ethereal passage through wooden, plaster, or stone walls, but not other materials. The phase door is invisible and inaccessible to all creatures except you, and only you can use the passage. You disappear when you enter the phase door and appear when you exit. If you desire, you can take one other creature (Medium or smaller) through the door. This counts as two uses of the door. The door does not allow light, sound, or spell effects through it, nor can you see through it without using it. Thus, the spell can provide an escape route, though certain creatures, such as phase spiders, can follow with ease. A gem of true seeing or similar magic reveals the presence of a phase door but does not allow its use.",
 			"",
-			"A phase door is subject to dispel magic. If anyone is within the passage when it is dispelled, he is harmlessly ejected just as if he were inside a passwall effect.",
+			"A phase door is subject to {spell/dispel magic}. If anyone is within the passage when it is dispelled, he is harmlessly ejected just as if he were inside a passwall effect.",
 			"",
 			"You can allow other creatures to use the phase door by setting some triggering condition for the door. Such conditions can be as simple or elaborate as you desire. They can be based on a creature's name, identity, or alignment, but otherwise must be based on observable actions or qualities. Intangibles such as level, class, HD, and hit points don't qualify.",
 			"",
@@ -3484,7 +3485,7 @@
 			"",
 			"When the target takes damage of the energy type (for an energy type phobia), or perceives the presence of the creature, environment, or hazard, it must attempt a DC 20 Will save. If it fails, it becomes panicked, but even if it succeeds, it becomes shaken and feels intensely uncomfortable; a creature shaken in this way does not need to roll further saving throws against its phobia until its shaken condition ends, even if it continues to be exposed to its phobia.",
 			"",
-			"A creature panicked by phobia can begin to act normally 1 minute after it ceases being able to perceive its phobia or after taking the energy damage if the phobia is an energy type, though the shaken condition ends immediately after the creature can no longer perceive its phobia. Break enchantment, heal, limited wish, miracle, or wish can remove a phobia spell."
+			"A creature panicked by phobia can begin to act normally 1 minute after it ceases being able to perceive its phobia or after taking the energy damage if the phobia is an energy type, though the shaken condition ends immediately after the creature can no longer perceive its phobia. {spell/Break enchantment}, {spell/heal}, {spell/limited wish}, {spell/miracle}, or {spell/wish} can remove a phobia spell."
 		]
 	},
 	"pick_your_poison": {

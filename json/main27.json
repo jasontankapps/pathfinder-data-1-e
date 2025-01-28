@@ -3,6 +3,7 @@
 		"title": "Magic Weapons",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -519,6 +520,7 @@
 		"title": "Magic Rings",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -763,6 +765,7 @@
 		"title": "Magic Rods",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1117,7 +1120,9 @@
 				"| --- | --- | --- |",
 				"| [Bilious Talisman (Minor Artifact)](/magic-talisman/bilious_talisman_minor_artifact) | neck | &mdash; |",
 				"| [Melancholic Talisman](/magic-talisman/melancholic_talisman) | neck | 50,000gp |",
-				"| [Sanguine Talisman](/magic-talisman/sanguine_talisman) | neck | &mdash; |"
+				"| [Phlegmatic Talisman](/magic-talisman/phlegmatic_talisman) | neck | 96,000gp |",
+				"| [Sanguine Talisman](/magic-talisman/sanguine_talisman) | neck | Varies |",
+				"| [Sanguine Talisman of Sheel Leroung](/magic-talisman/sanguine_talisman_of_sheel_leroung) | neck | 67,500gp |"
 			],
 			"# Elemental Augmentation ! augmentations",
 			[
@@ -1524,6 +1529,7 @@
 		"title": "Magic Armor",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1788,6 +1794,7 @@
 		"title": "Artifacts",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -2239,6 +2246,7 @@
 	"magic_enhancements": {
 		"title": "Magic - Enhancements",
 		"sources": [],
+		"noFinder": true,
 		"description": [
 			[
 				"Adding an enhancement to armor, shields, and weapons raises the base price of the [armor, shield](rule/magic_armor), or [weapon](rule/magic_weapons) being enhanced. This is either equivalent to a standard +1 (or other) bonus, or it's a fixed amount of gold."
@@ -2604,6 +2612,7 @@
 		"title": "Magic Staves",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{

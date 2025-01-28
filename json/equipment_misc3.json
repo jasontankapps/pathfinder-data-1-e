@@ -3474,7 +3474,7 @@
 			"**Price** caster level &times; spell level &times; 10 gp; **Weight** -  ",
 			"**Category** Lodging/Services",
 			"",
-			"The indicated amount is how much it costs to get a spellcaster to cast a spell for you. This price assumes that you can go to the spellcaster and have the spell cast at her convenience (generally at least 24 hours later, so that the spellcaster has time to prepare the spell in question, though you may be lucky enough to find someone who has it prepared that day or a spontaneous caster who knows it). If you want to bring the spellcaster somewhere to cast a spell (for example, to cast dispel magic on a magical seal in a dungeon) you need to negotiate with her; the default answer to such requests is typically no, since most people don't actually like to go on unexpected life-threatening adventures.",
+			"The indicated amount is how much it costs to get a spellcaster to cast a spell for you. This price assumes that you can go to the spellcaster and have the spell cast at her convenience (generally at least 24 hours later, so that the spellcaster has time to prepare the spell in question, though you may be lucky enough to find someone who has it prepared that day or a spontaneous caster who knows it). If you want to bring the spellcaster somewhere to cast a spell (for example, to cast {spell/dispel magic} on a magical seal in a dungeon) you need to negotiate with her; the default answer to such requests is typically no, since most people don't actually like to go on unexpected life-threatening adventures.",
 			"",
 			"The price given is for any spell that does not require a costly material component. If the spell includes a material component, add the cost of that component to the cost of the spell. If the spell has a focus component (other than a divine focus), add 1/10 the cost of that focus to the cost of the spell.",
 			"",
@@ -4477,7 +4477,7 @@
 			"**Price** 300 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any {rule/infestations} (such as rot grubs), implanted eggs (such as those implanted by xills), or other non-disease effects that can be cured by remove disease, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.",
+			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any {rule/infestations} (such as rot grubs), implanted eggs (such as those implanted by xills), or other non-disease effects that can be cured by {spell/remove disease}, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 25"

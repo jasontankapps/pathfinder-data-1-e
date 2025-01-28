@@ -3817,19 +3817,19 @@
 			"",
 			"If used as an additional material component when casting a spell the idol affects, a Varisian idol increases the effect of that spell. Using multiple idols to cast a spell has no additional effect. A Varisian idol is destroyed after one use.",
 			"",
-			"Avaria: When used to cast bear's endurance, bull's strength, cat's grace, eagle's splendor, fox's cunning, or owl's wisdom, the spell grants a +5 enhancement bonus to the affected ability score.",
+			"**Avaria:** When used to cast {spell/bear's endurance}, {spell/bull's strength}, {spell/cat's grace}, {spell/eagle's splendor}, {spell/fox's cunning}, or {spell/owl's wisdom}, the spell grants a +5 enhancement bonus to the affected ability score.",
 			"",
-			"Avidais: When used to cast a spell that allows you to make a dispel check (such as dispel magic or mage's disjunction), you gain a +2 bonus on that check.",
+			"**Avidais:** When used to cast a spell that allows you to make a dispel check (such as {spell/dispel magic} or {spell/mage's disjunction}), you gain a +2 bonus on that check.",
 			"",
-			"Carnasia: When used to cast any spell of the charm subschool, a threatened target does not gain the usual +5 bonus on its saving throw to resist the effect.",
+			"**Carnasia:** When used to cast any spell of the charm subschool, a threatened target does not gain the usual +5 bonus on its saving throw to resist the effect.",
 			"",
-			"Idolis: When used to cast summon monster or summon nature's ally, the summoned creature's maximum hit points increase by +2 for every Hit Die it possesses.",
+			"**Idolis:** When used to cast {spell/summon monster>_1} or {spell/summon nature's ally>_1}, the summoned creature's maximum hit points increase by +2 for every Hit Die it possesses.",
 			"",
-			"Ragario: When used to cast a spell that deals energy damage, you gain a +2 bonus on caster level checks made to overcome spell resistance.",
+			"**Ragario:** When used to cast a spell that deals energy damage, you gain a +2 bonus on caster level checks made to overcome spell resistance.",
 			"",
-			"Vangloris: When used to cast a spell of the glamer subschool with a duration measured in minutes or less (such as displacement or invisibility), the effects of that spell persist for 1 round longer than normal.",
+			"**Vangloris:** When used to cast a spell of the glamer subschool with a duration measured in minutes or less (such as displacement or invisibility), the effects of that spell persist for 1 round longer than normal.",
 			"",
-			"Voratalo: When used to cast a spell of the necromancy school that deals hit point damage, you also deal a number of points of bleed damage equal to the spell level. This bleed effect lasts for 5 rounds."
+			"**Voratalo:** When used to cast a spell of the necromancy school that deals hit point damage, you also deal a number of points of bleed damage equal to the spell level. This bleed effect lasts for 5 rounds."
 		]
 	},
 	"vault_altimeter": {

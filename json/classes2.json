@@ -1549,7 +1549,7 @@
 			"",
 			"When using Craft (alchemy) to create an alchemical item, an investigator gains a competence bonus equal to his class level on the skill check. In addition, an investigator can use Craft (alchemy) to identify potions as if using {spell/detect magic}. He must hold the potion for 1 round to attempt such a check.",
 			"",
-			"Like an alchemist, an investigator prepares his spells by mixing ingredients and a tiny fraction of his own magical power into a number of extracts, and then effectively casts the spell by drinking the extract. These extracts have powerful effects, but they are also bound to their creator. Extracts behave like spells in potion form, and as such their effects can be dispelled by *dispel magic* and similar effects, using the investigator's level as the caster level.",
+			"Like an alchemist, an investigator prepares his spells by mixing ingredients and a tiny fraction of his own magical power into a number of extracts, and then effectively casts the spell by drinking the extract. These extracts have powerful effects, but they are also bound to their creator. Extracts behave like spells in potion form, and as such their effects can be dispelled by {spell/dispel magic} and similar effects, using the investigator's level as the caster level.",
 			"",
 			"An investigator can create only a certain number of extracts of each level per day. In addition, he receives [bonus extracts per day](rule/determine_bonuses) if he has a high Intelligence score, in the same way a wizard receives bonus spells per day.",
 			"",

@@ -3,6 +3,7 @@
 		"title": "All Cleric Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1169,6 +1170,7 @@
 		"title": "All Oracle Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{

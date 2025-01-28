@@ -407,7 +407,7 @@
 			"",
 			"{spell/Read magic} allows you to identify a symbol with a Spellcraft check (DC 10 + the symbol's spell level). Of course, if the symbol is set to be triggered by reading it, this will trigger the symbol.",
 			"",
-			"A symbol of death can be removed by a successful dispel magic targeted solely on the rune. An erase spell has no effect on a symbol of death. Destruction of the surface where a symbol of death is inscribed destroys the symbol but also triggers it.",
+			"A symbol of death can be removed by a successful {spell/dispel magic} targeted solely on the rune. An erase spell has no effect on a symbol of death. Destruction of the surface where a symbol of death is inscribed destroys the symbol but also triggers it.",
 			"",
 			"Symbol of death can be made permanent with a {spell/permanency} spell. A permanent symbol of death that is disabled or has affected its maximum number of hit points becomes inactive for 10 minutes, but then can be triggered again as normal.",
 			"",
@@ -460,7 +460,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as symbol of death, except that all creatures within 40 feet of the symbol of dispelling are instead affected as if by the area dispel function of greater dispel magic. Attempt a dispel check when casting symbol of dispelling. Once the symbol is triggered, apply the result of that check to each creature in the area, as well as each object that is the target of one or more spells. Unlike symbol of death, symbol of dispelling grants no saving throws, and it is not subject to spell resistance."
+			"This spell functions as symbol of death, except that all creatures within 40 feet of the symbol of dispelling are instead affected as if by the area dispel function of {spell/greater dispel magic}. Attempt a dispel check when casting symbol of dispelling. Once the symbol is triggered, apply the result of that check to each creature in the area, as well as each object that is the target of one or more spells. Unlike symbol of death, symbol of dispelling grants no saving throws, and it is not subject to spell resistance."
 		]
 	},
 	"symbol_of_distraction": {
@@ -1790,7 +1790,7 @@
 			"",
 			"This spell functions like teleport, except that it teleports an object, not you. Creatures and magical forces cannot be teleported.",
 			"",
-			"If desired, the target object can be sent to a distant location on the Ethereal Plane. In this case, the point from which the object was teleported remains faintly magical until the item is retrieved. A successful targeted dispel magic spell cast on that point brings the vanished item back from the Ethereal Plane."
+			"If desired, the target object can be sent to a distant location on the Ethereal Plane. In this case, the point from which the object was teleported remains faintly magical until the item is retrieved. A successful targeted {spell/dispel magic} spell cast on that point brings the vanished item back from the Ethereal Plane."
 		]
 	},
 	"teleport_structure": {
@@ -1931,7 +1931,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** yes",
 			"",
-			"You must succeed on a melee touch attack. You place the subject into a state of suspended animation. For the creature, time ceases to flow, and its condition becomes fixed. The creature does not grow older. Its body functions virtually cease, and no force or effect can harm it. This state persists until the magic is removed (such as by a successful dispel magic spell or a freedom spell)."
+			"You must succeed on a melee touch attack. You place the subject into a state of suspended animation. For the creature, time ceases to flow, and its condition becomes fixed. The creature does not grow older. Its body functions virtually cease, and no force or effect can harm it. This state persists until the magic is removed (such as by a successful {spell/dispel magic} spell or a {spell/freedom} spell)."
 		]
 	},
 	"temporary_graft": {
@@ -2587,7 +2587,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Reflex half; **Spell Resistance** no",
 			"",
-			"If you cast tidal surge on land, you create an onrushing surge of water 10 feet high in a 30-foot cone that deals 1d6 points of bludgeoning damage for every 2 caster levels you have (maximum 10d6 at 20th level) and extinguishes all nonmagical fires in the area. Magical fire effects in the area of a tidal surge are affected as if you had cast dispel magic. In addition to taking damage, creatures that fail their Reflex saves are pushed 1d4x5 feet away from you, and Medium or smaller creatures are also knocked prone.",
+			"If you cast tidal surge on land, you create an onrushing surge of water 10 feet high in a 30-foot cone that deals 1d6 points of bludgeoning damage for every 2 caster levels you have (maximum 10d6 at 20th level) and extinguishes all nonmagical fires in the area. Magical fire effects in the area of a tidal surge are affected as if you had cast {spell/dispel magic}. In addition to taking damage, creatures that fail their Reflex saves are pushed 1d4x5 feet away from you, and Medium or smaller creatures are also knocked prone.",
 			"",
 			"If you cast this spell in or on a body of water at least 30 feet across, you can shape the spell either as the cone described above or as a 60-foot line. In either shape, the water deals 1d10 points of bludgeoning damage for every 2 caster levels you have in addition to pushing away creatures that fail their Reflex saves."
 		]
@@ -3076,7 +3076,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** yes",
 			"",
-			"You create a coating of slime on your hand. When you make a successful melee touch attack with the slime, it pulls free of you and sticks to the target, at which point it acts like green slime, dealing 1d3 points of Constitution damage per round. Anything that destroys green slime (scraping, freezing, burning, cutting, sunlight, or remove disease) destroys this slime. If the slime kills a creature, it consumes the body and then dies. It cannot transfer to a creature other than the original target, and dies if separated from the original target."
+			"You create a coating of slime on your hand. When you make a successful melee touch attack with the slime, it pulls free of you and sticks to the target, at which point it acts like green slime, dealing 1d3 points of Constitution damage per round. Anything that destroys green slime (scraping, freezing, burning, cutting, sunlight, or {spell/remove disease}) destroys this slime. If the slime kills a creature, it consumes the body and then dies. It cannot transfer to a creature other than the original target, and dies if separated from the original target."
 		]
 	},
 	"touch_of_slumber": {
@@ -3709,7 +3709,7 @@
 			"",
 			"This spell allows you to add a creature's stolen face to or remove such a face that you've already applied from your own. Before casting this spell, you must remove the face and eyes of a creature that has been dead no longer than 1 minute per caster level and place it over your own. Once you cast transplant visage, the creature's stolen skin magically melds with your own, making the expressions and eye color on your new face seem perfectly natural. Your new appearance grants you a +10 bonus on Disguise checks. Because the alteration made by transplant visage is permanent, there is no residual magical aura, and your new appearance is not recognized by detect spells. Transplant visage may be cast innumerable times, allowing a single caster to wear layers upon layers of stolen faces. However, only the topmost face is visible at any one time.",
 			"",
-			"Transplant visage may also be used to remove a previously stolen face. This is the only way to remove a face short of using greater polymorph, miracle, or wish. When used in this way, transplant visage causes the topmost face to flake off and crumble into dust. A face so removed may not be reused. If the caster is wearing several stolen faces when the topmost face is removed, the next face down is revealed, and may be used as normal."
+			"Transplant visage may also be used to remove a previously stolen face. This is the only way to remove a face short of using {spell/greater polymorph}, {spell/miracle}, or {spell/wish}. When used in this way, transplant visage causes the topmost face to flake off and crumble into dust. A face so removed may not be reused. If the caster is wearing several stolen faces when the topmost face is removed, the next face down is revealed, and may be used as normal."
 		]
 	},
 	"transport_via_plants": {
@@ -4166,7 +4166,7 @@
 			"",
 			"You create a darkly sinister floating knife that attacks the same creature as you each round. If you choose not to attack a creature, or you make an attack that affects multiple opponents, the knife makes no attack during that round. The knife uses your base attack bonus modified by either your Intelligence or Charisma bonus (whichever is higher) when making this attack. Unless you specifically will it to do otherwise, or it proves impossible to do so, the knife always maneuvers itself so that it can flank your opponent before making the attack. The knife deals 1d4 points of force damage on a successful hit and has the same threat range and critical multipliers as a normal dagger. In addition, if the target is denied a Dexterity bonus to AC or the knife flanks the target, the knife can make sneak attacks as a rogue, inflicting an extra 1d6 points of force damage per four caster levels on a successful attack.",
 			"",
-			"A twilight knife cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A twilight knife's AC against touch attacks is 12 (10 + size bonus for Tiny object) plus your Dexterity modifier.",
+			"A twilight knife cannot be attacked or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. A twilight knife's AC against touch attacks is 12 (10 + size bonus for Tiny object) plus your Dexterity modifier.",
 			"",
 			"If an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the twilight knife strikes it. If the knife is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell."
 		]

@@ -461,7 +461,7 @@
 			"{SOURCE Pathfinder #81: Shifting Sands/73}",
 			"",
 			"Your channeled energy wards off disease.  ",
-			"**Prerequisites:** Able to cast remove disease or the ability to cure disease with a mercy, channel positive energy class feature.  ",
+			"**Prerequisites:** Able to cast {spell/remove disease} or the ability to cure disease with a mercy, channel positive energy class feature.  ",
 			"**Benefit:** When you channel positive energy to harm or turn undead creatures, any undead creatures in the area lose the ability to cause disease with their melee and ranged attacks for 1d4+1 rounds. If an undead creature successfully saves against your channeled energy, this duration is reduced to 1 round for that creature. Immunity to positive energy negates this ability.",
 			"",
 			"When you channel positive energy to heal living creatures, any living creatures in the area gain a +4 sacred bonus on saving throws against disease for 1d4+1 rounds. Creatures not healed by positive energy receive no benefit."
@@ -734,7 +734,7 @@
 			"",
 			"Your tread is of unearthly lightness.  ",
 			"**Prerequisites:** {feat/Spider Step}, monk level 12th.  ",
-			"**Benefit:** As a move action, you can air walk (as the spell) up to half your slow fall distance, maximum 50 feet. You must reach a solid, level surface by the end of your turn or you will fall."
+			"**Benefit:** As a move action, you can {spell/air walk} (as the spell) up to half your slow fall distance, maximum 50 feet. You must reach a solid, level surface by the end of your turn or you will fall."
 		]
 	},
 	"cloven_helm": {
@@ -1169,7 +1169,7 @@
 			"",
 			"**Silver Raven (C, F):** The raven is treated as a bird animal companion or a raven familiar. It retains its metallic appearance and animal messenger ability (though this is redundant for an intelligent familiar) but not its hardness when in animal form.",
 			"",
-			"While the figurine is active, you and the active figurine gain all the normal benefits of having a companion creature; for example, a wizard with a silver raven familiar gains a +3 bonus on Appraise checks, the raven can speak one language, and so on. While the figure is inactive, you gain none of these benefits but are not otherwise hampered by its inert state (as if the creature were out of range but not dead). The usable duration of the companion figurine doubles; for example, an ebony fly is normally usable up to three times per week for up to 12 hours per use, but as a companion creature you may use it up to six times per week for up to 12 hours per use. The figurine is still a magic item and is subject to effects like antimagic field and dispel magic that affect magic items; it uses its caster level or your own, whichever is greater."
+			"While the figurine is active, you and the active figurine gain all the normal benefits of having a companion creature; for example, a wizard with a silver raven familiar gains a +3 bonus on Appraise checks, the raven can speak one language, and so on. While the figure is inactive, you gain none of these benefits but are not otherwise hampered by its inert state (as if the creature were out of range but not dead). The usable duration of the companion figurine doubles; for example, an ebony fly is normally usable up to three times per week for up to 12 hours per use, but as a companion creature you may use it up to six times per week for up to 12 hours per use. The figurine is still a magic item and is subject to effects like {spell/antimagic field} and {spell/dispel magic} that affect magic items; it uses its caster level or your own, whichever is greater."
 		]
 	},
 	"compelling_harmonies": {
@@ -1523,9 +1523,9 @@
 			"",
 			"{SOURCE Healer's Handbook/14}",
 			"",
-			"Ability to cast cure spells (a cure spell is any spell with \"cure\" in its name).  ",
+			"Ability to cast {spell/cure>_light_wounds} spells (a cure spell is any spell with \"cure\" in its name).  ",
 			"**Prerequisites:** Ability to cast cure spells (a cure spell is any spell with \"cure\" in its name).  ",
-			"**Benefit:** A contingent spell infuses a target with a dormant healing or restorative spell that can trigger when the target needs it the most. This metamagic feat can be applied to only cure spells; breath of life; or any harmless spell that can be used to remove ability score damage, ability score drain, or a negative condition or effect (including break enchantment, neutralize poison, and remove disease). When you cast a contingent spell, you must set a specific trigger that dictates under what circumstances the target is immediately subject to the spell's effects (for instance, \"When the target dies, breath of life takes effect\"). The contingent spell's effects can remain dormant within the target for up to 10 minutes per caster level you have. A creature can be infused with only one contingent spell at a time.",
+			"**Benefit:** A contingent spell infuses a target with a dormant healing or restorative spell that can trigger when the target needs it the most. This metamagic feat can be applied to only cure spells; {spell/breath of life}; or any harmless spell that can be used to remove ability score damage, ability score drain, or a negative condition or effect (including {spell/break enchantment}, {spell/neutralize poison}, and {spell/remove disease}). When you cast a contingent spell, you must set a specific trigger that dictates under what circumstances the target is immediately subject to the spell's effects (for instance, \"When the target dies, breath of life takes effect\"). The contingent spell's effects can remain dormant within the target for up to 10 minutes per caster level you have. A creature can be infused with only one contingent spell at a time.",
 			"",
 			"A contingent spell uses up a spell slot 2 levels higher than the spell's actual level."
 		]
@@ -1605,7 +1605,7 @@
 			"",
 			"Thanks to your heritage, you can thwart magical attacks almost instinctively.  ",
 			"**Prerequisites:** Spellcraft 5 ranks, racial spell-like ability replicating a spell of 1st level or higher.  ",
-			"**Benefit:** When you and an ally who also has this feat both ready an action to counterspell, you can counter a spell if you both expend any spell of the same level and school as the spell you wish to counter. If you both attempt to counterspell with dispel magic, you each gain a +2 bonus on your caster level checks. If you have more than one ally readying an action to counterspell, you can select only one of those allies for the purpose of this feat, and that ally must also select you."
+			"**Benefit:** When you and an ally who also has this feat both ready an action to counterspell, you can counter a spell if you both expend any spell of the same level and school as the spell you wish to counter. If you both attempt to counterspell with {spell/dispel magic}, you each gain a +2 bonus on your caster level checks. If you have more than one ally readying an action to counterspell, you can select only one of those allies for the purpose of this feat, and that ally must also select you."
 		]
 	},
 	"cooperative_crafting": {
@@ -2290,7 +2290,7 @@
 			"",
 			"A single slot can hold multiple physical piercings, though the pieces of jewelry operate as a single item and must be created for that purpose. Shadow piercings have different levels of power: minor, major, and greater. Minor shadow piercings usually include one piece of jewelry, while major and greater shadow piercings often are made up of multiple rings and spikes that cover the entire area of the piercing's slot (but are still considered a single item). A creature can only use a number of shadow piercings equal its Constitution modifier plus its Wisdom modifier.",
 			"",
-			"Carefully inserting or removing a shadow piercing takes a full-round action and deals no damage. Alternatively, a shadow piercing may be pulled out of a creature using the steal maneuver as a standard action that deals 1d6 points of damage. Only a creature with the Craft Shadow Piercing feat may create or insert a shadow piercing, but any creature may remove one. Inserting a shadow piercing is impossible unless the target is willing or helpless. After being removed, a shadow piercing may be inserted into another creature by someone with this feat. Since they are treated as magic items, they are affected by dispel magic.",
+			"Carefully inserting or removing a shadow piercing takes a full-round action and deals no damage. Alternatively, a shadow piercing may be pulled out of a creature using the steal maneuver as a standard action that deals 1d6 points of damage. Only a creature with the Craft Shadow Piercing feat may create or insert a shadow piercing, but any creature may remove one. Inserting a shadow piercing is impossible unless the target is willing or helpless. After being removed, a shadow piercing may be inserted into another creature by someone with this feat. Since they are treated as magic items, they are affected by {spell/dispel magic}.",
 			"",
 			"Shadow piercings follow the rules for magic item creation, except the creator can use the Craft (jewelry) skill instead of Spellcraft. New shadow piercings can be researched and designed using the rules for pricing new magic items. Shadow piercing powers for a specific slot must be thematically similar or linked. Since shadow piercings don't interfere with other magic items in the same slot, but can only have one piercing per slot, the base price is multiplied by 1.5 instead of doubled as if they had no space limitation."
 		]
@@ -4467,7 +4467,7 @@
 			"**Prerequisites:** Base attack bonus +3, kinetic blast class feature.  ",
 			"**Benefit:** When you use a kinetic blast, you can specify a number of rounds between 1 and 5. When that number of rounds has passed, the kinetic blast takes effect at the beginning of your turn. In the interim, you can take a standard action that provokes attacks of opportunity to cause the blast to take effect earlier than you initially selected. If you delay another blast while you already have a delayed blast pending, the previous delayed blast dissipates harmlessly.",
 			"",
-			"You must make any decisions you would make about the delayed blast - including designating target positions, choosing infusions, and determining or shaping the area - when you first use the blast. The blast originates from your position at the time you used the blast, not your current position when the blast takes effect, and it targets the position or area you had specified (which may or may not include any targets). A delayed blast radiates an aura of magic appropriate for its spell level even while it is delayed, and during that time, it can be dispelled by dispel magic."
+			"You must make any decisions you would make about the delayed blast - including designating target positions, choosing infusions, and determining or shaping the area - when you first use the blast. The blast originates from your position at the time you used the blast, not your current position when the blast takes effect, and it targets the position or area you had specified (which may or may not include any targets). A delayed blast radiates an aura of magic appropriate for its spell level even while it is delayed, and during that time, it can be dispelled by {spell/dispel magic}."
 		]
 	},
 	"delayed_potion": {
@@ -4902,7 +4902,7 @@
 			"{SOURCE Ultimate Combat/95}",
 			"",
 			"When you dispel an enemy's magical defenses, those defenses crash down with debilitating effects.  ",
-			"**Prerequisites:** Ability to cast dispel magic or greater dispel magic, caster level 11th.  ",
+			"**Prerequisites:** Ability to cast {spell/dispel magic} or {spell/greater dispel magic}, caster level 11th.  ",
 			"**Benefit:** When you successfully make a targeted dispel check against an opponent, that opponent must succeed at a Fortitude save (DC equals the DC of the spell used to dispel) or be stunned until the start of your next turn. If the save succeeds, the opponent is instead sickened until the start of your next turn."
 		]
 	},

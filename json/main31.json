@@ -3,6 +3,7 @@
 		"title": "All Antipaladin Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -316,6 +317,7 @@
 		"title": "All Magus Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -833,6 +835,7 @@
 		"title": "All Occultist Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1536,6 +1539,7 @@
 		"title": "All Mesmerist Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{

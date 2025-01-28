@@ -34,7 +34,7 @@
 			"",
 			"**Type** ingested; **Save** Fortitude DC 20  ",
 			"**Onset** 1 minute; **Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d3 Str damage, and each round a victim takes damage from this poison, she has a 50% chance of dropping one held item. If a victim's Strength is reduced to 0 by ghost syrup, the Strength damage becomes Strength drain, and the victim becomes permanently incorporeal. Carried and worn equipment is unaffected and remains corporeal, and the victim can be restored only through a limited wish, miracle, remove curse, or wish spell; **Cure** 2 consecutive saves",
+			"**Effect** 1d3 Str damage, and each round a victim takes damage from this poison, she has a 50% chance of dropping one held item. If a victim's Strength is reduced to 0 by ghost syrup, the Strength damage becomes Strength drain, and the victim becomes permanently incorporeal. Carried and worn equipment is unaffected and remains corporeal, and the victim can be restored only through a {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell; **Cure** 2 consecutive saves",
 			"",
 			"### Construction",
 			"",

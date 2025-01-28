@@ -380,7 +380,7 @@
 			"**Target** you  ",
 			"**Duration** 1 min./level (D)",
 			"",
-			"Shield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance."
+			"Shield creates an invisible shield of force that hovers in front of you. It negates {spell/magic missile} attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance."
 		]
 	},
 	"shield_companion_acg": {
@@ -820,7 +820,7 @@
 			"**Target** you  ",
 			"**Duration** 1 minutes/level (D)",
 			"",
-			"This spell creates an invisible shield similar to but not as strong as the shield spell. This shield hovers in front of you and negates magic missile attacks directed at you. The disk provides a +2 shield bonus to AC. This bonus applies against incorporeal touch attacks.",
+			"This spell creates an invisible shield similar to but not as strong as the shield spell. This shield hovers in front of you and negates {spell/magic missile} attacks directed at you. The disk provides a +2 shield bonus to AC. This bonus applies against incorporeal touch attacks.",
 			"",
 			"At any time, as a free action, you may dismiss your shield, at which point it deals 1d6 points of electrical damage to all creatures within a 5-foot burst, including you. A Reflex saving throw halves the damage."
 		]
@@ -1338,7 +1338,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell attempts to transfer a magical effect from a creature you touch to yourself. When you touch the creature, siphon magic attempts to end one ongoing spell that has been cast on that creature, as if via a targeted {spell/dispel magic}. If you know the specific spell effect you wish to target, you can name that spell effect to target that specific spell; otherwise siphon magic begins with the highest-level spell in effect and works its way down through all spells affecting the target until it dispels one or runs out of effects, as per dispel magic.",
+			"This spell attempts to transfer a magical effect from a creature you touch to yourself. When you touch the creature, siphon magic attempts to end one ongoing spell that has been cast on that creature, as if via a targeted {spell/dispel magic}. If you know the specific spell effect you wish to target, you can name that spell effect to target that specific spell; otherwise siphon magic begins with the highest-level spell in effect and works its way down through all spells affecting the target until it dispels one or runs out of effects, as per {spell/dispel magic}.",
 			"",
 			"If siphon magic successfully ends a spell effect on the target, the remaining duration of that spell effect is transferred to you. That spell effect plays out for the rest of its duration as if you had been the original target. If the spell allows a saving throw to resist the effect, you gain a saving throw as if the spell were just being cast upon you, although this does not \"reset\" the spell's duration."
 		]
@@ -2698,7 +2698,7 @@
 			"**Target** you  ",
 			"**Duration** 1 round/level",
 			"",
-			"If you successfully counterspell a 3rd-level or lower level spell (through either dispel magic or normal means) while spell absorption is in effect, you absorb the countered spell and use it to regain spells you have already cast. If you're a wizard, you regain the use of any single spell that you have cast since the last time you prepared spells. If you're a sorcerer, you regain a single spell slot. The spell recovered or spell slot regained must be of an equal level or lower than the spell you counterspelled.",
+			"If you successfully counterspell a 3rd-level or lower level spell (through either {spell/dispel magic} or normal means) while spell absorption is in effect, you absorb the countered spell and use it to regain spells you have already cast. If you're a wizard, you regain the use of any single spell that you have cast since the last time you prepared spells. If you're a sorcerer, you regain a single spell slot. The spell recovered or spell slot regained must be of an equal level or lower than the spell you counterspelled.",
 			"",
 			"### Spell Absorption, Greater",
 			"",
@@ -3140,7 +3140,7 @@
 			"**Casting Time** 1 hour  ",
 			"**Components** V, S, AF (onyx sphere worth at least 50 gp)  ",
 			"**Range** see text  ",
-			"**Target** sphere of annihilation  ",
+			"**Target** {magic-artifact/sphere of annihilation}  ",
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
@@ -3435,7 +3435,7 @@
 			"",
 			"An ally made of pure force appears in a single 5-foot square within range. The ally takes the form of a servant of your god. The spiritual ally occupies its space, though you and your allies can move through it, since it is your ally. The spiritual ally carries a single weapon, one favored by your deity (as for spiritual weapon), which has the same threat range and critical modifiers as a real weapon of its form. Each round on your turn, starting with the turn that you cast this spell, your spiritual ally can make an attack against a foe within its reach that you designate. The spiritual ally threatens adjacent squares and can flank and make attacks of opportunity as if it were a normal creature. The spiritual ally uses your base attack bonus (gaining extra attacks if your base attack bonus is high enough) plus your Wisdom bonus when it makes a melee attack. When the spiritual ally hits, it deals 1d10 points of force damage + 1 point of damage per 3 caster levels (maximum +5 at 15th level). It strikes as a spell, not a weapon, so it bypasses DR and can affect incorporeal creatures.",
 			"",
-			"Each round after the first, you can move the spiritual ally as a swift action. It has a speed of 30 feet, and a fly speed of 30 feet (perfect maneuverability). Being a construct of force, the spiritual ally cannot be harmed by any physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A spiritual ally's AC against touch attacks is 10.",
+			"Each round after the first, you can move the spiritual ally as a swift action. It has a speed of 30 feet, and a fly speed of 30 feet (perfect maneuverability). Being a construct of force, the spiritual ally cannot be harmed by any physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. A spiritual ally's AC against touch attacks is 10.",
 			"",
 			"If an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the spiritual ally strikes it. If the ally is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell."
 		]
@@ -3457,7 +3457,7 @@
 			"",
 			"This spell causes an ally made of pure force to appear in a single 5-foot square within range. The ally takes the form of a servant of your god (if any) or an ancestor. The spiritual squire occupies its space, though you and your allies can move through it, since it is your ally. While the spiritual squire appears to wear armor and carry a weapon, it cannot make attacks and does not threaten any spaces. On your turn, the spiritual squire can do one of the following: retrieve one stowed item from your possessions, carry an object weighing no more than 10 pounds per caster level, hand you an object it is carrying, perform the aid another action on your behalf or for one of your allies, or help one creature of your choice don armor (which then takes half the normal time). When the spiritual squire attempts the aid another action in combat, its attack bonus is equal to your base attack bonus + your Wisdom modifier.",
 			"",
-			"Each round after the first as a swift action, you can order the spiritual squire to move. It has a speed of 30 feet. Being a construct of force, the spiritual squire cannot be harmed by any physical attacks, but disintegrate, dispel magic, a rod of cancellation, or a sphere of annihilation affects it. A spiritual ally's AC against touch attacks is 10."
+			"Each round after the first as a swift action, you can order the spiritual squire to move. It has a speed of 30 feet. Being a construct of force, the spiritual squire cannot be harmed by any physical attacks, but {spell/disintegrate}, {spell/dispel magic}, a {magic-rod/rod of cancellation}, or a {magic-artifact/sphere of annihilation} affects it. A spiritual ally's AC against touch attacks is 10."
 		]
 	},
 	"spiritual_weapon": {
@@ -3482,7 +3482,7 @@
 			"",
 			"Each round after the first, you can use a move action to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round's target. On any round that the weapon switches targets, it gets one attack. Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to. Even if the spiritual weapon is a ranged weapon, use the spell's range, not the weapon's normal range increment, and switching targets still is a move action.",
 			"",
-			"A spiritual weapon cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A spiritual weapon's AC against touch attacks is 12 (10 + size bonus for Tiny object).",
+			"A spiritual weapon cannot be attacked or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. A spiritual weapon's AC against touch attacks is 12 (10 + size bonus for Tiny object).",
 			"",
 			"If an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the spiritual weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.",
 			"",

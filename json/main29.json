@@ -3,6 +3,7 @@
 		"title": "All Inquisitor Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -694,6 +695,7 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"tables": [
 			{
 				"id": "medium spells table",
@@ -1108,6 +1110,7 @@
 		"title": "All Ranger Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1531,6 +1534,7 @@
 		"title": "All Investigator Formulae",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1966,6 +1970,7 @@
 		"title": "All Adept Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{

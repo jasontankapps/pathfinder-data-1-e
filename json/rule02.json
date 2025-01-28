@@ -1132,7 +1132,7 @@
 			"",
 			"***Aura:*** Most of the time, a detect magic spell reveals the school of magic associated with a magic item and the strength of the aura an item emits. This information (when applicable) is given at the beginning of the item's notational entry. See the {spell/detect magic} spell description for details.",
 			"",
-			"***Caster Level (CL):*** The next item in a notational entry gives the caster level of the item, indicating its relative power. The caster level determines the item's saving throw bonus, as well as range or other level-dependent aspects of the powers of the item (if variable). It also determines the level that must be contended with should the item come under the effect of a dispel magic spell or similar situation.",
+			"***Caster Level (CL):*** The next item in a notational entry gives the caster level of the item, indicating its relative power. The caster level determines the item's saving throw bonus, as well as range or other level-dependent aspects of the powers of the item (if variable). It also determines the level that must be contended with should the item come under the effect of a {spell/dispel magic} spell or similar situation.",
 			"",
 			"For potions, scrolls, and wands, the creator can set the caster level of an item at any number high enough to cast the stored spell but not higher than her own caster level. For other magic items, the caster level is determined by the item itself.",
 			"",
@@ -1196,7 +1196,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/501}",
 			"",
-			"A number of spells and magic items utilize extradimensional spaces, such as {spell/rope trick}, a [bag of holding](magic-wondrous/bag_of_holding_type_1), a {magic-wondrous/handy haversack}, and a {magic-wondrous/portable hole}. These spells and magic items create a tiny pocket space that does not exist in any dimension. Such items do not function, however, inside another extradimensional space. If placed inside such a space, they cease to function until removed from the extradimensional space. For example, if a bag of holding is brought into a rope trick, the contents of the bag of holding become inaccessible until the bag of holding is taken outside the rope trick. The only exception to this is when a bag of holding and a portable hole interact, forming a rift to the {rule/Astral Plane}, as noted in their descriptions."
+			"A number of spells and magic items utilize extradimensional spaces, such as {spell/rope trick}, a {magic-wondrous/bag of holding>_type_1}, a {magic-wondrous/handy haversack}, and a {magic-wondrous/portable hole}. These spells and magic items create a tiny pocket space that does not exist in any dimension. Such items do not function, however, inside another extradimensional space. If placed inside such a space, they cease to function until removed from the extradimensional space. For example, if a bag of holding is brought into a rope trick, the contents of the bag of holding become inaccessible until the bag of holding is taken outside the rope trick. The only exception to this is when a bag of holding and a portable hole interact, forming a rift to the {rule/Astral Plane}, as noted in their descriptions."
 		],
 		"parent_topics": [
 			"basics",
@@ -2047,6 +2047,7 @@
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"parent_topics": [
 			"basics",
 			"magic_items",
@@ -2181,6 +2182,7 @@
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"parent_topics": [
 			"basics",
 			"magic_items",
@@ -2315,6 +2317,7 @@
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"parent_topics": [
 			"basics",
 			"magic_items",
@@ -2918,7 +2921,7 @@
 			"",
 			"***Identifying Cursed Items:*** Cursed items are identified like any other magic item with one exception: unless the check made to identify the item exceeds the DC by 10 or more, the curse is not detected. If the check is not made by 10 or more, but still succeeds, all that is revealed is the magic item's original intent. If the item is known to be cursed, the nature of the curse can be determined using the standard DC to identify the item.",
 			"",
-			"***Removing Cursed Items:*** While some cursed items can be simply discarded, others force a compulsion upon the user to keep the item, no matter the costs. Others reappear even if discarded or are impossible to throw away. These items can only be discarded after the character or item is targeted by a remove curse or similar magic. The DC of the caster level check to undo the curse is equal to 10 + the item's caster level. If the spell is successful, the item can be discarded on the following round, but the curse reasserts itself if the item is used again."
+			"***Removing Cursed Items:*** While some cursed items can be simply discarded, others force a compulsion upon the user to keep the item, no matter the costs. Others reappear even if discarded or are impossible to throw away. These items can only be discarded after the character or item is targeted by a {spell/remove curse} or similar magic. The DC of the caster level check to undo the curse is equal to 10 + the item's caster level. If the spell is successful, the item can be discarded on the following round, but the curse reasserts itself if the item is used again."
 		],
 		"parent_topics": [
 			"basics",

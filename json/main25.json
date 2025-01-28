@@ -16,6 +16,7 @@
 		"title": "All Deities",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "faith",
 		"tables": [
 			{

@@ -8,6 +8,7 @@ export interface JsonDataProps {
 	jsx: ReactElement,
 	sources: SourceProp[],
 	subhierarchy?: HierarchyArray
+	noFinder?: boolean
 }
 
 interface MaybeCopyOf<T> extends Partial<JsonDataProps> {

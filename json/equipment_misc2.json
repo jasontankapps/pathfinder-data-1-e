@@ -2023,7 +2023,7 @@
 			"",
 			"Others lacking the will to harden themselves appropriately turn to alchemical methods to endure. This purplish paste is made from sea urchin toxins and numbs the user's ability to sense pain. Illegal in Nidal, the drug is used mostly by those attempting to emulate true belief in Zon-Kuthon or who anticipate great pain. A dose gives the user the Endure Pain feat for 1 hour, though it also has debilitating side effects and leaves telltale reddish-purple stains around the nostrils for up to one day, easily identified by those familiar with the symptoms. Followers of the Midnight Lord believe using heathensnuff is a sure sign that an individual lacks faith.",
 			"",
-			"Anyone who takes the drug must make a DC 10 saving throw or become addicted. A snuff addict can stave off withdrawal for 5 days by taking a dose; failure means he must save or take 1d4 Dex and 1d4 Wis damage. This save DC increases by +5 for every 5 days since the last time the addict had a dose. If the addict makes two of these saves in a row, he is no longer addicted. Remove disease can cure an addict if the caster's caster level check succeeds against a DC equal to the addict's current withdrawal DC. Greater restoration or heal cures the addiction without requiring a roll.",
+			"Anyone who takes the drug must make a DC 10 saving throw or become addicted. A snuff addict can stave off withdrawal for 5 days by taking a dose; failure means he must save or take 1d4 Dex and 1d4 Wis damage. This save DC increases by +5 for every 5 days since the last time the addict had a dose. If the addict makes two of these saves in a row, he is no longer addicted. {spell/Remove disease} can cure an addict if the caster's caster level check succeeds against a DC equal to the addict's current withdrawal DC. {spell/Greater restoration} or {spell/heal} cures the addiction without requiring a roll.",
 			"",
 			"**Type** poison, ingested; **Save** Fortitude DC 13  ",
 			"**Frequency** 1/hour for 4 hours  ",
@@ -5538,7 +5538,7 @@
 			"**Gather** DC 25; **Yield** 1 dose  ",
 			"**Terrain** any forests or plains  ",
 			"**Preparation** This flowering herb must be picked whole and boiled with water until the entire amount is reduced by half. The resulting mixture is then strained and poured into a shallow pan to evaporate. The resulting crust is scraped off as a powder.  ",
-			"**Use** Anyone wearing or carrying fresh moly gains a +4 resistance bonus on saving throws against spells and spell-like abilities. Moly remains fresh in this way for only 12 hours, regardless of magical attempts to preserve it. When processed into a powder with a successful DC 25 Craft (alchemy) check, moly can be sprinkled on a creature, object, or area (a standard action) to end a spell as if with dispel magic (caster level 6th).",
+			"**Use** Anyone wearing or carrying fresh moly gains a +4 resistance bonus on saving throws against spells and spell-like abilities. Moly remains fresh in this way for only 12 hours, regardless of magical attempts to preserve it. When processed into a powder with a successful DC 25 Craft (alchemy) check, moly can be sprinkled on a creature, object, or area (a standard action) to end a spell as if with {spell/dispel magic} (caster level 6th).",
 			"",
 			"Moly is a plant with flowers white as pure milk and roots black as night."
 		]

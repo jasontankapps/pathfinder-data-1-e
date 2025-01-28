@@ -1003,7 +1003,7 @@
 			"",
 			"**Emboldening Strike (Ex):** When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, she gains a +1 circumstance bonus on saving throws for every 2 sneak attack dice rolled (minimum +1) for 1 round.",
 			"",
-			"**Extinguishing Strike (Ex):** When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, any nonmagical light sources worn or carried by the creature (such as lit torches, lanterns, or sunrods) are automatically extinguished. Once per day, the rogue can use this ability to also attempt a dispel check (as per dispel magic) against any magical sources of light a target carries, using her rogue level as the caster level.",
+			"**Extinguishing Strike (Ex):** When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, any nonmagical light sources worn or carried by the creature (such as lit torches, lanterns, or sunrods) are automatically extinguished. Once per day, the rogue can use this ability to also attempt a dispel check (as per {spell/dispel magic}) against any magical sources of light a target carries, using her rogue level as the caster level.",
 			"",
 			"**Focusing Attack (Ex):** When a rogue selects this talent, she must choose the confused, shaken, or sickened condition. When the rogue has the selected condition and hits a creature with a melee attack that deals sneak attack damage, the rogue no longer has that condition. A rogue can take this talent up to three times. Each time, she must select a different condition that she is able to remove from herself with a melee attack that deals sneak attack damage. Even if the rogue has taken this talent multiple times, she can remove only a single effect on herself with each melee attack that deals sneak attack damage.",
 			"",
@@ -1546,6 +1546,7 @@
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"tables": [
 			{
 				"id": "simple kinetic blasts",

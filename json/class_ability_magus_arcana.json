@@ -141,14 +141,14 @@
 		"name": "Devoted Blade",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Devoted Blade (Su)** ({source/Ultimate Combat/ pg. 54}): Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add either the anarchic, axiomatic, holy, or unholy special ability to the list of available options. A magus may only add one of these abilities if it matches his own alignment. The magus must be at least 12th level before selecting this arcana."
+			"**Devoted Blade (Su)** ({source/Ultimate Combat/ pg. 54}): Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add either the {magic-enhancement/anarchic}, {magic-enhancement/axiomatic}, {magic-enhancement/holy}, or {magic-enhancement/unholy} special ability to the list of available options. A magus may only add one of these abilities if it matches his own alignment. The magus must be at least 12th level before selecting this arcana."
 		]
 	},
 	"dispelling_strike": {
 		"name": "Dispelling Strike",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Dispelling Strike (Su)** ({source/Ultimate Magic/ pg. 11}): The magus can spend 1 or more points from his arcane pool as a swift action to imbue his weapon with a special power. If the weapon strikes a creature within the next minute, that creature is the subject of a targeted dispel magic using the magus's level as the caster level, except that this effect cannot dispel a spell of a level higher than the number of arcane pool points expended to activate this ability (treat higher-level spells as if they do not exist and apply the dispel attempt to the remaining spells with the highest caster level). Once the strike is made, the power dissipates, even if the dispel attempt is unsuccessful. The magus must be at least 9th level before selecting"
+			"**Dispelling Strike (Su)** ({source/Ultimate Magic/ pg. 11}): The magus can spend 1 or more points from his arcane pool as a swift action to imbue his weapon with a special power. If the weapon strikes a creature within the next minute, that creature is the subject of a targeted {spell/dispel magic} using the magus's level as the caster level, except that this effect cannot dispel a spell of a level higher than the number of arcane pool points expended to activate this ability (treat higher-level spells as if they do not exist and apply the dispel attempt to the remaining spells with the highest caster level). Once the strike is made, the power dissipates, even if the dispel attempt is unsuccessful. The magus must be at least 9th level before selecting"
 		]
 	},
 	"disruptive": {

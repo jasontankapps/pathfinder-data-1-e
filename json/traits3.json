@@ -795,7 +795,7 @@
 			"",
 			"**Type:** Faith",
 			"",
-			"Once per day, you can attempt to suppress the effects of a curse on a single creature with a touch. This functions as a remove curse spell, treating your character level as your caster level. If you succeed at your caster level check against the curse, the curse's effects are negated for 1 minute. This trait does not allow a person burdened with a cursed item to remove or discard it. Use of this trait is a supernatural ability."
+			"Once per day, you can attempt to suppress the effects of a curse on a single creature with a touch. This functions as a {spell/remove curse} spell, treating your character level as your caster level. If you succeed at your caster level check against the curse, the curse's effects are negated for 1 minute. This trait does not allow a person burdened with a cursed item to remove or discard it. Use of this trait is a supernatural ability."
 		],
 		"subhierarchy": [[ "Faith Traits", "main/traits_faith" ]]
 	},

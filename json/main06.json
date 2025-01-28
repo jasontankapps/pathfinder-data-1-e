@@ -3,6 +3,7 @@
 		"title": "Belt/Headband Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -180,6 +181,7 @@
 		"title": "Body/Chest Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -339,6 +341,7 @@
 		"title": "Head Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -537,6 +540,7 @@
 		"title": "Neck Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -814,10 +818,8 @@
 					[ "{magic-wondrous/Agent's Clasp (Taldan)}", 60000, 0, [ 1, "No" ] ],
 					[ "{magic-wondrous/Torc of Truespeech}", 60000, 2, [ 1, "No" ] ],
 					[ "{magic-wondrous/Amulet of Mighty Fists (+4)}", 64000, 0, [ 1, "No" ] ],
-					[ "{magic-wondrous/Sanguine Talisman of Sheel Leroung}", 67500, 0, [ 1, "No" ] ],
 					[ "{magic-wondrous/Whispering Amulet}", 70000, 0, [ 1, "No" ] ],
 					[ "{magic-wondrous/Shrunken Head}", 90000, 1, [ 1, "No" ] ],
-					[ "{magic-wondrous/Phlegmatic Talisman}", 96000, 0, [ 1, "No" ] ],
 					[ "{magic-wondrous/Amulet of Mighty Fists (+5)}", 100000, 0, [ 1, "No" ] ],
 					[ "{magic-wondrous/Choker of the Rough Beast}", 100000, 1, [ 1, "No" ] ],
 					[ "{magic-wondrous/Amulet of the Planes}", 120000, 0, [ 1, "No" ] ],
@@ -839,6 +841,7 @@
 		"title": "Hands/Wrists Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1040,6 +1043,7 @@
 		"title": "Shoulders Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1218,6 +1222,7 @@
 		"title": "Eyes/Feet Slot Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1401,6 +1406,7 @@
 		"title": "A-F Slotless Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1886,6 +1892,7 @@
 		"title": "G-P Slotless Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -2372,6 +2379,7 @@
 		"title": "Q-Z Slotless Wondrous Items",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{

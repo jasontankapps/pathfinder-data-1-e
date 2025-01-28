@@ -156,7 +156,7 @@
 			"",
 			"Second, upon making a successful melee touch attack against a creature from another plane with a neutral component to its alignment, you can banish that creature back to its home plane. The creature's spell resistance applies to this attempt, and the creature can negate this effect with a successful Will save. If the creature's alignment is neutral with no other alignment components, the creature takes a -2 penalty on this saving throw. This use discharges and ends the spell.",
 			"",
-			"Third, with a touch, you can automatically dispel any one enchantment spell cast by a creature with a neutral component to its alignment. Spells that can't be dispelled by dispel magic also can't be dispelled by dispel balance. Saving throws and spell resistance do not apply to this effect. This use discharges and ends the spell."
+			"Third, with a touch, you can automatically dispel any one enchantment spell cast by a creature with a neutral component to its alignment. Spells that can't be dispelled by {spell/dispel magic} also can't be dispelled by dispel balance. Saving throws and spell resistance do not apply to this effect. This use discharges and ends the spell."
 		]
 	},
 	"dispel_chaos": {
@@ -198,7 +198,7 @@
 			"",
 			"Second, on making a successful melee touch attack against an evil creature from another plane, you can choose to drive that creature back to its home plane. The creature can negate the effects with a successful Will save (spell resistance applies). This use discharges and ends the spell.",
 			"",
-			"Third, with a touch you can automatically dispel any one enchantment spell cast by an evil creature or any one evil spell. Spells that can't be dispelled by dispel magic also can't be dispelled by dispel evil. Saving throws and spell resistance do not apply to this effect. This use discharges and ends the spell."
+			"Third, with a touch you can automatically dispel any one enchantment spell cast by an evil creature or any one evil spell. Spells that can't be dispelled by {spell/dispel magic} also can't be dispelled by dispel evil. Saving throws and spell resistance do not apply to this effect. This use discharges and ends the spell."
 		]
 	},
 	"dispel_good": {
@@ -386,7 +386,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You suppress magical sound-dampening effects within the area. Disrupt silence temporarily negates magical silence within its area, so that normal sounds can be heard within the overlapping areas of effect. Additionally, disrupt silence can automatically counter or dispel any magical silence effect of equal or lower level cast upon the same target, such as silence. If you cast disrupt silence on the target of a higher-level silence effect, it functions as dispel magic instead of its normal function."
+			"You suppress magical sound-dampening effects within the area. Disrupt silence temporarily negates magical silence within its area, so that normal sounds can be heard within the overlapping areas of effect. Additionally, disrupt silence can automatically counter or dispel any magical silence effect of equal or lower level cast upon the same target, such as silence. If you cast disrupt silence on the target of a higher-level silence effect, it functions as {spell/dispel magic} instead of its normal function."
 		]
 	},
 	"disrupt_undead": {
@@ -1174,7 +1174,7 @@
 			"",
 			"You create a comforting phantasm, which leeches onto the psyche of a nearby target. The creature can attempt a Will saving throw to prevent the phantasm from entering its psyche, but otherwise it takes up permanent residence in the creature's mind. The phantasm fills its target's dreams with happy visions, comforting manifestations of loved ones, and incredible vistas, feeding the target a perfect fantasy life it never wishes to leave. After the target's next night's sleep, the target must succeed at a Will saving throw to wake up; otherwise, it remains asleep for the rest of the day and following night. Each night it must succeed at a new saving throw or remain asleep for days or weeks on end as it slowly starves to death (presuming it normally needs to eat to survive). Loud noises, jostling, and even pain won't rouse the slumbering target. Dealing 1 point of damage per the target's Hit Die awakens the target, but it awakens fatigued and takes a -2 penalty on all saving throws against spells and effects that may put it back to sleep until the phantasm has been banished.",
 			"",
-			"The phantasm remains in its host's mind indefinitely, requiring a new Will saving throw to wake up every time the target rests, until it is removed via break enchantment, greater restoration, or miracle. Alternatively, the phantasm can be confronted in its host's {rule/mindscape>s}, where it manifests as a slothful duplicate of its host with identical abilities, skills, and attributes."
+			"The phantasm remains in its host's mind indefinitely, requiring a new Will saving throw to wake up every time the target rests, until it is removed via {spell/break enchantment}, {spell/greater restoration}, or {spell/miracle}. Alternatively, the phantasm can be confronted in its host's {rule/mindscape>s}, where it manifests as a slothful duplicate of its host with identical abilities, skills, and attributes."
 		]
 	},
 	"dream_feast": {
@@ -1346,10 +1346,11 @@
 	"drench": {
 		"name": "Drench",
 		"sources": [ "Paizo Blog - Ultimate Cantrips" ],
+		"subtitle": "Rare Cantrip",
 		"description": [
 			"## Drench",
 			"",
-			"{SOURCE Paizo Blog - Ultimate Cantrips/0}  ",
+			"{SOURCE Paizo Blog - Ultimate Cantrips}  ",
 			"**School** {spelldef/conjuration} ({spelldef/creation}) [{spelldef/water}]; **Level** arcanist 0, sorcerer 0, wizard 0  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
@@ -1833,7 +1834,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** see text",
 			"",
-			"You call into being around you an invisible barrier of force within which magic cannot persist. Within the area of the spell, effects are suppressed and creatures are affected as by antimagic field. An immobile sphere of impenetrable force surrounds the field, equivalent in all ways to a spherical wall of force, including its immunity to dispel magic and vulnerability to a sphere of annihilation or rod of cancellation. The barrier has hardness 40 and 20 hit points per caster level, and can be damaged by both mundane attacks and spells cast from outside the field. If the bubble of force is destroyed, the spell's duration ends.",
+			"You call into being around you an invisible barrier of force within which magic cannot persist. Within the area of the spell, effects are suppressed and creatures are affected as by antimagic field. An immobile sphere of impenetrable force surrounds the field, equivalent in all ways to a spherical wall of force, including its immunity to {spell/dispel magic} and vulnerability to a {magic-artifact/sphere of annihilation} or {magic-rod/rod of cancellation}. The barrier has hardness 40 and 20 hit points per caster level, and can be damaged by both mundane attacks and spells cast from outside the field. If the bubble of force is destroyed, the spell's duration ends.",
 			"",
 			"Spells cannot be cast within, into, or out of the enclosure, and teleportation effects that ignore a wall of force (such as dimension door or teleport) are thwarted by the enclosure's field of antimagic.",
 			"",
@@ -2251,7 +2252,7 @@
 			"",
 			"At your option, the abjuration can include a password, in which case creatures of alignments different from yours can avoid the damage by speaking the password as they enter the area. You must select this option (and the password) at the time of casting. Adding a password requires the burning of additional rare incenses worth at least 1,000 gp, plus 1,000 gp per 60-foot cube.",
 			"",
-			"Dispel magic does not dispel a forbiddance effect unless the dispeller's level is at least as high as your caster level.",
+			"{spell/Dispel magic} does not dispel a forbiddance effect unless the dispeller's level is at least as high as your caster level.",
 			"",
 			"You can't have multiple overlapping forbiddance effects. In such a case, the more recent effect stops at the boundary of the older effect."
 		]
@@ -2340,7 +2341,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You create a +1 longsword of pure force sized appropriately for you that you can wield or give to another creature like any other longsword. At 8th level, the sword functions as a +2 longsword. At 13th level, it functions as a +3 longsword. A force sword cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it.",
+			"You create a +1 longsword of pure force sized appropriately for you that you can wield or give to another creature like any other longsword. At 8th level, the sword functions as a +2 longsword. At 13th level, it functions as a +3 longsword. A force sword cannot be attacked or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it.",
 			"",
 			"If a creature you attack with the sword has spell resistance, you must attempt a caster level check (1d20 + your caster level) against that spell resistance the first time the force sword strikes it. If you fail the check, the spell is dispelled. If you succeed, the weapon has its normal full effect on that creature for the duration of the spell."
 		]
@@ -2364,7 +2365,7 @@
 			"",
 			"Creatures within the area are caught and contained unless they are too big to fit inside, in which case the spell automatically fails. Teleportation and other forms of astral travel provide a means of escape, but the force walls or bars extend into the Ethereal Plane, blocking ethereal travel.",
 			"",
-			"Like a wall of force, a forcecage resists dispel magic, although a mage's disjunction still functions. The walls of a forcecage can be damaged by spells as normal, except for disintegrate, which automatically destroys it. The walls of a forcecage can be damaged by weapons and supernatural abilities, but they have a Hardness of 30 and a number of hit points equal to 20 per caster level. Contact with a sphere of annihilation or rod of cancellation instantly destroys a forcecage.",
+			"Like a {spell/wall of force}, a forcecage resists {spell/dispel magic}, although a {spell/mage's disjunction} still functions. The walls of a forcecage can be damaged by spells as normal, except for {spell/disintegrate}, which automatically destroys it. The walls of a forcecage can be damaged by weapons and supernatural abilities, but they have a Hardness of 30 and a number of hit points equal to 20 per caster level. Contact with a {magic-artifact/sphere of annihilation} or {magic-rod/rod of cancellation} instantly destroys a forcecage.",
 			"",
 			"*Barred Cage:* This version of the spell produces a 20-foot cube made of bands of force (similar to a wall of force spell) for bars. The bands are a half-inch wide, with half-inch gaps between them. Any creature capable of passing through such a small space can escape; others are confined within the barred cage. You can't attack a creature in a barred cage with a weapon unless the weapon can fit between the gaps. Even against such weapons (including arrows and similar ranged attacks), a creature in the barred cage has cover. All spells and breath weapons can pass through the gaps in the bars.",
 			"",

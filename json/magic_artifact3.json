@@ -111,7 +111,7 @@
 			"",
 			"In addition, Agrimmosh has other powers that are currently dormant. When the Hammer of Unmaking is struck against Minderhal's Forge in the Cathedral of Minderhal (see Pathfinder Adventure Path #93: Forge of the Giant God), these powers are reawakened, and Agrimmosh gains the following abilities.",
 			"",
-			"Whenever the wielder of Agrimmosh successfully strikes a creature with the hammer, as an immediate action he can attempt a targeted dispel check against the struck creature, as dispel magic, to end a single ongoing transmutation effect that alters the target's size. Other ongoing spells and effects are unaffected. The wielder uses the hammer's caster level as his own when attempting such a dispel check.",
+			"Whenever the wielder of Agrimmosh successfully strikes a creature with the hammer, as an immediate action he can attempt a targeted dispel check against the struck creature, as {spell/dispel magic}, to end a single ongoing transmutation effect that alters the target's size. Other ongoing spells and effects are unaffected. The wielder uses the hammer's caster level as his own when attempting such a dispel check.",
 			"",
 			"Agrimmosh also gains 3 charges, which renew at the beginning of each day. The wielder can expend the listed number of charges to activate one of the following spell-like abilities as a full-round action; expending an extra charge to activate the spell-like ability reduces the casting time to a swift action instead. Regardless, the wielder of Agrimmosh can activate only one of the weapon's spell-like abilities per round. ",
 			"",
@@ -312,7 +312,7 @@
 			"",
 			"### Destruction",
 			"",
-			"The power of the Vernal Key is intrinsically tied to the Elemental Plane of Air, where it was created. It can only be destroyed by returning it to that plane and then using a rod of cancellation on it."
+			"The power of the Vernal Key is intrinsically tied to the Elemental Plane of Air, where it was created. It can only be destroyed by returning it to that plane and then using a {magic-rod/rod of cancellation} on it."
 		]
 	},
 	"vicious_link": {
@@ -1273,7 +1273,7 @@
 			"",
 			"The Codex's hunger passes to the bearer as well. Although he does not notice this, the bearer begins eating far more than before and rapidly puts on weight, his physical form beginning to emulate Zutha's in life.",
 			"",
-			"**The Bone Grimoire:** This portion of the tome bears the leathery flesh front-cover, twisted rib binding, and a hundred pages of blood-scripted verse and grisly diagrams. Anyone who reads the entire text of strange runic code (requiring 1 week of uninterrupted study and a DC 25 Decipher Script check) must make a DC 20 Will save, or gain a +2 inherent bonus to Intelligence and begin to take on traits of the undead (see below). Regardless of this save's result, the bearer acquires a deep understanding of necromancy, gaining a permanent +4 insight bonus on all Knowledge (arcana) and Spellcraft checks involving this school of magic. In addition, this section includes a flesh golem manual identical to the one in the Kardosian Codex.",
+			"**The Bone Grimoire:** This portion of the tome bears the leathery flesh front-cover, twisted rib binding, and a hundred pages of blood-scripted verse and grisly diagrams. Anyone who reads the entire text of strange runic code (requiring 1 week of uninterrupted study and a DC 25 Linguistics check) must make a DC 20 Will save, or gain a +2 inherent bonus to Intelligence and begin to take on traits of the undead (see below). Regardless of this save's result, the bearer acquires a deep understanding of necromancy, gaining a permanent +4 insight bonus on all Knowledge (arcana) and Spellcraft checks involving this school of magic. In addition, this section includes a flesh golem manual identical to the one in the Kardosian Codex.",
 			"",
 			"After reading the Grimoire, the bearer's flesh takes on a pale cast and, if he failed his Will save, his life force is slowly replaced by necromantic unlife. After reading the entire text of the Bone Grimoire, the bearer is no longer healed by positive energy, but rather harmed by it. Negative energy now heals him. If the bearer channels energy (if he is a cleric for example) he now channels negative energy. Only a wish or miracle reverses this condition.",
 			"",
@@ -1341,7 +1341,7 @@
 			"",
 			"Because the jewel of everlasting gold contains a portion of Tar-Baphon's malign will, any wealth created with its touch of gold ability or summoned with its summon wealth ability cannot be removed from Xin-Grafar except by Tar-Baphon himself. Like the jewel itself, any such treasure taken outside of Xin-Grafar disappears and reappears scattered throughout the city.",
 			"",
-			"In addition, anyone touching the jewel is contacted by the fragmentary intelligence inside the gem and hears disturbing whispers in her mind, urging the character to claim the jewel and swear fealty to Tar-Baphon. From that point on, the influence of the jewel is never far from that character's mind. How this influences a PC is largely up to the GM. Most good-aligned PCs will feel the influence as a nagging doubt, a subtle desire to return to the treasure city and take the jewel in hand again. Chaotic- or evil-aligned PCs may feel much stronger desires - sometimes overwhelming urges to return to the jewel no matter the consequences. These whispering influences can only be completely dispelled by remove curse or similar magic (requiring a DC 30 caster level check).",
+			"In addition, anyone touching the jewel is contacted by the fragmentary intelligence inside the gem and hears disturbing whispers in her mind, urging the character to claim the jewel and swear fealty to Tar-Baphon. From that point on, the influence of the jewel is never far from that character's mind. How this influences a PC is largely up to the GM. Most good-aligned PCs will feel the influence as a nagging doubt, a subtle desire to return to the treasure city and take the jewel in hand again. Chaotic- or evil-aligned PCs may feel much stronger desires - sometimes overwhelming urges to return to the jewel no matter the consequences. These whispering influences can only be completely dispelled by {spell/remove curse} or similar magic (requiring a DC 30 caster level check).",
 			"",
 			"### Destruction",
 			"",

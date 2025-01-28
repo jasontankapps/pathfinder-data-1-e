@@ -3,6 +3,7 @@
 		"title": "All Warpriest Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1017,6 +1018,7 @@
 		"title": "All Bard Spells",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -1920,6 +1922,7 @@
 		"sources": [ "Occult Adventures" ],
 		"searchgroup": "spell",
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"tables": [
 			{
 				"id": "occult rituals table",
@@ -1932,7 +1935,7 @@
 					[ "{spell/Analytical Congress}", 4, "transmutation", "Grant a group an increased capacity to research and learn" ],
 					[ "{spell/Avoidance Ward}", 4, "enchantment", "Prevents creatures of a specific type or subtype from interacting with a specific door." ],
 					[ "{spell/Chadao Benediction}", 4, "transmutation", "Use a formal tea ceremony to gain a +4 moral bonus against fear" ],
-					[ "{spell/Ensnaring Circle}", 4, "abjuration", "Create a [magic circle](spell/magic_circle_against_evil), as the spell." ],
+					[ "{spell/Ensnaring Circle}", 4, "abjuration", "Create a {spell/magic circle>_against_evil}, as the spell." ],
 					[ "{spell/Enter the Inner Circle}", 4, "divination", "A formal ritual that inducts a new member of an organization" ],
 					[ "{spell/Exorcise Haunt}", 4, "necromancy", "Destroy a haunt through a psychic duel" ],
 					[ "{spell/Festival of Flowers}", 4, "divination", "Casters gain a +1 luck bonus to saving throws for 3 months" ],

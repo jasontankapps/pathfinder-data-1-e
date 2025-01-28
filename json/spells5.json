@@ -179,7 +179,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"An immobile, faintly shimmering magical sphere surrounds you and excludes all spell effects of 3rd level or lower. The area or effect of any such spells does not include the area of the lesser globe of invulnerability. Such spells fail to affect any target located within the globe. Excluded effects include spell-like abilities and spells or spell-like effects from items. Any type of spell, however, can be cast through or out of the magical globe. Spells of 4th level and higher are not affected by the globe, nor are spells already in effect when the globe is cast. The globe can be brought down by a dispel magic spell. You can leave and return to the globe without penalty.",
+			"An immobile, faintly shimmering magical sphere surrounds you and excludes all spell effects of 3rd level or lower. The area or effect of any such spells does not include the area of the lesser globe of invulnerability. Such spells fail to affect any target located within the globe. Excluded effects include spell-like abilities and spells or spell-like effects from items. Any type of spell, however, can be cast through or out of the magical globe. Spells of 4th level and higher are not affected by the globe, nor are spells already in effect when the globe is cast. The globe can be brought down by a  spell. You can leave and return to the globe without penalty.",
 			"",
 			"Note that spell effects are not disrupted unless their effects enter the globe, and even then they are merely suppressed, not dispelled.",
 			"",
@@ -739,7 +739,7 @@
 			"",
 			"If the damage to any single ability score equals or exceeds that score, the target fully transforms into a normal small tree or shrub. This final transformation is instantaneous, ending green caress. The target remains alive but is considered the same as a regular tree, shrub, or other vegetation. Any ability damage from other sources, like poison or disease, also applies toward transforming the creature. If the target retains at least 1 point in all of its physical ability scores at the end of 7 days, the final transformation doesn't occur and the spell ends. Any changes in appearance gradually reverse themselves as the ability damage heals.",
 			"",
-			"Break enchantment, dispel magic, and remove curse can end the spell before the duration expires, but the spell is contagious. If a caster level check attempt to remove green caress fails by 5 or more, the creature who attempted to remove the effect must attempt a Fortitude saving throw as if it had just been targeted with the spell. If the spell's target attempts to remove the effect from itself and fails, it causes the spell to behave as if affected by plant growth (as described below).",
+			"{spell/Break enchantment}, {spell/dispel magic}, and {spell/remove curse} can end the spell before the duration expires, but the spell is contagious. If a caster level check attempt to remove green caress fails by 5 or more, the creature who attempted to remove the effect must attempt a Fortitude saving throw as if it had just been targeted with the spell. If the spell's target attempts to remove the effect from itself and fails, it causes the spell to behave as if affected by plant growth (as described below).",
 			"",
 			"Polymorph any object ends the spell and totally restores the target without any risk to the caster, even after the target has been finally transformed, as do limited wish, miracle, and wish (treat polymorph any object as if it had an instantaneous duration if it is used in this way). If the target is in the area of a plant growth spell as it is cast, it must attempt a Fortitude save at green caress's DC or immediately take another 1d4 points of ability damage to each physical ability score; this stacks with multiple castings of plant growth. If the target is in the area of diminish plants as it is cast, it ignores the next ability damage from green caress to one of its three physical ability scores (chosen randomly); this doesn't stack with multiple castings of diminish plants."
 		]
@@ -965,7 +965,7 @@
 			"4. A gust of wind in one corridor or room. *Saving Throw:* Fortitude negates. *Spell Resistance:* yes.",
 			"5. A suggestion in one place. You select an area of up to 5 feet square, and any creature who enters or passes through the area receives the suggestion mentally. *Saving Throw:* Will negates. *Spell Resistance:* yes.",
 			"",
-			"The whole warded area radiates strong magic of the abjuration school. A dispel magic cast on a specific effect, if successful, removes only that effect. A successful mage's disjunction destroys the entire guards and wards effect.",
+			"The whole warded area radiates strong magic of the abjuration school. A {spell/dispel magic} cast on a specific effect, if successful, removes only that effect. A successful mage's disjunction destroys the entire guards and wards effect.",
 			"",
 			"### Mythic Guards and Wards",
 			"",
@@ -975,11 +975,11 @@
 			"",
 			"*Augmented (3rd):* You can place the following effects anywhere within the warded area by expending one additional use of mythic power per effect.",
 			"",
-			"6. Black tentacles in one place, returning after 10 minutes if dispelled.",
-			"7. Dispel magic in one place. You select an area up to 5 feet square, and any creature that enters or passes through the area is targeted by the spell. *Saving Throw:* Will negates. *Spell Resistance:* yes.",
-			"8. Entangle in four places, returning in 10 minutes if dispelled.",
-			"9. Explosive runes in three places, returning in 10 minutes if activated or dispelled.",
-			"10. Slow in three places, returning in 10 minutes if dispelled."
+			"6. {spell/Black tentacles} in one place, returning after 10 minutes if dispelled.",
+			"7. {spell/Dispel magic} in one place. You select an area up to 5 feet square, and any creature that enters or passes through the area is targeted by the spell. *Saving Throw:* Will negates. *Spell Resistance:* yes.",
+			"8. {spell/Entangle} in four places, returning in 10 minutes if dispelled.",
+			"9. {spell/Explosive runes} in three places, returning in 10 minutes if activated or dispelled.",
+			"10. {spell/Slow} in three places, returning in 10 minutes if dispelled."
 		]
 	},
 	"guidance": {
@@ -2274,7 +2274,7 @@
 			"**Duration** 1 hour plus 12 hours; see text  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You bring forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of the feast is cured of all sickness and nausea, receives the benefits of both neutralize poison and remove disease, and gains 1d8 temporary hit points + 1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is part of the feast. The ambrosial food grants each creature that partakes a +1 morale bonus on attack rolls and Will saves and a +4 morale bonus on saving throws against poison and fear effects for 12 hours.",
+			"You bring forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of the feast is cured of all sickness and nausea, receives the benefits of both {spell/neutralize poison} and {spell/remove disease}, and gains 1d8 temporary hit points + 1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is part of the feast. The ambrosial food grants each creature that partakes a +1 morale bonus on attack rolls and Will saves and a +4 morale bonus on saving throws against poison and fear effects for 12 hours.",
 			"",
 			"If the feast is interrupted for any reason, the spell is ruined and all effects of the spell are negated."
 		]
@@ -2994,7 +2994,7 @@
 			"**Duration** 1 min./level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A knock spell or a successful dispel magic spell can negate a hold portal spell.",
+			"This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A {spell/knock} spell or a successful {spell/dispel magic} spell can negate a hold portal spell.",
 			"",
 			"Add 5 to the normal DC for forcing open a portal affected by this spell.",
 			"",
@@ -3780,7 +3780,7 @@
 			"",
 			"The water is boiling hot or freezing cold, dealing 1d6 points of fire or cold damage per 2 caster levels. Add your tier to your CMB for the spell and on the Strength check to destroy immovable targets.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, the spell can extinguish magical fires as if using a targeted dispel magic. Freezing cold water hardens into ice on the ground, lasting as long as prevailing conditions allow. Boiling hot water turns into steam, creating an area of concealing mist (equivalent to obscuring mist) that fills the affected squares and all squares adjacent to the line of the spell."
+			"*Augmented (3rd):* If you expend two uses of mythic power, the spell can extinguish magical fires as if using a targeted {spell/dispel magic}. Freezing cold water hardens into ice on the ground, lasting as long as prevailing conditions allow. Boiling hot water turns into steam, creating an area of concealing mist (equivalent to obscuring mist) that fills the affected squares and all squares adjacent to the line of the spell."
 		]
 	},
 	"hydrophobia": {

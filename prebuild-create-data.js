@@ -394,18 +394,19 @@ const convertMainDescription = (desc, prefix, tables) => {
 };
 
 const createItem = (info, prop) => {
-	const { title, description, sources, parent_topics, siblings, subtopics, subhierarchy } = info;
+	const { title, description, sources, parent_topics, siblings, subtopics, subhierarchy, noFinder } = info;
 	let output = `const _${prop} = {title: "${title}", sources: ${sources ? JSON.stringify(sources) : "[]"}`;
 	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
 	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
 	subhierarchy && (output = output + `, subhierarchy: ${JSON.stringify(subhierarchy)}`);
+	noFinder && (output = output + ", noFinder: true");
 	output = output + `, jsx: ${description}};`;
 	return output;
 };
 
 const createCopyItem = (info, prop, copy) => {
-	const { title, sources, parent_topics, siblings, subtopics, subhierarchy } = info;
+	const { title, sources, parent_topics, siblings, subtopics, subhierarchy, noFinder } = info;
 	let output = `const _${prop} = {..._${copy}`;
 	title && (output = output + `, title: "${title}"`);
 	sources && (output = output + `, sources: ${JSON.stringify(sources)}`);
@@ -413,6 +414,7 @@ const createCopyItem = (info, prop, copy) => {
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
 	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
 	subhierarchy && (output = output + `, subhierarchy: ${JSON.stringify(subhierarchy)}`);
+	noFinder && (output = output + ", noFinder: true");
 	return output + "};";
 };
 
@@ -446,7 +448,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 		const {
 			name: n, title: t, description: d, copyof,
 			sources, tables, previous, parent_topics,
-			subtopics, siblings, subhierarchy
+			subtopics, siblings, subhierarchy, noFinder
 		} = value;
 		// Convert entities in tables
 		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
@@ -488,6 +490,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 		}
 		const [convertedDescription, newflags] = converted;
 		convertedDescription !== undefined && (info.description = convertedDescription);
+		info.noFinder = noFinder;
 		Object.keys(newflags).forEach((flag) => {flags[flag] = true});
 		if(copyof) {
 			copies.push([prop, copyof, {...info}]);

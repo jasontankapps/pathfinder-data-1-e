@@ -3,6 +3,7 @@
 		"title": "Humanoids",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -348,6 +349,7 @@
 		"title": "Giants",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -474,6 +476,7 @@
 		"title": "Goblinoids",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -548,6 +551,7 @@
 		"title": "Shapechanger Monsters",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -699,6 +703,7 @@
 		"title": "Swarms",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{

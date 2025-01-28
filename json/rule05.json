@@ -3243,7 +3243,7 @@
 			"",
 			"***Extraordinary Abilities (Ex):*** Extraordinary abilities are nonmagical. They are, however, not something that just anyone can do or even learn to do without extensive training. Effects or areas that suppress or negate magic have no effect on extraordinary abilities.",
 			"",
-			"***Spell-Like Abilities (Sp):*** Spell-like abilities, as the name implies, are magical abilities that are very much like spells. Spell-like abilities are subject to spell resistance and dispel magic. They do not function in areas where magic is suppressed or negated (such as an antimagic field). Spell-like abilities can be dispelled, but they cannot be counterspelled or used to counterspell.",
+			"***Spell-Like Abilities (Sp):*** Spell-like abilities, as the name implies, are magical abilities that are very much like spells. Spell-like abilities are subject to spell resistance and {spell/dispel magic}. They do not function in areas where magic is suppressed or negated (such as an {spell/antimagic field}). Spell-like abilities can be dispelled, but they cannot be counterspelled or used to counterspell.",
 			"",
 			"***Supernatural Abilities (Su):*** Supernatural abilities are magical but not spell-like. Supernatural abilities are not subject to spell resistance and do not function in areas where magic is suppressed or negated (such as an antimagic field). A supernatural ability's effect cannot be dispelled and is not subject to counterspells. See Table 16-1 for a summary of the types of special abilities.",
 			"",
@@ -3256,7 +3256,7 @@
 			"| Antimagic field | No | Yes | Yes |",
 			"| Attack of opportunity | No | Yes | No |",
 			"",
-			"***Dispel:*** Can dispel magic and similar spells dispel the effects of abilities of that type?",
+			"***Dispel:*** Can {spell/dispel magic} and similar spells dispel the effects of abilities of that type?",
 			"",
 			"***Spell Resistance:*** Does spell resistance protect a creature from these abilities?",
 			"",
@@ -3409,7 +3409,7 @@
 			"",
 			"***Type:*** This is the type of the affliction, such as curse, disease, or poison. It might also include the means by which it is contracted, such as contact, ingestion, inhalation, injury, spell, or trap.",
 			"",
-			"***Save:*** This gives the type of save necessary to avoid contracting the affliction, as well as the DC of that save. Unless otherwise noted, this is also the save to avoid the affliction's effects once it is contracted, as well as the DC of any caster level checks needed to end the affliction through magic, such as remove curse or neutralize poison.",
+			"***Save:*** This gives the type of save necessary to avoid contracting the affliction, as well as the DC of that save. Unless otherwise noted, this is also the save to avoid the affliction's effects once it is contracted, as well as the DC of any caster level checks needed to end the affliction through magic, such as {spell/remove curse} or {spell/neutralize poison}.",
 			"",
 			"***Onset:*** Some afflictions have a variable amount of time before they set in. Creatures that come in contact with an affliction with an onset time must make a saving throw immediately. Success means that the affliction is avoided and no further saving throws must be made. Failure means that the creature has contracted the affliction and must begin making additional saves after the onset period has elapsed. The affliction's effect does not occur until after the onset period has elapsed and then only if further saving throws are failed.",
 			"",
@@ -3419,7 +3419,7 @@
 			"",
 			"***Effect:*** This is the effect that the character suffers each time if he fails his saving throw against the affliction. Most afflictions cause [ability damage](rule/ability_score_damage_penalty_and_drain) or hit point damage. These effects are cumulative, but they can be cured normally. Other afflictions cause the creature to take penalties or other effects. These effects are sometimes cumulative, with the rest only affecting the creature if it failed its most recent save. Some afflictions have different effects after the first save is failed. These afflictions have an initial effect, which occurs when the first save is failed, and a secondary effect, when additional saves are failed, as noted in the text. Hit point and ability score damage caused by an affliction cannot be healed naturally while the affliction persists.",
 			"",
-			"***Cure:*** This tells you how the affliction is cured. Commonly, this is a number of saving throws that must be made consecutively. Even if the affliction has a limited frequency, it might be cured prematurely if enough saving throws are made. Hit point damage and ability score damage is not removed when an affliction is cured. Such damage must be healed normally. Afflictions without a cure entry can only be cured through powerful spells, such as neutralize poison and remove curse. No matter how many saving throws are made, these afflictions continue to affect the target.",
+			"***Cure:*** This tells you how the affliction is cured. Commonly, this is a number of saving throws that must be made consecutively. Even if the affliction has a limited frequency, it might be cured prematurely if enough saving throws are made. Hit point damage and ability score damage is not removed when an affliction is cured. Such damage must be healed normally. Afflictions without a cure entry can only be cured through powerful spells, such as {spell/neutralize poison} and {spell/remove curse}. No matter how many saving throws are made, these afflictions continue to affect the target.",
 			"",
 			"***Example:*** Valeros has been exposed to the {disease/red ache} disease. He failed a DC 15 Fortitude save to avoid contracting it, so after the onset period of 1d3 days has passed, he must make another DC 15 Fortitude save to avoid taking 1d6 points of Strength damage. From this point onward, he must make a DC 15 Fortitude save each day (according to the disease's frequency) to avoid further Strength damage. If, on two consecutive days, he makes his Fortitude saves, he is cured of the disease and any damage it caused begins to heal as normal."
 		],
@@ -3459,10 +3459,11 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/556}",
 			"",
-			"Careless rogues plundering a tomb, drunken heroes insulting a powerful wizard, and foolhardy adventurers who pick up ancient swords all might suffer from curses. These magic afflictions can have a wide variety of effects, from a simple penalty to certain checks to transforming the victim into a toad. Some even cause the afflicted to slowly rot away, leaving nothing behind but dust. Unlike other afflictions, most curses cannot be cured through a number of successful saving throws. Curses can be cured through magic, however, usually via spells such as remove curse and break enchantment. While some curses cause a progressive deterioration, others inflict a static penalty from the moment they are contracted, neither fading over time nor growing worse. In addition, there are a number of magic items that act like curses.",
+			"Careless rogues plundering a tomb, drunken heroes insulting a powerful wizard, and foolhardy adventurers who pick up ancient swords all might suffer from curses. These magic afflictions can have a wide variety of effects, from a simple penalty to certain checks to transforming the victim into a toad. Some even cause the afflicted to slowly rot away, leaving nothing behind but dust. Unlike other afflictions, most curses cannot be cured through a number of successful saving throws. Curses can be cured through magic, however, usually via spells such as {spell/remove curse} and {spell/break enchantment}. While some curses cause a progressive deterioration, others inflict a static penalty from the moment they are contracted, neither fading over time nor growing worse. In addition, there are a number of magic items that act like curses.",
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"parent_topics": [
 			"combat",
 			"special_abilities_2",
@@ -3516,10 +3517,11 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/557}",
 			"",
-			"From a widespread plague to the bite of a dire rat, disease is a serious threat to common folk and adventurers alike. Diseases rarely have a limited frequency, but most have a lengthy onset time. This onset time can also be variable. Most diseases can be cured by a number of consecutive saving throws or by spells such as remove disease.",
+			"From a widespread plague to the bite of a dire rat, disease is a serious threat to common folk and adventurers alike. Diseases rarely have a limited frequency, but most have a lengthy onset time. This onset time can also be variable. Most diseases can be cured by a number of consecutive saving throws or by spells such as {spell/remove disease}.",
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"parent_topics": [
 			"combat",
 			"special_abilities_2",
@@ -3604,6 +3606,7 @@
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"parent_topics": [
 			"combat",
 			"special_abilities_2",

@@ -3,6 +3,7 @@
 		"title": "Oozes",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -112,6 +113,7 @@
 		"title": "Good Monsters",
 		"sources": [],
 		"searchgroup": "monster",
+		"noFinder": true,
 		"description": [
 			"# Good Monsters",
 			[ "{table0}" ]
@@ -241,6 +243,7 @@
 		"title": "Evil Monsters",
 		"sources": [],
 		"searchgroup": "monster",
+		"noFinder": true,
 		"description": [
 			"# Evil Monsters",
 			[ "{table0}" ]
@@ -527,6 +530,7 @@
 		"title": "Lawful Monsters",
 		"sources": [],
 		"searchgroup": "monster",
+		"noFinder": true,
 		"description": [
 			"# Lawful Monsters",
 			[ "{table0}" ]
@@ -701,6 +705,7 @@
 		"title": "Chaotic Monsters",
 		"sources": [],
 		"searchgroup": "monster",
+		"noFinder": true,
 		"description": [
 			"# Chaotic Monsters",
 			[ "{table0}" ]
@@ -876,6 +881,7 @@
 		"title": "Unique Monsters",
 		"sources": [],
 		"searchgroup": "monster",
+		"noFinder": true,
 		"description": [
 			"# Names and Descriptions",
 			[ "{table0}" ],
@@ -1244,6 +1250,7 @@
 		"title": "Mythic Monsters",
 		"sources": [],
 		"searchgroup": "monster",
+		"noFinder": true,
 		"description": [
 			"# Names and Descriptions",
 			[ "{table0}" ],

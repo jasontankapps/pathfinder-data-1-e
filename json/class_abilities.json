@@ -128,7 +128,7 @@
 			"",
 			"&Dagger;**Deadly Sneak (Ex):** When a rogue with this talent uses the powerful sneak talent, she rerolls all sneak attack dice that resulted in 1s or 2s. She can reroll multiple dice, but she can't reroll any individual die more than once per attack. A rogue must have the powerful sneak talent before selecting this talent.",
 			"",
-			"**Dispelling Attack (Su):** Opponents that are dealt sneak attack damage by a rogue with this ability are affected by a targeted dispel magic, targeting the lowest-level spell effect active on the target. The caster level for this ability is equal to the rogue's level. A rogue must have the major magic rogue talent before choosing dispelling attack.",
+			"**Dispelling Attack (Su):** Opponents that are dealt sneak attack damage by a rogue with this ability are affected by a targeted {spell/dispel magic}, targeting the lowest-level spell effect active on the target. The caster level for this ability is equal to the rogue's level. A rogue must have the major magic rogue talent before choosing dispelling attack.",
 			"",
 			"&Dagger;**Double Debilitation (Ex):** Whenever the rogue inflicts a penalty against a target using the debilitating injury class feature, she can select two penalties to inflict. The target can never be subject to more than two penalties in this way at one time. If any additional penalties are inflicted, any previous penalties immediately end. Any effect that heals damage to the target negates both of the penalties.",
 			"",
@@ -1383,6 +1383,7 @@
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"tables": [
 			{
 				"id": "composite kinetic blasts",
@@ -1559,6 +1560,7 @@
 			"",
 			"{table0}"
 		],
+		"noFinder": true,
 		"tables": [
 			{
 				"id": "psychic disciplines",

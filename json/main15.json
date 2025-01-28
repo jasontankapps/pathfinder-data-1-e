@@ -3,6 +3,7 @@
 		"title": "Monsters CR 0 - 1/2",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -269,6 +270,7 @@
 		"title": "Monsters CR 1 and 2",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -675,6 +677,7 @@
 		"title": "Monsters CR 3 and 4",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{

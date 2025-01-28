@@ -33,7 +33,7 @@
 			"",
 			"*Acid Splash (M)*: The spell lasts 1 round longer than normal.",
 			"",
-			"*Dispel Magic (M)*: Using acid as a material component while attempting to dispel or counterspell a spell or effect with the earth subtype gives you a +2 bonus on your dispel check. This bonus applies whether you are using dispel magic, greater dispel magic, or some other spell that you can use for counterspelling (for example, if you have the {feat/Improved Counterspell} feat).",
+			"*Dispel Magic (M)*: Using acid as a material component while attempting to dispel or counterspell a spell or effect with the earth subtype gives you a +2 bonus on your dispel check. This bonus applies whether you are using {spell/dispel magic}, {spell/greater dispel magic}, or some other spell that you can use for counterspelling (for example, if you have the {feat/Improved Counterspell} feat).",
 			"",
 			"*Grease (M)*: The grease is acidic and deals 1 point of acid damage per round to any creature in the area or holding the greased object.",
 			"",

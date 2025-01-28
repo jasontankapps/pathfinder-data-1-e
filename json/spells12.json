@@ -195,7 +195,7 @@
 			"**Duration** instantaneous and 1 round/level; see text  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"With a melee touch attack you can dispel an illusion or return a creature to its natural form. This functions as dispel magic directed at the effect in question, except you receive a +2 enhancement bonus on your dispel check and you can only dispel illusions or changes in form created by supernatural effects or spells. If multiple effects are changing the creature's appearance, you can dispel one such effect for every four caster levels you possess, starting with the highest caster level spells and proceeding to spells with lower caster levels. The caster level for supernatural abilities such as change shape is equal to the target creature's Hit Dice. A creature returned to its natural form by banish seeming is prevented from changing its form again for a number of rounds equal to your caster level.",
+			"With a melee touch attack you can dispel an illusion or return a creature to its natural form. This functions as {spell/dispel magic} directed at the effect in question, except you receive a +2 enhancement bonus on your dispel check and you can only dispel illusions or changes in form created by supernatural effects or spells. If multiple effects are changing the creature's appearance, you can dispel one such effect for every four caster levels you possess, starting with the highest caster level spells and proceeding to spells with lower caster levels. The caster level for supernatural abilities such as change shape is equal to the target creature's Hit Dice. A creature returned to its natural form by banish seeming is prevented from changing its form again for a number of rounds equal to your caster level.",
 			"",
 			"Banish seeming has no effect on nonmagical means of changing appearance, such as that provided by a disguise or extraordinary ability."
 		]
@@ -489,7 +489,7 @@
 			"**Duration** 24 hours or until discharged, then instantaneous  ",
 			"**Saving Throw** Will negates (object); see text; **Spell Resistance** yes",
 			"",
-			"You place an invisible ward upon an object that is triggered the first time a creature tries to move the object from its current location. The next creature to touch the object is cursed to become obvious to everyone around it. The creature must succeed at a Will save or be surrounded in an aura of twinkling red light that functions as faerie fire (spell resistance applies). The curse bestowed by this spell cannot be dispelled, but a break enchantment, limited wish, miracle, remove curse, or wish spell can remove it."
+			"You place an invisible ward upon an object that is triggered the first time a creature tries to move the object from its current location. The next creature to touch the object is cursed to become obvious to everyone around it. The creature must succeed at a Will save or be surrounded in an aura of twinkling red light that functions as faerie fire (spell resistance applies). The curse bestowed by this spell cannot be dispelled, but a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell can remove it."
 		]
 	},
 	"beacon_of_luck": {
@@ -955,7 +955,7 @@
 			"",
 			"If a specific affliction is bestowed, the save DC of the spell replaces the usual save DC of the affliction. You can also invent your own curse, but it should be no more powerful than those described above.",
 			"",
-			"The curse bestowed by this spell cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, or wish spell. It cannot be removed with remove curse or suppressed with {spell/abeyance}. The DC to remove the curse with break enchantment increases by 5.",
+			"The curse bestowed by this spell cannot be dispelled, but it can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, or {spell/wish} spell. It cannot be removed with {spell/remove curse} or suppressed with {spell/abeyance}. The DC to remove the curse with break enchantment increases by 5.",
 			"",
 			"### Conditional Curse",
 			"",
@@ -968,7 +968,7 @@
 			"**Duration** permanent (see text)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions as bestow curse, except that you must state a condition under which the curse is broken, ending its effect. An intelligent target, even one of animal intelligence, innately understands this condition even if it doesn't understand your language. The condition must be possible for the target to bring about within a year and a day without ensuring its own death and stated in 25 or fewer words. The curse is more difficult to remove via magic. The DC to remove conditional curse with break enchantment or remove curse increases by 5.",
+			"This spell functions as bestow curse, except that you must state a condition under which the curse is broken, ending its effect. An intelligent target, even one of animal intelligence, innately understands this condition even if it doesn't understand your language. The condition must be possible for the target to bring about within a year and a day without ensuring its own death and stated in 25 or fewer words. The curse is more difficult to remove via magic. The DC to remove conditional curse with {spell/break enchantment} or {spell/remove curse} increases by 5.",
 			"",
 			"### Curse, Major",
 			"",
@@ -1278,7 +1278,7 @@
 			">",
 			">*Minimus Containment:* The subject is shrunk to a height of 1 inch or less and held within some gem, jar, or similar object. The binding is permanent. The subject does not need to breathe, eat, or drink while contained, nor does it age. Reduce the save DC by 4.",
 			"",
-			"You can't dispel a binding spell with dispel magic or a similar effect, though an antimagic field or mage's disjunction affects it normally. A bound extraplanar creature cannot be sent back to its home plane by {spell/dismissal}, {spell/banishment}, or a similar effect."
+			"You can't dispel a binding spell with {spell/dispel magic} or a similar effect, though an {spell/antimagic field} or {spell/mage's disjunction} affects it normally. A bound extraplanar creature cannot be sent back to its home plane by {spell/dismissal}, {spell/banishment}, or a similar effect."
 		]
 	},
 	"binding_earth": {
@@ -1448,7 +1448,7 @@
 			"",
 			"Every day in which a creature bears a black spot, it must make a Fortitude save. On a failed save, the creature takes 1 point of Constitution damage. The damage cannot be healed until the black spot is removed. If the creature's Constitution reaches 0, it dies. Pirates killed by this spell often return as ghosts, but that is not a direct effect of this spell.",
 			"",
-			"The black spot cannot be dispelled, but it can be removed with break enchantment, limited wish, miracle, remove curse, or wish."
+			"The black spot cannot be dispelled, but it can be removed with {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish}."
 		]
 	},
 	"black_sword_of_war": {
@@ -1697,7 +1697,7 @@
 			"",
 			"You summon an insubstantial spirit of force that resembles a cloudy vapor hovering around your fists or any melee weapons you wield. The spirit compensates for your defensive or reckless melee attacks, nudging your weapons in the proper direction. When you voluntarily use one or more actions or feats that apply penalties to attack rolls with your melee weapons (such as a charge, fighting defensively, or using the {feat/Power Attack} feat), the spirit reduces the total penalty on affected attacks by 1 (to a minimum penalty of 0). The penalty is reduced by an additional 1 for every 5 caster levels you possess (to a minimum penalty of 0). Only penalties incurred by voluntary use of feats or maneuvers are reduced by this spell.",
 			"",
-			"The spirit can't be attacked or harmed by physical attacks, but disintegrate, dispel magic, a rod of cancellation, or a sphere of annihilation can affect it. A protective spirit's AC against touch attacks is equal to 10 + your Dexterity modifier."
+			"The spirit can't be attacked or harmed by physical attacks, but {spell/disintegrate}, {spell/dispel magic}, a {magic-rod/rod of cancellation}, or a {magic-artifact/sphere of annihilation} can affect it. A protective spirit's AC against touch attacks is equal to 10 + your Dexterity modifier."
 		]
 	},
 	"bladed_dash": {
@@ -2464,7 +2464,7 @@
 			"",
 			"You deliver a confusing but fascinating monologue, relaying conspiracies or metaphysical revelations that confound your audience, throughout the spell's casting time and as long as you concentrate. You take 1d4 points of Wisdom drain when you begin the speech and can't reduce or prevent this damage in any way. Each intelligent creature in the spell's area takes 1d6 points of Wisdom damage as their perceptions of reality realign with yours for the spell's duration. Listeners with at least 5 HD can attempt a Will save to negate the effects. Your targets view you with a friendly attitude and respond to criticism of you with irritation. Bluff, Diplomacy, or Intimidate checks to create doubt about your purpose in those affected by the spell take a -4 penalty. The attitude of your targets regarding any creature that criticizes you or your vision automatically changes one step toward hostile; a Diplomacy check that fails by 5 or more reduces their attitude further. Your targets retain the same alignment and their prior beliefs, in addition to the ones you force on them. You can't force beliefs on a target if such beliefs would be necessarily against the nature of its alignment and prior beliefs, but targets are otherwise able to hold contradictory beliefs.",
 			"",
-			"If your campaign uses {rule/the |sanity/ system}, your sanity score decreases by 2 (and thus your sanity edge decreases by 1) instead of taking Wisdom drain each time you cast this spell. Only greater restoration, miracle, or wish can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting {spell/borrow corruption}, while a casting of miracle or wish removes them all. Affected targets take sanity damage equal to half your caster level (maximum 10) instead of Wisdom damage. The targets might actually change alignment and beliefs if their loss of sanity afflicts them with an appropriate madness, in which case those effects last even after the spell's duration has ended."
+			"If your campaign uses {rule/the |sanity/ system}, your sanity score decreases by 2 (and thus your sanity edge decreases by 1) instead of taking Wisdom drain each time you cast this spell. Only {spell/greater restoration}, {spell/miracle}, or {spell/wish} can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting {spell/borrow corruption}, while a casting of miracle or wish removes them all. Affected targets take sanity damage equal to half your caster level (maximum 10) instead of Wisdom damage. The targets might actually change alignment and beliefs if their loss of sanity afflicts them with an appropriate madness, in which case those effects last even after the spell's duration has ended."
 		]
 	},
 	"comprehend_languages": {
@@ -3678,7 +3678,7 @@
 			"",
 			"The duration of the covetous aura increases to 1 minute per level or until discharged. You may gain the benefits of spells of 5th level or lower cast within the aura's area of effect. You can gain the effects of two separate spells, after which the mythic covetous aura ends.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the duration increases to 10 minutes per level or until discharged. You may gain the benefits of spells of 7th level or lower cast within the aura's area of effect. When you gain the benefit of a spell, the original spell is immediately targeted with a greater dispel magic spell at your caster level. If the dispel check succeeds, the spell ends for any of the original recipients in the area of your covetous aura."
+			"*Augmented (6th):* If you expend two uses of mythic power, the duration increases to 10 minutes per level or until discharged. You may gain the benefits of spells of 7th level or lower cast within the aura's area of effect. When you gain the benefit of a spell, the original spell is immediately targeted with a {spell/greater dispel magic} spell at your caster level. If the dispel check succeeds, the spell ends for any of the original recipients in the area of your covetous aura."
 		]
 	},
 	"covetous_urge": {
@@ -3700,7 +3700,7 @@
 			"",
 			"In combat, if the target sees a valuable item on an opponent, it must, for example, attempt to disarm its foe to take a valuable weapon or use the steal combat maneuver to grab a precious item kept on the opponent's belt. Once the target has either attempted to steal an item in combat or else taken damage, this magical compulsion subsides until the threat of the current combat ends and the target enters a new room or area. Affected targets in combat that have neither attempted to steal an item nor taken damage (perhaps because the opponent with the most valuable item is far away) can attempt a saving throw each round to ignore the spell's effect until the threat ends and the target enters a new room.",
 			"",
-			"Break enchantment, limited wish, miracle, remove curse, or wish can each end covetous urge before the duration expires. Dispel magic does not affect covetous urge."
+			"{spell/Break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} can each end covetous urge before the duration expires. {spell/Dispel magic} does not affect covetous urge."
 		]
 	},
 	"cowards_cowl": {
@@ -3843,7 +3843,7 @@
 			"",
 			"When you finish casting this spell, you may bring yourself and up to seven other creatures to the plane automatically by joining hands in a circle. The demiplane is another plane of existence, and therefore is outside the range of any spell or ability that cannot affect or reach other planes. Creatures can only enter the plane by the use of planar travel magic such as astral projection, etherealness, or plane shift. You are considered \"very familiar\" with your entire demiplane.",
 			"",
-			"As a standard action, you may eject a creature from your demiplane. The creature may resist with a Will saving throw. An ejected creature goes to the closest plane to your demiplane (usually the Astral Plane or the Ethereal Plane, but if you cast this spell on the Material Plane, the creature is sent to the Material Plane). When the spell ends, the plane dissolves, and all creatures in the plane are ejected in this manner with no saving throw. The plane cannot be dispelled, but a creature on the plane can destroy it by using limited wish, mage's disjunction, miracle, or wish and making a successful dispel check.",
+			"As a standard action, you may eject a creature from your demiplane. The creature may resist with a Will saving throw. An ejected creature goes to the closest plane to your demiplane (usually the Astral Plane or the Ethereal Plane, but if you cast this spell on the Material Plane, the creature is sent to the Material Plane). When the spell ends, the plane dissolves, and all creatures in the plane are ejected in this manner with no saving throw. The plane cannot be dispelled, but a creature on the plane can destroy it by using {spell/limited wish}, {spell/mage's disjunction}, {spell/miracle}, or {spell/wish} and making a successful dispel check.",
 			"",
 			"If you are within the demiplane, you can add to its area by casting the spell again. Alternatively, you may cast this spell again to reset the duration of an existing area to that of your latest casting. If the duration on one area of the demiplane ends and other parts remain, creatures in the expiring area are shunted to remaining areas. If a collapsing portion of the demiplane would leave one section cut off from other sections of the demiplane (for example, if there were three areas connected in a straight line and the center part expired), the stranded sections count as separate demiplanes under your control. You may reconnect these stranded sections by casting the spell again to create a linked area between the two.",
 			"",

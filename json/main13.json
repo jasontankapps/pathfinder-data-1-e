@@ -3,6 +3,7 @@
 		"title": "Mythic Feats",
 		"sources": [],
 		"description": [[ "{table0}" ]],
+		"noFinder": true,
 		"searchgroup": "feat",
 		"tables": [
 			{
@@ -302,6 +303,7 @@
 		"title": "Feats - Monster",
 		"sources": [ "Horror Adventures" ],
 		"searchgroup": "feat",
+		"noFinder": true,
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_other).",
 			"",
@@ -353,6 +355,7 @@
 		"title": "Feats - Teamwork",
 		"sources": [ "Advanced Player's Guide" ],
 		"searchgroup": "feat",
+		"noFinder": true,
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_multiperson).",
 			"",
@@ -647,6 +650,7 @@
 		"title": "Feats - Story",
 		"sources": [ "Ultimate Campaign" ],
 		"searchgroup": "feat",
+		"noFinder": true,
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
 			"",
@@ -747,6 +751,7 @@
 		"title": "Feats - Style",
 		"sources": [ "Ultimate Combat" ],
 		"searchgroup": "feat",
+		"noFinder": true,
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_class).",
 			"",
@@ -897,6 +902,7 @@
 	"feats_metamagic": {
 		"title": "Feats - Metamagic",
 		"searchgroup": "rule",
+		"noFinder": true,
 		"description": [[
 			"Information about these feats can be found [here](rule/feats_basic).",
 			"",

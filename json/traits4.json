@@ -1023,7 +1023,7 @@
 			"",
 			"**Type:** Combat",
 			"",
-			"When deprived of magic, you fight harder. You gain a +1 trait bonus on weapon attack and damage rolls while within an area of antimagic such as that created by an antimagic field. You also gain this bonus for 1 round after you are subject to an area or targeted dispel magic spell, regardless of the effect's success or failure in dispelling your spells and magical effects."
+			"When deprived of magic, you fight harder. You gain a +1 trait bonus on weapon attack and damage rolls while within an area of antimagic such as that created by an {spell/antimagic field}. You also gain this bonus for 1 round after you are subject to an area or targeted {spell/dispel magic} spell, regardless of the effect's success or failure in dispelling your spells and magical effects."
 		],
 		"subhierarchy": [[ "Combat Traits", "main/traits_combat" ]]
 	},
