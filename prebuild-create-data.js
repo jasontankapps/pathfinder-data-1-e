@@ -6,41 +6,80 @@ import { createDirectives } from 'marked-directive';
 import basic_data_groups from './basic_data_groups.js';
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
 
-const alternateHeaderBlocks = {
+const alternateBlocks = {
 	level: "block",
 	marker: "::",
-	renderer: (token) => {
+	renderer: (token, flags, prefix, marked) => {
 		const {text, attrs = {}, meta} = token;
-		if(meta.name === "mh") {
+		const {id, ind, rev, to, end, endem, bottom} = attrs;
+		const n = meta.name || "";
+		if(n === "mh") {
 			const {cr, mr} = attrs;
 			if(cr || mr) {
 				const ender = (cr && mr) ? `CR ${cr}/MR ${mr}` : (cr ? `CR ${cr}` : `MR ${mr}`);
 				return `<p className="statblockHeaderFull"><span>${text}</span><span>${ender}</span></p>\n`;
 			}
 			return `<p className="statblockHeader">${text}</p>\n`;
-		} else if (meta.name === "sh") {
+		} else if (n === "sh") {
 			return `<p className="statblockSubHeader">${text}</p>\n`;
-		} else if (meta.name === "fh") {
+		} else if (n === "fh") {
 			const {sub} = attrs;
 			if(sub) {
 				return `<div className="headerLike"><div>${text}</div><div className="sub">${sub}</div></div>\n`;
 			}
 			return `<div className="headerLike">${text}</div>\n`;
+		} else if (n === "mhr") {
+			flags.divider = true;
+			return `<IonItemDivider className="mainItem divider"></IonItemDivider>`;
+		} else if (n === "mainheader") {
+			flags.divider = true;
+			flags.label = true;
+			return `<IonItemDivider className="mainItem"${id ? ` id="${prefix}${id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
+		} else if (n === "main") {
+			flags.mainlink = true;
+			let cn;
+			let output = "<MainLink ";
+			if(to) {
+				output = output + `to="${to}" `;
+			}
+			if(ind) {
+				cn = "indented";
+			}
+			if(rev) {
+				cn = "reversed";
+			}
+			if(cn) {
+				output = output + `className="${cn}" `;
+			}
+			if(end) {
+				output = output + `end="${end}" `;
+			}
+			if(endem) {
+				output = output + `endem="${endem}" `;
+			}
+			if(bottom) {
+				output = output + `bottom="${bottom}" `;
+			}
+			return `${output}info="${text}" />`;
 		}
 		return false;
 	}
 };
 
+const getAlternateBlocks = (flags, prefix, marked) => {
+	return {...alternateBlocks, renderer: (token) => alternateBlocks.renderer(token, flags, prefix, marked)};
+}
+
 const specialContainerBlocks = {
 	level: "container",
 	marker: ":::",
-	renderer: (token, flags = {}) => {
+	renderer: (token, flags = {}, marked) => {
 		const {text = "", attrs = {}, meta} = token;
 		const n = meta.name;
-		const trimmed = text.trim();
 		switch(n) {
 			case "archetype":
 				const { c = "" } = attrs;
+				const trimmed = text.trim();
 				const [ title = "", repl = "", desc = "" ] = trimmed.split(/\n+/);
 				const link = title.toLowerCase().replace(/[-/_ ]/g, "_").replace(/[^a-z_0-9]/g, "");
 				flags.link = true;
@@ -49,13 +88,21 @@ const specialContainerBlocks = {
 					+ `<p><strong>Modifes or Replaces:</strong> ${repl}</p>`
 					+ `<p>${desc}</p>`
 					+ `</div>\n`;
+			case "item":
+				flags.item = true;
+				flags.label = true;
+				return (
+					`<IonItem className="mainItem basic"><IonLabel>${
+						removeCurlyBrackets(marked.parse(text))
+					}</IonLabel></IonItem>`
+				);
 		}
 		return false;
 	}
 };
 
-const getSpecialContainerBlocks = (flags) => {
-	return {...specialContainerBlocks, renderer: (token) => specialContainerBlocks.renderer(token, flags)};
+const getSpecialContainerBlocks = (flags, marked) => {
+	return {...specialContainerBlocks, renderer: (token) => specialContainerBlocks.renderer(token, flags, marked)};
 };
 
 const inlineTags = {
@@ -294,103 +341,27 @@ const removeCurlyBrackets = (input) => {
 };
 
 // Convert markdown code into HTML, updating `flags` to note the outside Tags being used
-const convertDescription = (desc, prefix, tables) => {
+const convertDescription = (desc, prefix, tables, openTag = "", closeTag = "") => {
 	const marked = new Marked();
+	const marked2 = new Marked();
 	const flags = {};
+
+	marked2.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
+	marked2.use(markedFootnote({prefixId: prefix}));
+	marked2.use(gfmHeadingId({prefix}));
+	marked2.use(renderer(flags, prefix));
+
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
 	marked.use(createDirectives([
-		alternateHeaderBlocks,
-		getSpecialContainerBlocks(flags),
+		getAlternateBlocks(flags, prefix, marked),
+		getSpecialContainerBlocks(flags, marked),
 		getInlineTags(prefix)
 	]));
 	marked.use(markedFootnote({prefixId: prefix}));
 	marked.use(gfmHeadingId({prefix}));
 	marked.use(renderer(flags, prefix));
 	const parsed = marked.parse(convertLinks(desc).join("\n"));
-	return [`<>${removeCurlyBrackets(parsed)}</>`, flags];
-};
-
-// Convert markdown code into HTML for main#.json description, updating `flags` to note the outside Tags being used
-const convertMainDescription = (desc, prefix, tables) => {
-	const marked = new Marked();
-	const baseClass = "mainItem";
-	let output = "";
-	const flags = {};
-	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
-	marked.use(createDirectives([
-		alternateHeaderBlocks,
-		getSpecialContainerBlocks(flags),
-		getInlineTags(prefix)
-	]));
-	marked.use(markedFootnote({prefixId: prefix}));
-	marked.use(gfmHeadingId({prefix}));
-	marked.use(renderer(flags, prefix));
-	desc.forEach(portion => {
-		if(typeof portion === "string") {
-			let m;
-			if(m = portion.match(/^(#+) (.+)$/)) {
-				switch(m[1].length) {
-					case 1:
-						// # Divider or Section-Title text ! optional-id
-						let id = "";
-						let text = m[2];
-						const point = text.match(/(^.+?) ! (.+$)/);
-						if(point) {
-							id = point[2];
-							text = point[1];
-						}
-						output = output + `<IonItemDivider className="mainItem"${id ? ` id="${prefix}${id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
-						flags.divider = true;
-						flags.label = true;
-						break;
-					case 2:
-						// ## link/text Title of the link
-						// ## link/text Title of the link // Extra text at end of line
-						// ## link/text Title of the link || Extra text underneath title
-						output = output + `<MainLink info="${m[2]}" />`;
-						flags.mainlink = true;
-						break;
-					case 3:
-						// ### link/text Title of the link
-						// ### link/text Title of the link // Extra text at end of line
-						// ### link/text Title of the link || Extra text underneath title
-						output = output + `<MainLink info="${m[2]}" className="indented" />`;
-						flags.mainlink = true;
-						break;
-					case 6:
-						// ###### link/text Title of the link
-						// ###### link/text Title of the link // Extra text at end of line
-						// ###### link/text Title of the link || Extra text underneath title
-						output = output + `<MainLink info="${m[2]}" className="reversed" />`;
-						flags.mainlink = true;
-						break;
-					default:
-						// Errors
-						output = output + `<IonItem><IonLabel>[Error 101: ${m[2]}]</IonLabel></IonItem>`;
-						flags.item = true;
-						flags.label = true;
-				}
-			} else if (portion === "---") {
-				// Turns a horizontal rule to a Divider
-				output = output + `<IonItemDivider className="mainItem divider"></IonItemDivider>`;
-				flags.divider = true;
-			} else if (portion) {
-				// Error
-				output = output + `<IonItem><IonLabel>[Error 102: ${portion}]</IonLabel></IonItem>`;
-				flags.item = true;
-				flags.label = true;
-			}
-		} else {
-			// An array portion of a main.json description is treated as a "normal" description.
-			output = output + `<IonItem className="${baseClass} basic"><IonLabel>${
-				removeCurlyBrackets(marked.parse(convertLinks(portion).join("\n")))
-			}</IonLabel></IonItem>`;
-			flags.item = true;
-			flags.label = true;
-		}
-	});
-	flags.list = true;
-	return [`<IonList lines="full">${output}</IonList>`, flags];
+	return [`<${openTag}>${removeCurlyBrackets(parsed)}</${closeTag}>`, flags];
 };
 
 const createItem = (info, prop) => {
@@ -476,7 +447,8 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			case "main":
 				info.title = t;
 				info.subhierarchy = previous;
-				copyof || (converted = convertMainDescription(d, `${link}-${prop}-`, tables));
+				flags.list = true;
+				copyof || (converted = convertDescription(d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList"));
 				break;
 			case "rule":
 				info.parent_topics = parent_topics;

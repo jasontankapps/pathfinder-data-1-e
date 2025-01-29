@@ -19,56 +19,94 @@
 			"Ultimate Magic"
 		],
 		"description": [
-			"# Basic Feat Types",
-			"## main/feats_general View General Feats // (1,618 feats)",
-			"## main/feats_combat View Combat Feats // (1,699 feats)",
-			"## main/feats_critical View Critical Feats // (28 feats)",
-			"## main/feats_metamagic View Item Creation Feats // (26 feats)",
-			"## main/feats_metamagic View Metamagic // (85 feats)",
-			"# Multiperson Feats",
-			"## main/feats_teamwork View Teamwork Feats // (183 feats)",
-			"## main/feats_betrayal View Betrayal Feats // (6 feats)",
-			"## main/feats_coven View Coven Feats // (2 feats)",
-			"# Class-Based Feats",
-			"## main/feats_familiar View Familiar Feats // (8 feats)",
-			"## main/feats_meditation View Meditation Feats // (14 feats)",
-			"## main/feats_style View Style Feats // (90 feats)",
-			"## main/feats_grit View Grit Feats // (32 feats)",
-			"## main/feats_panache View Panache Feats // (32 feats)",
-			"## main/feats_stare View Mesmerist Stare Feats // (22 feats)",
-			"## main/feats_trick View Mesmerist Trick Feats // (22 feats)",
-			"## main/feats_blood_hex Blood Hex Feats // (8 feats)",
-			"# Mastery Feats",
-			"## main/feats_weapon_mastery View Weapon Mastery Feats // (17 feats)",
-			"## main/feats_armor_mastery View Armor Mastery Feats // (11 feats)",
-			"## main/feats_shield_mastery View Shield Mastery Feats // (14 feats)",
-			"## main/feats_item_mastery View Item Mastery Feats // (19 feats)",
-			"# Roleplaying Feats",
-			"## main/feats_achievement View Achievement Feats // (4 feats)",
-			"## main/feats_alignment View Alignment Feats // (9 feats)",
-			"## main/feats_faction View Faction Feats // (17 feats)",
-			"## main/feats_damnation View Damnation Feats // (4 feats)",
-			"## main/feats_gathlain View Gathlain Court Title Feats // (4 feats)",
-			"## main/feats_story View Story Feats // (76 feats)",
-			"# Other Feats",
-			"## main/feats_mythic View Mythic Feats // (144 feats)",
-			"## main/feats_combination View Combination Feats // (7 feats)",
-			"## main/feats_conduit View Conduit Feats // (23 feats)",
-			"## main/feats_monster View Monster Feats // (42 feats)",
-			"## main/feats_origin View Origin Feats // (9 feats)",
-			"## main/feats_performance View Performance Feats // (15 feats)",
-			"## main/feats_optional_rules View Alternate Rules Feats // (21 feats)"
+			"::mainheader[Basic Feat Types]",
+			"",
+			"::main[View General Feats]{link=main/feats_general endem=\"(1,618 feats)\"}",
+			"",
+			"::main[View Combat Feats]{link=main/feats_combat endem=\"(1,699 feats)\"}",
+			"",
+			"::main[View Critical Feats]{link=main/feats_critical endem=\"(28 feats)\"}",
+			"",
+			"::main[View Item Creation Feats]{link=main/feats_metamagic endem=\"(26 feats)\"}",
+			"",
+			"::main[View Metamagic]{link=main/feats_metamagic endem=\"(85 feats)\"}",
+			"",
+			"::mainheader[Multiperson Feats]",
+			"",
+			"::main[View Teamwork Feats]{link=main/feats_teamwork endem=\"(183 feats)\"}",
+			"",
+			"::main[View Betrayal Feats]{link=main/feats_betrayal endem=\"(6 feats)\"}",
+			"",
+			"::main[View Coven Feats]{link=main/feats_coven endem=\"(2 feats)\"}",
+			"",
+			"::mainheader[Class-Based Feats]",
+			"",
+			"::main[View Familiar Feats]{link=main/feats_familiar endem=\"(8 feats)\"}",
+			"",
+			"::main[View Meditation Feats]{link=main/feats_meditation endem=\"(14 feats)\"}",
+			"",
+			"::main[View Style Feats]{link=main/feats_style endem=\"(90 feats)\"}",
+			"",
+			"::main[View Grit Feats]{link=main/feats_grit endem=\"(32 feats)\"}",
+			"",
+			"::main[View Panache Feats]{link=main/feats_panache endem=\"(32 feats)\"}",
+			"",
+			"::main[View Mesmerist Stare Feats]{link=main/feats_stare endem=\"(22 feats)\"}",
+			"",
+			"::main[View Mesmerist Trick Feats]{link=main/feats_trick endem=\"(22 feats)\"}",
+			"",
+			"::main[Blood Hex Feats]{link=main/feats_blood_hex endem=\"(8 feats)\"}",
+			"",
+			"::mainheader[Mastery Feats]",
+			"",
+			"::main[View Weapon Mastery Feats]{link=main/feats_weapon_mastery endem=\"(17 feats)\"}",
+			"",
+			"::main[View Armor Mastery Feats]{link=main/feats_armor_mastery endem=\"(11 feats)\"}",
+			"",
+			"::main[View Shield Mastery Feats]{link=main/feats_shield_mastery endem=\"(14 feats)\"}",
+			"",
+			"::main[View Item Mastery Feats]{link=main/feats_item_mastery endem=\"(19 feats)\"}",
+			"",
+			"::mainheader[Roleplaying Feats]",
+			"",
+			"::main[View Achievement Feats]{link=main/feats_achievement endem=\"(4 feats)\"}",
+			"",
+			"::main[View Alignment Feats]{link=main/feats_alignment endem=\"(9 feats)\"}",
+			"",
+			"::main[View Faction Feats]{link=main/feats_faction endem=\"(17 feats)\"}",
+			"",
+			"::main[View Damnation Feats]{link=main/feats_damnation endem=\"(4 feats)\"}",
+			"",
+			"::main[View Gathlain Court Title Feats]{link=main/feats_gathlain endem=\"(4 feats)\"}",
+			"",
+			"::main[View Story Feats]{link=main/feats_story endem=\"(76 feats)\"}",
+			"",
+			"::mainheader[Other Feats]",
+			"",
+			"::main[View Mythic Feats]{link=main/feats_mythic endem=\"(144 feats)\"}",
+			"",
+			"::main[View Combination Feats]{link=main/feats_combination endem=\"(7 feats)\"}",
+			"",
+			"::main[View Conduit Feats]{link=main/feats_conduit endem=\"(23 feats)\"}",
+			"",
+			"::main[View Monster Feats]{link=main/feats_monster endem=\"(42 feats)\"}",
+			"",
+			"::main[View Origin Feats]{link=main/feats_origin endem=\"(9 feats)\"}",
+			"",
+			"::main[View Performance Feats]{link=main/feats_performance endem=\"(15 feats)\"}",
+			"",
+			"::main[View Alternate Rules Feats]{link=main/feats_optional_rules endem=\"(21 feats)\"}"
 		],
 		"previous": [ ["Main", "main/main"] ]
 	},
 	"feats_general": {
 		"title": "Feats - General",
 		"sources": [ "PRPG Core Rulebook" ],
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_basic).",
 			"",
 			"{table0}"
-		]],
+		],
 		"searchgroup": "feat",
 		"tables": [
 			{
@@ -1691,11 +1729,11 @@
 	"feats_critical": {
 		"title": "Feats - Critical",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_basic).",
 			"",
 			"{table0}"
-		]],
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],
@@ -1742,7 +1780,7 @@
 	"feats_familiar": {
 		"title": "Feats - Familiar",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_class).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1755,13 +1793,13 @@
 			"| {feat/Mauler's Endurance} | Must have a familiar with the mauler archetype. | Familiar gains 2 hp/level |",
 			"| {feat/Polyglot Familiar} | Must have a familiar. | Your familiar can speak with other creatures |",
 			"| {feat/Sage's Guidance} | Must have a familiar with the sage archetype. | Your familiar's knowledge grants you bonuses on attack/skills |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_blood_hex": {
 		"title": "Feats - Blood Hex",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_class).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1774,7 +1812,7 @@
 			"| {feat/Falter} | Int 13, Spellcraft 5 ranks, Use Magic Device 5 ranks. | Blood curse causes creature to fail at planned actions |",
 			"| {feat/Hinder} | Int 13, Use Magic Device 5 ranks. | Blood curse causes creature to take -10 penalty to initiative |",
 			"| {feat/Uncertainty} | Int 13; Bluff, Diplomacy, and Intimidate 5 ranks. | Blood curse causes creature to take -6 penalty to a social skill |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_optional_rules": {
@@ -1789,74 +1827,93 @@
 		],
 		"searchgroup": "rule",
 		"description": [
-			"# Hero Point Feats ! heropoints",
-			[
-				"{SOURCE Advanced Player's Guide/323}  ",
-				"The following feats enhance your ability to store and gain {rule/hero points}.",
-				"",
-				"| Feat | Prerequisites | Description |",
-				"| --- | --- | --- |",
-				"| {feat/Blood of Heroes} | Hero's Fortune. | Gain 2 hero points when leveling up. |",
-				"| {feat/Hero's Fortune} |  | Gain a hero point and increase your maximum. |",
-				"| {feat/Luck of Heroes} | Hero's Fortune. | 25% chance to not spend a Hero Point when using one |"
-		],
-			"# Called Shot Feats ! calledshot",
-			[
-				"{SOURCE Ultimate Combat/193}  ",
-				"Called Shot feats are used with [alternate rules](rule/called_shots).",
-				"",
-				"| Feat | Prerequisites | Description |",
-				"| --- | --- | --- |",
-				"| {feat/Greater Called Shot} | Int 13, {feat/Combat Expertise}, {feat/Improved Called Shot}, base attack bonus +6. | You can make multiple called shots per round |",
-				"| {feat/Improved Called Shot} | Int 13, {feat/Combat Expertise}. | Gain a bonus on attack rolls while making called shots |"
-			],
-			"# Targeting Feats ! targeting",
-			[
-				"{SOURCE Ranged Tactics Toolbox/8}  ",
-				"Several of the following feats have the new targeting type. If you are using the optional {rule/called shots/ rules}, attacks made with targeting feats count as called shots for the purposes of abilities or effects that modify called shots, such as the Improved Called Shot.",
-				"",
-				"| Feat | Prerequisites | Description |",
-				"| --- | --- | --- |",
-				"| {feat/Ace Disarm} | Dex 13, {feat/Deadly Aim}, {feat/Ranged Disarm} base attack bonus +6, weapon training class feature with a ranged weapon. | No penalty when using Ranged Disarm, make Steal attempts instead of Disarm at range |",
-				"| {feat/Ace Trip} | Dex 13, {feat/Deadly Aim}, {feat/Ranged Trip}, base attack bonus +6, weapon training class feature with a ranged weapon. | No penalty when using Ranged Trip, make special ranged trips against flying creatures |",
-				"| {feat/Ranged Disarm} | Dex 13, {feat/Deadly Aim}, base attack bonus +1. | Use a ranged weapon to disarm |",
-				"| {feat/Ranged Trip} | Dex 13, {feat/Deadly Aim}, base attack bonus +1. | Attempt a trip maneuver using a ranged weapon |"
-			],
-			"# Words of Power Feats ! words",
-			[
-				"{SOURCE Ultimate Magic/166}  ",
-				"Words of Power feats go with the [alternate rules](rule/words_of_power) involving words of power.",
-				"",
-				"| Feat | Prerequisites | Description |",
-				"| --- | --- | --- |",
-				"| {feat/Experimental Spellcaster} | Ability to cast spells. | Gain access to minor wordcasting |",
-				"| {feat/Extra Word} | Caster level 1st, ability to cast wordspells, see Special. | Gain additional effect words |",
-				"| {feat/Meta Word Mastery} | Ability to cast wordspells. | Gain additional uses of meta words per day |"
-			],
-			"# Esoteric Feats ! esoteric",
-			[
-				"{SOURCE Pathfinder Unchained/154}  ",
-				"In a campaign that uses the {rule/esoteric material component/ system>s}, characters have access to the following feats. Any time a character would gain a bonus metamagic feat, he can choose to take an esoteric feat instead. These feats have no prerequisites.",
-				"",
-				"| Feat | Description |",
-				"| --- | --- |",
-				"| {feat/Esoteric Abjuration} | Your abjuration spells give the target a +1 competence bonus to a single saving throw for the duration of the spell |",
-				"| {feat/Esoteric Conjuration} | Your conjuration spells that summon creatures grant them partial concealment for 1 round |",
-				"| {feat/Esoteric Divination} | Your divination spells are more likely to give you information |",
-				"| {feat/Esoteric Enchantment} | Your enchantment spells inflict a penalty to ability checks, attack rolls, damage rolls, saving throws, or skill checks |",
-				"| {feat/Esoteric Evocation} | Your evocation spells deal extra damage |",
-				"| {feat/Esoteric Illusion} | Your illusion spells are harder to disbelieve |",
-				"| {feat/Esoteric Necromancy} | Your necromancy spells cause their targets to be shaken |",
-				"| {feat/Esoteric Transmutation} | Your transmutation spells grant a bonus to physical abilities |",
-				"| {feat/Unstoppable Esotery} | Your spells that use esoteric material components are harder to stop or remove |"
-			]
+			"::mainheader[Hero Point Feats]{id=heropoints}",
+			"",
+			":::item",
+			"",
+			"{SOURCE Advanced Player's Guide/323}  ",
+			"The following feats enhance your ability to store and gain {rule/hero points}.",
+			"",
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Blood of Heroes} | Hero's Fortune. | Gain 2 hero points when leveling up. |",
+			"| {feat/Hero's Fortune} |  | Gain a hero point and increase your maximum. |",
+			"| {feat/Luck of Heroes} | Hero's Fortune. | 25% chance to not spend a Hero Point when using one |",
+			"",
+			":::",
+			"",
+			"::mainheader[Called Shot Feats]{id=calledshot}",
+			"",
+			":::item",
+			"",
+			"{SOURCE Ultimate Combat/193}  ",
+			"Called Shot feats are used with [alternate rules](rule/called_shots).",
+			"",
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Greater Called Shot} | Int 13, {feat/Combat Expertise}, {feat/Improved Called Shot}, base attack bonus +6. | You can make multiple called shots per round |",
+			"| {feat/Improved Called Shot} | Int 13, {feat/Combat Expertise}. | Gain a bonus on attack rolls while making called shots |",
+			"",
+			":::",
+			"",
+			"::mainheader[Targeting Feats]{id=targeting}",
+			"",
+			":::item",
+			"",
+			"{SOURCE Ranged Tactics Toolbox/8}  ",
+			"Several of the following feats have the new targeting type. If you are using the optional {rule/called shots/ rules}, attacks made with targeting feats count as called shots for the purposes of abilities or effects that modify called shots, such as the Improved Called Shot.",
+			"",
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Ace Disarm} | Dex 13, {feat/Deadly Aim}, {feat/Ranged Disarm} base attack bonus +6, weapon training class feature with a ranged weapon. | No penalty when using Ranged Disarm, make Steal attempts instead of Disarm at range |",
+			"| {feat/Ace Trip} | Dex 13, {feat/Deadly Aim}, {feat/Ranged Trip}, base attack bonus +6, weapon training class feature with a ranged weapon. | No penalty when using Ranged Trip, make special ranged trips against flying creatures |",
+			"| {feat/Ranged Disarm} | Dex 13, {feat/Deadly Aim}, base attack bonus +1. | Use a ranged weapon to disarm |",
+			"| {feat/Ranged Trip} | Dex 13, {feat/Deadly Aim}, base attack bonus +1. | Attempt a trip maneuver using a ranged weapon |",
+			"",
+			":::",
+			"",
+			"::mainheader[Words of Power Feats]{id=words}",
+			"",
+			":::item",
+			"",
+			"{SOURCE Ultimate Magic/166}  ",
+			"Words of Power feats go with the [alternate rules](rule/words_of_power) involving words of power.",
+			"",
+			"| Feat | Prerequisites | Description |",
+			"| --- | --- | --- |",
+			"| {feat/Experimental Spellcaster} | Ability to cast spells. | Gain access to minor wordcasting |",
+			"| {feat/Extra Word} | Caster level 1st, ability to cast wordspells, see Special. | Gain additional effect words |",
+			"| {feat/Meta Word Mastery} | Ability to cast wordspells. | Gain additional uses of meta words per day |",
+			"",
+			":::",
+			"",
+			"::mainheader[Esoteric Feats]{id=esoteric}",
+			"",
+			":::item",
+			"",
+			"{SOURCE Pathfinder Unchained/154}  ",
+			"In a campaign that uses the {rule/esoteric material component/ system>s}, characters have access to the following feats. Any time a character would gain a bonus metamagic feat, he can choose to take an esoteric feat instead. These feats have no prerequisites.",
+			"",
+			"| Feat | Description |",
+			"| --- | --- |",
+			"| {feat/Esoteric Abjuration} | Your abjuration spells give the target a +1 competence bonus to a single saving throw for the duration of the spell |",
+			"| {feat/Esoteric Conjuration} | Your conjuration spells that summon creatures grant them partial concealment for 1 round |",
+			"| {feat/Esoteric Divination} | Your divination spells are more likely to give you information |",
+			"| {feat/Esoteric Enchantment} | Your enchantment spells inflict a penalty to ability checks, attack rolls, damage rolls, saving throws, or skill checks |",
+			"| {feat/Esoteric Evocation} | Your evocation spells deal extra damage |",
+			"| {feat/Esoteric Illusion} | Your illusion spells are harder to disbelieve |",
+			"| {feat/Esoteric Necromancy} | Your necromancy spells cause their targets to be shaken |",
+			"| {feat/Esoteric Transmutation} | Your transmutation spells grant a bonus to physical abilities |",
+			"| {feat/Unstoppable Esotery} | Your spells that use esoteric material components are harder to stop or remove |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_achievement": {
 		"title": "Feats - Achievement",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1865,13 +1922,13 @@
 			"| {feat/Devil's Foe} | Face 10 different devils in combat and take damage or suffer some other sort of injury from five or more attacks made by each one without falling unconscious, fleeing, or otherwise becoming unable to strike back at them. | Attacks count as good-aligned when bypassing a devil's DR |",
 			"| {feat/Eagle Knight Candidate} | Character level 5th, convince four different Eagle Knights and either a member of the People's Council or an Andoran town mayor to write letters of commendation on your behalf. | Join the Eagle Knights, gaining a unique benefit |",
 			"| {feat/Talmandor's Lifting} | Take at least 10d6 falling damage on three different occasions and survive. | Cast a healing spell on an undamaged person, allowing them to trigger it at a later time |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_faction": {
 		"title": "Feats - Faction",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1893,13 +1950,13 @@
 			"| {feat/Touched by Sacred Fire} | {feat/Endurance}, Risen Guard rank, Risen Guard 15 TPA. | Gain resistance to fire and a bonus to saves against fire effects |",
 			"| {feat/Verbose Performer} | Bardic performance class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 8th, Kitharodian Academy 15 TPA. | Double the range of your bardic performances |",
 			"| {feat/Whispered Knowledge} | Corporeal undead, Whispering Way 15 TPA. | Enhance your undead form with secret knowledge |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_gathlain": {
 		"title": "Feats - Gathlain Court Titles",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1908,13 +1965,13 @@
 			"| {feat/Knight of the Twisted Word} | Fey creature type or {feat/Fey Obedience} (Count Ranalc), character level 7th, you must have betrayed or deceived in a major fashion a demon with a CR at least 2 higher than your level when you took the feat. | Gain glibness as a spell-like ability used once per day |",
 			"| {feat/Marcher-Lord of the Cerulean Abyss} | Fey creature type or {feat/Fey Obedience} (Ragadahn), you must have carved your name and Ragadahn's holy symbol on the hide of a living dragon or outsider with either the aquatic or water subtype and a CR at least 2 higher than your level when you took the feat. | Creatures you hit take a -2 penalty to CMB and CMD for one round |",
 			"| {feat/Triple-Baron} | Fey creature type or {feat/Fey Obedience} (Magdh), you must have collected three gifts worth at least 100 gp each from three different planes across the Great Beyond. At least two of the planes must be diametrically opposed to one another in terms of planar traits. | Three times per day, you can roll three dice and use the middle result |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_alignment": {
 		"title": "Feats - Alignment",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1928,13 +1985,13 @@
 			"| {feat/Champion of Righteousness} | 10 Hit Dice, lawful good alignment. | You know that good must be tempered with order if it's going to prevail in the long term. |",
 			"| {feat/Champion of Tranquility} | 10 Hit Dice, lawful neutral alignment. | The harmony of law is your highest ideal. |",
 			"| {feat/Champion of Tyranny} | 10 Hit Dice, lawful evil alignment. | You must beat down the masses to have true order. |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_damnation": {
 		"title": "Feats - Damnation",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"These feats have no prerequisites. Information about them can be found [here](rule/feats_roleplaying).",
 			"",
 			"| Feat | Description |",
@@ -1943,13 +2000,13 @@
 			"| {feat/Maleficium} | Cast evil spells with increased potency |",
 			"| {feat/Mask of Virtue} | Mask your true alignment |",
 			"| {feat/Soulless Gaze} | Use Intimidate with greater proficiency |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_combination": {
 		"title": "Feats - Combination",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_other).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1961,13 +2018,13 @@
 			"| {feat/Practical Kata} | {feat/Improved Unarmed Strike}, ki pool class feature. | Regain ki by striking an opponent multiple times |",
 			"| {feat/Sculpting the River} | {feat/Dodge}, {feat/Improved Unarmed Strike}, base attack bonus +6 or monk level 6th. | Use unarmed strikes to reduce a creature's attack bonus against creatures other than you |",
 			"| {feat/Thousand Cuts} | {feat/Weapon Focus} with slashing weapon. | Use a slashing weapon to inflict bleed damage |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_conduit": {
 		"title": "Feats - Conduit",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_other).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1995,13 +2052,13 @@
 			"| {feat/Tyrant's Rebuke} | Knowledge (planes) 5 ranks. | Stagger a creature you touch |",
 			"| {feat/Wanderer's Fortune} | Knowledge (planes) 3 ranks. | Gain freedom of movement to escape a grapple or magical restraint |",
 			"| {feat/Wind Leaper} | Knowledge (planes) 3 ranks. | Use wind to bolster your jumps and reduce your weight |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_performance": {
 		"title": "Feats - Performance",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_other).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -2021,13 +2078,13 @@
 			"| {feat/Second Wind} | {feat/Endurance}. | Suppress a negative condition |",
 			"| {feat/Spectacular Exit} | Dex 15, {feat/Dodge}, Acrobatics 7 ranks. | Withdraw gracefully without hurting your performance |",
 			"| {feat/Thrilling Vengeance} | Base attack bonus +3, rage class feature. | Bonus to performance combat check while raging if you've recently dealt damage |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
 	"feats_origin": {
 		"title": "Feats - Origin",
 		"searchgroup": "rule",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_other).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -2041,7 +2098,7 @@
 			"| {feat/Overseer of the House of Truth} | {race/Shabti}. | Gain additional uses of your suggestion suggestion spell-like ability |",
 			"| {feat/Servant in the House of Truth} | {race/Shabti}. | Roll twice and take the better result on Knowledge skill checks |",
 			"| {feat/Willing Death} | Duskwalker. | You can cast paladin's sacrifice to prevent an ally from dying |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	}
 }

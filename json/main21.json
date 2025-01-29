@@ -2,7 +2,7 @@
 	"spells_abjuration": {
 		"title": "Abjuration Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -361,7 +361,7 @@
 	"spells_conjuration": {
 		"title": "Conjuration Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -866,7 +866,7 @@
 	"spells_divination": {
 		"title": "Divination Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1171,7 +1171,7 @@
 	"spells_enchantment": {
 		"title": "Enchantment Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [

@@ -2,7 +2,7 @@
 	"monsters_oozes": {
 		"title": "Oozes",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -115,8 +115,13 @@
 		"searchgroup": "monster",
 		"noFinder": true,
 		"description": [
-			"# Good Monsters",
-			[ "{table0}" ]
+			"::mainheader[Good Monsters]",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -245,8 +250,13 @@
 		"searchgroup": "monster",
 		"noFinder": true,
 		"description": [
-			"# Evil Monsters",
-			[ "{table0}" ]
+			"::mainheader[Evil Monsters]",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -532,8 +542,13 @@
 		"searchgroup": "monster",
 		"noFinder": true,
 		"description": [
-			"# Lawful Monsters",
-			[ "{table0}" ]
+			"::mainheader[Lawful Monsters]",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -707,8 +722,13 @@
 		"searchgroup": "monster",
 		"noFinder": true,
 		"description": [
-			"# Chaotic Monsters",
-			[ "{table0}" ]
+			"::mainheader[Chaotic Monsters]",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -883,10 +903,21 @@
 		"searchgroup": "monster",
 		"noFinder": true,
 		"description": [
-			"# Names and Descriptions",
-			[ "{table0}" ],
-			"# Names and Stats",
-			[ "{table1}" ]
+			"::mainheader[Names and Descriptions]",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::",
+			"",
+			"::mainheader[Names and Stats]",
+			"",
+			":::item",
+			"",
+			"{table1}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -1252,10 +1283,21 @@
 		"searchgroup": "monster",
 		"noFinder": true,
 		"description": [
-			"# Names and Descriptions",
-			[ "{table0}" ],
-			"# Names and Stats",
-			[ "{table1}" ]
+			"::mainheader[Names and Descriptions]",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::",
+			"",
+			"::mainheader[Names and Stats]",
+			"",
+			":::item",
+			"",
+			"{table1}",
+			"",
+			":::"
 		],
 		"tables": [
 			{

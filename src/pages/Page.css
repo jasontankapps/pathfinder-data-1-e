@@ -538,9 +538,6 @@ ion-item.mainItem.linked ion-label.endcap {
 	justify-content: space-between;
 	align-items: center;
 }
-ion-item.mainItem.linked ion-label.endcap div:nth-child(2) {
-	font-style: italic;
-}
 ion-item.mainItem.linked ion-label.bottomcap {
 	display: block;
 }
@@ -615,6 +612,9 @@ div.finder ion-searchbar {
 }
 div.finder ion-searchbar input {
 	background: transparent;
+}
+div.finder span.count {
+	margin: 0 1rem;
 }
 mark {
 	background: var(--ion-color-tertiary);

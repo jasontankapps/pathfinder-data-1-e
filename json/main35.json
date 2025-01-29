@@ -2,7 +2,7 @@
 	"monsters_humanoids": {
 		"title": "Humanoids",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -348,7 +348,7 @@
 	"monsters_humanoids_giant": {
 		"title": "Giants",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -475,7 +475,7 @@
 	"monsters_humanoids_goblinoid": {
 		"title": "Goblinoids",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -550,7 +550,7 @@
 	"monsters_shapechanger": {
 		"title": "Shapechanger Monsters",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -702,7 +702,7 @@
 	"monsters_swarm": {
 		"title": "Swarms",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [

@@ -2,7 +2,7 @@
 	"spells_unchained_summoner": {
 		"title": "All Unchained Summoner Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -399,7 +399,7 @@
 	"spells_druid": {
 		"title": "All Druid Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1225,7 +1225,7 @@
 	"spells_hunter": {
 		"title": "All Hunter Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [

@@ -2,7 +2,7 @@
 	"spells_paladin": {
 		"title": "All Paladin Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -336,7 +336,7 @@
 	"spells_alchemist": {
 		"title": "All Alchemist Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -778,7 +778,7 @@
 	"spells_spiritualist": {
 		"title": "All Spiritualist Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1220,7 +1220,7 @@
 	"spells_bloodrager": {
 		"title": "All Bloodrager Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1592,7 +1592,7 @@
 	"spells_summoner": {
 		"title": "All Summoner Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [

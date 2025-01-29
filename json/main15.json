@@ -2,7 +2,7 @@
 	"monsters_cr_0_1_2": {
 		"title": "Monsters CR 0 - 1/2",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -269,7 +269,7 @@
 	"monsters_cr_1_2": {
 		"title": "Monsters CR 1 and 2",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -676,7 +676,7 @@
 	"monsters_cr_3_4": {
 		"title": "Monsters CR 3 and 4",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [

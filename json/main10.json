@@ -2,7 +2,7 @@
 	"spells_warpriest": {
 		"title": "All Warpriest Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1017,7 +1017,7 @@
 	"spells_bard": {
 		"title": "All Bard Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1921,7 +1921,7 @@
 		"title": "Occult Rituals",
 		"sources": [ "Occult Adventures" ],
 		"searchgroup": "spell",
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"tables": [
 			{

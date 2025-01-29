@@ -3,11 +3,11 @@
 		"title": "Feats - Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "feat",
-		"description": [[
+		"description": [
 			"Information about these feats can be found [here](rule/feats_basic).",
 			"",
 			"{table0}"
-		]],
+		],
 		"tables": [
 			{
 				"headers": [ "Feat", "Prerequisites", "Description" ],

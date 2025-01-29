@@ -236,7 +236,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 									findInPageSearchbarObj
 									&& findInPageSearchbarObj.current
 									&& findInPageSearchbarObj.current.setFocus
-									&& findInPageSearchbarObj.current.setFocus()
+									&& debounce(() => findInPageSearchbarObj.current.setFocus(), "setting Focus", 505)
 								);
 						}
 						: undefined
@@ -268,9 +268,9 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 						onInput={onInput}
 						onIonClear={() => marker.unmark({done: () => {setNumberOfTextsFound(0); setHighlightedText(-1);}})}
 					/>
-					<IonButton shape="round" onClick={() => show(-1)} color="tertiary" size="small"><IonIcon slot="icon-only" icon={chevronBack} /></IonButton>
-					<span style={{ padding: '0px 12px' }}>{highlightedText + 1}/{numberOfTextsFound}</span>
-					<IonButton shape="round" onClick={() => show(1)} color="tertiary" size="small"><IonIcon slot="icon-only" icon={chevronForward} /></IonButton>
+					<IonButton shape="round" onClick={() => show(-1)} disabled={numberOfTextsFound === 0} color="tertiary" size="small"><IonIcon slot="icon-only" icon={chevronBack} /></IonButton>
+					<span className="count">{highlightedText + 1}/{numberOfTextsFound}</span>
+					<IonButton shape="round" onClick={() => show(1)} disabled={numberOfTextsFound === 0} color="tertiary" size="small"><IonIcon slot="icon-only" icon={chevronForward} /></IonButton>
 				</div> : <></>}
 				<div className={cN} ref={markerRef}>
 					{topLink ? <HierarchyInset linkInfo={topLink} /> : <></>}

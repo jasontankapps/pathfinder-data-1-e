@@ -5,34 +5,65 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"# Arcane Mythic Spells by Class",
-			"## main/spells_mythic_alchemist Alchemist",
-			"## main/spells_mythic_arcanist_sorcerer_wizard Arcanist, Sorcerer and Wizard",
-			"## main/spells_mythic_bard_skald Bard and Skald",
-			"## main/spells_mythic_bloodrager Bloodrager",
-			"## main/spells_mythic_investigator Investigator",
-			"## main/spells_mythic_magus Magus",
-			"## main/spells_mythic_summoner Summoner",
-			"## main/spells_mythic_unchained_summoner Unchained Summoner",
-			"## main/spells_mythic_witch Witch",
-			"# Divine Mythic Spells by Class",
-			"## main/spells_mythic_antipaladin Antipaladin",
-			"## main/spells_mythic_cleric_oracle Cleric and Oracle",
-			"## main/spells_mythic_druid Druid",
-			"## main/spells_mythic_hunter Hunter",
-			"## main/spells_mythic_inquisitor Inquisitor",
-			"## main/spells_mythic_paladin Paladin",
-			"## main/spells_mythic_rangers Ranger",
-			"## main/spells_mythic_shaman Shaman",
-			"## main/spells_mythic_warpriest Warpriest",
-			"# Occult Mythic Spells by Class",
-			"## main/spells_mythic_medium Medium",
-			"## main/spells_mythic_mesmerist Mesmerist",
-			"## main/spells_mythic_occultist Occultist",
-			"## main/spells_mythic_psychic Psychic",
-			"## main/spells_mythic_spiritualist Spiritualist",
-			"---",
-			[ "{table0}" ]
+			"::mainheader[Arcane Mythic Spells by Class]",
+			"",
+			"::main[Alchemist]{link=main/spells_mythic_alchemist}",
+			"",
+			"::main[Arcanist, Sorcerer and Wizard]{link=main/spells_mythic_arcanist_sorcerer_wizard}",
+			"",
+			"::main[Bard and Skald]{link=main/spells_mythic_bard_skald}",
+			"",
+			"::main[Bloodrager]{link=main/spells_mythic_bloodrager}",
+			"",
+			"::main[Investigator]{link=main/spells_mythic_investigator}",
+			"",
+			"::main[Magus]{link=main/spells_mythic_magus}",
+			"",
+			"::main[Summoner]{link=main/spells_mythic_summoner}",
+			"",
+			"::main[Unchained Summoner]{link=main/spells_mythic_unchained_summoner}",
+			"",
+			"::main[Witch]{link=main/spells_mythic_witch}",
+			"",
+			"::mainheader[Divine Mythic Spells by Class]",
+			"",
+			"::main[Antipaladin]{link=main/spells_mythic_antipaladin}",
+			"",
+			"::main[Cleric and Oracle]{link=main/spells_mythic_cleric_oracle}",
+			"",
+			"::main[Druid]{link=main/spells_mythic_druid}",
+			"",
+			"::main[Hunter]{link=main/spells_mythic_hunter}",
+			"",
+			"::main[Inquisitor]{link=main/spells_mythic_inquisitor}",
+			"",
+			"::main[Paladin]{link=main/spells_mythic_paladin}",
+			"",
+			"::main[Ranger]{link=main/spells_mythic_rangers}",
+			"",
+			"::main[Shaman]{link=main/spells_mythic_shaman}",
+			"",
+			"::main[Warpriest]{link=main/spells_mythic_warpriest}",
+			"",
+			"::mainheader[Occult Mythic Spells by Class]",
+			"",
+			"::main[Medium]{link=main/spells_mythic_medium}",
+			"",
+			"::main[Mesmerist]{link=main/spells_mythic_mesmerist}",
+			"",
+			"::main[Occultist]{link=main/spells_mythic_occultist}",
+			"",
+			"::main[Psychic]{link=main/spells_mythic_psychic}",
+			"",
+			"::main[Spiritualist]{link=main/spells_mythic_spiritualist}",
+			"",
+			"::mhr",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -187,11 +218,12 @@
 		"sources": [],
 		"noFinder": true,
 		"searchgroup": "spell",
-		"description": [ [
-			"## Mythic Arcanist, Sorcerer and Wizard Spells",
+		"description": [
+			"",
+			"::main[Arcanist, Sorcerer and Wizard Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "arcanist sorcerer wizards mythic spells table",
@@ -295,11 +327,12 @@
 		"sources": [],
 		"noFinder": true,
 		"searchgroup": "spell",
-		"description": [ [
-			"## Mythic Alchemist Extracts",
+		"description": [
+			"",
+			"::main[Alchemist Extracts]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "alchemist mythic spells table",
@@ -343,11 +376,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Investigator Extracs",
+		"description": [
+			"",
+			"::main[Investigator Extracs]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "investigator mythic spells table",
@@ -391,11 +425,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Summoner Spells",
+		"description": [
+			"",
+			"::main[Summoner Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "summoner mythic spells table",
@@ -427,11 +462,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Unchained Summoner Spells",
+		"description": [
+			"",
+			"::main[Unchained Summoner Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "unchained_summoner mythic spells table",
@@ -464,11 +500,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Bard and Skald Spells",
+		"description": [
+			"",
+			"::main[Bard and Skald Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "bard and skald mythic spells table",
@@ -509,11 +546,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Magus Spells",
+		"description": [
+			"",
+			"::main[Magus Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "magus mythic spells table",
@@ -568,11 +606,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Witch Spells",
+		"description": [
+			"",
+			"::main[Witch Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "witch mythic spells table",
@@ -636,11 +675,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Bloodrager Spells",
+		"description": [
+			"",
+			"::main[Bloodrager Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "bloodrager mythic spells table",
@@ -691,11 +731,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Cleric and Oracle Spells",
+		"description": [
+			"",
+			"::main[Cleric and Oracle Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "cleric oracle mythic spells table",
@@ -754,11 +795,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Druid Spells",
+		"description": [
+			"",
+			"::main[Druid Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "druid mythic spells table",
@@ -807,11 +849,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Ranger Spells",
+		"description": [
+			"",
+			"::main[Ranger Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "ranger mythic spells table",
@@ -840,11 +883,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Hunter Spells",
+		"description": [
+			"",
+			"::main[Hunter Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "hunter mythic spells table",
@@ -887,11 +931,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Inquisitor Spells",
+		"description": [
+			"",
+			"::main[Inquisitor Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "inquisitor mythic spells table",
@@ -934,11 +979,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Warpriest Spells",
+		"description": [
+			"",
+			"::main[Warpriest Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "warpriest mythic spells table",
@@ -989,11 +1035,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Paladin Spells",
+		"description": [
+			"",
+			"::main[Paladin Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "paladin mythic spells table",
@@ -1022,11 +1069,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Antipaladin Spells",
+		"description": [
+			"",
+			"::main[Antipaladin Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "antipaladin mythic spells table",
@@ -1057,11 +1105,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Shaman Spells",
+		"description": [
+			"",
+			"::main[Shaman Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "shaman mythic spells table",
@@ -1110,11 +1159,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Medium Spells",
+		"description": [
+			"",
+			"::main[Medium Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "medium mythic spells table",
@@ -1155,11 +1205,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Mesmerist Spells",
+		"description": [
+			"",
+			"::main[Mesmerist Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "mesmerist mythic spells table",
@@ -1206,11 +1257,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Occultist Spells",
+		"description": [
+			"",
+			"::main[Occultist Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "occultist mythic spells table",
@@ -1271,11 +1323,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Psychic Spells",
+		"description": [
+			"",
+			"::main[Psychic Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "psychic mythic spells table",
@@ -1347,11 +1400,12 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"noFinder": true,
-		"description": [ [
-			"## Mythic Spiritualist Spells",
+		"description": [
+			"",
+			"::main[Spiritualist Spells]{link=Mythic}",
 			"",
 			"{table0}"
-		] ],
+		],
 		"tables": [
 			{
 				"id": "spiritualist mythic spells table",
@@ -1394,7 +1448,7 @@
 		"title": "All Red Mantis Assassin Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"tables": [
 			{

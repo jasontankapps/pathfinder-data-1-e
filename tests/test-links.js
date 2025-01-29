@@ -150,6 +150,7 @@ const {
 } = basic_data_by_link;
 
 const all = [
+	["main", main],
 	["arc-alchemist", archetypealchemist], ["arc-antipaladin", archetypeantipaladin],
 	["arc-arcanist", archetypearcanist], ["arc-barbarian", archetypebarbarian],
 	["arc-bard", archetypebard], ["arc-bloodrager", archetypebloodrager],
@@ -208,9 +209,7 @@ const all = [
 	["magic-artifact", magicartifact], ["magic-weapon", magicweapon],
 	["magic-wondrous", magicwondrous], ["monster", monster], ["template", template],
 	["rule", rule], ["spell", spell], ["npc", npc], ["prestigeclass", prestigeclass],
-	["race", race], ["trait", trait], ["class", classes], ["family", family],
-	// this final one has a third array member
-	["main", main, "arraydescs"]
+	["race", race], ["trait", trait], ["class", classes], ["family", family]
 ];
 
 const known_props = {};
@@ -251,28 +250,6 @@ const testLinks = () => {
 				}
 			}
 			const TESTING = description ? (Array.isArray(description) ? [...description] : [description]) : [];
-			switch(special) {
-				case "arraydescs":
-					const hold = [];
-					while(TESTING.length > 0) {
-						const line = TESTING.shift();
-						if(Array.isArray(line)) {
-							hold.push(...line);
-						} else {
-							const m = line.match(/^#{2,6} ([^ ]+)/);
-							if(m) {
-								const link = m[1];
-								if((link.indexOf("/") === -1) && link !== "about") {
-									msg.push(`\tPOSSIBLE bad main-page link: "${link}"`);
-								} else {
-									hold.push(`[main-page link](${link})`);
-								}
-							}
-						}
-					}
-					TESTING.push(...hold);
-					break;
-			}
 			const z = (tables || []);
 			if(z && !Array.isArray(z)) {
 				console.log(">>"+link+">>"+JSON.stringify(z));
@@ -326,6 +303,18 @@ const testLinks = () => {
 						});
 						temp = m[2];
 					}
+				}
+				temp = line;
+				while(m = temp.match(/::main\[.+?\]\{.*?\bto=([-a-z_]+)[/]([a-z_0-9]+).*?\}(.*$)/)) {
+					// Testing ::main[text]{to=some/where}
+					if(m[1] === "source") {
+						if(!allsources[m[2]]) {
+							invalid.push(m[1] + "/" + m[2]);
+						}
+					} else if(!known_props[m[1]] || !known_props[m[1]][m[2]]) {
+						invalid.push(`to=${m[1]}/${m[2]}`);
+					}
+					temp = m[3];
 				}
 				temp = line;
 				while(m = checkForEncodedLink(temp)) {

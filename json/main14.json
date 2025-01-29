@@ -3,7 +3,7 @@
 		"title": "All Witch Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"tables": [
 			{
@@ -1231,7 +1231,7 @@
 		"title": "All Sahir-Afiyun Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"description": [[
+		"description": [
 			"| Spell | Level | School | Subschool | Descriptor | Description |",
 			"| :--- | :---: | :---: | :---: | :---: | :--- |",
 			"| {spell/Alleviate Addiction} | 1 | conjuration | healing |  | Ignore the effects of addictions. |",
@@ -1255,13 +1255,13 @@
 			"| {spell/Pesh Addiction} | 5 | necromancy |  |  | As Pesh Addiction, Lesser except it has no HD limit and does not allow a saving throw. |",
 			"| {spell/Suffocation, Instant} | 5 | necromancy |  | death | Slay someone through pesh suffocation. |",
 			"| {spell/Symbol of Sleep} | 5 | enchantment | compulsion | mind-affecting | Triggered rune puts nearby creatures into catatonic slumber. |"
-		]],
+		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
 	"spells_shaman": {
 		"title": "All Shaman Spells",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [

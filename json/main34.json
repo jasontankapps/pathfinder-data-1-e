@@ -2,7 +2,7 @@
 	"monsters_cr_12_14": {
 		"title": "Monsters CR 12 through 14",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -324,7 +324,7 @@
 	"monsters_cr_15": {
 		"title": "Monsters CR 15+",
 		"sources": [],
-		"description": [[ "{table0}" ]],
+		"description": [ "{table0}" ],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [

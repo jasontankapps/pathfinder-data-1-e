@@ -1,4 +1,4 @@
-import { FC, ReactNode } from 'react';
+import { FC } from 'react';
 import {IonItem,IonLabel} from '@ionic/react';
 import { useLocation } from 'wouter';
 import { useAppDispatch } from '../store/hooks';
@@ -7,41 +7,34 @@ import { goTo } from '../store/historySlice';
 interface MainLinkProps {
 	className?: string
 	info: string
+	endem?: string
+	end?: string
+	bottom?: string
+	to?: string
 }
 
-const getElementAndUrl = (input: string): [ReactNode, string | null] => {
-	// ## link/text Title of the link
-	// ### link/text Title of the link // Extra text at end of line
-	// ###### link/text Title of the link || Extra text underneath title
-	const m = input.match(/^\/?([^ ]+) (.+$)/);
-	if(!m) {
-		return [<h2 className="error">{input}</h2>, null];
-	}
-	const url = "/" + m[1];
-	const text = m[2];
-	const slashbar = text.match(/(^.+?) (\/\/|\|\|) (.+$)/);
-	if(slashbar) {
-		return [
-			<IonLabel className={slashbar[2] === "//" ? "endcap" : "bottomcap"}>
-				<div>{slashbar[1]}</div>
-				<div>{slashbar[3]}</div>
-			</IonLabel>,
-			url
-		];
-	}
-	return [<IonLabel>{text}</IonLabel>, url];
-};
+const convertEntities = (input: string) => (
+	input
+		.replace(/&#([0-9]+);/g, (x, m1) => String.fromCharCode(Number(m1)))
+		.replace(/&#(x[0-9a-fA-F]+);/g, (x, m1) => String.fromCharCode(Number("0" + m1)))
+);
 
-const MainLink: FC<MainLinkProps> = ({className, info}) => {
+const MainLink: FC<MainLinkProps> = ({className, info, to, end, endem, bottom}) => {
 	const dispatch = useAppDispatch();
 	const [location, navigate] = useLocation();
-	const [label, link] = getElementAndUrl(info);
 	return (
 		<IonItem
 			className={"mainItem linked" + (className ? " " + className : "")}
-			onClick={link ? () => { dispatch(goTo(link)); navigate(link); } : undefined}
+			onClick={to ? () => { dispatch(goTo(to)); navigate(to); } : undefined}
 		>
-			{label}
+			<IonLabel className={end || endem ? "endcap" : (bottom ? "bottomcap" : undefined)}>
+				<div>{convertEntities(info)}</div>
+				{
+					(bottom || endem)
+						? <div><em>{convertEntities((bottom || endem)!)}</em></div>
+						: (end ? <div>{convertEntities(end)}</div> : <></>)
+				}
+			</IonLabel>
 		</IonItem>
 	)
 };
