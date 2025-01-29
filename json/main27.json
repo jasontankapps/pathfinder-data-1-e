@@ -1539,6 +1539,9 @@
 				"alignments": [ true, null, null, null, null ],
 				"sizes": [ 150, 110, 100, 100, 75 ],
 				"ripples": [0],
+				"filter": [
+					{ "col": 1, "equals": [ "armor", "shield", "body", "head", "chest and neck" ] }
+				],
 				"data": [
 					[ "{magic-armor/Mithral Shirt}", "armor", 1100, 10, [ 1, "No" ] ],
 					[ "{magic-armor/Mistmail}", "armor", 2250, 25, [ 1, "No" ] ],

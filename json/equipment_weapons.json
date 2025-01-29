@@ -25,7 +25,8 @@
 			"",
 			"**Recipe** (10 brimstone + 8 salt + 1 saltpeter)/distilation; Craft 15  ",
 			"**Time** 1 day; **Tools** retort; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"acid_neutralizer": {
 		"name": "Acid neutralizer",
@@ -42,7 +43,8 @@
 			"",
 			"**Recipe** (20 brimstone + 10 salt + 5 urea)/calcination; Craft 15  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"alchemical_coal_blinding_cinders": {
 		"name": "Alchemical coal (blinding cinders)",
@@ -62,7 +64,8 @@
 			"",
 			"Blinding cinders: Craft (Alchemy) DC 25  ",
 			"Choking smoke: Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"alchemical_coal_choking_smoke": {
 		"name": "Alchemical coal (choking smoke)",
@@ -87,7 +90,8 @@
 			"",
 			"**Recipe** (12 magnesium + 22 spirit of wine)/congelation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"alkali_flask": {
 		"name": "Alkali flask",
@@ -107,7 +111,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_bleeding": {
 		"name": "Arrow (bleeding)",
@@ -127,7 +132,8 @@
 			"**Time** 1 hour; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_durable": {
 		"name": "Arrow (durable)",
@@ -147,7 +153,8 @@
 			"**Time** 1 hour; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_dye": {
 		"name": "Arrow (dye)",
@@ -167,7 +174,8 @@
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_lodestone": {
 		"name": "Arrow (lodestone)",
@@ -187,7 +195,8 @@
 			"**Time** 1 hour; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_pheromone": {
 		"name": "Arrow (pheromone)",
@@ -207,7 +216,8 @@
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_raining": {
 		"name": "Arrow (raining)",
@@ -229,7 +239,8 @@
 			"Craft (Alchemy) DC 25",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_slow_burn": {
 		"name": "Arrow (slow burn)",
@@ -249,7 +260,8 @@
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_splintercloud": {
 		"name": "Arrow (splintercloud)",
@@ -269,7 +281,8 @@
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_tangleshot": {
 		"name": "Arrow (tangleshot)",
@@ -289,7 +302,8 @@
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_trip": {
 		"name": "Arrow (trip)",
@@ -309,7 +323,8 @@
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"artokuss_fire": {
 		"name": "Artokus's fire",
@@ -326,7 +341,8 @@
 			"",
 			"**Recipe** (20 magnesium + 25 saltpeter + 30 spirit of wine)/congelation; Craft 30  ",
 			"**Time** 1 hour; **Tools** alchemist's lab; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"blanch_bomb_adamantine": {
 		"name": "Blanch bomb (adamantine)",
@@ -343,7 +359,8 @@
 			"",
 			"**Recipe** (50 cold iron + 75 magnesium + 50 saltpeter)/congelation; Craft 30  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"blanch_bomb_cold_iron": {
 		"name": "Blanch bomb (cold iron)",
@@ -360,7 +377,8 @@
 			"",
 			"**Recipe** (100 cold iron + 50 phosphorus + 20 saltpeter)/congelation; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"blanch_bomb_silver": {
 		"name": "Blanch bomb (silver)",
@@ -377,7 +395,8 @@
 			"",
 			"**Recipe** (40 quicksilver + 15 saltpeter + 25 silver)/congelation; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"bloating_solution": {
 		"name": "Bloating solution",
@@ -392,7 +411,8 @@
 			"",
 			"**Recipe** (15 phosphorus + 30 salt + 20 urea)/distillation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** retort; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"bolt_acid": {
 		"name": "Bolt, acid",
@@ -413,7 +433,8 @@
 			"Craft (Alchemy) DC 25",
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"acid_bolt": {
 		"copyof": "bolt_acid"
@@ -434,7 +455,8 @@
 			"Craft (Alchemy) DC 25",
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"alchemical_fire_bolt": {
 		"copyof": "bolt_alchemical_fire"
@@ -455,7 +477,8 @@
 			"Craft (Alchemy) DC 25",
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"liquid_ice_bolt": {
 		"copyof": "bolt_liquid_ice"
@@ -476,7 +499,8 @@
 			"Craft (Alchemy) DC 20",
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"poison_bolt": {
 		"copyof": "bolt_poison"
@@ -495,7 +519,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"bottled_lightning": {
 		"name": "Bottled lightning",
@@ -511,7 +536,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"brewed_reek": {
 		"name": "Brewed reek",
@@ -527,7 +553,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"burst_jar": {
 		"name": "Burst jar",
@@ -543,7 +570,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"chroma_grenade": {
 		"name": "Chroma grenade",
@@ -559,7 +587,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"congealer_spray": {
 		"name": "Congealer spray",
@@ -574,7 +603,8 @@
 			"",
 			"**Recipe** (4 realgar + 5 salt + 5 urea)/distillation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** retort; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"consecrated_salts": {
 		"name": "Consecrated Salts",
@@ -590,7 +620,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"corrosenze": {
 		"name": "Corrosenze",
@@ -606,7 +637,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"cytillesh_stun_vial": {
 		"name": "Cytillesh stun vial",
@@ -622,7 +654,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"darkflare": {
 		"name": "Darkflare",
@@ -641,7 +674,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"deadground_dust": {
 		"name": "Deadground dust",
@@ -657,7 +691,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"desiccating_lubricant": {
 		"name": "Desiccating lubricant",
@@ -672,7 +707,8 @@
 			"",
 			"**Recipe** (25 cold iron + 10 salt + 10 urea)/congelation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"dung_grenade": {
 		"name": "Dung grenade",
@@ -688,7 +724,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"dust_knuckles": {
 		"name": "Dust knuckles",
@@ -709,7 +746,8 @@
 			"Diamond dust vial: Craft (Alchemy) DC 25",
 			"",
 			"**Note:** Stats are extrapolation from the original quantity of 4."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"dust_knuckles_diamond_dust_vial": {
 		"name": "Dust knuckles (diamond dust vial)",
@@ -733,7 +771,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"elemental_brine": {
 		"name": "Elemental brine",
@@ -751,7 +790,8 @@
 			"Creatures with the aquatic subtype that imbibe elemental brine become immune to poison, although poisons active when the brine is imbibed still run their course. If the creature dwells in saltwater, it also becomes undetectable by scent for the same duration. Both of these effects last 24 hours.",
 			"",
 			"Finally, elemental brine can be used as a splash weapon with a range increment of 10 feet. While it has little effect on most creatures (other than soaking them in salty water) when used in this way, a bottle of elemental brine is quite lethal if it's flung at a creature with the fire subtype. On a direct hit, a creature with the fire subtype takes 2d6 points of damage, and creatures with the fire subtype in adjacent squares take 1d4 points of damage. In addition, a direct hit against a creature with the fire subtype creates a unique interplay between elemental brine's salt and water and the creature's flames, making the target more conductive and thus more susceptible to electrocution. Anytime the target would take electricity damage within the next minute, it must succeed at a DC 20 Reflex save or take 1-1/2 times as much electricity damage as normal."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"elemental_flux_flask": {
 		"name": "Elemental flux (flask)",
@@ -767,7 +807,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"fiery_boulder": {
 		"name": "Fiery boulder",
@@ -793,7 +834,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_banshee_ballerina": {
 		"name": "Firework (banshee ballerina)",
@@ -809,7 +851,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_coughing_dragon": {
 		"name": "Firework (coughing dragon)",
@@ -825,7 +868,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_dancing_peonies": {
 		"name": "Firework (dancing peonies)",
@@ -840,7 +884,8 @@
 			"",
 			"**Recipe** (3 black powder + 20 magnesium + 3 saltpeter)/calcination; Craft 18  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_fire_wheel": {
 		"name": "Firework (fire wheel)",
@@ -856,7 +901,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_firecracker": {
 		"name": "Firework (firecracker)",
@@ -871,7 +917,8 @@
 			"",
 			"**Recipe** (1 black powder + 1 saltpeter)/calcination; Craft 20  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_firecracker_spirit": {
 		"name": "Firework (firecracker, spirit)",
@@ -886,7 +933,8 @@
 			"",
 			"**Recipe** (1 black powder + 6 brimstone + 4 saltpeter + 10 silver)/calcination; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"spirit_firework_firecracker": {
 		"copyof": "firework_firecracker_spirit"
@@ -907,7 +955,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_flashing_fiend": {
 		"name": "Firework (flashing fiend)",
@@ -923,7 +972,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_holy_fountain": {
 		"name": "Firework (holy fountain)",
@@ -941,7 +991,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_jumping_jenny": {
 		"name": "Firework (jumping jenny)",
@@ -956,7 +1007,8 @@
 			"",
 			"**Recipe** (1 black powder + 5 magnesium + 1 saltpeter)/calcination; Craft 16  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_paper_candle": {
 		"name": "Firework (paper candle)",
@@ -975,7 +1027,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_signal_rocket": {
 		"name": "Firework (signal rocket)",
@@ -991,7 +1044,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 15"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_skydragon": {
 		"name": "Firework (skydragon)",
@@ -1006,7 +1060,8 @@
 			"",
 			"**Recipe** (30 black powder + 30 magnesium + 40 phosphorus)/calcination; Craft 30  ",
 			"**Time** 1 day; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_skyrocket": {
 		"name": "Firework (skyrocket)",
@@ -1025,7 +1080,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_sparking_pinwheel": {
 		"name": "Firework (sparking pinwheel)",
@@ -1040,7 +1096,8 @@
 			"",
 			"**Recipe** (5 black powder + 15 magnesium + 30 phosphorus)/calcination; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_star_candle": {
 		"name": "Firework (star candle)",
@@ -1061,7 +1118,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"firework_starfountain": {
 		"name": "Firework (starfountain)",
@@ -1080,7 +1138,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"flash_powder": {
 		"name": "Flash powder",
@@ -1100,7 +1159,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"fuse_grenade": {
 		"name": "Fuse grenade",
@@ -1119,7 +1179,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"ghast_retch_flask": {
 		"name": "Ghast retch flask",
@@ -1135,7 +1196,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"hellfire_sparkler": {
 		"name": "Hellfire sparkler",
@@ -1151,7 +1213,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"holy_water": {
 		"name": "Holy water",
@@ -1172,7 +1235,8 @@
 			"A direct hit by a flask of holy water deals 2d4 points of damage to an undead creature or an evil outsider. Each such creature within 5 feet of the point where the flask hits takes 1 point of damage from the splash.",
 			"",
 			"Temples to good deities sell holy water at cost (making no profit). Holy water is made using the {spell/bless water} spell."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"holy_weapon_balm": {
 		"name": "Holy weapon balm",
@@ -1188,7 +1252,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"incendiary_catalyst": {
 		"name": "Incendiary catalyst",
@@ -1204,7 +1269,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"insomnia_powder": {
 		"name": "Insomnia powder",
@@ -1222,7 +1288,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"itching_powder": {
 		"name": "Itching powder",
@@ -1241,7 +1308,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"keros_oil": {
 		"name": "Keros oil",
@@ -1260,7 +1328,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 15"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"kitumus_ire": {
 		"name": "Kitumu's ire",
@@ -1276,7 +1345,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"liquid_blade": {
 		"name": "Liquid blade",
@@ -1292,7 +1362,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 15"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"liquid_ice": {
 		"name": "Liquid ice",
@@ -1312,7 +1383,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"lyddric_essence": {
 		"name": "Lyddric essence",
@@ -1327,7 +1399,8 @@
 			"",
 			"**Recipe** (15 brimstone + 3 cytillesh spores)/distillation; Craft 20  ",
 			"**Time** 1 day; **Tools** retort; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"mineral_acid": {
 		"name": "Mineral acid",
@@ -1343,7 +1416,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"mu_spore_secretions": {
 		"name": "Mu spore secretions",
@@ -1355,7 +1429,8 @@
 			"**Category** Alchemical Weapons",
 			"",
 			"These secretions are only one of the many spores and fluids that the mu spores of Orv produce, but this is one of the few that surface dwellers have learned to safely use. This clear secretion can be added to any alchemical weapon, including an alchemist's bombs, as a move action. When mixed in this way, the affected alchemical weapon ignores half the hardness of any wooden objects it strikes. Alternatively, against creatures primarily made of wood (such as treants or wood golems), such weapons ignore the first 5 points of damage reduction the creatures has."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"noxious_aromatic_flask": {
 		"name": "Noxious aromatic (flask)",
@@ -1371,7 +1446,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"noxious_pig": {
 		"name": "Noxious pig",
@@ -1397,7 +1473,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 35"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"pellet_grenade_adamantine": {
 		"name": "Pellet grenade (adamantine)",
@@ -1412,7 +1489,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"pellet_grenade_cold_iron": {
 		"name": "Pellet grenade (cold iron)",
@@ -1440,7 +1518,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"plague_powder": {
 		"name": "Plague powder",
@@ -1458,7 +1537,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"portable_hive": {
 		"name": "Portable hive",
@@ -1474,7 +1554,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"pox_burster": {
 		"name": "Pox burster",
@@ -1490,7 +1571,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"shadowcloy_flask": {
 		"name": "Shadowcloy flask",
@@ -1506,7 +1588,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"shard_gel": {
 		"name": "Shard gel",
@@ -1522,7 +1605,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"shriek_bomb": {
 		"name": "Shriek bomb",
@@ -1537,7 +1621,8 @@
 			"",
 			"**Recipe** (20 magnesium + 30 myrrh + 5 saltpeter)/congelation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"silvercloud_oil": {
 		"name": "Silvercloud oil",
@@ -1553,7 +1638,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"slime_grenade": {
 		"name": "Slime grenade",
@@ -1568,7 +1654,8 @@
 			"",
 			"**Recipe** (50 phosphorus + 75 quicksilver + 50 urea)/congelation; Craft 25  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"slime_slow": {
 		"name": "Slime slow",
@@ -1584,7 +1671,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"sneezing_powder": {
 		"name": "Sneezing powder",
@@ -1604,7 +1692,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"somnigrip": {
 		"name": "Somnigrip",
@@ -1620,7 +1709,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 20"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"specialty_smoke_pellet_pepper": {
 		"name": "Specialty smoke pellet (pepper)",
@@ -1639,7 +1729,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"specialty_smoke_pellet_smog": {
 		"name": "Specialty smoke pellet (smog)",
@@ -1655,7 +1746,8 @@
 			"**Category** Alchemical Weapons",
 			"",
 			"This pungent concoction can be thrown as a splash weapon to trigger unsustainable spore or pollen release in fungi and plants. Any plant creature in the square where the spore dehiscent lands must succeed at a DC 14 Fortitude save or immediately activate any of its effects based on spores or pollen, treating itself as the target or center of the effect. Fungal hazards like [russet mold](monster/vegepygmy) or [yellow mold](rule/slimes_molds_and_fungi) are activated automatically with no saving throw. Plant creatures or hazards in squares adjacent to the square of impact must each succeed at a DC 10 Fortitude save or suffer the same effect. Once the effect is triggered, the creature or hazard cannot activate the effect again for 1d4 rounds or until the effect could normally be used again, whichever is longer."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"stench_gas_bladder": {
 		"name": "Stench-gas bladder",
@@ -1667,7 +1759,8 @@
 			"**Category** Alchemical Weapons",
 			"",
 			"This thin bladder splits when it hits a target. You can throw a gas bladder as a ranged weapon with a range increment of 10 feet. Any creature struck by a gas bladder must succeed at a DC 14 Fortitude save or be sickened for 1d6 rounds."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"sting_grenade": {
 		"name": "Sting grenade",
@@ -1683,7 +1776,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"stormstone": {
 		"name": "Stormstone",
@@ -1700,7 +1794,8 @@
 			"",
 			"**Recipe** (15 black powder + 85 phosphorus)/digestion; Craft 30  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"suffocating_powder": {
 		"name": "Suffocating powder",
@@ -1717,7 +1812,8 @@
 			"",
 			"**Recipe** (50 brimstone + 50 phosphorus + 5 realgar)/sublimation; Craft 20  ",
 			"**Time** 1 hour; **Tools** retort; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"tangleburn_bag": {
 		"name": "Tangleburn bag",
@@ -1733,7 +1829,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 30"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"tanglefoot_bag": {
 		"name": "Tanglefoot bag",
@@ -1754,7 +1851,8 @@
 			"",
 			"**Recipe** (55 myrrh + 55 urea)/congelation; Craft 25  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"tanglefoot_bundle": {
 		"name": "Tanglefoot bundle",
@@ -1770,7 +1868,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 35"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"tar_bomb": {
 		"name": "Tar bomb",
@@ -1788,7 +1887,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 15"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"thunderclap_charge": {
 		"name": "Thunderclap charge",
@@ -1804,7 +1904,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"thunderstone": {
 		"name": "Thunderstone",
@@ -1825,7 +1926,8 @@
 			"",
 			"**Recipe** (7 saltpeter + 15 silver)/digestion; Craft 25  ",
 			"**Time** 1 day; **Tools** heat source; **Type** alchemical weapon"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"tress_tincture": {
 		"name": "Tress tincture",
@@ -1841,7 +1943,8 @@
 			"### Construction",
 			"",
 			"Craft (Alchemy) DC 25"
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"venomblock": {
 		"name": "Venomblock",
@@ -1853,7 +1956,8 @@
 			"**Category** Alchemical Weapons",
 			"",
 			"This light-blue liquid is rich with antibodies and other chemicals that block poison and disease and is usually contained in a tempered glass vial. Venomblock can be applied to a weapon like a injury poison (save Fort DC 14; frequency 1/round for 6 rounds; cure 2 saves), but every time the affected creature fails its Fortitude save, instead of dealing damage, venomblock suppresses the target's ability to transmit one randomly selected poison or disease through its natural attacks until the end of its next turn. This is a poison effect."
-		]
+		],
+		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
 	"arrow_iron_tipped_distance": {
 		"name": "Arrow, iron-tipped distance",
@@ -1868,7 +1972,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"arrow": {
 		"name": "Arrow",
@@ -1886,7 +1991,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"atlatl_dart": {
 		"name": "Atlatl dart",
@@ -1899,7 +2005,8 @@
 			"",
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"bamboo_shaft_arrows": {
 		"name": "Bamboo shaft arrows",
@@ -1917,7 +2024,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"barbed_arrow": {
 		"name": "Barbed arrow",
@@ -1932,7 +2040,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"blowgun_darts": {
 		"name": "Blowgun darts",
@@ -1951,7 +2060,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"blunt_arrows": {
 		"name": "Blunt arrows",
@@ -1969,7 +2079,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"bolas_bolts": {
 		"name": "Bolas bolts",
@@ -1986,7 +2097,8 @@
 			"",
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"bolts_heartstake": {
 		"name": "Bolts, heartstake",
@@ -2001,7 +2113,8 @@
 			"",
 			"**Cost** 20 gp **Weight** 0.6 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"bullets_groaning": {
 		"name": "Bullets, groaning",
@@ -2016,7 +2129,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"crossbow_bolts": {
 		"name": "Crossbow bolts",
@@ -2034,7 +2148,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"featherweight_dart": {
 		"name": "Featherweight dart",
@@ -2047,7 +2162,8 @@
 			"",
 			"**Cost** 0.1 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"flight_arrows": {
 		"name": "Flight arrows",
@@ -2065,7 +2181,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"halfling_little_starstones": {
 		"name": "Halfling little starstones",
@@ -2080,7 +2197,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"halfling_sharpstones": {
 		"name": "Halfling sharpstones",
@@ -2095,7 +2213,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"halfling_softstones": {
 		"name": "Halfling softstones",
@@ -2110,7 +2229,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"halfling_spongestones": {
 		"name": "Halfling spongestones",
@@ -2125,7 +2245,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"incendiary_arrow": {
 		"name": "Incendiary arrow",
@@ -2140,7 +2261,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"kestros_dart": {
 		"name": "Kestros dart",
@@ -2155,7 +2277,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"pronged_arrow": {
 		"name": "Pronged arrow",
@@ -2170,7 +2293,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"repeating_crossbow_bolts": {
 		"name": "Repeating crossbow bolts",
@@ -2188,7 +2312,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 5."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"sling_bullets": {
 		"name": "Sling bullets",
@@ -2206,7 +2331,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"smoke_arrow": {
 		"name": "Smoke arrow",
@@ -2224,7 +2350,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"thistle_arrow": {
 		"name": "Thistle arrow",
@@ -2242,7 +2369,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"throwing_arrow": {
 		"name": "Throwing arrow",
@@ -2255,7 +2383,8 @@
 			"",
 			"**Cost** 0.5 gp **Weight** 0.5 lb.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"whistling_arrows": {
 		"name": "Whistling arrows",
@@ -2274,61 +2403,8 @@
 			"**Category** Ammunition; **Proficiency** Ammunition",
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
-		]
-	},
-	"ballista_net": {
-		"name": "Ballista net",
-		"sources": [ "Dragonslayer's Handbook" ],
-		"description": [
-			"## Ballista net",
-			"{SOURCE Dragonslayer's Handbook/27}",
-			"",
-			"This ballista bolt is specially equipped with a net which unfurls as the bolt flies toward its target. Unlike a standard ballista bolt, a ballista net requires only a touch attack to hit. If a ballista net hits, it deals no damage, but causes the target to become entangled. An entangled creature takes a -2 penalty on attack rolls and a -4 penalty to Dexterity, can move at only half speed, and cannot charge or run.",
-			"",
-			"**Cost** 75 gp **Weight** 15 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
-		]
-	},
-	"flak": {
-		"name": "Flak",
-		"sources": [ "Dragonslayer's Handbook" ],
-		"description": [
-			"## Flak",
-			"{SOURCE Dragonslayer's Handbook/27}",
-			"",
-			"Flak ammunition is a type of short-fused bomb, specifically designed to explode in midair. Flak ammunition is packed with steel balls and black powder, and may be fired from a bombard or catapult. When flak explodes, it deals 4d6 points of piercing and bludgeoning damage to all creatures and objects within 40 feet of the target square. A flak bomb must reach an altitude of at least 50 feet to function properly. If flak ammunition impacts anything before it reaches this altitude, the bomb deals 1d6 points of bludgeoning damage and fails to explode.",
-			"",
-			"**Cost** 500 gp **Weight** 30 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
-		]
-	},
-	"flechette_bolt": {
-		"name": "Flechette bolt",
-		"sources": [ "Dragonslayer's Handbook" ],
-		"description": [
-			"## Flechette bolt",
-			"{SOURCE Dragonslayer's Handbook/27}",
-			"",
-			"This ballista bolt consists of dozens of small steel darts, called flechettes, which break away after the bolt is released. If the bolt impacts anything before it reaches a distance of 30 feet, it deals 1d8 points of damage. Between 30 and 60 feet away, the flechettes deploy, dealing piercing damage to every creature and object within a 30-foot-cone burst. After 60 feet, the flechettes lose momentum and fall harmlessly to the ground.",
-			"",
-			"Separate attack rolls must be made against each target hit by the burst. Light ballista flechettes deal 2d8 points of damage, while heavy ballista flechettes deal 3d8 points. Additionally, any winged creature hit by flechettes has several holes punched in its wings, and has its fly speed reduced by 10 feet. The creature takes a -4 penalty on Fly checks until the damage is healed.",
-			"",
-			"**Cost** 30 gp **Weight** 20 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
-		]
-	},
-	"weighted_bolt": {
-		"name": "Weighted bolt",
-		"sources": [ "Dragonslayer's Handbook" ],
-		"description": [
-			"## Weighted bolt",
-			"{SOURCE Dragonslayer's Handbook/27}",
-			"",
-			"This barbed ballista bolt is equipped with a heavy weight at the end of a long chain. The bolt's extra weight makes the bolt harder to fire accurately, and imposes a -2 penalty on attack rolls. In addition to the normal damage dealt by a ballista bolt of its size, on a successful hit the weighted bolt lodges itself into the target's body, leaving the weighted chain hanging loosely, imparting a -5 penalty on all Fly checks made by the target. These penalties stack if a target is hit with multiple weighted bolts. A weighted bolt can be removed with a successful DC 25 Heal check or a DC 20 Strength check.",
-			"",
-			"**Cost** 50 gp **Weight** 40 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"battle_aspergillum": {
 		"name": "Battle aspergillum",
@@ -2345,8 +2421,9 @@
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers"
-		]
+			"**{ability/Weapon Group>s}** Hammers"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"brass_knife": {
 		"name": "Brass knife",
@@ -2362,7 +2439,8 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** fragile  ",
 			"**Category** Light; **Proficiency** Simple"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"brass_knuckles": {
 		"name": "Brass knuckles",
@@ -2380,8 +2458,9 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Monk"
-		]
+			"**{ability/Weapon Group>s}** Close; Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"cestus": {
 		"name": "Cestus",
@@ -2399,8 +2478,9 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B or P; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Monk"
-		]
+			"**{ability/Weapon Group>s}** Close; Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"dagger": {
 		"name": "Dagger",
@@ -2417,8 +2497,9 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Thrown; Tribal"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light; Thrown; Tribal"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"gauntlet": {
 		"name": "Gauntlet",
@@ -2435,8 +2516,9 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"hanbo": {
 		"name": "Hanbo",
@@ -2450,8 +2532,9 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, trip  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Monk"
-		]
+			"**{ability/Weapon Group>s}** Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"handwraps": {
 		"name": "Handwraps",
@@ -2465,7 +2548,8 @@
 			"**Cost** 0.1 gp **Weight** -  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
 			"**Category** Light; **Proficiency** Simple"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"hook_hand": {
 		"name": "Hook hand",
@@ -2483,7 +2567,8 @@
 			"**Cost** 10 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm  ",
 			"**Category** Light; **Proficiency** Simple"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"kunai": {
 		"name": "Kunai",
@@ -2497,7 +2582,8 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B or P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"light_mace": {
 		"name": "Light mace",
@@ -2514,8 +2600,9 @@
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers"
-		]
+			"**{ability/Weapon Group>s}** Hammers"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"punching_dagger": {
 		"name": "Punching dagger",
@@ -2532,8 +2619,9 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"katar": {
 		"name": "Katar",
@@ -2549,8 +2637,9 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"sickle": {
 		"name": "Sickle",
@@ -2567,8 +2656,9 @@
 			"**Cost** 6 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** trip  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"spider_leg_sickle": {
 		"name": "Spider-leg sickle",
@@ -2582,7 +2672,8 @@
 			"**Cost** 15 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** trip  ",
 			"**Category** Light; **Proficiency** Simple"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"spiked_gauntlet": {
 		"name": "Spiked gauntlet",
@@ -2599,8 +2690,9 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"spring_blade": {
 		"name": "Spring blade",
@@ -2614,7 +2706,8 @@
 			"**Cost** 70 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"traveling_kettle": {
 		"name": "Traveling kettle",
@@ -2628,8 +2721,9 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Monk"
-		]
+			"**{ability/Weapon Group>s}** Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"wooden_stake": {
 		"name": "Wooden stake",
@@ -2648,8 +2742,9 @@
 			"**Cost** - **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"baston_fighting_stick": {
 		"name": "Baston fighting stick",
@@ -2663,7 +2758,8 @@
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
 			"**Category** One-Handed; **Proficiency** Simple"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"club": {
 		"name": "Club",
@@ -2680,8 +2776,9 @@
 			"**Cost** - **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers; Thrown; Tribal"
-		]
+			"**{ability/Weapon Group>s}** Hammers; Thrown; Tribal"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"heavy_mace": {
 		"name": "Heavy mace",
@@ -2698,8 +2795,9 @@
 			"**Cost** 12 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers"
-		]
+			"**{ability/Weapon Group>s}** Hammers"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"mere_club": {
 		"name": "Mere club",
@@ -2716,8 +2814,9 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** fragile  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Hammers"
-		]
+			"**{ability/Weapon Group>s}** Close; Hammers"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"morningstar": {
 		"name": "Morningstar",
@@ -2734,8 +2833,9 @@
 			"**Cost** 8 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B and P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"shortspear": {
 		"name": "Shortspear",
@@ -2752,8 +2852,9 @@
 			"**Cost** 1 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears; Thrown; Tribal"
-		]
+			"**{ability/Weapon Group>s}** Spears; Thrown; Tribal"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"bayonet": {
 		"name": "Bayonet",
@@ -2773,8 +2874,9 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Close"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light; Close"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"boar_spear": {
 		"name": "Boar spear",
@@ -2791,8 +2893,9 @@
 			"**Cost** 5 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** brace, see text  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears"
-		]
+			"**{ability/Weapon Group>s}** Spears"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"boarding_pike": {
 		"name": "Boarding pike",
@@ -2809,7 +2912,8 @@
 			"**Cost** 8 gp **Weight** 9 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Simple"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"kumade": {
 		"name": "Kumade",
@@ -2823,8 +2927,9 @@
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** grapple  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"kumade_collapsible": {
 		"name": "Kumade, collapsible",
@@ -2838,8 +2943,9 @@
 			"**Cost** 10 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** grapple  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"lantern_staff": {
 		"name": "Lantern staff",
@@ -2853,8 +2959,9 @@
 			"**Cost** 15 gp **Weight** 9 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers"
-		]
+			"**{ability/Weapon Group>s}** Hammers"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"longspear": {
 		"name": "Longspear",
@@ -2871,8 +2978,9 @@
 			"**Cost** 5 gp **Weight** 9 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears"
-		]
+			"**{ability/Weapon Group>s}** Spears"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"quarterstaff": {
 		"name": "Quarterstaff",
@@ -2889,8 +2997,9 @@
 			"**Cost** - **Weight** 4 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** double, monk  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Double; Monk"
-		]
+			"**{ability/Weapon Group>s}** Double; Monk"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"spear": {
 		"name": "Spear",
@@ -2907,8 +3016,9 @@
 			"**Cost** 2 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears; Thrown; Tribal"
-		]
+			"**{ability/Weapon Group>s}** Spears; Thrown; Tribal"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"weighted_spear": {
 		"name": "Weighted spear",
@@ -2922,8 +3032,9 @@
 			"**Cost** 10 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;2; **Range** -; **Type** B or P; **Special** brace, double  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Double; Spears"
-		]
+			"**{ability/Weapon Group>s}** Double; Spears"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"blowgun": {
 		"name": "Blowgun",
@@ -2937,13 +3048,14 @@
 			"## Blowgun",
 			"{SOURCE Ranged Tactics Toolbox/0;Pathfinder Campaign Setting/209;PRPG Core Rulebook/142;Ultimate Equipment/17}",
 			"",
-			"Blowguns are generally used to deliver debilitating (but rarely fatal) [poisons](main/equipment_poisons) from a distance. They are nearly silent when fired.",
+			"Blowguns are generally used to deliver debilitating (but rarely fatal) {main/equipment_<poisons} from a distance. They are nearly silent when fired.",
 			"",
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1 (small), 1d2 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"dart": {
 		"name": "Dart",
@@ -2961,8 +3073,9 @@
 			"**Cost** 0.5 gp **Weight** 0.5 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"heavy_crossbow": {
 		"name": "Heavy crossbow",
@@ -2982,8 +3095,9 @@
 			"**Cost** 50 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"javelin": {
 		"name": "Javelin",
@@ -3002,8 +3116,9 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Spears; Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"light_crossbow": {
 		"name": "Light crossbow",
@@ -3023,8 +3138,9 @@
 			"**Cost** 35 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"sling": {
 		"name": "Sling",
@@ -3044,8 +3160,9 @@
 			"**Cost** - **Weight** -  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"stingchuck": {
 		"name": "Stingchuck",
@@ -3059,7 +3176,8 @@
 			"**Cost** - **Weight** 9 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Simple"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"stonebow": {
 		"name": "Stonebow",
@@ -3077,7 +3195,8 @@
 			"**Cost** 35 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"underwater_heavy_crossbow": {
 		"name": "Underwater heavy crossbow",
@@ -3095,8 +3214,9 @@
 			"**Cost** 100 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"underwater_light_crossbow": {
 		"name": "Underwater light crossbow",
@@ -3114,8 +3234,9 @@
 			"**Cost** 70 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"blade_boot": {
 		"name": "Blade boot",
@@ -3129,7 +3250,8 @@
 			"**Cost** 25 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** see text  ",
 			"**Category** Light; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"boarding_axe": {
 		"name": "Boarding axe",
@@ -3147,8 +3269,9 @@
 			"**Cost** 6 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"butterfly_sword": {
 		"name": "Butterfly sword",
@@ -3165,8 +3288,9 @@
 			"**Cost** 20 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Monk"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light; Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"cat_o_nine_tails": {
 		"name": "Cat-o'-nine-tails",
@@ -3184,8 +3308,9 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, nonlethal  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"dogslicer": {
 		"name": "Dogslicer",
@@ -3206,8 +3331,9 @@
 			"**Cost** 8 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"dueling_dagger": {
 		"name": "Dueling dagger",
@@ -3221,8 +3347,9 @@
 			"**Cost** 12 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light; Thrown"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"gladius": {
 		"name": "Gladius",
@@ -3239,8 +3366,9 @@
 			"**Cost** 15 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** performance  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"handaxe": {
 		"name": "Handaxe",
@@ -3257,8 +3385,9 @@
 			"**Cost** 6 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes; Tribal"
-		]
+			"**{ability/Weapon Group>s}** Axes; Tribal"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"iron_brush": {
 		"name": "Iron brush",
@@ -3275,8 +3404,9 @@
 			"**Cost** 2 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"jutte": {
 		"name": "Jutte",
@@ -3293,8 +3423,9 @@
 			"**Cost** 8 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Monk"
-		]
+			"**{ability/Weapon Group>s}** Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"katar_tri_bladed": {
 		"name": "Katar, tri-bladed",
@@ -3312,8 +3443,9 @@
 			"**Cost** 6 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"kerambit": {
 		"name": "Kerambit",
@@ -3330,8 +3462,9 @@
 			"**Cost** 2 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"kukri": {
 		"name": "Kukri",
@@ -3348,8 +3481,9 @@
 			"**Cost** 8 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"light_hammer": {
 		"name": "Light hammer",
@@ -3366,8 +3500,9 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Hammers; Thrown"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"light_pick": {
 		"name": "Light pick",
@@ -3384,8 +3519,9 @@
 			"**Cost** 4 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"lungchuan_tamo": {
 		"name": "Lungchuan tamo",
@@ -3402,7 +3538,8 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P or S; **Special** monk  ",
 			"**Category** Light; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"machete": {
 		"name": "Machete",
@@ -3416,8 +3553,9 @@
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"sap": {
 		"name": "Sap",
@@ -3434,8 +3572,9 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** nonlethal  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"sea_knife": {
 		"name": "Sea-knife",
@@ -3449,7 +3588,8 @@
 			"**Cost** 8 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"shang_gou": {
 		"name": "Shang gou",
@@ -3466,8 +3606,9 @@
 			"**Cost** 6 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm or trip, monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Monk"
-		]
+			"**{ability/Weapon Group>s}** Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"short_sword": {
 		"name": "Short sword",
@@ -3484,8 +3625,9 @@
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"starknife": {
 		"name": "Starknife",
@@ -3506,8 +3648,9 @@
 			"**Cost** 24 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light; Thrown"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"switchblade_knife": {
 		"name": "Switchblade knife",
@@ -3521,7 +3664,8 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"tailblade_ratfolk": {
 		"name": "Tailblade, ratfolk",
@@ -3535,7 +3679,8 @@
 			"**Cost** 11 gp **Weight** 0.5 lb.  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"throwing_axe": {
 		"name": "Throwing axe",
@@ -3552,8 +3697,9 @@
 			"**Cost** 8 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes; Thrown; Tribal"
-		]
+			"**{ability/Weapon Group>s}** Axes; Thrown; Tribal"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"tonfa": {
 		"name": "Tonfa",
@@ -3570,8 +3716,9 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** blocking, monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Monk"
-		]
+			"**{ability/Weapon Group>s}** Close; Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"war_razor": {
 		"name": "War razor",
@@ -3591,8 +3738,9 @@
 			"**Cost** 8 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"wushu_dart": {
 		"name": "Wushu dart",
@@ -3609,8 +3757,9 @@
 			"**Cost** 0.2 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Monk; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Close; Monk; Thrown"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"ankus": {
 		"name": "Ankus",
@@ -3624,8 +3773,9 @@
 			"**Cost** 8 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, trip  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"battleaxe": {
 		"name": "Battleaxe",
@@ -3642,8 +3792,9 @@
 			"**Cost** 10 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"combat_scabbard": {
 		"name": "Combat scabbard",
@@ -3657,7 +3808,8 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** improvised, see text  ",
 			"**Category** One-Handed; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"combat_scabbard_sharpened": {
 		"name": "Combat scabbard, sharpened",
@@ -3671,7 +3823,8 @@
 			"**Cost** 10 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"sharpened_combat_scabbard": {
 		"copyof": "combat_scabbard_sharpened"
@@ -3693,8 +3846,9 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"double_chicken_saber": {
 		"name": "Double chicken saber",
@@ -3711,8 +3865,9 @@
 			"**Cost** 12 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** disarm, monk  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy; Monk"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"gandasa": {
 		"name": "Gandasa",
@@ -3726,8 +3881,9 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"heavy_pick": {
 		"name": "Heavy pick",
@@ -3744,8 +3900,9 @@
 			"**Cost** 8 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"light_flail": {
 		"name": "Light flail",
@@ -3762,8 +3919,9 @@
 			"**Cost** 8 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"longsword": {
 		"name": "Longsword",
@@ -3780,8 +3938,9 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"manople": {
 		"name": "Manople",
@@ -3795,8 +3954,9 @@
 			"**Cost** 17 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** blocking, disarm  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"nine_ring_broadsword": {
 		"name": "Nine-ring broadsword",
@@ -3813,8 +3973,9 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** monk  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy; Monk"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"rapier": {
 		"name": "Rapier",
@@ -3831,8 +3992,9 @@
 			"**Cost** 20 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"scimitar": {
 		"name": "Scimitar",
@@ -3849,8 +4011,9 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"scizore": {
 		"name": "Scizore",
@@ -3868,8 +4031,9 @@
 			"**Cost** 20 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Close"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light; Close"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"sibat": {
 		"name": "Sibat",
@@ -3887,8 +4051,9 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P or S; **Special** grapple  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Spears; Thrown"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"sword_cane": {
 		"name": "Sword cane",
@@ -3905,8 +4070,9 @@
 			"**Cost** 45 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"terbutje": {
 		"name": "Terbutje",
@@ -3923,8 +4089,9 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"terbutje_steel": {
 		"name": "Terbutje, steel",
@@ -3938,7 +4105,8 @@
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"steel_terbutje": {
 		"copyof": "terbutje_steel"
@@ -3958,8 +4126,9 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** brace  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Spears; Thrown"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"warhammer": {
 		"name": "Warhammer",
@@ -3976,8 +4145,9 @@
 			"**Cost** 12 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers"
-		]
+			"**{ability/Weapon Group>s}** Hammers"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"bardiche": {
 		"name": "Bardiche",
@@ -3995,8 +4165,9 @@
 			"**Cost** 13 gp **Weight** 14 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes; Polearms"
-		]
+			"**{ability/Weapon Group>s}** Axes; Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"bec_de_corbin": {
 		"name": "Bec de corbin",
@@ -4014,8 +4185,9 @@
 			"**Cost** 15 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** B or P; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"bill": {
 		"name": "Bill",
@@ -4033,8 +4205,9 @@
 			"**Cost** 11 gp **Weight** 11 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** brace, disarm, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"earth_breaker": {
 		"name": "Earth breaker",
@@ -4056,8 +4229,9 @@
 			"**Cost** 40 gp **Weight** 14 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers"
-		]
+			"**{ability/Weapon Group>s}** Hammers"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"falchion": {
 		"name": "Falchion",
@@ -4074,8 +4248,9 @@
 			"**Cost** 75 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"glaive": {
 		"name": "Glaive",
@@ -4092,8 +4267,9 @@
 			"**Cost** 8 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"glaive_guisarme": {
 		"name": "Glaive-guisarme",
@@ -4111,8 +4287,9 @@
 			"**Cost** 12 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"greataxe": {
 		"name": "Greataxe",
@@ -4129,8 +4306,9 @@
 			"**Cost** 20 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"greatclub": {
 		"name": "Greatclub",
@@ -4147,8 +4325,9 @@
 			"**Cost** 5 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers; Tribal"
-		]
+			"**{ability/Weapon Group>s}** Hammers; Tribal"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"greatsword": {
 		"name": "Greatsword",
@@ -4165,7 +4344,8 @@
 			"**Cost** 50 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	}
 }

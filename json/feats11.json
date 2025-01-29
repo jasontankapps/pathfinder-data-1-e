@@ -2560,6 +2560,7 @@
 			"**Benefit:** A stilled spell can be cast with no somatic components. Spells without somatic components are not affected. A stilled spell uses up a spell slot one level higher than the spell's actual level."
 		]
 	},
+	"still": { "copyof": "still_spell" },
 	"stock_striker_style": {
 		"name": "Stock-Striker Style",
 		"sources": [ "People of the Wastes" ],

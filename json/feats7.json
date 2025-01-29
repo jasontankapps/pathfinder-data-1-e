@@ -2201,6 +2201,8 @@
 			"**Special:** Bard spells cannot be enhanced by this feat."
 		]
 	},
+	"silenced": { "copyof": "silent_spell" },
+	"silent": { "copyof": "silent_spell" },
 	"simple_weapon_proficiency": {
 		"name": "Simple Weapon Proficiency",
 		"sources": [ "PRPG Core Rulebook" ],

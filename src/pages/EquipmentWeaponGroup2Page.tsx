@@ -4,7 +4,7 @@ import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [ ["Main", "main/main"], ["Equipment", "main/equipment"], ["Weapons", "main/equipment_weapons"]];
+const hierarchy: HierarchyArray = [ ["Main", "main/main"], ["Equipment", "main/equipment"] ];
 
 type Data = typeof equipment_weapons;
 
@@ -22,7 +22,7 @@ const EquipmentWeaponGroup2Page: React.FC<EquipProps> = ({id}) => {
 		title={title}
 		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		topLink={["Weapons", "main/equipment_weapons"]}
+		topLink={subhierarchy.length ? subhierarchy[0] : hierarchy[1]}
 	>{jsx}</BasicPage>;
 };
 

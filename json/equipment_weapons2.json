@@ -14,8 +14,9 @@
 			"**Cost** 9 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"halberd": {
 		"name": "Halberd",
@@ -32,8 +33,9 @@
 			"**Cost** 10 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"heavy_flail": {
 		"name": "Heavy flail",
@@ -50,8 +52,9 @@
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"hooked_lance": {
 		"name": "Hooked lance",
@@ -68,8 +71,9 @@
 			"**Cost** 3 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"horsechopper": {
 		"name": "Horsechopper",
@@ -89,8 +93,9 @@
 			"**Cost** 10 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"lance": {
 		"name": "Lance",
@@ -107,8 +112,9 @@
 			"**Cost** 10 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears"
-		]
+			"**{ability/Weapon Group>s}** Spears"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"lucerne_hammer": {
 		"name": "Lucerne hammer",
@@ -126,8 +132,9 @@
 			"**Cost** 15 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"mattock": {
 		"name": "Mattock",
@@ -141,8 +148,9 @@
 			"**Cost** 12 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** fragile  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"monks_spade": {
 		"name": "Monk's spade",
@@ -159,8 +167,9 @@
 			"**Cost** 20 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B or P or S; **Special** double, monk  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Double; Monk; Polearms"
-		]
+			"**{ability/Weapon Group>s}** Double; Monk; Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"naginata": {
 		"name": "Naginata",
@@ -177,8 +186,9 @@
 			"**Cost** 35 gp **Weight** 9 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** S; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"nodachi": {
 		"name": "Nodachi",
@@ -195,8 +205,9 @@
 			"**Cost** 60 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S or P; **Special** brace  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy; Polearms"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy; Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"ogre_hook": {
 		"name": "Ogre hook",
@@ -216,8 +227,9 @@
 			"**Cost** 24 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"planson": {
 		"name": "Planson",
@@ -231,8 +243,9 @@
 			"**Cost** 10 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** brace  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers; Spears"
-		]
+			"**{ability/Weapon Group>s}** Hammers; Spears"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"ranseur": {
 		"name": "Ranseur",
@@ -249,8 +262,9 @@
 			"**Cost** 10 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** disarm, reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"rhomphaia": {
 		"name": "Rhomphaia",
@@ -264,7 +278,8 @@
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, fragile, reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"sansetsukon": {
 		"name": "Sansetsukon",
@@ -281,8 +296,9 @@
 			"**Cost** 8 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** blocking, disarm, monk  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails; Monk"
-		]
+			"**{ability/Weapon Group>s}** Flails; Monk"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"sarissa": {
 		"name": "Sarissa",
@@ -296,7 +312,8 @@
 			"**Cost** 12 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"scythe": {
 		"name": "Scythe",
@@ -313,8 +330,9 @@
 			"**Cost** 18 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"syringe_spear": {
 		"name": "Syringe spear",
@@ -328,7 +346,8 @@
 			"**Cost** 100 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"tepoztopilli": {
 		"name": "Tepoztopilli",
@@ -342,7 +361,8 @@
 			"**Cost** 8 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** fragile, reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"tiger_fork": {
 		"name": "Tiger fork",
@@ -359,8 +379,9 @@
 			"**Cost** 5 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** brace, monk  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Monk; Polearms; Spears"
-		]
+			"**{ability/Weapon Group>s}** Monk; Polearms; Spears"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"tri_point_double_edged_sword": {
 		"name": "Tri-point double-edged sword",
@@ -377,8 +398,9 @@
 			"**Cost** 12 gp **Weight** 14 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Monk"
-		]
+			"**{ability/Weapon Group>s}** Monk"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"amentum": {
 		"name": "Amentum",
@@ -396,8 +418,9 @@
 			"**Cost** - **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** P; **Special** performance  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Spears; Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"atlatl": {
 		"name": "Atlatl",
@@ -414,8 +437,9 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"chakram": {
 		"name": "Chakram",
@@ -434,8 +458,9 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** S; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy; Blades, Light; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy; Blades, Light; Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"composite_longbow": {
 		"name": "Composite longbow",
@@ -455,8 +480,9 @@
 			"**Cost** 100 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 110 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Bows"
-		]
+			"**{ability/Weapon Group>s}** Bows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"composite_shortbow": {
 		"name": "Composite shortbow",
@@ -476,8 +502,9 @@
 			"**Cost** 75 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 70 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Bows"
-		]
+			"**{ability/Weapon Group>s}** Bows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"gastraphetes": {
 		"name": "Gastraphetes",
@@ -491,7 +518,8 @@
 			"**Cost** 65 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"hunga_munga": {
 		"name": "Hunga munga",
@@ -509,8 +537,9 @@
 			"**Cost** 4 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 15 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light; Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"hurlbat": {
 		"name": "Hurlbat",
@@ -524,7 +553,8 @@
 			"**Cost** 8 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P and S; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"jolting_dart": {
 		"name": "Jolting dart",
@@ -538,7 +568,8 @@
 			"**Cost** 100 gp **Weight** 0.5 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"longbow": {
 		"name": "Longbow",
@@ -556,8 +587,9 @@
 			"**Cost** 75 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 100 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Bows"
-		]
+			"**{ability/Weapon Group>s}** Bows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"phaleros": {
 		"name": "Phaleros",
@@ -571,7 +603,8 @@
 			"**Cost** 5 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"pilum": {
 		"name": "Pilum",
@@ -590,8 +623,9 @@
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Spears; Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"poisoned_sand_tube": {
 		"name": "Poisoned sand tube",
@@ -609,8 +643,9 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** special (small), special (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"reflex_bow": {
 		"name": "Reflex bow",
@@ -624,7 +659,8 @@
 			"**Cost** 125 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 100 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"shortbow": {
 		"name": "Shortbow",
@@ -642,8 +678,9 @@
 			"**Cost** 30 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 60 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Bows"
-		]
+			"**{ability/Weapon Group>s}** Bows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"spear_sling": {
 		"name": "Spear-sling",
@@ -659,7 +696,8 @@
 			"**Cost** 50 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** see text; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"throwing_arrow_cord": {
 		"name": "Throwing arrow cord",
@@ -673,7 +711,8 @@
 			"**Cost** - **Weight** -  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 60 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"tube_arrow_shooter": {
 		"name": "Tube arrow shooter",
@@ -691,8 +730,9 @@
 			"**Cost** 3 gp **Weight** 0.5 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 40 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"aklys": {
 		"name": "Aklys",
@@ -711,8 +751,9 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** performance, trip  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Hammers; Thrown"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"axe_gauntlet_dwarven_light": {
 		"name": "Axe-gauntlet, dwarven light",
@@ -726,8 +767,9 @@
 			"**Cost** 16 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** blocking, disarm  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes; Close"
-		]
+			"**{ability/Weapon Group>s}** Axes; Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"axe_gauntlet_dwarven_heavy": {
 		"name": "Axe-gauntlet, dwarven heavy",
@@ -741,8 +783,9 @@
 			"**Cost** 21 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** blocking, disarm  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes; Close"
-		]
+			"**{ability/Weapon Group>s}** Axes; Close"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"barbazu_beard": {
 		"name": "Barbazu beard",
@@ -758,7 +801,8 @@
 			"**Cost** 25 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"battle_poi": {
 		"name": "Battle poi",
@@ -775,8 +819,9 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 fire (small), 1d4 fire (medium); **Critical** &times;2; **Range** -; **Type** fire; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"butterfly_knife": {
 		"name": "Butterfly knife",
@@ -790,8 +835,9 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"dan_bong": {
 		"name": "Dan bong",
@@ -808,8 +854,9 @@
 			"**Cost** 0.1 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** B; **Special** blocking, monk, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Monk"
-		]
+			"**{ability/Weapon Group>s}** Close; Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"deer_horn_knife": {
 		"name": "Deer horn knife",
@@ -823,8 +870,9 @@
 			"**Cost** 10 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** blocking, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Monk; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light; Monk; Thrown"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"dwarven_maulaxe": {
 		"name": "Dwarven maulaxe",
@@ -841,7 +889,8 @@
 			"**Cost** 25 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"elven_leafblade": {
 		"name": "Elven leafblade",
@@ -855,7 +904,8 @@
 			"**Cost** 40 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"emei_piercer": {
 		"name": "Emei piercer",
@@ -872,8 +922,9 @@
 			"**Cost** 3 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Monk"
-		]
+			"**{ability/Weapon Group>s}** Close; Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"fighting_fan": {
 		"name": "Fighting fan",
@@ -885,13 +936,14 @@
 			"## Fighting fan",
 			"{SOURCE Ultimate Equipment/20;Ultimate Combat/130}",
 			"",
-			"Made to resemble a courtier's fan, this device consists of silk paper stretched and folded over a folding frame of hardened steel. Folding fans are typically wielded in pairs using a technique that distracts the opponent. The fans sport sharp tips, which can be [poisoned](main/equipment_poisons).",
+			"Made to resemble a courtier's fan, this device consists of silk paper stretched and folded over a folding frame of hardened steel. Folding fans are typically wielded in pairs using a technique that distracts the opponent. The fans sport sharp tips, which can be {main/equipment_<poison/ed>s}.",
 			"",
 			"**Cost** 5 gp **Weight** -  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** distracting, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Monk"
-		]
+			"**{ability/Weapon Group>s}** Close; Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"flying_talon": {
 		"name": "Flying talon",
@@ -905,8 +957,9 @@
 			"**Cost** 15 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** disarm, reach, trip, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"gnome_pincher": {
 		"name": "Gnome pincher",
@@ -920,8 +973,9 @@
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"halfling_rope_shot": {
 		"name": "Halfling rope-shot",
@@ -935,8 +989,9 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"helmet_dwarven_boulder": {
 		"name": "Helmet, dwarven boulder",
@@ -950,7 +1005,8 @@
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"dwarven_boulder_helmet": {
 		"copyof": "helmet_dwarven_boulder"
@@ -970,8 +1026,9 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** monk, trip  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Monk"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light; Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"kasatha_spinal_sword": {
 		"name": "Kasatha spinal sword",
@@ -985,7 +1042,8 @@
 			"**Cost** 50 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** fragile  ",
 			"**Category** Light; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"knuckle_axe": {
 		"name": "Knuckle axe",
@@ -1002,8 +1060,9 @@
 			"**Cost** 9 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** monk, performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"nunchaku": {
 		"name": "Nunchaku",
@@ -1020,8 +1079,9 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails; Monk"
-		]
+			"**{ability/Weapon Group>s}** Flails; Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"pata": {
 		"name": "Pata",
@@ -1041,8 +1101,9 @@
 			"**Cost** 14 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes; Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Axes; Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"quadrens": {
 		"name": "Quadrens",
@@ -1059,8 +1120,9 @@
 			"**Cost** 8 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"razor_drow": {
 		"name": "Razor, drow",
@@ -1074,8 +1136,9 @@
 			"**Cost** 25 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"drow_razor": {
 		"copyof": "razor_drow"
@@ -1095,8 +1158,9 @@
 			"**Cost** 0.2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B (or S); **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"sai": {
 		"name": "Sai",
@@ -1113,8 +1177,9 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Monk"
-		]
+			"**{ability/Weapon Group>s}** Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"sanpkhang": {
 		"name": "Sanpkhang",
@@ -1128,8 +1193,9 @@
 			"**Cost** 60 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Monk"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light; Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"scorpion_whip": {
 		"name": "Scorpion whip",
@@ -1148,8 +1214,9 @@
 			"**Cost** 5 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"siangham": {
 		"name": "Siangham",
@@ -1166,8 +1233,9 @@
 			"**Cost** 3 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Monk"
-		]
+			"**{ability/Weapon Group>s}** Monk"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"sica": {
 		"name": "Sica",
@@ -1185,8 +1253,9 @@
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"swordbreaker_dagger": {
 		"name": "Swordbreaker dagger",
@@ -1204,8 +1273,9 @@
 			"**Cost** 10 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"tekko_kagi": {
 		"name": "Tekko-kagi",
@@ -1222,8 +1292,9 @@
 			"**Cost** 2 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"wakizashi": {
 		"name": "Wakizashi",
@@ -1240,8 +1311,9 @@
 			"**Cost** 35 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** deadly  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"waveblade": {
 		"name": "Waveblade",
@@ -1255,8 +1327,9 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
-		]
+			"**{ability/Weapon Group>s}** Close"
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"aldori_dueling_sword": {
 		"name": "Aldori dueling sword",
@@ -1275,8 +1348,9 @@
 			"**Cost** 20 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"bastard_sword": {
 		"name": "Bastard sword",
@@ -1293,8 +1367,9 @@
 			"**Cost** 35 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"broken_back_seax": {
 		"name": "Broken-back seax",
@@ -1308,8 +1383,9 @@
 			"**Cost** 40 gp **Weight** 4 lbs  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P & S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"doru": {
 		"name": "Doru",
@@ -1323,7 +1399,8 @@
 			"**Cost** 4 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"dwarven_double_waraxe": {
 		"name": "Dwarven double waraxe",
@@ -1337,7 +1414,8 @@
 			"**Cost** 60 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"dwarven_waraxe": {
 		"name": "Dwarven waraxe",
@@ -1354,8 +1432,9 @@
 			"**Cost** 30 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"elven_thornblade": {
 		"name": "Elven thornblade",
@@ -1369,7 +1448,8 @@
 			"**Cost** 60 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"estoc": {
 		"name": "Estoc",
@@ -1383,8 +1463,9 @@
 			"**Cost** 50 gp **Weight** 4 lbs.  ",
 			"**Damage** 2d3 (small), 2d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"falcata": {
 		"name": "Falcata",
@@ -1403,8 +1484,9 @@
 			"**Cost** 18 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"flindbar": {
 		"name": "Flindbar",
@@ -1421,7 +1503,8 @@
 			"**Cost** 9 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B and P; **Special** disarm, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"gnome_flick_mace": {
 		"name": "Gnome flick-mace",
@@ -1433,7 +1516,8 @@
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"great_terbutje": {
 		"name": "Great terbutje",
@@ -1447,8 +1531,9 @@
 			"**Cost** 12 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"hooked_axe": {
 		"name": "Hooked axe",
@@ -1465,8 +1550,9 @@
 			"**Cost** 20 gp **Weight** 7 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** disarm, performance, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"katana": {
 		"name": "Katana",
@@ -1483,8 +1569,9 @@
 			"**Cost** 50 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** deadly  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"khopesh": {
 		"name": "Khopesh",
@@ -1503,8 +1590,9 @@
 			"**Cost** 20 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"knobkerrie": {
 		"name": "Knobkerrie",
@@ -1518,7 +1606,8 @@
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"nine_section_whip": {
 		"name": "Nine-section whip",
@@ -1535,8 +1624,9 @@
 			"**Cost** 8 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** blocking, distracting, monk, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails; Monk"
-		]
+			"**{ability/Weapon Group>s}** Flails; Monk"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"ram_hammer_dwarven": {
 		"name": "Ram hammer, dwarven",
@@ -1550,8 +1640,9 @@
 			"**Cost** 25 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Hammers; Thrown"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"dwarven_ram_hammer": {
 		"copyof": "ram_hammer_dwarven"
@@ -1572,8 +1663,9 @@
 			"**Cost** 25 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"sawtooth_sabre": {
 		"name": "Sawtooth sabre",
@@ -1594,8 +1686,9 @@
 			"**Cost** 35 gp **Weight** 2 lb.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy; Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy; Blades, Light"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"shotel": {
 		"name": "Shotel",
@@ -1613,8 +1706,9 @@
 			"**Cost** 30 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"sickle_sword": {
 		"name": "Sickle-sword",
@@ -1628,8 +1722,9 @@
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** distracting, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"spiral_rapier": {
 		"name": "Spiral rapier",
@@ -1643,8 +1738,9 @@
 			"**Cost** 80 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** blocking, disarm, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light"
-		]
+			"**{ability/Weapon Group>s}** Blades, Light"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"split_blade_sword": {
 		"name": "Split-blade sword",
@@ -1658,8 +1754,9 @@
 			"**Cost** 200 gp **Weight** 8 lbs  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, trip, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"taiaha": {
 		"name": "Taiaha",
@@ -1673,8 +1770,9 @@
 			"**Cost** 10 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8/1d4 (small), 1d10/1d6 (medium); **Critical** &times;2/&times;3; **Range** -; **Type** B or P; **Special** double  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double; Hammers"
-		]
+			"**{ability/Weapon Group>s}** Double; Hammers"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"temple_sword": {
 		"name": "Temple sword",
@@ -1694,8 +1792,9 @@
 			"**Cost** 30 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** monk, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy; Monk"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"tongi": {
 		"name": "Tongi",
@@ -1709,8 +1808,9 @@
 			"**Cost** 18 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"urumi": {
 		"name": "Urumi",
@@ -1731,8 +1831,9 @@
 			"**Cost** 30 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** distracting  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails; Monk"
-		]
+			"**{ability/Weapon Group>s}** Flails; Monk"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"wahaika": {
 		"name": "Wahaika",
@@ -1746,8 +1847,9 @@
 			"**Cost** 3 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** disarm  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers"
-		]
+			"**{ability/Weapon Group>s}** Hammers"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"whip": {
 		"name": "Whip",
@@ -1768,8 +1870,9 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, nonlethal, reach, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"barbed_spear": {
 		"name": "Barbed spear",
@@ -1783,7 +1886,8 @@
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** fragile, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"battle_ladder_gnome": {
 		"name": "Battle ladder, gnome",
@@ -1800,8 +1904,9 @@
 			"**Cost** 20 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** double, trip, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double"
-		]
+			"**{ability/Weapon Group>s}** Double"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"gnome_battle_ladder": {
 		"copyof": "battle_ladder_gnome"
@@ -1825,8 +1930,9 @@
 			"**Cost** 12 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"bo_staff": {
 		"name": "Bo staff",
@@ -1843,8 +1949,9 @@
 			"**Cost** 1 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** blocking, double, monk  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double; Monk"
-		]
+			"**{ability/Weapon Group>s}** Double; Monk"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"boarding_gaff": {
 		"name": "Boarding gaff",
@@ -1861,8 +1968,9 @@
 			"**Cost** 8 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** double, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double; Polearms"
-		]
+			"**{ability/Weapon Group>s}** Double; Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"butchering_axe": {
 		"name": "Butchering axe",
@@ -1876,8 +1984,9 @@
 			"**Cost** 65 gp **Weight** 25 lbs.  ",
 			"**Damage** 1d12 (small), 3d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes"
-		]
+			"**{ability/Weapon Group>s}** Axes"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"chain_spear": {
 		"name": "Chain spear",
@@ -1898,8 +2007,9 @@
 			"**Cost** 15 gp **Weight** 13 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** P and S; **Special** double, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double; Flails; Spears"
-		]
+			"**{ability/Weapon Group>s}** Double; Flails; Spears"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"chain_hammer": {
 		"name": "Chain-hammer",
@@ -1913,8 +2023,9 @@
 			"**Cost** 34 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** double, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double; Hammers; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Double; Hammers; Thrown"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"crook": {
 		"name": "Crook",
@@ -1928,8 +2039,9 @@
 			"**Cost** 1 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"dire_flail": {
 		"name": "Dire flail",
@@ -1946,8 +2058,9 @@
 			"**Cost** 90 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, double, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double; Flails"
-		]
+			"**{ability/Weapon Group>s}** Double; Flails"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"dorn_dergar_dwarven": {
 		"name": "Dorn-dergar, dwarven",
@@ -1964,8 +2077,9 @@
 			"**Cost** 50 gp **Weight** 15 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"double_spear": {
 		"name": "Double spear",
@@ -1979,8 +2093,9 @@
 			"**Cost** 25 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears"
-		]
+			"**{ability/Weapon Group>s}** Spears"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"double_chained_kama": {
 		"name": "Double-chained kama",
@@ -1997,8 +2112,9 @@
 			"**Cost** 8 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** double, monk, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double"
-		]
+			"**{ability/Weapon Group>s}** Double"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"dwarven_urgrosh": {
 		"name": "Dwarven urgrosh",
@@ -2015,8 +2131,9 @@
 			"**Cost** 50 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double"
-		]
+			"**{ability/Weapon Group>s}** Double"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"elven_branched_spear": {
 		"name": "Elven branched spear",
@@ -2030,8 +2147,9 @@
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears"
-		]
+			"**{ability/Weapon Group>s}** Spears"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"elven_curve_blade": {
 		"name": "Elven curve blade",
@@ -2051,8 +2169,9 @@
 			"**Cost** 80 gp **Weight** 7 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"fauchard": {
 		"name": "Fauchard",
@@ -2069,8 +2188,9 @@
 			"**Cost** 14 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"flailpole": {
 		"name": "Flailpole",
@@ -2084,7 +2204,8 @@
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"flambard": {
 		"name": "Flambard",
@@ -2098,8 +2219,9 @@
 			"**Cost** 50 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** sunder  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"flask_pike": {
 		"name": "Flask pike",
@@ -2113,7 +2235,8 @@
 			"**Cost** 30 gp **Weight** 9 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"flying_blade": {
 		"name": "Flying blade",
@@ -2131,8 +2254,9 @@
 			"**Cost** 40 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** performance, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"garrote": {
 		"name": "Garrote",
@@ -2148,7 +2272,8 @@
 			"**Cost** 3 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** grapple, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"giant_sticker_dwarven": {
 		"name": "Giant-sticker, dwarven",
@@ -2162,8 +2287,9 @@
 			"**Cost** 25 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"gnome_hooked_hammer": {
 		"name": "Gnome hooked hammer",
@@ -2180,8 +2306,9 @@
 			"**Cost** 20 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;4; **Range** -; **Type** B or P; **Special** double, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double"
-		]
+			"**{ability/Weapon Group>s}** Double"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"harpoon": {
 		"name": "Harpoon",
@@ -2199,8 +2326,9 @@
 			"**Cost** 5 gp **Weight** 16 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P; **Special** grapple, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Spears; Thrown"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"injection_spear": {
 		"name": "Injection spear",
@@ -2217,7 +2345,8 @@
 			"**Cost** 60 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"katana_double_walking_stick": {
 		"name": "Katana, double walking stick",
@@ -2234,8 +2363,9 @@
 			"**Cost** 50 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double"
-		]
+			"**{ability/Weapon Group>s}** Double"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"kusarigama": {
 		"name": "Kusarigama",
@@ -2252,8 +2382,9 @@
 			"**Cost** 12 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d2/1d4 (small), 1d3/1d6 (medium); **Critical** &times;2; **Range** -; **Type** S or B; **Special** double, grapple, monk, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Double; Flails; Monk"
-		]
+			"**{ability/Weapon Group>s}** Double; Flails; Monk"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"kyoketsu_shoge": {
 		"name": "Kyoketsu shoge",
@@ -2270,8 +2401,9 @@
 			"**Cost** 6 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** S or P; **Special** disarm, grapple, monk, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails; Monk"
-		]
+			"**{ability/Weapon Group>s}** Flails; Monk"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"longaxe_dwarven": {
 		"name": "Longaxe, dwarven",
@@ -2285,7 +2417,8 @@
 			"**Cost** 50 gp **Weight** 14 lbs.  ",
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"dwarven_longaxe": {
 		"copyof": "longaxe_dwarven"
@@ -2302,7 +2435,8 @@
 			"**Cost** 70 gp **Weight** 20 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"dwarven_longhammer": {
 		"copyof": "longhammer_dwarven"
@@ -2323,8 +2457,9 @@
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
 			"**Damage** 1 (small), 1d2 (medium); **Critical** -; **Range** -; **Type** P; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"meteor_hammer": {
 		"name": "Meteor hammer",
@@ -2343,8 +2478,9 @@
 			"**Cost** 10 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"orc_double_axe": {
 		"name": "Orc double axe",
@@ -2361,8 +2497,9 @@
 			"**Cost** 60 gp **Weight** 15 lbs.  ",
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Axes; Double"
-		]
+			"**{ability/Weapon Group>s}** Axes; Double"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"orc_skull_ram": {
 		"name": "Orc skull ram",
@@ -2376,8 +2513,9 @@
 			"**Cost** 15 gp **Weight** 20 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears"
-		]
+			"**{ability/Weapon Group>s}** Spears"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"piston_maul_gnome": {
 		"name": "Piston maul, gnome",
@@ -2394,8 +2532,9 @@
 			"**Cost** 70 gp **Weight** 15 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers"
-		]
+			"**{ability/Weapon Group>s}** Hammers"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"gnome_piston_maul": {
 		"copyof": "piston_maul_gnome"
@@ -2415,8 +2554,9 @@
 			"**Cost** 30 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Polearms"
-		]
+			"**{ability/Weapon Group>s}** Polearms"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"gnome_ripsaw_glaive": {
 		"copyof": "ripsaw_glaive_gnome"
@@ -2436,8 +2576,9 @@
 			"**Cost** 50 gp **Weight** 7 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** disarm, monk  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy; Monk"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"sphinx_hammer_dwarven": {
 		"name": "Sphinx hammer, dwarven",
@@ -2451,8 +2592,9 @@
 			"**Cost** 45 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Hammers; Thrown"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"dwarven_sphinx_hammer": {
 		"copyof": "sphinx_hammer_dwarven"
@@ -2472,8 +2614,9 @@
 			"**Cost** 25 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Flails"
-		]
+			"**{ability/Weapon Group>s}** Flails"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"switchscythe": {
 		"name": "Switchscythe",
@@ -2487,8 +2630,9 @@
 			"**Cost** 18 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"tetsubo": {
 		"name": "Tetsubo",
@@ -2505,8 +2649,9 @@
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Hammers"
-		]
+			"**{ability/Weapon Group>s}** Hammers"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"totem_spear": {
 		"name": "Totem spear",
@@ -2523,7 +2668,8 @@
 			"**Cost** 25 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P or B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"two_bladed_sword": {
 		"name": "Two-bladed sword",
@@ -2540,8 +2686,9 @@
 			"**Cost** 100 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy; Double"
-		]
+			"**{ability/Weapon Group>s}** Blades, Heavy; Double"
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"bolas": {
 		"name": "Bolas",
@@ -2559,8 +2706,9 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** nonlethal, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"boomerang": {
 		"name": "Boomerang",
@@ -2579,8 +2727,9 @@
 			"**Cost** 3 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** B; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"crystal_chakram": {
 		"name": "Crystal chakram",
@@ -2594,7 +2743,8 @@
 			"**Cost** 20 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"dire_bolas": {
 		"name": "Dire bolas",
@@ -2608,7 +2758,8 @@
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** nonlethal, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"double_crossbow": {
 		"name": "Double crossbow",
@@ -2629,8 +2780,9 @@
 			"**Cost** 300 gp **Weight** 18 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"flask_thrower": {
 		"name": "Flask thrower",
@@ -2647,8 +2799,9 @@
 			"**Cost** 25 gp **Weight** 4 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 20 ft.; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"grappling_hook": {
 		"name": "Grappling hook",
@@ -2671,7 +2824,8 @@
 			"**Cost** 6 gp **Weight** 14 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** grapple  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"halfling_double_sling": {
 		"name": "Halfling double sling",
@@ -2687,7 +2841,8 @@
 			"**Cost** 10 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** double (see text)  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"halfling_sling_staff": {
 		"name": "Halfling sling staff",
@@ -2709,8 +2864,9 @@
 			"**Cost** 20 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 80 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"halfling_stitched_sling": {
 		"name": "Halfling stitched sling",
@@ -2724,7 +2880,8 @@
 			"**Cost** - **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"hand_crossbow": {
 		"name": "Hand crossbow",
@@ -2744,8 +2901,9 @@
 			"**Cost** 100 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"heavy_crank_crossbow": {
 		"name": "Heavy crank crossbow",
@@ -2759,7 +2917,8 @@
 			"**Cost** 400 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"heavy_slavers_crossbow": {
 		"name": "Heavy slaver's crossbow",
@@ -2773,7 +2932,8 @@
 			"**Cost** 400 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/see \"bolas bolts\" text; **Range** 80 ft.; **Type** B; **Special** nonlethal, trip, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"heavy_wrist_launcher": {
 		"name": "Heavy wrist launcher",
@@ -2787,7 +2947,8 @@
 			"**Cost** 250 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"hornbow_orc": {
 		"name": "Hornbow, orc",
@@ -2801,8 +2962,9 @@
 			"**Cost** 130 gp **Weight** 7 lbs.  ",
 			"**Damage** 1d8 (small), 2d6 (medium); **Critical** &times;3; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Bows"
-		]
+			"**{ability/Weapon Group>s}** Bows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"orc_hornbow": {
 		"copyof": "hornbow_orc"
@@ -2819,7 +2981,8 @@
 			"**Cost** 150 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 110 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"kestros": {
 		"name": "Kestros",
@@ -2836,8 +2999,9 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 50 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"lasso": {
 		"name": "Lasso",
@@ -2856,8 +3020,9 @@
 			"**Cost** 0.1 gp **Weight** 5 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"launching_crossbow": {
 		"name": "Launching crossbow",
@@ -2871,8 +3036,9 @@
 			"**Cost** 75 gp **Weight** 8 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 30 ft.; **Type** -; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"light_crank_crossbow": {
 		"name": "Light crank crossbow",
@@ -2886,7 +3052,8 @@
 			"**Cost** 250 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"light_slavers_crossbow": {
 		"name": "Light slaver's crossbow",
@@ -2900,7 +3067,8 @@
 			"**Cost** 250 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/see \"bolas bolts\" text; **Range** 40 ft.; **Type** B; **Special** nonlethal, trip, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"net": {
 		"name": "Net",
@@ -2922,8 +3090,9 @@
 			"**Cost** 20 gp **Weight** 6 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 10 ft.; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"pelletbow_dwarven_heavy": {
 		"name": "Pelletbow, dwarven heavy",
@@ -2939,8 +3108,9 @@
 			"**Cost** 75 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;3; **Range** 60 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"dwarven_heavy_pelletbow": {
 		"copyof": "pelletbow_dwarven_heavy"
@@ -2959,8 +3129,9 @@
 			"**Cost** 50 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;3; **Range** 40 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"dwarven_light_pelletbow": {
 		"copyof": "pelletbow_dwarven_light"
@@ -2980,8 +3151,9 @@
 			"**Cost** 800 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"repeating_heavy_crossbow": {
 		"name": "Repeating heavy crossbow",
@@ -3001,8 +3173,9 @@
 			"**Cost** 400 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"repeating_light_crossbow": {
 		"name": "Repeating light crossbow",
@@ -3020,8 +3193,9 @@
 			"**Cost** 250 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Crossbows"
-		]
+			"**{ability/Weapon Group>s}** Crossbows"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"rope_dart": {
 		"name": "Rope dart",
@@ -3039,8 +3213,9 @@
 			"**Cost** 1 gp **Weight** -  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** blocking, distracting, monk  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Monk; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Monk; Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"shoanti_bolas": {
 		"name": "Shoanti bolas",
@@ -3060,8 +3235,9 @@
 			"**Cost** 15 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B and P; **Special** trip  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"shrillshaft_javelin": {
 		"name": "Shrillshaft javelin",
@@ -3075,7 +3251,8 @@
 			"**Cost** 35 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"shuriken": {
 		"name": "Shuriken",
@@ -3093,7 +3270,8 @@
 			"**Cost** 1 gp **Weight** 0.5 lb.  ",
 			"**Damage** 1 (small), 1d2 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** monk  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"sling_glove": {
 		"name": "Sling glove",
@@ -3110,8 +3288,9 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"snag_net": {
 		"name": "Snag net",
@@ -3129,8 +3308,9 @@
 			"**Cost** 30 gp **Weight** 10 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 10 ft.; **Type** P; **Special** trip, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown"
-		]
+			"**{ability/Weapon Group>s}** Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"stormshaft_javelin": {
 		"name": "Stormshaft javelin",
@@ -3144,8 +3324,9 @@
 			"**Cost** 35 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Spears; Thrown"
-		]
+			"**{ability/Weapon Group>s}** Spears; Thrown"
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"thorn_bow": {
 		"name": "Thorn bow",
@@ -3163,7 +3344,8 @@
 			"**Cost** 50 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 40 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"wrist_launcher": {
 		"name": "Wrist launcher",
@@ -3177,7 +3359,8 @@
 			"**Cost** 200 gp **Weight** 1 lb.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
 	"claw_blades": {
 		"name": "Claw blades",
@@ -3191,7 +3374,8 @@
 			"**Cost** 305 gp **Weight** 2 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** S; **Special** catfolk only, see description  ",
 			"**Category** Light; **Proficiency** Special"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"kobold_tail_long_lash": {
 		"name": "Kobold tail, long lash",
@@ -3228,7 +3412,8 @@
 			"**Cost** 7 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** trip  ",
 			"**Category** Light; **Proficiency** Special"
-		]
+		],
+		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
 	"long_lash_kobold_tail": {
 		"copyof": "kobold_tail_long_lash"
@@ -3274,7 +3459,8 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 2  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"buckler_gun": {
 		"name": "Buckler gun",
@@ -3292,7 +3478,8 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** 10 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 2  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"coat_pistol": {
 		"name": "Coat pistol",
@@ -3310,7 +3497,8 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"dagger_pistol": {
 		"name": "Dagger pistol",
@@ -3328,7 +3516,8 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"double_barreled_pistol": {
 		"name": "Double-barreled pistol",
@@ -3346,7 +3535,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 2  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"dragon_pistol": {
 		"name": "Dragon pistol",
@@ -3364,7 +3554,8 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** special; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"dragoon_pistol": {
 		"name": "Dragoon Pistol",
@@ -3379,7 +3570,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 30 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 3  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"paddle_foot_pistol": {
 		"name": "Paddle-foot pistol",
@@ -3394,7 +3586,8 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 4  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"pepperbox": {
 		"name": "Pepperbox",
@@ -3412,7 +3605,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 6  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"pistol": {
 		"name": "Pistol",
@@ -3432,7 +3626,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"sword_cane_pistol": {
 		"name": "Sword cane pistol",
@@ -3450,7 +3645,8 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"air_repeater": {
 		"name": "Air repeater",
@@ -3465,7 +3661,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 50 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1 (see text); **Capacity** 6  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"axe_musket": {
 		"name": "Axe musket",
@@ -3483,7 +3680,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"blunderbuss": {
 		"name": "Blunderbuss",
@@ -3501,7 +3699,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** special; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1-2 (10 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"culverin": {
 		"name": "Culverin",
@@ -3519,7 +3718,8 @@
 			"**Damage** 2d6 (small), 2d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1 (10 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"cylinder_rifle": {
 		"name": "Cylinder rifle",
@@ -3534,7 +3734,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 40 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-3 (10 ft.); **Capacity** 8  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"double_hackbut": {
 		"name": "Double hackbut",
@@ -3552,7 +3753,8 @@
 			"**Damage** 2d10 (small), 2d12 (medium); **Critical** &times;4; **Range** 50 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 2  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"double_barreled_musket": {
 		"name": "Double-barreled musket",
@@ -3570,7 +3772,8 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;4; **Range** 10 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-3 (5 ft.); **Capacity** 2  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"dragoon_musket": {
 		"name": "Dragoon Musket",
@@ -3585,7 +3788,8 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** 60 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 3  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"fire_lance": {
 		"name": "Fire lance",
@@ -3603,7 +3807,8 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Misfire** 1-4 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"musket": {
 		"name": "Musket",
@@ -3621,7 +3826,8 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;4; **Range** 40 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"warhammer_musket": {
 		"name": "Warhammer musket",
@@ -3639,7 +3845,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"radium_pistol": {
 		"name": "Radium pistol",
@@ -3660,7 +3867,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 30 ft.; **Type** B and P; **Special** see text  ",
 			"**Misfire** 1; **Capacity** 6  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"revolver": {
 		"name": "Revolver",
@@ -3678,7 +3886,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** 20 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1; **Capacity** 6  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
 	"double_barreled_shotgun": {
 		"name": "Double-barreled shotgun",
@@ -3696,7 +3905,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1-2; **Capacity** 2  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"pepperbox_rifle": {
 		"name": "Pepperbox rifle",
@@ -3714,7 +3924,8 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 80 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1-2; **Capacity** 4  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"radium_rifle": {
 		"name": "Radium rifle",
@@ -3735,7 +3946,8 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 100 ft.; **Type** B and P; **Special** see text  ",
 			"**Misfire** 1; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"rifle": {
 		"name": "Rifle",
@@ -3755,7 +3967,8 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 80 ft.; **Type** B and P; **Special** -  ",
 			"**Misfire** 1; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"shotgun": {
 		"name": "Shotgun",
@@ -3775,7 +3988,8 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B and P; **Special** scatter  ",
 			"**Misfire** 1-2; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"thark_rifle": {
 		"name": "Thark rifle",
@@ -3796,7 +4010,8 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** 1 mile; **Type** B and P; **Special** see text  ",
 			"**Misfire** 1-2; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
 	"air_reservoir": {
 		"name": "Air reservoir",
@@ -3809,7 +4024,8 @@
 			"",
 			"**Cost** 6 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"alchemical_cartridge_dragons_breath": {
 		"name": "Alchemical cartridge (dragon's breath)",
@@ -3880,7 +4096,8 @@
 			"**Toxic Cartridge:** A toxic cartridge can be used only in early or advanced firearms with the scatter weapon quality. To use a toxic cartridge, make a scattering shot against an AC of 5. If you succeed, you create a cone of burning toxic gas that lasts for 1 rounds, after which the gas dissipates. Any creature within this area when it is created or any creature that enters the gas while it is active must succeed at a DC 15 Fortitude save or become nauseated for 1d2 rounds. Being affected by the gas multiple times lengthens the duration of the sickened condition. In addition, any creature that begins its turn in the area takes 1d6 points of fire damage. If your attack results in a misfire that causes your firearm to explode, the area of the cloud is instead centered on one corner of your square (your choice), with a radius equal to the firearm's misfire burst size. Firing this cartridge increases the firearm's misfire value by 1.  ",
 			"**Cost** 100 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"alchemical_cartridge_entangling_shot": {
 		"name": "Alchemical cartridge (entangling shot)",
@@ -3936,7 +4153,8 @@
 			"",
 			"**Cost** 10 gp (dose)/1,000gp (keg) **Weight** - (dose)/5 lbs. (keg)  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"black_powder_keg": {
 		"name": "Black powder (keg)",
@@ -3953,7 +4171,8 @@
 			"",
 			"**Cost** 61 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"adamantine_bullet": {
 		"copyof": "bullet_adamantine"
@@ -3969,7 +4188,8 @@
 			"",
 			"**Cost** 20 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"screaming_bullet": {
 		"copyof": "bullet_screaming"
@@ -3987,7 +4207,8 @@
 			"",
 			"**Cost** 30 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"firearm_bullet": {
 		"name": "Firearm bullet",
@@ -4006,7 +4227,8 @@
 			"**Category** Ammunition; **Proficiency** Exotic",
 			"",
 			"**Note:** Weight is approximate, based on 30 bullets weighing half a pound."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"firearm_bullet_silver": {
 		"name": "Firearm bullet, silver",
@@ -4021,7 +4243,8 @@
 			"**Category** Ammunition; **Proficiency** Exotic",
 			"",
 			"**Note:** Weight is based on 30 regular bullets weighing half a pound."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"silver_firearm_bullet": {
 		"copyof": "firearm_bullet_silver"
@@ -4037,7 +4260,8 @@
 			"",
 			"**Cost** 15 gp **Weight** 2 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"metal_cartridge": {
 		"name": "Metal cartridge",
@@ -4053,7 +4277,8 @@
 			"",
 			"**Cost** 15 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"pellets_handful": {
 		"name": "Pellets (handful)",
@@ -4071,7 +4296,8 @@
 			"**Category** Ammunition; **Proficiency** Exotic",
 			"",
 			"**Note:** Weight is approximate, based on 30 handfuls weighing half a pound."
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"pitted_bullet": {
 		"name": "Pitted bullet",
@@ -4087,7 +4313,8 @@
 			"",
 			"**Cost** 5 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
 	"powder_horn": {
 		"name": "Powder horn",
@@ -4100,6 +4327,7 @@
 			"",
 			"**Cost** 3 gp **Weight** 1 lb.  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
-		]
+		],
+		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	}
 }

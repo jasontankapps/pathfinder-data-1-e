@@ -596,7 +596,7 @@
 			]
 		],
 		"searchgroup": "faith",
-		"previous": [ ["Main", "main/main"], ["Deities and Daiths", "main/faiths"] ]
+		"previous": [ ["Main", "main/main"], ["Deities and Faiths", "main/faiths"] ]
 	},
 	"faiths_domains": {
 		"title": "Deities/Faiths by Domain",
@@ -648,7 +648,7 @@
 			]
 		],
 		"searchgroup": "faith",
-		"previous": [ ["Main", "main/main"], ["Deities and Daiths", "main/faiths"] ]
+		"previous": [ ["Main", "main/main"], ["Deities and Faiths", "main/faiths"] ]
 	},
 	"faiths_subdomains": {
 		"title": "Deities/Faiths by Subdomains",
@@ -804,7 +804,7 @@
 			]
 		],
 		"searchgroup": "faith",
-		"previous": [ ["Main", "main/main"], ["Deities and Daiths", "main/faiths"] ]
+		"previous": [ ["Main", "main/main"], ["Deities and Faiths", "main/faiths"] ]
 	},
 	"faiths_alignments": {
 		"title": "Deities/Faiths by Alignment",
@@ -832,6 +832,6 @@
 				"| Varies | {faith/Wendo/ (Juju)} |"
 			]
 		],
-		"previous": [ ["Main", "main/main"], ["Deities and Daiths", "main/faiths"] ]
+		"previous": [ ["Main", "main/main"], ["Deities and Faiths", "main/faiths"] ]
 	}
 }
