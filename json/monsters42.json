@@ -924,7 +924,7 @@
 			"",
 			"Faerie dragons avoid combat unless there is no other option. If forced to fight, faerie dragons attempt to confound enemies rather than kill them, using both spells and breath weapon to weaken and scatter foes before fleeing. The only exception to this is when a faerie dragon's clan or allies are in danger. As capricious as these tiny dragons can be, many prove quick to bond with goodly creatures, especially fey and others they find interesting or hilarious; adventurers often fall into this latter camp, particularly those most outraged by a faerie dragon's tricks.",
 			"",
-			"Faerie dragons sometimes ally with spellcasters, serving as curious, occasionally reckless, but always true familiars. An arcane spellcaster of at least 7th level with an alignment within 1 step of chaotic good who has the Improved Familiar feat may select a faerie dragon as a familiar."
+			"Faerie dragons sometimes ally with spellcasters, serving as curious, occasionally reckless, but always true familiars. An arcane spellcaster of at least 7th level with an alignment within 1 step of chaotic good who has the {feat/Improved Familiar} feat may select a faerie dragon as a familiar."
 		]
 	},
 	"faerie_dragon": { "copyof": "dragon_other_faerie_dragon" },
@@ -1141,7 +1141,7 @@
 			"",
 			"### Tidepool Dragons as Familiars",
 			"",
-			"Although difficult to approach, tidepool dragons sometimes choose to serve as the familiars of unruly spellcasters and those who go out of their way to feed them rich or exotic foods. Spellcasters of 7th level or higher with an alignment within one step of chaotic neutral can gain a tidepool dragon as a familiar by taking the Improved Familiar feat."
+			"Although difficult to approach, tidepool dragons sometimes choose to serve as the familiars of unruly spellcasters and those who go out of their way to feed them rich or exotic foods. Spellcasters of 7th level or higher with an alignment within one step of chaotic neutral can gain a tidepool dragon as a familiar by taking the {feat/Improved Familiar} feat."
 		]
 	},
 	"tidepool_dragon": { "copyof": "dragon_other_tidepool_dragon" },

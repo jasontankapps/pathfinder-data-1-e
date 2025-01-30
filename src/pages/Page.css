@@ -624,3 +624,15 @@ mark.current {
 	background: var(--ion-color-success);
 	color: var(--ion-color-success-contrast);
 }
+ion-popover ion-list[lines=full] {
+	padding-block: 0;
+}
+ion-popover ion-list[lines=full] ion-item:last-child::part(native) {
+	border-block-end: 0;
+}
+div.finder ion-icon.searchbar-search-icon {
+	display: none !important;
+}
+div.finder input.searchbar-input {
+	padding-inline: 1rem;
+}

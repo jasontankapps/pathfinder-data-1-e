@@ -576,7 +576,7 @@
 			"",
 			"Pseudodragons are tiny cousins of true dragons, and are playful but shy. They often only vocalize in chirps, hisses, growls, and purrs, but can communicate telepathically with any intelligent creature. If approached peacefully and offered food, they are usually willing to share information about what they've seen in their territory, but threats or violence make them flee.",
 			"",
-			"Pseudodragons are carnivores, devouring insects, rodents, small birds, and snakes, though they sometimes eat eggs, and most also enjoy butter, cheese, and fish. They either hunt on the ground like lizards or look for prey on the wing like a raptor. As smart as a typical humanoid, they do not enjoy being treated as pets and prefer being treated as friends. They are wary of evil folk but can bond with sorcerers and wizards as familiars, and some have befriended druids and rangers or partnered with good dragons as scouts. Pseudodragons will serve as familiars if they approve of a spellcaster's personality (and if the spellcaster takes the Improved Familiar feat), but often also bond with those whose company they enjoy or who have proven themselves true friends. A pseudodragon might follow another character in this manner for days, weeks, years, or even a lifetime if the creature is treated well, provided with food, and generally well-loved.",
+			"Pseudodragons are carnivores, devouring insects, rodents, small birds, and snakes, though they sometimes eat eggs, and most also enjoy butter, cheese, and fish. They either hunt on the ground like lizards or look for prey on the wing like a raptor. As smart as a typical humanoid, they do not enjoy being treated as pets and prefer being treated as friends. They are wary of evil folk but can bond with sorcerers and wizards as familiars, and some have befriended druids and rangers or partnered with good dragons as scouts. Pseudodragons will serve as familiars if they approve of a spellcaster's personality (and if the spellcaster takes the {feat/Improved Familiar} feat), but often also bond with those whose company they enjoy or who have proven themselves true friends. A pseudodragon might follow another character in this manner for days, weeks, years, or even a lifetime if the creature is treated well, provided with food, and generally well-loved.",
 			"",
 			"Upon reaching adulthood, a pseudodragon's body is about 1 foot long with a 2-foot tail, and weighs about 7 pounds. A pseudodragon egg is the size of a chicken egg, but leathery and spotted brown, and a mating female lays 2-5 eggs every spring. A clutch of pseudodragons (the collective noun-not to be confused with pseudodragons from the same brood of eggs) usually consists of a mated pair and several near-adult offspring."
 		]
@@ -636,7 +636,7 @@
 			"",
 			"Pseudosphinxes are rarely found in groups, and scholars are unsure whether to attribute their cryptic origins to elusive demeanors or amnesic memories. Whether they're the misbegotten progeny of generations of lesser sphinxes or the result of some magical experiment in the same deserts where sphinxes are found, none can say.",
 			"",
-			"A pseudosphinx can serve as the familiar for a 7th-level spellcaster with the Improved Familiar feat."
+			"A pseudosphinx can serve as the familiar for a 7th-level spellcaster with the {feat/Improved Familiar} feat."
 		]
 	},
 	"pseudowyvern": {
@@ -691,7 +691,7 @@
 			"",
 			"In some lands, nobles and wealthy merchants value pseudowyverns as exotic pets, and one of their eggs can fetch as much as 1,200 gp in some markets. In truth, these illtempered and stubborn creatures make poor pets; keeping them happy requires no small amount of flattery, delicious foods, and shiny things as bribes. Hard to please, they are likely to attack their owners and try to escape unless kept on a very short leash or managed by a skilled handler.",
 			"",
-			"A 7th-level spellcaster with the Improved Familiar feat can gain a pseudowyvern as a familiar. A pseudowyvern is about 1 foot long with a 2-foot-long tail, has scales in shades of deep blue, and weighs about 15 pounds."
+			"A 7th-level spellcaster with the {feat/Improved Familiar} feat can gain a pseudowyvern as a familiar. A pseudowyvern is about 1 foot long with a 2-foot-long tail, has scales in shades of deep blue, and weighs about 15 pounds."
 		]
 	},
 	"psoglav": {
@@ -810,7 +810,7 @@
 			"",
 			"Some psyche serpents take on more official roles, acting as advisors and counselors to great leaders. Psyche serpents are fiercely competitive, especially with others of their kind, and rarely work together. They often take opposite sides of political conflicts simply for the sake of decent competition, finding almost as much pleasure in being outsmarted as they do from thwarting their rivals. A worthy rival is the greatest gift a psyche serpent can ever find, and they find the idea of eliminating their nemeses completely alien.",
 			"",
-			"Psyche serpents sometimes form strong bonds with those few individuals whom they see as mental equals, partnering with them as constantly competitive but loyal familiars. A spellcaster with an alignment within one step of true neutral who has the Improved Familiar feat and an arcane caster level of 7th or higher can select a psyche serpent as a familiar."
+			"Psyche serpents sometimes form strong bonds with those few individuals whom they see as mental equals, partnering with them as constantly competitive but loyal familiars. A spellcaster with an alignment within one step of true neutral who has the {feat/Improved Familiar} feat and an arcane caster level of 7th or higher can select a psyche serpent as a familiar."
 		]
 	},
 	"psychemental": {
@@ -1311,7 +1311,7 @@
 			"",
 			"The cythnigot is a foul fungal parasite that grows and thrives within the corpses of small animals. The fungus transforms the host corpse in hideous ways, adding legs or rearranging features - a rat might gain an extra pair of legs and an insectoid visage, while a cat could lose all its legs and fur and gain a snake-like body. The only thing that all cythnigots have in common is a long stalk of fungal material that extends up from the creature's body, ending in a surprisingly strong set of fanged jaws. A cythnigot without a host body appears as little more than a foul-smelling puffball the size of a human's fist.",
 			"",
-			"Chaotic evil spellcasters of caster level 7th who have the Improved Familiar feat can gain a cythnigot as a familiar - to do so, the spellcaster must already have a Tiny animal as a familiar. Infusing this familiar with the spores results in a cythnigot that is a loyal, if rather disgusting, minion of the spellcaster.",
+			"Chaotic evil spellcasters of caster level 7th who have the {feat/Improved Familiar} feat can gain a cythnigot as a familiar - to do so, the spellcaster must already have a Tiny animal as a familiar. Infusing this familiar with the spores results in a cythnigot that is a loyal, if rather disgusting, minion of the spellcaster.",
 			"",
 			"A cythnigot is about 20 inches long and weighs 10 pounds.",
 			"",
@@ -2765,7 +2765,7 @@
 			"",
 			"Although an esipil's ability to frighten its victims is potent, it relies on its cause fear spell-like ability only when grossly outnumbered, outmatched, or greatly injured. Esipils like to fight and scrap with nearly anything, and prefer that their victims not simply flee in terror, as they wish to savor the fear. Esipils use their telepathic abilities to harass would-be opponents into attacking them first, flinging mental taunts that are vulgar and disconcerting. Once they engage, they are resilient and dogged fighters. An esipil stands 1 foot tall at the shoulder, and its thin, wormlike body stretches nearly 3 feet long. An esipil weighs around 13 pounds.",
 			"",
-			"Though they make unruly companions, esipils actually enjoy serving those mightier than themselves, taking pride in their masters' power, even if they continue to snap and snarl when given commands. A neutral evil spellcaster of at least 7th level who takes the Improved Familiar feat can select an esipil as a familiar.",
+			"Though they make unruly companions, esipils actually enjoy serving those mightier than themselves, taking pride in their masters' power, even if they continue to snap and snarl when given commands. A neutral evil spellcaster of at least 7th level who takes the {feat/Improved Familiar} feat can select an esipil as a familiar.",
 			"",
 			"**Family:** {family/Sahkil}"
 		]

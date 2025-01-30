@@ -1,9 +1,14 @@
 import { Dispatch, FC, FormEvent, PropsWithChildren, useCallback, useEffect, useRef, useState } from 'react';
-import { IonButton, IonContent, IonFab, IonFabButton, IonIcon, IonPage, IonSearchbar, ScrollCustomEvent } from '@ionic/react';
-import { arrowUp, chevronBack, chevronForward } from 'ionicons/icons';
+import {
+	IonButton, IonCheckbox, IonContent, IonFab,
+	IonFabButton, IonIcon, IonItem, IonList, IonPage,
+	IonPopover, IonSearchbar, ScrollCustomEvent
+} from '@ionic/react';
+import { arrowUp, chevronBack, chevronForward, options } from 'ionicons/icons';
 import { useLocation, useRoute } from 'wouter';
 import { motion, AnimatePresence } from 'motion/react';
 import { useMarker } from "react-mark.js";
+import { setCaseSensitive, setSeparateWordSearch, setWholeWords } from '../store/searchSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
 import PageFooter from '../components/PageFooter';
@@ -53,35 +58,63 @@ const markerConfig = {
 	exclude: [ "div.displayTable *" ],
 	acrossElements: true,
 	ignorePunctuation: ":;.,(){}[]!'?*\"".split(""),
-	debug: true,
-	separateWordSearch: false
+	debug: true
 };
-const checkElementsForText = (nodes: HTMLElement[], search: string) => {
+const checkElementsForText = (nodes: HTMLElement[], search: string, separateWordSearch: boolean) => {
 	let count = 0;
 	let hold: null | string = null;
 	let original: HTMLElement[] = [];
 	const text = search.replace(/[:;.,(){}\[\]!'?*"]/g, "").toLowerCase();
+	//
+	// Need to create separate checkers for when separateWordSearch is true
+	//
 	const contents: (HTMLElement | HTMLElement[])[] = [];
-	while(nodes.length > 0) {
-		const el = nodes.shift()!;
-		const test = (el.textContent || "").replace(/[:;.,(){}\[\]!'?*"]/g, "").toLowerCase();
-		if(hold !== null) {
-			hold = hold + test;
-			if (hold === text || (hold.indexOf(text) > -1)) {
+	if(separateWordSearch) {
+		const possibles = search.toLowerCase().split(/ +/).map(p => p.replace(/[:;.,(){}\[\]!'?*"]/g, ""));
+		while(nodes.length > 0 ) {
+			const el = nodes.shift()!;
+			const test = (el.textContent || "").replace(/[:;.,(){}\[\]!'?*"]/g, "").toLowerCase();
+			if(hold !== null) {
+				hold = hold + test;
+				if(possibles.some(p => (hold === p || (hold!.indexOf(p) > -1)))) {
+					count++;
+					hold = null;
+					contents.push([...original, el]);
+					original = [];
+				} else {
+					hold = test;
+					original.push(el);
+				}
+			} else if (possibles.some(p => test === p)) {
 				count++;
-				hold = "";
-				contents.push([...original, el]);
-				original = [];
+				contents.push(el);
 			} else {
 				hold = test;
 				original.push(el);
 			}
-		} else if (test === text) {
-			count++;
-			contents.push(el);
-		} else {
-			hold = test;
-			original.push(el);
+		}
+	} else {
+		while(nodes.length > 0) {
+			const el = nodes.shift()!;
+			const test = (el.textContent || "").replace(/[:;.,(){}\[\]!'?*"]/g, "").toLowerCase();
+			if(hold !== null) {
+				hold = hold + test;
+				if (hold === text || (hold.indexOf(text) > -1)) {
+					count++;
+					hold = null;
+					contents.push([...original, el]);
+					original = [];
+				} else {
+					hold = test;
+					original.push(el);
+				}
+			} else if (test === text) {
+				count++;
+				contents.push(el);
+			} else {
+				hold = test;
+				original.push(el);
+			}
 		}
 	}
 	if(original.length > 0) {
@@ -133,6 +166,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		className
 	} = props;
 	const dispatch = useAppDispatch();
+	const { separateWordSearch, caseSensitive, wholeWords } = useAppSelector(state => state.search)
 	const { markerRef, marker } = useMarker<HTMLDivElement>();
 	const contentObj = useRef<any>(null);
 	const findInPageSearchbarObj = useRef<any>(null);
@@ -180,8 +214,14 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 						if(text) {
 							marker.mark(text, {
 								...markerConfig,
+								separateWordSearch,
+								caseSensitive,
+								//
+								// This bit below is broken, won't work on ends or beginnings of lines
+								//
+								//accuracy: wholeWords ? "exactly" : "partially",
 								done: (n) => {
-									const found = Number(n);
+									//const found = Number(n);
 									const markers = (
 										markerRef
 										&& markerRef.current
@@ -191,7 +231,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 									setHighlightedText(-1);
 									const { count, contents } = checkElementsForText(
 										markers,
-										text
+										text,
+										separateWordSearch
 									);
 									setNumberOfTextsFound(count);
 									setMarkers(contents);
@@ -207,7 +248,11 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			}, "marking search terms");
 		}
 		input || (findInPageSearchbarObj && findInPageSearchbarObj.current && (findInPageSearchbarObj.current.value = ""));
-	}, [marker, markerRef, setNumberOfTextsFound, setHighlightedText, setMarkers, markers, findInPageSearchbarObj]);
+	}, [
+		marker, markerRef, markers, findInPageSearchbarObj,
+		setNumberOfTextsFound, setHighlightedText, setMarkers,
+		caseSensitive, wholeWords, separateWordSearch
+	]);
 
 	const show = useCallback((mod: 1 | -1) => doFocus(
 		markers,
@@ -259,6 +304,42 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 					<></>
 				}
 				{(!noFinder && marker) ? <div className={"finder" + (searchBoxOpen ? "" : " hidden")}>
+					<IonButton
+						id={`${pageId}finderSettings`}
+						fill="clear"
+						color={separateWordSearch || caseSensitive || wholeWords ? "tertiary" : "dark"}
+						size="small"
+					><IonIcon slot="icon-only" icon={options} /></IonButton>
+					<IonPopover trigger={`${pageId}finderSettings`} side="bottom" alignment="start">
+						<IonContent>
+							<IonList lines="full">
+								<IonItem>
+									<IonCheckbox
+										justify="space-between"
+										labelPlacement="start"
+										checked={separateWordSearch}
+										onClick={() => dispatch(setSeparateWordSearch(!separateWordSearch))}
+									>Match Words Separately</IonCheckbox>
+								</IonItem>
+								<IonItem>
+									<IonCheckbox
+										justify="space-between"
+										labelPlacement="start"
+										checked={caseSensitive}
+										onClick={() => dispatch(setCaseSensitive(!caseSensitive))}
+									>Case Sensitive</IonCheckbox>
+								</IonItem>
+								{/*<IonItem>
+									<IonCheckbox
+										justify="space-between"
+										labelPlacement="start"
+										checked={wholeWords}
+										onClick={() => dispatch(setWholeWords(!wholeWords))}
+									>Match Whole Word(s)</IonCheckbox>
+								</IonItem>*/}
+							</IonList>
+						</IonContent>
+					</IonPopover>
 					<IonSearchbar
 						ref={findInPageSearchbarObj}
 						searchIcon="/icons/find-in-page.svg"

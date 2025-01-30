@@ -270,7 +270,7 @@
 			"",
 			"**Wind Savant (Su):** At 8th level, you treat the penalties from natural or magical wind effects as two steps less severe. In addition, you are surrounded by a cushion of air that grants you a bonus equal to 1/2 your druid level on saving throws against gases, gaseous breath weapons, inhaled poisons, and similar effects.",
 			"",
-			"Alternatively, you can choose to gain a Small air elemental as a familiar, as if you possessed the Improved Familiar feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
+			"Alternatively, you can choose to gain a Small air elemental as a familiar, as if you possessed the {feat/Improved Familiar} feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
 			"",
 			"**Domain Spells:** 1st-{spell/feather fall}, 2nd-{spell/elemental speech}, 3rd-{spell/fly}, 4th-{spell/planar adaptation}, 5th-{spell/overland flight}, 6th-{spell/mass planar adaptation}, 7th-{spell/mass fly}, 8th-{spell/mass invisibility}, 9th-{spell/winds of vengeance}."
 		]
@@ -289,7 +289,7 @@
 			"",
 			"**One with the Stone (Su):** At 8th level as a swift action, you gain the {umr/earth glide} universal monster ability with a speed equal to your base speed. You can breathe normally while using this ability. You can use this ability for a number of rounds per day equal to your druid level, and these rounds don't need to be consecutive.",
 			"",
-			"Alternatively, you can choose to gain a Small earth elemental as a familiar, as if you possessed the Improved Familiar feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
+			"Alternatively, you can choose to gain a Small earth elemental as a familiar, as if you possessed the {feat/Improved Familiar} feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
 			"",
 			"**Domain Spells:** 1st-{spell/stone fist}, 2nd-{spell/elemental speech}, 3rd-{spell/burrow}, 4th-{spell/planar adaptation}, 5th-{spell/passwall}, 6th-{spell/mass planar adaptation}, 7th-{spell/stone to flesh}, 8th-{spell/repel metal or stone}, 9th-{spell/clashing rocks}."
 		]
@@ -308,7 +308,7 @@
 			"",
 			"**All-Consuming Flames (Su):** At 8th level, you can channel the extraplanar heat into your allies' weapons within 30 feet as a standard action. For 1 minute, the affected weapons gain the cold-outsider-bane, fire-outsider-bane, or flaming weapon special abilities. You must grant each weapon the same ability, and this ability affects no more than two of any ally's weapons. You can use this ability once per day, plus an additional time per day for every four levels beyond 8th.",
 			"",
-			"Alternatively, you can choose to gain a Small fire elemental as a familiar, as if you possessed the Improved Familiar feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
+			"Alternatively, you can choose to gain a Small fire elemental as a familiar, as if you possessed the {feat/Improved Familiar} feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
 			"",
 			"**Domain Spells:** 1st-{spell/obscuring mist} (creates smoke), 2nd-{spell/elemental speech}, 3rd-{spell/ash storm}, 4th-{spell/planar adaptation}, 5th-{spell/scorching ash form}, 6th-{spell/mass planar adaptation}, 7th-{spell/delayed blast fireball}, 8th-{spell/destruction}, 9th-{spell/fiery body}."
 		]
@@ -327,7 +327,7 @@
 			"",
 			"**Hydraulic Crush (Sp):** At 8th level, you can strike an area with a pressurized blast of water in a 5-foot-radius column 30 feet tall with a range of 60 feet. Creatures in the area take 1d6 bludgeoning damage per druid level and are knocked prone. When used underwater, the radius and height double, and the effect instead creates a powerful eddy that causes affected creatures to lose their Dexterity bonus to Armor Class for 1 round instead of knocking them prone. A successful Reflex save halves the damage and prevents the secondary effect. You can use this ability once per day, plus an additional time for every 6 levels beyond 8th.",
 			"",
-			"Alternatively, you can choose to gain a Small water elemental as a familiar, as if you possessed the Improved Familiar feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
+			"Alternatively, you can choose to gain a Small water elemental as a familiar, as if you possessed the {feat/Improved Familiar} feat. Your effective wizard level for this ability is equal to your druid level and stacks with other classes that grant a familiar.",
 			"",
 			"**Domain Spells:** 1st-{spell/touch of the sea}, 2nd-{spell/elemental speech}, 3rd-{spell/water breathing}, 4th-{spell/planar adaptation}, 5th-{spell/solid fog} (functions underwater), 6th-{spell/mass planar adaptation}, 7th-{spell/fluid form}, 8th-{spell/seamantle}, 9th-{spell/tsunami}."
 		]

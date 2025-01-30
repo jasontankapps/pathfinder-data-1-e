@@ -53,7 +53,7 @@
 			"",
 			"Some believe pipefoxes are the spirits of legendary scribes and lore masters given new form. Others believe the creatures are related to kami, and serve to preserve the world's knowledge.",
 			"",
-			"A spellcaster of at least 7th level who has the Improved Familiar feat may select the pipefox as a familiar, but only after the pipefox has agreed to pledge its services to the spellcaster."
+			"A spellcaster of at least 7th level who has the {feat/Improved Familiar} feat may select the pipefox as a familiar, but only after the pipefox has agreed to pledge its services to the spellcaster."
 		]
 	},
 	"piranha_swarm": {
@@ -764,7 +764,7 @@
 			"",
 			"A pooka measures 1 to 2 feet from eartips to tail and weighs up to 15 pounds.",
 			"",
-			"A non-lawful spellcaster of at least 7th level who takes the Improved Familiar feat can select a pooka as a familiar."
+			"A non-lawful spellcaster of at least 7th level who takes the {feat/Improved Familiar} feat can select a pooka as a familiar."
 		]
 	},
 	"popobala": {
@@ -1731,7 +1731,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Debate rages as to whether or not the strange and capricious creatures called voidworms are actually proteans at all. To the wizards and sorcerers who summon them as familiars, the answer seems obvious - these tiny dwellers of Limbo have all the requisite racial traits of proteans, down to their serpentine shapes. Yet the established protean castes find such claims outright insulting, claiming instead that it is such acts of conjuration that call voidworms forth from the raw stuff of Limbo, giving them shape and life according to the spellcasters' expectations, and that these lesser beings are but pale reflections of their formidable kin. Voidworms themselves have little to say on the matter-creatures of the moment, and sparing little thought for the constantly mutable concept of \"reality,\" voidworms only barely grasp cause and effect, and the past has no more substance or significance for them than a dream. In order to gain a voidworm as a familiar, a spellcaster must be chaotic neutral, be caster level 7th, and have the Improved Familiar feat.",
+			"Debate rages as to whether or not the strange and capricious creatures called voidworms are actually proteans at all. To the wizards and sorcerers who summon them as familiars, the answer seems obvious - these tiny dwellers of Limbo have all the requisite racial traits of proteans, down to their serpentine shapes. Yet the established protean castes find such claims outright insulting, claiming instead that it is such acts of conjuration that call voidworms forth from the raw stuff of Limbo, giving them shape and life according to the spellcasters' expectations, and that these lesser beings are but pale reflections of their formidable kin. Voidworms themselves have little to say on the matter-creatures of the moment, and sparing little thought for the constantly mutable concept of \"reality,\" voidworms only barely grasp cause and effect, and the past has no more substance or significance for them than a dream. In order to gain a voidworm as a familiar, a spellcaster must be chaotic neutral, be caster level 7th, and have the {feat/Improved Familiar} feat.",
 			"",
 			"Regardless of their actual origins, voidworms maintain a thriving ecology in the chaos of Limbo, forming together into darting, flashing schools that are often hunted for sport by naunets and other predators of chaos. Mortal wizards, however, most commonly encounter voidworms as summoned familiars. These tiny, serpentine creatures are particularly valued by illusionists, evokers, and other magical practitioners who deal with distorting or molding reality, though the familiars' bizarre logic and miniscule attention spans sometimes make them more trouble than they're worth. Still, their confusing attack and remarkable hardiness have saved more than one wizard on the battlefield, and their strange thought processes can sometimes offer unique insights in the laboratory. When traveling in more mundane lands, wizards often order voidworm familiars to use their change shape ability to disguise themselves as ordinary pets or animal familiars, though these disguises tend to slip when the voidworm grows curious or playful.",
 			"",
@@ -2588,7 +2588,7 @@
 			"",
 			"A nosoi's primary duties are to record happenings within Purgatory, conduct souls to and from their appointed destinations, and carry messages from Purgatory to agents in other planes. Most outsiders respect the couriers' neutrality and allow them safe passage. Many also serve as assistants to more powerful psychopomps or even to mortals with particularly morbid concerns or important fates. Nosois take pride in knowing that their trivial tasks aid in keeping one of the multiverse's most important systems functioning with general reliability.",
 			"",
-			"A true neutral spellcaster can gain a nosoi as a familiar at 7th level by taking the Improved Familiar feat. A nosoi familiar grants its master a +2 bonus on skill checks made to scribe scrolls. A nosoi immediately leaves the service of any master who creates or permanently becomes an undead.",
+			"A true neutral spellcaster can gain a nosoi as a familiar at 7th level by taking the {feat/Improved Familiar} feat. A nosoi familiar grants its master a +2 bonus on skill checks made to scribe scrolls. A nosoi immediately leaves the service of any master who creates or permanently becomes an undead.",
 			"",
 			"**Family:** {family/Psychopomp}"
 		]

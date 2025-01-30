@@ -401,6 +401,8 @@ const entities_in_tables = [
 	//   replacement RegExp with global flag,
 	//   code point to be the replacement (a number)
 	// ]
+	[/\{[^}]+&dagger;/, /&dagger;/g, 0x2020],
+	[/\{[^}]+&Dagger;/, /&Dagger;/g, 0x2021],
 	[/\{[^}]+&eacute;/, /&eacute;/g, 0x00E9],
 	[/\{[^}]+&times;/, /&times;/g, 0x00D7]
 ];

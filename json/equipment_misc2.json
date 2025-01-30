@@ -2653,7 +2653,7 @@
 			"",
 			"**Light Horse (Combat Trained):** These light warhorses are bred for war and are favored by fast and light cavalry, scouts, and daredevil knights.",
 			"",
-			"Pony: These creatures are typically used for carting goods along narrow mountain trails or as steeds for young or Small riders.",
+			"**Pony:** These creatures are typically used for carting goods along narrow mountain trails or as steeds for young or Small riders.",
 			"",
 			"**Pony (Combat Trained):** Ponies can be trained for combat just as effectively as their larger, more mature brethren. Such steeds often serve Small riders that expect to face battle."
 		]
@@ -4600,14 +4600,16 @@
 	"manacles_common": {
 		"name": "Manacles (common)",
 		"sources": [
+			"Adventurer's Armory",
 			"Path of the Hellknight",
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
 		],
 		"description": [
 			"## Manacles",
-			"{SOURCE Path of the Hellknight/15;PRPG Core Rulebook/158;Ultimate Equipment/57}  ",
+			"{SOURCE Path of the Hellknight/15;PRPG Core Rulebook/158;Ultimate Equipment/57;Adventurer's Armory/19}  ",
 			"**Price** 15 gp (common), 50 gp (masterwork), 1,000 gp (mithral); **Weight** 2 lbs. (common), 2 lbs. (masterwork), 2 lbs. (mithral)",
+			"**Category** Adventuring Gear",
 			"",
 			"Manacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 hit points.",
 			"",
@@ -4617,12 +4619,12 @@
 			"",
 			"**Mithral Manacles:** These bindings are more difficult to break than standard manacles and are particularly useful against lycanthropes. They have hardness 15, 30 hit points, and a break DC of 30. They are otherwise treated as masterwork manacles.",
 			"",
-			"**Expanded Information**  ",
-			"{SOURCE Path of the Hellknight/15}",
+			"### Expanded Information**",
 			"",
+			"{SOURCE Path of the Hellknight/15}  ",
 			"The specifics of their effects are largely left to the GM's discretion, due in large part to manacles' versatility. However, for their most common uses, GMs might employ the following effects.",
 			"",
-			"Fetters: These manacles are specifically designed to fit around the ankles, and use the same rules for breaking, escape, and cost relative to size. A creature in fetters is entangled and can move at only half speed. In addition, a fettered creature must succeed at a DC 15 Acrobatics check to move more than its (reduced) speed in a round. If it fails the check by 5 or more, the creature falls prone.",
+			"**Fetters:** These manacles are specifically designed to fit around the ankles, and use the same rules for breaking, escape, and cost relative to size. A creature in fetters is entangled and can move at only half speed. In addition, a fettered creature must succeed at a DC 15 Acrobatics check to move more than its (reduced) speed in a round. If it fails the check by 5 or more, the creature falls prone.",
 			"",
 			"**Frontal Restraint:** A creature whose wrists are bound with manacles can wield only one melee weapon or shield in combat (the weapon may be a two-handed weapon). It cannot make use of ranged weapons, except for crossbows (but even these cannot be reloaded by the bound creature). Any attack the creature makes while manacled takes a -4 penalty. The creature can attempt skill checks using its hands, but at a -5 penalty (-15 on Disable Device checks to pick the lock of manacles the creature is wearing).",
 			"",
@@ -4640,6 +4642,7 @@
 		"name": "Manacles (mithral)",
 		"copyof": "manacles_common"
 	},
+	"mithral_manacles": { "copyof": "manacles_mithral" },
 	"manacles_quickcatch": {
 		"name": "Manacles (quickcatch)",
 		"sources": [ "Melee Tactics Toolbox" ],
@@ -5461,7 +5464,7 @@
 			"**Price** 550 gp; **Weight** 4 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"These four thin horseshoes shield a horse's feet as well as steel, allowing it to gallop with confidence, but mithral horseshoes are far lighter than steel. Horses shod with mithral horseshoes treat their hoof attacks as if they were silver for the purposes of overcoming damage reduction."
+			"These four thin horseshoes shield a horse's feet as well as steel, allowing it to gallop with confidence, but {eq-material/mithral} horseshoes are far lighter than steel. Horses shod with mithral horseshoes treat their hoof attacks as if they were silver for the purposes of overcoming damage reduction."
 		]
 	},
 	"horseshoes": {
@@ -5473,19 +5476,11 @@
 			"**Price** 50 gp; **Weight** 8 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This item is based on {eq-misc/mithral horseshoes}, back-ported per the rules for {eq-material/mithral}."
-		]
-	},
-	"mithral_manacles": {
-		"name": "Mithral manacles",
-		"sources": [ "Adventurer's Armory" ],
-		"description": [
-			"## Mithral manacles",
-			"{SOURCE Adventurer's Armory/19}  ",
-			"**Price** 1,000 gp; **Weight** 2 lbs.  ",
-			"**Category** Adventuring Gear",
+			"This item is based on {eq-misc/mithral horseshoes}. There are no official rules for horsehoes. Consult your GM.",
 			"",
-			"These bindings are more difficult to break than standard bindings and are particularly useful against lycanthropes. They have hardness 15, 30 hit points, and a break DC of 30."
+			"Per the rules for {eq-material/mithral}, the weight listed should be accurate, but the price of the mithral item doesn't line up (a 4-pound mithral item should be 2000gp, not 550gp). A 1-pound {eq-misc/mithral chain>_10_ft} seems to treat the mithal as a +500gp bonus to the regular {eq-misc/chain/'s>_10_ft} price, but that lines up with a 1-pound item. Nevertheless, this entry treats the mithral as a simple +500gp cost.",
+			"",
+			"Making horseshoes would likely fall under Profession (blacksmithing or farrier), so using a [trained hireling](eq-misc/hireling_trained_per_day) may be a better way to obtain normal horsehoes."
 		]
 	},
 	"mithralbane_sap": {

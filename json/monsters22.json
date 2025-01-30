@@ -136,7 +136,7 @@
 			"",
 			"The difficulty of keeping such delicate creatures alive and healthy has often proven worth the trouble for religious sects throughout Golarion. While each sect breeds its sin seekers with different magical abilities, they all use the creatures as lie detectors and moral litmus tests. Clergy from good-aligned sects, like those that worship Iomedae or Sarenrae, often use sin seekers as penitential aids. These sects see sin seekers as living reminders of the priests' shortcomings and often use them to witness ritual oaths. Evil sects, like those that worship Norgorber or Asmodeus, often use sin seekers as interrogation and inquisitional instruments. Such sects combine the use of sin seekers with traditional torture techniques to persecute nonbelievers or to weed out seditious forces within their ranks.",
 			"",
-			"Once trained, sin seekers make excellent familiars, and form strong bonds with their keepers. They are both affectionate and loyal, and quickly adopt their keepers' personalities. Their high intelligence and lie-detecting abilities make them favored familiars of detectives, interrogators, and negotiators. Sin seekers' ability to track creatures by following their auras make them popular among rangers, paladins, and inquisitors who specialize in tracking evil creatures. Unfortunately, while sin seekers are incredibly useful, their auras of honesty and repulsive appearances can sometimes be a hindrance to adventuring parties. Charismatic rogues and bards find the creatures both off-putting and inconvenient. Any character of 5th level or higher with the Improved Familiar feat may take a sin seeker as a familiar.",
+			"Once trained, sin seekers make excellent familiars, and form strong bonds with their keepers. They are both affectionate and loyal, and quickly adopt their keepers' personalities. Their high intelligence and lie-detecting abilities make them favored familiars of detectives, interrogators, and negotiators. Sin seekers' ability to track creatures by following their auras make them popular among rangers, paladins, and inquisitors who specialize in tracking evil creatures. Unfortunately, while sin seekers are incredibly useful, their auras of honesty and repulsive appearances can sometimes be a hindrance to adventuring parties. Charismatic rogues and bards find the creatures both off-putting and inconvenient. Any character of 5th level or higher with the {feat/Improved Familiar} feat may take a sin seeker as a familiar.",
 			"",
 			"### Variant Sin Seekers",
 			"",
@@ -1658,7 +1658,7 @@
 			"",
 			"### Skvaders and Wolpertingers as Familiars",
 			"",
-			"While most skvaders and wolpertingers prefer the company of their families and packs, occasionally the more adventurous among them come to serve as familiars. Service to a powerful spellcaster brings with it protection and long-term companionship, which these creatures take advantage of. A neutral spellcaster can gain a skvader as a familiar at 3rd level by taking the Improved Familiar feat, and a neutral spellcaster can gain a wolpertinger as a familiar at 5th level by taking the Improved Familiar feat."
+			"While most skvaders and wolpertingers prefer the company of their families and packs, occasionally the more adventurous among them come to serve as familiars. Service to a powerful spellcaster brings with it protection and long-term companionship, which these creatures take advantage of. A neutral spellcaster can gain a skvader as a familiar at 3rd level by taking the {feat/Improved Familiar} feat, and a neutral spellcaster can gain a wolpertinger as a familiar at 5th level by taking the {feat/Improved Familiar} feat."
 		]
 	},
 	"slaugrak": {
@@ -2158,7 +2158,7 @@
 			"",
 			"Capricious natives of the Plane of Shadow, smokeshades are amorphous creatures that are made from semi-solid smoke and shadow. Thought naturally wormlike in shape, smokeshades can contort themselves into rings, corkscrews, or even crude effigies with little effort. Regardless of a smokeshade's shape, its composition remains purely a dark, roiling mist. Vain, preening creatures, smokeshades generally avoid combat and prefer to mock others with rude shapes or pantomime.",
 			"",
-			"A spellcaster of at least 7th level with an alignment within one step of neutral evil who has the Improved Familiar feat can select a smokeshade as a familiar."
+			"A spellcaster of at least 7th level with an alignment within one step of neutral evil who has the {feat/Improved Familiar} feat can select a smokeshade as a familiar."
 		]
 	},
 	"snake_swarm": {

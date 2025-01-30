@@ -124,7 +124,7 @@
 			"",
 			"**Alignment:** Lawful Evil, Lawful Neutral, Neutral Evil, or Neutral.",
 			"",
-			"**Requirements:** An infernal binder must choose a familiar as her arcane bond at 1st level.",
+			"**Requirements:** An infernal binder must choose a {ability/familiar>s} as her arcane bond at 1st level.",
 			"",
 			"**Replacement Powers:** The following school powers replace the acid dart and dimensional steps powers of the conjuration school.",
 			"",
@@ -132,7 +132,7 @@
 			"",
 			"**Assume Control (Su):** At 1st level, you can attempt to gain control over a summoned creature by disrupting the bond between it and the caster who summoned it. You must make a caster level check (1d20 + caster level) equal to 10 + the summoning caster's level. If you know the summoned creature's name, you receive a +2 circumstance bonus on the check. If the check is successful, you can control the summoned creature as if you had summoned it for a number of rounds equal to 1/2 your wizard level (minimum 1 round). This does not increase the duration of the original summoning. The original summoning caster can attempt to regain control of the summoned creature as a standard action by making a caster level check against your caster level + 10. When your control ends, the creature reverts to the control of its summoner. At 9th level, you can use this ability to bargain with called creatures as if you were the caster who conjured them. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
 			"",
-			"**Imp Familiar (Ex):** At 7th level, you gain Improved Familiar as a bonus feat, and must take an imp as a familiar. The imp replaces your current familiar."
+			"**Imp Familiar (Ex):** At 7th level, you gain {feat/Improved Familiar} as a bonus feat, and must take an {monster/imp} as a familiar. The imp replaces your current familiar."
 		]
 	},
 	"chronomancer": {
@@ -368,11 +368,11 @@
 			"{SOURCE Familiar Folio/8}  ",
 			"Some wizards make bargains with beings from other realms in order to gain arcane power. These pact wizards have unparalleled access to extraplanar allies, but these bonds never come without strings attached.",
 			"",
-			"**Familiar (Ex):** A pact wizard must select a familiar for his arcane bond. The familiar's loyalty ultimately lies with the pact wizard's patron, and it reports back to the patron on the wizard's activities. This ability alters arcane bond.",
+			"**Familiar (Ex):** A pact wizard must select a {ability/familiar>s} for his arcane bond. The familiar's loyalty ultimately lies with the pact wizard's patron, and it reports back to the patron on the wizard's activities. This ability alters arcane bond.",
 			"",
 			"**Pact Focus (Ex):** At 1st level, a pact wizard must choose one additional opposition school, even if he is a universalist. A pact wizard can't pick conjuration as an opposition school. This ability alters arcane school.",
 			"",
-			"**Pact (Ex):** A pact wizard enters into a bargain with an extraplanar being in order to gain increased wizardly powers. At 1st level, he selects a patron belonging to one specific subtype of outsider for which there exists an improved familiar option (such as devil or azata). The pact wizard can select a subtype of outsider even with a diametrically opposed alignment; in this case, the patron being offers the pact in an attempt to tempt or redeem the pact wizard. A pact wizard whose alignment shifts away from the chosen outsider subtype, who grossly abuses his familiar or any outsider of the chosen subtype, or who commits egregious acts against the alignment of the patron loses all the benefits of this archetype (but keeps the additional opposition school) until he receives an atonement.",
+			"**Pact (Ex):** A pact wizard enters into a bargain with an extraplanar being in order to gain increased wizardly powers. At 1st level, he selects a patron belonging to one specific subtype of outsider for which there exists an {feat/improved familiar} option (such as devil or azata). The pact wizard can select a subtype of outsider even with a diametrically opposed alignment; in this case, the patron being offers the pact in an attempt to tempt or redeem the pact wizard. A pact wizard whose alignment shifts away from the chosen outsider subtype, who grossly abuses his familiar or any outsider of the chosen subtype, or who commits egregious acts against the alignment of the patron loses all the benefits of this archetype (but keeps the additional opposition school) until he receives an atonement.",
 			"",
 			"**Aura (Ex):** A pact wizard has an aura corresponding to the alignment of his chosen subtype as a cleric of his wizard level.",
 			"",
@@ -801,7 +801,7 @@
 			"",
 			"This replaces the school ability normally gained at 6th or 8th level.",
 			"",
-			"**Planar Associates (Ex):** A worldseeker's travels and dealings across the planes allow her to make connections she can call upon when necessary to gain assistance without needing to resort to planar binding. A worldseeker must choose a familiar for her arcane bond. At 5th level, she gains Improved Familiar as a bonus feat and must choose an outsider familiar that matches her alignment exactly; she can choose an outsider in this way even if it normally requires a 7th-level spellcaster as its master.",
+			"**Planar Associates (Ex):** A worldseeker's travels and dealings across the planes allow her to make connections she can call upon when necessary to gain assistance without needing to resort to planar binding. A worldseeker must choose a {ability/familiar>s} for her arcane bond. At 5th level, she gains {feat/Improved Familiar} as a bonus feat and must choose an outsider familiar that matches her alignment exactly; she can choose an outsider in this way even if it normally requires a 7th-level spellcaster as its master.",
 			"",
 			"At 7th level, a worldseeker automatically learns lesser planar ally as a 4th-level wizard spell. She automatically learns planar ally as a 6th-level wizard spell at 11th level, and greater planar ally as an 8th-level wizard spell at 15th level. She can swap out a prepared spell of an equal spell level to spontaneously cast any of these three spells (one 4th-level spell for lesser planar ally, a 6th-level spell for planar ally, and a 8th level spell for greater planar ally).",
 			"",
