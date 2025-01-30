@@ -32,7 +32,7 @@
 				],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 150, 55, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
+				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Butterfly/Moth/ (Familiar)}", [ -10, "0" ], "vermin", [ 1, "diminutive" ], [ 4, "N" ], "This graceful winged insect is a riot of color that glides through the air like a flittering dream.", 1, 13, 4, [ -1, "&mdash;" ], 12, 7, 0, -3, 2 ],
@@ -295,7 +295,7 @@
 				],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
+				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Akaname}", 1, "aberration", [ 3, "small" ], [ 4, "N" ], "This short, spindly creature has warty, brown-red skin and large black eyes. Its long, muscular tongue drags on the ground beneath it.", 15, 15, 15, 10, 12, 6, 1, 2, 14 ],
@@ -702,7 +702,7 @@
 				],
 				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
 				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 150, 50, 100, 110, 100, 250, 50, 50, 50, 50, 50, 50, 50, 50, 50 ],
+				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Bat, Mobat}", 3, "magical beast", [ 5, "large" ], [ 4, "N" ], "This bat has a wingspan the length of two humans, over-sized ears, and a squat, upturned snout with rows of needle-like teeth.", 17, 15, 16, 6, 13, 6, 4, 8, 20 ],

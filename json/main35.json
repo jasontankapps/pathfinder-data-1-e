@@ -28,7 +28,7 @@
 				],
 				"types": [ null, "num", null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 100, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abysogh}", 15, "giant", [ 7, "gargantuan" ], [ 8, "CE" ], "The footsteps of this pale titan cause the very earth to shudder. Each muscle in its body is pulled taut as if in perpetual convulsion." ],
@@ -370,7 +370,7 @@
 				],
 				"types": [ null, "num", null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 100, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Abysogh}", 15, "giant", [ 7, "gargantuan" ], [ 8, "CE" ], "The footsteps of this pale titan cause the very earth to shudder. Each muscle in its body is pulled taut as if in perpetual convulsion." ],
@@ -501,7 +501,7 @@
 				],
 				"types": [ null, "num", null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 110, 100, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Bugbear}", 2, "goblinoid", [ 4, "medium" ], [ 8, "CE" ], "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill." ],
@@ -580,7 +580,7 @@
 				],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 150, 50, 100, 125, 110, 100, 250 ],
+				"sizes": [ 8.5, 3.5, 5.5, 7, 6, 5.5, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Akhlut}", 13, "magical beast", "cold, shapechanger", [ 6, "huge" ], [ 4, "N" ], "A dorsal fin rises up from the back of this immense black-and-white-furred, wolflike beast." ],
@@ -732,7 +732,7 @@
 				],
 				"types": [ null, "num", null, null, "num", "num", 0 ],
 				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 150, 50, 100, 125, 110, 100, 250 ],
+				"sizes": [ 8.5, 3.5, 5.5, 7, 6, 5.5, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{monster/Alchemical Ooze Swarm, Choleric Ooze Swarm}", 2, "ooze", "swarm", [ 2, "tiny" ], [ 4, "N" ], null ],

@@ -149,7 +149,7 @@ const getStyle = (size: number | undefined) => {
 	if(size === undefined) {
 		return undefined;
 	}
-	return { width: size };
+	return { width: `${size + 1}rem` };
 }
 
 const Th: FC<ThProps> = ({index, sorter, sortState = true, children, active, sortable, size}) => {
@@ -838,9 +838,9 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		if(!sizes) {
 			return undefined;
 		} else if (Array.isArray(sizes)) {
-			return { width: activeHeaders.reduce((total, i) => total + sizes[i], 0) };
+			return { width: `${activeHeaders.reduce((total, i) => total + sizes[i], 0) + activeHeaders.length}rem` };
 		}
-		return { width: activeHeaders.length * sizes };
+		return { width: `${activeHeaders.length * (sizes + 1)}rem` };
 	}, [sizes, activeHeaders]);
 	useEffect(() => {
 		// Restore saved table filters and sort status

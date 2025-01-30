@@ -15,7 +15,7 @@
 				"initialColumn": 0,
 				"nullValue": "",
 				"id": "Combat feats table",
-				"sizes": [ 150, 150, 225 ],
+				"sizes": [ 8.5, 8.5, 13.25 ],
 				"ripples": [0],
 				"data": [
 					[ "{feat/Acrobatic Spellcaster}", "{feat/Combat Casting}, {feat/Skill Focus/ (Acrobatics)}.", "Avoid attacks of opportunity from casting with Acrobatics" ],

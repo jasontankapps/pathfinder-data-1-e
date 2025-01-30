@@ -887,7 +887,7 @@
 				"types": [ null, "num" ],
 				"alignments": [ true, null ],
 				"ripples": [0],
-				"sizes": [ 150, 75 ],
+				"sizes": [ 8.5, 4 ],
 				"data": [
 					[ "{monster/Adlet}", 14 ],
 					[ "{monster/Ahuizotl}", 11 ],

@@ -11,7 +11,7 @@
 				"headers": [ "Spell", "Level(s)", "Descriptor", "Description" ],
 				"types": [ null, "num", null, 0 ],
 				"alignments": [ true, null, null, true ],
-				"sizes": [ 150, 75, 110, 250 ],
+				"sizes": [ 8.5, 4, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abeyance}", 2, null, "Suppress the effects of a single curse." ],
@@ -370,7 +370,7 @@
 				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, 0 ],
 				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 150, 75, 125, 110, 250 ],
+				"sizes": [ 8.5, 4, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Ablative Barrier}", [ 2.451, "2, 3" ], "creation", "force", "Surrounds the target with layers of force." ],
@@ -875,7 +875,7 @@
 				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, 0 ],
 				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 150, 75, 125, 110, 250 ],
+				"sizes": [ 8.5, 4, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Aerial Tracks}", [ 3.601, "3, 4" ], null, "air", "Track flying creatures through the air." ],
@@ -1180,7 +1180,7 @@
 				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, 0 ],
 				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 150, 75, 125, 110, 250 ],
+				"sizes": [ 8.5, 4, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Abadar's Truthtelling}", 1, "compulsion", "mind-affecting", "Force the target to speak the truth." ],

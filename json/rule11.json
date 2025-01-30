@@ -3437,7 +3437,7 @@
 				"headers": [ "Hazard", "CR", "(Su)" ],
 				"types": [ null, "num", "num" ],
 				"alignments": [ true, null, null ],
-				"sizes": [ 200, 75, 75 ],
+				"sizes": [ 11.5, 4, 4 ],
 				"ripples": [0],
 				"data": [
 					[ "{rule/Brambles}", 1, [ 1, "" ]  ],

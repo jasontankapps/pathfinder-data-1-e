@@ -1832,7 +1832,7 @@
 				"types": [ null, null, null, null, "gp" ],
 				"alignments": [ true, null, null, true, null ],
 				"ripples": [0],
-				"sizes": [ 125, 90, 90, 150, 75 ],
+				"sizes": [ 7, 5, 5, 8.5, 4 ],
 				"data": [
 					[ "{magic-ioun/Dull Gray>_stone}", "Flawed", "Stone", null, 25 ],
 					[ "{magic-ioun/Dull Gray>_stone}", "Cracked", "Stone", null, 25 ],

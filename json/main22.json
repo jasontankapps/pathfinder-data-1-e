@@ -11,7 +11,7 @@
 				"headers": [ "Spell", "Level(s)", "Descriptor", "Description" ],
 				"types": [ null, "num", null, 0 ],
 				"alignments": [ true, null, null, true ],
-				"sizes": [ 150, 75, 110, 250 ],
+				"sizes": [ 8.5, 4, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Admonishing Ray}", 2, "force", "Fire multiple rays that deal nonlethal force." ],
@@ -405,7 +405,7 @@
 				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, 0 ],
 				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 150, 75, 125, 110, 250 ],
+				"sizes": [ 8.5, 4, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Absurdity}", 2, "phantasm", "emotion, mind-affecting", "Threats seem like a ridiculous farce." ],
@@ -665,7 +665,7 @@
 				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, 0 ],
 				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 150, 75, 125, 110, 250 ],
+				"sizes": [ 8.5, 4, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Absorb Toxicity}", [ 4.221, "3, 4, 5" ], null, null, "You become immune to diseases and toxins, absorb one, and then spread it to others." ],
@@ -1026,7 +1026,7 @@
 				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
 				"types": [ null, "num", null, null, 0 ],
 				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 150, 75, 125, 110, 250 ],
+				"sizes": [ 8.5, 4, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Aboleth's Lung}", 2, null, null, "Allow the target to breathe water at the cost of no longer being able to breathe air." ],

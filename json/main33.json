@@ -7,55 +7,55 @@
 		"description": [
 			"::mainheader[Arcane Mythic Spells by Class]",
 			"",
-			"::main[Alchemist]{link=main/spells_mythic_alchemist}",
+			"::main[Alchemist]{to=main/spells_mythic_alchemist}",
 			"",
-			"::main[Arcanist, Sorcerer and Wizard]{link=main/spells_mythic_arcanist_sorcerer_wizard}",
+			"::main[Arcanist, Sorcerer and Wizard]{to=main/spells_mythic_arcanist_sorcerer_wizard}",
 			"",
-			"::main[Bard and Skald]{link=main/spells_mythic_bard_skald}",
+			"::main[Bard and Skald]{to=main/spells_mythic_bard_skald}",
 			"",
-			"::main[Bloodrager]{link=main/spells_mythic_bloodrager}",
+			"::main[Bloodrager]{to=main/spells_mythic_bloodrager}",
 			"",
-			"::main[Investigator]{link=main/spells_mythic_investigator}",
+			"::main[Investigator]{to=main/spells_mythic_investigator}",
 			"",
-			"::main[Magus]{link=main/spells_mythic_magus}",
+			"::main[Magus]{to=main/spells_mythic_magus}",
 			"",
-			"::main[Summoner]{link=main/spells_mythic_summoner}",
+			"::main[Summoner]{to=main/spells_mythic_summoner}",
 			"",
-			"::main[Unchained Summoner]{link=main/spells_mythic_unchained_summoner}",
+			"::main[Unchained Summoner]{to=main/spells_mythic_unchained_summoner}",
 			"",
-			"::main[Witch]{link=main/spells_mythic_witch}",
+			"::main[Witch]{to=main/spells_mythic_witch}",
 			"",
 			"::mainheader[Divine Mythic Spells by Class]",
 			"",
-			"::main[Antipaladin]{link=main/spells_mythic_antipaladin}",
+			"::main[Antipaladin]{to=main/spells_mythic_antipaladin}",
 			"",
-			"::main[Cleric and Oracle]{link=main/spells_mythic_cleric_oracle}",
+			"::main[Cleric and Oracle]{to=main/spells_mythic_cleric_oracle}",
 			"",
-			"::main[Druid]{link=main/spells_mythic_druid}",
+			"::main[Druid]{to=main/spells_mythic_druid}",
 			"",
-			"::main[Hunter]{link=main/spells_mythic_hunter}",
+			"::main[Hunter]{to=main/spells_mythic_hunter}",
 			"",
-			"::main[Inquisitor]{link=main/spells_mythic_inquisitor}",
+			"::main[Inquisitor]{to=main/spells_mythic_inquisitor}",
 			"",
-			"::main[Paladin]{link=main/spells_mythic_paladin}",
+			"::main[Paladin]{to=main/spells_mythic_paladin}",
 			"",
-			"::main[Ranger]{link=main/spells_mythic_rangers}",
+			"::main[Ranger]{to=main/spells_mythic_rangers}",
 			"",
-			"::main[Shaman]{link=main/spells_mythic_shaman}",
+			"::main[Shaman]{to=main/spells_mythic_shaman}",
 			"",
-			"::main[Warpriest]{link=main/spells_mythic_warpriest}",
+			"::main[Warpriest]{to=main/spells_mythic_warpriest}",
 			"",
 			"::mainheader[Occult Mythic Spells by Class]",
 			"",
-			"::main[Medium]{link=main/spells_mythic_medium}",
+			"::main[Medium]{to=main/spells_mythic_medium}",
 			"",
-			"::main[Mesmerist]{link=main/spells_mythic_mesmerist}",
+			"::main[Mesmerist]{to=main/spells_mythic_mesmerist}",
 			"",
-			"::main[Occultist]{link=main/spells_mythic_occultist}",
+			"::main[Occultist]{to=main/spells_mythic_occultist}",
 			"",
-			"::main[Psychic]{link=main/spells_mythic_psychic}",
+			"::main[Psychic]{to=main/spells_mythic_psychic}",
 			"",
-			"::main[Spiritualist]{link=main/spells_mythic_spiritualist}",
+			"::main[Spiritualist]{to=main/spells_mythic_spiritualist}",
 			"",
 			"::mhr",
 			"",
@@ -84,7 +84,7 @@
 					]}
 				],
 				"alignments": [ true, null, null, true ],
-				"sizes": [ 150, 75, 125, 250 ],
+				"sizes": [ 8.5, 4, 7, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Animate Plants}", 7, "transmutation", "One or more plants animate and fight for you." ],
@@ -220,7 +220,7 @@
 		"searchgroup": "spell",
 		"description": [
 			"",
-			"::main[Arcanist, Sorcerer and Wizard Spells]{link=Mythic}",
+			"::main[Arcanist, Sorcerer and Wizard Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -231,7 +231,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
@@ -329,7 +329,7 @@
 		"searchgroup": "spell",
 		"description": [
 			"",
-			"::main[Alchemist Extracts]{link=Mythic}",
+			"::main[Alchemist Extracts]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -340,7 +340,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -378,7 +378,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Investigator Extracs]{link=Mythic}",
+			"::main[Investigator Extracs]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -389,7 +389,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -427,7 +427,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Summoner Spells]{link=Mythic}",
+			"::main[Summoner Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -438,7 +438,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -464,7 +464,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Unchained Summoner Spells]{link=Mythic}",
+			"::main[Unchained Summoner Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -475,7 +475,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -502,7 +502,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Bard and Skald Spells]{link=Mythic}",
+			"::main[Bard and Skald Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -514,7 +514,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Chord of Shards}", 1, "evocation", null, null, "Performance deals 2d6 piercing damage." ],
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -548,7 +548,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Magus Spells]{link=Mythic}",
+			"::main[Magus Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -559,7 +559,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -608,7 +608,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Witch Spells]{link=Mythic}",
+			"::main[Witch Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -620,7 +620,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -677,7 +677,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Bloodrager Spells]{link=Mythic}",
+			"::main[Bloodrager Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -689,7 +689,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -733,7 +733,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Cleric and Oracle Spells]{link=Mythic}",
+			"::main[Cleric and Oracle Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -744,7 +744,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -797,7 +797,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Druid Spells]{link=Mythic}",
+			"::main[Druid Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -808,7 +808,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -851,7 +851,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Ranger Spells]{link=Mythic}",
+			"::main[Ranger Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -862,7 +862,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -885,7 +885,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Hunter Spells]{link=Mythic}",
+			"::main[Hunter Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -896,7 +896,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -933,7 +933,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Inquisitor Spells]{link=Mythic}",
+			"::main[Inquisitor Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -945,7 +945,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -981,7 +981,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Warpriest Spells]{link=Mythic}",
+			"::main[Warpriest Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -993,7 +993,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -1037,7 +1037,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Paladin Spells]{link=Mythic}",
+			"::main[Paladin Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -1048,7 +1048,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -1071,7 +1071,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Antipaladin Spells]{link=Mythic}",
+			"::main[Antipaladin Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -1082,7 +1082,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -1107,7 +1107,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Shaman Spells]{link=Mythic}",
+			"::main[Shaman Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -1118,7 +1118,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
@@ -1161,7 +1161,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Medium Spells]{link=Mythic}",
+			"::main[Medium Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -1173,7 +1173,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
 					[ "{spell/Ear-Piercing Scream}", 1, "evocation", null, "sonic", "Deal sonic damage and daze target." ],
@@ -1207,7 +1207,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Mesmerist Spells]{link=Mythic}",
+			"::main[Mesmerist Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -1219,7 +1219,7 @@
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
 				"ripples": [0],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -1259,7 +1259,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Occultist Spells]{link=Mythic}",
+			"::main[Occultist Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -1270,7 +1270,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
@@ -1325,7 +1325,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Psychic Spells]{link=Mythic}",
+			"::main[Psychic Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -1336,7 +1336,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
@@ -1402,7 +1402,7 @@
 		"noFinder": true,
 		"description": [
 			"",
-			"::main[Spiritualist Spells]{link=Mythic}",
+			"::main[Spiritualist Spells]{to=Mythic}",
 			"",
 			"{table0}"
 		],
@@ -1413,7 +1413,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -1464,7 +1464,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Alchemical Tinkering}", 1, "transmutation", null, null, "Transform an alchemical item or firearm into another similar item." ],

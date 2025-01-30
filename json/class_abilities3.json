@@ -408,7 +408,7 @@
 				"ripples": [0],
 				"types": [ null, null, null, null ],
 				"alignments": [ true, null, null, true ],
-				"sizes": [ 125, 90, 125, 175  ],
+				"sizes": [ 7, 5, 7, 10 ],
 				"data": [
 					[ "{ragepower/Abyssal Blood/ (Su)}", "6th", "Blood", "Grow larger during a rage." ],
 					[ "{ragepower/Abyssal Blood, Greater/ (Su)}", "10th", "Blood", "Gain resistance 5 to acid, cold, and fire." ],

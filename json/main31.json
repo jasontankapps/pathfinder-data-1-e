@@ -25,7 +25,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Animal Purpose Training}", 1, "enchantment", "compulsion", "mind-affecting", "Animal gains a new general purpose." ],
@@ -340,7 +340,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Acid Splash}", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage." ],
@@ -857,7 +857,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
@@ -1562,7 +1562,7 @@
 				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 150, 50, 125, 125, 110, 250 ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"ripples": [0],
 				"data": [
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying." ],
