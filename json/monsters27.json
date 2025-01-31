@@ -26,7 +26,8 @@
 			"**Ranged** +1 composite longbow +12/+7 (1d8+6/&times;3)  ",
 			"**Special Attacks** whirlwind blast  ",
 			"**Spell-Like Abilities** (CL 6th)  ",
-			"At Will-blur, charm person (DC 13), gust of wind (DC 14), mirror image, wind wall 2/day-lightning bolt (DC 15), cure serious wounds",
+			"*At Will*-blur, charm person (DC 13), gust of wind (DC 14), mirror image, wind wall  ",
+			"*2/day*-lightning bolt (DC 15), cure serious wounds",
 			"",
 			"::sh[Statistics]",
 			"",
@@ -1577,7 +1578,12 @@
 			"- 9 Hit Dice",
 			"- +2 natural armor",
 			"- +4 Strength, +6 Constitution, +6 Charisma",
-			"- **Additional Spell-Like Abilities (Sp):** Always active - endure elements, nondetection; At will - create water, detect animals or plants; 3/day - command plants, move earth, summon nature's ally IV; 1/day - fire seeds, plant shape II. These spell-like abilities and all others function at CL 11th."
+			"- **Additional Spell-Like Abilities (Sp):**  ",
+			"    - *Always active* - endure elements, nondetection;  ",
+			"    - *At will* - create water, detect animals or plants;  ",
+			"    - *3/day* - command plants, move earth, summon nature's ally IV;  ",
+			"    - *1/day* - fire seeds, plant shape II.  ",
+			"    - These spell-like abilities and all others function at CL 11th."
 		]
 	},
 	"blood_algae_swarm": {

@@ -27,7 +27,7 @@
 			"",
 			"::main[View Critical Feats]{to=main/feats_critical endem=\"(28 feats)\"}",
 			"",
-			"::main[View Item Creation Feats]{to=main/feats_metamagic endem=\"(26 feats)\"}",
+			"::main[View Item Creation Feats]{to=main/feats_item_creation endem=\"(26 feats)\"}",
 			"",
 			"::main[View Metamagic]{to=main/feats_metamagic endem=\"(85 feats)\"}",
 			"",
@@ -103,9 +103,13 @@
 		"title": "Feats - General",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_basic).",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"searchgroup": "feat",
 		"tables": [
@@ -1730,9 +1734,13 @@
 		"title": "Feats - Critical",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_basic).",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -1781,6 +1789,8 @@
 		"title": "Feats - Familiar",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_class).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1792,7 +1802,9 @@
 			"| {feat/Mascot's Affection} | Must have a familiar with the mascot archetype. | Your familiar can have more team members |",
 			"| {feat/Mauler's Endurance} | Must have a familiar with the mauler archetype. | Familiar gains 2 hp/level |",
 			"| {feat/Polyglot Familiar} | Must have a familiar. | Your familiar can speak with other creatures |",
-			"| {feat/Sage's Guidance} | Must have a familiar with the sage archetype. | Your familiar's knowledge grants you bonuses on attack/skills |"
+			"| {feat/Sage's Guidance} | Must have a familiar with the sage archetype. | Your familiar's knowledge grants you bonuses on attack/skills |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
@@ -1800,6 +1812,8 @@
 		"title": "Feats - Blood Hex",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_class).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1811,7 +1825,9 @@
 			"| {feat/Consumption} | Int 13, Use Magic Device 5 ranks. | Blood curse causes creature to use up its class resources faster |",
 			"| {feat/Falter} | Int 13, Spellcraft 5 ranks, Use Magic Device 5 ranks. | Blood curse causes creature to fail at planned actions |",
 			"| {feat/Hinder} | Int 13, Use Magic Device 5 ranks. | Blood curse causes creature to take -10 penalty to initiative |",
-			"| {feat/Uncertainty} | Int 13; Bluff, Diplomacy, and Intimidate 5 ranks. | Blood curse causes creature to take -6 penalty to a social skill |"
+			"| {feat/Uncertainty} | Int 13; Bluff, Diplomacy, and Intimidate 5 ranks. | Blood curse causes creature to take -6 penalty to a social skill |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
@@ -1914,6 +1930,8 @@
 		"title": "Feats - Achievement",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1921,7 +1939,9 @@
 			"| {feat/Chainbreaker} | Over the course of at least five different occasions, free a cumulative total of 50+ sentient beings held in unjust captivity. | Gain a bonus to damage against slave-traders or masters |",
 			"| {feat/Devil's Foe} | Face 10 different devils in combat and take damage or suffer some other sort of injury from five or more attacks made by each one without falling unconscious, fleeing, or otherwise becoming unable to strike back at them. | Attacks count as good-aligned when bypassing a devil's DR |",
 			"| {feat/Eagle Knight Candidate} | Character level 5th, convince four different Eagle Knights and either a member of the People's Council or an Andoran town mayor to write letters of commendation on your behalf. | Join the Eagle Knights, gaining a unique benefit |",
-			"| {feat/Talmandor's Lifting} | Take at least 10d6 falling damage on three different occasions and survive. | Cast a healing spell on an undamaged person, allowing them to trigger it at a later time |"
+			"| {feat/Talmandor's Lifting} | Take at least 10d6 falling damage on three different occasions and survive. | Cast a healing spell on an undamaged person, allowing them to trigger it at a later time |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
@@ -1929,6 +1949,8 @@
 		"title": "Feats - Faction",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1949,7 +1971,9 @@
 			"| {feat/Silent Performer} | Bardic performance class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 12th, Kitharodian Academy 15 TPA. | Use bardic performance without making a sound |",
 			"| {feat/Touched by Sacred Fire} | {feat/Endurance}, Risen Guard rank, Risen Guard 15 TPA. | Gain resistance to fire and a bonus to saves against fire effects |",
 			"| {feat/Verbose Performer} | Bardic performance class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 8th, Kitharodian Academy 15 TPA. | Double the range of your bardic performances |",
-			"| {feat/Whispered Knowledge} | Corporeal undead, Whispering Way 15 TPA. | Enhance your undead form with secret knowledge |"
+			"| {feat/Whispered Knowledge} | Corporeal undead, Whispering Way 15 TPA. | Enhance your undead form with secret knowledge |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
@@ -1957,6 +1981,8 @@
 		"title": "Feats - Gathlain Court Titles",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1964,7 +1990,9 @@
 			"| {feat/Ineffable Count of the Clock} | Fey creature type or {feat/Fey Obedience} (Shyka), you must have either visited or interacted with an outsider from the Dimension of Time. | You can borrow speed from the future |",
 			"| {feat/Knight of the Twisted Word} | Fey creature type or {feat/Fey Obedience} (Count Ranalc), character level 7th, you must have betrayed or deceived in a major fashion a demon with a CR at least 2 higher than your level when you took the feat. | Gain glibness as a spell-like ability used once per day |",
 			"| {feat/Marcher-Lord of the Cerulean Abyss} | Fey creature type or {feat/Fey Obedience} (Ragadahn), you must have carved your name and Ragadahn's holy symbol on the hide of a living dragon or outsider with either the aquatic or water subtype and a CR at least 2 higher than your level when you took the feat. | Creatures you hit take a -2 penalty to CMB and CMD for one round |",
-			"| {feat/Triple-Baron} | Fey creature type or {feat/Fey Obedience} (Magdh), you must have collected three gifts worth at least 100 gp each from three different planes across the Great Beyond. At least two of the planes must be diametrically opposed to one another in terms of planar traits. | Three times per day, you can roll three dice and use the middle result |"
+			"| {feat/Triple-Baron} | Fey creature type or {feat/Fey Obedience} (Magdh), you must have collected three gifts worth at least 100 gp each from three different planes across the Great Beyond. At least two of the planes must be diametrically opposed to one another in terms of planar traits. | Three times per day, you can roll three dice and use the middle result |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
@@ -1972,6 +2000,8 @@
 		"title": "Feats - Alignment",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_roleplaying).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -1984,7 +2014,9 @@
 			"| {feat/Champion of Malevolence} | 10 Hit Dice, neutral evil alignment. | Things would be better if everyone just did as you wished. |",
 			"| {feat/Champion of Righteousness} | 10 Hit Dice, lawful good alignment. | You know that good must be tempered with order if it's going to prevail in the long term. |",
 			"| {feat/Champion of Tranquility} | 10 Hit Dice, lawful neutral alignment. | The harmony of law is your highest ideal. |",
-			"| {feat/Champion of Tyranny} | 10 Hit Dice, lawful evil alignment. | You must beat down the masses to have true order. |"
+			"| {feat/Champion of Tyranny} | 10 Hit Dice, lawful evil alignment. | You must beat down the masses to have true order. |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
@@ -1992,6 +2024,8 @@
 		"title": "Feats - Damnation",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"These feats have no prerequisites. Information about them can be found [here](rule/feats_roleplaying).",
 			"",
 			"| Feat | Description |",
@@ -1999,7 +2033,9 @@
 			"| {feat/Fiendskin} | Gain defensive abilities related to your patron's outsider subtype |",
 			"| {feat/Maleficium} | Cast evil spells with increased potency |",
 			"| {feat/Mask of Virtue} | Mask your true alignment |",
-			"| {feat/Soulless Gaze} | Use Intimidate with greater proficiency |"
+			"| {feat/Soulless Gaze} | Use Intimidate with greater proficiency |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
@@ -2007,6 +2043,8 @@
 		"title": "Feats - Combination",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_other).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -2017,7 +2055,9 @@
 			"| {feat/Finishing Cascade} | Base attack bonus +11 or monk level 11th; at least one combination feat. | Double the effect's of a combination feat once per round |",
 			"| {feat/Practical Kata} | {feat/Improved Unarmed Strike}, ki pool class feature. | Regain ki by striking an opponent multiple times |",
 			"| {feat/Sculpting the River} | {feat/Dodge}, {feat/Improved Unarmed Strike}, base attack bonus +6 or monk level 6th. | Use unarmed strikes to reduce a creature's attack bonus against creatures other than you |",
-			"| {feat/Thousand Cuts} | {feat/Weapon Focus} with slashing weapon. | Use a slashing weapon to inflict bleed damage |"
+			"| {feat/Thousand Cuts} | {feat/Weapon Focus} with slashing weapon. | Use a slashing weapon to inflict bleed damage |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
@@ -2025,6 +2065,8 @@
 		"title": "Feats - Conduit",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_other).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -2051,7 +2093,9 @@
 			"| {feat/Tidal Swiftness} | Knowledge (planes) 5 ranks. | Increase your speed with a tide of water |",
 			"| {feat/Tyrant's Rebuke} | Knowledge (planes) 5 ranks. | Stagger a creature you touch |",
 			"| {feat/Wanderer's Fortune} | Knowledge (planes) 3 ranks. | Gain freedom of movement to escape a grapple or magical restraint |",
-			"| {feat/Wind Leaper} | Knowledge (planes) 3 ranks. | Use wind to bolster your jumps and reduce your weight |"
+			"| {feat/Wind Leaper} | Knowledge (planes) 3 ranks. | Use wind to bolster your jumps and reduce your weight |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
@@ -2059,6 +2103,8 @@
 		"title": "Feats - Performance",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_other).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -2077,7 +2123,9 @@
 			"| {feat/Savage Surge} | {feat/Intimidating Prowess}, rage class feature. | Improve your performance combat check by expending rounds of rage |",
 			"| {feat/Second Wind} | {feat/Endurance}. | Suppress a negative condition |",
 			"| {feat/Spectacular Exit} | Dex 15, {feat/Dodge}, Acrobatics 7 ranks. | Withdraw gracefully without hurting your performance |",
-			"| {feat/Thrilling Vengeance} | Base attack bonus +3, rage class feature. | Bonus to performance combat check while raging if you've recently dealt damage |"
+			"| {feat/Thrilling Vengeance} | Base attack bonus +3, rage class feature. | Bonus to performance combat check while raging if you've recently dealt damage |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	},
@@ -2085,6 +2133,8 @@
 		"title": "Feats - Origin",
 		"searchgroup": "rule",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_other).",
 			"",
 			"| Feat | Prerequisites | Description |",
@@ -2097,7 +2147,9 @@
 			"| {feat/Lonely Death} | Duskwalker. | When reduced to below 0 hit points, you can move and hide as an immediate action |",
 			"| {feat/Overseer of the House of Truth} | {race/Shabti}. | Gain additional uses of your suggestion suggestion spell-like ability |",
 			"| {feat/Servant in the House of Truth} | {race/Shabti}. | Roll twice and take the better result on Knowledge skill checks |",
-			"| {feat/Willing Death} | Duskwalker. | You can cast paladin's sacrifice to prevent an ally from dying |"
+			"| {feat/Willing Death} | Duskwalker. | You can cast paladin's sacrifice to prevent an ally from dying |",
+			"",
+			":::"
 		],
 		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
 	}

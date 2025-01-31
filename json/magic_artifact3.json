@@ -271,9 +271,9 @@
 			"**Communication** empathy  ",
 			"**Special Purpose** slay all non-Angazhan worshipers  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +21)  ",
-			"At will - weird (DC 20)  ",
-			"1/day - reincarnate (charau-ka; see description)  ",
-			"1/year - reincarnate (dire ape; see description)"
+			"*At will* - weird (DC 20)  ",
+			"*1/day* - reincarnate (charau-ka; see description)  ",
+			"*1/year* - reincarnate (dire ape; see description)"
 		]
 	},
 	"twin_spheres": {
@@ -1281,7 +1281,11 @@
 			"",
 			"The Black Book corrupts its reader's mind and heart. Every day the GM should make a secret Will save for the bearer; the DC starts at 10 but increases by +1 for every consecutive successful save the bearer makes. Every failed save shifts the bearer's alignment one step toward chaotic evil.",
 			"",
-			"**Rebinding the Gluttonous Tome:** If two or more portions of the Gluttonous Tome are brought within 10 feet of each other, they surge together, tearing free from anyone holding them and bathing a 30-foot radius spread with ghoulish green light. This light causes all living creatures within it to become nauseated for 1d6 rounds (no save). The sections mesh and meld, flesh knitting with flesh and bones grinding together. If two or more individuals control a portion of the tome when they fuse together, the one with the highest total character level gains control (determined randomly if there is a tie). Two fused sections grant the bearer the effects of both parts and the following spell-like abilities at a caster level equal to the bearer's HD: At will-{spell/detect undead}, {spell/gentle repose} 3/day-{feat/empowered} {spell/ray of enfeeblement}, {spell/false life} 1/day-{spell/bestow curse}",
+			"**Rebinding the Gluttonous Tome:** If two or more portions of the Gluttonous Tome are brought within 10 feet of each other, they surge together, tearing free from anyone holding them and bathing a 30-foot radius spread with ghoulish green light. This light causes all living creatures within it to become nauseated for 1d6 rounds (no save). The sections mesh and meld, flesh knitting with flesh and bones grinding together. If two or more individuals control a portion of the tome when they fuse together, the one with the highest total character level gains control (determined randomly if there is a tie). Two fused sections grant the bearer the effects of both parts and the following spell-like abilities at a caster level equal to the bearer's HD:",
+			"",
+			">*At will* - {spell/detect undead}, {spell/gentle repose}  ",
+			">*3/day* - {feat/empowered} {spell/ray of enfeeblement}, {spell/false life}  ",
+			">*1/day* - {spell/bestow curse}",
 			"",
 			"If all three parts of the Gluttonous Tome are brought together, their bearer is granted the benefits noted above as well as the following: 3/day-{feat/maximized} {spell/vampiric touch}, {spell/create undead} 1/day-{spell/create greater undead}, {spell/waves of exhaustion}",
 			"",

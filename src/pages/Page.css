@@ -6,30 +6,30 @@ span.innerlink {
 	cursor: pointer;
 }
 h1, h2, h3, h4, h5, h6, div.headerLike {
-	border-block-start-width: 5px;
-	border-block-end-width: 2px;
+	border-block-start-width: 0.3125rem;;
+	border-block-end-width: 0.125rem;
 	border-inline-start-width: 0;
 	border-inline-end-width: 0;
-	padding-block-start: 4px;
+	padding-block-start: 0.25rem;
 	padding-inline-start: 0.1rem;
 	border-block-start-color: var(--ion-color-light);
 	border-block-end-color: var(--ion-color-light-shade);
 	border-style: solid;
 }
 h3 {
-	border-block-start-width: 4px;
+	border-block-start-width: 0.25rem;
 }
 h4 {
-	border-block-start-width: 3px;
-	padding-block-start: 3px;
+	border-block-start-width: 0.1875rem;
+	padding-block-start: 0.1875rem;
 }
 h5, h6 {
-	border-block-start-width: 2px;
-	border-block-end-width: 1px;
-	padding-block-start: 2px;
+	border-block-start-width: 0.125rem;
+	border-block-end-width: 0.0625rem;
+	padding-block-start: 0.125rem;
 }
 h6 {
-	border-block-start-width: 1px;
+	border-block-start-width: 0.0625rem;
 }
 h1:first-child,
 h2:first-child,
@@ -104,15 +104,15 @@ div.basicContent.simple {
 ion-content hr {
 	border-color: var(--ion-color-step-150);
 	border-width: 0;
-	border-top-width: 1px;
+	border-top-width: 0.0625rem;
 	border-style: solid;
 }
 ion-list ion-item.item-lines-default::part(native) {
-	--border-width: 0 0 3px 0;
+	--border-width: 0 0 0.1875rem 0;
 }
 ion-list ion-item-divider {
 	--color: var(--faded-text);
-	border-bottom-width: 3px;
+	border-bottom-width: 0.1875rem;
 }
 
 /* Optional Headers */
@@ -138,7 +138,7 @@ div.basicContent.hasInset > div:nth-child(2) h2 {
 
 div.jumpList {
 	background: var(--ion-color-light-shade);
-	border: 2px solid var(--ion-color-light-tint);
+	border: 0.125rem solid var(--ion-color-light-tint);
 	border-radius: 1rem;
 	margin: 0.5rem;
 	text-align: end;
@@ -146,7 +146,7 @@ div.jumpList {
 	padding-inline: 0.625rem;
 	padding-block: 0.25rem;
 	margin-block-start: 0;
-	max-width: calc(60% - 1rem - 4px);
+	max-width: calc(60% - 1rem - 0.25rem);
 	z-index: 2;
 	position: relative;
 }
@@ -182,7 +182,7 @@ div.jumpToTop {
 	font-weight: bold;
 	padding: 0.25rem;
 	background: var(--ion-color-light-tint);
-	border: 2px solid var(--ion-color-secondary-shade);
+	border: 0.125rem solid var(--ion-color-secondary-shade);
 	border-radius: 1rem;
 	width: 1.5rem;
 	text-align: center;
@@ -372,7 +372,7 @@ div.main.basicContent h6 a {
 	font-weight: bold;
 	padding: 0 0.25rem;
 	margin: 0.75rem 0;
-	border-width: 2px 0;
+	border-width: 0.125rem 0;
 	border-style: solid;
 	border-color: var(--ion-text-color);
 }
@@ -393,7 +393,7 @@ div.main.basicContent h6 a {
 /* General tables */
 
 ion-button[slot=end] + ion-button[slot=end] {
-	margin-inline-start: 8px;
+	margin-inline-start: 0.5rem;;
 }
 ion-button.tableFilterButton {
 	float: inline-end;
@@ -404,10 +404,10 @@ ion-modal ion-list[lines=full] {
 	padding-block-end: 0;
 }
 div.listLike ion-item.itemLike::part(native) {
-	border-block-end-width: 3px;
+	border-block-end-width: 0.1875rem;
 	border-block-end-color: var(--ion-color-step-50);
 	border-block-end-style: solid;
-	height: 50px;
+	height: 3.125rem;;
 	box-sizing: border-box;
 	background: var(--ion-color-step-100);
 }
@@ -418,20 +418,20 @@ div.tableWrap {
 	width: max-content;
 	max-width: calc(100% - 2rem);
 	/*
-		56px page header,
-		56px page footer,
-		8px margin on filter button,
+		56px page header, (3.5rem)
+		56px page footer, (3.5rem)
+		8px margin on filter button, (0.5rem)
 		filter button min-height 2.1em
 	*/
-	max-height: calc(100vh - 56px - 56px - 8px - 2.1em - 1rem);
+	max-height: calc(100vh - 3.5rem - 3.5rem - 0.5rem - 2.1em - 1rem);
 	margin: 0 auto;
 }
 div.displayTable { /* Dunno if this is needed, but... */
 	display: contents;
 }
 table {
-	--half-width: 1px;
-	--full-width: 2px;
+	--half-width: 0.0625rem;
+	--full-width: 0.125rem;
 	background: var(--table-bg);
 	border-style: solid;
 	border-color: var(--table-border-color);
@@ -444,8 +444,8 @@ table {
 table tr th,
 table tr td {
 	font-variant-numeric: tabular-nums;
-	padding-inline: 0.5em;
-	padding-block: 0.25em;
+	padding-inline: 0.5rem;
+	padding-block: 0.25rem;
 	border-style: solid;
 	border-color: var(--table-border-color);
 	border-width: var(--half-width) var(--full-width) var(--half-width) 0;
@@ -479,11 +479,17 @@ table tbody tr td:first-child {
 table thead tr th:first-child,
 table tbody tr td:first-child {
 	inset-inline-start: 0;
-	border-inline-start-width: 2px;
+	border-inline-start-width: 0.125rem;
 	border-width: var(--half-width) var(--full-width);
 }
 table tr td a {
 	text-decoration: none;
+}
+table tr p {
+	margin-block: 0;
+}
+table tr p + p {
+	margin-block: 0.5rem;
 }
 table tr td.cell-link {
 	color: var(--ion-color-primary);
@@ -575,7 +581,7 @@ div.finder {
 	background: var(--ion-color-step-100);
 	padding-inline: 0.5rem;
 	border-radius: 0 0 1rem 1rem;
-	border-width: 1px;
+	border-width: 0.0625rem;
 	border-color: var(--ion-color-step-200);
 	border-style: solid;
 	border-block-start-width: 0;

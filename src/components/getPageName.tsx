@@ -9,6 +9,7 @@ isData<NameObject>(fuseIndex);
 isData<string>(index);
 
 const getPageName = (id: string): string => {
+	// Remove initial slash ("/main" => "main")
 	const link = id.slice(1);
 	switch (link) {
 		case "":

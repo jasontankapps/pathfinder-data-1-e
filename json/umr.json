@@ -1065,7 +1065,7 @@
 			"",
 			"Some spell-like abilities duplicate spells that work differently when cast by characters of different classes. A monster's spell-like abilities are presumed to be the sorcerer/ wizard versions. If the spell in question is not a sorcerer/ wizard spell, then default to cleric, druid, bard, paladin, or ranger, in that order.",
 			"",
-			"**Format:** At will-{spell/burning hands} (DC 13)  ",
+			"**Format:** *At will*-{spell/burning hands} (DC 13)  ",
 			"**Location:** Spell-Like Abilities."
 		]
 	},
@@ -1203,7 +1203,9 @@
 			"",
 			"- **Heightened Awareness (Ex):** An usher gains a +10 insight bonus on Sense Motive checks and initiative checks.",
 			"- **Mythic:** An usher functions as a 10th-rank mythic creature, including having the mythic power ability (10/day, surge +1d12). It can expend uses of mythic power to use the mythic versions of any spell-like ability denoted with a superscript \"M,\" as if the ability were a mythic spell.",
-			"- **Spell-Like Abilities:** At will-{spell/discern location}, {spell/fabricate}, {spell/polymorph any object} (when used on objects or creatures that are native to the realm, the polymorph duration factor increases by 6), and {spell/rest eternal}; 1/day-{spell/miracle} (limited to physical effects that manipulate the realm or to effects that are relevant to the usher's area of concern), {spell/true resurrection} (the usher can use {spell/true resurrection} to restore slain outsiders to life)."
+			"- **Spell-Like Abilities:**  ",
+			"    - *At will*-{spell/discern location}, {spell/fabricate}, {spell/polymorph any object} (when used on objects or creatures that are native to the realm, the polymorph duration factor increases by 6), and {spell/rest eternal};  ",
+			"    - *1/day*-{spell/miracle} (limited to physical effects that manipulate the realm or to effects that are relevant to the usher's area of concern), {spell/true resurrection} (the usher can use {spell/true resurrection} to restore slain outsiders to life)."
 		]
 	},
 	"rock_throwing": {

@@ -40,7 +40,7 @@ const alternateBlocks = {
 			let cn;
 			let output = "<MainLink ";
 			if(to) {
-				output = output + `to="${to}" `;
+				output = output + `to="/${to}" `;
 			}
 			if(ind) {
 				cn = "indented";

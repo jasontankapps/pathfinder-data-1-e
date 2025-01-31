@@ -82,7 +82,6 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "equip",
 		"description": [
-			"",
 			":::item",
 			"",
 			"[Jump to the table](#armortable)",
@@ -239,7 +238,6 @@
 		"searchgroup": "equip",
 		"noFinder": true,
 		"description": [
-			"",
 			":::item",
 			"",
 			"[Jump to the table](#weaponstable)",
@@ -1286,7 +1284,6 @@
 		"sources": [ "Adventurer's Armory 2" ],
 		"searchgroup": "equip",
 		"description": [
-			"",
 			":::item",
 			"",
 			"[Jump to the table](#wenhancetables)",
@@ -2298,7 +2295,6 @@
 			"Ultimate Equipment"
 		],
 		"description": [
-			"",
 			":::item",
 			"",
 			"[Jump to the table](#reagentstable)",
@@ -2824,7 +2820,6 @@
 		"sources": [ "Ultimate Equipment" ],
 		"searchgroup": "equip",
 		"description": [
-			"",
 			":::item",
 			"",
 			"[Jump to the table](#materialstable)",

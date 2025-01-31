@@ -545,7 +545,6 @@
 		"title": "Deities/Faiths by Pantheon",
 		"sources": [],
 		"description": [
-			"",
 			"::main[View All Deities/Faiths]{to=main/faiths}",
 			"",
 			"::main[View Deities by Alignment]{to=main/faiths_alignments}",
@@ -614,7 +613,6 @@
 		"title": "Deities/Faiths by Domain",
 		"sources": [],
 		"description": [
-			"",
 			"::main[View All Deities/Faiths]{to=main/faiths}",
 			"",
 			"::main[View Deities by Pantheon]{to=main/faiths_pantheons}",
@@ -674,7 +672,6 @@
 		"title": "Deities/Faiths by Subdomains",
 		"sources": [],
 		"description": [
-			"",
 			"::main[View All Deities/Faiths]{to=main/faiths}",
 			"",
 			"::main[View Deities by Pantheon]{to=main/faiths_pantheons}",
@@ -839,7 +836,6 @@
 		"sources": [],
 		"searchgroup": "faith",
 		"description": [
-			"",
 			"::main[View All Deities/Faiths]{to=main/faiths}",
 			"",
 			"::main[View Deities by Pantheon]{to=main/faiths_pantheons}",

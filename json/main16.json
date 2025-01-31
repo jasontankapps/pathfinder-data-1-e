@@ -4,9 +4,13 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"searchgroup": "feat",
 		"description": [
+			":::item",
+			"",
 			"Information about these feats can be found [here](rule/feats_basic).",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
