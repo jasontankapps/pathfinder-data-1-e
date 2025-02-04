@@ -84,7 +84,7 @@
 			"{SOURCE Ultimate Combat/101}",
 			"",
 			"You were taught a style of martial arts that relies on the natural weapons from your racial ability or class feature.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike}, Weapon Focus with selected natural weapon.  ",
+			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Weapon Focus} with selected natural weapon.  ",
 			"**Benefit:** Choose one of your natural weapons. While using the selected natural weapon, you can apply the effects of feats that have Improved Unarmed Strike as a prerequisite.  ",
 			"**Special:** If you are a monk, you can use the selected natural weapon with your flurry of blows class feature.",
 			"",
@@ -629,7 +629,7 @@
 			"{SOURCE Ultimate Combat/101}",
 			"",
 			"Your constricting attack has become stronger and more lethal.  ",
-			"**Prerequisites:** Str 15, Int 3; naga, serpentfolk, or creature that has the constrict special attack; Final Embrace; base attack bonus +6.  ",
+			"**Prerequisites:** Str 15, Int 3; naga, serpentfolk, or creature that has the constrict special attack; {feat/Final Embrace}; base attack bonus +6.  ",
 			"**Benefit:** A creature that takes damage from your constrict attack is also shaken until the start of your next turn.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -650,7 +650,7 @@
 			"{SOURCE Ultimate Combat/102}",
 			"",
 			"Few creatures can survive the crushing horror of your Final Embrace.  ",
-			"**Prerequisites:** Str 17, Int 3; naga, serpentfolk, or creature that has the constrict special attack; Final Embrace; Final Embrace Horror; base attack bonus +9.  ",
+			"**Prerequisites:** Str 17, Int 3; naga, serpentfolk, or creature that has the constrict special attack; {feat/Final Embrace}; {feat/Final Embrace Horror}; base attack bonus +9.  ",
 			"**Benefit:** Double the number of damage dice for your constrict special attack.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -681,7 +681,7 @@
 			"{SOURCE Weapon Master's Handbook/21}",
 			"",
 			"You can use ranged attacks to perform actions that require finesse.  ",
-			"**Prerequisites:** Marksman's Utility, base attack bonus +7, weapon training class feature with a ranged weapon.  ",
+			"**Prerequisites:** {feat/Marksman's Utility}, base attack bonus +7, weapon training class feature with a ranged weapon.  ",
 			"**Benefit:** In addition to the options allowed by the utility shot gunslinger deed, you gain access to the following utility shots.",
 			"",
 			"*Open/Close Object:* You can use a ranged attack to open or close an object as a standard action. You make an attack roll against an unattended and unlocked door, window, or container within the first range increment of your weapon. Such an object has an AC equal to 3 + the object's size modifier (minimum +0) + its hardness. If you hit, the object opens if it is closed or closes if it is open. Otherwise, this ability functions as the open/close spell.",
@@ -792,7 +792,7 @@
 			"{SOURCE Faiths of Corruption/24}",
 			"",
 			"You can make use of a torch as a deadly, macelike weapon.  ",
-			"**Prerequisites:** Worshiper of Asmodeus  ",
+			"**Prerequisites:** Worshiper of {faith/Asmodeus}  ",
 			"**Benefit:** You treat a torch as a light weapon that deals bludgeoning damage equal to that of a light mace of its size, plus 1 point of fire damage, and you do not incur penalties as you would for using it as an improvised weapon.  ",
 			"**Normal:** A torch used in combat is treated as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
 		]
@@ -1141,7 +1141,7 @@
 			"{SOURCE Elemental Master's Handbook/7}",
 			"",
 			"Your meditation before a rune-engraved stone in the Flume Warrens unlocks the secret of its blazing flame.  ",
-			"**Prerequisites:** Cha 15; bloodrage class feature, elemental focus class feature, or Varisian Tattoo (evocation).  ",
+			"**Prerequisites:** Cha 15; bloodrage class feature, elemental focus class feature, or {feat/Varisian Tattoo} (evocation).  ",
 			"**Benefit:** When casting an evocation spell that deals fire damage, you can deal +1 point of fire damage per die. If you do, you must succeed at a Fortitude save (DC = 15 + the spell or blast's level) or become fatigued. You cannot use this feat while fatigued or if you cannot become fatigued.",
 			"",
 			"If you are raging (such as when using bloodrage or affected by the rage spell), this damage increases to +2 points per die and you roll twice when attempting the Fortitude save and take the better result. This feat does not otherwise grant you the ability to cast spells while raging."
@@ -1826,7 +1826,7 @@
 			"{SOURCE PRPG Core Rulebook/128}",
 			"",
 			"You can turn nearly any object into a deadly weapon, from a razor-sharp chair leg to a sack of flour.  ",
-			"**Prerequisites:** Catch Off-Guard or Throw Anything, base attack bonus +8.  ",
+			"**Prerequisites:** {feat/Catch Off-Guard} or {feat/Throw Anything}, base attack bonus +8.  ",
 			"**Benefit:** You do not suffer any penalties for using an improvised weapon. Increase the amount of damage dealt by the improvised weapon by one step (for example, 1d4 becomes 1d6) to a maximum of 1d8 (2d6 if the improvised weapon is two-handed). The improvised weapon has a critical threat range of 19-20, with a critical multiplier of &times;2.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1865,7 +1865,7 @@
 			"{SOURCE Ultimate Intrigue/85}",
 			"",
 			"You can convince anyone of her allies' ill intent.  ",
-			"**Prerequisites:** Int 13, {feat/Combat Expertise}, Deceitful, Greater Feint, {feat/Improved Feint}, base attack bonus +6.  ",
+			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Deceitful}, {feat/Greater Feint}, {feat/Improved Feint}, base attack bonus +6.  ",
 			"**Benefit:** When you successfully feint in combat, if you succeed by 5 or more, the target no longer provides flanking to its allies and no longer gains or grants the benefits of teamwork feats until the beginning of your next turn. In addition, when you attempt a Bluff check to lie and the lie implies that one or more of the target's allies have betrayed her or are secretly against her, your lie is one step more believable than normal, from far-fetched to unlikely and from unlikely to believable (if the lie was already less believable than far-fetched, this feat has no effect)."
 		]
 	},
@@ -2472,7 +2472,7 @@
 			"{SOURCE Path of the Hellknight/62}",
 			"",
 			"Your Hellknight armor guards you against many threats.  ",
-			"**Prerequisites:** Heavy Armor Proficiency, base attack bonus +5, must swear allegiance to a single [Hellknight](rule/aff_lawknights) order.  ",
+			"**Prerequisites:** {feat/Heavy Armor Proficiency}, base attack bonus +5, must swear allegiance to a single [Hellknight](rule/aff_lawknights) order.  ",
 			"**Benefit:** Once per day as a full-round action, you can give your Hellknight armor the broken condition. Upon doing so, you are affected by one of the following spells (your choice), using your character level as your caster level: {spell/break enchantment}, {spell/neutralize poison}, {spell/remove disease}, or {spell/remove paralysis}. Once you have used this benefit, your Hellknight armor must be repaired as normal to restore its full bonus to your Armor Class and return its armor check penalty to normal.",
 			"",
 			"You can use this ability even if paralyzed or otherwise restrained, but not if you are unconscious. For the purposes of this ability, \"Hellknight armor\" means any armor with the word \"Hellknight\" in its name. You cannot use this ability if your armor is already broken."
@@ -3149,7 +3149,7 @@
 			"{SOURCE Ultimate Wilderness/113}",
 			"",
 			"You can move or clamber across slippery surfaces with great skill.  ",
-			"**Prerequisites:** Arctic Adaptation or Mountaineer; Climb 2 ranks.  ",
+			"**Prerequisites:** {feat/Arctic Adaptation} or {feat/Mountaineer}; Climb 2 ranks.  ",
 			"**Benefit:** When moving across a slippery surface (including but not limited to icy surfaces), you gain a +5 bonus on Climb checks and on Acrobatics checks to maintain your balance. If you fail a Climb check, you fall only if you fail the check by 10 or more. You also gain a +5 bonus on Perception checks to notice an avalanche and a +2 circumstance bonus on Reflex saves to avoid an avalanche."
 		]
 	},
@@ -3388,7 +3388,7 @@
 			"{SOURCE Adventurer's Armory 2/11}",
 			"",
 			"You can create inconceivable bastardizations of the smith's art.  ",
-			"**Prerequisites:** {feat/Creative Armorsmith}, {feat/Armor Adept}, and Craft (armor) 7 ranks, or Creative Weaponsmith, {feat/Weapon Adept}, and Craft (weapons) 7 ranks; Knowledge (engineering) 7 ranks.  ",
+			"**Prerequisites:** {feat/Creative Armorsmith}, {feat/Armor Adept}, and Craft (armor) 7 ranks, or {feat/Creative Weaponsmith}, {feat/Weapon Adept}, and Craft (weapons) 7 ranks; Knowledge (engineering) 7 ranks.  ",
 			"**Benefit:** You can use Creative Armorsmith or Creative Weaponsmith to add a modification to a weapon or suit of armor that already has a modification. The modification you are adding must be one that you have selected with Armor Adept or Weapon Adept. In addition, others can use armor or weapons with your temporary modifications."
 		]
 	},
@@ -3401,7 +3401,7 @@
 			"{SOURCE Adventurer's Armory 2/11}",
 			"",
 			"You can drill others in the use of modified weapons or armor.  ",
-			"**Prerequisites:** Cha 13, Armor Adept or Weapon Adept, fighter level 4th.  ",
+			"**Prerequisites:** Cha 13, {feat/Armor Adept} or {feat/Weapon Adept}, fighter level 4th.  ",
 			"**Benefit:** Choose a modification that you have selected with the Armor Adept or Weapon Adept feat. Once per day with 10 minutes of drilling, you can instruct a number of allies equal to your Charisma modifier in the use of that modification. The allies to be trained must have an Intelligence of at least 3. The instructed allies gain the benefit of Armor Adept or Weapon Adept with that modification for 8 hours."
 		]
 	},
@@ -4394,7 +4394,7 @@
 			"{SOURCE Champions of Balance/19}",
 			"",
 			"You can craft ammunition intended to kill specific foes.  ",
-			"**Prerequisites:** Amateur Gunslinger feat or grit class feature, {feat/Gunsmithing}, base attack bonus +5.  ",
+			"**Prerequisites:** {feat/Amateur Gunslinger} feat or grit class feature, {feat/Gunsmithing}, base attack bonus +5.  ",
 			"**Benefit:** Whenever you craft ammunition using Gunsmithing, you may inscribe a bullet or alchemical cartridge with the name of its intended target. The ammunition gains the bane weapon special ability against the chosen creature only. If the ammunition is used to attack any other target, the attack roll is instead made with a -2 penalty. Crafting a named bullet costs 1 grit point and reduces your maximum grit points by 1 until the named bullet is fired or destroyed."
 		]
 	},
@@ -4704,7 +4704,7 @@
 			"{SOURCE Advanced Race Guide/47}",
 			"",
 			"You have removed yourself from your heritage so thoroughly that even magic does not recognize you.  ",
-			"**Prerequisites:** Exile's Path, {feat/Seen and Unseen}, character level 11th, half-elf.  ",
+			"**Prerequisites:** {feat/Exile's Path}, {feat/Seen and Unseen}, character level 11th, half-elf.  ",
 			"**Benefit:** You are not considered elven or human for the purpose of harmful spells or effects based on your type, like a bane weapon or a ranger's favored enemy class feature."
 		]
 	},
@@ -5010,7 +5010,7 @@
 			"{SOURCE Inner Sea Gods/214;Faiths of Purity/24}",
 			"",
 			"Your summoned natural allies may walk the wild parts of the world unimpeded.  ",
-			"**Prerequisites:** Augment Summoning, {feat/Spell Focus/ (conjuration)}, ability to cast summon nature's ally, caster level 6th, worshiper of Erastil.  ",
+			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus/ (conjuration)}, ability to cast summon nature's ally, caster level 6th, worshiper of {faith/Erastil}.  ",
 			"**Benefit:** Creatures you summon with summon nature's ally can move through any sort of undergrowth (such as natural thorns, briars, and similar terrain) at their normal speeds without taking damage or suffering other impairment. Thorns, briars, and undergrowth areas that have been magically manipulated to impede motion, however, still affect summoned creatures."
 		]
 	},
@@ -5044,7 +5044,7 @@
 			"{SOURCE Ultimate Combat/112}",
 			"",
 			"You don't need an elaborate disguise to keep your identity under wraps.  ",
-			"**Prerequisites:** Grit class feature or Amateur Gunslinger feat, Bluff 4 ranks.  ",
+			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger} feat, Bluff 4 ranks.  ",
 			"**Benefit:** You often rely on surprise and misdirection in your social dealings. You gain a +2 bonus on Bluff checks, and you can spend 1 grit point to gain a +10 bonus on Disguise checks for 10 minutes per your gunslinger level (minimum 10 minutes). This deed does not actually change your appearance, but rather allows you to hide your identity in other ways."
 		]
 	},

@@ -30,7 +30,7 @@
 			"{SOURCE Heroes of Golarion/4}",
 			"",
 			"You instinctively channel your latent magical abilities through your firearm.  ",
-			"**Prerequisites:** Amateur Gunslinger feat or grit class feature, Spellcraft 5 ranks.  ",
+			"**Prerequisites:** {feat/Amateur Gunslinger} feat or grit class feature, Spellcraft 5 ranks.  ",
 			"**Benefit:** As a swift action, you can spend 1 grit point to convert your gun's damage into acid, fire, electricity, or cold damage for 1 round. You can choose a different damage type each time you use this ability. This still counts as a ranged weapon attack for critical hit multipliers and abilities such as {feat/Deadly Aim}."
 		]
 	},
@@ -505,7 +505,7 @@
 			"{SOURCE Advanced Class Guide/145}",
 			"",
 			"You can use a simple cape to guard yourself and confound your foes.  ",
-			"**Prerequisites:** {feat/Amateur Swashbuckler} or panache class feature; Dodge, Sleight of Hand 1 rank.  ",
+			"**Prerequisites:** {feat/Amateur Swashbuckler} or panache class feature; {feat/Dodge}, Sleight of Hand 1 rank.  ",
 			"**Benefit:** As a move action, you can wrap a cape that you're wearing around your arm (removing it if necessary), and treat it as a buckler. If you are using the cape in this way, and an opponent misses you with a melee attack, as an immediate action you can spend 1 panache point to release your cape from your arm and entangle your foe in it. The foe can free it by using a full-round action to escape or by destroying the cape; a typical cape has hardness 1 and 3 hit points. You can use this feat with items similar in shape and weight to a cape, such as a cloak or a curtain."
 		]
 	},
@@ -1110,7 +1110,7 @@
 			"{SOURCE Ultimate Magic/149}",
 			"",
 			"You are descended from a long line of sorcerers, and some portion of their power flows in your veins.  ",
-			"**Prerequisites:** Cha 13, Skill Focus with the class skill of bloodline selected for this feat (see below), character level 3rd.  ",
+			"**Prerequisites:** Cha 13, {feat/Skill Focus} with the class skill of bloodline selected for this feat (see below), character level 3rd.  ",
 			"**Benefit:** Select one sorcerer bloodline. You must have Skill focus in the class skill that bloodline grants to a sorcerer at 1st level (for example, Heal for the celestial bloodline). This bloodline cannot be a bloodline you already have. You gain the first-level bloodline power for the selected bloodline. For purposes of using that power, treat your sorcerer level as equal to your character level - 2, even if you have levels in sorcerer. You do not gain any of the other bloodline abilities.",
 			"",
 			"### Mythic Eldritch Heritage",
@@ -1754,7 +1754,7 @@
 			"{SOURCE Weapon Master's Handbook/14}",
 			"",
 			"You can apply your ranged fighting feats to melee attacks.  ",
-			"**Prerequisites:** {feat/Empty Quiver Style}, {feat/Rapid Shot}, {feat/Stabbing Shot}, Weapon Focus with the chosen weapon.  ",
+			"**Prerequisites:** {feat/Empty Quiver Style}, {feat/Rapid Shot}, {feat/Stabbing Shot}, {feat/Weapon Focus} with the chosen weapon.  ",
 			"**Benefit:** While using Empty Quiver Style, you can apply any feats and class abilities you possess that modify your ranged attack rolls and damage rolls with the chosen weapon to melee attack rolls and damage rolls made with that weapon. Additionally, you are considered to be threatening the area around you as if you were wielding a melee weapon."
 		]
 	},
@@ -1767,7 +1767,7 @@
 			"{SOURCE Weapon Master's Handbook/14}",
 			"",
 			"You can use your ranged weapons to make melee attacks that keep foes at bay as you shoot them.  ",
-			"**Prerequisites:** {feat/Empty Quiver Flexibility}, {feat/Empty Quiver Style}, {feat/Rapid Shot}, {feat/Stabbing Shot}, Weapon Focus with the chosen weapon.  ",
+			"**Prerequisites:** {feat/Empty Quiver Flexibility}, {feat/Empty Quiver Style}, {feat/Rapid Shot}, {feat/Stabbing Shot}, {feat/Weapon Focus} with the chosen weapon.  ",
 			"**Benefit:** While using Empty Quiver Style or Stabbing Shot to make melee attacks with a ranged weapon, if you successfully hit a foe, any ranged attacks you make with the same weapon until the beginning of your next turn do not provoke attacks of opportunity from that foe.  ",
 			"**Special:** If you have the Rapid Reload feat in addition to this feat, your chosen weapon is a crossbow or firearm, that weapon is unloaded, and you successfully hit a foe in melee with it, you can automatically load it as a free action."
 		]
@@ -1781,7 +1781,7 @@
 			"{SOURCE Weapon Master's Handbook/14}",
 			"",
 			"You can fight in melee with your bow, crossbow, or firearm.  ",
-			"**Prerequisites:** Weapon Focus with the chosen weapon.  ",
+			"**Prerequisites:** {feat/Weapon Focus} with the chosen weapon.  ",
 			"**Benefit:** While using this style, you can make melee attacks with the chosen weapon as if it were a heavy mace (or a light mace for melee attack made with a hand crossbow or one-handed firearm), though you don't automatically threaten the area around you as if you were wielding a melee weapon. You can switch between melee and ranged attacks with this weapon without penalty, even during the same round. In addition, you ignore the elf prerequisite for the Stabbing Shot feat. If you have the Stabbing Shot feat, you can use it with a crossbow or firearm, substituting a loaded bolt or firearm ammunition for an arrow.  ",
 			"**Special:** In addition to the chosen weapon, a character with this feat and the weapon training (bows, crossbows, or firearms) class feature can use Empty Quiver Style with any bow, crossbow, or firearm, respectively."
 		]
@@ -1936,7 +1936,7 @@
 			"{SOURCE Ultimate Combat/100}",
 			"",
 			"Your ranged attacks take advantage of the flanking maneuvers of allies.  ",
-			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Precise Shot}, one other teamwork feat.  ",
+			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Precise Shot}, one other {main/feats_<teamwork/ feat}.  ",
 			"**Benefit:** You receive a +2 bonus on ranged attacks made against a foe flanked by 1 or more allies with this feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3224,7 +3224,7 @@
 			"{SOURCE Ultimate Combat/100}",
 			"",
 			"When driving a chosen type of vehicle, you exhibit incredible control, maneuvering the vehicle with greater ease and stopping with uncanny precision.  ",
-			"**Prerequisites:** Skilled Driver with the selected vehicle type.  ",
+			"**Prerequisites:** {feat/Skilled Driver} with the selected vehicle type.  ",
 			"**Benefit:** You can make an accelerate, decelerate, or turn action as a move action instead of a standard action. Furthermore, when stopping a vehicle, you subtract 10 feet from the roll to determine how many feet the vehicle moves forward before it stops."
 		]
 	},
@@ -3792,7 +3792,7 @@
 			"{SOURCE Ultimate Combat/100}",
 			"",
 			"You have more grit than the ordinary gunslinger.  ",
-			"**Prerequisites:** Grit class feature or the Amateur Gunslinger feat.  ",
+			"**Prerequisites:** Grit class feature or the {feat/Amateur Gunslinger} feat.  ",
 			"**Benefit:** You gain 2 extra grit points at the start of each day, and your maximum grit increases by 2.  ",
 			"**Normal:** If you are a gunslinger, you gain your Wisdom modifier in grit points at the start of each day, which is also your maximum grit. If you have the Amateur Gunslinger feat, you gain 1 grit point at the start of each day, and your maximum grit is equal to your Wisdom modifier.  ",
 			"**Special:** If you possess levels in the gunslinger class, you can take this feat multiple times."
@@ -4033,7 +4033,7 @@
 			"{SOURCE Advanced Class Guide/147}",
 			"",
 			"You have more panache than the ordinary swashbuckler.  ",
-			"**Prerequisites:** Amateur Swashbuckler or panache class feature.  ",
+			"**Prerequisites:** {feat/Amateur Swashbuckler} or panache class feature.  ",
 			"**Benefit:** You gain two more panache points at the start of each day, and your maximum panache increases by two.  ",
 			"**Special:** If you have levels in the swashbuckler class, you can take this feat multiple times. Its effects stack."
 		]
@@ -4278,7 +4278,7 @@
 			"{SOURCE Magic Tactics Toolbox/9}",
 			"",
 			"You can augment your channeled energy in new ways.  ",
-			"**Prerequisites:** Channeling Variance or variant channeling ability, channel energy class feature.  ",
+			"**Prerequisites:** {feat/Channeling Variance} or variant channeling ability, channel energy class feature.  ",
 			"**Benefit:** You gain one additional variant channeling ability that matches one of your deity's domains, subdomains, or areas of concern. Three times per day, you can apply the modifications of this variant channel energy, reducing the damage dealt or healing performed by your channeled energy as normal. You cannot apply more than one variant channeling ability to your channeled energy at once.  ",
 			"**Special:** You can select this feat multiple times. Each time you do, you gain another variant channeling ability. If you have chosen Channeling Variance twice, you can use any variant channeling ability chosen with this feat whenever you channel energy."
 		]
@@ -4449,7 +4449,7 @@
 			"{SOURCE Champions of Balance/19}",
 			"",
 			"You enjoy telling tall tales and gain confidence when others believe them.  ",
-			"**Prerequisites:** Amateur Gunslinger feat or grit class feature.  ",
+			"**Prerequisites:** {feat/Amateur Gunslinger} feat or grit class feature.  ",
 			"**Benefit:** You gain a +1 bonus on Perform (act, comedy, oratory, and sing) skill checks, and Perform is a class skill for you. In addition, each time you make a successful Bluff check to convince someone of a far-fetched or impossible story, you regain 1 grit point. Successfully lying to a friendly or helpful creature, or a creature that has fewer Hit Dice than half your character level, doesn't restore grit."
 		]
 	},
@@ -4482,8 +4482,8 @@
 			"{SOURCE Advanced Class Guide/147}",
 			"",
 			"Ephemeral wisps of nature spirits dance about those you strike.  ",
-			"**Prerequisites:** Nature Magic or the ability to cast druid or ranger spells; Vital Strike, Knowledge (nature) 5 ranks.  ",
-			"**Benefit:** When you use Vital Strike (or Improved Vital Strike or Greater Vital Strike), the creature you hit with the attack must succeed at a Will save (DC = 10 + 1/2 your character level + your Wisdom modifier) or be illuminated as if by faerie fire for 1 minute. You can use this benefit a number of times per day equal to your Wisdom modifier (minimum 1).",
+			"**Prerequisites:** {feat/Nature Magic} or the ability to cast druid or ranger spells; {feat/Vital Strike}, Knowledge (nature) 5 ranks.  ",
+			"**Benefit:** When you use Vital Strike (or {feat/Improved Vital Strike} or {feat/Greater Vital Strike}), the creature you hit with the attack must succeed at a Will save (DC = 10 + 1/2 your character level + your Wisdom modifier) or be illuminated as if by {spell/faerie fire} for 1 minute. You can use this benefit a number of times per day equal to your Wisdom modifier (minimum 1).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
@@ -4583,7 +4583,7 @@
 			"{SOURCE Ultimate Combat/100}",
 			"",
 			"When you make a ranged attack while threatened, you can fool your opponent into thinking he has an opening.  ",
-			"**Prerequisites:** Dex 13, {feat/Dodge}, Close Quarters Thrower or Point-Blank Master, Weapon Focus with selected ranged weapon.  ",
+			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Close Quarters Thrower} or {feat/Point-Blank Master}, {feat/Weapon Focus} with selected ranged weapon.  ",
 			"**Benefit:** Choose a ranged weapon or a thrown weapon. When you make a ranged attack using that weapon, you can choose to provoke an attack of opportunity from one or more opponents who threaten you. You gain a +4 dodge bonus against such attacks. An opponent that makes such an attack and misses you loses his Dexterity bonus to AC against you until the end of your turn.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4923,7 +4923,7 @@
 			"{SOURCE Aquatic Adventures/58}",
 			"",
 			"You can unleash powerful watery torrents to push back your foes underwater.  ",
-			"**Prerequisites:** Worshiper of Lysianassa or pearl seeker paladin, character level 5th.  ",
+			"**Prerequisites:** Worshiper of [Lysianassa](magic-artifact/the_gasping_pearl) or {arc-paladin/pearl seeker} paladin, character level 5th.  ",
 			"**Benefit:** Once per day while underwater, you can use {spell/hydraulic torrent} as a spell-like ability. At 10th level and every 5 levels thereafter, you can use this ability an additional time each day."
 		]
 	},

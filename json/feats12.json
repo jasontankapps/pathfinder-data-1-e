@@ -477,7 +477,7 @@
 			"{SOURCE Magical Marketplace/22}",
 			"",
 			"You can fire your weapon and strike with it at the same time.  ",
-			"**Prerequisites:** Grit class feature or Amateur Gunslinger feat, pistol-whip deed.  ",
+			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger} feat, pistol-whip deed.  ",
 			"**Benefit:** Whenever you use your pistol-whip deed, you can fire a single bullet from your firearm at the same time that you strike a foe with the butt of your firearm. You must spend a total of 2 grit points to use the pistol-whip deed in this way, and must still succeed at a ranged touch attack against the target of your pistolwhip deed to hit. You cannot use the scatter weapon quality of a firearm when you use this feat."
 		]
 	},
@@ -994,7 +994,7 @@
 			"{SOURCE Ultimate Wilderness/120}",
 			"",
 			"Others can keep their horses. You know that wolves are better mounts.  ",
-			"**Prerequisites:** Undersized Mount or effective level 7th in the class that grants the mount or divine bond (mount) class feature; Knowledge (nature) 1 rank; mount or divine bond (mount) class feature.  ",
+			"**Prerequisites:** {feat/Undersized Mount} or effective level 7th in the class that grants the mount or divine bond (mount) class feature; Knowledge (nature) 1 rank; mount or divine bond (mount) class feature.  ",
 			"**Benefit:** You can select a wolf in place of the normal mount available via your mount or divine bond (mount) class feature. In addition, Knowledge (nature) is always a class skill for you."
 		]
 	},
@@ -1158,7 +1158,7 @@
 			"{SOURCE Agents of Evil/9}",
 			"",
 			"Some fools fear the written word, but you that understand knowledge all knowledge is a valuable tool, and restricting it out of superstition is abominable in your eyes.  ",
-			"**Prerequisites:** You must have purchased a scroll or spellbook containing a spell with the {spelldef/evil} descriptor in a place where such dealings are illegal, or must have the Secret Society Inductee or Diabolical Upbringing background.  ",
+			"**Prerequisites:** You must have purchased a scroll or spellbook containing a spell with the {spelldef/evil} descriptor in a place where such dealings are illegal, or must have the [Secret Society Inductee or Diabolical Upbringing](x/x) background.  ",
 			"**Benefit:** You can always purchase potions and scrolls of spells with the evil descriptor at a 10% discount, even if they are not normally available in a settlement because of its size or the local laws. You gain a +4 bonus on Knowledge (arcana), Spellcraft, and Use Magic Device checks related to spells with the evil descriptor or evil written works.  ",
 			"**Goal:** You must own scrolls of spells with the evil descriptor or tomes of forbidden lore worth a total of 50 gp per character level, and be the primary caster of a successful [occult ritual](rule/occult_rituals) of at least 5th level that has the evil descriptor.  ",
 			"**Completion Benefit:** Every time you cast a spell with the evil descriptor, you can remove that descriptor from the spell and treat yourself as a neutral-aligned caster for the purpose of determining the spell's effects, circumventing defenses such as {spell/protection from evil} and preventing detection via {spell/detect evil} and similar effects. If you cast a spell with the evil descriptor and do not remove that descriptor, you instead gain 2 temporary hit points per spell level. These temporary hit points last for 1 hour."

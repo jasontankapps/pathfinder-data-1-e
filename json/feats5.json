@@ -2032,7 +2032,7 @@
 			"{SOURCE Ultimate Combat/108}",
 			"",
 			"You leap through the air, guns blazing.  ",
-			"**Prerequisites:** Dex 13, grit class feature or Amateur Gunslinger feat, {feat/Dodge}, {feat/Mobility}, base attack bonus +4.  ",
+			"**Prerequisites:** Dex 13, grit class feature or {feat/Amateur Gunslinger} feat, {feat/Dodge}, {feat/Mobility}, base attack bonus +4.  ",
 			"**Benefit:** You gain a +2 bonus on Acrobatics checks made to jump. As a full-round action, you can move up to your speed and make firearm attacks at your highest base attack bonus with each loaded firearm you are wielding. You can make these attacks at any point during your movement, and if you are wielding two firearms, you can make the attacks at different points during the movement. At the end of this movement, you fall prone. This deed costs 1 grit point to perform."
 		]
 	},
@@ -2135,7 +2135,7 @@
 			"{SOURCE Mythic Adventures/68}",
 			"",
 			"You and your allies fight with great coordination.  ",
-			"**Prerequisites:** Any two teamwork feats.  ",
+			"**Prerequisites:** Any two {main/feats_<teamwork/ feats}.  ",
 			"**Benefit:** Any fixed numeric bonuses you gain from teamwork feats are increased by 1. This doesn't apply to variable numeric bonuses or to effects that are not numeric bonuses, such as additional attacks of opportunity, movement, or other extra actions."
 		],
 		"mythic_only": true
@@ -2916,7 +2916,7 @@
 			"{SOURCE Advanced Player's Guide/324}",
 			"",
 			"To others, it seems that you always have a bit of luck around you.  ",
-			"**Prerequisites:** Hero's Fortune.  ",
+			"**Prerequisites:** {feat/Hero's Fortune}.  ",
 			"**Benefit:** Whenever you spend a hero point to reroll a die roll or to grant yourself a bonus before a die roll is made, there is a chance that the hero point is not spent. Whenever you spend a hero point, roll a d20. If the result is greater than 15, the hero point is not spent. You cannot use this feat when you cheat death."
 		]
 	},
@@ -3090,7 +3090,7 @@
 			"{SOURCE Horror Adventures/90}",
 			"",
 			"Your fists are weapons of mind-devouring madness.  ",
-			"**Prerequisites:** Wis 17, Cha 13, {feat/Improved Unarmed Strike}, Maddening Style, {feat/Stunning Fist}, Knowledge (arcana) 8 ranks, ki pool class feature, nongood alignment.  ",
+			"**Prerequisites:** Wis 17, Cha 13, {feat/Improved Unarmed Strike}, {feat/Maddening Style}, {feat/Stunning Fist}, Knowledge (arcana) 8 ranks, ki pool class feature, nongood alignment.  ",
 			"**Benefit:** As a swift action, you can spend 1 point from your ki pool to imbue the next unarmed strike you make on this turn with the maddening power of the spaces between the stars. If that attack doesn't hit, you take 2 points of Wisdom damage. If the attack hits, your opponent takes damage from your unarmed strike + 1d4+1 points of Wisdom damage. A successful Will save (DC = 10 + 1/2 your character level + your Wisdom modifier) reduces this to 2 points of Wisdom damage.  ",
 			"**Special:** If you are using the {rule/sanity/ system}, when you miss with a Maddening Strike, you take 4 points of sanity damage. If you hit, the target takes damage from the unarmed strike plus 8 points of sanity damage (or 4 points of sanity damage on a successful Will save)."
 		]
@@ -3965,7 +3965,7 @@
 			"{SOURCE Ultimate Combat/109}",
 			"",
 			"You are a master of the techniques and weapons of the arena and the stage.  ",
-			"**Prerequisites:** Performing Combatant or at least three performance feats, base attack bonus +6.  ",
+			"**Prerequisites:** {feat/Performing Combatant} or at least three performance feats, base attack bonus +6.  ",
 			"**Benefit:** You can make performance combat checks as a free action. You are proficient in all weapons with the performance special quality.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4078,7 +4078,7 @@
 			"{SOURCE Ultimate Combat/109}",
 			"",
 			"You are significantly faster at loading a siege engine, as well as a better shot.  ",
-			"**Prerequisites:** Siege Engineer, Knowledge (engineering) 10 ranks.  ",
+			"**Prerequisites:** {feat/Siege Engineer}, Knowledge (engineering) 10 ranks.  ",
 			"**Benefit:** If you are the crew lead on a siege engine, your crew can use move actions to load a siege engine. When you spend actions to aim a siege engine, you and your crew can use move actions instead of full-round actions to aim the siege engine.  ",
 			"**Normal:** Full-round actions are required to load and aim siege engines.",
 			"",
@@ -4204,7 +4204,7 @@
 			"{SOURCE Ultimate Combat/109}",
 			"",
 			"You deal brutal damage against opponents caught unawares.  ",
-			"**Prerequisites:** Maximized magic magus arcana, weapon expertise class feature or Quick Draw.  ",
+			"**Prerequisites:** Maximized magic magus arcana, weapon expertise class feature or {feat/Quick Draw}.  ",
 			"**Benefit:** When you make a melee attack and successfully use your spellstrike ability against an opponent denied his Dexterity bonus to AC, you can spend 3 points from your arcane pool to maximize the spell delivered through your spellstrike as if using the Maximize Spell metamagic feat."
 		]
 	},
@@ -4796,7 +4796,7 @@
 			"{SOURCE Kobolds of Golarion/24}",
 			"",
 			"You have two colors of scales, which mark you as special.  ",
-			"**Prerequisites:** Draconic Aspect or dragon-scaled racial trait, kobold.  ",
+			"**Prerequisites:** {feat/Draconic Aspect} or dragon-scaled racial trait, kobold.  ",
 			"**Benefit:** Choose an additional color for your Draconic Aspect feat or dragon-scaled racial trait. You gain the benefits of both this color and the color you originally chose. (If you have both Draconic Aspect and dragon-scaled, this benefit applies to both.) If you gain abilities that rely on scale color, choose which color gains the benefits."
 		]
 	},

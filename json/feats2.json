@@ -128,7 +128,7 @@
 			"{SOURCE Cohorts and Companions/15}",
 			"",
 			"The mindless undead you command fight together like seasoned warriors.  ",
-			"**Prerequisites:** Any teamwork feat, ability to control or create undead.  ",
+			"**Prerequisites:** Any {main/feats_<teamwork/ feat}, ability to control or create undead.  ",
 			"**Benefit:** When you create undead, they gain one teamwork feat you know as a bonus feat, though they gain its benefits only when cooperating with you or with other undead that you have created. If you control undead with the Command Undead feat or a spell like command undead, they likewise gain one teamwork feat you know as a bonus feat as long as they remain under your control. Intelligent undead gain no benefit from this feat."
 		]
 	},
@@ -166,7 +166,7 @@
 			"{SOURCE Aquatic Adventures/57}",
 			"",
 			"You are the child of a land-dwelling creature and an aquatic creature, struggling to reconcile your dual heritage.  ",
-			"**Prerequisites:** Whether through an elixir of two worlds or other means, one of your parents was aquatic and the other was a land-dweller. You are mostly a normal member of your race, except as stated in this feat. You must select this feat at 1st level, and you can't have other feats, traits, or abilities that specify your bloodline such as Racial Heritage.  ",
+			"**Prerequisites:** Whether through an elixir of two worlds or other means, one of your parents was aquatic and the other was a land-dweller. You are mostly a normal member of your race, except as stated in this feat. You must select this feat at 1st level, and you can't have other feats, traits, or abilities that specify your bloodline such as {feat/Racial Heritage}.  ",
 			"**Benefit:** You gain a land speed of 10 feet if you are aquatic; if you aren't aquatic, you gain a +4 racial bonus on Swim checks that doesn't stack with the bonus for having a swim speed.  ",
 			"**Goal:** You must live among your other parent's race (the aquatic parent if you are a land-dweller or the land-dwelling parent if you are aquatic), learning to adapt to their strange world and culture until others of that race truly accept you. It isn't enough to simply find a member of the appropriate race and badger or sweet-talk them until they agree to accept you; you must perform significant rites of passage and form real bonds with members of your other parent's race.  ",
 			"**Special:** You gain the amphibious subtype (and the aquatic subtype, if you don't have it) and can breathe both water and air with equal ease. As a swift action, you can transform your feet into a tail fin (gaining a swim speed of 40 feet) or your tail fin into feet (gaining a land speed of 30 feet), changing back and forth as often as you wish."
@@ -427,7 +427,7 @@
 			"{SOURCE Advanced Race Guide/94}",
 			"",
 			"You can charge and make an attack with your paws.  ",
-			"**Prerequisites:** Str 13, Dex 15, {feat/Nimble Striker}, base attack bonus +10, catfolk, cat's claws racial trait or Aspect of the Beast (claws of the beast manifestation).  ",
+			"**Prerequisites:** Str 13, Dex 15, {feat/Nimble Striker}, base attack bonus +10, catfolk, cat's claws racial trait or {feat/Aspect of the Beast} (claws of the beast manifestation).  ",
 			"**Benefit:** When you make a charge, you can make a full attack with your claws.  ",
 			"**Normal:** Charging is a special full-round action that limits you to a single attack.",
 			"",
@@ -805,7 +805,7 @@
 			"{SOURCE Advanced Player's Guide/156}",
 			"",
 			"With a single strike, you transmute flesh to stone.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike}, Gorgon's Fist, Medusa's Wrath, base attack bonus +16.  ",
+			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Gorgon's Fist}, {feat/Medusa's Wrath}, base attack bonus +16.  ",
 			"**Benefit:** As a full-round action, you can make a single unarmed strike against a dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foe. If that attack is a critical hit, the target is petrified unless it succeeds on a Fortitude saving throw with a DC of 10 + 1/2 your character level + your Wisdom modifier. This is a supernatural polymorph effect.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1375,7 +1375,7 @@
 			"{SOURCE Advanced Class Guide/143}",
 			"",
 			"You can befuddle a foe by striking a blow after tumbling.  ",
-			"**Prerequisites:** Amateur Swashbuckler feat or panache class feature, {feat/Canny Tumble}, Acrobatics 7 ranks.  ",
+			"**Prerequisites:** {feat/Amateur Swashbuckler} feat or panache class feature, {feat/Canny Tumble}, Acrobatics 7 ranks.  ",
 			"**Benefit:** When you use Acrobatics to move through an opponent's threatened area or space without provoking an attack of opportunity from that opponent and then hit that foe with a melee attack in the same round, as a free action you can spend 1 panache point to deny that foe its Dexterity bonus to its armor class until the end of your next turn."
 		]
 	},
@@ -1699,7 +1699,7 @@
 			"{SOURCE Ultimate Combat/92}",
 			"",
 			"You are an expert at leading your allies into the fray.  ",
-			"**Prerequisites:** You have at least two other teamwork feats, base attack bonus +10.  ",
+			"**Prerequisites:** You have at least two other {main/feats_<teamwork/ feats}, base attack bonus +10.  ",
 			"**Benefit:** When an ally with this feat charges a creature that is no further away from you than your speed, you can, as an immediate action, charge that creature. You must be able to follow all of the normal charge rules.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1959,7 +1959,7 @@
 			"{SOURCE Cohorts and Companions/7}",
 			"",
 			"As your allies' morale swells, your enemies falter.  ",
-			"**Prerequisites:** {feat/Basic Harmony}, Compelling Harmony, Perform (keyboard, percussion, sing, string, or wind) 10 ranks, bardic performance or raging song.  ",
+			"**Prerequisites:** {feat/Basic Harmony}, {feat/Compelling Harmonies}, Perform (keyboard, percussion, sing, string, or wind) 10 ranks, bardic performance or raging song.  ",
 			"**Benefit:** When an ally with this feat is within 60 feet and uses a bardic performance or raging song that grants allies a morale bonus or competence bonus, you may perform the same bardic performance or raging song to increase those bonuses by +1. This increase only lasts as long as you and your ally each maintain the same performance, and cannot be extended with effects like Lingering Performance. Additional bards with this feat beyond the second don't increase the bonuses further."
 		]
 	},
@@ -2124,7 +2124,7 @@
 			"{SOURCE Dragonslayer's Handbook/24}",
 			"",
 			"You can use your shield to protect your most vulnerable parts from area effects.  ",
-			"**Prerequisites:** Dex 13, Shield Focus, {feat/Shield Proficiency}.  ",
+			"**Prerequisites:** Dex 13, {feat/Shield Focus}, {feat/Shield Proficiency}.  ",
 			"**Benefit:** While using a shield of the type to which your Shield Focus feat applies, you gain a bonus on Reflex saves against area of effect attacks equal to your shield's base bonus to armor class plus any bonuses granted by feats or class abilities. This does not transfer any enhancement bonuses on a shield to Reflex saves.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2462,7 +2462,7 @@
 			"{SOURCE Occult Origins/24}",
 			"",
 			"You have learned to manually adjust the plates that make up the skull, inducing altered states in your subjects.  ",
-			"**Prerequisites:** Deft Hands or Trepanation.  ",
+			"**Prerequisites:** {feat/Deft Hands} or {feat/Trepanation}.  ",
 			"**Benefit:** You can perform the hypnotism occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the {feat/Psychic Sensitivity} feat, you can use hypnotism one additional time per day.",
 			"",
 			"You can use the Sleight of Hand skill in place of Diplomacy to hypnotize a subject, but doing so requires 10 minutes of contact with the target's skull. You can perform an adjustment that takes 1 hour to access the deeper recesses of a target's emotional mind, either granting the target a +2 bonus or imposing a -2 penalty on the target's saving throws against mind-affecting emotion effects for 24 hours."
@@ -2533,7 +2533,7 @@
 			"{SOURCE People of the Wastes/26}",
 			"",
 			"You can craft superior firearms.  ",
-			"**Prerequisites:** {feat/Craft Magic Arms and Armor}; Craft (weapons) 1 rank or Gunsmithing.  ",
+			"**Prerequisites:** {feat/Craft Magic Arms and Armor}; Craft (weapons) 1 rank or {feat/Gunsmithing}.  ",
 			"**Benefit:** When you craft a firearm or magical firearm, you can use reinforced components to make the weapon more reliable. This increases the item's total construction cost by 10%. The misfire chance of the weapon is reduced by 1. This can never reduce a firearm's misfire chance by more than 1."
 		]
 	},
@@ -3164,7 +3164,7 @@
 			"{SOURCE Agents of Evil/8}",
 			"",
 			"Your love forces you to endure the harshest of endeavors, despite the fact that most people would view your romance as madness.  ",
-			"**Prerequisites:** You must have a romantic interest who has fallen to some dark influence and rejects you out of shame or fear of newfound capabilities, or must have the Bad Romance or Temptation background.  ",
+			"**Prerequisites:** You must have a romantic interest who has fallen to some dark influence and rejects you out of shame or fear of newfound capabilities, or must have the [Bad Romance or Temptation background](x/x).  ",
 			"**Benefit:** You are well versed in a dark society's way of thinking and in weathering abuse. Select a form of corruption that your lover fell to or willingly embraced: evil divine casters, evil arcane casters, undead creatures, or humanoid creatures with the shapeshifter subtype. You gain a +2 bonus on Diplomacy and Sense Motive checks when dealing with such creatures, and a +2 bonus on saving throws to resist any effects that would spread their corruption to you (such as a vampire's create spawn ability or a werewolf's curse of lycanthropy). Once per day, when you would normally be reduced below 0 hit points by an attack from such a creature, you instead immediately gain a number of temporary hit points equal to half your character level.  ",
 			"**Goal:** Find a way to be with your lover in a permanent fashion, either by persuading your lover to reject the influence of evil or by willingly embracing the same corruption.  ",
 			"**Completion Benefit:** You no longer suffer abuse from those with whom your lover associates, and instead command a measure of their respect. You gain a +2 bonus on Intimidate checks against members of your chosen form of corruption. If you have 10 or more ranks in Intimidate, this bonus increases to +4. When you would normally be reduced below 0 hit points by an attack from such a source, you instead immediately gain a number of temporary hit points equal to your character level."
@@ -3521,7 +3521,7 @@
 			"{SOURCE Dirty Tactics Toolbox/14}",
 			"",
 			"Your confident attacks leave your foes wavering and unable to regain their composure.  ",
-			"**Prerequisites:** Int 13; Amateur Swashbuckler or panache class feature; {feat/Combat Expertise}; {feat/Improved Dirty Trick}.  ",
+			"**Prerequisites:** Int 13; {feat/Amateur Swashbuckler} or panache class feature; {feat/Combat Expertise}; {feat/Improved Dirty Trick}.  ",
 			"**Benefit:** When you attempt a dirty trick combat maneuver check and expend 1 point of panache, if the maneuver is successful, your opponent must succeed at a Will save (DC = 10 + 1/2 your character level + your Charisma modifier) to remove its dirty trick condition."
 		]
 	},
@@ -3645,7 +3645,7 @@
 			"{SOURCE Agents of Evil/8}",
 			"",
 			"You are devoid of both hatred and joy. While many regard you as callous, you have no particular malice in your heart.  ",
-			"**Prerequisites:** You must have failed your saving throws against at least five different emotion-manipulating spells or your saving throw against a supernatural creature's fear effect (such as a dragon's frightful presence), or you have the Sunless or Sole Survivor background.  ",
+			"**Prerequisites:** You must have failed your saving throws against at least five different emotion-manipulating spells or your saving throw against a supernatural creature's fear effect (such as a dragon's frightful presence), or you have the [Sunless or Sole Survivor background](x/x).  ",
 			"**Benefit:** When you are the target of a spell or spell-like ability with the emotion or fear descriptor, you can roll your saving throw twice and take the better result.  ",
 			"**Goal:** You overcome your detached state by taking part in an important emotional event, such as finding true love or taking great pleasure in an act of unrepentant evil. Alternatively, you divest yourself of all emotion by severing your remaining emotional ties and eventually changing your alignment to neutral.  ",
 			"**Completion Benefit:** You master your emotions. You can ignore any morale bonuses or penalties applied to you by outside forces, though other emotion-based effects (such as the shaken condition or an elixir of love) still affect you if you fail a saving throw against them."
@@ -4430,7 +4430,7 @@
 			"{SOURCE Ultimate Combat/95}",
 			"",
 			"You keep an eye out while focusing on your weapon, allowing you to avoid attacks while shooting and reloading firearms.  ",
-			"**Prerequisites:** Grit class feature or Amateur Gunslinger feat, {feat/Dodge}, {feat/Mobility}.  ",
+			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger} feat, {feat/Dodge}, {feat/Mobility}.  ",
 			"**Benefit:** As long as you have at least 1 grit point, you do not provoke attacks of opportunity when shooting or reloading a firearm."
 		]
 	},

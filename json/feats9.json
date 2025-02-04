@@ -79,7 +79,7 @@
 			"{SOURCE Magical Marketplace/22}",
 			"",
 			"By using a specially prepared mix of reagents, you can create concussive blasts with your firearm.  ",
-			"**Prerequisites:** Craft (alchemy) 3 ranks, grit class feature or Amateur Gunslinger feat.  ",
+			"**Prerequisites:** Craft (alchemy) 3 ranks, grit class feature or {feat/Amateur Gunslinger} feat.  ",
 			"**Benefit:** Spend 1 grit point to retrieve a specially prepared dose of black powder from your person. The next time you use the firearm you've loaded with this special black powder, the concussive blast knocks you back 5 feet from the direction at which you were aiming. If there is no available space behind you, you brace yourself against the obstacle and do not move from your square. Any creatures within the first range increment of the firearm struck by this attack take damage as normal and must succeed at a Reflex save (DC = 10 + 1/2 your gunslinger level + your Int modifier) or be pushed back 10 feet. Creatures within two range increments are pushed back 5 feet, while creatures farther away than this are unaffected by the concussive blast."
 		]
 	},
@@ -968,7 +968,7 @@
 			"{SOURCE Monster Hunter's Handbook/8}",
 			"",
 			"You can use a charging foe's momentum to throw them aside.  ",
-			"**Prerequisites:** Dex 13, [Bull-Catcher Style](feat/bull_catcher_style), {feat/Improved Grapple}, {feat/Improved Unarmed Strike}; base attack bonus +8, brawler level 4th, or monk level 4th.  ",
+			"**Prerequisites:** Dex 13, {feat/Bull-Catcher Style}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}; base attack bonus +8, brawler level 4th, or monk level 4th.  ",
 			"**Benefit:** When you successfully grapple a creature with the Bull-Catcher Style feat, you can immediately move that creature into any square you threaten. After it is placed, you can break your grapple as an immediate action to move the creature an additional 5 feet in any direction. You can't use this maneuver to move a foe into a space that is intrinsically dangerous or unstable, such as a pit, wall of fire, or midair."
 		]
 	},
@@ -981,7 +981,7 @@
 			"{SOURCE Monster Hunter's Handbook/9}",
 			"",
 			"You can wrestle a charging foe to the ground.  ",
-			"**Prerequisites:** Dex 13, [Bull-Catcher Style](feat/bull_catcher_style), [Bull-Catcher Toss](feat/bull_catcher_toss), {feat/Improved Grapple}, {feat/Improved Unarmed Strike}; base attack bonus +12, brawler level 8th, or monk level 8th.  ",
+			"**Prerequisites:** Dex 13, {feat/Bull-Catcher Style}, {feat/Bull-Catcher Toss}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}; base attack bonus +12, brawler level 8th, or monk level 8th.  ",
 			"**Benefit:** When a creature is charging you, and you successfully grapple it with the Bull-Catcher Style feat, you can immediately move it as per the Bull-Catcher Toss feat. Once the creature is moved, you can break your grapple as an immediate action. If you do, select another creature in the repositioned target's threatened area. That creature becomes the new target of the initial charge attack."
 		]
 	},
@@ -1707,7 +1707,7 @@
 			"{SOURCE Quests and Campaigns/26}",
 			"",
 			"You have posted loyal followers in the most vital places.  ",
-			"**Prerequisites:** Leadership score 13, hold a leadership role related to running a kingdom.  ",
+			"**Prerequisites:** {feat/Leadership} score 13, hold a leadership role related to running a kingdom.  ",
 			"**Benefit:** Choose a building in your kingdom as your center of power, and dedicate one of the followers granted to you by the {feat/Leadership} feat to overseeing that location. For every kingdom turn in which that follower does nothing but oversee that location, the benefits that building grants to your kingdom's Economy, Fame, Loyalty, and Stability are doubled and any penalties are negated. This feat does not allow a building to grant benefits it does not normally provide, and has no effect on a building's other effects.",
 			"",
 			"This feat only applies to one building, and committing multiple followers to this or different buildings has no effect - the selected location is treated as being of particular importance to you, and its uniqueness combined with the follower's loyalty grants it special efficiencies. The same follower does not have to oversee your center of power every month, but you must keep at least one follower dedicated to this location for the entire month to gain this feat's benefits. Once per year, you may change which building is your center of power."
@@ -2173,7 +2173,7 @@
 			"{SOURCE Haunted Heroes Handbook/24}",
 			"",
 			"You can willingly allow spirits to possess you, trading a taste of your life for their knowledge and abilities.  ",
-			"**Prerequisites:** Spirit Ridden or spirit class feature.  ",
+			"**Prerequisites:** {feat/Spirit Ridden} or spirit class feature.  ",
 			"**Benefit:** Select one of the spirit legends available to a medium. You can trade control of your body to a spirit of this type for power. You must perform a seance, taking 1 hour and requiring your concentration. At the end of the seance, you invite a spirit of the chosen type to inhabit your body. You do not require an appropriate location to channel the spirit. You gain the benefits of the spirit's spirit bonus and seance boon, but no spirit powers. Your spirit bonus is +1, or equal to your spirit bonus from any medium class levels you have (whichever is higher). You don't select a taboo and the spirit gains no influence over you. You can continue to gain the benefits of the spiritual possession for up to 1 hour per character level you have. At the end of the duration, the spirit takes over your body, and you become an NPC under the GM's control for a duration equal to the amount of time the spirit possessed you. You can end the duration prematurely as a free action, but the spirit still takes over your body. If you have the spirit class feature, you can't use this feat and act as a vessel for a second spirit simultaneously, but you gain spirit powers as normal for your medium level.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, you gain a new spirit you can channel."
 		]
@@ -2789,7 +2789,7 @@
 			"{SOURCE Advanced Class Guide/144}",
 			"",
 			"Even your threats are curiously charming.  ",
-			"**Prerequisites:** Amateur Swashbuckler or panache class feature; Diplomacy 2 ranks, Intimidate 2 ranks.  ",
+			"**Prerequisites:** {feat/Amateur Swashbuckler} or panache class feature; Diplomacy 2 ranks, Intimidate 2 ranks.  ",
 			"**Benefit:** When you succeed at an Intimidate check to force an opponent to act friendly toward you, you can spend 1 panache point to cause the target to regard you with indifference when the duration of the effect expires. A target influenced in this manner is unlikely to report you to authorities.  ",
 			"**Normal:** An opponent forced to act friendly toward you by Intimidate becomes unfriendly when the duration expires, and is likely to report you to the authorities."
 		]

@@ -1574,7 +1574,7 @@
 			"{SOURCE Black Markets/18;Dark Markets - A Guide to Katapesh/56}",
 			"",
 			"The calming effects of pesh make you difficult to disturb.  ",
-			"**Prerequisites:** Sahir-Afiyun or pesh addict.  ",
+			"**Prerequisites:** {feat/Sahir-Afiyun} or pesh addict.  ",
 			"**Benefit:** When you take a dose of pesh, in addition to its normal initial effect, you gain a +2 bonus on saves against emotion and fear effects. Once per day, if you fail a saving throw against an emotion or fear effect while you are under the initial effect of pesh, you can attempt another saving throw 1 round later at the same DC."
 		]
 	},
@@ -1590,7 +1590,7 @@
 			"{SOURCE Black Markets/18;Dark Markets - A Guide to Katapesh/56}",
 			"",
 			"Consuming pesh makes you feel healthier.  ",
-			"**Prerequisites:** Sahir-Afiyun or pesh addict.  ",
+			"**Prerequisites:** {feat/Sahir-Afiyun} or pesh addict.  ",
 			"**Benefit:** When you take a dose of pesh, in addition to its normal initial effect, you gain a number of temporary hit points equal to your total Hit Dice for 1 hour. Temporary hit points gained from additional doses of pesh do not stack."
 		]
 	},
@@ -1606,7 +1606,7 @@
 			"{SOURCE Black Markets/18;Dark Markets - A Guide to Katapesh/56}",
 			"",
 			"When you are close to death, your body can convert pesh into lifesaving medicine.  ",
-			"**Prerequisites:** Sahir-Afiyun or pesh addict.  ",
+			"**Prerequisites:** {feat/Sahir-Afiyun} or pesh addict.  ",
 			"**Benefit:** If you are brought to 0 or fewer hit points while under the initial effect of pesh, you can end the drug's initial effect as an immediate action. If you do, you gain a number of temporary hit points equal to your Constitution score. These temporary hit points last 1 hour. Upon using this feat, you are sickened for 1d6 hours."
 		]
 	},
@@ -2560,7 +2560,7 @@
 			"{SOURCE Dirty Tactics Toolbox/9}",
 			"",
 			"You can specially prepare bullets to deliver poisons that are normally used more subtly.  ",
-			"**Prerequisites:** Amateur Gunslinger or grit class feature.  ",
+			"**Prerequisites:** {feat/Amateur Gunslinger} or grit class feature.  ",
 			"**Benefit:** You can spend 1 grit point to load your firearm with 1 dose of inhaled or ingested poison as a move action. This action has no chance of exposing you to the poison (as if you had the poison use class feature). Shooting a firearm loaded with a poison in this manner is a standard action that provokes attacks of opportunity and sprays out the poison in a 15-foot cone. Any creatures caught in the blast take no damage but are exposed to this poison and must each immediately attempt a save against the poison as though the onset time had elapsed."
 		]
 	},
@@ -2636,7 +2636,7 @@
 			"{SOURCE Advanced Class Guide/153}",
 			"",
 			"With a surprise swipe with your pommel, you can topple a foe.  ",
-			"**Prerequisites:** Amateur Swashbuckler or panache class feature; base attack bonus +3.  ",
+			"**Prerequisites:** {feat/Amateur Swashbuckler} or panache class feature; base attack bonus +3.  ",
 			"**Benefit:** You can spend 1 panache point to make a melee attack with the pommel of a light or one-handed piercing melee weapon as a standard action. You make this attack as if you were using the weapon normally (including any bonuses gained from the swashbuckler's finesse class feature, {feat/Weapon Finesse}, or other similar feats and effects), but you deal 1d6 bludgeoning damage (or 1d4 if you are Small) instead of the weapon's normal damage. Regardless of your size, the critical threat range and critical multiplier of this attack are 20/&times;2, and they are not affected by {feat/Improved Critical}, the keen weapon special ability, or similar effects. If the attack hits, you can attempt a combat maneuver check to knock the target prone as a free action."
 		]
 	},
@@ -2896,7 +2896,7 @@
 			"You have a large wingspan for a member of your race, and can use these appendages to batter your foes.  ",
 			"**Prerequisites:** Str 13, {feat/Skill Focus/ (Fly)}, base attack bonus +8.  ",
 			"**Benefit:** You gain two wing attacks. These are secondary natural attacks that each deal damage appropriate to a creature one size category larger than yourself. You are also considered one size category larger for the purposes of any feats or abilities related to your wings, such as the {feat/Hover} feat.  ",
-			"**Special:** While the following feats are primarily taken by strix, other creatures with natural wings can also take them at the GM's discretion."
+			"**Special:** While this feat is primarily taken by strix, other creatures with natural wings can also take it at the GM's discretion."
 		]
 	},
 	"practical_kata": {
@@ -3085,7 +3085,7 @@
 			"{SOURCE Paths of the Righteous/3}",
 			"",
 			"The transition into a spellcasting prestige class is less difficult for you, and because of this, you gain 1 additional effective spellcaster level from your prestige class levels.  ",
-			"**Prerequisites:** Favored Prestige Class with selected prestige class.  ",
+			"**Prerequisites:** {feat/Favored Prestige Class} with selected prestige class.  ",
 			"**Benefit:** The first time you gain a level in your favored prestige class and the spells per day class feature does not grant an increase in effective level for the purpose of casting spells, you gain new spells per day as if the prestige class did grant +1 level of spellcasting for that level. This effect is retroactive if you gain this feat at a level beyond the point where your favored prestige class would normally have not advanced your spellcasting.",
 			"",
 			"The Prestigious Spellcaster feat does not have any effect if your favored prestige class does not have the spells per day class feature, or if it does have the spells per day class feature but already grants a level increase for every level of the prestige class (as do the arcane trickster and loremaster prestige classes).  ",
@@ -3518,7 +3518,7 @@
 			"{SOURCE Advanced Class Guide/153}",
 			"",
 			"Your punch has the chance to trip or move your target.  ",
-			"**Prerequisites:** {feat/Improved Reposition}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, Pummeling Style; base attack bonus +9, brawler level 5th, or monk level 5th.  ",
+			"**Prerequisites:** {feat/Improved Reposition}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, {feat/Pummeling Style}; base attack bonus +9, brawler level 5th, or monk level 5th.  ",
 			"**Benefit:** When you use Pummeling Style to make an entire full attack or flurry of blows against a single target, if you hit with any of your attacks, you can attempt a reposition or trip combat maneuver check as a free action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3539,7 +3539,7 @@
 			"{SOURCE Advanced Class Guide/154}",
 			"",
 			"Your charge ends with a mighty haymaker.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike}, Pummeling Style; base attack bonus +12, brawler level 8th, or monk level 8th.  ",
+			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Pummeling Style}; base attack bonus +12, brawler level 8th, or monk level 8th.  ",
 			"**Benefit:** You can charge and make a full attack or flurry of blows at the end of your charge as part of the charge action. You can use Pummeling Charge in this way only if all of your attacks qualify for using Pummeling Style against a single target.  ",
 			"**Normal:** You cannot make a full attack on a charge.",
 			"",
@@ -4248,7 +4248,7 @@
 			"{SOURCE Advanced Class Guide/155}",
 			"",
 			"Your blood boils with latent energy, filling you with an intense fury.  ",
-			"**Prerequisites:** Eldritch Heritage or sorcerer bloodline class feature.  ",
+			"**Prerequisites:** {feat/Eldritch Heritage} or sorcerer bloodline class feature.  ",
 			"**Benefit:** You gain the 1st-level bloodrager bloodline power for your bloodline. In addition, you gain the ability to enter a state similar to (but less powerful than) a bloodrager's bloodrage. You can enter this lesser bloodrage twice per day, for up to 4 rounds. During this lesser bloodrage, you gain a +2 morale bonus to Strength and Constitution, and no morale bonus on Will saving throws. Otherwise, this benefit is the same as the bloodrage class feature.",
 			"",
 			"If you have more than one bloodline, you choose the bloodline this applies to upon taking the feat."
@@ -4753,7 +4753,7 @@
 			"{SOURCE Advanced Class Guide/155}",
 			"",
 			"You can channel healing energy in response to an attack that would knock you unconscious.  ",
-			"**Prerequisites:** Quick Channel or Quicken Spell; channel energy or lay on hands class feature.  ",
+			"**Prerequisites:** {feat/Quick Channel} or {feat/Quicken Spell}; channel energy or lay on hands class feature.  ",
 			"**Benefit:** When the damage from an attack or an effect would reduce you to 0 or fewer hit points, you can expend one use of channel energy (of a form that would heal you) or lay on hands as an immediate action to heal yourself. The healing affects only you, even if it would normally affect others."
 		]
 	},
@@ -4929,7 +4929,7 @@
 			"{SOURCE Heroes of Golarion/4}",
 			"",
 			"You use your innate magical abilities to instantly recall a missed shot.  ",
-			"**Prerequisites:** Amateur Gunslinger feat or grit class feature, base attack bonus +9, Spellcraft 5 ranks.  ",
+			"**Prerequisites:** {feat/Amateur Gunslinger} feat or grit class feature, base attack bonus +9, Spellcraft 5 ranks.  ",
 			"**Benefit:** After missing with a ranged weapon attack using a firearm, you can spend 2 grit points as an immediate action to recall the shot. If you do so, the ammunition from the missed shot is magically loaded back into the firearm and is ready to fire again immediately."
 		]
 	}

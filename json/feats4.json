@@ -399,7 +399,7 @@
 			"{SOURCE Cheliax, Empire of Devils/26}",
 			"",
 			"You entangle your foe in your weapon.  ",
-			"**Prerequisites:** Fury's Fall, {feat/Improved Trip}.  ",
+			"**Prerequisites:** {feat/Fury's Fall}, {feat/Improved Trip}.  ",
 			"**Benefit:** If you successfully use a whip to trip a foe, you can choose to drop your whip. Your tripped target gains the entangled condition. The target can break free of the whip by making a DC 10 Strength check or a DC 15 Escape Artist check (add the enhancement bonus of the whip to these DCs), or by using a full-round action to disentangle himself. Escaping the whip by making a Strength check means the whip gains the broken condition. If the whip has a magical quality such as flaming, apply this quality's damage to the target every round on your turn."
 		]
 	},
@@ -1225,7 +1225,7 @@
 			"When unencumbered, you fly with exceptional speed and agility.  ",
 			"**Prerequisites:** {feat/Skill Focus/ (Fly)}, fly speed.  ",
 			"**Benefit:** You are a gifted flier. While wearing light or no armor, your fly speed increases by 5 feet and your maneuverability is one step better than normal, to a maximum of good. You lose the benefits of this feat if you carry a medium or heavy load.  ",
-			"**Special:** While the following feats are primarily taken by strix, other creatures with natural wings can also take them at the GM's discretion."
+			"**Special:** While this feat is primarily taken by strix, other creatures with natural wings can also take it at the GM's discretion."
 		]
 	},
 	"graceful_steal": {
@@ -1305,7 +1305,7 @@
 			"{SOURCE Advanced Class Guide/148}",
 			"",
 			"The surrounding foliage lurches forth at your enemies in concert with your strikes.  ",
-			"**Prerequisites:** Nature Magic or the ability to cast druid or ranger spells; {feat/Vital Strike}, Knowledge (nature) 5 ranks.  ",
+			"**Prerequisites:** {feat/Nature Magic} or the ability to cast druid or ranger spells; {feat/Vital Strike}, Knowledge (nature) 5 ranks.  ",
 			"**Benefit:** When you use Vital Strike (or {feat/Improved Vital Strike} or {feat/Greater Vital Strike}), you cause the foliage in the area to reach out and entangle your foe (as the condition) if it fails a Reflex save (DC = 10 + 1/2 your character level + your Wisdom modifier). The effect lasts for 1 minute or until the enemy breaks free with a successful Strength check or an Escape Artist check (DC = the effect's saving throw DC), whichever comes first.",
 			"",
 			"You can use this benefit a number of times per day equal to your Wisdom modifier (minimum 1). You can choose to use this ability as a free action after you hit the enemy with the attack. This is a supernatural ability.",
@@ -1342,7 +1342,7 @@
 			"{SOURCE Planar Adventures/28}",
 			"",
 			"You use unusual gravities to adjust your vital strikes.  ",
-			"**Prerequisites:** {feat/Vital Strike}; Heavy Gravity Acclimation or Light Gravity Acclimation.  ",
+			"**Prerequisites:** {feat/Vital Strike}; {feat/Heavy Gravity Acclimation} or {feat/Light Gravity Acclimation}.  ",
 			"**Benefit:** When using any {feat/Vital Strike} feat in an area of light or heavy gravity, roll the weapon's damage dice for the attack one additional time. For example, if using {feat/Improved Vital Strike}, you would roll the weapon's damage dice for the attack four times before adding other damage bonuses, instead of three times. You must have the appropriate prerequisite feat associated with the plane's gravity trait to gain this benefit."
 		]
 	},
@@ -1860,7 +1860,7 @@
 			"{SOURCE Ultimate Wilderness/113}",
 			"",
 			"Your allies can target additional foes.  ",
-			"**Prerequisites:** Improved Hunter's Bond, hunter's bond (hunting companions) class feature, ranger level 12th.  ",
+			"**Prerequisites:** {feat/Improved Hunter's Bond}, hunter's bond (hunting companions) class feature, ranger level 12th.  ",
 			"**Benefit:** When you activate hunter's bond, you can select a number of targets equal to your Wisdom modifier as long as they all count as your favored enemy.  ",
 			"**Normal:** You select one target against which your allies receive your favored enemy bonus."
 		]
@@ -2114,7 +2114,7 @@
 			"{SOURCE Advanced Player's Guide/162}",
 			"",
 			"Your masterful shieldwork provides even greater protection to your vital areas.  ",
-			"**Prerequisites:** Proficiency with selected shield, {feat/Greater Shield Focus}, {feat/Shield Focus}, Shield Specialization with selected shield, fighter level 12th.  ",
+			"**Prerequisites:** Proficiency with selected shield, {feat/Greater Shield Focus}, {feat/Shield Focus}, {feat/Shield Specialization} with selected shield, fighter level 12th.  ",
 			"**Benefit:** Choose one type of shield (buckler, light, heavy, or tower shield) for which you possess the Shield Specialization feat. With the selected shield, you gain a +2 bonus to your Armor Class against critical hit confirmation rolls (this bonus stacks with that from Shield Specialization). In addition, once per day you may negate a critical hit, and damage is instead rolled normally.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of shield.",
 			"",
@@ -2133,7 +2133,7 @@
 			"{SOURCE Advanced Class Guide/149}",
 			"",
 			"Your song and your enthusiasm invigorate your allies.  ",
-			"**Prerequisites:** Skald's Vigor, Perform (song) 10 ranks.  ",
+			"**Prerequisites:** {feat/Skald's Vigor}, Perform (song) 10 ranks.  ",
 			"**Benefit:** Your allies share in the fast healing granted by your Skald's Vigor, starting in the round when you begin your performance. They must be able to hear the performance. If you stop maintaining the song, the fast healing ends immediately, even if other effects of your song linger."
 		]
 	},
@@ -2398,7 +2398,7 @@
 			"{SOURCE PRPG Core Rulebook/126}",
 			"",
 			"Choose one type of weapon (including unarmed strike or grapple) for which you have already selected Weapon Focus. You are a master at your chosen weapon.  ",
-			"**Prerequisites:** Proficiency with selected weapon, Weapon Focus with selected weapon, base attack bonus +1, 8th-level fighter.  ",
+			"**Prerequisites:** Proficiency with selected weapon, {feat/Weapon Focus} with selected weapon, base attack bonus +1, 8th-level fighter.  ",
 			"**Benefit:** You gain a +1 bonus on attack rolls you make using the selected weapon. This bonus stacks with other bonuses on attack rolls, including those from Weapon Focus.  ",
 			"**Special:** You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.",
 			"",
@@ -2900,7 +2900,7 @@
 			"{SOURCE Champions of Balance/19}",
 			"",
 			"You can spin and juggle a small firearm, making it difficult to predict where you will shoot.  ",
-			"**Prerequisites:** Amateur Gunslinger feat or grit class feature, {feat/Dazzling Display}, {feat/Weapon Focus}.  ",
+			"**Prerequisites:** {feat/Amateur Gunslinger} feat or grit class feature, {feat/Dazzling Display}, {feat/Weapon Focus}.  ",
 			"**Benefit:** You can spend 1 grit point to make a feint attempt using a one-handed firearm for which you have {feat/Weapon Focus} (instead of a melee weapon). The target of this feint must be within 30 feet of you and be able to see you.",
 			"",
 			"If you have the Quick Draw feat, you can holster a one-handed firearm as a free action as long as you have at least 1 grit point."
@@ -3246,7 +3246,7 @@
 			"{SOURCE Melee Tactics Toolbox/10}",
 			"",
 			"Your movements perfectly synchronize with your ally's to greater effect.  ",
-			"**Prerequisites:** Any teamwork feat, base attack bonus +6.  ",
+			"**Prerequisites:** Any {main/feats_<teamwork/ feat}, base attack bonus +6.  ",
 			"**Benefit:** When you successfully use the aid another action to improve the Armor Class or attack roll of an ally who also has this feat, the benefit from aid another lasts until the beginning of your next turn.  ",
 			"**Normal:** The bonus granted by aid another either grants your ally a +2 bonus on her next attack roll against an opponent or grants your ally a +2 bonus to AC against that opponent's next attack made before the beginning of your next turn.",
 			"",
@@ -3317,7 +3317,7 @@
 			"{SOURCE Advanced Class Guide/150}",
 			"",
 			"You are skilled at sending your opponents flying.  ",
-			"**Prerequisites:** Str 13; Awesome Blow or awesome blow class feature; {feat/Power Attack}  ",
+			"**Prerequisites:** Str 13; {feat/Awesome Blow} or awesome blow class feature; {feat/Power Attack}  ",
 			"**Benefit:** You receive a +2 bonus on checks to perform an awesome blow combat maneuver. You also gain a +2 bonus to your combat maneuver defense whenever an opponent tries to perform an awesome blow combat maneuver against you. Whenever you successfully perform an awesome blow combat maneuver, your opponent's movement provokes attacks of opportunity from all your allies (but not you).  ",
 			"**Normal:** Creatures moved by awesome blow do not provoke attacks of opportunity.",
 			"",
@@ -3336,7 +3336,7 @@
 			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/69}",
 			"",
 			"When you perform an awesome throw, you knock opponents back farther.  ",
-			"**Prerequisites:** Str 25, {feat/Awesome Throw}, {feat/Greater Bull Rush}, Throw Anything or rock throwing, size Large or larger.  ",
+			"**Prerequisites:** Str 25, {feat/Awesome Throw}, {feat/Greater Bull Rush}, {feat/Throw Anything} or rock throwing, size Large or larger.  ",
 			"**Benefit:** When you make an awesome throw combat maneuver, for every 5 by which your combat maneuver check exceeds the target's CMD, you send the target flying 5 additional feet. Furthermore, this movement provokes attacks of opportunity from your allies."
 		]
 	},
@@ -4294,7 +4294,7 @@
 			"{SOURCE Advanced Player's Guide/163}",
 			"",
 			"Your enemies are living weapons in your hands.  ",
-			"**Prerequisites:** {feat/Improved Bull Rush}, Ki Throw.  ",
+			"**Prerequisites:** {feat/Improved Bull Rush}, {feat/Ki Throw}.  ",
 			"**Benefit:** When using the Ki Throw feat, you may throw your target into any square you threaten that is occupied by another creature. Make a bull rush combat maneuver check with a -4 penalty against the secondary target. If this check succeeds, the thrown creature lands prone in the secondary target's square, while the secondary target is pushed back and knocked prone in an adjacent square. If the check fails, the thrown creature lands prone in the nearest square you threaten adjacent to the secondary target.",
 			"",
 			"If you throw a Large or larger creature into an area containing multiple secondary targets, you take an additional penalty of -4 on your combat maneuver check for each target after the first.  ",
@@ -5042,7 +5042,7 @@
 			"{SOURCE Advanced Race Guide/57}",
 			"",
 			"You follow up an attack with a surprising series of sweeping blows.  ",
-			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Great Cleave}, {feat/Power Attack}, Surprise Follow-Through, base attack bonus +8.  ",
+			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Great Cleave}, {feat/Power Attack}, {feat/Surprise Follow-Through}, base attack bonus +8.  ",
 			"**Benefit:** When using Great Cleave, each opponent you attack on your turn (other than the first) is denied his Dexterity bonus against you.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

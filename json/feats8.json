@@ -880,7 +880,7 @@
 			"{SOURCE Ultimate Intrigue/94}",
 			"",
 			"Those who you intimidate know that you'll go through with your threats.  ",
-			"**Prerequisites:** {feat/Nerve-Racking Negotiator}, {feat/Persuasive}, {feat/Skill Focus/ (intimidate)}.  ",
+			"**Prerequisites:** {feat/Nerve-Racking Negotiator}, {feat/Persuasive}, {feat/Skill Focus/ (Intimidate)}.  ",
 			"**Benefit:** When you successfully use the Intimidate skill to force an opponent to act friendly toward you, the duration of the attitude change lasts 2d6 hours.  ",
 			"**Normal:** Changing an opponent's attitude with Intimidate normally changes the foe's attitude to friendly for 1d6x10 minutes."
 		]
@@ -1390,7 +1390,7 @@
 			"{SOURCE Ultimate Wilderness/118}",
 			"",
 			"You relish hot climates, as the equatorial heat does not sap your strength.  ",
-			"**Prerequisites:** Desert Dweller or Jungle Survivalist.  ",
+			"**Prerequisites:** {feat/Desert Dweller} or {feat/Jungle Survivalist}.  ",
 			"**Benefit:** You treat hot environments as though they were one step less severe; if you have a similar ability from another feat (like Desert Dweller), the benefits stack and you treat hot conditions as if they were two steps less severe. You do not take a penalty on Constitution checks for wearing armor in hot climates."
 		]
 	},
@@ -1447,7 +1447,7 @@
 			"{SOURCE Ultimate Wilderness/118}",
 			"",
 			"Your understanding of your barbaric totem flourishes as your combat prowess grows.  ",
-			"**Prerequisites:** Str 15; Dex 13; {feat/Athletic}, {feat/Totemic Initiate}; base attack bonus +9; no barbarian totem rage powers except those chosen with this feat or Totemic Initiate; nonlawful alignment.  ",
+			"**Prerequisites:** Str 15; Dex 13; {feat/Athletic}, {feat/Totemic Initiate}; base attack bonus +9; no barbarian totem rage powers except those chosen with this feat or {feat/Totemic Initiate}; nonlawful alignment.  ",
 			"**Benefit:** Choose one barbarian totem rage power that requires that you have the totem rage power you selected with Totemic Initiate. While gaining the benefits of Totemic Initiate, you also gain the benefits of this new rage power."
 		]
 	},
@@ -1521,7 +1521,7 @@
 			"{SOURCE Aquatic Adventures/59}",
 			"",
 			"Your touch can suppress spells that aid in breathing water.  ",
-			"**Prerequisites:** Character level 5th, worshiper of Kelizandri  ",
+			"**Prerequisites:** Character level 5th, worshiper of {faith/Kelizandri}  ",
 			"**Benefit:** Once per day while underwater, you can touch a creature in order to suppress any spells that allow the creature to breathe underwater (air bubble, life bubble, water breathing, and so on) for 5 minutes. Suppressing the spells requires you to roll 1d20 + your character level; the DC for each spell is 11 + the spell's caster level (if the spells affecting the creature have differing caster levels, you might dispel some but not the others). This is a spell-like ability. At 10th level and every 5 levels thereafter, you can use this touch an additional time each day."
 		]
 	},
@@ -1625,7 +1625,7 @@
 			"{SOURCE Ultimate Campaign/73}",
 			"",
 			"This town needs cleaning up, and you're just the one to do it.  ",
-			"**Prerequisites:** You must have 5 ranks in Intimidate and a personal motivation to clean up a particular town (such as an old friend calling in a favor, or seeking a place to settle down), or you must have the Bounty Hunter or Champion of the People background.  ",
+			"**Prerequisites:** You must have 5 ranks in Intimidate and a personal motivation to clean up a particular town (such as an old friend calling in a favor, or seeking a place to settle down), or you must have the [Bounty Hunter or Champion of the People](x/x) background.  ",
 			"**Benefit:** Choose a particular settlement. When you're in your chosen settlement, the DC of Intimidate checks made against you increases by 10. You gain a +1 bonus on attack rolls and a +1 dodge bonus to AC against undesirable elements like criminals or ruffians in your chosen settlement. This bonus increases to +2 for combat maneuver checks.  ",
 			"**Goal:** Defeat 10 more troublemakers in your chosen settlement with a CR equal to your character level or higher, and in the process eliminate a serious criminal threat or otherwise clean up the streets.  ",
 			"**Completion Benefit:** You gain the ability to designate a new chosen settlement as often as you wish. You must first live in a settlement for 1 week to make it your chosen settlement. In addition, you gain a +2 bonus on initiative checks and a +1 bonus on saving throws when in your chosen settlement."
@@ -3955,7 +3955,7 @@
 			"{SOURCE Demon Hunter's Handbook/13}",
 			"",
 			"You've witnessed demons and their madness firsthand, likely in one of the lands detailed in this section, or perhaps some other demon-marked region such as the Worldwound or the Abyss. Since then, You've sworn to send these wretched fiends back to whence they came, and You've become an expert at rooting out their kind and their servants.  ",
-			"**Prerequisites:** You witnessed at least one family member or a close friend being killed by demons or demonic cultists, or you have the Hated Foe or An Eye for an Eye background.  ",
+			"**Prerequisites:** You witnessed at least one family member or a close friend being killed by demons or demonic cultists, or you have the [Hated Foe or An Eye for an Eye](x/x) background.  ",
 			"**Benefit:** You gain a +2 bonus on saving throws against spells or effects originating from demon worshipers and from creatures of the demon type.  ",
 			"**Goal:** Convince the leader of a demon cult to renounce her Abyssal lord and seek atonement for her actions. Alternatively, if you kill the cult leader, you must also decisively defeat at least half of the cultists and have the cult's base of operations consecrated by a well-known local priest.  ",
 			"**Completion Benefit:** When a demon damages you with an attack, spell, spell-like ability, or special ability and reduces you to fewer than 0 hit points, you may allow righteous energy to pour through you and into the demon, instantly sending it to another plane of existence (as dismissal) if it fails a Will save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier). This dismissal takes place after you are damaged but before you fall unconscious, so you can use this ability even if the demon kills you. You can use this ability once per day. Once you have used this ability, you must be healed to your maximum number of hit points before you can use the ability again."
@@ -4835,7 +4835,7 @@
 			"{SOURCE Ultimate Combat/123}",
 			"",
 			"You present a serene facade until you unsheathe your weapon and strike in one fluid motion.  ",
-			"**Prerequisites:** Weapon expertise class feature or Quick Draw, Bluff 1 rank.  ",
+			"**Prerequisites:** Weapon expertise class feature or {feat/Quick Draw}, Bluff 1 rank.  ",
 			"**Benefit:** If on your first turn of combat you draw a melee weapon to attack an opponent within your reach, you can spend a swift action to make a Bluff check to feint against that opponent.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

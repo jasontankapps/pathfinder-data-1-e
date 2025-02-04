@@ -528,7 +528,7 @@
 			"{SOURCE Inner Sea Combat/17}",
 			"",
 			"You can redirect your allies' poorly aimed ranged attacks with incredible accuracy.  ",
-			"**Prerequisites:** Amateur Gunslinger or the grit class feature, {feat/Deadly Aim}, {feat/Precise Shot}.  ",
+			"**Prerequisites:** {feat/Amateur Gunslinger} or the grit class feature, {feat/Deadly Aim}, {feat/Precise Shot}.  ",
 			"**Benefit:** As long as you have at least 1 grit point, after an ally has made a ranged attack roll but before the results of the roll have been revealed, you can fire a loaded firearm at the volley as it moves toward its target, redirecting its path. Make an attack roll using your highest attack bonus, and use your result in place of your ally's original attack roll. On a successful hit, your ally's attack deals damage as normal. You may perform this action a number of times per round up to your Wisdom bonus (minimum 1).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -976,9 +976,9 @@
 			"{SOURCE Plane-Hopper's Handbook/6}",
 			"",
 			"Your training in counterspelling summons is so extensive that you can redirect some of your foes' power to call forth your own allies.  ",
-			"**Prerequisites:** {feat/Spell Focus} or counter summons class feature.",
+			"**Prerequisites:** {feat/Spell Focus/ (conjuration)} or counter summons class feature.",
 			"",
-			"When you successfully counter a summoning spell with {spell/dispel magic} or your own summon monster spell, you can immediately summon nonevil creatures as if you had just finished casting a summon monster spell of 2 levels lower than the countered summoning spell."
+			"When you successfully counter a summoning spell with {spell/dispel magic} or your own {spell/summon monster>_1} spell, you can immediately summon nonevil creatures as if you had just finished casting a summon monster spell of 2 levels lower than the countered summoning spell."
 		]
 	},
 	"returning_throw": {
@@ -1182,7 +1182,7 @@
 			"{SOURCE Ultimate Combat/116}",
 			"",
 			"You can ricochet a firearm shot off the wall and still hit your target.  ",
-			"**Prerequisites:** Grit class feature or Amateur Gunslinger feat, {feat/Blind-Fight}.  ",
+			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger} feat, {feat/Blind-Fight}.  ",
 			"**Benefit:** You can fire a shot at a wall or piece of solid terrain, and have it ricochet off. When you do, use the square immediately in front of the wall or piece of solid terrain to determine line of sight to a target, and this square is considered the new origin square of the attack. Use that square to determine the effects of cover, and your own square to determine the effects of {rule/concealment}. You can make this shot as long as you have at least 1 grit point. When making this shot, you can spend 1 grit point to ignore the effects of all cover or concealment. You must choose to spend the grit point before you make the attack roll."
 		]
 	},
@@ -1792,17 +1792,7 @@
 			"",
 			"You have intertwined your familiarities with pesh and magic to unlock strange powers.  ",
 			"**Prerequisites:** {feat/Spell Focus/ (any)}, ability to cast 2nd-level spells.  ",
-			"**Benefit:** When you consume pesh, you take 1 fewer point of Constitution or Wisdom damage (your choice). In addition, you add spells from the sahir-afiyun spells listed below to your own class spell list or list of spells known. You can add one spell from the highest level you can cast; you can instead add two spells to your list of spells known, but both of these spells must be at least 1 level lower than the highest-level spell you can cast for that class. If you have more than one spellcasting class, choose one and add the sahir-afiyun spell or spells listed below to that class's spell list or list of spells known.",
-			"",
-			"*1st*-alleviate addiction, lesser confusion, night blindness, pesh vigor, ray of sickening, remove fear, sleep.",
-			"",
-			"*2nd*-augury, calm emotions, euphoric cloud.",
-			"",
-			"*3rd*-contact high, deep slumber, imbue with addiction.",
-			"",
-			"*4th*-absorbing inhalation, confusion, divination.",
-			"",
-			"*5th*-symbol of sleep.",
+			"**Benefit:** When you consume pesh, you take 1 fewer point of Constitution or Wisdom damage (your choice). In addition, you add spells from the [sahir-afiyun spells list](main/spells_sahirafiyun) to your own class spell list or list of spells known. You can add one spell from the highest level you can cast; you can instead add two spells to your list of spells known, but both of these spells must be at least 1 level lower than the highest-level spell you can cast for that class. If you have more than one spellcasting class, choose one and add the sahir-afiyun spell or spells to that class's spell list or list of spells known.",
 			"",
 			"All sahir-afiyun spells require 1 dose of pesh as a material component, either replacing the existing material component, or as part of the material component if the existing component costs more.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, add one or more sahir-afiyun spells to your spell list."
@@ -4750,7 +4740,7 @@
 			"{SOURCE Adventurer's Guide/36}",
 			"",
 			"You and your partner work together to bewilder a target, alternating between fear and kindness.  ",
-			"**Prerequisites:** Intimidating Prowess or Persuasive; Diplomacy 1 rank; Intimidate 1 rank.  ",
+			"**Prerequisites:** {feat/Intimidating Prowess} or {feat/Persuasive}; Diplomacy 1 rank; Intimidate 1 rank.  ",
 			"**Benefit:** While using Diplomacy or Intimidate to shift the attitude of a creature, one ally you can see who also has this feat can attempt to shift the creature's attitude at the same time. You roll either a Diplomacy check or an Intimidate check, and your ally rolls a check with the other skill. If you both succeed, you choose whether to apply the Diplomacy check's or Intimidate check's effects; the other check has no direct effect but instead provides the first check a +5 circumstance bonus to its result. If only one person succeeds, ignore the failed check, but the successful skill check's effect lasts only half as long. If you both fail, any effects resulting from both failed checks apply."
 		]
 	},

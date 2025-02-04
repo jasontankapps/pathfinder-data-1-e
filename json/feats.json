@@ -1687,7 +1687,7 @@
 			"{SOURCE PRPG Core Rulebook/118}",
 			"",
 			"You have mastered the ability to cast spells while wearing armor.  ",
-			"**Prerequisites:** {feat/Arcane Armor Training}, Medium Armor Proficiency, caster level 7th.  ",
+			"**Prerequisites:** {feat/Arcane Armor Training}, {feat/Medium Armor Proficiency}, caster level 7th.  ",
 			"**Benefit:** As a swift action, reduce the arcane spell failure chance due to the armor you are wearing by 20% for any spells you cast this round. This bonus replaces, and does not stack with, the bonus granted by Arcane Armor Training.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1709,7 +1709,7 @@
 			"{SOURCE PRPG Core Rulebook/118}",
 			"",
 			"You have learned how to cast spells while wearing armor.  ",
-			"**Prerequisites:** Light Armor Proficiency, caster level 3rd.  ",
+			"**Prerequisites:** {feat/Light Armor Proficiency}, caster level 3rd.  ",
 			"**Benefit:** As a swift action, reduce the arcane spell failure chance due to the armor you are wearing by 10% for any spells you cast this round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2174,7 +2174,7 @@
 			"{SOURCE PRPG Core Rulebook/118}",
 			"",
 			"You are skilled at wearing heavy armor.  ",
-			"**Prerequisites:** Light Armor Proficiency, Medium Armor Proficiency.  ",
+			"**Prerequisites:** {feat/Light Armor Proficiency}, {feat/Medium Armor Proficiency}.  ",
 			"**Benefit:** See Armor Proficiency, Light.  ",
 			"**Normal:** See Armor Proficiency, Light.  ",
 			"**Special:** Fighters and paladins automatically have Heavy Armor Proficiency as a bonus feat. They need not select it."
@@ -2903,7 +2903,7 @@
 			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/69}",
 			"",
 			"Your ranged attacks can send smaller opponents flying.  ",
-			"**Prerequisites:** Str 25, Throw Anything or rock throwing, {feat/Improved Bull Rush}, size Large or larger.  ",
+			"**Prerequisites:** Str 25, {feat/Throw Anything} or rock throwing, {feat/Improved Bull Rush}, size Large or larger.  ",
 			"**Benefit:** As a standard action, you can perform the awesome throw combat maneuver. You do this by making a thrown weapon attack; if you don't have the Throw Anything feat, you must use a large, bulky, and relatively regular-shaped object with a hardness of at least 5 (such as a rock or treasure chest). If that attack hits a corporeal opponent smaller than you, the opponent takes damage and is knocked away, flying 10 feet in a straight line away from you and falling prone. If an obstacle prevents the completion of your target's move, the target and the obstacle each take 1d6 points of damage, and the target is knocked prone in a space adjacent to the obstacle."
 		]
 	},
@@ -3069,7 +3069,7 @@
 			"{SOURCE Monster Summoner's Handbook/8;Blood of Angels/24}",
 			"",
 			"Your familiarity with summoning creatures has taught you how to send them away with a well-timed strike.  ",
-			"**Prerequisites:** Arcane Strike or Disruptive; Spellcraft 8 ranks; arcane pool class feature.  ",
+			"**Prerequisites:** {feat/Arcane Strike} or {feat/Disruptive}; Spellcraft 8 ranks; arcane pool class feature.  ",
 			"**Benefit:** When you confirm a critical hit against a target while using Arcane Strike or with a weapon enhanced by your arcane pool, if the target was summoned by a spell you identified using a Spellcraft check, it must succeed at a Will save (DC = 10 + 1/2 your character level + your Intelligence modifier) or be sent back to its home plane as per the dismissal spell."
 		]
 	},
@@ -3223,7 +3223,7 @@
 			"{SOURCE People of the Wastes/10}",
 			"",
 			"Sometimes smacking your firearm against a solid surface is all that's needed to unjam it. Sometimes that solid surface is a creature.  ",
-			"**Prerequisites:** Craft (alchemy) 3 ranks; grit class feature or Amateur Gunslinger; pistol-whip gunslinger deed; quick clear gunslinger deed.  ",
+			"**Prerequisites:** Craft (alchemy) 3 ranks; grit class feature or {feat/Amateur Gunslinger}; pistol-whip gunslinger deed; quick clear gunslinger deed.  ",
 			"**Benefit:** You can ignore the broken condition of a firearm you're wielding to perform the pistol-whip deed. If you hit a creature with this deed, you can spend 1 grit point as an immediate action to remove the broken condition from the firearm, but only if the firearm gained that condition from a misfire."
 		]
 	},
@@ -3582,7 +3582,7 @@
 			"{SOURCE Advanced Class Guide/142}",
 			"",
 			"You can heal others with a touch of your hand.  ",
-			"**Prerequisites:** Wis 13, Believer's Boon, must be lawful good, alignment must be within one step of your deity's.  ",
+			"**Prerequisites:** Wis 13, {feat/Believer's Boon}, must be lawful good, alignment must be within one step of your deity's.  ",
 			"**Benefit:** Once per day, you can use the paladin's lay on hands ability. Your effective paladin level is equal to 1/2 your character level (minimum 1). If you already have (or later gain) the lay on hands ability, you instead gain one extra use of lay on hands each day.  ",
 			"**Special:** This feat counts as having the lay on hands ability for the purpose of qualifying for feats such as Extra Lay on Hands.",
 			"",
@@ -3738,7 +3738,7 @@
 			"{SOURCE Ultimate Combat/90}",
 			"",
 			"You can strike your enemy and use the blow as an opportunity to grab and hold him.  ",
-			"**Prerequisites:** {feat/Improved Grapple}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, Ki Throw.  ",
+			"**Prerequisites:** {feat/Improved Grapple}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, {feat/Ki Throw}.  ",
 			"**Benefit:** After you successfully use the Ki Throw feat on an opponent, you can use a swift action to attempt a grapple combat maneuver against that opponent.  ",
 			"**Normal:** The grapple combat maneuver is a standard action.  ",
 			"**Special:** A monk can gain Binding Throw as a bonus feat starting at 14th level.",
@@ -3828,7 +3828,7 @@
 			"{SOURCE Inner Sea Combat/12}",
 			"",
 			"You can sacrifice ammunition to make a grand spectacle.  ",
-			"**Prerequisites:** Amateur Gunslinger or the grit class feature, base attack bonus +4.  ",
+			"**Prerequisites:** {feat/Amateur Gunslinger} or the grit class feature, base attack bonus +4.  ",
 			"**Benefit:** When you spend a swift action to attempt a performance combat check, you can sacrifice one cartridge or an amount of black powder required for a single shot to make either a loud sound or an impressive flash. If you choose to make your weapon's report louder, you gain a +4 bonus on all Intimidate checks you attempt for 1 round. If you choose to create an impressive flash, you gain a +4 bonus on any Perform checks you attempt for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4287,7 +4287,7 @@
 			"{SOURCE Blood of Angels/24}",
 			"",
 			"You use your impenetrable luminescence to disorient harbingers of darkness.  ",
-			"**Prerequisites:** Inner Light, aasimar, daylight spell-like ability.  ",
+			"**Prerequisites:** {feat/Inner Light (BoA)}, aasimar, daylight spell-like ability.  ",
 			"**Benefit:** Whenever an enemy unsuccessfully attempts to counter or dispel your daylight spell-like ability, it must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Charisma modifier) or become blinded for 1 round as its mind is overwhelmed with celestial light. This is a supernatural mind-affecting effect."
 		]
 	},
@@ -4531,7 +4531,7 @@
 			"{SOURCE Advanced Player's Guide/323}",
 			"",
 			"You have a sense of destiny about you and always seem to succeed, even when the odds are against you.  ",
-			"**Prerequisites:** Hero's Fortune.  ",
+			"**Prerequisites:** {feat/Hero's Fortune}.  ",
 			"**Benefit:** Whenever you gain a level, you gain 2 hero points instead of 1.  ",
 			"**Normal:** Whenever you gain a level, you gain 1 hero point."
 		]

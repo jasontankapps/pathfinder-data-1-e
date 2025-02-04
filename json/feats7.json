@@ -158,7 +158,7 @@
 			"{SOURCE Ultimate Combat/116}",
 			"",
 			"You are so skilled at stashing small packets of firearm ammunition and black powder on your person that you sometimes surprise yourself when you find them.  ",
-			"**Prerequisites:** Grit class feature or Amateur Gunslinger feat, Sleight of Hand 1 rank.  ",
+			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger} feat, Sleight of Hand 1 rank.  ",
 			"**Benefit:** Spend 1 grit point while in combat to recover either 1 bullet and 1 dose of black powder or 1 alchemical cartridge from a hidden stash on your person that you had, until now, forgotten about. If the bullet and black powder or the alchemical cartridges are normal shot, you do not need to pay for the ammunition. If you want to recover any other kind of ammunition, you must pay for it with gold pieces from your character's wealth. The grit cost of this deed cannot be decreased by the Signature Deed feat, the true grit class feature, or any other similar effect that reduces the number of grit points you spend to use a deed. You also gain a +4 bonus on any Sleight of Hand checks made while gambling."
 		]
 	},
@@ -216,7 +216,7 @@
 			"{SOURCE Heroes of the High Court/18}",
 			"",
 			"You lend some of your oracular powers to the leaders of Po Li in their search for the reborn Eternal Emperor, learning useful techniques to extend your divinations.  ",
-			"**Prerequisites:** Enlarge Spell or Extend Spell, oracle's curse class feature.  ",
+			"**Prerequisites:** {feat/Enlarge Spell} or {feat/Extend Spell}, oracle's curse class feature.  ",
 			"**Benefit:** Treat your oracle level as 1 lower (minimum 1st level) when determining the effects of your oracle's curse. You don't require additional time to spontaneously cast divination spells modified by the Enlarge Spell or Extend Spell metamagic feats.  ",
 			"**Normal:** Applying a metamagic feat to a spontaneously cast spell increases the casting time of the spell."
 		]
@@ -242,7 +242,7 @@
 			"{SOURCE Advanced Race Guide/47}",
 			"",
 			"Your anonymity makes you difficult to find through magical or mundane means, and you have learned how to combat both of your progenitor races.  ",
-			"**Prerequisites:** Exile's Path, character level 5th, half-elf.  ",
+			"**Prerequisites:** {feat/Exile's Path}, character level 5th, half-elf.  ",
 			"**Benefit:** You gain a +2 bonus on all saving throws against scrying or divination effects. Additionally, you gain a +2 bonus on all Stealth checks, and elves, half-elves, and humans take a -4 penalty on all efforts to track you through the Survival skill."
 		]
 	},
@@ -1351,7 +1351,7 @@
 			"{SOURCE Armor Master's Handbook/19}",
 			"",
 			"You've mastered the art of balancing a polearm's weight against a shield's stability.  ",
-			"**Prerequisites:** Shield Focus; base attack bonus +3 or fighter level 1st; proficiency with light shields, heavy shields, or tower shields.  ",
+			"**Prerequisites:** {feat/Shield Focus}; base attack bonus +3 or fighter level 1st; proficiency with light shields, heavy shields, or tower shields.  ",
 			"**Benefit:** You can use a two-handed weapon sized appropriately for you from the polearm or spears weapon group while also using a light, heavy, or tower shield with which you are proficient. The shield's armor check penalty (if any) applies to attacks made with the weapon.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2150,7 +2150,7 @@
 			"{SOURCE Path of the Hellknight/62}",
 			"",
 			"You have learned the art of spellcasting while wearing signifer armor.  ",
-			"**Prerequisites:** {feat/Arcane Armor Mastery}, {feat/Arcane Armor Training}, Heavy Armor Proficiency, caster level 7th, must swear allegiance to a single [Hellknight](rule/aff_lawknights) order.  ",
+			"**Prerequisites:** {feat/Arcane Armor Mastery}, {feat/Arcane Armor Training}, {feat/Heavy Armor Proficiency}, caster level 7th, must swear allegiance to a single [Hellknight](rule/aff_lawknights) order.  ",
 			"**Benefit:** As a swift action, you can reduce the arcane spell failure chance due to the armor you are wearing by 30% for any spells you cast this round. This benefit applies only if you are wearing armor with \"Hellknight\" in its name. This bonus replaces, and does not stack with, the bonuses granted by Arcane Armor Mastery, Arcane Armor Training, and similar feats and effects."
 		]
 	},
@@ -2252,7 +2252,7 @@
 			"{SOURCE Adventurer's Guide/35}",
 			"",
 			"You need spook only a few souls to scare a whole city.  ",
-			"**Prerequisites:** Cha 13; Intimidate 5 ranks; Persuasive or renown social talent.  ",
+			"**Prerequisites:** Cha 13; Intimidate 5 ranks; {feat/Persuasive} or renown social talent.  ",
 			"**Benefit:** By spending 8 hours cultivating your local legend in a settlement and then succeeding at an Intimidate check, your fearsome reputation becomes common knowledge. The DC is based on the [size of the settlement](rule/the_shape_of_civilization) (see the Sinister Reputation table below). If the check succeeds, you can attempt an Intimidate check to demoralize a creature that has fewer Hit Dice than you as a swift action, and using Intimidate to force a creature to act friendly to you takes only half as long. You gain these benefits only while within the settlement and while not disguised. These benefits last for a number of days equal to your half your level + your Charisma modifier.  ",
 			"**Special:** This feat's benefits always apply to a vigilante's area of renown, and he can choose whether the reputation and benefits apply to his social identity, vigilante identity, or both. You can always apply this feat's benefits to followers and cohorts gained from Leadership or similar abilities.",
 			"",
@@ -2383,7 +2383,7 @@
 			"{SOURCE People of the Wastes/4}",
 			"",
 			"Your bullets ignite when you fire them.  ",
-			"**Prerequisites:** Grit class feature or Amateur Gunslinger, base attack bonus +4.  ",
+			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger}, base attack bonus +4.  ",
 			"**Benefit:** As long as you have at least 1 grit point when using a firearm to fire bullets, pellets, or similar ammunition, you can choose for half of the attack's damage to deal fire damage and the other half to deal bludgeoning and piercing damage. If you spend 1 grit point when you declare such an attack with a firearm, you can grant the bullet or pellets fired the flaming weapon special ability for that attack only."
 		]
 	},
@@ -4054,7 +4054,7 @@
 			"{SOURCE Ultimate Combat/120}",
 			"",
 			"You whirl your foe around and then let go.  ",
-			"**Prerequisites:** {feat/Combat Expertise}, {feat/Improved Bull Rush}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, Ki Throw.  ",
+			"**Prerequisites:** {feat/Combat Expertise}, {feat/Improved Bull Rush}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, {feat/Ki Throw}.  ",
 			"**Benefit:** On a successful unarmed trip combat maneuver against an opponent your size or smaller, you can spend a swift action to attempt a bull rush combat maneuver against that opponent. If your bull rush succeeds, you can move that opponent to any unoccupied square you threaten, then push that opponent the number of 5-foot increments your successful bull rush allows. The target is then knocked prone. If the bull rush fails, you can use the Ki Throw feat as normal.",
 			"",
 			"If you also have the Improved Ki Throw feat, a successful bull rush allows you to push the opponent into a space secondary targets occupy. You resolve this effect as if you used the Improved Ki Throw feat to throw the opponent into that space.  ",
@@ -4898,7 +4898,7 @@
 			"{SOURCE Pathfinder #131: The Reaper's Right Hand/77}",
 			"",
 			"You can tap into your family's old ways to take on some of the traits of plants.  ",
-			"**Prerequisites:** Be a member of House Fahlspar, or have [The Hunter](rule/influential_associates_table), [Nature (oracle), or Tree Tender (druid])(rule/class_background_tables) background.  ",
+			"**Prerequisites:** Be a member of House Fahlspar, or have [The Hunter](rule/influential_associates_table), {rule/class_background<Nature (oracle), or| T/ree Tender (druid)>ables} background.  ",
 			"**Benefit:** Once per day as a move action, you gain a +2 bonus on saving throws against mind-affecting effects for 1 minute.  ",
 			"**Goal:** Swear to protect a natural site and defend it for at least a year, including decisively defeating an appropriate number of invaders or despoilers.  ",
 			"**Completion Benefit:** You may now use the above benefit three times per day, and the benefit also applies on saving throws against paralysis, poison, polymorph, sleep, and stunning effects."
