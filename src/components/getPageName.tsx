@@ -18,6 +18,8 @@ const getPageName = (id: string): string => {
 			return "About";
 		case "search":
 			return "Search";
+		case "feattreespage":
+			return "Feat Trees";
 	}
 	const i = index.indexOf(link);
 	if(i < 0) {

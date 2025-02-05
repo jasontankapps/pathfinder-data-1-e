@@ -52,6 +52,7 @@ setupIonicReact({
 	hardwareBackButton: false
 });
 
+const FeatTreePage = lazy(() => import("./FeatTreePage"));
 const AfflictionPage = lazy(() => import("./pages/AfflictionPage"));
 const ArcanaPage = lazy(() => import("./pages/ArcanaPage"));
 const AspectPage = lazy(() => import("./pages/AspectPage"));
@@ -152,6 +153,7 @@ const App: FC = () => {
 						<Route path="/faith/:id"><FaithPage /></Route>
 						<Route path="/family/:id"><Suspense fallback={<Loading />}><MonsterFamilyPage /></Suspense></Route>
 						<Route path="/feat/:id"><FeatPage /></Route>
+						<Route path="/feattreespage"><Suspense fallback={<Loading />}><FeatTreePage /></Suspense></Route>
 						<Route path="/haunt/:id"><Suspense fallback={<Loading />}><HauntPage /></Suspense></Route>
 						<Route path="/hellknightorder/:id"><Suspense fallback={<Loading />}><HellknightOrderPage /></Suspense></Route>
 						<Route path="/implement/:id"><Suspense fallback={<Loading />}><ImplementPage /></Suspense></Route>

@@ -29,7 +29,7 @@ interface ScrollContainerProps {
 const ScrollContainer: FC<PropsWithChildren<ScrollContainerProps>> = (props) => {
 	const { id, children } = props;
 	const [xPos, yPos] = useAppSelector(state => [state.scroll[`${id}-X`] || 0, state.scroll[`${id}-Y`] || 0]);
-	const tableObj = useRef<any>(null);
+	const tableWrapObj = useRef<any>(null);
 	const dispatch = useAppDispatch();
 	const onScroll: UIEventHandler<HTMLDivElement> = useCallback((event) => {
 		event.stopPropagation();
@@ -39,17 +39,17 @@ const ScrollContainer: FC<PropsWithChildren<ScrollContainerProps>> = (props) => 
 		}, id);
 	}, [id, dispatch]);
 	useEffect(() => {
-		if((xPos || yPos) && tableObj && tableObj.current) {
+		if((xPos || yPos) && tableWrapObj && tableWrapObj.current) {
 			debounce(() => {
 				// Stop this scroll event from triggering other scroll events
 				freezeDebounce(id);
 				// Do the scrolling
-				tableObj.current.scrollTo({top: yPos, left: xPos, behavior: "instant"});
+				tableWrapObj.current.scrollTo({top: yPos, left: xPos, behavior: "instant"});
 			}, "loadingscroll" + id, 100);
 		}
-	}, [tableObj]);
+	}, [tableWrapObj]);
 	return (
-		<div className="tableWrap" onScroll={onScroll} ref={tableObj}>{children}</div>
+		<div className="tableWrap" onScroll={onScroll} ref={tableWrapObj}>{children}</div>
 	);
 };
 
