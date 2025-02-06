@@ -1,0 +1,3232 @@
+[
+	{
+		"prop": "alertness",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "aldori_style",
+				"primary": true,
+				"coparents": [
+					"exotic_weapon_proficiency",
+					"weapon_finesse",
+					"weapon_focus"
+				],
+				"leaves": [
+					{
+						"prop": "aldori_style_aegis",
+						"coparents": [ "combat_reflexes" ],
+						"leaves": [ { "prop": "aldori_style_conquest" } ]
+					}
+				]
+			},
+			{
+				"prop": "garens_discipline",
+				"coparents": [
+					"exotic_weapon_proficiency",
+					"weapon_focus"
+				]
+			},
+			{
+				"prop": "ready_for_anything",
+				"coparents": [
+					"improved_initiative",
+					"lightning_reflexes",
+					"quick_draw"
+				],
+				"leaves": [ { "prop": "cunning_intuition" } ]
+			}
+		]
+	},
+	{
+		"prop": "blind_fight",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "blinded_blade_style",
+				"leaves": [
+					{
+						"prop": "blinded_competence",
+						"leaves": [
+							{
+								"prop": "blinded_master",
+								"coparentsNolink": [ "greater_blind_fight" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "circuitous_shot",
+				"coparents": [ "improved_precise_shot" ]
+			},
+			{
+				"prop": "improved_blind_fight",
+				"leaves": [
+					{
+						"prop": "greater_blind_fight",
+						"leaves": [
+							{
+								"prop": "blinded_master",
+								"coparentsNolink": [ "blinded_competence" ]
+							},
+							{ "prop": "triangulate" }
+						]
+					}
+				]
+			},
+			{
+				"prop": "moonlight_stalker",
+				"primary": true,
+				"coparents": [ "combat_expertise" ],
+				"leaves": [
+					{
+						"prop": "moonlight_stalker_feint",
+						"coparents": [ "improved_feint" ],
+						"leaves": [ { "prop": "moonlight_stalker_master" } ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "catch_off_guard",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "arming_grab",
+				"coparents": [ "improved_disarm" ]
+			},
+			{
+				"prop": "shikigami_style",
+				"coparents": [ "throw_anything" ],
+				"leaves": [
+					{
+						"prop": "shikigami_mimicry",
+						"leaves": [ { "prop": "shikigami_manipulation" } ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "combat_expertise",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "archon_style",
+				"coparents": [ "combat_reflexes" ],
+				"leaves": [
+					{
+						"prop": "archon_diversion",
+						"leaves": [ { "prop": "archon_justice" } ]
+					}
+				]
+			},
+			{
+				"prop": "improved_called_shot",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "signature_strike_style",
+						"coparents": [
+							"precise_shot",
+							"weapon_focus"
+						],
+						"leaves": [
+							{
+								"prop": "signature_strike_taunt",
+								"leaves": [ { "prop": "signature_strike_triumph" } ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "improved_dirty_trick",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "cloak_and_dagger_style",
+						"coparents": [
+							"vital_strike",
+							"weapon_focus"
+						],
+						"leaves": [
+							{
+								"prop": "cloak_and_dagger_subterfuge",
+								"leaves": [ { "prop": "cloak_and_dagger_tactics" } ]
+							}
+						]
+					},
+					{
+						"prop": "greater_dirty_trick",
+						"leaves": [
+							{ "prop": "dirty_trick_master" },
+							{ "prop": "superior_dirty_trick" }
+						]
+					},
+					{
+						"prop": "kitsune_style",
+						"leaves": [
+							{
+								"prop": "kitsune_tricks",
+								"leaves": [ { "prop": "kitsune_vengeance" } ]
+							}
+						]
+					},
+					{
+						"prop": "underhanded_teamwork",
+						"leaves": [ { "prop": "improved_underhanded_teamwork" } ]
+					},
+					{
+						"prop": "dirty_critical_hit",
+						"coparents": [ "critical_focus" ]
+					},
+					{
+						"prop": "dirty_disarm",
+						"coparents": [ "improved_disarm" ]
+					},
+					{
+						"prop": "dirty_grapple",
+						"coparents": [ "improved_grapple" ]
+					}
+				]
+			},
+			{
+				"prop": "improved_disarm",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "arming_grab",
+						"coparents": [ "catch_off_guard" ]
+					},
+					{
+						"prop": "greater_disarm",
+						"leaves": [ { "prop": "directed_disarm" } ]
+					},
+					{
+						"prop": "dirty_disarm",
+						"coparents": [ "improved_dirty_trick" ]
+					},
+					{
+						"prop": "follow_up_strike",
+						"coparents": [ "improved_unarmed_strike" ]
+					},
+					{
+						"prop": "numbing_blow",
+						"coparents": [ "power_attack" ]
+					},
+					{
+						"prop": "wrist_grab",
+						"coparents": [
+							"combat_reflexes",
+							"improved_unarmed_strike"
+						]
+					}
+				]
+			},
+			{
+				"prop": "improved_feint",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "greater_feint",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "incite_paranoia",
+								"coparents": [ "deceitful" ]
+							}
+						]
+					},
+					{
+						"prop": "passing_trick",
+						"coparents": [ "mobility" ]
+					},
+					{
+						"prop": "disengaging_feint",
+						"primary": true,
+						"leaves": [
+							{ "prop": "disengaging_flourish" },
+							{
+								"prop": "disengaging_shot",
+								"coparents": [ "mobility" ]
+							}
+						]
+					},
+					{
+						"prop": "diva_strike",
+						"leaves": [ { "prop": "diva_advance" } ]
+					},
+					{
+						"prop": "illusive_gnome_style",
+						"coparents": [ "gnome_weapon_focus" ],
+						"leaves": [
+							{
+								"prop": "illusive_gnome_surprise",
+								"leaves": [ { "prop": "illusive_gnome_bewilderment" } ]
+							}
+						]
+					},
+					{
+						"prop": "moonlight_stalker_feint",
+						"coparents": [ "moonlight_stalker" ],
+						"leaves": [ { "prop": "moonlight_stalker_master" } ]
+					},
+					{
+						"prop": "swordplay_upset",
+						"coparents": [ "swordplay_style" ],
+						"leaves": [ { "prop": "swordplay_deflection" } ]
+					}
+				]
+			},
+			{
+				"prop": "improved_reposition",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "crashing_wave_style",
+						"coparents": [
+							"improved_drag",
+							"improved_unarmed_strike"
+						],
+						"leaves": [
+							{
+								"prop": "crashing_wave_buffet",
+								"leaves": [ { "prop": "crashing_wave_fist" } ]
+							}
+						]
+					},
+					{
+						"prop": "pummeling_bully",
+						"coparents": [ "improved_trip" ]
+					},
+					{
+						"prop": "whipcrack",
+						"leaves": [ { "prop": "domino_crash" } ]
+					}
+				]
+			},
+			{
+				"prop": "improved_trip",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "cleaving_sweep",
+						"coparents": [
+							"cleave",
+							"weapon_focus"
+						]
+					},
+					{
+						"prop": "cornugon_trip",
+						"coparents": [ "weapon_focus" ]
+					},
+					{
+						"prop": "earth_child_topple",
+						"coparents": [ "earth_child_style" ],
+						"leaves": [
+							{
+								"prop": "earth_child_binder",
+								"coparents": [
+									"greater_trip",
+									"stunning_fist"
+								]
+							}
+						]
+					},
+					{
+						"prop": "furys_fall",
+						"leaves": [ { "prop": "furys_snare" } ]
+					},
+					{
+						"prop": "greater_trip",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "earth_child_binder",
+								"coparents": [
+									"earth_child_topple",
+									"stunning_fist"
+								]
+							}
+						]
+					},
+					{
+						"prop": "hammer_throw",
+						"coparents": [ "precise_shot" ],
+						"leaves": [
+							{
+								"prop": "improved_hammer_throw",
+								"leaves": [ { "prop": "master_hammer_throw" } ]
+							}
+						]
+					},
+					{
+						"prop": "ki_throw",
+						"primary": true,
+						"coparents": [ "improved_unarmed_strike" ],
+						"leaves": [
+							{
+								"prop": "binding_throw",
+								"coparents": [ "improved_grapple" ]
+							},
+							{ "prop": "enhanced_ki_throw" },
+							{
+								"prop": "improved_ki_throw",
+								"coparents": [ "improved_bull_rush" ]
+							},
+							{
+								"prop": "spinning_throw",
+								"coparents": [ "improved_bull_rush" ]
+							}
+						]
+					},
+					{
+						"prop": "pummeling_bully",
+						"coparents": [ "improved_reposition" ]
+					},
+					{
+						"prop": "tangled_limbs",
+						"coparents": [ "weapon_focus" ],
+						"leaves": [ { "prop": "titans_tangle" } ]
+					},
+					{
+						"prop": "tripping_staff",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "thunder_and_fang",
+								"coparents": [ "weapon_specialization" ]
+							},
+							{ "prop": "tripping_twirl" }
+						]
+					},
+					{
+						"prop": "brute_style",
+						"coparents": [
+							"improved_overrun",
+							"vicious_stomp"
+						],
+						"leaves": [
+							{
+								"prop": "brute_stomp",
+								"leaves": [ { "prop": "brute_assault" } ]
+							}
+						]
+					},
+					{
+						"prop": "felling_smash",
+						"coparents": [ "power_attack" ]
+					},
+					{
+						"prop": "octopus_thrash",
+						"coparents": [ "octopus_focus" ]
+					},
+					{
+						"prop": "riptide_attack",
+						"coparents": [ "improved_drag" ]
+					}
+				]
+			},
+			{
+				"prop": "kobold_style",
+				"leaves": [
+					{
+						"prop": "kobold_groundling",
+						"leaves": [ { "prop": "kobold_flood" } ]
+					}
+				]
+			},
+			{
+				"prop": "misdirection_tactics",
+				"coparents": [ "deceitful" ],
+				"leaves": [
+					{
+						"prop": "misdirection_redirection",
+						"leaves": [ { "prop": "misdirection_attack" } ]
+					}
+				]
+			},
+			{
+				"prop": "outslug_style",
+				"coparents": [ "weapon_focus" ],
+				"leaves": [
+					{
+						"prop": "outslug_weave",
+						"leaves": [ { "prop": "outslug_sprint" } ]
+					}
+				]
+			},
+			{
+				"prop": "snoutgrip",
+				"coparents": [
+					"combat_reflexes",
+					"improved_grapple"
+				]
+			},
+			{
+				"prop": "unblinking_flame_feint",
+				"coparents": [ "perfect_style" ],
+				"leaves": [
+					{
+						"prop": "unblinking_flame_fist",
+						"coparents": [ "stunning_fist" ]
+					}
+				]
+			},
+			{
+				"prop": "moonlight_stalker",
+				"coparents": [ "blind_fight" ],
+				"leaves": [
+					{
+						"prop": "moonlight_stalker_feint",
+						"coparents": [ "improved_feint" ],
+						"leaves": [ { "prop": "moonlight_stalker_master" } ]
+					}
+				]
+			},
+			{
+				"prop": "swordplay_style",
+				"primary": true,
+				"coparents": [ "weapon_focus" ],
+				"leaves": [
+					{
+						"prop": "swordplay_upset",
+						"coparents": [ "improved_feint" ],
+						"leaves": [ { "prop": "swordplay_deflection" } ]
+					}
+				]
+			},
+			{
+				"prop": "whirlwind_attack",
+				"coparents": [ "spring_attack" ]
+			}
+		]
+	},
+	{
+		"prop": "combat_reflexes",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "aldori_style_aegis",
+				"coparents": [ "aldori_style" ],
+				"leaves": [ { "prop": "aldori_style_conquest" } ]
+			},
+			{
+				"prop": "archon_style",
+				"coparents": [ "combat_expertise" ],
+				"leaves": [
+					{
+						"prop": "archon_diversion",
+						"leaves": [ { "prop": "archon_justice" } ]
+					}
+				]
+			},
+			{
+				"prop": "combat_patrol",
+				"primary": true,
+				"coparents": [ "mobility" ],
+				"leaves": [
+					{
+						"prop": "vanguard_hustle",
+						"coparents": [ "vanguard_ward" ]
+					}
+				]
+			},
+			{
+				"prop": "panther_style",
+				"coparents": [ "improved_unarmed_strike" ],
+				"leaves": [
+					{
+						"prop": "panther_claw",
+						"leaves": [ { "prop": "panther_parry" } ]
+					}
+				]
+			},
+			{
+				"prop": "snake_fang",
+				"coparents": [ "snake_sidewind" ]
+			},
+			{
+				"prop": "snoutgrip",
+				"coparents": [
+					"combat_expertise",
+					"improved_grapple"
+				]
+			},
+			{
+				"prop": "teleport_tactician",
+				"coparents": [ "spellbreaker" ]
+			},
+			{
+				"prop": "upsetting_strike",
+				"coparents": [ "improved_shield_bash" ],
+				"leaves": [ { "prop": "upsetting_vengeance" } ]
+			},
+			{
+				"prop": "vicious_stomp",
+				"primary": true,
+				"coparents": [ "improved_unarmed_strike" ],
+				"leaves": [
+					{
+						"prop": "brute_style",
+						"coparents": [
+							"improved_overrun",
+							"improved_trip"
+						],
+						"leaves": [
+							{
+								"prop": "brute_stomp",
+								"leaves": [ { "prop": "brute_assault" } ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "bodyguard",
+				"leaves": [
+					{
+						"prop": "vanguard_style",
+						"leaves": [
+							{
+								"prop": "vanguard_ward",
+								"primary": true,
+								"leaves": [
+									{
+										"prop": "vanguard_hustle",
+										"coparents": [ "combat_patrol" ]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "diabolic_style",
+				"coparents": [
+					"improved_unarmed_strike",
+					"weapon_focus"
+				],
+				"leaves": [
+					{
+						"prop": "diabolic_humiliation",
+						"coparents": [ "vital_strike" ],
+						"leaves": [ { "prop": "diabolic_judgement" } ]
+					}
+				]
+			},
+			{
+				"prop": "dimensional_awareness",
+				"coparents": [ "banishing_critical" ],
+				"leaves": [ { "prop": "dimensional_disruption" } ]
+			},
+			{
+				"prop": "indomitable_mountain_style",
+				"coparents": [ "improved_unarmed_strike" ],
+				"leaves": [
+					{
+						"prop": "indomitable_mountain_peak",
+						"leaves": [ { "prop": "indomitable_mountain_avalanche" } ]
+					}
+				]
+			},
+			{
+				"prop": "wrist_grab",
+				"coparents": [
+					"improved_disarm",
+					"improved_unarmed_strike"
+				]
+			}
+		]
+	},
+	{
+		"prop": "deceitful",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "misdirection_tactics",
+				"coparents": [ "combat_expertise" ],
+				"leaves": [
+					{
+						"prop": "misdirection_redirection",
+						"leaves": [ { "prop": "misdirection_attack" } ]
+					}
+				]
+			},
+			{
+				"prop": "incite_paranoia",
+				"coparents": [ "greater_feint" ]
+			}
+		]
+	},
+	{
+		"prop": "dimensional_agility",
+		"leaves": [
+			{
+				"prop": "dimensional_assault",
+				"leaves": [
+					{
+						"prop": "dimensional_dervish",
+						"leaves": [
+							{ "prop": "dimensional_maneuvers" },
+							{ "prop": "dimensional_savant" }
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "disruptive",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "banishing_critical",
+				"primary": true,
+				"coparents": [ "arcane_strike" ],
+				"leaves": [
+					{
+						"prop": "dimensional_awareness",
+						"coparents": [ "combat_reflexes" ],
+						"leaves": [ { "prop": "dimensional_disruption" } ]
+					}
+				]
+			},
+			{
+				"prop": "spellbreaker",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "ray_shield",
+						"coparents": [ "missile_shield" ],
+						"leaves": [ { "prop": "greater_ray_shield" } ]
+					},
+					{
+						"prop": "teleport_tactician",
+						"coparents": [ "combat_reflexes" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "dodge",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "close_quarters_thrower",
+				"coparents": [ "weapon_focus" ],
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "false_opening",
+						"coparents": [ "point_blank_master" ]
+					}
+				]
+			},
+			{
+				"prop": "crane_style",
+				"coparents": [ "improved_unarmed_strike" ],
+				"leaves": [
+					{
+						"prop": "crane_wing",
+						"leaves": [ { "prop": "crane_riposte" } ]
+					}
+				]
+			},
+			{
+				"prop": "mobility",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "anticipate_dodge",
+						"leaves": [ { "prop": "counter_reflexes" } ]
+					},
+					{
+						"prop": "azata_style",
+						"leaves": [
+							{
+								"prop": "azata_mischief",
+								"leaves": [ { "prop": "azata_sprint" } ]
+							}
+						]
+					},
+					{
+						"prop": "charging_stag_style",
+						"coparents": [ "improved_unarmed_strike" ],
+						"leaves": [
+							{
+								"prop": "stag_horns",
+								"leaves": [ { "prop": "stag_submission" } ]
+							}
+						]
+					},
+					{
+						"prop": "combat_patrol",
+						"coparents": [ "combat_reflexes" ],
+						"leaves": [
+							{
+								"prop": "vanguard_hustle",
+								"coparents": [ "vanguard_ward" ]
+							}
+						]
+					},
+					{
+						"prop": "gliding_steps",
+						"coparents": [ "nimble_moves" ]
+					},
+					{
+						"prop": "jabbing_dancer",
+						"coparents": [ "jabbing_style" ],
+						"leaves": [
+							{
+								"prop": "jabbing_master",
+								"coparents": [ "power_attack" ]
+							}
+						]
+					},
+					{
+						"prop": "passing_trick",
+						"coparents": [ "improved_feint" ]
+					},
+					{
+						"prop": "shot_on_the_run",
+						"primary": true,
+						"leaves": [
+							{ "prop": "parting_shot" },
+							{
+								"prop": "spring_heeled_style",
+								"coparents": [ "spring_attack" ]
+							},
+							{ "prop": "bulls_eye" }
+						]
+					},
+					{
+						"prop": "sidestep",
+						"leaves": [
+							{ "prop": "improved_sidestep" },
+							{ "prop": "juke" }
+						]
+					},
+					{
+						"prop": "spring_attack",
+						"primary": true,
+						"leaves": [
+							{ "prop": "circling_mongoose" },
+							{
+								"prop": "improved_spring_attack",
+								"coparents": [ "nimble_moves" ],
+								"leaves": [ { "prop": "greater_spring_attack" } ]
+							},
+							{ "prop": "slaying_sprint" },
+							{
+								"prop": "spring_heeled_style",
+								"coparents": [ "shot_on_the_run" ]
+							},
+							{
+								"prop": "whirlwind_attack",
+								"coparents": [ "combat_expertise" ]
+							}
+						]
+					},
+					{
+						"prop": "underfoot",
+						"leaves": [ { "prop": "tangle_feet" } ]
+					},
+					{
+						"prop": "unfolding_wind_rush",
+						"coparents": [ "unfolding_wind_strike" ]
+					},
+					{
+						"prop": "canny_tumble",
+						"leaves": [ { "prop": "confounding_tumble_deed" } ]
+					},
+					{
+						"prop": "disengaging_shot",
+						"coparents": [ "disengaging_feint" ]
+					},
+					{
+						"prop": "heroic_interposition",
+						"coparents": [ "improved_initiative" ]
+					}
+				]
+			},
+			{
+				"prop": "octopus_style",
+				"coparents": [ "improved_unarmed_strike" ],
+				"leaves": [
+					{
+						"prop": "octopus_focus",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "octopus_thrash",
+								"coparents": [ "improved_trip" ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "endurance",
+		"leaves": [
+			{
+				"prop": "diehard",
+				"leaves": [
+					{
+						"prop": "deathless_initiate",
+						"leaves": [
+							{
+								"prop": "deathless_master",
+								"leaves": [ { "prop": "deathless_zealot" } ]
+							}
+						]
+					},
+					{
+						"prop": "stalwart",
+						"leaves": [ { "prop": "improved_stalwart" } ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "exotic_weapon_proficiency",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "aldori_dueling_disciple",
+				"coparents": [
+					"weapon_finesse",
+					"weapon_focus"
+				],
+				"leaves": [
+					{ "prop": "duelist_of_the_roaring_falls" },
+					{
+						"prop": "duelist_of_the_shrouded_lake",
+						"leaves": [
+							{
+								"prop": "falling_water_gambit",
+								"coparentsNolink": [ "duelist_of_the_roaring_falls" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "aldori_dueling_mastery",
+				"coparents": [
+					"quick_draw",
+					"weapon_finesse",
+					"weapon_focus"
+				]
+			},
+			{
+				"prop": "aldori_style",
+				"coparents": [
+					"alertness",
+					"weapon_finesse",
+					"weapon_focus"
+				],
+				"leaves": [
+					{
+						"prop": "aldori_style_aegis",
+						"coparents": [ "combat_reflexes" ],
+						"leaves": [ { "prop": "aldori_style_conquest" } ]
+					}
+				]
+			},
+			{
+				"prop": "garens_discipline",
+				"coparents": [
+					"alertness",
+					"weapon_focus"
+				]
+			},
+			{
+				"prop": "kyton_style",
+				"leaves": [
+					{
+						"prop": "kyton_shield",
+						"leaves": [ { "prop": "kyton_cut" } ]
+					}
+				]
+			},
+			{
+				"prop": "taldan_duelist",
+				"coparents": [
+					"shield_proficiency",
+					"weapon_focus"
+				]
+			},
+			{
+				"prop": "net_adept",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "net_and_trident",
+						"coparents": [ "two_weapon_fighting" ]
+					},
+					{
+						"prop": "net_maneuvering",
+						"leaves": [ { "prop": "net_trickery" } ]
+					}
+				]
+			},
+			{
+				"prop": "wyvern_fury_style",
+				"leaves": [
+					{
+						"prop": "wyvern_sting",
+						"leaves": [ { "prop": "wyvern_wing" } ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "improved_unarmed_strike",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "asura_style",
+				"leaves": [
+					{
+						"prop": "asura_sight",
+						"leaves": [ { "prop": "asura_spellrend" } ]
+					}
+				]
+			},
+			{
+				"prop": "barracuda_style",
+				"leaves": [
+					{
+						"prop": "barracuda_slam",
+						"leaves": [ { "prop": "barracuda_dash" } ]
+					}
+				]
+			},
+			{
+				"prop": "blood_frenzy_style",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "blood_frenzy_strike",
+						"coparents": [ "power_attack" ],
+						"leaves": [ { "prop": "blood_frenzy_assault" } ]
+					}
+				]
+			},
+			{
+				"prop": "charging_stag_style",
+				"coparents": [ "mobility" ],
+				"leaves": [
+					{
+						"prop": "stag_horns",
+						"leaves": [ { "prop": "stag_submission" } ]
+					}
+				]
+			},
+			{
+				"prop": "crane_style",
+				"coparents": [ "dodge" ],
+				"leaves": [
+					{
+						"prop": "crane_wing",
+						"leaves": [ { "prop": "crane_riposte" } ]
+					}
+				]
+			},
+			{
+				"prop": "crashing_wave_style",
+				"coparents": [
+					"improved_drag",
+					"improved_reposition"
+				],
+				"leaves": [
+					{
+						"prop": "crashing_wave_buffet",
+						"leaves": [ { "prop": "crashing_wave_fist" } ]
+					}
+				]
+			},
+			{
+				"prop": "crushing_impact",
+				"coparents": [ "improved_bull_rush" ],
+				"leaves": [ { "prop": "smashing_impact" } ]
+			},
+			{
+				"prop": "deadhand_style",
+				"leaves": [
+					{
+						"prop": "deadhand_initiate",
+						"leaves": [ { "prop": "deadhand_master" } ]
+					}
+				]
+			},
+			{
+				"prop": "deflect_arrows",
+				"leaves": [
+					{
+						"prop": "snatch_arrows",
+						"leaves": [ { "prop": "throw_back_arrows" } ]
+					}
+				]
+			},
+			{
+				"prop": "dragon_style",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "dragon_roar",
+						"coparents": [ "stunning_fist" ]
+					},
+					{
+						"prop": "dragon_ferocity",
+						"coparents": [ "stunning_fist" ]
+					}
+				]
+			},
+			{
+				"prop": "dragonfly_style",
+				"leaves": [
+					{
+						"prop": "dragonfly_wings",
+						"leaves": [ { "prop": "dragonflight_flight" } ]
+					}
+				]
+			},
+			{
+				"prop": "earth_child_style",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "earth_child_topple",
+						"primary": true,
+						"coparents": [ "improved_trip" ],
+						"leaves": [
+							{
+								"prop": "earth_child_binder",
+								"coparents": [
+									"greater_trip",
+									"stunning_fist"
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "elemental_fist",
+				"leaves": [
+					{
+						"prop": "efreeti_style",
+						"leaves": [
+							{
+								"prop": "efreeti_stance",
+								"leaves": [ { "prop": "efreeti_touch" } ]
+							}
+						]
+					},
+					{
+						"prop": "electric_eel_style",
+						"leaves": [
+							{
+								"prop": "electric_eel_shock",
+								"leaves": [ { "prop": "electric_eel_conduit" } ]
+							}
+						]
+					},
+					{
+						"prop": "marid_style",
+						"leaves": [
+							{
+								"prop": "marid_spirit",
+								"leaves": [ { "prop": "marid_coldsnap" } ]
+							}
+						]
+					},
+					{
+						"prop": "shaitan_style",
+						"leaves": [
+							{
+								"prop": "shaitan_skin",
+								"leaves": [ { "prop": "shaitan_earthblast" } ]
+							}
+						]
+					},
+					{
+						"prop": "djinni_style",
+						"leaves": [
+							{
+								"prop": "djinni_spirit",
+								"leaves": [ { "prop": "djinni_spin" } ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "improved_grapple",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "binding_throw",
+						"coparents": [ "ki_throw" ]
+					},
+					{
+						"prop": "grabbing_style",
+						"leaves": [
+							{
+								"prop": "grabbing_drag",
+								"leaves": [ { "prop": "grabbing_master" } ]
+							}
+						]
+					},
+					{
+						"prop": "greater_grapple",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "kudzu_grappler",
+								"leaves": [
+									{
+										"prop": "kudzu_invasion",
+										"leaves": [ { "prop": "kudzu_takeover" } ]
+									}
+								]
+							},
+							{ "prop": "pinning_knockout" },
+							{ "prop": "pinning_rend" },
+							{ "prop": "rapid_grappler" },
+							{ "prop": "sleeper_hold" },
+							{
+								"prop": "neckbreaker",
+								"coparents": [ "bonebreaker" ]
+							}
+						]
+					},
+					{
+						"prop": "hamatula_strike",
+						"leaves": [ { "prop": "hamatula_grasp" } ]
+					},
+					{
+						"prop": "kraken_style",
+						"leaves": [
+							{ "prop": "kraken_throttle" },
+							{ "prop": "kraken_wrack" }
+						]
+					},
+					{
+						"prop": "piercing_grapple",
+						"coparents": [ "quick_draw" ]
+					},
+					{
+						"prop": "snapping_turtle_clutch",
+						"coparents": [ "snapping_turtle_style" ],
+						"leaves": [ { "prop": "snapping_turtle_shell" } ]
+					},
+					{
+						"prop": "snoutgrip",
+						"coparents": [
+							"combat_expertise",
+							"combat_reflexes"
+						]
+					},
+					{
+						"prop": "tatzlwyrm_claw_style",
+						"leaves": [
+							{
+								"prop": "tatzlwyrm_grappler",
+								"leaves": [ { "prop": "tatzlwyrm_rake" } ]
+							}
+						]
+					},
+					{
+						"prop": "unfair_grip",
+						"coparents": [ "power_attack" ]
+					},
+					{
+						"prop": "bonebreaker",
+						"primary": true,
+						"coparents": [ "jawbreaker" ],
+						"leaves": [
+							{
+								"prop": "neckbreaker",
+								"coparents": [ "greater_grapple" ]
+							}
+						]
+					},
+					{
+						"prop": "bull_catcher_style",
+						"leaves": [
+							{
+								"prop": "bull_catcher_toss",
+								"leaves": [ { "prop": "bull_catcher_wrangler" } ]
+							}
+						]
+					},
+					{
+						"prop": "dirty_grapple",
+						"coparents": [ "improved_dirty_trick" ]
+					},
+					{
+						"prop": "savage_slam",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "dramatic_slam",
+								"coparents": [ "dazzling_display" ]
+							},
+							{ "prop": "overhead_flip" },
+							{ "prop": "savage_leap" }
+						]
+					},
+					{
+						"prop": "stunning_pin",
+						"coparents": [ "stunning_fist" ]
+					}
+				]
+			},
+			{
+				"prop": "jabbing_style",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "jabbing_dancer",
+						"primary": true,
+						"coparents": [ "mobility" ],
+						"leaves": [
+							{
+								"prop": "jabbing_master",
+								"coparents": [ "power_attack" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "janni_style",
+				"leaves": [
+					{
+						"prop": "janni_tempest",
+						"leaves": [ { "prop": "janni_rush" } ]
+					}
+				]
+			},
+			{
+				"prop": "ki_throw",
+				"coparents": [ "improved_trip" ],
+				"leaves": [
+					{
+						"prop": "binding_throw",
+						"coparents": [ "improved_grapple" ]
+					},
+					{ "prop": "enhanced_ki_throw" },
+					{
+						"prop": "improved_ki_throw",
+						"coparents": [ "improved_bull_rush" ]
+					},
+					{
+						"prop": "spinning_throw",
+						"coparents": [ "improved_bull_rush" ]
+					}
+				]
+			},
+			{
+				"prop": "kirin_style",
+				"leaves": [
+					{
+						"prop": "kirin_strike",
+						"leaves": [ { "prop": "kirin_path" } ]
+					}
+				]
+			},
+			{
+				"prop": "linnorm_style",
+				"leaves": [
+					{
+						"prop": "linnorm_vengeance",
+						"leaves": [ { "prop": "linnorm_wrath" } ]
+					}
+				]
+			},
+			{
+				"prop": "panther_style",
+				"coparents": [ "combat_reflexes" ],
+				"leaves": [
+					{
+						"prop": "panther_claw",
+						"leaves": [ { "prop": "panther_parry" } ]
+					}
+				]
+			},
+			{
+				"prop": "psychovore_style",
+				"leaves": [
+					{
+						"prop": "psychovore_strike",
+						"leaves": [ { "prop": "psychovore_master" } ]
+					}
+				]
+			},
+			{
+				"prop": "shark_style",
+				"leaves": [
+					{
+						"prop": "shark_tear",
+						"leaves": [ { "prop": "shark_leap" } ]
+					}
+				]
+			},
+			{
+				"prop": "snake_style",
+				"leaves": [
+					{
+						"prop": "snake_sidewind",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "snake_fang",
+								"coparents": [ "combat_reflexes" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "snapping_turtle_style",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "snapping_turtle_clutch",
+						"coparents": [ "improved_grapple" ],
+						"leaves": [ { "prop": "snapping_turtle_shell" } ]
+					}
+				]
+			},
+			{
+				"prop": "tiger_style",
+				"leaves": [
+					{
+						"prop": "tiger_claws",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "tiger_pounce",
+								"coparents": [ "power_attack" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "vicious_stomp",
+				"coparents": [ "combat_reflexes" ],
+				"leaves": [
+					{
+						"prop": "brute_style",
+						"coparents": [
+							"improved_overrun",
+							"improved_trip"
+						],
+						"leaves": [
+							{
+								"prop": "brute_stomp",
+								"leaves": [ { "prop": "brute_assault" } ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "boar_style",
+				"leaves": [
+					{
+						"prop": "boar_ferocity",
+						"leaves": [ { "prop": "boar_shred" } ]
+					}
+				]
+			},
+			{
+				"prop": "cerberus_style",
+				"coparents": [ "cleave" ],
+				"leaves": [
+					{
+						"prop": "cerberus_snare",
+						"leaves": [
+							{
+								"prop": "cerberus_crush",
+								"coparents": [ "vital_strike" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "diabolic_style",
+				"primary": true,
+				"coparents": [
+					"combat_reflexes",
+					"weapon_focus"
+				],
+				"leaves": [
+					{
+						"prop": "diabolic_humiliation",
+						"coparents": [ "vital_strike" ],
+						"leaves": [ { "prop": "diabolic_judgement" } ]
+					}
+				]
+			},
+			{
+				"prop": "dolphin_style",
+				"leaves": [
+					{
+						"prop": "dolphin_dart",
+						"leaves": [ { "prop": "dolphin_circle" } ]
+					}
+				]
+			},
+			{
+				"prop": "follow_up_strike",
+				"coparents": [ "improved_disarm" ]
+			},
+			{
+				"prop": "indomitable_mountain_style",
+				"coparents": [ "combat_reflexes" ],
+				"leaves": [
+					{
+						"prop": "indomitable_mountain_peak",
+						"leaves": [ { "prop": "indomitable_mountain_avalanche" } ]
+					}
+				]
+			},
+			{
+				"prop": "hurricane_punch",
+				"coparents": [ "improved_bull_rush" ]
+			},
+			{
+				"prop": "monkey_style",
+				"leaves": [
+					{
+						"prop": "monkey_moves",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "monkey_shine",
+								"coparents": [ "stunning_fist" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "nightmare_fist",
+				"leaves": [
+					{
+						"prop": "nightmare_weaver",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "nightmare_striker",
+								"coparents": [ "stunning_fist" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "octopus_style",
+				"coparents": [ "dodge" ],
+				"leaves": [
+					{
+						"prop": "octopus_focus",
+						"leaves": [
+							{
+								"prop": "octopus_thrash",
+								"coparents": [ "improved_trip" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "scorpion_style",
+				"leaves": [
+					{
+						"prop": "gorgons_fist",
+						"leaves": [
+							{
+								"prop": "medusas_wrath",
+								"leaves": [ { "prop": "cockatrice_strike" } ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "street_style",
+				"coparents": [ "improved_bull_rush" ],
+				"leaves": [
+					{
+						"prop": "street_sweep",
+						"leaves": [ { "prop": "street_carnage" } ]
+					}
+				]
+			},
+			{
+				"prop": "stunning_fist",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "dragon_roar",
+						"coparents": [ "dragon_style" ]
+					},
+					{
+						"prop": "earth_child_binder",
+						"coparents": [
+							"earth_child_topple",
+							"greater_trip"
+						]
+					},
+					{
+						"prop": "jawbreaker",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "bonebreaker",
+								"coparents": [ "improved_grapple" ],
+								"leaves": [
+									{
+										"prop": "neckbreaker",
+										"coparents": [ "greater_grapple" ]
+									}
+								]
+							}
+						]
+					},
+					{
+						"prop": "maddening_style",
+						"leaves": [
+							{
+								"prop": "maddening_strike",
+								"leaves": [ { "prop": "maddening_obliteration" } ]
+							}
+						]
+					},
+					{
+						"prop": "mantis_style",
+						"leaves": [
+							{
+								"prop": "mantis_wisdom",
+								"leaves": [ { "prop": "mantis_torment" } ]
+							}
+						]
+					},
+					{
+						"prop": "unblinking_flame_fist",
+						"coparents": [ "unblinking_flame_feint" ]
+					},
+					{
+						"prop": "dragon_ferocity",
+						"coparents": [ "dragon_style" ]
+					},
+					{
+						"prop": "monkey_shine",
+						"coparents": [ "monkey_moves" ]
+					},
+					{
+						"prop": "nightmare_striker",
+						"coparents": [ "nightmare_weaver" ]
+					},
+					{
+						"prop": "stunning_pin",
+						"coparents": [ "improved_grapple" ]
+					}
+				]
+			},
+			{
+				"prop": "wolf_style",
+				"leaves": [
+					{
+						"prop": "wolf_trip",
+						"leaves": [ { "prop": "wolf_savage" } ]
+					}
+				]
+			},
+			{
+				"prop": "wrist_grab",
+				"coparents": [
+					"combat_reflexes",
+					"improved_disarm"
+				]
+			}
+		]
+	},
+	{
+		"prop": "perfect_style",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "unblinking_flame_feint",
+				"primary": true,
+				"coparents": [ "combat_expertise" ],
+				"leaves": [
+					{
+						"prop": "unblinking_flame_fist",
+						"coparents": [ "stunning_fist" ]
+					}
+				]
+			},
+			{
+				"prop": "unfolding_wind_strike",
+				"coparents": [ "quick_draw" ],
+				"leaves": [
+					{
+						"prop": "unfolding_wind_rush",
+						"coparents": [ "mobility" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "point_blank_shot",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "far_shot",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "acute_shot",
+						"coparents": [ "precise_shot" ]
+					},
+					{
+						"prop": "ranged_disable",
+						"coparents": [ "weapon_focus" ]
+					},
+					{
+						"prop": "suppressive_fire",
+						"coparents": [ "precise_shot" ]
+					}
+				]
+			},
+			{
+				"prop": "lantern_style",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "lantern_light",
+						"coparents": [ "precise_shot" ],
+						"leaves": [ { "prop": "lantern_glare" } ]
+					}
+				]
+			},
+			{
+				"prop": "precise_shot",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "acute_shot",
+						"coparents": [ "far_shot" ]
+					},
+					{
+						"prop": "arcing_lob",
+						"coparents": [ "throw_anything" ]
+					},
+					{
+						"prop": "concentrated_splash",
+						"coparents": [ "throw_anything" ]
+					},
+					{
+						"prop": "hammer_throw",
+						"coparents": [ "improved_trip" ],
+						"leaves": [
+							{
+								"prop": "improved_hammer_throw",
+								"leaves": [ { "prop": "master_hammer_throw" } ]
+							}
+						]
+					},
+					{
+						"prop": "improved_precise_shot",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "circuitous_shot",
+								"coparents": [ "blind_fight" ]
+							},
+							{ "prop": "pinpoint_targeting" }
+						]
+					},
+					{
+						"prop": "lantern_light",
+						"coparents": [ "lantern_style" ],
+						"leaves": [ { "prop": "lantern_glare" } ]
+					},
+					{
+						"prop": "overwatch_style",
+						"coparents": [
+							"rapid_shot",
+							"weapon_focus"
+						],
+						"leaves": [
+							{
+								"prop": "overwatch_tactician",
+								"leaves": [ { "prop": "overwatch_vortex" } ]
+							}
+						]
+					},
+					{
+						"prop": "signature_strike_style",
+						"coparents": [
+							"weapon_focus",
+							"improved_called_shot"
+						],
+						"leaves": [
+							{
+								"prop": "signature_strike_taunt",
+								"leaves": [ { "prop": "signature_strike_triumph" } ]
+							}
+						]
+					},
+					{
+						"prop": "thuvian_grenadier",
+						"coparents": [ "throw_anything" ]
+					},
+					{
+						"prop": "warning_shot",
+						"coparents": [ "weapon_focus" ]
+					},
+					{
+						"prop": "suppressive_fire",
+						"coparents": [ "far_shot" ]
+					}
+				]
+			},
+			{
+				"prop": "rapid_shot",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "overwatch_style",
+						"coparents": [
+							"precise_shot",
+							"weapon_focus"
+						],
+						"leaves": [
+							{
+								"prop": "overwatch_tactician",
+								"leaves": [ { "prop": "overwatch_vortex" } ]
+							}
+						]
+					},
+					{
+						"prop": "snap_shot",
+						"primary": true,
+						"coparents": [ "weapon_focus" ],
+						"leaves": [
+							{
+								"prop": "improved_snap_shot",
+								"leaves": [ { "prop": "greater_snap_shot" } ]
+							},
+							{
+								"prop": "sword_and_pistol",
+								"coparents": [ "two_weapon_fighting" ]
+							}
+						]
+					},
+					{
+						"prop": "stabbing_shot",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "empty_quiver_flexibility",
+								"coparents": [ "empty_quiver_style" ],
+								"leaves": [ { "prop": "empty_quiver_flurry" } ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "startoss_style",
+				"coparents": [ "weapon_focus" ],
+				"leaves": [
+					{
+						"prop": "startoss_comet",
+						"leaves": [ { "prop": "startoss_shower" } ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "power_attack",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "blood_frenzy_strike",
+				"coparents": [ "blood_frenzy_style" ],
+				"leaves": [ { "prop": "blood_frenzy_assault" } ]
+			},
+			{
+				"prop": "cleave",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "all_consuming_swing",
+						"coparents": [ "vital_strike" ]
+					},
+					{
+						"prop": "cleaving_finish",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "improved_cleaving_finish",
+								"coparents": [ "great_cleave" ]
+							}
+						]
+					},
+					{
+						"prop": "cleaving_sweep",
+						"coparents": [
+							"improved_trip",
+							"weapon_focus"
+						]
+					},
+					{
+						"prop": "goblin_cleaver",
+						"leaves": [
+							{
+								"prop": "orc_hewer",
+								"leaves": [ { "prop": "giant_killer" } ]
+							}
+						]
+					},
+					{
+						"prop": "great_cleave",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "demonic_slaughter",
+								"coparents": [ "demonic_momentum" ]
+							},
+							{
+								"prop": "improved_cleaving_finish",
+								"coparents": [ "cleaving_finish" ]
+							},
+							{
+								"prop": "improved_surprise_follow_through",
+								"coparents": [ "surprise_follow_through" ]
+							}
+						]
+					},
+					{
+						"prop": "cerberus_style",
+						"coparents": [ "improved_unarmed_strike" ],
+						"leaves": [
+							{
+								"prop": "cerberus_snare",
+								"primary": true,
+								"leaves": [
+									{
+										"prop": "cerberus_crush",
+										"coparents": [ "vital_strike" ]
+									}
+								]
+							}
+						]
+					},
+					{
+						"prop": "surprise_follow_through",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "improved_surprise_follow_through",
+								"coparents": [ "great_cleave" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "demonic_style",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "demonic_momentum",
+						"primary": true,
+						"coparents": [ "improved_bull_rush" ],
+						"leaves": [
+							{
+								"prop": "demonic_slaughter",
+								"coparents": [ "great_cleave" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "improved_bull_rush",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "awesome_blow",
+						"leaves": [
+							{ "prop": "awesome_charge" },
+							{ "prop": "greater_awesome_blow" },
+							{ "prop": "improved_awesome_blow" }
+						]
+					},
+					{
+						"prop": "awesome_throw",
+						"coparents": [ "throw_anything" ],
+						"leaves": [
+							{
+								"prop": "improved_awesome_throw",
+								"coparents": [ "greater_bull_rush" ]
+							}
+						]
+					},
+					{
+						"prop": "crushing_impact",
+						"coparents": [ "improved_unarmed_strike" ],
+						"leaves": [ { "prop": "smashing_impact" } ]
+					},
+					{
+						"prop": "demonic_momentum",
+						"coparents": [ "demonic_style" ],
+						"leaves": [
+							{
+								"prop": "demonic_slaughter",
+								"coparents": [ "great_cleave" ]
+							}
+						]
+					},
+					{
+						"prop": "greater_bull_rush",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "improved_awesome_throw",
+								"coparents": [ "awesome_throw" ]
+							}
+						]
+					},
+					{
+						"prop": "improved_ki_throw",
+						"coparents": [ "ki_throw" ]
+					},
+					{
+						"prop": "merciless_rush",
+						"leaves": [ { "prop": "squash_flat" } ]
+					},
+					{
+						"prop": "spinning_throw",
+						"coparents": [ "ki_throw" ]
+					},
+					{
+						"prop": "forceful_charge",
+						"leaves": [ { "prop": "improved_forceful_charge" } ]
+					},
+					{
+						"prop": "hurricane_punch",
+						"coparents": [ "improved_unarmed_strike" ]
+					},
+					{
+						"prop": "street_style",
+						"coparents": [ "improved_unarmed_strike" ],
+						"leaves": [
+							{
+								"prop": "street_sweep",
+								"leaves": [ { "prop": "street_carnage" } ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "improved_drag",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "crashing_wave_style",
+						"coparents": [
+							"improved_reposition",
+							"improved_unarmed_strike"
+						],
+						"leaves": [
+							{
+								"prop": "crashing_wave_buffet",
+								"leaves": [ { "prop": "crashing_wave_fist" } ]
+							}
+						]
+					},
+					{
+						"prop": "riptide_attack",
+						"coparents": [ "improved_trip" ]
+					}
+				]
+			},
+			{
+				"prop": "improved_overrun",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "brute_style",
+						"coparents": [
+							"improved_trip",
+							"vicious_stomp"
+						],
+						"leaves": [
+							{
+								"prop": "brute_stomp",
+								"leaves": [ { "prop": "brute_assault" } ]
+							}
+						]
+					},
+					{
+						"prop": "bulette_charge_style",
+						"leaves": [
+							{
+								"prop": "bulette_leap",
+								"leaves": [ { "prop": "bulette_rampage" } ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "improved_sunder",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "gate_breaker",
+						"leaves": [ { "prop": "relic_breaker" } ]
+					},
+					{
+						"prop": "smashing_style",
+						"coparents": [ "weapon_focus" ],
+						"leaves": [
+							{
+								"prop": "smashing_crush",
+								"leaves": [ { "prop": "smashing_dent" } ]
+							}
+						]
+					},
+					{
+						"prop": "sabotaging_sunder",
+						"leaves": [ { "prop": "improved_sabotaging_sunder" } ]
+					}
+				]
+			},
+			{
+				"prop": "jabbing_master",
+				"coparents": [ "jabbing_dancer" ]
+			},
+			{
+				"prop": "tiger_pounce",
+				"coparents": [ "tiger_claws" ]
+			},
+			{
+				"prop": "uncivilized_tactics",
+				"leaves": [
+					{
+						"prop": "improved_uncivilized_tactics",
+						"leaves": [ { "prop": "greater_uncivilized_tactics" } ]
+					}
+				]
+			},
+			{
+				"prop": "unfair_grip",
+				"coparents": [ "improved_grapple" ]
+			},
+			{
+				"prop": "felling_smash",
+				"coparents": [ "improved_trip" ]
+			},
+			{
+				"prop": "numbing_blow",
+				"coparents": [ "improved_disarm" ]
+			}
+		]
+	},
+	{
+		"prop": "quick_draw",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "aldori_dueling_mastery",
+				"coparents": [
+					"exotic_weapon_proficiency",
+					"weapon_finesse",
+					"weapon_focus"
+				]
+			},
+			{
+				"prop": "piercing_grapple",
+				"coparents": [ "improved_grapple" ]
+			},
+			{
+				"prop": "ready_for_anything",
+				"coparents": [
+					"alertness",
+					"improved_initiative",
+					"lightning_reflexes"
+				],
+				"leaves": [ { "prop": "cunning_intuition" } ]
+			},
+			{
+				"prop": "slipslinger_bombardment",
+				"coparents": [ "slipslinger_grenadier" ]
+			},
+			{
+				"prop": "twin_fang_style",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "twin_fang_strike",
+						"coparents": [ "two_weapon_fighting" ],
+						"leaves": [ { "prop": "twin_fang_lunge" } ]
+					}
+				]
+			},
+			{
+				"prop": "unfolding_wind_strike",
+				"primary": true,
+				"coparents": [ "perfect_style" ],
+				"leaves": [
+					{
+						"prop": "unfolding_wind_rush",
+						"coparents": [ "mobility" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "shield_proficiency",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "improved_shield_bash",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "shield_slam",
+						"leaves": [
+							{
+								"prop": "shield_master",
+								"leaves": [ { "prop": "bashing_finish" } ]
+							}
+						]
+					},
+					{
+						"prop": "upsetting_strike",
+						"coparents": [ "combat_reflexes" ],
+						"leaves": [ { "prop": "upsetting_vengeance" } ]
+					},
+					{
+						"prop": "stumbling_bash",
+						"coparents": [ "shield_focus" ],
+						"leaves": [ { "prop": "toppling_bash" } ]
+					}
+				]
+			},
+			{
+				"prop": "shield_focus",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "greater_shield_focus",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "greater_shield_specialization",
+								"coparents": [ "shield_specialization" ]
+							}
+						]
+					},
+					{
+						"prop": "missile_shield",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "ray_shield",
+								"coparents": [ "spellbreaker" ],
+								"leaves": [ { "prop": "greater_ray_shield" } ]
+							}
+						]
+					},
+					{
+						"prop": "mobile_bulwark_style",
+						"coparents": [ "tower_shield_proficiency" ],
+						"leaves": [
+							{
+								"prop": "mobile_fortress",
+								"leaves": [ { "prop": "mobile_stronghold" } ]
+							}
+						]
+					},
+					{
+						"prop": "shield_material_expertise",
+						"leaves": [ { "prop": "shield_material_mastery" } ]
+					},
+					{
+						"prop": "shield_specialization",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "greater_shield_specialization",
+								"coparents": [ "greater_shield_focus" ]
+							}
+						]
+					},
+					{
+						"prop": "sisterhood_style",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "sisterhood_rampart",
+								"coparents": [ "shield_wall" ],
+								"leaves": [ { "prop": "sisterhood_dedication" } ]
+							}
+						]
+					},
+					{
+						"prop": "tower_shield_specialist",
+						"coparents": [ "tower_shield_proficiency" ]
+					},
+					{
+						"prop": "stumbling_bash",
+						"coparents": [ "improved_shield_bash" ],
+						"leaves": [ { "prop": "toppling_bash" } ]
+					}
+				]
+			},
+			{
+				"prop": "shield_wall",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "sisterhood_rampart",
+						"coparents": [ "sisterhood_style" ],
+						"leaves": [ { "prop": "sisterhood_dedication" } ]
+					}
+				]
+			},
+			{
+				"prop": "taldan_duelist",
+				"coparents": [
+					"exotic_weapon_proficiency",
+					"weapon_focus"
+				]
+			},
+			{
+				"prop": "tower_shield_proficiency",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "mobile_bulwark_style",
+						"coparents": [ "shield_focus" ],
+						"leaves": [
+							{
+								"prop": "mobile_fortress",
+								"leaves": [ { "prop": "mobile_stronghold" } ]
+							}
+						]
+					},
+					{
+						"prop": "tower_shield_specialist",
+						"coparents": [ "shield_focus" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "skill_focus",
+		"leaves": [
+			{
+				"prop": "eldritch_heritage",
+				"leaves": [
+					{
+						"prop": "improved_eldritch_heritage",
+						"leaves": [ { "prop": "greater_eldritch_heritage" } ]
+					}
+				]
+			},
+			{
+				"prop": "owl_style",
+				"leaves": [
+					{
+						"prop": "owl_swoop",
+						"leaves": [ { "prop": "owl_dive" } ]
+					}
+				]
+			},
+			{
+				"prop": "powerful_wings",
+				"leaves": [
+					{
+						"prop": "snatch_and_drop",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "fling",
+								"coparents": [ "throw_anything" ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "step_up",
+		"leaves": [
+			{
+				"prop": "skyseeker_style",
+				"leaves": [
+					{
+						"prop": "skyseeker_thrash",
+						"leaves": [ { "prop": "skyseeker_impact" } ]
+					}
+				]
+			},
+			{
+				"prop": "following_step",
+				"leaves": [
+					{
+						"prop": "step_up_and_strike",
+						"leaves": [ { "prop": "heavens_step" } ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "throw_anything",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "arcing_lob",
+				"coparents": [ "precise_shot" ]
+			},
+			{
+				"prop": "awesome_throw",
+				"coparents": [ "improved_bull_rush" ],
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "improved_awesome_throw",
+						"coparents": [ "greater_bull_rush" ]
+					}
+				]
+			},
+			{
+				"prop": "concentrated_splash",
+				"coparents": [ "precise_shot" ]
+			},
+			{
+				"prop": "shikigami_style",
+				"coparents": [ "catch_off_guard" ],
+				"leaves": [
+					{
+						"prop": "shikigami_mimicry",
+						"leaves": [ { "prop": "shikigami_manipulation" } ]
+					}
+				]
+			},
+			{
+				"prop": "slipslinger_grenadier",
+				"coparents": [ "slipslinger_style" ],
+				"leaves": [
+					{
+						"prop": "slipslinger_bombardment",
+						"coparents": [ "quick_draw" ]
+					}
+				]
+			},
+			{
+				"prop": "thuvian_grenadier",
+				"coparents": [ "precise_shot" ]
+			},
+			{
+				"prop": "fling",
+				"coparents": [ "snatch_and_drop" ]
+			}
+		]
+	},
+	{
+		"prop": "two_weapon_fighting",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "improved_two_weapon_fighting",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "shielded_staff_master",
+						"coparents": [ "shielded_staff_style" ]
+					},
+					{
+						"prop": "twin_thunders_flurry",
+						"coparents": [ "twin_thunders" ],
+						"leaves": [ { "prop": "twin_thunders_master" } ]
+					}
+				]
+			},
+			{
+				"prop": "shielded_staff_style",
+				"primary": true,
+				"coparents": [ "weapon_focus" ],
+				"leaves": [
+					{ "prop": "shielded_staff_ambush" },
+					{
+						"prop": "shielded_staff_master",
+						"coparents": [ "improved_two_weapon_fighting" ]
+					}
+				]
+			},
+			{
+				"prop": "spear_dancing_style",
+				"primary": true,
+				"coparents": [ "weapon_focus" ],
+				"leaves": [
+					{
+						"prop": "spear_dancing_spiral",
+						"coparents": [ "weapon_finesse" ],
+						"leaves": [ { "prop": "spear_dancing_reach" } ]
+					}
+				]
+			},
+			{
+				"prop": "twin_fang_strike",
+				"coparents": [ "twin_fang_style" ],
+				"leaves": [ { "prop": "twin_fang_lunge" } ]
+			},
+			{
+				"prop": "twin_thunders",
+				"primary": true,
+				"coparents": [ "weapon_focus" ],
+				"leaves": [
+					{
+						"prop": "twin_thunders_flurry",
+						"coparents": [ "improved_two_weapon_fighting" ],
+						"leaves": [ { "prop": "twin_thunders_master" } ]
+					}
+				]
+			},
+			{
+				"prop": "two_weapon_grace",
+				"coparents": [ "slashing_grace" ]
+			},
+			{
+				"prop": "net_and_trident",
+				"coparents": [ "net_adept" ]
+			},
+			{
+				"prop": "sword_and_pistol",
+				"coparents": [ "snap_shot" ]
+			}
+		]
+	},
+	{
+		"prop": "vital_strike",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "all_consuming_swing",
+				"coparents": [ "cleave" ]
+			},
+			{
+				"prop": "cloak_and_dagger_style",
+				"coparents": [
+					"improved_dirty_trick",
+					"weapon_focus"
+				],
+				"leaves": [
+					{
+						"prop": "cloak_and_dagger_subterfuge",
+						"leaves": [ { "prop": "cloak_and_dagger_tactics" } ]
+					}
+				]
+			},
+			{
+				"prop": "cerberus_crush",
+				"coparents": [ "cerberus_snare" ]
+			},
+			{
+				"prop": "diabolic_humiliation",
+				"coparents": [ "diabolic_style" ],
+				"leaves": [ { "prop": "diabolic_judgement" } ]
+			}
+		]
+	},
+	{
+		"prop": "weapon_finesse",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "aldori_dueling_disciple",
+				"coparents": [
+					"exotic_weapon_proficiency",
+					"weapon_focus"
+				],
+				"leaves": [
+					{ "prop": "duelist_of_the_roaring_falls" },
+					{
+						"prop": "duelist_of_the_shrouded_lake",
+						"leaves": [
+							{
+								"prop": "falling_water_gambit",
+								"coparentsNolink": [ "duelist_of_the_roaring_falls" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "aldori_dueling_mastery",
+				"coparents": [
+					"exotic_weapon_proficiency",
+					"quick_draw",
+					"weapon_focus"
+				]
+			},
+			{
+				"prop": "aldori_style",
+				"coparents": [
+					"alertness",
+					"exotic_weapon_proficiency",
+					"weapon_focus"
+				],
+				"leaves": [
+					{
+						"prop": "aldori_style_aegis",
+						"coparents": [ "combat_reflexes" ],
+						"leaves": [ { "prop": "aldori_style_conquest" } ]
+					}
+				]
+			},
+			{
+				"prop": "elven_battle_style",
+				"coparents": [ "elven_battle_training" ],
+				"leaves": [
+					{
+						"prop": "elven_battle_focus",
+						"leaves": [ { "prop": "elven_battle_torrent" } ]
+					}
+				]
+			},
+			{
+				"prop": "slashing_grace",
+				"primary": true,
+				"coparents": [ "weapon_focus" ],
+				"leaves": [
+					{
+						"prop": "two_weapon_grace",
+						"coparents": [ "two_weapon_fighting" ]
+					}
+				]
+			},
+			{
+				"prop": "spear_dancing_spiral",
+				"coparents": [ "spear_dancing_style" ],
+				"leaves": [ { "prop": "spear_dancing_reach" } ]
+			}
+		]
+	},
+	{
+		"prop": "weapon_focus",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "aldori_dueling_disciple",
+				"coparents": [
+					"exotic_weapon_proficiency",
+					"weapon_finesse"
+				],
+				"leaves": [
+					{ "prop": "duelist_of_the_roaring_falls" },
+					{
+						"prop": "duelist_of_the_shrouded_lake",
+						"leaves": [
+							{
+								"prop": "falling_water_gambit",
+								"coparentsNolink": [ "duelist_of_the_roaring_falls" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "aldori_dueling_mastery",
+				"coparents": [
+					"exotic_weapon_proficiency",
+					"quick_draw",
+					"weapon_finesse"
+				]
+			},
+			{
+				"prop": "aldori_style",
+				"coparents": [
+					"alertness",
+					"exotic_weapon_proficiency",
+					"weapon_finesse"
+				],
+				"leaves": [
+					{
+						"prop": "aldori_style_aegis",
+						"coparents": [ "combat_reflexes" ],
+						"leaves": [ { "prop": "aldori_style_conquest" } ]
+					}
+				]
+			},
+			{
+				"prop": "ascetic_style",
+				"leaves": [
+					{
+						"prop": "ascetic_form",
+						"leaves": [ { "prop": "ascetic_strike" } ]
+					}
+				]
+			},
+			{
+				"prop": "cleaving_sweep",
+				"coparents": [
+					"cleave",
+					"improved_trip"
+				]
+			},
+			{
+				"prop": "cloak_and_dagger_style",
+				"coparents": [
+					"improved_dirty_trick",
+					"vital_strike"
+				],
+				"leaves": [
+					{
+						"prop": "cloak_and_dagger_subterfuge",
+						"leaves": [ { "prop": "cloak_and_dagger_tactics" } ]
+					}
+				]
+			},
+			{
+				"prop": "close_quarters_thrower",
+				"coparents": [ "dodge" ],
+				"leaves": [
+					{
+						"prop": "false_opening",
+						"coparents": [ "point_blank_master" ]
+					}
+				]
+			},
+			{
+				"prop": "cornugon_trip",
+				"coparents": [ "improved_trip" ]
+			},
+			{
+				"prop": "dazzling_display",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "dramatic_slam",
+						"coparents": [ "savage_slam" ]
+					},
+					{
+						"prop": "performing_combatant",
+						"leaves": [ { "prop": "master_combat_performer" } ]
+					},
+					{
+						"prop": "shatter_defenses",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "deadly_stroke",
+								"coparents": [ "greater_weapon_focus" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "empty_quiver_style",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "empty_quiver_flexibility",
+						"coparents": [ "stabbing_shot" ],
+						"leaves": [ { "prop": "empty_quiver_flurry" } ]
+					}
+				]
+			},
+			{
+				"prop": "garens_discipline",
+				"coparents": [
+					"alertness",
+					"exotic_weapon_proficiency"
+				]
+			},
+			{
+				"prop": "greater_weapon_focus",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "deadly_stroke",
+						"coparents": [ "shatter_defenses" ]
+					},
+					{
+						"prop": "greater_weapon_specialization",
+						"coparents": [ "weapon_specialization" ]
+					}
+				]
+			},
+			{
+				"prop": "outslug_style",
+				"coparents": [ "combat_expertise" ],
+				"leaves": [
+					{
+						"prop": "outslug_weave",
+						"leaves": [ { "prop": "outslug_sprint" } ]
+					}
+				]
+			},
+			{
+				"prop": "overwatch_style",
+				"coparents": [
+					"precise_shot",
+					"rapid_shot"
+				],
+				"leaves": [
+					{
+						"prop": "overwatch_tactician",
+						"leaves": [ { "prop": "overwatch_vortex" } ]
+					}
+				]
+			},
+			{
+				"prop": "ranged_disable",
+				"coparents": [ "far_shot" ]
+			},
+			{
+				"prop": "shield_gauntlet_style",
+				"leaves": [
+					{
+						"prop": "shielded_gauntlet_attack",
+						"leaves": [ { "prop": "shielded_gauntlet_master" } ]
+					}
+				]
+			},
+			{
+				"prop": "shielded_staff_style",
+				"coparents": [ "two_weapon_fighting" ],
+				"leaves": [
+					{ "prop": "shielded_staff_ambush" },
+					{
+						"prop": "shielded_staff_master",
+						"coparents": [ "improved_two_weapon_fighting" ]
+					}
+				]
+			},
+			{
+				"prop": "signature_strike_style",
+				"coparents": [
+					"precise_shot",
+					"improved_called_shot"
+				],
+				"leaves": [
+					{
+						"prop": "signature_strike_taunt",
+						"leaves": [ { "prop": "signature_strike_triumph" } ]
+					}
+				]
+			},
+			{
+				"prop": "slashing_grace",
+				"coparents": [ "weapon_finesse" ],
+				"leaves": [
+					{
+						"prop": "two_weapon_grace",
+						"coparents": [ "two_weapon_fighting" ]
+					}
+				]
+			},
+			{
+				"prop": "slipslinger_style",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "slipslinger_grenadier",
+						"primary": true,
+						"coparents": [ "throw_anything" ],
+						"leaves": [
+							{
+								"prop": "slipslinger_bombardment",
+								"coparents": [ "quick_draw" ]
+							}
+						]
+					}
+				]
+			},
+			{
+				"prop": "smashing_style",
+				"coparents": [ "improved_sunder" ],
+				"leaves": [
+					{
+						"prop": "smashing_crush",
+						"leaves": [ { "prop": "smashing_dent" } ]
+					}
+				]
+			},
+			{
+				"prop": "snap_shot",
+				"coparents": [ "rapid_shot" ],
+				"leaves": [
+					{
+						"prop": "improved_snap_shot",
+						"leaves": [ { "prop": "greater_snap_shot" } ]
+					},
+					{
+						"prop": "sword_and_pistol",
+						"coparents": [ "two_weapon_fighting" ]
+					}
+				]
+			},
+			{
+				"prop": "spear_dancing_style",
+				"coparents": [ "two_weapon_fighting" ],
+				"leaves": [
+					{
+						"prop": "spear_dancing_spiral",
+						"coparents": [ "weapon_finesse" ],
+						"leaves": [ { "prop": "spear_dancing_reach" } ]
+					}
+				]
+			},
+			{
+				"prop": "startoss_style",
+				"coparents": [ "point_blank_shot" ],
+				"leaves": [
+					{
+						"prop": "startoss_comet",
+						"leaves": [ { "prop": "startoss_shower" } ]
+					}
+				]
+			},
+			{
+				"prop": "taldan_duelist",
+				"coparents": [
+					"exotic_weapon_proficiency",
+					"shield_proficiency"
+				]
+			},
+			{
+				"prop": "tangled_limbs",
+				"coparents": [ "improved_trip" ],
+				"leaves": [ { "prop": "titans_tangle" } ]
+			},
+			{
+				"prop": "twin_thunders",
+				"coparents": [ "two_weapon_fighting" ],
+				"leaves": [
+					{
+						"prop": "twin_thunders_flurry",
+						"coparents": [ "improved_two_weapon_fighting" ],
+						"leaves": [ { "prop": "twin_thunders_master" } ]
+					}
+				]
+			},
+			{
+				"prop": "warning_shot",
+				"coparents": [ "precise_shot" ]
+			},
+			{
+				"prop": "diabolic_style",
+				"coparents": [
+					"combat_reflexes",
+					"improved_unarmed_strike"
+				],
+				"leaves": [
+					{
+						"prop": "diabolic_humiliation",
+						"coparents": [ "vital_strike" ],
+						"leaves": [ { "prop": "diabolic_judgement" } ]
+					}
+				]
+			},
+			{
+				"prop": "swordplay_style",
+				"coparents": [ "combat_expertise" ],
+				"leaves": [
+					{
+						"prop": "swordplay_upset",
+						"coparents": [ "improved_feint" ],
+						"leaves": [ { "prop": "swordplay_deflection" } ]
+					}
+				]
+			},
+			{
+				"prop": "weapon_of_the_chosen",
+				"leaves": [
+					{
+						"prop": "improved_weapon_of_the_chosen",
+						"leaves": [ { "prop": "greater_weapon_of_the_chosen" } ]
+					}
+				]
+			},
+			{
+				"prop": "weapon_specialization",
+				"primary": true,
+				"leaves": [
+					{
+						"prop": "greater_weapon_specialization",
+						"coparents": [ "greater_weapon_focus" ]
+					},
+					{
+						"prop": "point_blank_master",
+						"primary": true,
+						"leaves": [
+							{
+								"prop": "false_opening",
+								"coparents": [ "close_quarters_thrower" ]
+							}
+						]
+					},
+					{
+						"prop": "thunder_and_fang",
+						"coparents": [ "tripping_staff" ]
+					},
+					{
+						"prop": "impaling_critical",
+						"coparents": [ "critical_focus" ],
+						"leaves": [ { "prop": "improved_impaling_critical" } ]
+					}
+				]
+			},
+			{
+				"prop": "whip_mastery",
+				"leaves": [
+					{
+						"prop": "balor_whip",
+						"leaves": [
+							{
+								"prop": "improved_balor_whip",
+								"leaves": [ { "prop": "greater_balor_whip" } ]
+							}
+						]
+					},
+					{
+						"prop": "improved_whip_mastery",
+						"leaves": [ { "prop": "greater_whip_mastery" } ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "great_fortitude",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "marked_for_glory",
+				"coparents": [
+					"iron_will",
+					"lightning_reflexes"
+				]
+			},
+			{
+				"prop": "spell_drinker",
+				"coparents": [
+					"iron_will",
+					"lightning_reflexes"
+				]
+			},
+			{
+				"prop": "bolster_jinx",
+				"coparents": [
+					"iron_will",
+					"lightning_reflexes"
+				]
+			}
+		]
+	},
+	{
+		"prop": "iron_will",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "improved_iron_will",
+				"leaves": [
+					{
+						"prop": "clarity_of_pain",
+						"leaves": [ { "prop": "exorcising_mutilation" } ]
+					}
+				]
+			},
+			{
+				"prop": "marked_for_glory",
+				"coparents": [
+					"great_fortitude",
+					"lightning_reflexes"
+				]
+			},
+			{
+				"prop": "spell_drinker",
+				"coparents": [
+					"great_fortitude",
+					"lightning_reflexes"
+				]
+			},
+			{
+				"prop": "bolster_jinx",
+				"coparents": [
+					"great_fortitude",
+					"lightning_reflexes"
+				]
+			}
+		]
+	},
+	{
+		"prop": "lightning_reflexes",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "marked_for_glory",
+				"coparents": [
+					"great_fortitude",
+					"iron_will"
+				]
+			},
+			{
+				"prop": "ready_for_anything",
+				"coparents": [
+					"alertness",
+					"improved_initiative",
+					"quick_draw"
+				],
+				"leaves": [ { "prop": "cunning_intuition" } ]
+			},
+			{
+				"prop": "spell_drinker",
+				"coparents": [
+					"great_fortitude",
+					"iron_will"
+				]
+			},
+			{
+				"prop": "bolster_jinx",
+				"coparents": [
+					"great_fortitude",
+					"iron_will"
+				]
+			}
+		]
+	},
+	{
+		"prop": "arcane_strike",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "banishing_critical",
+				"coparents": [ "disruptive" ],
+				"leaves": [
+					{
+						"prop": "dimensional_awareness",
+						"coparents": [ "combat_reflexes" ],
+						"leaves": [ { "prop": "dimensional_disruption" } ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "critical_focus",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "dirty_critical_hit",
+				"coparents": [ "improved_dirty_trick" ]
+			},
+			{
+				"prop": "impaling_critical",
+				"coparents": [ "weapon_specialization" ],
+				"leaves": [ { "prop": "improved_impaling_critical" } ]
+			}
+		]
+	},
+	{
+		"prop": "elven_battle_training",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "elven_battle_style",
+				"coparents": [ "weapon_finesse" ],
+				"leaves": [
+					{
+						"prop": "elven_battle_focus",
+						"leaves": [ { "prop": "elven_battle_torrent" } ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "gnome_weapon_focus",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "illusive_gnome_style",
+				"coparents": [ "improved_feint" ],
+				"leaves": [
+					{
+						"prop": "illusive_gnome_surprise",
+						"leaves": [ { "prop": "illusive_gnome_bewilderment" } ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prop": "improved_initiative",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "ready_for_anything",
+				"coparents": [
+					"alertness",
+					"lightning_reflexes",
+					"quick_draw"
+				],
+				"leaves": [ { "prop": "cunning_intuition" } ]
+			},
+			{
+				"prop": "heroic_interposition",
+				"coparents": [ "mobility" ]
+			}
+		]
+	},
+	{
+		"prop": "nimble_moves",
+		"primary": true,
+		"leaves": [
+			{
+				"prop": "gliding_steps",
+				"coparents": [ "mobility" ]
+			},
+			{
+				"prop": "improved_spring_attack",
+				"coparents": [ "spring_attack" ],
+				"leaves": [ { "prop": "greater_spring_attack" } ]
+			}
+		]
+	}
+]

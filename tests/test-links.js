@@ -1,5 +1,6 @@
 import { basic_data_by_link } from '../basic_data_groups.js';
 import checkForEncodedLink from './checkForEncodedLink.js';
+import featTreeData from '../json/feat_tree_data.json' assert {type: 'json'};
 
 const {
 	source: allsources,
@@ -224,6 +225,19 @@ all.forEach(([link, object]) => {
 //    known_props.race.ratfolk = true
 //    known_props.race.rat = undefined
 
+const parseTree = (tree) => {
+	const feats = known_props.feat;
+	const found = new Set();
+	tree.forEach(leaf => {
+		const {prop, coparents = [], coparentsNolink = [], leaves = []} = leaf;
+		if(!feats[prop]) {
+			found.add(prop);
+		}
+		coparents.concat(coparentsNolink).forEach(p => (!feats[p] && found.add(p)));
+		parseTree(leaves).forEach(l => found.add(l));
+	});
+	return [...found];
+};
 
 const testLinks = () => {
 	const msg = [ "\n...beginning link validation tests\n" ];
@@ -345,6 +359,11 @@ const testLinks = () => {
 		(invalid.length > 0) && msg.push(`\tInvalid links in ${link} files:`, ...invalid.map(x => `\t\t${x}`));
 		msg.length > 1 && (found = true);
 	});
+	const bad = parseTree(featTreeData);
+	if(bad.length > 0) {
+		found = true;
+		msg.push(`\tInvalid links in feat_tree_data.json:`, ...bad.map(x => `\t\t${x}`));
+	}
 	return [found, "valid links", [...msg, "", "-- Done.\n\n"]];
 }
 

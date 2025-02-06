@@ -5,6 +5,9 @@ import { gfmHeadingId } from "marked-gfm-heading-id";
 import { createDirectives } from 'marked-directive';
 import basic_data_groups from './basic_data_groups.js';
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
+import featTreeData from './json/feat_tree_data.json' assert {type: 'json'};
+import featLinks from './src/json/_data__linked-index.json' assert {type: 'json'};
+import featNames from './src/json/_data__fuse-index.json' assert {type: 'json'};
 
 const alternateBlocks = {
 	level: "block",
@@ -408,7 +411,69 @@ const entities_in_tables = [
 ];
 
 // DO THE THINGS
-//   Create all files, including ___link.tsx files.
+const getFeatName = (prop) => {
+	const index = featLinks.indexOf("feat/" + prop);
+	return index < 0 ? false : featNames[index].name;
+};
+const parseFeatTree = (tree, ids = []) => {
+	const anchor = "featTreePageAnchor-";
+	const output = [];
+	tree.forEach(branch => {
+		const { prop, coparents, coparentsNolink, primary, leaves } = branch;
+		const link = "feat/" + prop;
+		const title = getFeatName(prop);
+		if(!title) {
+			return output.push(`<div><strong>ERROR</strong> trying to find "${prop}".</div>`);
+		}
+		const id = primary ? (anchor + prop) : undefined;
+		const hasCoparents = coparents || coparentsNolink;
+		output.push(
+			`<div className="leaf${(hasCoparents ? " hasCoparents" : "")}"${id ? ` id="${id}"` : ""}>`,
+			`<div className="leafName">${ids.length === 0 ? "" : String.fromCharCode(10551) + " "}`,
+			`<Link to="/${link}">${title}</Link></div>`
+		);
+//		id && output.push(`<div id="${"dummy-" + id}"></div>`);
+		if(hasCoparents) {
+			output.push(
+				`<div className="coparents"><strong>Also requires:</strong> `,
+				(coparents || []).map(cp => {
+					const title = getFeatName(cp);
+					if(!title) { return `<strong>ERROR</strong> trying to find "${cp}".` }
+					const id = ids.join("-") + `-${prop}-coparent-${cp}`;
+					return `<span className="coparent" id="${id}"><InnerLink mid to="${anchor + cp}">${title}</InnerLink></span>`;
+				}).join(", "),
+				(coparentsNolink || []).map(cp => {
+					const title = getFeatName(cp);
+					if(!title) { return `<strong>ERROR</strong> trying to find "${cp}".` }
+					return `<span className="coparent">${title}</span>`;
+				}).join(", "),
+				"</div>"
+			);
+		} else if (ids.length === 0) {
+			output.push(`<div className="coparents"><strong>Base Feat</strong></div>`);
+		}
+		leaves && output.push(parseFeatTree(leaves, [...ids, prop]));
+		output.push("</div>");
+	});
+	return output.join("");
+};
+
+const featTreePage = [
+	"import Link from '../../components/Link';",
+	"import InnerLink from '../../components/InnerLink';",
+	"const jsx=<>"
+		//+ parseFeatTree(featTreeData)
+		+ featTreeData.map(ftd => `<section>${parseFeatTree([ftd])}</section>`).join("")
+		+ "</>;",
+	"export default jsx;"
+];
+
+// Write that file
+fs.writeFileSync(`./src/pages/subpages/__feat_tree_page.tsx`, featTreePage.join("\n"));
+// Announce success
+console.log(`Saved ./src/pages/subpages/__feat_tree_page.tsx`);
+
+//   Create all other files, including ___link.tsx files.
 Object.values(all_usable_groups).forEach((group, groupindex) => {
 //Object.values({"main01": all_usable_groups["main01"]}).forEach((group, groupindex) => {
 	const {data, datatype, link, num} = group;
