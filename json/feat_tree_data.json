@@ -1783,6 +1783,7 @@
 							}
 						]
 					},
+					{ "prop": "reckless_aim" },
 					{
 						"prop": "signature_strike_style",
 						"coparents": [
@@ -1796,6 +1797,7 @@
 							}
 						]
 					},
+					{ "prop": "tracer_fire" },
 					{
 						"prop": "thuvian_grenadier",
 						"coparents": [ "throw_anything" ]
