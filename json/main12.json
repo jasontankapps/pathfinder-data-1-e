@@ -2,7 +2,13 @@
 	"spells_wizard": {
 		"title": "All Wizard Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [

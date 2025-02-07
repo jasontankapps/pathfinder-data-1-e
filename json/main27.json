@@ -2,7 +2,13 @@
 	"magic_weapons": {
 		"title": "Magic Weapons",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
@@ -519,7 +525,13 @@
 	"magic_rings": {
 		"title": "Magic Rings",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
@@ -764,7 +776,13 @@
 	"magic_rods": {
 		"title": "Magic Rods",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
@@ -1603,7 +1621,13 @@
 	"magic_armor": {
 		"title": "Magic Armor",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
@@ -1871,7 +1895,13 @@
 	"magic_artifacts": {
 		"title": "Artifacts",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
@@ -2788,7 +2818,13 @@
 	"magic_staves": {
 		"title": "Magic Staves",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [

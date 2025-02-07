@@ -2,7 +2,13 @@
 	"spells_evocation": {
 		"title": "Evocation Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -396,7 +402,13 @@
 	"spells_illusion": {
 		"title": "Illusion Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -656,7 +668,13 @@
 	"spells_necromancy": {
 		"title": "Necromancy Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1017,7 +1035,13 @@
 	"spells_transmutation": {
 		"title": "Transmutation Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [

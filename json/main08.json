@@ -2,7 +2,13 @@
 	"spells_cleric": {
 		"title": "All Cleric Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1169,7 +1175,13 @@
 	"spells_oracle": {
 		"title": "All Oracle Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [

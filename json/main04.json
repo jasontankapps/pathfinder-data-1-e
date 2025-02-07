@@ -2,7 +2,13 @@
 	"traits_campaign": {
 		"title": "Campaign Traits",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "trait",
 		"tables": [

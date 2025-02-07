@@ -2,7 +2,13 @@
 	"monsters_aberrations": {
 		"title": "Aberrations",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -203,7 +209,13 @@
 	"monsters_animals": {
 		"title": "Animals",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -529,7 +541,13 @@
 	"monsters_constructs": {
 		"title": "Constructs",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -742,7 +760,13 @@
 	"monsters_dragons": {
 		"title": "Dragons",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -956,7 +980,13 @@
 		"title": "Fey",
 		"sources": [],
 		"searchgroup": "monster",
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"tables": [
 			{

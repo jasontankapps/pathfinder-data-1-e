@@ -2,7 +2,13 @@
 	"spells_paladin": {
 		"title": "All Paladin Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -333,18 +339,30 @@
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
-	"spells_alchemist": {
-		"title": "All Alchemist Spells",
+	"spells_alchemist_1_2": {
+		"title": "Alchemist Formulae Levels 1-2",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{main/spells_<Alchemist /formulae levels 3-6>3_6}",
+			"",
+			":::",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
-				"id": "alchemist spells table",
+				"id": "alchemist spells table 1 2",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"filter": [
-					{ "col": 1, "range": [1, 6] },
+					{ "col": 1, "range": [1, 2] },
 					{ "col": 2, "equals": [
 						"abjuration",
 						"conjuration",
@@ -545,7 +563,53 @@
 					[ "{spell/Venomous Bite}", 2, "transmutation", null, "poison", "Enhance a target creature's bite with poison." ],
 					[ "{spell/Vine Strike}", 2, "conjuration", "creation", null, "Enhance one of your natural or unarmed attacks with thorny vine growth" ],
 					[ "{spell/Vomit Swarm}", 2, "conjuration", "summoning", null, "Produces a spider swarm that fights for you." ],
-					[ "{spell/Waters of Lamashtu}", 2, "conjuration", "creation", null, "Create a poison which looks like clean and pure water." ],
+					[ "{spell/Waters of Lamashtu}", 2, "conjuration", "creation", null, "Create a poison which looks like clean and pure water." ]
+				]
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+	},
+	"spells_alchemist_3_6": {
+		"title": "Alchemist Formulae Levels 3-6",
+		"sources": [],
+		"description": [
+			":::item",
+			"",
+			"{main/spells_<Alchemist /formulae levels 1-2>1_2}",
+			"",
+			":::",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
+		"noFinder": true,
+		"searchgroup": "spell",
+		"tables": [
+			{
+				"id": "alchemist spells table 3 6",
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filter": [
+					{ "col": 1, "range": [3, 6] },
+					{ "col": 2, "equals": [
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
+				"types": [ null, "num", null, null, null, 0 ],
+				"initialColumn": 1,
+				"alignments": [ true, null, null, null, null, true ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
+				"ripples": [0],
+				"data": [
 					[ "{spell/Absorb Toxicity}", 3, "necromancy", null, null, "You become immune to diseases and toxins, absorb one, and then spread it to others." ],
 					[ "{spell/Absorbing Touch}", 3, "transmutation", null, null, "Caster absorbs an item for 1 day/level." ],
 					[ "{spell/Adjustable Disguise}", 3, "illusion", "glamer", null, "As disguise self, but you can change the disguise as a swift action." ],
@@ -778,7 +842,13 @@
 	"spells_spiritualist": {
 		"title": "All Spiritualist Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1220,7 +1290,13 @@
 	"spells_bloodrager": {
 		"title": "All Bloodrager Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1592,7 +1668,13 @@
 	"spells_summoner": {
 		"title": "All Summoner Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [

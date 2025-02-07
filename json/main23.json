@@ -2,7 +2,13 @@
 	"monsters_outsiders": {
 		"title": "Outsiders",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -623,7 +629,13 @@
 	"monsters_outsiders_elemental": {
 		"title": "Elementals",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -743,7 +755,13 @@
 	"monsters_outsiders_extraplanar": {
 		"title": "Extraplanar Outsiders",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -1259,7 +1277,13 @@
 	"monsters_outsiders_native": {
 		"title": "Native Outsiders",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [

@@ -2,7 +2,13 @@
 	"monsters_oozes": {
 		"title": "Oozes",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [

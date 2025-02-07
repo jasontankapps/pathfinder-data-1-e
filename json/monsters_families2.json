@@ -424,7 +424,15 @@
 	"familiar": {
 		"name": "Familiar",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"members": [
+		"description": [
+			"## Familiar",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary}",
+			"",
+			"Presented here are the base animal statistics for all of the most commonly used familiars - of course, these statistics can also be used for normal animals as well. Small animals like these use Dexterity to modify Climb and Swim checks.",
+			"",
+			"### Members of This Family:",
+			"",
 			"- {monster/Archaeopteryx}",
 			"- {monster/Arctic Hare}",
 			"- {monster/Arctic Tern}",
@@ -503,13 +511,6 @@
 			"- {monster/Viper}",
 			"- {monster/Wallaby}",
 			"- {monster/Weasel}"
-		],
-		"description": [
-			"## Familiar",
-			"",
-			"{SOURCE Pathfinder RPG Bestiary}",
-			"",
-			"Presented here are the base animal statistics for all of the most commonly used familiars - of course, these statistics can also be used for normal animals as well. Small animals like these use Dexterity to modify Climb and Swim checks."
 		]
 	},
 	"fiend_bred_animal": {
@@ -1170,24 +1171,6 @@
 	"kyton": {
 		"name": "Kyton",
 		"sources": [ "Bestiary 3" ],
-		"members": [
-			"- {monster/Apocrisiarius}",
-			"- {template/Apostle Kyton}",
-			"- {monster/Augur}",
-			"- {monster/Cantor}",
-			"- {monster/Ephialtes}",
-			"- {monster/Eremite}",
-			"- {monster/Interlocutor}",
-			"- {monster/Kyton}",
-			"- {monster/Lampadarius}",
-			"- {monster/Libitinarii}",
-			"- {monster/Oitos}",
-			"- {monster/Ostiarius}",
-			"- {monster/Phylacator}",
-			"- {monster/Sacristan}",
-			"- {monster/Suffragan}",
-			"- {monster/Termagant}"
-		],
 		"description": [
 			"## Kyton",
 			"",
@@ -1206,6 +1189,7 @@
 			"### Members of This Family:",
 			"",
 			"- {monster/Apocrisiarius}",
+			"- {template/Apostle Kyton/ (template)}",
 			"- {monster/Augur}",
 			"- {monster/Cantor}",
 			"- {monster/Ephialtes}",
@@ -1349,18 +1333,6 @@
 	"lycanthrope": {
 		"name": "Lycanthrope",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"members": [
-			"- Silverblood Werewolf",
-			"- Werebat",
-			"- Werebear",
-			"- Wereboar",
-			"- Werecrocodile",
-			"- Wereraptor",
-			"- Wererat",
-			"- Wereshark",
-			"- Weretiger",
-			"- Werewolf"
-		],
 		"description": [
 			"## Lycanthrope",
 			"",
@@ -1660,16 +1632,17 @@
 	"poppet": {
 		"name": "Poppet",
 		"sources": [ "Adventurer's Armory 2" ],
-		"members": [
-			"- [Poppet, Small](monster/small_poppet)",
-			"- [Poppet, Tiny](monster/tiny_poppet)"
-		],
 		"description": [
 			"## Poppet",
 			"",
 			"{SOURCE Adventurer's Armory 2}",
 			"",
-			"Humanoid in shape and constructed of base materials, poppets are designed to accompany explorers into dangerous places and help with simple tasks."
+			"Humanoid in shape and constructed of base materials, poppets are designed to accompany explorers into dangerous places and help with simple tasks.",
+			"",
+			"### Members of This Family:",
+			"",
+			"- [Poppet, Small](monster/small_poppet)",
+			"- [Poppet, Tiny](monster/tiny_poppet)"
 		]
 	},
 	"primeval_sea_creature": {
@@ -1981,7 +1954,7 @@
 			"- **Vulnerable to Electricity:** Robots take 150% as much damage as normal from electricity attacks, unless they are immune to electricity via other special defenses.",
 			"- **Difficult to Create:** Robots are crafted via complex methods hidden and well guarded in Numerian ruins or other technological bastions. The Technic League has developed magical solutions to some of these requirements.",
 			"",
-			"**Also see: {subtype/Robot/ (subtype)}",
+			"**Also see:** {subtype/Robot/ (subtype)}",
 			"",
 			"### Numerian Technology",
 			"",
@@ -2124,12 +2097,6 @@
 	"spawn_of_rovagug": {
 		"name": "Spawn of Rovagug",
 		"sources": [ "Inner Sea Bestiary" ],
-		"members": [
-			"- {monster/Chemnosit (The Monarch Worm)}",
-			"- {monster/Festering Ulunat (The Unholy First)}",
-			"- {monster/Volnagur (The End-Singer)}",
-			"- Xotani (The Firebleeder) (published stats are for D&amp;D 3.5, not Pathfinder)"
-		],
 		"description": [
 			"## Spawn of Rovagug",
 			"",
@@ -2159,7 +2126,13 @@
 			"",
 			"**Spell Resistance (Su)** A spawn of Rovagug possesses spell resistance equal to 11 + its CR.",
 			"",
-			"**Unstoppable Force (Ex)** A spawn of Rovagug can always charge, even if its movement is impeded or its path is blocked by another creature. It receives a +20 racial bonus on combat maneuver checks to overrun and Strength checks to break or destroy objects, and can make one such check as a free action as part of a charge. In addition, the natural weapons of a spawn of Rovagug ignore all forms of damage reduction and hardness."
+			"**Unstoppable Force (Ex)** A spawn of Rovagug can always charge, even if its movement is impeded or its path is blocked by another creature. It receives a +20 racial bonus on combat maneuver checks to overrun and Strength checks to break or destroy objects, and can make one such check as a free action as part of a charge. In addition, the natural weapons of a spawn of Rovagug ignore all forms of damage reduction and hardness.",
+			"",
+			"### Members of This Family:",
+			"",
+			"- {monster/Chemnosit (The Monarch Worm)}",
+			"- {monster/Festering Ulunat (The Unholy First)}",
+			"- {monster/Volnagur (The End-Singer)}"
 		]
 	},
 	"sphinx": {

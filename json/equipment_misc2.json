@@ -2682,6 +2682,10 @@
 		"name": "Horse (pony)",
 		"copyof": "horse_heavy"
 	},
+	"pony": {
+		"name": "Horse (pony)",
+		"copyof": "horse_heavy"
+	},
 	"pony_combat_trained": {
 		"name": "Horse (pony, combat trained)",
 		"copyof": "horse_heavy"
@@ -5480,7 +5484,9 @@
 			"",
 			"Per the rules for {eq-material/mithral}, the weight listed should be accurate, but the price of the mithral item doesn't line up (a 4-pound mithral item should be 2000gp, not 550gp). A 1-pound {eq-misc/mithral chain>_10_ft} seems to treat the mithal as a +500gp bonus to the regular {eq-misc/chain/'s>_10_ft} price, but that lines up with a 1-pound item. Nevertheless, this entry treats the mithral as a simple +500gp cost.",
 			"",
-			"Making horseshoes would likely fall under Profession (blacksmithing or farrier), so using a [trained hireling](eq-misc/hireling_trained_per_day) may be a better way to obtain normal horsehoes."
+			"Making horseshoes would likely fall under Profession (blacksmithing or farrier), so using a [trained hireling](eq-misc/hireling_trained_per_day) may be a better way to obtain normal horsehoes.",
+			"",
+			"**Also note** that a {eq-misc/horseshoes game} is only 5sp, and it includes 4 horseshoes and two iron stakes. It's possible that these are inferior-quality horseshoes that cannot be used on actual mounts, but your GM may disagree."
 		]
 	},
 	"mithralbane_sap": {

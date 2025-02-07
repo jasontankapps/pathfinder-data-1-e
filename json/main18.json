@@ -1493,7 +1493,13 @@
 	"tech_armor": {
 		"title": "Technology - Armor",
 		"sources": [ "Technology Guide" ],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
@@ -1536,7 +1542,13 @@
 	"tech_weapons": {
 		"title": "Technology - Weapons",
 		"sources": [ "Technology Guide" ],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
@@ -1600,7 +1612,13 @@
 	"tech_cybertech": {
 		"title": "Technology - Cybertech",
 		"sources": [ "Technology Guide" ],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
@@ -1647,7 +1665,13 @@
 	"tech_pharmaceuticals": {
 		"title": "Technology - Pharmaceuticals",
 		"sources": [ "Technology Guide" ],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
@@ -1683,7 +1707,13 @@
 	"tech_artifacts": {
 		"title": "Technology - Artifacts",
 		"sources": [ "Technology Guide" ],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
@@ -2054,7 +2084,13 @@
 		"title": "Siege Engines",
 		"sources": [],
 		"searchgroup": "equip",
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"tables": [
 			{
@@ -2130,7 +2166,13 @@
 	},
 	"equipment_clothing": {
 		"title": "Clothing",
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
@@ -2262,11 +2304,18 @@
 					[ "{eq-misc/wrangler's gloves}", 20, 6 ]
 				]
 			}
-		]
+		],
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_food_and_drink": {
 		"title": "Food, Drink, and Lodging",
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
@@ -2373,11 +2422,18 @@
 					[ "{eq-misc/yogurt}", "food or drink", 0.1, 0.5 ]
 				]
 			}
-		]
+		],
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_entertainment_services": {
 		"title": "Entertainment and Services",
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
@@ -2448,11 +2504,18 @@
 					[ "{eq-misc/valet}", "service", 1, 0 ]
 				]
 			}
-		]
+		],
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_transport": {
 		"title": "Transportation",
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
@@ -2511,11 +2574,18 @@
 					[ "{eq-misc/warship}", "transport, sea", 25000 ]
 				]
 			}
-		]
+		],
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_mounts_pets": {
 		"title": "Mounts and Pets",
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
@@ -2747,7 +2817,8 @@
 					[ "{eq-misc/yak}", 24, 1000 ]
 				]
 			}
-		]
+		],
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_illicit": {
 		"title": "Illicit Items",
@@ -2820,7 +2891,8 @@
 					[ "{eq-misc/wolfsbane}", "black market", 0.5, 0 ]
 				]
 			}
-		]
+		],
+		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
 	},
 	"equipment_poisons": {
 		"title": "Poisons",

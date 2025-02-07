@@ -2,7 +2,13 @@
 	"monsters_cr_0_1_2": {
 		"title": "Monsters CR 0 - 1/2",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -35,7 +41,7 @@
 				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
 				"ripples": [0],
 				"data": [
-					[ "{monster/Butterfly/Moth/ (Familiar)}", [ -10, "0" ], "vermin", [ 1, "diminutive" ], [ 4, "N" ], "This graceful winged insect is a riot of color that glides through the air like a flittering dream.", 1, 13, 4, [ -1, "&mdash;" ], 12, 7, 0, -3, 2 ],
+					[ "{monster/Butterfly//Moth/ (Familiar)}", [ -10, "0" ], "vermin", [ 1, "diminutive" ], [ 4, "N" ], "This graceful winged insect is a riot of color that glides through the air like a flittering dream.", 1, 13, 4, [ -1, "&mdash;" ], 12, 7, 0, -3, 2 ],
 					[ "{monster/Slug, Leopard/ (Familiar)}", [ -10, "0" ], "vermin", [ 1, "diminutive" ], [ 4, "N" ], "This dark-yellow, hand-length slug is covered in a pattern of black spots and stripes.", 1, 4, 12, [ -1, "&mdash;" ], 7, 9, 0, -7, -2 ],
 					[ "{monster/Bat/ (Familiar)}", [ -8, "1/8" ], "animal", [ 1, "diminutive" ], [ 4, "N" ], null, 1, 15, 6, 2, 14, 5, 0, -2, 3 ],
 					[ "{monster/Centipede, House/ (Familiar)}", [ -8, "1/8" ], "vermin", [ 2, "tiny" ], [ 4, "N" ], null, 1, 17, 10, [ -1, "&mdash;" ], 10, 2, 0, 1, 6 ],
@@ -269,7 +275,13 @@
 	"monsters_cr_1_2": {
 		"title": "Monsters CR 1 and 2",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -676,7 +688,13 @@
 	"monsters_cr_3_4": {
 		"title": "Monsters CR 3 and 4",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [

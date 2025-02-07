@@ -3,7 +3,13 @@
 		"title": "All Witch Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"tables": [
 			{
@@ -1265,7 +1271,13 @@
 	"spells_shaman": {
 		"title": "All Shaman Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [

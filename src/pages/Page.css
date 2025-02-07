@@ -398,6 +398,7 @@ ion-button[slot=end] + ion-button[slot=end] {
 ion-button.tableFilterButton {
 	float: inline-end;
 	font-size: 0.65rem;
+	margin-block: 0.5rem;
 }
 ion-modal ion-list[lines=full] {
 	padding-block-start: 0;
@@ -420,10 +421,10 @@ div.tableWrap {
 	/*
 		56px page header, (3.5rem)
 		56px page footer, (3.5rem)
-		8px margin on filter button, (0.5rem)
+		16px margin on filter button, (1rem)
 		filter button min-height 2.1em
 	*/
-	max-height: calc(100vh - 3.5rem - 3.5rem - 0.5rem - 2.1em - 1rem);
+	max-height: calc(100vh - 3.5rem - 3.5rem - 1rem - 2.1em - 1rem);
 	margin: 0 auto;
 }
 div.displayTable { /* Dunno if this is needed, but... */

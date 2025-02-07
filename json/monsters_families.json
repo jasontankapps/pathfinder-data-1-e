@@ -28,7 +28,7 @@
 			"",
 			"All aeons are bound in a state they know as \"the condition of all\" or \"monad,\" a supreme oneness with all members of their race and the multiverse itself. Therefore, aeons exist as an extension of the multiverse; in a fashion similar to the way bones, muscle, and the various humors create a mortal, they exist as part of a greater being. When destroyed or upon accomplishing specific goals, their energies simply dissipate and become reabsorbed into the monad. They do not die, but are instead recycled. They have no discernible memories and seem to exist only in the present, arriving to repair balance. Relationships with non-aeons are generally non-existent, and they feel no sense of affection, remorse, vengeance, or similar emotions. Aeons deal with each task as its own action, independent from all other tasks. Thus, an individual once at violent odds with an aeon may, upon their next encounter, have the aeon's full and undaunted support.",
 			"",
-			"**Also see: {subtype/Aeon/ (subtype)}",
+			"**Also see:** {subtype/Aeon/ (subtype)}",
 			"",
 			"### Members of This Family:",
 			"",
@@ -209,7 +209,7 @@
 			"",
 			"Archons speak Celestial, Draconic, and Infernal, but can speak with almost any creature because of their truespeech ability. A full list of archon traits is presented in the archon subtype description. Many archons have additional abilities beyond these traits, as befits their particular role in the army of Heaven.",
 			"",
-			"**Also see: {subtype/Archon/ (subtype)}",
+			"**Also see:** {subtype/Archon/ (subtype)}",
 			"",
 			"",
 			"### Members of This Family:",
@@ -344,7 +344,7 @@
 			"",
 			"Azatas speak Celestial, Draconic, and Infernal, but can speak with almost any creature because of their truespeech special ability. See creature subtypes for full details on truespeech and other shared azata traits.",
 			"",
-			"**Also see: {subtype/Azata/ (subtype)}",
+			"**Also see:** {subtype/Azata/ (subtype)}",
 			"",
 			"",
 			"### Members of This Family:",
@@ -670,14 +670,15 @@
 	"daemonic_harbinger": {
 		"name": "Daemonic Harbinger",
 		"sources": [],
-		"members": [
-			"- [Daemonic Harbinger, Braismois](monster/braismois)",
-			"- {monster/Zelishkar of the Bitter Flame}"
-		],
 		"description": [
 			"## Daemonic Harbinger",
 			"",
-			"A daemonic harbinger is a powerful {family/daemon} that has not yet made the full transition from unique daemon to a horseman."
+			"A daemonic harbinger is a powerful {family/daemon} that has not yet made the full transition from unique daemon to a horseman.",
+			"",
+			"### Members of This Family:",
+			"",
+			"- [Daemonic Harbinger, Braismois](monster/braismois)",
+			"- {monster/Zelishkar of the Bitter Flame}"
 		]
 	},
 	"demodand": {
@@ -734,7 +735,7 @@
 			"",
 			"The truly mad call upon demons to offer themselves, both body and soul, in the misguided belief that alliance with the demonic can buy salvation and protection when the demonic apocalypse finally comes to call. Tales of desperate kings who sought to engage demons to serve as generals for their armies or of lunatics who seek demonic sires to gift them with horrific children are common enough, yet worst are those mortals who worship the most powerful demons as gods, and who pledge their lives in support of that which would bring destruction to all.",
 			"",
-			"**Also see: {subtype/Demon/ (subtype)}",
+			"**Also see:** {subtype/Demon/ (subtype)}",
 			"",
 			"",
 			"### Members of This Family:",
@@ -870,7 +871,7 @@
 			"",
 			"**Greater Devils:** horned devils (cornugons), ice devils (gelugons), pit fiends",
 			"",
-			"**Also see: {subtype/Devil/ (subtype)}",
+			"**Also see:** {subtype/Devil/ (subtype)}",
 			"",
 			"",
 			"### Members of This Family:",
@@ -1544,7 +1545,6 @@
 	"dragon_imperial": {
 		"name": "Dragon (Imperial)",
 		"sources": [ "Bestiary 3" ],
-		"members": [],
 		"description": [
 			"## Dragon (Imperial)",
 			"",
@@ -1786,7 +1786,6 @@
 	"dragon_outer": {
 		"name": "Dragon (Outer)",
 		"sources": [ "Bestiary 4" ],
-		"members": [],
 		"description": [
 			"## Dragon (Outer)",
 			"",
@@ -2031,7 +2030,6 @@
 			"Bestiary 3",
 			"Pathfinder #137: The City Outside of Time"
 		],
-		"members": [],
 		"description": [
 			"## Dragon (Planar)",
 			"",
@@ -2330,7 +2328,6 @@
 	"dragon_primal": {
 		"name": "Dragon (Primal)",
 		"sources": [ "Bestiary 2" ],
-		"members": [],
 		"description": [
 			"## Dragon (Primal)",
 			"",

@@ -708,6 +708,7 @@
 	"butterfly": { "copyof": "familiar_butterfly_moth" },
 	"familiar_butterfly": { "copyof": "familiar_butterfly_moth" },
 	"butterfly_or_moth": { "copyof": "familiar_butterfly_moth" },
+	"butterfly_moth": { "copyof": "familiar_butterfly_moth" },
 	"moth": { "copyof": "familiar_butterfly_moth" },
 	"familiar_cat": {
 		"name": "Familiar, Cat",

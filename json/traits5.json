@@ -2463,7 +2463,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ulfen",
 			"",
-			"As soon as you were old enough to hold it, you were trained to defend yourself with traditional Ulfen weapons. You gain a +1 trait bonus on damage rolls with the following weapons: bastard sword, battleaxe, greataxe, greatsword, handaxe, light hammer, longbow, longsword, shortbow, short sword, throwing axe, and warhammer."
+			"As soon as you were old enough to hold it, you were trained to defend yourself with traditional Ulfen weapons. You gain a +1 trait bonus on damage rolls with the following weapons: {eq-weapon/bastard sword}, {eq-weapon/battleaxe}, {eq-weapon/greataxe}, {eq-weapon/greatsword}, {eq-weapon/handaxe}, {eq-weapon/light hammer}, {eq-weapon/longbow}, {eq-weapon/longsword}, {eq-weapon/shortbow}, {eq-weapon/short sword}, {eq-weapon/throwing axe}, and {eq-weapon/warhammer}."
 		],
 		"subhierarchy": [[ "Race Traits", "main/traits_race" ]]
 	},

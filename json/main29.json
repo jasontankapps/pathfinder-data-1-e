@@ -2,7 +2,13 @@
 	"spells_inquisitor": {
 		"title": "All Inquisitor Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -694,7 +700,13 @@
 		"title": "All Medium Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"tables": [
 			{
@@ -1109,7 +1121,13 @@
 	"spells_ranger": {
 		"title": "All Ranger Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1533,7 +1551,13 @@
 	"spells_investigator": {
 		"title": "All Investigator Formulae",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
@@ -1969,7 +1993,13 @@
 	"spells_adept": {
 		"title": "All Adept Spells",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [

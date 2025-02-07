@@ -2,7 +2,13 @@
 	"monsters_magical_beasts": {
 		"title": "Magical Beasts",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -280,7 +286,13 @@
 	"monsters_monstrous_humanoids": {
 		"title": "Monstrous Humanoids",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -460,7 +472,13 @@
 	"monsters_plants": {
 		"title": "Plants",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -609,7 +627,13 @@
 	"monsters_undead": {
 		"title": "Undead",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -860,7 +884,13 @@
 	"monsters_vermin": {
 		"title": "Vermin",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -1042,7 +1072,13 @@
 	"monsters_aquatic": {
 		"title": "Aquatic Monsters",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
@@ -1330,7 +1366,13 @@
 	"monsters_incorporeal": {
 		"title": "Incorporeal Monsters",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [

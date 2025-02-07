@@ -1425,7 +1425,13 @@
 		"title": "All Red Mantis Assassin Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"tables": [
 			{

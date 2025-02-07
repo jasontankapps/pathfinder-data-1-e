@@ -19,7 +19,13 @@
 	"faiths_all": {
 		"title": "All Deities",
 		"sources": [],
-		"description": [ "{table0}" ],
+		"description": [
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
 		"noFinder": true,
 		"searchgroup": "faith",
 		"tables": [
