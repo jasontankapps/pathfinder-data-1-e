@@ -339,15 +339,24 @@
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
 	},
+	"spells_alchemist": {
+		"title": "Alchemist Spells",
+		"sources": [],
+		"searchgroup": "spell",
+		"description": [
+			"::main[Spells]{rev to=main/spells}",
+			"",
+			"::main[Alchemist Formulae (Levels 1-2)]{endem=\"(184 formulae)\" to=main/spells_alchemist_1_2}",
+			"",
+			"::main[Alchemist Formulae (Levels 3-6)]{endem=\"(224 formulae)\" to=main/spells_alchemist_3_6}"
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+	},
 	"spells_alchemist_1_2": {
 		"title": "Alchemist Formulae Levels 1-2",
 		"sources": [],
 		"description": [
-			":::item",
-			"",
-			"{main/spells_<Alchemist /formulae levels 3-6>3_6}",
-			"",
-			":::",
+			"::main[Alchemist formulae levels 3-6]{to=main/spells_alchemist_3_6}",
 			"",
 			":::item",
 			"",
@@ -567,17 +576,17 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"previous": [
+			["Main", "main/main"],
+			["Spells", "main/spells"],
+			["Alchemist Formulae", "main/spells_alchemist"]
+		]
 	},
 	"spells_alchemist_3_6": {
 		"title": "Alchemist Formulae Levels 3-6",
 		"sources": [],
 		"description": [
-			":::item",
-			"",
-			"{main/spells_<Alchemist /formulae levels 1-2>1_2}",
-			"",
-			":::",
+			"::main[Alchemist formulae levels 1-2]{to=main/spells_alchemist_1_2}",
 			"",
 			":::item",
 			"",
@@ -837,7 +846,11 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"previous": [
+			["Main", "main/main"],
+			["Spells", "main/spells"],
+			["Alchemist Formulae", "main/spells_alchemist"]
+		]
 	},
 	"spells_spiritualist": {
 		"title": "All Spiritualist Spells",

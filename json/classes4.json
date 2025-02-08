@@ -128,7 +128,7 @@
 			"",
 			":b[Bardic Knowledge/ (Ex):] A skald adds 1/2 his class level (minimum 1) on all Knowledge skill checks, and may make all Knowledge skill checks untrained.",
 			"",
-			":b[Spells:] A skald casts arcane spells drawn from the [bard spell list](main/spells_bard_0_1). He can cast any spell he knows without preparing it ahead of time. Every skald spell has a verbal component - these verbal components can take the form of song, recitation, or even non-verbal music like percussion. To learn or cast a spell, a skald must have a Charisma score equal to at least 10 + the spell's level. The saving throw DC against a skald's spell is 10 + the spell's level + the skald's Charisma modifier.",
+			":b[Spells:] A skald casts arcane spells drawn from the [bard spell list](main/spells_skald). He can cast any spell he knows without preparing it ahead of time. Every skald spell has a verbal component - these verbal components can take the form of song, recitation, or even non-verbal music like percussion. To learn or cast a spell, a skald must have a Charisma score equal to at least 10 + the spell's level. The saving throw DC against a skald's spell is 10 + the spell's level + the skald's Charisma modifier.",
 			"",
 			"Like other spellcasters, a skald can cast only a certain number of spells of each spell level per day. In addition, he receives [bonus spells per day](rule/determine_bonuses) if he has a high Charisma score.",
 			"",
