@@ -356,7 +356,7 @@
 		"title": "Alchemist Formulae Levels 1-2",
 		"sources": [],
 		"description": [
-			"::main[Alchemist formulae levels 3-6]{to=main/spells_alchemist_3_6}",
+			"::main[Alchemist Formulae Levels 3-6]{to=main/spells_alchemist_3_6}",
 			"",
 			":::item",
 			"",
@@ -586,7 +586,7 @@
 		"title": "Alchemist Formulae Levels 3-6",
 		"sources": [],
 		"description": [
-			"::main[Alchemist formulae levels 1-2]{to=main/spells_alchemist_1_2}",
+			"::main[Alchemist Formulae Levels 1-2]{to=main/spells_alchemist_1_2}",
 			"",
 			":::item",
 			"",
@@ -856,6 +856,26 @@
 		"title": "All Spiritualist Spells",
 		"sources": [],
 		"description": [
+			"::main[Spells]{rev to=main/spells}",
+			"",
+			"::main[Spiritualist Spells (Levels 0-2)]{endem=\"(137 spells)\" to=main/spells_spiritualist_0_2}",
+			"",
+			"::main[Spiritualist Spells (Levels 3-4)]{endem=\"(163 spells)\" to=main/spells_spiritualist_3_4}",
+			"",
+			"::main[Spiritualist Spells (Levels 5-6)]{endem=\"(108 spells)\" to=main/spells_spiritualist_5_6}"
+		],
+		"noFinder": true,
+		"searchgroup": "spell",
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+	},
+	"spells_spiritualist_0_2": {
+		"title": "Spiritualist Spells Levels 0-2",
+		"sources": [],
+		"description": [
+			"::main[Spiritualist Spells Levels 3-4]{to=main/spells_spiritualist_3_4}",
+			"",
+			"::main[Spiritualist Spells Levels 5-6]{to=main/spells_spiritualist_5_6}",
+			"",
 			":::item",
 			"",
 			"{table0}",
@@ -866,10 +886,10 @@
 		"searchgroup": "spell",
 		"tables": [
 			{
-				"id": "spiritualist spells table",
+				"id": "spiritualist spells table 0 1 2",
 				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
 				"filter": [
-					{ "col": 1, "range": [0, 6] },
+					{ "col": 1, "range": [0, 2] },
 					{ "col": 2, "equals": [
 						"abjuration",
 						"conjuration",
@@ -1023,7 +1043,50 @@
 					[ "{spell/Surmount Affliction}", 2, "abjuration", null, null, "Temporarily suppress one condition." ],
 					[ "{spell/Touch of Idiocy}", 2, "enchantment", "compulsion", "mind-affecting", "Subject takes 1d6 penalty to Int, Wis, and Cha." ],
 					[ "{spell/Twilight Haze}", 2, "illusion", "shadow", "darkness, shadow", "Illusory fog obscures vision." ],
-					[ "{spell/With the Wind}", 2, "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force" ],
+					[ "{spell/With the Wind}", 2, "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force" ]				]
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Spiritualist Spells", "main/spells_spiritualist"] ]
+	},
+	"spells_spiritualist_3_4": {
+		"title": "Spiritualist Spells Levels 3-4",
+		"sources": [],
+		"description": [
+			"::main[Spiritualist Spells Levels 0-2]{to=main/spells_spiritualist_0_2}",
+			"",
+			"::main[Spiritualist Spells Levels 5-6]{to=main/spells_spiritualist_5_6}",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
+		"noFinder": true,
+		"searchgroup": "spell",
+		"tables": [
+			{
+				"id": "spiritualist spells table 3 4",
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filter": [
+					{ "col": 1, "range": [3, 4] },
+					{ "col": 2, "equals": [
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
+				"types": [ null, "num", null, null, null, 0 ],
+				"initialColumn": 1,
+				"alignments": [ true, null, null, null, null, true ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
+				"ripples": [0],
+				"data": [
 					[ "{spell/Analyze Aura}", 3, "divination", null, null, "Read a creature's or an object's alignment, emotion, health, and magic auras." ],
 					[ "{spell/Animate Dead}", 3, "necromancy", null, "evil", "Creates undead skeletons and zombies." ],
 					[ "{spell/Appearance of Life}", 3, "illusion", "glamer", "evil", "Undead appear to be alive" ],
@@ -1186,7 +1249,50 @@
 					[ "{spell/Torpid Reanimation}", 4, "necromancy", null, "evil", "Animate dead when a specific trigger condition occurs." ],
 					[ "{spell/Vicarious View}", 4, "divination", "scrying", null, "Plant a scrying sensor that you can use to spy on a creature, object, or location." ],
 					[ "{spell/Vigilant Rest}", 4, "abjuration", null, null, "Cause a sleeping creature to retain some perception of its surroundings" ],
-					[ "{spell/Wall of Bone}", 4, "necromancy", null, null, "Create a wall of bones that damages and grapples adjacent creatures" ],
+					[ "{spell/Wall of Bone}", 4, "necromancy", null, null, "Create a wall of bones that damages and grapples adjacent creatures" ]				]
+			}
+		],
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Spiritualist Spells", "main/spells_spiritualist"] ]
+	},
+	"spells_spiritualist_5_6": {
+		"title": "Spiritualist Spells Levels 5-6",
+		"sources": [],
+		"description": [
+			"::main[Spiritualist Spells Levels 0-2]{to=main/spells_spiritualist_0_2}",
+			"",
+			"::main[Spiritualist Spells Levels 3-4]{to=main/spells_spiritualist_3_4}",
+			"",
+			":::item",
+			"",
+			"{table0}",
+			"",
+			":::"
+		],
+		"noFinder": true,
+		"searchgroup": "spell",
+		"tables": [
+			{
+				"id": "spiritualist spells table 5 6",
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"filter": [
+					{ "col": 1, "range": [5, 6] },
+					{ "col": 2, "equals": [
+						"abjuration",
+						"conjuration",
+						"divination",
+						"enchantment",
+						"evocation",
+						"illusion",
+						"necromancy",
+						"transmutation"
+					]}
+				],
+				"types": [ null, "num", null, null, null, 0 ],
+				"initialColumn": 1,
+				"alignments": [ true, null, null, null, null, true ],
+				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
+				"ripples": [0],
+				"data": [
 					[ "{spell/Awaken the Devoured}", 5, "divination", null, "pain", "Deal 1d8/level nonlethal damage to a daemon and make it confused." ],
 					[ "{spell/Banishing Blade}", 5, "abjuration", null, null, "Enhanced weapon gets free bull rush attempts on attacks." ],
 					[ "{spell/Besmara's Grasping Depths}", 5, "necromancy", "haunted", "emotion, fear, mind-affecting", "Use the restless dead to down your targets" ],
@@ -1298,7 +1404,7 @@
 				]
 			}
 		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Spiritualist Spells", "main/spells_spiritualist"] ]
 	},
 	"spells_bloodrager": {
 		"title": "All Bloodrager Spells",

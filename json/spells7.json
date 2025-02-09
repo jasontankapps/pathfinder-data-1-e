@@ -938,7 +938,7 @@
 			"## Night Blindness",
 			"",
 			"{SOURCE Black Markets/19;Dark Markets - A Guide to Katapesh/57}  ",
-			"**School** {spelldef/necromancy} [{spelldef/curse}]; **Level** antipaladin 1, arcanist 1, bard 1, bloodrager 1, cleric 2, oracle 2, sahirafiyun 1, shaman 2, skald 1, sorcerer 1, warpriest 2, witch 1, wizard 1  ",
+			"**School** {spelldef/necromancy} [{spelldef/curse}]; **Level** antipaladin 1, arcanist 1, bard 1, bloodrager 1, cleric 2, oracle 2, shaman 2, skald 1, sorcerer 1, warpriest 2, witch 1, wizard 1  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V  ",
 			"**Range** medium (100 ft. + 10 ft./level)  ",
@@ -2956,44 +2956,6 @@
 			"Your eyes flash and the target takes 1d6 points of nonlethal damage. For the next minute, you gain a +4 circumstance bonus on Intimidate checks against the target."
 		]
 	},
-	"pesh_addiction": {
-		"name": "Pesh Addiction",
-		"sources": [ "Dark Markets - A Guide to Katapesh" ],
-		"description": [
-			"## Pesh Addiction",
-			"",
-			"{SOURCE Dark Markets - A Guide to Katapesh/57}  ",
-			"**School** {spelldef/necromancy}; **Level** sahirafiyun 5  ",
-			"**Casting Time** 10 minutes  ",
-			"**Components** V, M (a dose of pesh)  ",
-			"**Range** close (25 ft. + 5 ft./2 levels)  ",
-			"**Target** one living creature  ",
-			"**Duration** 1 day/level or until discharged (D)  ",
-			"**Saving Throw** none; **Spell Resistance** yes",
-			"",
-			"This spell functions like {spell/geas//quest}, except the only allowed command is \"use {drug/pesh} or refined pesh.\"",
-			"",
-			"### Pesh Addiction, Lesser",
-			"",
-			"{SOURCE Dark Markets - A Guide to Katapesh/57}  ",
-			"**School** {spelldef/necromancy}; **Level** sahirafiyun 3  ",
-			"**Casting Time** 1 round  ",
-			"**Components** V, M (a dose of pesh whey)  ",
-			"**Range** close (25 ft. + 5 ft./2 levels)  ",
-			"**Target** one living creature with 7 HD or less  ",
-			"**Duration** 1 day/level or until discharged (D)  ",
-			"**Saving Throw** Will negates; **Spell Resistance** yes",
-			"",
-			"This spell functions like {spell/lesser geas}, except the only allowed command is \"use {drug/pesh} or refined pesh.\""
-		]
-	},
-	"pesh_addiction_lesser": {
-		"name": "Pesh Addiction, Lesser",
-		"copyof": "pesh_addiction"
-	},
-	"lesser_pesh_addiction": {
-		"copyof": "pesh_addiction_lesser"
-	},
 	"pesh_vigor": {
 		"name": "Pesh Vigor",
 		"sources": [
@@ -3004,7 +2966,7 @@
 			"## Pesh Vigor",
 			"",
 			"{SOURCE Black Markets/19;Dark Markets - A Guide to Katapesh/57}  ",
-			"**School** {spelldef/transmutation}; **Level** alchemist 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, druid 1, hunter 1, investigator 1, magus 1, oracle 1, sahirafiyun 1, shaman 1, sorcerer 1, summoner 1, warpriest 1, wizard 1  ",
+			"**School** {spelldef/transmutation}; **Level** alchemist 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, druid 1, hunter 1, investigator 1, magus 1, oracle 1, shaman 1, sorcerer 1, summoner 1, warpriest 1, wizard 1  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, M (a dose of {drug/pesh} worth 15 gp)  ",
 			"**Range** touch  ",
