@@ -3,8 +3,6 @@
 		"title": "All Inquisitor Spells",
 		"sources": [],
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Inquisitor Spells (Levels 0-1)]{endem=\"(144 spells)\" to=main/spells_inquisitor_0_1}",
 			"",
 			"::main[Inquisitor Spells (Level 2)]{endem=\"(158 spells)\" to=main/spells_inquisitor_2}",
@@ -205,7 +203,8 @@
 					[ "{spell/Weapons Against Evil}", 1, "transmutation", null, null, "Enhance weapons with pale light that allow them to bypass minor DR of evil creatures." ],
 					[ "{spell/Weaponwand}", 1, "transmutation", null, null, "Merge a wand with your weapon, allowing you to wield the wand at the same time you use your weapon." ],
 					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day." ],
-					[ "{spell/Wrath}", 1, "enchantment", "compulsion", "emotion, mind-affecting", "+1 attack and damage against target creature." ]				]
+					[ "{spell/Wrath}", 1, "enchantment", "compulsion", "emotion, mind-affecting", "+1 attack and damage against target creature." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Inquisitor Spells", "main/spells_inquisitor"] ]
@@ -409,7 +408,8 @@
 					[ "{spell/Voluminous Vocabulary}", "divination", null, null, "Grant ability to speak, read, and write one or more languages for 8 hours." ],
 					[ "{spell/Weapon of Awe}", "transmutation", null, "emotion", "Weapon gets +2 on damage rolls." ],
 					[ "{spell/Whispering Wind}", "transmutation", null, "air", "Sends a short message 1 mile/level." ],
-					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie." ]				]
+					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Inquisitor Spells", "main/spells_inquisitor"] ]
@@ -596,7 +596,8 @@
 					[ "{spell/Wall of Split Illumination}", "evocation", null, "darkness, light", "Create a wall of illumination, darkness on one side, light on the other." ],
 					[ "{spell/Ward the Faithful}", "abjuration", null, null, "Creatures of same faith gain bonuses to AC and on saving throws." ],
 					[ "{spell/Winged Sword}", "transmutation", null, null, "Grant a weapon the throwing special ability." ],
-					[ "{spell/Witness}", "divination", "scrying", null, "See through the target's eyes and ears." ]				]
+					[ "{spell/Witness}", "divination", "scrying", null, "See through the target's eyes and ears." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Inquisitor Spells", "main/spells_inquisitor"] ]
@@ -747,7 +748,8 @@
 					[ "{spell/Transplant Visage}", "transmutation", null, "evil", "Remove the face and eyes of a creature, magically melding them with your own." ],
 					[ "{spell/Undeath Ward}", "abjuration", null, null, "Create a barrier to repel undead." ],
 					[ "{spell/Unholy Blight}", "evocation", null, "evil", "Harms and sickens good creatures (1d8 damage/2 levels)." ],
-					[ "{spell/Ward Shield}", "abjuration", null, null, "Enchant a shield with Spell Resistance and a bonus against area-effect spells." ]				]
+					[ "{spell/Ward Shield}", "abjuration", null, null, "Enchant a shield with Spell Resistance and a bonus against area-effect spells." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Inquisitor Spells", "main/spells_inquisitor"] ]
@@ -914,8 +916,6 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Medium Spells (Levels 0-1)]{endem=\"(103 spells)\" to=main/spells_medium_0_1}",
 			"",
 			"::main[Medium Spells (Level 2)]{endem=\"(121 spells)\" to=main/spells_medium_2}",
@@ -1509,7 +1509,8 @@
 					[ "{spell/Voluminous Vocabulary}", "divination", null, null, "Grant ability to speak, read, and write one or more languages for 8 hours." ],
 					[ "{spell/Water Walk}", "transmutation", null, "water", "Subject treads on water as if solid." ],
 					[ "{spell/Whispering Wind}", "transmutation", null, "air", "Sends a short message 1 mile/level." ],
-					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie." ]				]
+					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Medium Spells", "main/spells_medium"] ]
@@ -1719,8 +1720,6 @@
 		"title": "All Ranger Spells",
 		"sources": [],
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Ranger Spells (Level 1)]{endem=\"(121 spells)\" to=main/spells_ranger_1}",
 			"",
 			"::main[Ranger Spells (Level 2)]{endem=\"(118 spells)\" to=main/spells_ranger_2}",
@@ -1889,7 +1888,8 @@
 					[ "{spell/Wartrain Mount}", "enchantment", "compulsion", "mind-affecting", "Animal gains combat training." ],
 					[ "{spell/Waterproof}", "abjuration", null, "water", "Target becomes waterproof for the spells duration" ],
 					[ "{spell/Whispering Lore}", "divination", null, null, "Gain a bonus to Knowledge based on the terrain you are in." ],
-					[ "{spell/Winter Feathers}", "abjuration", null, null, "Protect a feathered creature from the cold for a day." ]				]
+					[ "{spell/Winter Feathers}", "abjuration", null, null, "Protect a feathered creature from the cold for a day." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Ranger Spells", "main/spells_ranger"] ]
@@ -2049,7 +2049,8 @@
 					[ "{spell/Wild Instinct}", "divination", null, null, "Sharpen your senses, gain a bonus to Perception even while asleep." ],
 					[ "{spell/Wilderness Soldiers}", "transmutation", null, null, "Nearby plants aid you in combat." ],
 					[ "{spell/Wind Wall}", "evocation", null, "air", "Deflects arrows, smaller creatures, and gases." ],
-					[ "{spell/With the Wind}", "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force" ]				]
+					[ "{spell/With the Wind}", "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force" ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Ranger Spells", "main/spells_ranger"] ]
@@ -2253,8 +2254,6 @@
 		"title": "All Investigator Formulae",
 		"sources": [],
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Investigator Formulae (Levels 1-2)]{endem=\"(181 spells)\" to=main/spells_investigator_1_2}",
 			"",
 			"::main[Investigator Formulae (Level 3-6)]{endem=\"(221 spells)\" to=main/spells_investigator_3_6}"
@@ -2480,7 +2479,8 @@
 					[ "{spell/Undetectable Alignment}", 2, "abjuration", null, null, "Conceals alignment for 24 hours." ],
 					[ "{spell/Venomous Bite}", 2, "transmutation", null, "poison", "Enhance a target creature's bite with poison." ],
 					[ "{spell/Vine Strike}", 2, "conjuration", "creation", null, "Enhance one of your natural or unarmed attacks with thorny vine growth" ],
-					[ "{spell/Vomit Swarm}", 2, "conjuration", "summoning", null, "Produces a spider swarm that fights for you." ]				]
+					[ "{spell/Vomit Swarm}", 2, "conjuration", "summoning", null, "Produces a spider swarm that fights for you." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Investigator Formulae", "main/spells_investigator"] ]

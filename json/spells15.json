@@ -2066,7 +2066,7 @@
 			"**Target** you  ",
 			"**Duration** 10 minutes/level (D)",
 			"",
-			"You sense the fear of those nearby, feeling it in the air around you. You can detect spooked, shaken, scared, frightened, panicked, terrified, and horrified creatures within 30 feet, and you immediately know what level of fear they are experiencing. You determine the creatures' approximate direction from you, though you do not sense a given creature's identity or know which squares the creatures occupy. If you're within 5 feet of a creature whose fear you sense, you pinpoint that creature's location, as if using blindsense."
+			"You sense the fear of those nearby, feeling it in the air around you. You can detect [spooked, shaken, scared, frightened, panicked, terrified, and horrified](rule/lesser_fear_and_greater_fear) creatures within 30 feet, and you immediately know what level of fear they are experiencing. You determine the creatures' approximate direction from you, though you do not sense a given creature's identity or know which squares the creatures occupy. If you're within 5 feet of a creature whose fear you sense, you pinpoint that creature's location, as if using blindsense."
 		]
 	},
 	"sense_madness": {
@@ -2139,7 +2139,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You open the minds of all creatures near you and enhance their sensory receptors. All living creatures other than you in the area gain a +5 bonus on Perception checks. Sighted creatures gain low-light vision, and creatures with a sense of smell gain scent. In addition, the first time each round that a creature in the area takes damage, it takes an additional 2d6 points of damage of the same type. Despite being within the area, the caster does not take this extra damage."
+			"You open the minds of all creatures near you and enhance their sensory receptors. All living creatures other than you in the area gain a +5 bonus on Perception checks. Sighted creatures gain low-light vision, and creatures with a sense of smell gain {umr/scent}. In addition, the first time each round that a creature in the area takes damage, it takes an additional 2d6 points of damage of the same type. Despite being within the area, the caster does not take this extra damage."
 		]
 	},
 	"sensory_overload": {
@@ -2179,7 +2179,7 @@
 			"",
 			"If you are within 30 feet of the head, as a standard action you can shift your senses to it, seeing and hearing from its location and gaining the benefit of its darkvision and low-light vision, and you may use its Perception skill instead of your own. While your senses are in the severed head, your body is blind and deaf until you spend a free action to shift your senses back to your own body.",
 			"",
-			"When you create the head, you can imprint it with a single triggering condition, similar to magic mouth. Once this triggering condition is set, it can never be changed. If you are within 30 feet of the head, you immediately know if it is triggered (if you have multiple active sentry skulls, you also know which one was triggered). This wakens you from normal sleep but does not otherwise disturb your concentration. For example, you could have a sentry skull alert you if any humanoid comes into view, if a particular rival approaches, if your guard animal is killed, and so on, as long as it occurs where the severed head can see it.",
+			"When you create the head, you can imprint it with a single triggering condition, similar to {spell/magic mouth}. Once this triggering condition is set, it can never be changed. If you are within 30 feet of the head, you immediately know if it is triggered (if you have multiple active sentry skulls, you also know which one was triggered). This wakens you from normal sleep but does not otherwise disturb your concentration. For example, you could have a sentry skull alert you if any humanoid comes into view, if a particular rival approaches, if your guard animal is killed, and so on, as long as it occurs where the severed head can see it.",
 			"",
 			"This spell does not give the head any ability to speak, think, or take any kind of action other than to turn itself, though it is a suitable target for other spells such as magic mouth."
 		]
@@ -2205,11 +2205,11 @@
 			"",
 			"While trapped in the amber field of force, the subject does not age, breathe, grow hungry, sleep, or regain spells. It is preserved in a state of suspended animation, unaware of its surroundings. It can be damaged by outside forces (and perhaps even killed), since the field provides no protection against physical injury. However, a dying subject does not lose hit points or become stable until the spell ends.",
 			"",
-			"The hidden sigil cannot be detected by normal observation, and detect magic reveals only that the entire text is magical.",
+			"The hidden sigil cannot be detected by normal observation, and {spell/detect magic} reveals only that the entire text is magical.",
 			"",
 			"A {spell/dispel magic} can remove the sigil. An {spell/erase} spell destroys the entire page of text.",
 			"",
-			"Sepia snake sigil can be cast in combination with other spells that hide or garble text, such as secret page."
+			"Sepia snake sigil can be cast in combination with other spells that hide or garble text, such as {spell/secret page}."
 		]
 	},
 	"sequester": {
@@ -2227,7 +2227,7 @@
 			"**Duration** 1 day/level (D)  ",
 			"**Saving Throw** none or Will negates (object); **Spell Resistance** no or yes (object)",
 			"",
-			"When cast, this spell prevents divination spells from detecting or locating the target and also renders the affected target invisible (as the invisibility spell). The spell does not prevent the subject from being discovered through tactile means or through the use of devices. Creatures affected by sequester become comatose and are effectively in a state of suspended animation until the spell ends.",
+			"When cast, this spell prevents divination spells from detecting or locating the target and also renders the affected target invisible (as the {spell/invisibility} spell). The spell does not prevent the subject from being discovered through tactile means or through the use of devices. Creatures affected by sequester become comatose and are effectively in a state of suspended animation until the spell ends.",
 			"",
 			"*Note:* The Will save prevents an attended or magical object from being sequestered. There is no save to see the sequestered creature or object or to detect it with a divination spell."
 		]
@@ -2246,9 +2246,9 @@
 			"**Target** one willing creature  ",
 			"**Duration** permanent until discharged (see text)",
 			"",
-			"Sequester thoughts allows you to erase a creature's memory of either an event lasting not more than 1 minute per caster level or all of its knowledge about a single topic (using the GM's discretion as to what constitutes a single topic). For example, you could erase a single battle from a creature's memory, or all knowledge of a plot to assassinate a king. The memories you remove are stored within the gem used at the time of casting. If the gem is shattered, the memories return to the creature as long as the two are within 30 feet of each other. Once sequester thoughts has been cast, the spell remains active on the gem and can be dispelled (which shatters it). No portion of the spell remains active on the target creature, and the target does not radiate magic as a consequence of the spell, nor can its memories be returned by dispelling the creature or subjecting it to antimagic. If the gem is shattered or dispelled out of range from the creature, the thoughts sequestered within are forever lost save by the use of wish, miracle, or the like.",
+			"Sequester thoughts allows you to erase a creature's memory of either an event lasting not more than 1 minute per caster level or all of its knowledge about a single topic (using the GM's discretion as to what constitutes a single topic). For example, you could erase a single battle from a creature's memory, or all knowledge of a plot to assassinate a king. The memories you remove are stored within the gem used at the time of casting. If the gem is shattered, the memories return to the creature as long as the two are within 30 feet of each other. Once sequester thoughts has been cast, the spell remains active on the gem and can be dispelled (which shatters it). No portion of the spell remains active on the target creature, and the target does not radiate magic as a consequence of the spell, nor can its memories be returned by dispelling the creature or subjecting it to antimagic. If the gem is shattered or dispelled out of range from the creature, the thoughts sequestered within are forever lost save by the use of {spell/wish}, {spell/miracle}, or the like.",
 			"",
-			"Sequester thoughts protects against detect thoughts, zone of truth, discern lies, and similar spells where the memories removed are concerned, though careful questioning may reveal the gaps in the creature's memory, or that it has been affected by the spell. Note that the creature itself does not remember any details of what memories were removed until the gem is broken."
+			"Sequester thoughts protects against {spell/detect thoughts}, {spell/zone of truth}, {spell/discern lies}, and similar spells where the memories removed are concerned, though careful questioning may reveal the gaps in the creature's memory, or that it has been affected by the spell. Note that the creature itself does not remember any details of what memories were removed until the gem is broken."
 		]
 	},
 	"serenity": {

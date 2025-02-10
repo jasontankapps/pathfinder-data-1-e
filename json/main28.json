@@ -406,8 +406,6 @@
 		"title": "All Druid Spells",
 		"sources": [],
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Druid Spells (Levels 0-1)]{endem=\"(142 spells)\" to=main/spells_druid_0_1}",
 			"",
 			"::main[Druid Spells (Level 2)]{endem=\"(166 spells)\" to=main/spells_druid_2}",
@@ -610,7 +608,8 @@
 					[ "{spell/Weaken Powder}", 1, "transmutation", null, null, "Targeted firearm's ammunition halves the firearm's range and imposes a -2 penalty on damage rolls." ],
 					[ "{spell/Whispering Lore}", 1, "divination", null, null, "Gain a bonus to Knowledge based on the terrain you are in." ],
 					[ "{spell/Windy Escape}", 1, "transmutation", null, "air", "Briefly become insubstantial, allowing an attack to pass harmlessly through you." ],
-					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day." ]				]
+					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Druid Spells", "main/spells_druid"] ]
@@ -1018,7 +1017,8 @@
 					[ "{spell/Waters of Lamashtu}", "conjuration", "creation", null, "Create a poison which looks like clean and pure water." ],
 					[ "{spell/Wind Wall}", "evocation", null, "air", "Deflects arrows, smaller creatures, and gases." ],
 					[ "{spell/Wing Thorns}", "transmutation", null, "poison", "Sprout poisonous thorns from your wings." ],
-					[ "{spell/Woodland Rune}", "abjuration", null, null, "Triggered rune slows the movements of creatures in the area" ]				]
+					[ "{spell/Woodland Rune}", "abjuration", null, null, "Triggered rune slows the movements of creatures in the area" ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Druid Spells", "main/spells_druid"] ]
@@ -1173,7 +1173,8 @@
 					[ "{spell/Watchful Animal}", "divination", "scrying", null, "Place a scrying sensor on your animal companion or familiar." ],
 					[ "{spell/Wave Form}", "transmutation", null, "water", "Briefly turn into a huge wave that knocks down everything in your path" ],
 					[ "{spell/Wooden Wing Shield}", "transmutation", null, null, "Transmute your wings into a wooden shield-like barrier." ],
-					[ "{spell/Zone of Foul Flames}", "transmutation", null, null, "Create an area that returns fire spells and effects back onto their caster." ]				]
+					[ "{spell/Zone of Foul Flames}", "transmutation", null, null, "Create an area that returns fire spells and effects back onto their caster." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Druid Spells", "main/spells_druid"] ]
@@ -1513,8 +1514,6 @@
 		"title": "All Hunter Spells",
 		"sources": [],
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Hunter Spells (Levels 0-1)]{endem=\"(197 spells)\" to=main/spells_hunter_0_1}",
 			"",
 			"::main[Hunter Spells (Level 2)]{endem=\"(202 spells)\" to=main/spells_hunter_2}",
@@ -2017,7 +2016,8 @@
 					[ "{spell/Wing Bounty}", "conjuration", "creation", null, "Sprout berries from your wings, enhanced as if by goodberry." ],
 					[ "{spell/Winter Grasp}", "conjuration", "creation", "cold, water", "Create a slippery sheet of ice on the ground" ],
 					[ "{spell/With the Wind}", "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force" ],
-					[ "{spell/Wood Shape}", "transmutation", null, null, "Reshapes wooden objects to suit you." ]				]
+					[ "{spell/Wood Shape}", "transmutation", null, null, "Reshapes wooden objects to suit you." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
@@ -2238,7 +2238,8 @@
 					[ "{spell/Waters of Lamashtu}", "conjuration", "creation", null, "Create a poison which looks like clean and pure water." ],
 					[ "{spell/Wing Thorns}", "transmutation", null, "poison", "Sprout poisonous thorns from your wings." ],
 					[ "{spell/Woodland Rune}", "abjuration", null, null, "Triggered rune slows the movements of creatures in the area" ],
-					[ "{spell/Zephyr's Fleetness}", "transmutation", null, "air", "+30 foot land and fly speed (if any) to your allies." ]				]
+					[ "{spell/Zephyr's Fleetness}", "transmutation", null, "air", "+30 foot land and fly speed (if any) to your allies." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]

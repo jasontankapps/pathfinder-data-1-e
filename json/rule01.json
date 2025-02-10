@@ -2888,7 +2888,7 @@
 			"Ultimate Combat"
 		],
 		"description": [
-			"{jumplist Combination Feats / Conduit Feats / Monster Feats / Origin Feats / Performance Feats / Alternate Rules Feats}",
+			"{jumplist Combination Feats / Conduit Feats / Monster Feats / Origin Feats / Performance Feats / Versatile Brewing Feats / Alternate Rules Feats}",
 			"",
 			"Other types of feats exist, detailed below.",
 			"",
@@ -2934,6 +2934,11 @@
 			"",
 			"{SOURCE Ultimate Combat/78}  ",
 			"[Performance feats](main/feats_performance) (15 feats) are used when you make a {rule/performance combat} check, typically granting a special action that occurs when you make that check. Unless you have the {feat/Masterful Display} feat, you can only apply the effect of one performance feat to each performance combat check you make.",
+			"",
+			"### Versatile Brewing Feats",
+			"",
+			"{SOURCE Potions and Poisons/16}  ",
+			"These feats allow potion brewers to concoct unusual variations in their potions, altering the potions' effects in strange and useful ways. These feats function similarly to metamagic feats, though they affect the creation of potions instead of the normal casting of spells. Level limits for potions apply to their level after the application of any relevant metamagic feats (if the feat affects the component spell's level).",
 			"",
 			"### Alternate Rules Feats",
 			"",

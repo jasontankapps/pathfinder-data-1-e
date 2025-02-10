@@ -717,7 +717,9 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		state.displayTable.actives[id],
 		state.displayTable.filters[id]
 	]);
-	const [initialized, setInitialized] = useState(false);
+	const [initializedId, setInitializedId] = useState(id);
+	const [initializedColumnInfo, setInitializedColumnInfo] = useState<SortObject | undefined>(undefined);
+	const [initializedFilterInfo, setInitializedFilterInfo] = useState<TableObject | undefined>(undefined);
 	const [activeHeaders, setActiveHeaders] = useState<number[]>(headers.map((h, i) => i));
 	const [types, setTypes] = useState(originalTypes);
 	const [rows, setRows] = useState(data);
@@ -800,17 +802,19 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			dispatch(setTableActive({id, data: {sortingOn: index, normalSort: sortDirection}}));
 		}
 	}, [rows, setRows, active, activeRows, setActive, dispatch]);
-	const headerItems = useMemo(() => headers.map((th, i) => {
-		return <Th
-			key={`table/${id}/header/${i}`}
-			index={i}
-			sortState={i === active ? latestSortDirection : undefined}
-			active={i === active}
-			sorter={sorter}
-			sortable={sortable && (types[i] !== 0)}
-			size={Array.isArray(sizes) ? sizes[i] : sizes}
-		>{th}</Th>;
-	}).filter((h, i) => (activeHeaders.indexOf(i) > -1)), [headers, activeHeaders, id, initialColumn, sorter, active, types, sortable, sizes]);
+	const headerItems = useMemo(() => {
+		return headers.map((th, i) => {
+			return <Th
+				key={`table/${id}/header/${i}`}
+				index={i}
+				sortState={i === active ? latestSortDirection : undefined}
+				active={i === active}
+				sorter={sorter}
+				sortable={sortable && (types[i] !== 0)}
+				size={Array.isArray(sizes) ? sizes[i] : sizes}
+			>{th}</Th>;
+		}).filter((h, i) => (activeHeaders.indexOf(i) > -1))
+	}, [headers, activeHeaders, id, initialColumn, sorter, active, types, sortable, sizes]);
 	const rowItems = useMemo(() => {
 		const visible = (activeRows) ? activeRows.map(n => rows[n]) : rows;
 		return visible.map((row, i) => {
@@ -844,10 +848,15 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	}, [sizes, activeHeaders]);
 	useEffect(() => {
 		// Restore saved table filters and sort status
-		if(initialized) {
+		if(
+			initializedId === id
+			&& initializedColumnInfo === incomingColumnInfo
+			&& initializedFilterInfo == incomingFilterInfo
+		) {
 			return;
 		}
-		if(incomingFilterInfo) {
+		if(incomingFilterInfo !== initializedFilterInfo && incomingFilterInfo) {
+			console.log("incoming filter");
 			const { headers, rows, order } = incomingFilterInfo;
 			// incoming headers may be [-1], which indicates the active headers were never changed
 			if(!(headers.length && (headers[0] === -1))) {
@@ -858,16 +867,31 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			setActiveRows(rows);
 			const orderedRows = order.map(i => data[i]);
 			setRows(orderedRows);
+		} else {
+			console.log("reset");
+			setActiveHeaders(headers.map((h, i) => i));
+			setTypes(originalTypes);
+			setActiveRows(data.map((x, i) => i));
+			setRows(data);
 		}
-		if(incomingColumnInfo) {
+		if(initializedColumnInfo !== incomingColumnInfo && incomingColumnInfo) {
+			console.log("incoming column");
 			const { sortingOn, normalSort } = incomingColumnInfo;
 			setActive(sortingOn);
 			setLatestSortDirection(normalSort);
+		} else {
+			setActive(initialColumn);
+			setLatestSortDirection(true);
 		}
-		setInitialized(true);
+		initializedId !== id && setInitializedId(id);
+		initializedColumnInfo !== incomingColumnInfo && setInitializedColumnInfo(incomingColumnInfo);
+		initializedFilterInfo !== incomingFilterInfo && setInitializedFilterInfo(incomingFilterInfo);
 	}, [
+		id, data, initializedId,
+		initializedFilterInfo, initializedColumnInfo,
 		incomingColumnInfo, incomingFilterInfo,
-		initialized, setInitialized, activeRows,
+		setInitializedId, setInitializedColumnInfo,
+		setInitializedFilterInfo, activeRows,
 		sorter, setActive, setActiveHeaders,
 		originalTypes, setTypes, setActiveRows
 	]);

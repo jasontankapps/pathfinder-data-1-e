@@ -680,18 +680,27 @@
 	"fear_ha": {
 		"name": "Fear",
 		"subtitle": "Horror, Specific Campaigns",
+		"tags": "levels of fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/10}",
 			"",
-			"In a game where terrible things lurk in the darkness and horrors crawl forth from nightmares to plague the living, the rules for fear are an important part of play. To help bring an appropriate atmosphere to the table, the following rules broaden the levels of fear and allow fear to have a greater impact on your character and the story."
+			"In a game where terrible things lurk in the darkness and horrors crawl forth from nightmares to plague the living, the rules for fear are an important part of play. To help bring an appropriate atmosphere to the table, the following rules broaden the levels of fear and allow fear to have a greater impact on your character and the story.",
+			"",
+			"### Levels of Fear",
+			"",
+			"The existing rules for fear offer three levels of fear, each one represented by a condition: shaken, frightened, and panicked. The following system expands the various states of fear into seven levels, divided into two groups (lesser fear and greater fear). The three levels of lesser fear - **spooked, shaken, and scared** - cause you to take penalties, but you are still ultimately in control. The four levels of greater fear - **frightened, panicked, terrified, and horrified** - cause you to progressively lose control of your character.",
+			"",
+			"When you are subject to a fear effect whose level exceeds your current fear level, your fear level increases to that level. If you are subject to a fear effect of a level equal to or lower than your current fear level, your fear level usually increases by one. However, multiple lesser fear effects can't force you to progress from a lesser fear level to a greater one. If you are scared and are subject to an additional lesser fear effect, you are staggered for 1 round, rather than becoming frightened. You can, however, accept the frightened condition rather than be staggered while scared if you prefer (such as if you actually want to run away).",
+			"",
+			"For example, Merisiel is exploring a haunted graveyard. Her GM declares she is spooked by her surroundings. She falls into a sinkhole filled with rotting corpses, which would also make her spooked. If she fails her Will save, her fear level increases to shaken. Later, after dealing with gruesome undead, she is scared and facing off against an evil cultist who casts {spell/doom}, which causes the shaken condition, on her. If she fails her save against the spell, she is staggered for 1 round (rather than frightened), since shaken is a lesser fear effect."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
 			"horror_rules"
 		],
 		"subtopics": [
-			"levels_of_fear",
+			"lesser_fear_and_greater_fear",
 			"fear_duration",
 			"adding_fear",
 			"fear_immunity"
@@ -709,41 +718,15 @@
 			"running_horror_adventures"
 		]
 	},
-	"levels_of_fear": {
-		"name": "Levels of Fear",
+	"lesser_fear_and_greater_fear": {
+		"name": "Lesser Fear and Greater Fear",
 		"subtitle": "Horror, Specific Campaigns",
+		"tags": "spooked, shaken, scared, frightened, panicked, terrified, horrified",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/10}",
 			"",
-			"The existing rules for fear offer three levels of fear, each one represented by a condition: shaken, frightened, and panicked. The following system expands the various states of fear into seven levels, divided into two groups (lesser fear and greater fear). The three levels of lesser fear - spooked, shaken, and scared - cause you to take penalties, but you are still ultimately in control. The four levels of greater fear - frightened, panicked, terrified, and horrified - cause you to progressively lose control of your character.",
-			"",
-			"When you are subject to a fear effect whose level exceeds your current fear level, your fear level increases to that level. If you are subject to a fear effect of a level equal to or lower than your current fear level, your fear level usually increases by one. However, multiple lesser fear effects can't force you to progress from a lesser fear level to a greater one. If you are scared and are subject to an additional lesser fear effect, you are staggered for 1 round, rather than becoming frightened. You can, however, accept the frightened condition rather than be staggered while scared if you prefer (such as if you actually want to run away).",
-			"",
-			"For example, Merisiel is exploring a haunted graveyard. Her GM declares she is spooked by her surroundings. She falls into a sinkhole filled with rotting corpses, which would also make her spooked. If she fails her Will save, her fear level increases to shaken. Later, after dealing with gruesome undead, she is scared and facing off against an evil cultist who casts {spell/doom}, which causes the shaken condition, on her. If she fails her save against the spell, she is staggered for 1 round (rather than frightened), since shaken is a lesser fear effect."
-		],
-		"parent_topics": [
-			"gm_specific_campaigns",
-			"horror_rules",
-			"fear_ha"
-		],
-		"subtopics": [
-			"lesser_fear",
-			"greater_fear"
-		],
-		"siblings": [
-			"levels_of_fear",
-			"fear_duration",
-			"adding_fear",
-			"fear_immunity"
-		]
-	},
-	"lesser_fear": {
-		"name": "Lesser Fear",
-		"subtitle": "Horror, Specific Campaigns",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"{SOURCE Horror Adventures/10}",
+			"### Lesser Fear",
 			"",
 			"Fear begins as a shiver down your spine, but soon grows.",
 			"",
@@ -751,25 +734,9 @@
 			"",
 			"2. ***Shaken:*** Fear has taken hold of you and you are no longer thinking or acting clearly. You take a -2 penalty on attack rolls, saving throws, skill checks, and ability checks.",
 			"",
-			"3. ***Scared:*** You are noticeably afraid, jumping at shadows and easily panicked by odd sights and unexplained noises. You take all of the penalties of the shaken condition, except the penalty on saves against fear effects becomes -4. In addition, if being subject to a lesser fear effect would increase your fear level, you are staggered for 1 round instead."
-		],
-		"parent_topics": [
-			"gm_specific_campaigns",
-			"horror_rules",
-			"fear_ha",
-			"levels_of_fear"
-		],
-		"siblings": [
-			"lesser_fear",
-			"greater_fear"
-		]
-	},
-	"greater_fear": {
-		"name": "Greater Fear",
-		"subtitle": "Horror, Specific Campaigns",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"{SOURCE Horror Adventures/10}",
+			"3. ***Scared:*** You are noticeably afraid, jumping at shadows and easily panicked by odd sights and unexplained noises. You take all of the penalties of the shaken condition, except the penalty on saves against fear effects becomes -4. In addition, if being subject to a lesser fear effect would increase your fear level, you are staggered for 1 round instead.",
+			"",
+			"### Greater Fear",
 			"",
 			"At these levels, your fear begins to overwhelm you.",
 			"",
@@ -791,12 +758,13 @@
 		"parent_topics": [
 			"gm_specific_campaigns",
 			"horror_rules",
-			"fear_ha",
-			"levels_of_fear"
+			"fear_ha"
 		],
 		"siblings": [
-			"lesser_fear",
-			"greater_fear"
+			"lesser_fear_and_greater_fear",
+			"fear_duration",
+			"adding_fear",
+			"fear_immunity"
 		]
 	},
 	"fear_duration": {
@@ -816,7 +784,7 @@
 			"fear_ha"
 		],
 		"siblings": [
-			"levels_of_fear",
+			"lesser_fear_and_greater_fear",
 			"fear_duration",
 			"adding_fear",
 			"fear_immunity"
@@ -837,7 +805,7 @@
 			"fear_ha"
 		],
 		"siblings": [
-			"levels_of_fear",
+			"lesser_fear_and_greater_fear",
 			"fear_duration",
 			"adding_fear",
 			"fear_immunity"
@@ -858,7 +826,7 @@
 			"fear_ha"
 		],
 		"siblings": [
-			"levels_of_fear",
+			"lesser_fear_and_greater_fear",
 			"fear_duration",
 			"adding_fear",
 			"fear_immunity"

@@ -323,8 +323,6 @@
 		"title": "All Magus Spells",
 		"sources": [],
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Magus Spells (Levels 0-1)]{endem=\"(112 spells)\" to=main/spells_magus_0_1}",
 			"",
 			"::main[Magus Spells (Levels 2-3)]{endem=\"(207 spells)\" to=main/spells_magus_2_3}",
@@ -1109,7 +1107,8 @@
 					[ "{spell/Wall of Split Illumination}", 3, "evocation", null, "darkness, light", "Create a wall of illumination, darkness on one side, light on the other." ],
 					[ "{spell/Water Breathing}", 3, "transmutation", null, null, "Subjects can breathe underwater." ],
 					[ "{spell/Waves of Blood}", 3, "conjuration", "creation", null, "A cone of blood pushes creatures, sickens them, and makes the ground slick." ],
-					[ "{spell/Wind Wall}", 3, "evocation", null, "air", "Deflects arrows, smaller creatures, and gases." ]				]
+					[ "{spell/Wind Wall}", 3, "evocation", null, "air", "Deflects arrows, smaller creatures, and gases." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Magus Spells", "main/spells_magus"] ]
@@ -1429,8 +1428,6 @@
 		"title": "All Occultist Spells",
 		"sources": [],
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Occultist Spells (Levels 0-1)]{endem=\"(132 spells)\" to=main/spells_occultist_0_1}",
 			"",
 			"::main[Occultist Spells (Level 2)]{endem=\"(146 spells)\" to=main/spells_occultist_2}",
@@ -1619,7 +1616,8 @@
 					[ "{spell/Vocal Alteration}", 1, "transmutation", null, null, "Disguise target's voice." ],
 					[ "{spell/Warding Weapon}", 1, "abjuration", null, null, "The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity." ],
 					[ "{spell/Wizened Appearance}", 1, "transmutation", "polymorph", null, "Make a target appear as an older version of itself." ],
-					[ "{spell/Youthful Appearance}", 1, "transmutation", "polymorph", null, "Target appears younger." ]				]
+					[ "{spell/Youthful Appearance}", 1, "transmutation", "polymorph", null, "Target appears younger." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Occultist Spells", "main/spells_occultist"] ]
@@ -1811,7 +1809,8 @@
 					[ "{spell/Wicker Horse}", "conjuration", "creation", null, "Create a mount out of the surrounding flora" ],
 					[ "{spell/Winged Sword}", "transmutation", null, null, "Grant a weapon the throwing special ability." ],
 					[ "{spell/With the Wind}", "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force" ],
-					[ "{spell/Wood Shape}", "transmutation", null, null, "Reshapes wooden objects to suit you." ]				]
+					[ "{spell/Wood Shape}", "transmutation", null, null, "Reshapes wooden objects to suit you." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Occultist Spells", "main/spells_occultist"] ]
@@ -1989,7 +1988,8 @@
 					[ "{spell/Vision of Hell}", "illusion", "glamer", "evil, fear", "Illusory hellscape makes creatures shaken." ],
 					[ "{spell/Wall of Split Illumination}", "evocation", null, "darkness, light", "Create a wall of illumination, darkness on one side, light on the other." ],
 					[ "{spell/Wind Wall}", "evocation", null, "air", "Deflects arrows, smaller creatures, and gases." ],
-					[ "{spell/Witness}", "divination", "scrying", null, "See through the target's eyes and ears." ]				]
+					[ "{spell/Witness}", "divination", "scrying", null, "See through the target's eyes and ears." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Occultist Spells", "main/spells_occultist"] ]
@@ -2160,7 +2160,8 @@
 					[ "{spell/Wall of Ice}", "evocation", null, "cold", "Ice plane creates wall or hemisphere creates dome." ],
 					[ "{spell/Wandering Star Motes}", "illusion", "pattern", "light, mind-affecting", "Outlines subject and produces light as a sunrod." ],
 					[ "{spell/Warp Metal}", "transmutation", null, "earth", "Warp wood, affecting metal objects" ],
-					[ "{spell/Wreath of Blades}", "abjuration", null, null, "Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity." ]				]
+					[ "{spell/Wreath of Blades}", "abjuration", null, null, "Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Occultist Spells", "main/spells_occultist"] ]
@@ -2352,8 +2353,6 @@
 		"title": "All Mesmerist Spells",
 		"sources": [],
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Mesmerist Spells (Levels 0-1)]{endem=\"(128 spells)\" to=main/spells_mesmerist_0_1}",
 			"",
 			"::main[Mesmerist Spells (Level 2)]{endem=\"(137 spells)\" to=main/spells_mesmerist_2}",
@@ -2535,7 +2534,8 @@
 					[ "{spell/Vanish}", 1, "illusion", "glamer", null, "As invisibility for 1 round/level (5 max)." ],
 					[ "{spell/Ventriloquism}", 1, "illusion", "figment", null, "Throws voice for 1 min./level." ],
 					[ "{spell/Vocal Alteration}", 1, "transmutation", null, null, "Disguise target's voice." ],
-					[ "{spell/Wizened Appearance}", 1, "transmutation", "polymorph", null, "Make a target appear as an older version of itself." ]				]
+					[ "{spell/Wizened Appearance}", 1, "transmutation", "polymorph", null, "Make a target appear as an older version of itself." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mesmerist Spells", "main/spells_mesmerist"] ]
@@ -2716,7 +2716,8 @@
 					[ "{spell/Violent Accident}", "transmutation", null, "curse", "Curse a target to have a lethal accident in the near future" ],
 					[ "{spell/Voluminous Vocabulary}", "divination", null, null, "Grant ability to speak, read, and write one or more languages for 8 hours." ],
 					[ "{spell/Wartrain Mount}", "enchantment", "compulsion", "mind-affecting", "Animal gains combat training." ],
-					[ "{spell/Whispering Wind}", "transmutation", null, "air", "Sends a short message 1 mile/level." ]				]
+					[ "{spell/Whispering Wind}", "transmutation", null, "air", "Sends a short message 1 mile/level." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mesmerist Spells", "main/spells_mesmerist"] ]
@@ -2950,7 +2951,8 @@
 					[ "{spell/Utter Contempt}", 4, "enchantment", null, "emotion", "Target's attitude worsens by two categories." ],
 					[ "{spell/Vicarious View}", 4, "divination", "scrying", null, "Plant a scrying sensor that you can use to spy on a creature, object, or location." ],
 					[ "{spell/Vigilant Rest}", 4, "abjuration", null, null, "Cause a sleeping creature to retain some perception of its surroundings" ],
-					[ "{spell/Zone of Silence}", 4, "illusion", "glamer", null, "Keeps eavesdroppers from overhearing you." ]				]
+					[ "{spell/Zone of Silence}", 4, "illusion", "glamer", null, "Keeps eavesdroppers from overhearing you." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mesmerist Spells", "main/spells_mesmerist"] ]

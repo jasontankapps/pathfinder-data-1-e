@@ -344,8 +344,6 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Alchemist Formulae (Levels 1-2)]{endem=\"(184 formulae)\" to=main/spells_alchemist_1_2}",
 			"",
 			"::main[Alchemist Formulae (Levels 3-6)]{endem=\"(224 formulae)\" to=main/spells_alchemist_3_6}"
@@ -856,8 +854,6 @@
 		"title": "All Spiritualist Spells",
 		"sources": [],
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Spiritualist Spells (Levels 0-2)]{endem=\"(137 spells)\" to=main/spells_spiritualist_0_2}",
 			"",
 			"::main[Spiritualist Spells (Levels 3-4)]{endem=\"(163 spells)\" to=main/spells_spiritualist_3_4}",
@@ -1043,7 +1039,8 @@
 					[ "{spell/Surmount Affliction}", 2, "abjuration", null, null, "Temporarily suppress one condition." ],
 					[ "{spell/Touch of Idiocy}", 2, "enchantment", "compulsion", "mind-affecting", "Subject takes 1d6 penalty to Int, Wis, and Cha." ],
 					[ "{spell/Twilight Haze}", 2, "illusion", "shadow", "darkness, shadow", "Illusory fog obscures vision." ],
-					[ "{spell/With the Wind}", 2, "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force" ]				]
+					[ "{spell/With the Wind}", 2, "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force" ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Spiritualist Spells", "main/spells_spiritualist"] ]
@@ -1249,7 +1246,8 @@
 					[ "{spell/Torpid Reanimation}", 4, "necromancy", null, "evil", "Animate dead when a specific trigger condition occurs." ],
 					[ "{spell/Vicarious View}", 4, "divination", "scrying", null, "Plant a scrying sensor that you can use to spy on a creature, object, or location." ],
 					[ "{spell/Vigilant Rest}", 4, "abjuration", null, null, "Cause a sleeping creature to retain some perception of its surroundings" ],
-					[ "{spell/Wall of Bone}", 4, "necromancy", null, null, "Create a wall of bones that damages and grapples adjacent creatures" ]				]
+					[ "{spell/Wall of Bone}", 4, "necromancy", null, null, "Create a wall of bones that damages and grapples adjacent creatures" ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Spiritualist Spells", "main/spells_spiritualist"] ]

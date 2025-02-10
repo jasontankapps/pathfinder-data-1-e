@@ -4,8 +4,6 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Warpriest Spells (Levels 0-1)]{endem=\"(178 spells)\" to=main/spells_warpriest_0_1}",
 			"",
 			"::main[Warpriest Spells (Level 2)]{endem=\"(217 spells)\" to=main/spells_warpriest_2}",
@@ -509,7 +507,8 @@
 					[ "{spell/Weapon of Awe}", "transmutation", null, "emotion", "Weapon gets +2 on damage rolls." ],
 					[ "{spell/Web Shelter}", "conjuration", "creation", null, "Create a comfortable shelter made of webbing." ],
 					[ "{spell/Whispering Lore}", "divination", null, null, "Gain a bonus to Knowledge based on the terrain you are in." ],
-					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie." ]				]
+					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie." ]
+				]
 			}
 		],
 		"previous": [
@@ -758,7 +757,8 @@
 					[ "{spell/Water Walk}", "transmutation", null, "water", "Subject treads on water as if solid." ],
 					[ "{spell/Waters of Lamashtu}", "conjuration", "creation", null, "Create a poison which looks like clean and pure water." ],
 					[ "{spell/Wind Wall}", "evocation", null, "air", "Deflects arrows, smaller creatures, and gases." ],
-					[ "{spell/Wrathful Mantle}", "evocation", null, "force, light", "Subject shines and gets +1/four levels on all saves." ]				]
+					[ "{spell/Wrathful Mantle}", "evocation", null, "force, light", "Subject shines and gets +1/four levels on all saves." ]
+				]
 			}
 		],
 		"previous": [
@@ -966,7 +966,8 @@
 					[ "{spell/Warp Metal}", "transmutation", null, "earth", "Warp wood, affecting metal objects" ],
 					[ "{spell/Water Shield}", "evocation", null, "acid, water", "Surround yourself with a protective spout of acid." ],
 					[ "{spell/Wave Form}", "transmutation", null, "water", "Briefly turn into a huge wave that knocks down everything in your path" ],
-					[ "{spell/Wrathful Weapon}", "transmutation", null, "see text", "Enhance a weapon with the anarchic, axiomatic, holy, or unholy special ability." ]				]
+					[ "{spell/Wrathful Weapon}", "transmutation", null, "see text", "Enhance a weapon with the anarchic, axiomatic, holy, or unholy special ability." ]
+				]
 			}
 		],
 		"previous": [
@@ -1261,8 +1262,6 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Bard Spells (Levels 0-1)]{endem=\"(208 spells)\" to=main/spells_bard_0_1}",
 			"",
 			"::main[Bard Spells (Level 2)]{endem=\"(238 spells)\" to=main/spells_bard_2}",
@@ -1522,7 +1521,8 @@
 					[ "{spell/Weaponwand}", 1, "transmutation", null, null, "Merge a wand with your weapon, allowing you to wield the wand at the same time you use your weapon." ],
 					[ "{spell/Windy Escape}", 1, "transmutation", null, "air", "Briefly become insubstantial, allowing an attack to pass harmlessly through you." ],
 					[ "{spell/Wizened Appearance}", 1, "transmutation", "polymorph", null, "Make a target appear as an older version of itself." ],
-					[ "{spell/Youthful Appearance}", 1, "transmutation", "polymorph", null, "Target appears younger." ]				]
+					[ "{spell/Youthful Appearance}", 1, "transmutation", "polymorph", null, "Target appears younger." ]
+				]
 			}
 		],
 		"previous": [
@@ -1808,7 +1808,8 @@
 					[ "{spell/Voluminous Vocabulary}", "divination", null, null, "Grant ability to speak, read, and write one or more languages for 8 hours." ],
 					[ "{spell/Wartrain Mount}", "enchantment", "compulsion", "mind-affecting", "Animal gains combat training." ],
 					[ "{spell/Whip of Spiders}", "conjuration", "summoning", null, "Create a whip made of poisonous spiders." ],
-					[ "{spell/Whispering Wind}", "transmutation", null, "air", "Sends a short message 1 mile/level." ]				]
+					[ "{spell/Whispering Wind}", "transmutation", null, "air", "Sends a short message 1 mile/level." ]
+				]
 			}
 		],
 		"previous": [

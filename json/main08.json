@@ -4,8 +4,6 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Cleric Spells (Levels 0-1)]{endem=\"(179 spells)\" to=main/spells_cleric_0_1}",
 			"",
 			"::main[Cleric Spells (Level 2)]{endem=\"(217 spells)\" to=main/spells_cleric_2}",
@@ -243,7 +241,8 @@
 					[ "{spell/Waterproof}", 1, "abjuration", null, "water", "Target becomes waterproof for the spells duration" ],
 					[ "{spell/Weapons Against Evil}", 1, "transmutation", null, null, "Enhance weapons with pale light that allow them to bypass minor DR of evil creatures." ],
 					[ "{spell/Weaponwand}", 1, "transmutation", null, null, "Merge a wand with your weapon, allowing you to wield the wand at the same time you use your weapon." ],
-					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day." ]				]
+					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
@@ -508,7 +507,8 @@
 					[ "{spell/Weapon of Awe}", "transmutation", null, "emotion", "Weapon gets +2 on damage rolls." ],
 					[ "{spell/Web Shelter}", "conjuration", "creation", null, "Create a comfortable shelter made of webbing." ],
 					[ "{spell/Whispering Lore}", "divination", null, null, "Gain a bonus to Knowledge based on the terrain you are in." ],
-					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie." ]				]
+					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
@@ -756,7 +756,8 @@
 					[ "{spell/Water Walk}", "transmutation", null, "water", "Subject treads on water as if solid." ],
 					[ "{spell/Waters of Lamashtu}", "conjuration", "creation", null, "Create a poison which looks like clean and pure water." ],
 					[ "{spell/Wind Wall}", "evocation", null, "air", "Deflects arrows, smaller creatures, and gases." ],
-					[ "{spell/Wrathful Mantle}", "evocation", null, "force, light", "Subject shines and gets +1/four levels on all saves." ]				]
+					[ "{spell/Wrathful Mantle}", "evocation", null, "force, light", "Subject shines and gets +1/four levels on all saves." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
@@ -963,7 +964,8 @@
 					[ "{spell/Warp Metal}", "transmutation", null, "earth", "Warp wood, affecting metal objects" ],
 					[ "{spell/Water Shield}", "evocation", null, "acid, water", "Surround yourself with a protective spout of acid." ],
 					[ "{spell/Wave Form}", "transmutation", null, "water", "Briefly turn into a huge wave that knocks down everything in your path" ],
-					[ "{spell/Wrathful Weapon}", "transmutation", null, "see text", "Enhance a weapon with the anarchic, axiomatic, holy, or unholy special ability." ]				]
+					[ "{spell/Wrathful Weapon}", "transmutation", null, "see text", "Enhance a weapon with the anarchic, axiomatic, holy, or unholy special ability." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
@@ -1242,7 +1244,8 @@
 					[ "{spell/What Grows Within}", 6, "necromancy", null, "evil", "Infect others with Xhamen-Dor's seeded infestation." ],
 					[ "{spell/Wind Walk}", 6, "transmutation", null, "air", "You and your allies turn vaporous and travel fast." ],
 					[ "{spell/Wither Limb}", 6, "necromancy", null, null, "Make one of the creature's limbs useless." ],
-					[ "{spell/Word of Recall}", 6, "conjuration", "teleportation", null, "Teleports you back to designated place." ]				]
+					[ "{spell/Word of Recall}", 6, "conjuration", "teleportation", null, "Teleports you back to designated place." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
@@ -1451,8 +1454,6 @@
 		"sources": [],
 		"searchgroup": "spell",
 		"description": [
-			"::main[Spells]{rev to=main/spells}",
-			"",
 			"::main[Oracle Spells (Levels 0-1)]{endem=\"(177 spells)\" to=main/spells_oracle_0_1}",
 			"",
 			"::main[Oracle Spells (Level 2)]{endem=\"(216 spells)\" to=main/spells_oracle_2}",
@@ -1692,7 +1693,8 @@
 					[ "{spell/Waterproof}", 1, "abjuration", null, "water", "Target becomes waterproof for the spells duration" ],
 					[ "{spell/Weapons Against Evil}", 1, "transmutation", null, null, "Enhance weapons with pale light that allow them to bypass minor DR of evil creatures." ],
 					[ "{spell/Weaponwand}", 1, "transmutation", null, null, "Merge a wand with your weapon, allowing you to wield the wand at the same time you use your weapon." ],
-					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day." ]				]
+					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
@@ -1958,7 +1960,8 @@
 					[ "{spell/Weapon of Awe}", "transmutation", null, "emotion", "Weapon gets +2 on damage rolls." ],
 					[ "{spell/Web Shelter}", "conjuration", "creation", null, "Create a comfortable shelter made of webbing." ],
 					[ "{spell/Whispering Lore}", "divination", null, null, "Gain a bonus to Knowledge based on the terrain you are in." ],
-					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie." ]				]
+					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
@@ -2208,7 +2211,8 @@
 					[ "{spell/Water Walk}", "transmutation", null, "water", "Subject treads on water as if solid." ],
 					[ "{spell/Waters of Lamashtu}", "conjuration", "creation", null, "Create a poison which looks like clean and pure water." ],
 					[ "{spell/Wind Wall}", "evocation", null, "air", "Deflects arrows, smaller creatures, and gases." ],
-					[ "{spell/Wrathful Mantle}", "evocation", null, "force, light", "Subject shines and gets +1/four levels on all saves." ]				]
+					[ "{spell/Wrathful Mantle}", "evocation", null, "force, light", "Subject shines and gets +1/four levels on all saves." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
@@ -2418,7 +2422,8 @@
 					[ "{spell/Warp Metal}", "transmutation", null, "earth", "Warp wood, affecting metal objects" ],
 					[ "{spell/Water Shield}", "evocation", null, "acid, water", "Surround yourself with a protective spout of acid." ],
 					[ "{spell/Wave Form}", "transmutation", null, "water", "Briefly turn into a huge wave that knocks down everything in your path" ],
-					[ "{spell/Wrathful Weapon}", "transmutation", null, "see text", "Enhance a weapon with the anarchic, axiomatic, holy, or unholy special ability." ]				]
+					[ "{spell/Wrathful Weapon}", "transmutation", null, "see text", "Enhance a weapon with the anarchic, axiomatic, holy, or unholy special ability." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
@@ -2597,7 +2602,8 @@
 					[ "{spell/Wall of Blindness or Deafness}", "necromancy", null, null, "Translucent wall blinds or deafens creatures that pass through it." ],
 					[ "{spell/Wall of Clockwork}", "conjuration", "creation", null, "Create a wall made up of spinning cogs and gears." ],
 					[ "{spell/Wall of Ectoplasm}", "evocation", null, null, "Wall of spirits blocks movement on Material Plane and Ethereal Plane and causes fear." ],
-					[ "{spell/Wall of Stone}", "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ]				]
+					[ "{spell/Wall of Stone}", "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
@@ -2803,7 +2809,8 @@
 					[ "{spell/Umbral Strike}", 7, "necromancy", "shadow", "darkness", "Throw a bolt of dark energy, dealing cold and negative energy damage." ],
 					[ "{spell/Vision of Lamashtu}", 7, "illusion", "phantasm", "mind-affecting, evil", "As nightmare, but can deliver a second spell when the target awakens." ],
 					[ "{spell/Waves of Ecstasy}", 7, "enchantment", "compulsion", "emotion, mind-affecting", "Pleasure stuns and staggers creatures." ],
-					[ "{spell/Word of Chaos}", 7, "evocation", null, "chaotic, sonic", "Kills, confuses, stuns, or deafens nonchaotic subjects." ]				]
+					[ "{spell/Word of Chaos}", 7, "evocation", null, "chaotic, sonic", "Kills, confuses, stuns, or deafens nonchaotic subjects." ]
+				]
 			}
 		],
 		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]

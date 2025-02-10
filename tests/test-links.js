@@ -242,7 +242,7 @@ const parseTree = (tree) => {
 const testLinks = () => {
 	const msg = [ "\n...beginning link validation tests\n" ];
 	let found = false;
-	all.forEach(([link, object, special]) => {
+	all.forEach(([link, object]) => {
 		// validate links
 		// `invalid links in ${link} files:`
 		const invalid = [];
