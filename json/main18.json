@@ -2100,7 +2100,7 @@
 				"types": [ null, "num", "gp", "lbs", "num", "num", "num", null, "num", "num", null, "num" ],
 				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null ],
 				"sizes": [ 7, 6, 5.5, 4, 4, 4, 5, 4, 3.5, 3.5, 3.5, 3.5 ],
-				"data": [ 
+				"data": [
 					[ "{eq-siegeengine/alchemist's fire}", [ 0, "siege engine ammunition" ], 200, 10, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, [ 100, "&mdash;" ], [ 10, "&mdash;" ], null, [ 50, "&mdash;" ] ],
 					[ "{eq-siegeengine/ballista net}", [ 0, "siege engine ammunition" ], 75, 15, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, [ 100, "&mdash;" ], [ 10, "&mdash;" ], null, [ 50, "&mdash;" ] ],
 					[ "{eq-siegeengine/blast shot}", [ 0, "siege engine ammunition" ], 30, 25, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, [ 100, "&mdash;" ], [ 10, "&mdash;" ], null, [ 50, "&mdash;" ] ],

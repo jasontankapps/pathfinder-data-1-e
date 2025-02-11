@@ -678,7 +678,7 @@
 					[ "{monster/Wysp, Fire}", 2, "outsider", [ 2, "tiny" ], [ 4, "N" ], "This sphere of elemental matter emits a strange hum that resonates with elemental power.", 10, 15, 12, 10, 13, 13, 3, 3, 13 ],
 					[ "{monster/Wysp, Water}", 2, "outsider", [ 2, "tiny" ], [ 4, "N" ], "This sphere of elemental matter emits a strange hum that resonates with elemental power.", 13, 12, 14, 10, 13, 13, 3, 2, 13 ],
 					[ "{monster/Xiao}", 2, "magical beast", [ 2, "tiny" ], [ 7, "CN" ], "This snarling blue-white monkey flies through the air on a pair of birdlike wings.", 4, 16, 14, 7, 11, 13, 3, 4, 11 ],
-					[ "{monster/Yellow Musk Creeper}", 2, "plant", [ 4, "medium" ], [ 4, "N" ], "Coiling around several human skeletons, this wet green plant's sickly flowers smoke with a nasty yellow vapor.", 17, 15, 16, [ -1, "&mdash;" ], 11, 8, 2, 5, 17 ]				
+					[ "{monster/Yellow Musk Creeper}", 2, "plant", [ 4, "medium" ], [ 4, "N" ], "Coiling around several human skeletons, this wet green plant's sickly flowers smoke with a nasty yellow vapor.", 17, 15, 16, [ -1, "&mdash;" ], 11, 8, 2, 5, 17 ]
 				],
 				"initialColumn": 1
 			}
@@ -1125,7 +1125,7 @@
 					[ "{monster/Yeti}", 4, "monstrous humanoid", [ 5, "large" ], [ 4, "N" ], "This creature stands like a man, yet is half again the height of most men and covered with a coat of thick white fur.", 19, 12, 15, 9, 12, 10, 6, 11, 22 ],
 					[ "{monster/Yhohm}", 4, "outsider", [ 2, "tiny" ], [ 3, "NG" ], "This beautiful dove is as bright as the sun and the size of an eagle, surrounded by an aura of blazing white flames.", 10, 15, 14, 10, 15, 14, 5, 5, 18 ],
 					[ "{monster/Zentragt}", 4, "outsider", [ 5, "large" ], [ 7, "CN" ], "This ferocious ursine brute has blade-like metallic teeth and appears to be covered in overlapping iron plates.", 17, 12, 13, 8, 11, 10, 6, 10, 21 ],
-					[ "{monster/Zuvembie}", 4, "undead", [ 4, "medium" ], [ 5, "NE" ], "This withered old corpse has a feral glint in her eyes and clasps a rusty axe in her yellow-nailed hands.", 13, 14, [ -1, "&mdash;" ], 11, 14, 15, 3, 4, 17 ]				
+					[ "{monster/Zuvembie}", 4, "undead", [ 4, "medium" ], [ 5, "NE" ], "This withered old corpse has a feral glint in her eyes and clasps a rusty axe in her yellow-nailed hands.", 13, 14, [ -1, "&mdash;" ], 11, 14, 15, 3, 4, 17 ]
 				],
 				"initialColumn": 1
 			}

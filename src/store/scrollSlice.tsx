@@ -11,7 +11,7 @@ interface Updater {
 }
 
 // Define the initial value for the slice state
-const initialState: ScrollState = {};
+export const initialState: ScrollState = {};
 
 // Slices contain Redux reducer logic for updating state, and
 // generate actions that can be dispatched to trigger those updates.

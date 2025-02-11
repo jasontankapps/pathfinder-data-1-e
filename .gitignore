@@ -30,7 +30,7 @@ yarn-error.log*
 
 # Build data
 src/json/_data*
-src/js/_data*
+src/pages/subpages/__*
 
 # Temporary files
 __*.*

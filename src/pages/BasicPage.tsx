@@ -28,6 +28,7 @@ interface PageProps extends Partial<DisplayItemProps> {
 	hideSources?: boolean
 	pageId: string
 	error?: boolean
+	notBookmarkable?: boolean
 }
 
 const debounceNamespace: { [key: string]: any } = {};
@@ -163,6 +164,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		sources = [],
 		hideSources,
 		pageId,
+		notBookmarkable,
 		className
 	} = props;
 	const dispatch = useAppDispatch();
@@ -260,7 +262,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		mod,
 		setHighlightedText
 	), [markers, highlightedText, setHighlightedText]);
-	
+
 	return (
 		<AnimatePresence>
 		{isMatch && <motion.div
@@ -287,6 +289,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 						: undefined
 				}
 				findingInPage={searchBoxOpen}
+				notBookmarkable={notBookmarkable}
 			/>
 			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={contentObj}>
 				{hideSources ?

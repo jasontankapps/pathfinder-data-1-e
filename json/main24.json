@@ -405,7 +405,7 @@
 					[ "{monster/Wyvern}", 6, "dragon", [ 5, "large" ], [ 4, "N" ], "A dark blue dragon, its wings immense and its tail tipped with a hooked stinger, lands on two taloned feet and roars a challenge.", 19, 12, 18, 7, 12, 9, 7, 12, 23 ],
 					[ "{monster/Xill}", 6, "outsider", [ 4, "medium" ], [ 2, "LE" ], "This flame-red humanoid appears to be a strange mix of insect and reptile, with four arms and twitching, fanged mandibles.", 17, 18, 14, 15, 12, 11, 9, 12, 26 ],
 					[ "{monster/Xorn}", 6, "outsider", [ 4, "medium" ], [ 4, "N" ], "This squat beast is as wide as it is tall. Strangely symmetrical, it has three arms, three legs, three eyes, and one huge mouth.", 17, 10, 17, 10, 11, 10, 7, 10, 20 ],
-					[ "{monster/Yolubilis Heron}", 6, "animal", [ 6, "huge" ], [ 4, "N" ], "As tall as a tree, this dark gray bird stands on long legs. Its curved neck supports a sleek head with a slim but wicked beak.", 22, 15, 18, 2, 13, 9, 6, 14, 26 ]				
+					[ "{monster/Yolubilis Heron}", 6, "animal", [ 6, "huge" ], [ 4, "N" ], "As tall as a tree, this dark gray bird stands on long legs. Its curved neck supports a sleek head with a slim but wicked beak.", 22, 15, 18, 2, 13, 9, 6, 14, 26 ]
 				],
 				"initialColumn": 1
 			}
@@ -789,7 +789,7 @@
 					[ "{monster/Wolf-in-Sheep's-Clothing}", 8, "aberration", [ 4, "medium" ], [ 4, "N" ], "A small forest animal sits motionless atop a worn stump - and then the stump's face peels open into a maw of sharp teeth.", 17, 10, 17, 6, 14, 7, 9, 12, 22 ],
 					[ "{monster/Worm That Walks, Locust Variant}", 8, "vermin", [ 4, "medium" ], [ 8, "CE" ], "Hordes of swarming locusts coalesce to make up the form of a humanoid woman carrying a scythe, a demonic symbol emblazoned on her chest.", 13, 14, 18, 8, 20, 12, 5, 6, 29 ],
 					[ "{monster/Yuki-Onna}", 8, "undead", [ 4, "medium" ], [ 2, "LE" ], "This beautiful but sad-looking woman wears an ornate robe and is surrounded by a whirling mass of snow.", [ -1, "&mdash;" ], 18, [ -1, "&mdash;" ], 17, 21, 22, 6, 10, 27 ],
-					[ "{monster/Yaddithian}", 8, "aberration", [ 4, "medium" ], [ 4, "N" ], "This insectile biped has a tapir-like snout and is unmistakably alien in appearance, despite its vaguely humanoid shape.", 12, 14, 15, 19, 8, 8, 4, 5, 18 ]				
+					[ "{monster/Yaddithian}", 8, "aberration", [ 4, "medium" ], [ 4, "N" ], "This insectile biped has a tapir-like snout and is unmistakably alien in appearance, despite its vaguely humanoid shape.", 12, 14, 15, 19, 8, 8, 4, 5, 18 ]
 				],
 				"initialColumn": 1
 			}
@@ -1232,7 +1232,7 @@
 					[ "{monster/Troop, Cultist}", 11, "humanoid", [ 4, "medium" ], [ 8, "CE" ], "A band of violet-skinned elves raises their hands high as vile magic swirls in the air above them.", 20, 21, 18, 10, 17, 15, 12, 17, 33 ],
 					[ "{monster/Troops, Warmaze Disciples Troop}", 11, "monstrous humanoid", [ 5, "large" ], [ 8, "CE" ], null, 26, 13, 18, 7, 10, 9, 16, 25, 37 ],
 					[ "{monster/Verdurous Ooze, Greater Verduous Ooze}", 11, "ooze", [ 5, "large" ], [ 4, "N" ], "A pool of greenish muck, blossoming with weird vegetable-like growths and sap-seeping boils, twitches into unnatural motion as a pseudopod springs outward, dragging the entire grotesque mass forward with an ameboid life.", 24, 1, 26, [ -1, "&mdash;" ], 1, 1, 11, 19, 24 ],
-					[ "{monster/Wild Hunt, Wild Hunt Horse}", 11, "fey", [ 5, "large" ], [ 7, "CN" ], "This powerful steed stands upon wispy puffs of air, its grassy mane and tail swishing majestically in the wind.", 34, 19, 18, 9, 12, 17, 9, 22, 40 ]				
+					[ "{monster/Wild Hunt, Wild Hunt Horse}", 11, "fey", [ 5, "large" ], [ 7, "CN" ], "This powerful steed stands upon wispy puffs of air, its grassy mane and tail swishing majestically in the wind.", 34, 19, 18, 9, 12, 17, 9, 22, 40 ]
 				],
 				"initialColumn": 1
 			}

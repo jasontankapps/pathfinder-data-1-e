@@ -52,7 +52,7 @@ setupIonicReact({
 	hardwareBackButton: false
 });
 
-const FeatTreePage = lazy(() => import("./FeatTreePage"));
+const FeatTreePage = lazy(() => import("./pages/FeatTreePage"));
 const AfflictionPage = lazy(() => import("./pages/AfflictionPage"));
 const ArcanaPage = lazy(() => import("./pages/ArcanaPage"));
 const AspectPage = lazy(() => import("./pages/AspectPage"));

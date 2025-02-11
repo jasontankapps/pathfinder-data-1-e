@@ -392,8 +392,13 @@ div.main.basicContent h6 a {
 
 /* General tables */
 
-ion-button[slot=end] + ion-button[slot=end] {
-	margin-inline-start: 0.5rem;;
+ion-button[slot=end] + ion-button[slot=end],
+ion-buttons[slot=end] ion-button + ion-button {
+	margin-inline-start: 0.5rem;
+}
+ion-button[slot=start] + ion-button[slot=start],
+ion-buttons[slot=start] ion-button + ion-button {
+	margin-inline-end: 0.5rem;
 }
 ion-button.tableFilterButton {
 	float: inline-end;
@@ -671,10 +676,10 @@ div.featsTreePage section + section {
 	/*border: 0;
 	border-inline-start: 0.25rem;
 	border-style: solid;
-	border-image: 
+	border-image:
 		linear-gradient(
-			to bottom, 
-			var(--ion-color-secondary), 
+			to bottom,
+			var(--ion-color-secondary),
 			transparent 98%
 		) 1 100%;*/
 	padding-block-end: 0.75rem;

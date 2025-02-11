@@ -1,0 +1,533 @@
+/* Bookmarks */
+ion-icon,
+ion-text {
+  --red: #d00;
+  --orange: #e60;
+  --yellow: #cc0;
+  --green: #0b0;
+  --teal: #069;
+  --cyan: #0bb;
+  --blue: #00c;
+  --purple: #60c;
+  --magenta: #d0d;
+  --pink: #f6c;
+}
+/*
+Non-working...
+
+	color: transparent;
+	background: linear-gradient(82deg, var(--red), var(--red) 45%, var(--orange) 55%);
+	background-clip: text;
+
+*/
+
+/* Bookmark Icons */
+
+ion-icon.color-red,
+ion-text.color-red {
+	color: var(--red);
+}
+ion-icon.color-red-orange {
+	color: var(--red);
+	background: var(--orange);
+	border-radius: 0.5rem;
+}
+ion-icon.color-red-yellow {
+	color: var(--red);
+	background: var(--yellow);
+	border-radius: 0.5rem;
+}
+ion-icon.color-red-green {
+	color: var(--red);
+	background: var(--green);
+	border-radius: 0.5rem;
+}
+ion-icon.color-red-teal {
+	color: var(--red);
+	background: var(--teal);
+	border-radius: 0.5rem;
+}
+ion-icon.color-red-cyan {
+	color: var(--red);
+	background: var(--cyan);
+	border-radius: 0.5rem;
+}
+ion-icon.color-red-blue {
+	color: var(--red);
+	background: var(--blue);
+	border-radius: 0.5rem;
+}
+ion-icon.color-red-purple {
+	color: var(--red);
+	background: var(--purple);
+	border-radius: 0.5rem;
+}
+ion-icon.color-red-magenta {
+	color: var(--red);
+	background: var(--magenta);
+	border-radius: 0.5rem;
+}
+ion-icon.color-red-pink {
+	color: var(--red);
+	background: var(--pink);
+	border-radius: 0.5rem;
+}
+
+
+ion-icon.color-orange,
+ion-text.color-orange {
+	color: var(--orange);
+}
+ion-icon.color-orange-red {
+	color: var(--orange);
+	background: var(--red);
+	border-radius: 0.5rem;
+}
+ion-icon.color-orange-yellow {
+	color: var(--orange);
+	background: var(--yellow);
+	border-radius: 0.5rem;
+}
+ion-icon.color-orange-green {
+	color: var(--orange);
+	background: var(--green);
+	border-radius: 0.5rem;
+}
+ion-icon.color-orange-teal {
+	color: var(--orange);
+	background: var(--teal);
+	border-radius: 0.5rem;
+}
+ion-icon.color-orange-cyan {
+	color: var(--orange);
+	background: var(--cyan);
+	border-radius: 0.5rem;
+}
+ion-icon.color-orange-blue {
+	color: var(--orange);
+	background: var(--blue);
+	border-radius: 0.5rem;
+}
+ion-icon.color-orange-purple {
+	color: var(--orange);
+	background: var(--purple);
+	border-radius: 0.5rem;
+}
+ion-icon.color-orange-magenta {
+	color: var(--orange);
+	background: var(--magenta);
+	border-radius: 0.5rem;
+}
+ion-icon.color-orange-pink {
+	color: var(--orange);
+	background: var(--pink);
+	border-radius: 0.5rem;
+}
+
+
+ion-icon.color-yellow,
+ion-text.color-yellow {
+	color: var(--yellow);
+}
+ion-icon.color-yellow-red {
+	color: var(--yellow);
+	background: var(--red);
+	border-radius: 0.5rem;
+}
+ion-icon.color-yellow-orange {
+	color: var(--yellow);
+	background: var(--orange);
+	border-radius: 0.5rem;
+}
+ion-icon.color-yellow-green {
+	color: var(--yellow);
+	background: var(--green);
+	border-radius: 0.5rem;
+}
+ion-icon.color-yellow-teal {
+	color: var(--yellow);
+	background: var(--teal);
+	border-radius: 0.5rem;
+}
+ion-icon.color-yellow-cyan {
+	color: var(--yellow);
+	background: var(--cyan);
+	border-radius: 0.5rem;
+}
+ion-icon.color-yellow-blue {
+	color: var(--yellow);
+	background: var(--blue);
+	border-radius: 0.5rem;
+}
+ion-icon.color-yellow-purple {
+	color: var(--yellow);
+	background: var(--purple);
+	border-radius: 0.5rem;
+}
+ion-icon.color-yellow-magenta {
+	color: var(--yellow);
+	background: var(--magenta);
+	border-radius: 0.5rem;
+}
+ion-icon.color-yellow-pink {
+	color: var(--yellow);
+	background: var(--pink);
+	border-radius: 0.5rem;
+}
+
+
+ion-icon.color-green,
+ion-text.color-green {
+	color: var(--green);
+}
+ion-icon.color-green-red {
+	color: var(--green);
+	background: var(--red);
+	border-radius: 0.5rem;
+}
+ion-icon.color-green-orange {
+	color: var(--green);
+	background: var(--orange);
+	border-radius: 0.5rem;
+}
+ion-icon.color-green-yellow {
+	color: var(--green);
+	background: var(--yellow);
+	border-radius: 0.5rem;
+}
+ion-icon.color-green-teal {
+	color: var(--green);
+	background: var(--teal);
+	border-radius: 0.5rem;
+}
+ion-icon.color-green-cyan {
+	color: var(--green);
+	background: var(--cyan);
+	border-radius: 0.5rem;
+}
+ion-icon.color-green-blue {
+	color: var(--green);
+	background: var(--blue);
+	border-radius: 0.5rem;
+}
+ion-icon.color-green-purple {
+	color: var(--green);
+	background: var(--purple);
+	border-radius: 0.5rem;
+}
+ion-icon.color-green-magenta {
+	color: var(--green);
+	background: var(--magenta);
+	border-radius: 0.5rem;
+}
+ion-icon.color-green-pink {
+	color: var(--green);
+	background: var(--pink);
+	border-radius: 0.5rem;
+}
+
+
+ion-icon.color-teal,
+ion-text.color-teal {
+	color: var(--teal);
+}
+ion-icon.color-teal-red {
+	color: var(--teal);
+	background: var(--red);
+	border-radius: 0.5rem;
+}
+ion-icon.color-teal-orange {
+	color: var(--teal);
+	background: var(--orange);
+	border-radius: 0.5rem;
+}
+ion-icon.color-teal-yellow {
+	color: var(--teal);
+	background: var(--yellow);
+	border-radius: 0.5rem;
+}
+ion-icon.color-teal-green {
+	color: var(--teal);
+	background: var(--green);
+	border-radius: 0.5rem;
+}
+ion-icon.color-teal-cyan {
+	color: var(--teal);
+	background: var(--cyan);
+	border-radius: 0.5rem;
+}
+ion-icon.color-teal-blue {
+	color: var(--teal);
+	background: var(--blue);
+	border-radius: 0.5rem;
+}
+ion-icon.color-teal-purple {
+	color: var(--teal);
+	background: var(--purple);
+	border-radius: 0.5rem;
+}
+ion-icon.color-teal-magenta {
+	color: var(--teal);
+	background: var(--magenta);
+	border-radius: 0.5rem;
+}
+ion-icon.color-teal-pink {
+	color: var(--teal);
+	background: var(--pink);
+	border-radius: 0.5rem;
+}
+
+
+ion-icon.color-cyan,
+ion-text.color-cyan {
+	color: var(--cyan);
+}
+ion-icon.color-cyan-red {
+	color: var(--cyan);
+	background: var(--red);
+	border-radius: 0.5rem;
+}
+ion-icon.color-cyan-orange {
+	color: var(--cyan);
+	background: var(--orange);
+	border-radius: 0.5rem;
+}
+ion-icon.color-cyan-yellow {
+	color: var(--cyan);
+	background: var(--yellow);
+	border-radius: 0.5rem;
+}
+ion-icon.color-cyan-green {
+	color: var(--cyan);
+	background: var(--green);
+	border-radius: 0.5rem;
+}
+ion-icon.color-cyan-teal {
+	color: var(--cyan);
+	background: var(--teal);
+	border-radius: 0.5rem;
+}
+ion-icon.color-cyan-blue {
+	color: var(--cyan);
+	background: var(--blue);
+	border-radius: 0.5rem;
+}
+ion-icon.color-cyan-purple {
+	color: var(--cyan);
+	background: var(--purple);
+	border-radius: 0.5rem;
+}
+ion-icon.color-cyan-magenta {
+	color: var(--cyan);
+	background: var(--magenta);
+	border-radius: 0.5rem;
+}
+ion-icon.color-cyan-pink {
+	color: var(--cyan);
+	background: var(--pink);
+	border-radius: 0.5rem;
+}
+
+
+ion-icon.color-blue,
+ion-text.color-blue {
+	color: var(--blue);
+}
+ion-icon.color-blue-red {
+	color: var(--blue);
+	background: var(--red);
+	border-radius: 0.5rem;
+}
+ion-icon.color-blue-orange {
+	color: var(--blue);
+	background: var(--orange);
+	border-radius: 0.5rem;
+}
+ion-icon.color-blue-yellow {
+	color: var(--blue);
+	background: var(--yellow);
+	border-radius: 0.5rem;
+}
+ion-icon.color-blue-green {
+	color: var(--blue);
+	background: var(--green);
+	border-radius: 0.5rem;
+}
+ion-icon.color-blue-teal {
+	color: var(--blue);
+	background: var(--teal);
+	border-radius: 0.5rem;
+}
+ion-icon.color-blue-cyan {
+	color: var(--blue);
+	background: var(--cyan);
+	border-radius: 0.5rem;
+}
+ion-icon.color-blue-purple {
+	color: var(--blue);
+	background: var(--purple);
+	border-radius: 0.5rem;
+}
+ion-icon.color-blue-magenta {
+	color: var(--blue);
+	background: var(--magenta);
+	border-radius: 0.5rem;
+}
+ion-icon.color-blue-pink {
+	color: var(--blue);
+	background: var(--pink);
+	border-radius: 0.5rem;
+}
+
+
+ion-icon.color-purple,
+ion-text.color-purple {
+	color: var(--purple);
+}
+ion-icon.color-purple-red {
+	color: var(--purple);
+	background: var(--red);
+	border-radius: 0.5rem;
+}
+ion-icon.color-purple-orange {
+	color: var(--purple);
+	background: var(--orange);
+	border-radius: 0.5rem;
+}
+ion-icon.color-purple-yellow {
+	color: var(--purple);
+	background: var(--yellow);
+	border-radius: 0.5rem;
+}
+ion-icon.color-purple-green {
+	color: var(--purple);
+	background: var(--green);
+	border-radius: 0.5rem;
+}
+ion-icon.color-purple-teal {
+	color: var(--purple);
+	background: var(--teal);
+	border-radius: 0.5rem;
+}
+ion-icon.color-purple-cyan {
+	color: var(--purple);
+	background: var(--cyan);
+	border-radius: 0.5rem;
+}
+ion-icon.color-purple-blue {
+	color: var(--purple);
+	background: var(--blue);
+	border-radius: 0.5rem;
+}
+ion-icon.color-purple-magenta {
+	color: var(--purple);
+	background: var(--magenta);
+	border-radius: 0.5rem;
+}
+ion-icon.color-purple-pink {
+	color: var(--purple);
+	background: var(--pink);
+	border-radius: 0.5rem;
+}
+
+
+ion-icon.color-magenta,
+ion-text.color-magenta {
+	color: var(--magenta);
+}
+ion-icon.color-magenta-red {
+	color: var(--magenta);
+	background: var(--red);
+	border-radius: 0.5rem;
+}
+ion-icon.color-magenta-orange {
+	color: var(--magenta);
+	background: var(--orange);
+	border-radius: 0.5rem;
+}
+ion-icon.color-magenta-yellow {
+	color: var(--magenta);
+	background: var(--yellow);
+	border-radius: 0.5rem;
+}
+ion-icon.color-magenta-green {
+	color: var(--magenta);
+	background: var(--green);
+	border-radius: 0.5rem;
+}
+ion-icon.color-magenta-teal {
+	color: var(--magenta);
+	background: var(--teal);
+	border-radius: 0.5rem;
+}
+ion-icon.color-magenta-cyan {
+	color: var(--magenta);
+	background: var(--cyan);
+	border-radius: 0.5rem;
+}
+ion-icon.color-magenta-blue {
+	color: var(--magenta);
+	background: var(--blue);
+	border-radius: 0.5rem;
+}
+ion-icon.color-magenta-purple {
+	color: var(--magenta);
+	background: var(--purple);
+	border-radius: 0.5rem;
+}
+ion-icon.color-magenta-pink {
+	color: var(--magenta);
+	background: var(--pink);
+	border-radius: 0.5rem;
+}
+
+
+ion-icon.color-pink,
+ion-text.color-pink {
+	color: var(--pink);
+}
+ion-icon.color-pink-red {
+	color: var(--pink);
+	background: var(--red);
+	border-radius: 0.5rem;
+}
+ion-icon.color-pink-orange {
+	color: var(--pink);
+	background: var(--orange);
+	border-radius: 0.5rem;
+}
+ion-icon.color-pink-yellow {
+	color: var(--pink);
+	background: var(--yellow);
+	border-radius: 0.5rem;
+}
+ion-icon.color-pink-green {
+	color: var(--pink);
+	background: var(--green);
+	border-radius: 0.5rem;
+}
+ion-icon.color-pink-teal {
+	color: var(--pink);
+	background: var(--teal);
+	border-radius: 0.5rem;
+}
+ion-icon.color-pink-cyan {
+	color: var(--pink);
+	background: var(--cyan);
+	border-radius: 0.5rem;
+}
+ion-icon.color-pink-blue {
+	color: var(--pink);
+	background: var(--blue);
+	border-radius: 0.5rem;
+}
+ion-icon.color-pink-purple {
+	color: var(--pink);
+	background: var(--purple);
+	border-radius: 0.5rem;
+}
+ion-icon.color-pink-magenta {
+	color: var(--pink);
+	background: var(--magenta);
+	border-radius: 0.5rem;
+}

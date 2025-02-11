@@ -856,7 +856,6 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			return;
 		}
 		if(incomingFilterInfo !== initializedFilterInfo && incomingFilterInfo) {
-			console.log("incoming filter");
 			const { headers, rows, order } = incomingFilterInfo;
 			// incoming headers may be [-1], which indicates the active headers were never changed
 			if(!(headers.length && (headers[0] === -1))) {
@@ -868,14 +867,12 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			const orderedRows = order.map(i => data[i]);
 			setRows(orderedRows);
 		} else {
-			console.log("reset");
 			setActiveHeaders(headers.map((h, i) => i));
 			setTypes(originalTypes);
 			setActiveRows(data.map((x, i) => i));
 			setRows(data);
 		}
 		if(initializedColumnInfo !== incomingColumnInfo && incomingColumnInfo) {
-			console.log("incoming column");
 			const { sortingOn, normalSort } = incomingColumnInfo;
 			setActive(sortingOn);
 			setLatestSortDirection(normalSort);

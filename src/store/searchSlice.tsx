@@ -16,7 +16,7 @@ interface SearchState extends BooleanState {
 }
 
 // Define the initial value for the slice state
-const initialState: SearchState = {
+export const initialState: SearchState = {
 	searchtext: "",
 	filter: [],
 	separateWordSearch: false,

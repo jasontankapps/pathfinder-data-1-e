@@ -36,6 +36,7 @@ http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
 :root {
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -175,7 +176,7 @@ http://ionicframework.com/docs/theming/ */
     --ion-color-tertiary-contrast-rgb: 0, 0, 0;
     --ion-color-tertiary-shade: #e0bb2e;
     --ion-color-tertiary-tint: #ffd948;
-  
+
     --ion-color-success: #2fdf75;
     --ion-color-success-rgb: 47,223,117;
     --ion-color-success-contrast: #000000;
@@ -322,7 +323,7 @@ http://ionicframework.com/docs/theming/ */
 }
 
 html {
-  /* For more information on dynamic font scaling, visit the documentation: 
+  /* For more information on dynamic font scaling, visit the documentation:
   https://ionicframework.com/docs/layout/dynamic-font-scaling */
   --ion-dynamic-font: var(--ion-default-dynamic-font);
 	--ion-font-family: 'Taviraj', 'Symbola', serif;

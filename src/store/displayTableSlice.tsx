@@ -25,7 +25,7 @@ interface DisplayTableState {
 }
 
 // Define the initial value for the slice state
-const initialState: DisplayTableState = {
+export const initialState: DisplayTableState = {
 	actives: {},
 	filters: {}
 };

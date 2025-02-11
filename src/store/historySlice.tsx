@@ -10,7 +10,7 @@ interface HistoryState {
 type NewLocation = string;
 
 // Define the initial value for the slice state
-const initialState: HistoryState = {
+export const initialState: HistoryState = {
 	current: "/",
 	previous: [],
 	next: []
