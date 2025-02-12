@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import equipment from './subpages/__eq-spellbook';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof equipment;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Spellbooks", "main/equipment_spellbook"];
 
 const EquipmentSpellbookPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const EquipmentSpellbookPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/eq-spellbook/" + id}
-		topLink={["Spellbooks", "main/equipment_spellbook"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

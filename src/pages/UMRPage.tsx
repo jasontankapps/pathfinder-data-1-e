@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import umr from './subpages/__umr';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof umr;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Universal Monster Rules", "main/umr"];
 
 const UMRPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const UMRPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/umr/" + id}
-		topLink={["Universal Monster Rules", "main/umr"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

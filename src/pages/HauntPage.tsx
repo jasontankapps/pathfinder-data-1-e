@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import haunts from './subpages/__haunt';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof haunts;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Haunts", "main/haunts"];
 
 const HauntPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const HauntPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/haunt/" + id}
-		topLink={["Haunts", "main/haunts"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

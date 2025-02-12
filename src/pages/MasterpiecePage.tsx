@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import masterpieces from './subpages/__bardicmasterpiece';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof masterpieces;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Bardic Masterpieces", "ability/bardic_masterpieces"];
 
 const MasterpiecePage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const MasterpiecePage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/bardicmasterpiece/" + id}
-		topLink={["Bardic Masterpieces", "ability/bardic_masterpieces"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

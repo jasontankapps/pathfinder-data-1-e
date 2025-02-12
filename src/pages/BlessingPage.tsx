@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import blessings from './subpages/__blessing';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof blessings;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Warpriest Blessings", "ability/blessings"];
 
 const BlessingPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const BlessingPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/blessing/" + id}
-		topLink={["Warpriest Blessings", "ability/blessings"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

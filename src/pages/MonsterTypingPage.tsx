@@ -1,9 +1,12 @@
 import { useLocation, useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import monster_types from './subpages/__type';
 import monster_subtypes from './subpages/__subtype';
 import BasicPage from './BasicPage';
 import './Page.css';
+
+const topLink: Hierarchy = ["Universal Monster Rules", "main/umr"];
 
 const typings = {...monster_types, ...monster_subtypes};
 
@@ -26,7 +29,7 @@ const MonsterTypingPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={((m && m[0]) || "/type/") + id}
-		topLink={["Universal Monster Rules", "main/umr"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import domains from './subpages/__druiddomain';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof domains;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Druid Domains", "ability/druid_domains"];
 
 const DruidDomainPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const DruidDomainPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/druiddomain/" + id}
-		topLink={["Druid Domains", "ability/druid_domains"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

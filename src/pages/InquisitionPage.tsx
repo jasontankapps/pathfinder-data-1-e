@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import inquisitions from './subpages/__inquisition';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof inquisitions;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Inquisitions", "ability/inquisitions"];
 
 const InquisitionPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const InquisitionPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/inquisition/" + id}
-		topLink={["Inquisitions", "ability/inquisitions"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

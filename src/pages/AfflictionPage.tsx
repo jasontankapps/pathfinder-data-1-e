@@ -4,7 +4,7 @@ import curses from './subpages/__curse';
 import diseases from './subpages/__disease';
 import infestations from './subpages/__infestation';
 import BasicPage from './BasicPage';
-import { Hierarchy, HierarchyArray } from '../types';
+import { Hierarchy } from '../types';
 import './Page.css';
 
 type Affliction = "curse" | "disease" | "infestation";
@@ -17,18 +17,18 @@ type Id = keyof DataCurse & keyof DataDisease & keyof DataInfestation;
 
 type Params = { id?: Id };
 
-const topCurse: HierarchyArray = [["Curses", "rule/curses"]];
-const topDisease: HierarchyArray = [["Curses", "rule/curses"]];
-const topInfestation: HierarchyArray = [["Curses", "rule/curses"]];
+const topCurse: Hierarchy = ["Curses", "rule/curses"];
+const topDisease: Hierarchy = ["Curses", "rule/curses"];
+const topInfestation: Hierarchy = ["Curses", "rule/curses"];
 
 const getByType = (id: Id | undefined, type: Affliction) => {
 	switch(type) {
 		case "curse":
-			return {...getItem<DataCurse>(id, curses), subhierarchy: topCurse};
+			return {...getItem<DataCurse>(id, curses), topLink: topCurse};
 		case "disease":
-			return {...getItem<DataDisease>(id, diseases), subhierarchy: topDisease};
+			return {...getItem<DataDisease>(id, diseases), topLink: topDisease};
 		case "infestation":
-			return {...getItem<DataInfestation>(id, infestations), subhierarchy: topInfestation};
+			return {...getItem<DataInfestation>(id, infestations), topLink: topInfestation};
 	}
 };
 
@@ -45,14 +45,14 @@ const AfflictionPage: React.FC = () => {
 
 	const pageId = `/${type}/${id}`;
 
-	const { hasJL, title, jsx, sources, subhierarchy = [] } = getByType(id, type);
+	const { hasJL, title, jsx, sources, subhierarchy = [], topLink } = getByType(id, type);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
 		pageId={pageId}
-		topLink={subhierarchy.length ? subhierarchy[0] : basicAfflictionsPage}
+		topLink={topLink || (subhierarchy.length ? subhierarchy[0] : basicAfflictionsPage)}
 	>{jsx}</BasicPage>;
 };
 

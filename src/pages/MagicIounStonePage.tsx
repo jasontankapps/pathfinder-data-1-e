@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import magic from './subpages/__magic-ioun';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof magic;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Ioun Stone", "magic-wondrous/ioun_stone"];
 
 const MagicPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const MagicPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/magic-ioun/" + id}
-		topLink={["Ioun Stone", "magic-wondrous/ioun_stone"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

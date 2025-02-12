@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import equipment from './subpages/__eq-material';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof equipment;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Special Materials", "main/equipment_materials"];
 
 const EquipmentSpecMaterialPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const EquipmentSpecMaterialPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/eq-material/" + id}
-		topLink={["Special Materials", "main/equipment_materials"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

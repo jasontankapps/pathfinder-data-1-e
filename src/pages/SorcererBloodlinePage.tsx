@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import bloodlines from './subpages/__sorcererbloodline';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof bloodlines;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Sorcerer Bloodlines", "ability/sorcerer_bloodlines"];
 
 const SorcererBloodlinePage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const SorcererBloodlinePage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/sorcererbloodline/" + id}
-		topLink={["Sorcerer Bloodlines", "ability/sorcerer_bloodlines"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

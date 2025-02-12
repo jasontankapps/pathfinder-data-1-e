@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import corruptions from './subpages/__corruption';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof corruptions;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Corruption (Rules)", "rule/corruption"];
 
 const CorruptionPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const CorruptionPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/corruption/" + id}
-		topLink={["Corruption (Rules)", "rule/corruption"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

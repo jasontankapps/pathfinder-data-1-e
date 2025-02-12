@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import defs from './subpages/__spelldef';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof defs;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Spell Definitions", "main/spell_definitions"];
 
 const SpellDefPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const SpellDefPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/spelldef/" + id}
-		topLink={["Spell Definitions", "main/spell_definitions"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

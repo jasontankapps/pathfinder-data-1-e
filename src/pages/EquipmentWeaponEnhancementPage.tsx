@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import equipment from './subpages/__eq-weaponenh';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof equipment;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Weapon Enhancements", "main/equipment_weaponenhancements"];
 
 const EquipmentWeaponEnhancementsPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const EquipmentWeaponEnhancementsPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/eq-weaponenh/" + id}
-		topLink={["Weapon Enhancements", "main/equipment_weaponenhancements"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

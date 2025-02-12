@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import constructmods from './subpages/__constructmod';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof constructmods;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Construct Modifications", "rule/construct_modifications"];
 
 const ConstructModPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const ConstructModPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/constructmod/" + id}
-		topLink={["Construct Modifications", "rule/construct_modifications"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

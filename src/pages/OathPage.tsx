@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import oaths from './subpages/__oath';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof oaths;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Paladin Oaths", "ability/oaths"];
 
 const OathPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const OathPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/oath/" + id}
-		topLink={["Paladin Oaths", "ability/oaths"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

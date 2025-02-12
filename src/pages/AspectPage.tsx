@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import aspects from './subpages/__aspect';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof aspects;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Shifter Aspects", "ability/aspects"];
 
 const AspectPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const AspectPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/aspect/" + id}
-		topLink={["Shifter Aspects", "ability/aspects"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

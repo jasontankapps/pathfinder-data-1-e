@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import disciplines from './subpages/__discipline';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof disciplines;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Psychic Disciplines", "ability/disciplines"];
 
 const DiscliplinePage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const DiscliplinePage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/discipline/" + id}
-		topLink={["Psychic Disciplines", "ability/disciplines"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

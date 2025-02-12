@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import companions from './subpages/__druidcompanion';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof companions;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Animal Companions", "ability/druid_companions"];
 
 const CompanionPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const CompanionPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/druidcompanion/" + id}
-		topLink={["Animal Companions", "ability/druid_companions"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

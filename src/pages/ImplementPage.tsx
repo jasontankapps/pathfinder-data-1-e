@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import psychic_implements from './subpages/__implement';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof psychic_implements;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Psychic Implements", "ability/implements"];
 
 const ImplementPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const ImplementPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/implement/" + id}
-		topLink={["Psychic Implements", "ability/implements"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import { Hierarchy } from '../types';
 import mysteries from './subpages/__mystery';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -7,6 +8,8 @@ import './Page.css';
 type Data = typeof mysteries;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["Oracle Mysteries", "ability/mysteries"];
 
 const MysteryPage: React.FC = () => {
 
@@ -19,7 +22,7 @@ const MysteryPage: React.FC = () => {
 		title={title}
 		sources={sources}
 		pageId={"/mystery/" + id}
-		topLink={["Oracle Mysteries", "ability/mysteries"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 
