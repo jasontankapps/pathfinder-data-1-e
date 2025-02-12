@@ -10,8 +10,8 @@ const FrontPage: React.FC = () => {
 
 	return (
 		<IonPage>
-			<PageHeader title={title} hierarchy={[]} className="ion-hide-lg-up" />
-			<PageHeader title="About Pf Data 1e" hierarchy={[]} className="ion-hide-lg-down" />
+			<PageHeader title={title} className="ion-hide-lg-up" />
+			<PageHeader title="About Pf Data 1e" className="ion-hide-lg-down" />
 			<IonContent>
 				<div className="main basicContent ion-hide-lg-up">
 					<IonList lines="full">

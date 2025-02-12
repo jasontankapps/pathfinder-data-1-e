@@ -2,10 +2,10 @@ import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import magic from './subpages/__magic-rod';
 import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import { Hierarchy } from '../types';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Magic Items", "main/magic"], ["Magic Rods", "main/magic_rods"]];
+const topLink: Hierarchy = ["Magic Rods", "main/magic_rods"];
 
 type Data = typeof magic;
 
@@ -15,15 +15,14 @@ const MagicPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, magic);
+	const { hasJL, title, jsx, sources } = getItem<Data>(id, magic);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={"/magic-rod/" + id}
-		topLink={["Magic Rods", "main/magic_rods"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

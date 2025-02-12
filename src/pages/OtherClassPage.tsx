@@ -4,10 +4,7 @@ import { SourceProp } from '../components/SourcesModal';
 import npcclasses from './subpages/__npcclass';
 import sidekicks from './subpages/__sidekick';
 import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
 import './Page.css';
-
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Classes", "main/classes"]];
 
 const classes = {...npcclasses, ...sidekicks};
 
@@ -45,7 +42,6 @@ const OtherClassPage: React.FC = () => {
 		<BasicPage
 			hasJL={hasJL}
 			title={title}
-			hierarchy={hierarchy}
 			sources={sources}
 			pageId={pageId}
 		>{jsx}</BasicPage>

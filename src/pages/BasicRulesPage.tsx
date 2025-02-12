@@ -8,10 +8,6 @@ import BasicPage from './BasicPage';
 import './BasicRulesPage.css';
 import './Page.css';
 
-const hierarchy: HierarchyArray = [
-	["All Rules", "main/rules"]
-];
-
 type Data = typeof data;
 
 type Name = keyof Data;
@@ -33,7 +29,7 @@ interface HierarchyProps {
 }
 
 const HierarchyRulesInset: React.FC<HierarchyProps> = ({extraHierarchy}) => {
-	const h = [...hierarchy, ...extraHierarchy].map((pair, i) => (
+	const h = [["All Rules", "main/rules"], ...extraHierarchy].map((pair, i) => (
 		<span key={`rules-page-hierarchy-link-${i}`}>{i === 0 ? "" : " > "}<Link to={"/" + pair[1]}>{pair[0]}</Link></span>
 	));
 	return <div className="hierarchyRulesInset">{h}</div>;

@@ -2,14 +2,14 @@ import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import skills from './subpages/__skill';
 import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import { Hierarchy } from '../types';
 import './Page.css';
-
-const hierarchy: HierarchyArray = [["Main", "main/skills"], ["Skills", "main/skills"]];
 
 type Data = typeof skills;
 
 type Params = { id?: keyof Data };
+
+const topLink: Hierarchy = ["All Skills", "main/skills"];
 
 const SkillPage: React.FC = () => {
 
@@ -20,10 +20,9 @@ const SkillPage: React.FC = () => {
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		hierarchy={hierarchy}
 		sources={sources}
 		pageId={"/skill/" + id}
-		topLink={["All Skills", "main/skills"]}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 

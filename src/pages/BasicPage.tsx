@@ -15,13 +15,12 @@ import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import SourcesModal, { SourceProp } from '../components/SourcesModal';
 import Link from '../components/Link';
-import { DisplayItemProps, HierarchyArray } from '../types';
+import { DisplayItemProps } from '../types';
 import './Page.css';
 
 interface PageProps extends Partial<DisplayItemProps> {
 	hasJL?: boolean
 	title: string
-	hierarchy?: HierarchyArray
 	topLink?: [string, string]
 	noFinder?: boolean
 	sources?: SourceProp[]
@@ -158,7 +157,6 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		hasJL,
 		title,
 		children,
-		hierarchy,
 		topLink,
 		noFinder,
 		sources = [],
@@ -272,7 +270,6 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		><IonPage>
 			<PageHeader
 				title={title}
-				hierarchy={hierarchy}
 				findInPage={
 					(!noFinder && marker) ?
 						() => {

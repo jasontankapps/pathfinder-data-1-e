@@ -4,16 +4,8 @@ import curses from './subpages/__curse';
 import diseases from './subpages/__disease';
 import infestations from './subpages/__infestation';
 import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import { Hierarchy, HierarchyArray } from '../types';
 import './Page.css';
-
-const hierarchy: HierarchyArray = [
-	["Main", "main/main"],
-	["Rules", "main/rules"],
-	["Combat", "rule/combat"],
-	["Special Abilities", "rule/special_abilities_2"],
-	["Afflictions", "rule/afflictions"]
-];
 
 type Affliction = "curse" | "disease" | "infestation";
 
@@ -25,16 +17,22 @@ type Id = keyof DataCurse & keyof DataDisease & keyof DataInfestation;
 
 type Params = { id?: Id };
 
+const topCurse: HierarchyArray = [["Curses", "rule/curses"]];
+const topDisease: HierarchyArray = [["Curses", "rule/curses"]];
+const topInfestation: HierarchyArray = [["Curses", "rule/curses"]];
+
 const getByType = (id: Id | undefined, type: Affliction) => {
 	switch(type) {
 		case "curse":
-			return {...getItem<DataCurse>(id, curses), subhierarchy: [["Curses", "rule/curses"]] as HierarchyArray};
+			return {...getItem<DataCurse>(id, curses), subhierarchy: topCurse};
 		case "disease":
-			return {...getItem<DataDisease>(id, diseases), subhierarchy: [["Diseases", "rule/diseases"]] as HierarchyArray};
+			return {...getItem<DataDisease>(id, diseases), subhierarchy: topDisease};
 		case "infestation":
-			return {...getItem<DataInfestation>(id, infestations), subhierarchy: [["Infestations", "rule/infestations"]] as HierarchyArray};
+			return {...getItem<DataInfestation>(id, infestations), subhierarchy: topInfestation};
 	}
 };
+
+const basicAfflictionsPage: Hierarchy = ["Afflictions", "rule/afflictions"];
 
 const AfflictionPage: React.FC = () => {
 
@@ -52,10 +50,9 @@ const AfflictionPage: React.FC = () => {
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={pageId}
-		topLink={subhierarchy.length ? subhierarchy[0] : ["Afflictions", "rule/afflictions"]}
+		topLink={subhierarchy.length ? subhierarchy[0] : basicAfflictionsPage}
 	>{jsx}</BasicPage>;
 };
 

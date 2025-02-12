@@ -1,5 +1,5 @@
 import getItem, { getGuaranteedItem, JsonDataProps } from '../components/getItem';
-import { Hierarchy, HierarchyArray } from '../types';
+import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 
 type Basic = {[x: string]: unknown};
@@ -11,14 +11,13 @@ export interface GroupProps {
 }
 interface BasicGroupPageProps extends GroupProps {
 	prefix: string
-	hierarchy?: HierarchyArray
 	topLink?: Hierarchy
 	maybeTopLink?: Hierarchy | null
 	className?: string
 }
 
 export const BasicGroupPage: React.FC<BasicGroupPageProps> =
-	({id, info, prefix, hierarchy = [], topLink, maybeTopLink, className, possiblyUnknown}) => {
+	({id, info, prefix, topLink, maybeTopLink, className, possiblyUnknown}) => {
 
 	type Data = typeof info;
 
@@ -36,7 +35,6 @@ export const BasicGroupPage: React.FC<BasicGroupPageProps> =
 			hasJL={hasJL}
 			pageId={pageId}
 			title={title}
-			hierarchy={[...hierarchy, ...subhierarchy]}
 			sources={sources}
 			topLink={tl}
 			noFinder={noFinder}

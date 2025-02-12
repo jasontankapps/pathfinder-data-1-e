@@ -19,7 +19,7 @@ import magic_shadow_piercings from './subpages/__magic-piercing';
 import magic_tattoo from './subpages/__magic-tattoo';
 import magic_throne from './subpages/__magic-throne';
 import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
+import { Hierarchy } from '../types';
 import './Page.css';
 
 const magic = {
@@ -42,11 +42,11 @@ const magic = {
 	...magic_throne,
 	...construct_mods
 };
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Magic Items", "main/magic"], ["Miscellaneous Magic Items", "main/magic_misc"]];
-
 type Data = typeof magic;
 
 type Params = { id?: keyof Data };
+
+const misc: Hierarchy = ["Miscellaneous Magic Items", "main/magic_misc"];
 
 const MagicPage: React.FC = () => {
 
@@ -56,15 +56,14 @@ const MagicPage: React.FC = () => {
 
 	const m = path.match(/^([/]magic-[a-z]+[/])/);
 
-	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, magic);
+	const { hasJL, title, jsx, sources } = getItem<Data>(id, magic);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
 		pageId={(m ? m[1] : "/magic-misc/") + id}
-		topLink={["Miscellaneous Magic Items", "main/magic_misc"]}
+		topLink={misc}
 	>{jsx}</BasicPage>;
 };
 

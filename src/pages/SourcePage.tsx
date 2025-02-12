@@ -1,7 +1,6 @@
 import { useParams } from 'wouter';
 import sources from '../json/sources.json';
 import BasicPage from './BasicPage';
-import { HierarchyArray } from '../types';
 import './Page.css';
 
 export interface SourceProps {
@@ -22,11 +21,6 @@ function getItem<T extends { not_found: SourceProps }> (id: keyof T | undefined,
 	return data as SourceProps;
 };
 
-const hierarchy: HierarchyArray = [
-	["Main", "main/main"],
-	["Open Game Content", "main/ogc"]
-];
-
 type Data = typeof sources;
 
 type Params = { id?: keyof Data };
@@ -38,7 +32,7 @@ const SourcePage: React.FC = () => {
 	const { title, url, unknown } = getItem<Data>(id, sources);
 
 	return (
-		<BasicPage title={title} hierarchy={hierarchy} hideSources pageId={"/source/" + id}>
+		<BasicPage title={title} hideSources pageId={"/source/" + id}>
 			{unknown ? (
 				<>
 					<h2>Unknown</h2>

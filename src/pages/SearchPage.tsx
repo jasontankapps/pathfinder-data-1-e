@@ -320,6 +320,8 @@ const SearchPage: FC = () => {
 		}
 	}, [ref, initialized, setInitialized, searchtext]);
 
+	// Might want to store scroll state, too?
+
 	return (
 		<IonPage>
 			<PageHeader title="Search" noSearch>

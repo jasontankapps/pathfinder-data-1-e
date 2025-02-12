@@ -1,10 +1,9 @@
-import { HierarchyArray } from '../types';
 import { GroupProps, BasicGroupPage } from './BasicGroupPage';
+import { Hierarchy } from '../types';
 
-const hierarchy: HierarchyArray = [["Main", "main/main"], ["Magic Items", "main/magic"], ["Artifacts", "main/magic_artifacts"]];
-const topLink = hierarchy[2];
+const topLink: Hierarchy = ["Artifacts", "main/magic_artifacts"];
 
 const MagicArtifactGroupBasic = (props: GroupProps) =>
-	<BasicGroupPage {...props} hierarchy={hierarchy} prefix="magic-artifact" />;
+	<BasicGroupPage {...props} prefix="magic-artifact" topLink={topLink} />;
 
 export default MagicArtifactGroupBasic;

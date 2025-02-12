@@ -6,7 +6,6 @@ const FeatsTreePage: React.FC = () => {
 	return (
 		<BasicPage
 			title="Feat Trees"
-			hierarchy={[["Feats", "main/feats"]]}
 			hideSources
 			pageId="feattreespage"
 			className="featsTreePage"

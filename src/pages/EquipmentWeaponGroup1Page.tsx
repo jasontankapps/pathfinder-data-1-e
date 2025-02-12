@@ -1,10 +1,7 @@
 import getItem from '../components/getItem';
 import equipment_weapons from './subpages/__eq-weapon1';
-import { HierarchyArray } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
-
-const hierarchy: HierarchyArray = [ ["Main", "main/main"], ["Equipment", "main/equipment"] ];
 
 type Data = typeof equipment_weapons;
 
@@ -20,9 +17,8 @@ const EquipmentWeaponGroup1Page: React.FC<EquipProps> = ({id}) => {
 		hasJL={hasJL}
 		pageId={"/eq-weapon/" + id}
 		title={title}
-		hierarchy={[...hierarchy, ...subhierarchy]}
 		sources={sources}
-		topLink={subhierarchy.length ? subhierarchy[0] : hierarchy[1]}
+		topLink={subhierarchy.length ? subhierarchy[0] : undefined}
 	>{jsx}</BasicPage>;
 };
 

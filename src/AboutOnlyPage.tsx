@@ -31,7 +31,7 @@ const AboutOnlyPage: React.FC = () => {
 
 	return (
 		<IonPage>
-			<PageHeader title="About Pf Data 1e" hierarchy={[]} />
+			<PageHeader title="About Pf Data 1e" />
 			<IonContent>
 				<AboutInfo className="basicContent simple" />
 			</IonContent>
