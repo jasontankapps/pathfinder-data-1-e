@@ -7,23 +7,19 @@ import {
 import { bookmark, bookmarkOutline, bookmarks, search } from 'ionicons/icons';
 import { useLocation } from 'wouter';
 import { goTo } from '../store/historySlice';
-import { addBookmark, Color, removeBookmark } from '../store/bookmarksSlice';
+import { addBookmark, removeBookmark } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import './Bookmarks.css';
 
 const Bookmarks: React.FC<{location: string}> = ({location}) => {
 	const dispatch = useAppDispatch();
-	const { db, ...rest } = useAppSelector((state) => state.bookmarks);
+	const { db, order, ...colors } = useAppSelector((state) => state.bookmarks);
 	const bookmarked = db[location] || [];
 	const checkboxes = useMemo(() => {
-		const color: Color[] = [
-			"red", "orange", "yellow", "green", "teal",
-			"cyan", "blue", "purple", "magenta", "pink"
-		];
 		const current = db[location] || [];
-		return color.map(c => {
+		return order.filter(c => !colors[c].hidden).map(c => {
 			const checked = current.indexOf(c) > -1;
-			const color = rest[c];
+			const color = colors[c];
 			const addOrRemove = checked ? removeBookmark : addBookmark;
 			const bookmarkingIcon = checked ? bookmark : bookmarkOutline;
 			return (
@@ -38,7 +34,7 @@ const Bookmarks: React.FC<{location: string}> = ({location}) => {
 				</IonItem>
 			);
 		});
-	}, [db, location, rest, dispatch]);
+	}, [db, order, location, colors, dispatch]);
 	return (
 		<>
 			<IonButton id={`${location}bookmarker`}>

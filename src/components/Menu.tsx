@@ -9,9 +9,10 @@ import {
 	IonMenuToggle,
 	IonRippleEffect
 } from '@ionic/react';
-import { alertCircle, shieldCheckmark } from 'ionicons/icons';
+import { Dispatch } from '@reduxjs/toolkit';
+import { alertCircle, bookmark, bookmarks, shieldCheckmark } from 'ionicons/icons';
 import { useLocation } from 'wouter';
-import { useAppDispatch } from '../store/hooks';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goTo } from '../store/historySlice';
 import './Menu.css';
 
@@ -19,6 +20,7 @@ interface BaseInfo {
 	url: string
 	title: string
 	icon: string
+	minor?: boolean
 	className?: string
 	hr?: never
 }
@@ -35,6 +37,7 @@ type Page = ExactPage | PrefixedPage;
 
 interface Separator {
 	hr: true
+	minor?: never
 	url?: never
 	title?: never
 	icon?: never
@@ -44,6 +47,19 @@ interface Separator {
 }
 
 type AppPage = Page | Separator
+
+const bookmarkPage: Page = {
+	title: "Bookmarks",
+	url: "/bookmarks",
+	icon: bookmarks
+};
+
+const basicBookmarkPage: Page = {
+	title: "",
+	url: "/bookmarks/",
+	icon: bookmark,
+	minor: true
+};
 
 const appPages: AppPage[] = [
 	{
@@ -131,46 +147,73 @@ const appPages: AppPage[] = [
 	}
 ];
 
+const makeItem = (
+	appPage: AppPage,
+	index: number | string,
+	loc: string,
+	dispatch: Dispatch,
+	navigate: <S = any>(to: string | URL, options?: {
+		replace?: boolean;
+		state?: S;
+	}) => void
+) => {
+	if (appPage.hr) {
+		return <hr key={`menu-${index}`} />;
+	}
+	const { url, icon, title, prefix, equals, minor } = appPage;
+	let cn = "";
+	if(loc === url) {
+		cn = "selected";
+	} else if (prefix) {
+		const m = loc.match(/^(?:\/(?!main)|\/main\/)([^-_/]+?)(?:\/|s?_|s?-)/);
+		if(m) {
+			const rx = new RegExp(`\\b${m[1]}\\b`);
+			if(prefix.match(rx)) {
+				cn = "selected";
+			}
+		}
+	} else if (equals && (loc === equals)) {
+		cn = "selected";
+	}
+	cn = (cn ? (cn + " linked") : "linked") + (minor ? " minor" : "");
+	return (
+		<IonMenuToggle key={`menu-${index}`} autoHide={false}>
+			<IonItem onClick={() => { dispatch(goTo(url)); navigate(url); } } className={cn} lines="none" detail={false}>
+				<IonIcon aria-hidden="true" slot="start" src={icon} />
+				<IonLabel>{title}</IonLabel>
+				<IonRippleEffect />
+			</IonItem>
+		</IonMenuToggle>
+	);
+};
+
 const Menu: React.FC = () => {
 	const [loc] = useLocation();
 	const dispatch = useAppDispatch();
 	const [path, navigate] = useLocation();
+	const {db, order, ...colors} = useAppSelector(state => state.bookmarks);
+	const n = appPages.length;
+	const bookmarked: [Page, string][] = order
+		.map(c => colors[c])
+		.filter(c => !c.hidden && (c.contents.length > 0))
+		.map(c => ([
+			{
+				...basicBookmarkPage,
+				title: c.title,
+				className: `color-${c.color}`,
+				url: basicBookmarkPage.url + c.color
+			},
+			c.color
+		]));
 
 	return (
 		<IonMenu contentId="main" type="overlay">
 			<IonContent>
 				<IonList id="menu-list">
 					<IonListHeader>Pf Data 1e</IonListHeader>
-					{appPages.map((appPage, index) => {
-						if (appPage.hr) {
-							return <hr key={index} />;
-						}
-						const { url, icon, title, prefix, equals } = appPage;
-						let cn = "";
-						if(loc === url) {
-							cn = "selected";
-						} else if (prefix) {
-							const m = loc.match(/^(?:\/(?!main)|\/main\/)([^-_/]+?)(?:\/|s?_|s?-)/);
-							if(m) {
-								const rx = new RegExp(`\\b${m[1]}\\b`);
-								if(prefix.match(rx)) {
-									cn = "selected";
-								}
-							}
-						} else if (equals && (loc === equals)) {
-							cn = "selected";
-						}
-						cn = cn ? (cn + " linked") : "linked";
-						return (
-							<IonMenuToggle key={index} autoHide={false}>
-								<IonItem onClick={() => { dispatch(goTo(url)); navigate(url); } } className={cn} lines="none" detail={false}>
-									<IonIcon aria-hidden="true" slot="start" src={icon} />
-									<IonLabel>{title}</IonLabel>
-									<IonRippleEffect />
-								</IonItem>
-							</IonMenuToggle>
-						);
-					})}
+					{makeItem(bookmarkPage, n, loc, dispatch, navigate)}
+					{bookmarked.map(([o, c]) => makeItem(o, c, loc, dispatch, navigate))}
+					{appPages.map((appPage, index) => makeItem(appPage, index, loc, dispatch, navigate))}
 				</IonList>
 			</IonContent>
 		</IonMenu>

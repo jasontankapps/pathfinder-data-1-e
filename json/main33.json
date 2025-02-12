@@ -219,9 +219,11 @@
 		"noFinder": true,
 		"searchgroup": "spell",
 		"description": [
-			"::main[Arcanist, Sorcerer and Wizard Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -423,9 +425,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Summoner Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -459,9 +463,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Unchained Summoner Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -496,9 +502,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Bard and Skald Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -541,9 +549,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Magus Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -600,9 +610,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Witch Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -668,9 +680,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Bloodrager Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -723,9 +737,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Cleric and Oracle Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -786,9 +802,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Druid Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -839,9 +857,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Ranger Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -872,9 +892,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Hunter Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -919,9 +941,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Inquisitor Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -966,9 +990,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Warpriest Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -1021,9 +1047,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Paladin Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -1054,9 +1082,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Antipaladin Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -1089,9 +1119,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Shaman Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -1142,9 +1174,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Medium Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -1187,9 +1221,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Mesmerist Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -1238,9 +1274,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Occultist Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -1303,9 +1341,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Psychic Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{
@@ -1379,9 +1419,11 @@
 		"searchgroup": "spell",
 		"noFinder": true,
 		"description": [
-			"::main[Spiritualist Spells]{to=Mythic}",
+			":::item",
 			"",
-			"{table0}"
+			"{table0}",
+			"",
+			":::"
 		],
 		"tables": [
 			{

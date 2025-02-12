@@ -9,66 +9,79 @@ interface BookmarkGroup {
 	color: Color
 	title: string
 	contents: string[]
+	hidden: boolean
 }
 
-type ColorState = {[key in Color]: BookmarkGroup}
+export type ColorState = {[key in Color]: BookmarkGroup}
 
 interface BookmarkState extends ColorState {
 	db: BookmarkDB
+	order: Color[]
 }
 
 // Define the initial value for the slice state
 export const initialState: BookmarkState = {
 	db: {},
+	order: ["red", "orange", "yellow", "green", "teal", "cyan", "blue", "purple", "magenta", "pink"],
 	red: {
 		color: "red",
 		title: "Red",
-		contents: []
+		contents: [],
+		hidden: false
 	},
 	orange: {
 		color: "orange",
 		title: "Orange",
-		contents: []
+		contents: [],
+		hidden: false
 	},
 	yellow: {
 		color: "yellow",
 		title: "Yellow",
-		contents: []
+		contents: [],
+		hidden: false
 	},
 	green: {
 		color: "green",
 		title: "Green",
-		contents: []
+		contents: [],
+		hidden: false
 	},
 	teal: {
 		color: "teal",
 		title: "Teal",
-		contents: []
+		contents: [],
+		hidden: false
 	},
 	cyan: {
 		color: "cyan",
 		title: "Cyan",
-		contents: []
+		contents: [],
+		hidden: false
 	},
 	blue: {
 		color: "blue",
 		title: "Blue",
-		contents: []
+		contents: [],
+		hidden: false
 	},
 	purple: {
 		color: "purple",
 		title: "Purple",
-		contents: []
+		contents: [],
+		hidden: false
 	},
 	magenta: {
 		color: "magenta",
 		title: "Magenta",
-		contents: []
+		contents: [],
+		hidden: false
 	},
 	pink: {
 		color: "pink",
 		title: "Pink",
-		contents: []
+		contents: [],
+		hidden: false
 	}
 };
 
@@ -109,6 +122,15 @@ export const bookmarkSlice = createSlice({
 			};
 			return newState;
 		},
+		toggleHidden: (state, action: PayloadAction<Color>) => {
+			const newState = {...state};
+			const color = action.payload;
+			newState[color] = {
+				...newState[color],
+				hidden: !newState[color].hidden
+			};
+			return newState;
+		},
 		rename: (state, action: PayloadAction<{color: Color, title: string}>) => {
 			const { color, title } = action.payload;
 			const newState = {...state};
@@ -131,7 +153,7 @@ export const bookmarkSlice = createSlice({
 });
 
 // Export the generated action creators for use in components
-export const { addBookmark, removeBookmark, rename, reorder } = bookmarkSlice.actions;
+export const { addBookmark, removeBookmark, toggleHidden, rename, reorder } = bookmarkSlice.actions;
 
 // Export the slice reducer for use in the store configuration
 export default bookmarkSlice.reducer;

@@ -4,7 +4,6 @@ import {
 	persistStore,
 	persistReducer,
 	createMigrate,
-	MigrationManifest,
 	PersistConfig,
 	FLUSH,
 	REHYDRATE,
@@ -36,7 +35,15 @@ const initialAppState = {
 //
 //
 
-const migrations: MigrationManifest = {};
+const migrations = {
+	1: (state: any) => {
+		// migration to keep only device state
+		return {
+			...state,
+			bookmarks
+		}
+	}
+};
 
 const reducerConfig = {
 	// SLICES here
@@ -51,7 +58,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 0,
+	version: 1,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

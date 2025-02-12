@@ -19,7 +19,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 		<p>Menu icon "Read" by <a href="https://game-icons.net/">Skoll</a></p>
 		<p>Menu icon "Spiked Half" by <a href="https://opengameart.org/content/95-game-icons">sbed</a></p>
 		<p>Modal icon "Overlap" by <a href="https://thenounproject.com/browse/icons/term/overlap/">Alec Dhuse</a> (CC BY 3.0)</p>
-		<p>Header icon "Find in Page" by <a href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:find_in_page:FILL@0;wght@400;GRAD@0;opsz@24">Google</a></p>
+		<p>"Find in Page" and "Swipe-Left" icons by <a href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:find_in_page:FILL@0;wght@400;GRAD@0;opsz@24">Google</a></p>
 		<p><em>All original icons are distributed under the <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> Creative Commons license.</em></p>
 		<p>The font is <a href="https://fonts.google.com/specimen/Taviraj">Taviraj</a> by <a href="https://fonts.google.com/?query=Cadson%20Demak">Cadson Demak</a>, with some symbols being rendered as <a href="https://www.onlinewebfonts.com/download/bd95c919d5566390c0565bea43f95495">Symbola</a> by George Douros.</p>
 		<h2>App Info</h2>

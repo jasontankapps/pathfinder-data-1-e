@@ -48,6 +48,15 @@ ion-menu ion-item {
 	border-radius: 0.25rem;
 }
 
+ion-menu ion-item.minor {
+	font-size: 0.875rem;
+	--padding-start: 2rem;
+	--min-height: 2rem;
+}
+ion-menu ion-item.minor > * {
+	margin-block: 0.5rem;
+}
+
 ion-menu ion-item.linked {
 	cursor: pointer;
 	position: relative;
