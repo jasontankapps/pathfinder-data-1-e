@@ -282,7 +282,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as create undead, except it creates one of the following variant mummies: bog mummy, ice mummy, or Osirian tomb guardian."
+			"This spell functions as {spell/create undead}, except it creates one of the following variant mummies: bog mummy, ice mummy, or Osirian tomb guardian."
 		]
 	},
 	"create_water": {
@@ -517,7 +517,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"This spell functions as interposing hand, except that it can also grapple one opponent as grasping hand. Its CMB and CMD for grapple checks use your caster level in place of its base attack bonus, with a +12 bonus for its Strength score (35) and a +1 bonus for being Large (its Dexterity is 10, granting no bonus to the CMD). A crushing hand deals 2d6+12 points of damage on each successful grapple check against an opponent. The crushing hand can instead be directed to bull rush a target (as forceful hand), using the same bonuses outlined above, or it can be directed to interpose itself, as interposing hand does."
+			"This spell functions as {spell/interposing hand}, except that it can also grapple one opponent as grasping hand. Its CMB and CMD for grapple checks use your caster level in place of its base attack bonus, with a +12 bonus for its Strength score (35) and a +1 bonus for being Large (its Dexterity is 10, granting no bonus to the CMD). A crushing hand deals 2d6+12 points of damage on each successful grapple check against an opponent. The crushing hand can instead be directed to bull rush a target (as forceful hand), using the same bonuses outlined above, or it can be directed to interpose itself, as interposing hand does."
 		]
 	},
 	"cultural_adaptation": {
@@ -2076,7 +2076,7 @@
 			"**Duration** 24 hours  ",
 			"**Saving Throw** Will negates, see text; **Spell Resistance** yes",
 			"",
-			"You take control of a creature's mind and implant deadly subconscious commands. This spell functions as dominate person, allowing you to control your subject and see through her senses, but also implants a powerful burst of psychic energy in the subject's mind. At any point during the spell's duration, you can trigger this burst as an immediate action, dealing 1d8 points of damage per caster level (Fortitude half) to the subject. If this damage is enough to reduce to target to 0 or fewer hit points, the target dies instantly.",
+			"You take control of a creature's mind and implant deadly subconscious commands. This spell functions as {spell/dominate person}, allowing you to control your subject and see through her senses, but also implants a powerful burst of psychic energy in the subject's mind. At any point during the spell's duration, you can trigger this burst as an immediate action, dealing 1d8 points of damage per caster level (Fortitude half) to the subject. If this damage is enough to reduce to target to 0 or fewer hit points, the target dies instantly.",
 			"",
 			"Your target can also willingly trigger this psychic burst as an immediate action. You can specify conditions (such as being captured) when she should do so, though such orders are considered dangerous and allow the subject a new Will saving throw with a +2 bonus."
 		]
@@ -2385,7 +2385,7 @@
 			"**Duration** 1 min./level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions like sleep, except that it affects 10 HD of targets.",
+			"This spell functions like {spell/sleep}, except that it affects 10 HD of targets.",
 			"",
 			"### Mythic Deep Slumber",
 			"",
@@ -2411,7 +2411,7 @@
 			"**Duration** 10 min./level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as darkness, except that objects radiate darkness in a 60-foot radius and the light level is lowered by two steps. Bright light becomes dim light and normal light becomes darkness. Areas of dim light and darkness become supernaturally dark. This functions like darkness, but even creatures with darkvision cannot see within the spell's confines.",
+			"This spell functions as {spell/darkness}, except that objects radiate darkness in a 60-foot radius and the light level is lowered by two steps. Bright light becomes dim light and normal light becomes darkness. Areas of dim light and darkness become supernaturally dark. This functions like darkness, but even creatures with darkvision cannot see within the spell's confines.",
 			"",
 			"This spell does not stack with itself. Deeper darkness can be used to counter or dispel any light spell of equal or lower spell level."
 		]
@@ -3895,7 +3895,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** yes (harmless)",
 			"",
-			"You instantly transfer the touched creature to a point you designate within range. This otherwise functions as the spell {spell/dimension door}, except that you must have line of sight and line of effect to the target's destination for this spell's effects to properly function."
+			"You instantly transfer the touched creature to a point you designate within range. This otherwise functions as the spell dimension door, except that you must have line of sight and line of effect to the target's destination for this spell's effects to properly function."
 		]
 	},
 	"phase_step": {

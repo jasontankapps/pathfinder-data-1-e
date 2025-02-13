@@ -541,7 +541,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"This spell functions as interposing hand, except that it can also grapple one opponent you select. The grasping hand gets one grapple attack per round. This attack does not provoke an attack of opportunity. Its CMB and CMD for grapple checks use your caster level in place of its base attack bonus, with a +10 bonus for its Strength (31) score and a +1 bonus for being Large (its Dexterity is 10, granting no bonus on the Combat Maneuver Defense). The hand holds but does not harm creatures that it grapples. Directing the spell to a new target is a move action. The grasping hand can instead be directed to bull rush a target, using the same bonuses outlined above, or it can be directed to interpose itself, as interposing hand does."
+			"This spell functions as {spell/interposing hand}, except that it can also grapple one opponent you select. The grasping hand gets one grapple attack per round. This attack does not provoke an attack of opportunity. Its CMB and CMD for grapple checks use your caster level in place of its base attack bonus, with a +10 bonus for its Strength (31) score and a +1 bonus for being Large (its Dexterity is 10, granting no bonus on the Combat Maneuver Defense). The hand holds but does not harm creatures that it grapples. Directing the spell to a new target is a move action. The grasping hand can instead be directed to bull rush a target, using the same bonuses outlined above, or it can be directed to interpose itself, as interposing hand does."
 		]
 	},
 	"grasping_vine": {
@@ -1461,7 +1461,7 @@
 			"**Duration** 8 hours (D)  ",
 			"**Saving Throw** Fort negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"You transform the target into a harmless animal of the same approximate body type. The form assumed must be one considered unobtrusive by local communities, such as a cat, a dog, a hunting hawk, a horse, or a rat. This transformation can reduce the target by up to two size categories, but cannot make an animal smaller than Tiny. It cannot increase the size of the target or give it new natural attacks or new forms of movement. The spell otherwise functions as beast shape II."
+			"You transform the target into a harmless animal of the same approximate body type. The form assumed must be one considered unobtrusive by local communities, such as a cat, a dog, a hunting hawk, a horse, or a rat. This transformation can reduce the target by up to two size categories, but cannot make an animal smaller than Tiny. It cannot increase the size of the target or give it new natural attacks or new forms of movement. The spell otherwise functions as {spell/beast shape II}."
 		]
 	},
 	"harrowing": {
@@ -2040,7 +2040,7 @@
 			"",
 			"A wavering red ray projects from your finger. You must succeed on a ranged touch attack with the ray to hit your target.",
 			"",
-			"The ray inflicts 1d4 points of nonlethal damage, causing the target to suffer from heatstroke as its body temperature dramatically increases. Except as noted above, this spell otherwise functions as ray of exhaustion.",
+			"The ray inflicts 1d4 points of nonlethal damage, causing the target to suffer from heatstroke as its body temperature dramatically increases. Except as noted above, this spell otherwise functions as {spell/ray of exhaustion}.",
 			"",
 			"Characters wearing heavy clothing or armor of any sort take a -4 penalty on their saves."
 		]
@@ -3956,7 +3956,7 @@
 			"**Duration** 1d4 rounds and instantaneous  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions as teleport, except you use it to teleport yourself or one other creature to a safe location you specify (the target can bring along objects as long as their weight doesn't exceed the target's heavy load). You can only send the target to a location with which you are very familiar. The target is first trapped in ice (hardness 0, 3 hit points per inch of thickness, 1 inch thick per caster level) for 1d4 rounds, during which time it is paralyzed, aware but unable to take any physical actions, and begins to fade away as the teleportation aspect takes effect. At the end of the 1d4 rounds, the target teleports to the specified location, and the ice's hit points drop to 0 and it quickly melts away. If the ice is destroyed before the target teleports, the spell ends and the teleport doesn't occur."
+			"This spell functions as {spell/teleport}, except you use it to teleport yourself or one other creature to a safe location you specify (the target can bring along objects as long as their weight doesn't exceed the target's heavy load). You can only send the target to a location with which you are very familiar. The target is first trapped in ice (hardness 0, 3 hit points per inch of thickness, 1 inch thick per caster level) for 1d4 rounds, during which time it is paralyzed, aware but unable to take any physical actions, and begins to fade away as the teleportation aspect takes effect. At the end of the 1d4 rounds, the target teleports to the specified location, and the ice's hit points drop to 0 and it quickly melts away. If the ice is destroyed before the target teleports, the spell ends and the teleport doesn't occur."
 		]
 	},
 	"ice_slick": {
@@ -4051,7 +4051,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You create a masterwork dagger out of ice. The dagger deals 1 point of cold damage in addition to normal dagger damage. If the dagger leaves your hand for more than 1 round, it melts and the spell ends. At 6th level, the dagger functions as a +1 frost dagger. At 11th level, it gains the returning property when thrown, melting away and reforming in your hand just before your next turn."
+			"You create a masterwork dagger out of ice. The dagger deals 1 point of cold damage in addition to normal dagger damage. If the dagger leaves your hand for more than 1 round, it melts and the spell ends. At 6th level, the dagger functions as a +1 {magic-enhancement/frost} dagger. At 11th level, it gains the returning property when thrown, melting away and reforming in your hand just before your next turn."
 		]
 	},
 	"icy_prison": {

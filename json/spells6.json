@@ -1215,7 +1215,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"You create a sword of force that functions as mage's sword except as described here. The sword does not receive the additional +3 enhancement bonus a mage's sword receives, and deals 3d6 points of force damage. You cannot command the sword. Until the sword is triggered, it hovers in your space without interfering with your actions. While hovering in this way, the sword attempts to defend you from incoming attacks, granting you a +4 shield bonus to your AC. The first time a foe within close range damages you or forces you to attempt a saving throw that you fail, the sword is triggered and begins attacking that target as described in mage's sword for the duration of the spell. This ends the shield bonus. You cannot direct the sword to defend against a new target once it has begun to attack. If its target moves beyond the sword's range, the sword returns to you and hovers until the target is again within range. The sword's return does not restore the spell's shield bonus to AC.",
+			"You create a sword of force that functions as {spell/mage's sword} except as described here. The sword does not receive the additional +3 enhancement bonus a mage's sword receives, and deals 3d6 points of force damage. You cannot command the sword. Until the sword is triggered, it hovers in your space without interfering with your actions. While hovering in this way, the sword attempts to defend you from incoming attacks, granting you a +4 shield bonus to your AC. The first time a foe within close range damages you or forces you to attempt a saving throw that you fail, the sword is triggered and begins attacking that target as described in mage's sword for the duration of the spell. This ends the shield bonus. You cannot direct the sword to defend against a new target once it has begun to attack. If its target moves beyond the sword's range, the sword returns to you and hovers until the target is again within range. The sword's return does not restore the spell's shield bonus to AC.",
 			"",
 			"### Last Azlanti's Defending Sword, Mass",
 			"",
@@ -1227,7 +1227,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"This spell functions as Aroden's defending sword, except you can create one sword per 5 caster levels, each of which must defend a different creature within range."
+			"This spell functions as Last Azlanti's defending sword, except you can create one sword per 5 caster levels, each of which must defend a different creature within range."
 		]
 	},
 	"last_azlantis_defending_sword_mass": {
@@ -3654,7 +3654,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** Will negates (harmless, object); **Spell Resistance** yes (harmless, object)",
 			"",
-			"This spell functions like magic siege weapon, except it gives an indirect fire siege weapon an enhancement bonus on targeting and damage rolls of +1 per four caster levels (maximum +5). If used on a direct-fire siege weapon, this spell functions as greater magic weapon."
+			"This spell functions like magic siege weapon, except it gives an indirect fire siege weapon an enhancement bonus on targeting and damage rolls of +1 per four caster levels (maximum +5). If used on a direct-fire siege weapon, this spell functions as {spell/greater magic weapon}."
 		]
 	},
 	"magic_siege_engine_greater": {
@@ -3841,7 +3841,7 @@
 			"**Effect** illusory, unattended, nonmagical object, up to 1 cu. ft./level  ",
 			"**Duration** 10 minutes/level (D)",
 			"",
-			"This spell functions as the major creation spell, except as noted above and the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item."
+			"This spell functions as the {spell/major creation} spell, except as noted above and the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item."
 		]
 	},
 	"make_lost": {
@@ -3883,7 +3883,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates (harmless, object); **Spell Resistance** yes (harmless, object)",
 			"",
-			"This spell functions as mending, except that it repairs 1d6 points of damage per level when cast on a construct creature (maximum 5d6).",
+			"This spell functions as {spell/mending}, except that it repairs 1d6 points of damage per level when cast on a construct creature (maximum 5d6).",
 			"",
 			"Make whole can fix destroyed magic items (at 0 hit points or less), and restores the magic properties of the item if your caster level is at least twice that of the item. Items with charges (such as wands) and single-use items (such as potions and scrolls) cannot be repaired in this way. When make whole is used on a construct creature, the spell bypasses any immunity to magic as if the spell did not allow spell resistance.",
 			"",
@@ -3974,7 +3974,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** yes",
 			"",
-			"This functions as confusion, except it only affects constructs, and instead of babbling incoherently, the construct takes no actions on its turn (but may still make attacks of opportunity)."
+			"This functions as {spell/confusion}, except it only affects constructs, and instead of babbling incoherently, the construct takes no actions on its turn (but may still make attacks of opportunity)."
 		]
 	},
 	"malicious_spite": {
@@ -4288,7 +4288,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates (object) or none, see text; **Spell Resistance** yes (object)",
 			"",
-			"You mingle the power of your mind and body to exert force beyond your reach. This spell functions as the combat maneuver version of telekinesis, except as noted above. Alternatively, you can inflict a telekinetic unarmed strike with this spell, using your own unarmed strike damage and applying your primary spellcasting ability score modifier to the damage in place of your Strength modifier."
+			"You mingle the power of your mind and body to exert force beyond your reach. This spell functions as the combat maneuver version of {spell/telekinesis}, except as noted above. Alternatively, you can inflict a telekinetic unarmed strike with this spell, using your own unarmed strike damage and applying your primary spellcasting ability score modifier to the damage in place of your Strength modifier."
 		]
 	},
 	"martyrs_bargain": {

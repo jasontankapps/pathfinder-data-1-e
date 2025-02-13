@@ -1202,7 +1202,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as lesser planar ally, except that you entice a fey of 6 HD or fewer to lend you its aid with an offering of music or something else it finds appealing. Like lesser planar ally, this spell is unpredictable, and the fey who answers the calling is up to the whims of nature and the fey, not your own choice. You must succeed at a Knowledge (nature) check or Perform check (DC = 20 + target's HD) in addition to the spell's material component to entice the fey into appearing, after which you can negotiate for the service and your payment. The maximum HD of fey that you can call with that casting is equal to the result of your check - 20. For example, if your check result is a 24, the maximum HD for the called fey is 4. A high result doesn't allow you to break the HD maximum for the spell, and a result of 20 or less means you can't call a fey at all. If the fey doesn't like the sound of your offer, it can simply choose to refuse, in which case you don't expend any of the material components for the spell, either the offerings or the payment.",
+			"This spell functions as {spell/lesser planar ally}, except that you entice a fey of 6 HD or fewer to lend you its aid with an offering of music or something else it finds appealing. Like lesser planar ally, this spell is unpredictable, and the fey who answers the calling is up to the whims of nature and the fey, not your own choice. You must succeed at a Knowledge (nature) check or Perform check (DC = 20 + target's HD) in addition to the spell's material component to entice the fey into appearing, after which you can negotiate for the service and your payment. The maximum HD of fey that you can call with that casting is equal to the result of your check - 20. For example, if your check result is a 24, the maximum HD for the called fey is 4. A high result doesn't allow you to break the HD maximum for the spell, and a result of 20 or less means you can't call a fey at all. If the fey doesn't like the sound of your offer, it can simply choose to refuse, in which case you don't expend any of the material components for the spell, either the offerings or the payment.",
 			"",
 			"### Entice Fey",
 			"",
@@ -3546,7 +3546,7 @@
 			"**Duration** 24 hours (D)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell functions as ancestral regression, except as noted above and as follows. The wayang loses her darkvision racial trait and gains the low-light vision racial trait in its place. The alignment and personality of the wayang are not affected by the transformation, but the spell conceals her alignment as per undetectable alignment. Unlike ancestral regression, this spell grants the target a +20 bonus on Disguise checks to pass as a gnome; even though the wayang appears as a gnomish analog of herself, the differences between gnomes and wayangs are great enough that she cannot be mistaken for a gnome by other wayangs who know her."
+			"This spell functions as {spell/ancestral regression}, except as noted above and as follows. The wayang loses her darkvision racial trait and gains the low-light vision racial trait in its place. The alignment and personality of the wayang are not affected by the transformation, but the spell conceals her alignment as per undetectable alignment. Unlike ancestral regression, this spell grants the target a +20 bonus on Disguise checks to pass as a gnome; even though the wayang appears as a gnomish analog of herself, the differences between gnomes and wayangs are great enough that she cannot be mistaken for a gnome by other wayangs who know her."
 		]
 	},
 	"flame_arrow": {
@@ -4060,7 +4060,7 @@
 			"**Duration** concentration + 2 rounds and 1 hour/level (see text)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as summon swarm, except that living and undead creatures that fail their saving throw against the swarm's distraction find that their limbs twist and spasm, as their bodies become susceptible to transmutations. Such creatures take a -4 penalty to Dexterity and on saving throws against transmutation effects for 1 hour per caster level."
+			"This spell functions as {spell/summon swarm}, except that living and undead creatures that fail their saving throw against the swarm's distraction find that their limbs twist and spasm, as their bodies become susceptible to transmutations. Such creatures take a -4 penalty to Dexterity and on saving throws against transmutation effects for 1 hour per caster level."
 		]
 	},
 	"fleshworm_infestation": {

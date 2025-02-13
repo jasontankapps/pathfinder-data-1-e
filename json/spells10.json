@@ -442,7 +442,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You conjure a sizable symbol into being, a rune suggestive of bloated bodies, flung food, and flowing wine. This spell functions as symbol of death, except that all creatures within 60 feet of the symbol of debauchery are instead filled with lust for the nearest conscious creature. This effect lasts for 1 round per caster level, even after creatures leave the symbol's area of effect. Affected creatures are compelled to rush to the nearest creature in order to caress and kiss it, and may take no other actions. Each creature receives a single Will save when the symbol of debauchery is triggered to negate the effect. If no other creatures are visible, an affected creature may act normally."
+			"You conjure a sizable symbol into being, a rune suggestive of bloated bodies, flung food, and flowing wine. This spell functions as {spell/symbol of death}, except that all creatures within 60 feet of the symbol of debauchery are instead filled with lust for the nearest conscious creature. This effect lasts for 1 round per caster level, even after creatures leave the symbol's area of effect. Affected creatures are compelled to rush to the nearest creature in order to caress and kiss it, and may take no other actions. Each creature receives a single Will save when the symbol of debauchery is triggered to negate the effect. If no other creatures are visible, an affected creature may act normally."
 		]
 	},
 	"symbol_of_dispelling": {
@@ -460,7 +460,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as symbol of death, except that all creatures within 40 feet of the symbol of dispelling are instead affected as if by the area dispel function of {spell/greater dispel magic}. Attempt a dispel check when casting symbol of dispelling. Once the symbol is triggered, apply the result of that check to each creature in the area, as well as each object that is the target of one or more spells. Unlike symbol of death, symbol of dispelling grants no saving throws, and it is not subject to spell resistance."
+			"This spell functions as {spell/symbol of death}, except that all creatures within 40 feet of the symbol of dispelling are instead affected as if by the area dispel function of {spell/greater dispel magic}. Attempt a dispel check when casting symbol of dispelling. Once the symbol is triggered, apply the result of that check to each creature in the area, as well as each object that is the target of one or more spells. Unlike symbol of death, symbol of dispelling grants no saving throws, and it is not subject to spell resistance."
 		]
 	},
 	"symbol_of_distraction": {
@@ -540,7 +540,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** Will half (harmless) (see text); **Spell Resistance** yes (harmless) (see text)",
 			"",
-			"This spell functions as symbol of death, except all creatures within 60 feet of the symbol of healing instead are bathed in positive energy and heal 2d8 points + 1 point of damage per caster level (maximum +15). Undead and other creatures harmed by positive energy instead take 2d8 points of damage + 1 point per caster level (maximum +15); a Will save reduces this damage by half. A creature can only be healed or harmed by the symbol once in any 24-hour period. Once triggered, the symbol remains active for 10 minutes per caster level.",
+			"This spell functions as {spell/symbol of death}, except all creatures within 60 feet of the symbol of healing instead are bathed in positive energy and heal 2d8 points + 1 point of damage per caster level (maximum +15). Undead and other creatures harmed by positive energy instead take 2d8 points of damage + 1 point per caster level (maximum +15); a Will save reduces this damage by half. A creature can only be healed or harmed by the symbol once in any 24-hour period. Once triggered, the symbol remains active for 10 minutes per caster level.",
 			"",
 			"Symbol of healing can be made permanent with a {spell/permanency} spell by a caster of 10th level or higher for the cost of 10,000 gp."
 		]
@@ -582,7 +582,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions as symbol of death, except that all creatures within 60 feet are affected with uncontrollable laughter (as hideous laughter) for 1 round per caster level.",
+			"This spell functions as {spell/symbol of death}, except that all creatures within 60 feet are affected with uncontrollable laughter (as hideous laughter) for 1 round per caster level.",
 			"",
 			"Unlike symbol of death, symbol of laughter has no hit point limit; once it is triggered, a symbol of laughter remains active for 1 minute per caster level.",
 			"",
@@ -604,7 +604,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** Will partial (harmless); **Spell Resistance** yes",
 			"",
-			"This spell functions as symbol of death, except it instead creates one illusory duplicate of each creature within 60 feet of the symbol. These duplicates function as mirror image, moving with the original creatures and mimicking their movements, sounds, and actions exactly. If an illusory double is destroyed, a new one appears on the creature's turn. The images last for as long as a creature remains within 60 feet of the symbol, and for 1 round/level thereafter. Once triggered, the symbol remains active for 10 minutes per caster level.",
+			"This spell functions as {spell/symbol of death}, except it instead creates one illusory duplicate of each creature within 60 feet of the symbol. These duplicates function as mirror image, moving with the original creatures and mimicking their movements, sounds, and actions exactly. If an illusory double is destroyed, a new one appears on the creature's turn. The images last for as long as a creature remains within 60 feet of the symbol, and for 1 round/level thereafter. Once triggered, the symbol remains active for 10 minutes per caster level.",
 			"",
 			"Symbol of mirroring can be made permanent with a {spell/permanency} spell by a caster of 10th level or higher for the cost of 5,000 gp."
 		]
@@ -668,7 +668,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"This spell functions as symbol of death, except it is only activated by invisible creatures, creatures affected by an illusion (glamer) effect, creatures with the shapechanger subtype, or creatures that have magically changed their shape. These creatures are outlined by a pale light that functions like faerie fire, except it lasts for 10 minutes per caster level; the symbol does not otherwise reveal their true form. Once triggered, a symbol of revelation remains active for 10 minutes per caster level.",
+			"This spell functions as {spell/symbol of death}, except it is only activated by invisible creatures, creatures affected by an illusion (glamer) effect, creatures with the shapechanger subtype, or creatures that have magically changed their shape. These creatures are outlined by a pale light that functions like faerie fire, except it lasts for 10 minutes per caster level; the symbol does not otherwise reveal their true form. Once triggered, a symbol of revelation remains active for 10 minutes per caster level.",
 			"",
 			"Symbol of revelation can be made permanent with a {spell/permanency} spell by a caster of 12th level or higher for the cost of 10,000 gp."
 		]
@@ -688,7 +688,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as symbol of death, except that, when triggered, it creates a scrying sensor linked to you and centered on the symbol, even if you are on a different plane than the symbol. You are immediately aware that the symbol has been triggered if you are conscious, and are awakened from normal sleep if sleeping. The symbol does not otherwise disturb your concentration. You may observe the area through the symbol as if using a scrying spell with the sensor as the target creature. Once triggered, the symbol remains active for 10 minutes per caster level.",
+			"This spell functions as {spell/symbol of death}, except that, when triggered, it creates a scrying sensor linked to you and centered on the symbol, even if you are on a different plane than the symbol. You are immediately aware that the symbol has been triggered if you are conscious, and are awakened from normal sleep if sleeping. The symbol does not otherwise disturb your concentration. You may observe the area through the symbol as if using a scrying spell with the sensor as the target creature. Once triggered, the symbol remains active for 10 minutes per caster level.",
 			"",
 			"Unlike symbol of death, a symbol of scrying is not considered a magical trap. Symbol of scrying can be made permanent with a {spell/permanency} spell by a caster of 13th level or higher for the cost of 10,000 gp."
 		]
@@ -752,7 +752,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions as symbol of death, except all creatures within 60 feet of a symbol of slowing are slowed (as the slow spell) for 1 round per caster level.",
+			"This spell functions as {spell/symbol of death}, except all creatures within 60 feet of a symbol of slowing are slowed (as the slow spell) for 1 round per caster level.",
 			"",
 			"Symbol of slowing can be made permanent with a {spell/permanency} spell by a caster of 11th level or higher for the cost of 10,000 gp."
 		]
@@ -776,7 +776,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions as symbol of death, except all creatures within the radius of a symbol of strife are compelled to attack the nearest conscious creature for 1 round per caster level (similar to the \"attack nearest creature\" result of the confusion spell), even after leaving the symbol's area of effect. If no other creatures are visible, an affected creature can act normally. Once triggered, the symbol remains active for 10 minutes per caster level.",
+			"This spell functions as {spell/symbol of death}, except all creatures within the radius of a symbol of strife are compelled to attack the nearest conscious creature for 1 round per caster level (similar to the \"attack nearest creature\" result of the confusion spell), even after leaving the symbol's area of effect. If no other creatures are visible, an affected creature can act normally. Once triggered, the symbol remains active for 10 minutes per caster level.",
 			"",
 			"Symbol of strife can be made permanent with a {spell/permanency} spell by a caster of 18th level or higher for the cost of 25,000 gp."
 		]
@@ -838,7 +838,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as symbol of death, except it saps the defenses of all creatures within 60 feet. Affected creatures receive a -4 penalty to spell resistance and a -4 penalty on saving throws, and energy resistances and damage reduction (if any) are reduced by 10 each (to a minimum of 0). Once triggered, the symbol remains active for 10 minutes per level. The effects last as long as the creature is within 60 feet of the symbol, and for 1 round per caster level afterward.",
+			"This spell functions as {spell/symbol of death}, except it saps the defenses of all creatures within 60 feet. Affected creatures receive a -4 penalty to spell resistance and a -4 penalty on saving throws, and energy resistances and damage reduction (if any) are reduced by 10 each (to a minimum of 0). Once triggered, the symbol remains active for 10 minutes per level. The effects last as long as the creature is within 60 feet of the symbol, and for 1 round per caster level afterward.",
 			"",
 			"Symbol of vulnerability can be made permanent with a {spell/permanency} spell by a caster of 18h level or higher for the cost of 25,000 gp."
 		]
@@ -1226,7 +1226,7 @@
 			"**Target** you  ",
 			"**Duration** 1 hour/level (D) or until discharged",
 			"",
-			"This spell functions as contingency, but you invest a spell whose level doesn't exceed one-quarter of your level (rounded down, maximum spell level 3rd) into one of your implements that holds 2 or more points of mental focus. The spell's school must match that of the implement, and the spell must be one that affects only your person. Casting talismanic implement reduces the selected implement's mental focus by 2, including for the purposes of determining the effects of resonant powers. When you refresh your mental focus, talismanic implement ends automatically, even if the duration hasn't elapsed. Unlike contingency, you may have multiple talismanic implements simultaneously, though a single implement can hold only one talismanic implement spell, and if you have any talismanic implements, you can't have any other kind of contingency in effect."
+			"This spell functions as {spell/contingency}, but you invest a spell whose level doesn't exceed one-quarter of your level (rounded down, maximum spell level 3rd) into one of your implements that holds 2 or more points of mental focus. The spell's school must match that of the implement, and the spell must be one that affects only your person. Casting talismanic implement reduces the selected implement's mental focus by 2, including for the purposes of determining the effects of resonant powers. When you refresh your mental focus, talismanic implement ends automatically, even if the duration hasn't elapsed. Unlike contingency, you may have multiple talismanic implements simultaneously, though a single implement can hold only one talismanic implement spell, and if you have any talismanic implements, you can't have any other kind of contingency in effect."
 		]
 	},
 	"tamers_lash": {
@@ -1481,7 +1481,7 @@
 			"**Duration** concentration (up to 1 round/level)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"This spell functions as telekinesis, but it can be used only to perform a bull rush, disarm, drag, grapple (including pin), reposition, steal, or trip combat maneuver."
+			"This spell functions as {spell/telekinesis}, but it can be used only to perform a bull rush, disarm, drag, grapple (including pin), reposition, steal, or trip combat maneuver."
 		]
 	},
 	"telekinetic_projectile": {
@@ -1580,7 +1580,7 @@
 			"**Duration** 1 round/level or until discharged (D)  ",
 			"**Saving Throw** none (object); **Spell Resistance** no (object)",
 			"",
-			"The touched items levitate in your space. When you cast the spell and once per round thereafter, you can launch one item at a target of your choice as a standard action. The ranged attack is made as if you had thrown the item unless it's ammunition for a weapon, in which case the attack is made as if fired from a heavy crossbow (if a bolt), a halfling sling staff (if a sling bullet), a blowgun (if a blowgun dart), a composite longbow with a +2 Strength rating (if an arrow), an atlatl (if an atlatl dart), or a pistol (if a firearm bullet). A firearm pellet launched by the spell functions as a shuriken.",
+			"The touched items levitate in your space. When you cast the spell and once per round thereafter, you can launch one item at a target of your choice as a standard action. The ranged attack is made as if you had thrown the item unless it's ammunition for a weapon, in which case the attack is made as if fired from a heavy crossbow (if a bolt), a halfling sling staff (if a sling bullet), a blowgun (if a blowgun dart), a composite longbow with a +2 Strength rating (if an arrow), an atlatl (if an atlatl dart), or a pistol (if a firearm bullet). A firearm pellet launched by the spell functions as a {eq-weapon/shuriken}.",
 			"",
 			"When you launch ammunition with this spell, you don't take a penalty on your attack rolls for lacking proficiency with the ammunition's weapon; you do, however, take the usual -4 penalty for throwing an improvised weapon if you launch an item not intended to be used as a weapon. The attack roll uses your caster level in place of your base attack bonus and your Intelligence or Charisma modifier (whichever is higher) in place of your Dexterity modifier. Range increment and proficiency penalties apply as normal. The attack has an effective Strength bonus, if applicable, equal to the higher of your Intelligence and Charisma modifiers. The spell is discharged when all touched items have been launched."
 		]

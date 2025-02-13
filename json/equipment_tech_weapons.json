@@ -111,7 +111,7 @@
 			"**Craft DC** 20; **Cost** 1,200 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"While powered down, this sturdy, 2-foot truncheon functions as a light mace. Once it is activated (this is a swift action that consumes 1 charge), a high-density power core housed in the weapon's head generates a high-pitched whine that causes momentary disorientation in a creature struck. Each time the weapon hits a target, it consumes 1 charge and the creature struck must succeed at a DC 12 Fortitude save or suffer trauma to its central nervous system. For 1 round, a creature that fails its saving throw takes a -1 penalty on attack rolls, skill checks, and Will saving throws, as well as a -4 penalty on concentration checks. The duration of this effect stacks with multiple hits from the neural inhibitor. This is a mind-affecting effect."
+			"While powered down, this sturdy, 2-foot truncheon functions as a {eq-weapon/light mace}. Once it is activated (this is a swift action that consumes 1 charge), a high-density power core housed in the weapon's head generates a high-pitched whine that causes momentary disorientation in a creature struck. Each time the weapon hits a target, it consumes 1 charge and the creature struck must succeed at a DC 12 Fortitude save or suffer trauma to its central nervous system. For 1 round, a creature that fails its saving throw takes a -1 penalty on attack rolls, skill checks, and Will saving throws, as well as a -4 penalty on concentration checks. The duration of this effect stacks with multiple hits from the neural inhibitor. This is a mind-affecting effect."
 		]
 	},
 	"laser_torch": {
@@ -153,7 +153,7 @@
 			"**Craft DC** 24; **Cost** 2,500 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"This slender rod has an insulated grip and a conductive tip. All bludgeoning damage dealt by an active stun baton is nonlethal, while the electrical charge can be either nonlethal or lethal. By activating a control in the handle as a swift action, the wielder can switch the attack between a nonlethal jolt and a lethal shock. On a confirmed critical hit, a target must succeed at a Fortitude saving throw (DC = 10 + the damage dealt by the critical hit) or be staggered for 1 round. When it's not activated, a stun baton functions as a sap. A character who is proficient with saps is proficient with a stun baton."
+			"This slender rod has an insulated grip and a conductive tip. All bludgeoning damage dealt by an active stun baton is nonlethal, while the electrical charge can be either nonlethal or lethal. By activating a control in the handle as a swift action, the wielder can switch the attack between a nonlethal jolt and a lethal shock. On a confirmed critical hit, a target must succeed at a Fortitude saving throw (DC = 10 + the damage dealt by the critical hit) or be staggered for 1 round. When it's not activated, a stun baton functions as a {eq-weapon/sap}. A character who is proficient with saps is proficient with a stun baton."
 		]
 	},
 	"starfall_spade": {
@@ -477,7 +477,7 @@
 			"**Craft DC** 27; **Cost** 10,000 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"An arc rifle is a larger, more powerful version of an arc pistol, and functions as such except for the differences listed here."
+			"An arc rifle is a larger, more powerful version of an {tech-weapon/arc pistol}, and functions as such except for the differences listed here."
 		]
 	},
 	"autograpnel": {
@@ -523,7 +523,7 @@
 			"**Craft DC** 29; **Cost** 12,000 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"An EMP rifle is a larger, more powerful version of an EMP pistol. It emits a beam of electromagnetic energy that can't harm living creatures, but deals significant damage to robots. It functions as an EMP pistol except for the differences listed here."
+			"An EMP rifle is a larger, more powerful version of an EMP pistol. It emits a beam of electromagnetic energy that can't harm living creatures, but deals significant damage to robots. It functions as an {tech-weapon/EMP pistol} except for the differences listed here."
 		]
 	},
 	"gravity_rifle": {
@@ -544,7 +544,7 @@
 			"**Craft DC** 34; **Cost** 82,500 gp  ",
 			"Craft Technological Arms and Armor, graviton lab",
 			"",
-			"A gravity rifle is a larger, more powerful version of the gravity pistol, and functions as such except for the differences listed here. When a gravity rifle is on sustained setting, it can move objects weighing no more than 350 pounds up to 20 feet per round, and the wielder gains a +4 bonus on combat maneuver checks; she still substitutes her Intelligence modifier in place of her Strength or Dexterity modifier when calculating her CMB for these maneuvers."
+			"A gravity rifle is a larger, more powerful version of the {tech-weapon/gravity pistol}, and functions as such except for the differences listed here. When a gravity rifle is on sustained setting, it can move objects weighing no more than 350 pounds up to 20 feet per round, and the wielder gains a +4 bonus on combat maneuver checks; she still substitutes her Intelligence modifier in place of her Strength or Dexterity modifier when calculating her CMB for these maneuvers."
 		]
 	},
 	"id_rifle": {
@@ -591,7 +591,7 @@
 			"**Craft DC** 27; **Cost** 10,000 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"A laser rifle is a larger, more powerful version of a laser pistol, and functions as such except for the differences listed here."
+			"A laser rifle is a larger, more powerful version of a {tech-weapon/laser pistol}, and functions as such except for the differences listed here."
 		]
 	},
 	"sonic_rifle": {
@@ -612,7 +612,7 @@
 			"**Craft DC** 27; **Cost** 13,000 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"A sonic rifle is a larger, more powerful version of the sonic pistol, and functions as such except for the differences listed here."
+			"A sonic rifle is a larger, more powerful version of the {tech-weapon/sonic pistol}, and functions as such except for the differences listed here."
 		]
 	},
 	"zero_rifle": {
@@ -633,7 +633,7 @@
 			"**Craft DC** 27; **Cost** 10,000 gp  ",
 			"Craft Technological Arms and Armor, military lab",
 			"",
-			"A zero rifle is a larger, more powerful version of the zero pistol, and functions as such except for the differences listed here."
+			"A zero rifle is a larger, more powerful version of the {tech-weapon/zero pistol}, and functions as such except for the differences listed here."
 		]
 	},
 	"atom_gun": {
@@ -974,7 +974,7 @@
 			"**Damage** 6d4 (small), 5d6 (medium); **Damage Type** fire; **Critical** &times;4  ",
 			"**Range** 200 ft.; **Capacity** 20; **Usage** 5 charges; **Special** Touch",
 			"",
-			"An x-laser is a super-charged laser with devastating effects. It fires a highly focused, incredibly powerful beam of high-frequency light. An x-laser's beam functions as a laser rifle's beam, but it bores holes through any creature or object it damages. The beam is stopped if it cannot penetrate the hardness, fire resistance, or fire immunity of a barrier or creature. When making an attack with an x-laser, make a single attack roll and compare that result to the ACs of all creatures in a line extending out to the weapon's maximum range. This weapon damages all targets with an AC equal to or lower than the attack roll. The hole created by an x-laser is less than an inch in diameter and serves primarily as evidence of the weapon's discharge rather than significantly altering an object's structural integrity beyond the damage the laser blast deals as part of the attack.",
+			"An x-laser is a super-charged laser with devastating effects. It fires a highly focused, incredibly powerful beam of high-frequency light. An x-laser's beam functions as a {tech-weapon/laser rifle/'s} beam, but it bores holes through any creature or object it damages. The beam is stopped if it cannot penetrate the hardness, fire resistance, or fire immunity of a barrier or creature. When making an attack with an x-laser, make a single attack roll and compare that result to the ACs of all creatures in a line extending out to the weapon's maximum range. This weapon damages all targets with an AC equal to or lower than the attack roll. The hole created by an x-laser is less than an inch in diameter and serves primarily as evidence of the weapon's discharge rather than significantly altering an object's structural integrity beyond the damage the laser blast deals as part of the attack.",
 			"",
 			"### Construction",
 			"",

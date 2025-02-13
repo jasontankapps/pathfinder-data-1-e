@@ -1636,7 +1636,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will half (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell functions as repair undead, except as noted above, and it cures 1d8 points of damage + 1 point per caster level (maximum +20) on each selected creature."
+			"This spell functions as {spell/repair undead}, except as noted above, and it cures 1d8 points of damage + 1 point per caster level (maximum +20) on each selected creature."
 		]
 	},
 	"mass_repair_undead": {
@@ -2299,7 +2299,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell functions as lesser restoration, except it only affects an eidolon.",
+			"This spell functions as {spell/lesser restoration}, except it only affects an eidolon.",
 			"",
 			"### Restore Eidolon",
 			"",
@@ -2312,7 +2312,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell functions as restoration, except it only affects an eidolon."
+			"This spell functions as {spell/restoration}, except it only affects an eidolon."
 		]
 	},
 	"lesser_restore_eidolon": {
@@ -2808,7 +2808,7 @@
 			"**Duration** 1 hour/level (D); see text  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You stealthily project your soul into the host's body as an observer, with limited ability to influence the target. This functions as possession, except the host is still in full control of its body and is unaware you are possessing it. You can't communicate with the host directly, but you can cast mind-affecting spells or riding possession on the host as long as you can cast these spells as purely mental actions. Even if the spell you cast would normally affect more than one target or an area, it can affect only the host. If the host succeeds at a saving throw against a spell that you cast in this way, it immediately becomes aware that it is possessed, and if it was already aware, it receives another saving throw against riding possession. {spell/Protection from evil} and similar effects don't expel you from the host, but they do prevent you from casting further spells from within your host until their durations expire."
+			"You stealthily project your soul into the host's body as an observer, with limited ability to influence the target. This functions as {spell/possession}, except the host is still in full control of its body and is unaware you are possessing it. You can't communicate with the host directly, but you can cast mind-affecting spells or riding possession on the host as long as you can cast these spells as purely mental actions. Even if the spell you cast would normally affect more than one target or an area, it can affect only the host. If the host succeeds at a saving throw against a spell that you cast in this way, it immediately becomes aware that it is possessed, and if it was already aware, it receives another saving throw against riding possession. {spell/Protection from evil} and similar effects don't expel you from the host, but they do prevent you from casting further spells from within your host until their durations expire."
 		]
 	},
 	"rift_of_ruin": {
@@ -3081,7 +3081,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Reflex negates; **Spell Resistance** no",
 			"",
-			"This spell functions as create pit, except the pit is capable of movement. As a move action, you can direct the pit to move up to 20 feet, though it must always remain on a horizontal surface large enough to accommodate its area. If the pit's movement causes it to share a space with a creature on the same horizontal surface, that creature must succeed at a Reflex saving throw or fall into the pit. Any creature that avoids falling into the pit when it reaches its new destination moves to the nearest safe space. Creatures that fall into the pit move with it if it is relocated."
+			"This spell functions as {spell/create pit}, except the pit is capable of movement. As a move action, you can direct the pit to move up to 20 feet, though it must always remain on a horizontal surface large enough to accommodate its area. If the pit's movement causes it to share a space with a creature on the same horizontal surface, that creature must succeed at a Reflex saving throw or fall into the pit. Any creature that avoids falling into the pit when it reaches its new destination moves to the nearest safe space. Creatures that fall into the pit move with it if it is relocated."
 		]
 	},
 	"rock_whip": {
@@ -3485,7 +3485,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will partial; **Spell Resistance** yes",
 			"",
-			"This spell functions as confusion, except that it affects only constructs. When you are rolling for a confused construct's behavior, a result of 26-50 indicates the construct twitches spasmodically. On a successful Will save, the construct is confused for only 1 round."
+			"This spell functions as {spell/confusion}, except that it affects only constructs. When you are rolling for a confused construct's behavior, a result of 26-50 indicates the construct twitches spasmodically. On a successful Will save, the construct is confused for only 1 round."
 		]
 	},
 	"sacramental_seal": {

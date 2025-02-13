@@ -1,5 +1,6 @@
 import getItem from '../components/getItem';
 import equipment_weapons from './subpages/__eq-weapon1';
+import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -8,6 +9,8 @@ type Data = typeof equipment_weapons;
 interface EquipProps {
 	id: string,
 };
+
+const topLink: Hierarchy = ["Weapons", "main/equipment_weapons"];
 
 const EquipmentWeaponGroup1Page: React.FC<EquipProps> = ({id}) => {
 
@@ -18,7 +21,7 @@ const EquipmentWeaponGroup1Page: React.FC<EquipProps> = ({id}) => {
 		pageId={"/eq-weapon/" + id}
 		title={title}
 		sources={sources}
-		topLink={subhierarchy.length ? subhierarchy[0] : undefined}
+		topLink={subhierarchy.length ? subhierarchy[0] : topLink}
 	>{jsx}</BasicPage>;
 };
 

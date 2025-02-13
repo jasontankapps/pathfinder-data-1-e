@@ -1395,7 +1395,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"This spell functions as sealed life, except it additionally provides the benefits of death ward and renders its targets immune to effects that extract or transfer its soul, such as possession and trap the soul. This spell prevents a soul from returning to its body if it has already departed, until the spell's duration expires."
+			"This spell functions as {spell/sealed life}, except it additionally provides the benefits of death ward and renders its targets immune to effects that extract or transfer its soul, such as possession and trap the soul. This spell prevents a soul from returning to its body if it has already departed, until the spell's duration expires."
 		]
 	},
 	"greater_sealed_life": {
@@ -1827,7 +1827,7 @@
 			"**Duration** 10 minutes/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as insect spies, except it creates wafting seeds with magical intellect instead of insects. The seeds can hear but not see. They fly at a speed of 10 feet (good maneuverability), but they can't crawl or climb, although they can cling to rough, soft, or sticky creatures or surfaces."
+			"This spell functions as {spell/insect spies}, except it creates wafting seeds with magical intellect instead of insects. The seeds can hear but not see. They fly at a speed of 10 feet (good maneuverability), but they can't crawl or climb, although they can cling to rough, soft, or sticky creatures or surfaces."
 		]
 	},
 	"seeds_of_influence": {
@@ -1941,7 +1941,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** Will negates (harmless, object); **Spell Resistance** yes (harmless, object)",
 			"",
-			"This spell functions as nondetection, except that those who cast divination spells targeting the warded creature or item must succeed on a caster level check (DC = 15 + your caster level). If the caster of the divination fails, deadly magical feedback strikes at him, dealing 1d6 points of electricity damage per 2 caster levels you have (maximum 10d6 at 20th level).",
+			"This spell functions as {spell/nondetection}, except that those who cast divination spells targeting the warded creature or item must succeed on a caster level check (DC = 15 + your caster level). If the caster of the divination fails, deadly magical feedback strikes at him, dealing 1d6 points of electricity damage per 2 caster levels you have (maximum 10d6 at 20th level).",
 			"",
 			"Alternatively, if you cast bestow curse, chaos hammer, contagion, holy smite, order's wrath, poison, or unholy blight in the round immediately following seer's bane, you can replace the spell's damaging effect with the effects of that second spell (the divination's caster - and potentially those around him - save as normal for the modifying spell)."
 		]
@@ -2435,7 +2435,7 @@
 			"",
 			"The chain radiates darkness in a 10-foot-radius spread around you, reducing the illumination level in this area by one step, but not below the level of dim light.",
 			"",
-			"You can wield the shadow barbs as a spiked chain as if you were fully proficient with spiked chains. Any additional abilities or feats that you possess that apply to spiked chains apply to the shadow barbs as well. The weapon functions as a +2 vicious spiked chain. Its enhancement bonus increases to +3 at caster level 11th, to +4 at caster level 15th, and finally to +5 at caster level 19th. When the spell effect ends, you can make a Will save against the spell - if successful, all of the damage caused to you by the shadow barbs' vicious weapon quality vanishes, unless you are dead or unconscious at the time the spell ends, in which case you automatically fail this Will save and the vicious weapon damage remains."
+			"You can wield the shadow barbs as a spiked chain as if you were fully proficient with spiked chains. Any additional abilities or feats that you possess that apply to spiked chains apply to the shadow barbs as well. The weapon functions as a +2 {magic-enhancement/vicious} {eq-weapon/spiked chain}. Its enhancement bonus increases to +3 at caster level 11th, to +4 at caster level 15th, and finally to +5 at caster level 19th. When the spell effect ends, you can make a Will save against the spell - if successful, all of the damage caused to you by the shadow barbs' vicious weapon quality vanishes, unless you are dead or unconscious at the time the spell ends, in which case you automatically fail this Will save and the vicious weapon damage remains."
 		]
 	},
 	"shadow_body": {

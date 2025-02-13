@@ -209,7 +209,7 @@
 					[ "{spell/Judgment Light}", 4, null, "You gain an additional effect while a judgment is active." ],
 					[ "{spell/Ki Shout}", [ 6.331, "5, 7" ], "sonic", "Target takes 1d6 sonic/level and is stunned." ],
 					[ "{spell/Last Azlanti's Defending Sword}", [ 6.171, "6, 7" ], "force", "Create a blade like mage's sword that focuses more on defense." ],
-					[ "{spell/Last Azlanti's Defending Sword, Mass}", 9, "force", "As Aroden's defending sword, but with multiple swords" ],
+					[ "{spell/Last Azlanti's Defending Sword, Mass}", 9, "force", "As Last Azlanti's defending sword, but with multiple swords" ],
 					[ "{spell/Lead Anchor}", 2, null, "Alter a creature's buoyancy so that it plummits to the depths" ],
 					[ "{spell/Leashed Shackles}", [ 5.671, "4, 6" ], "force", "Target is restricted to a specific location." ],
 					[ "{spell/Light}", 0, "light", "Object shines like a torch." ],

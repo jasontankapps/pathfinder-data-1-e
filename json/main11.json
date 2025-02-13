@@ -2365,7 +2365,7 @@
 					[ "{spell/Impenetrable Veil}", 9, "abjuration", null, null, "Target can use stealth to hide from blindsight and blindsense as well as divination magic" ],
 					[ "{spell/Imprisonment}", 9, "abjuration", null, null, "Entombs subject beneath the earth." ],
 					[ "{spell/Interplanetary Teleport}", 9, "conjuration", "teleportation", null, "Teleport to another planet." ],
-					[ "{spell/Last Azlanti's Defending Sword, Mass}", 9, "evocation", null, "force", "As Aroden's defending sword, but with multiple swords" ],
+					[ "{spell/Last Azlanti's Defending Sword, Mass}", 9, "evocation", null, "force", "As Last Azlanti's defending sword, but with multiple swords" ],
 					[ "{spell/Lost Locale}", 9, "enchantment", "compulsion", "mind-affecting", "As lost passage, except covering a much larger area." ],
 					[ "{spell/Mage's Disjunction}", 9, "abjuration", null, null, "Dispels magic, disenchants magic items." ],
 					[ "{spell/Massacre}", 9, "necromancy", null, "death", "Slaughter creatures in a line" ],

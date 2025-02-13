@@ -2906,6 +2906,7 @@
 			"A hypnotist's locket can also come in the form of a pocket watch. It can be worn the same way, still includes a space for a portrait or keepsake, and adds the same bonus for hypnotism, but it also functions as a timepiece."
 		]
 	},
+	"hypnotists_locket": { "copyof": "hypnotists_locket_locket" },
 	"hypnotists_locket_pocket_watch": {
 		"name": "Hypnotist's locket (pocket watch)",
 		"copyof": "hypnotists_locket_locket"
@@ -3767,7 +3768,7 @@
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This alchemically enhanced honey is typically transported in small, lantern-shaped containers capable of holding up to 3 doses of honey. A single dose of lantern honey functions as normal antitoxin, except that it also provides immunity to drow poison for 1 hour after consumption."
+			"This alchemically enhanced honey is typically transported in small, lantern-shaped containers capable of holding up to 3 doses of honey. A single dose of lantern honey functions as normal {eq-misc/antitoxin}, except that it also provides immunity to drow poison for 1 hour after consumption."
 		]
 	},
 	"laundry_magic": {

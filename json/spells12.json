@@ -293,7 +293,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You whisk yourself and willing allies out of a tight jam, or instantly transfer yourselves to another location to achieve greater strategic positioning. You can move any allies within range to any other space of your choosing within range. Those spaces need not be in line of sight or line of effect from your original position, but must be open locations on surfaces able to support the creatures teleported. Except as noted above, this spell otherwise functions as dimension door."
+			"You whisk yourself and willing allies out of a tight jam, or instantly transfer yourselves to another location to achieve greater strategic positioning. You can move any allies within range to any other space of your choosing within range. Those spaces need not be in line of sight or line of effect from your original position, but must be open locations on surfaces able to support the creatures teleported. Except as noted above, this spell otherwise functions as {spell/dimension door}."
 		]
 	},
 	"barghest_feast": {
@@ -489,7 +489,7 @@
 			"**Duration** 24 hours or until discharged, then instantaneous  ",
 			"**Saving Throw** Will negates (object); see text; **Spell Resistance** yes",
 			"",
-			"You place an invisible ward upon an object that is triggered the first time a creature tries to move the object from its current location. The next creature to touch the object is cursed to become obvious to everyone around it. The creature must succeed at a Will save or be surrounded in an aura of twinkling red light that functions as faerie fire (spell resistance applies). The curse bestowed by this spell cannot be dispelled, but a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell can remove it."
+			"You place an invisible ward upon an object that is triggered the first time a creature tries to move the object from its current location. The next creature to touch the object is cursed to become obvious to everyone around it. The creature must succeed at a Will save or be surrounded in an aura of twinkling red light that functions as {spell/faerie fire} (spell resistance applies). The curse bestowed by this spell cannot be dispelled, but a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell can remove it."
 		]
 	},
 	"beacon_of_luck": {
@@ -1238,7 +1238,7 @@
 			"",
 			"This variant of planar binding is specifically used to call one of the most knowledgeable types of outsiders: the immortal and prophetic caulborn. This spell calls a single caulborn into a specially prepared trap. The caster of this spell can compel a bound caulborn only to provide information (using its Knowledge skills or detect thoughts); attempts to compel the caulborn to fight, guard a location, or perform some other task automatically fail.",
 			"",
-			"This spell otherwise functions as planar binding. The most effective gifts for a caulborn are unique books or intelligent creatures upon whose thoughts the caulborn can feed. The true names of caulborn are nearly impossible to discover, as they are not inherently individualistic, but certain reclusive scholar communities in Kaer Maga may know titles by which specific caulborn can be called."
+			"This spell otherwise functions as {spell/planar binding}. The most effective gifts for a caulborn are unique books or intelligent creatures upon whose thoughts the caulborn can feed. The true names of caulborn are nearly impossible to discover, as they are not inherently individualistic, but certain reclusive scholar communities in Kaer Maga may know titles by which specific caulborn can be called."
 		]
 	},
 	"binding": {
@@ -1654,7 +1654,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell infuses a weapon with pure sunlight (the weapon need not be a bladed weapon). A weapon enhanced by this spell sheds light as if {spell/daylight} had been cast on it. It functions as a magic and good weapon for the purposes of overcoming damage reduction. The weapon grants a +2 sacred bonus on attack rolls against undead and deals +1d6 points of damage on a successful hit against such foes; against incorporeal undead, it functions as if it had the ghost touch weapon special ability. The weapon automatically confirms critical hits against foes that are vulnerable to sunlight."
+			"This spell infuses a weapon with pure sunlight (the weapon need not be a bladed weapon). A weapon enhanced by this spell sheds light as if {spell/daylight} had been cast on it. It functions as a magic and good weapon for the purposes of overcoming damage reduction. The weapon grants a +2 sacred bonus on attack rolls against undead and deals +1d6 points of damage on a successful hit against such foes; against incorporeal undead, it functions as if it had the {magic-enhancement/ghost touch weapon} special ability. The weapon automatically confirms critical hits against foes that are vulnerable to sunlight."
 		]
 	},
 	"blade_snare": {
@@ -3490,7 +3490,7 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as whispering wind, except it can carry responses and doesn't end after delivering its first message. After the wind completes its initial message, it waits for 1 round, then copies what it hear, and returns at the same speed and by the same route. It delivers what it heard to the location where the spell was originally cast. The wind continues back and forth in this way until the duration ends or the spell is dismissed."
+			"This spell functions as {spell/whispering wind}, except it can carry responses and doesn't end after delivering its first message. After the wind completes its initial message, it waits for 1 round, then copies what it hear, and returns at the same speed and by the same route. It delivers what it heard to the location where the spell was originally cast. The wind continues back and forth in this way until the duration ends or the spell is dismissed."
 		]
 	},
 	"coordinated_effort": {

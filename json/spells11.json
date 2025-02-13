@@ -667,7 +667,7 @@
 			"**Duration** 1 minute/level, instantaneous, or until expended (see text)  ",
 			"**Saving Throw** Reflex negates or none (see text); **Spell Resistance** yes",
 			"",
-			"This spell functions as holy ice, except it is made of frozen unholy water rather than holy water."
+			"This spell functions as {spell/holy ice}, except it is made of frozen unholy water rather than holy water."
 		]
 	},
 	"unholy_sword": {
@@ -758,7 +758,7 @@
 			"**Duration** concentration + 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"This spell functions as rage, except it affects only undead creatures and bolsters them with necromantic energy rather than emotion. Each affected creature gains a +2 profane bonus to Strength and Charisma, a +1 profane bonus on Will saves, and a -2 penalty to AC. The effect is otherwise identical to a barbarian's rage."
+			"This spell functions as {spell/rage}, except it affects only undead creatures and bolsters them with necromantic energy rather than emotion. Each affected creature gains a +2 profane bonus to Strength and Charisma, a +1 profane bonus on Will saves, and a -2 penalty to AC. The effect is otherwise identical to a barbarian's rage."
 		]
 	},
 	"unlock_flesh": {
@@ -1596,7 +1596,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This functions as magic vestment, except it only affects armor or a shield you are wearing or carrying. If the armor or shield is worn or carried by anyone other than you, the spell has no effect, but resumes its effect when you are wearing or carrying it again."
+			"This functions as {spell/magic vestment}, except it only affects armor or a shield you are wearing or carrying. If the armor or shield is worn or carried by anyone other than you, the spell has no effect, but resumes its effect when you are wearing or carrying it again."
 		]
 	},
 	"vex_giant": {
@@ -2057,7 +2057,7 @@
 			"**Target** you  ",
 			"**Duration** 1 round/level (D)",
 			"",
-			"This functions as fire shield, except it wreathes you in yellow or green acidic mist instead of hot or cold flames. The spell deals acid damage to attackers and protects you against acid damage. This spell does not shed light."
+			"This functions as {spell/fire shield}, except it wreathes you in yellow or green acidic mist instead of hot or cold flames. The spell deals acid damage to attackers and protects you against acid damage. This spell does not shed light."
 		]
 	},
 	"vocal_alteration": {
@@ -3461,7 +3461,7 @@
 			"",
 			"The whip is immune to all weapon damage, is never staggered or reduced to a dying state by damage, and is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as disintegrate). The whip takes half again as much damage from spells or effects that affect an area, but since it is considered part of your gear, it takes damage only if you fail a saving throw on a 1 or if it is specifically targeted by an opponent. The whip does not have a swarm's susceptibility to high winds.",
 			"",
-			"As a standard action, you can transform the whip into a spider swarm (all squares of the swarm must be within 15 feet of you); thereafter it functions as summon swarm. The spider swarm has 3 hit points and persists in that form for 2 rounds or until the end of this spell's duration, whichever comes first.",
+			"As a standard action, you can transform the whip into a spider swarm (all squares of the swarm must be within 15 feet of you); thereafter it functions as {spell/summon swarm}. The spider swarm has 3 hit points and persists in that form for 2 rounds or until the end of this spell's duration, whichever comes first.",
 			"",
 			"### Whip of Ants",
 			"",

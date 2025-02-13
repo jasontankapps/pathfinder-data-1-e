@@ -2068,7 +2068,7 @@
 			"**Duration** 1 day/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"Your wings sprout a variety of colorful and flavorful berries. Each berry functions as if affected by goodberry. You can choose for one affected berry to also be poisonous (as striped toadstool); only you and druids of 5th level or higher can tell which is which without magic."
+			"Your wings sprout a variety of colorful and flavorful berries. Each berry functions as if affected by {spell/goodberry}. You can choose for one affected berry to also be poisonous (as striped toadstool); only you and druids of 5th level or higher can tell which is which without magic."
 		]
 	},
 	"wing_thorns": {
@@ -2608,7 +2608,7 @@
 			"**Duration** see text  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions as per symbol of death, save that creatures that succumb to this spell become dominated (as per dominate monster) by Hastur. This causes such creatures to seek to aid any obvious minions or worshipers of Hastur in sight, and any true worshiper of Hastur can command the affected creatures as if that worshiper had been the one to dominate them. In the case of conflicting commands issued from different true worshipers of Hastur, the commanders must attempt opposed Charisma checks, with the winner being able to command the targets for that round. If no worshipers or agents of Hastur are in sight, an affected creature can act normally. When affected by this spell's Yellow Sign in this way, the effects last for 1 round per level. Once triggered, the Yellow Sign remains active for 10 minutes per caster level.",
+			"This spell functions as per {spell/symbol of death}, save that creatures that succumb to this spell become dominated (as per dominate monster) by Hastur. This causes such creatures to seek to aid any obvious minions or worshipers of Hastur in sight, and any true worshiper of Hastur can command the affected creatures as if that worshiper had been the one to dominate them. In the case of conflicting commands issued from different true worshipers of Hastur, the commanders must attempt opposed Charisma checks, with the winner being able to command the targets for that round. If no worshipers or agents of Hastur are in sight, an affected creature can act normally. When affected by this spell's Yellow Sign in this way, the effects last for 1 round per level. Once triggered, the Yellow Sign remains active for 10 minutes per caster level.",
 			"",
 			"There is a 1% chance when a creature fails its saving throw against this spell that Hastur takes note and, for reasons of his own, decides to control the target personally. In this case, the actions taken by the dominated creature are left to the GM to determine, but the effects of this spell's Yellow Sign persist for 1 day per level and the commands issued cannot be countermanded by any other creature, even if they are Hastur worshipers.",
 			"",

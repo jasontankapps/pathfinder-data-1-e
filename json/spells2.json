@@ -608,7 +608,7 @@
 			"**Duration** 1 day or until discharged (D)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell functions as imbue with spell ability, with the following exceptions: only bard spells of the conjuration (healing), enchantment, and transmutation schools can be transferred; the imbued spells last for 1 day; and the subject isn't beholden to any principles regarding the imbued spells' use.",
+			"This spell functions as {spell/imbue with spell ability}, with the following exceptions: only bard spells of the conjuration (healing), enchantment, and transmutation schools can be transferred; the imbued spells last for 1 day; and the subject isn't beholden to any principles regarding the imbued spells' use.",
 			"",
 			"As part of the casting, the caster must shed some of his blood (or an equivalent humor). If the caster isn't susceptible to bleed damage, regardless of the reason, he can't cast blood song. For each spell that is imbued using blood song, the caster loses 5 hit points, which can't be regained by any means until the spell ends or is discharged."
 		]
@@ -846,7 +846,7 @@
 			"**Target** you  ",
 			"**Duration** 1 minute/level (D)",
 			"",
-			"This spell functions as blur, except that the blurring occurs only when you move at least 10 feet on your turn and ceases at the end of your movement. It is therefore mainly used to thwart attacks on your turn, such as attacks of opportunity. If you move at least twice your speed on your turn, the blurring lasts until the start of your next turn."
+			"This spell functions as {spell/blur}, except that the blurring occurs only when you move at least 10 feet on your turn and ceases at the end of your movement. It is therefore mainly used to thwart attacks on your turn, such as attacks of opportunity. If you move at least twice your speed on your turn, the blurring lasts until the start of your next turn."
 		]
 	},
 	"body_capacitance": {
@@ -2068,7 +2068,7 @@
 			"**Duration** permanent until discharged  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions as magic mouth, except rather than creating an illusory mouth on any surface, it affects a skull. In addition, when the skull's magic is triggered, it releases wild and unnerving cackles before speaking its message. All creatures that can hear the cackles must save or become shaken for 1d4 rounds."
+			"This spell functions as {spell/magic mouth}, except rather than creating an illusory mouth on any surface, it affects a skull. In addition, when the skull's magic is triggered, it releases wild and unnerving cackles before speaking its message. All creatures that can hear the cackles must save or become shaken for 1d4 rounds."
 		]
 	},
 	"cacophonous_call": {
@@ -2273,7 +2273,7 @@
 			"**Duration** permanent until discharged  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as instant summons, except it can only summon a construct you control. For constructs such as golems that are immune to magic, the value of the specially inscribed sapphire must be at least 5,000 gp. For other constructs, a 1,000 gp sapphire suffices.",
+			"This spell functions as {spell/instant summons}, except it can only summon a construct you control. For constructs such as golems that are immune to magic, the value of the specially inscribed sapphire must be at least 5,000 gp. For other constructs, a 1,000 gp sapphire suffices.",
 			"",
 			"If the construct is no longer under your control or destroyed, the spell fails, but you know roughly where the construct or its remains are located."
 		]

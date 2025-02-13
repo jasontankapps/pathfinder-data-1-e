@@ -2337,7 +2337,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"You may only cast this spell if you currently have a familiar. You place your soul into the body of your familiar, and your familiar's soul is placed in your body. This functions as if you possessed your familiar using magic jar; your familiar simultaneously possesses your body in the same manner. You can't freely transfer your soul between your body and your familiar's - if you choose to return to your body as a standard action, the spell ends. If either body is killed, both spirits return to their original bodies, the spell ends, and the original owner of the slain body dies."
+			"You may only cast this spell if you currently have a familiar. You place your soul into the body of your familiar, and your familiar's soul is placed in your body. This functions as if you possessed your familiar using {spell/magic jar}; your familiar simultaneously possesses your body in the same manner. You can't freely transfer your soul between your body and your familiar's - if you choose to return to your body as a standard action, the spell ends. If either body is killed, both spirits return to their original bodies, the spell ends, and the original owner of the slain body dies."
 		]
 	},
 	"sound_burst": {
@@ -2461,7 +2461,7 @@
 			"**Duration** 10 min./level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** no",
 			"",
-			"This spell functions as tongues, except the creature touched gains only the ability to speak and understand a regional human language, such as Varisian or Common (Taldane in the Inner Sea region or Tien in Tian Xia), and the language granted must be one you know. You must select the language at the time of casting. The language can't be a dead language, such as Ancient Osiriani or Jistka.",
+			"This spell functions as {spell/tongues}, except the creature touched gains only the ability to speak and understand a regional human language, such as Varisian or Common (Taldane in the Inner Sea region or Tien in Tian Xia), and the language granted must be one you know. You must select the language at the time of casting. The language can't be a dead language, such as Ancient Osiriani or Jistka.",
 			"",
 			"The target speaks the language with a native accent, but the spell doesn't impart knowledge about any culture associated with the language, nor does it change the target's appearance."
 		]

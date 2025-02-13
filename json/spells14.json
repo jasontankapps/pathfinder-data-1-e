@@ -619,7 +619,7 @@
 			"**Duration** permanent until discharged (D)  ",
 			"**Saving Throw** Reflex partial; **Spell Resistance** yes",
 			"",
-			"This spell functions as explosive runes, except it creates a small surge of flames rather than an explosion of force. The runes automatically deal 1d6 points of fire damage to any creatures and objects in adjacent squares, and those creatures and objects catch fire unless they succeed at Reflex saves."
+			"This spell functions as {spell/explosive runes}, except it creates a small surge of flames rather than an explosion of force. The runes automatically deal 1d6 points of fire damage to any creatures and objects in adjacent squares, and those creatures and objects catch fire unless they succeed at Reflex saves."
 		]
 	},
 	"incessant_buzzing": {
@@ -1170,7 +1170,7 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell transforms a creature into a Medium or smaller animal or humanoid of no more than 1 Hit Die. If you use this spell to cause the target to take on the form of an animal, the spell functions as beast shape II. If the form is that of a humanoid, the spell can function as alter self, youthful appearance, or both, such that you can transform a creature into a generic, youthful humanoid of any type.",
+			"This spell transforms a creature into a Medium or smaller animal or humanoid of no more than 1 Hit Die. If you use this spell to cause the target to take on the form of an animal, the spell functions as {spell/beast shape II}. If the form is that of a humanoid, the spell can function as alter self, youthful appearance, or both, such that you can transform a creature into a generic, youthful humanoid of any type.",
 			"",
 			"Any creature that interacts with the target of this spell must succeed at a Will saving throw (using the DC of the spell) or view the target in the most innocuous possible light. On a failed saving throw, the creature views all of the target's actions as inoffensive and no cause for concern unless the target becomes an obvious threat. The creature can otherwise act normally, and feels no compunction to obey or ignore the target; it simply assumes none of the target's actions are dangerous or malicious unless shown evidence that proves otherwise."
 		]
@@ -1621,7 +1621,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none and Will negates (object); **Spell Resistance** no and yes (object)",
 			"",
-			"This spell functions as teleport, except there is truly no range limit and you do not need to have seen your destination, though you must have a solid grasp of which world you wish to travel to (\"the third planet from the sun\" is an acceptable destination, but \"a habitable world near that bright star\" is not). If you have a specific location on a planet in mind, you arrive there without a chance of failure; otherwise you arrive at a location that would not immediately be life-threatening. If no such safe landing zone exists on the world, such as someone attempting to travel into the sun without the proper precautions in place, the spell simply fails."
+			"This spell functions as {spell/teleport}, except there is truly no range limit and you do not need to have seen your destination, though you must have a solid grasp of which world you wish to travel to (\"the third planet from the sun\" is an acceptable destination, but \"a habitable world near that bright star\" is not). If you have a specific location on a planet in mind, you arrive there without a chance of failure; otherwise you arrive at a location that would not immediately be life-threatening. If no such safe landing zone exists on the world, such as someone attempting to travel into the sun without the proper precautions in place, the spell simply fails."
 		]
 	},
 	"interposing_hand": {
@@ -1911,7 +1911,7 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions as alarm, except it is triggered only by invisible creatures entering or leaving the warded area. The spell has a different mental alarm depending on whether the invisible creature is entering or leaving the area. This spell does not aid you in sensing or pinpointing the location of an invisible creature within the spell's area.",
+			"This spell functions as {spell/alarm}, except it is triggered only by invisible creatures entering or leaving the warded area. The spell has a different mental alarm depending on whether the invisible creature is entering or leaving the area. This spell does not aid you in sensing or pinpointing the location of an invisible creature within the spell's area.",
 			"",
 			"Invisibility alarm can be made permanent with a {spell/permanency} spell by a caster of 9th level or higher at a cost of 2,500 gp."
 		]
@@ -2918,7 +2918,7 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell is similar to possession, except you switch minds with the target, so instead of the target's soul sharing its body with yours and being unable to act, the target's mind moves to your body and can control it as if you each had cast possession on the other.",
+			"This spell is similar to {spell/possession}, except you switch minds with the target, so instead of the target's soul sharing its body with yours and being unable to act, the target's mind moves to your body and can control it as if you each had cast possession on the other.",
 			"",
 			"### Mind Swap, Major",
 			"",
@@ -3225,7 +3225,7 @@
 			"**Target** you or one gnome touched  ",
 			"**Duration** see text",
 			"",
-			"This spell functions as the dream spell, except as follows. The messenger must be yourself or a gnome touched. The message can be no longer than 20 words. If the recipient of the message is not asleep when the spell is cast, the spell automatically fails."
+			"This spell functions as the {spell/dream} spell, except as follows. The messenger must be yourself or a gnome touched. The message can be no longer than 20 words. If the recipient of the message is not asleep when the spell is cast, the spell automatically fails."
 		]
 	},
 	"minor_image": {
@@ -3279,7 +3279,7 @@
 			"**Effect** illusory, unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level  ",
 			"**Duration** 10 minutes/level (D)",
 			"",
-			"This spell functions as the minor creation spell, except the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item."
+			"This spell functions as the {spell/minor creation} spell, except the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item."
 		]
 	},
 	"minor_reversion": {
@@ -3529,7 +3529,7 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** yes (object); **Spell Resistance** yes (object)",
 			"",
-			"This spell functions as mirror hideaway, except any creature that enters the target mirror can spend a swift action to exit through another mirror within 500 feet as if using dimension door; this is a one-way transport. The creature can exit through a mirror only if it could fit through an opening the same size as the mirror. Each transport through the target mirror reduces the spell's duration by 1 hour."
+			"This spell functions as {spell/mirror hideaway}, except any creature that enters the target mirror can spend a swift action to exit through another mirror within 500 feet as if using dimension door; this is a one-way transport. The creature can exit through a mirror only if it could fit through an opening the same size as the mirror. Each transport through the target mirror reduces the spell's duration by 1 hour."
 		]
 	},
 	"mischievous_shadow": {
