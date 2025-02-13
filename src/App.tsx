@@ -54,6 +54,7 @@ setupIonicReact({
 
 const FeatTreePage = lazy(() => import("./pages/FeatTreePage"));
 const BookmarksPage = lazy(() => import("./pages/Bookmarks"));
+const BookmarkPage = lazy(() => import("./pages/BookmarkPage"));
 const AfflictionPage = lazy(() => import("./pages/AfflictionPage"));
 const ArcanaPage = lazy(() => import("./pages/ArcanaPage"));
 const AspectPage = lazy(() => import("./pages/AspectPage"));
@@ -125,6 +126,7 @@ const App: FC = () => {
 						<Route path="/about"><AboutOnlyPage /></Route>
 						<Route path="/main/:mainpage"><MainPage /></Route>
 						<Route path="/bookmarks"><Suspense fallback={<Loading />}><BookmarksPage /></Suspense></Route>
+						<Route path="/bookmarks/:color"><Suspense fallback={<Loading />}><BookmarkPage /></Suspense></Route>
 						<Route path="/arcaneschool/:id"><Suspense fallback={<Loading />}><SchoolPage /></Suspense></Route>
 						<Route path="/ability/:id"><ClassAbilityPage /></Route>
 						<Route path={/^[/]arc-(?<parent>[a-z_]+)[/](?<id>[a-z_0-9]+)[/]?$/}><ArchetypePage /></Route>

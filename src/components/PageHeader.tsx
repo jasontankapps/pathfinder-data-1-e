@@ -9,6 +9,7 @@ import { useLocation } from 'wouter';
 import { goTo } from '../store/historySlice';
 import { addBookmark, removeBookmark } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
+import getPageName from './getPageName';
 import './Bookmarks.css';
 
 const Bookmarks: React.FC<{location: string}> = ({location}) => {
@@ -25,7 +26,7 @@ const Bookmarks: React.FC<{location: string}> = ({location}) => {
 			return (
 				<IonItem
 					key={`checkbox-bookmark-${c}`}
-					onClick={() => dispatch(addOrRemove({id: location, color: c}))}
+					onClick={() => dispatch(addOrRemove({id: location, title: getPageName(location), color: c}))}
 					button
 					detail={false}
 				>

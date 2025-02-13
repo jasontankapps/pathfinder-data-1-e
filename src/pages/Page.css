@@ -782,3 +782,10 @@ div.featsTreePage section > div.leaf:first-child > div.coparents > strong {
 div.basicContent.bookmarks ion-list {
 	padding-bottom: 0;
 }
+div.basicContent.bookmarks ion-list ion-item.link {
+	position: relative;
+}
+div.basicContent.bookmarks ion-list ion-item.link ion-label {
+	color: var(--ion-color-primary);
+	cursor: pointer;
+}

@@ -18,7 +18,7 @@ import scrollReducer, {initialState as scroll} from './scrollSlice';
 import historyReducer, {initialState as history} from './historySlice';
 import searchReducer, {initialState as search} from './searchSlice';
 import displayTableReducer, {initialState as displayTable} from './displayTableSlice';
-import bookmarksReducer, {initialState as bookmarks} from './bookmarksSlice';
+import bookmarksReducer, {initialState as bookmarks, Color, ColorState} from './bookmarksSlice';
 
 //
 //
@@ -35,12 +35,34 @@ const initialAppState = {
 //
 //
 
+interface C2 {
+	color: Color
+	title: string
+	contents: string[]
+	hidden: boolean
+}
+
 const migrations = {
-	1: (state: any) => {
-		// migration to keep only device state
+	2: (state: any) => {
+		const {bookmarks} = state;
+		const {db, order, ...colors} = bookmarks;
+		const modified: Partial<ColorState> = {};
+		Object.entries(colors).forEach(([prop, data]) => {
+			const {color, title, contents, hidden} = (data as C2);
+			modified[prop as Color] = {
+				color,
+				title,
+				contents: contents.map(c => [c, c]),
+				hidden
+			};
+		});
 		return {
 			...state,
-			bookmarks
+			bookmarks: {
+				db,
+				order,
+				...modified
+			}
 		}
 	}
 };
@@ -58,7 +80,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 1,
+	version: 2,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),
