@@ -30,11 +30,11 @@
 			"",
 			"**Black Blood Revelations:** All black-blooded oracles have access to the following revelations, regardless of what mystery they choose.",
 			"",
-			"**Black Blood Spray (Su):** As an immediate action whenever a black-blooded oracle takes piercing or slashing damage, she can cause some of her black blood to spray from the wound to strike any adjacent target. She must make a touch attack to hit the target (if she's attacking the creature that caused the wound, she gains a +4 circumstance bonus on her attack roll). If she hits, she deals 1d8 points of cold damage + 1 point per 2 oracle levels she possesses. She can use this ability a number of times per day equal to 1/2 her oracle level (minimum 1/day).",
-			"",
-			"**Dark Resilience (Su):** The black blood flowing through a black-blooded oracle's veins gives her resistance to many effects to which undead are immune. Once per day, as an immediate action, whenever she fails a saving throw against an ability drain, a death effect, disease, energy drain, paralysis, or poison, she may attempt that saving throw again with a +4 circumstance bonus. She must take the second result, even if it is worse. At 7th level, she can use this ability twice per day. At 15th level, she can use the ability 3 times per day.",
-			"",
-			"**Darkvision (Ex):** A black-blooded oracle gains darkvision with a range of 60 feet. The range increases to 90 feet at 15th level.",
+			">**Black Blood Spray (Su):** As an immediate action whenever a black-blooded oracle takes piercing or slashing damage, she can cause some of her black blood to spray from the wound to strike any adjacent target. She must make a touch attack to hit the target (if she's attacking the creature that caused the wound, she gains a +4 circumstance bonus on her attack roll). If she hits, she deals 1d8 points of cold damage + 1 point per 2 oracle levels she possesses. She can use this ability a number of times per day equal to 1/2 her oracle level (minimum 1/day).",
+			">",
+			">**Dark Resilience (Su):** The black blood flowing through a black-blooded oracle's veins gives her resistance to many effects to which undead are immune. Once per day, as an immediate action, whenever she fails a saving throw against an ability drain, a death effect, disease, energy drain, paralysis, or poison, she may attempt that saving throw again with a +4 circumstance bonus. She must take the second result, even if it is worse. At 7th level, she can use this ability twice per day. At 15th level, she can use the ability 3 times per day.",
+			">",
+			">**Darkvision (Ex):** A black-blooded oracle gains darkvision with a range of 60 feet. The range increases to 90 feet at 15th level.",
 			"",
 			"### Black Blood of Orv",
 			"",
@@ -118,13 +118,13 @@
 			"",
 			"**Revelations:** A divine numerologist must take the following revelations at the listed levels.",
 			"",
-			"**Calculate the Odds (Su):** At 1st level, as a swift action that does not provoke attacks of opportunity, the divine numerologist can quickly tabulate the variables affecting the current situation. This grants the divine numerologist a circumstance bonus equal to her Charisma modifier (minimum +1) to her next d20 roll within 1 round. If the divine numerologist does not use this bonus within 1 round, the use of this ability is wasted. The divine numerologist can use this ability once per day at 1st level, plus one additional time per day at 7th and 15th levels.",
-			"",
-			"**Program the Divine Algorithm (Su):** At 7th level, the divine numerologist's mastery of the divine mathematics allows her to set specific parameters in the divine equation to adjust the outcome of an event right as it is about to occur. As an immediate action that does not provoke attacks of opportunity, the divine numerologist can take the average of a single roll of one or more dice, averaging each die separately (for example, the average of a d20 roll is 10, the average of 3d6 is 9, and so on). When using this ability, the divine numerologist can add any modifiers to the roll as normal.",
-			"",
-			"The divine numerologist must decide to use this ability immediately before the roll she chooses to affect, and the divine numerologist cannot reroll this roll, even if she has a feat or another ability that would normally allow her to do so.",
-			"",
-			"The divine numerologist can use this ability once per day at 7th level and twice per day at 11th level. At 15th level, the divine numerologist can use this ability three times per day, and instead of treating a roll as its average, she can instead treat the roll as its maximum result (for example, the divine numerologist can treat a d20 roll as if the result were 20).",
+			">**Calculate the Odds (Su):** At 1st level, as a swift action that does not provoke attacks of opportunity, the divine numerologist can quickly tabulate the variables affecting the current situation. This grants the divine numerologist a circumstance bonus equal to her Charisma modifier (minimum +1) to her next d20 roll within 1 round. If the divine numerologist does not use this bonus within 1 round, the use of this ability is wasted. The divine numerologist can use this ability once per day at 1st level, plus one additional time per day at 7th and 15th levels.",
+			">",
+			">**Program the Divine Algorithm (Su):** At 7th level, the divine numerologist's mastery of the divine mathematics allows her to set specific parameters in the divine equation to adjust the outcome of an event right as it is about to occur. As an immediate action that does not provoke attacks of opportunity, the divine numerologist can take the average of a single roll of one or more dice, averaging each die separately (for example, the average of a d20 roll is 10, the average of 3d6 is 9, and so on). When using this ability, the divine numerologist can add any modifiers to the roll as normal.",
+			">",
+			">The divine numerologist must decide to use this ability immediately before the roll she chooses to affect, and the divine numerologist cannot reroll this roll, even if she has a feat or another ability that would normally allow her to do so.",
+			">",
+			">The divine numerologist can use this ability once per day at 7th level and twice per day at 11th level. At 15th level, the divine numerologist can use this ability three times per day, and instead of treating a roll as its average, she can instead treat the roll as its maximum result (for example, the divine numerologist can treat a d20 roll as if the result were 20).",
 			"",
 			"**Final Revelation:** At 20th level, a divine numerologist understands the math behind the entirety of existence well enough to significantly tweak her own personal fate. The divine numerologist ceases aging. She no longer suffers age-related penalties to ability scores and cannot be magically aged. Additionally, once per day when the divine numerologist or another allied creature within 30 feet of her threatens a critical hit, the critical hit is automatically confirmed."
 		]
@@ -148,9 +148,9 @@
 			"",
 			"**Revelations:** A dual-cursed oracle gains a new revelation at 5th level and 13th level. These are in addition to the normal revelations she receives at 3rd level, 7th level, and so on. In addition, the cursed oracle may select the following revelations in place of a mystery revelation.",
 			"",
-			"**Misfortune (Ex):** At 1st level, as an immediate action, you can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll. Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.",
-			"",
-			"**Fortune (Ex):** At 5th level, as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. You can use this ability once per day at 5th level, and one additional time per day for every six oracle levels beyond 5th."
+			">**Misfortune (Ex):** At 1st level, as an immediate action, you can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll. Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.",
+			">",
+			">**Fortune (Ex):** At 5th level, as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. You can use this ability once per day at 5th level, and one additional time per day for every six oracle levels beyond 5th."
 		]
 	},
 	"elementalist_oracle": {
@@ -181,8 +181,8 @@
 			">- *Water:* Swim speed of 30 feet and the ability to breathe underwater.",
 			">",
 			">**Elemental Revelation (Su):** At 20th level, you fully harness the power of the elements. You can apply the Elemental Spell metamagic feat to spells you cast without increasing the level or casting time. You can choose acid, cold, electricity, or fire each time you use this ability. Whenever you score a critical hit with an attack that deals energy damage, you ignore the target's energy resistance (if any). If you score such a critical hit against a creature that has immunity to the energy type you are attacking with, the creature takes half damage from the attack.",
-			"",
-			"This replaces final revelation."
+			">",
+			">This replaces final revelation."
 		]
 	},
 	"enlightened_philosopher": {
@@ -204,7 +204,7 @@
 			"",
 			"**Revelations:** An enlightened philosopher must take the following revelation at 7th level.",
 			"",
-			"**Mental Acuity (Ex):** As the lore mystery revelation.",
+			">**Mental Acuity (Ex):** As the lore mystery revelation.",
 			"",
 			"**Final Revelation:** Upon achieving 20th level, you achieve true enlightenment and become one with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You become immune to confusion, exhaustion, fatigue, nausea, and sickened effects. You can take 20 on all Knowledge skill checks. Should you die, you are reborn 3 days later as a living example of the summoning of your chosen philosophy (treat as the reincarnate spell). This replaces the final revelation of the oracle's mystery."
 		]
@@ -252,7 +252,7 @@
 			"",
 			"**Revelations:** An inerrant voice must take the following revelation at 3rd level.",
 			"",
-			"**Vigilant Protector (Su):** Each day when you recover your spells, you can select a specific person you know other than yourself as your ward. When your ward becomes the target of an attack or spell and you are aware of the attack, you can cast an abjuration spell you know on the ally as an immediate action. You must expend the appropriate spell slot and be able to target the ally as normal for the spell. At 11th level, as an immediate action when you know your ward is targeted, you can transpose yourself with your ward, teleporting into the original target's square (and becoming the new target of the attack or spell) while your ally is teleported into yours; this is a teleportation effect that doesn't provoke attacks of opportunity. You can use this revelation once per day, plus an additional time at 7th level and every 4 oracle levels thereafter."
+			">**Vigilant Protector (Su):** Each day when you recover your spells, you can select a specific person you know other than yourself as your ward. When your ward becomes the target of an attack or spell and you are aware of the attack, you can cast an abjuration spell you know on the ally as an immediate action. You must expend the appropriate spell slot and be able to target the ally as normal for the spell. At 11th level, as an immediate action when you know your ward is targeted, you can transpose yourself with your ward, teleporting into the original target's square (and becoming the new target of the attack or spell) while your ally is teleported into yours; this is a teleportation effect that doesn't provoke attacks of opportunity. You can use this revelation once per day, plus an additional time at 7th level and every 4 oracle levels thereafter."
 		]
 	},
 	"keleshite_prophet": {
@@ -276,17 +276,17 @@
 			"",
 			"**Revelations:** A Keleshite prophet must take the following revelation at 1st level.",
 			"",
-			"**Divining Dance (Su):** Once per day, you can perform a sacred meditative dance that gives you great clarity of mind and prepares you for what lies ahead. This dance must last for at least 1 minute, uninterrupted, and you can take no other actions during the dance.",
-			"",
-			"When you dance, attempt a Perform (dance) check; the results of the check determine the benefits you gain for the next 24 hours, as listed below. You can always choose the benefit from a lower result, if you wish (for example, if your Perform [dance] result is 15, you can choose to gain a +1 bonus on your divinations' saving throws instead of choosing to use augury once as a spell-like ability).",
-			"",
-			"| Perform (Dance) Result | Benefit |",
-			"| --- | --- |",
-			"| 0-9 | Increase the saving throw DC of any divination spells you cast by 1. |",
-			"| 10-19 | Once in the next 24 hours, as an immediate action, you can use {spell/augury} as a spell-like ability, using your oracle level as your caster level. |",
-			"| 20-29 | Once in the next 24 hours, you can use {spell/divination} as a spell-like ability, using your oracle level as your caster level. If you are at least 8th level, you can cast it in 1 minute instead of 10 minutes. |",
-			"| 30-39 | Once in the next 24 hours, you can use {spell/commune} as a spell-like ability, using your oracle level as your caster level. If you are at least 10th level, its casting time is in 1 minute instead of 10 minutes. |",
-			"| 40+ | Once in the next 24 hours, you can use {spell/contact other plane} as a spell-like ability, using your oracle level as your caster level. |"
+			">**Divining Dance (Su):** Once per day, you can perform a sacred meditative dance that gives you great clarity of mind and prepares you for what lies ahead. This dance must last for at least 1 minute, uninterrupted, and you can take no other actions during the dance.",
+			">",
+			">When you dance, attempt a Perform (dance) check; the results of the check determine the benefits you gain for the next 24 hours, as listed below. You can always choose the benefit from a lower result, if you wish (for example, if your Perform [dance] result is 15, you can choose to gain a +1 bonus on your divinations' saving throws instead of choosing to use augury once as a spell-like ability).",
+			">",
+			">| Perform (Dance) Result | Benefit |",
+			">| --- | --- |",
+			">| 0-9 | Increase the saving throw DC of any divination spells you cast by 1. |",
+			">| 10-19 | Once in the next 24 hours, as an immediate action, you can use {spell/augury} as a spell-like ability, using your oracle level as your caster level. |",
+			">| 20-29 | Once in the next 24 hours, you can use {spell/divination} as a spell-like ability, using your oracle level as your caster level. If you are at least 8th level, you can cast it in 1 minute instead of 10 minutes. |",
+			">| 30-39 | Once in the next 24 hours, you can use {spell/commune} as a spell-like ability, using your oracle level as your caster level. If you are at least 10th level, its casting time is in 1 minute instead of 10 minutes. |",
+			">| 40+ | Once in the next 24 hours, you can use {spell/contact other plane} as a spell-like ability, using your oracle level as your caster level. |"
 		]
 	},
 	"oceans_echo": {
@@ -360,7 +360,7 @@
 			"",
 			"**Revelations:** At 1st level, you must choose one Outer Plane with which you have an affinity. This choice cannot be changed. A planar oracle must take the following revelation at 3rd level.",
 			"",
-			"**Planar Resistance (Su):** At 3rd level, you gain energy resistance 10 against one energy type associated with your chosen plane. At 11th level, your energy resistance increases to 20.",
+			">**Planar Resistance (Su):** At 3rd level, you gain energy resistance 10 against one energy type associated with your chosen plane. At 11th level, your energy resistance increases to 20.",
 			"",
 			"**Final Revelation:** At 20th level, you become an extraplanar creature. Choose one outer plane, such as Heaven or the Abyss. You gain superficial physical characteristics as appropriate to natives of your chosen outer plane. For example, if your chosen plane is Heaven, you gain angelic features such as a halo and metallic skin. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Your type changes to \"outsider (extraplanar),\" except on your associated plane, where your type is \"outsider (native).\" In addition, you gain immunity to your associated energy type and gain damage reduction 10/magic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. This replaces the final revelation of the oracle's mystery."
 		]
@@ -382,7 +382,7 @@
 			"",
 			"**Revelations:** A possessed oracle must take the following revelation at 1st level.",
 			"",
-			"**Two Minds (Su):** You gain a +2 bonus on Will saves against enchantment spells or effects. At 7th level, you may reroll a failed Will save once per day as an immediate action. You must take the second result, even if it is worse."
+			">**Two Minds (Su):** You gain a +2 bonus on Will saves against enchantment spells or effects. At 7th level, you may reroll a failed Will save once per day as an immediate action. You must take the second result, even if it is worse."
 		]
 	},
 	"psychic_searcher": {
@@ -420,13 +420,13 @@
 			"",
 			"**Revelations:** A purifier must take the following revelations at the listed levels.",
 			"",
-			"**See Sin (Sp):** At 3rd level, a purifier gains a bonus equal to 1/2 her oracle level on Sense Motive checks to sense enchantments, which she can make as a full-round action. She also gains a bonus equal to 1/2 her oracle level on Spellcraft checks to identify enchantment school spells and spells with the curse or emotion descriptor.",
-			"",
-			"**Celestial Armor (Su):** At 7th level, a purifier's armor takes on a golden or silvery sheen and becomes light as a feather. Her armor weighs half as much as long as she wears it, and she also gains armor training as a fighter 4 levels lower than her oracle level. At 11th level, a purifier gains heavy armor proficiency.",
-			"",
-			"**Sin Eater (Su):** At 11th level, a purifier can consume a curse, enchantment, or emotion effect by touch as a full-round action. She can do this a number of times per day equal to her Charisma modifier, and must make a Charisma check with a bonus equal to her oracle level against a DC of 11 + the caster level of the effect (or the Hit Dice of the creator for a supernatural effect). If the check succeeds, the effect is negated; however, the purifier is sickened for 1d4 rounds.",
-			"",
-			"If the target is possessed (such as by a magic jar effect or a ghost's malevolence ability), the possessor is forced out on a successful check. Whether the check succeeds or fails, the possessor is sickened for 2d4 rounds.",
+			">**See Sin (Sp):** At 3rd level, a purifier gains a bonus equal to 1/2 her oracle level on Sense Motive checks to sense enchantments, which she can make as a full-round action. She also gains a bonus equal to 1/2 her oracle level on Spellcraft checks to identify enchantment school spells and spells with the curse or emotion descriptor.",
+			">",
+			">**Celestial Armor (Su):** At 7th level, a purifier's armor takes on a golden or silvery sheen and becomes light as a feather. Her armor weighs half as much as long as she wears it, and she also gains armor training as a fighter 4 levels lower than her oracle level. At 11th level, a purifier gains heavy armor proficiency.",
+			">",
+			">**Sin Eater (Su):** At 11th level, a purifier can consume a curse, enchantment, or emotion effect by touch as a full-round action. She can do this a number of times per day equal to her Charisma modifier, and must make a Charisma check with a bonus equal to her oracle level against a DC of 11 + the caster level of the effect (or the Hit Dice of the creator for a supernatural effect). If the check succeeds, the effect is negated; however, the purifier is sickened for 1d4 rounds.",
+			">",
+			">If the target is possessed (such as by a magic jar effect or a ghost's malevolence ability), the possessor is forced out on a successful check. Whether the check succeeds or fails, the possessor is sickened for 2d4 rounds.",
 			"",
 			"**Sacred Scourge (Su):** At 5th level, a purifier may channel holy power to harm evil outsiders as a cleric of her level using the {feat/Alignment Channel} feat. She may use this ability a number of times per day equal to 1 + her Charisma modifier.",
 			"",
@@ -630,13 +630,13 @@
 			"",
 			"**Revelations:** A tree soul oracle must take the following revelations at the listed levels.",
 			"",
-			"**Transform Wood (Su):** At 1st level, as a standard action you can temporarily transform a number of 5-foot cubes of wood each day equal to 1 + your Charisma modifier. The wood takes on the quality of {eq-material/darkwood} for 1 minute per oracle level. At 11th level, you can have it instead take on the quality of {eq-material/living steel} for the same duration.",
-			"",
-			"**Living Steel Dolls (Ex):** At 11th level, you add {spell/animate objects} to your list of spells known. When you cast this spell on wooden objects, the objects' wooden parts immediately transform into living steel. If the objects are destroyed or the duration ends, the wooden parts revert back to their original material.",
-			"",
-			"**Tree Soul Revelation (Su):** At 20th level, your skin takes on the appearance and properties of a tree trunk. This bark-like skin grants you a +4 natural armor bonus to your Armor Class and DR 10/slashing. You also regrow any severed limbs except your head within 24 hours as per regenerate. Finally, once a day as a standard action, you can assume the form of a {monster/treant}, as per {spell/plant shape III}, for a number of minutes equal to 3 + your Charisma modifier (minimum 1).",
-			"",
-			"This replaces final revelation."
+			">**Transform Wood (Su):** At 1st level, as a standard action you can temporarily transform a number of 5-foot cubes of wood each day equal to 1 + your Charisma modifier. The wood takes on the quality of {eq-material/darkwood} for 1 minute per oracle level. At 11th level, you can have it instead take on the quality of {eq-material/living steel} for the same duration.",
+			">",
+			">**Living Steel Dolls (Ex):** At 11th level, you add {spell/animate objects} to your list of spells known. When you cast this spell on wooden objects, the objects' wooden parts immediately transform into living steel. If the objects are destroyed or the duration ends, the wooden parts revert back to their original material.",
+			">",
+			">**Tree Soul Revelation (Su):** At 20th level, your skin takes on the appearance and properties of a tree trunk. This bark-like skin grants you a +4 natural armor bonus to your Armor Class and DR 10/slashing. You also regrow any severed limbs except your head within 24 hours as per regenerate. Finally, once a day as a standard action, you can assume the form of a {monster/treant}, as per {spell/plant shape III}, for a number of minutes equal to 3 + your Charisma modifier (minimum 1).",
+			">",
+			">This replaces final revelation."
 		]
 	},
 	"warsighted": {

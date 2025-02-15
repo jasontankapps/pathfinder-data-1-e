@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 
-export type Color = "red" | "orange" | "yellow" | "green" | "teal" | "cyan" | "blue" | "purple" | "magenta" | "pink";
+export type Color = "red" | "orange" | "yellow" | "chartreuse" | "green" | "cyan" | "blue" | "purple" | "magenta" | "pink";
 
 type BookmarkDB = { [key: string]: Color[] }
 
@@ -22,7 +22,7 @@ interface BookmarkState extends ColorState {
 // Define the initial value for the slice state
 export const initialState: BookmarkState = {
 	db: {},
-	order: ["red", "orange", "yellow", "green", "teal", "cyan", "blue", "purple", "magenta", "pink"],
+	order: ["red", "orange", "yellow", "chartreuse", "green", "cyan", "blue", "purple", "magenta", "pink"],
 	red: {
 		color: "red",
 		title: "Red",
@@ -41,15 +41,15 @@ export const initialState: BookmarkState = {
 		contents: [],
 		hidden: false
 	},
-	green: {
-		color: "green",
-		title: "Green",
+	chartreuse: {
+		color: "chartreuse",
+		title: "Chartreuse",
 		contents: [],
 		hidden: false
 	},
-	teal: {
-		color: "teal",
-		title: "Teal",
+	green: {
+		color: "green",
+		title: "Green",
 		contents: [],
 		hidden: false
 	},

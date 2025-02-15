@@ -10,25 +10,26 @@ import {
 	useState
 } from 'react';
 import {
-	IonIcon,
-	IonRippleEffect,
-	IonModal,
-	IonHeader,
+	IonButton,
+	IonButtons,
 	IonContent,
 	IonFooter,
-	IonToolbar,
-	IonButtons,
-	IonButton,
-	IonTitle,
-	IonLabel,
-	IonList,
+	IonHeader,
+	IonIcon,
 	IonItem,
 	IonItemDivider,
+	IonLabel,
+	IonList,
+	IonModal,
+	IonPicker,
+	IonPickerColumn,
+	IonPickerColumnOption,
+	IonRippleEffect,
+	IonText,
+	IonTitle,
 	IonToggle,
+	IonToolbar,
 	useIonAlert,
-	IonSelect,
-	IonSelectOption,
-	SelectCustomEvent,
 	useIonToast
 } from '@ionic/react';
 import {
@@ -325,34 +326,59 @@ interface RowItem {
 	}
 }
 
+// IonPicker expects number | string | undefined, but we only use numbers...
+const clamp = (input: string | number | undefined, max: number, min: number = 0): number => {
+	const n = Number(input);
+	if(n !== n) {
+		return 0;
+	} else if (n > max) {
+		return max;
+	} else if (n < min) {
+		return min;
+	}
+	return n;
+};
+
 const FilterOption: FC<{
 	filter: FilterObject,
 	index: number,
-	func: (output: number[], value: string, to: boolean) => void,
-	func2: (output: number[], value: string) => void
+	togglingFunc: (output: number[], value: string, to: boolean | null) => void
 }> = (props) => {
-	const { filter, index, func, func2 } = props;
+	const { filter, index, togglingFunc } = props;
 	const { text, options, toggles } = filter;
 	const [currentValue, setCurrentValue] = useState(0);
+	const [open, setOpen] = useState(false);
 	return (
 		<IonItem>
-			<IonSelect
-				justify="start"
-				label={`Where ${text}:`}
-				onIonChange={(ev: SelectCustomEvent<number>) => setCurrentValue(ev.detail.value)}
-				value={currentValue}
-			>
-				{
-					options.map((opt, i) => {
-						return (
-							<IonSelectOption key={`filter${index}option${i}:${opt}`} value={i}>{opt}</IonSelectOption>
-						);
-					})
-				}
-			</IonSelect>
-			<IonButton slot="end" color="success" onClick={() => func(toggles[currentValue], options[currentValue], true)}>On</IonButton>
-			<IonButton slot="end" color="secondary" onClick={() => func2(toggles[currentValue], options[currentValue])}><IonIcon slot="icon-only" src="/icons/overlap.svg" /></IonButton>
-			<IonButton slot="end" color="danger" onClick={() => func(toggles[currentValue], options[currentValue], false)}>Off</IonButton>
+			<IonModal className="pickerSheet" isOpen={open} onDidDismiss={() => setOpen(false)} breakpoints={[0, 1]} initialBreakpoint={1}>
+				<IonHeader>
+					<IonToolbar>
+						<IonTitle>Filter Table Content</IonTitle>
+						<IonButtons slot="end">
+							<IonButton color="primary" onClick={() => setOpen(false)}>Done</IonButton>
+						</IonButtons>
+					</IonToolbar>
+				</IonHeader>
+				<IonContent>
+					<IonPicker class="myPicker">
+						<IonPickerColumn
+							value={currentValue}
+							onIonChange={e => setCurrentValue(clamp(e.detail.value, options.length - 1))}
+						>
+							<div slot="prefix">Where {text}</div>
+							{options.map((opt, i) =>
+								<IonPickerColumnOption key={`filter${index}option${i}:${opt}`} value={i}>
+									{opt}
+								</IonPickerColumnOption>
+							)}
+						</IonPickerColumn>
+					</IonPicker>
+				</IonContent>
+			</IonModal>
+			<IonLabel className="picker" onClick={() => setOpen(true)}>Where {text}: <IonText className="pickedText">{options[currentValue]}</IonText></IonLabel>
+			<IonButton slot="end" color="success" onClick={() => togglingFunc(toggles[currentValue], options[currentValue], true)}>On</IonButton>
+			<IonButton slot="end" color="secondary" onClick={() => togglingFunc(toggles[currentValue], options[currentValue], null)}><IonIcon slot="icon-only" src="/icons/overlap.svg" /></IonButton>
+			<IonButton slot="end" color="danger" onClick={() => togglingFunc(toggles[currentValue], options[currentValue], false)}>Off</IonButton>
 		</IonItem>
 	);
 };
@@ -637,10 +663,11 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					</IonItem>
 					{ !filterObjects ? <></> :
 						filterObjects.map((f, i) =>
-							<FilterOption key={`filter${i}:${f.text}`} filter={f} index={i} func={
-								(output: number[], value: string, to: boolean) => toggleRows(output, f.text, value, to)
-							} func2={
-								(output: number[], value: string) => intersectRows(output, f.otherText, value)
+							<FilterOption key={`filter${i}:${f.text}`} filter={f} index={i} togglingFunc={
+								(output: number[], value: string, to: boolean | null) =>
+									to === null
+										? intersectRows(output, f.otherText, value)
+										: toggleRows(output, f.text, value, to)
 							} />
 						)
 					}

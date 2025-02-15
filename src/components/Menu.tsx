@@ -21,7 +21,7 @@ interface BaseInfo {
 	title: string
 	icon: string
 	minor?: boolean
-	className?: string
+	iconClassName?: string
 	hr?: never
 }
 interface PrefixedPage extends BaseInfo {
@@ -41,7 +41,7 @@ interface Separator {
 	url?: never
 	title?: never
 	icon?: never
-	className?: never
+	iconClassName?: never
 	prefix?: never
 	equals?: never
 }
@@ -160,7 +160,7 @@ const makeItem = (
 	if (appPage.hr) {
 		return <hr key={`menu-${index}`} />;
 	}
-	const { url, icon, title, prefix, equals, minor } = appPage;
+	const { url, icon, title, prefix, equals, minor, iconClassName } = appPage;
 	let cn = "";
 	if(loc === url) {
 		cn = "selected";
@@ -175,11 +175,13 @@ const makeItem = (
 	} else if (equals && (loc === equals)) {
 		cn = "selected";
 	}
-	cn = (cn ? (cn + " linked") : "linked") + (minor ? " minor" : "");
+	cn =
+		(cn ? (cn + " linked") : "linked")
+		+ (minor ? " minor" : "");
 	return (
 		<IonMenuToggle key={`menu-${index}`} autoHide={false}>
 			<IonItem onClick={() => { dispatch(goTo(url)); navigate(url); } } className={cn} lines="none" detail={false}>
-				<IonIcon aria-hidden="true" slot="start" src={icon} />
+				<IonIcon aria-hidden="true" slot="start" src={icon} className={iconClassName} />
 				<IonLabel>{title}</IonLabel>
 				<IonRippleEffect />
 			</IonItem>
@@ -200,7 +202,7 @@ const Menu: React.FC = () => {
 			{
 				...basicBookmarkPage,
 				title: c.title,
-				className: `color-${c.color}`,
+				iconClassName: `color-${c.color}`,
 				url: basicBookmarkPage.url + c.color
 			},
 			c.color

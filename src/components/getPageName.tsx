@@ -30,8 +30,8 @@ const getPageName = (id: string): string => {
 			return "Bookmarks (Yellow)";
 		case "bookmarks/green":
 			return "Bookmarks (Green)";
-		case "bookmarks/teal":
-			return "Bookmarks (Teal)";
+		case "bookmarks/chartreuse":
+			return "Bookmarks (Chartreuse)";
 		case "bookmarks/cyan":
 			return "Bookmarks (Cyan)";
 		case "bookmarks/blue":

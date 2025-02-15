@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useParams, useLocation } from 'wouter';
-import { pencil, reorderTwo, trash } from 'ionicons/icons';
+import { pencil, reorderTwo, trash, bookmark } from 'ionicons/icons';
 import {
 	IonButton,
 	IonIcon,
@@ -39,6 +39,7 @@ const BookmarkPage: React.FC<{}> = () => {
 	const defaultTitle = c.slice(0,1).toUpperCase + c.slice(1);
 	const [currentTitle, setCurrentTitle] = useState(title);
 	const [path, navigate] = useLocation();
+	const titleInput = useRef<HTMLIonInputElement>(null);
 
 	useEffect(() => {
 		setCurrentTitle(title);
@@ -92,6 +93,9 @@ const BookmarkPage: React.FC<{}> = () => {
 	const maybeSaveTitle = () => {
 		if(disabled) {
 			setDisabled(false);
+			setTimeout(
+				() => titleInput && titleInput.current && titleInput.current.setFocus && titleInput.current.setFocus(),
+			10);
 			return;
 		}
 		setDisabled(true);
@@ -134,6 +138,7 @@ const BookmarkPage: React.FC<{}> = () => {
 		>
 			<IonList lines="full" id={color + "BookmarkList"}>
 				<IonItem>
+					<IonIcon className={`color-${color}`} slot="start" icon={bookmark} />
 					<IonInput
 						placeholder={`Defaults to "${defaultTitle}"`}
 						label=""
@@ -141,6 +146,7 @@ const BookmarkPage: React.FC<{}> = () => {
 						inputmode="text"
 						disabled={disabled}
 						onIonInput={(e) => setCurrentTitle(e.detail.value || "")}
+						ref={titleInput}
 					/>
 					<IonButton color="secondary" slot="end" onClick={maybeSaveTitle}>
 						<IonLabel>{disabled ? "Edit Title" : "Save"}</IonLabel>

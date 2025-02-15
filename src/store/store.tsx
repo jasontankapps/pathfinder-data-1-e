@@ -18,7 +18,7 @@ import scrollReducer, {initialState as scroll} from './scrollSlice';
 import historyReducer, {initialState as history} from './historySlice';
 import searchReducer, {initialState as search} from './searchSlice';
 import displayTableReducer, {initialState as displayTable} from './displayTableSlice';
-import bookmarksReducer, {initialState as bookmarks, Color, ColorState} from './bookmarksSlice';
+import bookmarksReducer, {initialState as bookmarks} from './bookmarksSlice';
 
 //
 //
@@ -35,33 +35,17 @@ const initialAppState = {
 //
 //
 
-interface C2 {
-	color: Color
-	title: string
-	contents: string[]
-	hidden: boolean
-}
-
 const migrations = {
-	2: (state: any) => {
+	3: (state: any) => {
 		const {bookmarks} = state;
-		const {db, order, ...colors} = bookmarks;
-		const modified: Partial<ColorState> = {};
-		Object.entries(colors).forEach(([prop, data]) => {
-			const {color, title, contents, hidden} = (data as C2);
-			modified[prop as Color] = {
-				color,
-				title,
-				contents: contents.map(c => [c, c]),
-				hidden
-			};
-		});
+		const {order, teal, ...etc} = bookmarks;
+		teal.color = "chartreuse";
 		return {
 			...state,
 			bookmarks: {
-				db,
-				order,
-				...modified
+				order: ["red", "orange", "yellow", "chartreuse", "green", "cyan", "blue", "purple", "magenta", "pink"],
+				chartreuse: teal,
+				...etc
 			}
 		}
 	}
@@ -80,7 +64,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 2,
+	version: 3,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),
