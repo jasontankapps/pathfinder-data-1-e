@@ -2771,7 +2771,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Calm Emotions Aura (Su)** A vulpinal's aura acts like a calm emotions spell with a radius of 30 feet. Any creature entering this area must make a Will save (DC 16) to resist the effect. A creature that makes its save is immune to that vulpinal's aura for 24 hours. The save DC is Charisma-based.",
+			"**Calm Emotions Aura (Su)** A vulpinal's aura acts like a {spell/calm emotions} spell with a radius of 30 feet. Any creature entering this area must make a Will save (DC 16) to resist the effect. A creature that makes its save is immune to that vulpinal's aura for 24 hours. The save DC is Charisma-based.",
 			"",
 			"::sh[Description]",
 			"",

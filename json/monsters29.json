@@ -504,7 +504,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Death Throes (Su)** When a dark stalker is slain, its body combusts in a flash of white-hot flame. This acts like a fireball that deals 3d6 points of fire damage to all creatures within a 20-foot-radius burst. A DC 15 Reflex save halves this damage. A dark stalker's gear and treasure are unaffected by this explosion. This save is Constitution-based.",
+			"**Death Throes (Su)** When a dark stalker is slain, its body combusts in a flash of white-hot flame. This acts like a {spell/fireball} that deals 3d6 points of fire damage to all creatures within a 20-foot-radius burst. A DC 15 Reflex save halves this damage. A dark stalker's gear and treasure are unaffected by this explosion. This save is Constitution-based.",
 			"",
 			"**Poison Use (Ex)** Dark stalkers are skilled in the use of poison and never risk accidentally poisoning themselves. Like their diminutive kin, the dark creepers, dark stalkers use {eq-poison/black smear} on their weapons and generally carry six doses on them.",
 			"",

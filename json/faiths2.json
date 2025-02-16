@@ -2729,7 +2729,7 @@
 			">",
 			">1. **Dauntless (Sp)** {spell/remove fear} 3/day, {spell/darkvision} 2/day, or {spell/heroism} 1/day",
 			">2. **Courageous Roar (Sp)** You can cast still greater heroism three times per day. This ability is the equivalent of a 7th-level spell.",
-			">3. **Holy Terror (Sp)** Once per day you can inscribe a symbol of Jaidz in the air that acts like a symbol of fear. The symbol appears as the glowing outline of Jaidz's holy symbol and hovers stationary wherever you inscribe it. This spell requires no material components and has a casting time of only 1 minute. You can attune up to 10 creatures to the symbol without extending its casting time.",
+			">3. **Holy Terror (Sp)** Once per day you can inscribe a symbol of Jaidz in the air that acts like a {spell/symbol of fear}. The symbol appears as the glowing outline of Jaidz's holy symbol and hovers stationary wherever you inscribe it. This spell requires no material components and has a casting time of only 1 minute. You can attune up to 10 creatures to the symbol without extending its casting time.",
 			"",
 			"## Follower Options",
 			"",

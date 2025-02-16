@@ -826,7 +826,7 @@
 			"",
 			"You conjure a sheltered grove of trees surrounding a shallow spring. The grove appears from nowhere even in the most barren, rocky soil regardless of season, but the spell must be cast outside on open ground.",
 			"",
-			"The area within the grove is temperate and comfortable, like that of a tiny hut, although the grove provides no illumination and provides no protection from the elements. The water in the grove's spring is clean and drinkable. Additionally, the trees provide a variety of ripe fruit, regardless of season, which acts as a goodberry spell for up to eight people. The grove is warded with an alarm spell that alerts you whenever any creature enters the area. Once the spell expires, the grove vanishes, including all fruit, water, and other materials from it, although any nourishment or healing gained from its effects remains."
+			"The area within the grove is temperate and comfortable, like that of a tiny hut, although the grove provides no illumination and provides no protection from the elements. The water in the grove's spring is clean and drinkable. Additionally, the trees provide a variety of ripe fruit, regardless of season, which acts as a {spell/goodberry} spell for up to eight people. The grove is warded with an alarm spell that alerts you whenever any creature enters the area. Once the spell expires, the grove vanishes, including all fruit, water, and other materials from it, although any nourishment or healing gained from its effects remains."
 		]
 	},
 	"guardian_armor": {
@@ -3192,7 +3192,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell allows you to channel holy power into your sword, or any other melee weapon you choose. The weapon acts as a +5 holy weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against evil opponents). It also emits a {spell/magic circle against evil} effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one holy sword at a time.",
+			"This spell allows you to channel holy power into your sword, or any other melee weapon you choose. The weapon acts as a +5 {magic-enhancement/holy} weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against evil opponents). It also emits a {spell/magic circle against evil} effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one holy sword at a time.",
 			"",
 			"If this spell is cast on a magic weapon, the powers of the spell supercede any that the weapon normally has, rendering the normal enhancement bonus and powers of the weapon inoperative for the duration of the spell. This spell is not cumulative with bless weapon or any other spell that might modify the weapon in any way. This spell does not work on artifacts. A masterwork weapon's bonus to attack does not stack with an enhancement bonus to attack."
 		]

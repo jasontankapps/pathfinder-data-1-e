@@ -3781,7 +3781,7 @@
 			"",
 			"**Blind and Mute (Ex)** Mute hags tear out their eyes and tongues, leaving them blind to life's joys and incapable of sharing their sorrow. A mute hag is immune to gaze attacks, and cannot use spell completion or command word trigger magic items.",
 			"",
-			"**Shaping Touch (Su)** The touch of a mute hag twists flesh like clay. As a full-round action that draws an attack of opportunity, a mute hag may change the appearance of a grappled or helpless victim. The effect acts as a permanent alter self spell. Unwilling victims may resist the transformation with a DC 21 Fortitude save. A mute hag allowed to work for 10 minutes may also increase a victim's age category by one step; doing so does not grant mental ability score boosts but does inflict physical ability score penalties as normal. Creatures that are affected by this power or successfully save against it cannot be affected by the same hag's shaping touch for one month. The DC is Charisma-based.",
+			"**Shaping Touch (Su)** The touch of a mute hag twists flesh like clay. As a full-round action that draws an attack of opportunity, a mute hag may change the appearance of a grappled or helpless victim. The effect acts as a permanent {spell/alter self} spell. Unwilling victims may resist the transformation with a DC 21 Fortitude save. A mute hag allowed to work for 10 minutes may also increase a victim's age category by one step; doing so does not grant mental ability score boosts but does inflict physical ability score penalties as normal. Creatures that are affected by this power or successfully save against it cannot be affected by the same hag's shaping touch for one month. The DC is Charisma-based.",
 			"",
 			"::sh[Description]",
 			"",

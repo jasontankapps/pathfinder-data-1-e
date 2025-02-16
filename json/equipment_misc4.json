@@ -3286,7 +3286,7 @@
 			"",
 			"**Liquid Blade:** The blade deals 2 points of bleed damage on a hit (this does not stack with bleed damage from other sources).",
 			"",
-			"**Liquid Ice:** In addition to its normal effects, the liquid ice acts as a smokestick, except it emits dense white fog rather than smoke.",
+			"**Liquid Ice:** In addition to its normal effects, the liquid ice acts as a {eq-misc/smokestick}, except it emits dense white fog rather than smoke.",
 			"",
 			"**Shard Gel:** The shard gel remains embedded in the target on a direct hit, continuing to deal 1d3 points of damage each round after until the gel dissolves (5 rounds) or the target takes a full round action to remove it.",
 			"",

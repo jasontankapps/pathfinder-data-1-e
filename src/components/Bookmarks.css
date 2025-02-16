@@ -2,45 +2,55 @@
 ion-icon,
 ion-item,
 ion-text {
-	--red: #300;
-	--red-dim: #3007;
-	--orange: #520;
-	--orange-dim: #5208;
-	--yellow: #440;
-	--yellow-dim: #4408;
-	--chartreuse: #240;
-	--chartreuse-dim: #2408;
-	--green: #030;
-	--green-dim: #0308;
-	--cyan: #033;
-	--cyan-dim: #0338;
-	--blue: #003;
-	--blue-dim: #0036;
-	--purple: #203;
-	--purple-dim: #2038;
-	--magenta: #404;
-	--magenta-dim: #4048;
-	--pink: #412;
-	--pink-dim: #4128;
-	--red-bg: #d00;
+	--red: #d00;
+	--red-fg: #300;
+	--red-fg-dim: #3007;
+	--red-bg: var(--red);
 	--red-bg-dim: #d008;
-	--orange-bg: #e60;
+	--orange: #e60;
+	--orange-fg: #520;
+	--orange-fg-dim: #5208;
+	--orange-bg: var(--orange);
 	--orange-bg-dim: #e608;
-	--yellow-bg: #cc0;
+	--yellow: #cc0;
+	--yellow-fg: #440;
+	--yellow-fg-dim: #4408;
+	--yellow-bg: var(--yellow);
 	--yellow-bg-dim: #cc08;
-	--chartreuse-bg: #7c0;
+	--chartreuse: #7c0;
+	--chartreuse-fg: #240;
+	--chartreuse-fg-dim: #2408;
+	--chartreuse-bg: var(--chartreuse);
 	--chartreuse-bg-dim: #6c08;
-	--green-bg: #0b0;
+	--green: #0b0;
+	--green-fg: #030;
+	--green-fg-dim: #0308;
+	--green-bg: var(--green);
 	--green-bg-dim: #0b08;
-	--cyan-bg: #0bb;
+	--cyan: #0bb;
+	--cyan-fg: #033;
+	--cyan-fg-dim: #0338;
+	--cyan-bg: var(--cyan);
 	--cyan-bg-dim: #0bb8;
-	--blue-bg: #00d;
-	--blue-bg-dim: #00d8;
-	--purple-bg: #60c;
-	--purple-bg-dim: #60c8;
-	--magenta-bg: #d0d;
+	--blue: #44d;
+	--blue-fg: #003;
+	--blue-fg-dim: #0036;
+	--blue-bg: var(--blue);
+	--blue-bg-dim: #44d8;
+	--purple: #62c;
+	--purple-fg: #203;
+	--purple-fg-dim: #2038;
+	--purple-bg: var(--purple);
+	--purple-bg-dim: #62c8;
+	--magenta: #d0d;
+	--magenta-fg: #404;
+	--magenta-fg-dim: #4048;
+	--magenta-bg: var(--magenta);
 	--magenta-bg-dim: #d0d8;
-	--pink-bg: #f6c;
+	--pink: #f6c;
+	--pink-fg: #412;
+	--pink-fg-dim: #4128;
+	--pink-bg: var(--pink);
 	--pink-bg-dim: #f6c8;
 }
 
@@ -64,43 +74,53 @@ ion-item.bmColor {
 	ion-item,
 	ion-text {
 		--red: #c00;
-		--red-dim: #d006;
-		--orange: #d60;
-		--orange-dim: #e605;
-		--yellow: #aa0;
-		--yellow-dim: #cc04;
-		--chartreuse: #7c0;
-		--chartreuse-dim: #6b05;
-		--green: #0a0;
-		--green-dim: #0b04;
-		--cyan: #099;
-		--cyan-dim: #0bb4;
-		--blue: #00d;
-		--blue-dim: #00c8;
-		--purple: #70d;
-		--purple-dim: #60c6;
-		--magenta: #c0c;
-		--magenta-dim: #d0d4;
-		--pink: #f6c;
-		--pink-dim: #f6c4;
+		--red-fg: var(--red);
+		--red-fg-dim: #d006;
 		--red-bg: #300;
 		--red-bg-dim: #3004;
+		--orange: #d60;
+		--orange-fg: var(--orange);
+		--orange-fg-dim: #e605;
 		--orange-bg: #520;
 		--orange-bg-dim: #5204;
+		--yellow: #aa0;
+		--yellow-fg: var(--yellow);
+		--yellow-fg-dim: #cc04;
 		--yellow-bg: #440;
 		--yellow-bg-dim: #4404;
-		--green-bg: #030;
-		--green-bg-dim: #0304;
+		--chartreuse: #7c0;
+		--chartreuse-fg: var(--chartreuse);
+		--chartreuse-fg-dim: #6b05;
 		--chartreuse-bg: #240;
 		--chartreuse-bg-dim: #2404;
+		--green: #0a0;
+		--green-fg: var(--green);
+		--green-fg-dim: #0b04;
+		--green-bg: #030;
+		--green-bg-dim: #0304;
+		--cyan: #099;
+		--cyan-fg: var(--cyan);
+		--cyan-fg-dim: #0bb4;
 		--cyan-bg: #033;
 		--cyan-bg-dim: #0334;
+		--blue: #33d;
+		--blue-fg: var(--blue);
+		--blue-fg-dim: #33d8;
 		--blue-bg: #114;
 		--blue-bg-dim: #0044;
+		--purple: #70d;
+		--purple-fg: var(--purple);
+		--purple-fg-dim: #60c6;
 		--purple-bg: #203;
 		--purple-bg-dim: #2034;
+		--magenta: #c0c;
+		--magenta-fg: var(--magenta);
+		--magenta-fg-dim: #d0d4;
 		--magenta-bg: #404;
 		--magenta-bg-dim: #4044;
+		--pink: #f6c;
+		--pink-fg: var(--pink);
+		--pink-fg-dim: #f6c4;
 		--pink-bg: #513;
 		--pink-bg-dim: #5134;
 	}
@@ -109,6 +129,9 @@ ion-item.bmColor {
 ion-item.color-red {
 	--background: var(--red-bg);
 }
+ion-text.color-fg-red {
+	color: var(--red-fg);
+}
 ion-item.color-red.dim {
 	--background: var(--red-bg-dim);
 }
@@ -116,8 +139,8 @@ ion-icon.color-red,
 ion-text.color-red {
 	color: var(--red);
 }
-ion-item.dim ion-text.color-red {
-	color: var(--red-dim);
+ion-item.dim ion-text.color-fg-red {
+	color: var(--red-fg-dim);
 }
 ion-icon.color-red-orange {
 	color: var(--red);
@@ -169,6 +192,9 @@ ion-icon.color-red-pink {
 ion-item.color-orange {
 	--background: var(--orange-bg);
 }
+ion-text.color-fg-orange {
+	color: var(--orange-fg);
+}
 ion-item.color-orange.dim {
 	--background: var(--orange-bg-dim);
 }
@@ -176,8 +202,8 @@ ion-icon.color-orange,
 ion-text.color-orange {
 	color: var(--orange);
 }
-ion-item.dim ion-text.color-orange {
-	color: var(--orange-dim);
+ion-item.dim ion-text.color-fg-orange {
+	color: var(--orange-fg-dim);
 }
 ion-icon.color-orange-red {
 	color: var(--orange);
@@ -229,6 +255,9 @@ ion-icon.color-orange-pink {
 ion-item.color-yellow {
 	--background: var(--yellow-bg);
 }
+ion-text.color-fg-yellow {
+	color: var(--yellow-fg);
+}
 ion-item.color-yellow.dim {
 	--background: var(--yellow-bg-dim);
 }
@@ -236,8 +265,8 @@ ion-icon.color-yellow,
 ion-text.color-yellow {
 	color: var(--yellow);
 }
-ion-item.dim ion-text.color-yellow {
-	color: var(--yellow-dim);
+ion-item.dim ion-text.color-fg-yellow {
+	color: var(--yellow-fg-dim);
 }
 ion-icon.color-yellow-red {
 	color: var(--yellow);
@@ -289,6 +318,9 @@ ion-icon.color-yellow-pink {
 ion-item.color-green {
 	--background: var(--green-bg);
 }
+ion-text.color-fg-green {
+	color: var(--green-fg);
+}
 ion-item.color-green.dim {
 	--background: var(--green-bg-dim);
 }
@@ -296,8 +328,8 @@ ion-icon.color-green,
 ion-text.color-green {
 	color: var(--green);
 }
-ion-item.dim ion-text.color-green {
-	color: var(--green-dim);
+ion-item.dim ion-text.color-fg-green {
+	color: var(--green-fg-dim);
 }
 ion-icon.color-green-red {
 	color: var(--green);
@@ -349,6 +381,9 @@ ion-icon.color-green-pink {
 ion-item.color-chartreuse {
 	--background: var(--chartreuse-bg);
 }
+ion-text.color-fg-chartreuse {
+	color: var(--chartreuse-fg);
+}
 ion-item.color-chartreuse.dim {
 	--background: var(--chartreuse-bg-dim);
 }
@@ -356,8 +391,8 @@ ion-icon.color-chartreuse,
 ion-text.color-chartreuse {
 	color: var(--chartreuse);
 }
-ion-item.dim ion-text.color-chartreuse {
-	color: var(--chartreuse-dim);
+ion-item.dim ion-text.color-fg-chartreuse {
+	color: var(--chartreuse-fg-dim);
 }
 ion-icon.color-chartreuse-red {
 	color: var(--chartreuse);
@@ -409,6 +444,9 @@ ion-icon.color-chartreuse-pink {
 ion-item.color-cyan {
 	--background: var(--cyan-bg);
 }
+ion-text.color-fg-cyan {
+	color: var(--cyan-fg);
+}
 ion-item.color-cyan.dim {
 	--background: var(--cyan-bg-dim);
 }
@@ -416,8 +454,8 @@ ion-icon.color-cyan,
 ion-text.color-cyan {
 	color: var(--cyan);
 }
-ion-item.dim ion-text.color-cyan {
-	color: var(--cyan-dim);
+ion-item.dim ion-text.color-fg-cyan {
+	color: var(--cyan-fg-dim);
 }
 ion-icon.color-cyan-red {
 	color: var(--cyan);
@@ -469,6 +507,9 @@ ion-icon.color-cyan-pink {
 ion-item.color-blue {
 	--background: var(--blue-bg);
 }
+ion-text.color-fg-blue {
+	color: var(--blue-fg);
+}
 ion-item.color-blue.dim {
 	--background: var(--blue-bg-dim);
 }
@@ -476,8 +517,8 @@ ion-icon.color-blue,
 ion-text.color-blue {
 	color: var(--blue);
 }
-ion-item.dim ion-text.color-blue {
-	color: var(--blue-dim);
+ion-item.dim ion-text.color-fg-blue {
+	color: var(--blue-fg-dim);
 }
 ion-icon.color-blue-red {
 	color: var(--blue);
@@ -529,6 +570,9 @@ ion-icon.color-blue-pink {
 ion-item.color-purple {
 	--background: var(--purple-bg);
 }
+ion-text.color-fg-purple {
+	color: var(--purple-fg);
+}
 ion-item.color-purple.dim {
 	--background: var(--purple-bg-dim);
 }
@@ -536,8 +580,8 @@ ion-icon.color-purple,
 ion-text.color-purple {
 	color: var(--purple);
 }
-ion-item.dim ion-text.color-purple {
-	color: var(--purple-dim);
+ion-item.dim ion-text.color-fg-purple {
+	color: var(--purple-fg-dim);
 }
 ion-icon.color-purple-red {
 	color: var(--purple);
@@ -589,6 +633,9 @@ ion-icon.color-purple-pink {
 ion-item.color-magenta {
 	--background: var(--magenta-bg);
 }
+ion-text.color-fg-magenta {
+	color: var(--magenta-fg);
+}
 ion-item.color-magenta.dim {
 	--background: var(--magenta-bg-dim);
 }
@@ -596,8 +643,8 @@ ion-icon.color-magenta,
 ion-text.color-magenta {
 	color: var(--magenta);
 }
-ion-item.dim ion-text.color-magenta {
-	color: var(--magenta-dim);
+ion-item.dim ion-text.color-fg-magenta {
+	color: var(--magenta-fg-dim);
 }
 ion-icon.color-magenta-red {
 	color: var(--magenta);
@@ -649,6 +696,9 @@ ion-icon.color-magenta-pink {
 ion-item.color-pink {
 	--background: var(--pink-bg);
 }
+ion-text.color-fg-pink {
+	color: var(--pink-fg);
+}
 ion-item.color-pink.dim {
 	--background: var(--pink-bg-dim);
 }
@@ -656,8 +706,8 @@ ion-icon.color-pink,
 ion-text.color-pink {
 	color: var(--pink);
 }
-ion-item.dim ion-text.color-pink {
-	color: var(--pink-dim);
+ion-item.dim ion-text.color-fg-pink {
+	color: var(--pink-fg-dim);
 }
 ion-icon.color-pink-red {
 	color: var(--pink);

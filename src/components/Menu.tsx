@@ -14,6 +14,7 @@ import { alertCircle, bookmark, bookmarks, shieldCheckmark } from 'ionicons/icon
 import { useLocation } from 'wouter';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goTo } from '../store/historySlice';
+import './Bookmarks.css';
 import './Menu.css';
 
 interface BaseInfo {

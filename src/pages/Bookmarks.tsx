@@ -33,10 +33,10 @@ const BookmarksPage: React.FC = () => {
 					className={"link bmColor color-" + c + (hidden ? " dim" : "")}
 				>
 					<IonReorder slot="start">
-						<IonIcon icon={reorderTwo} />
+						<IonIcon icon={reorderTwo} color={hidden ? "medium" : "dark"} />
 					</IonReorder>
 					<IonLabel onClick={() => { navigate(`/bookmarks/${c}`); dispatch(goTo(`/bookmarks/${c}`)); }}>
-						<IonText className={`color-${c}`}>{title}</IonText>
+						<IonText className={`color-fg-${c}`}>{title}</IonText>
 					</IonLabel>
 					<IonButton color={hidden ? "medium" : "dark"} fill="clear" slot="end" onClick={() => dispatch(toggleHidden(c))}>
 						<IonIcon slot="icon-only" icon={hidden ? eyeOff : eye} />

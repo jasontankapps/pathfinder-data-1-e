@@ -685,7 +685,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell allows you to channel the powers of evil into your sword, or any other melee weapon you choose. The weapon acts as a +5 unholy weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against good opponents). It also emits a {spell/magic circle against good} effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one unholy sword at a time.",
+			"This spell allows you to channel the powers of evil into your sword, or any other melee weapon you choose. The weapon acts as a +5 {magic-enhancement/unholy} weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against good opponents). It also emits a {spell/magic circle against good} effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one unholy sword at a time.",
 			"",
 			"If this spell is cast on a magic weapon, the powers of the spell supersede any that the weapon normally has, rendering the normal enhancement bonus and powers of the weapon inoperative for the duration of the spell. This spell is not cumulative with any spells that modify the weapon in any way. This spell does not work on artifacts. A masterwork weapon's bonus to attack does not stack with this spell's enhancement bonus to attack."
 		]
@@ -3370,13 +3370,13 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Reflex partial, see text; **Spell Resistance** no",
 			"",
-			"You create a cloud of flame-resistant strands of adhesive webbing that billows and flows much like a cloudkill spell. The cloud moves away from you at a rate of 10 feet per round, rolling along the surface of the ground.",
+			"You create a cloud of flame-resistant strands of adhesive webbing that billows and flows much like a {spell/cloudkill} spell. The cloud moves away from you at a rate of 10 feet per round, rolling along the surface of the ground.",
 			"",
 			"Figure out the cloud's new spread each round based on its new point of origin, which is 10 feet farther away from the point of origin where the caster cast the spell. Creatures trapped in the webbing remain trapped even after the cloud passes, but the area the cloud leaves behind does not count as difficult terrain.",
 			"",
 			"Because the webbing is heavier than air, it sinks to the lowest level of the land, even pouring down den or sinkhole openings. The cloud of webbing cannot penetrate liquids, nor can it be cast underwater.",
 			"",
-			"The cloud otherwise acts like a web spell. A creature in the cloud at the start of its turn must save against the cloud or be affected. The webbing of this spell is flammable (see the [web] spell), but has fire resistance 5."
+			"The cloud otherwise acts like a {spell/web} spell. A creature in the cloud at the start of its turn must save against the cloud or be affected. The webbing of this spell is flammable (as the web spell), but has fire resistance 5."
 		]
 	},
 	"web_shelter": {

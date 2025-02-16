@@ -3076,7 +3076,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Aura of Doom (Su)** The death coach's aura acts like an aura of doom with a radius of 30 feet. A creature that succeeds at its save is immune to that death coach's aura for 24 hours. This is a mind-affecting fear effect. The save DC is Charisma-based.",
+			"**Aura of Doom (Su)** The death coach's aura acts like an {spell/aura of doom} with a radius of 30 feet. A creature that succeeds at its save is immune to that death coach's aura for 24 hours. This is a mind-affecting fear effect. The save DC is Charisma-based.",
 			"",
 			"**Collect Soul (Su)** When a death coach deals damage to a creature with its touch attack, it can immediately attempt to collect the creature's soul, forcing the creature to attempt a DC 24 Fortitude save. Creatures under the effects of a fear effect take a -4 penalty on this save. A creature that succeeds at its save takes 3d6+16 points of damage. On a failed save, the creature takes 160 points of damage (as if affected by a CL 16 finger of death). The soul of a creature slain by this attack becomes trapped in the death coach's interior. A trapped soul can be restored to life only by a miracle or wish. This is a death effect, and a creature that succeeds at its save is immune to that death coach's collect soul ability for 24 hours. The save DC is Charisma-based.",
 			"",
