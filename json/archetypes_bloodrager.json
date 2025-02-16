@@ -161,7 +161,7 @@
 			"",
 			"**Sorcerous Claws (Su):** At 5th level, a hag-riven can expend one of her daily spell slots as a swift action to grant her claws an enhancement bonus equal to the level of the spell slot sacrificed. This bonus lasts for 1 minute and stacks with existing enhancement bonuses (such as those provided by {spell/magic fang} or magic items) to a maximum of +5. Multiple uses of this ability do not stack with themselves.",
 			"",
-			"Beginning at 7th level, the hag-riven can also expend some or all of the bonus provided by her sorcerous claws to add any of the following weapon properties to her claws for 1 minute: {magic-enhancement/flaming}, {magic-enhancement/flaming burst}, {magic-enhancement/frost}, {magic-enhancement/icy burst}, {magic-enhancement/keen}, {magic-enhancement/nullifying}, {magic-enhancement/seaborne}, {magic-enhancement/spellstealing}, {magic-enhancement/shock}, {magic-enhancement/shocking burst}, or {magic-enhancement/wounding}. Her claws must have a minimum enhancement bonus of +1 before any special abilities can be added.",
+			"Beginning at 7th level, the hag-riven can also expend some or all of the bonus provided by her sorcerous claws to add any of the following weapon properties to her claws for 1 minute: {magic-enh/flaming}, {magic-enh/flaming burst}, {magic-enh/frost}, {magic-enh/icy burst}, {magic-enh/keen}, {magic-enh/nullifying}, {magic-enh/seaborne}, {magic-enh/spellstealing}, {magic-enh/shock}, {magic-enh/shocking burst}, or {magic-enh/wounding}. Her claws must have a minimum enhancement bonus of +1 before any special abilities can be added.",
 			"",
 			"This replaces improved uncanny dodge.",
 			"",

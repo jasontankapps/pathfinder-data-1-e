@@ -1,6 +1,6 @@
 import { Suspense, lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_magic-enhancement.json';
+import data from '../json/_data_magic-enh.json';
 import Loading from '../Loading';
 import './Page.css';
 

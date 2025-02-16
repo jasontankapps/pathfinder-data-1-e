@@ -148,7 +148,7 @@
 			"",
 			"The insidious magic of black blood grants you profane powers and hideous resistances.",
 			"",
-			"**Black Blood (Su):** At 1st level, your blood runs black with the blood of Orv. You are immune to the effects (both beneficial and destructive) of black blood. You have this benefit constantly, even while not bloodraging. When you take damage from a slashing or piercing attack while bloodraging, as an immediate action you can grant your melee attacks the {magic-enhancement/frost} weapon special ability for 2 rounds. You can use this ability three times per day.",
+			"**Black Blood (Su):** At 1st level, your blood runs black with the blood of Orv. You are immune to the effects (both beneficial and destructive) of black blood. You have this benefit constantly, even while not bloodraging. When you take damage from a slashing or piercing attack while bloodraging, as an immediate action you can grant your melee attacks the {magic-enh/frost} weapon special ability for 2 rounds. You can use this ability three times per day.",
 			"",
 			"**Abnormal Reach (Su):** At 4th level, the black blood pumping within you twists and elongates your limbs. Your reach increases by 5 feet.",
 			"",
@@ -185,7 +185,7 @@
 			"",
 			"Your bloodline grants a number of resistances and changes your form to something angelic and terrible to behold when you bloodrage.",
 			"",
-			"**Angelic Attacks (Su):** At 1st level, your melee attacks are considered good-aligned weapons for the purpose of bypassing damage reduction. Furthermore, when you deal damage with a melee attack to an evil outsider, you deal an additional 1d6 points of damage. This additional damage stacks with effects such as {spell/align weapon} and those granted by a weapon with the {magic-enhancement/holy} weapon special ability.",
+			"**Angelic Attacks (Su):** At 1st level, your melee attacks are considered good-aligned weapons for the purpose of bypassing damage reduction. Furthermore, when you deal damage with a melee attack to an evil outsider, you deal an additional 1d6 points of damage. This additional damage stacks with effects such as {spell/align weapon} and those granted by a weapon with the {magic-enh/holy} weapon special ability.",
 			"",
 			"**Celestial Resistances (Ex):** At 4th level, you gain resistance 5 to acid and cold. At 12th level, these resistances increase to 10.",
 			"",
@@ -416,7 +416,7 @@
 			"",
 			"**One with Nature (Su):** At 16th level, creatures of the animal or plant types don't attack you unless compelled to do so by magic or you attack them first. Three times per day, you can transport yourself from one tree to another tree, as {spell/tree stride} with half the transport range. Moving from one tree to another in this manner is a move action. You gain these abilities even while not bloodraging.",
 			"",
-			"**Fury of the Fey (Su):** At 20th level, when entering a bloodrage you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the {magic-enhancement/bane} weapon special ability. All of your melee attacks are considered to have {magic-enhancement/bane} against that type. This ability doesn't stack with other forms of {magic-enhancement/bane}."
+			"**Fury of the Fey (Su):** At 20th level, when entering a bloodrage you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the {magic-enh/bane} weapon special ability. All of your melee attacks are considered to have {magic-enh/bane} against that type. This ability doesn't stack with other forms of {magic-enh/bane}."
 		]
 	},
 	"hag": {
@@ -466,7 +466,7 @@
 			"",
 			"When you bloodrage, hellfire infuses your blood with terrifying effects.",
 			"",
-			"**Hellfire Strike (Su):** At 1st level, as a swift action up to three times a day you can infuse your attacks with hellfire. When you do, your melee attacks gain the {magic-enhancement/flaming} weapon special ability for 1 round. At 12th level, you can use this ability five times per day, and the effect is treated as {magic-enhancement/flaming burst}.",
+			"**Hellfire Strike (Su):** At 1st level, as a swift action up to three times a day you can infuse your attacks with hellfire. When you do, your melee attacks gain the {magic-enh/flaming} weapon special ability for 1 round. At 12th level, you can use this ability five times per day, and the effect is treated as {magic-enh/flaming burst}.",
 			"",
 			"**Infernal Resistance (Ex):** At 4th level, you gain fire resistance 5, as well as a +2 bonus on saving throws against poison. At 8th level, your fire resistance increases to 10, and the bonus on saving throws against poison increases to +4.",
 			"",
@@ -778,7 +778,7 @@
 			"",
 			"**Frightful Charger (Su):** At 1st level, when you hit a creature with a charge attack, that creature becomes shaken for a number of rounds equal to 1/2 your bloodrager level (minimum 1). This effect does not cause an existing shaken or frightened condition (from this ability or another source) to turn into frightened or panicked. This is a mind-affecting fear effect.",
 			"",
-			"**Ghost Strike (Su):** At 4th level, your melee attacks are treated as if they have the {magic-enhancement/ghost touch} weapon special ability.",
+			"**Ghost Strike (Su):** At 4th level, your melee attacks are treated as if they have the {magic-enh/ghost touch} weapon special ability.",
 			"",
 			"**Death's Gift (Su):** At 8th level, you gain cold resistance 10, as well as DR 10/- against nonlethal damage.",
 			"",

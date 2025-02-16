@@ -1744,7 +1744,7 @@
 			"**Effect** lance of light  ",
 			"**Duration** 1 round + 1 round/level (D)",
 			"",
-			"You create a glorious beam of brilliant radiance that acts as a +1 {magic-enhancement/holy} {eq-weapon/lance} suitable for your size. You must have a free hand when casting the spell and, once you call the lance into being, you cannot switch it to another hand or put it down without prematurely ending the spell. As a standard action while holding a light lance, you can choose not to make an attack and instead hold the lance aloft as a beacon of light and truth, creating an area of bright light with a radius of 90 feet. If you choose to do this for one or more additional rounds the lance also casts a spear of brilliant light up into the sky that grows progressively more visible as it continues to climb toward the heavens. Under cover of night or other darkness, if nothing obstructs the beam, it becomes visible for an additional 2 miles during each round in which you continue to aim your lance skyward (2 miles in the second round, 4 miles in the third round, and so on)."
+			"You create a glorious beam of brilliant radiance that acts as a +1 {magic-enh/holy} {eq-weapon/lance} suitable for your size. You must have a free hand when casting the spell and, once you call the lance into being, you cannot switch it to another hand or put it down without prematurely ending the spell. As a standard action while holding a light lance, you can choose not to make an attack and instead hold the lance aloft as a beacon of light and truth, creating an area of bright light with a radius of 90 feet. If you choose to do this for one or more additional rounds the lance also casts a spear of brilliant light up into the sky that grows progressively more visible as it continues to climb toward the heavens. Under cover of night or other darkness, if nothing obstructs the beam, it becomes visible for an additional 2 miles during each round in which you continue to aim your lance skyward (2 miles in the second round, 4 miles in the third round, and so on)."
 		]
 	},
 	"light_of_iomedae": {
@@ -3484,9 +3484,9 @@
 			"",
 			"{SOURCE Mythic Adventures/100}",
 			"",
-			"This functions like mythic magic fang. You can add one of the following weapon special abilities to natural attacks or unarmed strikes affected by the spell: {magic-enhancement/flaming}, {magic-enhancement/frost}, {magic-enhancement/keen}, {magic-enhancement/merciful}, {magic-enhancement/shock}, or {magic-enhancement/thundering}. You must choose only one with each casting of the spell. For example, you can't add flaming to a tiger's bite and keen to its claws with the same casting. If the target has an Intelligence score less than 3, these abilities are always on (the target can't activate or deactivate the effect) and it might react with fear if its attacks make noise or create visible energy.",
+			"This functions like mythic magic fang. You can add one of the following weapon special abilities to natural attacks or unarmed strikes affected by the spell: {magic-enh/flaming}, {magic-enh/frost}, {magic-enh/keen}, {magic-enh/merciful}, {magic-enh/shock}, or {magic-enh/thundering}. You must choose only one with each casting of the spell. For example, you can't add flaming to a tiger's bite and keen to its claws with the same casting. If the target has an Intelligence score less than 3, these abilities are always on (the target can't activate or deactivate the effect) and it might react with fear if its attacks make noise or create visible energy.",
 			"",
-			"*Augmented (5th):* If you expend two uses of mythic power, you can reduce the granted enhancement bonuses by 1 to add two of the above abilities or one of the following abilities: {magic-enhancement/flaming burst}, {magic-enhancement/icy burst}, or {magic-enhancement/shocking burst}."
+			"*Augmented (5th):* If you expend two uses of mythic power, you can reduce the granted enhancement bonuses by 1 to add two of the above abilities or one of the following abilities: {magic-enh/flaming burst}, {magic-enh/icy burst}, or {magic-enh/shocking burst}."
 		]
 	},
 	"magic_fang_greater": {

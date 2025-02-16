@@ -1794,7 +1794,7 @@ const basic_data_groups = {
 	"magic_enhancements1": {
 		data: magicenhancement1,
 		searchgroup: 5, // magic
-		link: "magic-enhancement",
+		link: "magic-enh",
 		exportablelink: "magicenhancement",
 		num: 1,
 		type: "Armor/Weapon Enchantment"
@@ -1802,7 +1802,7 @@ const basic_data_groups = {
 	"magic_enhancements2": {
 		data: magicenhancement2,
 		searchgroup: 5, // magic
-		link: "magic-enhancement",
+		link: "magic-enh",
 		exportablelink: "magicenhancement",
 		num: 2,
 		type: "Armor/Weapon Enchantment"

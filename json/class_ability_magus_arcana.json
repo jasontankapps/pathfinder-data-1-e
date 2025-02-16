@@ -141,7 +141,7 @@
 		"name": "Devoted Blade",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Devoted Blade (Su)** ({source/Ultimate Combat/ pg. 54}): Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add either the {magic-enhancement/anarchic}, {magic-enhancement/axiomatic}, {magic-enhancement/holy}, or {magic-enhancement/unholy} special ability to the list of available options. A magus may only add one of these abilities if it matches his own alignment. The magus must be at least 12th level before selecting this arcana."
+			"**Devoted Blade (Su)** ({source/Ultimate Combat/ pg. 54}): Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add either the {magic-enh/anarchic}, {magic-enh/axiomatic}, {magic-enh/holy}, or {magic-enh/unholy} special ability to the list of available options. A magus may only add one of these abilities if it matches his own alignment. The magus must be at least 12th level before selecting this arcana."
 		]
 	},
 	"dispelling_strike": {

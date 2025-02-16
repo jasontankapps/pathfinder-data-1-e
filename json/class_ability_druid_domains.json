@@ -20,7 +20,7 @@
 			"",
 			"**Sealord (Su):** You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal creatures with the aquatic or water subtype or to command them (similar to using the Command Undead feat against undead). You can take other feats to add to this ability, such as {feat/Extra Channel} and {feat/Improved Channel}, but not feats that alter this ability, such as {feat/Elemental Channel} and {feat/Alignment Channel}. The DC to save against this ability is equal to 10 + 1/2 your druid level + your Charisma modifier.",
 			"",
-			"**Seastrike (Su):** At 6th level, as a free action, you may use natural and manufactured weapons in water as if you had continuous freedom of movement. As a standard action, you can throw a weapon underwater without the normal penalties for throwing weapons; if your target is in or under the water, the weapon also acts as a {magic-enhancement/returning} weapon for that attack.",
+			"**Seastrike (Su):** At 6th level, as a free action, you may use natural and manufactured weapons in water as if you had continuous freedom of movement. As a standard action, you can throw a weapon underwater without the normal penalties for throwing weapons; if your target is in or under the water, the weapon also acts as a {magic-enh/returning} weapon for that attack.",
 			"",
 			"**Domain Spells:** 1st-{spell/hydraulic push}, 2nd-{spell/slipstream}, 3rd-{spell/water breathing}, 4th-{spell/freedom of movement}, 5th-{spell/black tentacles}, 6th-{spell/freezing sphere}, 7th-{spell/animal shapes} (aquatic creatures only), 8th-{spell/seamantle}, 9th-{spell/tsunami}."
 		]

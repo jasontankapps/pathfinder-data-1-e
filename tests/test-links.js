@@ -196,7 +196,7 @@ const all = [
 	["eq-weaponenh", equipmentweaponenhancement], ["haunt", haunt],
 	["infestation", infestation], ["madness", madness], ["magic-altar", magicaltar],
 	["magic-armor", magicarmor], ["magic-implant", magicimplant], ["magic-talisman", magictalisman],
-	["magic-augmentation", magicaugmentation], ["magic-enhancement", magicenhancement],
+	["magic-augmentation", magicaugmentation], ["magic-enh", magicenhancement],
 	["magic-favor", magicfavor], ["magic-fleshcrafting", magicfleshcrafting],
 	["magic-graft", magicgraft], ["magic-poison", magicpoison], ["magic-ioun", magicioun],
 	["magic-fetish", magicfetish], ["magic-necrograft", magicnecrograft],

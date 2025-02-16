@@ -502,7 +502,11 @@
 			"",
 			"### Composite longbow +5",
 			"",
-			"**Cost** 600gp"
+			"**Cost** 600gp",
+			"",
+			"### Composite longbow +6",
+			"",
+			"**Cost** 700gp"
 		],
 		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
@@ -546,7 +550,11 @@
 			"",
 			"### Composite shortbow +5",
 			"",
-			"**Cost** 450gp"
+			"**Cost** 450gp",
+			"",
+			"### Composite longbow +6",
+			"",
+			"**Cost** 525gp"
 		],
 		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
@@ -3241,6 +3249,7 @@
 		],
 		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
+	"light_repeating_crossbow": { "copyof": "repeating_light_crossbow" },
 	"rope_dart": {
 		"name": "Rope dart",
 		"sources": [
@@ -3462,11 +3471,17 @@
 	"long_lash_kobold_tail": {
 		"copyof": "kobold_tail_long_lash"
 	},
+	"long_lash": {
+		"copyof": "kobold_tail_long_lash"
+	},
 	"kobold_tail_pounder": {
 		"name": "Kobold tail, pounder",
 		"copyof": "long_lash_kobold_tail"
 	},
 	"pounder_kobold_tail": {
+		"copyof": "kobold_tail_pounder"
+	},
+	"pounder_tail": {
 		"copyof": "kobold_tail_pounder"
 	},
 	"kobold_tail_razored": {
@@ -4373,5 +4388,20 @@
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
 		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
+	},
+	"maxim_m1910_machine_gun": {
+		"name": "Maxim M1910 machine gun",
+		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
+		"description": [
+			"## Maxim M1910 Machine Gun",
+			"{SOURCE Pathfinder #71: Rasputin Must Die!/64}",
+			"",
+			"This heavy machine gun uses 7.6254mmR ammunition in 250-round belts. Although a single person can fire a Maxim, it typically has a two-person crew: the gunner, and a loader who assists with feeding the ammunition belt into the weapon. As a full-round action, the loader can use a special aid another action to grant the gunner a +2 bonus on his next attack roll. Because of its size and heavy weight, a Maxim is often either mounted on a wheeled chassis with a gun shield for trench defensive use, or on the back of a horse-drawn wagon called a tachanka. Assuming a user can even lift the weapon, firing a Maxim M1910 machine gun that is not mounted imparts a -4 penalty on attack rolls and the recoil knocks the wielder prone. The Maxim M1910 is automatic-fire only. The armored shield provides cover when firing the weapon from the prone position.",
+			"",
+			"**Cost** 1,500 gp **Weight** 140 lbs.  ",
+			"**Damage** 2d8 (medium); **Critical** &times;4; **Range** 120 ft.; **Type** B and P; **Special** automatic  ",
+			"**Misfire** 1-2; **Capacity** 250  ",
+			"**Category** Two-Handed; **Proficiency** Exotic"
+		]
 	}
 }

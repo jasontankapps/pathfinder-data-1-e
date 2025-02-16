@@ -2063,6 +2063,7 @@
 		],
 		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
+	"blowgun_dart": { "copyof": "blowgun_darts" },
 	"blunt_arrows": {
 		"name": "Blunt arrows",
 		"sources": [
@@ -2151,6 +2152,7 @@
 		],
 		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
+	"bolt": { "copyof": "crossbow_bolts" },
 	"featherweight_dart": {
 		"name": "Featherweight dart",
 		"sources": [ "Ultimate Intrigue" ],
@@ -2334,6 +2336,7 @@
 		],
 		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
+	"sling_bullet": { "copyof": "sling_bullets" },
 	"smoke_arrow": {
 		"name": "Smoke arrow",
 		"sources": [

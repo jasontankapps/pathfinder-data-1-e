@@ -1191,7 +1191,7 @@
 			"{SOURCE Pathfinder #143: Borne by the Sun's Grace/81}  ",
 			"An usher rules a domain in the Boneyard. Ushers are neutral outsiders with a minimum CR of 25. Ushers share the following traits and have the {subtype/psychopomp} subtype unless otherwise noted.",
 			"",
-			"- An usher's natural weapons, as well as any weapon it wields, are treated as epic and as though they have the {magic-enhancement/ghost touch} special ability for the purpose of overcoming damage resistance and immunities.",
+			"- An usher's natural weapons, as well as any weapon it wields, are treated as epic and as though they have the {magic-enh/ghost touch} special ability for the purpose of overcoming damage resistance and immunities.",
 			"- Immunity to ability damage, ability drain, charm, compulsion, death effects, energy drain, and petrification.",
 			"- **Frightful Presence (Su):** An usher can activate its frightful presence as a free action as part of any attack, special attack, spell-like ability, or by speaking aloud.",
 			"- **Summon Psychopomps (Su):** Three times per day as a swift action, an usher can summon a psychopomp or combination of psychopomps whose total combined CR is 20 or lower. This otherwise functions like the {umr/summon} universal monster rule with 100% chance of success, and it counts as a 9th-level spell effect.",
@@ -1456,7 +1456,7 @@
 			"## Fortification (Ex)",
 			"",
 			"{SOURCE Mythic Adventures/227}  ",
-			"The monster has a 50% chance to treat any critical hit or sneak attack as a normal hit, as if wearing {magic-enhancement/moderate fortification} armor.",
+			"The monster has a 50% chance to treat any critical hit or sneak attack as a normal hit, as if wearing {magic-enh/moderate fortification} armor.",
 			"",
 			"**Format:** fortification (50%)  ",
 			"**Location:** Defensive Abilities."

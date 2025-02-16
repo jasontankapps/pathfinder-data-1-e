@@ -802,7 +802,7 @@
 			"",
 			"### Essence Booster",
 			"",
-			"The alchemist applies this golden liniment to a weapon or suit of armor that has a tiered special ability (a special ability available in varying degrees of potency, such as {magic-enhancement/light fortification} or {magic-enhancement/shadow}). The affected special ability increases by one step (to {magic-enhancement/moderate fortification} or {magic-enhancement/greater shadow}, for example). If the item has multiple tiered special abilities, the alchemist chooses one to affect. The item's enhancement bonus increases by 1 if it has no tiered magical qualities. The alchemist must be at least 8th level to choose this anointing.",
+			"The alchemist applies this golden liniment to a weapon or suit of armor that has a tiered special ability (a special ability available in varying degrees of potency, such as {magic-enh/light fortification} or {magic-enh/shadow}). The affected special ability increases by one step (to {magic-enh/moderate fortification} or {magic-enh/greater shadow}, for example). If the item has multiple tiered special abilities, the alchemist chooses one to affect. The item's enhancement bonus increases by 1 if it has no tiered magical qualities. The alchemist must be at least 8th level to choose this anointing.",
 			"",
 			"### Mercurial Oil",
 			"",
@@ -810,7 +810,7 @@
 			"",
 			"### Orichalcum Dust",
 			"",
-			"The alchemist sprinkles a small quantity of colorful dust that comprises the essence of all four elements. By favoring one element over another in this mixture, the alchemist temporarily changes the energy type of one weapon into another. For example, the alchemist can choose for a bomb to deal acid damage or a weapon with the {magic-enhancement/shocking burst} special ability to deal fire damage instead. Once an elemental effect is changed, it cannot be changed again until the anointing's duration expires."
+			"The alchemist sprinkles a small quantity of colorful dust that comprises the essence of all four elements. By favoring one element over another in this mixture, the alchemist temporarily changes the energy type of one weapon into another. For example, the alchemist can choose for a bomb to deal acid damage or a weapon with the {magic-enh/shocking burst} special ability to deal fire damage instead. Once an elemental effect is changed, it cannot be changed again until the anointing's duration expires."
 		],
 		"subhierarchy": [[ "Alchemist", "class/alchemist" ]]
 	},
@@ -1920,7 +1920,7 @@
 			"",
 			"**Explosive Missile** (*{source/Ultimate Combat}*): As a standard action, the alchemist can infuse a single arrow, crossbow bolt, or one-handed firearm bullet with the power of his bomb, load the ammunition, and shoot the ranged weapon. He must be proficient with the weapon in order to accomplish this. When the infused ammunition hits its target, it deals damage normally and detonates as if the alchemist had thrown the bomb at the target. If the explosive missile misses, it does not detonate. An alchemist must be at least 4th level before selecting this discovery.",
 			"",
-			"**Fire Brand (Su)** (*{source/Advanced Race Guide}*): ({race/Goblin} only) An alchemist with this discovery can expend one daily bomb use to apply the bomb reagents to his weapon as a swift action. A weapon treated this way deals fire damage as if it had the {magic-enhancement/flaming} weapon special ability. At 10th level, the weapon is treated as if it had the {magic-enhancement/flaming burst} weapon special ability. The bomb reagents continue burning for 1 minute or until extinguished by dousing the weapon in water. An alchemist can use this ability with natural weapons, but he takes 1d6 points of fire damage per round for each natural weapon treated.",
+			"**Fire Brand (Su)** (*{source/Advanced Race Guide}*): ({race/Goblin} only) An alchemist with this discovery can expend one daily bomb use to apply the bomb reagents to his weapon as a swift action. A weapon treated this way deals fire damage as if it had the {magic-enh/flaming} weapon special ability. At 10th level, the weapon is treated as if it had the {magic-enh/flaming burst} weapon special ability. The bomb reagents continue burning for 1 minute or until extinguished by dousing the weapon in water. An alchemist can use this ability with natural weapons, but he takes 1d6 points of fire damage per round for each natural weapon treated.",
 			"",
 			"**Gills** (*{source/Pathfinder #123: The Flooded Cathedral}*): An alchemist with this discovery grows a set of gills that allow him to breathe water in addition to breathing air. When on land, the alchemist risks his gills drying out and must bathe his gills with 1/2 gallon of water every 24 hours he is out of the water or take 1 point of Constitution damage every hour thereafter. An alchemist must be at least 4th level before selecting this discovery.",
 			"",
@@ -1958,7 +1958,7 @@
 			"",
 			"**Pheromones (Su)** (*{source/Ultimate Wilderness}*): The alchemist exudes an imperceptible musk that grants him a permanent +3 competence bonus on Bluff, Diplomacy, and Intimidate checks.",
 			"",
-			"**Preserve Organs (Ex)** (*{source/Ultimate Magic}*): The alchemist learns how to preserve and protect his vital organs, reducing the chance of a mortal wound. When a critical hit or sneak attack is scored on the alchemist, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as [fortification](magic-enhancement/moderate_fortification) armor). An alchemist can take this discovery up to three times; the effects stack, increasing this chance to 50% and then 75%.",
+			"**Preserve Organs (Ex)** (*{source/Ultimate Magic}*): The alchemist learns how to preserve and protect his vital organs, reducing the chance of a mortal wound. When a critical hit or sneak attack is scored on the alchemist, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as [fortification](magic-enh/moderate_fortification) armor). An alchemist can take this discovery up to three times; the effects stack, increasing this chance to 50% and then 75%.",
 			"",
 			"**Promethean Disciple** (*{source/Occult Adventures}*): An alchemist with this discovery learns how to craft constructs by way of alchemical research rather than arcane magic. The alchemist gains {feat/Craft Construct} as a bonus feat without needing to meet its requirements. The alchemist substitutes his number of ranks in Craft (alchemy) for his total caster level and must use Craft (alchemy) to create the construct. The DC to create the construct still increases for any necessary spells that the alchemist does not have access to. However, the alchemist can use extracts in place of spells as spell prerequisites. An alchemist must be at least 6th level before selecting this discovery.",
 			"",

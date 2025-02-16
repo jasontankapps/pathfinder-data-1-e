@@ -236,7 +236,7 @@
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** armor/shield quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"Armor and shields with this special ability excel at blocking the attacks of certain types of creatures, similar to a bane weapon's excelling against certain foes. Against the designated foe, the item's enhancement bonus to AC is +2 better than its actual bonus and provides DR 2/- against attacks from that foe. This increase in enhancement bonus applies only to the armor or shield's enhancement bonus, not to temporary bonuses (such as the {spell/magic vestment} spell). To randomly determine the armor or shield's designated foe, use the table for the {magic-enhancement/bane} weapon special ability.",
+			"Armor and shields with this special ability excel at blocking the attacks of certain types of creatures, similar to a bane weapon's excelling against certain foes. Against the designated foe, the item's enhancement bonus to AC is +2 better than its actual bonus and provides DR 2/- against attacks from that foe. This increase in enhancement bonus applies only to the armor or shield's enhancement bonus, not to temporary bonuses (such as the {spell/magic vestment} spell). To randomly determine the armor or shield's designated foe, use the table for the {magic-enh/bane} weapon special ability.",
 			"",
 			"### Construction",
 			"",
@@ -1321,12 +1321,10 @@
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/etherealness}; **Price** +3 bonus",
 			"",
-			"See also: {magic-enhancement/ghost touch weapon/ enhancement}"
+			"See also: {magic-enh/ghost touch weapon/ enhancement}"
 		]
 	},
-	"ghost_touch": {
-		"copyof": "ghost_touch_armor"
-	},
+	"ghost_touch": { "copyof": "ghost_touch_armor" },
 	"invulnerability": {
 		"name": "Invulnerability",
 		"sources": [
@@ -1684,7 +1682,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +27,000 gp; **Weight** -",
 			"",
-			"Armor with this special ability is often engraved or enameled with religious symbols. Once per day on command, the wearer can invoke an effect, as per the spell righteous might, lasting for 10 rounds. Righteous armor is always aligned toward good (positive energy), for the effects of righteous might. Righteous armor bestows one permanent negative level on any evil creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by restoration spells) while the armor is worn.",
+			"Armor with this special ability is often engraved or enameled with religious symbols. Once per day on command, the wearer can invoke an effect, as per the spell righteous might, lasting for 10 rounds. Righteous armor is always aligned toward good (positive energy), for the effects of righteous might. Righteous armor bestows one permanent negative level on any evil creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by {spell/restoration} spells) while the armor is worn.",
 			"",
 			"### Construction",
 			"",
@@ -1701,7 +1699,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +27,000 gp; **Weight** -",
 			"",
-			"Armor with this special ability is often engraved or enameled with chaotic religious symbols. Once per day on command, the wearer can invoke an effect as per the spell righteous might, except the wearer gains DR 5/lawful instead of DR/ evil or DR/good. This effect lasts for 10 rounds. Unbound armor bestows one permanent negative level on any lawful creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by restoration spells) while the armor is worn.",
+			"Armor with this special ability is often engraved or enameled with chaotic religious symbols. Once per day on command, the wearer can invoke an effect as per the spell righteous might, except the wearer gains DR 5/lawful instead of DR/evil or DR/good. This effect lasts for 10 rounds. Unbound armor bestows one permanent negative level on any lawful creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by {spell/restoration} spells) while the armor is worn.",
 			"",
 			"### Construction",
 			"",
@@ -1721,7 +1719,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +27,000 gp; **Weight** -",
 			"",
-			"This armor is often sculpted with unholy symbols. Once per day on command, the wearer can invoke an effect, as per the spell righteous might, lasting for 10 rounds. Unrighteous armor is always aligned toward evil (negative energy), for the effects of righteous might. Unrighteous armor bestows one permanent negative level on any good creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by restoration spells) while the armor is worn.",
+			"This armor is often sculpted with unholy symbols. Once per day on command, the wearer can invoke an effect, as per the spell righteous might, lasting for 10 rounds. Unrighteous armor is always aligned toward evil (negative energy), for the effects of righteous might. Unrighteous armor bestows one permanent negative level on any good creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by {spell/restoration} spells) while the armor is worn.",
 			"",
 			"### Construction",
 			"",
@@ -1738,7 +1736,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +27,000 gp; **Weight** -",
 			"",
-			"Armor with this special ability is often engraved or enameled with lawful religious symbols. Once per day on command, the wearer can invoke an effect, as per the spell righteous might, except the wearer gains DR 5/chaotic instead of DR/evil or DR/good. This lasts for 10 rounds. Vigilant armor bestows one permanent negative level on any chaotic creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by restoration spells) while the armor is worn.",
+			"Armor with this special ability is often engraved or enameled with lawful religious symbols. Once per day on command, the wearer can invoke an effect, as per the spell righteous might, except the wearer gains DR 5/chaotic instead of DR/evil or DR/good. This lasts for 10 rounds. Vigilant armor bestows one permanent negative level on any chaotic creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by {spell/restoration} spells) while the armor is worn.",
 			"",
 			"### Construction",
 			"",
@@ -1992,11 +1990,11 @@
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** shield quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"A shield with this ability rings loudly when struck in combat. As an immediate action when the wearer is hit by an attack, the wearer can activate the shield to create a deafening bang equivalent to a thunderstone. If the attack is a critical hit, the wearer can instead create a sound burst (Fortitude DC 13 partial). The wearer decides the area for either effect, but must include the attacker in the area. Neither ability affects the wearer.",
+			"A shield with this ability rings loudly when struck in combat. As an immediate action when the wearer is hit by an attack, the wearer can activate the shield to create a deafening bang equivalent to a {eq-weapon/thunderstone}. If the attack is a critical hit, the wearer can instead create a sound burst (Fortitude DC 13 partial). The wearer decides the area for either effect, but must include the attacker in the area. Neither ability affects the wearer.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, [deafness](spell/blindness_deafness), {spell/sound burst}; **Price** +1 bonus"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/blindness_<deafness}, {spell/sound burst}; **Price** +1 bonus"
 		]
 	},
 	"folding": {
@@ -2469,6 +2467,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/aid}; **Price** -"
 		]
 	},
+	"benevolent_w": { "copyof": "benevolent_weapon" },
 	"bewildering": {
 		"name": "Bewildering",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -2551,6 +2550,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Improved Trip}, {spell/guidance}; **Price** -"
 		]
 	},
+	"brawling_w": { "copyof": "brawling_weapon" },
 	"breaking": {
 		"name": "Breaking",
 		"sources": [ "Dungeoneer's Handbook" ],
@@ -2870,7 +2870,7 @@
 			"**Aura** strong abjuration; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"A dispelling weapon functions like a {magic-enhancement/spell storing weapon}, but it may only store {spell/dispel magic}; however, the caster level check to dispel gains an additional bonus equal to the weapon's enhancement bonus. This bonus also applies to a magus's dispelling strike arcana or a barbarian's spell sunder or sunder enchantment combat maneuver check.",
+			"A dispelling weapon functions like a {magic-enh/spell storing weapon}, but it may only store {spell/dispel magic}; however, the caster level check to dispel gains an additional bonus equal to the weapon's enhancement bonus. This bonus also applies to a magus's dispelling strike arcana or a barbarian's spell sunder or sunder enchantment combat maneuver check.",
 			"",
 			"### Construction",
 			"",
@@ -3084,9 +3084,10 @@
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/plane shift}; **Price** -",
 			"",
-			"See also: {magic-enhancement/ghost touch armor/ enhancement}"
+			"See also: {magic-enh/ghost touch armor/ enhancement}"
 		]
 	},
+	"ghost_touch_w": { "copyof": "ghost_touch_weapon" },
 	"grayflame": {
 		"name": "Grayflame",
 		"sources": [

@@ -3192,7 +3192,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell allows you to channel holy power into your sword, or any other melee weapon you choose. The weapon acts as a +5 {magic-enhancement/holy} weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against evil opponents). It also emits a {spell/magic circle against evil} effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one holy sword at a time.",
+			"This spell allows you to channel holy power into your sword, or any other melee weapon you choose. The weapon acts as a +5 {magic-enh/holy} weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against evil opponents). It also emits a {spell/magic circle against evil} effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one holy sword at a time.",
 			"",
 			"If this spell is cast on a magic weapon, the powers of the spell supercede any that the weapon normally has, rendering the normal enhancement bonus and powers of the weapon inoperative for the duration of the spell. This spell is not cumulative with bless weapon or any other spell that might modify the weapon in any way. This spell does not work on artifacts. A masterwork weapon's bonus to attack does not stack with an enhancement bonus to attack."
 		]
@@ -4051,7 +4051,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You create a masterwork dagger out of ice. The dagger deals 1 point of cold damage in addition to normal dagger damage. If the dagger leaves your hand for more than 1 round, it melts and the spell ends. At 6th level, the dagger functions as a +1 {magic-enhancement/frost} dagger. At 11th level, it gains the returning property when thrown, melting away and reforming in your hand just before your next turn."
+			"You create a masterwork dagger out of ice. The dagger deals 1 point of cold damage in addition to normal dagger damage. If the dagger leaves your hand for more than 1 round, it melts and the spell ends. At 6th level, the dagger functions as a +1 {magic-enh/frost} dagger. At 11th level, it gains the returning property when thrown, melting away and reforming in your hand just before your next turn."
 		]
 	},
 	"icy_prison": {

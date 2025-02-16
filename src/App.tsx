@@ -166,7 +166,7 @@ const App: FC = () => {
 						<Route path="/madness/:id"><Suspense fallback={<Loading />}><MadnessPage /></Suspense></Route>
 						<Route path="/magic-armor/:id"><Suspense fallback={<Loading />}><MagicArmorPage /></Suspense></Route>
 						<Route path="/magic-artifact/:id"><MagicArtifactPage /></Route>
-						<Route path="/magic-enhancement/:id"><Suspense fallback={<Loading />}><MagicEnhancementPage /></Suspense></Route>
+						<Route path="/magic-enh/:id"><Suspense fallback={<Loading />}><MagicEnhancementPage /></Suspense></Route>
 						<Route path="/magic-ioun/:id"><Suspense fallback={<Loading />}><MagicIounStonePage /></Suspense></Route>
 						<Route path="/magic-ring/:id"><Suspense fallback={<Loading />}><MagicRingPage /></Suspense></Route>
 						<Route path="/magic-rod/:id"><Suspense fallback={<Loading />}><MagicRodPage /></Suspense></Route>

@@ -2616,7 +2616,7 @@
 			"| 1 | {spell/Gentle repose} |",
 			"| 1 | {spell/Lesser restoration} |",
 			"| 1 | {spell/Make whole} |",
-			"| 1 | [Remove blindness/deafness](spell/remove_blindness_deafness) |",
+			"| 1 | {spell/Remove blindness//deafness} |",
 			"| 1 | {spell/Remove curse} |",
 			"| 1 | {spell/Remove disease} |",
 			"| 1 | {spell/Remove paralysis} |",

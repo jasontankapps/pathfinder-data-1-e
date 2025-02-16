@@ -1,5 +1,5 @@
 import getItem from '../components/getItem';
-import enhancements from './subpages/__magic-enhancement1';
+import enhancements from './subpages/__magic-enh1';
 import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -18,7 +18,7 @@ const MagicEnhancementGroup1Page: React.FC<MagicEnhancementProps> = ({id}) => {
 
 	return <BasicPage
 		hasJL={hasJL}
-		pageId={"/magic-enhancement/" + id}
+		pageId={"/magic-enh/" + id}
 		title={title}
 		sources={sources}
 		topLink={topLink}
