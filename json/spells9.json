@@ -100,7 +100,7 @@
 			"Ultimate Combat"
 		],
 		"description": [
-			"{jumplist Compel Tongue / Share Language, Communal}",
+			"{jumplist Compel Tongue / Share Language, Communal / Compel Tongue, Mass}",
 			"",
 			"## Share Language",
 			"",
@@ -141,7 +141,20 @@
 			"**Duration** 24 hours  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell functions like share language, except you divide the duration in 1-hour increments among the creatures touched."
+			"This spell functions like share language, except you divide the duration in 1-hour increments among the creatures touched.",
+			"",
+			"### Compel Tongue, Mass",
+			"",
+			"{SOURCE Black Markets/24}  ",
+			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** arcanist 5, bard 4, cleric 5, druid 5, hunter 5, oracle 5, skald 4, sorcerer 5, warpriest 5, witch 5, wizard 5  ",
+			"**Casting Time** 1 standard action  ",
+			"**Components** V, S, M (a wooden block carved with a letter)  ",
+			"**Range** touch  ",
+			"**Target** one creature/level, no two of which can be more than 30 ft. apart  ",
+			"**Duration** 1 hour/level (D)  ",
+			"**Saving Throw** Will negates; **Spell Resistance** yes",
+			"",
+			"This spell functions as compel tongue, except it affects multiple creatures. The same language restriction applies to all creatures, and the same language must be imparted to all creatures affected by the same casting on this spell."
 		]
 	},
 	"share_language_communal": {

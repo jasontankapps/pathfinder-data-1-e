@@ -44,7 +44,7 @@
 					[ "{spell/Mage Hand}", 0, "transmutation", null, null, "5-pound telekinesis." ],
 					[ "{spell/Mending}", 0, "transmutation", null, null, "Makes minor repairs on an object." ],
 					[ "{spell/Message}", 0, "transmutation", null, "language-dependent", "Whisper conversation at distance." ],
-					[ "{spell/Open and Close}", 0, "transmutation", null, null, "Opens or closes small or light things." ],
+					[ "{spell/Open//Close}", 0, "transmutation", null, null, "Opens or closes small or light things." ],
 					[ "{spell/Read Magic}", 0, "divination", null, null, "Read scrolls and spellbooks." ],
 					[ "{spell/Resistance}", 0, "abjuration", null, null, "Subject gains +1 on saving throws." ],
 					[ "{spell/Alarm}", 1, "abjuration", null, null, "Wards an area for 2 hours/level." ],
@@ -1520,13 +1520,7 @@
 			"",
 			"::main[Hunter Spells (Level 3)]{endem=\"(176 spells)\" to=main/spells_hunter_3}",
 			"",
-			"::main[Hunter Spells (Level 4-6)]{endem=\"(233 spells)\" to=main/spells_hunter_4_6}",
-			"",
-			":::item",
-			"",
-			"{table0}",
-			"",
-			":::"
+			"::main[Hunter Spells (Level 4-6)]{endem=\"(233 spells)\" to=main/spells_hunter_4_6}"
 		],
 		"noFinder": true,
 		"searchgroup": "spell",

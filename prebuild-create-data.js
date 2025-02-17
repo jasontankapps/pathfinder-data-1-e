@@ -47,8 +47,7 @@ const alternateBlocks = {
 			}
 			if(ind) {
 				cn = "indented";
-			}
-			if(rev) {
+			} else if(rev) {
 				cn = "reversed";
 			}
 			if(cn) {

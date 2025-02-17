@@ -1908,7 +1908,19 @@
 			"",
 			"If an area of effect that allows you to attempt a Reflex save triggered this spell's casting, the target instead grants you cover against the effect (+2 bonus on Reflex saves) if it is your size or smaller, or improved cover (+4 bonus on Reflex saves and improved evasion against the effect) if it is larger than you. The target automatically fails its Reflex save against the effect but can still benefit from improved evasion and similar mitigating effects.",
 			"",
-			"After taking damage, the target is shaken for 1 minute. If the target was already shaken, it becomes frightened instead."
+			"After taking damage, the target is shaken for 1 minute. If the target was already shaken, it becomes frightened instead.",
+			"",
+			"### Die for Your Master",
+			"",
+			"**School** {spelldef/enchantment} ({spelldef/compulsion}); **Level** antipaladin 4, arcanist 5, druid 5, hunter 5, ranger 5, sorcerer 5, witch 5, wizard 5  ",
+			"**Casting Time** 1 immediate action  ",
+			"**Components** V, S  ",
+			"**Range** touch  ",
+			"**Target** your animal companion, familiar, or fiendish servant  ",
+			"**Duration** instantaneous  ",
+			"**Saving Throw** none; **Spell Resistance** no",
+			"",
+			"This spell functions as Bleed for Your Master, but it allows your companion or familiar to intercept any attack that targets you, including those that do not require attack rolls (e.g. {spell/chain lightning}, {spell/hold monster}, and {spell/magic missile}). Your companion or familiar cannot intercept effects that do not affect creatures of its type (e.g. {spell/dominate person})."
 		]
 	},
 	"die_for_your_master": {
@@ -2034,10 +2046,10 @@
 		]
 	},
 	"bless_water": {
-		"name": "{spell/Bless Water}",
+		"name": "Bless Water",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## {spell/Bless Water}",
+			"## Bless Water",
 			"",
 			"{SOURCE PRPG Core Rulebook/249}  ",
 			"**School** {spelldef/transmutation} [{spelldef/good}]; **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1  ",
@@ -3237,10 +3249,10 @@
 		]
 	},
 	"continual_flame": {
-		"name": "{spell/Continual Flame}",
+		"name": "Continual Flame",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## {spell/Continual Flame}",
+			"## Continual Flame",
 			"",
 			"{SOURCE PRPG Core Rulebook/260}  ",
 			"**School** {spelldef/evocation} [{spelldef/light}]; **Level** adept 3, arcanist 2, cleric 3, inquisitor 3, occultist 2, oracle 3, psychic 3, sorcerer 2, warpriest 3, wizard 2  ",
@@ -3954,10 +3966,10 @@
 		]
 	},
 	"create_food_and_water": {
-		"name": "{spell/Create Food and Water}",
+		"name": "Create Food and Water",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## {spell/Create Food and Water}",
+			"## Create Food and Water",
 			"",
 			"{SOURCE PRPG Core Rulebook/261}  ",
 			"**School** {spelldef/conjuration} ({spelldef/creation}); **Level** cleric 3, occultist 3, oracle 3, shaman 3, warpriest 3  ",

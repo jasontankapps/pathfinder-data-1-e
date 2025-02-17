@@ -161,7 +161,7 @@
 			"{SOURCE Chronicle of Legends/14}  ",
 			"**School** {spelldef/conjuration}; **Level** arcanist 8, mesmerist 6, psychic 8, sorcerer 8, summoner 6, unchained summoner 6, wizard 8  ",
 			"**Casting Time** 1 round  ",
-			"**Components** v, S  ",
+			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
 			"**Target** one living creature  ",
 			"**Duration** 1 round/level  ",
@@ -2272,10 +2272,10 @@
 		]
 	},
 	"wall_of_blindness_deafness": {
-		"name": "Wall of Blindness or Deafness",
+		"name": "Wall of Blindness/Deafness",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Wall of Blindness or Deafness",
+			"## Wall of Blindness/Deafness",
 			"",
 			"{SOURCE Advanced Class Guide/198}  ",
 			"**School** {spelldef/necromancy}; **Level** arcanist 4, bard 4, cleric 5, oracle 5, psychic 4, skald 4, sorcerer 4, warpriest 5, witch 4, wizard 4  ",
@@ -2286,7 +2286,7 @@
 			"**Duration** concentration + 1 round/level  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** yes",
 			"",
-			"You create a translucent wall of energy, within which can be seen indistinct images of faces with their eyes or ears sewn shut. When you create the wall, decide whether it blinds or deafens. Any creature that passes through the wall must save or become permanently blinded or deafened (as blindness/deafness).",
+			"You create a translucent wall of energy, within which can be seen indistinct images of faces with their eyes or ears sewn shut. When you create the wall, decide whether it blinds or deafens. Any creature that passes through the wall must save or become permanently blinded or deafened (as {spell/blindness//deafness}).",
 			"",
 			"The wall must be vertical and either rectangular or a ring. It need not touch the ground. The wall must be continuous and unbroken when formed. If its surface is broken by any object or creature when it is cast, the spell fails."
 		]
