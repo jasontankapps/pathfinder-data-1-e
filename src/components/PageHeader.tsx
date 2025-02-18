@@ -1,4 +1,4 @@
-import { Dispatch, PropsWithChildren, useMemo } from 'react';
+import { Dispatch, PropsWithChildren, useMemo, ReactElement } from 'react';
 import {
 	IonButton, IonButtons, IonHeader, IonIcon,
 	IonMenuButton, IonTitle, IonToolbar, IonPopover,
@@ -71,8 +71,9 @@ const PageHeader: React.FC<PropsWithChildren<{
 	notBookmarkable?: boolean,
 	findInPage?: Dispatch<boolean>,
 	findingInPage?: boolean,
-	className?: string
-}>> = ({ title, children, noSearch, notBookmarkable, findInPage, findingInPage, className }) => {
+	className?: string,
+	extraButton?: ReactElement
+}>> = ({ title, children, noSearch, notBookmarkable, findInPage, findingInPage, className, extraButton }) => {
 	const [location, navigate] = useLocation();
 	const dispatch = useAppDispatch();
 	return (
@@ -83,9 +84,10 @@ const PageHeader: React.FC<PropsWithChildren<{
 				</IonButtons>
 				<IonTitle>{title}</IonTitle>
 				{
-					noSearch && !findInPage && notBookmarkable
+					noSearch && !findInPage && notBookmarkable && !extraButton
 						? <></>
 						: <IonButtons slot="end">
+							{extraButton || <></>}
 							{findInPage
 								? (
 									<IonButton onClick={() => findInPage(!findingInPage)} color={findingInPage ? "tertiary" : undefined}>

@@ -116,6 +116,9 @@ export const bookmarkSlice = createSlice({
 				...etc
 			};
 			newState.db[id] = db[id].filter(x => x !== color);
+			if(newState.db[id].length === 0) {
+				delete newState.db[id];
+			}
 			newState[color] = {
 				...etc[color],
 				contents: etc[color].contents.filter(x => x[0] !== id)
@@ -197,6 +200,43 @@ export const bookmarkSlice = createSlice({
 				newState.order = [...pre, ...mid, ids[from], ...end];
 			}
 			return newState;
+		},
+		importBookmarksGroup: (state, action: PayloadAction<{color: Color, title: string, contents: [string, string][]}>) => {
+			const { color, title, contents } = action.payload;
+			const { db: dbx, order, ...colors } = state;
+			const db = {...dbx};
+
+			// Get info currently stored in the target bookmark group
+			const { color: c, contents: cx, hidden } = colors[color];
+
+			// Split up pages into two groups
+			//   1) Pages in the current group that are not in the incoming group (remove these)
+			cx.filter(x => contents.indexOf(x) === -1).forEach(([page, x]) => {
+				const final = db[page].filter(x => x !== c);
+				if(final.length > 0) {
+					db[page] = db[page].filter(x => x !== c);
+				} else {
+					delete db[page];
+				}
+			});
+			//   2) Pages in the incoming group that are not in the current group (add these)
+			contents.filter(x => cx.indexOf(x) === -1).forEach(([page, x]) => {
+				if(db[page]) {
+					db[page] = [...db[page], c];
+				} else {
+					db[page] = [c];
+				}
+			});
+			// (Pages that are in both groups will remain unaffected)
+
+			// Save the new info
+			const newState = {
+				db,
+				order,
+				...colors
+			};
+			newState[color] = { color: c, title, contents, hidden };
+			return newState;
 		}
 	}
 });
@@ -205,7 +245,8 @@ export const bookmarkSlice = createSlice({
 export const {
 	addBookmark, removeBookmark,
 	editBookmark, reorderBookmarks,
-	toggleHidden, renameGroup, reorderGroups
+	toggleHidden, renameGroup, reorderGroups,
+	importBookmarksGroup
 } = bookmarkSlice.actions;
 
 // Export the slice reducer for use in the store configuration

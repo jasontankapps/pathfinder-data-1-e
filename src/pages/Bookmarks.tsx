@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { eye, eyeOff, reorderTwo } from 'ionicons/icons';
+import { eye, eyeOff, reorderTwo, save } from 'ionicons/icons';
 import {
 	IonButton,
 	IonIcon,
@@ -23,6 +23,12 @@ const BookmarksPage: React.FC = () => {
 	const dispatch = useAppDispatch();
 	const [path, navigate] = useLocation();
 
+	const ImportExport = useMemo(() => (
+		<IonButton onClick={() => { navigate(`/importexport`); dispatch(goTo(`/importexport`)); }}>
+			<IonIcon slot="icon-only" icon={save} />
+		</IonButton>
+	), [navigate, dispatch]);
+	
 	const allBookmarks = useMemo(() => {
 		return order.map(c => {
 			const {title, hidden} = colors[c];
@@ -66,6 +72,7 @@ const BookmarksPage: React.FC = () => {
 			notBookmarkable
 			noFinder
 			className="bookmarks"
+			extraButton={ImportExport}
 		>
 			<IonList lines="full">
 				<IonReorderGroup disabled={false} onIonItemReorder={handleReorder}>

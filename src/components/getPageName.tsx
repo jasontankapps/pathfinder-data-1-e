@@ -42,6 +42,8 @@ const getPageName = (id: string): string => {
 			return "Bookmarks (Magenta)";
 		case "bookmarks/pink":
 			return "Bookmarks (Pink)";
+		case "importexport":
+			return "Import/Export Bookmarks";
 	}
 	const i = index.indexOf(link);
 	if(i < 0) {

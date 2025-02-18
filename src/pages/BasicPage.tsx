@@ -1,4 +1,8 @@
-import { Dispatch, FC, FormEvent, PropsWithChildren, useCallback, useEffect, useRef, useState } from 'react';
+import {
+	Dispatch, FC, FormEvent, PropsWithChildren,
+	ReactElement, useCallback, useEffect,
+	useRef, useState
+} from 'react';
 import {
 	IonButton, IonCheckbox, IonContent, IonFab,
 	IonFabButton, IonIcon, IonItem, IonList, IonPage,
@@ -28,6 +32,7 @@ interface PageProps extends Partial<DisplayItemProps> {
 	pageId: string
 	error?: boolean
 	notBookmarkable?: boolean
+	extraButton?: ReactElement
 }
 
 const debounceNamespace: { [key: string]: any } = {};
@@ -163,7 +168,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		hideSources,
 		pageId,
 		notBookmarkable,
-		className
+		className,
+		extraButton
 	} = props;
 	const dispatch = useAppDispatch();
 	const { separateWordSearch, caseSensitive, wholeWords } = useAppSelector(state => state.search)
@@ -287,6 +293,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				}
 				findingInPage={searchBoxOpen}
 				notBookmarkable={notBookmarkable}
+				extraButton={extraButton}
 			/>
 			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={contentObj}>
 				{hideSources ?
