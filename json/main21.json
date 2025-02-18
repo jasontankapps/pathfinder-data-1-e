@@ -922,7 +922,7 @@
 					[ "{spell/Build Trust}", [ 1.891, "1, 2" ], null, null, "Gain various bonuses when interacting with the target." ],
 					[ "{spell/Calculated Luck}", [ 3.251, "3, 4" ], null, null, "Use the Path of Numbers to boost your combat preparedness." ],
 					[ "{spell/Carrion Compass}", [ 1.331, "1, 2" ], null, null, "Animate the target undead's organs to lead you to its most recent controller or cause of undeath." ],
-					[ "{spell/Clairaudience/Clairvoyance}", [ 2.921, "2, 3" ], "scrying", null, "Hear or see at a distance for 1 min./level." ],
+					[ "{spell/Clairaudience//Clairvoyance}", [ 2.921, "2, 3" ], "scrying", null, "Hear or see at a distance for 1 min./level." ],
 					[ "{spell/Cleromancy}", [ 2.671, "2, 3" ], null, null, "Use rolled dice to grant luck bonuses to future spells." ],
 					[ "{spell/Commune}", 5, null, null, "Deity answers one yes-or-no question/level." ],
 					[ "{spell/Commune with Birds}", [ 1.751, "1, 2" ], null, null, "Ask a question to all birds within a mile of your location." ],
