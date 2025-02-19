@@ -1,7 +1,9 @@
-/* Bookmarks */
+/* Bookmark Colors */
+
 ion-icon,
 ion-item,
-ion-text {
+ion-text,
+ion-toggle {
 	--red: #d00;
 	--red-fg: #300;
 	--red-fg-dim: #3007;
@@ -72,7 +74,8 @@ ion-item.bmColor {
 @media (prefers-color-scheme: dark) {
 	ion-icon,
 	ion-item,
-	ion-text {
+	ion-text,
+	ion-toggle {
 		--red: #c00;
 		--red-fg: var(--red);
 		--red-fg-dim: #d006;
@@ -139,6 +142,10 @@ ion-icon.color-red,
 ion-text.color-red {
 	color: var(--red);
 }
+ion-item.color-red ion-toggle {
+	--handle-background-checked: var(--red);
+	--track-background-checked: var(--ion-color-light);
+}
 ion-item.dim ion-text.color-fg-red {
 	color: var(--red-fg-dim);
 }
@@ -201,6 +208,10 @@ ion-item.color-orange.dim {
 ion-icon.color-orange,
 ion-text.color-orange {
 	color: var(--orange);
+}
+ion-item.color-orange ion-toggle {
+	--handle-background-checked: var(--orange);
+	--track-background-checked: var(--ion-color-light);
 }
 ion-item.dim ion-text.color-fg-orange {
 	color: var(--orange-fg-dim);
@@ -265,6 +276,10 @@ ion-icon.color-yellow,
 ion-text.color-yellow {
 	color: var(--yellow);
 }
+ion-item.color-yellow ion-toggle {
+	--handle-background-checked: var(--yellow);
+	--track-background-checked: var(--ion-color-light);
+}
 ion-item.dim ion-text.color-fg-yellow {
 	color: var(--yellow-fg-dim);
 }
@@ -327,6 +342,10 @@ ion-item.color-green.dim {
 ion-icon.color-green,
 ion-text.color-green {
 	color: var(--green);
+}
+ion-item.color-green ion-toggle {
+	--handle-background-checked: var(--green);
+	--track-background-checked: var(--ion-color-light);
 }
 ion-item.dim ion-text.color-fg-green {
 	color: var(--green-fg-dim);
@@ -391,6 +410,10 @@ ion-icon.color-chartreuse,
 ion-text.color-chartreuse {
 	color: var(--chartreuse);
 }
+ion-item.color-chartreuse ion-toggle {
+	--handle-background-checked: var(--chartreuse);
+	--track-background-checked: var(--ion-color-light);
+}
 ion-item.dim ion-text.color-fg-chartreuse {
 	color: var(--chartreuse-fg-dim);
 }
@@ -453,6 +476,10 @@ ion-item.color-cyan.dim {
 ion-icon.color-cyan,
 ion-text.color-cyan {
 	color: var(--cyan);
+}
+ion-item.color-cyan ion-toggle {
+	--handle-background-checked: var(--cyan);
+	--track-background-checked: var(--ion-color-light);
 }
 ion-item.dim ion-text.color-fg-cyan {
 	color: var(--cyan-fg-dim);
@@ -517,6 +544,10 @@ ion-icon.color-blue,
 ion-text.color-blue {
 	color: var(--blue);
 }
+ion-item.color-blue ion-toggle {
+	--handle-background-checked: var(--blue);
+	--track-background-checked: var(--ion-color-light);
+}
 ion-item.dim ion-text.color-fg-blue {
 	color: var(--blue-fg-dim);
 }
@@ -579,6 +610,10 @@ ion-item.color-purple.dim {
 ion-icon.color-purple,
 ion-text.color-purple {
 	color: var(--purple);
+}
+ion-item.color-purple ion-toggle {
+	--handle-background-checked: var(--purple);
+	--track-background-checked: var(--ion-color-light);
 }
 ion-item.dim ion-text.color-fg-purple {
 	color: var(--purple-fg-dim);
@@ -643,6 +678,10 @@ ion-icon.color-magenta,
 ion-text.color-magenta {
 	color: var(--magenta);
 }
+ion-item.color-magenta ion-toggle {
+	--handle-background-checked: var(--magenta);
+	--track-background-checked: var(--ion-color-light);
+}
 ion-item.dim ion-text.color-fg-magenta {
 	color: var(--magenta-fg-dim);
 }
@@ -706,6 +745,10 @@ ion-icon.color-pink,
 ion-text.color-pink {
 	color: var(--pink);
 }
+ion-item.color-pink ion-toggle {
+	--handle-background-checked: var(--pink);
+	--track-background-checked: var(--ion-color-light);
+}
 ion-item.dim ion-text.color-fg-pink {
 	color: var(--pink-fg-dim);
 }
@@ -753,4 +796,80 @@ ion-icon.color-pink-magenta {
 	color: var(--pink);
 	background: var(--magenta);
 	border-radius: 0.5rem;
+}
+
+/* Bookmark HTML */
+
+div.basicContent.bookmarks ion-list {
+	padding-bottom: 0;
+}
+div.basicContent.bookmarks ion-list ion-item.link {
+	position: relative;
+}
+div.basicContent.bookmarks ion-list ion-item.link ion-label {
+	color: var(--ion-color-primary);
+	cursor: pointer;
+}
+div.basicContent.bookmarks ion-list ion-item ion-icon[slot=start] {
+	margin-inline-end: 1rem;
+}
+div.basicContent.bookmarks.importExport {
+	padding-inline: 1rem;
+}
+div.basicContent.bookmarks.importExport div.block {
+	background-color: var(--ion-color-step-50);
+	border-radius: 0.5rem;
+	text-align: center;
+}
+div.basicContent.bookmarks.importExport div.block > * {
+	text-align: center;
+}
+div.basicContent.bookmarks.importExport div.block ion-list {
+	width: min-content;
+	margin: 0 auto;
+	padding-block: 0;
+	margin-bottom: 1rem;
+}
+div.basicContent.bookmarks.importExport div.block ion-list ion-item {
+	--min-height: 1rem;
+	--handle-height: 0.5rem;
+	--border-color: var(--ion-color-step-50);
+	border-radius: 0.5rem;
+	margin-bottom: 0.125rem;
+}
+div.basicContent.bookmarks.importExport div.block ion-list ion-toggle {
+	--handle-height: 0.75rem;
+	--handle-width: 0.75rem;
+	font-size: 0.75rem;
+}
+div.basicContent.bookmarks.importExport div.block ion-list ion-item::part(native) {
+	padding-inline-start: 0.5rem;
+	--border-width: 0;
+	--inner-padding-end: 0.5rem;
+}
+div.basicContent.bookmarks.importExport div.block ion-list ion-toggle::part(label) {
+	margin-block: 0.25rem;
+	margin-inline-end: 0.5rem;
+}
+div.basicContent.bookmarks.importExport div.block ion-list ion-toggle::part(track) {
+	width: 1.5rem;
+	height: 0.75rem;
+}
+div.basicContent.bookmarks.importExport div.block ion-textarea {
+	margin-block: 0.5rem;
+	padding-inline: 1rem;
+	text-align: start;
+}
+div.basicContent.bookmarks.importExport div.block ion-textarea .native-wrapper {
+	background: transparent;
+}
+div.basicContent.bookmarks.importExport div.block ion-button {
+	margin: 0.5rem auto;
+}
+
+ion-modal.importExportBookmarkModal ion-list ion-item.importOption {
+	--background: var(--ion-color-step-100);
+}
+ion-modal.importExportBookmarkModal ion-list ion-item.importOption.unselected {
+	--background: var(--ion-background-color);
 }

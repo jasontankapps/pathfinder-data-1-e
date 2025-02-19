@@ -8,9 +8,8 @@ function isData<T>(value: unknown): asserts value is T[] {}
 isData<NameObject>(fuseIndex);
 isData<string>(index);
 
-const getPageName = (id: string): string => {
-	// Remove initial slash ("/main" => "main")
-	const link = id.slice(1);
+const switchback = (link: string) => {
+	// This matches only the non-fused pages
 	switch (link) {
 		case "":
 			return "Main";
@@ -44,11 +43,33 @@ const getPageName = (id: string): string => {
 			return "Bookmarks (Pink)";
 		case "importexport":
 			return "Import/Export Bookmarks";
+	};
+	return null;
+}
+
+export const doesPageExist = (id: string): boolean => {
+	// Remove initial slash ("/main" => "main")
+	const link = id.slice(1);
+	if(!switchback(link)) {
+		const i = index.indexOf(link);
+		if((i < 0) || (i >= fuseIndex.length)) {
+			return false;
+		}
+	}
+	return true;
+};
+
+const getPageName = (id: string): string => {
+	// Remove initial slash ("/main" => "main")
+	const link = id.slice(1);
+	const maybe = switchback(link);
+	if(maybe) {
+		return maybe;
 	}
 	const i = index.indexOf(link);
 	if(i < 0) {
 		return `Error: [${id}]`;
-	} else if ((i + 1) > fuseIndex.length) {
+	} else if (i >= fuseIndex.length) {
 		return `Error: [${i}] [${id}]`;
 	}
 	return fuseIndex[i].name;

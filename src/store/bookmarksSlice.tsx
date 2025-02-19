@@ -5,7 +5,7 @@ export type Color = "red" | "orange" | "yellow" | "chartreuse" | "green" | "cyan
 
 type BookmarkDB = { [key: string]: Color[] }
 
-interface BookmarkGroup {
+export interface BookmarkGroup {
 	color: Color
 	title: string
 	contents: [string, string][]

@@ -1,5 +1,9 @@
 /* Global stuff */
 
+ion-toast {
+	--width: max-content;
+}
+
 .capitalize {
 	text-transform: capitalize;
 }
@@ -806,20 +810,4 @@ div.featsTreePage section > div.leaf:first-child > div.coparents > strong {
 }
 *[id] > div.leafName a {
 	transition: color 0.5s ease-in 2.5s;
-}
-
-/* Bookmarks */
-
-div.basicContent.bookmarks ion-list {
-	padding-bottom: 0;
-}
-div.basicContent.bookmarks ion-list ion-item.link {
-	position: relative;
-}
-div.basicContent.bookmarks ion-list ion-item.link ion-label {
-	color: var(--ion-color-primary);
-	cursor: pointer;
-}
-div.basicContent.bookmarks ion-list ion-item ion-icon[slot=start] {
-	margin-inline-end: 1rem;
 }
