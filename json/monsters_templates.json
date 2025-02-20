@@ -1553,7 +1553,7 @@
 			"",
 			"**Caustic Mist:** A poisonous miasma emanates from the energized golem, afflicting those within range each round with a deadly toxin that rapidly destroys flesh, muscle, and organs alike.",
 			"",
-			">**Poison (Ex):** Aura-inhaled; save Fort; frequency 1/round for 6 rounds; effect 1 Str, 1 Dex, and 1 Con damage; cure 2 saves.",
+			">**Poison (Ex):** Aura-inhaled; *save* Fort; *frequency* 1/round for 6 rounds; *effect* 1 Str, 1 Dex, and 1 Con damage; *cure* 2 saves.",
 			"",
 			"**Immolation:** The extreme heat surrounding the energized golem causes each creature and unattended object within range to catch fire unless it succeeds at a Reflex save. Each affected creature or item takes an additional amount of fire damage equal to the number of damage dice for the energized golem's elemental aura immediately and each round thereafter as long as it remains within the aura. A creature or object that has caught on fire but moves outside of the aura instead takes 1d6 points of fire damage each round and can attempt another Reflex save each round to extinguish the flames.",
 			"",
@@ -2383,13 +2383,13 @@
 			"",
 			"**Poison Spore Cloud (Ex):** Once per day, a fungal creature can release a choking cloud of spores in a 15-foot-radius spread that lingers in the air for 10 rounds. This cloud functions as an inhaled poison. Any breathing creature in the cloud must succeed at a Fortitude save or inhale the spores. A creature that remains in the area of the spore cloud must continue to attempt Fortitude saves against its effects. Multiple spore clouds from multiple fungal creatures require multiple saves from any creature in an area where the clouds overlap.",
 			"",
-			"**Fungal Spores:** Poison inhaled; save Fort DC 10 + 1/2 the fungal creature's racial Hit Dice + the fungal creature's Con modifier; frequency 1/round for 6 rounds; effect 1d2 Con damage and fatigued for 1 minute; cure 2 saves.",
+			"**Fungal Spores:** Poison inhaled; *save* Fort DC 10 + 1/2 the fungal creature's racial Hit Dice + the fungal creature's Con modifier; *frequency* 1/round for 6 rounds; *effect* 1d2 Con damage and fatigued for 1 minute; *cure* 2 saves.",
 			"",
 			"**Poisonous Blood (Ex):** A fungal creature's blood and flesh are ingested poisons. Any creature that makes a bite attack against a fungal creature, swallows one whole, or otherwise ingests part of one must succeed at a Fortitude save or be afflicted by the poison.",
 			"",
 			"A fungal creature can drain its own blood to procure an ingested poison that functions as described above. However, its blood has a distinctive and largely unwelcome smell and taste, so most intelligent creatures would refuse to eat food tainted with it unless the taste was thoroughly disguised (which requires a successful DC 15 Profession [cook] check). The fungal creature must deal at least 1 point of damage to itself to get a full dose of poison, and the drawn blood (or amputated flesh) retains its poisonous nature for only 24 hours unless additional living fungal blood is mixed into it.",
 			"",
-			"**Fungal Blood or Flesh:** Poisoningested; save Fort DC 10 + 1/2 the fungal creature's racial Hit Dice + the fungal creature's Con modifier; frequency 1/minute for 6 minutes; effect 1 Str damage, 1 Dex damage, and nauseated for 1 minute; cure 2 saves.",
+			"**Fungal Blood or Flesh:** Poisoningested; *save* Fort DC 10 + 1/2 the fungal creature's racial Hit Dice + the fungal creature's Con modifier; *frequency* 1/minute for 6 minutes; *effect* 1 Str damage, 1 Dex damage, and nauseated for 1 minute; *cure* 2 saves.",
 			"",
 			"**Special Qualities:** A fungal creature gains the following.",
 			"",
@@ -2504,9 +2504,9 @@
 			"",
 			"Ghoulish creatures have succumbed to ghoul fever and transformed into cannibalistic undead versions of their previous selves.",
 			"",
-			"**Quick Rules:** Counts as undead; darkvision 60 ft.; undead immunities; +1 to AC; +1 on rolls based on Str and Cha; two claw attacks that deal each 1d4 points of damage (for Medium creatures) plus paralysis and one bite attack that deals 1d6 points of damage (for Medium creatures) plus paralysis and disease; disease (Ghoul Fever: Bite-injury; save Fort DC = 10 + 1/2 HD + Cha modifier; onset 1 day; frequency 1/day; effect 1d3 points of Con damage and 1d3 points of Dex damage; cure 2 consecutive saves); paralysis (1d4+1 rounds, DC = 10 + 1/2 HD + Cha modifier, elves are immune).",
+			"**Quick Rules:** Counts as undead; darkvision 60 ft.; undead immunities; +1 to AC; +1 on rolls based on Str and Cha; two claw attacks that deal each 1d4 points of damage (for Medium creatures) plus paralysis and one bite attack that deals 1d6 points of damage (for Medium creatures) plus paralysis and disease; disease (Ghoul Fever: Bite-injury; *save* Fort DC = 10 + 1/2 HD + Cha modifier; *onset* 1 day; *frequency* 1/day; *effect* 1d3 points of Con damage and 1d3 points of Dex damage; *cure* 2 consecutive saves); paralysis (1d4+1 rounds, DC = 10 + 1/2 HD + Cha modifier, elves are immune).",
 			"",
-			"**Rebuild Rules:** **Type** change to undead; **Senses** darkvision 60 ft.; **AC** natural armor bonus increases by 1; **Melee** two claw attacks that each deal 1d4 points of damage (for Medium creatures) plus paralysis and one bite attack that deals 1d6 points of damage (for Medium creatures) plus paralysis and disease; **Special Attacks** disease (Ghoul Fever: Bite-injury; save Fort DC = 10 + 1/2 HD + Cha modifier; onset 1 day; frequency 1/day; effect 1d3 points of Con damage and 1d3 points of Dex damage; cure 2 consecutive saves), paralysis (1d4+1 rounds, DC = 10 + 1/2 HD + Cha modifier, elves are immune); **Ability Scores** +2 Str, +2 Cha."
+			"**Rebuild Rules:** **Type** change to undead; **Senses** darkvision 60 ft.; **AC** natural armor bonus increases by 1; **Melee** two claw attacks that each deal 1d4 points of damage (for Medium creatures) plus paralysis and one bite attack that deals 1d6 points of damage (for Medium creatures) plus paralysis and disease; **Special Attacks** disease (Ghoul Fever: Bite-injury; *save* Fort DC = 10 + 1/2 HD + Cha modifier; *onset* 1 day; *frequency* 1/day; *effect* 1d3 points of Con damage and 1d3 points of Dex damage; *cure* 2 consecutive saves), paralysis (1d4+1 rounds, DC = 10 + 1/2 HD + Cha modifier, elves are immune); **Ability Scores** +2 Str, +2 Cha."
 		]
 	},
 	"giant": {

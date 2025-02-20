@@ -396,7 +396,7 @@
 			"",
 			"The character channels the power of a {monster/cairn linnorm}. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of decay (Will negates). A character must be at least 8th level to select this rage power.",
 			"",
-			"**Curse of Decay:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target takes 1 point of Con damage per day and ages at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)."
+			"**Curse of Decay:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target takes 1 point of Con damage per day and ages at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)."
 		]
 	},
 	"linnorm_death_curse_cairn": { "copyof": "cairn_linnorm_death_curse" },
@@ -408,7 +408,7 @@
 			"",
 			"The character channels the power of a {monster/crag linnorm}. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of fire (Will negates). A character must be at least 4th level to select this rage power.",
 			"",
-			"**Curse of Fire:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to fire."
+			"**Curse of Fire:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target gains vulnerability to fire."
 		]
 	},
 	"linnorm_death_curse_crag": { "copyof": "crag_linnorm_death_curse" },
@@ -420,7 +420,7 @@
 			"",
 			"The character channels the power of a {monster/fjord linnorm}. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of drowning (Will negates). A character must be at least 4th level to select this rage power.",
 			"",
-			"**Curse of Drowning:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is sickened whenever it holds its breath."
+			"**Curse of Drowning:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is sickened whenever it holds its breath."
 		]
 	},
 	"linnorm_death_curse_fjord": { "copyof": "fjord_linnorm_death_curse" },
@@ -432,7 +432,7 @@
 			"",
 			"The character channels the power of an {monster/ice linnorm}. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed, the attacker suffers the curse of frost. A character must be at least 4th level to select this rage power.",
 			"",
-			"**Curse of Frost:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to cold."
+			"**Curse of Frost:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target gains vulnerability to cold."
 		]
 	},
 	"linnorm_death_curse_ice": { "copyof": "ice_linnorm_death_curse" },
@@ -444,7 +444,7 @@
 			"",
 			"The character channels the power of a {monster/taiga linnorm}. The character's melee attacks deal an additional 1 point of electricity damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of electricity (Will negates). A character must be at least 4th level to select this rage power.",
 			"",
-			"**Curse of Electricity:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to electricity."
+			"**Curse of Electricity:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target gains vulnerability to electricity."
 		]
 	},
 	"linnorm_death_curse_taiga": { "copyof": "taiga_linnorm_death_curse" },
@@ -456,7 +456,7 @@
 			"",
 			"The character channels the power of a {monster/tarn linnorm}. The character's melee attacks deal an additional 1 point of acid damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of death (Will negates). A character must be at least 4th level to select this rage power.",
 			"",
-			"**Curse of Death:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target is no longer affected by healing spells and can't heal damage naturally by resting."
+			"**Curse of Death:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target is no longer affected by healing spells and can't heal damage naturally by resting."
 		]
 	},
 	"linnorm_death_curse_tarn": { "copyof": "tarn_linnorm_death_curse" },
@@ -468,7 +468,7 @@
 			"",
 			"The character channels the power of a {monster/tor linnorm}. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the curse of boiling blood (Will negates). A character must be at least 8th level to select this rage power.",
 			"",
-			"**Curse of Boiling Blood:** save Will DC 10 + 1/2 character's level + character's Charisma bonus; effect target gains vulnerability to fire and is permanently staggered from the pain of its boiling blood (this is a pain effect)."
+			"**Curse of Boiling Blood:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target gains vulnerability to fire and is permanently staggered from the pain of its boiling blood (this is a pain effect)."
 		]
 	},
 	"linnorm_death_curse_tor": { "copyof": "tor_linnorm_death_curse" },

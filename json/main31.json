@@ -1038,7 +1038,7 @@
 					[ "{spell/Blade Snare}", 3, "abjuration", null, null, "Create an invisible snare to trap weapons.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Blink}", 3, "transmutation", null, null, "You randomly vanish and reappear for 1 round per level.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Bloody Arrows}", 3, "necromancy", null, null, "Enhance ranged weaponry to deal bleed damage.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Bone Flense}", 3, "transmutation", null, null, "Cause a target's bones to erupt in sharp, jagged spurs, inflicting bleed and sickened", [ 1, "" ], [ 1, "" ], [ 0, "M/F" ], [ 1, "" ], [ 1, "" ], [ 0, "M/F" ], [ 1, "" ] ],
+					[ "{spell/Bone Flense}", 3, "transmutation", null, null, "Cause a target's bones to erupt in sharp, jagged spurs, inflicting bleed and sickened", [ 1, "" ], [ 1, "" ], [ 0, "M/F" ], [ 1, "" ], [ 1, "" ], [ 0, "M/F" ] ],
 					[ "{spell/Burst of Speed}", 3, "transmutation", null, null, "You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Caustic Safeguard}", 3, "abjuration", null, "acid", "Imbue an object with an acidic protective ward.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Channel Vigor}", 3, "transmutation", null, null, "Focus your energy into a specific part of your body, giving you various enhancements.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

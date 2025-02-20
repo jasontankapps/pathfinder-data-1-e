@@ -15,7 +15,7 @@
 			"{SOURCE Bestiary 5/291}  ",
 			"The creature can inflict a curse upon its enemies. The effects, including its save, frequency, and cure, are included in the creature's description. If a curse allows a saving throw, it is usually a Will save (DC = 10 + 1/2 the cursing creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). Curses can be removed through {spell/remove curse} and similar effects.",
 			"",
-			"**Format:** Curse Name (Su) Slam-contact; save Will DC 14, frequency 1/day, effect 1d4 Str drain  ",
+			"**Format:** Curse Name (Su) Slam-contact; *save* Will DC 14; *frequency* 1/day; *effect* 1d4 Str drain  ",
 			"**Location:** Special Attacks and individual attacks."
 		]
 	},
@@ -1582,7 +1582,7 @@
 			"{SOURCE Bestiary 5/292}  ",
 			"A creature with this ability causes disease in those it contacts. The effects of the disease, including its save, frequency, and cure, are included in the creature's description. The saving throw to negate the disease is usually a Fortitude save (DC = 10 + 1/2 infecting creature's racial HD + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text). Diseases can be removed through {spell/remove disease} and similar effects.",
 			"",
-			"**Format:** Disease Name (Ex or Su) Bite-injury; save Fort DC 15, onset 1d3 days, frequency 1/day, effect 1 Con damage, cure 2 consecutive saves  ",
+			"**Format:** Disease Name (Ex or Su) Bite-injury; *save* Fort DC 15, onset 1d3 days; *frequency* 1/day; *effect* 1 Con damage; *cure* 2 consecutive saves  ",
 			"**Location:** Special Attacks and individual attacks."
 		]
 	},
@@ -1848,7 +1848,7 @@
 			"{SOURCE Bestiary 5/297}  ",
 			"A creature with this ability can poison those it attacks. The effects of the poison, including its save, frequency, and cure, are included in the creature's description. The saving throw to resist a poison is usually a Fortitude save (DC = 10 + 1/2 poisoning creature's racial HD + that creature's Constitution modifier; the exact DC is given in the creature's descriptive text). Poisons can be removed through {spell/neutralize poison} and similar effects.",
 			"",
-			"**Format:** Poison Name (Ex) Sting-injury; save Fort DC 22, frequency 1/round for 6 rounds, effect 1d4 Con damage, cure 2 consecutive saves  ",
+			"**Format:** Poison Name (Ex) Sting-injury; *save* Fort DC 22; *frequency* 1/round for 6 rounds; *effect* 1d4 Con damage; *cure* 2 consecutive saves  ",
 			"**Location:** Special Attacks and individual attacks."
 		]
 	},

@@ -421,6 +421,28 @@
 			"- {monster/Ragathiel}"
 		]
 	},
+	"eurypterid": {
+		"name": "Eurypterid",
+		"sources": [
+			"Pathfinder #37: Souls for Smuggler's Shiv",
+			"Bestiary 6"
+		],
+		"description": [
+			"## Eurypterid",
+			"",
+			"{SOURCE Bestiary 6;Pathfinder #37: Souls for Smuggler's Shiv}",
+			"",
+			"This family represents a group of similar monsters. No official description has been provided.",
+			"",
+			"### Members of This Family:",
+			"",
+			"- {monster/Bluetip Eurypterid}",
+			"- {monster/Common Eurypterid}",
+			"- {monster/Ochre Eurypterid}",
+			"- {monster/Spiny Eurypterid}",
+			"- {monster/Spitting Eurypterid}"
+		]
+	},
 	"familiar": {
 		"name": "Familiar",
 		"sources": [ "Pathfinder RPG Bestiary" ],

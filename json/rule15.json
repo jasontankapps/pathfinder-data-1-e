@@ -602,7 +602,7 @@
 			"### Id Moss",
 			"",
 			"**Type** poison, ingested; **Save** Fortitude DC 14  ",
-			"**Track** Intelligence; Onset 10 minutes; **Frequency** 1/minute for 6 minutes  ",
+			"**Track** Intelligence; **Onset** 10 minutes; **Frequency** 1/minute for 6 minutes  ",
 			"**Cure** 1 save",
 			"**Original Poison** {eq-poison/Id Moss}",
 			"",

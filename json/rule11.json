@@ -2588,13 +2588,13 @@
 			"",
 			"*Type* disease, variable; *Save* variable  ",
 			"*Onse*t 1 day; *Frequency* 1/day  ",
-			"*Effect* -2 penalty to Con and Str, target cannot naturally heal ability damage caused by the drug that caused this addiction; Cure 3 consecutive saves",
+			"*Effect* -2 penalty to Con and Str, target cannot naturally heal ability damage caused by the drug that caused this addiction; **Cure** 3 consecutive saves",
 			"",
 			"### Severe Addiction",
 			"",
 			"*Type* disease, variable; *Save* variable  ",
 			"*Onset* 1 day; *Frequency* 1/day  ",
-			"*Effect* -2 penalty to Dex, Con, Str, and Wis; target cannot naturally heal ability damage caused by the drug that caused this addiction; Cure 3 consecutive saves"
+			"*Effect* -2 penalty to Dex, Con, Str, and Wis; target cannot naturally heal ability damage caused by the drug that caused this addiction; **Cure** 3 consecutive saves"
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -3580,8 +3580,8 @@
 			">",
 			">#### Poison Oak (full-body contact, smoke inhallation)",
 			">",
-			">**Type** poison, contact or inhaled; Save Fortitude DC 16  ",
-			">**Onset** 1 hour; Frequency 1/hour  ",
+			">**Type** poison, contact or inhaled; **Save** Fortitude DC 16  ",
+			">**Onset** 1 hour; **Frequency** 1/hour  ",
 			">**Initial Effect** 2d4 Dex damage and 1d4 Con damage, creature sickened until damage is healed; **Secondary Effect** 1 Con damage; **Cure** 1 save",
 			"",
 			"### Rot Grubs (CR 4)",

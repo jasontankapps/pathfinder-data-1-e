@@ -5,9 +5,9 @@ import { gfmHeadingId } from "marked-gfm-heading-id";
 import { createDirectives } from 'marked-directive';
 import basic_data_groups from './basic_data_groups.js';
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
-import featTreeData from './json/feat_tree_data.json' assert {type: 'json'};
-import featLinks from './src/json/_data__linked-index.json' assert {type: 'json'};
-import featNames from './src/json/_data__fuse-index.json' assert {type: 'json'};
+import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
+import featLinks from './src/json/_data__linked-index.json' with {type: 'json'};
+import featNames from './src/json/_data__fuse-index.json' with {type: 'json'};
 
 const alternateBlocks = {
 	level: "block",

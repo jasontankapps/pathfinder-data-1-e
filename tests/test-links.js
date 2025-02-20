@@ -1,6 +1,6 @@
 import { basic_data_by_link } from '../basic_data_groups.js';
 import checkForEncodedLink from './checkForEncodedLink.js';
-import featTreeData from '../json/feat_tree_data.json' assert {type: 'json'};
+import featTreeData from '../json/feat_tree_data.json' with {type: 'json'};
 
 const {
 	source: allsources,
