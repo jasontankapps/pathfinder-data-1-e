@@ -10,6 +10,7 @@
 
 # production
 /dist
+/android/app/release/baselineProfiles/*
 
 # misc
 .DS_Store

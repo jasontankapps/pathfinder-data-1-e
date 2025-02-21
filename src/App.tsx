@@ -1,6 +1,8 @@
-import { FC, Suspense, lazy } from 'react';
+import { FC, Suspense, lazy, useState } from 'react';
 import { IonApp, IonContent, IonSplitPane, setupIonicReact } from '@ionic/react';
 import { Route, Switch } from 'wouter';
+import { EdgeToEdge } from '@capawesome/capacitor-android-edge-to-edge-support';
+import { StatusBar, Style } from '@capacitor/status-bar';
 
 import Menu from './components/Menu';
 
@@ -118,6 +120,14 @@ const TrapPage = lazy(() => import("./pages/TrapPage"));
 const UMRPage = lazy(() => import("./pages/UMRPage"));
 
 const App: FC = () => {
+	const [hasSet, setHasSet] = useState(false);
+
+	if (!hasSet) {
+		EdgeToEdge.setBackgroundColor({ color: '#000000' });
+		StatusBar.setStyle({ style: Style.Dark });
+		setHasSet(true);
+	}
+
 	return (
 		<IonApp>
 			<IonSplitPane contentId="main">
