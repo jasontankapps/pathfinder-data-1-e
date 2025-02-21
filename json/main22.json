@@ -1390,7 +1390,7 @@
 					[ "{spell/Hairline Fractures}", 1, null, "earth", "Create hairline fractures in earth and stone." ],
 					[ "{spell/Half-Blood Extraction}", 5, null, null, "Transform a half-orc into a full-blooded orc." ],
 					[ "{spell/Hammer of Mending}", [ 5.381, "5, 6" ], null, null, "Release a wave of energy to repair objects and constructs." ],
-					[ "{spell/Handy Grapnel}", 1, null, null, "Transform a ropelike object into a retracting grapple." ],
+					[ "{spell/Handy Grapnel}", 1, null, null, "Transform a rope-like object into a retracting grapple." ],
 					[ "{spell/Hardening}", 6, null, null, "Increase the hardness of materials." ],
 					[ "{spell/Harmless Form}", 2, "polymorph", null, "Transform the target into a \"harmless\" animal." ],
 					[ "{spell/Haste}", [ 2.881, "2, 3" ], null, null, "One creature/level moves faster, receives +1 on attack rolls, AC, and Reflex saves." ],

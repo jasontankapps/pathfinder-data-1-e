@@ -1709,7 +1709,7 @@
 					[ "{spell/Goodberry}", 1, "transmutation", null, null, "2d4 berries each cure 1 hp (max 8 hp/24 hours).", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Gravity Bow}", 1, "transmutation", null, null, "Arrows do damage as though one size category bigger.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Hairline Fractures}", 1, "transmutation", null, "earth", "Create hairline fractures in earth and stone.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Handy Grapnel}", 1, "transmutation", null, null, "Transform a ropelike object into a retracting grapple.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Handy Grapnel}", 1, "transmutation", null, null, "Transform a rope-like object into a retracting grapple.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Hanspur's Flotsam Vessel}", 1, "conjuration", "creation", null, "Assemble a sturdy raft and oars from driftwood, reeds, and other river debris.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Heightened Awareness}", 1, "divination", null, null, "Your recall and ability to process information improve.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Hibernate}", 1, "necromancy", null, null, "Place a willing subject into a cataleptic state.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],

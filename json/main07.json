@@ -1246,7 +1246,7 @@
 					[ "{spell/Hallucinogenic Smoke}", 4, "conjuration", "Exhale a cone of smoke which disorients those caught inside. It has a side effect of improving the effects of augury when cast within.", [ 1, "" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Halt Undead}", 3, "necromancy", "Immobilizes undead for 1 round/level.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Hammer of Mending}", [ 5.381, "5, 6" ], "transmutation", "Release a wave of energy to repair objects and constructs.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 0, "F" ], [ 1, "" ] ],
-					[ "{spell/Handy Grapnel}", 1, "transmutation", "Transform a ropelike object into a retracting grapple.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Handy Grapnel}", 1, "transmutation", "Transform a rope-like object into a retracting grapple.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Hanspur's Flotsam Vessel}", [ 1.501, "1, 2" ], "conjuration", "Assemble a sturdy raft and oars from driftwood, reeds, and other river debris.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Hardening}", 6, "transmutation", "Increase the hardness of materials.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Harm}", [ 6.251, "6, 7" ], "necromancy", "Deals 10 points/level damage to target.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

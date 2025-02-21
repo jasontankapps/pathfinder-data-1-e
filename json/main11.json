@@ -274,7 +274,7 @@
 					[ "{spell/Gravity Bow}", "transmutation", null, null, "Arrows do damage as though one size category bigger.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Grease}", "conjuration", "creation", null, "Makes 10-ft. square or one object slippery.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Guardian Armor}", "conjuration", "teleportation", null, "Teleport your armor onto an ally in range", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ],
-					[ "{spell/Handy Grapnel}", "transmutation", null, null, "Transform a ropelike object into a retracting grapple.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Handy Grapnel}", "transmutation", null, null, "Transform a rope-like object into a retracting grapple.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Heightened Awareness}", "divination", null, null, "Your recall and ability to process information improve.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Hide Bruises}", "illusion", "glamer", null, "Disguise a creature's injuries, making them more difficult to heal", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Hide Weapon}", "transmutation", null, null, "Hide a weapon within your own arm.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

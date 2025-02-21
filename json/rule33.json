@@ -121,7 +121,7 @@
 			"",
 			"[^1]: {magic-enh/Brilliant energy} weapons bypass any DR provided by armor. In addition, DR from armor is halved if a creature is grappled or entangled, and does not apply when a creature is helpless or pinned.",
 			"[^2]: A creature that already has DR/- or DR/epic increases its DR by an amount equal to its natural armor bonus.",
-			"[^3]: Elementals, oozes, oozelike creatures, and any creature with the amorphous defensive ability."
+			"[^3]: Elementals, oozes, ooze-like creatures, and any creature with the amorphous defensive ability."
 		],
 		"parent_topics": [
 			"optional_combat_changes",

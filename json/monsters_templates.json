@@ -297,7 +297,7 @@
 			"**Shark Lord (Shark):** Shark lords have black eyes, pale skin, sharp teeth, and little to no body hair. They gain the following additional ability.  ",
 			"**Brutal Jaws (Ex):** A shark lord's bite attack causes bleed (1d6).",
 			"",
-			"**Serpent Lord (Snake):** Serpent lords tend to have unusual skin colors, often with stripes or other patterns), snakelike eyes, and forked tongues. Serpent lords gain the following ability.  ",
+			"**Serpent Lord (Snake):** Serpent lords tend to have unusual skin colors, often with stripes or other patterns), snake-like eyes, and forked tongues. Serpent lords gain the following ability.  ",
 			"**Poison Immunity (Ex):** Serpent lords are immune to poison."
 		]
 	},
@@ -2542,7 +2542,7 @@
 			"",
 			"Blessed with the blood of greater giants, giantkin ogres are larger and stronger than their normal ogre relatives and gain abilities from their giant progenitors.",
 			"",
-			"**Rebuild Rules:** **Hit points** +10 hit points; **Saving Throws** +1 racial bonus to all saving throws; **Ability Scores** +4 Strength, +4 Constitution; **Special Attacks** rock throwing (1d6, 90 ft.), Special see table.",
+			"**Rebuild Rules:** **Hit points** +10 hit points; **Saving Throws** +1 racial bonus to all saving throws; **Ability Scores** +4 Strength, +4 Constitution; **Special Attacks** {umr/rock throwing} (1d6, 90 ft.), Special see table.",
 			"",
 			"| Crossbreed | Special Abilities |",
 			"| --- | --- |",
@@ -2567,7 +2567,7 @@
 			"",
 			"**Quick Rules:** +1 on all rolls based on Str or Con, +1 hp/HD, -1 penalty on all rolls based on Dex, -2 penalty on all rolls based on Cha, gains {feat/Diehard} as a bonus feat.",
 			"",
-			"**Rebuild Rules:** **AC** increase natural armor by +3; **Speed** reduce base speed by 10 ft. (cannot be lower than 10 ft.); **Defensive Abilities** gains the ferocity ability; **Ability Scores** +2 Str, +2 Con, -2 Dex, -4 Cha."
+			"**Rebuild Rules:** **AC** increase natural armor by +3; **Speed** reduce base speed by 10 ft. (cannot be lower than 10 ft.); **Defensive Abilities** gains the {umr/ferocity} ability; **Ability Scores** +2 Str, +2 Con, -2 Dex, -4 Cha."
 		]
 	},
 	"granule_construct_host": {
