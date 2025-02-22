@@ -107,7 +107,7 @@
 			"**Aura** strong transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 10 lbs.",
 			"",
-			"Agrimmosh appears to be a simple stone blacksmith's hammer engraved with Minderhal's holy symbol. It functions as a +2 impact warhammer that automatically resizes itself to match the size of its wielder. Once per day as a full-round action, the wielder of Agrimmosh can use the hammer to cast heightened enlarge person (Fortitude DC 23 negates). This effect lasts for 20 minutes. Whenever the wielder of Agrimmosh confirms a critical hit against a creature of the humanoid type, the target creature must succeed at a DC 23 Fortitude save or shrink by one size category, as by heightened reduce person. This effect lasts for 20 minutes.",
+			"Agrimmosh appears to be a simple stone blacksmith's hammer engraved with Minderhal's holy symbol. It functions as a +2 impact warhammer that automatically resizes itself to match the size of its wielder. Once per day as a full-round action, the wielder of Agrimmosh can use the hammer to cast {feat/heightened} {spell/enlarge person} (Fortitude DC 23 negates). This effect lasts for 20 minutes. Whenever the wielder of Agrimmosh confirms a critical hit against a creature of the humanoid type, the target creature must succeed at a DC 23 Fortitude save or shrink by one size category, as by {feat/heightened} {spell/reduce person}. This effect lasts for 20 minutes.",
 			"",
 			"In addition, Agrimmosh has other powers that are currently dormant. When the Hammer of Unmaking is struck against Minderhal's Forge in the Cathedral of Minderhal (see Pathfinder Adventure Path #93: Forge of the Giant God), these powers are reawakened, and Agrimmosh gains the following abilities.",
 			"",
@@ -115,8 +115,8 @@
 			"",
 			"Agrimmosh also gains 3 charges, which renew at the beginning of each day. The wielder can expend the listed number of charges to activate one of the following spell-like abilities as a full-round action; expending an extra charge to activate the spell-like ability reduces the casting time to a swift action instead. Regardless, the wielder of Agrimmosh can activate only one of the weapon's spell-like abilities per round. ",
 			"",
-			"- Heightened enlarge person (1 charge, DC 23; this replaces Agrimmosh's 1/day enlarge person ability)",
-			"- Heightened mass enlarge person (2 charges, DC 23)",
+			"- {feat/Heightened} {spell/enlarge person} (1 charge, DC 23; this replaces Agrimmosh's 1/day enlarge person ability)",
+			"- {feat/Heightened} {spell/mass enlarge person} (2 charges, DC 23)",
 			"",
 			"Lastly, Agrimmosh can be used in conjunction with Minderhal's Forge at the Cathedral of Minderhal to resize magic armor and weapons. More details on this ability can be found in Pathfinder Adventure Path #93.",
 			"",
@@ -271,9 +271,9 @@
 			"**Communication** empathy  ",
 			"**Special Purpose** slay all non-Angazhan worshipers  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +21)  ",
-			"*At will* - weird (DC 20)  ",
-			"*1/day* - reincarnate (charau-ka; see description)  ",
-			"*1/year* - reincarnate (dire ape; see description)"
+			"*At will*-weird (DC 20)  ",
+			"*1/day*-reincarnate (charau-ka; see description)  ",
+			"*1/year*-reincarnate (dire ape; see description)"
 		]
 	},
 	"twin_spheres": {

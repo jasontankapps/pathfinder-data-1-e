@@ -797,7 +797,7 @@
 			"**Melee** bite +25 (2d6+6 plus 1d4 Cha drain), 2 talons +25 (1d6+6 plus {umr/grab} and popobala fever), 2 wings +20 (1d6+3)  ",
 			"**Special Attacks** {umr/rend} (2 talons, 2d6+9)  ",
 			"**Spell-Like Abilities** (CL 16th; concentration +22)  ",
-			"*At will*-clairaudience/clairvoyance, ghost sound (DC 16), ventriloquism (DC 17)  ",
+			"*At will*-{spell/clairaudience//clairvoyance}, ghost sound (DC 16), ventriloquism (DC 17)  ",
 			"*3/day*-dominate person (DC 21, can only dominate and control one person at a time), eyebite (DC 22), feeblemind (DC 21), spell turning, suggestion (DC 19), telekinesis (DC 21)  ",
 			"*1/day*-animate objects",
 			"",
@@ -2484,8 +2484,8 @@
 			"**Spell-Like Abilities** (CL 12th; concentration +15)  ",
 			"*At will*-detect undead, stone tell  ",
 			"*5/day*-speak with dead  ",
-			"*3/day*-summon (level 7, 1d4 giant tarantulas 75% or 1d4 spider swarms 100%) Inquisitor  ",
-			"**Spells Known** (CL 12th; concentration +15)  ",
+			"*3/day*-{umr/summon} (level 7, 1d4 giant tarantulas 75% or 1d4 spider swarms 100%)  ",
+			"**Inquisitor Spells Known** (CL 12th; concentration +15)  ",
 			"*4th (3)*-cure critical wounds, divination, freedom of movement, spell immunity  ",
 			"*3rd (5)*-blood biography (DC 16), dimensional anchor, dispel magic, halt undead (DC 16)  ",
 			"*2nd (6)*-confess (DC 15), detect thoughts (DC 15), hold person (DC 15), invisibility, see invisibility  ",
@@ -3739,7 +3739,7 @@
 			"",
 			"**Special Attacks:** A kaenju's tail and claws are considered flaming burst weapons.",
 			"",
-			"**Special Qualities:** All kaenjus' supernatural abilities are based on flame instead of lightning, and have the same effects but deal fire damage instead of electricity damage. Also, instead of a raiju's spell-like abilities, a kaenju can cast produce flame at will, and flaming sphere and quench 3 times per day."
+			"**Special Qualities:** All kaenjus' supernatural abilities are based on flame instead of lightning, and have the same effects but deal fire damage instead of electricity damage. Also, instead of a raiju's spell-like abilities, a kaenju can cast {spell/produce flame} at will, and {spell/flaming sphere} and {spell/quench} 3 times per day."
 		]
 	},
 	"rast": {
