@@ -2628,6 +2628,7 @@
 		]
 	},
 	"still": { "copyof": "still_spell" },
+	"stilled": { "copyof": "still_spell" },
 	"stock_striker_style": {
 		"name": "Stock-Striker Style",
 		"sources": [ "People of the Wastes" ],

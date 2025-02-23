@@ -260,7 +260,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Construct, {feat/Craft Wondrous Item}, {spell/alarm}, {spell/animate objects}, {spell/arcane lock}, {spell/mage's private sanctum}, {spell/veil}; **Cost** 31,500 gp"
+			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, {spell/alarm}, {spell/animate objects}, {spell/arcane lock}, {spell/mage's private sanctum}, {spell/veil}; **Cost** 31,500 gp"
 		]
 	},
 	"howdah_of_leisurely_travel": {
@@ -419,7 +419,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Construct, creator must be caster level 18th, {spell/earthquake}, {spell/geas//quest}, {spell/mage's magnificent mansion}, {spell/wish}; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Construct}, creator must be caster level 18th, {spell/earthquake}, {spell/geas//quest}, {spell/mage's magnificent mansion}, {spell/wish}; **Cost** 35,000 gp"
 		]
 	},
 	"horn_of_blasting_greater": {
@@ -1559,7 +1559,7 @@
 			"**Aura** strong conjuration; **CL** 18th  ",
 			"**Slot** neck; **Weight** -",
 			"",
-			"A necklace of strangulation appears to be a wondrous piece of magical jewelry. When placed on the neck, the necklace immediately tightens, dealing 6 points of damage per round. It cannot be removed by any means short of a limited wish, wish, or miracle, and remains clasped around the victim's throat even after his death. Only when he has decayed to a dry skeleton (after approximately 1 month) does the necklace loosen, ready for another victim.",
+			"A necklace of strangulation appears to be a wondrous piece of magical jewelry. When placed on the neck, the necklace immediately tightens, dealing 6 points of damage per round. It cannot be removed by any means short of a {spell/limited wish}, {spell/wish}, or {spell/miracle}, and remains clasped around the victim's throat even after his death. Only when he has decayed to a dry skeleton (after approximately 1 month) does the necklace loosen, ready for another victim.",
 			"",
 			"### Construction",
 			"",

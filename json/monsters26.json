@@ -119,7 +119,7 @@
 			"",
 			"Although the secret to the creation of aluums is closely guarded by the Pactmasters, near approximations have appeared elsewhere, indicating that some have either reverse-engineered the process or have stolen those secrets from Katapesh. During the creation process, the souls of a dozen slaves are siphoned from their bodies as they die. Fragments of these souls are placed within the inert body of the aluum, giving it its animating force.",
 			"",
-			"**CL** 13th; **Price** 80,000 gp Requirements Craft Construct, geas/quest, hold monster, limited wish, magic jar, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; **Cost** 40,000 gp"
+			"**CL** 13th; **Price** 80,000 gp; **Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/hold monster}, {spell/limited wish}, {spell/magic jar}, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; **Cost** 40,000 gp"
 		]
 	},
 	"amarok": {
@@ -628,7 +628,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 480 ft. (perfect)  ",
-			"**Melee** +5 shock thundering spear +31/+26/+21/+16 (1d8+11/19-20/&times;3 plus 1d6 electricity)  ",
+			"**Melee** +5 {magic-enh/shock} {magic-enh/thundering} spear +31/+26/+21/+16 (1d8+11/19-20/&times;3 plus 1d6 electricity)  ",
 			"**Ranged** thunderstorm blast +32 (20d6+30/19-20 bludgeoning) or electric blast +32 touch (10d6+5/19-20 electricity) or air blast +32 (10d6+20/19-20 half bludgeoning and half electricity)  ",
 			"**Special Attacks** aerokinesis, infusions (chain, cloud, cyclone, extreme range, gusting infusion, pushing infusion, thundering infusion), manifest thunderbolt, wind orchestra  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +30)  ",
@@ -784,7 +784,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 50 ft., fly 100 ft. (good)  ",
-			"**Melee** +2 disrupting warhammer +26/+21/+16 (1d8+14/&times;3 plus stun) or slam +23 (1d8+12)  ",
+			"**Melee** +2 {magic-enh/disruption} warhammer +26/+21/+16 (1d8+14/&times;3 plus stun) or slam +23 (1d8+12)  ",
 			"**Spell-Like Abilities** (CL 13th)  ",
 			"*At will*-{spell/aid}, {spell/continual flame}, {spell/detect evil}, {spell/discern lies} (DC 20), {spell/dispel evil} (DC 21), {spell/dispel magic}, {spell/holy aura} (DC 24), {spell/holy smite} (DC 20), {spell/holy word} (DC 23), {spell/invisibility} (self only), {spell/plane shift} (DC 23), {spell/remove curse}, {spell/remove disease}, {spell/remove fear}  ",
 			"*7/day*-{spell/cure light wounds}, {spell/see invisibility}  ",
@@ -849,7 +849,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft., fly 60 ft. (good)  ",
-			"**Melee** +1 flaming heavy mace +14/+9 (1d8+4 plus 1d6 fire)  ",
+			"**Melee** +1 {magic-enh/flaming} heavy mace +14/+9 (1d8+4 plus 1d6 fire)  ",
 			"**Special Attacks** brand of the impenitent  ",
 			"**Spell-Like Abilities** (CL 10th; concentration +14)  ",
 			"*Constant*-{spell/detect evil}  ",
@@ -1119,8 +1119,8 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 50 ft., fly 120 ft. (good)  ",
-			"**Melee** +1 holy merciful halberd +36/+31/+26/+21 (2d8+16/19-20/&times;3)  ",
-			"**Ranged** +1 holy merciful composite longbow +33/+28/+23/+18 (2d6+11/&times;3)  ",
+			"**Melee** +1 {magic-enh/holy} {magic-enh/merciful} halberd +36/+31/+26/+21 (2d8+16/19-20/&times;3)  ",
+			"**Ranged** +1 {magic-enh/holy} {magic-enh/merciful} composite longbow +33/+28/+23/+18 (2d6+11/&times;3)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +27)  ",
 			"*Constant*-{spell/detect evil}, {spell/detect snares and pits}, {spell/discern lies} (DC 21), {spell/true seeing}  ",
@@ -1520,7 +1520,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft., fly 60 ft. (good)  ",
-			"**Melee** +1 flaming greatsword +17/+12/+7 (2d6+7/19-20 plus 1d6 fire)  ",
+			"**Melee** +1 {magic-enh/flaming} greatsword +17/+12/+7 (2d6+7/19-20 plus 1d6 fire)  ",
 			"**Spell-Like Abilities** (CL 8th; concentration +12)  ",
 			"*Constant*-{spell/detect evil}  ",
 			"*At will*-{spell/aid}, {spell/discern lies} (DC 18), {spell/dispel evil} (DC 19), {spell/dispel magic}, {spell/holy smite} (DC 18), {spell/invisibility} (self only), {spell/plane shift} (DC 19), {spell/remove curse}, {spell/remove disease}, {spell/remove fear}  ",
@@ -1582,8 +1582,8 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft., fly 60 ft. (good)  ",
-			"**Melee** +4 axiomatic spiked gauntlet +28/+23/+18/+13 (1d6+12/19-20), +4 axiomatic spiked gauntlet +28/+23/+18 (1d6+8/19-20)  ",
-			"**Ranged** 4 +4 axiomatic darts +27 (1d6+12)  ",
+			"**Melee** +4 {magic-enh/axiomatic} spiked gauntlet +28/+23/+18/+13 (1d6+12/19-20), +4 {magic-enh/axiomatic} spiked gauntlet +28/+23/+18 (1d6+8/19-20)  ",
+			"**Ranged** 4 +4 {magic-enh/axiomatic} darts +27 (1d6+12)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** nailed fists, soul reflection  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +25)  ",
@@ -2156,7 +2156,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 90 ft. (good)  ",
-			"**Melee** +3 holy greatsword +27/+22/+17 (3d6+15/19-20) or slam +24 (2d8+12)  ",
+			"**Melee** +3 {magic-enh/holy} greatsword +27/+22/+17 (3d6+15/19-20) or slam +24 (2d8+12)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Spell-Like Abilities** (CL 16th)  ",
 			"*Constant*-{spell/detect evil}, {spell/detect snares and pits}, {spell/discern lies} (DC 20), {spell/true seeing}  ",
@@ -2225,7 +2225,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 50 ft., fly 150 ft. (good); 35 ft., fly 100 ft. (good) in armor  ",
-			"**Melee** +5 dancing greatsword +35/+30/+25/+20 (3d6+18) or slam +30 (2d8+13)  ",
+			"**Melee** +5 {magic-enh/dancing} greatsword +35/+30/+25/+20 (3d6+18) or slam +30 (2d8+13)  ",
 			"**Ranged** +5 composite longbow (+9 Str bonus) +31/+26/+21/+16 (2d6+14 plus slaying arrow)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Spell-Like Abilities** (CL 20th)  ",
@@ -2343,7 +2343,7 @@
 			"",
 			"An angelic guardian is made from 2,000 pounds of metal that is treated with unguents and ointments worth 2,000 gp.",
 			"",
-			"Angelic Guardian; **CL** 9th; **Price** 22,000 gp Requirements Craft Construct, mage armor, scorching ray, creator must be caster level 10th; Skill Craft (sculpture) or Knowledge (engineering) DC 15; **Cost** 12,000 gp"
+			"Angelic Guardian; **CL** 9th; **Price** 22,000 gp Requirements {feat/Craft Construct}, {spell/mage armor}, {spell/scorching ray}, creator must be caster level 10th; Skill Craft (sculpture) or Knowledge (engineering) DC 15; **Cost** 12,000 gp"
 		]
 	},
 	"ataxian": {

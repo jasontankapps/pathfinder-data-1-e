@@ -1829,7 +1829,7 @@
 			"",
 			"**CL** 8th; **Price** 21,000 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest, keen edge, locate creature, creator must be caster level 8th, creation must be done in complete secrecy; Skill Craft (scrimshaw) DC 20; **Cost** 10,875 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/keen edge}, {spell/locate creature}, creator must be caster level 8th, creation must be done in complete secrecy; Skill Craft (scrimshaw) DC 20; **Cost** 10,875 gp"
 		]
 	},
 	"turtle": {
@@ -3490,7 +3490,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft., fly 45 ft. (good)  ",
-			"**Melee** +1 vicious rhoka sword +20/+15/+10 (1d10+7/18-20 plus 2d6), bite +13 (1d6+3), claw +13 (1d4+3) or mwk silver light mace +19/+14/+9 (1d6+6), bite +13 (1d6+3), claw +13 (1d4+3)  ",
+			"**Melee** +1 {magic-enh/vicious} rhoka sword +20/+15/+10 (1d10+7/18-20 plus 2d6), bite +13 (1d6+3), claw +13 (1d4+3) or mwk silver light mace +19/+14/+9 (1d6+6), bite +13 (1d6+3), claw +13 (1d4+3)  ",
 			"**Special Attacks** blessings 9/day, {umr/blood drain} (1 Con), channel negative energy 6/day (DC 23, 4d6), fervor 13/day (4d6), sacred weapon (+3 1d10, 12 rounds/day), smite good, Strength damage  ",
 			"**Spell-Like Abilities** (CL 3rd; concentration +9)  ",
 			"*At will*-{spell/feather fall}  ",
@@ -3851,8 +3851,8 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 100 ft. (perfect)  ",
-			"**Melee** +2 returning spear +23/+18/+13/+8 (1d8+8/&times;3)  ",
-			"**Ranged** +2 returning spear +22 (1d8+6/&times;3)  ",
+			"**Melee** +2 {magic-enh/returning} spear +23/+18/+13/+8 (1d8+8/&times;3)  ",
+			"**Ranged** +2 {magic-enh/returning} spear +22 (1d8+6/&times;3)  ",
 			"**Spell-Like Abilities** (CL 12th; concentration +18)  ",
 			"*Constant*-{spell/deathwatch}, {spell/tongues}  ",
 			"*At will*-{spell/aid}, {spell/death ward}, {spell/gentle repose}, {spell/plane shift} (self and mount only)  ",
@@ -4070,7 +4070,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft.  ",
-			"**Melee** +1 frost longsword +20/+15 (1d8+11/17-20 plus 2d6), slam +13 (1d4+8 plus energy drain)  ",
+			"**Melee** +1 {magic-enh/frost} longsword +20/+15 (1d8+11/17-20 plus 2d6), slam +13 (1d4+8 plus energy drain)  ",
 			"**Special Attacks** blood drain, children of the night, create spawn, dominate (DC 22), {umr/energy drain} (2 levels, DC 22), greater spell combat, improved spell combat, spell combat (-2 attack, +2 concentration, double bonus), spellstrike  ",
 			"**Magus Spells Prepared** (CL 14th; concentration +18)  ",
 			"*5th*-{spell/baleful polymorph} (DC 19), {spell/monstrous physique III}  ",

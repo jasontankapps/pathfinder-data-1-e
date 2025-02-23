@@ -475,7 +475,7 @@
 			"",
 			"**CL** 11th; **Price** 24,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate dead, cat's grace, geas/quest, Irriseni mirror sight, magic jar, sending, creator must be caster level 11th, soul of a living creature that dies or is slain during the creation process; Skill Craft (sculpture) DC 17 or Heal DC 17; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/cat's grace}, {spell/geas//quest}, {spell/Irriseni mirror sight}, {spell/magic jar}, {spell/sending}, creator must be caster level 11th, soul of a living creature that dies or is slain during the creation process; Skill Craft (sculpture) DC 17 or Heal DC 17; **Cost** 12,500 gp"
 		]
 	},
 	"mirror_serpent": {
@@ -2000,7 +2000,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft.  ",
-			"**Melee** adamantine warhammer +16/+11/+6 (1d8+6/&times;3)  ",
+			"**Melee** {eq-material/adamantine} warhammer +16/+11/+6 (1d8+6/&times;3)  ",
 			"**Special Attacks** fatal accident (1/day, 12d6 or 6d6 plus maneuver, DC 21 half)  ",
 			"**Spell-Like Abilities** (CL 17th; concentration +20)  ",
 			"*At will*-{spell/meld into stone}  ",
@@ -3547,7 +3547,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 40 ft. (good)  ",
-			"**Melee** +1 shocking burst scorpion whip +12/+7/+2 (1d6+2 plus 1d6 electricity) or slam +14 (1d6+1)  ",
+			"**Melee** +1 {magic-enh/shocking burst} scorpion whip +12/+7/+2 (1d6+2 plus 1d6 electricity) or slam +14 (1d6+1)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** lifeburst  ",
 			"**Spell-Like Abilities** (CL 9th; concentration +14)  ",

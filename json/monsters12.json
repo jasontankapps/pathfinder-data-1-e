@@ -105,7 +105,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 45 ft. (60 ft. without armor)  ",
-			"**Melee** +3 wounding adamantine greatsword +30/+25/+20 (6d6+27 plus energy drain/19-20) or +5 nullifying adamantine spiked gauntlet +32/+27/+22 (2d6+21 plus energy drain) or +5 unholy adamantine quarterstaff +32/+27/+22 (3d6+29 plus energy drain) or +3 cruel keen scythe +30/+25/+20 (4d6+27 plus energy drain/19-20/&times;4)  ",
+			"**Melee** +3 {magic-enh/wounding} {eq-material/adamantine} greatsword +30/+25/+20 (6d6+27 plus energy drain/19-20) or +5 {magic-enh/nullifying} {eq-material/adamantine} spiked gauntlet +32/+27/+22 (2d6+21 plus energy drain) or +5 {magic-enh/unholy} {eq-material/adamantine} quarterstaff +32/+27/+22 (3d6+29 plus energy drain) or +3 {magic-enh/cruel} {magic-enh/keen} scythe +30/+25/+20 (4d6+27 plus energy drain/19-20/&times;4)  ",
 			"**Ranged** rock +15 (4d6+24)  ",
 			"**Space** 20 ft., **Reach** 20 ft.  ",
 			"**Special Attacks** devour souls, {umr/energy drain} (2 levels, DC 26), {umr/rock throwing} (160 ft.), vile weapon  ",
@@ -196,7 +196,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 60 ft. (50 ft. in armor)  ",
-			"**Melee** mwk adamantine warhammer +25/+20/+15 (4d6+19/19-20/&times;3), bite +19 (2d8+6 plus wrenching spasms)  ",
+			"**Melee** mwk {eq-material/adamantine} warhammer +25/+20/+15 (4d6+19/19-20/&times;3), bite +19 (2d8+6 plus wrenching spasms)  ",
 			"**Ranged** rock +13 (4d6+19)  ",
 			"**Space** 20 ft., **Reach** 20 ft.  ",
 			"**Special Attacks** {umr/rock throwing} (160 ft.)  ",
@@ -383,7 +383,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., swim 30 ft.  ",
-			"**Melee** mithral dagger +5/+0 (1d4-1/19-20)  ",
+			"**Melee** {eq-material/mithral} dagger +5/+0 (1d4-1/19-20)  ",
 			"**Special Attacks** long limbs (+10 ft.)  ",
 			"**Spell-Like Abilities** (CL 12th; concentration +17)  ",
 			"*8/day*-acidic ray (1d6+6 acid)  ",
@@ -1935,7 +1935,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft.  ",
-			"**Melee** +1 human-bane falchion +19/+14/+9 (2d4+10/15-20)  ",
+			"**Melee** +1 human-{magic-enh/bane} falchion +19/+14/+9 (2d4+10/15-20)  ",
 			"**Special Attacks** channel negative energy (DC 16, 5d6), smite good 4/day (+1 attack and AC, +10 damage)  ",
 			"**Spell-Like Abilities** (CL 10th; concentration +11)  ",
 			"*At will*-{spell/detect good}  ",
@@ -2962,7 +2962,7 @@
 			"",
 			"The framework of a golden guardian is built from 1,200 pounds of steel rods and pins and then covered in 100 pounds of gold plating. Its insides are filled with 200 pounds of molten gold before the entire construct is sealed. Once assembled, the gold plating is sprinkled with rare powders and herbs worth at least 300 gp. A golden guardian uses 15,000 gp of raw gold in its construction.",
 			"",
-			"**CL** 12th; **Price** 33,300 gp; **Requirements** Craft Construct, blur, fabricate, fire shield, gaes/quest, wall of fire, creator must be caster level 12th; Skill Craft (goldsmith) DC 17; **Cost** 24,300 gp"
+			"**CL** 12th; **Price** 33,300 gp; **Requirements** {feat/Craft Construct}, {spell/blur}, {spell/fabricate}, {spell/fire shield}, {spell/geas//quest}, {spell/wall of fire}, creator must be caster level 12th; Skill Craft (goldsmith) DC 17; **Cost** 24,300 gp"
 		]
 	},
 	"goldpebble": {
@@ -3439,7 +3439,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft.  ",
-			"**Melee** +1 keen scimitar +10/+5 (1d6+5/15-20 plus bleed) or slam +9 (1d6+4)  ",
+			"**Melee** +1 {magic-enh/keen} scimitar +10/+5 (1d6+5/15-20 plus bleed) or slam +9 (1d6+4)  ",
 			"**Special Attacks** bleed 2, magic weapon, rest eternal  ",
 			"**Spell-Like Abilities** (CL 6th; concentration +0)  ",
 			"*1/day*-{spell/haste} (self only)",
@@ -3544,7 +3544,7 @@
 			"",
 			"**CL** 7th; **Price** 18,500 gp",
 			"",
-			"**Requirements** Craft Construct, greater magic weapon, haste, imbue with spell ability, make whole, stone shape, creator must be caster level 7th; Skill Craft (sculpture) or Craft (pottery) DC 15; **Cost** 9,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/greater magic weapon}, {spell/haste}, {spell/imbue with spell ability}, {spell/make whole}, {spell/stone shape}, creator must be caster level 7th; Skill Craft (sculpture) or Craft (pottery) DC 15; **Cost** 9,500 gp"
 		]
 	},
 	"gravesludge": {
@@ -3656,7 +3656,7 @@
 			"",
 			"**CL** 13th; **Price** 75,000 gp",
 			"",
-			"**Requirements** Craft Construct; animate objects, repulsion, reverse gravity, telekinesis, creator must be caster level 13th; Skill Craft (sculptures) DC 16; **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Construct}; {spell/animate objects}, {spell/repulsion}, {spell/reverse gravity}, {spell/telekinesis}, creator must be caster level 13th; Skill Craft (sculptures) DC 16; **Cost** 45,000 gp"
 		]
 	},
 	"gray": {
@@ -4000,7 +4000,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 60 ft., fly 90 ft. (perfect)  ",
-			"**Melee** +5 keen adamantine scythe +40/+40/+35/+30/+25 (2d4+18/19-20/&times;4 plus death strike and energy drain)  ",
+			"**Melee** +5 {magic-enh/keen} {eq-material/adamantine} scythe +40/+40/+35/+30/+25 (2d4+18/19-20/&times;4 plus death strike and energy drain)  ",
 			"**Special Attacks** death strike (DC 34), {umr/energy drain} (2 levels, DC 34), final death  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +27)  ",
 			"*Constant*-{spell/haste}, {spell/see invisibility}, {spell/true seeing}  ",
@@ -4069,7 +4069,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 60 ft.; air walk  ",
-			"**Melee** +2 keen scythe +30/+30/+25/+20/+15 (2d4+14/19-20/&times;4 plus energy drain)  ",
+			"**Melee** +2 {magic-enh/keen} scythe +30/+30/+25/+20/+15 (2d4+14/19-20/&times;4 plus energy drain)  ",
 			"**Special Attacks** {umr/energy drain} (2 levels, DC 29)  ",
 			"**Spell-Like Abilities** (CL 16th; concentration +23)  ",
 			"*Constant*-{spell/air walk}, {spell/haste}, {spell/see invisibility}  ",

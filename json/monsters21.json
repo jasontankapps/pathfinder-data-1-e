@@ -458,8 +458,8 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft. (40 ft. without armor); air walk  ",
-			"**Melee** +1 returning shortspear +25/+20/+15/+10 (2d6+10/19-20), heavy spiked shield +24 (2d6+4), bite +23 (2d6+4/19-20) or bite +28 (2d6+9), 2 claws +28 (1d8+9)  ",
-			"**Ranged** +1 returning shortspear +24 (2d6+10/19-20)  ",
+			"**Melee** +1 {magic-enh/returning} shortspear +25/+20/+15/+10 (2d6+10/19-20), heavy spiked shield +24 (2d6+4), bite +23 (2d6+4/19-20) or bite +28 (2d6+9), 2 claws +28 (1d8+9)  ",
+			"**Ranged** +1 {magic-enh/returning} shortspear +24 (2d6+10/19-20)  ",
 			"**Space** 15 ft., **Reach** 15 ft.  ",
 			"**Special Attacks** roar  ",
 			"**Spell-Like Abilities** (CL 16th; concentration +21)  ",
@@ -785,7 +785,7 @@
 			"",
 			"**CL** 6th; **Price** 15,500 gp",
 			"",
-			"**Requirements** Craft Construct, command, fear, geas/quest, hypnotic pattern, creator must be caster level 6th; Skill Craft (carpentry), Craft (sculptures), or Profession (farmer) DC 12; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/command}, {spell/fear}, {spell/geas//quest}, {spell/hypnotic pattern}, creator must be caster level 6th; Skill Craft (carpentry), Craft (sculptures), or Profession (farmer) DC 12; **Cost** 8,000 gp"
 		]
 	},
 	"scarlet_walker": {
@@ -1727,7 +1727,7 @@
 			"",
 			"**CL** 13th; **Price** 61,500 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest, hypnotism, limited wish, creator must be caster level 13th; Skill Craft (glass) DC 20; **Cost** 31,250 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/hypnotism}, {spell/limited wish}, creator must be caster level 13th; Skill Craft (glass) DC 20; **Cost** 31,250 gp"
 		]
 	},
 	"sea_bonze": {
@@ -2936,7 +2936,7 @@
 			"",
 			"**CL** 10th; **Price** 33,000 gp",
 			"",
-			"**Requirements** Craft Construct, animate object, cat's grace, confusion, geas/quest, jump, minor creation; Skill Craft (sculptures) DC 18; **Cost** 18,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/cat's grace}, {spell/confusion}, {spell/geas//quest}, {spell/jump}, {spell/minor creation}; Skill Craft (sculptures) DC 18; **Cost** 18,000 gp"
 		]
 	},
 	"seps": {
@@ -3196,7 +3196,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft.  ",
-			"**Melee** +3 unholy light mace +24/+19/+14/+9 (1d6+6), bite +16 (1d6+3 plus poison)  ",
+			"**Melee** +3 {magic-enh/unholy} light mace +24/+19/+14/+9 (1d6+6), bite +16 (1d6+3 plus poison)  ",
 			"**Ranged** mwk light crossbow +22 (1d8+3/19-20)  ",
 			"**Special Attacks** channel negative energy 10/day (DC 22, 5d6), scythe of evil (5 rounds, 1/day), weapon master (10 rounds/day)  ",
 			"**Spell-Like Abilities** (CL 4th; concentration +9)  ",
@@ -3445,7 +3445,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft.  ",
-			"**Melee** +2 corrosive scimitar +17/+12/+7 (1d6+5/15-20 plus 1d6 acid), bite +9 (1d6+1 plus poison)  ",
+			"**Melee** +2 {magic-enh/corrosive} scimitar +17/+12/+7 (1d6+5/15-20 plus 1d6 acid), bite +9 (1d6+1 plus poison)  ",
 			"**Ranged** mwk composite longbow +19/+14/+9 (1d8+4/&times;3)  ",
 			"**Special Attacks** improved spell combat, spell combat (-2 attack, +2 concentration), spellstrike  ",
 			"**Spell-Like Abilities** (CL 4th; concentration +7)  ",
@@ -3756,7 +3756,7 @@
 			"",
 			"**CL** 17th; **Price** 184,000 gp",
 			"",
-			"**Requirements** Craft Construct, blasphemy, geas/quest, miracle; Skill Heal DC 20 and Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 90,000 gp.",
+			"**Requirements** {feat/Craft Construct}, {spell/blasphemy}, {spell/geas/quest}, {spell/miracle}; Skill Heal DC 20 and Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 90,000 gp.",
 			"",
 			"### Elevated Set Guardian",
 			"",

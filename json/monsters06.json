@@ -315,7 +315,7 @@
 			"",
 			"**CL** 12th; **Price** 46,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate object, consecrate, disrupting weapon, geas/quest, and planar ally, creator must be caster level 12th; Skill Craft (sculpture) DC 20; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/consecrate}, {spell/disrupting weapon}, {spell/geas//quest}, and {spell/planar ally}, creator must be caster level 12th; Skill Craft (sculpture) DC 20; **Cost** 25,000 gp"
 		]
 	},
 	"crysmal": {
@@ -553,7 +553,7 @@
 			"",
 			"**CL** 9th; **Price** 18,400 gp",
 			"",
-			"**Requirements** Craft Construct, keen edge, lesser geas, and telekinesis; Skill Craft (weapons) DC 15; **Cost** 9,400 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/keen edge}, {spell/lesser geas}, and {spell/telekinesis}; Skill Craft (weapons) DC 15; **Cost** 9,400 gp"
 		]
 	},
 	"cyclops": {
@@ -1094,8 +1094,8 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 50 ft. (average)  ",
-			"**Melee** +1 returning starknife +19/+14/+9 (1d4+2/19-20/&times;3)  ",
-			"**Ranged** +1 returning starknife +19/+14/+9 (1d4+2/19-20/&times;3)  ",
+			"**Melee** +1 {magic-enh/returning} starknife +19/+14/+9 (1d4+2/19-20/&times;3)  ",
+			"**Ranged** +1 {magic-enh/returning} starknife +19/+14/+9 (1d4+2/19-20/&times;3)  ",
 			"**Special Attacks** dream powder, sneak attack +3d6  ",
 			"**Spell-Like Abilities** (CL 12th; concentration +17)  ",
 			"*At will*-{spell/dancing lights}, {spell/dream}, {spell/restful sleep}  ",
@@ -2364,7 +2364,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft.  ",
-			"**Melee** 2 slams +12 (1d8+3), 2 +1 deadly merciful vicious whip arms +13 (1d8+4 plus {umr/grab})  ",
+			"**Melee** 2 slams +12 (1d8+3), 2 +1 {magic-enh/deadly} {magic-enh/merciful} {magic-enh/vicious} whip arms +13 (1d8+4 plus {umr/grab})  ",
 			"**Space** 10 ft., **Reach** 10 ft. (20 ft. with whip arms)  ",
 			"**Special Attacks** {umr/constrict} (1d8+4), damning scourge, dead tired, enslave (DC 18)  ",
 			"**Spell-Like Abilities** (CL 10th; concentration +13)  ",
@@ -2449,7 +2449,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 60 ft. (average)  ",
-			"**Melee** +1 unholy halberd +28/+23/+18/+13 (4d8+13/19-20/&times;3 plus inherit soul), bite +21 (2d8+4)  ",
+			"**Melee** +1 {magic-enh/unholy} halberd +28/+23/+18/+13 (4d8+13/19-20/&times;3 plus inherit soul), bite +21 (2d8+4)  ",
 			"**Space** 20 ft., **Reach** 20 ft.  ",
 			"**Special Attacks** cloak of souls  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +27)  ",
@@ -2741,7 +2741,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 60 ft. (good)  ",
-			"**Melee** +2 wounding halberd (2d8+18/19-20/&times;3), bite +24 (1d8+5)  ",
+			"**Melee** +2 {magic-enh/wounding} halberd (2d8+18/19-20/&times;3), bite +24 (1d8+5)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** weapon steep  ",
 			"**Spell-Like Abilities** (CL 18th; concentration +23)  ",
@@ -3333,7 +3333,7 @@
 			"",
 			"**Speed** 30 ft., fly 90 ft. (good)  ",
 			"**Melee** unarmed strike +17/+12/+7 (2d6+3) or unarmed strike flurry of blows +17/+17/+12/+12/+7 (2d6+3)  ",
-			"**Ranged** +2 flaming dart +19/+14/+9 (1d4+5 plus 1d6 fire)  ",
+			"**Ranged** +2 {magic-enh/flaming} dart +19/+14/+9 (1d4+5 plus 1d6 fire)  ",
 			"**Special Attacks** stunning fist (12/day, DC 16)  ",
 			"**Spell-Like Abilities** (CL 10th; concentration +14)  ",
 			"*Constant*-{spell/speak with animals} (birds only), {spell/true seeing}  ",
@@ -3762,7 +3762,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft. (20 ft. in armor)  ",
-			"**Melee** +1 keen longsword +14/+9 (1d8+6/17-20 plus 1d6 cold)  ",
+			"**Melee** +1 {magic-enh/keen} longsword +14/+9 (1d8+6/17-20 plus 1d6 cold)  ",
 			"**Special Attacks** chilling blade, death's calling, summon mount",
 			"",
 			"::sh[Statistics]",

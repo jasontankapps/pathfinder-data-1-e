@@ -905,7 +905,7 @@
 			"",
 			"**CL** 8th; **Price** 6,600 gp",
 			"",
-			"**Requirements** Craft Construct, false life, lesser geas, magic jar, minor creation, sleet storm, soul of a living creature who dies or is slain during the creation process, creator must be caster level 8th; Skill Craft (sculpture) DC 16; **Cost** 3,600 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, {spell/sleet storm}, soul of a living creature who dies or is slain during the creation process, creator must be caster level 8th; Skill Craft (sculpture) DC 16; **Cost** 3,600 gp"
 		]
 	},
 	"guardian_scroll": {
@@ -969,7 +969,7 @@
 			"",
 			"**CL** 8th; **Price** 5,000 gp (7,500 gp)",
 			"",
-			"**Requirements** Craft Construct, bull's strength, false life, fly, lesser geas, magic weapon, make whole; paper made from an intelligent plant creature that dies or is slain during the paper-making process, or a more costly alchemically treated paper; creator must have 5 ranks in Linguistics; Skill Craft (calligraphy) DC 15; **Cost** 2,500 gp (3,750 gp)"
+			"**Requirements** {feat/Craft Construct}, {spell/bull's strength}, {spell/false life}, {spell/fly}, {spell/lesser geas}, {spell/magic weapon}, {spell/make whole}; paper made from an intelligent plant creature that dies or is slain during the paper-making process, or a more costly alchemically treated paper; creator must have 5 ranks in Linguistics; Skill Craft (calligraphy) DC 15; **Cost** 2,500 gp (3,750 gp)"
 		]
 	},
 	"guecubu": {
@@ -1259,7 +1259,7 @@
 			"",
 			"**Speed** 30 ft.  ",
 			"**Melee** mwk dagger +16/+11 (1d4+5/19-20)  ",
-			"**Ranged** +2 speed composite longbow +18/+18/+13 (1d8+7/&times;3)  ",
+			"**Ranged** +2 {magic-enh/speed} composite longbow +18/+18/+13 (1d8+7/&times;3)  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +26)  ",
 			"*Constant*-{spell/speak with animals}, {spell/speak with plants}  ",
 			"*At will*-{spell/entangle} (DC 17), {spell/hold animal} (DC 18), {spell/rusting grasp}, {spell/tree shape}, {spell/wood shape} (10 lbs. only)  ",
@@ -1438,7 +1438,7 @@
 			"",
 			"**CL** 13th; **Price** 46,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate object, beast shape III, limited wish, creator must be caster level 13th; Skill Craft (sculptures); **Cost** 24,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/beast shape III}, {spell/limited wish}, creator must be caster level 13th; Skill Craft (sculptures); **Cost** 24,000 gp"
 		]
 	},
 	"harionago": {
@@ -1487,7 +1487,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Infectious Laughter (Su)** As a full-round action, a harionago can emit a scornful laugh ringing out in a 60-foot burst. A creature that hears the laughter must succeed at a DC 23 Will saving thrown or be affected as the hideous laughter spell (CL 14th), except that a laughing creature is considered helpless to the harionago. A creature that successfully saves against a harionago's scornful laughter can't be affected by that same harionago's laughter for 24 hours. This is a mind-affecting effect that can be countered with the countersong class feature. Its save DC is Charisma-based.",
+			"**Infectious Laughter (Su)** As a full-round action, a harionago can emit a scornful laugh ringing out in a 60-foot burst. A creature that hears the laughter must succeed at a DC 23 Will saving thrown or be affected as the {spell/hideous laughter} spell (CL 14th), except that a laughing creature is considered helpless to the harionago. A creature that successfully saves against a harionago's scornful laughter can't be affected by that same harionago's laughter for 24 hours. This is a mind-affecting effect that can be countered with the countersong class feature. Its save DC is Charisma-based.",
 			"",
 			"::sh[Description]",
 			"",
@@ -2567,7 +2567,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft.  ",
-			"**Melee** +2 unholy heavy mace +19/+14 (1d8+10/19-20 plus faith-stealing strike), slam +12 (1d8+5 plus faith-stealing strike) or 2 slams +17 (1d8+8 plus faith-stealing strike)  ",
+			"**Melee** +2 {magic-enh/unholy} heavy mace +19/+14 (1d8+10/19-20 plus faith-stealing strike), slam +12 (1d8+5 plus faith-stealing strike) or 2 slams +17 (1d8+8 plus faith-stealing strike)  ",
 			"**Special Attacks** faith-stealing strike  ",
 			"**Spell-Like Abilities** (CL 10th; concentration +15)  ",
 			"*Constant*-{spell/detect good}, {spell/see invisibility}  ",
@@ -3672,7 +3672,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft.  ",
-			"**Melee** +1 shock katana +18/+13/+8 (1d8+4/15-20 plus 1d6 electricity) or mwk naginata +17/+12/+7 (1d8+4/&times;4)  ",
+			"**Melee** +1 {magic-enh/shock} katana +18/+13/+8 (1d8+4/15-20 plus 1d6 electricity) or mwk naginata +17/+12/+7 (1d8+4/&times;4)  ",
 			"**Ranged** mwk composite shortbow +14/+9/+4 (1d6+3/&times;3)  ",
 			"**Special Attacks** banner +3/+2, challenge (+13, DR 4/-, 5/day), demanding challenge",
 			"",
@@ -4064,7 +4064,7 @@
 			"The process used to fashion a hollow one requires the creator to collect a considerable quantity of the skin of the person being copied (referred to as the subject) using knives and an arcane ritual that ultimately deals 1d4 points of Constitution damage to the subject. The skin is alchemically treated and enhanced into a form not unlike the wrappings of a mummy. At the final moment of the ritual, the creator removes a piece of the subject's brain using a specially created brass and ebony hook with a tiny movable cutting blade attached. This hook is inserted into the subject's brain through the nose to remove a portion of living brain tissue, an act that deals an additional 1d2 points of Constitution damage to the subject. At this point, the creator must succeed at a DC 30 Heal check; otherwise the subject permanently loses 1d3 points of Intelligence.",
 			"",
 			"**CL** 9th; **Price** 42,000 gp  ",
-			"**Requirements** Craft Construct, lesser simulacrum; 2 square yards of skin collected over the course of 1 month and 1 ounce of brain material; creator must be caster level 9th; Skills Craft (alchemy) DC 24 and Heal DC 24; **Cost** 21,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/lesser simulacrum}; 2 square yards of skin collected over the course of 1 month and 1 ounce of brain material; creator must be caster level 9th; Skills Craft (alchemy) DC 24 and Heal DC 24; **Cost** 21,000 gp"
 		]
 	},
 	"hollow_serpent": {

@@ -1305,7 +1305,7 @@
 			"",
 			"**CL** 14th; **Price** 145,000 gp",
 			"",
-			"**Requirements** Craft Construct, blasphemy, geas/quest, keen edge, creator must be at least caster level 14th; Skill Craft (scrimshaw) DC 25; **Cost** 75,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/blasphemy}, {spell/geas//quest}, {spell/keen edge}, creator must be at least caster level 14th; Skill Craft (scrimshaw) DC 25; **Cost** 75,000 gp"
 		]
 	},
 	"kirin": {

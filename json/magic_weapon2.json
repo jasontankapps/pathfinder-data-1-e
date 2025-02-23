@@ -868,7 +868,7 @@
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** none; **Price** 24,315 gp; **Weight** 4 lbs.",
 			"",
-			"This +3 {eq-weapon/scimitar} has an emerald gem set into its hilt. When the wielder confirms a critical hit with the emerald-eyed blade, as a free action the wielder can cause the weapon to inflict a terrible curse upon the foe. The affected creature cannot benefit from spells, potions, or other magic items with the word \"cure\" in their names until the curse is lifted with a {spell/remove curse} or {spell/break enchantment} spell (DC 20) or a limited wish, wish, or miracle.",
+			"This +3 {eq-weapon/scimitar} has an emerald gem set into its hilt. When the wielder confirms a critical hit with the emerald-eyed blade, as a free action the wielder can cause the weapon to inflict a terrible curse upon the foe. The affected creature cannot benefit from spells, potions, or other magic items with the word \"cure\" in their names until the curse is lifted with a {spell/remove curse} or {spell/break enchantment} spell (DC 20) or a {spell/limited wish}, {spell/wish}, or {spell/miracle}.",
 			"",
 			"### Construction",
 			"",

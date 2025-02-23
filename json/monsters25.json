@@ -1720,7 +1720,7 @@
 			"",
 			"**CL** 14th; **Price** 110,000 gp",
 			"",
-			"**Requirements** Craft Construct, fire seeds, wall of fire, warp wood, creator must be caster level 12th; Skill Craft (carpentry) or Craft (sculptures) DC 15; **Cost** 60,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/fire seeds}, {spell/wall of fire}, {spell/warp wood}, creator must be caster level 12th; Skill Craft (carpentry) or Craft (sculptures) DC 15; **Cost** 60,000 gp"
 		]
 	},
 	"wight": {
@@ -1889,7 +1889,7 @@
 			"",
 			"**Speed** 30 ft.  ",
 			"**Melee** gore +16 (1d6+7)  ",
-			"**Ranged** +5 icy burst seeking composite longbow +26/+21/+16 (1d8+10/19-20/&times;3 plus 1d6 cold)  ",
+			"**Ranged** +5 {magic-enh/icy burst} {magic-enh/seeking} composite longbow +26/+21/+16 (1d8+10/19-20/&times;3 plus 1d6 cold)  ",
 			"**Special Attacks** infuse arrow, wild {umr/gaze} (DC 26)  ",
 			"**Spell-Like Abilities** (CL 13th; concentration +18)  ",
 			"*Constant*-{spell/know direction}, {spell/speak with animals}, {spell/speak with plants}  ",
@@ -2226,7 +2226,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** fly 50 ft. (perfect)  ",
-			"**Melee** shock +16 touch (2d8 electricity)",
+			"**Melee** {magic-enh/shock} +16 touch (2d8 electricity)",
 			"",
 			"::sh[Statistics]",
 			"",

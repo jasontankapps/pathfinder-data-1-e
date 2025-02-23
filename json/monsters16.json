@@ -1127,7 +1127,7 @@
 			"",
 			"**CL** 15th; **Price** 71,000 gp",
 			"",
-			"**Requirements** Craft Construct, limited wish, nightmare, trap the soul, creator must be caster level 15th; Skill Craft (stonemasonry) DC 20; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/limited wish}, {spell/nightmare}, {spell/trap the soul}, creator must be caster level 15th; Skill Craft (stonemasonry) DC 20; **Cost** 35,000 gp"
 		]
 	},
 	"living_mirage": {
@@ -1544,7 +1544,7 @@
 			"",
 			"**CL** 12th; **Price** 18,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate dead, geas/quest, limited wish, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; **Cost** 9,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; **Cost** 9,500 gp",
 			"",
 			"[^B]: Bonus feat."
 		]

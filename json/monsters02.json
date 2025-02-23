@@ -146,7 +146,7 @@
 			"",
 			"**CL** 12th; **Price** 38,000 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest, shout, solid note, creator must be caster level 12th; Skill Perform (sing) DC 25; **Cost** 20,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/shout}, {spell/solid note}, creator must be caster level 12th; Skill Perform (sing) DC 25; **Cost** 20,000 gp"
 		]
 	},
 	"animate_dream": {
@@ -466,7 +466,7 @@
 			"",
 			"**CL** 12th; **Price** 200,000 gp",
 			"",
-			"**Requirements** Craft Construct, animate object, geas/quest, resurrection, telekinesis; Skill Craft (blacksmithing), Knowledge (engineering), and Heal DC 25; **Cost** 100,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/resurrection}, {spell/telekinesis}; Skill Craft (blacksmithing), Knowledge (engineering), and Heal DC 25; **Cost** 100,000 gp"
 		]
 	},
 	"anisydaemon": {
@@ -1325,7 +1325,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft.  ",
-			"**Melee** cold iron warhammer +5 (1d8+3/&times;3)  ",
+			"**Melee** {eq-material/cold iron} warhammer +5 (1d8+3/&times;3)  ",
 			"**Spell-Like Abilities** (CL 1st; concentration +0)  ",
 			"*1/day*-{spell/protection from chaos}",
 			"",
@@ -1858,7 +1858,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 90 ft. (good)  ",
-			"**Melee** +3 flaming longsword +25/+20/+15 (3d6+15/19-20 plus 1d6 fire)  ",
+			"**Melee** +3 {magic-enh/flaming} longsword +25/+20/+15 (3d6+15/19-20 plus 1d6 fire)  ",
 			"**Space** 15 ft., **Reach** 15 ft.  ",
 			"**Special Attacks** censor text  ",
 			"**Spell-Like Abilities** (CL 15th; concentration +20)  ",
@@ -1923,7 +1923,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft., fly 90 ft. (good)  ",
-			"**Melee** +3 conductive greatsword +30/+25/+20/+15 (2d6+18/17-20), 2 wings +22 (1d4+5)  ",
+			"**Melee** +3 {magic-enh/conductive} greatsword +30/+25/+20/+15 (2d6+18/17-20), 2 wings +22 (1d4+5)  ",
 			"**Spell-Like Abilities** (CL 17th; concentration +22)  ",
 			"*Constant*-{spell/nondetection}, {spell/statue}, {spell/true seeing}  ",
 			"*At will*-{spell/bestow curse} (DC 18), {spell/detect evil}, {spell/dimensional anchor}, {spell/dismissal} (DC 19), {spell/greater teleport} (self plus 50 lbs. of objects only)  ",
@@ -1998,7 +1998,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 90 ft. (good)  ",
-			"**Melee** +4 impact lucerne hammer +30/+25/+20/+15 (4d6+13)  ",
+			"**Melee** +4 {magic-enh/impact} lucerne hammer +30/+25/+20/+15 (4d6+13)  ",
 			"**Space** 10 ft., **Reach** 10 ft. (15 ft. with lucerne hammer)  ",
 			"**Special Attacks** axiomatic barrage, inevitable sunder  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +24)  ",
@@ -2283,8 +2283,8 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft., fly 90 ft. (average)  ",
-			"**Melee** +1 flaming burst greatsword +13/+8 (2d6+5/17-20 plus 1d6 fire)  ",
-			"**Ranged** +1 flaming javelin +10 (1d6+4 plus 1d6 fire)  ",
+			"**Melee** +1 {magic-enh/flaming burst} greatsword +13/+8 (2d6+5/17-20 plus 1d6 fire)  ",
+			"**Ranged** +1 {magic-enh/flaming} javelin +10 (1d6+4 plus 1d6 fire)  ",
 			"**Special Attacks** flames of faith  ",
 			"**Spell-Like Abilities** (CL 8th; concentration +11)  ",
 			"*Constant*-{spell/detect evil}, {spell/magic circle against evil}  ",
@@ -2354,7 +2354,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 90 ft. (good)  ",
-			"**Melee** +1 holy quarterstaff +17/+12 (1d6+12)  ",
+			"**Melee** +1 {magic-enh/holy} quarterstaff +17/+12 (1d6+12)  ",
 			"**Special Attacks** psychic ambush  ",
 			"**Spell-Like Abilities** (CL 9th; concentration +13)  ",
 			"*Constant*-{spell/detect evil}, {spell/nondetection}  ",
@@ -2618,7 +2618,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft., fly 120 ft. (good); 30 ft. (fly 90 ft.) in armor  ",
-			"**Melee** +5 holy starknife +29/+24/+19/+14 (1d6+12/&times;3)  ",
+			"**Melee** +5 {magic-enh/holy} starknife +29/+24/+19/+14 (1d6+12/&times;3)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** smite evil 1/day (+6 attack and AC, +29 damage)  ",
 			"**Spell-Like Abilities** (CL 19th; concentration +25)  ",
@@ -2879,7 +2879,7 @@
 			"",
 			"**CL** 11th; **Price** 25,650 gp",
 			"",
-			"**Requirements** Craft Construct, animate object, protection from evil, creator must be caster level 11th, must be constructed in Heaven; Skill Craft (armor) DC 15; **Cost** 13,650 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/protection from evil}, creator must be caster level 11th, must be constructed in Heaven; Skill Craft (armor) DC 15; **Cost** 13,650 gp"
 		]
 	},
 	"ascomoid": {

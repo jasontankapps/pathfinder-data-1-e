@@ -586,7 +586,7 @@
 			"",
 			"**CL** 8th; **Price** 150,000 gp",
 			"",
-			"**Requirements** Craft Construct, animate object, confusion, geas/quest, shield other; Skill Craft (armor), Craft (blacksmithing), or Craft (weapons) DC 21; **Cost** 80,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/confusion}, {spell/geas//quest}, {spell/shield other}; Skill Craft (armor), Craft (blacksmithing), or Craft (weapons) DC 21; **Cost** 80,000 gp"
 		]
 	},
 	"abysogh": {
@@ -2027,7 +2027,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 10 ft., swim 80 ft.  ",
-			"**Melee** +1 shocking burst shortspear +28/+23/+18/+13 (1d6+14 plus 1d6 electricity), tail slap +22 (1d6+4 plus push and stun)  ",
+			"**Melee** +1 {magic-enh/shocking burst} shortspear +28/+23/+18/+13 (1d6+14 plus 1d6 electricity), tail slap +22 (1d6+4 plus push and stun)  ",
 			"**Special Attacks** shockwave, {umr/push} (tail slap, 10 ft.)  ",
 			"**Spell-Like Abilities** (CL 15th; concentration +18)  ",
 			"*Constant*-{spell/speak with animals}  ",
@@ -2095,8 +2095,8 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft., swim 40 ft.  ",
-			"**Melee** +2 cold iron trident +13/+8 (1d8+5), bite +9 (1d6+3) or bite +14 (1d6+5)  ",
-			"**Ranged** +2 cold iron trident +13 (1d8+4)  ",
+			"**Melee** +2 {eq-material/cold iron} trident +13/+8 (1d8+5), bite +9 (1d6+3) or bite +14 (1d6+5)  ",
+			"**Ranged** +2 {eq-material/cold iron} trident +13 (1d8+4)  ",
 			"**Special Attacks** none shall pass  ",
 			"**Spell-Like Abilities** (CL 9th; concentration +12)  ",
 			"*Constant*-{spell/see invisibility}, {spell/speak with animals}  ",

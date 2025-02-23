@@ -1767,7 +1767,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft.  ",
-			"**Melee** +1 obsidian spiked gauntlet +10 (1d4+6), bite +3 (1d4+5), claw +3 (1d4+5) or bite +8 (1d4+5), 2 claws +8 (1d4+5)  ",
+			"**Melee** +1 {eq-material/obsidian} spiked gauntlet +10 (1d4+6), bite +3 (1d4+5), claw +3 (1d4+5) or bite +8 (1d4+5), 2 claws +8 (1d4+5)  ",
 			"**Ranged** javelin +2 (1d6+5)  ",
 			"**Special Attacks** channel negative energy 4/day (DC 14, 2d6), fury of the Abyss (+1, 5/day)  ",
 			"**Spell-Like Abilities** (CL 3rd; concentration +5)  ",
@@ -3466,7 +3466,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 50 ft. (good)  ",
-			"**Melee** +2 axiomatic light mace +35/+30/+25/+20 (2d6+11/19-20), sting +27 (2d8+4/19-20 plus poison)  ",
+			"**Melee** +2 {magic-enh/axiomatic} light mace +35/+30/+25/+20 (2d6+11/19-20), sting +27 (2d8+4/19-20 plus poison)  ",
 			"**Space** 15 ft., **Reach** 15 ft.  ",
 			"**Special Attacks** launch merope, spawn soldiers  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +29)  ",
@@ -4424,7 +4424,7 @@
 			"",
 			"**CL** 14th; **Price** 105,000 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest, limited wish, plane shift, creator must be caster level 14th; Skill Craft (sculpture) or Craft (stonemasonry) DC 25; **Cost** 55,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/plane shift}, creator must be caster level 14th; Skill Craft (sculpture) or Craft (stonemasonry) DC 25; **Cost** 55,000 gp"
 		]
 	}
 }

@@ -1427,7 +1427,7 @@
 			"",
 			"**CL** 8th; **Price** 18,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, minor creation, creator must be caster level 8th; Skill Craft (taxidermy) DC 18; **Cost** 10,300 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/minor creation}, creator must be caster level 8th; Skill Craft (taxidermy) DC 18; **Cost** 10,300 gp"
 		]
 	},
 	"emerald_automaton": {
@@ -1491,7 +1491,7 @@
 			"",
 			"**CL** 6th; **Price** 12,000 gp",
 			"",
-			"**Requirements** Craft Construct, lesser geas, shocking grasp, creator must be caster level 6th; Skill Craft (armor) DC 20; **Cost** 6,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/lesser geas}, {spell/shocking grasp}, creator must be caster level 6th; Skill Craft (armor) DC 20; **Cost** 6,500 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -1876,8 +1876,8 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 70 ft., fly 90 ft. (good)  ",
-			"**Melee** +3 cold iron keen longsword +20/+20/+15 (1d8+12/17-20 plus bleed)  ",
-			"**Ranged** +3 ironwood longbow +20/+20/+15 (1d8+3/&times;3 plus bleed)  ",
+			"**Melee** +3 {eq-material/cold iron} {magic-enh/keen} longsword +20/+20/+15 (1d8+12/17-20 plus bleed)  ",
+			"**Ranged** +3 {spell/ironwood} longbow +20/+20/+15 (1d8+3/&times;3 plus bleed)  ",
 			"**Special Attacks** {umr/bleed} (1d6), favored enemy (all humanoids +10), ironwood mastery  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +25)  ",
 			"*Constant*-{spell/blur}, {spell/haste} (self only), {spell/protection from evil}, {spell/protection from law}, {spell/speak with animals}, {spell/speak with plants}  ",
@@ -1902,7 +1902,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Ironwood Mastery (Su)** Any ironwood armor an erlking wears gains a +3 enhancement bonus, and any ironwood weapon it wields is treated as a +3 cold iron keen weapon.",
+			"**Ironwood Mastery (Su)** Any ironwood armor an erlking wears gains a +3 enhancement bonus, and any ironwood weapon it wields is treated as a +3 {eq-material/cold iron} {magic-enh/keen} weapon.",
 			"",
 			"**Warrior Fey (Ex)** An erlking counts as a 20th-level fighter for all abilities and effects requiring fighter levels.",
 			"",

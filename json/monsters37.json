@@ -94,7 +94,7 @@
 			"",
 			"**CL** 3rd; **Price** 900 gp",
 			"",
-			"**Requirements** Craft Construct or Craft Poppet, make whole, mending; Skill Craft (carpentry) DC 18; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Construct} or {feat/Craft Poppet}, {spell/make whole}, {spell/mending}; Skill Craft (carpentry) DC 18; **Cost** 500 gp"
 		]
 	},
 	"small_poppet": { "copyof": "poppet_poppet_small" },
@@ -144,7 +144,7 @@
 			"",
 			"**CL** 1st; **Price** 310 gp",
 			"",
-			"**Requirements** Craft Construct or Craft Poppet, make whole, mending; Skill Craft (carpentry) DC 15; **Cost** 160 gp"
+			"**Requirements** {feat/Craft Construct} or {feat/Craft Poppet}, {spell/make whole}, {spell/mending}; Skill Craft (carpentry) DC 15; **Cost** 160 gp"
 		]
 	},
 	"tiny_poppet": { "copyof": "poppet_poppet_tiny" },
@@ -2318,7 +2318,7 @@
 			"",
 			"A rune guardian's body is carved from a single block of semiprecious stone, then polished and treated with rare dusts and oils worth at least 500 gp.",
 			"",
-			"**CL** 11th; **Price** 6,500 gp; **Requirements** Craft Construct, fly, geas/quest, plus burning hands, color spray, hold portal, ray of enfeeblement, reduce person, sleep, or summon monster I, creator must be caster level 11th; Skill Craft (stonecarving) DC 16; **Cost** 3,500 gp"
+			"**CL** 11th; **Price** 6,500 gp; **Requirements** {feat/Craft Construct}, {spell/fly}, {spell/geas//quest}, plus {spell/burning hands}, {spell/color spray}, {spell/hold portal}, {spell/ray of enfeeblement}, {spell/reduce person}, {spell/sleep}, or {spell/summon monster I}, creator must be caster level 11th; Skill Craft (stonecarving) DC 16; **Cost** 3,500 gp"
 		]
 	},
 	"rusalka": {

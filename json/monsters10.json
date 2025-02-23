@@ -1812,7 +1812,7 @@
 			"",
 			"**CL** 5th; **Price** 1,500 gp plus ioun stone",
 			"",
-			"**Requirements** Craft Construct, animate object, lesser geas; Skill Knowledge (arcana) DC 15; **Cost** 1,000 gp plus ioun stone"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/lesser geas}; Skill Knowledge (arcana) DC 15; **Cost** 1,000 gp plus ioun stone"
 		]
 	},
 	"ioun_wyrd": { "copyof": "familiar_ioun_wyrd" },

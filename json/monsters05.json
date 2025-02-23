@@ -262,7 +262,7 @@
 			"",
 			"**Speed** 60 ft., fly 60 ft. (good)  ",
 			"**Melee** 2 bites +37 (2d6+12), gore +37 (1d8+6), 2 slams +37 (1d6+12)  ",
-			"**Ranged** +5 unholy composite longbow +42/+37/+32/+27 (2d6+17/19-20/&times;3)  ",
+			"**Ranged** +5 {magic-enh/unholy} composite longbow +42/+37/+32/+27 (2d6+17/19-20/&times;3)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** severance  ",
 			"**Spell-Like Abilities** (CL 23rd; concentration +35)  ",
@@ -2049,7 +2049,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 60 ft. (good)  ",
-			"**Melee** +1 flaming keen greatsword +28/+23/+18/+13 (2d6+11/19-20 plus 1d6 fire)  ",
+			"**Melee** +1 {magic-enh/flaming} {magic-enh/keen} greatsword +28/+23/+18/+13 (2d6+11/19-20 plus 1d6 fire)  ",
 			"**Special Attacks** enhance weapon",
 			"",
 			"::sh[Statistics]",
@@ -2088,7 +2088,7 @@
 			"",
 			"**CL** 16th; **Price** 200,000 gp",
 			"",
-			"**Requirements** Craft Construct, fly, geas/quest, and greater magic weapon, creator must be at least caster level 16th; Skill Craft (clockwork) DC 25; **Cost** 107,500 gp plus the items listed separately above"
+			"**Requirements** {feat/Craft Construct}, {spell/fly}, {spell/geas//quest}, and {spell/greater magic weapon}, creator must be at least caster level 16th; Skill Craft (clockwork) DC 25; **Cost** 107,500 gp plus the items listed separately above"
 		]
 	},
 	"clockwork_angel": { "copyof": "clockwork_clockwork_angel" },
@@ -2160,7 +2160,7 @@
 			"",
 			"**CL** 16th; **Price** 150,000 gp",
 			"",
-			"**Requirements** Craft Construct, gaseous form, geas/quest, keen edge, and major creation, creator must be at least caster level 16th; Skill Craft (clockwork) DC 20; **Cost** 81,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/gaseous form}, {spell/geas//quest}, {spell/keen edge}, and {spell/major creation}, creator must be at least caster level 16th; Skill Craft (clockwork) DC 20; **Cost** 81,000 gp"
 		]
 	},
 	"clockwork_assassin": { "copyof": "clockwork_clockwork_assassin" },
@@ -2251,7 +2251,7 @@
 			"",
 			"**CL** 18th; **Price** 300,000 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, geas/quest, and limited wish, creator must be at least CL 18th; Skill Craft (clockwork) DC 20; **Cost** 162,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, and {spell/limited wish}, creator must be at least CL 18th; Skill Craft (clockwork) DC 20; **Cost** 162,500 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2342,7 +2342,7 @@
 			"",
 			"**CL** 10th; **Price** 140,000 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, fabricate, geas/quest, locate object, shatter, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 80,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/fabricate}, {spell/geas//quest}, {spell/locate object}, {spell/shatter}, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 80,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2416,7 +2416,7 @@
 			"",
 			"**CL** 12th; **Price** 14,500 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest, make whole, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/make whole}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 7,500 gp"
 		]
 	},
 	"clockwork_familiar": { "copyof": "clockwork_clockwork_familiar" },
@@ -2489,7 +2489,7 @@
 			"",
 			"**CL** 18th; **Price** 280,000 gp",
 			"",
-			"**Requirements** Craft Construct, delayed blast fireball, fire shield, geas/quest, and rage, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; **Cost** 150,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/delayed blast fireball}, {spell/fire shield}, {spell/geas//quest}, and {spell/rage}, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; **Cost** 150,000 gp"
 		]
 	},
 	"clockwork_fiend": { "copyof": "clockwork_clockwork_fiend" },
@@ -2628,7 +2628,7 @@
 			"",
 			"**CL** 18th; **Price** 300,000 gp",
 			"",
-			"**Requirements** Craft Construct, {feat/Gunsmithing}, animate objects, geas/quest, and limited wish, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; **Cost** 160,000 gp",
+			"**Requirements** {feat/Craft Construct}, {feat/Gunsmithing}, {spell/animate objects}, {spell/geas//quest}, and {spell/limited wish}, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; **Cost** 160,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2697,7 +2697,7 @@
 			"",
 			"**CL** 12th; **Price** 50,000 gp",
 			"",
-			"**Requirements** Craft Construct, Shield Proficiency, geas/quest, fabricate, and wall of iron, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 26,000 gp"
+			"**Requirements** {feat/Craft Construct}, Shield Proficiency, {spell/geas//quest}, {spell/fabricate}, and {spell/wall of iron}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 26,000 gp"
 		]
 	},
 	"clockwork_guardian": { "copyof": "clockwork_clockwork_guardian" },
@@ -2843,7 +2843,7 @@
 			"",
 			"**CL** 12th; **Price** 30,000 gp",
 			"",
-			"**Requirements** Craft Construct, expeditious retreat, geas/quest, and secret chest, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 15,375 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/expeditious retreat}, {spell/geas//quest}, and {spell/secret chest}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 15,375 gp"
 		]
 	},
 	"clockwork_hound": { "copyof": "clockwork_clockwork_hound" },
@@ -2916,7 +2916,7 @@
 			"",
 			"**CL** 12th; **Price** 130,000 gp",
 			"",
-			"**Requirements** Craft Construct, freedom of movement, geas/quest, heat metal, and limited wish, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 70,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/freedom of movement}, {spell/geas//quest}, {spell/heat metal}, and {spell/limited wish}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 70,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2992,7 +2992,7 @@
 			"",
 			"**CL** 12th; **Price** 84,000 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest, and mnemonic enhancer, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 43,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, and {spell/mnemonic enhancer}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 43,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3330,7 +3330,7 @@
 			"",
 			"**CL** 12th; **Price** 7,500 gp (13,500 for an intelligent servant)",
 			"",
-			"**Requirements** Craft Construct, geas/quest and make whole, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 4,000 gp (7,000 for an intelligent clockwork servant)",
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest} and {spell/make whole}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 4,000 gp (7,000 for an intelligent clockwork servant)",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3401,7 +3401,7 @@
 			"",
 			"**CL** 12th; **Price** 100,000 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, freedom of movement, geas/quest, and poison, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 50,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/freedom of movement}, {spell/geas//quest}, and {spell/poison}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 50,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3474,7 +3474,7 @@
 			"",
 			"**CL** 12th; **Price** 37,000 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest and heroism, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 19,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest} and {spell/heroism}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 19,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3615,7 +3615,7 @@
 			"",
 			"**CL** 12th; **Price** 1,250 gp",
 			"",
-			"**Requirements** Craft Construct, geas/quest and ghost sound, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest} and {spell/ghost sound}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 750 gp"
 		]
 	},
 	"clockwork_spy": { "copyof": "clockwork_clockwork_spy" },
@@ -3686,7 +3686,7 @@
 			"",
 			"**CL** 12th; **Price** 29,000 gp (33,500 for a clockwork charger)",
 			"",
-			"**Requirements** Craft Construct, bull's strength, geas/quest, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 16,000 gp (18,750 for a clockwork charger)",
+			"**Requirements** {feat/Craft Construct}, {spell/bull's strength}, {spell/geas//quest}, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 16,000 gp (18,750 for a clockwork charger)",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3774,7 +3774,7 @@
 			"",
 			"**CL** 10th; **Price** 80,000 gp",
 			"",
-			"**Requirements** Craft Construct, contact other plane, geas/quest, limited wish, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 44,250 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/contact other plane}, {spell/geas//quest}, {spell/limited wish}, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 44,250 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3833,7 +3833,7 @@
 			"",
 			"**CL** 7th; **Price** 3,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, fireball, lesser geas, creator must be at least caster level 7th; Skill Craft (clockwork) DC 15; **Cost** 2,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/fireball}, {spell/lesser geas}, creator must be at least caster level 7th; Skill Craft (clockwork) DC 15; **Cost** 2,000 gp",
 			"",
 			"### Variant Mechanical Genies",
 			"",
@@ -3908,7 +3908,7 @@
 			"",
 			"**CL** 7th; **Price** 16,000 gp",
 			"",
-			"**Requirements** Craft Construct, lesser geas, false life, minor creation, creator must be at least caster level 7th; Skill Craft (clockwork) DC 17; **Cost** 8,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/lesser geas}, {spell/false life}, {spell/minor creation}, creator must be at least caster level 7th; Skill Craft (clockwork) DC 17; **Cost** 8,500 gp",
 			"",
 			"[^B]: Bonus feat."
 		]

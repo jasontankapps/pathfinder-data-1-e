@@ -459,7 +459,7 @@
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
 			"",
-			"A hell engine is a construct fueled by an infernal contract, bypassing the complex magic and craftsmanship needed to animate a golem or similar engine of destruction. Artificers who lack the skill or magical aptitude to craft constructs on their own may be tempted to use the power of Hell to make up for their shortcomings, surrendering their souls for the chance to see their masterpieces brought to horrifying life.",
+			"A hell engine is a construct fueled by an infernal contract, bypassing the complex magic and craftsmanship needed to animate a golem or similar engine of destruction. Artificers who lack the skill or magical aptitude to {feat/Craft Construct}s on their own may be tempted to use the power of Hell to make up for their shortcomings, surrendering their souls for the chance to see their masterpieces brought to horrifying life.",
 			"",
 			"Although a hell engine lacks the creativity and cunning of a true devil, contracting an infernal construct grants certain advantages over a bound outsider. A hell engine's mindless neutrality renders it resistant to anarchic or holy attacks that would cripple a devil, making it a valuable tool against celestial and chaotic forces. Combined with the construct's ability to banish hostile outsiders and replace them with additional devils, these war machines earn a distinguished place as shock troops in infernal armies and guardians of Hell's most secure vaults.",
 			"",
@@ -1258,8 +1258,8 @@
 			"",
 			"A trompe l'oeil is created from a masterwork painting of the base creature, with a cost varying on the size of the subject.",
 			"",
-			"Trompe l'Oeil **CL** varies (equal to the trompe l'oeil's HD); **Price** varies (100 gp per HD plus cost of painting)  ",
-			"**Requirements** Craft Construct, animate objects, enter image; Skill Craft (painting); **Cost** 500 gp per HD plus cost of painting"
+			"*Trompe l'Oeil* **CL** varies (equal to the trompe l'oeil's HD); **Price** varies (100 gp per HD plus cost of painting)  ",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/enter image}; Skill Craft (painting); **Cost** 500 gp per HD plus cost of painting"
 		]
 	},
 	"tsukumogami": {
@@ -1799,7 +1799,7 @@
 			"### Construction",
 			"",
 			"Waxwork Creature; **CL** varies (equal to the waxwork creature's HD); **Price** 1,000 gp per HD plus cost of wax  ",
-			"**Requirements** Craft Construct, animate objects, make whole; Skill Craft (sculpture); **Cost** 500 gp per HD plus cost of wax"
+			"**Requirements** {feat/Craft Construct}, animate objects, make whole; Skill Craft (sculpture); **Cost** 500 gp per HD plus cost of wax"
 		]
 	},
 	"winter_fey": {

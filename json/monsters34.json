@@ -944,7 +944,7 @@
 			"",
 			"**CL** 13th; **Price** 140,000 gp",
 			"",
-			"**Requirements** Craft Construct, greater magic weapon, imbue with spell ability, make whole, stone shape, creator must be caster level 10th; Skill Craft (carpentry, sculptures, or stonemasonry); **Cost** 80,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/greater magic weapon}, {spell/imbue with spell ability}, {spell/make whole}, {spell/stone shape}, creator must be caster level 10th; Skill Craft (carpentry, sculptures, or stonemasonry); **Cost** 80,000 gp"
 		]
 	},
 	"jyoti": {
@@ -970,7 +970,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., fly 90 ft. (good)  ",
-			"**Melee** +1 ghost touch spear +14/+9/+4 (1d8+4/&times;3 plus 1d6 fire), bite +8 (1d6+1 plus 1d6 fire)  ",
+			"**Melee** +1 {magic-enh/ghost touch>_weapon} spear +14/+9/+4 (1d8+4/&times;3 plus 1d6 fire), bite +8 (1d6+1 plus 1d6 fire)  ",
 			"**Ranged** ray +16 ranged touch (by spell)  ",
 			"**Special Attacks** {umr/breath weapon} (60-ft. cone, 11d6 fire, Reflex DC 19 half, usable once every 1d4 rounds), positive energy  ",
 			"**Spell-Like Abilities** (CL 11th; concentration +13)  ",
@@ -1956,8 +1956,8 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** fly 30 ft. (perfect, 40 ft. without armor)  ",
-			"**Melee** +1 holy halberd +18/+13/+8 (1d10+7/&times;3)  ",
-			"**Ranged** +1 holy composite longbow +20/+15/+10 (1d8+5/&times;3)  ",
+			"**Melee** +1 {magic-enh/holy} halberd +18/+13/+8 (1d10+7/&times;3)  ",
+			"**Ranged** +1 {magic-enh/holy} composite longbow +20/+15/+10 (1d8+5/&times;3)  ",
 			"**Special Attacks** healing arrow, holy weapons  ",
 			"**Spell-Like Abilities** (CL 13th; concentration +18)  ",
 			"*Constant*-{spell/detect evil}, {spell/see invisibility}  ",

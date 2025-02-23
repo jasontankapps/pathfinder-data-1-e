@@ -2522,8 +2522,8 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 50 ft., swim 60 ft.  ",
-			"**Melee** +1 returning spear +26/+21/+16 (4d6+20/19-20/&times;3), bite +19 (2d8+6), or bite +24 (2d8+13), 2 claws +24 (2d6+13)  ",
-			"**Ranged** +1 returning spear +15 (4d6+14/19-20/&times;3)  ",
+			"**Melee** +1 {magic-enh/returning} spear +26/+21/+16 (4d6+20/19-20/&times;3), bite +19 (2d8+6), or bite +24 (2d8+13), 2 claws +24 (2d6+13)  ",
+			"**Ranged** +1 {magic-enh/returning} spear +15 (4d6+14/19-20/&times;3)  ",
 			"**Space** 20 ft., **Reach** 20 ft.  ",
 			"**Special Attacks** tail swat  ",
 			"**Psychic Magic** (CL 19th; concentration +24)  ",
@@ -3318,7 +3318,7 @@
 			"",
 			"A gargoyle guardian's body is made from 1,000 pounds of dense stone - typically of the colors and designs of the structure or memorial it is meant to guard - and treated with 1,000 gp worth of rare minerals and precious filigree.",
 			"",
-			"**CL** 10th; **Price** 30,000 gp; 50,000 gp (sentry); **Requirements** Craft Construct, animate objects, stone shape, geas/quest; **Cost** 15,000 gp; 25,000 gp (sentry)"
+			"**CL** 10th; **Price** 30,000 gp; 50,000 gp (sentry); **Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/stone shape}, {spell/geas//quest}; **Cost** 15,000 gp; 25,000 gp (sentry)"
 		]
 	},
 	"gargoyle_guardian": { "copyof": "gargoyle_gargoyle_guardian" },
@@ -3665,7 +3665,7 @@
 			"",
 			"The person whose blood is used to form a homunculus's body becomes its master; it is possible for one person to give blood for the creation, another to sculpt the base material, and another to magically animate it as a minion for the one who provided the blood.",
 			"",
-			"**CL** 7th; **Price** 2,050 gp; **Requirements** Craft Construct, arcane eye, mirror image, mending; Skill Craft (leather) or Craft (sculptures) DC 12; **Cost** 1,050 gp."
+			"**CL** 7th; **Price** 2,050 gp; **Requirements** {feat/Craft Construct}, {spell/arcane eye}, {spell/mirror image}, {spell/mending}; Skill Craft (leather) or Craft (sculptures) DC 12; **Cost** 1,050 gp."
 		]
 	},
 	"hooded_harbinger": {

@@ -4160,7 +4160,7 @@
 			"",
 			"**CL** 10th; **Price** 7,500 gp",
 			"",
-			"**Requirements** Craft Construct, cat's grace, daze monster, geas/quest, ghoul touch, creator must be caster level 7th; Skill Craft (sculpture) or Heal DC 15; **Cost** 4,250 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/cat's grace}, {spell/daze monster}, {spell/geas//quest}, {spell/ghoul touch}, creator must be caster level 7th; Skill Craft (sculpture) or Heal DC 15; **Cost** 4,250 gp"
 		]
 	},
 	"neh_thalggu": {

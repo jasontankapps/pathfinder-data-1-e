@@ -658,7 +658,7 @@
 			"",
 			"**CL** 11th; **Price** 33,500 gp",
 			"",
-			"**Requirements** Craft Construct, animate objects, daze monster, geas/quest, {spell/resurrection}, creator must be caster level 11th; Skill Craft (sculpture) DC 20; **Cost** 18,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/daze monster}, {spell/geas//quest}, {spell/resurrection}, creator must be caster level 11th; Skill Craft (sculpture) DC 20; **Cost** 18,500 gp"
 		]
 	},
 	"ceratioidi": {
@@ -2032,7 +2032,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft.; icewalking  ",
-			"**Melee** +2 icy burst glaive +12/+7 (1d10+6/&times;3 plus 1d6 cold), gore +4 (2d6+1 plus 1d6 cold)  ",
+			"**Melee** +2 {magic-enh/icy burst} glaive +12/+7 (1d10+6/&times;3 plus 1d6 cold), gore +4 (2d6+1 plus 1d6 cold)  ",
 			"**Spell-Like Abilities** (CL 10th; concentration +13)  ",
 			"*Constant*-{spell/pass without trace}  ",
 			"*At will*-{spell/chill metal} (DC 15), {spell/deep slumber} (DC 16), {spell/ghost sound} (DC 13), {spell/obscuring mist}, {spell/phantom steed}, {spell/ray of frost}  ",
@@ -3356,7 +3356,7 @@
 			"",
 			"**Poison (Ex)** Injury-bite; *save* Fort DC 25; *frequency* 1/minute for 10 minutes; *effect* 1d6 Str; *cure* 2 consecutive saves.",
 			"",
-			"**Spells (Sp)** A tletli casts spells as a 12th-level sorcerer, and can cast spells from the [inquisitor](main/spells_inquisitor) and [paladin](main/spells_paladin) spell lists as well as those normally available to a [sorcerer](main/spells_sorcerer). These divine spells are considered arcane spells for the tletli, meaning that the creature does not need a divine focus to cast them.",
+			"**Spells (Sp)** A tletli casts spells as a 12th-level sorcerer, and can cast spells from the {main/spells_<inquisitor} and {main/spells_<paladin} spell lists as well as those normally available to a {main/spells_<sorcerer}. These divine spells are considered arcane spells for the tletli, meaning that the creature does not need a divine focus to cast them.",
 			"",
 			"**Stoke Flames (Ex)** Once per round when a tletli attacks with its wings, it can cause areas of active fire within 30 feet to spread as a free action. An affected 5-foot square of fire spreads to one adjacent square that is not on fire, possibly burning objects or creatures in that space. The tletli determines which adjacent squares are set on fire.",
 			"",

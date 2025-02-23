@@ -2058,7 +2058,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft.  ",
-			"**Melee** +2 keen thundering longspear +19/+14/+9 (1d8+13/19-20/&times;3) or +2 keen thundering longsword +19/+14/+9 (1d8+11/17-20)  ",
+			"**Melee** +2 {magic-enh/keen} {magic-enh/thundering} longspear +19/+14/+9 (1d8+13/19-20/&times;3) or +2 {magic-enh/keen} {magic-enh/thundering} longsword +19/+14/+9 (1d8+11/17-20)  ",
 			"**Special Attacks** petrifying glance (5/day, DC 26)  ",
 			"**Spell-Like Abilities** (CL 10th; concentration +15)  ",
 			"*5/day*-{spell/cure light wounds}, {spell/sanctuary} (DC 16)  ",

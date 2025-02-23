@@ -165,7 +165,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft., fly 80 ft. (average), swim 40 ft.  ",
-			"**Melee** +2 axiomatic keen potent bronze spear +34/+29/+24/+19 (2d6+17/19-20/&times;3), bite +24 (1d8+5 plus mark of restraint)  ",
+			"**Melee** +2 {magic-enh/axiomatic} {magic-enh/keen} {magic-enh/potent} {eq-material/bronze} spear +34/+29/+24/+19 (2d6+17/19-20/&times;3), bite +24 (1d8+5 plus mark of restraint)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** mythic power (9/day, surge +1d10), paralyzing gaze  ",
 			"**Spell-Like Abilities** (CL 19th; concentration +28)  ",
@@ -437,7 +437,7 @@
 			"",
 			"**CL** 14th; **Price** 100,000 gp",
 			"",
-			"**Requirements** Craft Construct, Mythic Crafter, antimagic field, good hope, remove fear, vengeful outrage, wish, creator must be at least mythic rank or tier 6th"
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, {spell/antimagic field}, {spell/good hope}, {spell/remove fear}, {spell/vengeful outrage}, {spell/wish}, creator must be at least mythic rank or tier 6th"
 		]
 	},
 	"champion_of_the_gilded_host": { "copyof": "champion_of_the_gilded_host_mythic" },
@@ -621,7 +621,7 @@
 			"",
 			"**CL** 12th; **Price** 120,000 gp",
 			"",
-			"**Requirements** Craft Construct, Mythic Crafter 6th mythic tier, animate dead, antimagic field, gentle repose, limited wish; Skill Heal DC 25; **Cost** 70,000 gp"
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, 6th mythic tier, {spell/animate dead}, {spell/antimagic field}, {spell/gentle repose}, {spell/limited wish}; Skill Heal DC 25; **Cost** 70,000 gp"
 		]
 	},
 	"colossus_flesh_colossus": { "copyof": "colossus_flesh_colossus_mythic" },
@@ -700,7 +700,7 @@
 			"",
 			"**CL** 17th; **Price** 500,000 gp",
 			"",
-			"**Requirements** Craft Construct, Mythic Crafter, mythic tier or rank 8, antimagic field, cloudkill, meteor swarm, rusting grasp, wall of iron, wish; Skill Craft (blacksmithing) DC 30; **Cost** 300,000 gp"
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, mythic tier or rank 8, {spell/antimagic field}, {spell/cloudkill}, {spell/meteor swarm}, {spell/rusting grasp}, {spell/wall of iron}, {spell/wish}; Skill Craft (blacksmithing) DC 30; **Cost** 300,000 gp"
 		]
 	},
 	"colossus_iron_colossus": { "copyof": "colossus_iron_colossus_mythic" },
@@ -776,7 +776,7 @@
 			"",
 			"**CL** 11th; **Price** 100,000 gp",
 			"",
-			"**Requirements** Craft Construct, Mythic Crafter, Quicken Spell, 4th mythic rank or tier, antimagic field, limited wish, moment of prescience, true strike; Skill Craft (stonemasonry) DC 25; **Cost** 62,500 gp"
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, {feat/Quicken Spell}, 4th mythic rank or tier, {spell/antimagic field}, {spell/limited wish}, {spell/moment of prescience}, {spell/true strike}; Skill Craft (stonemasonry) DC 25; **Cost** 62,500 gp"
 		]
 	},
 	"colossus_sphinx_colossus": { "copyof": "colossus_sphinx_colossus_mythic" },
@@ -853,7 +853,7 @@
 			"",
 			"**CL** 15th; **Price** 300,000 gp",
 			"",
-			"**Requirements** Craft Construct, Mythic Crafter, mythic rank or tier 8, antimagic field, magnificent mansion, make whole, wall of stone, wish; Skill Craft (stonemasonry) DC 30; **Cost** 170,000 gp",
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, mythic rank or tier 8, {spell/antimagic field}, {spellmage's magnificent mansion}, {spell/make whole}, {spell/wall of stone}, {spell/wish}; Skill Craft (stonemasonry) DC 30; **Cost** 170,000 gp",
 			"",
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
@@ -923,7 +923,7 @@
 			"",
 			"**CL** 14th; **Price** 300,000 gp",
 			"",
-			"**Requirements** Craft Construct, Mythic Crafter, 7th mythic rank or tier, antimagic field, magnificent mansion, ironwood, limited wish or miracle Skill Craft (woodworking) DC 30; **Cost** 190,000 gp",
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, 7th mythic rank or tier, {spell/antimagic field}, {spellmage's magnificent mansion}, {spell/ironwood}, {spell/limited wish} or {spell/miracle}; Skill Craft (woodworking) DC 30; **Cost** 190,000 gp",
 			"",
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
@@ -1327,7 +1327,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft., fly 60 ft. (good), ice burrowing 30 ft.  ",
-			"**Melee** +2 frost spear +23/+18/+13 (2d6+12/&times;3 plus 1d6 cold plus ice shards plus slow), bite +15 (2d6+3), tail slap +15 (1d8+3 plus slow)  ",
+			"**Melee** +2 {magic-enh/frost} spear +23/+18/+13 (2d6+12/&times;3 plus 1d6 cold plus ice shards plus slow), bite +15 (2d6+3), tail slap +15 (1d8+3 plus slow)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** entrap (DC 23, 1d10 rounds, hardness 5, hp 10), favored enemy +6, mythic power (6/day, surge +1d8), pounce  ",
 			"**Spell-Like Abilities** (CL 13th; concentration +20)  ",
@@ -2608,7 +2608,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft.  ",
-			"**Melee** ghost touch bite +15 (1d8+7/18-20/&times;3 plus burn and vorpal bite), 2 claws +15 (1d6+7)  ",
+			"**Melee** {magic-enh/ghost touch>_weapon} bite +15 (1d8+7/18-20/&times;3 plus burn and vorpal bite), 2 claws +15 (1d6+7)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** burn (1d6, DC 18), goblin king, improved bite, mythic power (2/day, surge +1d6), vorpal bite  ",
 			"**Spell-Like Abilities** (CL 9th; concentration +13)  ",
