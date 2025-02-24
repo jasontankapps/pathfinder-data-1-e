@@ -989,9 +989,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/lesser restoration}, creator must have 5 ranks in Heal; **Cost** 750 gp (Normal), 1,500 gp (Specialized)"
 		]
 	},
-	"normal_healers_satchel": {
-		"copyof": "healers_satchel_normal"
-	},
+	"normal_healers_satchel": { "copyof": "healers_satchel_normal" },
 	"healers_satchel_specialized": {
 		"name": "Healer's Satchel (Specialized)",
 		"copyof": "healers_satchel_normal"
@@ -2063,16 +2061,12 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/pyrotechnics}, {spell/spark}; **Cost** 1,000 gp (Normal), 2,250 gp (Greater)"
 		]
 	},
-	"normal_goblin_fire_drum": {
-		"copyof": "goblin_fire_drum_normal"
-	},
+	"normal_goblin_fire_drum": { "copyof": "goblin_fire_drum_normal" },
 	"goblin_fire_drum_greater": {
 		"name": "Goblin Fire Drum (Greater)",
 		"copyof": "goblin_fire_drum_normal"
 	},
-	"greater_goblin_fire_drum": {
-		"copyof": "goblin_fire_drum_greater"
-	},
+	"greater_goblin_fire_drum": { "copyof": "goblin_fire_drum_greater" },
 	"ointment_of_secret_seeing_ulfen": {
 		"name": "Ointment of Secret Seeing (Ulfen)",
 		"sources": [ "Inner Sea Races" ],
@@ -2328,9 +2322,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect evil}, {spell/light}, {spell/protection from evil}; **Cost** 1,000 gp"
 		]
 	},
-	"shining_wayfinder": {
-		"copyof": "wayfinder_shining"
-	},
+	"shining_wayfinder": { "copyof": "wayfinder_shining" },
 	"silver_nail": {
 		"name": "Silver Nail",
 		"sources": [ "Horror Adventures" ],

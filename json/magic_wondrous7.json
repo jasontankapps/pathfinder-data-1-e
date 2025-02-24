@@ -100,9 +100,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/entropic shield}, {spell/resistance}, creator must be chaotic, creator's caster level must be at least three times the cloak's bonus; **Cost** 250 gp (+1 bonus), 1,000 gp (+2 bonus), 2,250 gp (+3 bonus), 4,000 gp (+4 bonus), 6,250 gp (+5 bonus)"
 		]
 	},
-	"protean_cloak_1": {
-		"copyof": "protean_cloak_1_bonus"
-	},
+	"protean_cloak_1": { "copyof": "protean_cloak_1_bonus" },
 	"cloak_of_human_guise": {
 		"name": "Cloak of Human Guise",
 		"sources": [
@@ -342,9 +340,7 @@
 		"name": "Protean Cloak (+2 bonus)",
 		"copyof": "protean_cloak_1_bonus"
 	},
-	"protean_cloak_2": {
-		"copyof": "protean_cloak_2_bonus"
-	},
+	"protean_cloak_2": { "copyof": "protean_cloak_2_bonus" },
 	"entangling_aiguillette": {
 		"name": "Entangling Aiguillette",
 		"sources": [ "Ranged Tactics Toolbox" ],
@@ -501,9 +497,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/resistance}, creator's caster level must be at least three times the cloak's bonus; **Cost** 1,350 gp (+1 bonus), 5,400 gp (+2 bonus), 12,150 gp (+3 bonus), 21,600 gp (+4 bonus), 33,750 gp (+5 bonus)"
 		]
 	},
-	"caparison_of_resistance_1": {
-		"copyof": "caparison_of_resistance_1_bonus"
-	},
+	"caparison_of_resistance_1": { "copyof": "caparison_of_resistance_1_bonus" },
 	"cloak_of_the_crusader": {
 		"name": "Cloak of the Crusader",
 		"sources": [
@@ -787,9 +781,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/anticipate peril}, {spell/resistance}; **Cost** 2,000 gp (+1 bonus), 8,000 gp (+2 bonus), 18,500 gp (+3 bonus), 32,000 gp (+4 bonus), 50,000 gp (+5 bonus)"
 		]
 	},
-	"swordlords_cloak_1": {
-		"copyof": "swordlords_cloak_1_bonus"
-	},
+	"swordlords_cloak_1": { "copyof": "swordlords_cloak_1_bonus" },
 	"cloak_of_resistance_2": {
 		"name": "Cloak of Resistance (+2)",
 		"copyof": "cloak_of_resistance_1"
@@ -832,9 +824,7 @@
 		"name": "Protean Cloak (+3 bonus)",
 		"copyof": "protean_cloak_1_bonus"
 	},
-	"protean_cloak_3": {
-		"copyof": "protean_cloak_3_bonus"
-	},
+	"protean_cloak_3": { "copyof": "protean_cloak_3_bonus" },
 	"golden_eagle_epaulets": {
 		"name": "Golden Eagle Epaulets",
 		"sources": [
@@ -1154,9 +1144,7 @@
 		"name": "Protean Cloak (+4 bonus)",
 		"copyof": "protean_cloak_1_bonus"
 	},
-	"protean_cloak_4": {
-		"copyof": "protean_cloak_4_bonus"
-	},
+	"protean_cloak_4": { "copyof": "protean_cloak_4_bonus" },
 	"aspergillum_cloak": {
 		"name": "Aspergillum Cloak",
 		"sources": [ "Black Markets" ],
@@ -1356,16 +1344,12 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/stone shape}; **Cost** 5,000 gp"
 		]
 	},
-	"minor_stone_cloak": {
-		"copyof": "stone_cloak_minor"
-	},
+	"minor_stone_cloak": { "copyof": "stone_cloak_minor" },
 	"caparison_of_resistance_2_bonus": {
 		"name": "Caparison of Resistance (+2 bonus)",
 		"copyof": "caparison_of_resistance_1_bonus"
 	},
-	"caparison_of_resistance_2": {
-		"copyof": "caparison_of_resistance_2_bonus"
-	},
+	"caparison_of_resistance_2": { "copyof": "caparison_of_resistance_2_bonus" },
 	"cape_of_the_mountebank": {
 		"name": "Cape of the Mountebank",
 		"sources": [
@@ -1481,9 +1465,7 @@
 		"name": "Protean Cloak (+5 bonus)",
 		"copyof": "protean_cloak_1_bonus"
 	},
-	"protean_cloak_5": {
-		"copyof": "protean_cloak_5_bonus"
-	},
+	"protean_cloak_5": { "copyof": "protean_cloak_5_bonus" },
 	"cloak_of_good_fortune": {
 		"name": "Cloak of Good Fortune",
 		"sources": [ "Disciple's Doctrine" ],
@@ -1735,9 +1717,7 @@
 		"name": "Swordlord's Cloak (+2 bonus)",
 		"copyof": "swordlords_cloak_1_bonus"
 	},
-	"swordlords_cloak_2": {
-		"copyof": "swordlords_cloak_2_bonus"
-	},
+	"swordlords_cloak_2": { "copyof": "swordlords_cloak_2_bonus" },
 	"cloak_of_resistance_4": {
 		"name": "Cloak of Resistance (+4)",
 		"copyof": "cloak_of_resistance_1"
@@ -1999,9 +1979,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/stoneskin}; **Cost** 10,000 gp"
 		]
 	},
-	"major_stone_cloak": {
-		"copyof": "stone_cloak_major"
-	},
+	"major_stone_cloak": { "copyof": "stone_cloak_major" },
 	"reapers_wisdom": {
 		"name": "Reaper's Wisdom",
 		"sources": [ "Potions and Poisons" ],
@@ -2076,9 +2054,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/fly}; **Cost** 11,000 gp"
 		]
 	},
-	"lesser_wings_of_flying": {
-		"copyof": "wings_of_flying_lesser"
-	},
+	"lesser_wings_of_flying": { "copyof": "wings_of_flying_lesser" },
 	"lycanthrope_skin_skinwalker_boar_rat_wolf": {
 		"name": "Lycanthrope Skin (Skinwalker) (boar, rat, wolf)",
 		"sources": [ "Inner Sea Races" ],
@@ -2098,9 +2074,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/speak with animals}, creator must be a skinwalker; **Cost** 12,000 gp (boar, rat, wolf), 20,000 gp (brown bear, bat, crocodile, shark, tiger)"
 		]
 	},
-	"lycanthrope_skin_boar_rat_wolf": {
-		"copyof": "lycanthrope_skin_skinwalker_boar_rat_wolf"
-	},
+	"lycanthrope_skin_boar_rat_wolf": { "copyof": "lycanthrope_skin_skinwalker_boar_rat_wolf" },
 	"cloak_of_displacement_minor": {
 		"name": "Cloak of Displacement (Minor)",
 		"sources": [
@@ -2121,16 +2095,12 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/blur}; **Cost** 12,000 gp"
 		]
 	},
-	"minor_cloak_of_displacement": {
-		"copyof": "cloak_of_displacement_minor"
-	},
+	"minor_cloak_of_displacement": { "copyof": "cloak_of_displacement_minor" },
 	"caparison_of_resistance_3_bonus": {
 		"name": "Caparison of Resistance (+3 bonus)",
 		"copyof": "caparison_of_resistance_1_bonus"
 	},
-	"caparison_of_resistance_3": {
-		"copyof": "caparison_of_resistance_3_bonus"
-	},
+	"caparison_of_resistance_3": { "copyof": "caparison_of_resistance_3_bonus" },
 	"cloak_of_resistance_5": {
 		"name": "Cloak of Resistance (+5)",
 		"copyof": "cloak_of_resistance_1"
@@ -2269,9 +2239,7 @@
 		"name": "Swordlord's Cloak (+3 bonus)",
 		"copyof": "swordlords_cloak_1_bonus"
 	},
-	"swordlords_cloak_3": {
-		"copyof": "swordlords_cloak_3_bonus"
-	},
+	"swordlords_cloak_3": { "copyof": "swordlords_cloak_3_bonus" },
 	"plumed_mantle": {
 		"name": "Plumed Mantle",
 		"sources": [ "Pathfinder #34: Blood for Blood" ],
@@ -2297,9 +2265,7 @@
 		"name": "Lycanthrope Skin (Skinwalker) (brown bear, bat, crocodile, shark, tiger)",
 		"copyof": "lycanthrope_skin_skinwalker_boar_rat_wolf"
 	},
-	"lycanthrope_skin_brown_bear_bat_crocodile_shark_tiger": {
-		"copyof": "lycanthrope_skin_skinwalker_brown_bear_bat_crocodile_shark_tiger"
-	},
+	"lycanthrope_skin_brown_bear_bat_crocodile_shark_tiger": { "copyof": "lycanthrope_skin_skinwalker_brown_bear_bat_crocodile_shark_tiger" },
 	"juggernauts_pauldrons": {
 		"name": "Juggernaut's Pauldrons",
 		"sources": [ "Ultimate Equipment" ],
@@ -2321,9 +2287,7 @@
 		"name": "Caparison of Resistance (+4 bonus)",
 		"copyof": "caparison_of_resistance_1_bonus"
 	},
-	"caparison_of_resistance_4": {
-		"copyof": "caparison_of_resistance_4_bonus"
-	},
+	"caparison_of_resistance_4": { "copyof": "caparison_of_resistance_4_bonus" },
 	"charlatans_cape": {
 		"name": "Charlatan's Cape",
 		"sources": [ "Ultimate Equipment" ],
@@ -2378,9 +2342,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, {spell/displacement}; **Cost** 25,000 gp"
 		]
 	},
-	"major_cloak_of_displacement": {
-		"copyof": "cloak_of_displacement_major"
-	},
+	"major_cloak_of_displacement": { "copyof": "cloak_of_displacement_major" },
 	"wings_of_flying": {
 		"name": "Wings of Flying",
 		"sources": [
@@ -2488,9 +2450,7 @@
 		"name": "Swordlord's Cloak (+4 bonus)",
 		"copyof": "swordlords_cloak_1_bonus"
 	},
-	"swordlords_cloak_4": {
-		"copyof": "swordlords_cloak_4_bonus"
-	},
+	"swordlords_cloak_4": { "copyof": "swordlords_cloak_4_bonus" },
 	"immolation_cloak": {
 		"name": "Immolation Cloak",
 		"sources": [ "Mythic Adventures" ],
@@ -2514,9 +2474,7 @@
 		"name": "Caparison of Resistance (+5 bonus)",
 		"copyof": "caparison_of_resistance_1_bonus"
 	},
-	"caparison_of_resistance_5": {
-		"copyof": "caparison_of_resistance_5_bonus"
-	},
+	"caparison_of_resistance_5": { "copyof": "caparison_of_resistance_5_bonus" },
 	"wings_of_the_gargoyle": {
 		"name": "Wings of the Gargoyle",
 		"sources": [ "Ultimate Equipment" ],
@@ -2555,9 +2513,7 @@
 		"name": "Swordlord's Cloak (+5 bonus)",
 		"copyof": "swordlords_cloak_1_bonus"
 	},
-	"swordlords_cloak_5": {
-		"copyof": "swordlords_cloak_5_bonus"
-	},
+	"swordlords_cloak_5": { "copyof": "swordlords_cloak_5_bonus" },
 	"sleeves_of_many_garments": {
 		"name": "Sleeves of Many Garments",
 		"sources": [ "Ultimate Equipment" ],
@@ -2884,9 +2840,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Wondrous Item}, crafter must be proficient with a longbow or shortbow; **Cost** 2,500"
 		]
 	},
-	"lesser_bracers_of_archery": {
-		"copyof": "bracers_of_archery_lesser"
-	},
+	"lesser_bracers_of_archery": { "copyof": "bracers_of_archery_lesser" },
 	"spellguard_bracers": {
 		"name": "Spellguard Bracers",
 		"sources": [ "Ultimate Equipment" ],
@@ -3198,9 +3152,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/cast out}, creator must be a Shoanti; **Cost** 4,500 gp"
 		]
 	},
-	"broken_rune_bracers": {
-		"copyof": "broken_rune_bracers_shoanti"
-	},
+	"broken_rune_bracers": { "copyof": "broken_rune_bracers_shoanti" },
 	"fate_woven_braid_of_the_norns": {
 		"name": "Fate-Woven Braid of the Norns",
 		"sources": [ "Seers of the Drowned City" ],
@@ -3499,9 +3451,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}, creator must be a halfling; **Cost** 8,000 gp"
 		]
 	},
-	"bracelet_of_good_luck_charms": {
-		"copyof": "bracelet_of_good_luck_charms_halfling"
-	},
+	"bracelet_of_good_luck_charms": { "copyof": "bracelet_of_good_luck_charms_halfling" },
 	"bracers_of_celestial_intervention": {
 		"name": "Bracers of Celestial Intervention",
 		"sources": [ "Monster Summoner's Handbook" ],
@@ -3650,9 +3600,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Wondrous Item}, crafter must be proficient with a longbow or shortbow; **Cost** 12,500 gp"
 		]
 	},
-	"greater_bracers_of_archery": {
-		"copyof": "bracers_of_archery_greater"
-	},
+	"greater_bracers_of_archery": { "copyof": "bracers_of_archery_greater" },
 	"bracers_of_sworn_vengeance": {
 		"name": "Bracers of Sworn Vengeance",
 		"sources": [

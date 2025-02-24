@@ -1060,9 +1060,7 @@
 		],
 		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
-	"dwarven_boulder_helmet": {
-		"copyof": "helmet_dwarven_boulder"
-	},
+	"dwarven_boulder_helmet": { "copyof": "helmet_dwarven_boulder" },
 	"kama": {
 		"name": "Kama",
 		"sources": [
@@ -1192,9 +1190,7 @@
 		],
 		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
-	"drow_razor": {
-		"copyof": "razor_drow"
-	},
+	"drow_razor": { "copyof": "razor_drow" },
 	"rope_gauntlet": {
 		"name": "Rope gauntlet",
 		"sources": [
@@ -1696,9 +1692,7 @@
 		],
 		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
-	"dwarven_ram_hammer": {
-		"copyof": "ram_hammer_dwarven"
-	},
+	"dwarven_ram_hammer": { "copyof": "ram_hammer_dwarven" },
 	"rhoka_sword": {
 		"name": "Rhoka sword",
 		"sources": [
@@ -1960,9 +1954,7 @@
 		],
 		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
-	"gnome_battle_ladder": {
-		"copyof": "battle_ladder_gnome"
-	},
+	"gnome_battle_ladder": { "copyof": "battle_ladder_gnome" },
 	"bladed_scarf": {
 		"name": "Bladed scarf",
 		"sources": [
@@ -2472,9 +2464,7 @@
 		],
 		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
-	"dwarven_longaxe": {
-		"copyof": "longaxe_dwarven"
-	},
+	"dwarven_longaxe": { "copyof": "longaxe_dwarven" },
 	"longhammer_dwarven": {
 		"name": "Longhammer, dwarven",
 		"sources": [ "Advanced Race Guide" ],
@@ -2490,9 +2480,7 @@
 		],
 		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
-	"dwarven_longhammer": {
-		"copyof": "longhammer_dwarven"
-	},
+	"dwarven_longhammer": { "copyof": "longhammer_dwarven" },
 	"mancatcher": {
 		"name": "Mancatcher",
 		"sources": [
@@ -2588,9 +2576,7 @@
 		],
 		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
-	"gnome_piston_maul": {
-		"copyof": "piston_maul_gnome"
-	},
+	"gnome_piston_maul": { "copyof": "piston_maul_gnome" },
 	"ripsaw_glaive_gnome": {
 		"name": "Ripsaw glaive, gnome",
 		"sources": [
@@ -2610,9 +2596,7 @@
 		],
 		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
-	"gnome_ripsaw_glaive": {
-		"copyof": "ripsaw_glaive_gnome"
-	},
+	"gnome_ripsaw_glaive": { "copyof": "ripsaw_glaive_gnome" },
 	"seven_branched_sword": {
 		"name": "Seven-branched sword",
 		"sources": [
@@ -2648,9 +2632,7 @@
 		],
 		"subhierarchy": [ [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ] ]
 	},
-	"dwarven_sphinx_hammer": {
-		"copyof": "sphinx_hammer_dwarven"
-	},
+	"dwarven_sphinx_hammer": { "copyof": "sphinx_hammer_dwarven" },
 	"spiked_chain": {
 		"name": "Spiked chain",
 		"sources": [
@@ -3018,9 +3000,7 @@
 		],
 		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
-	"orc_hornbow": {
-		"copyof": "hornbow_orc"
-	},
+	"orc_hornbow": { "copyof": "hornbow_orc" },
 	"horse_bow": {
 		"name": "Horse bow",
 		"sources": [ "Merchant's Manifest" ],
@@ -3164,9 +3144,7 @@
 		],
 		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
-	"dwarven_heavy_pelletbow": {
-		"copyof": "pelletbow_dwarven_heavy"
-	},
+	"dwarven_heavy_pelletbow": { "copyof": "pelletbow_dwarven_heavy" },
 	"pelletbow_dwarven_light": {
 		"name": "Pelletbow, dwarven light",
 		"sources": [ "Heroes from the Fringe" ],
@@ -3185,9 +3163,7 @@
 		],
 		"subhierarchy": [ [ "Ranged Weapons", "main/equipment_weapons_ranged" ] ]
 	},
-	"dwarven_light_pelletbow": {
-		"copyof": "pelletbow_dwarven_light"
-	},
+	"dwarven_light_pelletbow": { "copyof": "pelletbow_dwarven_light" },
 	"repeating_hand_crossbow": {
 		"name": "Repeating hand crossbow",
 		"sources": [
@@ -3468,43 +3444,29 @@
 		],
 		"subhierarchy": [ [ "Light Weapons", "main/equipment_weapons_light" ] ]
 	},
-	"long_lash_kobold_tail": {
-		"copyof": "kobold_tail_long_lash"
-	},
-	"long_lash": {
-		"copyof": "kobold_tail_long_lash"
-	},
+	"long_lash_kobold_tail": { "copyof": "kobold_tail_long_lash" },
+	"long_lash": { "copyof": "kobold_tail_long_lash" },
 	"kobold_tail_pounder": {
 		"name": "Kobold tail, pounder",
 		"copyof": "long_lash_kobold_tail"
 	},
-	"pounder_kobold_tail": {
-		"copyof": "kobold_tail_pounder"
-	},
-	"pounder_tail": {
-		"copyof": "kobold_tail_pounder"
-	},
+	"pounder_kobold_tail": { "copyof": "kobold_tail_pounder" },
+	"pounder_tail": { "copyof": "kobold_tail_pounder" },
 	"kobold_tail_razored": {
 		"name": "Kobold tail, razored",
 		"copyof": "long_lash_kobold_tail"
 	},
-	"razored_kobold_tail": {
-		"copyof": "kobold_tail_razored"
-	},
+	"razored_kobold_tail": { "copyof": "kobold_tail_razored" },
 	"kobold_tail_spiked": {
 		"name": "Kobold tail, spiked",
 		"copyof": "long_lash_kobold_tail"
 	},
-	"spiked_kobold_tail": {
-		"copyof": "kobold_tail_spiked"
-	},
+	"spiked_kobold_tail": { "copyof": "kobold_tail_spiked" },
 	"kobold_tail_sweeper": {
 		"name": "Kobold tail, sweeper",
 		"copyof": "long_lash_kobold_tail"
 	},
-	"sweeper_kobold_tail": {
-		"copyof": "kobold_tail_sweeper"
-	},
+	"sweeper_kobold_tail": { "copyof": "kobold_tail_sweeper" },
 	"breech_loader": {
 		"name": "Breech-loader",
 		"sources": [ "Heroes of Golarion" ],
@@ -4233,9 +4195,7 @@
 		],
 		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
-	"adamantine_bullet": {
-		"copyof": "bullet_adamantine"
-	},
+	"adamantine_bullet": { "copyof": "bullet_adamantine" },
 	"bullet_screaming": {
 		"name": "Bullet, screaming",
 		"sources": [ "Heroes of Golarion" ],
@@ -4250,9 +4210,7 @@
 		],
 		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
-	"screaming_bullet": {
-		"copyof": "bullet_screaming"
-	},
+	"screaming_bullet": { "copyof": "bullet_screaming" },
 	"dragoon_cartridge": {
 		"name": "Dragoon Cartridge",
 		"sources": [ "Villain Codex" ],
@@ -4305,9 +4263,7 @@
 		],
 		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
-	"silver_firearm_bullet": {
-		"copyof": "firearm_bullet_silver"
-	},
+	"silver_firearm_bullet": { "copyof": "firearm_bullet_silver" },
 	"gunsmiths_kit": {
 		"name": "Gunsmith's kit",
 		"sources": [ "Ultimate Combat" ],

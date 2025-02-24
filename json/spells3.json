@@ -91,9 +91,7 @@
 		"name": "Create Mindscape, Greater",
 		"copyof": "create_mindscape"
 	},
-	"greater_create_mindscape": {
-		"copyof": "create_mindscape_greater"
-	},
+	"greater_create_mindscape": { "copyof": "create_mindscape_greater" },
 	"create_pit": {
 		"name": "Create Pit",
 		"sources": [
@@ -648,9 +646,7 @@
 			"This spell functions like mass cure light wounds, except that it cures 4d8 points of damage +1 point per caster level (maximum +40)."
 		]
 	},
-	"mass_cure_critical_wounds": {
-		"copyof": "cure_critical_wounds_mass"
-	},
+	"mass_cure_critical_wounds": { "copyof": "cure_critical_wounds_mass" },
 	"cure_light_wounds": {
 		"name": "Cure Light Wounds",
 		"sources": [
@@ -696,9 +692,7 @@
 			"You channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on each selected creature. Like other cure spells, mass cure light wounds deals damage to undead in its area rather than curing them. Each affected undead may attempt a Will save for half damage."
 		]
 	},
-	"mass_cure_light_wounds": {
-		"copyof": "cure_light_wounds_mass"
-	},
+	"mass_cure_light_wounds": { "copyof": "cure_light_wounds_mass" },
 	"cure_moderate_wounds": {
 		"name": "Cure Moderate Wounds",
 		"sources": [
@@ -744,9 +738,7 @@
 			"This spell functions like mass cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +30)."
 		]
 	},
-	"mass_cure_moderate_wounds": {
-		"copyof": "cure_moderate_wounds_mass"
-	},
+	"mass_cure_moderate_wounds": { "copyof": "cure_moderate_wounds_mass" },
 	"cure_serious_wounds": {
 		"name": "Cure Serious Wounds",
 		"sources": [
@@ -792,9 +784,7 @@
 			"This spell functions like mass cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +35)."
 		]
 	},
-	"mass_cure_serious_wounds": {
-		"copyof": "cure_serious_wounds_mass"
-	},
+	"mass_cure_serious_wounds": { "copyof": "cure_serious_wounds_mass" },
 	"curse_item": {
 		"name": "Curse Item",
 		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
@@ -1124,9 +1114,7 @@
 			"**Cure** {spell/Remove curse} removes a grand perilous demesne only if followed by a casting of {spell/hallow} at the effect's center, and then casting {spell/disintegrate} on each of the hazards before the next nightfall or midnight."
 		]
 	},
-	"lesser_curse_terrain": {
-		"copyof": "curse_terrain_lesser"
-	},
+	"lesser_curse_terrain": { "copyof": "curse_terrain_lesser" },
 	"curse_terrain": {
 		"name": "Curse Terrain",
 		"copyof": "lesser_curse_terrain"
@@ -1135,16 +1123,12 @@
 		"name": "Curse Terrain, Greater",
 		"copyof": "lesser_curse_terrain"
 	},
-	"greater_curse_terrain": {
-		"copyof": "curse_terrain_greater"
-	},
+	"greater_curse_terrain": { "copyof": "curse_terrain_greater" },
 	"curse_terrain_supreme": {
 		"name": "Curse Terrain, Supreme",
 		"copyof": "lesser_curse_terrain"
 	},
-	"supreme_curse_terrain": {
-		"copyof": "curse_terrain_supreme"
-	},
+	"supreme_curse_terrain": { "copyof": "curse_terrain_supreme" },
 	"curse_water": {
 		"name": "Curse Water",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1609,16 +1593,12 @@
 		"name": "Darkvision, Communal",
 		"copyof": "darkvision"
 	},
-	"communal_darkvision": {
-		"copyof": "darkvision_communal"
-	},
+	"communal_darkvision": { "copyof": "darkvision_communal" },
 	"darkvision_greater": {
 		"name": "Darkvision, Greater",
 		"copyof": "darkvision"
 	},
-	"greater_darkvision": {
-		"copyof": "darkvision_greater"
-	},
+	"greater_darkvision": { "copyof": "darkvision_greater" },
 	"darting_duplicate": {
 		"name": "Darting Duplicate",
 		"sources": [ "Melee Tactics Toolbox" ],
@@ -1794,9 +1774,7 @@
 		"name": "Daze, Mass",
 		"copyof": "daze"
 	},
-	"mass_daze": {
-		"copyof": "daze_mass"
-	},
+	"mass_daze": { "copyof": "daze_mass" },
 	"dazzling_blade": {
 		"name": "Dazzling Blade",
 		"sources": [ "Rival Guide" ],
@@ -1836,9 +1814,7 @@
 		"name": "Dazzling Blade, Mass",
 		"copyof": "dazzling_blade"
 	},
-	"mass_dazzling_blade": {
-		"copyof": "dazzling_blade_mass"
-	},
+	"mass_dazzling_blade": { "copyof": "dazzling_blade_mass" },
 	"deadeyes_arrow": {
 		"name": "Deadeye's Arrow",
 		"sources": [
@@ -2058,9 +2034,7 @@
 		"name": "Death Knell Aura, Greater",
 		"copyof": "death_knell_aura"
 	},
-	"greater_death_knell_aura": {
-		"copyof": "death_knell_aura_greater"
-	},
+	"greater_death_knell_aura": { "copyof": "death_knell_aura_greater" },
 	"death_pact": {
 		"name": "Death Pact",
 		"sources": [ "Occult Origins" ],
@@ -2212,9 +2186,7 @@
 		"name": "Debilitating Pain, Mass",
 		"copyof": "debilitating_pain"
 	},
-	"mass_debilitating_pain": {
-		"copyof": "debilitating_pain_mass"
-	},
+	"mass_debilitating_pain": { "copyof": "debilitating_pain_mass" },
 	"debilitating_portent": {
 		"name": "Debilitating Portent",
 		"sources": [ "Ultimate Combat" ],
@@ -2683,9 +2655,7 @@
 		"name": "Delay Poison, Communal",
 		"copyof": "delay_poison"
 	},
-	"communal_delay_poison": {
-		"copyof": "delay_poison_communal"
-	},
+	"communal_delay_poison": { "copyof": "delay_poison_communal" },
 	"delayed_blast_fireball": {
 		"name": "Delayed Blast Fireball",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -3277,9 +3247,7 @@
 		"name": "Detect Magic, Greater",
 		"copyof": "detect_magic"
 	},
-	"greater_detect_magic": {
-		"copyof": "detect_magic_greater"
-	},
+	"greater_detect_magic": { "copyof": "detect_magic_greater" },
 	"identifiers_eye": {
 		"name": "Identifier's Eye",
 		"copyof": "detect_magic"
@@ -4230,9 +4198,7 @@
 		"name": "Discharge, Greater",
 		"copyof": "discharge"
 	},
-	"greater_discharge": {
-		"copyof": "discharge_greater"
-	},
+	"greater_discharge": { "copyof": "discharge_greater" },
 	"discordant_blast": {
 		"name": "Discordant Blast",
 		"sources": [

@@ -281,9 +281,7 @@
 		"name": "Fortification (light)",
 		"copyof": "fortification"
 	},
-	"light_fortification": {
-		"copyof": "fortification_light"
-	},
+	"light_fortification": { "copyof": "fortification_light" },
 	"grinding": {
 		"name": "Grinding",
 		"sources": [ "Ultimate Equipment" ],
@@ -543,15 +541,9 @@
 		"name": "Buoyant (medium/heavy armor)",
 		"copyof": "buoyant_light_armor"
 	},
-	"buoyant_medium_or_heavy_armor": {
-		"copyof": "buoyant_medium_heavy_armor"
-	},
-	"buoyant_medium_armor": {
-		"copyof": "buoyant_medium_heavy_armor"
-	},
-	"buoyant_heavy_armor": {
-		"copyof": "buoyant_medium_heavy_armor"
-	},
+	"buoyant_medium_or_heavy_armor": { "copyof": "buoyant_medium_heavy_armor" },
+	"buoyant_medium_armor": { "copyof": "buoyant_medium_heavy_armor" },
+	"buoyant_heavy_armor": { "copyof": "buoyant_medium_heavy_armor" },
 	"fitting": {
 		"name": "Fitting",
 		"sources": [ "Giant Hunter's Handbook" ],
@@ -1299,9 +1291,7 @@
 		"name": "Fortification (moderate)",
 		"copyof": "fortification_light"
 	},
-	"moderate_fortification": {
-		"copyof": "fortification_moderate"
-	},
+	"moderate_fortification": { "copyof": "fortification_moderate" },
 	"ghost_touch_armor": {
 		"name": "Ghost Touch (armor, shield)",
 		"sources": [
@@ -1523,9 +1513,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** +7,500 gp"
 		]
 	},
-	"improved_shadow": {
-		"copyof": "shadow_improved"
-	},
+	"improved_shadow": { "copyof": "shadow_improved" },
 	"slick_improved": {
 		"name": "Slick, Improved",
 		"sources": [
@@ -1546,9 +1534,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/grease}; **Price** +7,500 gp"
 		]
 	},
-	"improved_slick": {
-		"copyof": "slick_improved"
-	},
+	"improved_slick": { "copyof": "slick_improved" },
 	"venom_eating": {
 		"name": "Venom-eating",
 		"sources": [ "Armor Master's Handbook" ],
@@ -1645,9 +1631,7 @@
 		"name": "Fortification (heavy)",
 		"copyof": "fortification_light"
 	},
-	"heavy_fortification": {
-		"copyof": "fortification_heavy"
-	},
+	"heavy_fortification": { "copyof": "fortification_heavy" },
 	"spell_resistance_19": {
 		"name": "Spell Resistance (19)",
 		"copyof": "spell_resistance"
@@ -1791,9 +1775,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** +16,875 gp"
 		]
 	},
-	"greater_shadow": {
-		"copyof": "shadow_greater"
-	},
+	"greater_shadow": { "copyof": "shadow_greater" },
 	"slick_greater": {
 		"name": "Slick, Greater",
 		"sources": [
@@ -1814,9 +1796,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/grease}; **Price** +16,875 gp"
 		]
 	},
-	"greater_slick": {
-		"copyof": "slick_greater"
-	},
+	"greater_slick": { "copyof": "slick_greater" },
 	"energy_resistance_improved": {
 		"name": "Energy Resistance, Improved",
 		"sources": [
@@ -1837,9 +1817,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resist energy}; **Price** +21,000 gp"
 		]
 	},
-	"improved_energy_resistance": {
-		"copyof": "energy_resistance_improved"
-	},
+	"improved_energy_resistance": { "copyof": "energy_resistance_improved" },
 	"etherealness": {
 		"name": "Etherealness",
 		"sources": [
@@ -1900,9 +1878,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resist energy}; **Price** +33,000 gp"
 		]
 	},
-	"greater_energy_resistance": {
-		"copyof": "energy_resistance_greater"
-	},
+	"greater_energy_resistance": { "copyof": "energy_resistance_greater" },
 	"arrow_catching": {
 		"name": "Arrow Catching",
 		"sources": [
@@ -2177,9 +2153,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shield other}; **Price** +2 bonus"
 		]
 	},
-	"greater_guarding": {
-		"copyof": "guarding_greater"
-	},
+	"greater_guarding": { "copyof": "guarding_greater" },
 	"jawbreaker": {
 		"name": "Jawbreaker",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2928,9 +2902,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}; **Price** -"
 		]
 	},
-	"dueling_pfsg": {
-		"copyof": "dueling_psfg"
-	},
+	"dueling_pfsg": { "copyof": "dueling_psfg" },
 	"fate_stealing": {
 		"name": "Fate-Stealing",
 		"sources": [ "Advanced Class Guide" ],

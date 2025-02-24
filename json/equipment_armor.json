@@ -187,6 +187,7 @@
 			"Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
 		]
 	},
+	"leather_armor": { "copyof": "leather" },
 	"rosewood_armor": {
 		"name": "Rosewood armor",
 		"sources": [
@@ -313,6 +314,7 @@
 			"An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
 		]
 	},
+	"studded_leather_armor": { "copyof": "studded_leather" },
 	"wooden": {
 		"name": "Wooden",
 		"sources": [
@@ -419,6 +421,7 @@
 			"Hide armor is made from the tanned skin of particularly thickhided beasts, stitched with either multiple overlapping layers of crude leather or exterior pieces of leather stuffed with padding or fur. Damage to the armor is typically repaired by restitching gashes or adding new pieces of hide, giving the most heavily used suits a distinctively patchwork quality."
 		]
 	},
+	"hide_armor": { "copyof": "hide" },
 	"do_maru": {
 		"name": "Do-maru",
 		"sources": [
@@ -1041,9 +1044,7 @@
 			"**[Weapon Group](ability/weapon_groups)** Close"
 		]
 	},
-	"dwarven_war_shield": {
-		"copyof": "war_shield_dwarven"
-	},
+	"dwarven_war_shield": { "copyof": "war_shield_dwarven" },
 	"heavy_steel_shield": {
 		"name": "Heavy steel shield",
 		"sources": [
@@ -1104,9 +1105,7 @@
 			"The snarlshield is a heavy shield that features a dozen rods protruding from its surface. When used as a weapon to bash an opponent, a snarlshield has the disarm quality."
 		]
 	},
-	"steel_snarlshield": {
-		"copyof": "snarlshield_steel"
-	},
+	"steel_snarlshield": { "copyof": "snarlshield_steel" },
 	"snarlshield_wooden": {
 		"name": "Snarlshield, wooden",
 		"sources": [
@@ -1123,9 +1122,7 @@
 			"The snarlshield is a heavy shield that features a dozen rods protruding from its surface. When used as a weapon to bash an opponent, a snarlshield has the disarm quality."
 		]
 	},
-	"wooden_snarlshield": {
-		"copyof": "snarlshield_wooden"
-	},
+	"wooden_snarlshield": { "copyof": "snarlshield_wooden" },
 	"tower_shield": {
 		"name": "Tower shield",
 		"sources": [

@@ -1019,9 +1019,7 @@
 		"name": "Knock, Mass",
 		"copyof": "knock"
 	},
-	"mass_knock": {
-		"copyof": "knock_mass"
-	},
+	"mass_knock": { "copyof": "knock_mass" },
 	"know_direction": {
 		"name": "Know Direction",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1234,9 +1232,7 @@
 		"name": "Last Azlanti's Defending Sword, Mass",
 		"copyof": "last_azlantis_defending_sword"
 	},
-	"mass_last_azlantis_defending_sword": {
-		"copyof": "last_azlantis_defending_sword_mass"
-	},
+	"mass_last_azlantis_defending_sword": { "copyof": "last_azlantis_defending_sword_mass" },
 	"lay_of_the_land": {
 		"name": "Lay of the Land",
 		"sources": [ "Faiths and Philosophies" ],
@@ -1402,9 +1398,7 @@
 		"name": "Lend Judgment, Greater",
 		"copyof": "lend_judgment"
 	},
-	"greater_lend_judgment": {
-		"copyof": "lend_judgment_greater"
-	},
+	"greater_lend_judgment": { "copyof": "lend_judgment_greater" },
 	"lend_path": {
 		"name": "Lend Path",
 		"sources": [ "Mythic Adventures" ],
@@ -1606,16 +1600,12 @@
 		"name": "Life Conduit, Greater",
 		"copyof": "life_conduit"
 	},
-	"greater_life_conduit": {
-		"copyof": "life_conduit_greater"
-	},
+	"greater_life_conduit": { "copyof": "life_conduit_greater" },
 	"life_conduit_improved": {
 		"name": "Life Conduit, Improved",
 		"copyof": "life_conduit"
 	},
-	"improved_life_conduit": {
-		"copyof": "life_conduit_improved"
-	},
+	"improved_life_conduit": { "copyof": "life_conduit_improved" },
 	"life_current": {
 		"name": "Life Current",
 		"sources": [ "Aquatic Adventures" ],
@@ -1823,9 +1813,7 @@
 		"name": "Lighten Object, Mass",
 		"copyof": "lighten_object"
 	},
-	"mass_lighten_object": {
-		"copyof": "lighten_object_mass"
-	},
+	"mass_lighten_object": { "copyof": "lighten_object_mass" },
 	"lightfingers": {
 		"name": "Lightfingers",
 		"sources": [ "Blood of the Beast" ],
@@ -2780,9 +2768,7 @@
 		"name": "Longstrider, Greater",
 		"copyof": "longstrider"
 	},
-	"greater_longstrider": {
-		"copyof": "longstrider_greater"
-	},
+	"greater_longstrider": { "copyof": "longstrider_greater" },
 	"lose_the_trail": {
 		"name": "Lose the Trail",
 		"sources": [
@@ -3310,9 +3296,7 @@
 		"name": "Magic Aura, Greater",
 		"copyof": "magic_aura"
 	},
-	"greater_magic_aura": {
-		"copyof": "magic_aura_greater"
-	},
+	"greater_magic_aura": { "copyof": "magic_aura_greater" },
 	"magic_boulder": {
 		"name": "Magic Boulder",
 		"sources": [ "Monster Codex" ],
@@ -3493,9 +3477,7 @@
 		"name": "Magic Fang, Greater",
 		"copyof": "magic_fang"
 	},
-	"greater_magic_fang": {
-		"copyof": "magic_fang_greater"
-	},
+	"greater_magic_fang": { "copyof": "magic_fang_greater" },
 	"magic_jar": {
 		"name": "Magic Jar",
 		"sources": [
@@ -3661,9 +3643,7 @@
 		"name": "Magic Siege Engine, Greater",
 		"copyof": "magic_siege_engine"
 	},
-	"greater_magic_siege_engine": {
-		"copyof": "magic_siege_engine_greater"
-	},
+	"greater_magic_siege_engine": { "copyof": "magic_siege_engine_greater" },
 	"magic_stone": {
 		"name": "Magic Stone",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -3765,9 +3745,7 @@
 		"name": "Magic Weapon, Greater",
 		"copyof": "magic_weapon"
 	},
-	"greater_magic_weapon": {
-		"copyof": "magic_weapon_greater"
-	},
+	"greater_magic_weapon": { "copyof": "magic_weapon_greater" },
 	"magnetic_field": {
 		"name": "Magnetic Field",
 		"sources": [ "People of the River" ],
@@ -3911,9 +3889,7 @@
 		"name": "Make Whole, Greater",
 		"copyof": "make_whole"
 	},
-	"greater_make_whole": {
-		"copyof": "make_whole_greater"
-	},
+	"greater_make_whole": { "copyof": "make_whole_greater" },
 	"malediction": {
 		"name": "Malediction",
 		"sources": [
@@ -4371,7 +4347,5 @@
 		"name": "Mask Dweomer, Communal",
 		"copyof": "mask_dweomer"
 	},
-	"communal_mask_dweomer": {
-		"copyof": "mask_dweomer_communal"
-	}
+	"communal_mask_dweomer": { "copyof": "mask_dweomer_communal" }
 }

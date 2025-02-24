@@ -731,7 +731,7 @@
 			"**Skills** Diplomacy +7, Heal +11, Intimidate +4, Knowledge (engineering, nobility, planes) +6, Knowledge (history, religion) +9, Knowledge (local) +3, Perception +16, Ride -1, Spellcraft +9  ",
 			"**Languages** Common  ",
 			"**SQ** aura  ",
-			"**Combat Gear** potion of haste; **Other Gear** +2 full plate, +1 flaming greatsword, masterwork dagger (2), masterwork heavy crossbow, amulet of natural armor +1, belt of giant strength +2, cloak of resistance +1, headband of inspired wisdom +2, iron unholy symbol, granite and diamond dust for stoneskin (worth 250 gp), 276 gp",
+			"**Combat Gear** potion of {spell/haste}; **Other Gear** +2 {eq-armor/full plate}, +1 {magic-enh/flaming} {eq-weapon/greatsword}, masterwork {eq-weapon/dagger} (2), masterwork {eq-weapon/heavy crossbow}, {magic-wondrous/amulet of natural armor +1}, {magic-wondrous/belt of giant strength +2}, {magic-wondrous/cloak of resistance +1}, {magic-wondrous/headband of inspired wisdom +2}, {eq-misc/iron un|holy symbol>_iron}, granite and diamond dust for stoneskin (worth 250 gp), 276 gp",
 			"",
 			"The profane general, a powerful cleric of war who leads by example, cleaves through enemies to inspire her allies and followers to greater glory and victory.",
 			"",

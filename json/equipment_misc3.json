@@ -1498,9 +1498,7 @@
 			"This 50-foot length of hemp rope has 2 hit points and can be burst with a DC 23 Strength check."
 		]
 	},
-	"rope_fifty_ft": {
-		"copyof": "rope_50_ft"
-	},
+	"rope_fifty_ft": { "copyof": "rope_50_ft" },
 	"rope_recaller": {
 		"name": "Rope recaller",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -1737,9 +1735,7 @@
 			"Craft (Alchemy) DC 10"
 		]
 	},
-	"salt_tablets_ten": {
-		"copyof": "salt_tablets_10"
-	},
+	"salt_tablets_ten": { "copyof": "salt_tablets_10" },
 	"samsaran_life_wheel": {
 		"name": "Samsaran life wheel",
 		"sources": [ "Advanced Race Guide" ],
@@ -2476,9 +2472,7 @@
 			"This tool lets you dig a pit at a rate of 2 cubic feet per minute."
 		]
 	},
-	"common_shovel": {
-		"copyof": "shovel_common_2"
-	},
+	"common_shovel": { "copyof": "shovel_common_2" },
 	"shrapnel_caltrops": {
 		"name": "Shrapnel caltrops",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -2646,9 +2640,7 @@
 		]
 	},
 	"rope_silk_50_ft": { "copyof": "silk_rope_50_ft" },
-	"silk_rope_fifty_ft": {
-		"copyof": "silk_rope_50_ft"
-	},
+	"silk_rope_fifty_ft": { "copyof": "silk_rope_50_ft" },
 	"silver_drops": {
 		"name": "Silver drops",
 		"sources": [ "Blood of the Moon" ],
@@ -2826,9 +2818,7 @@
 		"name": "Slave (slip, halfling)",
 		"copyof": "slave_hard_labor"
 	},
-	"halfling_slave_slip": {
-		"copyof": "slave_slip_halfling"
-	},
+	"halfling_slave_slip": { "copyof": "slave_slip_halfling" },
 	"slave_specialized": {
 		"name": "Slave (specialized)",
 		"copyof": "slave_hard_labor"
@@ -3565,9 +3555,7 @@
 			"This 50-foot length of rope is woven of strands of silk from monstrous spiders. Rare to virtually non-existent on the surface world, it is commonly used by the dark elves, though shorter spider's silk rope scraps (generally no more than 10 feet long) occasionally appear among goblins. Spider's silk rope has 6 hit points and can be broken with a DC 25 Strength check."
 		]
 	},
-	"spiders_silk_rope_fifty_ft": {
-		"copyof": "spiders_silk_rope_50_ft"
-	},
+	"spiders_silk_rope_fifty_ft": { "copyof": "spiders_silk_rope_50_ft" },
 	"rope_spiders_silk_50_ft": { "copyof": "spiders_silk_rope_50_ft" },
 	"spiderdraw": {
 		"name": "Spiderdraw",
@@ -4240,9 +4228,7 @@
 			"Sold in balls or spools of 50 feet, string and twine are useful for rigging traps and alarms and are a vital component of grappling bolts and arrows. String or twine has hardness 0, 1 hit point, and a break DC of 14."
 		]
 	},
-	"string_or_twine_fifty_ft": {
-		"copyof": "string_or_twine_50_ft"
-	},
+	"string_or_twine_fifty_ft": { "copyof": "string_or_twine_50_ft" },
 	"subversive_vest_vest": {
 		"name": "Subversive vest (vest)",
 		"sources": [ "Ultimate Intrigue" ],

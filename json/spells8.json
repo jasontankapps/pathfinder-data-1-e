@@ -912,9 +912,7 @@
 		"name": "Reduce Person, Mass",
 		"copyof": "reduce_person"
 	},
-	"mass_reduce_person": {
-		"copyof": "reduce_person_mass"
-	},
+	"mass_reduce_person": { "copyof": "reduce_person_mass" },
 	"refine_improvised_weapon": {
 		"name": "Refine Improvised Weapon",
 		"sources": [ "Advanced Class Guide" ],
@@ -1192,9 +1190,7 @@
 		"name": "Reinforce Armaments, Communal",
 		"copyof": "reinforce_armaments"
 	},
-	"communal_reinforce_armaments": {
-		"copyof": "reinforce_armaments_communal"
-	},
+	"communal_reinforce_armaments": { "copyof": "reinforce_armaments_communal" },
 	"reinvigorating_wind": {
 		"name": "Reinvigorating Wind",
 		"sources": [ "Villain Codex" ],
@@ -1259,9 +1255,7 @@
 			"This spell functions as lesser rejuvenate eidolon, except that it cures 5d10 points of damage +1 point per caster level (maximum +20)."
 		]
 	},
-	"lesser_rejuvenate_eidolon": {
-		"copyof": "rejuvenate_eidolon_lesser"
-	},
+	"lesser_rejuvenate_eidolon": { "copyof": "rejuvenate_eidolon_lesser" },
 	"rejuvenate_eidolon": {
 		"name": "Rejuvenate Eidolon",
 		"copyof": "lesser_rejuvenate_eidolon"
@@ -1270,9 +1264,7 @@
 		"name": "Rejuvenate Eidolon, Greater",
 		"copyof": "lesser_rejuvenate_eidolon"
 	},
-	"greater_rejuvenate_eidolon": {
-		"copyof": "rejuvenate_eidolon_greater"
-	},
+	"greater_rejuvenate_eidolon": { "copyof": "rejuvenate_eidolon_greater" },
 	"release_the_hounds": {
 		"name": "Release the Hounds",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -1482,9 +1474,7 @@
 		"name": "Remove Radioactivity, Greater",
 		"copyof": "remove_radioactivity"
 	},
-	"greater_remove_radioactivity": {
-		"copyof": "remove_radioactivity_greater"
-	},
+	"greater_remove_radioactivity": { "copyof": "remove_radioactivity_greater" },
 	"remove_sickness": {
 		"name": "Remove Sickness",
 		"sources": [ "Ultimate Magic" ],
@@ -1561,30 +1551,22 @@
 			"This functions as per rend body III, but the target takes 1d8 points of damage per caster level (maximum 20d8), and one of the target's limbs is ripped off if the amount of damage dealt is greater than 1/4 of its maximum hit point total. This spell can be undercast."
 		]
 	},
-	"rend_body_i": {
-		"copyof": "rend_body_1"
-	},
+	"rend_body_i": { "copyof": "rend_body_1" },
 	"rend_body_2": {
 		"name": "Rend Body II",
 		"copyof": "rend_body_1"
 	},
-	"rend_body_ii": {
-		"copyof": "rend_body_2"
-	},
+	"rend_body_ii": { "copyof": "rend_body_2" },
 	"rend_body_3": {
 		"name": "Rend Body III",
 		"copyof": "rend_body_1"
 	},
-	"rend_body_iii": {
-		"copyof": "rend_body_3"
-	},
+	"rend_body_iii": { "copyof": "rend_body_3" },
 	"rend_body_4": {
 		"name": "Rend Body IV",
 		"copyof": "rend_body_1"
 	},
-	"rend_body_iv": {
-		"copyof": "rend_body_4"
-	},
+	"rend_body_iv": { "copyof": "rend_body_4" },
 	"renovation": {
 		"name": "Renovation",
 		"sources": [ "Quests and Campaigns" ],
@@ -1639,9 +1621,7 @@
 			"This spell functions as {spell/repair undead}, except as noted above, and it cures 1d8 points of damage + 1 point per caster level (maximum +20) on each selected creature."
 		]
 	},
-	"mass_repair_undead": {
-		"copyof": "repair_undead_mass"
-	},
+	"mass_repair_undead": { "copyof": "repair_undead_mass" },
 	"repel_metal_or_stone": {
 		"name": "Repel Metal or Stone",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1967,9 +1947,7 @@
 		"name": "Resist Energy, Communal",
 		"copyof": "resist_energy"
 	},
-	"communal_resist_energy": {
-		"copyof": "resist_energy_communal"
-	},
+	"communal_resist_energy": { "copyof": "resist_energy_communal" },
 	"resist_starvation": {
 		"name": "Resist Starvation",
 		"sources": [ "Villain Codex" ],
@@ -2256,16 +2234,12 @@
 		"name": "Restoration, Greater",
 		"copyof": "restoration"
 	},
-	"greater_restoration": {
-		"copyof": "restoration_greater"
-	},
+	"greater_restoration": { "copyof": "restoration_greater" },
 	"restoration_lesser": {
 		"name": "Restoration, Lesser",
 		"copyof": "restoration"
 	},
-	"lesser_restoration": {
-		"copyof": "restoration_lesser"
-	},
+	"lesser_restoration": { "copyof": "restoration_lesser" },
 	"restore_corpse": {
 		"name": "Restore Corpse",
 		"sources": [ "Ultimate Magic" ],
@@ -2315,9 +2289,7 @@
 			"This spell functions as {spell/restoration}, except it only affects an eidolon."
 		]
 	},
-	"lesser_restore_eidolon": {
-		"copyof": "restore_eidolon_lesser"
-	},
+	"lesser_restore_eidolon": { "copyof": "restore_eidolon_lesser" },
 	"restore_eidolon": {
 		"name": "Restore Eidolon",
 		"copyof": "lesser_restore_eidolon"
@@ -2428,9 +2400,7 @@
 		"name": "False Resurrection, Greater",
 		"copyof": "resurrection"
 	},
-	"greater_false_resurrection": {
-		"copyof": "false_resurrection_greater"
-	},
+	"greater_false_resurrection": { "copyof": "false_resurrection_greater" },
 	"retribution": {
 		"name": "Retribution",
 		"sources": [ "Advanced Player's Guide" ],
@@ -2551,9 +2521,7 @@
 		"name": "Returning Weapon, Communal",
 		"copyof": "returning_weapon"
 	},
-	"communal_returning_weapon": {
-		"copyof": "returning_weapon_communal"
-	},
+	"communal_returning_weapon": { "copyof": "returning_weapon_communal" },
 	"reveal_emotions": {
 		"name": "Reveal Emotions",
 		"sources": [ "Heroes of the High Court" ],
@@ -3871,9 +3839,7 @@
 		"name": "Sand Whirlwind, Greater",
 		"copyof": "sand_whirlwind"
 	},
-	"greater_sand_whirlwind": {
-		"copyof": "sand_whirlwind_greater"
-	},
+	"greater_sand_whirlwind": { "copyof": "sand_whirlwind_greater" },
 	"sands_of_time": {
 		"name": "Sands of Time",
 		"sources": [
@@ -4035,9 +4001,7 @@
 		"name": "Scale Spikes, Greater",
 		"copyof": "scale_spikes"
 	},
-	"greater_scale_spikes": {
-		"copyof": "scale_spikes_greater"
-	},
+	"greater_scale_spikes": { "copyof": "scale_spikes_greater" },
 	"scales_of_deflection": {
 		"name": "Scales of Deflection",
 		"sources": [ "Legacy of Dragons" ],

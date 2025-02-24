@@ -281,9 +281,7 @@
 			"designing_encounters",
 			"placing_treasure"
 		],
-		"subtopics": [
-			"awarding_experience"
-		]
+		"subtopics": [ "awarding_experience" ]
 	},
 	"awarding_experience": {
 		"name": "Awarding Experience",
@@ -384,9 +382,7 @@
 			"basics_from_the_core_rulebook",
 			"building_an_adventure"
 		],
-		"subtopics": [
-			"building_a_treasure_hoard"
-		],
+		"subtopics": [ "building_a_treasure_hoard" ],
 		"siblings":  [
 			"stat_blocks",
 			"designing_encounters",

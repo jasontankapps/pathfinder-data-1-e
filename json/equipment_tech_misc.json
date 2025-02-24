@@ -94,65 +94,47 @@
 			"| Prismatic | +10 |"
 		]
 	},
-	"epick_black": {
-		"copyof": "e_pick_black"
-	},
+	"epick_black": { "copyof": "e_pick_black" },
 	"e_pick_blue": {
 		"name": "E-pick (blue)",
 		"copyof": "epick_black"
 	},
-	"epick_blue": {
-		"copyof": "e_pick_blue"
-	},
+	"epick_blue": { "copyof": "e_pick_blue" },
 	"e_pick_brown": {
 		"name": "E-pick (brown)",
 		"copyof": "epick_black"
 	},
-	"epick_brown": {
-		"copyof": "e_pick_brown"
-	},
+	"epick_brown": { "copyof": "e_pick_brown" },
 	"e_pick_gray": {
 		"name": "E-pick (gray)",
 		"copyof": "epick_black"
 	},
-	"epick_gray": {
-		"copyof": "e_pick_gray"
-	},
+	"epick_gray": { "copyof": "e_pick_gray" },
 	"e_pick_green": {
 		"name": "E-pick (green)",
 		"copyof": "epick_black"
 	},
-	"epick_green": {
-		"copyof": "e_pick_green"
-	},
+	"epick_green": { "copyof": "e_pick_green" },
 	"e_pick_orange": {
 		"name": "E-pick (orange)",
 		"copyof": "epick_black"
 	},
-	"epick_orange": {
-		"copyof": "e_pick_orange"
-	},
+	"epick_orange": { "copyof": "e_pick_orange" },
 	"e_pick_prismatic": {
 		"name": "E-pick (prismatic)",
 		"copyof": "epick_black"
 	},
-	"epick_prismatic": {
-		"copyof": "e_pick_prismatic"
-	},
+	"epick_prismatic": { "copyof": "e_pick_prismatic" },
 	"e_pick_red": {
 		"name": "E-pick (red)",
 		"copyof": "epick_black"
 	},
-	"epick_red": {
-		"copyof": "e_pick_red"
-	},
+	"epick_red": { "copyof": "e_pick_red" },
 	"e_pick_white": {
 		"name": "E-pick (white)",
 		"copyof": "epick_black"
 	},
-	"epick_white": {
-		"copyof": "e_pick_white"
-	},
+	"epick_white": { "copyof": "e_pick_white" },
 	"lock_coder_black": {
 		"name": "Lock Coder (black)",
 		"sources": [ "Technology Guide" ],

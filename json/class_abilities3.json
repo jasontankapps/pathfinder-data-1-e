@@ -1390,9 +1390,7 @@
 	},
 	"sagas": {
 		"name": "Sagas",
-		"sources": [
-			"Magic Tactics Toolbox"
-		],
+		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Sagas",
 			"",

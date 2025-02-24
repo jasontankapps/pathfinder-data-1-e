@@ -436,9 +436,7 @@
 		],
 		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
-	"acid_bolt": {
-		"copyof": "bolt_acid"
-	},
+	"acid_bolt": { "copyof": "bolt_acid" },
 	"bolt_alchemical_fire": {
 		"name": "Bolt, alchemical fire",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -458,9 +456,7 @@
 		],
 		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
-	"alchemical_fire_bolt": {
-		"copyof": "bolt_alchemical_fire"
-	},
+	"alchemical_fire_bolt": { "copyof": "bolt_alchemical_fire" },
 	"bolt_liquid_ice": {
 		"name": "Bolt, liquid ice",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -480,9 +476,7 @@
 		],
 		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
-	"liquid_ice_bolt": {
-		"copyof": "bolt_liquid_ice"
-	},
+	"liquid_ice_bolt": { "copyof": "bolt_liquid_ice" },
 	"bolt_poison": {
 		"name": "Bolt, poison",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -502,9 +496,7 @@
 		],
 		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
-	"poison_bolt": {
-		"copyof": "bolt_poison"
-	},
+	"poison_bolt": { "copyof": "bolt_poison" },
 	"bone_burn": {
 		"name": "Bone Burn",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
@@ -936,9 +928,7 @@
 		],
 		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
-	"spirit_firework_firecracker": {
-		"copyof": "firework_firecracker_spirit"
-	},
+	"spirit_firework_firecracker": { "copyof": "firework_firecracker_spirit" },
 	"firework_flame_fountain": {
 		"name": "Firework (flame fountain)",
 		"sources": [ "Ultimate Equipment" ],
@@ -1234,10 +1224,16 @@
 			"",
 			"A direct hit by a flask of holy water deals 2d4 points of damage to an undead creature or an evil outsider. Each such creature within 5 feet of the point where the flask hits takes 1 point of damage from the splash.",
 			"",
-			"Temples to good deities sell holy water at cost (making no profit). Holy water is made using the {spell/bless water} spell."
+			"Temples to good deities sell holy water at cost (making no profit). Holy water is made using the {spell/bless water} spell.",
+			"",
+			"### Unholy Water",
+			"",
+			"{SOURCE/PRPG Core Rulebook/263}  ",
+			"Unholy water damages good outsiders the way holy water damages undead and evil outsiders. It is made with the {spell/curse water} spell."
 		],
 		"subhierarchy": [ [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ] ]
 	},
+	"unholy_water": { "copyof": "holy_water" },
 	"holy_weapon_balm": {
 		"name": "Holy weapon balm",
 		"sources": [ "Advanced Class Guide" ],
@@ -3829,9 +3825,7 @@
 		],
 		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
-	"sharpened_combat_scabbard": {
-		"copyof": "combat_scabbard_sharpened"
-	},
+	"sharpened_combat_scabbard": { "copyof": "combat_scabbard_sharpened" },
 	"cutlass": {
 		"name": "Cutlass",
 		"sources": [
@@ -4111,9 +4105,7 @@
 		],
 		"subhierarchy": [ [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ] ]
 	},
-	"steel_terbutje": {
-		"copyof": "terbutje_steel"
-	},
+	"steel_terbutje": { "copyof": "terbutje_steel" },
 	"trident": {
 		"name": "Trident",
 		"sources": [

@@ -2180,9 +2180,7 @@
 			"**Special:** Fighters and paladins automatically have Heavy Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
-	"heavy_armor_proficiency": {
-		"copyof": "armor_proficiency_heavy"
-	},
+	"heavy_armor_proficiency": { "copyof": "armor_proficiency_heavy" },
 	"armor_proficiency_light": {
 		"name": "Armor Proficiency, Light",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2197,9 +2195,7 @@
 			"**Special:** All characters except monks, sorcerers, and wizards automatically have Light Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
-	"light_armor_proficiency": {
-		"copyof": "armor_proficiency_light"
-	},
+	"light_armor_proficiency": { "copyof": "armor_proficiency_light" },
 	"armor_proficiency_medium": {
 		"name": "Armor Proficiency, Medium",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2215,9 +2211,7 @@
 			"**Special:** Barbarians, clerics, druids, fighters, paladins, and rangers automatically have Medium Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
-	"medium_armor_proficiency": {
-		"copyof": "armor_proficiency_medium"
-	},
+	"medium_armor_proficiency": { "copyof": "armor_proficiency_medium" },
 	"armor_trick": {
 		"name": "Armor Trick",
 		"sources": [ "Armor Master's Handbook" ],

@@ -121,9 +121,7 @@
 		"name": "Illusion of Treachery, Greater",
 		"copyof": "illusion_of_treachery"
 	},
-	"greater_illusion_of_treachery": {
-		"copyof": "illusion_of_treachery_greater"
-	},
+	"greater_illusion_of_treachery": { "copyof": "illusion_of_treachery_greater" },
 	"illusory_crowd": {
 		"name": "Illusory Crowd",
 		"sources": [ "Heroes of the Streets" ],
@@ -725,9 +723,7 @@
 		"name": "Infernal Healing, Greater",
 		"copyof": "infernal_healing"
 	},
-	"greater_infernal_healing": {
-		"copyof": "infernal_healing_greater"
-	},
+	"greater_infernal_healing": { "copyof": "infernal_healing_greater" },
 	"inflict_critical_wounds": {
 		"name": "Inflict Critical Wounds",
 		"sources": [
@@ -774,9 +770,7 @@
 		"name": "Inflict Critical Wounds, Mass",
 		"copyof": "inflict_critical_wounds"
 	},
-	"mass_inflict_critical_wounds": {
-		"copyof": "inflict_critical_wounds_mass"
-	},
+	"mass_inflict_critical_wounds": { "copyof": "inflict_critical_wounds_mass" },
 	"inflict_light_wounds": {
 		"name": "Inflict Light Wounds",
 		"sources": [
@@ -827,9 +821,7 @@
 		"name": "Inflict Light Wounds, Mass",
 		"copyof": "inflict_light_wounds"
 	},
-	"mass_inflict_light_wounds": {
-		"copyof": "inflict_light_wounds_mass"
-	},
+	"mass_inflict_light_wounds": { "copyof": "inflict_light_wounds_mass" },
 	"inflict_moderate_wounds": {
 		"name": "Inflict Moderate Wounds",
 		"sources": [
@@ -876,9 +868,7 @@
 		"name": "Inflict Moderate Wounds, Mass",
 		"copyof": "inflict_moderate_wounds"
 	},
-	"mass_inflict_moderate_wounds": {
-		"copyof": "inflict_moderate_wounds_mass"
-	},
+	"mass_inflict_moderate_wounds": { "copyof": "inflict_moderate_wounds_mass" },
 	"inflict_pain": {
 		"name": "Inflict Pain",
 		"sources": [ "Occult Adventures" ],
@@ -915,9 +905,7 @@
 			"This spell functions like inflict pain except as noted above."
 		]
 	},
-	"mass_inflict_pain": {
-		"copyof": "inflict_pain_mass"
-	},
+	"mass_inflict_pain": { "copyof": "inflict_pain_mass" },
 	"inflict_serious_wounds": {
 		"name": "Inflict Serious Wounds",
 		"sources": [
@@ -964,9 +952,7 @@
 		"name": "Inflict Serious Wounds, Mass",
 		"copyof": "inflict_serious_wounds"
 	},
-	"mass_inflict_serious_wounds": {
-		"copyof": "inflict_serious_wounds_mass"
-	},
+	"mass_inflict_serious_wounds": { "copyof": "inflict_serious_wounds_mass" },
 	"influence_wild_magic": {
 		"name": "Influence Wild Magic",
 		"sources": [ "People of the Wastes" ],
@@ -1272,9 +1258,7 @@
 		"name": "Insect Spies, Greater",
 		"copyof": "insect_spies"
 	},
-	"greater_insect_spies": {
-		"copyof": "insect_spies_greater"
-	},
+	"greater_insect_spies": { "copyof": "insect_spies_greater" },
 	"inspiring_recovery": {
 		"name": "Inspiring Recovery",
 		"sources": [ "Healer's Handbook" ],
@@ -1463,9 +1447,7 @@
 		"name": "Instant Summons, Greater",
 		"copyof": "instant_summons"
 	},
-	"greater_instant_summons": {
-		"copyof": "instant_summons_greater"
-	},
+	"greater_instant_summons": { "copyof": "instant_summons_greater" },
 	"instant_weapon": {
 		"name": "Instant Weapon",
 		"sources": [ "Melee Tactics Toolbox" ],
@@ -1567,23 +1549,17 @@
 			"This spell functions as intellect fortress II, but creatures within the area who succeed at a saving throw against a fear or emotion effect suffer no effects, even if there is usually a partial effect on a successful saving throw. This spell can be undercast."
 		]
 	},
-	"intellect_fortress_i": {
-		"copyof": "intellect_fortress_1"
-	},
+	"intellect_fortress_i": { "copyof": "intellect_fortress_1" },
 	"intellect_fortress_2": {
 		"name": "Intellect Fortress II",
 		"copyof": "intellect_fortress_1"
 	},
-	"intellect_fortress_ii": {
-		"copyof": "intellect_fortress_2"
-	},
+	"intellect_fortress_ii": { "copyof": "intellect_fortress_2" },
 	"intellect_fortress_3": {
 		"name": "Intellect Fortress III",
 		"copyof": "intellect_fortress_1"
 	},
-	"intellect_fortress_iii": {
-		"copyof": "intellect_fortress_3"
-	},
+	"intellect_fortress_iii": { "copyof": "intellect_fortress_3" },
 	"intensify_psyche": {
 		"name": "Intensify Psyche",
 		"sources": [ "Heroes of the Darklands" ],
@@ -1687,9 +1663,7 @@
 		"name": "Interrogation, Greater",
 		"copyof": "interrogation"
 	},
-	"greater_interrogation": {
-		"copyof": "interrogation_greater"
-	},
+	"greater_interrogation": { "copyof": "interrogation_greater" },
 	"inveigle_monster": {
 		"name": "Inveigle Monster",
 		"copyof": "inveigle_person"
@@ -1781,9 +1755,7 @@
 		"name": "Invigorate, Mass",
 		"copyof": "invigorate"
 	},
-	"mass_invigorate": {
-		"copyof": "invigorate_mass"
-	},
+	"mass_invigorate": { "copyof": "invigorate_mass" },
 	"invigorating_poison": {
 		"name": "Invigorating Poison",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -1886,16 +1858,12 @@
 		"name": "Invisibility, Greater",
 		"copyof": "invisibility"
 	},
-	"greater_invisibility": {
-		"copyof": "invisibility_greater"
-	},
+	"greater_invisibility": { "copyof": "invisibility_greater" },
 	"invisibility_mass": {
 		"name": "Invisibility, Mass",
 		"copyof": "invisibility"
 	},
-	"mass_invisibility": {
-		"copyof": "invisibility_mass"
-	},
+	"mass_invisibility": { "copyof": "invisibility_mass" },
 	"invisibility_alarm": {
 		"name": "Invisibility Alarm",
 		"sources": [ "Advanced Class Guide" ],
@@ -1966,16 +1934,12 @@
 		"name": "Invisibility Bubble, Giant",
 		"copyof": "invisibility_bubble"
 	},
-	"giant_invisibility_bubble": {
-		"copyof": "invisibility_bubble_giant"
-	},
+	"giant_invisibility_bubble": { "copyof": "invisibility_bubble_giant" },
 	"invisibility_bubble_mass": {
 		"name": "Invisibility Bubble, Mass",
 		"copyof": "invisibility_bubble"
 	},
-	"mass_invisibility_bubble": {
-		"copyof": "invisibility_bubble_mass"
-	},
+	"mass_invisibility_bubble": { "copyof": "invisibility_bubble_mass" },
 	"invisibility_purge": {
 		"name": "Invisibility Purge",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2467,37 +2431,27 @@
 			"This functions as mental barrier III, but if you are struck by a critical hit or sneak attack, there is a 50% chance that the additional damage is negated (as moderate fortification). This does not stack with similar effects that negate the additional damage from a critical hit or sneak attack. In addition, you are immune to mind thrust I, II, and III, and you take half damage from mind thrust IV, V, and VI (reduced to one-quarter on a successful Will save). This spell can be undercast."
 		]
 	},
-	"mental_barrier_i": {
-		"copyof": "mental_barrier_1"
-	},
+	"mental_barrier_i": { "copyof": "mental_barrier_1" },
 	"mental_barrier_2": {
 		"name": "Mental Barrier II",
 		"copyof": "mental_barrier_1"
 	},
-	"mental_barrier_ii": {
-		"copyof": "mental_barrier_2"
-	},
+	"mental_barrier_ii": { "copyof": "mental_barrier_2" },
 	"mental_barrier_3": {
 		"name": "Mental Barrier III",
 		"copyof": "mental_barrier_1"
 	},
-	"mental_barrier_iii": {
-		"copyof": "mental_barrier_3"
-	},
+	"mental_barrier_iii": { "copyof": "mental_barrier_3" },
 	"mental_barrier_4": {
 		"name": "Mental Barrier IV",
 		"copyof": "mental_barrier_1"
 	},
-	"mental_barrier_iv": {
-		"copyof": "mental_barrier_4"
-	},
+	"mental_barrier_iv": { "copyof": "mental_barrier_4" },
 	"mental_barrier_5": {
 		"name": "Mental Barrier V",
 		"copyof": "mental_barrier_1"
 	},
-	"mental_barrier_v": {
-		"copyof": "mental_barrier_5"
-	},
+	"mental_barrier_v": { "copyof": "mental_barrier_5" },
 	"mental_block": {
 		"name": "Mental Block",
 		"sources": [ "Occult Adventures" ],
@@ -2594,9 +2548,7 @@
 		"name": "Demanding Message, Mass",
 		"copyof": "message"
 	},
-	"mass_demanding_message": {
-		"copyof": "demanding_message_mass"
-	},
+	"mass_demanding_message": { "copyof": "demanding_message_mass" },
 	"metabolic_molting": {
 		"name": "Metabolic Molting",
 		"sources": [ "Blood of the Beast" ],
@@ -2816,9 +2768,7 @@
 		"name": "Mind Blank, Communal",
 		"copyof": "mind_blank"
 	},
-	"communal_mind_blank": {
-		"copyof": "mind_blank_communal"
-	},
+	"communal_mind_blank": { "copyof": "mind_blank_communal" },
 	"mind_fog": {
 		"name": "Mind Fog",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2938,9 +2888,7 @@
 		"name": "Mind Swap, Major",
 		"copyof": "mind_swap"
 	},
-	"major_mind_swap": {
-		"copyof": "mind_swap_major"
-	},
+	"major_mind_swap": { "copyof": "mind_swap_major" },
 	"mind_thrust_1": {
 		"name": "Mind Thrust I",
 		"sources": [ "Occult Adventures" ],
@@ -3026,44 +2974,32 @@
 			"This functions as mind thrust IV, but the target takes 1d8 points of damage per caster level (maximum 20d8) and is exhausted and stunned for 1 round if it fails its save. This spell can be undercast."
 		]
 	},
-	"mind_thrust_i": {
-		"copyof": "mind_thrust_1"
-	},
+	"mind_thrust_i": { "copyof": "mind_thrust_1" },
 	"mind_thrust_2": {
 		"name": "Mind Thrust II",
 		"copyof": "mind_thrust_1"
 	},
-	"mind_thrust_ii": {
-		"copyof": "mind_thrust_2"
-	},
+	"mind_thrust_ii": { "copyof": "mind_thrust_2" },
 	"mind_thrust_3": {
 		"name": "Mind Thrust III",
 		"copyof": "mind_thrust_1"
 	},
-	"mind_thrust_iii": {
-		"copyof": "mind_thrust_3"
-	},
+	"mind_thrust_iii": { "copyof": "mind_thrust_3" },
 	"mind_thrust_4": {
 		"name": "Mind Thrust IV",
 		"copyof": "mind_thrust_1"
 	},
-	"mind_thrust_iv": {
-		"copyof": "mind_thrust_4"
-	},
+	"mind_thrust_iv": { "copyof": "mind_thrust_4" },
 	"mind_thrust_5": {
 		"name": "Mind Thrust V",
 		"copyof": "mind_thrust_1"
 	},
-	"mind_thrust_v": {
-		"copyof": "mind_thrust_5"
-	},
+	"mind_thrust_v": { "copyof": "mind_thrust_5" },
 	"mind_thrust_6": {
 		"name": "Mind Thrust VI",
 		"copyof": "mind_thrust_1"
 	},
-	"mind_thrust_vi": {
-		"copyof": "mind_thrust_6"
-	},
+	"mind_thrust_vi": { "copyof": "mind_thrust_6" },
 	"mindlink": {
 		"name": "Mindlink",
 		"sources": [ "Occult Adventures" ],
@@ -3329,9 +3265,7 @@
 		"name": "Minor Reversion, Mass",
 		"copyof": "minor_reversion"
 	},
-	"mass_minor_reversion": {
-		"copyof": "minor_reversion_mass"
-	},
+	"mass_minor_reversion": { "copyof": "minor_reversion_mass" },
 	"greater_reversion": {
 		"name": "Greater Reversion",
 		"copyof": "minor_reversion"
@@ -3868,9 +3802,7 @@
 		"name": "Positive Pulse, Greater",
 		"copyof": "positive_pulse"
 	},
-	"greater_positive_pulse": {
-		"copyof": "positive_pulse_greater"
-	},
+	"greater_positive_pulse": { "copyof": "positive_pulse_greater" },
 	"possession": {
 		"name": "Possession",
 		"sources": [ "Occult Adventures" ],
@@ -3914,9 +3846,7 @@
 		"name": "Possession, Greater",
 		"copyof": "possession"
 	},
-	"greater_possession": {
-		"copyof": "possession_greater"
-	},
+	"greater_possession": { "copyof": "possession_greater" },
 	"possession_trap": {
 		"name": "Possession Trap",
 		"sources": [ "Undead Slayer's Handbook" ],

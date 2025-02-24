@@ -1378,9 +1378,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/delayed blast fireball}; **Cost** 3,000 gp"
 		]
 	},
-	"greater_time_bomb": {
-		"copyof": "time_bomb_greater"
-	},
+	"greater_time_bomb": { "copyof": "time_bomb_greater" },
 	"ioun_memory_node_type_1": {
 		"name": "Ioun Memory Node (Type I)",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
@@ -1873,9 +1871,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/haste}, {spell/shrink item}, creator must be a dwarf; **Cost** 3,350 gp"
 		]
 	},
-	"anvil_of_the_skyseeker": {
-		"copyof": "anvil_of_the_skyseeker_dwarf"
-	},
+	"anvil_of_the_skyseeker": { "copyof": "anvil_of_the_skyseeker_dwarf" },
 	"bonedancer_bodhran": {
 		"name": "Bonedancer Bodhran",
 		"sources": [ "Daughters of Fury" ],
@@ -2275,9 +2271,7 @@
 			"**Requirements** {feat/Brew Potion}, {feat/Craft Wondrous Item}, {spell/universal formula}, creator must be an elf; **Cost** 3,750 gp"
 		]
 	},
-	"elven_still": {
-		"copyof": "elven_still_elf"
-	},
+	"elven_still": { "copyof": "elven_still_elf" },
 	"harp_of_charming": {
 		"name": "Harp of Charming",
 		"sources": [
@@ -2938,9 +2932,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/invisibility}, {spell/light}; **Cost** 4,000 gp"
 		]
 	},
-	"vanishing_wayfinder": {
-		"copyof": "wayfinder_vanishing"
-	},
+	"vanishing_wayfinder": { "copyof": "wayfinder_vanishing" },
 	"werewhistle": {
 		"name": "Werewhistle",
 		"sources": [ "Ultimate Equipment" ],
@@ -3348,23 +3340,17 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/poison}; **Cost** 4,500 gp (Lesser), 16,250 gp (Standard), 36,500 gp (Greater)"
 		]
 	},
-	"lesser_fetish_of_the_frog_queen": {
-		"copyof": "fetish_of_the_frog_queen_lesser"
-	},
+	"lesser_fetish_of_the_frog_queen": { "copyof": "fetish_of_the_frog_queen_lesser" },
 	"fetish_of_the_frog_queen_standard": {
 		"name": "Fetish of the Frog Queen (Standard)",
 		"copyof": "fetish_of_the_frog_queen_lesser"
 	},
-	"standard_fetish_of_the_frog_queen": {
-		"copyof": "fetish_of_the_frog_queen_standard"
-	},
+	"standard_fetish_of_the_frog_queen": { "copyof": "fetish_of_the_frog_queen_standard" },
 	"fetish_of_the_frog_queen_greater": {
 		"name": "Fetish of the Frog Queen (Greater)",
 		"copyof": "fetish_of_the_frog_queen_lesser"
 	},
-	"greater_fetish_of_the_frog_queen": {
-		"copyof": "fetish_of_the_frog_queen_greater"
-	},
+	"greater_fetish_of_the_frog_queen": { "copyof": "fetish_of_the_frog_queen_greater" },
 	"loathsome_mirror": {
 		"name": "Loathsome Mirror",
 		"sources": [ "Ultimate Equipment" ],
@@ -3525,26 +3511,18 @@
 			"**Requirements** {feat/Craft Wondrous Item} and one of the following spells per bead, as appropriate: {spell/bless} (blessing); {spell/cure serious wounds}, {spell/remove blindness//deafness}, or {spell/remove disease} (healing); {spell/righteous might} (karma); {spell/gate} (summons); {spell/chaos hammer}, {spell/holy smite}, {spell/order's wrath}, or {spell/unholy blight} (smiting); {spell/wind walk} (wind walking); **Cost** 4,800 gp (Lesser), 22,900 gp (Standard), 47,900 gp (Greater)"
 		]
 	},
-	"lesser_strand_of_prayer_beads": {
-		"copyof": "strand_of_prayer_beads_lesser"
-	},
+	"lesser_strand_of_prayer_beads": { "copyof": "strand_of_prayer_beads_lesser" },
 	"strand_of_prayer_beads_standard": {
 		"name": "Strand of Prayer Beads (Standard)",
 		"copyof": "strand_of_prayer_beads_lesser"
 	},
-	"strand_of_prayer_beads": {
-		"copyof": "strand_of_prayer_beads_standard"
-	},
-	"standard_strand_of_prayer_beads": {
-		"copyof": "strand_of_prayer_beads_standard"
-	},
+	"strand_of_prayer_beads": { "copyof": "strand_of_prayer_beads_standard" },
+	"standard_strand_of_prayer_beads": { "copyof": "strand_of_prayer_beads_standard" },
 	"strand_of_prayer_beads_greater": {
 		"name": "Strand of Prayer Beads (Greater)",
 		"copyof": "strand_of_prayer_beads_lesser"
 	},
-	"greater_strand_of_prayer_beads": {
-		"copyof": "strand_of_prayer_beads_greater"
-	},
+	"greater_strand_of_prayer_beads": { "copyof": "strand_of_prayer_beads_greater" },
 	"chirugeon_cube": {
 		"name": "Chirugeon Cube",
 		"sources": [ "Construct Handbook" ],

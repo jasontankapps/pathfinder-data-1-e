@@ -1060,16 +1060,12 @@
 			"**Requirements** {feat/Catch Off-Guard}, {feat/Craft Wondrous Item}, Improvised Weapon Mastery; **Cost** 5,000 gp (Standard), 15,000 gp (Expert)"
 		]
 	},
-	"standard_gloves_of_unexpected_violence": {
-		"copyof": "gloves_of_unexpected_violence_standard"
-	},
+	"standard_gloves_of_unexpected_violence": { "copyof": "gloves_of_unexpected_violence_standard" },
 	"gloves_of_unexpected_violence_expert": {
 		"name": "Gloves of Unexpected Violence (Expert)",
 		"copyof": "gloves_of_unexpected_violence_standard"
 	},
-	"expert_gloves_of_unexpected_violence": {
-		"copyof": "gloves_of_unexpected_violence_expert"
-	},
+	"expert_gloves_of_unexpected_violence": { "copyof": "gloves_of_unexpected_violence_expert" },
 	"stonefist_gloves": {
 		"name": "Stonefist Gloves",
 		"sources": [ "Mythic Adventures" ],
@@ -1410,9 +1406,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/rusting grasp}; **Cost** 17,250 gp"
 		]
 	},
-	"greater_gauntlet_of_rust": {
-		"copyof": "gauntlet_of_rust_greater"
-	},
+	"greater_gauntlet_of_rust": { "copyof": "gauntlet_of_rust_greater" },
 	"stormcrusher_gauntlets": {
 		"name": "Stormcrusher Gauntlets",
 		"sources": [ "Daughters of Fury" ],
@@ -2456,9 +2450,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, {spell/disguise self}, {spell/magic missile}, {spell/read magic}; **Cost** 2,500 gp"
 		]
 	},
-	"mask_of_destruction_and_creation": {
-		"copyof": "mask_of_destruction_and_creation_nethys"
-	},
+	"mask_of_destruction_and_creation": { "copyof": "mask_of_destruction_and_creation_nethys" },
 	"helm_of_comprehend_languages_and_read_magic": {
 		"name": "Helm of Comprehend Languages and Read Magic",
 		"sources": [
@@ -2596,9 +2588,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/searing light}; **Cost** 3,240 gp"
 		]
 	},
-	"minor_crown_of_blasting": {
-		"copyof": "crown_of_blasting_minor"
-	},
+	"minor_crown_of_blasting": { "copyof": "crown_of_blasting_minor" },
 	"aspect_mask": {
 		"name": "Aspect Mask",
 		"sources": [ "Advanced Class Guide" ],
@@ -3014,23 +3004,17 @@
 			"**Requirements** {feat/Craft Wondrous Item}, the {main/feats_<teamwork/ feat} to be imbued, {spell/tactical acumen}, creator must be a dwarf; **Cost** 5,000 gp (Lesser), 8,000 gp (Greater), 12,000 gp (Superior)"
 		]
 	},
-	"lesser_commanders_helm": {
-		"copyof": "commanders_helm_dwarf_lesser"
-	},
+	"lesser_commanders_helm": { "copyof": "commanders_helm_dwarf_lesser" },
 	"commanders_helm_dwarf_greater": {
 		"name": "Commander's Helm (Dwarf) (Greater)",
 		"copyof": "commanders_helm_dwarf_lesser"
 	},
-	"greater_commanders_helm": {
-		"copyof": "commanders_helm_dwarf_greater"
-	},
+	"greater_commanders_helm": { "copyof": "commanders_helm_dwarf_greater" },
 	"commanders_helm_dwarf_superior": {
 		"name": "Commander's Helm (Dwarf) (Superior)",
 		"copyof": "commanders_helm_dwarf_lesser"
 	},
-	"superior_commanders_helm": {
-		"copyof": "commanders_helm_dwarf_superior"
-	},
+	"superior_commanders_helm": { "copyof": "commanders_helm_dwarf_superior" },
 	"mask_of_a_thousand_tomes": {
 		"name": "Mask Of A Thousand Tomes",
 		"sources": [ "Ultimate Equipment" ],
@@ -3312,9 +3296,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/tongues} or the ability to speak all seven languages, creator must be a human; **Cost** 7,000 gp"
 		]
 	},
-	"translators_cap": {
-		"copyof": "translators_cap_human"
-	},
+	"translators_cap": { "copyof": "translators_cap_human" },
 	"tin_cap": {
 		"name": "Tin Cap",
 		"sources": [ "Occult Adventures" ],
@@ -3748,9 +3730,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {feat/Maximize Spell}, {spell/searing light}; **Cost** 11,880 gp"
 		]
 	},
-	"major_crown_of_blasting": {
-		"copyof": "crown_of_blasting_major"
-	},
+	"major_crown_of_blasting": { "copyof": "crown_of_blasting_major" },
 	"crystal_helm": {
 		"name": "Crystal Helm",
 		"sources": [ "Blood of the Sea" ],
@@ -4097,9 +4077,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/giant form I}; **Cost** 15,000 gp"
 		]
 	},
-	"lesser_mask_of_giants": {
-		"copyof": "mask_of_giants_lesser"
-	},
+	"lesser_mask_of_giants": { "copyof": "mask_of_giants_lesser" },
 	"nightgaunt_mask": {
 		"name": "Nightgaunt Mask",
 		"sources": [ "Pathfinder #65: Into the Nightmare Rift" ],
@@ -4142,16 +4120,12 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/grasping hand} (lesser and greater), {spell/ill omen} (greater); **Cost** 17,625 gp (Lesser), 21,125 gp (Greater)"
 		]
 	},
-	"lesser_thremyrs_beard": {
-		"copyof": "thremyrs_beard_lesser"
-	},
+	"lesser_thremyrs_beard": { "copyof": "thremyrs_beard_lesser" },
 	"thremyrs_beard_greater": {
 		"name": "Thremyr's Beard (Greater)",
 		"copyof": "thremyrs_beard_lesser"
 	},
-	"greater_thremyrs_beard": {
-		"copyof": "thremyrs_beard_greater"
-	},
+	"greater_thremyrs_beard": { "copyof": "thremyrs_beard_greater" },
 	"steel_mind_cap": {
 		"name": "Steel-mind Cap",
 		"sources": [ "Ultimate Equipment" ],
@@ -4231,9 +4205,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect undead}, {spell/fireball}, {spell/flame blade}, {spell/flaming sphere}, {spell/light}, {spell/protection from energy}, {spell/scorching ray}; **Cost** 18,000 gp"
 		]
 	},
-	"lesser_helm_of_brilliance": {
-		"copyof": "helm_of_brilliance_lesser"
-	},
+	"lesser_helm_of_brilliance": { "copyof": "helm_of_brilliance_lesser" },
 	"roseskin_comb": {
 		"name": "Roseskin Comb",
 		"sources": [ "Merchant's Manifest" ],
@@ -4393,9 +4365,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/planetary adaptation}, {spell/tongues}, creator must be a Lashunta; **Cost** 33,750 gp"
 		]
 	},
-	"diadem_of_the_interplanetary_emissary": {
-		"copyof": "diadem_of_the_interplanetary_emissary_lashunta"
-	},
+	"diadem_of_the_interplanetary_emissary": { "copyof": "diadem_of_the_interplanetary_emissary_lashunta" },
 	"helm_of_teleportation": {
 		"name": "Helm of Teleportation",
 		"sources": [
@@ -4508,9 +4478,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/cloak of dreams}, {spell/major curse}, {spell/nightmare}, creator must be a changeling; **Cost** 45,000 gp"
 		]
 	},
-	"cap_of_darkest_dreams": {
-		"copyof": "cap_of_darkest_dreams_changeling"
-	},
+	"cap_of_darkest_dreams": { "copyof": "cap_of_darkest_dreams_changeling" },
 	"magnates_miter": {
 		"name": "Magnate's Miter",
 		"sources": [ "Merchant's Manifest" ],
@@ -4550,9 +4518,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/giant form I}; **Cost** 45,000 gp"
 		]
 	},
-	"greater_mask_of_giants": {
-		"copyof": "mask_of_giants_greater"
-	},
+	"greater_mask_of_giants": { "copyof": "mask_of_giants_greater" },
 	"helm_of_the_serpent_king": {
 		"name": "Helm of the Serpent King",
 		"sources": [ "Mythic Adventures" ],

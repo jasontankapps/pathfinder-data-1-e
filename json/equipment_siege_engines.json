@@ -227,9 +227,7 @@
 			"**Category** Direct-Fire (Gargantuan); **Proficiency** Siege Engine"
 		]
 	},
-	"light_ballista": {
-		"copyof": "ballista_light"
-	},
+	"light_ballista": { "copyof": "ballista_light" },
 	"cannon": {
 		"name": "Cannon",
 		"sources": [ "Ultimate Combat" ],
@@ -249,9 +247,7 @@
 		"name": "Ballista, heavy",
 		"copyof": "light_ballista"
 	},
-	"heavy_ballista": {
-		"copyof": "ballista_heavy"
-	},
+	"heavy_ballista": { "copyof": "ballista_heavy" },
 	"cannon_fiends_mouth": {
 		"name": "Cannon, fiend's mouth",
 		"sources": [ "Ultimate Combat" ],
@@ -344,9 +340,7 @@
 			"**Category** Indirect-Fire (Gargantuan); **Proficiency** Siege Engine"
 		]
 	},
-	"light_bombard": {
-		"copyof": "bombard_light"
-	},
+	"light_bombard": { "copyof": "bombard_light" },
 	"catapult_light": {
 		"name": "Catapult, light",
 		"sources": [
@@ -378,9 +372,7 @@
 			"**Category** Indirect-Fire (Gargantuan); **Proficiency** Siege Engine"
 		]
 	},
-	"light_catapult": {
-		"copyof": "catapult_light"
-	},
+	"light_catapult": { "copyof": "catapult_light" },
 	"trebuchet_light": {
 		"name": "Trebuchet, light",
 		"sources": [ "Ultimate Combat" ],
@@ -409,9 +401,7 @@
 			"**Category** Indirect-Fire (Gargantuan); **Proficiency** Siege Engine"
 		]
 	},
-	"light_trebuchet": {
-		"copyof": "trebuchet_light"
-	},
+	"light_trebuchet": { "copyof": "trebuchet_light" },
 	"bombard_standard": {
 		"name": "Bombard, standard",
 		"copyof": "light_bombard"
@@ -442,44 +432,32 @@
 			"**Category** Indirect-Fire (Huge); **Proficiency** Siege Engine"
 		]
 	},
-	"arrow_springal": {
-		"copyof": "springal_arrow"
-	},
+	"arrow_springal": { "copyof": "springal_arrow" },
 	"springal_rocket": {
 		"name": "Springal, rocket",
 		"copyof": "arrow_springal"
 	},
-	"rocket_springal": {
-		"copyof": "springal_rocket"
-	},
+	"rocket_springal": { "copyof": "springal_rocket" },
 	"trebuchet_standard": {
 		"name": "Trebuchet, standard",
 		"copyof": "light_trebuchet"
 	},
-	"standard_trebuchet": {
-		"copyof": "trebuchet_standard"
-	},
+	"standard_trebuchet": { "copyof": "trebuchet_standard" },
 	"bombard_heavy": {
 		"name": "Bombard, heavy",
 		"copyof": "light_bombard"
 	},
-	"heavy_bombard": {
-		"copyof": "bombard_heavy"
-	},
+	"heavy_bombard": { "copyof": "bombard_heavy" },
 	"catapult_heavy": {
 		"name": "Catapult, heavy",
 		"copyof": "light_catapult"
 	},
-	"heavy_catapult": {
-		"copyof": "catapult_heavy"
-	},
+	"heavy_catapult": { "copyof": "catapult_heavy" },
 	"trebuchet_heavy": {
 		"name": "Trebuchet, heavy",
 		"copyof": "light_trebuchet"
 	},
-	"heavy_trebuchet": {
-		"copyof": "trebuchet_heavy"
-	},
+	"heavy_trebuchet": { "copyof": "trebuchet_heavy" },
 	"bridge_assault_colossal": {
 		"name": "Bridge, assault, colossal",
 		"sources": [ "Ultimate Combat" ],
@@ -523,30 +501,22 @@
 			"**Category** Close Assault; **Proficiency** Siege Engine"
 		]
 	},
-	"colossal_assault_bridge": {
-		"copyof": "bridge_assault_colossal"
-	},
+	"colossal_assault_bridge": { "copyof": "bridge_assault_colossal" },
 	"bridge_assault_gargantuan": {
 		"name": "Bridge, assault, gargantuan",
 		"copyof": "colossal_assault_bridge"
 	},
-	"gargantuan_assault_bridge": {
-		"copyof": "bridge_assault_gargantuan"
-	},
+	"gargantuan_assault_bridge": { "copyof": "bridge_assault_gargantuan" },
 	"bridge_assault_huge": {
 		"name": "Bridge, assault, huge",
 		"copyof": "colossal_assault_bridge"
 	},
-	"huge_assault_bridge": {
-		"copyof": "bridge_assault_huge"
-	},
+	"huge_assault_bridge": { "copyof": "bridge_assault_huge" },
 	"bridge_assault_large": {
 		"name": "Bridge, assault, large",
 		"copyof": "colossal_assault_bridge"
 	},
-	"large_assault_bridge": {
-		"copyof": "bridge_assault_large"
-	},
+	"large_assault_bridge": { "copyof": "bridge_assault_large" },
 	"corvus": {
 		"name": "Corvus",
 		"sources": [ "Ultimate Combat" ],
@@ -636,30 +606,22 @@
 			"**Category** Close Assault; **Proficiency** Siege Engine"
 		]
 	},
-	"colossal_gallery": {
-		"copyof": "gallery_colossal"
-	},
+	"colossal_gallery": { "copyof": "gallery_colossal" },
 	"gallery_gargantuan": {
 		"name": "Gallery, gargantuan",
 		"copyof": "colossal_gallery"
 	},
-	"gargantuan_gallery": {
-		"copyof": "gallery_gargantuan"
-	},
+	"gargantuan_gallery": { "copyof": "gallery_gargantuan" },
 	"gallery_huge": {
 		"name": "Gallery, huge",
 		"copyof": "colossal_gallery"
 	},
-	"huge_gallery": {
-		"copyof": "gallery_huge"
-	},
+	"huge_gallery": { "copyof": "gallery_huge" },
 	"gallery_large": {
 		"name": "Gallery, large",
 		"copyof": "colossal_gallery"
 	},
-	"large_gallery": {
-		"copyof": "gallery_large"
-	},
+	"large_gallery": { "copyof": "gallery_large" },
 	"harvester": {
 		"name": "Harvester",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
@@ -720,30 +682,22 @@
 			"**Category** Close Assault; **Proficiency** Siege Engine"
 		]
 	},
-	"gargantuan_ladder_escalade": {
-		"copyof": "ladder_escalade_gargantuan"
-	},
+	"gargantuan_ladder_escalade": { "copyof": "ladder_escalade_gargantuan" },
 	"ladder_escalade_colossal": {
 		"name": "Ladder, escalade, colossal",
 		"copyof": "gargantuan_ladder_escalade"
 	},
-	"colossal_ladder_escalade": {
-		"copyof": "ladder_escalade_colossal"
-	},
+	"colossal_ladder_escalade": { "copyof": "ladder_escalade_colossal" },
 	"ladder_escalade_huge": {
 		"name": "Ladder, escalade, huge",
 		"copyof": "gargantuan_ladder_escalade"
 	},
-	"huge_ladder_escalade": {
-		"copyof": "ladder_escalade_huge"
-	},
+	"huge_ladder_escalade": { "copyof": "ladder_escalade_huge" },
 	"ladder_escalade_large": {
 		"name": "Ladder, escalade, large",
 		"copyof": "gargantuan_ladder_escalade"
 	},
-	"large_ladder_escalade": {
-		"copyof": "ladder_escalade_large"
-	},
+	"large_ladder_escalade": { "copyof": "ladder_escalade_large" },
 	"ram_large": {
 		"name": "Ram, large",
 		"sources": [
@@ -797,30 +751,22 @@
 			"**Category** Close Assault; **Proficiency** Siege Engine"
 		]
 	},
-	"large_ram": {
-		"copyof": "ram_large"
-	},
+	"large_ram": { "copyof": "ram_large" },
 	"ram_colossal": {
 		"name": "Ram, colossal",
 		"copyof": "large_ram"
 	},
-	"colossal_ram": {
-		"copyof": "ram_colossal"
-	},
+	"colossal_ram": { "copyof": "ram_colossal" },
 	"ram_gargantuan": {
 		"name": "Ram, gargantuan",
 		"copyof": "large_ram"
 	},
-	"gargantuan_ram": {
-		"copyof": "ram_gargantuan"
-	},
+	"gargantuan_ram": { "copyof": "ram_gargantuan" },
 	"ram_huge": {
 		"name": "Ram, huge",
 		"copyof": "large_ram"
 	},
-	"huge_ram": {
-		"copyof": "ram_huge"
-	},
+	"huge_ram": { "copyof": "ram_huge" },
 	"siege_tower_colossal": {
 		"name": "Siege Tower, colossal",
 		"sources": [
@@ -871,30 +817,22 @@
 			"**Category** Close Assault; **Proficiency** Siege Engine"
 		]
 	},
-	"colossal_siege_tower": {
-		"copyof": "siege_tower_colossal"
-	},
+	"colossal_siege_tower": { "copyof": "siege_tower_colossal" },
 	"siege_tower_gargantuan": {
 		"name": "Siege Tower, gargantuan",
 		"copyof": "colossal_siege_tower"
 	},
-	"gargantuan_siege_tower": {
-		"copyof": "siege_tower_gargantuan"
-	},
+	"gargantuan_siege_tower": { "copyof": "siege_tower_gargantuan" },
 	"siege_tower_huge": {
 		"name": "Siege Tower, huge",
 		"copyof": "colossal_siege_tower"
 	},
-	"huge_siege_tower": {
-		"copyof": "siege_tower_huge"
-	},
+	"huge_siege_tower": { "copyof": "siege_tower_huge" },
 	"siege_tower_large": {
 		"name": "Siege Tower, large",
 		"copyof": "colossal_siege_tower"
 	},
-	"large_siege_tower": {
-		"copyof": "siege_tower_large"
-	},
+	"large_siege_tower": { "copyof": "siege_tower_large" },
 	"hotchkiss_6_pounder": {
 		"name": "Hotchkiss 6 pounder",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],

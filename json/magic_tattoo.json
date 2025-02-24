@@ -127,9 +127,7 @@
 			"**Requirements** {feat/Inscribe Magical Tattoo}, {feat/Silent Spell}, {feat/Still Spell}; **Cost** 3,000 gp (lesser), 10,500 gp (normal), 24,000 gp (greater)"
 		]
 	},
-	"lesser_casters_tattoo": {
-		"copyof": "casters_tattoo_lesser"
-	},
+	"lesser_casters_tattoo": { "copyof": "casters_tattoo_lesser" },
 	"watchtower_tattoo": {
 		"name": "Watchtower Tattoo",
 		"sources": [ "Feast of Dust" ],
@@ -263,9 +261,7 @@
 		"name": "Caster's Tattoo (Normal)",
 		"copyof": "casters_tattoo_lesser"
 	},
-	"normal_casters_tattoo": {
-		"copyof": "casters_tattoo_normal"
-	},
+	"normal_casters_tattoo": { "copyof": "casters_tattoo_normal" },
 	"penumbra_tattoo": {
 		"name": "Penumbra Tattoo",
 		"sources": [ "Blood of Shadows" ],
@@ -287,7 +283,5 @@
 		"name": "Caster's Tattoo (Greater)",
 		"copyof": "casters_tattoo_lesser"
 	},
-	"greater_casters_tattoo": {
-		"copyof": "casters_tattoo_greater"
-	}
+	"greater_casters_tattoo": { "copyof": "casters_tattoo_greater" }
 }

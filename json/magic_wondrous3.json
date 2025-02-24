@@ -1073,9 +1073,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/dimension door}, {spell/reduce animal}; **Cost** 4,500 gp"
 		]
 	},
-	"greater_best_friend_pendant": {
-		"copyof": "best_friend_pendant_greater"
-	},
+	"greater_best_friend_pendant": { "copyof": "best_friend_pendant_greater" },
 	"darksire_amulet": {
 		"name": "Darksire Amulet",
 		"sources": [ "Advanced Race Guide" ],
@@ -1153,9 +1151,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}; creator must have 5 ranks in Intimidate, Knowledge (history), and Perform (dance); creator must be a Varisian; **Cost** 4,500 gp"
 		]
 	},
-	"scarf_of_glorious_histories": {
-		"copyof": "scarf_of_glorious_histories_varisian"
-	},
+	"scarf_of_glorious_histories": { "copyof": "scarf_of_glorious_histories_varisian" },
 	"shark_tooth_amulet": {
 		"name": "Shark Tooth Amulet",
 		"sources": [ "Advanced Race Guide" ],
@@ -1211,9 +1207,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/bleaching resistance}, {spell/planar adaptation}, {spell/regenerate}, creator must be a gnome; **Cost** 5,000 gp"
 		]
 	},
-	"amulet_of_eldests_blessing": {
-		"copyof": "amulet_of_eldests_blessing_gnome"
-	},
+	"amulet_of_eldests_blessing": { "copyof": "amulet_of_eldests_blessing_gnome" },
 	"amulet_of_spell_cunning": {
 		"name": "Amulet of Spell Cunning",
 		"sources": [
@@ -1828,9 +1822,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/animal growth}; **Cost** 7,000 gp"
 		]
 	},
-	"greater_dire_collar": {
-		"copyof": "dire_collar_greater"
-	},
+	"greater_dire_collar": { "copyof": "dire_collar_greater" },
 	"fangwood_clasp": {
 		"name": "Fangwood Clasp",
 		"sources": [ "Advanced Class Origins" ],
@@ -1887,9 +1879,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/command undead}, {spell/minor creation}, creator must be a dhampir; **Cost** 7,500 gp"
 		]
 	},
-	"amulet_of_undead_persuasion": {
-		"copyof": "amulet_of_undead_persuasion_dhampir"
-	},
+	"amulet_of_undead_persuasion": { "copyof": "amulet_of_undead_persuasion_dhampir" },
 	"gorget_of_living_whispers": {
 		"name": "Gorget of Living Whispers",
 		"sources": [ "Tears at Bitter Manor" ],
@@ -2186,9 +2176,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/darkvision}, {spell/teleport}; **Cost** 10,000 gp"
 		]
 	},
-	"greater_halflight_charm": {
-		"copyof": "halflight_charm_greater"
-	},
+	"greater_halflight_charm": { "copyof": "halflight_charm_greater" },
 	"noose_of_terminal_embrace": {
 		"name": "Noose of Terminal Embrace",
 		"sources": [ "Pathfinder #77: Herald of the Ivory Labyrinth" ],
@@ -2751,9 +2739,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/sending}, {spell/status}, creator must be a Taldan; **Cost** 30,000 gp"
 		]
 	},
-	"agents_clasp": {
-		"copyof": "agents_clasp_taldan"
-	},
+	"agents_clasp": { "copyof": "agents_clasp_taldan" },
 	"torc_of_truespeech": {
 		"name": "Torc of Truespeech",
 		"sources": [ "Mythic Adventures" ],
@@ -3902,23 +3888,17 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {feat/Augment Summoning}, {spell/heroism}; **Cost** 150 gp (Lesser), 500 gp (Normal), 1,250 gp (Greater)"
 		]
 	},
-	"lesser_root_of_the_world_tree": {
-		"copyof": "root_of_the_world_tree_lesser"
-	},
+	"lesser_root_of_the_world_tree": { "copyof": "root_of_the_world_tree_lesser" },
 	"root_of_the_world_tree_normal": {
 		"name": "Root of the World Tree (Normal)",
 		"copyof": "root_of_the_world_tree_lesser"
 	},
-	"normal_root_of_the_world_tree": {
-		"copyof": "root_of_the_world_tree_normal"
-	},
+	"normal_root_of_the_world_tree": { "copyof": "root_of_the_world_tree_normal" },
 	"root_of_the_world_tree_greater": {
 		"name": "Root of the World Tree (Greater)",
 		"copyof": "root_of_the_world_tree_lesser"
 	},
-	"greater_root_of_the_world_tree": {
-		"copyof": "root_of_the_world_tree_greater"
-	},
+	"greater_root_of_the_world_tree": { "copyof": "root_of_the_world_tree_greater" },
 	"origami_swarm": {
 		"name": "Origami Swarm",
 		"sources": [ "Ultimate Equipment" ],
@@ -4409,9 +4389,7 @@
 			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, {spell/shatter}; **Cost** 250 gp"
 		]
 	},
-	"clockwork_key": {
-		"copyof": "clockwork_key_abadar"
-	},
+	"clockwork_key": { "copyof": "clockwork_key_abadar" },
 	"dweomers_essence": {
 		"name": "Dweomer's Essence",
 		"sources": [ "Pathfinder Society Field Guide" ],
@@ -4510,21 +4488,15 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/create water} (lesser), {spell/create food and water} (standard), {spell/create food and water}, {spell/stoneskin} (greater); **Cost** 250 gp (lesser), 1,000 gp (standard), 2,000 gp (greater)"
 		]
 	},
-	"lesser_replenishing_aquarium_ball": {
-		"copyof": "replenishing_aquarium_ball_lesser"
-	},
+	"lesser_replenishing_aquarium_ball": { "copyof": "replenishing_aquarium_ball_lesser" },
 	"replenishing_aquarium_ball_standard": {
 		"name": "Replenishing Aquarium Ball (Standard)",
 		"copyof": "replenishing_aquarium_ball_lesser"
 	},
-	"standard_replenishing_aquarium_ball": {
-		"copyof": "replenishing_aquarium_ball_standard"
-	},
+	"standard_replenishing_aquarium_ball": { "copyof": "replenishing_aquarium_ball_standard" },
 	"replenishing_aquarium_ball_greater": {
 		"name": "Replenishing Aquarium Ball (Greater)",
 		"copyof": "replenishing_aquarium_ball_lesser"
 	},
-	"greater_replenishing_aquarium_ball": {
-		"copyof": "replenishing_aquarium_ball_greater"
-	}
+	"greater_replenishing_aquarium_ball": { "copyof": "replenishing_aquarium_ball_greater" }
 }

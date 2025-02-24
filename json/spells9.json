@@ -51,9 +51,7 @@
 		"name": "Shapechanger's Gift, Greater",
 		"copyof": "shapechangers_gift"
 	},
-	"greater_shapechangers_gift": {
-		"copyof": "shapechangers_gift_greater"
-	},
+	"greater_shapechangers_gift": { "copyof": "shapechangers_gift_greater" },
 	"shard_of_chaos": {
 		"name": "Shard of Chaos",
 		"sources": [ "Ultimate Magic" ],
@@ -161,9 +159,7 @@
 		"name": "Share Language, Communal",
 		"copyof": "share_language"
 	},
-	"communal_share_language": {
-		"copyof": "share_language_communal"
-	},
+	"communal_share_language": { "copyof": "share_language_communal" },
 	"compel_tongue": {
 		"name": "Compel Tongue",
 		"copyof": "share_language"
@@ -172,9 +168,7 @@
 		"name": "Compel Tongue, Mass",
 		"copyof": "compel_tongue"
 	},
-	"mass_compel_tongue": {
-		"copyof": "compel_tongue_mass"
-	},
+	"mass_compel_tongue": { "copyof": "compel_tongue_mass" },
 	"share_memory": {
 		"name": "Share Memory",
 		"sources": [ "Ultimate Magic" ],
@@ -246,9 +240,7 @@
 		"name": "Share Skin, Greater",
 		"copyof": "share_skin"
 	},
-	"greater_share_skin": {
-		"copyof": "share_skin_greater"
-	},
+	"greater_share_skin": { "copyof": "share_skin_greater" },
 	"shared_sacrifice": {
 		"name": "Shared Sacrifice",
 		"sources": [
@@ -496,9 +488,7 @@
 		"name": "Shield of Fortification, Greater",
 		"copyof": "shield_of_fortification"
 	},
-	"greater_shield_of_fortification": {
-		"copyof": "shield_of_fortification_greater"
-	},
+	"greater_shield_of_fortification": { "copyof": "shield_of_fortification_greater" },
 	"shield_of_law": {
 		"name": "Shield of Law",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -593,9 +583,7 @@
 		"name": "Shield of the Dawnflower, Greater",
 		"copyof": "shield_of_the_dawnflower"
 	},
-	"greater_shield_of_the_dawnflower": {
-		"copyof": "shield_of_the_dawnflower_greater"
-	},
+	"greater_shield_of_the_dawnflower": { "copyof": "shield_of_the_dawnflower_greater" },
 	"shield_of_wings": {
 		"name": "Shield of Wings",
 		"sources": [ "Paths of the Righteous" ],
@@ -698,9 +686,7 @@
 		"name": "Shield Speech, Greater",
 		"copyof": "shield_speech"
 	},
-	"greater_shield_speech": {
-		"copyof": "shield_speech_greater"
-	},
+	"greater_shield_speech": { "copyof": "shield_speech_greater" },
 	"shield_the_banner": {
 		"name": "Shield the Banner",
 		"sources": [ "Orcs of Golarion" ],
@@ -933,9 +919,7 @@
 		"name": "Shout, Greater",
 		"copyof": "shout"
 	},
-	"greater_shout": {
-		"copyof": "shout_greater"
-	},
+	"greater_shout": { "copyof": "shout_greater" },
 	"shrink_item": {
 		"name": "Shrink Item",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1047,9 +1031,7 @@
 		"name": "Siege of Trees, Greater",
 		"copyof": "siege_of_trees"
 	},
-	"greater_siege_of_trees": {
-		"copyof": "siege_of_trees_greater"
-	},
+	"greater_siege_of_trees": { "copyof": "siege_of_trees_greater" },
 	"siege_scatter": {
 		"name": "Siege Scatter",
 		"sources": [ "Inner Sea Races" ],
@@ -1333,9 +1315,7 @@
 		"name": "Simulacrum, Lesser",
 		"copyof": "simulacrum"
 	},
-	"lesser_simulacrum": {
-		"copyof": "simulacrum_lesser"
-	},
+	"lesser_simulacrum": { "copyof": "simulacrum_lesser" },
 	"siphon_magic": {
 		"name": "Siphon Magic",
 		"sources": [ "Inner Sea Magic" ],
@@ -2064,9 +2044,7 @@
 		"name": "Song of Discord, Greater",
 		"copyof": "song_of_discord"
 	},
-	"greater_song_of_discord": {
-		"copyof": "song_of_discord_greater"
-	},
+	"greater_song_of_discord": { "copyof": "song_of_discord_greater" },
 	"song_of_kyonin": {
 		"name": "Song of Kyonin",
 		"sources": [ "Inner Sea Magic" ],
@@ -2730,9 +2708,7 @@
 		"name": "Spell Absorption, Greater",
 		"copyof": "spell_absorption"
 	},
-	"greater_spell_absorption": {
-		"copyof": "spell_absorption_greater"
-	},
+	"greater_spell_absorption": { "copyof": "spell_absorption_greater" },
 	"spell_gauge": {
 		"name": "Spell Gauge",
 		"sources": [
@@ -2822,23 +2798,17 @@
 		"name": "Spell Immunity, Communal",
 		"copyof": "spell_immunity"
 	},
-	"communal_spell_immunity": {
-		"copyof": "spell_immunity_communal"
-	},
+	"communal_spell_immunity": { "copyof": "spell_immunity_communal" },
 	"spell_immunity_greater": {
 		"name": "Spell Immunity, Greater",
 		"copyof": "spell_immunity"
 	},
-	"greater_spell_immunity": {
-		"copyof": "spell_immunity_greater"
-	},
+	"greater_spell_immunity": { "copyof": "spell_immunity_greater" },
 	"spell_immunity_greater_communal": {
 		"name": "Spell Immunity, Greater Communal",
 		"copyof": "spell_immunity"
 	},
-	"greater_communal_spell_immunity": {
-		"copyof": "spell_immunity_greater_communal"
-	},
+	"greater_communal_spell_immunity": { "copyof": "spell_immunity_greater_communal" },
 	"spell_resistance": {
 		"name": "Spell Resistance",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2955,9 +2925,7 @@
 			"This spell functions like lesser spellcasting contract, except if the target has 13 HD or more you can imbue him with one or two 4th-level spells and one 5th-level spell."
 		]
 	},
-	"lesser_spellcasting_contract": {
-		"copyof": "spellcasting_contract_lesser"
-	},
+	"lesser_spellcasting_contract": { "copyof": "spellcasting_contract_lesser" },
 	"spellcasting_contract": {
 		"name": "Spellcasting Contract",
 		"copyof": "lesser_spellcasting_contract"
@@ -2966,9 +2934,7 @@
 		"name": "Spellcasting Contract, Greater",
 		"copyof": "lesser_spellcasting_contract"
 	},
-	"greater_spellcasting_contract": {
-		"copyof": "spellcasting_contract_greater"
-	},
+	"greater_spellcasting_contract": { "copyof": "spellcasting_contract_greater" },
 	"spellcrash_lesser": {
 		"name": "Spellcrash, Lesser",
 		"sources": [ "Advanced Class Guide" ],
@@ -3025,9 +2991,7 @@
 			"This spell functions as lesser spellcrash, except that it affects 7th-level or lower prepared spells or spell slots."
 		]
 	},
-	"lesser_spellcrash": {
-		"copyof": "spellcrash_lesser"
-	},
+	"lesser_spellcrash": { "copyof": "spellcrash_lesser" },
 	"spellcrash": {
 		"name": "Spellcrash",
 		"copyof": "lesser_spellcrash"
@@ -3036,9 +3000,7 @@
 		"name": "Spellcrash, Greater",
 		"copyof": "lesser_spellcrash"
 	},
-	"greater_spellcrash": {
-		"copyof": "spellcrash_greater"
-	},
+	"greater_spellcrash": { "copyof": "spellcrash_greater" },
 	"spellcurse": {
 		"name": "Spellcurse",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -3209,9 +3171,7 @@
 		"name": "Spider Climb, Communal",
 		"copyof": "spider_climb"
 	},
-	"communal_spider_climb": {
-		"copyof": "spider_climb_communal"
-	},
+	"communal_spider_climb": { "copyof": "spider_climb_communal" },
 	"spike_growth": {
 		"name": "Spike Growth",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -3304,9 +3264,7 @@
 		"name": "Spindrift Spritz, Mass",
 		"copyof": "spindrift_spritz"
 	},
-	"mass_spindrift_spritz": {
-		"copyof": "spindrift_spritz_mass"
-	},
+	"mass_spindrift_spritz": { "copyof": "spindrift_spritz_mass" },
 	"spiral_ascent": {
 		"name": "Spiral Ascent",
 		"sources": [ "Inner Sea Temples" ],
@@ -3991,9 +3949,7 @@
 		"name": "Steal Years, Greater",
 		"copyof": "steal_years"
 	},
-	"greater_steal_years": {
-		"copyof": "steal_years_greater"
-	},
+	"greater_steal_years": { "copyof": "steal_years_greater" },
 	"steam_ray_fusillade": {
 		"name": "Steam Ray Fusillade",
 		"sources": [ "Aquatic Adventures" ],
@@ -4341,9 +4297,7 @@
 		"name": "Stoneskin, Communal",
 		"copyof": "stoneskin"
 	},
-	"communal_stoneskin": {
-		"copyof": "stoneskin_communal"
-	},
+	"communal_stoneskin": { "copyof": "stoneskin_communal" },
 	"clay_skin": {
 		"name": "Clay Skin",
 		"copyof": "stoneskin"

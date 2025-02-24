@@ -214,9 +214,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shatter}, {spell/true strike}, creator must be an Ulfen; **Price** 10,310 gp"
 		]
 	},
-	"shields_bane": {
-		"copyof": "shields_bane_ulfen"
-	},
+	"shields_bane": { "copyof": "shields_bane_ulfen" },
 	"valorous_blade": {
 		"name": "Valorous Blade",
 		"sources": [ "Weapon Master's Handbook" ],
@@ -287,9 +285,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/keen edge}, creator must be a tengu; **Price** 10,350 gp"
 		]
 	},
-	"dueling_bokken": {
-		"copyof": "dueling_bokken_tengu"
-	},
+	"dueling_bokken": { "copyof": "dueling_bokken_tengu" },
 	"hellcallers_edge": {
 		"name": "Hellcaller's Edge",
 		"sources": [ "Cheliax, Empire of Devils" ],
@@ -1652,9 +1648,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/sanctuary}, creator must be a Taldan; **Price** 16,320 gp"
 		]
 	},
-	"gentlemans_foil": {
-		"copyof": "gentlemans_foil_taldan"
-	},
+	"gentlemans_foil": { "copyof": "gentlemans_foil_taldan" },
 	"sword_of_vengeance": {
 		"name": "Sword of Vengeance",
 		"sources": [ "Chronicle of the Righteous" ],
@@ -1852,9 +1846,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bleed}, {spell/warp wood}, creator must be a gillman; **Price** 17,655 gp"
 		]
 	},
-	"errani_kamaki": {
-		"copyof": "errani_kamaki_gillmen"
-	},
+	"errani_kamaki": { "copyof": "errani_kamaki_gillmen" },
 	"hunters_mambele_mwangi": {
 		"name": "Hunter's Mambele (Mwangi)",
 		"sources": [ "Inner Sea Races" ],
@@ -1874,9 +1866,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/locate creature}, {spell/returning weapon}, creator must be a Mwangi; **Price** 17,804 gp"
 		]
 	},
-	"hunters_mambele": {
-		"copyof": "hunters_mambele_mwangi"
-	},
+	"hunters_mambele": { "copyof": "hunters_mambele_mwangi" },
 	"ghouls_lament": {
 		"name": "Ghoul's Lament",
 		"sources": [ "Ultimate Equipment" ],
@@ -1913,9 +1903,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/protection from evil}, {spell/summon monster I}, creator must be an Azlanti; **Price** 17,815 gp"
 		]
 	},
-	"scalerazor": {
-		"copyof": "scalerazor_azlanti"
-	},
+	"scalerazor": { "copyof": "scalerazor_azlanti" },
 	"duelists_comate": {
 		"name": "Duelist's Comate",
 		"sources": [ "Advanced Class Guide" ],
@@ -2612,9 +2600,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/lightning bolt}, {spell/sound burst}, creator must be a Shoanti; **Price** 25,340 gp"
 		]
 	},
-	"storvals_thunder": {
-		"copyof": "storvals_thunder_shoanti"
-	},
+	"storvals_thunder": { "copyof": "storvals_thunder_shoanti" },
 	"true_warriors_blade_kellid": {
 		"name": "True Warrior's Blade (Kellid)",
 		"sources": [ "Inner Sea Races" ],
@@ -2634,9 +2620,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/antimagic field}, creator must be a Kellid; **Price** 25,350 gp"
 		]
 	},
-	"true_warriors_blade": {
-		"copyof": "true_warriors_blade_kellid"
-	},
+	"true_warriors_blade": { "copyof": "true_warriors_blade_kellid" },
 	"dragonbreath_bow": {
 		"name": "Dragonbreath Bow",
 		"sources": [ "Mythic Adventures" ],
@@ -2963,9 +2947,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/haste}, {spell/true seeing}, creator must be a halfling; **Price** 30,320 gp"
 		]
 	},
-	"clever_sling_staff": {
-		"copyof": "clever_sling_staff_halfling"
-	},
+	"clever_sling_staff": { "copyof": "clever_sling_staff_halfling" },
 	"bloodthirst_dagger": {
 		"name": "Bloodthirst Dagger",
 		"sources": [ "Ultimate Equipment" ],
@@ -3317,9 +3299,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bleed}, {spell/cruel jaunt}, {spell/keen edge}, creator must sacrifice a sentient living creature; **Price** 39,310 gp"
 		]
 	},
-	"greater_murderers_machete": {
-		"copyof": "murderers_machete_greater"
-	},
+	"greater_murderers_machete": { "copyof": "murderers_machete_greater" },
 	"spiders_fang": {
 		"name": "Spider's Fang",
 		"sources": [ "Ultimate Equipment" ],

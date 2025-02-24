@@ -56,9 +56,7 @@
 		"name": "Eldritch Conduit, Greater",
 		"copyof": "eldritch_conduit"
 	},
-	"greater_eldritch_conduit": {
-		"copyof": "eldritch_conduit_greater"
-	},
+	"greater_eldritch_conduit": { "copyof": "eldritch_conduit_greater" },
 	"eldritch_fever": {
 		"name": "Eldritch Fever",
 		"sources": [ "Ultimate Magic" ],
@@ -245,30 +243,22 @@
 			"*Augmented (3rd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. You can also, a number of times equal to your tier, add half your tier to the DC of one spell you cast with an energy descriptor that matches your elemental type (air: electricity, earth: acid, fire: fire, water: cold)."
 		]
 	},
-	"elemental_body_i": {
-		"copyof": "elemental_body_1"
-	},
+	"elemental_body_i": { "copyof": "elemental_body_1" },
 	"elemental_body_2": {
 		"name": "Elemental Body II",
 		"copyof": "elemental_body_1"
 	},
-	"elemental_body_ii": {
-		"copyof": "elemental_body_2"
-	},
+	"elemental_body_ii": { "copyof": "elemental_body_2" },
 	"elemental_body_3": {
 		"name": "Elemental Body III",
 		"copyof": "elemental_body_1"
 	},
-	"elemental_body_iii": {
-		"copyof": "elemental_body_3"
-	},
+	"elemental_body_iii": { "copyof": "elemental_body_3" },
 	"elemental_body_4": {
 		"name": "Elemental Body IV",
 		"copyof": "elemental_body_1"
 	},
-	"elemental_body_iv": {
-		"copyof": "elemental_body_4"
-	},
+	"elemental_body_iv": { "copyof": "elemental_body_4" },
 	"elemental_bombardment": {
 		"name": "Elemental Bombardment",
 		"sources": [
@@ -671,9 +661,7 @@
 		"name": "Endure Elements, Communal",
 		"copyof": "endure_elements"
 	},
-	"communal_endure_elements": {
-		"copyof": "endure_elements_communal"
-	},
+	"communal_endure_elements": { "copyof": "endure_elements_communal" },
 	"enemy_hammer": {
 		"name": "Enemy Hammer",
 		"sources": [
@@ -842,9 +830,7 @@
 		"name": "Energy Siege Shot, Greater",
 		"copyof": "energy_siege_shot"
 	},
-	"greater_energy_siege_shot": {
-		"copyof": "energy_siege_shot_greater"
-	},
+	"greater_energy_siege_shot": { "copyof": "energy_siege_shot_greater" },
 	"enervation": {
 		"name": "Enervation",
 		"sources": [
@@ -977,9 +963,7 @@
 		"name": "Enlarge Person, Mass",
 		"copyof": "enlarge_person"
 	},
-	"mass_enlarge_person": {
-		"copyof": "enlarge_person_mass"
-	},
+	"mass_enlarge_person": { "copyof": "enlarge_person_mass" },
 	"enlarge_tail": {
 		"name": "Enlarge Tail",
 		"sources": [ "Kobolds of Golarion" ],
@@ -1231,9 +1215,7 @@
 			"This spell functions as lesser entice fey, except the spell's whimsical calling can produce a single fey of 18 Hit Dice or less, or up to three fey of the same kind whose Hit Dice total no more than 18."
 		]
 	},
-	"lesser_entice_fey": {
-		"copyof": "entice_fey_lesser"
-	},
+	"lesser_entice_fey": { "copyof": "entice_fey_lesser" },
 	"entice_fey": {
 		"name": "Entice Fey",
 		"copyof": "lesser_entice_fey"
@@ -1242,9 +1224,7 @@
 		"name": "Entice Fey, Greater",
 		"copyof": "lesser_entice_fey"
 	},
-	"greater_entice_fey": {
-		"copyof": "entice_fey_greater"
-	},
+	"greater_entice_fey": { "copyof": "entice_fey_greater" },
 	"enticing_adulation": {
 		"name": "Enticing Adulation",
 		"sources": [ "Agents of Evil" ],
@@ -1724,9 +1704,7 @@
 			"This spell functions as lesser evolution surge, except that you can grant any two evolutions whose total cost does not exceed 6 evolution points."
 		]
 	},
-	"lesser_evolution_surge": {
-		"copyof": "evolution_surge_lesser"
-	},
+	"lesser_evolution_surge": { "copyof": "evolution_surge_lesser" },
 	"evolution_surge": {
 		"name": "Evolution Surge",
 		"copyof": "lesser_evolution_surge"
@@ -1735,9 +1713,7 @@
 		"name": "Evolution Surge, Greater",
 		"copyof": "lesser_evolution_surge"
 	},
-	"greater_evolution_surge": {
-		"copyof": "evolution_surge_greater"
-	},
+	"greater_evolution_surge": { "copyof": "evolution_surge_greater" },
 	"excruciating_deformation": {
 		"name": "Excruciating Deformation",
 		"sources": [ "Ultimate Magic" ],
@@ -2381,9 +2357,7 @@
 		"name": "False Life, Greater",
 		"copyof": "false_life"
 	},
-	"greater_false_life": {
-		"copyof": "false_life_greater"
-	},
+	"greater_false_life": { "copyof": "false_life_greater" },
 	"false_vision": {
 		"name": "False Vision",
 		"sources": [
@@ -2426,9 +2400,7 @@
 		"name": "False Vision, Greater",
 		"copyof": "false_vision"
 	},
-	"greater_false_vision": {
-		"copyof": "false_vision_greater"
-	},
+	"greater_false_vision": { "copyof": "false_vision_greater" },
 	"familiar_figment": {
 		"name": "Familiar Figment",
 		"sources": [ "Animal Archive" ],
@@ -2667,9 +2639,7 @@
 		"name": "Feather Step, Mass",
 		"copyof": "feather_step"
 	},
-	"mass_feather_step": {
-		"copyof": "feather_step_mass"
-	},
+	"mass_feather_step": { "copyof": "feather_step_mass" },
 	"feeblemind": {
 		"name": "Feeblemind",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2741,9 +2711,7 @@
 		"name": "Fester, Mass",
 		"copyof": "fester"
 	},
-	"mass_fester": {
-		"copyof": "fester_mass"
-	},
+	"mass_fester": { "copyof": "fester_mass" },
 	"fey_form_1": {
 		"name": "Fey Form I",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2813,30 +2781,22 @@
 			"This spell functions as fey form III except it doesn't limit your base speed and also allows you to use more abilities. If the form you assume has any of the following abilities, you gain those abilities: burrow speed 60 feet, climb speed 90 feet, fly speed 120 feet (good maneuverability), swim speed 120 feet, all-around vision, blindsense 60 feet, blindsight 30 feet, darkvision 90 feet, low-light vision, scent, see in darkness, tremorsense 60 feet, abduct, animated hair, beguiling aura, bleed, blood rage, boot stomp, burn, compression, constrict, crushing leap, DR 5/cold iron, fast healing 5, fear aura, frightful presence, grab, heavy weapons, hide in plain sight, icewalking, kneecapper, luminous, nasal spray, no shadow, oversized weapons, poison, putrid vomit, rend, rock throwing (120 feet, 2d10 damage), sound mimicry, supernatural speed, tear shadow, trackless step, trample, transparency, tree meld, undersized weapons, vault, and woodland stride. If the creature has immunity or resistance to any energy types, you gain resistance 30 to those energy types. If the creature has immunity to mind-affecting effects or poison, you gain a +8 resistance bonus on saves against those effects. If the creature has spell resistance, you gain spell resistance 6 + your caster level. If the creature has any weaknesses, you gain those weaknesses."
 		]
 	},
-	"fey_form_i": {
-		"copyof": "fey_form_1"
-	},
+	"fey_form_i": { "copyof": "fey_form_1" },
 	"fey_form_2": {
 		"name": "Fey Form II",
 		"copyof": "fey_form_1"
 	},
-	"fey_form_ii": {
-		"copyof": "fey_form_2"
-	},
+	"fey_form_ii": { "copyof": "fey_form_2" },
 	"fey_form_3": {
 		"name": "Fey Form III",
 		"copyof": "fey_form_1"
 	},
-	"fey_form_iii": {
-		"copyof": "fey_form_3"
-	},
+	"fey_form_iii": { "copyof": "fey_form_3" },
 	"fey_form_4": {
 		"name": "Fey Form IV",
 		"copyof": "fey_form_1"
 	},
-	"fey_form_iv": {
-		"copyof": "fey_form_4"
-	},
+	"fey_form_iv": { "copyof": "fey_form_4" },
 	"fickle_winds": {
 		"name": "Fickle Winds",
 		"sources": [ "Ultimate Magic" ],
@@ -3710,9 +3670,7 @@
 		"name": "Flaming Sphere, Greater",
 		"copyof": "flaming_sphere"
 	},
-	"greater_flaming_sphere": {
-		"copyof": "flaming_sphere_greater"
-	},
+	"greater_flaming_sphere": { "copyof": "flaming_sphere_greater" },
 	"flare": {
 		"name": "Flare",
 		"sources": [
@@ -3882,9 +3840,7 @@
 		"name": "Fleeting Memory, Mass",
 		"copyof": "fleeting_memory"
 	},
-	"mass_fleeting_memory": {
-		"copyof": "fleeting_memory_mass"
-	},
+	"mass_fleeting_memory": { "copyof": "fleeting_memory_mass" },
 	"flesh_puppet": {
 		"name": "Flesh Puppet",
 		"sources": [ "Horror Adventures" ],
@@ -4288,9 +4244,7 @@
 		"name": "Fly, Mass",
 		"copyof": "fly"
 	},
-	"mass_fly": {
-		"copyof": "fly_mass"
-	},
+	"mass_fly": { "copyof": "fly_mass" },
 	"focused_scrutiny": {
 		"name": "Focused Scrutiny",
 		"sources": [ "Advanced Class Guide" ],

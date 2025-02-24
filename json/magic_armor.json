@@ -1122,9 +1122,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shrink item}, creator must be a gnome; **Price** 5,675 gp"
 		]
 	},
-	"gnome_scrap_armor": {
-		"copyof": "gnome_scrap_armor_gnome"
-	},
+	"gnome_scrap_armor": { "copyof": "gnome_scrap_armor_gnome" },
 	"breastplate_of_the_planes": {
 		"name": "Breastplate of the Planes",
 		"sources": [ "Planar Adventures" ],
@@ -1348,9 +1346,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cure moderate wounds}, creator must be a Varisian; **Price** 6,550 gp"
 		]
 	},
-	"hallowed_chain": {
-		"copyof": "hallowed_chain_varisian"
-	},
+	"hallowed_chain": { "copyof": "hallowed_chain_varisian" },
 	"legion_armor": {
 		"name": "Legion Armor",
 		"sources": [ "Armor Master's Handbook" ],
@@ -1412,9 +1408,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fear}, {spell/gentle repose}, creator must be an orc; **Price** 7,500 gp"
 		]
 	},
-	"armor_of_grim_triumph": {
-		"copyof": "armor_of_grim_triumph_orc"
-	},
+	"armor_of_grim_triumph": { "copyof": "armor_of_grim_triumph_orc" },
 	"mammoth_hide": {
 		"name": "Mammoth Hide",
 		"sources": [
@@ -1513,9 +1507,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/create water}, {spell/endure elements}, {spell/freedom of movement}, creator must be either a gillman or a merfolk; **Price** 7,850 gp"
 		]
 	},
-	"coat_of_shells": {
-		"copyof": "coat_of_shells_gillmen_merfolk"
-	},
+	"coat_of_shells": { "copyof": "coat_of_shells_gillmen_merfolk" },
 	"elven_vengeance": {
 		"name": "Elven Vengeance",
 		"sources": [ "Adventurer's Guide" ],
@@ -2098,9 +2090,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resist energy}, {spell/shatter}, creator must be a goblin; **Price** 12,650 gp"
 		]
 	},
-	"goblin_plate": {
-		"copyof": "goblin_plate_goblin"
-	},
+	"goblin_plate": { "copyof": "goblin_plate_goblin" },
 	"buccaneers_breastplate": {
 		"name": "Buccaneer's Breastplate",
 		"sources": [
@@ -2305,9 +2295,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/expeditious retreat}, creator must be a halfling; **Price** 13,400 gp"
 		]
 	},
-	"mail_of_sly_steps": {
-		"copyof": "mail_of_sly_steps_halfling"
-	},
+	"mail_of_sly_steps": { "copyof": "mail_of_sly_steps_halfling" },
 	"mithral_full_plate_of_speed": {
 		"name": "Mithral Full Plate of Speed",
 		"sources": [
@@ -2347,9 +2335,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dismissal}, {spell/magic circle against chaos}, creator must be an elf; **Price** 18,500 gp"
 		]
 	},
-	"panoply_of_the_fierani_knight": {
-		"copyof": "panoply_of_the_fierani_knight_elf"
-	},
+	"panoply_of_the_fierani_knight": { "copyof": "panoply_of_the_fierani_knight_elf" },
 	"tunnel_defender_stoneplate": {
 		"name": "Tunnel Defender Stoneplate",
 		"sources": [ "Inner Sea Combat" ],
@@ -2750,9 +2736,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/mass cure moderate wounds}, creator must be a Varisian; **Price** 21,800 gp"
 		]
 	},
-	"greater_hallowed_chain": {
-		"copyof": "hallowed_chain_greater_varisian"
-	},
+	"greater_hallowed_chain": { "copyof": "hallowed_chain_greater_varisian" },
 	"hamatula_hide": {
 		"name": "Hamatula Hide",
 		"sources": [ "Ultimate Equipment" ],
@@ -3634,9 +3618,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Scribe Scroll}; **Price** 5,153 gp"
 		]
 	},
-	"greater_casters_shield": {
-		"copyof": "casters_shield_greater"
-	},
+	"greater_casters_shield": { "copyof": "casters_shield_greater" },
 	"gunners_buckler": {
 		"name": "Gunner's Buckler",
 		"sources": [ "Armor Master's Handbook" ],
@@ -3673,9 +3655,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bleed}, {spell/keen edge}, creator must be a Shoanti; **Price** 5,962 gp"
 		]
 	},
-	"stalkers_fang": {
-		"copyof": "stalkers_fang_shoanti"
-	},
+	"stalkers_fang": { "copyof": "stalkers_fang_shoanti" },
 	"celestial_shield": {
 		"name": "Celestial Shield",
 		"sources": [

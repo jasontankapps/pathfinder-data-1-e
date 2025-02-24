@@ -233,9 +233,7 @@
 		"name": "Protection from Arrows, Communal",
 		"copyof": "protection_from_arrows"
 	},
-	"communal_protection_from_arrows": {
-		"copyof": "protection_from_arrows_communal"
-	},
+	"communal_protection_from_arrows": { "copyof": "protection_from_arrows_communal" },
 	"protection_from_energy": {
 		"name": "Protection from Energy",
 		"sources": [
@@ -276,9 +274,7 @@
 		"name": "Protection from Energy, Communal",
 		"copyof": "protection_from_energy"
 	},
-	"communal_protection_from_energy": {
-		"copyof": "protection_from_energy_communal"
-	},
+	"communal_protection_from_energy": { "copyof": "protection_from_energy_communal" },
 	"protection_from_evil": {
 		"name": "Protection from Evil",
 		"sources": [
@@ -428,9 +424,7 @@
 		"name": "Protection from Evil, Communal",
 		"copyof": "protection_from_evil"
 	},
-	"communal_protection_from_evil": {
-		"copyof": "protection_from_evil_communal"
-	},
+	"communal_protection_from_evil": { "copyof": "protection_from_evil_communal" },
 	"protection_from_chaos": {
 		"name": "Protection from Chaos",
 		"copyof": "protection_from_evil"
@@ -439,9 +433,7 @@
 		"name": "Protection from Chaos, Communal",
 		"copyof": "protection_from_evil"
 	},
-	"communal_protection_from_chaos": {
-		"copyof": "protection_from_chaos_communal"
-	},
+	"communal_protection_from_chaos": { "copyof": "protection_from_chaos_communal" },
 	"protection_from_good": {
 		"name": "Protection from Good",
 		"copyof": "protection_from_evil"
@@ -450,9 +442,7 @@
 		"name": "Protection from Good, Communal",
 		"copyof": "protection_from_evil"
 	},
-	"communal_protection_from_good": {
-		"copyof": "protection_from_good_communal"
-	},
+	"communal_protection_from_good": { "copyof": "protection_from_good_communal" },
 	"protection_from_law": {
 		"name": "Protection from Law",
 		"copyof": "protection_from_evil"
@@ -461,9 +451,7 @@
 		"name": "Protection from Law, Communal",
 		"copyof": "protection_from_evil"
 	},
-	"communal_protection_from_law": {
-		"copyof": "protection_from_law_communal"
-	},
+	"communal_protection_from_law": { "copyof": "protection_from_law_communal" },
 	"protection_from_natural_attacks": {
 		"name": "Protection from Natural Attacks",
 		"sources": [ "Monster Hunter's Handbook" ],
@@ -651,9 +639,7 @@
 			"This spell functions like prying eyes, except that the eyes can see all things as they actually are, just as if they had true seeing with a range of 120 feet. Thus, they can navigate darkened areas at normal speed. Also, a greater prying eye's maximum Perception modifier is +25 instead of +15."
 		]
 	},
-	"greater_prying_eyes": {
-		"copyof": "prying_eyes_greater"
-	},
+	"greater_prying_eyes": { "copyof": "prying_eyes_greater" },
 	"psychic_asylum": {
 		"name": "Psychic Asylum",
 		"sources": [ "Occult Adventures" ],
@@ -750,37 +736,27 @@
 			"This functions as psychic crush IV, but on a successful Fortitude or Will save, the target takes 11d6 points of damage + 1 point of damage per caster level. If it is at fewer than half its total hit points, the target takes a -2 penalty on the Will save to resist this spell. This spell can be undercast."
 		]
 	},
-	"psychic_crush_i": {
-		"copyof": "psychic_crush_1"
-	},
+	"psychic_crush_i": { "copyof": "psychic_crush_1" },
 	"psychic_crush_2": {
 		"name": "Psychic Crush II",
 		"copyof": "psychic_crush_1"
 	},
-	"psychic_crush_ii": {
-		"copyof": "psychic_crush_2"
-	},
+	"psychic_crush_ii": { "copyof": "psychic_crush_2" },
 	"psychic_crush_3": {
 		"name": "Psychic Crush III",
 		"copyof": "psychic_crush_1"
 	},
-	"psychic_crush_iii": {
-		"copyof": "psychic_crush_3"
-	},
+	"psychic_crush_iii": { "copyof": "psychic_crush_3" },
 	"psychic_crush_4": {
 		"name": "Psychic Crush IV",
 		"copyof": "psychic_crush_1"
 	},
-	"psychic_crush_iv": {
-		"copyof": "psychic_crush_4"
-	},
+	"psychic_crush_iv": { "copyof": "psychic_crush_4" },
 	"psychic_crush_5": {
 		"name": "Psychic Crush V",
 		"copyof": "psychic_crush_1"
 	},
-	"psychic_crush_v": {
-		"copyof": "psychic_crush_5"
-	},
+	"psychic_crush_v": { "copyof": "psychic_crush_5" },
 	"psychic_image": {
 		"name": "Psychic Image",
 		"sources": [ "Occult Adventures" ],
@@ -1226,9 +1202,7 @@
 		"name": "Scrying, Greater",
 		"copyof": "scrying"
 	},
-	"greater_scrying": {
-		"copyof": "scrying_greater"
-	},
+	"greater_scrying": { "copyof": "scrying_greater" },
 	"sculpt_corpse": {
 		"name": "Sculpt Corpse",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1398,9 +1372,7 @@
 			"This spell functions as {spell/sealed life}, except it additionally provides the benefits of death ward and renders its targets immune to effects that extract or transfer its soul, such as possession and trap the soul. This spell prevents a soul from returning to its body if it has already departed, until the spell's duration expires."
 		]
 	},
-	"greater_sealed_life": {
-		"copyof": "sealed_life_greater"
-	},
+	"greater_sealed_life": { "copyof": "sealed_life_greater" },
 	"sealed_sending": {
 		"name": "Sealed Sending",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -1867,9 +1839,7 @@
 		"name": "Seeds of Influence, Greater",
 		"copyof": "seeds_of_influence"
 	},
-	"greater_seeds_of_influence": {
-		"copyof": "seeds_of_influence_greater"
-	},
+	"greater_seeds_of_influence": { "copyof": "seeds_of_influence_greater" },
 	"seek_shelter": {
 		"name": "Seek Shelter",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -2537,9 +2507,7 @@
 		"name": "Shadow Conjuration, Greater",
 		"copyof": "shadow_conjuration"
 	},
-	"greater_shadow_conjuration": {
-		"copyof": "shadow_conjuration_greater"
-	},
+	"greater_shadow_conjuration": { "copyof": "shadow_conjuration_greater" },
 	"shadow_dragon_aspect": {
 		"name": "Shadow Dragon Aspect",
 		"sources": [ "Kobolds of Golarion" ],
@@ -2595,9 +2563,7 @@
 		"name": "Shadow Enchantment, Greater",
 		"copyof": "shadow_enchantment"
 	},
-	"greater_shadow_enchantment": {
-		"copyof": "shadow_enchantment_greater"
-	},
+	"greater_shadow_enchantment": { "copyof": "shadow_enchantment_greater" },
 	"shadow_endurance": {
 		"name": "Shadow Endurance",
 		"sources": [ "Agents of Evil" ],
@@ -2659,9 +2625,7 @@
 		"name": "Shadow Evocation, Greater",
 		"copyof": "shadow_evocation"
 	},
-	"greater_shadow_evocation": {
-		"copyof": "shadow_evocation_greater"
-	},
+	"greater_shadow_evocation": { "copyof": "shadow_evocation_greater" },
 	"shadow_invasion": {
 		"name": "Shadow Invasion",
 		"sources": [ "Planar Adventures" ],
@@ -2795,9 +2759,7 @@
 		"name": "Shadow Transmutation, Greater",
 		"copyof": "shadow_transmutation"
 	},
-	"greater_shadow_transmutation": {
-		"copyof": "shadow_transmutation_greater"
-	},
+	"greater_shadow_transmutation": { "copyof": "shadow_transmutation_greater" },
 	"shadow_trap": {
 		"name": "Shadow Trap",
 		"sources": [ "Blood of Shadows" ],

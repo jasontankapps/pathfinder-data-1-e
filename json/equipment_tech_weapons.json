@@ -638,9 +638,7 @@
 	},
 	"atom_gun": {
 		"name": "Atom gun",
-		"sources": [
-			"Technology Guide"
-		],
+		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Atom gun",
 			"",
@@ -663,9 +661,7 @@
 	},
 	"beam_cannon_arc_cannon": {
 		"name": "Beam Cannon (arc cannon)",
-		"sources": [
-			"Pathfinder #89: Palace of Fallen Stars"
-		],
+		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Beam cannon (arc cannon)",
 			"",
@@ -688,9 +684,7 @@
 	},
 	"beam_cannon_emp_cannon": {
 		"name": "Beam Cannon (EMP cannon)",
-		"sources": [
-			"Pathfinder #89: Palace of Fallen Stars"
-		],
+		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Beam cannon (EMP cannon)",
 			"",
@@ -713,9 +707,7 @@
 	},
 	"beam_cannon_laser_cannon": {
 		"name": "Beam Cannon (laser cannon)",
-		"sources": [
-			"Pathfinder #89: Palace of Fallen Stars"
-		],
+		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Beam cannon (laser cannon)",
 			"",
@@ -738,9 +730,7 @@
 	},
 	"beam_cannon_sonic_cannon": {
 		"name": "Beam Cannon (sonic cannon)",
-		"sources": [
-			"Pathfinder #89: Palace of Fallen Stars"
-		],
+		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Beam cannon (sonic cannon)",
 			"",
@@ -763,9 +753,7 @@
 	},
 	"beam_cannon_zero_cannon": {
 		"name": "Beam Cannon (zero cannon)",
-		"sources": [
-			"Pathfinder #89: Palace of Fallen Stars"
-		],
+		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Beam cannon (zero cannon)",
 			"",
@@ -788,9 +776,7 @@
 	},
 	"fleshnet_cannon": {
 		"name": "Fleshnet cannon",
-		"sources": [
-			"Pathfinder #88: Valley of the Brain Collectors"
-		],
+		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
 			"## Fleshnet cannon",
 			"",
@@ -817,9 +803,7 @@
 	},
 	"grenade_launcher": {
 		"name": "Grenade launcher",
-		"sources": [
-			"Technology Guide"
-		],
+		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade launcher",
 			"",
@@ -840,9 +824,7 @@
 	},
 	"nuclear_resonator": {
 		"name": "Nuclear resonator",
-		"sources": [
-			"Technology Guide"
-		],
+		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Nuclear resonator",
 			"",
@@ -867,9 +849,7 @@
 	},
 	"plasmathrower": {
 		"name": "Plasmathrower",
-		"sources": [
-			"Technology Guide"
-		],
+		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Plasmathrower",
 			"",
@@ -890,9 +870,7 @@
 	},
 	"rail_gun": {
 		"name": "Rail gun",
-		"sources": [
-			"Technology Guide"
-		],
+		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Rail gun",
 			"",
@@ -915,9 +893,7 @@
 	},
 	"rocket_launcher": {
 		"name": "Rocket launcher",
-		"sources": [
-			"Technology Guide"
-		],
+		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Rocket launcher",
 			"",
@@ -938,9 +914,7 @@
 	},
 	"vortex_gun": {
 		"name": "Vortex gun",
-		"sources": [
-			"Technology Guide"
-		],
+		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Vortex gun",
 			"",
@@ -961,9 +935,7 @@
 	},
 	"x_laser": {
 		"name": "X-laser",
-		"sources": [
-			"Technology Guide"
-		],
+		"sources": [ "Technology Guide" ],
 		"description": [
 			"## X-laser",
 			"",

@@ -11,9 +11,7 @@
 			"Tribal fetishes vary from tribe to tribe, but are generally small, carved wooden or stone religious symbols, luck tokens, or curious naturally occurring objects specially carved to resemble something of significance (such as an acorn with a wolf fangs, a dried mushroom with skull-shaped blotches, or a stone with a lizard carved on it). A goblin divine spellcaster can use a tribal fetish as a divine focus for spellcasting."
 		]
 	},
-	"tribal_fetish": {
-		"copyof": "fetish_tribal"
-	},
+	"tribal_fetish": { "copyof": "fetish_tribal" },
 	"fetters_common": {
 		"name": "Fetters (common)",
 		"sources": [ "Advanced Race Guide" ],
@@ -326,30 +324,22 @@
 			"Ensign and courtesy flags cost less than personal signals, as they can be made in large quantities. Personal signals must be custom ordered."
 		]
 	},
-	"large_flag_ensign_or_courtesy": {
-		"copyof": "flag_ensign_or_courtesy_large"
-	},
+	"large_flag_ensign_or_courtesy": { "copyof": "flag_ensign_or_courtesy_large" },
 	"flag_ensign_or_courtesy_small": {
 		"name": "Flag (ensign or courtesy, small)",
 		"copyof": "large_flag_ensign_or_courtesy"
 	},
-	"small_flag_ensign_or_courtesy": {
-		"copyof": "flag_ensign_or_courtesy_small"
-	},
+	"small_flag_ensign_or_courtesy": { "copyof": "flag_ensign_or_courtesy_small" },
 	"flag_personal_signal_large": {
 		"name": "Flag (personal signal, large)",
 		"copyof": "large_flag_ensign_or_courtesy"
 	},
-	"large_flag_personal_signal": {
-		"copyof": "flag_personal_signal_large"
-	},
+	"large_flag_personal_signal": { "copyof": "flag_personal_signal_large" },
 	"flag_personal_signal_small": {
 		"name": "Flag (personal signal, small)",
 		"copyof": "large_flag_ensign_or_courtesy"
 	},
-	"small_flag_personal_signal": {
-		"copyof": "flag_personal_signal_small"
-	},
+	"small_flag_personal_signal": { "copyof": "flag_personal_signal_small" },
 	"flag": {
 		"name": "Flag",
 		"sources": [ "Inner Sea World Guide" ],
@@ -861,9 +851,7 @@
 			"Craft (Alchemy) DC 15"
 		]
 	},
-	"fuel_pellet_ten": {
-		"copyof": "fuel_pellet_10"
-	},
+	"fuel_pellet_ten": { "copyof": "fuel_pellet_10" },
 	"furs": {
 		"name": "Furs",
 		"sources": [
@@ -2155,9 +2143,7 @@
 			"- Identify poisonous flora (Knowledge [nature] +2)"
 		]
 	},
-	"herokas_saga_vol_1": {
-		"copyof": "herokas_saga_vol_i"
-	},
+	"herokas_saga_vol_1": { "copyof": "herokas_saga_vol_i" },
 	"hide_dye": {
 		"name": "Hide dye",
 		"sources": [ "Familiar Folio" ],
@@ -2387,37 +2373,27 @@
 			"Designed and approved by a member of the appropriate religion, this modification to a holy symbol creates a secret compartment large enough to hold a potion vial. Detecting the compartment requires a DC 20 Perception check."
 		]
 	},
-	"holy_symbol_compartment_gold": {
-		"copyof": "holy_symbol_gold_compartment"
-	},
+	"holy_symbol_compartment_gold": { "copyof": "holy_symbol_gold_compartment" },
 	"holy_symbol_iron_compartment": {
 		"name": "Holy symbol (iron, compartment)",
 		"copyof": "holy_symbol_compartment_gold"
 	},
-	"holy_symbol_compartment_iron": {
-		"copyof": "holy_symbol_iron_compartment"
-	},
+	"holy_symbol_compartment_iron": { "copyof": "holy_symbol_iron_compartment" },
 	"holy_symbol_platinum_compartment": {
 		"name": "Holy symbol (platinum, compartment)",
 		"copyof": "holy_symbol_compartment_gold"
 	},
-	"holy_symbol_compartment_platinum": {
-		"copyof": "holy_symbol_platinum_compartment"
-	},
+	"holy_symbol_compartment_platinum": { "copyof": "holy_symbol_platinum_compartment" },
 	"holy_symbol_silver_compartment": {
 		"name": "Holy symbol (silver, compartment)",
 		"copyof": "holy_symbol_compartment_gold"
 	},
-	"holy_symbol_compartment_silver": {
-		"copyof": "holy_symbol_silver_compartment"
-	},
+	"holy_symbol_compartment_silver": { "copyof": "holy_symbol_silver_compartment" },
 	"holy_symbol_wooden_compartment": {
 		"name": "Holy symbol (wooden, compartment)",
 		"copyof": "holy_symbol_compartment_gold"
 	},
-	"holy_symbol_compartment_wooden": {
-		"copyof": "holy_symbol_wooden_compartment"
-	},
+	"holy_symbol_compartment_wooden": { "copyof": "holy_symbol_wooden_compartment" },
 	"holy_symbol_gold_flask": {
 		"name": "Holy symbol (gold, flask)",
 		"sources": [
@@ -2433,47 +2409,38 @@
 			"This version of a standard holy symbol is oversized and has a watertight compartment that can hold 1 pint (the same volume as a flask of holy water). Adventurers normally use the compartment to hold holy water or alcohol. A holy symbol flask is not meant for you to throw at enemies and is not fragile like a flask or vial. Like using holy water on incorporeal opponent, you unstopper the flask and pour the contents onto an adjacent target. Detecting the compartment requires a successful DC 10 Perception check."
 		]
 	},
-	"holy_symbol_flask_gold": {
-		"copyof": "holy_symbol_gold_flask"
-	},
+	"holy_symbol_flask_gold": { "copyof": "holy_symbol_gold_flask" },
 	"holy_symbol_iron_flask": {
 		"name": "Holy symbol (iron, flask)",
 		"copyof": "holy_symbol_flask_gold"
 	},
-	"holy_symbol_flask_iron": {
-		"copyof": "holy_symbol_iron_flask"
-	},
+	"holy_symbol_flask_iron": { "copyof": "holy_symbol_iron_flask" },
 	"holy_symbol_platinum_flask": {
 		"name": "Holy symbol (platinum, flask)",
 		"copyof": "holy_symbol_flask_gold"
 	},
-	"holy_symbol_flask_platinum": {
-		"copyof": "holy_symbol_platinum_flask"
-	},
+	"holy_symbol_flask_platinum": { "copyof": "holy_symbol_platinum_flask" },
 	"holy_symbol_silver_flask": {
 		"name": "Holy symbol (silver, flask)",
 		"copyof": "holy_symbol_flask_gold"
 	},
-	"holy_symbol_flask_silver": {
-		"copyof": "holy_symbol_silver_flask"
-	},
+	"holy_symbol_flask_silver": { "copyof": "holy_symbol_silver_flask" },
 	"holy_symbol_wooden_flask": {
 		"name": "Holy symbol (wooden, flask)",
 		"copyof": "holy_symbol_flask_gold"
 	},
-	"holy_symbol_flask_wooden": {
-		"copyof": "holy_symbol_wooden_flask"
-	},
+	"holy_symbol_flask_wooden": { "copyof": "holy_symbol_wooden_flask" },
 	"holy_symbol_gold": {
 		"name": "Holy symbol (gold)",
 		"sources": [
 			"Ultimate Equipment",
-			"PRPG Core Rulebook"
+			"PRPG Core Rulebook",
+			"NPC Codex"
 		],
 		"description": [
 			"## Holy symbol",
-			"{SOURCE Ultimate Equipment/57}  ",
-			"**Price** 100 gp (gold), 5 gp (iron), 500 gp (platinum), 25 gp (silver), 1 gp (wooden); **Weight** 1 lb. (gold), 1 lb. (iron), 1 lb. (platinum), 1 lb. (silver), - (wooden)",
+			"{SOURCE Ultimate Equipment/57;NPC Codex/56, 58}  ",
+			"**Price** 100 gp (gold), 5 gp (iron), 500 gp (cold iron or platinum), 25 gp (silver), 1 gp (wooden); **Weight** 1 lb. (gold, iron, cold iron, platinum, silver), - (wooden)",
 			"",
 			"A holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol. The material used to make the holy symbol has no effect on its powers, though a religion may place special significance on a particular material.",
 			"",
@@ -2482,6 +2449,10 @@
 	},
 	"holy_symbol_iron": {
 		"name": "Holy symbol (iron)",
+		"copyof": "holy_symbol_gold"
+	},
+	"holy_symbol_cold_iron": {
+		"name": "Holy symbol (cold iron)",
 		"copyof": "holy_symbol_gold"
 	},
 	"holy_symbol_platinum": {
@@ -2790,23 +2761,17 @@
 			"The standard hourglass takes 1 hour to empty the sand from the upper chamber; smaller ones that mark time more precisely are also readily available, in 1-minute and 6-second sizes. Hourglasses tracking more than an hour are rare."
 		]
 	},
-	"hourglass_one_hour": {
-		"copyof": "hourglass_1_hour"
-	},
+	"hourglass_one_hour": { "copyof": "hourglass_1_hour" },
 	"hourglass_1_minute": {
 		"name": "Hourglass (1 minute)",
 		"copyof": "hourglass_one_hour"
 	},
-	"hourglass_one_minute": {
-		"copyof": "hourglass_1_minute"
-	},
+	"hourglass_one_minute": { "copyof": "hourglass_1_minute" },
 	"hourglass_6_seconds": {
 		"name": "Hourglass (6 seconds)",
 		"copyof": "hourglass_one_hour"
 	},
-	"hourglass_six_seconds": {
-		"copyof": "hourglass_6_seconds"
-	},
+	"hourglass_six_seconds": { "copyof": "hourglass_6_seconds" },
 	"hourglass": {
 		"name": "Hourglass",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -3126,9 +3091,7 @@
 			"Extracted from bioluminescent jellyfish, plankton, and other marine organisms that glow in the ocean's depths, this ink is refined in a process that makes the ink stable and long lasting. This colorful ink glows gently like a candle, so it is easier to discern any writing at a distance, especially in the dark. The ink's glow lasts for about 1 year, after which time the writing remains colorful but no longer glows. Bioluminescent ink is typically stored in a waterproof bladder."
 		]
 	},
-	"bioluminescent_ink": {
-		"copyof": "ink_bioluminescent"
-	},
+	"bioluminescent_ink": { "copyof": "ink_bioluminescent" },
 	"inkpen": {
 		"name": "Inkpen",
 		"sources": [
@@ -3172,23 +3135,17 @@
 		"name": "Inn stay (suite, average)",
 		"copyof": "inn_stay_common"
 	},
-	"average_inn_stay_suite": {
-		"copyof": "inn_stay_suite_average"
-	},
+	"average_inn_stay_suite": { "copyof": "inn_stay_suite_average" },
 	"inn_stay_suite_luxurious": {
 		"name": "Inn stay (suite, luxurious)",
 		"copyof": "inn_stay_common"
 	},
-	"luxurious_inn_stay_suite": {
-		"copyof": "inn_stay_suite_luxurious"
-	},
+	"luxurious_inn_stay_suite": { "copyof": "inn_stay_suite_luxurious" },
 	"inn_stay_suite_small": {
 		"name": "Inn stay (suite, small)",
 		"copyof": "inn_stay_common"
 	},
-	"small_inn_stay_suite": {
-		"copyof": "inn_stay_suite_small"
-	},
+	"small_inn_stay_suite": { "copyof": "inn_stay_suite_small" },
 	"inquisitors_kit": {
 		"name": "Inquisitor's kit",
 		"sources": [ "Ultimate Equipment" ],
@@ -4239,9 +4196,7 @@
 			"This sturdy lock may be of any quality; the cost of making it a channel focus is in addition to the normal lock cost. When activated, the lock's Disable Device DC and the break DC for whatever it is locking (such as a door or chest) increase by 5; the lock gains +2 hardness and +4 hit points. The lock retains these bonuses for 24 hours or until it is forced open (including picking the lock)."
 		]
 	},
-	"lock_of_the_saved_average": {
-		"copyof": "lock_of_the_saved_averge"
-	},
+	"lock_of_the_saved_average": { "copyof": "lock_of_the_saved_averge" },
 	"lock_of_the_saved_good": {
 		"name": "Lock of the saved (good)",
 		"copyof": "lock_of_the_saved_average"
@@ -4578,30 +4533,22 @@
 			"Fetters can also be fitted with barbs, but the wearer can avoid damage by not taking actions that involve moving its legs. Hobgoblins often use such fetters to secure artisans to their worktables. Securing a captive with multiple sets of manacles and/or fetters doesn't cause additional damage."
 		]
 	},
-	"manacle_barbs": {
-		"copyof": "manacles_with_barbs_common"
-	},
+	"manacle_barbs": { "copyof": "manacles_with_barbs_common" },
 	"manacles_with_barbs_masterwork": {
 		"name": "Manacles with barbs (masterwork)",
 		"copyof": "manacle_barbs"
 	},
-	"manacle_barbs_masterwork": {
-		"copyof": "manacles_with_barbs_masterwork"
-	},
+	"manacle_barbs_masterwork": { "copyof": "manacles_with_barbs_masterwork" },
 	"manacles_with_barbs_mithral": {
 		"name": "Manacles with barbs (mithral)",
 		"copyof": "manacle_barbs"
 	},
-	"manacle_barbs_mithral": {
-		"copyof": "manacles_with_barbs_mithral"
-	},
+	"manacle_barbs_mithral": { "copyof": "manacles_with_barbs_mithral" },
 	"manacles_with_barbs_quickcatch": {
 		"name": "Manacles with barbs (quickcatch)",
 		"copyof": "manacle_barbs"
 	},
-	"manacle_barbs_quickcatch": {
-		"copyof": "manacles_with_barbs_quickcatch"
-	},
+	"manacle_barbs_quickcatch": { "copyof": "manacles_with_barbs_quickcatch" },
 	"manacles_common": {
 		"name": "Manacles (common)",
 		"sources": [
@@ -4969,9 +4916,7 @@
 			"This length of sturdy twine is marked off in foot-long increments for ease of measurement. Measuring cord is purchased in increments of 10 feet."
 		]
 	},
-	"measuring_cord_ten_ft": {
-		"copyof": "measuring_cord_10_ft"
-	},
+	"measuring_cord_ten_ft": { "copyof": "measuring_cord_10_ft" },
 	"meat": {
 		"name": "Meat",
 		"sources": [
@@ -5454,12 +5399,8 @@
 			"This 10-foot-long chain has hardness 15 and 5 hit points. A successful DC 28 Strength check is required to burst it, making it strong enough to hold most lesser types of giants."
 		]
 	},
-	"mithral_chain_ten_ft": {
-		"copyof": "mithral_chain_10_ft"
-	},
-	"chain_mithral": {
-		"copyof": "mithral_chain_10_ft"
-	},
+	"mithral_chain_ten_ft": { "copyof": "mithral_chain_10_ft" },
+	"chain_mithral": { "copyof": "mithral_chain_10_ft" },
 	"mithral_horseshoes": {
 		"name": "Mithral horseshoes",
 		"sources": [ "Adventurer's Guide" ],

@@ -442,9 +442,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/greater shout}; **Cost** 35,000 gp"
 		]
 	},
-	"greater_horn_of_blasting": {
-		"copyof": "horn_of_blasting_greater"
-	},
+	"greater_horn_of_blasting": { "copyof": "horn_of_blasting_greater" },
 	"independent_cube_of_force": {
 		"name": "Independent Cube of Force",
 		"sources": [ "Classic Treasures Revisited" ],

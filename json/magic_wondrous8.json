@@ -247,9 +247,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, creator must have 4 ranks in Perception; **Cost** 2,000 gp"
 		]
 	},
-	"minor_burglar_boots": {
-		"copyof": "burglar_boots_minor"
-	},
+	"minor_burglar_boots": { "copyof": "burglar_boots_minor" },
 	"sandals_of_quick_reaction": {
 		"name": "Sandals of Quick Reaction",
 		"sources": [ "Ultimate Equipment" ],
@@ -1312,9 +1310,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {feat/Quicken Spell}, {spell/dimension door}, {spell/fog cloud}, creator must be a tiefling; **Cost** 22,500 gp"
 		]
 	},
-	"boots_of_fiendish_escape": {
-		"copyof": "boots_of_fiendish_escape_tiefling"
-	},
+	"boots_of_fiendish_escape": { "copyof": "boots_of_fiendish_escape_tiefling" },
 	"burglar_boots_major": {
 		"name": "Burglar Boots (Major)",
 		"sources": [ "Ultimate Equipment" ],
@@ -1332,9 +1328,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/find traps}, creator must have at least 12 ranks in Perception; **Cost** 23,000 gp"
 		]
 	},
-	"major_burglar_boots": {
-		"copyof": "burglar_boots_major"
-	},
+	"major_burglar_boots": { "copyof": "burglar_boots_major" },
 	"boots_of_teleportation": {
 		"name": "Boots of Teleportation",
 		"sources": [
@@ -1455,9 +1449,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/flame blade}, {spell/magic fang}, {spell/solid fog}, creator must be a Keleshite; **Cost** 44,000 gp"
 		]
 	},
-	"horseshoes_of_desert_fury": {
-		"copyof": "horseshoes_of_desert_fury_keleshite"
-	},
+	"horseshoes_of_desert_fury": { "copyof": "horseshoes_of_desert_fury_keleshite" },
 	"horseshoes_of_crushing_blows_5": {
 		"name": "Horseshoes of Crushing Blows (+5)",
 		"copyof": "horseshoes_of_crushing_blows_1"
@@ -2263,23 +2255,17 @@
 			"**Requirements** {feat/Craft Wondrous Item}, creator must be a 10th-level kineticist with access to the appropriate element; **Cost** 9,000 gp (Lesser), 25,000 gp (Normal), 49,000 gp (Greater)"
 		]
 	},
-	"lesser_kineticists_diadem": {
-		"copyof": "kineticists_diadem_lesser"
-	},
+	"lesser_kineticists_diadem": { "copyof": "kineticists_diadem_lesser" },
 	"kineticists_diadem_greater": {
 		"name": "Kineticist's Diadem (Greater)",
 		"copyof": "kineticists_diadem_lesser"
 	},
-	"greater_kineticists_diadem": {
-		"copyof": "kineticists_diadem_greater"
-	},
+	"greater_kineticists_diadem": { "copyof": "kineticists_diadem_greater" },
 	"kineticists_diadem_normal": {
 		"name": "Kineticist's Diadem (Normal)",
 		"copyof": "kineticists_diadem_lesser"
 	},
-	"normal_kineticists_diadem": {
-		"copyof": "kineticists_diadem_normal"
-	},
+	"normal_kineticists_diadem": { "copyof": "kineticists_diadem_normal" },
 	"esoteric_diadem_lesser": {
 		"name": "Esoteric Diadem (Lesser)",
 		"sources": [ "Elemental Master's Handbook" ],
@@ -2301,23 +2287,17 @@
 			"**Requirements** {feat/Craft Wondrous Item}, creator must be a 10th-level kineticist with access to the appropriate element; **Cost** 9,000 gp (Lesser), 25,000 gp (Normal), 49,000 gp (Greater)"
 		]
 	},
-	"lesser_esoteric_diadem": {
-		"copyof": "esoteric_diadem_lesser"
-	},
+	"lesser_esoteric_diadem": { "copyof": "esoteric_diadem_lesser" },
 	"esoteric_diadem_normal": {
 		"name": "Esoteric Diadem (Normal)",
 		"copyof": "esoteric_diadem_lesser"
 	},
-	"normal_esoteric_diadem": {
-		"copyof": "esoteric_diadem_normal"
-	},
+	"normal_esoteric_diadem": { "copyof": "esoteric_diadem_normal" },
 	"esoteric_diadem_greater": {
 		"name": "Esoteric Diadem (Greater)",
 		"copyof": "esoteric_diadem_lesser"
 	},
-	"greater_esoteric_diadem": {
-		"copyof": "esoteric_diadem_greater"
-	},
+	"greater_esoteric_diadem": { "copyof": "esoteric_diadem_greater" },
 	"headband_of_arcane_energy": {
 		"name": "Headband of Arcane Energy",
 		"sources": [ "Ultimate Equipment" ],
@@ -2471,9 +2451,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/dispel magic}, {spell/mirror image}, {spell/project image}, creator must be an elf; **Cost** 20,000 gp"
 		]
 	},
-	"headband_of_controlling_illusions": {
-		"copyof": "headband_of_controlling_illusions_elf"
-	},
+	"headband_of_controlling_illusions": { "copyof": "headband_of_controlling_illusions_elf" },
 	"headband_of_seduction": {
 		"name": "Headband of Seduction",
 		"sources": [ "Ultimate Equipment" ],
@@ -2603,226 +2581,162 @@
 			"**Requirements** {feat/Craft Wondrous Item}, additional spells (see text); **Cost** 225 gp (Lesser) (Akoben), 625 gp (Lesser) (Ankh), 300 gp (Lesser) (Arrow Protection), 25 gp (Lesser) (Beneficial Winds), 375 gp (Lesser) (Danger Sense), 450 gp (Lesser) (Freedom), 840 gp (Lesser) (Good Fortune), 1,500 gp (Lesser) (Hamsa), 1,200 gp (Lesser) (Healing Power), 1,750 gp (Lesser) (Life's Breath), 300 gp (Lesser) (Pentacle), 625 gp (Lesser) (Protection from Flames), 300 gp (Lesser) (Scarab), 225 gp (Lesser) (Sealed Summons), 300 gp (Lesser) (Triskelion), 225 gp (Lesser) (Warrior's Courage), Cost 2,250 gp (Greater) (Akoben), 6,250 gp (Greater) (Ankh), 3,000 gp (Greater) (Arrow Protection), 250 gp (Greater) (Beneficial Winds), 3,750 gp (Greater) (Danger Sense), 4,500 gp (Greater) (Freedom), 8,400 gp (Greater) (Good Fortune), 15,000 (Greater) (Hamsa), 12,000 gp (Greater) (Healing Power), 17,500 gp (Greater) (Life's Breath), 3,000 gp (Greater) (Pentacle), 6,250 gp (Greater) (Protection from Flames), 3,000 gp (Greater) (Scarab), 2,250 gp (Greater) (Sealed Summons), 3,000 gp (Greater) (Triskelion), 2,250 gp (Greater) (Warrior's Courage)"
 		]
 	},
-	"lesser_talisman_beneficial_winds": {
-		"copyof": "talisman_lesser_beneficial_winds"
-	},
+	"lesser_talisman_beneficial_winds": { "copyof": "talisman_lesser_beneficial_winds" },
 	"talisman_greater_akoben": {
 		"name": "Talisman (Greater) (Akoben)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_akoben": {
-		"copyof": "talisman_greater_akoben"
-	},
+	"greater_talisman_akoben": { "copyof": "talisman_greater_akoben" },
 	"talisman_greater_sealed_summons": {
 		"name": "Talisman (Greater) (Sealed Summons)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_sealed_summons": {
-		"copyof": "talisman_greater_sealed_summons"
-	},
+	"greater_talisman_sealed_summons": { "copyof": "talisman_greater_sealed_summons" },
 	"talisman_greater_warriors_courage": {
 		"name": "Talisman (Greater) (Warrior's Courage)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_warriors_courage": {
-		"copyof": "talisman_greater_warriors_courage"
-	},
+	"greater_talisman_warriors_courage": { "copyof": "talisman_greater_warriors_courage" },
 	"talisman_greater_arrow_protection": {
 		"name": "Talisman (Greater) (Arrow Protection)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_arrow_protection": {
-		"copyof": "talisman_greater_arrow_protection"
-	},
+	"greater_talisman_arrow_protection": { "copyof": "talisman_greater_arrow_protection" },
 	"talisman_greater_pentacle": {
 		"name": "Talisman (Greater) (Pentacle)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_pentacle": {
-		"copyof": "talisman_greater_pentacle"
-	},
+	"greater_talisman_pentacle": { "copyof": "talisman_greater_pentacle" },
 	"talisman_greater_scarab": {
 		"name": "Talisman (Greater) (Scarab)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_scarab": {
-		"copyof": "talisman_greater_scarab"
-	},
+	"greater_talisman_scarab": { "copyof": "talisman_greater_scarab" },
 	"talisman_greater_triskelion": {
 		"name": "Talisman (Greater) (Triskelion)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_triskelion": {
-		"copyof": "talisman_greater_triskelion"
-	},
+	"greater_talisman_triskelion": { "copyof": "talisman_greater_triskelion" },
 	"talisman_greater_danger_sense": {
 		"name": "Talisman (Greater) (Danger Sense)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_danger_sense": {
-		"copyof": "talisman_greater_danger_sense"
-	},
+	"greater_talisman_danger_sense": { "copyof": "talisman_greater_danger_sense" },
 	"talisman_greater_freedom": {
 		"name": "Talisman (Greater) (Freedom)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_freedom": {
-		"copyof": "talisman_greater_freedom"
-	},
+	"greater_talisman_freedom": { "copyof": "talisman_greater_freedom" },
 	"talisman_greater_ankh": {
 		"name": "Talisman (Greater) (Ankh)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_ankh": {
-		"copyof": "talisman_greater_ankh"
-	},
+	"greater_talisman_ankh": { "copyof": "talisman_greater_ankh" },
 	"talisman_greater_protection_from_flames": {
 		"name": "Talisman (Greater) (Protection from Flames)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_protection_from_flames": {
-		"copyof": "talisman_greater_protection_from_flames"
-	},
+	"greater_talisman_protection_from_flames": { "copyof": "talisman_greater_protection_from_flames" },
 	"talisman_greater_good_fortune": {
 		"name": "Talisman (Greater) (Good Fortune)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_good_fortune": {
-		"copyof": "talisman_greater_good_fortune"
-	},
+	"greater_talisman_good_fortune": { "copyof": "talisman_greater_good_fortune" },
 	"talisman_greater_healing_power": {
 		"name": "Talisman (Greater) (Healing Power)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_healing_power": {
-		"copyof": "talisman_greater_healing_power"
-	},
+	"greater_talisman_healing_power": { "copyof": "talisman_greater_healing_power" },
 	"talisman_greater_hamsa": {
 		"name": "Talisman (Greater) (Hamsa)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_hamsa": {
-		"copyof": "talisman_greater_hamsa"
-	},
+	"greater_talisman_hamsa": { "copyof": "talisman_greater_hamsa" },
 	"talisman_greater_lifes_breath": {
 		"name": "Talisman (Greater) (Life's Breath)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_lifes_breath": {
-		"copyof": "talisman_greater_lifes_breath"
-	},
+	"greater_talisman_lifes_breath": { "copyof": "talisman_greater_lifes_breath" },
 	"talisman_lesser_akoben": {
 		"name": "Talisman (Lesser) (Akoben)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_akoben": {
-		"copyof": "talisman_lesser_akoben"
-	},
+	"lesser_talisman_akoben": { "copyof": "talisman_lesser_akoben" },
 	"talisman_lesser_sealed_summons": {
 		"name": "Talisman (Lesser) (Sealed Summons)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_sealed_summons": {
-		"copyof": "talisman_lesser_sealed_summons"
-	},
+	"lesser_talisman_sealed_summons": { "copyof": "talisman_lesser_sealed_summons" },
 	"talisman_lesser_warriors_courage": {
 		"name": "Talisman (Lesser) (Warrior's Courage)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_warriors_courage": {
-		"copyof": "talisman_lesser_warriors_courage"
-	},
+	"lesser_talisman_warriors_courage": { "copyof": "talisman_lesser_warriors_courage" },
 	"talisman_greater_beneficial_winds": {
 		"name": "Talisman (Greater) (Beneficial Winds)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"greater_talisman_beneficial_winds": {
-		"copyof": "talisman_greater_beneficial_winds"
-	},
+	"greater_talisman_beneficial_winds": { "copyof": "talisman_greater_beneficial_winds" },
 	"talisman_lesser_arrow_protection": {
 		"name": "Talisman (Lesser) (Arrow Protection)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_arrow_protection": {
-		"copyof": "talisman_lesser_arrow_protection"
-	},
+	"lesser_talisman_arrow_protection": { "copyof": "talisman_lesser_arrow_protection" },
 	"talisman_lesser_pentacle": {
 		"name": "Talisman (Lesser) (Pentacle)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_pentacle": {
-		"copyof": "talisman_lesser_pentacle"
-	},
+	"lesser_talisman_pentacle": { "copyof": "talisman_lesser_pentacle" },
 	"talisman_lesser_scarab": {
 		"name": "Talisman (Lesser) (Scarab)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_scarab": {
-		"copyof": "talisman_lesser_scarab"
-	},
+	"lesser_talisman_scarab": { "copyof": "talisman_lesser_scarab" },
 	"talisman_lesser_trickelion": {
 		"name": "Talisman (Lesser) (Trickelion)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_trickelion": {
-		"copyof": "talisman_lesser_trickelion"
-	},
+	"lesser_talisman_trickelion": { "copyof": "talisman_lesser_trickelion" },
 	"talisman_lesser_danger_sense": {
 		"name": "Talisman (Lesser) (Danger Sense)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_danger_sense": {
-		"copyof": "talisman_lesser_danger_sense"
-	},
+	"lesser_talisman_danger_sense": { "copyof": "talisman_lesser_danger_sense" },
 	"talisman_lesser_freedom": {
 		"name": "Talisman (Lesser) (Freedom)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_freedom": {
-		"copyof": "talisman_lesser_freedom"
-	},
+	"lesser_talisman_freedom": { "copyof": "talisman_lesser_freedom" },
 	"talisman_lesser_ankh": {
 		"name": "Talisman (Lesser) (Ankh)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_ankh": {
-		"copyof": "talisman_lesser_ankh"
-	},
+	"lesser_talisman_ankh": { "copyof": "talisman_lesser_ankh" },
 	"talisman_lesser_protection_from_flames": {
 		"name": "Talisman (Lesser) (Protection from Flames)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_protection_from_flames": {
-		"copyof": "talisman_lesser_protection_from_flames"
-	},
+	"lesser_talisman_protection_from_flames": { "copyof": "talisman_lesser_protection_from_flames" },
 	"talisman_lesser_good_fortune": {
 		"name": "Talisman (Lesser) (Good Fortune)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_good_fortune": {
-		"copyof": "talisman_lesser_good_fortune"
-	},
+	"lesser_talisman_good_fortune": { "copyof": "talisman_lesser_good_fortune" },
 	"talisman_lesser_healing_power": {
 		"name": "Talisman (Lesser) (Healing Power)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_healing_power": {
-		"copyof": "talisman_lesser_healing_power"
-	},
+	"lesser_talisman_healing_power": { "copyof": "talisman_lesser_healing_power" },
 	"talisman_lesser_hamsa": {
 		"name": "Talisman (Lesser) (Hamsa)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_hamsa": {
-		"copyof": "talisman_lesser_hamsa"
-	},
+	"lesser_talisman_hamsa": { "copyof": "talisman_lesser_hamsa" },
 	"talisman_lesser_lifes_breath": {
 		"name": "Talisman (Lesser) (Life's Breath)",
 		"copyof": "talisman_lesser_beneficial_winds"
 	},
-	"lesser_talisman_lifes_breath": {
-		"copyof": "talisman_lesser_lifes_breath"
-	},
+	"lesser_talisman_lifes_breath": { "copyof": "talisman_lesser_lifes_breath" },
 	"hexbiter_charm": {
 		"name": "Hexbiter Charm",
 		"sources": [ "Merchant's Manifest" ],
@@ -3848,9 +3762,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}, {spell/breath of life}; **Cost** 1,875 gp"
 		]
 	},
-	"greater_aegis_of_recovery": {
-		"copyof": "aegis_of_recovery_greater"
-	},
+	"greater_aegis_of_recovery": { "copyof": "aegis_of_recovery_greater" },
 	"orb_of_the_waybringer": {
 		"name": "Orb of the Waybringer",
 		"sources": [
@@ -4773,23 +4685,17 @@
 			"**Requirements** {feat/Craft Wondrous Item}, Extend Spell, {spell/summon monster I}; **Cost** 375 gp (Lesser), 1,375 gp (Normal), 3,063 gp (Greater)"
 		]
 	},
-	"lesser_book_of_extended_summoning": {
-		"copyof": "book_of_extended_summoning_lesser"
-	},
+	"lesser_book_of_extended_summoning": { "copyof": "book_of_extended_summoning_lesser" },
 	"book_of_extended_summoning_normal": {
 		"name": "Book of Extended Summoning (Normal)",
 		"copyof": "book_of_extended_summoning_lesser"
 	},
-	"normal_book_of_extended_summoning": {
-		"copyof": "book_of_extended_summoning_normal"
-	},
+	"normal_book_of_extended_summoning": { "copyof": "book_of_extended_summoning_normal" },
 	"book_of_extended_summoning_greater": {
 		"name": "Book of Extended Summoning (Greater)",
 		"copyof": "book_of_extended_summoning_lesser"
 	},
-	"greater_book_of_extended_summoning": {
-		"copyof": "book_of_extended_summoning_greater"
-	},
+	"greater_book_of_extended_summoning": { "copyof": "book_of_extended_summoning_greater" },
 	"levitating_land_mine": {
 		"name": "Levitating Land Mine",
 		"sources": [ "Kobolds of Golarion" ],

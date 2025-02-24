@@ -111,12 +111,8 @@
 			"This 10-foot-long chain has hardness 20 and 6 hit points. A successful DC 30 Strength check is required to burst it, making it strong enough to hold many types of giants."
 		]
 	},
-	"chain_adamantine": {
-		"copyof": "adamantine_chain_10_ft"
-	},
-	"adamantine_chain": {
-		"copyof": "adamantine_chain_10_ft"
-	},
+	"chain_adamantine": { "copyof": "adamantine_chain_10_ft" },
+	"adamantine_chain": { "copyof": "adamantine_chain_10_ft" },
 	"adhesive_strip": {
 		"name": "Adhesive strip",
 		"sources": [ "Ultimate Wilderness" ],
@@ -207,12 +203,8 @@
 			"An air-breathing adventurer would need to bring over a dozen tanks full of air with her to have enough to breathe for even a single hour. Since this is impractical, alchemists developed a technique to store greater amounts of air in a smaller volume using pressure. Each pressurized air tank is a little smaller than half the size of a tank, but it contains enough air for a swimming character to breathe for 1 hour (the pressurized air itself weighs 7 pounds, so an empty tank weighs only 23 pounds). When a small crank is manipulated as a standard action, the tank releases just enough air for a breath, which the diving character breathes in through a straw-like tube with a semi-permeable end piece that allows air out but not water in. The process of refilling the air tank requires 5 gp of materials and a successful DC 20 Craft (alchemy) check (failure destroys the tank) or the services of a kineticist with basic aerokinesis."
 		]
 	},
-	"pressurized_air_tank": {
-		"copyof": "air_tank_pressurized"
-	},
-	"air_tank": {
-		"copyof": "air_tank_pressurized"
-	},
+	"pressurized_air_tank": { "copyof": "air_tank_pressurized" },
+	"air_tank": { "copyof": "air_tank_pressurized" },
 	"alchemical_blood": {
 		"name": "Alchemical blood",
 		"sources": [ "Monster Codex" ],
@@ -1487,9 +1479,7 @@
 			"These sacks each include a 20-foot-long rope, from which they may be easily suspended from a tree limb or similar anchor point. Placing foodstuffs or fragile materials in hanging sacks is often considered a basic precaution when camping in the wild, to prevent bears and other predators from rooting through the sack's contents."
 		]
 	},
-	"bear_bag": {
-		"copyof": "bag_bear"
-	},
+	"bear_bag": { "copyof": "bag_bear" },
 	"baijiu_bottle": {
 		"name": "Baijiu (bottle)",
 		"sources": [ "Ultimate Equipment" ],
@@ -1529,23 +1519,17 @@
 			"This ball may be an inflated animal bladder, carved from light wood, fabric stuffed with cloth or plant fiber and sewn shut."
 		]
 	},
-	"ball_ten_in": {
-		"copyof": "ball_10_in"
-	},
+	"ball_ten_in": { "copyof": "ball_10_in" },
 	"ball_2_in": {
 		"name": "Ball (2 in.)",
 		"copyof": "ball_ten_in"
 	},
-	"ball_two_in": {
-		"copyof": "ball_2_in"
-	},
+	"ball_two_in": { "copyof": "ball_2_in" },
 	"ball_5_in": {
 		"name": "Ball (5 in.)",
 		"copyof": "ball_ten_in"
 	},
-	"ball_five_in": {
-		"copyof": "ball_5_in"
-	},
+	"ball_five_in": { "copyof": "ball_5_in" },
 	"balloon_trap": {
 		"name": "Balloon trap",
 		"sources": [ "Dragonslayer's Handbook" ],
@@ -2949,9 +2933,7 @@
 		"name": "Branding iron (custom shape)",
 		"copyof": "branding_iron_common"
 	},
-	"branding_iron": {
-		"copyof": "branding_iron_common"
-	},
+	"branding_iron": { "copyof": "branding_iron_common" },
 	"brawlers_brew": {
 		"name": "Brawler's brew",
 		"sources": [ "Potions and Poisons" ],
@@ -3057,9 +3039,7 @@
 			"This exceptionally crafted kit provides extra spices, a wider variety of herbs, and higher quality tools than a normal brewer's kit. A masterwork brewer's kit grants a +2 circumstance bonus on Craft (alchemy) checks to produce alcoholic beverages."
 		]
 	},
-	"masterwork_brewers_kit": {
-		"copyof": "brewers_kit_masterwork"
-	},
+	"masterwork_brewers_kit": { "copyof": "brewers_kit_masterwork" },
 	"broadsheet": {
 		"name": "Broadsheet",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -3353,9 +3333,7 @@
 			"Cold iron caltrops function in all ways as ordinary caltrops except that they are made of cold iron, and affect creatures with DR/cold iron accordingly."
 		]
 	},
-	"cold_iron_caltrops": {
-		"copyof": "caltrops_cold_iron"
-	},
+	"cold_iron_caltrops": { "copyof": "caltrops_cold_iron" },
 	"caltrops_vicious": {
 		"name": "Caltrops, vicious",
 		"sources": [ "Goblins of Golarion" ],
@@ -3368,9 +3346,7 @@
 			"These specially modified caltrops have clusters of needle-sharp spines that are slightly longer and more brittle than those on normal caltrops. Like standard caltrops, a 2-pound bag of vicious caltrops covers a 5-foot-square area. Vicious caltrops work just like normal caltrops, save that they have an attack bonus of +4, do 1d2 points of damage, and require a DC 20 Heal check to fully treat."
 		]
 	},
-	"vicious_caltrops": {
-		"copyof": "caltrops_vicious"
-	},
+	"vicious_caltrops": { "copyof": "caltrops_vicious" },
 	"calumet": {
 		"name": "Calumet",
 		"sources": [ "Advanced Class Guide" ],
@@ -3570,23 +3546,17 @@
 			"A hollow cane has a false top that conceals a small compartment within the cane. The compartment is large enough to house a potion or vial. Spotting the secret compartment of a hollow cane requires a successful DC 18 Perception check."
 		]
 	},
-	"hollow_common_cane": {
-		"copyof": "cane_hollow_common"
-	},
+	"hollow_common_cane": { "copyof": "cane_hollow_common" },
 	"cane_hollow_simple": {
 		"name": "Cane, hollow (simple)",
 		"copyof": "cane_hollow_common"
 	},
-	"hollow_simple_cane": {
-		"copyof": "cane_hollow_simple"
-	},
+	"hollow_simple_cane": { "copyof": "cane_hollow_simple" },
 	"cane_hollow_elegant": {
 		"name": "Cane, hollow (elegant)",
 		"copyof": "cane_hollow_common"
 	},
-	"hollow_elegant_cane": {
-		"copyof": "cane_hollow_elegant"
-	},
+	"hollow_elegant_cane": { "copyof": "cane_hollow_elegant" },
 	"cannon_ball": {
 		"name": "Cannon ball",
 		"sources": [ "Inner Sea World Guide" ],
@@ -3996,9 +3966,7 @@
 			"This chain is made of interlocking metal links roughly an inch long, and thick enough to bear large amounts of weight. It has hardness 10 and 5 hit points. It can be burst with a DC 26 Strength check."
 		]
 	},
-	"chain_ten_ft": {
-		"copyof": "chain_10_ft"
-	},
+	"chain_ten_ft": { "copyof": "chain_10_ft" },
 	"chain_belt": {
 		"name": "Chain belt",
 		"sources": [ "Advanced Race Guide" ],
@@ -4724,9 +4692,7 @@
 		"name": "Commissioned broadsheet (print run (500 broadsheets))",
 		"copyof": "commissioned_broadsheet_setup_and_proof_print"
 	},
-	"commissioned_broadsheet_print_run_five_hundred_broadsheets": {
-		"copyof": "commissioned_broadsheet_print_run_500_broadsheets"
-	},
+	"commissioned_broadsheet_print_run_five_hundred_broadsheets": { "copyof": "commissioned_broadsheet_print_run_500_broadsheets" },
 	"compact_spellbook": {
 		"name": "Compact spellbook",
 		"sources": [ "Advanced Race Guide" ],
@@ -5322,9 +5288,7 @@
 			"In addition to granting the same bonus on Perform (dance) checks as regular dancer's garb, silver dancer's garb is considered a silver instrument for silver balladeer bards. Silver dancer's garb can be made of {eq-material/sunsilver}; sunsilver dancer's garb costs an additional 3,000 gp and grants the same benefits as armor made of sunsilver. As with the bonus on Perform (dance) checks, this benefit functions only when no other armor or concealing clothing is worn."
 		]
 	},
-	"silver_dancers_garb": {
-		"copyof": "dancers_garb_silver"
-	},
+	"silver_dancers_garb": { "copyof": "dancers_garb_silver" },
 	"dandy_brush": {
 		"name": "Dandy brush",
 		"sources": [ "Animal Archive" ],

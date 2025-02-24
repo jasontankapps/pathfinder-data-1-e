@@ -34,9 +34,7 @@
 		"name": "Umbral Infusion, Mass",
 		"copyof": "umbral_infusion"
 	},
-	"mass_umbral_infusion": {
-		"copyof": "umbral_infusion_mass"
-	},
+	"mass_umbral_infusion": { "copyof": "umbral_infusion_mass" },
 	"umbral_strike": {
 		"name": "Umbral Strike",
 		"sources": [ "Blood of Shadows" ],
@@ -289,30 +287,22 @@
 			"*Large undead:* If the form you take is that of a Large undead, you gain a +6 size bonus to your Strength, a -2 penalty on your Dexterity, a +2 size bonus to your Constitution, and a +6 natural armor bonus."
 		]
 	},
-	"undead_anatomy_i": {
-		"copyof": "undead_anatomy_1"
-	},
+	"undead_anatomy_i": { "copyof": "undead_anatomy_1" },
 	"undead_anatomy_2": {
 		"name": "Undead Anatomy II",
 		"copyof": "undead_anatomy_1"
 	},
-	"undead_anatomy_ii": {
-		"copyof": "undead_anatomy_2"
-	},
+	"undead_anatomy_ii": { "copyof": "undead_anatomy_2" },
 	"undead_anatomy_3": {
 		"name": "Undead Anatomy III",
 		"copyof": "undead_anatomy_1"
 	},
-	"undead_anatomy_iii": {
-		"copyof": "undead_anatomy_3"
-	},
+	"undead_anatomy_iii": { "copyof": "undead_anatomy_3" },
 	"undead_anatomy_4": {
 		"name": "Undead Anatomy IV",
 		"copyof": "undead_anatomy_1"
 	},
-	"undead_anatomy_iv": {
-		"copyof": "undead_anatomy_4"
-	},
+	"undead_anatomy_iv": { "copyof": "undead_anatomy_4" },
 	"undeath_inversion": {
 		"name": "Undeath Inversion",
 		"sources": [ "Undead Slayer's Handbook" ],
@@ -592,9 +582,7 @@
 		"name": "Unhallowed Blows, Greater",
 		"copyof": "unhallowed_blows"
 	},
-	"greater_unhallowed_blows": {
-		"copyof": "unhallowed_blows_greater"
-	},
+	"greater_unhallowed_blows": { "copyof": "unhallowed_blows_greater" },
 	"unholy_aura": {
 		"name": "Unholy Aura",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1532,16 +1520,12 @@
 			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can act as if you had the {feat/Natural Spell} feat for 1 round a number of times equal to your tier. For example, if you are 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic vermin shape."
 		]
 	},
-	"vermin_shape_i": {
-		"copyof": "vermin_shape_1"
-	},
+	"vermin_shape_i": { "copyof": "vermin_shape_1" },
 	"vermin_shape_2": {
 		"name": "Vermin Shape II",
 		"copyof": "vermin_shape_1"
 	},
-	"vermin_shape_ii": {
-		"copyof": "vermin_shape_2"
-	},
+	"vermin_shape_ii": { "copyof": "vermin_shape_2" },
 	"verminous_transformation": {
 		"name": "Verminous Transformation",
 		"sources": [ "Horror Adventures" ],
@@ -1839,9 +1823,7 @@
 		"name": "Violent Misfire, Greater",
 		"copyof": "violent_misfire"
 	},
-	"greater_violent_misfire": {
-		"copyof": "violent_misfire_greater"
-	},
+	"greater_violent_misfire": { "copyof": "violent_misfire_greater" },
 	"viper_bomb_admixture": {
 		"name": "Viper Bomb Admixture",
 		"sources": [ "Ultimate Combat" ],
@@ -3056,9 +3038,7 @@
 		"name": "Water Walk, Communal",
 		"copyof": "water_walk"
 	},
-	"communal_water_walk": {
-		"copyof": "water_walk_communal"
-	},
+	"communal_water_walk": { "copyof": "water_walk_communal" },
 	"waterproof": {
 		"name": "Waterproof",
 		"sources": [ "Elemental Master's Handbook" ],

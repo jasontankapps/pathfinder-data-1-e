@@ -159,9 +159,7 @@
 	},
 	"artistry_any": {
 		"name": "Artistry (any)",
-		"sources": [
-			"Pathfinder Unchained"
-		],
+		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Artistry (any)",
 			"",
@@ -2040,9 +2038,7 @@
 	},
 	"lore_any": {
 		"name": "Lore (any)",
-		"sources": [
-			"Pathfinder Unchained"
-		],
+		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Lore (any)",
 			"",

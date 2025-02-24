@@ -1785,15 +1785,9 @@
 			"Whether it is a simple pottery cup or an elaborate drinking stein with a handle and decorative lid that flips up, this cup may be used to hold any sort of beverage. Tankards are commonly made out of clay or tin."
 		]
 	},
-	"mug_or_tankard": {
-		"copyof": "mug_tankard"
-	},
-	"mug": {
-		"copyof": "mug_tankard"
-	},
-	"tankard": {
-		"copyof": "mug_tankard"
-	},
+	"mug_or_tankard": { "copyof": "mug_tankard" },
+	"mug": { "copyof": "mug_tankard" },
+	"tankard": { "copyof": "mug_tankard" },
 	"muscle_grout": {
 		"name": "Muscle grout",
 		"sources": [ "Heroes of the Darklands" ],
@@ -2551,12 +2545,8 @@
 		"name": "Pack animal (donkey/mule)",
 		"copyof": "pack_animal_ox"
 	},
-	"pack_animal_donkey": {
-		"copyof": "pack_animal_donkey_mule"
-	},
-	"pack_animal_mule": {
-		"copyof": "pack_animal_donkey_mule"
-	},
+	"pack_animal_donkey": { "copyof": "pack_animal_donkey_mule" },
+	"pack_animal_mule": { "copyof": "pack_animal_donkey_mule" },
 	"pack_animal_yak": {
 		"name": "Pack animal (yak)",
 		"copyof": "pack_animal_ox"
@@ -2683,9 +2673,7 @@
 			"Not all underwater creatures use sight as their primary means of reading text, so underwater paper is significantly thicker than surface paper, allowing the writer to carve the letters into the sheet. This lets creatures with blindsight see the textured writing from afar as well as allowing others to read it by touch, or sometimes from a short distance if they have unusually precise tremorsense. For underwater societies where vision is more prominent, the writer can fill the carved grooves with colorful ink (and potentially bioluminescent ink) and then adhere a transparent waterproof sheet on top to prevent the ink from washing away. This transparent sheet costs an additional 4 sp."
 		]
 	},
-	"underwater_sheet_paper": {
-		"copyof": "paper_underwater_sheet"
-	},
+	"underwater_sheet_paper": { "copyof": "paper_underwater_sheet" },
 	"parasaurolophus": {
 		"name": "Parasaurolophus",
 		"sources": [ "Animal Archive" ],
@@ -2969,9 +2957,7 @@
 			"Underwater pens fill the grooves carved into underwater paper with ink; as such, they work somewhat like a syringe, drawing ink from a waterproof bladder and then gently releasing it into the grooves as the writer traces them with the pen. These pens function equally well at depositing ink into tablets, underwater paper, walls, or anything with carved writing."
 		]
 	},
-	"underwater_pen": {
-		"copyof": "pen_underwater"
-	},
+	"underwater_pen": { "copyof": "pen_underwater" },
 	"performers_token": {
 		"name": "Performer's token",
 		"sources": [ "Occult Adventures" ],
@@ -3030,12 +3016,8 @@
 			"Most perfumes and colognes are derived from the essential oils of flowers. Perfume or cologne may (at the GM's discretion) provide a +1 circumstance bonus on several Charisma-based skill checks."
 		]
 	},
-	"perfume": {
-		"copyof": "perfume_cologne"
-	},
-	"cologne": {
-		"copyof": "perfume_cologne"
-	},
+	"perfume": { "copyof": "perfume_cologne" },
+	"cologne": { "copyof": "perfume_cologne" },
 	"periscope": {
 		"name": "Periscope",
 		"sources": [
@@ -3153,9 +3135,7 @@
 			"Goblins pickle everything, and thus goblin pickles can be composed of almost anything. Their only shared characteristic is that they're mostly edible. At the GM's discretion, a non-goblin who eats a goblin pickle must make a DC 10 Fortitude save to avoid being sickened for 1 hour. A single jar of goblin pickles provides a goblin enough nourishment for a day."
 		]
 	},
-	"pickles_goblin_one_jar": {
-		"copyof": "pickles_goblin_1_jar"
-	},
+	"pickles_goblin_one_jar": { "copyof": "pickles_goblin_1_jar" },
 	"pickpockets_outfit": {
 		"name": "Pickpocket's outfit",
 		"sources": [
@@ -4338,33 +4318,25 @@
 			"Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
 	},
-	"waterproof_bullseye_lantern": {
-		"copyof": "waterproof_lantern_bullseye"
-	},
+	"waterproof_bullseye_lantern": { "copyof": "waterproof_lantern_bullseye" },
 	"lantern_waterproof_bullseye": { "copyof": "waterproof_bullseye_lantern" },
 	"waterproof_lantern_dusk": {
 		"name": "Waterproof lantern (dusk)",
 		"copyof": "waterproof_lantern_bullseye"
 	},
-	"waterproof_dusk_lantern": {
-		"copyof": "waterproof_lantern_dusk"
-	},
+	"waterproof_dusk_lantern": { "copyof": "waterproof_lantern_dusk" },
 	"lantern_waterproof_dusk": { "copyof": "waterproof_dusk_lantern" },
 	"waterproof_lantern_hooded": {
 		"name": "Waterproof lantern (hooded)",
 		"copyof": "waterproof_lantern_bullseye"
 	},
-	"waterproof_hooded_lantern": {
-		"copyof": "waterproof_lantern_hooded"
-	},
+	"waterproof_hooded_lantern": { "copyof": "waterproof_lantern_hooded" },
 	"lantern_waterproof_hooded": { "copyof": "waterproof_hooded_lantern" },
 	"waterproof_lantern_miners": {
 		"name": "Waterproof lantern (miner's)",
 		"copyof": "waterproof_lantern_bullseye"
 	},
-	"waterproof_miners_lantern": {
-		"copyof": "waterproof_lantern_miners"
-	},
+	"waterproof_miners_lantern": { "copyof": "waterproof_lantern_miners" },
 	"lantern_waterproof_miners": { "copyof": "waterproof_miners_lantern" },
 	"waterskin": {
 		"name": "Waterskin",
@@ -4584,12 +4556,8 @@
 		"name": "Whistle (silent)",
 		"copyof": "whistle_signal"
 	},
-	"signal_whistle": {
-		"copyof": "whistle_signal"
-	},
-	"whistle_silent": {
-		"copyof": "silent_whistle"
-	},
+	"signal_whistle": { "copyof": "whistle_signal" },
+	"whistle_silent": { "copyof": "silent_whistle" },
 	"wig": {
 		"name": "Wig",
 		"sources": [
@@ -4900,9 +4868,7 @@
 		"name": "Woad painting (paint, 1 block)",
 		"copyof": "woad_painting_kit"
 	},
-	"woad_painting_paint_one_block": {
-		"copyof": "woad_painting_paint_1_block"
-	},
+	"woad_painting_paint_one_block": { "copyof": "woad_painting_paint_1_block" },
 	"wolf": {
 		"name": "Wolf",
 		"sources": [ "Animal Archive" ],

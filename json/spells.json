@@ -205,23 +205,17 @@
 			"This spell functions like absorb rune I, but it can affect runes equivalent to a spell of 8th level or lower."
 		]
 	},
-	"absorb_rune_i": {
-		"copyof": "absorb_rune_1"
-	},
+	"absorb_rune_i": { "copyof": "absorb_rune_1" },
 	"absorb_rune_2": {
 		"name": "Absorb Rune II",
 		"copyof": "absorb_rune_1"
 	},
-	"absorb_rune_ii": {
-		"copyof": "absorb_rune_2"
-	},
+	"absorb_rune_ii": { "copyof": "absorb_rune_2" },
 	"absorb_rune_3": {
 		"name": "Absorb Rune III",
 		"copyof": "absorb_rune_1"
 	},
-	"absorb_rune_iii": {
-		"copyof": "absorb_rune_3"
-	},
+	"absorb_rune_iii": { "copyof": "absorb_rune_3" },
 	"absorb_toxicity": {
 		"name": "Absorb Toxicity",
 		"sources": [ "Ultimate Combat" ],
@@ -748,9 +742,7 @@
 			"This spell functions as lesser age resistance, except you ignore all Strength, Dexterity, and Constitution penalties gained from middle age, old age, and venerable age."
 		]
 	},
-	"lesser_age_resistance": {
-		"copyof": "age_resistance_lesser"
-	},
+	"lesser_age_resistance": { "copyof": "age_resistance_lesser" },
 	"age_resistance": {
 		"name": "Age Resistance",
 		"copyof": "lesser_age_resistance"
@@ -759,9 +751,7 @@
 		"name": "Age Resistance, Greater",
 		"copyof": "lesser_age_resistance"
 	},
-	"greater_age_resistance": {
-		"copyof": "age_resistance_greater"
-	},
+	"greater_age_resistance": { "copyof": "age_resistance_greater" },
 	"aggravate_affliction": {
 		"name": "Aggravate Affliction",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
@@ -817,9 +807,7 @@
 		"name": "Aggressive Thundercloud, Greater",
 		"copyof": "aggressive_thundercloud"
 	},
-	"greater_aggressive_thundercloud": {
-		"copyof": "aggressive_thundercloud_greater"
-	},
+	"greater_aggressive_thundercloud": { "copyof": "aggressive_thundercloud_greater" },
 	"agonize": {
 		"name": "Agonize",
 		"sources": [
@@ -1013,9 +1001,7 @@
 		"name": "Air Walk, Communal",
 		"copyof": "air_walk"
 	},
-	"communal_air_walk": {
-		"copyof": "air_walk_communal"
-	},
+	"communal_air_walk": { "copyof": "air_walk_communal" },
 	"akashic_communion": {
 		"name": "Akashic Communion",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -1235,9 +1221,7 @@
 		"name": "Align Weapon, Communal",
 		"copyof": "align_weapon"
 	},
-	"communal_align_weapon": {
-		"copyof": "align_weapon_communal"
-	},
+	"communal_align_weapon": { "copyof": "align_weapon_communal" },
 	"allegro": {
 		"name": "Allegro",
 		"sources": [ "Ultimate Magic" ],
@@ -1778,9 +1762,7 @@
 			"Truespeech allows you to speak with any creature that has a language, as though using the tongues spell."
 		]
 	},
-	"lesser_angelic_aspect": {
-		"copyof": "angelic_aspect_lesser"
-	},
+	"lesser_angelic_aspect": { "copyof": "angelic_aspect_lesser" },
 	"angelic_aspect": {
 		"name": "Angelic Aspect",
 		"copyof": "lesser_angelic_aspect"
@@ -1789,9 +1771,7 @@
 		"name": "Angelic Aspect, Greater",
 		"copyof": "lesser_angelic_aspect"
 	},
-	"greater_angelic_aspect": {
-		"copyof": "angelic_aspect_greater"
-	},
+	"greater_angelic_aspect": { "copyof": "angelic_aspect_greater" },
 	"animal_ambassador": {
 		"name": "Animal Ambassador",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1888,9 +1868,7 @@
 		"name": "Animal Aspect, Greater",
 		"copyof": "animal_aspect"
 	},
-	"greater_animal_aspect": {
-		"copyof": "animal_aspect_greater"
-	},
+	"greater_animal_aspect": { "copyof": "animal_aspect_greater" },
 	"animal_growth": {
 		"name": "Animal Growth",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2056,9 +2034,7 @@
 		"name": "Animate Dead, Lesser",
 		"copyof": "animate_dead"
 	},
-	"lesser_animate_dead": {
-		"copyof": "animate_dead_lesser"
-	},
+	"lesser_animate_dead": { "copyof": "animate_dead_lesser" },
 	"animate_objects": {
 		"name": "Animate Objects",
 		"sources": [
@@ -2185,9 +2161,7 @@
 		"name": "Animus Mine, Greater",
 		"copyof": "animus_mine"
 	},
-	"greater_animus_mine": {
-		"copyof": "animus_mine_greater"
-	},
+	"greater_animus_mine": { "copyof": "animus_mine_greater" },
 	"anonymous_interaction": {
 		"name": "Anonymous Interaction",
 		"sources": [ "Advanced Class Guide" ],
@@ -2244,9 +2218,7 @@
 		"name": "Ant Haul, Communal",
 		"copyof": "ant_haul"
 	},
-	"communal_ant_haul": {
-		"copyof": "ant_haul_communal"
-	},
+	"communal_ant_haul": { "copyof": "ant_haul_communal" },
 	"anthropomorphic_animal": {
 		"name": "Anthropomorphic Animal",
 		"sources": [ "Ultimate Magic" ],
@@ -2720,9 +2692,7 @@
 		"name": "Appearance of Life, Greater",
 		"copyof": "appearance_of_life"
 	},
-	"greater_appearance_of_life": {
-		"copyof": "appearance_of_life_greater"
-	},
+	"greater_appearance_of_life": { "copyof": "appearance_of_life_greater" },
 	"apport_animal": {
 		"name": "Apport Animal",
 		"sources": [ "Occult Adventures" ],
@@ -3185,9 +3155,7 @@
 		"name": "Arcane Sight, Greater",
 		"copyof": "arcane_sight"
 	},
-	"greater_arcane_sight": {
-		"copyof": "arcane_sight_greater"
-	},
+	"greater_arcane_sight": { "copyof": "arcane_sight_greater" },
 	"archons_aura": {
 		"name": "Archon's Aura",
 		"sources": [ "Ultimate Magic" ],
@@ -3582,9 +3550,7 @@
 		"name": "Assume Appearance, Greater",
 		"copyof": "assume_appearance"
 	},
-	"greater_assume_appearance": {
-		"copyof": "assume_appearance_greater"
-	},
+	"greater_assume_appearance": { "copyof": "assume_appearance_greater" },
 	"assumed_likeness": {
 		"name": "Assumed Likeness",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -3657,9 +3623,7 @@
 		"name": "Astral Projection, Lesser",
 		"copyof": "astral_projection"
 	},
-	"lesser_astral_projection": {
-		"copyof": "astral_projection_lesser"
-	},
+	"lesser_astral_projection": { "copyof": "astral_projection_lesser" },
 	"atavism": {
 		"name": "Atavism",
 		"sources": [ "Ultimate Magic" ],
@@ -3695,9 +3659,7 @@
 		"name": "Atavism, Mass",
 		"copyof": "atavism"
 	},
-	"mass_atavism": {
-		"copyof": "atavism_mass"
-	},
+	"mass_atavism": { "copyof": "atavism_mass" },
 	"atonement": {
 		"name": "Atonement",
 		"sources": [ "PRPG Core Rulebook" ],

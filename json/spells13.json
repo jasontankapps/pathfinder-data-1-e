@@ -315,9 +315,7 @@
 		"name": "Dispel Magic, Greater",
 		"copyof": "dispel_magic"
 	},
-	"greater_dispel_magic": {
-		"copyof": "dispel_magic_greater"
-	},
+	"greater_dispel_magic": { "copyof": "dispel_magic_greater" },
 	"displacement": {
 		"name": "Displacement",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1615,9 +1613,7 @@
 			"This spell functions like eagle's splendor, except that it affects multiple creatures."
 		]
 	},
-	"mass_eagles_splendor": {
-		"copyof": "eagles_splendor_mass"
-	},
+	"mass_eagles_splendor": { "copyof": "eagles_splendor_mass" },
 	"eaglesoul": {
 		"name": "Eaglesoul",
 		"sources": [ "Inner Sea Magic" ],
@@ -2033,37 +2029,27 @@
 			"This functions as ego whip I, but the target takes -10 penalty to the chosen ability score and is staggered for 1d10 rounds on a failed Will save. This spell can be undercast."
 		]
 	},
-	"ego_whip_i": {
-		"copyof": "ego_whip_1"
-	},
+	"ego_whip_i": { "copyof": "ego_whip_1" },
 	"ego_whip_2": {
 		"name": "Ego Whip II",
 		"copyof": "ego_whip_1"
 	},
-	"ego_whip_ii": {
-		"copyof": "ego_whip_2"
-	},
+	"ego_whip_ii": { "copyof": "ego_whip_2" },
 	"ego_whip_3": {
 		"name": "Ego Whip III",
 		"copyof": "ego_whip_1"
 	},
-	"ego_whip_iii": {
-		"copyof": "ego_whip_3"
-	},
+	"ego_whip_iii": { "copyof": "ego_whip_3" },
 	"ego_whip_4": {
 		"name": "Ego Whip IV",
 		"copyof": "ego_whip_1"
 	},
-	"ego_whip_iv": {
-		"copyof": "ego_whip_4"
-	},
+	"ego_whip_iv": { "copyof": "ego_whip_4" },
 	"ego_whip_5": {
 		"name": "Ego Whip V",
 		"copyof": "ego_whip_1"
 	},
-	"ego_whip_v": {
-		"copyof": "ego_whip_5"
-	},
+	"ego_whip_v": { "copyof": "ego_whip_5" },
 	"follow_aura": {
 		"name": "Follow Aura",
 		"sources": [ "Advanced Player's Guide" ],
@@ -2222,9 +2208,7 @@
 		"name": "Forbid Action, Greater",
 		"copyof": "forbid_action"
 	},
-	"greater_forbid_action": {
-		"copyof": "forbid_action_greater"
-	},
+	"greater_forbid_action": { "copyof": "forbid_action_greater" },
 	"forbiddance": {
 		"name": "Forbiddance",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2630,23 +2614,17 @@
 			"This spell functions as per form of the alien dragon II, except it also allows you to take the form of a Huge esoteric or outer dragon. Psychics can choose from the esoteric dragon (astral, dream, etheric, nightmare, or occult) forms only. You gain the following: a +10 size bonus to your Strength, a +8 size bonus to your Constitution, a +8 natural armor bonus, a fly speed of 120 feet (poor), blindsense with a range of 60 feet, darkvision with a range of 120 feet, a breath weapon, damage reduction 10/magic, frightful presence (DC = DC for this spell), and immunity to one form of energy or effect (of the same type form of the alien dragon I grants either a bonus against or resistance to, if any). You also gain one bite attack (2d8), two claw attacks (2d6), two wing attacks (1d8), and one tail slap attack (2d6). You can use the breath weapon as often as you like, but must wait 1d4 rounds between uses. All breath weapons deal 12d8 points of damage unless noted otherwise and allow a Reflex save to halve the normal damage. Line breath weapons increase to 100-foot lines and cones increase to 50-foot cones."
 		]
 	},
-	"form_of_the_alien_dragon_i": {
-		"copyof": "form_of_the_alien_dragon_1"
-	},
+	"form_of_the_alien_dragon_i": { "copyof": "form_of_the_alien_dragon_1" },
 	"form_of_the_alien_dragon_2": {
 		"name": "Form of the Alien Dragon II",
 		"copyof": "form_of_the_alien_dragon_1"
 	},
-	"form_of_the_alien_dragon_ii": {
-		"copyof": "form_of_the_alien_dragon_2"
-	},
+	"form_of_the_alien_dragon_ii": { "copyof": "form_of_the_alien_dragon_2" },
 	"form_of_the_alien_dragon_3": {
 		"name": "Form of the Alien Dragon III",
 		"copyof": "form_of_the_alien_dragon_1"
 	},
-	"form_of_the_alien_dragon_iii": {
-		"copyof": "form_of_the_alien_dragon_3"
-	},
+	"form_of_the_alien_dragon_iii": { "copyof": "form_of_the_alien_dragon_3" },
 	"form_of_the_dragon_1": {
 		"name": "Form of the Dragon I",
 		"sources": [
@@ -2746,23 +2724,17 @@
 			"*Augmented (3rd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can revert to your normal form or back to your dragon form without ending the spell a number of times equal to your tier."
 		]
 	},
-	"form_of_the_dragon_i": {
-		"copyof": "form_of_the_dragon_1"
-	},
+	"form_of_the_dragon_i": { "copyof": "form_of_the_dragon_1" },
 	"form_of_the_dragon_2": {
 		"name": "Form of the Dragon II",
 		"copyof": "form_of_the_dragon_1"
 	},
-	"form_of_the_dragon_ii": {
-		"copyof": "form_of_the_dragon_2"
-	},
+	"form_of_the_dragon_ii": { "copyof": "form_of_the_dragon_2" },
 	"form_of_the_dragon_3": {
 		"name": "Form of the Dragon III",
 		"copyof": "form_of_the_dragon_1"
 	},
-	"form_of_the_dragon_iii": {
-		"copyof": "form_of_the_dragon_3"
-	},
+	"form_of_the_dragon_iii": { "copyof": "form_of_the_dragon_3" },
 	"form_of_the_exotic_dragon_1": {
 		"name": "Form of the Exotic Dragon I",
 		"sources": [ "Legacy of Dragons" ],
@@ -2829,23 +2801,17 @@
 			"This spell functions as per form of the exotic dragon II except that it also allows you to take the form of a Huge imperial or primal dragon. Druids can choose from the primal dragon (brine, cloud, crystal, magma, or umbral) forms only. You gain the following abilities: a +10 size bonus to your Strength, a +8 size bonus to your Constitution, a +8 natural armor bonus, a fly speed of 120 feet (poor), blindsense with a range of 60 feet, darkvision with a range of 120 feet, a breath weapon, damage reduction 10/magic, frightful presence (DC = DC for this spell), and immunity to one form of energy (of the same type form of the exotic dragon I grants a resistance to, if any). You gain one bite attack (2d8), two claw attacks (2d6), a one tail slap attack (2d6), and either a gore attack (2d8) if you assume the form of an imperial dragon or two wing attacks (1d8) if you assume the form of a primal dragon. You can use the breath weapon as often as you like, but must wait 1d4 rounds between uses. All breath weapons deal 12d8 points of damage unless noted otherwise and allow a Reflex save to halve the normal damage. Line breath weapons increase to 100-foot lines and cones increase to 50-foot cones."
 		]
 	},
-	"form_of_the_exotic_dragon_i": {
-		"copyof": "form_of_the_exotic_dragon_1"
-	},
+	"form_of_the_exotic_dragon_i": { "copyof": "form_of_the_exotic_dragon_1" },
 	"form_of_the_exotic_dragon_2": {
 		"name": "Form of the Exotic Dragon II",
 		"copyof": "form_of_the_exotic_dragon_1"
 	},
-	"form_of_the_exotic_dragon_ii": {
-		"copyof": "form_of_the_exotic_dragon_2"
-	},
+	"form_of_the_exotic_dragon_ii": { "copyof": "form_of_the_exotic_dragon_2" },
 	"form_of_the_exotic_dragon_3": {
 		"name": "Form of the Exotic Dragon III",
 		"copyof": "form_of_the_exotic_dragon_1"
 	},
-	"form_of_the_exotic_dragon_iii": {
-		"copyof": "form_of_the_exotic_dragon_3"
-	},
+	"form_of_the_exotic_dragon_iii": { "copyof": "form_of_the_exotic_dragon_3" },
 	"fortunes_path": {
 		"name": "Fortune's Path",
 		"sources": [ "Disciple's Doctrine" ],
@@ -2926,9 +2892,7 @@
 		"name": "Fox's Cunning, Mass",
 		"copyof": "foxs_cunning"
 	},
-	"mass_foxs_cunning": {
-		"copyof": "foxs_cunning_mass"
-	},
+	"mass_foxs_cunning": { "copyof": "foxs_cunning_mass" },
 	"fractions_of_heal_and_harm": {
 		"name": "Fractions of Heal and Harm",
 		"sources": [
@@ -3905,9 +3869,7 @@
 		"name": "Ghostbane Dirge, Mass",
 		"copyof": "ghostbane_dirge"
 	},
-	"mass_ghostbane_dirge": {
-		"copyof": "ghostbane_dirge_mass"
-	},
+	"mass_ghostbane_dirge": { "copyof": "ghostbane_dirge_mass" },
 	"ghostly_disguise": {
 		"name": "Ghostly Disguise",
 		"sources": [ "Ultimate Magic" ],
@@ -3997,16 +3959,12 @@
 			"This spell functions as giant form I except that it also allows you to assume the form of any Huge creature of the giant type. You gain the following abilities: a +8 size bonus to Strength, a -2 penalty to Dexterity, a +6 size bonus to Constitution, a +6 natural armor bonus, low-light vision, and a +10 foot enhancement bonus to your speed. If the form you assume has any of the following abilities, you gain the listed ability: swim 60 feet, darkvision 60 feet, rend (2d8 damage), regeneration 5, rock catching, and rock throwing (range 120 feet, 2d10 damage). If the creature has immunity or resistance to one element, you gain that immunity or resistance. If the creature has vulnerability to an element, you gain that vulnerability."
 		]
 	},
-	"giant_form_i": {
-		"copyof": "giant_form_1"
-	},
+	"giant_form_i": { "copyof": "giant_form_1" },
 	"giant_form_2": {
 		"name": "Giant Form II",
 		"copyof": "giant_form_1"
 	},
-	"giant_form_ii": {
-		"copyof": "giant_form_2"
-	},
+	"giant_form_ii": { "copyof": "giant_form_2" },
 	"giant_vermin": {
 		"name": "Giant Vermin",
 		"sources": [
