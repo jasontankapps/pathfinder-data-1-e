@@ -4,7 +4,7 @@ import checkForBadTables from './checkForBadTables.js';
 const {
 	magicarmor,
 	magicartifact,
-	magicenhancement,
+	magicenh,
 	magicioun,
 	magicring,
 	magicrod,
@@ -33,7 +33,7 @@ const {
 const magic = [
 	magicarmor,
 	magicartifact,
-	magicenhancement,
+	magicenh,
 	magicioun,
 	magicring,
 	magicrod,

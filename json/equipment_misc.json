@@ -1231,6 +1231,7 @@
 		"copyof": "artisans_tools_common"
 	},
 	"masterwork_artisans_tools": { "copyof": "artisans_tools_masterwork" },
+	"artisans_tools_mwk": { "copyof": "artisans_tools_masterwork" },
 	"artists_poster": {
 		"name": "Artist's poster",
 		"sources": [ "Occult Adventures" ],
@@ -1439,6 +1440,7 @@
 		"name": "Backpack (masterwork)",
 		"copyof": "backpack_common"
 	},
+	"backpack_mwk": { "copyof": "backpack_masterwork" },
 	"backpack_weaponrack": {
 		"name": "Backpack (weaponrack)",
 		"copyof": "backpack_common"

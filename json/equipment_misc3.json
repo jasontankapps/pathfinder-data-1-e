@@ -1662,6 +1662,7 @@
 			"**Exotic Saddle:** These saddles are designed for a variety of unusual mounts, each customized for a specific type of beast. Exotic saddles come in military, pack, and riding styles, just as normal saddles do, and have the same traits."
 		]
 	},
+	"exotic_military_saddle": { "copyof": "saddle_exotic_military" },
 	"saddle_exotic_pack": {
 		"name": "Saddle (exotic, pack)",
 		"copyof": "saddle_exotic_military"
@@ -1686,6 +1687,7 @@
 		"name": "Saddle (riding)",
 		"copyof": "saddle_exotic_military"
 	},
+	"riding_saddle": { "copyof": "saddle_riding" },
 	"saddlebags": {
 		"name": "Saddlebags",
 		"sources": [
@@ -2641,6 +2643,8 @@
 	},
 	"rope_silk_50_ft": { "copyof": "silk_rope_50_ft" },
 	"silk_rope_fifty_ft": { "copyof": "silk_rope_50_ft" },
+	"rope_silk_50_feet": { "copyof": "silk_rope_50_ft" },
+	"silk_rope_50_feet": { "copyof": "silk_rope_50_ft" },
 	"silver_drops": {
 		"name": "Silver drops",
 		"sources": [ "Blood of the Moon" ],
@@ -4968,6 +4972,9 @@
 	"thieves_tools_masterwork": {
 		"name": "Thieves' tools (masterwork)",
 		"copyof": "thieves_tools_common"
+	},
+	"thieves_tools_mwk": {
+		"copyof": "thieves_tools_masterwork"
 	},
 	"thinkers_tipple": {
 		"name": "Thinker's tipple",

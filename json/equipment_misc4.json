@@ -536,6 +536,7 @@
 		"name": "Dog (riding)",
 		"copyof": "dog_guard"
 	},
+	"riding_dog": { "copyof": "dog_riding" },
 	"dog_sled": {
 		"name": "Dog sled",
 		"sources": [
@@ -1816,14 +1817,13 @@
 			"**Masterwork Musical Instrument:** This high-quality instrument grants a +2 circumstance bonus on Perform checks made to perform with the instrument."
 		]
 	},
+	"musical_instrument": { "copyof": "musical_instrument_common" },
 	"musical_instrument_masterwork": {
 		"name": "Musical instrument (masterwork)",
 		"copyof": "musical_instrument_common"
 	},
-	"masterwork_musical_instrument": {
-		"name": "Musical instrument (masterwork)",
-		"copyof": "musical_instrument_common"
-	},
+	"masterwork_musical_instrument": { "copyof": "musical_instrument_masterwork" },
+	"musical_instrument_mwk": { "copyof": "musical_instrument_masterwork" },
 	"musk_kit": {
 		"name": "Musk kit",
 		"sources": [ "Advanced Class Guide" ],

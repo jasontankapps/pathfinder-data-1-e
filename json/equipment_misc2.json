@@ -2451,6 +2451,9 @@
 		"name": "Holy symbol (iron)",
 		"copyof": "holy_symbol_gold"
 	},
+	"iron_holy_symbol": { "copyof": "holy_symbol_iron" },
+	"iron_unholy_symbol": { "copyof": "holy_symbol_iron" },
+	"gold_unholy_symbol": { "copyof": "holy_symbol_gold" },
 	"holy_symbol_cold_iron": {
 		"name": "Holy symbol (cold iron)",
 		"copyof": "holy_symbol_gold"
@@ -2459,10 +2462,14 @@
 		"name": "Holy symbol (platinum)",
 		"copyof": "holy_symbol_gold"
 	},
+	"platinum_holy_symbol": { "copyof": "holy_symbol_platinum" },
+	"platinum_unholy_symbol": { "copyof": "holy_symbol_platinum" },
 	"holy_symbol_silver": {
 		"name": "Holy symbol (silver)",
 		"copyof": "holy_symbol_gold"
 	},
+	"silver_holy_symbol": { "copyof": "holy_symbol_silver" },
+	"silver_unholy_symbol": { "copyof": "holy_symbol_silver" },
 	"holy_symbol_tattoo": {
 		"name": "Holy symbol (tattoo)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2483,10 +2490,9 @@
 		"name": "Holy symbol (wooden)",
 		"copyof": "holy_symbol_gold"
 	},
-	"holy_symbol_wooden": {
-		"name": "Holy symbol (wooden)",
-		"copyof": "holy_symbol_gold"
-	},
+	"wooden_unholy_symbol": { "copyof": "wooden_holy_symbol" },
+	"unholy_symbol_wooden": { "copyof": "wooden_holy_symbol" },
+	"holy_symbol_wooden": { "copyof": "wooden_holy_symbol" },
 	"holy_text": {
 		"name": "Holy text",
 		"sources": [ "Ultimate Equipment" ],
@@ -4590,6 +4596,7 @@
 		"name": "Manacles (masterwork)",
 		"copyof": "manacles_common"
 	},
+	"manacles_mwk": { "copyof": "manacles_masterwork" },
 	"manacles_mithral": {
 		"name": "Manacles (mithral)",
 		"copyof": "manacles_common"

@@ -4161,22 +4161,24 @@
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
 	"black_powder_dose": {
-		"name": "Black powder (dose)",
+		"name": "Black Powder (dose)",
 		"sources": [
+			"Ultimate Combat",
 			"Ultimate Equipment",
-			"Ultimate Combat"
+			"Inner Sea World Guide"
 		],
 		"description": [
-			"## Black powder (dose)",
-			"{SOURCE Ultimate Equipment/41;Ultimate Combat/140}",
+			"## Black Powder",
+			"{SOURCE Ultimate Combat/141;Ultimate Equipment/41;Inner Sea World Guide/292}",
 			"",
-			"Black powder is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well. A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a cannon. Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode - a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot burst (DC 15 Reflex half). Storing black powder in a powder horn protects the powder from explosion.",
+			"Black powder is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well. A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a cannon. Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode - a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot burst (DC 15 Reflex half). Storing black powder in a {eq-weapon/powder horn} protects the powder from explosion.",
 			"",
 			"**Cost** 10 gp (dose)/1,000gp (keg) **Weight** - (dose)/5 lbs. (keg)  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
 		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
+	"black_powder": { "copyof": "black_powder_dose" },
 	"black_powder_keg": {
 		"name": "Black powder (keg)",
 		"copyof": "black_powder_dose"
@@ -4333,12 +4335,16 @@
 	},
 	"powder_horn": {
 		"name": "Powder horn",
-		"sources": [ "Ultimate Combat" ],
+		"sources": [
+			"Ultimate Equipment",
+			"Ultimate Combat",
+			"Inner Sea World Guide"
+		],
 		"description": [
 			"## Powder horn",
-			"{SOURCE Ultimate Combat/141}",
+			"{SOURCE Ultimate Equipment/57;Ultimate Combat/141;Inner Sea World Guide/293}",
 			"",
-			"Typically crafted from animal horn, but increasingly crafted from metal in a wide variety of shapes, a powder horn can hold up to 10 doses of black powder. A powder horn protects black powder stored within in it from exposure to fire, electricity, firearm misfires, and water.",
+			"Typically crafted from hollowed-out animal horn, but increasingly crafted from metal in a wide variety of shapes, a powder horn can hold up to 10 doses of {eq-weapon/black powder}. A powder horn protects black powder stored within in it from exposure to fire, electricity, firearm misfires, and water, and the narrow end of the horn is useful in funneling the expensive powder carefully into the barrel of a firearm.",
 			"",
 			"**Cost** 3 gp **Weight** 1 lb.  ",
 			"**Category** Ammunition; **Proficiency** Exotic"

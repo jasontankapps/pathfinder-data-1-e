@@ -2791,7 +2791,7 @@
 			"",
 			"**Environment** any (Castrovel)  ",
 			"**Organization** any  ",
-			"**Treasure** NPC gear (light crossbow with 20 bolts, quarterstaff, gold amulet [bonded object], other treasure)",
+			"**Treasure** NPC gear ({eq-weapon/light crossbow} with 20 bolts, quarterstaff, gold amulet [bonded object], other treasure)",
 			"",
 			"::sh[Description]",
 			"",

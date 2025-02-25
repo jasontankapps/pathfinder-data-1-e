@@ -86,13 +86,13 @@ import corruption from './json/corruptions.json' with {type: 'json'};
 import curse from './json/curses.json' with {type: 'json'};
 import disease from './json/diseases.json' with {type: 'json'};
 import drug from './json/drugs.json' with {type: 'json'};
-import equipmentreagent from './json/equipment_alchemical_reagents.json' with {type: 'json'};
-import equipmentarmor from './json/equipment_armor.json' with {type: 'json'};
-import equipmentarmorenhancement from './json/equipment_armor_enhancements.json' with {type: 'json'};
-import equipmentpoison from './json/equipment_poisons.json' with {type: 'json'};
-import equipmentsiegeengine from './json/equipment_siege_engines.json' with {type: 'json'};
-import equipmentmaterial from './json/equipment_special_materials.json' with {type: 'json'};
-import equipmentspellbook from './json/equipment_spellbooks.json' with {type: 'json'};
+import eqreagent from './json/equipment_alchemical_reagents.json' with {type: 'json'};
+import eqarmor from './json/equipment_armor.json' with {type: 'json'};
+import eqarmorenh from './json/equipment_armor_enhancements.json' with {type: 'json'};
+import eqpoison from './json/equipment_poisons.json' with {type: 'json'};
+import eqsiegeengine from './json/equipment_siege_engines.json' with {type: 'json'};
+import eqmaterial from './json/equipment_special_materials.json' with {type: 'json'};
+import eqspellbook from './json/equipment_spellbooks.json' with {type: 'json'};
 import techarmor from './json/equipment_tech_armor.json' with {type: 'json'};
 import techartifact from './json/equipment_tech_artifacts.json' with {type: 'json'};
 import techcybertech from './json/equipment_tech_cybertech.json' with {type: 'json'};
@@ -101,7 +101,7 @@ import techpharmaceutical from './json/equipment_tech_pharmaceuticals.json' with
 import techweapon from './json/equipment_tech_weapons.json' with {type: 'json'};
 import equipmentweapon1 from './json/equipment_weapons.json' with {type: 'json'};
 import equipmentweapon2 from './json/equipment_weapons2.json' with {type: 'json'};
-import equipmentweaponenhancement from './json/equipment_weapon_enhancements.json' with {type: 'json'};
+import eqweaponenh from './json/equipment_weapon_enhancements.json' with {type: 'json'};
 import haunt from './json/haunts.json' with {type: 'json'};
 import infestation from './json/infestations.json' with {type: 'json'};
 import madness from './json/madness.json' with {type: 'json'};
@@ -1407,26 +1407,26 @@ const basic_data_groups = {
 		type: "Wizard Archetype"
 	},
 	"equipment_alchemical_reagents": {
-		data: equipmentreagent,
+		data: eqreagent,
 		searchgroup: 6, // equip
 		link: "eq-reagent",
-		exportablelink: "equipmentreagent",
+		exportablelink: "eqreagent",
 		num: 0,
 		type: "Alchemical Reagent"
 	},
 	"equipment_armor": {
-		data: equipmentarmor,
+		data: eqarmor,
 		searchgroup: 6, // equip
 		link: "eq-armor",
-		exportablelink: "equipmentarmor",
+		exportablelink: "eqarmor",
 		num: 0,
 		type: "Armor"
 	},
 	"equipment_armor_enhancements": {
-		data: equipmentarmorenhancement,
+		data: eqarmorenh,
 		searchgroup: 6, // equip
 		link: "eq-armorenh",
-		exportablelink: "equipmentarmorenhancement",
+		exportablelink: "eqarmorenh",
 		num: 0,
 		type: "Armor Enhancement"
 	},
@@ -1434,7 +1434,7 @@ const basic_data_groups = {
 		data: equipmentmisc1,
 		searchgroup: 6, // equip
 		link: "eq-misc",
-		exportablelink: "equipmentmisc",
+		exportablelink: "eqmisc",
 		num: 1,
 		type: "Equipment"
 	},
@@ -1442,7 +1442,7 @@ const basic_data_groups = {
 		data: equipmentmisc2,
 		searchgroup: 6, // equip
 		link: "eq-misc",
-		exportablelink: "equipmentmisc",
+		exportablelink: "eqmisc",
 		num: 2,
 		type: "Equipment"
 	},
@@ -1450,7 +1450,7 @@ const basic_data_groups = {
 		data: equipmentmisc3,
 		searchgroup: 6, // equip
 		link: "eq-misc",
-		exportablelink: "equipmentmisc",
+		exportablelink: "eqmisc",
 		num: 3,
 		type: "Equipment"
 	},
@@ -1458,39 +1458,39 @@ const basic_data_groups = {
 		data: equipmentmisc4,
 		searchgroup: 6, // equip
 		link: "eq-misc",
-		exportablelink: "equipmentmisc",
+		exportablelink: "eqmisc",
 		num: 4,
 		type: "Equipment"
 	},
 	"equipment_poisons": {
-		data: equipmentpoison,
+		data: eqpoison,
 		searchgroup: 6, // equip
 		link: "eq-poison",
-		exportablelink: "equipmentpoison",
+		exportablelink: "eqpoison",
 		num: 0,
 		type: "Poison"
 	},
 	"equipment_siege_engines": {
-		data: equipmentsiegeengine,
+		data: eqsiegeengine,
 		searchgroup: 6, // equip
 		link: "eq-siegeengine",
-		exportablelink: "equipmentsiegeengine",
+		exportablelink: "eqsiegeengine",
 		num: 0,
 		type: "Siege Engine"
 	},
 	"equipment_special_materials": {
-		data: equipmentmaterial,
+		data: eqmaterial,
 		searchgroup: 6, // equip
 		link: "eq-material",
-		exportablelink: "equipmentmaterial",
+		exportablelink: "eqmaterial",
 		num: 0,
 		type: "Special Material"
 	},
 	"equipment_spellbooks": {
-		data: equipmentspellbook,
+		data: eqspellbook,
 		searchgroup: 6, // equip
 		link: "eq-spellbook",
-		exportablelink: "equipmentspellbook",
+		exportablelink: "eqspellbook",
 		num: 0,
 		type: "Spellbook"
 	},
@@ -1546,7 +1546,7 @@ const basic_data_groups = {
 		data: equipmentweapon1,
 		searchgroup: 6, // equip
 		link: "eq-weapon",
-		exportablelink: "equipmentweapon",
+		exportablelink: "eqweapon",
 		num: 1,
 		type: "Weapon"
 	},
@@ -1554,15 +1554,15 @@ const basic_data_groups = {
 		data: equipmentweapon2,
 		searchgroup: 6, // equip
 		link: "eq-weapon",
-		exportablelink: "equipmentweapon",
+		exportablelink: "eqweapon",
 		num: 2,
 		type: "Weapon"
 	},
 	"equipment_weapon_enhancements": {
-		data: equipmentweaponenhancement,
+		data: eqweaponenh,
 		searchgroup: 6, // equip
 		link: "eq-weaponenh",
-		exportablelink: "equipmentweaponenhancement",
+		exportablelink: "eqweaponenh",
 		num: 0,
 		type: "Weapon Enhancement"
 	},
@@ -1795,7 +1795,7 @@ const basic_data_groups = {
 		data: magicenhancement1,
 		searchgroup: 5, // magic
 		link: "magic-enh",
-		exportablelink: "magicenhancement",
+		exportablelink: "magicenh",
 		num: 1,
 		type: "Armor/Weapon Enchantment"
 	},
@@ -1803,7 +1803,7 @@ const basic_data_groups = {
 		data: magicenhancement2,
 		searchgroup: 5, // magic
 		link: "magic-enh",
-		exportablelink: "magicenhancement",
+		exportablelink: "magicenh",
 		num: 2,
 		type: "Armor/Weapon Enchantment"
 	},

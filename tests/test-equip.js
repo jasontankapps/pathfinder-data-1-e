@@ -2,41 +2,41 @@ import { basic_data_by_link } from '../basic_data_groups.js';
 import checkForBadTables from './checkForBadTables.js';
 
 const {
-	equipmentreagent,
-	equipmentarmor,
-	equipmentarmorenhancement,
-	equipmentmisc,
-	equipmentpoison,
-	equipmentsiegeengine,
-	equipmentmaterial,
-	equipmentspellbook,
+	eqreagent,
+	eqarmor,
+	eqarmorenh,
+	eqmisc,
+	eqpoison,
+	eqsiegeengine,
+	eqmaterial,
+	eqspellbook,
 	techarmor,
 	techartifact,
 	techcybertech,
 	techmisc,
 	techpharmaceutical,
 	techweapon,
-	equipmentweapon,
-	equipmentweaponenhancement
+	eqweapon,
+	eqweaponenh
 } = basic_data_by_link;
 
 const equipment = [
-	equipmentreagent,
-	equipmentarmor,
-	equipmentarmorenhancement,
-	equipmentmisc,
-	equipmentpoison,
-	equipmentsiegeengine,
-	equipmentmaterial,
-	equipmentspellbook,
+	eqreagent,
+	eqarmor,
+	eqarmorenh,
+	eqmisc,
+	eqpoison,
+	eqsiegeengine,
+	eqmaterial,
+	eqspellbook,
 	techarmor,
 	techartifact,
 	techcybertech,
 	techmisc,
 	techpharmaceutical,
 	techweapon,
-	equipmentweapon,
-	equipmentweaponenhancement
+	eqweapon,
+	eqweaponenh
 ];
 
 const whats = [
