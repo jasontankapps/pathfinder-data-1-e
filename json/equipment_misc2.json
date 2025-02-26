@@ -497,6 +497,7 @@
 		"name": "Flying straps (standard)",
 		"copyof": "flying_straps_masterwork"
 	},
+	"flying_straps": { "copyof": "flying_straps_standard" },
 	"foaming_powder": {
 		"name": "Foaming powder",
 		"sources": [ "Ultimate Equipment" ],
@@ -2635,6 +2636,7 @@
 			"**Pony (Combat Trained):** Ponies can be trained for combat just as effectively as their larger, more mature brethren. Such steeds often serve Small riders that expect to face battle."
 		]
 	},
+	"heavy_horse": { "copyof": "horse_heavy" },
 	"horse_heavy_combat_trained": {
 		"name": "Horse (heavy, combat trained)",
 		"copyof": "horse_heavy"
@@ -2647,6 +2649,7 @@
 		"name": "Horse (light)",
 		"copyof": "horse_heavy"
 	},
+	"light_horse": { "copyof": "horse_light" },
 	"light_horse_combat_trained": {
 		"name": "Horse (light, combat trained)",
 		"copyof": "horse_heavy"
@@ -4315,7 +4318,7 @@
 			"",
 			"The lore seeker has the equipment necessary to delve into ancient ruins searching for lost knowledge. As this equipment package contains little by way of armor or weapons, it is most appropriate for alchemists, bards, monks, sorcerers, and wizards. If the PC can cast spells, add a spell component pouch and a holy symbol (if required).",
 			"",
-			"Weapons: Light crossbow with 10 bolts, quarterstaff, silver dagger.",
+			"**Weapons:** Light crossbow with 10 bolts, quarterstaff, silver dagger.",
 			"",
 			"**Combat Gear:** Alchemist's fire (3), antitoxin, oil of {spell/erase}, potions of {spell/cure light wounds} (2), potion of {spell/protection from evil}, tanglefoot bag, thunderstone.",
 			"",

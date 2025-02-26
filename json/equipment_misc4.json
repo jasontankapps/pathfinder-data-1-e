@@ -528,10 +528,12 @@
 			"**Riding Dog:** This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities."
 		]
 	},
+	"guard_dog": { "copyof": "dog_guard" },
 	"dog_lap": {
 		"name": "Dog (lap)",
 		"copyof": "dog_guard"
 	},
+	"lap_dog": { "copyof": "dog_lap" },
 	"dog_riding": {
 		"name": "Dog (riding)",
 		"copyof": "dog_guard"
@@ -2646,6 +2648,7 @@
 			"A sheet of ordinary paper typically measures 9 inches by 6 inches and is unsuitable for making magical scrolls. It has hardness 0, 1 hit point, and a break DC of 5."
 		]
 	},
+	"paper": { "copyof": "paper_sheet" },
 	"paper_wall_paste": {
 		"name": "Paper wall paste",
 		"sources": [ "Kobolds of Golarion" ],
@@ -4100,6 +4103,7 @@
 		"name": "Wagon (medium)",
 		"copyof": "wagon_heavy"
 	},
+	"wagon": { "copyof": "wagon_heavy" },
 	"wall_hook": {
 		"name": "Wall hook",
 		"sources": [ "Blood of the Sea" ],
@@ -4345,13 +4349,17 @@
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Waterskin",
-			"{SOURCE Ultimate Equipment/58;PRPG Core Rulebook/158}  ",
+			"## Waterskin (or wineskin)",
+			"{SOURCE Ultimate Equipment/75;PRPG Core Rulebook/158}  ",
 			"**Price** 1 gp; **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
 			"This bag is made of an animal bladder or treated leather. It is watertight and holds about 1/2 gallon of liquid. The listed weight is for a waterskin full of water; empty, it weighs about 2 pounds."
 		]
+	},
+	"wineskin": {
+		"name": "Wineskin",
+		"copyof": "waterskin"
 	},
 	"wax_key_blank": {
 		"name": "Wax key blank",
@@ -4596,9 +4604,9 @@
 			"",
 			"This equipment package is appropriate for any lightly-armored combatant in the wild, such as a barbarian, hunter, or ranger. If the PC can cast spells, add a spell component pouch and holly and mistletoe. The GM might consider altering which weapon is masterwork, based on the PC's specialization. For example, an archery-focused ranger might prefer a masterwork composite longbow over a masterwork greataxe.",
 			"",
-			"Armor: Light wooden quickdraw shield, masterwork studded leather armor.",
+			"**Armor:** Light wooden quickdraw shield, masterwork studded leather armor.",
 			"",
-			"Weapons: Cold iron flail, composite longbow with 20 arrows, masterwork greataxe, short sword.",
+			"**Weapons:** Cold iron flail, composite longbow with 20 arrows, masterwork greataxe, short sword.",
 			"",
 			"**Combat Gear:** Alchemist's fire (2), antitoxin, potion of keen senses, sunrods (3).",
 			"",
@@ -5081,6 +5089,22 @@
 			"**Category** Kits",
 			"",
 			"This large satchel contains the tools needed to put down potential zombie uprisings. The kit includes a shovel, two flasks of oil, a bullseye lantern, a flask of alchemist's fire, two flasks of holy water, 50 feet of hemp rope, a crowbar, a hammer and 10 nails, two vials of antiplague, and a wooden holy symbol."
+		]
+	},
+	"gas_mask": {
+		"name": "Gas mask",
+		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
+		"description": [
+			"## Gas mask (modern)",
+			"{SOURCE Pathfinder #71: Rasputin Must Die!/67}  ",
+			"**Price** 25 gp; **Weight** 1 lbs.  ",
+			"**Category** Adventuring Gear",
+			"",
+			"Gas masks are rubberized-cloth masks fitted with thick glass eyepieces and a charcoal-dust filter in a rectangular canister that screws in near the mouthpiece. A gas mask is worn tightly around the head and face, allowing the user to breathe in hazardous environments. A gas mask grants immunity to inhaled poisons and other nonmagical airborne attacks that require you to breathe them, and a +2 bonus on saving throws against magical cloud or magical gas attacks. Using a gas mask imposes a -2 penalty on hearing- and sight-based Perception checks. A gas mask's filter canister can be used for 8 hours before needing to be replaced.",
+			"",
+			"### Gas mask cannister",
+			"**Price** 5 gp; **Weight** 1 lbs.  ",
+			"**Category** Adventuring Gear"
 		]
 	}
 }

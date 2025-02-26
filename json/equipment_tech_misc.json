@@ -95,6 +95,7 @@
 		]
 	},
 	"epick_black": { "copyof": "e_pick_black" },
+	"black_e_pick": { "copyof": "e_pick_black" },
 	"e_pick_blue": {
 		"name": "E-pick (blue)",
 		"copyof": "epick_black"
@@ -342,6 +343,7 @@
 			"- *Zero Grenade:* Deals 5d6 points of cold damage."
 		]
 	},
+	"arc_grenade": { "copyof": "grenade_arc_grenade" },
 	"grenade_atom_grenade": {
 		"name": "Grenade (atom grenade)",
 		"sources": [ "Technology Guide" ],
@@ -517,6 +519,7 @@
 		],
 		"copyof": "grenade_arc_grenade"
 	},
+	"soft_grenade": { "copyof": "grenade_soft_grenade" },
 	"grenade_sonic_grenade": {
 		"name": "Grenade (sonic grenade)",
 		"sources": [ "Technology Guide" ],

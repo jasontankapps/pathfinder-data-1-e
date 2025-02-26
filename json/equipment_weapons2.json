@@ -4048,7 +4048,7 @@
 		],
 		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
-	"alchemical_cartridge_dragons_breath": {
+	"alchemical_cartridge": {
 		"name": "Alchemical cartridge (dragon's breath)",
 		"sources": [
 			"Ultimate Equipment",
@@ -4057,7 +4057,7 @@
 			"People of the Wastes"
 		],
 		"description": [
-			"## Alchemical cartridge (dragon's breath)",
+			"## Alchemical cartridge",
 			"{SOURCE Ultimate Equipment/41;Ultimate Combat/140}",
 			"",
 			"An alchemical cartridge is a prepared bundle of black powder with a bullet or pellets, sometimes with more exotic material added, which is then wrapped in paper or cloth and sealed with beeswax, lard, or tallow. There are many types of alchemical cartridges, the simplest being the paper cartridge - a simple mix of black powder and either pellets or a bullet. Alchemical cartridges make loading a firearm easier, reducing the time to load a firearm by one step (a full-round action becomes a standard action, a standard action becomes a move action, and a move action becomes a free action), but they tend to be unstable. The misfire value of a weapon firing an alchemical cartridge increases as listed in each entry.",
@@ -4120,46 +4120,95 @@
 		],
 		"subhierarchy": [ [ "Ammunition", "main/equipment_weapons_ammunition" ] ]
 	},
+	"alchemical_cartridge_dragons_breath": {
+		"name": "Alchemical cartridge (dragon's breath)",
+		"copyof": "alchemical_cartridge"
+	},
+	"dragons_breath_alchemical_cartridge": { "copyof": "alchemical_cartridge_dragons_breath" },
+	"dragons_breath_cartridge": { "copyof": "alchemical_cartridge_dragons_breath" },
+
 	"alchemical_cartridge_entangling_shot": {
 		"name": "Alchemical cartridge (entangling shot)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
+	"entangling_shot_alchemical_cartridge": { "copyof": "alchemical_cartridge_entangling_shot" },
+	"entangling_shot_cartridge": { "copyof": "alchemical_cartridge_entangling_shot" },
+
 	"alchemical_cartridge_flare": {
 		"name": "Alchemical cartridge (flare)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
+	"flare_alchemical_cartridge": { "copyof": "alchemical_cartridge_flare" },
+	"flare_cartridge": { "copyof": "alchemical_cartridge_flare" },
+
 	"alchemical_cartridge_gray_dust_shot": {
 		"name": "Alchemical cartridge (gray dust shot)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
+	"gray_dust_shot_alchemical_cartridge": { "copyof": "alchemical_cartridge_gray_dust_shot" },
+	"gray_dust_shot_cartridge": { "copyof": "alchemical_cartridge_gray_dust_shot" },
+
 	"alchemical_cartridge_gray_dust": {
 		"name": "Alchemical cartridge (gray dust)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
+	"gray_dust_alchemical_cartridge": { "copyof": "alchemical_cartridge_gray_dust" },
+	"gray_dust_cartridge": { "copyof": "alchemical_cartridge_gray_dust" },
+
 	"alchemical_cartridge_molten_shot": {
 		"name": "Alchemical cartridge (molten shot)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
+	"molten_shot_alchemical_cartridge": { "copyof": "alchemical_cartridge_molten_shot" },
+	"molten_shot_cartridge": { "copyof": "alchemical_cartridge_molten_shot" },
+
 	"alchemical_cartridge_paper_bullet_or_pellet": {
 		"name": "Alchemical cartridge (paper, bullet or pellet)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
+	"paper_bullet_or_pellet_alchemical_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_bullet_or_pellet_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
+
+	"paper_bullet_alchemical_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_bullet_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
+
+	"paper_pellet_alchemical_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_pellet_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
+
+	"paper_alchemical_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
+
 	"alchemical_cartridge_repellent": {
 		"name": "Alchemical cartridge (repellent)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
+	"repellent_alchemical_cartridge": { "copyof": "alchemical_cartridge_repellent" },
+	"repellent_cartridge": { "copyof": "alchemical_cartridge_repellent" },
+
 	"alchemical_cartridge_salt_shot": {
 		"name": "Alchemical cartridge (salt shot)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
+	"salt_shot_alchemical_cartridge": { "copyof": "alchemical_cartridge_salt_shot" },
+	"salt_shot_cartridge": { "copyof": "alchemical_cartridge_salt_shot" },
+
 	"alchemical_cartridge_smoke_cartridge": {
 		"name": "Alchemical cartridge (smoke cartridge)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
+	"smoke_cartridge_alchemical_cartridge": { "copyof": "alchemical_cartridge_smoke_cartridge" },
+	"smoke_cartridge_cartridge": { "copyof": "alchemical_cartridge_smoke_cartridge" },
+
+	"smoke_alchemical_cartridge": { "copyof": "alchemical_cartridge_smoke_cartridge" },
+	"smoke_cartridge": { "copyof": "alchemical_cartridge_smoke_cartridge" },
+
 	"alchemical_cartridge_toxin": {
 		"name": "Alchemical cartridge (toxin)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
+	"toxin_alchemical_cartridge": { "copyof": "alchemical_cartridge_toxin" },
+	"toxin_cartridge": { "copyof": "alchemical_cartridge_toxin" },
+
 	"black_powder_dose": {
 		"name": "Black Powder (dose)",
 		"sources": [
@@ -4363,6 +4412,35 @@
 			"**Cost** 1,500 gp **Weight** 140 lbs.  ",
 			"**Damage** 2d8 (medium); **Critical** &times;4; **Range** 120 ft.; **Type** B and P; **Special** automatic  ",
 			"**Misfire** 1-2; **Capacity** 250  ",
+			"**Category** Two-Handed; **Proficiency** Exotic"
+		]
+	},
+	"m1914_concussion_grenade": {
+		"name": "M1914 grenade (concussion)",
+		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
+		"description": [
+			"## M1914 grenade (concussion)",
+			"{SOURCE Pathfinder #71: Rasputin Must Die!/64}",
+			"",
+			"This time-delayed concussion grenade is a mainstay of trench warfare. The device appears to be little more than a metal cylinder tapering to a handle containing a spring-loaded lever. To detonate the device, you disengage the safety pin while depressing the handle's lever, which releases the firing pin when thrown. The device detonates at the beginning of your next turn, hopefully in the area you targeted. The device relies on a concussive blast to deal damage, and all creatures within a 20-foot radius take 3d6 points of bludgeoning damage (Reflex DC 15 for half ).",
+			"",
+			"**Cost** 50 gp **Weight** 1 lb.  ",
+			"**Damage** 3d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** see description  ",
+			"**Category** Explosive; **Proficiency** Exotic"
+		]
+	},
+	"mosin_nagant_m1891_rifle": {
+		"name": "Mosin-Nagant M1891 rifle",
+		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
+		"description": [
+			"## Maxim M1910 Machine Gun",
+			"{SOURCE Pathfinder #71: Rasputin Must Die!/64}",
+			"",
+			"This bolt-action rifle is the mainstay of Russian military forces. It is similar to the advanced firearms rifle with the following differences. It uses the same ammunition as the Madsen machine gun, and is fed from a 5-round internal, nondetachable magazine that is typically loaded with 5-round stripper clips (loading it is a move action). Without stripper clips, you may only reload up to 2 rounds of ammunition as a move action. Ammunition is typically sold in groups of 5 rounds. The rifle has a lug for the attachment of a socket bayonet, and can be equipped with a unique sidemount scope system.",
+			"",
+			"**Cost** 500 gp **Weight** 9 lbs.  ",
+			"**Damage** 1d10 (medium); **Critical** &times;4; **Range** 80 ft.; **Type** B and P; **Special** &mdash;  ",
+			"**Misfire** 1; **Capacity** 5  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		]
 	}

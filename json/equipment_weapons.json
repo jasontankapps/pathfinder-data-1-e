@@ -2862,13 +2862,16 @@
 			"Adventurer's Armory",
 			"Pirates of the Inner Sea",
 			"Advanced Player's Guide",
-			"Skull and Shackles Player's Guide"
+			"Skull and Shackles Player's Guide",
+			"Pathfinder #71: Rasputin Must Die!"
 		],
 		"description": [
 			"## Bayonet",
-			"{SOURCE Ultimate Equipment/17;Adventurer's Armory/2;Pirates of the Inner Sea/19;Advanced Player's Guide/176;Skull and Shackles Player's Guide/6}",
+			"{SOURCE Ultimate Equipment/17;Adventurer's Armory/2;Pirates of the Inner Sea/19;Advanced Player's Guide/176;Skull and Shackles Player's Guide/6;Pathfinder #71: Rasputin Must Die!/67}",
 			"",
 			"Bayonets are close combat weapons designed to fit into the grooves or muzzles of crossbows and firearms. They allow you to make melee attacks with these weapons but render them temporarily useless as ranged weapons. Attaching or removing a bayonet is a move action.",
+			"",
+			"**Bayonet, Socket:** A socket bayonet fits onto a lug mounted on the barrel of some modern firearms. It has the same statistics as a bayonet, but a firearm fitted with a bayonet lug can be fired while the bayonet is in place, albeit with a -2 penalty on attack rolls. Each bayonet is designed for a specific model of firearm.",
 			"",
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",

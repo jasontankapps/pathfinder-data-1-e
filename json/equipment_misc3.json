@@ -1683,6 +1683,7 @@
 		"name": "Saddle (pack)",
 		"copyof": "saddle_exotic_military"
 	},
+	"pack_saddle": { "copyof": "saddle_pack" },
 	"saddle_riding": {
 		"name": "Saddle (riding)",
 		"copyof": "saddle_exotic_military"
@@ -2344,6 +2345,7 @@
 		"name": "Shears (small)",
 		"copyof": "shears_adamantine"
 	},
+	"shears": { "copyof": "shears_small" },
 	"sheep": {
 		"name": "Sheep",
 		"sources": [ "Ultimate Equipment" ],

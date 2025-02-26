@@ -74,6 +74,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, creator must be 12th level; **Cost** 12 gp, 5 sp"
 		]
 	},
+	"dull_gray": { "copyof": "dull_gray_stone" },
 	"amethyst_pyramid": {
 		"name": "Amethyst Pyramid",
 		"sources": [ "Pathfinder Society Primer" ],

@@ -1031,7 +1031,7 @@
 			"",
 			"The arcane adept has collected useful magical gear to ensure her success on her adventures, and she prides herself on having just the right tool for the job. This equipment package is appropriate for an arcanist, sorcerer, witch, or wizard. Some bards and summoners might also find it attractive. This equipment package can also work for a magus if the 1st-level scrolls and wand are replaced with a masterwork melee weapon.",
 			"",
-			"Weapons: Light crossbow with 10 bolts, quarterstaff.",
+			"**Weapons:** Light crossbow with 10 bolts, quarterstaff.",
 			"",
 			"**Combat Gear:** Acid (2), scrolls of comprehend languages (2), scroll of detect secret doors, scroll of glitterdust, scrolls of identify (2), scroll of mount, scroll of rope trick, thunderstone, wand of mage armor (16 charges).",
 			"",
@@ -1232,6 +1232,7 @@
 	},
 	"masterwork_artisans_tools": { "copyof": "artisans_tools_masterwork" },
 	"artisans_tools_mwk": { "copyof": "artisans_tools_masterwork" },
+	"artisans_tools": { "copyof": "artisans_tools_common" },
 	"artists_poster": {
 		"name": "Artist's poster",
 		"sources": [ "Occult Adventures" ],

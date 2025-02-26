@@ -1891,6 +1891,7 @@
 	},
 	"lesser_eclipsed_rod_of_metamagic": { "copyof": "rod_of_metamagic_eclipsed_lesser" },
 	"lesser_eclipsed_metamagic_rod": { "copyof": "rod_of_metamagic_eclipsed_lesser" },
+	"eclipsed": { "copyof": "rod_of_metamagic_eclipsed_lesser" },
 	"rod_of_metamagic_merciful_lesser": {
 		"name": "Rod of Metamagic, Merciful (lesser)",
 		"sources": [
@@ -1913,6 +1914,7 @@
 	},
 	"lesser_merciful_rod_of_metamagic": { "copyof": "rod_of_metamagic_merciful_lesser" },
 	"lesser_merciful_metamagic_rod": { "copyof": "rod_of_metamagic_merciful_lesser" },
+	"merciful": { "copyof": "rod_of_metamagic_merciful_lesser" },
 	"rod_of_metamagic_murky_lesser": {
 		"name": "Rod of Metamagic, Murky (lesser)",
 		"sources": [ "Aquatic Adventures" ],
@@ -1932,6 +1934,7 @@
 	},
 	"lesser_murky_rod_of_metamagic": { "copyof": "rod_of_metamagic_murky_lesser" },
 	"lesser_murky_metamagic_rod": { "copyof": "rod_of_metamagic_murky_lesser" },
+	"murky": { "copyof": "rod_of_metamagic_murky_lesser" },
 	"rod_of_metamagic_steam_lesser": {
 		"name": "Rod of Metamagic, Steam (lesser)",
 		"sources": [ "Aquatic Adventures" ],
@@ -1951,6 +1954,7 @@
 	},
 	"lesser_steam_rod_of_metamagic": { "copyof": "rod_of_metamagic_steam_lesser" },
 	"lesser_steam_metamagic_rod": { "copyof": "rod_of_metamagic_steam_lesser" },
+	"steam": { "copyof": "rod_of_metamagic_steam_lesser" },
 	"rod_of_metamagic_apocalyptic_lesser": {
 		"name": "Rod of Metamagic, Apocalyptic (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -1970,6 +1974,7 @@
 	},
 	"lesser_apocalyptic_rod_of_metamagic": { "copyof": "rod_of_metamagic_apocalyptic_lesser" },
 	"lesser_apocalyptic_metamagic_rod": { "copyof": "rod_of_metamagic_apocalyptic_lesser" },
+	"apocalyptic": { "copyof": "rod_of_metamagic_apocalyptic_lesser" },
 	"rod_of_metamagic_authoritative_lesser": {
 		"name": "Rod of Metamagic, Authoritative (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -1989,6 +1994,7 @@
 	},
 	"lesser_authoritative_rod_of_metamagic": { "copyof": "rod_of_metamagic_authoritative_lesser" },
 	"lesser_authoritative_metamagic_rod": { "copyof": "rod_of_metamagic_authoritative_lesser" },
+	"authoritative": { "copyof": "rod_of_metamagic_authoritative_lesser" },
 	"rod_of_metamagic_blissful_lesser": {
 		"name": "Rod of Metamagic, Blissful (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -2008,6 +2014,7 @@
 	},
 	"lesser_blissful_rod_of_metamagic": { "copyof": "rod_of_metamagic_blissful_lesser" },
 	"lesser_blissful_metamagic_rod": { "copyof": "rod_of_metamagic_blissful_lesser" },
+	"blissful": { "copyof": "rod_of_metamagic_blissful_lesser" },
 	"rod_of_metamagic_bouncing_lesser": {
 		"name": "Rod of Metamagic, Bouncing (lesser)",
 		"sources": [
@@ -2030,6 +2037,7 @@
 	},
 	"lesser_bouncing_rod_of_metamagic": { "copyof": "rod_of_metamagic_bouncing_lesser" },
 	"lesser_bouncing_metamagic_rod": { "copyof": "rod_of_metamagic_bouncing_lesser" },
+	"bouncing": { "copyof": "rod_of_metamagic_bouncing_lesser" },
 	"rod_of_metamagic_crypt_lesser": {
 		"name": "Rod of Metamagic, Crypt (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -2049,6 +2057,7 @@
 	},
 	"lesser_crypt_rod_of_metamagic": { "copyof": "rod_of_metamagic_crypt_lesser" },
 	"lesser_crypt_metamagic_rod": { "copyof": "rod_of_metamagic_crypt_lesser" },
+	"crypt": { "copyof": "rod_of_metamagic_crypt_lesser" },
 	"rod_of_metamagic_disruptive_lesser": {
 		"name": "Rod of Metamagic, Disruptive (lesser)",
 		"sources": [
@@ -2071,6 +2080,7 @@
 	},
 	"lesser_disruptive_rod_of_metamagic": { "copyof": "rod_of_metamagic_disruptive_lesser" },
 	"lesser_disruptive_metamagic_rod": { "copyof": "rod_of_metamagic_disruptive_lesser" },
+	"disruptive": { "copyof": "rod_of_metamagic_disruptive_lesser" },
 	"rod_of_metamagic_ectoplasmic_lesser": {
 		"name": "Rod of Metamagic, Ectoplasmic (lesser)",
 		"sources": [
@@ -2093,6 +2103,7 @@
 	},
 	"lesser_ectoplasmic_rod_of_metamagic": { "copyof": "rod_of_metamagic_ectoplasmic_lesser" },
 	"lesser_ectoplasmic_metamagic_rod": { "copyof": "rod_of_metamagic_ectoplasmic_lesser" },
+	"ectoplasmic": { "copyof": "rod_of_metamagic_ectoplasmic_lesser" },
 	"rod_of_metamagic_elemental_lesser": {
 		"name": "Rod of Metamagic, Elemental (lesser)",
 		"sources": [
@@ -2115,6 +2126,7 @@
 	},
 	"lesser_elemental_rod_of_metamagic": { "copyof": "rod_of_metamagic_elemental_lesser" },
 	"lesser_elemental_metamagic_rod": { "copyof": "rod_of_metamagic_elemental_lesser" },
+	"elemental": { "copyof": "rod_of_metamagic_elemental_lesser" },
 	"rod_of_metamagic_enlarge_lesser": {
 		"name": "Rod of Metamagic, Enlarge (lesser)",
 		"sources": [
@@ -2137,6 +2149,7 @@
 	},
 	"lesser_enlarge_rod_of_metamagic": { "copyof": "rod_of_metamagic_enlarge_lesser" },
 	"lesser_enlarge_metamagic_rod": { "copyof": "rod_of_metamagic_enlarge_lesser" },
+	"enlarge": { "copyof": "rod_of_metamagic_enlarge_lesser" },
 	"rod_of_metamagic_extend_lesser": {
 		"name": "Rod of Metamagic, Extend (lesser)",
 		"sources": [
@@ -2159,6 +2172,7 @@
 	},
 	"lesser_extend_rod_of_metamagic": { "copyof": "rod_of_metamagic_extend_lesser" },
 	"lesser_extend_metamagic_rod": { "copyof": "rod_of_metamagic_extend_lesser" },
+	"extend": { "copyof": "rod_of_metamagic_extend_lesser" },
 	"rod_of_metamagic_flaring_lesser": {
 		"name": "Rod of Metamagic, Flaring (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2178,6 +2192,7 @@
 	},
 	"lesser_flaring_rod_of_metamagic": { "copyof": "rod_of_metamagic_flaring_lesser" },
 	"lesser_flaring_metamagic_rod": { "copyof": "rod_of_metamagic_flaring_lesser" },
+	"flaring": { "copyof": "rod_of_metamagic_flaring_lesser" },
 	"rod_of_metamagic_focused_lesser": {
 		"name": "Rod of Metamagic, Focused (lesser)",
 		"sources": [
@@ -2200,6 +2215,7 @@
 	},
 	"lesser_focused_rod_of_metamagic": { "copyof": "rod_of_metamagic_focused_lesser" },
 	"lesser_focused_metamagic_rod": { "copyof": "rod_of_metamagic_focused_lesser" },
+	"focused": { "copyof": "rod_of_metamagic_focused_lesser" },
 	"rod_of_metamagic_furious_lesser": {
 		"name": "Rod of Metamagic, Furious (lesser)",
 		"sources": [ "Occult Adventures" ],
@@ -2219,6 +2235,7 @@
 	},
 	"lesser_furious_rod_of_metamagic": { "copyof": "rod_of_metamagic_furious_lesser" },
 	"lesser_furious_metamagic_rod": { "copyof": "rod_of_metamagic_furious_lesser" },
+	"furious": { "copyof": "rod_of_metamagic_furious_lesser" },
 	"rod_of_metamagic_intensified_lesser": {
 		"name": "Rod of Metamagic, Intensified (lesser)",
 		"sources": [
@@ -2241,6 +2258,7 @@
 	},
 	"lesser_intensified_rod_of_metamagic": { "copyof": "rod_of_metamagic_intensified_lesser" },
 	"lesser_intensified_metamagic_rod": { "copyof": "rod_of_metamagic_intensified_lesser" },
+	"intensified": { "copyof": "rod_of_metamagic_intensified_lesser" },
 	"rod_of_metamagic_lingering_lesser": {
 		"name": "Rod of Metamagic, Lingering (lesser)",
 		"sources": [
@@ -2263,6 +2281,7 @@
 	},
 	"lesser_lingering_rod_of_metamagic": { "copyof": "rod_of_metamagic_lingering_lesser" },
 	"lesser_lingering_metamagic_rod": { "copyof": "rod_of_metamagic_lingering_lesser" },
+	"lingering": { "copyof": "rod_of_metamagic_lingering_lesser" },
 	"rod_of_metamagic_logical_lesser": {
 		"name": "Rod of Metamagic, Logical (lesser)",
 		"sources": [ "Occult Adventures" ],
@@ -2282,6 +2301,7 @@
 	},
 	"lesser_logical_rod_of_metamagic": { "copyof": "rod_of_metamagic_logical_lesser" },
 	"lesser_logical_metamagic_rod": { "copyof": "rod_of_metamagic_logical_lesser" },
+	"logical": { "copyof": "rod_of_metamagic_logical_lesser" },
 	"rod_of_metamagic_piercing_lesser": {
 		"name": "Rod of Metamagic, Piercing (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2301,6 +2321,7 @@
 	},
 	"lesser_piercing_rod_of_metamagic": { "copyof": "rod_of_metamagic_piercing_lesser" },
 	"lesser_piercing_metamagic_rod": { "copyof": "rod_of_metamagic_piercing_lesser" },
+	"piercing": { "copyof": "rod_of_metamagic_piercing_lesser" },
 	"rod_of_metamagic_reach_lesser": {
 		"name": "Rod of Metamagic, Reach (lesser)",
 		"sources": [
@@ -2323,6 +2344,7 @@
 	},
 	"lesser_reach_rod_of_metamagic": { "copyof": "rod_of_metamagic_reach_lesser" },
 	"lesser_reach_metamagic_rod": { "copyof": "rod_of_metamagic_reach_lesser" },
+	"reach": { "copyof": "rod_of_metamagic_reach_lesser" },
 	"rod_of_metamagic_rime_lesser": {
 		"name": "Rod of Metamagic, Rime (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2342,6 +2364,7 @@
 	},
 	"lesser_rime_rod_of_metamagic": { "copyof": "rod_of_metamagic_rime_lesser" },
 	"lesser_rime_metamagic_rod": { "copyof": "rod_of_metamagic_rime_lesser" },
+	"rime": { "copyof": "rod_of_metamagic_rime_lesser" },
 	"rod_of_metamagic_scarring_lesser": {
 		"name": "Rod of Metamagic, Scarring (lesser)",
 		"sources": [ "Occult Adventures" ],
@@ -2361,6 +2384,7 @@
 	},
 	"lesser_scarring_rod_of_metamagic": { "copyof": "rod_of_metamagic_scarring_lesser" },
 	"lesser_scarring_metamagic_rod": { "copyof": "rod_of_metamagic_scarring_lesser" },
+	"scarring": { "copyof": "rod_of_metamagic_scarring_lesser" },
 	"rod_of_metamagic_selective_lesser": {
 		"name": "Rod of Metamagic, Selective (lesser)",
 		"sources": [
@@ -2383,6 +2407,7 @@
 	},
 	"lesser_selective_rod_of_metamagic": { "copyof": "rod_of_metamagic_selective_lesser" },
 	"lesser_selective_metamagic_rod": { "copyof": "rod_of_metamagic_selective_lesser" },
+	"selective": { "copyof": "rod_of_metamagic_selective_lesser" },
 	"rod_of_metamagic_silent_lesser": {
 		"name": "Rod of Metamagic, Silent (lesser)",
 		"sources": [
@@ -2405,6 +2430,7 @@
 	},
 	"lesser_silent_rod_of_metamagic": { "copyof": "rod_of_metamagic_silent_lesser" },
 	"lesser_silent_metamagic_rod": { "copyof": "rod_of_metamagic_silent_lesser" },
+	"silent": { "copyof": "rod_of_metamagic_silent_lesser" },
 	"rod_of_metamagic_stable_lesser": {
 		"name": "Rod of Metamagic, Stable (lesser)",
 		"sources": [ "Wardens of the Reborn Forge" ],
@@ -2424,6 +2450,7 @@
 	},
 	"lesser_stable_rod_of_metamagic": { "copyof": "rod_of_metamagic_stable_lesser" },
 	"lesser_stable_metamagic_rod": { "copyof": "rod_of_metamagic_stable_lesser" },
+	"stable": { "copyof": "rod_of_metamagic_stable_lesser" },
 	"rod_of_metamagic_toppling_lesser": {
 		"name": "Rod of Metamagic, Toppling (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2443,6 +2470,7 @@
 	},
 	"lesser_toppling_rod_of_metamagic": { "copyof": "rod_of_metamagic_toppling_lesser" },
 	"lesser_toppling_metamagic_rod": { "copyof": "rod_of_metamagic_toppling_lesser" },
+	"toppling": { "copyof": "rod_of_metamagic_toppling_lesser" },
 	"rod_of_metamagic_tumultuous_lesser": {
 		"name": "Rod of Metamagic, Tumultuous (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -2462,6 +2490,7 @@
 	},
 	"lesser_tumultuous_rod_of_metamagic": { "copyof": "rod_of_metamagic_tumultuous_lesser" },
 	"lesser_tumultuous_metamagic_rod": { "copyof": "rod_of_metamagic_tumultuous_lesser" },
+	"tumultuous": { "copyof": "rod_of_metamagic_tumultuous_lesser" },
 	"rod_of_metamagic_eclipsed_normal": {
 		"name": "Rod of Metamagic, Eclipsed (normal)",
 		"copyof": "rod_of_metamagic_eclipsed_lesser"
@@ -2517,6 +2546,7 @@
 	},
 	"lesser_burning_rod_of_metamagic": { "copyof": "rod_of_metamagic_burning_lesser" },
 	"lesser_burning_metamagic_rod": { "copyof": "rod_of_metamagic_burning_lesser" },
+	"burning": { "copyof": "rod_of_metamagic_burning_lesser" },
 	"rod_of_metamagic_concussive_lesser": {
 		"name": "Rod of Metamagic, Concussive (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2536,6 +2566,7 @@
 	},
 	"lesser_concussive_rod_of_metamagic": { "copyof": "rod_of_metamagic_concussive_lesser" },
 	"lesser_concussive_metamagic_rod": { "copyof": "rod_of_metamagic_concussive_lesser" },
+	"concussive": { "copyof": "rod_of_metamagic_concussive_lesser" },
 	"rod_of_metamagic_empower_lesser": {
 		"name": "Rod of Metamagic, Empower (lesser)",
 		"sources": [
@@ -2558,6 +2589,7 @@
 	},
 	"lesser_empower_rod_of_metamagic": { "copyof": "rod_of_metamagic_empower_lesser" },
 	"lesser_empower_metamagic_rod": { "copyof": "rod_of_metamagic_empower_lesser" },
+	"empower": { "copyof": "rod_of_metamagic_empower_lesser" },
 	"rod_of_metamagic_fearsome_lesser": {
 		"name": "Rod of Metamagic, Fearsome (lesser)",
 		"sources": [ "Occult Adventures" ],
@@ -2577,6 +2609,7 @@
 	},
 	"lesser_fearsome_rod_of_metamagic": { "copyof": "rod_of_metamagic_fearsome_lesser" },
 	"lesser_fearsome_metamagic_rod": { "copyof": "rod_of_metamagic_fearsome_lesser" },
+	"fearsome": { "copyof": "rod_of_metamagic_fearsome_lesser" },
 	"rod_of_metamagic_persistent_lesser": {
 		"name": "Rod of Metamagic, Persistent (lesser)",
 		"sources": [
@@ -2599,6 +2632,7 @@
 	},
 	"lesser_persistent_rod_of_metamagic": { "copyof": "rod_of_metamagic_persistent_lesser" },
 	"lesser_persistent_metamagic_rod": { "copyof": "rod_of_metamagic_persistent_lesser" },
+	"persistent": { "copyof": "rod_of_metamagic_persistent_lesser" },
 	"rod_of_metamagic_sickening_lesser": {
 		"name": "Rod of Metamagic, Sickening (lesser)",
 		"sources": [
@@ -2621,6 +2655,7 @@
 	},
 	"lesser_sickening_rod_of_metamagic": { "copyof": "rod_of_metamagic_sickening_lesser" },
 	"lesser_sickening_metamagic_rod": { "copyof": "rod_of_metamagic_sickening_lesser" },
+	"sickening": { "copyof": "rod_of_metamagic_sickening_lesser" },
 	"rod_of_metamagic_snuffing_lesser": {
 		"name": "Rod of Metamagic, Snuffing (lesser)",
 		"sources": [ "Blood of Shadows" ],
@@ -2640,6 +2675,7 @@
 	},
 	"lesser_snuffing_rod_of_metamagic": { "copyof": "rod_of_metamagic_snuffing_lesser" },
 	"lesser_snuffing_metamagic_rod": { "copyof": "rod_of_metamagic_snuffing_lesser" },
+	"snuffing": { "copyof": "rod_of_metamagic_snuffing_lesser" },
 	"rod_of_metamagic_stygian_lesser": {
 		"name": "Rod of Metamagic, Stygian (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -2659,6 +2695,7 @@
 	},
 	"lesser_stygian_rod_of_metamagic": { "copyof": "rod_of_metamagic_stygian_lesser" },
 	"lesser_stygian_metamagic_rod": { "copyof": "rod_of_metamagic_stygian_lesser" },
+	"stygian": { "copyof": "rod_of_metamagic_stygian_lesser" },
 	"rod_of_metamagic_thanatopic_lesser": {
 		"name": "Rod of Metamagic, Thanatopic (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2678,6 +2715,7 @@
 	},
 	"lesser_thanatopic_rod_of_metamagic": { "copyof": "rod_of_metamagic_thanatopic_lesser" },
 	"lesser_thanatopic_metamagic_rod": { "copyof": "rod_of_metamagic_thanatopic_lesser" },
+	"thanatopic": { "copyof": "rod_of_metamagic_thanatopic_lesser" },
 	"rod_of_metamagic_threnodic_lesser": {
 		"name": "Rod of Metamagic, Threnodic (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2697,6 +2735,7 @@
 	},
 	"lesser_threnodic_rod_of_metamagic": { "copyof": "rod_of_metamagic_threnodic_lesser" },
 	"lesser_threnodic_metamagic_rod": { "copyof": "rod_of_metamagic_threnodic_lesser" },
+	"threnodic": { "copyof": "rod_of_metamagic_threnodic_lesser" },
 	"rod_of_metamagic_thundering_lesser": {
 		"name": "Rod of Metamagic, Thundering (lesser)",
 		"sources": [
@@ -2719,6 +2758,7 @@
 	},
 	"lesser_thundering_rod_of_metamagic": { "copyof": "rod_of_metamagic_thundering_lesser" },
 	"lesser_thundering_metamagic_rod": { "copyof": "rod_of_metamagic_thundering_lesser" },
+	"thundering": { "copyof": "rod_of_metamagic_thundering_lesser" },
 	"rod_of_metamagic_traumatic_lesser": {
 		"name": "Rod of Metamagic, Traumatic (lesser)",
 		"sources": [ "Occult Adventures" ],
@@ -2738,6 +2778,7 @@
 	},
 	"lesser_traumatic_rod_of_metamagic": { "copyof": "rod_of_metamagic_traumatic_lesser" },
 	"lesser_traumatic_metamagic_rod": { "copyof": "rod_of_metamagic_traumatic_lesser" },
+	"traumatic": { "copyof": "rod_of_metamagic_traumatic_lesser" },
 	"rod_of_metamagic_apocalyptic_normal": {
 		"name": "Rod of Metamagic, Apocalyptic (normal)",
 		"copyof": "rod_of_metamagic_apocalyptic_lesser"
@@ -3009,6 +3050,7 @@
 	},
 	"lesser_dazing_rod_of_metamagic": { "copyof": "rod_of_metamagic_dazing_lesser" },
 	"lesser_dazing_metamagic_rod": { "copyof": "rod_of_metamagic_dazing_lesser" },
+	"dazing": { "copyof": "rod_of_metamagic_dazing_lesser" },
 	"rod_of_metamagic_echoing_lesser": {
 		"name": "Rod of Metamagic, Echoing (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -3028,6 +3070,7 @@
 	},
 	"lesser_echoing_rod_of_metamagic": { "copyof": "rod_of_metamagic_echoing_lesser" },
 	"lesser_echoing_metamagic_rod": { "copyof": "rod_of_metamagic_echoing_lesser" },
+	"echoing": { "copyof": "rod_of_metamagic_echoing_lesser" },
 	"rod_of_metamagic_familiar_lesser": {
 		"name": "Rod of Metamagic, Familiar (lesser)",
 		"sources": [ "Animal Archive" ],
@@ -3047,6 +3090,7 @@
 	},
 	"lesser_familiar_rod_of_metamagic": { "copyof": "rod_of_metamagic_familiar_lesser" },
 	"lesser_familiar_metamagic_rod": { "copyof": "rod_of_metamagic_familiar_lesser" },
+	"familiar": { "copyof": "rod_of_metamagic_familiar_lesser" },
 	"rod_of_metamagic_maximize_lesser": {
 		"name": "Rod of Metamagic, Maximize (lesser)",
 		"sources": [
@@ -3069,6 +3113,7 @@
 	},
 	"lesser_maximize_rod_of_metamagic": { "copyof": "rod_of_metamagic_maximize_lesser" },
 	"lesser_maximize_metamagic_rod": { "copyof": "rod_of_metamagic_maximize_lesser" },
+	"maximize": { "copyof": "rod_of_metamagic_maximize_lesser" },
 	"rod_of_metamagic_widen_lesser": {
 		"name": "Rod of Metamagic, Widen (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -3088,6 +3133,7 @@
 	},
 	"lesser_widen_rod_of_metamagic": { "copyof": "rod_of_metamagic_widen_lesser" },
 	"lesser_widen_metamagic_rod": { "copyof": "rod_of_metamagic_widen_lesser" },
+	"widen": { "copyof": "rod_of_metamagic_widen_lesser" },
 	"rod_of_metamagic_apocalyptic_greater": {
 		"name": "Rod of Metamagic, Apocalyptic (greater)",
 		"copyof": "rod_of_metamagic_apocalyptic_lesser"
@@ -3368,6 +3414,7 @@
 	},
 	"lesser_quicken_rod_of_metamagic": { "copyof": "rod_of_metamagic_quicken_lesser" },
 	"lesser_quicken_metamagic_rod": { "copyof": "rod_of_metamagic_quicken_lesser" },
+	"quicken": { "copyof": "rod_of_metamagic_quicken_lesser" },
 	"rod_of_metamagic_dazing_normal": {
 		"name": "Rod of Metamagic, Dazing (normal)",
 		"copyof": "rod_of_metamagic_dazing_lesser"
