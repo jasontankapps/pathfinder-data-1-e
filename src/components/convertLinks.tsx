@@ -4,7 +4,10 @@ export const checkForEncodedLink = (input: string, normal: boolean = false): fal
 	if(!m) {
 		if(normal && (m = input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)\/([^)]+)\)(.*$)/))) {
 			const [x, pre, text, protocol, property, post] = m;
-			return [pre, `${protocol}/${property}`, text, post, protocol, property];
+			return [
+				pre, `${protocol}/${property}`, text, post,
+				protocol, property, `[${text}](${protocol}/${property})`
+			];
 		}
 		return false;
 	}
@@ -35,7 +38,7 @@ export const checkForEncodedLink = (input: string, normal: boolean = false): fal
 		.replace(/[- ]|=slAsh=/g, "_")
 		.toLowerCase()
 		.replace(/[^a-z0-9_]/g, "");
-	return [pre, `${protocol}/${property}`, text, post, protocol, property];
+	return [pre, `${protocol}/${property}`, text, post, protocol, property, `{${protocol}/${matchedx}}`];
 };
 
 // Basic link format:

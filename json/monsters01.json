@@ -3092,7 +3092,7 @@
 			"**XP** 51,200  ",
 			"LE Large construct  ",
 			"**Init** +7; **Senses** darkvision 60 ft., low-light vision; Perception +24  ",
-			"**Aura** {spell/unhallow} (40 ft.)",
+			"**Aura** unhallow (40 ft.)",
 			"",
 			"::sh[Defense]",
 			"",
@@ -3108,7 +3108,7 @@
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** soul steel  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +24)  ",
-			"*Constant*-{spell/unhallow}  ",
+			"*Constant*-unhallow  ",
 			"*1/day*-soul slave",
 			"",
 			"::sh[Statistics]",
@@ -3222,9 +3222,9 @@
 			"",
 			"### Void Zombie (CR +1)",
 			"",
-			"A humanoid killed by void death becomes a void zombie. A void zombie is a fast zombie that gains a secondary \"tongue\" attack (actually the larval akata's feeding tendril), dealing 1d6 points of damage. A void zombie also gains the following special attack.",
+			"A humanoid killed by void death becomes a void zombie. A void zombie is a {template/fast |zombie} that gains a secondary \"tongue\" attack (actually the larval akata's feeding tendril), dealing 1d6 points of damage. A void zombie also gains the following special attack.",
 			"",
-			"**Blood Drain (Ex)** If a void zombie hits a living creature with its tongue attack, it drains blood, dealing 2 points of Strength damage before the tongue detaches."
+			">**Blood Drain (Ex)** If a void zombie hits a living creature with its tongue attack, it drains blood, dealing 2 points of Strength damage before the tongue detaches."
 		]
 	},
 	"akhlut": {

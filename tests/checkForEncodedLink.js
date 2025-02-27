@@ -4,7 +4,7 @@
 // The rest of the text is converted to a link following these steps:
 //   All letters are converted to lowercase
 //   Spaces and dashes are turned into underscores
-//   All other non-letter, non-number, non-underscore ccharacters are deleted
+//   All other non-letter, non-number, non-underscore characters are deleted
 // Advanced forms:
 //   A second slash adds to the text, not the link:
 //     {rule/Link/ plus additional text} => [Link plus additional text](rule/link)
@@ -24,7 +24,10 @@ const checkForEncodedLink = (input, mayBeRegularLink = false) => {
 	if(!m) {
 		if(mayBeRegularLink && (m = input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)\/([^)]+)\)(.*$)/))) {
 			const [x, pre, text, protocol, property, post] = m;
-			return [pre, `${protocol}/${property}`, text, post, protocol, property];
+			return [
+				pre, `${protocol}/${property}`, text, post,
+				protocol, property, `[${text}](${protocol}/${property})`
+			];
 		}
 		return false;
 	}
@@ -55,7 +58,7 @@ const checkForEncodedLink = (input, mayBeRegularLink = false) => {
 		.replace(/[- ]|=slAsh=/g, "_")
 		.toLowerCase()
 		.replace(/[^a-z0-9_]/g, "");
-	return [pre, `${protocol}/${property}`, text, post, protocol, property];
+	return [pre, `${protocol}/${property}`, text, post, protocol, property, `{${protocol}/${matchedx}}`];
 };
 
 export default checkForEncodedLink;

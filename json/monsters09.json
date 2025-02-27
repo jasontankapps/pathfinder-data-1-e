@@ -450,7 +450,10 @@
 			"",
 			"An ebon acolytus is chiseled from a single block of dark stone, often black granite or marble, jade, or some other lustrous material, and weighing at least 4,000 pounds. The stone must be of exceptional quality and costs at least 6,000 gp.",
 			"",
-			"*Ebon Acolytus* **CL** 11th; **Price** 24,000 gp; **Construction** {feat/Craft Construct}, {spell/animate objects}, {spell/desecrate}, {spell/trap the soul}, creator must be caster level 11th; Skill Craft (sculpting) or Craft (stonemasonry) DC 16; **Cost** 12,000 gp"
+			"#### Ebon Acolytus",
+			"",
+			"**CL** 11th; **Price** 24,000 gp  ",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/desecrate}, {spell/trap the soul}, creator must be caster level 11th; Skill Craft (sculpting) or Craft (stonemasonry) DC 16; **Cost** 12,000 gp"
 		]
 	},
 	"echeneis": {
@@ -973,7 +976,7 @@
 			"",
 			"**Environment** any  ",
 			"**Organization** solitary, squad (3-6), or warband (7-16)  ",
-			"**Treasure** triple (+2 scale mail, +2 heavy wooden shield, +2 battleaxe, masterwork {eq-weapon/throwing axe})",
+			"**Treasure** triple (+2 {eq-armor/scale mail}, +2 {eq-armor/heavy wooden shield}, +2 {eq-weapon/battleaxe}, masterwork {eq-weapon/throwing axe})",
 			"",
 			"::sh[Special Abilities]",
 			"",
