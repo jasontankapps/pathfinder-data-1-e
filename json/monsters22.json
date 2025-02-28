@@ -230,9 +230,9 @@
 			"",
 			"**Fleshdregs:** Products of malfunctioning runewells, botched rituals, and the like, {monster/fleshdreg/s} are squat, half-formed sinspawn, little more than a mouth on legs. Nevertheless, their sinful bites can mangle the bodies and minds of their enemies, and sinspawn treat fleshdregs as guard animals or pets. Faulty runewells may even spit out wads of hungry flesh known as {monster/fleshdreg swarm/s}.",
 			"",
-			"**Gluttonspawn (+2 Con, -2 Dex):** Hardy despite their obesity, gluttonspawn often become {class/fighter/s}. A few rare individuals become {class/alchemist/s}, gorging themselves on the mutagens they concoct.",
+			"**Gluttonspawn (+2 Con, -2 Dex):** Hardy despite their obesity, gluttonspawn often become fighters. A few rare individuals become {class/alchemist/s}, gorging themselves on the mutagens they concoct.",
 			"",
-			"**Greedspawn (+2 Dex -2 Wis): Standing 7 feet high with glittering, gold-tinted veins, greedspawn usually become {class/rogue/s}, but some focus their avarice into objects they hoard and become {class/occultist/s}.",
+			"**Greedspawn (+2 Dex -2 Wis): Standing 7 feet high with glittering, gold-tinted veins, greedspawn usually become rogues, but some focus their avarice into objects they hoard and become {class/occultist/s}.",
 			"",
 			"**Lustspawn (+4 Cha, -2 Con, -2 Wis):** These sinspawn sport perfectly formed male and female bodies that stand in odd contrast to their horrific faces, claws, and legs. Unlike their pallid kin, lustspawn often have brightly colored hides. Capable of intercourse but not procreation, lustspawn indulge themselves at every opportunity. Many lustspawn become {class/sorcerer/s} or {class/mesmerist/s}, though sinspawn [enchanters](class/wizard) and {class/witch/es} are not unknown.",
 			"",
@@ -240,7 +240,7 @@
 			"",
 			"**Slothspawn (+2 Wis, -2 Dex):** Slothspawn appear weighed down by cloaks of excess skin, yet they scuttle about on shrunken legs with alarming speed. They often become {class/cleric/s} or {class/warpriest/s}, venerating {faith/Lamashtu}, {faith/Rovagug}, or whichever locally popular demon lord demands the least effort. Slothspawn [conjurers](class/wizard) and [Summoners](class/wizard) prefer to let their summoned creatures labor on their behalf.",
 			"",
-			"**Wrathspawn:** The original creations of Alaznist, the bloodthirsty wrathspawn are the most common variety of sinspawn. Many become {class/barbarian/s}, {class/brawler/s}, or {class/fighter/s}. Exceptional wrathspawn tap into the essence of sin inside them and become {class/bloodrager/s} instead."
+			"**Wrathspawn:** The original creations of Alaznist, the bloodthirsty wrathspawn are the most common variety of sinspawn. Many become barbarians, {class/brawler/s}, or fighters. Exceptional wrathspawn tap into the essence of sin inside them and become {class/bloodrager/s} instead."
 		]
 	},
 	"siren": {
@@ -469,7 +469,7 @@
 			"",
 			"**Disorienting Gale (Su)** Once every 1d4 rounds, a sishkanset can create a 60-foot line of freezing, madness-laced winds. Creatures caught in the gale take 4d6 points of bludgeoning damage and 4d6 points of cold damage (Reflex DC 19 half). Creatures damaged by the gale must also succeed at a DC 19 Will saving throw or be confused for 1 round. The confusion is a sonic, mind-affecting, compulsion effect. The save DCs are Charisma-based.",
 			"",
-			"**Eavesdropper's Veil (Su)** A sishkanset can use its {spell/detect thoughts} spell-like ability on any creature within 1 mile to which it has line of effect. Additionally, using {spell/detect thoughts} or its whispering persecution ability does not end the sishkanset's invisibility.",
+			"**Eavesdropper's Veil (Su)** A sishkanset can use its detect thoughts spell-like ability on any creature within 1 mile to which it has line of effect. Additionally, using detect thoughts or its whispering persecution ability does not end the sishkanset's invisibility.",
 			"",
 			"**Insidious Winds (Su)** A sishkanset's presence suffuses local winds, causing natural light winds within 5 miles of the sishkanset to increase to moderate (11-20 mph). Moderate or greater wind forces are unaffected. If the sishkanset is destroyed, natural wind conditions return within 1 hour.",
 			"",
@@ -852,7 +852,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Skeletal mages are minor spellcasters (typically 5th-level or less) who have retained both their intelligence and their spellcasting abilities. These variant {template/skeletal champion/s} gain {feat/Silent Spell} as a bonus feat. Like skeletal champions, skeletal mages cannot be created with animate dead - they only arise under rare conditions or through ancient, esoteric rituals.",
+			"Skeletal mages are minor spellcasters (typically 5th-level or less) who have retained both their intelligence and their spellcasting abilities. These variant {template/skeletal champion/s} gain Silent Spell as a bonus feat. Like skeletal champions, skeletal mages cannot be created with animate dead - they only arise under rare conditions or through ancient, esoteric rituals.",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -1656,7 +1656,7 @@
 			"",
 			"### Skvaders and Wolpertingers as Familiars",
 			"",
-			"While most skvaders and wolpertingers prefer the company of their families and packs, occasionally the more adventurous among them come to serve as familiars. Service to a powerful spellcaster brings with it protection and long-term companionship, which these creatures take advantage of. A neutral spellcaster can gain a skvader as a familiar at 3rd level by taking the {feat/Improved Familiar} feat, and a neutral spellcaster can gain a wolpertinger as a familiar at 5th level by taking the {feat/Improved Familiar} feat."
+			"While most skvaders and wolpertingers prefer the company of their families and packs, occasionally the more adventurous among them come to serve as familiars. Service to a powerful spellcaster brings with it protection and long-term companionship, which these creatures take advantage of. A neutral spellcaster can gain a skvader as a familiar at 3rd level by taking the {feat/Improved Familiar} feat, and a neutral spellcaster can gain a wolpertinger as a familiar at 5th level by taking the Improved Familiar feat."
 		]
 	},
 	"slaugrak": {
@@ -1935,7 +1935,7 @@
 			"",
 			"**Str** 16, **Dex** 18, **Con** 23, **Int** 11, **Wis** 10, **Cha** 1  ",
 			"**Base Atk** +3; **CMB** +5 (+9 grapple); **CMD** 19 (can't be tripped)  ",
-			"**Feats** {feat/Skill Focus/ (Perception)}, {feat/Skill Focus/ (Stealth)}  ",
+			"**Feats** {feat/Skill Focus/ (Perception)}, Skill Focus (Stealth)  ",
 			"**Skills** Climb +11, Perception +7, Stealth +20; **Racial Modifiers** +8 Stealth  ",
 			"**Languages** Undercommon (cannot speak)  ",
 			"**SQ** transparent",
@@ -2033,7 +2033,7 @@
 			"{SOURCE Pathfinder #122: Into the Shattered Continent/88}  ",
 			"**XP** 6,400  ",
 			"N Huge construct  ",
-			"**Init** +9; **Senses** darkvision 60 ft., low-light vision, {spell/see alignment}; Perception +14",
+			"**Init** +9; **Senses** darkvision 60 ft., low-light vision, see alignment; Perception +14",
 			"",
 			"::sh[Defense]",
 			"",
@@ -2049,7 +2049,7 @@
 			"**Space** 15 ft., **Reach** 15 ft.  ",
 			"**Special Attacks** {umr/engulf} (DC 21, 1d6 Wis)  ",
 			"**Spell-Like Abilities** (CL 9th; concentration +15)  ",
-			"*Constant*-{spell/see alignment}, {spell/tongues}  ",
+			"*Constant*-{spell/see alignment}, tongues  ",
 			"*At will*-{spell/detect thoughts} (DC 17), {spell/fear} (DC 20)  ",
 			"*3/day*-{spell/major image} (DC 19)",
 			"",
@@ -2080,7 +2080,7 @@
 			"",
 			"Smoke sentinels are clouds of sentient black smoke that protect isolated ruins throughout the shattered continent of Azlant. As amorphous clouds, smoke sentinels have no distinguishing features, but they often extend their bodies into long tendrils that slither along the ground like hungry vines. No matter how thin a smoke sentinel may make its form, its smoke remains thick and opaque, hiding everything within it from view. Though the strange electrical energy that courses through its body crackles and arcs, the resulting illumination provides no insight into what may lie at the cloud's heart.",
 			"",
-			"A smoke sentinel usually attempts to determine an intruder's intentions through use of its {spell/see alignment} and {spell/detect thoughts} spell-like abilities. It may take the form of a trusted associate or loved one in order to further interact with the trespasser and bring deeper thoughts and motivations to the creature's surface thoughts. Unless directly threatened or certain that the target of its investigation poses a threat to its master or other sworn charge, the smoke sentinel employs illusions and fear to confuse and frighten the interloper away. Only in extreme cases or when instructed to do so does the construct use its deadly physical attacks.",
+			"A smoke sentinel usually attempts to determine an intruder's intentions through use of its see alignment and detect thoughts spell-like abilities. It may take the form of a trusted associate or loved one in order to further interact with the trespasser and bring deeper thoughts and motivations to the creature's surface thoughts. Unless directly threatened or certain that the target of its investigation poses a threat to its master or other sworn charge, the smoke sentinel employs illusions and fear to confuse and frighten the interloper away. Only in extreme cases or when instructed to do so does the construct use its deadly physical attacks.",
 			"",
 			"While it can compress and condense its form to fit into incredibly small spaces, a smoke sentinel most often appears as a weightless cloud occupying approximately 3,500 cubic feet of space.",
 			"",
@@ -3142,7 +3142,7 @@
 			"",
 			"**CL** 7th; **Price** 16,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/disguise self}, {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, soul of a living creature who dies or is slain during the creation process; Skill Craft (sculptures); **Cost** 8,500 gp"
+			"**Requirements** {feat/Craft Construct}, *disguise self*, {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, soul of a living creature who dies or is slain during the creation process; Skill Craft (sculptures); **Cost** 8,500 gp"
 		]
 	},
 	"soulbound_shell": {
@@ -3183,7 +3183,7 @@
 			"",
 			"**Str** 13, **Dex** 13, **Con** -, **Int** 20, **Wis** 10, **Cha** 13  ",
 			"**Base Atk** +15; **CMB** +16; **CMD** 27  ",
-			"**Feats** {feat/Combat Casting}, {feat/Craft Construct}, {feat/Greater Spell Focus/ (conjuration)}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Skill Focus/ (Spellcraft)}, {feat/Spell Focus/ (conjuration)}, {feat/Spell Focus/ (enchantment)}, {feat/Toughness}  ",
+			"**Feats** {feat/Combat Casting}, {feat/Craft Construct}, {feat/Greater Spell Focus/ (conjuration)}, {feat/Improved Iron Will}, {feat/Iron Will}, {feat/Skill Focus/ (Spellcraft)}, {feat/Spell Focus/ (conjuration)}, Spell Focus (enchantment), {feat/Toughness}  ",
 			"**Skills** Craft (sculptures) +20, Disguise +16, Knowledge (arcana) +20, Knowledge (engineering) +20, Perception +15, Spellcraft +26, Use Magic Device +16  ",
 			"**Languages** Aklo, Common, Draconic  ",
 			"**SQ** soul focus",
@@ -3214,7 +3214,7 @@
 			"",
 			"**CL** 12th; **Price** 115,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/magic jar}, {spell/make whole}, {spell/mnemonic enhancer}, {spell/stoneskin}; Skill Craft (sculpture); **Cost** 60,000 gp"
+			"**Requirements** *Craft Construct*, *false life*, {spell/magic jar}, *make whole*, {spell/mnemonic enhancer}, {spell/stoneskin}; Skill Craft (sculpture); **Cost** 60,000 gp"
 		]
 	},
 	"soulpierced": {
@@ -3249,7 +3249,7 @@
 			"",
 			"**Str** -, **Dex** 34, **Con** -, **Int** 15, **Wis** 19, **Cha** 27  ",
 			"**Base Atk** +16; **CMB** +28; **CMD** 47  ",
-			"**Feats** {feat/Alertness}, {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Skill Focus/ (Intimidate)}, {feat/Skill Focus/ (Perception)}, {feat/Stand Still}, {feat/Step Up}  ",
+			"**Feats** {feat/Alertness}, {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Skill Focus/ (Intimidate)}, Skill Focus (Perception), {feat/Stand Still}, {feat/Step Up}  ",
 			"**Skills** Bluff +30, Fly +45, Intimidate +39, Perception +39, Sense Motive +33, Stealth +37  ",
 			"**Languages** Common  ",
 			"**SQ** site bound, soulpiercing blade",
@@ -3278,7 +3278,7 @@
 			"",
 			"Even those who destroy a soulpierced find their work incomplete, as the blade through the creature's heart causes it to rejuvenate in the same location within days. Only by removing the soulpiercing blade can anyone free the creature and permanently eliminate it as a threat. But the attempt itself poses grave danger, as close proximity to the soulpierced exposes the opponent to the creature's wrathful attack and the blade itself can harm those who remove it.",
 			"",
-			"No soulpierced is created by accident, nor could they be. The wicked spellcasters willing to perform the elaborate and expensive magical ritual to transform a victim into a soulpierced must do so deliberately and with the utmost care. The ritual is a closely guarded secret but incorporates powerful spells such as {spell/create greater undead} and {spell/soul bind}. It destroys the victim's body, leaving only her heart, and places her under a permanent {spell/nondetection} spell that prevents allies or next of kin from locating her. The ritual to create a soulpierced is usually performed in some location where the perpetrator is confident the spirit won't be discovered, such as an isolated crypt, remote woods, or an abandoned ruin. Because of the complexity and expense of the ritual, the spellcaster must be extraordinarily invested, and thus nearly every soulpierced was once a person with powerful enemies, such as a monarch with influential contenders for the throne, a military leader capable of turning the tide of a war, or a government advisor with significant authority.",
+			"No soulpierced is created by accident, nor could they be. The wicked spellcasters willing to perform the elaborate and expensive magical ritual to transform a victim into a soulpierced must do so deliberately and with the utmost care. The ritual is a closely guarded secret but incorporates powerful spells such as {spell/create greater undead} and {spell/soul bind}. It destroys the victim's body, leaving only her heart, and places her under a permanent *nondetection* spell that prevents allies or next of kin from locating her. The ritual to create a soulpierced is usually performed in some location where the perpetrator is confident the spirit won't be discovered, such as an isolated crypt, remote woods, or an abandoned ruin. Because of the complexity and expense of the ritual, the spellcaster must be extraordinarily invested, and thus nearly every soulpierced was once a person with powerful enemies, such as a monarch with influential contenders for the throne, a military leader capable of turning the tide of a war, or a government advisor with significant authority.",
 			"",
 			"The blade used in the ritual must have a personal connection to the victim, but need not be a conventional weapon; while one soulpierced's blade might be an heirloom dagger, another's might be a shard of mirror. The ritual can anchor any creature that has a soul, although non-humanoid victims are rare.",
 			"",
@@ -3765,7 +3765,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 40 ft., fly 60 ft. (good)  ",
-			"**Melee** +2 {magic-enh/dancing} glaive +24/+19/+14/+9 (2d8+8/&times;3)  ",
+			"**Melee** +2 dancing glaive +24/+19/+14/+9 (2d8+8/&times;3)  ",
 			"**Ranged** stunning bolt +21 (1d8 plus stun)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Spell-Like Abilities** (CL 18th; concentration +24)  ",

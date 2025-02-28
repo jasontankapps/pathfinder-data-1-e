@@ -261,7 +261,7 @@
 			"",
 			"**Stability (Ex)** While standing on the ground, faerie mounts gain a +4 racial bonus to their Combat Maneuver Defense against bull rush and trip combat maneuvers.",
 			"",
-			"**Sure-Footed (Ex)** As long as it is carrying no more than a light load, a faerie mount gains {feat/Nimble Moves} as a bonus feat.",
+			"**Sure-Footed (Ex)** As long as it is carrying no more than a light load, a faerie mount gains Nimble Moves as a bonus feat.",
 			"",
 			"::sh[Description]",
 			"",
@@ -5083,7 +5083,7 @@
 			"**Skilled:** Fetchlings have a +2 racial bonus on Knowledge (planes) and Stealth checks.  ",
 			"**Shadow Blending:** See above.  ",
 			"**Shadowy Resistance:** Fetchlings have cold resistance 5 and electricity resistance 5.  ",
-			"**Spell-Like Abilities (Sp):** A fetchling can use {spell/disguise self} once per day as a spell-like ability. It can assume the form of any humanoid creature using this spell-like ability. When a fetchling reaches 9th level in any combination of classes, it gains {spell/shadow walk} (self only) as a spell-like ability usable once per day, and at 13th level, it gains {spell/plane shift} (self only, to the Plane of Shadow or the Material Plane only) usable once per day. A fetchling's caster level is equal to its total Hit Dice. Languages Fetchlings begin play speaking Common. A fetchling with a high Intelligence score can choose any of the following languages: Aklo, Aquan, Auran, Draconic, D'ziriak (understanding only, cannot speak), Ignan, Terran, and any regional human tongue."
+			"**Spell-Like Abilities (Sp):** A fetchling can use *disguise self* once per day as a spell-like ability. It can assume the form of any humanoid creature using this spell-like ability. When a fetchling reaches 9th level in any combination of classes, it gains {spell/shadow walk} (self only) as a spell-like ability usable once per day, and at 13th level, it gains {spell/plane shift} (self only, to the Plane of Shadow or the Material Plane only) usable once per day. A fetchling's caster level is equal to its total Hit Dice. Languages Fetchlings begin play speaking Common. A fetchling with a high Intelligence score can choose any of the following languages: Aklo, Aquan, Auran, Draconic, D'ziriak (understanding only, cannot speak), Ignan, Terran, and any regional human tongue."
 		]
 	},
 	"fext": {
@@ -5670,7 +5670,7 @@
 			"",
 			"**Str** 15, **Dex** 14, **Con** 13, **Int** 1, **Wis** 12, **Cha** 2  ",
 			"**Base Atk** +2; **CMB** +4 (+8 grapple); **CMD** 16  ",
-			"**Feats** {feat/Skill Focus/ (Perception)}, {feat/Skill Focus/ (Swim)}  ",
+			"**Feats** {feat/Skill Focus/ (Perception)}, Skill Focus (Swim)  ",
 			"**Skills** Perception +8, Stealth +6, Swim +17",
 			"",
 			"::sh[Ecology]",
@@ -6057,7 +6057,7 @@
 			"**Special Attacks** temporal madness, time shift  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +26)  ",
 			"*At will*-{spell/arcane sight}, {spell/deja vu}, {spell/haste}  ",
-			"*3/day*-quickened {spell/deja vu}, {spell/hold monster} (DC 21), {spell/mirror image}, {spell/temporal stasis} (DC 24)  ",
+			"*3/day*-quickened deja vu, {spell/hold monster} (DC 21), {spell/mirror image}, {spell/temporal stasis} (DC 24)  ",
 			"*1/day*-{spell/time stop} (DC 25)",
 			"",
 			"::sh[Statistics]",
@@ -6076,7 +6076,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Slow Aura (Su)** Fluxwraiths constantly emit a 30-foot-radius aura of temporal distortion. Any creature within this aura is affected as if by {spell/slow}, but it gets no saving throw. If a creature exits the radius, the effect ceases at the end of its turn. If the fluxwraith moves more than 30 feet away from an affected creature, the effect ends immediately for that creature. Creatures affected by {spell/freedom}, {spell/freedom of movement}, or {spell/haste} are unaffected by the slow aura.",
+			"**Slow Aura (Su)** Fluxwraiths constantly emit a 30-foot-radius aura of temporal distortion. Any creature within this aura is affected as if by {spell/slow}, but it gets no saving throw. If a creature exits the radius, the effect ceases at the end of its turn. If the fluxwraith moves more than 30 feet away from an affected creature, the effect ends immediately for that creature. Creatures affected by {spell/freedom}, {spell/freedom of movement}, or *haste* are unaffected by the slow aura.",
 			"",
 			"**Temporal Madness (Su)** As a ranged touch attack with a range increment of 30 feet, a fluxwraith can grant a target a mind-shattering glimpse of its own existence as it appears to a time-displaced entity. The attack deals 1d6 points of Wisdom drain, although this drain is reduced to 1 point if the target succeeds at a DC 29 Will saving throw. This is a mind-affecting effect. The save DC is Charisma-based.",
 			"",

@@ -332,8 +332,8 @@ const testLinks = () => {
 				}
 				temp = line;
 				while(m = checkForEncodedLink(temp)) {
-					// m = [...post, protocol, property]
-					const property = m.pop();
+					// m = [...post, protocol, property, fullmatch]
+					const property = (m.pop() || 1) && m.pop();
 					const protocol = m.pop();
 					const potential = `{${protocol}/${property}}`;
 					if(protocol === "source") {

@@ -205,7 +205,7 @@
 			"#### Behemoth Golem",
 			"",
 			"**CL** 18th; **Price** 305,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/earthquake}, {spell/geas//quest}, {spell/mage's magnificent mansion}, {spell/wish}, creator must be at least caster level 18th; Skill Craft (stonemasonry) and Knowledge (history) DC 26; **Cost** 165,000 gp"
+			"**Requirements** {feat/Craft Construct}, *earthquake*, {spell/geas//quest}, {spell/mage's magnificent mansion}, {spell/wish}, creator must be at least caster level 18th; Skill Craft (stonemasonry) and Knowledge (history) DC 26; **Cost** 165,000 gp"
 		]
 	},
 	"golem_behemoth": { "copyof": "golem_behemoth_golem" },
@@ -423,7 +423,7 @@
 			"",
 			"**CL** 17th; **Price** 180,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/incendiary cloud}, {spell/limited wish}, {spell/see invisibility}, creator must be caster level 17th; Skill Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 100,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/incendiary cloud}, {spell/limited wish}, *see invisibility*, creator must be caster level 17th; Skill Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 100,000 gp"
 		]
 	},
 	"golem_brass": { "copyof": "golem_brass_golem" },
@@ -715,7 +715,7 @@
 			"",
 			"**CL** 15th; **Price** 120,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/blade barrier}, {spell/geas//quest}, {spell/grease}, {spell/telekinesis}, creator must be caster level 15th; Skill Craft (clocks) or Craft (locks) DC 20; **Cost** 65,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/blade barrier}, {spell/geas//quest}, *grease*, {spell/telekinesis}, creator must be caster level 15th; Skill Craft (clocks) or Craft (locks) DC 20; **Cost** 65,000 gp"
 		]
 	},
 	"golem_clockwork": { "copyof": "golem_clockwork_golem" },
@@ -861,7 +861,7 @@
 			"",
 			"**CL** 15th; **Price** 127,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/possession}, {spell/thoughtsense}, creator must be caster level 15th; Skill Craft (glass) or Craft (jewelry) DC 22; **Cost** 67,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, *possession*, {spell/thoughtsense}, creator must be caster level 15th; Skill Craft (glass) or Craft (jewelry) DC 22; **Cost** 67,000 gp"
 		]
 	},
 	"golem_crystal": { "copyof": "golem_crystal_golem" },
@@ -1456,7 +1456,7 @@
 			"**Immunity to Magic (Ex)** An inubrix golem is immune to spells and spell-like abilities that allow spell resistance. Certain spells and effects function differently against it, as noted below.",
 			"",
 			"- A magical attack that deals fire damage slows an inubrix golem (as per {spell/slow}) for 3 rounds, with no saving throw.",
-			"- A magical attack that deals cold damage dispels any {spell/slow} effect on the golem and restores 1 hit point for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points for 1 hour. An inubrix golem receives no saving throw against cold effects.",
+			"- A magical attack that deals cold damage dispels any slow effect on the golem and restores 1 hit point for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points for 1 hour. An inubrix golem receives no saving throw against cold effects.",
 			"- An inubrix golem targeted by {spell/transmute metal to wood} permanently loses its immunity to iron and damage reduction, but it gains hardness 5.",
 			"",
 			"**Razor Fingers (Ex):** An inubrix golem's claws are razor sharp and threaten a critical hit on a roll of 18-20.",
@@ -1467,7 +1467,7 @@
 			"",
 			"Because of its ghostlike properties, the odd metal has also earned a reputation for being related to necromancy, gluttony, and temperance. Some spellcasters report spectacular effects when using inubrix in the creation of magic items associated with necromancy, as the metal tends to accept magical enhancements from that magic school more readily than from other schools of magic. This has led enterprising golem crafters to create the first inubrix golems. Rather than being imbued with an elemental spirit like many golems, inubrix golems gain their animating spark from negative energy, which seems to resonate particularly well with the inubrix used in their construction.",
 			"",
-			"Though creators can craft these golems into any configuration they desire, most form inubrix golems that have a skeletal aesthetic. This grotesque appearance only adds to the necromantic mystique of the golem, its visage promising the one thing these monstrosities can deliver: a brush with death. These 11-foot-tall creations weigh about 5,000 pounds, but their {spell/air walk} ability allows them to navigate difficult and unstable terrain with ease. They cannot speak, though at times their metal bodies emit a low bass rumble.",
+			"Though creators can craft these golems into any configuration they desire, most form inubrix golems that have a skeletal aesthetic. This grotesque appearance only adds to the necromantic mystique of the golem, its visage promising the one thing these monstrosities can deliver: a brush with death. These 11-foot-tall creations weigh about 5,000 pounds, but their air walk ability allows them to navigate difficult and unstable terrain with ease. They cannot speak, though at times their metal bodies emit a low bass rumble.",
 			"",
 			"Technic League engineers created the first inubrix golems in the golem forges of Numeria. Their captains hoped to use them as scouts and shock troops when exploring the vast and dangerous metal ruins that speckle the landscape. However, their inability to communicate makes inubrix golems poor scouts, and the properties bestowed from their inubrix components left them often unable to harm the robotic contraptions they were sent to destroy. Their use as bodyguards is limited, as they cannot stop or deflect iron weapons, but they make decent assassins and excellent traps when hidden behind a wall of iron. Enterprising captains used the creatures to attack and assassinate their rivals, but it wasn't long before Technic League officers started to line their strongholds with lead and other materials that the golems can't pass through.",
 			"",
@@ -1489,7 +1489,7 @@
 			"",
 			"**CL** 16th; **Price** 300,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/air walk}, {spell/enervation}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
+			"**Requirements** {feat/Craft Construct}, *air walk*, {spell/enervation}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
 		]
 	},
 	"golem_inubrix": { "copyof": "golem_inubrix_golem" },
@@ -1539,7 +1539,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Gem Receptacle (Ex)** An ioun golem can socket up to six {magic-wondrous/ioun stone/s} into itself. Each socketed stone grants the golem full access to the stone's abilities and benefits, as though it were orbiting the ioun golem. An ioun golem gains 10 temporary hit points for each ioun stone socketed in this manner, to a maximum of 60 temporary hit points if all slots are filled. Temporary hit points last for 24 hours and each socket can grant temporary hit points only once per day, regardless of how many ioun stones are placed within it during that period. A socketed ioun stone cannot be independently targeted, but it can still be the subject of a successful steal or sunder combat maneuver performed against the ioun golem. Socketing or removing an ioun stone is a move action.",
+			"**Gem Receptacle (Ex)** An ioun golem can socket up to six ioun stones into itself. Each socketed stone grants the golem full access to the stone's abilities and benefits, as though it were orbiting the ioun golem. An ioun golem gains 10 temporary hit points for each ioun stone socketed in this manner, to a maximum of 60 temporary hit points if all slots are filled. Temporary hit points last for 24 hours and each socket can grant temporary hit points only once per day, regardless of how many ioun stones are placed within it during that period. A socketed ioun stone cannot be independently targeted, but it can still be the subject of a successful steal or sunder combat maneuver performed against the ioun golem. Socketing or removing an ioun stone is a move action.",
 			"",
 			"**Immunity to Magic (Ex)** An ioun golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.",
 			"",
@@ -1722,7 +1722,7 @@
 			"",
 			"**CL** 7th; **Price** 10,200 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/minor creation}, {spell/rusting grasp}, creator must be caster level 7th; Skill Craft (sculpture); **Cost** 5,200 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/minor creation}, *rusting grasp*, creator must be caster level 7th; Skill Craft (sculpture); **Cost** 5,200 gp"
 		]
 	},
 	"golem_junk": { "copyof": "golem_junk_golem" },
@@ -2037,7 +2037,7 @@
 			"A mask golem's body is made from hundreds of iron masks, as well as a few that are plated in silver and trimmed with gold, worth a total of 2,000 gp. In addition, the crafter must place a sapphire worth 500 gp into the golem's forehead to complete its creation.",
 			"",
 			"**CL** 9th; **Price** 22,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/dominate person}, {spell/see invisibility}, {spell/telekinesis}, creator must be caster level 9th; Skill Craft (sculptures) DC 16; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/dominate person}, *see invisibility*, {spell/telekinesis}, creator must be caster level 9th; Skill Craft (sculptures) DC 16; **Cost** 12,500 gp"
 		]
 	},
 	"golem_mask": { "copyof": "golem_mask_golem" },
@@ -2108,7 +2108,7 @@
 			"",
 			"**CL** 18th; **Price** 250,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/haste}, {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; Skill Craft (sculpture) DC 25; **Cost** 150,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, *haste*, {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; Skill Craft (sculpture) DC 25; **Cost** 150,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2171,7 +2171,7 @@
 			"",
 			"**Powerful Blows (Ex)** A noqual golem inflicts 1-1/2 times its Strength bonus and threatens a critical hit on a 19-20 with its slam attacks.",
 			"",
-			"**Spell Absorption (Su)** A noqual golem absorbs any spells blocked or dispelled by its impeded magic, immunity to magic, and spell sunder abilities. It heals 5 points of damage for every spell level absorbed. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. Absorbing a spell gives the golem the benefits of {spell/haste} (as the spell) for 1 round per spell level.",
+			"**Spell Absorption (Su)** A noqual golem absorbs any spells blocked or dispelled by its impeded magic, immunity to magic, and spell sunder abilities. It heals 5 points of damage for every spell level absorbed. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. Absorbing a spell gives the golem the benefits of haste (as the spell) for 1 round per spell level.",
 			"",
 			"**Spell Sunder (Su)** A creature struck by a noqual golem's slam attack is targeted by dispel magic (CL 18th). It absorbs any spells so dispelled.",
 			"",
@@ -2346,7 +2346,7 @@
 			"",
 			"**CL** 11th; **Price** 48,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, {spell/resurrection}, {spell/searing light}, {spell/true seeing}, creator must be caster level 11th; Skill Craft (pottery) or Craft (sculpture) DC 16; **Cost** 28,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, {spell/resurrection}, {spell/searing light}, *true seeing*, creator must be caster level 11th; Skill Craft (pottery) or Craft (sculpture) DC 16; **Cost** 28,500 gp",
 			"",
 			"### Variant Panthereons",
 			"",
@@ -3400,7 +3400,7 @@
 			"",
 			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
 			"",
-			"The Ash Hag adds the following spells to the coven: {spell/ash storm}, {spell/fire storm}, {spell/solid fog}, {spell/volcanic storm}",
+			"The Ash Hag adds the following spells to the coven: ash storm, {spell/fire storm}, {spell/solid fog}, {spell/volcanic storm}",
 			"",
 			"**Family:** {family/Hag}"
 		]
@@ -3732,7 +3732,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, *bestow curse*, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, *speak with dead*, {spell/veil}, {spell/vision}",
 			"",
 			"**Family:** {family/Hag}"
 		]
@@ -3810,7 +3810,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, {spell/speak with dead}, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, *bestow curse*, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, *speak with dead*, {spell/veil}, {spell/vision}",
 			"",
 			"The Mute Hag adds the following spells to the coven: {spell/epidemic}, greater age resistance, {spell/insanity}, {spell/malicious spite}, {spell/vengeful outrage}",
 			"",
@@ -4116,7 +4116,7 @@
 			"",
 			"**Breath Weapon (Su)** A creature that successfully saves against the hag's breath weapon takes half damage and is not blinded.",
 			"",
-			"**Ice Staff (Su)** Once per week, a winter hag can perform an hour-long ritual to create a staff made of black ice that is as hard as steel and functions as a +2 {magic-enh/frost} quarterstaff. A winter hag holding her ice staff can use {spell/cone of cold} once per day as a spell-like ability. The staff melts after 1 week.",
+			"**Ice Staff (Su)** Once per week, a winter hag can perform an hour-long ritual to create a staff made of black ice that is as hard as steel and functions as a +2 frost quarterstaff. A winter hag holding her ice staff can use cone of cold once per day as a spell-like ability. The staff melts after 1 week.",
 			"",
 			"**Icewalking (Ex)** This ability works like the {spell/spider climb} spell, but the surfaces the hag climbs must be icy. The hag can move across icy surfaces without penalty and doesn't need to make Acrobatics checks to run or charge on ice.",
 			"",

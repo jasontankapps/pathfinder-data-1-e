@@ -28,7 +28,7 @@
 			"**Spell-Like Abilities** (CL 17th; concentration +20)  ",
 			"*Constant*-{spell/freedom of movement}  ",
 			"*At will*-{spell/entangle} (DC 14), {spell/hallucinatory terrain} (DC 17)  ",
-			"*3/day*-quickened {spell/entangle} (DC 14)  ",
+			"*3/day*-quickened entangle (DC 14)  ",
 			"*1/day*-{spell/wall of thorns}",
 			"",
 			"::sh[Statistics]",
@@ -242,7 +242,7 @@
 			"",
 			"**CL** 9th; **Price** 14,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/fly}, {spell/geas//quest}, {spell/parchment swarm}, {spell/shield other}, creator must be caster level 9th; Skill Craft (calligraphy) or Craft (tattoo) DC 20; **Cost** 7,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/fly}, {spell/geas//quest}, {spell/parchment swarm}, *shield other*, creator must be caster level 9th; Skill Craft (calligraphy) or Craft (tattoo) DC 20; **Cost** 7,500 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -1046,9 +1046,9 @@
 			"",
 			"Unlike most constructs, a terra-cotta soldier carries within its form a spark of intelligence. This is hardly enough to grant the construct the ability to speak or otherwise engage in free will, but it is enough for it to carry out more complex tactics than most constructs are capable of. It's not unusual for a terra-cotta soldier to possess different feats or use different weapons. Two relatively common variants are summarized below.",
 			"",
-			"Terra-Cotta Archer (+0 CR): Terra-cotta archers are simply terra-cotta soldiers outfitted with composite longbows. Terra-cotta archers have {feat/Improved Initiative}, {feat/Point-Blank Shot}, {feat/Precise Shot}, and {feat/Weapon Focus} (longbow) as feats.",
+			"**Terra-Cotta Archer (+0 CR):** Terra-cotta archers are simply terra-cotta soldiers outfitted with composite longbows. Terra-cotta archers have Improved Initiative, {feat/Point-Blank Shot}, {feat/Precise Shot}, and Weapon Focus (longbow) as feats.",
 			"",
-			"Terra-Cotta Horseman (+1 CR): Some terra-cotta soldiers are crafted to resemble warriors mounted on terra-cotta horses, though rider and mount are one creature. Terra-cotta horsemen are Large terra-cotta soldiers with 10 racial Hit Dice and the trample and undersized weapons special abilities. Terra-cotta horsemen are usually outfitted with lances instead of swords, and have {feat/Improved Bull Rush}, {feat/Improved Initiative}, {feat/Improved Overrun}, {feat/Power Attack}, and {feat/Weapon Focus} (lance) as feats.",
+			"**Terra-Cotta Horseman (+1 CR):** Some terra-cotta soldiers are crafted to resemble warriors mounted on terra-cotta horses, though rider and mount are one creature. Terra-cotta horsemen are Large terra-cotta soldiers with 10 racial Hit Dice and the trample and undersized weapons special abilities. Terra-cotta horsemen are usually outfitted with lances instead of swords, and have {feat/Improved Bull Rush}, Improved Initiative, {feat/Improved Overrun}, {feat/Power Attack}, and Weapon Focus (lance) as feats.",
 			"",
 			"### Construction",
 			"",
@@ -1204,7 +1204,7 @@
 			"#### Bronze Sentinel",
 			"",
 			"**CL** 10th; **Price** 21,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/alarm}, {spell/detect magic}, {spell/geas//quest}, {spell/limited wish}, {spell/scorching ray}, creator must be caster level 10th; Skill Craft (sculpture) DC 18; **Cost** 11,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic*, {spell/geas//quest}, {spell/limited wish}, {spell/scorching ray}, creator must be caster level 10th; Skill Craft (sculpture) DC 18; **Cost** 11,000 gp"
 		]
 	},
 	"bronze_sentinel": { "copyof": "thassilonian_sentinel_bronze_sentinel" },
@@ -1219,7 +1219,7 @@
 			"{SOURCE Pathfinder #134: It Came from Hollow Mountain/90}  ",
 			"**XP** 1,600  ",
 			"N Small construct  ",
-			"**Init** +9; **Senses** darkvision 60 ft., {spell/detect magic}, low-light vision; Perception +5",
+			"**Init** +9; **Senses** darkvision 60 ft., detect magic, low-light vision; Perception +5",
 			"",
 			"::sh[Defense]",
 			"",
@@ -1274,7 +1274,7 @@
 			"",
 			"**CL** 14th; **Price** 28,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/alarm}, {spell/cone of cold}, {spell/detect magic}, {spell/geas//quest}, {spell/limited wish}; Skill Craft (sculpture) DC 22; **Cost** 14,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/alarm}, {spell/cone of cold}, *detect magic*, {spell/geas//quest}, {spell/limited wish}; Skill Craft (sculpture) DC 22; **Cost** 14,000 gp"
 		]
 	},
 	"iron_sentinel": { "copyof": "thassilonian_sentinel_iron_sentinel" },
@@ -1345,7 +1345,7 @@
 			"",
 			"**CL** 16th; **Price** 36,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/alarm}, {spell/detect magic}, {spell/geas//quest}, {spell/limited wish}, {spell/poison}, {spell/shout}; Skill Craft (sculpture) DC 26; **Cost** 18,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic*, {spell/geas//quest}, {spell/limited wish}, {spell/poison}, {spell/shout}; Skill Craft (sculpture) DC 26; **Cost** 18,000 gp"
 		]
 	},
 	"ivory_sentinel": { "copyof": "thassilonian_sentinel_ivory_sentinel" },
@@ -1416,7 +1416,7 @@
 			"#### Marble Sentinel",
 			"",
 			"**CL** 12th; **Price** 24,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/alarm}, {spell/detect magic}, {spell/geas//quest}, {spell/limited wish}, {spell/stone shape}, creator must be caster level 12th; Skill Craft (sculpture) DC 20; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic*, {spell/geas//quest}, {spell/limited wish}, {spell/stone shape}, creator must be caster level 12th; Skill Craft (sculpture) DC 20; **Cost** 12,500 gp"
 		]
 	},
 	"marble_sentinel": { "copyof": "thassilonian_sentinel_marble_sentinel" },
@@ -1503,7 +1503,7 @@
 			"",
 			"**Str** 31, **Dex** 40, **Con** 32, **Int** 2, **Wis** 24, **Cha** 9  ",
 			"**Base Atk** +15; **CMB** +29; **CMD** 54 (58 vs. trip)  ",
-			"**Feats** {feat/Bleeding Critical}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Improved Critical/ (bite, snake bites)}, {feat/Multiattack}, {feat/Skill Focus/ (Perception)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (bite)}, {feat/Weapon Focus/ (snake bites)}  ",
+			"**Feats** {feat/Bleeding Critical}, {feat/Combat Reflexes}, {feat/Critical Focus}, {feat/Improved Critical/ (bite, snake bites)}, {feat/Multiattack}, {feat/Skill Focus/ (Perception)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (bite)}, Weapon Focus (snake bites)  ",
 			"**Skills** Perception +31, Swim +26",
 			"",
 			"::sh[Ecology]",
@@ -1945,7 +1945,7 @@
 			"",
 			"**Str** 21, **Dex** 13, **Con** 20, **Int** 12, **Wis** 14, **Cha** 17  ",
 			"**Base Atk** +10; **CMB** +15; **CMD** 26 (34 vs. trip)  ",
-			"**Feats** {feat/Ability Focus/ (projected victim)}, {feat/Ability Focus/ (tantalizing lure)}, {feat/Improved Critical/ (bite)}, {feat/Iron Will}, {feat/Weapon Focus/ (bite)}  ",
+			"**Feats** {feat/Ability Focus/ (projected victim)}, Ability Focus (tantalizing lure), {feat/Improved Critical/ (bite)}, {feat/Iron Will}, {feat/Weapon Focus/ (bite)}  ",
 			"**Skills** Acrobatics +4, Perception +15, Stealth +14, Swim +26  ",
 			"**Languages** Aklo  ",
 			"**SQ** amphibious, projected victim",
@@ -2021,7 +2021,7 @@
 			"",
 			"**Str** 26, **Dex** 17, **Con** 21, **Int** 12, **Wis** 16, **Cha** 13  ",
 			"**Base Atk** +14; **CMB** +26 (+30 grapple); **CMD** 40  ",
-			"**Feats** {feat/Critical Focus}, {feat/Dodge}, {feat/Improved Critical/ (bite)}, {feat/Improved Critical/ (claw)}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}  ",
+			"**Feats** {feat/Critical Focus}, {feat/Dodge}, {feat/Improved Critical/ (bite)}, Improved Critical (claw), {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}  ",
 			"**Skills** Acrobatics +13, Fly +11, Perception +20, Perform (sing) +8, Sense Motive +10  ",
 			"**Languages** Auran",
 			"",
@@ -2380,7 +2380,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 60 ft. (40 ft. in armor)  ",
-			"**Melee** +3 {magic-enh/unholy} battleaxe +37/+32/+27/+22 (6d6+22/19-20/&times;3), claw +29 (2d8+9) or 2 claws +34 (2d8+19)  ",
+			"**Melee** +3 unholy battleaxe +37/+32/+27/+22 (6d6+22/19-20/&times;3), claw +29 (2d8+9) or 2 claws +34 (2d8+19)  ",
 			"**Ranged** rock +16/+11/+6/+1 (2d6+19)  ",
 			"**Space** 30 ft., **Reach** 30 ft.  ",
 			"**Special Attacks** godslayer, rock-throwing (100 ft.), {umr/trample} (2d8+28, DC 40)  ",
@@ -3754,7 +3754,7 @@
 			"#### Tribal Totem",
 			"",
 			"**CL** 8th; **Price** 19,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/disguise self}, {spell/locate creature}, {spell/magic mouth}, {spell/shield other}, creator must be caster level 11th; Skill Craft (carpentry) and Craft (sculpture) DC 20; **Cost** 10,000 gp.",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/disguise self}, {spell/locate creature}, {spell/magic mouth}, *shield other*, creator must be caster level 11th; Skill Craft (carpentry) and Craft (sculpture) DC 20; **Cost** 10,000 gp.",
 			"",
 			"#### Greater Tribal Totem",
 			"",
