@@ -281,6 +281,8 @@ import npc3 from './json/npcs3.json' with {type: 'json'};
 import npc4 from './json/npcs4.json' with {type: 'json'};
 import npc5 from './json/npcs5.json' with {type: 'json'};
 import npc6 from './json/npcs6.json' with {type: 'json'};
+import npc7 from './json/npcs7.json' with {type: 'json'};
+import npc8 from './json/npcs8.json' with {type: 'json'};
 import prestigeclass1 from './json/prestige_classes.json' with {type: 'json'};
 import prestigeclass2 from './json/prestige_classes2.json' with {type: 'json'};
 import prestigeclass3 from './json/prestige_classes3.json' with {type: 'json'};
@@ -2891,6 +2893,20 @@ const basic_data_groups = {
 		searchgroup: 11, // monster
 		link: "npc",
 		num: 6,
+		type: "NPC"
+	},
+	"npcs7": {
+		data: npc7,
+		searchgroup: 11, // monster
+		link: "npc",
+		num: 7,
+		type: "NPC"
+	},
+	"npcs8": {
+		data: npc8,
+		searchgroup: 11, // monster
+		link: "npc",
+		num: 8,
 		type: "NPC"
 	},
 	"npc_classes": {

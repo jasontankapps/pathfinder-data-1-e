@@ -12,6 +12,8 @@ const NPCGroup3Page = lazy(() => import("./NPCGroup3Page"));
 const NPCGroup4Page = lazy(() => import("./NPCGroup4Page"));
 const NPCGroup5Page = lazy(() => import("./NPCGroup5Page"));
 const NPCGroup6Page = lazy(() => import("./NPCGroup6Page"));
+const NPCGroup7Page = lazy(() => import("./NPCGroup7Page"));
+const NPCGroup8Page = lazy(() => import("./NPCGroup8Page"));
 
 const pages = [
 	({id}: {id: string}) => <NPCGroup1Page id={id} />,
@@ -20,6 +22,8 @@ const pages = [
 	({id}: {id: string}) => <NPCGroup4Page id={id} />,
 	({id}: {id: string}) => <NPCGroup5Page id={id} />,
 	({id}: {id: string}) => <NPCGroup6Page id={id} />,
+	({id}: {id: string}) => <NPCGroup7Page id={id} />,
+	({id}: {id: string}) => <NPCGroup8Page id={id} />,
 ]
 
 const NPCPage: React.FC = () => {
