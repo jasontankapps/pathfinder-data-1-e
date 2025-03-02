@@ -204,6 +204,11 @@ const ImportModal: FC<ModalProps> = (props) => {
 			</IonHeader>
 			<IonContent>
 				<IonList lines="full">
+					<IonItemDivider>Choose What to Import</IonItemDivider>
+					<IonRadioGroup value={importOption} onIonChange={e => setImportOption(e.detail.value)}>
+						{data}
+					</IonRadioGroup>
+					<IonItemDivider>Save As...</IonItemDivider>
 					<IonItem>
 						<IonModal
 							className="pickerSheet"
@@ -229,23 +234,19 @@ const ImportModal: FC<ModalProps> = (props) => {
 										<div slot="prefix">Import as</div>
 										{order.map((opt, i) =>
 											<IonPickerColumnOption key={`color${opt}import${i}:${colors[order[i]].title}`} value={i}>
-												{colors[order[i]].title} ({opt})
+												<IonText className={`color-${colors[order[i]].color}`}>{colors[order[i]].title} ({opt})</IonText>
 											</IonPickerColumnOption>
 										)}
 									</IonPickerColumn>
 								</IonPicker>
 							</IonContent>
 						</IonModal>
-						<IonLabel className="picker" onClick={() => setOpen(true)}>Import as: <IonText className="pickedText">{colors[order[colorToImportAs]].title} ({order[colorToImportAs]})</IonText></IonLabel>
-						<IonButton slot="end" color="tertiary" onClick={doImport}>
+						<IonLabel className="picker" onClick={() => setOpen(true)}>Overwrite <IonText className={`pickedText color-${colors[order[colorToImportAs]].color}`}>{colors[order[colorToImportAs]].title} ({order[colorToImportAs]})</IonText> Bookmarks</IonLabel>
+						<IonButton slot="start" color="danger" onClick={doImport}>
 							<IonLabel>Import</IonLabel>
 							<IonIcon icon="/icons/input.svg" slot="end" />
 						</IonButton>
 					</IonItem>
-					<IonItemDivider>Select from below before importing.</IonItemDivider>
-					<IonRadioGroup value={importOption} onIonChange={e => setImportOption(e.detail.value)}>
-						{data}
-					</IonRadioGroup>
 				</IonList>
 			</IonContent>
 			<IonFooter>

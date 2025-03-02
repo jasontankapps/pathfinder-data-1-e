@@ -48,6 +48,15 @@ const migrations = {
 				...etc
 			}
 		}
+	},
+	4: (state: any) => {
+		return {
+			...state,
+			displayTable: {
+				actives: {},
+				filters: {}
+			}
+		};
 	}
 };
 
@@ -64,11 +73,12 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 3,
+	version: 4,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),
-	whitelist: ['bookmarks']
+	// Only persist bookmarks and display tables
+	whitelist: ['bookmarks', 'displayTable']
 };
 const reducer = combineReducers(reducerConfig);
 const persistedReducer = persistReducer(persistConfig, reducer);
@@ -88,7 +98,7 @@ const store = configureStore({
 const persistor = persistStore(store);
 const storeInfo = { store, persistor };
 
-/*
+/* Old Version, pre-persist
 export const store = configureStore({
 	reducer: {
 		scroll: scrollReducer,

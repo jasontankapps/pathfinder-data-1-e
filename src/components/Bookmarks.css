@@ -140,6 +140,7 @@ ion-item.color-red.dim {
 }
 ion-icon.color-red,
 ion-text.color-red {
+	--pickedColor: var(--red);
 	color: var(--red);
 }
 ion-item.color-red ion-toggle {
@@ -207,6 +208,7 @@ ion-item.color-orange.dim {
 }
 ion-icon.color-orange,
 ion-text.color-orange {
+	--pickedColor: var(--orange);
 	color: var(--orange);
 }
 ion-item.color-orange ion-toggle {
@@ -274,6 +276,7 @@ ion-item.color-yellow.dim {
 }
 ion-icon.color-yellow,
 ion-text.color-yellow {
+	--pickedColor: var(--yellow);
 	color: var(--yellow);
 }
 ion-item.color-yellow ion-toggle {
@@ -341,6 +344,7 @@ ion-item.color-green.dim {
 }
 ion-icon.color-green,
 ion-text.color-green {
+	--pickedColor: var(--green);
 	color: var(--green);
 }
 ion-item.color-green ion-toggle {
@@ -408,6 +412,7 @@ ion-item.color-chartreuse.dim {
 }
 ion-icon.color-chartreuse,
 ion-text.color-chartreuse {
+	--pickedColor: var(--chartreuse);
 	color: var(--chartreuse);
 }
 ion-item.color-chartreuse ion-toggle {
@@ -475,6 +480,7 @@ ion-item.color-cyan.dim {
 }
 ion-icon.color-cyan,
 ion-text.color-cyan {
+	--pickedColor: var(--cyan);
 	color: var(--cyan);
 }
 ion-item.color-cyan ion-toggle {
@@ -542,6 +548,7 @@ ion-item.color-blue.dim {
 }
 ion-icon.color-blue,
 ion-text.color-blue {
+	--pickedColor: var(--blue);
 	color: var(--blue);
 }
 ion-item.color-blue ion-toggle {
@@ -609,6 +616,7 @@ ion-item.color-purple.dim {
 }
 ion-icon.color-purple,
 ion-text.color-purple {
+	--pickedColor: var(--purple);
 	color: var(--purple);
 }
 ion-item.color-purple ion-toggle {
@@ -676,6 +684,7 @@ ion-item.color-magenta.dim {
 }
 ion-icon.color-magenta,
 ion-text.color-magenta {
+	--pickedColor: var(--magenta);
 	color: var(--magenta);
 }
 ion-item.color-magenta ion-toggle {
@@ -743,6 +752,7 @@ ion-item.color-pink.dim {
 }
 ion-icon.color-pink,
 ion-text.color-pink {
+	--pickedColor: var(--pink);
 	color: var(--pink);
 }
 ion-item.color-pink ion-toggle {

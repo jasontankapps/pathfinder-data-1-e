@@ -531,16 +531,31 @@ table thead tr th.sortable div ion-icon.sortArrow {
 
 ion-modal ion-item.item ion-label.picker {
 	cursor: pointer;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 ion-modal ion-item.item ion-label.picker ion-text.pickedText {
-	color: var(--ion-color-primary);
-	border-bottom: 1px solid var(--ion-color-primary);
+	color: var(--pickedColor, var(--ion-color-primary));
+	border-bottom: 1px solid var(--pickedColor, var(--ion-color-primary));
 	min-width: 2rem;
 	display: inline-block;
 	text-align: center;
-	margin-inline-start: 0.15rem;
-	font-style: italic;
+	margin-inline: 1rem;
+}
+ion-modal ion-item.item ion-label.picker ion-text.pickedText::before {
+	color: var(--ion-text-color);
+	font-weight: bold;
+	font-style: normal;
+	content: '[ '
+}
+ion-modal ion-item.item ion-label.picker ion-text.pickedText::after {
+	color: var(--ion-text-color);
+	font-weight: bold;
+	font-style: normal;
+	content: ' ]'
 }
 
 ion-modal.pickerSheet {
