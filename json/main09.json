@@ -17,8 +17,7 @@
 			"::main[Arcanist Spells (Levels 6-7)]{endem=\"(288 spells)\" to=main/spells_arcanist_6_7}",
 			"",
 			"::main[Arcanist Spells (Levels 8-9)]{endem=\"(148 spells)\" to=main/spells_arcanist_8_9}"
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_arcanist_0_1": {
 		"title": "Arcanist Spells Levels 0-1",
@@ -357,11 +356,6 @@
 					[ "{spell/Youthful Appearance}", 1, "transmutation", "polymorph", null, "Target appears younger.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Arcanist Spells", "main/spells_arcanist"]
 		]
 	},
 	"spells_arcanist_2": {
@@ -747,11 +741,6 @@
 					[ "{spell/With the Wind}", "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Arcanist Spells", "main/spells_arcanist"]
 		]
 	},
 	"spells_arcanist_3": {
@@ -1143,11 +1132,6 @@
 					[ "{spell/Wind Wall}", "evocation", null, "air", "Deflects arrows, smaller creatures, and gases.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Arcanist Spells", "main/spells_arcanist"]
 		]
 	},
 	"spells_arcanist_4": {
@@ -1487,11 +1471,6 @@
 					[ "{spell/Web Cloud}", "conjuration", "creation", null, "Create a cloud-like spread of flame-resistant webbing.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Arcanist Spells", "main/spells_arcanist"]
 		]
 	},
 	"spells_arcanist_5": {
@@ -1779,11 +1758,6 @@
 					[ "{spell/Wreath of Blades}", "abjuration", null, null, "Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Arcanist Spells", "main/spells_arcanist"]
 		]
 	},
 	"spells_arcanist_6_7": {
@@ -2131,11 +2105,6 @@
 					[ "{spell/Word of Beckoning}", 7, "conjuration", "teleportation", null, "As sending, but the target gets the ability to teleport to your side if they desire", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Arcanist Spells", "main/spells_arcanist"]
 		]
 	},
 	"spells_arcanist_8_9": {
@@ -2342,11 +2311,6 @@
 					[ "{spell/Yellow Sign}", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur.", "V", [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Arcanist Spells", "main/spells_arcanist"]
 		]
 	}
 }

@@ -6,8 +6,7 @@ import { createDirectives } from 'marked-directive';
 import basic_data_groups from './basic_data_groups.js';
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
-import featLinks from './src/json/_data__linked-index.json' with {type: 'json'};
-import featNames from './src/json/_data__fuse-index.json' with {type: 'json'};
+import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
 
 const alternateBlocks = {
 	level: "block",
@@ -411,8 +410,7 @@ const entities_in_tables = [
 
 // DO THE THINGS
 const getFeatName = (prop) => {
-	const index = featLinks.indexOf("feat/" + prop);
-	return index < 0 ? false : featNames[index].name;
+	return featInfo[`feat/${prop}`] || false;
 };
 const parseFeatTree = (tree, ids = []) => {
 	const anchor = "featTreePageAnchor-";

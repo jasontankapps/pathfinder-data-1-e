@@ -18,8 +18,7 @@
 			"::main[Psychic Spells (Levels 8-9)]{endem=\"(96 spells)\" to=main/spells_psychic_8_9}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_psychic_0_1": {
 		"title": "Psychic Spells Levels 0-1",
@@ -250,8 +249,7 @@
 					[ "{spell/Youthful Appearance}", 1, "transmutation", "polymorph", null, "Target appears younger.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Psychic Spells", "main/spells_psychic"] ]
+		]
 	},
 	"spells_psychic_2": {
 		"title": "Psychic Spells Levels 2",
@@ -522,8 +520,7 @@
 					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Psychic Spells", "main/spells_psychic"] ]
+		]
 	},
 	"spells_psychic_3": {
 		"title": "Psychic Spells Levels 3",
@@ -743,8 +740,7 @@
 					[ "{spell/Witness}", "divination", "scrying", null, "See through the target's eyes and ears.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Psychic Spells", "main/spells_psychic"] ]
+		]
 	},
 	"spells_psychic_4": {
 		"title": "Psychic Spells Levels 4",
@@ -959,8 +955,7 @@
 					[ "{spell/Water Walk, Communal}", "transmutation", null, "water", "As water walk, but you may divide the duration among creatures touched.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Psychic Spells", "main/spells_psychic"] ]
+		]
 	},
 	"spells_psychic_5": {
 		"title": "Psychic Spells Levels 5",
@@ -1147,8 +1142,7 @@
 					[ "{spell/Wreath of Blades}", "abjuration", null, null, "Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Psychic Spells", "main/spells_psychic"] ]
+		]
 	},
 	"spells_psychic_6_7": {
 		"title": "Psychic Spells Levels 6-7",
@@ -1375,8 +1369,7 @@
 					[ "{spell/Word of Recall}", 7, "conjuration", "teleportation", null, "Teleports you back to designated place.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Psychic Spells", "main/spells_psychic"] ]
+		]
 	},
 	"spells_psychic_8_9": {
 		"title": "Psychic Spells Levels 8-9",
@@ -1531,8 +1524,7 @@
 					[ "{spell/Wish}", 9, "universal", null, null, "As limited wish, but with fewer limits.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Psychic Spells", "main/spells_psychic"] ]
+		]
 	},
 	"spells_skald": {
 		"title": "All Skald Spells",
@@ -1549,8 +1541,7 @@
 			"::main[Skald Spells (Level 5-6)]{endem=\"(135 spells)\" to=main/spells_skald_5_6}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_skald_0_1": {
 		"title": "Skald Spells Levels 0-1",
@@ -2455,8 +2446,7 @@
 					[ "{spell/Yellow Sign}", 6, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Skald Spells", "main/spells_skald"] ]
+		]
 	},
 	"spells_skald_2": {
 		"title": "Skald Spells Level 2",
@@ -2742,8 +2732,7 @@
 					[ "{spell/Whispering Wind}", "transmutation", null, "air", "Sends a short message 1 mile/level.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Skald Spells", "main/spells_skald"] ]
+		]
 	},
 	"spells_skald_3": {
 		"title": "Skald Spells Level 3",
@@ -2963,8 +2952,7 @@
 					[ "{spell/Witness}", "divination", "scrying", null, "See through the target's eyes and ears.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Skald Spells", "main/spells_skald"] ]
+		]
 	},
 	"spells_skald_4": {
 		"title": "Skald Spells Level 4",
@@ -3126,8 +3114,7 @@
 					[ "{spell/Zone of Silence}", "illusion", "glamer", null, "Keeps eavesdroppers from overhearing you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Skald Spells", "main/spells_skald"] ]
+		]
 	},
 	"spells_skald_5_6": {
 		"title": "Skald Spells Levels 5-6",
@@ -3316,7 +3303,6 @@
 					[ "{spell/Yellow Sign}", 6, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Skald Spells", "main/spells_skald"] ]
+		]
 	}
 }

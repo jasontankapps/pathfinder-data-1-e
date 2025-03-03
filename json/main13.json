@@ -167,8 +167,7 @@
 					[ "{feat/Witch Knife}", "Your witch knife is as much an extension of your body as it is an extension of your power." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_meditation": {
 		"title": "Feats - Meditation",
@@ -197,8 +196,7 @@
 			"| {feat/Slow Time} | Wis 15, {feat/Combat Meditation}, {feat/Meditation Master}, character level 7th. | Gain a brief amount of haste after meditation. |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_weapon_mastery": {
 		"title": "Feats - Weapon Mastery",
@@ -230,8 +228,7 @@
 			"| {feat/Weapon Style Mastery} | Any two style feats from different styles, base attack bonus +6, weapon training class feature with a melee weapon. | Have two weapon styles active at once |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_armor_mastery": {
 		"title": "Feats - Armor Mastery",
@@ -257,8 +254,7 @@
 			"| {feat/Sprightly Armor} | Dex 13, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with light armor. | Gain your armor's enhancement bonus to initiative |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_shield_mastery": {
 		"title": "Feats - Shield Mastery",
@@ -287,8 +283,7 @@
 			"| {feat/Unhindering Shield} | {feat/Shield Focus}, base attack bonus +6 or fighter level 4th, proficiency with bucklers. | Treat your buckler hand as free for all purposes |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_item_mastery": {
 		"title": "Feats - Item Mastery",
@@ -322,8 +317,7 @@
 			"| {feat/Weapon Evoker Mastery} | Use Magic Device 2 ranks, base Fortitude saving throw bonus +3. | Amplify the power of a magic weapon that deals energy damage |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_monster": {
 		"title": "Feats - Monster",
@@ -378,8 +372,7 @@
 					[ "{feat/Wingover}", "Fly speed.", "Turn up to 180 degrees while flying once per round without the need of a fly check." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_teamwork": {
 		"title": "Feats - Teamwork",
@@ -599,8 +592,7 @@
 					[ "{feat/Wounded Paw Gambit}", "{feat/Broken Wing Gambit}, Bluff 5 ranks.", "When you use Broken Wing Gambit, nearby allies can attempt a ranged attack against the attacker" ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_betrayal": {
 		"title": "Feats - Betrayal",
@@ -621,8 +613,7 @@
 			"| {feat/Wild Flanking} | {feat/Power Attack}, base attack bonus +4. | Hit an enemy with stronger power attacks, but risk damaging your allies |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_coven": {
 		"title": "Feats - Teamwork, etc",
@@ -639,8 +630,7 @@
 			"| {feat/Metamagical Synergy} | {feat/Allied Spellcaster} | You and the other members of your coven can weave your spells together to great effect |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_trick": {
 		"title": "Feats - Mesmerist Tricks",
@@ -661,8 +651,7 @@
 			"| {feat/Swap Trick} | Mesmerist tricks class feature. | Switch which trick is implanted |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_stare": {
 		"title": "Feats - Mesmerist Stares",
@@ -693,8 +682,7 @@
 			"| {feat/Venomous Stare} | Mesmerist level 11th, painful stare class feature. | Target of painful stare is poisoned |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_story": {
 		"title": "Feats - Story",
@@ -798,8 +786,7 @@
 					[ "{feat/Wretched Curator}", "You must have purchased a scroll or spellbook containing a spell with the evil descriptor in a place where such dealings are illegal, or must have the Secret Society Inductee or Diabolical Upbringing background.", "Purchase evil items cheaper, bonus to checks to understand evil items" ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_style": {
 		"title": "Feats - Style",
@@ -917,8 +904,7 @@
 					[ "{feat/Wyvern Fury Style}", "{feat/Exotic Weapon Proficiency/ (whip)}, Acrobatics 3 ranks, brawler's flurry class feature or flurry of blows class feature.", "Use daggers and whips with your flurry." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_item_creation": {
 		"title": "Feats - Item Creation",
@@ -958,8 +944,7 @@
 			"| {feat/Scribe Scroll} | Caster level 1st. | Create magic scrolls |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_metamagic": {
 		"title": "Feats - Metamagic",
@@ -1070,8 +1055,7 @@
 					[ "{feat/Yai-Mimic Spell}", "Int 15, {feat/Still Spell}.", "Modify a ray spell to fire from your forehead, granting you brief regeneration" ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_grit": {
 		"title": "Feats - Grit",
@@ -1107,8 +1091,7 @@
 			"| {feat/Whip-Shot Deed} | Grit class feature or {feat/Amateur Gunslinger} feat, pistol-whip deed. | Fire your gun at the same time you use pistol-whip |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_panache": {
 		"title": "Feats - Panache",
@@ -1134,7 +1117,6 @@
 			"| {feat/Structural Strike} | Knowledge (engineering) 5 ranks, precise strike class feature or precise strike deed. | Use precise strike against creatures normally immune |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	}
 }

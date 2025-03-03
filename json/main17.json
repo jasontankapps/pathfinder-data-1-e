@@ -203,8 +203,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_animals": {
 		"title": "Animals",
@@ -535,8 +534,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_constructs": {
 		"title": "Constructs",
@@ -754,8 +752,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_dragons": {
 		"title": "Dragons",
@@ -973,8 +970,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_fey": {
 		"title": "Fey",
@@ -1139,7 +1135,6 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	}
 }

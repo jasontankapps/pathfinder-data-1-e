@@ -519,8 +519,7 @@
 				"initialColumn": 1
 			}
 		],
-		"topLink": [ "Magic Weapons", "rule/magic_weapons" ],
-		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
+		"topLink": [ "Magic Weapons", "rule/magic_weapons" ]
 	},
 	"magic_rings": {
 		"title": "Magic Rings",
@@ -770,8 +769,7 @@
 				"initialColumn": 1
 			}
 		],
-		"topLink": [ "Rings", "rule/rings" ],
-		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
+		"topLink": [ "Rings", "rule/rings" ]
 	},
 	"magic_rods": {
 		"title": "Magic Rods",
@@ -1042,8 +1040,7 @@
 				"initialColumn": 1
 			}
 		],
-		"topLink": [ "Rods", "rule/rods" ],
-		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
+		"topLink": [ "Rods", "rule/rods" ]
 	},
 	"magic_misc": {
 		"title": "Miscellaneous Magic Items",
@@ -1615,8 +1612,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
+		]
 	},
 	"magic_armor": {
 		"title": "Magic Armor",
@@ -1889,8 +1885,7 @@
 				"initialColumn": 2
 			}
 		],
-		"topLink": [ "Magic Armor", "rule/magic_armor" ],
-		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
+		"topLink": [ "Magic Armor", "rule/magic_armor" ]
 	},
 	"magic_artifacts": {
 		"title": "Artifacts",
@@ -2246,8 +2241,7 @@
 				"initialColumn": 0
 			}
 		],
-		"topLink": [ "Artifacts", "rule/artifacts" ],
-		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
+		"topLink": [ "Artifacts", "rule/artifacts" ]
 	},
 	"magic_cursed": {
 		"title": "Cursed Items",
@@ -2440,8 +2434,7 @@
 			"",
 			"::main[Vacuous Grimoire]{to=magic-wondrous/vacuous_grimoire}"
 		],
-		"topLink": [ "Cursed Magic Items", "rule/cursed_items" ],
-		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
+		"topLink": [ "Cursed Magic Items", "rule/cursed_items" ]
 	},
 	"magic_enhancements": {
 		"title": "Magic - Enhancements",
@@ -2812,8 +2805,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
+		]
 	},
 	"magic_staves": {
 		"title": "Magic Staves",
@@ -2947,7 +2939,6 @@
 				"initialColumn": 1
 			}
 		],
-		"topLink": [ "Staves", "rule/staves" ],
-		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
+		"topLink": [ "Staves", "rule/staves" ]
 	}
 }

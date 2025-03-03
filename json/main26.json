@@ -1235,8 +1235,7 @@
 			"You were trained from a young age to ambush the enemies of your order or organization, which makes you hard to trust for most outside your organization if they learn your affiliation. You gain a +1 trait bonus on attack rolls against flat-footed foes, as long as they have not seen you make an attack with this bonus before.",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_faith": {
 		"title": "Faith Traits",
@@ -2216,8 +2215,7 @@
 			"Your zeal is a danger to those of \"lesser\" faiths. While you have the destruction judgment active, you gain a +1 trait bonus on damage rolls when attacking a foe who can cast divine spells and worships a different deity than you.",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_social": {
 		"title": "Social Traits",
@@ -3616,8 +3614,7 @@
 			"You have acquired an unusual breadth of life experience - more than others of your age, race, or culture. Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result.",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_magic": {
 		"title": "Magic Traits",
@@ -4710,7 +4707,6 @@
 			"You narrowly escaped death when a Winter Witch punished you for supporting the Heralds. You gain cold resistance 5 against the first cold damage you take each day, and gain a +2 bonus on saving throws against the fear effects of creatures with the cold subtype.",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	}
 }

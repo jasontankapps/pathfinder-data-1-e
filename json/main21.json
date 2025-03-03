@@ -361,8 +361,7 @@
 					]}
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_conjuration": {
 		"title": "Conjuration Spells",
@@ -872,8 +871,7 @@
 					]}
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_divination": {
 		"title": "Divination Spells",
@@ -1183,8 +1181,7 @@
 					]}
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_enchantment": {
 		"title": "Enchantment Spells",
@@ -1557,7 +1554,6 @@
 					]}
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	}
 }

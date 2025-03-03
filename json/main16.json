@@ -1325,7 +1325,6 @@
 					[ "{feat/Wyvern Wing}", "{feat/Exotic Weapon Proficiency/ (whip)}, {feat/Wyvern Fury Style}, {feat/Wyvern Sting}, Acrobatics 10 ranks, brawler's flurry class feature or flurry of blows class feature.", "Make an additional 5ft step between attacks when using Wyvern Style" ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	}
 }

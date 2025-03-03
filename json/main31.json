@@ -323,8 +323,7 @@
 					[ "{spell/Wall of Bone}", 4, "necromancy", null, null, "Create a wall of bones that damages and grapples adjacent creatures", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_magus": {
 		"title": "All Magus Spells",
@@ -337,8 +336,7 @@
 			"::main[Magus Spells (Levels 4-6)]{endem=\"(164 spells)\" to=main/spells_magus_4_6}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_magus_0_1": {
 		"title": "Magus Spells Levels 0-1",
@@ -872,8 +870,7 @@
 					[ "{spell/Wall of Iron}", 6, "conjuration", "creation", null, "30 hp/four levels; can topple onto foes.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Magus Spells", "main/spells_magus"] ]
+		]
 	},
 	"spells_magus_2_3": {
 		"title": "Magus Spells Levels 2-3",
@@ -1130,8 +1127,7 @@
 					[ "{spell/Wind Wall}", 3, "evocation", null, "air", "Deflects arrows, smaller creatures, and gases.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Magus Spells", "main/spells_magus"] ]
+		]
 	},
 	"spells_magus_4_6": {
 		"title": "Magus Spells Levels 4-6",
@@ -1448,8 +1444,7 @@
 					[ "{spell/Wall of Iron}", 6, "conjuration", "creation", null, "30 hp/four levels; can topple onto foes.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Magus Spells", "main/spells_magus"] ]
+		]
 	},
 	"spells_occultist": {
 		"title": "All Occultist Spells",
@@ -1466,8 +1461,7 @@
 			"::main[Occultist Spells (Levels 5-6)]{endem=\"(135 spells)\" to=main/spells_occultist_5_6}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_occultist_0_1": {
 		"title": "Occultist Spells Levels 0-1",
@@ -1653,8 +1647,7 @@
 					[ "{spell/Youthful Appearance}", 1, "transmutation", "polymorph", null, "Target appears younger.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Occultist Spells", "main/spells_occultist"] ]
+		]
 	},
 	"spells_occultist_2": {
 		"title": "Occultist Spells Level 2",
@@ -1853,8 +1846,7 @@
 					[ "{spell/Wood Shape}", "transmutation", null, null, "Reshapes wooden objects to suit you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Occultist Spells", "main/spells_occultist"] ]
+		]
 	},
 	"spells_occultist_3": {
 		"title": "Occultist Spells Level 3",
@@ -2039,8 +2031,7 @@
 					[ "{spell/Witness}", "divination", "scrying", null, "See through the target's eyes and ears.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Occultist Spells", "main/spells_occultist"] ]
+		]
 	},
 	"spells_occultist_4": {
 		"title": "Occultist Spells Level 4",
@@ -2217,8 +2208,7 @@
 					[ "{spell/Wreath of Blades}", "abjuration", null, null, "Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Occultist Spells", "main/spells_occultist"] ]
+		]
 	},
 	"spells_occultist_5_6": {
 		"title": "Occultist Spells Levels 5-6",
@@ -2407,8 +2397,7 @@
 					[ "{spell/Wall of Iron}", 6, "conjuration", "creation", null, "30 hp/four levels; can topple onto foes.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Occultist Spells", "main/spells_occultist"] ]
+		]
 	},
 	"spells_mesmerist": {
 		"title": "All Mesmerist Spells",
@@ -2423,8 +2412,7 @@
 			"::main[Mesmerist Spells (Levels 5-6)]{endem=\"(99 spells)\" to=main/spells_mesmerist_5_6}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_mesmerist_0_1": {
 		"title": "Mesmerist Spells Levels 0-1",
@@ -2604,8 +2592,7 @@
 					[ "{spell/Wizened Appearance}", 1, "transmutation", "polymorph", null, "Make a target appear as an older version of itself.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mesmerist Spells", "main/spells_mesmerist"] ]
+		]
 	},
 	"spells_mesmerist_2": {
 		"title": "Mesmerist Spells Level 2",
@@ -2793,8 +2780,7 @@
 					[ "{spell/Whispering Wind}", "transmutation", null, "air", "Sends a short message 1 mile/level.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mesmerist Spells", "main/spells_mesmerist"] ]
+		]
 	},
 	"spells_mesmerist_3_4": {
 		"title": "Mesmerist Spells Levels 3-41",
@@ -3035,8 +3021,7 @@
 					[ "{spell/Zone of Silence}", 4, "illusion", "glamer", null, "Keeps eavesdroppers from overhearing you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mesmerist Spells", "main/spells_mesmerist"] ]
+		]
 	},
 	"spells_mesmerist_5_6": {
 		"title": "Mesmerist Spells Levels 0-1",
@@ -3187,7 +3172,6 @@
 					[ "{spell/What Grows Within}", 6, "necromancy", null, "evil", "Infect others with Xhamen-Dor's seeded infestation.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mesmerist Spells", "main/spells_mesmerist"] ]
+		]
 	}
 }

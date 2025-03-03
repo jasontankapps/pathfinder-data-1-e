@@ -16,8 +16,7 @@
 			"",
 			"::main[Witch Spells (Levels 7-9)]{endem=\"(165 spells)\" to=main/spells_witch_7_9}"
 		],
-		"noFinder": true,
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"noFinder": true
 	},
 	"spells_witch_0_1": {
 		"title": "Witch Spells Levels 0-1",
@@ -261,8 +260,7 @@
 					[ "{spell/Youthful Appearance}", 1, "transmutation", "polymorph", null, "Target appears younger.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Witch Spells", "main/spells_witch"] ]
+		]
 	},
 	"spells_witch_2": {
 		"title": "Witch Spells Level 2",
@@ -934,8 +932,7 @@
 					[ "{spell/Web Cloud}", "conjuration", "creation", null, "Create a cloud-like spread of flame-resistant webbing.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Witch Spells", "main/spells_witch"] ]
+		]
 	},
 	"spells_witch_3": {
 		"title": "Witch Spells Level 3",
@@ -1214,8 +1211,7 @@
 					[ "{spell/Woodland Rune}", "abjuration", null, null, "Triggered rune slows the movements of creatures in the area", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Witch Spells", "main/spells_witch"] ]
+		]
 	},
 	"spells_witch_4": {
 		"title": "Witch Spells Level 4",
@@ -1436,8 +1432,7 @@
 					[ "{spell/Web Cloud}", "conjuration", "creation", null, "Create a cloud-like spread of flame-resistant webbing.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Witch Spells", "main/spells_witch"] ]
+		]
 	},
 	"spells_witch_5_6": {
 		"title": "Witch Spells Levels 5-6",
@@ -1718,8 +1713,7 @@
 					[ "{spell/Wither Limb}", 6, "necromancy", null, null, "Make one of the creature's limbs useless.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Witch Spells", "main/spells_witch"] ]
+		]
 	},
 	"spells_witch_7_9": {
 		"title": "Witch Spells Levels 7-9",
@@ -1941,8 +1935,7 @@
 					[ "{spell/Yellow Sign}", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Witch Spells", "main/spells_witch"] ]
+		]
 	},
 	"spells_shaman": {
 		"title": "All Shaman Spells",
@@ -1961,8 +1954,7 @@
 			"::main[Shaman Spells (Levels 7-9)]{endem=\"(88 spells)\" to=main/spells_shaman_7_9}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_shaman_0_1": {
 		"title": "Shaman Spells Levels 0-1",
@@ -2137,8 +2129,7 @@
 					[ "{spell/Wave Shield}", 1, "abjuration", null, "water", "Water blunts one incoming attack or fire effect.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Shaman Spells", "main/spells_shaman"] ]
+		]
 	},
 	"spells_shaman_2": {
 		"title": "Shaman Spells Level 2",
@@ -2318,8 +2309,7 @@
 					[ "{spell/Wood Shape}", "transmutation", null, null, "Reshapes wooden objects to suit you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Shaman Spells", "main/spells_shaman"] ]
+		]
 	},
 	"spells_shaman_3": {
 		"title": "Shaman Spells Level 3",
@@ -2485,8 +2475,7 @@
 					[ "{spell/Woodland Rune}", "abjuration", null, null, "Triggered rune slows the movements of creatures in the area", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Shaman Spells", "main/spells_shaman"] ]
+		]
 	},
 	"spells_shaman_4": {
 		"title": "Shaman Spells Level 4",
@@ -2643,8 +2632,7 @@
 					[ "{spell/Wooden Wing Shield}", "transmutation", null, null, "Transmute your wings into a wooden shield-like barrier.", [ 1, "" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Shaman Spells", "main/spells_shaman"] ]
+		]
 	},
 	"spells_shaman_5_6": {
 		"title": "Shaman Spells Levels 5-6",
@@ -2821,8 +2809,7 @@
 					[ "{spell/Wither Limb}", 6, "necromancy", null, null, "Make one of the creature's limbs useless.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Shaman Spells", "main/spells_shaman"] ]
+		]
 	},
 	"spells_shaman_7_9": {
 		"title": "Shaman Spells Levels 7-9",
@@ -2964,7 +2951,6 @@
 					[ "{spell/Winds of Vengeance}", 9, "evocation", null, "air", "Gives you the ability to fly and attack with wind.", "V", [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Shaman Spells", "main/spells_shaman"] ]
+		]
 	}
 }

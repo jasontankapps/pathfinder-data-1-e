@@ -15,8 +15,7 @@
 			"::main[Cleric Spells (Level 5-6)]{endem=\"(230 spells)\" to=main/spells_cleric_5_6}",
 			"",
 			"::main[Cleric Spells (Levels 7-9)]{endem=\"(148 spells)\" to=main/spells_cleric_7_9}"
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_cleric_0_1": {
 		"title": "All Cleric Spells",
@@ -251,8 +250,7 @@
 					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
+		]
 	},
 	"spells_cleric_2": {
 		"title": "All Cleric Spells",
@@ -524,8 +522,7 @@
 					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
+		]
 	},
 	"spells_cleric_3": {
 		"title": "All Cleric Spells",
@@ -780,8 +777,7 @@
 					[ "{spell/Wrathful Mantle}", "evocation", null, "force, light", "Subject shines and gets +1/four levels on all saves.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
+		]
 	},
 	"spells_cleric_4": {
 		"title": "All Cleric Spells",
@@ -995,8 +991,7 @@
 					[ "{spell/Wrathful Weapon}", "transmutation", null, "see text", "Enhance a weapon with the anarchic, axiomatic, holy, or unholy special ability.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
+		]
 	},
 	"spells_cleric_5_6": {
 		"title": "All Cleric Spells",
@@ -1282,8 +1277,7 @@
 					[ "{spell/Word of Recall}", 6, "conjuration", "teleportation", null, "Teleports you back to designated place.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
+		]
 	},
 	"spells_cleric_7_9": {
 		"title": "All Cleric Spells",
@@ -1487,8 +1481,7 @@
 					[ "{spell/Yellow Sign}", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Cleric Spells", "main/spells_cleric"] ]
+		]
 	},
 	"spells_oracle": {
 		"title": "Oracle Spells",
@@ -1508,8 +1501,7 @@
 			"::main[Oracle Spells (Level 6-7)]{endem=\"(155 spells)\" to=main/spells_oracle_6_7}",
 			"",
 			"::main[Oracle Spells (Levels 8-9)]{endem=\"(90 spells)\" to=main/spells_oracle_8_9}"
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_oracle_0_1": {
 		"title": "Oracle Spells Levels 0-1",
@@ -1744,8 +1736,7 @@
 					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
+		]
 	},
 	"spells_oracle_2": {
 		"title": "Oracle Spells Level 2",
@@ -2018,8 +2009,7 @@
 					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
+		]
 	},
 	"spells_oracle_3": {
 		"title": "Oracle Spells Level 3",
@@ -2276,8 +2266,7 @@
 					[ "{spell/Wrathful Mantle}", "evocation", null, "force, light", "Subject shines and gets +1/four levels on all saves.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
+		]
 	},
 	"spells_oracle_4": {
 		"title": "Oracle Spells Level 4",
@@ -2494,8 +2483,7 @@
 					[ "{spell/Wrathful Weapon}", "transmutation", null, "see text", "Enhance a weapon with the anarchic, axiomatic, holy, or unholy special ability.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]				
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
+		]
 	},
 	"spells_oracle_5": {
 		"title": "Oracle Spells Level 5",
@@ -2681,8 +2669,7 @@
 					[ "{spell/Wall of Stone}", "conjuration", "creation", "earth", "Creates a stone wall that can be shaped.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
+		]
 	},
 	"spells_oracle_6_7": {
 		"title": "Oracle Spells Levels 6-7",
@@ -2894,8 +2881,7 @@
 					[ "{spell/Word of Chaos}", 7, "evocation", null, "chaotic, sonic", "Kills, confuses, stuns, or deafens nonchaotic subjects.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
+		]
 	},
 	"spells_oracle_8_9": {
 		"title": "Oracle Spells Levels 8-9",
@@ -3042,7 +3028,6 @@
 					[ "{spell/Yellow Sign}", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]				
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Oracle Spells", "main/spells_oracle"] ]
+		]
 	}
 }

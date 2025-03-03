@@ -13,10 +13,6 @@
 			"::main[Warpriest Spells (Level 4)]{endem=\"(158 spells)\" to=main/spells_warpriest_4}",
 			"",
 			"::main[Warpriest Spells (Levels 5-6)]{endem=\"(229 spells)\" to=main/spells_warpriest_5_6}"
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"]
 		]
 	},
 	"spells_warpriest_0_1": {
@@ -249,11 +245,6 @@
 					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Warpriest Spells", "main/spells_warpriest"]
 		]
 	},
 	"spells_warpriest_2": {
@@ -524,11 +515,6 @@
 					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Warpriest Spells", "main/spells_warpriest"]
 		]
 	},
 	"spells_warpriest_3": {
@@ -781,11 +767,6 @@
 					[ "{spell/Wrathful Mantle}", "evocation", null, "force, light", "Subject shines and gets +1/four levels on all saves.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Warpriest Spells", "main/spells_warpriest"]
 		]
 	},
 	"spells_warpriest_4": {
@@ -997,11 +978,6 @@
 					[ "{spell/Wrathful Weapon}", "transmutation", null, "see text", "Enhance a weapon with the anarchic, axiomatic, holy, or unholy special ability.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Warpriest Spells", "main/spells_warpriest"]
 		]
 	},
 	"spells_warpriest_5_6": {
@@ -1285,11 +1261,6 @@
 					[ "{spell/Word of Recall}", 6, "conjuration", "teleportation", null, "Teleports you back to designated place.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Warpriest Spells", "main/spells_warpriest"]
 		]
 	},
 	"spells_bard": {
@@ -1304,8 +1275,7 @@
 			"::main[Bard Spells (Levels 3-4)]{endem=\"(284 spells)\" to=main/spells_bard_3_4}",
 			"",
 			"::main[Bard Spells (Levels 5-6)]{endem=\"(138 spells)\" to=main/spells_bard_5_6}"
-		],
-		"previous": [ ["Main", "main/main"] ]
+		]
 	},
 	"spells_bard_0_1": {
 		"title": "Bard Spells Levels 0-1",
@@ -1566,11 +1536,6 @@
 					[ "{spell/Youthful Appearance}", 1, "transmutation", "polymorph", null, "Target appears younger.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Bard Spells", "main/spells_bard"]
 		]
 	},
 	"spells_bard_2": {
@@ -1860,11 +1825,6 @@
 					[ "{spell/Whispering Wind}", "transmutation", null, "air", "Sends a short message 1 mile/level.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Bard Spells", "main/spells_bard"]
 		]
 	},
 	"spells_bard_3_4": {
@@ -2201,11 +2161,6 @@
 					[ "{spell/Zone of Silence}", 4, "illusion", "glamer", null, "Keeps eavesdroppers from overhearing you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Bard Spells", "main/spells_bard"]
 		]
 	},
 	"spells_bard_5_6": {
@@ -2396,11 +2351,6 @@
 					[ "{spell/Yellow Sign}", 6, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Bard Spells", "main/spells_bard"]
 		]
 	},
 	"occult_rituals": {
@@ -2508,7 +2458,6 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	}
 }

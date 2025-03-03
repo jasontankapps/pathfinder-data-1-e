@@ -36,7 +36,7 @@ const BookmarkPage: React.FC<{}> = () => {
 
 	const [disabled, setDisabled] = useState(true);
 	const dispatch = useAppDispatch();
-	const defaultTitle = c.slice(0,1).toUpperCase + c.slice(1);
+	const defaultTitle = c.slice(0,1).toUpperCase() + c.slice(1);
 	const [currentTitle, setCurrentTitle] = useState(title);
 	const [path, navigate] = useLocation();
 	const titleInput = useRef<HTMLIonInputElement>(null);

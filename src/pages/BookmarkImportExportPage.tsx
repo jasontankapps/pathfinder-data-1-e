@@ -242,7 +242,7 @@ const ImportModal: FC<ModalProps> = (props) => {
 							</IonContent>
 						</IonModal>
 						<IonLabel className="picker" onClick={() => setOpen(true)}>Overwrite <IonText className={`pickedText color-${colors[order[colorToImportAs]].color}`}>{colors[order[colorToImportAs]].title} ({order[colorToImportAs]})</IonText> Bookmarks</IonLabel>
-						<IonButton slot="start" color="danger" onClick={doImport}>
+						<IonButton slot="start" color="primary" onClick={doImport}>
 							<IonLabel>Import</IonLabel>
 							<IonIcon icon="/icons/input.svg" slot="end" />
 						</IonButton>

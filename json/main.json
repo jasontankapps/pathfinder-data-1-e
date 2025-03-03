@@ -28,8 +28,7 @@
 			"::main[About Pf Data 1e]{rev to=about}",
 			"",
 			"::main[Open Game License]{rev to=main/ogc}"
-		],
-		"previous": []
+		]
 	},
 	"rules": {
 		"title": "All Rules",
@@ -320,8 +319,7 @@
 			"::main[Simplified Spellcasting]{to=rule/simplified_spellcasting}",
 			"",
 			"::main[Words of Power]{to=rule/words_of_power}"
-		],
-		"previous": [ ["Main", "main/main"] ]
+		]
 	},
 	"spells": {
 		"title": "Spells",
@@ -421,8 +419,7 @@
 			"::mainheader[Occult Rituals]",
 			"",
 			"::main[Occult Rituals]{endem=\"(81 rituals)\" to=main/occult_rituals}"
-		],
-		"previous": [ ["Main", "main/main"] ]
+		]
 	},
 	"races": {
 		"title": "Races",
@@ -746,8 +743,7 @@
 			"",
 			":::"
 		],
-		"searchgroup": "race",
-		"previous": [ ["Main", "main/main"] ]
+		"searchgroup": "race"
 	},
 	"classes": {
 		"title": "Classes",
@@ -1004,8 +1000,7 @@
 			"| [Winter Witch](/prestigeclass/winter_witch) | Master of ice and snow. |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"] ]
+		]
 	},
 	"magic": {
 		"title": "Magic Items",
@@ -1036,8 +1031,7 @@
 			"",
 			"::main[View Cursed Items only]{end=&#x27A4; to=main/magic_cursed}"
 		],
-		"searchgroup": "magic",
-		"previous": [ ["Main", "main/main"] ]
+		"searchgroup": "magic"
 	},
 	"magic_wondrous": {
 		"title": "Magic Items",
@@ -1067,8 +1061,7 @@
 			"",
 			"::main[View Items Q-Z]{endem=\"(383 items)\" to=main/magic_wondrous_q_z}"
 		],
-		"searchgroup": "magic",
-		"previous": [ ["Main", "main/main"], ["Magic Items", "main/magic"] ]
+		"searchgroup": "magic"
 	},
 	"skills": {
 		"title": "Skills",
@@ -1147,8 +1140,7 @@
 				"initialColumn": 0,
 				"nullValue": ""
 			}
-		],
-		"previous": [ ["Main", "main/main"] ]
+		]
 	},
 	"spell_definitions": {
 		"title": "Spell Definitions",
@@ -1263,16 +1255,35 @@
 			"::main[Sonic]{to=spelldef/sonic}",
 			"",
 			"::main[Water]{to=spelldef/water}"
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"umr": {
 		"title": "Universal Monster Rules",
 		"sources": [],
 		"searchgroup": "rule",
 		"description": [
-			"::mainheader[Creature Types]",
+			"::main[Creature Types]{endem=\"(13 types)\" to=main/umr_types}",
 			"",
+			"::main[Creature Subtypes]{endem=\"(84 subtypes)\" to=main/umr_subtypes}",
+			"",
+			"::main[All Univeral Monster Rules]{endem=\"(133 rules)\" to=main/umr_all}",
+			"",
+			"::mainheader[Rules by Location in Creature Entry]",
+			"",
+			"::main[Basic Info]{endem=\"(20 rules)\" to=main/umr_basic}",
+			"",
+			"::main[Offense]{endem=\"(55 rules)\" to=main/umr_offense}",
+			"",
+			"::main[Defense]{endem=\"(37 rules)\" to=main/umr_defense}",
+			"",
+			"::main[Statistics]{endem=\"(22 rules)\" to=main/umr_statistics}"
+		]
+	},
+	"umr_types": {
+		"title": "Creature Types",
+		"sources": [],
+		"searchgroup": "rule",
+		"description": [
 			"::main[Aberration]{to=type/aberration}",
 			"",
 			"::main[Animal]{to=type/animal}",
@@ -1297,10 +1308,14 @@
 			"",
 			"::main[Undead]{to=type/undead}",
 			"",
-			"::main[Vermin]{to=type/vermin}",
-			"",
-			"::mainheader[Creature Subtypes]",
-			"",
+			"::main[Vermin]{to=type/vermin}"
+		]
+	},
+	"umr_subtypes": {
+		"title": "Creature Subtypes",
+		"sources": [],
+		"searchgroup": "rule",
+		"description": [
 			"::main[Adlet]{to=subtype/adlet}",
 			"",
 			"::main[Aeon]{to=subtype/aeon}",
@@ -1467,10 +1482,14 @@
 			"",
 			"::main[Wayang]{to=subtype/wayang}",
 			"",
-			"::main[Wild Hunt]{to=subtype/wild_hunt}",
-			"",
-			"::mainheader[Rules]",
-			"",
+			"::main[Wild Hunt]{to=subtype/wild_hunt}"
+		]
+	},
+	"umr_all": {
+		"title": "All Universal Monster Rules",
+		"sources": [],
+		"searchgroup": "rule",
+		"description": [
 			"::main[Ability Damage and Drain (Ex or Su)]{to=umr/ability_damage_and_drain}",
 			"",
 			"::main[All-Around Vision (Ex)]{to=umr/all_around_vision}",
@@ -1736,8 +1755,303 @@
 			"::main[Whirlwind (Su)]{to=umr/whirlwind}",
 			"",
 			"::main[X-Ray Vision (Su; Mythic)]{to=umr/x_ray_vision}"
-		],
-		"previous": [ ["Main", "main/main"], [ "All Rules", "main/rules"] ]
+		]
+	},
+	"umr_basic": {
+		"title": "UMR - Basic Info",
+		"tags": "universal monster rules",
+		"sources": [],
+		"searchgroup": "rule",
+		"description": [
+			"::main[All-Around Vision (Ex)]{to=umr/all_around_vision}",
+			"",
+			"::main[Darkvision (Ex or Su)]{to=umr/darkvision}",
+			"",
+			"::main[Dual Initiative (Ex; Mythic)]{to=umr/dual_initiative}",
+			"",
+			"::main[Emotion Aura (Su)]{to=umr/emotion_aura}",
+			"",
+			"::main[Fear (Su or Sp)]{to=umr/fear}",
+			"",
+			"::main[Frightful Presence (Ex)]{to=umr/frightful_presence}",
+			"",
+			"::main[Greensight (Su)]{to=umr/greensight}",
+			"",
+			"::main[Keen Scent (Ex)]{to=umr/keen_scent}",
+			"",
+			"::main[Lifesense (Su)]{to=umr/lifesense}",
+			"",
+			"::main[Low-Light Vision (Ex)]{to=umr/low_light_vision}",
+			"",
+			"::main[Mental Static Aura (Su)]{to=umr/mental_static_aura}",
+			"",
+			"::main[Mistsight (Ex)]{to=umr/mistsight}",
+			"",
+			"::main[Scent (Ex)]{to=umr/scent}",
+			"",
+			"::main[See in Darkness (Su)]{to=umr/see_in_darkness}",
+			"",
+			"::main[Stench (Ex)]{to=umr/stench}",
+			"",
+			"::main[Surge (Su; Mythic)]{to=umr/surge}",
+			"",
+			"::main[Thoughtsense (Su)]{to=umr/thoughtsense}",
+			"",
+			"::main[Tremorsense (Ex)]{to=umr/tremorsense}",
+			"",
+			"::main[Unnatural Aura (Su)]{to=umr/unnatural_aura}",
+			"",
+			"::main[X-Ray Vision (Su; Mythic)]{to=umr/x_ray_vision}"
+		]
+	},
+	"umr_offense": {
+		"title": "UMR - Offense Info",
+		"tags": "universal monster rules",
+		"sources": [],
+		"searchgroup": "rule",
+		"description": [
+			"::main[Ability Damage and Drain (Ex or Su)]{to=umr/ability_damage_and_drain}",
+			"",
+			"::main[Amazing Initiative (Ex; Mythic)]{to=umr/amazing_initiative}",
+			"",
+			"::main[Attach (Ex)]{to=umr/attach}",
+			"",
+			"::main[Bleed (Ex)]{to=umr/bleed}",
+			"",
+			"::main[Blood Drain (Ex)]{to=umr/blood_drain}",
+			"",
+			"::main[Blood Rage (Ex)]{to=umr/blood_rage}",
+			"",
+			"::main[Breath Weapon (Su)]{to=umr/breath_weapon}",
+			"",
+			"::main[Burn (Ex)]{to=umr/burn}",
+			"",
+			"::main[Capsize (Ex)]{to=umr/capsize}",
+			"",
+			"::main[Constrict (Ex)]{to=umr/constrict}",
+			"",
+			"::main[Curse (Su)]{to=umr/curse}",
+			"",
+			"::main[Curse of Lycanthropy (Su)]{to=umr/curse_of_lycanthropy}",
+			"",
+			"::main[Disease (Ex or Su)]{to=umr/disease}",
+			"",
+			"::main[Dragon Fury (Su; Mythic)]{to=umr/dragon_fury}",
+			"",
+			"::main[Earth Glide (Ex)]{to=umr/earth_glide}",
+			"",
+			"::main[Energy Drain (Su)]{to=umr/energy_drain}",
+			"",
+			"::main[Engulf (Ex)]{to=umr/engulf}",
+			"",
+			"::main[Entrap (Ex or Su)]{to=umr/entrap}",
+			"",
+			"::main[Fast Swallow (Ex)]{to=umr/fast_swallow}",
+			"",
+			"::main[Fear (Su or Sp)]{to=umr/fear}",
+			"",
+			"::main[Feral Savagery (Su; Mythic)]{to=umr/feral_savagery}",
+			"",
+			"::main[Flight (Ex or Su)]{to=umr/flight}",
+			"",
+			"::main[Gaze (Su)]{to=umr/gaze}",
+			"",
+			"::main[Grab (Ex)]{to=umr/grab}",
+			"",
+			"::main[Heat (Ex)]{to=umr/heat}",
+			"",
+			"::main[Jet (Ex)]{to=umr/jet}",
+			"",
+			"::main[Lingering Breath (Su; Mythic)]{to=umr/lingering_breath}",
+			"",
+			"::main[Multiweapon Mastery (Ex)]{to=umr/multiweapon_mastery}",
+			"",
+			"::main[Mythic Magic (Su; Mythic)]{to=umr/mythic_magic}",
+			"",
+			"::main[Mythic Power (Su; Mythic)]{to=umr/mythic_power}",
+			"",
+			"::main[Natural Attacks]{to=umr/natural_attacks}",
+			"",
+			"::main[Paralysis (Ex or Su)]{to=umr/paralysis}",
+			"",
+			"::main[Poison (Ex or Su)]{to=umr/poison}",
+			"",
+			"::main[Pounce (Ex)]{to=umr/pounce}",
+			"",
+			"::main[Powerful Charge (Ex)]{to=umr/powerful_charge}",
+			"",
+			"::main[Psychic Magic (Sp)]{to=umr/psychic_magic}",
+			"",
+			"::main[Pull (Ex)]{to=umr/pull}",
+			"",
+			"::main[Push (Ex)]{to=umr/push}",
+			"",
+			"::main[Rake (Ex)]{to=umr/rake}",
+			"",
+			"::main[Rend (Ex)]{to=umr/rend}",
+			"",
+			"::main[Rock Throwing (Ex)]{to=umr/rock_throwing}",
+			"",
+			"::main[Sand Glide (Ex; Mythic)]{to=umr/sand_glide}",
+			"",
+			"::main[Simple Arcane Spellcasting (Mythic)]{to=umr/simple_arcane_spellcasting}",
+			"",
+			"::main[Simple Divine Spellcasting (Mythic)]{to=umr/simple_divine_spellcasting}",
+			"",
+			"::main[Smother (Ex)]{to=umr/smother}",
+			"",
+			"::main[Spell-Like Abilities (Sp)]{to=umr/spell_like_abilities}",
+			"",
+			"::main[Spells]{to=umr/spells}",
+			"",
+			"::main[Steal (Ex; Mythic)]{to=umr/steal}",
+			"",
+			"::main[Strangle (Ex)]{to=umr/strangle}",
+			"",
+			"::main[Summon (Sp)]{to=umr/summon}",
+			"",
+			"::main[Swallow Whole (Ex)]{to=umr/swallow_whole}",
+			"",
+			"::main[Trample (Ex)]{to=umr/trample}",
+			"",
+			"::main[Trip (Ex)]{to=umr/trip}",
+			"",
+			"::main[Web (Ex)]{to=umr/web}",
+			"",
+			"::main[Whirlwind (Su)]{to=umr/whirlwind}"
+		]
+	},
+	"umr_defense": {
+		"title": "UMR - Defense Info",
+		"tags": "universal monster rules",
+		"sources": [],
+		"searchgroup": "rule",
+		"description": [
+			"::main[All-Around Vision (Ex)]{to=umr/all_around_vision}",
+			"",
+			"::main[Amorphous (Ex)]{to=umr/amorphous}",
+			"",
+			"::main[Archdevil Traits (Ex, Sp, or Su)]{to=umr/archdevil_traits}",
+			"",
+			"::main[Block Attacks (Ex; Mythic)]{to=umr/block_attacks}",
+			"",
+			"::main[Channel Resistance (Ex)]{to=umr/channel_resistance}",
+			"",
+			"::main[Construct Traits (Ex)]{to=umr/construct_traits}",
+			"",
+			"::main[Damage Reduction (Ex or Su)]{to=umr/damage_reduction}",
+			"",
+			"::main[Daemonic Harbinger Traits (Su)]{to=umr/daemonic_harbinger_traits}",
+			"",
+			"::main[Demon Lord Traits (Ex, Sp, or Su)]{to=umr/demon_lord_traits}",
+			"",
+			"::main[Dragon Blood (Su; Mythic)]{to=umr/dragon_blood}",
+			"",
+			"::main[Empyreal Lord Traits (Ex, Sp, or Su)]{to=umr/empyreal_lord_traits}",
+			"",
+			"::main[Fast Healing (Ex)]{to=umr/fast_healing}",
+			"",
+			"::main[Ferocity (Ex)]{to=umr/ferocity}",
+			"",
+			"::main[Fortification (Ex)]{to=umr/fortification}",
+			"",
+			"::main[Hardness (Ex)]{to=umr/hardness}",
+			"",
+			"::main[Horseman Traits (Ex, Sp, or Su)]{to=umr/horseman_traits}",
+			"",
+			"::main[Immunity (Ex or Su)]{to=umr/immunity}",
+			"",
+			"::main[Incorporeal (Ex)]{to=umr/incorporeal}",
+			"",
+			"::main[Light Blindness (Ex)]{to=umr/light_blindness}",
+			"",
+			"::main[Light Sensitivity (Ex)]{to=umr/light_sensitivity}",
+			"",
+			"::main[Natural Invisibility (Ex or Su)]{to=umr/natural_invisibility}",
+			"",
+			"::main[Negative Energy Affinity (Ex)]{to=umr/negative_energy_affinity}",
+			"",
+			"::main[Ooze Traits (Ex)]{to=umr/ooze_traits}",
+			"",
+			"::main[Plant Traits (Ex)]{to=umr/plant_traits}",
+			"",
+			"::main[Poisonous Blood (Ex; Mythic)]{to=umr/poisonous_blood}",
+			"",
+			"::main[Psychic Resilience (Ex)]{to=umr/psychic_resilience}",
+			"",
+			"::main[Psychopomp Usher Traits]{to=umr/psychopomp_usher_traits}",
+			"",
+			"::main[Qlippoth Lord Traits (Ex, Sp, or Su)]{to=umr/qlippoth_lord_traits}",
+			"",
+			"::main[Regeneration (Ex)]{to=umr/regeneration}",
+			"",
+			"::main[Resistance (Ex)]{to=umr/resistance}",
+			"",
+			"::main[Rock Catching (Ex)]{to=umr/rock_catching}",
+			"",
+			"::main[Spell Resistance (Ex)]{to=umr/spell_resistance}",
+			"",
+			"::main[Split (Ex)]{to=umr/split}",
+			"",
+			"::main[Sunlight Powerlessness (Ex)]{to=umr/sunlight_powerlessness}",
+			"",
+			"::main[Undead Traits (Ex)]{to=umr/undead_traits}",
+			"",
+			"::main[Unstoppable (Ex; Mythic)]{to=umr/unstoppable}",
+			"",
+			"::main[Vulnerabilities (Ex or Su)]{to=umr/vulnerabilities}"
+		]
+	},
+	"umr_statistics": {
+		"title": "UMR - Statistics Info",
+		"tags": "universal monster rules",
+		"sources": [],
+		"searchgroup": "rule",
+		"description": [
+			"::main[Amphibious (Ex)]{to=umr/amphibious}",
+			"",
+			"::main[Change Shape (Su)]{to=umr/change_shape}",
+			"",
+			"::main[Compression (Ex)]{to=umr/compression}",
+			"",
+			"::main[Display of Strength (Su; Mythic)]{to=umr/display_of_strength}",
+			"",
+			"::main[Distraction (Ex)]{to=umr/distraction}",
+			"",
+			"::main[Dragon Cantrips (Su; Mythic)]{to=umr/dragon_cantrips}",
+			"",
+			"::main[Formian Traits (Ex or Su)]{to=umr/formian_traits}",
+			"",
+			"::main[Freeze (Ex)]{to=umr/freeze}",
+			"",
+			"::main[Hold Breath (Ex)]{to=umr/hold_breath}",
+			"",
+			"::main[Lycanthropic Empathy (Ex)]{to=umr/lycanthropic_empathy}",
+			"",
+			"::main[Mythic Immortality (Su; Mythic)]{to=umr/mythic_immortality}",
+			"",
+			"::main[No Breath (Ex)]{to=umr/no_breath}",
+			"",
+			"::main[Plantbringer (Su; Mythic)]{to=umr/plantbringer}",
+			"",
+			"::main[Powerful Blows (Ex; Mythic)]{to=umr/powerful_blows}",
+			"",
+			"::main[Psychic Resilience (Ex)]{to=umr/psychic_resilience}",
+			"",
+			"::main[Recuperation (Ex; Mythic)]{to=umr/recuperation}",
+			"",
+			"::main[Second Save (Ex; Mythic)]{to=umr/second_save}",
+			"",
+			"::main[Sound Mimicry (Ex)]{to=umr/sound_mimicry}",
+			"",
+			"::main[Telepathy (Su)]{to=umr/telepathy}",
+			"",
+			"::main[Undersized Weapons (Ex)]{to=umr/undersized_weapons}",
+			"",
+			"::main[Water Breathing (Ex)]{to=umr/water_breathing}",
+			"",
+			"::main[Water Dependency (Ex)]{to=umr/water_dependency}"
+		]
 	},
 	"monsters": {
 		"title": "Monsters and NPCs",
@@ -1846,8 +2160,7 @@
 			"::main[Barbarians, Fighters, Monks, Rogues]{ind to=main/npcs_other_core}",
 			"",
 			"::main[Other Classes]{ind to=main/npcs_other}"
-		],
-		"previous": [ ["Main", "main/main"] ]
+		]
 	},
 	"monster_families": {
 		"title": "Monster Families",
@@ -2117,8 +2430,7 @@
 			"::main[Wild Hunt]{to=family/wild_hunt}",
 			"",
 			"::main[Wysp]{to=family/wysp}"
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monster_templates": {
 		"title": "Monster Templates",
@@ -2314,8 +2626,7 @@
 					[ "{template/Zombie Lord}", [1, "+1"], [1, "X"], [2, ""], [2, ""], [2, ""] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"haunts": {
 		"title": "Haunts",
@@ -2372,14 +2683,9 @@
 			"| [Soul Vortex](/haunt/soul_vortex) | 19 |",
 			"| [Twisted Wish](/haunt/twisted_wish) | 20 |",
 			"",
+			">*Back to {rule/Haunts/ (Rules)}*",
+			"",
 			":::"
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Gamemastery", "rule/gamemastery"],
-			["Gamemastery Guide", "rule/gamemastery_guide"],
-			["Advanced Topics", "rule/advanced_topics"],
-			["Haunts (Rules)", "rule/haunts"]
 		]
 	},
 	"corruptions": {
@@ -2408,19 +2714,21 @@
 			"| [Shadowbound](/corruption/shadowbound) | Darkness and fear are all that guide you. As the shadow consumes you, you are becoming a gaunt caricature of your former self, emptied of life and color. |",
 			"| [Vampirism](/corruption/vampirism) | You salivate when blood is spilled, and struggle against the urge to sink your teeth into the necks of friends and innocents. |",
 			"",
+			">*Back to {rule/Corruption/ (Rules)}*",
+			"",
 			":::"
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Gamemastery", "rule/gamemastery"],
-			["Horror Rules", "rule/horror_rules"],
-			["Corruption (Rules)", "rule/corruption"]
 		]
 	},
 	"drugs": {
 		"title": "Drugs",
 		"sources": [],
 		"description": [
+			":::item",
+			"",
+			">*Back to {rule/Drugs and Addiction/ (Rules)}",
+			"",
+			":::",
+			"",
 			":::item",
 			"",
 			"{table0}",
@@ -2471,13 +2779,6 @@
 				],
 				"initialColumn": 4
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Gamemastery", "rule/gamemastery"],
-			["Gamemastery Guide", "rule/gamemastery_guide"],
-			["Advanced Topics", "rule/advanced_topics"],
-			["Drugs and Addiction", "rule/drugs_and_addiction"]
 		]
 	},
 	"ogc": {
@@ -3062,8 +3363,7 @@
 			"**Paizo Inc.:** The following items are hereby identified as Product Identity, as defined in the Open Game License version 1.0a, Section 1(e), and are not Open Content: All trademarks, registered trademarks, proper names (characters, deities, etc.), dialogue, plots, storylines, locations, characters, artwork, and trade dress. (Elements that have previously been designated as Open Game Content or are in the public domain are not included in this declaration.)",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"] ]
+		]
 	},
 	"cheatsheet": {
 		"title": "Cheatsheet",
@@ -3184,7 +3484,6 @@
 			"",
 			":::"
 		],
-		"searchgroup": "rule",
-		"previous": [ ["Main", "main/main"] ]
+		"searchgroup": "rule"
 	}
 }

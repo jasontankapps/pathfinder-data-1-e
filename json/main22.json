@@ -396,8 +396,7 @@
 					]}
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_illusion": {
 		"title": "Illusion Spells",
@@ -662,8 +661,7 @@
 					]}
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_necromancy": {
 		"title": "Necromancy Spells",
@@ -1025,8 +1023,7 @@
 					]}
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_transmutation": {
 		"title": "Transmutation Spells",
@@ -1867,7 +1864,6 @@
 					]}
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	}
 }

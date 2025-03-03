@@ -343,8 +343,7 @@
 					[ "{spell/Symbol of Healing}", 4, "conjuration", "healing", null, "Triggered rune heals living creatures.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_alchemist": {
 		"title": "Alchemist Spells",
@@ -354,8 +353,7 @@
 			"::main[Alchemist Formulae (Levels 1-2)]{endem=\"(184 formulae)\" to=main/spells_alchemist_1_2}",
 			"",
 			"::main[Alchemist Formulae (Levels 3-6)]{endem=\"(224 formulae)\" to=main/spells_alchemist_3_6}"
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_alchemist_1_2": {
 		"title": "Alchemist Formulae Levels 1-2",
@@ -587,11 +585,6 @@
 					[ "{spell/Waters of Lamashtu}", 2, "conjuration", "creation", null, "Create a poison which looks like clean and pure water.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Alchemist Formulae", "main/spells_alchemist"]
 		]
 	},
 	"spells_alchemist_3_6": {
@@ -863,11 +856,6 @@
 					[ "{spell/Wind Walk}", 6, "transmutation", null, "air", "You and your allies turn vaporous and travel fast.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [
-			["Main", "main/main"],
-			["Spells", "main/spells"],
-			["Alchemist Formulae", "main/spells_alchemist"]
 		]
 	},
 	"spells_spiritualist": {
@@ -881,8 +869,7 @@
 			"::main[Spiritualist Spells (Levels 5-6)]{endem=\"(108 spells)\" to=main/spells_spiritualist_5_6}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_spiritualist_0_2": {
 		"title": "Spiritualist Spells Levels 0-2",
@@ -1062,8 +1049,7 @@
 					[ "{spell/With the Wind}", 2, "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Spiritualist Spells", "main/spells_spiritualist"] ]
+		]
 	},
 	"spells_spiritualist_3_4": {
 		"title": "Spiritualist Spells Levels 3-4",
@@ -1269,8 +1255,7 @@
 					[ "{spell/Wall of Bone}", 4, "necromancy", null, null, "Create a wall of bones that damages and grapples adjacent creatures", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Spiritualist Spells", "main/spells_spiritualist"] ]
+		]
 	},
 	"spells_spiritualist_5_6": {
 		"title": "Spiritualist Spells Levels 5-6",
@@ -1428,8 +1413,7 @@
 					[ "{spell/Wither Limb}", 6, "necromancy", null, null, "Make one of the creature's limbs useless.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Spiritualist Spells", "main/spells_spiritualist"] ]
+		]
 	},
 	"spells_bloodrager": {
 		"title": "All Bloodrager Spells",
@@ -1813,8 +1797,7 @@
 					[ "{spell/Wreath of Blades}", 4, "abjuration", null, null, "Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_summoner": {
 		"title": "All Summoner Spells",
@@ -2274,7 +2257,6 @@
 					[ "{spell/Whip of Ants}", 6, "conjuration", "summoning", null, "Create a whip made of army ants.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	}
 }

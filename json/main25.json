@@ -13,8 +13,7 @@
 			"::main[View Deities by Domain]{to=main/faiths_domains}",
 			"",
 			"::main[View Deities by Subdomain]{to=main/faiths_subdomains}"
-		],
-		"previous": [ ["Main", "main/main"] ]
+		]
 	},
 	"faiths_all": {
 		"title": "All Deities",
@@ -544,8 +543,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Deities and Faiths", "main/faiths"] ]
+		]
 	},
 	"faiths_pantheons": {
 		"title": "Deities/Faiths by Pantheon",
@@ -612,8 +610,7 @@
 			"",
 			":::"
 		],
-		"searchgroup": "faith",
-		"previous": [ ["Main", "main/main"], ["Deities and Faiths", "main/faiths"] ]
+		"searchgroup": "faith"
 	},
 	"faiths_domains": {
 		"title": "Deities/Faiths by Domain",
@@ -671,8 +668,7 @@
 			"",
 			":::"
 		],
-		"searchgroup": "faith",
-		"previous": [ ["Main", "main/main"], ["Deities and Faiths", "main/faiths"] ]
+		"searchgroup": "faith"
 	},
 	"faiths_subdomains": {
 		"title": "Deities/Faiths by Subdomains",
@@ -834,8 +830,7 @@
 			"",
 			":::"
 		],
-		"searchgroup": "faith",
-		"previous": [ ["Main", "main/main"], ["Deities and Faiths", "main/faiths"] ]
+		"searchgroup": "faith"
 	},
 	"faiths_alignments": {
 		"title": "Deities/Faiths by Alignment",
@@ -869,7 +864,6 @@
 			"| Varies | {faith/Wendo/ (Juju)} |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Deities and Faiths", "main/faiths"] ]
+		]
 	}
 }

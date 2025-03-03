@@ -280,8 +280,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_monstrous_humanoids": {
 		"title": "Monstrous Humanoids",
@@ -466,8 +465,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_plants": {
 		"title": "Plants",
@@ -621,8 +619,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_undead": {
 		"title": "Undead",
@@ -878,8 +875,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_vermin": {
 		"title": "Vermin",
@@ -1066,8 +1062,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_aquatic": {
 		"title": "Aquatic Monsters",
@@ -1360,8 +1355,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_incorporeal": {
 		"title": "Incorporeal Monsters",
@@ -1477,7 +1471,6 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	}
 }

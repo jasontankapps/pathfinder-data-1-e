@@ -22,8 +22,7 @@
 			"::main[Sorcerer Spells (Levels 8-9)]{endem=\"(148 spells)\" to=main/spells_sorcerer_8_9}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_sorcerer_0": {
 		"title": "Sorcerer Spells Level 0",
@@ -119,8 +118,7 @@
 					[ "{spell/Vacuous Vessel}", "illusion", "glamer", null, "Make a single container appear empty.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Sorcerer Spells", "main/spells_sorcerer"] ]
+		]
 	},
 	"spells_sorcerer_1": {
 		"title": "Sorcerer Spells Level 1",
@@ -425,8 +423,7 @@
 					[ "{spell/Youthful Appearance}", "transmutation", "polymorph", null, "Target appears younger.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Sorcerer Spells", "main/spells_sorcerer"] ]
+		]
 	},
 	"spells_sorcerer_2": {
 		"title": "Sorcerer Spells Level 2",
@@ -814,8 +811,7 @@
 					[ "{spell/With the Wind}", "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Sorcerer Spells", "main/spells_sorcerer"] ]
+		]
 	},
 	"spells_sorcerer_3": {
 		"title": "Sorcerer Spells Level 3",
@@ -1209,8 +1205,7 @@
 					[ "{spell/Wind Wall}", "evocation", null, "air", "Deflects arrows, smaller creatures, and gases.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Sorcerer Spells", "main/spells_sorcerer"] ]
+		]
 	},
 	"spells_sorcerer_4": {
 		"title": "Sorcerer Spells Level 4",
@@ -1552,8 +1547,7 @@
 					[ "{spell/Web Cloud}", "conjuration", "creation", null, "Create a cloud-like spread of flame-resistant webbing.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Sorcerer Spells", "main/spells_sorcerer"] ]
+		]
 	},
 	"spells_sorcerer_5": {
 		"title": "Sorcerer Spells Level 5",
@@ -1845,8 +1839,7 @@
 					[ "{spell/Wreath of Blades}", "abjuration", null, null, "Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Sorcerer Spells", "main/spells_sorcerer"] ]
+		]
 	},
 	"spells_sorcerer_6": {
 		"title": "Sorcerer Spells Level 6",
@@ -2067,8 +2060,7 @@
 					[ "{spell/Wither Limb}", "necromancy", null, null, "Make one of the creature's limbs useless.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Sorcerer Spells", "main/spells_sorcerer"] ]
+		]
 	},
 	"spells_sorcerer_7": {
 		"title": "Sorcerer Spells Level 7",
@@ -2259,8 +2251,7 @@
 					[ "{spell/Word of Beckoning}", "conjuration", "teleportation", null, "As sending, but the target gets the ability to teleport to your side if they desire", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Sorcerer Spells", "main/spells_sorcerer"] ]
+		]
 	},
 	"spells_sorcerer_8_9": {
 		"title": "Sorcerer Spells Levels 8-9",
@@ -2470,7 +2461,6 @@
 					[ "{spell/Yellow Sign}", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur.", "V", [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Sorcerer Spells", "main/spells_sorcerer"] ]
+		]
 	}
 }

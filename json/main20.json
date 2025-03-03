@@ -112,8 +112,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_good": {
 		"title": "Good Monsters",
@@ -247,8 +246,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_evil": {
 		"title": "Evil Monsters",
@@ -539,8 +537,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_lawful": {
 		"title": "Lawful Monsters",
@@ -719,8 +716,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_chaotic": {
 		"title": "Chaotic Monsters",
@@ -900,8 +896,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_unique": {
 		"title": "Unique Monsters",
@@ -1280,8 +1275,7 @@
 				],
 				"initialColumn": 3
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_mythic": {
 		"title": "Mythic Monsters",
@@ -1508,7 +1502,6 @@
 				],
 				"initialColumn": 3
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	}
 }

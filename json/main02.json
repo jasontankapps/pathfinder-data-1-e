@@ -102,8 +102,7 @@
 			"::main[View Versatile Brewing Feats]{to=main/feats_versatile_brewing endem=\"(4 feats)\"}",
 			"",
 			"::main[View Alternate Rules Feats]{to=main/feats_optional_rules endem=\"(21 feats)\"}"
-		],
-		"previous": [ ["Main", "main/main"] ]
+		]
 	},
 	"feats_general": {
 		"title": "Feats - General",
@@ -1729,8 +1728,7 @@
 					[ "{feat/Zealous Mind}", "{feat/Iron Will}, {feat/Unimpeachable Honor}, lawful alignment.", "Gain additional bonuses against enchantments" ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_critical": {
 		"title": "Feats - Critical",
@@ -1784,8 +1782,7 @@
 					[ "{feat/Tiring Critical}", "{feat/Critical Focus}, base attack bonus +13.", "Whenever you score a critical hit, the target is fatigued" ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_familiar": {
 		"title": "Feats - Familiar",
@@ -1807,8 +1804,7 @@
 			"| {feat/Sage's Guidance} | Must have a familiar with the sage archetype. | Your familiar's knowledge grants you bonuses on attack/skills |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_blood_hex": {
 		"title": "Feats - Blood Hex",
@@ -1830,8 +1826,7 @@
 			"| {feat/Uncertainty} | Int 13; Bluff, Diplomacy, and Intimidate 5 ranks. | Blood curse causes creature to take -6 penalty to a social skill |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_optional_rules": {
 		"title": "Feats - Optional Rules",
@@ -1925,8 +1920,7 @@
 			"| {feat/Unstoppable Esotery} | Your spells that use esoteric material components are harder to stop or remove |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_achievement": {
 		"title": "Feats - Achievement",
@@ -1944,8 +1938,7 @@
 			"| {feat/Talmandor's Lifting} | Take at least 10d6 falling damage on three different occasions and survive. | Cast a healing spell on an undamaged person, allowing them to trigger it at a later time |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_faction": {
 		"title": "Feats - Faction",
@@ -1976,8 +1969,7 @@
 			"| {feat/Whispered Knowledge} | Corporeal undead, Whispering Way 15 TPA. | Enhance your undead form with secret knowledge |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_gathlain": {
 		"title": "Feats - Gathlain Court Titles",
@@ -1995,8 +1987,7 @@
 			"| {feat/Triple-Baron} | Fey creature type or {feat/Fey Obedience} (Magdh), you must have collected three gifts worth at least 100 gp each from three different planes across the Great Beyond. At least two of the planes must be diametrically opposed to one another in terms of planar traits. | Three times per day, you can roll three dice and use the middle result |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_alignment": {
 		"title": "Feats - Alignment",
@@ -2019,8 +2010,7 @@
 			"| {feat/Champion of Tyranny} | 10 Hit Dice, lawful evil alignment. | You must beat down the masses to have true order. |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_damnation": {
 		"title": "Feats - Damnation",
@@ -2038,8 +2028,7 @@
 			"| {feat/Soulless Gaze} | Use Intimidate with greater proficiency |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_combination": {
 		"title": "Feats - Combination",
@@ -2060,8 +2049,7 @@
 			"| {feat/Thousand Cuts} | {feat/Weapon Focus} with slashing weapon. | Use a slashing weapon to inflict bleed damage |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_conduit": {
 		"title": "Feats - Conduit",
@@ -2098,8 +2086,7 @@
 			"| {feat/Wind Leaper} | Knowledge (planes) 3 ranks. | Use wind to bolster your jumps and reduce your weight |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_performance": {
 		"title": "Feats - Performance",
@@ -2128,8 +2115,7 @@
 			"| {feat/Thrilling Vengeance} | Base attack bonus +3, rage class feature. | Bonus to performance combat check while raging if you've recently dealt damage |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_origin": {
 		"title": "Feats - Origin",
@@ -2152,8 +2138,7 @@
 			"| {feat/Willing Death} | Duskwalker. | You can cast paladin's sacrifice to prevent an ally from dying |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	},
 	"feats_versatile_brewing": {
 		"title": "Feats - Versatile Brewing",
@@ -2173,7 +2158,6 @@
 			"| {feat/Vaporous Potion} | {feat/Brew Potion}. | You can create potions that expand into a gas |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Feats", "main/feats"] ]
+		]
 	}
 }

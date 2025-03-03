@@ -26,7 +26,7 @@
 			"## Hold Breath (Ex)",
 			"",
 			"{SOURCE Bestiary 5/294}  ",
-			"The creature can hold its breath for a number of minutes equal to 6 &times; its Constitution score before it risks drowning.",
+			"The creature can hold its breath for a number of minutes equal to 6 &times; its Constitution score before it risks {rule/drowning}.",
 			"",
 			"**Format:** hold breath  ",
 			"**Location:** SQ."
@@ -185,7 +185,7 @@
 			"## Energy Drain (Su)",
 			"",
 			"{SOURCE Bestiary 5/292}  ",
-			"This attack happens automatically when a melee or ranged attack hits. Each successful energy drain bestows one or more negative levels (the creature's description specifies how many). If the creature confirms a critical hit with an attack that includes energy drain, it inflicts twice the listed number of negative levels. Unless otherwise specified in the creature's description, a draining creature gains 5 temporary hit points for each negative level it inflicts on an opponent. These temporary hit points last for a maximum of 1 hour. Negative levels remain until 24 hours have passed or until they are removed with a spell such as {spell/restoration}. If a negative level is not removed before 24 hours have passed, the affected creature must attempt a Fortitude save (DC = 10 + 1/2 draining creature's racial HD + draining creature's Charisma modifier; the exact DC is given in the creature's descriptive text). On a success, the negative level goes away with no harm to the creature. On a failure, the negative level becomes permanent. A separate saving throw is required for each negative level.",
+			"This attack happens automatically when a melee or ranged attack hits. Each successful energy drain bestows one or more {rule/energy_drain_and_<negative levels} (the creature's description specifies how many). If the creature confirms a critical hit with an attack that includes energy drain, it inflicts twice the listed number of negative levels. Unless otherwise specified in the creature's description, a draining creature gains 5 temporary hit points for each negative level it inflicts on an opponent. These temporary hit points last for a maximum of 1 hour. Negative levels remain until 24 hours have passed or until they are removed with a spell such as {spell/restoration}. If a negative level is not removed before 24 hours have passed, the affected creature must attempt a Fortitude save (DC = 10 + 1/2 draining creature's racial HD + draining creature's Charisma modifier; the exact DC is given in the creature's descriptive text). On a success, the negative level goes away with no harm to the creature. On a failure, the negative level becomes permanent. A separate saving throw is required for each negative level.",
 			"",
 			"**Format:** energy drain (2 levels, DC 18)  ",
 			"**Location:** Special Attacks and individual attacks."
@@ -211,7 +211,7 @@
 			"## Undead Traits (Ex)",
 			"",
 			"{SOURCE Bestiary 5/301}  ",
-			"Undead are immune to death effects, disease, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), paralysis, poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on objects or is harmless). Undead are not subject to ability drain, energy drain, or nonlethal damage. Undead are immune to damage or penalties to their physical ability scores (Strength, Dexterity, and Constitution), as well as to fatigue and exhaustion effects. Undead are not at risk of death from massive damage.",
+			"{type/Undead} are immune to death effects, disease, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), paralysis, poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on objects or is harmless). Undead are not subject to ability drain, energy drain, or nonlethal damage. Undead are immune to damage or penalties to their physical ability scores (Strength, Dexterity, and Constitution), as well as to fatigue and exhaustion effects. Undead are not at risk of death from [massive damage](rule/loss_of_hit_points).",
 			"",
 			"**Format:** undead traits  ",
 			"**Location:** Immune."
@@ -474,7 +474,7 @@
 			"## Construct Traits (Ex)",
 			"",
 			"{SOURCE Bestiary 5/291}  ",
-			"Constructs are immune to death effects, disease, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), necromancy effects, paralysis, poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on objects or is harmless). Constructs are not subject to ability damage, ability drain, energy drain, exhaustion, fatigue, or nonlethal damage. Constructs are not at risk of death from taking massive damage.",
+			"{type/Construct/s} are immune to death effects, disease, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), necromancy effects, paralysis, poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on objects or is harmless). Constructs are not subject to ability damage, ability drain, energy drain, exhaustion, fatigue, or nonlethal damage. Constructs are not at risk of death from taking [massive damage](rule/loss_of_hit_points).",
 			"",
 			"**Format:** construct traits  ",
 			"**Location:** Immune."
@@ -928,7 +928,7 @@
 			"## Plant Traits (Ex)",
 			"",
 			"{SOURCE Bestiary 5/297}  ",
-			"Plants are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), paralysis, poison, polymorph, sleep, and stun.",
+			"{type/Plant/s} are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), paralysis, poison, polymorph, sleep, and stun.",
 			"",
 			"**Format:** plant traits  ",
 			"**Location:** Immune."
@@ -1176,7 +1176,7 @@
 			"## Ooze Traits (Ex)",
 			"",
 			"{SOURCE Bestiary 5/296}  ",
-			"Oozes are immune to critical hits, flanking, precision damage, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), paralysis, poison, polymorph, sleep, stun, and visual effects.",
+			"{type/Ooze/s} are immune to critical hits, flanking, precision damage, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms), paralysis, poison, polymorph, sleep, stun, and visual effects.",
 			"",
 			"**Format:** ooze traits  ",
 			"**Location:** Immune."

@@ -324,8 +324,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_cr_15": {
 		"title": "Monsters CR 15+",
@@ -720,7 +719,6 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	}
 }

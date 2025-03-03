@@ -269,8 +269,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_cr_1_2": {
 		"title": "Monsters CR 1 and 2",
@@ -682,8 +681,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"monsters_cr_3_4": {
 		"title": "Monsters CR 3 and 4",
@@ -1129,7 +1127,6 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	}
 }

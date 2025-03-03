@@ -444,7 +444,7 @@
 			"- A devil's natural weapons, as well as any weapons it wields, are treated as lawful and evil for the purpose of overcoming damage reduction.",
 			"- Except where otherwise noted, devils speak Celestial, Draconic, and Infernal.",
 			"- Telepathy.",
-			"- **See in Darkness (Su):** Some devils can see in darkness of any kind, even that created by a deeper darkness spell.",
+			"- **See in Darkness (Su):** Some devils can {umr/see in darkness} of any kind, even that created by a deeper darkness spell.",
 			"- **Summon (Sp):** Devils share the ability to summon others of their kind, typically another of their type or a small number of less powerful devils."
 		]
 	},
@@ -486,7 +486,7 @@
 		"description": [
 			"## Subtype: Earth",
 			"",
-			"This subtype is usually used for outsiders with a connection to the Elemental Plane of Earth. Earth creatures usually have burrow speeds, and most earth creatures can burrow through solid rock. Earth creatures with a burrow speed have tremorsense."
+			"This subtype is usually used for outsiders with a connection to the Elemental Plane of Earth. Earth creatures usually have burrow speeds, and most earth creatures can burrow through solid rock. Earth creatures with a burrow speed have {umr/tremorsense}."
 		]
 	},
 	"elemental": {
@@ -987,7 +987,7 @@
 		"description": [
 			"## Subtype: Orc",
 			"",
-			"This subtype is applied to orcs and creatures related to orcs, such as half-orcs. Creatures with the orc subtype normally have darkvision 60 feet and light sensitivity (half orcs do not have light sensitivity)."
+			"This subtype is applied to orcs and creatures related to orcs, such as half-orcs. Creatures with the orc subtype normally have darkvision 60 feet and {umr/light sensitivity} (half orcs do not have light sensitivity)."
 		]
 	},
 	"phantom": {
@@ -1337,7 +1337,7 @@
 			"",
 			"- Immunity to cold.",
 			"- Resistance to electricity and fire 10.",
-			"- **Enhanced Senses (Ex):** All members of the wild hunt have {umr/greensight} 60 feet, {umr/scent}, and see in darkness.",
+			"- **Enhanced Senses (Ex):** All members of the wild hunt have {umr/greensight} 60 feet, {umr/scent}, and {umr/see in darkness}.",
 			"- **Instinctive Cooperation (Ex):** Creatures with the wild hunt subtype are immune to all supernatural abilities of other creatures with the wild hunt subtype that allow a saving throw (such as wild gaze).",
 			"- **Planar Acclimation (Ex):** A creature with the wild hunt subtype is always considered to be on its home plane, regardless of what plane it finds itself upon. It never gains the extraplanar subtype.",
 			"- **Speak with Nature (Sp):** Wild hunt creatures have {spell/know direction}, {spell/speak with animals}, and {spell/speak with plants} as constant spell-like abilities, and can cast {spell/stone tell} as a spell-like ability 3 times per day.",

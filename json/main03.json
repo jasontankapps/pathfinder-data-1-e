@@ -41,8 +41,7 @@
 			"",
 			"::main[View all Drawbacks]{to=main/traits_drawback endem=\"(66 drawbacks)\"}"
 		],
-		"searchgroup": "trait",
-		"previous": [ ["Main", "main/main"] ]
+		"searchgroup": "trait"
 	},
 	"traits_all": {
 		"title": "All Traits",
@@ -2020,7 +2019,6 @@
 					[ "{trait/Zest for Battle}", "Race", null, "Dwarf", null, null, null, null, null ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	}
 }

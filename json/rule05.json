@@ -1281,6 +1281,7 @@
 	},
 	"loss_of_hit_points": {
 		"name": "Loss of Hit Points",
+		"tags": "Death from Massive Damage",
 		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -1378,7 +1379,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/190}",
 			"",
-			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to massive damage, he's dead. A character can also die from taking [ability damage](rule/ability_score_damage_penalty_and_drain) or suffering an ability drain that reduces his Constitution score to 0.",
+			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to [massive damage](rule/loss_of_hit_points), he's dead. A character can also die from taking [ability damage](rule/ability_score_damage_penalty_and_drain) or suffering an ability drain that reduces his Constitution score to 0.",
 			"",
 			"Certain types of powerful magic, such as {spell/raise dead} and {spell/resurrection}, can restore life to a dead character."
 		],

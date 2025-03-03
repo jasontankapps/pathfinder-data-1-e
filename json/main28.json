@@ -406,8 +406,7 @@
 					[ "{spell/Whip of Ants}", 6, "conjuration", "summoning", null, "Create a whip made of army ants.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_druid": {
 		"title": "All Druid Spells",
@@ -426,8 +425,7 @@
 			"::main[Druid Spells (Levels 7-9)]{endem=\"(148 spells)\" to=main/spells_druid_7_9}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_druid_0_1": {
 		"title": "Druid Spells Levels 0-1",
@@ -624,8 +622,7 @@
 					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Druid Spells", "main/spells_druid"] ]
+		]
 	},
 	"spells_druid_2": {
 		"title": "Druid Spells Level 2",
@@ -846,8 +843,7 @@
 					[ "{spell/Wood Shape}", "transmutation", null, null, "Reshapes wooden objects to suit you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Druid Spells", "main/spells_druid"] ]
+		]
 	},
 	"spells_druid_3": {
 		"title": "Druid Spells Level 3",
@@ -1047,8 +1043,7 @@
 					[ "{spell/Woodland Rune}", "abjuration", null, null, "Triggered rune slows the movements of creatures in the area", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Druid Spells", "main/spells_druid"] ]
+		]
 	},
 	"spells_druid_4": {
 		"title": "Druid Spells Level 4",
@@ -1210,8 +1205,7 @@
 					[ "{spell/Zone of Foul Flames}", "transmutation", null, null, "Create an area that returns fire spells and effects back onto their caster.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Druid Spells", "main/spells_druid"] ]
+		]
 	},
 	"spells_druid_5_6": {
 		"title": "Druid Spells Levels 5-6",
@@ -1404,8 +1398,7 @@
 					[ "{spell/Whip of Ants}", 6, "conjuration", "summoning", null, "Create a whip made of army ants.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Druid Spells", "main/spells_druid"] ]
+		]
 	},
 	"spells_druid_7_9": {
 		"title": "Druid Spells Levels 7-9",
@@ -1554,8 +1547,7 @@
 					[ "{spell/World Wave}", 9, "transmutation", null, "earth, water", "Earth moves you across distances.", "V", [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Druid Spells", "main/spells_druid"] ]
+		]
 	},
 	"spells_hunter": {
 		"title": "All Hunter Spells",
@@ -1570,8 +1562,7 @@
 			"::main[Hunter Spells (Level 4-6)]{endem=\"(233 spells)\" to=main/spells_hunter_4_6}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_hunter_0_1": {
 		"title": "Hunter Spells Levels 0-1",
@@ -1820,8 +1811,7 @@
 					[ "{spell/Winter Feathers}", 1, "abjuration", null, null, "Protect a feathered creature from the cold for a day.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_hunter_2": {
 		"title": "Hunter Spells Level 2",
@@ -2074,8 +2064,7 @@
 					[ "{spell/Wood Shape}", "transmutation", null, null, "Reshapes wooden objects to suit you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_hunter_3": {
 		"title": "Hunter Spells Level 3",
@@ -2303,8 +2292,7 @@
 					[ "{spell/Zephyr's Fleetness}", "transmutation", null, "air", "+30 foot land and fly speed (if any) to your allies.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_hunter_4_6": {
 		"title": "Hunter Spells Levels 4-6",
@@ -2588,7 +2576,6 @@
 					[ "{spell/Whip of Ants}", 6, "conjuration", "summoning", null, "Create a whip made of army ants.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	}
 }

@@ -14,8 +14,7 @@
 			"::main[Inquisitor Spells (Level 5-6)]{endem=\"(109 spells)\" to=main/spells_inquisitor_5_6}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_inquisitor_0_1": {
 		"title": "Inquisitor Spells Levels 0-1",
@@ -213,8 +212,7 @@
 					[ "{spell/Wrath}", 1, "enchantment", "compulsion", "emotion, mind-affecting", "+1 attack and damage against target creature.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Inquisitor Spells", "main/spells_inquisitor"] ]
+		]
 	},
 	"spells_inquisitor_2": {
 		"title": "Inquisitor Spells Level 2",
@@ -425,8 +423,7 @@
 					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Inquisitor Spells", "main/spells_inquisitor"] ]
+		]
 	},
 	"spells_inquisitor_3": {
 		"title": "Inquisitor Spells Level 3",
@@ -620,8 +617,7 @@
 					[ "{spell/Witness}", "divination", "scrying", null, "See through the target's eyes and ears.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Inquisitor Spells", "main/spells_inquisitor"] ]
+		]
 	},
 	"spells_inquisitor_4": {
 		"title": "Inquisitor Spells Level 4",
@@ -778,8 +774,7 @@
 					[ "{spell/Ward Shield}", "abjuration", null, null, "Enchant a shield with Spell Resistance and a bonus against area-effect spells.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Inquisitor Spells", "main/spells_inquisitor"] ]
+		]
 	},
 	"spells_inquisitor_5_6": {
 		"title": "Inquisitor Spells Levels 5-6",
@@ -942,8 +937,7 @@
 					[ "{spell/Word of Chaos}", 6, "evocation", null, "chaotic, sonic", "Kills, confuses, stuns, or deafens nonchaotic subjects.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Inquisitor Spells", "main/spells_inquisitor"] ]
+		]
 	},
 	"spells_medium": {
 		"title": "All Medium Spells",
@@ -956,8 +950,7 @@
 			"",
 			"::main[Medium Spells (Level 3+)]{endem=\"(157 spells)\" to=main/spells_medium_3_6}"
 		],
-		"noFinder": true,
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"noFinder": true
 	},
 	"spells_medium_0_1": {
 		"title": "Medium Spells Levels 0-1",
@@ -1389,8 +1382,7 @@
 					[ "{spell/Shadow Transmutation}", 6, "illusion", "shadow", "shadow", "Alter a creature's body with energy from the Shadow Plane, altering its form to match a shadow creature.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Medium Spells", "main/spells_medium"] ]
+		]
 	},
 	"spells_medium_2": {
 		"title": "Medium Spells Level 2",
@@ -1560,8 +1552,7 @@
 					[ "{spell/Zone of Truth}", "enchantment", "compulsion", "mind-affecting", "Subjects within range cannot lie.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Medium Spells", "main/spells_medium"] ]
+		]
 	},
 	"spells_medium_3_6": {
 		"title": "Medium Spells Level 3 and Above",
@@ -1768,8 +1759,7 @@
 					[ "{spell/Shadow Transmutation}", 6, "illusion", "shadow", "shadow", "Alter a creature's body with energy from the Shadow Plane, altering its form to match a shadow creature.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Medium Spells", "main/spells_medium"] ]
+		]
 	},
 	"spells_ranger": {
 		"title": "All Ranger Spells",
@@ -1782,8 +1772,7 @@
 			"::main[Ranger Spells (Levels 3-4)]{endem=\"(151 spells)\" to=main/spells_ranger_3_4}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_ranger_1": {
 		"title": "Ranger Spells Level 1",
@@ -1953,8 +1942,7 @@
 					[ "{spell/Winter Feathers}", "abjuration", null, null, "Protect a feathered creature from the cold for a day.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Ranger Spells", "main/spells_ranger"] ]
+		]
 	},
 	"spells_ranger_2": {
 		"title": "Ranger Spells Level 2",
@@ -2121,8 +2109,7 @@
 					[ "{spell/With the Wind}", "abjuration", null, "air", "Protect a target from being blown away by wind of less than windstorm force", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Ranger Spells", "main/spells_ranger"] ]
+		]
 	},
 	"spells_ranger_3_4": {
 		"title": "Ranger Spells Level 1",
@@ -2322,8 +2309,7 @@
 					[ "{spell/Watchful Animal}", 4, "divination", "scrying", null, "Place a scrying sensor on your animal companion or familiar.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Ranger Spells", "main/spells_ranger"] ]
+		]
 	},
 	"spells_investigator": {
 		"title": "All Investigator Formulae",
@@ -2334,8 +2320,7 @@
 			"::main[Investigator Formulae (Level 3-6)]{endem=\"(221 spells)\" to=main/spells_investigator_3_6}"
 		],
 		"noFinder": true,
-		"searchgroup": "spell",
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		"searchgroup": "spell"
 	},
 	"spells_investigator_1_2": {
 		"title": "Investigator Formulae Levels 1-2",
@@ -2564,8 +2549,7 @@
 					[ "{spell/Vomit Swarm}", 2, "conjuration", "summoning", null, "Produces a spider swarm that fights for you.", [ 1, "" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Investigator Formulae", "main/spells_investigator"] ]
+		]
 	},
 	"spells_investigator_3_6": {
 		"title": "Investigator Formulae Levels 3-6",
@@ -2833,8 +2817,7 @@
 					[ "{spell/Wind Walk}", 6, "transmutation", null, "air", "You and your allies turn vaporous and travel fast.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Investigator Formulae", "main/spells_investigator"] ]
+		]
 	},
 	"spells_adept": {
 		"title": "All Adept Spells",
@@ -2954,7 +2937,6 @@
 					[ "{spell/Wall of Stone}", 5, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped.", "V", [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	}
 }

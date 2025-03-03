@@ -40,10 +40,10 @@ const checkForPrefix = {};
 const prefixes = [];
 // The bare index of names/titles
 const fuseIndex = [];
-// The corresponding index of links
-const linkIndex = [];
 // The raw info to be used by SearchPage
 const dataIndex = [];
+// A list of plain copies that don't need to be indexed
+const allIncludingCopies = [];
 
 Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 	const {data, link, num, type, searchgroup: sg, properties = []} = groupobject;
@@ -85,6 +85,16 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		if(copyof && !named) {
 			// This is a plain copy, no name change or anything.
 			// No need to put this in the searchable index.
+			// However, we do need to save a name for other functions to use.
+			let cc = data[copyof];
+			while(cc && cc.copyof) {
+				cc = data[cc.copyof];
+			}
+			if(!cc) {
+				console.log(`${file}.${prop}.copyof = [${copyof}], which does not lead to a stable entry`);
+			} else {
+				allIncludingCopies.push([`${link}/${prop}`, cc.name || "BLANK"]);
+			}
 			return;
 		}
 		// Save for search index, used directly by Fuse.js
@@ -92,7 +102,6 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		subtitle && (indexable.subtitle = subtitle);
 		tags && (indexable.tags = tags);
 		fuseIndex.push(indexable);
-		linkIndex.push(`${link}/${prop}`);
 		// Save for extra data to be used by the search page
 		const searchgroup = sg || (sg2 && (searchgroups.indexOf(sg2) + 1));
 		dataIndex.push({
@@ -101,6 +110,8 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 			l: prop,
 			s: searchgroup
 		});
+		// Save for other functions to find a page name quickly
+		allIncludingCopies.push([`${link}/${prop}`, indexable.name]);
 	});
 });
 
@@ -119,5 +130,9 @@ console.log("Saved ./src/json/_data__fuse-translated-data.json");
 
 fs.writeFileSync('./src/json/_data__fuse-index.json', JSON.stringify(fuseIndex));
 console.log("Saved ./src/json/_data__fuse-index.json");
-fs.writeFileSync('./src/json/_data__linked-index.json', JSON.stringify(linkIndex));
-console.log("Saved ./src/json/_data__linked-index.json");
+
+const allLinks = {};
+allIncludingCopies.forEach(([link, title]) => (allLinks[link] = title || "BLANK"));
+
+fs.writeFileSync('./src/json/_data__all_links.json', JSON.stringify(allLinks));
+console.log("Saved ./src/json/_data__all_links.json");

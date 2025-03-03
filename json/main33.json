@@ -210,8 +210,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	},
 	"spells_mythic_arcanist_sorcerer_wizard": {
 		"title": "Mythic Arcanist, Sorcerer and Wizard Spells",
@@ -320,8 +319,7 @@
 					[ "{spell/Wish}", 9, "universal", null, null, "As limited wish, but with fewer limits." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_alchemist": {
 		"title": "Mythic Alchemist Extracts",
@@ -368,8 +366,7 @@
 					[ "{spell/Mislead}", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_investigator": {
 		"title": "Mythic Investigator Extracs",
@@ -416,8 +413,7 @@
 					[ "{spell/Mislead}", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_summoner": {
 		"title": "Mythic Summoner Spells",
@@ -454,8 +450,7 @@
 					[ "{spell/Maze}", 6, "conjuration", "teleportation", null, "Traps subject in extradimensional maze." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_unchained_summoner": {
 		"title": "Mythic Unchained Summoner Spells",
@@ -493,8 +488,7 @@
 					[ "{spell/Wall of Stone}", 5, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_bard_skald": {
 		"title": "Mythic Bard and Skald Spells",
@@ -540,8 +534,7 @@
 					[ "{spell/Mislead}", 5, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_magus": {
 		"title": "Mythic Magus Spells",
@@ -601,8 +594,7 @@
 					[ "{spell/Mislead}", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_witch": {
 		"title": "Mythic Witch Spells",
@@ -671,8 +663,7 @@
 					[ "{spell/Storm of Vengeance}", 9, "conjuration", "summoning", null, "Storm rains acid, lightning, and hail." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_bloodrager": {
 		"title": "Mythic Bloodrager Spells",
@@ -728,8 +719,7 @@
 					[ "{spell/Phantasmal Killer}", 4, "illusion", "phantasm", "emotion, fear, mind-affecting", "Fearsome illusion kills subject or deals 3d6 damage." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_cleric_oracle": {
 		"title": "Mythic Cleric and Oracle Spells",
@@ -793,8 +783,7 @@
 					[ "{spell/Storm of Vengeance}", 9, "conjuration", "summoning", null, "Storm rains acid, lightning, and hail." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_druid": {
 		"title": "Mythic Druid Spells",
@@ -848,8 +837,7 @@
 					[ "{spell/Storm of Vengeance}", 9, "conjuration", "summoning", null, "Storm rains acid, lightning, and hail." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_rangers": {
 		"title": "Mythic Ranger Spells",
@@ -883,8 +871,7 @@
 					[ "{spell/Shield of the Dawnflower}", 4, "evocation", null, "fire, good, light", "Create a protective shield of sunlight." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_hunter": {
 		"title": "Mythic Hunter Spells",
@@ -932,8 +919,7 @@
 					[ "{spell/Wall of Stone}", 6, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_inquisitor": {
 		"title": "Mythic Inquisitor Spells",
@@ -981,8 +967,7 @@
 					[ "{spell/Unholy Blight}", 4, "evocation", null, "evil", "Harms and sickens good creatures (1d8 damage/2 levels)." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_warpriest": {
 		"title": "Mythic Warpriest Spells",
@@ -1038,8 +1023,7 @@
 					[ "{spell/Wall of Stone}", 5, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_paladin": {
 		"title": "Mythic Paladin Spells",
@@ -1073,8 +1057,7 @@
 					[ "{spell/Shield of the Dawnflower}", 4, "evocation", null, "fire, good, light", "Create a protective shield of sunlight." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_antipaladin": {
 		"title": "Mythic Antipaladin Spells",
@@ -1110,8 +1093,7 @@
 					[ "{spell/Inflict Serious Wounds}", 4, "necromancy", null, null, "Touch attack, 3d8 damage + 1/level (max +15)." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_shaman": {
 		"title": "Mythic Shaman Spells",
@@ -1165,8 +1147,7 @@
 					[ "{spell/Storm of Vengeance}", 9, "conjuration", "summoning", null, "Storm rains acid, lightning, and hail." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_medium": {
 		"title": "Mythic Medium Spells",
@@ -1212,8 +1193,7 @@
 					[ "{spell/Modify Memory}", 4, "enchantment", "compulsion", "mind-affecting", "Changes 5 minutes of subject's memories." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_mesmerist": {
 		"title": "Mythic Mesmerist Spells",
@@ -1265,8 +1245,7 @@
 					[ "{spell/Mislead}", 5, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_occultist": {
 		"title": "Mythic Occultist Spells",
@@ -1332,8 +1311,7 @@
 					[ "{spell/Globe of Invulnerability}", 6, "abjuration", null, null, "As lesser globe of invulnerability, plus 4th-level spell effects." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_psychic": {
 		"title": "Mythic Psychic Spells",
@@ -1410,8 +1388,7 @@
 					[ "{spell/Wish}", 9, "universal", null, null, "As limited wish, but with fewer limits." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_mythic_spiritualist": {
 		"title": "Mythic Spiritualist Spells",
@@ -1460,8 +1437,7 @@
 					[ "{spell/Mislead}", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"], ["Mythic Spells", "main/spells_mythic"] ]
+		]
 	},
 	"spells_redmantisassassin": {
 		"title": "All Red Mantis Assassin Spells",
@@ -1773,7 +1749,6 @@
 					[ "{spell/Wandering Star Motes}", 4, "illusion", "pattern", "light, mind-affecting", "Outlines subject and produces light as a sunrod.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Spells", "main/spells"] ]
+		]
 	}
 }

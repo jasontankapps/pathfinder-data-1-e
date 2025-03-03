@@ -234,8 +234,7 @@
 				"initialColumn": 1,
 				"nullValue": "*(any)*"
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_race": {
 		"title": "Race Traits",
@@ -685,8 +684,7 @@
 				"initialColumn": 1,
 				"nullValue": "*(any)*"
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_drawback": {
 		"title": "Drawback Traits",
@@ -1273,8 +1271,7 @@
 			"You are fanatical in your beliefs, ruled by emotion over reason. When you attack a creature that you know worships a different religion than you do, you take a -5 penalty on the attack roll and a +2 trait bonus on the damage roll with your first attack.",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_equipment": {
 		"title": "Equipment Traits",
@@ -1507,8 +1504,7 @@
 			"**Total Weight:** 108-1/2 lbs. (63-1/4 lbs. for a Small character).",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_family": {
 		"title": "Family Traits",
@@ -1572,8 +1568,7 @@
 			"Whether siblings, spouses, or dedicated members of the same clan, characters who take this trait are an inseparable pair committed to each other. Your partner or partners must also have this trait. You gain a +1 trait bonus on Will saves against charm and compulsion effects if a partner is within 60 feet, increasing to +3 against a command to compromise your relationship or harm a partner.",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_mount": {
 		"title": "Mount Traits",
@@ -1712,8 +1707,7 @@
 			"Erutaki huskies gain a +4 trait bonus on Fortitude saves to avoid nonlethal damage from cold environments, and only take a -2 penalty on Perception checks made in inclement weather such as rain or snow (instead of the usual -4 penalty).",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_cosmic": {
 		"title": "Cosmic Traits",
@@ -1859,8 +1853,7 @@
 			"You were born right on the dividing line between two consecutive signs, providing you with a choice of which sign to adopt. Reroll d100, then choose between the resulting sign or either of the signs adjacent to it.",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_religion": {
 		"title": "Religion Traits",
@@ -2101,8 +2094,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_regional": {
 		"title": "Regional Traits",
@@ -2580,8 +2572,7 @@
 				"initialColumn": 0,
 				"nullValue": ""
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		]
 	},
 	"traits_exemplar": {
 		"title": "Exemplar Traits",
@@ -2638,7 +2629,6 @@
 			"",
 			":::"
 		],
-		"searchgroup": "trait",
-		"previous": [ ["Main", "main/main"], ["Traits", "main/traits"] ]
+		"searchgroup": "trait"
 	}
 }

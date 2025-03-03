@@ -74,8 +74,7 @@
 			"::main[Miscellaneous]{to=main/tech_misc endem=\"(141 items)\"}",
 			"",
 			"::main[Artifacts]{to=main/tech_artifacts endem=\"(20 items)\"}"
-		],
-		"previous": [ ["Main", "main/main"] ]
+		]
 	},
 	"equipment_armor": {
 		"title": "Armor",
@@ -187,8 +186,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_armorenhancements": {
 		"title": "Armor and Shield Enhancements",
@@ -235,8 +233,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_weapons": {
 		"title": "Weapons",
@@ -718,8 +715,7 @@
 				],
 				"initialColumn": 2
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_weapons_light": {
 		"title": "Light Weapons",
@@ -834,8 +830,7 @@
 					[ "{eq-weapon/kobold tail, sweeper}", [ 3, "special" ], 7, [ 2.5, "1d4" ], [ 3.5, "1d6" ], [ 99, "&mdash;" ], "kobold only, trip", [ 999, "&mdash;" ], 3, "B" ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_weapons_one_handed": {
 		"title": "One-Handed Weapons",
@@ -923,8 +918,7 @@
 					[ "{eq-weapon/whip}", [ 2, "exotic" ], 1, [ 1.5, "1d2" ], [ 2, "1d3" ], [ 99, "&mdash;" ], "disarm, nonlethal, reach, trip", [ 999, "&mdash;" ], 2, "S" ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_weapons_two_handed": {
 		"title": "Two-Handed Weapons",
@@ -1040,8 +1034,7 @@
 					[ "{eq-weapon/two-bladed sword}", [ 2, "exotic" ], 100, [ 3.5, "1d6/1d6" ], [ 4.5, "1d8/1d8" ], [ 2.1, "19-20" ], "double", [ 999, "&mdash;" ], 10, "S" ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_weapons_ranged": {
 		"title": "Ranged Weapons",
@@ -1135,8 +1128,7 @@
 					[ "{eq-weapon/wrist launcher}", [ 2, "exotic" ], 200, [ 99, "&mdash;" ], [ 99, "&mdash;" ], [ 99, "&mdash;" ], null, [ 20, "20 ft." ], 1, "P" ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_weapons_ammunition": {
 		"title": "Ammunition",
@@ -1201,8 +1193,7 @@
 					[ "{eq-weapon/whistling arrows}", 0.1, null, 0.15, null ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_weapons_alchemical": {
 		"title": "Alchemical Weapons",
@@ -1324,8 +1315,7 @@
 					[ "{eq-weapon/venomblock}", 60, null, [ 999, "&mdash;" ], [ 0, "&mdash;" ] ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_weaponenhancements": {
 		"title": "Weapon Enhancements",
@@ -1376,8 +1366,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_firearms": {
 		"title": "Firearms",
@@ -1469,8 +1458,7 @@
 				],
 				"initialColumn": 2
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_adventuring_gear": {
 		"title": "Adventuring Gear",
@@ -1933,8 +1921,7 @@
 					[ "{eq-misc/zip-line hook (normal)}", 5, 1 ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_animal_gear": {
 		"title": "Animal Gear",
@@ -2013,8 +2000,7 @@
 					[ "{eq-misc/whip, training}", 5, 2 ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_class_kits": {
 		"title": "Class Kits",
@@ -2161,8 +2147,7 @@
 					[ "{eq-misc/zombie slayer's kit}", 170, 31 ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_tools": {
 		"title": "Tools",
@@ -2355,8 +2340,7 @@
 					[ "{eq-misc/wing hooks}", 150, 2 ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_alchemical": {
 		"title": "Alchemical Items",
@@ -2810,8 +2794,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_misc": {
 		"title": "Miscellaneous Equipment",
@@ -2891,8 +2874,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_materials": {
 		"title": "Special Materials",
@@ -3000,7 +2982,6 @@
 			"| [Stone](/eq-material/stone) | Stone Age weapons almost always utilize stone in some way. |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	}
 }

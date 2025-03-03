@@ -1,12 +1,16 @@
 import fuseIndex from '../json/_data__fuse-index.json';
-import index from '../json/_data__linked-index.json';
+import index from '../json/_data__all_links.json';
 
 interface NameObject {
 	name: string
 }
-function isData<T>(value: unknown): asserts value is T[] {}
-isData<NameObject>(fuseIndex);
-isData<string>(index);
+interface LinkTitleObject {
+	[key: string]: string
+}
+function isData(value: unknown): asserts value is NameObject[] {}
+isData(fuseIndex);
+function isBoolean(value: unknown): asserts value is LinkTitleObject {}
+isBoolean(index);
 
 const switchback = (link: string) => {
 	// This matches only the non-fused pages
@@ -50,13 +54,7 @@ const switchback = (link: string) => {
 export const doesPageExist = (id: string): boolean => {
 	// Remove initial slash ("/main" => "main")
 	const link = id.slice(1);
-	if(!switchback(link)) {
-		const i = index.indexOf(link);
-		if((i < 0) || (i >= fuseIndex.length)) {
-			return false;
-		}
-	}
-	return true;
+	return (switchback(link) || index[(link as keyof typeof index)]) ? true : false;
 };
 
 const getPageName = (id: string): string => {
@@ -66,13 +64,7 @@ const getPageName = (id: string): string => {
 	if(maybe) {
 		return maybe;
 	}
-	const i = index.indexOf(link);
-	if(i < 0) {
-		return `Error: [${id}]`;
-	} else if (i >= fuseIndex.length) {
-		return `Error: [${i}] [${id}]`;
-	}
-	return fuseIndex[i].name;
+	return switchback(link) || index[(link as keyof typeof index)] || `[Error: ${id} not found]`;
 };
 
 export default getPageName;

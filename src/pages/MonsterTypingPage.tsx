@@ -6,7 +6,8 @@ import monster_subtypes from './subpages/__subtype';
 import BasicPage from './BasicPage';
 import './Page.css';
 
-const topLink: Hierarchy = ["Universal Monster Rules", "main/umr"];
+const topLinkT: Hierarchy = ["Creature Types", "main/umr_types"];
+const topLinkS: Hierarchy = ["Creature Subtypes", "main/umr_subtypes"];
 
 const typings = {...monster_types, ...monster_subtypes};
 
@@ -22,14 +23,14 @@ const MonsterTypingPage: React.FC = () => {
 
 	const m = path.match(/^[/](sub)?type[/]/);
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, typings);
+	const { hasJL, title, jsx, sources } = getItem<Data>(id, typings);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
 		pageId={((m && m[0]) || "/type/") + id}
-		topLink={topLink}
+		topLink={(m && m[1]) ? topLinkS : topLinkT}
 	>{jsx}</BasicPage>;
 };
 

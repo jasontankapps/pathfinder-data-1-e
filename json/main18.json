@@ -524,8 +524,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"npcs_npc_classes": {
 		"title": "NPCs: NPC Classes",
@@ -726,8 +725,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"npcs_bards_sorcerers_wizards": {
 		"title": "NPCs: Core Arcane Classes",
@@ -890,8 +888,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"npcs_clerics_druids_paladins": {
 		"title": "NPCs: Core Divine Classes",
@@ -1105,8 +1102,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"npcs_other_core": {
 		"title": "NPCs: Core Non-Spellcasters",
@@ -1371,8 +1367,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"npcs_other": {
 		"title": "NPCs: Non-Core Classes",
@@ -1487,8 +1482,7 @@
 			"| [Winter Witch Cold Sister](/npc/winter_witch_cold_sister) | 9 | Female human witch (winter witch) 5/winter witch 5 |",
 			"",
 			":::"
-		],
-		"previous": [ ["Main", "main/main"], ["Monsters and NPCs", "main/monsters"] ]
+		]
 	},
 	"tech_armor": {
 		"title": "Technology - Armor",
@@ -1536,8 +1530,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"tech_weapons": {
 		"title": "Technology - Weapons",
@@ -1606,8 +1599,7 @@
 				],
 				"initialColumn": 2
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"tech_cybertech": {
 		"title": "Technology - Cybertech",
@@ -1659,8 +1651,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"tech_pharmaceuticals": {
 		"title": "Technology - Pharmaceuticals",
@@ -1701,8 +1692,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"tech_artifacts": {
 		"title": "Technology - Artifacts",
@@ -1748,8 +1738,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"tech_misc": {
 		"title": "Technology - Miscellaneous",
@@ -1952,8 +1941,7 @@
 				"initialColumn": 0,
 				"nullValue": ""
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_spellbooks": {
 		"title": "Spellbooks",
@@ -2077,8 +2065,7 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_siegeengines": {
 		"title": "Siege Engines",
@@ -2161,8 +2148,7 @@
 				 ],
 				"initialColumn": 1
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_clothing": {
 		"title": "Clothing",
@@ -2304,8 +2290,7 @@
 					[ "{eq-misc/wrangler's gloves}", 20, 6 ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_food_and_drink": {
 		"title": "Food, Drink, and Lodging",
@@ -2422,8 +2407,7 @@
 					[ "{eq-misc/yogurt}", "food or drink", 0.1, 0.5 ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_entertainment_services": {
 		"title": "Entertainment and Services",
@@ -2504,8 +2488,7 @@
 					[ "{eq-misc/valet}", "service", 1, 0 ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_transport": {
 		"title": "Transportation",
@@ -2574,8 +2557,7 @@
 					[ "{eq-misc/warship}", "transport, sea", 25000 ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_mounts_pets": {
 		"title": "Mounts and Pets",
@@ -2817,8 +2799,7 @@
 					[ "{eq-misc/yak}", 24, 1000 ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_illicit": {
 		"title": "Illicit Items",
@@ -2891,8 +2872,7 @@
 					[ "{eq-misc/wolfsbane}", "black market", 0.5, 0 ]
 				]
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	},
 	"equipment_poisons": {
 		"title": "Poisons",
@@ -3085,7 +3065,6 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"previous": [ ["Main", "main/main"], ["Equipment", "main/equipment"] ]
+		]
 	}
 }
