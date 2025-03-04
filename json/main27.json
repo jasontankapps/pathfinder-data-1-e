@@ -1034,8 +1034,8 @@
 					[ "{magic-rod/Caduceus Rod}", 142000, 3, [ 1, "No" ] ],
 					[ "{magic-rod/Rod of Metamagic, Quicken (greater)}", 170000, [ 1, "&mdash;" ], [ 1, "No" ] ],
 					[ "{magic-rod/Scepter of the Arclords}", 200000, 5, [ 1, "No" ] ],
-					[ "{magic-rod/Rod of Arson}", [ 1, "&mdash;" ], 5, [ 0, "Yes" ] ],
-					[ "{magic-rod/Rod of Foiled Magic}", [ 1, "&mdash;" ], 5, [ 0, "Yes" ] ]
+					[ "{magic-rod/Rod of Arson}", [ 999999, "&mdash;" ], 5, [ 0, "Yes" ] ],
+					[ "{magic-rod/Rod of Foiled Magic}", [ 999999, "&mdash;" ], 5, [ 0, "Yes" ] ]
 				],
 				"initialColumn": 1
 			}
@@ -2932,9 +2932,9 @@
 					[ "{magic-staff/Winter's Reach}", 228000, 5, [ 1, "No" ] ],
 					[ "{magic-staff/Staff of Power}", 235000, 5, [ 1, "No" ] ],
 					[ "{magic-staff/Lasirro's Staff}", 240000, 5, [ 1, "No" ] ],
-					[ "{magic-staff/Overcharged Staff}", [ 1, "&mdash;" ], 5, [ 0, "Yes" ] ],
-					[ "{magic-staff/Staff of Magical Decline}", [ 1, "&mdash;" ], 5, [ 0, "Yes" ] ],
-					[ "{magic-staff/Staff of Occasional Wonder}", [ 1, "&mdash;" ], 4, [ 0, "Yes" ] ]
+					[ "{magic-staff/Overcharged Staff}", [ 999999, "&mdash;" ], 5, [ 0, "Yes" ] ],
+					[ "{magic-staff/Staff of Magical Decline}", [ 999999, "&mdash;" ], 5, [ 0, "Yes" ] ],
+					[ "{magic-staff/Staff of Occasional Wonder}", [ 999999, "&mdash;" ], 4, [ 0, "Yes" ] ]
 				],
 				"initialColumn": 1
 			}

@@ -474,7 +474,7 @@
 			"***Pathfinder Name:*** Gray Maidens (Erinyes Company and Scarlet Rose)  ",
 			"***Subgroups:*** The Sisterhood and The Rebloomers  ",
 			"***Scope:*** regional  ",
-			"***Alignment:*** LE (Sisterhood) or NG (Rebloomers) ",
+			"***Alignment:*** LE (Sisterhood) or NG (Rebloomers)  ",
 			"***Values:*** preservation of a dead evil queen's ideals, service to her new nation (Sisterhood); the aid, rehabilitation, and protection of each other and allies (Rebloomers)  ",
 			"***Goals:*** expand their own power, reclaim rule of old nation (Sisterhood); oppose tyranny, recover from the queen's evil (Rebloomers)  ",
 			"***Allies:*** nobles in their new nation, followers of the Queens of the Night [pantheon](main/faiths_pantheons) (Sisterhood); {faith/Shelyn/ites}, [The Rebellion](rule/aff_rebels) (Rebloomers)  ",
@@ -543,7 +543,7 @@
 			"",
 			"***Magic Items:*** Steel Knights have crafted a wide range of magical items, many being baroque versions of well-known items; special and custom items are among the most valued possessions of Steel Knights and their orders: {magic-armor/Gelugon Plate}, {magic-weapon/Signifer's Fist}",
 			"",
-			"***Spells:*** Many of these spells are innovations of the Order of the Gate's signifers, originating in the notes of the order's magic-users: {spell/Brand of Conformity}, {spell/Brand of Hobbling}, {spell/Brand of Tracking}, {spell/Dirge of the Victorious Knights}, {spell/Infernal Challenger}, {spell/Shackle}"
+			"***Spells:*** Many of these spells are innovations of the {hellknightorder/Order of the Gate/'s} signifers, originating in the notes of the order's magic-users: {spell/Brand of Conformity}, {spell/Brand of Hobbling}, {spell/Brand of Tracking}, {spell/Dirge of the Victorious Knights}, {spell/Infernal Challenger}, {spell/Shackle}"
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -692,9 +692,7 @@
 			"",
 			"***Feats:*** {feat/Extra Spontaneous Spell Mastery}, {feat/Mask Focus}, {feat/Masked By Fear}, {feat/Masked Intent}, {feat/Nameless One}, {feat/Ritual Mask}, {feat/Scholar}",
 			"",
-			"***Magic Items:*** Spellcasters of the Ancient School consider the following creations to be treasures of arcane knowledge: {spell/Mask From Divination}, {spell/Planar Inquiry}",
-			"",
-			"***Spells:*** "
+			"***Spells:*** Spellcasters of the Ancient School consider the following creations to be treasures of arcane knowledge: {spell/Mask From Divination}, {spell/Planar Inquiry}"
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -794,7 +792,7 @@
 			"",
 			"***Archetypes:*** {arc-fighter/Lore Warden} (Fighter), {arc-shaman/Name-Keeper} (Shaman)",
 			"",
-			"***Class Options:*** Investigator talents: [*Chronicler's Insight* and *Didactic Strike*](ability/investigator_talents)",
+			"***Class Options:*** {ability/Investigator talents}: *Chronicler's Insight* and *Didactic Strike*",
 			"",
 			"***Equipment:*** {eq-misc/nostalgia oil}, {eq-misc/Pathfinder Chronicle}",
 			"",
@@ -888,7 +886,7 @@
 			"***Goals:*** explore spiritual lore; foster balance between mortal needs and spiritual concerns; supply resources, information, and encouragement for personal growth  ",
 			"***Allies:*** [Breakers of Chains](rule/aff_antislavery), deities of the [dwarven pantheon](main/faiths_pantheons), {faith/Desna/ns}, [Vanguard of Liberty](rule/aff_vangard), followers of {faith/Arshea} and other empyreal lords, [Steel Knights](rule/aff_lawknights) (Order of the Torrent only), [Irorans](faith/irori)  ",
 			"***Enemies:*** duergar  ",
-			"***Rivals:*** ",
+			"***Rivals:*** none",
 			"",
 			"### Associated Concepts",
 			"",

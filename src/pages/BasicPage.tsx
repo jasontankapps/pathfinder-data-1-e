@@ -169,7 +169,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		pageId,
 		notBookmarkable,
 		className,
-		extraButton
+		extraButton,
+		error
 	} = props;
 	const dispatch = useAppDispatch();
 	const { separateWordSearch, caseSensitive, wholeWords } = useAppSelector(state => state.search)
@@ -208,7 +209,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		() => (contentObj && contentObj.current && contentObj.current.scrollToTop(500)),
 		[contentObj]
 	);
-	const [isMatch] = useRoute(pageId);
+	const [isMatch] = error ? [true] : useRoute(pageId);
 	const cN = "basicContent " + (className || "simple") + (topLink ? " hasInset" : "");
 
 	const onInput = useCallback((input: FormEvent<HTMLIonSearchbarElement> | null) => {

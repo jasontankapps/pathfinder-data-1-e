@@ -1678,7 +1678,8 @@
 		"subhierarchy": [[ "Witch", "class/witch" ]]
 	},
 	"hidden_strike_talents": {
-		"name": "Vigilante Talents ",
+		"name": "Hidden Strike Talents",
+		"subtitle": "Vigilante Talents",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Vigilante Talents - Hidden Strike",

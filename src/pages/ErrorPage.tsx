@@ -21,11 +21,11 @@ const ErrorPage: React.FC = () => {
 	const [ path ] = useLocation();
 	const m = path.match(matcher);
 	return (m ?
-		<BasicPage pageId="error-page" error title="Not Found" sources={sources}>
+		<BasicPage pageId="error-page" error title="Not Found" notBookmarkable sources={sources}>
 			<p>Unable to find the requested information. [Error 201]</p>
 		</BasicPage>
 	:
-		<BasicPage pageId="error-page-other" error title="Not Found" sources={sources}>
+		<BasicPage pageId="error-page-other" error title="Not Found" notBookmarkable sources={sources}>
 			<p>Unable to find the requested page. [Error 202]</p>
 		</BasicPage>
 	);
