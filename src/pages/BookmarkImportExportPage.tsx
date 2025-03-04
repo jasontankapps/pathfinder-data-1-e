@@ -27,7 +27,7 @@ import {
 	UseIonToastResult
 } from '@ionic/react';
 import { doesPageExist } from "../components/getPageName";
-import { BookmarkGroup, Color, importBookmarksGroup } from '../store/bookmarksSlice';
+import { BookmarkGroup, Color, importBookmarksGroup, universalBookmarkDividerId } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -110,13 +110,27 @@ const maybeLaunchModal = (
 						return false; // contents.every fails
 					}
 					const [link, title, ...etc] = pair;
-					if(etc.length > 0 || typeof link !== "string" || typeof title !== "string" || !doesPageExist(link)) {
+					if(
+						etc.length > 0
+						|| typeof link !== "string"
+						|| typeof title !== "string"
+						|| !(link === universalBookmarkDividerId || doesPageExist(link))
+					) {
 						msg = "ERR-1.3 Malformed contents";
 						return false; // contents.every fails
 					}
 					return true; // contents.every SUCCEEDS
 				})) {
 					return false; // data.every fails
+				} else {
+					const subset = contents.filter((pair: any) => pair[0] === universalBookmarkDividerId).map(pair => pair[1]);
+					while(subset.length > 0) {
+						const test = subset.shift()!;
+						if(subset.some(sub => sub === test)) {
+							msg = "ERR-1.4 Duplicate contents";
+							return false; // data.every fails
+						}
+					}
 				}
 				return true; // data.every SUCCEEDS
 			})) {

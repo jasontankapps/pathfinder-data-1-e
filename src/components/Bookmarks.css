@@ -71,6 +71,27 @@ ion-item.bmColor {
 	--border-color: var(--ion-background-color);
 }
 
+div.basicContent.bookmarks ion-item.divider {
+	--background: var(--ion-background-color);
+	--border-width: 0;
+	--min-height: 2rem;
+}
+
+div.basicContent.bookmarks ion-item.divider div.dummy {
+	width: 1em;
+}
+
+div.basicContent.bookmarks ion-item.divider ion-label {
+	margin-block: 0;
+	padding-block: 0;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+div.basicContent.bookmarks ion-item.divider ion-label ion-icon {
+	width: 100%;
+}
+
 @media (prefers-color-scheme: dark) {
 	ion-icon,
 	ion-item,

@@ -1,14 +1,18 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
+import { v7 as uuidv7 } from 'uuid';
 
 export type Color = "red" | "orange" | "yellow" | "chartreuse" | "green" | "cyan" | "blue" | "purple" | "magenta" | "pink";
 
 type BookmarkDB = { [key: string]: Color[] }
 
+type Link = string;
+type Title = string;
+
 export interface BookmarkGroup {
 	color: Color
 	title: string
-	contents: [string, string][]
+	contents: [Link, Title][]
 	hidden: boolean
 }
 
@@ -18,6 +22,8 @@ interface BookmarkState extends ColorState {
 	db: BookmarkDB
 	order: Color[]
 }
+
+export const universalBookmarkDividerId = "di-vi-der";
 
 // Define the initial value for the slice state
 export const initialState: BookmarkState = {
@@ -143,6 +149,26 @@ export const bookmarkSlice = createSlice({
 			};
 			return newState;
 		},
+		addDivider: (state, action: PayloadAction<Color>) => {
+			const color = action.payload;
+			const newState = {...state};
+			const {contents, ...etc} = newState[color];
+			newState[color] = {
+				...etc,
+				contents: [...contents, [universalBookmarkDividerId, uuidv7()]]
+			}
+			return newState;
+		},
+		removeDivider: (state, action: PayloadAction<{color: Color, title: string}>) => {
+			const { color, title } = action.payload;
+			const newState = {...state};
+			const {contents, ...etc} = newState[color];
+			newState[color] = {
+				...etc,
+				contents: contents.filter(([id, t]) => id !== universalBookmarkDividerId || t !== title)
+			}
+			return newState;
+		},
 		reorderBookmarks: (state, action: PayloadAction<{color: Color, from: number, to: number}>) => {
 			const { color, from, to } = action.payload;
 			const newState = {...state};
@@ -246,7 +272,7 @@ export const {
 	addBookmark, removeBookmark,
 	editBookmark, reorderBookmarks,
 	toggleHidden, renameGroup, reorderGroups,
-	importBookmarksGroup
+	importBookmarksGroup, addDivider, removeDivider
 } = bookmarkSlice.actions;
 
 // Export the slice reducer for use in the store configuration
