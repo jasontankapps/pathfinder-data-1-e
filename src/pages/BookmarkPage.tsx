@@ -101,6 +101,17 @@ const BookmarkDivider: FC<BookmarkDividerProps> = (props) => {
 	);
 };
 
+const Fab: FC<{color: Color}> = ({color}) => {
+	const dispatch = useAppDispatch();
+	return (
+		<IonFab slot="fixed" horizontal="center" vertical="bottom">
+			<IonFabButton aria-label="Add Separator" size="small" color="light" onClick={() => dispatch(addDivider(color))}>
+				<IonIcon className={`color-${color}`} icon={chevronExpand} />
+			</IonFabButton>
+		</IonFab>
+	);
+};
+
 type Params = { color: Color };
 
 const blank: [string, string][] = [];
@@ -195,12 +206,8 @@ const BookmarkPage: FC<{}> = () => {
 			pageId={"/bookmarks/" + color}
 			notBookmarkable
 			className="bookmarks"
+			fab={<Fab color={color} />}
 		>
-			<IonFab slot="fixed" horizontal="center" vertical="bottom">
-				<IonFabButton aria-label="Add Separator" size="small" color="light" onClick={() => dispatch(addDivider(color))}>
-					<IonIcon className={`color-${color}`} icon={chevronExpand} />
-				</IonFabButton>
-			</IonFab>
 			<IonList lines="full" id={color + "BookmarkList"}>
 				<IonItem>
 					<IonIcon className={`color-${color}`} slot="start" icon={bookmark} />

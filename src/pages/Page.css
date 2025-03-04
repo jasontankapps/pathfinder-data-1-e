@@ -200,13 +200,13 @@ div.jumpToTop {
 	text-decoration: none;
 	cursor: pointer;
 }
-ion-content ion-fab {
+ion-content ion-fab.goToTop {
 	opacity: 1;
 	visibility: visible;
 	transition: opacity 1s ease-out,visibility 0s;
 	margin-top: 1.5rem;
 }
-ion-content.atTop ion-fab {
+ion-content.atTop ion-fab.goToTop {
 	opacity: 0;
 	visibility: hidden;
 	transition: opacity 250ms ease-in,visibility 0s 255ms;

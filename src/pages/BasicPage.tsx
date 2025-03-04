@@ -33,6 +33,7 @@ interface PageProps extends Partial<DisplayItemProps> {
 	error?: boolean
 	notBookmarkable?: boolean
 	extraButton?: ReactElement
+	fab?: ReactElement
 }
 
 const debounceNamespace: { [key: string]: any } = {};
@@ -170,6 +171,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		notBookmarkable,
 		className,
 		extraButton,
+		fab,
 		error
 	} = props;
 	const dispatch = useAppDispatch();
@@ -303,7 +305,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 					<SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />
 				}
 				{hasJL ?
-					<IonFab slot="fixed" vertical="top" horizontal="end">
+					<IonFab slot="fixed" vertical="top" horizontal="end" className="goToTop">
 						<IonFabButton size="small" color="secondary" onClick={goToTop}>
 							<IonIcon icon={arrowUp} />
 						</IonFabButton>
@@ -311,6 +313,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				:
 					<></>
 				}
+				{fab || <></>}
 				{(!noFinder && marker) ? <div className={"finder" + (searchBoxOpen ? "" : " hidden")}>
 					<IonButton
 						id={`${pageId}finderSettings`}
