@@ -11,7 +11,6 @@
 	"dull_gray_stone": {
 		"name": "Dull Gray Stone",
 		"sources": [
-			"Seekers of Secrets",
 			"Adventurer's Guide",
 			"Seekers of Secrets"
 		],
@@ -331,10 +330,6 @@
 	"mossy_disk": {
 		"name": "Mossy Disk",
 		"sources": [
-			"Pathfinder #122: Into the Shattered Continent",
-			"Seekers of Secrets",
-			"Pathfinder #122: Into the Shattered Continent",
-			"Seekers of Secrets",
 			"Pathfinder #122: Into the Shattered Continent",
 			"Seekers of Secrets"
 		],
@@ -1101,10 +1096,6 @@
 		"name": "Tourmaline Sphere",
 		"sources": [
 			"Pathfinder #122: Into the Shattered Continent",
-			"Pathfinder Society Primer",
-			"Pathfinder #122: Into the Shattered Continent",
-			"Pathfinder Society Primer",
-			"Pathfinder #122: Into the Shattered Continent",
 			"Pathfinder Society Primer"
 		],
 		"description": [
@@ -1793,7 +1784,6 @@
 	"vibrant_purple_prism": {
 		"name": "Vibrant Purple Prism",
 		"sources": [
-			"Seekers of Secrets",
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
 			"Ultimate Equipment",

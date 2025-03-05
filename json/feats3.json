@@ -288,10 +288,7 @@
 	},
 	"drink_is_life": {
 		"name": "Drink Is Life",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Drink Is Life",
 			"",
@@ -464,10 +461,7 @@
 	},
 	"dual_path": {
 		"name": "Dual Path",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Dual Path",
 			"",
@@ -3985,10 +3979,7 @@
 	},
 	"extra_mythic_power": {
 		"name": "Extra Mythic Power",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Extra Mythic Power",
 			"",
@@ -4028,10 +4019,7 @@
 	},
 	"extra_path_ability": {
 		"name": "Extra Path Ability",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Extra Path Ability",
 			"",
@@ -4442,10 +4430,7 @@
 	},
 	"fabulous_figments": {
 		"name": "Fabulous Figments",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Fabulous Figments",
 			"",

@@ -4286,10 +4286,7 @@
 	},
 	"mythic_companion": {
 		"name": "Mythic Companion",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Mythic Companion",
 			"",
@@ -4302,10 +4299,7 @@
 	},
 	"mythic_crafter": {
 		"name": "Mythic Crafter",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Mythic Crafter",
 			"",
@@ -4318,10 +4312,7 @@
 	},
 	"mythic_paragon": {
 		"name": "Mythic Paragon",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Mythic Paragon",
 			"",
@@ -4333,10 +4324,7 @@
 	},
 	"mythic_spell_lore": {
 		"name": "Mythic Spell Lore",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Mythic Spell Lore",
 			"",

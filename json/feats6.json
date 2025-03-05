@@ -2767,10 +2767,7 @@
 	},
 	"potent_surge": {
 		"name": "Potent Surge",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Potent Surge",
 			"",

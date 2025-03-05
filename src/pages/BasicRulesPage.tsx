@@ -3,7 +3,7 @@ import { IonRippleEffect } from '@ionic/react';
 import { SourceProp } from '../components/SourcesModal';
 import Link from '../components/Link';
 import data from '../json/_data_rule.json';
-import { HierarchyArray } from '../types';
+import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 import './BasicRulesPage.css';
 import './Page.css';
@@ -23,6 +23,8 @@ interface BasicRulesProps {
 	className?: string
 	id: Name | "not_found"
 }
+
+type HierarchyArray = Hierarchy[];
 
 interface HierarchyProps {
 	extraHierarchy: HierarchyArray

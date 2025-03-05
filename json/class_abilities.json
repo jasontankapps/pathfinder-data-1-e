@@ -89,7 +89,7 @@
 			"{SOURCE Armor Master's Handbook/15}  ",
 			"Select one combat maneuver (except sunder). Whether using his armor as leverage against a grappling foe or using its weight to help him stop a bull rush, a fighter can use his armor to protect him from the chosen combat maneuver. While wearing armor or wielding a shield, the fighter gains a bonus to his CMD against the chosen combat maneuver. The bonus is +1 if he's wearing light armor, +2 if he's wearing medium armor, and +3 if he's wearing heavy armor. This bonus increases by 1 at 7th level and every 4 fighter levels thereafter, to a maximum at 19th level of +5 for light armor, +6 for medium armor, and +7 for heavy armor. Mithral armor provides a bonus 1 lower than normal for armor of its type."
 		],
-		"subhierarchy": [["Fighter", "class/fighter"]]
+		"backlink": [ "Fighter", "class/fighter" ]
 	},
 	"advanced_rogue_talents": {
 		"name": "Advanced Rogue Talents",
@@ -250,7 +250,7 @@
 			"",
 			"**Unlock Ki (Su):** A rogue with this advanced talent increases the number of points in the ki pool that she gains from the ki pool rogue talent to be equal to 1/2 her rogue level + her highest mental ability score modifier (Intelligence, Wisdom, or Charisma). In addition, she can spend 2 points from her ki pool as a swift action to gain the skill unlocks for one skill of her choice as appropriate for her number of ranks in that skill. This benefit lasts for 1 minute. The rogue must have a ki pool before selecting this advanced talent."
 		],
-		"subhierarchy": [["Rogue", "class/rogue"]]
+		"backlink": [ "Rogue", "class/rogue" ]
 	},
 	"advanced_slayer_talents": {
 		"name": "Advanced Slayer Talents",
@@ -290,7 +290,7 @@
 			"",
 			"**Woodland Stride (Ex):** A slayer with this talent may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any other impairment. Terrain that is enchanted or magically manipulated to impede motion still affects the slayer as normal."
 		],
-		"subhierarchy": [[ "Slayer", "class/slayer" ]]
+		"backlink": [ "Slayer", "class/slayer" ]
 	},
 	"advanced_versatile_performances": {
 		"name": "Advanced Versatile Performances",
@@ -309,7 +309,7 @@
 			"",
 			"**Masterpiece** ({source/Blood of the Beast}): The bard gains a [bardic masterpiece](ability/bardic_masterpieces), as if he were giving up a feat to learn it. He must meet the masterpiece's prerequisites, and the masterpiece must list ranks in a Perform skill that the bard has chosen with versatile performance as a prerequisite. This option can be selected multiple times."
 		],
-		"subhierarchy": [[ "Bard", "class/bard" ]]
+		"backlink": [ "Bard", "class/bard" ]
 	},
 	"advanced_weapon_training": {
 		"name": "Advanced Weapon Training",
@@ -445,7 +445,7 @@
 			"{SOURCE Weapon Master's Handbook/19}  ",
 			"The fighter selects a number of combat feats that he knows equal to his weapon training bonus with the associated weapon group. The selected feats must be ones that require the fighter to choose a type of weapon (such as {feat/Weapon Focus} and {feat/Weapon Specialization}), and the fighter must have chosen weapons that belong to the associated fighter weapon group. The fighter is treated as having the selected feats for all the weapons in the associated weapon group that are legal choices for those feats. The fighter is also considered to have those feats with these weapons for the purpose of meeting prerequisites."
 		],
-		"subhierarchy": [[ "Fighter", "class/fighter" ]]
+		"backlink": [ "Fighter", "class/fighter" ]
 	},
 	"animal_foci": {
 		"name": "Animal Foci",
@@ -782,7 +782,7 @@
 			"*Archetype:* Verminous Hunter  ",
 			"The creature gains a 25% chance to treat any critical hit or sneak attack as a normal hit (as the fortification armor special ability). This increases to 50% at 8th level, and 75% at 15th level."
 		],
-		"subhierarchy": [[ "Hunter", "class/hunter" ]]
+		"backlink": [ "Hunter", "class/hunter" ]
 	},
 	"annointings": {
 		"name": "Annointings",
@@ -812,7 +812,7 @@
 			"",
 			"The alchemist sprinkles a small quantity of colorful dust that comprises the essence of all four elements. By favoring one element over another in this mixture, the alchemist temporarily changes the energy type of one weapon into another. For example, the alchemist can choose for a bomb to deal acid damage or a weapon with the {magic-enh/shocking burst} special ability to deal fire damage instead. Once an elemental effect is changed, it cannot be changed again until the anointing's duration expires."
 		],
-		"subhierarchy": [[ "Alchemist", "class/alchemist" ]]
+		"backlink": [ "Alchemist", "class/alchemist" ]
 	},
 	"arcane_discoveries": {
 		"name": "Arcane Discoveries",
@@ -897,7 +897,7 @@
 			"Champions of Purity",
 			"Blood of the Moon"
 		],
-		"subhierarchy": [[ "Wizard", "class/wizard" ]]
+		"backlink": [ "Wizard", "class/wizard" ]
 	},
 	"arcane_schools": {
 		"name": "Arcane Schools",
@@ -949,7 +949,7 @@
 			"| [Water](/arcaneschool/water) | Ice, Mud |",
 			"| [Wood](/arcaneschool/wood) | &mdash; |"
 		],
-		"subhierarchy": [[ "Wizard", "class/wizard" ]]
+		"backlink": [ "Wizard", "class/wizard" ]
 	},
 	"aspects": {
 		"name": "Aspects",
@@ -996,7 +996,7 @@
 			"- {aspect/Wolf}",
 			"- {aspect/Wolverine}"
 		],
-		"subhierarchy": [[ "Shifter", "class/shifter" ]]
+		"backlink": [ "Shifter", "class/shifter" ]
 	},
 	"banners": {
 		"name": "Banners",
@@ -1023,7 +1023,7 @@
 			"",
 			"An ally who benefits from this standard gains a +2 morale bonus to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally. At 10th level and every 5 levels thereafter, the bonus to CMD increases by +1. At 14th level, an ally benefiting from the banner is treated as one size category larger for the purposes of determining which creatures can affect him with combat maneuvers. When the cavalier or samurai waves this standard, each ally within 60 feet can move up to 10 feet without provoking attacks of opportunities and ignoring difficult terrain as an immediate action."
 		],
-		"subhierarchy": [[ "Cavalier", "class/cavalier" ]]
+		"backlink": [ "Cavalier", "class/cavalier" ]
 	 },
 	"bardic_masterpieces": {
 		"name": "Bardic Masterpieces",
@@ -1149,7 +1149,7 @@
 			"| [Wildsoul Aria](/bardicmasterpiece/wildsoul_aria) | Feat or 4th-level bard spell known | Channeling the mysterious power of the First World, you grant the listener the gift - or curse - of an animal's shape. |",
 			"| [Wise King's Saga](/bardicmasterpiece/wise_kings_saga) | Feat or 5th-level bard spell known | Your saga magically weaves the counsel of sagacious ancestors into the telling. |"
 		],
-		"subhierarchy": [[ "Bard", "class/bard" ]]
+		"backlink": [ "Bard", "class/bard" ]
 	},
 	"blessings": {
 		"name": "Warpriest Blessings",
@@ -1221,7 +1221,7 @@
 			"| [Weather](/blessing/weather) | Gozreh, Rovagug |",
 			"| [Wildfire](/blessing/wildfire) | Evil deities that offer the Fire blessing or nonevil deities with disasters in their portfolios |"
 		],
-		"subhierarchy": [[ "Warpriest", "class/warpriest" ]]
+		"backlink": [ "Warpriest", "class/warpriest" ]
 	},
 	"bloodline_mutations": {
 		"name": "Bloodline Mutations",
@@ -1247,7 +1247,7 @@
 			"",
 			"When you cast a bloodrager or sorcerer spell that deals damage, creatures affected by the spell reduce their energy resistance and spell resistance against the spell's effects by an amount equal to your Strength or Charisma modifier, whichever is higher. You can use this ability once per day at 4th level and one additional time per day for every 5 caster levels you have beyond 3rd, up to four times per day at 18th level. This ability replaces the sorcerer's 9th-level bloodline power or the bloodrager's 4th-level bloodline power."
 		],
-		"subhierarchy": [[ "Sorcerer", "class/sorcerer" ]]
+		"backlink": [ "Sorcerer", "class/sorcerer" ]
 	},
 	"bloodrager_bloodlines": {
 		"name": "Bloodrager Bloodlines",
@@ -1286,7 +1286,7 @@
 			"| [Verdant](/bloodragerbloodline/verdant) | Your body is suffused with raw plant life. When you bloodrage, your plantlike characteristics bolster your durability and grant you some control over vegetation. |",
 			"| [Vestige](/bloodragerbloodline/vestige) | You are the descendant of great heroes from a lost civilization. |"
 		],
-		"subhierarchy": [[ "Bloodrager", "class/bloodrager" ]]
+		"backlink": [ "Bloodrager", "class/bloodrager" ]
 	},
 	"combat_styles": {
 		"name": "Combat Styles",
@@ -1366,7 +1366,7 @@
 			"",
 			"**Weapon and Shield:** If the ranger selects weapon and shield, he can choose from the following list whenever he gains a combat style feat: {feat/Improved Shield Bash}, {feat/Shield Focus}, {feat/Shield Slam}, and {feat/Two-Weapon Fighting}. At 6th level, he adds {feat/Saving Shield} and {feat/Shield Master} to the list. At 10th level, he adds {feat/Bashing Finish} and {feat/Greater Shield Focus} to the list."
 		],
-		"subhierarchy": [[ "Ranger", "class/ranger" ]]
+		"backlink": [ "Ranger", "class/ranger" ]
 	},
 	"composite_kinetic_blasts": {
 		"name": "Composite Blasts",
@@ -1418,7 +1418,7 @@
 				"initialColumn": 0
 			}
 		],
-		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
+		"backlink": [ "Kineticist", "class/kineticist" ]
 	},
 	"oracle_curses": {
 		"name": "Oracle Curses",
@@ -1488,7 +1488,7 @@
 			"| [Wrecker](/oraclecurse/wrecker) | The destructive power of the Abyss and its teeming hordes of demons seeps from your very pores and into your belongings and surroundings. |",
 			"| [Wrecking Mysticism](/oraclecurse/wrecking_mysticism) | (Kitsune only) A divine entity has blessed you with a source of eldritch power that erodes your fortitude. |"
 		],
-		"subhierarchy": [[ "Oracle", "class/oracle" ]]
+		"backlink": [ "Oracle", "class/oracle" ]
 	},
 	"dares": {
 		"name": "Dares",
@@ -1512,7 +1512,7 @@
 			"",
 			"**Run Like Hell (Ex):** While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 grit or panache point the first time you are more than 100 feet away from your closest enemy."
 		],
-		"subhierarchy": [[ "Swashbuckler", "class/swashbuckler" ]]
+		"backlink": [ "Swashbuckler", "class/swashbuckler" ]
 	},
 	"defense_wild_talents": {
 		"name": "Defense Wild Talents",
@@ -1536,7 +1536,7 @@
 			"| [Searing Flesh (Su)](/kinetic/searing_flesh) | fire | 0 |",
 			"| [Shroud of Water (Su)](/kinetic/shroud_of_water) | water | 0 |"
 		],
-		"subhierarchy": [[ "Kineticist", "class/kineticist" ]]
+		"backlink": [ "Kineticist", "class/kineticist" ]
 	},
 	"disciplines": {
 		"name": "Psychic Disciplines",
@@ -1596,7 +1596,7 @@
 				"initialColumn": 1
 			}
 		],
-		"subhierarchy": [[ "Psychic", "class/psychic" ]]
+		"backlink": [ "Psychic", "class/psychic" ]
 	},
 	"discoveries": {
 		"name": "Alchemist Discoveries",
@@ -1992,6 +1992,6 @@
 			"",
 			"**Wings (Ex)** (*{source/Ultimate Magic}*): The alchemist gains batlike, birdlike, or insectlike functional wings, allowing him to fly as the fly spell for a number of minutes per day equal to his caster level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. An alchemist can select this discovery multiple times; each time he does so, he adds his caster level to the number of minutes per day that he can fly with the wings. This flight is an extraordinary ability. An alchemist must be at least 6th level before selecting this discovery."
 		],
-		"subhierarchy": [[ "Alchemist", "class/alchemist" ]]
+		"backlink": [ "Alchemist", "class/alchemist" ]
 	}
 }

@@ -2264,10 +2264,7 @@
 	},
 	"soulreaver": {
 		"name": "Soulreaver",
-		"sources": [
-			"Mythic Origins",
-			"Mythic Origins"
-		],
+		"sources": [ "Mythic Origins" ],
 		"description": [
 			"## Soulreaver",
 			"",
@@ -2387,10 +2384,7 @@
 	},
 	"spawn_calling": {
 		"name": "Spawn Calling",
-		"sources": [
-			"Inner Sea Gods",
-			"Inner Sea Gods"
-		],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Spawn Calling",
 			"",

@@ -2122,10 +2122,7 @@
 	},
 	"legendary_teamwork": {
 		"name": "Legendary Teamwork",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Legendary Teamwork",
 			"",
@@ -2992,10 +2989,7 @@
 	},
 	"lucky_surge": {
 		"name": "Lucky Surge",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Lucky Surge",
 			"",
@@ -3697,10 +3691,7 @@
 	},
 	"marked_for_glory": {
 		"name": "Marked for Glory",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Marked for Glory",
 			"",
@@ -4171,10 +4162,7 @@
 	"maximized": { "copyof": "maximize_spell" },
 	"maximize_surge": {
 		"name": "Maximize Surge",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Maximize Surge",
 			"",

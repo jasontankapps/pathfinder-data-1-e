@@ -277,7 +277,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 26; **Cost** 1,800 gp  ",
-			"Craft Technological Arms and Armor, military lab",
+			"{feat/Craft Technological Arms and Armor, military lab",
 			"",
 			"Cylex is an exceptionally stable form of explosive that can be shaped at room temperature, like soft clay. Neon green in color, a single charge of cylex can be triggered to explode by using a {tech-misc/detonator} or applying 10 or more points of electricity damage to it in a single action. When detonated, a single use of cylex explodes in a 40-foot-radius spread and deals 6d6 points of bludgeoning damage and 6d6 points of fire damage to all creatures and objects in the area of effect. A successful DC 17 Reflex saving throw halves the damage."
 		]
@@ -296,7 +296,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 23; **Cost** 250 gp  ",
-			"Craft Technological Arms and Armor, military lab",
+			"{feat/Craft Technological Arms and Armor, military lab",
 			"",
 			"A detonator is a small device that can be used to trigger cranial bombs, cylex, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet, though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a {tech-misc/signal booster}.",
 			"",
@@ -320,7 +320,7 @@
 			"",
 			"**Craft DC** 20 (arc grenade), DC 20 (atom grenade), DC 20 (bang grenade), DC 20 (bio grenade), DC 20 (concussion grenade), DC 20 (EMP grenade), DC 20 (flash grenade), DC 20 (flechette grenade), DC 20 (fragmentation grenade), DC 20 (gravity grenade), DC 20 (inferno grenade), DC 20 (plasma grenade), DC 20 (soft grenade), DC 20 (sonic grenade), DC 20 (zero grenade)  ",
 			"**Cost** 375 gp (arc grenade), 3,000 gp (atom grenade), 125 gp (bang grenade), 1,650 gp (bio grenade), 375 gp (concussion grenade), 375 gp (EMP grenade), 375 gp (flash grenade), 375 gp (flechette grenade), 375 gp (fragmentation grenade), 1,125 gp (gravity grenade), 375 gp (inferno grenade), 800 gp (plasma grenade), 375 gp (soft grenade), 500 gp (sonic grenade), 375 gp (zero grenade)  ",
-			"Craft Technological Arms and Armor, military lab",
+			"{feat/Craft Technological Arms and Armor, military lab",
 			"",
 			"A grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a {tech-weapon/grenade launcher}. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. Priming and arming a grenade is a free action; a grenade launcher primes and arms all grenades it fires. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a grenade detonates, it damages all targets within a 20-foot-radius spread. A successful DC 15 Reflex save halves any damage dealt by a grenade.",
 			"",
@@ -346,106 +346,34 @@
 	"arc_grenade": { "copyof": "grenade_arc_grenade" },
 	"grenade_atom_grenade": {
 		"name": "Grenade (atom grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (atom grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_bang_grenade": {
 		"name": "Grenade (bang grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (bang grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_bio_grenade": {
 		"name": "Grenade (bio grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (bio grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_concussion_grenade": {
 		"name": "Grenade (concussion grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (concussion grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_emp_grenade": {
 		"name": "Grenade (emp grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (EMP grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_flash_grenade": {
 		"name": "Grenade (flash grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (flash grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_flechette_grenade": {
 		"name": "Grenade (flechette grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (flechette grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_fragmentation_grenade": {
 		"name": "Grenade (fragmentation grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (fragmentation grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_gas_grenade": {
@@ -462,88 +390,34 @@
 			"### Construction",
 			"",
 			"**Craft DC** 20; **Cost** 375 gp  ",
-			"Craft Technological Arms and Armor, military lab",
+			"{feat/Craft Technological Arms and Armor, military lab",
 			"",
 			"A gas grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a grenade launcher. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a gas grenade detonates, it creates a 20-foot spread of foul-smelling toxic gas. All creatures in this area of effect must succeed at a DC 14 Fortitude save or become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. The gas created lingers in the area for 5 rounds, and any creature that succeeds at its initial save but remains in the cloud must continue to save each round on its turn. The gas is not thick enough to obscure vision, and is a poison effect. The vapors can be dispersed in 1 round by moderate or stronger wind."
 		]
 	},
 	"grenade_gravity_grenade": {
 		"name": "Grenade (gravity grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (gravity grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_inferno_grenade": {
 		"name": "Grenade (inferno grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (inferno grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_plasma_grenade": {
 		"name": "Grenade (plasma grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (plasma grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_soft_grenade": {
 		"name": "Grenade (soft grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (soft grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"soft_grenade": { "copyof": "grenade_soft_grenade" },
 	"grenade_sonic_grenade": {
 		"name": "Grenade (sonic grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (sonic grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"grenade_zero_grenade": {
 		"name": "Grenade (zero grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (zero grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable"
-		],
 		"copyof": "grenade_arc_grenade"
 	},
 	"chemalyzer": {
@@ -628,54 +502,18 @@
 	},
 	"cortex_gun_mark_ii": {
 		"name": "Cortex Gun (mark II)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Cortex gun (mark II)",
-			"",
-			"{SOURCE Technology Guide/42}  ",
-			"**Price** 30,250 gp (mark I), 60,500 gp (mark II), 90,750 gp (mark III), 121,000 gp (mark IV), 151,250 gp (mark V)  ",
-			"**Slot** none; **Weight** 1 lb. (mark I), 1 lb. (mark II), 1 lb. (mark III), 1 lb. (mark IV), 1 lb. (mark V)  ",
-			"**Capacity** 1 nanite canister; **Usage** disposable"
-		],
 		"copyof": "cortex_gun_mark_i"
 	},
 	"cortex_gun_mark_iii": {
 		"name": "Cortex Gun (mark III)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Cortex gun (mark III)",
-			"",
-			"{SOURCE Technology Guide/42}  ",
-			"**Price** 30,250 gp (mark I), 60,500 gp (mark II), 90,750 gp (mark III), 121,000 gp (mark IV), 151,250 gp (mark V)  ",
-			"**Slot** none; **Weight** 1 lb. (mark I), 1 lb. (mark II), 1 lb. (mark III), 1 lb. (mark IV), 1 lb. (mark V)  ",
-			"**Capacity** 1 nanite canister; **Usage** disposable"
-		],
 		"copyof": "cortex_gun_mark_i"
 	},
 	"cortex_gun_mark_iv": {
 		"name": "Cortex Gun (mark IV)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Cortex gun (mark IV)",
-			"",
-			"{SOURCE Technology Guide/42}  ",
-			"**Price** 30,250 gp (mark I), 60,500 gp (mark II), 90,750 gp (mark III), 121,000 gp (mark IV), 151,250 gp (mark V)  ",
-			"**Slot** none; **Weight** 1 lb. (mark I), 1 lb. (mark II), 1 lb. (mark III), 1 lb. (mark IV), 1 lb. (mark V)  ",
-			"**Capacity** 1 nanite canister; **Usage** disposable"
-		],
 		"copyof": "cortex_gun_mark_i"
 	},
 	"cortex_gun_mark_v": {
 		"name": "Cortex Gun (mark V)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Cortex gun (mark V)",
-			"",
-			"{SOURCE Technology Guide/42}  ",
-			"**Price** 30,250 gp (mark I), 60,500 gp (mark II), 90,750 gp (mark III), 121,000 gp (mark IV), 151,250 gp (mark V)  ",
-			"**Slot** none; **Weight** 1 lb. (mark I), 1 lb. (mark II), 1 lb. (mark III), 1 lb. (mark IV), 1 lb. (mark V)  ",
-			"**Capacity** 1 nanite canister; **Usage** disposable"
-		],
 		"copyof": "cortex_gun_mark_i"
 	},
 	"envoys_mouthpiece": {
@@ -957,54 +795,18 @@
 	},
 	"skillchip_mark_ii": {
 		"name": "Skillchip (mark II)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Skillchip (mark II)",
-			"",
-			"{SOURCE Technology Guide/52}  ",
-			"**Price** 400 gp (mark I), 1,600 gp (mark II), 3,600 gp (mark III), 6,400 gp (mark IV), 10,000 gp (mark V)  ",
-			"**Slot** skillslot; **Weight** &mdash; (mark I), &mdash; (mark II), &mdash; (mark III), &mdash; (mark IV), &mdash; (mark V)  ",
-			"**Capacity** -; **Usage** -"
-		],
 		"copyof": "skillchip_mark_i"
 	},
 	"skillchip_mark_iii": {
 		"name": "Skillchip (mark III)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Skillchip (mark III)",
-			"",
-			"{SOURCE Technology Guide/52}  ",
-			"**Price** 400 gp (mark I), 1,600 gp (mark II), 3,600 gp (mark III), 6,400 gp (mark IV), 10,000 gp (mark V)  ",
-			"**Slot** skillslot; **Weight** &mdash; (mark I), &mdash; (mark II), &mdash; (mark III), &mdash; (mark IV), &mdash; (mark V)  ",
-			"**Capacity** -; **Usage** -"
-		],
 		"copyof": "skillchip_mark_i"
 	},
 	"skillchip_mark_iv": {
 		"name": "Skillchip (mark IV)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Skillchip (mark IV)",
-			"",
-			"{SOURCE Technology Guide/52}  ",
-			"**Price** 400 gp (mark I), 1,600 gp (mark II), 3,600 gp (mark III), 6,400 gp (mark IV), 10,000 gp (mark V)  ",
-			"**Slot** skillslot; **Weight** &mdash; (mark I), &mdash; (mark II), &mdash; (mark III), &mdash; (mark IV), &mdash; (mark V)  ",
-			"**Capacity** -; **Usage** -"
-		],
 		"copyof": "skillchip_mark_i"
 	},
 	"skillchip_mark_v": {
 		"name": "Skillchip (mark V)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Skillchip (mark V)",
-			"",
-			"{SOURCE Technology Guide/52}  ",
-			"**Price** 400 gp (mark I), 1,600 gp (mark II), 3,600 gp (mark III), 6,400 gp (mark IV), 10,000 gp (mark V)  ",
-			"**Slot** skillslot; **Weight** &mdash; (mark I), &mdash; (mark II), &mdash; (mark III), &mdash; (mark IV), &mdash; (mark V)  ",
-			"**Capacity** -; **Usage** -"
-		],
 		"copyof": "skillchip_mark_i"
 	},
 	"trauma_pack": {

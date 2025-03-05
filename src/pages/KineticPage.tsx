@@ -12,16 +12,14 @@ const KineticPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, subhierarchy = [] } = getItem<Data>(id, talents);
-
-	const topLink = subhierarchy.length ? subhierarchy[0] : undefined;
+	const { hasJL, title, jsx, sources, backlink } = getItem<Data>(id, talents);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
 		pageId={"/kinetic/" + id}
-		topLink={topLink}
+		topLink={backlink}
 	>{jsx}</BasicPage>;
 };
 

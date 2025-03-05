@@ -1,13 +1,13 @@
 import { ReactElement } from "react";
 import { SourceProp } from "./SourcesModal";
-import { HierarchyArray } from "../types";
+import { Hierarchy } from "../types";
 
 export interface JsonDataProps {
 	hasJL?: boolean,
 	title: string,
 	jsx: ReactElement,
 	sources: SourceProp[],
-	subhierarchy?: HierarchyArray
+	backlink?: Hierarchy
 	noFinder?: boolean
 }
 

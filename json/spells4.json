@@ -261,10 +261,7 @@
 	"elemental_body_iv": { "copyof": "elemental_body_4" },
 	"elemental_bombardment": {
 		"name": "Elemental Bombardment",
-		"sources": [
-			"Mythic Origins",
-			"Mythic Origins"
-		],
+		"sources": [ "Mythic Origins" ],
 		"description": [
 			"## Elemental Bombardment",
 			"",

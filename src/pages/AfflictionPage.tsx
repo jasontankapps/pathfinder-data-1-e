@@ -45,14 +45,14 @@ const AfflictionPage: React.FC = () => {
 
 	const pageId = `/${type}/${id}`;
 
-	const { hasJL, title, jsx, sources, subhierarchy = [], topLink } = getByType(id, type);
+	const { hasJL, title, jsx, sources, topLink } = getByType(id, type);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
 		pageId={pageId}
-		topLink={topLink || (subhierarchy.length ? subhierarchy[0] : basicAfflictionsPage)}
+		topLink={topLink || basicAfflictionsPage}
 	>{jsx}</BasicPage>;
 };
 

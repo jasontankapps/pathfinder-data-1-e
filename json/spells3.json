@@ -2079,10 +2079,7 @@
 	},
 	"deathless": {
 		"name": "Deathless",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Deathless",
 			"",
@@ -3331,7 +3328,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You detect the presence of psychically significant items in your vicinity. Such items are those that might have significant psychic imprints or histories that can be read by the psychometry unlock, or items under the effects of the charge object or implant false reading spells. Items within range that contain significant psychic energy spark a recognition in your mind's eye, but no other information is imparted. This spell doesn't automatically detect magic items or strongly aligned items, though such items often have storied histories and might have had previous owners who possessed psychic abilities."
+			"You detect the presence of psychically significant items in your vicinity. Such items are those that might have significant psychic imprints or histories that can be read by the [psychometry](skill/appraise) unlock, or items under the effects of the {spell/charge object} or {spell/implant false reading} spells. Items within range that contain significant psychic energy spark a recognition in your mind's eye, but no other information is imparted. This spell doesn't automatically detect magic items or strongly aligned items, though such items often have storied histories and might have had previous owners who possessed psychic abilities."
 		]
 	},
 	"detect_radiation": {

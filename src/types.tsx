@@ -31,7 +31,6 @@ export type TableColumnInfoTypes = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "nu
 // 0 = DO NOT SORT ON THIS COLUMN (text)
 
 export type Hierarchy = [string, string];
-export type HierarchyArray = Hierarchy[];
 
 interface BaseFilter {
 	col: number
@@ -87,7 +86,7 @@ export interface Table {
 	// some tables have additional filters (usually spell levels or CR)
 	filter?: Filter[]
 	// specifying column widths
-	sizes?: number | number[]
+	sizes?: number[]
 }
 
 export interface DisplayItemProps {
@@ -119,7 +118,7 @@ export interface BasicItem {
 	description: string[]
 	tables?: Table[]
 	sources: SourceProp[]
-	subhierarchy?: HierarchyArray
+	backlink?: Hierarchy
 }
 
 // NUMERIC RANGE

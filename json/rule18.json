@@ -368,7 +368,7 @@
 	},
 	"bluff": {
 		"name": "Bluff",
-		"subtopic": "Skills in Conflict, Advanced GM Topics",
+		"subtitle": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/182}",
@@ -395,7 +395,7 @@
 	},
 	"lying": {
 		"name": "Lying",
-		"subtopic": "Bluff, Skills in Conflict, Advanced GM Topics",
+		"subtitle": "Bluff, Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/182}",
@@ -438,7 +438,7 @@
 	},
 	"other_uses_of_bluff": {
 		"name": "Other Uses of Bluff",
-		"subtopic": "Skills in Conflict, Advanced GM Topics",
+		"subtitle": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/184}",
@@ -466,7 +466,7 @@
 	"diplomacy": {
 		"name": "Diplomacy",
 		"tags": "Attitudes and Requests",
-		"subtopic": "Skills in Conflict, Advanced GM Topics",
+		"subtitle": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/184}",
@@ -509,7 +509,7 @@
 	},
 	"disguise": {
 		"name": "Disguise",
-		"subtopic": "Skills in Conflict, Advanced GM Topics",
+		"subtitle": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/186}",
@@ -542,7 +542,7 @@
 	},
 	"intimidate_ui": {
 		"name": "Intimidate",
-		"subtopic": "Skills in Conflict, Advanced GM Topics",
+		"subtitle": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/186}",
@@ -571,7 +571,7 @@
 	},
 	"perception_and_stealth": {
 		"name": "Perception and Stealth",
-		"subtopic": "Skills in Conflict, Advanced GM Topics",
+		"subtitle": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/187}",
@@ -610,7 +610,7 @@
 	},
 	"sense_motive_ui": {
 		"name": "Sense Motive",
-		"subtopic": "Skills in Conflict, Advanced GM Topics",
+		"subtitle": "Skills in Conflict, Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/188}",

@@ -1200,10 +1200,7 @@
 	},
 	"titan_strike": {
 		"name": "Titan Strike",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Titan Strike",
 			"",
@@ -2553,10 +2550,7 @@
 	},
 	"two_fisted_drinker": {
 		"name": "Two-Fisted Drinker",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Two-Fisted Drinker",
 			"",
@@ -3677,10 +3671,7 @@
 	},
 	"valiant_vault": {
 		"name": "Valiant Vault",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Valiant Vault",
 			"",

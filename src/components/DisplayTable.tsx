@@ -838,7 +838,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 				active={i === active}
 				sorter={sorter}
 				sortable={sortable && (types[i] !== 0)}
-				size={Array.isArray(sizes) ? sizes[i] : sizes}
+				size={sizes && sizes[i]}
 			>{th}</Th>;
 		}).filter((h, i) => (activeHeaders.indexOf(i) > -1))
 	}, [headers, activeHeaders, id, initialColumn, sorter, active, types, sortable, sizes]);
@@ -868,10 +868,8 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const tableWidth = useMemo(() => {
 		if(!sizes) {
 			return undefined;
-		} else if (Array.isArray(sizes)) {
-			return { width: `${activeHeaders.reduce((total, i) => total + sizes[i], 0) + activeHeaders.length}rem` };
 		}
-		return { width: `${activeHeaders.length * (sizes + 1)}rem` };
+		return { width: `${activeHeaders.reduce((total, i) => total + sizes[i], 0) + activeHeaders.length}rem` };
 	}, [sizes, activeHeaders]);
 	useEffect(() => {
 		// Restore saved table filters and sort status

@@ -108,19 +108,10 @@ function isGood(object, what) {
 			|| test.sources.some(line => typeof line !== "string")
 			|| !Array.isArray(test.description)
 			|| test.description.some(line => typeof line !== "string")
-			|| (test.subhierarchy && (
-				!Array.isArray(test.subhierarchy)
-				|| test.subhierarchy.some((pair, i) => {
-					if (
-						!Array.isArray(pair) || pair.length !== 2
-						|| typeof pair[0] !== "string"
-						|| typeof pair[1] !== "string"
-					) {
-						found = true;
-						msg.push(`Bad info at ${prop}.subhierarchy[${i}]`);
-						return true;
-					}
-				})
+			|| (test.backlink && (
+				!Array.isArray(test.backlink)
+				|| test.backlink.length !== 2
+				|| test.backlink.some(bit => typeof bit !== "string")
 			))
 		) {
 			found || msg.push(`Basic problem with ${prop}`);

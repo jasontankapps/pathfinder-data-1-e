@@ -2388,10 +2388,7 @@
 	},
 	"ascendant_spell": {
 		"name": "Ascendant Spell",
-		"sources": [
-			"Mythic Adventures",
-			"Mythic Adventures"
-		],
+		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Ascendant Spell (Metamagic)",
 			"",

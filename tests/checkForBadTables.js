@@ -52,10 +52,9 @@ const checkForBadTables = (tables, objectDescription) => {
 				} else if (
 					// Check sizes
 					sizes !== undefined && (
-						Array.isArray(sizes) ?
-							sizes.length !== types.length
-							|| sizes.some(size => typeof size !== "number")
-						: typeof sizes !== "number"
+						!Array.isArray(sizes)
+						|| sizes.length !== types.length
+						|| sizes.some(size => typeof size !== "number")
 					)
 				) {
 					found = `Error with sizes property at ${tableDesc} (${id})`;

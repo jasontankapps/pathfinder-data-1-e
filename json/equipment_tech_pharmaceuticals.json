@@ -87,12 +87,12 @@
 			"## Hemochem (Grade I)",
 			"",
 			"{SOURCE Technology Guide/34}  ",
-			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)",
+			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grade V)",
 			"",
 			"### Construction",
 			"",
-			"**Craft DC** 23 (Grade I), DC 24 (Grade II), DC 25 (Grade III), DC 26 (Grade IV), DC 27 (Grave V); **Cost** 125 gp (Grade I), 250 gp (Grade II), 375 gp (Grade III), 500 gp (Grade IV), 625 gp (Grave V)  ",
-			"Craft Pharmaceutical, medical lab",
+			"**Craft DC** 23 (Grade I), DC 24 (Grade II), DC 25 (Grade III), DC 26 (Grade IV), DC 27 (Grade V); **Cost** 125 gp (Grade I), 250 gp (Grade II), 375 gp (Grade III), 500 gp (Grade IV), 625 gp (Grade V)  ",
+			"{feat/Craft Pharmaceutical}, medical lab",
 			"",
 			"Hemochem stops bleeding and promotes healing. A single dose of hemochem grants fast healing for 1 minute. Multiple doses injected do not stack, but they do reset the duration of the fast healing back to 1 minute. Five grades of hemochem exist; the fast healing granted by a dose depends on the pharmaceutical's grade, as detailed below.",
 			"",
@@ -107,46 +107,18 @@
 	},
 	"hemochem_grade_ii": {
 		"name": "Hemochem (grade II)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Hemochem (Grade II)",
-			"",
-			"{SOURCE Technology Guide/34}  ",
-			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)"
-		],
 		"copyof": "hemochem_grade_i"
 	},
 	"hemochem_grade_iii": {
 		"name": "Hemochem (grade III)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Hemochem (Grade III)",
-			"",
-			"{SOURCE Technology Guide/34}  ",
-			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)"
-		],
 		"copyof": "hemochem_grade_i"
 	},
 	"hemochem_grade_iv": {
 		"name": "Hemochem (grade IV)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Hemochem (Grade IV)",
-			"",
-			"{SOURCE Technology Guide/34}  ",
-			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)"
-		],
 		"copyof": "hemochem_grade_i"
 	},
 	"hemochem_grave_v": {
 		"name": "Hemochem (grave V)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Hemochem (Grave V)",
-			"",
-			"{SOURCE Technology Guide/34}  ",
-			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)"
-		],
 		"copyof": "hemochem_grade_i"
 	},
 	"hype": {

@@ -276,142 +276,42 @@
 	},
 	"dermal_plating_mark_ii": {
 		"name": "Dermal Plating (mark II)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Dermal Plating (Mark II)",
-			"",
-			"{SOURCE Technology Guide/37}  ",
-			"**Price** 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III), 64,000 gp (Mark IV), 100,000 gp (Mark V)  ",
-			"**Slot** body; **Weight** 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III), 5 lbs. (Mark IV), 5 lbs. (Mark V)  ",
-			"**Install** DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)  ",
-			"**Implantation** 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)"
-		],
 		"copyof": "dermal_plating_mark_i"
 	},
 	"cyberfiber_muscles_mark_ii": {
 		"name": "Cyberfiber Muscles (mark II)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Cyberfiber Muscles (Mark II)",
-			"",
-			"{SOURCE Technology Guide/36}  ",
-			"**Price** 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)  ",
-			"**Slot** body; **Weight** 10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)  ",
-			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
-			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
-		],
 		"copyof": "cyberfiber_muscles_mark_i"
 	},
 	"thoracic_nanite_chamber_mark_ii": {
 		"name": "Thoracic Nanite Chamber (mark II)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Thoracic Nanite Chamber (Mark II)",
-			"",
-			"{SOURCE Technology Guide/38}  ",
-			"**Price** 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)  ",
-			"**Slot** body; **Weight** 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III)  ",
-			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
-			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
-		],
 		"copyof": "thoracic_nanite_chamber_mark_i"
 	},
 	"wirejack_tendons_mark_ii": {
 		"name": "Wirejack Tendons (mark II)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Wirejack Tendons (Mark II)",
-			"",
-			"{SOURCE Technology Guide/38}  ",
-			"**Price** 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)  ",
-			"**Slot** body; **Weight** 10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)  ",
-			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
-			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
-		],
 		"copyof": "wirejack_tendons_mark_i"
 	},
 	"dermal_plating_mark_iii": {
 		"name": "Dermal Plating (mark III)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Dermal Plating (Mark III)",
-			"",
-			"{SOURCE Technology Guide/37}  ",
-			"**Price** 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III), 64,000 gp (Mark IV), 100,000 gp (Mark V)  ",
-			"**Slot** body; **Weight** 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III), 5 lbs. (Mark IV), 5 lbs. (Mark V)  ",
-			"**Install** DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)  ",
-			"**Implantation** 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)"
-		],
 		"copyof": "dermal_plating_mark_i"
 	},
 	"dermal_plating_mark_iv": {
 		"name": "Dermal Plating (mark IV)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Dermal Plating (Mark IV)",
-			"",
-			"{SOURCE Technology Guide/37}  ",
-			"**Price** 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III), 64,000 gp (Mark IV), 100,000 gp (Mark V)  ",
-			"**Slot** body; **Weight** 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III), 5 lbs. (Mark IV), 5 lbs. (Mark V)  ",
-			"**Install** DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)  ",
-			"**Implantation** 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)"
-		],
 		"copyof": "dermal_plating_mark_i"
 	},
 	"cyberfiber_muscles_mark_iii": {
 		"name": "Cyberfiber Muscles (mark III)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Cyberfiber Muscles (Mark III)",
-			"",
-			"{SOURCE Technology Guide/36}  ",
-			"**Price** 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)  ",
-			"**Slot** body; **Weight** 10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)  ",
-			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
-			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
-		],
 		"copyof": "cyberfiber_muscles_mark_i"
 	},
 	"thoracic_nanite_chamber_mark_iii": {
 		"name": "Thoracic Nanite Chamber (mark III)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Thoracic Nanite Chamber (Mark III)",
-			"",
-			"{SOURCE Technology Guide/38}  ",
-			"**Price** 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)  ",
-			"**Slot** body; **Weight** 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III)  ",
-			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
-			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
-		],
 		"copyof": "thoracic_nanite_chamber_mark_i"
 	},
 	"wirejack_tendons_mark_iii": {
 		"name": "Wirejack Tendons (mark III)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Wirejack Tendons (Mark III)",
-			"",
-			"{SOURCE Technology Guide/38}  ",
-			"**Price** 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)  ",
-			"**Slot** body; **Weight** 10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)  ",
-			"**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)  ",
-			"**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)"
-		],
 		"copyof": "wirejack_tendons_mark_i"
 	},
 	"dermal_plating_mark_v": {
 		"name": "Dermal Plating (mark V)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Dermal Plating (Mark V)",
-			"",
-			"{SOURCE Technology Guide/37}  ",
-			"**Price** 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III), 64,000 gp (Mark IV), 100,000 gp (Mark V)  ",
-			"**Slot** body; **Weight** 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III), 5 lbs. (Mark IV), 5 lbs. (Mark V)  ",
-			"**Install** DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)  ",
-			"**Implantation** 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)"
-		],
 		"copyof": "dermal_plating_mark_i"
 	},
 	"cybernetic_arm": {
