@@ -90,8 +90,7 @@
 			"You're an expert with weapons that rely on your agility.  ",
 			"**Prerequisites:** {feat/Weapon Finesse}.  ",
 			"**Benefit:** When using Weapon Finesse, you may also use your Dexterity modifier instead of your Strength modifier on your damage rolls. If you carry a shield, its armor check penalty doesn't apply to either the attack rolls or the damage rolls."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"weapon_focus": {
 		"name": "Weapon Focus",
@@ -123,8 +122,7 @@
 			"**Prerequisites:** {feat/Weapon Focus}.  ",
 			"**Benefit:** Double the bonuses on your attack rolls from Weapon Focus and {feat/Greater Weapon Focus}. As a swift action, you can expend one use of mythic power to gain a bonus on attack rolls with your selected weapon equal to half your tier until the end of your turn.  ",
 			"**Special:** If you have taken non-mythic Weapon Focus multiple times, you must choose which of those feats this enhances. You can take this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Weapon Focus feat you have."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"weapon_material_mastery": {
 		"name": "Weapon Material Mastery",
@@ -221,8 +219,7 @@
 			"**Prerequisites:** {feat/Weapon Specialization}.  ",
 			"**Benefit:** When using your chosen weapon, you gain a bonus equal to half your tier on damage rolls. This stacks with the bonus from Weapon Specialization and {feat/Greater Weapon Specialization}.  ",
 			"**Special:** If you have taken non-mythic Weapon Specialization multiple times, you must choose which of those feats this enhances. You can take this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Weapon Specialization feat you have."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"weapon_style_mastery": {
 		"name": "Weapon Style Mastery",
@@ -953,8 +950,7 @@
 			"Your witch knife is as much an extension of your body as it is an extension of your power.  ",
 			"**Prerequisites:** {feat/Witch Knife}.  ",
 			"**Benefit:** You can use your witch knife as an additional focus component for all your witch spells, not just your patron spells, adding 1 to their DC. This bonus stacks with the bonus to patron spells granted by Witch Knife, granting your patron spells a total +2 bonus to their DC. Additionally, the hand holding the witch knife is still considered free for the purpose of casting spells and delivering touch attacks."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"witchbreaker": {
 		"name": "Witchbreaker",

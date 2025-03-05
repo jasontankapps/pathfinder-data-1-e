@@ -452,8 +452,7 @@
 			"Your mythic stature makes others uneasy.  ",
 			"**Prerequisites:** {feat/Intimidating Prowess}.  ",
 			"**Benefit:** You gain a bonus on Intimidate checks equal to your tier against non-mythic creatures, or half your tier against mythic creatures. If you also have the Persuasive (mythic) feat, you can expend one use of mythic power to treat the Intimidate check as if you had rolled a natural 20. You must decide to use this ability before the roll is made."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"intoxicating_flattery": {
 		"name": "Intoxicating Flattery",
@@ -613,8 +612,7 @@
 			"Your will is incorruptible.  ",
 			"**Prerequisites:** {feat/Iron Will}.  ",
 			"**Benefit:** Whenever you roll a Will saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"ironbound_master": {
 		"name": "Ironbound Master",
@@ -1405,8 +1403,7 @@
 			"Your knockout punches are truly mighty.  ",
 			"**Prerequisites:** {feat/Knockout Artist}.  ",
 			"**Benefit:** When you use your unarmed strike to deal nonlethal damage and sneak attack damage to an opponent, roll d8s for each sneak attack die instead of d6s."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"knotted_nets": {
 		"name": "Knotted Nets",
@@ -2137,8 +2134,7 @@
 			"You and your allies fight with great coordination.  ",
 			"**Prerequisites:** Any two {main/feats_<teamwork/ feats}.  ",
 			"**Benefit:** Any fixed numeric bonuses you gain from teamwork feats are increased by 1. This doesn't apply to variable numeric bonuses or to effects that are not numeric bonuses, such as additional attacks of opportunity, movement, or other extra actions."
-		],
-		"mythic_only": true
+		]
 	},
 	"legionnaires_inspiration": {
 		"name": "Legionnaire's Inspiration",
@@ -2480,8 +2476,7 @@
 			"Your reflexes are superhuman.  ",
 			"**Prerequisites:** {feat/Lightning Reflexes}.  ",
 			"**Benefit:** Whenever you roll a Reflex saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"lightning_stance": {
 		"name": "Lightning Stance",
@@ -2959,8 +2954,7 @@
 			"You share your mythic luck with those around you.  ",
 			"**Prerequisites:** {feat/Lucky Halfling}.  ",
 			"**Benefit:** When you use Lucky Halfling, add your tier as a bonus on the saving throw. You can expend one use of mythic power when an ally uses your save but still suffers an effect on a successful saving throw. If you do, that ally suffers no effect on the successful saving throw."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"lucky_healer": {
 		"name": "Lucky Healer",
@@ -3010,8 +3004,7 @@
 			"Your surges defy the odds.  ",
 			"**Prerequisites:** {feat/Potent Surge}, 3rd mythic tier.  ",
 			"**Benefit:** Whenever you use your surge ability, you can roll your surge dice twice and take the higher result. If you can already roll your surge dice twice and take the higher result, you roll your surge dice three times and take the highest result."
-		],
-		"mythic_only": true
+		]
 	},
 	"lunge": {
 		"name": "Lunge",
@@ -3041,8 +3034,7 @@
 			"Your reaching strikes aid your defenses against those you hit.  ",
 			"**Prerequisites:** {feat/Lunge}.  ",
 			"**Benefit:** Whenever you use Lunge and hit a creature with the melee attack, you no longer take a -2 penalty to AC against that creature. You can expend one use of mythic power when you use Lunge to negate the -2 penalty to AC whether you hit or miss, and gain a +2 bonus on attacks of opportunity you make while Lunge is in effect."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"lunging_spell_touch": {
 		"name": "Lunging Spell Touch",
@@ -3302,8 +3294,7 @@
 			"Your understanding of the principles and intricacies of magic goes far beyond your training.  ",
 			"**Prerequisites:** {feat/Magical Aptitude}.  ",
 			"**Benefit:** The bonus on Spellcraft and Use Magic Device skill checks from Magical Aptitude increases by 2. In addition, you can expend one use of mythic power to treat a Spellcraft or Use Magic Device check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"magical_enigma": {
 		"name": "Magical Enigma",
@@ -3610,8 +3601,7 @@
 			"You can fire a barrage of arrows at your target with very little effort.  ",
 			"**Prerequisites:** {feat/Manyshot}.  ",
 			"**Benefit:** When making a full-attack action with a bow and using Manyshot, you fire two arrows with both your first and second attacks, instead of just your first attack."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"marcher_lord_of_the_cerulean_abyss": {
 		"name": "Marcher-Lord of the Cerulean Abyss",
@@ -4194,8 +4184,7 @@
 			"**Prerequisites:** 6th mythic tier.  ",
 			"**Benefit:** Once per day when you surge, you can expend two uses of mythic power to treat your surge die as though it rolled the maximum result.  ",
 			"**Special:** You can take this feat multiple times. Each time you do, you gain an extra use of this feat per day."
-		],
-		"mythic_only": true
+		]
 	},
 	"maximized_spellstrike": {
 		"name": "Maximized Spellstrike",
@@ -4313,8 +4302,7 @@
 			"Your barrage of unarmed attacks builds to a single, staggering strike.  ",
 			"**Prerequisites:** Medusa's Wrath.  ",
 			"**Benefit:** You may forgo the two additional unarmed strikes of Medusa's Wrath to instead make a single unarmed strike at your highest base attack bonus. If you successfully hit your opponent, it must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Wisdom modifier) or be staggered for 1 round. You can expend one use of mythic power when you stagger a target with Medusa's Wrath to extend the duration of the staggered condition by a number of rounds equal to half your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"menacing_bane": {
 		"name": "Menacing Bane",
@@ -4786,8 +4774,7 @@
 			"Your remarkable awareness allows you to deflect multiple ranged attacks and even ray spells.  ",
 			"**Prerequisites:** {feat/Missile Shield}.  ",
 			"**Benefit:** When using Missile Shield, you can deflect an additional number of ranged attacks per round equal to half your tier. You can expend one use of mythic power as an immediate action to deflect a single ray from a ray spell or effect targeting you."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"mixed_scales": {
 		"name": "Mixed Scales",
@@ -4897,8 +4884,7 @@
 			"You have perfected your ability to weave through the battlefield, using your momentum to propel yourself far.  ",
 			"**Prerequisites:** {feat/Mobility}.  ",
 			"**Benefit:** Whenever you use Mobility, you gain a +6 dodge bonus to AC instead of the normal +4. In addition, once per round when an attack of opportunity provoked by your movement misses you, you may move 5 feet as a free action. This movement doesn't count against your total overall movement for the round, but it does provoke attacks of opportunity."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"mocking_dance": {
 		"name": "Mocking Dance",

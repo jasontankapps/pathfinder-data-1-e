@@ -349,8 +349,7 @@
 			"Your attacks create a rhythmic barrage that doesn't sacrifice precision for force.  ",
 			"**Prerequisites:** {feat/Furious Focus}.  ",
 			"**Benefit:** When you are using Furious Focus, you don't take Power Attack's penalty on attack rolls that are made as attacks of opportunity. As a free action, you can expend one use of mythic power to negate Power Attack's penalty on all melee attacks you make for 1 round while using this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"furious_spell": {
 		"name": "Furious Spell",
@@ -896,8 +895,7 @@
 			"**Benefit:** You gain the following spell-like abilities: 1/day-blur and vanish.",
 			"",
 			"You can use your gnome spell-like abilities an additional number of times per day equal to half your tier. You can spend these additional uses to use any of your gnome spell-like abilities you wish. Your caster level for your gnome spell-like abilities becomes your character level plus your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"gnome_weapon_focus": {
 		"name": "Gnome Weapon Focus",
@@ -1077,8 +1075,7 @@
 			"Your strikes debilitate and disorient your foes.  ",
 			"**Prerequisites:** Gorgon's Fist.  ",
 			"**Benefit:** When you hit a creature while using Gorgon's Fist, if the target fails its Fortitude saving throw, it is dazed for 1 round instead of staggered. You can expend one use of mythic power when you hit with a Gorgon's Fist attack, but before the saving throw is attempted, to increase its DC by half your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"gory_finish": {
 		"name": "Gory Finish",
@@ -1445,8 +1442,7 @@
 			"Your fortitude is unmatched.  ",
 			"**Prerequisites:** {feat/Great Fortitude}.  ",
 			"**Benefit:** Whenever you roll a Fortitude saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"great_hatred": {
 		"name": "Great Hatred",
@@ -2858,8 +2854,7 @@
 			"Attacks made with your deity's favored weapon are divinely inspired.  ",
 			"**Prerequisites:** {feat/Guided Hand}.  ",
 			"**Benefit:** When making attacks with your deity's favored weapon, you can add your Wisdom modifier instead of your Strength or Dexterity modifier on damage rolls."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"guided_star": {
 		"name": "Guided Star",
@@ -3481,8 +3476,7 @@
 			"**Benefit:** You gain a bonus equal to half your tier on checks to bull rush, and to your CMD when an opponent bull rushes you. These bonuses stack with those granted by non-mythic Improved Bull Rush.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to bull rush you, unless it also has this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_called_shot": {
 		"name": "Improved Called Shot",
@@ -3520,8 +3514,7 @@
 			"As a divine conduit for energy, you're unmatched.  ",
 			"**Prerequisites:** {feat/Improved Channel}.  ",
 			"**Benefit:** Non-mythic creatures that take damage from your channel energy must roll their saving throws twice and take the lower result."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_channel_force": {
 		"name": "Improved Channel Force",
@@ -3629,8 +3622,7 @@
 			"Your innate understanding of magical mechanics allows you to unravel spells with pure magical energy.  ",
 			"**Prerequisites:** {feat/Improved Counterspell}.  ",
 			"**Benefit:** When counterspelling, you can use a spell of the same school that is the same or higher spell level as the target spell."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_critical": {
 		"name": "Improved Critical",
@@ -3662,8 +3654,7 @@
 			"**Prerequisites:** {feat/Improved Critical}, base attack bonus +8.  ",
 			"**Benefit:** Your critical multiplier with your chosen weapon is increased by 1 (to a maximum of &times;6).  ",
 			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Improved Critical feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_dark_sight": {
 		"name": "Improved Dark Sight",
@@ -3770,8 +3761,7 @@
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a dirty trick, and to your CMD when an opponent attempts to perform a dirty trick on you. These bonuses stack with those granted by Improved Dirty Trick.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts a dirty trick maneuver against you, unless it also has this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_disarm": {
 		"name": "Improved Disarm",
@@ -3804,8 +3794,7 @@
 			"**Benefit:** You gain a bonus equal to half your tier on checks to disarm, and to your CMD when an opponent tries to disarm you. These bonuses stack with those granted by Improved Disarm.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to disarm you, unless it also has this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_disarm_partner": {
 		"name": "Improved Disarm Partner",
@@ -3851,8 +3840,7 @@
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a drag combat maneuver, and to your CMD when an opponent attempts a drag combat maneuver against you. These bonuses stack with those granted by Improved Drag.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts a drag maneuver against you, unless it also has this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_drow_nobility": {
 		"name": "Improved Drow Nobility",
@@ -3932,8 +3920,7 @@
 			"Your familiar gains some of your incredible resiliency and insight.  ",
 			"**Prerequisites:** {feat/Improved Familiar}.  ",
 			"**Benefit:** For every 3 tiers you possess, your familiar gains a +2 bonus to an ability score of your choice. These bonuses stack. Your familiar adds your tier to its natural armor bonus and to its spell resistance (if it has spell resistance)."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_familiar_bond": {
 		"name": "Improved Familiar Bond",
@@ -4122,8 +4109,7 @@
 			"**Benefit:** You gain a bonus equal to half your tier on checks to grapple, and to your CMD when an opponent tries to grapple you. These bonuses stack with those granted by Improved Grapple.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to grapple you, unless it also has this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_great_fortitude": {
 		"name": "Improved Great Fortitude",
@@ -4253,8 +4239,7 @@
 			"You leap into the fray with speed and confidence.  ",
 			"**Prerequisites:** {feat/Improved Initiative}.  ",
 			"**Benefit:** The bonus on initiative checks granted by Improved Initiative increases by an amount equal to your tier. This bonus stacks with the bonus from Improved Initiative. In addition, instead of rolling initiative, you can expend one use of mythic power to treat your roll as a natural 20."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_intercept_blow": {
 		"name": "Improved Intercept Blow",
@@ -4493,8 +4478,7 @@
 			"**Benefit:** You gain a bonus equal to half your tier on checks to overrun, and to your CMD when an opponent tries to overrun you. These bonuses stack with those granted by Improved Overrun.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to overrun you, unless it also has this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_parry": {
 		"name": "Improved Parry",
@@ -4688,8 +4672,7 @@
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a reposition combat maneuver, and to your CMD when an opponent attempts to perform a reposition combat maneuver against you. These bonuses stack with those granted by Improved Reposition.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to reposition you, unless it also has this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_roar": {
 		"name": "Improved Roar",
@@ -4929,8 +4912,7 @@
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a steal combat maneuver, and to your CMD when an opponent attempts a steal combat maneuver on you. These bonuses stack with those granted by Improved Steal.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts a steal maneuver against, you unless it also has this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_stellar_wanderer": {
 		"name": "Improved Stellar Wanderer",
@@ -4980,8 +4962,7 @@
 			"If you listen close, you can hear the secrets of stone.  ",
 			"**Prerequisites:** {feat/Improved Stonecunning}.  ",
 			"**Benefit:** You gain {spell/stone tell} as a spell-like ability usable once per day with a caster level equal to twice your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_studied_combatant": {
 		"name": "Improved Studied Combatant",
@@ -5027,8 +5008,7 @@
 			"**Benefit:** You gain a bonus equal to half your tier on checks to sunder, and to your CMD when an opponent tries to sunder an object used by you. These bonuses stack with those granted by Improved Sunder.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to sunder an object used by you, unless it also has this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_surprise_follow_through": {
 		"name": "Improved Surprise Follow-Through",
@@ -5131,8 +5111,7 @@
 			"**Benefit:** You gain a bonus equal to half your tier on checks to trip, and to your CMD when an opponent tries to trip you. These bonuses stack with those granted by Improved Trip.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to trip you, unless it also has this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_two_weapon_feint": {
 		"name": "Improved Two-Weapon Feint",
@@ -5218,8 +5197,7 @@
 			"Your unarmed strikes are more powerful than others.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}.  ",
 			"**Benefit:** You can add half your tier to your damage with unarmed strikes. As a swift action, you can expend one use of mythic power to overcome the hardness of objects with your unarmed strikes. This effect last for a number of rounds equal to your tier. If an object's hardness is greater than 15, you don't ignore any of its hardness."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"improved_uncivilized_tactics": {
 		"name": "Improved Uncivilized Tactics",

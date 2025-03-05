@@ -345,8 +345,7 @@
 			"When you exclude creatures from your channel, you empower those you do affect.  ",
 			"**Prerequisites:** {feat/Selective Channeling}.  ",
 			"**Benefit:** When you channel energy, the damage you heal or deal increases by a number of points equal to twice the number of targets you excluded from your channeled energy. You can expend one use of mythic power to increase the number of targets you exclude from your channeled energy by half your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"selective_spell": {
 		"name": "Selective Spell",
@@ -413,8 +412,7 @@
 			"Independence comes naturally to you, and you have mastered taking care of yourself.  ",
 			"**Prerequisites:** {feat/Self-Sufficient}.  ",
 			"**Benefit:** The bonus on Heal and Survival skill checks from Self-Sufficient increases by 2. In addition, you can expend one use of mythic power to treat a Heal or Survival check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"sense_allies": {
 		"name": "Sense Allies",
@@ -1275,8 +1273,7 @@
 			"Your dazzling attacks leave your opponents flummoxed and bewildered, unable to attack you or to defend themselves effectively.  ",
 			"**Prerequisites:** {feat/Shatter Defenses}.  ",
 			"**Benefit:** An opponent you affect with Shatter Defenses is flat-footed to all attacks, not just yours."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"shatter_mental_mask": {
 		"name": "Shatter Mental Mask",
@@ -1388,8 +1385,7 @@
 			"You're a master of using your shield for protection.  ",
 			"**Prerequisites:** {feat/Shield Focus}.  ",
 			"**Benefit:** Add your shield bonus and your shield's enhancement bonus to your touch AC. As an immediate action, you can expend one use of mythic power to add your shield bonus and your shield's enhancement bonus on a Fortitude or Reflex save just before you roll it."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"shield_gauntlet_style": {
 		"name": "Shield Gauntlet Style",
@@ -1520,8 +1516,7 @@
 			"Your shield bash produces a powerful kick.  ",
 			"**Prerequisites:** {feat/Shield Slam}.  ",
 			"**Benefit:** When using Shield Slam to bull rush, an opponent knocked prone because of an intervening wall or other surface also takes damage from the collision. The damage dealt is equal to 1d6 points per 2 tiers you possess. As an immediate action, you can expend one use of mythic power to add your tier to your combat maneuver checks when resolving a bull rush made due to Shield Slam."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"shield_snag": {
 		"name": "Shield Snag",
@@ -1856,8 +1851,7 @@
 			"With ease, you can snap off two shots while dashing across the battlefield.  ",
 			"**Prerequisites:** {feat/Shot on the Run}, base attack bonus +6.  ",
 			"**Benefit:** Whenever you use Shot on the Run, you can make two ranged attacks at your highest base attack bonus at any point during your movement, instead of just one."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"shrapnel_strike": {
 		"name": "Shrapnel Strike",
@@ -2455,8 +2449,7 @@
 			"**Prerequisites:** {feat/Skill Focus}.  ",
 			"**Benefit:** You can always take 10 or 20 on checks with your choice of skill for Skill Focus, even when you are rushed or threatened.  ",
 			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Skill Focus feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"skilled_driver": {
 		"name": "Skilled Driver",
@@ -3197,8 +3190,7 @@
 			"You can use the weapons you pluck from the air to immediately make melee attacks.  ",
 			"**Prerequisites:** {feat/Snatch Arrows}.  ",
 			"**Benefit:** When you use Snatch Arrows to catch a thrown weapon that can also be used as a melee weapon, you can make a melee attack with it as an immediate action against a foe within the weapon's melee reach. You can expend one use of mythic power to make this attack without spending an immediate action."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"sneaking_critical": {
 		"name": "Sneaking Critical",
@@ -3301,8 +3293,7 @@
 			"Your easy nature flows from you without effort, putting others at ease.  ",
 			"**Prerequisites:** {feat/Sociable}.  ",
 			"**Benefit:** You grant and benefit from the +2 bonus on Diplomacy checks from Sociable constantly without having to spend a move action. You can spend a move action to increase the bonus to +4 for a number of rounds equal to your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"social_bravery": {
 		"name": "Social Bravery",
@@ -3743,8 +3734,7 @@
 			"**Prerequisites:** {feat/Spell Focus}.  ",
 			"**Benefit:** Choose a school of magic you already have Spell Focus in. The bonus to save DCs provided by Spell Focus and {feat/Greater Spell Focus} for that school increases by 1. You can expend one use of mythic power as part of casting a spell from your chosen school to force any of the spell's targets to roll their saving throws twice, taking the lower result.  ",
 			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Spell Focus feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"spell_hex": {
 		"name": "Spell Hex",
@@ -3784,8 +3774,7 @@
 			"You're so familiar with certain spells you can prepare them with the greatest of ease.  ",
 			"**Prerequisites:** {feat/Spell Mastery}.  ",
 			"**Benefit:** You can prepare spells you have selected with Spell Mastery as a full-round action. You must spend the appropriate amount of time preparing other spells you have not mastered. As a full-round action, you can expend one use of mythic power to prepare all your spells that you have selected with Spell Mastery."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"spell_penetration": {
 		"name": "Spell Penetration",
@@ -3808,8 +3797,7 @@
 			"Your mythic power breaches your enemies' defenses.  ",
 			"**Prerequisites:** {feat/Spell Penetration}.  ",
 			"**Benefit:** Add half your tier to caster level checks to overcome spell resistance. If you have {feat/Greater Spell Penetration}, add your full tier instead."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"spell_perfection": {
 		"name": "Spell Perfection",
@@ -3927,8 +3915,7 @@
 			"**Benefit:** Any non-mythic creature you threaten provokes an attack of opportunity from you whenever it uses a spell or spell-like ability, even when casting defensively or casting a quickened spell.",
 			"",
 			"If a non-mythic creature within 30 feet of you uses a spell or spell-like ability, you can expend one use of mythic power to make a ranged attack against that creature as an attack of opportunity (even if the creature wouldn't normally provoke attacks of opportunity). You must have a ranged weapon in hand or have a free hand and the non-mythic Quick Draw feat to use this ability. You can use this ability against a mythic creature by expending two uses of mythic power."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"spellcut": {
 		"name": "Spellcut",
@@ -4298,8 +4285,7 @@
 			"Your mounted charge knocks the wind and wits from those foolish enough to stand against you.  ",
 			"**Prerequisites:** {feat/Spirited Charge}.  ",
 			"**Benefit:** When you hit an opponent with a mounted charge, that opponent must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Str modifier) or be staggered for a number of rounds equal to your tier. If you use a lance with this attack, increase the saving throw DC by 2. As a free action before you make the attack, you can expend one use of mythic power to daze your opponent on a failed saving throw instead of staggering it."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"spirits_gift": {
 		"name": "Spirit's Gift",
@@ -4488,8 +4474,7 @@
 			"**Prerequisites:** {feat/Spontaneous Metafocus}.  ",
 			"**Benefit:** You can change which spell your Spontaneous Metafocus feat applies to each morning when you restore your expended spell slots. The spell it applies to can be of any level, but it must be a legal selection for the Spontaneous Metafocus feat.  ",
 			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Spontaneous Metafocus feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"spontaneous_natures_ally": {
 		"name": "Spontaneous Nature's Ally",
@@ -4551,8 +4536,7 @@
 			"You move across the battlefield in a blur of whirling blades.  ",
 			"**Prerequisites:** {feat/Spring Attack}, base attack bonus +6.  ",
 			"**Benefit:** When you use Spring Attack, you don't need to move at least 10 feet before making the first attack. If you expend one use of mythic power when you start a Spring Attack, the movement you make during the Spring Attack doesn't provoke attacks of opportunity."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"spring_heeled_reaping": {
 		"name": "Spring-Heeled Reaping",
@@ -5093,8 +5077,7 @@
 			"Your grace and fluidity are beyond compare.  ",
 			"**Prerequisites:** {feat/Stealthy}.  ",
 			"**Benefit:** The bonus on Escape Artist and Stealth skill checks from Stealthy increases by 2. In addition, you can expend one use of mythic power to treat an Escape Artist or Stealth check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"steam_caster": {
 		"name": "Steam Caster",

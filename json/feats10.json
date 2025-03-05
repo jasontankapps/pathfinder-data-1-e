@@ -767,8 +767,7 @@
 			"**Benefit:** When you use Fire Music to change any of the damage dealt by a bard spell to fire damage, that damage ignores fire resistance up to your tier.",
 			"",
 			"If you cast summon monster as a bard spell and choose to give the summoned creature a fiery appearance, increase its fire resistance by 5 (adding to the resistance already granted by Fire Music) and add 1d4 points of fire damage to all of its natural attacks instead of the +1 fire damage normally granted by Fire Music. Creatures with the fire subtype also gain these benefits."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"fire_tamer": {
 		"name": "Fire Tamer",
@@ -966,8 +965,7 @@
 			"**Prerequisites:** {feat/Fleet}.  ",
 			"**Benefit:** Your base land speed increases by 5 feet, regardless of what armor you wear or whether you're encumbered. This bonus stacks with the bonus gained from Fleet.  ",
 			"**Special:** You can take this feat multiple times, but no more than the number of times you've taken non-mythic Fleet. The effects stack."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"fleeting_spell": {
 		"name": "Fleeting Spell",
@@ -2607,8 +2605,7 @@
 			"**Benefit:** Once per day as an immediate action, you can attempt to negate the onset of one harmful condition or affliction (such as panicked, paralyzed, stunned, and so on) that allowed a saving throw for its onset, not including permanent and instantaneous conditions. When you do so, attempt a Will saving throw with a bonus equal to your tier against the original DC of the effect. If you succeed, the condition is negated. If you fail, the onset is delayed until the end of your next turn, after which it takes its normal effect. This feat has no effect on hit point damage or ability damage.",
 			"",
 			"This effect is separate from the use of non-mythic Heroic Defiance."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"heroic_interposition": {
 		"name": "Heroic Interposition",
@@ -2666,8 +2663,7 @@
 			"You can shrug off the effects of harmful conditions after they've taken effect.  ",
 			"**Prerequisites:** {feat/Heroic Recovery}.  ",
 			"**Benefit:** As a swift action, you can expend one use of mythic power to use Heroic Recovery additional times. Whenever you do, add your tier to the result of the Fortitude save."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"heroic_will": {
 		"name": "Heroic Will",
@@ -3450,8 +3446,7 @@
 			"Every new experience carries you another step further along your path to enlightenment.  ",
 			"**Prerequisites:** {feat/Monastic Legacy}.  ",
 			"**Benefit:** Add half the levels you have in classes other than monk to your monk level to determine your effective monk level for your AC bonus. As a free action, you can expend one use of mythic power to add half your tier to your effective monk level to determine your base unarmed strike damage and AC bonus until the start of your next turn."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"monitor_obedience": {
 		"name": "Monitor Obedience",
@@ -3913,8 +3908,7 @@
 			"Your skill as a rider allows you to take cover and shoot with amazing accuracy.  ",
 			"**Prerequisites:** {feat/Mounted Archery}.  ",
 			"**Benefit:** When using the Ride skill to use your mount as cover, you can still make a single ranged weapon attack as a standard action. While your mount is moving, you can expend one use of mythic power to negate the penalties for making ranged weapon attacks while mounted until the beginning of your next turn."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"mounted_blade": {
 		"name": "Mounted Blade",
@@ -3961,8 +3955,7 @@
 			"Your ability to maneuver a mount through the rigors of combat is nearly unparalleled.  ",
 			"**Prerequisites:** {feat/Mounted Combat}.  ",
 			"**Benefit:** You can negate an additional number of hits against your mount per round equal to your tier. Once per round as an immediate action, you can expend one use of mythic power to substitute a Ride check for a single Reflex saving throw your mount must make."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"mounted_onslaught": {
 		"name": "Mounted Onslaught",
@@ -4321,8 +4314,7 @@
 			"You can craft mythic magic items.  ",
 			"**Prerequisites:** Any item creation feat.  ",
 			"**Benefit:** You can create any mythic magic item for which you have the appropriate item creation feat. In addition, you gain a +5 bonus on skill checks when creating non-mythic magic items."
-		],
-		"mythic_only": true
+		]
 	},
 	"mythic_paragon": {
 		"name": "Mythic Paragon",
@@ -4337,8 +4329,7 @@
 			"",
 			"Your mythic power is even more potent than that of most other mythic beings.  ",
 			"**Benefit:** Your tier is considered 2 higher for determining the potency of mythic abilities, feats, and spells. This doesn't grant you access to mythic abilities or greater versions of mythic spells at a lower tier than you would normally need to be to get them, nor does it grant you additional uses of mythic power or adjust the dice you roll for your surge."
-		],
-		"mythic_only": true
+		]
 	},
 	"mythic_spell_lore": {
 		"name": "Mythic Spell Lore",
@@ -4355,8 +4346,7 @@
 			"**Prerequisites:** Ability to cast spells.  ",
 			"**Benefit:** You can learn a number of mythic spells equal to your tier and can expend mythic power when casting them to enhance the results. To select a mythic spell, you must be able to cast the non-mythic version or have it on your list of spells known. Every time you gain a new tier, you can select an additional mythic spell.  ",
 			"**Special:** You can select this feat multiple times. Each time you select this feat, you must select different spells."
-		],
-		"mythic_only": true
+		]
 	},
 	"mystic_stride": {
 		"name": "Mystic Stride",
@@ -4583,8 +4573,7 @@
 			"You can speak and use some magic items when you use wild shape.  ",
 			"**Prerequisites:** {feat/Natural Spell}.  ",
 			"**Benefit:** When you're using wild shape, you can use spell completion and spell trigger magic items that were on your person when you changed form. You don't need to physically manipulate the items when you use them while using wild shape. Furthermore, you can speak normally when using wild shape."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"nature_magic": {
 		"name": "Nature Magic",
@@ -4997,8 +4986,7 @@
 			"You dance across obstacles with ease, as though they weren't even there.  ",
 			"**Prerequisites:** {feat/Nimble Moves}.  ",
 			"**Benefit:** For every 2 tiers you possess, you can move through up to 5 feet of difficult terrain each round as if it were normal terrain (minimum 5 feet). This effect stacks with those provided by Nimble Moves and Acrobatic Steps."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"nimble_natural_summons": {
 		"name": "Nimble Natural Summons",

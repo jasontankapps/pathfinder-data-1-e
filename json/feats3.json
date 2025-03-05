@@ -258,8 +258,7 @@
 			"Your kills are truly frightening to behold.  ",
 			"**Prerequisites:** {feat/Dreadful Carnage}.  ",
 			"**Benefit:** When you use Dreadful Carnage, you affect non-mythic enemies within 60 feet in addition to all enemies within 30 feet. You can expend one use of mythic power before making the Intimidate check to cause enemies demoralized by Dreadful Carnage to become frightened instead of shaken, for the same duration as the normal shaken effect. While frightened by this ability, an enemy takes a penalty equal to your tier on attack rolls, saving throws, skill checks, and ability checks."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"dreamed_secrets": {
 		"name": "Dreamed Secrets",
@@ -301,8 +300,7 @@
 			"Strong drink fuels the mythic fires within you.  ",
 			"**Prerequisites:** Con 19, 3rd mythic tier.  ",
 			"**Benefit:** You never take penalties for consuming nonmagical alcohol, and you can consume an alcoholic beverage as a swift action instead of a move action. Each time you consume an alcoholic beverage, you may gain one of the benefits of polypurpose panacea. You can have only one of these benefits active at a time. If you expend one use of mythic power while drinking an alcoholic beverage, you can heal 2 points of ability damage, negate a temporary penalty to one ability score, or remove one of the following conditions: confused, diseased, exhausted, fatigued, frightened, nauseated, poisoned, shaken, sickened, or staggered."
-		],
-		"mythic_only": true
+		]
 	},
 	"drinking_buddy": {
 		"name": "Drinking Buddy",
@@ -478,8 +476,7 @@
 			"You follow two mythic paths.  ",
 			"**Prerequisites:** 1st mythic tier.  ",
 			"**Benefit:** Select a mythic path other than the path you selected at your moment of ascension. You gain that path's 1st-tier ability (either archmage arcana, champion's strike, divine surge, guardian's call, marshal's order, or trickster attack). Each time you gain a path ability, you can select that path ability from either path's list or the list of universal path abilities."
-		],
-		"mythic_only": true
+		]
 	},
 	"duck_and_cover": {
 		"name": "Duck and Cover",
@@ -669,8 +666,7 @@
 			"You eyesight rivals that of the most far-seeing raptors.  ",
 			"**Prerequisites:** {feat/Eagle Eyes}.  ",
 			"**Benefit:** You ignore up to -10 in penalties due to distance on visual Perception checks, instead of the normal -5. As a swift action, you can expend one use of mythic power to ignore all penalties due to distance on visual Perception checks for 1 round."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"eagle_knight_candidate": {
 		"name": "Eagle Knight Candidate",
@@ -1120,8 +1116,7 @@
 			"The blood of your sorcerous ancestor mingles with your mythic power to great effect.  ",
 			"**Prerequisites:** {feat/Eldritch Heritage}.  ",
 			"**Benefit:** You gain sorcerer bloodline powers of the bloodline tied to Eldritch Heritage as if your sorcerer level were your character level - 2. For that bloodline's 1st-level bloodline power, use your full character level to determine its effect; for all other bloodline powers, treat your sorcerer level as your character level - 2."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"eldritch_researcher": {
 		"name": "Eldritch Researcher",
@@ -1214,8 +1209,7 @@
 			"Your power over elemental beings is nearly absolute.  ",
 			"**Prerequisites:** {feat/Elemental Channel}.  ",
 			"**Benefit:** Your Elemental Channel can affect any elemental subtype, not just the one you chose when you took Elemental Channel. Each time you use Elemental Channel, you must pick one elemental subtype before using the feat. You can expend one use of mythic power when you use Elemental Channel to choose a second elemental subtype to affect."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"elemental_claws": {
 		"name": "Elemental Claws",
@@ -1303,8 +1297,7 @@
 			"Your ability to channel elemental power through your unarmed attacks is ferociously potent.  ",
 			"**Prerequisites:** {feat/Elemental Fist}.  ",
 			"**Benefit:** The extra energy damage dealt by Elemental Fist increases to 1d8 points, and you gain additional uses of Elemental Fist per day equal to your tier. You can expend one use of mythic power as an immediate action to add the extra damage from your Elemental Fist to all of the unarmed strikes you make until the beginning of your next turn. This counts as only one use of Elemental Fist, regardless of the number of attacks that you make in this fashion."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"elemental_focus": {
 		"name": "Elemental Focus",
@@ -1328,8 +1321,7 @@
 			"Your elemental spells are potent and effective.  ",
 			"**Prerequisites:** {feat/Elemental Focus}.  ",
 			"**Benefit:** Choose an energy type in which you already have Elemental Focus. The increase to save DC provided by Elemental Focus and Greater Elemental Focus for spells of the selected energy type is 1 higher. When casting a spell with this energy type's descriptor, you can expend one use of mythic power as part of the casting to force the spell's targets to roll their saving throws twice, taking the lower result."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"elemental_jaunt": {
 		"name": "Elemental Jaunt",
@@ -1510,8 +1502,7 @@
 			"Your elven eyesight cuts though concealment.  ",
 			"**Prerequisites:** {feat/Elven Accuracy}.  ",
 			"**Benefit:** When you make an attack with a longbow or short bow (including composite bows), you can ignore concealment, but not total concealment. You still suffer a miss chance for total concealment, but if you miss due to total concealment, you may reroll your miss chance as per Elven Accuracy."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"elven_battle_focus": {
 		"name": "Elven Battle Focus",
@@ -1838,8 +1829,7 @@
 			"**Benefit:** The bonus on checks and saves from Endurance increases by half your tier. You take half the damage when you fail a check to avoid nonlethal damage from a forced march, starvation and thirst, hot or cold environments, or slow suffocation.",
 			"",
 			"You can sleep in heavy armor without becoming fatigued."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"endure_pain_zon_kuthons_kiss": {
 		"name": "Endure Pain (Zon-Kuthon's Kiss)",
@@ -2478,8 +2468,7 @@
 			"You can cast even the most powerful spells without using material components.  ",
 			"**Prerequisites:** {feat/Eschew Materials}.  ",
 			"**Benefit:** You can cast any spell with a material component costing 10 gp per tier or less without providing that component. If you expend one use of mythic power while casting a spell that requires a material component costing 50 gp per tier or less, you can cast it without providing that component. Expending two uses of mythic power instead allows you to cast a spell that requires a material component costing 100 gp per tier or less without providing that component."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"esoteric_abjuration": {
 		"name": "Esoteric Abjuration",
@@ -4007,8 +3996,7 @@
 			"",
 			"You can store more mythic power than your tier would normally allow.  ",
 			"**Benefit:** You gain two extra uses of mythic power each day."
-		],
-		"mythic_only": true
+		]
 	},
 	"extra_ninja_trick": {
 		"name": "Extra Ninja Trick",
@@ -4052,8 +4040,7 @@
 			"You can call upon mythic powers beyond those already invested in you.  ",
 			"**Prerequisites:** 3rd mythic tier.  ",
 			"**Benefit:** Choose one mythic ability from your path or from the universal path abilities that you meet the requirements for. You gain that path ability."
-		],
-		"mythic_only": true
+		]
 	},
 	"extra_performance": {
 		"name": "Extra Performance",
@@ -4467,8 +4454,7 @@
 			"Your illusions are astonishingly realistic.  ",
 			"**Prerequisites:** {feat/Spell Focus/ (illusion)}.  ",
 			"**Benefit:** Non-mythic creatures can't identify your illusion spells with Spellcraft, including checks attempted as part of arcane sight, detect magic, or similar effects. When mythic creatures attempt to identify your illusions, add your tier to the DC of those Spellcraft checks. Mythic creatures informed by their allies that one of your illusions isn't real gain only a +2 bonus on their Will saves to disbelieve. Non-mythic creatures gain no bonus to disbelieve."
-		],
-		"mythic_only": true
+		]
 	},
 	"faeries_strike": {
 		"name": "Faerie's Strike",
@@ -4753,8 +4739,7 @@
 			"You make long-ranged attacks with remarkable accuracy.  ",
 			"**Prerequisites:** {feat/Far Shot}.  ",
 			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all range increment penalties for your ranged attacks until the end of your turn."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"far_roaming_familiar": {
 		"name": "Far-Roaming Familiar",
@@ -4859,8 +4844,7 @@
 			"You can soothe the emotions of wild beasts with nearly supernatural quickness.  ",
 			"**Prerequisites:** {feat/Fast Empathy}.  ",
 			"**Benefit:** You can use wild empathy as a swift action."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"fast_healer": {
 		"name": "Fast Healer",

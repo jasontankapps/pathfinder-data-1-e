@@ -15,7 +15,6 @@
 			"Adventurer's Guide",
 			"Seekers of Secrets"
 		],
-		"cost": 25,
 		"description": [
 			"## Dull Gray Stone",
 			"",
@@ -78,7 +77,6 @@
 	"amethyst_pyramid": {
 		"name": "Amethyst Pyramid",
 		"sources": [ "Pathfinder Society Primer" ],
-		"cost": 150,
 		"description": [
 			"## Amethyst Pyramid",
 			"",
@@ -140,7 +138,6 @@
 	"gold_nodule": {
 		"name": "Gold Nodule",
 		"sources": [ "Pathfinder Society Primer" ],
-		"cost": 150,
 		"description": [
 			"## Gold Nodule",
 			"",
@@ -207,7 +204,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 200,
 		"description": [
 			"## Deep Red Sphere",
 			"",
@@ -274,7 +270,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 200,
 		"description": [
 			"## Incandescent Blue Sphere",
 			"",
@@ -343,7 +338,6 @@
 			"Pathfinder #122: Into the Shattered Continent",
 			"Seekers of Secrets"
 		],
-		"cost": 200,
 		"description": [
 			"## Mossy Disk",
 			"",
@@ -410,7 +404,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 200,
 		"description": [
 			"## Pale Blue Rhomboid",
 			"",
@@ -472,7 +465,6 @@
 	"pale_ruby_trillian": {
 		"name": "Pale Ruby Trillian",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 200,
 		"description": [
 			"## Pale Ruby Trillian",
 			"",
@@ -539,7 +531,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 200,
 		"description": [
 			"## Pink and Green Sphere",
 			"",
@@ -606,7 +597,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 200,
 		"description": [
 			"## Scarlet and Blue Sphere",
 			"",
@@ -668,7 +658,6 @@
 	"turquoise_sphere": {
 		"name": "Turquoise Sphere",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 200,
 		"description": [
 			"## Turquoise Sphere",
 			"",
@@ -735,7 +724,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 300,
 		"description": [
 			"## Dark Blue Rhomboid",
 			"",
@@ -797,7 +785,6 @@
 	"mulberry_pentacle": {
 		"name": "Mulberry Pentacle",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 400,
 		"description": [
 			"## Mulberry Pentacle",
 			"",
@@ -859,7 +846,6 @@
 	"vermilion_rhomboid": {
 		"name": "Vermilion Rhomboid",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 400,
 		"description": [
 			"## Vermilion Rhomboid",
 			"",
@@ -921,7 +907,6 @@
 	"agate_ellipsoid": {
 		"name": "Agate Ellipsoid",
 		"sources": [ "Pathfinder Society Primer" ],
-		"cost": 500,
 		"description": [
 			"## Agate Ellipsoid",
 			"",
@@ -988,7 +973,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 500,
 		"description": [
 			"## Dusty Rose Prism",
 			"",
@@ -1055,7 +1039,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 500,
 		"description": [
 			"## Iridescent Spindle",
 			"",
@@ -1124,7 +1107,6 @@
 			"Pathfinder #122: Into the Shattered Continent",
 			"Pathfinder Society Primer"
 		],
-		"cost": 600,
 		"description": [
 			"## Tourmaline Sphere",
 			"",
@@ -1186,7 +1168,6 @@
 	"magenta_prism": {
 		"name": "Magenta Prism",
 		"sources": [ "Pathfinder Society Primer" ],
-		"cost": 800,
 		"description": [
 			"## Magenta Prism",
 			"",
@@ -1253,7 +1234,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 1000,
 		"description": [
 			"## Clear Spindle",
 			"",
@@ -1315,7 +1295,6 @@
 	"nacreous_gray_sphere": {
 		"name": "Nacreous Gray Sphere",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 1000,
 		"description": [
 			"## Nacreous Gray Sphere",
 			"",
@@ -1382,7 +1361,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 1000,
 		"description": [
 			"## Orange Prism",
 			"",
@@ -1449,7 +1427,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 1400,
 		"description": [
 			"## Pink Rhomboid",
 			"",
@@ -1511,7 +1488,6 @@
 	"scarlet_and_green_cabochon": {
 		"name": "Scarlet and Green Cabochon",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 1400,
 		"description": [
 			"## Scarlet and Green Cabochon",
 			"",
@@ -1573,7 +1549,6 @@
 	"gamboge_nodule": {
 		"name": "Gamboge Nodule",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 1500,
 		"description": [
 			"## Gamboge Nodule",
 			"",
@@ -1635,7 +1610,6 @@
 	"opalescent_white_pyramid": {
 		"name": "Opalescent White Pyramid",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 1500,
 		"description": [
 			"## Opalescent White Pyramid",
 			"",
@@ -1697,7 +1671,6 @@
 	"pale_orange_rhomboid": {
 		"name": "Pale Orange Rhomboid",
 		"sources": [ "Pathfinder Society Primer" ],
-		"cost": 1800,
 		"description": [
 			"## Pale Orange Rhomboid",
 			"",
@@ -1759,7 +1732,6 @@
 	"emerald_ellipsoid": {
 		"name": "Emerald Ellipsoid",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 2000,
 		"description": [
 			"## Emerald Ellipsoid",
 			"",
@@ -1827,7 +1799,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 2000,
 		"description": [
 			"## Vibrant Purple Prism",
 			"",
@@ -1894,7 +1865,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 2500,
 		"description": [
 			"## Pale Lavender Ellipsoid",
 			"",
@@ -1956,7 +1926,6 @@
 	"brown_thorny": {
 		"name": "Brown Thorny",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 3200,
 		"description": [
 			"## Brown Thorny",
 			"",
@@ -2020,7 +1989,6 @@
 	"crimson_thorny": {
 		"name": "Crimson Thorny",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 3200,
 		"description": [
 			"## Crimson Thorny",
 			"",
@@ -2084,7 +2052,6 @@
 	"orange_thorny": {
 		"name": "Orange Thorny",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 3200,
 		"description": [
 			"## Orange Thorny",
 			"",
@@ -2148,7 +2115,6 @@
 	"silver_thorny": {
 		"name": "Silver Thorny",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 3200,
 		"description": [
 			"## Silver Thorny",
 			"",
@@ -2212,7 +2178,6 @@
 	"teal_thorny": {
 		"name": "Teal Thorny",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 3200,
 		"description": [
 			"## Teal Thorny",
 			"",
@@ -2276,7 +2241,6 @@
 	"violet_thorny": {
 		"name": "Violet Thorny",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 3200,
 		"description": [
 			"## Violet Thorny",
 			"",
@@ -2340,7 +2304,6 @@
 	"amber_spindle": {
 		"name": "Amber Spindle",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 3400,
 		"description": [
 			"## Amber Spindle",
 			"",
@@ -2407,7 +2370,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 3400,
 		"description": [
 			"## Pearly White Spindle",
 			"",
@@ -2474,7 +2436,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 4000,
 		"description": [
 			"## Pale Green Prism",
 			"",
@@ -2536,7 +2497,6 @@
 	"western_star": {
 		"name": "Western Star",
 		"sources": [ "Occult Mysteries" ],
-		"cost": 4000,
 		"description": [
 			"## Western Star",
 			"",
@@ -2561,7 +2521,6 @@
 			"The Emerald Spire Superdungeon",
 			"Occult Mysteries"
 		],
-		"cost": 6000,
 		"description": [
 			"## Eastern Star",
 			"",
@@ -2583,7 +2542,6 @@
 	"azure_briolette": {
 		"name": "Azure Briolette",
 		"sources": [ "Pathfinder #125 Tower of the Drowned Dead" ],
-		"cost": 8000,
 		"description": [
 			"## Azure Briolette",
 			"",
@@ -2645,7 +2603,6 @@
 	"dark_green_rhomboid": {
 		"name": "Dark Green Rhomboid",
 		"sources": [ "Dungeoneer's Handbook" ],
-		"cost": 8000,
 		"description": [
 			"## Dark Green Rhomboid",
 			"",
@@ -2667,7 +2624,6 @@
 	"southern_star": {
 		"name": "Southern Star",
 		"sources": [ "Heroes from the Fringe" ],
-		"cost": 8000,
 		"description": [
 			"## Southern Star",
 			"",
@@ -2693,7 +2649,6 @@
 	"deep_brown_sphere": {
 		"name": "Deep Brown Sphere",
 		"sources": [ "Dungeoneer's Handbook" ],
-		"cost": 10000,
 		"description": [
 			"## Deep Brown Sphere",
 			"",
@@ -2720,7 +2675,6 @@
 			"Ultimate Equipment",
 			"Seekers of Secrets"
 		],
-		"cost": 10000,
 		"description": [
 			"## Lavender and Green Ellipsoid",
 			"",
@@ -2782,7 +2736,6 @@
 	"northern_star": {
 		"name": "Northern Star",
 		"sources": [ "Heroes from the Fringe" ],
-		"cost": 10000,
 		"description": [
 			"## Northern Star",
 			"",
@@ -2808,7 +2761,6 @@
 	"crimson_sphere": {
 		"name": "Crimson Sphere",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 12000,
 		"description": [
 			"## Crimson Sphere",
 			"",
@@ -2870,7 +2822,6 @@
 	"onyx_rhomboid": {
 		"name": "Onyx Rhomboid",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 12000,
 		"description": [
 			"## Onyx Rhomboid",
 			"",
@@ -2932,7 +2883,6 @@
 	"silver_spindle": {
 		"name": "Silver Spindle",
 		"sources": [ "Pathfinder Society Primer" ],
-		"cost": 12000,
 		"description": [
 			"## Silver Spindle",
 			"",
@@ -2994,7 +2944,6 @@
 	"emerald_wedge": {
 		"name": "Emerald Wedge",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
-		"cost": 32000,
 		"description": [
 			"## Emerald Wedge",
 			"",
@@ -3016,7 +2965,6 @@
 	"pearlescent_pyramid": {
 		"name": "Pearlescent Pyramid",
 		"sources": [ "Pathfinder #125 Tower of the Drowned Dead" ],
-		"cost": 32000,
 		"description": [
 			"## Pearlescent Pyramid",
 			"",
@@ -3078,7 +3026,6 @@
 	"sepia_ellipsoid": {
 		"name": "Sepia Ellipsoid",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 68000,
 		"description": [
 			"## Sepia Ellipsoid",
 			"",

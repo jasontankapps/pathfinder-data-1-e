@@ -66,8 +66,7 @@
 			"You can plow through those who stand between you and the target of your charge.  ",
 			"**Prerequisites:** {feat/Charge Through}.  ",
 			"**Benefit:** When charging, you can ignore allies in your path when determining whether or not you can charge your target. Furthermore, after you have attempted at least one overrun with Charge Through, you can expend one use of mythic power as a free action to attempt another overrun against a different opponent in the path of the same charge."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"charging_hurler": {
 		"name": "Charging Hurler",
@@ -495,8 +494,7 @@
 			"You can cleave any foe within your reach.  ",
 			"**Prerequisites:** {feat/Cleave}.  ",
 			"**Benefit:** Whenever you use Cleave or Great Cleave, one of your attacks can be made against a foe that is within your reach, but not adjacent to the foe you attacked. You can expend one use of mythic power when you use Cleave or Great Cleave to continue making attacks against foes within your reach, regardless of their position, as long as you continue to hit each foe. You can't use this ability to attack a foe more than once per round."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"cleave_through": {
 		"name": "Cleave Through",
@@ -937,8 +935,7 @@
 			"You can dart out of the way of attacks with skill and defiance.  ",
 			"**Prerequisites:** {feat/Combat Expertise}.  ",
 			"**Benefit:** Whenever you use Combat Expertise, you gain an additional +2 dodge bonus to your Armor Class. You can expend one use of mythic power to negate the penalties on melee attack rolls and combat maneuver checks caused by using Combat Expertise for 1 minute."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"combat_medic": {
 		"name": "Combat Medic",
@@ -1016,8 +1013,7 @@
 			"You strike viciously whenever your foe gives you an opening.  ",
 			"**Prerequisites:** {feat/Combat Reflexes}.  ",
 			"**Benefit:** You can make any number of additional attacks of opportunity per round. As a swift action, you can expend one use of mythic power to, until the start of your next turn, make attacks of opportunity against foes you've already made attacks of opportunity against this round if they provoke attacks of opportunity from you by moving."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"combat_rhythm": {
 		"name": "Combat Rhythm",
@@ -1129,8 +1125,7 @@
 			"Your control of the undead is nearly absolute.  ",
 			"**Prerequisites:** {feat/Command Undead}.  ",
 			"**Benefit:** When you command undead, the DC of the Will save increases by half your tier, and intelligent undead get no additional saves beyond their first to resist your commands. Any attempts by non-mythic creatures to control undead you command automatically fail, and you gain a +4 bonus on Charisma checks to prevent mythic creatures from stealing control of your undead."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"commander_of_goblinkind": {
 		"name": "Commander of Goblinkind",
@@ -2731,8 +2726,7 @@
 			"Your blows unerringly find your target's vital spots.  ",
 			"**Prerequisites:** {feat/Critical Focus}.  ",
 			"**Benefit:** You automatically confirm critical threats against non-mythic opponents. In addition, when you threaten a critical hit against a creature wearing armor with the fortification special ability or similar effect, that creature must roll twice and take the worse result when determining critical hit negation."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"critical_mastery": {
 		"name": "Critical Mastery",
@@ -2763,8 +2757,7 @@
 			"Your critical hits are versatile and devastating.  ",
 			"**Prerequisites:** {feat/Mythic |Critical Focus}, {feat/Critical Mastery}.  ",
 			"**Benefit:** When using Critical Mastery, increase the number of critical feats you may apply by every 3 tiers that you possess."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"critical_versatility": {
 		"name": "Critical Versatility",
@@ -3509,8 +3502,7 @@
 			"You strike downed, dazed, and staggered opponents with deadly efficiency.  ",
 			"**Prerequisites:** {feat/Dastardly Finish}.  ",
 			"**Benefit:** You can deliver a coup de grace to dazed and staggered non-mythic opponents. In addition, when any creature makes a Fortitude saving throw to survive one of your coup de grace attempts, it takes a penalty to that saving throw equal to your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"dastardly_trick": {
 		"name": "Dastardly Trick",
@@ -3633,8 +3625,7 @@
 			"You can quickly deter others with your martial mastery.  ",
 			"**Prerequisites:** {feat/Dazzling Display}.  ",
 			"**Benefit:** While wielding the weapon with which you have Weapon Focus, you can use Dazzling Display as a standard action with a -5 penalty on your Intimidate check, as a move action with a -10 penalty, or as a swift action with a -20 penalty. You can expend one use of mythic power when you make a Dazzling Display to make those affected by the display frightened rather than shaken."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"dead_inside": {
 		"name": "Dead Inside",
@@ -3720,8 +3711,7 @@
 			"Your aim is truly devastating.  ",
 			"**Prerequisites:** {feat/Deadly Aim}.  ",
 			"**Benefit:** When you use Deadly Aim, you gain a +3 bonus on ranged damage rolls instead of +2. When your base attack bonus reaches +4, and every +4 thereafter, the bonus on ranged damage rolls increases by +3 rather than +2."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"deadly_dealer": {
 		"name": "Deadly Dealer",
@@ -3834,8 +3824,7 @@
 			"You can kill with a single stroke.  ",
 			"**Prerequisites:** {feat/Deadly Stroke}.  ",
 			"**Benefit:** When making a Deadly Stroke attack, you can expend one use of mythic power to instantly kill a non-mythic living creature. A Fortitude save (DC 10 + your base attack bonus + your tier) negates this effect, though the attack still deals double damage and Con bleed as Deadly Stroke. Constructs, oozes, and creatures immune to critical hits or precision-based damage can't be killed with this feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"deadly_trap": {
 		"name": "Deadly Trap",
@@ -3944,8 +3933,7 @@
 			"When attacking from the air or higher ground, you bear down on your enemy to deadly effect.  ",
 			"**Prerequisites:** {feat/Death from Above}.  ",
 			"**Benefit:** Whenever you charge an opponent from higher ground, or from above while flying, the critical multiplier of your weapon increases by 2 (to a maximum of &times;6). This doesn't stack with other abilities that increase a weapon's critical multiplier. If your charge attack hits, you can perform a trip combat maneuver against the attack's target as a free action without provoking attacks of opportunity."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"death_from_below": {
 		"name": "Death from Below",
@@ -4105,8 +4093,7 @@
 			"Your power to mislead is beyond compare.  ",
 			"**Prerequisites:** {feat/Deceitful}.  ",
 			"**Benefit:** The bonus on Bluff and Disguise skill checks from Deceitful increases by 2. In addition, you can expend one use of mythic power to treat a Bluff or Disguise check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"deceitful_incompetence": {
 		"name": "Deceitful Incompetence",
@@ -4252,8 +4239,7 @@
 			"Your sharp eyes can penetrate deeper into the darkness, revealing more to you.  ",
 			"**Prerequisites:** {feat/Deepsight}.  ",
 			"**Benefit:** The range of your darkvision increases by 10 feet per tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"defended_movement": {
 		"name": "Defended Movement",
@@ -4314,8 +4300,7 @@
 			"Your defensive capabilities in combat are unmatched.  ",
 			"**Prerequisites:** {feat/Defensive Combat Training}, 4th mythic tier.  ",
 			"**Benefit:** Add half your tier to your CMD."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"defensive_weapon_training": {
 		"name": "Defensive Weapon Training",
@@ -4381,8 +4366,7 @@
 			"You deflect projectiles and ray spells with uncanny skill.  ",
 			"**Prerequisites:** {feat/Deflect Arrows}.  ",
 			"**Benefit:** When using Deflect Arrows, you can deflect an additional number of ranged attacks per round equal to half your tier. You can expend one use of mythic power as an immediate action to deflect a single ray from a ray spell or effect targeting you."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"deft_catcher": {
 		"name": "Deft Catcher",
@@ -4418,8 +4402,7 @@
 			"Your hands are astonishingly nimble.  ",
 			"**Prerequisites:** {feat/Deft Hands}.  ",
 			"**Benefit:** The bonus on Disable Device and Sleight of Hand skill checks from Deft Hands increases by 2. In addition, you can expend one use of mythic power to treat a Disable Device or Sleight of Hand check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"deft_shootist": {
 		"name": "Deft Shootist",

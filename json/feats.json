@@ -193,8 +193,7 @@
 			"Your hexes flare with persistent potency.  ",
 			"**Prerequisites:** {feat/Accursed Hex}.  ",
 			"**Benefit:** When you use Accursed Hex to target a creature with one of your hexes a second time, that creature must roll its saving throw twice and take the lower result."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"ace_disarm": {
 		"name": "Ace Disarm",
@@ -243,8 +242,7 @@
 			"Your grace and fluidity are beyond compare.  ",
 			"**Prerequisites:** {feat/Acrobatic}.  ",
 			"**Benefit:** The bonus on Acrobatics and Fly skill checks from Acrobatic increases by 2. In addition, you can expend one use of mythic power to treat an Acrobatics or Fly check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"acrobatic_spellcaster": {
 		"name": "Acrobatic Spellcaster",
@@ -748,8 +746,7 @@
 			"Your powers of perception surpass everyone's, whether used to observe your surroundings or the intentions of others.  ",
 			"**Prerequisites:** {feat/Alertness}.  ",
 			"**Benefit:** The bonus on Perception and Sense Motive skill checks from Alertness increases by 2. In addition, you can expend one use of mythic power to treat a Perception or Sense Motive check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"alien_mindpaths": {
 		"name": "Alien Mindpaths",
@@ -832,8 +829,7 @@
 			"The power of your faith harms all creatures that follow the alignment you abhor.  ",
 			"**Prerequisites:** {feat/Alignment Channel}.  ",
 			"**Benefit:** Your channeled energy affects any creatures with the alignment chosen when you took Alignment Channel (not just outsiders, and not just those with the alignment subtype), but grants only half healing or deals only half damage to these targets. Alternatively, you can expend two uses of mythic power when using Alignment Channel to affect all targets of the chosen alignment as if they had that alignment subtype."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"all_consuming_swing": {
 		"name": "All-Consuming Swing",
@@ -1364,8 +1360,7 @@
 			"You have a greater affinity with wild animals, and can speak with them.  ",
 			"**Prerequisites:** {feat/Animal Affinity}.  ",
 			"**Benefit:** The bonus on Handle Animal and Ride skill checks from Animal Affinity increases by 2. In addition, you can expend one use of mythic power to {spell/speak with animals} as the spell. Your caster level for this effect is equal to twice your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"animal_ally": {
 		"name": "Animal Ally",
@@ -1724,8 +1719,7 @@
 			"You've adapted your spellcasting to overcome limitations of wearing armor.  ",
 			"**Prerequisites:** {feat/Arcane Armor Training}.  ",
 			"**Benefit:** You don't have to spend a swift action to gain the reduction to arcane spell failure chance from Arcane Armor Training. Furthermore, if you're wearing light armor, reduce your arcane spell failure chance by 20%."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"arcane_blast": {
 		"name": "Arcane Blast",
@@ -1751,8 +1745,7 @@
 			"**Benefit:** When you use Arcane Blast, you may halve the damage dice to also perform your choice of either a trip or bull rush combat maneuver against the target of the blast. You can't move with an opponent you bull rush with this feat. You gain a bonus on your combat maneuver check for this attempt equal to half the spell level of the spell you sacrificed when using Arcane Blast, and you can substitute your Intelligence or Charisma modifier in place of your Strength modifier when determining your combat maneuver bonus.",
 			"",
 			"In addition, you can expend one use of mythic power to change the damage dice of your Arcane Blast to d8s instead of d6s."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"arcane_insight": {
 		"name": "Arcane Insight",
@@ -1818,8 +1811,7 @@
 			"You sculpt spells into a powerful, enduring arcane barriers.  ",
 			"**Prerequisites:** {feat/Arcane Shield}.  ",
 			"**Benefit:** You add half your tier to the deflection bonus granted to your AC when you use your Arcane Shield. You can expend one use of mythic power when using this feat to extend the duration to a number of rounds equal to your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"arcane_strike": {
 		"name": "Arcane Strike",
@@ -1849,8 +1841,7 @@
 			"Using your amazing arcane talents, you can deliver devastating blows infused with magical energy.  ",
 			"**Prerequisites:** {feat/Arcane Strike}.  ",
 			"**Benefit:** Whenever you use Arcane Strike to enhance your weapons, the effect lasts for 1 minute instead of 1 round. If you expend one use of mythic power when using Arcane Strike, you can also add any one magic weapon special ability with a base price modifier of +1 to your weapons. This base price modifier increases to +2 at 4th tier, +3 at 7th tier, and +4 at 10th tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"arcane_talent": {
 		"name": "Arcane Talent",
@@ -2492,8 +2483,7 @@
 			">*Mythic Leap (Ex):* You can make a running jump without needing to run 10 feet beforehand. In addition, you gain a +5 bonus on your Acrobatics checks to determine the success of that jump and the distance covered. If you already have the predator's leap manifestation of Aspect of the Beast, the bonus on your Acrobatics checks increases to +10.",
 			">",
 			">*Mythic Instinct (Ex):* You gain a +2 bonus on initiative checks and a +2 bonus on Survival checks. These bonuses stack with those gained from the wild instinct manifestation of Aspect of the Beast."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"aspiring_noble": {
 		"name": "Aspiring Noble",
@@ -2653,8 +2643,7 @@
 			"You excel far beyond others at acts of physical prowess.  ",
 			"**Prerequisites:** {feat/Athletic}.  ",
 			"**Benefit:** The bonus on Climb and Swim skill checks from Athletic increases by 2. In addition, you can expend one use of mythic power to treat a Climb or Swim check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"attuned_to_the_wild": {
 		"name": "Attuned to the Wild",
@@ -2710,8 +2699,7 @@
 			"Your summoning spells bring not mere ordinary beasts, but instead mythic creatures.  ",
 			"**Prerequisites:** {feat/Augment Summoning}.  ",
 			"**Benefit:** Any creature you summon using a summon spell is considered mythic for the purpose of interacting with other mythic creatures. It doesn't gain any mythic abilities or power, but is affected by mythic spells and abilities as if it were a 1st-tier mythic creature. Additionally, if the creature summoned has damage reduction, its damage reduction becomes DR/epic."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"aura_flare": {
 		"name": "Aura Flare",
@@ -3994,8 +3982,7 @@
 			"**Benefit:** The bleed damage dealt with Bleeding Critical increases by your tier. Stopping this bleed damage requires a Heal check with a DC equal to 15 + 1/2 your tier. Any magical healing ends the bleed damage normally.",
 			"",
 			"You can expend one use of mythic power to deal 1 Con bleed, in addition to the hit point bleed damage you deal with this feat. This effect increases by 1 for each additional use of mythic power you expend."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"bleeding_stare": {
 		"name": "Bleeding Stare",
@@ -4234,8 +4221,7 @@
 			"No creature can avoid your preternatural senses.  ",
 			"**Prerequisites:** {feat/Blind-Fight}.  ",
 			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all miss chances due to concealment or total concealment for a number of rounds equal to your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"blinding_critical": {
 		"name": "Blinding Critical",

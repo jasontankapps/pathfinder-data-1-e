@@ -202,7 +202,6 @@
 	"dart_gun": {
 		"name": "Dart gun",
 		"sources": [ "Technology Guide" ],
-		"capacity_nanite": 1,
 		"description": [
 			"## Dart gun",
 			"",
@@ -224,7 +223,6 @@
 	"death_ray": {
 		"name": "Death ray",
 		"sources": [ "Technology Guide" ],
-		"capacity_nanite": 1,
 		"description": [
 			"## Death ray",
 			"",
@@ -311,7 +309,6 @@
 	"inferno_pistol": {
 		"name": "Inferno pistol",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
-		"capacity_nanite": 1,
 		"description": [
 			"## Inferno pistol",
 			"",
@@ -377,7 +374,6 @@
 	"mindrender": {
 		"name": "Mindrender",
 		"sources": [ "Technology Guide" ],
-		"capacity_nanite": 1,
 		"description": [
 			"## Mindrender",
 			"",
@@ -550,7 +546,6 @@
 	"id_rifle": {
 		"name": "Id rifle",
 		"sources": [ "Technology Guide" ],
-		"capacity_nanite": 1,
 		"description": [
 			"## Id rifle",
 			"",

@@ -1156,8 +1156,7 @@
 			"**Benefit:** When you successfully use Rhetorical Flourish against a non-mythic creature, the bonus on your Diplomacy check increases by your tier. If the target is a mythic creature, you instead increase the bonus by half your tier.",
 			"",
 			"You can expend one use of mythic power to reroll a single failed Bluff check. You must take the new result even if it is lower."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"rhino_charge": {
 		"name": "Rhino Charge",
@@ -1241,8 +1240,7 @@
 			"You can make multiple attacks as you ride past your enemies.  ",
 			"**Prerequisites:** {feat/Ride-By Attack}].  ",
 			"**Benefit:** When you successfully strike an opponent as part of a Ride-By Attack, you can continue to make attacks against successive targets. You can make one additional attack per 3 tiers you possess, but you can't make more attacks than you could if you were making a full attack. Successive attacks use the lower bonus for multiple attacks, as when making a full attack. You must move at least 10 feet between each attack."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"righteous_healing": {
 		"name": "Righteous Healing",
@@ -1549,8 +1547,7 @@
 			"**Benefit:** When running, you move seven times your normal speed if wearing medium, light, or no armor and carrying no more than a medium load, or six times your speed if wearing heavy armor or carrying a heavy load. When making a jump after a running start, you gain an additional bonus equal to your tier + 4 on your Acrobatics check.",
 			"",
 			"You can run normally for a number of rounds equal to your Constitution score plus your tier, but after that you must succeed at Constitution checks to continue running."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"runic_charge": {
 		"name": "Runic Charge",
@@ -2078,8 +2075,7 @@
 			"Shielding a comrade from harm gives you a chance to strike back.  ",
 			"**Prerequisites:** {feat/Saving Shield}.  ",
 			"**Benefit:** The shield bonus you grant an ally with Saving Shield increases to +3. If you use Saving Shield to successfully negate an attack against an adjacent ally, you can immediately make an attack of opportunity against the attacker so long as it is within your melee reach."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"saviors_arrow": {
 		"name": "Savior's Arrow",
@@ -2372,8 +2368,7 @@
 			"Your unarmed strikes can induce a near-crippling lethargy in your enemies.  ",
 			"**Prerequisites:** {feat/Scorpion Style}.  ",
 			"**Benefit:** Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell {spell/slow}, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modifier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"scouting_summons": {
 		"name": "Scouting Summons",
@@ -3200,8 +3195,7 @@
 			"Your precise counterattacks degrade your foes' advantages in combat.  ",
 			"**Prerequisites:** {feat/Strike Back}.  ",
 			"**Benefit:** When you make a melee attack as a readied action against a foe outside your melee reach, you can take a 5-foot step toward that foe. If you expend one use of mythic power, you can move your speed toward the foe instead. Neither of these counts toward the movement made during your turn."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"strike_true": {
 		"name": "Strike True",
@@ -3237,8 +3231,7 @@
 			"You never make the same mistake twice.  ",
 			"**Prerequisites:** {feat/Strong Comeback}.  ",
 			"**Benefit:** Whenever you're allowed to reroll an ability check, a skill check, or a saving throw, roll two dice and take the higher result, before adding the bonus from Strong Comeback."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"strong_implement_link": {
 		"name": "Strong Implement Link",
@@ -3464,8 +3457,7 @@
 			"With greater potency and frequency, your fists stun those who stand against you.  ",
 			"**Prerequisites:** {feat/Stunning Fist}.  ",
 			"**Benefit:** The DC of your Stunning Fist increases by half your tier, and you can use Stunning Fist multiple times during the same round. As a free action, you can expend one use of your mythic power to use Stunning Fist without spending one of your daily uses of the feat."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"stunning_fist_adept": {
 		"name": "Stunning Fist Adept",

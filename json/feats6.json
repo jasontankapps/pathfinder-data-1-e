@@ -1326,8 +1326,7 @@
 			"You know just how to strike to bypass even the most heavily armored foe's defenses.  ",
 			"**Prerequisites:** {feat/Penetrating Strike}.  ",
 			"**Benefit:** When using Penetrating Strike or Greater Penetrating Strike, you can ignore an additional point of damage reduction for every 3 tiers you posses. Additionally, the effects apply to damage reduction without a type (such as DR 10/-)."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"perfect_awareness": {
 		"name": "Perfect Awareness",
@@ -1520,8 +1519,7 @@
 			"You're a master of persuasion, be it with soothing words or harsh barking commands.  ",
 			"**Prerequisites:** {feat/Persuasive}.  ",
 			"**Benefit:** The bonus on Diplomacy and Intimidate skill checks granted by Persuasive increases by 2. In addition, you can expend one use of mythic power to treat a Diplomacy or Intimidate check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"persuasive_bribery": {
 		"name": "Persuasive Bribery",
@@ -1911,8 +1909,7 @@
 			"Your attacks can home in on your opponent's weak spot and ignore many defenses.  ",
 			"**Prerequisites:** {feat/Pinpoint Targeting}.  ",
 			"**Benefit:** You can use this feat even if you move this round, but only if the distance you move is equal to or less than 5 feet per tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"piranha_strike": {
 		"name": "Piranha Strike",
@@ -2504,8 +2501,7 @@
 			"Your accuracy with ranged attacks is unmatched at pointblank range.  ",
 			"**Prerequisites:** {feat/Point-Blank Shot}.  ",
 			"**Benefit:** The bonus on attack and damage rolls granted by Point-Blank Shot increases to +2. As a swift action, you can expend one use of mythic power to gain an additional bonus on these rolls equal to half your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"poised_bearing": {
 		"name": "Poised Bearing",
@@ -2782,8 +2778,7 @@
 			"",
 			"Your surge is more potent.  ",
 			"**Benefit:** Whenever you use your surge ability, add 1 to your surge result."
-		],
-		"mythic_only": true
+		]
 	},
 	"potion_glutton": {
 		"name": "Potion Glutton",
@@ -2829,8 +2824,7 @@
 			"**Benefit:** When you use Power Attack, you gain a +3 bonus on melee damage rolls instead of +2. When your base attack bonus reaches +4 and every 4 points thereafter, the amount of bonus damage increases by +3 instead of +2. In addition, the bonus damage from this feat is doubled on a critical hit, before it's multiplied by the weapon's critical multiplier.",
 			"",
 			"You can expend one use of mythic power when you activate Power Attack to ignore the penalties on melee attack rolls and combat maneuver checks for 1 minute."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"powerful_poisoning": {
 		"name": "Powerful Poisoning",
@@ -2869,8 +2863,7 @@
 			"**Benefit:** You can apply the {template/giant/ simple template} (quick rules version) to any form you take with wild shape. This replaces the benefit from Powerful Shape.",
 			"",
 			"As a free action, you can expend one use of mythic power to combine the benefit from this feat with the benefit from non-mythic Powerful Shape for a number of rounds equal to your tier."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"powerful_tongue": {
 		"name": "Powerful Tongue",
@@ -3272,8 +3265,7 @@
 			"Your precognitive powers aid you further.  ",
 			"**Prerequisites:** {feat/Prophetic Visionary}.  ",
 			"**Benefit:** You can use Prophetic Visionary's augury ability at will, spending 10 minutes in a deep trance each time. Your chance of a successful augury increases by 1% per tier. A successful augury made by using this feat also grants you the benefits of guidance, but the bonus is equal to your tier and is an insight bonus instead of a competence bonus."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"prosperity_and_pride": {
 		"name": "Prosperity and Pride",
@@ -3900,8 +3892,7 @@
 			"You can retrieve any item quickly, not just weapons.  ",
 			"**Prerequisites:** {feat/Quick Draw}.  ",
 			"**Benefit:** You can use Quick Draw to draw items of any kind, not just weapons, provided they are stored or concealed on your person. As a move action, you can expend one use of mythic power to retrieve up to two hidden items. You must have two hands free to do so."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"quick_favor": {
 		"name": "Quick Favor",
@@ -4184,8 +4175,7 @@
 			"Your racial heritage mingles with your mythic power to become more pronounced.  ",
 			"**Prerequisites:** {feat/Racial Heritage}.  ",
 			"**Benefit:** You gain a single racial trait of your choice from the race you picked when you took non-mythic Racial Heritage. That racial trait can't modify your size or ability scores. You also gain the racial language of the race (if any) if you don't already know it. For races with multiple racial languages, you gain all of them."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"racial_item_mastery": {
 		"name": "Racial Item Mastery",
@@ -4554,8 +4544,7 @@
 			"You can reload any type of weapon with astounding speed.  ",
 			"**Prerequisites:** {feat/Rapid Reload}.  ",
 			"**Benefit:** You gain the benefits of Rapid Reload with all crossbows and firearms, not just the one you originally chose when you gained that feat. As a swift action, you can expend one use of mythic power to gain the ability to reload crossbows and firearms without provoking attacks of opportunity for 1 minute."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"rapid_repair": {
 		"name": "Rapid Repair",
@@ -4601,8 +4590,7 @@
 			"You can fire many times each round with amazing precision.  ",
 			"**Prerequisites:** {feat/Rapid Shot}.  ",
 			"**Benefit:** When using Rapid Shot, you can either ignore the feat's -2 penalty on attack rolls or make two additional attacks instead of one."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"rat_catcher": {
 		"name": "Rat Catcher",

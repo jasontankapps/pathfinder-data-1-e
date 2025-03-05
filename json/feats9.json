@@ -1521,8 +1521,7 @@
 			"In your hands, anything is a deadly weapon.  ",
 			"**Prerequisites:** {feat/Catch Off-Guard}.  ",
 			"**Benefit:** The damage dealt when you use improvised weapons increases by your tier. You also gain a bonus to CMD equal to your tier when an opponent attempts to sunder or disarm an improvised weapon you're wielding."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"catfolk_exemplar": {
 		"name": "Catfolk Exemplar",
@@ -2161,8 +2160,7 @@
 			"Your weapon a conduit of divine energy.  ",
 			"**Prerequisites:** {feat/Channel Smite}.  ",
 			"**Benefit:** When using Channel Smite, you gain a bonus on your attack roll equal to the number of d6s granted by your channel energy class feature. This is either a sacred bonus (if channeling positive energy) or a profane bonus (if channeling negative energy). If your attack misses the target, you can expend one use of mythic power as a free action to release the channeled energy, producing the normal effects of your channel energy class feature centered on the creature you were attempting to smite."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"channel_spirit": {
 		"name": "Channel Spirit",
@@ -2315,8 +2313,7 @@
 			"You can sense a creature's magical abilities with just a mere glance.  ",
 			"**Prerequisites:** {feat/Detect Expertise}.  ",
 			"**Benefit:** You gain the benefit of Detect Expertise immediately (without needing to observe a creature for 3 rounds) when using the divinations listed in Detect Expertise. Non-mythic creatures cannot attempt a Will save to resist this effect."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"devastating_assault": {
 		"name": "Devastating Assault",
@@ -3164,8 +3161,7 @@
 			"You're a master at disrupting nearby spellcasters.  ",
 			"**Prerequisites:** {feat/Disruptive}.  ",
 			"**Benefit:** The DC to cast spells defensively within your threatened area increases by half your tier. This stacks with the increase granted by Disruptive. In addition, even if you can't make attacks of opportunity, non-mythic spellcasters are still wary of you and continue to suffer from the effects of Disruptive."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"disruptive_companion": {
 		"name": "Disruptive Companion",
@@ -3266,8 +3262,7 @@
 			"There's virtually no limit to your powerful throwing arm.  ",
 			"**Prerequisites:** Str 17, {feat/Distance Thrower}.  ",
 			"**Benefit:** Thrown weapons wielded by you have twice their normal range."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"distant_delivery": {
 		"name": "Distant Delivery",
@@ -3724,8 +3719,7 @@
 			"Your divine power thwarts enemies of your faith.  ",
 			"**Prerequisites:** {feat/Divine Interference}.  ",
 			"**Benefit:** When you use Divine Interference, the penalty on your opponent's attack roll is equal to twice the level of the spell sacrificed. You can expend one use of mythic power when you sacrifice the spell to increase the penalty to triple the level of the spell sacrificed."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"divine_protection": {
 		"name": "Divine Protection",
@@ -3844,8 +3838,7 @@
 			"When focused, you become nearly impossible to strike.  ",
 			"**Prerequisites:** {feat/Dodge}.  ",
 			"**Benefit:** The bonus to AC from Dodge increases by 1. As an immediate action, you can expend one use of mythic power to grant yourself an additional +10 dodge bonus to AC against one attack."
-		],
-		"has_mythic_version": true
+		]
 	},
 	"dog_killer_horse_hunter": {
 		"name": "Dog Killer, Horse Hunter",
