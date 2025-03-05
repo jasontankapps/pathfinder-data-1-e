@@ -18,7 +18,7 @@
 		]
 	},
 	"spells_cleric_0_1": {
-		"title": "All Cleric Spells",
+		"title": "Cleric Spells Levels 0-1",
 		"sources": [],
 		"description": [
 			"::main[Cleric Spells Level 2]{to=main/spells_cleric_2}",
@@ -253,7 +253,7 @@
 		]
 	},
 	"spells_cleric_2": {
-		"title": "All Cleric Spells",
+		"title": "Cleric Spells Level 2",
 		"sources": [],
 		"description": [
 			"::main[Cleric Spells Levels 0-1]{to=main/spells_cleric_0_1}",
@@ -525,7 +525,7 @@
 		]
 	},
 	"spells_cleric_3": {
-		"title": "All Cleric Spells",
+		"title": "Cleric Spells Level 3",
 		"sources": [],
 		"description": [
 			"::main[Cleric Spells Levels 0-1]{to=main/spells_cleric_0_1}",
@@ -780,7 +780,7 @@
 		]
 	},
 	"spells_cleric_4": {
-		"title": "All Cleric Spells",
+		"title": "Cleric Spells Level 4",
 		"sources": [],
 		"description": [
 			"::main[Cleric Spells Levels 0-1]{to=main/spells_cleric_0_1}",
@@ -994,7 +994,7 @@
 		]
 	},
 	"spells_cleric_5_6": {
-		"title": "All Cleric Spells",
+		"title": "Cleric Spells Level 5-6",
 		"sources": [],
 		"description": [
 			"::main[Cleric Spells Levels 0-1]{to=main/spells_cleric_0_1}",
@@ -1280,7 +1280,7 @@
 		]
 	},
 	"spells_cleric_7_9": {
-		"title": "All Cleric Spells",
+		"title": "Cleric Spells Level 7-9",
 		"sources": [],
 		"description": [
 			"::main[Cleric Spells Levels 0-1]{to=main/spells_cleric_0_1}",

@@ -1094,7 +1094,7 @@
 	},
 	"casting_spells": {
 		"name": "Casting Spells",
-		"tag": "spellcasting",
+		"tags": "spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/206}",

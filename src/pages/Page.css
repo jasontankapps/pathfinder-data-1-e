@@ -437,9 +437,10 @@ div.tableWrap {
 		56px page header, (3.5rem)
 		56px page footer, (3.5rem)
 		16px margin on filter button, (1rem)
-		filter button min-height 2.1em
-	*/
+		filter button min-height (2.1em)
 	max-height: calc(100vh - 3.5rem - 3.5rem - 1rem - 2.1em - 1rem);
+	*/
+	max-height: calc(100vh - 3.5rem - 3.5rem - 1rem);
 	margin: 0 auto;
 }
 div.displayTable { /* Dunno if this is needed, but... */
