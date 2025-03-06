@@ -1256,7 +1256,7 @@
 			"- Fear: The target becomes panicked for 2d6 rounds (Will DC 24).",
 			"- Pain: The target suffers wracking pains that impose a -4 penalty on attack rolls, skill checks, and ability checks for 1 hour (Fort DC 24).",
 			"- Persuasion: The target is charmed by the living rune (as charm monster) for 2d6 hours (Will DC 24).",
-			"- Slow: The target is slowed (as the slow spell) for 12 rounds (Will DC 24).",
+			"- Slow: The target is slowed (as the {spell/slow} spell) for 12 rounds (Will DC 24).",
 			"- Stunning: The target is stunned for 1d6 rounds (Fort DC 24).",
 			"- Weakness: The target suffers crippling weakness that deals 2d6 points of Strength damage (Fort DC 24).",
 			"",

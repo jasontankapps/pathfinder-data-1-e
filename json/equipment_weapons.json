@@ -3923,6 +3923,7 @@
 		],
 		"backlink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
+	"flail": { "copyof": "light_flail" },
 	"longsword": {
 		"name": "Longsword",
 		"sources": [

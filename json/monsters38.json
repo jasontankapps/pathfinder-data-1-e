@@ -2338,7 +2338,7 @@
 			"",
 			"**Poison (Ex)** Bite-injury; *save* Fort DC 14; *frequency* 1/round for 6 rounds; *effect* 1d2 Str; *cure* 1 save.",
 			"",
-			"**Slowing Toxin (Su)** A shriezyx's web is coated with a supernatural toxin that numbs and deadens the nerves on contact. Any creature struck by a shriezyx's web must succeed at a DC 14 Fortitude save or become slowed (as the slow spell) for 1 minute. Each round, a victim may attempt a new DC 14 Fortitude save to end the effect early. This toxin fades quickly from spun webs - it can only affect targets on the round the web is spun. Existing webs remain sticky and tangled, but do not have this slowing effect. The save DC is Constitution-based.",
+			"**Slowing Toxin (Su)** A shriezyx's web is coated with a supernatural toxin that numbs and deadens the nerves on contact. Any creature struck by a shriezyx's web must succeed at a DC 14 Fortitude save or become slowed (as the {spell/slow} spell) for 1 minute. Each round, a victim may attempt a new DC 14 Fortitude save to end the effect early. This toxin fades quickly from spun webs - it can only affect targets on the round the web is spun. Existing webs remain sticky and tangled, but do not have this slowing effect. The save DC is Constitution-based.",
 			"",
 			"::sh[Description]",
 			"",

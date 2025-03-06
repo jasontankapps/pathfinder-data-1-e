@@ -1740,7 +1740,7 @@
 			"",
 			"**Spells (Sp)** A bastion archon casts divine spells as a 17th-level cleric. It does not gain access to domains or other cleric abilities. Its beacon-like face serves as its divine focus.",
 			"",
-			"**Ultimate Sacrifice (Su)** When a bastion archon is slain by an evil creature, it erupts in a 40-foot-radius burst of positive energy that restores 100 hit points to good-aligned creatures and consecrates the ground in the area. The area is treated as the subject of a hallow spell (CL 20th) with an associated bless spell effect for 1 year thereafter.",
+			"**Ultimate Sacrifice (Su)** When a bastion archon is slain by an evil creature, it erupts in a 40-foot-radius burst of positive energy that restores 100 hit points to good-aligned creatures and consecrates the ground in the area. The area is treated as the subject of a {spell/hallow} spell (CL 20th) with an associated bless spell effect for 1 year thereafter.",
 			"",
 			"::sh[Description]",
 			"",

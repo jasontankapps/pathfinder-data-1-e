@@ -49,7 +49,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Angled Entry (Su)** Hounds of Tindalos move through the dimensions in ways other creatures cannot comprehend. They may use greater teleport (self only) once per round as a swift action and plane shift (self only) 3/day as a standard action (caster level 10th). A hound of Tindalos can use these powers anywhere, but its destination point must be adjacent to a fixed angle or corner in the physical environment, such as a wall, floor, or ceiling (as determined by the GM); temporary angles created by cloth, flesh, or small items are not sufficient. It cannot use these abilities to enter curved architecture or open outdoor environments.",
+			"**Angled Entry (Su)** Hounds of Tindalos move through the dimensions in ways other creatures cannot comprehend. They may use {spell/greater teleport} (self only) once per round as a swift action and {spell/plane shift} (self only) 3/day as a standard action (caster level 10th). A hound of Tindalos can use these powers anywhere, but its destination point must be adjacent to a fixed angle or corner in the physical environment, such as a wall, floor, or ceiling (as determined by the GM); temporary angles created by cloth, flesh, or small items are not sufficient. It cannot use these abilities to enter curved architecture or open outdoor environments.",
 			"",
 			"**Otherworldly Mind (Ex)** Any non-outsider attempting to read the thoughts of a hound of Tindalos or communicate with it telepathically takes 5d6 points of nonlethal damage and must make a DC 18 Will save or become confused for 2d4 rounds. This is a mind-affecting effect. The save DC is Charisma-based.",
 			"",
@@ -57,7 +57,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Hounds of Tindalos are otherworldly predators from beyond the bounds of known reality, usually appearing only when summoned by reckless spellcasters. Little is known about their nature outside of blood-spattered notes and deranged writings of the nearly insane survivors of their attacks. Although possessed of great cunning and cruel intellect, the hounds show no evidence of understanding or communicating with mortals. They enter the physical world on their own in pursuit of those who have trodden too much the netherways beyond time and reality-time travelers (be it physical travel or simply divinatory glimpses forward or backward in time) and creatures that teleport without regard to how this movement impacts subtle magical currents in the multiverse particularly draw their interest."
+			"Hounds of Tindalos are otherworldly predators from beyond the bounds of known reality, usually appearing only when summoned by reckless spellcasters. Little is known about their nature outside of blood-spattered notes and deranged writings of the nearly insane survivors of their attacks. Although possessed of great cunning and cruel intellect, the hounds show no evidence of understanding or communicating with mortals. They enter the physical world on their own in pursuit of those who have trodden too much the netherways beyond time and reality; time travelers (be it physical travel or simply divinatory glimpses forward or backward in time) and creatures that teleport without regard to how this movement impacts subtle magical currents in the multiverse particularly draw their interest."
 		]
 	},
 	"house_drake": {
@@ -115,7 +115,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The Korvosan house drake is not a true drake, but rather an unusual local variant of the more common {monster/pseudodragon} - an example of how a creature placed under extreme conditions might adapt and evolve to grow stronger. In this case, house drakes are the result of brutal and violent predations upon their pseudodragon ancestors by Korvosa's imps, who began to become a true infestation in the early years after the Acadamae was founded and its students began accidently releasing the little devils into the urban wilds after failing to claim them as familiars. These imps found Korvosa's indigenous pseudodragons to be a delightful (and delicious) population to torment, for there was little that the pseudodragons could do against an imp's defenses.",
+			"The Korvosan house drake is not a true drake, but rather an unusual local variant of the more common {monster/pseudodragon} - an example of how a creature placed under extreme conditions might adapt and evolve to grow stronger. In this case, house drakes are the result of brutal and violent predations upon their pseudodragon ancestors by Korvosa's {monster/imp/s}, who began to become a true infestation in the early years after the Acadamae was founded and its students began accidently releasing the little devils into the urban wilds after failing to claim them as familiars. These imps found Korvosa's indigenous pseudodragons to be a delightful (and delicious) population to torment, for there was little that the pseudodragons could do against an imp's defenses.",
 			"",
 			"It wasn't long before the most able, wise, and stubborn of the city's pseudodragons began fighting back, chewing on silver coins to build up traces of the metal in their teeth and stings to be able to penetrate their enemy's supernatural skin, focusing their studies on magic to see through impish invisibility and recover from the constant fights, and gorging on fat {monster/dream spider/s} to develop a befuddling breath weapon. The evolution of the pseudodragon into the house drake took only a few generations, quickly enough that many scholars suspect the outside influence of a mysterious patron of some supernatural source.",
 			"",
@@ -3289,7 +3289,7 @@
 			"",
 			"In rare circumstances, yarahkuts form alliances with others of their kind. These alliances most often occur in response to the distribution of a large cache of volatile items across overlapping yarahkut jurisdictions, or the unearthing of dangerous artifacts with immediate repercussions for a large region.",
 			"",
-			"Sometimes yarahkuts seek out other types of inevitables when the need arises. For example, a situation in which a powerful undead creature has discovered a lost army of robots may prompt an alliance of convenience with a marut. If a bargain was broken regarding powerful technology, a yarahkut might instead align with a kolyarut, while a death-marked exile from Numeria bringing stolen items to other nations might necessitate working with a zelekhut in order to track the renegade down."
+			"Sometimes yarahkuts seek out other types of inevitables when the need arises. For example, a situation in which a powerful undead creature has discovered a lost army of robots may prompt an alliance of convenience with a marut. If a bargain was broken regarding powerful technology, a yarahkut might instead align with a kolyarut, while a death-marked exile from Numeria bringing stolen items to other nations might necessitate working with a {monster/zelekhut} in order to track the renegade down."
 		]
 	},
 	"yarahkut": { "copyof": "inevitable_yarahkut" },

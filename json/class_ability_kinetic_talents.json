@@ -2346,7 +2346,7 @@
 			"**Element** earth; **Type** utility (Sp); **Level** 4; **Burn** 0  ",
 			"**Prerequisite** earth climb",
 			"",
-			"You meld a creature into stone, where it can listen to conversations without being detected. This functions as the meld into stone spell, except it can work on any willing creature, not just you, and it lasts for 10 minutes per kineticist level or until you use earthmeld again. The melded creature, not you, decides when to step out of the stone. You can accept 1 point of burn to increase the duration of an earthmeld until the next time you recover burn. Such increased earthmelds don't end if you use earthmeld again, allowing you to maintain multiple earthmelds."
+			"You meld a creature into stone, where it can listen to conversations without being detected. This functions as the {spell/meld into stone} spell, except it can work on any willing creature, not just you, and it lasts for 10 minutes per kineticist level or until you use earthmeld again. The melded creature, not you, decides when to step out of the stone. You can accept 1 point of burn to increase the duration of an earthmeld until the next time you recover burn. Such increased earthmelds don't end if you use earthmeld again, allowing you to maintain multiple earthmelds."
 		]
 	},
 	"elemental_exile": {
@@ -3312,7 +3312,7 @@
 			"{SOURCE Occult Adventures/26}  ",
 			"**Element** earth; **Type** utility (Sp); **Level** 9; **Burn** 0",
 			"",
-			"You can focus on your connection to earth and create a localized tremor, as the earthquake spell."
+			"You can focus on your connection to earth and create a localized tremor, as the {spell/earthquake} spell."
 		]
 	},
 	"self_telekinesis": {
@@ -3606,7 +3606,7 @@
 			"**Element** aether; **Type** utility (Sp); **Level** 8; **Burn** 0  ",
 			"**Prerequisite** force barrier, force ward",
 			"",
-			"You can create a globe of force, as the telekinetic sphere spell, that lasts as long as you concentrate as a standard action, and you can move the globe as a move action. You can accept 1 point of burn to increase the duration to 1 minute per level and eliminate the need to concentrate to maintain the globe."
+			"You can create a globe of force, as the {spell/telekinetic sphere} spell, that lasts as long as you concentrate as a standard action, and you can move the globe as a move action. You can accept 1 point of burn to increase the duration to 1 minute per level and eliminate the need to concentrate to maintain the globe."
 		]
 	},
 	"telekinetic_haul": {

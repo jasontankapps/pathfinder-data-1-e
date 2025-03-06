@@ -1449,7 +1449,7 @@
 			"",
 			"***Astounding Disable (Ex):*** Whenever you use Disable Device to disarm a trap or open a lock, doing so is only a move action and doesn't provoke attacks of opportunity.",
 			"",
-			"***Clown (Su):*** As a standard action, you can expend one use of mythic power to make one creature laugh uncontrollably, as the hideous laughter spell. The saving throw against this effect is equal to 10 + your tier + your Charisma modifier. If you aren't in combat when you use this ability, it can affect any number of creatures in a burst with a radius of 10 feet per tier.",
+			"***Clown (Su):*** As a standard action, you can expend one use of mythic power to make one creature laugh uncontrollably, as the {spell/hideous laughter} spell. The saving throw against this effect is equal to 10 + your tier + your Charisma modifier. If you aren't in combat when you use this ability, it can affect any number of creatures in a burst with a radius of 10 feet per tier.",
 			"",
 			"***Combat Trickery (Ex):*** Through buffoonery and deceit, you can trick opponents into moving where you want them. You can make a single combat maneuver check using your Bluff check modifier in place of your CMB. Apply the result of this check to all adjacent opponents, and resolve it for each enemy independently as a bull rush, drag, or reposition combat maneuver. For example, if facing three opponents, you can roll one check and attempt to bull rush the first, drag the second, and reposition the third.",
 			"",
@@ -1723,7 +1723,7 @@
 			"",
 			"***Borrow Mythic Power (Su):*** As a move action, you can call on a channeled spirit to grant you a fraction of its mythic power. Your channeled spirit gains 1 point of influence over you, and you gain two uses of mythic power. Uses of mythic power gained in this way are lost once the spirit leaves you, and they can be spent only on path abilities from the same mythic path with which the spirit is associated.",
 			"",
-			"***Commune with Power (Su):*** You can tap into your mythic nature to seek answers to the quandaries you encounter in your adventures. Once per day, in a special ritual that requires you to spend 1 hour of uninterrupted meditation, you can commune with the source of your power. This acts as the commune spell, using your tier as your caster level. The source of your power may be limited in the knowledge it possesses or can deliver, as decided upon by the GM.",
+			"***Commune with Power (Su):*** You can tap into your mythic nature to seek answers to the quandaries you encounter in your adventures. Once per day, in a special ritual that requires you to spend 1 hour of uninterrupted meditation, you can commune with the source of your power. This acts as the {spell/commune} spell, using your tier as your caster level. The source of your power may be limited in the knowledge it possesses or can deliver, as decided upon by the GM.",
 			"",
 			"***Dampen Magic (Su) [Mana Well]:*** You can expand one use of mythic power as a swift action to halve the remaining duration of a spell or spell-like ability affecting you. You can't reduce the duration below 1 round. You can use this ability even when otherwise denied the ability to take actions, as long as you're conscious. You can reduce the duration of an effect multiple times, using a swift action each time.",
 			"",
@@ -1873,7 +1873,7 @@
 			"",
 			"***Phantom Possession (Su):*** As a full-round action, by expending one use of mythic power, you can invite your phantom to control your body while you project your spirit incorporeally. While your spirit is outside of your body in this fashion, you become incorporeal and gain a fly speed of 60 feet (perfect), but your statistics remain otherwise unchanged. Your projected spirit has incorporeal versions of all of your equipment, although consumable equipment and equipment with limited numbers of charges or uses cannot be used while incorporeal. At the same time, your phantom takes control of your body, as the spell {spell/possession}. You can end the effect at any time by returning to your body, and it ends automatically after 1 minute per mythic tier unless you expend an additional use of mythic power to extend the duration. If your spiritual form is slain, your spirit returns to your body automatically and the effect ends. You must be at least 6th tier and have the phantom class feature to select this path ability.",
 			"",
-			"***Tongues (Sp):*** You can understand and speak any language, as the tongues spell. If this ability is dispelled, you can resume it as a free action."
+			"***Tongues (Sp):*** You can understand and speak any language, as the {spell/tongues} spell. If this ability is dispelled, you can resume it as a free action."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",

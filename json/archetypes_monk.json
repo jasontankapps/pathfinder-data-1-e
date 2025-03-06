@@ -246,7 +246,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** The harrow warden is proficient with all simple weapons, as well as with the klar, rapier, short sword, and starknife. Additionally, harrow wardens treat starknives as monk weapons.",
 			"",
-			"**Idiot Strike (Su):** At 1st level, the harrow warden can make an unarmed strike against a target and curse the creature with bad luck. Foes damaged by an idiot strike must succeed at a Will save (DC 10 + 1/2 the monk's level + the monk's Wisdom modifier) or become jinxed. A jinxed creature must roll twice whenever it attempts an attack roll, a saving throw, a skill check, or a caster level check for 1 round, taking the lower result in each instance. The harrow warden can use idiot strike once per day per monk level. She must declare that she is using an idiot strike before making the attack roll; thus, a failed roll wastes the attempt. At 4th level and again at 12th level, the jinx effect lasts an additional round. At 16th level, a harrow warden can expend two uses of idiot strike to instead curse her target as the bestow curse spell.",
+			"**Idiot Strike (Su):** At 1st level, the harrow warden can make an unarmed strike against a target and curse the creature with bad luck. Foes damaged by an idiot strike must succeed at a Will save (DC 10 + 1/2 the monk's level + the monk's Wisdom modifier) or become jinxed. A jinxed creature must roll twice whenever it attempts an attack roll, a saving throw, a skill check, or a caster level check for 1 round, taking the lower result in each instance. The harrow warden can use idiot strike once per day per monk level. She must declare that she is using an idiot strike before making the attack roll; thus, a failed roll wastes the attempt. At 4th level and again at 12th level, the jinx effect lasts an additional round. At 16th level, a harrow warden can expend two uses of idiot strike to instead curse her target as the {spell/bestow curse} spell.",
 			"",
 			"This ability replaces stunning fist.",
 			"",
@@ -1649,7 +1649,7 @@
 			"",
 			"**Form Lock (Su):** At 13th level, a tetori can negate a polymorph effect by touch with a Wisdom check, adding a bonus equal to his monk level, against a DC of 11 + the caster level of the effect (or HD of the creature, for supernatural polymorph effects). This is a standard action requiring 2 points from the tetori's ki pool, or an immediate action if a creature the tetori is grappling attempts to use a polymorph effect. This ability replaces diamond soul.",
 			"",
-			"**Iron Body (Su):** At 19th level, as a move action, a tetori can make his tissues ultra-dense for 1 minute as the iron body spell by spending 3 points from his ki pool. This ability replaces empty body."
+			"**Iron Body (Su):** At 19th level, as a move action, a tetori can make his tissues ultra-dense for 1 minute as the {spell/iron body} spell by spending 3 points from his ki pool. This ability replaces empty body."
 		]
 	},
 	"treetop_monk": {

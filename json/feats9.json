@@ -334,7 +334,7 @@
 			"{SOURCE Distant Shores/63}",
 			"",
 			"You and your partner are so close that you can almost read each other's minds.  ",
-			"**Benefit:** As long as you can see each other, you and an ally who also has this feat can trade nonverbal messages. These function as the message spell, except that you don't need to whisper or point, and you cannot be overheard."
+			"**Benefit:** As long as you can see each other, you and an ally who also has this feat can trade nonverbal messages. These function as the {spell/message} spell, except that you don't need to whisper or point, and you cannot be overheard."
 		]
 	},
 	"bonebreaker": {
@@ -879,7 +879,7 @@
 			"",
 			"You can create a gust of wind with your wings.  ",
 			"**Prerequisites:** {feat/Hover}, {feat/Powerful Wings}.  ",
-			"**Benefit:** As a full-round action, you can beat your wings to create a blast of air as the gust of wind spell. This is an extraordinary ability.  ",
+			"**Benefit:** As a full-round action, you can beat your wings to create a blast of air as the {spell/gust of wind} spell. This is an extraordinary ability.  ",
 			"**Special:** While the following feats are primarily taken by strix, other creatures with natural wings can also take them at the GM's discretion."
 		]
 	},

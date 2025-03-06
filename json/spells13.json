@@ -1478,7 +1478,7 @@
 			"",
 			"{SOURCE Mythic Adventures/92}",
 			"",
-			"A creature that fails its Fortitude save against the spell must also succeed at a Will save at the same DC or fall asleep (as the sleep spell). Creatures that succeed at their saves are merely drowsy (as the lullaby spell).",
+			"A creature that fails its Fortitude save against the spell must also succeed at a Will save at the same DC or fall asleep (as the {spell/sleep} spell). Creatures that succeed at their saves are merely drowsy (as the {spell/lullaby} spell).",
 			"",
 			"*Augmented:* If you expend two uses of mythic power, add half your tier to the level of light spells mythic dust of twilight dispels."
 		]
@@ -2545,7 +2545,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell acts as the deep slumber spell, but only affects one creature of 10 Hit Dice or fewer. In addition, a creature affected by this spell awakens with no knowledge of the events that led to the spell's casting. The target loses all memory from the 5 minutes prior to falling asleep. No effect short of a miracle or wish can restore memories lost by this spell."
+			"This spell acts as the {spell/deep slumber} spell, but only affects one creature of 10 Hit Dice or fewer. In addition, a creature affected by this spell awakens with no knowledge of the events that led to the spell's casting. The target loses all memory from the 5 minutes prior to falling asleep. No effect short of a miracle or wish can restore memories lost by this spell."
 		]
 	},
 	"form_of_the_alien_dragon_1": {

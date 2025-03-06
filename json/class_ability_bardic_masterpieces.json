@@ -946,7 +946,7 @@
 			"**Prerequisite:** Perform (string) or Perform (wind) 11 ranks.  ",
 			"**Cost:** Feat or 4th-level bard spell known.",
 			"",
-			"**Effect:** In the Varisian musical The Bear, a lively tune plays whenever the eponymous animal tumbles onto stage. When played with skill, the song actually has the power to grant an animal temporary intelligence. Choose a non-hostile animal within line of sight that can see and hear you perform. This masterpiece affects the target as the awaken spell for as long as you maintain the performance. Abilities that extend the duration of a bardic performance (such as {feat/Lingering Performance}) affect this masterpiece.",
+			"**Effect:** In the Varisian musical The Bear, a lively tune plays whenever the eponymous animal tumbles onto stage. When played with skill, the song actually has the power to grant an animal temporary intelligence. Choose a non-hostile animal within line of sight that can see and hear you perform. This masterpiece affects the target as the {spell/awaken} spell for as long as you maintain the performance. Abilities that extend the duration of a bardic performance (such as {feat/Lingering Performance}) affect this masterpiece.",
 			"",
 			"**Use:** 1 round of bardic performance per round.  ",
 			"**Action:** 1 full round."

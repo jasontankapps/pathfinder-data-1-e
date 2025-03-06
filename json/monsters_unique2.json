@@ -1251,7 +1251,7 @@
 			"",
 			"**Maddening Strike (Su)** If the herald successfully hits a creature with its flail, as a swift action it may force the opponent to make a DC 25 Will save. If the creature fails its save, it is confused for 1 round. The save DC is Charisma-based.",
 			"",
-			"**Madness (Ex)** The herald uses its Charisma modifier on Will saves instead of its Wisdom modifier, and is immune to insanity and confusion effects. Only a miracle or wish can remove its madness. If this occurs, the herald gains 6 points of Wisdom and loses 6 points of Charisma; it automatically reverts to its insane state 1d10 minutes later.",
+			"**Madness (Ex)** The herald uses its Charisma modifier on Will saves instead of its Wisdom modifier, and is immune to insanity and confusion effects. Only a {spell/miracle} or {spell/wish} can remove its madness. If this occurs, the herald gains 6 points of Wisdom and loses 6 points of Charisma; it automatically reverts to its insane state 1d10 minutes later.",
 			"",
 			"**Telepathic Bond (Sp)** This ability functions like telepathic bond, except any creature linked to the herald's disturbing thoughts takes 1 point of Wisdom damage every 10 minutes.",
 			"",

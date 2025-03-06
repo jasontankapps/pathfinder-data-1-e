@@ -85,7 +85,7 @@
 			"",
 			"*Unstoppable Overrun (Ex):* You can attempt overrun combat maneuvers against opponents that are up to two size categories larger than you. At 5th level, you gain {feat/Improved Overrun} as a bonus feat. At 10th level, you gain {feat/Greater Overrun} as a bonus feat. You don't need to meet the prerequisites to gain these feats.",
 			"",
-			"**Final Revelation:** Upon reaching 20th level, you become a herald of the apocalypse and wield the awesome power to fulfill such prophecy. Anytime you successfully cast a spell or use an ability that bestows 1 or more negative levels, the effect bestows 1d4 additional negative levels. Whenever you confirm a critical hit against a creature (including with a melee, ranged, or spell attack), as a swift action you can curse the target of your attack, as the bestow curse spell, except the target doesn't receive a Will saving throw to negate the effects and spell resistance does not apply against this ability."
+			"**Final Revelation:** Upon reaching 20th level, you become a herald of the apocalypse and wield the awesome power to fulfill such prophecy. Anytime you successfully cast a spell or use an ability that bestows 1 or more negative levels, the effect bestows 1d4 additional negative levels. Whenever you confirm a critical hit against a creature (including with a melee, ranged, or spell attack), as a swift action you can curse the target of your attack, as the {spell/bestow curse} spell, except the target doesn't receive a Will saving throw to negate the effects and spell resistance does not apply against this ability."
 		]
 	},
 	"ascetic": {
@@ -227,11 +227,11 @@
 			"",
 			"*Interstellar Void (Su):* You call upon the frigid depths of outer space to bring a terrible chill to your enemies. As a standard action, one target within 30 feet is cloaked in the void and takes 1d6 points of cold damage for every oracle level you possess. A successful Fortitude save halves this damage. At 10th level, the interstellar void is so extreme that a creature that fails its save is fatigued. At 15th level, a creature that fail its save is exhausted and stunned for 1 round. You can use this ability once per day plus one additional time per day at 10th level.",
 			"",
-			"*Many Forms (Su):* As a standard action, you can assume the form of a Small or Medium humanoid, as the alter self spell. At 7th level, you can assume the form of a Small or Medium animal, as beast shape I. At 11th level, you can assume the form of a Small or Medium magical beast, as beast shape III. At 15th level, you can assume a variety of forms, as greater polymorph. You can use this ability for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 3rd level to select this revelation.",
+			"*Many Forms (Su):* As a standard action, you can assume the form of a Small or Medium humanoid, as the {spell/alter self} spell. At 7th level, you can assume the form of a Small or Medium animal, as beast shape I. At 11th level, you can assume the form of a Small or Medium magical beast, as beast shape III. At 15th level, you can assume a variety of forms, as greater polymorph. You can use this ability for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 3rd level to select this revelation.",
 			"",
 			"*Pierce the Veil (Su):* Your bond with the alien denizens of the Dark Tapestry allows you to see in even the deepest darkness. You gain darkvision 60 feet. At 11th level, you can see perfectly in darkness of any kind, even in absolute darkness or the darkness created by a deeper darkness spell.",
 			"",
-			"*Read the Tapestry (Sp):* Once per day, you can spend 10 minutes meditating on the mysteries of the Dark Tapestry to send your mind to another plane and communicate with the strange or alien beings there. This functions as the contact other plane spell. You must be at least 7th level to select this revelation.",
+			"*Read the Tapestry (Sp):* Once per day, you can spend 10 minutes meditating on the mysteries of the Dark Tapestry to send your mind to another plane and communicate with the strange or alien beings there. This functions as the {spell/contact other plane} spell. You must be at least 7th level to select this revelation.",
 			"",
 			"*Touch of the Void (Su):* As a standard action, you can perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every two oracle levels you possess. At 7th level, the touched creature must also make a Fortitude saving throw or be fatigued for a number of rounds equal to 1/2 your oracle level. This has no effect on a creature that is already fatigued. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			"",
@@ -444,7 +444,7 @@
 			"",
 			"*Star Chart (Ex):* Your copious notes contain a working model of the night sky expressed in artistic scribbles and arcane mathematical formulae. Once per day, you may spend 10 minutes contemplating your star chart to gain the benefit of the spell commune. You must be at least 7th level to select this revelation.",
 			"",
-			"**Final Revelation:** Upon achieving 20th level, your rapport with the heavens grants you perfect harmony with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You automatically stabilize if you are below 0 hit points, are immune to fear effects, and automatically confirm all critical hits. Should you die, you are reborn 3 days later in the form of a star child, who matures over the course of 7 days (treat as the reincarnate spell)."
+			"**Final Revelation:** Upon achieving 20th level, your rapport with the heavens grants you perfect harmony with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You automatically stabilize if you are below 0 hit points, are immune to fear effects, and automatically confirm all critical hits. Should you die, you are reborn 3 days later in the form of a star child, who matures over the course of 7 days (treat as the {spell/reincarnate} spell)."
 		]
 	},
 	"intrigue": {
@@ -671,7 +671,7 @@
 			"",
 			"*Riddle of Steel (Su):* Your sacred bond with metal gives you insight into its form and function. Once per day, you may spend 10 minutes meditating on the structure of a piece of unworked metal or ore to gain a +5 insight bonus on your next Craft check to make something using that metal.",
 			"",
-			"*Rusting Grasp (Sp):* Once per day as a standard action, you can perform a melee touch attack that rusts iron, as the rusting grasp spell. At 11th level, and every four levels thereafter, you can use this ability an additional time per day. You must be at least 7th level to select this revelation.",
+			"*Rusting Grasp (Sp):* Once per day as a standard action, you can perform a melee touch attack that rusts iron, as the {spell/rusting grasp} spell. At 11th level, and every four levels thereafter, you can use this ability an additional time per day. You must be at least 7th level to select this revelation.",
 			"",
 			"*Skill at Arms (Ex):* You gain proficiency in all martial weapons and heavy armor.",
 			"",
@@ -1113,7 +1113,7 @@
 			"",
 			"*Temporal Celerity (Su):* Whenever you roll for initiative, you can roll twice and take either result. At 7th level, you can always act in the surprise round, but if you fail to notice the ambush, you act last, regardless of your initiative result (you act in the normal order in following rounds). At 11th level, you can roll for initiative three times and take any one of the results.",
 			"",
-			"*Time Flicker (Su):* As a standard action, you can flicker in and out of time, gaining {rule/concealment} (as the {spell/blur} spell). You can use this ability for 1 minute per oracle level that you possess per day. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 7th level, each time you activate this ability, you can treat it as the blink spell, though each round spent this way counts as 1 minute of your normal time flicker duration. You must be at least 3rd level to select this revelation.",
+			"*Time Flicker (Su):* As a standard action, you can flicker in and out of time, gaining {rule/concealment} (as the {spell/blur} spell). You can use this ability for 1 minute per oracle level that you possess per day. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 7th level, each time you activate this ability, you can treat it as the {spell/blink} spell, though each round spent this way counts as 1 minute of your normal time flicker duration. You must be at least 3rd level to select this revelation.",
 			"",
 			"*Time Hop (Su):* As a move action, you can teleport up to 10 feet per oracle level that you possess per day. This teleportation must be used in 5-foot increments. This movement does not provoke attacks of opportunity. You must have line of sight to your destination to use this ability. You can bring other willing creatures with you, but you must expend an equal amount of distance for each creature brought. You must be at least 7th level to select this revelation.",
 			"",
@@ -1183,7 +1183,7 @@
 			"",
 			"*Fluid Travel (Su):* You can walk on liquid as if it were a solid surface. Walking on the liquid does not harm you; you can walk on acid or even lava (as if walking on a solid temporary crust), though you would still take fire damage from being near the lava. You can move across this surface at your normal land speed. At 7th level, while this ability is in effect, you can instead go underwater, gaining a swim speed of 60 feet and the ability to breathe water. You can use this ability for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.",
 			"",
-			"*Freezing Spells (Su):* Whenever a creature fails a saving throw and takes cold damage from one of your spells, it is slowed (as the slow spell) for 1 round. Spells that do not allow a save do not slow creatures. At 11th level, the duration increases to 1d4 rounds.",
+			"*Freezing Spells (Su):* Whenever a creature fails a saving throw and takes cold damage from one of your spells, it is slowed (as the {spell/slow} spell) for 1 round. Spells that do not allow a save do not slow creatures. At 11th level, the duration increases to 1d4 rounds.",
 			"",
 			"*Ice Armor (Su):* You can conjure armor of ice that grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor grants you DR 5/piercing. In cold conditions, the armor bonus (and DR bonus) increases by 2; in very hot conditions it decreases by 2. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.",
 			"",
@@ -1302,7 +1302,7 @@
 			"",
 			"*Cold Aura (Su):* As a swift action, you can cause waves of cold to radiate from your body. This cold deals 1d6 points of cold damage per 2 oracle levels to all creatures within 10 feet. A successful Fortitude save halves the damage. In addition, a flurry of snow momentarily surrounds you, granting you {rule/concealment} until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every 5 levels thereafter.",
 			"",
-			"*Freezing Spells (Su):* Whenever a creature fails a saving throw and takes cold damage from one of your spells, it is slowed (as the slow spell) for 1 round. Spells that do not allow saves do not slow creatures. At 11th level, the slow duration increases to 1d4 rounds.",
+			"*Freezing Spells (Su):* Whenever a creature fails a saving throw and takes cold damage from one of your spells, it is slowed (as the {spell/slow} spell) for 1 round. Spells that do not allow saves do not slow creatures. At 11th level, the slow duration increases to 1d4 rounds.",
 			"",
 			"*Ice Armor (Su):* You can conjure armor of ice that grants you a +4 armor bonus to AC. At 7th level and every 4 levels thereafter, this bonus increases by 2. At 13th level, this icy armor grants you DR 5/piercing. In cold conditions, the armor bonus and DR bonus increase by 2; in very hot conditions, however, they decrease by 2. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but must be spent in 1-hour increments.",
 			"",
@@ -1316,7 +1316,7 @@
 			"",
 			"*Wintry Touch (Su):* As a standard action, you can perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every 2 oracle levels you possess. You can use the wintry touch ability a number of times per day equal to 3 + your Charisma modifier. At 11th level, any weapon that you wield is treated as a frost weapon.",
 			"",
-			"**Final Revelation:** Upon reaching 20th level, you become an avatar of winter and the North. Your body permanently transforms into living ice, as the ice body spell. In addition, your mastery of winter magic is such that any of your attacks that deal cold damage bypass cold immunity or cold resistance."
+			"**Final Revelation:** Upon reaching 20th level, you become an avatar of winter and the North. Your body permanently transforms into living ice, as the {spell/ice body} spell. In addition, your mastery of winter magic is such that any of your attacks that deal cold damage bypass cold immunity or cold resistance."
 		]
 	},
 	"wood": {
@@ -1339,7 +1339,7 @@
 			"",
 			"*Lignification (Su):* Once per day, you can turn a creature into wood. As a standard action, you may direct your gaze against a single creature within 30 feet. The targeted creature (along with all its carried gear) must make a Fortitude save or turn into a mindless, inert statue made out of wood for a number of rounds equal to 1/2 your oracle level. This ability otherwise functions as a flesh to stone spell, except the target turns to wood instead of stone. This can be reverse by any effect that can reverse flesh to stone. At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation.",
 			"",
-			"*Speak with Wood (Sp):* You can talk to wood and learn what it knows. You must spend 1 minute meditating on and communing with the wood. At the end of this time, you can speak with the wood. This functions as the stone tell spell, except with wood instead of stones. You can use this ability for 1 minute per oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. You can speak with natural or worked wood. You must be at least 11th level to select this revelation.",
+			"*Speak with Wood (Sp):* You can talk to wood and learn what it knows. You must spend 1 minute meditating on and communing with the wood. At the end of this time, you can speak with the wood. This functions as the {spell/stone tell} spell, except with wood instead of stones. You can use this ability for 1 minute per oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. You can speak with natural or worked wood. You must be at least 11th level to select this revelation.",
 			"",
 			"*Thorn Burst (Su):* As a swift action, you can cause sharp splinters of wood to explode outward from your body. These splinters deal 1d6 points of piercing damage per two oracle levels (minimum 1d6) to all creatures within a 10-foot burst. A Reflex save halves this damage. In addition, the sharp splinters count as caltrops in the area until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter.",
 			"",

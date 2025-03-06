@@ -2373,7 +2373,7 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell creates a subtle illusion, causing any divination (scrying) spell used to view anything within the area of this spell to instead receive a false image (as the major image spell), as defined by you at the time of casting. As long as the duration lasts, you can concentrate to change the image as desired. While you aren't concentrating, the image remains static.",
+			"This spell creates a subtle illusion, causing any divination (scrying) spell used to view anything within the area of this spell to instead receive a false image (as the {spell/major image} spell), as defined by you at the time of casting. As long as the duration lasts, you can concentrate to change the image as desired. While you aren't concentrating, the image remains static.",
 			"",
 			"### False Vision, Greater",
 			"",
@@ -2543,7 +2543,7 @@
 			"",
 			"{SOURCE Mythic Adventures/93}",
 			"",
-			"On a failed save, the target immediately takes 1d6 points of nonlethal damage per tier. Add your tier to the DC of any further Constitution checks the target attempts to resist the effects of starvation as part of this spell's effects. While the curse is in effect, the target gains no benefit from any spell, effect, or item that requires eating, such as the food from a heroes' feast spell (though the food is still used up when the target eats it)."
+			"On a failed save, the target immediately takes 1d6 points of nonlethal damage per tier. Add your tier to the DC of any further Constitution checks the target attempts to resist the effects of starvation as part of this spell's effects. While the curse is in effect, the target gains no benefit from any spell, effect, or item that requires eating, such as the food from a {spell/heroes' feast} spell (though the food is still used up when the target eats it)."
 		]
 	},
 	"feast_on_fear": {
@@ -3930,7 +3930,7 @@
 			"",
 			"{SOURCE Mythic Adventures/94}",
 			"",
-			"A creature that succeeds at its saving throw is partially petrified, becoming slowed (as the slow spell) for a number of rounds equal to your tier. The creature can end this effect early by spending a full-round action breaking away its own petrified flesh, dealing 5d10 points of damage to itself. Any effect that removes or reverses petrification negates this partial petrification and the slow effect. The spell can affect objects and undead, as long as the target is primarily made of flesh or bone, such as a corpse or zombie. The spell doesn't affect the target's gear. If cast on a creature with equipment, the creature transforms into stone but its gear doesn't.",
+			"A creature that succeeds at its saving throw is partially petrified, becoming slowed (as the {spell/slow} spell) for a number of rounds equal to your tier. The creature can end this effect early by spending a full-round action breaking away its own petrified flesh, dealing 5d10 points of damage to itself. Any effect that removes or reverses petrification negates this partial petrification and the slow effect. The spell can affect objects and undead, as long as the target is primarily made of flesh or bone, such as a corpse or zombie. The spell doesn't affect the target's gear. If cast on a creature with equipment, the creature transforms into stone but its gear doesn't.",
 			"",
 			"*Augmented (9th):* If you expend two uses of mythic power, any Large or smaller creature fully petrified by the spell immediately animates and follows your commands, as if you had cast animate objects."
 		]

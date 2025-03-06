@@ -127,7 +127,7 @@
 			"",
 			"*Resilience of the Faithful (Su):* At 5th level, you gain a +2 resistance bonus on all saving throws. This bonus increases by 1 for every 5 levels you possess beyond 5th.",
 			"",
-			"*Prayer Aura (Su):* At 13th level, as a free action, you can extend an aura around you to bolster your allies and make your enemies less effective. You can use this aura for a number of rounds per day equal to your psychic level. These rounds don't need to be consecutive. This functions as the prayer spell, granting your allies a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill checks and imposing a -1 penalty on your enemies' rolls of those types. If you are chaotic, lawful, good, or evil, the penalty from your aura changes to -2 against creatures of an opposing alignment. The penalty doesn't change further for a creature that opposes you on two alignment axes (such as a chaotic evil creature fighting a lawful good psychic)."
+			"*Prayer Aura (Su):* At 13th level, as a free action, you can extend an aura around you to bolster your allies and make your enemies less effective. You can use this aura for a number of rounds per day equal to your psychic level. These rounds don't need to be consecutive. This functions as the {spell/prayer} spell, granting your allies a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill checks and imposing a -1 penalty on your enemies' rolls of those types. If you are chaotic, lawful, good, or evil, the penalty from your aura changes to -2 against creatures of an opposing alignment. The penalty doesn't change further for a creature that opposes you on two alignment axes (such as a chaotic evil creature fighting a lawful good psychic)."
 		]
 	},
 	"ferocity": {
@@ -369,7 +369,7 @@
 			"",
 			"*Resurgence (Su):* At 5th level when you would be reduced to 0 hit points or fewer by an attack, you can spend 2 points from your phrenic pool as an immediate action to regain a number of hit points equal to 1d8 points of damage + your psychic level. At 10th level, this ability's healing increases to 3d8 + your psychic level. If this healing is insufficient to bring you above negative hit points, you are automatically stabilized. If you would still be killed by the amount of damage taken, you erupt with positive energy and heal all allies within 30-foot-radius burst for the amount you healed yourself.",
 			"",
-			"*Physical Regression (Sp):* At 13th level, you can spend 2 points from your phrenic pool as a standard action once per day to take on the form of one of your previous incarnations. This ability functions as the polymorph spell, but its range is personal and its duration becomes 10 minutes per caster level."
+			"*Physical Regression (Sp):* At 13th level, you can spend 2 points from your phrenic pool as a standard action once per day to take on the form of one of your previous incarnations. This ability functions as the {spell/polymorph} spell, but its range is personal and its duration becomes 10 minutes per caster level."
 		]
 	},
 	"rivethun": {
