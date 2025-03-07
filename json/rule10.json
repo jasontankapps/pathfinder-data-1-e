@@ -2937,7 +2937,7 @@
 			"| 38-40 | 1 {monster/young_<copper dragon/ (young)} | 8 |",
 			"| 41-44 | 1d8 {monster/gargoyle/s} | 8 |",
 			"| 45-46 | 1 {monster/giant slug} | 8 |",
-			"| 47-50 | 1d6 {monster/cyclop/es>s} | 8 |",
+			"| 47-50 | 1d6 {monster/cyclop[e]s} | 8 |",
 			"| 51 | 1 {monster/behir} | 8 |",
 			"| 52-57 | 1 {monster/greater earth elemental} | 9 |",
 			"| 58-64 | 1d6 {monster/xorn/s} | 9 |",
