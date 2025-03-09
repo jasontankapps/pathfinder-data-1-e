@@ -1332,7 +1332,7 @@
 			"",
 			"**Expert Leaper (Ex):** When making jump checks, the rogue is always considered to have a running start &Dagger;*[and adds her rogue level to the check result]*. Also, when the rogue deliberately falls, a DC 15 Acrobatics check allows her to ignore the first 20 feet fallen, instead of the first 10 feet. &Dagger;*[For every 5 by which she exceeds the DC of this check, she can ignore an additional 10 feet of distance fallen.]*",
 			"",
-			"**Favored Terrain (Ex):** The rogue selects one terrain from the ranger's favored terrain list; she gains this as a favored terrain, as the ranger class feature. If the rogue also has or later takes the hide in plain sight [advanced talent](ability/advanced_rogue_talents), her favored terrain must match a terrain she has selected for that advanced talent. If the rogue has ranger levels, her effective ranger level is equal to her ranger level + 5 for purposes of improving the bonuses from this favored terrain and gaining new favored terrains. A rogue must be at least 5th level to select this talent.",
+			"**Favored Terrain (Ex):** The rogue selects one terrain from the ranger's favored terrain list; she gains this as a favored terrain, as the ranger class feature. If the rogue also has or later takes the hide in plain sight {ability/advanced rogue talent}, her favored terrain must match a terrain she has selected for that advanced talent. If the rogue has ranger levels, her effective ranger level is equal to her ranger level + 5 for purposes of improving the bonuses from this favored terrain and gaining new favored terrains. A rogue must be at least 5th level to select this talent.",
 			"",
 			"**Follow Clues (Ex):** A rogue with this talent can use Perception to follow tracks as per the Survival skill.",
 			"",
@@ -1386,6 +1386,7 @@
 		],
 		"backlink": [ "Rogue", "class/rogue" ]
 	},
+	"rogue_talent": { "copyof": "rogue_talents" },
 	"sagas": {
 		"name": "Sagas",
 		"sources": [ "Magic Tactics Toolbox" ],

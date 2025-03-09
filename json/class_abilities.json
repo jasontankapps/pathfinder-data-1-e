@@ -252,6 +252,7 @@
 		],
 		"backlink": [ "Rogue", "class/rogue" ]
 	},
+	"advanced_rogue_talent": { "copyof": "advanced_rogue_talents" },
 	"advanced_slayer_talents": {
 		"name": "Advanced Slayer Talents",
 		"sources": [

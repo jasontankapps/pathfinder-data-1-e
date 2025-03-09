@@ -2587,7 +2587,7 @@
 			"",
 			"***Magic Items and Metamagic Spells:*** With the right item creation feat, you can store a metamagic version of a spell in a scroll, potion, or wand. Level limits for potions and wands apply to the spell's higher spell level (after the application of the metamagic feat). A character doesn't need the metamagic feat to activate an item storing a metamagic version of a spell.",
 			"",
-			"***Counterspelling Metamagic Spells:*** Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to [counterspelling](rule/counterspells) or its ability to counterspell another spell."
+			"***Counterspelling Metamagic Spells:*** Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to {rule/counterspell/ing>s} or its ability to counterspell another spell."
 		],
 		"parent_topics": [
 			"basics",

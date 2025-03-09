@@ -1222,6 +1222,7 @@
 		],
 		"backlink": [ "Wizard", "class/wizard" ]
 	},
+	"familiar": { "copyof": "familiars" },
 	"grand_discoveries": {
 		"name": "Grand Discoveries",
 		"sources": [

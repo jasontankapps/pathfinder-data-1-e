@@ -82,11 +82,11 @@
 			"",
 			"**Trap Sense (Ex):** At 3rd level, an archaeologist gains {class/trap sense +1, as the |rogue/ class feature of the same name}. This bonus improves by +1 for every three levels gained after 3rd, to a maximum of +6 at 18th level.",
 			"",
-			"**Rogue Talents:** At 4th level, an archaeologist gains a [rogue talent](ability/rogue_talents). He gains an additional rogue talent for every four levels of archaeologist gained after 4th level. Otherwise, this works as the rogue's rogue talent ability.",
+			"**Rogue Talents:** At 4th level, an archaeologist gains a {ability/rogue talent}. He gains an additional rogue talent for every four levels of archaeologist gained after 4th level. Otherwise, this works as the rogue's rogue talent ability.",
 			"",
 			"**Evasion (Ex):** At 6th level, an archaeologist gains {class/evasion, as the |rogue/ ability of the same name}.",
 			"",
-			"**Advanced Talent:** At 12th level, and every four levels thereafter, an archaeologist can choose an [advanced rogue talent](ability/advanced_rogue_talents) in place of a rogue talent."
+			"**Advanced Talent:** At 12th level, and every four levels thereafter, an archaeologist can choose an {ability/advanced rogue talent} in place of a rogue talent."
 		]
 	},
 	"archivist": {
@@ -1096,7 +1096,7 @@
 			"",
 			"If the juggler is affected by any action or condition that would require a concentration check while he is juggling, he must attempt a Sleight of Hand check to continue juggling and avoid losing concentration. The check's DC is the same as a concentration check, treating the spell level as twice the number of objects being juggled. If the juggler fails his Sleight of Hand check, he drops all juggled objects but one, determined randomly. This ability replaces versatile performance.",
 			"",
-			"**Evasion (Ex):** At 2nd level, a juggler gains {class/evasion, as the |rogue/ class feature of the same name}. At 12th level, he gains improved evasion, as the [rogue advanced talent](ability/advanced_rogue_talents). This ability replaces well-versed and soothing performance."
+			"**Evasion (Ex):** At 2nd level, a juggler gains {class/evasion, as the |rogue/ class feature of the same name}. At 12th level, he gains improved evasion, as the {ability/advanced rogue talent}. This ability replaces well-versed and soothing performance."
 		]
 	},
 	"lotus_geisha": {
@@ -1228,7 +1228,7 @@
 			"",
 			"This ability replaces versatile performance.",
 			"",
-			"**Masked Talents:** At 5th level, a masked performer gains a [rogue talent](ability/rogue_talents) from the following list: expert leaper, fast stealth, ledge walker, rogue crawl, rope master, stand up, and wall scramble. At 17th level, a masked performer can choose any of the above talents or an advanced talent from the following list: defensive roll, fast tumble, hide in plain sight, and skill mastery. This ability does not qualify her for the {feat/Extra Rogue Talent} feat.",
+			"**Masked Talents:** At 5th level, a masked performer gains a {ability/rogue talent} from the following list: expert leaper, fast stealth, ledge walker, rogue crawl, rope master, stand up, and wall scramble. At 17th level, a masked performer can choose any of the above talents or an advanced talent from the following list: defensive roll, fast tumble, hide in plain sight, and skill mastery. This ability does not qualify her for the {feat/Extra Rogue Talent} feat.",
 			"",
 			"This ability replaces lore master."
 		]
@@ -1300,11 +1300,11 @@
 			"",
 			"**Binding Contract (Sp):** At 9th level, the negotiator can bind another creature's promise to the negotiator with a geas. This acts as {spell/lesser geas}, except the creature must have Hit Dice equal to or less than the negotiator's level. The target can negate this effect with a successful Will save (DC = 10 + 1/2 the negotiator's level + the negotiator's Charisma modifier). The geas is discharged if the negotiator breaks his end of the bargain. Using this ability requires 3 rounds of continuous performance, and the target must be able to see and hear the bard throughout the performance. At 18th level, this effect acts as {spell/geas//quest} (no HD limit, and the target cannot attempt a saving throw). Binding contract is an enchantment (compulsion), mind-affecting, language-dependent ability that relies on audible components. This performance replaces inspire greatness.",
 			"",
-			"**Rogue Talents:** At 2nd level, a negotiator gains a [rogue talent](ability/rogue_talents), as the rogue class feature of the same name. At 6th level and every 4 levels thereafter, the negotiator gains an additional rogue talent. A negotiator cannot select a rogue talent that modifies the sneak attack ability. This ability replaces versatile performance.",
+			"**Rogue Talents:** At 2nd level, a negotiator gains a {ability/rogue talent}, as the rogue class feature of the same name. At 6th level and every 4 levels thereafter, the negotiator gains an additional rogue talent. A negotiator cannot select a rogue talent that modifies the sneak attack ability. This ability replaces versatile performance.",
 			"",
 			"**Master of Rhetoric (Ex):** At 5th level, the negotiator can take 10 on any Bluff, Diplomacy, Intimidate, Knowledge (local), or Sense Motive check if he has ranks in that skill. A negotiator can choose not to take 10 and can instead roll normally. In addition, the negotiator can take 20 on one of those skill checks (without spending any additional time). The negotiator can do this once per day at 5th level, twice per day at 11th level, and three times per day at 17th level. This ability replaces lore master.",
 			"",
-			"**Advanced Talents:** At 10th level and every 4 levels thereafter, a negotiator can select an [advanced rogue talent](ability/advanced_rogue_talents) in place of a rogue talent. A negotiator cannot select an advanced talent that modifies the sneak attack ability."
+			"**Advanced Talents:** At 10th level and every 4 levels thereafter, a negotiator can select an {ability/advanced rogue talent} in place of a rogue talent. A negotiator cannot select an advanced talent that modifies the sneak attack ability."
 		]
 	},
 	"phrenologist": {

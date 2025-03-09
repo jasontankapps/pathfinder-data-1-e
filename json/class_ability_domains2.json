@@ -1599,7 +1599,7 @@
 			"**Replacement Domain Spells:** 5th-{spell/call lightning storm}, 6th-{spell/sirocco}."
 		]
 	},
-	"monsoons": { "copyof": "weather" },
+	"monsoon": { "copyof": "weather" },
 	"seasons": { "copyof": "weather" },
 	"storms": { "copyof": "weather" }
 }
