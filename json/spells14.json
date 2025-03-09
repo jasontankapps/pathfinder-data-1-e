@@ -741,7 +741,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will half; **Spell Resistance** yes",
 			"",
-			"This spell functions like inflict light wounds, except that you deal 4d8 points of damage + 1 point per caster level (maximum +20).",
+			"This spell functions like {spell/inflict light wounds}, except that you deal 4d8 points of damage + 1 point per caster level (maximum +20).",
 			"",
 			"### Mythic Inflict Critical Wounds",
 			"",
@@ -760,7 +760,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will half; **Spell Resistance** yes",
 			"",
-			"This spell functions like mass inflict light wounds, except that it deals 4d8 points of damage + 1 point per caster level (maximum +40)."
+			"This spell functions like {spell/mass inflict light wounds}, except that it deals 4d8 points of damage + 1 point per caster level (maximum +40)."
 		]
 	},
 	"inflict_critical_wounds_mass": {
@@ -811,7 +811,7 @@
 			"",
 			"Negative energy spreads out in all directions from the point of origin, dealing 1d8 points of damage + 1 point per caster level (maximum +25) to nearby living enemies.",
 			"",
-			"Like other inflict spells, mass inflict light wounds cures undead in its area rather than damaging them. A cleric capable of spontaneously casting inflict spells can also spontaneously cast mass inflict spells."
+			"Like other {main/inflict |spell/s>_groupings}, mass inflict light wounds cures undead in its area rather than damaging them. A cleric capable of spontaneously casting inflict spells can also spontaneously cast mass inflict spells."
 		]
 	},
 	"inflict_light_wounds_mass": {
@@ -839,7 +839,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will half; **Spell Resistance** yes",
 			"",
-			"This spell functions like inflict light wounds, except that you deal 2d8 points of damage + 1 point per caster level (maximum +10).",
+			"This spell functions like {spell/inflict light wounds}, except that you deal 2d8 points of damage + 1 point per caster level (maximum +10).",
 			"",
 			"### Mythic Inflict Moderate Wounds",
 			"",
@@ -858,7 +858,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will half; **Spell Resistance** yes",
 			"",
-			"This spell functions like mass inflict light wounds, except that it deals 2d8 points of damage + 1 point per caster level (maximum +30)."
+			"This spell functions like {spell/mass inflict light wounds}, except that it deals 2d8 points of damage + 1 point per caster level (maximum +30)."
 		]
 	},
 	"inflict_moderate_wounds_mass": {
@@ -923,7 +923,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will half; **Spell Resistance** yes",
 			"",
-			"This spell functions like inflict light wounds, except that it deals 3d8 + 1 point per caster level (maximum +15).",
+			"This spell functions like {spell/inflict light wounds}, except that it deals 3d8 + 1 point per caster level (maximum +15).",
 			"",
 			"### Mythic Inflict Serious Wounds",
 			"",
@@ -942,7 +942,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will half; **Spell Resistance** yes",
 			"",
-			"This spell functions like mass inflict light wounds, except that it deals 3d8 points of damage + 1 point per caster level (maximum +35)."
+			"This spell functions like {spell/mass inflict light wounds}, except that it deals 3d8 points of damage + 1 point per caster level (maximum +35)."
 		]
 	},
 	"inflict_serious_wounds_mass": {

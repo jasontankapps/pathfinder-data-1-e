@@ -236,7 +236,7 @@
 			"",
 			"**Heresy (Lesser, Su):** This functions as the divine surge lesser spirit power but you gain the following inquisitor spells at the indicated spell levels, instead of selecting a set of cleric spells each day: 0-{spell/guidance}; 1st-{spell/divine favor}; 2nd-{spell/castigate}; 3rd-{spell/terrible remorse}; 4th-{spell/reprobation}; 5th-{spell/mass castigate}; 6th-{spell/overwhelming presence}. Whenever you use your spirit surge on a skill check or ability check to convince or trick someone into perverting his faith in the good deity you chose with your vow, the Heretic is pleased and does not gain the usual point of influence over you.",
 			"",
-			"**False Front (Intermediate, Su):** You gain the effects of the energy font intermediate spirit power, but you must match the faith you chose to pervert, meaning that you always channel positive energy and add cure spells.",
+			"**False Front (Intermediate, Su):** You gain the effects of the energy font intermediate spirit power, but you must match the faith you chose to pervert, meaning that you always channel positive energy and add {main/cure |spell/s>_groupings}.",
 			"",
 			"**Stolen Grace (Greater, Su):** When a member of your chosen faith who believes that you are a member of that faith's clergy requests you to cast a cleric spell of a spell level you can cast, you can allow the Heretic to gain 1 point of influence over you and expend a spell slot of the appropriate level to cast the spell."
 		]

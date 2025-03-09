@@ -2246,7 +2246,7 @@
 			"",
 			"#### Positive Energy Plane",
 			"",
-			"**Basic:** You've been infused with raw life force, and whenever you're healed by a positive energy effect (including all cure spells), you regain an additional number of hit points equal to your total Hit Dice. You gain a +4 bonus on Constitution checks to stabilize while dying.",
+			"**Basic:** You've been infused with raw life force, and whenever you're healed by a positive energy effect (including all {main/cure |spell/s>_groupings}), you regain an additional number of hit points equal to your total Hit Dice. You gain a +4 bonus on Constitution checks to stabilize while dying.",
 			"",
 			"**Improved:** Thanks to your deeper understanding of positive energy, you can call upon it to restore yourself or others. Once per day you can touch a creature to create one of the following effects as a spell-like ability: {spell/cure serious wounds}, {spell/lesser restoration}, {spell/remove blindness//deafness}, {spell/remove disease}, or {spell/remove paralysis}. If you use the ability on yourself, this ability requires only a move action to activate.",
 			"",

@@ -224,7 +224,7 @@
 			"",
 			"When you cast this spell, you can assume the form of any Small or Medium corporeal creature of the undead type, which must be vaguely humanoid-shaped (like a ghoul, skeleton, or zombie). You gain a bite attack (1d6 for Medium forms, 1d4 for Small forms), two claw or slam attacks (1d6 for Medium forms, 1d4 for Small forms), and darkvision 60 feet. If the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet, fly 30 feet (average maneuverability), swim 30 feet, low-light vision, and scent.",
 			"",
-			"In this form, you detect as an undead creature (such as with {spell/detect undead}, but not with magic that reveals your true form, such as {spell/true seeing}) and are treated as undead for the purposes of channeled energy, cure spells, and inflict spells, but not for other effects that specifically target or react differently to undead (such as {spell/searing light}).",
+			"In this form, you detect as an undead creature (such as with {spell/detect undead}, but not with magic that reveals your true form, such as {spell/true seeing}) and are treated as undead for the purposes of channeled energy, {main/cure spells, and inflict |spell/s>_groupings}, but not for other effects that specifically target or react differently to undead (such as {spell/searing light}).",
 			"",
 			"*Small undead:* If the form you take is that of a Small undead, you gain a +2 size bonus to your Dexterity and a +1 natural armor bonus.",
 			"",
@@ -318,7 +318,7 @@
 			"**Duration** 1 round/level (D); see text  ",
 			"**Saving Throw** Will negates, see text; **Spell Resistance** yes",
 			"",
-			"You alter an undead creature's energy affinity so that it takes damage from negative energy and gains healing from positive energy, as if it were a living creature. If the target was able to channel negative energy or produce negative energy effects (such as inflict spells), these abilities produce positive energy instead, healing living targets and harming the undead. The target cannot impose negative levels on other creatures for the duration of the spell. The target's creature type does not change, and it is still considered an undead creature. Each round on its turn, the subject may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity."
+			"You alter an undead creature's energy affinity so that it takes damage from negative energy and gains healing from positive energy, as if it were a living creature. If the target was able to channel negative energy or produce negative energy effects (such as {main/inflict |spell/s>_groupings}), these abilities produce positive energy instead, healing living targets and harming the undead. The target cannot impose negative levels on other creatures for the duration of the spell. The target's creature type does not change, and it is still considered an undead creature. Each round on its turn, the subject may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity."
 		]
 	},
 	"undeath_to_death": {

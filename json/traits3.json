@@ -1081,7 +1081,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"At some point in the past, you had a terrifyingly close brush with death. Maybe a goblin nearly killed you during an attack on the town, or perhaps a building struck by a giant's boulder collapsed around you. Whatever the peril was, you would have certainly died if not for the swift actions of Koya or Shalelu, who intervened just in time to save your life. You've never forgotten this, and remain fiercely loyal to the NPC who saved you. Perhaps even more importantly, the method in which she saved you seems to have had an impact on your own skills. If Koya saved you, she did so by casting a healing spell on you just before you died, and as a result you gain a +2 trait bonus whenever you use cure spells to heal damage. If it was Shalelu who saved you, she did so by pulling you to safety while simultaneously defeating the peril that almost did you in, and as a result, you gain a +1 trait bonus on Acrobatics checks and Acrobatics is a class skill for you. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your savior.",
+			"At some point in the past, you had a terrifyingly close brush with death. Maybe a goblin nearly killed you during an attack on the town, or perhaps a building struck by a giant's boulder collapsed around you. Whatever the peril was, you would have certainly died if not for the swift actions of Koya or Shalelu, who intervened just in time to save your life. You've never forgotten this, and remain fiercely loyal to the NPC who saved you. Perhaps even more importantly, the method in which she saved you seems to have had an impact on your own skills. If Koya saved you, she did so by casting a healing spell on you just before you died, and as a result you gain a +2 trait bonus whenever you use {main/cure |spell/s>_groupings} to heal damage. If it was Shalelu who saved you, she did so by pulling you to safety while simultaneously defeating the peril that almost did you in, and as a result, you gain a +1 trait bonus on Acrobatics checks and Acrobatics is a class skill for you. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your savior.",
 			"",
 			"**NPC Choices:** Koya, Shalelu."
 		],
@@ -4684,7 +4684,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
 			"",
-			"While you have personally dedicated your life to a single deity, you study all religions and mortal faiths. Upon hearing that the town of Sandpoint recently completed a cathedral dedicated to the six deities most popular in the area, you had to see the place for yourself, and have arrived in time for the consecration of this holy edifice. Because of your strong faith and broad range of study, you cast all cure spells at +1 caster level, and whenever you channel energy, you gain a +1 trait bonus to the save DC of your channeled energy."
+			"While you have personally dedicated your life to a single deity, you study all religions and mortal faiths. Upon hearing that the town of Sandpoint recently completed a cathedral dedicated to the six deities most popular in the area, you had to see the place for yourself, and have arrived in time for the consecration of this holy edifice. Because of your strong faith and broad range of study, you cast all {main/cure |spell/s>_groupings} at +1 caster level, and whenever you channel energy, you gain a +1 trait bonus to the save DC of your channeled energy."
 		],
 		"backlink": [ "Campaign Traits", "main/traits_campaign" ]
 	},

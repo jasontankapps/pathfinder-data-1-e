@@ -885,7 +885,7 @@
 			"",
 			"**Orisons:** Warpriests can prepare a number of orisons, or 0-level spells. These spells are cast as any other spell, but aren't expended when cast and can be used again.",
 			"",
-			":b[Spontaneous Casting:] A good warpriest (or a neutral warpriest of a good deity) can channel stored spell energy into healing spells that he did not prepare ahead of time. The warpriest can expend any prepared spell that isn't an orison to cast any cure spell of the same spell level or lower. A cure spell is any spell with \"cure\" in its name.",
+			":b[Spontaneous Casting:] A good warpriest (or a neutral warpriest of a good deity) can channel stored spell energy into healing spells that he did not prepare ahead of time. The warpriest can expend any prepared spell that isn't an orison to cast any [cure spell](main/spell_groupings) of the same spell level or lower. A cure spell is any spell with \"cure\" in its name.",
 			"",
 			"An evil warpriest (or a neutral warpriest of an evil deity) can't convert spells to cure spells, but can convert them to inflict spells. An inflict spell is any spell with \"inflict\" in its name.",
 			"",

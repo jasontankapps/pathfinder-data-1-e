@@ -689,7 +689,7 @@
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Will half (harmless) or Will half; see text; **Spell Resistance** yes (harmless) or yes; see text",
 			"",
-			"You channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on each selected creature. Like other cure spells, mass cure light wounds deals damage to undead in its area rather than curing them. Each affected undead may attempt a Will save for half damage."
+			"You channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on each selected creature. Like other {main/cure |spell/s>_groupings}, mass cure light wounds deals damage to undead in its area rather than curing them. Each affected undead may attempt a Will save for half damage."
 		]
 	},
 	"mass_cure_light_wounds": { "copyof": "cure_light_wounds_mass" },

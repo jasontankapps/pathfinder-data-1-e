@@ -1599,7 +1599,7 @@
 			"- The monster's melee attack bonus, melee damage rolls, and Strength modifier each increase by 2. Its Intelligence modifier decreases by 2.",
 			"- The monster's Fortitude save bonus and Constitution modifier by each increase by 2, and its hit points increase by an amount equal to double its CR. Its Charisma modifier decreases by 2.",
 			"",
-			"***Spontaneous Casting:*** The monster can spontaneously replace its normal spells with spells of the same level of a particular type. Choose cure spells, inflict spells, summon nature's ally spells, or any type of spell that has one spell per level in a similar fashion. Spontaneously casting a spell in this way uses up the daily use of a spell. A monster must have the spellcaster array to gain this option."
+			"***Spontaneous Casting:*** The monster can spontaneously replace its normal spells with spells of the same level of a particular type. Choose {main/cure spells, inflict |spell/s>_groupings}, {spell/summon nature's ally_1} spells, or any type of spell that has one spell per level in a similar fashion. Spontaneously casting a spell in this way uses up the daily use of a spell. A monster must have the spellcaster array to gain this option."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
