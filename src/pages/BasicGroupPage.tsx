@@ -23,12 +23,12 @@ export const BasicGroupPage: React.FC<BasicGroupPageProps> =
 
 	type Name = keyof Data;
 
-	const { hasJL, title, jsx, sources, backlink, noFinder } =
+	const { hasJL, title, jsx, sources, backwardsLink, noFinder } =
 		possiblyUnknown ? getItem((id as Name), info as BasicPlusUnknown) : getGuaranteedItem((id as Name), info);
 
 	const pageId = `/${prefix}/${id}`;
 
-	const tl = topLink || backlink || maybeTopLink || undefined;
+	const tl = topLink || backwardsLink || maybeTopLink || undefined;
 
 	return (
 		<BasicPage

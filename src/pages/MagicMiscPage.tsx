@@ -48,7 +48,7 @@ type Params = { id?: keyof Data };
 
 const misc: Hierarchy = ["Miscellaneous Magic Items", "main/magic_misc"];
 
-const MagicPage: React.FC = () => {
+const MagicMiscPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
@@ -67,4 +67,4 @@ const MagicPage: React.FC = () => {
 	>{jsx}</BasicPage>;
 };
 
-export default MagicPage;
+export default MagicMiscPage;

@@ -247,7 +247,7 @@ const testLinks = () => {
 		// `invalid links in ${link} files:`
 		const invalid = [];
 		Object.keys(object).forEach(prop => {
-			const {sources, tables, description, topLink, backlink} = object[prop];
+			const {sources, tables, description, topLink, backwardsLink} = object[prop];
 			if(sources !== undefined) {
 				if(!sources || !Array.isArray(sources)) {
 					msg.push(`\tINVALID ${prop}.sources`);
@@ -346,7 +346,7 @@ const testLinks = () => {
 					temp = m.pop();
 				}
 			});
-			const hierarchies = [topLink, backlink].filter(x => x);
+			const hierarchies = [topLink, backwardsLink].filter(x => x);
 			hierarchies.forEach(pair => {
 				const [ title, link ] = pair;
 				const m = link.match(/^([-a-z0-9_]+)\/([a-z_0-9]+)$/);

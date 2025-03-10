@@ -2069,7 +2069,6 @@
 		"name": "Special Abilities",
 		"subtitle": "Mass Combat, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
-		"className": "hasInfoTable",
 		"description": [
 			"{SOURCE Ultimate Campaign/242}",
 			"",

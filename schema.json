@@ -1,0 +1,243 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://jasontank.net/basic.pfdata.schema.json",
+	"title": "Pf Data 1e",
+	"description": "A collection of information about a specific part of the Pathfinder system.",
+	"comment": "This schema is for the files in ./json",
+	"anyOf": [
+		{
+			"comment": "This is for 99% of the JSON files",
+			"type": "object",
+			"patternProperties": {
+				"[a-z0-9_]+": {
+					"type": "object",
+					"anyOf": [
+						{
+							"properties": {
+								"name": { "type": "string" },
+								"subtitle": { "type": "string" },
+								"tags": { "type": "string" },
+								"sources": { "$ref": "#uniqueArray" },
+								"description": { "$ref": "#description" },
+								"noFinder": { "type": "boolean" },
+								"tables": { "$ref": "#tables" },
+								"parent_topics": { "$ref": "#uniqueArray" },
+								"siblings": { "$ref": "#uniqueArray" },
+								"subtopics": { "$ref": "#uniqueArray" },
+								"backwardsLink": { "$ref": "#link" },
+								"topLink": { "$ref": "#link" },
+								"className": { "type": "string" }
+							},
+							"required": [ "description", "name" ],
+							"unevaluatedProperties": false
+						},
+						{
+							"properties": {
+								"title": { "type": "string" },
+								"subtitle": { "type": "string" },
+								"tags": { "type": "string" },
+								"sources": { "$ref": "#uniqueArray" },
+								"description": { "$ref": "#description" },
+								"searchgroup": { "$ref": "#searchgroup" },
+								"noFinder": { "type": "boolean" },
+								"tables": { "$ref": "#tables" },
+								"backwardsLink": { "$ref": "#link" },
+								"topLink": { "$ref": "#link" },
+								"className": { "type": "string" }
+							},
+							"required": [ "description", "title" ],
+							"unevaluatedProperties": false
+						},
+						{
+							"properties": {
+								"name": { "type": "string" },
+								"copyof": { "type": "string" }
+							},
+							"required": [ "copyof" ],
+							"unevaluatedProperties": false
+						}
+					]
+				}
+			}
+		},
+		{
+			"comment": "This is exclusively for feat_tree_data.json",
+			"type": "array",
+			"items": [
+				{
+					"type": "object",
+					"properties": {
+						"prop": "string",
+						"primary": "boolean",
+						"leaves": [ { "$ref": "#subfeat" } ]
+					},
+					"required": [ "prop" ],
+					"unevaluatedProperties": false
+				}
+			]
+		}
+	],
+	"$defs": {
+		"description": {
+			"$anchor": "description",
+			"type": "array",
+			"items": { "type": "string" }
+		},
+		"searchgroup": {
+			"$anchor": "searchgroup",
+			"enum": [
+				"spell", "race", "class", "magic", "rule",
+				"monster", "feat", "trait", "equip", "magic",
+				"tech", "faith"
+			]
+		},
+		"uniqueArray": {
+			"$anchor": "uniqueArray",
+			"type": "array",
+			"items": { "type": "string" },
+			"uniqueItems": true
+		},
+		"link": {
+			"$anchor": "link",
+			"type": "array",
+			"prefixItems": [
+				{ "type": "string" },
+				{ "type": "string" }
+			],
+			"items": false
+		},
+		"tables": {
+			"$anchor": "tables",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": { "type": "string" },
+					"headers": {
+						"type": "array",
+						"items": { "type": "string" }
+					},
+					"types": {
+						"type": "array",
+						"items": { "enum": [ "gp", "lbs", "gp+", "lbs+", "bonus", "num", "pct", null, 0 ] }
+					},
+					"alignments": {
+						"type": "array",
+						"items": { "enum": [ true, false, null ] }
+					},
+					"initialColumn": {
+						"type": "integer",
+						"minimum": 0
+					},
+					"nullValue": { "type": "string" },
+					"ripples": {
+						"type": "array",
+						"items": {
+							"type": "integer",
+							"minimum": 0
+						}
+					},
+					"sortable": { "type": "boolean" },
+					"filter": {
+						"type":"array",
+						"items": {
+							"type": "object",
+							"anyOf": [
+								{
+									"properties": {
+										"range": {
+											"type": "array",
+											"prefixItems": [
+												{ "type": "number" },
+												{ "type": "number" }
+											],
+											"items": false
+										}
+									},
+									"requires": [ "range", "col" ]
+								},
+								{
+									"properties": {
+										"equals": {
+											"type": "array",
+											"items": { "type": ["string","number"] },
+											"uniqueItems": true
+										}
+									},
+									"requires": [ "equals", "col" ]
+								},
+								{
+									"properties": {
+										"has": {
+											"type": "array",
+											"items": { "type": "string" },
+											"uniqueItems": true
+										},
+										"word": { "type": "boolean" }
+									},
+									"requires": [ "has", "col" ]
+								}
+							]
+						}
+					},
+					"sizes": {
+						"type": "array",
+						"items": {
+							"type": "number",
+							"exclusiveMinimum": 0
+						}
+					},
+					"data": {
+						"comment": "null | string | number | [ number, string ] | [ string, string ]",
+						"type": "array",
+						"items": {
+							"type": "array",
+							"items": {
+								"anyOf": [
+									{ "enum": [null] },
+									{ "type": "number" },
+									{ "type": "string" },
+									{
+										"type": "array",
+										"prefixItems": [
+											{ "type": ["string", "number"] },
+											{ "type": "string" }
+										],
+										"items": false
+									}
+								]
+							}
+						}
+					},
+					"requires": [ "id", "headers", "types", "data", "initialColumn" ]
+				}
+			}
+		},
+		"subfeat": {
+			"$anchor": "subfeat",
+			"type": "object",
+			"anyOf": [
+				{
+					"properties": {
+						"prop": "string",
+						"primary": "boolean",
+						"coparents": { "$ref": "#uniqueArray" },
+						"leaves": [ { "$ref": "#subfeat" } ]
+					},
+					"required": [ "prop" ],
+					"unevaluatedProperties": false
+				},
+				{
+					"properties": {
+						"prop": "string",
+						"primary": "boolean",
+						"coparentsNoLink": { "$ref": "#uniqueArray" },
+						"leaves": [ { "$ref": "#subfeat" } ]
+					},
+					"required": [ "prop" ],
+					"unevaluatedProperties": false
+				}
+			]
+		}
+	}
+}

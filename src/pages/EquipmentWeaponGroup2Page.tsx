@@ -14,14 +14,14 @@ const topLink: Hierarchy = ["Weapons", "main/equipment_weapons"];
 
 const EquipmentWeaponGroup2Page: React.FC<EquipProps> = ({id}) => {
 
-	const { hasJL, title, jsx, sources, backlink = topLink } = getGuaranteedItem<Data>((id as keyof Data), equipment_weapons);
+	const { hasJL, title, jsx, sources, backwardsLink = topLink } = getGuaranteedItem<Data>((id as keyof Data), equipment_weapons);
 
 	return <BasicPage
 		hasJL={hasJL}
 		pageId={"/eq-weapon/" + id}
 		title={title}
 		sources={sources}
-		topLink={backlink}
+		topLink={backwardsLink}
 	>{jsx}</BasicPage>;
 };
 

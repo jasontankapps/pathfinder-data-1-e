@@ -118,7 +118,7 @@ export interface BasicItem {
 	description: string[]
 	tables?: Table[]
 	sources: SourceProp[]
-	backlink?: Hierarchy
+	backwardsLink?: Hierarchy
 }
 
 // NUMERIC RANGE

@@ -524,7 +524,7 @@
 			"| [Zursvaater](/faith/zursvaater) | {domain/Evil}, {domain/Fire}, {domain/Law}, {domain/Trickery}, {domain/War} |",
 			"| [Zyphus](/faith/zyphus) | {domain/Death}, {domain/Destruction}, {domain/Evil}, {domain/Plant}, {domain/War} |"
 		],
-		"backlink": [ "Cleric", "class/cleric" ]
+		"backwardsLink": [ "Cleric", "class/cleric" ]
 	},
 	"inquisitions": {
 		"name": "Inquisitions",
@@ -623,7 +623,7 @@
 			"Faiths and Philosophies",
 			"Champions of Purity"
 		],
-		"backlink": [ "Inquisitor", "class/inquisitor" ]
+		"backwardsLink": [ "Inquisitor", "class/inquisitor" ]
 	},
 	"style_strikes": {
 		"name": "Style Strikes",
@@ -668,7 +668,7 @@
 			"",
 			"**Throat Crush:** The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it had the [caster croak spellblight](rule/minor_spellblights). Creatures without a discernible throat, or with multiple vocal organs, are unaffected (subject to GM discretion)."
 		],
-		"backlink": [ "Unchained Monk", "class/unchained_monk" ]
+		"backwardsLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
 	"unique_patrons": {
 		"name": "Unique Patrons",
@@ -762,7 +762,7 @@
 			"",
 			"Spell Changes: 2nd-{spell/lesser confusion}, 8th-{spell/dreadscape}, 10th-{spell/compelling rant}."
 		],
-		"backlink": [ "Witch", "class/witch" ]
+		"backwardsLink": [ "Witch", "class/witch" ]
 	},
 	"variant_channeling": {
 		"name": "Variant Channeling",
@@ -841,7 +841,7 @@
 			"| Weapons | Creatures gain a channel bonus on attack rolls until the end of your next turn when wielding your deity's favored weapon. | Creatures gain a channel penalty on attack and damage rolls until the end of your next turn when wielding manufactured weapons. |",
 			"| Weather | Creatures gain a channel bonus on saving throws against electricity, sonic, and wind effects. | Each time you channel energy, you may change half the channeled energy damage to electricity or sonic damage. |"
 		],
-		"backlink": [ "Cleric", "class/cleric" ]
+		"backwardsLink": [ "Cleric", "class/cleric" ]
 	},
 	"vigilante_talents": {
 		"name": "Vigilante Talents",
@@ -1039,7 +1039,7 @@
 			"",
 			"**Whip of Vengeance (Ex):** The vigilante gains {feat/Whip Mastery} as a bonus feat. If he already has the Whip Mastery feat, he can immediately swap it for another feat he qualified for at the level when he chose Whip Mastery. In addition, if he is at least 6th level, he also gains the Improved Whip Mastery feat. He treats his vigilante level as his vigilante base attack bonus for the purpose of meeting prerequisites of feats and abilities that have Whip Mastery as a prerequisite."
 		],
-		"backlink": [ "Vigilante", "class/vigilante" ]
+		"backwardsLink": [ "Vigilante", "class/vigilante" ]
 	},
 	"vows": {
 		"name": "Monk Vows",
@@ -1070,7 +1070,7 @@
 			"",
 			"**Truth:** The monk is not allowed to deliberately speak any lies, including bluffing, stating half-truths with the intent to deceive, exaggerating, telling white lies, and so on. This applies to all forms of communication. If presented with circumstances where telling the truth would bring harm to another, the monk remains silent. Many monks of this vow also take a vow of silence to show their commitment. A monk with this vow increases his ki pool by 1 ki point for every 5 monk levels (minimum +1)."
 		],
-		"backlink": [ "Monk", "class/monk" ]
+		"backwardsLink": [ "Monk", "class/monk" ]
 	},
 	"weapon_groups": {
 		"name": "Weapon Groups",
@@ -1461,7 +1461,7 @@
 			"- {eq-weapon/throwing axe}",
 			"- [unarmed strike](rule/attack)"
 		],
-		"backlink": [ "Fighter", "class/fighter" ]
+		"backwardsLink": [ "Fighter", "class/fighter" ]
 	},
 	"wild_utility_talents": {
 		"name": "Wild Utility Talents",
@@ -1657,7 +1657,7 @@
 				"initialColumn": 0
 			}
 		],
-		"backlink": [ "Kineticist", "class/kineticist" ]
+		"backwardsLink": [ "Kineticist", "class/kineticist" ]
 	},
 	"ward_aspects": {
 		"name": "Ward Aspects",
@@ -1682,6 +1682,6 @@
 			"",
 			"*Well:* The creature gains a +2 shield bonus to AC. This bonus increases to +4 at 8th level and +6 at 15th level."
 		],
-		"backlink": [ "Hunter", "class/hunter" ]
+		"backwardsLink": [ "Hunter", "class/hunter" ]
 	}
 }

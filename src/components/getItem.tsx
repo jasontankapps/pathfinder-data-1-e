@@ -7,7 +7,7 @@ export interface JsonDataProps {
 	title: string,
 	jsx: ReactElement,
 	sources: SourceProp[],
-	backlink?: Hierarchy
+	backwardsLink?: Hierarchy
 	noFinder?: boolean
 }
 

@@ -1,0 +1,13 @@
+{
+	"files.exclude": {
+		"**/node_modules": true
+	},
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"/json/*.json"
+			],
+			"url": "./schema.json"
+		}
+	]
+}

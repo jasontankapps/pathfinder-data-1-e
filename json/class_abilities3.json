@@ -43,7 +43,7 @@
 			"| [Oath of the Skyseeker](/oath/oath_of_the_skyseeker) | Smite Evil, Divine Bond, Aura of Justice, Aura of Faith | Paladins with the oath of the skyseeker swear to defend the Sky Citadels their people retain and to help reclaim those the dwarves have lost, hoping to one day rebuild them on the greatest, most honorable ideals of the dwarven gods. |",
 			"| [Oath of Vengeance](/oath/oath_of_vengeance) | Channel Positive Energy, Aura of Justice | These oathbound paladins are always on the hunt for those who have perpetrated evil, and are the instrument of Heaven's most definitive and implacable judgment. |"
 		],
-		"backlink": [ "Paladin", "class/paladin" ]
+		"backwardsLink": [ "Paladin", "class/paladin" ]
 	},
 	"orders": {
 		"name": "Orders",
@@ -128,7 +128,7 @@
 			"| [Order of Vengeance](/order/order_of_vengeance) | Often affiliated with the church of Calistria, those ex-Galtan cavaliers who subscribe to the order of vengeance seek not only to reclaim their rightful homeland, but to punish those who betrayed them. |",
 			"| [Ronin](/order/ronin)\\* | While most samurai belong to the order of the warrior, some find themselves without a master. Known as ronin, these samurai wander the lands, serving their own code of ideals. |"
 		],
-		"backlink": [ "Cavalier", "class/cavalier" ]
+		"backwardsLink": [ "Cavalier", "class/cavalier" ]
 	},
 	"patrons": {
 		"name": "Witch Patrons",
@@ -258,7 +258,7 @@
 			"",
 			"**Woodlands:** 2nd - {spell/entangle}, 4th - {spell/accelerate poison}, 6th - {spell/lily pad stride}, 8th - {spell/grove of respite}, 10th - {spell/tree stride}, 12th - {spell/repel wood}, 14th - {spell/animate plants}, 16th - {spell/control plants}, 18th - {spell/shambler}."
 		],
-		"backlink": [ "Witch", "class/witch" ]
+		"backwardsLink": [ "Witch", "class/witch" ]
 	},
 	"phrenic_amplifications": {
 		"name": "Phrenic Amplifications",
@@ -317,7 +317,7 @@
 			"",
 			"**Will of the Dead (Su):** Even undead creatures can be affected by the psychic's mind-affecting spells. The psychic can spend 2 points from her phrenic pool to overcome an undead creature's immunity to mind-affecting effects for the purposes of the linked spell. This ability functions even on mindless undead, but has no effect on creatures that aren't undead. This amplification can be linked only to spells that have the mind-affecting descriptor."
 		],
-		"backlink": [ "Psychic", "class/psychic" ]
+		"backwardsLink": [ "Psychic", "class/psychic" ]
 	},
 	"psi_tech": {
 		"name": "Psi-Tech Discoveries",
@@ -354,7 +354,7 @@
 			"",
 			"**Techsmith:** Select one type of technological item (armor, cybertech, pharmaceuticals, technological gear, or weapons). You can create items of this type 25% faster than normal, and you gain a +4 bonus on Craft (mechanical) checks (or other checks, as appropriate) to craft items of this type. You can select this discovery multiple times; its effects do not stack. Instead, each time you select this discovery, it applies to a single different type of technological item."
 		],
-		"backlink": [ "Psychic", "class/psychic" ]
+		"backwardsLink": [ "Psychic", "class/psychic" ]
 	},
 	"rage_powers": {
 		"name": "Rage Powers",
@@ -658,7 +658,7 @@
 				"initialColumn": 0
 			}
 		],
-		"backlink": [ "Barbarian", "class/barbarian" ]
+		"backwardsLink": [ "Barbarian", "class/barbarian" ]
 	},
 	"ranger_traps": {
 		"name": "Ranger Traps",
@@ -946,7 +946,7 @@
 			"",
 			"**Effect:** This trap makes a melee attack against the target using the ranger's base attack bonus + his Wisdom modifier for the attack roll. It deals an amount of damage equal to 1d6 + 1/2 the ranger's level. The ranger chooses whether this damage is bludgeoning, piercing, or slashing. If this is a supernatural trap, the attack counts as magical for the purposes of overcoming damage reduction."
 		],
-		"backlink": [ "Trapper (Ranger Archetype)", "arc-ranger/trapper" ]
+		"backwardsLink": [ "Trapper (Ranger Archetype)", "arc-ranger/trapper" ]
 	},
 	"rogue_talents": {
 		"name": "Rogue Talents",
@@ -1384,7 +1384,7 @@
 			"",
 			"{SOURCE PRPG Core Rulebook/68;Advanced Player's Guide/130;Advanced Race Guide/92, 193;Adventurer's Guide/53;Blood of Shadows/8;Blood of the Moon/19;Champions of Purity/25;Cohorts and Companions/27;Distant Realms/13;Divine Anthology/7;Elemental Master's Handbook/9;Heroes of the Streets/26;Heroes of the Wild/21;Inner Sea Combat/16;Inner Sea Intrigue/32;Magic Tactics Toolbox/27;Magical Marketplace/26;Monster Hunter's Handbook/9;Pathfinder #130: City in the Lion's Eye/76;Pathfinder Unchained/21;People of the Sands/19;Potions and Poisons/13;Ranged Tactics Toolbox/7;Spymaster's Handbook/21;The Harrow Handbook/20;Ultimate Combat/69}"
 		],
-		"backlink": [ "Rogue", "class/rogue" ]
+		"backwardsLink": [ "Rogue", "class/rogue" ]
 	},
 	"rogue_talent": { "copyof": "rogue_talents" },
 	"sagas": {
@@ -1421,7 +1421,7 @@
 			"**Use:** 10 raging song rounds.  ",
 			"**Action:** 10 minutes"
 		],
-		"backlink": [ "Skald", "class/skald" ]
+		"backwardsLink": [ "Skald", "class/skald" ]
 	},
 	"shaman_hexes": {
 		"name": "Shaman Hexes",
@@ -1476,7 +1476,7 @@
 			"",
 			"**Witch Hex:** The shaman selects [any one hex](ability/hexes) normally available through the witch's hex class feature. She treats her shaman level as her witch level when determining the powers and abilities of the hex. She uses her Wisdom modifier in place of her Intelligence modifier for the hex. She cannot select major hexes or grand hexes using this ability. The shaman cannot select a witch hex that has the same name as a shaman hex."
 		],
-		"backlink": [ "Shaman", "class/shaman" ]
+		"backwardsLink": [ "Shaman", "class/shaman" ]
 	},
 	"shaman_spirits": {
 		"name": "Shaman Spirits",
@@ -1526,7 +1526,7 @@
 			"| [Wind](/shamanspirit/wind) | A shaman who selects the wind spirit appears windswept, and her movements seem lithe and carefree. |",
 			"| [Wood](/shamanspirit/wood) | A shaman who selects the wood spirit has a skin tone similar to the coloration of trees in her home region. Her vibrant hair is fragrant and resembles leaves and blossoms. |"
 		],
-		"backlink": [ "Shaman", "class/shaman" ]
+		"backwardsLink": [ "Shaman", "class/shaman" ]
 	},
 	"simple_kinetic_blasts": {
 		"name": "Simple Blasts",
@@ -1567,7 +1567,7 @@
 				"initialColumn": 0
 			}
 		],
-		"backlink": [ "Kineticist", "class/kineticist" ]
+		"backwardsLink": [ "Kineticist", "class/kineticist" ]
 	},
 	"slayer_talents": {
 		"name": "Slayer Talents",
@@ -1671,7 +1671,7 @@
 			"",
 			"**Unbalancing Trick (Ex):** The slayer gains {feat/Improved Trip} as a bonus feat, even if she does not meet the prerequisites. At 6th level, she is treated as if she meets all the prerequisites of {feat/Greater Trip} (although she must take the feat as normal to gain its benefits)."
 		],
-		"backlink": [ "Slayer", "class/slayer" ]
+		"backwardsLink": [ "Slayer", "class/slayer" ]
 	},
 	"social_talents": {
 		"name": "Social Talents",
@@ -1795,7 +1795,7 @@
 			"",
 			"In his area of renown, the vigilante's social identity is so trusted as an expert that scholars are inspired to make amazing deductions and intuitive leaps in discussions with him. A creature that has already failed a Knowledge check on a specific subject can attempt one additional check to gain information on the same topic if it receives an aid another bonus from the vigilante when doing so."
 		],
-		"backlink": [ "Vigilante", "class/vigilante" ]
+		"backwardsLink": [ "Vigilante", "class/vigilante" ]
 	},
 	"sorcerer_bloodlines": {
 		"name": "Sorcerer Bloodlines",
@@ -1890,7 +1890,7 @@
 			"| [Verdant](/sorcererbloodline/verdant) | Your progenitors infused themselves with raw plant life, binding it into their own tissue and passing it down to their literal seed, giving you innate communion with nature. | Groveborn |",
 			"| [Vestige](/sorcererbloodline/vestige) | You trace your ancestry to a bygone civilization and can call upon its forgotten people or places for power. |  |"
 		],
-		"backlink": [ "Sorcerer", "class/sorcerer" ]
+		"backwardsLink": [ "Sorcerer", "class/sorcerer" ]
 	},
 	"spirits": {
 		"name": "Medium Spirits",
@@ -1943,7 +1943,7 @@
 			"| [Twice-Damned Prince](/legendaryspirit/twice_damned_prince) | Trickster |",
 			"| [Warmonger](/legendaryspirit/warmonger) | Marshal |"
 		],
-		"backlink": [ "Medium", "class/medium" ]
+		"backwardsLink": [ "Medium", "class/medium" ]
 	},
 	"stance_rage_powers": {
 		"name": "Stance Rage Powers (Unchained Barbarian)",
@@ -1970,7 +1970,7 @@
 			"| [Strength Stance (Ex)](/stanceragepower/strength_stance) | 2nd | Gain a bonus to combat maneuvers and some Strength checks. |",
 			"| [Taunting Stance (Ex)](/stanceragepower/taunting_stance) | 12th | Leave yourself open to attack, but counterattack with impunity. |"
 		],
-		"backlink": [ "Unchained Barbarian", "class/unchained_barbarian" ]
+		"backwardsLink": [ "Unchained Barbarian", "class/unchained_barbarian" ]
 	},
 	"stares": {
 		"name": "Mesmerist Stares",
@@ -2038,6 +2038,6 @@
 			"",
 			"**Unaided:** The target of the hypnotic stare is not able to grant or receive flanking bonuses."
 		],
-		"backlink": [ "Mesmerist", "class/mesmerist" ]
+		"backwardsLink": [ "Mesmerist", "class/mesmerist" ]
 	}
 }
