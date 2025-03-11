@@ -5,7 +5,8 @@
 	"json.schemas": [
 		{
 			"fileMatch": [
-				"/json/*.json"
+				"/json/*.json",
+				"!src/json/*.json"
 			],
 			"url": "./schema.json"
 		}

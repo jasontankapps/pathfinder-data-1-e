@@ -2168,7 +2168,7 @@
 			"",
 			"You can repair a broken cybernetic item if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item from scratch. You can also install a cybernetic item in a creature's body.",
 			"",
-			"See the [Cybertech section](main/tech_cybertech) for more information on installing cyberware."
+			"See the {main/tech_<Cybertech/ section} for more information on installing cyberware."
 		]
 	},
 	"craft_magic_arms_and_armor": {

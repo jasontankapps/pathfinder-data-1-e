@@ -1,8 +1,9 @@
-import { ReactElement, useMemo } from 'react';
+import { FC, ReactElement, useMemo } from 'react';
 import { IonRippleEffect } from '@ionic/react';
 import { SourceProp } from '../components/SourcesModal';
 import Link from '../components/Link';
 import data from '../json/_data_rule.json';
+import names from '../json/_data__all_links.json';
 import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 import './BasicRulesPage.css';
@@ -30,14 +31,18 @@ interface HierarchyProps {
 	extraHierarchy: HierarchyArray
 }
 
-const HierarchyRulesInset: React.FC<HierarchyProps> = ({extraHierarchy}) => {
+const HierarchyRulesInset: FC<HierarchyProps> = ({extraHierarchy}) => {
 	const h = [["All Rules", "main/rules"], ...extraHierarchy].map((pair, i) => (
 		<span key={`rules-page-hierarchy-link-${i}`}>{i === 0 ? "" : " > "}<Link to={"/" + pair[1]}>{pair[0]}</Link></span>
 	));
 	return <div className="hierarchyRulesInset">{h}</div>;
 };
 
-const BasicRulesPage: React.FC<BasicRulesProps> = ({
+const getName = (input: string) => {
+	return names[("rule/" + input) as keyof typeof names];
+};
+
+const BasicRulesPage: FC<BasicRulesProps> = ({
 	hasJL,
 	title,
 	sources,
@@ -56,14 +61,14 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 			if(pos < 0) {
 				return [null, null];
 			} else if(pos === 0) {
-				return [null, [data[siblings[1]].name, siblings[1]]];
+				return [null, [getName(siblings[1]), siblings[1]]];
 			} else if (pos === siblings.length - 1) {
-				return [[data[siblings[pre]].name, siblings[pre]], null];
+				return [[getName(siblings[pre]), siblings[pre]], null];
 			}
 			const post = pos + 1;
 			return [
-				[data[siblings[pre]].name, siblings[pre]],
-				[data[siblings[post]].name, siblings[post]]
+				[getName(siblings[pre]), siblings[pre]],
+				[getName(siblings[post]), siblings[post]]
 			];
 		}
 		return [null, null];
@@ -72,7 +77,7 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 
 	const subs: HierarchyArray = useMemo(
 		() => subtopics ? subtopics.map(
-			sub => [(data[sub] || {}).name || `ERROR fetching [${sub}.name]`, "/rule/" + sub]
+			sub => [getName(sub) || `ERROR fetching [${sub}.name]`, "/rule/" + sub]
 		) : [],
 	[subtopics]);
 
@@ -80,7 +85,7 @@ const BasicRulesPage: React.FC<BasicRulesProps> = ({
 		if(!parent_topics) {
 			return [];
 		}
-		return parent_topics.map(prop => [data[prop].name, "rule/" + prop]) as HierarchyArray;
+		return parent_topics.map(prop => [getName(prop), "rule/" + prop]) as HierarchyArray;
 	}, [parent_topics]);
 
 	return (

@@ -92,7 +92,7 @@ const RulesPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id].page || 1) - 1) : 0];
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
 	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
 

@@ -365,8 +365,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 1,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule02": {
 		data: rule2,
@@ -374,8 +373,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 2,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule03": {
 		data: rule3,
@@ -383,8 +381,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 3,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule04": {
 		data: rule4,
@@ -392,8 +389,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 4,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule05": {
 		data: rule5,
@@ -401,8 +397,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 5,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule06": {
 		data: rule6,
@@ -410,8 +405,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 6,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule07": {
 		data: rule7,
@@ -419,8 +413,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 7,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule08": {
 		data: rule8,
@@ -428,8 +421,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 8,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule09": {
 		data: rule9,
@@ -437,8 +429,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 9,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule10": {
 		data: rule10,
@@ -446,8 +437,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 10,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule11": {
 		data: rule11,
@@ -455,8 +445,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 11,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule12": {
 		data: rule12,
@@ -464,8 +453,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 12,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule13": {
 		data: rule13,
@@ -473,8 +461,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 13,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule14": {
 		data: rule14,
@@ -482,8 +469,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 14,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule15": {
 		data: rule15,
@@ -491,8 +477,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 15,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule16": {
 		data: rule16,
@@ -500,8 +485,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 16,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule17": {
 		data: rule17,
@@ -509,8 +493,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 17,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule18": {
 		data: rule18,
@@ -518,8 +501,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 18,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule19": {
 		data: rule19,
@@ -527,8 +509,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 19,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule20": {
 		data: rule20,
@@ -536,8 +517,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 20,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule21": {
 		data: rule21,
@@ -545,8 +525,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 21,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule22": {
 		data: rule22,
@@ -554,8 +533,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 22,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule23": {
 		data: rule23,
@@ -563,8 +541,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 23,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule24": {
 		data: rule24,
@@ -572,8 +549,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 24,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule25": {
 		data: rule25,
@@ -581,8 +557,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 25,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule26": {
 		data: rule26,
@@ -590,8 +565,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 26,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule27": {
 		data: rule27,
@@ -599,8 +573,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 27,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule28": {
 		data: rule28,
@@ -608,8 +581,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 28,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule29": {
 		data: rule29,
@@ -617,8 +589,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 29,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule30": {
 		data: rule30,
@@ -626,8 +597,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 30,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule31": {
 		data: rule31,
@@ -635,8 +605,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 31,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule32": {
 		data: rule32,
@@ -644,8 +613,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 32,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule33": {
 		data: rule33,
@@ -653,8 +621,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 33,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule34": {
 		data: rule34,
@@ -662,8 +629,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 34,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule35": {
 		data: rule35,
@@ -671,8 +637,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 35,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule36": {
 		data: rule36,
@@ -680,8 +645,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 36,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"rule37": {
 		data: rule37,
@@ -689,8 +653,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 37,
-		type: "Rules",
-		properties: [ "name" ]
+		type: "Rules"
 	},
 	"umr": {
 		data: umr,

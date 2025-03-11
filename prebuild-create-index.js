@@ -46,7 +46,7 @@ const dataIndex = [];
 const allIncludingCopies = [];
 
 Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
-	const {data, link, num, type, searchgroup: sg, properties = []} = groupobject;
+	const {data, link, num, type, searchgroup: sg} = groupobject;
 	if(!checkForType[type]) {
 		checkForType[type] = types.length;
 		types.push(type);
@@ -58,7 +58,6 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 	if(num && !grouping_data[link]) {
 		grouping_data[link] = {};
 	}
-	const has_properties = properties.length > 0;
 	Object.entries(data).forEach(([prop, value]) => {
 		const { name: n, title, copyof, subtitle, tags, searchgroup: sg2 } = value;
 		if(copyof && !data[copyof]) {
@@ -73,13 +72,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		}
 		if (num) {
 			// This is a part of a multi-file group.
-			if(has_properties) {
-				const base = { page: num };
-				properties.forEach(prop => (base[prop] = value[prop]));
-				grouping_data[link][prop] = base;
-			} else {
-				grouping_data[link][prop] = num;
-			}
+			grouping_data[link][prop] = num;
 		}
 		const named = n || title;
 		if(copyof && !named) {

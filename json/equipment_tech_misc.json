@@ -23,7 +23,7 @@
 			"",
 			"**Craft DC** 16 (black), DC 21 (blue), DC 15 (brown), DC 18 (gray), DC 19 (green), DC 22 (orange), DC 23 (prismatic), DC 20 (red), DC 17 (white)  ",
 			"**Cost** 5 gp (black), 180 gp (blue), 1 gp, 5 sp (brown), 45 gp (gray), 80 gp (green), 245 gp (orange), 500 gp (prismatic), 125 gp (red), 20 gp (white)  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"An access card is a small strip of stiff plastic with a colorcoded stripe on one side. Some access cards are further decorated with names or titles written in Androffan, or even photographs of long-dead crew members. An access card functions as a key - when swiped through an electronic lock (a move action), an access card unlocks any lock of its color code or a color code of a lower rating. Although access cards do not consume energy themselves, they work in only electronic locks that currently have power. Among certain societies in Numeria, access cards are also used as decorations, worn as affectations, and incorporated into ceremonial regalia.",
 			"",
@@ -77,7 +77,7 @@
 			"",
 			"**Craft DC** 24 (black), DC 29 (blue), DC 21 (brown), DC 26 (gray), DC 27 (green), DC 30 (orange), DC 31 (prismatic), DC 28 (red), DC 25 (white)  ",
 			"**Cost** 50 gp (black), 1,800 gp (blue), 15 gp (brown), 450 gp (gray), 800 gp (green), 2,450 gp (orange), 5,000 gp (prismatic), 1,250 gp (red), 200 gp (white)  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"An e-pick (short for \"electronic lock pick\") is a small device that can be used to unlock and disable electronic locks and devices, much in the same way that a set of thieves' tools can be used to dismantle mechanical locks and devices. Brown e-picks allow a user to make Disable Device checks against electronic devices without penalty; those of higher ratings also grant a competence bonus (as indicated below).",
 			"",
@@ -151,7 +151,7 @@
 			"",
 			"**Craft DC** 24 (black), DC 29 (blue), DC 23 (brown), DC 26 (gray), DC 27 (green), DC 30 (orange), DC 31 (prismatic), DC 28 (red), DC 25 (white)  ",
 			"**Cost** 1,000 gp (black), 36,000 gp (blue), 300 gp (brown), 9,000 gp (gray), 16,000 gp (green), 49,000 gp (orange), 100,000 gp (prismatic), 25,000 gp (red), 4,000 gp (white)  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"A lock coder is a bulky device capable of encoding an [access card](tech-misc/access_card_black) with the capability to open specific electronic locks of a rating equal to or lower than its own. The device can also be used to encode an electronic lock to a different color code of access, allowing it to be opened by lower-rated access cards. A lock coder can code any color access equal to or lower than its color. Encoding an access card or an electronic lock requires a successful Disable Device check as if the user were attempting to disable an electronic device. The DC to encode a lock or card to a specific color code is given on the table below (these DCs are equal to the DCs required to use Disable Device to pick the locks). It takes 1 minute to use a lock coder. The user can take 20 on this check if the lock coder isn't timeworn. An [e-pick](tech-misc/e_pick_black) can be used with a lock coder to increase the chance of success; for locks with a higher color rating, an e-pick is all but required even for the most gifted of technicians.",
 			"",
@@ -214,7 +214,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 25; **Cost** 50 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"Most Numerian technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It's more common and practical to charge such items with batteries. A battery looks like a small silver disk that's etched with strange lines - the people of Numeria have taken to calling batteries \"silverdisks\" and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply slips the disk-shaped device into the proper slot on the item. The battery's charge instantly fully depletes, and the item's internal capacitors fill with 10 charges as it does so. If the item had fewer than 10 open slots in its capacity, the excess charges the battery once held are lost. A battery can be kept within an object indefinitely, or it can be ejected from the object for the purposes of recharging it or storing it elsewhere without affecting the item's charge. Inserting or ejecting a battery is a move action.",
 			"",
@@ -235,7 +235,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 20; **Cost** 250 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"A power cable is a short length of flexible cord (typically no more than 5 feet long) that can be used to attach a technological device to a [power generator](main/tech_artifacts). It takes a move action to attach a cable to a generator or a device - thus, it takes a full round to fully connect the two together. Once connected, the item draws power from the generator rather than from its internal battery stores. If an item can be recharged, it automatically replenishes its missing charges from the generator (up to the generator's available yield for that hour). This process is instantaneous."
 		]
@@ -254,13 +254,13 @@
 			"### Construction",
 			"",
 			"**Craft DC** 30; **Cost** 2,500 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"A power receiver is a device that attaches to any technological item's battery slot. The power receiver is then set to the same frequency as a nearby power generator capable of broadcasting power, after which the device draws power from the generator as if it were attached via a power cable. The generator determines the range at which the device can draw power; this signal can be enhanced by a {tech-misc/signal booster} or blocked by a {tech-misc/signal jammer}.",
 			"",
 			"### On Signals",
 			"",
-			"Some items, like chipfinders, commsets, and detonators, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. Force fields do not block signals at all. Signal boosters and signal jammers can also affect signal range."
+			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and {tech-misc/signal jammer/s} can also affect signal range."
 		]
 	},
 	"cylex": {
@@ -277,7 +277,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 26; **Cost** 1,800 gp  ",
-			"{feat/Craft Technological Arms and Armor, military lab",
+			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
 			"Cylex is an exceptionally stable form of explosive that can be shaped at room temperature, like soft clay. Neon green in color, a single charge of cylex can be triggered to explode by using a {tech-misc/detonator} or applying 10 or more points of electricity damage to it in a single action. When detonated, a single use of cylex explodes in a 40-foot-radius spread and deals 6d6 points of bludgeoning damage and 6d6 points of fire damage to all creatures and objects in the area of effect. A successful DC 17 Reflex saving throw halves the damage."
 		]
@@ -296,13 +296,13 @@
 			"### Construction",
 			"",
 			"**Craft DC** 23; **Cost** 250 gp  ",
-			"{feat/Craft Technological Arms and Armor, military lab",
+			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"A detonator is a small device that can be used to trigger cranial bombs, cylex, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet, though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a {tech-misc/signal booster}.",
+			"A detonator is a small device that can be used to trigger {tech-cybertech/cranial bomb/s}, {tech-misc/cylex}, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet, though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a {tech-misc/signal booster}.",
 			"",
 			"### On Signals",
 			"",
-			"Some items, like chipfinders, commsets, and detonators, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. Force fields do not block signals at all. Signal boosters and signal jammers can also affect signal range."
+			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and detonators, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and {tech-misc/signal jammer/s} can also affect signal range."
 		]
 	},
 	"grenade_arc_grenade": {
@@ -320,7 +320,7 @@
 			"",
 			"**Craft DC** 20 (arc grenade), DC 20 (atom grenade), DC 20 (bang grenade), DC 20 (bio grenade), DC 20 (concussion grenade), DC 20 (EMP grenade), DC 20 (flash grenade), DC 20 (flechette grenade), DC 20 (fragmentation grenade), DC 20 (gravity grenade), DC 20 (inferno grenade), DC 20 (plasma grenade), DC 20 (soft grenade), DC 20 (sonic grenade), DC 20 (zero grenade)  ",
 			"**Cost** 375 gp (arc grenade), 3,000 gp (atom grenade), 125 gp (bang grenade), 1,650 gp (bio grenade), 375 gp (concussion grenade), 375 gp (EMP grenade), 375 gp (flash grenade), 375 gp (flechette grenade), 375 gp (fragmentation grenade), 1,125 gp (gravity grenade), 375 gp (inferno grenade), 800 gp (plasma grenade), 375 gp (soft grenade), 500 gp (sonic grenade), 375 gp (zero grenade)  ",
-			"{feat/Craft Technological Arms and Armor, military lab",
+			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
 			"A grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a {tech-weapon/grenade launcher}. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. Priming and arming a grenade is a free action; a grenade launcher primes and arms all grenades it fires. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a grenade detonates, it damages all targets within a 20-foot-radius spread. A successful DC 15 Reflex save halves any damage dealt by a grenade.",
 			"",
@@ -390,7 +390,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 20; **Cost** 375 gp  ",
-			"{feat/Craft Technological Arms and Armor, military lab",
+			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
 			"A gas grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a grenade launcher. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a gas grenade detonates, it creates a 20-foot spread of foul-smelling toxic gas. All creatures in this area of effect must succeed at a DC 14 Fortitude save or become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. The gas created lingers in the area for 5 rounds, and any creature that succeeds at its initial save but remains in the cloud must continue to save each round on its turn. The gas is not thick enough to obscure vision, and is a poison effect. The vapors can be dispersed in 1 round by moderate or stronger wind."
 		]
@@ -434,7 +434,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 25; **Cost** 1,250 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"A chemalyzer is a handheld unit with an extendable wand tipped with a sampling nozzle. It grants a +5 competence bonus on all Craft (alchemy) or Knowledge (engineering) checks to identify an unknown pharmaceutical, poison, chemical, or substance. It cannot aid in the identification of magical effects or items like potions."
 		]
@@ -453,7 +453,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 25; **Cost** 30,000 gp  ",
-			"Craft Technological Item, nanotech lab",
+			"{feat/Craft Technological Item}, {rule/crafting<nanotech| lab>oratories}",
 			"",
 			"A clonepod looks like a human-sized capsule with a blue window at head height and a bank of touchsensitive screens and buttons at chest height. A small slot situated below the window can accept genetic material (fingernails, hair clippings, skin samples, and so forth). When genetic material is placed in the slot, the clonepod immediately atomizes the sample and processes the genetic information. At this point, activating the clonepod causes its interior to flood with blue biotic fluid, which is then supersaturated with a combination of proteins, nanites, and other materials. Over the course of the next 12 hours, the clonepod works nonstop to produce an exact replica of the creature from which the genetic material was harvested, as the creature was when the sample was taken. A clonepod can only duplicate a Medium or smaller creature - attempts to clone a larger creature result in a hideous, partially formed monstrosity that heaves and gasps a few times before dying.",
 			"",
@@ -479,7 +479,7 @@
 			"",
 			"**Craft DC** 27 (mark I), DC 29 (mark II), DC 31 (mark III), DC 33 (mark IV), DC 35 (mark V)  ",
 			"**Cost** 15,125 gp (mark I), 30,250 gp (mark II), 45,375 gp (mark III), 60,500 gp (mark IV), 75,625 gp (mark V)  ",
-			"Craft Technological Item, nanotech lab",
+			"{feat/Craft Technological Item}, {rule/crafting<nanotech| lab>oratories}",
 			"",
 			"A cortex gun is an incredibly powerful device filled with nanites programmed for physical and mental enhancement. The gun is shaped like a hefty syringe with a handle and a small touch screen on which parameters can be programmed and adjusted to focus the nanites on a specific ability to augment. It can be programmed to enhance a Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma score. Setting a cortex gun to affect one of these six abilities requires a character with the {feat/Technologist} feat succeeding at a DC 20 Linguistics check. On a failure, the programming is scrambled and non-functional until properly set. When a cortex gun is found as treasure, roll 1d8 to determine which ability score it's programmed to, with a result of 7-8 indicating that it's currently scrambled.",
 			"",
@@ -530,7 +530,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 28; **Cost** 1,000 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"Originally worn by translators, messengers, and diplomats, these objects were always constructed to appear elegant and beautiful. An envoy's mouthpiece is a circlet worn across the mouth, with slender arms that reach along the jaw to wrap around the wearer's skull and hold the device in place. Two thin earpieces extend up from the band to slip unobtrusively into the user's ears once a mouthpiece is donned. When created, an envoy's mouthpiece is encoded with a specific single language. Whenever the language is spoken within 30 feet of the wearer, the mouthpiece translates that language into Androffan. In addition, any words spoken in Androffan by the wearer are transformed by the mouthpiece into the encoded language, allowing conversation to take place between the wearer and speakers of the encoded language. An envoy's mouthpiece cannot be used to translate languages other than the one it has been programmed to translate, but a newly created mouthpiece could, in theory, translate languages into something other than Androffan.",
 			"",
@@ -551,7 +551,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 24; **Cost** 2,250 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"A filter mask is a clear plastic shield worn over the entire face. The mask has ionized filters and scrubbers that purify the air the user breathes in and give the mask an unintentionally fearsome look. While the mask has power, the wearer is completely immune to inhaled toxins or diseases. Even when the mask has no power, it grants the wearer a +3 resistance bonus on all saving throws made to resist airborne toxins and diseases."
 		]
@@ -570,7 +570,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 14; **Cost** 3 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"Goo tubes are a form of preserved food. A single goo tube is a malleable cylinder with a cap on one end; when it's opened and squeezed, the colorful, goopy contents are extruded. Although the texture and appearance of this goo is unappetizing, the paste is actually quite tasty, and comes in a mind-boggling assortment of flavors. A symbol on the side of the tube often grants a clue as to what flavor may be contained within, but these symbols can sometimes be counter-intuitive. The contents of a single goo tube can provide nourishment for a day for one Medium-size creature."
 		]
@@ -589,7 +589,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 23; **Cost** 250 gp  ",
-			"Craft Technological Item, medical lab",
+			"{feat/Craft Technological Item}, {rule/crafting<medical| lab>oratories}",
 			"",
 			"This wand-like device contains a reservoir at one end and a small pad at the other. A medlance can be filled with a single dose of liquid, such as a pharmaceutical, a potion, or a poison. It can then be used to administer the liquid to a creature - if the target does not wish to be injected with the medlance's contents, the wielder must succeed at a touch attack to dispense it as a standard action. Otherwise, administering liquid via a medlance is a move action. A medlance doesn't use charges, but after being used to administer 10 injections, its internal sterilization mechanisms are depleted and the device becomes useless."
 		]
@@ -608,7 +608,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 32; **Cost** 15,000 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"A mindmelder resembles a bulky helm designed to cover the skull, ears, and eyes of the wearer. When worn, it projects the user's thoughts into a virtual reality created from the user's mind, memories, and personality. As long as the user wears the mindmelder, his actual physical body is helpless and can take no actions. While in this virtual world, the user can rest and relax, gaining the benefits of such relaxation at a rapidly increased rate, as if under the effects of a nap stack spell. A creature may enjoy the benefits granted by this effect without that spell's normal once-per-week limitation. A mindmelder can also be used to enter established virtual realities stored in a computer within 60 feet, as detailed in Part 3 of this adventure."
 		]
@@ -627,7 +627,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 25; **Cost** 250 gp  ",
-			"Craft Technological Item, nanotech lab",
+			"{feat/Craft Technological Item}, {rule/crafting<nanotech| lab>oratories}",
 			"",
 			"A nanite canister is used to power technological devices that use nanites - such items generally don't require other sources of power, as the nanites themselves do the bulk of the work when the object is activated. The canister contains a small, independent power source and a supply of nanites. A single canister contains enough nanites to provide 10 charges for a nanotech item or weapon."
 		]
@@ -647,7 +647,7 @@
 			"",
 			"**Craft DC** 28 (black), DC 33 (blue), DC 27 (brown), DC 30 (gray), DC 31 (green), DC 34 (orange), DC 35 (prismatic), DC 32 (red), DC 29 (white)  ",
 			"**Cost** 3,000 gp (black), 45,500 gp (blue), 500 gp (brown), 14,000 gp (gray), 22,500 gp (green), 62,500 gp (orange), 89,000 gp (prismatic), 33,000 gp (red), 7,500 gp (white)  ",
-			"Craft Technological Item, nanotech lab",
+			"{feat/Craft Technological Item}, {rule/crafting<nanotech| lab>oratories}",
 			"",
 			"Nanite hypoguns inject specialized nanites into a creature's body to heal many sorts of physical and mental injuries. Injecting someone with a nanite hypogun requires a touch attack. Nine categories of nanite hypogun exist along the color code scale, as detailed below. All nanite hypoguns have two settings. On the primary setting, the hypogun heals an amount of hit point damage determined by its color. Each use of a hypogun on its primary setting consumes 1 charge. On the secondary setting, a dose from a nanite hypogun has a different effect determined by its color - these effects mimic specific restorative spells as indicated on the chart below. Each use of a hypogun on its secondary setting consumes 5 charges. Although they are not magical, nanite hypoguns have an effective caster level for the purposes of determining the potency of their effects as required by special circumstances (such as determining if a disease is cured, or if damage caused by a clay golem's cursed wound ability can be healed).",
 			"",
@@ -712,7 +712,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 28; **Cost** 18,000 gp  ",
-			"Craft Technological Item, cybernetics lab",
+			"{feat/Craft Technological Item}, {rule/crafting<cybernetics| lab>oratories}",
 			"",
 			"A neurocam consists of a strange helmet covered in flashing lights and adjustable straps with an intricate blinder that covers the eyes. This device is used to make a duplicate of a creature's mind, copying and storing all the knowledge, memories, and personality of a living creature. A neurocam can be adjusted to fit the head of any creature of size Tiny to Large. A neurocam interfaces with the subject's brain via a modulated beam of light that is transmitted through the optic nerves and several fine sensors that must press against the user's skull. Storing a person's mind takes 10 minutes of uninterrupted use; any interruption scrambles the pattern and ruins the neurocam. This process does not harm the target. An unwilling subject can attempt a DC 20 Will saving throw to resist a neurocam; if the subject is successful, the neurocam's contents are scrambled and the device is ruined.",
 			"",
@@ -735,7 +735,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 30; **Cost** 15,000 gp  ",
-			"Craft Technological Item, nanotech lab",
+			"{feat/Craft Technological Item}, {rule/crafting<nanotech| lab>oratories}",
 			"",
 			"One side of this foot-square metal box is covered with tiny hoses that undulate slightly, as if testing the air. A short spigot protrudes from the opposite side. The other four sides of the box are covered with panels that flash and hum in a repeating pattern. This device operates as a nutrient dispenser. Once per day, when any panel is pushed as a full-round action, the node extrudes a dollop of nutrient paste from the spigot. This paste contains sufficient nutrients to sustain a single Medium or smaller creature for one day. For 24 hours after use, the tiny hoses take in trace amounts of air, dirt, or any other nearby substances and the node processes the matter into more nutrient paste.",
 			"",
@@ -758,7 +758,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 20; **Cost** 2,000 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"This open-faced, blue polymer helmet includes a nylon strap and adjustable tinted visor capable of hiding all but the wearer's mouth and chin. The interior of the tinted faceplate provides a heads-up display when activated, with each charge providing enough power to function for 1 hour of continuous use. During this time, the helmet's external motion sensors pick up on sudden movements and subtle visual cues, granting the wearer a +5 competence bonus on Perception checks to notice moving targets within 60 feet. A secondary setting on the helmet adds an audible alarm that creates a loud chirping sound near the wearer's ear whenever a Small or larger corporeal creature approaches within 60 feet. Reduce this distance by 20 feet for each interposing closed door and by 20 feet for each substantial interposing wall. This noise is loud enough to waken the wearer from sleep, but not loud enough to awaken nearby sleepers."
 		]
@@ -778,7 +778,7 @@
 			"",
 			"**Craft DC** 24 (mark I), DC 26 (mark II), DC 28 (mark III), DC 30 (mark IV), DC 32 (mark V)  ",
 			"**Cost** 200 gp (mark I), 800 gp (mark II), 1,800 gp (mark III), 3,200 gp (mark IV), 5,000 gp (mark V)  ",
-			"Craft Technological Item, at least 10 ranks in skill to be encoded, cybernetics lab",
+			"{feat/Craft Technological Item}, at least 10 ranks in skill to be encoded, {rule/crafting<cybernetics| lab>oratories}",
 			"",
 			"A skillchip contains a wealth of knowledge and lore concerning a single skill. Skillchips for skills like Craft, Knowledge, Perform, and Profession that have multiple subcategories each encode only one subcategory; a user can have a Knowledge (engineering) skillchip, but there are no general Knowledge or Craft skillchips. In order for a user to access a skillchip's lore, it must be inserted into an active {tech-cybertech/skillslot}.",
 			"",
@@ -823,7 +823,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 20; **Cost** 750 gp  ",
-			"Craft Technological Item, medical lab",
+			"{feat/Craft Technological Item}, {rule/crafting<medical| lab>oratories}",
 			"",
 			"This small box of emergency medical gear can be used to augment a creature's Heal skill to allow for enhanced healing. A full trauma pack has enough supplies to be used 5 times before it is depleted. When using a trauma pack to provide healing, attempt a DC 15 Heal check as a standard action. If he succeeds, the pack provides 1d8+1 points of healing. For every 5 points by which the Heal check's result exceeds the DC, it provides an additional 1d8+1 points of healing."
 		]
@@ -842,7 +842,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 26; **Cost** 5,625 gp  ",
-			"Craft Technological Item, medical lab",
+			"{feat/Craft Technological Item}, {rule/crafting<medical| lab>oratories}",
 			"",
 			"A trauma pack plus functions as a {tech-misc/trauma pack}, except that it's advanced chemicals and tools allow someone to restore a recently slain creature to life if the healing provided by the trauma pack plus is administered within 1 round of the target's death, as breath of life. A trauma pack heals 2d8+2 points of damage on a successful DC 15 Heal check. For every 5 points by which the result exceeds the DC, the pack provides an additional 2d8+2 points of healing."
 		]
@@ -862,7 +862,7 @@
 			"",
 			"**Craft DC** 28 (black), DC 33 (blue), DC 27 (brown), DC 30 (gray), DC 31 (green), DC 34 (orange), DC 35 (prismatic), DC 32 (red), DC 29 (white)  ",
 			"**Cost** 200 gp (black), 10,000 gp (blue), 100 gp (brown), 3,000 gp (gray), 5,000 gp (green), 15,000 gp (orange), 25,000 gp (prismatic), 6,000 gp (red), 1,250 gp (white)  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"A veemod (\"vision enhancement module\") is a narrow crystalline strip that slots into a set of veemod goggles to enhance the goggles' use. Inserting a veemod into a pair of goggles is a standard action that provokes attacks of opportunity. Veemods are color-coded items, and provide the following benefits.",
 			"",
@@ -935,7 +935,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 25; **Cost** 500 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"These goggles come in a variety of colors and shapes, but most are sleek and streamlined in appearance. The primary use for these goggles is to enhance vision via the application of a \"vision enhancement module,\" or \"veemod.\" A pair of veemod goggles can be fitted with only one veemod at a time; attaching a veemod is a standard action that provokes an attack of opportunity.",
 			"",
@@ -956,7 +956,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 25; **Cost** 1,500 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"This handheld device can capture still photographs or record video. The device uses a charge when activated and consumes an additional charge each hour; during that hour, individual photographs or video recordings do not consume additional charges. Images and videos captured by a camera can be displayed on the camera's palm-sized screen. A camera can hold up to 20 hours of video footage and 200 photographs."
 		]
@@ -976,7 +976,7 @@
 			"",
 			"**Craft DC** 24 (black), DC 29 (blue), DC 23 (brown), DC 26 (gray), DC 27 (green), DC 30 (orange), DC 31 (prismatic), DC 28 (red), DC 25 (white)  ",
 			"**Cost** 1,500 gp (black), 22,750 gp (blue), 500 gp (brown), 7,000 gp (gray), 11,250 gp (green), 30,000 gp (orange), 38,250 gp (prismatic), 16,500 gp (red), 3,750 gp (white)  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"A chipfinder is a handheld device fitted with a circular screen. When a chipfinder is activated, all active {tech-misc/tracker chip/s} within a certain radius appear as glowing dots on the screen, indicating the direction and approximate distance to each installed tracker chip, as well identification number for each chip. The screen can filter out unwanted data to make it easier to track a specific chip. Chipfinders are color-coded items; the higher the chipfinder's color rating, the longer its range. This range is a signal, and can be enhanced by a {tech-misc/signal booster} or blocked by a solid enough barrier.",
 			"",
@@ -994,7 +994,7 @@
 			"",
 			"### On Signals",
 			"",
-			"Some items, like chipfinders, commsets, and detonators, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. Force fields do not block signals at all. Signal boosters and signal jammers can also affect signal range."
+			"Some items, like chipfinders, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and {tech-misc/signal jammer/s} can also affect signal range."
 		]
 	},
 	"chipfinder_blue": {
@@ -1043,13 +1043,13 @@
 			"### Construction",
 			"",
 			"**Craft DC** 27; **Cost** 3,000 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a builtin camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile - beyond this range, communication is impossible without enhancing the signal strength with a {tech-misc/signal booster}. The price and cost listed for this item are for a single commset.",
 			"",
 			"### On Signals",
 			"",
-			"Some items, like chipfinders, commsets, and detonators, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. Force fields do not block signals at all. Signal boosters and signal jammers can also affect signal range."
+			"Some items, like {tech-misc/chipfinder/s>_brown}, commsets, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and {tech-misc/signal jammer/s} can also affect signal range."
 		]
 	},
 	"emergency_beacon": {
@@ -1066,13 +1066,13 @@
 			"### Construction",
 			"",
 			"**Craft DC** 25; **Cost** 450 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"An emergency beacon is a small, pod-shaped device that emits a bright red flash from a dome on its top once every 6 seconds when activated. The beacon also transmits its location. Any device capable of receiving signals of any sort can pick up a beacon's signal, which can then be tracked back to the source with a successful DC 15 Knowledge (engineering) or Survival check. A beacon's transmissions have a range of 100 miles over flat terrain, but this range is halved in forests or hills, and quartered in mountainous terrain or through water.",
 			"",
 			"### On Signals",
 			"",
-			"Some items, like chipfinders, commsets, and detonators, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. Force fields do not block signals at all. Signal boosters and signal jammers can also affect signal range."
+			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and {tech-misc/signal jammer/s} can also affect signal range."
 		]
 	},
 	"emergency_raft": {
@@ -1089,7 +1089,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 24; **Cost** 1,800 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"An emergency raft initially looks like a bright red plastic cylinder, 6 inches wide and 2 feet long. When activated, it rapidly inflates into a tough little boat that measures 10 feet long, 4 feet wide, and 2 feet deep. It can hold four Medium creatures. The raft comes with two pairs of collapsible, dense plastic oars to row with. The raft can be commanded to compact back into its portable shape at a touch of a button, as long as no foreign objects or creatures remain inside. An emergency raft only consumes charges when commanded to unfold or compact."
 		]
@@ -1108,7 +1108,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 27; **Cost** 9,000 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"An emergency shelter is a small, 2-foot-long egg-shaped device that can be activated with the touch of a button (a standard action). Once activated, the shelter rapidly unfolds and inflates into a 10-foot-radius hut capable of providing shelter for up to six Medium creatures. This process takes 1 minute to complete. The shelter includes pneumatic spike anchors that can attach it to any ground cover of hardness 8 or less. Several windows allow those inside to see outside. The interior contains several fluorescent lights. The shelter can withstand winds of up to 120 mph, and provides excellent insulation for those inside, maintaining a temperature between 50 and 80 degrees Fahrenheit. A small combination heater/air scrubber set on the floor near the entrance to the shelter controls the temperature and purifies any noxious external air into breathable air. The hut has fire resistance 20, cold resistance 20, and acid resistance 10. The dense plastic walls have hardness 8 and 10 hit points. The hut cannot float on water. The door is self-sealing, allowing anyone inside an emergency shelter to live in inhospitable conditions with ease for as long as the power holds out. As long as no foreign objects or creatures remain inside an emergency shelter, it can be commanded at the touch of a button to compact back down into its portable shape over the course of 1 minute. After this point, the device consumes 1 charge over the course of 8 hours resetting its internal structure, limiting its deployment to 3 times a day at most."
 		]
@@ -1127,7 +1127,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 26; **Cost** 3,000 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"This cylindrical device has a nozzle at one end and a handle on one side. When activated as a standard action, a fire extinguisher creates a 15-foot cone of misty vapor that swiftly extinguishes fires within its area of effect. Against magical fire effects, such as those created by a wall of fire or similar spell, the fire extinguisher only extinguishes the part of the larger effect its vapors directly contact. Continual magic flames, such as those of a flaming weapon or fire creature, are suppressed for 6 rounds before they automatically reignite. To extinguish an instantaneous fire effect or spell, the wielder must use a readied action with the fire extinguisher to counter the effect; this can cancel the entire effect, provided the source of the effect is in the extinguisher's area of effect.",
 			"",
@@ -1148,7 +1148,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 16; **Cost** 15 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"When activated, a flashlight creates a beam of normal light in a 60-foot cone. It also increases the light level in the area beyond this initial cone by one step, out to a 120-foot cone. It does not increase the light level in normal light or bright light. A flashlight has no effect in areas of magical darkness."
 		]
@@ -1168,13 +1168,13 @@
 			"",
 			"**Craft DC** 28 (black), DC 33 (blue), DC 27 (brown), DC 30 (gray), DC 31 (green), DC 34 (orange), DC 35 (prismatic), DC 32 (red), DC 29 (white)  ",
 			"**Cost** 10,000 gp (black), 60,000 gp (blue), 2,000 gp (brown), 30,000 gp (gray), 40,000 gp (green), 70,000 gp (orange), 110,000 gp (prismatic), 50,000 gp (red), 20,000 gp (white)  ",
-			"Craft Technological Item, graviton lab",
+			"{feat/Craft Technological Item}, {rule/crafting<graviton| lab>oratories}",
 			"",
 			"Force fields are powered by a surprisingly light pair of slender, silvery bracelets. When activated as a standard action, dozens of tiny biofeedback needles pierce the wearer's arms to interface with the nervous system; this process is somewhat painful and the wearer must succeed at a DC 15 Fortitude save to avoid being dazed for 1 round as the force field is activated. Once active, the device generates an invisible and intangible field of force around the target. The force field blocks solids and liquids, but not gases or light (including laser beams). The user of a force field can still breathe, but she cannot eat or drink.",
 			"",
 			"Activating a force field is a standard action that consumes 1 charge, after which point the field consumes 1 additional charge every minute it remains active. While a force field is active, the user gains a number of temporary hit points that varies depending on the force field's power. All damage dealt to the wearer of a force field is subtracted from the temporary hit points it grants first. As long as the force field is active, the wearer is immune to critical hits (but not precision-based damage, such as sneak attacks). A force field has fast healing that replenishes its temporary hit points at a fixed rate each round, but if the force field's temporary hit points are ever reduced to 0, the force field shuts down and cannot be reactivated for 24 hours. Force fields are automatically reduced to 0 hp by disintegration effects. A force field can be deactivated as a free action.",
 			"",
-			"The charge capacity, amount of temporary hit points granted, and rate of fast healing these temporary hit points have varies according to the force field's color code, as detailed below.",
+			"The charge capacity, amount of temporary hit points granted, and rate of {umr/fast healing} these temporary hit points have varies according to the force field's color code, as detailed below.",
 			"",
 			"| Color | Capacity | Temp HP | Fast Healing |",
 			"| --- | --- | --- | --- |",
@@ -1235,7 +1235,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 26; **Cost** 1,000 gp  ",
-			"Craft Technological Item, graviton lab",
+			"{feat/Craft Technological Item}, {rule/crafting<graviton| lab>oratories}",
 			"",
 			"A gravity clip is a small, disc-shaped device that can be attached to any melee weapon. Once mounted, the clip modulates the weapon's mass on the moment of impact, via the manipulation of the gravity fields around the weapon. Each successful hit against a target consumes a charge from a gravity clip and causes the damage from the hit to resolve as if the weapon were one size category larger than its actual size. This effect does not stack with similar effects, such as those granted by the spell lead blades."
 		]
@@ -1254,7 +1254,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 32; **Cost** 45,000 gp  ",
-			"Craft Technological Item, {feat/Craft Wondrous Item}, graviton lab, enervation, telekinesis",
+			"{feat/Craft Technological Item}, {feat/Craft Wondrous Item}, {rule/crafting<graviton| lab>oratories}, {spell/enervation}, {spell/telekinesis}",
 			"",
 			"**Aura** moderate necromancy and transmutation  ",
 			"This black, wandlike object creates a narrow gravitational field that affects both body and soul. It duplicates the effects of telekinesis, but only to create a sustained force (maximum 250 lbs.) toward or away from the wielder, or to perform a bull rush, drag, or steal combat maneuver (CMB +15). The grip of death can perform combat maneuvers on incorporeal undead. If the user performs a successful combat maneuver against a living creature using the grip of death, the target gains 1 negative level as a portion of its soul is wrenched from its body. A living creature killed in this way becomes a spectre. Otherwise, the negative levels fade after 10 hours."
@@ -1274,7 +1274,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 14; **Cost** 50 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"Grippers are powerful, long-handled tools that resemble a blacksmith's tongs. Once they're set, they can be locked into place to grip an object. Used when attempting to pry open a stuck object (in a manner similar to the use of a crowbar), grippers grant a +2 circumstance bonus on Strength checks. When used to attach two devices, a set of grippers holds on with an effective Strength score of 24. Applying grippers to a creature and then locking the grippers to crush flesh and bone is a standard action that provokes an attack of opportunity and also requires a successful melee attack with an improvised weapon. Once locked, the grippers deal 1d4+7 points of damage."
 		]
@@ -1294,7 +1294,7 @@
 			"",
 			"**Craft DC** 27 (black), DC 32 (blue), DC 26 (brown), DC 29 (gray), DC 30 (green), DC 33 (orange), DC 34 (prismatic), DC 31 (red), DC 28 (white)  ",
 			"**Cost** 500 gp (black), 25,000 gp (blue), 250 gp (brown), 2,000 gp (gray), 15,000 gp (green), 30,000 gp (orange), 45,000 gp (prismatic), 20,000 gp (red), 1,000 gp (white)  ",
-			"Craft Technological Item, production lab (prismatic hologram generator requires a graviton lab)",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories} (prismatic hologram generator requires a graviton lab)",
 			"",
 			"A hologram generator is a handheld device with a long, thin barrel. It manipulates photons and sound waves to produce highly realistic images and sounds, similar in nature to those generated by figment illusions.",
 			"",
@@ -1383,7 +1383,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 28; **Cost** 5,000 gp  ",
-			"Craft Technological Item, graviton lab",
+			"{feat/Craft Technological Item}, {rule/crafting<graviton| lab>oratories}",
 			"",
 			"When activated, an inertial dampening belt anchors the wearer in place, protecting her against outside forces. This effect gives the wearer a +4 bonus to her combat maneuver defense against bull rush, reposition, and trip attempts, consuming 1 charge per minute. If the wearer falls from a height of greater than 10 feet, the inertial dampening belt automatically activates just prior to impact and reduces the falling damage by half, consuming 1 charge per die of falling damage. If the belt has insufficient charges to reduce the entire amount of damage, the damage is not reduced for the excess dice. Damage from landing on hazardous objects such as spikes is not reduced."
 		]
@@ -1402,7 +1402,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 14; **Cost** 50 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"Ion tape is a ribbon of material tightly wound around a spindle. A roll of ion tape fits in the palm of a hand and comes in a wide range of colors. A single roll contains 50 feet of tape. A single strip of tape is easy to cut through or tear. When wrapped around an object, it has a weak adhesive that keeps it in place. When ion tape is exposed to an electrical charge of any power (including a jolt from a zip stick), the tape bonds together into a single mass of plastic-like material, gaining hardness 8 and 30 hit points. When used to bind a creature, a few strips of activated ion tape require a successful DC 28 Strength check to break. A second jolt from an electrical source causes the tape to revert to its weaker ribbon condition, at which point it can be torn free easily. A strip of ion tape can hold about 5 pounds of weight normally, but when activated via a jolt, a single hardened strip can support up to 300 pounds of weight. The uses for ion tape are many - it can be used to construct basic objects (such as a ladder), patch holes, bind prisoners, and so on."
 		]
@@ -1421,7 +1421,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 26; **Cost** 9,000 gp  ",
-			"Craft Technological Item, military lab",
+			"{feat/Craft Technological Item}, {rule/crafting<military| lab>oratories}",
 			"",
 			"A jetpack consists of a pair of cylindrical tanks worn on a shoulder harness with a pair of motion-sensitive rings worn on the thumbs that are used as wireless thrust and attitude controls. The jetpack can be activated as a swift action and grants a fly speed of 60 feet with poor maneuverability. If the wearer successfully hovers near ground level, she obscures visibility as though she had the {feat/Hover} feat. The exhaust isn't hot or concentrated enough to be used as a weapon.",
 			"",
@@ -1444,7 +1444,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 24; **Cost** 4,000 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"This small, cylindrical device can be attached to the barrel of any firearm. When activated, it emits a low-power laser beam that paints a small red dot on the target. This effect grants the user a +1 circumstance bonus on all attack rolls made with that weapon. Further, a laser sight reduces the penalty for firing into melee by 2."
 		]
@@ -1463,7 +1463,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 11; **Cost** 5 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"This small handheld tool creates a tiny open flame when activated. Once triggered, a lighter's flame (which gives illumination as a candle) continues to burn as long as the lighter's trigger is depressed, consuming energy at the rate of 1 charge per hour. The flame can be used to light larger items on fire, but is not large enough to cause significant damage on its own."
 		]
@@ -1482,7 +1482,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 20; **Cost** 2,500 gp  ",
-			"Craft Technological Item, graviton lab",
+			"{feat/Craft Technological Item}, {rule/crafting<graviton| lab>oratories}",
 			"",
 			"These clunky-looking boots have powerful electromagnets built into their soles that activate and deactivate automatically as the wearer flexes her foot, allowing her to walk on a metal surface with relative ease in zero gravity. They grant a +10 circumstance bonus on all Climb checks made while scaling metal surfaces."
 		]
@@ -1501,7 +1501,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 25; **Cost** 5,000 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"This handheld device has a circular screen and several swiveling, dish-shaped objects on flexible stalks that writhe about like short snakes. The device monitors and interprets motion in a 30-foot radius, but must be deployed in a sweeping motion to function - this is a move action that consumes a charge. When used, the device grants a +10 circumstance bonus on Perception checks against moving objects within 30 feet that are size Tiny or larger."
 		]
@@ -1520,7 +1520,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 32; **Cost** 20,000 gp  ",
-			"Craft Technological Item, graviton lab",
+			"{feat/Craft Technological Item}, {rule/crafting<graviton| lab>oratories}",
 			"",
 			"This silvery box holds up to 1 cubic foot of items or material. Quantum boxes always exist as a pair. When activated as a standard action, a quantum box connects to its mate, at which point they trade contents. A quantum box must be activated again to switch the contents back. Effects that prevent dimensional travel block activation of a quantum box, but items that block signals do not. This effect works only if both quantum boxes are located on the same plane."
 		]
@@ -1539,7 +1539,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 27; **Cost** 1,000 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"This device measures radiation levels in a 120-foot-radius circle, as the {spell/detect radiation} spell. When activated, the device makes a soft clicking sound that changes in volume and frequency according to the radiation level encountered. A small screen on the top of the handheld device indicates the approximate source and strength of radiation in these areas, with red areas indicating severe radiation, yellow high radiation, green medium radiation, and blue low radiation. Areas with less radiation don't register on the device's screen."
 		]
@@ -1558,7 +1558,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 29; **Cost** 15,000 gp  ",
-			"Craft Technological Item, military lab",
+			"{feat/Craft Technological Item}, {rule/crafting<military| lab>oratories}",
 			"",
 			"A robojack is a strange, rod-like device that can be used to usurp control of an otherwise functional robot. In order to gain control of a robot, the wielder must first make a ranged touch attack against a target robot within a range of 60 feet. If the attack is successful, the robot must succeed at a DC 14 Will saving throw to prevent the robojack from linking to the robot's command processor. On a subsequent turn after a link is established, the wielder can issue a command to the robot as a standard action - each attempt to do so consumes 1 charge from the robojack, and the robot gets a new DC 14 Will saving throw to resist following each command. The wielder must be within 60 feet of the robot and must issue the command in a language understood by the robot. The types of commands he can issue are similar to those allowed by a {spell/suggestion} spell - once a command is successfully issued, the robot does its best to carry out the orders over the course of the next hour. This does not drain further charges from the robojack."
 		]
@@ -1577,13 +1577,13 @@
 			"### Construction",
 			"",
 			"**Craft DC** 24; **Cost** 4,500 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"This spherical object is the size of a human head. When it's activated, several panels on its surface fold back and extend dozens of arms tipped with cup-shaped flashing lights. Once activated, a signal booster amplifies the strength of any signal-based technology effect within 600 feet, doubling the effective range of the signal. For example, a {tech-misc/commset} normally has a range of 1 mile, but in the area of effect of a signal booster, this range increases to 2 miles.",
 			"",
 			"### On Signals",
 			"",
-			"Some items, like chipfinders, commsets, and detonators, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. Force fields do not block signals at all. Signal boosters and signal jammers can also affect signal range."
+			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. Signal boosters and {tech-misc/signal jammer/s} can also affect signal range."
 		]
 	},
 	"signal_jammer": {
@@ -1600,13 +1600,13 @@
 			"### Construction",
 			"",
 			"**Craft DC** 26; **Cost** 5,000 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"This small device emits a low, hissing sound when activated. While active, a white noise generator creates a 60-foot-radius spread in which all signals are completely blocked.",
 			"",
 			"### On Signals",
 			"",
-			"Some items, like chipfinders, commsets, and detonators, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. Force fields do not block signals at all. Signal boosters and signal jammers can also affect signal range."
+			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and signal jammers can also affect signal range."
 		]
 	},
 	"tracker_chip": {
@@ -1623,7 +1623,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 26; **Cost** 250 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"A tracker chip appears to be a bit of metal the size of a small fingernail. Before a tracker chip activates, it must be implanted in a living creature just under the skin. This procedure takes 1 minute to perform. As part of the installation process, the installer attempts a Heal check, the result of which is the DC of noticing the implant. Once a chip is implanted, its ingenious bioelectric circuits are powered by nerve impulses in the implanted creature's body.",
 			"",
@@ -1644,7 +1644,7 @@
 			"### Construction",
 			"",
 			"**Craft DC** 18; **Cost** 10 gp  ",
-			"Craft Technological Item, production lab",
+			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
 			"A zipstick is a small pen-like device used to administer a small jolt of electricity. This jolt is enough to cause 1 point of nonlethal damage with a successful touch attack. A zipstick is used most often to activate or deactivate items that function on ion-bonding technology, such as {tech-misc/ion tape}."
 		]
