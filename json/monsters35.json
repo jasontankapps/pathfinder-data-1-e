@@ -171,7 +171,7 @@
 			"",
 			"**Sunlight Powerlessness (Ex)** A keeper of the Yellow Sign is powerless in natural sunlight (though not in an area of daylight or similar spells), and it cannot attack and is staggered. It can use its supernatural and spell-like abilities, but with a 50% failure chance.",
 			"",
-			"**Yellow Sign Affinity (Su)** When the keeper of the Yellow Sign stays within 1 mile of an active Yellow Sign for 24 hours, it gains a +2 profane bonus to its Armor Class and a +1 resistance bonus on all saving throws. An active Yellow Sign is either one that was created by Hastur or by the {spell/Yellow Sign} spell. If the keeper leaves this range, it loses the bonuses immediately and can regain them only after once more staying within 1 mile of an active Yellow Sign for 24 hours.",
+			"**Yellow Sign Affinity (Su)** When the keeper of the Yellow Sign stays within 1 mile of an active Yellow Sign for 24 hours, it gains a +2 profane bonus to its Armor Class and a +1 resistance bonus on all saving throws. An active Yellow Sign is either one that was created by {monster/Hastur} or by the {spell/Yellow Sign} spell. If the keeper leaves this range, it loses the bonuses immediately and can regain them only after once more staying within 1 mile of an active Yellow Sign for 24 hours.",
 			"",
 			"::sh[Description]",
 			"",

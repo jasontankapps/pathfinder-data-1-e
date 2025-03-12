@@ -3401,7 +3401,7 @@
 			"",
 			"These are some of the most common terms that arise during battle.",
 			"",
-			"- **AC:** {rule/Armor Class.} This is the target number enemies need to hit you. Your basic AC is 10 + Dex modifier + armor bonus + shield bonus + spells or magic items that grant an AC bonus.",
+			"- **AC:** This is your {rule/Armor Class,} a specific type of DC. This is the target number enemies need to hit you. Your basic AC is 10 + Dex modifier + armor bonus + shield bonus + spells or magic items that grant an AC bonus.",
 			"    - **Touch AC:** It is generally easier to hit someone when you merely need to touch them. Your touch AC is the same as your regular AC, minus your armor bonus, shield bonus, and any natural armor bonus you may have.",
 			"    - **Flat-Footed AC:** If you haven't yet acted in combat, you are considered \"flat-footed\" and are easier to hit. Your Flat-footed AC is the same as your regular AC, minus any Dexterity *bonus* you may have, and any dodge bonuses you may have.",
 			"    - Your AC may temporarily improve if you have {rule/Cover} in between you and your attacker, and {rule/Concealment} can also help you evade an attack.",

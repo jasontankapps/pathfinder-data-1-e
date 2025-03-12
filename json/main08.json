@@ -2481,7 +2481,7 @@
 					[ "{spell/Water Shield}", "evocation", null, "acid, water", "Surround yourself with a protective spout of acid.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Wave Form}", "transmutation", null, "water", "Briefly turn into a huge wave that knocks down everything in your path", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Wrathful Weapon}", "transmutation", null, "see text", "Enhance a weapon with the anarchic, axiomatic, holy, or unholy special ability.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ]
-				]				
+				]
 			}
 		]
 	},
@@ -3026,7 +3026,7 @@
 					[ "{spell/Winds of Vengeance}", 9, "evocation", null, "air", "Gives you the ability to fly and attack with wind.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Wooden Phalanx}", 9, "conjuration", "creation", null, "Creates 1d4+2 temporary wood golems to fight for you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Yellow Sign}", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ]
-				]				
+				]
 			}
 		]
 	}

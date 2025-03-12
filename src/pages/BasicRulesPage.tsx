@@ -2,8 +2,8 @@ import { FC, ReactElement, useMemo } from 'react';
 import { IonRippleEffect } from '@ionic/react';
 import { SourceProp } from '../components/SourcesModal';
 import Link from '../components/Link';
+import getPageName from '../components/getPageName';
 import data from '../json/_data_rule.json';
-import names from '../json/_data__all_links.json';
 import { Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 import './BasicRulesPage.css';
@@ -23,6 +23,7 @@ interface BasicRulesProps {
 	siblings?: Name[]
 	className?: string
 	id: Name | "not_found"
+	noFinder?: boolean
 }
 
 type HierarchyArray = Hierarchy[];
@@ -39,7 +40,7 @@ const HierarchyRulesInset: FC<HierarchyProps> = ({extraHierarchy}) => {
 };
 
 const getName = (input: string) => {
-	return names[("rule/" + input) as keyof typeof names];
+	return getPageName("/rule/" + input);
 };
 
 const BasicRulesPage: FC<BasicRulesProps> = ({
@@ -51,7 +52,8 @@ const BasicRulesPage: FC<BasicRulesProps> = ({
 	className: cn,
 	id,
 	parent_topics,
-	siblings
+	siblings,
+	noFinder
 }) => {
 
 	const [previous, next]: (string[] | null)[] = useMemo(() => {
@@ -89,7 +91,7 @@ const BasicRulesPage: FC<BasicRulesProps> = ({
 	}, [parent_topics]);
 
 	return (
-		<BasicPage title={title} sources={sources} pageId={`/rule/${id}`} hasJL={hasJL}>
+		<BasicPage title={title} sources={sources} pageId={`/rule/${id}`} hasJL={hasJL} noFinder={noFinder}>
 			<HierarchyRulesInset extraHierarchy={h} />
 			<div className={cn ? cn + " highlight" : "highlight"}>
 				<h2>{title}</h2>

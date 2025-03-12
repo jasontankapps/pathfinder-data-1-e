@@ -28,7 +28,7 @@ const BookmarksPage: React.FC = () => {
 			<IonIcon slot="icon-only" icon={save} />
 		</IonButton>
 	), [navigate, dispatch]);
-	
+
 	const allBookmarks = useMemo(() => {
 		return order.map(c => {
 			const {title, hidden} = colors[c];

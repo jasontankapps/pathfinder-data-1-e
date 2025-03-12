@@ -188,7 +188,7 @@ export const bookmarkSlice = createSlice({
 				newState[color] = {
 					...etc,
 					contents: [...pre, ...mid, ids[from], ...end]
-				};	
+				};
 			}
 			return newState;
 		},

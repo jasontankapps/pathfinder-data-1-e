@@ -1,14 +1,8 @@
-import fuseIndex from '../json/_data__fuse-index.json';
 import index from '../json/_data__all_links.json';
 
-interface NameObject {
-	name: string
-}
 interface LinkTitleObject {
 	[key: string]: string
 }
-function isData(value: unknown): asserts value is NameObject[] {}
-isData(fuseIndex);
 function isBoolean(value: unknown): asserts value is LinkTitleObject {}
 isBoolean(index);
 
@@ -60,10 +54,6 @@ export const doesPageExist = (id: string): boolean => {
 const getPageName = (id: string): string => {
 	// Remove initial slash ("/main" => "main")
 	const link = id.slice(1);
-	const maybe = switchback(link);
-	if(maybe) {
-		return maybe;
-	}
 	return switchback(link) || index[(link as keyof typeof index)] || `[Error: ${id} not found]`;
 };
 
