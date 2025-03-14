@@ -263,7 +263,7 @@
 				"initialColumn": 0
 			}
 		],
-		"backwardsLink": [ "Druid", "class/druid" ]
+		"topLink": [ "Druid", "class/druid" ]
 	},
 	"druid_domains": {
 		"name": "Druid Domains",
@@ -306,7 +306,7 @@
 			"- {druiddomain/Vulture}",
 			"- {druiddomain/Wolf}"
 		],
-		"backwardsLink": [ "Druid", "class/druid" ]
+		"topLink": [ "Druid", "class/druid" ]
 	},
 	"elements": {
 		"name": "Kineticist Elements",
@@ -547,7 +547,7 @@
 			"",
 			"**9th** - {kinetic/Forest Siege}"
 		],
-		"backwardsLink": [ "Kineticist", "class/kineticist" ]
+		"topLink": [ "Kineticist", "class/kineticist" ]
 	},
 	"emotional_focus": {
 		"name": "Phantom Emotional Focus",
@@ -793,7 +793,7 @@
 			"",
 			"The summoner must be at least 11th level before selecting this evolution. This evolution can be selected more than once. Each time an eidolon selects this evolution, it applies to a new spell from the above list."
 		],
-		"backwardsLink": [ "Summoner", "class/summoner" ]
+		"topLink": [ "Summoner", "class/summoner" ]
 	},
 	"unchained_evolutions": {
 		"name": "Unchained Eidolon Evolutions",
@@ -956,7 +956,7 @@
 			"",
 			"**Superior Psychic Magic ({source/Horror Realms/ pg. 19}):** The eidolon has 7 points of psychic magic to spend each day. Select one spell from the following list: confusion, deeper darkness, displacement, jester's jaunt, id insinuation IIOA, or mind thrust IIIOA. The eidolon can cast that spell as a psychic spell by spending 3 points of psychic energy. The caster level and save DC are the same as for basic psychic magic. This evolution can be selected more than once, selecting a different spell each time. The eidolon's amount of psychic energy available to spend each day does not stack; it uses only the highest number of points granted by its most powerful psychic magic evolution. *Requirements:* Aberrant subtype; advanced psychic magic evolution; summoner level 11th; Charisma 13."
 		],
-		"backwardsLink": [ "Unchained Summoner", "class/unchained_summoner" ]
+		"topLink": [ "Unchained Summoner", "class/unchained_summoner" ]
 	},
 	"exploits": {
 		"name": "Arcanist Exploits",
@@ -1021,7 +1021,7 @@
 			"| [Wild Stride (Su)](/exploit/wild_stride) | Ignore impediments to movement and vision in natural growth. |",
 			"| [Wooden Flesh (Su)](/exploit/wooden_flesh) | Gain the toughness of plant life. |"
 		],
-		"backwardsLink": [ "Arcanist", "class/arcanist" ]
+		"topLink": [ "Arcanist", "class/arcanist" ]
 	},
 	"exploits_of_the_outer_rifts": {
 		"name": "Exploits of the Outer Rifts",
@@ -1067,7 +1067,7 @@
 			"",
 			"As a swift action, the arcanist can spend 2 points from his arcane pool to sprout a pair of rubbery tentacles that grow from his upper chest. At the same time, his arms shrink into sickly, malformed stubs, capable of only rudimentary actions such as lifting small objects or making somatic gestures. Rings, bracers, and other items worn on the atrophied arms and hands remain in place, but magic items that require hands to activate cannot be used while the arcanist's arms are in this state. Likewise, the use of weapons or shields is impossible during this time. The arcanist has full control over his hideous tentacles and can use them to deliver touch spells, or as secondary natural weapons that deal tentacle damage as appropriate for a creature of the arcanist's size (1d4 for Medium arcanists, or 1d3 for Small ones) modified by 1/2 the arcanist's Strength score. The arcanist's reach with these tentacles is 5 feet longer than his normal reach."
 		],
-		"backwardsLink": [ "Arcanist", "class/arcanist" ]
+		"topLink": [ "Arcanist", "class/arcanist" ]
 	},
 	"familiars": {
 		"name": "Familiars",
@@ -1220,7 +1220,7 @@
 			"| [Wallaby](/monster/familiar_wallaby) | Master gains a +3 bonus on Acrobatics checks |",
 			"| [Weasel](/monster/familiar_weasel) | Master gains a +2 bonus on Reflex saves |"
 		],
-		"backwardsLink": [ "Wizard", "class/wizard" ]
+		"topLink": [ "Wizard", "class/wizard" ]
 	},
 	"familiar": { "copyof": "familiars" },
 	"grand_discoveries": {
@@ -1250,7 +1250,7 @@
 			"",
 			"**True Mutagen** (*{source/Advanced Player's Guide}*): The alchemist's mutagen now grants a +8 natural armor bonus and a +8 alchemical bonus to Strength, Dexterity, and Constitution. The alchemist takes a -2 penalty to his Intelligence, Wisdom, and Charisma as long as the mutagen persists. An alchemist must possess the grand mutagen discovery before selecting this discovery."
 		],
-		"backwardsLink": [ "Alchemist", "class/alchemist" ]
+		"topLink": [ "Alchemist", "class/alchemist" ]
 	},
 	"grand_hexes": {
 		"name": "Grand Hexes",
@@ -1296,7 +1296,7 @@
 			"",
 			"**Witch's Hut (Su):** The witch can animate a hut, small house, covered wagon, tent, or similar construction as an animated object. The hut can be of up to Huge size (approximately 15 feet by 15 feet). The animated hut's hardness increases to 8 and its hit points double. The witch can give the hut the following commands: guard (the hut watches for trespassers within 120 feet using the witch's Perception modifier and screams if it spots any), hide (all entrances are hidden by illusory wall spells and locked with arcane lock), and move (moves at speed 60 on giant bird or bone legs as directed by the witch, even obeying commands such as \"follow me from 100 feet away\"). The hut remains animate for 24 hours, until she dismisses it or she animates another, at which time the hut stops where it is and reverts to its nonmagical state."
 		],
-		"backwardsLink": [ "Witch", "class/witch" ]
+		"topLink": [ "Witch", "class/witch" ]
 	},
 	"greater_exploits": {
 		"name": "Greater Exploits",
@@ -1338,7 +1338,7 @@
 			"| [Spell Thief (Su)](/greaterexploit/spell_thief) | Redirect a spell away from a target and onto you. |",
 			"| [Suffering Knowledge (Su)](/greaterexploit/suffering_knowledge) | Temporarily acquire a spell you failed a save against. |"
 		],
-		"backwardsLink": [ "Arcanist", "class/arcanist" ]
+		"topLink": [ "Arcanist", "class/arcanist" ]
 	},
 	"gunslinger_deeds": {
 		"name": "Deeds",
@@ -1407,7 +1407,7 @@
 			"",
 			"**Stunning Shot (Ex):** At 19th level, when a gunslinger hits a creature, she can spend 2 grit points to stun the creature for 1 round. The creature must make a Fortitude saving throw (the DC = 10 + 1/2 the gunslinger's level + the gunslinger's Wisdom modifier). If the creature fails, it is stunned for 1 round. Creatures that are immune to critical hits are also immune to this effect."
 		],
-		"backwardsLink": [ "Gunslinger", "class/gunslinger" ]
+		"topLink": [ "Gunslinger", "class/gunslinger" ]
 	},
 	"gunslinger_renowned_deeds": {
 		"name": "Renowned Deeds",
@@ -1431,7 +1431,7 @@
 			"",
 			"**Lethal Patience (Ex):** While wild flurries of bullets are certainly effective at felling foes, veteran gunslingers appreciate the value of lining up the perfect shot. At 15th level, the gunslinger can spend 1 grit point to line up a shot against a target as a full-round action. On her next turn, she can make an attack against the target as a standard action, and if the attack hits, the attack is treated as a critical threat. This deed replaces the *slinger's luck* deed and one other 15th-level deed."
 		],
-		"backwardsLink": [ "Gunslinger", "class/gunslinger" ]
+		"topLink": [ "Gunslinger", "class/gunslinger" ]
 	},
 	"hellknight_disciplines": {
 		"name": "Hellknight Disciplines",
@@ -1492,7 +1492,7 @@
 			"",
 			"**Wrack (Su; any order):** The Hellknight may make a touch attack as a standard action to cause a creature to suffer incredible pain. The creature touched takes 1d6 points of damage + the Hellknight's Charisma modifier, and must make a Will save to avoid being staggered for 1d4 rounds."
 		],
-		"backwardsLink": [ "Hellknight", "prestigeclass/hellknight" ]
+		"topLink": [ "Hellknight", "prestigeclass/hellknight" ]
 	},
 	"hellknight_orders": {
 		"name": "Hellknight Orders",
@@ -1523,7 +1523,7 @@
 			"| [Order of the Torrent (Minor Order)](/hellknightorder/order_of_the_torrent_minor_order) | A good order of Hellknights that focus their efforts on rescuing hostages and kidnapping victims. |",
 			"| [Order of the Wall (Minor Order)](/hellknightorder/order_of_the_wall_minor_order) | These hellknights serve as guardians and watchmen against the forces that would intrude on the borders of civilization |"
 		],
-		"backwardsLink": [ "Hellknight", "prestigeclass/hellknight" ]
+		"topLink": [ "Hellknight", "prestigeclass/hellknight" ]
 	},
 	"hexes": {
 		"name": "Hexes",
@@ -1676,7 +1676,7 @@
 			"",
 			"**Witch's Bottle (Su):** Once per day, the witch can perform a 10-minute ritual to create a potion imbued with the power of one of her hexes. Any creature that consumes this potion is affected by the hex as if cast by its creator. The witch can't use that hex until the potion is consumed or rendered inert. Only hexes that can target a creature other than the witch can be distilled in this way. The potion remains potent until consumed or rendered inert by the witch as a free action. A witch must have the cauldron hexcauldron to select this hex."
 		],
-		"backwardsLink": [ "Witch", "class/witch" ]
+		"topLink": [ "Witch", "class/witch" ]
 	},
 	"hidden_strike_talents": {
 		"name": "Hidden Strike Talents",
@@ -1698,7 +1698,7 @@
 			"",
 			"**Throat Jab (Ex):** The vigilante's hidden strike jabs his opponent in the throat, preventing that opponent from speaking until the vigilante's next turn. (If the vigilante uses this ability on the surprise round, it lasts until the end of his first full turn after the surprise round.) This prevents the target from calling out for help, using spells with verbal components, or doing anything else that requires speaking. The target cannot be affected by that vigilante's throat jab again for 24 hours. Only a stalker vigilante of at least 4th level can select this talent."
 		],
-		"backwardsLink": [ "Vigilante", "class/vigilante" ]
+		"topLink": [ "Vigilante", "class/vigilante" ]
 	},
 	"implements": {
 		"name": "Implements",
@@ -1742,7 +1742,7 @@
 			"| [Saint's Holy Regalia (Panoply)](/implement/saints_holy_regalia_panoply) | No | This panoply is associated with devoted members of a good-aligned faith and the power of belief. |",
 			"| [Trappings of the Warrior (Panoply)](/implement/trappings_of_the_warrior_panoply) | No | This panoply is associated with brave and stalwart warriors, martial skill, and the defense of one's allies. |"
 		],
-		"backwardsLink": [ "Occultist", "class/occultist" ]
+		"topLink": [ "Occultist", "class/occultist" ]
 	},
 	"improved_familiars": {
 		"name": "Improved Familiars",
@@ -1884,7 +1884,7 @@
 			"[^P]: The pyrausta's heart spark glows slightly less brightly, but more steadily. This removes its fast healing ability and heart of flame special abilities.",
 			"[^E]: The spellcaster's alignment **must** match this, instead of being within one step of the familiar's alignment."
 		],
-		"backwardsLink": [ "Wizard", "class/wizard" ]
+		"topLink": [ "Wizard", "class/wizard" ]
 	},
 	"infusion_wild_talents": {
 		"name": "Infusions",
@@ -2001,6 +2001,6 @@
 				"initialColumn": 1
 			}
 		],
-		"backwardsLink": [ "Kineticist", "class/kineticist" ]
+		"topLink": [ "Kineticist", "class/kineticist" ]
 	}
 }

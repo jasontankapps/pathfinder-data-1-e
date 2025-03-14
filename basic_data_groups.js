@@ -351,6 +351,7 @@ import trait3 from './json/traits3.json' with {type: 'json'};
 import trait4 from './json/traits4.json' with {type: 'json'};
 import trait5 from './json/traits5.json' with {type: 'json'};
 
+// The property names are descriptive and should only be used for error messages and the like.
 const basic_data_groups = {
 	"skills": {
 		data: skill,

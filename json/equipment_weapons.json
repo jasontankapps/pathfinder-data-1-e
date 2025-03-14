@@ -26,7 +26,7 @@
 			"**Recipe** (10 brimstone + 8 salt + 1 saltpeter)/distilation; Craft 15  ",
 			"**Time** 1 day; **Tools** retort; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"acid_neutralizer": {
 		"name": "Acid neutralizer",
@@ -44,7 +44,7 @@
 			"**Recipe** (20 brimstone + 10 salt + 5 urea)/calcination; Craft 15  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"alchemical_coal_blinding_cinders": {
 		"name": "Alchemical coal (blinding cinders)",
@@ -65,7 +65,7 @@
 			"Blinding cinders: Craft (Alchemy) DC 25  ",
 			"Choking smoke: Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"alchemical_coal_choking_smoke": {
 		"name": "Alchemical coal (choking smoke)",
@@ -91,7 +91,7 @@
 			"**Recipe** (12 magnesium + 22 spirit of wine)/congelation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"alkali_flask": {
 		"name": "Alkali flask",
@@ -112,7 +112,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_bleeding": {
 		"name": "Arrow (bleeding)",
@@ -133,7 +133,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_durable": {
 		"name": "Arrow (durable)",
@@ -154,7 +154,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_dye": {
 		"name": "Arrow (dye)",
@@ -175,7 +175,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_lodestone": {
 		"name": "Arrow (lodestone)",
@@ -196,7 +196,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_pheromone": {
 		"name": "Arrow (pheromone)",
@@ -217,7 +217,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_raining": {
 		"name": "Arrow (raining)",
@@ -240,7 +240,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_slow_burn": {
 		"name": "Arrow (slow burn)",
@@ -261,7 +261,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_splintercloud": {
 		"name": "Arrow (splintercloud)",
@@ -282,7 +282,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_tangleshot": {
 		"name": "Arrow (tangleshot)",
@@ -303,7 +303,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_trip": {
 		"name": "Arrow (trip)",
@@ -324,7 +324,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"artokuss_fire": {
 		"name": "Artokus's fire",
@@ -342,7 +342,7 @@
 			"**Recipe** (20 magnesium + 25 saltpeter + 30 spirit of wine)/congelation; Craft 30  ",
 			"**Time** 1 hour; **Tools** alchemist's lab; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"blanch_bomb_adamantine": {
 		"name": "Blanch bomb (adamantine)",
@@ -360,7 +360,7 @@
 			"**Recipe** (50 cold iron + 75 magnesium + 50 saltpeter)/congelation; Craft 30  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"blanch_bomb_cold_iron": {
 		"name": "Blanch bomb (cold iron)",
@@ -378,7 +378,7 @@
 			"**Recipe** (100 cold iron + 50 phosphorus + 20 saltpeter)/congelation; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"blanch_bomb_silver": {
 		"name": "Blanch bomb (silver)",
@@ -396,7 +396,7 @@
 			"**Recipe** (40 quicksilver + 15 saltpeter + 25 silver)/congelation; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"bloating_solution": {
 		"name": "Bloating solution",
@@ -412,7 +412,7 @@
 			"**Recipe** (15 phosphorus + 30 salt + 20 urea)/distillation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** retort; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"bolt_acid": {
 		"name": "Bolt, acid",
@@ -434,7 +434,7 @@
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"acid_bolt": { "copyof": "bolt_acid" },
 	"bolt_alchemical_fire": {
@@ -454,7 +454,7 @@
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"alchemical_fire_bolt": { "copyof": "bolt_alchemical_fire" },
 	"bolt_liquid_ice": {
@@ -474,7 +474,7 @@
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"liquid_ice_bolt": { "copyof": "bolt_liquid_ice" },
 	"bolt_poison": {
@@ -494,7 +494,7 @@
 			"",
 			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"poison_bolt": { "copyof": "bolt_poison" },
 	"bone_burn": {
@@ -512,7 +512,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"bottled_lightning": {
 		"name": "Bottled lightning",
@@ -529,7 +529,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"brewed_reek": {
 		"name": "Brewed reek",
@@ -546,7 +546,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"burst_jar": {
 		"name": "Burst jar",
@@ -563,7 +563,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"chroma_grenade": {
 		"name": "Chroma grenade",
@@ -580,7 +580,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"congealer_spray": {
 		"name": "Congealer spray",
@@ -596,7 +596,7 @@
 			"**Recipe** (4 realgar + 5 salt + 5 urea)/distillation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** retort; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"consecrated_salts": {
 		"name": "Consecrated Salts",
@@ -613,7 +613,7 @@
 			"",
 			"Craft (Alchemy) DC 30"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"corrosenze": {
 		"name": "Corrosenze",
@@ -630,7 +630,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"cytillesh_stun_vial": {
 		"name": "Cytillesh stun vial",
@@ -647,7 +647,7 @@
 			"",
 			"Craft (Alchemy) DC 30"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"darkflare": {
 		"name": "Darkflare",
@@ -667,7 +667,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"deadground_dust": {
 		"name": "Deadground dust",
@@ -684,7 +684,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"desiccating_lubricant": {
 		"name": "Desiccating lubricant",
@@ -700,7 +700,7 @@
 			"**Recipe** (25 cold iron + 10 salt + 10 urea)/congelation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"dung_grenade": {
 		"name": "Dung grenade",
@@ -717,7 +717,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"dust_knuckles": {
 		"name": "Dust knuckles",
@@ -739,7 +739,7 @@
 			"",
 			"**Note:** Stats are extrapolation from the original quantity of 4."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"dust_knuckles_diamond_dust_vial": {
 		"name": "Dust knuckles (diamond dust vial)",
@@ -764,7 +764,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"elemental_brine": {
 		"name": "Elemental brine",
@@ -783,7 +783,7 @@
 			"",
 			"Finally, elemental brine can be used as a splash weapon with a range increment of 10 feet. While it has little effect on most creatures (other than soaking them in salty water) when used in this way, a bottle of elemental brine is quite lethal if it's flung at a creature with the fire subtype. On a direct hit, a creature with the fire subtype takes 2d6 points of damage, and creatures with the fire subtype in adjacent squares take 1d4 points of damage. In addition, a direct hit against a creature with the fire subtype creates a unique interplay between elemental brine's salt and water and the creature's flames, making the target more conductive and thus more susceptible to electrocution. Anytime the target would take electricity damage within the next minute, it must succeed at a DC 20 Reflex save or take 1-1/2 times as much electricity damage as normal."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"elemental_flux_flask": {
 		"name": "Elemental flux (flask)",
@@ -800,7 +800,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"fiery_boulder": {
 		"name": "Fiery boulder",
@@ -827,7 +827,7 @@
 			"",
 			"Craft (Alchemy) DC 30"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_banshee_ballerina": {
 		"name": "Firework (banshee ballerina)",
@@ -844,7 +844,7 @@
 			"",
 			"Craft (Alchemy) DC 30"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_coughing_dragon": {
 		"name": "Firework (coughing dragon)",
@@ -861,7 +861,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_dancing_peonies": {
 		"name": "Firework (dancing peonies)",
@@ -877,7 +877,7 @@
 			"**Recipe** (3 black powder + 20 magnesium + 3 saltpeter)/calcination; Craft 18  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_fire_wheel": {
 		"name": "Firework (fire wheel)",
@@ -894,7 +894,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_firecracker": {
 		"name": "Firework (firecracker)",
@@ -910,7 +910,7 @@
 			"**Recipe** (1 black powder + 1 saltpeter)/calcination; Craft 20  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_firecracker_spirit": {
 		"name": "Firework (firecracker, spirit)",
@@ -926,7 +926,7 @@
 			"**Recipe** (1 black powder + 6 brimstone + 4 saltpeter + 10 silver)/calcination; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"spirit_firework_firecracker": { "copyof": "firework_firecracker_spirit" },
 	"firework_flame_fountain": {
@@ -946,7 +946,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_flashing_fiend": {
 		"name": "Firework (flashing fiend)",
@@ -963,7 +963,7 @@
 			"",
 			"Craft (Alchemy) DC 30"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_holy_fountain": {
 		"name": "Firework (holy fountain)",
@@ -982,7 +982,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_jumping_jenny": {
 		"name": "Firework (jumping jenny)",
@@ -998,7 +998,7 @@
 			"**Recipe** (1 black powder + 5 magnesium + 1 saltpeter)/calcination; Craft 16  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_paper_candle": {
 		"name": "Firework (paper candle)",
@@ -1018,7 +1018,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_signal_rocket": {
 		"name": "Firework (signal rocket)",
@@ -1035,7 +1035,7 @@
 			"",
 			"Craft (Alchemy) DC 15"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_skydragon": {
 		"name": "Firework (skydragon)",
@@ -1051,7 +1051,7 @@
 			"**Recipe** (30 black powder + 30 magnesium + 40 phosphorus)/calcination; Craft 30  ",
 			"**Time** 1 day; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_skyrocket": {
 		"name": "Firework (skyrocket)",
@@ -1071,7 +1071,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_sparking_pinwheel": {
 		"name": "Firework (sparking pinwheel)",
@@ -1087,7 +1087,7 @@
 			"**Recipe** (5 black powder + 15 magnesium + 30 phosphorus)/calcination; Craft 25  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_star_candle": {
 		"name": "Firework (star candle)",
@@ -1109,7 +1109,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"firework_starfountain": {
 		"name": "Firework (starfountain)",
@@ -1129,7 +1129,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"flash_powder": {
 		"name": "Flash powder",
@@ -1150,7 +1150,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"fuse_grenade": {
 		"name": "Fuse grenade",
@@ -1170,7 +1170,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"ghast_retch_flask": {
 		"name": "Ghast retch flask",
@@ -1187,7 +1187,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"hellfire_sparkler": {
 		"name": "Hellfire sparkler",
@@ -1204,7 +1204,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"holy_water": {
 		"name": "Holy water",
@@ -1231,7 +1231,7 @@
 			"{SOURCE/PRPG Core Rulebook/263}  ",
 			"Unholy water damages good outsiders the way holy water damages undead and evil outsiders. It is made with the {spell/curse water} spell."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"unholy_water": { "copyof": "holy_water" },
 	"holy_weapon_balm": {
@@ -1249,7 +1249,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"incendiary_catalyst": {
 		"name": "Incendiary catalyst",
@@ -1266,7 +1266,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"insomnia_powder": {
 		"name": "Insomnia powder",
@@ -1285,7 +1285,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"itching_powder": {
 		"name": "Itching powder",
@@ -1305,7 +1305,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"keros_oil": {
 		"name": "Keros oil",
@@ -1325,7 +1325,7 @@
 			"",
 			"Craft (Alchemy) DC 15"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"kitumus_ire": {
 		"name": "Kitumu's ire",
@@ -1342,7 +1342,7 @@
 			"",
 			"Craft (Alchemy) DC 30"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"liquid_blade": {
 		"name": "Liquid blade",
@@ -1359,7 +1359,7 @@
 			"",
 			"Craft (Alchemy) DC 15"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"liquid_ice": {
 		"name": "Liquid ice",
@@ -1380,7 +1380,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"lyddric_essence": {
 		"name": "Lyddric essence",
@@ -1396,7 +1396,7 @@
 			"**Recipe** (15 brimstone + 3 cytillesh spores)/distillation; Craft 20  ",
 			"**Time** 1 day; **Tools** retort; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"mineral_acid": {
 		"name": "Mineral acid",
@@ -1413,7 +1413,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"mu_spore_secretions": {
 		"name": "Mu spore secretions",
@@ -1426,7 +1426,7 @@
 			"",
 			"These secretions are only one of the many spores and fluids that the mu spores of Orv produce, but this is one of the few that surface dwellers have learned to safely use. This clear secretion can be added to any alchemical weapon, including an alchemist's bombs, as a move action. When mixed in this way, the affected alchemical weapon ignores half the hardness of any wooden objects it strikes. Alternatively, against creatures primarily made of wood (such as treants or wood golems), such weapons ignore the first 5 points of damage reduction the creatures has."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"noxious_aromatic_flask": {
 		"name": "Noxious aromatic (flask)",
@@ -1443,7 +1443,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"noxious_pig": {
 		"name": "Noxious pig",
@@ -1470,7 +1470,7 @@
 			"",
 			"Craft (Alchemy) DC 35"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"pellet_grenade_adamantine": {
 		"name": "Pellet grenade (adamantine)",
@@ -1486,7 +1486,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"pellet_grenade_cold_iron": {
 		"name": "Pellet grenade (cold iron)",
@@ -1515,7 +1515,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"plague_powder": {
 		"name": "Plague powder",
@@ -1534,7 +1534,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"portable_hive": {
 		"name": "Portable hive",
@@ -1551,7 +1551,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"pox_burster": {
 		"name": "Pox burster",
@@ -1568,7 +1568,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"shadowcloy_flask": {
 		"name": "Shadowcloy flask",
@@ -1585,7 +1585,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"shard_gel": {
 		"name": "Shard gel",
@@ -1602,7 +1602,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"shriek_bomb": {
 		"name": "Shriek bomb",
@@ -1618,7 +1618,7 @@
 			"**Recipe** (20 magnesium + 30 myrrh + 5 saltpeter)/congelation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"silvercloud_oil": {
 		"name": "Silvercloud oil",
@@ -1635,7 +1635,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"slime_grenade": {
 		"name": "Slime grenade",
@@ -1651,7 +1651,7 @@
 			"**Recipe** (50 phosphorus + 75 quicksilver + 50 urea)/congelation; Craft 25  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"slime_slow": {
 		"name": "Slime slow",
@@ -1668,7 +1668,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"sneezing_powder": {
 		"name": "Sneezing powder",
@@ -1689,7 +1689,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"somnigrip": {
 		"name": "Somnigrip",
@@ -1706,7 +1706,7 @@
 			"",
 			"Craft (Alchemy) DC 20"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"specialty_smoke_pellet_pepper": {
 		"name": "Specialty smoke pellet (pepper)",
@@ -1726,7 +1726,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"specialty_smoke_pellet_smog": {
 		"name": "Specialty smoke pellet (smog)",
@@ -1743,7 +1743,7 @@
 			"",
 			"This pungent concoction can be thrown as a splash weapon to trigger unsustainable spore or pollen release in fungi and plants. Any plant creature in the square where the spore dehiscent lands must succeed at a DC 14 Fortitude save or immediately activate any of its effects based on spores or pollen, treating itself as the target or center of the effect. Fungal hazards like [russet mold](monster/vegepygmy) or [yellow mold](rule/slimes_molds_and_fungi) are activated automatically with no saving throw. Plant creatures or hazards in squares adjacent to the square of impact must each succeed at a DC 10 Fortitude save or suffer the same effect. Once the effect is triggered, the creature or hazard cannot activate the effect again for 1d4 rounds or until the effect could normally be used again, whichever is longer."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"stench_gas_bladder": {
 		"name": "Stench-gas bladder",
@@ -1756,7 +1756,7 @@
 			"",
 			"This thin bladder splits when it hits a target. You can throw a gas bladder as a ranged weapon with a range increment of 10 feet. Any creature struck by a gas bladder must succeed at a DC 14 Fortitude save or be sickened for 1d6 rounds."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"sting_grenade": {
 		"name": "Sting grenade",
@@ -1773,7 +1773,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"stormstone": {
 		"name": "Stormstone",
@@ -1791,7 +1791,7 @@
 			"**Recipe** (15 black powder + 85 phosphorus)/digestion; Craft 30  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"suffocating_powder": {
 		"name": "Suffocating powder",
@@ -1809,7 +1809,7 @@
 			"**Recipe** (50 brimstone + 50 phosphorus + 5 realgar)/sublimation; Craft 20  ",
 			"**Time** 1 hour; **Tools** retort; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"tangleburn_bag": {
 		"name": "Tangleburn bag",
@@ -1826,7 +1826,7 @@
 			"",
 			"Craft (Alchemy) DC 30"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"tanglefoot_bag": {
 		"name": "Tanglefoot bag",
@@ -1848,7 +1848,7 @@
 			"**Recipe** (55 myrrh + 55 urea)/congelation; Craft 25  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"tanglefoot_bundle": {
 		"name": "Tanglefoot bundle",
@@ -1865,7 +1865,7 @@
 			"",
 			"Craft (Alchemy) DC 35"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"tar_bomb": {
 		"name": "Tar bomb",
@@ -1884,7 +1884,7 @@
 			"",
 			"Craft (Alchemy) DC 15"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"thunderclap_charge": {
 		"name": "Thunderclap charge",
@@ -1901,7 +1901,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"thunderstone": {
 		"name": "Thunderstone",
@@ -1923,7 +1923,7 @@
 			"**Recipe** (7 saltpeter + 15 silver)/digestion; Craft 25  ",
 			"**Time** 1 day; **Tools** heat source; **Type** alchemical weapon"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"tress_tincture": {
 		"name": "Tress tincture",
@@ -1940,7 +1940,7 @@
 			"",
 			"Craft (Alchemy) DC 25"
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"venomblock": {
 		"name": "Venomblock",
@@ -1953,7 +1953,7 @@
 			"",
 			"This light-blue liquid is rich with antibodies and other chemicals that block poison and disease and is usually contained in a tempered glass vial. Venomblock can be applied to a weapon like a injury poison (*save* Fort DC 14; *frequency* 1/round for 6 rounds; *cure* 2 saves), but every time the affected creature fails its Fortitude save, instead of dealing damage, venomblock suppresses the target's ability to transmit one randomly selected poison or disease through its natural attacks until the end of its next turn. This is a poison effect."
 		],
-		"backwardsLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
 	"arrow_iron_tipped_distance": {
 		"name": "Arrow, iron-tipped distance",
@@ -1969,7 +1969,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"arrow": {
 		"name": "Arrow",
@@ -1988,7 +1988,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"atlatl_dart": {
 		"name": "Atlatl dart",
@@ -2002,7 +2002,7 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"bamboo_shaft_arrows": {
 		"name": "Bamboo shaft arrows",
@@ -2021,7 +2021,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"barbed_arrow": {
 		"name": "Barbed arrow",
@@ -2037,7 +2037,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"blowgun_darts": {
 		"name": "Blowgun darts",
@@ -2057,7 +2057,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"blowgun_dart": { "copyof": "blowgun_darts" },
 	"blunt_arrows": {
@@ -2077,7 +2077,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"bolas_bolts": {
 		"name": "Bolas bolts",
@@ -2095,7 +2095,7 @@
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"bolts_heartstake": {
 		"name": "Bolts, heartstake",
@@ -2111,7 +2111,7 @@
 			"**Cost** 20 gp **Weight** 0.6 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"bullets_groaning": {
 		"name": "Bullets, groaning",
@@ -2127,7 +2127,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"crossbow_bolts": {
 		"name": "Crossbow bolts",
@@ -2146,7 +2146,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"bolt": { "copyof": "crossbow_bolts" },
 	"featherweight_dart": {
@@ -2161,7 +2161,7 @@
 			"**Cost** 0.1 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"flight_arrows": {
 		"name": "Flight arrows",
@@ -2180,7 +2180,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"halfling_little_starstones": {
 		"name": "Halfling little starstones",
@@ -2196,7 +2196,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"halfling_sharpstones": {
 		"name": "Halfling sharpstones",
@@ -2212,7 +2212,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"halfling_softstones": {
 		"name": "Halfling softstones",
@@ -2228,7 +2228,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"halfling_spongestones": {
 		"name": "Halfling spongestones",
@@ -2244,7 +2244,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"incendiary_arrow": {
 		"name": "Incendiary arrow",
@@ -2260,7 +2260,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"kestros_dart": {
 		"name": "Kestros dart",
@@ -2276,7 +2276,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"pronged_arrow": {
 		"name": "Pronged arrow",
@@ -2292,7 +2292,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"repeating_crossbow_bolts": {
 		"name": "Repeating crossbow bolts",
@@ -2311,7 +2311,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 5."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"sling_bullets": {
 		"name": "Sling bullets",
@@ -2330,7 +2330,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"sling_bullet": { "copyof": "sling_bullets" },
 	"smoke_arrow": {
@@ -2350,7 +2350,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"thistle_arrow": {
 		"name": "Thistle arrow",
@@ -2369,7 +2369,7 @@
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"throwing_arrow": {
 		"name": "Throwing arrow",
@@ -2383,7 +2383,7 @@
 			"**Cost** 0.5 gp **Weight** 0.5 lb.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"whistling_arrows": {
 		"name": "Whistling arrows",
@@ -2403,7 +2403,7 @@
 			"",
 			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"battle_aspergillum": {
 		"name": "Battle aspergillum",
@@ -2422,7 +2422,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Hammers"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"brass_knife": {
 		"name": "Brass knife",
@@ -2439,7 +2439,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** fragile  ",
 			"**Category** Light; **Proficiency** Simple"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"brass_knuckles": {
 		"name": "Brass knuckles",
@@ -2459,7 +2459,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"cestus": {
 		"name": "Cestus",
@@ -2479,7 +2479,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"dagger": {
 		"name": "Dagger",
@@ -2498,7 +2498,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Thrown; Tribal"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"gauntlet": {
 		"name": "Gauntlet",
@@ -2517,7 +2517,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"hanbo": {
 		"name": "Hanbo",
@@ -2533,7 +2533,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"handwraps": {
 		"name": "Handwraps",
@@ -2548,7 +2548,7 @@
 			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
 			"**Category** Light; **Proficiency** Simple"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"hook_hand": {
 		"name": "Hook hand",
@@ -2567,7 +2567,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm  ",
 			"**Category** Light; **Proficiency** Simple"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"kunai": {
 		"name": "Kunai",
@@ -2582,7 +2582,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B or P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"light_mace": {
 		"name": "Light mace",
@@ -2601,7 +2601,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Hammers"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"punching_dagger": {
 		"name": "Punching dagger",
@@ -2620,7 +2620,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"katar": {
 		"name": "Katar",
@@ -2638,7 +2638,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"sickle": {
 		"name": "Sickle",
@@ -2657,7 +2657,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"spider_leg_sickle": {
 		"name": "Spider-leg sickle",
@@ -2672,7 +2672,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** trip  ",
 			"**Category** Light; **Proficiency** Simple"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"spiked_gauntlet": {
 		"name": "Spiked gauntlet",
@@ -2691,7 +2691,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"spring_blade": {
 		"name": "Spring blade",
@@ -2706,7 +2706,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"traveling_kettle": {
 		"name": "Traveling kettle",
@@ -2722,7 +2722,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"wooden_stake": {
 		"name": "Wooden stake",
@@ -2743,7 +2743,7 @@
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"baston_fighting_stick": {
 		"name": "Baston fighting stick",
@@ -2758,7 +2758,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
 			"**Category** One-Handed; **Proficiency** Simple"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"club": {
 		"name": "Club",
@@ -2777,7 +2777,7 @@
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Hammers; Thrown; Tribal"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"heavy_mace": {
 		"name": "Heavy mace",
@@ -2796,7 +2796,7 @@
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Hammers"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"mere_club": {
 		"name": "Mere club",
@@ -2815,7 +2815,7 @@
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close; Hammers"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"morningstar": {
 		"name": "Morningstar",
@@ -2834,7 +2834,7 @@
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"shortspear": {
 		"name": "Shortspear",
@@ -2853,7 +2853,7 @@
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown; Tribal"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"bayonet": {
 		"name": "Bayonet",
@@ -2878,7 +2878,7 @@
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Close"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"boar_spear": {
 		"name": "Boar spear",
@@ -2897,7 +2897,7 @@
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"boarding_pike": {
 		"name": "Boarding pike",
@@ -2915,7 +2915,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Simple"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"kumade": {
 		"name": "Kumade",
@@ -2931,7 +2931,7 @@
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"kumade_collapsible": {
 		"name": "Kumade, collapsible",
@@ -2947,7 +2947,7 @@
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"lantern_staff": {
 		"name": "Lantern staff",
@@ -2963,7 +2963,7 @@
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Hammers"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"longspear": {
 		"name": "Longspear",
@@ -2982,7 +2982,7 @@
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"quarterstaff": {
 		"name": "Quarterstaff",
@@ -3001,7 +3001,7 @@
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Double; Monk"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"spear": {
 		"name": "Spear",
@@ -3020,7 +3020,7 @@
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown; Tribal"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"weighted_spear": {
 		"name": "Weighted spear",
@@ -3036,7 +3036,7 @@
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Double; Spears"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"blowgun": {
 		"name": "Blowgun",
@@ -3057,7 +3057,7 @@
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"dart": {
 		"name": "Dart",
@@ -3077,7 +3077,7 @@
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"heavy_crossbow": {
 		"name": "Heavy crossbow",
@@ -3099,7 +3099,7 @@
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"javelin": {
 		"name": "Javelin",
@@ -3120,7 +3120,7 @@
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"light_crossbow": {
 		"name": "Light crossbow",
@@ -3142,7 +3142,7 @@
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"sling": {
 		"name": "Sling",
@@ -3164,7 +3164,7 @@
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"stingchuck": {
 		"name": "Stingchuck",
@@ -3179,7 +3179,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Simple"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"stonebow": {
 		"name": "Stonebow",
@@ -3198,7 +3198,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"underwater_heavy_crossbow": {
 		"name": "Underwater heavy crossbow",
@@ -3218,7 +3218,7 @@
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"underwater_light_crossbow": {
 		"name": "Underwater light crossbow",
@@ -3238,7 +3238,7 @@
 			"**Category** Ranged; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"blade_boot": {
 		"name": "Blade boot",
@@ -3253,7 +3253,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** see text  ",
 			"**Category** Light; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"boarding_axe": {
 		"name": "Boarding axe",
@@ -3273,7 +3273,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"butterfly_sword": {
 		"name": "Butterfly sword",
@@ -3292,7 +3292,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"cat_o_nine_tails": {
 		"name": "Cat-o'-nine-tails",
@@ -3312,7 +3312,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"dogslicer": {
 		"name": "Dogslicer",
@@ -3335,7 +3335,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"dueling_dagger": {
 		"name": "Dueling dagger",
@@ -3351,7 +3351,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Thrown"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"gladius": {
 		"name": "Gladius",
@@ -3370,7 +3370,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"handaxe": {
 		"name": "Handaxe",
@@ -3389,7 +3389,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes; Tribal"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"iron_brush": {
 		"name": "Iron brush",
@@ -3408,7 +3408,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"jutte": {
 		"name": "Jutte",
@@ -3427,7 +3427,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"katar_tri_bladed": {
 		"name": "Katar, tri-bladed",
@@ -3447,7 +3447,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"kerambit": {
 		"name": "Kerambit",
@@ -3466,7 +3466,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"kukri": {
 		"name": "Kukri",
@@ -3485,7 +3485,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"light_hammer": {
 		"name": "Light hammer",
@@ -3504,7 +3504,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Hammers; Thrown"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"light_pick": {
 		"name": "Light pick",
@@ -3523,7 +3523,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"lungchuan_tamo": {
 		"name": "Lungchuan tamo",
@@ -3541,7 +3541,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P or S; **Special** monk  ",
 			"**Category** Light; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"machete": {
 		"name": "Machete",
@@ -3557,7 +3557,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"sap": {
 		"name": "Sap",
@@ -3576,7 +3576,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"sea_knife": {
 		"name": "Sea-knife",
@@ -3591,7 +3591,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"shang_gou": {
 		"name": "Shang gou",
@@ -3610,7 +3610,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"short_sword": {
 		"name": "Short sword",
@@ -3629,7 +3629,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"starknife": {
 		"name": "Starknife",
@@ -3652,7 +3652,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Thrown"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"switchblade_knife": {
 		"name": "Switchblade knife",
@@ -3667,7 +3667,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"tailblade_ratfolk": {
 		"name": "Tailblade, ratfolk",
@@ -3682,7 +3682,7 @@
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"throwing_axe": {
 		"name": "Throwing axe",
@@ -3701,7 +3701,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes; Thrown; Tribal"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"tonfa": {
 		"name": "Tonfa",
@@ -3720,7 +3720,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"war_razor": {
 		"name": "War razor",
@@ -3742,7 +3742,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"wushu_dart": {
 		"name": "Wushu dart",
@@ -3761,7 +3761,7 @@
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Close; Monk; Thrown"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"ankus": {
 		"name": "Ankus",
@@ -3777,7 +3777,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"battleaxe": {
 		"name": "Battleaxe",
@@ -3796,7 +3796,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"combat_scabbard": {
 		"name": "Combat scabbard",
@@ -3811,7 +3811,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** improvised, see text  ",
 			"**Category** One-Handed; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"combat_scabbard_sharpened": {
 		"name": "Combat scabbard, sharpened",
@@ -3826,7 +3826,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"sharpened_combat_scabbard": { "copyof": "combat_scabbard_sharpened" },
 	"cutlass": {
@@ -3848,7 +3848,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"double_chicken_saber": {
 		"name": "Double chicken saber",
@@ -3867,7 +3867,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"gandasa": {
 		"name": "Gandasa",
@@ -3883,7 +3883,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"heavy_pick": {
 		"name": "Heavy pick",
@@ -3902,7 +3902,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"light_flail": {
 		"name": "Light flail",
@@ -3921,7 +3921,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"flail": { "copyof": "light_flail" },
 	"longsword": {
@@ -3941,7 +3941,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"manople": {
 		"name": "Manople",
@@ -3957,7 +3957,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"nine_ring_broadsword": {
 		"name": "Nine-ring broadsword",
@@ -3976,7 +3976,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"rapier": {
 		"name": "Rapier",
@@ -3995,7 +3995,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"scimitar": {
 		"name": "Scimitar",
@@ -4014,7 +4014,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"scizore": {
 		"name": "Scizore",
@@ -4034,7 +4034,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Close"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"sibat": {
 		"name": "Sibat",
@@ -4054,7 +4054,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"sword_cane": {
 		"name": "Sword cane",
@@ -4073,7 +4073,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"terbutje": {
 		"name": "Terbutje",
@@ -4092,7 +4092,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"terbutje_steel": {
 		"name": "Terbutje, steel",
@@ -4107,7 +4107,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"steel_terbutje": { "copyof": "terbutje_steel" },
 	"trident": {
@@ -4127,7 +4127,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"warhammer": {
 		"name": "Warhammer",
@@ -4146,7 +4146,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Hammers"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"bardiche": {
 		"name": "Bardiche",
@@ -4166,7 +4166,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes; Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"bec_de_corbin": {
 		"name": "Bec de corbin",
@@ -4186,7 +4186,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"bill": {
 		"name": "Bill",
@@ -4206,7 +4206,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"earth_breaker": {
 		"name": "Earth breaker",
@@ -4230,7 +4230,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Hammers"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"falchion": {
 		"name": "Falchion",
@@ -4249,7 +4249,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"glaive": {
 		"name": "Glaive",
@@ -4268,7 +4268,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"glaive_guisarme": {
 		"name": "Glaive-guisarme",
@@ -4288,7 +4288,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"greataxe": {
 		"name": "Greataxe",
@@ -4307,7 +4307,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"greatclub": {
 		"name": "Greatclub",
@@ -4326,7 +4326,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Hammers; Tribal"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"greatsword": {
 		"name": "Greatsword",
@@ -4345,6 +4345,6 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	}
 }

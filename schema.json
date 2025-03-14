@@ -24,7 +24,6 @@
 								"parent_topics": { "$ref": "#uniqueArray" },
 								"siblings": { "$ref": "#uniqueArray" },
 								"subtopics": { "$ref": "#uniqueArray" },
-								"backwardsLink": { "$ref": "#link" },
 								"topLink": { "$ref": "#link" },
 								"className": { "type": "string" }
 							},
@@ -41,7 +40,6 @@
 								"searchgroup": { "$ref": "#searchgroup" },
 								"noFinder": { "type": "boolean" },
 								"tables": { "$ref": "#tables" },
-								"backwardsLink": { "$ref": "#link" },
 								"topLink": { "$ref": "#link" },
 								"className": { "type": "string" }
 							},

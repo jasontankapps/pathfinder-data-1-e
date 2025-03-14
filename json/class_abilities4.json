@@ -585,7 +585,7 @@
 			"",
 			"At 20th level, void eidolons can bestow up to 2 negative levels with a successful bite attack, and the number of negative levels they can bestow per day increases by their Constitution modifier. Their damage reduction increases to DR 10/adamantine."
 		],
-		"backwardsLink": [ "Unchained Summoner", "class/unchained_summoner" ]
+		"topLink": [ "Unchained Summoner", "class/unchained_summoner" ]
 	},
 	"investigator_talents": {
 		"name": "Investigator Talents",
@@ -776,7 +776,7 @@
 			"",
 			"**Unbalancing Trick (Ex):** The investigator gains {feat/Improved Trip} as a bonus feat, even if she does not meet the prerequisites. At 6th level, she is treated as if she meets all the prerequisites of {feat/Greater Trip} (although she must take the feat as normal to gain its benefits)."
 		],
-		"backwardsLink": [ "Investigator", "class/investigator" ]
+		"topLink": [ "Investigator", "class/investigator" ]
 	},
 	"ki_powers": {
 		"name": "Ki Powers",
@@ -880,7 +880,7 @@
 			"",
 			"**Zephyr Blow (Su):** By spending 1 ki point as a standard action, a monk with this power can disrupt the wind and create a sharp blast of air, as if using the spell {spell/gust of wind}. The monk's caster level for this effect is equal to his monk level."
 		],
-		"backwardsLink": [ "Unchained Monk", "class/unchained_monk" ]
+		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
 	"legendary_spirits": {
 		"name": "Legendary Spirits",
@@ -928,7 +928,7 @@
 			"| [Twice-Damned Prince](/legendaryspirit/twice_damned_prince) | Trickster |",
 			"| [Warmonger](/legendaryspirit/warmonger) | Marshal |"
 		],
-		"backwardsLink": [ "Medium", "class/medium" ]
+		"topLink": [ "Medium", "class/medium" ]
 	},
 	"magus_arcana": {
 		"name": "Magus Arcana",
@@ -1031,7 +1031,7 @@
 				"initialColumn": 0
 			}
 		],
-		"backwardsLink": [ "Magus", "class/magus" ]
+		"topLink": [ "Magus", "class/magus" ]
 	},
 	"major_hexes": {
 		"name": "Major Hexes",
@@ -1117,7 +1117,7 @@
 			"",
 			"**Withering (Su):** The witch causes a creature within 30 feet to age rapidly, empowering the witch in the process. The target ages to the next age category (adult to middle-aged, and so on). The witch gains a number of temporary hit points equal to 1d10 + her witch level and a +2 enhancement bonus to either Strength, Dexterity, or Constitution for a number of hours equal to her Intelligence modifier. These effects last for a number of hours equal to the witch's level. A creature cannot be aged past venerable age by this hex, and it can attempt a Fortitude save to negate the effect altogether. Once a creature has successfully saved against the withering hex, it cannot be affected by it again."
 		],
-		"backwardsLink": [ "Witch", "class/witch" ]
+		"topLink": [ "Witch", "class/witch" ]
 	},
 	"major_phrenic_amplifications": {
 		"name": "Major Phrenic Amplifications",
@@ -1151,7 +1151,7 @@
 			"",
 			"**Turning Shield (Su):** The psychic can turn her excess spell energy into a barrier that deflects weaker spells. She can spend a number of points from her phrenic pool equal to the linked spell's level to gain the benefit of {spell/spell turning} for 1 round per psychic level. The number of spell levels she can turn is equal to the level of the linked spell."
 		],
-		"backwardsLink": [ "Psychic", "class/psychic" ]
+		"topLink": [ "Psychic", "class/psychic" ]
 	},
 	"masterful_tricks": {
 		"name": "Masterful Tricks",
@@ -1194,7 +1194,7 @@
 			"",
 			"**Willful Ignorance:** The subject gains the ability to tell one undetectable lie. When the subject attempts to lie, the mesmerist can trigger this trick. That particular lie resists truth-detecting magic, and creatures attempting to use such magic must succeed at a caster level check against a DC equal to 15 + the mesmerist's class level to succeed; failure means the magic doesn't detect the subject's lie or force her to speak only the truth."
 		],
-		"backwardsLink": [ "Mesmerist", "class/mesmerist" ]
+		"topLink": [ "Mesmerist", "class/mesmerist" ]
 	},
 	"master_tricks": {
 		"name": "Master Ninja Tricks",
@@ -1274,7 +1274,7 @@
 			"",
 			"**Unarmed Combat Mastery (Ex):** A ninja who selects this trick deals damage with her unarmed strikes as if she were a monk of her ninja level - 4. If the ninja has levels in monk, this ability stacks with monk levels to determine how much damage she can do with her unarmed strikes. A ninja must have the {feat/Improved Unarmed Strike} feat before taking this trick."
 		],
-		"backwardsLink": [ "Ninja", "class/ninja" ]
+		"topLink": [ "Ninja", "class/ninja" ]
 	},
 	"mercies": {
 		"name": "Mercies",
@@ -1348,7 +1348,7 @@
 			"",
 			"**Stunned:** The target is no longer stunned."
 		],
-		"backwardsLink": [ "Paladin", "class/paladin" ]
+		"topLink": [ "Paladin", "class/paladin" ]
 	},
 	"mysteries": {
 		"name": "Oracle Mysteries",
@@ -1475,7 +1475,7 @@
 			"| [Zon-Kuthon](/faith/zon_kuthon) | {mystery/Dark Tapestry}, {mystery/Lunar}, {mystery/Shadow} |",
 			"| [Zyphus](/faith/zyphus) | {mystery/Spellscar} |"
 		],
-		"backwardsLink": [ "Oracle", "class/oracle" ]
+		"topLink": [ "Oracle", "class/oracle" ]
 	},
 	"ninja_tricks": {
 		"name": "Ninja Tricks",
@@ -1594,7 +1594,7 @@
 			"",
 			"**Weapon Training (Ex):** A ninja who selects this ninja trick gains {feat/Weapon Focus} as a bonus feat."
 		],
-		"backwardsLink": [ "Ninja", "class/ninja" ]
+		"topLink": [ "Ninja", "class/ninja" ]
 	},
 	"swashbuckler_deeds": {
 		"name": "Deeds",
@@ -1662,7 +1662,7 @@
 			"",
 			"**Stunning Stab (Ex):** At 19th level, when a swashbuckler hits a creature with a light or one-handed piercing melee weapon, she can spend 2 panache points to stun the creature for 1 round. The creature must succeed at a Fortitude saving throw (DC = 10 + 1/2 the swashbuckler's level + the swashbuckler's Dexterity modifier) or be stunned for 1 round. Creatures that are immune to critical hits are also immune to this effect."
 		],
-		"backwardsLink": [ "Swashbuckler", "class/swashbuckler" ]
+		"topLink": [ "Swashbuckler", "class/swashbuckler" ]
 	},
 	"swashbuckler_renowned_deeds": {
 		"name": "Renowned Deeds",
@@ -1690,7 +1690,7 @@
 			"",
 			"**Vengeful Soul (Ex):** Sometimes vengeance can take years or even decades, forcing the aggrieved swashbuckler to push the limits of her endurance. At 11th level, the swashbuckler gains the samurai's greater resolve class feature. At 19th level, the swashbuckler gains the samurai's true resolve class feature. The swashbuckler must have the vengeful heart renowned deed to select this deed. This deed replaces the subtle blade and cheat death deeds, plus an additional 11th-level deed."
 		],
-		"backwardsLink": [ "Swashbuckler", "class/swashbuckler" ]
+		"topLink": [ "Swashbuckler", "class/swashbuckler" ]
 	},
 	"tricks": {
 		"name": "Mesmerist Tricks",
@@ -1773,6 +1773,6 @@
 			"",
 			"**Voice of Reason:** The subject can more easily pierce sight-based illusions with the mesmerist's aid. The mesmerist can trigger this trick when the subject attempts a saving throw to disbelieve a sight-based illusion effect, but only so long as the mesmerist is not affected by or has disbelieved the illusion himself. The subject receives an insight bonus on her saving throw to disbelieve the illusion equal to the mesmerist's Charisma modifier. This trick cannot be used for illusions that do not allow a saving throw."
 		],
-		"backwardsLink": [ "Mesmerist", "class/mesmerist" ]
+		"topLink": [ "Mesmerist", "class/mesmerist" ]
 	}
 }

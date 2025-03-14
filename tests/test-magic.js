@@ -108,10 +108,10 @@ function isGood(object, what) {
 			|| test.sources.some(line => typeof line !== "string")
 			|| !Array.isArray(test.description)
 			|| test.description.some(line => typeof line !== "string")
-			|| (test.backwardsLink && (
-				!Array.isArray(test.backwardsLink)
-				|| test.backwardsLink.length !== 2
-				|| test.backwardsLink.some(bit => typeof bit !== "string")
+			|| (test.topLink && (
+				!Array.isArray(test.topLink)
+				|| test.topLink.length !== 2
+				|| test.topLink.some(bit => typeof bit !== "string")
 			))
 		) {
 			found || msg.push(`Basic problem with ${prop}`);

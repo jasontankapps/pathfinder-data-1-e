@@ -11,7 +11,7 @@
 	"air_blast": {
 		"name": "Air Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Air Blast (Sp)",
 			"",
@@ -25,7 +25,7 @@
 	"cold_blast": {
 		"name": "Cold Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Cold Blast (Sp)",
 			"",
@@ -39,7 +39,7 @@
 	"earth_blast": {
 		"name": "Earth Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Earth Blast (Sp)",
 			"",
@@ -53,7 +53,7 @@
 	"electric_blast": {
 		"name": "Electric Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Electric Blast (Sp)",
 			"",
@@ -67,7 +67,7 @@
 	"fire_blast": {
 		"name": "Fire Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Fire Blast (Sp)",
 			"",
@@ -81,7 +81,7 @@
 	"gravity_blast": {
 		"name": "Gravity Blast",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Gravity Blast (Sp)",
 			"",
@@ -95,7 +95,7 @@
 	"negative_blast": {
 		"name": "Negative Blast",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Negative Blast (Sp)",
 			"",
@@ -112,7 +112,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Positive Blast (Sp)",
 			"",
@@ -126,7 +126,7 @@
 	"telekinetic_blast": {
 		"name": "Telekinetic Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Telekinetic Blast (Sp)",
 			"",
@@ -140,7 +140,7 @@
 	"water_blast": {
 		"name": "Water Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Water Blast (Sp)",
 			"",
@@ -157,7 +157,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
+		"topLink": [ "Simple Blasts", "ability/simple_kinetic_blasts" ],
 		"description": [
 			"## Wood Blast (Sp)",
 			"",
@@ -171,7 +171,7 @@
 	"aetheric_boost": {
 		"name": "Aetheric Boost",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Aetheric Boost (Sp)",
 			"",
@@ -189,7 +189,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Autumn Blast (Sp)",
 			"",
@@ -204,7 +204,7 @@
 	"blizzard_blast": {
 		"name": "Blizzard Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Blizzard Blast (Sp)",
 			"",
@@ -219,7 +219,7 @@
 	"blue_flame_blast": {
 		"name": "Blue Flame Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Blue Flame Blast (Sp)",
 			"",
@@ -234,7 +234,7 @@
 	"charged_water_blast": {
 		"name": "Charged Water Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Charged Water Blast (Sp)",
 			"",
@@ -249,7 +249,7 @@
 	"force_blast": {
 		"name": "Force Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Force Blast (Sp)",
 			"",
@@ -264,7 +264,7 @@
 	"gravitic_boost": {
 		"name": "Gravitic Boost",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Gravitic Boost (Sp)",
 			"",
@@ -279,7 +279,7 @@
 	"ice_blast": {
 		"name": "Ice Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Ice Blast (Sp)",
 			"",
@@ -294,7 +294,7 @@
 	"magma_blast": {
 		"name": "Magma Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Magma Blast (Sp)",
 			"",
@@ -309,7 +309,7 @@
 	"metal_blast": {
 		"name": "Metal Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Metal Blast (Sp)",
 			"",
@@ -324,7 +324,7 @@
 	"mud_blast": {
 		"name": "Mud Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Mud Blast (Sp)",
 			"",
@@ -339,7 +339,7 @@
 	"negative_admixture": {
 		"name": "Negative Admixture",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Negative Admixture (Sp)",
 			"",
@@ -354,7 +354,7 @@
 	"plasma_blast": {
 		"name": "Plasma Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Plasma Blast (Sp)",
 			"",
@@ -372,7 +372,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Positive Admixture (Sp)",
 			"",
@@ -387,7 +387,7 @@
 	"sandstorm_blast": {
 		"name": "Sandstorm Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Sandstorm Blast (Sp)",
 			"",
@@ -405,7 +405,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Spring Blast (Sp)",
 			"",
@@ -420,7 +420,7 @@
 	"steam_blast": {
 		"name": "Steam Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Steam Blast (Sp)",
 			"",
@@ -438,7 +438,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Summer Blast (Sp)",
 			"",
@@ -453,7 +453,7 @@
 	"thunderstorm_blast": {
 		"name": "Thunderstorm Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Thunderstorm Blast (Sp)",
 			"",
@@ -471,7 +471,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Verdant Blast (Sp)",
 			"",
@@ -486,7 +486,7 @@
 	"void_blast": {
 		"name": "Void Blast",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Void Blast (Sp)",
 			"",
@@ -504,7 +504,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
+		"topLink": [ "Composite Blasts", "ability/composite_kinetic_blasts" ],
 		"description": [
 			"## Winter Blast (Sp)",
 			"",
@@ -519,7 +519,7 @@
 	"emptiness": {
 		"name": "Emptiness",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
+		"topLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
 		"description": [
 			"## Emptiness (Su)",
 			"",
@@ -532,7 +532,7 @@
 	"enveloping_winds": {
 		"name": "Enveloping Winds",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
+		"topLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
 		"description": [
 			"## Enveloping Winds (Su)",
 			"",
@@ -545,7 +545,7 @@
 	"flesh_of_stone": {
 		"name": "Flesh of Stone",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
+		"topLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
 		"description": [
 			"## Flesh of Stone (Su)",
 			"",
@@ -561,7 +561,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
+		"topLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
 		"description": [
 			"## Flesh of Wood (Su)",
 			"",
@@ -574,7 +574,7 @@
 	"force_ward": {
 		"name": "Force Ward",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
+		"topLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
 		"description": [
 			"## Force Ward (Su)",
 			"",
@@ -587,7 +587,7 @@
 	"searing_flesh": {
 		"name": "Searing Flesh",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
+		"topLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
 		"description": [
 			"## Searing Flesh (Su)",
 			"",
@@ -602,7 +602,7 @@
 	"shroud_of_water": {
 		"name": "Shroud of Water",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
+		"topLink": [ "Defense Wild Talents", "ability/defense_wild_talents" ],
 		"description": [
 			"## Shroud of Water (Su)",
 			"",
@@ -615,7 +615,7 @@
 	"blade_rush": {
 		"name": "Blade Rush",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Blade Rush",
 			"",
@@ -631,7 +631,7 @@
 	"blade_whirlwind": {
 		"name": "Blade Whirlwind",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Blade Whirlwind",
 			"",
@@ -647,7 +647,7 @@
 	"bolt": {
 		"name": "Bolt",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Bolt",
 			"",
@@ -662,7 +662,7 @@
 	"bowling_infusion": {
 		"name": "Bowling Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Bowling Infusion",
 			"",
@@ -677,7 +677,7 @@
 	"brilliant_infusion": {
 		"name": "Brilliant Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Brilliant Infusion",
 			"",
@@ -693,7 +693,7 @@
 	"burning_infusion": {
 		"name": "Burning Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Burning Infusion",
 			"",
@@ -708,7 +708,7 @@
 	"chain": {
 		"name": "Chain",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Chain",
 			"",
@@ -723,7 +723,7 @@
 	"chilling_infusion": {
 		"name": "Chilling Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Chilling Infusion",
 			"",
@@ -738,7 +738,7 @@
 	"cloud": {
 		"name": "Cloud",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Cloud",
 			"",
@@ -754,7 +754,7 @@
 	"cyclone": {
 		"name": "Cyclone",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Cyclone",
 			"",
@@ -769,7 +769,7 @@
 	"dampening_infusion": {
 		"name": "Dampening Infusion",
 		"sources": [ "Elemental Master's Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Dampening Infusion",
 			"",
@@ -784,7 +784,7 @@
 	"darkness_infusion": {
 		"name": "Darkness Infusion",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Darkness Infusion",
 			"",
@@ -799,7 +799,7 @@
 	"greater_darkness_infusion": {
 		"name": "Darkness Infusion, Greater",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Darkness Infusion, Greater",
 			"",
@@ -816,7 +816,7 @@
 	"dazzling_infusion": {
 		"name": "Dazzling Infusion",
 		"sources": [ "Elemental Master's Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Dazzling Infusion",
 			"",
@@ -831,7 +831,7 @@
 	"deadly_earth": {
 		"name": "Deadly Earth",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Deadly Earth",
 			"",
@@ -847,7 +847,7 @@
 	"detonation": {
 		"name": "Detonation",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Detonation",
 			"",
@@ -862,7 +862,7 @@
 	"disintegrating_infusion": {
 		"name": "Disintegrating Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Disintegrating Infusion",
 			"",
@@ -877,7 +877,7 @@
 	"draining_infusion": {
 		"name": "Draining Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Draining Infusion",
 			"",
@@ -892,7 +892,7 @@
 	"elemental_trap": {
 		"name": "Elemental Trap",
 		"sources": [ "Wilderness Origins" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Elemental Trap",
 			"",
@@ -907,7 +907,7 @@
 	"energize_weapon": {
 		"name": "Energize Weapon",
 		"sources": [ "Elemental Master's Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Energize Weapon",
 			"",
@@ -922,7 +922,7 @@
 	"enervating_infusion": {
 		"name": "Enervating Infusion",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Enervating Infusion",
 			"",
@@ -937,7 +937,7 @@
 	"entangling_infusion": {
 		"name": "Entangling Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Entangling Infusion",
 			"",
@@ -952,7 +952,7 @@
 	"eruption": {
 		"name": "Eruption",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Eruption",
 			"",
@@ -968,7 +968,7 @@
 	"explosion": {
 		"name": "Explosion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Explosion",
 			"",
@@ -984,7 +984,7 @@
 	"extended_range": {
 		"name": "Extended Range",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Extended Range",
 			"",
@@ -999,7 +999,7 @@
 	"extreme_range": {
 		"name": "Extreme Range",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Extreme Range",
 			"",
@@ -1015,7 +1015,7 @@
 	"fan_of_flames": {
 		"name": "Fan of Flames",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Fan of Flames",
 			"",
@@ -1030,7 +1030,7 @@
 	"flash_infusion": {
 		"name": "Flash Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Flash Infusion",
 			"",
@@ -1045,7 +1045,7 @@
 	"flurry_of_blasts": {
 		"name": "Flurry of Blasts",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Flurry of Blasts",
 			"",
@@ -1063,7 +1063,7 @@
 	"focused_blast": {
 		"name": "Focused Blast",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Focused Blast",
 			"",
@@ -1078,7 +1078,7 @@
 	"foe_throw": {
 		"name": "Foe Throw",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Foe Throw",
 			"",
@@ -1093,7 +1093,7 @@
 	"force_hook": {
 		"name": "Force Hook",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Force Hook",
 			"",
@@ -1111,7 +1111,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Foxfire Infusion (Sp)",
 			"",
@@ -1127,7 +1127,7 @@
 	"fragmentation": {
 		"name": "Fragmentation",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Fragmentation",
 			"",
@@ -1143,7 +1143,7 @@
 	"grappling_infusion": {
 		"name": "Grappling Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Grappling Infusion",
 			"",
@@ -1158,7 +1158,7 @@
 	"gusting_infusion": {
 		"name": "Gusting Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Gusting Infusion",
 			"",
@@ -1173,7 +1173,7 @@
 	"impale": {
 		"name": "Impale",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Impale",
 			"",
@@ -1188,7 +1188,7 @@
 	"kinetic_blade": {
 		"name": "Kinetic Blade",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Kinetic Blade",
 			"",
@@ -1205,7 +1205,7 @@
 	"kinetic_fist": {
 		"name": "Kinetic Fist",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Kinetic Fist",
 			"",
@@ -1220,7 +1220,7 @@
 	"kinetic_whip": {
 		"name": "Kinetic Whip",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Kinetic Whip",
 			"",
@@ -1236,7 +1236,7 @@
 	"kundalini_infusion": {
 		"name": "Kundalini Infusion",
 		"sources": [ "Martial Arts Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Kundalini Infusion",
 			"",
@@ -1252,7 +1252,7 @@
 	"maelstrom": {
 		"name": "Maelstrom",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Maelstrom",
 			"",
@@ -1268,7 +1268,7 @@
 	"magnetic_infusion": {
 		"name": "Magnetic Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Magnetic Infusion",
 			"",
@@ -1283,7 +1283,7 @@
 	"many_throw": {
 		"name": "Many Throw",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Many Throw",
 			"",
@@ -1299,7 +1299,7 @@
 	"mobile_blast": {
 		"name": "Mobile Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Mobile Blast",
 			"",
@@ -1314,7 +1314,7 @@
 	"penetrating_infusion": {
 		"name": "Penetrating Infusion",
 		"sources": [ "Elemental Master's Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Penetrating Infusion",
 			"",
@@ -1329,7 +1329,7 @@
 	"photokinetic_infusion": {
 		"name": "Photokinetic Infusion",
 		"sources": [ "Ultimate Wilderness" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Photokinetic Infusion",
 			"",
@@ -1345,7 +1345,7 @@
 	"pulling_infusion": {
 		"name": "Pulling Infusion",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Pulling Infusion",
 			"",
@@ -1360,7 +1360,7 @@
 	"pure_flame_infusion": {
 		"name": "Pure-Flame Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Pure-Flame Infusion",
 			"",
@@ -1375,7 +1375,7 @@
 	"pushing_infusion": {
 		"name": "Pushing Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Pushing Infusion",
 			"",
@@ -1390,7 +1390,7 @@
 	"quenching_infusion": {
 		"name": "Quenching Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Quenching Infusion",
 			"",
@@ -1405,7 +1405,7 @@
 	"rare_metal_infusion": {
 		"name": "Rare-Metal Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Rare-Metal Infusion",
 			"",
@@ -1420,7 +1420,7 @@
 	"shepherd_of_souls": {
 		"name": "Shepherd of Souls",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Shepherd of Souls",
 			"",
@@ -1435,7 +1435,7 @@
 	"singularity": {
 		"name": "Singularity",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Singularity",
 			"",
@@ -1450,7 +1450,7 @@
 	"slick_infusion": {
 		"name": "Slick Infusion",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Slick Infusion",
 			"",
@@ -1466,7 +1466,7 @@
 	"snake": {
 		"name": "Snake",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Snake",
 			"",
@@ -1482,7 +1482,7 @@
 	"spindle": {
 		"name": "Spindle",
 		"sources": [ "Elemental Master's Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Spindle",
 			"",
@@ -1500,7 +1500,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Spore Infusion",
 			"",
@@ -1517,7 +1517,7 @@
 	"spray": {
 		"name": "Spray",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Spray",
 			"",
@@ -1532,7 +1532,7 @@
 	"stylish_infusion": {
 		"name": "Stylish Infusion",
 		"sources": [ "Martial Arts Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Stylish Infusion",
 			"",
@@ -1550,7 +1550,7 @@
 	"synaptic_infusion": {
 		"name": "Synaptic Infusion",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Synaptic Infusion",
 			"",
@@ -1565,7 +1565,7 @@
 	"telekinetic_boomerang": {
 		"name": "Telekinetic Boomerang",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Telekinetic Boomerang",
 			"",
@@ -1580,7 +1580,7 @@
 	"thundering_infusion": {
 		"name": "Thundering Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Thundering Infusion",
 			"",
@@ -1595,7 +1595,7 @@
 	"torrent": {
 		"name": "Torrent",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Torrent",
 			"",
@@ -1613,7 +1613,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Toxic Infusion",
 			"",
@@ -1631,7 +1631,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Toxic Infusion, Greater",
 			"",
@@ -1650,7 +1650,7 @@
 	"tremor": {
 		"name": "Tremor",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Tremor",
 			"",
@@ -1665,7 +1665,7 @@
 	"turning_blast": {
 		"name": "Turning Blast",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Turning Blast",
 			"",
@@ -1681,7 +1681,7 @@
 	"unblinking_flame_infusion": {
 		"name": "Unblinking Flame Infusion",
 		"sources": [ "Martial Arts Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Unblinking Flame Infusion",
 			"",
@@ -1697,7 +1697,7 @@
 	"unbreaking_waves_infusion": {
 		"name": "Unbreaking Waves Infusion",
 		"sources": [ "Martial Arts Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Unbreaking Waves Infusion",
 			"",
@@ -1713,7 +1713,7 @@
 	"unfolding_wind_infusion": {
 		"name": "Unfolding Wind Infusion",
 		"sources": [ "Martial Arts Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Unfolding Wind Infusion",
 			"",
@@ -1729,7 +1729,7 @@
 	"unnerving_infusion": {
 		"name": "Unnerving Infusion",
 		"sources": [ "Elemental Master's Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Unnerving Infusion",
 			"",
@@ -1744,7 +1744,7 @@
 	"unraveling_infusion": {
 		"name": "Unraveling Infusion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Unraveling Infusion",
 			"",
@@ -1759,7 +1759,7 @@
 	"untwisting_iron_infusion": {
 		"name": "Untwisting Iron Infusion",
 		"sources": [ "Martial Arts Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Untwisting Iron Infusion",
 			"",
@@ -1775,7 +1775,7 @@
 	"vampiric_infusion": {
 		"name": "Vampiric Infusion",
 		"sources": [ "Elemental Master's Handbook" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Vampiric Infusion",
 			"",
@@ -1791,7 +1791,7 @@
 	"venom_admixture": {
 		"name": "Venom Admixture",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Venom Admixture",
 			"",
@@ -1806,7 +1806,7 @@
 	"venom_infusion": {
 		"name": "Venom Infusion",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Venom Infusion",
 			"",
@@ -1822,7 +1822,7 @@
 	"greater_venom_infusion": {
 		"name": "Venom Infusion, Greater",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Venom Infusion, Greater",
 			"",
@@ -1839,7 +1839,7 @@
 	"wall": {
 		"name": "Wall",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Wall",
 			"",
@@ -1854,7 +1854,7 @@
 	"weighing_infusion": {
 		"name": "Weighing Infusion",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Weighing Infusion",
 			"",
@@ -1869,7 +1869,7 @@
 	"whip_hurricane": {
 		"name": "Whip Hurricane",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Infusions", "ability/infusion_wild_talents" ],
+		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
 			"## Whip Hurricane",
 			"",
@@ -1885,7 +1885,7 @@
 	"absentia": {
 		"name": "Absentia",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Absentia (Sp)",
 			"",
@@ -1899,7 +1899,7 @@
 	"aerial_adaptation": {
 		"name": "Aerial Adaptation",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Aerial Adaptation (Sp)",
 			"",
@@ -1912,7 +1912,7 @@
 	"aerial_evasion": {
 		"name": "Aerial Evasion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Aerial Evasion (Su)",
 			"",
@@ -1926,7 +1926,7 @@
 	"aether_architect": {
 		"name": "Aether Architect",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Aether Architect (Su)",
 			"",
@@ -1939,7 +1939,7 @@
 	"aether_puppet": {
 		"name": "Aether Puppet",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Aether Puppet (Sp)",
 			"",
@@ -1952,7 +1952,7 @@
 	"air_cushion": {
 		"name": "Air Cushion",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Air Cushion (Sp)",
 			"",
@@ -1965,7 +1965,7 @@
 	"air_shroud": {
 		"name": "Air Shroud",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Air Shroud (Sp)",
 			"",
@@ -1978,7 +1978,7 @@
 	"greater_air_shroud": {
 		"name": "Air Shroud, Greater",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Air Shroud, Greater (Sp)",
 			"",
@@ -1993,7 +1993,7 @@
 	"airs_leap": {
 		"name": "Air's Leap",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Air's Leap (Su)",
 			"",
@@ -2006,7 +2006,7 @@
 	"airs_reach": {
 		"name": "Air's Reach",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Air's Reach (Su)",
 			"",
@@ -2019,7 +2019,7 @@
 	"angelic_protection": {
 		"name": "Angelic Protection",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Angelic Protection (Sp)",
 			"",
@@ -2034,7 +2034,7 @@
 	"basic_aerokinesis": {
 		"name": "Basic Aerokinesis",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Basic Aerokinesis (Sp)",
 			"",
@@ -2049,7 +2049,7 @@
 	"basic_chaokinesis": {
 		"name": "Basic Chaokinesis",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Basic Chaokinesis (Sp)",
 			"",
@@ -2062,7 +2062,7 @@
 	"basic_geokinesis": {
 		"name": "Basic Geokinesis",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Basic Geokinesis (Sp)",
 			"",
@@ -2075,7 +2075,7 @@
 	"basic_hydrokinesis": {
 		"name": "Basic Hydrokinesis",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Basic Hydrokinesis (Sp)",
 			"",
@@ -2091,7 +2091,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Basic Phytokinesis (Sp)",
 			"",
@@ -2104,7 +2104,7 @@
 	"basic_pyrokinesis": {
 		"name": "Basic Pyrokinesis",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Basic Pyrokinesis (Sp)",
 			"",
@@ -2117,7 +2117,7 @@
 	"basic_telekinesis": {
 		"name": "Basic Telekinesis",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Basic Telekinesis (Sp)",
 			"",
@@ -2130,7 +2130,7 @@
 	"body_of_air": {
 		"name": "Body of Air",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Body of Air (Sp)",
 			"",
@@ -2146,7 +2146,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Brachiation (Su)",
 			"",
@@ -2159,7 +2159,7 @@
 	"celerity": {
 		"name": "Celerity",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Celerity (Sp)",
 			"",
@@ -2172,7 +2172,7 @@
 	"clockwork_heart": {
 		"name": "Clockwork Heart",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Clockwork Heart (Su)",
 			"",
@@ -2186,7 +2186,7 @@
 	"clockwork_puppet": {
 		"name": "Clockwork Puppet",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Clockwork Puppet (Su)",
 			"",
@@ -2200,7 +2200,7 @@
 	"cold_adaptation": {
 		"name": "Cold Adaptation",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Cold Adaptation (Sp)",
 			"",
@@ -2213,7 +2213,7 @@
 	"cold_snap": {
 		"name": "Cold Snap",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Cold Snap (Sp)",
 			"",
@@ -2227,7 +2227,7 @@
 	"corpse_puppet": {
 		"name": "Corpse Puppet",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Corpse Puppet (Sp)",
 			"",
@@ -2240,7 +2240,7 @@
 	"cryokinetic_stasis": {
 		"name": "Cryokinetic Stasis",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Cryokinetic Stasis (Sp)",
 			"",
@@ -2253,7 +2253,7 @@
 	"curse_breaker": {
 		"name": "Curse Breaker",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Curse Breaker (Sp)",
 			"",
@@ -2267,7 +2267,7 @@
 	"earth_child": {
 		"name": "Earth Child",
 		"sources": [ "Occult Realms" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Earth Child (Su)",
 			"",
@@ -2284,7 +2284,7 @@
 	"earth_climb": {
 		"name": "Earth Climb",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Earth Climb (Su)",
 			"",
@@ -2297,7 +2297,7 @@
 	"earth_glide": {
 		"name": "Earth Glide",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Earth Glide (Su)",
 			"",
@@ -2311,7 +2311,7 @@
 	"earth_tongue": {
 		"name": "Earth Tongue",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Earth Tongue (Sp)",
 			"",
@@ -2325,7 +2325,7 @@
 	"earth_walk": {
 		"name": "Earth Walk",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Earth Walk (Su)",
 			"",
@@ -2338,7 +2338,7 @@
 	"earthmeld": {
 		"name": "Earthmeld",
 		"sources": [ "Ultimate Intrigue" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Earthmeld (Sp)",
 			"",
@@ -2352,7 +2352,7 @@
 	"elemental_exile": {
 		"name": "Elemental Exile",
 		"sources": [ "Wilderness Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Elemental Exile (Sp)",
 			"",
@@ -2366,7 +2366,7 @@
 	"elemental_grip": {
 		"name": "Elemental Grip",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Elemental Grip (Sp)",
 			"",
@@ -2380,7 +2380,7 @@
 	"elemental_transmission": {
 		"name": "Elemental Transmission",
 		"sources": [ "Wilderness Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Elemental Transmission (Sp)",
 			"",
@@ -2394,7 +2394,7 @@
 	"elemental_whispers": {
 		"name": "Elemental Whispers",
 		"sources": [ "Horror Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Elemental Whispers (Su)",
 			"",
@@ -2407,7 +2407,7 @@
 	"greater_elemental_whispers": {
 		"name": "Elemental Whispers, Greater",
 		"sources": [ "Horror Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Elemental Whispers, Greater (Su)",
 			"",
@@ -2422,7 +2422,7 @@
 	"enduring_earth": {
 		"name": "Enduring Earth",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Enduring Earth (Su)",
 			"",
@@ -2435,7 +2435,7 @@
 	"engulfing_winds": {
 		"name": "Engulfing Winds",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Engulfing Winds (Sp)",
 			"",
@@ -2448,7 +2448,7 @@
 	"expanded_defense": {
 		"name": "Expanded Defense",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Expanded Defense (Su)",
 			"",
@@ -2461,7 +2461,7 @@
 	"eyes_of_the_void": {
 		"name": "Eyes of the Void",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Eyes of the Void (Su)",
 			"",
@@ -2474,7 +2474,7 @@
 	"greater_eyes_of_the_void": {
 		"name": "Eyes of the Void, Greater",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Eyes of the Void, Greater (Su)",
 			"",
@@ -2489,7 +2489,7 @@
 	"fire_corridor": {
 		"name": "Fire Corridor",
 		"sources": [ "Wilderness Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Fire Corridor (Sp)",
 			"",
@@ -2502,7 +2502,7 @@
 	"fire_sculptor": {
 		"name": "Fire Sculptor",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Fire Sculptor (Sp)",
 			"",
@@ -2515,7 +2515,7 @@
 	"fire_steed": {
 		"name": "Fire Steed",
 		"sources": [ "Wilderness Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Fire Steed (Sp)",
 			"",
@@ -2528,7 +2528,7 @@
 	"fires_fury": {
 		"name": "Fire's Fury",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Fire's Fury (Su)",
 			"",
@@ -2541,7 +2541,7 @@
 	"firesight": {
 		"name": "Firesight",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Firesight (Su)",
 			"",
@@ -2554,7 +2554,7 @@
 	"flame_jet": {
 		"name": "Flame Jet",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Flame Jet (Sp)",
 			"",
@@ -2567,7 +2567,7 @@
 	"greater_flame_jet": {
 		"name": "Flame Jet, Greater",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Flame Jet, Greater (Sp)",
 			"",
@@ -2582,7 +2582,7 @@
 	"flame_shield": {
 		"name": "Flame Shield",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Flame Shield (Sp)",
 			"",
@@ -2596,7 +2596,7 @@
 	"flame_trap": {
 		"name": "Flame Trap",
 		"sources": [ "Ultimate Intrigue" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Flame Trap (Sp)",
 			"",
@@ -2609,7 +2609,7 @@
 	"force_barrier": {
 		"name": "Force Barrier",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Force Barrier (Sp)",
 			"",
@@ -2626,7 +2626,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Forest Siege (Sp)",
 			"",
@@ -2642,7 +2642,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Foxfire (Sp)",
 			"",
@@ -2657,7 +2657,7 @@
 	"from_the_ashes": {
 		"name": "From the Ashes",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## From the Ashes (Sp)",
 			"",
@@ -2670,7 +2670,7 @@
 	"gravity_control": {
 		"name": "Gravity Control",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Gravity Control (Sp)",
 			"",
@@ -2683,7 +2683,7 @@
 	"greater_gravity_control": {
 		"name": "Gravity Control, Greater",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Gravity Control, Greater (Sp)",
 			"",
@@ -2698,7 +2698,7 @@
 	"gravity_master": {
 		"name": "Gravity Master",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Gravity Master (Sp)",
 			"",
@@ -2712,7 +2712,7 @@
 	"greater_fire_steed": {
 		"name": "Greater Fire Steed",
 		"sources": [ "Wilderness Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Greater Fire Steed (Sp)",
 			"",
@@ -2730,7 +2730,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Green Tongue (Su)",
 			"",
@@ -2746,7 +2746,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Green Tongue, Greater (Su)",
 			"",
@@ -2764,7 +2764,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Greensight (Su)",
 			"",
@@ -2780,7 +2780,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Healing Burst (Sp)",
 			"",
@@ -2795,7 +2795,7 @@
 	"heat_adaptation": {
 		"name": "Heat Adaptation",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Heat Adaptation (Sp)",
 			"",
@@ -2808,7 +2808,7 @@
 	"heat_wave": {
 		"name": "Heat Wave",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Heat Wave (Sp)",
 			"",
@@ -2825,7 +2825,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Herbal Antivenom (Sp)",
 			"",
@@ -2838,7 +2838,7 @@
 	"hurricane_queen": {
 		"name": "Hurricane Queen",
 		"sources": [ "Occult Realms" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Hurricane Queen (Su)",
 			"",
@@ -2855,7 +2855,7 @@
 	"ice_path": {
 		"name": "Ice Path",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Ice Path (Su)",
 			"",
@@ -2869,7 +2869,7 @@
 	"ice_sculptor": {
 		"name": "Ice Sculptor",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Ice Sculptor (Sp)",
 			"",
@@ -2882,7 +2882,7 @@
 	"icewalker": {
 		"name": "Icewalker",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Icewalker (Su)",
 			"",
@@ -2895,7 +2895,7 @@
 	"improved_fire_steed": {
 		"name": "Improved Fire Steed",
 		"sources": [ "Wilderness Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Improved Fire Steed (Sp)",
 			"",
@@ -2909,7 +2909,7 @@
 	"infernal_bargain": {
 		"name": "Infernal Bargain",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Infernal Bargain (Sp)",
 			"",
@@ -2924,7 +2924,7 @@
 	"jagged_flesh": {
 		"name": "Jagged Flesh",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Jagged Flesh (Sp)",
 			"",
@@ -2938,7 +2938,7 @@
 	"kinetic_awe": {
 		"name": "Kinetic Awe",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Kinetic Awe (Su)",
 			"",
@@ -2951,7 +2951,7 @@
 	"kinetic_cover": {
 		"name": "Kinetic Cover",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Kinetic Cover (Sp)",
 			"",
@@ -2964,7 +2964,7 @@
 	"kinetic_dissolution": {
 		"name": "Kinetic Dissolution",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Kinetic Dissolution (Su)",
 			"",
@@ -2978,7 +2978,7 @@
 	"kinetic_form": {
 		"name": "Kinetic Form",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Kinetic Form (Sp)",
 			"",
@@ -2991,7 +2991,7 @@
 	"kinetic_healer": {
 		"name": "Kinetic Healer",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Kinetic Healer (Sp)",
 			"",
@@ -3005,7 +3005,7 @@
 	"kinetic_restoration": {
 		"name": "Kinetic Restoration",
 		"sources": [ "Healer's Handbook" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Kinetic Restoration (Su)",
 			"",
@@ -3020,7 +3020,7 @@
 	"kinetic_revivification": {
 		"name": "Kinetic Revivification",
 		"sources": [ "Healer's Handbook" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Kinetic Revivification (Su)",
 			"",
@@ -3036,7 +3036,7 @@
 	"living_capacitor": {
 		"name": "Living Capacitor",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Living Capacitor (Sp)",
 			"",
@@ -3049,7 +3049,7 @@
 	"magnetism": {
 		"name": "Magnetism",
 		"sources": [ "Elemental Master's Handbook" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Magnetism (Sp)",
 			"",
@@ -3064,7 +3064,7 @@
 	"greater_magnetism": {
 		"name": "Magnetism, Greater",
 		"sources": [ "Elemental Master's Handbook" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Magnetism, Greater (Sp)",
 			"",
@@ -3083,7 +3083,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Merciful Foliage (Su)",
 			"",
@@ -3096,7 +3096,7 @@
 	"mesmerizing_elementalist": {
 		"name": "Mesmerizing Elementalist",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Mesmerizing Elementalist (Su)",
 			"",
@@ -3110,7 +3110,7 @@
 	"nine_tailed_kineticist": {
 		"name": "Nine-Tailed Kineticist",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Nine-Tailed Kineticist (Su)",
 			"",
@@ -3124,7 +3124,7 @@
 	"no_breath": {
 		"name": "No Breath",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## No Breath (Su)",
 			"",
@@ -3138,7 +3138,7 @@
 	"past_life_evoker": {
 		"name": "Past Life Evoker",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Past Life Evoker (Su)",
 			"",
@@ -3152,7 +3152,7 @@
 	"pillar": {
 		"name": "Pillar",
 		"sources": [ "Elemental Master's Handbook" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Pillar (Sp)",
 			"",
@@ -3173,7 +3173,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Plant Disguise (Sp)",
 			"",
@@ -3189,7 +3189,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Plant Puppet (Sp)",
 			"",
@@ -3202,7 +3202,7 @@
 	"primal_aether": {
 		"name": "Primal Aether",
 		"sources": [ "Occult Realms" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Primal Aether (Su)",
 			"",
@@ -3219,7 +3219,7 @@
 	"purging_flame": {
 		"name": "Purging Flame",
 		"sources": [ "Occult Realms" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Purging Flame (Sp)",
 			"",
@@ -3236,7 +3236,7 @@
 	"purifying_flames": {
 		"name": "Purifying Flames",
 		"sources": [ "Wilderness Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Purifying Flames (Sp)",
 			"",
@@ -3249,7 +3249,7 @@
 	"reverse_shift": {
 		"name": "Reverse Shift",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Reverse Shift (Sp)",
 			"",
@@ -3262,7 +3262,7 @@
 	"ride_the_blast": {
 		"name": "Ride the Blast",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Ride the Blast (Sp)",
 			"",
@@ -3278,7 +3278,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Roots (Su)",
 			"",
@@ -3291,7 +3291,7 @@
 	"searing_flame": {
 		"name": "Searing Flame",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Searing Flame (Su)",
 			"",
@@ -3305,7 +3305,7 @@
 	"seismic_master": {
 		"name": "Seismic Master",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Seismic Master (Sp)",
 			"",
@@ -3318,7 +3318,7 @@
 	"self_telekinesis": {
 		"name": "Self Telekinesis",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Self Telekinesis (Sp)",
 			"",
@@ -3331,7 +3331,7 @@
 	"greater_self_telekinesis": {
 		"name": "Self Telekinesis, Greater",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Self Telekinesis, Greater (Sp)",
 			"",
@@ -3349,7 +3349,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Shape Wood (Sp)",
 			"",
@@ -3362,7 +3362,7 @@
 	"shift_earth": {
 		"name": "Shift Earth",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Shift Earth (Sp)",
 			"",
@@ -3377,7 +3377,7 @@
 	"greater_shift_earth": {
 		"name": "Shift Earth, Greater",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Shift Earth, Greater (Sp)",
 			"",
@@ -3392,7 +3392,7 @@
 	"shimmering_mirage": {
 		"name": "Shimmering Mirage",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Shimmering Mirage (Sp)",
 			"",
@@ -3406,7 +3406,7 @@
 	"skilled_kineticist": {
 		"name": "Skilled Kineticist",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Skilled Kineticist (Su)",
 			"",
@@ -3419,7 +3419,7 @@
 	"greater_skilled_kineticist": {
 		"name": "Skilled Kineticist, Greater",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Skilled Kineticist, Greater (Su)",
 			"",
@@ -3434,7 +3434,7 @@
 	"sky_walk": {
 		"name": "Sky Walk",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Sky Walk (Su)",
 			"",
@@ -3448,7 +3448,7 @@
 	"slick": {
 		"name": "Slick",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Slick (Sp)",
 			"",
@@ -3462,7 +3462,7 @@
 	"smoke_storm": {
 		"name": "Smoke Storm",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Smoke Storm (Sp)",
 			"",
@@ -3476,7 +3476,7 @@
 	"spark_of_innovation": {
 		"name": "Spark of Innovation",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Spark of Innovation (Sp)",
 			"",
@@ -3490,7 +3490,7 @@
 	"spark_of_life": {
 		"name": "Spark of Life",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Spark of Life (Sp)",
 			"",
@@ -3503,7 +3503,7 @@
 	"spell_deflection": {
 		"name": "Spell Deflection",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Spell Deflection (Sp)",
 			"",
@@ -3516,7 +3516,7 @@
 	"splash_of_the_styx": {
 		"name": "Splash of the Styx",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Splash of the Styx (Sp)",
 			"",
@@ -3531,7 +3531,7 @@
 	"spying_touchsight": {
 		"name": "Spying Touchsight",
 		"sources": [ "Ultimate Intrigue" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Spying Touchsight (Sp)",
 			"",
@@ -3545,7 +3545,7 @@
 	"stone_sculptor": {
 		"name": "Stone Sculptor",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Stone Sculptor (Sp)",
 			"",
@@ -3558,7 +3558,7 @@
 	"suffocate": {
 		"name": "Suffocate",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Suffocate (Sp)",
 			"",
@@ -3572,7 +3572,7 @@
 	"telekinetic_deflection": {
 		"name": "Telekinetic Deflection",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Telekinetic Deflection (Sp)",
 			"",
@@ -3585,7 +3585,7 @@
 	"telekinetic_finesse": {
 		"name": "Telekinetic Finesse",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Telekinetic Finesse (Sp)",
 			"",
@@ -3598,7 +3598,7 @@
 	"telekinetic_globe": {
 		"name": "Telekinetic Globe",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Telekinetic Globe (Sp)",
 			"",
@@ -3612,7 +3612,7 @@
 	"telekinetic_haul": {
 		"name": "Telekinetic Haul",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Telekinetic Haul (Sp)",
 			"",
@@ -3626,7 +3626,7 @@
 	"telekinetic_invisibility": {
 		"name": "Telekinetic Invisibility",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Telekinetic Invisibility (Sp)",
 			"",
@@ -3639,7 +3639,7 @@
 	"telekinetic_maneuvers": {
 		"name": "Telekinetic Maneuvers",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Telekinetic Maneuvers (Sp)",
 			"",
@@ -3653,7 +3653,7 @@
 	"tengu_blade_lore": {
 		"name": "Tengu Blade Lore",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Tengu Blade Lore (Su)",
 			"",
@@ -3670,7 +3670,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Thorn Flesh (Sp)",
 			"",
@@ -3684,7 +3684,7 @@
 	"tidal_wave": {
 		"name": "Tidal Wave",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Tidal Wave (Sp)",
 			"",
@@ -3697,7 +3697,7 @@
 	"touchsight": {
 		"name": "Touchsight",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Touchsight (Su)",
 			"",
@@ -3710,7 +3710,7 @@
 	"reactive_touchsight": {
 		"name": "Touchsight, Reactive",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Touchsight, Reactive (Su)",
 			"",
@@ -3725,7 +3725,7 @@
 	"trail_of_flames": {
 		"name": "Trail of Flames",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Trail of Flames (Sp)",
 			"",
@@ -3742,7 +3742,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Tree Step (Sp)",
 			"",
@@ -3756,7 +3756,7 @@
 	"tremorsense": {
 		"name": "Tremorsense",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Tremorsense (Su)",
 			"",
@@ -3769,7 +3769,7 @@
 	"greater_tremorsense": {
 		"name": "Tremorsense, Greater",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Tremorsense, Greater (Su)",
 			"",
@@ -3784,7 +3784,7 @@
 	"undead_grip": {
 		"name": "Undead Grip",
 		"sources": [ "Psychic Anthology" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Undead Grip (Sp)",
 			"",
@@ -3798,7 +3798,7 @@
 	"veil_of_mists": {
 		"name": "Veil of Mists",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Veil of Mists (Su)",
 			"",
@@ -3811,7 +3811,7 @@
 	"venom_speaker": {
 		"name": "Venom Speaker",
 		"sources": [ "Heroes of Golarion" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Venom Speaker (Su)",
 			"",
@@ -3824,7 +3824,7 @@
 	"voice_of_the_wind": {
 		"name": "Voice of the Wind",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Voice of the Wind (Sp)",
 			"",
@@ -3838,7 +3838,7 @@
 	"greater_voice_of_the_wind": {
 		"name": "Voice of the Wind, Greater",
 		"sources": [ "Ultimate Intrigue" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Voice of the Wind, Greater (Sp)",
 			"",
@@ -3853,7 +3853,7 @@
 	"void_healer": {
 		"name": "Void Healer",
 		"sources": [ "Occult Origins" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Void Healer (Sp)",
 			"",
@@ -3869,7 +3869,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Warp Wood (Sp)",
 			"",
@@ -3882,7 +3882,7 @@
 	"water_alteration": {
 		"name": "Water Alteration",
 		"sources": [ "Occult Realms" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Water Alteration (Sp)",
 			"",
@@ -3899,7 +3899,7 @@
 	"water_manipulator": {
 		"name": "Water Manipulator",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Water Manipulator (Sp)",
 			"",
@@ -3914,7 +3914,7 @@
 	"waterdancer": {
 		"name": "Waterdancer",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Waterdancer (Sp)",
 			"",
@@ -3927,7 +3927,7 @@
 	"greater_waterdancer": {
 		"name": "Waterdancer, Greater",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Waterdancer, Greater (Su)",
 			"",
@@ -3942,7 +3942,7 @@
 	"watersense": {
 		"name": "Watersense",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Watersense (Su)",
 			"",
@@ -3955,7 +3955,7 @@
 	"greater_watersense": {
 		"name": "Watersense, Greater",
 		"sources": [ "Ultimate Intrigue" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Watersense, Greater (Su)",
 			"",
@@ -3970,7 +3970,7 @@
 	"weather_master": {
 		"name": "Weather Master",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Weather Master (Sp)",
 			"",
@@ -3986,7 +3986,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Wild Growth (Sp)",
 			"",
@@ -3999,7 +3999,7 @@
 	"wind_manipulator": {
 		"name": "Wind Manipulator",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Wind Manipulator (Sp)",
 			"",
@@ -4013,7 +4013,7 @@
 	"windsight": {
 		"name": "Windsight",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Windsight (Su)",
 			"",
@@ -4026,7 +4026,7 @@
 	"greater_windsight": {
 		"name": "Windsight, Greater",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Windsight, Greater (Su)",
 			"",
@@ -4041,7 +4041,7 @@
 	"wings_of_air": {
 		"name": "Wings of Air",
 		"sources": [ "Occult Adventures" ],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Wings of Air (Sp)",
 			"",
@@ -4058,7 +4058,7 @@
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Wood Healer (Sp)",
 			"",
@@ -4076,7 +4076,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Wood Soldiers (Su)",
 			"",
@@ -4092,7 +4092,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Woodland Step (Su)",
 			"",
@@ -4108,7 +4108,7 @@
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
-		"backwardsLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
+		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
 			"## Woodland Step, Greater (Sp)",
 			"",

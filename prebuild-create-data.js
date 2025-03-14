@@ -366,26 +366,26 @@ const convertDescription = (desc, prefix, tables, openTag = "", closeTag = "") =
 };
 
 const createItem = (info, prop) => {
-	const { title, description, sources, parent_topics, siblings, subtopics, backwardsLink, noFinder } = info;
+	const { title, description, sources, parent_topics, siblings, subtopics, topLink, noFinder } = info;
 	let output = `const _${prop} = {title: "${title}", sources: ${sources ? JSON.stringify(sources) : "[]"}`;
 	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
 	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
-	backwardsLink && (output = output + `, backwardsLink: ${JSON.stringify(backwardsLink)}`);
+	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
 	noFinder && (output = output + ", noFinder: true");
 	output = output + `, jsx: ${description}};`;
 	return output;
 };
 
 const createCopyItem = (info, prop, copy) => {
-	const { title, sources, parent_topics, siblings, subtopics, backwardsLink, noFinder } = info;
+	const { title, sources, parent_topics, siblings, subtopics, topLink, noFinder } = info;
 	let output = `const _${prop} = {..._${copy}`;
 	title && (output = output + `, title: "${title}"`);
 	sources && (output = output + `, sources: ${JSON.stringify(sources)}`);
 	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
 	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
-	backwardsLink && (output = output + `, backwardsLink: ${JSON.stringify(backwardsLink)}`);
+	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
 	noFinder && (output = output + ", noFinder: true");
 	return output + "};";
 };
@@ -482,7 +482,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	Object.entries(data).forEach(([prop, value]) => {
 		const {
 			name: n, title: t, description: d, copyof,
-			sources, tables, backwardsLink, parent_topics,
+			sources, tables, topLink, parent_topics,
 			subtopics, siblings, noFinder
 		} = value;
 		// Convert entities in tables
@@ -520,7 +520,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 				// passes through
 			default:
 				info.title = n;
-				info.backwardsLink = backwardsLink;
+				info.topLink = topLink;
 				copyof || (d && (converted = convertDescription(d, `${link}-${prop}-`, tables)));
 		}
 		const [convertedDescription, newflags] = converted;

@@ -16,7 +16,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"halberd": {
 		"name": "Halberd",
@@ -35,7 +35,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"heavy_flail": {
 		"name": "Heavy flail",
@@ -54,7 +54,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"hooked_lance": {
 		"name": "Hooked lance",
@@ -73,7 +73,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"horsechopper": {
 		"name": "Horsechopper",
@@ -95,7 +95,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"lance": {
 		"name": "Lance",
@@ -114,7 +114,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"lucerne_hammer": {
 		"name": "Lucerne hammer",
@@ -134,7 +134,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"mattock": {
 		"name": "Mattock",
@@ -150,7 +150,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"monks_spade": {
 		"name": "Monk's spade",
@@ -169,7 +169,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Double; Monk; Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"naginata": {
 		"name": "Naginata",
@@ -188,7 +188,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"nodachi": {
 		"name": "Nodachi",
@@ -207,7 +207,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"ogre_hook": {
 		"name": "Ogre hook",
@@ -229,7 +229,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"planson": {
 		"name": "Planson",
@@ -245,7 +245,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Hammers; Spears"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"ranseur": {
 		"name": "Ranseur",
@@ -264,7 +264,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"rhomphaia": {
 		"name": "Rhomphaia",
@@ -279,7 +279,7 @@
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, fragile, reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"sansetsukon": {
 		"name": "Sansetsukon",
@@ -298,7 +298,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Flails; Monk"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"sarissa": {
 		"name": "Sarissa",
@@ -313,7 +313,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"scythe": {
 		"name": "Scythe",
@@ -332,7 +332,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"syringe_spear": {
 		"name": "Syringe spear",
@@ -347,7 +347,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"tepoztopilli": {
 		"name": "Tepoztopilli",
@@ -362,7 +362,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** fragile, reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"tiger_fork": {
 		"name": "Tiger fork",
@@ -381,7 +381,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Monk; Polearms; Spears"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"tri_point_double_edged_sword": {
 		"name": "Tri-point double-edged sword",
@@ -400,7 +400,7 @@
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"amentum": {
 		"name": "Amentum",
@@ -420,7 +420,7 @@
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"atlatl": {
 		"name": "Atlatl",
@@ -439,7 +439,7 @@
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"chakram": {
 		"name": "Chakram",
@@ -460,7 +460,7 @@
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Blades, Light; Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"composite_longbow": {
 		"name": "Composite longbow",
@@ -508,7 +508,7 @@
 			"",
 			"**Cost** 700gp"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"composite_shortbow": {
 		"name": "Composite shortbow",
@@ -556,7 +556,7 @@
 			"",
 			"**Cost** 525gp"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"gastraphetes": {
 		"name": "Gastraphetes",
@@ -571,7 +571,7 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"hunga_munga": {
 		"name": "Hunga munga",
@@ -591,7 +591,7 @@
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"hurlbat": {
 		"name": "Hurlbat",
@@ -606,7 +606,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P and S; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"jolting_dart": {
 		"name": "Jolting dart",
@@ -621,7 +621,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"longbow": {
 		"name": "Longbow",
@@ -641,7 +641,7 @@
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Bows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"phaleros": {
 		"name": "Phaleros",
@@ -656,7 +656,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"pilum": {
 		"name": "Pilum",
@@ -677,7 +677,7 @@
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"poisoned_sand_tube": {
 		"name": "Poisoned sand tube",
@@ -697,7 +697,7 @@
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"reflex_bow": {
 		"name": "Reflex bow",
@@ -712,7 +712,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 100 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"shortbow": {
 		"name": "Shortbow",
@@ -732,7 +732,7 @@
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Bows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"spear_sling": {
 		"name": "Spear-sling",
@@ -749,7 +749,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** see text; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"throwing_arrow_cord": {
 		"name": "Throwing arrow cord",
@@ -764,7 +764,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 60 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"tube_arrow_shooter": {
 		"name": "Tube arrow shooter",
@@ -784,7 +784,7 @@
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"aklys": {
 		"name": "Aklys",
@@ -805,7 +805,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Hammers; Thrown"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"axe_gauntlet_dwarven_light": {
 		"name": "Axe-gauntlet, dwarven light",
@@ -821,7 +821,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes; Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"axe_gauntlet_dwarven_heavy": {
 		"name": "Axe-gauntlet, dwarven heavy",
@@ -837,7 +837,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes; Close"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"barbazu_beard": {
 		"name": "Barbazu beard",
@@ -854,7 +854,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"battle_poi": {
 		"name": "Battle poi",
@@ -873,7 +873,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"butterfly_knife": {
 		"name": "Butterfly knife",
@@ -889,7 +889,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"dan_bong": {
 		"name": "Dan bong",
@@ -908,7 +908,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"deer_horn_knife": {
 		"name": "Deer horn knife",
@@ -924,7 +924,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Monk; Thrown"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"dwarven_maulaxe": {
 		"name": "Dwarven maulaxe",
@@ -942,7 +942,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"elven_leafblade": {
 		"name": "Elven leafblade",
@@ -957,7 +957,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"emei_piercer": {
 		"name": "Emei piercer",
@@ -976,7 +976,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"fighting_fan": {
 		"name": "Fighting fan",
@@ -995,7 +995,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"flying_talon": {
 		"name": "Flying talon",
@@ -1011,7 +1011,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"gnome_pincher": {
 		"name": "Gnome pincher",
@@ -1027,7 +1027,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"halfling_rope_shot": {
 		"name": "Halfling rope-shot",
@@ -1043,7 +1043,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"helmet_dwarven_boulder": {
 		"name": "Helmet, dwarven boulder",
@@ -1058,7 +1058,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"dwarven_boulder_helmet": { "copyof": "helmet_dwarven_boulder" },
 	"kama": {
@@ -1078,7 +1078,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"kasatha_spinal_sword": {
 		"name": "Kasatha spinal sword",
@@ -1093,7 +1093,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** fragile  ",
 			"**Category** Light; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"knuckle_axe": {
 		"name": "Knuckle axe",
@@ -1112,7 +1112,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"nunchaku": {
 		"name": "Nunchaku",
@@ -1131,7 +1131,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails; Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"pata": {
 		"name": "Pata",
@@ -1153,7 +1153,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes; Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"quadrens": {
 		"name": "Quadrens",
@@ -1172,7 +1172,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"razor_drow": {
 		"name": "Razor, drow",
@@ -1188,7 +1188,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"drow_razor": { "copyof": "razor_drow" },
 	"rope_gauntlet": {
@@ -1208,7 +1208,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"sai": {
 		"name": "Sai",
@@ -1227,7 +1227,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"sanpkhang": {
 		"name": "Sanpkhang",
@@ -1243,7 +1243,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"scorpion_whip": {
 		"name": "Scorpion whip",
@@ -1264,7 +1264,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"siangham": {
 		"name": "Siangham",
@@ -1283,7 +1283,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"sica": {
 		"name": "Sica",
@@ -1303,7 +1303,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"swordbreaker_dagger": {
 		"name": "Swordbreaker dagger",
@@ -1323,7 +1323,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"tekko_kagi": {
 		"name": "Tekko-kagi",
@@ -1342,7 +1342,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"wakizashi": {
 		"name": "Wakizashi",
@@ -1361,7 +1361,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"waveblade": {
 		"name": "Waveblade",
@@ -1377,7 +1377,7 @@
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"aldori_dueling_sword": {
 		"name": "Aldori dueling sword",
@@ -1398,7 +1398,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"bastard_sword": {
 		"name": "Bastard sword",
@@ -1417,7 +1417,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"broken_back_seax": {
 		"name": "Broken-back seax",
@@ -1433,7 +1433,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"doru": {
 		"name": "Doru",
@@ -1448,7 +1448,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"dwarven_double_waraxe": {
 		"name": "Dwarven double waraxe",
@@ -1463,7 +1463,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"dwarven_waraxe": {
 		"name": "Dwarven waraxe",
@@ -1482,7 +1482,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"elven_thornblade": {
 		"name": "Elven thornblade",
@@ -1497,7 +1497,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"estoc": {
 		"name": "Estoc",
@@ -1513,7 +1513,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"falcata": {
 		"name": "Falcata",
@@ -1534,7 +1534,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"flindbar": {
 		"name": "Flindbar",
@@ -1552,7 +1552,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B and P; **Special** disarm, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"gnome_flick_mace": {
 		"name": "Gnome flick-mace",
@@ -1565,7 +1565,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"great_terbutje": {
 		"name": "Great terbutje",
@@ -1581,7 +1581,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"hooked_axe": {
 		"name": "Hooked axe",
@@ -1600,7 +1600,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"katana": {
 		"name": "Katana",
@@ -1619,7 +1619,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"khopesh": {
 		"name": "Khopesh",
@@ -1640,7 +1640,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"knobkerrie": {
 		"name": "Knobkerrie",
@@ -1655,7 +1655,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"nine_section_whip": {
 		"name": "Nine-section whip",
@@ -1674,7 +1674,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails; Monk"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"ram_hammer_dwarven": {
 		"name": "Ram hammer, dwarven",
@@ -1690,7 +1690,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Hammers; Thrown"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"dwarven_ram_hammer": { "copyof": "ram_hammer_dwarven" },
 	"rhoka_sword": {
@@ -1711,7 +1711,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"sawtooth_sabre": {
 		"name": "Sawtooth sabre",
@@ -1734,7 +1734,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Blades, Light"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"shotel": {
 		"name": "Shotel",
@@ -1754,7 +1754,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"sickle_sword": {
 		"name": "Sickle-sword",
@@ -1770,7 +1770,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"spiral_rapier": {
 		"name": "Spiral rapier",
@@ -1786,7 +1786,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"split_blade_sword": {
 		"name": "Split-blade sword",
@@ -1802,7 +1802,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"taiaha": {
 		"name": "Taiaha",
@@ -1818,7 +1818,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Hammers"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"temple_sword": {
 		"name": "Temple sword",
@@ -1840,7 +1840,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"tongi": {
 		"name": "Tongi",
@@ -1856,7 +1856,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"urumi": {
 		"name": "Urumi",
@@ -1879,7 +1879,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails; Monk"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"wahaika": {
 		"name": "Wahaika",
@@ -1895,7 +1895,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Hammers"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"whip": {
 		"name": "Whip",
@@ -1918,7 +1918,7 @@
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"barbed_spear": {
 		"name": "Barbed spear",
@@ -1933,7 +1933,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** fragile, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"battle_ladder_gnome": {
 		"name": "Battle ladder, gnome",
@@ -1952,7 +1952,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"gnome_battle_ladder": { "copyof": "battle_ladder_gnome" },
 	"bladed_scarf": {
@@ -1976,7 +1976,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"bo_staff": {
 		"name": "Bo staff",
@@ -1995,7 +1995,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Monk"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"boarding_gaff": {
 		"name": "Boarding gaff",
@@ -2014,7 +2014,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"butchering_axe": {
 		"name": "Butchering axe",
@@ -2030,7 +2030,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"chain_spear": {
 		"name": "Chain spear",
@@ -2053,7 +2053,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Flails; Spears"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"chain_hammer": {
 		"name": "Chain-hammer",
@@ -2069,7 +2069,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Hammers; Thrown"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"crook": {
 		"name": "Crook",
@@ -2085,7 +2085,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"dire_flail": {
 		"name": "Dire flail",
@@ -2104,7 +2104,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Flails"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"dorn_dergar_dwarven": {
 		"name": "Dorn-dergar, dwarven",
@@ -2123,7 +2123,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"double_spear": {
 		"name": "Double spear",
@@ -2139,7 +2139,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"double_chained_kama": {
 		"name": "Double-chained kama",
@@ -2158,7 +2158,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"dwarven_urgrosh": {
 		"name": "Dwarven urgrosh",
@@ -2177,7 +2177,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"elven_branched_spear": {
 		"name": "Elven branched spear",
@@ -2193,7 +2193,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"elven_curve_blade": {
 		"name": "Elven curve blade",
@@ -2215,7 +2215,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"fauchard": {
 		"name": "Fauchard",
@@ -2234,7 +2234,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"flailpole": {
 		"name": "Flailpole",
@@ -2249,7 +2249,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"flambard": {
 		"name": "Flambard",
@@ -2265,7 +2265,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"flask_pike": {
 		"name": "Flask pike",
@@ -2280,7 +2280,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"flying_blade": {
 		"name": "Flying blade",
@@ -2300,7 +2300,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"garrote": {
 		"name": "Garrote",
@@ -2317,7 +2317,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** grapple, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"giant_sticker_dwarven": {
 		"name": "Giant-sticker, dwarven",
@@ -2333,7 +2333,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"gnome_hooked_hammer": {
 		"name": "Gnome hooked hammer",
@@ -2352,7 +2352,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"harpoon": {
 		"name": "Harpoon",
@@ -2372,7 +2372,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"injection_spear": {
 		"name": "Injection spear",
@@ -2390,7 +2390,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"katana_double_walking_stick": {
 		"name": "Katana, double walking stick",
@@ -2409,7 +2409,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"kusarigama": {
 		"name": "Kusarigama",
@@ -2428,7 +2428,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Flails; Monk"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"kyoketsu_shoge": {
 		"name": "Kyoketsu shoge",
@@ -2447,7 +2447,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails; Monk"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"longaxe_dwarven": {
 		"name": "Longaxe, dwarven",
@@ -2462,7 +2462,7 @@
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"dwarven_longaxe": { "copyof": "longaxe_dwarven" },
 	"longhammer_dwarven": {
@@ -2478,7 +2478,7 @@
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"dwarven_longhammer": { "copyof": "longhammer_dwarven" },
 	"mancatcher": {
@@ -2499,7 +2499,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"meteor_hammer": {
 		"name": "Meteor hammer",
@@ -2520,7 +2520,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"orc_double_axe": {
 		"name": "Orc double axe",
@@ -2539,7 +2539,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes; Double"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"orc_skull_ram": {
 		"name": "Orc skull ram",
@@ -2555,7 +2555,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"piston_maul_gnome": {
 		"name": "Piston maul, gnome",
@@ -2574,7 +2574,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Hammers"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"gnome_piston_maul": { "copyof": "piston_maul_gnome" },
 	"ripsaw_glaive_gnome": {
@@ -2594,7 +2594,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"gnome_ripsaw_glaive": { "copyof": "ripsaw_glaive_gnome" },
 	"seven_branched_sword": {
@@ -2614,7 +2614,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"sphinx_hammer_dwarven": {
 		"name": "Sphinx hammer, dwarven",
@@ -2630,7 +2630,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Hammers; Thrown"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"dwarven_sphinx_hammer": { "copyof": "sphinx_hammer_dwarven" },
 	"spiked_chain": {
@@ -2650,7 +2650,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"switchscythe": {
 		"name": "Switchscythe",
@@ -2666,7 +2666,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"tetsubo": {
 		"name": "Tetsubo",
@@ -2685,7 +2685,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Hammers"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"totem_spear": {
 		"name": "Totem spear",
@@ -2703,7 +2703,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P or B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"two_bladed_sword": {
 		"name": "Two-bladed sword",
@@ -2722,7 +2722,7 @@
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Double"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"bolas": {
 		"name": "Bolas",
@@ -2742,7 +2742,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"boomerang": {
 		"name": "Boomerang",
@@ -2763,7 +2763,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"crystal_chakram": {
 		"name": "Crystal chakram",
@@ -2778,7 +2778,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"dire_bolas": {
 		"name": "Dire bolas",
@@ -2793,7 +2793,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** nonlethal, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"double_crossbow": {
 		"name": "Double crossbow",
@@ -2816,7 +2816,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"flask_thrower": {
 		"name": "Flask thrower",
@@ -2835,7 +2835,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"grappling_hook": {
 		"name": "Grappling hook",
@@ -2859,7 +2859,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** grapple  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"halfling_double_sling": {
 		"name": "Halfling double sling",
@@ -2876,7 +2876,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** double (see text)  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"halfling_sling_staff": {
 		"name": "Halfling sling staff",
@@ -2900,7 +2900,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"halfling_stitched_sling": {
 		"name": "Halfling stitched sling",
@@ -2915,7 +2915,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"hand_crossbow": {
 		"name": "Hand crossbow",
@@ -2937,7 +2937,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"heavy_crank_crossbow": {
 		"name": "Heavy crank crossbow",
@@ -2952,7 +2952,7 @@
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"heavy_slavers_crossbow": {
 		"name": "Heavy slaver's crossbow",
@@ -2967,7 +2967,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/see \"bolas bolts\" text; **Range** 80 ft.; **Type** B; **Special** nonlethal, trip, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"heavy_wrist_launcher": {
 		"name": "Heavy wrist launcher",
@@ -2982,7 +2982,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"hornbow_orc": {
 		"name": "Hornbow, orc",
@@ -2998,7 +2998,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Bows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"orc_hornbow": { "copyof": "hornbow_orc" },
 	"horse_bow": {
@@ -3014,7 +3014,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 110 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"kestros": {
 		"name": "Kestros",
@@ -3033,7 +3033,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"lasso": {
 		"name": "Lasso",
@@ -3054,7 +3054,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"launching_crossbow": {
 		"name": "Launching crossbow",
@@ -3070,7 +3070,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"light_crank_crossbow": {
 		"name": "Light crank crossbow",
@@ -3085,7 +3085,7 @@
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"light_slavers_crossbow": {
 		"name": "Light slaver's crossbow",
@@ -3100,7 +3100,7 @@
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/see \"bolas bolts\" text; **Range** 40 ft.; **Type** B; **Special** nonlethal, trip, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"net": {
 		"name": "Net",
@@ -3124,7 +3124,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"pelletbow_dwarven_heavy": {
 		"name": "Pelletbow, dwarven heavy",
@@ -3142,7 +3142,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"dwarven_heavy_pelletbow": { "copyof": "pelletbow_dwarven_heavy" },
 	"pelletbow_dwarven_light": {
@@ -3161,7 +3161,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"dwarven_light_pelletbow": { "copyof": "pelletbow_dwarven_light" },
 	"repeating_hand_crossbow": {
@@ -3181,7 +3181,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"repeating_heavy_crossbow": {
 		"name": "Repeating heavy crossbow",
@@ -3203,7 +3203,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"repeating_light_crossbow": {
 		"name": "Repeating light crossbow",
@@ -3223,7 +3223,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Crossbows"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"light_repeating_crossbow": { "copyof": "repeating_light_crossbow" },
 	"rope_dart": {
@@ -3244,7 +3244,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Monk; Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"shoanti_bolas": {
 		"name": "Shoanti bolas",
@@ -3266,7 +3266,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"shrillshaft_javelin": {
 		"name": "Shrillshaft javelin",
@@ -3281,7 +3281,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"shuriken": {
 		"name": "Shuriken",
@@ -3300,7 +3300,7 @@
 			"**Damage** 1 (small), 1d2 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** monk  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"sling_glove": {
 		"name": "Sling glove",
@@ -3319,7 +3319,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"snag_net": {
 		"name": "Snag net",
@@ -3339,7 +3339,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"stormshaft_javelin": {
 		"name": "Stormshaft javelin",
@@ -3355,7 +3355,7 @@
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"thorn_bow": {
 		"name": "Thorn bow",
@@ -3374,7 +3374,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 40 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"wrist_launcher": {
 		"name": "Wrist launcher",
@@ -3389,7 +3389,7 @@
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"claw_blades": {
 		"name": "Claw blades",
@@ -3404,7 +3404,7 @@
 			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** S; **Special** catfolk only, see description  ",
 			"**Category** Light; **Proficiency** Special"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"kobold_tail_long_lash": {
 		"name": "Kobold tail, long lash",
@@ -3442,7 +3442,7 @@
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** trip  ",
 			"**Category** Light; **Proficiency** Special"
 		],
-		"backwardsLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
 	"long_lash_kobold_tail": { "copyof": "kobold_tail_long_lash" },
 	"long_lash": { "copyof": "kobold_tail_long_lash" },
@@ -3481,7 +3481,7 @@
 			"**Misfire** 1 (5 ft.); **Capacity** 2  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"buckler_gun": {
 		"name": "Buckler gun",
@@ -3500,7 +3500,7 @@
 			"**Misfire** 1 (5 ft.); **Capacity** 2  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"coat_pistol": {
 		"name": "Coat pistol",
@@ -3519,7 +3519,7 @@
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"dagger_pistol": {
 		"name": "Dagger pistol",
@@ -3538,7 +3538,7 @@
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"double_barreled_pistol": {
 		"name": "Double-barreled pistol",
@@ -3557,7 +3557,7 @@
 			"**Misfire** 1-2 (5 ft.); **Capacity** 2  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"dragon_pistol": {
 		"name": "Dragon pistol",
@@ -3576,7 +3576,7 @@
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"dragoon_pistol": {
 		"name": "Dragoon Pistol",
@@ -3592,7 +3592,7 @@
 			"**Misfire** 1 (5 ft.); **Capacity** 3  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"paddle_foot_pistol": {
 		"name": "Paddle-foot pistol",
@@ -3608,7 +3608,7 @@
 			"**Misfire** 1-2 (5 ft.); **Capacity** 4  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"pepperbox": {
 		"name": "Pepperbox",
@@ -3627,7 +3627,7 @@
 			"**Misfire** 1-2 (5 ft.); **Capacity** 6  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"pistol": {
 		"name": "Pistol",
@@ -3648,7 +3648,7 @@
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"sword_cane_pistol": {
 		"name": "Sword cane pistol",
@@ -3667,7 +3667,7 @@
 			"**Misfire** 1 (5 ft.); **Capacity** 1  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"air_repeater": {
 		"name": "Air repeater",
@@ -3683,7 +3683,7 @@
 			"**Misfire** 1 (see text); **Capacity** 6  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"axe_musket": {
 		"name": "Axe musket",
@@ -3702,7 +3702,7 @@
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"blunderbuss": {
 		"name": "Blunderbuss",
@@ -3721,7 +3721,7 @@
 			"**Misfire** 1-2 (10 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"culverin": {
 		"name": "Culverin",
@@ -3740,7 +3740,7 @@
 			"**Misfire** 1 (10 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"cylinder_rifle": {
 		"name": "Cylinder rifle",
@@ -3756,7 +3756,7 @@
 			"**Misfire** 1-3 (10 ft.); **Capacity** 8  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"double_hackbut": {
 		"name": "Double hackbut",
@@ -3775,7 +3775,7 @@
 			"**Misfire** 1-2 (5 ft.); **Capacity** 2  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"double_barreled_musket": {
 		"name": "Double-barreled musket",
@@ -3794,7 +3794,7 @@
 			"**Misfire** 1-3 (5 ft.); **Capacity** 2  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"dragoon_musket": {
 		"name": "Dragoon Musket",
@@ -3810,7 +3810,7 @@
 			"**Misfire** 1-2 (5 ft.); **Capacity** 3  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"fire_lance": {
 		"name": "Fire lance",
@@ -3829,7 +3829,7 @@
 			"**Misfire** 1-4 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"musket": {
 		"name": "Musket",
@@ -3848,7 +3848,7 @@
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"warhammer_musket": {
 		"name": "Warhammer musket",
@@ -3867,7 +3867,7 @@
 			"**Misfire** 1-2 (5 ft.); **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"radium_pistol": {
 		"name": "Radium pistol",
@@ -3889,7 +3889,7 @@
 			"**Misfire** 1; **Capacity** 6  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"revolver": {
 		"name": "Revolver",
@@ -3908,7 +3908,7 @@
 			"**Misfire** 1; **Capacity** 6  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
 	"double_barreled_shotgun": {
 		"name": "Double-barreled shotgun",
@@ -3927,7 +3927,7 @@
 			"**Misfire** 1-2; **Capacity** 2  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"pepperbox_rifle": {
 		"name": "Pepperbox rifle",
@@ -3946,7 +3946,7 @@
 			"**Misfire** 1-2; **Capacity** 4  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"radium_rifle": {
 		"name": "Radium rifle",
@@ -3968,7 +3968,7 @@
 			"**Misfire** 1; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"rifle": {
 		"name": "Rifle",
@@ -3989,7 +3989,7 @@
 			"**Misfire** 1; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"shotgun": {
 		"name": "Shotgun",
@@ -4010,7 +4010,7 @@
 			"**Misfire** 1-2; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"thark_rifle": {
 		"name": "Thark rifle",
@@ -4032,7 +4032,7 @@
 			"**Misfire** 1-2; **Capacity** 1  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
 	"air_reservoir": {
 		"name": "Air reservoir",
@@ -4046,7 +4046,7 @@
 			"**Cost** 6 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"alchemical_cartridge": {
 		"name": "Alchemical cartridge (dragon's breath)",
@@ -4118,7 +4118,7 @@
 			"**Cost** 100 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"alchemical_cartridge_dragons_breath": {
 		"name": "Alchemical cartridge (dragon's breath)",
@@ -4225,7 +4225,7 @@
 			"**Cost** 10 gp (dose)/1,000gp (keg) **Weight** - (dose)/5 lbs. (keg)  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"black_powder": { "copyof": "black_powder_dose" },
 	"black_powder_keg": {
@@ -4244,7 +4244,7 @@
 			"**Cost** 61 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"adamantine_bullet": { "copyof": "bullet_adamantine" },
 	"bullet_screaming": {
@@ -4259,7 +4259,7 @@
 			"**Cost** 20 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"screaming_bullet": { "copyof": "bullet_screaming" },
 	"dragoon_cartridge": {
@@ -4276,7 +4276,7 @@
 			"**Cost** 30 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"firearm_bullet": {
 		"name": "Firearm bullet",
@@ -4296,7 +4296,7 @@
 			"",
 			"**Note:** Weight is approximate, based on 30 bullets weighing half a pound."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"firearm_bullet_silver": {
 		"name": "Firearm bullet, silver",
@@ -4312,7 +4312,7 @@
 			"",
 			"**Note:** Weight is based on 30 regular bullets weighing half a pound."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"silver_firearm_bullet": { "copyof": "firearm_bullet_silver" },
 	"gunsmiths_kit": {
@@ -4327,7 +4327,7 @@
 			"**Cost** 15 gp **Weight** 2 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"metal_cartridge": {
 		"name": "Metal cartridge",
@@ -4344,7 +4344,7 @@
 			"**Cost** 15 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"pellets_handful": {
 		"name": "Pellets (handful)",
@@ -4363,7 +4363,7 @@
 			"",
 			"**Note:** Weight is approximate, based on 30 handfuls weighing half a pound."
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"pitted_bullet": {
 		"name": "Pitted bullet",
@@ -4380,7 +4380,7 @@
 			"**Cost** 5 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"powder_horn": {
 		"name": "Powder horn",
@@ -4398,7 +4398,7 @@
 			"**Cost** 3 gp **Weight** 1 lb.  ",
 			"**Category** Ammunition; **Proficiency** Exotic"
 		],
-		"backwardsLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
+		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
 	"maxim_m1910_machine_gun": {
 		"name": "Maxim M1910 machine gun",

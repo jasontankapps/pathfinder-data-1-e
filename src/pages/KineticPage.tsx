@@ -12,14 +12,14 @@ const KineticPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, backwardsLink } = getItem<Data>(id, talents);
+	const { hasJL, title, jsx, sources, topLink } = getItem<Data>(id, talents);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
 		pageId={"/kinetic/" + id}
-		topLink={backwardsLink}
+		topLink={topLink}
 	>{jsx}</BasicPage>;
 };
 
