@@ -1,6 +1,6 @@
 {
 	"dragon_black_adult_black_dragon": {
-		"name": "Dragon (Black), Adult Black Dragon",
+		"name": "Adult Black Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Adult Black Dragon]{cr=\"11\"}",
@@ -54,7 +54,7 @@
 	},
 	"adult_black_dragon": { "copyof": "dragon_black_adult_black_dragon" },
 	"dragon_black_ancient_black_dragon": {
-		"name": "Dragon (Black), Ancient Black Dragon",
+		"name": "Ancient Black Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Ancient Black Dragon]{cr=\"16\"}",
@@ -112,7 +112,7 @@
 	},
 	"ancient_black_dragon": { "copyof": "dragon_black_ancient_black_dragon" },
 	"dragon_black_young_black_dragon": {
-		"name": "Dragon (Black), Young Black Dragon",
+		"name": "Young Black Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Hissing green acid drips from the fanged maw of this black-scaled, horned dragon.*",
@@ -161,7 +161,7 @@
 	},
 	"young_black_dragon": { "copyof": "dragon_black_young_black_dragon" },
 	"dragon_blue_adult_blue_dragon": {
-		"name": "Dragon (Blue), Adult Blue Dragon",
+		"name": "Adult Blue Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Adult Blue Dragon]{cr=\"13\"}",
@@ -245,7 +245,7 @@
 	},
 	"adult_blue_dragon": { "copyof": "dragon_blue_adult_blue_dragon" },
 	"dragon_blue_ancient_blue_dragon": {
-		"name": "Dragon (Blue), Ancient Blue Dragon",
+		"name": "Ancient Blue Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Ancient Blue Dragon]{cr=\"18\"}",
@@ -304,7 +304,7 @@
 	},
 	"ancient_blue_dragon": { "copyof": "dragon_blue_ancient_blue_dragon" },
 	"dragon_blue_young_blue_dragon": {
-		"name": "Dragon (Blue), Young Blue Dragon",
+		"name": "Young Blue Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*With scales the color of the desert sky, this large, serpentine dragon moves with an unsettling grace.*",
@@ -356,7 +356,7 @@
 	},
 	"young_blue_dragon": { "copyof": "dragon_blue_young_blue_dragon" },
 	"dragon_brass_adult_brass_dragon": {
-		"name": "Dragon (Brass), Adult Brass Dragon",
+		"name": "Adult Brass Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Adult Brass Dragon]{cr=\"11\"}",
@@ -412,7 +412,7 @@
 	},
 	"adult_brass_dragon": { "copyof": "dragon_brass_adult_brass_dragon" },
 	"dragon_brass_ancient_brass_dragon": {
-		"name": "Dragon (Brass), Ancient Brass Dragon",
+		"name": "Ancient Brass Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Ancient Brass Dragon]{cr=\"16\"}",
@@ -472,7 +472,7 @@
 	},
 	"ancient_brass_dragon": { "copyof": "dragon_brass_ancient_brass_dragon" },
 	"dragon_brass_young_brass_dragon": {
-		"name": "Dragon (Brass), Young Brass Dragon",
+		"name": "Young Brass Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A crest of horns sweeps back from the head of this dragon, leading to a long neck and serpentine brass body.*",
@@ -528,7 +528,7 @@
 	},
 	"young_brass_dragon": { "copyof": "dragon_brass_young_brass_dragon" },
 	"dragon_bronze_adult_bronze_dragon": {
-		"name": "Dragon (Bronze), Adult Bronze Dragon",
+		"name": "Adult Bronze Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Adult Bronze Dragon]{cr=\"13\"}",
@@ -584,7 +584,7 @@
 	},
 	"adult_bronze_dragon": { "copyof": "dragon_bronze_adult_bronze_dragon" },
 	"dragon_bronze_ancient_bronze_dragon": {
-		"name": "Dragon (Bronze), Ancient Bronze Dragon",
+		"name": "Ancient Bronze Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Ancient Bronze Dragon]{cr=\"18\"}",
@@ -644,7 +644,7 @@
 	},
 	"ancient_bronze_dragon": { "copyof": "dragon_bronze_ancient_bronze_dragon" },
 	"dragon_bronze_young_bronze_dragon": {
-		"name": "Dragon (Bronze), Young Bronze Dragon",
+		"name": "Young Bronze Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This sleek dragon is covered in dull metallic scales that range in color from shining bronze to mottled blue.*",
@@ -698,7 +698,7 @@
 	},
 	"young_bronze_dragon": { "copyof": "dragon_bronze_young_bronze_dragon" },
 	"dragon_copper_adult_copper_dragon": {
-		"name": "Dragon (Copper), Adult Copper Dragon",
+		"name": "Adult Copper Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Adult Copper Dragon]{cr=\"12\"}",
@@ -754,7 +754,7 @@
 	},
 	"adult_copper_dragon": { "copyof": "dragon_copper_adult_copper_dragon" },
 	"dragon_copper_ancient_copper_dragon": {
-		"name": "Dragon (Copper), Ancient Copper Dragon",
+		"name": "Ancient Copper Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Ancient Copper Dragon]{cr=\"17\"}",
@@ -814,7 +814,7 @@
 	},
 	"ancient_copper_dragon": { "copyof": "dragon_copper_ancient_copper_dragon" },
 	"dragon_copper_young_copper_dragon": {
-		"name": "Dragon (Copper), Young Copper Dragon",
+		"name": "Young Copper Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Bright, shining copper scales run from the horn-crowned head to the ridged tail of this long-winged dragon.*",
@@ -868,7 +868,7 @@
 	},
 	"young_copper_dragon": { "copyof": "dragon_copper_young_copper_dragon" },
 	"dragon_gold_adult_gold_dragon": {
-		"name": "Dragon (Gold), Adult Gold Dragon",
+		"name": "Adult Gold Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Adult Gold Dragon]{cr=\"15\"}",
@@ -925,7 +925,7 @@
 	},
 	"adult_gold_dragon": { "copyof": "dragon_gold_adult_gold_dragon" },
 	"dragon_gold_ancient_gold_dragon": {
-		"name": "Dragon (Gold), Ancient Gold Dragon",
+		"name": "Ancient Gold Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Ancient Gold Dragon]{cr=\"20\"}",
@@ -986,7 +986,7 @@
 	},
 	"ancient_gold_dragon": { "copyof": "dragon_gold_ancient_gold_dragon" },
 	"dragon_gold_young_gold_dragon": {
-		"name": "Dragon (Gold), Young Gold Dragon",
+		"name": "Young Gold Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Golden scales cover the body of this majestic dragon, and a regal crest of horns arches backward above wise and piercing eyes.*",
@@ -1041,7 +1041,7 @@
 	},
 	"young_gold_dragon": { "copyof": "dragon_gold_young_gold_dragon" },
 	"dragon_green_adult_green_dragon": {
-		"name": "Dragon (Green), Adult Green Dragon",
+		"name": "Adult Green Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Adult Green Dragon]{cr=\"12\"}",
@@ -1096,7 +1096,7 @@
 	},
 	"adult_green_dragon": { "copyof": "dragon_green_adult_green_dragon" },
 	"dragon_green_ancient_green_dragon": {
-		"name": "Dragon (Green), Ancient Green Dragon",
+		"name": "Ancient Green Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Ancient Green Dragon]{cr=\"17\"}",
@@ -1155,7 +1155,7 @@
 	},
 	"ancient_green_dragon": { "copyof": "dragon_green_ancient_green_dragon" },
 	"dragon_green_young_green_dragon": {
-		"name": "Dragon (Green), Young Green Dragon",
+		"name": "Young Green Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Scales the color of emeralds armor this ferocious dragon. A single sharp horn protrudes from the end of its toothy snout.*",
@@ -1207,7 +1207,7 @@
 	},
 	"young_green_dragon": { "copyof": "dragon_green_young_green_dragon" },
 	"dragon_planar_apocalypse_adult_apocalypse_dragon": {
-		"name": "Dragon (Planar, Apocalypse), Adult Apocalypse Dragon",
+		"name": "Adult Apocalypse Dragon",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"*Gangrenous wounds mar this dragon's twisted body.*",
@@ -1257,7 +1257,7 @@
 	},
 	"adult_apocalypse_dragon": { "copyof": "dragon_planar_apocalypse_adult_apocalypse_dragon" },
 	"dragon_planar_apocalypse_ancient_apocalypse_dragon": {
-		"name": "Dragon (Planar, Apocalypse), Ancient Apocalypse Dragon",
+		"name": "Ancient Apocalypse Dragon",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"*Gangrenous wounds mar this dragon's twisted body.*",
@@ -1311,7 +1311,7 @@
 	},
 	"ancient_apocalypse_dragon": { "copyof": "dragon_planar_apocalypse_ancient_apocalypse_dragon" },
 	"dragon_planar_apocalypse_young_apocalypse_dragon": {
-		"name": "Dragon (Planar, Apocalypse), Young Apocalypse Dragon",
+		"name": "Young Apocalypse Dragon",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"*Gangrenous wounds mar this dragon's twisted body.*",
@@ -1357,7 +1357,7 @@
 	},
 	"young_apocalypse_dragon": { "copyof": "dragon_planar_apocalypse_young_apocalypse_dragon" },
 	"dragon_planar_bliss_adult_bliss_dragon": {
-		"name": "Dragon (Planar, Bliss), Adult Bliss Dragon",
+		"name": "Adult Bliss Dragon",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"*This serene dragon's feathered form emits a comforting warmth.*",
@@ -1407,7 +1407,7 @@
 	},
 	"adult_bliss_dragon": { "copyof": "dragon_planar_bliss_adult_bliss_dragon" },
 	"dragon_planar_bliss_ancient_bliss_dragon": {
-		"name": "Dragon (Planar, Bliss), Ancient Bliss Dragon",
+		"name": "Ancient Bliss Dragon",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"*This serene dragon's feathered form emits a comforting warmth.*",
@@ -1461,7 +1461,7 @@
 	},
 	"ancient_bliss_dragon": { "copyof": "dragon_planar_bliss_ancient_bliss_dragon" },
 	"dragon_planar_bliss_young_bliss_dragon": {
-		"name": "Dragon (Planar, Bliss), Young Bliss Dragon",
+		"name": "Young Bliss Dragon",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"*This serene dragon's feathered form emits a comforting warmth.*",
@@ -1508,7 +1508,7 @@
 	},
 	"young_bliss_dragon": { "copyof": "dragon_planar_bliss_young_bliss_dragon" },
 	"dragon_planar_crypt_adult_crypt_dragon": {
-		"name": "Dragon (Planar, Crypt), Adult Crypt Dragon",
+		"name": "Adult Crypt Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.*",
@@ -1564,7 +1564,7 @@
 	},
 	"adult_crypt_dragon": { "copyof": "dragon_planar_crypt_adult_crypt_dragon" },
 	"dragon_planar_crypt_ancient_crypt_dragon": {
-		"name": "Dragon (Planar, Crypt), Ancient Crypt Dragon",
+		"name": "Ancient Crypt Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.*",
@@ -1624,7 +1624,7 @@
 	},
 	"ancient_crypt_dragon": { "copyof": "dragon_planar_crypt_ancient_crypt_dragon" },
 	"dragon_planar_crypt_young_crypt_dragon": {
-		"name": "Dragon (Planar, Crypt), Young Crypt Dragon",
+		"name": "Young Crypt Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.*",
@@ -1677,7 +1677,7 @@
 	},
 	"young_crypt_dragon": { "copyof": "dragon_planar_crypt_young_crypt_dragon" },
 	"dragon_planar_edict_adult_edict_dragon": {
-		"name": "Dragon (Planar, Edict), Adult Edict Dragon",
+		"name": "Adult Edict Dragon",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
 			"::mh[Adult Edict Dragon]{cr=\"16\"}",
@@ -1731,7 +1731,7 @@
 	},
 	"adult_edict_dragon": { "copyof": "dragon_planar_edict_adult_edict_dragon" },
 	"dragon_planar_edict_ancient_edict_dragon": {
-		"name": "Dragon (Planar, Edict), Ancient Edict Dragon",
+		"name": "Ancient Edict Dragon",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
 			"::mh[Ancient Edict Dragon]{cr=\"21\"}",
@@ -1789,7 +1789,7 @@
 	},
 	"ancient_edict_dragon": { "copyof": "dragon_planar_edict_ancient_edict_dragon" },
 	"dragon_planar_edict_young_edict_dragon": {
-		"name": "Dragon (Planar, Edict), Young Edict Dragon",
+		"name": "Young Edict Dragon",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
 			"::mh[Young Edict Dragon]{cr=\"12\"}",
@@ -1839,7 +1839,7 @@
 	},
 	"young_edict_dragon": { "copyof": "dragon_planar_edict_young_edict_dragon" },
 	"dragon_planar_havoc_adult_havoc_dragon": {
-		"name": "Dragon (Planar, Havoc), Adult Havoc Dragon",
+		"name": "Adult Havoc Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This dragon's scales and insectile wings dance with color, while its whiplike tail waves as if stirred by an unseen breeze.*",
@@ -1895,7 +1895,7 @@
 	},
 	"adult_havoc_dragon": { "copyof": "dragon_planar_havoc_adult_havoc_dragon" },
 	"dragon_planar_havoc_ancient_havoc_dragon": {
-		"name": "Dragon (Planar, Havoc), Ancient Havoc Dragon",
+		"name": "Ancient Havoc Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This dragon's scales and insectile wings dance with color, while its whiplike tail waves as if stirred by an unseen breeze.*",
@@ -1955,7 +1955,7 @@
 	},
 	"ancient_havoc_dragon": { "copyof": "dragon_planar_havoc_ancient_havoc_dragon" },
 	"dragon_planar_havoc_young_havoc_dragon": {
-		"name": "Dragon (Planar, Havoc), Young Havoc Dragon",
+		"name": "Young Havoc Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This dragon's scales and insectile wings dance with color, while its whiplike tail waves as if stirred by an unseen breeze.*",
@@ -2008,7 +2008,7 @@
 	},
 	"young_havoc_dragon": { "copyof": "dragon_planar_havoc_young_havoc_dragon" },
 	"dragon_planar_infernal_adult_infernal_dragon": {
-		"name": "Dragon (Planar, Infernal), Adult Infernal Dragon",
+		"name": "Adult Infernal Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*Cruel horns frame this dragon's head. Its body glows faintly with malicious heat.*",
@@ -2064,7 +2064,7 @@
 	},
 	"adult_infernal_dragon": { "copyof": "dragon_planar_infernal_adult_infernal_dragon" },
 	"dragon_planar_infernal_ancient_infernal_dragon": {
-		"name": "Dragon (Planar, Infernal), Ancient Infernal Dragon",
+		"name": "Ancient Infernal Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*Cruel horns frame this dragon's head. Its body glows faintly with malicious heat.*",
@@ -2126,7 +2126,7 @@
 	},
 	"ancient_infernal_dragon": { "copyof": "dragon_planar_infernal_ancient_infernal_dragon" },
 	"dragon_planar_infernal_young_infernal_dragon": {
-		"name": "Dragon (Planar, Infernal), Young Infernal Dragon",
+		"name": "Young Infernal Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*Cruel horns frame this dragon's head. Its body glows faintly with malicious heat.*",
@@ -2178,7 +2178,7 @@
 	},
 	"young_infernal_dragon": { "copyof": "dragon_planar_infernal_young_infernal_dragon" },
 	"dragon_planar_paradise_adult_paradise_dragon": {
-		"name": "Dragon (Planar, Paradise), Adult Paradise Dragon",
+		"name": "Adult Paradise Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light.*",
@@ -2234,7 +2234,7 @@
 	},
 	"adult_paradise_dragon": { "copyof": "dragon_planar_paradise_adult_paradise_dragon" },
 	"dragon_planar_paradise_ancient_paradise_dragon": {
-		"name": "Dragon (Planar, Paradise), Ancient Paradise Dragon",
+		"name": "Ancient Paradise Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light.*",
@@ -2294,7 +2294,7 @@
 	},
 	"ancient_paradise_dragon": { "copyof": "dragon_planar_paradise_ancient_paradise_dragon" },
 	"dragon_planar_paradise_young_paradise_dragon": {
-		"name": "Dragon (Planar, Paradise), Young Paradise Dragon",
+		"name": "Young Paradise Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light.*",
@@ -2347,7 +2347,7 @@
 	},
 	"young_paradise_dragon": { "copyof": "dragon_planar_paradise_young_paradise_dragon" },
 	"dragon_planar_rift_adult_rift_dragon": {
-		"name": "Dragon (Planar, Rift), Adult Rift Dragon",
+		"name": "Adult Rift Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth.*",
@@ -2403,7 +2403,7 @@
 	},
 	"adult_rift_dragon": { "copyof": "dragon_planar_rift_adult_rift_dragon" },
 	"dragon_planar_rift_ancient_rift_dragon": {
-		"name": "Dragon (Planar, Rift), Ancient Rift Dragon",
+		"name": "Ancient Rift Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth.*",
@@ -2463,7 +2463,7 @@
 	},
 	"ancient_rift_dragon": { "copyof": "dragon_planar_rift_ancient_rift_dragon" },
 	"dragon_planar_rift_young_rift_dragon": {
-		"name": "Dragon (Planar, Rift), Young Rift Dragon",
+		"name": "Young Rift Dragon",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth.*",
@@ -2515,7 +2515,7 @@
 	},
 	"young_rift_dragon": { "copyof": "dragon_planar_rift_young_rift_dragon" },
 	"dragon_planar_tumult_adult_tumult_dragon": {
-		"name": "Dragon (Planar, Tumult), Adult Tumult Dragon",
+		"name": "Adult Tumult Dragon",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"*This dragon seems to be made of parts from different creatures.*",
@@ -2565,7 +2565,7 @@
 	},
 	"adult_tumult_dragon": { "copyof": "dragon_planar_tumult_adult_tumult_dragon" },
 	"dragon_planar_tumult_ancient_tumult_dragon": {
-		"name": "Dragon (Planar, Tumult), Ancient Tumult Dragon",
+		"name": "Ancient Tumult Dragon",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"*This dragon seems to be made of parts from different creatures.*",
@@ -2619,7 +2619,7 @@
 	},
 	"ancient_tumult_dragon": { "copyof": "dragon_planar_tumult_ancient_tumult_dragon" },
 	"dragon_planar_tumult_young_tumult_dragon": {
-		"name": "Dragon (Planar, Tumult), Young Tumult Dragon",
+		"name": "Young Tumult Dragon",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"*This dragon seems to be made of parts from different creatures.*",
@@ -2665,7 +2665,7 @@
 	},
 	"young_tumult_dragon": { "copyof": "dragon_planar_tumult_young_tumult_dragon" },
 	"dragon_primal_brine_adult_brine_dragon": {
-		"name": "Dragon (Primal, Brine), Adult Brine Dragon",
+		"name": "Adult Brine Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Adult Brine Dragon]{cr=\"11\"}",
@@ -2721,7 +2721,7 @@
 	},
 	"adult_brine_dragon": { "copyof": "dragon_primal_brine_adult_brine_dragon" },
 	"dragon_primal_brine_ancient_brine_dragon": {
-		"name": "Dragon (Primal, Brine), Ancient Brine Dragon",
+		"name": "Ancient Brine Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Ancient Brine Dragon]{cr=\"16\"}",
@@ -2782,7 +2782,7 @@
 	},
 	"ancient_brine_dragon": { "copyof": "dragon_primal_brine_ancient_brine_dragon" },
 	"dragon_primal_brine_young_brine_dragon": {
-		"name": "Dragon (Primal, Brine), Young Brine Dragon",
+		"name": "Young Brine Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A blue-green neck frill sweeps back from the head of this dragon, leading to a body of shiny scales and fin-like crests.*",
@@ -2836,7 +2836,7 @@
 	},
 	"young_brine_dragon": { "copyof": "dragon_primal_brine_young_brine_dragon" },
 	"dragon_primal_cloud_adult_cloud_dragon": {
-		"name": "Dragon (Primal, Cloud), Adult Cloud Dragon",
+		"name": "Adult Cloud Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Adult Cloud Dragon]{cr=\"13\"}",
@@ -2891,7 +2891,7 @@
 	},
 	"adult_cloud_dragon": { "copyof": "dragon_primal_cloud_adult_cloud_dragon" },
 	"dragon_primal_cloud_ancient_cloud_dragon": {
-		"name": "Dragon (Primal, Cloud), Ancient Cloud Dragon",
+		"name": "Ancient Cloud Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Ancient Cloud Dragon]{cr=\"18\"}",
@@ -2951,7 +2951,7 @@
 	},
 	"ancient_cloud_dragon": { "copyof": "dragon_primal_cloud_ancient_cloud_dragon" },
 	"dragon_primal_cloud_young_cloud_dragon": {
-		"name": "Dragon (Primal, Cloud), Young Cloud Dragon",
+		"name": "Young Cloud Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*The blue-white scales of this four-horned dragon exude wisps of fog. The dragon's snout is short but filled with sharp teeth.*",
@@ -3001,7 +3001,7 @@
 	},
 	"young_cloud_dragon": { "copyof": "dragon_primal_cloud_young_cloud_dragon" },
 	"dragon_primal_crystal_adult_crystal_dragon": {
-		"name": "Dragon (Primal, Crystal), Adult Crystal Dragon",
+		"name": "Adult Crystal Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Adult Crystal Dragon]{cr=\"10\"}",
@@ -3057,7 +3057,7 @@
 	},
 	"adult_crystal_dragon": { "copyof": "dragon_primal_crystal_adult_crystal_dragon" },
 	"dragon_primal_crystal_ancient_crystal_dragon": {
-		"name": "Dragon (Primal, Crystal), Ancient Crystal Dragon",
+		"name": "Ancient Crystal Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Ancient Crystal Dragon]{cr=\"15\"}",
@@ -3117,7 +3117,7 @@
 	},
 	"ancient_crystal_dragon": { "copyof": "dragon_primal_crystal_ancient_crystal_dragon" },
 	"dragon_primal_crystal_young_crystal_dragon": {
-		"name": "Dragon (Primal, Crystal), Young Crystal Dragon",
+		"name": "Young Crystal Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This brilliantly colored dragon has scales, teeth, and claws made of multicolored crystal, and its wings are sheets of flexible glass.*",
@@ -3171,7 +3171,7 @@
 	},
 	"young_crystal_dragon": { "copyof": "dragon_primal_crystal_young_crystal_dragon" },
 	"dragon_primal_magma_adult_magma_dragon": {
-		"name": "Dragon (Primal, Magma), Adult Magma Dragon",
+		"name": "Adult Magma Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Adult Magma Dragon]{cr=\"12\"}",
@@ -3228,7 +3228,7 @@
 	},
 	"adult_magma_dragon": { "copyof": "dragon_primal_magma_adult_magma_dragon" },
 	"dragon_primal_magma_ancient_magma_dragon": {
-		"name": "Dragon (Primal, Magma), Ancient Magma Dragon",
+		"name": "Ancient Magma Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Ancient Magma Dragon]{cr=\"17\"}",
@@ -3291,7 +3291,7 @@
 	},
 	"ancient_magma_dragon": { "copyof": "dragon_primal_magma_ancient_magma_dragon" },
 	"dragon_primal_magma_young_magma_dragon": {
-		"name": "Dragon (Primal, Magma), Young Magma Dragon",
+		"name": "Young Magma Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Between this dragon's jet-black scales run glowing rivulets of lava, and veins aglow with heat shine in the membranes of its wings.*",
@@ -3346,7 +3346,7 @@
 	},
 	"young_magma_dragon": { "copyof": "dragon_primal_magma_young_magma_dragon" },
 	"dragon_primal_umbral_adult_umbral_dragon": {
-		"name": "Dragon (Primal, Umbral), Adult Umbral Dragon",
+		"name": "Adult Umbral Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Adult Umbral Dragon]{cr=\"14\"}",
@@ -3402,7 +3402,7 @@
 	},
 	"adult_umbral_dragon": { "copyof": "dragon_primal_umbral_adult_umbral_dragon" },
 	"dragon_primal_umbral_ancient_umbral_dragon": {
-		"name": "Dragon (Primal, Umbral), Ancient Umbral Dragon",
+		"name": "Ancient Umbral Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Ancient Umbral Dragon]{cr=\"19\"}",
@@ -3463,7 +3463,7 @@
 	},
 	"ancient_umbral_dragon": { "copyof": "dragon_primal_umbral_ancient_umbral_dragon" },
 	"dragon_primal_umbral_young_umbral_dragon": {
-		"name": "Dragon (Primal, Umbral), Young Umbral Dragon",
+		"name": "Young Umbral Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This sleek, dark dragon moves with a disturbing, serpentine grace, its eyes glowing as if lit from within by crimson embers.*",
@@ -3518,7 +3518,7 @@
 	},
 	"young_umbral_dragon": { "copyof": "dragon_primal_umbral_young_umbral_dragon" },
 	"dragon_red_adult_red_dragon": {
-		"name": "Dragon (Red), Adult Red Dragon",
+		"name": "Adult Red Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Adult Red Dragon]{cr=\"14\"}",
@@ -3574,7 +3574,7 @@
 	},
 	"adult_red_dragon": { "copyof": "dragon_red_adult_red_dragon" },
 	"dragon_red_ancient_red_dragon": {
-		"name": "Dragon (Red), Ancient Red Dragon",
+		"name": "Ancient Red Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Ancient Red Dragon]{cr=\"19\"}",
@@ -3633,7 +3633,7 @@
 	},
 	"ancient_red_dragon": { "copyof": "dragon_red_ancient_red_dragon" },
 	"dragon_red_young_red_dragon": {
-		"name": "Dragon (Red), Young Red Dragon",
+		"name": "Young Red Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A crown of cruel horns surrounds the head of this mighty dragon. Thick scales the color of molten rock cover its long body.*",
@@ -3688,7 +3688,7 @@
 	},
 	"young_red_dragon": { "copyof": "dragon_red_young_red_dragon" },
 	"dragon_silver_adult_silver_dragon": {
-		"name": "Dragon (Silver), Adult Silver Dragon",
+		"name": "Adult Silver Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Adult Silver Dragon]{cr=\"14\"}",
@@ -3745,7 +3745,7 @@
 	},
 	"adult_silver_dragon": { "copyof": "dragon_silver_adult_silver_dragon" },
 	"dragon_silver_ancient_silver_dragon": {
-		"name": "Dragon (Silver), Ancient Silver Dragon",
+		"name": "Ancient Silver Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Ancient Silver Dragon]{cr=\"19\"}",
@@ -3806,7 +3806,7 @@
 	},
 	"ancient_silver_dragon": { "copyof": "dragon_silver_ancient_silver_dragon" },
 	"dragon_silver_young_silver_dragon": {
-		"name": "Dragon (Silver), Young Silver Dragon",
+		"name": "Young Silver Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*The scales of this tall, elegant dragon shine like polished silver, and its tail has a feathered appearance.*",
@@ -3862,7 +3862,7 @@
 	},
 	"young_silver_dragon": { "copyof": "dragon_silver_young_silver_dragon" },
 	"dragon_white_adult_white_dragon": {
-		"name": "Dragon (White), Adult White Dragon",
+		"name": "Adult White Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Adult White Dragon]{cr=\"10\"}",
@@ -3917,7 +3917,7 @@
 	},
 	"adult_white_dragon": { "copyof": "dragon_white_adult_white_dragon" },
 	"dragon_white_ancient_white_dragon": {
-		"name": "Dragon (White), Ancient White Dragon",
+		"name": "Ancient White Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Ancient White Dragon]{cr=\"15\"}",
@@ -3975,7 +3975,7 @@
 	},
 	"ancient_white_dragon": { "copyof": "dragon_white_ancient_white_dragon" },
 	"dragon_white_young_white_dragon": {
-		"name": "Dragon (White), Young White Dragon",
+		"name": "Young White Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This dragon's scales are a frosty white. Its head is crowned with slender horns, with a thin membrane stretched between them.*",

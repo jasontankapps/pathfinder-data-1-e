@@ -1,6 +1,6 @@
 {
 	"dragon_esoteric_astral_adult_astral_dragon": {
-		"name": "Dragon (Esoteric, Astral), Adult Astral Dragon",
+		"name": "Adult Astral Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Adult Astral Dragon]{cr=\"13\"}",
@@ -56,7 +56,7 @@
 	},
 	"adult_astral_dragon": { "copyof": "dragon_esoteric_astral_adult_astral_dragon" },
 	"dragon_esoteric_astral_ancient_astral_dragon": {
-		"name": "Dragon (Esoteric, Astral), Ancient Astral Dragon",
+		"name": "Ancient Astral Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Ancient Astral Dragon]{cr=\"18\"}",
@@ -116,7 +116,7 @@
 	},
 	"ancient_astral_dragon": { "copyof": "dragon_esoteric_astral_ancient_astral_dragon" },
 	"dragon_esoteric_astral_young_astral_dragon": {
-		"name": "Dragon (Esoteric, Astral), Young Astral Dragon",
+		"name": "Young Astral Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This majestic dragon seems to shimmer as if surrounded by thousands of eddies of astral thought.*",
@@ -171,7 +171,7 @@
 	},
 	"young_astral_dragon": { "copyof": "dragon_esoteric_astral_young_astral_dragon" },
 	"dragon_esoteric_dream_adult_dream_dragon": {
-		"name": "Dragon (Esoteric, Dream), Adult Dream Dragon",
+		"name": "Adult Dream Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Adult Dream Dragon]{cr=\"14\"}",
@@ -227,7 +227,7 @@
 	},
 	"adult_dream_dragon": { "copyof": "dragon_esoteric_dream_adult_dream_dragon" },
 	"dragon_esoteric_dream_ancient_dream_dragon": {
-		"name": "Dragon (Esoteric, Dream), Ancient Dream Dragon",
+		"name": "Ancient Dream Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Ancient Dream Dragon]{cr=\"19\"}",
@@ -287,7 +287,7 @@
 	},
 	"ancient_dream_dragon": { "copyof": "dragon_esoteric_dream_ancient_dream_dragon" },
 	"dragon_esoteric_dream_young_dream_dragon": {
-		"name": "Dragon (Esoteric, Dream), Young Dream Dragon",
+		"name": "Young Dream Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Clouds trail from the edges of this graceful, nearly fanciful creature in hypnotizing patterns.*",
@@ -341,7 +341,7 @@
 	},
 	"young_dream_dragon": { "copyof": "dragon_esoteric_dream_young_dream_dragon" },
 	"dragon_esoteric_etheric_adult_etheric_dragon": {
-		"name": "Dragon (Esoteric, Etheric), Adult Etheric Dragon",
+		"name": "Adult Etheric Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Adult Etheric Dragon]{cr=\"11\"}",
@@ -396,7 +396,7 @@
 	},
 	"adult_etheric_dragon": { "copyof": "dragon_esoteric_etheric_adult_etheric_dragon" },
 	"dragon_esoteric_etheric_ancient_etheric_dragon": {
-		"name": "Dragon (Esoteric, Etheric), Ancient Etheric Dragon",
+		"name": "Ancient Etheric Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Ancient Etheric Dragon]{cr=\"16\"}",
@@ -455,7 +455,7 @@
 	},
 	"ancient_etheric_dragon": { "copyof": "dragon_esoteric_etheric_ancient_etheric_dragon" },
 	"dragon_esoteric_etheric_young_etheric_dragon": {
-		"name": "Dragon (Esoteric, Etheric), Young Etheric Dragon",
+		"name": "Young Etheric Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This silent dragon seems to gather shadows and gloom around its tattered-appearing wings.*",
@@ -505,7 +505,7 @@
 	},
 	"young_etheric_dragon": { "copyof": "dragon_esoteric_etheric_young_etheric_dragon" },
 	"dragon_esoteric_nightmare_adult_nightmare_dragon": {
-		"name": "Dragon (Esoteric, Nightmare), Adult Nightmare Dragon",
+		"name": "Adult Nightmare Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Adult Nightmare Dragon]{cr=\"10\"}",
@@ -560,7 +560,7 @@
 	},
 	"adult_nightmare_dragon": { "copyof": "dragon_esoteric_nightmare_adult_nightmare_dragon" },
 	"dragon_esoteric_nightmare_ancient_nightmare_dragon": {
-		"name": "Dragon (Esoteric, Nightmare), Ancient Nightmare Dragon",
+		"name": "Ancient Nightmare Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Ancient Nightmare Dragon]{cr=\"15\"}",
@@ -619,7 +619,7 @@
 	},
 	"ancient_nightmare_dragon": { "copyof": "dragon_esoteric_nightmare_ancient_nightmare_dragon" },
 	"dragon_esoteric_nightmare_young_nightmare_dragon": {
-		"name": "Dragon (Esoteric, Nightmare), Young Nightmare Dragon",
+		"name": "Young Nightmare Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This ebony dragon with red frills appears terribly contorted and trails shadows.*",
@@ -668,7 +668,7 @@
 	},
 	"young_nightmare_dragon": { "copyof": "dragon_esoteric_nightmare_young_nightmare_dragon" },
 	"dragon_esoteric_occult_adult_occult_dragon": {
-		"name": "Dragon (Esoteric, Occult), Adult Occult Dragon",
+		"name": "Adult Occult Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Adult Occult Dragon]{cr=\"10\"}",
@@ -724,7 +724,7 @@
 	},
 	"adult_occult_dragon": { "copyof": "dragon_esoteric_occult_adult_occult_dragon" },
 	"dragon_esoteric_occult_ancient_occult_dragon": {
-		"name": "Dragon (Esoteric, Occult), Ancient Occult Dragon",
+		"name": "Ancient Occult Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Ancient Occult Dragon]{cr=\"15\"}",
@@ -784,7 +784,7 @@
 	},
 	"ancient_occult_dragon": { "copyof": "dragon_esoteric_occult_ancient_occult_dragon" },
 	"dragon_esoteric_occult_young_occult_dragon": {
-		"name": "Dragon (Esoteric, Occult), Young Occult Dragon",
+		"name": "Young Occult Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Its parchment-colored scales rustling like dry leaves, this dragon seems unusually attentive, as if always on the lookout.*",
@@ -839,7 +839,7 @@
 	},
 	"young_occult_dragon": { "copyof": "dragon_esoteric_occult_young_occult_dragon" },
 	"dragon_imperial_forest_adult_forest_dragon": {
-		"name": "Dragon (Imperial, Forest), Adult Forest Dragon",
+		"name": "Adult Forest Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Adult Forest Dragon]{cr=\"14\"}",
@@ -895,7 +895,7 @@
 	},
 	"adult_forest_dragon": { "copyof": "dragon_imperial_forest_adult_forest_dragon" },
 	"dragon_imperial_forest_ancient_forest_dragon": {
-		"name": "Dragon (Imperial, Forest), Ancient Forest Dragon",
+		"name": "Ancient Forest Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Ancient Forest Dragon]{cr=\"19\"}",
@@ -955,7 +955,7 @@
 	},
 	"ancient_forest_dragon": { "copyof": "dragon_imperial_forest_ancient_forest_dragon" },
 	"dragon_imperial_forest_young_forest_dragon": {
-		"name": "Dragon (Imperial, Forest), Young Forest Dragon",
+		"name": "Young Forest Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This massive serpentine and wingless creature has jade scales and antlers, and sounds like grinding stones as it stalks forth.*",
@@ -1010,7 +1010,7 @@
 	},
 	"young_forest_dragon": { "copyof": "dragon_imperial_forest_young_forest_dragon" },
 	"dragon_imperial_sea_adult_sea_dragon": {
-		"name": "Dragon (Imperial, Sea), Adult Sea Dragon",
+		"name": "Adult Sea Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Adult Sea Dragon]{cr=\"12\"}",
@@ -1066,7 +1066,7 @@
 	},
 	"adult_sea_dragon": { "copyof": "dragon_imperial_sea_adult_sea_dragon" },
 	"dragon_imperial_sea_ancient_sea_dragon": {
-		"name": "Dragon (Imperial, Sea), Ancient Sea Dragon",
+		"name": "Ancient Sea Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Ancient Sea Dragon]{cr=\"17\"}",
@@ -1126,7 +1126,7 @@
 	},
 	"ancient_sea_dragon": { "copyof": "dragon_imperial_sea_ancient_sea_dragon" },
 	"dragon_imperial_sea_young_sea_dragon": {
-		"name": "Dragon (Imperial, Sea), Young Sea Dragon",
+		"name": "Young Sea Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*The long, undulating body of this serpentine dragon rolls and bends with scales the color of the ocean's waves.*",
@@ -1181,7 +1181,7 @@
 	},
 	"young_sea_dragon": { "copyof": "dragon_imperial_sea_young_sea_dragon" },
 	"dragon_imperial_sky_adult_sky_dragon": {
-		"name": "Dragon (Imperial, Sky), Adult Sky Dragon",
+		"name": "Adult Sky Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Adult Sky Dragon]{cr=\"13\"}",
@@ -1237,7 +1237,7 @@
 	},
 	"adult_sky_dragon": { "copyof": "dragon_imperial_sky_adult_sky_dragon" },
 	"dragon_imperial_sky_ancient_sky_dragon": {
-		"name": "Dragon (Imperial, Sky), Ancient Sky Dragon",
+		"name": "Ancient Sky Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Ancient Sky Dragon]{cr=\"18\"}",
@@ -1296,7 +1296,7 @@
 	},
 	"ancient_sky_dragon": { "copyof": "dragon_imperial_sky_ancient_sky_dragon" },
 	"dragon_imperial_sky_young_sky_dragon": {
-		"name": "Dragon (Imperial, Sky), Young Sky Dragon",
+		"name": "Young Sky Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Although wingless, this dragon twists gracefully though the sky, its scales reflecting the shifting hues of the heavens.*",
@@ -1351,7 +1351,7 @@
 	},
 	"young_sky_dragon": { "copyof": "dragon_imperial_sky_young_sky_dragon" },
 	"dragon_imperial_sovereign_adult_sovereign_dragon": {
-		"name": "Dragon (Imperial, Sovereign), Adult Sovereign Dragon",
+		"name": "Adult Sovereign Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Adult Sovereign Dragon]{cr=\"15\"}",
@@ -1407,7 +1407,7 @@
 	},
 	"adult_sovereign_dragon": { "copyof": "dragon_imperial_sovereign_adult_sovereign_dragon" },
 	"dragon_imperial_sovereign_ancient_sovereign_dragon": {
-		"name": "Dragon (Imperial, Sovereign), Ancient Sovereign Dragon",
+		"name": "Ancient Sovereign Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Ancient Sovereign Dragon]{cr=\"20\"}",
@@ -1467,7 +1467,7 @@
 	},
 	"ancient_sovereign_dragon": { "copyof": "dragon_imperial_sovereign_ancient_sovereign_dragon" },
 	"dragon_imperial_sovereign_young_sovereign_dragon": {
-		"name": "Dragon (Imperial, Sovereign), Young Sovereign Dragon",
+		"name": "Young Sovereign Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This magnificent dragon is covered in splendid gold scales, and horns jut from its head like a crown.*",
@@ -1522,7 +1522,7 @@
 	},
 	"young_sovereign_dragon": { "copyof": "dragon_imperial_sovereign_young_sovereign_dragon" },
 	"dragon_imperial_underworld_adult_underworld_dragon": {
-		"name": "Dragon (Imperial, Underworld), Adult Underworld Dragon",
+		"name": "Adult Underworld Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Adult Underworld Dragon]{cr=\"11\"}",
@@ -1578,7 +1578,7 @@
 	},
 	"adult_underworld_dragon": { "copyof": "dragon_imperial_underworld_adult_underworld_dragon" },
 	"dragon_imperial_underworld_ancient_underworld_dragon": {
-		"name": "Dragon (Imperial, Underworld), Ancient Underworld Dragon",
+		"name": "Ancient Underworld Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Ancient Underworld Dragon]{cr=\"16\"}",
@@ -1638,7 +1638,7 @@
 	},
 	"ancient_underworld_dragon": { "copyof": "dragon_imperial_underworld_ancient_underworld_dragon" },
 	"dragon_imperial_underworld_young_underworld_dragon": {
-		"name": "Dragon (Imperial, Underworld), Young Underworld Dragon",
+		"name": "Young Underworld Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This serpentine dragon has skin the color of deep volcanic rock, enormous claws, and jagged, stone-like horns and scales.*",
@@ -1932,7 +1932,7 @@
 		]
 	},
 	"drake_desert_drake": {
-		"name": "Drake, Desert Drake",
+		"name": "Desert Drake",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -1998,7 +1998,7 @@
 	"drake_desert": { "copyof": "drake_desert_drake" },
 	"desert_drake": { "copyof": "drake_desert_drake" },
 	"drake_ether_drake": {
-		"name": "Drake, Ether Drake",
+		"name": "Ether Drake",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2"
@@ -2064,7 +2064,7 @@
 	"drake_ether": { "copyof": "drake_ether_drake" },
 	"ether_drake": { "copyof": "drake_ether_drake" },
 	"drake_flame_drake": {
-		"name": "Drake, Flame Drake",
+		"name": "Flame Drake",
 		"sources": [
 			"Bestiary 2",
 			"Conquest of Bloodsworn Vale"
@@ -2128,7 +2128,7 @@
 	"drake_flame": { "copyof": "drake_flame_drake" },
 	"flame_drake": { "copyof": "drake_flame_drake" },
 	"drake_forest_drake": {
-		"name": "Drake, Forest Drake",
+		"name": "Forest Drake",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #15: The Armageddon Echo"
@@ -2196,7 +2196,7 @@
 	"drake_forest": { "copyof": "drake_forest_drake" },
 	"forest_drake": { "copyof": "drake_forest_drake" },
 	"drake_frost_drake": {
-		"name": "Drake, Frost Drake",
+		"name": "Frost Drake",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This two-legged dragon has dull blue scales tinged with bright blue ice. A freezing mist issues from between its powerful jaws.*",
@@ -2260,7 +2260,7 @@
 	"drake_frost": { "copyof": "drake_frost_drake" },
 	"frost_drake": { "copyof": "drake_frost_drake" },
 	"drake_jungle_drake": {
-		"name": "Drake, Jungle Drake",
+		"name": "Jungle Drake",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2"
@@ -2328,7 +2328,7 @@
 	"drake_jungle": { "copyof": "drake_jungle_drake" },
 	"jungle_drake": { "copyof": "drake_jungle_drake" },
 	"drake_lava_drake": {
-		"name": "Drake, Lava Drake",
+		"name": "Lava Drake",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 2"
@@ -2393,7 +2393,7 @@
 	"drake_lava": { "copyof": "drake_lava_drake" },
 	"lava_drake": { "copyof": "drake_lava_drake" },
 	"drake_mist_drake": {
-		"name": "Drake, Mist Drake",
+		"name": "Mist Drake",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 2"
@@ -2461,7 +2461,7 @@
 	"drake_mist": { "copyof": "drake_mist_drake" },
 	"mist_drake": { "copyof": "drake_mist_drake" },
 	"drake_rift_drake": {
-		"name": "Drake, Rift Drake",
+		"name": "Rift Drake",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -2527,7 +2527,7 @@
 	"drake_rift": { "copyof": "drake_rift_drake" },
 	"rift_drake": { "copyof": "drake_rift_drake" },
 	"drake_river_drake": {
-		"name": "Drake, River Drake",
+		"name": "River Drake",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -2594,7 +2594,7 @@
 	"drake_river": { "copyof": "drake_river_drake" },
 	"river_drake": { "copyof": "drake_river_drake" },
 	"drake_sea_drake": {
-		"name": "Drake, Sea Drake",
+		"name": "Sea Drake",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Not quite sea serpent or dragon, this vicious beast is covered with shiny blue-green scales. Its arms serve as both wings and flippers.*",
@@ -2657,7 +2657,7 @@
 	"drake_sea": { "copyof": "drake_sea_drake" },
 	"sea_drake": { "copyof": "drake_sea_drake" },
 	"drake_shadow_drake": {
-		"name": "Drake, Shadow Drake",
+		"name": "Shadow Drake",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 2"
@@ -2724,7 +2724,7 @@
 	"drake_shadow": { "copyof": "drake_shadow_drake" },
 	"shadow_drake": { "copyof": "drake_shadow_drake" },
 	"drake_spire_drake": {
-		"name": "Drake, Spire Drake",
+		"name": "Spire Drake",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 2"
@@ -2792,7 +2792,7 @@
 	"drake_spire": { "copyof": "drake_spire_drake" },
 	"spire_drake": { "copyof": "drake_spire_drake" },
 	"fleshwarp_drider": {
-		"name": "Fleshwarp, Drider",
+		"name": "Drider (Fleshwarp)",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Bestiary 4"
@@ -2865,7 +2865,7 @@
 	},
 	"drider": { "copyof": "fleshwarp_drider" },
 	"fleshwarp_ghonhatine": {
-		"name": "Fleshwarp, Ghonhatine",
+		"name": "Ghonhatine (Fleshwarp)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #16: Endless Night"
@@ -2929,7 +2929,7 @@
 	},
 	"ghonhatine": { "copyof": "fleshwarp_ghonhatine" },
 	"fleshwarp_grothlut": {
-		"name": "Fleshwarp, Grothlut",
+		"name": "Grothlut (Fleshwarp)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Pale and glistening with moisture, this sluglike creature stares vacantly as a droning moan escapes its slobbering lips.*",
@@ -2988,7 +2988,7 @@
 	},
 	"grothlut": { "copyof": "fleshwarp_grothlut" },
 	"fleshwarp_halsora": {
-		"name": "Fleshwarp, Halsora",
+		"name": "Halsora (Fleshwarp)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This small, plantlike creature is a bulging mass of vise-like muscle with sunken eyes that constantly drip viscous, black tears.*",
@@ -3044,7 +3044,7 @@
 	},
 	"halsora": { "copyof": "fleshwarp_halsora" },
 	"fleshwarp_irnakurse": {
-		"name": "Fleshwarp, Irnakurse",
+		"name": "Irnakurse (Fleshwarp)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #16: Endless Night"
@@ -3105,7 +3105,7 @@
 	},
 	"irnakurse": { "copyof": "fleshwarp_irnakurse" },
 	"fleshwarp_oronci": {
-		"name": "Fleshwarp, Oronci",
+		"name": "Oronci (Fleshwarp)",
 		"sources": [
 			"Inner Sea Bestiary",
 			"Bestiary 4"
@@ -3371,7 +3371,7 @@
 		]
 	},
 	"formian_formian_myrmarch": {
-		"name": "Formian, Formian Myrmarch",
+		"name": "Formian Myrmarch",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This horse-sized insect has a brilliant red carapace, and its monstrous face reflects great intelligence and confidence.*",
@@ -3440,7 +3440,7 @@
 	},
 	"formian_myrmarch": { "copyof": "formian_formian_myrmarch" },
 	"formian_formian_queen": {
-		"name": "Formian, Formian Queen",
+		"name": "Formian Queen",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This large and majestic creature is nearly immobile, her massive abdomen swollen with her impending brood.*",
@@ -3500,7 +3500,7 @@
 	},
 	"formian_queen": { "copyof": "formian_formian_queen" },
 	"formian_formian_taskmaster": {
-		"name": "Formian, Formian Taskmaster",
+		"name": "Formian Taskmaster",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This centaurlike creature is equipped with an ant's mandibles and antennae.*",
@@ -3571,7 +3571,7 @@
 	},
 	"formian_taskmaster": { "copyof": "formian_formian_taskmaster" },
 	"formian_formian_warrior": {
-		"name": "Formian, Formian Warrior",
+		"name": "Formian Warrior",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Armored from head to toe in gleaming black-and-red chitin, this insectile warrior's tail ends in a wickedly barbed stinger.*",
@@ -3637,7 +3637,7 @@
 	},
 	"formian_warrior": { "copyof": "formian_formian_warrior" },
 	"formian_formian_worker": {
-		"name": "Formian, Formian Worker",
+		"name": "Formian Worker",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This small, centaurlike ant creature bears a huge, bulging sack on its armored back.*",
@@ -3773,7 +3773,7 @@
 		]
 	},
 	"forsaken_legion_forsaken_arbalester": {
-		"name": "Forsaken Legion, Forsaken Arbalester",
+		"name": "Forsaken Arbalester (Forsaken Legion)",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
 			"*An eerie green glow emanates from this decayed soldier's bony eye sockets. It wears a rotted uniform and carries a massive crossbow.*",
@@ -3824,7 +3824,7 @@
 	},
 	"forsaken_arbalester": { "copyof": "forsaken_legion_forsaken_arbalester" },
 	"forsaken_legion_forsaken_defender": {
-		"name": "Forsaken Legion, Forsaken Defender",
+		"name": "Forsaken Defender (Forsaken Legion)",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
 			"*This undead soldier carries a heavy-looking pickaxe in one hand and a short sword in the other.*",
@@ -3876,7 +3876,7 @@
 	},
 	"forsaken_defender": { "copyof": "forsaken_legion_forsaken_defender" },
 	"forsaken_legion_forsaken_foot_soldier": {
-		"name": "Forsaken Legion, Forsaken Foot Soldier",
+		"name": "Forsaken Foot Soldier (Forsaken Legion)",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
 			"*This withered corpse carries a sharpened spear and has a small shield strapped to its emaciated arm.*",
@@ -4106,7 +4106,7 @@
 		]
 	},
 	"frog_frog_father": {
-		"name": "Frog, Frog Father",
+		"name": "Frog Father",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This elephantine amphibian has a grotesquely long tongue and beady eyes.*",
@@ -4155,7 +4155,7 @@
 	},
 	"frog_father": { "copyof": "frog_frog_father" },
 	"frog_giant_frog": {
-		"name": "Frog, Giant Frog",
+		"name": "Giant Frog",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This creature looks like a normal frog, with moist, mottled, blackish-green skin, but grown to truly monstrous size.*",
@@ -4205,7 +4205,7 @@
 	"frog_giant": { "copyof": "frog_giant_frog" },
 	"giant_frog": { "copyof": "frog_giant_frog" },
 	"frog_goliath_frog": {
-		"name": "Frog, Goliath Frog",
+		"name": "Goliath Frog",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This massive, mottled amphibian glistens with slime, and its tongue drips with saliva.*",
@@ -4255,7 +4255,7 @@
 	"frog_goliath": { "copyof": "frog_goliath_frog" },
 	"goliath_frog": { "copyof": "frog_goliath_frog" },
 	"frog_poison_frog": {
-		"name": "Frog, Poison Frog",
+		"name": "Poison Frog",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This small frog is bright green and red, with electric-blue stripes on its hind legs.*",

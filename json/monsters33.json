@@ -1,6 +1,6 @@
 {
 	"golem_adamantine_golem": {
-		"name": "Golem, Adamantine Golem",
+		"name": "Adamantine Golem",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -68,7 +68,7 @@
 	"golem_adamantine": { "copyof": "golem_adamantine_golem" },
 	"adamantine_golem": { "copyof": "golem_adamantine_golem" },
 	"golem_alchemical_golem": {
-		"name": "Golem, Alchemical Golem",
+		"name": "Alchemical Golem",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -137,7 +137,7 @@
 	"golem_alchemical": { "copyof": "golem_alchemical_golem" },
 	"alchemical_golem": { "copyof": "golem_alchemical_golem" },
 	"golem_behemoth_golem": {
-		"name": "Golem, Behemoth Golem",
+		"name": "Behemoth Golem",
 		"sources": [
 			"Lost Kingdoms",
 			"Pathfinder RPG Bestiary"
@@ -211,7 +211,7 @@
 	"golem_behemoth": { "copyof": "golem_behemoth_golem" },
 	"behemoth_golem": { "copyof": "golem_behemoth_golem" },
 	"golem_blood_golem": {
-		"name": "Golem, Blood Golem",
+		"name": "Blood Golem",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -283,7 +283,7 @@
 	"golem_blood": { "copyof": "golem_blood_golem" },
 	"blood_golem": { "copyof": "golem_blood_golem" },
 	"golem_bone_golem": {
-		"name": "Golem, Bone Golem",
+		"name": "Bone Golem",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -354,7 +354,7 @@
 	"golem_bone": { "copyof": "golem_bone_golem" },
 	"bone_golem": { "copyof": "golem_bone_golem" },
 	"golem_brass_golem": {
-		"name": "Golem, Brass Golem",
+		"name": "Brass Golem",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #24: The Final Wish",
@@ -429,7 +429,7 @@
 	"golem_brass": { "copyof": "golem_brass_golem" },
 	"brass_golem": { "copyof": "golem_brass_golem" },
 	"golem_cannon_golem": {
-		"name": "Golem, Cannon Golem",
+		"name": "Cannon Golem",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -507,7 +507,7 @@
 	"golem_cannon": { "copyof": "golem_cannon_golem" },
 	"cannon_golem": { "copyof": "golem_cannon_golem" },
 	"golem_carrion_golem": {
-		"name": "Golem, Carrion Golem",
+		"name": "Carrion Golem",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #7: Edge of Anarchy",
@@ -581,7 +581,7 @@
 	"golem_carrion": { "copyof": "golem_carrion_golem" },
 	"carrion_golem": { "copyof": "golem_carrion_golem" },
 	"golem_clay_golem": {
-		"name": "Golem, Clay Golem",
+		"name": "Clay Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This lumbering figure is sculpted from soft clay. It wears filthy rags and crude jewelry, and its face is only vaguely humanoid.*",
@@ -650,7 +650,7 @@
 	"golem_clay": { "copyof": "golem_clay_golem" },
 	"clay_golem": { "copyof": "golem_clay_golem" },
 	"golem_clockwork_golem": {
-		"name": "Golem, Clockwork Golem",
+		"name": "Clockwork Golem",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -721,7 +721,7 @@
 	"golem_clockwork": { "copyof": "golem_clockwork_golem" },
 	"clockwork_golem": { "copyof": "golem_clockwork_golem" },
 	"golem_coral_golem": {
-		"name": "Golem, Coral Golem",
+		"name": "Coral Golem",
 		"sources": [
 			"Bestiary 4",
 			"Isles of the Shackles",
@@ -795,7 +795,7 @@
 	"golem_coral": { "copyof": "golem_coral_golem" },
 	"coral_golem": { "copyof": "golem_coral_golem" },
 	"golem_crystal_golem": {
-		"name": "Golem, Crystal Golem",
+		"name": "Crystal Golem",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -867,7 +867,7 @@
 	"golem_crystal": { "copyof": "golem_crystal_golem" },
 	"crystal_golem": { "copyof": "golem_crystal_golem" },
 	"golem_dragonhide_golem": {
-		"name": "Golem, Dragonhide Golem",
+		"name": "Dragonhide Golem",
 		"sources": [
 			"Construct Handbook",
 			"Pathfinder RPG Bestiary"
@@ -963,7 +963,7 @@
 	"golem_dragonhide": { "copyof": "golem_dragonhide_golem" },
 	"dragonhide_golem": { "copyof": "golem_dragonhide_golem" },
 	"golem_equine_bone_golem": {
-		"name": "Golem, Equine Bone Golem",
+		"name": "Equine Bone Golem",
 		"sources": [
 			"Tombs of Golarion",
 			"Pathfinder RPG Bestiary"
@@ -1027,7 +1027,7 @@
 	"golem_equine_bone": { "copyof": "golem_equine_bone_golem" },
 	"equine_bone_golem": { "copyof": "golem_equine_bone_golem" },
 	"golem_flesh_golem": {
-		"name": "Golem, Flesh Golem",
+		"name": "Flesh Golem",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Classic Horrors Revisited"
@@ -1112,7 +1112,7 @@
 	"golem_flesh": { "copyof": "golem_flesh_golem" },
 	"flesh_golem": { "copyof": "golem_flesh_golem" },
 	"golem_fossil_golem": {
-		"name": "Golem, Fossil Golem",
+		"name": "Fossil Golem",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -1183,7 +1183,7 @@
 	"golem_fossil": { "copyof": "golem_fossil_golem" },
 	"fossil_golem": { "copyof": "golem_fossil_golem" },
 	"golem_glass_golem": {
-		"name": "Golem, Glass Golem",
+		"name": "Glass Golem",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -1258,7 +1258,7 @@
 	"golem_glass": { "copyof": "golem_glass_golem" },
 	"glass_golem": { "copyof": "golem_glass_golem" },
 	"golem_gold_golem": {
-		"name": "Golem, Gold Golem",
+		"name": "Gold Golem",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -1338,7 +1338,7 @@
 	"golem_gold": { "copyof": "golem_gold_golem" },
 	"gold_golem": { "copyof": "golem_gold_golem" },
 	"golem_ice_golem": {
-		"name": "Golem, Ice Golem",
+		"name": "Ice Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This icy statue stands a head taller than a normal human. A rime of frost coats it, and razor-sharp shards of ice adorn its limbs.*",
@@ -1405,7 +1405,7 @@
 	"golem_ice": { "copyof": "golem_ice_golem" },
 	"ice_golem": { "copyof": "golem_ice_golem" },
 	"golem_inubrix_golem": {
-		"name": "Golem, Inubrix Golem",
+		"name": "Inubrix Golem",
 		"sources": [
 			"Construct Handbook",
 			"Pathfinder RPG Bestiary"
@@ -1495,7 +1495,7 @@
 	"golem_inubrix": { "copyof": "golem_inubrix_golem" },
 	"inubrix_golem": { "copyof": "golem_inubrix_golem" },
 	"golem_ioun_golem": {
-		"name": "Golem, Ioun Golem",
+		"name": "Ioun Golem",
 		"sources": [
 			"Pathfinder #126: Beyond the Veiled Past",
 			"Pathfinder RPG Bestiary"
@@ -1583,7 +1583,7 @@
 	"golem_ioun": { "copyof": "golem_ioun_golem" },
 	"ioun_golem": { "copyof": "golem_ioun_golem" },
 	"golem_iron_golem": {
-		"name": "Golem, Iron Golem",
+		"name": "Iron Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This iron automaton stands twice as tall as a normal human. Its heavy footfalls shake the ground with bone-jarring force.*",
@@ -1655,7 +1655,7 @@
 	"golem_iron": { "copyof": "golem_iron_golem" },
 	"iron_golem": { "copyof": "golem_iron_golem" },
 	"golem_junk_golem": {
-		"name": "Golem, Junk Golem",
+		"name": "Junk Golem",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -1728,7 +1728,7 @@
 	"golem_junk": { "copyof": "golem_junk_golem" },
 	"junk_golem": { "copyof": "golem_junk_golem" },
 	"golem_lead_golem": {
-		"name": "Golem, Lead Golem",
+		"name": "Lead Golem",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -1802,7 +1802,7 @@
 	"golem_lead": { "copyof": "golem_lead_golem" },
 	"lead_golem": { "copyof": "golem_lead_golem" },
 	"golem_magnetitie_golem": {
-		"name": "Golem, Magnetitie Golem",
+		"name": "Magnetitie Golem",
 		"sources": [
 			"Pathfinder #95: Anvil of Fire",
 			"Pathfinder RPG Bestiary"
@@ -1890,7 +1890,7 @@
 	"golem_magnetitie": { "copyof": "golem_magnetitie_golem" },
 	"magnetitie_golem": { "copyof": "golem_magnetitie_golem" },
 	"golem_marrowstone_golem": {
-		"name": "Golem, Marrowstone Golem",
+		"name": "Marrowstone Golem",
 		"sources": [
 			"Inner Sea Bestiary",
 			"Pathfinder RPG Bestiary"
@@ -1960,7 +1960,7 @@
 	"golem_marrowstone": { "copyof": "golem_marrowstone_golem" },
 	"marrowstone_golem": { "copyof": "golem_marrowstone_golem" },
 	"golem_mask_golem": {
-		"name": "Golem, Mask Golem",
+		"name": "Mask Golem",
 		"sources": [
 			"Masks of the Living God",
 			"Pathfinder RPG Bestiary"
@@ -2043,7 +2043,7 @@
 	"golem_mask": { "copyof": "golem_mask_golem" },
 	"mask_golem": { "copyof": "golem_mask_golem" },
 	"golem_mithral_golem": {
-		"name": "Golem, Mithral Golem",
+		"name": "Mithral Golem",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2116,7 +2116,7 @@
 	"golem_mithral": { "copyof": "golem_mithral_golem" },
 	"mithral_golem": { "copyof": "golem_mithral_golem" },
 	"golem_noqual_golem": {
-		"name": "Golem, Noqual Golem",
+		"name": "Noqual Golem",
 		"sources": [
 			"Inner Sea Bestiary",
 			"Pathfinder RPG Bestiary"
@@ -2196,7 +2196,7 @@
 	"golem_noqual": { "copyof": "golem_noqual_golem" },
 	"noqual_golem": { "copyof": "golem_noqual_golem" },
 	"golem_obsidian_golem": {
-		"name": "Golem, Obsidian Golem",
+		"name": "Obsidian Golem",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -2269,7 +2269,7 @@
 	"golem_obsidian": { "copyof": "golem_obsidian_golem" },
 	"obsidian_golem": { "copyof": "golem_obsidian_golem" },
 	"golem_panthereon": {
-		"name": "Golem, Panthereon",
+		"name": "Panthereon",
 		"sources": [
 			"Pathfinder #82: Secrets of the Sphinx",
 			"Pathfinder RPG Bestiary"
@@ -2383,7 +2383,7 @@
 	},
 	"panthereon": { "copyof": "golem_panthereon" },
 	"golem_quantium_golem": {
-		"name": "Golem, Quantium Golem",
+		"name": "Quantium Golem",
 		"sources": [
 			"Inner Sea Bestiary",
 			"Pathfinder RPG Bestiary"
@@ -2454,7 +2454,7 @@
 	"golem_quantium": { "copyof": "golem_quantium_golem" },
 	"quantium_golem": { "copyof": "golem_quantium_golem" },
 	"golem_quintessence_golem": {
-		"name": "Golem, Quintessence Golem",
+		"name": "Quintessence Golem",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -2528,7 +2528,7 @@
 	"golem_quintessence": { "copyof": "golem_quintessence_golem" },
 	"quintessence_golem": { "copyof": "golem_quintessence_golem" },
 	"golem_robot_golem": {
-		"name": "Golem, Robot Golem",
+		"name": "Robot Golem",
 		"sources": [
 			"Numeria, Land of Fallen Stars",
 			"Pathfinder RPG Bestiary"
@@ -2598,7 +2598,7 @@
 	"golem_robot": { "copyof": "golem_robot_golem" },
 	"robot_golem": { "copyof": "golem_robot_golem" },
 	"golem_sand_golem": {
-		"name": "Golem, Sand Golem",
+		"name": "Sand Golem",
 		"sources": [
 			"Construct Handbook",
 			"Pathfinder RPG Bestiary"
@@ -2688,7 +2688,7 @@
 	"golem_sand": { "copyof": "golem_sand_golem" },
 	"sand_golem": { "copyof": "golem_sand_golem" },
 	"golem_sentient_wax_golem": {
-		"name": "Golem, Sentient Wax Golem",
+		"name": "Sentient Wax Golem",
 		"sources": [
 			"Pathfinder #47: Ashes at Dawn",
 			"Pathfinder RPG Bestiary"
@@ -2774,7 +2774,7 @@
 	"golem_sentient_wax": { "copyof": "golem_sentient_wax_golem" },
 	"sentient_wax_golem": { "copyof": "golem_sentient_wax_golem" },
 	"golem_shadow_golem": {
-		"name": "Golem, Shadow Golem",
+		"name": "Shadow Golem",
 		"sources": [
 			"Pathfinder #102: Breaking the Bones of Hell",
 			"Pathfinder RPG Bestiary"
@@ -2859,7 +2859,7 @@
 	"golem_shadow": { "copyof": "golem_shadow_golem" },
 	"shadow_golem": { "copyof": "golem_shadow_golem" },
 	"golem_stone_golem": {
-		"name": "Golem, Stone Golem",
+		"name": "Stone Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This towering stone automaton bears the likeness of an archaic, armored warrior. It moves with ponderous but inexorable steps.*",
@@ -2924,7 +2924,7 @@
 	"golem_stone": { "copyof": "golem_stone_golem" },
 	"stone_golem": { "copyof": "golem_stone_golem" },
 	"golem_viridium_golem": {
-		"name": "Golem, Viridium Golem",
+		"name": "Viridium Golem",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -2996,7 +2996,7 @@
 	"golem_viridium": { "copyof": "golem_viridium_golem" },
 	"viridium_golem": { "copyof": "golem_viridium_golem" },
 	"golem_wax_golem": {
-		"name": "Golem, Wax Golem",
+		"name": "Wax Golem",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #47: Ashes at Dawn",
@@ -3066,7 +3066,7 @@
 	"golem_wax": { "copyof": "golem_wax_golem" },
 	"wax_golem": { "copyof": "golem_wax_golem" },
 	"golem_wood_golem": {
-		"name": "Golem, Wood Golem",
+		"name": "Wood Golem",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This human-sized automaton resembles a crude humanoid figure made of cast-off pieces of wood.*",
@@ -3193,7 +3193,7 @@
 		]
 	},
 	"hag_eye_ooze_coven_ooze": {
-		"name": "Hag Eye Ooze, Coven Ooze",
+		"name": "Coven Ooze (Hag Eye Ooze)",
 		"sources": [ "Pathfinder #72: The Witch Queen's Revenge" ],
 		"description": [
 			"*This eerily disturbing gelatinous blob lumbers forward. Three disembodied eyes float within its mass, seemingly scanning back and forth with each surge of movement.*",
@@ -3252,7 +3252,7 @@
 	},
 	"coven_ooze": { "copyof": "hag_eye_ooze_coven_ooze" },
 	"hag_annis_hag": {
-		"name": "Hag, Annis Hag",
+		"name": "Annis Hag",
 		"sources": [
 			"Bestiary 3",
 			"Blood of the Coven",
@@ -3327,7 +3327,7 @@
 	"hag_annis": { "copyof": "hag_annis_hag" },
 	"annis_hag": { "copyof": "hag_annis_hag" },
 	"hag_ash_hag": {
-		"name": "Hag, Ash Hag",
+		"name": "Ash Hag",
 		"sources": [
 			"Blood of the Coven",
 			"Cheliax, the Infernal Empire",
@@ -3408,7 +3408,7 @@
 	"hag_ash": { "copyof": "hag_ash_hag" },
 	"ash_hag": { "copyof": "hag_ash_hag" },
 	"hag_blood_hag": {
-		"name": "Hag, Blood Hag",
+		"name": "Blood Hag",
 		"sources": [
 			"Bestiary 4",
 			"Blood of the Coven",
@@ -3494,7 +3494,7 @@
 	"hag_blood": { "copyof": "hag_blood_hag" },
 	"blood_hag": { "copyof": "hag_blood_hag" },
 	"hag_dreamthief_hag": {
-		"name": "Hag, Dreamthief Hag",
+		"name": "Dreamthief Hag",
 		"sources": [
 			"Blood of the Coven",
 			"Occult Bestiary",
@@ -3575,7 +3575,7 @@
 	"hag_dreamthief": { "copyof": "hag_dreamthief_hag" },
 	"dreamthief_hag": { "copyof": "hag_dreamthief_hag" },
 	"hag_green_hag": {
-		"name": "Hag, Green Hag",
+		"name": "Green Hag",
 		"sources": [
 			"Blood of the Coven",
 			"Pathfinder RPG Bestiary",
@@ -3661,7 +3661,7 @@
 	"hag_green": { "copyof": "hag_green_hag" },
 	"green_hag": { "copyof": "hag_green_hag" },
 	"hag_moon_hag": {
-		"name": "Hag, Moon Hag",
+		"name": "Moon Hag",
 		"sources": [
 			"Blood of the Coven",
 			"Planar Adventures",
@@ -3740,7 +3740,7 @@
 	"hag_moon": { "copyof": "hag_moon_hag" },
 	"moon_hag": { "copyof": "hag_moon_hag" },
 	"hag_mute_hag": {
-		"name": "Hag, Mute Hag",
+		"name": "Mute Hag",
 		"sources": [
 			"Blood of the Coven",
 			"The Harrowing",
@@ -3820,7 +3820,7 @@
 	"hag_mute": { "copyof": "hag_mute_hag" },
 	"mute_hag": { "copyof": "hag_mute_hag" },
 	"hag_night_hag": {
-		"name": "Hag, Night Hag",
+		"name": "Night Hag",
 		"sources": [
 			"Blood of the Coven",
 			"Pathfinder RPG Bestiary",
@@ -3898,7 +3898,7 @@
 	"hag_night": { "copyof": "hag_night_hag" },
 	"night_hag": { "copyof": "hag_night_hag" },
 	"hag_sea_hag": {
-		"name": "Hag, Sea Hag",
+		"name": "Sea Hag",
 		"sources": [
 			"Blood of the Coven",
 			"Pathfinder RPG Bestiary",
@@ -3977,7 +3977,7 @@
 	"hag_sea": { "copyof": "hag_sea_hag" },
 	"sea_hag": { "copyof": "hag_sea_hag" },
 	"hag_storm_hag": {
-		"name": "Hag, Storm Hag",
+		"name": "Storm Hag",
 		"sources": [
 			"Bestiary 5",
 			"Blood of the Coven",
@@ -4062,7 +4062,7 @@
 	"hag_storm": { "copyof": "hag_storm_hag" },
 	"storm_hag": { "copyof": "hag_storm_hag" },
 	"hag_winter_hag": {
-		"name": "Hag, Winter Hag",
+		"name": "Winter Hag",
 		"sources": [
 			"Bestiary 4",
 			"Blood of the Coven",

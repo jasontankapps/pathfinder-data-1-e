@@ -1035,7 +1035,7 @@
 		]
 	},
 	"aeon_agnoia": {
-		"name": "Aeon, Agnoia",
+		"name": "Agnoia (Aeon)",
 		"sources": [
 			"Concordance of Rivals",
 			"Bestiary 2"
@@ -1117,7 +1117,7 @@
 	},
 	"agnoia": { "copyof": "aeon_agnoia" },
 	"aeon_akhana": {
-		"name": "Aeon, Akhana",
+		"name": "Akhana (Aeon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Four gray arms project from a swirling mass resembling a giant eye, from which a tail-like appendage dangles.*",
@@ -1179,7 +1179,7 @@
 	},
 	"akhana": { "copyof": "aeon_akhana" },
 	"aeon_bythos": {
-		"name": "Aeon, Bythos",
+		"name": "Bythos (Aeon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A shimmering, colorless mass congeals to form a four-armed humanoid shape with an eye-like pattern in its torso.*",
@@ -1245,7 +1245,7 @@
 	},
 	"bythos": { "copyof": "aeon_bythos" },
 	"aeon_lipika": {
-		"name": "Aeon, Lipika",
+		"name": "Lipika (Aeon)",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2"
@@ -1323,7 +1323,7 @@
 	},
 	"lipika": { "copyof": "aeon_lipika" },
 	"aeon_othaos": {
-		"name": "Aeon, Othaos",
+		"name": "Othaos (Aeon)",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2"
@@ -1387,7 +1387,7 @@
 	},
 	"othaos": { "copyof": "aeon_othaos" },
 	"aeon_paracletus": {
-		"name": "Aeon, Paracletus",
+		"name": "Paracletus (Aeon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A small cluster of shimmering lights floats in the air, orbited by multiple vibrant crystals and gemstones.*",
@@ -1454,7 +1454,7 @@
 	},
 	"paracletus": { "copyof": "aeon_paracletus" },
 	"aeon_pleroma": {
-		"name": "Aeon, Pleroma",
+		"name": "Pleroma (Aeon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Within the shadows of this vaguely humanoid figure stir swirling colors and spheres, as if it encompassed all the night sky.*",
@@ -1537,7 +1537,7 @@
 	},
 	"pleroma": { "copyof": "aeon_pleroma" },
 	"aeon_synesis": {
-		"name": "Aeon, Synesis",
+		"name": "Synesis (Aeon)",
 		"sources": [
 			"Occult Bestiary",
 			"Bestiary 2"
@@ -1603,7 +1603,7 @@
 	},
 	"synesis": { "copyof": "aeon_synesis" },
 	"aeon_theletos": {
-		"name": "Aeon, Theletos",
+		"name": "Theletos (Aeon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Four bandy limbs, each splitting at the elbow into two three-fingered forearms, emerge from this creature's crystalline body.*",
@@ -1721,7 +1721,7 @@
 		]
 	},
 	"agathion_avoral": {
-		"name": "Agathion, Avoral",
+		"name": "Avoral (Agathion)",
 		"sources": [
 			"Bestiary 2",
 			"Andoran, Spirit of Liberty"
@@ -1785,7 +1785,7 @@
 	},
 	"avoral": { "copyof": "agathion_avoral" },
 	"agathion_bishop_agathion": {
-		"name": "Agathion, Bishop Agathion",
+		"name": "Bishop Agathion (Agathion)",
 		"sources": [
 			"Pathfinder #61: Shards of Sin",
 			"Bestiary 2"
@@ -1866,7 +1866,7 @@
 	"agathion_bishop": { "copyof": "agathion_bishop_agathion" },
 	"bishop_agathion": { "copyof": "agathion_bishop_agathion" },
 	"agathion_cervapral": {
-		"name": "Agathion, Cervapral",
+		"name": "Cervapral (Agathion)",
 		"sources": [
 			"Andoran, Birthplace of Freedom",
 			"Bestiary 2"
@@ -1937,7 +1937,7 @@
 	},
 	"cervapral": { "copyof": "agathion_cervapral" },
 	"agathion_cervinal": {
-		"name": "Agathion, Cervinal",
+		"name": "Cervinal (Agathion)",
 		"sources": [
 			"Bestiary 5",
 			"Chronicle of the Righteous",
@@ -2004,7 +2004,7 @@
 	},
 	"cervinal": { "copyof": "agathion_cervinal" },
 	"agathion_cetaceal": {
-		"name": "Agathion, Cetaceal",
+		"name": "Cetaceal (Agathion)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This mermaid-like creature has the torso and head of a long-haired woman and the lower half of a sleek killer whale.*",
@@ -2070,7 +2070,7 @@
 	},
 	"cetaceal": { "copyof": "agathion_cetaceal" },
 	"agathion_chelonidal": {
-		"name": "Agathion, Chelonidal",
+		"name": "Chelonidal (Agathion)",
 		"sources": [
 			"Pathfinder #121: The Lost Outpost",
 			"Bestiary 2"
@@ -2159,7 +2159,7 @@
 	},
 	"chelonidal": { "copyof": "agathion_chelonidal" },
 	"agathion_draconal": {
-		"name": "Agathion, Draconal",
+		"name": "Draconal (Agathion)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This noble creature seems to be part serpent, part humanoid, and part dragon, with great wings and a crown of horns.*",
@@ -2255,7 +2255,7 @@
 	},
 	"draconal": { "copyof": "agathion_draconal" },
 	"agathion_leonal": {
-		"name": "Agathion, Leonal",
+		"name": "Leonal (Agathion)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This lion-headed humanoid has golden fur, sharp teeth, and long cat-like claws on its hands and feet.*",
@@ -2320,7 +2320,7 @@
 	},
 	"leonal": { "copyof": "agathion_leonal" },
 	"agathion_muldnal": {
-		"name": "Agathion, Muldnal",
+		"name": "Muldnal (Agathion)",
 		"sources": [
 			"Pathfinder #117: Assault on Longshadow",
 			"Bestiary 2"
@@ -2415,7 +2415,7 @@
 	},
 	"muldnal": { "copyof": "agathion_muldnal" },
 	"agathion_mustelidal": {
-		"name": "Agathion, Mustelidal",
+		"name": "Mustelidal (Agathion)",
 		"sources": [
 			"Pathfinder #108: Hell Comes to Westcrown",
 			"Bestiary 2"
@@ -2501,7 +2501,7 @@
 	},
 	"mustelidal": { "copyof": "agathion_mustelidal" },
 	"agathion_procyal": {
-		"name": "Agathion, Procyal",
+		"name": "Procyal (Agathion)",
 		"sources": [
 			"Pathfinder #99: Dance of the Damned",
 			"Bestiary 2"
@@ -2591,7 +2591,7 @@
 	},
 	"procyal": { "copyof": "agathion_procyal" },
 	"agathion_reptial": {
-		"name": "Agathion, Reptial",
+		"name": "Reptial (Agathion)",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2"
@@ -2654,7 +2654,7 @@
 	},
 	"reptial": { "copyof": "agathion_reptial" },
 	"agathion_silvanshee": {
-		"name": "Agathion, Silvanshee",
+		"name": "Silvanshee (Agathion)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This black cat has gray stripes, violet eyes, and an unusual white blaze on its chest.*",
@@ -2720,7 +2720,7 @@
 	},
 	"silvanshee": { "copyof": "agathion_silvanshee" },
 	"agathion_vulpinal": {
-		"name": "Agathion, Vulpinal",
+		"name": "Vulpinal (Agathion)",
 		"sources": [
 			"Bestiary 2",
 			"The Great Beyond - A Guide to the Multiverse"
@@ -3294,7 +3294,7 @@
 		]
 	},
 	"alchemical_ooze_swarm_choleric_ooze_swarm": {
-		"name": "Alchemical Ooze Swarm, Choleric Ooze Swarm",
+		"name": "Choleric Ooze Swarm (Alchemical Ooze Swarm)",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
 			"::mh[Choleric Ooze Swarm]{cr=\"2\"}",
@@ -3347,7 +3347,7 @@
 	},
 	"choleric_ooze_swarm": { "copyof": "alchemical_ooze_swarm_choleric_ooze_swarm" },
 	"alchemical_ooze_swarm_melancholic_ooze_swarm": {
-		"name": "Alchemical Ooze Swarm, Melancholic Ooze Swarm",
+		"name": "Melancholic Ooze Swarm (Alchemical Ooze Swarm)",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
 			"::mh[Melancholic Ooze Swarm]{cr=\"1\"}",
@@ -3398,7 +3398,7 @@
 	},
 	"melancholic_ooze_swarm": { "copyof": "alchemical_ooze_swarm_melancholic_ooze_swarm" },
 	"alchemical_ooze_swarm_phlegmatic_ooze_swarm": {
-		"name": "Alchemical Ooze Swarm, Phlegmatic Ooze Swarm",
+		"name": "Phlegmatic Ooze Swarm (Alchemical Ooze Swarm)",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
 			"::mh[Phlegmatic Ooze Swarm]{cr=\"1/2\"}",
@@ -3449,7 +3449,7 @@
 	},
 	"phlegmatic_ooze_swarm": { "copyof": "alchemical_ooze_swarm_phlegmatic_ooze_swarm" },
 	"alchemical_ooze_swarm_sanguine_ooze_swarm": {
-		"name": "Alchemical Ooze Swarm, Sanguine Ooze Swarm",
+		"name": "Sanguine Ooze Swarm (Alchemical Ooze Swarm)",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
 			"*Dozens of tiny globs of slime move on their own, acting as one being, alternately clinging to each other and separating in a riot of oozing momentum.*",

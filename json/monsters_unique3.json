@@ -333,7 +333,7 @@
 		]
 	},
 	"medusa_eygreas": {
-		"name": "Medusa, Eygreas",
+		"name": "Eygreas (Medusa)",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
 			"*This monstrous, snaked-haired creature has the upper body of a bronze-skinned woman and the lower body of an enormous serpent.*",
@@ -1123,7 +1123,7 @@
 		]
 	},
 	"phoenix_pyralisia": {
-		"name": "Phoenix, Pyralisia, the Rain of Embers",
+		"name": "Pyralisia, the Rain of Embers (Phoenix)",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
 			"*This giant ebon bird is streaked in lines of fiery embers and red lightning, clouds of black smoke billowing behind it.*",
@@ -1246,7 +1246,7 @@
 	},
 	"the_prince_in_chains": { "copyof": "prince_in_chains_the" },
 	"psychopomp_usher_barzahk": {
-		"name": "Psychopomp Usher, Barzahk",
+		"name": "Barzahk (Psychopomp Usher)",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
 			"*Feathered arms emerge from the shoulders of this hunched raven, clutching a key of bone.*",
@@ -1367,7 +1367,7 @@
 		]
 	},
 	"qlippoth_lord_chavazvug": {
-		"name": "Qlippoth Lord, Chavazvug",
+		"name": "Chavazvug (Qlippoth Lord)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This towering, steaming mass of slithering entrails drags ropes of mouthed intestines below his five spidery legs.*",
@@ -1449,7 +1449,7 @@
 	},
 	"chavazvug": { "copyof": "qlippoth_lord_chavazvug" },
 	"qlippoth_lord_isph_aun_vuln": {
-		"name": "Qlippoth Lord, Isph-Aun-Vuln",
+		"name": "Isph-Aun-Vuln (Qlippoth Lord)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*A cloud of smoke the size of a human condenses, forming a clot of tentacles and eyes surrounding a fanged mouth.*",
@@ -1529,7 +1529,7 @@
 	},
 	"isph_aun_vuln": { "copyof": "qlippoth_lord_isph_aun_vuln" },
 	"qlippoth_lord_oaur_ooung": {
-		"name": "Qlippoth Lord, Oaur-Ooung",
+		"name": "Oaur-Ooung (Qlippoth Lord)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*The sides of this tentacled monstrosity-part jellyfish, part mushroom forest-swell with opaque, pulsing blisters.*",
@@ -1617,7 +1617,7 @@
 	},
 	"oaur_ooung": { "copyof": "qlippoth_lord_oaur_ooung" },
 	"qlippoth_lord_thuskchoon": {
-		"name": "Qlippoth Lord, Thuskchoon",
+		"name": "Thuskchoon (Qlippoth Lord)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This sluglike creature leaves a swath of tar wherever he goes, and his upper body opens into a gaping, sludge-dripping mouth.*",
@@ -1700,7 +1700,7 @@
 	},
 	"thuskchoon": { "copyof": "qlippoth_lord_thuskchoon" },
 	"qlippoth_lord_yamasoth": {
-		"name": "Qlippoth Lord, Yamasoth",
+		"name": "Yamasoth (Qlippoth Lord)",
 		"sources": [
 			"Pathfinder #64: Beyond the Doomsday Door",
 			"Bestiary 6"
@@ -2222,7 +2222,7 @@
 		]
 	},
 	"spawn_of_rovagug_chemnosit_the_monarch_worm": {
-		"name": "Spawn of Rovagug, Chemnosit (The Monarch Worm)",
+		"name": "Chemnosit (The Monarch Worm) (Spawn of Rovagug)",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"*This massive beast possesses a mouth of rasping teeth and tentacles with biting mouths. In the center of its maw rests a glowing evil eye.*",
@@ -2284,7 +2284,7 @@
 	"chemnosit_the_monarch_worm": { "copyof": "spawn_of_rovagug_chemnosit_the_monarch_worm" },
 	"chemnosit": { "copyof": "spawn_of_rovagug_chemnosit_the_monarch_worm" },
 	"spawn_of_rovagug_festering_ulunat_the_unholy_first": {
-		"name": "Spawn of Rovagug, Festering Ulunat (The Unholy First)",
+		"name": "Festering Ulunat (The Unholy First) (Spawn of Rovagug)",
 		"sources": [
 			"Pathfinder #84: Pyramid of the Sky Pharaoh",
 			"Inner Sea Bestiary"
@@ -2359,7 +2359,7 @@
 	"festering_ulunat_the_unholy_first": { "copyof": "spawn_of_rovagug_festering_ulunat_the_unholy_first" },
 	"festering_ulunat": { "copyof": "spawn_of_rovagug_festering_ulunat_the_unholy_first" },
 	"spawn_of_rovagug_volnagur_the_end_singer": {
-		"name": "Spawn of Rovagug, Volnagur (The End-Singer)",
+		"name": "Volnagur (The End-Singer) (Spawn of Rovagug)",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"*This immense creature's warty body is shaped like a many-pointed star, and from it sprout nearly a dozen different wings.*",

@@ -1,6 +1,6 @@
 {
 	"empyreal_lord_arshea": {
-		"name": "Empyreal Lord, Arshea",
+		"name": "Arshea (Empyreal Lord)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -84,7 +84,7 @@
 	},
 	"arshea": { "copyof": "empyreal_lord_arshea" },
 	"empyreal_lord_ashava": {
-		"name": "Empyreal Lord, Ashava",
+		"name": "Ashava (Empyreal Lord)",
 		"sources": [
 			"Pathfinder #134: It Came from Hollow Mountain",
 			"Bestiary 4"
@@ -171,7 +171,7 @@
 	},
 	"ashava": { "copyof": "empyreal_lord_ashava" },
 	"empyreal_lord_black_butterfly": {
-		"name": "Empyreal Lord, Black Butterfly",
+		"name": "Black Butterfly (Empyreal Lord)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -259,7 +259,7 @@
 	},
 	"black_butterfly": { "copyof": "empyreal_lord_black_butterfly" },
 	"empyreal_lord_cernunnos": {
-		"name": "Empyreal Lord, Cernunnos",
+		"name": "Cernunnos (Empyreal Lord)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This tall, graceful person has elven features, the horns of a majestic stag and a piercing, ageless stare.*",
@@ -361,7 +361,7 @@
 	},
 	"cernunnos": { "copyof": "empyreal_lord_cernunnos" },
 	"empyreal_lord_korada": {
-		"name": "Empyreal Lord, Korada",
+		"name": "Korada (Empyreal Lord)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This serene, acrobatic man has stiff sideburns, a beard like a monkey, and three golden-furred tails.*",
@@ -450,7 +450,7 @@
 	},
 	"korada": { "copyof": "empyreal_lord_korada" },
 	"empyreal_lord_ragathiel": {
-		"name": "Empyreal Lord, Ragathiel",
+		"name": "Ragathiel (Empyreal Lord)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -537,7 +537,7 @@
 	},
 	"ragathiel": { "copyof": "empyreal_lord_ragathiel" },
 	"empyreal_lord_vildeis": {
-		"name": "Empyreal Lord, Vildeis",
+		"name": "Vildeis (Empyreal Lord)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This red-winged angel is blindfolded and wrapped with bloody bandages. What shows of her flesh is scarred with celestial runes.*",
@@ -971,7 +971,7 @@
 		]
 	},
 	"great_old_one_atlach_nacha": {
-		"name": "Great Old One, Atlach-Nacha",
+		"name": "Atlach-Nacha (Great Old One)",
 		"sources": [
 			"Pathfinder #112: The Whisper Out of Time",
 			"Bestiary 4"
@@ -1063,7 +1063,7 @@
 	},
 	"atlach_nacha": { "copyof": "great_old_one_atlach_nacha" },
 	"kaiju_mogaru": {
-		"name": "Kaiju, Mogaru",
+		"name": "Mogaru (Kaiju)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This towering saurian lumbers on its hind legs, its twin tails thrashing and the spines on its back glowing with red energy.*",
@@ -1136,7 +1136,7 @@
 	"mogaru": { "copyof": "kaiju_mogaru" },
 	"king_mogaru": { "copyof": "kaiju_mogaru" },
 	"kaiju_varklops": {
-		"name": "Kaiju, Varklops",
+		"name": "Varklops (Kaiju)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -1214,7 +1214,7 @@
 	},
 	"varklops": { "copyof": "kaiju_varklops" },
 	"kaiju_vorgozen": {
-		"name": "Kaiju, Vorgozen",
+		"name": "Vorgozen (Kaiju)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -1294,7 +1294,7 @@
 	},
 	"vorgozen": { "copyof": "kaiju_vorgozen" },
 	"kaiju_yarthoon": {
-		"name": "Kaiju, Yarthoon",
+		"name": "Yarthoon (Kaiju)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -1699,7 +1699,7 @@
 		]
 	},
 	"kyton_demagogue_inkariax": {
-		"name": "Kyton Demagogue, Inkariax",
+		"name": "Inkariax (Kyton Demagogue)",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"*This impeccably formed man has ice-blue skin. Bleeding icicles pierce his lips and form a jagged cloak around his waist and legs.*",
@@ -2319,7 +2319,7 @@
 		]
 	},
 	"elemental_lord_ymeri": {
-		"name": "Elemental Lord, Ymeri",
+		"name": "Ymeri (Elemental Lord)",
 		"sources": [ "Planes of Power" ],
 		"description": [
 			"*This woman with four armor-clad arms and wings of incandescent magma has the lower torso of a powerful reptile.*",

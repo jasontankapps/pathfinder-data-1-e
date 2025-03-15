@@ -2157,10 +2157,10 @@
 		]
 	},
 	"armor_proficiency_heavy": {
-		"name": "Armor Proficiency, Heavy",
+		"name": "Heavy Armor Proficiency",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Armor Proficiency, Heavy (Combat)",
+			"## Heavy Armor Proficiency (Combat)",
 			"",
 			"{SOURCE PRPG Core Rulebook/118}",
 			"",
@@ -2173,10 +2173,10 @@
 	},
 	"heavy_armor_proficiency": { "copyof": "armor_proficiency_heavy" },
 	"armor_proficiency_light": {
-		"name": "Armor Proficiency, Light",
+		"name": "Light Armor Proficiency",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Armor Proficiency, Light (Combat)",
+			"## Light Armor Proficiency (Combat)",
 			"",
 			"{SOURCE PRPG Core Rulebook/118}",
 			"",
@@ -2188,10 +2188,10 @@
 	},
 	"light_armor_proficiency": { "copyof": "armor_proficiency_light" },
 	"armor_proficiency_medium": {
-		"name": "Armor Proficiency, Medium",
+		"name": "Medium Armor Proficiency",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Armor Proficiency, Medium (Combat)",
+			"## Medium Armor Proficiency (Combat)",
 			"",
 			"{SOURCE PRPG Core Rulebook/118}",
 			"",

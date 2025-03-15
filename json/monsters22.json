@@ -663,7 +663,7 @@
 		]
 	},
 	"skeleton_armored_ogre_skeleton": {
-		"name": "Skeleton, Armored Ogre Skeleton",
+		"name": "Armored Ogre Skeleton",
 		"sources": [
 			"Pathfinder #44: Trial of the Beast",
 			"Pathfinder RPG Bestiary"
@@ -706,7 +706,7 @@
 	"armored_ogre_skeleton": { "copyof": "skeleton_armored_ogre_skeleton" },
 	"skeleton_armored_ogre": { "copyof": "skeleton_armored_ogre_skeleton" },
 	"skeleton_four_armed_mudra_skeleton": {
-		"name": "Skeleton, Four-Armed Mudra Skeleton",
+		"name": "Four-Armed Mudra Skeleton",
 		"sources": [
 			"Pathfinder #44: Trial of the Beast",
 			"Pathfinder RPG Bestiary"
@@ -750,7 +750,7 @@
 	"four_armed_mudra_skeleton": { "copyof": "skeleton_four_armed_mudra_skeleton" },
 	"skeleton_four_armed_mudra": { "copyof": "skeleton_four_armed_mudra_skeleton" },
 	"skeleton_multiplying_t_rex_skeleton": {
-		"name": "Skeleton, Multiplying T-Rex Skeleton",
+		"name": "Multiplying T-Rex Skeleton",
 		"sources": [
 			"Pathfinder #44: Trial of the Beast",
 			"Pathfinder RPG Bestiary"
@@ -800,7 +800,7 @@
 	"multiplying_trex_skeleton": { "copyof": "skeleton_multiplying_t_rex_skeleton" },
 	"skeleton_multiplying_t_rex": { "copyof": "skeleton_multiplying_t_rex_skeleton" },
 	"skeleton_skeletal_mage": {
-		"name": "Skeleton, Skeletal Mage",
+		"name": "Skeletal Mage (Skeleton)",
 		"sources": [
 			"Pathfinder #44: Trial of the Beast",
 			"Pathfinder RPG Bestiary"
@@ -859,7 +859,7 @@
 	},
 	"skeletal_mage": { "copyof": "skeleton_skeletal_mage" },
 	"skeleton_skeletal_mount": {
-		"name": "Skeleton, Skeletal Mount",
+		"name": "Skeletal Mount (Skeleton)",
 		"sources": [
 			"Pathfinder #44: Trial of the Beast",
 			"Pathfinder RPG Bestiary"
@@ -1542,7 +1542,7 @@
 		]
 	},
 	"skunk_giant_skunk": {
-		"name": "Skunk, Giant Skunk",
+		"name": "Giant Skunk",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Snarling and ferocious, this horse-sized skunk emits a frightening growl as it smashes through the undergrowth.*",
@@ -2208,7 +2208,7 @@
 		]
 	},
 	"snake_swarm_venomous_snake_swarm": {
-		"name": "Snake Swarm, Venomous Snake Swarm",
+		"name": "Venomous Snake Swarm",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #39: The City of Seven Spears"
@@ -2261,7 +2261,7 @@
 	},
 	"venomous_snake_swarm": { "copyof": "snake_swarm_venomous_snake_swarm" },
 	"snake_asp": {
-		"name": "Snake, Asp",
+		"name": "Asp (Snake)",
 		"sources": [ "Osirion, Legacy of the Pharaohs" ],
 		"description": [
 			"*This long, muscular snake rears up and shows its hood and fangs when threatened.*",
@@ -2311,7 +2311,7 @@
 	},
 	"asp": { "copyof": "snake_asp" },
 	"snake_constrictor_snake": {
-		"name": "Snake, Constrictor Snake",
+		"name": "Constrictor Snake",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This large snake has a thick, muscular body and dull green scales decorated with dirty brown stripes.*",
@@ -2358,7 +2358,7 @@
 	"snake_constrictor": { "copyof": "snake_constrictor_snake" },
 	"constrictor_snake": { "copyof": "snake_constrictor_snake" },
 	"snake_emperor_cobra": {
-		"name": "Snake, Emperor Cobra",
+		"name": "Emperor Cobra (Snake)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This massive green cobra rears its head upward aggressively, its brightly colored, scaly hood flaring in an unmistakable warning.*",
@@ -2406,7 +2406,7 @@
 	},
 	"emperor_cobra": { "copyof": "snake_emperor_cobra" },
 	"snake_giant_anaconda": {
-		"name": "Snake, Giant Anaconda",
+		"name": "Giant Anaconda (Snake)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*An enormous coil of muscle and scales, this giant snake flicks its arm-length tongue in the air as it scans the area for prey.*",
@@ -2451,7 +2451,7 @@
 	},
 	"giant_anaconda": { "copyof": "snake_giant_anaconda" },
 	"snake_venomous_snake": {
-		"name": "Snake, Venomous Snake",
+		"name": "Venomous Snake",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This brightly colored snake assumes an aggressive posture, its hissing mouth open to display its fangs.*",
@@ -2614,7 +2614,7 @@
 		]
 	},
 	"solifugid_albino_cave_solifugid": {
-		"name": "Solifugid, Albino Cave Solifugid",
+		"name": "Albino Cave Solifugid",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This spider-like creature's front legs end in immense, grasping claws. Its mouth sports a pair of huge vertical mandibles.*",
@@ -2659,7 +2659,7 @@
 	"solifugid_albino_cave": { "copyof": "solifugid_albino_cave_solifugid" },
 	"albino_cave_solifugid": { "copyof": "solifugid_albino_cave_solifugid" },
 	"solifugid_giant_solifugid": {
-		"name": "Solifugid, Giant Solifugid",
+		"name": "Giant Solifugid",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This tan-colored creature looks like a ten-legged spider. Oversized jaws grind together slowly beneath beady eyes.*",
@@ -3937,7 +3937,7 @@
 		]
 	},
 	"stymphalide_giant_stymphalidies": {
-		"name": "Stymphalide, Giant Stymphalidies",
+		"name": "Giant Stymphalidies",
 		"sources": [ "Pathfinder #26: The Sixfold Trial" ],
 		"description": [
 			"*Every feather like a plate of shimmering armor and its beak the length and sharpness of a knight's lance, this towering, ibis-like bird looks to be sculpted from silver and brass. Standing upon long legs ending in powerful metallic talons, its beady eyes dart about voraciously.*",
@@ -3995,7 +3995,7 @@
 	},
 	"giant_stymphalidies": { "copyof": "stymphalide_giant_stymphalidies" },
 	"stymphalide_stymphalides_swarm": {
-		"name": "Stymphalide, Stymphalides Swarm",
+		"name": "Stymphalides Swarm",
 		"sources": [ "Pathfinder #26: The Sixfold Trial" ],
 		"description": [
 			"*This cloud of long-necked birds rises into the air, screeching in a cacophony reminiscent of klaxons and clanging tools. As these avians flit among one another, their feathers glint with a metallic gleam, reflecting even the dimmest light back a hundredfold through a dim haze of blood.*",

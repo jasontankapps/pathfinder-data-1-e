@@ -69,7 +69,7 @@
 		]
 	},
 	"samsaran_reborn_samsaran": {
-		"name": "Samsaran, Reborn Samsaran",
+		"name": "Reborn Samsaran",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*The pale-blue skin of this dark-haired humanoid seems to subtly change hue from moment to moment.*",
@@ -314,7 +314,7 @@
 		]
 	},
 	"rot_grub_giant_rot_grub": {
-		"name": "Rot Grub, Giant Rot Grub",
+		"name": "Giant Rot Grub",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #25: The Bastards of Erebus"
@@ -370,7 +370,7 @@
 	},
 	"giant_rot_grub": { "copyof": "rot_grub_giant_rot_grub" },
 	"rot_grub_rot_grub_swarm": {
-		"name": "Rot Grub, Rot Grub Swarm",
+		"name": "Rot Grub Swarm",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #25: The Bastards of Erebus"
@@ -898,7 +898,7 @@
 		]
 	},
 	"shark_angustiden": {
-		"name": "Shark, Angustiden",
+		"name": "Angustiden (Shark)",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
 			"*This majestic beast glides through the water with murderous intent. Its thick-toothed maw is wide enough for a human to stand in, and its body stretches back more than 20 feet.*",
@@ -947,7 +947,7 @@
 	},
 	"angustiden": { "copyof": "shark_angustiden" },
 	"shark_bull_shark": {
-		"name": "Shark, Bull Shark",
+		"name": "Bull Shark",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This sleek, gray predator weaves back and forth through the water with savage grace.*",
@@ -993,7 +993,7 @@
 	"shark_bull": { "copyof": "shark_bull_shark" },
 	"bull_shark": { "copyof": "shark_bull_shark" },
 	"shark_dire_shark_megalodon": {
-		"name": "Shark, Dire Shark (Megalodon)",
+		"name": "Dire Shark (Megalodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Large as a dragon, this shark's jaws open to reveal a cavernous, tooth-lined gullet capable of swallowing a horse whole.*",
@@ -1040,7 +1040,7 @@
 	"dire_shark": { "copyof": "shark_dire_shark_megalodon" },
 	"shark_dire": { "copyof": "shark_dire_shark_megalodon" },
 	"shark_great_white_shark": {
-		"name": "Shark, Great White Shark",
+		"name": "Great White Shark",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #57: Tempest Rising"
@@ -1093,7 +1093,7 @@
 	"shark_great_white": { "copyof": "shark_great_white_shark" },
 	"great_white_shark": { "copyof": "shark_great_white_shark" },
 	"shark_hammerhead_shark": {
-		"name": "Shark, Hammerhead Shark",
+		"name": "Hammerhead Shark",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
 			"*Beneath this sleek gray shark's unusually shaped head, a disproportionately small mouth flashes with razor-sharp teeth.*",
@@ -1138,7 +1138,7 @@
 	"shark_hammerhead": { "copyof": "shark_hammerhead_shark" },
 	"hammerhead_shark": { "copyof": "shark_hammerhead_shark" },
 	"shark_helicoprion": {
-		"name": "Shark, Helicoprion",
+		"name": "Helicoprion (Shark)",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
 			"*This creature resembles an ordinary shark from tail to mouth, but the unusual shape of its lower jaw marks it as something else. A whorl of teeth spirals inward, tiny at the centre, but long and brutal farther out.*",
@@ -1187,7 +1187,7 @@
 	},
 	"helicoprion": { "copyof": "shark_helicoprion" },
 	"shark_jigsaw_shark": {
-		"name": "Shark, Jigsaw Shark",
+		"name": "Jigsaw Shark",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
 			"*Jagged markings decorate the body of this human-sized shark. A multitude of stains on its large teeth tell of the frequency and ferocity with which it uses its bite.*",
@@ -1698,7 +1698,7 @@
 		]
 	},
 	"ship_in_a_bottle_bottled_armada": {
-		"name": "Ship in a Bottle, Bottled Armada",
+		"name": "Bottled Armada (Ship in a Bottle)",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
 			"*A fleet of miniature ships, each secure in a glass bottle, flies through the air. The ships move as one, coordinating their attacks.*",
@@ -2350,7 +2350,7 @@
 		]
 	},
 	"shriezyx_shriezyx_queen": {
-		"name": "Shriezyx, Shriezyx Queen",
+		"name": "Shriezyx Queen",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
 			"*This bulbous, green-skinned spider is as large as a horse, its toothy maw smiling beneath three glowing eyes.*",
@@ -2636,7 +2636,7 @@
 		]
 	},
 	"siktempora_misery_siktempora": {
-		"name": "Siktempora, Misery Siktempora",
+		"name": "Misery Siktempora",
 		"sources": [ "Pathfinder #135: Runeplague" ],
 		"description": [
 			"*This armless creature has a woman's torso supported by six spidery legs. It lacks a mouth or nose, and its gaze conveys a furious misery.*",
@@ -2825,7 +2825,7 @@
 		]
 	},
 	"spriggan_spriggan_large_size": {
-		"name": "Spriggan, Spriggan (Large Size)",
+		"name": "Spriggan (Large Size)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Spriggan (Large Size)]{cr=\"3\"}",
@@ -2878,7 +2878,7 @@
 	"spriggan_large_size": { "copyof": "spriggan_spriggan_large_size" },
 	"large_spriggan": { "copyof": "spriggan_spriggan_large_size" },
 	"spriggan_spriggan_normal_size": {
-		"name": "Spriggan, Spriggan (Normal Size)",
+		"name": "Spriggan (Normal Size)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Flecks of saliva drip from the corners of this filthy and ill-smelling humanoid, and his large pointed ears twitch at every sound.*",
@@ -3061,7 +3061,7 @@
 		]
 	},
 	"sprite_sprite_swarm": {
-		"name": "Sprite, Sprite Swarm",
+		"name": "Sprite Swarm",
 		"sources": [ "Fey Revisited" ],
 		"description": [
 			"*Thousands of tiny, colorful winged humanoids crawl from every corner of the forest to form this buzzing, writhing swarm.*",
@@ -3171,7 +3171,7 @@
 		]
 	},
 	"squid_giant_squid": {
-		"name": "Squid, Giant Squid",
+		"name": "Giant Squid",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Immense in size, this great squid's tentacles writhe and flash with almost nauseating speed. The beast's eyes are as big as shields.*",

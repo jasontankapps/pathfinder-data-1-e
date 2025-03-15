@@ -80,7 +80,7 @@
 		]
 	},
 	"gigas_abaddon_gigas": {
-		"name": "Gigas, Abaddon Gigas",
+		"name": "Abaddon Gigas",
 		"sources": [
 			"Pathfinder #96: Shadow of the Storm Tyrant",
 			"Pathfinder #30: The Twice-Damned Prince"
@@ -171,7 +171,7 @@
 	"gigas_abaddon": { "copyof": "gigas_abaddon_gigas" },
 	"abaddon_gigas": { "copyof": "gigas_abaddon_gigas" },
 	"gigas_abyss_gigas": {
-		"name": "Gigas, Abyss Gigas",
+		"name": "Abyss Gigas",
 		"sources": [
 			"The Witchwar Legacy",
 			"Pathfinder #30: The Twice-Damned Prince"
@@ -241,7 +241,7 @@
 	"gigas_abyss": { "copyof": "gigas_abyss_gigas" },
 	"abyss_gigas": { "copyof": "gigas_abyss_gigas" },
 	"gigas_hell_gigas": {
-		"name": "Gigas, Hell Gigas",
+		"name": "Hell Gigas",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
 			"*A giant like a mountain of corpses thunders into view. Armor crafted from the twisted bones of a hundred gigantic victims girds a twisted humanoid body covered in angry red burns and the jagged scars of crippling battles. Despite its wounds, the surviving figure exerts a terrible strength, hefting its grisly armor with ease.*",
@@ -359,7 +359,7 @@
 		]
 	},
 	"gillman_awakened_agent": {
-		"name": "Gillman, Awakened Agent",
+		"name": "Awakened Agent (Gillman)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Raiment made from monstrous sea creatures conceals the sallow complexion and strange sores of this sickly gillman. Abnormal muscles and joints flex just beneath his flesh.*",
@@ -420,7 +420,7 @@
 	},
 	"awakened_agent": { "copyof": "gillman_awakened_agent" },
 	"gillman_ship_scavenger": {
-		"name": "Gillman, Ship Scavenger",
+		"name": "Ship Scavenger (Gillman)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*This gillman's lean, athletic frame speaks to a life of hard work, but his keen eyes and appraising smirk suggest a sharp mind and daring nature.*",
@@ -473,7 +473,7 @@
 	},
 	"ship_scavenger": { "copyof": "gillman_ship_scavenger" },
 	"gillman_squall_seer": {
-		"name": "Gillman, Squall Seer",
+		"name": "Squall Seer (Gillman)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*The tricorne hat this gillwoman wears is encrusted with salt, suggesting years spent at sea.*",
@@ -530,7 +530,7 @@
 	},
 	"squall_seer": { "copyof": "gillman_squall_seer" },
 	"gillman_wet_house_emissary": {
-		"name": "Gillman, Wet-House Emissary",
+		"name": "Wet-House Emissary (Gillman)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Swathed in striking turquoise robes, this gillwoman has a cold, appraising stare.*",
@@ -755,7 +755,7 @@
 		]
 	},
 	"girtablilu_divine_chieftain": {
-		"name": "Girtablilu, Divine Chieftain",
+		"name": "Divine Chieftain (Girtablilu)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*This authoritative, scorpion-bodied woman is bedecked with amulets and other regalia.*",
@@ -816,7 +816,7 @@
 	},
 	"divine_chieftain": { "copyof": "girtablilu_divine_chieftain" },
 	"girtablilu_dune_strider": {
-		"name": "Girtablilu, Dune Strider",
+		"name": "Dune Strider (Girtablilu)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Sprightly despite his bulk and swathed in layers of cloth against the relentless sun, this hunter has a wicked bow and a scorpion-like lower body.*",
@@ -868,7 +868,7 @@
 	},
 	"dune_strider": { "copyof": "girtablilu_dune_strider" },
 	"girtablilu_quick_striker": {
-		"name": "Girtablilu, Quick Striker",
+		"name": "Quick Striker (Girtablilu)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Foul liquid drips in equal measure from this scorpion-woman's fearsome spear and tail stinger.*",
@@ -921,7 +921,7 @@
 	},
 	"quick_striker": { "copyof": "girtablilu_quick_striker" },
 	"girtablilu_raging_sting": {
-		"name": "Girtablilu, Raging Sting",
+		"name": "Raging Sting (Girtablilu)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Scars and tattoos intersect across this glowering scorpion-bodied man, and his muscles strain against the leather of his armor.*",
@@ -1481,7 +1481,7 @@
 		]
 	},
 	"gnoll_chosen_of_lamashtu": {
-		"name": "Gnoll, Chosen of Lamashtu",
+		"name": "Chosen of Lamashtu (Gnoll)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Chosen of Lamashtu]{cr=\"12\"}",
@@ -1546,7 +1546,7 @@
 	},
 	"chosen_of_lamashtu": { "copyof": "gnoll_chosen_of_lamashtu" },
 	"gnoll_eye_of_lamashtu": {
-		"name": "Gnoll, Eye of Lamashtu",
+		"name": "Eye of Lamashtu (Gnoll)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Eye of Lamashtu]{cr=\"5\"}",
@@ -1599,7 +1599,7 @@
 	},
 	"eye_of_lamashtu": { "copyof": "gnoll_eye_of_lamashtu" },
 	"gnoll_flind": {
-		"name": "Gnoll, Flind",
+		"name": "Flind (Gnoll)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This powerfully built, hyena-like humanoid is larger than the average gnoll and has a cunning, cruel gaze.*",
@@ -1655,7 +1655,7 @@
 	},
 	"flind": { "copyof": "gnoll_flind" },
 	"gnoll_gnoll_bouda": {
-		"name": "Gnoll, Gnoll Bouda",
+		"name": "Gnoll Bouda",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Gnoll Bouda]{cr=\"13\"}",
@@ -1714,7 +1714,7 @@
 	},
 	"gnoll_bouda": { "copyof": "gnoll_gnoll_bouda" },
 	"gnoll_gnoll_bruiser": {
-		"name": "Gnoll, Gnoll Bruiser",
+		"name": "Gnoll Bruiser",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Gnoll Bruiser]{cr=\"3\"}",
@@ -1763,7 +1763,7 @@
 	},
 	"gnoll_bruiser": { "copyof": "gnoll_gnoll_bruiser" },
 	"gnoll_gnoll_lieutenant": {
-		"name": "Gnoll, Gnoll Lieutenant",
+		"name": "Gnoll Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Gnoll Lieutenant]{cr=\"6\"}",
@@ -1813,7 +1813,7 @@
 	},
 	"gnoll_lieutenant": { "copyof": "gnoll_gnoll_lieutenant" },
 	"gnoll_gnoll_packlord": {
-		"name": "Gnoll, Gnoll Packlord",
+		"name": "Gnoll Packlord",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Gnoll Packlord]{cr=\"9\"}",
@@ -1863,7 +1863,7 @@
 	},
 	"gnoll_packlord": { "copyof": "gnoll_gnoll_packlord" },
 	"gnoll_gnoll_rageborn": {
-		"name": "Gnoll, Gnoll Rageborn",
+		"name": "Gnoll Rageborn",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Gnoll Rageborn]{cr=\"3\"}",
@@ -1913,7 +1913,7 @@
 	},
 	"gnoll_rageborn": { "copyof": "gnoll_gnoll_rageborn" },
 	"gnoll_gnoll_ravager": {
-		"name": "Gnoll, Gnoll Ravager",
+		"name": "Gnoll Ravager",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Gnoll Ravager]{cr=\"11\"}",
@@ -1969,7 +1969,7 @@
 	},
 	"gnoll_ravager": { "copyof": "gnoll_gnoll_ravager" },
 	"gnoll_gnoll_sergeant": {
-		"name": "Gnoll, Gnoll Sergeant",
+		"name": "Gnoll Sergeant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Gnoll Sergeant]{cr=\"4\"}",
@@ -2014,7 +2014,7 @@
 	},
 	"gnoll_sergeant": { "copyof": "gnoll_gnoll_sergeant" },
 	"gnoll_gnoll_warden": {
-		"name": "Gnoll, Gnoll Warden",
+		"name": "Gnoll Warden",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Gnoll Warden]{cr=\"10\"}",
@@ -2294,7 +2294,7 @@
 		]
 	},
 	"goblin_goblin_chief": {
-		"name": "Goblin, Goblin Chief",
+		"name": "Goblin Chief",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Goblin Chief]{cr=\"9\"}",
@@ -2344,7 +2344,7 @@
 	},
 	"goblin_chief": { "copyof": "goblin_goblin_chief" },
 	"goblin_goblin_commando": {
-		"name": "Goblin, Goblin Commando",
+		"name": "Goblin Commando",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Goblin Commando]{cr=\"2\"}",
@@ -2389,7 +2389,7 @@
 	},
 	"goblin_commando": { "copyof": "goblin_goblin_commando" },
 	"goblin_goblin_firestarter": {
-		"name": "Goblin, Goblin Firestarter",
+		"name": "Goblin Firestarter",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Goblin Firestarter]{cr=\"4\"}",
@@ -2439,7 +2439,7 @@
 	},
 	"goblin_firestarter": { "copyof": "goblin_goblin_firestarter" },
 	"goblin_goblin_frog_talker": {
-		"name": "Goblin, Goblin Frog-Talker",
+		"name": "Goblin Frog-Talker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Goblin Frog-Talker]{cr=\"5\"}",
@@ -2500,7 +2500,7 @@
 	},
 	"goblin_frog_talker": { "copyof": "goblin_goblin_frog_talker" },
 	"goblin_goblin_outrider": {
-		"name": "Goblin, Goblin Outrider",
+		"name": "Goblin Outrider",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Goblin Outrider]{cr=\"1\"}",
@@ -2549,7 +2549,7 @@
 	},
 	"goblin_outrider": { "copyof": "goblin_goblin_outrider" },
 	"goblin_goblin_sneak": {
-		"name": "Goblin, Goblin Sneak",
+		"name": "Goblin Sneak",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Goblin Sneak]{cr=\"1\"}",
@@ -2599,7 +2599,7 @@
 	},
 	"goblin_sneak": { "copyof": "goblin_goblin_sneak" },
 	"goblin_goblin_stickylord": {
-		"name": "Goblin, Goblin Stickylord",
+		"name": "Goblin Stickylord",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Goblin Stickylord]{cr=\"6\"}",
@@ -2659,7 +2659,7 @@
 	},
 	"goblin_stickylord": { "copyof": "goblin_goblin_stickylord" },
 	"goblin_goblin_vulture_pilot": {
-		"name": "Goblin, Goblin Vulture Pilot",
+		"name": "Goblin Vulture Pilot",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Goblin Vulture Pilot]{cr=\"3\"}",
@@ -2740,7 +2740,7 @@
 	},
 	"goblin_vulture_pilot": { "copyof": "goblin_goblin_vulture_pilot" },
 	"goblin_grizzled_rider": {
-		"name": "Goblin, Grizzled Rider",
+		"name": "Grizzled Rider",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Grizzled Rider]{cr=\"5\"}",
@@ -2791,7 +2791,7 @@
 	},
 	"grizzled_rider": { "copyof": "goblin_grizzled_rider" },
 	"goblin_monkey_goblin": {
-		"name": "Goblin, Monkey Goblin",
+		"name": "Monkey Goblin",
 		"sources": [
 			"Bestiary 6",
 			"Inner Sea Bestiary"
@@ -4047,7 +4047,7 @@
 		]
 	},
 	"grim_reaper_lesser_death": {
-		"name": "Grim Reaper, Lesser Death",
+		"name": "Lesser Death (Grim Reaper)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*One bleached-bone hand of this robed, skeletal figure grasps a massive, curved scythe.*",

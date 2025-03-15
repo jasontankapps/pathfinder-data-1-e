@@ -1,6 +1,6 @@
 {
 	"sphinx_androsphinx": {
-		"name": "Sphinx, Androsphinx",
+		"name": "Androsphinx (Sphinx)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This regal, bird-winged lion has a human's head, clad in the golden raiment of a powerful pharaoh.*",
@@ -67,7 +67,7 @@
 	},
 	"androsphinx": { "copyof": "sphinx_androsphinx" },
 	"sphinx_criosphinx": {
-		"name": "Sphinx, Criosphinx",
+		"name": "Criosphinx (Sphinx)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This creature has the wings of a bird, the body of a lion, and the head of a ram with sad, wise eyes.*",
@@ -127,7 +127,7 @@
 	},
 	"criosphinx": { "copyof": "sphinx_criosphinx" },
 	"sphinx_cynosphinx": {
-		"name": "Sphinx, Cynosphinx",
+		"name": "Cynosphinx (Sphinx)",
 		"sources": [
 			"Pathfinder #82: Secrets of the Sphinx",
 			"Bestiary 3"
@@ -211,7 +211,7 @@
 	},
 	"cynosphinx": { "copyof": "sphinx_cynosphinx" },
 	"sphinx_elder_sphinx": {
-		"name": "Sphinx, Elder Sphinx",
+		"name": "Elder Sphinx (Sphinx)",
 		"sources": [
 			"Pathfinder #83: The Slave Trenches of Hakotep",
 			"Bestiary 3"
@@ -290,7 +290,7 @@
 	"sphinx_elder": { "copyof": "sphinx_elder_sphinx" },
 	"elder_sphinx": { "copyof": "sphinx_elder_sphinx" },
 	"sphinx_gynosphinx": {
-		"name": "Sphinx, Gynosphinx",
+		"name": "Gynosphinx (Sphinx)",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Bestiary 3"
@@ -350,7 +350,7 @@
 	},
 	"gynosphinx": { "copyof": "sphinx_gynosphinx" },
 	"sphinx_hieracosphinx": {
-		"name": "Sphinx, Hieracosphinx",
+		"name": "Hieracosphinx (Sphinx)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*A cold-eyed falcon's head and great wings adorn the body of this otherwise leonine creature.*",
@@ -467,7 +467,7 @@
 		]
 	},
 	"spider_drain_spider": {
-		"name": "Spider, Drain Spider",
+		"name": "Drain Spider",
 		"sources": [ "Curse of the Crimson Throne" ],
 		"description": [
 			"*This brown spider's body is fist-sized, yet its long, spindly legs and oversized fangs make it appear quite fearsome.*",
@@ -525,7 +525,7 @@
 	"spider_drain": { "copyof": "spider_drain_spider" },
 	"drain_spider": { "copyof": "spider_drain_spider" },
 	"spider_dream_spider": {
-		"name": "Spider, Dream Spider",
+		"name": "Dream Spider",
 		"sources": [
 			"Curse of the Crimson Throne",
 			"Pathfinder #7: Edge of Anarchy"
@@ -579,7 +579,7 @@
 	"spider_dream": { "copyof": "spider_dream_spider" },
 	"dream_spider": { "copyof": "spider_dream_spider" },
 	"spider_giant_black_widow": {
-		"name": "Spider, Giant Black Widow",
+		"name": "Giant Black Widow (Spider)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This long-legged spider has a huge, glossy black abdomen, marked on the underside with the shape of a crimson hourglass.*",
@@ -631,7 +631,7 @@
 	},
 	"giant_black_widow": { "copyof": "spider_giant_black_widow" },
 	"spider_giant_crab_spider": {
-		"name": "Spider, Giant Crab Spider",
+		"name": "Giant Crab Spider",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This pale yellow spider's legs protrude on either side, giving it a very distinctive stance. The thing is the size of a large dog.*",
@@ -679,7 +679,7 @@
 	"spider_giant_crab": { "copyof": "spider_giant_crab_spider" },
 	"giant_crab_spider": { "copyof": "spider_giant_crab_spider" },
 	"spider_giant_spider": {
-		"name": "Spider, Giant Spider",
+		"name": "Giant Spider",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A spider the size of a man crawls silently from the depths of its funnel-shaped web.*",
@@ -739,7 +739,7 @@
 	"spider_giant": { "copyof": "spider_giant_spider" },
 	"giant_spider": { "copyof": "spider_giant_spider" },
 	"spider_giant_tarantula": {
-		"name": "Spider, Giant Tarantula",
+		"name": "Giant Tarantula (Spider)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A massive tarantula covered in bristly hairs strides forward with deliberate steps, its eight eyes scanning for prey.*",
@@ -790,7 +790,7 @@
 	},
 	"giant_tarantula": { "copyof": "spider_giant_tarantula" },
 	"spider_goliath_spider": {
-		"name": "Spider, Goliath Spider",
+		"name": "Goliath Spider",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This massive brown-and-green tarantula is the size of a large house and has huge, razor-sharp fangs.*",
@@ -842,7 +842,7 @@
 	"spider_goliath": { "copyof": "spider_goliath_spider" },
 	"goliath_spider": { "copyof": "spider_goliath_spider" },
 	"spider_moon_spider": {
-		"name": "Spider, Moon Spider",
+		"name": "Moon Spider",
 		"sources": [ "The Emerald Spire Superdungeon" ],
 		"description": [
 			"*Pale and round-bodied, this giant spider is the size of a large dog. Its crimson eyes glitter with malign intelligence.*",
@@ -906,7 +906,7 @@
 	"spider_moon": { "copyof": "spider_moon_spider" },
 	"moon_spider": { "copyof": "spider_moon_spider" },
 	"spider_ogre_spider": {
-		"name": "Spider, Ogre Spider",
+		"name": "Ogre Spider",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This towering spider is the size of an elephant. Its legs have spiky joints and its face looks vaguely, but disturbingly, humanoid.*",
@@ -957,7 +957,7 @@
 	"spider_ogre": { "copyof": "spider_ogre_spider" },
 	"ogre_spider": { "copyof": "spider_ogre_spider" },
 	"spider_scarlet_spider": {
-		"name": "Spider, Scarlet Spider",
+		"name": "Scarlet Spider",
 		"sources": [
 			"Ultimate Magic",
 			"Pathfinder RPG Bestiary"
@@ -1013,7 +1013,7 @@
 	"spider_scarlet": { "copyof": "spider_scarlet_spider" },
 	"scarlet_spider": { "copyof": "spider_scarlet_spider" },
 	"spider_spider_swarm": {
-		"name": "Spider, Spider Swarm",
+		"name": "Spider Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*An awful, scuttling mass of legs and mandibles scrambles forward out of the darkness.*",
@@ -1121,7 +1121,7 @@
 		]
 	},
 	"strix_itaraak_champion": {
-		"name": "Strix, Itaraak Champion",
+		"name": "Itaraak Champion (Strix)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Armored in sun-bleached bones and smelling of stale blood, this scarred man with massive wings keeps his bow at the ready.*",
@@ -1170,7 +1170,7 @@
 	},
 	"itaraak_champion": { "copyof": "strix_itaraak_champion" },
 	"strix_strix_infiltrator": {
-		"name": "Strix, Strix Infiltrator",
+		"name": "Strix Infiltrator",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Seemingly human at first glance, this feathered woman conceals wings beneath a heavy cloak.*",
@@ -1223,7 +1223,7 @@
 	},
 	"strix_infiltrator": { "copyof": "strix_strix_infiltrator" },
 	"strix_strix_rokoa": {
-		"name": "Strix, Strix Rokoa",
+		"name": "Strix Rokoa",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*This proud avian woman stands tall and alert despite her years. Claws, bones, and feathers clatter on her crown and staff.*",
@@ -1285,7 +1285,7 @@
 	},
 	"strix_rokoa": { "copyof": "strix_strix_rokoa" },
 	"strix_strix_voyager": {
-		"name": "Strix, Strix Voyager",
+		"name": "Strix Voyager",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*The attire of this winged man, whose wooden mask is carved into an eerie smile, is devoid of the stark-white bones commonly worn by his people.*",
@@ -1576,7 +1576,7 @@
 		]
 	},
 	"troglodyte_troglodyte_beast_speaker": {
-		"name": "Troglodyte, Troglodyte Beast-Speaker",
+		"name": "Troglodyte Beast-Speaker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.*",
@@ -1632,7 +1632,7 @@
 	},
 	"troglodyte_beast_speaker": { "copyof": "troglodyte_troglodyte_beast_speaker" },
 	"troglodyte_troglodyte_champion": {
-		"name": "Troglodyte, Troglodyte Champion",
+		"name": "Troglodyte Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.*",
@@ -1681,7 +1681,7 @@
 	},
 	"troglodyte_champion": { "copyof": "troglodyte_troglodyte_champion" },
 	"troglodyte_troglodyte_chieftain": {
-		"name": "Troglodyte, Troglodyte Chieftain",
+		"name": "Troglodyte Chieftain",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.*",
@@ -1744,7 +1744,7 @@
 	},
 	"troglodyte_chieftain": { "copyof": "troglodyte_troglodyte_chieftain" },
 	"troglodyte_troglodyte_priest": {
-		"name": "Troglodyte, Troglodyte Priest",
+		"name": "Troglodyte Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.*",
@@ -1805,7 +1805,7 @@
 	},
 	"troglodyte_priest": { "copyof": "troglodyte_troglodyte_priest" },
 	"troglodyte_troglodyte_scale_rider": {
-		"name": "Troglodyte, Troglodyte Scale-Rider",
+		"name": "Troglodyte Scale-Rider",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.*",
@@ -1853,7 +1853,7 @@
 	},
 	"troglodyte_scale_rider": { "copyof": "troglodyte_troglodyte_scale_rider" },
 	"troglodyte_troglodyte_skulker": {
-		"name": "Troglodyte, Troglodyte Skulker",
+		"name": "Troglodyte Skulker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.*",
@@ -1902,7 +1902,7 @@
 	},
 	"troglodyte_skulker": { "copyof": "troglodyte_troglodyte_skulker" },
 	"troglodyte_troglodyte_sorcerer": {
-		"name": "Troglodyte, Troglodyte Sorcerer",
+		"name": "Troglodyte Sorcerer",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.*",
@@ -1955,7 +1955,7 @@
 	},
 	"troglodyte_sorcerer": { "copyof": "troglodyte_troglodyte_sorcerer" },
 	"troglodyte_troglodyte_tyrant": {
-		"name": "Troglodyte, Troglodyte Tyrant",
+		"name": "Troglodyte Tyrant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.*",
@@ -2020,7 +2020,7 @@
 	},
 	"troglodyte_tyrant": { "copyof": "troglodyte_troglodyte_tyrant" },
 	"troglodyte_troglodyte_warren_guard": {
-		"name": "Troglodyte, Troglodyte Warren Guard",
+		"name": "Troglodyte Warren Guard",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.*",
@@ -2130,7 +2130,7 @@
 		]
 	},
 	"troll_canopy_troll": {
-		"name": "Troll, Canopy Troll",
+		"name": "Canopy Troll",
 		"sources": [
 			"Pathfinder #116: Fangs of War",
 			"Pathfinder RPG Bestiary"
@@ -2210,7 +2210,7 @@
 	"canopy_troll": { "copyof": "troll_canopy_troll" },
 	"troll_canopy": { "copyof": "troll_canopy_troll" },
 	"troll_chimney_troll": {
-		"name": "Troll, Chimney Troll",
+		"name": "Chimney Troll",
 		"sources": [
 			"Daughters of Fury",
 			"Pathfinder RPG Bestiary"
@@ -2278,7 +2278,7 @@
 	"chimney_troll": { "copyof": "troll_chimney_troll" },
 	"troll_chimney": { "copyof": "troll_chimney_troll" },
 	"troll_flood_troll": {
-		"name": "Troll, Flood Troll",
+		"name": "Flood Troll",
 		"sources": [
 			"Pathfinder #91: Battle of Bloodmarch Hills",
 			"Pathfinder RPG Bestiary"
@@ -2359,7 +2359,7 @@
 	"flood_troll": { "copyof": "troll_flood_troll" },
 	"troll_flood": { "copyof": "troll_flood_troll" },
 	"troll_ice_troll": {
-		"name": "Troll, Ice Troll",
+		"name": "Ice Troll",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2421,7 +2421,7 @@
 	"ice_troll": { "copyof": "troll_ice_troll" },
 	"troll_ice": { "copyof": "troll_ice_troll" },
 	"troll_jotund_troll": {
-		"name": "Troll, Jotund Troll",
+		"name": "Jotund Troll",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -2487,7 +2487,7 @@
 	"jotund_troll": { "copyof": "troll_jotund_troll" },
 	"troll_jotund": { "copyof": "troll_jotund_troll" },
 	"troll_moss_troll": {
-		"name": "Troll, Moss Troll",
+		"name": "Moss Troll",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -2554,7 +2554,7 @@
 	"moss_troll": { "copyof": "troll_moss_troll" },
 	"troll_moss": { "copyof": "troll_moss_troll" },
 	"troll_mountain_troll": {
-		"name": "Troll, Mountain Troll",
+		"name": "Mountain Troll",
 		"sources": [
 			"Lands of the Linnorm Kings",
 			"Pathfinder RPG Bestiary"
@@ -2619,7 +2619,7 @@
 	"mountain_troll": { "copyof": "troll_mountain_troll" },
 	"troll_mountain": { "copyof": "troll_mountain_troll" },
 	"troll_rock_troll": {
-		"name": "Troll, Rock Troll",
+		"name": "Rock Troll",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2678,7 +2678,7 @@
 	"rock_troll": { "copyof": "troll_rock_troll" },
 	"troll_rock": { "copyof": "troll_rock_troll" },
 	"troll_sewer_troll": {
-		"name": "Troll, Sewer Troll",
+		"name": "Sewer Troll",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder RPG Bestiary"
@@ -2742,7 +2742,7 @@
 	"sewer_troll": { "copyof": "troll_sewer_troll" },
 	"troll_sewer": { "copyof": "troll_sewer_troll" },
 	"troll_troll_acolyte": {
-		"name": "Troll, Troll Acolyte",
+		"name": "Troll Acolyte",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder RPG Bestiary"
@@ -2804,7 +2804,7 @@
 	},
 	"troll_acolyte": { "copyof": "troll_troll_acolyte" },
 	"troll_troll_berserker": {
-		"name": "Troll, Troll Berserker",
+		"name": "Troll Berserker",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder RPG Bestiary"
@@ -2859,7 +2859,7 @@
 	},
 	"troll_berserker": { "copyof": "troll_troll_berserker" },
 	"troll_troll_brute": {
-		"name": "Troll, Troll Brute",
+		"name": "Troll Brute",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder RPG Bestiary"
@@ -2915,7 +2915,7 @@
 	},
 	"troll_brute": { "copyof": "troll_troll_brute" },
 	"troll_troll_elder_matron": {
-		"name": "Troll, Troll Elder Matron",
+		"name": "Troll Elder Matron",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder RPG Bestiary"
@@ -2977,7 +2977,7 @@
 	},
 	"troll_elder_matron": { "copyof": "troll_troll_elder_matron" },
 	"troll_troll_fury": {
-		"name": "Troll, Troll Fury",
+		"name": "Troll Fury",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder RPG Bestiary"
@@ -3039,7 +3039,7 @@
 	},
 	"troll_fury": { "copyof": "troll_troll_fury" },
 	"troll_troll_monarch": {
-		"name": "Troll, Troll Monarch",
+		"name": "Troll Monarch",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder RPG Bestiary"
@@ -3099,7 +3099,7 @@
 	},
 	"troll_monarch": { "copyof": "troll_troll_monarch" },
 	"troll_troll_render": {
-		"name": "Troll, Troll Render",
+		"name": "Troll Render",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder RPG Bestiary"
@@ -3154,7 +3154,7 @@
 	},
 	"troll_render": { "copyof": "troll_troll_render" },
 	"troll_troll_ripper": {
-		"name": "Troll, Troll Ripper",
+		"name": "Troll Ripper",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder RPG Bestiary"
@@ -3205,7 +3205,7 @@
 	},
 	"troll_ripper": { "copyof": "troll_troll_ripper" },
 	"troll_troll_warden": {
-		"name": "Troll, Troll Warden",
+		"name": "Troll Warden",
 		"sources": [
 			"Monster Codex",
 			"Pathfinder RPG Bestiary"
@@ -3314,7 +3314,7 @@
 		]
 	},
 	"thriae_thriae_constructor": {
-		"name": "Thriae, Thriae Constructor",
+		"name": "Thriae Constructor",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 3"
@@ -3375,7 +3375,7 @@
 	},
 	"thriae_constructor": { "copyof": "thriae_thriae_constructor" },
 	"thriae_thriae_dancer": {
-		"name": "Thriae, Thriae Dancer",
+		"name": "Thriae Dancer",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #81: Shifting Sands",
@@ -3444,7 +3444,7 @@
 	},
 	"thriae_dancer": { "copyof": "thriae_thriae_dancer" },
 	"thriae_thriae_queen": {
-		"name": "Thriae, Thriae Queen",
+		"name": "Thriae Queen",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This towering, shapely, purple-skinned woman has an insectile lower body, antennae on her brow, and the wings of a bee.*",
@@ -3520,7 +3520,7 @@
 	},
 	"thriae_queen": { "copyof": "thriae_thriae_queen" },
 	"thriae_thriae_seer": {
-		"name": "Thriae, Thriae Seer",
+		"name": "Thriae Seer",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Lithe and beautiful, this half-bee, half-woman creature wears elaborate makeup and wields an ornate staff.*",
@@ -3585,7 +3585,7 @@
 	},
 	"thriae_seer": { "copyof": "thriae_thriae_seer" },
 	"thriae_thriae_soldier": {
-		"name": "Thriae, Thriae Soldier",
+		"name": "Thriae Soldier",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This creature has the upper body of a woman and the lower body of a bee. She wields a longbow with uncanny skill.*",
@@ -3646,7 +3646,7 @@
 	},
 	"thriae_soldier": { "copyof": "thriae_thriae_soldier" },
 	"tick_giant_tick": {
-		"name": "Tick, Giant Tick",
+		"name": "Giant Tick",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This dog-sized tick has a grotesquely bulbous body and a thin head equipped with hooked mandibles.*",
@@ -3697,7 +3697,7 @@
 	"giant_tick": { "copyof": "tick_giant_tick" },
 	"tick_giant": { "copyof": "tick_giant_tick" },
 	"tick_tick_swarm": {
-		"name": "Tick, Tick Swarm",
+		"name": "Tick Swarm",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*The rasping legs of this hideous, shining carpet of fist-sized ticks rattle ominously as the swarm skitters forward.*",
@@ -3927,7 +3927,7 @@
 		]
 	},
 	"tiger_dire_tiger_smilodon": {
-		"name": "Tiger, Dire Tiger (Smilodon)",
+		"name": "Dire Tiger (Smilodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This large tiger grumbles a warning as it crouches. Two saber-like fangs jut downward from its powerful jaws.*",

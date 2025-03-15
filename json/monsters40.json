@@ -1,6 +1,6 @@
 {
 	"veela_air_veela": {
-		"name": "Veela, Air Veela",
+		"name": "Air Veela",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This lithe, androgynous humanoid has unusually colored skin and an otherworldly grace.*",
@@ -59,7 +59,7 @@
 	"air_veela": { "copyof": "veela_air_veela" },
 	"veela_air": { "copyof": "veela_air_veela" },
 	"veela_earth_veela": {
-		"name": "Veela, Earth Veela",
+		"name": "Earth Veela",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This lithe, androgynous humanoid has unusually colored skin and an otherworldly grace.*",
@@ -118,7 +118,7 @@
 	"earth_veela": { "copyof": "veela_earth_veela" },
 	"veela_earth": { "copyof": "veela_earth_veela" },
 	"veela_fire_veela": {
-		"name": "Veela, Fire Veela",
+		"name": "Fire Veela",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This lithe, androgynous humanoid has unusually colored skin and an otherworldly grace.*",
@@ -178,7 +178,7 @@
 	"fire_veela": { "copyof": "veela_fire_veela" },
 	"veela_fire": { "copyof": "veela_fire_veela" },
 	"veela_water_veela": {
-		"name": "Veela, Water Veela",
+		"name": "Water Veela",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This lithe, androgynous humanoid has unusually colored skin and an otherworldly grace.*",
@@ -309,12 +309,12 @@
 		]
 	},
 	"vegepygmy_thorny": {
-		"name": "Vegepygmy, Thorny",
+		"name": "Thorny Vegepygmy",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
 			"*This mass of plant matter has the general shape and build of an oversized dog. Lacking a head of any kind, its bulk is covered in jagged thorns protruding from its fungal surface.*",
 			"",
-			"::mh[Thorny]{cr=\"3\"}",
+			"::mh[Thorny Vegepygmie]{cr=\"3\"}",
 			"",
 			"{SOURCE Darklands Revisited/63}  ",
 			"**XP** 800  ",
@@ -646,7 +646,7 @@
 		]
 	},
 	"verdurous_ooze_greater_verduous_ooze": {
-		"name": "Verdurous Ooze, Greater Verduous Ooze",
+		"name": "Greater Verduous Ooze",
 		"sources": [ "Pathfinder #35: War of the River Kings" ],
 		"description": [
 			"*A pool of greenish muck, blossoming with weird vegetable-like growths and sap-seeping boils, twitches into unnatural motion as a pseudopod springs outward, dragging the entire grotesque mass forward with an ameboid life.*",
@@ -1830,7 +1830,7 @@
 		]
 	},
 	"vulture_giant_vulture": {
-		"name": "Vulture, Giant Vulture",
+		"name": "Giant Vulture",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*A wickedly hooked beak and an immense bald head draw attention from this enormous scavenger's vast wingspan.*",
@@ -1882,7 +1882,7 @@
 	"vulture_giant": { "copyof": "vulture_giant_vulture" },
 	"giant_vulture": { "copyof": "vulture_giant_vulture" },
 	"vulture_whisperfall_vulture": {
-		"name": "Vulture, Whisperfall Vulture",
+		"name": "Whisperfall Vulture",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"*This dark-winged vulture has a wickedly hooked beak stained with bright red blood.*",
@@ -2176,7 +2176,7 @@
 		]
 	},
 	"deep_one_deep_one_hybrid": {
-		"name": "Deep One, Deep One Hybrid",
+		"name": "Deep One Hybrid",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This elderly man's wide-mouthed, staring countenance and webbed hands suggest a sinister taint in his bloodline.*",
@@ -2239,7 +2239,7 @@
 	},
 	"deep_one_hybrid": { "copyof": "deep_one_deep_one_hybrid" },
 	"deep_one_elder_deep_one": {
-		"name": "Deep One, Elder Deep One",
+		"name": "Elder Deep One",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*The frame of this immense monstrosity is humanoid, but its ichthyic visage is that of a deep-sea predator.*",

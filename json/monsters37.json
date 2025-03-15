@@ -52,7 +52,7 @@
 		]
 	},
 	"poppet_poppet_small": {
-		"name": "Poppet, Poppet, Small",
+		"name": "Small Poppet",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"::mh[Poppet, Small]{cr=\"1/2\"}",
@@ -99,7 +99,7 @@
 	},
 	"small_poppet": { "copyof": "poppet_poppet_small" },
 	"poppet_poppet_tiny": {
-		"name": "Poppet, Poppet, Tiny",
+		"name": "Tiny Poppet",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"::mh[Poppet, Tiny]{cr=\"1/3\"}",
@@ -196,7 +196,7 @@
 		]
 	},
 	"porcupine_giant_porcupine": {
-		"name": "Porcupine, Giant Porcupine",
+		"name": "Giant Porcupine",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This gray, human-sized porcupine's round body is covered in sharp, striped quills.*",
@@ -245,7 +245,7 @@
 	"giant_porcupine": { "copyof": "porcupine_giant_porcupine" },
 	"porcupine_giant": { "copyof": "porcupine_giant_porcupine" },
 	"primeval_sea_creature_kronosaurus": {
-		"name": "Primeval Sea Creature, Kronosaurus",
+		"name": "Kronosaurus (Primeval Sea Creature)",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
 		"description": [
 			"*This enormous, finned reptile has a long mouth full of sharp teeth and moves through the water with incredible speed.*",
@@ -292,7 +292,7 @@
 	},
 	"kronosaurus": { "copyof": "primeval_sea_creature_kronosaurus" },
 	"primeval_sea_creature_nothosaur": {
-		"name": "Primeval Sea Creature, Nothosaur",
+		"name": "Nothosaur (Primeval Sea Creature)",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
 		"description": [
 			"*This long-necked reptile swims through the water propelled by four paddle-like feet, whipping a long and slender tail behind it as it gnashes its sharp, needle-like teeth.*",
@@ -343,7 +343,7 @@
 	},
 	"nothosaur": { "copyof": "primeval_sea_creature_nothosaur" },
 	"primeval_sea_creature_zeuglodon": {
-		"name": "Primeval Sea Creature, Zeuglodon",
+		"name": "Zeuglodon (Primeval Sea Creature)",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
 		"description": [
 			"*This elongated, whale-like creature moves through the water with an eel-like motion despite its wide, fluked tail. Razor-sharp teeth fill its almost reptilian mouth.*",
@@ -464,7 +464,7 @@
 		]
 	},
 	"proto_shoggoth_proto_shoggoth_synctium": {
-		"name": "Proto-Shoggoth, Proto-Shoggoth Synctium",
+		"name": "Proto-Shoggoth Synctium",
 		"sources": [ "Pathfinder #112: The Whisper Out of Time" ],
 		"description": [
 			"*Half-formed eyes, toothless mouths, gaping throats, and countless other malformed organs constantly form and dissolve over this monster's surface.*",
@@ -990,7 +990,7 @@
 		]
 	},
 	"qlippoth_augnagar": {
-		"name": "Qlippoth, Augnagar",
+		"name": "Augnagar (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This enormous, spider-like creature has three clawed tails and eight legs connected by leathery webs of flesh.*",
@@ -1051,7 +1051,7 @@
 	},
 	"augnagar": { "copyof": "qlippoth_augnagar" },
 	"qlippoth_behimiron": {
-		"name": "Qlippoth, Behimiron",
+		"name": "Behimiron (Qlippoth)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 2"
@@ -1121,7 +1121,7 @@
 	},
 	"behimiron": { "copyof": "qlippoth_behimiron" },
 	"qlippoth_cataboligne": {
-		"name": "Qlippoth, Cataboligne",
+		"name": "Cataboligne (Qlippoth)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 2"
@@ -1191,7 +1191,7 @@
 	},
 	"cataboligne": { "copyof": "qlippoth_cataboligne" },
 	"qlippoth_chernobue": {
-		"name": "Qlippoth, Chernobue",
+		"name": "Chernobue (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This slippery, writhing mass of tentacles and stalked mouths has one huge hideous eye and a fanged maw for a belly.*",
@@ -1257,7 +1257,7 @@
 	},
 	"chernobue": { "copyof": "qlippoth_chernobue" },
 	"qlippoth_cythnigot": {
-		"name": "Qlippoth, Cythnigot",
+		"name": "Cythnigot (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This six-legged horror has a spider's face and a fibrous stalk growing out of its back - a stalk ending in a snapping mouth.*",
@@ -1320,7 +1320,7 @@
 	},
 	"cythnigot": { "copyof": "qlippoth_cythnigot" },
 	"qlippoth_deinochos": {
-		"name": "Qlippoth, Deinochos",
+		"name": "Deinochos (Qlippoth)",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 2"
@@ -1388,7 +1388,7 @@
 	},
 	"deinochos": { "copyof": "qlippoth_deinochos" },
 	"qlippoth_gongorinan": {
-		"name": "Qlippoth, Gongorinan",
+		"name": "Gongorinan (Qlippoth)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #64: Beyond the Doomsday Door",
@@ -1475,7 +1475,7 @@
 	},
 	"gongorinan": { "copyof": "qlippoth_gongorinan" },
 	"qlippoth_gorgoros": {
-		"name": "Qlippoth, Gorgoros",
+		"name": "Gorgoros (Qlippoth)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 2"
@@ -1543,7 +1543,7 @@
 	},
 	"gorgoros": { "copyof": "qlippoth_gorgoros" },
 	"qlippoth_hydraggon": {
-		"name": "Qlippoth, Hydraggon",
+		"name": "Hydraggon (Qlippoth)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 2"
@@ -1609,7 +1609,7 @@
 	},
 	"hydraggon": { "copyof": "qlippoth_hydraggon" },
 	"qlippoth_iathavos": {
-		"name": "Qlippoth, Iathavos",
+		"name": "Iathavos (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This immense creature has four bat-like wings and a spherical body. Red eyes peer from all sides, and two huge claws dangle below.*",
@@ -1686,7 +1686,7 @@
 	},
 	"iathavos": { "copyof": "qlippoth_iathavos" },
 	"qlippoth_nyogoth": {
-		"name": "Qlippoth, Nyogoth",
+		"name": "Nyogoth (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This appears to be a mass of floating intestines tangled around a fanged mouth - the tips of its coils also end in toothy maws.*",
@@ -1749,7 +1749,7 @@
 	},
 	"nyogoth": { "copyof": "qlippoth_nyogoth" },
 	"qlippoth_shoggti": {
-		"name": "Qlippoth, Shoggti",
+		"name": "Shoggti (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This pale creature has four suckered arms that end in pincers. A gnashing maw gapes in its head between two staring eyes.*",
@@ -1813,7 +1813,7 @@
 	},
 	"shoggti": { "copyof": "qlippoth_shoggti" },
 	"qlippoth_thognorok": {
-		"name": "Qlippoth, Thognorok",
+		"name": "Thognorok (Qlippoth)",
 		"sources": [
 			"Inner Sea Gods",
 			"Bestiary 2"
@@ -1880,7 +1880,7 @@
 	},
 	"thognorok": { "copyof": "qlippoth_thognorok" },
 	"qlippoth_thulgant": {
-		"name": "Qlippoth, Thulgant",
+		"name": "Thulgant (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This monster has ten spidery legs, a head writhing with dripping tentacles above a clutch of red eyes, and three whipping stingers.*",
@@ -1948,7 +1948,7 @@
 	},
 	"thulgant": { "copyof": "qlippoth_thulgant" },
 	"qlippoth_utukku": {
-		"name": "Qlippoth, Utukku",
+		"name": "Utukku (Qlippoth)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 2"
@@ -2015,7 +2015,7 @@
 	},
 	"utukku": { "copyof": "qlippoth_utukku" },
 	"qlippoth_vexenion": {
-		"name": "Qlippoth, Vexenion",
+		"name": "Vexenion (Qlippoth)",
 		"sources": [
 			"Pathfinder #134: It Came from Hollow Mountain",
 			"Bestiary 2"
@@ -2204,7 +2204,7 @@
 		]
 	},
 	"rukh_juvenile_rukh": {
-		"name": "Rukh, Juvenile Rukh",
+		"name": "Juvenile Rukh",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #21: The Jackal's Price"
@@ -2708,7 +2708,7 @@
 		]
 	},
 	"sahkil_esipil": {
-		"name": "Sahkil, Esipil",
+		"name": "Esipil (Sahkil)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This creature's stout canine torso tops a slimy mass resembling an earthworm. Disgusting veins dangle from its face.*",
@@ -2773,7 +2773,7 @@
 	},
 	"esipil": { "copyof": "sahkil_esipil" },
 	"sahkil_ichkoh": {
-		"name": "Sahkil, Ichkoh",
+		"name": "Ichkoh (Sahkil)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 5"
@@ -2838,7 +2838,7 @@
 	},
 	"ichkoh": { "copyof": "sahkil_ichkoh" },
 	"sahkil_kimenhul": {
-		"name": "Sahkil, Kimenhul",
+		"name": "Kimenhul (Sahkil)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Three monstrous, misshapen skulls top a twisted trunk balanced on three leglike splinters of flesh and bone.*",
@@ -2917,7 +2917,7 @@
 	},
 	"kimenhul": { "copyof": "sahkil_kimenhul" },
 	"sahkil_nucol": {
-		"name": "Sahkil, Nucol",
+		"name": "Nucol (Sahkil)",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 5"
@@ -2984,7 +2984,7 @@
 	},
 	"nucol": { "copyof": "sahkil_nucol" },
 	"sahkil_pakalchi": {
-		"name": "Sahkil, Pakalchi",
+		"name": "Pakalchi (Sahkil)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Thorny vines with tiny red flowers grow from this emaciated woman and flow like a train behind her.*",
@@ -3053,7 +3053,7 @@
 	},
 	"pakalchi": { "copyof": "sahkil_pakalchi" },
 	"sahkil_qolok": {
-		"name": "Sahkil, Qolok",
+		"name": "Qolok (Sahkil)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Terrible jaws ringed with clawed arms open atop this towering mass of flesh. A probing tongue flops from another orifice.*",
@@ -3116,7 +3116,7 @@
 	},
 	"qolok": { "copyof": "sahkil_qolok" },
 	"sahkil_wihsaak": {
-		"name": "Sahkil, Wihsaak",
+		"name": "Wihsaak (Sahkil)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Buzzing wings hold this gaunt creature just above the ground. A grasshopper serves as the creature's head.*",
@@ -3178,7 +3178,7 @@
 	},
 	"wihsaak": { "copyof": "sahkil_wihsaak" },
 	"sahkil_ximtal": {
-		"name": "Sahkil, Ximtal",
+		"name": "Ximtal (Sahkil)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 5"
@@ -3269,7 +3269,7 @@
 	},
 	"ximtal": { "copyof": "sahkil_ximtal" },
 	"sahkil_zohanil": {
-		"name": "Sahkil, Zohanil",
+		"name": "Zohanil (Sahkil)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 5"
@@ -3411,7 +3411,7 @@
 		]
 	},
 	"sahuagin_mutant_four_armed_mutant": {
-		"name": "Sahuagin Mutant, Four-Armed Mutant",
+		"name": "Four-Armed Mutant (Sahuagin Mutant)",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"*This burly humanoid has sharp scales and fins like some predatory fish. As if its maw full of serrated teeth were not intimidating enough, the monstrosity clenches deadly claws at the ends of four powerful arms.*",
@@ -3483,7 +3483,7 @@
 	},
 	"four_armed_mutant": { "copyof": "sahuagin_mutant_four_armed_mutant" },
 	"sahuagin_mutant_malenti": {
-		"name": "Sahuagin Mutant, Malenti",
+		"name": "Malenti (Sahuagin Mutant)",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"*A predatory gleam glints in the eyes of this stern-looking aquatic elf.*",
@@ -3555,7 +3555,7 @@
 	},
 	"malenti": { "copyof": "sahuagin_mutant_malenti" },
 	"sahuagin_sahuagin_baron": {
-		"name": "Sahuagin, Sahuagin Baron",
+		"name": "Sahuagin Baron",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
@@ -3609,7 +3609,7 @@
 	},
 	"sahuagin_baron": { "copyof": "sahuagin_sahuagin_baron" },
 	"sahuagin_sahuagin_brute": {
-		"name": "Sahuagin, Sahuagin Brute",
+		"name": "Sahuagin Brute",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
@@ -3657,7 +3657,7 @@
 	},
 	"sahuagin_brute": { "copyof": "sahuagin_sahuagin_brute" },
 	"sahuagin_sahuagin_champion": {
-		"name": "Sahuagin, Sahuagin Champion",
+		"name": "Sahuagin Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
@@ -3710,7 +3710,7 @@
 	},
 	"sahuagin_champion": { "copyof": "sahuagin_sahuagin_champion" },
 	"sahuagin_sahuagin_deep_racer": {
-		"name": "Sahuagin, Sahuagin Deep Racer",
+		"name": "Sahuagin Deep Racer",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
@@ -3762,7 +3762,7 @@
 	},
 	"sahuagin_deep_racer": { "copyof": "sahuagin_sahuagin_deep_racer" },
 	"sahuagin_sahuagin_high_priestess": {
-		"name": "Sahuagin, Sahuagin High Priestess",
+		"name": "Sahuagin High Priestess",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
@@ -3819,7 +3819,7 @@
 	},
 	"sahuagin_high_priestess": { "copyof": "sahuagin_sahuagin_high_priestess" },
 	"sahuagin_sahuagin_infiltrator": {
-		"name": "Sahuagin, Sahuagin Infiltrator",
+		"name": "Sahuagin Infiltrator",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
@@ -3872,7 +3872,7 @@
 	},
 	"sahuagin_infiltrator": { "copyof": "sahuagin_sahuagin_infiltrator" },
 	"sahuagin_sahuagin_lieutenant": {
-		"name": "Sahuagin, Sahuagin Lieutenant",
+		"name": "Sahuagin Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
@@ -3921,7 +3921,7 @@
 	},
 	"sahuagin_lieutenant": { "copyof": "sahuagin_sahuagin_lieutenant" },
 	"sahuagin_sahuagin_prince": {
-		"name": "Sahuagin, Sahuagin Prince",
+		"name": "Sahuagin Prince",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Sahuagin Prince]{cr=\"13\"}",
@@ -3995,7 +3995,7 @@
 	},
 	"sahuagin_prince": { "copyof": "sahuagin_sahuagin_prince" },
 	"sahuagin_sahuagin_scout": {
-		"name": "Sahuagin, Sahuagin Scout",
+		"name": "Sahuagin Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
@@ -4048,7 +4048,7 @@
 	},
 	"sahuagin_scout": { "copyof": "sahuagin_sahuagin_scout" },
 	"sahuagin_sahuagin_shark_sentry": {
-		"name": "Sahuagin, Sahuagin Shark Sentry",
+		"name": "Sahuagin Shark Sentry",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
@@ -4103,7 +4103,7 @@
 	},
 	"sahuagin_shark_sentry": { "copyof": "sahuagin_sahuagin_shark_sentry" },
 	"sahuagin_sahuagin_underpriestess": {
-		"name": "Sahuagin, Sahuagin Underpriestess",
+		"name": "Sahuagin Underpriestess",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",

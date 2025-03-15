@@ -339,7 +339,7 @@
 		]
 	},
 	"familiar_archaeopteryx": {
-		"name": "Familiar, Archaeopteryx",
+		"name": "Archaeopteryx (Familiar)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -391,7 +391,7 @@
 	},
 	"archaeopteryx": { "copyof": "familiar_archaeopteryx" },
 	"familiar_arctic_hare": {
-		"name": "Familiar, Arctic Hare",
+		"name": "Arctic Hare (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Reign of Winter Player's Guide",
@@ -442,7 +442,7 @@
 	"arctic_hare": { "copyof": "familiar_arctic_hare" },
 	"hare_arctic": { "copyof": "familiar_arctic_hare" },
 	"familiar_arctic_tern": {
-		"name": "Familiar, Arctic Tern",
+		"name": "Arctic Tern (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Reign of Winter Player's Guide",
@@ -495,7 +495,7 @@
 	"arctic_tern": { "copyof": "familiar_arctic_tern" },
 	"tern_arctic": { "copyof": "familiar_arctic_tern" },
 	"familiar_armadillo": {
-		"name": "Familiar, Armadillo",
+		"name": "Armadillo (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive",
@@ -555,7 +555,7 @@
 	},
 	"armadillo": { "copyof": "familiar_armadillo" },
 	"familiar_bat": {
-		"name": "Familiar, Bat",
+		"name": "Bat (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Bat]{cr=\"1/8\"}",
@@ -599,7 +599,7 @@
 	},
 	"bat": { "copyof": "familiar_bat" },
 	"familiar_blue_ringed_octopus": {
-		"name": "Familiar, Blue-Ringed Octopus",
+		"name": "Blue-Ringed Octopus (Familiar)",
 		"sources": [
 			"Ultimate Magic",
 			"Pathfinder RPG Bestiary"
@@ -659,7 +659,7 @@
 	"blue_ringed_octopus": { "copyof": "familiar_blue_ringed_octopus" },
 	"octopus_blue_ringed": { "copyof": "familiar_blue_ringed_octopus" },
 	"familiar_butterfly_moth": {
-		"name": "Familiar, Butterfly/Moth",
+		"name": "Butterfly/Moth (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -711,7 +711,7 @@
 	"butterfly_moth": { "copyof": "familiar_butterfly_moth" },
 	"moth": { "copyof": "familiar_butterfly_moth" },
 	"familiar_cat": {
-		"name": "Familiar, Cat",
+		"name": "Cat (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Cat]{cr=\"1/4\"}",
@@ -755,7 +755,7 @@
 	},
 	"cat": { "copyof": "familiar_cat" },
 	"familiar_chicken": {
-		"name": "Familiar, Chicken",
+		"name": "Chicken (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
@@ -814,7 +814,7 @@
 	},
 	"chicken": { "copyof": "familiar_chicken" },
 	"familiar_cockroach": {
-		"name": "Familiar, Cockroach",
+		"name": "Cockroach (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -865,7 +865,7 @@
 	},
 	"cockroach": { "copyof": "familiar_cockroach" },
 	"familiar_creeper_ivy": {
-		"name": "Familiar, Creeper Ivy",
+		"name": "Creeper Ivy (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -915,7 +915,7 @@
 	},
 	"creeper_ivy": { "copyof": "familiar_creeper_ivy" },
 	"familiar_dodo": {
-		"name": "Familiar, Dodo",
+		"name": "Dodo (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder #55: The Wormwood Mutiny",
@@ -965,7 +965,7 @@
 	},
 	"dodo": { "copyof": "familiar_dodo" },
 	"familiar_donkey_rat": {
-		"name": "Familiar, Donkey Rat",
+		"name": "Donkey Rat (Familiar)",
 		"sources": [
 			"Ultimate Magic",
 			"Pathfinder RPG Bestiary"
@@ -1012,7 +1012,7 @@
 	"donkey_rat": { "copyof": "familiar_donkey_rat" },
 	"capybara": { "copyof": "familiar_donkey_rat" },
 	"familiar_dwarf_caiman": {
-		"name": "Familiar, Dwarf Caiman",
+		"name": "Dwarf Caiman (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder #55: The Wormwood Mutiny",
@@ -1065,7 +1065,7 @@
 	},
 	"dwarf_caiman": { "copyof": "familiar_dwarf_caiman" },
 	"familiar_dweomer_cap": {
-		"name": "Familiar, Dweomer Cap",
+		"name": "Dweomer Cap (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -1122,7 +1122,7 @@
 	},
 	"dweomer_cap": { "copyof": "familiar_dweomer_cap" },
 	"familiar_fire_salamander": {
-		"name": "Familiar, Fire Salamander",
+		"name": "Fire Salamander (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -1178,7 +1178,7 @@
 	},
 	"fire_salamander": { "copyof": "familiar_fire_salamander" },
 	"familiar_flowering_lattice": {
-		"name": "Familiar, Flowering Lattice",
+		"name": "Flowering Lattice (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -1234,7 +1234,7 @@
 	},
 	"flowering_lattice": { "copyof": "familiar_flowering_lattice" },
 	"familiar_flying_fox": {
-		"name": "Familiar, Flying Fox",
+		"name": "Flying Fox (Familiar)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -1281,7 +1281,7 @@
 	},
 	"flying_fox": { "copyof": "familiar_flying_fox" },
 	"familiar_flying_squirrel": {
-		"name": "Familiar, Flying Squirrel",
+		"name": "Flying Squirrel (Familiar)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -1335,7 +1335,7 @@
 	},
 	"flying_squirrel": { "copyof": "familiar_flying_squirrel" },
 	"familiar_fox": {
-		"name": "Familiar, Fox",
+		"name": "Fox (Familiar)",
 		"sources": [
 			"Bestiary 3",
 			"Ultimate Magic",
@@ -1383,7 +1383,7 @@
 	},
 	"fox": { "copyof": "familiar_fox" },
 	"familiar_giant_isopod": {
-		"name": "Familiar, Giant Isopod",
+		"name": "Giant Isopod (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder #55: The Wormwood Mutiny",
@@ -1438,7 +1438,7 @@
 	"giant_isopod": { "copyof": "familiar_giant_isopod" },
 	"isopod_giant": { "copyof": "familiar_giant_isopod" },
 	"familiar_giant_tardigrade": {
-		"name": "Familiar, Giant Tardigrade",
+		"name": "Giant Tardigrade (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -1493,7 +1493,7 @@
 	"giant_tardigrade": { "copyof": "familiar_giant_tardigrade" },
 	"tardigrade_giant": { "copyof": "familiar_giant_tardigrade" },
 	"familiar_goat": {
-		"name": "Familiar, Goat",
+		"name": "Goat (Familiar)",
 		"sources": [
 			"Bestiary 3",
 			"Ultimate Magic",
@@ -1540,7 +1540,7 @@
 	},
 	"goat": { "copyof": "familiar_goat" },
 	"familiar_hawk": {
-		"name": "Familiar, Hawk",
+		"name": "Hawk (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Hawk]{cr=\"1/3\"}",
@@ -1585,7 +1585,7 @@
 	"hawk": { "copyof": "familiar_hawk" },
 	"falcon": { "copyof": "familiar_hawk" },
 	"familiar_hedgehog": {
-		"name": "Familiar, Hedgehog",
+		"name": "Hedgehog (Familiar)",
 		"sources": [
 			"Ultimate Magic",
 			"Pathfinder RPG Bestiary"
@@ -1635,7 +1635,7 @@
 	},
 	"hedgehog": { "copyof": "familiar_hedgehog" },
 	"familiar_horned_lizard": {
-		"name": "Familiar, Horned Lizard",
+		"name": "Horned Lizard (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -1694,7 +1694,7 @@
 	},
 	"horned_lizard": { "copyof": "familiar_horned_lizard" },
 	"familiar_house_centipede": {
-		"name": "Familiar, House Centipede",
+		"name": "House Centipede (Familiar)",
 		"sources": [
 			"Ultimate Magic",
 			"Pathfinder RPG Bestiary"
@@ -1748,7 +1748,7 @@
 	"house_centipede": { "copyof": "familiar_house_centipede" },
 	"centipede_house": { "copyof": "familiar_house_centipede" },
 	"familiar_ioun_wyrd": {
-		"name": "Familiar, Ioun Wyrd",
+		"name": "Ioun Wyrd (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
@@ -1817,7 +1817,7 @@
 	},
 	"ioun_wyrd": { "copyof": "familiar_ioun_wyrd" },
 	"familiar_jerboa": {
-		"name": "Familiar, Jerboa",
+		"name": "Jerboa (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -1868,7 +1868,7 @@
 	},
 	"jerboa": { "copyof": "familiar_jerboa" },
 	"familiar_kakapo": {
-		"name": "Familiar, Kakapo",
+		"name": "Kakapo (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
@@ -1924,7 +1924,7 @@
 	},
 	"kakapo": { "copyof": "familiar_kakapo" },
 	"familiar_king_crab": {
-		"name": "Familiar, King Crab",
+		"name": "King Crab (Familiar)",
 		"sources": [
 			"Ultimate Magic",
 			"Pathfinder RPG Bestiary"
@@ -1978,7 +1978,7 @@
 	"king_crab": { "copyof": "familiar_king_crab" },
 	"crab_king": { "copyof": "familiar_king_crab" },
 	"familiar_koala": {
-		"name": "Familiar, Koala",
+		"name": "Koala (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
@@ -2029,7 +2029,7 @@
 	},
 	"koala": { "copyof": "familiar_koala" },
 	"familiar_lamprey": {
-		"name": "Familiar, Lamprey",
+		"name": "Lamprey (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -2081,7 +2081,7 @@
 	},
 	"lamprey": { "copyof": "familiar_lamprey" },
 	"familiar_lemming": {
-		"name": "Familiar, Lemming",
+		"name": "Lemming (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Reign of Winter Player's Guide",
@@ -2133,7 +2133,7 @@
 	},
 	"lemming": { "copyof": "familiar_lemming" },
 	"familiar_leopard_slug": {
-		"name": "Familiar, Leopard Slug",
+		"name": "Leopard Slug (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
@@ -2192,7 +2192,7 @@
 	"leopard_slug": { "copyof": "familiar_leopard_slug" },
 	"slug_leopard": { "copyof": "familiar_leopard_slug" },
 	"familiar_lizard": {
-		"name": "Familiar, Lizard",
+		"name": "Lizard (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Lizard]{cr=\"1/6\"}",
@@ -2236,7 +2236,7 @@
 	},
 	"lizard": { "copyof": "familiar_lizard" },
 	"familiar_margay_cat": {
-		"name": "Familiar, Margay Cat",
+		"name": "Margay Cat (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -2289,7 +2289,7 @@
 	"margay_cat": { "copyof": "familiar_margay_cat" },
 	"cat_margay": { "copyof": "familiar_margay_cat" },
 	"familiar_meerkat": {
-		"name": "Familiar, Meerkat",
+		"name": "Meerkat (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -2348,7 +2348,7 @@
 	},
 	"meerkat": { "copyof": "familiar_meerkat" },
 	"familiar_mole_uw": {
-		"name": "Familiar, Mole (UW)",
+		"name": "Mole (UW) (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -2400,7 +2400,7 @@
 	},
 	"mole_uw": { "copyof": "familiar_mole_uw" },
 	"familiar_mole_ff": {
-		"name": "Familiar, Mole (FF)",
+		"name": "Mole (FF) (Familiar)",
 		"sources": [
 			"Familiar Folio",
 			"Pathfinder RPG Bestiary"
@@ -2450,7 +2450,7 @@
 	},
 	"mole_ff": { "copyof": "familiar_mole_ff" },
 	"familiar_monkey": {
-		"name": "Familiar, Monkey",
+		"name": "Monkey (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Monkey]{cr=\"1/4\"}",
@@ -2494,7 +2494,7 @@
 	},
 	"monkey": { "copyof": "familiar_monkey" },
 	"familiar_otter": {
-		"name": "Familiar, Otter",
+		"name": "Otter (Familiar)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -2541,7 +2541,7 @@
 	},
 	"otter": { "copyof": "familiar_otter" },
 	"familiar_owl": {
-		"name": "Familiar, Owl",
+		"name": "Owl (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Owl]{cr=\"1/3\"}",
@@ -2585,7 +2585,7 @@
 	},
 	"owl": { "copyof": "familiar_owl" },
 	"familiar_peafowl": {
-		"name": "Familiar, Peafowl",
+		"name": "Peafowl (Familiar)",
 		"sources": [
 			"Familiar Folio",
 			"Ultimate Wilderness",
@@ -2645,7 +2645,7 @@
 	"familiar_peacock": { "copyof": "familiar_peafowl" },
 	"peacock": { "copyof": "familiar_peacock" },
 	"familiar_penguin": {
-		"name": "Familiar, Penguin",
+		"name": "Penguin (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
@@ -2702,7 +2702,7 @@
 	},
 	"penguin": { "copyof": "familiar_penguin" },
 	"familiar_petrifern": {
-		"name": "Familiar, Petrifern",
+		"name": "Petrifern (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
@@ -2761,7 +2761,7 @@
 	},
 	"petrifern": { "copyof": "familiar_petrifern" },
 	"familiar_pig": {
-		"name": "Familiar, Pig",
+		"name": "Pig (Familiar)",
 		"sources": [
 			"Bestiary 3",
 			"Ultimate Magic",
@@ -2808,7 +2808,7 @@
 	},
 	"pig": { "copyof": "familiar_pig" },
 	"familiar_platypus": {
-		"name": "Familiar, Platypus",
+		"name": "Platypus (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive",
@@ -2870,7 +2870,7 @@
 	},
 	"platypus": { "copyof": "familiar_platypus" },
 	"familiar_popoto_dolphin": {
-		"name": "Familiar, Popoto Dolphin",
+		"name": "Popoto Dolphin (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -2919,7 +2919,7 @@
 	},
 	"popoto_dolphin": { "copyof": "familiar_popoto_dolphin" },
 	"familiar_ptarmigan": {
-		"name": "Familiar, Ptarmigan",
+		"name": "Ptarmigan (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Reign of Winter Player's Guide",
@@ -2971,7 +2971,7 @@
 	},
 	"ptarmigan": { "copyof": "familiar_ptarmigan" },
 	"familiar_pufferfish": {
-		"name": "Familiar, Pufferfish",
+		"name": "Pufferfish (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
@@ -3030,7 +3030,7 @@
 	},
 	"pufferfish": { "copyof": "familiar_pufferfish" },
 	"familiar_puffin": {
-		"name": "Familiar, Puffin",
+		"name": "Puffin (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Reign of Winter Player's Guide",
@@ -3082,7 +3082,7 @@
 	},
 	"puffin": { "copyof": "familiar_puffin" },
 	"familiar_rabbit": {
-		"name": "Familiar, Rabbit",
+		"name": "Rabbit (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive",
@@ -3134,7 +3134,7 @@
 	},
 	"rabbit": { "copyof": "familiar_rabbit" },
 	"familiar_raccoon": {
-		"name": "Familiar, Raccoon",
+		"name": "Raccoon (Familiar)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -3181,7 +3181,7 @@
 	},
 	"raccoon": { "copyof": "familiar_raccoon" },
 	"familiar_rat": {
-		"name": "Familiar, Rat",
+		"name": "Rat (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Rat]{cr=\"1/4\"}",
@@ -3225,7 +3225,7 @@
 	},
 	"rat": { "copyof": "familiar_rat" },
 	"familiar_raven": {
-		"name": "Familiar, Raven",
+		"name": "Raven (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Raven]{cr=\"1/6\"}",
@@ -3269,7 +3269,7 @@
 	},
 	"raven": { "copyof": "familiar_raven" },
 	"familiar_ravenous_tumbleweed": {
-		"name": "Familiar, Ravenous Tumbleweed",
+		"name": "Ravenous Tumbleweed (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -3325,7 +3325,7 @@
 	},
 	"ravenous_tumbleweed": { "copyof": "familiar_ravenous_tumbleweed" },
 	"familiar_razor_fern": {
-		"name": "Familiar, Razor Fern",
+		"name": "Razor Fern (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -3380,7 +3380,7 @@
 	},
 	"razor_fern": { "copyof": "familiar_razor_fern" },
 	"familiar_red_panda": {
-		"name": "Familiar, Red Panda",
+		"name": "Red Panda (Familiar)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -3427,7 +3427,7 @@
 	},
 	"red_panda": { "copyof": "familiar_red_panda" },
 	"familiar_rhamphorhynchus": {
-		"name": "Familiar, Rhamphorhynchus",
+		"name": "Rhamphorhynchus (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder #37: Souls for Smuggler's Shiv",
@@ -3483,7 +3483,7 @@
 	},
 	"rhamphorhynchus": { "copyof": "familiar_rhamphorhynchus" },
 	"familiar_sawleg_locust": {
-		"name": "Familiar, Sawleg Locust",
+		"name": "Sawleg Locust (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -3540,7 +3540,7 @@
 	},
 	"sawleg_locust": { "copyof": "familiar_sawleg_locust" },
 	"familiar_seal": {
-		"name": "Familiar, Seal",
+		"name": "Seal (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder #55: The Wormwood Mutiny",
@@ -3591,7 +3591,7 @@
 	},
 	"seal": { "copyof": "familiar_seal" },
 	"familiar_shimmerwing_dragonfly": {
-		"name": "Familiar, Shimmerwing Dragonfly",
+		"name": "Shimmerwing Dragonfly (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -3642,7 +3642,7 @@
 	"shimmerwing_dragonfly": { "copyof": "familiar_shimmerwing_dragonfly" },
 	"dragonfly_shimmerwing": { "copyof": "familiar_shimmerwing_dragonfly" },
 	"familiar_sloth": {
-		"name": "Familiar, Sloth",
+		"name": "Sloth (Familiar)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -3689,7 +3689,7 @@
 	},
 	"sloth": { "copyof": "familiar_sloth" },
 	"familiar_spiny_starfish": {
-		"name": "Familiar, Spiny Starfish",
+		"name": "Spiny Starfish (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -3747,7 +3747,7 @@
 	"spiny_starfish": { "copyof": "familiar_spiny_starfish" },
 	"starfish_spiny": { "copyof": "familiar_spiny_starfish" },
 	"familiar_squirrel": {
-		"name": "Familiar, Squirrel",
+		"name": "Squirrel (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive",
@@ -3799,7 +3799,7 @@
 	},
 	"squirrel": { "copyof": "familiar_squirrel" },
 	"familiar_suture_vine": {
-		"name": "Familiar, Suture Vine",
+		"name": "Suture Vine (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -3860,7 +3860,7 @@
 	},
 	"suture_vine": { "copyof": "familiar_suture_vine" },
 	"familiar_tarsier": {
-		"name": "Familiar, Tarsier",
+		"name": "Tarsier (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -3916,7 +3916,7 @@
 	},
 	"tarsier": { "copyof": "familiar_tarsier" },
 	"familiar_thrush": {
-		"name": "Familiar, Thrush",
+		"name": "Thrush (Familiar)",
 		"sources": [
 			"Ultimate Magic",
 			"Pathfinder RPG Bestiary"
@@ -3963,7 +3963,7 @@
 	},
 	"thrush": { "copyof": "familiar_thrush" },
 	"familiar_toad": {
-		"name": "Familiar, Toad",
+		"name": "Toad (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Toad]{cr=\"1/8\"}",
@@ -4006,7 +4006,7 @@
 	},
 	"toad": { "copyof": "familiar_toad" },
 	"familiar_trilobite": {
-		"name": "Familiar, Trilobite",
+		"name": "Trilobite (Familiar)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -4061,7 +4061,7 @@
 	},
 	"trilobite": { "copyof": "familiar_trilobite" },
 	"familiar_tuatara": {
-		"name": "Familiar, Tuatara",
+		"name": "Tuatara (Familiar)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -4107,7 +4107,7 @@
 	},
 	"tuatara": { "copyof": "familiar_tuatara" },
 	"familiar_vampire_squid": {
-		"name": "Familiar, Vampire Squid",
+		"name": "Vampire Squid (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder RPG Bestiary"
@@ -4168,7 +4168,7 @@
 	},
 	"vampire_squid": { "copyof": "familiar_vampire_squid" },
 	"familiar_viper": {
-		"name": "Familiar, Viper",
+		"name": "Viper (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Viper]{cr=\"1/2\"}",
@@ -4216,7 +4216,7 @@
 	},
 	"viper": { "copyof": "familiar_viper" },
 	"familiar_wallaby": {
-		"name": "Familiar, Wallaby",
+		"name": "Wallaby (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
@@ -4267,7 +4267,7 @@
 	},
 	"wallaby": { "copyof": "familiar_wallaby" },
 	"familiar_weasel": {
-		"name": "Familiar, Weasel",
+		"name": "Weasel (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Weasel]{cr=\"1/2\"}",
@@ -5194,7 +5194,7 @@
 		]
 	},
 	"fiend_bred_animal_chelish_hell_bred_dog": {
-		"name": "Fiend-Bred Animal, Chelish Hell-Bred Dog",
+		"name": "Chelish Hell-Bred Dog (Fiend-Bred Animal)",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
 		"description": [
 			"*This reddish-brown canine has a square, athletic build. Its dripping saliva smells of sulfur.*",
@@ -5249,7 +5249,7 @@
 	},
 	"chelish_hell_bred_dog": { "copyof": "fiend_bred_animal_chelish_hell_bred_dog" },
 	"fiend_bred_animal_quillcat": {
-		"name": "Fiend-Bred Animal, Quillcat",
+		"name": "Quillcat (Fiend-Bred Animal)",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
 		"description": [
 			"*Dozens of long, sharp spines line the back and tail of this dark-gray cat.*",
@@ -5307,7 +5307,7 @@
 	},
 	"quillcat": { "copyof": "fiend_bred_animal_quillcat" },
 	"fiend_bred_animal_stygian_hot_blooded_horse": {
-		"name": "Fiend-Bred Animal, Stygian Hot-Blooded Horse",
+		"name": "Stygian Hot-Blooded Horse (Fiend-Bred Animal)",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
 		"description": [
 			"*This dark horse has striking coloring and a ferocious look in its bloodshot eyes.*",
@@ -5488,7 +5488,7 @@
 		]
 	},
 	"fish_dunkleosteus": {
-		"name": "Fish, Dunkleosteus",
+		"name": "Dunkleosteus (Fish)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #56: Raiders of the Fever Sea"
@@ -5540,7 +5540,7 @@
 	},
 	"dunkleosteus": { "copyof": "fish_dunkleosteus" },
 	"fish_giant_blowfish": {
-		"name": "Fish, Giant Blowfish",
+		"name": "Giant Blowfish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"*A blowfish the size of a horse drifts through the water, its quills the size of spears.*",
@@ -5593,7 +5593,7 @@
 	},
 	"giant_blowfish": { "copyof": "fish_giant_blowfish" },
 	"fish_swordfish": {
-		"name": "Fish, Swordfish",
+		"name": "Swordfish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"*A proud fin flares along the spine of this large, sleek fish, its head coming to a spearlike point.*",
@@ -5642,7 +5642,7 @@
 	},
 	"swordfish": { "copyof": "fish_swordfish" },
 	"fish_tiger_fish": {
-		"name": "Fish, Tiger Fish",
+		"name": "Tiger Fish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"*Deadly, wolf like teeth fill the mouth of this brawny fish.*",
@@ -5691,7 +5691,7 @@
 	"fish_tiger": { "copyof": "fish_tiger_fish" },
 	"tiger_fish": { "copyof": "fish_tiger_fish" },
 	"fish_varisian_hagfish": {
-		"name": "Fish, Varisian Hagfish",
+		"name": "Varisian Hagfish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"*A mouth like a lamprey's gnashes curved teeth at one end of this slimy, eel-like fish.*",
@@ -5807,7 +5807,7 @@
 		]
 	},
 	"flea_giant_flea": {
-		"name": "Flea, Giant Flea",
+		"name": "Giant Flea",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*A hideous, dog-sized flea leaps about on long, gangly legs. The sharp, jagged edges of its jaws greedily clatter for blood.*",
@@ -5861,7 +5861,7 @@
 	"flea_giant": { "copyof": "flea_giant_flea" },
 	"giant_flea": { "copyof": "flea_giant_flea" },
 	"flea_mammoth_flea": {
-		"name": "Flea, Mammoth Flea",
+		"name": "Mammoth Flea",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This mammoth flea is size of a horse. Its legs dangle awkwardly from its great, swollen body armored entirely in disfigured plates.*",

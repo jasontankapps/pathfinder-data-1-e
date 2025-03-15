@@ -876,7 +876,7 @@
 		]
 	},
 	"moit_of_shub_niggurath_spawning_canker": {
-		"name": "Moit of Shub-Niggurath, Spawning Canker",
+		"name": "Spawning Canker (Moit of Shub-Niggurath)",
 		"sources": [ "Pathfinder #46: Wake of the Watcher" ],
 		"description": [
 			"*Pale and bloodless, a brutally decapitated corpse lurches forth. Where a head should be instead lashes a forest of horrific, unnatural tentacles, whipping as though trying to simultaneously burrow deeper into and escape from its fleshy husk.*",
@@ -1592,7 +1592,7 @@
 		]
 	},
 	"mortic_angheuvore": {
-		"name": "Mortic, Angheuvore",
+		"name": "Angheuvore (Mortic)",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"*This pale, gray-skinned elf has a gangly frame and an overlarge jaw. Its lips are spattered with blood.*",
@@ -1657,7 +1657,7 @@
 	},
 	"angheuvore": { "copyof": "mortic_angheuvore" },
 	"mortic_etioling": {
-		"name": "Mortic, Etioling",
+		"name": "Etioling (Mortic)",
 		"sources": [
 			"Pathfinder #142: Gardens of Gallowspire",
 			"Pathfinder #139: The Dead Road"
@@ -1745,7 +1745,7 @@
 	},
 	"etioling": { "copyof": "mortic_etioling" },
 	"mortic_gurgist": {
-		"name": "Mortic, Gurgist",
+		"name": "Gurgist (Mortic)",
 		"sources": [
 			"Pathfinder #140: Eulogy for Roslar's Coffer",
 			"Pathfinder #139: The Dead Road"
@@ -1827,7 +1827,7 @@
 	},
 	"gurgist": { "copyof": "mortic_gurgist" },
 	"mortic_jitterbone": {
-		"name": "Mortic, Jitterbone",
+		"name": "Jitterbone (Mortic)",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"*This small, gaunt humanoid has flesh tight around its oversized skull. Sharp spurs of bone protrude from its hands and arms.*",
@@ -1890,7 +1890,7 @@
 	},
 	"jitterbone": { "copyof": "mortic_jitterbone" },
 	"mortic_lifeleecher": {
-		"name": "Mortic, Lifeleecher",
+		"name": "Lifeleecher (Mortic)",
 		"sources": [
 			"Pathfinder #141: Last Watch",
 			"Pathfinder #139: The Dead Road"
@@ -1973,7 +1973,7 @@
 	},
 	"lifeleecher": { "copyof": "mortic_lifeleecher" },
 	"mortic_relictner": {
-		"name": "Mortic, Relictner",
+		"name": "Relictner (Mortic)",
 		"sources": [
 			"Pathfinder #143: Borne by the Sun's Grace",
 			"Pathfinder #139: The Dead Road"
@@ -2059,7 +2059,7 @@
 	},
 	"relictner": { "copyof": "mortic_relictner" },
 	"mosquito_giant_mosquito": {
-		"name": "Mosquito, Giant Mosquito",
+		"name": "Giant Mosquito",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A bloated, red belly dangles beneath the furiously beating wings of this massive mosquito.*",
@@ -2110,7 +2110,7 @@
 	"giant_mosquito": { "copyof": "mosquito_giant_mosquito" },
 	"mosquito_giant": { "copyof": "mosquito_giant_mosquito" },
 	"mosquito_mosquito_swarm": {
-		"name": "Mosquito, Mosquito Swarm",
+		"name": "Mosquito Swarm",
 		"sources": [
 			"Bestiary 2",
 			"Rivers into Darkness"
@@ -2288,7 +2288,7 @@
 		]
 	},
 	"mothman_mothman_elder": {
-		"name": "Mothman, Mothman Elder",
+		"name": "Mothman Elder",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
 			"*Two colorful membranous wings rise behind this large insectlike humanoid, forming and reforming into complex patterns.*",

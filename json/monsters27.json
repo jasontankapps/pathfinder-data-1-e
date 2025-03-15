@@ -1,6 +1,6 @@
 {
 	"azata_bralani": {
-		"name": "Azata, Bralani",
+		"name": "Bralani (Azata)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Silver-white hair the color of a lightning strike whips about this poised elf-like archer, his eyes swirling with vibrant colors.*",
@@ -61,7 +61,7 @@
 	},
 	"bralani": { "copyof": "azata_bralani" },
 	"azata_brijidine": {
-		"name": "Azata, Brijidine",
+		"name": "Brijidine (Azata)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -133,7 +133,7 @@
 	},
 	"brijidine": { "copyof": "azata_brijidine" },
 	"azata_gancanagh": {
-		"name": "Azata, Gancanagh",
+		"name": "Gancanagh (Azata)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -200,7 +200,7 @@
 	},
 	"gancanagh": { "copyof": "azata_gancanagh" },
 	"azata_ghaele": {
-		"name": "Azata, Ghaele",
+		"name": "Ghaele (Azata)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This elegantly armored sentinel stands alert, her eyes radiating divine light and her noble blade crackling with power.*",
@@ -275,7 +275,7 @@
 	},
 	"ghaele": { "copyof": "azata_ghaele" },
 	"azata_lillend": {
-		"name": "Azata, Lillend",
+		"name": "Lillend (Azata)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This creature has the body of a seductive, winged elven woman from the waist up and that of a snake from the waist down.*",
@@ -340,7 +340,7 @@
 	},
 	"lillend": { "copyof": "azata_lillend" },
 	"azata_lyrakien": {
-		"name": "Azata, Lyrakien",
+		"name": "Lyrakien (Azata)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #2: The Skinsaw Murders",
@@ -407,7 +407,7 @@
 	},
 	"lyrakien": { "copyof": "azata_lyrakien" },
 	"azata_nualidu": {
-		"name": "Azata, Nualidu",
+		"name": "Nualidu (Azata)",
 		"sources": [
 			"Pathfinder #105: The Inferno Gate",
 			"Pathfinder RPG Bestiary"
@@ -494,7 +494,7 @@
 	},
 	"nualidu": { "copyof": "azata_nualidu" },
 	"azata_prydanu": {
-		"name": "Azata, Prydanu",
+		"name": "Prydanu (Azata)",
 		"sources": [
 			"Pathfinder #126: Beyond the Veiled Past",
 			"Pathfinder RPG Bestiary"
@@ -582,7 +582,7 @@
 	},
 	"prydanu": { "copyof": "azata_prydanu" },
 	"azata_raelis": {
-		"name": "Azata, Raelis",
+		"name": "Raelis (Azata)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #66: The Dead Heart of Xin",
@@ -655,7 +655,7 @@
 	},
 	"raelis": { "copyof": "azata_raelis" },
 	"azata_thyrlien": {
-		"name": "Azata, Thyrlien",
+		"name": "Thyrlien (Azata)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
@@ -719,7 +719,7 @@
 	},
 	"thyrlien": { "copyof": "azata_thyrlien" },
 	"azata_uinuja": {
-		"name": "Azata, Uinuja",
+		"name": "Uinuja (Azata)",
 		"sources": [
 			"Bestiary 6",
 			"Occult Bestiary",
@@ -853,7 +853,7 @@
 		]
 	},
 	"blight_cave_blight": {
-		"name": "Blight, Cave Blight",
+		"name": "Cave Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*Muscular tentacles ending in stalagmite-like stingers extend from this pale brown slime.*",
@@ -914,7 +914,7 @@
 	"cave_blight": { "copyof": "blight_cave_blight" },
 	"blight_cave": { "copyof": "blight_cave_blight" },
 	"blight_desert_blight": {
-		"name": "Blight, Desert Blight",
+		"name": "Desert Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*A roiling mass of orange-brown sludge studded with gleaming red eyes brandishes its lashing tentacles.*",
@@ -975,7 +975,7 @@
 	"desert_blight": { "copyof": "blight_desert_blight" },
 	"blight_desert": { "copyof": "blight_desert_blight" },
 	"blight_forest_blight": {
-		"name": "Blight, Forest Blight",
+		"name": "Forest Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This mass of dark green protoplasm hangs thick and wet from the branches, and its long tentacles are tipped with thorny claws.*",
@@ -1036,7 +1036,7 @@
 	"forest_blight": { "copyof": "blight_forest_blight" },
 	"blight_forest": { "copyof": "blight_forest_blight" },
 	"blight_mountain_blight": {
-		"name": "Blight, Mountain Blight",
+		"name": "Mountain Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This black mass of glistening, tar-like slime bubbles and oozes, its two long tentacles each tipped with a stony club.*",
@@ -1099,7 +1099,7 @@
 	"mountain_blight": { "copyof": "blight_mountain_blight" },
 	"blight_mountain": { "copyof": "blight_mountain_blight" },
 	"blight_sewer_blight": {
-		"name": "Blight, Sewer Blight",
+		"name": "Sewer Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*What appears to be a grotesque mass of sewage betrays its true nature with dozens of red eyes and two long, slimy, claw-tipped tentacles.*",
@@ -1163,7 +1163,7 @@
 	"sewer_blight": { "copyof": "blight_sewer_blight" },
 	"blight_sewer": { "copyof": "blight_sewer_blight" },
 	"blight_swamp_blight": {
-		"name": "Blight, Swamp Blight",
+		"name": "Swamp Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*A cloud of mosquitoes churns around this quivering blob, its body studded with red eyes and its five tentacles tipped with stingers.*",
@@ -1227,7 +1227,7 @@
 	"swamp_blight": { "copyof": "blight_swamp_blight" },
 	"blight_swamp": { "copyof": "blight_swamp_blight" },
 	"blight_tundra_blight": {
-		"name": "Blight, Tundra Blight",
+		"name": "Tundra Blight",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This churning mound of snow-like material has several large red eyes and four tentacles tipped with icy stingers.*",
@@ -2221,7 +2221,7 @@
 		]
 	},
 	"boar_bristle_boar": {
-		"name": "Boar, Bristle Boar",
+		"name": "Bristle Boar",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"*The vicious spines surrounding this boar's head are almost as unnerving as the wild look in its eyes.*",
@@ -2278,7 +2278,7 @@
 	"bristle_boar": { "copyof": "boar_bristle_boar" },
 	"boar_bristle": { "copyof": "boar_bristle_boar" },
 	"boar_dire_boar_daeodon": {
-		"name": "Boar, Dire Boar (Daeodon)",
+		"name": "Dire Boar (Daeodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*The back of this horse-sized boar rises in a steep slope. Its tiny red eyes are crusted with filth and its bristly flank crawls with flies.*",
@@ -2656,7 +2656,7 @@
 		]
 	},
 	"boggard_boggard_abyssal_warrior": {
-		"name": "Boggard, Boggard Abyssal Warrior",
+		"name": "Boggard Abyssal Warrior",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Abyssal Warrior]{cr=\"8\"}",
@@ -2708,7 +2708,7 @@
 	},
 	"boggard_abyssal_warrior": { "copyof": "boggard_boggard_abyssal_warrior" },
 	"boggard_boggard_brute": {
-		"name": "Boggard, Boggard Brute",
+		"name": "Boggard Brute",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Brute]{cr=\"3\"}",
@@ -2757,7 +2757,7 @@
 	},
 	"boggard_brute": { "copyof": "boggard_boggard_brute" },
 	"boggard_boggard_champion": {
-		"name": "Boggard, Boggard Champion",
+		"name": "Boggard Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Champion]{cr=\"7\"}",
@@ -2807,7 +2807,7 @@
 	},
 	"boggard_champion": { "copyof": "boggard_boggard_champion" },
 	"boggard_boggard_farcroaker": {
-		"name": "Boggard, Boggard Farcroaker",
+		"name": "Boggard Farcroaker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Farcroaker]{cr=\"3\"}",
@@ -2855,7 +2855,7 @@
 	},
 	"boggard_farcroaker": { "copyof": "boggard_boggard_farcroaker" },
 	"boggard_boggard_hunter": {
-		"name": "Boggard, Boggard Hunter",
+		"name": "Boggard Hunter",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Hunter]{cr=\"5\"}",
@@ -2900,7 +2900,7 @@
 	},
 	"boggard_hunter": { "copyof": "boggard_boggard_hunter" },
 	"boggard_boggard_priest_king": {
-		"name": "Boggard, Boggard Priest-King",
+		"name": "Boggard Priest-King",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Priest-King]{cr=\"11\"}",
@@ -2963,7 +2963,7 @@
 	},
 	"boggard_priest_king": { "copyof": "boggard_boggard_priest_king" },
 	"boggard_boggard_prophet": {
-		"name": "Boggard, Boggard Prophet",
+		"name": "Boggard Prophet",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Prophet]{cr=\"5\"}",
@@ -3014,7 +3014,7 @@
 	},
 	"boggard_prophet": { "copyof": "boggard_boggard_prophet" },
 	"boggard_boggard_savage": {
-		"name": "Boggard, Boggard Savage",
+		"name": "Boggard Savage",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Savage]{cr=\"4\"}",
@@ -3064,7 +3064,7 @@
 	},
 	"boggard_savage": { "copyof": "boggard_boggard_savage" },
 	"boggard_boggard_scarred_one": {
-		"name": "Boggard, Boggard Scarred One",
+		"name": "Boggard Scarred One",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Scarred One]{cr=\"6\"}",
@@ -3114,7 +3114,7 @@
 	},
 	"boggard_scarred_one": { "copyof": "boggard_boggard_scarred_one" },
 	"boggard_boggard_stalker": {
-		"name": "Boggard, Boggard Stalker",
+		"name": "Boggard Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Stalker]{cr=\"9\"}",
@@ -3161,7 +3161,7 @@
 	},
 	"boggard_stalker": { "copyof": "boggard_boggard_stalker" },
 	"boggard_boggard_swampseer": {
-		"name": "Boggard, Boggard Swampseer",
+		"name": "Boggard Swampseer",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Boggard Swampseer]{cr=\"4\"}",
@@ -3273,7 +3273,7 @@
 		]
 	},
 	"war_beast_of_belkzen_bull_of_zagresh": {
-		"name": "War Beast of Belkzen, Bull of Zagresh",
+		"name": "Bull of Zagresh (War Beast of Belkzen)",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"*This immense bovine has horns reminiscent of a stag, with daggerlike points spreading more than fifteen feet across.*",
@@ -3318,7 +3318,7 @@
 	},
 	"bull_of_zagresh": { "copyof": "war_beast_of_belkzen_bull_of_zagresh" },
 	"war_beast_of_belkzen_warcat_of_rull": {
-		"name": "War Beast of Belkzen, Warcat of Rull",
+		"name": "Warcat of Rull (War Beast of Belkzen)",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"*This massive catlike creature has the lithe grace of a feline despite a shell-like armor of segmented plates.*",

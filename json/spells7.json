@@ -237,7 +237,7 @@
 			"",
 			"You summon a light horse or a pony (your choice) to serve you as a mount. The steed serves willingly and well. The mount comes with a bit and bridle and a riding saddle.",
 			"",
-			"### Mount, Communal",
+			"### Communal Mount",
 			"",
 			"{SOURCE Ultimate Combat/237}  ",
 			"**School** {spelldef/conjuration} ({spelldef/summoning}); **Level** arcanist 2, magus 2, occultist 2, sorcerer 2, summoner 2, unchained summoner 2, witch 2, wizard 2  ",
@@ -252,7 +252,7 @@
 		]
 	},
 	"mount_communal": {
-		"name": "Mount, Communal",
+		"name": "Communal Mount",
 		"copyof": "mount"
 	},
 	"communal_mount": { "copyof": "mount_communal" },
@@ -453,7 +453,7 @@
 			"",
 			"You overstimulate the target with alternating flashes of light and shadow within its eyes, causing its pupils to rapidly dilate and contract. While under the effects of this spell, the target is racked by splitting headaches and unable to see clearly, becoming nauseated for the spell's duration. Each round, the target's pupils randomly become dilated or contracted for 1 round. During any round that its eyes are dilated, the target is blinded if exposed to bright light or dazzled if exposed to normal light. During any round its eyes are contracted, the target is blinded if exposed to darkness or dazzled if exposed to dim light. In addition, any creature can attempt a Stealth check to avoid detection from the target, even if the creature lacks cover or concealment.",
 			"",
-			"### Mydriatic Spontaneity, Mass",
+			"### Mass Mydriatic Spontaneity",
 			"",
 			"{SOURCE Blood of Shadows/29}  ",
 			"**School** {spelldef/evocation} [{spelldef/darkness}, {spelldef/light}]; **Level** arcanist 7, bard 5, mesmerist 5, psychic 6, skald 5, sorcerer 7, witch 7, wizard 7  ",
@@ -468,7 +468,7 @@
 		]
 	},
 	"mydriatic_spontaneity_mass": {
-		"name": "Mydriatic Spontaneity, Mass",
+		"name": "Mass Mydriatic Spontaneity",
 		"copyof": "mydriatic_spontaneity"
 	},
 	"mass_mydriatic_spontaneity": { "copyof": "mydriatic_spontaneity_mass" },
@@ -582,7 +582,7 @@
 			"",
 			"*Augmented (2nd):* If you expend two uses of mythic power, the target ammunition or weapon returns to the creature that shot or threw it just before that creature's next turn (similar to a returning weapon). The spell isn't discharged until the target is used to attempt a second attack against the named creature. Ammunition that hits is destroyed and doesn't return.",
 			"",
-			"### Named Bullet, Greater",
+			"### Greater Named Bullet",
 			"",
 			"{SOURCE Ultimate Combat/238}  ",
 			"**School** {spelldef/divination}; **Level** arcanist 6, hunter 4, inquisitor 6, psychic 6, ranger 4, sorcerer 6, witch 6, wizard 6  ",
@@ -597,7 +597,7 @@
 		]
 	},
 	"named_bullet_greater": {
-		"name": "Named Bullet, Greater",
+		"name": "Greater Named Bullet",
 		"copyof": "named_bullet"
 	},
 	"greater_named_bullet": { "copyof": "named_bullet_greater" },
@@ -697,7 +697,7 @@
 			"",
 			"In addition to hindering mundane autopsies and investigations, this spell may effectively prohibit the use of {spell/raise dead} on the target, though more powerful magic such as {spell/resurrection} or {spell/true resurrection} may still work.",
 			"",
-			"### Nature's Ravages, Greater",
+			"### Greater Nature's Ravages",
 			"",
 			"{SOURCE Dungeoneer's Handbook/31}  ",
 			"**School** {spelldef/necromancy}; **Level** cleric 8, oracle 8, witch 7  ",
@@ -712,7 +712,7 @@
 		]
 	},
 	"natures_ravages_greater": {
-		"name": "Nature's Ravages, Greater",
+		"name": "Greater Nature's Ravages",
 		"copyof": "natures_ravages"
 	},
 	"greater_natures_ravages": { "copyof": "natures_ravages_greater" },
@@ -885,7 +885,7 @@
 			"",
 			"This spell can instead neutralize the poison in a poisonous creature or object for 10 minutes per level, at the caster's option. If cast on a creature, the creature receives a Will save to negate the effect.",
 			"",
-			"### Neutralize Poison, Greater",
+			"### Greater Neutralize Poison",
 			"",
 			"{SOURCE Dirty Tactics Toolbox/28}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** alchemist 6, bard 6, cleric 6, druid 5, hunter 5, inquisitor 6, investigator 6, oracle 6, skald 6, warpriest 6, witch 6  ",
@@ -900,7 +900,7 @@
 		]
 	},
 	"neutralize_poison_greater": {
-		"name": "Neutralize Poison, Greater",
+		"name": "Greater Neutralize Poison",
 		"copyof": "neutralize_poison"
 	},
 	"greater_neutralize_poison": { "copyof": "neutralize_poison_greater" },
@@ -1134,7 +1134,7 @@
 			"",
 			"Designed to protect a large number of items from rivals of the Arclords of Nex, this spell functions as nondetection except as noted above. You can exclude any creatures or objects in the spell's range when casting this spell, if you wish.",
 			"",
-			"### Nondetection, Communal",
+			"### Communal Nondetection",
 			"",
 			"{SOURCE Ultimate Combat/238}  ",
 			"**School** {spelldef/abjuration}; **Level** antipaladin 4, arcanist 4, mesmerist 4, occultist 4, psychic 4, sorcerer 4, wizard 4  ",
@@ -1149,15 +1149,15 @@
 		]
 	},
 	"nondetection_communal": {
-		"name": "Nondetection, Communal",
+		"name": "Communal Nondetection",
 		"copyof": "nondetection"
 	},
 	"communal_nondetection": { "copyof": "nondetection_communal" },
 	"nondetection_lesser": {
-		"name": "Nondetection, Lesser",
+		"name": "Lesser Nondetection",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
-			"## Nondetection, Lesser",
+			"## Lesser Nondetection",
 			"",
 			"{SOURCE Magic Tactics Toolbox/25}  ",
 			"**School** {spelldef/abjuration}; **Level** alchemist 2, antipaladin 2, arcanist 2, inquisitor 2, investigator 2, ranger 3, sorcerer 2, summoner 2, unchained summoner 2, wizard 2  ",
@@ -1322,12 +1322,12 @@
 		]
 	},
 	"object_possession_lesser": {
-		"name": "Object Possession, Lesser",
+		"name": "Lesser Object Possession",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{jumplist Object Possession / Object Possession, Greater}",
 			"",
-			"## Object Possession, Lesser",
+			"## Lesser Object Possession",
 			"",
 			"{SOURCE Occult Adventures/179}  ",
 			"**School** {spelldef/necromancy}; **Level** arcanist 4, medium 2, mesmerist 3, occultist 2, psychic 3, sorcerer 4, spiritualist 3, witch 4, wizard 4  ",
@@ -1359,7 +1359,7 @@
 			"",
 			"You can return your consciousness to your body as a standard action. On your next turn, you can attempt to possess a different object as a standard action instead of ending the spell.",
 			"",
-			"### Object Possession, Greater",
+			"### Greater Object Possession",
 			"",
 			"{SOURCE Occult Adventures/179}  ",
 			"**School** {spelldef/necromancy}; **Level** arcanist 7, occultist 5, psychic 6, sorcerer 7, spiritualist 6, witch 7, wizard 7  ",
@@ -1381,7 +1381,7 @@
 		"copyof": "lesser_object_possession"
 	},
 	"object_possession_greater": {
-		"name": "Object Possession, Greater",
+		"name": "Greater Object Possession",
 		"copyof": "lesser_object_possession"
 	},
 	"greater_object_possession": { "copyof": "object_possession_greater" },
@@ -1549,7 +1549,7 @@
 			"",
 			"You cause the subject to believe it is being attacked by a creature out of its nightmares. Each round, the subject makes a full-attack action against the creature. A flying creature can still attempt a Fly check to hover. Each round on its turn after making a full attack against the imaginary creature, the subject can attempt a new saving throw to end the effect. The subject is fatigued for 1 minute after the spell ends.",
 			"",
-			"### Oneiric Horror, Greater",
+			"### Greater Oneiric Horror",
 			"",
 			"{SOURCE Occult Adventures/179}  ",
 			"**School** {spelldef/illusion} ({spelldef/phantasm}) [{spelldef/mind-affecting}]; **Level** arcanist 5, bard 4, medium 2, mesmerist 3, psychic 4, skald 4, sorcerer 5, wizard 5  ",
@@ -1564,7 +1564,7 @@
 		]
 	},
 	"oneiric_horror_greater": {
-		"name": "Oneiric Horror, Greater",
+		"name": "Greater Oneiric Horror",
 		"copyof": "oneiric_horror"
 	},
 	"greater_oneiric_horror": { "copyof": "oneiric_horror_greater" },
@@ -2058,7 +2058,7 @@
 			"",
 			"The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the usual benefit to Wisdom-related skills. Clerics, druids, and rangers (and other Wisdom-based spellcasters) who receive owl's wisdom do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their spells increase.",
 			"",
-			"### Owl's Wisdom, Mass",
+			"### Mass Owl's Wisdom",
 			"",
 			"{SOURCE PRPG Core Rulebook/318}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 6, cleric 6, druid 6, hunter 6, oracle 6, psychic 6, shaman 6, sorcerer 6, summoner 4, unchained summoner 6, warpriest 6, wizard 6  ",
@@ -2073,7 +2073,7 @@
 		]
 	},
 	"owls_wisdom_mass": {
-		"name": "Owl's Wisdom, Mass",
+		"name": "Mass Owl's Wisdom",
 		"copyof": "owls_wisdom"
 	},
 	"mass_owls_wisdom": { "copyof": "owls_wisdom_mass" },
@@ -2130,7 +2130,7 @@
 			"",
 			"Pain strike racks the targeted creature with agony, inflicting 1d6 points of nonlethal damage per round for 1 round per level (maximum 10 rounds). Additionally, the affected creature is sickened for the spell's duration, and the caster gains a +4 circumstance bonus on Intimidate checks against the target.",
 			"",
-			"### Pain Strike, Mass",
+			"### Mass Pain Strike",
 			"",
 			"{SOURCE Advanced Player's Guide/234}  ",
 			"**School** {spelldef/evocation} [{spelldef/evil}, {spelldef/pain}]; **Level** arcanist 5, psychic 4, sorcerer 5, spiritualist 5, witch 5, wizard 5  ",
@@ -2145,7 +2145,7 @@
 		]
 	},
 	"pain_strike_mass": {
-		"name": "Pain Strike, Mass",
+		"name": "Mass Pain Strike",
 		"copyof": "pain_strike"
 	},
 	"mass_pain_strike": { "copyof": "pain_strike_mass" },
@@ -2301,7 +2301,7 @@
 			"",
 			"Because the target talks and interacts with its usual cadence, onlookers take a -10 penalty on Sense Motive checks to notice that anything is amiss with the target's behavior.",
 			"",
-			"### Passing Fancy, Mass",
+			"### Mass Passing Fancy",
 			"",
 			"{SOURCE Spymaster's Handbook/29}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** bard 4, mesmerist 4, psychic 5, skald 4, sorcerer 5, witch 5, wizard 5  ",
@@ -2315,7 +2315,7 @@
 		]
 	},
 	"passing_fancy_mass": {
-		"name": "Passing Fancy, Mass",
+		"name": "Mass Passing Fancy",
 		"copyof": "passing_fancy"
 	},
 	"mass_passing_fancy": { "copyof": "passing_fancy_mass" },
@@ -2354,7 +2354,7 @@
 			"",
 			"You cause four 5-foot squares (one of which must be your space) to glow with dim illumination. Starting on your next turn, as a swift action you can extend the glowing area by an additional four 5-foot squares; each new square must be adjacent to a square that was previously glowing. Allies that end their turns on a glowing square (including one who falls unconscious in the square) are healed of 1 point of damage.",
 			"",
-			"### Path of Glory, Greater",
+			"### Greater Path of Glory",
 			"",
 			"{SOURCE Advanced Class Guide/189}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** bard 4, cleric 4, oracle 4, skald 4, warpriest 4  ",
@@ -2369,7 +2369,7 @@
 		]
 	},
 	"path_of_glory_greater": {
-		"name": "Path of Glory, Greater",
+		"name": "Greater Path of Glory",
 		"copyof": "path_of_glory"
 	},
 	"greater_path_of_glory": { "copyof": "path_of_glory_greater" },
@@ -2448,7 +2448,7 @@
 			"",
 			"You lock a weapon in place on its owner's body, or within the weapon's sheath or holster. Anyone who then tries to draw the weapon must spend a standard action and succeed at a Strength check (DC equal to the saving throw DC) to do so, provoking attacks of opportunity whether the attempt succeeds or fails.",
 			"",
-			"### Peacebond, Greater",
+			"### Greater Peacebond",
 			"",
 			"{SOURCE Ultimate Intrigue/221}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 5, inquisitor 4, occultist 4, psychic 5, sorcerer 5, witch 5, wizard 5  ",
@@ -2465,7 +2465,7 @@
 		]
 	},
 	"peacebond_greater": {
-		"name": "Peacebond, Greater",
+		"name": "Greater Peacebond",
 		"copyof": "peacebond"
 	},
 	"greater_peacebond": { "copyof": "peacebond_greater" },
@@ -3291,7 +3291,7 @@
 			"",
 			"The flame steed is immune to fire and has acid, cold, and electricity resistance 10. If it or its rider is attacked, it automatically exhales a 15-foot cone of smoke and ash on your turn as a free action. Anyone in the cone must succeed at a Fortitude save (DC equal to the spell DC) or become sickened for 1d6 rounds after leaving the area. This smoke acts as {spell/obscuring mist} for the purpose of {rule/concealment}. The smoke persists for 1 round.",
 			"",
-			"### Phantom Steed, Communal",
+			"### Communal Phantom Steed",
 			"",
 			"{SOURCE Ultimate Combat/239}  ",
 			"**School** {spelldef/conjuration} ({spelldef/creation}); **Level** arcanist 4, bard 4, occultist 4, skald 4, sorcerer 4, spiritualist 4, summoner 3, unchained summoner 3, wizard 4  ",
@@ -3310,7 +3310,7 @@
 		"copyof": "phantom_steed"
 	},
 	"phantom_steed_communal": {
-		"name": "Phantom Steed, Communal",
+		"name": "Communal Phantom Steed",
 		"copyof": "phantom_steed"
 	},
 	"communal_phantom_steed": { "copyof": "phantom_steed_communal" },
@@ -3675,7 +3675,7 @@
 			"",
 			"Planar adaptation grants you immunity to the harmful environmental effects of a particular plane of existence, including such hazards as toxicity, extreme temperatures, and lack of air. Additionally, you gain energy resistance 20 to a single energy type prevalent on that plane (choose one if more than one type is equally prevalent). Planar adaptation has no effect when cast upon your native plane.",
 			"",
-			"### Planar Adaptation, Mass",
+			"### Mass Planar Adaptation",
 			"",
 			"{SOURCE Advanced Player's Guide/236}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 7, cleric 6, occultist 6, oracle 6, psychic 6, sorcerer 7, summoner 6, unchained summoner 6, warpriest 6, wizard 7  ",
@@ -3690,7 +3690,7 @@
 		]
 	},
 	"planar_adaptation_mass": {
-		"name": "Planar Adaptation, Mass",
+		"name": "Mass Planar Adaptation",
 		"copyof": "planar_adaptation"
 	},
 	"mass_planar_adaptation": { "copyof": "planar_adaptation_mass" },
@@ -3728,7 +3728,7 @@
 			"Arcane Anthology"
 		],
 		"description": [
-			"### Planar Ally, Lesser",
+			"### Lesser Planar Ally",
 			"",
 			"{SOURCE PRPG Core Rulebook/320}  ",
 			"**School** {spelldef/conjuration} ({spelldef/calling}) [see text]; **Level** cleric 4, medium 3, oracle 4, psychic 4, shaman 4, warpriest 4  ",
@@ -3766,7 +3766,7 @@
 			"",
 			"This spell functions like lesser planar ally, except you may call a single creature of 12 HD or less, or two creatures of the same kind whose HD total no more than 12. The creatures agree to help you and request your return payment together.",
 			"",
-			"### Planar Ally, Greater",
+			"### Greater Planar Ally",
 			"",
 			"{SOURCE PRPG Core Rulebook/320}  ",
 			"**School** {spelldef/conjuration} ({spelldef/calling}) [see text for lesser planar ally]; **Level** cleric 8, oracle 8, psychic 8, shaman 8  ",
@@ -3798,12 +3798,12 @@
 		]
 	},
 	"planar_ally_greater": {
-		"name": "Planar Ally, Greater",
+		"name": "Greater Planar Ally",
 		"copyof": "planar_ally"
 	},
 	"greater_planar_ally": { "copyof": "planar_ally_greater" },
 	"planar_ally_lesser": {
-		"name": "Planar Ally, Lesser",
+		"name": "Lesser Planar Ally",
 		"copyof": "planar_ally"
 	},
 	"lesser_planar_ally": { "copyof": "planar_ally_lesser" },
@@ -3826,7 +3826,7 @@
 			"",
 			"This spell functions like lesser planar binding, except that you may call a single creature of 12 HD or less, or up to three creatures of the same kind whose Hit Dice total no more than 12. Each creature gets a saving throw, makes an independent attempt to escape, and must be individually persuaded to aid you.",
 			"",
-			"### Planar Binding, Greater",
+			"### Greater Planar Binding",
 			"",
 			"{SOURCE PRPG Core Rulebook/321}  ",
 			"**School** {spelldef/conjuration} ({spelldef/calling}) [see text for lesser planar binding]; **Level** arcanist 8, psychic 8, sorcerer 8, summoner 6, wizard 8  ",
@@ -3839,7 +3839,7 @@
 			"",
 			"This spell functions like lesser planar binding, except that you may call a single creature of 18 HD or less, or up to three creatures of the same kind whose Hit Dice total no more than 18. Each creature gets a saving throw, makes an independent attempt to escape, and must be individually persuaded to aid you.",
 			"",
-			"### Planar Binding, Lesser",
+			"### Lesser Planar Binding",
 			"",
 			"{SOURCE PRPG Core Rulebook/321}  ",
 			"**School** {spelldef/conjuration} ({spelldef/calling}) [see text]; **Level** arcanist 5, medium 4, occultist 5, psychic 5, sorcerer 5, summoner 4, unchained summoner 5, wizard 5  ",
@@ -3864,12 +3864,12 @@
 		]
 	},
 	"planar_binding_greater": {
-		"name": "Planar Binding, Greater",
+		"name": "Greater Planar Binding",
 		"copyof": "planar_binding"
 	},
 	"greater_planar_binding": { "copyof": "planar_binding_greater" },
 	"planar_binding_lesser": {
-		"name": "Planar Binding, Lesser",
+		"name": "Lesser Planar Binding",
 		"copyof": "planar_binding"
 	},
 	"lesser_planar_binding": { "copyof": "planar_binding_lesser" },
@@ -4022,7 +4022,7 @@
 			"",
 			"This spell functions as planar adaptation, except that it works only on worlds of the Material Plane. The cold void of space is considered a single world for the purpose of this spell, allowing you to survive in vacuum.",
 			"",
-			"### Planetary Adaptation, Mass",
+			"### Mass Planetary Adaptation",
 			"",
 			"{SOURCE People of the Stars/29}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 7, cleric 6, oracle 6, sorcerer 7, summoner 6, unchained summoner 6, warpriest 6, wizard 7  ",
@@ -4037,7 +4037,7 @@
 		]
 	},
 	"planetary_adaptation_mass": {
-		"name": "Planetary Adaptation, Mass",
+		"name": "Mass Planetary Adaptation",
 		"copyof": "planetary_adaptation"
 	},
 	"mass_planetary_adaptation": { "copyof": "planetary_adaptation_mass" },
@@ -4435,10 +4435,10 @@
 		]
 	},
 	"polymorph_greater": {
-		"name": "Polymorph, Greater",
+		"name": "Greater Polymorph",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Polymorph, Greater",
+			"## Greater Polymorph",
 			"",
 			"{SOURCE PRPG Core Rulebook/324}  ",
 			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** arcanist 7, sorcerer 7, wizard 7  ",

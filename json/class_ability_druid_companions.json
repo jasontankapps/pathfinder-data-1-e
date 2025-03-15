@@ -41,10 +41,10 @@
 		]
 	},
 	"ant_giant": {
-		"name": "Ant, Giant",
+		"name": "Giant Ant",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Ant, Giant",
+			"## Giant Ant",
 			"",
 			"{SOURCE Ultimate Magic/36}  ",
 			"**Companion Type** Vermin  ",
@@ -126,10 +126,10 @@
 		]
 	},
 	"assassin_bug_giant": {
-		"name": "Assassin Bug, Giant",
+		"name": "Giant Assassin Bug",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Assassin Bug, Giant",
+			"## Giant Assassin Bug",
 			"",
 			"{SOURCE Ultimate Wilderness/184}  ",
 			"**Companion Type** Vermin  ",
@@ -251,10 +251,10 @@
 		]
 	},
 	"beetle_giant": {
-		"name": "Beetle, Giant",
+		"name": "Giant Beetle",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Beetle, Giant",
+			"## Giant Beetle",
 			"",
 			"{SOURCE Ultimate Magic/36}  ",
 			"**Companion Type** Vermin",
@@ -494,10 +494,10 @@
 	"leopard": { "copyof": "cat_small_cheetah_leopard" },
 	"cat_small": { "copyof": "cat_small_cheetah_leopard" },
 	"caterpillar_giant": {
-		"name": "Caterpillar, Giant",
+		"name": "Giant Caterpillar",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Caterpillar, Giant",
+			"## Giant Caterpillar",
 			"",
 			"{SOURCE Ultimate Wilderness/184}  ",
 			"**Companion Type** Vermin",
@@ -545,10 +545,10 @@
 		]
 	},
 	"centipede_giant": {
-		"name": "Centipede, Giant",
+		"name": "Giant Centipede",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Centipede, Giant",
+			"## Giant Centipede",
 			"",
 			"{SOURCE Ultimate Magic/36}  ",
 			"**Companion Type** Vermin  ",
@@ -611,10 +611,10 @@
 		]
 	},
 	"cockroach_giant": {
-		"name": "Cockroach, Giant",
+		"name": "Giant Cockroach",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Cockroach, Giant",
+			"## Giant Cockroach",
 			"",
 			"{SOURCE Ultimate Wilderness/184}  ",
 			"**Companion Type** Vermin  ",
@@ -645,10 +645,10 @@
 		]
 	},
 	"crab_giant": {
-		"name": "Crab, Giant",
+		"name": "Giant Crab",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Crab, Giant",
+			"## Giant Crab",
 			"",
 			"{SOURCE Ultimate Magic/36}  ",
 			"**Companion Type** Vermin  ",
@@ -1172,10 +1172,10 @@
 		]
 	},
 	"dragonfly_giant": {
-		"name": "Dragonfly, Giant",
+		"name": "Giant Dragonfly",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Dragonfly, Giant",
+			"## Giant Dragonfly",
 			"",
 			"{SOURCE Ultimate Wilderness/184}  ",
 			"**Companion Type** Vermin  ",
@@ -1359,10 +1359,10 @@
 		]
 	},
 	"frilled_lizard_giant": {
-		"name": "Frilled Lizard, Giant",
+		"name": "Giant Frilled Lizard",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Frilled Lizard, Giant",
+			"## Giant Frilled Lizard",
 			"",
 			"{SOURCE Ultimate Wilderness/179}  ",
 			"**Companion Type** Animal  ",
@@ -1797,10 +1797,10 @@
 		]
 	},
 	"leech_giant": {
-		"name": "Leech, Giant",
+		"name": "Giant Leech",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Leech, Giant",
+			"## Giant Leech",
 			"",
 			"{SOURCE Ultimate Magic/36}  ",
 			"**Companion Type** Vermin  ",
@@ -1886,10 +1886,10 @@
 		]
 	},
 	"locust_giant": {
-		"name": "Locust, Giant",
+		"name": "Giant Locust",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Locust, Giant",
+			"## Giant Locust",
 			"",
 			"{SOURCE Ultimate Wilderness/185}  ",
 			"**Companion Type** Vermin  ",
@@ -1921,10 +1921,10 @@
 		]
 	},
 	"mantis_shrimp_giant": {
-		"name": "Mantis Shrimp, Giant",
+		"name": "Giant Mantis Shrimp",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Mantis Shrimp, Giant",
+			"## Giant Mantis Shrimp",
 			"",
 			"{SOURCE Ultimate Wilderness/185}  ",
 			"**Companion Type** Vermin  ",
@@ -1939,10 +1939,10 @@
 	},
 	"giant_mantis_shrimp": { "copyof": "mantis_shrimp_giant" },
 	"mantis_giant": {
-		"name": "Mantis, Giant",
+		"name": "Giant Mantis",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Mantis, Giant",
+			"## Giant Mantis",
 			"",
 			"{SOURCE Ultimate Magic/37}  ",
 			"**Companion Type** Vermin  ",
@@ -2258,10 +2258,10 @@
 		]
 	},
 	"mole_giant": {
-		"name": "Mole, Giant",
+		"name": "Giant Mole",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Mole, Giant",
+			"## Giant Mole",
 			"",
 			"{SOURCE Ultimate Wilderness/180}  ",
 			"**Companion Type** Animal",
@@ -2327,10 +2327,10 @@
 	},
 	"giant_moray_eel": { "copyof": "moray_eel" },
 	"mosquito_giant": {
-		"name": "Mosquito, Giant",
+		"name": "Giant Mosquito",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Mosquito, Giant",
+			"## Giant Mosquito",
 			"",
 			"{SOURCE Ultimate Wilderness/185}  ",
 			"**Companion Type** Vermin  ",
@@ -2428,10 +2428,10 @@
 		]
 	},
 	"owl_giant": {
-		"name": "Owl, Giant",
+		"name": "Giant Owl",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Owl, Giant",
+			"## Giant Owl",
 			"",
 			"{SOURCE Ultimate Wilderness/181}  ",
 			"**Companion Type** Animal  ",
@@ -2530,10 +2530,10 @@
 		]
 	},
 	"porcupine_giant": {
-		"name": "Porcupine, Giant",
+		"name": "Giant Porcupine",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Porcupine, Giant",
+			"## Giant Porcupine",
 			"",
 			"{SOURCE Ultimate Wilderness/181}  ",
 			"**Companion Type** Animal  ",
@@ -2664,13 +2664,13 @@
 		]
 	},
 	"raven_giant": {
-		"name": "Raven, Giant",
+		"name": "Giant Raven",
 		"sources": [
 			"Pathfinder #97: In Hell's Bright Shadow",
 			"Bestiary 6"
 		],
 		"description": [
-			"## Raven, Giant",
+			"## Giant Raven",
 			"",
 			"{SOURCE Pathfinder #97: In Hell's Bright Shadow/82;Bestiary 6/312}  ",
 			"**Companion Type** Animal  ",
@@ -2818,10 +2818,10 @@
 		]
 	},
 	"salamander_giant": {
-		"name": "Salamander, Giant",
+		"name": "Giant Salamander",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Salamander, Giant",
+			"## Giant Salamander",
 			"",
 			"{SOURCE Ultimate Wilderness/181}  ",
 			"**Companion Type** Animal",
@@ -2835,10 +2835,10 @@
 	},
 	"giant_salamander": { "copyof": "salamander_giant" },
 	"scorpion_giant": {
-		"name": "Scorpion, Giant",
+		"name": "Giant Scorpion",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Scorpion, Giant",
+			"## Giant Scorpion",
 			"",
 			"{SOURCE Ultimate Magic/37}  ",
 			"**Companion Type** Vermin  ",
@@ -2870,10 +2870,10 @@
 		]
 	},
 	"seahorse_giant": {
-		"name": "Seahorse, Giant",
+		"name": "Giant Seahorse",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"## Seahorse, Giant",
+			"## Giant Seahorse",
 			"",
 			"{SOURCE Bestiary 4/311}  ",
 			"**Companion Type** Animal  ",
@@ -2939,10 +2939,10 @@
 		]
 	},
 	"skunk_giant": {
-		"name": "Skunk, Giant",
+		"name": "Giant Skunk",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Skunk, Giant",
+			"## Giant Skunk",
 			"",
 			"{SOURCE Ultimate Wilderness/181}  ",
 			"**Companion Type** Animal  ",
@@ -2973,10 +2973,10 @@
 		]
 	},
 	"slug_giant": {
-		"name": "Slug, Giant",
+		"name": "Giant Slug",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Slug, Giant",
+			"## Giant Slug",
 			"",
 			"{SOURCE Ultimate Magic/37}  ",
 			"**Companion Type** Vermin  ",
@@ -2991,10 +2991,10 @@
 	},
 	"giant_slug": { "copyof": "slug_giant" },
 	"snake_constrictor": {
-		"name": "Snake, Constrictor",
+		"name": "Snake (Constrictor)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Snake, Constrictor",
+			"## Snake (Constrictor)",
 			"",
 			"{SOURCE PRPG Core Rulebook/54}  ",
 			"**Companion Type** Animal  ",
@@ -3009,10 +3009,10 @@
 	},
 	"constrictor_snake": { "copyof": "snake_constrictor" },
 	"snake_viper": {
-		"name": "Snake, Viper",
+		"name": "Snake (Viper)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Snake, Viper",
+			"## Snake (Viper)",
 			"",
 			"{SOURCE PRPG Core Rulebook/54}  ",
 			"**Companion Type** Animal  ",
@@ -3059,10 +3059,10 @@
 		]
 	},
 	"solifugid_giant": {
-		"name": "Solifugid, Giant",
+		"name": "Giant Solifugid",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Solifugid, Giant",
+			"## Giant Solifugid",
 			"",
 			"{SOURCE Ultimate Wilderness/185}  ",
 			"**Companion Type** Vermin  ",
@@ -3094,10 +3094,10 @@
 		]
 	},
 	"spider_giant": {
-		"name": "Spider, Giant",
+		"name": "Giant Spider",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Spider, Giant",
+			"## Giant Spider",
 			"",
 			"{SOURCE Ultimate Magic/37}  ",
 			"**Companion Type** Vermin  ",
@@ -3112,10 +3112,10 @@
 	},
 	"giant_spider": { "copyof": "spider_giant" },
 	"spider_web_tyrant": {
-		"name": "Spider, Web Tyrant",
+		"name": "Spider (Web Tyrant)",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Spider, Web Tyrant",
+			"## Spider (Web Tyrant)",
 			"",
 			"{SOURCE Ultimate Wilderness/185}  ",
 			"**Companion Type** Vermin",
@@ -3162,10 +3162,10 @@
 		]
 	},
 	"squid_giant": {
-		"name": "Squid, Giant",
+		"name": "Giant Squid",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Squid, Giant",
+			"## Giant Squid",
 			"",
 			"{SOURCE Ultimate Wilderness/182}  ",
 			"**Companion Type** Animal  ",
@@ -3214,10 +3214,10 @@
 		]
 	},
 	"swan_trumpeter": {
-		"name": "Swan, Trumpeter",
+		"name": "Trumpeter Swan",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"## Swan, Trumpeter",
+			"## Trumpeter Swan",
 			"",
 			"{SOURCE Bestiary 4/311}  ",
 			"**Companion Type** Animal  ",
@@ -3249,10 +3249,10 @@
 		]
 	},
 	"termite_giant": {
-		"name": "Termite, Giant",
+		"name": "Giant Termite",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Termite, Giant",
+			"## Giant Termite",
 			"",
 			"{SOURCE Ultimate Wilderness/185}  ",
 			"**Companion Type** Vermin  ",
@@ -3316,10 +3316,10 @@
 		]
 	},
 	"tortoise_giant": {
-		"name": "Tortoise, Giant",
+		"name": "Giant Tortoise",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"## Tortoise, Giant",
+			"## Giant Tortoise",
 			"",
 			"{SOURCE Bestiary 4/311}  ",
 			"**Companion Type** Animal  ",
@@ -3350,10 +3350,10 @@
 		]
 	},
 	"turtle_giant_snapping": {
-		"name": "Turtle, Giant Snapping",
+		"name": "Giant Snapping Turtle",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"## Turtle, Giant Snapping",
+			"## Giant Snapping Turtle",
 			"",
 			"{SOURCE Bestiary 2/273}  ",
 			"**Companion Type** Animal  ",
@@ -3384,10 +3384,10 @@
 		]
 	},
 	"vulture_giant": {
-		"name": "Vulture, Giant",
+		"name": "Giant Vulture",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"## Vulture, Giant",
+			"## Giant Vulture",
 			"",
 			"{SOURCE Bestiary 3/312}  ",
 			"**Companion Type** Animal  ",
@@ -3435,10 +3435,10 @@
 		]
 	},
 	"wasp_giant": {
-		"name": "Wasp, Giant",
+		"name": "Giant Wasp",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Wasp, Giant",
+			"## Giant Wasp",
 			"",
 			"{SOURCE Ultimate Magic/37}  ",
 			"**Companion Type** Vermin  ",
@@ -3453,10 +3453,10 @@
 	},
 	"giant_wasp": { "copyof": "wasp_giant" },
 	"weasel_giant": {
-		"name": "Weasel, Giant",
+		"name": "Giant Weasel",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"## Weasel, Giant",
+			"## Giant Weasel",
 			"",
 			"{SOURCE Bestiary 4/311}  ",
 			"**Companion Type** Animal  ",
@@ -3471,10 +3471,10 @@
 	},
 	"giant_weasel": { "copyof": "weasel_giant" },
 	"whiptail_centipede_giant": {
-		"name": "Whiptail Centipede, Giant",
+		"name": "Giant Whiptail Centipede",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"## Whiptail Centipede, Giant",
+			"## Giant Whiptail Centipede",
 			"",
 			"{SOURCE Ultimate Wilderness/185}  ",
 			"**Companion Type** Vermin  ",

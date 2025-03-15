@@ -971,7 +971,7 @@
 		]
 	},
 	"octopus_giant_octopus": {
-		"name": "Octopus, Giant Octopus",
+		"name": "Giant Octopus",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A storm of tentacles, each twenty feet in length, flails with deadly precision from the leathery body of this gigantic octopus.*",
@@ -1132,7 +1132,7 @@
 		]
 	},
 	"ogre_ogre_boss": {
-		"name": "Ogre, Ogre Boss",
+		"name": "Ogre Boss",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
@@ -1184,7 +1184,7 @@
 	},
 	"ogre_boss": { "copyof": "ogre_ogre_boss" },
 	"ogre_ogre_brute": {
-		"name": "Ogre, Ogre Brute",
+		"name": "Ogre Brute",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
@@ -1237,7 +1237,7 @@
 	},
 	"ogre_brute": { "copyof": "ogre_ogre_brute" },
 	"ogre_ogre_destroyer": {
-		"name": "Ogre, Ogre Destroyer",
+		"name": "Ogre Destroyer",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Ogre Destroyer]{cr=\"10\"}",
@@ -1308,7 +1308,7 @@
 	},
 	"ogre_destroyer": { "copyof": "ogre_ogre_destroyer" },
 	"ogre_ogre_glutton": {
-		"name": "Ogre, Ogre Glutton",
+		"name": "Ogre Glutton",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
@@ -1360,7 +1360,7 @@
 	},
 	"ogre_glutton": { "copyof": "ogre_ogre_glutton" },
 	"ogre_ogre_hunter": {
-		"name": "Ogre, Ogre Hunter",
+		"name": "Ogre Hunter",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Ogre Hunter]{cr=\"9\"}",
@@ -1435,7 +1435,7 @@
 	},
 	"ogre_hunter": { "copyof": "ogre_ogre_hunter" },
 	"ogre_ogre_king": {
-		"name": "Ogre, Ogre King",
+		"name": "Ogre King",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
@@ -1497,7 +1497,7 @@
 	},
 	"ogre_king": { "copyof": "ogre_ogre_king" },
 	"ogre_ogre_mancatcher": {
-		"name": "Ogre, Ogre Mancatcher",
+		"name": "Ogre Mancatcher",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
@@ -1546,7 +1546,7 @@
 	},
 	"ogre_mancatcher": { "copyof": "ogre_ogre_mancatcher" },
 	"ogre_ogre_priest": {
-		"name": "Ogre, Ogre Priest",
+		"name": "Ogre Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
@@ -1601,7 +1601,7 @@
 	},
 	"ogre_priest": { "copyof": "ogre_ogre_priest" },
 	"ogre_ogre_stalker": {
-		"name": "Ogre, Ogre Stalker",
+		"name": "Ogre Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
@@ -1871,7 +1871,7 @@
 		]
 	},
 	"oni_atamahuta": {
-		"name": "Oni, Atamahuta",
+		"name": "Atamahuta (Oni)",
 		"sources": [
 			"Pathfinder #51: The Hungry Storm",
 			"Bestiary 3"
@@ -1950,7 +1950,7 @@
 	},
 	"atamahuta": { "copyof": "oni_atamahuta" },
 	"oni_earth_yai": {
-		"name": "Oni, Earth Yai",
+		"name": "Earth Yai (Oni)",
 		"sources": [
 			"Pathfinder #53: Tide of Honor",
 			"Bestiary 3"
@@ -2037,7 +2037,7 @@
 	},
 	"earth_yai": { "copyof": "oni_earth_yai" },
 	"oni_fire_yai": {
-		"name": "Oni, Fire Yai",
+		"name": "Fire Yai (Oni)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This fanged, three-eyed giant rages in its finely crafted armor, its skin as red as a smoldering ember.*",
@@ -2104,7 +2104,7 @@
 	},
 	"fire_yai": { "copyof": "oni_fire_yai" },
 	"oni_ice_yai": {
-		"name": "Oni, Ice Yai",
+		"name": "Ice Yai (Oni)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This blue-skinned giant has three eyes, fangs, and claws. Its hair seems to be formed of delicate strands of ice.*",
@@ -2169,7 +2169,7 @@
 	},
 	"ice_yai": { "copyof": "oni_ice_yai" },
 	"oni_ja_noi": {
-		"name": "Oni, Ja Noi",
+		"name": "Ja Noi (Oni)",
 		"sources": [
 			"Pathfinder #52: Forest of Spirits",
 			"Bestiary 3"
@@ -2247,7 +2247,7 @@
 	},
 	"ja_noi": { "copyof": "oni_ja_noi" },
 	"oni_kigyo": {
-		"name": "Oni, Kigyo",
+		"name": "Kigyo (Oni)",
 		"sources": [
 			"Pathfinder #124: City in the Deep",
 			"Bestiary 3"
@@ -2326,7 +2326,7 @@
 	},
 	"kigyo": { "copyof": "oni_kigyo" },
 	"oni_kuwa": {
-		"name": "Oni, Kuwa",
+		"name": "Kuwa (Oni)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This golden-skinned fiend has horns, fangs, and bulging eyes. It grips a spiked club in its four-fingered claws.*",
@@ -2382,7 +2382,7 @@
 	},
 	"kuwa": { "copyof": "oni_kuwa" },
 	"oni_najikai": {
-		"name": "Oni, Najikai",
+		"name": "Najikai (Oni)",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 3"
@@ -2449,7 +2449,7 @@
 	},
 	"najikai": { "copyof": "oni_najikai" },
 	"oni_nogitsune": {
-		"name": "Oni, Nogitsune",
+		"name": "Nogitsune (Oni)",
 		"sources": [
 			"Pathfinder #50: Night of Frozen Shadows",
 			"Bestiary 3"
@@ -2530,7 +2530,7 @@
 	},
 	"nogitsune": { "copyof": "oni_nogitsune" },
 	"oni_ogre_mage": {
-		"name": "Oni, Ogre Mage",
+		"name": "Ogre Mage (Oni)",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Bestiary 3"
@@ -2587,7 +2587,7 @@
 	},
 	"ogre_mage": { "copyof": "oni_ogre_mage" },
 	"oni_spirit_oni": {
-		"name": "Oni, Spirit Oni",
+		"name": "Spirit Oni (Oni)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This evil-looking animated mask shows the face of a horned fiend, its eyes popping and its leering smile full of fangs.*",
@@ -2653,7 +2653,7 @@
 	"oni_spirit": { "copyof": "oni_spirit_oni" },
 	"spirit_oni": { "copyof": "oni_spirit_oni" },
 	"oni_void_yai": {
-		"name": "Oni, Void Yai",
+		"name": "Void Yai (Oni)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This towering, three-eyed horned giant carries himself with the self-assurance of an undefeated champion of countless wars.*",
@@ -2733,7 +2733,7 @@
 	},
 	"void_yai": { "copyof": "oni_void_yai" },
 	"oni_water_yai": {
-		"name": "Oni, Water Yai",
+		"name": "Water Yai (Oni)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This towering woman has blue skin, small fangs, and a third eye glaring from her forehead. Her robes are soaking wet.*",
@@ -2795,7 +2795,7 @@
 	},
 	"water_yai": { "copyof": "oni_water_yai" },
 	"oni_wind_yai": {
-		"name": "Oni, Wind Yai",
+		"name": "Wind Yai (Oni)",
 		"sources": [
 			"Pathfinder #54: The Empty Throne",
 			"Bestiary 3"
@@ -2874,7 +2874,7 @@
 	},
 	"wind_yai": { "copyof": "oni_wind_yai" },
 	"oni_yamabushi_tengu": {
-		"name": "Oni, Yamabushi Tengu",
+		"name": "Yamabushi Tengu (Oni)",
 		"sources": [
 			"Pathfinder #49: The Brinewall Legacy",
 			"Bestiary 3"
@@ -3340,7 +3340,7 @@
 		]
 	},
 	"orc_gorthek": {
-		"name": "Orc, Gorthek",
+		"name": "Gorthek (Orc)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This massive quadruped has a thick, wrinkled hide, curving horns, and shaggy hair that frames its leonine face.*",
@@ -3396,7 +3396,7 @@
 	},
 	"gorthek": { "copyof": "orc_gorthek" },
 	"orc_gorthek_rider": {
-		"name": "Orc, Gorthek Rider",
+		"name": "Gorthek Rider (Orc)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Gorthek Rider]{cr=\"6\"}",
@@ -3443,7 +3443,7 @@
 	},
 	"gorthek_rider": { "copyof": "orc_gorthek_rider" },
 	"orc_orc_chieftain": {
-		"name": "Orc, Orc Chieftain",
+		"name": "Orc Chieftain",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Orc Chieftain]{cr=\"9\"}",
@@ -3490,7 +3490,7 @@
 	},
 	"orc_chieftain": { "copyof": "orc_orc_chieftain" },
 	"orc_orc_lieutenant": {
-		"name": "Orc, Orc Lieutenant",
+		"name": "Orc Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Orc Lieutenant]{cr=\"4\"}",
@@ -3537,7 +3537,7 @@
 	},
 	"orc_lieutenant": { "copyof": "orc_orc_lieutenant" },
 	"orc_orc_mystic": {
-		"name": "Orc, Orc Mystic",
+		"name": "Orc Mystic",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Orc Mystic]{cr=\"2\"}",
@@ -3600,7 +3600,7 @@
 	},
 	"orc_mystic": { "copyof": "orc_orc_mystic" },
 	"orc_orc_scout": {
-		"name": "Orc, Orc Scout",
+		"name": "Orc Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Orc Scout]{cr=\"5\"}",
@@ -3649,7 +3649,7 @@
 	},
 	"orc_scout": { "copyof": "orc_orc_scout" },
 	"orc_orc_sergeant": {
-		"name": "Orc, Orc Sergeant",
+		"name": "Orc Sergeant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Orc Sergeant]{cr=\"2\"}",
@@ -3700,7 +3700,7 @@
 	},
 	"orc_sergeant": { "copyof": "orc_orc_sergeant" },
 	"orc_orc_thug": {
-		"name": "Orc, Orc Thug",
+		"name": "Orc Thug",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Orc Thug]{cr=\"3\"}",
@@ -3747,7 +3747,7 @@
 	},
 	"orc_thug": { "copyof": "orc_orc_thug" },
 	"orc_orc_war_drummer": {
-		"name": "Orc, Orc War Drummer",
+		"name": "Orc War Drummer",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Orc War Drummer]{cr=\"3\"}",
@@ -3794,7 +3794,7 @@
 	},
 	"orc_war_drummer": { "copyof": "orc_orc_war_drummer" },
 	"orc_orc_warlord": {
-		"name": "Orc, Orc Warlord",
+		"name": "Orc Warlord",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Orc Warlord]{cr=\"6\"}",
@@ -3845,7 +3845,7 @@
 	},
 	"orc_warlord": { "copyof": "orc_orc_warlord" },
 	"orc_orc_witch_doctor": {
-		"name": "Orc, Orc Witch Doctor",
+		"name": "Orc Witch Doctor",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Orc Witch Doctor]{cr=\"8\"}",

@@ -52,7 +52,7 @@
 		]
 	},
 	"centaur_centaur_charger": {
-		"name": "Centaur, Centaur Charger",
+		"name": "Centaur Charger",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*An imposing wall of steel, corded muscle, and blood-stained banners, this centaur wields a lance and shield with the majesty and prowess of any human knight.*",
@@ -106,7 +106,7 @@
 	},
 	"centaur_charger": { "copyof": "centaur_centaur_charger" },
 	"centaur_centaur_forager": {
-		"name": "Centaur, Centaur Forager",
+		"name": "Centaur Forager",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Swirling markings cover the armor and flanks of this imposing centaur. A bow and sword, both heavy enough to suit her powerful frame, hang from her body.*",
@@ -160,7 +160,7 @@
 	},
 	"centaur_forager": { "copyof": "centaur_centaur_forager" },
 	"centaur_centaur_greenspeaker": {
-		"name": "Centaur, Centaur Greenspeaker",
+		"name": "Centaur Greenspeaker",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*This handsome young man has hair of dappled black and white on his head and body alike, and he carries a variety of wands and talismans in addition to his weapons.*",
@@ -216,7 +216,7 @@
 	},
 	"centaur_greenspeaker": { "copyof": "centaur_centaur_greenspeaker" },
 	"centaur_centaur_outcast": {
-		"name": "Centaur, Centaur Outcast",
+		"name": "Centaur Outcast",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Lean and graying but still blessed with a young man's face, this aging centaur bristles with scrolls and wands. Winding, swirling tattoos climb across his body and face.*",
@@ -366,7 +366,7 @@
 		]
 	},
 	"centipede_centipede_swarm": {
-		"name": "Centipede, Centipede Swarm",
+		"name": "Centipede Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A writhing mass of legs and poisonous pincers swarms across the ground in a deadly, undulating wave.*",
@@ -429,7 +429,7 @@
 	},
 	"centipede_swarm": { "copyof": "centipede_centipede_swarm" },
 	"centipede_giant_centipede": {
-		"name": "Centipede, Giant Centipede",
+		"name": "Giant Centipede",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This lengthy, segmented horror writhes and twists, pulsing its venomous mandibles in search of prey.*",
@@ -490,7 +490,7 @@
 	"centipede_giant": { "copyof": "centipede_giant_centipede" },
 	"giant_centipede": { "copyof": "centipede_giant_centipede" },
 	"centipede_giant_whiptail_centipede": {
-		"name": "Centipede, Giant Whiptail Centipede",
+		"name": "Giant Whiptail Centipede",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*An elephantine centipede scurries about, its double tail lashing angrily behind it.*",
@@ -542,7 +542,7 @@
 	"centipede_giant_whiptail": { "copyof": "centipede_giant_whiptail_centipede" },
 	"giant_whiptail_centipede": { "copyof": "centipede_giant_whiptail_centipede" },
 	"centipede_titan_centipede": {
-		"name": "Centipede, Titan Centipede",
+		"name": "Titan Centipede",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A writhing, seemingly endless segmented monstrosity crawls forth, its great mandibles clacking as it spies prey.*",
@@ -1141,7 +1141,7 @@
 		]
 	},
 	"cetacean_blue_whale": {
-		"name": "Cetacean, Blue Whale",
+		"name": "Blue Whale (Cetacean)",
 		"sources": [
 			"Pathfinder #59: The Price of Infamy",
 			"Bestiary 5"
@@ -1198,7 +1198,7 @@
 	},
 	"blue_whale": { "copyof": "cetacean_blue_whale" },
 	"cetacean_crimson_whale": {
-		"name": "Cetacean, Crimson Whale",
+		"name": "Crimson Whale (Cetacean)",
 		"sources": [ "Pathfinder #59: The Price of Infamy" ],
 		"description": [
 			"*Similar to other whales in many ways, this giant aquatic beast is notable for its enormous teeth, menacingly strong jaws, and blood-red skin.*",
@@ -1250,7 +1250,7 @@
 	},
 	"crimson_whale": { "copyof": "cetacean_crimson_whale" },
 	"cetacean_narwhal": {
-		"name": "Cetacean, Narwhal",
+		"name": "Narwhal (Cetacean)",
 		"sources": [
 			"Pathfinder #59: The Price of Infamy",
 			"Bestiary 5"
@@ -1688,7 +1688,7 @@
 		]
 	},
 	"charau_ka_deadfall_tracker": {
-		"name": "Charau-ka, Deadfall Tracker",
+		"name": "Deadfall Tracker (Charau-ka)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*A noxious fluid drips from the vicious arrows of this feral ape-like humanoid.*",
@@ -1739,7 +1739,7 @@
 	},
 	"deadfall_tracker": { "copyof": "charau_ka_deadfall_tracker" },
 	"charau_ka_devotee_of_the_ravener_king": {
-		"name": "Charau-ka, Devotee of the Ravener King",
+		"name": "Devotee of the Ravener King (Charau-ka)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Clad in bloodstains, ivory fetishes, and animal hides, this ape-like priest's regalia speaks to the horrible powers it serves.*",
@@ -1853,7 +1853,7 @@
 		]
 	},
 	"cockroach_cockroach_swarm": {
-		"name": "Cockroach, Cockroach Swarm",
+		"name": "Cockroach Swarm",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Like a pestilent black tide, a ravenous horde of thousands of tiny, clacking cockroaches washes over everything in its path.*",
@@ -1900,7 +1900,7 @@
 	},
 	"cockroach_swarm": { "copyof": "cockroach_cockroach_swarm" },
 	"cockroach_giant_cockroach": {
-		"name": "Cockroach, Giant Cockroach",
+		"name": "Giant Cockroach",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A dog-sized cockroach skitters forth, greedily clicking its filth-slicked mandibles.*",
@@ -2404,7 +2404,7 @@
 		]
 	},
 	"contemplative_enlightened_contemplative": {
-		"name": "Contemplative, Enlightened Contemplative",
+		"name": "Enlightened Contemplative",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*Resembling an enlarged brain with an atrophied humanoid body attached, this floating creature pulses with energy.*",
@@ -2716,7 +2716,7 @@
 		]
 	},
 	"cordulegaster_elder_cordulegaster": {
-		"name": "Cordulegaster, Elder Cordulegaster",
+		"name": "Elder Cordulegaster",
 		"sources": [ "Pathfinder #98: Turn of the Torrent" ],
 		"description": [
 			"*The insectile eyes of this chitin-covered daemonic monstrosity display a malign intelligence.*",
@@ -2976,7 +2976,7 @@
 		]
 	},
 	"couatl_auwaz_couatl": {
-		"name": "Couatl, Auwaz Couatl",
+		"name": "Auwaz Couatl",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
 		"description": [
 			"*This winged serpent is covered with bright blue-and-green feathers that are reminiscent of ocean waters.*",
@@ -3054,7 +3054,7 @@
 	"auwaz_couatl": { "copyof": "couatl_auwaz_couatl" },
 	"couatl_auwaz": { "copyof": "couatl_auwaz_couatl" },
 	"couatl_chicome": {
-		"name": "Couatl, Chicome",
+		"name": "Chicome (Couatl)",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
 			"*The feathers of this winged serpent are hues of verdant green, save for the crimson feathers on its head and crest. Its wings let forth thin clouds of golden pollen and showers of dew.*",
@@ -3145,7 +3145,7 @@
 	"chicome": { "copyof": "couatl_chicome" },
 	"chicome_couatl": { "copyof": "couatl_chicome" },
 	"couatl_lord_sun_warrior": {
-		"name": "Couatl, Lord Sun-Warrior",
+		"name": "Lord Sun-Warrior (Couatl)",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
 			"*This brilliantly colored couatl radiates a palpable air of peace and wisdom.*",
@@ -3207,7 +3207,7 @@
 	},
 	"lord_sun_warrior": { "copyof": "couatl_lord_sun_warrior" },
 	"couatl_mix_couatl": {
-		"name": "Couatl, Mix Couatl",
+		"name": "Mix Couatl (Couatl)",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
 		"description": [
 			"*Dark scales marked with shining spots resembling stars cover this winged serpent. Faint red stripes span the length of its body.*",
@@ -3297,7 +3297,7 @@
 	"mix_couatl": { "copyof": "couatl_mix_couatl" },
 	"couatl_mix": { "copyof": "couatl_mix_couatl" },
 	"couatl_tletli": {
-		"name": "Couatl, Tletli",
+		"name": "Tletli (Couatl)",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
 			"*This massive flying serpent's iridescent scales glimmer like opals, and white-hot flames dance along the feathers of its burning wings.*",
@@ -3381,7 +3381,7 @@
 	},
 	"tletli": { "copyof": "couatl_tletli" },
 	"couatl_xiuh_couatl": {
-		"name": "Couatl, Xiuh Couatl",
+		"name": "Xiuh Couatl",
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],
 		"description": [
 			"*Wreathed in flame, this winged serpent sports brightly colored feathers sparking with electricity.*",
@@ -3469,7 +3469,7 @@
 	"xiuh_couatl": { "copyof": "couatl_xiuh_couatl" },
 	"couatl_xiuh": { "copyof": "couatl_xiuh_couatl" },
 	"crab_crab_swarm": {
-		"name": "Crab, Crab Swarm",
+		"name": "Crab Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A writhing mass of clacking shells and snapping pincers rushes from the surf, their spider-like legs twitching across the sand.*",
@@ -3514,7 +3514,7 @@
 	},
 	"crab_swarm": { "copyof": "crab_crab_swarm" },
 	"crab_giant_crab": {
-		"name": "Crab, Giant Crab",
+		"name": "Giant Crab",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This lumbering hard-shelled crab stands as tall as a dwarf, its massive pincers waving menacingly.*",
@@ -3575,7 +3575,7 @@
 	"giant_crab": { "copyof": "crab_giant_crab" },
 	"crab_giant": { "copyof": "crab_giant_crab" },
 	"crab_shark_eating_crab": {
-		"name": "Crab, Shark-Eating Crab",
+		"name": "Shark-Eating Crab",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This spiny, long-legged crab towers over its surroundings. Its quick and powerful claws thrash wildly, eager for prey.*",
@@ -3628,7 +3628,7 @@
 	"shark_eating_crab": { "copyof": "crab_shark_eating_crab" },
 	"crab_shark_eating": { "copyof": "crab_shark_eating_crab" },
 	"crab_shipwrecker_crab": {
-		"name": "Crab, Shipwrecker Crab",
+		"name": "Shipwrecker Crab",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Claws the size of rowboats dominate the form of this massive crab. Barnacles and sea grass cling to the creature's thick shell.*",
@@ -3786,7 +3786,7 @@
 		]
 	},
 	"crawling_hand_giant_crawling_hand": {
-		"name": "Crawling Hand, Giant Crawling Hand",
+		"name": "Giant Crawling Hand",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A giant rotting hand rocks unsteadily, propped upon thick, stubby fingers. Its pale, necrotic flesh pulses and crawls with sickly boils.*",
@@ -3946,7 +3946,7 @@
 		]
 	},
 	"crocodile_dire_crocodile": {
-		"name": "Crocodile, Dire Crocodile",
+		"name": "Dire Crocodile",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This reptilian behemoth, a crocodile of monstrous proportions, is large enough to swallow a horse in one tremendous bite.*",
@@ -3993,7 +3993,7 @@
 	"dire_crocodile": { "copyof": "crocodile_dire_crocodile" },
 	"crocodile_dire": { "copyof": "crocodile_dire_crocodile" },
 	"crocodile_hetkoshu": {
-		"name": "Crocodile, Hetkoshu",
+		"name": "Hetkoshu (Crocodile)",
 		"sources": [ "Osirion, Legacy of the Pharaohs" ],
 		"description": [
 			"*This enormous black crocodile gapes hungrily with a maw big enough to swallow two armored warriors whole.*",
@@ -4049,7 +4049,7 @@
 	},
 	"hetkoshu": { "copyof": "crocodile_hetkoshu" },
 	"crocodilians_deinosuchus": {
-		"name": "Crocodilians, Deinosuchus",
+		"name": "Deinosuchus (Crocodilians)",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
 			"*This immense reptile, an alligator of overwhelming size, emerges from the water with rapidly snapping jaws that grind menacingly between each bite.*",
@@ -4105,7 +4105,7 @@
 	},
 	"deinosuchus": { "copyof": "crocodilians_deinosuchus" },
 	"crocodilians_marine_crocodile": {
-		"name": "Crocodilians, Marine Crocodile",
+		"name": "Marine Crocodile (Crocodilians)",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
 			"*This fishlike reptile has a thin, streamlined snout filled with needle-like teeth and a long, flat tail that it uses to propel itself through the water.*",
@@ -4160,7 +4160,7 @@
 	"marine_crocodile": { "copyof": "crocodilians_marine_crocodile" },
 	"crocodile_marine": { "copyof": "crocodilians_marine_crocodile" },
 	"crocodilians_saltwater_crocodile": {
-		"name": "Crocodilians, Saltwater Crocodile",
+		"name": "Saltwater Crocodile (Crocodilians)",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
 			"*This crocodile is nearly half again as large as a normal crocodile, and seems to smile with its long, toothed mouth as it lunges forward.*",

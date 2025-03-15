@@ -38,7 +38,7 @@
 			"",
 			"If the target of this spell fails to resist its effects with a Will save, he becomes outlined in faint radiance, as if via faerie fire. At any time before the eldritch conduit expires, you may cast another spell with an area effect of cone, cylinder, line, or sphere and use the subject of the eldritch conduit as the point of origin for that spell. Doing so ends the spell immediately. The target must be within close range (25 feet + 5 feet/2 levels) in order for you to use the conduit - if the target moves out of range, the eldritch conduit effect persists but cannot be utilized by you until you get back within range.",
 			"",
-			"### Eldritch Conduit, Greater",
+			"### Greater Eldritch Conduit",
 			"",
 			"{SOURCE Inner Sea Magic/54}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 6, sorcerer 6, witch 6, wizard 6  ",
@@ -53,7 +53,7 @@
 		]
 	},
 	"eldritch_conduit_greater": {
-		"name": "Eldritch Conduit, Greater",
+		"name": "Greater Eldritch Conduit",
 		"copyof": "eldritch_conduit"
 	},
 	"greater_eldritch_conduit": { "copyof": "eldritch_conduit_greater" },
@@ -640,7 +640,7 @@
 			"",
 			"The target changes to one creature touched per level. Affected creatures gain cold resistance 5 and fire resistance 5. They're not slowed by snow, and ignore penalties on Perception checks and ranged weapon attacks from hail, rain, sleet, and snow. They treat wind as one category weaker.",
 			"",
-			"### Endure Elements, Communal",
+			"### Communal Endure Elements",
 			"",
 			"{SOURCE Ultimate Combat/228}  ",
 			"**School** {spelldef/abjuration}; **Level** alchemist 3, arcanist 2, cleric 2, druid 2, hunter 2, investigator 3, oracle 2, paladin 2, psychic 2, ranger 2, sorcerer 2, warpriest 2, wizard 2  ",
@@ -655,7 +655,7 @@
 		]
 	},
 	"endure_elements_communal": {
-		"name": "Endure Elements, Communal",
+		"name": "Communal Endure Elements",
 		"copyof": "endure_elements"
 	},
 	"communal_endure_elements": { "copyof": "endure_elements_communal" },
@@ -809,7 +809,7 @@
 			"",
 			"*Force:* No extra effect.",
 			"",
-			"### Energy Siege Shot, Greater",
+			"### Greater Energy Siege Shot",
 			"",
 			"{SOURCE Ultimate Combat/229}  ",
 			"**School** {spelldef/transmutation} [variable]; **Level** arcanist 6, occultist 6, sorcerer 6, summoner 6, wizard 6  ",
@@ -824,7 +824,7 @@
 		]
 	},
 	"energy_siege_shot_greater": {
-		"name": "Energy Siege Shot, Greater",
+		"name": "Greater Energy Siege Shot",
 		"copyof": "energy_siege_shot"
 	},
 	"greater_energy_siege_shot": { "copyof": "energy_siege_shot_greater" },
@@ -942,7 +942,7 @@
 			"",
 			"You can increase the target's size by up to two size categories, to a maximum of Huge. If the target grows two sizes, its weight increases by a factor of 25, it gains a +4 size bonus to Strength, and takes a -4 size penalty to Dexterity and a -2 penalty on attack rolls and to AC because of its increased size. A Medium humanoid creature whose size increases to Huge has a space of 15 feet and a natural reach of 10 feet. Mythic enlarge person counters and dispels mythic {spell/reduce person}.",
 			"",
-			"### Enlarge Person, Mass",
+			"### Mass Enlarge Person",
 			"",
 			"{SOURCE PRPG Core Rulebook/278}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 4, bloodrager 4, magus 4, psychic 4, redmantisassassin 4, sorcerer 4, summoner 3, unchained summoner 4, wizard 4  ",
@@ -957,7 +957,7 @@
 		]
 	},
 	"enlarge_person_mass": {
-		"name": "Enlarge Person, Mass",
+		"name": "Mass Enlarge Person",
 		"copyof": "enlarge_person"
 	},
 	"mass_enlarge_person": { "copyof": "enlarge_person_mass" },
@@ -1167,12 +1167,12 @@
 		]
 	},
 	"entice_fey_lesser": {
-		"name": "Entice Fey, Lesser",
+		"name": "Lesser Entice Fey",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{jumplist Entice Fey / Entice Fey, Greater}",
 			"",
-			"## Entice Fey, Lesser",
+			"## Lesser Entice Fey",
 			"",
 			"{SOURCE Ultimate Intrigue/213}  ",
 			"**School** {spelldef/conjuration} ({spelldef/calling}); **Level** bard 4, druid 5, hunter 4, medium 3, ranger 4, shaman 5, skald 4  ",
@@ -1198,7 +1198,7 @@
 			"",
 			"This spell functions as lesser entice fey, except that the spell's whimsical calling can produce a single fey of 12 Hit Dice or less, or two fey of the same kind whose Hit Dice total no more than 12.",
 			"",
-			"### Entice Fey, Greater",
+			"### Greater Entice Fey",
 			"",
 			"{SOURCE Ultimate Intrigue/213}  ",
 			"**School** {spelldef/conjuration} ({spelldef/calling}); **Level** druid 9, shaman 9  ",
@@ -1218,7 +1218,7 @@
 		"copyof": "lesser_entice_fey"
 	},
 	"entice_fey_greater": {
-		"name": "Entice Fey, Greater",
+		"name": "Greater Entice Fey",
 		"copyof": "lesser_entice_fey"
 	},
 	"greater_entice_fey": { "copyof": "entice_fey_greater" },
@@ -1656,12 +1656,12 @@
 		]
 	},
 	"evolution_surge_lesser": {
-		"name": "Evolution Surge, Lesser",
+		"name": "Lesser Evolution Surge",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"{jumplist Evolution Surge / Evolution Surge, Greater}",
 			"",
-			"## Evolution Surge, Lesser",
+			"## Lesser Evolution Surge",
 			"",
 			"{SOURCE Advanced Player's Guide/220}  ",
 			"**School** {spelldef/transmutation}; **Level** summoner 2, unchained summoner 2  ",
@@ -1687,7 +1687,7 @@
 			"",
 			"This spell functions as lesser evolution surge, except that you can grant any evolution whose total cost does not exceed 4 evolution points.",
 			"",
-			"### Evolution Surge, Greater",
+			"### Greater Evolution Surge",
 			"",
 			"{SOURCE Advanced Player's Guide/220}  ",
 			"**School** {spelldef/transmutation}; **Level** summoner 4, unchained summoner 4  ",
@@ -1707,7 +1707,7 @@
 		"copyof": "lesser_evolution_surge"
 	},
 	"evolution_surge_greater": {
-		"name": "Evolution Surge, Greater",
+		"name": "Greater Evolution Surge",
 		"copyof": "lesser_evolution_surge"
 	},
 	"greater_evolution_surge": { "copyof": "evolution_surge_greater" },
@@ -2337,7 +2337,7 @@
 			"",
 			"The temporary hit points gained increase to 2d8 + 2 per caster level (maximum +20). As an immediate action, you can dismiss the remaining duration of the spell to prevent 1 point of Strength, Dexterity, or Constitution damage per 10 temporary hit points remaining from the spell. This takes effect after the attack hits you and the damage is rolled, but before you take the damage. For example, if you have 22 temporary hit points from mythic false life and a wyvern stings you for 3 points of Constitution damage, you can dismiss the spell to prevent 2 points of Constitution damage from that attack.",
 			"",
-			"### False Life, Greater",
+			"### Greater False Life",
 			"",
 			"{SOURCE Ultimate Magic/219}  ",
 			"**School** {spelldef/necromancy}; **Level** alchemist 4, arcanist 4, bloodrager 4, investigator 4, medium 3, mesmerist 3, occultist 4, psychic 4, shaman 4, sorcerer 4, spiritualist 4, witch 4, wizard 4  ",
@@ -2351,7 +2351,7 @@
 		]
 	},
 	"false_life_greater": {
-		"name": "False Life, Greater",
+		"name": "Greater False Life",
 		"copyof": "false_life"
 	},
 	"greater_false_life": { "copyof": "false_life_greater" },
@@ -2375,7 +2375,7 @@
 			"",
 			"This spell creates a subtle illusion, causing any divination (scrying) spell used to view anything within the area of this spell to instead receive a false image (as the {spell/major image} spell), as defined by you at the time of casting. As long as the duration lasts, you can concentrate to change the image as desired. While you aren't concentrating, the image remains static.",
 			"",
-			"### False Vision, Greater",
+			"### Greater False Vision",
 			"",
 			"{SOURCE Ultimate Intrigue/214}  ",
 			"**School** {spelldef/illusion} ({spelldef/glamer}); **Level** arcanist 7, bard 6, mesmerist 6, psychic 7, skald 6, sorcerer 7, wizard 7  ",
@@ -2394,7 +2394,7 @@
 		]
 	},
 	"false_vision_greater": {
-		"name": "False Vision, Greater",
+		"name": "Greater False Vision",
 		"copyof": "false_vision"
 	},
 	"greater_false_vision": { "copyof": "false_vision_greater" },
@@ -2618,7 +2618,7 @@
 			"",
 			"For the duration of this spell, the subject ignores the adverse movement effects of difficult terrain, and can even take 5-foot steps in difficult terrain.",
 			"",
-			"### Feather Step, Mass",
+			"### Mass Feather Step",
 			"",
 			"{SOURCE Advanced Player's Guide/221}  ",
 			"**School** {spelldef/transmutation}; **Level** bard 3, druid 3, hunter 3, psychic 3, ranger 3, skald 3  ",
@@ -2633,7 +2633,7 @@
 		]
 	},
 	"feather_step_mass": {
-		"name": "Feather Step, Mass",
+		"name": "Mass Feather Step",
 		"copyof": "feather_step"
 	},
 	"mass_feather_step": { "copyof": "feather_step_mass" },
@@ -2690,7 +2690,7 @@
 			"",
 			"Necrotic energy permeates the target, blocking healing abilities. The subject gains spell resistance equal to 12 + your caster level against effects that restore hit points or grant temporary hit points. In addition, any healing provided by effects that ignore spell resistance (such as fast healing, regeneration, and some spells) are halved. If the target succeeds on a Fortitude saving throw, fester lasts only a single round.",
 			"",
-			"### Fester, Mass",
+			"### Mass Fester",
 			"",
 			"{SOURCE Advanced Player's Guide/221}  ",
 			"**School** {spelldef/necromancy}; **Level** inquisitor 6, witch 6  ",
@@ -2705,7 +2705,7 @@
 		]
 	},
 	"fester_mass": {
-		"name": "Fester, Mass",
+		"name": "Mass Fester",
 		"copyof": "fester"
 	},
 	"mass_fester": { "copyof": "fester_mass" },
@@ -3649,7 +3649,7 @@
 			"",
 			"The sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest and burns. It can be extinguished by any means that would put out a normal fire of its size. The surface of the sphere has a spongy, yielding consistency and so does not cause damage except by its flame. It cannot push aside unwilling creatures or batter down large obstacles. A flaming sphere winks out if it exceeds the spell's range.",
 			"",
-			"### Flaming Sphere, Greater",
+			"### Greater Flaming Sphere",
 			"",
 			"{SOURCE Advanced Class Guide/182}  ",
 			"**School** {spelldef/evocation} [{spelldef/fire}]; **Level** arcanist 4, bloodrager 4, druid 4, hunter 4, magus 4, occultist 4, sorcerer 4, wizard 4  ",
@@ -3664,7 +3664,7 @@
 		]
 	},
 	"flaming_sphere_greater": {
-		"name": "Flaming Sphere, Greater",
+		"name": "Greater Flaming Sphere",
 		"copyof": "flaming_sphere"
 	},
 	"greater_flaming_sphere": { "copyof": "flaming_sphere_greater" },
@@ -3819,7 +3819,7 @@
 			"",
 			"Whether or not the target's save is successful, the target forgets that you cast a spell.",
 			"",
-			"### Fleeting Memory, Mass",
+			"### Mass Fleeting Memory",
 			"",
 			"{SOURCE Black Markets/25}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** arcanist 8, bard 6, skald 6, sorcerer 8, wizard 8  ",
@@ -3834,7 +3834,7 @@
 		]
 	},
 	"fleeting_memory_mass": {
-		"name": "Fleeting Memory, Mass",
+		"name": "Mass Fleeting Memory",
 		"copyof": "fleeting_memory"
 	},
 	"mass_fleeting_memory": { "copyof": "fleeting_memory_mass" },
@@ -4223,7 +4223,7 @@
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the target adds your tier on Reflex saves and as a dodge bonus to AC. It gains these bonuses only while flying.",
 			"",
-			"### Fly, Mass",
+			"### Mass Fly",
 			"",
 			"{SOURCE Advanced Player's Guide/223}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 7, psychic 7, sorcerer 7, wizard 7  ",
@@ -4238,7 +4238,7 @@
 		]
 	},
 	"fly_mass": {
-		"name": "Fly, Mass",
+		"name": "Mass Fly",
 		"copyof": "fly"
 	},
 	"mass_fly": { "copyof": "fly_mass" },

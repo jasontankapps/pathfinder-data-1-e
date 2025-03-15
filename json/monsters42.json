@@ -1,6 +1,6 @@
 {
 	"dragon_outer_lunar_adult_lunar_dragon": {
-		"name": "Dragon (Outer, Lunar), Adult Lunar Dragon",
+		"name": "Adult Lunar Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Adult Lunar Dragon]{cr=\"13\"}",
@@ -56,7 +56,7 @@
 	},
 	"adult_lunar_dragon": { "copyof": "dragon_outer_lunar_adult_lunar_dragon" },
 	"dragon_outer_lunar_ancient_lunar_dragon": {
-		"name": "Dragon (Outer, Lunar), Ancient Lunar Dragon",
+		"name": "Ancient Lunar Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Ancient Lunar Dragon]{cr=\"18\"}",
@@ -117,7 +117,7 @@
 	},
 	"ancient_lunar_dragon": { "copyof": "dragon_outer_lunar_ancient_lunar_dragon" },
 	"dragon_outer_lunar_young_lunar_dragon": {
-		"name": "Dragon (Outer, Lunar), Young Lunar Dragon",
+		"name": "Young Lunar Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*A shimmering halo surrounds this regal dragon's spine-crowned head, and its vast wings ripple like milky gossamer lit by the moon.*",
@@ -172,7 +172,7 @@
 	},
 	"young_lunar_dragon": { "copyof": "dragon_outer_lunar_young_lunar_dragon" },
 	"dragon_outer_solar_adult_solar_dragon": {
-		"name": "Dragon (Outer, Solar), Adult Solar Dragon",
+		"name": "Adult Solar Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Adult Solar Dragon]{cr=\"13\"}",
@@ -228,7 +228,7 @@
 	},
 	"adult_solar_dragon": { "copyof": "dragon_outer_solar_adult_solar_dragon" },
 	"dragon_outer_solar_ancient_solar_dragon": {
-		"name": "Dragon (Outer, Solar), Ancient Solar Dragon",
+		"name": "Ancient Solar Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Ancient Solar Dragon]{cr=\"18\"}",
@@ -288,7 +288,7 @@
 	},
 	"ancient_solar_dragon": { "copyof": "dragon_outer_solar_ancient_solar_dragon" },
 	"dragon_outer_solar_young_solar_dragon": {
-		"name": "Dragon (Outer, Solar), Young Solar Dragon",
+		"name": "Young Solar Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This regal dragon glows like the sun. Its burnished wings shimmer the color of flames, and a crown of horns decorates its head.*",
@@ -343,7 +343,7 @@
 	},
 	"young_solar_dragon": { "copyof": "dragon_outer_solar_young_solar_dragon" },
 	"dragon_outer_time_adult_time_dragon": {
-		"name": "Dragon (Outer, Time), Adult Time Dragon",
+		"name": "Adult Time Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Adult Time Dragon]{cr=\"15\"}",
@@ -400,7 +400,7 @@
 	},
 	"adult_time_dragon": { "copyof": "dragon_outer_time_adult_time_dragon" },
 	"dragon_outer_time_ancient_time_dragon": {
-		"name": "Dragon (Outer, Time), Ancient Time Dragon",
+		"name": "Ancient Time Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Ancient Time Dragon]{cr=\"20\"}",
@@ -461,7 +461,7 @@
 	},
 	"ancient_time_dragon": { "copyof": "dragon_outer_time_ancient_time_dragon" },
 	"dragon_outer_time_young_time_dragon": {
-		"name": "Dragon (Outer, Time), Young Time Dragon",
+		"name": "Young Time Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This dragon's cracked scales creak with frightening, patient power. Some of its horns are ancient and brittle, others new and pristine.*",
@@ -517,7 +517,7 @@
 	},
 	"young_time_dragon": { "copyof": "dragon_outer_time_young_time_dragon" },
 	"dragon_outer_void_adult_void_dragon": {
-		"name": "Dragon (Outer, Void), Adult Void Dragon",
+		"name": "Adult Void Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Adult Void Dragon]{cr=\"13\"}",
@@ -573,7 +573,7 @@
 	},
 	"adult_void_dragon": { "copyof": "dragon_outer_void_adult_void_dragon" },
 	"dragon_outer_void_ancient_void_dragon": {
-		"name": "Dragon (Outer, Void), Ancient Void Dragon",
+		"name": "Ancient Void Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Ancient Void Dragon]{cr=\"18\"}",
@@ -634,7 +634,7 @@
 	},
 	"ancient_void_dragon": { "copyof": "dragon_outer_void_ancient_void_dragon" },
 	"dragon_outer_void_young_void_dragon": {
-		"name": "Dragon (Outer, Void), Young Void Dragon",
+		"name": "Young Void Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This dragon's ebony scales and horns are flecked with a substance that glows an eerie green. The folds of its wings reflect a starry sky.*",
@@ -689,7 +689,7 @@
 	},
 	"young_void_dragon": { "copyof": "dragon_outer_void_young_void_dragon" },
 	"dragon_outer_vortex_adult_vortex_dragon": {
-		"name": "Dragon (Outer, Vortex), Adult Vortex Dragon",
+		"name": "Adult Vortex Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Adult Vortex Dragon]{cr=\"14\"}",
@@ -746,7 +746,7 @@
 	},
 	"adult_vortex_dragon": { "copyof": "dragon_outer_vortex_adult_vortex_dragon" },
 	"dragon_outer_vortex_ancient_vortex_dragon": {
-		"name": "Dragon (Outer, Vortex), Ancient Vortex Dragon",
+		"name": "Ancient Vortex Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Ancient Vortex Dragon]{cr=\"19\"}",
@@ -807,7 +807,7 @@
 	},
 	"ancient_vortex_dragon": { "copyof": "dragon_outer_vortex_ancient_vortex_dragon" },
 	"dragon_outer_vortex_young_vortex_dragon": {
-		"name": "Dragon (Outer, Vortex), Young Vortex Dragon",
+		"name": "Young Vortex Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This dragon twists and whips with near untraceable speed. Its horns, crests along its neck, and wings emit a glow like starlight.*",
@@ -862,7 +862,7 @@
 		]
 	},
 	"dragon_other_faerie_dragon": {
-		"name": "Dragon (Other), Faerie Dragon",
+		"name": "Faerie Dragon",
 		"sources": [
 			"Bestiary 3",
 			"Bonus Bestiary"
@@ -929,7 +929,7 @@
 	},
 	"faerie_dragon": { "copyof": "dragon_other_faerie_dragon" },
 	"dragon_other_prism_dragon": {
-		"name": "Dragon (Other), Prism Dragon",
+		"name": "Prism Dragon",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*The facets of this crystalline dragon's body reflect fascinating and sparkling patterns.*",
@@ -1006,7 +1006,7 @@
 	},
 	"prism_dragon": { "copyof": "dragon_other_prism_dragon" },
 	"dragon_other_spine_dragon": {
-		"name": "Dragon (Other), Spine Dragon",
+		"name": "Spine Dragon",
 		"sources": [ "Inner Sea World Guide" ],
 		"description": [
 			"*This dragon bears a forest of razor-sharp crystalline spines. Its wings are transparent and seem almost to be made of glass.*",
@@ -1069,7 +1069,7 @@
 	},
 	"spine_dragon": { "copyof": "dragon_other_spine_dragon" },
 	"dragon_other_tidepool_dragon": {
-		"name": "Dragon (Other), Tidepool Dragon",
+		"name": "Tidepool Dragon",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
 			"*This small draconic creature seems better suited for the waves than wind, its wings sweeping along its body like massive fins. Light from the water refracts off its resilient-looking cerulean hide as it snaps crustacean-like claws.*",
@@ -1326,7 +1326,7 @@
 		]
 	},
 	"elephant_mastodon": {
-		"name": "Elephant, Mastodon",
+		"name": "Mastodon (Elephant)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This creature is larger than a normal elephant, with enormous sweeping tusks and shaggy brown fur on its body.*",
@@ -1976,7 +1976,7 @@
 		]
 	},
 	"estuarine_worm_estuarine_worm_ahket_form": {
-		"name": "Estuarine Worm, Estuarine Worm (Ahket Form)",
+		"name": "Estuarine Worm (Ahket Form)",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"description": [
 			"*As thick and tall as a towering palm tree, this mud-colored worm hisses through a fanged mouth. Atop its head, a small protuberance shines like a star.*",
@@ -2047,7 +2047,7 @@
 	},
 	"estuarine_worm_ahket_form": { "copyof": "estuarine_worm_estuarine_worm_ahket_form" },
 	"estuarine_worm_estuarine_worm_shemu_form": {
-		"name": "Estuarine Worm, Estuarine Worm (Shemu Form)",
+		"name": "Estuarine Worm (Shemu Form)",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"description": [
 			"::mh[Estuarine Worm (Shemu Form)]{cr=\"10\"}",
@@ -2447,7 +2447,7 @@
 		]
 	},
 	"eurypterid_bluetip_eurypterid": {
-		"name": "Eurypterid, Bluetip Eurypterid",
+		"name": "Bluetip Eurypterid",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
 			"::mh[Bluetip Eurypterid]{cr=\"5\"}",
@@ -2501,7 +2501,7 @@
 	"eurypterid_bluetip": { "copyof": "eurypterid_bluetip_eurypterid" },
 	"bluetip_eurypterid": { "copyof": "eurypterid_bluetip_eurypterid" },
 	"eurypterid_common_eurypterid": {
-		"name": "Eurypterid, Common Eurypterid",
+		"name": "Common Eurypterid",
 		"sources": [
 			"Pathfinder #37: Souls for Smuggler's Shiv",
 			"Bestiary 6"
@@ -2558,7 +2558,7 @@
 	"common_eurypterid": { "copyof": "eurypterid_common_eurypterid" },
 	"eurypterid": { "copyof": "eurypterid_common_eurypterid" },
 	"eurypterid_ochre_eurypterid": {
-		"name": "Eurypterid, Ochre Eurypterid",
+		"name": "Ochre Eurypterid",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
 			"*Two large pincers grasp at the air before this sleek creature, while a finned tail bristling with a long, thin stinger rises from behind.*",
@@ -2613,7 +2613,7 @@
 	"eurypterid_ochre": { "copyof": "eurypterid_ochre_eurypterid" },
 	"ochre_eurypterid": { "copyof": "eurypterid_ochre_eurypterid" },
 	"eurypterid_spiny_eurypterid": {
-		"name": "Eurypterid, Spiny Eurypterid",
+		"name": "Spiny Eurypterid",
 		"sources": [
 			"Pathfinder #37: Souls for Smuggler's Shiv",
 			"Bestiary 6"
@@ -2672,7 +2672,7 @@
 	"eurypterid_spiny": { "copyof": "eurypterid_spiny_eurypterid" },
 	"spiny_eurypterid": { "copyof": "eurypterid_spiny_eurypterid" },
 	"eurypterid_spitting_eurypterid": {
-		"name": "Eurypterid, Spitting Eurypterid",
+		"name": "Spitting Eurypterid",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
 			"::mh[Spitting Eurypterid]{cr=\"12\"}",

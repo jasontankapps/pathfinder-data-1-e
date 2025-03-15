@@ -593,16 +593,16 @@
 		]
 	},
 	"bag_of_holding_minor": {
-		"name": "Bag of Holding, Minor",
+		"name": "Minor Bag of Holding",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
-			"## Bag of Holding, Minor",
+			"## Minor Bag of Holding",
 			"",
 			"{SOURCE Classic Treasures Revisited/8}  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** 3 lbs.",
 			"",
-			"This more economical version of the bag of holding functions in the same manner, but its internal measurements are smaller than those of a regular bag of holding. It measures 2 feet by 4 feet and can carry up to 50 pounds or 6 cubic feet of material.",
+			"This more economical version of the {magic-wondrous/bag of holding} functions in the same manner, but its internal measurements are smaller than those of a regular bag of holding. It measures 2 feet by 4 feet and can carry up to 50 pounds or 6 cubic feet of material.",
 			"",
 			"### Construction",
 			"",
@@ -3178,16 +3178,16 @@
 		]
 	},
 	"assassins_sight_greater": {
-		"name": "Assassin's Sight, Greater",
+		"name": "Greater Assassin's Sight",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
-			"## Assassin's Sight, Greater",
+			"## Greater Assassin's Sight",
 			"",
 			"{SOURCE Ranged Tactics Toolbox/28}  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 12,250 gp; **Weight** 2 lbs.",
 			"",
-			"A greater assassin's sight is similar to the standard assassin's sight, but it has a noticeably sleeker design and provides its wielder greater range. It has three settings: 0-30 feet, 30-60 feet, and 60-90 feet. In addition, setting the range on a greater assassin's sight is a standard action (though it still provokes attacks of opportunity). Finally, a greater assassin's sight grants a +4 competence bonus on attack rolls to confirm critical hits within the set range",
+			"A greater assassin's sight is similar to the standard {magic-wondrous/assassin's sight}, but it has a noticeably sleeker design and provides its wielder greater range. It has three settings: 0-30 feet, 30-60 feet, and 60-90 feet. In addition, setting the range on a greater assassin's sight is a standard action (though it still provokes attacks of opportunity). Finally, a greater assassin's sight grants a +4 competence bonus on attack rolls to confirm critical hits within the set range",
 			"",
 			"### Construction",
 			"",

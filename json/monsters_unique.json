@@ -344,7 +344,7 @@
 		]
 	},
 	"archdevil_baalzebul": {
-		"name": "Archdevil, Baalzebul",
+		"name": "Baalzebul (Archdevil)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This swarm of droning black flies teems in the semblance of a winged angel with glowing red eyes.*",
@@ -426,7 +426,7 @@
 	},
 	"baalzebul": { "copyof": "archdevil_baalzebul" },
 	"archdevil_barbatos": {
-		"name": "Archdevil, Barbatos",
+		"name": "Barbatos (Archdevil)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This humanoid wears a shabby hooded cloak. Within the darkness of its hood, eerie eyes glow and strange shapes twitch.*",
@@ -503,7 +503,7 @@
 	},
 	"barbatos": { "copyof": "archdevil_barbatos" },
 	"archdevil_belial": {
-		"name": "Archdevil, Belial",
+		"name": "Belial (Archdevil)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*One half of this figure's body is gleaming and beautiful with an angelic wing, while the other is scaled, scarred, and blackened.*",
@@ -586,7 +586,7 @@
 	},
 	"belial": { "copyof": "archdevil_belial" },
 	"archdevil_dispater": {
-		"name": "Archdevil, Dispater",
+		"name": "Dispater (Archdevil)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This diabolic figure is draped in a kingly robe and crowned with iron horns. He bears a long, heavy mace of black metal.*",
@@ -662,7 +662,7 @@
 	},
 	"dispater": { "copyof": "archdevil_dispater" },
 	"archdevil_geryon": {
-		"name": "Archdevil, Geryon",
+		"name": "Geryon (Archdevil)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This tripartite being has three humanoid bodies engulfed from the waist down by a tangle of three immense serpents.*",
@@ -744,7 +744,7 @@
 	},
 	"geryon": { "copyof": "archdevil_geryon" },
 	"archdevil_mammon": {
-		"name": "Archdevil, Mammon",
+		"name": "Mammon (Archdevil)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This shining being is humanoid, but its four arms, multiple legs, and horned head reveal its diabolic nature.*",
@@ -820,7 +820,7 @@
 	},
 	"mammon": { "copyof": "archdevil_mammon" },
 	"archdevil_mephistopheles": {
-		"name": "Archdevil, Mephistopheles",
+		"name": "Mephistopheles (Archdevil)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This red-skinned devil has three sets of curving horns atop his brow and three mismatched pairs of wings.*",
@@ -896,7 +896,7 @@
 	},
 	"mephistopheles": { "copyof": "archdevil_mephistopheles" },
 	"archdevil_moloch": {
-		"name": "Archdevil, Moloch",
+		"name": "Moloch (Archdevil)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This immense figure appears to be a suit of blackened, diabolic armor filled with shrieking blasts of blistering fire.*",
@@ -1157,7 +1157,7 @@
 		]
 	},
 	"baba_yagas_rider_black_rider": {
-		"name": "Baba Yaga's Rider, Black Rider",
+		"name": "Black Rider (Baba Yaga's Rider)",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
 			"*A man with curling ram's horns sits astride a snorting, stamping black warhorse, gripping a dark, battle-worn spear.*",
@@ -1221,7 +1221,7 @@
 	},
 	"black_rider": { "copyof": "baba_yagas_rider_black_rider" },
 	"baba_yagas_rider_red_rider": {
-		"name": "Baba Yaga's Rider, Red Rider",
+		"name": "Red Rider (Baba Yaga's Rider)",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
 			"*A man with fiery red hair and antlers rides a red-gold stallion. His robes expose the hairy legs of a goat, ending in cloven hooves.*",
@@ -1284,7 +1284,7 @@
 	},
 	"red_rider": { "copyof": "baba_yagas_rider_red_rider" },
 	"baba_yagas_rider_white_rider": {
-		"name": "Baba Yaga's Rider, White Rider",
+		"name": "White Rider (Baba Yaga's Rider)",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
 			"*A tall, handsome woman sits astride a white horse. She grips an elegant longbow made of raw birch.*",
@@ -1738,7 +1738,7 @@
 		]
 	},
 	"daemonic_harbinger_braismois": {
-		"name": "Daemonic Harbinger, Braismois",
+		"name": "Braismois (Daemonic Harbinger)",
 		"sources": [ "Druma, Profit and Prophecy" ],
 		"description": [
 			"*This humanoid fiend has an overly long torso, black eyes, and a mouth full of razor-sharp teeth. It wears black robes that cover most of its rotting, frostbitten flesh.*",
@@ -1874,7 +1874,7 @@
 		]
 	},
 	"demon_lord_baphomet": {
-		"name": "Demon Lord, Baphomet",
+		"name": "Baphomet (Demon Lord)",
 		"sources": [
 			"Pathfinder #77: Herald of the Ivory Labyrinth",
 			"Bestiary 4"
@@ -1959,7 +1959,7 @@
 	},
 	"baphomet": { "copyof": "demon_lord_baphomet" },
 	"demon_lord_dagon": {
-		"name": "Demon Lord, Dagon",
+		"name": "Dagon (Demon Lord)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This demon's body is a nightmare of writhing tentacles and slippery coils below the leering maw of a deep sea predator.*",
@@ -2037,7 +2037,7 @@
 	},
 	"dagon": { "copyof": "demon_lord_dagon" },
 	"demon_lord_deskari": {
-		"name": "Demon Lord, Deskari",
+		"name": "Deskari (Demon Lord)",
 		"sources": [
 			"Pathfinder #78: City of Locusts",
 			"Bestiary 4"
@@ -2122,7 +2122,7 @@
 	},
 	"deskari": { "copyof": "demon_lord_deskari" },
 	"demon_lord_kostchtchie": {
-		"name": "Demon Lord, Kostchtchie",
+		"name": "Kostchtchie (Demon Lord)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This towering giant with twisted legs has human skulls woven into his beard and holds an immense warhammer.*",
@@ -2206,7 +2206,7 @@
 	},
 	"kostchtchie": { "copyof": "demon_lord_kostchtchie" },
 	"demon_lord_nocticula": {
-		"name": "Demon Lord, Nocticula",
+		"name": "Nocticula (Demon Lord)",
 		"sources": [
 			"Pathfinder #76: The Midnight Isles",
 			"Bestiary 4"
@@ -2291,7 +2291,7 @@
 	},
 	"nocticula": { "copyof": "demon_lord_nocticula" },
 	"demon_lord_pazuzu": {
-		"name": "Demon Lord, Pazuzu",
+		"name": "Pazuzu (Demon Lord)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Held aloft by four great feathered wings, this hawk-faced fiend has a scorpion's tail and carries a black metal scepter.*",
@@ -2373,7 +2373,7 @@
 	},
 	"pazuzu": { "copyof": "demon_lord_pazuzu" },
 	"demon_lord_shax": {
-		"name": "Demon Lord, Shax",
+		"name": "Shax (Demon Lord)",
 		"sources": [
 			"Pathfinder #74: Sword of Valor",
 			"Bestiary 4"
@@ -2459,7 +2459,7 @@
 	},
 	"shax": { "copyof": "demon_lord_shax" },
 	"demon_lord_sifkesh": {
-		"name": "Demon Lord, Sifkesh",
+		"name": "Sifkesh (Demon Lord)",
 		"sources": [
 			"Pathfinder #75: Demon's Heresy",
 			"Bestiary 4"
@@ -2544,7 +2544,7 @@
 	},
 	"sifkesh": { "copyof": "demon_lord_sifkesh" },
 	"demon_lord_xoveron": {
-		"name": "Demon Lord, Xoveron",
+		"name": "Xoveron (Demon Lord)",
 		"sources": [
 			"Pathfinder #73: The Worldwound Incursion",
 			"Bestiary 4"

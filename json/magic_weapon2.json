@@ -3283,16 +3283,16 @@
 		]
 	},
 	"murderers_machete_greater": {
-		"name": "Murderer's Machete, Greater",
+		"name": "Greater Murderer's Machete",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Murderer's Machete, Greater",
+			"## Greater Murderer's Machete",
 			"",
 			"{SOURCE Horror Adventures/215}  ",
 			"**Aura** strong conjuration [evil]; **CL** 13th  ",
 			"**Slot** none; **Price** 78,310 gp; **Weight** 3 lbs.",
 			"",
-			"This item functions like a murderer's machete, but is a +2 {magic-enh/keen} {magic-enh/wounding} {eq-weapon/short sword}.",
+			"This item functions like a {magic-weapon/murderer's machete}, but is a +2 {magic-enh/keen} {magic-enh/wounding} {eq-weapon/short sword}.",
 			"",
 			"### Construction",
 			"",

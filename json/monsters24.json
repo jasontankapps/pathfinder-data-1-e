@@ -275,7 +275,7 @@
 		]
 	},
 	"swan_trumpeter_swan": {
-		"name": "Swan, Trumpeter Swan",
+		"name": "Trumpeter Swan",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This large waterfowl has a wide wingspan, all-white feathers, a black bill, and a long, curving neck.*",
@@ -551,7 +551,7 @@
 		]
 	},
 	"troop_barrier_breaker_troop": {
-		"name": "Troop, Barrier Breaker Troop",
+		"name": "Barrier Breaker Troop",
 		"sources": [
 			"Pathfinder #141: Last Watch",
 			"Bestiary 6"
@@ -616,7 +616,7 @@
 	"barrier_breaker_troop": { "copyof": "troop_barrier_breaker_troop" },
 	"troop_barrier_breaker": { "copyof": "troop_barrier_breaker_troop" },
 	"troop_cultist_troop": {
-		"name": "Troop, Cultist Troop",
+		"name": "Cultist Troop",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*A band of violet-skinned elves raises their hands high as vile magic swirls in the air above them.*",
@@ -681,7 +681,7 @@
 	"cultist_troop": { "copyof": "troop_cultist_troop" },
 	"troop_cultist": { "copyof": "troop_cultist_troop" },
 	"troop_goblin_troop": {
-		"name": "Troop, Goblin Troop",
+		"name": "Goblin Troop",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*The pint-sized humanoids who make up this chattering, shrieking mob hold jagged swords and bare jagged teeth.*",
@@ -735,7 +735,7 @@
 	"goblin_troop": { "copyof": "troop_goblin_troop" },
 	"troop_goblin": { "copyof": "troop_goblin_troop" },
 	"troop_outlaw_troop": {
-		"name": "Troop, Outlaw Troop",
+		"name": "Outlaw Troop",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*Over two dozen men and women clad in chain shirts and leather armor brandish their knives and swords menacingly.*",
@@ -789,7 +789,7 @@
 	"outlaw_troop": { "copyof": "troop_outlaw_troop" },
 	"troop_outlaw": { "copyof": "troop_outlaw_troop" },
 	"troop_sodden_drauger_troop": {
-		"name": "Troop, Sodden Drauger Troop",
+		"name": "Sodden Drauger Troop",
 		"sources": [
 			"Pathfinder #141: Last Watch",
 			"Bestiary 6"
@@ -856,7 +856,7 @@
 	"sodden_drauger_troop": { "copyof": "troop_sodden_drauger_troop" },
 	"troop_sodden_drauger": { "copyof": "troop_sodden_drauger_troop" },
 	"troops_dottari_troop": {
-		"name": "Troops, Dottari Troop",
+		"name": "Dottari Troop",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
 		"description": [
 			"*A column of soldiers clad in the black and red of House Thrune move together, their weapons at the ready in a coordinated front.*",
@@ -907,7 +907,7 @@
 	"dottari_troop": { "copyof": "troops_dottari_troop" },
 	"troop_dottari": { "copyof": "troops_dottari_troop" },
 	"troops_glorious_reclamation": {
-		"name": "Troops, Glorious Reclamation",
+		"name": "Glorious Reclamation (Troops)",
 		"sources": [
 			"Pathfinder #108: Hell Comes to Westcrown",
 			"Pathfinder #100: A Song of Silver"
@@ -995,7 +995,7 @@
 	},
 	"glorious_reclamation": { "copyof": "troops_glorious_reclamation" },
 	"troops_hobgoblin_phalanx_troop": {
-		"name": "Troops, Hobgoblin Phalanx Troop",
+		"name": "Hobgoblin Phalanx Troop",
 		"sources": [
 			"Pathfinder #117: Assault on Longshadow",
 			"Pathfinder #100: A Song of Silver"
@@ -1054,7 +1054,7 @@
 	"hobgoblin_phalanx_troop": { "copyof": "troops_hobgoblin_phalanx_troop" },
 	"troop_hobgoblin_phalanx": { "copyof": "troops_hobgoblin_phalanx_troop" },
 	"troops_hound_archon_troop": {
-		"name": "Troops, Hound Archon Troop",
+		"name": "Hound Archon Troop",
 		"sources": [
 			"Pathfinder #108: Hell Comes to Westcrown",
 			"Pathfinder #100: A Song of Silver"
@@ -1110,7 +1110,7 @@
 	"hound_archon_troop": { "copyof": "troops_hound_archon_troop" },
 	"troop_hound_archon": { "copyof": "troops_hound_archon_troop" },
 	"troops_inquisitor_troop": {
-		"name": "Troops, Inquisitor Troop",
+		"name": "Inquisitor Troop",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
 		"description": [
 			"*A column of soldiers clad in the black and red of House Thrune move together, their weapons at the ready in a coordinated front.*",
@@ -1164,7 +1164,7 @@
 	"inquisitor_troop": { "copyof": "troops_inquisitor_troop" },
 	"troop_inquisitor": { "copyof": "troops_inquisitor_troop" },
 	"troops_ironfang_magehunter_troop": {
-		"name": "Troops, Ironfang Magehunter Troop",
+		"name": "Ironfang Magehunter Troop",
 		"sources": [
 			"Pathfinder #120: Vault of the Onyx Citadel",
 			"Pathfinder #100: A Song of Silver"
@@ -1227,7 +1227,7 @@
 	"ironfang_magehunter_troop": { "copyof": "troops_ironfang_magehunter_troop" },
 	"troop_ironfang_magehunter": { "copyof": "troops_ironfang_magehunter_troop" },
 	"troops_ironfang_siege_alchemist_troop": {
-		"name": "Troops, Ironfang Siege Alchemist Troop",
+		"name": "Ironfang Siege Alchemist Troop",
 		"sources": [
 			"Pathfinder #120: Vault of the Onyx Citadel",
 			"Pathfinder #100: A Song of Silver"
@@ -1289,7 +1289,7 @@
 	"ironfang_siege_alchemist_troop": { "copyof": "troops_ironfang_siege_alchemist_troop" },
 	"troop_ironfang_siege_alchemist": { "copyof": "troops_ironfang_siege_alchemist_troop" },
 	"troops_ironfang_yzobu_rider_troop": {
-		"name": "Troops, Ironfang Yzobu Rider Troop",
+		"name": "Ironfang Yzobu Rider Troop",
 		"sources": [
 			"Pathfinder #120: Vault of the Onyx Citadel",
 			"Pathfinder #100: A Song of Silver"
@@ -1353,7 +1353,7 @@
 	"ironfang_yzobu_rider_troop": { "copyof": "troops_ironfang_yzobu_rider_troop" },
 	"troop_ironfang_yzobu_rider": { "copyof": "troops_ironfang_yzobu_rider_troop" },
 	"troops_morlock_swarmer_troop": {
-		"name": "Troops, Morlock Swarmer Troop",
+		"name": "Morlock Swarmer Troop",
 		"sources": [
 			"Pathfinder #117: Assault on Longshadow",
 			"Pathfinder #100: A Song of Silver"
@@ -1414,7 +1414,7 @@
 	"morlock_swarmer_troop": { "copyof": "troops_morlock_swarmer_troop" },
 	"troop_morlock_swarmer": { "copyof": "troops_morlock_swarmer_troop" },
 	"troops_warmaze_disciples_troop": {
-		"name": "Troops, Warmaze Disciples Troop",
+		"name": "Warmaze Disciples Troop",
 		"sources": [
 			"Pathfinder #117: Assault on Longshadow",
 			"Pathfinder #100: A Song of Silver"
@@ -1878,7 +1878,7 @@
 		]
 	},
 	"turtle_giant_snapping_turtle": {
-		"name": "Turtle, Giant Snapping Turtle",
+		"name": "Giant Snapping Turtle",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This lumbering turtle is the size of a house; its head features powerful, razor-sharp beak.*",
@@ -1929,7 +1929,7 @@
 	"turtle_giant_snapping": { "copyof": "turtle_giant_snapping_turtle" },
 	"giant_snapping_turtle": { "copyof": "turtle_giant_snapping_turtle" },
 	"turtle_snapping_turtle": {
-		"name": "Turtle, Snapping Turtle",
+		"name": "Snapping Turtle",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A thick shell encases this reptile's body, from which only its tail, its feet, and a head fitted with powerful jaws emerge.*",
@@ -2321,7 +2321,7 @@
 		]
 	},
 	"ubashki_ubashki_lynx": {
-		"name": "Ubashki, Ubashki Lynx",
+		"name": "Ubashki Lynx",
 		"sources": [ "Lost Kingdoms" ],
 		"description": [
 			"::mh[Ubashki Lynx]{cr=\"6\"}",
@@ -2374,7 +2374,7 @@
 	},
 	"ubashki_lynx": { "copyof": "ubashki_ubashki_lynx" },
 	"ubashki_ubashki_swarm": {
-		"name": "Ubashki, Ubashki Swarm",
+		"name": "Ubashki Swarm",
 		"sources": [ "Lost Kingdoms" ],
 		"description": [
 			"*No flavor text*",
@@ -2745,7 +2745,7 @@
 		]
 	},
 	"undead_pirate_draugr_captain": {
-		"name": "Undead Pirate, Draugr Captain",
+		"name": "Draugr Captain (Undead Pirate)",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"::mh[Draugr Captain]{cr=\"4\"}",
@@ -2793,7 +2793,7 @@
 	},
 	"draugr_captain": { "copyof": "undead_pirate_draugr_captain" },
 	"undead_pirate_draugr_pirate": {
-		"name": "Undead Pirate, Draugr Pirate",
+		"name": "Draugr Pirate (Undead Pirate)",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"*No flavor text.*",
@@ -2857,7 +2857,7 @@
 	},
 	"draugr_pirate": { "copyof": "undead_pirate_draugr_pirate" },
 	"undead_pirate_ghost_captain": {
-		"name": "Undead Pirate, Ghost Captain",
+		"name": "Ghost Captain (Undead Pirate)",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"::mh[Ghost Captain]{cr=\"7\"}",
@@ -2951,7 +2951,7 @@
 		]
 	},
 	"undigested_undigested_swarm": {
-		"name": "Undigested, Undigested Swarm",
+		"name": "Undigested Swarm",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This brown-and-yellow sludge appears to be made of multiple smaller globules churning in a disgusting communal mass.*",
@@ -3467,7 +3467,7 @@
 		]
 	},
 	"urdefhan_half_fiend_scion": {
-		"name": "Urdefhan, Half-Fiend Scion",
+		"name": "Half-Fiend Scion (Urdefhan)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*The scent of death pours from this disheveled woman. Leather straps dotted with iron buckles bind her lean form.*",
@@ -3524,7 +3524,7 @@
 	},
 	"half_fiend_scion": { "copyof": "urdefhan_half_fiend_scion" },
 	"urdefhan_orvian_necromancer": {
-		"name": "Urdefhan, Orvian Necromancer",
+		"name": "Orvian Necromancer (Urdefhan)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*An elegant leather gown, skull-shaped studs, and a silken veil conceal much of this humanoid's transparent flesh.*",
@@ -3585,7 +3585,7 @@
 	},
 	"orvian_necromancer": { "copyof": "urdefhan_orvian_necromancer" },
 	"urdefhan_sightless_sea_sailor": {
-		"name": "Urdefhan, Sightless Sea Sailor",
+		"name": "Sightless Sea Sailor (Urdefhan)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*The smell of brine mingles with the sickly stench of uncured leather that surrounds this ferocious buccaneer.*",
@@ -3638,7 +3638,7 @@
 	},
 	"sightless_sea_sailor": { "copyof": "urdefhan_sightless_sea_sailor" },
 	"urdefhan_skaveling_rider": {
-		"name": "Urdefhan, Skaveling Rider",
+		"name": "Skaveling Rider (Urdefhan)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Additional straps and hooks concealed beneath this muscular horror's cloak secure it to the saddle of the rotting, flapping undead monstrosity he rides.*",
@@ -3892,7 +3892,7 @@
 		]
 	},
 	"vampire_servant_coffin_guard": {
-		"name": "Vampire Servant, Coffin Guard",
+		"name": "Coffin Guard (Vampire Servant)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Coffin Guard]{cr=\"3\"}",
@@ -3944,7 +3944,7 @@
 	},
 	"coffin_guard": { "copyof": "vampire_servant_coffin_guard" },
 	"vampire_servant_weird_butler": {
-		"name": "Vampire Servant, Weird Butler",
+		"name": "Weird Butler (Vampire Servant)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Weird Butler]{cr=\"4\"}",
@@ -3995,7 +3995,7 @@
 	},
 	"weird_butler": { "copyof": "vampire_servant_weird_butler" },
 	"vampire_enlightened_vampire": {
-		"name": "Vampire, Enlightened Vampire",
+		"name": "Enlightened Vampire",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Enlightened Vampire]{cr=\"12\"}",
@@ -4048,7 +4048,7 @@
 	"enlightened_vampire": { "copyof": "vampire_enlightened_vampire" },
 	"vampire_enlightened": { "copyof": "vampire_enlightened_vampire" },
 	"vampire_vampire_lord": {
-		"name": "Vampire, Vampire Lord",
+		"name": "Vampire Lord",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Vampire Lord]{cr=\"15\"}",
@@ -4106,7 +4106,7 @@
 	},
 	"vampire_lord": { "copyof": "vampire_vampire_lord" },
 	"vampire_vampire_savage": {
-		"name": "Vampire, Vampire Savage",
+		"name": "Vampire Savage",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Vampire Savage]{cr=\"10\"}",
@@ -4166,7 +4166,7 @@
 	},
 	"vampire_savage": { "copyof": "vampire_vampire_savage" },
 	"vampire_vampire_seducer": {
-		"name": "Vampire, Vampire Seducer",
+		"name": "Vampire Seducer",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Vampire Seducer]{cr=\"6\"}",
@@ -4226,7 +4226,7 @@
 	},
 	"vampire_seducer": { "copyof": "vampire_vampire_seducer" },
 	"vampire_vampire_warrior": {
-		"name": "Vampire, Vampire Warrior",
+		"name": "Vampire Warrior",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Vampire Warrior]{cr=\"8\"}",

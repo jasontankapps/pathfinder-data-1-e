@@ -505,7 +505,7 @@
 		]
 	},
 	"lich_demilich": {
-		"name": "Lich, Demilich",
+		"name": "Demilich",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Glittering jewels encrust this leering skull as it floats up into the air on a swirling vortex of dust and shimmering magic.*",
@@ -592,7 +592,7 @@
 	},
 	"demilich": { "copyof": "lich_demilich" },
 	"lich_forsaken_lich": {
-		"name": "Lich, Forsaken Lich",
+		"name": "Forsaken Lich",
 		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
 			"*This horribly withered creature moves in jerks and twitches as if constantly wracked with pain. Waves of shadow undulate through the creature's body, emerging like appendages from just beneath its dry, stretched skin.*",
@@ -762,7 +762,7 @@
 		]
 	},
 	"lion_dire_lion_spotted_lion": {
-		"name": "Lion, Dire Lion (Spotted Lion)",
+		"name": "Dire Lion (Spotted Lion)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This immense spotted lion stands as tall as a man at the shoulder, its fur matted with the blood of its victims.*",
@@ -1282,7 +1282,7 @@
 		]
 	},
 	"living_sandstorm_living_sandstorm_humanoid": {
-		"name": "Living Sandstorm, Living Sandstorm (Humanoid)",
+		"name": "Living Sandstorm (Humanoid)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
 			"*This hulking humanoid figure of packed red sand is no taller than an average human, but it is brawny and exceptionally broad.*",
@@ -1349,7 +1349,7 @@
 	},
 	"living_sandstorm_humanoid": { "copyof": "living_sandstorm_living_sandstorm_humanoid" },
 	"living_sandstorm_living_sandstorm_sandstorm": {
-		"name": "Living Sandstorm, Living Sandstorm (Sandstorm)",
+		"name": "Living Sandstorm (Sandstorm)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
 			"::mh[Living Sandstorm (Sandstorm)]{cr=\"11\"}",
@@ -1550,7 +1550,7 @@
 		]
 	},
 	"lizard_giant_chameleon": {
-		"name": "Lizard, Giant Chameleon",
+		"name": "Giant Chameleon (Lizard)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Nearly invisible in its surroundings, this scaly lizard's eyes dart about independently of each other.*",
@@ -1599,7 +1599,7 @@
 	},
 	"giant_chameleon": { "copyof": "lizard_giant_chameleon" },
 	"lizard_giant_gecko": {
-		"name": "Lizard, Giant Gecko",
+		"name": "Giant Gecko (Lizard)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*With large bulging eyes to spot prey from afar, this oversized, smooth-scaled lizard has splayed, padded feet and a toothy maw.*",
@@ -1644,7 +1644,7 @@
 	},
 	"giant_gecko": { "copyof": "lizard_giant_gecko" },
 	"lizard_giant_frilled_lizard": {
-		"name": "Lizard, Giant Frilled Lizard",
+		"name": "Giant Frilled Lizard",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This bright-eyed lizard is larger than a horse. As it hisses in anger, a brightly colored frill extends around its neck.*",
@@ -1694,7 +1694,7 @@
 	"lizard_giant_frilled": { "copyof": "lizard_giant_frilled_lizard" },
 	"giant_frilled_lizard": { "copyof": "lizard_giant_frilled_lizard" },
 	"lizard_monitor_lizard": {
-		"name": "Lizard, Monitor Lizard",
+		"name": "Monitor Lizard",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This immense lizard moves with a slow but relentless gait. Its feet end in large talons, and ropes of drool hang from its toothy maw.*",
@@ -1797,7 +1797,7 @@
 		]
 	},
 	"lizardfolk_lizard_scion": {
-		"name": "Lizardfolk, Lizard Scion",
+		"name": "Lizard Scion (Lizardfolk)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This muscular lizardfolk towers above others of its kind, a primeval behemoth painted with elaborate designs.*",
@@ -1857,7 +1857,7 @@
 	},
 	"lizard_scion": { "copyof": "lizardfolk_lizard_scion" },
 	"lizardfolk_lizardfolk_berserker": {
-		"name": "Lizardfolk, Lizardfolk Berserker",
+		"name": "Lizardfolk Berserker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Lizardfolk Berserker]{cr=\"5\"}",
@@ -1908,7 +1908,7 @@
 	},
 	"lizardfolk_berserker": { "copyof": "lizardfolk_lizardfolk_berserker" },
 	"lizardfolk_lizardfolk_champion": {
-		"name": "Lizardfolk, Lizardfolk Champion",
+		"name": "Lizardfolk Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Lizardfolk Champion]{cr=\"10\"}",
@@ -1980,7 +1980,7 @@
 	},
 	"lizardfolk_champion": { "copyof": "lizardfolk_lizardfolk_champion" },
 	"lizardfolk_lizardfolk_clutch_mother": {
-		"name": "Lizardfolk, Lizardfolk Clutch Mother",
+		"name": "Lizardfolk Clutch Mother",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Lizardfolk Clutch Mother]{cr=\"13\"}",
@@ -2043,7 +2043,7 @@
 	},
 	"lizardfolk_clutch_mother": { "copyof": "lizardfolk_lizardfolk_clutch_mother" },
 	"lizardfolk_lizardfolk_rattler": {
-		"name": "Lizardfolk, Lizardfolk Rattler",
+		"name": "Lizardfolk Rattler",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Lizardfolk Rattler]{cr=\"5\"}",
@@ -2092,7 +2092,7 @@
 	},
 	"lizardfolk_rattler": { "copyof": "lizardfolk_lizardfolk_rattler" },
 	"lizardfolk_lizardfolk_sorcerer": {
-		"name": "Lizardfolk, Lizardfolk Sorcerer",
+		"name": "Lizardfolk Sorcerer",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Lizardfolk Sorcerer]{cr=\"12\"}",
@@ -2151,7 +2151,7 @@
 	},
 	"lizardfolk_sorcerer": { "copyof": "lizardfolk_lizardfolk_sorcerer" },
 	"lizardfolk_lizardfolk_stalker": {
-		"name": "Lizardfolk, Lizardfolk Stalker",
+		"name": "Lizardfolk Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Lizardfolk Stalker]{cr=\"3\"}",
@@ -2200,7 +2200,7 @@
 	},
 	"lizardfolk_stalker": { "copyof": "lizardfolk_lizardfolk_stalker" },
 	"lizardfolk_lizardfolk_swamp_lurker": {
-		"name": "Lizardfolk, Lizardfolk Swamp Lurker",
+		"name": "Lizardfolk Swamp Lurker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Lizardfolk Swamp Lurker]{cr=\"8\"}",
@@ -2245,7 +2245,7 @@
 	},
 	"lizardfolk_swamp_lurker": { "copyof": "lizardfolk_lizardfolk_swamp_lurker" },
 	"lizardfolk_lizardfolk_vanguard": {
-		"name": "Lizardfolk, Lizardfolk Vanguard",
+		"name": "Lizardfolk Vanguard",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Lizardfolk Vanguard]{cr=\"2\"}",
@@ -2448,7 +2448,7 @@
 		]
 	},
 	"locust_giant_locust": {
-		"name": "Locust, Giant Locust",
+		"name": "Giant Locust",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*The mandibles of this enormous grasshopper churn and grind as it quests for food.*",
@@ -2505,7 +2505,7 @@
 	"giant_locust": { "copyof": "locust_giant_locust" },
 	"locust_giant": { "copyof": "locust_giant_locust" },
 	"locust_locust_swarm": {
-		"name": "Locust, Locust Swarm",
+		"name": "Locust Swarm",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Thousands upon thousands of locusts dance and drone in a dark and ravenous cloud.*",
@@ -2556,7 +2556,7 @@
 	},
 	"locust_swarm": { "copyof": "locust_locust_swarm" },
 	"locust_plague_locust_swarm": {
-		"name": "Locust, Plague Locust Swarm",
+		"name": "Plague Locust Swarm",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
 		"description": [
 			"*Buzzing with an ear-shattering drone, this cloud is full of particularly vicious-looking locusts.*",
@@ -2995,7 +2995,7 @@
 		]
 	},
 	"lurking_ray_executioners_hood": {
-		"name": "Lurking Ray, Executioner's Hood",
+		"name": "Executioner's Hood (Lurking Ray)",
 		"sources": [
 			"Bestiary 4",
 			"Misfit Monsters Redeemed"
@@ -3055,7 +3055,7 @@
 	},
 	"executioners_hood": { "copyof": "lurking_ray_executioners_hood" },
 	"lurking_ray_lurker_above": {
-		"name": "Lurking Ray, Lurker Above",
+		"name": "Lurker Above (Lurking Ray)",
 		"sources": [
 			"Bestiary 4",
 			"Misfit Monsters Redeemed"
@@ -3113,7 +3113,7 @@
 	},
 	"lurker_above": { "copyof": "lurking_ray_lurker_above" },
 	"lurking_ray_trapper": {
-		"name": "Lurking Ray, Trapper",
+		"name": "Trapper (Lurking Ray)",
 		"sources": [
 			"Bestiary 4",
 			"Misfit Monsters Redeemed"
@@ -3784,7 +3784,7 @@
 		]
 	},
 	"manasaputra_maharishi_manu": {
-		"name": "Manasaputra, Maharishi Manu",
+		"name": "Maharishi Manu (Manasaputra)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This elderly figure looks out with heavy-lidded eyes, and seems lost in its own serenity.*",
@@ -3847,7 +3847,7 @@
 	},
 	"maharishi_manu": { "copyof": "manasaputra_maharishi_manu" },
 	"manasaputra_manu": {
-		"name": "Manasaputra, Manu",
+		"name": "Manu (Manasaputra)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*A toned, regal human radiates a shifting aura of many colors and murmuring voices that seem strangely familiar.*",
@@ -3908,7 +3908,7 @@
 	},
 	"manu": { "copyof": "manasaputra_manu" },
 	"manasaputra_rishi_manu": {
-		"name": "Manasaputra, Rishi Manu",
+		"name": "Rishi Manu (Manasaputra)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This regal, apparently human figure has glowing purple eyes and the grace and fluidity of water given form.*",
@@ -3970,7 +3970,7 @@
 	},
 	"rishi_manu": { "copyof": "manasaputra_rishi_manu" },
 	"manasaputra_twilight_pitri_barhisad": {
-		"name": "Manasaputra, Twilight Pitri (Barhisad)",
+		"name": "Twilight Pitri (Barhisad, Manasaputra)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Cerulean light surrounds this towering four-armed figure in a vibrant corona.*",
@@ -4053,7 +4053,7 @@
 	"barhisad": { "copyof": "manasaputra_twilight_pitri_barhisad" },
 	"twilight_pitri": { "copyof": "manasaputra_twilight_pitri_barhisad" },
 	"mantis_deadly_mantis": {
-		"name": "Mantis, Deadly Mantis",
+		"name": "Deadly Mantis",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"*This terrifying monstrosity towers taller than the mightiest jungle trees, its forelimbs raised in a meditative, deadly stance.*",
@@ -4105,7 +4105,7 @@
 	"mantis_deadly": { "copyof": "mantis_deadly_mantis" },
 	"deadly_mantis": { "copyof": "mantis_deadly_mantis" },
 	"mantis_giant_mantis": {
-		"name": "Mantis, Giant Mantis",
+		"name": "Giant Mantis",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This towering insect walks on its back four legs. Its head is triangular and its front legs sport razor-sharp edges and claws.*",

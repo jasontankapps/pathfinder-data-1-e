@@ -103,7 +103,7 @@
 			"",
 			"You create an illusion that takes the same space as a foe and mimics its movements perfectly. Whenever you cast a spell or throw a weapon, the illusion ceases mimicking the target's actions just long enough to make it look like the target cast the spell or threw the weapon simultaneously with you, such that witnesses who can see both you and the target can't tell with certainty who truly cast the spell or threw the weapon. Witnesses who can see only the target see it as the only apparent source. The subject of this spell doesn't provoke attacks of opportunity from these illusory actions. Each target of the attack or spell counts as interacting with the illusion and thus receives a save to disbelieve.",
 			"",
-			"### Illusion of Treachery, Greater",
+			"### Greater Illusion of Treachery",
 			"",
 			"{SOURCE Ultimate Intrigue/217}  ",
 			"**School** {spelldef/illusion} ({spelldef/glamer}); **Level** antipaladin 4, arcanist 6, magus 6, mesmerist 4, occultist 5, psychic 5, sorcerer 6, wizard 6  ",
@@ -118,7 +118,7 @@
 		]
 	},
 	"illusion_of_treachery_greater": {
-		"name": "Illusion of Treachery, Greater",
+		"name": "Greater Illusion of Treachery",
 		"copyof": "illusion_of_treachery"
 	},
 	"greater_illusion_of_treachery": { "copyof": "illusion_of_treachery_greater" },
@@ -702,7 +702,7 @@
 			"",
 			"You anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as evil for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment.",
 			"",
-			"### Infernal Healing, Greater",
+			"### Greater Infernal Healing",
 			"",
 			"{SOURCE Hell's Vengeance Player's Guide/11}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}) [{spelldef/evil}]; **Level** arcanist 4, cleric 4, magus 4, oracle 4, sorcerer 4, summoner 4, unchained summoner 4, warpriest 4, witch 4, wizard 4  ",
@@ -717,7 +717,7 @@
 		]
 	},
 	"infernal_healing_greater": {
-		"name": "Infernal Healing, Greater",
+		"name": "Greater Infernal Healing",
 		"copyof": "infernal_healing"
 	},
 	"greater_infernal_healing": { "copyof": "infernal_healing_greater" },
@@ -749,7 +749,7 @@
 			"",
 			"The damage dealt increases to 8d8 points of damage + 2 points per caster level (maximum +40). A living target is sickened for 1 round per caster level (maximum 20 rounds) if it fails its saving throw.",
 			"",
-			"### Inflict Critical Wounds, Mass",
+			"### Mass Inflict Critical Wounds",
 			"",
 			"{SOURCE PRPG Core Rulebook/300}  ",
 			"**School** {spelldef/necromancy}; **Level** cleric 8, oracle 8, shaman 8, witch 9  ",
@@ -764,7 +764,7 @@
 		]
 	},
 	"inflict_critical_wounds_mass": {
-		"name": "Inflict Critical Wounds, Mass",
+		"name": "Mass Inflict Critical Wounds",
 		"copyof": "inflict_critical_wounds"
 	},
 	"mass_inflict_critical_wounds": { "copyof": "inflict_critical_wounds_mass" },
@@ -798,7 +798,7 @@
 			"",
 			"The damage dealt increases to 2d8 points of damage + 2 points per caster level (maximum +10). A living target is sickened for 1 round per caster level (maximum 5 rounds) if it fails its saving throw.",
 			"",
-			"### Inflict Light Wounds, Mass",
+			"### Mass Inflict Light Wounds",
 			"",
 			"{SOURCE PRPG Core Rulebook/300}  ",
 			"**School** {spelldef/necromancy}; **Level** cleric 5, inquisitor 5, occultist 5, oracle 5, shaman 5, warpriest 5, witch 6  ",
@@ -815,7 +815,7 @@
 		]
 	},
 	"inflict_light_wounds_mass": {
-		"name": "Inflict Light Wounds, Mass",
+		"name": "Mass Inflict Light Wounds",
 		"copyof": "inflict_light_wounds"
 	},
 	"mass_inflict_light_wounds": { "copyof": "inflict_light_wounds_mass" },
@@ -847,7 +847,7 @@
 			"",
 			"The damage dealt increases to 4d8 points of damage + 2 points per caster level (maximum +20). A living target is sickened for 1 round per caster level (maximum 10 rounds) if it fails its saving throw.",
 			"",
-			"### Inflict Moderate Wounds, Mass",
+			"### Mass Inflict Moderate Wounds",
 			"",
 			"{SOURCE PRPG Core Rulebook/300}  ",
 			"**School** {spelldef/necromancy}; **Level** cleric 6, inquisitor 6, occultist 6, oracle 6, shaman 6, warpriest 6, witch 7  ",
@@ -862,7 +862,7 @@
 		]
 	},
 	"inflict_moderate_wounds_mass": {
-		"name": "Inflict Moderate Wounds, Mass",
+		"name": "Mass Inflict Moderate Wounds",
 		"copyof": "inflict_moderate_wounds"
 	},
 	"mass_inflict_moderate_wounds": { "copyof": "inflict_moderate_wounds_mass" },
@@ -885,10 +885,10 @@
 		]
 	},
 	"inflict_pain_mass": {
-		"name": "Inflict Pain, Mass",
+		"name": "Mass Inflict Pain",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"## Inflict Pain, Mass",
+			"## Mass Inflict Pain",
 			"",
 			"{SOURCE Occult Adventures/174}  ",
 			"**School** {spelldef/enchantment} [{spelldef/mind-affecting}, {spelldef/pain}]; **Level** antipaladin 4, arcanist 7, inquisitor 5, medium 4, mesmerist 5, occultist 5, psychic 6, sorcerer 7, spiritualist 5, witch 7, wizard 7  ",
@@ -931,7 +931,7 @@
 			"",
 			"The damage dealt increases to 6d8 points of damage + 2 points per caster level (maximum +30). A living target is sickened for 1 round per caster level (maximum 15 rounds) if it fails its saving throw.",
 			"",
-			"### Inflict Serious Wounds, Mass",
+			"### Mass Inflict Serious Wounds",
 			"",
 			"{SOURCE PRPG Core Rulebook/301}  ",
 			"**School** {spelldef/necromancy}; **Level** cleric 7, oracle 7, shaman 7, witch 8  ",
@@ -946,7 +946,7 @@
 		]
 	},
 	"inflict_serious_wounds_mass": {
-		"name": "Inflict Serious Wounds, Mass",
+		"name": "Mass Inflict Serious Wounds",
 		"copyof": "inflict_serious_wounds"
 	},
 	"mass_inflict_serious_wounds": { "copyof": "inflict_serious_wounds_mass" },
@@ -1237,7 +1237,7 @@
 			"",
 			"You also maintain a faint mystical connection with these insects, which allows you to sense where they are. As a full-round action, you can concentrate on the spell in order to learn the direction and relative distance of each of the insects.",
 			"",
-			"### Insect Spies, Greater",
+			"### Greater Insect Spies",
 			"",
 			"{SOURCE Ultimate Intrigue/217}  ",
 			"**School** {spelldef/divination}; **Level** arcanist 7, druid 6, hunter 6, sorcerer 7, summoner 6, unchained summoner 6, witch 7, wizard 7  ",
@@ -1252,7 +1252,7 @@
 		]
 	},
 	"insect_spies_greater": {
-		"name": "Insect Spies, Greater",
+		"name": "Greater Insect Spies",
 		"copyof": "insect_spies"
 	},
 	"greater_insect_spies": { "copyof": "insect_spies_greater" },
@@ -1426,7 +1426,7 @@
 			"",
 			"The item can be summoned from another plane, but only if no other creature has claimed ownership of it.",
 			"",
-			"### Instant Summons, Greater",
+			"### Greater Instant Summons",
 			"",
 			"{SOURCE Ultimate Intrigue/217}  ",
 			"**School** {spelldef/conjuration} ({spelldef/summoning}); **Level** arcanist 8, psychic 8, sorcerer 8, witch 8, wizard 8  ",
@@ -1441,7 +1441,7 @@
 		]
 	},
 	"instant_summons_greater": {
-		"name": "Instant Summons, Greater",
+		"name": "Greater Instant Summons",
 		"copyof": "instant_summons"
 	},
 	"greater_instant_summons": { "copyof": "instant_summons_greater" },
@@ -1642,7 +1642,7 @@
 			"",
 			"You question the target, backed up by the threat of magical pain. You may ask one question per two caster levels. The target can either answer the question or take 1d4 points of damage plus your Wisdom bonus. The target is not compelled to answer truthfully, but the threat of pain gives it a -4 penalty on Bluff checks to convince you when it is lying.",
 			"",
-			"### Interrogation, Greater",
+			"### Greater Interrogation",
 			"",
 			"{SOURCE Ultimate Magic/225}  ",
 			"**School** {spelldef/necromancy} [{spelldef/evil}, {spelldef/pain}]; **Level** inquisitor 4, psychic 4  ",
@@ -1657,7 +1657,7 @@
 		]
 	},
 	"interrogation_greater": {
-		"name": "Interrogation, Greater",
+		"name": "Greater Interrogation",
 		"copyof": "interrogation"
 	},
 	"greater_interrogation": { "copyof": "interrogation_greater" },
@@ -1734,7 +1734,7 @@
 			"",
 			"This spell banishes feelings of weariness. For the duration, the subject takes no penalties from the fatigued or exhausted conditions. The effect of invigorate is merely an illusion, however, not a substitute for actual rest or respite. When the spell ends, the subject takes 1d6 points of nonlethal damage, along with the return of the original condition(s). A creature can be under the effects of only one invigorate spell at a time; if it is cast a second time on that creature, the first effect immediately ends.",
 			"",
-			"### Invigorate, Mass",
+			"### Mass Invigorate",
 			"",
 			"{SOURCE Advanced Player's Guide/230}  ",
 			"**School** {spelldef/illusion} ({spelldef/figment}); **Level** bard 3, mesmerist 3, psychic 4, skald 3  ",
@@ -1749,7 +1749,7 @@
 		]
 	},
 	"invigorate_mass": {
-		"name": "Invigorate, Mass",
+		"name": "Mass Invigorate",
 		"copyof": "invigorate"
 	},
 	"mass_invigorate": { "copyof": "invigorate_mass" },
@@ -1824,7 +1824,7 @@
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the invisible target is undetectable by blindsense, blindsight, scent, and tremorsense.",
 			"",
-			"### Invisibility, Greater",
+			"### Greater Invisibility",
 			"",
 			"{SOURCE PRPG Core Rulebook/302}  ",
 			"**School** {spelldef/illusion} ({spelldef/glamer}); **Level** alchemist 4, antipaladin 4, arcanist 4, bard 4, inquisitor 4, investigator 4, magus 4, medium 3, mesmerist 4, occultist 4, psychic 4, redmantisassassin 4, skald 4, sorcerer 4, spiritualist 4, summoner 3, unchained summoner 4, wizard 4  ",
@@ -1837,7 +1837,7 @@
 			"",
 			"This spell functions like invisibility, except that it doesn't end if the subject attacks.",
 			"",
-			"### Invisibility, Mass",
+			"### Mass Invisibility",
 			"",
 			"{SOURCE PRPG Core Rulebook/302}  ",
 			"**School** {spelldef/illusion} ({spelldef/glamer}); **Level** arcanist 7, mesmerist 6, psychic 7, sorcerer 7, summoner 5, unchained summoner 6, wizard 7  ",
@@ -1852,12 +1852,12 @@
 		]
 	},
 	"invisibility_greater": {
-		"name": "Invisibility, Greater",
+		"name": "Greater Invisibility",
 		"copyof": "invisibility"
 	},
 	"greater_invisibility": { "copyof": "invisibility_greater" },
 	"invisibility_mass": {
-		"name": "Invisibility, Mass",
+		"name": "Mass Invisibility",
 		"copyof": "invisibility"
 	},
 	"mass_invisibility": { "copyof": "invisibility_mass" },
@@ -1900,7 +1900,7 @@
 			"",
 			"A glamered bubble surrounds the target's space, rendering her completely invisible underwater by hiding both the target and any water she displaces. Because of the bubble's size limit, this spell works only on Medium or smaller targets. Other objects and creatures within the bubble's space are also invisible while they stay in the space, which could reveal the spell's existence to a canny observer who notices fish disappearing into the bubble and reappearing on the other side. Creatures inside the bubble can see each other, which allows foes who can pinpoint the bubble's location (such as dragons) to stick their heads into the bubble in order to see the target. Any creature on the inside of the bubble that takes any action that would break invisibility pops the bubble and ends the spell early. On land, the bubble is clearly visible, acting much as invisibility does in the water. Unlike with invisibility, the inside of the bubble blocks light from escaping the bubble, meaning that light sources inside the bubble don't illuminate past its edges, but also don't reveal a telltale glow.",
 			"",
-			"### Invisibility Bubble, Giant",
+			"### Giant Invisibility Bubble",
 			"",
 			"{SOURCE Aquatic Adventures/60}  ",
 			"**School** {spelldef/illusion} ({spelldef/glamer}); **Level** arcanist 3, bard 3, mesmerist 3, occultist 3, psychic 3, skald 3, sorcerer 3, summoner 3, unchained summoner 3, wizard 3  ",
@@ -1913,7 +1913,7 @@
 			"",
 			"This functions as per invisibility bubble, but the bubble is larger, which allows you to target a creature of up to size Gargantuan, or allows more creatures into the bubble.",
 			"",
-			"### Invisibility Bubble, Mass",
+			"### Mass Invisibility Bubble",
 			"",
 			"{SOURCE Aquatic Adventures/60}  ",
 			"**School** {spelldef/illusion} ({spelldef/glamer}); **Level** arcanist 7, mesmerist 6, psychic 7, sorcerer 7, summoner 6, unchained summoner 6, wizard 7  ",
@@ -1928,12 +1928,12 @@
 		]
 	},
 	"invisibility_bubble_giant": {
-		"name": "Invisibility Bubble, Giant",
+		"name": "Giant Invisibility Bubble",
 		"copyof": "invisibility_bubble"
 	},
 	"giant_invisibility_bubble": { "copyof": "invisibility_bubble_giant" },
 	"invisibility_bubble_mass": {
-		"name": "Invisibility Bubble, Mass",
+		"name": "Mass Invisibility Bubble",
 		"copyof": "invisibility_bubble"
 	},
 	"mass_invisibility_bubble": { "copyof": "invisibility_bubble_mass" },
@@ -2523,7 +2523,7 @@
 			"",
 			"This spell initially functions as message (allowing no save or spell resistance). Once during the message effect, you can concentrate as a standard action to issue a suggestion to one target as part of delivering a message. Spell resistance and a Will save apply to the suggestion, and it lasts for 1 hour per level or until completed.",
 			"",
-			"### Demanding Message, Mass",
+			"### Mass Demanding Message",
 			"",
 			"{SOURCE Ultimate Intrigue/210}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/language-dependent}, {spelldef/mind-affecting}]; **Level** arcanist 7, bard 6, mesmerist 6, occultist 6, psychic 6, skald 6, sorcerer 7, witch 7, wizard 7  ",
@@ -2542,7 +2542,7 @@
 		"copyof": "message"
 	},
 	"demanding_message_mass": {
-		"name": "Demanding Message, Mass",
+		"name": "Mass Demanding Message",
 		"copyof": "message"
 	},
 	"mass_demanding_message": { "copyof": "demanding_message_mass" },
@@ -2747,7 +2747,7 @@
 			"",
 			"The subject is protected from all devices and spells that gather information about the target through divination magic (such as {spell/detect evil}, {spell/locate creature}, {spell/scrying}, and {spell/see invisibility}). This spell also grants a +8 resistance bonus on saving throws against all mind-affecting spells and effects. Mind blank even foils {spell/limited wish}, {spell/miracle}, and {spell/wish} spells when they are used in such a way as to gain information about the target. In the case of scrying that scans an area the creature is in, such as {spell/arcane eye}, the spell works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the subject do not work at all.",
 			"",
-			"### Mind Blank, Communal",
+			"### Communal Mind Blank",
 			"",
 			"{SOURCE Ultimate Combat/236}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 9, psychic 8, sorcerer 9, witch 9, wizard 9  ",
@@ -2762,7 +2762,7 @@
 		]
 	},
 	"mind_blank_communal": {
-		"name": "Mind Blank, Communal",
+		"name": "Communal Mind Blank",
 		"copyof": "mind_blank"
 	},
 	"communal_mind_blank": { "copyof": "mind_blank_communal" },
@@ -2867,7 +2867,7 @@
 			"",
 			"This spell is similar to {spell/possession}, except you switch minds with the target, so instead of the target's soul sharing its body with yours and being unable to act, the target's mind moves to your body and can control it as if you each had cast possession on the other.",
 			"",
-			"### Mind Swap, Major",
+			"### Major Mind Swap",
 			"",
 			"{SOURCE Occult Adventures/176}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** psychic 9  ",
@@ -2882,7 +2882,7 @@
 		]
 	},
 	"mind_swap_major": {
-		"name": "Mind Swap, Major",
+		"name": "Major Mind Swap",
 		"copyof": "mind_swap"
 	},
 	"major_mind_swap": { "copyof": "mind_swap_major" },
@@ -3245,7 +3245,7 @@
 			"",
 			"You create a fine-tuned replica of yourself within the {rule/Akashic Record} at the time the spell is cast. You must currently have a number of hit points equal to or greater than half your maximum hit points to cast the spell. If at any time during the duration of the spell you are brought below half your maximum hit points, you can end this spell as an immediate action to absorb strength from your replica and immediately regain a number of hit points equal to 3d8 plus 1 point per caster level (maximum +15).",
 			"",
-			"### Minor Reversion, Mass",
+			"### Mass Minor Reversion",
 			"",
 			"{SOURCE Plane-Hopper's Handbook/28}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** arcanist 6, cleric 6, oracle 6, psychic 5, sorcerer 6, warpriest 6, wizard 6  ",
@@ -3259,7 +3259,7 @@
 		]
 	},
 	"minor_reversion_mass": {
-		"name": "Minor Reversion, Mass",
+		"name": "Mass Minor Reversion",
 		"copyof": "minor_reversion"
 	},
 	"mass_minor_reversion": { "copyof": "minor_reversion_mass" },
@@ -3781,7 +3781,7 @@
 			"",
 			"This spell does not heal creatures healed by positive energy; such creatures instead gain a +2 bonus on saving throws against death effects, energy drain, negative energy, and effects directly caused by haunts. This bonus lasts for 1 round.",
 			"",
-			"### Positive Pulse, Greater",
+			"### Greater Positive Pulse",
 			"",
 			"{SOURCE Planar Adventures/43}  ",
 			"**School** {spelldef/necromancy}; **Level** arcanist 4, cleric 4, inquisitor 4, oracle 4, paladin 4, shaman 4, sorcerer 4, spiritualist 4, summoner 4, unchained summoner 4, warpriest 4, witch 4, wizard 4  ",
@@ -3796,7 +3796,7 @@
 		]
 	},
 	"positive_pulse_greater": {
-		"name": "Positive Pulse, Greater",
+		"name": "Greater Positive Pulse",
 		"copyof": "positive_pulse"
 	},
 	"greater_positive_pulse": { "copyof": "positive_pulse_greater" },
@@ -3825,7 +3825,7 @@
 			"",
 			"The old magic jar spell is unwieldy, particularly with respect to creatures like ghosts and shadow demons that don't really use a jar at all. Consider replacing magic jar with the new possession spells for both spellcasters and monsters. Likewise, consider using spells based on possession rather than magic jar.",
 			"",
-			"### Possession, Greater",
+			"### Greater Possession",
 			"",
 			"{SOURCE Occult Adventures/181}  ",
 			"**School** {spelldef/necromancy}; **Level** arcanist 8, occultist 6, psychic 8, sorcerer 8, spiritualist 6, witch 8, wizard 8  ",
@@ -3840,7 +3840,7 @@
 		]
 	},
 	"possession_greater": {
-		"name": "Possession, Greater",
+		"name": "Greater Possession",
 		"copyof": "possession"
 	},
 	"greater_possession": { "copyof": "possession_greater" },

@@ -1,6 +1,6 @@
 {
 	"charau_ka_jungle_trickster": {
-		"name": "Charau-ka, Jungle Trickster",
+		"name": "Jungle Trickster (Charau-ka)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*This lean ape-person is bedecked with a rattling collection of whistles, drums, and charms.*",
@@ -55,7 +55,7 @@
 	},
 	"jungle_trickster": { "copyof": "charau_ka_jungle_trickster" },
 	"charau_ka_simian_sharpshooter": {
-		"name": "Charau-ka, Simian Sharpshooter",
+		"name": "Simian Sharpshooter (Charau-ka)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*This long-furred ape-person wears a battered snakeskin poncho and carries a worn musket.*",
@@ -437,7 +437,7 @@
 		]
 	},
 	"chelarac_chelarac_broodling": {
-		"name": "Chelarac, Chelarac Broodling",
+		"name": "Chelarac Broodling",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
 			"*This monstrous creature appears to be an enormous spider with a humanlike head. Sickly blisters holding squirming young cover the creature's abdomen.*",
@@ -728,7 +728,7 @@
 		]
 	},
 	"chimera_legendary_chimera": {
-		"name": "Chimera, Legendary Chimera",
+		"name": "Legendary Chimera",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
 			"*This abomination has the head and foreparts of a great lion, an additional head and hindquarters of a ram, and a red dragon's head sprouting from its tail.*",
@@ -1050,7 +1050,7 @@
 		]
 	},
 	"chon_chon_chon_chon_swarm": {
-		"name": "Chon Chon, Chon Chon Swarm",
+		"name": "Chon Chon Swarm",
 		"sources": [ "Pathfinder #53: Tide of Honor" ],
 		"description": [
 			"*This flying head has incredibly large ears that constantly flap to keep the creature aloft. It babbles to itself as it flies, as if to remind itself of secrets only it knows.*",
@@ -1435,12 +1435,12 @@
 		]
 	},
 	"chuul_chuul_lesser": {
-		"name": "Chuul, Chuul, Lesser",
+		"name": "Lesser Chuul",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
 		"description": [
 			"*This lobsterlike creature stands as tall as a human. Coils of reaching, pink tendrils slither from within its jaws.*",
 			"",
-			"::mh[Chuul, Lesser]{cr=\"4\"}",
+			"::mh[Lesser Chuul]{cr=\"4\"}",
 			"",
 			"{SOURCE Pathfinder #122: Into the Shattered Continent/82}  ",
 			"**XP** 1,200  ",
@@ -1508,7 +1508,7 @@
 	},
 	"lesser_chuul": { "copyof": "chuul_chuul_lesser" },
 	"chuul_larval_chuul": {
-		"name": "Chuul, Larval Chuul",
+		"name": "Larval Chuul",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
 		"description": [
 			"*This dog-sized creature resembles a soft-shelled lobster with underdeveloped claws and an oversized pair of mandibles.*",
@@ -1661,7 +1661,7 @@
 		]
 	},
 	"cicada_cicada_swarm": {
-		"name": "Cicada, Cicada Swarm",
+		"name": "Cicada Swarm",
 		"sources": [ "Pathfinder #116: Fangs of War" ],
 		"description": [
 			"*A loud droning buzz accompanies this mass of flying insects.*",
@@ -1710,7 +1710,7 @@
 	},
 	"cicada_swarm": { "copyof": "cicada_cicada_swarm" },
 	"cicada_giant_cicada": {
-		"name": "Cicada, Giant Cicada",
+		"name": "Giant Cicada",
 		"sources": [ "Pathfinder #116: Fangs of War" ],
 		"description": [
 			"*Trim wings fold along the back of this oblong, iridescent insect.*",
@@ -2022,7 +2022,7 @@
 		]
 	},
 	"clockwork_clockwork_angel": {
-		"name": "Clockwork, Clockwork Angel",
+		"name": "Clockwork Angel",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 3",
@@ -2093,7 +2093,7 @@
 	},
 	"clockwork_angel": { "copyof": "clockwork_clockwork_angel" },
 	"clockwork_clockwork_assassin": {
-		"name": "Clockwork, Clockwork Assassin",
+		"name": "Clockwork Assassin",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 3",
@@ -2165,7 +2165,7 @@
 	},
 	"clockwork_assassin": { "copyof": "clockwork_clockwork_assassin" },
 	"clockwork_clockwork_dragon": {
-		"name": "Clockwork, Clockwork Dragon",
+		"name": "Clockwork Dragon",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #66: The Dead Heart of Xin",
@@ -2258,7 +2258,7 @@
 	},
 	"clockwork_dragon": { "copyof": "clockwork_clockwork_dragon" },
 	"clockwork_clockwork_excavator": {
-		"name": "Clockwork, Clockwork Excavator",
+		"name": "Clockwork Excavator",
 		"sources": [
 			"Pathfinder #117: Assault on Longshadow",
 			"Bestiary 3",
@@ -2349,7 +2349,7 @@
 	},
 	"clockwork_excavator": { "copyof": "clockwork_clockwork_excavator" },
 	"clockwork_clockwork_familiar": {
-		"name": "Clockwork, Clockwork Familiar",
+		"name": "Clockwork Familiar",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #63: The Asylum Stone",
@@ -2421,7 +2421,7 @@
 	},
 	"clockwork_familiar": { "copyof": "clockwork_clockwork_familiar" },
 	"clockwork_clockwork_fiend": {
-		"name": "Clockwork, Clockwork Fiend",
+		"name": "Clockwork Fiend",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 3",
@@ -2494,7 +2494,7 @@
 	},
 	"clockwork_fiend": { "copyof": "clockwork_clockwork_fiend" },
 	"clockwork_clockwork_goblin": {
-		"name": "Clockwork, Clockwork Goblin",
+		"name": "Clockwork Goblin",
 		"sources": [
 			"Construct Handbook",
 			"Bestiary 3",
@@ -2564,7 +2564,7 @@
 	},
 	"clockwork_goblin": { "copyof": "clockwork_clockwork_goblin" },
 	"clockwork_clockwork_goliath": {
-		"name": "Clockwork, Clockwork Goliath",
+		"name": "Clockwork Goliath",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #123: The Flooded Cathedral"
@@ -2635,7 +2635,7 @@
 	},
 	"clockwork_goliath": { "copyof": "clockwork_clockwork_goliath" },
 	"clockwork_clockwork_guardian": {
-		"name": "Clockwork, Clockwork Guardian",
+		"name": "Clockwork Guardian",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 3",
@@ -2702,7 +2702,7 @@
 	},
 	"clockwork_guardian": { "copyof": "clockwork_clockwork_guardian" },
 	"clockwork_clockwork_gunslinger": {
-		"name": "Clockwork, Clockwork Gunslinger",
+		"name": "Clockwork Gunslinger",
 		"sources": [
 			"Construct Handbook",
 			"Bestiary 3",
@@ -2775,7 +2775,7 @@
 	},
 	"clockwork_gunslinger": { "copyof": "clockwork_clockwork_gunslinger" },
 	"clockwork_clockwork_hound": {
-		"name": "Clockwork, Clockwork Hound",
+		"name": "Clockwork Hound",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 3",
@@ -2848,7 +2848,7 @@
 	},
 	"clockwork_hound": { "copyof": "clockwork_clockwork_hound" },
 	"clockwork_clockwork_leviathan": {
-		"name": "Clockwork, Clockwork Leviathan",
+		"name": "Clockwork Leviathan",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #123: The Flooded Cathedral"
@@ -2923,7 +2923,7 @@
 	},
 	"clockwork_leviathan": { "copyof": "clockwork_clockwork_leviathan" },
 	"clockwork_clockwork_mage": {
-		"name": "Clockwork, Clockwork Mage",
+		"name": "Clockwork Mage",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 3",
@@ -2999,7 +2999,7 @@
 	},
 	"clockwork_mage": { "copyof": "clockwork_clockwork_mage" },
 	"clockwork_clockwork_nautiloid": {
-		"name": "Clockwork, Clockwork Nautiloid",
+		"name": "Clockwork Nautiloid",
 		"sources": [
 			"Pathfinder #125: Tower of the Drowned Dead",
 			"Bestiary 3",
@@ -3099,7 +3099,7 @@
 	},
 	"clockwork_nautiloid": { "copyof": "clockwork_clockwork_nautiloid" },
 	"clockwork_clockwork_overseer": {
-		"name": "Clockwork, Clockwork Overseer",
+		"name": "Clockwork Overseer",
 		"sources": [
 			"Pathfinder #123: The Flooded Cathedral",
 			"Bestiary 3"
@@ -3193,7 +3193,7 @@
 	},
 	"clockwork_overseer": { "copyof": "clockwork_clockwork_overseer" },
 	"clockwork_clockwork_priest": {
-		"name": "Clockwork, Clockwork Priest",
+		"name": "Clockwork Priest",
 		"sources": [
 			"Construct Handbook",
 			"Bestiary 3",
@@ -3266,7 +3266,7 @@
 	},
 	"clockwork_priest": { "copyof": "clockwork_clockwork_priest" },
 	"clockwork_clockwork_servant": {
-		"name": "Clockwork, Clockwork Servant",
+		"name": "Clockwork Servant",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #123: The Flooded Cathedral"
@@ -3337,7 +3337,7 @@
 	},
 	"clockwork_servant": { "copyof": "clockwork_clockwork_servant" },
 	"clockwork_clockwork_snail": {
-		"name": "Clockwork, Clockwork Snail",
+		"name": "Clockwork Snail",
 		"sources": [
 			"Wardens of the Reborn Forge",
 			"Bestiary 3",
@@ -3408,7 +3408,7 @@
 	},
 	"clockwork_snail": { "copyof": "clockwork_clockwork_snail" },
 	"clockwork_clockwork_soldier": {
-		"name": "Clockwork, Clockwork Soldier",
+		"name": "Clockwork Soldier",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #123: The Flooded Cathedral"
@@ -3481,7 +3481,7 @@
 	},
 	"clockwork_soldier": { "copyof": "clockwork_clockwork_soldier" },
 	"clockwork_clockwork_songbird": {
-		"name": "Clockwork, Clockwork Songbird",
+		"name": "Clockwork Songbird",
 		"sources": [
 			"Construct Handbook",
 			"Bestiary 3",
@@ -3552,7 +3552,7 @@
 	},
 	"clockwork_songbird": { "copyof": "clockwork_clockwork_songbird" },
 	"clockwork_clockwork_spy": {
-		"name": "Clockwork, Clockwork Spy",
+		"name": "Clockwork Spy",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #123: The Flooded Cathedral"
@@ -3620,7 +3620,7 @@
 	},
 	"clockwork_spy": { "copyof": "clockwork_clockwork_spy" },
 	"clockwork_clockwork_steed": {
-		"name": "Clockwork, Clockwork Steed",
+		"name": "Clockwork Steed",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 3",
@@ -3693,7 +3693,7 @@
 	},
 	"clockwork_steed": { "copyof": "clockwork_clockwork_steed" },
 	"clockwork_clockwork_vivisectionist": {
-		"name": "Clockwork, Clockwork Vivisectionist",
+		"name": "Clockwork Vivisectionist",
 		"sources": [
 			"Pathfinder #112: The Whisper Out of Time",
 			"Bestiary 3",
@@ -3781,7 +3781,7 @@
 	},
 	"clockwork_vivisectionist": { "copyof": "clockwork_clockwork_vivisectionist" },
 	"clockwork_mechanical_efreeti": {
-		"name": "Clockwork, Mechanical Efreeti",
+		"name": "Mechanical Efreeti",
 		"sources": [
 			"Tombs of Golarion",
 			"Bestiary 3",
@@ -3852,7 +3852,7 @@
 	},
 	"mechanical_efreeti": { "copyof": "clockwork_mechanical_efreeti" },
 	"clockwork_toy_golem": {
-		"name": "Clockwork, Toy Golem",
+		"name": "Toy Golem",
 		"sources": [
 			"Tombs of Golarion",
 			"Bestiary 3",

@@ -580,16 +580,16 @@
 		]
 	},
 	"channel_thieving_belt_greater": {
-		"name": "Channel-Thieving Belt, Greater",
+		"name": "Greater Channel-Thieving Belt",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Channel-Thieving Belt, Greater",
+			"## Greater Channel-Thieving Belt",
 			"",
 			"{SOURCE Horror Adventures/219}  ",
 			"**Aura** moderate conjuration and necromancy; **CL** 7th  ",
 			"**Slot** belt; **Price** 9,200 gp; **Weight** 2 lbs.",
 			"",
-			"This belt functions as a normal channel-thieving belt, except the amount of healing is equal to 1/2 the amount of damage healed or dealt by the creature channeling energy.",
+			"This belt functions as a normal {magic-wondrous/channel-thieving belt}, except the amount of healing is equal to 1/2 the amount of damage healed or dealt by the creature channeling energy.",
 			"",
 			"### Construction",
 			"",
@@ -3618,16 +3618,16 @@
 		]
 	},
 	"coat_of_the_undercity_greater": {
-		"name": "Coat of the Undercity, Greater",
+		"name": "Greater Coat of the Undercity",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"## Coat of the Undercity, Greater",
+			"## Greater Coat of the Undercity",
 			"",
 			"{SOURCE Ultimate Intrigue/245}  ",
 			"**Aura** moderate transmtuation; **CL** 9th  ",
 			"**Slot** chest; **Price** 37,500 gp; **Weight** 5 lbs.",
 			"",
-			"This coat functions much like the coat of the undercity, except the wearer can transform into a venomroach as if using {spell/vermin shape II}.",
+			"This coat functions much like the {magic-wondrous/coat of the undercity}, except the wearer can transform into a venomroach as if using {spell/vermin shape II}.",
 			"",
 			"Alternatively, the wearer can take the form of a giant cockroach swarm. This swarm of Tiny vermin has a number of hit points equal to the wearer, uses the wearer's mental ability scores, skills, and saving throws, and gains a +2 resistance bonus on saving throws against mind-affecting effects instead of being immune to them. The swarm otherwise has the same movement, Armor Class, swarm traits, swarm damage, distraction and disease abilities as a typical rat swarm (including the abilities having a DC of 12). While in swarm form, the wearer can't use any of her activated abilities (extraordinary, supernatural, spell-like, or otherwise), cast spells, or use items, although she can end the effect as a standard action.",
 			"",

@@ -1494,19 +1494,19 @@
 		]
 	},
 	"shadow_improved": {
-		"name": "Shadow, Improved",
+		"name": "Improved Shadow",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Shadow, Improved",
+			"## Improved Shadow",
 			"",
 			"{SOURCE Ultimate Equipment/122;PRPG Core Rulebook/463}  ",
 			"**Aura** moderate illusion; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +15,000 gp; **Weight** -",
 			"",
-			"As shadow, except it grants a +10 competence bonus on Stealth checks.",
+			"As {magic-enh/shadow}, except it grants a +10 competence bonus on Stealth checks.",
 			"",
 			"### Construction",
 			"",
@@ -1515,19 +1515,19 @@
 	},
 	"improved_shadow": { "copyof": "shadow_improved" },
 	"slick_improved": {
-		"name": "Slick, Improved",
+		"name": "Improved Slick",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Slick, Improved",
+			"## Improved Slick",
 			"",
 			"{SOURCE Ultimate Equipment/122;PRPG Core Rulebook/463}  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +15,000 gp; **Weight** -",
 			"",
-			"As slick, except it grants a +10 competence bonus on Escape Artist checks.",
+			"As {magic-enh/slick}, except it grants a +10 competence bonus on Escape Artist checks.",
 			"",
 			"### Construction",
 			"",
@@ -1756,19 +1756,19 @@
 		"copyof": "aquadynamic"
 	},
 	"shadow_greater": {
-		"name": "Shadow, Greater",
+		"name": "Greater Shadow",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Shadow, Greater",
+			"## Greater Shadow",
 			"",
 			"{SOURCE Ultimate Equipment/122;PRPG Core Rulebook/463}  ",
 			"**Aura** strong illusion; **CL** 15th  ",
 			"**Slot** armor quality; **Price** +33,750 gp; **Weight** -",
 			"",
-			"As shadow, except it grants a +15 competence bonus on Stealth checks.",
+			"As {magic-enh/shadow}, except it grants a +15 competence bonus on Stealth checks.",
 			"",
 			"### Construction",
 			"",
@@ -1777,19 +1777,19 @@
 	},
 	"greater_shadow": { "copyof": "shadow_greater" },
 	"slick_greater": {
-		"name": "Slick, Greater",
+		"name": "Greater Slick",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Slick, Greater",
+			"## Greater Slick",
 			"",
 			"{SOURCE Ultimate Equipment/122;PRPG Core Rulebook/463}  ",
 			"**Aura** strong conjuration; **CL** 15th  ",
 			"**Slot** armor quality; **Price** +33,750 gp; **Weight** -",
 			"",
-			"As slick, except it grants a +15 competence bonus on Escape Artist checks.",
+			"As {magic-enh/slick}, except it grants a +15 competence bonus on Escape Artist checks.",
 			"",
 			"### Construction",
 			"",
@@ -1798,19 +1798,19 @@
 	},
 	"greater_slick": { "copyof": "slick_greater" },
 	"energy_resistance_improved": {
-		"name": "Energy Resistance, Improved",
+		"name": "Improved Energy Resistance",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Energy Resistance, Improved",
+			"## Improved Energy Resistance",
 			"",
 			"{SOURCE Ultimate Equipment/117;PRPG Core Rulebook/463}  ",
 			"**Aura** moderate abjuration; **CL** 7th  ",
 			"**Slot** armor/shield quality; **Price** +42,000 gp; **Weight** -",
 			"",
-			"As energy resistance, except it absorbs the first 20 points of energy damage per attack.",
+			"As {magic-enh/energy resistance}, except it absorbs the first 20 points of energy damage per attack.",
 			"",
 			"### Construction",
 			"",
@@ -1859,19 +1859,19 @@
 		]
 	},
 	"energy_resistance_greater": {
-		"name": "Energy Resistance, Greater",
+		"name": "Greater Energy Resistance",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Energy Resistance, Greater",
+			"## Greater Energy Resistance",
 			"",
 			"{SOURCE Ultimate Equipment/117;PRPG Core Rulebook/463}  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** armor/shield quality; **Price** +66,000 gp; **Weight** -",
 			"",
-			"As energy resistance, except it absorbs the first 30 points of energy damage per attack.",
+			"As {magic-enh/energy resistance}, except it absorbs the first 30 points of energy damage per attack.",
 			"",
 			"### Construction",
 			"",
@@ -2137,16 +2137,16 @@
 		]
 	},
 	"guarding_greater": {
-		"name": "Guarding, Greater",
+		"name": "Greater Guarding",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"## Guarding, Greater",
+			"## Greater Guarding",
 			"",
 			"{SOURCE Advanced Race Guide/148}  ",
 			"**Aura** strong abjuration; **CL** 12th  ",
 			"**Slot** shield quality; **Price** +2 bonus; **Weight** -",
 			"",
-			"As the guarding property, except as a free action, the wearer selects any number of adjacent allies to receive the shield's bonus. All selected allies receive the same bonus. If a shielded target is ever more than 5 feet from the wearer, the effect ends for that target but not for any other targets.",
+			"As the {magic-enh/guarding} property, except as a free action, the wearer selects any number of adjacent allies to receive the shield's bonus. All selected allies receive the same bonus. If a shielded target is ever more than 5 feet from the wearer, the effect ends for that target but not for any other targets.",
 			"",
 			"### Construction",
 			"",

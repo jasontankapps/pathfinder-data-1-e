@@ -2444,10 +2444,10 @@
 		]
 	},
 	"runewell_minor": {
-		"name": "Runewell, Minor",
+		"name": "Minor Runewell",
 		"sources": [ "Rise of the Runelords Anniversary Edition" ],
 		"description": [
-			"## Runewell, Minor",
+			"## Minor Runewell",
 			"",
 			"{SOURCE Rise of the Runelords Anniversary Edition/424}  ",
 			"**Aura** strong necromancy; **CL** 20th  ",
@@ -2466,6 +2466,7 @@
 			"Once a minor runewell of wrath is deactivated, it can be destroyed forever by filling it with holy water that is then set to a boil for no less than 24 hours."
 		]
 	},
+	"minor_runewell": { "copyof": "runewell_minor" },
 	"screaming_spear_of_the_sun": {
 		"name": "Screaming Spear of the Sun",
 		"sources": [ "Mythic Adventures" ],

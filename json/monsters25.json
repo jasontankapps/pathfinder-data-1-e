@@ -405,7 +405,7 @@
 		]
 	},
 	"wasp_giant_wasp": {
-		"name": "Wasp, Giant Wasp",
+		"name": "Giant Wasp",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This horse-sized wasp is covered in yellow and black vertical stripes - its stinger is the size of a sword and drips with venom.*",
@@ -456,7 +456,7 @@
 	"giant_wasp": { "copyof": "wasp_giant_wasp" },
 	"wasp_giant": { "copyof": "wasp_giant_wasp" },
 	"wasp_ground_wasp_swarm": {
-		"name": "Wasp, Ground Wasp Swarm",
+		"name": "Ground Wasp Swarm",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
 		"description": [
 			"*Thousands of yellow and black wasps form a thick cloud that swirls with savage bites and venomous stings.*",
@@ -508,7 +508,7 @@
 	"ground_wasp_swarm": { "copyof": "wasp_ground_wasp_swarm" },
 	"wasp_ground_swarm": { "copyof": "wasp_ground_wasp_swarm" },
 	"wasp_wasp_swarm": {
-		"name": "Wasp, Wasp Swarm",
+		"name": "Wasp Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A low, ominous buzz announces the arrival of a mass of many thousands of angry, stinging wasps.*",
@@ -799,7 +799,7 @@
 		]
 	},
 	"water_strider_giant_water_strider": {
-		"name": "Water Strider, Giant Water Strider",
+		"name": "Giant Water Strider",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This bug has long, fuzzy legs that support it on the water's surface as if the creature stands on solid ground.*",
@@ -852,7 +852,7 @@
 	},
 	"giant_water_strider": { "copyof": "water_strider_giant_water_strider" },
 	"water_strider_nymph_water_strider": {
-		"name": "Water Strider, Nymph Water Strider",
+		"name": "Nymph Water Strider",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*These small, immature water insects are easily supported by the water's surface tension.*",
@@ -1024,7 +1024,7 @@
 		]
 	},
 	"weasel_dire_weasel": {
-		"name": "Weasel, Dire Weasel",
+		"name": "Dire Weasel",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This bear-sized predator is long and low-slung. Its soft fur and intelligent expression contrast with its glistening fangs.*",
@@ -1075,7 +1075,7 @@
 	"dire_weasel": { "copyof": "weasel_dire_weasel" },
 	"weasel_dire": { "copyof": "weasel_dire_weasel" },
 	"weasel_giant_weasel": {
-		"name": "Weasel, Giant Weasel",
+		"name": "Giant Weasel",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #67: The Snows of Summer"
@@ -1361,7 +1361,7 @@
 		]
 	},
 	"whale_great_white_whale": {
-		"name": "Whale, Great White Whale",
+		"name": "Great White Whale",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This immense whale has an enormous, box-shaped head over a massive, toothy maw. Its rough white hide is laced with scars.*",
@@ -1866,7 +1866,7 @@
 		]
 	},
 	"wild_hunt_wild_hunt_archer": {
-		"name": "Wild Hunt, Wild Hunt Archer",
+		"name": "Wild Hunt Archer",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This lithe, androgynous humanoid has pointed ears, glowing green eyes, and six fingers on each slender hand.*",
@@ -1929,7 +1929,7 @@
 	},
 	"wild_hunt_archer": { "copyof": "wild_hunt_wild_hunt_archer" },
 	"wild_hunt_wild_hunt_horse": {
-		"name": "Wild Hunt, Wild Hunt Horse",
+		"name": "Wild Hunt Horse",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This powerful steed stands upon wispy puffs of air, its grassy mane and tail swishing majestically in the wind.*",
@@ -1993,7 +1993,7 @@
 	},
 	"wild_hunt_horse": { "copyof": "wild_hunt_wild_hunt_horse" },
 	"wild_hunt_wild_hunt_hound": {
-		"name": "Wild Hunt, Wild Hunt Hound",
+		"name": "Wild Hunt Hound",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*Green smoke billows from the bared teeth and flared nostrils of this muscular, sharp-eared hound.*",
@@ -2058,7 +2058,7 @@
 	},
 	"wild_hunt_hound": { "copyof": "wild_hunt_wild_hunt_hound" },
 	"wild_hunt_wild_hunt_monarch": {
-		"name": "Wild Hunt, Wild Hunt Monarch",
+		"name": "Wild Hunt Monarch",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This limber and regal humanoid has an elk's antlers, long pointed ears, flowing white hair, and luminescent green eyes.*",
@@ -2142,7 +2142,7 @@
 	},
 	"wild_hunt_monarch": { "copyof": "wild_hunt_wild_hunt_monarch" },
 	"wild_hunt_wild_hunt_scout": {
-		"name": "Wild Hunt, Wild Hunt Scout",
+		"name": "Wild Hunt Scout",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This lithe humanoid has pointed ears, glowing green eyes, and a ram's horns.*",
@@ -2453,7 +2453,7 @@
 		]
 	},
 	"witchcrow_greater_witchcrow": {
-		"name": "Witchcrow, Greater Witchcrow",
+		"name": "Greater Witchcrow",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"description": [
 			"::mh[Greater Witchcrow]{cr=\"3\"}",
@@ -2759,7 +2759,7 @@
 		]
 	},
 	"wolf_dire_wolf": {
-		"name": "Wolf, Dire Wolf",
+		"name": "Dire Wolf",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This immense black wolf is the size of a horse, its fangs as large and sharp as knives.*",
@@ -2804,7 +2804,7 @@
 	"dire_wolf": { "copyof": "wolf_dire_wolf" },
 	"wolf_dire": { "copyof": "wolf_dire_wolf" },
 	"wolf_timber_wolf": {
-		"name": "Wolf, Timber Wolf",
+		"name": "Timber Wolf",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"description": [
 			"*A chilling chorus of howls echoes through the air as a massive, white-furred wolf emerges.*",
@@ -2978,7 +2978,7 @@
 		]
 	},
 	"wolliped_wolliped_combat_trained": {
-		"name": "Wolliped, Wolliped (Combat Trained)",
+		"name": "Wolliped (Combat Trained)",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
 		"description": [
 			"*This shaggy, multi-legged creature has a flattened face with wide nostrils and four eyes. Ivory tusks jut downward from its mouth.*",
@@ -3055,7 +3055,7 @@
 	},
 	"wolliped_combat_trained": { "copyof": "wolliped_wolliped_combat_trained" },
 	"wolliped_wolliped_domesticated_or_wild": {
-		"name": "Wolliped, Wolliped (Domesticated or Wild)",
+		"name": "Wolliped (Domesticated or Wild)",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
 		"description": [
 			"::mh[Wolliped (Domesticated or Wild)]{cr=\"3\"}",
@@ -3242,7 +3242,7 @@
 		]
 	},
 	"wolverine_dire_wolverine": {
-		"name": "Wolverine, Dire Wolverine",
+		"name": "Dire Wolverine",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This terrible wolverine is as large as a bear, its jaws and claws oversized and brutal, its eyes dark and filled with rage.*",
@@ -3337,7 +3337,7 @@
 		]
 	},
 	"worg_winter_wolf": {
-		"name": "Worg, Winter Wolf",
+		"name": "Winter Wolf (Worg)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This bear-sized wolf has white fur and a rime of frost around its muzzle. Its eyes are pale blue, almost white in color.*",

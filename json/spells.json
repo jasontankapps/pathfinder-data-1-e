@@ -700,12 +700,12 @@
 		]
 	},
 	"age_resistance_lesser": {
-		"name": "Age Resistance, Lesser",
+		"name": "Lesser Age Resistance",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{jumplist Age Resistance / Age Resistance, Greater}",
 			"",
-			"## Age Resistance, Lesser",
+			"## Lesser Age Resistance",
 			"",
 			"{SOURCE Ultimate Magic/205}  ",
 			"**School** {spelldef/transmutation}; **Level** alchemist 3, arcanist 4, druid 4, hunter 4, investigator 3, occultist 3, psychic 4, redmantisassassin 4, sorcerer 4, witch 4, wizard 4  ",
@@ -729,7 +729,7 @@
 			"",
 			"This spell functions as lesser age resistance, except you ignore the Strength, Dexterity, and Constitution penalties gained at middle and old age.",
 			"",
-			"### Age Resistance, Greater",
+			"### Greater Age Resistance",
 			"",
 			"{SOURCE Ultimate Magic/205}  ",
 			"**School** {spelldef/transmutation}; **Level** alchemist 5, arcanist 7, druid 7, investigator 5, occultist 5, psychic 7, sorcerer 7, witch 7, wizard 7  ",
@@ -748,7 +748,7 @@
 		"copyof": "lesser_age_resistance"
 	},
 	"age_resistance_greater": {
-		"name": "Age Resistance, Greater",
+		"name": "Greater Age Resistance",
 		"copyof": "lesser_age_resistance"
 	},
 	"greater_age_resistance": { "copyof": "age_resistance_greater" },
@@ -789,7 +789,7 @@
 			"",
 			"The sphere moves as long as you actively direct it (as a move action for you); otherwise, it stays at rest and crackles with lightning. It can be moved by wind effects and counts as a Small creature for the purpose of determining how winds affect it. The sphere has no physical substance and cannot exert any force on corporeal creatures or objects. It disperses if it exceeds the spell's range.",
 			"",
-			"### Aggressive Thundercloud, Greater",
+			"### Greater Aggressive Thundercloud",
 			"",
 			"{SOURCE Advanced Class Guide/172}  ",
 			"**School** {spelldef/evocation} [{spelldef/electricity}, {spelldef/sonic}]; **Level** arcanist 4, druid 4, hunter 4, magus 4, sorcerer 4, witch 4, wizard 4  ",
@@ -804,7 +804,7 @@
 		]
 	},
 	"aggressive_thundercloud_greater": {
-		"name": "Aggressive Thundercloud, Greater",
+		"name": "Greater Aggressive Thundercloud",
 		"copyof": "aggressive_thundercloud"
 	},
 	"greater_aggressive_thundercloud": { "copyof": "aggressive_thundercloud_greater" },
@@ -983,7 +983,7 @@
 			"",
 			"You can cast air walk on a specially trained mount so it can be ridden through the air. You can train a mount to move with the aid of air walk (counts as a trick; see Handle Animal skill) with 1 week of work and a DC 25 Handle Animal check.",
 			"",
-			"### Air Walk, Communal",
+			"### Communal Air Walk",
 			"",
 			"{SOURCE Ultimate Combat/222}  ",
 			"**School** {spelldef/transmutation} [{spelldef/air}]; **Level** alchemist 5, cleric 5, druid 5, hunter 5, investigator 5, occultist 5, oracle 5, warpriest 5  ",
@@ -998,7 +998,7 @@
 		]
 	},
 	"air_walk_communal": {
-		"name": "Air Walk, Communal",
+		"name": "Communal Air Walk",
 		"copyof": "air_walk"
 	},
 	"communal_air_walk": { "copyof": "air_walk_communal" },
@@ -1203,7 +1203,7 @@
 			"",
 			"You can't cast this spell on a natural weapon, such as an unarmed strike. When you make a weapon chaotic, evil, good, or lawful, align weapon is a chaotic, evil, good, or lawful spell, respectively.",
 			"",
-			"### Align Weapon, Communal",
+			"### Communal Align Weapon",
 			"",
 			"{SOURCE Advanced Class Guide/173}  ",
 			"**School** {spelldef/transmutation} [see text]; **Level** cleric 3, inquisitor 3, oracle 3, warpriest 3  ",
@@ -1218,7 +1218,7 @@
 		]
 	},
 	"align_weapon_communal": {
-		"name": "Align Weapon, Communal",
+		"name": "Communal Align Weapon",
 		"copyof": "align_weapon"
 	},
 	"communal_align_weapon": { "copyof": "align_weapon_communal" },
@@ -1713,12 +1713,12 @@
 		]
 	},
 	"angelic_aspect_lesser": {
-		"name": "Angelic Aspect, Lesser",
+		"name": "Lesser Angelic Aspect",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"{jumplist Angelic Aspect / Angelic Aspect, Greater}",
 			"",
-			"## Angelic Aspect, Lesser",
+			"## Lesser Angelic Aspect",
 			"",
 			"{SOURCE Champions of Purity/28}  ",
 			"**School** {spelldef/transmutation} [{spelldef/good}]; **Level** arcanist 2, cleric 2, oracle 2, paladin 2, redmantisassassin 2, sorcerer 2, warpriest 2, wizard 2  ",
@@ -1744,7 +1744,7 @@
 			"",
 			"This spell functions like lesser angelic aspect, except you gain low-light vision, darkvision 60, resistance to acid 10, resistance to cold 10, and DR 5/evil, and you sprout white feathered wings allowing you to fly at a speed of 30 feet with average maneuverability. In addition, your natural weapons and any weapons you wield are considered good-aligned for the purpose of overcoming damage reduction.",
 			"",
-			"### Angelic Aspect, Greater",
+			"### Greater Angelic Aspect",
 			"",
 			"{SOURCE Champions of Purity/28}  ",
 			"**School** {spelldef/transmutation} [{spelldef/good}]; **Level** arcanist 8, cleric 8, oracle 8, paladin 4, sorcerer 8, wizard 8  ",
@@ -1768,7 +1768,7 @@
 		"copyof": "lesser_angelic_aspect"
 	},
 	"angelic_aspect_greater": {
-		"name": "Angelic Aspect, Greater",
+		"name": "Greater Angelic Aspect",
 		"copyof": "lesser_angelic_aspect"
 	},
 	"greater_angelic_aspect": { "copyof": "angelic_aspect_greater" },
@@ -1836,7 +1836,7 @@
 			"",
 			"You gain low-light vision, a +2 size bonus to the physical ability score of your choice, and a +1 enhancement bonus to your natural armor. Alternatively, you may cast the non-mythic form of this spell on a touched willing creature.",
 			"",
-			"### Animal Aspect, Greater",
+			"### Greater Animal Aspect",
 			"",
 			"{SOURCE Ultimate Combat/223}  ",
 			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** alchemist 3, arcanist 4, bloodrager 3, druid 3, hunter 3, investigator 3, magus 3, psychic 4, ranger 3, redmantisassassin 4, sorcerer 4, wizard 4  ",
@@ -1865,7 +1865,7 @@
 		]
 	},
 	"animal_aspect_greater": {
-		"name": "Animal Aspect, Greater",
+		"name": "Greater Animal Aspect",
 		"copyof": "animal_aspect"
 	},
 	"greater_animal_aspect": { "copyof": "animal_aspect_greater" },
@@ -2016,7 +2016,7 @@
 			"",
 			"Alternatively, if you're 8th tier and expend 10 uses of mythic power, any skeletons you create permanently gain the {template/mythic skeleton} template.",
 			"",
-			"### Animate Dead, Lesser",
+			"### Lesser Animate Dead",
 			"",
 			"{SOURCE Ultimate Magic/205}  ",
 			"**School** {spelldef/necromancy} [{spelldef/evil}]; **Level** arcanist 3, cleric 2, occultist 2, oracle 2, shaman 2, sorcerer 3, spiritualist 2, warpriest 2, wizard 3  ",
@@ -2031,7 +2031,7 @@
 		]
 	},
 	"animate_dead_lesser": {
-		"name": "Animate Dead, Lesser",
+		"name": "Lesser Animate Dead",
 		"copyof": "animate_dead"
 	},
 	"lesser_animate_dead": { "copyof": "animate_dead_lesser" },
@@ -2144,7 +2144,7 @@
 			"",
 			"You implant a mental mine within your psyche that triggers against anyone attempting to manipulate your thoughts. Any creature that uses a mind-affecting effect against you triggers the mine, causing psychic backlash against the offending creature. This backlash deals 1d6 points of damage per caster level (maximum 10d6) and staggers the target for 1d4 rounds. If the target succeeds at a Will saving throw, it takes only half damage and negates the staggered effect. The mine does not disrupt the mind-affecting effect that triggered the spell. You can use a swift action to suppress the trigger of your mine for 1 round to allow someone to use a mind-affecting effect on you. You can have only one mental mine active at a time.",
 			"",
-			"### Animus Mine, Greater",
+			"### Greater Animus Mine",
 			"",
 			"{SOURCE Heroes of the Darklands/20}  ",
 			"**School** {spelldef/abjuration} [{spelldef/mind-affecting}]; **Level** mesmerist 4, psychic 5  ",
@@ -2158,7 +2158,7 @@
 		]
 	},
 	"animus_mine_greater": {
-		"name": "Animus Mine, Greater",
+		"name": "Greater Animus Mine",
 		"copyof": "animus_mine"
 	},
 	"greater_animus_mine": { "copyof": "animus_mine_greater" },
@@ -2200,7 +2200,7 @@
 			"",
 			"The target's carrying capacity triples. This does not affect the creature's actual Strength in any way, merely the amount of material it can carry while benefiting from this spell. It also has no effect on encumbrance due to armor. If the creature wears armor it still takes the normal penalties for doing so regardless of how much weight the spell allows it to carry.",
 			"",
-			"### Ant Haul, Communal",
+			"### Communal Ant Haul",
 			"",
 			"{SOURCE Ultimate Combat/223}  ",
 			"**School** {spelldef/transmutation}; **Level** alchemist 2, arcanist 2, cleric 2, druid 2, hunter 2, investigator 2, occultist 2, oracle 2, psychic 2, ranger 2, redmantisassassin 2, sorcerer 2, summoner 2, unchained summoner 2, warpriest 2, wizard 2  ",
@@ -2215,7 +2215,7 @@
 		]
 	},
 	"ant_haul_communal": {
-		"name": "Ant Haul, Communal",
+		"name": "Communal Ant Haul",
 		"copyof": "ant_haul"
 	},
 	"communal_ant_haul": { "copyof": "ant_haul_communal" },
@@ -2674,7 +2674,7 @@
 			"",
 			"Appearance of life can be made permanent with a {spell/permanency} spell by a caster of 12th level or higher for the cost of 10,000 gp.",
 			"",
-			"### Appearance of Life, Greater",
+			"### Greater Appearance of Life",
 			"",
 			"{SOURCE Villain Codex/8}  ",
 			"**School** {spelldef/illusion} ({spelldef/glamer}); **Level** arcanist 5, cleric 5, medium 4, mesmerist 5, oracle 5, psychic 5, sorcerer 5, spiritualist 4, warpriest 5, witch 5, wizard 5  ",
@@ -2689,7 +2689,7 @@
 		]
 	},
 	"appearance_of_life_greater": {
-		"name": "Appearance of Life, Greater",
+		"name": "Greater Appearance of Life",
 		"copyof": "appearance_of_life"
 	},
 	"greater_appearance_of_life": { "copyof": "appearance_of_life_greater" },
@@ -3136,7 +3136,7 @@
 			"",
 			"Arcane sight can be made permanent with a {spell/permanency} spell.",
 			"",
-			"### Arcane Sight, Greater",
+			"### Greater Arcane Sight",
 			"",
 			"{SOURCE PRPG Core Rulebook/244}  ",
 			"**School** {spelldef/divination}; **Level** arcanist 7, psychic 7, sorcerer 7, witch 7, wizard 7  ",
@@ -3152,7 +3152,7 @@
 		]
 	},
 	"arcane_sight_greater": {
-		"name": "Arcane Sight, Greater",
+		"name": "Greater Arcane Sight",
 		"copyof": "arcane_sight"
 	},
 	"greater_arcane_sight": { "copyof": "arcane_sight_greater" },
@@ -3528,7 +3528,7 @@
 			"",
 			"If the assumed creature is returned to life while this spell is active, assume appearance immediately ends.",
 			"",
-			"### Assume Appearance, Greater",
+			"### Greater Assume Appearance",
 			"",
 			"{SOURCE Horror Adventures/109}  ",
 			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** alchemist 4, arcanist 4, bard 4, investigator 4, medium 4, mesmerist 4, occultist 4, psychic 4, shaman 4, skald 4, sorcerer 4, spiritualist 4, summoner 4, unchained summoner 4, witch 4, wizard 4  ",
@@ -3544,7 +3544,7 @@
 		]
 	},
 	"assume_appearance_greater": {
-		"name": "Assume Appearance, Greater",
+		"name": "Greater Assume Appearance",
 		"copyof": "assume_appearance"
 	},
 	"greater_assume_appearance": { "copyof": "assume_appearance_greater" },
@@ -3602,7 +3602,7 @@
 			"",
 			"When this spell ends, your astral body and all of its gear, vanishes.",
 			"",
-			"### Astral Projection, Lesser",
+			"### Lesser Astral Projection",
 			"",
 			"{SOURCE Ultimate Magic/207}  ",
 			"**School** {spelldef/necromancy}; **Level** arcanist 5, cleric 5, oracle 5, psychic 5, sorcerer 5, warpriest 5, wizard 5  ",
@@ -3617,7 +3617,7 @@
 		]
 	},
 	"astral_projection_lesser": {
-		"name": "Astral Projection, Lesser",
+		"name": "Lesser Astral Projection",
 		"copyof": "astral_projection"
 	},
 	"lesser_astral_projection": { "copyof": "astral_projection_lesser" },
@@ -3638,7 +3638,7 @@
 			"",
 			"By bringing forth the primeval ancestry of the target animal, you awaken a savage engine of destruction. The animal immediately gains the advanced creature simple template. It gains a +2 bonus on all rolls, including damage rolls and special ability DCs, a +4 bonus to AC and CMD, and +2 hit points per HD. The animal's primal instincts take hold for the duration of this spell - if the animal knows tricks granted by the Handle Animal skill, it loses access to all of those tricks save for \"attack.\" This spell has no effect on animals that already have the advanced creature template.",
 			"",
-			"### Atavism, Mass",
+			"### Mass Atavism",
 			"",
 			"{SOURCE Ultimate Magic/207}  ",
 			"**School** {spelldef/transmutation}; **Level** druid 8  ",
@@ -3653,7 +3653,7 @@
 		]
 	},
 	"atavism_mass": {
-		"name": "Atavism, Mass",
+		"name": "Mass Atavism",
 		"copyof": "atavism"
 	},
 	"mass_atavism": { "copyof": "atavism_mass" },

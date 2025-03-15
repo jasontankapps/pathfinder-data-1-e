@@ -1057,16 +1057,16 @@
 		]
 	},
 	"best_friend_pendant_greater": {
-		"name": "Best Friend Pendant, Greater",
+		"name": "Greater Best Friend Pendant",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"## Best Friend Pendant, Greater",
+			"## Greater Best Friend Pendant",
 			"",
 			"{SOURCE Ultimate Intrigue/243}  ",
 			"**Aura** moderate conjuration and transmutation; **CL** 7th  ",
 			"**Slot** neck; **Price** 9,000 gp; **Weight** -;",
 			"",
-			"Made of finely wrought platinum, this neckpiece is an improved version of a best friend pendant. In addition to the regular abilities of a best friend pendant, this version can absorb Medium and Large animals as well as Tiny or Small elementals, magical beasts, and outsiders. Elementals, magical beasts, and outsiders don't require Handle Animal checks to be made willing to enter the necklace, but might require other forms of coercion at the GM's discretion.",
+			"Made of finely wrought platinum, this neckpiece is an improved version of a {magic-wondrous/best friend pendant}. In addition to the regular abilities of a best friend pendant, this version can absorb Medium and Large animals as well as Tiny or Small elementals, magical beasts, and outsiders. Elementals, magical beasts, and outsiders don't require Handle Animal checks to be made willing to enter the necklace, but might require other forms of coercion at the GM's discretion.",
 			"",
 			"### Construction",
 			"",
@@ -1806,16 +1806,16 @@
 		]
 	},
 	"dire_collar_greater": {
-		"name": "Dire Collar, Greater",
+		"name": "Greater Dire Collar",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Dire Collar, Greater",
+			"## Greater Dire Collar",
 			"",
 			"{SOURCE Advanced Class Guide/229}  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** neck; **Price** 14,000 gp; **Weight** 2 lbs.",
 			"",
-			"This collar functions as a dire collar, except that the animal wearing it gains the benefit of an animal growth spell for 1 minute.",
+			"This collar functions as a {magic-wondrous/dire collar}, except that the animal wearing it gains the benefit of an animal growth spell for 1 minute.",
 			"",
 			"### Construction",
 			"",

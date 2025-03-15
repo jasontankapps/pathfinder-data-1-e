@@ -2718,10 +2718,10 @@
 		]
 	},
 	"hallowed_chain_greater_varisian": {
-		"name": "Hallowed Chain, Greater (Varisian)",
+		"name": "Greater Hallowed Chain (Varisian)",
 		"sources": [ "Inner Sea Races" ],
 		"description": [
-			"## Hallowed Chain, Greater (Varisian)",
+			"## Greater Hallowed Chain (Varisian)",
 			"",
 			"{SOURCE Inner Sea Races/225}  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
@@ -2729,7 +2729,7 @@
 			"",
 			"The following suit of armor is generally available only to members of the indicated race or ethnicity.",
 			"",
-			"This armor functions as hallowed chain, except that it protects as a suit of +3 {magic-enh/martyring} {eq-armor/chainmail} and can absorb up to 10 points of positive energy.",
+			"This armor functions as {magic-armor/hallowed chain>_varisian}, except that it protects as a suit of +3 {magic-enh/martyring} {eq-armor/chainmail} and can absorb up to 10 points of positive energy.",
 			"",
 			"### Construction",
 			"",
@@ -3602,16 +3602,16 @@
 		]
 	},
 	"casters_shield_greater": {
-		"name": "Caster's Shield, Greater",
+		"name": "Greater Caster's Shield",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
-			"## Caster's Shield, Greater",
+			"## Greater Caster's Shield",
 			"",
 			"{SOURCE Ultimate Equipment/131}  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** shield; **Price** 10,153 gp; **Weight** 5 lbs.",
 			"",
-			"This +3 {eq-armor/light wooden shield} acts in all ways like a caster's shield, but the strip can accommodate spells of up to 5th level.",
+			"This +3 {eq-armor/light wooden shield} acts in all ways like a {magic-armor/caster's shield}, but the strip can accommodate spells of up to 5th level.",
 			"",
 			"### Construction",
 			"",

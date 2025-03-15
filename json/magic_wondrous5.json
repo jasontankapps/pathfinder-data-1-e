@@ -1361,16 +1361,16 @@
 		]
 	},
 	"time_bomb_greater": {
-		"name": "Time Bomb, Greater",
+		"name": "Greater Time Bomb",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"## Time Bomb, Greater",
+			"## Greater Time Bomb",
 			"",
 			"{SOURCE Ultimate Intrigue/251}  ",
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.",
 			"",
-			"A greater time bomb functions as a time bomb, but deals 13d6 points of fire damage (Reflex DC 20 half).",
+			"A greater time bomb functions as a {magic-wondrous/time bomb}, but deals 13d6 points of fire damage (Reflex DC 20 half).",
 			"",
 			"### Construction",
 			"",
@@ -2912,19 +2912,19 @@
 		]
 	},
 	"wayfinder_vanishing": {
-		"name": "Wayfinder, Vanishing",
+		"name": "Vanishing Wayfinder",
 		"sources": [
 			"Adventurer's Guide",
 			"Pathfinder Society Field Guide"
 		],
 		"description": [
-			"## Wayfinder, Vanishing",
+			"## Vanishing Wayfinder",
 			"",
 			"{SOURCE Adventurer's Guide/148;Pathfinder Society Field Guide/55}  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
-			"Vanishing wayfinders are crafted of ivory chased with gold and silver. In addition to the usual functions of a wayfinder (including the ability to create light), the bearer of a vanishing wayfinder can press a hidden catch as a standard action to become invisible (as the spell {spell/invisibility}) for as long as she concentrates, up to a maximum duration of 5 minutes per day. These minutes need not be consecutive, but each activation uses 1 minute of duration, even if the user becomes visible by making an attack or by some other means before that minute is up.",
+			"Vanishing wayfinders are crafted of ivory chased with gold and silver. In addition to the usual functions of a {magic-wondrous/wayfinder} (including the ability to create light), the bearer of a vanishing wayfinder can press a hidden catch as a standard action to become invisible (as the spell {spell/invisibility}) for as long as she concentrates, up to a maximum duration of 5 minutes per day. These minutes need not be consecutive, but each activation uses 1 minute of duration, even if the user becomes visible by making an attack or by some other means before that minute is up.",
 			"",
 			"### Construction",
 			"",

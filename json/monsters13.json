@@ -1553,7 +1553,7 @@
 		]
 	},
 	"havero_havero_tentacle": {
-		"name": "Havero, Havero Tentacle",
+		"name": "Havero Tentacle",
 		"sources": [ "Curse of the Crimson Throne" ],
 		"description": [
 			"::mh[Havero Tentacle]{cr=\"6\"}",
@@ -1831,7 +1831,7 @@
 		]
 	},
 	"hell_hound_nessian_warhound": {
-		"name": "Hell Hound, Nessian Warhound",
+		"name": "Nessian Warhound (Hell Hound)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This creature resembles a powerfully built wolf the size of a large draft horse, with ebony fur and burning, fiery red eyes.*",
@@ -2060,7 +2060,7 @@
 		]
 	},
 	"herd_animal_antelope": {
-		"name": "Herd Animal, Antelope",
+		"name": "Antelope (Herd Animal)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -2116,7 +2116,7 @@
 	},
 	"antelope": { "copyof": "herd_animal_antelope" },
 	"herd_animal_aurochs": {
-		"name": "Herd Animal, Aurochs",
+		"name": "Aurochs (Herd Animal)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This large, horned bull has a dirty black hide and an aggressive temper. Its horns are wide and sharp.*",
@@ -2168,7 +2168,7 @@
 	"auroch": { "copyof": "herd_animal_aurochs" },
 	"aurochs": { "copyof": "herd_animal_aurochs" },
 	"herd_animal_bison": {
-		"name": "Herd Animal, Bison",
+		"name": "Bison (Herd Animal)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This creature has small, upward-pointing horns, a shaggy coat of fur, and a large hump on its shoulders.*",
@@ -2219,7 +2219,7 @@
 	},
 	"bison": { "copyof": "herd_animal_bison" },
 	"herd_animal_camel": {
-		"name": "Herd Animal, Camel",
+		"name": "Camel (Herd Animal)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2271,7 +2271,7 @@
 	},
 	"camel": { "copyof": "herd_animal_camel" },
 	"herd_animal_elk": {
-		"name": "Herd Animal, Elk",
+		"name": "Elk (Herd Animal)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #31: Stolen Land",
@@ -2324,7 +2324,7 @@
 	},
 	"elk": { "copyof": "herd_animal_elk" },
 	"herd_animal_giraffe": {
-		"name": "Herd Animal, Giraffe",
+		"name": "Giraffe (Herd Animal)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -2379,7 +2379,7 @@
 	},
 	"giraffe": { "copyof": "herd_animal_giraffe" },
 	"herd_animal_ram": {
-		"name": "Herd Animal, Ram",
+		"name": "Ram (Herd Animal)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2430,7 +2430,7 @@
 	},
 	"ram": { "copyof": "herd_animal_ram" },
 	"herd_animal_river_elk": {
-		"name": "Herd Animal, River Elk",
+		"name": "River Elk (Herd Animal)",
 		"sources": [
 			"Pathfinder #31: Stolen Land",
 			"Pathfinder RPG Bestiary"
@@ -2489,7 +2489,7 @@
 	},
 	"river_elk": { "copyof": "herd_animal_river_elk" },
 	"herd_animal_stag": {
-		"name": "Herd Animal, Stag",
+		"name": "Stag (Herd Animal)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -2541,7 +2541,7 @@
 	},
 	"stag": { "copyof": "herd_animal_stag" },
 	"herecite_herecite_of_asmodeus": {
-		"name": "Herecite, Herecite of Asmodeus",
+		"name": "Herecite of Asmodeus",
 		"sources": [
 			"Pathfinder #100: A Song of Silver",
 			"Bestiary 6"
@@ -2871,7 +2871,7 @@
 		]
 	},
 	"hippopotamus_behemoth_hippopotamus": {
-		"name": "Hippopotamus, Behemoth Hippopotamus",
+		"name": "Behemoth Hippopotamus",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This immense behemoth of a hippo is larger than an elephant. Its teeth are like scimitars, and it moves with an indomitable gait.*",
@@ -3058,7 +3058,7 @@
 		]
 	},
 	"hive_hive_brute": {
-		"name": "Hive, Hive Brute",
+		"name": "Hive Brute",
 		"sources": [
 			"Nidal, Land of Shadows",
 			"Horror Adventures"
@@ -3117,7 +3117,7 @@
 	},
 	"hive_brute": { "copyof": "hive_hive_brute" },
 	"hive_hive_larva_swarm": {
-		"name": "Hive, Hive Larva Swarm",
+		"name": "Hive Larva Swarm",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"*This mass of writhing, maggotlike creatures secretes a caustic odor*",
@@ -3174,7 +3174,7 @@
 	},
 	"hive_larva_swarm": { "copyof": "hive_hive_larva_swarm" },
 	"hive_hive_queen": {
-		"name": "Hive, Hive Queen",
+		"name": "Hive Queen",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"*Black, chitinous armor covers this enormous insectile creature. Caustic saliva drips from its mandibles.*",
@@ -3232,7 +3232,7 @@
 	},
 	"hive_queen": { "copyof": "hive_hive_queen" },
 	"hive_hive_warrior": {
-		"name": "Hive, Hive Warrior",
+		"name": "Hive Warrior",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"*This creature is humanoid in shape, but covered with chitinous plating. Its head is elongated, and it has a long, bladed tail.*",
@@ -3474,7 +3474,7 @@
 		]
 	},
 	"hobgoblin_hobgoblin_battle_priest": {
-		"name": "Hobgoblin, Hobgoblin Battle Priest",
+		"name": "Hobgoblin Battle Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
@@ -3538,7 +3538,7 @@
 	},
 	"hobgoblin_battle_priest": { "copyof": "hobgoblin_hobgoblin_battle_priest" },
 	"hobgoblin_hobgoblin_battlefield_zealot": {
-		"name": "Hobgoblin, Hobgoblin Battlefield Zealot",
+		"name": "Hobgoblin Battlefield Zealot",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
@@ -3592,7 +3592,7 @@
 	},
 	"hobgoblin_battlefield_zealot": { "copyof": "hobgoblin_hobgoblin_battlefield_zealot" },
 	"hobgoblin_hobgoblin_bombardier": {
-		"name": "Hobgoblin, Hobgoblin Bombardier",
+		"name": "Hobgoblin Bombardier",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
@@ -3651,7 +3651,7 @@
 	},
 	"hobgoblin_bombardier": { "copyof": "hobgoblin_hobgoblin_bombardier" },
 	"hobgoblin_hobgoblin_commander": {
-		"name": "Hobgoblin, Hobgoblin Commander",
+		"name": "Hobgoblin Commander",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Hobgoblin Commander]{cr=\"12\"}",
@@ -3724,7 +3724,7 @@
 	},
 	"hobgoblin_commander": { "copyof": "hobgoblin_hobgoblin_commander" },
 	"hobgoblin_hobgoblin_forerunner": {
-		"name": "Hobgoblin, Hobgoblin Forerunner",
+		"name": "Hobgoblin Forerunner",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
@@ -3772,7 +3772,7 @@
 	},
 	"hobgoblin_forerunner": { "copyof": "hobgoblin_hobgoblin_forerunner" },
 	"hobgoblin_hobgoblin_lieutenant": {
-		"name": "Hobgoblin, Hobgoblin Lieutenant",
+		"name": "Hobgoblin Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
@@ -3821,7 +3821,7 @@
 	},
 	"hobgoblin_lieutenant": { "copyof": "hobgoblin_hobgoblin_lieutenant" },
 	"hobgoblin_hobgoblin_paragon": {
-		"name": "Hobgoblin, Hobgoblin Paragon",
+		"name": "Hobgoblin Paragon",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
@@ -3875,7 +3875,7 @@
 	},
 	"hobgoblin_paragon": { "copyof": "hobgoblin_hobgoblin_paragon" },
 	"hobgoblin_hobgoblin_sergeant": {
-		"name": "Hobgoblin, Hobgoblin Sergeant",
+		"name": "Hobgoblin Sergeant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
@@ -4137,7 +4137,7 @@
 		]
 	},
 	"hollow_serpent_lesser_hollow_serpent": {
-		"name": "Hollow Serpent, Lesser Hollow Serpent",
+		"name": "Lesser Hollow Serpent",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
 		"description": [
 			"::mh[Lesser Hollow Serpent]{cr=\"6\"}",

@@ -558,7 +558,7 @@
 		]
 	},
 	"colossus_flesh_colossus_mythic": {
-		"name": "Colossus, Flesh Colossus",
+		"name": "Flesh Colossus",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This enormous monstrosity looks like a pile of fresh humanoid bodies shoved into a shambling humanoid shape.*",
@@ -628,7 +628,7 @@
 	"colossus_flesh": { "copyof": "colossus_flesh_colossus_mythic" },
 	"flesh_colossus_mythic": { "copyof": "colossus_flesh_colossus_mythic" },
 	"colossus_iron_colossus_mythic": {
-		"name": "Colossus, Iron Colossus",
+		"name": "Iron Colossus",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*A siege engineer's nightmare, this giant machine emits noxious fumes from its grinding engine.*",
@@ -707,7 +707,7 @@
 	"colossus_iron": { "copyof": "colossus_iron_colossus_mythic" },
 	"iron_colossus_mythic": { "copyof": "colossus_iron_colossus_mythic" },
 	"colossus_sphinx_colossus_mythic": {
-		"name": "Colossus, Sphinx Colossus",
+		"name": "Sphinx Colossus",
 		"sources": [
 			"Bestiary 5",
 			"Osirion, Legacy of the Pharaohs"
@@ -783,7 +783,7 @@
 	"colossus_sphinx": { "copyof": "colossus_sphinx_colossus_mythic" },
 	"sphinx_colossus_mythic": { "copyof": "colossus_sphinx_colossus_mythic" },
 	"colossus_stone_colossus_mythic": {
-		"name": "Colossus, Stone Colossus",
+		"name": "Stone Colossus",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This immense stone figure appears to be a keep that uprooted itself and went for a walk.*",
@@ -862,7 +862,7 @@
 	"colossus_stone": { "copyof": "colossus_stone_colossus_mythic" },
 	"stone_colossus_mythic": { "copyof": "colossus_stone_colossus_mythic" },
 	"colossus_wood_colossus_mythic": {
-		"name": "Colossus, Wood Colossus",
+		"name": "Wood Colossus",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This gigantic construct looks like a walking mansion, its body and limbs composed of various rooms.*",
@@ -932,7 +932,7 @@
 	"colossus_wood": { "copyof": "colossus_wood_colossus_mythic" },
 	"wood_colossus_mythic": { "copyof": "colossus_wood_colossus_mythic" },
 	"cyclops_great_cyclops_mythic": {
-		"name": "Cyclops, Great Cyclops",
+		"name": "Great Cyclops",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*This enormous one-eyed humanoid has a horn protruding from its forehead and fists the size of tree trunks.*",
@@ -992,7 +992,7 @@
 	},
 	"great_cyclops_mythic": { "copyof": "cyclops_great_cyclops_mythic" },
 	"demon_marilith_mythic": {
-		"name": "Demon, Marilith",
+		"name": "Marilith (Demon)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*This snake-bodied fiend has a six-armed woman's torso, pointed ears, and glittering, otherworldly eyes.*",
@@ -1054,7 +1054,7 @@
 	},
 	"marilith_mythic": { "copyof": "demon_marilith_mythic" },
 	"demon_nalfeshnee_mythic": {
-		"name": "Demon, Nalfeshnee",
+		"name": "Nalfeshnee (Demon)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*A towering, corpulent beast, this fiend has the hideous head of a boar and arms ending in fatty, four-fingered hands.*",
@@ -1117,7 +1117,7 @@
 	},
 	"nalfeshnee_mythic": { "copyof": "demon_nalfeshnee_mythic" },
 	"demon_vrock_mythic": {
-		"name": "Demon, Vrock",
+		"name": "Vrock (Demon)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*A cloud of spores and a trail of feathers surrounds this twisted cross between a man and a gigantic vulture.*",
@@ -1240,7 +1240,7 @@
 	},
 	"devastator": { "copyof": "devastator_mythic" },
 	"devil_bone_devil_mythic": {
-		"name": "Devil, Bone Devil",
+		"name": "Bone Devil (Devil)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*Merging the most horrifying features of carrion-fed insect and withered cadaver, this bony devil moves in unsettling lurches.*",
@@ -1304,7 +1304,7 @@
 	"devil_bone_devil": { "copyof": "devil_bone_devil_mythic" },
 	"bone_devil_mythic": { "copyof": "devil_bone_devil_mythic" },
 	"devil_ice_devil_mythic": {
-		"name": "Devil, Ice Devil",
+		"name": "Ice Devil (Devil)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*A pair of frozen, multifaceted eyes coldly judge all before this towering, insectile monstrosity.*",
@@ -1371,7 +1371,7 @@
 	"devil_ice_devil": { "copyof": "devil_ice_devil_mythic" },
 	"ice_devil_mythic": { "copyof": "devil_ice_devil_mythic" },
 	"dragon_black_mature_adult_black_dragon_mythic": {
-		"name": "Dragon (Black), Mature Adult Black Dragon",
+		"name": "Mature Adult Black Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*This sinuous and stinking dragon is covered in black scales, with massive horns curling up from its head.*",
@@ -1432,7 +1432,7 @@
 	"dragon_black_mature_adult_black_dragon": { "copyof": "dragon_black_mature_adult_black_dragon_mythic" },
 	"mature_adult_black_dragon_mythic": { "copyof": "dragon_black_mature_adult_black_dragon_mythic" },
 	"dragon_blue_mature_adult_blue_dragon_mythic": {
-		"name": "Dragon (Blue), Mature Adult Blue Dragon",
+		"name": "Mature Adult Blue Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*Miniature bolts of electricity and a cloud of swirling sand surround this dragon's hulking, blue-scaled body.*",
@@ -1492,7 +1492,7 @@
 	"dragon_blue_mature_adult_blue_dragon": { "copyof": "dragon_blue_mature_adult_blue_dragon_mythic" },
 	"mature_adult_blue_dragon_mythic": { "copyof": "dragon_blue_mature_adult_blue_dragon_mythic" },
 	"dragon_green_very_old_green_dragon_mythic": {
-		"name": "Dragon (Green), Very Old Green Dragon",
+		"name": "Very Old Green Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*Strange shapes dart about within the acrid fog surrounding this green-scaled dragon, and a large horn rises from its snout.*",
@@ -1553,7 +1553,7 @@
 	"dragon_green_very_old_green_dragon": { "copyof": "dragon_green_very_old_green_dragon_mythic" },
 	"very_old_green_dragon_mythic": { "copyof": "dragon_green_very_old_green_dragon_mythic" },
 	"dragon_red_wyrm_red_dragon_mythic": {
-		"name": "Dragon (Red), Wyrm Red Dragon",
+		"name": "Wyrm Red Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*A ruddy glow emanates from beneath this dragon's red, gem-encrusted scales, like lava visible between cracks of cooling stone.*",
@@ -1628,7 +1628,7 @@
 	"wyrm_red_dragon_mythic": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
 	"wyrm_red_dragon": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
 	"dragon_red_young_red_dragon_mythic": {
-		"name": "Dragon (Red), Young Red Dragon",
+		"name": "Young Red Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*A ruddy glow emanates from beneath this dragon's red, gem-encrusted scales, like lava visible between cracks of cooling stone.*",
@@ -1691,7 +1691,7 @@
 	},
 	"young_red_dragon_mythic": { "copyof": "dragon_red_young_red_dragon_mythic" },
 	"dragon_white_juvenile_white_dragon_mythic": {
-		"name": "Dragon (White), Juvenile White Dragon",
+		"name": "Juvenile White Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*This dragon's white, ice-encrusted scales glitter like diamonds as it effortlessly makes its way across the snow.*",
@@ -1838,7 +1838,7 @@
 		]
 	},
 	"elemental_air_elder_air_elemental_mythic": {
-		"name": "Elemental (Air), Elder Air Elemental",
+		"name": "Elder Air Elemental",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*This living tornado draws in all the air that surrounds it, hurling unrestrained objects as it moves.*",
@@ -1895,7 +1895,7 @@
 	},
 	"elder_air_elemental_mythic": { "copyof": "elemental_air_elder_air_elemental_mythic" },
 	"elemental_earth_elder_earth_elemental_mythic": {
-		"name": "Elemental (Earth), Elder Earth Elemental",
+		"name": "Elder Earth Elemental",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*This humanoid mountain of stone and earth strides forward on legs like pillars, a vast grove covering its back.*",
@@ -1956,7 +1956,7 @@
 	},
 	"elder_earth_elemental_mythic": { "copyof": "elemental_earth_elder_earth_elemental_mythic" },
 	"elemental_fire_elder_fire_elemental_mythic": {
-		"name": "Elemental (Fire), Elder Fire Elemental",
+		"name": "Elder Fire Elemental",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*This blazing conflagration is vaguely humanoid in shape, its horned visage almost too bright to look upon.*",
@@ -2018,7 +2018,7 @@
 	},
 	"elder_fire_elemental_mythic": { "copyof": "elemental_fire_elder_fire_elemental_mythic" },
 	"elemental_water_elder_water_elemental_mythic": {
-		"name": "Elemental (Water), Elder Water Elemental",
+		"name": "Elder Water Elemental",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*Thousands of gallons of water rise up to become a tentacled face, a bulbous body, and four long tentacular appendages.*",
@@ -2263,7 +2263,7 @@
 		]
 	},
 	"giant_fire_giant_mythic": {
-		"name": "Giant, Fire Giant",
+		"name": "Fire Giant",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*This giant's hair, beard, and skin are made of lava, and its armor and weapon glow with a dull heat.*",
@@ -2322,7 +2322,7 @@
 	"giant_fire_giant": { "copyof": "giant_fire_giant_mythic" },
 	"fire_giant_mythic": { "copyof": "giant_fire_giant_mythic" },
 	"giant_hill_giant_mythic": {
-		"name": "Giant, Hill Giant",
+		"name": "Hill Giant",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*Like barnacles made of rock, stone growths encrust the feet of this thick-bodied giant.*",
@@ -2457,7 +2457,7 @@
 	},
 	"glaistig": { "copyof": "glaistig_mythic" },
 	"golem_flesh_golem_mythic": {
-		"name": "Golem, Flesh Golem",
+		"name": "Flesh Golem",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*Electricity constantly arcs between the bolts and rivets that hold this amalgamated creature's flesh together.*",

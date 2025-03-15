@@ -68,7 +68,7 @@
 			"",
 			"A favored blessing of halfling clerics, this spell grants its target a +2 morale bonus on saving throws against fear effects. If the target has the fearless racial trait, it is immune to fear instead. If the target fails a saving throw against fear, it can end the spell as an immediate action to reroll the save with a +4 morale bonus, and must take the new result, even if it is worse.",
 			"",
-			"### Blessing of Luck and Resolve, Mass",
+			"### Mass Blessing of Luck and Resolve",
 			"",
 			"{SOURCE Advanced Race Guide/68}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** cleric 6, inquisitor 6, oracle 6, paladin 4, warpriest 6 (halfling)  ",
@@ -83,7 +83,7 @@
 		]
 	},
 	"blessing_of_luck_and_resolve_mass": {
-		"name": "Blessing of Luck and Resolve, Mass",
+		"name": "Mass Blessing of Luck and Resolve",
 		"copyof": "blessing_of_luck_and_resolve"
 	},
 	"mass_blessing_of_luck_and_resolve": { "copyof": "blessing_of_luck_and_resolve_mass" },
@@ -1224,7 +1224,7 @@
 			"",
 			"Brand etches an indelible rune or mark of no more than 6 characters onto a creature, inflicting 1 point of damage. The mark may be placed on any exposed portion of the creature, typically the head or forearm. A brand can be hidden by clothing or removed by scraping it away (causing 1d6 points of damage), though the brand returns if the damage is healed.",
 			"",
-			"### Brand, Greater",
+			"### Greater Brand",
 			"",
 			"{SOURCE Advanced Player's Guide/207}  ",
 			"**School** {spelldef/transmutation} [{spelldef/curse}]; **Level** inquisitor 4  ",
@@ -1239,7 +1239,7 @@
 		]
 	},
 	"brand_greater": {
-		"name": "Brand, Greater",
+		"name": "Greater Brand",
 		"copyof": "brand"
 	},
 	"greater_brand": { "copyof": "brand_greater" },
@@ -1339,7 +1339,7 @@
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, target objects gain the broken condition on a successful save and are destroyed on a failed save. This doesn't affect mythic objects or objects held or carried by mythic creatures.",
 			"",
-			"### Break, Greater",
+			"### Greater Break",
 			"",
 			"{SOURCE Ultimate Intrigue/205}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 6, bloodrager 4, occultist 6, psychic 6, sorcerer 6, wizard 6  ",
@@ -1387,7 +1387,7 @@
 		]
 	},
 	"break_greater": {
-		"name": "Break, Greater",
+		"name": "Greater Break",
 		"copyof": "break"
 	},
 	"greater_break": { "copyof": "break_greater" },
@@ -1614,7 +1614,7 @@
 			"",
 			"The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.",
 			"",
-			"### Bull's Strength, Mass",
+			"### Mass Bull's Strength",
 			"",
 			"{SOURCE PRPG Core Rulebook/251}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 6, cleric 6, druid 6, hunter 6, magus 6, oracle 6, psychic 6, shaman 6, sorcerer 6, summoner 4, unchained summoner 6, warpriest 6, wizard 6  ",
@@ -1629,7 +1629,7 @@
 		]
 	},
 	"bulls_strength_mass": {
-		"name": "Bull's Strength, Mass",
+		"name": "Mass Bull's Strength",
 		"copyof": "bulls_strength"
 	},
 	"mass_bulls_strength": { "copyof": "bulls_strength_mass" },
@@ -2077,7 +2077,7 @@
 			"",
 			"You fill your target's mind with a blaring cacophony of discordant sounds, making it hard for the target to act and concentrate. The creature gains the nauseated condition for the duration of the spell if it fails its Will save.",
 			"",
-			"### Cacophonous Call, Mass",
+			"### Mass Cacophonous Call",
 			"",
 			"{SOURCE Advanced Player's Guide/208}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** bard 5, skald 5  ",
@@ -2092,7 +2092,7 @@
 		]
 	},
 	"cacophonous_call_mass": {
-		"name": "Cacophonous Call, Mass",
+		"name": "Mass Cacophonous Call",
 		"copyof": "cacophonous_call"
 	},
 	"mass_cacophonous_call": { "copyof": "cacophonous_call_mass" },
@@ -2419,7 +2419,7 @@
 			"",
 			"If the target takes hit point damage while within range of this spell, it immediately teleports to your space (or adjacent to your space) after the damage is applied. If the target is killed, its corpse teleports instead. Optionally, you can specify a number of points of damage for your familiar to take before the spell takes effect, but you must do so when the spell is cast. Once the familiar has teleported back to you, the spell ends.",
 			"",
-			"### Callback, Greater",
+			"### Greater Callback",
 			"",
 			"{SOURCE Ultimate Wilderness/228}  ",
 			"**School** {spelldef/conjuration} ({spelldef/teleportation}); **Level** arcanist 5, shaman 5, sorcerer 5, witch 5, wizard 5  ",
@@ -2434,7 +2434,7 @@
 		]
 	},
 	"callback_greater": {
-		"name": "Callback, Greater",
+		"name": "Greater Callback",
 		"copyof": "callback"
 	},
 	"greater_callback": { "copyof": "callback_greater" },
@@ -2700,7 +2700,7 @@
 			"",
 			"You compel the target to beg for forgiveness. On a failed save, the target cowers with fear. On a successful save, it is shaken for 1 round. Each round on its turn, a cowering subject may attempt a new save to end the effect. A creature who worships the same god as you takes a -2 penalty on its saving throw.",
 			"",
-			"### Castigate, Mass",
+			"### Mass Castigate",
 			"",
 			"{SOURCE Advanced Player's Guide/210}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/emotion}, {spelldef/fear}, {spelldef/language-dependent}, {spelldef/mind-affecting}]; **Level** inquisitor 5, mesmerist 5  ",
@@ -2715,7 +2715,7 @@
 		]
 	},
 	"castigate_mass": {
-		"name": "Castigate, Mass",
+		"name": "Mass Castigate",
 		"copyof": "castigate"
 	},
 	"mass_castigate": { "copyof": "castigate_mass" },
@@ -2758,7 +2758,7 @@
 			"",
 			"The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier.",
 			"",
-			"### Cat's Grace, Mass",
+			"### Mass Cat's Grace",
 			"",
 			"{SOURCE PRPG Core Rulebook/252}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 6, bard 6, druid 6, hunter 6, magus 6, psychic 6, skald 6, sorcerer 6, summoner 4, unchained summoner 6, wizard 6  ",
@@ -2773,7 +2773,7 @@
 		]
 	},
 	"cats_grace_mass": {
-		"name": "Cat's Grace, Mass",
+		"name": "Mass Cat's Grace",
 		"copyof": "cats_grace"
 	},
 	"mass_cats_grace": { "copyof": "cats_grace_mass" },
@@ -2928,10 +2928,10 @@
 		]
 	},
 	"celestial_healing_greater": {
-		"name": "Celestial Healing, Greater",
+		"name": "Greater Celestial Healing",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
-			"## Celestial Healing, Greater",
+			"## Greater Celestial Healing",
 			"",
 			"{SOURCE Arcane Anthology/13}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}) [{spelldef/good}]; **Level** arcanist 4, bloodrager 4, cleric 4, magus 4, oracle 4, sorcerer 4, summoner 4, warpriest 4, witch 4, wizard 4  ",
@@ -3328,7 +3328,7 @@
 			"",
 			"You fade into the background, and while you are not truly invisible, you are hard to pinpoint due to your translucent state. While under the effects of this spell, you gain a +4 bonus on Stealth checks and have concealment from creatures more than 5 feet away (attacks have a 20% miss chance).",
 			"",
-			"### Chameleon Stride, Greater",
+			"### Greater Chameleon Stride",
 			"",
 			"{SOURCE Advanced Class Guide/177}  ",
 			"**School** {spelldef/illusion} ({spelldef/glamer}); **Level** hunter 3, ranger 3  ",
@@ -3342,7 +3342,7 @@
 		]
 	},
 	"chameleon_stride_greater": {
-		"name": "Chameleon Stride, Greater",
+		"name": "Greater Chameleon Stride",
 		"copyof": "chameleon_stride"
 	},
 	"greater_chameleon_stride": { "copyof": "chameleon_stride_greater" },
@@ -3558,7 +3558,7 @@
 			"",
 			"This spell functions like charm person, except that the effect is not restricted by creature type or size.",
 			"",
-			"### Charm Monster, Mass",
+			"### Mass Charm Monster",
 			"",
 			"{SOURCE PRPG Core Rulebook/254}  ",
 			"**School** {spelldef/enchantment} ({spelldef/charm}) [{spelldef/mind-affecting}]; **Level** arcanist 8, bard 6, mesmerist 6, occultist 6, psychic 8, skald 6, sorcerer 8, summoner 6, witch 8, wizard 8  ",
@@ -3573,7 +3573,7 @@
 		]
 	},
 	"charm_monster_mass": {
-		"name": "Charm Monster, Mass",
+		"name": "Mass Charm Monster",
 		"copyof": "charm_monster"
 	},
 	"mass_charm_monster": { "copyof": "charm_monster_mass" },
@@ -3615,7 +3615,7 @@
 			"",
 			"This spell functions as charm person, except it affects a fey instead of a humanoid.",
 			"",
-			"### Charm Person, Mass",
+			"### Mass Charm Person",
 			"",
 			"{SOURCE Ultimate Intrigue/206}  ",
 			"**School** {spelldef/enchantment} ({spelldef/charm}) [{spelldef/mind-affecting}]; **Level** arcanist 5, bard 4, mesmerist 4, occultist 4, psychic 5, shaman 5, skald 4, sorcerer 5, witch 5, wizard 5  ",
@@ -3630,7 +3630,7 @@
 		]
 	},
 	"charm_person_mass": {
-		"name": "Charm Person, Mass",
+		"name": "Mass Charm Person",
 		"copyof": "charm_person"
 	},
 	"mass_charm_person": { "copyof": "charm_person_mass" },
@@ -3871,7 +3871,7 @@
 			"",
 			"Claim identity prevents any other polymorph effects from restoring the target's true face for the spell's duration, though the target can still assume other forms or faces via magic or any natural shapechanging ability.",
 			"",
-			"### Claim Identity, Greater",
+			"### Greater Claim Identity",
 			"",
 			"{SOURCE Spymaster's Handbook/28}  ",
 			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** alchemist 5, antipaladin 4, arcanist 6, bard 5, druid 6, hunter 6, inquisitor 5, investigator 5, shaman 6, skald 5, sorcerer 6, witch 5, wizard 6  ",
@@ -3888,7 +3888,7 @@
 		]
 	},
 	"claim_identity_greater": {
-		"name": "Claim Identity, Greater",
+		"name": "Greater Claim Identity",
 		"copyof": "claim_identity"
 	},
 	"greater_claim_identity": { "copyof": "claim_identity_greater" },

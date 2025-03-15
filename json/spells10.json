@@ -960,7 +960,7 @@
 			"",
 			"You emit a pulsating mental blast that stuns all creatures in range of your psychic shriek for 1 round.",
 			"",
-			"### Synaptic Pulse, Greater",
+			"### Greater Synaptic Pulse",
 			"",
 			"{SOURCE Occult Adventures/187}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** mesmerist 4, psychic 5  ",
@@ -975,7 +975,7 @@
 		]
 	},
 	"synaptic_pulse_greater": {
-		"name": "Synaptic Pulse, Greater",
+		"name": "Greater Synaptic Pulse",
 		"copyof": "synaptic_pulse"
 	},
 	"greater_synaptic_pulse": { "copyof": "synaptic_pulse_greater" },
@@ -1026,7 +1026,7 @@
 			"",
 			"In addition, the affected creature is considered distracted for the purpose of attempting Perception checks. Effects that negate or reduce concealment do not affect the miss chance from synesthesia.",
 			"",
-			"### Synesthesia, Mass",
+			"### Mass Synesthesia",
 			"",
 			"{SOURCE Occult Adventures/188}  ",
 			"**School** {spelldef/illusion} ({spelldef/phantasm}) [{spelldef/mind-affecting}]; **Level** mesmerist 5, psychic 7  ",
@@ -1041,7 +1041,7 @@
 		]
 	},
 	"synesthesia_mass": {
-		"name": "Synesthesia, Mass",
+		"name": "Mass Synesthesia",
 		"copyof": "synesthesia"
 	},
 	"mass_synesthesia": { "copyof": "synesthesia_mass" },
@@ -1740,7 +1740,7 @@
 			"| Viewed once | 01-76 | 77-88 | 89-96 | 97-100 |",
 			"| False destination | - | - | 81-92 | 93-100 |",
 			"",
-			"### Teleport, Greater",
+			"### Greater Teleport",
 			"",
 			"{SOURCE PRPG Core Rulebook/359}  ",
 			"**School** {spelldef/conjuration} ({spelldef/teleportation}); **Level** arcanist 7, psychic 7, sorcerer 7, summoner 5, unchained summoner 6, witch 7, wizard 7  ",
@@ -1837,7 +1837,7 @@
 		]
 	},
 	"teleport_greater": {
-		"name": "Teleport, Greater",
+		"name": "Greater Teleport",
 		"copyof": "teleport"
 	},
 	"greater_teleport": { "copyof": "teleport_greater" },
@@ -2527,7 +2527,7 @@
 			"",
 			"You stomp your foot or strike your weapon against the ground or floor, creating a ripple of power that you can use to trip a creature. Attempt the combat maneuver check to trip the target, but instead of your base attack bonus you can use your caster level, and instead of your Strength modifier you can use your spellcasting ability score modifier (Intelligence for magi and wizards; Wisdom for druids and rangers; Charisma for bloodragers and sorcerers). This does not provoke an attack of opportunity. This spell has no effect if you cannot reach the ground or floor, or if your target is not in contact with the ground or floor.",
 			"",
-			"### Thunderstomp, Greater",
+			"### Greater Thunderstomp",
 			"",
 			"{SOURCE Advanced Class Guide/196}  ",
 			"**School** {spelldef/evocation} [{spelldef/earth}]; **Level** arcanist 3, bloodrager 3, druid 3, hunter 3, magus 3, ranger 3, sorcerer 3, wizard 3  ",
@@ -2542,7 +2542,7 @@
 		]
 	},
 	"thunderstomp_greater": {
-		"name": "Thunderstomp, Greater",
+		"name": "Greater Thunderstomp",
 		"copyof": "thunderstomp"
 	},
 	"greater_thunderstomp": { "copyof": "thunderstomp_greater" },
@@ -2790,7 +2790,7 @@
 			"",
 			"Tongues can be made permanent with a {spell/permanency} spell.",
 			"",
-			"### Tongues, Communal",
+			"### Communal Tongues",
 			"",
 			"{SOURCE Ultimate Combat/248}  ",
 			"**School** {spelldef/divination}; **Level** alchemist 4, arcanist 4, bard 3, cleric 5, investigator 4, mesmerist 3, oracle 5, psychic 4, skald 3, sorcerer 4, summoner 4, unchained summoner 4, warpriest 5, witch 4, wizard 4  ",
@@ -2805,7 +2805,7 @@
 		]
 	},
 	"tongues_communal": {
-		"name": "Tongues, Communal",
+		"name": "Communal Tongues",
 		"copyof": "tongues"
 	},
 	"communal_tongues": { "copyof": "tongues_communal" },

@@ -16,7 +16,7 @@
 			"",
 			"You are closely surrounded by a barely visible magical field. The field provides a +1 deflection bonus to AC and a +1 resistance bonus on saves. Any creature that strikes you with a melee attack is stunned for 1 round (Will negates). Once the field has stunned an opponent, the spell is discharged.",
 			"",
-			"### Stunning Barrier, Greater",
+			"### Greater Stunning Barrier",
 			"",
 			"{SOURCE Advanced Class Guide/195}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 3, cleric 3, inquisitor 3, oracle 3, paladin 3, psychic 3, sorcerer 3, warpriest 3, wizard 3  ",
@@ -31,7 +31,7 @@
 		]
 	},
 	"stunning_barrier_greater": {
-		"name": "Stunning Barrier, Greater",
+		"name": "Greater Stunning Barrier",
 		"copyof": "stunning_barrier"
 	},
 	"greater_stunning_barrier": { "copyof": "stunning_barrier_greater" },
@@ -150,7 +150,7 @@
 			"",
 			"This spell extracts the air from the target's lungs, causing swift suffocation. The target can attempt to resist this spell's effects with a Fortitude save - if he succeeds, he is merely staggered for 1 round as he gasps for breath. If the target fails, he immediately begins to suffocate. On the target's next turn, he falls unconscious and is reduced to 0 hit points. One round later, the target drops to -1 hit points and is dying. One round after that, the target dies. Each round, the target can delay that round's effects from occurring by making a successful Fortitude save, but the spell effect continues for 3 rounds, and each time a target fails his Fortitude save, he moves one step further along the track to suffocation. This spell only affects living creatures that must breathe. It is impossible to defeat the effects of this spell by simply holding one's breath - if the victim fails the initial saving throw, the air in his lungs is extracted.",
 			"",
-			"### Suffocation, Mass",
+			"### Mass Suffocation",
 			"",
 			"{SOURCE Advanced Player's Guide/248}  ",
 			"**School** {spelldef/necromancy}; **Level** arcanist 9, psychic 9, sorcerer 9, witch 9, wizard 9  ",
@@ -165,7 +165,7 @@
 		]
 	},
 	"suffocation_mass": {
-		"name": "Suffocation, Mass",
+		"name": "Mass Suffocation",
 		"copyof": "suffocation"
 	},
 	"mass_suffocation": { "copyof": "suffocation_mass" },
@@ -215,7 +215,7 @@
 			"",
 			"This spell functions as per suggestion, except the target can pass on the enchantment to other targets. The target is compelled to communicate your suggestion to another creature, forcing the new target to attempt a saving throw as if it were the initial target. If a secondary target successfully saves, the suggestion effect on the initial target isn't negated. If a secondary target fails, it is placed under the same compulsion as the initial target and can further spread the suggestion. This spell can affect a total number of Hit Dice of creatures equal to your caster level. Creatures that save against this spell cannot be affected by that particular casting of contagious suggestion for 24 hours.",
 			"",
-			"### Suggestion, Mass",
+			"### Mass Suggestion",
 			"",
 			"{SOURCE PRPG Core Rulebook/350}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/language-dependent}, {spelldef/mind-affecting}]; **Level** arcanist 6, bard 5, mesmerist 5, occultist 5, psychic 5, skald 5, sorcerer 6, witch 6, wizard 6  ",
@@ -243,7 +243,7 @@
 		]
 	},
 	"suggestion_mass": {
-		"name": "Suggestion, Mass",
+		"name": "Mass Suggestion",
 		"copyof": "suggestion"
 	},
 	"mass_suggestion": { "copyof": "suggestion_mass" },
@@ -345,7 +345,7 @@
 			"",
 			"This spell functions like summon monster, except it summons a single cacodaemon.",
 			"",
-			"### Summon Cacodaemon, Greater",
+			"### Greater Summon Cacodaemon",
 			"",
 			"{SOURCE Book of the Damned - Volume 3: Horsemen of the Apocalypse/39}  ",
 			"**School** {spelldef/conjuration} ({spelldef/summoning}) [{spelldef/evil}]; **Level** arcanist 4, cleric 4, oracle 4, sorcerer 4, summoner 3, unchained summoner 3, warpriest 4, witch 4, wizard 4  ",
@@ -360,7 +360,7 @@
 		]
 	},
 	"summon_cacodaemon_greater": {
-		"name": "Summon Cacodaemon, Greater",
+		"name": "Greater Summon Cacodaemon",
 		"copyof": "summon_cacodaemon"
 	},
 	"greater_summon_cacodaemon": { "copyof": "summon_cacodaemon_greater" },
@@ -520,12 +520,12 @@
 		]
 	},
 	"summon_genie_lesser": {
-		"name": "Summon Genie, Lesser",
+		"name": "Lesser Summon Genie",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"{jumplist Summon Genie / Summon Genie, Greater}",
 			"",
-			"## Summon Genie, Lesser",
+			"## Lesser Summon Genie",
 			"",
 			"{SOURCE People of the Sands/11}  ",
 			"**School** {spelldef/conjuration} ({spelldef/summoning}); **Level** arcanist 4, cleric 4, oracle 4, sorcerer 4, summoner 3, unchained summoner 3, warpriest 4, witch 4, wizard 4  ",
@@ -551,7 +551,7 @@
 			"",
 			"This spell functions like lesser summon genie, except you can summon one djnni or 1d3 jann.",
 			"",
-			"### Summon Genie, Greater",
+			"### Greater Summon Genie",
 			"",
 			"{SOURCE People of the Sands/11}  ",
 			"**School** {spelldef/conjuration} ({spelldef/summoning}); **Level** arcanist 6, cleric 6, oracle 6, sorcerer 6, summoner 5, unchained summoner 5, warpriest 6, witch 6, wizard 6  ",
@@ -571,7 +571,7 @@
 		"copyof": "lesser_summon_genie"
 	},
 	"summon_genie_greater": {
-		"name": "Summon Genie, Greater",
+		"name": "Greater Summon Genie",
 		"copyof": "lesser_summon_genie"
 	},
 	"greater_summon_genie": { "copyof": "summon_genie_greater" },
@@ -1754,7 +1754,7 @@
 			"",
 			"You alter a creature so the touch of the sun is hostile to it. The cursed creature gains light blindness and is blinded for 1 round if exposed to bright light, such as sunlight or the {spell/daylight} spell. The cursed creature is dazzled as long as it remains in areas of bright light, and it is treated as being particularly susceptible to sunlight for the purposes of resolving spells like {spell/searing light}, {spell/sunbeam}, and {spell/sunburst}.",
 			"",
-			"### Sun's Disdain, Mass",
+			"### Mass Sun's Disdain",
 			"",
 			"{SOURCE Adventurer's Guide/17}  ",
 			"**School** {spelldef/transmutation} [{spelldef/curse}]; **Level** arcanist 5, cleric 5, inquisitor 5, oracle 5, shaman 5, sorcerer 5, warpriest 5, witch 5, wizard 5  ",
@@ -1769,7 +1769,7 @@
 		]
 	},
 	"suns_disdain_mass": {
-		"name": "Sun's Disdain, Mass",
+		"name": "Mass Sun's Disdain",
 		"copyof": "suns_disdain"
 	},
 	"mass_suns_disdain": { "copyof": "suns_disdain_mass" },

@@ -674,19 +674,19 @@
 		]
 	},
 	"wayfinder_ebon": {
-		"name": "Wayfinder, Ebon",
+		"name": "Ebon Wayfinder",
 		"sources": [
 			"Adventurer's Guide",
 			"Seekers of Secrets"
 		],
 		"description": [
-			"## Wayfinder, Ebon",
+			"## Ebon Wayfinder",
 			"",
 			"{SOURCE Adventurer's Guide/148;Seekers of Secrets/50}  ",
 			"**Aura** faint evocation and transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 18,000 gp; **Weight** 1 lb.",
 			"",
-			"Favored by Pathfinders exploring dark and dangerous locales, the exterior of this wayfinder is constructed of panels of darkwood with ebony inlays. The panels slide apart to reveal platinum meshwork capable of holding one or two ioun stones. An ebon wayfinder grants the bearer darkvision with a range of 60 feet, and with a command word it can create darkness (as per the spell) once per day, centered on itself.",
+			"Favored by Pathfinders exploring dark and dangerous locales, the exterior of this {magic-wondrous/wayfinder} is constructed of panels of darkwood with ebony inlays. The panels slide apart to reveal platinum meshwork capable of holding one or two ioun stones. An ebon wayfinder grants the bearer darkvision with a range of 60 feet, and with a command word it can create darkness (as per the spell) once per day, centered on itself.",
 			"",
 			"When one ioun stone is slotted into the device, its darkness ability no longer functions. When a second stone is placed in it, the darkvision ability no longer functions.",
 			"",
@@ -1077,10 +1077,10 @@
 		]
 	},
 	"monster_almanac_greater": {
-		"name": "Monster Almanac, Greater",
+		"name": "Greater Monster Almanac",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Monster Almanac, Greater",
+			"## Greater Monster Almanac",
 			"",
 			"{SOURCE Horror Adventures/221}  ",
 			"**Aura** moderate divination; **CL** 11th  ",

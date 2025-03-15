@@ -1,6 +1,6 @@
 {
 	"wysp_aether_wysp": {
-		"name": "Wysp, Aether Wysp",
+		"name": "Aether Wysp",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This sphere of elemental matter emits a strange hum that resonates with elemental power.*",
@@ -55,7 +55,7 @@
 	"aether_wysp": { "copyof": "wysp_aether_wysp" },
 	"wysp_aether": { "copyof": "wysp_aether_wysp" },
 	"wysp_air_wysp": {
-		"name": "Wysp, Air Wysp",
+		"name": "Air Wysp",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This sphere of elemental matter emits a strange hum that resonates with elemental power.*",
@@ -106,7 +106,7 @@
 	"air_wysp": { "copyof": "wysp_air_wysp" },
 	"wysp_air": { "copyof": "wysp_air_wysp" },
 	"wysp_earth_wysp": {
-		"name": "Wysp, Earth Wysp",
+		"name": "Earth Wysp",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This sphere of elemental matter emits a strange hum that resonates with elemental power.*",
@@ -157,7 +157,7 @@
 	"earth_wysp": { "copyof": "wysp_earth_wysp" },
 	"wysp_earth": { "copyof": "wysp_earth_wysp" },
 	"wysp_fire_wysp": {
-		"name": "Wysp, Fire Wysp",
+		"name": "Fire Wysp",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This sphere of elemental matter emits a strange hum that resonates with elemental power.*",
@@ -210,7 +210,7 @@
 	"fire_wysp": { "copyof": "wysp_fire_wysp" },
 	"wysp_fire": { "copyof": "wysp_fire_wysp" },
 	"wysp_water_wysp": {
-		"name": "Wysp, Water Wysp",
+		"name": "Water Wysp",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This sphere of elemental matter emits a strange hum that resonates with elemental power.*",
@@ -676,7 +676,7 @@
 		]
 	},
 	"xill_xill_matriarch": {
-		"name": "Xill, Xill Matriarch",
+		"name": "Xill Matriarch",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*This flame-red, four-armed creature has large mandibles and numerous hornlike projections spike from its head.*",
@@ -731,7 +731,7 @@
 	},
 	"xill_matriarch": { "copyof": "xill_xill_matriarch" },
 	"xiomorn_vault_keeper": {
-		"name": "Xiomorn, Vault Keeper",
+		"name": "Vault Keeper (Xiomorn)",
 		"sources": [
 			"Planar Adventures",
 			"The Emerald Spire Superdungeon"
@@ -2761,7 +2761,7 @@
 		]
 	},
 	"dog_riding_dog": {
-		"name": "Dog, Riding Dog",
+		"name": "Riding Dog",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This burly dog is fitted with a small saddle. A low, menacing growl rumbles up from its chest.*",
@@ -2852,7 +2852,7 @@
 		]
 	},
 	"dolphin_orca": {
-		"name": "Dolphin, Orca",
+		"name": "Orca (Dolphin)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This sleek black whale has a distinctive white patch near each eye and a mouth filled with sharp teeth.*",
@@ -2897,7 +2897,7 @@
 	},
 	"orca": { "copyof": "dolphin_orca" },
 	"dolphin_popoto": {
-		"name": "Dolphin, Popoto",
+		"name": "Popoto (Dolphin)",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"*This sleek mammal has a short snout and black, white, and gray markings along its body, with a rounded black dorsal fin.*",

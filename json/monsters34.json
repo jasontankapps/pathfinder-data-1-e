@@ -246,7 +246,7 @@
 		]
 	},
 	"jellyfish_bathysphere": {
-		"name": "Jellyfish, Bathysphere",
+		"name": "Bathysphere (Jellyfish)",
 		"sources": [ "Planes of Power" ],
 		"description": [
 			"*This miniscule red jellyfish has long, writhing red tentacles and a translucent bell that glows with an eerie blue light.*",
@@ -301,7 +301,7 @@
 	},
 	"bathysphere": { "copyof": "jellyfish_bathysphere" },
 	"jellyfish_deaths_head_jellyfish": {
-		"name": "Jellyfish, Death's Head Jellyfish",
+		"name": "Death's Head Jellyfish",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This long-tentacled jellyfish has a wide bell with a vaguely skull-shaped pattern on it.*",
@@ -351,7 +351,7 @@
 	"jellyfish_deaths_head": { "copyof": "jellyfish_deaths_head_jellyfish" },
 	"deaths_head_jellyfish": { "copyof": "jellyfish_deaths_head_jellyfish" },
 	"jellyfish_giant_jellyfish": {
-		"name": "Jellyfish, Giant Jellyfish",
+		"name": "Giant Jellyfish",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*The bell of this enormous amber jellyfish is as large as a carriage. A sinister bloom of tentacles dangles and writhes below.*",
@@ -409,7 +409,7 @@
 	"jellyfish_giant": { "copyof": "jellyfish_giant_jellyfish" },
 	"giant_jellyfish": { "copyof": "jellyfish_giant_jellyfish" },
 	"jellyfish_jellyfish_swarm": {
-		"name": "Jellyfish, Jellyfish Swarm",
+		"name": "Jellyfish Swarm",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*All but invisible in the water, this foul swarm of fist-sized jellyfish wriggles and writhes, a virtual wall of stinging tentacles.*",
@@ -458,7 +458,7 @@
 	},
 	"jellyfish_swarm": { "copyof": "jellyfish_jellyfish_swarm" },
 	"jellyfish_sapphire_jellyfish": {
-		"name": "Jellyfish, Sapphire Jellyfish",
+		"name": "Sapphire Jellyfish",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This tremendous, translucent jellyfish glows with blue internal light, and the water around its bell vibrates with an electrical charge.*",
@@ -1280,7 +1280,7 @@
 		]
 	},
 	"kami_dosojin": {
-		"name": "Kami, Dosojin",
+		"name": "Dosojin (Kami)",
 		"sources": [
 			"Pathfinder #52: Forest of Spirits",
 			"Bestiary 3"
@@ -1359,7 +1359,7 @@
 	},
 	"dosojin": { "copyof": "kami_dosojin" },
 	"kami_dunagh": {
-		"name": "Kami, Dunagh",
+		"name": "Dunagh (Kami)",
 		"sources": [
 			"Daughters of Fury",
 			"Bestiary 3"
@@ -1425,7 +1425,7 @@
 	},
 	"dunagh": { "copyof": "kami_dunagh" },
 	"kami_fukujin": {
-		"name": "Kami, Fukujin",
+		"name": "Fukujin (Kami)",
 		"sources": [
 			"Pathfinder #52: Forest of Spirits",
 			"Bestiary 3"
@@ -1507,7 +1507,7 @@
 	},
 	"fukujin": { "copyof": "kami_fukujin" },
 	"kami_jinushigami": {
-		"name": "Kami, Jinushigami",
+		"name": "Jinushigami (Kami)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This enormous amalgamation of stone and plant matter takes the shape of an old man leaning on an equally huge staff.*",
@@ -1589,7 +1589,7 @@
 	},
 	"jinushigami": { "copyof": "kami_jinushigami" },
 	"kami_kaminari": {
-		"name": "Kami, Kaminari",
+		"name": "Kaminari (Kami)",
 		"sources": [
 			"Pathfinder #52: Forest of Spirits",
 			"Bestiary 3"
@@ -1669,7 +1669,7 @@
 	},
 	"kaminari": { "copyof": "kami_kaminari" },
 	"kami_kodama": {
-		"name": "Kami, Kodama",
+		"name": "Kodama (Kami)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This little green humanoid figure stands only three feet tall. Its head is faceless save for two hollow pits for eyes.*",
@@ -1731,7 +1731,7 @@
 	},
 	"kodama": { "copyof": "kami_kodama" },
 	"kami_shikigami": {
-		"name": "Kami, Shikigami",
+		"name": "Shikigami (Kami)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This tiny, crudely carved statue of a robed man has glowing runes running across its surface.*",
@@ -1797,7 +1797,7 @@
 	},
 	"shikigami": { "copyof": "kami_shikigami" },
 	"kami_suijin": {
-		"name": "Kami, Suijin",
+		"name": "Suijin (Kami)",
 		"sources": [
 			"Pathfinder #52: Forest of Spirits",
 			"Bestiary 3"
@@ -1875,7 +1875,7 @@
 	},
 	"suijin": { "copyof": "kami_suijin" },
 	"kami_toshigami": {
-		"name": "Kami, Toshigami",
+		"name": "Toshigami (Kami)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This strangely beautiful old woman is composed completely of blossoms, bark, and antlerlike branches.*",
@@ -1934,7 +1934,7 @@
 	},
 	"toshigami": { "copyof": "kami_toshigami" },
 	"kami_zuishin": {
-		"name": "Kami, Zuishin",
+		"name": "Zuishin (Kami)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Within this elaborate suit of armor can be seen the partial form of a determined warrior.*",
@@ -2186,7 +2186,7 @@
 		]
 	},
 	"lamia_kin_hungerer": {
-		"name": "Lamia-Kin, Hungerer",
+		"name": "Hungerer (Lamia-Kin)",
 		"sources": [
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #6: Spires of Xin-Shalast"
@@ -2252,7 +2252,7 @@
 	},
 	"hungerer": { "copyof": "lamia_kin_hungerer" },
 	"lamia_kin_kuchrima": {
-		"name": "Lamia-Kin, Kuchrima",
+		"name": "Kuchrima (Lamia-Kin)",
 		"sources": [
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #6: Spires of Xin-Shalast"
@@ -3000,7 +3000,7 @@
 		]
 	},
 	"leech_giant_leech": {
-		"name": "Leech, Giant Leech",
+		"name": "Giant Leech",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A parasite ballooned to monstrous proportions undulates in the muck, its circular maw a spiral of teeth.*",
@@ -3055,7 +3055,7 @@
 	"giant_leech": { "copyof": "leech_giant_leech" },
 	"leech_giant": { "copyof": "leech_giant_leech" },
 	"leech_leech_swarm": {
-		"name": "Leech, Leech Swarm",
+		"name": "Leech Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A mass of wriggling black creatures each the size of a man's finger stirs the stagnant water before enveloping its victim.*",
@@ -3107,7 +3107,7 @@
 	},
 	"leech_swarm": { "copyof": "leech_leech_swarm" },
 	"leshy_cactus_leshy": {
-		"name": "Leshy, Cactus Leshy",
+		"name": "Cactus Leshy",
 		"sources": [
 			"Pathfinder #115: Trail of the Hunted",
 			"Bestiary 3"
@@ -3188,7 +3188,7 @@
 	"leshy_cactus": { "copyof": "leshy_cactus_leshy" },
 	"cactus_leshy": { "copyof": "leshy_cactus_leshy" },
 	"leshy_flytrap_leshy": {
-		"name": "Leshy, Flytrap Leshy",
+		"name": "Flytrap Leshy",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 3"
@@ -3265,7 +3265,7 @@
 	"leshy_flytrap": { "copyof": "leshy_flytrap_leshy" },
 	"flytrap_leshy": { "copyof": "leshy_flytrap_leshy" },
 	"leshy_fungus_leshy": {
-		"name": "Leshy, Fungus Leshy",
+		"name": "Fungus Leshy",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #34: Blood for Blood"
@@ -3343,7 +3343,7 @@
 	"leshy_fungus": { "copyof": "leshy_fungus_leshy" },
 	"fungus_leshy": { "copyof": "leshy_fungus_leshy" },
 	"leshy_gourd_leshy": {
-		"name": "Leshy, Gourd Leshy",
+		"name": "Gourd Leshy",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This little plant man walks on legs like tangled vines and has a pumpkin carved with eyes and a mouth for a head.*",
@@ -3420,7 +3420,7 @@
 	"leshy_gourd": { "copyof": "leshy_gourd_leshy" },
 	"gourd_leshy": { "copyof": "leshy_gourd_leshy" },
 	"leshy_leaf_leshy": {
-		"name": "Leshy, Leaf Leshy",
+		"name": "Leaf Leshy",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This little plant person is clad in a winglike leaf cloak and pinecone armor, wielding a twig as a makeshift spear.*",
@@ -3492,7 +3492,7 @@
 	"leshy_leaf": { "copyof": "leshy_leaf_leshy" },
 	"leaf_leshy": { "copyof": "leshy_leaf_leshy" },
 	"leshy_lichen_leshy": {
-		"name": "Leshy, Lichen Leshy",
+		"name": "Lichen Leshy",
 		"sources": [
 			"Pathfinder #116: Fangs of War",
 			"Bestiary 3"
@@ -3572,7 +3572,7 @@
 	"leshy_lichen": { "copyof": "leshy_lichen_leshy" },
 	"lichen_leshy": { "copyof": "leshy_lichen_leshy" },
 	"leshy_lotus_leshy": {
-		"name": "Leshy, Lotus Leshy",
+		"name": "Lotus Leshy",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 3"
@@ -3648,7 +3648,7 @@
 	"leshy_lotus": { "copyof": "leshy_lotus_leshy" },
 	"lotus_leshy": { "copyof": "leshy_lotus_leshy" },
 	"leshy_seaweed_leshy": {
-		"name": "Leshy, Seaweed Leshy",
+		"name": "Seaweed Leshy",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This vaguely humanoid plant creature has a body formed of soggy green seaweed and wears crude armor made from seashells.*",
@@ -3723,7 +3723,7 @@
 	"leshy_seaweed": { "copyof": "leshy_seaweed_leshy" },
 	"seaweed_leshy": { "copyof": "leshy_seaweed_leshy" },
 	"leshy_snapdragon_leshy": {
-		"name": "Leshy, Snapdragon Leshy",
+		"name": "Snapdragon Leshy",
 		"sources": [
 			"Pathfinder #116: Fangs of War",
 			"Bestiary 3"
@@ -3801,7 +3801,7 @@
 	"leshy_snapdragon": { "copyof": "leshy_snapdragon_leshy" },
 	"snapdragon_leshy": { "copyof": "leshy_snapdragon_leshy" },
 	"leshy_sunflower_leshy": {
-		"name": "Leshy, Sunflower Leshy",
+		"name": "Sunflower Leshy",
 		"sources": [
 			"Pathfinder #115: Trail of the Hunted",
 			"Bestiary 3"
@@ -3942,7 +3942,7 @@
 		]
 	},
 	"kraken_qwoshokk": {
-		"name": "Kraken, Qwoshokk",
+		"name": "Qwoshokk (Kraken)",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
 			"*This massive scarlet squid has dark blue stripes and wears various gold ornaments, its tentacles glistening with blue energy.*",

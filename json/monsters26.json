@@ -329,7 +329,7 @@
 		]
 	},
 	"amoeba_amoeba_swarm": {
-		"name": "Amoeba, Amoeba Swarm",
+		"name": "Amoeba Swarm",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Thousands of tiny gelatinous clots of animate ooze swarm in a wet mound, surrounded by a cloying stink of rancid vinegar.*",
@@ -377,7 +377,7 @@
 	},
 	"amoeba_swarm": { "copyof": "amoeba_amoeba_swarm" },
 	"amoeba_giant_amoeba": {
-		"name": "Amoeba, Giant Amoeba",
+		"name": "Giant Amoeba",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This blob of protoplasm is somewhat transparent, allowing the bones of undigested meals and a dark nucleus to be seen within.*",
@@ -762,7 +762,7 @@
 	},
 	"angazhani": { "copyof": "angazhani_high_girallon" },
 	"angel_astral_deva": {
-		"name": "Angel, Astral Deva",
+		"name": "Astral Deva (Angel)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This tall, human-like creature has long, feathery wings and a gentle inner radiance that makes it difficult to look directly at.*",
@@ -823,7 +823,7 @@
 	},
 	"astral_deva": { "copyof": "angel_astral_deva" },
 	"angel_balisse": {
-		"name": "Angel, Balisse",
+		"name": "Balisse (Angel)",
 		"sources": [
 			"Bestiary 5",
 			"Chronicle of the Righteous",
@@ -889,7 +889,7 @@
 	},
 	"balisse": { "copyof": "angel_balisse" },
 	"angel_cassisian": {
-		"name": "Angel, Cassisian",
+		"name": "Cassisian (Angel)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -956,7 +956,7 @@
 	},
 	"cassisian": { "copyof": "angel_cassisian" },
 	"angel_choral": {
-		"name": "Angel, Choral",
+		"name": "Choral (Angel)",
 		"sources": [
 			"Bestiary 5",
 			"Chronicle of the Righteous",
@@ -1022,7 +1022,7 @@
 	},
 	"choral": { "copyof": "angel_choral" },
 	"angel_dapsara": {
-		"name": "Angel, Dapsara",
+		"name": "Dapsara (Angel)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
@@ -1094,7 +1094,7 @@
 	},
 	"dapsara": { "copyof": "angel_dapsara" },
 	"angel_empyrean": {
-		"name": "Angel, Empyrean",
+		"name": "Empyrean (Angel)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -1192,7 +1192,7 @@
 	},
 	"empyrean": { "copyof": "angel_empyrean" },
 	"angel_erelim": {
-		"name": "Angel, Erelim",
+		"name": "Erelim (Angel)",
 		"sources": [
 			"Pathfinder #104: Wrath of Thrune",
 			"Pathfinder RPG Bestiary"
@@ -1281,7 +1281,7 @@
 	},
 	"erelim": { "copyof": "angel_erelim" },
 	"angel_iophanite": {
-		"name": "Angel, Iophanite",
+		"name": "Iophanite (Angel)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
@@ -1343,7 +1343,7 @@
 	},
 	"iophanite": { "copyof": "angel_iophanite" },
 	"angel_kuribu": {
-		"name": "Angel, Kuribu",
+		"name": "Kuribu (Angel)",
 		"sources": [
 			"Pathfinder #103: The Hellfire Compact",
 			"Pathfinder RPG Bestiary"
@@ -1430,7 +1430,7 @@
 	},
 	"kuribu": { "copyof": "angel_kuribu" },
 	"angel_monadic_deva": {
-		"name": "Angel, Monadic Deva",
+		"name": "Monadic Deva (Angel)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -1495,7 +1495,7 @@
 	},
 	"monadic_deva": { "copyof": "angel_monadic_deva" },
 	"angel_movanic_deva": {
-		"name": "Angel, Movanic Deva",
+		"name": "Movanic Deva (Angel)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -1557,7 +1557,7 @@
 	},
 	"movanic_deva": { "copyof": "angel_movanic_deva" },
 	"angel_ninkonda": {
-		"name": "Angel, Ninkonda",
+		"name": "Ninkonda (Angel)",
 		"sources": [
 			"Pathfinder #108: Hell Comes to Westcrown",
 			"Pathfinder RPG Bestiary"
@@ -1642,7 +1642,7 @@
 	},
 	"ninkonda": { "copyof": "angel_ninkonda" },
 	"alghollthu_aboleth": {
-		"name": "Alghollthu, Aboleth",
+		"name": "Aboleth (Alghollthu)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Four long tentacles writhe from this three-eyed fish-like creature's flanks, and its green body glistens with thick, clear slime.*",
@@ -1701,7 +1701,7 @@
 	},
 	"aboleth": { "copyof": "alghollthu_aboleth" },
 	"alghollthu_enisysian": {
-		"name": "Alghollthu, Enisysian",
+		"name": "Enisysian (Alghollthu)",
 		"sources": [
 			"Pathfinder #124: City in the Deep",
 			"Pathfinder RPG Bestiary"
@@ -1782,7 +1782,7 @@
 	},
 	"enisysian": { "copyof": "alghollthu_enisysian" },
 	"alghollthu_omnipath": {
-		"name": "Alghollthu, Omnipath",
+		"name": "Omnipath (Alghollthu)",
 		"sources": [
 			"Occult Bestiary",
 			"Bestiary 6",
@@ -1874,7 +1874,7 @@
 	},
 	"omnipath": { "copyof": "alghollthu_omnipath" },
 	"alghollthu_plizeazoth": {
-		"name": "Alghollthu, Plizeazoth",
+		"name": "Plizeazoth (Alghollthu)",
 		"sources": [
 			"Pathfinder #125: Tower of the Drowned Dead",
 			"Pathfinder RPG Bestiary"
@@ -1958,7 +1958,7 @@
 	},
 	"plizeazoth": { "copyof": "alghollthu_plizeazoth" },
 	"alghollthu_thalassic_architect": {
-		"name": "Alghollthu, Thalassic Architect",
+		"name": "Thalassic Architect (Alghollthu)",
 		"sources": [
 			"Pathfinder #121: The Lost Outpost",
 			"Pathfinder RPG Bestiary"
@@ -2041,7 +2041,7 @@
 	},
 	"thalassic_architect": { "copyof": "alghollthu_thalassic_architect" },
 	"alghollthu_veiled_master": {
-		"name": "Alghollthu, Veiled Master",
+		"name": "Veiled Master (Alghollthu)",
 		"sources": [
 			"Bestiary 6",
 			"Inner Sea Bestiary",
@@ -2134,7 +2134,7 @@
 	},
 	"veiled_master": { "copyof": "alghollthu_veiled_master" },
 	"angel_planetar": {
-		"name": "Angel, Planetar",
+		"name": "Planetar (Angel)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Muscular, bald, and tall, this humanoid creature has emerald skin and two pairs of shining, white-feathered wings.*",
@@ -2203,7 +2203,7 @@
 	},
 	"planetar": { "copyof": "angel_planetar" },
 	"angel_solar": {
-		"name": "Angel, Solar",
+		"name": "Solar (Angel)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This towering humanoid creature has shining topaz eyes, metallic skin, and three pairs of white wings.*",
@@ -2767,7 +2767,7 @@
 		]
 	},
 	"automaton_champion_automaton": {
-		"name": "Automaton, Champion Automaton",
+		"name": "Champion Automaton",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This large construct has arms that end in massive pincers, and the core in the center of its head glows with an unrivaled ferocity.*",
@@ -2844,7 +2844,7 @@
 	"champion_automaton": { "copyof": "automaton_champion_automaton" },
 	"automaton_champion": { "copyof": "automaton_champion_automaton" },
 	"automaton_familiar_automaton": {
-		"name": "Automaton, Familiar Automaton",
+		"name": "Familiar Automaton",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This small construct resembles a house cat. It bears elaborate markings, and the core in its head glows with a warm light.*",
@@ -2921,7 +2921,7 @@
 	"familiar_automaton": { "copyof": "automaton_familiar_automaton" },
 	"automaton_familiar": { "copyof": "automaton_familiar_automaton" },
 	"automaton_master_automaton": {
-		"name": "Automaton, Master Automaton",
+		"name": "Master Automaton",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This construct is covered with elaborate markings. Its arms end in tremendous hooks, and the core in its head glows with light.*",
@@ -3001,7 +3001,7 @@
 	"master_automaton": { "copyof": "automaton_master_automaton" },
 	"automaton_master": { "copyof": "automaton_master_automaton" },
 	"automaton_sharpshooter_automaton": {
-		"name": "Automaton, Sharpshooter Automaton",
+		"name": "Sharpshooter Automaton",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This construct resembles a humanoid with a large crossbow built into its arm. It floats with no apparent mechanism.*",
@@ -3082,7 +3082,7 @@
 	"sharpshooter_automaton": { "copyof": "automaton_sharpshooter_automaton" },
 	"automaton_sharpshooter": { "copyof": "automaton_sharpshooter_automaton" },
 	"automaton_stalker_automaton": {
-		"name": "Automaton, Stalker Automaton",
+		"name": "Stalker Automaton",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This construct resembles a large cat. Its body coloring and the glowing core in the center of its head constantly shift in color.*",

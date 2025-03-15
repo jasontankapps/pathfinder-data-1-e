@@ -614,7 +614,7 @@
 		]
 	},
 	"cyclops_cyclops_grand_eye": {
-		"name": "Cyclops, Cyclops Grand-Eye",
+		"name": "Cyclops Grand-Eye",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*This enormous woman's eye darts constantly, never settling or focusing. Scrolls dangle from the belt that encircles her chiton.*",
@@ -668,7 +668,7 @@
 	},
 	"cyclops_grand_eye": { "copyof": "cyclops_cyclops_grand_eye" },
 	"cyclops_cyclops_lorekeeper": {
-		"name": "Cyclops, Cyclops Lorekeeper",
+		"name": "Cyclops Lorekeeper",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Ancient tomes and ornate robes lend this towering one-eyed figure an intellectual air, balanced by his toned muscles and a lingering stench of blood.*",
@@ -726,7 +726,7 @@
 	},
 	"cyclops_lorekeeper": { "copyof": "cyclops_cyclops_lorekeeper" },
 	"cyclops_cyclops_manhunter": {
-		"name": "Cyclops, Cyclops Manhunter",
+		"name": "Cyclops Manhunter",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*This cyclops warrior clad in leathers and a flowing hood looms over the terrain. A heavy axe stained with gore serves as a warning for opponents who dare draw closer.*",
@@ -779,7 +779,7 @@
 	},
 	"cyclops_manhunter": { "copyof": "cyclops_cyclops_manhunter" },
 	"cyclops_cyclops_smasher": {
-		"name": "Cyclops, Cyclops Smasher",
+		"name": "Cyclops Smasher",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*Massive even by cyclops standards, this imposing warrior wears the skulls of his victims and wields a terrible club.*",
@@ -834,7 +834,7 @@
 	},
 	"cyclops_smasher": { "copyof": "cyclops_cyclops_smasher" },
 	"cyclops_great_cyclops": {
-		"name": "Cyclops, Great Cyclops",
+		"name": "Great Cyclops",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #33: The Varnhold Vanishing"
@@ -894,7 +894,7 @@
 	"great_cyclops": { "copyof": "cyclops_great_cyclops" },
 	"cyclops_great": { "copyof": "cyclops_great_cyclops" },
 	"cyclops_kabandha": {
-		"name": "Cyclops, Kabandha",
+		"name": "Kabandha (Cyclops)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This tall giant has no head; instead, its one-eyed face rests in the center of its broad chest.*",
@@ -957,7 +957,7 @@
 	},
 	"kabandha": { "copyof": "cyclops_kabandha" },
 	"cyclops_oracular_cyclops": {
-		"name": "Cyclops, Oracular Cyclops",
+		"name": "Oracular Cyclops",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
 			"*Clothed in loose robes and wearing jewelry, this one-eyed giant appears to hold a high station.*",
@@ -1014,7 +1014,7 @@
 	"oracular_cyclops": { "copyof": "cyclops_oracular_cyclops" },
 	"cyclops_oracular": { "copyof": "cyclops_oracular_cyclops" },
 	"cyclops_savage_great_cyclops": {
-		"name": "Cyclops, Savage Great Cyclops",
+		"name": "Savage Great Cyclops",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 		"description": [
 			"*Towering nearly 40 feet tall, this monster bellows a horrid war cry as blood vessels bloom crimson in his single, rage-filled eye.*",
@@ -1380,7 +1380,7 @@
 	},
 	"d_ziriak": { "copyof": "dziriak" },
 	"daemon_acrididaemon": {
-		"name": "Daemon, Acrididaemon",
+		"name": "Acrididaemon (Daemon)",
 		"sources": [
 			"Feast of Dust",
 			"Bestiary 2"
@@ -1448,7 +1448,7 @@
 	},
 	"acrididaemon": { "copyof": "daemon_acrididaemon" },
 	"daemon_astradaemon": {
-		"name": "Daemon, Astradaemon",
+		"name": "Astradaemon (Daemon)",
 		"sources": [
 			"Bestiary 2",
 			"The Great Beyond - A Guide to the Multiverse"
@@ -1512,7 +1512,7 @@
 	},
 	"astradaemon": { "copyof": "daemon_astradaemon" },
 	"daemon_bibliodaemon": {
-		"name": "Daemon, Bibliodaemon",
+		"name": "Bibliodaemon (Daemon)",
 		"sources": [
 			"Druma, Profit and Prophecy",
 			"Bestiary 2"
@@ -1574,7 +1574,7 @@
 	},
 	"bibliodaemon": { "copyof": "daemon_bibliodaemon" },
 	"daemon_cacodaemon": {
-		"name": "Daemon, Cacodaemon",
+		"name": "Cacodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*An ever-gnashing maw, filled with row after row of mismatched teeth, dominates this frightful creature's orb-like body.*",
@@ -1637,7 +1637,7 @@
 	},
 	"cacodaemon": { "copyof": "daemon_cacodaemon" },
 	"daemon_ceustodaemon": {
-		"name": "Daemon, Ceustodaemon",
+		"name": "Ceustodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This brown, shaggy-furred beast stands on slate grey hooves. Its head resembles that of a maniacal horned ape.*",
@@ -1702,7 +1702,7 @@
 	},
 	"ceustodaemon": { "copyof": "daemon_ceustodaemon" },
 	"daemon_crucidaemon": {
-		"name": "Daemon, Crucidaemon",
+		"name": "Crucidaemon (Daemon)",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -1767,7 +1767,7 @@
 	},
 	"crucidaemon": { "copyof": "daemon_crucidaemon" },
 	"daemon_derghodaemon": {
-		"name": "Daemon, Derghodaemon",
+		"name": "Derghodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A deadly and vicious bouquet of insectile claws sprouts from this horrid, three-legged, multi-eyed beast.*",
@@ -1831,7 +1831,7 @@
 	},
 	"derghodaemon": { "copyof": "daemon_derghodaemon" },
 	"daemon_erodaemon": {
-		"name": "Daemon, Erodaemon",
+		"name": "Erodaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -1896,7 +1896,7 @@
 	},
 	"erodaemon": { "copyof": "daemon_erodaemon" },
 	"daemon_genthodaemon": {
-		"name": "Daemon, Genthodaemon",
+		"name": "Genthodaemon (Daemon)",
 		"sources": [
 			"Pathfinder #71: Rasputin Must Die!",
 			"Bestiary 2"
@@ -1984,7 +1984,7 @@
 	},
 	"genthodaemon": { "copyof": "daemon_genthodaemon" },
 	"daemon_hydrodaemon": {
-		"name": "Daemon, Hydrodaemon",
+		"name": "Hydrodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*The skin on this frog-like fiend is clammy and its eyes look dead and milky; its wide face is split by a fanged maw.*",
@@ -2048,7 +2048,7 @@
 	},
 	"hydrodaemon": { "copyof": "daemon_hydrodaemon" },
 	"daemon_lacridaemon": {
-		"name": "Daemon, Lacridaemon",
+		"name": "Lacridaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -2117,7 +2117,7 @@
 	},
 	"lacridaemon": { "copyof": "daemon_lacridaemon" },
 	"daemon_lapsudaemon": {
-		"name": "Daemon, Lapsudaemon",
+		"name": "Lapsudaemon (Daemon)",
 		"sources": [
 			"Pathfinder #106: For Queen and Empire",
 			"Bestiary 2"
@@ -2204,7 +2204,7 @@
 	},
 	"lapsudaemon": { "copyof": "daemon_lapsudaemon" },
 	"daemon_leukodaemon": {
-		"name": "Daemon, Leukodaemon",
+		"name": "Leukodaemon (Daemon)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #8: Seven Days to the Grave"
@@ -2272,7 +2272,7 @@
 	},
 	"leukodaemon": { "copyof": "daemon_leukodaemon" },
 	"daemon_meladaemon": {
-		"name": "Daemon, Meladaemon",
+		"name": "Meladaemon (Daemon)",
 		"sources": [
 			"Bestiary 2",
 			"Beyond the Vault of Souls"
@@ -2339,7 +2339,7 @@
 	},
 	"meladaemon": { "copyof": "daemon_meladaemon" },
 	"daemon_nixudaemon": {
-		"name": "Daemon, Nixudaemon",
+		"name": "Nixudaemon (Daemon)",
 		"sources": [
 			"Pathfinder #96: Shadow of the Storm Tyrant",
 			"Bestiary 2"
@@ -2422,7 +2422,7 @@
 	},
 	"nixudaemon": { "copyof": "daemon_nixudaemon" },
 	"daemon_obcisidaemon": {
-		"name": "Daemon, Obcisidaemon",
+		"name": "Obcisidaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -2506,7 +2506,7 @@
 	},
 	"obcisidaemon": { "copyof": "daemon_obcisidaemon" },
 	"daemon_olethrodaemon": {
-		"name": "Daemon, Olethrodaemon",
+		"name": "Olethrodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Crowned with a wicked array of twisted horns, this wide-mouthed, spherical behemoth stands on four stout legs.*",
@@ -2588,7 +2588,7 @@
 	},
 	"olethrodaemon": { "copyof": "daemon_olethrodaemon" },
 	"daemon_phasmadaemon": {
-		"name": "Daemon, Phasmadaemon",
+		"name": "Phasmadaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -2654,7 +2654,7 @@
 	},
 	"phasmadaemon": { "copyof": "daemon_phasmadaemon" },
 	"daemon_piscodaemon": {
-		"name": "Daemon, Piscodaemon",
+		"name": "Piscodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This hideous cross between a lobster, an octopus, and a human threatens enemies with powerful claws and writhing tentacles.*",
@@ -2718,7 +2718,7 @@
 	},
 	"piscodaemon": { "copyof": "daemon_piscodaemon" },
 	"daemon_purrodaemon": {
-		"name": "Daemon, Purrodaemon",
+		"name": "Purrodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Dozens of weapons pierce this massive monster's body. Red eyes glow with wickedness in its vulture-like head.*",
@@ -2777,7 +2777,7 @@
 	},
 	"purrodaemon": { "copyof": "daemon_purrodaemon" },
 	"daemon_sangudaemon": {
-		"name": "Daemon, Sangudaemon",
+		"name": "Sangudaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -2845,7 +2845,7 @@
 	},
 	"sangudaemon": { "copyof": "daemon_sangudaemon" },
 	"daemon_sepsidaemon": {
-		"name": "Daemon, Sepsidaemon",
+		"name": "Sepsidaemon (Daemon)",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 2"
@@ -2908,7 +2908,7 @@
 	},
 	"sepsidaemon": { "copyof": "daemon_sepsidaemon" },
 	"daemon_suspiridaemon": {
-		"name": "Daemon, Suspiridaemon",
+		"name": "Suspiridaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -2979,7 +2979,7 @@
 	},
 	"suspiridaemon": { "copyof": "daemon_suspiridaemon" },
 	"daemon_temerdaemon": {
-		"name": "Daemon, Temerdaemon",
+		"name": "Temerdaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -3048,7 +3048,7 @@
 	},
 	"temerdaemon": { "copyof": "daemon_temerdaemon" },
 	"daemon_thanadaemon": {
-		"name": "Daemon, Thanadaemon",
+		"name": "Thanadaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Rattling with each stride, this looming, horned, skeletal figure clutches a wicked staff. A seething glow burns in its eye sockets.*",
@@ -3109,7 +3109,7 @@
 	},
 	"thanadaemon": { "copyof": "daemon_thanadaemon" },
 	"daemon_venedaemon": {
-		"name": "Daemon, Venedaemon",
+		"name": "Venedaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -3181,7 +3181,7 @@
 	},
 	"venedaemon": { "copyof": "daemon_venedaemon" },
 	"daemon_vulnudaemon": {
-		"name": "Daemon, Vulnudaemon",
+		"name": "Vulnudaemon (Daemon)",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"

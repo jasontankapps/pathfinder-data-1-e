@@ -69,7 +69,7 @@
 		]
 	},
 	"dweomercat_dweomercat_cub": {
-		"name": "Dweomercat, Dweomercat Cub",
+		"name": "Dweomercat Cub",
 		"sources": [ "Pathfinder #36: Sound of a Thousand Screams" ],
 		"description": [
 			"*Its coat shining vividly, this majestic tiger looks exotic and otherworldly. It gazes with piercing yellow eyes and stands calmly, as though fearless.*",
@@ -292,7 +292,7 @@
 		]
 	},
 	"eagle_giant_eagle": {
-		"name": "Eagle, Giant Eagle",
+		"name": "Giant Eagle",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This immense eagle's feathers are golden brown and shimmer in the light. Its sharp beak and curved talons are dark yellow.*",
@@ -566,7 +566,7 @@
 		]
 	},
 	"eel_electric_eel": {
-		"name": "Eel, Electric Eel",
+		"name": "Electric Eel",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This six-foot-long, snake-like fish moves slowly. A strange popping and snapping sound occasionally emits from the creature's body.*",
@@ -615,7 +615,7 @@
 	"eel_electric": { "copyof": "eel_electric_eel" },
 	"electric_eel": { "copyof": "eel_electric_eel" },
 	"eel_giant_moray_eel": {
-		"name": "Eel, Giant Moray Eel",
+		"name": "Giant Moray Eel",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This sixteen-foot-long eel slithers through the water with uncanny grace, mouth open to display large teeth and a second set of jaws.*",
@@ -819,12 +819,12 @@
 		]
 	},
 	"eidolon_unfettered": {
-		"name": "Eidolon, Unfettered",
+		"name": "Unfettered Eidolon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This bizarre amalgam of monstrous parts rampages forth, an eldritch rune seared upon its forehead.*",
 			"",
-			"::mh[Eidolon, Unfettered]{cr=\"8\"}",
+			"::mh[Unfettered Eidolon]{cr=\"8\"}",
 			"",
 			"{SOURCE Bestiary 3/110}  ",
 			"**XP** 4,800  ",
@@ -1197,7 +1197,7 @@
 		]
 	},
 	"elemental_aether_elder_aether_elemental": {
-		"name": "Elemental (Aether), Elder Aether Elemental",
+		"name": "Elder Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Elder Aether Elemental]{cr=\"11\"}",
@@ -1246,7 +1246,7 @@
 	},
 	"elder_aether_elemental": { "copyof": "elemental_aether_elder_aether_elemental" },
 	"elemental_aether_greater_aether_elemental": {
-		"name": "Elemental (Aether), Greater Aether Elemental",
+		"name": "Greater Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Greater Aether Elemental]{cr=\"9\"}",
@@ -1295,7 +1295,7 @@
 	},
 	"greater_aether_elemental": { "copyof": "elemental_aether_greater_aether_elemental" },
 	"elemental_aether_huge_aether_elemental": {
-		"name": "Elemental (Aether), Huge Aether Elemental",
+		"name": "Huge Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Huge Aether Elemental]{cr=\"7\"}",
@@ -1344,7 +1344,7 @@
 	},
 	"huge_aether_elemental": { "copyof": "elemental_aether_huge_aether_elemental" },
 	"elemental_aether_large_aether_elemental": {
-		"name": "Elemental (Aether), Large Aether Elemental",
+		"name": "Large Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Large Aether Elemental]{cr=\"5\"}",
@@ -1393,7 +1393,7 @@
 	},
 	"large_aether_elemental": { "copyof": "elemental_aether_large_aether_elemental" },
 	"elemental_aether_medium_aether_elemental": {
-		"name": "Elemental (Aether), Medium Aether Elemental",
+		"name": "Medium Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Medium Aether Elemental]{cr=\"3\"}",
@@ -1441,7 +1441,7 @@
 	},
 	"medium_aether_elemental": { "copyof": "elemental_aether_medium_aether_elemental" },
 	"elemental_aether_small_aether_elemental": {
-		"name": "Elemental (Aether), Small Aether Elemental",
+		"name": "Small Aether Elemental",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This strange entity is formed from interwoven, translucent threads of an unusual multicolored material.*",
@@ -1491,7 +1491,7 @@
 	},
 	"small_aether_elemental": { "copyof": "elemental_aether_small_aether_elemental" },
 	"elemental_air_elder_air_elemental": {
-		"name": "Elemental (Air), Elder Air Elemental",
+		"name": "Elder Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Elder Air Elemental]{cr=\"11\"}",
@@ -1539,7 +1539,7 @@
 	},
 	"elder_air_elemental": { "copyof": "elemental_air_elder_air_elemental" },
 	"elemental_air_greater_air_elemental": {
-		"name": "Elemental (Air), Greater Air Elemental",
+		"name": "Greater Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Greater Air Elemental]{cr=\"9\"}",
@@ -1587,7 +1587,7 @@
 	},
 	"greater_air_elemental": { "copyof": "elemental_air_greater_air_elemental" },
 	"elemental_air_huge_air_elemental": {
-		"name": "Elemental (Air), Huge Air Elemental",
+		"name": "Huge Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Huge Air Elemental]{cr=\"7\"}",
@@ -1635,7 +1635,7 @@
 	},
 	"huge_air_elemental": { "copyof": "elemental_air_huge_air_elemental" },
 	"elemental_air_large_air_elemental": {
-		"name": "Elemental (Air), Large Air Elemental",
+		"name": "Large Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Large Air Elemental]{cr=\"5\"}",
@@ -1683,7 +1683,7 @@
 	},
 	"large_air_elemental": { "copyof": "elemental_air_large_air_elemental" },
 	"elemental_air_medium_air_elemental": {
-		"name": "Elemental (Air), Medium Air Elemental",
+		"name": "Medium Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Medium Air Elemental]{cr=\"3\"}",
@@ -1730,7 +1730,7 @@
 	},
 	"medium_air_elemental": { "copyof": "elemental_air_medium_air_elemental" },
 	"elemental_air_small_air_elemental": {
-		"name": "Elemental (Air), Small Air Elemental",
+		"name": "Small Air Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This cloud-like creature has dark hollows reminiscent of eyes and a mouth, and a howling wind whips it into ominous shapes.*",
@@ -1779,7 +1779,7 @@
 	},
 	"small_air_elemental": { "copyof": "elemental_air_small_air_elemental" },
 	"elemental_earth_elder_earth_elemental": {
-		"name": "Elemental (Earth), Elder Earth Elemental",
+		"name": "Elder Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Elder Earth Elemental]{cr=\"11\"}",
@@ -1827,7 +1827,7 @@
 	},
 	"elder_earth_elemental": { "copyof": "elemental_earth_elder_earth_elemental" },
 	"elemental_earth_greater_earth_elemental": {
-		"name": "Elemental (Earth), Greater Earth Elemental",
+		"name": "Greater Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Greater Earth Elemental]{cr=\"9\"}",
@@ -1875,7 +1875,7 @@
 	},
 	"greater_earth_elemental": { "copyof": "elemental_earth_greater_earth_elemental" },
 	"elemental_earth_huge_earth_elemental": {
-		"name": "Elemental (Earth), Huge Earth Elemental",
+		"name": "Huge Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Huge Earth Elemental]{cr=\"7\"}",
@@ -1923,7 +1923,7 @@
 	},
 	"huge_earth_elemental": { "copyof": "elemental_earth_huge_earth_elemental" },
 	"elemental_earth_large_earth_elemental": {
-		"name": "Elemental (Earth), Large Earth Elemental",
+		"name": "Large Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Large Earth Elemental]{cr=\"5\"}",
@@ -1971,7 +1971,7 @@
 	},
 	"large_earth_elemental": { "copyof": "elemental_earth_large_earth_elemental" },
 	"elemental_earth_medium_earth_elemental": {
-		"name": "Elemental (Earth), Medium Earth Elemental",
+		"name": "Medium Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Medium Earth Elemental]{cr=\"3\"}",
@@ -2018,7 +2018,7 @@
 	},
 	"medium_earth_elemental": { "copyof": "elemental_earth_medium_earth_elemental" },
 	"elemental_earth_small_earth_elemental": {
-		"name": "Elemental (Earth), Small Earth Elemental",
+		"name": "Small Earth Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This hulking, roughly humanoid creature of dirt and stone explodes up from the earth, faceless save for two glowing gemstone eyes.*",
@@ -2067,7 +2067,7 @@
 	},
 	"small_earth_elemental": { "copyof": "elemental_earth_small_earth_elemental" },
 	"elemental_fire_elder_fire_elemental": {
-		"name": "Elemental (Fire), Elder Fire Elemental",
+		"name": "Elder Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Elder Fire Elemental]{cr=\"11\"}",
@@ -2116,7 +2116,7 @@
 	},
 	"elder_fire_elemental": { "copyof": "elemental_fire_elder_fire_elemental" },
 	"elemental_fire_greater_fire_elemental": {
-		"name": "Elemental (Fire), Greater Fire Elemental",
+		"name": "Greater Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Greater Fire Elemental]{cr=\"9\"}",
@@ -2165,7 +2165,7 @@
 	},
 	"greater_fire_elemental": { "copyof": "elemental_fire_greater_fire_elemental" },
 	"elemental_fire_huge_fire_elemental": {
-		"name": "Elemental (Fire), Huge Fire Elemental",
+		"name": "Huge Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Huge Fire Elemental]{cr=\"7\"}",
@@ -2214,7 +2214,7 @@
 	},
 	"huge_fire_elemental": { "copyof": "elemental_fire_huge_fire_elemental" },
 	"elemental_fire_large_fire_elemental": {
-		"name": "Elemental (Fire), Large Fire Elemental",
+		"name": "Large Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Large Fire Elemental]{cr=\"5\"}",
@@ -2263,7 +2263,7 @@
 	},
 	"large_fire_elemental": { "copyof": "elemental_fire_large_fire_elemental" },
 	"elemental_fire_medium_fire_elemental": {
-		"name": "Elemental (Fire), Medium Fire Elemental",
+		"name": "Medium Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Medium Fire Elemental]{cr=\"3\"}",
@@ -2311,7 +2311,7 @@
 	},
 	"medium_fire_elemental": { "copyof": "elemental_fire_medium_fire_elemental" },
 	"elemental_fire_small_fire_elemental": {
-		"name": "Elemental (Fire), Small Fire Elemental",
+		"name": "Small Fire Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This creature looks like a living, mobile bonfire, tongues of flame reaching out in search of things to burn.*",
@@ -2361,7 +2361,7 @@
 	},
 	"small_fire_elemental": { "copyof": "elemental_fire_small_fire_elemental" },
 	"elemental_ice_elder_ice_elemental": {
-		"name": "Elemental (Ice), Elder Ice Elemental",
+		"name": "Elder Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Elder Ice Elemental]{cr=\"11\"}",
@@ -2409,7 +2409,7 @@
 	},
 	"elder_ice_elemental": { "copyof": "elemental_ice_elder_ice_elemental" },
 	"elemental_ice_greater_ice_elemental": {
-		"name": "Elemental (Ice), Greater Ice Elemental",
+		"name": "Greater Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Greater Ice Elemental]{cr=\"9\"}",
@@ -2457,7 +2457,7 @@
 	},
 	"greater_ice_elemental": { "copyof": "elemental_ice_greater_ice_elemental" },
 	"elemental_ice_huge_ice_elemental": {
-		"name": "Elemental (Ice), Huge Ice Elemental",
+		"name": "Huge Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Huge Ice Elemental]{cr=\"7\"}",
@@ -2505,7 +2505,7 @@
 	},
 	"huge_ice_elemental": { "copyof": "elemental_ice_huge_ice_elemental" },
 	"elemental_ice_large_ice_elemental": {
-		"name": "Elemental (Ice), Large Ice Elemental",
+		"name": "Large Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Large Ice Elemental]{cr=\"5\"}",
@@ -2553,7 +2553,7 @@
 	},
 	"large_ice_elemental": { "copyof": "elemental_ice_large_ice_elemental" },
 	"elemental_ice_medium_ice_elemental": {
-		"name": "Elemental (Ice), Medium Ice Elemental",
+		"name": "Medium Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Medium Ice Elemental]{cr=\"3\"}",
@@ -2600,7 +2600,7 @@
 	},
 	"medium_ice_elemental": { "copyof": "elemental_ice_medium_ice_elemental" },
 	"elemental_ice_small_ice_elemental": {
-		"name": "Elemental (Ice), Small Ice Elemental",
+		"name": "Small Ice Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*From the waist up, this icy creature's features are humanoid, but below its body is a snake-like, slithering tail.*",
@@ -2649,7 +2649,7 @@
 	},
 	"small_ice_elemental": { "copyof": "elemental_ice_small_ice_elemental" },
 	"elemental_lightning_elder_lightning_elemental": {
-		"name": "Elemental (Lightning), Elder Lightning Elemental",
+		"name": "Elder Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Elder Lightning Elemental]{cr=\"11\"}",
@@ -2697,7 +2697,7 @@
 	},
 	"elder_lightning_elemental": { "copyof": "elemental_lightning_elder_lightning_elemental" },
 	"elemental_lightning_greater_lightning_elemental": {
-		"name": "Elemental (Lightning), Greater Lightning Elemental",
+		"name": "Greater Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Greater Lightning Elemental]{cr=\"9\"}",
@@ -2745,7 +2745,7 @@
 	},
 	"greater_lightning_elemental": { "copyof": "elemental_lightning_greater_lightning_elemental" },
 	"elemental_lightning_huge_lightning_elemental": {
-		"name": "Elemental (Lightning), Huge Lightning Elemental",
+		"name": "Huge Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Huge Lightning Elemental]{cr=\"7\"}",
@@ -2793,7 +2793,7 @@
 	},
 	"huge_lightning_elemental": { "copyof": "elemental_lightning_huge_lightning_elemental" },
 	"elemental_lightning_large_lightning_elemental": {
-		"name": "Elemental (Lightning), Large Lightning Elemental",
+		"name": "Large Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Large Lightning Elemental]{cr=\"5\"}",
@@ -2841,7 +2841,7 @@
 	},
 	"large_lightning_elemental": { "copyof": "elemental_lightning_large_lightning_elemental" },
 	"elemental_lightning_medium_lightning_elemental": {
-		"name": "Elemental (Lightning), Medium Lightning Elemental",
+		"name": "Medium Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Medium Lightning Elemental]{cr=\"3\"}",
@@ -2888,7 +2888,7 @@
 	},
 	"medium_lightning_elemental": { "copyof": "elemental_lightning_medium_lightning_elemental" },
 	"elemental_lightning_small_lightning_elemental": {
-		"name": "Elemental (Lightning), Small Lightning Elemental",
+		"name": "Small Lightning Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This creature looks like a dark storm cloud, with sparks suggesting eyes and long sweeping arms charged with bolts of lightning.*",
@@ -2937,7 +2937,7 @@
 	},
 	"small_lightning_elemental": { "copyof": "elemental_lightning_small_lightning_elemental" },
 	"elemental_magma_elder_magma_elemental": {
-		"name": "Elemental (Magma), Elder Magma Elemental",
+		"name": "Elder Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Elder Magma Elemental]{cr=\"11\"}",
@@ -2985,7 +2985,7 @@
 	},
 	"elder_magma_elemental": { "copyof": "elemental_magma_elder_magma_elemental" },
 	"elemental_magma_greater_magma_elemental": {
-		"name": "Elemental (Magma), Greater Magma Elemental",
+		"name": "Greater Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Greater Magma Elemental]{cr=\"9\"}",
@@ -3033,7 +3033,7 @@
 	},
 	"greater_magma_elemental": { "copyof": "elemental_magma_greater_magma_elemental" },
 	"elemental_magma_huge_magma_elemental": {
-		"name": "Elemental (Magma), Huge Magma Elemental",
+		"name": "Huge Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Huge Magma Elemental]{cr=\"7\"}",
@@ -3081,7 +3081,7 @@
 	},
 	"huge_magma_elemental": { "copyof": "elemental_magma_huge_magma_elemental" },
 	"elemental_magma_large_magma_elemental": {
-		"name": "Elemental (Magma), Large Magma Elemental",
+		"name": "Large Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Large Magma Elemental]{cr=\"5\"}",
@@ -3129,7 +3129,7 @@
 	},
 	"large_magma_elemental": { "copyof": "elemental_magma_large_magma_elemental" },
 	"elemental_magma_medium_magma_elemental": {
-		"name": "Elemental (Magma), Medium Magma Elemental",
+		"name": "Medium Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Medium Magma Elemental]{cr=\"3\"}",
@@ -3176,7 +3176,7 @@
 	},
 	"medium_magma_elemental": { "copyof": "elemental_magma_medium_magma_elemental" },
 	"elemental_magma_small_magma_elemental": {
-		"name": "Elemental (Magma), Small Magma Elemental",
+		"name": "Small Magma Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This rocky monster glows with an internal heat. Red light spills from its eyes and mouth, as well as fractures in its outer surface.*",
@@ -3225,7 +3225,7 @@
 	},
 	"small_magma_elemental": { "copyof": "elemental_magma_small_magma_elemental" },
 	"elemental_mud_elder_mud_elemental": {
-		"name": "Elemental (Mud), Elder Mud Elemental",
+		"name": "Elder Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Elder Mud Elemental]{cr=\"11\"}",
@@ -3271,7 +3271,7 @@
 	},
 	"elder_mud_elemental": { "copyof": "elemental_mud_elder_mud_elemental" },
 	"elemental_mud_greater_mud_elemental": {
-		"name": "Elemental (Mud), Greater Mud Elemental",
+		"name": "Greater Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Greater Mud Elemental]{cr=\"9\"}",
@@ -3317,7 +3317,7 @@
 	},
 	"greater_mud_elemental": { "copyof": "elemental_mud_greater_mud_elemental" },
 	"elemental_mud_huge_mud_elemental": {
-		"name": "Elemental (Mud), Huge Mud Elemental",
+		"name": "Huge Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Huge Mud Elemental]{cr=\"7\"}",
@@ -3363,7 +3363,7 @@
 	},
 	"huge_mud_elemental": { "copyof": "elemental_mud_huge_mud_elemental" },
 	"elemental_mud_large_mud_elemental": {
-		"name": "Elemental (Mud), Large Mud Elemental",
+		"name": "Large Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Large Mud Elemental]{cr=\"5\"}",
@@ -3409,7 +3409,7 @@
 	},
 	"large_mud_elemental": { "copyof": "elemental_mud_large_mud_elemental" },
 	"elemental_mud_medium_mud_elemental": {
-		"name": "Elemental (Mud), Medium Mud Elemental",
+		"name": "Medium Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Medium Mud Elemental]{cr=\"3\"}",
@@ -3454,7 +3454,7 @@
 	},
 	"medium_mud_elemental": { "copyof": "elemental_mud_medium_mud_elemental" },
 	"elemental_mud_small_mud_elemental": {
-		"name": "Elemental (Mud), Small Mud Elemental",
+		"name": "Small Mud Elemental",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This animate pile of mud seems barely able to maintain the semblance of a humanoid form made of dripping sludge.*",
@@ -3501,7 +3501,7 @@
 	},
 	"small_mud_elemental": { "copyof": "elemental_mud_small_mud_elemental" },
 	"elemental_water_elder_water_elemental": {
-		"name": "Elemental (Water), Elder Water Elemental",
+		"name": "Elder Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Elder Water Elemental]{cr=\"11\"}",
@@ -3547,7 +3547,7 @@
 	},
 	"elder_water_elemental": { "copyof": "elemental_water_elder_water_elemental" },
 	"elemental_water_greater_water_elemental": {
-		"name": "Elemental (Water), Greater Water Elemental",
+		"name": "Greater Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Greater Water Elemental]{cr=\"9\"}",
@@ -3593,7 +3593,7 @@
 	},
 	"greater_water_elemental": { "copyof": "elemental_water_greater_water_elemental" },
 	"elemental_water_huge_water_elemental": {
-		"name": "Elemental (Water), Huge Water Elemental",
+		"name": "Huge Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Huge Water Elemental]{cr=\"7\"}",
@@ -3639,7 +3639,7 @@
 	},
 	"huge_water_elemental": { "copyof": "elemental_water_huge_water_elemental" },
 	"elemental_water_large_water_elemental": {
-		"name": "Elemental (Water), Large Water Elemental",
+		"name": "Large Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Large Water Elemental]{cr=\"5\"}",
@@ -3685,7 +3685,7 @@
 	},
 	"large_water_elemental": { "copyof": "elemental_water_large_water_elemental" },
 	"elemental_water_medium_water_elemental": {
-		"name": "Elemental (Water), Medium Water Elemental",
+		"name": "Medium Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"::mh[Medium Water Elemental]{cr=\"3\"}",
@@ -3730,7 +3730,7 @@
 	},
 	"medium_water_elemental": { "copyof": "elemental_water_medium_water_elemental" },
 	"elemental_water_small_water_elemental": {
-		"name": "Elemental (Water), Small Water Elemental",
+		"name": "Small Water Elemental",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This translucent creature's shape shifts between a spinning column of water and a crashing wave.*",

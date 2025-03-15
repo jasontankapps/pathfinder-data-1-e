@@ -1571,7 +1571,7 @@
 		]
 	},
 	"kobold_kobold_battle_master": {
-		"name": "Kobold, Kobold Battle Master",
+		"name": "Kobold Battle Master",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -1619,7 +1619,7 @@
 	},
 	"kobold_battle_master": { "copyof": "kobold_kobold_battle_master" },
 	"kobold_kobold_blade": {
-		"name": "Kobold, Kobold Blade",
+		"name": "Kobold Blade",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -1667,7 +1667,7 @@
 	},
 	"kobold_blade": { "copyof": "kobold_kobold_blade" },
 	"kobold_kobold_bomber": {
-		"name": "Kobold, Kobold Bomber",
+		"name": "Kobold Bomber",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -1721,7 +1721,7 @@
 	},
 	"kobold_bomber": { "copyof": "kobold_kobold_bomber" },
 	"kobold_kobold_chieftain": {
-		"name": "Kobold, Kobold Chieftain",
+		"name": "Kobold Chieftain",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -1769,7 +1769,7 @@
 	},
 	"kobold_chieftain": { "copyof": "kobold_kobold_chieftain" },
 	"kobold_kobold_devilspeaker": {
-		"name": "Kobold, Kobold Devilspeaker",
+		"name": "Kobold Devilspeaker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -1834,7 +1834,7 @@
 	},
 	"kobold_devilspeaker": { "copyof": "kobold_kobold_devilspeaker" },
 	"kobold_kobold_guilecaster": {
-		"name": "Kobold, Kobold Guilecaster",
+		"name": "Kobold Guilecaster",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -1888,7 +1888,7 @@
 	},
 	"kobold_guilecaster": { "copyof": "kobold_kobold_guilecaster" },
 	"kobold_kobold_master_trapper": {
-		"name": "Kobold, Kobold Master Trapper",
+		"name": "Kobold Master Trapper",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -1941,7 +1941,7 @@
 	},
 	"kobold_master_trapper": { "copyof": "kobold_kobold_master_trapper" },
 	"kobold_kobold_monster_wrangler": {
-		"name": "Kobold, Kobold Monster Wrangler",
+		"name": "Kobold Monster Wrangler",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -1988,7 +1988,7 @@
 	},
 	"kobold_monster_wrangler": { "copyof": "kobold_kobold_monster_wrangler" },
 	"kobold_kobold_scalecaster": {
-		"name": "Kobold, Kobold Scalecaster",
+		"name": "Kobold Scalecaster",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -2040,7 +2040,7 @@
 	},
 	"kobold_scalecaster": { "copyof": "kobold_kobold_scalecaster" },
 	"kobold_kobold_sniper": {
-		"name": "Kobold, Kobold Sniper",
+		"name": "Kobold Sniper",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -2087,7 +2087,7 @@
 	},
 	"kobold_sniper": { "copyof": "kobold_kobold_sniper" },
 	"kobold_kobold_yapper": {
-		"name": "Kobold, Kobold Yapper",
+		"name": "Kobold Yapper",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail.*",
@@ -2945,7 +2945,7 @@
 	},
 	"evangelist": { "copyof": "kyton" },
 	"kyton_apocrisiarius": {
-		"name": "Kyton, Apocrisiarius",
+		"name": "Apocrisiarius (Kyton)",
 		"sources": [
 			"Pathfinder #98: Turn of the Torrent",
 			"Bestiary 3"
@@ -3028,7 +3028,7 @@
 	},
 	"apocrisiarius": { "copyof": "kyton_apocrisiarius" },
 	"kyton_augur": {
-		"name": "Kyton, Augur",
+		"name": "Augur (Kyton)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*A single eye peers from behind the armor plates and keen-edged blades that compose the cage-like exterior of this tiny flying orb.*",
@@ -3094,7 +3094,7 @@
 	},
 	"augur": { "copyof": "kyton_augur" },
 	"kyton_cantor": {
-		"name": "Kyton, Cantor",
+		"name": "Cantor (Kyton)",
 		"sources": [
 			"Occult Bestiary",
 			"Bestiary 3"
@@ -3160,7 +3160,7 @@
 	},
 	"cantor": { "copyof": "kyton_cantor" },
 	"kyton_ephialtes": {
-		"name": "Kyton, Ephialtes",
+		"name": "Ephialtes (Kyton)",
 		"sources": [
 			"Pathfinder #30: The Twice-Damned Prince",
 			"Bestiary 3"
@@ -3241,7 +3241,7 @@
 	},
 	"ephialtes": { "copyof": "kyton_ephialtes" },
 	"kyton_eremite": {
-		"name": "Kyton, Eremite",
+		"name": "Eremite (Kyton)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This blood-soaked humanoid is festooned with razored shards of metal. Skeletal wings protrude from its bleeding shoulders.*",
@@ -3323,7 +3323,7 @@
 	},
 	"eremite": { "copyof": "kyton_eremite" },
 	"kyton_interlocutor": {
-		"name": "Kyton, Interlocutor",
+		"name": "Interlocutor (Kyton)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*At the core of this multi-limbed monstrosity of claws and blades struggles a glistening mass of veins, organs, and twisted flesh.*",
@@ -3386,7 +3386,7 @@
 	},
 	"interlocutor": { "copyof": "kyton_interlocutor" },
 	"kyton_lampadarius": {
-		"name": "Kyton, Lampadarius",
+		"name": "Lampadarius (Kyton)",
 		"sources": [
 			"Inner Sea Gods",
 			"Bestiary 3"
@@ -3454,7 +3454,7 @@
 	},
 	"lampadarius": { "copyof": "kyton_lampadarius" },
 	"kyton_libitinarii": {
-		"name": "Kyton, Libitinarii",
+		"name": "Libitinarii (Kyton)",
 		"sources": [
 			"Pathfinder #137: The City Outside of Time",
 			"Bestiary 3"
@@ -3537,7 +3537,7 @@
 	},
 	"libitinarii": { "copyof": "kyton_libitinarii" },
 	"kyton_oitos": {
-		"name": "Kyton, Oitos",
+		"name": "Oitos (Kyton)",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 3"
@@ -3605,7 +3605,7 @@
 	},
 	"oitos": { "copyof": "kyton_oitos" },
 	"kyton_ostiarius": {
-		"name": "Kyton, Ostiarius",
+		"name": "Ostiarius (Kyton)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #64: Beyond the Doomsday Door",
@@ -3671,7 +3671,7 @@
 	},
 	"ostiarius": { "copyof": "kyton_ostiarius" },
 	"kyton_phylacator": {
-		"name": "Kyton, Phylacator",
+		"name": "Phylacator (Kyton)",
 		"sources": [
 			"Pathfinder #132: The Six-Legend Soul",
 			"Bestiary 3"
@@ -3760,7 +3760,7 @@
 	},
 	"phylacator": { "copyof": "kyton_phylacator" },
 	"kyton_sacristan": {
-		"name": "Kyton, Sacristan",
+		"name": "Sacristan (Kyton)",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 3"
@@ -3824,7 +3824,7 @@
 	},
 	"sacristan": { "copyof": "kyton_sacristan" },
 	"kyton_suffragan": {
-		"name": "Kyton, Suffragan",
+		"name": "Suffragan (Kyton)",
 		"sources": [
 			"Nidal, Land of Shadows",
 			"Bestiary 3"
@@ -3909,7 +3909,7 @@
 	},
 	"suffragan": { "copyof": "kyton_suffragan" },
 	"kyton_termagant": {
-		"name": "Kyton, Termagant",
+		"name": "Termagant (Kyton)",
 		"sources": [
 			"Inner Sea Bestiary",
 			"Bestiary 3"

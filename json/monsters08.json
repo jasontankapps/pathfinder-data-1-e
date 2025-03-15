@@ -62,7 +62,7 @@
 		]
 	},
 	"drow_drow_demonic_champion": {
-		"name": "Drow, Drow Demonic Champion",
+		"name": "Drow Demonic Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.*",
@@ -125,7 +125,7 @@
 	},
 	"drow_demonic_champion": { "copyof": "drow_drow_demonic_champion" },
 	"drow_drow_house_captain": {
-		"name": "Drow, Drow House Captain",
+		"name": "Drow House Captain",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.*",
@@ -176,7 +176,7 @@
 	},
 	"drow_house_captain": { "copyof": "drow_drow_house_captain" },
 	"drow_drow_house_guard": {
-		"name": "Drow, Drow House Guard",
+		"name": "Drow House Guard",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.*",
@@ -230,7 +230,7 @@
 	},
 	"drow_house_guard": { "copyof": "drow_drow_house_guard" },
 	"drow_drow_master_scout": {
-		"name": "Drow, Drow Master Scout",
+		"name": "Drow Master Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.*",
@@ -285,7 +285,7 @@
 	},
 	"drow_master_scout": { "copyof": "drow_drow_master_scout" },
 	"drow_drow_matron": {
-		"name": "Drow, Drow Matron",
+		"name": "Drow Matron",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.*",
@@ -353,7 +353,7 @@
 	},
 	"drow_matron": { "copyof": "drow_drow_matron" },
 	"drow_drow_noble": {
-		"name": "Drow, Drow Noble",
+		"name": "Drow Noble",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.*",
@@ -419,7 +419,7 @@
 	},
 	"drow_noble": { "copyof": "drow_drow_noble" },
 	"drow_drow_poisoner": {
-		"name": "Drow, Drow Poisoner",
+		"name": "Drow Poisoner",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.*",
@@ -480,7 +480,7 @@
 	},
 	"drow_poisoner": { "copyof": "drow_drow_poisoner" },
 	"drow_drow_priest": {
-		"name": "Drow, Drow Priest",
+		"name": "Drow Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.*",
@@ -548,7 +548,7 @@
 	},
 	"drow_priest": { "copyof": "drow_drow_priest" },
 	"drow_drow_scout": {
-		"name": "Drow, Drow Scout",
+		"name": "Drow Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.*",
@@ -653,7 +653,7 @@
 		]
 	},
 	"duergar_duergar_anvil": {
-		"name": "Duergar, Duergar Anvil",
+		"name": "Duergar Anvil",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Duergar Anvil]{cr=\"1\"}",
@@ -700,7 +700,7 @@
 	},
 	"duergar_anvil": { "copyof": "duergar_duergar_anvil" },
 	"duergar_duergar_bombardier": {
-		"name": "Duergar, Duergar Bombardier",
+		"name": "Duergar Bombardier",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Duergar Bombardier]{cr=\"1\"}",
@@ -759,7 +759,7 @@
 	},
 	"duergar_bombardier": { "copyof": "duergar_duergar_bombardier" },
 	"duergar_duergar_captain": {
-		"name": "Duergar, Duergar Captain",
+		"name": "Duergar Captain",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Duergar Captain]{cr=\"8\"}",
@@ -808,7 +808,7 @@
 	},
 	"duergar_captain": { "copyof": "duergar_duergar_captain" },
 	"duergar_duergar_hammer": {
-		"name": "Duergar, Duergar Hammer",
+		"name": "Duergar Hammer",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Duergar Hammer]{cr=\"11\"}",
@@ -857,7 +857,7 @@
 	},
 	"duergar_hammer": { "copyof": "duergar_duergar_hammer" },
 	"duergar_duergar_high_priest": {
-		"name": "Duergar, Duergar High Priest",
+		"name": "Duergar High Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Duergar High Priest]{cr=\"12\"}",
@@ -927,7 +927,7 @@
 	},
 	"duergar_high_priest": { "copyof": "duergar_duergar_high_priest" },
 	"duergar_duergar_lieutenant": {
-		"name": "Duergar, Duergar Lieutenant",
+		"name": "Duergar Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Duergar Lieutenant]{cr=\"5\"}",
@@ -983,7 +983,7 @@
 	},
 	"duergar_lieutenant": { "copyof": "duergar_duergar_lieutenant" },
 	"duergar_duergar_sergeant": {
-		"name": "Duergar, Duergar Sergeant",
+		"name": "Duergar Sergeant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Duergar Sergeant]{cr=\"1\"}",
@@ -1031,7 +1031,7 @@
 	},
 	"duergar_sergeant": { "copyof": "duergar_duergar_sergeant" },
 	"duergar_duergar_sharpshooter": {
-		"name": "Duergar, Duergar Sharpshooter",
+		"name": "Duergar Sharpshooter",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Duergar Sharpshooter]{cr=\"1/2\"}",
@@ -1080,7 +1080,7 @@
 	},
 	"duergar_sharpshooter": { "copyof": "duergar_duergar_sharpshooter" },
 	"duergar_duergar_slaver": {
-		"name": "Duergar, Duergar Slaver",
+		"name": "Duergar Slaver",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Duergar Slaver]{cr=\"1/2\"}",
@@ -1129,7 +1129,7 @@
 	},
 	"duergar_slaver": { "copyof": "duergar_duergar_slaver" },
 	"duergar_duergar_taskmaster": {
-		"name": "Duergar, Duergar Taskmaster",
+		"name": "Duergar Taskmaster",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Duergar Taskmaster]{cr=\"9\"}",
@@ -1181,7 +1181,7 @@
 	},
 	"duergar_taskmaster": { "copyof": "duergar_duergar_taskmaster" },
 	"duergar_duergar_tyrant": {
-		"name": "Duergar, Duergar Tyrant",
+		"name": "Duergar Tyrant",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*The dull gray skin of this dwarf ripples with kinetic power.*",
@@ -1243,7 +1243,7 @@
 	},
 	"duergar_tyrant": { "copyof": "duergar_duergar_tyrant" },
 	"dinosaur_allosaurus": {
-		"name": "Dinosaur, Allosaurus",
+		"name": "Allosaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -1293,7 +1293,7 @@
 	},
 	"allosaurus": { "copyof": "dinosaur_allosaurus" },
 	"dinosaur_amargasaurus": {
-		"name": "Dinosaur, Amargasaurus",
+		"name": "Amargasaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -1343,7 +1343,7 @@
 	},
 	"amargasaurus": { "copyof": "dinosaur_amargasaurus" },
 	"dinosaur_ankylosaurus": {
-		"name": "Dinosaur, Ankylosaurus",
+		"name": "Ankylosaurus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Thick bony plates armor the dome-like back of this quadrupedal dinosaur, its powerfully muscled tail ending in a bony club.*",
@@ -1393,7 +1393,7 @@
 	},
 	"ankylosaurus": { "copyof": "dinosaur_ankylosaurus" },
 	"dinosaur_brachiosaurus": {
-		"name": "Dinosaur, Brachiosaurus",
+		"name": "Brachiosaurus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A long tail counterbalances this reptile's equally long neck, at the end of which a relatively small head pulls food from the treetop.*",
@@ -1440,7 +1440,7 @@
 	},
 	"brachiosaurus": { "copyof": "dinosaur_brachiosaurus" },
 	"dinosaur_ceratosaurus": {
-		"name": "Dinosaur, Ceratosaurus",
+		"name": "Ceratosaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -1491,7 +1491,7 @@
 	},
 	"ceratosaurus": { "copyof": "dinosaur_ceratosaurus" },
 	"dinosaur_compsognathus": {
-		"name": "Dinosaur, Compsognathus",
+		"name": "Compsognathus (Dinosaur)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -1546,7 +1546,7 @@
 	},
 	"compsognathus": { "copyof": "dinosaur_compsognathus" },
 	"dinosaur_deinonychus": {
-		"name": "Dinosaur, Deinonychus",
+		"name": "Deinonychus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This brightly colored dinosaur exudes a dangerous ferocity. Each foot is armed with a large, sickle-shaped claw.*",
@@ -1594,7 +1594,7 @@
 	},
 	"deinonychus": { "copyof": "dinosaur_deinonychus" },
 	"dinosaur_dimetrodon": {
-		"name": "Dinosaur, Dimetrodon",
+		"name": "Dimetrodon (Dinosaur)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -1650,7 +1650,7 @@
 	},
 	"dimetrodon": { "copyof": "dinosaur_dimetrodon" },
 	"dinosaur_dimorphodon": {
-		"name": "Dinosaur, Dimorphodon",
+		"name": "Dimorphodon (Dinosaur)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #37: Souls for Smuggler's Shiv",
@@ -1708,7 +1708,7 @@
 	},
 	"dimorphodon": { "copyof": "dinosaur_dimorphodon" },
 	"dinosaur_diplodocus": {
-		"name": "Dinosaur, Diplodocus",
+		"name": "Diplodocus (Dinosaur)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -1762,7 +1762,7 @@
 	},
 	"diplodocus": { "copyof": "dinosaur_diplodocus" },
 	"dinosaur_elasmosaurus": {
-		"name": "Dinosaur, Elasmosaurus",
+		"name": "Elasmosaurus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Long-necked and long-tailed, this large, predatory reptile glides through the water on four powerful flippers.*",
@@ -1808,7 +1808,7 @@
 	},
 	"elasmosaurus": { "copyof": "dinosaur_elasmosaurus" },
 	"dinosaur_giganotosaurus": {
-		"name": "Dinosaur, Giganotosaurus",
+		"name": "Giganotosaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -1858,7 +1858,7 @@
 	},
 	"giganotosaurus": { "copyof": "dinosaur_giganotosaurus" },
 	"dinosaur_iguanodon": {
-		"name": "Dinosaur, Iguanodon",
+		"name": "Iguanodon (Dinosaur)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -1914,7 +1914,7 @@
 	},
 	"iguanodon": { "copyof": "dinosaur_iguanodon" },
 	"dinosaur_kentrosaurus": {
-		"name": "Dinosaur, Kentrosaurus",
+		"name": "Kentrosaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -1971,7 +1971,7 @@
 	},
 	"kentrosaurus": { "copyof": "dinosaur_kentrosaurus" },
 	"dinosaur_pachycephalosaurus": {
-		"name": "Dinosaur, Pachycephalosaurus",
+		"name": "Pachycephalosaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -2027,7 +2027,7 @@
 	},
 	"pachycephalosaurus": { "copyof": "dinosaur_pachycephalosaurus" },
 	"dinosaur_parasaurolophus": {
-		"name": "Dinosaur, Parasaurolophus",
+		"name": "Parasaurolophus (Dinosaur)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2076,7 +2076,7 @@
 	},
 	"parasaurolophus": { "copyof": "dinosaur_parasaurolophus" },
 	"dinosaur_plesiosaurus": {
-		"name": "Dinosaur, Plesiosaurus",
+		"name": "Plesiosaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -2132,7 +2132,7 @@
 	},
 	"plesiosaurus": { "copyof": "dinosaur_plesiosaurus" },
 	"dinosaur_pteranodon": {
-		"name": "Dinosaur, Pteranodon",
+		"name": "Pteranodon (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This flying reptile has two huge wings and a distinctive backward-sweeping crest decorating its head.*",
@@ -2180,7 +2180,7 @@
 	},
 	"pteranodon": { "copyof": "dinosaur_pteranodon" },
 	"dinosaur_quetzalcoatlus": {
-		"name": "Dinosaur, Quetzalcoatlus",
+		"name": "Quetzalcoatlus (Dinosaur)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #37: Souls for Smuggler's Shiv",
@@ -2237,7 +2237,7 @@
 	},
 	"quetzalcoatlus": { "copyof": "dinosaur_quetzalcoatlus" },
 	"dinosaur_spinosaurus": {
-		"name": "Dinosaur, Spinosaurus",
+		"name": "Spinosaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -2288,7 +2288,7 @@
 	},
 	"spinosaurus": { "copyof": "dinosaur_spinosaurus" },
 	"dinosaur_stegosaurus": {
-		"name": "Dinosaur, Stegosaurus",
+		"name": "Stegosaurus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This huge dinosaur has a small head, twin rows of sharp dorsal plates, and a muscular tail terminating in a set of bony spikes.*",
@@ -2334,7 +2334,7 @@
 	},
 	"stegosaurus": { "copyof": "dinosaur_stegosaurus" },
 	"dinosaur_styracosaurus": {
-		"name": "Dinosaur, Styracosaurus",
+		"name": "Styracosaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -2393,7 +2393,7 @@
 	},
 	"styracosaurus": { "copyof": "dinosaur_styracosaurus" },
 	"dinosaur_therizinosaurus": {
-		"name": "Dinosaur, Therizinosaurus",
+		"name": "Therizinosaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -2451,7 +2451,7 @@
 	},
 	"therizinosaurus": { "copyof": "dinosaur_therizinosaurus" },
 	"dinosaur_triceratops": {
-		"name": "Dinosaur, Triceratops",
+		"name": "Triceratops (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This beast's armored head has three sharp horns decorating its face and a large round crest angling back over its neck from its skull.*",
@@ -2500,7 +2500,7 @@
 	},
 	"triceratops": { "copyof": "dinosaur_triceratops" },
 	"dinosaur_troodon": {
-		"name": "Dinosaur, Troodon",
+		"name": "Troodon (Dinosaur)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -2555,7 +2555,7 @@
 	},
 	"troodon": { "copyof": "dinosaur_troodon" },
 	"dinosaur_tylosaurus": {
-		"name": "Dinosaur, Tylosaurus",
+		"name": "Tylosaurus (Dinosaur)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2605,7 +2605,7 @@
 	},
 	"tylosaurus": { "copyof": "dinosaur_tylosaurus" },
 	"dinosaur_tyrannosaurus": {
-		"name": "Dinosaur, Tyrannosaurus",
+		"name": "Tyrannosaurus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This bipedal dinosaur's front arms seem small compared to the rest of its bulk, but its enormous head is all teeth.*",
@@ -2657,7 +2657,7 @@
 	},
 	"tyrannosaurus": { "copyof": "dinosaur_tyrannosaurus" },
 	"dinosaur_velociraptor": {
-		"name": "Dinosaur, Velociraptor",
+		"name": "Velociraptor (Dinosaur)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -3206,7 +3206,7 @@
 		]
 	},
 	"death_worm_death_worm_leviathan": {
-		"name": "Death Worm, Death Worm Leviathan",
+		"name": "Death Worm Leviathan",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
 			"*This enormous worm has stony hide and acid-dripping jaws.*",
@@ -3984,7 +3984,7 @@
 		]
 	},
 	"div_aghash": {
-		"name": "Div, Aghash",
+		"name": "Aghash (Div)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Draped in rags and hunched over on goatlike legs, this creature possesses a featureless face, save for a large eye ringed by fangs.*",
@@ -4045,7 +4045,7 @@
 	},
 	"aghash": { "copyof": "div_aghash" },
 	"div_akvan": {
-		"name": "Div, Akvan",
+		"name": "Akvan (Div)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Ornate armor covers this hulking creature, rocky protrusions jutting from its hide and fierce horns crowning its broad head.*",
@@ -4135,7 +4135,7 @@
 	},
 	"akvan": { "copyof": "div_akvan" },
 	"div_bushyasta": {
-		"name": "Div, Bushyasta",
+		"name": "Bushyasta (Div)",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 3"
@@ -4204,7 +4204,7 @@
 	},
 	"bushyasta": { "copyof": "div_bushyasta" },
 	"div_doru": {
-		"name": "Div, Doru",
+		"name": "Doru (Div)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #19: Howl of the Carrion King"
@@ -4271,7 +4271,7 @@
 	},
 	"doru": { "copyof": "div_doru" },
 	"div_druj_nasu": {
-		"name": "Div, Druj Nasu",
+		"name": "Druj Nasu (Div)",
 		"sources": [
 			"Pathfinder #113: What Grows Within",
 			"Bestiary 3"
@@ -4360,7 +4360,7 @@
 	},
 	"druj_nasu": { "copyof": "div_druj_nasu" },
 	"div_ghawwas": {
-		"name": "Div, Ghawwas",
+		"name": "Ghawwas (Div)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #22: The End of Eternity"
@@ -4430,7 +4430,7 @@
 	},
 	"ghawwas": { "copyof": "div_ghawwas" },
 	"div_pairaka": {
-		"name": "Div, Pairaka",
+		"name": "Pairaka (Div)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #20: House of the Beast"
@@ -4499,7 +4499,7 @@
 	},
 	"pairaka": { "copyof": "div_pairaka" },
 	"div_sepid": {
-		"name": "Div, Sepid",
+		"name": "Sepid (Div)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #23: The Impossible Eye"
@@ -4568,7 +4568,7 @@
 	},
 	"sepid": { "copyof": "div_sepid" },
 	"div_shira": {
-		"name": "Div, Shira",
+		"name": "Shira (Div)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #21: The Jackal's Price"

@@ -64,7 +64,7 @@
 		]
 	},
 	"rakshasa_amanusya": {
-		"name": "Rakshasa, Amanusya",
+		"name": "Amanusya (Rakshasa)",
 		"sources": [
 			"Occult Bestiary",
 			"Bestiary 3"
@@ -132,7 +132,7 @@
 	},
 	"amanusya": { "copyof": "rakshasa_amanusya" },
 	"rakshasa_avatarana": {
-		"name": "Rakshasa, Avatarana",
+		"name": "Avatarana (Rakshasa)",
 		"sources": [
 			"Occult Bestiary",
 			"Bestiary 3"
@@ -198,7 +198,7 @@
 	},
 	"avatarana": { "copyof": "rakshasa_avatarana" },
 	"rakshasa_dandasuka": {
-		"name": "Rakshasa, Dandasuka",
+		"name": "Dandasuka (Rakshasa)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This small creature looks like a well-dressed and jewelry-bedecked fiendish gnome, its face mostly mouth and fangs.*",
@@ -264,7 +264,7 @@
 	},
 	"dandasuka": { "copyof": "rakshasa_dandasuka" },
 	"rakshasa_marai": {
-		"name": "Rakshasa, Marai",
+		"name": "Marai (Rakshasa)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This finely robed and nimble fiend has six colorful vipers in place of arms, and a long, forked tongue in its fanged mouth.*",
@@ -337,7 +337,7 @@
 	},
 	"marai": { "copyof": "rakshasa_marai" },
 	"rakshasa_orsatka": {
-		"name": "Rakshasa, Orsatka",
+		"name": "Orsatka (Rakshasa)",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 3"
@@ -402,7 +402,7 @@
 	},
 	"orsatka": { "copyof": "rakshasa_orsatka" },
 	"rakshasa_rakshasa_maharaja": {
-		"name": "Rakshasa, Rakshasa Maharaja",
+		"name": "Rakshasa Maharaja (Rakshasa)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #9: Escape from Old Korvosa"
@@ -493,7 +493,7 @@
 	},
 	"rakshasa_maharaja": { "copyof": "rakshasa_rakshasa_maharaja" },
 	"rakshasa_raktavarna": {
-		"name": "Rakshasa, Raktavarna",
+		"name": "Raktavarna (Rakshasa)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #7: Edge of Anarchy"
@@ -561,7 +561,7 @@
 	},
 	"raktavarna": { "copyof": "rakshasa_raktavarna" },
 	"rakshasa_tataka": {
-		"name": "Rakshasa, Tataka",
+		"name": "Tataka (Rakshasa)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This towering, blue-skinned woman has backward-facing hands and a feral, animal-like visage with exaggerated features.*",
@@ -631,7 +631,7 @@
 	},
 	"tataka": { "copyof": "rakshasa_tataka" },
 	"rakshasa_zalyakavat": {
-		"name": "Rakshasa, Zalyakavat",
+		"name": "Zalyakavat (Rakshasa)",
 		"sources": [
 			"Pathfinder #130: City in the Lion's Eye",
 			"Bestiary 3"
@@ -791,7 +791,7 @@
 		]
 	},
 	"ratfolk_ratfolk_bravo": {
-		"name": "Ratfolk, Ratfolk Bravo",
+		"name": "Ratfolk Bravo",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.*",
@@ -839,7 +839,7 @@
 	},
 	"ratfolk_bravo": { "copyof": "ratfolk_ratfolk_bravo" },
 	"ratfolk_ratfolk_caravan_guard": {
-		"name": "Ratfolk, Ratfolk Caravan Guard",
+		"name": "Ratfolk Caravan Guard",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.*",
@@ -886,7 +886,7 @@
 	},
 	"ratfolk_caravan_guard": { "copyof": "ratfolk_ratfolk_caravan_guard" },
 	"ratfolk_ratfolk_chemist": {
-		"name": "Ratfolk, Ratfolk Chemist",
+		"name": "Ratfolk Chemist",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.*",
@@ -943,7 +943,7 @@
 	},
 	"ratfolk_chemist": { "copyof": "ratfolk_ratfolk_chemist" },
 	"ratfolk_ratfolk_elder": {
-		"name": "Ratfolk, Ratfolk Elder",
+		"name": "Ratfolk Elder",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.*",
@@ -1009,7 +1009,7 @@
 	},
 	"ratfolk_elder": { "copyof": "ratfolk_ratfolk_elder" },
 	"ratfolk_ratfolk_expedition_leader": {
-		"name": "Ratfolk, Ratfolk Expedition Leader",
+		"name": "Ratfolk Expedition Leader",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.*",
@@ -1056,7 +1056,7 @@
 	},
 	"ratfolk_expedition_leader": { "copyof": "ratfolk_ratfolk_expedition_leader" },
 	"ratfolk_ratfolk_sage": {
-		"name": "Ratfolk, Ratfolk Sage",
+		"name": "Ratfolk Sage",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.*",
@@ -1118,7 +1118,7 @@
 	},
 	"ratfolk_sage": { "copyof": "ratfolk_ratfolk_sage" },
 	"ratfolk_ratfolk_tinkerer": {
-		"name": "Ratfolk, Ratfolk Tinkerer",
+		"name": "Ratfolk Tinkerer",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.*",
@@ -1171,7 +1171,7 @@
 	},
 	"ratfolk_tinkerer": { "copyof": "ratfolk_ratfolk_tinkerer" },
 	"ratfolk_ratfolk_troubleshooter": {
-		"name": "Ratfolk, Ratfolk Troubleshooter",
+		"name": "Ratfolk Troubleshooter",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.*",
@@ -1223,7 +1223,7 @@
 	},
 	"ratfolk_troubleshooter": { "copyof": "ratfolk_ratfolk_troubleshooter" },
 	"ratfolk_ratfolk_warden": {
-		"name": "Ratfolk, Ratfolk Warden",
+		"name": "Ratfolk Warden",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.*",
@@ -1339,7 +1339,7 @@
 		]
 	},
 	"ray_manta_ray": {
-		"name": "Ray, Manta Ray",
+		"name": "Manta Ray",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Gliding gracefully through the water on wing-like fins, this large ray scoops up tiny morsels in its wide mouth.*",
@@ -1386,7 +1386,7 @@
 	"ray_manta": { "copyof": "ray_manta_ray" },
 	"manta_ray": { "copyof": "ray_manta_ray" },
 	"ray_stingray": {
-		"name": "Ray, Stingray",
+		"name": "Stingray",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A long tail fitted with a barbed stinger trails from this flat, triangular fish's body.*",
@@ -2018,7 +2018,7 @@
 		]
 	},
 	"rhinoceros_woolly_rhinoceros": {
-		"name": "Rhinoceros, Woolly Rhinoceros",
+		"name": "Woolly Rhinoceros",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This large rhinoceros has a shaggy pelt of long, brown fur and a row of immense horns on its snout and brow.*",
@@ -2236,7 +2236,7 @@
 		]
 	},
 	"robot_annihilator_robot": {
-		"name": "Robot, Annihilator Robot",
+		"name": "Annihilator Robot",
 		"sources": [
 			"Bestiary 5",
 			"Inner Sea Bestiary"
@@ -2301,7 +2301,7 @@
 	"robot_annihilator": { "copyof": "robot_annihilator_robot" },
 	"annihilator_robot": { "copyof": "robot_annihilator_robot" },
 	"robot_arachnid_robot": {
-		"name": "Robot, Arachnid Robot",
+		"name": "Arachnid Robot",
 		"sources": [
 			"Numeria, Land of Fallen Stars",
 			"Inner Sea Bestiary",
@@ -2365,7 +2365,7 @@
 	"robot_arachnid": { "copyof": "robot_arachnid_robot" },
 	"arachnid_robot": { "copyof": "robot_arachnid_robot" },
 	"robot_collector_robot": {
-		"name": "Robot, Collector Robot",
+		"name": "Collector Robot",
 		"sources": [
 			"Pathfinder #85: Fires of Creation",
 			"Inner Sea Bestiary",
@@ -2453,7 +2453,7 @@
 	"robot_collector": { "copyof": "robot_collector_robot" },
 	"collector_robot": { "copyof": "robot_collector_robot" },
 	"robot_director_robot": {
-		"name": "Robot, Director Robot",
+		"name": "Director Robot",
 		"sources": [
 			"Pathfinder #90: The Divinity Drive",
 			"Inner Sea Bestiary",
@@ -2546,7 +2546,7 @@
 	"robot_director": { "copyof": "robot_director_robot" },
 	"director_robot": { "copyof": "robot_director_robot" },
 	"robot_evaluator_robot": {
-		"name": "Robot, Evaluator Robot",
+		"name": "Evaluator Robot",
 		"sources": [
 			"Pathfinder #90: The Divinity Drive",
 			"Inner Sea Bestiary",
@@ -2634,7 +2634,7 @@
 	"robot_evaluator": { "copyof": "robot_evaluator_robot" },
 	"evaluator_robot": { "copyof": "robot_evaluator_robot" },
 	"robot_gearsman_robot": {
-		"name": "Robot, Gearsman Robot",
+		"name": "Gearsman Robot",
 		"sources": [
 			"Bestiary 5",
 			"Inner Sea Bestiary"
@@ -2698,7 +2698,7 @@
 	"robot_gearsman": { "copyof": "robot_gearsman_robot" },
 	"gearsman_robot": { "copyof": "robot_gearsman_robot" },
 	"robot_gladiator_robot": {
-		"name": "Robot, Gladiator Robot",
+		"name": "Gladiator Robot",
 		"sources": [
 			"Construct Handbook",
 			"Inner Sea Bestiary",
@@ -2792,7 +2792,7 @@
 	"robot_gladiator": { "copyof": "robot_gladiator_robot" },
 	"gladiator_robot": { "copyof": "robot_gladiator_robot" },
 	"robot_juggernaut_robot": {
-		"name": "Robot, Juggernaut Robot",
+		"name": "Juggernaut Robot",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars",
 			"Inner Sea Bestiary",
@@ -2884,7 +2884,7 @@
 	"robot_juggernaut": { "copyof": "robot_juggernaut_robot" },
 	"juggernaut_robot": { "copyof": "robot_juggernaut_robot" },
 	"robot_mannequin_robot": {
-		"name": "Robot, Mannequin Robot",
+		"name": "Mannequin Robot",
 		"sources": [
 			"Numeria, Land of Fallen Stars",
 			"Inner Sea Bestiary",
@@ -2958,7 +2958,7 @@
 	"robot_mannequin": { "copyof": "robot_mannequin_robot" },
 	"mannequin_robot": { "copyof": "robot_mannequin_robot" },
 	"robot_myrmidon_robot": {
-		"name": "Robot, Myrmidon Robot",
+		"name": "Myrmidon Robot",
 		"sources": [
 			"Bestiary 5",
 			"Inner Sea Bestiary"
@@ -3025,7 +3025,7 @@
 	"robot_myrmidon": { "copyof": "robot_myrmidon_robot" },
 	"myrmidon_robot": { "copyof": "robot_myrmidon_robot" },
 	"robot_observer_robot": {
-		"name": "Robot, Observer Robot",
+		"name": "Observer Robot",
 		"sources": [
 			"Pathfinder #86: Lords of Rust",
 			"Inner Sea Bestiary",
@@ -3096,7 +3096,7 @@
 	"observer_robot": { "copyof": "robot_observer_robot" },
 	"robot_observer": { "copyof": "robot_observer_robot" },
 	"robot_observer_robot_swarm": {
-		"name": "Robot, Observer Robot Swarm",
+		"name": "Observer Robot Swarm",
 		"sources": [
 			"Pathfinder #86: Lords of Rust",
 			"Inner Sea Bestiary",
@@ -3160,7 +3160,7 @@
 	"observer_robot_swarm": { "copyof": "robot_observer_robot_swarm" },
 	"robot_observer_swarm": { "copyof": "robot_observer_robot_swarm" },
 	"robot_octopod_mechanic_drone": {
-		"name": "Robot, Octopod Mechanic Drone",
+		"name": "Octopod Mechanic Drone",
 		"sources": [
 			"Construct Handbook",
 			"Inner Sea Bestiary",
@@ -3233,7 +3233,7 @@
 	},
 	"octopod_mechanic_drone": { "copyof": "robot_octopod_mechanic_drone" },
 	"robot_reclamation_robot": {
-		"name": "Robot, Reclamation Robot",
+		"name": "Reclamation Robot",
 		"sources": [
 			"Pathfinder #88: Valley of the Brain Collectors",
 			"Inner Sea Bestiary",
@@ -3332,7 +3332,7 @@
 	"robot_reclamation": { "copyof": "robot_reclamation_robot" },
 	"reclamation_robot": { "copyof": "robot_reclamation_robot" },
 	"robot_repair_robot": {
-		"name": "Robot, Repair Robot",
+		"name": "Repair Robot",
 		"sources": [
 			"Construct Handbook",
 			"Inner Sea Bestiary",
@@ -3400,7 +3400,7 @@
 	"robot_repair": { "copyof": "robot_repair_robot" },
 	"repair_robot": { "copyof": "robot_repair_robot" },
 	"robot_scrapyard_robot": {
-		"name": "Robot, Scrapyard Robot",
+		"name": "Scrapyard Robot",
 		"sources": [
 			"Numeria, Land of Fallen Stars",
 			"Inner Sea Bestiary",
@@ -3471,7 +3471,7 @@
 	"robot_scrapyard": { "copyof": "robot_scrapyard_robot" },
 	"scrapyard_robot": { "copyof": "robot_scrapyard_robot" },
 	"robot_surgeon_robot": {
-		"name": "Robot, Surgeon Robot",
+		"name": "Surgeon Robot",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars",
 			"Inner Sea Bestiary",
@@ -3561,7 +3561,7 @@
 	"robot_surgeon": { "copyof": "robot_surgeon_robot" },
 	"surgeon_robot": { "copyof": "robot_surgeon_robot" },
 	"robot_terraformer_robot": {
-		"name": "Robot, Terraformer Robot",
+		"name": "Terraformer Robot",
 		"sources": [
 			"Bestiary 5",
 			"Inner Sea Bestiary"
@@ -3626,7 +3626,7 @@
 	"robot_terraformer": { "copyof": "robot_terraformer_robot" },
 	"terraformer_robot": { "copyof": "robot_terraformer_robot" },
 	"robot_thought_harvester_robot": {
-		"name": "Robot, Thought Harvester Robot",
+		"name": "Thought Harvester Robot",
 		"sources": [
 			"Pathfinder #87: The Choking Tower",
 			"Inner Sea Bestiary",
@@ -3705,7 +3705,7 @@
 	"robot_thought_harvester": { "copyof": "robot_thought_harvester_robot" },
 	"thought_harvester_robot": { "copyof": "robot_thought_harvester_robot" },
 	"robot_torturer_robot": {
-		"name": "Robot, Torturer Robot",
+		"name": "Torturer Robot",
 		"sources": [
 			"Numeria, Land of Fallen Stars",
 			"Inner Sea Bestiary",
@@ -3772,7 +3772,7 @@
 	"robot_torturer": { "copyof": "robot_torturer_robot" },
 	"torturer_robot": { "copyof": "robot_torturer_robot" },
 	"robot_warden_robot": {
-		"name": "Robot, Warden Robot",
+		"name": "Warden Robot",
 		"sources": [
 			"Pathfinder #87: The Choking Tower",
 			"Inner Sea Bestiary",

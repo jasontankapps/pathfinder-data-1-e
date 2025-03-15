@@ -123,7 +123,7 @@
 		]
 	},
 	"house_spirit_domovoi": {
-		"name": "House Spirit, Domovoi",
+		"name": "Domovoi (House Spirit)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #67: The Snows of Summer"
@@ -183,7 +183,7 @@
 	},
 	"domovoi": { "copyof": "house_spirit_domovoi" },
 	"house_spirit_dvorovoi": {
-		"name": "House Spirit, Dvorovoi",
+		"name": "Dvorovoi (House Spirit)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #67: The Snows of Summer"
@@ -248,7 +248,7 @@
 	},
 	"dvorovoi": { "copyof": "house_spirit_dvorovoi" },
 	"house_spirit_ovinnik": {
-		"name": "House Spirit, Ovinnik",
+		"name": "Ovinnik (House Spirit)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #67: The Snows of Summer"
@@ -966,7 +966,7 @@
 		]
 	},
 	"hydra_dhirgiska": {
-		"name": "Hydra, Dhirgiska",
+		"name": "Dhirgiska (Hydra)",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
 			"*This massive hydra has black and green scales, and caustic purple venom drips from its numerous sets of fangs.*",
@@ -1068,7 +1068,7 @@
 		]
 	},
 	"hyena_dire_hyena_hyaenodon": {
-		"name": "Hyena, Dire Hyena (Hyaenodon)",
+		"name": "Dire Hyena (Hyaenodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This large hyena has a thick head, rheumy red eyes, and a mouth filled with sharp, powerful teeth.*",
@@ -1345,7 +1345,7 @@
 		]
 	},
 	"idol_bone": {
-		"name": "Idol, Bone",
+		"name": "Bone Idol",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"description": [
 			"*This tiny, grisly fetish seems to be carved from numerous pieces of bone, adorned with a necklace of teeth and caked with a thin layer of dried blood. Hair and twine bind the pieces of bone together. The thing's misshapen head leers forward, carved with a demonic, ape-like grin.*",
@@ -1409,7 +1409,7 @@
 	},
 	"bone": { "copyof": "idol_bone" },
 	"idol_jade": {
-		"name": "Idol, Jade",
+		"name": "Jade Idol",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"description": [
 			"*Masterfully carved, this elegant jade figurine stands no more than a hand's breadth tall, yet its delicate limbs and incredible details bear all the features of a seductive maiden cast in miniature.*",
@@ -1477,7 +1477,7 @@
 	},
 	"jade": { "copyof": "idol_jade" },
 	"idol_stone": {
-		"name": "Idol, Stone",
+		"name": "Stone Idol",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"description": [
 			"*Doubtlessly once an impressive piece, time and cracks mar the sculpted stone visage of some sneering lord. Flecks of onyx glisten within its eyes, gazing across the gulf into ages past.*",
@@ -1542,7 +1542,7 @@
 	},
 	"stone": { "copyof": "idol_stone" },
 	"idol_wood": {
-		"name": "Idol, Wood",
+		"name": "Wood Idol",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"description": [
 			"*Polished stones form the soulless eyes of this small yet bizarrely crafted wooden effigy. Shaped into the form of some inscrutable deity or spirit, its exotically carved features contort in a primeval scowl.*",
@@ -2163,7 +2163,7 @@
 		]
 	},
 	"incutilis_incutilis_lord": {
-		"name": "Incutilis, Incutilis Lord",
+		"name": "Incutilis Lord",
 		"sources": [ "Plunder and Peril" ],
 		"description": [
 			"*A curved shell protects an unsightly mass of barbed tentacles, ringed by numerous inhuman eyes.*",
@@ -2305,7 +2305,7 @@
 		]
 	},
 	"indescribable_swarm_pallid_wriggler_swarm": {
-		"name": "Indescribable Swarm, Pallid Wriggler Swarm",
+		"name": "Pallid Wriggler Swarm (Indescribable Swarm)",
 		"sources": [ "Pathfinder #109: In Search of Sanity" ],
 		"description": [
 			"*These writhing, many-winged worms have no heads other than pairs of large nostrils that make a constant, droning snorting.*",
@@ -2360,7 +2360,7 @@
 	},
 	"pallid_wriggler_swarm": { "copyof": "indescribable_swarm_pallid_wriggler_swarm" },
 	"indescribable_swarm_patchwork_insect_swarm": {
-		"name": "Indescribable Swarm, Patchwork Insect Swarm",
+		"name": "Patchwork Insect Swarm (Indescribable Swarm)",
 		"sources": [ "Pathfinder #109: In Search of Sanity" ],
 		"description": [
 			"*This collection of insects is composed of a variety of centipedes, beetles, and other bugs, each of which bears humanoid arms, legs, eyes, or even faces.*",
@@ -2413,7 +2413,7 @@
 	},
 	"patchwork_insect_swarm": { "copyof": "indescribable_swarm_patchwork_insect_swarm" },
 	"indescribable_swarm_swimming_eye_swarm": {
-		"name": "Indescribable Swarm, Swimming Eye Swarm",
+		"name": "Swimming Eye Swarm (Indescribable Swarm)",
 		"sources": [ "Pathfinder #109: In Search of Sanity" ],
 		"description": [
 			"*At the heart of each of these tiny blobs of slime and tentacles is a single, eerily human eye.*",
@@ -2470,7 +2470,7 @@
 	},
 	"swimming_eye_swarm": { "copyof": "indescribable_swarm_swimming_eye_swarm" },
 	"inevitable_arbiter": {
-		"name": "Inevitable, Arbiter",
+		"name": "Arbiter (Inevitable)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A sphere of bronze and copper set with a single eye, this winged creature has two clawed hands, one of which clutches a knife.*",
@@ -2540,7 +2540,7 @@
 	},
 	"arbiter": { "copyof": "inevitable_arbiter" },
 	"inevitable_hykariut": {
-		"name": "Inevitable, Hykariut",
+		"name": "Hykariut (Inevitable)",
 		"sources": [
 			"Pathfinder #131: The Reaper's Right Hand",
 			"Bestiary 2"
@@ -2624,7 +2624,7 @@
 	},
 	"hykariut": { "copyof": "inevitable_hykariut" },
 	"inevitable_impariut": {
-		"name": "Inevitable, Impariut",
+		"name": "Impariut (Inevitable)",
 		"sources": [
 			"Pathfinder #131: The Reaper's Right Hand",
 			"Bestiary 2"
@@ -2708,7 +2708,7 @@
 	},
 	"impariut": { "copyof": "inevitable_impariut" },
 	"inevitable_kastamut": {
-		"name": "Inevitable, Kastamut",
+		"name": "Kastamut (Inevitable)",
 		"sources": [
 			"Pathfinder #118: Siege of Stone",
 			"Bestiary 2"
@@ -2798,7 +2798,7 @@
 	},
 	"kastamut": { "copyof": "inevitable_kastamut" },
 	"inevitable_kolyarut": {
-		"name": "Inevitable, Kolyarut",
+		"name": "Kolyarut (Inevitable)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Beneath its cloak, this man-shaped creature appears to be part statue and part metallic machine.*",
@@ -2853,7 +2853,7 @@
 	},
 	"kolyarut": { "copyof": "inevitable_kolyarut" },
 	"inevitable_lhaksharut": {
-		"name": "Inevitable, Lhaksharut",
+		"name": "Lhaksharut (Inevitable)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This six-armed creature appears to be made of stone. Its lower torso is a collection of whirring rings of metal.*",
@@ -2934,7 +2934,7 @@
 	},
 	"lhaksharut": { "copyof": "inevitable_lhaksharut" },
 	"inevitable_marut": {
-		"name": "Inevitable, Marut",
+		"name": "Marut (Inevitable)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This humanoid is mostly hidden behind plates of elaborate golden armor, the spaces in between revealing flesh of black stone.*",
@@ -2996,7 +2996,7 @@
 	},
 	"marut": { "copyof": "inevitable_marut" },
 	"inevitable_novenarut": {
-		"name": "Inevitable, Novenarut",
+		"name": "Novenarut (Inevitable)",
 		"sources": [
 			"Planar Adventures",
 			"Bestiary 2"
@@ -3060,7 +3060,7 @@
 	},
 	"novenarut": { "copyof": "inevitable_novenarut" },
 	"inevitable_rokyamut": {
-		"name": "Inevitable, Rokyamut",
+		"name": "Rokyamut (Inevitable)",
 		"sources": [
 			"Concordance of Rivals",
 			"Bestiary 2"
@@ -3141,7 +3141,7 @@
 	},
 	"rokyamut": { "copyof": "inevitable_rokyamut" },
 	"inevitable_valharut": {
-		"name": "Inevitable, Valharut",
+		"name": "Valharut (Inevitable)",
 		"sources": [
 			"Planar Adventures",
 			"Bestiary 2"
@@ -3205,7 +3205,7 @@
 	},
 	"valharut": { "copyof": "inevitable_valharut" },
 	"inevitable_yarahkut": {
-		"name": "Inevitable, Yarahkut",
+		"name": "Yarahkut (Inevitable)",
 		"sources": [
 			"Pathfinder #90: The Divinity Drive",
 			"Bestiary 2"
@@ -3294,7 +3294,7 @@
 	},
 	"yarahkut": { "copyof": "inevitable_yarahkut" },
 	"inevitable_zelekhut": {
-		"name": "Inevitable, Zelekhut",
+		"name": "Zelekhut (Inevitable)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This creature looks like a mechanical centaur. Golden, clockwork wings sprout from its back, and its arms end in barbed chains.*",

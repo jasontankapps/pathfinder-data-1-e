@@ -1,6 +1,6 @@
 {
 	"azata_veranallia": {
-		"name": "Azata, Veranallia",
+		"name": "Veranallia (Azata)",
 		"sources": [
 			"Bestiary 6",
 			"Chronicle of the Righteous",
@@ -99,7 +99,7 @@
 	},
 	"veranallia": { "copyof": "azata_veranallia" },
 	"azata_yamah": {
-		"name": "Azata, Yamah",
+		"name": "Yamah (Azata)",
 		"sources": [
 			"Bestiary 6",
 			"Magnimar, City of Monuments",
@@ -495,7 +495,7 @@
 		]
 	},
 	"badger_dire_badger": {
-		"name": "Badger, Dire Badger",
+		"name": "Dire Badger",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A tremendous badger snarls and scrapes its wicked, shovel-like claws. Stocky muscles ripple beneath its streaked and shaggy fur.*",
@@ -1255,7 +1255,7 @@
 		]
 	},
 	"barghest_greater_barghest": {
-		"name": "Barghest, Greater Barghest",
+		"name": "Greater Barghest",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This snarling, canine beast pads forward on all fours, its slender front limbs looking more like hands than a wolf's paws.*",
@@ -1613,7 +1613,7 @@
 		]
 	},
 	"bat_bat_swarm": {
-		"name": "Bat, Bat Swarm",
+		"name": "Bat Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Hundreds of high-pitched squeaks fill the air as a mass of small, carnivorous bats surges forth, all of them hungry for blood.*",
@@ -1664,7 +1664,7 @@
 	},
 	"bat_swarm": { "copyof": "bat_bat_swarm" },
 	"bat_dire_bat": {
-		"name": "Bat, Dire Bat",
+		"name": "Dire Bat",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This giant, furry bat is nearly the size of an ox, with dark leathery wings that open wider than two men with arms outstretched.*",
@@ -1711,7 +1711,7 @@
 	"dire_bat": { "copyof": "bat_dire_bat" },
 	"bat_dire": { "copyof": "bat_dire_bat" },
 	"bat_mobat": {
-		"name": "Bat, Mobat",
+		"name": "Mobat (Bat)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This bat has a wingspan the length of two humans, over-sized ears, and a squat, upturned snout with rows of needle-like teeth.*",
@@ -1763,7 +1763,7 @@
 	},
 	"mobat": { "copyof": "bat_mobat" },
 	"bat_skaveling": {
-		"name": "Bat, Skaveling",
+		"name": "Skaveling (Bat)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This monstrously sized, undead bat has mottled, decayed flesh and eyes that smolder with an unholy green glow.*",
@@ -1816,7 +1816,7 @@
 	},
 	"skaveling": { "copyof": "bat_skaveling" },
 	"bat_sootwing_bat": {
-		"name": "Bat, Sootwing Bat",
+		"name": "Sootwing Bat",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This batlike creature has jagged points at the tips of its wings and a long, lashing tongue.*",
@@ -1923,7 +1923,7 @@
 		]
 	},
 	"bear_dire_bear_cave_bear": {
-		"name": "Bear, Dire Bear (Cave Bear)",
+		"name": "Dire Bear (Cave Bear)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Spittle drips from this feral bear's roaring maw, and its matted fur is broken in places by wicked, bony growths.*",
@@ -1971,7 +1971,7 @@
 	"dire_bear": { "copyof": "bear_dire_bear_cave_bear" },
 	"bear_dire": { "copyof": "bear_dire_bear_cave_bear" },
 	"bear_dire_polar_bear": {
-		"name": "Bear, Dire Polar Bear",
+		"name": "Dire Polar Bear",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Fearsome bony growths protrude from several spots in this massive animal's snowy fur.*",
@@ -2016,7 +2016,7 @@
 	"dire_polar_bear": { "copyof": "bear_dire_polar_bear" },
 	"bear_dire_polar": { "copyof": "bear_dire_polar_bear" },
 	"bear_grizzly_bear": {
-		"name": "Bear, Grizzly Bear",
+		"name": "Grizzly Bear",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Broad, powerful muscles move beneath this massive bear's brown fur, promising both speed and lethal force.*",
@@ -2066,7 +2066,7 @@
 	"grizzly_bear": { "copyof": "bear_grizzly_bear" },
 	"bear_grizzly": { "copyof": "bear_grizzly_bear" },
 	"bear_polar_bear": {
-		"name": "Bear, Polar Bear",
+		"name": "Polar Bear",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #67: The Snows of Summer"
@@ -2176,7 +2176,7 @@
 		]
 	},
 	"bee_giant_bee": {
-		"name": "Bee, Giant Bee",
+		"name": "Giant Bee",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Striking yellow and black markings and a coat of bristling hairs cover this immense bee. Its stinger is the size of a dagger blade.*",
@@ -2233,7 +2233,7 @@
 	"giant_bee": { "copyof": "bee_giant_bee" },
 	"bee_giant": { "copyof": "bee_giant_bee" },
 	"bee_giant_queen_bee": {
-		"name": "Bee, Giant Queen Bee",
+		"name": "Giant Queen Bee",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This giant bee is as large as a horse and unusually fat, with light brown stripes on her body.*",
@@ -2289,7 +2289,7 @@
 	"bee_giant_queen": { "copyof": "bee_giant_queen_bee" },
 	"giant_queen_bee": { "copyof": "bee_giant_queen_bee" },
 	"beetle_dark_spitter_beetle": {
-		"name": "Beetle, Dark Spitter Beetle",
+		"name": "Dark Spitter Beetle",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This large beetle's black, shiny exoskeleton clicks and grinds as it opens its dripping mandibles.*",
@@ -2335,7 +2335,7 @@
 	"beetle_dark_spitter": { "copyof": "beetle_dark_spitter_beetle" },
 	"dark_spitter_beetle": { "copyof": "beetle_dark_spitter_beetle" },
 	"beetle_fire_beetle": {
-		"name": "Beetle, Fire Beetle",
+		"name": "Fire Beetle",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This housecat-sized beetle is a dull brown color brightened by two glowing green-yellow spots on its carapace.*",
@@ -2390,7 +2390,7 @@
 	"fire_beetle": { "copyof": "beetle_fire_beetle" },
 	"beetle_fire": { "copyof": "beetle_fire_beetle" },
 	"beetle_giant_stag_beetle": {
-		"name": "Beetle, Giant Stag Beetle",
+		"name": "Giant Stag Beetle",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*With a sleek body and huge mandibles raised in a threatening pose, this large beetle stands firm in defense of its territory.*",
@@ -2442,7 +2442,7 @@
 	"beetle_giant_stag": { "copyof": "beetle_giant_stag_beetle" },
 	"giant_stag_beetle": { "copyof": "beetle_giant_stag_beetle" },
 	"beetle_goliath_stag_beetle": {
-		"name": "Beetle, Goliath Stag Beetle",
+		"name": "Goliath Stag Beetle",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This massive beetle is the size of a small house. Its immense, horn-like mandibles clash with a hungry fervor.*",
@@ -2490,7 +2490,7 @@
 	"beetle_goliath_stag": { "copyof": "beetle_goliath_stag_beetle" },
 	"goliath_stag_beetle": { "copyof": "beetle_goliath_stag_beetle" },
 	"beetle_juggernaut_beetle": {
-		"name": "Beetle, Juggernaut Beetle",
+		"name": "Juggernaut Beetle",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This massive insect lumbers ominously, waving scythe-like mandibles that reek of acid.*",
@@ -2542,7 +2542,7 @@
 	"juggernaut_beetle": { "copyof": "beetle_juggernaut_beetle" },
 	"beetle_juggernaut": { "copyof": "beetle_juggernaut_beetle" },
 	"beetle_scarab_beetle": {
-		"name": "Beetle, Scarab Beetle",
+		"name": "Scarab Beetle",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"*This glossy blue-black beetle is the size of a cow.*",
@@ -2591,7 +2591,7 @@
 	"scarab_beetle": { "copyof": "beetle_scarab_beetle" },
 	"beetle_scarab": { "copyof": "beetle_scarab_beetle" },
 	"beetle_slicer_beetle": {
-		"name": "Beetle, Slicer Beetle",
+		"name": "Slicer Beetle",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This squat but nevertheless large beetle moves with a swift scuttling motion. Its mandibles appear to be remarkably sharp.*",
@@ -2642,7 +2642,7 @@
 	"slicer_beetle": { "copyof": "beetle_slicer_beetle" },
 	"beetle_slicer": { "copyof": "beetle_slicer_beetle" },
 	"beetle_stalk_beetle": {
-		"name": "Beetle, Stalk Beetle",
+		"name": "Stalk Beetle",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"*This ravenous beetle is the size of a pony, and sports a pair of deadly, serrated mandibles.*",
@@ -2754,7 +2754,7 @@
 		]
 	},
 	"beheaded_flaming_skull": {
-		"name": "Beheaded, Flaming Skull",
+		"name": "Flaming Skull (Beheaded)",
 		"sources": [
 			"Pathfinder #43: Haunting of Harrowstone",
 			"Bestiary 4"
@@ -2822,7 +2822,7 @@
 	},
 	"flaming_skull": { "copyof": "beheaded_flaming_skull" },
 	"beheaded_giant_beheaded": {
-		"name": "Beheaded, Giant Beheaded",
+		"name": "Giant Beheaded",
 		"sources": [
 			"Pathfinder #43: Haunting of Harrowstone",
 			"Bestiary 4"
@@ -2892,7 +2892,7 @@
 	"giant_beheaded": { "copyof": "beheaded_giant_beheaded" },
 	"beheaded_giant": { "copyof": "beheaded_giant_beheaded" },
 	"beheaded_medusa_head": {
-		"name": "Beheaded, Medusa Head",
+		"name": "Medusa Head (Beheaded)",
 		"sources": [
 			"Pathfinder #43: Haunting of Harrowstone",
 			"Bestiary 4"
@@ -2967,7 +2967,7 @@
 	},
 	"medusa_head": { "copyof": "beheaded_medusa_head" },
 	"beheaded_severed_head": {
-		"name": "Beheaded, Severed Head",
+		"name": "Severed Head (Beheaded)",
 		"sources": [
 			"Pathfinder #43: Haunting of Harrowstone",
 			"Bestiary 4"
@@ -3034,7 +3034,7 @@
 	},
 	"severed_head": { "copyof": "beheaded_severed_head" },
 	"beheaded_skull_swarm": {
-		"name": "Beheaded, Skull Swarm",
+		"name": "Skull Swarm (Beheaded)",
 		"sources": [
 			"Pathfinder #43: Haunting of Harrowstone",
 			"Bestiary 4"
@@ -3104,7 +3104,7 @@
 	},
 	"skull_swarm": { "copyof": "beheaded_skull_swarm" },
 	"behemoth_ravener": {
-		"name": "Behemoth, Ravener",
+		"name": "Ravener (Behemoth)",
 		"sources": [
 			"Pathfinder #30: The Twice-Damned Prince",
 			"Bestiary 3"
@@ -3183,7 +3183,7 @@
 	},
 	"ravener": { "copyof": "behemoth_ravener" },
 	"behemoth_tempest_behemoth": {
-		"name": "Behemoth, Tempest Behemoth",
+		"name": "Tempest Behemoth",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Three pairs of wings beat rhythmically, churning up hurricane-force winds around this vast, birdlike monstrosity.*",
@@ -3248,7 +3248,7 @@
 	"behemoth_tempest": { "copyof": "behemoth_tempest_behemoth" },
 	"tempest_behemoth": { "copyof": "behemoth_tempest_behemoth" },
 	"behemoth_thalassic_behemoth": {
-		"name": "Behemoth, Thalassic Behemoth",
+		"name": "Thalassic Behemoth",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Two massive limbs drag the bulk of this whale-like beast's body from the churning waters of the sea.*",
@@ -3310,7 +3310,7 @@
 	"behemoth_thalassic": { "copyof": "behemoth_thalassic_behemoth" },
 	"thalassic_behemoth": { "copyof": "behemoth_thalassic_behemoth" },
 	"behemoth_thunder_behemoth": {
-		"name": "Behemoth, Thunder Behemoth",
+		"name": "Thunder Behemoth",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This enormous beast has rocky, armored plates on its body. Elaborate horns crown its horrific head.*",
@@ -3538,7 +3538,7 @@
 		]
 	},
 	"benaioh_benaioh_clay_vessel": {
-		"name": "Benaioh, Benaioh (Clay Vessel)",
+		"name": "Benaioh (Clay Vessel)",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
 			"*This towering humanoid figure appears to be sculpted from clay. Fine cracks thread through the creature's body, leaking a steady stream of putrescent slime.*",
@@ -3613,7 +3613,7 @@
 	},
 	"benaioh_clay_vessel": { "copyof": "benaioh_benaioh_clay_vessel" },
 	"benaioh_benaioh_ooze_form": {
-		"name": "Benaioh, Benaioh (Ooze Form)",
+		"name": "Benaioh (Ooze Form)",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
 			"::mh[Benaioh (Ooze Form)]{cr=\"7\"}",

@@ -1138,7 +1138,7 @@
 		]
 	},
 	"thassilonian_sentinel_bronze_sentinel": {
-		"name": "Thassilonian Sentinel, Bronze Sentinel",
+		"name": "Bronze Sentinel (Thassilonian Sentinel)",
 		"sources": [
 			"Pathfinder #62: Curse of the Lady's Light",
 			"Pathfinder #134: It Came from Hollow Mountain"
@@ -1209,7 +1209,7 @@
 	},
 	"bronze_sentinel": { "copyof": "thassilonian_sentinel_bronze_sentinel" },
 	"thassilonian_sentinel_iron_sentinel": {
-		"name": "Thassilonian Sentinel, Iron Sentinel",
+		"name": "Iron Sentinel (Thassilonian Sentinel)",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
 			"*An ape-like head with demonic features cast in black iron sits on six segmented mechanical legs.*",
@@ -1279,7 +1279,7 @@
 	},
 	"iron_sentinel": { "copyof": "thassilonian_sentinel_iron_sentinel" },
 	"thassilonian_sentinel_ivory_sentinel": {
-		"name": "Thassilonian Sentinel, Ivory Sentinel",
+		"name": "Ivory Sentinel (Thassilonian Sentinel)",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
 			"*Sculpted from ivory in the form of a large skull, this construct perches on six segmented legs of whitened bone.*",
@@ -1350,7 +1350,7 @@
 	},
 	"ivory_sentinel": { "copyof": "thassilonian_sentinel_ivory_sentinel" },
 	"thassilonian_sentinel_marble_sentinel": {
-		"name": "Thassilonian Sentinel, Marble Sentinel",
+		"name": "Marble Sentinel (Thassilonian Sentinel)",
 		"sources": [
 			"Pathfinder #62: Curse of the Lady's Light",
 			"Pathfinder #134: It Came from Hollow Mountain"
@@ -2097,7 +2097,7 @@
 		]
 	},
 	"thylacine_brush_thylacine": {
-		"name": "Thylacine, Brush Thylacine",
+		"name": "Brush Thylacine",
 		"sources": [ "Pathfinder #31: Stolen Land" ],
 		"description": [
 			"*This odd creature is about the size of a dog, but it has the slender build of a cat, heavy whiskers, and dark stripes down its back. Its long tail flips about, smacking the ground as it scans the woods. It yips and bays in a complex pattern, offering warning to anything that may cross its path.*",
@@ -2216,7 +2216,7 @@
 		]
 	},
 	"titan_elysian": {
-		"name": "Titan, Elysian",
+		"name": "Elysian (Titan)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This titanic humanoid wears gilt-edged armor of ancient make and carries an immense hammer made of gleaming metal.*",
@@ -2277,7 +2277,7 @@
 	},
 	"elysian": { "copyof": "titan_elysian" },
 	"titan_hekatonkheires": {
-		"name": "Titan, Hekatonkheires",
+		"name": "Hekatonkheires (Titan)",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -2358,7 +2358,7 @@
 	},
 	"hekatonkheires": { "copyof": "titan_hekatonkheires" },
 	"titan_thanatotic": {
-		"name": "Titan, Thanatotic",
+		"name": "Thanatotic (Titan)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This titanic, armored figure wields an immense axe. Its hands end in claws, and its voice thunders with ruinous power.*",
@@ -2656,7 +2656,7 @@
 		]
 	},
 	"toad_giant_toad": {
-		"name": "Toad, Giant Toad",
+		"name": "Giant Toad",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Stubby warts dot the skin of this horse-sized brown toad. Its throat bulges and ripples as though about to croak.*",
@@ -2711,7 +2711,7 @@
 	"toad_giant": { "copyof": "toad_giant_toad" },
 	"giant_toad": { "copyof": "toad_giant_toad" },
 	"toad_glacier_toad": {
-		"name": "Toad, Glacier Toad",
+		"name": "Glacier Toad",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This improbably large toad has pale blue flesh and a body covered with jagged, icy growths.*",
@@ -2949,7 +2949,7 @@
 		]
 	},
 	"tooth_fairy_tooth_fairy_monarch": {
-		"name": "Tooth Fairy, Tooth Fairy Monarch",
+		"name": "Tooth Fairy Monarch",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"*Resembling a gaunt humanoid from the waist up and a fleshy insect from the waist down, this child-sized creature has enormous black eyes and a large jaw with a lolling tongue. It wears a crown made of humanoid teeth and clutches a tooth-studded scepter.*",
@@ -3144,7 +3144,7 @@
 		]
 	},
 	"torble_torble_swarm": {
-		"name": "Torble, Torble Swarm",
+		"name": "Torble Swarm",
 		"sources": [ "Pathfinder #25: The Bastards of Erebus" ],
 		"description": [
 			"::mh[Torble Swarm]{cr=\"2\"}",
@@ -3206,7 +3206,7 @@
 	},
 	"torble_swarm": { "copyof": "torble_torble_swarm" },
 	"tortoise_giant_tortoise": {
-		"name": "Tortoise, Giant Tortoise",
+		"name": "Giant Tortoise",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This tortoise is half the height of a human, and has a domed shell, leathery skin, and a long neck.*",
@@ -3261,7 +3261,7 @@
 	"tortoise_giant": { "copyof": "tortoise_giant_tortoise" },
 	"giant_tortoise": { "copyof": "tortoise_giant_tortoise" },
 	"tortoise_immense_tortoise": {
-		"name": "Tortoise, Immense Tortoise",
+		"name": "Immense Tortoise",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Plants and even trees grow atop the shell of this massive tortoise, which gazes about with dull, placid eyes.*",
@@ -3562,7 +3562,7 @@
 		]
 	},
 	"trench_mist_trench_zombie": {
-		"name": "Trench Mist, Trench Zombie",
+		"name": "Trench Zombie (Trench Mist)",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
 		"description": [
 			"::mh[Trench Zombie]{cr=\"6\"}",
@@ -3866,7 +3866,7 @@
 		]
 	},
 	"troggle_troggle_raider": {
-		"name": "Troggle, Troggle Raider",
+		"name": "Troggle Raider",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This troggle wears filthy studded leather armor and a dog collar, and carries a powerful bow on its back.*",

@@ -1667,7 +1667,7 @@
 		]
 	},
 	"ghoul_ancient_gravedigger": {
-		"name": "Ghoul, Ancient Gravedigger",
+		"name": "Ancient Gravedigger (Ghoul)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Ancient Gravedigger]{cr=\"10\"}",
@@ -1727,7 +1727,7 @@
 	},
 	"ancient_gravedigger": { "copyof": "ghoul_ancient_gravedigger" },
 	"ghoul_ghoul_commander": {
-		"name": "Ghoul, Ghoul Commander",
+		"name": "Ghoul Commander",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Ghoul Commander]{cr=\"8\"}",
@@ -1784,7 +1784,7 @@
 	},
 	"ghoul_commander": { "copyof": "ghoul_ghoul_commander" },
 	"ghoul_ghoul_creeper": {
-		"name": "Ghoul, Ghoul Creeper",
+		"name": "Ghoul Creeper",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Ghoul Creeper]{cr=\"3\"}",
@@ -1830,7 +1830,7 @@
 	},
 	"ghoul_creeper": { "copyof": "ghoul_ghoul_creeper" },
 	"ghoul_ghoul_huntsmaster": {
-		"name": "Ghoul, Ghoul Huntsmaster",
+		"name": "Ghoul Huntsmaster",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Ghoul Huntsmaster]{cr=\"7\"}",
@@ -1911,7 +1911,7 @@
 	},
 	"ghoul_huntsmaster": { "copyof": "ghoul_ghoul_huntsmaster" },
 	"ghoul_ghoul_monarch": {
-		"name": "Ghoul, Ghoul Monarch",
+		"name": "Ghoul Monarch",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Ghoul Monarch]{cr=\"12\"}",
@@ -1972,7 +1972,7 @@
 	},
 	"ghoul_monarch": { "copyof": "ghoul_ghoul_monarch" },
 	"ghoul_ghoul_stalker": {
-		"name": "Ghoul, Ghoul Stalker",
+		"name": "Ghoul Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Ghoul Stalker]{cr=\"6\"}",
@@ -2018,7 +2018,7 @@
 	},
 	"ghoul_stalker": { "copyof": "ghoul_ghoul_stalker" },
 	"ghoul_leng_ghoul": {
-		"name": "Ghoul, Leng Ghoul",
+		"name": "Leng Ghoul",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This semi-canine humanoid has rancid green flesh and hooflike feet, yet its eyes sparkle with the gleam of intelligence.*",
@@ -2078,7 +2078,7 @@
 	"ghoul_leng": { "copyof": "ghoul_leng_ghoul" },
 	"leng_ghoul": { "copyof": "ghoul_leng_ghoul" },
 	"ghoul_masked_murderer": {
-		"name": "Ghoul, Masked Murderer",
+		"name": "Masked Murderer (Ghoul)",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Masked Murderer]{cr=\"8\"}",
@@ -2221,7 +2221,7 @@
 		]
 	},
 	"giant_fire_fire_giant": {
-		"name": "Giant (Fire), Fire Giant",
+		"name": "Fire Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire.*",
@@ -2281,7 +2281,7 @@
 	"fire_giant": { "copyof": "giant_fire_fire_giant" },
 	"giant_fire": { "copyof": "giant_fire_fire_giant" },
 	"giant_fire_fire_giant_doombringer": {
-		"name": "Giant (Fire), Fire Giant Doombringer",
+		"name": "Fire Giant Doombringer",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Fire Giant Doombringer]{cr=\"18\"}",
@@ -2344,7 +2344,7 @@
 	},
 	"fire_giant_doombringer": { "copyof": "giant_fire_fire_giant_doombringer" },
 	"giant_fire_fire_giant_glaive": {
-		"name": "Giant (Fire), Fire Giant Glaive",
+		"name": "Fire Giant Glaive",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Fire Giant Glaive]{cr=\"12\"}",
@@ -2395,7 +2395,7 @@
 	},
 	"fire_giant_glaive": { "copyof": "giant_fire_fire_giant_glaive" },
 	"giant_fire_fire_giant_king": {
-		"name": "Giant (Fire), Fire Giant King",
+		"name": "Fire Giant King",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Fire Giant King]{cr=\"20\"}",
@@ -2457,7 +2457,7 @@
 	},
 	"fire_giant_king": { "copyof": "giant_fire_fire_giant_king" },
 	"giant_fire_fire_giant_lieutenant": {
-		"name": "Giant (Fire), Fire Giant Lieutenant",
+		"name": "Fire Giant Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Fire Giant Lieutenant]{cr=\"16\"}",
@@ -2516,7 +2516,7 @@
 	},
 	"fire_giant_lieutenant": { "copyof": "giant_fire_fire_giant_lieutenant" },
 	"giant_fire_fire_giant_magmablade": {
-		"name": "Giant (Fire), Fire Giant Magmablade",
+		"name": "Fire Giant Magmablade",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Fire Giant Magmablade]{cr=\"17\"}",
@@ -2581,7 +2581,7 @@
 	},
 	"fire_giant_magmablade": { "copyof": "giant_fire_fire_giant_magmablade" },
 	"giant_fire_fire_giant_queen": {
-		"name": "Giant (Fire), Fire Giant Queen",
+		"name": "Fire Giant Queen",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Fire Giant Queen]{cr=\"19\"}",
@@ -2644,7 +2644,7 @@
 	},
 	"fire_giant_queen": { "copyof": "giant_fire_fire_giant_queen" },
 	"giant_fire_fire_giant_strongarm": {
-		"name": "Giant (Fire), Fire Giant Strongarm",
+		"name": "Fire Giant Strongarm",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Fire Giant Strongarm]{cr=\"13\"}",
@@ -2696,7 +2696,7 @@
 	},
 	"fire_giant_strongarm": { "copyof": "giant_fire_fire_giant_strongarm" },
 	"giant_frost_frost_giant": {
-		"name": "Giant (Frost), Frost Giant",
+		"name": "Frost Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided.*",
@@ -2751,7 +2751,7 @@
 	},
 	"frost_giant": { "copyof": "giant_frost_frost_giant" },
 	"giant_frost_frost_giant_battle_priest": {
-		"name": "Giant (Frost), Frost Giant Battle Priest",
+		"name": "Frost Giant Battle Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Frost Giant Battle Priest]{cr=\"13\"}",
@@ -2820,7 +2820,7 @@
 	},
 	"frost_giant_battle_priest": { "copyof": "giant_frost_frost_giant_battle_priest" },
 	"giant_frost_frost_giant_elite_scout": {
-		"name": "Giant (Frost), Frost Giant Elite Scout",
+		"name": "Frost Giant Elite Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Frost Giant Elite Scout]{cr=\"13\"}",
@@ -2873,7 +2873,7 @@
 	},
 	"frost_giant_elite_scout": { "copyof": "giant_frost_frost_giant_elite_scout" },
 	"giant_frost_frost_giant_houndmaster": {
-		"name": "Giant (Frost), Frost Giant Houndmaster",
+		"name": "Frost Giant Houndmaster",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Frost Giant Houndmaster]{cr=\"14\"}",
@@ -2937,7 +2937,7 @@
 	},
 	"frost_giant_houndmaster": { "copyof": "giant_frost_frost_giant_houndmaster" },
 	"giant_frost_frost_giant_hunter": {
-		"name": "Giant (Frost), Frost Giant Hunter",
+		"name": "Frost Giant Hunter",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Frost Giant Hunter]{cr=\"11\"}",
@@ -2989,7 +2989,7 @@
 	},
 	"frost_giant_hunter": { "copyof": "giant_frost_frost_giant_hunter" },
 	"giant_frost_frost_giant_ice_mage": {
-		"name": "Giant (Frost), Frost Giant Ice Mage",
+		"name": "Frost Giant Ice Mage",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Frost Giant Ice Mage]{cr=\"12\"}",
@@ -3054,7 +3054,7 @@
 	},
 	"frost_giant_ice_mage": { "copyof": "giant_frost_frost_giant_ice_mage" },
 	"giant_frost_frost_giant_jarl": {
-		"name": "Giant (Frost), Frost Giant Jarl",
+		"name": "Frost Giant Jarl",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Frost Giant Jarl]{cr=\"18\"}",
@@ -3114,7 +3114,7 @@
 	},
 	"frost_giant_jarl": { "copyof": "giant_frost_frost_giant_jarl" },
 	"giant_frost_frost_giant_raider": {
-		"name": "Giant (Frost), Frost Giant Raider",
+		"name": "Frost Giant Raider",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Frost Giant Raider]{cr=\"11\"}",
@@ -3397,7 +3397,7 @@
 		]
 	},
 	"giant_dragonfly_giant_dragonfly_nymph": {
-		"name": "Giant Dragonfly, Giant Dragonfly Nymph",
+		"name": "Giant Dragonfly Nymph",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This glittering blue dragonfly is about the size of a horse and is large enough to carry off small farm animals or people.*",

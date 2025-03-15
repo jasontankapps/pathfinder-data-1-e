@@ -1,6 +1,6 @@
 {
 	"great_old_one_bokrug": {
-		"name": "Great Old One, Bokrug",
+		"name": "Bokrug (Great Old One)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This great reptilian monster is an aquatic lizard with a beard of tentacles and a sting-tipped tail.*",
@@ -84,7 +84,7 @@
 	},
 	"bokrug": { "copyof": "great_old_one_bokrug" },
 	"great_old_one_cthulhu": {
-		"name": "Great Old One, Cthulhu",
+		"name": "Cthulhu (Great Old One)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This towering impossibility, neither quite octopus nor dragon nor giant but something far worse, must surely herald the end of times.*",
@@ -164,7 +164,7 @@
 	},
 	"cthulhu": { "copyof": "great_old_one_cthulhu" },
 	"great_old_one_ghatanothoa": {
-		"name": "Great Old One, Ghatanothoa",
+		"name": "Ghatanothoa (Great Old One)",
 		"sources": [
 			"Pathfinder #114: Black Stars Beckon",
 			"Bestiary 4"
@@ -243,7 +243,7 @@
 	},
 	"ghatanothoa": { "copyof": "great_old_one_ghatanothoa" },
 	"great_old_one_hastur": {
-		"name": "Great Old One, Hastur",
+		"name": "Hastur (Great Old One)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This entity appears to be a skeletal human form hidden under tattered yellow robes, but it moves with unsettling, inhuman grace.*",
@@ -321,7 +321,7 @@
 	},
 	"hastur": { "copyof": "great_old_one_hastur" },
 	"great_old_one_ithaqua": {
-		"name": "Great Old One, Ithaqua",
+		"name": "Ithaqua (Great Old One)",
 		"sources": [
 			"Pathfinder #109: In Search of Sanity",
 			"Bestiary 4"
@@ -412,7 +412,7 @@
 	},
 	"ithaqua": { "copyof": "great_old_one_ithaqua" },
 	"great_old_one_mhar": {
-		"name": "Great Old One, Mhar",
+		"name": "Mhar (Great Old One)",
 		"sources": [
 			"Pathfinder #138: Rise of New Thassilon",
 			"Bestiary 4"
@@ -492,7 +492,7 @@
 	},
 	"mhar": { "copyof": "great_old_one_mhar" },
 	"great_old_one_mordiggian": {
-		"name": "Great Old One, Mordiggian",
+		"name": "Mordiggian (Great Old One)",
 		"sources": [
 			"Pathfinder #110: The Thrushmoor Terror",
 			"Bestiary 4"
@@ -577,7 +577,7 @@
 	},
 	"mordiggian": { "copyof": "great_old_one_mordiggian" },
 	"great_old_one_rhan_tegoth": {
-		"name": "Great Old One, Rhan-Tegoth",
+		"name": "Rhan-Tegoth (Great Old One)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -662,7 +662,7 @@
 	},
 	"rhan_tegoth": { "copyof": "great_old_one_rhan_tegoth" },
 	"great_old_one_tawil_atumr": {
-		"name": "Great Old One, Tawil At'umr",
+		"name": "Tawil At'umr (Great Old One)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -749,7 +749,7 @@
 	},
 	"tawil_atumr": { "copyof": "great_old_one_tawil_atumr" },
 	"great_old_one_tsathoggua": {
-		"name": "Great Old One, Tsathoggua",
+		"name": "Tsathoggua (Great Old One)",
 		"sources": [
 			"Pathfinder #111: Dreams of the Yellow King",
 			"Bestiary 4"
@@ -847,7 +847,7 @@
 	},
 	"tsathoggua": { "copyof": "great_old_one_tsathoggua" },
 	"great_old_one_xhamen_dor": {
-		"name": "Great Old One, Xhamen-Dor",
+		"name": "Xhamen-Dor (Great Old One)",
 		"sources": [
 			"Pathfinder #113: What Grows Within",
 			"Bestiary 4"
@@ -932,7 +932,7 @@
 	},
 	"xhamen_dor": { "copyof": "great_old_one_xhamen_dor" },
 	"great_old_one_yig": {
-		"name": "Great Old One, Yig",
+		"name": "Yig (Great Old One)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -1057,7 +1057,7 @@
 		]
 	},
 	"herald_arcanotheign": {
-		"name": "Herald, Arcanotheign",
+		"name": "Arcanotheign (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #41: The Thousand Fangs Below"
@@ -1127,7 +1127,7 @@
 	},
 	"arcanotheign": { "copyof": "herald_arcanotheign" },
 	"herald_basileus": {
-		"name": "Herald, Basileus",
+		"name": "Basileus (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #29: Mother of Flies"
@@ -1192,7 +1192,7 @@
 	},
 	"basileus": { "copyof": "herald_basileus" },
 	"herald_ends_voice": {
-		"name": "Herald, End's Voice",
+		"name": "End's Voice (Herald)",
 		"sources": [
 			"Pathfinder #64: Beyond the Doomsday Door",
 			"Inner Sea Gods"
@@ -1274,7 +1274,7 @@
 	},
 	"ends_voice": { "copyof": "herald_ends_voice" },
 	"herald_gravedragger": {
-		"name": "Herald, Gravedragger",
+		"name": "Gravedragger (Herald)",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars",
 			"Inner Sea Gods"
@@ -1359,7 +1359,7 @@
 	},
 	"gravedragger": { "copyof": "herald_gravedragger" },
 	"herald_great_elder_iuu": {
-		"name": "Herald, Great Elder Iuu",
+		"name": "Great Elder Iuu (Herald)",
 		"sources": [
 			"Pathfinder #93: Forge of the Giant God",
 			"Inner Sea Gods"
@@ -1451,7 +1451,7 @@
 	},
 	"great_elder_iuu": { "copyof": "herald_great_elder_iuu" },
 	"herald_hand_of_the_inheritor": {
-		"name": "Herald, Hand of the Inheritor",
+		"name": "Hand of the Inheritor (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #26: The Sixfold Trial"
@@ -1514,7 +1514,7 @@
 	},
 	"hand_of_the_inheritor": { "copyof": "herald_hand_of_the_inheritor" },
 	"herald_latten_mechanism": {
-		"name": "Herald, Latten Mechanism",
+		"name": "Latten Mechanism (Herald)",
 		"sources": [
 			"Pathfinder #86: Lords of Rust",
 			"Inner Sea Gods"
@@ -1604,7 +1604,7 @@
 	},
 	"latten_mechanism": { "copyof": "herald_latten_mechanism" },
 	"herald_mothers_maw": {
-		"name": "Herald, Mother's Maw",
+		"name": "Mother's Maw (Herald)",
 		"sources": [
 			"Pathfinder #47: Ashes at Dawn",
 			"Inner Sea Gods"
@@ -1681,7 +1681,7 @@
 	},
 	"mothers_maw": { "copyof": "herald_mothers_maw" },
 	"herald_personification_of_fury": {
-		"name": "Herald, Personification of Fury",
+		"name": "Personification of Fury (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #38: Racing to Ruin"
@@ -1755,7 +1755,7 @@
 	},
 	"personification_of_fury": { "copyof": "herald_personification_of_fury" },
 	"herald_steward_of_the_skein": {
-		"name": "Herald, Steward of the Skein",
+		"name": "Steward of the Skein (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #44: Trial of the Beast"
@@ -1820,7 +1820,7 @@
 	},
 	"steward_of_the_skein": { "copyof": "herald_steward_of_the_skein" },
 	"herald_sunlord_thalachos": {
-		"name": "Herald, Sunlord Thalachos",
+		"name": "Sunlord Thalachos (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #20: House of the Beast"
@@ -1887,7 +1887,7 @@
 	},
 	"sunlord_thalachos": { "copyof": "herald_sunlord_thalachos" },
 	"herald_tarrasque": {
-		"name": "Herald, Tarrasque",
+		"name": "Tarrasque (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
@@ -1954,7 +1954,7 @@
 	},
 	"tarrasque": { "copyof": "herald_tarrasque" },
 	"herald_thais": {
-		"name": "Herald, Thais",
+		"name": "Thais (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #14: Children of the Void"
@@ -2022,7 +2022,7 @@
 	},
 	"thais": { "copyof": "herald_thais" },
 	"herald_the_first_blade": {
-		"name": "Herald, The First Blade",
+		"name": "The First Blade (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #35: War of the River Kings"
@@ -2096,7 +2096,7 @@
 	},
 	"the_first_blade": { "copyof": "herald_the_first_blade" },
 	"herald_the_grand_defender": {
-		"name": "Herald, The Grand Defender",
+		"name": "The Grand Defender (Herald)",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"*Made of polished iron, this mighty golem resembles a keen-eyed dwarf. It carries a warhammer and a shield bearing Torag's symbol.*",
@@ -2159,7 +2159,7 @@
 	},
 	"the_grand_defender": { "copyof": "herald_the_grand_defender" },
 	"herald_the_grim_white_stag": {
-		"name": "Herald, The Grim White Stag",
+		"name": "The Grim White Stag (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #32: Rivers Run Red"
@@ -2227,7 +2227,7 @@
 	},
 	"the_grim_white_stag": { "copyof": "herald_the_grim_white_stag" },
 	"herald_the_menotherian": {
-		"name": "Herald, The Menotherian",
+		"name": "The Menotherian (Herald)",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"*This gangly black wasp has delicate wings, articulate hands on its front legs, and a pair of jagged stingers the length of a human arm.*",
@@ -2293,7 +2293,7 @@
 	"the_menotherian": { "copyof": "herald_the_menotherian" },
 	"menotherian": { "copyof": "herald_the_menotherian" },
 	"herald_the_old_man": {
-		"name": "Herald, The Old Man",
+		"name": "The Old Man (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #53: Tide of Honor"
@@ -2359,7 +2359,7 @@
 	},
 	"the_old_man": { "copyof": "herald_the_old_man" },
 	"herald_the_spirit_of_adoration": {
-		"name": "Herald, The Spirit of Adoration",
+		"name": "The Spirit of Adoration (Herald)",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"*This heavenly warrior appears to be a work of art come to life. She grips a fearsome glaive that trails brilliant colors.*",
@@ -2425,7 +2425,7 @@
 	},
 	"the_spirit_of_adoration": { "copyof": "herald_the_spirit_of_adoration" },
 	"herald_the_stabbing_beast": {
-		"name": "Herald, The Stabbing Beast",
+		"name": "The Stabbing Beast (Herald)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #59: The Price of Infamy"
@@ -2494,7 +2494,7 @@
 	},
 	"the_stabbing_beast": { "copyof": "herald_the_stabbing_beast" },
 	"horsemen_of_the_apocalypse_apollyon": {
-		"name": "Horsemen of the Apocalypse, Apollyon",
+		"name": "Apollyon (Horsemen of the Apocalypse)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This muscular figure has a skeletal ram's head and a cloud of flies spews from his mouth.*",
@@ -2572,7 +2572,7 @@
 	},
 	"apollyon": { "copyof": "horsemen_of_the_apocalypse_apollyon" },
 	"horsemen_of_the_apocalypse_charon": {
-		"name": "Horsemen of the Apocalypse, Charon",
+		"name": "Charon (Horsemen of the Apocalypse)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This ancient figure is dressed in black, and its eyes are sunken pits that glint with malevolent cunning.*",
@@ -2657,7 +2657,7 @@
 	},
 	"charon": { "copyof": "horsemen_of_the_apocalypse_charon" },
 	"horsemen_of_the_apocalypse_szuriel": {
-		"name": "Horsemen of the Apocalypse, Szuriel",
+		"name": "Szuriel (Horsemen of the Apocalypse)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This blond woman's pitch-black eyes weep tears of blood, and a massive pair of raven's wings spreads from her shoulders.*",
@@ -2734,7 +2734,7 @@
 	},
 	"szuriel": { "copyof": "horsemen_of_the_apocalypse_szuriel" },
 	"horsemen_of_the_apocalypse_trelmarixian": {
-		"name": "Horsemen of the Apocalypse, Trelmarixian",
+		"name": "Trelmarixian (Horsemen of the Apocalypse)",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This starving-thin man has a trio of jackal's heads with jagged, crystalline teeth. His oily black flesh ripples disturbingly.*",
@@ -2952,7 +2952,7 @@
 		]
 	},
 	"kaiju_agyra": {
-		"name": "Kaiju, Agyra",
+		"name": "Agyra (Kaiju)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This two-headed monstrosity has vast wings and a long tail covered in a forest of blades.*",
@@ -3028,7 +3028,7 @@
 	},
 	"agyra": { "copyof": "kaiju_agyra" },
 	"kaiju_bezravnis": {
-		"name": "Kaiju, Bezravnis",
+		"name": "Bezravnis (Kaiju)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*The armored plates of this immense, three-tailed scorpion are fiery red, and its stingers glow with molten heat.*",

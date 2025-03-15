@@ -894,7 +894,7 @@
 			"",
 			"Mythic reduce person counters and dispels mythic {spell/enlarge person}.",
 			"",
-			"### Reduce Person, Mass",
+			"### Mass Reduce Person",
 			"",
 			"{SOURCE PRPG Core Rulebook/331}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 4, bloodrager 4, magus 4, psychic 4, redmantisassassin 4, sorcerer 4, summoner 3, unchained summoner 4, wizard 4  ",
@@ -909,7 +909,7 @@
 		]
 	},
 	"reduce_person_mass": {
-		"name": "Reduce Person, Mass",
+		"name": "Mass Reduce Person",
 		"copyof": "reduce_person"
 	},
 	"mass_reduce_person": { "copyof": "reduce_person_mass" },
@@ -1172,7 +1172,7 @@
 			"",
 			"You reinforce a weapon or armor suit to give it a temporarily upgrade or mitigate the [fragile quality](rule/broken_and_fragile). A suit of armor or weapon touched that has the fragile quality is not considered to have the fragile quality for the spell's duration. Normal armor suits or weapons subjected to this spell instead gain the masterwork quality for the spell's duration and their hardness is doubled. If this spell is cast on masterwork or magical armor or weapons, their hardness is doubled for the duration of the spell.",
 			"",
-			"### Reinforce Armaments, Communal",
+			"### Communal Reinforce Armaments",
 			"",
 			"{SOURCE Ultimate Combat/241}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 2, cleric 2, magus 2, occultist 2, oracle 2, redmantisassassin 2, sorcerer 2, warpriest 2, witch 2, wizard 2  ",
@@ -1187,7 +1187,7 @@
 		]
 	},
 	"reinforce_armaments_communal": {
-		"name": "Reinforce Armaments, Communal",
+		"name": "Communal Reinforce Armaments",
 		"copyof": "reinforce_armaments"
 	},
 	"communal_reinforce_armaments": { "copyof": "reinforce_armaments_communal" },
@@ -1210,12 +1210,12 @@
 		]
 	},
 	"rejuvenate_eidolon_lesser": {
-		"name": "Rejuvenate Eidolon, Lesser",
+		"name": "Lesser Rejuvenate Eidolon",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"{jumplist Rejuvenate Eidolon / Rejuvenate Eidolon, Greater}",
 			"",
-			"## Rejuvenate Eidolon, Lesser",
+			"## Lesser Rejuvenate Eidolon",
 			"",
 			"{SOURCE Advanced Player's Guide/238}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** summoner 1, unchained summoner 1  ",
@@ -1241,7 +1241,7 @@
 			"",
 			"This spell functions as lesser rejuvenate eidolon, except that it cures 3d10 points of damage +1 point per caster level (maximum +10).",
 			"",
-			"### Rejuvenate Eidolon, Greater",
+			"### Greater Rejuvenate Eidolon",
 			"",
 			"{SOURCE Advanced Player's Guide/238}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** summoner 5, unchained summoner 5  ",
@@ -1261,7 +1261,7 @@
 		"copyof": "lesser_rejuvenate_eidolon"
 	},
 	"rejuvenate_eidolon_greater": {
-		"name": "Rejuvenate Eidolon, Greater",
+		"name": "Greater Rejuvenate Eidolon",
 		"copyof": "lesser_rejuvenate_eidolon"
 	},
 	"greater_rejuvenate_eidolon": { "copyof": "rejuvenate_eidolon_greater" },
@@ -1456,7 +1456,7 @@
 			"",
 			"You remove all ongoing radiation effects, both primary and secondary, on a single target if you succeed at a caster level check (DC = the Fortitude DC associated with the radiation effect). In addition, you immediately restore 1d4 points of Constitution drain and 1d4 points of Strength drain caused by radiation-this spell cannot restore ability damage or drain caused by other sources. When cast on an area, a single casting of remove radioactivity removes radiation from a 20-foot-radius area around the point you touch. This spell has no power to negate naturally radioactive materials, and as long as such materials remain in an area, the radiation that was removed may return.",
 			"",
-			"### Remove Radioactivity, Greater",
+			"### Greater Remove Radioactivity",
 			"",
 			"{SOURCE Technology Guide/11}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** cleric 8, druid 8, oracle 8, witch 8  ",
@@ -1471,7 +1471,7 @@
 		]
 	},
 	"remove_radioactivity_greater": {
-		"name": "Remove Radioactivity, Greater",
+		"name": "Greater Remove Radioactivity",
 		"copyof": "remove_radioactivity"
 	},
 	"greater_remove_radioactivity": { "copyof": "remove_radioactivity_greater" },
@@ -1604,10 +1604,10 @@
 		]
 	},
 	"repair_undead_mass": {
-		"name": "Repair Undead, Mass",
+		"name": "Mass Repair Undead",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Repair Undead, Mass",
+			"## Mass Repair Undead",
 			"",
 			"{SOURCE Advanced Class Guide/191}  ",
 			"**School** {spelldef/necromancy}; **Level** arcanist 5, sorcerer 5, spiritualist 5, wizard 5  ",
@@ -1929,7 +1929,7 @@
 			"",
 			"The target gains a +4 bonus on saves against effects that deal damage of the selected energy type. Once each round as a free action, the target can choose one adjacent ally to gain energy resistance 5 against the chosen energy type for 1 round. This increases to energy resistance 10 at caster level 7 and energy resistance 15 at caster level 11.",
 			"",
-			"### Resist Energy, Communal",
+			"### Communal Resist Energy",
 			"",
 			"{SOURCE Ultimate Combat/242}  ",
 			"**School** {spelldef/abjuration}; **Level** alchemist 3, arcanist 3, cleric 3, druid 3, hunter 3, inquisitor 3, investigator 3, occultist 3, oracle 3, paladin 3, psychic 3, ranger 3, sorcerer 3, summoner 3, unchained summoner 3, warpriest 3, wizard 3  ",
@@ -1944,7 +1944,7 @@
 		]
 	},
 	"resist_energy_communal": {
-		"name": "Resist Energy, Communal",
+		"name": "Communal Resist Energy",
 		"copyof": "resist_energy"
 	},
 	"communal_resist_energy": { "copyof": "resist_energy_communal" },
@@ -2203,7 +2203,7 @@
 			"",
 			"Restoration cures all temporary ability damage, and it restores all points permanently drained from a single ability score (your choice if more than one is drained). It also eliminates any fatigue or exhaustion suffered by the target.",
 			"",
-			"### Restoration, Greater",
+			"### Greater Restoration",
 			"",
 			"{SOURCE PRPG Core Rulebook/334}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** cleric 7, oracle 7, shaman 7  ",
@@ -2216,7 +2216,7 @@
 			"",
 			"This spell functions like lesser restoration, except that it dispels all permanent and temporary negative levels afflicting the healed creature. Greater restoration also dispels all magical effects penalizing the creature's abilities, cures all temporary ability damage, and restores all points permanently drained from all ability scores. It also eliminates fatigue and exhaustion, and removes all forms of insanity, confusion, and similar mental effects.",
 			"",
-			"### Restoration, Lesser",
+			"### Lesser Restoration",
 			"",
 			"{SOURCE PRPG Core Rulebook/334}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** alchemist 2, cleric 2, druid 2, hunter 2, inquisitor 2, investigator 2, mesmerist 2, oracle 2, paladin 1, shaman 2, spiritualist 2, warpriest 2  ",
@@ -2231,12 +2231,12 @@
 		]
 	},
 	"restoration_greater": {
-		"name": "Restoration, Greater",
+		"name": "Greater Restoration",
 		"copyof": "restoration"
 	},
 	"greater_restoration": { "copyof": "restoration_greater" },
 	"restoration_lesser": {
-		"name": "Restoration, Lesser",
+		"name": "Lesser Restoration",
 		"copyof": "restoration"
 	},
 	"lesser_restoration": { "copyof": "restoration_lesser" },
@@ -2259,10 +2259,10 @@
 		]
 	},
 	"restore_eidolon_lesser": {
-		"name": "Restore Eidolon, Lesser",
+		"name": "Lesser Restore Eidolon",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"## Restore Eidolon, Lesser",
+			"## Lesser Restore Eidolon",
 			"",
 			"{SOURCE Ultimate Magic/235}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** summoner 2, unchained summoner 2  ",
@@ -2376,7 +2376,7 @@
 			"",
 			"Attempts to identify false resurrection with a skill check incorrectly identify it as resurrection (see the {spelldef/ruse} descriptor). A fooled viewer mistakes false resurrection's aura as the lingering aura of an instantaneous conjuration effect.",
 			"",
-			"### False Resurrection, Greater",
+			"### Greater False Resurrection",
 			"",
 			"{SOURCE Ultimate Intrigue/214}  ",
 			"**School** {spelldef/conjuration} ({spelldef/calling}) [{spelldef/evil}, {spelldef/lawful}, {spelldef/ruse}]; **Level** cleric 9, oracle 9  ",
@@ -2397,7 +2397,7 @@
 		"copyof": "resurrection"
 	},
 	"false_resurrection_greater": {
-		"name": "False Resurrection, Greater",
+		"name": "Greater False Resurrection",
 		"copyof": "resurrection"
 	},
 	"greater_false_resurrection": { "copyof": "false_resurrection_greater" },
@@ -2503,7 +2503,7 @@
 			"",
 			"This spell can be used as the prerequisite for the returning weapon special ability.",
 			"",
-			"### Returning Weapon, Communal",
+			"### Communal Returning Weapon",
 			"",
 			"{SOURCE Ultimate Combat/243}  ",
 			"**School** {spelldef/conjuration} ({spelldef/teleportation}); **Level** arcanist 3, bard 3, cleric 3, hunter 2, inquisitor 2, magus 2, occultist 2, oracle 3, psychic 3, ranger 2, skald 3, sorcerer 3, warpriest 3, witch 3, wizard 3  ",
@@ -2518,7 +2518,7 @@
 		]
 	},
 	"returning_weapon_communal": {
-		"name": "Returning Weapon, Communal",
+		"name": "Communal Returning Weapon",
 		"copyof": "returning_weapon"
 	},
 	"communal_returning_weapon": { "copyof": "returning_weapon_communal" },
@@ -3821,7 +3821,7 @@
 			"",
 			"A whirling cloud of sand strikes the target, blinding it and hampering its ability to speak. To speak while affected by the spell, the target must make a Concentration check (DC equal to the DC of this spell). If the target tries to cast a spell, the Concentration DC increases by the level of the spell being cast. A successful Will save negates the blindness but not the speechhampering effect.",
 			"",
-			"### Sand Whirlwind, Greater",
+			"### Greater Sand Whirlwind",
 			"",
 			"{SOURCE Taldor, Echoes of Glory/25}  ",
 			"**School** {spelldef/conjuration} ({spelldef/creation}); **Level** cleric 5, oracle 5, warpriest 5  ",
@@ -3836,7 +3836,7 @@
 		]
 	},
 	"sand_whirlwind_greater": {
-		"name": "Sand Whirlwind, Greater",
+		"name": "Greater Sand Whirlwind",
 		"copyof": "sand_whirlwind"
 	},
 	"greater_sand_whirlwind": { "copyof": "sand_whirlwind_greater" },
@@ -3983,7 +3983,7 @@
 			"",
 			"When the target is affected by this spell, its scales grow jagged spikes. These spikes act like +1 armor spikes. The subject is automatically considered proficient with these scale spikes.",
 			"",
-			"### Scale Spikes, Greater",
+			"### Greater Scale Spikes",
 			"",
 			"{SOURCE Monster Codex/141}  ",
 			"**School** {spelldef/transmutation}; **Level** alchemist 4, arcanist 3, bloodrager 4, druid 3, hunter 3, investigator 4, ranger 3, shaman 3, sorcerer 3, witch 3, wizard 3  ",
@@ -3998,7 +3998,7 @@
 		]
 	},
 	"scale_spikes_greater": {
-		"name": "Scale Spikes, Greater",
+		"name": "Greater Scale Spikes",
 		"copyof": "scale_spikes"
 	},
 	"greater_scale_spikes": { "copyof": "scale_spikes_greater" },

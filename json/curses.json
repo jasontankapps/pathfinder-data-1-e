@@ -88,10 +88,10 @@
 		]
 	},
 	"haunting_major": {
-		"name": "Haunting, Major",
+		"name": "Major Haunting",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Haunting, Major",
+			"## Major Haunting",
 			"",
 			"{SOURCE Horror Adventures/138}  ",
 			"**Type** curse; **Save** Will DC 17  ",
@@ -101,10 +101,10 @@
 	},
 	"major_haunting": { "copyof": "haunting_major" },
 	"haunting_minor": {
-		"name": "Haunting, Minor",
+		"name": "Minor Haunting",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Haunting, Minor",
+			"## Minor Haunting",
 			"",
 			"{SOURCE Horror Adventures/138}  ",
 			"**Type** curse; **Save** Will DC 13  ",
@@ -164,10 +164,10 @@
 		]
 	},
 	"perilous_demesne_grand": {
-		"name": "Perilous Demesne, Grand",
+		"name": "Grand Perilous Demesne",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Perilous Demesne, Grand",
+			"## Grand Perilous Demesne",
 			"",
 			"{SOURCE Horror Adventures/144}  ",
 			"**Type** regional curse; **Save** Will DC 22  ",
@@ -177,10 +177,10 @@
 	},
 	"grand_perilous_demesne": { "copyof": "perilous_demesne_grand" },
 	"perilous_demesne_greater": {
-		"name": "Perilous Demesne, Greater",
+		"name": "Greater Perilous Demesne",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Perilous Demesne, Greater",
+			"## Greater Perilous Demesne",
 			"",
 			"{SOURCE Horror Adventures/145}  ",
 			"**Type** regional curse; **Save** Will DC 19  ",
@@ -190,10 +190,10 @@
 	},
 	"greater_perilous_demesne": { "copyof": "perilous_demesne_greater" },
 	"perilous_demesne_major": {
-		"name": "Perilous Demesne, Major",
+		"name": "Major Perilous Demesne",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Perilous Demesne, Major",
+			"## Major Perilous Demesne",
 			"",
 			"{SOURCE Horror Adventures/145}  ",
 			"**Type** regional curse; **Save** Will DC 16  ",
@@ -202,10 +202,10 @@
 	},
 	"major_perilous_demesne": { "copyof": "perilous_demesne_major" },
 	"perilous_demesne_minor": {
-		"name": "Perilous Demesne, Minor",
+		"name": "Minor Perilous Demesne",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Perilous Demesne, Minor",
+			"## Minor Perilous Demesne",
 			"",
 			"{SOURCE Horror Adventures/145}  ",
 			"**Type** regional curse; **Save** Will DC 13  ",

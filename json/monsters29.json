@@ -1,6 +1,6 @@
 {
 	"dark_folk_caligni": {
-		"name": "Dark Folk, Caligni",
+		"name": "Caligni (Dark Folk)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -68,7 +68,7 @@
 	},
 	"caligni": { "copyof": "dark_folk_caligni" },
 	"dark_folk_dark_caller": {
-		"name": "Dark Folk, Dark Caller",
+		"name": "Dark Caller (Dark Folk)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -137,7 +137,7 @@
 	},
 	"dark_caller": { "copyof": "dark_folk_dark_caller" },
 	"dark_folk_dark_champion": {
-		"name": "Dark Folk, Dark Champion",
+		"name": "Dark Champion (Dark Folk)",
 		"sources": [
 			"Cradle of Night",
 			"Pathfinder RPG Bestiary"
@@ -199,7 +199,7 @@
 	},
 	"dark_champion": { "copyof": "dark_folk_dark_champion" },
 	"dark_folk_dark_creeper": {
-		"name": "Dark Folk, Dark Creeper",
+		"name": "Dark Creeper (Dark Folk)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Filthy, reeking black rags wrap this small humanoid from head to toe, leaving only its hands and pale white nose visible.*",
@@ -264,7 +264,7 @@
 	},
 	"dark_creeper": { "copyof": "dark_folk_dark_creeper" },
 	"dark_folk_dark_dancer": {
-		"name": "Dark Folk, Dark Dancer",
+		"name": "Dark Dancer (Dark Folk)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -326,7 +326,7 @@
 	},
 	"dark_dancer": { "copyof": "dark_folk_dark_dancer" },
 	"dark_folk_dark_empath": {
-		"name": "Dark Folk, Dark Empath",
+		"name": "Dark Empath (Dark Folk)",
 		"sources": [
 			"Occult Bestiary",
 			"Pathfinder RPG Bestiary"
@@ -392,7 +392,7 @@
 	},
 	"dark_empath": { "copyof": "dark_folk_dark_empath" },
 	"dark_folk_dark_slayer": {
-		"name": "Dark Folk, Dark Slayer",
+		"name": "Dark Slayer (Dark Folk)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -460,7 +460,7 @@
 	},
 	"dark_slayer": { "copyof": "dark_folk_dark_slayer" },
 	"dark_folk_dark_stalker": {
-		"name": "Dark Folk, Dark Stalker",
+		"name": "Dark Stalker (Dark Folk)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This tall humanoid's pale brow and black, soulless eyes are all that can be seen above a black scarf wrapped around its face.*",
@@ -525,7 +525,7 @@
 	},
 	"dark_stalker": { "copyof": "dark_folk_dark_stalker" },
 	"demodand_gristly_demodand": {
-		"name": "Demodand, Gristly Demodand",
+		"name": "Gristly Demodand",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 3"
@@ -591,7 +591,7 @@
 	"gristly_demodand": { "copyof": "demodand_gristly_demodand" },
 	"demodand_gristly": { "copyof": "demodand_gristly_demodand" },
 	"demodand_shaggy_demodand": {
-		"name": "Demodand, Shaggy Demodand",
+		"name": "Shaggy Demodand",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This toad-faced humanoid is bloated and swollen, with folds of obsidian skin hanging down beneath two immense bat wings.*",
@@ -648,7 +648,7 @@
 	"shaggy_demodand": { "copyof": "demodand_shaggy_demodand" },
 	"demodand_shaggy": { "copyof": "demodand_shaggy_demodand" },
 	"demodand_slimy_demodand": {
-		"name": "Demodand, Slimy Demodand",
+		"name": "Slimy Demodand",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This muscular, frog-headed humanoid has tattered flesh hanging from its batlike wings and is covered in a viscous slime.*",
@@ -712,7 +712,7 @@
 	"slimy_demodand": { "copyof": "demodand_slimy_demodand" },
 	"demodand_slimy": { "copyof": "demodand_slimy_demodand" },
 	"demodand_squamous_demodand": {
-		"name": "Demodand, Squamous Demodand",
+		"name": "Squamous Demodand",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 3"
@@ -783,7 +783,7 @@
 	"squamous_demodand": { "copyof": "demodand_squamous_demodand" },
 	"demodand_squamous": { "copyof": "demodand_squamous_demodand" },
 	"demodand_stringy_demodand": {
-		"name": "Demodand, Stringy Demodand",
+		"name": "Stringy Demodand",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #77: Herald of the Ivory Labyrinth",
@@ -850,7 +850,7 @@
 	"stringy_demodand": { "copyof": "demodand_stringy_demodand" },
 	"demodand_stringy": { "copyof": "demodand_stringy_demodand" },
 	"demodand_tarry_demodand": {
-		"name": "Demodand, Tarry Demodand",
+		"name": "Tarry Demodand",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This lithe, toothy creature's jet-black skin looks like living tar, and ooze drips from the claws that cap its long arms.*",
@@ -910,7 +910,7 @@
 	"tarry_demodand": { "copyof": "demodand_tarry_demodand" },
 	"demodand_tarry": { "copyof": "demodand_tarry_demodand" },
 	"demon_abrikandilu": {
-		"name": "Demon, Abrikandilu",
+		"name": "Abrikandilu (Demon)",
 		"sources": [
 			"Bestiary 5",
 			"The Worldwound",
@@ -979,7 +979,7 @@
 	},
 	"abrikandilu": { "copyof": "demon_abrikandilu" },
 	"demon_andrazku": {
-		"name": "Demon, Andrazku",
+		"name": "Andrazku (Demon)",
 		"sources": [
 			"Pathfinder #69: Maiden, Mother, Crone",
 			"Pathfinder RPG Bestiary"
@@ -1067,7 +1067,7 @@
 	},
 	"andrazku": { "copyof": "demon_andrazku" },
 	"demon_babau": {
-		"name": "Demon, Babau",
+		"name": "Babau (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This emaciated figure looks like a horned human skeleton smothered within a bone-tight hide of slimy leather.*",
@@ -1128,7 +1128,7 @@
 	},
 	"babau": { "copyof": "demon_babau" },
 	"demon_balor": {
-		"name": "Demon, Balor",
+		"name": "Balor (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This winged fiend's horned head and fanged visage present the perfection of the demonic form, fire spurting from its flesh.*",
@@ -1215,7 +1215,7 @@
 	},
 	"balor": { "copyof": "demon_balor" },
 	"demon_brimorak": {
-		"name": "Demon, Brimorak",
+		"name": "Brimorak (Demon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 2: Lords of Chaos",
@@ -1283,7 +1283,7 @@
 	},
 	"brimorak": { "copyof": "demon_brimorak" },
 	"demon_cambion": {
-		"name": "Demon, Cambion",
+		"name": "Cambion (Demon)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #76: The Midnight Isles",
@@ -1355,7 +1355,7 @@
 	},
 	"cambion": { "copyof": "demon_cambion" },
 	"demon_coloxus": {
-		"name": "Demon, Coloxus",
+		"name": "Coloxus (Demon)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -1423,7 +1423,7 @@
 	},
 	"coloxus": { "copyof": "demon_coloxus" },
 	"demon_derakni": {
-		"name": "Demon, Derakni",
+		"name": "Derakni (Demon)",
 		"sources": [
 			"The Worldwound",
 			"Pathfinder RPG Bestiary"
@@ -1489,7 +1489,7 @@
 	},
 	"derakni": { "copyof": "demon_derakni" },
 	"demon_dretch": {
-		"name": "Demon, Dretch",
+		"name": "Dretch (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This creature's bloated frame shudders with each heaving step, yet despite its shape, the thing moves with surprising quickness.*",
@@ -1544,7 +1544,7 @@
 	},
 	"dretch": { "copyof": "demon_dretch" },
 	"demon_gallu": {
-		"name": "Demon, Gallu",
+		"name": "Gallu (Demon)",
 		"sources": [
 			"The Worldwound",
 			"Pathfinder RPG Bestiary"
@@ -1618,7 +1618,7 @@
 	},
 	"gallu": { "copyof": "demon_gallu" },
 	"demon_ghalzarokh": {
-		"name": "Demon, Ghalzarokh",
+		"name": "Ghalzarokh (Demon)",
 		"sources": [
 			"Book of the Damned",
 			"Pathfinder RPG Bestiary"
@@ -1679,7 +1679,7 @@
 	},
 	"ghalzarokh": { "copyof": "demon_ghalzarokh" },
 	"demon_gibrileth": {
-		"name": "Demon, Gibrileth",
+		"name": "Gibrileth (Demon)",
 		"sources": [
 			"The Worldwound",
 			"Pathfinder RPG Bestiary"
@@ -1747,7 +1747,7 @@
 	},
 	"gibrileth": { "copyof": "demon_gibrileth" },
 	"demon_glabrezu": {
-		"name": "Demon, Glabrezu",
+		"name": "Glabrezu (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Four arms grace the torso of this towering monstrosity. The monster's eyes shine with a mix of intelligence and cruelty.*",
@@ -1803,7 +1803,7 @@
 	},
 	"glabrezu": { "copyof": "demon_glabrezu" },
 	"demon_hala": {
-		"name": "Demon, Hala",
+		"name": "Hala (Demon)",
 		"sources": [
 			"Pathfinder #49: The Brinewall Legacy",
 			"Pathfinder RPG Bestiary"
@@ -1888,7 +1888,7 @@
 	},
 	"hala": { "copyof": "demon_hala" },
 	"demon_hezrou": {
-		"name": "Demon, Hezrou",
+		"name": "Hezrou (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This fiend's armored flesh is scaly and moist. Its large, toothy mouth gapes below a pair of hungry, reptilian eyes.*",
@@ -1951,7 +1951,7 @@
 	},
 	"hezrou": { "copyof": "demon_hezrou" },
 	"demon_incubus": {
-		"name": "Demon, Incubus",
+		"name": "Incubus (Demon)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -2015,7 +2015,7 @@
 	},
 	"incubus": { "copyof": "demon_incubus" },
 	"demon_kalavakus": {
-		"name": "Demon, Kalavakus",
+		"name": "Kalavakus (Demon)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2078,7 +2078,7 @@
 	},
 	"kalavakus": { "copyof": "demon_kalavakus" },
 	"demon_katpaskir": {
-		"name": "Demon, Katpaskir",
+		"name": "Katpaskir (Demon)",
 		"sources": [
 			"Pathfinder #78: City of Locusts",
 			"Pathfinder RPG Bestiary"
@@ -2160,7 +2160,7 @@
 	},
 	"katpaskir": { "copyof": "demon_katpaskir" },
 	"demon_kithangian": {
-		"name": "Demon, Kithangian",
+		"name": "Kithangian (Demon)",
 		"sources": [
 			"The Worldwound",
 			"Pathfinder RPG Bestiary"
@@ -2228,7 +2228,7 @@
 	},
 	"kithangian": { "copyof": "demon_kithangian" },
 	"demon_larva": {
-		"name": "Demon, Larva",
+		"name": "Larva (Demon)",
 		"sources": [
 			"Pathfinder #76: The Midnight Isles",
 			"Pathfinder RPG Bestiary"
@@ -2273,7 +2273,7 @@
 	},
 	"larva": { "copyof": "demon_larva" },
 	"demon_lilitu": {
-		"name": "Demon, Lilitu",
+		"name": "Lilitu (Demon)",
 		"sources": [
 			"Bestiary 6",
 			"The Worldwound",
@@ -2362,7 +2362,7 @@
 	},
 	"lilitu": { "copyof": "demon_lilitu" },
 	"demon_marilith": {
-		"name": "Demon, Marilith",
+		"name": "Marilith (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This snake-bodied fiend has a six-armed woman's torso, pointed ears, and glittering, otherworldly eyes.*",
@@ -2427,7 +2427,7 @@
 	},
 	"marilith": { "copyof": "demon_marilith" },
 	"demon_nabasu": {
-		"name": "Demon, Nabasu",
+		"name": "Nabasu (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This lanky fiend's mouth is filled with sharp fangs, while great bat-like wings stretch from its scaly hide.*",
@@ -2485,7 +2485,7 @@
 	},
 	"nabasu": { "copyof": "demon_nabasu" },
 	"demon_nalfeshnee": {
-		"name": "Demon, Nalfeshnee",
+		"name": "Nalfeshnee (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A towering, corpulent beast, this fiend has the hideous head of a boar and arms ending in fatty, four-fingered hands.*",
@@ -2545,7 +2545,7 @@
 	},
 	"nalfeshnee": { "copyof": "demon_nalfeshnee" },
 	"demon_omox": {
-		"name": "Demon, Omox",
+		"name": "Omox (Demon)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #16: Endless Night",
@@ -2613,7 +2613,7 @@
 	},
 	"omox": { "copyof": "demon_omox" },
 	"demon_oolioddroo": {
-		"name": "Demon, Oolioddroo",
+		"name": "Oolioddroo (Demon)",
 		"sources": [
 			"Bestiary 6",
 			"The Worldwound",
@@ -2692,7 +2692,7 @@
 	},
 	"oolioddroo": { "copyof": "demon_oolioddroo" },
 	"demon_painajai": {
-		"name": "Demon, Painajai",
+		"name": "Painajai (Demon)",
 		"sources": [
 			"Occult Bestiary",
 			"Pathfinder RPG Bestiary"
@@ -2760,7 +2760,7 @@
 	},
 	"painajai": { "copyof": "demon_painajai" },
 	"demon_quasit": {
-		"name": "Demon, Quasit",
+		"name": "Quasit (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Ram horns curl back from the twisted head of this tiny winged demon, and its body is thin and wiry.*",
@@ -2823,7 +2823,7 @@
 	},
 	"quasit": { "copyof": "demon_quasit" },
 	"demon_schir": {
-		"name": "Demon, Schir",
+		"name": "Schir (Demon)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -2890,7 +2890,7 @@
 	},
 	"schir": { "copyof": "demon_schir" },
 	"demon_seraptis": {
-		"name": "Demon, Seraptis",
+		"name": "Seraptis (Demon)",
 		"sources": [
 			"Bestiary 5",
 			"Book of the Damned - Volume 2: Lords of Chaos",
@@ -2958,7 +2958,7 @@
 	},
 	"seraptis": { "copyof": "demon_seraptis" },
 	"demon_shachath": {
-		"name": "Demon, Shachath",
+		"name": "Shachath (Demon)",
 		"sources": [
 			"Pathfinder #75: Demon's Heresy",
 			"Pathfinder RPG Bestiary"
@@ -3036,7 +3036,7 @@
 	},
 	"shachath": { "copyof": "demon_shachath" },
 	"demon_shadow_demon": {
-		"name": "Demon, Shadow Demon",
+		"name": "Shadow Demon (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Only this shadowy bat-winged demon's teeth and claws have any sense of physicality to them - the rest is lost in darkness.*",
@@ -3100,7 +3100,7 @@
 	"shadow_demon": { "copyof": "demon_shadow_demon" },
 	"demon_shadow": { "copyof": "demon_shadow_demon" },
 	"demon_shemhazian": {
-		"name": "Demon, Shemhazian",
+		"name": "Shemhazian (Demon)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #5: Sins of the Saviors",
@@ -3166,7 +3166,7 @@
 	},
 	"shemhazian": { "copyof": "demon_shemhazian" },
 	"demon_succubus": {
-		"name": "Demon, Succubus",
+		"name": "Succubus (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of this alluring woman.*",
@@ -3225,7 +3225,7 @@
 	},
 	"succubus": { "copyof": "demon_succubus" },
 	"demon_swaithe": {
-		"name": "Demon, Swaithe",
+		"name": "Swaithe (Demon)",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
@@ -3298,7 +3298,7 @@
 	},
 	"swaithe": { "copyof": "demon_swaithe" },
 	"demon_thoxel_demon": {
-		"name": "Demon, Thoxel Demon",
+		"name": "Thoxel Demon (Demon)",
 		"sources": [
 			"Pathfinder #74: Sword of Valor",
 			"Pathfinder RPG Bestiary"
@@ -3379,7 +3379,7 @@
 	"thoxel_demon": { "copyof": "demon_thoxel_demon" },
 	"demon_thoxel": { "copyof": "demon_thoxel_demon" },
 	"demon_ulkreth": {
-		"name": "Demon, Ulkreth",
+		"name": "Ulkreth (Demon)",
 		"sources": [
 			"Pathfinder #73: The Worldwound Incursion",
 			"Pathfinder RPG Bestiary"
@@ -3462,7 +3462,7 @@
 	},
 	"ulkreth": { "copyof": "demon_ulkreth" },
 	"demon_vavakia": {
-		"name": "Demon, Vavakia",
+		"name": "Vavakia (Demon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 2: Lords of Chaos",
@@ -3539,7 +3539,7 @@
 	},
 	"vavakia": { "copyof": "demon_vavakia" },
 	"demon_vermlek": {
-		"name": "Demon, Vermlek",
+		"name": "Vermlek (Demon)",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 2: Lords of Chaos",
@@ -3606,7 +3606,7 @@
 	},
 	"vermlek": { "copyof": "demon_vermlek" },
 	"demon_vilsteth": {
-		"name": "Demon, Vilsteth",
+		"name": "Vilsteth (Demon)",
 		"sources": [
 			"Pathfinder #77: Herald of the Ivory Labyrinth",
 			"Pathfinder RPG Bestiary"
@@ -3685,7 +3685,7 @@
 	},
 	"vilsteth": { "copyof": "demon_vilsteth" },
 	"demon_vrock": {
-		"name": "Demon, Vrock",
+		"name": "Vrock (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A cloud of spores and a trail of feathers surrounds this twisted cross between a man and a gigantic vulture.*",
@@ -3747,7 +3747,7 @@
 	},
 	"vrock": { "copyof": "demon_vrock" },
 	"demon_vrolikai": {
-		"name": "Demon, Vrolikai",
+		"name": "Vrolikai (Demon)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -3814,7 +3814,7 @@
 	},
 	"vrolikai": { "copyof": "demon_vrolikai" },
 	"demon_yaenit": {
-		"name": "Demon, Yaenit",
+		"name": "Yaenit (Demon)",
 		"sources": [
 			"Bestiary 6",
 			"Broken Chains",

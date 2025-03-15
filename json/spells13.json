@@ -281,7 +281,7 @@
 			"",
 			"When used as a targeted dispel, this spell can end two spells affecting the target instead of just one. If the targeted dispel successfully dispels at least one spell, you heal 1d4 points of damage for every spell level of the dispelled spell. If you dispel two spells, this healing applies only to the highest-level spell dispelled. If you use this spell to counterspell, roll your dispel check twice and take the higher result.",
 			"",
-			"### Dispel Magic, Greater",
+			"### Greater Dispel Magic",
 			"",
 			"{SOURCE PRPG Core Rulebook/272}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 6, bard 5, cleric 6, druid 6, hunter 6, inquisitor 6, magus 6, occultist 5, oracle 6, psychic 6, shaman 6, skald 5, sorcerer 6, spiritualist 6, summoner 5, unchained summoner 5, warpriest 6, witch 6, wizard 6  ",
@@ -312,7 +312,7 @@
 		]
 	},
 	"dispel_magic_greater": {
-		"name": "Dispel Magic, Greater",
+		"name": "Greater Dispel Magic",
 		"copyof": "dispel_magic"
 	},
 	"greater_dispel_magic": { "copyof": "dispel_magic_greater" },
@@ -1596,10 +1596,10 @@
 		]
 	},
 	"eagles_splendor_mass": {
-		"name": "Eagle's Splendor, Mass",
+		"name": "Mass Eagle's Splendor",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Eagle's Splendor, Mass",
+			"## Mass Eagle's Splendor",
 			"",
 			"{SOURCE PRPG Core Rulebook/275}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 6, bard 6, cleric 6, oracle 6, psychic 6, shaman 6, skald 6, sorcerer 6, summoner 4, unchained summoner 6, warpriest 6, wizard 6  ",
@@ -2190,7 +2190,7 @@
 			"",
 			"The target is free to take any actions not forbidden by the caster. For example, a target affected by this spell's demand to not move is still free to cast spells, make attacks, or shout for help.",
 			"",
-			"### Forbid Action, Greater",
+			"### Greater Forbid Action",
 			"",
 			"{SOURCE Ultimate Magic/220}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/language-dependent}, {spelldef/mind-affecting}]; **Level** cleric 5, inquisitor 5, mesmerist 4, occultist 5, oracle 5, psychic 5, warpriest 5  ",
@@ -2205,7 +2205,7 @@
 		]
 	},
 	"forbid_action_greater": {
-		"name": "Forbid Action, Greater",
+		"name": "Greater Forbid Action",
 		"copyof": "forbid_action"
 	},
 	"greater_forbid_action": { "copyof": "forbid_action_greater" },
@@ -2874,7 +2874,7 @@
 			"",
 			"The target becomes smarter. The spell grants a +4 enhancement bonus to Intelligence, adding the usual benefits to Intelligence-based skill checks and other uses of the Intelligence modifier. Wizards (and other spellcasters who rely on Intelligence) affected by this spell do not gain any additional bonus spells for the increased Intelligence, but the save DCs for spells they cast while under this spell's effect do increase. This spell doesn't grant extra skill ranks.",
 			"",
-			"### Fox's Cunning, Mass",
+			"### Mass Fox's Cunning",
 			"",
 			"{SOURCE PRPG Core Rulebook/286}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 6, bard 6, psychic 6, skald 6, sorcerer 6, summoner 4, unchained summoner 6, wizard 6  ",
@@ -2889,7 +2889,7 @@
 		]
 	},
 	"foxs_cunning_mass": {
-		"name": "Fox's Cunning, Mass",
+		"name": "Mass Fox's Cunning",
 		"copyof": "foxs_cunning"
 	},
 	"mass_foxs_cunning": { "copyof": "foxs_cunning_mass" },
@@ -3500,10 +3500,10 @@
 		"copyof": "gate"
 	},
 	"geas_lesser": {
-		"name": "Geas, Lesser",
+		"name": "Lesser Geas",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"## Geas, Lesser",
+			"## Lesser Geas",
 			"",
 			"{SOURCE PRPG Core Rulebook/288}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/curse}, {spelldef/language-dependent}, {spelldef/mind-affecting}]; **Level** arcanist 4, bard 3, inquisitor 4, mesmerist 3, psychic 4, skald 3, sorcerer 4, witch 4, wizard 4  ",
@@ -3851,7 +3851,7 @@
 			"",
 			"The target coalesces into a semi-physical form for a short period of time. While subject to the spell, the incorporeal creature takes half damage (50%) from nonmagical attack forms, and full damage from magic weapons, spells, spell-like effects, and supernatural effects.",
 			"",
-			"### Ghostbane Dirge, Mass",
+			"### Mass Ghostbane Dirge",
 			"",
 			"{SOURCE Advanced Player's Guide/225}  ",
 			"**School** {spelldef/transmutation}; **Level** bard 4, cleric 5, inquisitor 5, occultist 5, oracle 5, paladin 3, shaman 5, skald 4, warpriest 5  ",
@@ -3866,7 +3866,7 @@
 		]
 	},
 	"ghostbane_dirge_mass": {
-		"name": "Ghostbane Dirge, Mass",
+		"name": "Mass Ghostbane Dirge",
 		"copyof": "ghostbane_dirge"
 	},
 	"mass_ghostbane_dirge": { "copyof": "ghostbane_dirge_mass" },

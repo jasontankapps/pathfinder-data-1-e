@@ -678,16 +678,16 @@
 		]
 	},
 	"concealed_lesser": {
-		"name": "Concealed, Lesser",
+		"name": "Lesser Concealed",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
-			"## Concealed, Lesser",
+			"## Lesser Concealed",
 			"",
 			"{SOURCE Spymaster's Handbook/30}  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Price** +3,000 gp; **Weight** -",
 			"",
-			"This special ability can be placed on only light or one-handed melee weapons. A lesser concealed weapon functions as a concealed weapon (above), but can transform into only a mundane object of the same size and general shape of the weapon (determined at the weapon's creation). A melee weapon cannot have both this special ability and the concealed special ability",
+			"This special ability can be placed on only light or one-handed melee weapons. A lesser concealed weapon functions as a {magic-enh/concealed} weapon, but can transform into only a mundane object of the same size and general shape of the weapon (determined at the weapon's creation). A melee weapon cannot have both this special ability and the concealed special ability",
 			"",
 			"### Construction",
 			"",
@@ -1032,16 +1032,16 @@
 		]
 	},
 	"distracting_greater": {
-		"name": "Distracting, Greater",
+		"name": "Greater Distracting",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Distracting, Greater",
+			"## Greater Distracting",
 			"",
 			"{SOURCE Advanced Class Guide/213}  ",
 			"**Aura** moderate enchantment; **CL** 8th  ",
 			"**Slot** none; **Price** +2 bonus; **Weight** -",
 			"",
-			"Weapons with this special ability cause foes struck by them to have exceptional difficulty controlling their magic. Any time a creature that has been struck by a greater distracting weapon would have to succeed at a concentration check to complete a spell or use a special ability or item, the DC of that check increases by 10. This distraction lasts for 1 minute. Once a greater distracting weapon affects a creature in this way, that creature can't be affected by a distracting or greater distracting effect for 24 hours. If a greater distracting weapon is used on a creature already affected by a distracting weapon's effect, the two effects do not stack; the distracting effect ends, and the creature is affected by the greater distracting weapon's effect instead.",
+			"Weapons with this special ability cause foes struck by them to have exceptional difficulty controlling their magic. Any time a creature that has been struck by a greater distracting weapon would have to succeed at a concentration check to complete a spell or use a special ability or item, the DC of that check increases by 10. This distraction lasts for 1 minute. Once a greater distracting weapon affects a creature in this way, that creature can't be affected by a distracting or greater distracting effect for 24 hours. If a greater distracting weapon is used on a creature already affected by a {magic-enh/distracting} weapon's effect, the two effects do not stack; the distracting effect ends, and the creature is affected by the greater distracting weapon's effect instead.",
 			"",
 			"### Construction",
 			"",
@@ -1673,16 +1673,16 @@
 		]
 	},
 	"vampiric_greater": {
-		"name": "Vampiric, Greater",
+		"name": "Greater Vampiric",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Vampiric, Greater",
+			"## Greater Vampiric",
 			"",
 			"{SOURCE Horror Adventures/214}  ",
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability functions as the vampiric special ability, except that the daily limit of healing from greater vampiric weapons is 5 hit points per Hit Die of the owner. A wielder can be attuned to only one vampiric or greater vampiric weapon at a time.",
+			"This special ability functions as the {magic-enh/vampiric} special ability, except that the daily limit of healing from greater vampiric weapons is 5 hit points per Hit Die of the owner. A wielder can be attuned to only one vampiric or greater vampiric weapon at a time.",
 			"",
 			"### Construction",
 			"",
@@ -1751,16 +1751,16 @@
 		]
 	},
 	"transformative_greater": {
-		"name": "Transformative, Greater",
+		"name": "Greater Transformative",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"## Transformative, Greater",
+			"## Greater Transformative",
 			"",
 			"{SOURCE Inner Sea Intrigue/52}  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** +15,000 gp; **Weight** -",
 			"",
-			"A greater transformative weapon becomes any other weapon the wielder desires when a command word is spoken. The weapon cannot become ammunition, but can freely change between simple, martial, exotic, light, one-handed, two-handed, melee, and ranged. The weapon retains all of its enhancement bonuses and weapon special abilities. However, abilities prohibited by its current shape do not function. For example, a keen greater transformative weapon functions normally in the form of a piercing or slashing weapon, but cannot use the keen special ability when in the shape of a bludgeoning weapon. A double weapon that loses the double quality cannot use the abilities on one of its ends (wielder's choice), whereas a non-double weapon that gains the double quality applies all its abilities to only one end. When unattended for 1 day, the weapon reverts to its true shape.",
+			"A greater transformative weapon becomes any other weapon the wielder desires when a command word is spoken. The weapon cannot become ammunition, but can freely change between simple, martial, exotic, light, one-handed, two-handed, melee, and ranged. The weapon retains all of its enhancement bonuses and weapon special abilities. However, abilities prohibited by its current shape do not function. For example, a {magic-enh/keen} greater transformative weapon functions normally in the form of a piercing or slashing weapon, but cannot use the keen special ability when in the shape of a bludgeoning weapon. A double weapon that loses the double quality cannot use the abilities on one of its ends (wielder's choice), whereas a non-double weapon that gains the double quality applies all its abilities to only one end. When unattended for 1 day, the weapon reverts to its true shape.",
 			"",
 			"### Construction",
 			"",
@@ -1786,16 +1786,16 @@
 		]
 	},
 	"flamboyant_greater": {
-		"name": "Flamboyant, Greater",
+		"name": "Greater Flamboyant",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Flamboyant, Greater",
+			"## Greater Flamboyant",
 			"",
 			"{SOURCE Advanced Class Guide/214}  ",
 			"**Aura** moderate transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** +3 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on one-handed or light piercing melee weapons. A greater flamboyant weapon is nearly identical to a flamboyant weapon, but its reservoir holds 3 panache points instead of 1. A weapon cannot have both this special ability and the flamboyant special ability.",
+			"This special ability can be placed only on one-handed or light piercing melee weapons. A greater flamboyant weapon is nearly identical to a {magic-enh/flamboyant} weapon, but its reservoir holds 3 panache points instead of 1. A weapon cannot have both this special ability and the flamboyant special ability.",
 			"",
 			"### Construction",
 			"",
@@ -2549,19 +2549,19 @@
 	},
 	"greater_sniping": { "copyof": "sniping_greater" },
 	"lucky_greater": {
-		"name": "Lucky, Greater",
+		"name": "Greater Lucky",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
 		"description": [
-			"## Lucky, Greater",
+			"## Greater Lucky",
 			"",
 			"{SOURCE Ultimate Equipment/145;Ultimate Combat/142}  ",
 			"**Aura** strong enchantment; **CL** 12th  ",
 			"**Slot** weapon quality; **Price** +3 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on one-handed or two-handed firearms. A greater lucky firearm is nearly identical to a lucky firearm, but its reservoir holds 3 grit points instead of 1. A firearm cannot have both this special ability and the lucky special ability.",
+			"This special ability can only be placed on one-handed or two-handed firearms. A greater lucky firearm is nearly identical to a {magic-enh/lucky} firearm, but its reservoir holds 3 grit points instead of 1. A firearm cannot have both this special ability and the lucky special ability.",
 			"",
 			"### Construction",
 			"",

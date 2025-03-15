@@ -33,7 +33,7 @@
 			"",
 			"You change the target into an animal (as per beast shape I), humanoid (as per alter self), or monstrous humanoid (as per monstrous physique I). The chosen form can't have a fly speed. The subject's statistics change as per the appropriate spell except the creature's ability scores and natural armor do not change. The creature can change between its natural form and the chosen form at will as a standard action.",
 			"",
-			"### Shapechanger's Gift, Greater",
+			"### Greater Shapechanger's Gift",
 			"",
 			"{SOURCE Ultimate Wilderness/235}  ",
 			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** arcanist 7, sorcerer 7, wizard 7  ",
@@ -48,7 +48,7 @@
 		]
 	},
 	"shapechangers_gift_greater": {
-		"name": "Shapechanger's Gift, Greater",
+		"name": "Greater Shapechanger's Gift",
 		"copyof": "shapechangers_gift"
 	},
 	"greater_shapechangers_gift": { "copyof": "shapechangers_gift_greater" },
@@ -128,7 +128,7 @@
 			"",
 			"This spell functions as share language, granting a creature the ability to read, understand, and communicate to the best of its ability in any one language you know. For the spell's entire duration, the target can speak and write only in the language imparted, but its ability to understand other languages is unaffected.",
 			"",
-			"### Share Language, Communal",
+			"### Communal Share Language",
 			"",
 			"{SOURCE Ultimate Combat/243}  ",
 			"**School** {spelldef/divination}; **Level** arcanist 3, bard 2, cleric 3, druid 3, hunter 3, mesmerist 2, occultist 3, oracle 3, psychic 2, skald 2, sorcerer 3, warpriest 3, wizard 3  ",
@@ -141,7 +141,7 @@
 			"",
 			"This spell functions like share language, except you divide the duration in 1-hour increments among the creatures touched.",
 			"",
-			"### Compel Tongue, Mass",
+			"### Mass Compel Tongue",
 			"",
 			"{SOURCE Black Markets/24}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** arcanist 5, bard 4, cleric 5, druid 5, hunter 5, oracle 5, skald 4, sorcerer 5, warpriest 5, witch 5, wizard 5  ",
@@ -156,7 +156,7 @@
 		]
 	},
 	"share_language_communal": {
-		"name": "Share Language, Communal",
+		"name": "Communal Share Language",
 		"copyof": "share_language"
 	},
 	"communal_share_language": { "copyof": "share_language_communal" },
@@ -165,7 +165,7 @@
 		"copyof": "share_language"
 	},
 	"compel_tongue_mass": {
-		"name": "Compel Tongue, Mass",
+		"name": "Mass Compel Tongue",
 		"copyof": "compel_tongue"
 	},
 	"mass_compel_tongue": { "copyof": "compel_tongue_mass" },
@@ -223,7 +223,7 @@
 			"",
 			"You can possess an animal's body in a manner that functions like magic jar, except as noted here. Your body vanishes while the effect lasts and you don't require a receptacle.",
 			"",
-			"### Share Skin, Greater",
+			"### Greater Share Skin",
 			"",
 			"{SOURCE Blood of the Moon/11}  ",
 			"**School** {spelldef/necromancy}; **Level** witch 8 (werebear)  ",
@@ -237,7 +237,7 @@
 		]
 	},
 	"share_skin_greater": {
-		"name": "Share Skin, Greater",
+		"name": "Greater Share Skin",
 		"copyof": "share_skin"
 	},
 	"greater_share_skin": { "copyof": "share_skin_greater" },
@@ -470,7 +470,7 @@
 			"",
 			"You create a magical barrier that protects a target's vital areas. When the target is struck by a critical hit or a sneak attack, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This benefit does not stack with other effects that can turn critical hits or sneak attacks into normal attacks, such as the fortification armor special ability.",
 			"",
-			"### Shield of Fortification, Greater",
+			"### Greater Shield of Fortification",
 			"",
 			"{SOURCE Advanced Class Guide/192}  ",
 			"**School** {spelldef/abjuration}; **Level** cleric 4, inquisitor 3, oracle 4, paladin 3, psychic 4, warpriest 4  ",
@@ -485,7 +485,7 @@
 		]
 	},
 	"shield_of_fortification_greater": {
-		"name": "Shield of Fortification, Greater",
+		"name": "Greater Shield of Fortification",
 		"copyof": "shield_of_fortification"
 	},
 	"greater_shield_of_fortification": { "copyof": "shield_of_fortification_greater" },
@@ -566,7 +566,7 @@
 			"",
 			"You can make a melee touch attack with your shield of the Dawnflower in place of a normal attack to deal its fire damage to a creature. Creatures taking damage from your shield catch on fire (Reflex negates); the save DC to extinguish the fire is equal to the DC of the spell.",
 			"",
-			"### Shield of the Dawnflower, Greater",
+			"### Greater Shield of the Dawnflower",
 			"",
 			"{SOURCE Inner Sea Gods/240}  ",
 			"**School** {spelldef/evocation} [{spelldef/fire}, {spelldef/good}, {spelldef/light}]; **Level** bard 6, cleric 6, magus 6, oracle 6, skald 6, warpriest 6 (Sarenrae)  ",
@@ -580,7 +580,7 @@
 		]
 	},
 	"shield_of_the_dawnflower_greater": {
-		"name": "Shield of the Dawnflower, Greater",
+		"name": "Greater Shield of the Dawnflower",
 		"copyof": "shield_of_the_dawnflower"
 	},
 	"greater_shield_of_the_dawnflower": { "copyof": "shield_of_the_dawnflower_greater" },
@@ -668,7 +668,7 @@
 			"",
 			"You can securely communicate with one creature within range. So long as your target remains within 10 feet of you, you and it can speak freely to each other without fear of being overheard. Communications that involve shield speech cannot be spied on, such as with a divination spell, and observers of the conversation can tell you are communicating but cannot read lips or hear the conversation unless they are the target of the spell. If you or the target speak to any other creatures, they can hear you normally (only communication between you and the target is protected). The spell does not shield writing, sign language, or any form of communication other than speaking.",
 			"",
-			"### Shield Speech, Greater",
+			"### Greater Shield Speech",
 			"",
 			"{SOURCE Taldor, Echoes of Glory/25}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 4, cleric 4, druid 4, hunter 4, oracle 4, sorcerer 4, warpriest 4, wizard 4  ",
@@ -683,7 +683,7 @@
 		]
 	},
 	"shield_speech_greater": {
-		"name": "Shield Speech, Greater",
+		"name": "Greater Shield Speech",
 		"copyof": "shield_speech"
 	},
 	"greater_shield_speech": { "copyof": "shield_speech_greater" },
@@ -901,7 +901,7 @@
 			"",
 			"The duration that creatures in the area are deafened increases to 4d6 rounds, and the damage dealt increases to 5d8 points of sonic damage. The damage dealt to crystalline creatures and exposed brittle or crystalline objects increases to 1d8 points of sonic damage per caster level (maximum 15d8). Crystalline creatures reverberate with sonic energy, taking 4 points of sonic damage on your turn for a number of rounds equal to your tier.",
 			"",
-			"### Shout, Greater",
+			"### Greater Shout",
 			"",
 			"{SOURCE PRPG Core Rulebook/343}  ",
 			"**School** {spelldef/evocation} [{spelldef/sonic}]; **Level** arcanist 8, bard 6, psychic 8, skald 6, sorcerer 8, wizard 8  ",
@@ -916,7 +916,7 @@
 		]
 	},
 	"shout_greater": {
-		"name": "Shout, Greater",
+		"name": "Greater Shout",
 		"copyof": "shout"
 	},
 	"greater_shout": { "copyof": "shout_greater" },
@@ -1013,7 +1013,7 @@
 			"",
 			"You imbue inanimate plants with limited mobility and a semblance of life. Each plant targeted acts as a {eq-siegeengine/light catapult} until the end of the spell's duration, though you must spend a standard action to aim each of these tree catapults before the first time they fire, and anytime thereafter when you want the trees to fire at a new target. The catapult uses your caster level as its targeting bonus. With a free action, you can command one or all of the trees under your command to stop firing. You do not need to supply ammunition to these tree catapults; they will automatically load themselves with rocks and boulders in the area, digging them deep from the ground if need be. You can supply the trees ammunition if you desire. The tree will not load flaming ammunition, and these catapult trees cannot be affected by energy siege shot if the energy selected is fire.",
 			"",
-			"### Siege of Trees, Greater",
+			"### Greater Siege of Trees",
 			"",
 			"{SOURCE Ultimate Combat/244}  ",
 			"**School** {spelldef/transmutation}; **Level** druid 9  ",
@@ -1028,7 +1028,7 @@
 		]
 	},
 	"siege_of_trees_greater": {
-		"name": "Siege of Trees, Greater",
+		"name": "Greater Siege of Trees",
 		"copyof": "siege_of_trees"
 	},
 	"greater_siege_of_trees": { "copyof": "siege_of_trees_greater" },
@@ -1297,7 +1297,7 @@
 			"",
 			"At all times, the simulacrum remains under your absolute command. No special telepathic link exists, so command must be exercised in some other manner. A simulacrum has no ability to become more powerful. It cannot increase its level or abilities. If reduced to 0 hit points or otherwise destroyed, it reverts to snow and melts instantly into nothingness. A complex process requiring at least 24 hours, 100 gp per hit point, and a fully equipped magical laboratory can repair damage to a simulacrum.",
 			"",
-			"### Simulacrum, Lesser",
+			"### Lesser Simulacrum",
 			"",
 			"{SOURCE Ultimate Magic/238}  ",
 			"**School** {spelldef/illusion} ({spelldef/shadow>_subschool}); **Level** arcanist 4, psychic 4, redmantisassassin 4, sorcerer 4, wizard 4  ",
@@ -1312,7 +1312,7 @@
 		]
 	},
 	"simulacrum_lesser": {
-		"name": "Simulacrum, Lesser",
+		"name": "Lesser Simulacrum",
 		"copyof": "simulacrum"
 	},
 	"lesser_simulacrum": { "copyof": "simulacrum_lesser" },
@@ -2026,7 +2026,7 @@
 			"",
 			"This spell causes those within the area to turn on each other rather than attack their foes. Each affected creature has a 50% chance to attack the nearest target each round. (Roll to determine each creature's behavior every round at the beginning of its turn.) A creature that does not attack its nearest neighbor is free to act normally for that round. Creatures forced by a song of discord to attack their fellows employ all methods at their disposal, choosing their deadliest spells and most advantageous combat tactics. They do not, however, harm targets that have fallen unconscious.",
 			"",
-			"### Song of Discord, Greater",
+			"### Greater Song of Discord",
 			"",
 			"{SOURCE Chronicle of Legends/14}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}, {spelldef/sonic}]; **Level** bard 6, mesmerist 6, psychic 8, skald 6  ",
@@ -2041,7 +2041,7 @@
 		]
 	},
 	"song_of_discord_greater": {
-		"name": "Song of Discord, Greater",
+		"name": "Greater Song of Discord",
 		"copyof": "song_of_discord"
 	},
 	"greater_song_of_discord": { "copyof": "song_of_discord_greater" },
@@ -2685,7 +2685,7 @@
 			"",
 			"If you successfully counterspell a 3rd-level or lower level spell (through either {spell/dispel magic} or normal means) while spell absorption is in effect, you absorb the countered spell and use it to regain spells you have already cast. If you're a wizard, you regain the use of any single spell that you have cast since the last time you prepared spells. If you're a sorcerer, you regain a single spell slot. The spell recovered or spell slot regained must be of an equal level or lower than the spell you counterspelled.",
 			"",
-			"### Spell Absorption, Greater",
+			"### Greater Spell Absorption",
 			"",
 			"{SOURCE Inner Sea Magic/61}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 8, sorcerer 8, wizard 8  ",
@@ -2699,7 +2699,7 @@
 		]
 	},
 	"spell_absorption_greater": {
-		"name": "Spell Absorption, Greater",
+		"name": "Greater Spell Absorption",
 		"copyof": "spell_absorption"
 	},
 	"greater_spell_absorption": { "copyof": "spell_absorption_greater" },
@@ -2748,7 +2748,7 @@
 			"",
 			"Only a particular spell can be protected against, not a certain domain or school of spells or a group of spells that are similar in effect. A creature can have only one spell immunity or greater spell immunity spell in effect on it at a time.",
 			"",
-			"### Spell Immunity, Communal",
+			"### Communal Spell Immunity",
 			"",
 			"{SOURCE Ultimate Combat/244}  ",
 			"**School** {spelldef/abjuration}; **Level** cleric 5, inquisitor 5, occultist 5, oracle 5, psychic 5, warpriest 5  ",
@@ -2761,7 +2761,7 @@
 			"",
 			"This spell functions like spell immunity, except you divide the duration in 10-minute intervals among the creatures touched.",
 			"",
-			"### Spell Immunity, Greater",
+			"### Greater Spell Immunity",
 			"",
 			"{SOURCE PRPG Core Rulebook/347}  ",
 			"**School** {spelldef/abjuration}; **Level** cleric 8, oracle 8, psychic 8  ",
@@ -2774,7 +2774,7 @@
 			"",
 			"This spell functions like spell immunity, except the immunity applies to spells of 8th level or lower. A creature can have only one spell immunity or greater spell immunity spell in effect on it at a time.",
 			"",
-			"### Spell Immunity, Greater Communal",
+			"### Greater Communal Spell Immunity",
 			"",
 			"{SOURCE Ultimate Combat/245}  ",
 			"**School** {spelldef/abjuration}; **Level** cleric 9, oracle 9, psychic 9  ",
@@ -2789,17 +2789,17 @@
 		]
 	},
 	"spell_immunity_communal": {
-		"name": "Spell Immunity, Communal",
+		"name": "Communal Spell Immunity",
 		"copyof": "spell_immunity"
 	},
 	"communal_spell_immunity": { "copyof": "spell_immunity_communal" },
 	"spell_immunity_greater": {
-		"name": "Spell Immunity, Greater",
+		"name": "Greater Spell Immunity",
 		"copyof": "spell_immunity"
 	},
 	"greater_spell_immunity": { "copyof": "spell_immunity_greater" },
 	"spell_immunity_greater_communal": {
-		"name": "Spell Immunity, Greater Communal",
+		"name": "Greater Communal Spell Immunity",
 		"copyof": "spell_immunity"
 	},
 	"greater_communal_spell_immunity": { "copyof": "spell_immunity_greater_communal" },
@@ -2866,12 +2866,12 @@
 		]
 	},
 	"spellcasting_contract_lesser": {
-		"name": "Spellcasting Contract, Lesser",
+		"name": "Lesser Spellcasting Contract",
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"description": [
 			"{jumplist Spellcasting Contract / Spellcasting Contract, Greater}",
 			"",
-			"## Spellcasting Contract, Lesser",
+			"## Lesser Spellcasting Contract",
 			"",
 			"{SOURCE Pathfinder #29: Mother of Flies/67}  ",
 			"**School** {spelldef/evocation}; **Level** cleric 5, oracle 5, warpriest 5 (Asmodeus)  ",
@@ -2905,7 +2905,7 @@
 			"",
 			"This spell functions like lesser spellcasting contract, except if the target has 9 HD or more, you can imbue him with one or two 2nd-level spells and one 3rd-level spell.",
 			"",
-			"### Spellcasting Contract, Greater",
+			"### Greater Spellcasting Contract",
 			"",
 			"{SOURCE Pathfinder #29: Mother of Flies/68}  ",
 			"**School** {spelldef/evocation}; **Level** cleric 9, oracle 9 (Asmodeus)  ",
@@ -2925,17 +2925,17 @@
 		"copyof": "lesser_spellcasting_contract"
 	},
 	"spellcasting_contract_greater": {
-		"name": "Spellcasting Contract, Greater",
+		"name": "Greater Spellcasting Contract",
 		"copyof": "lesser_spellcasting_contract"
 	},
 	"greater_spellcasting_contract": { "copyof": "spellcasting_contract_greater" },
 	"spellcrash_lesser": {
-		"name": "Spellcrash, Lesser",
+		"name": "Lesser Spellcrash",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"{jumplist Spellcrash / Spellcrash, Greater}",
 			"",
-			"## Spellcrash, Lesser",
+			"## Lesser Spellcrash",
 			"",
 			"{SOURCE Advanced Class Guide/194}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 4, cleric 4, oracle 4, psychic 4, sorcerer 4, warpriest 4, witch 4, wizard 4  ",
@@ -2971,7 +2971,7 @@
 			"",
 			"This spell functions as lesser spellcrash, except that it affects 5th-level or lower prepared spells or spell slots.",
 			"",
-			"### Spellcrash, Greater",
+			"### Greater Spellcrash",
 			"",
 			"{SOURCE Advanced Class Guide/194}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 8, cleric 8, oracle 8, sorcerer 8, witch 8, wizard 8  ",
@@ -2991,7 +2991,7 @@
 		"copyof": "lesser_spellcrash"
 	},
 	"spellcrash_greater": {
-		"name": "Spellcrash, Greater",
+		"name": "Greater Spellcrash",
 		"copyof": "lesser_spellcrash"
 	},
 	"greater_spellcrash": { "copyof": "spellcrash_greater" },
@@ -3147,7 +3147,7 @@
 			"",
 			"The target can move freely across spider webs (including giant spider webs), web spells, and similar adhesives of 2nd level or less (including tanglefoot bags) as if it were using freedom of movement.",
 			"",
-			"### Spider Climb, Communal",
+			"### Communal Spider Climb",
 			"",
 			"{SOURCE Ultimate Combat/245}  ",
 			"**School** {spelldef/transmutation}; **Level** alchemist 3, arcanist 3, druid 3, hunter 3, investigator 3, occultist 3, psychic 3, redmantisassassin 3, sorcerer 3, summoner 3, unchained summoner 3, wizard 3  ",
@@ -3162,7 +3162,7 @@
 		]
 	},
 	"spider_climb_communal": {
-		"name": "Spider Climb, Communal",
+		"name": "Communal Spider Climb",
 		"copyof": "spider_climb"
 	},
 	"communal_spider_climb": { "copyof": "spider_climb_communal" },
@@ -3240,7 +3240,7 @@
 			"",
 			"You can cast this spell only as a response to a target attempting a saving throw against an effect that would cause the fatigued, shaken, sickened, or staggered conditions. The target can roll its saving throw twice and take the higher result.",
 			"",
-			"### Spindrift Spritz, Mass",
+			"### Mass Spindrift Spritz",
 			"",
 			"{SOURCE Elemental Master's Handbook/14}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}) [{spelldef/water}]; **Level** cleric 4, druid 4, hunter 3, inquisitor 4, oracle 4, paladin 3, ranger 3, shaman 4, spiritualist 4, warpriest 4  ",
@@ -3255,7 +3255,7 @@
 		]
 	},
 	"spindrift_spritz_mass": {
-		"name": "Spindrift Spritz, Mass",
+		"name": "Mass Spindrift Spritz",
 		"copyof": "spindrift_spritz"
 	},
 	"mass_spindrift_spritz": { "copyof": "spindrift_spritz_mass" },
@@ -3925,7 +3925,7 @@
 			"",
 			"When the spell ends, the sudden weight of aging makes you fatigued for 1d4 hours.",
 			"",
-			"### Steal Years, Greater",
+			"### Greater Steal Years",
 			"",
 			"{SOURCE Blood of the Night/30}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 5, cleric 5, druid 5, hunter 5, oracle 5, sorcerer 5, warpriest 5, witch 5, wizard 5  ",
@@ -3940,7 +3940,7 @@
 		]
 	},
 	"steal_years_greater": {
-		"name": "Steal Years, Greater",
+		"name": "Greater Steal Years",
 		"copyof": "steal_years"
 	},
 	"greater_steal_years": { "copyof": "steal_years_greater" },
@@ -4273,7 +4273,7 @@
 			"",
 			"The target's skin becomes as thick and tough as clay, granting the target DR 5/adamantine. Once the spell has prevented a total of 5 points of damage per caster level (maximum 50 points), it is discharged and the spell ends.",
 			"",
-			"### Stoneskin, Communal",
+			"### Communal Stoneskin",
 			"",
 			"{SOURCE Ultimate Combat/245}  ",
 			"**School** {spelldef/abjuration}; **Level** alchemist 5, arcanist 5, druid 6, hunter 6, inquisitor 5, investigator 5, occultist 5, psychic 5, sorcerer 5, summoner 4, unchained summoner 5, wizard 5  ",
@@ -4288,7 +4288,7 @@
 		]
 	},
 	"stoneskin_communal": {
-		"name": "Stoneskin, Communal",
+		"name": "Communal Stoneskin",
 		"copyof": "stoneskin"
 	},
 	"communal_stoneskin": { "copyof": "stoneskin_communal" },

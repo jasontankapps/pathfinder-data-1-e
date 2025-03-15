@@ -16,7 +16,7 @@
 			"",
 			"You infuse the target mindless undead creature with power drawn from the Shadow Plane, immediately granting it the advanced creature simple template. It gains a +2 bonus on all rolls, including damage rolls, a +2 bonus to special ability DCs, a +4 bonus to AC and CMD, and 2 additional hit points per Hit Die. The undead creature's destructive instincts take hold for the duration of this spell, and any attempts to control or command the undead creature have a 50% chance of failing; if uncontrolled, the undead creature attacks any living creatures it sees. This spell has no effect on undead creatures that already have the advanced creature template.",
 			"",
-			"### Umbral Infusion, Mass",
+			"### Mass Umbral Infusion",
 			"",
 			"{SOURCE Blood of Shadows/31}  ",
 			"**School** {spelldef/necromancy} [{spelldef/shadow>_descriptor}]; **Level** arcanist 8, cleric 8, oracle 8, sorcerer 8, witch 8, wizard 8  ",
@@ -31,7 +31,7 @@
 		]
 	},
 	"umbral_infusion_mass": {
-		"name": "Umbral Infusion, Mass",
+		"name": "Mass Umbral Infusion",
 		"copyof": "umbral_infusion"
 	},
 	"mass_umbral_infusion": { "copyof": "umbral_infusion_mass" },
@@ -562,7 +562,7 @@
 			"",
 			"Unhallowed blows can be made permanent with a {spell/permanency} spell. In this case, the caster must be at least 9th level and must expend 2,500 gp worth of diamond dust as a material component.",
 			"",
-			"### Unhallowed Blows, Greater",
+			"### Greater Unhallowed Blows",
 			"",
 			"{SOURCE People of the Wastes/29}  ",
 			"**School** {spelldef/transmutation} [{spelldef/evil}]; **Level** antipaladin 3, arcanist 3, cleric 3, inquisitor 3, oracle 3, sorcerer 3, warpriest 3, witch 3, wizard 3  ",
@@ -579,7 +579,7 @@
 		]
 	},
 	"unhallowed_blows_greater": {
-		"name": "Unhallowed Blows, Greater",
+		"name": "Greater Unhallowed Blows",
 		"copyof": "unhallowed_blows"
 	},
 	"greater_unhallowed_blows": { "copyof": "unhallowed_blows_greater" },
@@ -1805,7 +1805,7 @@
 			"",
 			"If the target is an advanced firearm, and the firearm misfires a second time in a row while this spell is in effect, it does not explode but still deals the additional damage to the wielder as described.",
 			"",
-			"### Violent Misfire, Greater",
+			"### Greater Violent Misfire",
 			"",
 			"{SOURCE People of the Wastes/29}  ",
 			"**School** {spelldef/evocation}; **Level** arcanist 6, sorcerer 6, wizard 6  ",
@@ -1820,7 +1820,7 @@
 		]
 	},
 	"violent_misfire_greater": {
-		"name": "Violent Misfire, Greater",
+		"name": "Greater Violent Misfire",
 		"copyof": "violent_misfire"
 	},
 	"greater_violent_misfire": { "copyof": "violent_misfire_greater" },
@@ -3020,7 +3020,7 @@
 			"",
 			"If the spell is cast underwater (or while the subjects are partially or wholly submerged in whatever liquid they are in), the subjects are borne toward the surface at 60 feet per round until they can stand on it.",
 			"",
-			"### Water Walk, Communal",
+			"### Communal Water Walk",
 			"",
 			"{SOURCE Ultimate Combat/249}  ",
 			"**School** {spelldef/transmutation} [{spelldef/water}]; **Level** cleric 2, hunter 2, oracle 2, psychic 4, ranger 2, warpriest 2  ",
@@ -3035,7 +3035,7 @@
 		]
 	},
 	"water_walk_communal": {
-		"name": "Water Walk, Communal",
+		"name": "Communal Water Walk",
 		"copyof": "water_walk"
 	},
 	"communal_water_walk": { "copyof": "water_walk_communal" },

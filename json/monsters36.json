@@ -167,7 +167,7 @@
 		]
 	},
 	"nightmare_cauchemar": {
-		"name": "Nightmare, Cauchemar",
+		"name": "Cauchemar (Nightmare)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This towering, burning equine stands upon smoking hooves. Hellfire shimmers in its hateful eyes.*",
@@ -217,7 +217,7 @@
 	},
 	"cauchemar": { "copyof": "nightmare_cauchemar" },
 	"nightshade_nightcrawler": {
-		"name": "Nightshade, Nightcrawler",
+		"name": "Nightcrawler (Nightshade)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This immense worm is covered with plates of dead-black, chitinous armor. Its toothy maw yawns like a cave.*",
@@ -283,7 +283,7 @@
 	},
 	"nightcrawler": { "copyof": "nightshade_nightcrawler" },
 	"nightshade_nightprowler": {
-		"name": "Nightshade, Nightprowler",
+		"name": "Nightprowler (Nightshade)",
 		"sources": [
 			"Pathfinder #102: Breaking the Bones of Hell",
 			"Bestiary 2"
@@ -368,7 +368,7 @@
 	},
 	"nightprowler": { "copyof": "nightshade_nightprowler" },
 	"nightshade_nightwalker": {
-		"name": "Nightshade, Nightwalker",
+		"name": "Nightwalker (Nightshade)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This towering, night-black giant has demonic features, including a huge pair of ram-like horns. Its arms end in massive blades.*",
@@ -434,7 +434,7 @@
 	},
 	"nightwalker": { "copyof": "nightshade_nightwalker" },
 	"nightshade_nightwave": {
-		"name": "Nightshade, Nightwave",
+		"name": "Nightwave (Nightshade)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Immense almost beyond belief, this sleek, midnight-black shark rises from the sea like an unholy island heaved up from below.*",
@@ -498,7 +498,7 @@
 	},
 	"nightwave": { "copyof": "nightshade_nightwave" },
 	"nightshade_nightwing": {
-		"name": "Nightshade, Nightwing",
+		"name": "Nightwing (Nightshade)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This enormous, bat-like creature is shaped from utter darkness, its eyes tiny red stars in the blackest night.*",
@@ -806,7 +806,7 @@
 		]
 	},
 	"ningyo_undead_ningyo": {
-		"name": "Ningyo, Undead Ningyo",
+		"name": "Undead Ningyo",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
 			"*The repulsively fused features of a dried fish and desiccated humanoid combine in these monstrous remains. The crackle of tiny grinding bones and the hiss of parched scales whisper with every motion as the snarling miniature mummy drags its shriveled corpse forward.*",
@@ -920,7 +920,7 @@
 		]
 	},
 	"nirento_elder_nirento": {
-		"name": "Nirento, Elder Nirento",
+		"name": "Elder Nirento",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"*Thorny vines encircle this tropical tree's thick, spongy trunk, and jungle debris lies strewn about its base.*",
@@ -1236,7 +1236,7 @@
 		]
 	},
 	"ossumental_ossumental_air": {
-		"name": "Ossumental, Ossumental (Air)",
+		"name": "Ossumental (Air)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
 			"::mh[Ossumental (Air)]{cr=\"12\"}",
@@ -1296,7 +1296,7 @@
 	"ossumental_air": { "copyof": "ossumental_ossumental_air" },
 	"air_ossumental": { "copyof": "ossumental_ossumental_air" },
 	"ossumental_ossumental_earth": {
-		"name": "Ossumental, Ossumental (Earth)",
+		"name": "Ossumental (Earth)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
 			"*This towering collection of sun-bleached bones is assembled in a humanoid form.*",
@@ -1358,7 +1358,7 @@
 	"ossumental_earth": { "copyof": "ossumental_ossumental_earth" },
 	"earth_ossumental": { "copyof": "ossumental_ossumental_earth" },
 	"ossumental_ossumental_fire": {
-		"name": "Ossumental, Ossumental (Fire)",
+		"name": "Ossumental (Fire)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
 			"::mh[Ossumental (Fire)]{cr=\"12\"}",
@@ -1421,7 +1421,7 @@
 	"ossumental_fire": { "copyof": "ossumental_ossumental_fire" },
 	"fire_ossumental": { "copyof": "ossumental_ossumental_fire" },
 	"ossumental_ossumental_water": {
-		"name": "Ossumental, Ossumental (Water)",
+		"name": "Ossumental (Water)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
 			"::mh[Ossumental (Water)]{cr=\"12\"}",
@@ -1784,7 +1784,7 @@
 		]
 	},
 	"owb_owb_prophet": {
-		"name": "Owb, Owb Prophet",
+		"name": "Owb Prophet",
 		"sources": [ "Cradle of Night" ],
 		"description": [
 			"*This creature resembles the skeletal torso of a winged, four-armed giant draped in tatters of liquid shadow.*",
@@ -1869,7 +1869,7 @@
 	},
 	"owb_prophet": { "copyof": "owb_owb_prophet" },
 	"owl_giant_owl": {
-		"name": "Owl, Giant Owl",
+		"name": "Giant Owl",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This enormous owl has a silent gracefulness and wisdom about it despite its considerable size.*",
@@ -1924,7 +1924,7 @@
 	"giant_owl": { "copyof": "owl_giant_owl" },
 	"owl_giant": { "copyof": "owl_giant_owl" },
 	"owl_great_horned_owl": {
-		"name": "Owl, Great Horned Owl",
+		"name": "Great Horned Owl",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This gray-and-white feathered owl has fluffy wings and a bulky head that makes it look larger than most owls.*",
@@ -3112,7 +3112,7 @@
 		]
 	},
 	"phantom_armor_giant": {
-		"name": "Phantom Armor, Giant Phantom Armor",
+		"name": "Giant Phantom Armor",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #47: Ashes at Dawn"
@@ -3168,7 +3168,7 @@
 	},
 	"giant_phantom_armor": { "copyof": "phantom_armor_giant" },
 	"phantom_armor_guardian": {
-		"name": "Phantom Armor, Guardian Phantom Armor",
+		"name": "Guardian Phantom Armor",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #47: Ashes at Dawn"
@@ -3223,7 +3223,7 @@
 	},
 	"guardian_phantom_armor": { "copyof": "phantom_armor_guardian" },
 	"phantom_armor_hollow_helm": {
-		"name": "Phantom Armor, Hollow Helm",
+		"name": "Hollow Helm (Phantom Armor)",
 		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
 		"description": [
 			"*Though at first appearing to be an ordinary suit of armor, this imposing being begins to move, its lumbering movements slow and methodical.*",
@@ -3286,7 +3286,7 @@
 	},
 	"hollow_helm": { "copyof": "phantom_armor_hollow_helm" },
 	"phantom_armor_phantom_lancer": {
-		"name": "Phantom Armor, Phantom Lancer",
+		"name": "Phantom Lancer (Phantom Armor)",
 		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
 		"description": [
 			"::mh[Phantom Lancer]{cr=\"6\"}",
@@ -3864,7 +3864,7 @@
 		]
 	},
 	"reaper_grim_reaper": {
-		"name": "Reaper, Grim Reaper",
+		"name": "Grim Reaper",
 		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
 			"*This tall, cloaked figure stares out from the black hood that covers its head. It wields an enormous scythe in its skeletal, bone-white hands, looking as though it is freezing the very air around it.*",
@@ -3942,7 +3942,7 @@
 	},
 	"reaper_grim": { "copyof": "reaper_grim_reaper" },
 	"reaper_minor_reaper": {
-		"name": "Reaper, Minor Reaper",
+		"name": "Minor Reaper",
 		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
 			"::mh[Minor Reaper]{cr=\"10\"}",
@@ -4074,7 +4074,7 @@
 		]
 	},
 	"rat_dire_rat": {
-		"name": "Rat, Dire Rat",
+		"name": "Dire Rat",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This filthy rat is the size of a small dog. It has a coat of coarse fur, a long and scabby tail, and two glittering eyes.*",
@@ -4123,7 +4123,7 @@
 	"dire_rat": { "copyof": "rat_dire_rat" },
 	"rat_dire": { "copyof": "rat_dire_rat" },
 	"rat_rat_swarm": {
-		"name": "Rat, Rat Swarm",
+		"name": "Rat Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A squirming, roiling mass of squeaking rats draws closer, teeth flashing and claws scratching everything in its path.*",

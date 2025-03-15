@@ -1,6 +1,6 @@
 {
 	"gremlin_drexin": {
-		"name": "Gremlin, Drexin",
+		"name": "Drexin (Gremlin)",
 		"sources": [
 			"Pathfinder #109: In Search of Sanity",
 			"Bestiary 2"
@@ -82,7 +82,7 @@
 	},
 	"drexin": { "copyof": "gremlin_drexin" },
 	"gremlin_erinat": {
-		"name": "Gremlin, Erinat",
+		"name": "Erinat (Gremlin)",
 		"sources": [
 			"Andoran, Birthplace of Freedom",
 			"Bestiary 2"
@@ -148,7 +148,7 @@
 	},
 	"erinat": { "copyof": "gremlin_erinat" },
 	"gremlin_fuath": {
-		"name": "Gremlin, Fuath",
+		"name": "Fuath (Gremlin)",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -217,7 +217,7 @@
 	},
 	"fuath": { "copyof": "gremlin_fuath" },
 	"gremlin_grimple": {
-		"name": "Gremlin, Grimple",
+		"name": "Grimple (Gremlin)",
 		"sources": [
 			"Bestiary 4",
 			"Fey Revisited",
@@ -287,7 +287,7 @@
 	},
 	"grimple": { "copyof": "gremlin_grimple" },
 	"gremlin_haniver": {
-		"name": "Gremlin, Haniver",
+		"name": "Haniver (Gremlin)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #25: The Bastards of Erebus",
@@ -354,7 +354,7 @@
 	},
 	"haniver": { "copyof": "gremlin_haniver" },
 	"gremlin_hobkins": {
-		"name": "Gremlin, Hobkins",
+		"name": "Hobkins (Gremlin)",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2"
@@ -428,7 +428,7 @@
 	},
 	"hobkins": { "copyof": "gremlin_hobkins" },
 	"gremlin_jinkin": {
-		"name": "Gremlin, Jinkin",
+		"name": "Jinkin (Gremlin)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #19: Howl of the Carrion King"
@@ -497,7 +497,7 @@
 	},
 	"jinkin": { "copyof": "gremlin_jinkin" },
 	"gremlin_monaciello": {
-		"name": "Gremlin, Monaciello",
+		"name": "Monaciello (Gremlin)",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 2"
@@ -564,7 +564,7 @@
 	},
 	"monaciello": { "copyof": "gremlin_monaciello" },
 	"gremlin_nuglub": {
-		"name": "Gremlin, Nuglub",
+		"name": "Nuglub (Gremlin)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This hideous, hunchbacked creature has three glowing blue eyes. Oily hair grows from its head and back, covering it like a cloak.*",
@@ -629,7 +629,7 @@
 	},
 	"nuglub": { "copyof": "gremlin_nuglub" },
 	"gremlin_nuno": {
-		"name": "Gremlin, Nuno",
+		"name": "Nuno (Gremlin)",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2"
@@ -696,7 +696,7 @@
 	},
 	"nuno": { "copyof": "gremlin_nuno" },
 	"gremlin_pugwampi": {
-		"name": "Gremlin, Pugwampi",
+		"name": "Pugwampi (Gremlin)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #19: Howl of the Carrion King"
@@ -762,7 +762,7 @@
 	},
 	"pugwampi": { "copyof": "gremlin_pugwampi" },
 	"gremlin_vexgit": {
-		"name": "Gremlin, Vexgit",
+		"name": "Vexgit (Gremlin)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #19: Howl of the Carrion King"
@@ -889,7 +889,7 @@
 		]
 	},
 	"walrus_emperor_walrus": {
-		"name": "Walrus, Emperor Walrus",
+		"name": "Emperor Walrus",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Thick folds of skin protect this massive sea mammal like fleshy armor. Tusks as tall as humans jut from its whiskered face.*",
@@ -937,7 +937,7 @@
 	"walrus_emperor": { "copyof": "walrus_emperor_walrus" },
 	"emperor_walrus": { "copyof": "walrus_emperor_walrus" },
 	"walrus_walrus_b4": {
-		"name": "Walrus, Walrus (B4)",
+		"name": "Walrus (B4)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Two long tusks jut from the mouth of this bulky, bewhiskered creature. It walks clumsily on flippers instead of feet.*",
@@ -986,7 +986,7 @@
 	},
 	"walrus_b4": { "copyof": "walrus_walrus_b4" },
 	"walrus_walrus_ff": {
-		"name": "Walrus, Walrus (FF)",
+		"name": "Walrus (FF)",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"*This bulky, thick-skinned, flippered creature has on its face two enormous tusks and what looks like a coarse mustache.*",
@@ -1111,7 +1111,7 @@
 		]
 	},
 	"giant_ash_giant": {
-		"name": "Giant, Ash Giant",
+		"name": "Ash Giant",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Towering above a typical human, this misshapen giant's pale flesh is covered in purulent sores and bulbous tumors.*",
@@ -1175,7 +1175,7 @@
 	"giant_ash": { "copyof": "giant_ash_giant" },
 	"ash_giant": { "copyof": "giant_ash_giant" },
 	"giant_cave_giant": {
-		"name": "Giant, Cave Giant",
+		"name": "Cave Giant",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Bestial tusks jut from the jaw of this hunched-over giant. It is clad in armor patched together from the bones of past victims.*",
@@ -1236,7 +1236,7 @@
 	"giant_cave": { "copyof": "giant_cave_giant" },
 	"cave_giant": { "copyof": "giant_cave_giant" },
 	"giant_cliff_giant": {
-		"name": "Giant, Cliff Giant",
+		"name": "Cliff Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This giant has a majestic presence and stoic bearing. His rocky, red-brown skin is shot through with streaks of shimmering color.*",
@@ -1300,7 +1300,7 @@
 	"giant_cliff": { "copyof": "giant_cliff_giant" },
 	"cliff_giant": { "copyof": "giant_cliff_giant" },
 	"giant_cloud_giant": {
-		"name": "Giant, Cloud Giant",
+		"name": "Cloud Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This towering giant has finely chiseled features. Her skin is pale and smooth, and her long wispy hair flutters as if in a breeze.*",
@@ -1361,7 +1361,7 @@
 	"giant_cloud": { "copyof": "giant_cloud_giant" },
 	"cloud_giant": { "copyof": "giant_cloud_giant" },
 	"giant_desert_giant": {
-		"name": "Giant, Desert Giant",
+		"name": "Desert Giant",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Loose robes conceal the sand-etched features of this lanky giant. In each hand he grips a scimitar nearly the length of a human.*",
@@ -1421,7 +1421,7 @@
 	"giant_desert": { "copyof": "giant_desert_giant" },
 	"desert_giant": { "copyof": "giant_desert_giant" },
 	"giant_eclipse_giant": {
-		"name": "Giant, Eclipse Giant",
+		"name": "Eclipse Giant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Symbolic representations of the occultation of heavenly bodies decorate the dark gray skin of this massive giant.*",
@@ -1487,7 +1487,7 @@
 	"giant_eclipse": { "copyof": "giant_eclipse_giant" },
 	"eclipse_giant": { "copyof": "giant_eclipse_giant" },
 	"giant_hill_giant": {
-		"name": "Giant, Hill Giant",
+		"name": "Hill Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This hunched giant exudes power and a crude, stupid anger, its filthy fur clothing bespeaking a brutish and backwoods lifestyle.*",
@@ -1542,7 +1542,7 @@
 	"giant_hill": { "copyof": "giant_hill_giant" },
 	"hill_giant": { "copyof": "giant_hill_giant" },
 	"giant_jungle_giant": {
-		"name": "Giant, Jungle Giant",
+		"name": "Jungle Giant",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This towering, plant-encrusted woman wields a massive bow, and her dark skin is decorated with numerous intricate tattoos.*",
@@ -1601,7 +1601,7 @@
 	"giant_jungle": { "copyof": "giant_jungle_giant" },
 	"jungle_giant": { "copyof": "giant_jungle_giant" },
 	"giant_marsh_giant": {
-		"name": "Giant, Marsh Giant",
+		"name": "Marsh Giant",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #5: Sins of the Saviors"
@@ -1662,7 +1662,7 @@
 	"giant_marsh": { "copyof": "giant_marsh_giant" },
 	"marsh_giant": { "copyof": "giant_marsh_giant" },
 	"giant_moon_giant": {
-		"name": "Giant, Moon Giant",
+		"name": "Moon Giant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This giant's gray skin sparkles as if with reflected light and is pocked with what look like impact craters on its rocklike surface.*",
@@ -1732,7 +1732,7 @@
 	"giant_moon": { "copyof": "giant_moon_giant" },
 	"moon_giant": { "copyof": "giant_moon_giant" },
 	"giant_mountain_giant": {
-		"name": "Giant, Mountain Giant",
+		"name": "Mountain Giant",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This giant wears bloodstained leather clothes, including a ragged leather mask. His flesh, where visible, is gray and warty.*",
@@ -1794,7 +1794,7 @@
 	"giant_mountain": { "copyof": "giant_mountain_giant" },
 	"mountain_giant": { "copyof": "giant_mountain_giant" },
 	"giant_ocean_giant": {
-		"name": "Giant, Ocean Giant",
+		"name": "Ocean Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This blue-skinned giant's clothing and beard whip about like sails caught in a storm.*",
@@ -1858,7 +1858,7 @@
 	"giant_ocean": { "copyof": "giant_ocean_giant" },
 	"ocean_giant": { "copyof": "giant_ocean_giant" },
 	"giant_plague_giant": {
-		"name": "Giant, Plague Giant",
+		"name": "Plague Giant",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This oversized humanoid is dressed in tattered rags that don't quite cover its diseased body.*",
@@ -1921,7 +1921,7 @@
 	"giant_plague": { "copyof": "giant_plague_giant" },
 	"plague_giant": { "copyof": "giant_plague_giant" },
 	"giant_river_giant": {
-		"name": "Giant, River Giant",
+		"name": "River Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This slender giant dresses in simple clothes and has swirling patterns on her green skin.*",
@@ -1979,7 +1979,7 @@
 	"giant_river": { "copyof": "giant_river_giant" },
 	"river_giant": { "copyof": "giant_river_giant" },
 	"giant_rune_giant": {
-		"name": "Giant, Rune Giant",
+		"name": "Rune Giant",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #6: Spires of Xin-Shalast"
@@ -2046,7 +2046,7 @@
 	"giant_rune": { "copyof": "giant_rune_giant" },
 	"rune_giant": { "copyof": "giant_rune_giant" },
 	"giant_shadow_giant": {
-		"name": "Giant, Shadow Giant",
+		"name": "Shadow Giant",
 		"sources": [
 			"Inner Sea Bestiary",
 			"Bestiary 6"
@@ -2107,7 +2107,7 @@
 	"giant_shadow": { "copyof": "giant_shadow_giant" },
 	"shadow_giant": { "copyof": "giant_shadow_giant" },
 	"giant_slag_giant": {
-		"name": "Giant, Slag Giant",
+		"name": "Slag Giant",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Soot, ash, and coal dust streak this giant's rust-colored skin. Her eyes hold a look of both determination and detachment.*",
@@ -2165,7 +2165,7 @@
 	"giant_slag": { "copyof": "giant_slag_giant" },
 	"slag_giant": { "copyof": "giant_slag_giant" },
 	"giant_stone_giant": {
-		"name": "Giant, Stone Giant",
+		"name": "Stone Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This giant has chiseled, muscular features and a flat, forward-sloping head, looking almost as if it were carved of stone.*",
@@ -2226,7 +2226,7 @@
 	"giant_stone": { "copyof": "giant_stone_giant" },
 	"stone_giant": { "copyof": "giant_stone_giant" },
 	"giant_storm_giant": {
-		"name": "Giant, Storm Giant",
+		"name": "Storm Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This giant is a towering, muscular human of heroic proportions, with bronze skin, dark hair, and sparkling green eyes.*",
@@ -2289,7 +2289,7 @@
 	"giant_storm": { "copyof": "giant_storm_giant" },
 	"storm_giant": { "copyof": "giant_storm_giant" },
 	"giant_sun_giant": {
-		"name": "Giant, Sun Giant",
+		"name": "Sun Giant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This giant has the arms and armor of an ancient warrior. Her golden skin and flame-colored hair amplify the light around her.*",
@@ -2353,7 +2353,7 @@
 	"giant_sun": { "copyof": "giant_sun_giant" },
 	"sun_giant": { "copyof": "giant_sun_giant" },
 	"giant_taiga_giant": {
-		"name": "Giant, Taiga Giant",
+		"name": "Taiga Giant",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #4: Fortress of the Stone Giants"
@@ -2416,7 +2416,7 @@
 	"giant_taiga": { "copyof": "giant_taiga_giant" },
 	"taiga_giant": { "copyof": "giant_taiga_giant" },
 	"giant_tomb_giant": {
-		"name": "Giant, Tomb Giant",
+		"name": "Tomb Giant",
 		"sources": [
 			"Pathfinder #94: Ice Tomb of the Giant Queen",
 			"Bestiary 6"
@@ -2500,7 +2500,7 @@
 	"giant_tomb": { "copyof": "giant_tomb_giant" },
 	"tomb_giant": { "copyof": "giant_tomb_giant" },
 	"giant_vault_giant": {
-		"name": "Giant, Vault Giant",
+		"name": "Vault Giant",
 		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
 		"description": [
 			"*This saurian giant's body is covered in pale aquamarine scales, and a dark, rigid crest runs from its head to the tip of its thick tail. Its blue eyes give off a soft glow.*",
@@ -2576,7 +2576,7 @@
 	"giant_vault": { "copyof": "giant_vault_giant" },
 	"vault_giant": { "copyof": "giant_vault_giant" },
 	"giant_wood_giant": {
-		"name": "Giant, Wood Giant",
+		"name": "Wood Giant",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Standing tall and graceful, this sharp-eared giant's skin is pale. Its large brow gives it a somewhat primitive visage.*",
@@ -2634,7 +2634,7 @@
 	"giant_wood": { "copyof": "giant_wood_giant" },
 	"wood_giant": { "copyof": "giant_wood_giant" },
 	"genie_djinni": {
-		"name": "Genie, Djinni",
+		"name": "Djinni (Genie)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This creature stands nearly twice as tall as a human, although its lower torso trails away into a vortex of mist and wind.*",
@@ -2698,7 +2698,7 @@
 	},
 	"djinni": { "copyof": "genie_djinni" },
 	"genie_efreeti": {
-		"name": "Genie, Efreeti",
+		"name": "Efreeti (Genie)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This muscular giant has crimson skin, smoldering eyes, and small black horns. Smoke rises in curls from its flesh.*",
@@ -2765,7 +2765,7 @@
 	},
 	"efreeti": { "copyof": "genie_efreeti" },
 	"genie_janni": {
-		"name": "Genie, Janni",
+		"name": "Janni (Genie)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This regal figure looks like a tall, well-proportioned human, save that its eyes sparkle with strange light.*",
@@ -2834,7 +2834,7 @@
 	},
 	"janni": { "copyof": "genie_janni" },
 	"genie_marid": {
-		"name": "Genie, Marid",
+		"name": "Marid (Genie)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This being resembles a powerful giant with hairless blue-green skin, deep blue eyes, flamboyant eyebrows, and pearlescent teeth.*",
@@ -2904,7 +2904,7 @@
 	},
 	"marid": { "copyof": "genie_marid" },
 	"genie_shaitan": {
-		"name": "Genie, Shaitan",
+		"name": "Shaitan (Genie)",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Pathfinder #18: Descent into Midnight"
@@ -3143,7 +3143,7 @@
 		]
 	},
 	"gargoyle_four_armed_gargoyle": {
-		"name": "Gargoyle, Four-Armed Gargoyle",
+		"name": "Four-Armed Gargoyle",
 		"sources": [
 			"Pathfinder #48: Shadows of Gallowspire",
 			"Classic Horrors Revisited"
@@ -3199,7 +3199,7 @@
 	"gargoyle_four_armed": { "copyof": "gargoyle_four_armed_gargoyle" },
 	"four_armed_gargoyle": { "copyof": "gargoyle_four_armed_gargoyle" },
 	"gargoyle_gargoyle_abductor": {
-		"name": "Gargoyle, Gargoyle Abductor",
+		"name": "Gargoyle Abductor",
 		"sources": [
 			"Pathfinder #48: Shadows of Gallowspire",
 			"Classic Horrors Revisited"
@@ -3256,7 +3256,7 @@
 	},
 	"gargoyle_abductor": { "copyof": "gargoyle_gargoyle_abductor" },
 	"gargoyle_gargoyle_guardian": {
-		"name": "Gargoyle, Gargoyle Guardian",
+		"name": "Gargoyle Guardian",
 		"sources": [
 			"Pathfinder #48: Shadows of Gallowspire",
 			"Classic Horrors Revisited"
@@ -3324,7 +3324,7 @@
 	},
 	"gargoyle_guardian": { "copyof": "gargoyle_gargoyle_guardian" },
 	"gargoyle_kapoacinth_hunter": {
-		"name": "Gargoyle, Kapoacinth Hunter",
+		"name": "Kapoacinth Hunter (Gargoyle)",
 		"sources": [
 			"Pathfinder #48: Shadows of Gallowspire",
 			"Classic Horrors Revisited"
@@ -3421,7 +3421,7 @@
 		]
 	},
 	"gar_giant_gar": {
-		"name": "Gar, Giant Gar",
+		"name": "Giant Gar",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This fish is enormous - a sleek predator with bony scales and a long set of toothy jaws.*",
@@ -3744,7 +3744,7 @@
 		]
 	},
 	"hook_fly_giant_hook_fly": {
-		"name": "Hook Fly, Giant Hook Fly",
+		"name": "Giant Hook Fly",
 		"sources": [ "Gallows of Madness" ],
 		"description": [
 			"*This enormous, horrifically bloated fly has a proboscis shaped like a serrated hook. Its many-faceted eyes smolder like hot coals.*",
@@ -3810,7 +3810,7 @@
 	},
 	"giant_hook_fly": { "copyof": "hook_fly_giant_hook_fly" },
 	"hook_fly_hook_fly_swarm": {
-		"name": "Hook Fly, Hook Fly Swarm",
+		"name": "Hook Fly Swarm",
 		"sources": [ "Gallows of Madness" ],
 		"description": [
 			"*The tiny, buzzing insects that make up this cloud have distinctive bloated bodies and sharp, if miniscule, proboscises.*",
@@ -4043,7 +4043,7 @@
 		]
 	},
 	"horse_pony": {
-		"name": "Horse, Pony",
+		"name": "Pony",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This squat equine plods forward with large, curious eyes. As it nears, it extends its muzzle, clearly expecting a treat.*",

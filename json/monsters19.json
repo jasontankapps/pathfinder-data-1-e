@@ -109,7 +109,7 @@
 		]
 	},
 	"piranha_swarm_megapiranha_swarm": {
-		"name": "Piranha Swarm, Megapiranha Swarm",
+		"name": "Megapiranha Swarm",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 		"description": [
 			"*Within this mass of primeval fish glint innumerable savagely gnashing teeth.*",
@@ -834,7 +834,7 @@
 		]
 	},
 	"protean_akizendri": {
-		"name": "Protean, Akizendri",
+		"name": "Akizendri (Protean)",
 		"sources": [
 			"Concordance of Rivals",
 			"Bestiary 2"
@@ -896,7 +896,7 @@
 	},
 	"akizendri": { "copyof": "protean_akizendri" },
 	"protean_azuretzi": {
-		"name": "Protean, Azuretzi",
+		"name": "Azuretzi (Protean)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #98: Turn of the Torrent",
@@ -962,7 +962,7 @@
 	},
 	"azuretzi": { "copyof": "protean_azuretzi" },
 	"protean_hegessik": {
-		"name": "Protean, Hegessik",
+		"name": "Hegessik (Protean)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #101: The Kintargo Contract",
@@ -1032,7 +1032,7 @@
 	},
 	"hegessik": { "copyof": "protean_hegessik" },
 	"protean_ibshaunet": {
-		"name": "Protean, Ibshaunet",
+		"name": "Ibshaunet (Protean)",
 		"sources": [
 			"Concordance of Rivals",
 			"Bestiary 2"
@@ -1096,7 +1096,7 @@
 	},
 	"ibshaunet": { "copyof": "protean_ibshaunet" },
 	"protean_illureshi": {
-		"name": "Protean, Illureshi",
+		"name": "Illureshi (Protean)",
 		"sources": [
 			"Concordance of Rivals",
 			"Bestiary 2"
@@ -1167,7 +1167,7 @@
 	},
 	"illureshi": { "copyof": "protean_illureshi" },
 	"protean_imentesh": {
-		"name": "Protean, Imentesh",
+		"name": "Imentesh (Protean)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #22: The End of Eternity"
@@ -1231,7 +1231,7 @@
 	},
 	"imentesh": { "copyof": "protean_imentesh" },
 	"protean_izfiitar": {
-		"name": "Protean, Izfiitar",
+		"name": "Izfiitar (Protean)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 2"
@@ -1335,7 +1335,7 @@
 	},
 	"izfiitar": { "copyof": "protean_izfiitar" },
 	"protean_keketar": {
-		"name": "Protean, Keketar",
+		"name": "Keketar (Protean)",
 		"sources": [
 			"Bestiary 2",
 			"The Great Beyond - A Guide to the Multiverse"
@@ -1402,7 +1402,7 @@
 	},
 	"keketar": { "copyof": "protean_keketar" },
 	"protean_naunet": {
-		"name": "Protean, Naunet",
+		"name": "Naunet (Protean)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #22: The End of Eternity"
@@ -1469,7 +1469,7 @@
 	},
 	"naunet": { "copyof": "protean_naunet" },
 	"protean_oshageros": {
-		"name": "Protean, Oshageros",
+		"name": "Oshageros (Protean)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 2"
@@ -1534,7 +1534,7 @@
 	},
 	"oshageros": { "copyof": "protean_oshageros" },
 	"protean_ourdivar": {
-		"name": "Protean, Ourdivar",
+		"name": "Ourdivar (Protean)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #92: The Hill Giant's Pledge",
@@ -1612,7 +1612,7 @@
 	},
 	"ourdivar": { "copyof": "protean_ourdivar" },
 	"protean_pelagastr": {
-		"name": "Protean, Pelagastr",
+		"name": "Pelagastr (Protean)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #99: Dance of the Damned",
@@ -1680,7 +1680,7 @@
 	},
 	"pelagastr": { "copyof": "protean_pelagastr" },
 	"protean_voidworm": {
-		"name": "Protean, Voidworm",
+		"name": "Voidworm (Protean)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This tiny, iridescent serpent slithers through empty space, the air around it distorting as if from heat.*",
@@ -1742,7 +1742,7 @@
 	},
 	"voidworm": { "copyof": "protean_voidworm" },
 	"psychopomp_ahmuuth": {
-		"name": "Psychopomp, Ahmuuth",
+		"name": "Ahmuuth (Psychopomp)",
 		"sources": [
 			"Inner Sea Gods",
 			"Bestiary 4"
@@ -1806,7 +1806,7 @@
 	},
 	"ahmuuth": { "copyof": "psychopomp_ahmuuth" },
 	"psychopomp_algea": {
-		"name": "Psychopomp, Algea",
+		"name": "Algea (Psychopomp)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -1873,7 +1873,7 @@
 	},
 	"algea": { "copyof": "psychopomp_algea" },
 	"psychopomp_calaca": {
-		"name": "Psychopomp, Calaca",
+		"name": "Calaca (Psychopomp)",
 		"sources": [
 			"Pathfinder #143: Borne by the Sun's Grace",
 			"Bestiary 4"
@@ -1955,7 +1955,7 @@
 	},
 	"calaca": { "copyof": "psychopomp_calaca" },
 	"psychopomp_catrina": {
-		"name": "Psychopomp, Catrina",
+		"name": "Catrina (Psychopomp)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*With lengthy curling hair, a dancer's dress, and a bouquet of flowers, this woman remains beautiful, despite having no flesh.*",
@@ -2022,7 +2022,7 @@
 	},
 	"catrina": { "copyof": "psychopomp_catrina" },
 	"psychopomp_ember_weaver": {
-		"name": "Psychopomp, Ember Weaver",
+		"name": "Ember Weaver (Psychopomp)",
 		"sources": [
 			"Monster Summoner's Handbook",
 			"Bestiary 4"
@@ -2086,7 +2086,7 @@
 	},
 	"ember_weaver": { "copyof": "psychopomp_ember_weaver" },
 	"psychopomp_esobok": {
-		"name": "Psychopomp, Esobok",
+		"name": "Esobok (Psychopomp)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #80: Empty Graves",
@@ -2152,7 +2152,7 @@
 	},
 	"esobok": { "copyof": "psychopomp_esobok" },
 	"psychopomp_fulgati": {
-		"name": "Psychopomp, Fulgati",
+		"name": "Fulgati (Psychopomp)",
 		"sources": [
 			"Concordance of Rivals",
 			"Bestiary 4"
@@ -2237,7 +2237,7 @@
 	},
 	"fulgati": { "copyof": "psychopomp_fulgati" },
 	"psychopomp_kere": {
-		"name": "Psychopomp, Kere",
+		"name": "Kere (Psychopomp)",
 		"sources": [
 			"Pathfinder #64: Beyond the Doomsday Door",
 			"Bestiary 4"
@@ -2328,7 +2328,7 @@
 	},
 	"kere": { "copyof": "psychopomp_kere" },
 	"psychopomp_memitim": {
-		"name": "Psychopomp, Memitim",
+		"name": "Memitim (Psychopomp)",
 		"sources": [
 			"Bestiary 6",
 			"Inner Sea Bestiary",
@@ -2390,7 +2390,7 @@
 	},
 	"memitim": { "copyof": "psychopomp_memitim" },
 	"psychopomp_morbai": {
-		"name": "Psychopomp, Morbai",
+		"name": "Morbai (Psychopomp)",
 		"sources": [
 			"Concordance of Rivals",
 			"Bestiary 4"
@@ -2453,7 +2453,7 @@
 	},
 	"morbai": { "copyof": "psychopomp_morbai" },
 	"psychopomp_morrigna": {
-		"name": "Psychopomp, Morrigna",
+		"name": "Morrigna (Psychopomp)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #48: Shadows of Gallowspire"
@@ -2528,7 +2528,7 @@
 	},
 	"morrigna": { "copyof": "psychopomp_morrigna" },
 	"psychopomp_nosoi": {
-		"name": "Psychopomp, Nosoi",
+		"name": "Nosoi (Psychopomp)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #47: Ashes at Dawn"
@@ -2595,7 +2595,7 @@
 	},
 	"nosoi": { "copyof": "psychopomp_nosoi" },
 	"psychopomp_olethros": {
-		"name": "Psychopomp, Olethros",
+		"name": "Olethros (Psychopomp)",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -2679,7 +2679,7 @@
 	},
 	"olethros": { "copyof": "psychopomp_olethros" },
 	"psychopomp_shoki": {
-		"name": "Psychopomp, Shoki",
+		"name": "Shoki (Psychopomp)",
 		"sources": [
 			"Bestiary 6",
 			"Inner Sea Bestiary",
@@ -2740,7 +2740,7 @@
 	},
 	"shoki": { "copyof": "psychopomp_shoki" },
 	"psychopomp_vanth": {
-		"name": "Psychopomp, Vanth",
+		"name": "Vanth (Psychopomp)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #47: Ashes at Dawn"
@@ -2807,7 +2807,7 @@
 	},
 	"vanth": { "copyof": "psychopomp_vanth" },
 	"psychopomp_viduus": {
-		"name": "Psychopomp, Viduus",
+		"name": "Viduus (Psychopomp)",
 		"sources": [
 			"Bestiary 6",
 			"Inner Sea Bestiary",
@@ -2870,7 +2870,7 @@
 	},
 	"viduus": { "copyof": "psychopomp_viduus" },
 	"psychopomp_yamaraj": {
-		"name": "Psychopomp, Yamaraj",
+		"name": "Yamaraj (Psychopomp)",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #48: Shadows of Gallowspire"

@@ -130,7 +130,7 @@
 		]
 	},
 	"hell_hound_nessian_warhound_mythic": {
-		"name": "Hell Hound, Nessian Warhound",
+		"name": "Nessian Warhound (Hell Hound)",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"*This brawny hound is wreathed in flames, and its footsteps leave burning prints that sputter and smoke.*",
@@ -1244,7 +1244,7 @@
 		]
 	},
 	"plague_swarm_bat_plague_swarm_mythic": {
-		"name": "Plague Swarm, Bat Plague Swarm",
+		"name": "Bat Plague Swarm (Plague Swarm)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.*",
@@ -1297,7 +1297,7 @@
 	"bat_plague_swarm_mythic": { "copyof": "plague_swarm_bat_plague_swarm_mythic" },
 	"plague_swarm_bat": { "copyof": "plague_swarm_bat_plague_swarm_mythic" },
 	"plague_swarm_locust_plague_swarm_mythic": {
-		"name": "Plague Swarm, Locust Plague Swarm",
+		"name": "Locust Plague Swarm (Plague Swarm)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.*",
@@ -1352,7 +1352,7 @@
 	"locust_plague_swarm_mythic": { "copyof": "plague_swarm_locust_plague_swarm_mythic" },
 	"plague_swarm_locust": { "copyof": "plague_swarm_locust_plague_swarm_mythic" },
 	"plague_swarm_rat_plague_swarm_mythic": {
-		"name": "Plague Swarm, Rat Plague Swarm",
+		"name": "Rat Plague Swarm (Plague Swarm)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.*",
@@ -1707,7 +1707,7 @@
 		]
 	},
 	"titan_danava_mythic": {
-		"name": "Titan, Danava",
+		"name": "Danava (Titan)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This godlike giant wears armor made of thick plates of blackened iron and wields a great bladed mace.*",
@@ -1787,7 +1787,7 @@
 	"danava": { "copyof": "titan_danava_mythic" },
 	"titan_danava": { "copyof": "titan_danava_mythic" },
 	"titan_fomorian_titan_mythic": {
-		"name": "Titan, Fomorian Titan",
+		"name": "Fomorian Titan (Titan)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This godlike giant wears armor made of thick plates of blackened iron and wields a great bladed mace.*",
@@ -2361,7 +2361,7 @@
 		]
 	},
 	"xiomorn_vault_builder_mythic": {
-		"name": "Xiomorn, Vault Builder",
+		"name": "Vault Builder (Xiomorn)",
 		"sources": [
 			"Planar Adventures",
 			"The Emerald Spire Superdungeon"

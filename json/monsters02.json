@@ -716,7 +716,7 @@
 		]
 	},
 	"ant_lion_giant_adult_ant_lion": {
-		"name": "Ant Lion, Giant Adult Ant Lion",
+		"name": "Giant Adult Ant Lion",
 		"sources": [
 			"Bestiary 3",
 			"Bonus Bestiary"
@@ -763,7 +763,7 @@
 	},
 	"giant_adult_ant_lion": { "copyof": "ant_lion_giant_adult_ant_lion" },
 	"ant_lion_giant_ant_lion": {
-		"name": "Ant Lion, Giant Ant Lion",
+		"name": "Giant Ant Lion",
 		"sources": [
 			"Bestiary 3",
 			"Bonus Bestiary"
@@ -814,7 +814,7 @@
 	},
 	"giant_ant_lion": { "copyof": "ant_lion_giant_ant_lion" },
 	"ant_army_ant_swarm": {
-		"name": "Ant, Army Ant Swarm",
+		"name": "Army Ant Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A writhing carpet of ants seethes over the ground, consuming everything in its path.*",
@@ -865,7 +865,7 @@
 	},
 	"army_ant_swarm": { "copyof": "ant_army_ant_swarm" },
 	"ant_giant_ant": {
-		"name": "Ant, Giant Ant",
+		"name": "Giant Ant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A thin, six-legged ant the size of a pony stands at the ready, its mandibles chittering and its stinger dripping with venom.*",
@@ -924,7 +924,7 @@
 	"giant_ant": { "copyof": "ant_giant_ant" },
 	"ant_giant": { "copyof": "ant_giant_ant" },
 	"ant_knight_ant": {
-		"name": "Ant, Knight Ant",
+		"name": "Knight Ant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This hulking, wide-headed ant is the size of a horse, its antennae twitching and mandibles scarred.*",
@@ -979,7 +979,7 @@
 	"knight_ant": { "copyof": "ant_knight_ant" },
 	"ant_knight": { "copyof": "ant_knight_ant" },
 	"ant_megapon_ant": {
-		"name": "Ant, Megapon Ant",
+		"name": "Megapon Ant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This enormous ant has vicious mandibles and a dripping stinger, and looks large enough to devour a horse.*",
@@ -1150,7 +1150,7 @@
 		]
 	},
 	"ape_dire_ape_gigantopithecus": {
-		"name": "Ape, Dire Ape (Gigantopithecus)",
+		"name": "Dire Ape (Gigantopithecus)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Sharp teeth fill this large, feral ape's mouth, and its long, muscular arms stretch to the ground, ending in wickedly curved claws.*",
@@ -1199,7 +1199,7 @@
 	"dire_ape": { "copyof": "ape_dire_ape_gigantopithecus" },
 	"ape_dire": { "copyof": "ape_dire_ape_gigantopithecus" },
 	"ape_gorilla": {
-		"name": "Ape, Gorilla",
+		"name": "Gorilla (Ape)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Large, deep-set eyes peer from beneath this great ape's thick brow as it lumbers forward on its legs and knuckles.*",
@@ -1245,7 +1245,7 @@
 	},
 	"gorilla": { "copyof": "ape_gorilla" },
 	"ape_megaprimatus": {
-		"name": "Ape, Megaprimatus",
+		"name": "Megaprimatus (Ape)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This titanic ape has great patches of coarse gray and brown fur, and its skin is thick and leathery.*",
@@ -1586,7 +1586,7 @@
 		]
 	},
 	"archon_swarm_mote_archon_swarm": {
-		"name": "Archon Swarm, Mote Archon Swarm",
+		"name": "Mote Archon Swarm",
 		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
 			"*Thousands of golden lights form a cloud, swirling gracefully around one another. Each light in the cloud is a glowing rune no bigger than a thumbnail.*",
@@ -1667,7 +1667,7 @@
 	},
 	"mote_archon_swarm": { "copyof": "archon_swarm_mote_archon_swarm" },
 	"archon_bastion_archon": {
-		"name": "Archon, Bastion Archon",
+		"name": "Bastion Archon",
 		"sources": [
 			"Planar Adventures",
 			"Pathfinder RPG Bestiary"
@@ -1764,7 +1764,7 @@
 	"bastion_archon": { "copyof": "archon_bastion_archon" },
 	"archon_bastion": { "copyof": "archon_bastion_archon" },
 	"archon_codex_archon": {
-		"name": "Archon, Codex Archon",
+		"name": "Codex Archon",
 		"sources": [
 			"Monster Summoner's Handbook",
 			"Pathfinder RPG Bestiary"
@@ -1833,7 +1833,7 @@
 	"codex_archon": { "copyof": "archon_codex_archon" },
 	"archon_codex": { "copyof": "archon_codex_archon" },
 	"archon_exscinder": {
-		"name": "Archon, Exscinder",
+		"name": "Exscinder (Archon)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -1897,7 +1897,7 @@
 	},
 	"exscinder": { "copyof": "archon_exscinder" },
 	"archon_gate_archon": {
-		"name": "Archon, Gate Archon",
+		"name": "Gate Archon",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -1972,7 +1972,7 @@
 	"gate_archon": { "copyof": "archon_gate_archon" },
 	"archon_gate": { "copyof": "archon_gate_archon" },
 	"archon_hammer_archon": {
-		"name": "Archon, Hammer Archon",
+		"name": "Hammer Archon",
 		"sources": [
 			"Pathfinder #107: Scourge of the Godclaw",
 			"Pathfinder RPG Bestiary"
@@ -2059,7 +2059,7 @@
 	"hammer_archon": { "copyof": "archon_hammer_archon" },
 	"archon_hammer": { "copyof": "archon_hammer_archon" },
 	"archon_harbinger_archon": {
-		"name": "Archon, Harbinger Archon",
+		"name": "Harbinger Archon",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -2134,7 +2134,7 @@
 	"harbinger_archon": { "copyof": "archon_harbinger_archon" },
 	"archon_harbinger": { "copyof": "archon_harbinger_archon" },
 	"archon_hound_archon": {
-		"name": "Archon, Hound Archon",
+		"name": "Hound Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This canine-headed humanoid's well-groomed appearance and polished greatsword show it to be more than a common beast.*",
@@ -2195,7 +2195,7 @@
 	"hound_archon": { "copyof": "archon_hound_archon" },
 	"archon_hound": { "copyof": "archon_hound_archon" },
 	"archon_lantern_archon": {
-		"name": "Archon, Lantern Archon",
+		"name": "Lantern Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Shedding a warm and calming radiance, this orb of light moves with a preternatural silence and otherworldly grace.*",
@@ -2257,7 +2257,7 @@
 	"lantern_archon": { "copyof": "archon_lantern_archon" },
 	"archon_lantern": { "copyof": "archon_lantern_archon" },
 	"archon_legion_archon": {
-		"name": "Archon, Legion Archon",
+		"name": "Legion Archon",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -2328,7 +2328,7 @@
 	"legion_archon": { "copyof": "archon_legion_archon" },
 	"archon_legion": { "copyof": "archon_legion_archon" },
 	"archon_preceptor_archon": {
-		"name": "Archon, Preceptor Archon",
+		"name": "Preceptor Archon",
 		"sources": [
 			"Heaven Unleashed",
 			"Pathfinder RPG Bestiary"
@@ -2392,7 +2392,7 @@
 	"preceptor_archon": { "copyof": "archon_preceptor_archon" },
 	"archon_preceptor": { "copyof": "archon_preceptor_archon" },
 	"archon_shield_archon": {
-		"name": "Archon, Shield Archon",
+		"name": "Shield Archon",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2459,7 +2459,7 @@
 	"shield_archon": { "copyof": "archon_shield_archon" },
 	"archon_shield": { "copyof": "archon_shield_archon" },
 	"archon_spyglass_archon": {
-		"name": "Archon, Spyglass Archon",
+		"name": "Spyglass Archon",
 		"sources": [
 			"Chronicle of the Righteous",
 			"Pathfinder RPG Bestiary"
@@ -2529,7 +2529,7 @@
 	"spyglass_archon": { "copyof": "archon_spyglass_archon" },
 	"archon_spyglass": { "copyof": "archon_spyglass_archon" },
 	"archon_stag_archon": {
-		"name": "Archon, Stag Archon",
+		"name": "Stag Archon",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
@@ -2592,7 +2592,7 @@
 	"stag_archon": { "copyof": "archon_stag_archon" },
 	"archon_stag": { "copyof": "archon_stag_archon" },
 	"archon_star_archon": {
-		"name": "Archon, Star Archon",
+		"name": "Star Archon",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2667,7 +2667,7 @@
 	"star_archon": { "copyof": "archon_star_archon" },
 	"archon_star": { "copyof": "archon_star_archon" },
 	"archon_trumpet_archon": {
-		"name": "Archon, Trumpet Archon",
+		"name": "Trumpet Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Lithe and beautiful, with skin the color of marble, this being hovers upon powerful, white wings and radiates a sense of serenity.*",
@@ -3106,7 +3106,7 @@
 		]
 	},
 	"assassin_bug_giant_assassin_bug": {
-		"name": "Assassin Bug, Giant Assassin Bug",
+		"name": "Giant Assassin Bug",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #81: Shifting Sands"
@@ -3161,7 +3161,7 @@
 	},
 	"giant_assassin_bug": { "copyof": "assassin_bug_giant_assassin_bug" },
 	"assassin_bug_great_assassin_bug": {
-		"name": "Assassin Bug, Great Assassin Bug",
+		"name": "Great Assassin Bug",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*A massive insect with long mandibles and sullenly glowing eyes, this creature has a heavy, bulbous thorax.*",
@@ -3396,7 +3396,7 @@
 		]
 	},
 	"asura_adhukait": {
-		"name": "Asura, Adhukait",
+		"name": "Adhukait (Asura)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #28: The Infernal Syndrome"
@@ -3464,7 +3464,7 @@
 	},
 	"adhukait": { "copyof": "asura_adhukait" },
 	"asura_aghasura": {
-		"name": "Asura, Aghasura",
+		"name": "Aghasura (Asura)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This immense creature looks like a horned rattlesnake, save for its two muscular arms, each of which wields a scimitar.*",
@@ -3530,7 +3530,7 @@
 	},
 	"aghasura": { "copyof": "asura_aghasura" },
 	"asura_asurendra": {
-		"name": "Asura, Asurendra",
+		"name": "Asurendra (Asura)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This four-armed humanoid horror is garbed in golden armor and surrounded by a nimbus of floating, glowing weaponry.*",
@@ -3613,7 +3613,7 @@
 	},
 	"asurendra": { "copyof": "asura_asurendra" },
 	"asura_hishandura": {
-		"name": "Asura, Hishandura",
+		"name": "Hishandura (Asura)",
 		"sources": [
 			"Pathfinder #136: Temple of the Peacock Spirit",
 			"Bestiary 3"
@@ -3698,7 +3698,7 @@
 	},
 	"hishandura": { "copyof": "asura_hishandura" },
 	"asura_japalisura": {
-		"name": "Asura, Japalisura",
+		"name": "Japalisura (Asura)",
 		"sources": [
 			"Pathfinder #136: Temple of the Peacock Spirit",
 			"Bestiary 3"
@@ -3783,7 +3783,7 @@
 	},
 	"japalisura": { "copyof": "asura_japalisura" },
 	"asura_nikaramsa": {
-		"name": "Asura, Nikaramsa",
+		"name": "Nikaramsa (Asura)",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 3"
@@ -3848,7 +3848,7 @@
 	},
 	"nikaramsa": { "copyof": "asura_nikaramsa" },
 	"asura_tripurasura": {
-		"name": "Asura, Tripurasura",
+		"name": "Tripurasura (Asura)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This tiny monstrosity has the body of a well-muscled man, a crown of frilled horns, and eyes that glow like rubies.*",
@@ -3913,7 +3913,7 @@
 	},
 	"tripurasura": { "copyof": "asura_tripurasura" },
 	"asura_upasunda": {
-		"name": "Asura, Upasunda",
+		"name": "Upasunda (Asura)",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This six-armed woman has three fanged faces on her head. She wears colorful robes, and her hands wield several exotic weapons.*",
@@ -3978,7 +3978,7 @@
 	},
 	"upasunda": { "copyof": "asura_upasunda" },
 	"asura_vayuphak": {
-		"name": "Asura, Vayuphak",
+		"name": "Vayuphak (Asura)",
 		"sources": [
 			"Occult Bestiary",
 			"Bestiary 3"

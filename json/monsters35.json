@@ -56,7 +56,7 @@
 		]
 	},
 	"karkinoi_karkinoi_brood_swarm": {
-		"name": "Karkinoi, Karkinoi Brood Swarm",
+		"name": "Karkinoi Brood Swarm",
 		"sources": [ "Plunder and Peril" ],
 		"description": [
 			"*Each member of this horde of blue crablike things is armed with a menacing, oversized pincer.*",
@@ -193,7 +193,7 @@
 		]
 	},
 	"linnorm_cairn_linnorm": {
-		"name": "Linnorm, Cairn Linnorm",
+		"name": "Cairn Linnorm",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Pallid and horribly gaunt, this enormous but emaciated dragonlike creature has two forearms and no wings.*",
@@ -253,7 +253,7 @@
 	"linnorm_cairn": { "copyof": "linnorm_cairn_linnorm" },
 	"cairn_linnorm": { "copyof": "linnorm_cairn_linnorm" },
 	"linnorm_crag_linnorm": {
-		"name": "Linnorm, Crag Linnorm",
+		"name": "Crag Linnorm",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Bestiary 3"
@@ -320,7 +320,7 @@
 	"linnorm_crag": { "copyof": "linnorm_crag_linnorm" },
 	"crag_linnorm": { "copyof": "linnorm_crag_linnorm" },
 	"linnorm_fjord_linnorm": {
-		"name": "Linnorm, Fjord Linnorm",
+		"name": "Fjord Linnorm",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This massive, eel-like dragon has two webbed talons. Its tail ends in large and powerful-looking flukes.*",
@@ -383,7 +383,7 @@
 	"linnorm_fjord": { "copyof": "linnorm_fjord_linnorm" },
 	"fjord_linnorm": { "copyof": "linnorm_fjord_linnorm" },
 	"linnorm_gare_linnorm": {
-		"name": "Linnorm, Gare Linnorm",
+		"name": "Gare Linnorm",
 		"sources": [
 			"Pathfinder #50: Night of Frozen Shadows",
 			"Bestiary 3"
@@ -465,7 +465,7 @@
 	"linnorm_gare": { "copyof": "linnorm_gare_linnorm" },
 	"gare_linnorm": { "copyof": "linnorm_gare_linnorm" },
 	"linnorm_ice_linnorm": {
-		"name": "Linnorm, Ice Linnorm",
+		"name": "Ice Linnorm",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Bestiary 3"
@@ -534,7 +534,7 @@
 	"linnorm_ice": { "copyof": "linnorm_ice_linnorm" },
 	"ice_linnorm": { "copyof": "linnorm_ice_linnorm" },
 	"linnorm_sea_linnorm": {
-		"name": "Linnorm, Sea Linnorm",
+		"name": "Sea Linnorm",
 		"sources": [
 			"Pathfinder #126: Beyond the Veiled Past",
 			"Bestiary 3"
@@ -612,7 +612,7 @@
 	"linnorm_sea": { "copyof": "linnorm_sea_linnorm" },
 	"sea_linnorm": { "copyof": "linnorm_sea_linnorm" },
 	"linnorm_taiga_linnorm": {
-		"name": "Linnorm, Taiga Linnorm",
+		"name": "Taiga Linnorm",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*With menacing black horns jutting from its head, this two-legged dragon is covered in dark green scales and vicious black barbs.*",
@@ -676,7 +676,7 @@
 	"linnorm_taiga": { "copyof": "linnorm_taiga_linnorm" },
 	"taiga_linnorm": { "copyof": "linnorm_taiga_linnorm" },
 	"linnorm_tarn_linnorm": {
-		"name": "Linnorm, Tarn Linnorm",
+		"name": "Tarn Linnorm",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Bestiary 3"
@@ -748,7 +748,7 @@
 	"linnorm_tarn": { "copyof": "linnorm_tarn_linnorm" },
 	"tarn_linnorm": { "copyof": "linnorm_tarn_linnorm" },
 	"linnorm_tor_linnorm": {
-		"name": "Linnorm, Tor Linnorm",
+		"name": "Tor Linnorm",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This gigantic, wingless, four-armed dragon has rivulets of bright red magma coursing through its serpentine body.*",
@@ -1262,7 +1262,7 @@
 		]
 	},
 	"megafauna_archelon": {
-		"name": "Megafauna, Archelon",
+		"name": "Archelon (Megafauna)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -1317,7 +1317,7 @@
 	},
 	"archelon": { "copyof": "megafauna_archelon" },
 	"megafauna_arsinoitherium": {
-		"name": "Megafauna, Arsinoitherium",
+		"name": "Arsinoitherium (Megafauna)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -1367,7 +1367,7 @@
 	},
 	"arsinoitherium": { "copyof": "megafauna_arsinoitherium" },
 	"megafauna_baluchitherium": {
-		"name": "Megafauna, Baluchitherium",
+		"name": "Baluchitherium (Megafauna)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -1419,7 +1419,7 @@
 	},
 	"baluchitherium": { "copyof": "megafauna_baluchitherium" },
 	"megafauna_basilosaurus": {
-		"name": "Megafauna, Basilosaurus",
+		"name": "Basilosaurus (Megafauna)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -1474,7 +1474,7 @@
 	},
 	"basilosaurus": { "copyof": "megafauna_basilosaurus" },
 	"megafauna_brontotherium": {
-		"name": "Megafauna, Brontotherium",
+		"name": "Brontotherium (Megafauna)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -1524,7 +1524,7 @@
 	},
 	"brontotherium": { "copyof": "megafauna_brontotherium" },
 	"megafauna_chalicotherium": {
-		"name": "Megafauna, Chalicotherium",
+		"name": "Chalicotherium (Megafauna)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #91: Battle of Bloodmarch Hills",
@@ -1578,7 +1578,7 @@
 	},
 	"chalicotherium": { "copyof": "megafauna_chalicotherium" },
 	"megafauna_deinotherium": {
-		"name": "Megafauna, Deinotherium",
+		"name": "Deinotherium (Megafauna)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #91: Battle of Bloodmarch Hills",
@@ -1635,7 +1635,7 @@
 	},
 	"deinotherium": { "copyof": "megafauna_deinotherium" },
 	"megafauna_elasmotherium": {
-		"name": "Megafauna, Elasmotherium",
+		"name": "Elasmotherium (Megafauna)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -1691,7 +1691,7 @@
 	},
 	"elasmotherium": { "copyof": "megafauna_elasmotherium" },
 	"megafauna_embolotherium": {
-		"name": "Megafauna, Embolotherium",
+		"name": "Embolotherium (Megafauna)",
 		"sources": [
 			"Pathfinder #91: Battle of Bloodmarch Hills",
 			"Pathfinder RPG Bestiary"
@@ -1744,7 +1744,7 @@
 	},
 	"embolotherium": { "copyof": "megafauna_embolotherium" },
 	"megafauna_glyptodon": {
-		"name": "Megafauna, Glyptodon",
+		"name": "Glyptodon (Megafauna)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -1793,7 +1793,7 @@
 	},
 	"glyptodon": { "copyof": "megafauna_glyptodon" },
 	"megafauna_kaprosuchus": {
-		"name": "Megafauna, Kaprosuchus",
+		"name": "Kaprosuchus (Megafauna)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -1847,7 +1847,7 @@
 	},
 	"kaprosuchus": { "copyof": "megafauna_kaprosuchus" },
 	"megafauna_megalania": {
-		"name": "Megafauna, Megalania",
+		"name": "Megalania (Megafauna)",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -1903,7 +1903,7 @@
 	},
 	"megalania": { "copyof": "megafauna_megalania" },
 	"megafauna_megaloceros": {
-		"name": "Megafauna, Megaloceros",
+		"name": "Megaloceros (Megafauna)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #31: Stolen Land",
@@ -1956,7 +1956,7 @@
 	},
 	"megaloceros": { "copyof": "megafauna_megaloceros" },
 	"megafauna_megatherium": {
-		"name": "Megafauna, Megatherium",
+		"name": "Megatherium (Megafauna)",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2006,7 +2006,7 @@
 	},
 	"megatherium": { "copyof": "megafauna_megatherium" },
 	"megafauna_moa": {
-		"name": "Megafauna, Moa",
+		"name": "Moa (Megafauna)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -2057,7 +2057,7 @@
 	},
 	"moa": { "copyof": "megafauna_moa" },
 	"megafauna_titanoboa": {
-		"name": "Megafauna, Titanoboa",
+		"name": "Titanoboa (Megafauna)",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -2109,7 +2109,7 @@
 	},
 	"titanoboa": { "copyof": "megafauna_titanoboa" },
 	"megafauna_uintatherium": {
-		"name": "Megafauna, Uintatherium",
+		"name": "Uintatherium (Megafauna)",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -2663,7 +2663,7 @@
 		]
 	},
 	"merrow_freshwater_merrow": {
-		"name": "Merrow, Freshwater Merrow",
+		"name": "Freshwater Merrow",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This giant has pale green, scaled skin and large, webbed hands and feet. On either side of its neck are slotted gills.*",
@@ -2715,7 +2715,7 @@
 	"merrow_freshwater": { "copyof": "merrow_freshwater_merrow" },
 	"freshwater_merrow": { "copyof": "merrow_freshwater_merrow" },
 	"merrow_saltwater_merrow": {
-		"name": "Merrow, Saltwater Merrow",
+		"name": "Saltwater Merrow",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"::mh[Saltwater Merrow]{cr=\"6\"}",
@@ -2897,7 +2897,7 @@
 		]
 	},
 	"minotaur_labyrinth_guardian": {
-		"name": "Minotaur, Labyrinth Guardian",
+		"name": "Labyrinth Guardian (Minotaur)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*A cold chill trails this ironclad minotaur skeleton, yet flames pour from the undead abomination's enormous blade.*",
@@ -2951,7 +2951,7 @@
 	},
 	"labyrinth_guardian": { "copyof": "minotaur_labyrinth_guardian" },
 	"minotaur_labyrinth_minotaur": {
-		"name": "Minotaur, Labyrinth Minotaur",
+		"name": "Labyrinth Minotaur",
 		"sources": [ "Pathfinder #77: Herald of the Ivory Labyrinth" ],
 		"description": [
 			"*This hulking minotaur's hooves are clad in imposing steel. The massive beast wears a heavy bronze mask that covers most of its face.*",
@@ -3030,7 +3030,7 @@
 	"minotaur_labyrinth": { "copyof": "minotaur_labyrinth_minotaur" },
 	"labyrinth_minotaur": { "copyof": "minotaur_labyrinth_minotaur" },
 	"minotaur_minotaur_marauder": {
-		"name": "Minotaur, Minotaur Marauder",
+		"name": "Minotaur Marauder",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*The battle-worn axe and scarred leather armor born by this sunbleached minotaur woman mark her as a seasoned combatant.*",
@@ -3085,7 +3085,7 @@
 	},
 	"minotaur_marauder": { "copyof": "minotaur_minotaur_marauder" },
 	"minotaur_prophet_of_baphomet": {
-		"name": "Minotaur, Prophet of Baphomet",
+		"name": "Prophet of Baphomet (Minotaur)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*This white-maned minotaur's gilt-edged robes project elegance and terror in equal measure. The cloud of heady incense about her form doesn't conceal the distinct scent of brimstone.*",
@@ -3147,7 +3147,7 @@
 	},
 	"prophet_of_baphomet": { "copyof": "minotaur_prophet_of_baphomet" },
 	"minotaur_tangle_tender": {
-		"name": "Minotaur, Tangle Tender",
+		"name": "Tangle Tender (Minotaur)",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"*The cold eyes of this minotaur are without fear or emotion. An arsenal of devices rattle from its belt, not the least of which is its mechanical monstrosity of a crossbow.*",
@@ -3196,7 +3196,7 @@
 	},
 	"tangle_tender": { "copyof": "minotaur_tangle_tender" },
 	"naga_dark_naga": {
-		"name": "Naga, Dark Naga",
+		"name": "Dark Naga",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-like monstrosity.*",
@@ -3266,7 +3266,7 @@
 	"naga_dark": { "copyof": "naga_dark_naga" },
 	"dark_naga": { "copyof": "naga_dark_naga" },
 	"naga_deep_naga": {
-		"name": "Naga, Deep Naga",
+		"name": "Deep Naga",
 		"sources": [
 			"Pathfinder #118: Siege of Stone",
 			"Pathfinder RPG Bestiary"
@@ -3351,7 +3351,7 @@
 	"naga_deep": { "copyof": "naga_deep_naga" },
 	"deep_naga": { "copyof": "naga_deep_naga" },
 	"naga_dream_naga": {
-		"name": "Naga, Dream Naga",
+		"name": "Dream Naga",
 		"sources": [
 			"Bestiary 6",
 			"Occult Bestiary",
@@ -3419,7 +3419,7 @@
 	"naga_dream": { "copyof": "naga_dream_naga" },
 	"dream_naga": { "copyof": "naga_dream_naga" },
 	"naga_guardian_naga": {
-		"name": "Naga, Guardian Naga",
+		"name": "Guardian Naga",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A contemplative humanoid face framed by a cobra-like hood adorns the body of this long, brightly colored serpent.*",
@@ -3484,7 +3484,7 @@
 	"naga_guardian": { "copyof": "naga_guardian_naga" },
 	"guardian_naga": { "copyof": "naga_guardian_naga" },
 	"naga_lunar_naga": {
-		"name": "Naga, Lunar Naga",
+		"name": "Lunar Naga",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -3554,7 +3554,7 @@
 	"naga_lunar": { "copyof": "naga_lunar_naga" },
 	"lunar_naga": { "copyof": "naga_lunar_naga" },
 	"naga_royal_naga": {
-		"name": "Naga, Royal Naga",
+		"name": "Royal Naga",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #27: What Lies in Dust",
@@ -3626,7 +3626,7 @@
 	"naga_royal": { "copyof": "naga_royal_naga" },
 	"royal_naga": { "copyof": "naga_royal_naga" },
 	"naga_slime_naga": {
-		"name": "Naga, Slime Naga",
+		"name": "Slime Naga",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #100: A Song of Silver",
@@ -3697,7 +3697,7 @@
 	"naga_slime": { "copyof": "naga_slime_naga" },
 	"slime_naga": { "copyof": "naga_slime_naga" },
 	"naga_spirit_naga": {
-		"name": "Naga, Spirit Naga",
+		"name": "Spirit Naga",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Yellowed, venom-dripping fangs fill the human-like mouth of this sinister serpentine monstrosity.*",
@@ -3767,7 +3767,7 @@
 	"naga_spirit": { "copyof": "naga_spirit_naga" },
 	"spirit_naga": { "copyof": "naga_spirit_naga" },
 	"naga_water_naga": {
-		"name": "Naga, Water Naga",
+		"name": "Water Naga",
 		"sources": [
 			"Bestiary 3",
 			"Bonus Bestiary",

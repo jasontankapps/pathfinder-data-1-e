@@ -797,11 +797,11 @@
 		]
 	},
 	"greater_darkness_infusion": {
-		"name": "Darkness Infusion, Greater",
+		"name": "Greater Darkness Infusion",
 		"sources": [ "Occult Origins" ],
 		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
-			"## Darkness Infusion, Greater",
+			"## Greater Darkness Infusion",
 			"",
 			"{SOURCE Occult Origins/6}  ",
 			"**Element** void; **Type** substance infusion; **Level** 6; **Burn** 4  ",
@@ -1626,14 +1626,14 @@
 		]
 	},
 	"greater_toxic_infusion": {
-		"name": "Toxic Infusion, Greater",
+		"name": "Greater Toxic Infusion",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
 		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
-			"## Toxic Infusion, Greater",
+			"## Greater Toxic Infusion",
 			"",
 			"{SOURCE Ultimate Wilderness/61;Occult Origins/9}  ",
 			"**Element** wood; **Type** substance infusion; **Level** 7; **Burn** 4  ",
@@ -1820,11 +1820,11 @@
 		]
 	},
 	"greater_venom_infusion": {
-		"name": "Venom Infusion, Greater",
+		"name": "Greater Venom Infusion",
 		"sources": [ "Heroes of Golarion" ],
 		"topLink": [ "Infusions", "ability/infusion_wild_talents" ],
 		"description": [
-			"## Venom Infusion, Greater",
+			"## Greater Venom Infusion",
 			"",
 			"{SOURCE Heroes of Golarion/26}  ",
 			"**Element** universal; **Type** substance infusion; **Level** 7; **Burn** 4  ",
@@ -1976,11 +1976,11 @@
 		]
 	},
 	"greater_air_shroud": {
-		"name": "Air Shroud, Greater",
+		"name": "Greater Air Shroud",
 		"sources": [ "Occult Adventures" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Air Shroud, Greater (Sp)",
+			"## Greater Air Shroud (Sp)",
 			"",
 			"{SOURCE Occult Adventures/23}  ",
 			"**Element** air; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
@@ -2405,11 +2405,11 @@
 		]
 	},
 	"greater_elemental_whispers": {
-		"name": "Elemental Whispers, Greater",
+		"name": "Greater Elemental Whispers",
 		"sources": [ "Horror Adventures" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Elemental Whispers, Greater (Su)",
+			"## Greater Elemental Whispers (Su)",
 			"",
 			"{SOURCE Horror Adventures/57}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 3; **Burn** 0  ",
@@ -2472,11 +2472,11 @@
 		]
 	},
 	"greater_eyes_of_the_void": {
-		"name": "Eyes of the Void, Greater",
+		"name": "Greater Eyes of the Void",
 		"sources": [ "Occult Origins" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Eyes of the Void, Greater (Su)",
+			"## Greater Eyes of the Void (Su)",
 			"",
 			"{SOURCE Occult Origins/7}  ",
 			"**Element** void; **Type** utility (Su); **Level** 5; **Burn** 0  ",
@@ -2565,11 +2565,11 @@
 		]
 	},
 	"greater_flame_jet": {
-		"name": "Flame Jet, Greater",
+		"name": "Greater Flame Jet",
 		"sources": [ "Occult Adventures" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Flame Jet, Greater (Sp)",
+			"## Greater Flame Jet (Sp)",
 			"",
 			"{SOURCE Occult Adventures/25}  ",
 			"**Element** fire; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
@@ -2681,11 +2681,11 @@
 		]
 	},
 	"greater_gravity_control": {
-		"name": "Gravity Control, Greater",
+		"name": "Greater Gravity Control",
 		"sources": [ "Occult Origins" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Gravity Control, Greater (Sp)",
+			"## Greater Gravity Control (Sp)",
 			"",
 			"{SOURCE Occult Origins/7}  ",
 			"**Element** void; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
@@ -2741,14 +2741,14 @@
 		]
 	},
 	"greater_green_tongue": {
-		"name": "Green Tongue, Greater",
+		"name": "Greater Green Tongue",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
 		],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Green Tongue, Greater (Su)",
+			"## Greater Green Tongue (Su)",
 			"",
 			"{SOURCE Ultimate Wilderness/59;Psychic Anthology/22}  ",
 			"**Element** wood; **Type** utility (Su); **Level** 7; **Burn** 0  ",
@@ -3062,11 +3062,11 @@
 		]
 	},
 	"greater_magnetism": {
-		"name": "Magnetism, Greater",
+		"name": "Greater Magnetism",
 		"sources": [ "Elemental Master's Handbook" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Magnetism, Greater (Sp)",
+			"## Greater Magnetism (Sp)",
 			"",
 			"{SOURCE Elemental Master's Handbook/22}  ",
 			"**Element** air, earth; **Type** utility (Sp); **Level** 9; **Burn** 0  ",
@@ -3329,11 +3329,11 @@
 		]
 	},
 	"greater_self_telekinesis": {
-		"name": "Self Telekinesis, Greater",
+		"name": "Greater Self Telekinesis",
 		"sources": [ "Occult Adventures" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Self Telekinesis, Greater (Sp)",
+			"## Greater Self Telekinesis (Sp)",
 			"",
 			"{SOURCE Occult Adventures/26}  ",
 			"**Element** aether; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
@@ -3375,11 +3375,11 @@
 		]
 	},
 	"greater_shift_earth": {
-		"name": "Shift Earth, Greater",
+		"name": "Greater Shift Earth",
 		"sources": [ "Occult Adventures" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Shift Earth, Greater (Sp)",
+			"## Greater Shift Earth (Sp)",
 			"",
 			"{SOURCE Occult Adventures/26}  ",
 			"**Element** earth; **Type** utility (Sp); **Level** 7; **Burn** 0  ",
@@ -3417,11 +3417,11 @@
 		]
 	},
 	"greater_skilled_kineticist": {
-		"name": "Skilled Kineticist, Greater",
+		"name": "Greater Skilled Kineticist",
 		"sources": [ "Occult Adventures" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Skilled Kineticist, Greater (Su)",
+			"## Greater Skilled Kineticist (Su)",
 			"",
 			"{SOURCE Occult Adventures/27}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 2; **Burn** 0  ",
@@ -3708,11 +3708,11 @@
 		]
 	},
 	"reactive_touchsight": {
-		"name": "Touchsight, Reactive",
+		"name": "Reactive Touchsight",
 		"sources": [ "Occult Adventures" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Touchsight, Reactive (Su)",
+			"## Reactive Touchsight (Su)",
 			"",
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** aether; **Type** utility (Su); **Level** 5; **Burn** 0  ",
@@ -3767,11 +3767,11 @@
 		]
 	},
 	"greater_tremorsense": {
-		"name": "Tremorsense, Greater",
+		"name": "Greater Tremorsense",
 		"sources": [ "Occult Adventures" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Tremorsense, Greater (Su)",
+			"## Greater Tremorsense (Su)",
 			"",
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** earth; **Type** utility (Su); **Level** 5; **Burn** 0  ",
@@ -3836,11 +3836,11 @@
 		]
 	},
 	"greater_voice_of_the_wind": {
-		"name": "Voice of the Wind, Greater",
+		"name": "Greater Voice of the Wind",
 		"sources": [ "Ultimate Intrigue" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Voice of the Wind, Greater (Sp)",
+			"## Greater Voice of the Wind (Sp)",
 			"",
 			"{SOURCE Ultimate Intrigue/66}  ",
 			"**Element** air; **Type** utility (Sp); **Level** 2; **Burn** 0  ",
@@ -3925,11 +3925,11 @@
 		]
 	},
 	"greater_waterdancer": {
-		"name": "Waterdancer, Greater",
+		"name": "Greater Waterdancer",
 		"sources": [ "Occult Adventures" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Waterdancer, Greater (Su)",
+			"## Greater Waterdancer (Su)",
 			"",
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** water; **Type** utility (Su); **Level** 5; **Burn** 0  ",
@@ -3953,11 +3953,11 @@
 		]
 	},
 	"greater_watersense": {
-		"name": "Watersense, Greater",
+		"name": "Greater Watersense",
 		"sources": [ "Ultimate Intrigue" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Watersense, Greater (Su)",
+			"## Greater Watersense (Su)",
 			"",
 			"{SOURCE Ultimate Intrigue/66}  ",
 			"**Element** water; **Type** utility (Su); **Level** 5; **Burn** 0  ",
@@ -4024,11 +4024,11 @@
 		]
 	},
 	"greater_windsight": {
-		"name": "Windsight, Greater",
+		"name": "Greater Windsight",
 		"sources": [ "Occult Adventures" ],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Windsight, Greater (Su)",
+			"## Greater Windsight (Su)",
 			"",
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** air; **Type** utility (Su); **Level** 5; **Burn** 0  ",
@@ -4103,14 +4103,14 @@
 		]
 	},
 	"greater_woodland_step": {
-		"name": "Woodland Step, Greater",
+		"name": "Greater Woodland Step",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
 		],
 		"topLink": [ "Wild Utility Talents", "ability/wild_utility_talents" ],
 		"description": [
-			"## Woodland Step, Greater (Sp)",
+			"## Greater Woodland Step (Sp)",
 			"",
 			"{SOURCE Ultimate Wilderness/61;Occult Origins/9}  ",
 			"**Element** wood; **Type** utility (Sp); **Level** 5; **Burn** 0  ",

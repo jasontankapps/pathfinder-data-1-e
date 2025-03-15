@@ -544,7 +544,7 @@
 			"",
 			"The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to Constitution, which adds the usual benefits to hit points, Fortitude saves, Constitution checks, and so forth. Hit points gained by a temporary increase in Constitution score are not temporary hit points. They go away when the subject's Constitution drops back to normal. They are not lost first as temporary hit points are.",
 			"",
-			"### Bear's Endurance, Mass",
+			"### Mass Bear's Endurance",
 			"",
 			"{SOURCE PRPG Core Rulebook/247}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 6, cleric 6, druid 6, hunter 6, magus 6, oracle 6, psychic 6, shaman 6, sorcerer 6, summoner 4, unchained summoner 6, warpriest 6, wizard 6  ",
@@ -559,7 +559,7 @@
 		]
 	},
 	"bears_endurance_mass": {
-		"name": "Bear's Endurance, Mass",
+		"name": "Mass Bear's Endurance",
 		"copyof": "bears_endurance"
 	},
 	"mass_bears_endurance": { "copyof": "bears_endurance_mass" },
@@ -924,7 +924,7 @@
 			"",
 			"Bestow curse counters remove curse.",
 			"",
-			"### Bestow Curse, Greater",
+			"### Greater Bestow Curse",
 			"",
 			"{SOURCE Pathfinder #82: Secrets of the Sphinx/75}  ",
 			"**School** {spelldef/necromancy}; **Level** arcanist 8, cleric 7, oracle 7, sorcerer 8, witch 7, wizard 8  ",
@@ -960,7 +960,7 @@
 			"",
 			"This spell functions as bestow curse, except that you must state a condition under which the curse is broken, ending its effect. An intelligent target, even one of animal intelligence, innately understands this condition even if it doesn't understand your language. The condition must be possible for the target to bring about within a year and a day without ensuring its own death and stated in 25 or fewer words. The curse is more difficult to remove via magic. The DC to remove conditional curse with {spell/break enchantment} or {spell/remove curse} increases by 5.",
 			"",
-			"### Curse, Major",
+			"### Major Curse",
 			"",
 			"{SOURCE Ultimate Magic/215}  ",
 			"**School** {spelldef/necromancy} [{spelldef/curse}]; **Level** arcanist 6, cleric 5, mesmerist 4, occultist 5, oracle 5, psychic 6, shaman 5, sorcerer 6, spiritualist 5, warpriest 5, witch 5, wizard 6  ",
@@ -975,7 +975,7 @@
 		]
 	},
 	"bestow_curse_greater": {
-		"name": "Bestow Curse, Greater",
+		"name": "Greater Bestow Curse",
 		"copyof": "bestow_curse"
 	},
 	"greater_bestow_curse": { "copyof": "bestow_curse_greater" },
@@ -984,7 +984,7 @@
 		"copyof": "bestow_curse"
 	},
 	"curse_major": {
-		"name": "Curse, Major",
+		"name": "Major Curse",
 		"copyof": "bestow_curse"
 	},
 	"major_curse": { "copyof": "curse_major" },
@@ -1282,7 +1282,7 @@
 			"",
 			"If cast on an unattended object resting on an area of stone or earth, the stone or earth warps and wraps around it, pulling it firmly to the ground. A DC 15 Strength check is required to pull the object free from snapping earth or stone.",
 			"",
-			"### Binding Earth, Mass",
+			"### Mass Binding Earth",
 			"",
 			"{SOURCE Advanced Race Guide/149}  ",
 			"**School** {spelldef/transmutation} [{spelldef/earth}]; **Level** druid 6, hunter 6, witch 6 (oread)  ",
@@ -1297,7 +1297,7 @@
 		]
 	},
 	"binding_earth_mass": {
-		"name": "Binding Earth, Mass",
+		"name": "Mass Binding Earth",
 		"copyof": "binding_earth"
 	},
 	"mass_binding_earth": { "copyof": "binding_earth_mass" },
@@ -1337,7 +1337,7 @@
 			"",
 			"With a short command and a wave of the hand, you compel the target creature to attack the being who summoned it, to the best of its ability. If the being who summoned it is not present, the creature acts normally according to its last task or instructions. This spell has no effect on called creatures, summoned creatures not brought forth by spells or spell-like abilities (such as a summoner's eidolon), or bonded creatures not explicitly summoned, such as a paladin's mount or wizard's familiar.",
 			"",
-			"### Bite the Hand, Mass",
+			"### Mass Bite the Hand",
 			"",
 			"{SOURCE Pathfinder Society Field Guide/57}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}); **Level** arcanist 7, druid 6, hunter 6, inquisitor 6, sorcerer 7, summoner 6, unchained summoner 6, witch 7, wizard 7  ",
@@ -1352,7 +1352,7 @@
 		]
 	},
 	"bite_the_hand_mass": {
-		"name": "Bite the Hand, Mass",
+		"name": "Mass Bite the Hand",
 		"copyof": "bite_the_hand"
 	},
 	"mass_bite_the_hand": { "copyof": "bite_the_hand_mass" },
@@ -1694,7 +1694,7 @@
 			"",
 			"When you cast this spell, you immediately move up to 30 feet in a straight line any direction, momentarily leaving a multi-hued cascade of images behind you. This movement does not provoke attacks of opportunity. You may make a single melee attack at your highest base attack bonus against any one creature you are adjacent to at any point along this 30 feet. You gain a circumstance bonus on your attack roll equal to your Intelligence or Charisma modifier, whichever is higher. You must end the bonus movement granted by this spell in an unoccupied square. If no such space is available along the trajectory, the spell fails. Despite the name, the spell works with any melee weapon.",
 			"",
-			"### Bladed Dash, Greater",
+			"### Greater Bladed Dash",
 			"",
 			"{SOURCE Inner Sea Magic/52}  ",
 			"**School** {spelldef/transmutation}; **Level** bard 5, magus 5, skald 5  ",
@@ -1708,7 +1708,7 @@
 		]
 	},
 	"bladed_dash_greater": {
-		"name": "Bladed Dash, Greater",
+		"name": "Greater Bladed Dash",
 		"copyof": "bladed_dash"
 	},
 	"greater_bladed_dash": { "copyof": "bladed_dash_greater" },
@@ -2133,7 +2133,7 @@
 			"",
 			"You can target up to one creature per level, each of which must receive the same command. Creatures that succeed at their saving throws are staggered for 1 round (this is a mind-affecting effect).",
 			"",
-			"### Command, Greater",
+			"### Greater Command",
 			"",
 			"{SOURCE PRPG Core Rulebook/257}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/language-dependent}, {spelldef/mind-affecting}]; **Level** cleric 5, inquisitor 5, medium 4, mesmerist 4, occultist 5, oracle 5, psychic 5, warpriest 5  ",
@@ -2148,7 +2148,7 @@
 		]
 	},
 	"command_greater": {
-		"name": "Command, Greater",
+		"name": "Greater Command",
 		"copyof": "command"
 	},
 	"greater_command": { "copyof": "command_greater" },
@@ -2642,7 +2642,7 @@
 			"",
 			"*Augmented:* If you expend two uses of mythic power when casting the spell, you force one affected creature per round to roll on the table twice and take the higher result.",
 			"",
-			"### Confusion, Lesser",
+			"### Lesser Confusion",
 			"",
 			"{SOURCE PRPG Core Rulebook/258}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** bard 1, medium 1, mesmerist 1, psychic 1, skald 1  ",
@@ -2657,7 +2657,7 @@
 		]
 	},
 	"confusion_lesser": {
-		"name": "Confusion, Lesser",
+		"name": "Lesser Confusion",
 		"copyof": "confusion"
 	},
 	"lesser_confusion": { "copyof": "confusion_lesser" },
@@ -3028,7 +3028,7 @@
 			"",
 			"*Augmented (7th):* If you expend five uses of mythic power, the spell targets every living creature within a 1-mile radius. You can select one creature per caster level within your line of sight; these creatures are unaffected by the spell.",
 			"",
-			"### Contagion, Greater",
+			"### Greater Contagion",
 			"",
 			"{SOURCE Ultimate Magic/211}  ",
 			"**School** {spelldef/necromancy} [{spelldef/disease}, {spelldef/evil}]; **Level** arcanist 6, cleric 5, druid 5, hunter 5, oracle 5, sorcerer 6, warpriest 5, witch 5, wizard 6  ",
@@ -3043,7 +3043,7 @@
 		]
 	},
 	"contagion_greater": {
-		"name": "Contagion, Greater",
+		"name": "Greater Contagion",
 		"copyof": "contagion"
 	},
 	"greater_contagion": { "copyof": "contagion_greater" },
@@ -3791,12 +3791,12 @@
 		]
 	},
 	"create_demiplane_lesser": {
-		"name": "Create Demiplane, Lesser",
+		"name": "Lesser Create Demiplane",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{jumplist Create Demiplane / Create Demiplane, Greater}",
 			"",
-			"## Create Demiplane, Lesser",
+			"## Lesser Create Demiplane",
 			"",
 			"{SOURCE Ultimate Magic/214}  ",
 			"**School** {spelldef/conjuration} ({spelldef/creation}); **Level** arcanist 7, cleric 7, occultist 5, oracle 7, psychic 7, sorcerer 7, summoner 5, unchained summoner 6, witch 7, wizard 7  ",
@@ -3850,7 +3850,7 @@
 			"",
 			"You can make this spell permanent with the {spell/permanency} spell, at a cost of 20,000 gp. If you have cast create demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell.",
 			"",
-			"### Create Demiplane, Greater",
+			"### Greater Create Demiplane",
 			"",
 			"{SOURCE Ultimate Magic/213}  ",
 			"**School** {spelldef/conjuration} ({spelldef/creation}); **Level** arcanist 9, cleric 9, oracle 9, psychic 9, sorcerer 9, witch 9, wizard 9  ",
@@ -3882,7 +3882,7 @@
 		"copyof": "lesser_create_demiplane"
 	},
 	"create_demiplane_greater": {
-		"name": "Create Demiplane, Greater",
+		"name": "Greater Create Demiplane",
 		"copyof": "lesser_create_demiplane"
 	},
 	"greater_create_demiplane": { "copyof": "create_demiplane_greater" },

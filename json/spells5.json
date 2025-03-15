@@ -168,7 +168,7 @@
 			"",
 			"Add half your tier to the level of non-mythic spells the globe excludes. The globe excludes mythic spells of 4th level or lower.",
 			"",
-			"### Globe of Invulnerability, Lesser",
+			"### Lesser Globe of Invulnerability",
 			"",
 			"{SOURCE PRPG Core Rulebook/290}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 4, occultist 4, psychic 4, sorcerer 4, wizard 4  ",
@@ -187,7 +187,7 @@
 		]
 	},
 	"globe_of_invulnerability_lesser": {
-		"name": "Globe of Invulnerability, Lesser",
+		"name": "Lesser Globe of Invulnerability",
 		"copyof": "globe_of_invulnerability"
 	},
 	"lesser_globe_of_invulnerability": { "copyof": "globe_of_invulnerability_lesser" },
@@ -293,7 +293,7 @@
 			"",
 			"Add your tier to the DC to detect or disable the glyph. Blast glyph damage increases to 1d6 points of damage per caster level (maximum 20d6). Add half your tier to the maximum spell level you can store in a spell glyph.",
 			"",
-			"### Glyph of Warding, Greater",
+			"### Greater Glyph of Warding",
 			"",
 			"{SOURCE PRPG Core Rulebook/291}  ",
 			"**School** {spelldef/abjuration}; **Level** cleric 6, inquisitor 6, oracle 6, warpriest 6  ",
@@ -312,7 +312,7 @@
 		]
 	},
 	"glyph_of_warding_greater": {
-		"name": "Glyph of Warding, Greater",
+		"name": "Greater Glyph of Warding",
 		"copyof": "glyph_of_warding"
 	},
 	"greater_glyph_of_warding": { "copyof": "glyph_of_warding_greater" },
@@ -696,7 +696,7 @@
 			"",
 			"*Augmented:* You can expend two uses of mythic power to make the grease flammable. It ignites from any fire at least the size of a candle flame. If a greased area is ignited, any creature in the area on your turn takes 1d3 points of fire damage and might catch on fire. If a greased creature is ignited, it takes 2d6 points of fire damage, and might catch on fire; add your tier to the save DC.",
 			"",
-			"### Grease, Greater",
+			"### Greater Grease",
 			"",
 			"{SOURCE Dirty Tactics Toolbox/30}  ",
 			"**School** {spelldef/conjuration} ({spelldef/creation}); **Level** arcanist 5, bard 5, magus 5, skald 5, sorcerer 5, summoner 5, wizard 5  ",
@@ -710,7 +710,7 @@
 		]
 	},
 	"grease_greater": {
-		"name": "Grease, Greater",
+		"name": "Greater Grease",
 		"copyof": "grease"
 	},
 	"greater_grease": { "copyof": "grease_greater" },
@@ -842,10 +842,10 @@
 		]
 	},
 	"guardian_monument_lesser": {
-		"name": "Guardian Monument, Lesser",
+		"name": "Lesser Guardian Monument",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
-			"## Guardian Monument, Lesser",
+			"## Lesser Guardian Monument",
 			"",
 			"{SOURCE Arcane Anthology/8}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 3, bard 3, inquisitor 3, magus 3, occultist 3, paladin 3, psychic 3, shaman 4, skald 3, sorcerer 3, witch 3, wizard 3  ",
@@ -860,7 +860,7 @@
 			"",
 			"Normally, the area of effect is 40 feet from the touched object. If the touched object is a monument to human achievement, the area increases to a 60-foot radius.",
 			"",
-			"### Guardian Monument, Greater",
+			"### Greater Guardian Monument",
 			"",
 			"{SOURCE Arcane Anthology/9}  ",
 			"**School** {spelldef/abjuration}; **Level** arcanist 5, bard 5, inquisitor 5, occultist 5, psychic 5, skald 5, sorcerer 5, witch 5, wizard 5  ",
@@ -876,7 +876,7 @@
 	},
 	"lesser_guardian_monument": { "copyof": "guardian_monument_lesser" },
 	"guardian_monument_greater": {
-		"name": "Guardian Monument, Greater",
+		"name": "Greater Guardian Monument",
 		"copyof": "lesser_guardian_monument"
 	},
 	"greater_guardian_monument": { "copyof": "guardian_monument_greater" },
@@ -1197,7 +1197,7 @@
 			"",
 			"A creature can benefit from only one halfling vengeance spell at a time.",
 			"",
-			"### Halfling Vengeance, Mass",
+			"### Mass Halfling Vengeance",
 			"",
 			"{SOURCE Pathfinder #131: The Reaper's Right Hand/72}  ",
 			"**School** {spelldef/divination}; **Level** antipaladin 4, cleric 7, inquisitor 6, oracle 7  ",
@@ -1212,7 +1212,7 @@
 		]
 	},
 	"halfling_vengeance_mass": {
-		"name": "Halfling Vengeance, Mass",
+		"name": "Mass Halfling Vengeance",
 		"copyof": "halfling_vengeance"
 	},
 	"mass_halfling_vengeance": { "copyof": "halfling_vengeance_mass" },
@@ -1515,7 +1515,7 @@
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power during the reading, you may discard one card of your choice and draw one new card in its place, replacing the effects of the chosen card with the effects of the newly drawn card. You must keep this new card. You can use each bonus twice, both at the doubled values. Once you have used both bonuses, or when the spell's duration ends, the spell ends and any penalties are removed.",
 			"",
-			"### Harrowing, Greater",
+			"### Greater Harrowing",
 			"",
 			"{SOURCE The Harrow Handbook/9}  ",
 			"**School** {spelldef/divination}; **Level** arcanist 6, bard 5, skald 5, sorcerer 6, witch 6, wizard 6  ",
@@ -1545,7 +1545,7 @@
 		]
 	},
 	"harrowing_greater": {
-		"name": "Harrowing, Greater",
+		"name": "Greater Harrowing",
 		"copyof": "harrowing"
 	},
 	"greater_harrowing": { "copyof": "harrowing_greater" },
@@ -1770,7 +1770,7 @@
 			"",
 			"*Augmented:* If you expend two uses of mythic power, the spell also acts as restoration.",
 			"",
-			"### Heal, Mass",
+			"### Mass Heal",
 			"",
 			"{SOURCE PRPG Core Rulebook/294}  ",
 			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** cleric 9, oracle 9, shaman 9  ",
@@ -1785,7 +1785,7 @@
 		]
 	},
 	"heal_mass": {
-		"name": "Heal, Mass",
+		"name": "Mass Heal",
 		"copyof": "heal"
 	},
 	"mass_heal": { "copyof": "heal_mass" },
@@ -2298,7 +2298,7 @@
 			"",
 			"This spell grants 1 hero point to the target. This hero point must be spent before the duration expires, or it is lost. The bonus hero point is spent before any other hero points the target might possess.",
 			"",
-			"### Heroic Fortune, Mass",
+			"### Mass Heroic Fortune",
 			"",
 			"{SOURCE Advanced Player's Guide/324}  ",
 			"**School** {spelldef/evocation}; **Level** bard 4, cleric 5, oracle 5, skald 4, warpriest 5  ",
@@ -2313,7 +2313,7 @@
 		]
 	},
 	"heroic_fortune_mass": {
-		"name": "Heroic Fortune, Mass",
+		"name": "Mass Heroic Fortune",
 		"copyof": "heroic_fortune"
 	},
 	"mass_heroic_fortune": { "copyof": "heroic_fortune_mass" },
@@ -2368,7 +2368,7 @@
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the target can attempt one additional attack per round when taking a full attack action (as if using a haste spell). The target can use this additional attack ability a number of times equal to your tier.",
 			"",
-			"### Heroism, Greater",
+			"### Greater Heroism",
 			"",
 			"{SOURCE PRPG Core Rulebook/295}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** arcanist 6, bard 5, psychic 6, skald 5, sorcerer 6, spiritualist 6, summoner 5, unchained summoner 6, witch 6, wizard 6  ",
@@ -2396,7 +2396,7 @@
 			"",
 			"Attempts to identify hollow heroism with a skill check incorrectly identify it as heroism.",
 			"",
-			"### Hollow Heroism, Greater",
+			"### Greater Hollow Heroism",
 			"",
 			"{SOURCE Ultimate Intrigue/216}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}, {spelldef/ruse}]; **Level** arcanist 7, bard 6, psychic 7, skald 6, sorcerer 7, witch 7, wizard 7  ",
@@ -2413,7 +2413,7 @@
 		]
 	},
 	"heroism_greater": {
-		"name": "Heroism, Greater",
+		"name": "Greater Heroism",
 		"copyof": "heroism"
 	},
 	"greater_heroism": { "copyof": "heroism_greater" },
@@ -2422,7 +2422,7 @@
 		"copyof": "heroism"
 	},
 	"hollow_heroism_greater": {
-		"name": "Hollow Heroism, Greater",
+		"name": "Greater Hollow Heroism",
 		"copyof": "heroism"
 	},
 	"greater_hollow_heroism": { "copyof": "hollow_heroism_greater" },
@@ -2462,7 +2462,7 @@
 			"",
 			"{spell/Read magic} allows its caster to identify a hex glyph with a successful DC 13 Knowledge (arcana) check. Identifying the glyph does not discharge it and indicates that it stores a hex, but does not indicate the effect of that hex.",
 			"",
-			"### Hex Glyph, Greater",
+			"### Greater Hex Glyph",
 			"",
 			"{SOURCE Advanced Class Guide/184}  ",
 			"**School** {spelldef/abjuration}; **Level** shaman 5, witch 5  ",
@@ -2479,7 +2479,7 @@
 		]
 	},
 	"hex_glyph_greater": {
-		"name": "Hex Glyph, Greater",
+		"name": "Greater Hex Glyph",
 		"copyof": "hex_glyph"
 	},
 	"greater_hex_glyph": { "copyof": "hex_glyph_greater" },
@@ -2724,7 +2724,7 @@
 			"",
 			"Undead cannot see, hear, or smell creatures warded by this spell. Even extraordinary or supernatural sensory capabilities, such as blindsense, blindsight, scent, and tremorsense, cannot detect or locate warded creatures. Nonintelligent undead creatures (such as skeletons or zombies) are automatically affected and act as though the warded creatures are not there. An intelligent undead creature gets a single Will saving throw. If it fails, the subject can't see any of the warded creatures. If it has reason to believe unseen opponents are present, however, it can attempt to find or strike them. If a warded creature attempts to channel positive energy, turn or command undead, touches an undead creature, or attacks any creature (even with a spell), the spell ends for all recipients.",
 			"",
-			"### Hide from Undead, Greater",
+			"### Greater Hide from Undead",
 			"",
 			"{SOURCE People of the Wastes/29}  ",
 			"**School** {spelldef/abjuration}; **Level** cleric 3, inquisitor 3, oracle 3, warpriest 3  ",
@@ -2739,7 +2739,7 @@
 		]
 	},
 	"hide_from_undead_greater": {
-		"name": "Hide from Undead, Greater",
+		"name": "Greater Hide from Undead",
 		"copyof": "hide_from_undead"
 	},
 	"greater_hide_from_undead": { "copyof": "hide_from_undead_greater" },
@@ -2869,7 +2869,7 @@
 			"",
 			"This spell functions like hold person, except that it affects any living creature that fails its Will save.",
 			"",
-			"### Hold Monster, Mass",
+			"### Mass Hold Monster",
 			"",
 			"{SOURCE PRPG Core Rulebook/296}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** arcanist 9, psychic 9, sorcerer 9, witch 9, wizard 9  ",
@@ -2884,7 +2884,7 @@
 		]
 	},
 	"hold_monster_mass": {
-		"name": "Hold Monster, Mass",
+		"name": "Mass Hold Monster",
 		"copyof": "hold_monster"
 	},
 	"mass_hold_monster": { "copyof": "hold_monster_mass" },
@@ -2923,7 +2923,7 @@
 			"",
 			"This spell functions as per hold person, except it affects a fey instead of a humanoid.",
 			"",
-			"### Hold Person, Mass",
+			"### Mass Hold Person",
 			"",
 			"{SOURCE PRPG Core Rulebook/296}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** arcanist 7, mesmerist 6, psychic 7, sorcerer 7, witch 7, wizard 7  ",
@@ -2938,7 +2938,7 @@
 		]
 	},
 	"hold_person_mass": {
-		"name": "Hold Person, Mass",
+		"name": "Mass Hold Person",
 		"copyof": "hold_person"
 	},
 	"mass_hold_person": { "copyof": "hold_person_mass" },
@@ -3369,7 +3369,7 @@
 			"",
 			"You create a dimensional link to the target creature. When attacked or the subject of a spell that deals damage to you, you can spend an immediate action to cause yourself and the target creature to teleport and switch places. The target then becomes the target of the triggering attack or spell instead of you. If you fail to teleport out of the area of an effect, that effect might still affect you. If the target creature cannot fit safely into the new space without squeezing, or you try to teleport the target into an occupied space or a space it could not normally stand within, the juxtaposition fails. Further, if the target is unconscious or dead when you attempt to switch places, the juxtaposition fails. Once you have used it to teleport once, this spell is discharged.",
 			"",
-			"### Hostile Juxtaposition, Greater",
+			"### Greater Hostile Juxtaposition",
 			"",
 			"{SOURCE Ultimate Combat/231}  ",
 			"**School** {spelldef/conjuration} ({spelldef/teleportation}); **Level** arcanist 7, mesmerist 6, psychic 7, sorcerer 7, summoner 6, witch 7, wizard 7  ",
@@ -3384,7 +3384,7 @@
 		]
 	},
 	"hostile_juxtaposition_greater": {
-		"name": "Hostile Juxtaposition, Greater",
+		"name": "Greater Hostile Juxtaposition",
 		"copyof": "hostile_juxtaposition"
 	},
 	"greater_hostile_juxtaposition": { "copyof": "hostile_juxtaposition_greater" },
@@ -3443,7 +3443,7 @@
 			"",
 			"The target shares in humanity's great potential as encouraged by Aroden. The target chooses one ability score and gains a +2 enhancement bonus to that ability score. The bonus confers the usual benefit to skills and abilities based on the ability enhanced, but does not affect bonus spells or skill ranks.",
 			"",
-			"### Human Potential, Mass",
+			"### Mass Human Potential",
 			"",
 			"{SOURCE Arcane Anthology/9}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 6, bard 6, psychic 6, skald 6, sorcerer 6, summoner 6, wizard 6  ",
@@ -3458,7 +3458,7 @@
 		]
 	},
 	"human_potential_mass": {
-		"name": "Human Potential, Mass",
+		"name": "Mass Human Potential",
 		"copyof": "human_potential"
 	},
 	"mass_human_potential": { "copyof": "human_potential_mass" },
@@ -3481,7 +3481,7 @@
 			"",
 			"On any round after the target deals damage to another creature of its own type and subtype (if applicable) with its bite attack, the target loses the staggered condition. If it doesn't continue dealing bite damage to applicable creatures, the target regains the staggered condition at the beginning of its next turn.",
 			"",
-			"### Hunger for Flesh, Mass",
+			"### Mass Hunger for Flesh",
 			"",
 			"{SOURCE Horror Adventures/121}  ",
 			"**School** {spelldef/necromancy} [{spelldef/evil}, {spelldef/mind-affecting}]; **Level** arcanist 7, cleric 7, oracle 7, psychic 7, shaman 7, sorcerer 7, spiritualist 6, witch 7, wizard 7  ",
@@ -3495,7 +3495,7 @@
 		]
 	},
 	"hunger_for_flesh_mass": {
-		"name": "Hunger for Flesh, Mass",
+		"name": "Mass Hunger for Flesh",
 		"copyof": "hunger_for_flesh"
 	},
 	"mass_hunger_for_flesh": { "copyof": "hunger_for_flesh_mass" },
@@ -3846,7 +3846,7 @@
 			"",
 			"A creature that fails its saving throw does not remember that you enspelled it.",
 			"",
-			"### Hypnotism, Greater",
+			"### Greater Hypnotism",
 			"",
 			"{SOURCE Blood of the Beast/19}  ",
 			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** arcanist 4, bard 4, mesmerist 4, occultist 4, psychic 4, skald 4, sorcerer 4, witch 4, wizard 4 (Nagaji)  ",
@@ -3859,7 +3859,7 @@
 		]
 	},
 	"hypnotism_greater": {
-		"name": "Hypnotism, Greater",
+		"name": "Greater Hypnotism",
 		"copyof": "hypnotism"
 	},
 	"greater_hypnotism": { "copyof": "hypnotism_greater" },
@@ -4033,7 +4033,7 @@
 			"",
 			"You trap the target in solid ice 1 inch thick per caster level. If the creature fails its save, it is helpless, but can still breathe (the ice blocks line of effect to the target). If the target makes its save, it gains the entangled condition but can otherwise act normally. Whether or not the target saves, it takes 1 point of cold damage per caster level each round it is helpless or entangled in the ice. The ice has hardness 0 and 3 hit points per inch of thickness; if broken, the creature is freed. A creature can break the ice as a full-round action with a successful Strength check (DC 15 + your caster level).",
 			"",
-			"### Icy Prison, Mass",
+			"### Mass Icy Prison",
 			"",
 			"{SOURCE Ultimate Magic/224}  ",
 			"**School** {spelldef/evocation} [{spelldef/cold}]; **Level** arcanist 9, sorcerer 9, wizard 9  ",
@@ -4048,7 +4048,7 @@
 		]
 	},
 	"icy_prison_mass": {
-		"name": "Icy Prison, Mass",
+		"name": "Mass Icy Prison",
 		"copyof": "icy_prison"
 	},
 	"mass_icy_prison": { "copyof": "icy_prison_mass" },

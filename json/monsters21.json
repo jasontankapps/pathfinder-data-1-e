@@ -305,7 +305,7 @@
 		]
 	},
 	"satyr_blackwood_satyr": {
-		"name": "Satyr, Blackwood Satyr",
+		"name": "Blackwood Satyr",
 		"sources": [ "Fey Revisited" ],
 		"description": [
 			"*No flavor text.*",
@@ -1058,7 +1058,7 @@
 		]
 	},
 	"scorpion_black_scorpion": {
-		"name": "Scorpion, Black Scorpion",
+		"name": "Black Scorpion",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This towering scorpion's carapace is as black as coal, and its claws are each as long as a man's body.*",
@@ -1110,7 +1110,7 @@
 	"scorpion_black": { "copyof": "scorpion_black_scorpion" },
 	"black_scorpion": { "copyof": "scorpion_black_scorpion" },
 	"scorpion_cave_scorpion": {
-		"name": "Scorpion, Cave Scorpion",
+		"name": "Cave Scorpion",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This man-sized, bulky scorpion has thick, unyielding armor that makes it almost seem to be made of stone.*",
@@ -1159,7 +1159,7 @@
 	"scorpion_cave": { "copyof": "scorpion_cave_scorpion" },
 	"cave_scorpion": { "copyof": "scorpion_cave_scorpion" },
 	"scorpion_deadfall_scorpion": {
-		"name": "Scorpion, Deadfall Scorpion",
+		"name": "Deadfall Scorpion",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Thick sheets of moss and other forest debris cling to the dark green carapace of this huge scorpion.*",
@@ -1214,7 +1214,7 @@
 	"scorpion_deadfall": { "copyof": "scorpion_deadfall_scorpion" },
 	"deadfall_scorpion": { "copyof": "scorpion_deadfall_scorpion" },
 	"scorpion_ghost_scorpion": {
-		"name": "Scorpion, Ghost Scorpion",
+		"name": "Ghost Scorpion",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This outsized scorpion has a translucent shell, allowing one to see through to the creature's internal organs.*",
@@ -1263,7 +1263,7 @@
 	"scorpion_ghost": { "copyof": "scorpion_ghost_scorpion" },
 	"ghost_scorpion": { "copyof": "scorpion_ghost_scorpion" },
 	"scorpion_giant_emperor_scorpion": {
-		"name": "Scorpion, Giant Emperor Scorpion",
+		"name": "Giant Emperor Scorpion",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This massive scorpion erupts from the sand, its giant pincers snapping and its tail stinger swaying threateningly.*",
@@ -1315,7 +1315,7 @@
 	"scorpion_giant_emperor": { "copyof": "scorpion_giant_emperor_scorpion" },
 	"giant_emperor_scorpion": { "copyof": "scorpion_giant_emperor_scorpion" },
 	"scorpion_giant_scorpion": {
-		"name": "Scorpion, Giant Scorpion",
+		"name": "Giant Scorpion",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*The sixteen-foot-long scorpion scrabbles forward, ferocious claws raised in challenge, stingered tail arched over its back.*",
@@ -1386,7 +1386,7 @@
 	"scorpion_giant": { "copyof": "scorpion_giant_scorpion" },
 	"giant_scorpion": { "copyof": "scorpion_giant_scorpion" },
 	"scorpion_greensting_scorpion": {
-		"name": "Scorpion, Greensting Scorpion",
+		"name": "Greensting Scorpion",
 		"sources": [
 			"Bestiary 4",
 			"Ultimate Magic"
@@ -2056,7 +2056,7 @@
 		]
 	},
 	"sea_snake_giant_sea_snake": {
-		"name": "Sea Snake, Giant Sea Snake",
+		"name": "Giant Sea Snake",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
 			"*This great, writhing aquatic beast is pale blue with bright yellow stripes, and possesses a flipperlike tail to aid it as it swims.*",
@@ -2109,7 +2109,7 @@
 	"sea_snake_giant": { "copyof": "sea_snake_giant_sea_snake" },
 	"giant_sea_snake": { "copyof": "sea_snake_giant_sea_snake" },
 	"sea_urchin_giant_black_spot": {
-		"name": "Sea Urchin, Giant, Black Spot",
+		"name": "Black Spot (Giant Sea Urchin)",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"*The spines of this sizable sea urchin bristle, revealing a strange, multipart beak gnashing in their midst.*",
@@ -2173,7 +2173,7 @@
 	},
 	"black_spot": { "copyof": "sea_urchin_giant_black_spot" },
 	"sea_urchin_giant_glass_urchin": {
-		"name": "Sea Urchin, Giant, Glass Urchin",
+		"name": "Glass Urchin (Giant Sea Urchin)",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
 			"::mh[Glass Urchin]{cr=\"9\"}",
@@ -2243,7 +2243,7 @@
 	},
 	"glass_urchin": { "copyof": "sea_urchin_giant_glass_urchin" },
 	"sea_urchin_giant_great_diadem_urchin": {
-		"name": "Sea Urchin, Giant, Great Diadem Urchin",
+		"name": "Great Diadem Urchin (Giant Sea Urchin)",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"*Thick spines like the flanges of a royal crown bristle all across the surface of this strangely large golden sea urchin.*",
@@ -2296,7 +2296,7 @@
 	},
 	"great_diadem_urchin": { "copyof": "sea_urchin_giant_great_diadem_urchin" },
 	"sea_urchin_giant_hunter_urchin": {
-		"name": "Sea Urchin, Giant, Hunter Urchin",
+		"name": "Hunter Urchin (Giant Sea Urchin)",
 		"sources": [
 			"Pathfinder #37: Souls for Smuggler's Shiv",
 			"Bestiary 5"
@@ -2369,7 +2369,7 @@
 	},
 	"hunter_urchin": { "copyof": "sea_urchin_giant_hunter_urchin" },
 	"sea_urchin_giant_ravenous_urchin_swarm": {
-		"name": "Sea Urchin, Giant, Ravenous Urchin Swarm",
+		"name": "Ravenous Urchin Swarm (Giant Sea Urchin)",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
 			"*A wave of swift-moving spines rushes forward - a roiling tide of dangerously fast sea urchins.*",
@@ -2442,7 +2442,7 @@
 	},
 	"ravenous_urchin_swarm": { "copyof": "sea_urchin_giant_ravenous_urchin_swarm" },
 	"sea_urchin_giant_spear_urchin": {
-		"name": "Sea Urchin, Giant, Spear Urchin",
+		"name": "Spear Urchin (Giant Sea Urchin)",
 		"sources": [
 			"Pathfinder #37: Souls for Smuggler's Shiv",
 			"Bestiary 5"
@@ -2516,7 +2516,7 @@
 	},
 	"spear_urchin": { "copyof": "sea_urchin_giant_spear_urchin" },
 	"sea_worm_king_ragworm": {
-		"name": "Sea Worm, King Ragworm",
+		"name": "King Ragworm (Sea Worm)",
 		"sources": [ "Pathfinder #124: City in the Deep" ],
 		"description": [
 			"*This enormous segmented worm shimmers with iridescent colors, and large bristles run along its sides.*",
@@ -2573,7 +2573,7 @@
 	},
 	"king_ragworm": { "copyof": "sea_worm_king_ragworm" },
 	"seahorse_giant_seahorse": {
-		"name": "Seahorse, Giant Seahorse",
+		"name": "Giant Seahorse",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This sea creature resembles a cross between fish and horse; it has small fins on its flanks and a gracefully curled tail.*",
@@ -2625,7 +2625,7 @@
 	"seahorse_giant": { "copyof": "seahorse_giant_seahorse" },
 	"giant_seahorse": { "copyof": "seahorse_giant_seahorse" },
 	"seahorse_killer_seahorse": {
-		"name": "Seahorse, Killer Seahorse",
+		"name": "Killer Seahorse",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This elephant-sized sea creature resembles a horse crossed with a fish, with crazed whirling eyes.*",
@@ -2996,7 +2996,7 @@
 		]
 	},
 	"seps_juvenile_seps": {
-		"name": "Seps, Juvenile Seps",
+		"name": "Juvenile Seps",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This venomous snake is heavily armored and has unusually large fangs.*",
@@ -3114,7 +3114,7 @@
 		]
 	},
 	"serpentfolk_serpentfolk_bone_prophet": {
-		"name": "Serpentfolk, Serpentfolk Bone Prophet",
+		"name": "Serpentfolk Bone Prophet",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Serpentfolk Bone Prophet]{cr=\"11\"}",
@@ -3175,7 +3175,7 @@
 	},
 	"serpentfolk_bone_prophet": { "copyof": "serpentfolk_serpentfolk_bone_prophet" },
 	"serpentfolk_serpentfolk_high_priest": {
-		"name": "Serpentfolk, Serpentfolk High Priest",
+		"name": "Serpentfolk High Priest",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Serpentfolk High Priest]{cr=\"14\"}",
@@ -3243,7 +3243,7 @@
 	},
 	"serpentfolk_high_priest": { "copyof": "serpentfolk_serpentfolk_high_priest" },
 	"serpentfolk_serpentfolk_hunter": {
-		"name": "Serpentfolk, Serpentfolk Hunter",
+		"name": "Serpentfolk Hunter",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Serpentfolk Hunter]{cr=\"6\"}",
@@ -3299,7 +3299,7 @@
 	},
 	"serpentfolk_hunter": { "copyof": "serpentfolk_serpentfolk_hunter" },
 	"serpentfolk_serpentfolk_illusionist": {
-		"name": "Serpentfolk, Serpentfolk Illusionist",
+		"name": "Serpentfolk Illusionist",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Serpentfolk Illusionist]{cr=\"8\"}",
@@ -3361,7 +3361,7 @@
 	},
 	"serpentfolk_illusionist": { "copyof": "serpentfolk_serpentfolk_illusionist" },
 	"serpentfolk_serpentfolk_reclaimer": {
-		"name": "Serpentfolk, Serpentfolk Reclaimer",
+		"name": "Serpentfolk Reclaimer",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*Ophidian imagery decorates the fine robes of this sinuous, fanged humanoid, and a narrow, forked tongue flicks from its serpentine head.*",
@@ -3424,7 +3424,7 @@
 	},
 	"serpentfolk_reclaimer": { "copyof": "serpentfolk_serpentfolk_reclaimer" },
 	"serpentfolk_serpentfolk_spellblade": {
-		"name": "Serpentfolk, Serpentfolk Spellblade",
+		"name": "Serpentfolk Spellblade",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Serpentfolk Spellblade]{cr=\"13\"}",
@@ -3487,7 +3487,7 @@
 	},
 	"serpentfolk_spellblade": { "copyof": "serpentfolk_serpentfolk_spellblade" },
 	"serpentfolk_serpentfolk_spy": {
-		"name": "Serpentfolk, Serpentfolk Spy",
+		"name": "Serpentfolk Spy",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Serpentfolk Spy]{cr=\"5\"}",
@@ -3834,7 +3834,7 @@
 		]
 	},
 	"seugathi_seugathi_savant": {
-		"name": "Seugathi, Seugathi Savant",
+		"name": "Seugathi Savant",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*Hundreds of legs support this hulking, bruise-colored worm.*",
@@ -4163,7 +4163,7 @@
 		]
 	},
 	"shadow_creature_shadow_roper": {
-		"name": "Shadow Creature, Shadow Roper",
+		"name": "Shadow Roper (Shadow Creature)",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*A tentacled horror that seems to shift in and out of the shadows, this bizarre beast is an amalgamation of darkness and menace.*",
@@ -4332,7 +4332,7 @@
 		]
 	},
 	"shadow_greater_shadow": {
-		"name": "Shadow, Greater Shadow",
+		"name": "Greater Shadow",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This shadowy figure sways and moves with an erratic grace, as if lit by an unseen fire.*",
