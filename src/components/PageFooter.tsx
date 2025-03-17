@@ -33,8 +33,8 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 	const dispatch = useAppDispatch();
 	const [prevOpen, setPrevOpen] = useState<boolean>(false);
 	const [nextOpen, setNextOpen] = useState<boolean>(false);
-	const prevSheet = useRef<any>(null);
-	const nextSheet = useRef<any>(null);
+	const prevSheet = useRef<HTMLIonActionSheetElement>(null);
+	const nextSheet = useRef<HTMLIonActionSheetElement>(null);
 	const longPressPrev = useLongPress(() => {
 		Haptics.impact({ style: ImpactStyle.Medium });
 		setPrevOpen(true);

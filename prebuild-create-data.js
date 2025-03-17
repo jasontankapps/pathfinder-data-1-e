@@ -156,7 +156,7 @@ const convertLinks = (input) => {
 // Converts 'Source Title/1' to [Source Title pg. 1](source/source_title)
 //    and 'Source Title' to [Source Title](source/source_title)
 const makeSourceLink = (sourceInfo) => {
-	const m = sourceInfo.match(/(.+?)\/([, 0-9]+)/);
+	const m = sourceInfo.match(/(.+?)\/([-, 0-9]+)/);
 	const source = m ? m[1] : sourceInfo;
 	const sourceText = m ? `${source} pg. ${m[2]}` : source;
 	const link = source.toLowerCase().replace(/[- ]/g, "_").replace(/[^-a-z_0-9]/g, "");

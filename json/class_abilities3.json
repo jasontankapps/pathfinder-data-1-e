@@ -1117,7 +1117,7 @@
 			"",
 			"**Extra Earthcraft:[^P]** The rogue gains 2 additional earthcraft points each day. The rogue must have the {arc-rogue/earth/craft>shadow} ability to select this talent.",
 			"",
-			"**Minor Magic (Sp):[^C]** A rogue with this talent gains the ability to cast a 0-level spell from the {main/sorcerer//|spells_<wizard} spell list. This spell can be cast three times a day as a spell-like ability. The caster level for this ability is equal to the rogue's level. The save DC for this spell is 10 + the rogue's Intelligence modifier. The rogue must have an Intelligence of at least 10 to select this talent.",
+			"**Minor Magic (Sp):[^C]** A rogue with this talent gains the ability to cast a 0-level spell from the {main/spells_<sorcerer//|wizard} spell list. This spell can be cast three times a day as a spell-like ability. The caster level for this ability is equal to the rogue's level. The save DC for this spell is 10 + the rogue's Intelligence modifier. The rogue must have an Intelligence of at least 10 to select this talent.",
 			"",
 			">**Gloom Magic (Sp):[^D]** A rogue with this talent gains the ability to cast {spell/darkness} two times per day as a spell-like ability. The darkness created by this ability does not impair the rogue's vision. The caster level for this ability is equal to the rogue's level. A rogue must have an Intelligence score of at least 12 and the minor magic rogue talent before choosing this talent.",
 			">",

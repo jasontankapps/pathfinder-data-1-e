@@ -1,7 +1,7 @@
 import {
 	Dispatch, FC, FormEvent, PropsWithChildren,
 	ReactElement, useCallback, useEffect,
-	useRef, useState
+	useRef, useState, RefObject
 } from 'react';
 import {
 	IonButton, IonCheckbox, IonContent, IonFab,
@@ -34,6 +34,7 @@ interface PageProps extends Partial<DisplayItemProps> {
 	notBookmarkable?: boolean
 	extraButton?: ReactElement
 	fab?: ReactElement
+	scrollHook?: (input: RefObject<HTMLIonContentElement>) => void
 }
 
 const debounceNamespace: { [key: string]: any } = {};
@@ -172,13 +173,14 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		className,
 		extraButton,
 		fab,
-		error
+		error,
+		scrollHook
 	} = props;
 	const dispatch = useAppDispatch();
 	const { separateWordSearch, caseSensitive, wholeWords } = useAppSelector(state => state.search)
 	const { markerRef, marker } = useMarker<HTMLDivElement>();
-	const contentObj = useRef<any>(null);
-	const findInPageSearchbarObj = useRef<any>(null);
+	const contentObj = useRef<HTMLIonContentElement>(null);
+	const findInPageSearchbarObj = useRef<HTMLIonSearchbarElement>(null);
 	const storedPos = useAppSelector(state => state.scroll[pageId] || 0);
 	// Create state for sources modal
 	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
@@ -201,6 +203,9 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			}
 		}, pageId + "/enter", 10);
 	}, [contentObj, path]);
+	useEffect(() => {
+		scrollHook && contentObj && scrollHook(contentObj);
+	}, [scrollHook]);
 	const onScroll = useCallback((event: ScrollCustomEvent) => {
 		debounce(() => dispatch(setPosition({id: pageId, pos: event.detail.scrollTop})), pageId);
 		if (hasJL && contentObj && contentObj.current && ((event.detail.scrollTop < 200) !== goToTopFlag)) {
@@ -289,7 +294,13 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 									findInPageSearchbarObj
 									&& findInPageSearchbarObj.current
 									&& findInPageSearchbarObj.current.setFocus
-									&& debounce(() => findInPageSearchbarObj.current.setFocus(), "setting Focus", 505)
+									&& debounce(
+										() => findInPageSearchbarObj
+											&& findInPageSearchbarObj.current
+											&& findInPageSearchbarObj.current.setFocus(),
+										"setting Focus",
+										505
+									)
 								);
 						}
 						: undefined
@@ -330,7 +341,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 										labelPlacement="start"
 										checked={separateWordSearch}
 										onClick={() => dispatch(setSeparateWordSearch(!separateWordSearch))}
-									>Match Words Separately</IonCheckbox>
+									><div className="label">Match Words Separately</div></IonCheckbox>
 								</IonItem>
 								<IonItem>
 									<IonCheckbox
@@ -338,7 +349,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 										labelPlacement="start"
 										checked={caseSensitive}
 										onClick={() => dispatch(setCaseSensitive(!caseSensitive))}
-									>Case Sensitive</IonCheckbox>
+									><div className="label">Case Sensitive</div></IonCheckbox>
 								</IonItem>
 								{/*<IonItem>
 									<IonCheckbox

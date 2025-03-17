@@ -29,7 +29,7 @@ interface ScrollContainerProps {
 const ScrollContainer: FC<PropsWithChildren<ScrollContainerProps>> = (props) => {
 	const { id, children } = props;
 	const [xPos, yPos] = useAppSelector(state => [state.scroll[`${id}-X`] || 0, state.scroll[`${id}-Y`] || 0]);
-	const tableWrapObj = useRef<any>(null);
+	const tableWrapObj = useRef<HTMLDivElement>(null);
 	const dispatch = useAppDispatch();
 	const onScroll: UIEventHandler<HTMLDivElement> = useCallback((event) => {
 		event.stopPropagation();
@@ -44,7 +44,9 @@ const ScrollContainer: FC<PropsWithChildren<ScrollContainerProps>> = (props) => 
 				// Stop this scroll event from triggering other scroll events
 				freezeDebounce(id);
 				// Do the scrolling
-				tableWrapObj.current.scrollTo({top: yPos, left: xPos, behavior: "instant"});
+				tableWrapObj
+					&& tableWrapObj.current
+					&& tableWrapObj.current.scrollTo({top: yPos, left: xPos, behavior: "instant"});
 			}, "loadingscroll" + id, 100);
 		}
 	}, [tableWrapObj]);

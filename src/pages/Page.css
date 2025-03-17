@@ -2,6 +2,14 @@
 
 ion-toast {
 	--width: max-content;
+	--max-width: 95vw;
+}
+ion-toast::part(container),
+ion-toast::part(message) {
+	text-align: center;
+}
+ion-checkbox div.label {
+	white-space: normal;
 }
 
 .capitalize {
