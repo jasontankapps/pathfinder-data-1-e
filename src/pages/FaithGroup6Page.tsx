@@ -1,6 +1,6 @@
-import faiths from './subpages/__faith5';
+import faiths from './subpages/__faith6';
 import FaithGroupBasic from './FaithGroupBasic';
 
-const FaithGroup5Page: React.FC<{id: string}> = ({id}) => <FaithGroupBasic id={id} info={faiths} />;
+const FaithGroup6Page: React.FC<{id: string}> = ({id}) => <FaithGroupBasic id={id} info={faiths} />;
 
-export default FaithGroup5Page;
+export default FaithGroup6Page;
