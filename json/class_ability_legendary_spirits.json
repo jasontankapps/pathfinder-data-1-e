@@ -14,7 +14,7 @@
 			"",
 			"**Dynamic Decree (Lesser, Su):** Thrune always grants the following spells of each level: 0-{spell/bleed}, 1st-{spell/bane}, 2nd-{spell/enthrall}, 3rd-{spell/agonize}, 4th-{spell/greater infernal healing}, 5th-{spell/true seeing}, 6th-{spell/banishment}. This ability alters divine surge.",
 			"",
-			"**Supernatural Aid (Greater, Su):** Once per day, you can call an outsider with a number of Hit Dice equal to or less than yours (maximum 18 HD) as if casting the appropriate planar ally spell. You do not need to pay the material component required to cast the spell, but you still must bargain with and pay the outsider for its services. This ability replaces overflowing grace."
+			"**Supernatural Aid (Greater, Su):** Once per day, you can call an outsider with a number of Hit Dice equal to or less than yours (maximum 18 HD) as if casting the appropriate {spell/planar ally} spell. You do not need to pay the material component required to cast the spell, but you still must bargain with and pay the outsider for its services. This ability replaces overflowing grace."
 		]
 	},
 	"ambras_imre": {

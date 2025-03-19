@@ -1685,7 +1685,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Drawn to Service (Su)** When brought to another plane with a planar binding or planar ally spell (or any similar calling effect), ceustodaemons take a -5 penalty on the initial Will save and on their Charisma check to refuse service. Ceustodaemons also take a -5 penalty on saves against binding, planar binding, and other spells designed to bind a creature to a particular plane as long as the daemon is commanded to serve as a guardian for a single area or small complex.",
+			"**Drawn to Service (Su)** When brought to another plane with a {spell/planar binding} or {spell/planar ally} spell (or any similar calling effect), ceustodaemons take a -5 penalty on the initial Will save and on their Charisma check to refuse service. Ceustodaemons also take a -5 penalty on saves against binding, planar binding, and other spells designed to bind a creature to a particular plane as long as the daemon is commanded to serve as a guardian for a single area or small complex.",
 			"",
 			"::sh[Description]",
 			"",

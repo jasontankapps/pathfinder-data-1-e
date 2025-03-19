@@ -489,7 +489,7 @@
 			"",
 			"### Calling a Nualidu",
 			"",
-			"A nualidu can be called with lesser planar ally, although it is very difficult to call the same nualidu more than once. The azatas prefer tasks that contribute in some way to the protection or cleaning of a body of water, and generally accept payment with gems or valuable stones that have been eroded by flowing water into unique and organic shapes. They also demand at least a token amount of respect from their callers, and most nualidus require their callers to treat them politely and to memorize, if not directly use, at least a handful of their myriad titles."
+			"A nualidu can be called with {spell/lesser planar ally}, although it is very difficult to call the same nualidu more than once. The azatas prefer tasks that contribute in some way to the protection or cleaning of a body of water, and generally accept payment with gems or valuable stones that have been eroded by flowing water into unique and organic shapes. They also demand at least a token amount of respect from their callers, and most nualidus require their callers to treat them politely and to memorize, if not directly use, at least a handful of their myriad titles."
 		]
 	},
 	"nualidu": { "copyof": "azata_nualidu" },

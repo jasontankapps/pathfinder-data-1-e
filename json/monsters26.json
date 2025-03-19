@@ -1276,7 +1276,7 @@
 			"",
 			"### Calling an Erelim",
 			"",
-			"Erelims can be called with planar ally, and the payment they require depends on the boldness of the request. These angels belittle any tasks that don't test their mettle or call for incredible heroism, and demand to be presented with extravagant weapons or for large sums to be donated to an appropriate church. Conversely, they exuberantly agree to requests that put them in direct conflict with powerful evil beings, and often ask no more of the callers than to fight alongside them as equals. Erelims do not accept obviously suicidal tasks, but sometimes vastly underestimate the threat mortal dangers can pose."
+			"Erelims can be called with {spell/planar ally}, and the payment they require depends on the boldness of the request. These angels belittle any tasks that don't test their mettle or call for incredible heroism, and demand to be presented with extravagant weapons or for large sums to be donated to an appropriate church. Conversely, they exuberantly agree to requests that put them in direct conflict with powerful evil beings, and often ask no more of the callers than to fight alongside them as equals. Erelims do not accept obviously suicidal tasks, but sometimes vastly underestimate the threat mortal dangers can pose."
 		]
 	},
 	"erelim": { "copyof": "angel_erelim" },
@@ -1425,7 +1425,7 @@
 			"",
 			"### Calling a Kuribu",
 			"",
-			"The payment requested by a kuribu called with lesser planar ally is often a donation that helps to rebuild or refurbish a church or other holy site. As a kuribu considers these places to be very important to the appropriate deity, the angel will halve any payment required if asked to guard such a location. A few kuribus even accept long-term, open-ended requests to protect a piece of sacred ground from a worthy caller. A small number of cathedrals on the Material Plane are home to kuribus selected for such a service decades ago, and whose original callers have long since passed away."
+			"The payment requested by a kuribu called with {spell/lesser planar ally} is often a donation that helps to rebuild or refurbish a church or other holy site. As a kuribu considers these places to be very important to the appropriate deity, the angel will halve any payment required if asked to guard such a location. A few kuribus even accept long-term, open-ended requests to protect a piece of sacred ground from a worthy caller. A small number of cathedrals on the Material Plane are home to kuribus selected for such a service decades ago, and whose original callers have long since passed away."
 		]
 	},
 	"kuribu": { "copyof": "angel_kuribu" },

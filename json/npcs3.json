@@ -3040,7 +3040,7 @@
 			"**Languages** Abyssal, Common, Infernal, Terran  ",
 			"**SQ** aura, healer's blessing, rogue talent (combat trick), trapfinding  ",
 			"**Combat Gear** scroll of {spell/invisibility purge}, {eq-weapon/alchemist's fire} (2); **Other Gear** +2 {eq-armor/chain shirt}, +2 {eq-armor/heavy wooden shield}, +1 human {magic-enh/bane} {eq-weapon/morningstar}, {eq-material/cold iron} {eq-weapon/dagger}, {magic-wondrous/cloak of resistance +1}, {magic-wondrous/elemental gem} (earth), {magic-wondrous/headband of inspired wisdom +2}, {magic-ring/ring of counterspells} (dispel magic), {magic-ring/ring of protection +2}, {magic-wondrous/robe of bones}, {eq-misc/silver unholy symbol}  ",
-			"**Boon** A cult leader can bind a planar ally for the PCs, send a pair of cultists to assist with a task, or trade a good-aligned magical item she has taken for an evil one she could use.",
+			"**Boon** A cult leader can bind a {spell/planar ally} for the PCs, send a pair of cultists to assist with a task, or trade a good-aligned magical item she has taken for an evil one she could use.",
 			"",
 			"[^D]: Domain spell"
 		]

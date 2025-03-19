@@ -383,7 +383,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/73}",
 			"",
-			"Each of the core pantheon's deities are presented below in stat block format for ease of reference.",
+			"Each of the core pantheon's deities are presented in stat block format for ease of reference.",
 			"",
 			"***Name and Title:*** The deity's name and its common title.",
 			"",
@@ -415,7 +415,7 @@
 			"",
 			"***Minions:*** As opposed to those that typically worship the deity, minions are the outsider races that often serve the deity. A deity's minions can often be encountered in temples and other places sacred to the deity, but more often they enter play when a worshiper of the deity calls upon one of the minions using magic like {spell/summon monster>_1} or {spell/planar ally}.",
 			"",
-			"***Herald:*** This lists the name of the deity's herald. A deity's herald is a unique creature who serves as a messenger and emissary. Heralds are typically CR 15 with 18 or fewer Hit Dice, making them available via greater planar ally ({faith/Rovagug/'s} herald, the {monster/Tarrasque}, is a significant exception to this rule).",
+			"***Herald:*** This lists the name of the deity's herald. A deity's herald is a unique creature who serves as a messenger and emissary. Heralds are typically CR 15 with 18 or fewer Hit Dice, making them available via {spell/greater planar ally} ({faith/Rovagug/'s} herald, the {monster/Tarrasque}, is a significant exception to this rule).",
 			"",
 			"***Divine Gift:*** These gifts are thematically appropriate boons the deity might grant, but are certainly not the only types of gifts the deity might hand out. Unless otherwise noted, any abilities granted by a divine gift can be used only once per gift.",
 			"",

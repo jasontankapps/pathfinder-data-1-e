@@ -647,7 +647,7 @@
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes",
 			"",
-			"Celestial creatures dwell in the higher planes, but can be summoned using spells such as summon monster and planar ally. A celestial creature's CR increases by +1 only if the base creature has 5 or more HD. A celestial creature's quick and rebuild rules are the same.",
+			"Celestial creatures dwell in the higher planes, but can be summoned using spells such as {spell/summon monster>_1} and {spell/planar ally}. A celestial creature's CR increases by +1 only if the base creature has 5 or more HD. A celestial creature's quick and rebuild rules are the same.",
 			"",
 			"**Rebuild Rules:** **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite evil 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against evil foes; smite persists until target is dead or the celestial creature rests).",
 			"",
@@ -861,7 +861,7 @@
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes - Requires the feat Summon Neutral Monster",
 			"",
-			"Counterpoised creatures dwell in the Outer Planes where balance between elements or ideologies is paramount, but they can be summoned using spells such as summon monster and planar ally. A counterpoised creature's CR increases by 1 only if the base creature has 5 or more Hit Dice. A counterpoised creature's quick and rebuild rules are the same.",
+			"Counterpoised creatures dwell in the Outer Planes where balance between elements or ideologies is paramount, but they can be summoned using spells such as {spell/summon monster>_1} and {spell/planar ally}. A counterpoised creature's CR increases by 1 only if the base creature has 5 or more Hit Dice. A counterpoised creature's quick and rebuild rules are the same.",
 			"",
 			"**Rebuild Rules:** **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite bias 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against a foe that is chaotic evil, chaotic good, lawful evil, or lawful good; smite persists until the target is dead or the counterpoised creature rests).",
 			"",
@@ -1736,7 +1736,7 @@
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes",
 			"",
-			"Creatures with the entropic template live in planes where chaos is paramount. They can be summoned using spells such as summon monster and planar ally. An entropic creature's CR increases by +1 only if the base creature has 5 or more HD. An entropic creature's quick and rebuild rules are the same.",
+			"Creatures with the entropic template live in planes where chaos is paramount. They can be summoned using spells such as {spell/summon monster>_1} and {spell/planar ally}. An entropic creature's CR increases by +1 only if the base creature has 5 or more HD. An entropic creature's quick and rebuild rules are the same.",
 			"",
 			"**Rebuild Rules:** **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite law 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against lawful foes; smite persists until the target is dead or the entropic creature rests).",
 			"",
@@ -2085,7 +2085,7 @@
 			"**Feats:** A fiend-infused golem has feats appropriate for its Hit Dice. The golem's creator determines the golem's feats as part of the process of creating the construct. Fiend-infused golems can be assigned any feats they are physically capable of using, although most feats are assigned from the following: {feat/Blind-Fight}, {feat/Combat Reflexes}, {feat/Intimidating Prowess}, {feat/Power Attack}, {feat/Skill Focus} (Intimidate), {feat/Toughness}, and {feat/Weapon Focus}.  ",
 			"**Skills:** A fiend-infused golem gains ranks in Intimidate equal to its Hit Dice.  ",
 			"**Languages:** A fiend-infused golem understands Abyssal and Infernal, but it cannot speak.  ",
-			"**Construction:** A fiend-infused golem's base materials cost an additional 25,000 gp above the base creature's cost to account for the materials that are needed to bind the fiend within the golem. Add the spells dimensional anchor, magic circle against evil, and either planar ally or planar binding to the base creature's requirements.",
+			"**Construction:** A fiend-infused golem's base materials cost an additional 25,000 gp above the base creature's cost to account for the materials that are needed to bind the fiend within the golem. Add the spells {spell/dimensional anchor}, {spell/magic circle against evil}, and either {spell/planar ally} or {spell/planar binding} to the base creature's requirements.",
 			"",
 			"The DC of the Craft check required to make the fiend-infused golem's body is 4 higher than the base creature's construct skill DC, and the creator must have a minimum caster level 4 higher than the base creature's minimum required caster level. The increase to the DC of the Craft check and to the caster level are halved (to 2 higher) if the creator possesses at least 10 ranks in Knowledge (planes)."
 		]
@@ -2101,7 +2101,7 @@
 			"**Simple Template** Yes  ",
 			"**Usable with Summons** Yes",
 			"",
-			"Creatures with the fiendish template live in the Lower Planes, such as the Abyss and Hell, but can be summoned using spells such as summon monster and planar ally. A fiendish creature's CR increases by +1 only if the base creature has 5 or more HD. A fiendish creature's quick and rebuild rules are the same.",
+			"Creatures with the fiendish template live in the Lower Planes, such as the Abyss and Hell, but can be summoned using spells such as {spell/summon monster>_1} and {spell/planar ally}. A fiendish creature's CR increases by +1 only if the base creature has 5 or more HD. A fiendish creature's quick and rebuild rules are the same.",
 			"",
 			"**Rebuild Rules:** **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite good 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against good foes; smite persists until target is dead or the fiendish creature rests).",
 			"",
@@ -2731,7 +2731,7 @@
 			"",
 			"**Smite Threat (Su):** Once per day as a swift action, the guardian spirit can add its Charisma bonus on attack rolls and its HD on damage rolls against a foe that currently threatens its ward or has attacked the ward within the past 24 hours; this smite persists until the target is dead or the summoning of the guardian spirit ends. If the spirit is summoned by a 6th-level spell, it can use smite threat an additional time per day, and if the spirit is summoned by a 9th-level spell, it can use smite threat a third time per day.",
 			"",
-			"**Spell-Like Abilities:** A guardian spirit's caster level for its spell-like abilities is equal to its Challenge Rating + 1, or to the base creature's caster level, whichever is higher. It can cast guidance at will. For every spell level of the conjuration spell used to call or summon it (such as planar ally, planar binding, or summon monster if the summoner has the Summon Guardian Spirit feat), the guardian spirit gains access to one additional spell-like ability of the ward's choice from the following list:",
+			"**Spell-Like Abilities:** A guardian spirit's caster level for its spell-like abilities is equal to its Challenge Rating + 1, or to the base creature's caster level, whichever is higher. It can cast guidance at will. For every spell level of the conjuration spell used to call or summon it (such as {spell/planar ally}, {spell/planar binding}, or {spell/summon monster>_1} if the summoner has the {feat/Summon Guardian Spirit} feat), the guardian spirit gains access to one additional spell-like ability of the ward's choice from the following list:",
 			"",
 			"**Spell Level 3:** {spell/Chill touch}, {spell/ill omen}, [protection from chaos/evil/good/law](spell/protection_from_evil) (choose one; its alignment descriptor must oppose the guardian spirit's alignment).  ",
 			"**Spell Level 4:** {spell/Call lightning}, {spell/detect thoughts}, {spell/invisibility}.  ",
@@ -2745,7 +2745,7 @@
 			"",
 			"**Fated Guardian (Su):** When conjured by a 4th-level or higher spell, a guardian spirit can protect the destiny of another creature within 30 feet as a standard action once per day. For 1 round, any time the creature makes an attack or attempts a saving throw, it rolls twice and takes the better result.",
 			"",
-			"**Co-Walker (Sp):** When conjured by an 8th-level or higher spell, a guardian spirit can assume the shape of its ward as if with alter self, except it can appear to be only the ward (even if the ward is not of a creature type or size that can normally be assumed with alter self) and it gains a +10 bonus on Disguise checks to appear to be the ward."
+			"**Co-Walker (Sp):** When conjured by an 8th-level or higher spell, a guardian spirit can assume the shape of its ward as if with {spell/alter self}, except it can appear to be only the ward (even if the ward is not of a creature type or size that can normally be assumed with alter self) and it gains a +10 bonus on Disguise checks to appear to be the ward."
 		]
 	}
 }

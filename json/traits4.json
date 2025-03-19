@@ -4370,7 +4370,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"An outsider visited you at a young age, and you have had a significant affinity with that type of outsider ever since. Choose a subtype of outsider, such as angel or elemental. When you summon an outsider of that subtype via summon monster, planar ally, planar binding, or similar spells and abilities, the summoned creature gains a number of temporary hit points equal to the level of spell used to summon it."
+			"An outsider visited you at a young age, and you have had a significant affinity with that type of outsider ever since. Choose a subtype of outsider, such as {subtype/angel} or {subtype/elemental}. When you summon an outsider of that subtype via {spell/summon monster>_1}, {spell/planar ally}, {spell/planar binding}, or similar spells and abilities, the summoned creature gains a number of temporary hit points equal to the level of spell used to summon it."
 		],
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -4891,7 +4891,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar",
 			"",
-			"You are skilled at convincing outsiders that you require their aid. Whenever you cast lesser planar ally, planar ally, or greater planar ally, you receive a 10% discount on the monetary cost required by the summoned outsiders. This bonus has no effect on services the outsiders may demand in order to strike a bargain."
+			"You are skilled at convincing outsiders that you require their aid. Whenever you cast {spell/lesser planar ally}, {spell/planar ally}, or {spell/greater planar ally}, you receive a 10% discount on the monetary cost required by the summoned outsiders. This bonus has no effect on services the outsiders may demand in order to strike a bargain."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
