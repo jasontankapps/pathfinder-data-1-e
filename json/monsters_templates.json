@@ -2054,6 +2054,7 @@
 			"| 11+ | 10/cold iron |"
 		]
 	},
+	"fey_touched": { "copyof": "fey_touched_creature" },
 	"fiend_infused": {
 		"name": "Fiend-Infused",
 		"sources": [ "Cheliax, the Infernal Empire" ],

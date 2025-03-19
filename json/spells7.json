@@ -2775,7 +2775,7 @@
 			"Spells cast on other targets are vulnerable to {spell/dispel magic} as normal. The GM may allow other spells to be made permanent.",
 			"",
 			"[^A]: No level requirement or cost was provided in the original source of *alter river.* Consider using *curse terrain* as a benchmark.",
-			"[^C]: No level was given in the source text, but the price is consistent *shrink item*, which requires an 11th-level caster.",
+			"[^C]: No level was given in the source text, but the price is consistent with *shrink item*, which requires an 11th-level caster.",
 			"[^D]: No level was provided for the *create demiplane* spells, but their costs line up with other spells that require 15th (lesser), 16th (normal), and 17th-level (greater) casters; also note that the text of *quintessence mastery* says its *permanency* requirements should copy *create demiplane*.",
 			"[^E]: Permanency is mentioned in the *light* spell's description, but no costs or requirements are provided. If you wish to include this as a possibility, consider using *dancing lights* (or even {spell/continual flame}) as a benchmark.",
 			"[^F]: No level was given for *teleport trap*, and the cost given is multiplied by the number of *teleport traps* that lead to the same destination. Consider using *teleporation circle* as a benchmark.",

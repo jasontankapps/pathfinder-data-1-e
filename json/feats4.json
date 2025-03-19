@@ -501,7 +501,7 @@
 			"",
 			"Your animal companion is descended from creatures from one of the Elemental Planes.  ",
 			"**Prerequisites:** Cha 13, animal companion or mount class feature.  ",
-			"**Benefit:** You can take a genie-touched creature as an animal companion. This animal companion functions as a horse companion, with the adjustments that follow. When you choose your genie-touched companion, you must select your companion's breed: istaheq, misayyah, tuanu, or zefaheen. Your choice determines the type of energy resistance your companion gains, as well as the three additional abilities your companion acquires as you advance in level.",
+			"**Benefit:** You can take a {monster/genie-touched horse} as an animal companion. This animal companion functions as a horse companion, with the adjustments that follow. When you choose your genie-touched companion, you must select your companion's breed: istaheq, misayyah, tuanu, or zefaheen. Your choice determines the type of energy resistance your companion gains, as well as the three additional abilities your companion acquires as you advance in level. (These abilities are explained in the creature's entry)",
 			"",
 			"### Genie-Touched Companion",
 			"",
@@ -510,9 +510,7 @@
 			"| Istaheq | Acid 10 | Steadfast | Scion of stone | Thundering hooves |",
 			"| Misayyah | Fire 10 | Firesight | Sunborn | Flaming trail |",
 			"| Tuanu | Cold 10 | Water sense | Fluid movement | Waterborn |",
-			"| Zefaheen | Electricity 10 | Desert walker | Sand sense | Air walker |",
-			"",
-			"**Note:** see the descriptions of the special abilities [here](monster/genie_touched_horse)."
+			"| Zefaheen | Electricity 10 | Desert walker | Sand sense | Air walker |"
 		]
 	},
 	"ghost_guide": {

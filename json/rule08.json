@@ -1222,6 +1222,7 @@
 			"| &mdash; | &mdash; | 85-90 | Rod | {rule/15-14: |Rods} |",
 			"| &mdash; | &mdash; | 91-94 | Staff | {rule/15-16: |Staves} |",
 			"| &mdash; | &mdash; | 95-100 | Major wondrous item | {rule/15-20: |Major Wondrous Items} |",
+			"",
 			"[^1]: Average values: minor, 1,000 gp; medium, 10,000 gp; major, 40,000 gp.",
 			"[^2]: The original table appears in the Pathfinder RPG Core Rulebook. The items on the table can be found in [miscellaneous equipment](main/equipment_misc), along with many other items from later books."
 		],
@@ -1600,7 +1601,7 @@
 			"| 100 | 96-100 | 91-100 | Roll again twice[^O] | &mdash; |",
 			"",
 			"[^A]: Consult Table 5-15: Weapon Special Materials.",
-			"[^B]: Consult [Table 5-3: Random Armor](rule/random_armor_and_shields). There is a 10% chance the armor is magical; if so, consult Table 5-8: Magic Armor and Shields.",
+			"[^B]: Consult {rule/Table 5-3: |Random Armor>_and_shields}. There is a 10% chance the armor is magical; if so, consult Table 5-8: Magic Armor and Shields.",
 			"[^C]: Consult [Table 5-5: Random Shields](rule/random_armor_and_shields); reroll buckler and tower shield (which cannot have spikes). There is a 10% chance the shield is magical; if so, consult Table 5-8: Magic Armor and Shields.",
 			"[^D]: For adamantine weapons, add +2700 gp; for ammunition, add +54 gp per missile.",
 			"[^E]: For cold iron weapons, double the item's base cost.",
