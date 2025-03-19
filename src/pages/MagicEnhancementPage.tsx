@@ -1,7 +1,6 @@
-import { Suspense, lazy } from 'react';
+import { lazy } from 'react';
 import { useParams } from 'wouter';
 import data from '../json/_data_magic-enh.json';
-import Loading from '../Loading';
 import './Page.css';
 
 type Params = { id?: keyof typeof data };
@@ -20,7 +19,7 @@ const MagicEnhancementPage: React.FC = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
+	return <Page id={id || "not_found"} />;
 
 };
 

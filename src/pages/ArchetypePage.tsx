@@ -1,6 +1,5 @@
-import { ReactNode, Suspense, lazy } from 'react';
+import { ReactNode, lazy } from 'react';
 import { useParams } from 'wouter';
-import Loading from '../Loading';
 import './Page.css';
 
 export interface ArchetypeProps {
@@ -111,7 +110,7 @@ const ArchetypePage: React.FC = () => {
 
 	const Page = pages[num - 1];
 
-	return <Suspense fallback={<Loading />}><Page id={id} parent={parent} classTitle={classTitle} /></Suspense>;
+	return <Page id={id} parent={parent} classTitle={classTitle} />;
 };
 
 export default ArchetypePage;

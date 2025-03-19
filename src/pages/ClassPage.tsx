@@ -1,7 +1,6 @@
-import { Suspense, lazy } from 'react';
+import { lazy } from 'react';
 import { useParams } from 'wouter';
 import data from '../json/_data_class.json';
-import Loading from '../Loading';
 import './Page.css';
 
 interface Params {
@@ -34,7 +33,7 @@ const ClassPage: React.FC<Params> = () => {
 
 	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
 
-	return <Suspense fallback={<Loading />}><Page id={id || "not_found"} /></Suspense>;
+	return <Page id={id || "not_found"} />;
 
 };
 

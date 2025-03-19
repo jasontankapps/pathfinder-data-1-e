@@ -7,7 +7,7 @@ import {
 
 const Loading: React.FC<{ text?: string, color?: string, barColor?: string }> = (props) => {
 	const {
-		text = "Loading",
+		text = "Loading...",
 		color = "primary",
 		barColor = "secondary"
 	} = props;

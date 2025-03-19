@@ -1,7 +1,6 @@
-import { Suspense, lazy } from 'react';
+import { lazy } from 'react';
 import { useParams } from 'wouter';
 import data from '../json/_data_main.json';
-import Loading from '../Loading';
 import './Page.css';
 
 type Params = { mainpage?: keyof typeof data };
@@ -94,7 +93,7 @@ const MainPage: React.FC = () => {
 
 	const Page = pages[index];
 
-	return <Suspense fallback={<Loading />}><Page id={page} /></Suspense>;
+	return <Page id={page} />;
 
 };
 
