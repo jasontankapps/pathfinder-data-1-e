@@ -236,7 +236,7 @@
 	},
 	"weapon_descriptions": {
 		"name": "Weapon Descriptions",
-		"tags": "scatter weapon quality",
+		"tags": "scatter weapon quality, weapon damage by size",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Combat"

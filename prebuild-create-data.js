@@ -2,7 +2,7 @@ import fs from 'fs';
 import { Marked } from 'marked';
 import markedFootnote from 'marked-footnote';
 import { gfmHeadingId } from "marked-gfm-heading-id";
-import { createDirectives } from 'marked-directive';
+import { createDirectives, presetDirectiveConfigs } from 'marked-directive';
 import basic_data_groups from './basic_data_groups.js';
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
@@ -77,9 +77,9 @@ const specialContainerBlocks = {
 	renderer: (token, flags = {}, marked) => {
 		const {text = "", attrs = {}, meta} = token;
 		const n = meta.name;
+		const { c = "" } = attrs;
 		switch(n) {
 			case "archetype":
-				const { c = "" } = attrs;
 				const trimmed = text.trim();
 				const [ title = "", repl = "", desc = "" ] = trimmed.split(/\n+/);
 				const link = title.toLowerCase().replace(/[-/_ ]/g, "_").replace(/[^a-z_0-9]/g, "");
@@ -354,6 +354,7 @@ const convertDescription = (desc, prefix, tables, openTag = "", closeTag = "") =
 
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
 	marked.use(createDirectives([
+		...presetDirectiveConfigs,
 		getAlternateBlocks(flags, prefix, marked),
 		getSpecialContainerBlocks(flags, marked),
 		getInlineTags(prefix)

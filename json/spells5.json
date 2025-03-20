@@ -610,7 +610,7 @@
 			"**Target** you  ",
 			"**Duration** 1 minute/level (D)",
 			"",
-			"Gravity bow significantly increases the weight and density of arrows or bolts fired from your bow or crossbow the instant before they strike their target and then return them to normal a few moments later. Any arrow fired from a bow or crossbow you are carrying when the spell is cast deals damage as if one size larger than it actually is. For instance, an arrow fired from a Medium longbow normally deals 1d8 points of damage, but it would instead deal 2d6 points of damage if fired from a gravity bow. Only you can benefit from this spell. If anyone else uses your bow to make an attack the arrows deal damage as normal for their size."
+			"Gravity bow significantly increases the weight and density of arrows or bolts fired from your bow or crossbow the instant before they strike their target and then return them to normal a few moments later. Any arrow fired from a bow or crossbow you are carrying when the spell is cast [deals damage as if one size larger](rule/weapon_descriptions) than it actually is. For instance, an arrow fired from a Medium longbow normally deals 1d8 points of damage, but it would instead deal 2d6 points of damage if fired from a gravity bow. Only you can benefit from this spell. If anyone else uses your bow to make an attack the arrows deal damage as normal for their size."
 		]
 	},
 	"gravity_sphere": {
@@ -632,9 +632,9 @@
 			"",
 			"Creatures that fall within the area of a gravity sphere spell take more damage from the fall if the gravity within is higher and less damage if the gravity within is lower. However, if the creature falls through a gravity sphere and continues to fall in a non-affected area, the rest of the fall damage is calculated normally. For instance, if a creature falls through 20 feet of a lowgravity sphere and an additional 30 feet outside the sphere, it would take 1d6 points of damage for the 20 feet of low gravity plus 3d6 points of damage as normal for the 30 feet outside the sphere (for a total of 4d6 points of damage).",
 			"",
-			"This spell doesn't counteract or negate the effects of other spells that affect gravity; both effects occur simultaneously. For instance, a no-gravity gravity sphere spell cast within the area of a reverse gravity spell would simply mean that creatures float about until the gravity sphere's duration expires or they exit the gravity sphere, at which point they return to the top of the reverse gravity effect's area. If both gravity-altering magical effects could not feasibly take place simultaneously (at the GM's discretion), the gravity sphere spell supersedes the previous effect (if it's higher-level than the previous effect) or simply fails (if it's lower-level).",
+			"This spell doesn't counteract or negate the effects of other spells that affect gravity; both effects occur simultaneously. For instance, a no-gravity gravity sphere spell cast within the area of a {spell/reverse gravity} spell would simply mean that creatures float about until the gravity sphere's duration expires or they exit the gravity sphere, at which point they return to the top of the reverse gravity effect's area. If both gravity-altering magical effects could not feasibly take place simultaneously (at the GM's discretion), the gravity sphere spell supersedes the previous effect (if it's higher-level than the previous effect) or simply fails (if it's lower-level).",
 			"",
-			"{SOURCE People of the Stars/18}  ",
+			"{SOURCE People of the Stars/18}",
 			"",
 			"**Standard Gravity (&times;1):** The gravity mimics that of Golarion.",
 			"",
@@ -660,7 +660,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** no",
 			"",
-			"You bring into being a localized region of increased gravity that crushes a creature to the ground. Affected targets weigh twice as much as normal, can move only at half speed, jump only half as far as normal, and can lift and carry only half as much as normal. Any flying target has its maneuverability worsened by two steps (from good to poor, for example; minimum clumsy) and plummets to the ground unless it succeeds at a DC 25 Fly check to remain in the air. Freedom of movement negates the effects of this spell. A creature targeted by gravity well behaves normally in the area of a reverse gravity spell."
+			"You bring into being a localized region of increased gravity that crushes a creature to the ground. Affected targets weigh twice as much as normal, can move only at half speed, jump only half as far as normal, and can lift and carry only half as much as normal. Any flying target has its maneuverability worsened by two steps (from good to poor, for example; minimum clumsy) and plummets to the ground unless it succeeds at a DC 25 Fly check to remain in the air. {spell/Freedom of movement} negates the effects of this spell. A creature targeted by gravity well behaves normally in the area of a reverse gravity spell."
 		]
 	},
 	"grease": {

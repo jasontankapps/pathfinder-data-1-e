@@ -143,7 +143,11 @@ const App: FC = () => {
 				<IonContent id="main">
 					<Switch>
 						<Route path="/about"><AboutOnlyPage /></Route>
-						<Route path="/main/:mainpage"><MainPage /></Route>
+						<Route path="/main/:mainpage">
+							<Suspense fallback={<Loading />}>
+								<MainPage />
+							</Suspense>
+						</Route>
 						<Route path="/bookmarks">
 							<Suspense fallback={<Loading />}>
 								<BookmarksPage />

@@ -12,6 +12,12 @@ ion-checkbox div.label {
 	white-space: normal;
 }
 
+blockquote.hanging p {
+	margin-block: 0.25rem;
+	padding-inline-start: 1.5rem;
+	text-indent: -1.5rem;
+}
+
 .capitalize {
 	text-transform: capitalize;
 }
