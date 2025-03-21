@@ -841,7 +841,9 @@
 		"tags": "cure spells, inflict spells, symbol spells, glyph spells, rune spells, sigil spells",
 		"sources": [],
 		"description": [
-			"{jumplist  Cure and Inflict / Glyphs / Symbols / Runes / Sigils}",
+			":::item",
+			"",
+			"{jumplist Cure and Inflict / Glyphs / Symbols / Runes / Sigils}",
 			"",
 			"Some rules refer to groups of spells based on their effect. Here are a few of those groupings.",
 			"",
@@ -922,7 +924,9 @@
 			"| Spell | Spellcasters |",
 			"| --- | --- |",
 			"| {spell/Sepia Snake Sigil} | arcanist 3, bard 3, occultist 3, skald 3, sorcerer 3, witch 3, wizard 3 |",
-			"| {spell/Lissalan Snake Sigil} | arcanist 3, cleric 3, oracle 3, sorcerer 3, warpriest 3, wizard 3 |"
+			"| {spell/Lissalan Snake Sigil} | arcanist 3, cleric 3, oracle 3, sorcerer 3, warpriest 3, wizard 3 |",
+			"",
+			":::"
 		],
 		"searchgroup": "spell"
 	}

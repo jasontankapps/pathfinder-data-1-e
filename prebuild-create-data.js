@@ -8,6 +8,12 @@ import checkForEncodedLink from './tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
 import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
 
+// Handle implicit jumplists
+const jl = (flags, text, id) => {
+	const jl = flags.implicitJumplist || [];
+	flags.implicitJumplist = [...jl, [text, id]];
+};
+
 const alternateBlocks = {
 	level: "block",
 	marker: "::",
@@ -62,6 +68,16 @@ const alternateBlocks = {
 				output = output + `bottom="${bottom}" `;
 			}
 			return `${output}info="${text}" />`;
+		} else if ("h2h3h4h5h6".indexOf(n) >= 0) {
+			if(attrs.jl) {
+				const id = prefix + (attrs.id || text.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
+				jl(flags, text, id);
+				if(attrs.extra) {
+					return `<${n} id="${id}">${text} ${attrs.extra}</${n}>\n`;
+				}
+				return `<${n} id="${id}">${text}</${n}>\n`;
+			}
+			return `<${n}>${text}</${n}>`;
 		}
 		return false;
 	}
@@ -109,12 +125,12 @@ const getSpecialContainerBlocks = (flags, marked) => {
 const inlineTags = {
 	level: "inline",
 	marker: ":",
-	renderer: (token, prefix) => {
+	renderer: (token, prefix, flags) => {
 		const {text = "", attrs = {}, meta} = token;
 		let tag = meta.name;
 		const s = attrs.s || "/";
 		const texts = text.split(s);
-		const id = attrs.id || texts[0].replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
+		const id = prefix + (attrs.id || texts[0].replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, ""));
 		switch(tag) {
 			case "b":
 				tag = "strong";
@@ -129,12 +145,14 @@ const inlineTags = {
 			default:
 				return false;
 		}
-		return `<${tag} id="${prefix}${id}">${texts.join("")}</${tag}>`;
+		// implicit jumplist
+		attrs.jl && jl(flags, texts[0], id);
+		return `<${tag} id="${id}">${texts.join("")}</${tag}>`;
 	}
 };
 
-const getInlineTags = (prefix) => {
-	return {...inlineTags, renderer: (token) => inlineTags.renderer(token, prefix)};
+const getInlineTags = (flags, prefix) => {
+	return {...inlineTags, renderer: (token) => inlineTags.renderer(token, prefix, flags)};
 };
 
 // Converts {some/Link: Text/s} into [Link: Texts](some/link_text)
@@ -317,6 +335,18 @@ const postprocess = (prefix, tables, flags) => {
 			text = post;
 		}
 		output = output + text;
+		//Create implicit jumplists
+		if(flags.implicitJumplist) {
+			const info = flags.implicitJumplist;
+			let pre = `<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
+			info.forEach(pair => {
+				const [text, id] = pair;
+				pre = pre + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${id}")} onClick={()=>jumpScroller("${id}")}>${text}</li>`;
+			});
+			pre = pre + `</ul></div>`;
+			flags.jumplist = true;
+			output = pre + output;
+		}
 		//Restore newlines
 		return output.replace(/%%% split here %%%/g, "\n");
 	};
@@ -357,7 +387,7 @@ const convertDescription = (desc, prefix, tables, openTag = "", closeTag = "") =
 		...presetDirectiveConfigs,
 		getAlternateBlocks(flags, prefix, marked),
 		getSpecialContainerBlocks(flags, marked),
-		getInlineTags(prefix)
+		getInlineTags(flags, prefix)
 	]));
 	marked.use(markedFootnote({prefixId: prefix}));
 	marked.use(gfmHeadingId({prefix}));

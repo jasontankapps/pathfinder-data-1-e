@@ -33,7 +33,7 @@ const ArchetypeGroup4Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 		title={title}
 		sources={sources}
 		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
+		topLink={parent === "companion" ? [ "Animal Companion", "sidekick/companion" ] : [classTitle, "class/" + parent]}
 	>{jsx}</BasicPage>;
 };
 

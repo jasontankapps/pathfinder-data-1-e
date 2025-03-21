@@ -28,9 +28,23 @@ export default getItem;
 
 export const getGuaranteedItem = <T extends unknown>(id: keyof T, json: T): JsonDataProps => {
 	let data = json[id] as MaybeCopyOf<keyof T>;
-	while(data.copyof) {
+	// Errors shouldn't happen, but mistakes occur...
+	let error = !data;
+	while(!error && data.copyof) {
 		const { copyof, ...etc } = data;
-		data = {...(json[copyof] as MaybeCopyOf<keyof T>), ...etc};
+		if(!json[copyof]) {
+			error = true;
+		} else {
+			data = {...(json[copyof] as MaybeCopyOf<keyof T>), ...etc};
+		}
+	}
+	if(error) {
+		data = {
+			title: "Error",
+			sources: [],
+			jsx: <><h2>Error</h2><p>Bad destination encountered: [{id as string}]</p></>,
+			noFinder: true
+		};
 	}
 	return data as JsonDataProps;
 };
