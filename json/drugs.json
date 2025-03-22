@@ -426,7 +426,7 @@
 			"",
 			"Identifying the effects of a dose of Numerian fluids presents a challenge, as the composition of the fluids changes constantly. A successful DC 25 Craft (alchemy) check has a 75% chance of correctly identifying a fluid's effects on a specific drinker, and a 25% chance of misidentifying a random effect instead. The dose must be consumed within 1 hour for the results to remain accurate.",
 			"",
-			"### Numerian Fluids Side Effects",
+			"::h3[Numerian Fluids Side Effects]{jl}",
 			"",
 			"| d% | Result |",
 			"| :---: | --- |",
