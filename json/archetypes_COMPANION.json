@@ -16,7 +16,7 @@
 			"",
 			"This replaces share spells.",
 			"",
-			"**Alien Mind (Ex):** At 6th level, an aberrant companion is immune to mind-affecting effects that specifically target animals, such as charm animal. Anyone who attempts to use such an effect against it takes 1d4 points of Wisdom damage (Will DC 20 half).",
+			"**Alien Mind (Ex):** At 6th level, an aberrant companion is immune to mind-affecting effects that specifically target animals, such as {spell/charm animal}. Anyone who attempts to use such an effect against it takes 1d4 points of Wisdom damage (Will DC 20 half).",
 			"",
 			"This replaces devotion.",
 			"",
@@ -48,13 +48,13 @@
 			"",
 			"When an accursed companion manifests its condition, the companion's master can resist or mitigate the debilitating side effect with a successful Will save (DC = 10 + 1/2 the accursed companion's HD + the accursed companion's Wisdom modifier [minimum +0]). However, manifestations that are constant (such as festering flesh or unsavory friends) have an equally constant effect on the companion's master, and these effects cannot be mitigated or resisted in any way. An accursed companion can only be affected by a manifestation once per hour unless the manifestation is constant. All side effects on an accursed companion's master are mind-affecting effects.",
 			"",
-			"**Bestial Flashes (Su):** The companion is haunted by the previous companion's fear and pain during its death. This manifestation is triggered automatically whenever the accursed companion takes damage from a single blow in excess of half its current hit points. When an accursed companion suffers bestial flashes, it gains a +2 morale bonus on all attack rolls and damage rolls made on natural attacks, and gains a +4 morale bonus on rolls to confirm critical hits. Once triggered, a bestial flash lasts for 1 minute. When a bestial flash occurs, the mind of the companion's master is overwhelmed with images of feral savagery. She becomes confused for 1d4 rounds and is then sickened for the remainder of the minute that the bestial flash persists. On a successful Will save, the master is instead sickened for only 1d4 rounds.",
+			"**Bestial Flashes (Su):** The companion is haunted by the previous companion's fear and pain during its death. This manifestation is triggered automatically whenever the accursed companion takes damage from a single blow in excess of half its current hit points. When an accursed companion suffers bestial flashes, it gains a +2 morale bonus on all attack rolls and damage rolls made on natural attacks, and gains a +4 morale bonus on rolls to confirm critical hits. Once triggered, a bestial flash lasts for 1 minute. When a bestial flash occurs, the mind of the companion's master is overwhelmed with images of feral savagery. She becomes [confused](rule/awareness_conditions) for 1d4 rounds and is then {rule/sickened>_conditions} for the remainder of the minute that the bestial flash persists. On a successful Will save, the master is instead sickened for only 1d4 rounds.",
 			"",
 			"**Bloodthirsty (Su):** The companion becomes consumed with bloodlust that drives it into a frenzy of savage ferocity. This manifestation is triggered automatically whenever the accursed companion makes a successful critical hit with a natural attack. When the companion becomes bloodthirsty, it flies into a rage and gains +2 Constitution and +2 Strength, but it also takes a -2 penalty to its AC. The rage lasts until the battle is over or for 1 minute, whichever is shorter. It cannot end its rage voluntarily. The companion's master is overwhelmed with rage as well for this period, although this rage is unfocused and distracting, preventing the master from doing anything but growling, hissing, shrieking, and making other animalistic howls, during which time the master cannot speak or use spells with verbal components. A successful Will save reduces the duration of the master's rage to 1 round.",
 			"",
 			"**Festering Flesh (Su):** The companion looks horrific and smells worse. Its rancid flesh reeks of rot and crawls with fleas, ticks, and other vile parasites. Despite its obvious grotesqueness, the creature is quite affectionate, perhaps even overly and inappropriately so. This manifestation is always active - the accursed companion is immune to the sickened and nauseated condition. The master, on the other hand, becomes consumed by fears of contagion to the extent that she takes a -2 penalty on all saving throws against disease effects.",
 			"",
-			"**Palsy (Su):** The poor creature is stricken with palsy. It drools constantly and its muscles spasm with tics and twitches. The palsy doesn't impact its abilities, and actually aids the accursed companion when it loses mobility from other sources. The first time each day that the accursed companion becomes paralyzed, grappled or otherwise has its movement impaired, a freedom of movement effect automatically activates on the accursed companion. This effect persists for 1 minute, during which time the companion's master becomes nauseated unless she succeeds at a Will save (in which case she is merely sickened for the duration).",
+			"**Palsy (Su):** The poor creature is stricken with palsy. It drools constantly and its muscles spasm with tics and twitches. The palsy doesn't impact its abilities, and actually aids the accursed companion when it loses mobility from other sources. The first time each day that the accursed companion becomes paralyzed, grappled or otherwise has its movement impaired, a {spell/freedom of movement} effect automatically activates on the accursed companion. This effect persists for 1 minute, during which time the companion's master becomes nauseated unless she succeeds at a Will save (in which case she is merely sickened for the duration).",
 			"",
 			"**Rabid Vomit (Ex):** A crust of froth lines the rim of the accursed companion's mouth. This manifestation is triggered automatically on the third round of any combat - on this round, the accursed companion always takes a standard action to vomit diseased pus and bile in a 15-foot cone (after moving, if it can, to capture as many enemies in the area of effect as possible). All creatures in this area must succeed at a Fortitude saving throw (DC = 10 + 1/2 the accursed companion's HD + the accursed companion's Constitution modifier) or become nauseated for 1d4 rounds and contract {disease/rabies}. On a successful save, the targets are merely sickened for 1d4 rounds. When the accursed companion makes this vomit attack, its master is overwhelmed by the sensation of a mouthful of diseased bile. She is stunned for 1 round and nauseated for 1d4 rounds thereafter unless she succeeds at a Will save, in which case she is merely sickened for 1d4 rounds.",
 			"",
@@ -62,7 +62,7 @@
 			"",
 			"**Unexpected Frenzy (Su):** The accursed companion looks normal, but some conditions or phrases cause the animal to fly into a murderous frenzy. When an accursed companion gains this condition, the GM determines three specific situations that can trigger the manifestation of the unexpected frenzy, such as a character petting the companion on the head, a keyword or key phrase such as \"good dog,\" or the sight of a specific type of creature within 10 feet. The first time each day one of the three triggers occurs, the accursed companion flies into its frenzy. Its eyes glow, and any sounds it makes take on an eerie, hollow echo. The companion acts as if under the effects of {spell/haste} for 1d4 rounds before returning to normal, and it typically attacks the source of its trigger. While her companion is frenzied, the master is overwhelmed with shame and despair, suffering as if under the effects of a {spell/crushing despair} spell for twice the length of the accursed companion's frenzy. A successful Will save negates this effect.",
 			"",
-			"**Unsavory Friends (Su):** The companion manages to attract the company of less desirable species. It has an uncanny knack for finding centipedes, bats, mice, and other vermin, even in areas where such pests might not be all that common. Even more unusual, the companion makes it a habit to play with such creatures and becomes angry and defensive if anything threatens its vermin friends. This manifestation is constant. Immune to the distraction effect caused by all swarms, the animal companion is comfortable and even welcomes the nauseating sensation of its crawling friends. The companion's master, unfortunately, never gets used to finding squirming bugs or wriggling maggots in the companion's vicinity and takes a -4 penalty on all saving throws against any swarm's distraction ability."
+			"**Unsavory Friends (Su):** The companion manages to attract the company of less desirable species. It has an uncanny knack for finding centipedes, bats, mice, and other vermin, even in areas where such pests might not be all that common. Even more unusual, the companion makes it a habit to play with such creatures and becomes angry and defensive if anything threatens its vermin friends. This manifestation is constant. Immune to the {umr/distraction} effect caused by all {subtype/swarm/s}, the animal companion is comfortable and even welcomes the nauseating sensation of its crawling friends. The companion's master, unfortunately, never gets used to finding squirming bugs or wriggling maggots in the companion's vicinity and takes a -4 penalty on all saving throws against any swarm's distraction ability."
 		]
 	},
 	"ambusher": {
@@ -78,7 +78,7 @@
 			"",
 			"This replaces share spells and improved evasion.",
 			"",
-			"**Cunning Ambusher (Ex):** At 3rd level, an ambusher gains uncanny dodge. At 6th level, an ambusher gains a +2 racial bonus on initiative checks, and during the surprise round, opponents are always considered flat-footed against the ambusher's attacks, even if they have already acted. At 9th level, an ambusher gains a +2 morale bonus on attack and damage rolls during a surprise round.",
+			"**Cunning Ambusher (Ex):** At 3rd level, an ambusher gains [uncanny dodge](class/rogue). At 6th level, an ambusher gains a +2 racial bonus on initiative checks, and during the surprise round, opponents are always considered flat-footed against the ambusher's attacks, even if they have already acted. At 9th level, an ambusher gains a +2 morale bonus on attack and damage rolls during a surprise round.",
 			"",
 			"This replaces evasion, devotion, and Multiattack."
 		]
@@ -191,7 +191,7 @@
 			"",
 			"**Animal Feats:** In addition to the standard feats available to animal companions, a bodyguard can select {feat/Bodyguard}, {feat/Combat Patrol}, {feat/Heroic Defiance}, {feat/Heroic Recovery}, and {feat/In Harm's Way}.",
 			"",
-			"**Shared Vigilance (Ex):** Both a bodyguard and its master gain Alertness as a bonus feat whenever they are adjacent.",
+			"**Shared Vigilance (Ex):** Both a bodyguard and its master gain {feat/Alertness} as a bonus feat whenever they are adjacent.",
 			"",
 			"This replaces share spells.",
 			"",
@@ -199,7 +199,7 @@
 			"",
 			"This replaces evasion.",
 			"",
-			"**Uncanny Dodge (Ex):** At 9th level, a bodyguard gains uncanny dodge as per the rogue class feature of the same name.",
+			"**Uncanny Dodge (Ex):** At 9th level, a bodyguard gains uncanny dodge as per the {class/rogue} class feature of the same name.",
 			"",
 			"This replaces Multiattack.",
 			"",
@@ -239,11 +239,11 @@
 			"",
 			"**Animal Skills:** Chargers treat Intimidate as a class skill.",
 			"",
-			"**Mounted Challenge (Ex):** When ridden by a cavalier, chargers gain half of the bonuses and penalties granted by the cavalier's challenge class feature. This ability replaces share spells.",
+			"**Mounted Challenge (Ex):** When ridden by a {class/cavalier}, chargers gain half of the bonuses and penalties granted by the cavalier's challenge class feature. This ability replaces share spells.",
 			"",
-			"**Barding Training (Ex):** At 3rd level, a charger's armor check penalty for wearing barding or for carrying a medium load is reduced by 1 and the maximum Dexterity bonus for its armor and load increases by 1. Reduce the armor check and medium load penalties by an additional 1 for every 6 levels after 3rd; increase the maximum Dexterity bonus for the charger's armor by an additional 1 for every 6 levels after 3rd. In addition, the charger's speed does not decrease when wearing medium armor or carrying a medium load. At 9th level, a charger can move at normal speed in heavy armor or while carrying a heavy load. This ability replaces evasion and Multiattack.",
+			"**Barding Training (Ex):** At 3rd level, a charger's armor check penalty for wearing barding or for {rule/carrying /a medium load>capacity} is reduced by 1 and the maximum Dexterity bonus for its armor and load increases by 1. Reduce the armor check and medium load penalties by an additional 1 for every 6 levels after 3rd; increase the maximum Dexterity bonus for the charger's armor by an additional 1 for every 6 levels after 3rd. In addition, the charger's speed does not decrease when wearing medium armor or carrying a medium load. At 9th level, a charger can move at normal speed in heavy armor or while carrying a heavy load. This ability replaces evasion and Multiattack.",
 			"",
-			"**Indefatigable (Ex):** At 6th level, a charger becomes immune to fatigue. This ability replaces devotion.",
+			"**Indefatigable (Ex):** At 6th level, a charger becomes immune to [fatigue](rule/exhaustion_conditions). This ability replaces devotion.",
 			"",
 			"**Stalwart Steed (Ex):** At 15th level, the charger gains the ability to withstand great punishment and stress. Whenever the charger succeeds at a Fortitude or Will save that would normally result in a reduced or partial effect, the charger is unaffected. This ability replaces improved evasion."
 		]
@@ -289,7 +289,7 @@
 			"",
 			"**Negative Energy Affinity (Ex):** Though a living creature, a deathtouched companion reacts to positive and negative energy as if it were undead - positive energy harms it, while negative energy heals it.",
 			"",
-			"**One Foot in the Grave (Ex):** At 6th level, a deathtouched companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or undead, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target undead, such as halt undead.",
+			"**One Foot in the Grave (Ex):** At 6th level, a deathtouched companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or undead, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target undead, such as {spell/halt undead}.",
 			"",
 			"This replaces devotion."
 		]
@@ -379,7 +379,7 @@
 			"{SOURCE Ultimate Wilderness/188}  ",
 			"Precocious companions are able to learn far more tricks than other companions; this ability to learn allows their masters to use them for a wider variety of tasks.",
 			"",
-			"**Expanded Tricks (Ex):** At 3rd level, a precocious companion gains twice as many bonus tricks as normal for an animal companion. A hunter's animal companion can't use the additional bonus tricks to learn hunter's tricks. At 15th level, the DC of the Handle Animal check to push a precocious companion to perform an unlearned trick is only 15, instead of 25.",
+			"**Expanded Tricks (Ex):** At 3rd level, a precocious companion gains twice as many bonus tricks as normal for an animal companion. A {class/hunter/'s} animal companion can't use the additional bonus tricks to learn hunter's tricks. At 15th level, the DC of the Handle Animal check to push a precocious companion to perform an unlearned trick is only 15, instead of 25.",
 			"",
 			"This replaces evasion and improved evasion.",
 			"",
@@ -431,7 +431,7 @@
 			"",
 			"This replaces devotion.",
 			"",
-			"**Eldritch Claws:** At 9th level, a totem guide gains Eldritch Claws as a bonus feat.",
+			"**Eldritch Claws:** At 9th level, a totem guide gains {feat/Eldritch Claws} as a bonus feat.",
 			"",
 			"This replaces Multiattack.",
 			"",
@@ -449,7 +449,7 @@
 			"{SOURCE Ultimate Wilderness/189}  ",
 			"Some companions are expert trackers, able to use their scent ability to follow any trail.",
 			"",
-			"**Keen Nose:** A tracker must be an animal companion with the scent ability.",
+			"**Keen Nose:** A tracker must be an animal companion with the {umr/scent} ability.",
 			"",
 			"**Tracker Skills:** Trackers treat Survival as a class skill.",
 			"",
@@ -501,9 +501,9 @@
 			"{SOURCE Ultimate Wilderness/189}  ",
 			"Like unruly pets, some companions have a tendency to destroy nearby objects while unsupervised, and their masters can channel these destructive impulses into an advantage in battle.",
 			"",
-			"**Wrecker Feats:** In addition to the standard feats available to animal companions, a wrecker can select Improved Sunder and Greater Sunder.",
+			"**Wrecker Feats:** In addition to the standard feats available to animal companions, a wrecker can select {feat/Improved Sunder} and {feat/Greater Sunder}.",
 			"",
-			"**Destructive Wrecker (Ex):** A wrecker's natural attacks ignore an inanimate object's first 5 points of hardness. At 9th level, a wrecker's natural attacks count as if they were adamantine for the purpose of overcoming a construct's damage reduction.",
+			"**Destructive Wrecker (Ex):** A wrecker's natural attacks ignore an inanimate object's first 5 points of hardness. At 9th level, a wrecker's natural attacks count as if they were {eq-material/adamantine} for the purpose of overcoming a construct's damage reduction.",
 			"",
 			"This replaces share spells and Multiattack."
 		]

@@ -18,7 +18,7 @@
 			"",
 			"This replaces the arcane exploit gained at 5th level.",
 			"",
-			"**Rebuking Gale (Su):** At 11th level, by expending 3 points from her arcane reservoir, an aeromancer can release a powerful blast of wind to push back her foes. This takes the form of either a 20-foot-radius burst centered on the aeromancer or a 40-foot cone originating from the aeromancer's space. She can choose which form the wind takes each time she uses the ability. The affected area is filled with hurricane-force winds (75 mph). This makes normal ranged attacks passing through this area impossible, imposes a -8 penalty on ranged attacks from siege weapons that pass through the area, and imposes a -12 penalty on Fly checks attempted within the area. Additionally, Large creatures in the area are in danger of being checked, and Medium or smaller creatures in the area are in danger of being blown away. The winds created by this ability last for 1 round.",
+			"**Rebuking Gale (Su):** At 11th level, by expending 3 points from her arcane reservoir, an aeromancer can release a powerful blast of wind to push back her foes. This takes the form of either a 20-foot-radius burst centered on the aeromancer or a 40-foot cone originating from the aeromancer's space. She can choose which form the wind takes each time she uses the ability. The affected area is filled with hurricane-force winds (75 mph). This makes normal ranged attacks passing through this area impossible, imposes a -8 penalty on ranged attacks from siege weapons that pass through the area, and imposes a -12 penalty on {skill/Fly} checks attempted within the area. Additionally, Large creatures in the area are in danger of being checked, and Medium or smaller creatures in the area are in danger of being blown away. The winds created by this ability last for 1 round.",
 			"",
 			"This replaces the arcane exploit gained at 11th level."
 		]
@@ -50,7 +50,7 @@
 			"{SOURCE Advanced Class Guide/76}  ",
 			"A small number of arcanists learn to use blades as part of their spellcasting and in combat. While these blade adepts are not as capable with a sword as a true master duelist, their combination of swordplay and arcane power makes them quite deadly.",
 			"",
-			"**Sword Bond (Su):** At 1st level, a blade adept develops a bond with a blade and infuses it with arcane power. This ability works like a {class/wizard/'s arcane bond ability} save that the blade adept must bond to a one-handed piercing or slashing melee weapon. Additionally, the blade adept gains proficiency with the weapon if it is a simple or martial weapon. This ability replaces the arcanist exploits gained at 1st and 9th levels.",
+			"**Sword Bond (Su):** At 1st level, a blade adept develops a bond with a blade and infuses it with arcane power. This ability works like a {class/wizard/'s} arcane bond ability save that the blade adept must bond to a one-handed piercing or slashing melee weapon. Additionally, the blade adept gains proficiency with the weapon if it is a simple or martial weapon. This ability replaces the arcanist exploits gained at 1st and 9th levels.",
 			"",
 			"**Sentient Sword (Su):** At 3rd level, the blade adept's bonded sword becomes a powerful, sentient black blade. The blade advances as a [black blade](arc-magus/bladebound) using the blade adept's class level in place of the magus's class level and points from her arcane reservoir in place of the magus's arcane pool. A blade adept with this class feature cannot have a familiar of any kind, even from another class. This ability replaces the arcanist exploit gained at 3rd level.",
 			"",
@@ -60,9 +60,9 @@
 			">",
 			">**Magus Arcana:** A blade adept can select any of the following {ability/magus arcana}, using her arcane reservoir in place of the magus's arcane pool: {magusarcana/arcane accuracy}, {magusarcana/close range}, {magusarcana/critical strike}, {magusarcana/dispelling strike}, and {magusarcana/hasted assault}. The blade adept treats her arcanist level as her magus level when determining the effects of magus arcana and when specific arcana are available. A blade adept can take this exploit multiple times. Each time it is taken, it applies to a different magus arcana.",
 			">",
-			"**Spell Strike (Su):** The blade adept can deliver touch spells with her bonded weapon. This works as the {class/magus} ability of the same name.",
+			">**Spell Strike (Su):** The blade adept can deliver touch spells with her bonded weapon. This works as the {class/magus} ability of the same name.",
 			">",
-			"**Student of the Blade (Ex):** A blade adept can choose from any of the following bonus feats: {feat/Arcane Strike}, {feat/Weapon Finesse}, and {feat/Weapon Focus/ (in the weapon she is bonded to)}. This exploit can be taken multiple times. Each time it is taken, it applies to a different feat.",
+			">**Student of the Blade (Ex):** A blade adept can choose from any of the following bonus feats: {feat/Arcane Strike}, {feat/Weapon Finesse}, and {feat/Weapon Focus/ (in the weapon she is bonded to)}. This exploit can be taken multiple times. Each time it is taken, it applies to a different feat.",
 			">",
 			">**Weapon Specialization (Ex):** The arcanist gains {feat/Weapon Specialization} with her chosen weapon as a bonus feat. The blade adept does not need to meet the prerequisites for this feat, but must have the {feat/Weapon Focus} feat with her chosen weapon to select this exploit. The arcanist must be at least 5th level to select this exploit."
 		]
@@ -156,17 +156,17 @@
 			"",
 			"**Trump Card (Su):** At 9th level, a Harrowed Society student can expend 1 point from her arcane reservoir and draw a card from her harrow deck as a standard action to learn her own fate or that of an ally within 30 feet. The target's fate depends on the suit of the card drawn from the deck.",
 			"",
-			"**Books:** The target gains a +2 insight bonus on her next caster level check.",
-			"",
-			"**Crowns:** The target gains a +2 insight bonus on her next saving throw.",
-			"",
-			"**Hammers:** The target gains a +4 insight bonus on the damage roll of her next successful melee attack.",
-			"",
-			"**Keys:** The target gains a +4 insight bonus on her next initiative check.",
-			"",
-			"**Shields:** The next time the target receives magical healing, she regains an additional number of hit points equal to the Harrowed Society student's arcanist class level.",
-			"",
-			"**Stars:** The target gains a +4 insight bonus on her next skill check.",
+			">**Books:** The target gains a +2 insight bonus on her next caster level check.",
+			">",
+			">**Crowns:** The target gains a +2 insight bonus on her next saving throw.",
+			">",
+			">**Hammers:** The target gains a +4 insight bonus on the damage roll of her next successful melee attack.",
+			">",
+			">**Keys:** The target gains a +4 insight bonus on her next initiative check.",
+			">",
+			">**Shields:** The next time the target receives magical healing, she regains an additional number of hit points equal to the Harrowed Society student's arcanist class level.",
+			">",
+			">**Stars:** The target gains a +4 insight bonus on her next skill check.",
 			"",
 			"A creature cannot have more than one trump card in effect at one time; drawing a new trump card for a target negates the effect of the previous trump card. A Harrow Society student can attempt to read the fate of an enemy within 30 feet, resulting in a penalty for that target equal to the bonus granted above, but the target is entitled to a Will save (DC = 10 + 1/2 the Harrowed Society student's arcanist level + her Charisma modifier) to negate the effect. This is considered a curse effect. A Harrow Society student can have trump cards in effect for multiple creatures at the same time. This ability replaces the 9th-level arcanist exploit."
 		]
@@ -231,7 +231,7 @@
 			"{SOURCE Advanced Class Guide/78}  ",
 			"Some arcanists specialize in a school of magic and trade flexibility for focus. School savants are able to prepare more spells per day than typical arcanists, but their selection is more limited.",
 			"",
-			"**School Focus (Su):** At 1st level, a school savant chooses a school of magic. The arcanist gains the abilities granted by that school, as the {class/arcane school class feature of the |wizard}, treating her arcanist level as her wizard level for these abilities. She can also further specialize by selecting a subschool. In addition, the arcanist can prepare one additional spell per day of each level she can cast, but this spell must be chosen from the selected school.",
+			"**School Focus (Su):** At 1st level, a school savant chooses a school of magic. The arcanist gains the abilities granted by that school, as the arcane school class feature of the {class/wizard}, treating her arcanist level as her wizard level for these abilities. She can also further specialize by selecting a subschool. In addition, the arcanist can prepare one additional spell per day of each level she can cast, but this spell must be chosen from the selected school.",
 			"",
 			"Finally, the arcanist must select two additional schools of magic as her opposition schools. Whenever she prepares spells from one of her opposition schools, the spell takes up two of her prepared spell slots. In addition, a school savant takes a -4 penalty on any skill checks when crafting a magic item that has a spell from one of her opposition schools as a prerequisite. A school savant cannot select the {exploit/school understanding} arcanist exploit. This ability replaces the arcanist exploits gained at 1st, 3rd, and 7th levels."
 		]
@@ -245,15 +245,15 @@
 			"{SOURCE Advanced Class Guide/78}  ",
 			"Where most arcanists are broad in their study of magic, a spell specialist has her power focused in a few spells. Spell specialists are able to warp and twist the magic of their signature spells in ways other casters cannot.",
 			"",
-			"**Signature Spells:** At 1st level and each time a spell specialist gains a new spell level, she chooses a signature spell. The spell specialist can cast this spell without preparing it, in the same way a sorcerer casts spells spontaneously. Even though the spell specialist does not need to prepare this spell, it still counts against the number of spells she can prepare, reducing the number of spells of each level she can prepare each day by 1. A spell specialist can swap out a single signature spell for another spell of the same level when gaining a class level.",
+			"**Signature Spells:** At 1st level and each time a spell specialist gains a new spell level, she chooses a signature spell. The spell specialist can cast this spell without preparing it, in the same way a {class/sorcerer} casts spells spontaneously. Even though the spell specialist does not need to prepare this spell, it still counts against the number of spells she can prepare, reducing the number of spells of each level she can prepare each day by 1. A spell specialist can swap out a single signature spell for another spell of the same level when gaining a class level.",
 			"",
 			"The DC for signature spells increases by 1. The spell specialist gains a +2 bonus on concentration checks when casting signature spells; this bonus increases to +4 at 10th level. Additionally, a spell specialist can apply one of the following additional effects by spending 1 point from her arcane reservoir.",
 			"",
-			"**Dismiss (Su):** A spell specialist can dismiss a signature spell as a swift action instead of a standard action. Alternatively, the spell specialist can dismiss a signature spell that has a duration but isn't normally dismissible.",
-			"",
-			"**Spell Bender (Su):** The spell specialist can bend the line of a spell that has a line area of effect up to 90 degrees at any single point along the line's length.",
-			"",
-			"**Spellwarp (Su):** A spell specialist can reduce the radius of a spread or burst effect or shorten the length of a cone. All changes must occur in 5-foot increments, to a minimum of 5 feet. Alternatively, the spell specialist can change the area of effect of a cone spell to a line with a length equal to the spell's range.",
+			">**Dismiss (Su):** A spell specialist can dismiss a signature spell as a swift action instead of a standard action. Alternatively, the spell specialist can dismiss a signature spell that has a duration but isn't normally dismissible.",
+			">",
+			">**Spell Bender (Su):** The spell specialist can bend the line of a spell that has a line area of effect up to 90 degrees at any single point along the line's length.",
+			">",
+			">**Spellwarp (Su):** A spell specialist can reduce the radius of a spread or burst effect or shorten the length of a cone. All changes must occur in 5-foot increments, to a minimum of 5 feet. Alternatively, the spell specialist can change the area of effect of a cone spell to a line with a length equal to the spell's range.",
 			"",
 			"This ability replaces the arcanist exploits gained at 1st, 7th, 13th, and 19th levels."
 		]
@@ -273,7 +273,7 @@
 			"",
 			"**Twilight Barrier (Ex):** A twilight sage's arcane barrier differs from those of other arcanists, as it draws upon both negative and positive energy to protect the sage. At 1st level, a twilight sage must choose the {exploit/arcane barrier} exploit as her first arcanist exploit. Whenever an attack removes the last temporary hit point from the twilight sage's arcane barrier, the barrier's negative energy lashes back at the attacker, dealing an amount of negative energy damage equal to the barrier's maximum temporary hit point capacity. This ability alters the arcanist exploit gained at 1st level.",
 			"",
-			"**Twilight Transfer (Su):** At 11th level, a twilight sage's mastery over life and death allows her to transfer life energy into a fading vessel. Once per day, she can expend 1 point from her arcane reservoir while touching a creature that died within the past round to affect that creature as if it had received a breath of life spell, using her arcanist level as the caster level. At the same time, a willing or unconscious living creature within 300 feet that has a number of Hit Dice equal to or greater than the recipient's instantly dies. This ability is a death effect, and if the victim doesn't actually die (such as if it was summoned or is immune to death effects), the recipient doesn't receive the breath of life effect. This ability replaces the arcanist exploit gained at 11th level.",
+			"**Twilight Transfer (Su):** At 11th level, a twilight sage's mastery over life and death allows her to transfer life energy into a fading vessel. Once per day, she can expend 1 point from her arcane reservoir while touching a creature that died within the past round to affect that creature as if it had received a {spell/breath of life} spell, using her arcanist level as the caster level. At the same time, a willing or unconscious living creature within 300 feet that has a number of Hit Dice equal to or greater than the recipient's instantly dies. This ability is a death effect, and if the victim doesn't actually die (such as if it was summoned or is immune to death effects), the recipient doesn't receive the breath of life effect. This ability replaces the arcanist exploit gained at 11th level.",
 			"",
 			"**Death's Release (Su):** At 20th level, a twilight sage has mastered the relationship between death and arcane power, and has gained a limited ability to surpass her own mortality. Whenever she dies (but not if she becomes undead), if she still has points in her arcane reservoir she appears as an ephemeral spirit in the air above her corpse. She can still cast spells in this form, using her corpse as the origin point and determining whether she can see or target any creature or area as though she were alive in that square. To cast a spell, she must expend a number of points from her arcane reservoir equal to 1 + the spell's level. The spirit disappears if she has no points remaining in her arcane reservoir or she spends a round without casting a spell. The spirit can't move, deliver touch or ranged touch spells, or do anything that isn't part of casting a spell. Her spirit completes the verbal and somatic components of her spells, any material components are consumed from the supply on the corpse, and any focus components must be on the corpse. This ability replaces magical supremacy."
 		]
@@ -287,9 +287,9 @@
 			"{SOURCE Advanced Class Guide/79}  ",
 			"Some arcanists store their spells as whispered secrets within familiars instead of on paper.",
 			"",
-			"**Familiar:** An unlettered arcanist does not keep a spellbook. Instead, she gains a familiar in which she stores her spells as a {class/witch} does, though she does not gain a witch's patron. Treat her arcanist level as her witch level for determining the abilities and benefits granted by the familiar. Anything that would allow an unlettered arcanist to add spells to her spellbook allows her to add spells to her familiar instead. This ability replaces spellbooks.",
+			"**Familiar:** An unlettered arcanist does not keep a spellbook. Instead, she gains a {sidekick/familiar} in which she stores her spells as a {class/witch} does, though she does not gain a witch's patron. Treat her arcanist level as her witch level for determining the abilities and benefits granted by the familiar. Anything that would allow an unlettered arcanist to add spells to her spellbook allows her to add spells to her familiar instead. This ability replaces spellbooks.",
 			"",
-			"**Witch Spells:** An unlettered arcanist follows a different arcane tradition. She uses the [witch spell list](main/spells_witch) instead of the [wizard/sorcerer spell list](main/spells_wizard). This ability alters the spells class feature."
+			"**Witch Spells:** An unlettered arcanist follows a different arcane tradition. She uses the {main/spells_<witch/ spell list} instead of the [wizard/sorcerer spell list](main/spells_wizard). This ability alters the spells class feature."
 		]
 	},
 	"white_mage": {
@@ -301,7 +301,7 @@
 			"{SOURCE Advanced Class Guide/79}  ",
 			"A white mage is an arcanist touched by a divine power and gifted with the ability to heal others.",
 			"",
-			"**Spontaneous Healing (Su):** At 1st level, a white mage can expend 1 point from her arcane reservoir to use one of her spell slots to cast a cure spell (any spell with \"cure\" in its name) from the cleric spell list as if it were on her spell list and prepared. The spell must be of a level the arcanist can cast. At 10th level, the white mage can expend 5 points from her arcane reservoir and a spell slot of at least 5th level to cast {spell/breath of life}. This ability replaces the arcanist exploits gained at 1st and 9th levels.",
+			"**Spontaneous Healing (Su):** At 1st level, a white mage can expend 1 point from her arcane reservoir to use one of her spell slots to cast a {main/cure |spell>_groupings} (any spell with \"cure\" in its name) from the cleric spell list as if it were on her spell list and prepared. The spell must be of a level the arcanist can cast. At 10th level, the white mage can expend 5 points from her arcane reservoir and a spell slot of at least 5th level to cast {spell/breath of life}. This ability replaces the arcanist exploits gained at 1st and 9th levels.",
 			"",
 			"**Greater Exploit:** At 11th level, a white mage can select the following greater exploit.",
 			"",

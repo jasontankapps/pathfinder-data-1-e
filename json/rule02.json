@@ -457,7 +457,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/153}",
 			"",
-			"Just as with [weapons](rule/masterwork_weapons), you can purchase or craft masterwork versions of armor or shields. Such a well-made item functions like the normal version, except that its armor check penalty is lessened by 1.",
+			"Just as with {rule/masterwork_<weapons}, you can purchase or craft masterwork versions of armor or shields. Such a well-made item functions like the normal version, except that its armor check penalty is lessened by 1.",
 			"",
 			"A masterwork suit of armor or shield costs an extra 150 gp over and above the normal cost for that type of armor or shield.",
 			"",

@@ -190,7 +190,7 @@
 			"",
 			"**Ritual of Reconciliation (Su):** An Averaka arbiter of 8th level or higher can use his performance to improve the attitudes of nearby creatures by two steps. To be affected, a creature must be within 30 feet and able to hear the bard. Creatures whose attitude toward the bard becomes indifferent or better immediately cease attacking the bard and his allies, but may otherwise act as they please. The effect persists for as long as the creature is within 30 feet and the bard continues his performance. The effect ends if one of the bard's allies attacks the creature. A successful Will saving throw (DC 10 + 1/2 the bard's level + the bard's Charisma modifier) negates the effect. Ritual of reconciliation relies on audible components. This performance replaces dirge of doom.",
 			"",
-			"**Versatile Teamwork (Ex):** At 2nd level, an Averaka arbiter gains a bonus [teamwork feat](main/feats_teamwork). He gains an additional bonus teamwork feat at 6th level and every 4 levels thereafter. This ability replaces versatile performance and well-versed."
+			"**Versatile Teamwork (Ex):** At 2nd level, an Averaka arbiter gains a bonus {main/feats_<teamwork/ feat}. He gains an additional bonus teamwork feat at 6th level and every 4 levels thereafter. This ability replaces versatile performance and well-versed."
 		]
 	},
 	"brazen_deceiver": {

@@ -1651,7 +1651,7 @@
 	"terrain_and_obstacles": {
 		"name": "Terrain and Obstacles",
 		"subtitle": "Movement, Combat",
-		"tags": "Difficult terrain",
+		"tags": "Difficult terrain, Squeezing",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/193}",
@@ -2640,7 +2640,19 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/565}",
 			"",
-			"If more than one condition affects a character, apply them all. If effects can't combine, apply the most severe effect."
+			"If more than one condition affects a character, apply them all. If effects can't combine, apply the most severe effect.",
+			"",
+			">**Awareness Conditions** include Blinded, Confused, Dazed, Dazzled, Deafened, Fascinated, Helpless, Staggered, Stunned, and Unconscious.",
+			">",
+			">**Dying Conditions** comprise Disabled, Dying, Stable, and Dead.",
+			">",
+			">The **Exhaustion Conditions** are Fatigued and Exhausted.",
+			">",
+			">**Fear Conditions** include Shaken, Frightened, Panicked, and Cowering.",
+			">",
+			">**Grapple Conditions** are Grappled and Pinned.",
+			">",
+			">The **Sickened Conditions** are Sickened and Nauseated."
 		],
 		"parent_topics": [ "combat" ],
 		"siblings": [
