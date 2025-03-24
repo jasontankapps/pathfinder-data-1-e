@@ -563,7 +563,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"Your childhood was dominated either by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand. You gain a +2 trait bonus on concentration checks."
+			"Your childhood was dominated either by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand. You gain a +2 trait bonus on {rule/concentration} checks."
 		],
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -2321,7 +2321,7 @@
 			"",
 			"**Type:** Drawback",
 			"",
-			"When you were young, a relative with whom you had frequently quarreled passed away where his or her soul could not rest. Now, the unquiet spirit appears around you at inconvenient times, distracting you with regret for being unable to help. You take a -2 penalty on saving throws against the distraction ability of swarms and mind-affecting effects and on concentration checks."
+			"When you were young, a relative with whom you had frequently quarreled passed away where his or her soul could not rest. Now, the unquiet spirit appears around you at inconvenient times, distracting you with regret for being unable to help. You take a -2 penalty on saving throws against the distraction ability of swarms and mind-affecting effects and on {rule/concentration} checks."
 		],
 		"topLink": [ "Drawback Traits", "main/traits_drawback" ]
 	},
@@ -2627,7 +2627,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
 			"",
-			"Everyone in town seems to admire Ameiko and Shalelu - they're heroes, after all, and played key roles in the recent troubles that plagued Sandpoint. You, though, take this admiration to a new level-you practically worship one of these two. This could be because you saw one of them perform a particularly impressive act of bravery at some point in the past, or maybe they just happened to give you the exact right words of encouragement or a kind gift at some point a few years ago when you were young and impressionable. In any case, they've done your best to emulate your hero's talents at spellcasting or combat. If your hero is Ameiko, you gain a +2 bonus on concentration checks. If your hero is Shalelu, you gain a +1 bonus to your AC against attacks of opportunity. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your hero.",
+			"Everyone in town seems to admire Ameiko and Shalelu - they're heroes, after all, and played key roles in the recent troubles that plagued Sandpoint. You, though, take this admiration to a new level-you practically worship one of these two. This could be because you saw one of them perform a particularly impressive act of bravery at some point in the past, or maybe they just happened to give you the exact right words of encouragement or a kind gift at some point a few years ago when you were young and impressionable. In any case, they've done your best to emulate your hero's talents at spellcasting or combat. If your hero is Ameiko, you gain a +2 bonus on {rule/concentration} checks. If your hero is Shalelu, you gain a +1 bonus to your AC against attacks of opportunity. In addition, you gain a +1 trait bonus on all attack rolls against foes that threaten your hero.",
 			"",
 			"**NPC Choices:** Ameiko, Shalelu."
 		],
@@ -4448,7 +4448,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Zon-Kuthon}",
 			"",
-			"You gain a +4 trait bonus on concentration checks when casting spells with the darkness, pain, or shadow descriptor."
+			"You gain a +4 trait bonus on {rule/concentration} checks when casting spells with the darkness, pain, or shadow descriptor."
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -4461,7 +4461,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Kwanlai",
 			"",
-			"You were raised in Kwanlai in one of the devout tengu churches, and your dedication to your cause makes your divine abilities particularly potent. You gain a +2 trait bonus on concentration checks made while casting divine spells."
+			"You were raised in Kwanlai in one of the devout tengu churches, and your dedication to your cause makes your divine abilities particularly potent. You gain a +2 trait bonus on {rule/concentration} checks made while casting divine spells."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -5883,7 +5883,7 @@
 			"",
 			"When you awake with nothing but hazy memories, you begin carefully cataloging your thoughts to determine the reasons for your condition and where you might be. This comforts you, and you know deep down that you have always relied on your ordered mind and pragmatic approach to face challenges. You use this focus and sensibility to your advantage as you investigate your current dire situation.",
 			"",
-			"Choose three Knowledge skills. You gain a +1 trait bonus on Knowledge checks of these kinds and on concentration checks. In addition, choose one Knowledge skill. When {rule/research/ing}, you are considered to have {feat/Skill Focus} for that Knowledge skill when determining what die you roll to reduce a library's knowledge points (kp)."
+			"Choose three Knowledge skills. You gain a +1 trait bonus on Knowledge checks of these kinds and on {rule/concentration} checks. In addition, choose one Knowledge skill. When {rule/research/ing}, you are considered to have {feat/Skill Focus} for that Knowledge skill when determining what die you roll to reduce a library's knowledge points (kp)."
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},

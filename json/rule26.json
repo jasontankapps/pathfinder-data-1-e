@@ -762,7 +762,7 @@
 			"",
 			"### Impeded Magic",
 			"",
-			"Particular spells and spell-like abilities are more difficult to cast on planes with this trait, often because the nature of the plane interferes with the spell. To cast an impeded spell, the caster must attempt a concentration check (DC = 20 + the level of the spell). On a failed check, the spell does not function but is still lost as a prepared spell or spell slot. On a success, the spell functions normally.",
+			"Particular spells and spell-like abilities are more difficult to cast on planes with this trait, often because the nature of the plane interferes with the spell. To cast an impeded spell, the caster must attempt a {rule/concentration} check (DC = 20 + the level of the spell). On a failed check, the spell does not function but is still lost as a prepared spell or spell slot. On a success, the spell functions normally.",
 			"",
 			"### Limited Magic",
 			"",

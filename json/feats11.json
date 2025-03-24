@@ -1657,7 +1657,7 @@
 			"| 8th | 83, 89, 97 |",
 			"| 9th | 101, 103, 107 |",
 			"",
-			"Refer to the Prime Constants table to determine the prime constants that can be used to cast a spell of the desired effective spell level. Then roll a number of d6s equal to the number of ranks you possess in Knowledge (engineering). Perform some combination of addition, subtraction, multiplication, and division upon the numbers rolled that gives rise to one of the relevant prime constants. If you can produce one of the relevant prime constants, the spell takes effect with the declared metamagic effects, and you expend a spell slot of the unaltered spell's level. If you are unsuccessful, you fail to cast the spell, the action used to cast the spell is lost, and the spell slot is used up. The DC of any concentration check to cast a spell affected by this feat uses the effective spell level used to determine the prime constants, even though a successful casting of the spell does not expend a higher-level spell slot.",
+			"Refer to the Prime Constants table to determine the prime constants that can be used to cast a spell of the desired effective spell level. Then roll a number of d6s equal to the number of ranks you possess in Knowledge (engineering). Perform some combination of addition, subtraction, multiplication, and division upon the numbers rolled that gives rise to one of the relevant prime constants. If you can produce one of the relevant prime constants, the spell takes effect with the declared metamagic effects, and you expend a spell slot of the unaltered spell's level. If you are unsuccessful, you fail to cast the spell, the action used to cast the spell is lost, and the spell slot is used up. The DC of any {rule/concentration} check to cast a spell affected by this feat uses the effective spell level used to determine the prime constants, even though a successful casting of the spell does not expend a higher-level spell slot.",
 			"",
 			"For example, suppose Ezren wants to add the {feat/enlarged} and {feat/empowered} effects to the {spell/magic missile} he just cast. He adds the total level increases of the metamagic effects to the spell level: 2 [empower] + 1 [enlarge] + 1 [magic missile's base level] = 4, so the spell's effective level is 4. Ezren refers to the Prime Constants table, and determines that the prime constants for that effective spell level are 31, 37, and 41.",
 			"",
@@ -2380,7 +2380,7 @@
 			"",
 			"Your experiments with the connection between summoners and the creatures they summon have taught you to see through the eyes of a summoned creature for a short time.  ",
 			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}, ability to cast magic jar.  ",
-			"**Benefit:** When casting a conjuration (summoning) spell that summons a single creature, you can possess the creature as per magic jar (but with no receptacle necessary). If the creature takes damage while you possess it, you must succeed at a concentration check (DC equal to the amount of damage taken) or be ejected from the creature immediately. If the creature takes enough damage to reduce it to 0 hit points or fewer, you are immediately ejected from the creature and take an amount of damage equal to double the level of the spell slot used to summon that creature. A scouting summons spell takes up a spell slot 2 levels higher than the spell's actual level."
+			"**Benefit:** When casting a conjuration (summoning) spell that summons a single creature, you can possess the creature as per magic jar (but with no receptacle necessary). If the creature takes damage while you possess it, you must succeed at a {rule/concentration} check (DC equal to the amount of damage taken) or be ejected from the creature immediately. If the creature takes enough damage to reduce it to 0 hit points or fewer, you are immediately ejected from the creature and take an amount of damage equal to double the level of the spell slot used to summon that creature. A scouting summons spell takes up a spell slot 2 levels higher than the spell's actual level."
 		]
 	},
 	"scribe_scroll": {
@@ -3044,7 +3044,7 @@
 			"",
 			"You can choke foes with a lasso.  ",
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (lasso)}, {feat/Weapon Focus/ (lasso)}.  ",
-			"**Benefit:** When you successfully entangle a creature with a lasso and beat the target's CMD by 5 or more, the target cannot speak above a whisper and must succeed at a concentration check (DC = 20 + your CMB + the spell level) to cast a spell with a verbal component, use a command word item, or use any magic requiring speech. Additionally, the DC of an Escape Artist check to slip free of a lasso you are using equals 15 or your CMD, whichever is higher."
+			"**Benefit:** When you successfully entangle a creature with a lasso and beat the target's CMD by 5 or more, the target cannot speak above a whisper and must succeed at a {rule/concentration} check (DC = 20 + your CMB + the spell level) to cast a spell with a verbal component, use a command word item, or use any magic requiring speech. Additionally, the DC of an Escape Artist check to slip free of a lasso you are using equals 15 or your CMD, whichever is higher."
 		]
 	},
 	"strangler_uc": {
@@ -3243,7 +3243,7 @@
 			"",
 			"Your connection to a particular implement allows you to draw on its power more efficiently even when it's not in your possession.  ",
 			"**Prerequisites:** Implements class feature.  ",
-			"**Benefit:** When you are within 30 feet of your implement, you don't need to attempt a concentration check to cast spells associated with that implement. When you are at a greater distance, the DC for the concentration check is equal to 15 + the spell's level.  ",
+			"**Benefit:** When you are within 30 feet of your implement, you don't need to attempt a {rule/concentration} check to cast spells associated with that implement. When you are at a greater distance, the DC for the concentration check is equal to 15 + the spell's level.  ",
 			"**Normal:** Anytime you attempt to cast a spell using an implement that's not in your possession, you must succeed at a concentration check with a DC equal to 20 + the spell's level in order to cast the spell.  ",
 			"**Special:** You can take this feat multiple times. Its effects don't stack. Each time you take the feat, you gain the benefits for a different school of implements. If you have more than one implement of a single school, you can select that school multiple times and apply the benefits to another one of those implements each time you take this feat and select that school."
 		]

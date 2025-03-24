@@ -49,7 +49,7 @@
 			"{SOURCE Ultimate Combat/52}  ",
 			"**Deities** Any (with GM approval)",
 			"",
-			"**Granted Powers:** You gain {feat/Exotic Weapon Proficiency} (firearms) and {feat/Gunsmithing} as bonus feats. When you hit an arcane spellcaster or a creature that uses spell-like abilities with a firearm attack, that creature must succeed at a Fortitude saving throw. If the spellcaster fails, he takes a -4 penalty on concentration checks for 1 round."
+			"**Granted Powers:** You gain {feat/Exotic Weapon Proficiency} (firearms) and {feat/Gunsmithing} as bonus feats. When you hit an arcane spellcaster or a creature that uses spell-like abilities with a firearm attack, that creature must succeed at a Fortitude saving throw. If the spellcaster fails, he takes a -4 penalty on {rule/concentration} checks for 1 round."
 		]
 	},
 	"chivalry": {

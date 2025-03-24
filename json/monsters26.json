@@ -2115,7 +2115,7 @@
 			"",
 			"**Swift Transformation (Su)** A veiled master can use its change shape ability as a swift action.",
 			"",
-			"**Thoughtlance (Su)** Four of a veiled master's tentacles end in glowing spheres of light. These spheres deal 2d6 points of electricity damage on a successful touch attack and also blast a creature's mind with waves of mental energy. A creature touched by one of these tentacles (regardless of whether the touch deals electricity damage) must succeed at a DC 24 Will save or be staggered for 1 round. Additional touches increase the duration of this effect by 1 round. While a creature is staggered in this manner, it must attempt concentration checks to cast spells as if it were experiencing extremely violent motion while casting (DC = 20 + spell level). The save DC is Charisma-based.",
+			"**Thoughtlance (Su)** Four of a veiled master's tentacles end in glowing spheres of light. These spheres deal 2d6 points of electricity damage on a successful touch attack and also blast a creature's mind with waves of mental energy. A creature touched by one of these tentacles (regardless of whether the touch deals electricity damage) must succeed at a DC 24 Will save or be staggered for 1 round. Additional touches increase the duration of this effect by 1 round. While a creature is staggered in this manner, it must attempt {rule/concentration} checks to cast spells as if it were experiencing extremely violent motion while casting (DC = 20 + spell level). The save DC is Charisma-based.",
 			"",
 			"::sh[Description]",
 			"",

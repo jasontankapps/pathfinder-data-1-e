@@ -2391,7 +2391,7 @@
 			"",
 			"Having attained the highest and most profane form of magical achievement in the Great Destroyer's service, you are able to call forth his most dreaded creations: the Spawn of Rovagug. Casting this spell requires a week-long ritual involving the sacrifice of one or more sentient humanoid creatures that between them possess a total of at least 15 Hit Dice. You may not eat, sleep, or cast any other spells for the duration of this ritual. After the third day of the ritual, you must succeed at a Constitution check on each remaining day of the ritual (DC 10 + 1 for each previous check) or take 1d6 points of nonlethal damage from hunger. At the end of the ritual, you gain the exhausted condition from lack of sleep.",
 			"",
-			"Upon completion of the ritual, the ground rumbles in a 100-foot radius centered on you. This effect lasts for 1 round. Any creature on the ground in this area that attempts to cast a spell during this round must succeed at a concentration check (DC 20 + spell level) or lose the spell. Any creature on the ground in the area that attempts to attack or move during this round must succeed at a DC 15 Reflex save at the beginning of its turn or fall prone.",
+			"Upon completion of the ritual, the ground rumbles in a 100-foot radius centered on you. This effect lasts for 1 round. Any creature on the ground in this area that attempts to cast a spell during this round must succeed at a {rule/concentration} check (DC 20 + spell level) or lose the spell. Any creature on the ground in the area that attempts to attack or move during this round must succeed at a DC 15 Reflex save at the beginning of its turn or fall prone.",
 			"",
 			"At the beginning of your next turn, a massive fissure full of dark fire and shrieking cries appears at a point you designate within the spell's range, and a Spawn of Rovagug emerges. This creature takes the form of a thunder behemoth with the advanced and entropic simple templates. Unlike with summon monster or similar spells, the caster has no control whatsoever over the called creature. The spawn immediately heads in a random direction or toward an obvious target such as a population center, destroying anything in its path, yourself and your allies included.",
 			"",
@@ -2942,7 +2942,7 @@
 			"",
 			"If the target has more than one spellcasting class, choose one at random to be affected. This spell has no effect on spell-like abilities.",
 			"",
-			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a concentration check while trying to cast it - the spell or spell slot is wasted and has no effect, but is recovered normally the next time the character prepares spells or regains spell slots.",
+			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a {rule/concentration} check while trying to cast it - the spell or spell slot is wasted and has no effect, but is recovered normally the next time the character prepares spells or regains spell slots.",
 			"",
 			"::h3[Spellcrash]{jl}",
 			"",
@@ -3013,7 +3013,7 @@
 			"**Area** two 10-ft. cubes per level (S)  ",
 			"**Duration** 10 minutes/level (D)",
 			"",
-			"This potent spell invokes the same sort of magical devastation that created the Mana Wastes so long ago, albeit on a much more localized (and thankfully temporary) scale. Within the area you choose to affect with spellscar, the terrain takes on a strange pale hue, as if colors were muted. Periodically, ripples of vibrant color wriggle through the terrain. Within this area, any spell, spell-like ability, or magic item activation automatically triggers a {rule/primal magic} event - a spellcaster can avoid triggering such an event by making a concentration check (DC 15 + twice the spell's level), but non-spellcasters who activate magic items have no such option.",
+			"This potent spell invokes the same sort of magical devastation that created the Mana Wastes so long ago, albeit on a much more localized (and thankfully temporary) scale. Within the area you choose to affect with spellscar, the terrain takes on a strange pale hue, as if colors were muted. Periodically, ripples of vibrant color wriggle through the terrain. Within this area, any spell, spell-like ability, or magic item activation automatically triggers a {rule/primal magic} event - a spellcaster can avoid triggering such an event by making a {rule/concentration} check (DC 15 + twice the spell's level), but non-spellcasters who activate magic items have no such option.",
 			"",
 			"You gain a +4 insight bonus on concentration checks made to avoid triggering primal magic events while within a spellscar you have created, and if you do trigger a primal magic event, you may roll d% twice and pick which of the two results you wish to have occur."
 		]
@@ -3061,7 +3061,7 @@
 			"",
 			"If the target has more than one spellcasting class, choose one at random to be affected. This spell has no effect on spell-like abilities.",
 			"",
-			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a concentration check while trying to cast - the spell or spell slot is wasted and has no effect, but it is recovered normally the next time the character prepares spells or regains spell slots."
+			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a {rule/concentration} check while trying to cast - the spell or spell slot is wasted and has no effect, but it is recovered normally the next time the character prepares spells or regains spell slots."
 		]
 	},
 	"sphere_of_warding": {
@@ -3313,7 +3313,7 @@
 			"**Effect** 100-ft.-radius spread centered on you  ",
 			"**Duration** 1 minute/level",
 			"",
-			"You call out to nature spirits associated with your spirit (not your wandering spirit) if you are a shaman, or your domain if you are a druid, beckoning them forth to pay attention to your current location. For the duration of the spell, all spells from your spirit magic list or domain list that are cast within the affected area have their caster level increased by 1, and all spellcasters casting such spells receive a +4 insight bonus on their concentration checks for those spells only."
+			"You call out to nature spirits associated with your spirit (not your wandering spirit) if you are a shaman, or your domain if you are a druid, beckoning them forth to pay attention to your current location. For the duration of the spell, all spells from your spirit magic list or domain list that are cast within the affected area have their caster level increased by 1, and all spellcasters casting such spells receive a +4 insight bonus on their {rule/concentration} checks for those spells only."
 		]
 	},
 	"spirit_share": {
@@ -3792,7 +3792,7 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** Will negates (harmless, object); **Spell Resistance** yes (harmless, object)",
 			"",
-			"A saddle affected by this spell becomes more comfortable to sit in, and the magic stabilizes any shaking motion caused by riding at a high speed. For the duration of the spell, the penalty to use ranged weapons while mounted in the target saddle decreases by 2. This stacks with the benefit of the {feat/Mounted Archery} feat and similar effects. Furthermore, the DC for any concentration check required as a result of the mount's movement decreases by 2."
+			"A saddle affected by this spell becomes more comfortable to sit in, and the magic stabilizes any shaking motion caused by riding at a high speed. For the duration of the spell, the penalty to use ranged weapons while mounted in the target saddle decreases by 2. This stacks with the benefit of the {feat/Mounted Archery} feat and similar effects. Furthermore, the DC for any {rule/concentration} check required as a result of the mount's movement decreases by 2."
 		]
 	},
 	"steal_book": {
@@ -4324,7 +4324,7 @@
 			"",
 			"*5th through 10th Rounds:* Violent rain and wind gusts reduce visibility. The rain obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target). Speed is reduced by three-quarters.",
 			"",
-			"Ranged attacks within the area of the storm are impossible. Spells cast within the area are disrupted unless the caster succeeds on a Concentration check against a DC equal to the storm of vengeance's save DC + the level of the spell the caster is trying to cast.",
+			"Ranged attacks within the area of the storm are impossible. Spells cast within the area are disrupted unless the caster succeeds on a {rule/Concentration} check against a DC equal to the storm of vengeance's save DC + the level of the spell the caster is trying to cast.",
 			"",
 			"### Mythic Storm of Vengeance",
 			"",

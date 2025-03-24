@@ -60,7 +60,7 @@
 			"**Type:** Regional  ",
 			"**Region:** The Sodden Lands",
 			"",
-			"You have spent time in the gales of the perpetual hurricane, and can cast spells even when battered by the elements. You gain a +2 trait bonus on concentration checks when spellcasting."
+			"You have spent time in the gales of the perpetual hurricane, and can cast spells even when battered by the elements. You gain a +2 trait bonus on {rule/concentration} checks when spellcasting."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1308,7 +1308,7 @@
 			"| 29-31 | Your ears have stretched to an abnormal size, making you overly sensitive to loud noises. Whenever you are dealt sonic damage, you take 1 additional point of damage, and you are deafened for 1 minute whenever you take damage from any sonic effect. |",
 			"| 32-33 | The pupils of your eyes resemble a cat's, and beasts cannot abide your presence. You take a -2 penalty on Handle Animal and Ride checks. |",
 			"| 34-35 | You grow velvety-soft fur along your back, arms, and legs that chafes and catches under clothing and armor, increasing the armor check penalty of any armor by 1 and applying a -1 armor check penalty to ordinary clothing. Clothing and armor can be specially fitted for you, eliminating the increased penalty but increasing their price by 50 gp. |",
-			"| 36-37 | You grow an extra row of sharp, crooked teeth. The uneven set of your jaws gives you constant headaches. You take a -2 penalty on concentration checks and saving throws against pain effects. |",
+			"| 36-37 | You grow an extra row of sharp, crooked teeth. The uneven set of your jaws gives you constant headaches. You take a -2 penalty on {rule/concentration} checks and saving throws against pain effects. |",
 			"| 38-40 | It is nearly impossible to find armor that fits your concave chest and unusually narrow, sloping shoulders. The armor check penalty of any armor you wear increases by 1, and you take a -1 penalty to AC when wearing medium or heavy armor. |",
 			"| 41-42 | Your throat balloons out like a frog's, and your voice comes out as an odd croak. You take a -2 penalty on Diplomacy checks and on Perform (act, oratory, and sing) checks. |",
 			"| 43-45 | An oozing sore has developed on your face that refuses to heal and makes you more susceptible to illness. You take a -2 penalty on saving throws against disease. |",
@@ -2061,7 +2061,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Angradd}, {faith/Gorum}, {faith/Torag}, or {faith/Trudd}",
 			"",
-			"Your faith protects you even as you unleash spells in the thick of battle. You receive a +1 trait bonus on concentration checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting."
+			"Your faith protects you even as you unleash spells in the thick of battle. You receive a +1 trait bonus on {rule/concentration} checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting."
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -5221,7 +5221,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"You have belonged to a coven or magical cabal and know how to coordinate your spellcasting with others. When within 30 feet of an allied spellcaster, you both gain a +2 trait bonus on concentration checks."
+			"You have belonged to a coven or magical cabal and know how to coordinate your spellcasting with others. When within 30 feet of an allied spellcaster, you both gain a +2 trait bonus on {rule/concentration} checks."
 		],
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},

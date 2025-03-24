@@ -919,7 +919,7 @@
 			"",
 			"Your command of shapeshifting magic can disrupt similar effects in others.  ",
 			"**Prerequisites:** Knowledge (arcana) 5 ranks or Knowledge (nature) 5 ranks, ability to use any polymorph effect.  ",
-			"**Benefit:** A creature you deal damage to has difficulty using or maintaining polymorph effects until the end your next turn. To use a polymorph effect it must make a concentration check (DC 15 + twice the level of the effect). If you deal damage to an opponent under a polymorph effect, that opponent must succeed at a Will saving throw (DC 10 + 1/2 your character level + your Wisdom modifier) or be forced back to its original form. If you score a critical hit against such an opponent, no saving throw is allowed."
+			"**Benefit:** A creature you deal damage to has difficulty using or maintaining polymorph effects until the end your next turn. To use a polymorph effect it must make a {rule/concentration} check (DC 15 + twice the level of the effect). If you deal damage to an opponent under a polymorph effect, that opponent must succeed at a Will saving throw (DC 10 + 1/2 your character level + your Wisdom modifier) or be forced back to its original form. If you score a critical hit against such an opponent, no saving throw is allowed."
 		]
 	},
 	"shapeshifter_savage": {
@@ -1593,7 +1593,7 @@
 			"{SOURCE Advanced Player's Guide/169}",
 			"",
 			"Your allies cover you while you cast complicated spells.  ",
-			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +4 competence bonus on concentration checks. If your ally is wielding a buckler or a light shield, this bonus increases by +1. If your ally is wielding a heavy shield or a tower shield, this bonus increases by +2. Finally, if an enemy threatening you and your ally has the {feat/Disruptive} feat, or another ability that increases the DC of concentration checks, the amount of the increase is halved."
+			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +4 competence bonus on {rule/concentration} checks. If your ally is wielding a buckler or a light shield, this bonus increases by +1. If your ally is wielding a heavy shield or a tower shield, this bonus increases by +2. Finally, if an enemy threatening you and your ally has the {feat/Disruptive} feat, or another ability that increases the DC of concentration checks, the amount of the increase is halved."
 		]
 	},
 	"shielded_gauntlet_attack": {
@@ -3904,7 +3904,7 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
 			">",
-			">When you hit a caster with an attack of opportunity it provoked by failing to cast defensively, you can spend 5 stamina points to daze the caster until the end of its next turn. If the caster succeeds at a Fortitude save with a DC equal to 10 + your base attack bonus, it is staggered instead.",
+			">When you hit a caster with an attack of opportunity it provoked by failing to [cast defensively](rule/concentration), you can spend 5 stamina points to daze the caster until the end of its next turn. If the caster succeeds at a Fortitude save with a DC equal to 10 + your base attack bonus, it is staggered instead.",
 			"",
 			"### Mythic Spellbreaker",
 			"",
@@ -4690,7 +4690,7 @@
 			"",
 			"You run with a smooth and steady gait.  ",
 			"**Prerequisites:** Animal or magical beast.  ",
-			"**Benefit:** Your AC penalty when charging is halved. The penalties on ranged attacks made by your rider are reduced by 1 when you take a double move and by 2 when you run (minimum penalty of 0). Your rider gains a +4 bonus on concentration checks caused by your motion."
+			"**Benefit:** Your AC penalty when charging is halved. The penalties on ranged attacks made by your rider are reduced by 1 when you take a double move and by 2 when you run (minimum penalty of 0). Your rider gains a +4 bonus on {rule/concentration} checks caused by your motion."
 		]
 	},
 	"stable_spell": {
@@ -4702,7 +4702,7 @@
 			"{SOURCE Wardens of the Reborn Forge/49}",
 			"",
 			"You can cast spells in areas of {rule/primal magic} with less chance of triggering a primal magic event.  ",
-			"**Benefit:** In areas of primal magic, the chance of a stable spell triggering a primal magic event is reduced by 25%. In cases where a primal magic event would trigger despite the reduced chances, the caster of a stable spell receives a +2 bonus on the concentration check to avoid the primal magic event. A stable spell uses up a spell slot 1 level higher than the spell's actual level."
+			"**Benefit:** In areas of primal magic, the chance of a stable spell triggering a primal magic event is reduced by 25%. In cases where a primal magic event would trigger despite the reduced chances, the caster of a stable spell receives a +2 bonus on the {rule/concentration} check to avoid the primal magic event. A stable spell uses up a spell slot 1 level higher than the spell's actual level."
 		]
 	},
 	"stag_horns": {
@@ -4994,7 +4994,7 @@
 			"",
 			"You can concentrate even in the direst circumstances, and know how to retain your magic even when it would otherwise be wasted.  ",
 			"**Prerequisites:** Cha 15, Int 15, or Wis 15 (see special).  ",
-			"**Benefit:** Whenever you fail a concentration check while casting defensively and would normally lose a prepared spell or spell slot, you may attempt a Will save (DC = 15 + spell level) to retain the spell as though you had not attempted to cast it. The failed concentration check still results in the spell's failure, even if the spell is retained.  ",
+			"**Benefit:** Whenever you fail a {rule/concentration} check while casting defensively and would normally lose a prepared spell or spell slot, you may attempt a Will save (DC = 15 + spell level) to retain the spell as though you had not attempted to cast it. The failed concentration check still results in the spell's failure, even if the spell is retained.  ",
 			"**Special:** To gain the benefits of this feat, you must meet the prerequisite that matches the ability score you use to determine your save DCs, bonus spells per day, and ability to cast spells of a given level. If you gain spells from multiple classes, you must meet the prerequisite ability score for each class to gain the benefits of this feat when casting spells from that class's spell list."
 		]
 	},

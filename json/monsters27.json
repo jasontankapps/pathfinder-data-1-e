@@ -3411,7 +3411,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Mindboggle Aura (Su)** A boggle is swathed in a 30-foot aura of supernatural mirth. The first time a creature ends its turn within this area, it must succeed at a DC 19 Will save or be overcome by a sense of absurdity, taking a -10 penalty on Sense Motive and Perception checks and a -2 penalty on initiative checks. Spellcasters must succeed at a concentration check (DC = 15 + spell level) to cast spells while affected due to the extreme distraction. This effect persists for 13 minutes, even if a creature leaves the aura. A creature that successfully saves against the aura can't be affected by the same boggle's mindboggle aura for 24 hours. This is an emotion-based, mind-affecting effect. The save DC is Charisma-based.",
+			"**Mindboggle Aura (Su)** A boggle is swathed in a 30-foot aura of supernatural mirth. The first time a creature ends its turn within this area, it must succeed at a DC 19 Will save or be overcome by a sense of absurdity, taking a -10 penalty on Sense Motive and Perception checks and a -2 penalty on initiative checks. Spellcasters must succeed at a {rule/concentration} check (DC = 15 + spell level) to cast spells while affected due to the extreme distraction. This effect persists for 13 minutes, even if a creature leaves the aura. A creature that successfully saves against the aura can't be affected by the same boggle's mindboggle aura for 24 hours. This is an emotion-based, mind-affecting effect. The save DC is Charisma-based.",
 			"",
 			"**Scarecrow Form (Sp)** This spell-like ability functions as per {spell/tree shape}, except the form assumed is that of a Medium humanoid scarecrow instead of a tree.",
 			"",

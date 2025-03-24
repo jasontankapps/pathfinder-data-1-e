@@ -307,7 +307,7 @@
 			"",
 			"**Rejection of Faith (Ex):** At 2nd level, the cavalier must refuse all divine magic, including helpful effects or spells. As long as he has not benefited from divine magic in the past 24 hours, he receives a +2 morale bonus on one saving throw of his choice. Each day he can change the saving throw to which this bonus applies.",
 			"",
-			"**Threat of Reason (Ex):** At 8th level, whenever the cavalier threatens a space occupied by a divine spellcaster, the spellcaster must add 4 to the DC of any concentration checks, dispel checks, or caster level checks she attempts.",
+			"**Threat of Reason (Ex):** At 8th level, whenever the cavalier threatens a space occupied by a divine spellcaster, the spellcaster must add 4 to the DC of any {rule/concentration} checks, {spell/dispel>_magic} checks, or caster level checks she attempts.",
 			"",
 			"**Godslayer (Ex):** At 15th level, whenever the cavalier makes a melee attack against the target of his challenge and that target is a divine spellcaster, the cavalier gains a bonus on attack and damage rolls equal to his Charisma modifier. This damage is multiplied on a critical hit."
 		]
@@ -760,7 +760,7 @@
 			"",
 			"**Order Abilities:** A cavalier who belongs to the order of the staff gains the following abilities as he increases in level.",
 			"",
-			"**Spell Aid (Ex):** At 2nd level, whenever the cavalier uses the aid another action to assist one of his allies, the ally receives a +2 competence bonus on the next concentration check, dispel check, or caster level check she makes (whichever comes first). At 8th level and every six levels thereafter, this bonus increases by an additional +1.",
+			"**Spell Aid (Ex):** At 2nd level, whenever the cavalier uses the aid another action to assist one of his allies, the ally receives a +2 competence bonus on the next {rule/concentration} check, {spell/dispel>_magic} check, or caster level check she makes (whichever comes first). At 8th level and every six levels thereafter, this bonus increases by an additional +1.",
 			"",
 			"**Arcane Vessel (Ex):** At 8th level, whenever the cavalier gains a bonus on attack rolls, saving throws, or damage rolls from a spell or spell-like ability cast by another creature, the cavalier also gains a number of temporary hit points equal to the level of the spell or spell-like ability. Temporary hit points gained from this ability from different spells stack, but only to a maximum number of temporary hit points equal to the cavalier's level. These temporary hit points last for 10 minutes.",
 			"",

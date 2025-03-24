@@ -1267,7 +1267,7 @@
 			"",
 			"Your bond with your eidolon helps to focus your concentration.  ",
 			"**Prerequisites:** Shield ally class feature.  ",
-			"**Benefit:** While you are adjacent to your eidolon, you receive a +4 bonus on concentration checks."
+			"**Benefit:** While you are adjacent to your eidolon, you receive a +4 bonus on {rule/concentration} checks."
 		]
 	},
 	"focused_fey_expertise": {
@@ -1359,7 +1359,7 @@
 			"",
 			"Your close bond with your phantom helps you to focus your concentration.  ",
 			"**Prerequisites:** Spiritual interference class feature.  ",
-			"**Benefit:** While you are adjacent to your phantom or your phantom is within your consciousness, you receive a +4 bonus on concentration checks."
+			"**Benefit:** While you are adjacent to your phantom or your phantom is within your consciousness, you receive a +4 bonus on {rule/concentration} checks."
 		]
 	},
 	"focused_plant_expertise": {

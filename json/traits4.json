@@ -614,7 +614,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"You've often found yourself in situations where a lack of focus can lead to worse than a lost spell. You gain a +2 trait bonus on concentration checks."
+			"You've often found yourself in situations where a lack of focus can lead to worse than a lost spell. You gain a +2 trait bonus on {rule/concentration} checks."
 		],
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -626,7 +626,7 @@
 			"",
 			"**Type:** Magic",
 			"",
-			"You are adept at casting spells even in the most precarious situations. You gain a +1 trait bonus on concentration checks. This trait bonus increases to +4 when you are grappled, pinned, in violent weather, or entangled."
+			"You are adept at casting spells even in the most precarious situations. You gain a +1 trait bonus on {rule/concentration} checks. This trait bonus increases to +4 when you are grappled, pinned, in violent weather, or entangled."
 		],
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -2341,7 +2341,7 @@
 			"",
 			"**Type:** Drawback",
 			"",
-			"You grew up in or near an opulent, decadent culture that valued nothing more than showing up the material wealth or accomplishments of others, causing the seed of envy to be planted in your heart. For each day you spend without stealing at least 10 gp worth of valuables or other wealth, attempt a DC 20 Will save. If you fail, you take a cumulative -1 penalty on Will and Reflex saving throws and concentration checks (up to a -5 penalty). If you succeed, the penalty is reset to 0."
+			"You grew up in or near an opulent, decadent culture that valued nothing more than showing up the material wealth or accomplishments of others, causing the seed of envy to be planted in your heart. For each day you spend without stealing at least 10 gp worth of valuables or other wealth, attempt a DC 20 Will save. If you fail, you take a cumulative -1 penalty on Will and Reflex saving throws and {rule/concentration} checks (up to a -5 penalty). If you succeed, the penalty is reset to 0."
 		],
 		"topLink": [ "Drawback Traits", "main/traits_drawback" ]
 	},
@@ -2695,7 +2695,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Ifrit",
 			"",
-			"Whenever you damage an opponent that is casting a spell with a melee attack that deals fire damage (such as a flaming weapon or a torch), the DC of the concentration check for your opponent to cast the spell is equal to 10 + the non-fire damage dealt + double the fire damage dealt + the spell's level (instead of just 10 + the damage dealt + the spell's level)."
+			"Whenever you damage an opponent that is casting a spell with a melee attack that deals fire damage (such as a flaming weapon or a torch), the DC of the {rule/concentration} check for your opponent to cast the spell is equal to 10 + the non-fire damage dealt + double the fire damage dealt + the spell's level (instead of just 10 + the damage dealt + the spell's level)."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3936,7 +3936,7 @@
 			"",
 			"**Type:** Drawback",
 			"",
-			"You draw magical power from a source, such as a mysterious eidolon, shame-filled phantom, or First World patron, who insists that its identity remains secret. You take a -1 penalty on concentration checks, and you must invoke the entity's name by word or text each day or be unable to regain spell slots that day. You must be able to cast 0-level and 1st-level spells as a class feature to select this drawback."
+			"You draw magical power from a source, such as a mysterious eidolon, shame-filled phantom, or First World patron, who insists that its identity remains secret. You take a -1 penalty on {rule/concentration} checks, and you must invoke the entity's name by word or text each day or be unable to regain spell slots that day. You must be able to cast 0-level and 1st-level spells as a class feature to select this drawback."
 		],
 		"topLink": [ "Drawback Traits", "main/traits_drawback" ]
 	},

@@ -697,7 +697,7 @@
 			"**Prerequisite:** Perform (percussion) or Perform (sing) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** You tap out or sing a diverting tune that sticks in the mind of the target, causing the target to take a -2 penalty on attack rolls and a -4 penalty on concentration checks for 10 minutes. A successful Will save halves the penalties and reduces the duration to 1 minute. This ability is a mind-affecting compulsion effect and relies on audible components.",
+			"**Effect:** You tap out or sing a diverting tune that sticks in the mind of the target, causing the target to take a -2 penalty on attack rolls and a -4 penalty on {rule/concentration} checks for 10 minutes. A successful Will save halves the penalties and reduces the duration to 1 minute. This ability is a mind-affecting compulsion effect and relies on audible components.",
 			"",
 			"**Use:** 3 bardic performance rounds.  ",
 			"**Action:** 1 standard action"
@@ -716,7 +716,7 @@
 			"**Prerequisite:** Perform (keyboard, sing, string, or wind) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** Whenever you end a bardic performance, you can add a quick reprise that makes it unnaturally catchy. Any creature within 30 feet of you when you finish your performance will run the risk of having your tune replaying endlessly in its mind. Unless the creature succeeds on a Will saving throw (DC = 10 + 1/2 your bard level + your Charisma modifier), the tune distracts it for 1 day per bard level. The creature takes a -4 penalty on concentration checks, initiative checks, and Perception checks as long as it remains distracted. The creature's sleep also becomes fitful, requiring half again as long for the usual benefit and entirely negating the benefits of full bed rest beyond a normal rest. Once per day upon waking after rest, the creature can attempt a new Will saving throw to shake off the relentless reprise. If it fails, the creature takes 1d2 points of Wisdom damage (or 1d4 points of {rule/sanity/ damage}). This is a curse effect with audible components.",
+			"**Effect:** Whenever you end a bardic performance, you can add a quick reprise that makes it unnaturally catchy. Any creature within 30 feet of you when you finish your performance will run the risk of having your tune replaying endlessly in its mind. Unless the creature succeeds on a Will saving throw (DC = 10 + 1/2 your bard level + your Charisma modifier), the tune distracts it for 1 day per bard level. The creature takes a -4 penalty on {rule/concentration} checks, initiative checks, and Perception checks as long as it remains distracted. The creature's sleep also becomes fitful, requiring half again as long for the usual benefit and entirely negating the benefits of full bed rest beyond a normal rest. Once per day upon waking after rest, the creature can attempt a new Will saving throw to shake off the relentless reprise. If it fails, the creature takes 1d2 points of Wisdom damage (or 1d4 points of {rule/sanity/ damage}). This is a curse effect with audible components.",
 			"",
 			"**Use:** 1 round of bardic performance.  ",
 			"**Action:** 1 immediate action."
@@ -1003,7 +1003,7 @@
 			"**Prerequisite:** Perform (dance) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** The shuffling steps, bends, and leaps of this intricate dance make you a difficult target to hit, but also make it more difficult for you to perform other actions. When using this masterpiece, you take a -2 penalty on melee attack rolls and combat maneuver checks, and you must make a concentration check to cast any spell (DC 15 + the spell's level), but you gain a +2 dodge bonus to your Armor Class. When you have 8 ranks in Perform (dance), and every 4 ranks thereafter, the penalty increases by -1 and the dodge bonus increases by +1. You can combine this masterpiece with fighting defensively and {feat/Combat Expertise}, but not total defense. When you use this masterpiece, it lasts until the start of your next turn. Abilities that extend the duration of a bardic performance (such as {feat/Lingering Performance}) affect this masterpiece; this allows you to get multiple rounds of its benefit (and its penalties) at the cost of only 1 round of bardic performance.",
+			"**Effect:** The shuffling steps, bends, and leaps of this intricate dance make you a difficult target to hit, but also make it more difficult for you to perform other actions. When using this masterpiece, you take a -2 penalty on melee attack rolls and combat maneuver checks, and you must make a {rule/concentration} check to cast any spell (DC 15 + the spell's level), but you gain a +2 dodge bonus to your Armor Class. When you have 8 ranks in Perform (dance), and every 4 ranks thereafter, the penalty increases by -1 and the dodge bonus increases by +1. You can combine this masterpiece with fighting defensively and {feat/Combat Expertise}, but not total defense. When you use this masterpiece, it lasts until the start of your next turn. Abilities that extend the duration of a bardic performance (such as {feat/Lingering Performance}) affect this masterpiece; this allows you to get multiple rounds of its benefit (and its penalties) at the cost of only 1 round of bardic performance.",
 			"",
 			"**Use:** 1 bardic performance round.  ",
 			"**Action:** 1 free action."
@@ -1179,7 +1179,7 @@
 			"**Prerequisite:** Perform (sing) 5 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** Your song emulates the sounds of a terrible illness, causing one creature you are aware of who can hear your song to develop a psychosomatic flu. If the target fails its Will save, whenever it attempts any action other than moving up to its base speed or making a single melee attack (but not both) in a single round, it must succeed at a concentration check (DC 10 + your Charisma modifier) to avoid wasting its action because of a fit of coughing and sneezing.",
+			"**Effect:** Your song emulates the sounds of a terrible illness, causing one creature you are aware of who can hear your song to develop a psychosomatic flu. If the target fails its Will save, whenever it attempts any action other than moving up to its base speed or making a single melee attack (but not both) in a single round, it must succeed at a {rule/concentration} check (DC 10 + your Charisma modifier) to avoid wasting its action because of a fit of coughing and sneezing.",
 			"",
 			"**Use:** 1 bardic performance round per round.  ",
 			"**Action:** 1 standard action."

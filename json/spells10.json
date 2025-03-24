@@ -1022,7 +1022,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You overstimulate the senses of the affected creature, causing its senses to interfere with another. While a creature is under the effects of this spell, sensory input is processed by the wrong senses, such that noise triggers bursts of colors, smells create sounds, and so on. The affected creature moves at half speed, has a 20% miss chance on attacks, and takes a -4 penalty to AC and on skill checks and Reflex saves. Successful spellcasting while affected requires a concentration check with a DC equal to this spell's save DC plus the level of spell being cast.",
+			"You overstimulate the senses of the affected creature, causing its senses to interfere with another. While a creature is under the effects of this spell, sensory input is processed by the wrong senses, such that noise triggers bursts of colors, smells create sounds, and so on. The affected creature moves at half speed, has a 20% miss chance on attacks, and takes a -4 penalty to AC and on skill checks and Reflex saves. Successful spellcasting while affected requires a {rule/concentration} check with a DC equal to this spell's save DC plus the level of spell being cast.",
 			"",
 			"In addition, the affected creature is considered distracted for the purpose of attempting Perception checks. Effects that negate or reduce concealment do not affect the miss chance from synesthesia.",
 			"",
@@ -1674,7 +1674,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"Creatures within the area cannot send or receive telepathic messages, and anyone in the area casting a spell with a thought component must succeed at a concentration check (DC = 20 + twice the spell's level; this includes the increased concentration DC for casting spells with a thought component) or lose the spell. Furthermore, the thoughts of creatures within the area cannot be detected, located, or read with thoughtsense, detect thoughts, or similar effects. Telepathic silence does not hinder spells that target a creature's mind or that do not rely on communication, such as mind thrust."
+			"Creatures within the area cannot send or receive telepathic messages, and anyone in the area casting a spell with a thought component must succeed at a {rule/concentration} check (DC = 20 + twice the spell's level; this includes the increased concentration DC for casting spells with a thought component) or lose the spell. Furthermore, the thoughts of creatures within the area cannot be detected, located, or read with thoughtsense, detect thoughts, or similar effects. Telepathic silence does not hinder spells that target a creature's mind or that do not rely on communication, such as mind thrust."
 		]
 	},
 	"telepathy": {
@@ -1985,7 +1985,7 @@
 			"",
 			"With a gentle caress, you infuse the creature touched with a blight of energy from the Abyss that feeds upon goodness and transforms flesh into monstrous deformity. The target can resist a teratoid caress with a successful Fortitude save, but even on a successful save, the target becomes sickened for 1 round by the vile energies.",
 			"",
-			"If the target fails the save, his body becomes infected with Abyssal energy and a small portion of his body distorts and grows hideous, inflicting 2 points of Dexterity damage or 2 points of Charisma damage (50% chance of either effect). This deformity is always unsightly and offensive. Thereafter, the victim suffers a -1 penalty on all saving throws against evil effects. Worse, whenever the victim casts a good spell, channels positive energy, or offers a prayer to a good-aligned deity, the Abyssal energies seethe inside him, forcing a new Fortitude save to resist suffering an additional 1 point of Dexterity or Charisma damage. A good-aligned divine spellcaster who suffers from this curse suffers a -4 penalty on all concentration checks. This is a curse effect, but the effect can also be instantly removed with a {spell/dispel evil} or {spell/atonement} spell."
+			"If the target fails the save, his body becomes infected with Abyssal energy and a small portion of his body distorts and grows hideous, inflicting 2 points of Dexterity damage or 2 points of Charisma damage (50% chance of either effect). This deformity is always unsightly and offensive. Thereafter, the victim suffers a -1 penalty on all saving throws against evil effects. Worse, whenever the victim casts a good spell, channels positive energy, or offers a prayer to a good-aligned deity, the Abyssal energies seethe inside him, forcing a new Fortitude save to resist suffering an additional 1 point of Dexterity or Charisma damage. A good-aligned divine spellcaster who suffers from this curse suffers a -4 penalty on all {rule/concentration} checks. This is a curse effect, but the effect can also be instantly removed with a {spell/dispel evil} or {spell/atonement} spell."
 		]
 	},
 	"terraform": {
@@ -2577,7 +2577,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"With a lascivious wink and a sensuous sway, you flood a foe's mind with lustful thoughts of you, distracting your target and rendering that creature vulnerable to your attacks. An affected creature takes a penalty equal to half your caster level on concentration checks and to its CMD against dirty trick, grapple, and steal combat maneuvers you perform. The creature is also denied its Dexterity bonus to AC for the first melee attack you make against it each round.",
+			"With a lascivious wink and a sensuous sway, you flood a foe's mind with lustful thoughts of you, distracting your target and rendering that creature vulnerable to your attacks. An affected creature takes a penalty equal to half your caster level on {rule/concentration} checks and to its CMD against dirty trick, grapple, and steal combat maneuvers you perform. The creature is also denied its Dexterity bonus to AC for the first melee attack you make against it each round.",
 			"",
 			"If the target would not normally be sexually attracted to you, it receives a +4 bonus on its saving throw. If you end your turn more than 20 feet from the target or end your turn where your target cannot see you, this spell immediately ends."
 		]

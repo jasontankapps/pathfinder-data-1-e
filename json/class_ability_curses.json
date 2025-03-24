@@ -199,7 +199,7 @@
 		"name": "Possessed",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"**Possessed:** Another mind shares your body, interfering with your control, and it's more difficult for you to concentrate as a result. You take a -2 penalty on all concentration checks, and concentrating to maintain a spell duration provokes attacks of opportunity. Whenever a foe attempts to use an effect to possess or dominate you and the effect allows a saving throw to negate, you may roll twice and take the better of the two results. At 5th level, if you become dazed or stunned, you can choose instead to become confused for twice the duration the daze or stun effect would have normally lasted. At 10th level, add {spell/possession} to your list of 5th-level oracle spells known. At 15th level, add {spell/greater object possession} to your list of 7th-level oracle spells known. &mdash; {source/Horror Realms}"
+			"**Possessed:** Another mind shares your body, interfering with your control, and it's more difficult for you to concentrate as a result. You take a -2 penalty on all {rule/concentration} checks, and concentrating to maintain a spell duration provokes attacks of opportunity. Whenever a foe attempts to use an effect to possess or dominate you and the effect allows a saving throw to negate, you may roll twice and take the better of the two results. At 5th level, if you become dazed or stunned, you can choose instead to become confused for twice the duration the daze or stun effect would have normally lasted. At 10th level, add {spell/possession} to your list of 5th-level oracle spells known. At 15th level, add {spell/greater object possession} to your list of 7th-level oracle spells known. &mdash; {source/Horror Realms}"
 		]
 	},
 	"powerless_prophecy": {
@@ -255,7 +255,7 @@
 		"name": "Shattered Psyche",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
-			"**Shattered Psyche:** Your mind is crowded with dozens of voices, fragmented snippets of your past lives. You take a -2 penalty on all Intelligence-based skill checks, Wisdom-based skill checks, and concentration checks. You gain a +4 competence bonus on saving throws made against mind-affecting effects. At 5th level, you're immune to charm effects. At 10th level, you're immune to compulsion effects. At 15th level, you're immune to all mind-affecting effects. &mdash; {source/Pathfinder #88: Valley of the Brain Collectors}"
+			"**Shattered Psyche:** Your mind is crowded with dozens of voices, fragmented snippets of your past lives. You take a -2 penalty on all Intelligence-based skill checks, Wisdom-based skill checks, and {rule/concentration} checks. You gain a +4 competence bonus on saving throws made against mind-affecting effects. At 5th level, you're immune to charm effects. At 10th level, you're immune to compulsion effects. At 15th level, you're immune to all mind-affecting effects. &mdash; {source/Pathfinder #88: Valley of the Brain Collectors}"
 		]
 	},
 	"site_bound": {

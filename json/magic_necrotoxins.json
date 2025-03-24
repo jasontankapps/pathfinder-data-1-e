@@ -13,7 +13,7 @@
 			"",
 			"**Type** poison, inhaled; **Save** Fortitude DC 18  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d2 Cha damage, and for the duration of the poison, victim must succeed at a concentration check vs. the poison's save DC to channel positive energy or lay on hands; **Cure** 1 save",
+			"**Effect** 1d2 Cha damage, and for the duration of the poison, victim must succeed at a {rule/concentration} check vs. the poison's save DC to channel positive energy or lay on hands; **Cure** 1 save",
 			"",
 			"### Construction",
 			"",

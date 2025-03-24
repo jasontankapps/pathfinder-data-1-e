@@ -260,7 +260,7 @@
 			"",
 			"***Debilitating Blow:*** A called shot that deals half the creature's hit points of damage (minimum 50) or more (whether a critical hit or not) results in a debilitating blow that has extra effects. A debilitating blow inflicts major consequences and potentially permanent consequences.",
 			"",
-			"***Concentration Checks:*** Concentration checks forced by called shots to parts of the body involved in spellcasting (generally the head for spells with verbal components, and the casting arm and hand for spells with somatic components) are made at a -5 penalty.",
+			"***Concentration Checks:*** {rule/Concentration} checks forced by called shots to parts of the body involved in spellcasting (generally the head for spells with verbal components, and the casting arm and hand for spells with somatic components) are made at a -5 penalty.",
 			"",
 			"***Healing Called Shot Effects:*** Some called shot effects render a given location useless until healed. Remedying this condition requires the victim be healed (naturally or magically, and by one or more sources of healing) for as many hit points of damage as the called shot caused. If the victim is suffering from multiple wounds of this sort, divide healing equally between them. The regenerate spell repairs any and all effects of called shots except for ability damage and ability drain."
 		],
@@ -1651,7 +1651,7 @@
 			"",
 			"***Search:*** You use Perception to search a room for salient hidden creatures or clues, or you make a detailed search of a 10-foot-square area to detect traps, triggers, hidden objects, or footprints. When you search an area, this action has the complex subtype.",
 			"",
-			"***Spell Combat (Attack, Complex):*** You make an attack roll with a light or one-handed melee weapon, then cast a spell on the magus spell list with a casting time of 1 standard action. You take a -2 penalty on the melee attack, but the spell is cast regardless of whether the attack hits. If you cast the spell defensively, you can subtract your Intelligence bonus from the result of the attack roll to add the same value as a circumstance bonus on the concentration check. You must have the [spell combat class feature](class/magus) to take this action, and can take this action only once per turn. To take this action, you must have one hand free. You can't also take the following actions this turn: cast a standard-action spell or cast a 1-round-action spell.",
+			"***Spell Combat (Attack, Complex):*** You make an attack roll with a light or one-handed melee weapon, then cast a spell on the magus spell list with a casting time of 1 standard action. You take a -2 penalty on the melee attack, but the spell is cast regardless of whether the attack hits. If you cast the spell defensively, you can subtract your Intelligence bonus from the result of the attack roll to add the same value as a circumstance bonus on the {rule/concentration} check. You must have the [spell combat class feature](class/magus) to take this action, and can take this action only once per turn. To take this action, you must have one hand free. You can't also take the following actions this turn: cast a standard-action spell or cast a 1-round-action spell.",
 			"",
 			"***Stand Up (Move):*** You stand up from being prone.",
 			"",
@@ -1799,7 +1799,7 @@
 			"",
 			"The following are the main free actions of this system.",
 			"",
-			"***Cast Defensively:*** When casting a spell, you can take a free action to do so defensively. You must attempt a concentration check (DC = 15 + double the spell's level). If you succeed, that spell loses the complex subtype for that casting. If you fail, you lose the spell.",
+			"***Cast Defensively:*** When casting a spell, you can take a free action to do so defensively. You must attempt a {rule/concentration} check (DC = 15 + double the spell's level). If you succeed, that spell loses the complex subtype for that casting. If you fail, you lose the spell.",
 			"",
 			"***Cease Concentrating on a Spell:*** You cease concentrating on a spell that you have cast.",
 			"",
@@ -2017,7 +2017,7 @@
 			"",
 			"### Caster Level Penalties",
 			"",
-			"The penalty to caster level from the grazed, wounded, or critical condition can make it so an injured spellcaster is unable to cast the highest levels of spells she would normally be able to. However, it doesn't cause her to lose any prepared spells or spell slots. The penalty to caster level also reduces her bonus on concentration checks and lowers the range, duration, and effectiveness of her spells. The penalty can't make her effective caster level lower than 1."
+			"The penalty to caster level from the grazed, wounded, or critical condition can make it so an injured spellcaster is unable to cast the highest levels of spells she would normally be able to. However, it doesn't cause her to lose any prepared spells or spell slots. The penalty to caster level also reduces her bonus on {rule/concentration} checks and lowers the range, duration, and effectiveness of her spells. The penalty can't make her effective caster level lower than 1."
 		],
 		"parent_topics": [
 			"optional_combat_changes",

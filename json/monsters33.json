@@ -2167,7 +2167,7 @@
 			"- A magical attack that deals electricity damage slows a noqual golem (as the {spell/slow} spell) for 3 rounds, with no saving throw. If the golem is under a {spell/haste} effect, the attack breaks the haste effect instead.",
 			"- A {spell/mage's disjunction} spell staggers a noqual golem and negates its impeded magic ability for 1d4 rounds.",
 			"",
-			"**Impeded Magic (Su):** To successfully cast a spell within 60 feet of a noqual golem, a caster must make a concentration check (DC 25 + the level of the spell being cast). If the check fails, the noqual golem absorbs the spell.",
+			"**Impeded Magic (Su):** To successfully cast a spell within 60 feet of a noqual golem, a caster must make a {rule/concentration} check (DC 25 + the level of the spell being cast). If the check fails, the noqual golem absorbs the spell.",
 			"",
 			"**Powerful Blows (Ex)** A noqual golem inflicts 1-1/2 times its Strength bonus and threatens a critical hit on a 19-20 with its slam attacks.",
 			"",

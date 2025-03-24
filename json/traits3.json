@@ -100,7 +100,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Faultspawn",
 			"",
-			"You have an instinctive flair for causing such pain to the faithful that they temporarily lose their connection with their god. If a divine spellcaster makes a concentration check to avoid losing a spell because of an injury you caused, increase the DC of that check by +2."
+			"You have an instinctive flair for causing such pain to the faithful that they temporarily lose their connection with their god. If a divine spellcaster makes a {rule/concentration} check to avoid losing a spell because of an injury you caused, increase the DC of that check by +2."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -263,7 +263,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Andoran",
 			"",
-			"You've grown up playing the confusing game of prismati and throw stones with accuracy and ease. You gain a +1 trait bonus on attack rolls with fist-sized rocks or similarly shaped objects, and a +1 trait bonus on concentration checks."
+			"You've grown up playing the confusing game of prismati and throw stones with accuracy and ease. You gain a +1 trait bonus on attack rolls with fist-sized rocks or similarly shaped objects, and a +1 trait bonus on {rule/concentration} checks."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -596,7 +596,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Nex",
 			"",
-			"You graduated from one of Quantium's justly famous arcane academies, and the rigorous program of study has honed your mind. You gain a +2 trait bonus on concentration checks when casting arcane spells."
+			"You graduated from one of Quantium's justly famous arcane academies, and the rigorous program of study has honed your mind. You gain a +2 trait bonus on {rule/concentration} checks when casting arcane spells."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1363,7 +1363,7 @@
 			"**Type:** Campaign  ",
 			"**Campaign:** Wrath of the Righteous",
 			"",
-			"You bear a strange birthmark on your body-something you've learned is the Sign of the Seeker's Spiral, a rune associated with the secret society known as the Riftwardens. You have researched this rune, and have learned that the mark sometimes appears on the children of Riftwardens who have been exposed to particularly strange planar energies. Unfortunately, you never knew your parents, for you were raised by a foster family in Kenabres. Your foster family has confirmed that both of your parents were Riftwardens, and has further confirmed that your parents went missing on a secret mission into the Worldwound less than a month after you were born. You're not sure what happened to them, but you're certain they're dead - and your gut tells you that the one who murdered them yet lives! In any event, you've long felt magic in your blood, and casting spells comes easily to you. You gain a +2 trait bonus on all concentration checks.",
+			"You bear a strange birthmark on your body-something you've learned is the Sign of the Seeker's Spiral, a rune associated with the secret society known as the Riftwardens. You have researched this rune, and have learned that the mark sometimes appears on the children of Riftwardens who have been exposed to particularly strange planar energies. Unfortunately, you never knew your parents, for you were raised by a foster family in Kenabres. Your foster family has confirmed that both of your parents were Riftwardens, and has further confirmed that your parents went missing on a secret mission into the Worldwound less than a month after you were born. You're not sure what happened to them, but you're certain they're dead - and your gut tells you that the one who murdered them yet lives! In any event, you've long felt magic in your blood, and casting spells comes easily to you. You gain a +2 trait bonus on all {rule/concentration} checks.",
 			"",
 			"**Associated Mythic Path:** Archmage.",
 			"",
@@ -2113,7 +2113,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse",
 			"",
-			"The blood of a Shory aeromancer flows through your veins. You gain a +2 bonus on concentration checks when casting flight spells such as {spell/levitate}, {spell/fly}, or {spell/overland flight}. Once per day, you can use {spell/message} as a spell-like ability."
+			"The blood of a Shory aeromancer flows through your veins. You gain a +2 bonus on {rule/concentration} checks when casting flight spells such as {spell/levitate}, {spell/fly}, or {spell/overland flight}. Once per day, you can use {spell/message} as a spell-like ability."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2967,7 +2967,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Vudrani",
 			"",
-			"You were raised with a daily regimen to keep your mind sharp and your words fluid. You gain a +1 trait bonus on concentration checks and on Bluff checks."
+			"You were raised with a daily regimen to keep your mind sharp and your words fluid. You gain a +1 trait bonus on {rule/concentration} checks and on Bluff checks."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3072,7 +3072,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
 			"",
-			"You feel an affinity with ships and the sea, and the rolling rhythm of the waves helps focus your mind. When on a ship or other water-going vessel, you gain a +3 bonus on concentration checks."
+			"You feel an affinity with ships and the sea, and the rolling rhythm of the waves helps focus your mind. When on a ship or other water-going vessel, you gain a +3 bonus on {rule/concentration} checks."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},

@@ -889,7 +889,7 @@
 			"{SOURCE PRPG Core Rulebook/119}",
 			"",
 			"You are adept at spellcasting when threatened or distracted.  ",
-			"**Benefit:** You get a +4 bonus on concentration checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled."
+			"**Benefit:** You get a +4 bonus on {rule/concentration} checks made to cast a spell or use a spell-like ability when casting on the defensive or while grappled."
 		]
 	},
 	"combat_distraction": {
@@ -904,7 +904,7 @@
 			"**Prerequisites:** Goblin, Acrobatics 1 rank, Escape Artist 1 rank.  ",
 			"**Benefit:** As a full-round action, you can choose to do something that seems to serve no useful purpose. Example actions could include laughing at another creature's misfortune, rooting in your pockets for a snack, bending over to pick up what looks like a weird bug, or trying to fly into the air by flapping your arms like a sea gull.",
 			"",
-			"Although you're acting like a lunatic, your unpredictable actions are distracting. Any creature other than a goblin within 5 feet of you takes a -2 penalty on Perception checks and concentration checks for as long as you continue to be a distraction and remain in range. This penalty stacks with other goblins performing combat distractions, as long as you're both adjacent to the distracted target."
+			"Although you're acting like a lunatic, your unpredictable actions are distracting. Any creature other than a goblin within 5 feet of you takes a -2 penalty on Perception checks and {rule/concentration} checks for as long as you continue to be a distraction and remain in range. This penalty stacks with other goblins performing combat distractions, as long as you're both adjacent to the distracted target."
 		]
 	},
 	"combat_expertise": {
@@ -1342,7 +1342,7 @@
 			"",
 			"Your magic flows through your ally.  ",
 			"**Prerequisites:** Spellcraft 3 ranks.  ",
-			"**Benefit:** Whenever you are within 30 feet of an ally who also has this feat, you can channel your magic through her when casting a spell or using a spell-like ability, provided that she has the spell on her class list or has the ability to cast it as a spell-like ability. The spell cannot have a range of personal. When you finish casting the spell, the ally may spend an immediate action to act as your conduit. Your ally must concentrate to act as the conduit for the spell, just as if she were casting the spell, and the spell is lost if a concentration check is required and she fails (such as from damage, or to cast the spell defensively).",
+			"**Benefit:** Whenever you are within 30 feet of an ally who also has this feat, you can channel your magic through her when casting a spell or using a spell-like ability, provided that she has the spell on her class list or has the ability to cast it as a spell-like ability. The spell cannot have a range of personal. When you finish casting the spell, the ally may spend an immediate action to act as your conduit. Your ally must concentrate to act as the conduit for the spell, just as if she were casting the spell, and the spell is lost if a {rule/concentration} check is required and she fails (such as from damage, or to cast the spell defensively).",
 			"",
 			"If successfully cast, the spell originates from the ally's space instead of yours. You remain the spell's caster for the purpose of determining the caster level, saving throw DC, and so on, but your ally selects the targets or area affected and makes any required attack rolls for the spell."
 		]
@@ -1679,7 +1679,7 @@
 			"",
 			"You work with allies to prevent foes from escaping.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** Whenever you and one or more allies with this feat threaten the same enemy, the enemy takes a penalty on Acrobatics checks and concentration checks to avoid provoking attacks of opportunity equal to the number of creatures with this feat that are threatening him (maximum +5)."
+			"**Benefit:** Whenever you and one or more allies with this feat threaten the same enemy, the enemy takes a penalty on Acrobatics checks and {rule/concentration} checks to avoid provoking attacks of opportunity equal to the number of creatures with this feat that are threatening him (maximum +5)."
 		]
 	},
 	"coordinated_charge": {
@@ -2477,7 +2477,7 @@
 			"",
 			"In addition, you can insert needles into a creature's brain to help center its thoughts and emotions. Doing so requires a successful Heal check (DC = 25 + the target's Hit Dice). Creatures with implanted needles gain a +1 bonus on saving throws against spells with the emotion or fear descriptor (or similar effects), but take a -1 penalty on saving throws against spells with the electricity or pain descriptors. Implanting needles deals 1d6 points of damage to the patient, which can't be healed by any means until the needles are removed (which requires a second successful Heal check at the same DC, or a restoration or regenerate spell).",
 			"",
-			"If you have implanted needles into your own cranium, you can probe them as a swift action while casting a spell, dealing an amount of damage to yourself equal to 1 + the spell's level. The pain from this probing stimulates your powers of focus, granting you a bonus of +1d6 on any concentration check you must attempt as part of casting that spell. This damage doesn't force you to attempt a concentration check."
+			"If you have implanted needles into your own cranium, you can probe them as a swift action while casting a spell, dealing an amount of damage to yourself equal to 1 + the spell's level. The pain from this probing stimulates your powers of focus, granting you a bonus of +1d6 on any {rule/concentration} check you must attempt as part of casting that spell. This damage doesn't force you to attempt a concentration check."
 		]
 	},
 	"crashing_wave_buffet": {
@@ -4494,7 +4494,7 @@
 			"",
 			"You can distract opponents with your delectable rinds.  ",
 			"**Prerequisites:** Con 15, delicious racial trait, ghoran.  ",
-			"**Benefit:** Other creatures find you so tasty that they become distracted in combat, allowing you to exploit their momentary lapses in concentration. You gain a +2 bonus on Bluff checks to feint living herbivorous or omnivorous creatures. In addition, whenever you successfully feint such an opponent, in addition to the normal effects of being feinted in combat, that opponent takes a -2 penalty on Perception checks and concentration checks until the start of your next turn."
+			"**Benefit:** Other creatures find you so tasty that they become distracted in combat, allowing you to exploit their momentary lapses in concentration. You gain a +2 bonus on Bluff checks to feint living herbivorous or omnivorous creatures. In addition, whenever you successfully feint such an opponent, in addition to the normal effects of being feinted in combat, that opponent takes a -2 penalty on Perception checks and {rule/concentration} checks until the start of your next turn."
 		]
 	},
 	"deliberate_death": {

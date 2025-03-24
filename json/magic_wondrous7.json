@@ -2851,7 +2851,7 @@
 			"**Aura** faint abjuration; **CL** 4th  ",
 			"**Slot** wrist; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
-			"Typically made of leather dyed blue and decorated with star-shaped studs, these bracers are used by spellcasters who practice their art in the heat of combat. The bracers grant the wearer a +2 bonus on concentration checks made to cast defensively. Three times per day, the wearer can choose to roll a concentration check to cast defensively twice and take the better result.",
+			"Typically made of leather dyed blue and decorated with star-shaped studs, these bracers are used by spellcasters who practice their art in the heat of combat. The bracers grant the wearer a +2 bonus on {rule/concentration} checks made to cast defensively. Three times per day, the wearer can choose to roll a concentration check to cast defensively twice and take the better result.",
 			"",
 			"### Construction",
 			"",
@@ -3904,7 +3904,7 @@
 			"**16th Level:** Once per day, the wearer can use {spell/find the path} as a spell-like ability.",
 			"",
 			"**Goal:** The wearer must travel 1,000 miles by foot.  ",
-			"**Reward:** Each morning the wearer can designate one type of terrain from the {class/ranger/'s list of favored terrain} as his favored terrain for the day. While in that terrain, he gains a bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
+			"**Reward:** Each morning the wearer can designate one type of terrain from the {class/ranger/'s} list of favored terrain as his favored terrain for the day. While in that terrain, he gains a bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
 		]
 	},
 	"wayfinder_of_cooperation": {

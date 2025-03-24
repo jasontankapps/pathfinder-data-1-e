@@ -1418,7 +1418,7 @@
 			"",
 			"Life in the Mana Wastes, where magic has unpredictable and often fatal effects, has taught you to disable spellcasters with your firearms.  ",
 			"**Prerequisites:** {feat/Amateur Gunslinger} or grit class feature, {feat/Point-Blank Shot}, {feat/Precise Shot}, base attack bonus +4.  ",
-			"**Benefit:** If you ready a ranged attack with a firearm to attack a spellcaster when he begins casting a spell and successfully hit your opponent, you can expend 1 grit point to increase the target's concentration check DC for being injured while casting by 5.",
+			"**Benefit:** If you ready a ranged attack with a firearm to attack a spellcaster when he begins casting a spell and successfully hit your opponent, you can expend 1 grit point to increase the target's {rule/concentration} check DC for being injured while casting by 5.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/24}",
@@ -2526,7 +2526,7 @@
 			"",
 			"Teleportation does not faze you.  ",
 			"**Prerequisites:** Ability to use the abundant step class feature or cast {spell/dimension door}.  ",
-			"**Benefit:** After using abundant step or casting dimension door, you can take any actions you still have remaining on your turn. You also gain a +4 bonus on Concentration checks when casting teleportation spells."
+			"**Benefit:** After using abundant step or casting dimension door, you can take any actions you still have remaining on your turn. You also gain a +4 bonus on {rule/Concentration} checks when casting teleportation spells."
 		]
 	},
 	"dimensional_assault": {
@@ -2842,7 +2842,7 @@
 			"",
 			"Your careful study of mental magic grants you mastery in your discipline.  ",
 			"**Prerequisites:** Psychic discipline class feature.  ",
-			"**Benefit:** You gain a +1 bonus on caster level checks and concentration checks when casting spells from your psychic discipline, and you gain a +1 insight bonus on saving throws against spells from your discipline."
+			"**Benefit:** You gain a +1 bonus on caster level checks and {rule/concentration} checks when casting spells from your psychic discipline, and you gain a +1 insight bonus on saving throws against spells from your discipline."
 		]
 	},
 	"disconcerting_knowledge": {
@@ -3147,7 +3147,7 @@
 			"",
 			"Your training makes it difficult for enemy spellcasters to safely cast spells near you.  ",
 			"**Prerequisites:** 6th-level fighter.  ",
-			"**Benefit:** The DC to cast spells defensively increases by +4 for all enemies that are within your threatened area. This increase to casting spells defensively only applies if you are aware of the enemy's location and are capable of taking an attack of opportunity. If you can only take one attack of opportunity per round and have already used that attack, this increase does not apply.",
+			"**Benefit:** The DC to [cast spells defensively](rule/concentration) increases by +4 for all enemies that are within your threatened area. This increase to casting spells defensively only applies if you are aware of the enemy's location and are capable of taking an attack of opportunity. If you can only take one attack of opportunity per round and have already used that attack, this increase does not apply.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
@@ -3173,7 +3173,7 @@
 			"",
 			"The animal's presence harries nearby enemies, making concentration difficult.  ",
 			"**Prerequisites:** Animal companion.  ",
-			"**Benefit:** The animal companion is trained to interfere with its opponent's concentration, making even rote tasks difficult. Increase the concentration check DC of spells and spell-like abilities that opponents cast while within the animal companion's reach by +2. Additionally, opponents can't take 10 on d20 rolls or checks while within the animal companion's reach. If an opponent has an ability that allows it to always take 10 on certain skill checks while distracted (such as the skill mastery advanced talent), it gains the benefit of such abilities only if its number of skill ranks is at least 4 higher than the animal companion's Hit Dice.",
+			"**Benefit:** The animal companion is trained to interfere with its opponent's concentration, making even rote tasks difficult. Increase the {rule/concentration} check DC of spells and spell-like abilities that opponents cast while within the animal companion's reach by +2. Additionally, opponents can't take 10 on d20 rolls or checks while within the animal companion's reach. If an opponent has an ability that allows it to always take 10 on certain skill checks while distracted (such as the skill mastery advanced talent), it gains the benefit of such abilities only if its number of skill ranks is at least 4 higher than the animal companion's Hit Dice.",
 			"",
 			"In addition, the animal companion counts as a fighter with a number of class levels equal to its Hit Dice for the purposes of qualifying for the {feat/Disruptive} feat, as well as for any feat that lists the Disruptive feat as a prerequisite. The animal companion also adds those feats to the list of animal feats that it can choose from when gaining a new feat."
 		]
@@ -3200,7 +3200,7 @@
 			"{SOURCE Advanced Player's Guide/157}",
 			"",
 			"Your magical energies cling to enemies, interfering with their spellcasting.  ",
-			"**Benefit:** Targets affected by a disruptive spell must make concentration checks when using spells or spell-like abilities (DC equals the save DC of the disruptive spell plus the level of the spell being cast) for 1 round. Targets that avoid the spell's effects avoid this feat's effect as well. A disruptive spell uses up a spell slot one level higher than the spell's actual level."
+			"**Benefit:** Targets affected by a disruptive spell must make {rule/concentration} checks when using spells or spell-like abilities (DC equals the save DC of the disruptive spell plus the level of the spell being cast) for 1 round. Targets that avoid the spell's effects avoid this feat's effect as well. A disruptive spell uses up a spell slot one level higher than the spell's actual level."
 		]
 	},
 	"disruptive_spell_like_ability": {
@@ -3215,7 +3215,7 @@
 			"**Prerequisites:** Spell-like ability at caster level 4th or higher.  ",
 			"**Benefit:** Choose one of your spell-like abilities, subject to the restrictions described in this feat. You can use the chosen spell-like ability as a disruptive spell-like ability up to three times per day (or less, if the ability is normally usable only once or twice per day).",
 			"",
-			"For 1 round after you use a disruptive spell-like ability, affected targets attempting to cast as spell must attempt concentration checks when casting spells or use spell-like abilities (DC = the disruptive spell-like ability's DC + the level of the spell the target is casting or spell-like ability it's using). Targets that avoid the spell-like ability's effects also avoid this feat's effect.",
+			"For 1 round after you use a disruptive spell-like ability, affected targets attempting to cast as spell must attempt {rule/concentration} checks when casting spells or use spell-like abilities (DC = the disruptive spell-like ability's DC + the level of the spell the target is casting or spell-like ability it's using). Targets that avoid the spell-like ability's effects also avoid this feat's effect.",
 			"",
 			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 1  ",
 			"**Special:** This feat can be taken multiple times. Each time it is taken, you can apply it to a different spell-like ability.",
@@ -3614,7 +3614,7 @@
 			"**Initial Benefit:** If you have the {feat/Vital Strike} feat, you can apply its effect to an attack you make with a greatsword at the end of a charge. If you don't have the Vital Strike feat, that attack deals 1 additional point of damage instead. The first time you make an attack of opportunity with a greatsword after using Vital Strike with a greatsword on your turn, you can apply Vital Strike to that attack of opportunity.  ",
 			"**Advanced Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}, {feat/Vital Strike}, base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic neutral barbarian or fighter of at least 10th level who worships Gorum can replace a bonus feat or rage power with the following advanced benefit, even if she doesn't meet the prerequisites.  ",
-			"**Advanced Benefit:** When you use Vital Strike, {feat/Improved Vital Strike}, or {feat/Greater Vital Strike} with a greatsword, the damage counts as continuous damage from an injury for the purpose of determining whether a target must attempt a concentration check to cast spells.",
+			"**Advanced Benefit:** When you use Vital Strike, {feat/Improved Vital Strike}, or {feat/Greater Vital Strike} with a greatsword, the damage counts as continuous damage from an injury for the purpose of determining whether a target must attempt a {rule/concentration} check to cast spells.",
 			"",
 			"::h3[Irori's Perfected Fist]{jl}",
 			"",

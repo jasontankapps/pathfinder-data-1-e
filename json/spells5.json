@@ -1831,7 +1831,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"Whenever the target is affected by a spell or effect that heals hit point damage through the use of positive or negative energy, it regains only half the number of hit points it normally would recover. If the target employs a spell or effect that heals itself or other creatures through the use of positive or negative energy, the target must succeed at a concentration check (DC = this spell's save DC) or the effect restores only half of the normal number of hit points. Other forms of healing (such as from the Heal skill) are not affected by this spell."
+			"Whenever the target is affected by a spell or effect that heals hit point damage through the use of positive or negative energy, it regains only half the number of hit points it normally would recover. If the target employs a spell or effect that heals itself or other creatures through the use of positive or negative energy, the target must succeed at a {rule/concentration} check (DC = this spell's save DC) or the effect restores only half of the normal number of hit points. Other forms of healing (such as from the Heal skill) are not affected by this spell."
 		]
 	},
 	"healing_thief": {
@@ -3407,7 +3407,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Fortitude negates; **Spell Resistance** yes",
 			"",
-			"You send wracking pains through the targets' bodies. Because of the pain, affected creatures take a -2 penalty to AC, attacks, melee damage rolls, and Reflex saving throws, and must succeed at a concentration check (DC equal to the DC of this spell) to cast spells. However, if an affected creature spends a move action screaming as loudly as possible, it can act without any other penalties for the remainder of its turn. \"Screaming,\" for the purposes of this spell, includes any vocalization of pain or its telepathic equivalent; creatures that cannot scream (such as creatures without the natural ability to communicate or vocalize) suffer the full effect of the spell."
+			"You send wracking pains through the targets' bodies. Because of the pain, affected creatures take a -2 penalty to AC, attacks, melee damage rolls, and Reflex saving throws, and must succeed at a {rule/concentration} check (DC equal to the DC of this spell) to cast spells. However, if an affected creature spends a move action screaming as loudly as possible, it can act without any other penalties for the remainder of its turn. \"Screaming,\" for the purposes of this spell, includes any vocalization of pain or its telepathic equivalent; creatures that cannot scream (such as creatures without the natural ability to communicate or vocalize) suffer the full effect of the spell."
 		]
 	},
 	"human_potential": {

@@ -1118,7 +1118,7 @@
 			"**Duration** permanent  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You inflict a curse similar to the spell burn spellblight on a creature. Each time a spellcaster who is afflicted with this curse casts a spell or uses a spell-like ability, her skin seems to burn as though she were on fire. With a successful concentration check (DC = 15 + double the spell level of the spell cast or spell-like ability used), the spellcaster can ignore the pain of the effect, but if she fails, she loses the spell or spell slot and is staggered for a round.",
+			"You inflict a curse similar to the spell burn spellblight on a creature. Each time a spellcaster who is afflicted with this curse casts a spell or uses a spell-like ability, her skin seems to burn as though she were on fire. With a successful {rule/concentration} check (DC = 15 + double the spell level of the spell cast or spell-like ability used), the spellcaster can ignore the pain of the effect, but if she fails, she loses the spell or spell slot and is staggered for a round.",
 			"",
 			"Unlike with the spell burn spellblight, the burning sensation is a tangible effect, visible during the act of spellcasting as an incorporeal, violet flame surrounding the caster."
 		]
@@ -2108,7 +2108,7 @@
 			"",
 			"The possible commands are \"coil\" (form a neat, coiled stack), \"coil and knot,\" \"loop,\" \"loop and knot,\" \"tie and knot,\" and the opposites of all of the above (\"uncoil,\" and so forth). You can give one command each round as a move action, as if directing an active spell.",
 			"",
-			"The rope can enwrap only a creature or an object within 1 foot of it - it does not snake outward - so it must be thrown near the intended target. Doing so requires a successful ranged touch attack roll (range increment 10 feet). A typical 1-inch-diameter hemp rope has 2 hit points, AC 10, and requires a DC 23 Strength check to burst it. The rope does not deal damage, but it can be used as a trip line or to cause a single opponent that fails a Reflex saving throw to become entangled. A creature capable of spellcasting that is bound by this spell must make a concentration check with a DC of 15 + the spell's level to cast a spell. An entangled creature can slip free with a DC 20 Escape Artist check.",
+			"The rope can enwrap only a creature or an object within 1 foot of it - it does not snake outward - so it must be thrown near the intended target. Doing so requires a successful ranged touch attack roll (range increment 10 feet). A typical 1-inch-diameter hemp rope has 2 hit points, AC 10, and requires a DC 23 Strength check to burst it. The rope does not deal damage, but it can be used as a trip line or to cause a single opponent that fails a Reflex saving throw to become entangled. A creature capable of spellcasting that is bound by this spell must make a {rule/concentration} check with a DC of 15 + the spell's level to cast a spell. An entangled creature can slip free with a DC 20 Escape Artist check.",
 			"",
 			"The rope itself and any knots tied in it are not magical.",
 			"",
@@ -2364,7 +2364,7 @@
 			"",
 			"You create an invisible barrier that surrounds you and moves with you, inhibiting one category of magic. When you cast this spell, choose either arcane or divine magic. This spell functions like antimagic field, but it suppresses only spells of the chosen type and supernatural and spell-like class abilities from classes that grant spellcasting of the selected type. Magic items, other spell-like abilities, and other supernatural abilities are unaffected.",
 			"",
-			"While this spell is in effect, you must succeed at a concentration check (DC 20 + twice the spell level) to cast any spell, whether arcane or divine. If you fail at the check, you lose the spell as if you had cast it to no effect."
+			"While this spell is in effect, you must succeed at a {rule/concentration} check (DC 20 + twice the spell level) to cast any spell, whether arcane or divine. If you fail at the check, you lose the spell as if you had cast it to no effect."
 		]
 	},
 	"source_severance": {
@@ -2990,9 +2990,9 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell makes it difficult for the subject to cast arcane spells, use spell-like abilities, and use some abilities granted by arcane spellcasting classes. The subject must succeed at a concentration check (DC = 10 + 1/2 its caster level) in order to cast an arcane spell, use any spell-like ability (even those that come from a divine source), use arcane spell completion or spell trigger magic items, or use any of the following class features that come from an arcane spellcasting class: arcane school powers, arcanist exploits, bardic performances, magus arcana, or witch hexes. Spells, spell-like abilities, or class features that take a free, swift, or immediate action aren't affected by this spell, nor are mythic spells or mythic powers.",
+			"This spell makes it difficult for the subject to cast arcane spells, use spell-like abilities, and use some abilities granted by arcane spellcasting classes. The subject must succeed at a {rule/concentration} check (DC = 10 + 1/2 its caster level) in order to cast an arcane spell, use any spell-like ability (even those that come from a divine source), use arcane spell completion or spell trigger magic items, or use any of the following class features that come from an arcane spellcasting class: arcane school powers, arcanist exploits, bardic performances, magus arcana, or witch hexes. Spells, spell-like abilities, or class features that take a free, swift, or immediate action aren't affected by this spell, nor are mythic spells or mythic powers.",
 			"",
-			"While under the effect of this spell, if the subject must attempt a concentration check to cast an arcane spell or use an arcane spell-like ability for any reason other than the effect of this spell (such as casting defensively, being injured while casting, and so on), it takes a penalty on that check equal to 1/2 its caster level."
+			"While under the effect of this spell, if the subject must attempt a {rule/concentration} check to cast an arcane spell or use an arcane spell-like ability for any reason other than the effect of this spell (such as casting defensively, being injured while casting, and so on), it takes a penalty on that check equal to 1/2 its caster level."
 		]
 	},
 	"arcane_eye": {
@@ -3888,7 +3888,7 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You emit an aura of subsonic noise and mental imagery that makes concentrating difficult. Any creature within the aura that fails its save takes a -5 penalty on concentration checks. A creature must attempt the Will save upon entering the area of the aura, and the penalty ends as soon as the creature leaves the aura. A creature that succeeds at its save is immune to the effects of the aura for this casting of the spell, even if it leaves and reenters the aura, but must attempt another Will save each additional time this spell is cast. You are immune to your own aura of distraction."
+			"You emit an aura of subsonic noise and mental imagery that makes concentrating difficult. Any creature within the aura that fails its save takes a -5 penalty on {rule/concentration} checks. A creature must attempt the Will save upon entering the area of the aura, and the penalty ends as soon as the creature leaves the aura. A creature that succeeds at its save is immune to the effects of the aura for this casting of the spell, even if it leaves and reenters the aura, but must attempt another Will save each additional time this spell is cast. You are immune to your own aura of distraction."
 		]
 	},
 	"aura_of_doom": {

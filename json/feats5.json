@@ -1647,7 +1647,7 @@
 			"",
 			"You lash yourself and share the pain with your opponent.  ",
 			"**Prerequisites:** Wis 17, {feat/Exotic Weapon Proficiency/ (spiked chain)}, {feat/Kyton Shield}, {feat/Kyton Style}, base attack bonus +8 or monk level 6th, Knowledge (planes) 3 ranks, ki pool class feature.  ",
-			"**Benefit:** When using Kyton Style, your spiked chain attacks can be brutal, both to yourself and your foe. Before attempting an attack roll with a spiked chain attack, you can choose to make a Kyton Cut. Before making the attack, you take 1d6 points of nonlethal damage. This damage cannot be avoided or reduced in any way. If you are immune to nonlethal damage, you take normal damage instead. If the attack hits, its target takes an additional 1d6 points of nonlethal damage and a -4 penalty on concentration checks for 1 round. The penalty is a pain effect."
+			"**Benefit:** When using Kyton Style, your spiked chain attacks can be brutal, both to yourself and your foe. Before attempting an attack roll with a spiked chain attack, you can choose to make a Kyton Cut. Before making the attack, you take 1d6 points of nonlethal damage. This damage cannot be avoided or reduced in any way. If you are immune to nonlethal damage, you take normal damage instead. If the attack hits, its target takes an additional 1d6 points of nonlethal damage and a -4 penalty on {rule/concentration} checks for 1 round. The penalty is a pain effect."
 		]
 	},
 	"kyton_shield": {
@@ -3108,7 +3108,7 @@
 			"",
 			"Your mystic connection with the wilderness enhances your spellcasting.  ",
 			"**Prerequisites:** {feat/Attuned to the Wild}, elf.  ",
-			"**Benefit:** When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +2 bonus on caster level checks, concentration checks, and, Knowledge (arcana) and Spellcraft checks. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one of the terrain types."
+			"**Benefit:** When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +2 bonus on caster level checks, {rule/concentration} checks, and, Knowledge (arcana) and Spellcraft checks. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one of the terrain types."
 		]
 	},
 	"magic_trick": {
@@ -3243,7 +3243,7 @@
 			"",
 			"*Unfettered Servant* ({feat/Reach Spell}): Without increasing the spell slot, you increase the range of your unseen servant to long. If the servant moves beyond the spell's range, it finishes its current task before it ceases to exist.",
 			"",
-			"*Unseen Apprentice* ({feat/Combat Casting}, Spellcraft 3 ranks): You servant is gifted with a spark of magical prowess. If the servant is adjacent to you when you attempt a concentration check, you gain a +1 bonus to the check. This bonus increases to +2 when you have 10 or more ranks in Spellcraft.",
+			"*Unseen Apprentice* ({feat/Combat Casting}, Spellcraft 3 ranks): You servant is gifted with a spark of magical prowess. If the servant is adjacent to you when you attempt a {rule/concentration} check, you gain a +1 bonus to the check. This bonus increases to +2 when you have 10 or more ranks in Spellcraft.",
 			"",
 			"*Unseen Assistant* (Craft [any], Perform [any], or Profession [any] 3 ranks): You infuse your servant with the spirit of creativity. It can assist you as if successfully using the aid another action with a single Craft, Profession, or Perform skill in which you have 3 or more ranks. Alternatively, it can use any of these skills itself, using half of your total bonus for that skill.",
 			"",
@@ -4249,7 +4249,7 @@
 			"",
 			"Meditation clears your mind, allowing you to concentrate on your spells as if not distracted.  ",
 			"**Prerequisites:** Wis 13, {feat/Combat Meditation}, {feat/Meditation Master}, character level 5th.  ",
-			"**Benefit:** For 1 round per character level after you perform combat meditation, whenever you attempt a concentration check to avoid losing a spell or a Fortitude save to resist a distraction effect (such as the distraction ability of a swarm), you gain a +4 bonus on the check. If you choose to use the benefits of Combat Meditation on the check, the bonus applies to both die rolls."
+			"**Benefit:** For 1 round per character level after you perform combat meditation, whenever you attempt a {rule/concentration} check to avoid losing a spell or a Fortitude save to resist a distraction effect (such as the distraction ability of a swarm), you gain a +4 bonus on the check. If you choose to use the benefits of Combat Meditation on the check, the bonus applies to both die rolls."
 		]
 	},
 	"medusas_wrath": {
@@ -4319,7 +4319,7 @@
 			"",
 			"Blind mesmerists have learned to navigate the world without relying on sight and can use their hypnotic stare regardless of their sight level.  ",
 			"**Prerequisites:** Hypnotic stare class feature.  ",
-			"**Benefit:** You can use your hypnotic stare ability without relying on sight and do not have to attempt concentration checks to use this ability while blinded."
+			"**Benefit:** You can use your hypnotic stare ability without relying on sight and do not have to attempt {rule/concentration} checks to use this ability while blinded."
 		]
 	},
 	"merciful_bane": {
@@ -4816,7 +4816,7 @@
 			"",
 			"You can gather elemental energy while walking slowly.  ",
 			"**Prerequisites:** Kineticist level 7th, kinetic blast class feature.  ",
-			"**Benefit:** While taking a move action to gather power, you can move up to half your base speed, and while taking 1 full round to gather power, you can move up to half your speed on the turn you begin the full round of gathering power. This movement provokes attacks of opportunity, and you can't use Acrobatics checks or other abilities to attempt to negate them, as you're concentrating on gathering power (nor can you use Acrobatics to balance, jump, or do anything else that requires a skill check). It's harder to concentrate on gathering power while using this feat; if you take damage during or after gathering power and before using a kinetic blast that releases it (including from an attack of opportunity provoked by the movement), the concentration check DC to avoid losing the gathered power increases by twice the blast's effective spell level."
+			"**Benefit:** While taking a move action to gather power, you can move up to half your base speed, and while taking 1 full round to gather power, you can move up to half your speed on the turn you begin the full round of gathering power. This movement provokes attacks of opportunity, and you can't use Acrobatics checks or other abilities to attempt to negate them, as you're concentrating on gathering power (nor can you use Acrobatics to balance, jump, or do anything else that requires a skill check). It's harder to concentrate on gathering power while using this feat; if you take damage during or after gathering power and before using a kinetic blast that releases it (including from an attack of opportunity provoked by the movement), the {rule/concentration} check DC to avoid losing the gathered power increases by twice the blast's effective spell level."
 		]
 	},
 	"mobile_stronghold": {

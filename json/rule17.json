@@ -977,7 +977,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/228}",
 			"",
-			"Options are the main way to specialize your monster. They represent feats, universal monster rules, magic items, and all the other abilities a monster has at its disposal beyond its statistics. There are a large number of monster options to choose from, especially compared to the number of choices you make during the other steps of the simple monster creation process. Some are active abilities (such as those that give the monster a special attack), others adjust statistics (such as the power attack option, which has the same purpose as the {feat/Power Attack} feat), and still others grant conditional modifiers (such as combat casting's bonus to concentration checks). Unless specified otherwise, saving throw DCs in this section use the Ability DC from the monster's array, modified by the monster's grafts."
+			"Options are the main way to specialize your monster. They represent feats, universal monster rules, magic items, and all the other abilities a monster has at its disposal beyond its statistics. There are a large number of monster options to choose from, especially compared to the number of choices you make during the other steps of the simple monster creation process. Some are active abilities (such as those that give the monster a special attack), others adjust statistics (such as the power attack option, which has the same purpose as the {feat/Power Attack} feat), and still others grant conditional modifiers (such as combat casting's bonus to {rule/concentration} checks). Unless specified otherwise, saving throw DCs in this section use the Ability DC from the monster's array, modified by the monster's grafts."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -1501,7 +1501,7 @@
 			"",
 			"***Potent Magic Damage:*** Choose a spell subschool or descriptor, such as fire or phantasm. The monster's spells and spell-like abilities of the chosen type deal an additional 1 point of damage per damage die.",
 			"",
-			"***Sacrilegious Aura:*** The monster emits an aura of intense evil and negative energy in a 30-foot radius. The aura functions as the {spell/desecrate} spell cast on an altar. In addition, any creature that attempts to use a positive energy effect in this area must succeed at a concentration check or the positive energy has no effect.",
+			"***Sacrilegious Aura:*** The monster emits an aura of intense evil and negative energy in a 30-foot radius. The aura functions as the {spell/desecrate} spell cast on an altar. In addition, any creature that attempts to use a positive energy effect in this area must succeed at a {rule/concentration} check or the positive energy has no effect.",
 			"",
 			"***Smite:*** Choose chaotic, evil, good, or lawful. With one attack per day, the monster can deal additional damage equal to its CR against a creature of the chosen type. The number of uses per day increases by one for every 3 CR the monster has.",
 			"",
@@ -1539,7 +1539,7 @@
 			"",
 			"***Channel Energy:*** As a standard action, the monster releases a burst of energy that affects either all living creatures or all undead creatures in a 30-foot radius. The burst either deals 1d6 points of damage (from negative energy) or heals 1d6 points of damage (from positive energy). A creature that would take damage from this effect can attempt a Will save (DC = the monster's ability DC - 5) to halve the damage. A monster can use this option 8 times per day. Increase the damage or healing by 1d6 per 2 CR.",
 			"",
-			"***Combat Casting:*** The monster gains a +6 bonus on concentration checks.",
+			"***Combat Casting:*** The monster gains a +6 bonus on {rule/concentration} checks.",
 			"",
 			"***Countersong:*** The monster can attempt a Perform skill check. It and each ally within 30 feet of it can use the result of this check in place of saving throws to resist sonic, language-dependent, illusion (pattern), and illusion (figment) effects.",
 			"",

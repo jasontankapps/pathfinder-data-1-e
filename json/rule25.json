@@ -460,7 +460,7 @@
 		"description": [
 			"{SOURCE Occult Adventures/202}",
 			"",
-			"Psychic manifestations have three main types: offensive manifestations, defensive manifestations, and thought-form creatures. For the purpose of concentration checks, creating a manifestation is considered casting a spell with a spell level equal to the number of MP spent to create the manifestation. The combatant creating the manifestation treats her manifesting level as her caster level for such checks."
+			"Psychic manifestations have three main types: offensive manifestations, defensive manifestations, and thought-form creatures. For the purpose of {rule/concentration} checks, creating a manifestation is considered casting a spell with a spell level equal to the number of MP spent to create the manifestation. The combatant creating the manifestation treats her manifesting level as her caster level for such checks."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",

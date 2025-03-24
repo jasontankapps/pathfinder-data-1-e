@@ -1070,7 +1070,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Half-orc or Orc",
 			"",
-			"Your ferocity is focused into your spells, and it is harder to break your concentration. You receive a +2 trait bonus on all concentration checks."
+			"Your ferocity is focused into your spells, and it is harder to break your concentration. You receive a +2 trait bonus on all {rule/concentration} checks."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1292,7 +1292,7 @@
 			"",
 			"Choose one of the following benefits.",
 			"",
-			"**Religious:** Today, while on a job for Gaedren, you found a holy symbol of the god you worship, and intrigued by it, you snuck off to attend services. When Gaedren found out, he beat you to within an inch of your life and broke your holy symbol. Your faith let you block out the pain, and you escaped his control and took shelter in the church, where you spent the rest of your youth. You gain a +2 trait bonus on concentration checks and Constitution checks to stabilize at negative hit points.",
+			"**Religious:** Today, while on a job for Gaedren, you found a holy symbol of the god you worship, and intrigued by it, you snuck off to attend services. When Gaedren found out, he beat you to within an inch of your life and broke your holy symbol. Your faith let you block out the pain, and you escaped his control and took shelter in the church, where you spent the rest of your youth. You gain a +2 trait bonus on {rule/concentration} checks and Constitution checks to stabilize at negative hit points.",
 			"",
 			"**Torturedv:** After you made one too many errors, Gaedren tortured you and left you for dead in a garbage heap. Your scars and memories have motivated you to hone your reaction speed and make you rather jumpy. You gain a +1 trait bonus on Reflex saves."
 		],

@@ -37,7 +37,7 @@
 			"**Duration** 1 minute/level or until discharged  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"The target is suddenly beset with unexplainable doubts about the effectiveness of its actions and the righteousness of its cause. The creature takes a -10 penalty on its ability checks, skill checks, and concentration checks, until the duration ends, or until it spends its entire turn doing absolutely nothing (it spends a full-round action gaining focus). Spending an entire turn doing nothing discharges the spell."
+			"The target is suddenly beset with unexplainable doubts about the effectiveness of its actions and the righteousness of its cause. The creature takes a -10 penalty on its ability checks, skill checks, and {rule/concentration} checks, until the duration ends, or until it spends its entire turn doing absolutely nothing (it spends a full-round action gaining focus). Spending an entire turn doing nothing discharges the spell."
 		]
 	},
 	"quell_energy": {
@@ -2459,7 +2459,7 @@
 			"**Target** you  ",
 			"**Duration** concentration, up to 1 minute/level",
 			"",
-			"This spell allows you to gain psychic impressions from past events that occurred in your current location. Retrocognition reveals psychic impressions from events that occurred over the course of the last hour throughout the first minute of the duration, followed by impressions from the next hour back the next minute you concentrate, and so on. If a psychically traumatic or turbulent event happened during that time period, you must succeed at a concentration check (DC = 20, 30, or 40, depending on the severity of the psychic disturbance) or lose concentration on the spell.",
+			"This spell allows you to gain psychic impressions from past events that occurred in your current location. Retrocognition reveals psychic impressions from events that occurred over the course of the last hour throughout the first minute of the duration, followed by impressions from the next hour back the next minute you concentrate, and so on. If a psychically traumatic or turbulent event happened during that time period, you must succeed at a {rule/concentration} check (DC = 20, 30, or 40, depending on the severity of the psychic disturbance) or lose concentration on the spell.",
 			"",
 			"At caster level 13th and higher, you can choose to collect impressions from over the course of a longer interval of time than an hour, beginning at 1 week per minute of concentration (as listed on the table below). The amount of detail you receive diminishes, so this eventually makes it harder to distinguish impressions left by anything but the most major events.",
 			"",
@@ -3806,7 +3806,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates (blinding only); **Spell Resistance** no",
 			"",
-			"A whirling cloud of sand strikes the target, blinding it and hampering its ability to speak. To speak while affected by the spell, the target must make a Concentration check (DC equal to the DC of this spell). If the target tries to cast a spell, the Concentration DC increases by the level of the spell being cast. A successful Will save negates the blindness but not the speechhampering effect.",
+			"A whirling cloud of sand strikes the target, blinding it and hampering its ability to speak. To speak while affected by the spell, the target must make a {rule/Concentration} check (DC equal to the DC of this spell). If the target tries to cast a spell, the Concentration DC increases by the level of the spell being cast. A successful Will save negates the blindness but not the speechhampering effect.",
 			"",
 			"### Greater Sand Whirlwind",
 			"",

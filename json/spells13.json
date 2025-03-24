@@ -456,7 +456,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"The air fills with loud and discordant noise, making concentration difficult. Casting a spell in this area of cacophony requires a concentration check (DC 15 + the level of the spell being cast). Any other concentration checks in the area have their DCs increased by 5. The DC of Perception checks involving hearing is likewise increased by 5."
+			"The air fills with loud and discordant noise, making concentration difficult. Casting a spell in this area of cacophony requires a {rule/concentration} check (DC 15 + the level of the spell being cast). Any other concentration checks in the area have their DCs increased by 5. The DC of Perception checks involving hearing is likewise increased by 5."
 		]
 	},
 	"distressing_tone": {
@@ -1534,7 +1534,7 @@
 			"",
 			"You may only cast this spell immediately after successfully counterspelling an opponent. Drawing upon the residual energy of the countered spells, you gain a number of temporary hit points equal to the level of the countered spell plus your Charisma or Intelligence modifier (for sorcerers and wizards, respectively); your counterspelled opponent takes damage equal to this amount.",
 			"",
-			"If the countered spell was at least 4th level, you and your opponent make opposed concentration checks. If you beat your opponent by 10 or more, you retain this spell (or its spell slot, if you are a sorcerer) as if you had not cast it."
+			"If the countered spell was at least 4th level, you and your opponent make opposed {rule/concentration} checks. If you beat your opponent by 10 or more, you retain this spell (or its spell slot, if you are a sorcerer) as if you had not cast it."
 		]
 	},
 	"eagle_aerie": {
@@ -1788,7 +1788,7 @@
 			"**Duration** 1 round  ",
 			"**Saving Throw** see text; **Spell Resistance** no",
 			"",
-			"When you cast earthquake, an intense but highly localized tremor rips the ground. The powerful shockwave created by this spell knocks creatures down, collapses structures, opens cracks in the ground, and more. The effect lasts for 1 round, during which time creatures on the ground can't move or attack. A spellcaster on the ground must make a Concentration check (DC 20 + spell level) or lose any spell he or she tries to cast. The earthquake affects all terrain, vegetation, structures, and creatures in the area. The specific effect of an earthquake spell depends on the nature of the terrain where it is cast.",
+			"When you cast earthquake, an intense but highly localized tremor rips the ground. The powerful shockwave created by this spell knocks creatures down, collapses structures, opens cracks in the ground, and more. The effect lasts for 1 round, during which time creatures on the ground can't move or attack. A spellcaster on the ground must make a {rule/Concentration} check (DC 20 + spell level) or lose any spell he or she tries to cast. The earthquake affects all terrain, vegetation, structures, and creatures in the area. The specific effect of an earthquake spell depends on the nature of the terrain where it is cast.",
 			"",
 			"*Cave, Cavern, or Tunnel:* The roof collapses, dealing 8d6 points of damage to any creature caught under the cave-in (Reflex DC 15 half) and pinning that creature beneath the rubble (see below). An earthquake cast on the roof of a very large cavern could also endanger those outside the actual area but below the falling debris and rubble.",
 			"",
@@ -2078,7 +2078,7 @@
 			"**Duration** concentration + 1 round/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** no",
 			"",
-			"You amplify the effect of magic associated with your spirit and wandering spirit (any spells on the spirit magic spell lists for these spirits). When allies within the area cast these spells, they gain a +2 bonus on caster level checks and concentration checks, as well as to spell DCs. This bonus is a sacred bonus if you are good-aligned or a profane bonus if you are evil-aligned; if you are neither good nor evil, you can choose what type of bonus the spell grants when you cast it."
+			"You amplify the effect of magic associated with your spirit and wandering spirit (any spells on the spirit magic spell lists for these spirits). When allies within the area cast these spells, they gain a +2 bonus on caster level checks and {rule/concentration} checks, as well as to spell DCs. This bonus is a sacred bonus if you are good-aligned or a profane bonus if you are evil-aligned; if you are neither good nor evil, you can choose what type of bonus the spell grants when you cast it."
 		]
 	},
 	"fools_forbiddance": {
@@ -2915,7 +2915,7 @@
 			"**Target** you  ",
 			"**Duration** 1 minute/level",
 			"",
-			"This spell allows you to channel the essence of Cayden Cailean's philosophy, giving you the benefits of a freedom of movement spell and granting you a +4 bonus on saving throws against fear effects. The spell also makes you drunk. For the duration of the spell, you take a -2 penalty on attack rolls, ability checks, skill checks, and concentration checks. If you somehow remove or avoid these penalties, the spell's duration ends."
+			"This spell allows you to channel the essence of Cayden Cailean's philosophy, giving you the benefits of a freedom of movement spell and granting you a +4 bonus on saving throws against fear effects. The spell also makes you drunk. For the duration of the spell, you take a -2 penalty on attack rolls, ability checks, skill checks, and {rule/concentration} checks. If you somehow remove or avoid these penalties, the spell's duration ends."
 		]
 	},
 	"free_swim": {

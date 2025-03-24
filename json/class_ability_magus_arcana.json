@@ -89,7 +89,7 @@
 		"name": "Book-Bound",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
-			"**Book-Bound (Su):** As long as he wields his spellbook in his off hand, the magus can take an immediate action to gain a +4 bonus on a concentration check he attempts within the next round. This bonus stacks with other bonuses, including the bonus from the concentrate arcana. The magus can use this ability three times per day. &mdash; {source/Disciple's Doctrine/ pg. 9}"
+			"**Book-Bound (Su):** As long as he wields his spellbook in his off hand, the magus can take an immediate action to gain a +4 bonus on a {rule/concentration} check he attempts within the next round. This bonus stacks with other bonuses, including the bonus from the concentrate arcana. The magus can use this ability three times per day. &mdash; {source/Disciple's Doctrine/ pg. 9}"
 		]
 	},
 	"broad_study": {
@@ -117,7 +117,7 @@
 		"name": "Concentrate",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Concentrate (Ex):** The magus can reroll any concentration check he has just made with a +4 bonus. He must use this ability after the roll is made, but before the roll's outcome is determined. The magus must take the second roll, even if it is worse. The magus can use this ability once per day. &mdash; {source/Ultimate Magic/ pg. 11}"
+			"**Concentrate (Ex):** The magus can reroll any {rule/concentration} check he has just made with a +4 bonus. He must use this ability after the roll is made, but before the roll's outcome is determined. The magus must take the second roll, even if it is worse. The magus can use this ability once per day. &mdash; {source/Ultimate Magic/ pg. 11}"
 		]
 	},
 	"critical_strike": {
@@ -232,7 +232,7 @@
 		"name": "Lingering Pain",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Lingering Pain (Su):** The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack. All damage from that attack (including damage from a spell cast using the spellstrike ability) is considered continuous damage for the purposes of any concentration checks made by the target prior to the beginning of the magus's next turn. &mdash; {source/Ultimate Combat/ pg. 54}"
+			"**Lingering Pain (Su):** The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack. All damage from that attack (including damage from a spell cast using the spellstrike ability) is considered continuous damage for the purposes of any {rule/concentration} checks made by the target prior to the beginning of the magus's next turn. &mdash; {source/Ultimate Combat/ pg. 54}"
 		]
 	},
 	"maneuver_mastery": {
@@ -253,7 +253,7 @@
 		"name": "Natural Spell Combat",
 		"sources": [ "Blood of the Moon" ],
 		"description": [
-			"**Natural Spell Combat (Ex):** The magus can use his spell combat class feature with a natural attack of his choice. If he does, he gains a +2 bonus on concentration checks. If the natural attack is made with an appendage that would normally hold a weapon (such as a claw attack), the magus cannot wield a weapon in that appendage while making natural attacks with it. If the natural attack is a bite or other attack that does not require a free appendage to make, the magus can use the natural attack in addition to all of the attacks he could make with his melee weapon, if he has one. A magus can select this arcana more than once. The bonus on concentration checks does not stack. Each time he selects this arcana, he selects another natural weapon. For example, a magus could select this arcana twice, choosing claw attacks and bite attacks. This would allow him to use a full-round action to make all of his claw attacks with his free hand and all of his bite attacks in addition to casting a spell. This arcana otherwise functions exactly like the spell combat class feature. &mdash; {source/Blood of the Moon/ pg. 21}"
+			"**Natural Spell Combat (Ex):** The magus can use his spell combat class feature with a natural attack of his choice. If he does, he gains a +2 bonus on {rule/concentration} checks. If the natural attack is made with an appendage that would normally hold a weapon (such as a claw attack), the magus cannot wield a weapon in that appendage while making natural attacks with it. If the natural attack is a bite or other attack that does not require a free appendage to make, the magus can use the natural attack in addition to all of the attacks he could make with his melee weapon, if he has one. A magus can select this arcana more than once. The bonus on concentration checks does not stack. Each time he selects this arcana, he selects another natural weapon. For example, a magus could select this arcana twice, choosing claw attacks and bite attacks. This would allow him to use a full-round action to make all of his claw attacks with his free hand and all of his bite attacks in addition to casting a spell. This arcana otherwise functions exactly like the spell combat class feature. &mdash; {source/Blood of the Moon/ pg. 21}"
 		]
 	},
 	"planar_hunter": {
