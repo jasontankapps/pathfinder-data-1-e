@@ -204,6 +204,8 @@
 			"",
 			"::mainheader[Specific Rulesets]",
 			"",
+			"::main[Bar Fights]{to=rule/bar_fights}",
+			"",
 			"::main[Firearms]{to=rule/firearms}",
 			"",
 			"::main[Foraging]{to=rule/foraging}",

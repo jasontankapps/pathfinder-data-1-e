@@ -1591,7 +1591,7 @@
 			"",
 			"***Magical Aptitude:*** When attempting a Spellcraft or Use Magic Device check, the monster rolls twice and takes the higher result.",
 			"",
-			"***Metamagic Spell:*** Choose one [metamagic feat](main/feats_metamagic) and one spell the monster knows. That spell gains the benefit of the chosen metamagic feat once per day.",
+			"***Metamagic Spell:*** Choose one {main/feats_<metamagic/ feat} and one spell the monster knows. That spell gains the benefit of the chosen metamagic feat once per day.",
 			"",
 			"***Mutagen:*** Choose one of the following benefits:",
 			"",

@@ -1679,11 +1679,11 @@
 			"",
 			"This ability replaces trackless step.",
 			"",
-			"**Desert Born (Ex):** A sunrider is at home in the desert. At 4th level, she gains a bonus on initiative checks and on Knowledge (geography), Perception, Stealth, and Survival checks while she is in desert terrain. Mounted allies traveling with her likewise gain a bonus on initiative checks and Perception and Survival checks while in desert terrain, as long as they are within 30 feet of the sunrider.",
+			"**Desert Born (Ex):** A sunrider is at home in the desert. At 4th level, she gains a +2 bonus on initiative checks and on Knowledge (geography), Perception, Stealth, and Survival checks while she is in desert terrain. Mounted allies traveling with her likewise gain a +1 bonus on initiative checks and Perception and Survival checks while in desert terrain, as long as they are within 30 feet of the sunrider.",
 			"",
 			"This ability replaces resist nature's lure.",
 			"",
-			"**Concerted Effort (Ex):** At 4th level, a sunrider can extend the bond she shares with her horse to other nearby mounted companions, forming them into a fighting force that seems to share a single mind. Allied mounts within 60 feet of the sunrider gain evasion as per the animal companion special ability. At 6th level, the range expands to 90 feet and allied mounts gain a foot enhancement bonus to their speed. At 8th level, the range expands to 120 feet and allied mounts gain devotion as per the animal companion special ability. At 10th level, allied mounts gain multiattack as per the animal companion special ability. At 12th level, allied mounts gain a bonus on saving throws. At 14th level, allied mounts gain a foot enhancement bonus to their speed. At 16th level, allied mounts gain improved evasion as per the animal companion special ability. At 18th level, allied mounts gain a dodge bonus to their Armor Class and a bonus on attack rolls. At 20th level, allied mounts gain DR 5/- and energy resistance 10 to acid, cold, electricity, fire, and sonic damage. These abilities function only while allied mounts are within range of the sunrider (her own mount always counts as an ally).",
+			"**Concerted Effort (Ex):** At 4th level, a sunrider can extend the bond she shares with her horse to other nearby mounted companions, forming them into a fighting force that seems to share a single mind. Allied mounts within 60 feet of the sunrider gain evasion as per the animal companion special ability. At 6th level, the range expands to 90 feet and allied mounts gain a +10-foot enhancement bonus to their speed. At 8th level, the range expands to 120 feet and allied mounts gain devotion as per the animal companion special ability. At 10th level, allied mounts gain multiattack as per the animal companion special ability. At 12th level, allied mounts gain a +2 bonus on saving throws. At 14th level, allied mounts gain a +20-foot enhancement bonus to their speed. At 16th level, allied mounts gain improved evasion as per the animal companion special ability. At 18th level, allied mounts gain a dodge bonus to their Armor Class and a +2 bonus on attack rolls. At 20th level, allied mounts gain DR 5/- and energy resistance 10 to acid, cold, electricity, fire, and sonic damage. These abilities function only while allied mounts are within range of the sunrider (her own mount always counts as an ally).",
 			"",
 			"This ability replaces wild shape."
 		]
@@ -1701,7 +1701,7 @@
 			"",
 			"**Eldritch Botanist (Ex):** A supernaturalist can affect plants with mind-affecting effects she creates and with spells that normally affect animals. Any such spell that allows a Will save can instead be negated by the target plant with a successful Fortitude save at the same DC. She also can choose plant bond and green empathy, as a {arc-druid/treesinger/ druid}, in place of nature bond and wild empathy.",
 			"",
-			"**Paranormal Scholar (Ex):** A supernaturalist gains {feat/Psychic Sensitivity} as a bonus feat and adds Diplomacy, Knowledge (arcana), and Sense Motive as class skills. At 3rd level and every 3 levels thereafter, she can select a spell from the [psychic class's spell list](main/spells_psychic) and add it to her druid spell list, and is able to prepare and cast it as a druid spell. This replaces nature sense, trackless step, and resist nature's lure.",
+			"**Paranormal Scholar (Ex):** A supernaturalist gains {feat/Psychic Sensitivity} as a bonus feat and adds Diplomacy, Knowledge (arcana), and Sense Motive as class skills. At 3rd level and every 3 levels thereafter, she can select a spell from the {main/spells_<psychic/ class's spell list} and add it to her druid spell list, and is able to prepare and cast it as a druid spell. This replaces nature sense, trackless step, and resist nature's lure.",
 			"",
 			"**Animal Spirit (Su):** At 4th level, a supernaturalist can perform a seance to call an animal spirit of any animal with which she is familiar to serve as her companion and guide. The supernaturalist gains spirit, spirit bonus, spirit surge, and taboo abilities as a {class/medium} 3 levels lower than her druid level. The supernaturalist's allies cannot participate in this seance. This ability replaces wild shape. The spirit abilities of the animal spirit are as follows.",
 			"",
@@ -1715,13 +1715,13 @@
 			"",
 			"**Taboos:** Choose one: you must not speak (except with animals and plants); you must not wield manufactured weapons; you must not eat anything you did not kill or harvest yourself.",
 			"",
-			"**Totem Transformation (Lesser, Su):** You gain any of the following abilities possessed by the animal you select as your animal spirit: bite (1d6 for a Medium druid), 2 claws (1d4 for a Medium druid), darkvision, improved land movement speed (up to a foot enhancement bonus to the druid's base land movement speed), low-light vision, scent, and swim (up to 30 feet).",
+			"**Totem Transformation (Lesser, Su):** You gain any of the following abilities possessed by the animal you select as your animal spirit: bite (1d6 for a Medium druid), 2 claws (1d4 for a Medium druid), darkvision, improved land movement speed (up to a +20-foot enhancement bonus to the druid's base land movement speed), low-light vision, scent, and swim (up to 30 feet).",
 			"",
-			"**Pack Leader (Intermediate, Su):** When you summon animals that match your animal spirit, they gain a bonus on attack rolls, damage rolls, and saving throws.",
+			"**Pack Leader (Intermediate, Su):** When you summon animals that match your animal spirit, they gain a +2 bonus on attack rolls, damage rolls, and saving throws.",
 			"",
 			"**Wildstrike (Greater, Su):** You can allow your animal spirit to gain 1 point of influence over you as a swift action to allow an animal or plant (including your companion) within 30 feet that can see or hear you to immediately take an additional standard action.",
 			"",
-			"**Wild Heart (Supreme, Ex):** You gain a bonus on saves against enchantment and mind-affecting effects, and immunity to effects that affect only humanoids. Once per day, you can cast any summon nature's ally spell you can cast spontaneously as a standard action without expending a spell slot."
+			"**Wild Heart (Supreme, Ex):** You gain a +4 bonus on saves against enchantment and mind-affecting effects, and immunity to effects that affect only humanoids. Once per day, you can cast any summon nature's ally spell you can cast spontaneously as a standard action without expending a spell slot."
 		]
 	},
 	"survivor": {

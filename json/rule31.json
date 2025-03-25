@@ -2861,7 +2861,7 @@
 			"",
 			"***Wild Zones:*** Some places are magically unstable. When a creature casts a spell, uses a spell-like ability, or activates a magic item in such an area, it causes a wild magic surge.",
 			"",
-			"***Boost Casting:*** A caster can attempt to use a [metamagic feat](main/feats_metamagic) she has with a spell she's casting without expending a higher-level spell slot, needing to prepare the spell at a higher level (if a prepared caster), or increasing the casting time (if a spontaneous caster). To do so, she must attempt a caster level check with a DC equal to 10 + the spell's level + 5 for every increase in spell level the metamagic feat would normally cause. If she succeeds, her spell gains the metamagic feat's benefit and she causes a wild magic surge. If she fails, she still rolls on Table 4-4, but subtracts from the result a number equal to the amount by which she failed the check."
+			"***Boost Casting:*** A caster can attempt to use a {main/feats_<metamagic/ feat} she has with a spell she's casting without expending a higher-level spell slot, needing to prepare the spell at a higher level (if a prepared caster), or increasing the casting time (if a spontaneous caster). To do so, she must attempt a caster level check with a DC equal to 10 + the spell's level + 5 for every increase in spell level the metamagic feat would normally cause. If she succeeds, her spell gains the metamagic feat's benefit and she causes a wild magic surge. If she fails, she still rolls on Table 4-4, but subtracts from the result a number equal to the amount by which she failed the check."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -3033,7 +3033,7 @@
 			"",
 			"***Feat Access:*** The easiest way to introduce stamina and combat tricks into your game is to grant access to the {feat/Combat Stamina} feat, detailed below. This allows those taking the feat to opt into the system, gain a stamina pool, and use stamina to increase the utility of combat feats and class features they already have or will gain in the future. In general, the {feat/Combat Stamina} feat is quite strong for martial characters with a variety of combat feats.",
 			"",
-			"***Free for Fighters:*** If your goal is to provide an additional edge to the {class/fighter/ class}, you can allow fighters to gain the Combat Stamina feat as an additional bonus feat at 1st level.",
+			"***Free for Fighters:*** If your goal is to provide an additional edge to the {class/fighter} class, you can allow fighters to gain the Combat Stamina feat as an additional bonus feat at 1st level.",
 			"",
 			"***Fighter Bonus Feats Only:*** If you want to significantly strengthen fighters compared to all other classes and keep this system as a special fighter-only perk, you can restrict the {feat/Combat Stamina} feat to fighters and limit the feats a character can use with his stamina pool to those gained with the fighter's bonus feats. A multiclass fighter can't use stamina with bonus feats he gained from any other class, even if that class can take fighter-only feats as bonus feats (like the {class/warpriest} and the {class/swashbuckler}). In this version, if a character really wants the stamina ability of a few key feats, he will need to diversify his martial training by taking a level in fighter.",
 			"",

@@ -1336,7 +1336,7 @@
 			"",
 			"## {trait/Apprentice}",
 			"",
-			"During your studies of The Majestic Book of the Prime Ascended, you learned some minor magical tricks. Select a single 0-level spell from the [sorcerer/wizard spell list](main/spells_wizard). You can cast this spell 1 time per day as a spell-like ability.",
+			"During your studies of The Majestic Book of the Prime Ascended, you learned some minor magical tricks. Select a single 0-level spell from the {main/spells<sorcerer|//wizard/ spell list}. You can cast this spell 1 time per day as a spell-like ability.",
 			"",
 			":::",
 			"",

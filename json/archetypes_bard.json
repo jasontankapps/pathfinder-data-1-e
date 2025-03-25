@@ -956,7 +956,7 @@
 			"",
 			"On an inconclusive result, the bard fails to get any information from the reading and the subject is affected by the performance normally. For an ally, on a weal result the subject's bonus from the performance increases by 1, and on a woe result the subject's bonus decreases by 1 (minimum 0). This affects only numeric bonuses. For example, a subject wouldn't gain another Hit Die from inspire greatness.",
 			"",
-			"For an enemy, on a weal result the subject gains a bonus on its saving throw to negate the bard's performance, and on a woe result it takes a -2 penalty on its save. An oracular performance has no effect on an enemy if the performance doesn't require a saving throw.",
+			"For an enemy, on a weal result the subject gains a +2 bonus on its saving throw to negate the bard's performance, and on a woe result it takes a -2 penalty on its save. An oracular performance has no effect on an enemy if the performance doesn't require a saving throw.",
 			"",
 			"All adjustments from an oracular performance on a foe last only for that instance of the bardic performance. All adjustments on an ally last for 1 minute, applying each time the fortune-teller uses that particular bardic performance on that ally but ending when the duration expires, even if the performance continues.",
 			"",
@@ -968,7 +968,7 @@
 			"",
 			"**Bardic Performance:** A fortune-teller gains the following bardic performance.",
 			"",
-			">**Transparent Fate (Su):** At 8th level, the fortune-teller can cause all enemies within 30 feet to have their near future revealed for all to see. A successful Will saving throw (DC = 10 1/2 the fortune-teller's level the fortune-teller's Cha modifier) negates the effect. This ability causes any creature attacked by an affected enemy to gain a bonus to AC and on saving throws against the attack. As a secondary effect, if an affected creature's hit points are reduced to less than its Constitution score, it also sees a vision of its own death and must succeed at another Will save or become frightened for 1 round. A given creature needs to save against this secondary effect at most once per performance of transparent fate, even if its hit points are reduced to less than its Constitution score multiple times. A creature that was targeted by oracular performance when this performance began applies any save DC adjustment to this secondary save as well. At the GM's discretion, the revelation of the creature's fate might have other consequences; for example, a creature's allies might see it was planning to betray them.",
+			">**Transparent Fate (Su):** At 8th level, the fortune-teller can cause all enemies within 30 feet to have their near future revealed for all to see. A successful Will saving throw (DC = 10 1/2 the fortune-teller's level the fortune-teller's Cha modifier) negates the effect. This ability causes any creature attacked by an affected enemy to gain a +2 bonus to AC and on saving throws against the attack. As a secondary effect, if an affected creature's hit points are reduced to less than its Constitution score, it also sees a vision of its own death and must succeed at another Will save or become frightened for 1 round. A given creature needs to save against this secondary effect at most once per performance of transparent fate, even if its hit points are reduced to less than its Constitution score multiple times. A creature that was targeted by oracular performance when this performance began applies any save DC adjustment to this secondary save as well. At the GM's discretion, the revelation of the creature's fate might have other consequences; for example, a creature's allies might see it was planning to betray them.",
 			">",
 			">This ability replaces dirge of doom."
 		]
@@ -1048,7 +1048,7 @@
 			"",
 			"**Versed in Curses (Ex):** At 2nd level, a hoaxer gains a +4 bonus on saving throws against curses, hexes, and language-dependent effects. This ability replaces well-versed.",
 			"",
-			"**Curse Crafter (Ex):** At 5th level, a hoaxer learns how to craft cursed items. He gains one [item creation feat](main/feats_metamagic) as a bonus feat at 5th level, plus an additional item creation feat every 6 levels thereafter. He can use these feats only to craft cursed items. In addition, he can craft items that appear magical but have no true magical properties - as if permanently affected by the {spell/magic aura} spell - for 50 gp. This ability replaces lore master."
+			"**Curse Crafter (Ex):** At 5th level, a hoaxer learns how to craft cursed items. He gains one {main/feats_<item creation/ feat} as a bonus feat at 5th level, plus an additional item creation feat every 6 levels thereafter. He can use these feats only to craft cursed items. In addition, he can craft items that appear magical but have no true magical properties - as if permanently affected by the {spell/magic aura} spell - for 50 gp. This ability replaces lore master."
 		]
 	},
 	"impervious_messenger": {

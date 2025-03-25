@@ -94,7 +94,7 @@
 			"**Cost** +50 gp **Weight** +10 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close",
+			"**{ability/Weapon Group>s}** Close",
 			"",
 			"You can have spikes added to your armor, which allow you to deal extra piercing damage on a successful grapple attack. The spikes count as a martial weapon. If you are not proficient with them, you take a -4 penalty on grapple checks when you try to use them. You can also make a regular melee attack (or off-hand attack) with the spikes, and they count as a light weapon in this case. (You can't also make an attack with armor spikes if you have already made an attack with another off-hand weapon, and vice versa.) An enhancement bonus to a suit of armor does not improve the spikes' effectiveness, but the spikes can be made into magic weapons in their own right. Armor spikes can't be disarmed."
 		]
@@ -137,7 +137,7 @@
 			"*Heavy shield*  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close",
+			"**{ability/Weapon Group>s}** Close",
 			"",
 			"Deadly spikes and bladed projections extend from some shields, transforming such pieces of armor into weapon in their own right. Shield spikes turn a shield into a martial piercing weapon and increase the damage dealt by a shield bash as if the shield were designed for a creature one size category larger. You can't put spikes on a buckler or a tower shield. Otherwise, attacking with a spiked shield is like making a shield bash attack.",
 			"",
@@ -257,7 +257,7 @@
 			"**Cost** +50 gp **Weight** -  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** performance, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Thrown",
+			"**{ability/Weapon Group>s}** Thrown",
 			"",
 			"This shield is designed for throwing and comes with specially designed straps allowing you to unclasp and throw it as a free action. Tower shields cannot be throwing shields. Neither a shield's enhancement bonus to AC nor its shield spikes apply to your attack or damage rolls."
 		]

@@ -2785,7 +2785,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/145}",
 			"",
-			"When using a [metamagic feat](main/feats_metamagic) to modify a spell cast from a spell pool, the caster is treated as if he were a spontaneous caster (increasing the casting time to a full-round action if applicable). The spell must still fall under the level he can cast with his pool. Otherwise, he must still expend one of his spell slots to prepare it.",
+			"When using a {main/feats_<metamagic/ feat} to modify a spell cast from a spell pool, the caster is treated as if he were a spontaneous caster (increasing the casting time to a full-round action if applicable). The spell must still fall under the level he can cast with his pool. Otherwise, he must still expend one of his spell slots to prepare it.",
 			"",
 			"For instance, our example 13th-level necromancer could cast an {feat/enlarged} {spell/fireball} as a full-round action using his spell pool, but to cast an {feat/empowered} {spell/fireball}, he would have to expend a 5th-level spell slot to prepare it, since 5th-level spells aren't part of his pool."
 		],

@@ -106,7 +106,7 @@
 			"",
 			"This replaces trance of three.",
 			"",
-			"**Master's Style (Su):** At 17th level, when a medium of the master channels a champion spirit, she gains a bonus [style feat](main/feats_style) and the two feats in that style's feat path. She does not have to meet the prerequisites for these feats.",
+			"**Master's Style (Su):** At 17th level, when a medium of the master channels a champion spirit, she gains a bonus {main/feats_<style/ feat} and the two feats in that style's feat path. She does not have to meet the prerequisites for these feats.",
 			"",
 			"This alters spirit power (supreme)."
 		]

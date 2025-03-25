@@ -2086,7 +2086,7 @@
 			"",
 			"{subtype/Giant}:** Low-light vision; skills-gain Intimidate as additional good skill.",
 			"",
-			"{subtype/Gnome}:** Gain the Small graft, low-light vision, gain one CR-appropriate spell from the [illusion spell list](main/spells_illusion).",
+			"{subtype/Gnome}:** Gain the Small graft, low-light vision, gain one CR-appropriate spell from the {main/spells_<illusion/ spell list}.",
 			"",
 			"{subtype/Goblinoid}:** Skills-gain Stealth as an additional good skill.",
 			"",

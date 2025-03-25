@@ -3360,7 +3360,7 @@
 			"",
 			"You have honed your mind to harness psychic power.  ",
 			"**Prerequisites:** Int 11, {feat/Psychic Sensitivity}.  ",
-			"**Benefit:** You gain the ability to cast a 0-level knack from the [psychic class's spell list](main/spells_psychic). You can cast this spell three times per day as a spell-like ability. The caster level for this ability is equal to your character level, and the save DC is equal to 10 + your Intelligence modifier.  ",
+			"**Benefit:** You gain the ability to cast a 0-level knack from the {main/spells_<psychic/ class's spell list}. You can cast this spell three times per day as a spell-like ability. The caster level for this ability is equal to your character level, and the save DC is equal to 10 + your Intelligence modifier.  ",
 			"**Special:** You can choose this feat multiple times, choosing a different knack each time."
 		]
 	},
@@ -3400,7 +3400,7 @@
 			"",
 			"You have opened your mind to the more advanced disciplines of basic psychic magic.  ",
 			"**Prerequisites:** Int 13, {feat/Psychic Adept}, {feat/Psychic Sensitivity}.  ",
-			"**Benefit:** You gain the ability to cast a 1st-level psychic spell from the [psychic class's spell list](main/spells_psychic). You can cast this spell twice per day as a spell-like ability. The caster level for this ability is equal to your character level, and the save DC is equal to 11 + your Intelligence modifier.  ",
+			"**Benefit:** You gain the ability to cast a 1st-level psychic spell from the {main/spells_<psychic/ class's spell list}. You can cast this spell twice per day as a spell-like ability. The caster level for this ability is equal to your character level, and the save DC is equal to 11 + your Intelligence modifier.  ",
 			"**Special:** You can take this feat multiple times, choosing a different spell each time."
 		]
 	},

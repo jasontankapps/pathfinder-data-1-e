@@ -289,7 +289,7 @@
 			"",
 			"**Familiar:** An unlettered arcanist does not keep a spellbook. Instead, she gains a {sidekick/familiar} in which she stores her spells as a {class/witch} does, though she does not gain a witch's patron. Treat her arcanist level as her witch level for determining the abilities and benefits granted by the familiar. Anything that would allow an unlettered arcanist to add spells to her spellbook allows her to add spells to her familiar instead. This ability replaces spellbooks.",
 			"",
-			"**Witch Spells:** An unlettered arcanist follows a different arcane tradition. She uses the {main/spells_<witch/ spell list} instead of the [wizard/sorcerer spell list](main/spells_wizard). This ability alters the spells class feature."
+			"**Witch Spells:** An unlettered arcanist follows a different arcane tradition. She uses the {main/spells_<witch/ spell list} instead of the {main/spells_<wizard[//]/sorcerer spell list}. This ability alters the spells class feature."
 		]
 	},
 	"white_mage": {

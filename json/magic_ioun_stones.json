@@ -2852,7 +2852,7 @@
 			"",
 			"#### Description",
 			"",
-			"This stone grants you the ability to use a 1st-level spell from the {main/spells_<cleric}, {main/spells_<druid}, or [sorcerer/wizard](main/spells_wizard) spell list as a spell-like ability three times per day, using your character level as your caster level. The spell keyed to the ioun stone is selected by the stone's creator. In order for you to use this spell-like ability, you must have a Charisma score of 11 or higher. The save DCs of the chosen spell are Charisma-based, if any.",
+			"This stone grants you the ability to use a 1st-level spell from the {main/spells_<cleric}, {main/spells_<druid}, or {main/spells<sorcerer|//wizard} spell list as a spell-like ability three times per day, using your character level as your caster level. The spell keyed to the ioun stone is selected by the stone's creator. In order for you to use this spell-like ability, you must have a Charisma score of 11 or higher. The save DCs of the chosen spell are Charisma-based, if any.",
 			"",
 			"#### Resonance",
 			"",

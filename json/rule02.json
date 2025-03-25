@@ -1231,7 +1231,7 @@
 			"",
 			"***Caster Level for Armor and Shields:*** The caster level of a magic shield or magic armor with a special ability is given in the item description. For an item with only an enhancement bonus, the caster level is three times the enhancement bonus. If an item has both an enhancement bonus and a special ability, the higher of the two caster level requirements must be met.",
 			"",
-			"***Shields:*** Shield enhancement bonuses stack with armor enhancement bonuses. Shield enhancement bonuses do not act as attack or damage bonuses when the shield is used in a shield bash. The bashing special ability, however, does grant a +1 bonus on attack and damage rolls (see the special ability description).",
+			"***Shields:*** Shield enhancement bonuses stack with armor enhancement bonuses. Shield enhancement bonuses do not act as attack or damage bonuses when the shield is used in a shield bash. The {magic-enh/bashing} special ability, however, does grant a +1 bonus on attack and damage rolls (see the special ability description).",
 			"",
 			"A shield could be built that also acted as a magic weapon, but the cost of the enhancement bonus on attack rolls would need to be added into the cost of the shield and its enhancement bonus to AC.",
 			"",

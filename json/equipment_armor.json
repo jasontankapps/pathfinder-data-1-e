@@ -878,7 +878,7 @@
 			"",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Heavy; Close",
+			"**{ability/Weapon Group>s}** Blades, Heavy; Close",
 			"",
 			"The traditional form of this tribal weapon is a short blade bound to the skull of a large horned lizard, but a skilled smith can craft one entirely out of metal. A traditional klar counts as a light wooden shield with armor spikes; a metal klar counts as a light steel shield with armor spikes."
 		]
@@ -902,7 +902,7 @@
 			"",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Tribal"
+			"**{ability/Weapon Group>s}** Close; Tribal"
 		]
 	},
 	"light_steel_quickdraw_shield": {
@@ -924,7 +924,7 @@
 			"",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Tribal"
+			"**{ability/Weapon Group>s}** Close; Tribal"
 		]
 	},
 	"light_wooden_shield": {
@@ -946,7 +946,7 @@
 			"",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Tribal"
+			"**{ability/Weapon Group>s}** Close; Tribal"
 		]
 	},
 	"light_wooden_quickdraw_shield": {
@@ -968,7 +968,7 @@
 			"",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Tribal"
+			"**{ability/Weapon Group>s}** Close; Tribal"
 		]
 	},
 	"madu_shield_leather": {
@@ -991,7 +991,7 @@
 			"",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Close"
+			"**{ability/Weapon Group>s}** Blades, Light; Close"
 		]
 	},
 	"leather_madu": { "copyof": "madu_shield_leather" },
@@ -1015,7 +1015,7 @@
 			"",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Blades, Light; Close"
+			"**{ability/Weapon Group>s}** Blades, Light; Close"
 		]
 	},
 	"poisoners_buckler": {
@@ -1046,7 +1046,7 @@
 			"*Shield bash*  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](ability/weapon_groups)** Close"
+			"**{ability/Weapon Group>s}** Close"
 		]
 	},
 	"dwarven_war_shield": { "copyof": "war_shield_dwarven" },
@@ -1069,7 +1069,7 @@
 			"",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Tribal"
+			"**{ability/Weapon Group>s}** Close; Tribal"
 		]
 	},
 	"heavy_wooden_shield": {
@@ -1091,7 +1091,7 @@
 			"",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](ability/weapon_groups)** Close; Tribal"
+			"**{ability/Weapon Group>s}** Close; Tribal"
 		]
 	},
 	"snarlshield_steel": {
