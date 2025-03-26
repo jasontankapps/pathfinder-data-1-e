@@ -337,9 +337,8 @@ const postprocess = (prefix, tables, flags) => {
 		output = output + text;
 		//Create implicit jumplists
 		if(flags.implicitJumplist) {
-			const info = flags.implicitJumplist;
 			let pre = `<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
-			info.forEach(pair => {
+			flags.implicitJumplist.forEach(pair => {
 				const [text, id] = pair;
 				pre = pre + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${id}")} onClick={()=>jumpScroller("${id}")}>${text}</li>`;
 			});

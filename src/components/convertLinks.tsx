@@ -1,17 +1,21 @@
 // Below needs to be copied to tests/checkForEncodedLink.js (minus Typescript) when changed
-export const checkForEncodedLink = (input: string, normal: boolean = false): false | string[] => {
+export const checkForEncodedLink = (input: string, mayBeRegularLink: boolean = false): false | string[] => {
 	let m = input.match(/(^.*?)\{([-a-z_]+)\/([^}]+)\}(.*$)/);
-	if(!m) {
-		if(normal && (m = input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)\/([^)]+)\)(.*$)/))) {
-			const [x, pre, text, protocol, property, post] = m;
+	const m2 = mayBeRegularLink && input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)\/([^)]+)\)(.*$)/);
+	if(!m && !m2) {
+		return false;
+	} else if (m2) {
+		// See if we have a {match}, then figure out who has the earlier match.
+		if(!m || (m[1].length > m2[1].length)) {
+			// [match] wins
+			const [, pre, text, protocol, property, post] = m2;
 			return [
 				pre, `${protocol}/${property}`, text, post,
 				protocol, property, `[${text}](${protocol}/${property})`
 			];
 		}
-		return false;
 	}
-	const [x, pre, protocol, matchedx, post] = m;
+	const [, pre, protocol, matchedx, post] = m!;
 	let matched = matchedx, linkpre = "", linkpost = "", textpre = "", textpost = "";
 	// pre_<link
 	if(m = matched.match(/(^.+?)<(.+$)/)) {
@@ -42,7 +46,7 @@ export const checkForEncodedLink = (input: string, normal: boolean = false): fal
 	let linkmatched = "";
 	matched = "";
 	while(m = temp.match(/^(.*?)\[(.*?)\](.*)$/)) {
-		const [ignore, pre, extra, post] = m;
+		const [, pre, extra, post] = m;
 		matched = matched + pre + extra;
 		linkmatched = linkmatched + pre;
 		temp = post;

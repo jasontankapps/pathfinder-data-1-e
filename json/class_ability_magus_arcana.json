@@ -407,7 +407,7 @@
 		"name": "Spellbreaker",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Spellbreaker (Ex):** The magus gains Spellbreaker as a bonus feat. The magus must be at least 9th level before selecting this arcana. &mdash; {source/Ultimate Combat/ pg. 55}"
+			"**Spellbreaker (Ex):** The magus gains {feat/Spellbreaker} as a bonus feat. The magus must be at least 9th level before selecting this arcana. &mdash; {source/Ultimate Combat/ pg. 55}"
 		]
 	},
 	"spell_scars": {

@@ -128,7 +128,7 @@
 			"",
 			"**Exotic Pet (Ex):** At 5th level, a buccaneer gains a familiar as a wizard of half the buccaneer's class level (though the exotic pet never gains the ability to deliver touch spells or share spells). This pet is typically a monkey or parrot (use the stats for a raven familiar). Such animals are useful scouts, even in the thick of combat. As long as the pet is within 30 feet of the buccaneer, the buccaneer also gains the benefit of evasion. This ability replaces gun training 1.",
 			"",
-			"**Sword and Pistol:** At 9th level, a buccaneer gains Sword and Pistol as a bonus feat even if she does not meet the prerequisites. This ability replaces gun training 2.",
+			"**Sword and Pistol:** At 9th level, a buccaneer gains {feat/Sword and Pistol} as a bonus feat even if she does not meet the prerequisites. This ability replaces gun training 2.",
 			"",
 			"**Gun Training (Ex):** A buccaneer gains this ability only at 13th level with a single type of firearm.",
 			"",
@@ -565,7 +565,7 @@
 			"",
 			"**Scattershot (Ex):** At 3rd level, if the siege gunner has at least 1 grit point, she can increase the effectiveness of scattering shots from hand-held firearms and blast shots from siege engines. The cone radius of scattering shots or blast shots increases by 5 feet for every three levels the siege gunner possesses (to a maximum of 30 feet at 18th level). This ability replaces gunslinger initiative.",
 			"",
-			"**Bonus Feats:** At 4th level, a siege gunner gains Siege Engineer as a bonus feat. At 8th level, she gains Master Siege Engineer as a bonus feat. She does not need to meet the prerequisites for these feats. At 12th level and for every 4 levels thereafter, the siege gunner gains a bonus feat in addition to those gained by normal advancement. These additional bonus feats must be combat or grit feats, and she must meet the prerequisites as normal. This replaces the gunslinger's normal bonus feats."
+			"**Bonus Feats:** At 4th level, a siege gunner gains {feat/Siege Engineer} as a bonus feat. At 8th level, she gains {feat/Master Siege Engineer} as a bonus feat. She does not need to meet the prerequisites for these feats. At 12th level and for every 4 levels thereafter, the siege gunner gains a bonus feat in addition to those gained by normal advancement. These additional bonus feats must be combat or grit feats, and she must meet the prerequisites as normal. This replaces the gunslinger's normal bonus feats."
 		]
 	},
 	"techslinger": {
@@ -587,7 +587,7 @@
 			"",
 			"**Heavy Weaponry Deeds (Ex):** At 11th level, as long as the techslinger has at least 1 grit point, she can treat a heavy weapon as a firearm for the purpose of using deeds.",
 			"",
-			"**Bonus Feats:** A techslinger can select Technologist as a bonus feat, even though it's neither a combat nor a grit feat.",
+			"**Bonus Feats:** A techslinger can select {feat/Technologist} as a bonus feat, even though it's neither a combat nor a grit feat.",
 			"",
 			"**Technic Training (Ex):** Starting at 5th level, a techslinger can select one specific type of advanced technology firearm (such as a laser pistol, mindrender, stun gun, or zero rifle). Thereafter, she gains a bonus equal to her Dexterity modifier on damage rolls when using that firearm. Furthermore, she treats all detrimental glitches of timeworn versions of her selected firearm as a result of no glitch. (She can retain the effects of beneficial glitches if she wishes.)",
 			"",

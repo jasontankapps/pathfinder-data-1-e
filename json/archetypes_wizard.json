@@ -68,7 +68,7 @@
 			"",
 			"This alters the wizard's class skills.",
 			"",
-			"**Ready for Anything (Ex):** Instead of crafting magical items or learning ways to manipulate metamagic, arcane wardens prefer to spend their time providing safety and refuge for others. At 1st level, an arcane warden gains a bonus feat associated with aiding allies or providing shelter. At 5th, 10th, 15th, and 20th levels, the arcane warden gains an additional bonus feat. The arcane warden must qualify for any feat he takes, and must choose from the following list: {feat/Alertness}, {feat/Endurance}, {feat/Great Fortitude}, {feat/Improved Great Fortitude}, {feat/Leadership}, {feat/Self-Sufficient}, {feat/Skill Focus} (Survival), {feat/Toughness}, or any [teamwork](main/feats_teamwork) feat.",
+			"**Ready for Anything (Ex):** Instead of crafting magical items or learning ways to manipulate metamagic, arcane wardens prefer to spend their time providing safety and refuge for others. At 1st level, an arcane warden gains a bonus feat associated with aiding allies or providing shelter. At 5th, 10th, 15th, and 20th levels, the arcane warden gains an additional bonus feat. The arcane warden must qualify for any feat he takes, and must choose from the following list: {feat/Alertness}, {feat/Endurance}, {feat/Great Fortitude}, {feat/Improved Great Fortitude}, {feat/Leadership}, {feat/Self-Sufficient}, {feat/Skill Focus} (Survival), {feat/Toughness}, or any {main/feats_<teamwork/ feat}.",
 			"",
 			"This replaces Scribe Scroll and the bonus feats gained at 5th, 10th, 15th, and 20th levels.",
 			"",
@@ -318,7 +318,7 @@
 			"",
 			"This alters arcane school and spells.",
 			"",
-			"**Turn Undead (Su):** A hallowed necromancer must select Turn Undead as a bonus feat with her power over undead arcane school ability.",
+			"**Turn Undead (Su):** A hallowed necromancer must select {feat/Turn Undead} as a bonus feat with her power over undead arcane school ability.",
 			"",
 			"This alters power over undead.",
 			"",
@@ -356,7 +356,7 @@
 			"",
 			"This ability replaces arcane bond.",
 			"",
-			"**Trained Teamwork (Ex):** Starting at 5th level, the instructor can take a teamwork feat as his wizard bonus feat. As long as his apprentice is within 60 feet, the apprentice gains all such teamwork feats as bonus feats. The apprentice does not have to meet the feat's prerequisites. This ability modifies the bonus feats gained at 5th, 10th, 15th, and 20th level."
+			"**Trained Teamwork (Ex):** Starting at 5th level, the instructor can take a {main/feats_<teamwork/ feat} as his wizard bonus feat. As long as his apprentice is within 60 feet, the apprentice gains all such teamwork feats as bonus feats. The apprentice does not have to meet the feat's prerequisites. This ability modifies the bonus feats gained at 5th, 10th, 15th, and 20th level."
 		]
 	},
 	"pact_wizard_ff": {
@@ -504,13 +504,13 @@
 			"## Scroll Scholar",
 			"",
 			"{SOURCE Pathfinder Society Field Guide/26}  ",
-			"A scroll scholar values knowledge and learning as much as her other abilities, trading a portion of her potential in her chosen class for greater breadth of skill at deciphering old texts, piecing together strange fragments of esoteric lore, and deciphering the hidden qualities of strange and unusual magical items. The scroll scholar archetype can be taken by either clerics or wizards - they give up different class abilities for the new abilities granted by this archetype. A wizard must either be a universalist wizard or a diviner wizard in order to take this archetype - other types of school specializations are not suited to this archetype's focus. A scroll scholar has the following class features.",
+			"A scroll scholar values knowledge and learning as much as her other abilities, trading a portion of her potential in her chosen class for greater breadth of skill at deciphering old texts, piecing together strange fragments of esoteric lore, and deciphering the hidden qualities of strange and unusual magical items. The scroll scholar archetype can be taken by either clerics or wizards - they give up [different class abilities](arc-cleric/scroll_scholar) for the new abilities granted by this archetype. A wizard must either be a universalist wizard or a diviner wizard in order to take this archetype - other types of school specializations are not suited to this archetype's focus. A scroll scholar has the following class features.",
 			"",
-			"**Diligent Student (Ex):** At 1st level, a scroll scholar chooses one Knowledge skill. This becomes a class skill if it is not already one. The scroll scholar adds half her class level to all Knowledge checks of this type (minimum 1). At 5th level and every five levels thereafter, a scroll scholar chooses 1 additional Knowledge skill to receive this bonus. For clerics, this ability replaces one of the 1st-level granted powers from her domains - the character gets to choose which of her two 1st-level granted powers it replaces. For wizards, this ability replaces diviner's fortune (if a diviner) or hand of the apprentice (if a universalist).",
+			"**Diligent Student (Ex):** At 1st level, a scroll scholar chooses one Knowledge skill. This becomes a class skill if it is not already one. The scroll scholar adds half her class level to all Knowledge checks of this type (minimum 1). At 5th level and every five levels thereafter, a scroll scholar chooses 1 additional Knowledge skill to receive this bonus. This ability replaces diviner's fortune (if a diviner) or hand of the apprentice (if a universalist).",
 			"",
-			"**Secrets Revealed (Sp):** At 5th level, a scroll scholar gains the ability to cast comprehend languages and identify as spell-like abilities. Her caster level is equal to her character level in whatever class she took the scroll scholar archetype for. She can cast these spells once per day each at 5th level, twice per day each at 7th level, and three times per day each at 9th level. At 11th level, one of these spell-like abilities (scholar's choice) becomes a constant spell-like ability, and at 13th level, the second one becomes a constant spell-like ability. If the scholar is a cleric, this ability replaces the increase to her channel energy damage normally gained at 5th level - her channel energy damage increases to 3d6 at 7th level instead, and for the rest of her career as a cleric lags 1d6 behind normal. If the scholar is a wizard, this ability replaces her bonus feat for 5th level.",
+			"**Secrets Revealed (Sp):** At 5th level, a scroll scholar gains the ability to cast {spell/comprehend languages} and {spell/identify} as spell-like abilities. Her caster level is equal to her character level in whatever class she took the scroll scholar archetype for. She can cast these spells once per day each at 5th level, twice per day each at 7th level, and three times per day each at 9th level. At 11th level, one of these spell-like abilities (scholar's choice) becomes a constant spell-like ability, and at 13th level, the second one becomes a constant spell-like ability. This ability replaces her bonus feat for 5th level.",
 			"",
-			"**Flash of Insight (Su):** At 10th level, once per day, a scroll scholar can gain a +5 bonus on a single attack roll, caster level check, or saving throw as an immediate action. This decision must be made before the results of the roll are known, but can be made after the die is rolled. This ability can be used twice per day at 15th level, and 3 times per day at 20th level. This ability replaces the normal addition of a new 4th-level spell slot to the character's spells per day; from this point on, the cleric or wizard has one fewer 4th-level spell slot than other clerics or wizards."
+			"**Flash of Insight (Su):** At 10th level, once per day, a scroll scholar can gain a +5 bonus on a single attack roll, caster level check, or saving throw as an immediate action. This decision must be made before the results of the roll are known, but can be made after the die is rolled. This ability can be used twice per day at 15th level, and 3 times per day at 20th level. This ability replaces the normal addition of a new 4th-level spell slot to the character's spells per day; from this point on, the wizard has one fewer 4th-level spell slot than other wizards."
 		]
 	},
 	"scrollmaster": {
@@ -568,7 +568,7 @@
 			"{SOURCE Ultimate Combat/75}  ",
 			"The siege mage combines his arcane mastery with a supernatural link to siege engines.",
 			"",
-			"**Siege Engineer:** At 1st level, the siege mage gains Siege Engineer as a bonus feat, even though he does not meet the prerequisites for that feat. This ability replaces scribe scroll.",
+			"**Siege Engineer:** At 1st level, the siege mage gains {feat/Siege Engineer} as a bonus feat, even though he does not meet the prerequisites for that feat. This ability replaces scribe scroll.",
 			"",
 			"**Siege Engine Bond (Su):** At 1st level, a siege mage can bond with a single siege engine within 30 feet and line of sight as a standard action. He can utilize the power of this link to aim and fire the siege engine remotely (as long as he's within 30 feet), though it still requires a crew to reload the siege engine. At 10th level, he can reload, aim, and fire the siege engine purely by the power of this link, and no longer needs a crew to control the siege engine. It still takes the normal required amount of time and actions to control a siege engine in this manner. This ability replaces arcane bond. The siege mage can end this bond with a free action. A siege mage can bond with a siege engine in this manner a number of times per day equal to his Intelligence modifier (minimum 1) but can only be bonded with one siege engine at a time.",
 			"",
@@ -747,7 +747,7 @@
 			"",
 			"This ability alters arcane bond.",
 			"",
-			"**Command Undead (Su):** An undead master gains Command Undead as a bonus feat, treating his wizard level as his cleric level. If he lacks the ability to channel negative energy for the purpose of Command Undead, he can expend 3 uses of any 1st-level arcane school ability that normally has a number of uses per day equal to 3 + his Intelligence modifier, rather than a use of channel energy. If he's a necromancer with the power over undead ability, he instead gains Improved Channel.",
+			"**Command Undead (Su):** An undead master gains {feat/Command Undead} as a bonus feat, treating his wizard level as his cleric level. If he lacks the ability to channel negative energy for the purpose of Command Undead, he can expend 3 uses of any 1st-level arcane school ability that normally has a number of uses per day equal to 3 + his Intelligence modifier, rather than a use of channel energy. If he's a necromancer with the power over undead ability, he instead gains Improved Channel.",
 			"",
 			"This ability replaces Scribe Scroll.",
 			"",
