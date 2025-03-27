@@ -1020,7 +1020,7 @@
 					[ "{magusarcana/Prescient Defense}", [ 3, "3rd" ], "Gain greater defense against a creature you hit." ],
 					[ "{magusarcana/Quickened Magic}", [ 15, "15th" ], "Use {feat/Quicken Spell} for free once per day." ],
 					[ "{magusarcana/Rakshasa's Fortune}", [ 9, "9th" ], "Gain a bonus (or penalty) from a Harrow card when you cast a polymorph spell on yourself." ],
-					[ "{magusarcana/Ranger Trap}", [ 10, "10th" ], "Learn a [ranger trap](ability/ranger_traps)." ],
+					[ "{magusarcana/Ranger Trap}", [ 10, "10th" ], "Learn a {ability/ranger trap>s}." ],
 					[ "{magusarcana/Reach Magic}", [ 3, "3rd" ], "Use {feat/Reach Spell} for free once per day." ],
 					[ "{magusarcana/Reach Spellstrike}", [ 9, "9th" ], "Ranged spellstrike increases a touch spell's range to \"Close\"." ],
 					[ "{magusarcana/Reflection}", [ 15, "15th" ], "Reflect a spell back at its caster." ],

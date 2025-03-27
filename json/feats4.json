@@ -4299,7 +4299,7 @@
 			"",
 			"Your skill with traps is extensive.  ",
 			"**Prerequisites:** {feat/Learn Ranger Trap}, Survival 8 ranks.  ",
-			"**Benefit:** You learn one additional [ranger trap](ability/ranger_traps) and can now use both extraordinary and supernatural versions of any ranger traps you know."
+			"**Benefit:** You learn one additional {ability/ranger trap>s} and can now use both extraordinary and supernatural versions of any ranger traps you know."
 		]
 	},
 	"improved_legendary_influence": {

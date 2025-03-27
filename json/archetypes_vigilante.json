@@ -323,7 +323,7 @@
 			"",
 			"**House Orlovsky:** The Dragonscale loyalist gains {feat/Call Truce} and a +3 bonus to his CMD.",
 			"",
-			"**House Rogarvia:** The Dragonscale loyalist gains {feat/Skill Focus} (Knowledge [history]) and a +2 bonus on Diplomacy checks to gather information. This bonus increases to +4 when gathering information related to the Rogarvias.",
+			"**House Rogarvia:** The Dragonscale loyalist gains Skill Focus (Knowledge [history]) and a +2 bonus on Diplomacy checks to gather information. This bonus increases to +4 when gathering information related to the Rogarvias.",
 			"",
 			"**House Surtova:** The Dragonscale loyalist gains {feat/Persuasive} and a +4 bonus on Sense Motive checks against creatures that profess to be his allies.",
 			"",
@@ -439,7 +439,7 @@
 			"",
 			"This replaces unshakable.",
 			"",
-			"**Symbol of Mastery:** At 8th level, a ferocious hunter gains {feat/Improved Critical} with the weapon chosen for the symbol of pride ability. His base attack bonus is equal to his vigilante level for the purpose of qualifying for {feat/Critical Focus} and any feats that require {feat/Critical Focus} as a prerequisite.",
+			"**Symbol of Mastery:** At 8th level, a ferocious hunter gains {feat/Improved Critical} with the weapon chosen for the symbol of pride ability. His base attack bonus is equal to his vigilante level for the purpose of qualifying for {feat/Critical Focus} and any feats that require Critical Focus as a prerequisite.",
 			"",
 			"This replaces the vigilante talent gained at 8th level."
 		]
@@ -747,7 +747,7 @@
 			"",
 			"**Mental Focus (Su):** At 2nd level, like an occultist, a psychometrist has mental focus he can invest into his implements each day to allow him to utilize abilities tied to them. A psychometrist has a number of points of mental focus equal to half his vigilante level plus his Intelligence modifier.",
 			"",
-			"**Object Reading (Su):** At 2nd level, a psychometrist can read information from items he examines, and gains the {class/occultist/'s} object reading ability.",
+			"**Object Reading (Su):** At 2nd level, a psychometrist can read information from items he examines, and gains the occultist's object reading ability.",
 			"",
 			"This ability replaces unshakable.",
 			"",
