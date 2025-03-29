@@ -406,6 +406,7 @@
 		"name": "Bombard, standard",
 		"copyof": "light_bombard"
 	},
+	"bombard": { "copyof": "bombard_standard" },
 	"catapult_standard": {
 		"name": "Catapult, standard",
 		"copyof": "light_catapult"
