@@ -38,7 +38,7 @@
 			"{SOURCE Inner Sea Intrigue/38}  ",
 			"Bonded investigators use intelligent familiars to assist them in their investigations. They are common in the Inner Sea region's bustling cities, where a rat, cat, raven, or another small animal can go largely unnoticed.",
 			"",
-			"**Familiar (Ex):** At 2nd level, a bonded investigator gains a {ability/familiar} to aid him. This familiar functions as the wizard arcane bond class feature, using the bonded investigator's class level to determine the familiar's special abilities. The bonded investigator's extracts are considered spells for the purposes of familiar abilities like share spell and deliver touch spells.",
+			"**Familiar (Ex):** At 2nd level, a bonded investigator gains a {ability/familiar} to aid him. This {sidekick/familiar} functions as the {class/wizard} arcane bond class feature, using the bonded investigator's class level to determine the familiar's special abilities. The bonded investigator's extracts are considered spells for the purposes of familiar abilities like share spell and deliver touch spells.",
 			"",
 			"This ability replaces poison lore, poison resistance, and poison immunity.",
 			"",
@@ -54,7 +54,7 @@
 			"",
 			"This replaces the investigator talent gained at 7th level.",
 			"",
-			"**Investigator Talents:** The following investigator talents complement the bonded investigator archetype effortless aid, perceptive tracking, tenacious inspiration, and unconventional inspiration."
+			"**Investigator Talents:** The following {ability/investigator talents} complement the bonded investigator archetype effortless aid, perceptive tracking, tenacious inspiration, and unconventional inspiration."
 		]
 	},
 	"cartographer": {

@@ -471,6 +471,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab, pounce, rake (1d6)."
 		]
 	},
+	"big_cat": { "copyof": "cat_big" },
 	"lion": { "copyof": "cat_big" },
 	"tiger": { "copyof": "cat_big" },
 	"cat_small_cheetah_leopard": {

@@ -1358,7 +1358,7 @@
 			"",
 			"{ability/Witch |patrons/ can be found here.} There are also some {ability/unique patrons} that you can choose.",
 			"",
-			":b[Major Hex:]{id=major-and-grand-hex} Starting at 10th level, and every two levels thereafter, a witch can choose a [major hex](ability/major_hexes) whenever she could select a new hex.",
+			":b[Major Hex:]{id=major-and-grand-hex} Starting at 10th level, and every two levels thereafter, a witch can choose a {ability/major hex>es} whenever she could select a new hex.",
 			"",
 			"**Grand Hex:** Starting at 18th level, and every two levels thereafter, a witch can choose a [grand hex](ability/grand_hexes) whenever she could select a new hex.",
 			"",
