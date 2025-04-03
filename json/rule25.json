@@ -53,14 +53,14 @@
 			"",
 			"Skill descriptions contain sections on their occult unlocks, where applicable. Some new types of gear grant bonuses on specific occult skill unlocks.",
 			"",
-			"- [Automatic Writing](skill/linguistics) (Linguistics)",
-			"- [Dowsing](skill/survival) (Survival)",
-			"- [Faith Healing](skill/heal) (Heal)",
-			"- [Hypnotism](skill/diplomacy) (Diplomacy)",
-			"- [Phrenology](skill/knowledge_arcana) (Knowledge [Arcana])",
-			"- [Prognostication](skill/sense_motive) (Sense Motive)",
-			"- [Psychometry](skill/appraise) (Appraise)",
-			"- [Read Aura](skill/perception) (Perception)"
+			"- {skill/Automatic Writing} (Linguistics)",
+			"- {skill/Dowsing} (Survival)",
+			"- {skill/Faith Healing} (Heal)",
+			"- {skill/Hypnotism} (Diplomacy)",
+			"- {skill/Phrenology} (Knowledge [Arcana])",
+			"- {skill/Prognostication} (Sense Motive)",
+			"- {skill/Psychometry} (Appraise)",
+			"- {skill/Read Aura} (Perception)"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -89,7 +89,7 @@
 			"",
 			"The energy of the aura permeates the body and spirit of a living creature, influencing its health and vitality while in turn being influenced by the creature's disposition, conception of self, and general emotional state. A creature's aura thus comprises many different auras intermixed with one another to form a singular whole. Emanations of the creature's ki form its health aura. Radiations of thought and belief issuing from the creature's soul suffuse the health aura with patterns that can be interpreted as its alignment aura. The flashes of color flowing through the whole reveal the creature's attitude and disposition, and are known as its emotion aura. Finally, an aura might contain emanations of a magical origin, which is usually a consequence of outside forces at work on the creature.",
 			"",
-			"Various spells can detect aspects of a creature's or object's aura. The {spell/analyze aura} spell and the [read aura occult skill unlock](skill/perception) are the most comprehensive ways to assess a creature's entire aura."
+			"Various spells can detect aspects of a creature's or object's aura. The {spell/analyze aura} spell and the {skill/read aura/ occult skill unlock} are the most comprehensive ways to assess a creature's entire aura."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -2449,7 +2449,7 @@
 		"description": [
 			"{SOURCE Occult Adventures/232}",
 			"",
-			"A ley line's natural state is as an imperceptible current of energy. Finding a ley line requires the use of a skill or spell that can detect the magical energy a ley line radiates. {spell/Detect magic} can locate the presence of an accessible portion of a ley line within its area of effect and uses the ley line's effective caster level to determine its aura's strength as if the ley line were a magic item. {spell/True seeing} reveals all accessible ley lines within its area of effect; they appear as ghostly bundles of tightly packed streams of energy. The color of a ley line is representative of its overall power level. Ley lines with a caster level of 1 are a dark violet color, while ley lines with a caster level of 20 are deep red. Ley lines with caster levels between 1 and 20 range across the color spectrum as appropriate (starting with violet and continuing to blue, green, yellow, orange, and finally red). Divination magic such as {spell/contact other plane}, {spell/divination}, and {spell/commune} can help narrow down the location of a ley line. Additionally, {spell/legend lore} can help reveal information about a known ley line. Occult skill unlocks such as [dowsing](skill/survival) can also help detect the presence of ley lines over long distances, which can be quite useful in locating an accessible portion of a ley line.",
+			"A ley line's natural state is as an imperceptible current of energy. Finding a ley line requires the use of a skill or spell that can detect the magical energy a ley line radiates. {spell/Detect magic} can locate the presence of an accessible portion of a ley line within its area of effect and uses the ley line's effective caster level to determine its aura's strength as if the ley line were a magic item. {spell/True seeing} reveals all accessible ley lines within its area of effect; they appear as ghostly bundles of tightly packed streams of energy. The color of a ley line is representative of its overall power level. Ley lines with a caster level of 1 are a dark violet color, while ley lines with a caster level of 20 are deep red. Ley lines with caster levels between 1 and 20 range across the color spectrum as appropriate (starting with violet and continuing to blue, green, yellow, orange, and finally red). Divination magic such as {spell/contact other plane}, {spell/divination}, and {spell/commune} can help narrow down the location of a ley line. Additionally, {spell/legend lore} can help reveal information about a known ley line. Occult skill unlocks such as {skill/dowsing} can also help detect the presence of ley lines over long distances, which can be quite useful in locating an accessible portion of a ley line.",
 			"",
 			"Because of ley lines' ability to pick up ambient energy, some local effects can cause portions of a ley line to become visible. For example, in areas of wild magic, an extant ley line may manifest as a shimmering river of rainbow-hued light constantly shifting through the color spectrum, while locations with a powerful presence of negative energy might cause a ley line to appear as a tendril of darkness that bleeds an ephemeral black smoke tinged with red light.",
 			"",
