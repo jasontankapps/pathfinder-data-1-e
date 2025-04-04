@@ -61,7 +61,6 @@ const classes: { [key: string]: [number, string] } = {
 
 	ranger: [5, "Ranger"],
 	bloodrager: [5, "Bloodrager"],
-	unchained_monk: [5, "Unchained Monk"],
 
 	alchemist: [6, "Alchemist"],
 	witch: [6, "Witch"],

@@ -1,7 +1,6 @@
 import getItem from '../components/getItem';
 import ranger from './subpages/__arc-ranger';
 import bloodrager from './subpages/__arc-bloodrager';
-import unchained_monk from './subpages/__arc-unchained_monk';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -9,8 +8,7 @@ import './Page.css';
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
 	...ranger,
-	...bloodrager,
-	...unchained_monk
+	...bloodrager
 };
 
 type Data = typeof archetypes;

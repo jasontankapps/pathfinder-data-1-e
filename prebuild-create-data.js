@@ -127,11 +127,18 @@ const inlineTags = {
 	marker: ":",
 	renderer: (token, prefix, flags) => {
 		const {text = "", attrs = {}, meta} = token;
+		const { hasAlternateText } = flags;
 		let tag = meta.name;
-		const s = attrs.s || "/";
-		const texts = text.split(s);
-		const id = prefix + (attrs.id || texts[0].replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, ""));
+		if(
+			(tag === "primary" && !hasAlternateText)
+			|| (tag === "alternate" && hasAlternateText)
+		) {
+			return text;
+		}
 		switch(tag) {
+			case "primary":
+			case "alternate":
+				return "";
 			case "b":
 				tag = "strong";
 				break;
@@ -145,6 +152,9 @@ const inlineTags = {
 			default:
 				return false;
 		}
+		const s = attrs.s || "/";
+		const texts = text.split(s);
+		const id = prefix + (attrs.id || texts[0].replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, ""));
 		// implicit jumplist
 		attrs.jl && jl(flags, texts[0], id);
 		return `<${tag} id="${id}">${texts.join("")}</${tag}>`;
@@ -371,15 +381,15 @@ const removeCurlyBrackets = (input) => {
 };
 
 // Convert markdown code into HTML, updating `flags` to note the outside Tags being used
-const convertDescription = (desc, prefix, tables, openTag = "", closeTag = "") => {
+const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", closeTag = "") => {
+	const flags = {...temporaryFlags};
 	const marked = new Marked();
-	const marked2 = new Marked();
-	const flags = {};
+//	const marked2 = new Marked();
 
-	marked2.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
-	marked2.use(markedFootnote({prefixId: prefix}));
-	marked2.use(gfmHeadingId({prefix}));
-	marked2.use(renderer(flags, prefix));
+//	marked2.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
+//	marked2.use(markedFootnote({prefixId: prefix}));
+//	marked2.use(gfmHeadingId({prefix}));
+//	marked2.use(renderer(flags, prefix));
 
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
 	marked.use(createDirectives([
@@ -392,6 +402,10 @@ const convertDescription = (desc, prefix, tables, openTag = "", closeTag = "") =
 	marked.use(gfmHeadingId({prefix}));
 	marked.use(renderer(flags, prefix));
 	const parsed = marked.parse(convertLinks(desc).join("\n"));
+	// Remove temporary flags from the output.
+	Object.keys(temporaryFlags).forEach(prop => {
+		delete flags[prop];
+	});
 	return [`<${openTag}>${removeCurlyBrackets(parsed)}</${closeTag}>`, flags];
 };
 
@@ -510,11 +524,22 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	const copyRecord = {};
 	const flags = {};
 	Object.entries(data).forEach(([prop, value]) => {
+		// Temporary flags should NEVER match regular flags.
+		const temporaryFlags = {};
+		// Handle alternateOf
+		let base;
+		if(value.alternateOf) {
+			temporaryFlags.hasAlternateText = true;
+			base = {...value, ...data[value.alternateOf]};
+		} else {
+			base = value;
+		}
+		// Get data
 		const {
 			name: n, title: t, description: d, copyof,
 			sources, tables, topLink, parent_topics,
 			subtopics, siblings, noFinder
-		} = value;
+		} = base;
 		// Convert entities in tables
 		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
 			tables.forEach((table, ti) => {
@@ -541,7 +566,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			case "main":
 				info.title = t;
 				flags.list = true;
-				copyof || (converted = convertDescription(d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList"));
+				copyof || (converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList"));
 				break;
 			case "rule":
 				info.parent_topics = parent_topics;
@@ -551,7 +576,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			default:
 				info.title = n;
 				info.topLink = topLink;
-				copyof || (d && (converted = convertDescription(d, `${link}-${prop}-`, tables)));
+				copyof || (d && (converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables)));
 		}
 		const [convertedDescription, newflags] = converted;
 		convertedDescription !== undefined && (info.description = convertedDescription);

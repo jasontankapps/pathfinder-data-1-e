@@ -1309,6 +1309,7 @@
 		],
 		"topLink": [ "Ninja", "class/ninja" ]
 	},
+	"advanced_ninja_tricks": { "copyof": "master_tricks" },
 	"mercies": {
 		"name": "Mercies",
 		"sources": [

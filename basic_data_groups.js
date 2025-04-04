@@ -30,7 +30,6 @@ import archetypemagus from './json/archetypes_magus.json' with {type: 'json'};
 import archetypemedium from './json/archetypes_medium.json' with {type: 'json'};
 import archetypemesmerist from './json/archetypes_mesmerist.json' with {type: 'json'};
 import archetypemonk from './json/archetypes_monk.json' with {type: 'json'};
-import archetypeunchained_monk from './json/archetypes_monk_UC.json' with {type: 'json'};
 import archetypeninja from './json/archetypes_ninja.json' with {type: 'json'};
 import archetypeoccultist from './json/archetypes_occultist.json' with {type: 'json'};
 import archetypeoracle from './json/archetypes_oracle.json' with {type: 'json'};
@@ -1195,14 +1194,6 @@ const basic_data_groups = {
 		exportablelink: "archetypemonk",
 		num: 0,
 		type: "Monk Archetype"
-	},
-	"archetypes_monk_UC": {
-		data: archetypeunchained_monk,
-		searchgroup: 2, // archetype
-		link: "arc-unchained_monk",
-		exportablelink: "archetypeunchained_monk",
-		num: 0,
-		type: "Unchained Monk Archetype"
 	},
 	"archetypes_ninja": {
 		data: archetypeninja,

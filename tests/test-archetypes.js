@@ -24,7 +24,6 @@ const {
 	archetypemedium,
 	archetypemesmerist,
 	archetypemonk,
-	archetypeunchained_monk,
 	archetypeninja,
 	archetypeoccultist,
 	archetypeoracle,
@@ -71,7 +70,6 @@ const arch = [
 	archetypemedium,
 	archetypemesmerist,
 	archetypemonk,
-	archetypeunchained_monk,
 	archetypeninja,
 	archetypeoccultist,
 	archetypeoracle,
@@ -142,12 +140,34 @@ const whats = [
 	"archetypes: wizard"
 ];
 
-function isGood(value, what) {
+function isGood(archValue, what) {
 	const msg = [ "\n...beginning test: [" + what + "]\n" ];
 	let found = false;
-	if(!Object.entries(value).some(([prop, value]) => {
+	if(!Object.entries(archValue).some(([prop, value]) => {
 		const test = value;
-		if(
+		if(test && test.alternateOf) {
+			const {alternateOf, topLink, name: n} = test;
+			if(!alternateOf|| alternateOf === prop || !archValue[alternateOf] || archValue[alternateOf].alternateOf ) {
+				found = "Invalid alternateOf property of " + prop;
+			} else if (
+				topLink
+				&& (
+					!Array.isArray(topLink)
+					|| topLink.length !== 2
+					|| typeof topLink[0] !== "string"
+					|| typeof topLink[1] !== "string"
+				)
+			) {
+				found = "Invalid topLink property in " + prop;
+			} else if (n && (typeof n !== "string")) {
+				found = "Invalid name in " + prop;
+			}
+			if(found) {
+				msg.push(found);
+				found = true;
+				return true;
+			}
+		} else if (
 			!test
 			|| typeof test !== "object"
 			|| typeof test.name !== "string"

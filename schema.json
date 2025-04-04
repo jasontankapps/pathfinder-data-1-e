@@ -53,6 +53,15 @@
 							},
 							"required": [ "copyof" ],
 							"unevaluatedProperties": false
+						},
+						{
+							"properties": {
+								"name": { "type": "string" },
+								"topLink": { "$ref": "#link" },
+								"alternateOf": { "type": "string" }
+							},
+							"required": [ "alternateOf" ],
+							"unevaluatedProperties": false
 						}
 					]
 				}
