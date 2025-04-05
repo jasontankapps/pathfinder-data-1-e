@@ -54,11 +54,11 @@ const classes: { [key: string]: [number, string] } = {
 	warpriest: [3, "Warpriest"],
 
 	cleric: [4, "Cleric"],
-	companion: [4, "Companion"],
 	magus: [4, "Magus"],
 	occultist: [4, "Occultist"],
 	oracle: [4, "Oracle"],
 
+	companion: [5, "Companion"],
 	ranger: [5, "Ranger"],
 	bloodrager: [5, "Bloodrager"],
 

@@ -59,9 +59,12 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		grouping_data[link] = {};
 	}
 	Object.entries(data).forEach(([prop, value]) => {
-		const { name: n, title, copyof, subtitle, tags, searchgroup: sg2 } = value;
+		const { name: n, title, copyof, subtitle, tags, searchgroup: sg2, alternateOf } = value;
 		if(copyof && !data[copyof]) {
 			console.log(`${file}.${prop}.copyof = [${copyof}], not found in same file`);
+			return;
+		} else if (alternateOf && !data[alternateOf]) {
+			console.log(`${file}.${prop}.alternateOf = [${alternateOf}], not found in same file`);
 			return;
 		}
 		if(prop === "not_found") {
@@ -74,7 +77,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 			// This is a part of a multi-file group.
 			grouping_data[link][prop] = num;
 		}
-		const named = n || title;
+		const named = n || title || (alternateOf ? (data[alternateOf].name || data[alternateOf].title) : "");
 		if(copyof && !named) {
 			// This is a plain copy, no name change or anything.
 			// No need to put this in the searchable index.

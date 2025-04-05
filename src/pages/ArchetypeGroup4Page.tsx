@@ -1,6 +1,5 @@
 import getItem from '../components/getItem';
 import cleric from './subpages/__arc-cleric';
-import companion from './subpages/__arc-companion';
 import magus from './subpages/__arc-magus';
 import occultist from './subpages/__arc-occultist';
 import oracle from './subpages/__arc-oracle';
@@ -11,7 +10,6 @@ import './Page.css';
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
 	...cleric,
-	...companion,
 	...magus,
 	...occultist,
 	...oracle
@@ -33,7 +31,7 @@ const ArchetypeGroup4Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 		title={title}
 		sources={sources}
 		pageId={pageId}
-		topLink={parent === "companion" ? [ "Animal Companion", "sidekick/companion" ] : [classTitle, "class/" + parent]}
+		topLink={[classTitle, "class/" + parent]}
 	>{jsx}</BasicPage>;
 };
 

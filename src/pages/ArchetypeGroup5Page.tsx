@@ -1,4 +1,5 @@
 import getItem from '../components/getItem';
+import companion from './subpages/__arc-companion';
 import ranger from './subpages/__arc-ranger';
 import bloodrager from './subpages/__arc-bloodrager';
 import { ArchetypeProps } from './ArchetypePage';
@@ -7,6 +8,7 @@ import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
+	...companion,
 	...ranger,
 	...bloodrager
 };
@@ -27,7 +29,7 @@ const ArchetypeGroup5Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 		title={title}
 		sources={sources}
 		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
+		topLink={parent === "companion" ? [ "Animal Companion", "sidekick/companion" ] : [classTitle, "class/" + parent]}
 	>{jsx}</BasicPage>;
 };
 

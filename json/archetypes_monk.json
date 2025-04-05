@@ -26,6 +26,7 @@
 		]
 	},
 	"black_asp_uc": {
+		"name": "Black Asp (Unchained)",
 		"alternateOf": "black_asp",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -66,6 +67,7 @@
 		]
 	},
 	"brazen_disciple_uc": {
+		"name": "Brazen Disciple (Unchained)",
 		"alternateOf": "brazen_disciple",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -96,6 +98,7 @@
 		]
 	},
 	"disciple_of_wholeness_uc": {
+		"name": "Disciple of Wholeness (Unchained)",
 		"alternateOf": "disciple_of_wholeness",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -154,6 +157,7 @@
 		]
 	},
 	"elemental_monk_uc": {
+		"name": "Elemental Monk (Unchained)",
 		"alternateOf": "elemental_monk",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -372,71 +376,72 @@
 			"",
 			"#### 2nd-Level Vested Powers",
 			"",
-			"- {spell/Comprehend languages} (2 investiture points)",
-			"- {spell/Divine favor} (1 investiture point)",
-			"- {feat/Dodge}\\* (0 investiture points)",
-			"- {spell/Entropic shield} (1 investiture point)",
-			"- {spell/Expeditious retreat} (2 investiture points)",
-			"- {spell/Feather step} (self only, 1 investiture point)",
-			"- {spell/Hide from undead} (self only, 1 investiture point)",
-			"- {spell/Sanctuary} (self only, 1 investiture point)",
-			"- {spell/Shield of faith} (self only, 1 investiture point)",
+			"- {spell/Comprehend languages} (spell, 2 investiture points)",
+			"- {spell/Divine favor} (spell, 1 investiture point)",
+			"- {feat/Dodge}\\* (feat, 0 investiture points)",
+			"- {spell/Entropic shield} (spell, 1 investiture point)",
+			"- {spell/Expeditious retreat} (spell, 2 investiture points)",
+			"- {spell/Feather step} (spell, self only, 1 investiture point)",
+			"- {spell/Hide from undead} (spell, self only, 1 investiture point)",
+			"- {spell/Sanctuary} (spell, self only, 1 investiture point)",
+			"- {spell/Shield of faith} (spell, self only, 1 investiture point)",
 			"",
 			"#### 6th-Level Vested Powers",
 			"",
-			"- {spell/Calm emotions} (1 investiture point)",
-			"- {spell/Cloak of winds} (self only, 2 investiture points)",
-			"- {spell/Enthrall} (2 investiture points)",
-			"- {spell/Gaseous form} (self only, 1 investiture point)",
-			"- {spell/Helping hand} (1 investiture point)",
-			"- {feat/Heroic Defiance}\\* (1 investiture point)",
-			"- {feat/Heroic Recovery}\\* (1 investiture point)",
-			"- {spell/Protective spirit} (2 investiture points)",
-			"- {spell/Remove disease} (self only, 2 investiture points)",
-			"- {feat/Sidestep}\\* (1 investiture point)",
-			"- {feat/Snatch Arrows}\\* (1 investiture point)",
-			"- {feat/Spring Attack} (1 investiture point)",
-			"- {spell/Tongues} (self only, 2 investiture points)",
+			"- {spell/Calm emotions} (spell, 1 investiture point)",
+			"- {spell/Cloak of winds} (spell, self only, 2 investiture points)",
+			"- {spell/Enthrall} (spell, 2 investiture points)",
+			"- {spell/Gaseous form} (spell, self only, 1 investiture point)",
+			"- {spell/Helping hand} (spell, 1 investiture point)",
+			"- {feat/Heroic Defiance}\\* (feat, 1 investiture point)",
+			"- {feat/Heroic Recovery}\\* (feat, 1 investiture point)",
+			"- {spell/Protective spirit} (spell, 2 investiture points)",
+			"- {spell/Remove disease} (spell, self only, 2 investiture points)",
+			"- {feat/Sidestep}\\* (feat, 1 investiture point)",
+			"- {feat/Snatch Arrows}\\* (feat, 1 investiture point)",
+			"- {feat/Spring Attack} (feat, 1 investiture point)",
+			"- {spell/Tongues} (spell, self only, 2 investiture points)",
 			"",
 			"#### 10th-Level Vested Powers",
 			"",
-			"- {spell/Air walk} (self only, 2 investiture points)",
-			"- {spell/Death ward} (self only, 2 investiture points)",
-			"- {spell/Dimension door} (self only, 2 investiture points)",
-			"- {spell/Discern lies} (3 investiture points)",
-			"- {spell/Divine power} (3 investiture points)",
-			"- {spell/Freedom of movement} (self only, 3 investiture points)",
-			"- {feat/Improved Blind-Fight}\\* (1 investiture point)",
-			"- {feat/Improved Great Fortitude}\\* (1 investiture point)",
-			"- {feat/Improved Iron Will}\\* (1 investiture point)",
-			"- {feat/Improved Lightning Reflexes}\\* (1 investiture point)",
-			"- {spell/Mark of justice} (3 investiture points)",
-			"- {spell/Neutralize poison} (self only, 3 investiture points)",
-			"- {spell/Restoration} (self only, 2 investiture points)",
-			"- {spell/Spell resistance} (self only, 2 investiture points)",
-			"- {feat/Wind Stance} (2 investiture points)",
+			"- {spell/Air walk} (spell, self only, 2 investiture points)",
+			"- {spell/Death ward} (spell, self only, 2 investiture points)",
+			"- {spell/Dimension door} (spell, self only, 2 investiture points)",
+			"- {spell/Discern lies} (spell, 3 investiture points)",
+			"- {spell/Divine power} (spell, 3 investiture points)",
+			"- {spell/Freedom of movement} (spell, self only, 3 investiture points)",
+			"- {feat/Improved Blind-Fight}\\* (feat, 1 investiture point)",
+			"- {feat/Improved Great Fortitude}\\* (feat, 1 investiture point)",
+			"- {feat/Improved Iron Will}\\* (feat, 1 investiture point)",
+			"- {feat/Improved Lightning Reflexes}\\* (feat, 1 investiture point)",
+			"- {spell/Mark of justice} (spell, 3 investiture points)",
+			"- {spell/Neutralize poison} (spell, self only, 3 investiture points)",
+			"- {spell/Restoration} (spell, self only, 2 investiture points)",
+			"- {spell/Spell resistance} (spell, self only, 2 investiture points)",
+			"- {feat/Wind Stance} (feat, 2 investiture points)",
 			"",
 			"#### 14th-Level Vested Powers",
 			"",
-			"- {spell/Antilife shell} (3 investiture points)",
-			"- {feat/Disarming Strike} (2 investiture points)",
-			"- {feat/Greater Blind-Fight}\\* (2 investiture points)",
-			"- {spell/Greater command} (3 investiture points)",
-			"- {spell/Greater forbid action} (3 investiture points)",
-			"- {feat/Lightning Stance} (3 investiture points)",
-			"- {spell/Shadow walk} (self only, 3 investiture points)",
-			"- {spell/Unwilling shield} (3 investiture points)",
+			"- {spell/Antilife shell} (spell, 3 investiture points)",
+			"- {feat/Disarming Strike} (feat, 2 investiture points)",
+			"- {feat/Greater Blind-Fight}\\* (feat, 2 investiture points)",
+			"- {spell/Greater command} (spell, 3 investiture points)",
+			"- {spell/Greater forbid action} (spell, 3 investiture points)",
+			"- {feat/Lightning Stance} (feat, 3 investiture points)",
+			"- {spell/Shadow walk} (spell, self only, 3 investiture points)",
+			"- {spell/Unwilling shield} (spell, 3 investiture points)",
 			"",
 			"#### 18th-Level Vested Powers",
 			"",
-			"- {spell/Divine vessel} (3 investiture points)",
-			"- {spell/Foresight} (self only, 3 investiture points)",
-			"- {spell/Greater restoration} (self only, 3 investiture points)",
-			"- {spell/Regenerate} (self only, 3 investiture points)",
-			"- {spell/Repulsion} (3 investiture points)"
+			"- {spell/Divine vessel} (spell, 3 investiture points)",
+			"- {spell/Foresight} (spell, self only, 3 investiture points)",
+			"- {spell/Greater restoration} (spell, self only, 3 investiture points)",
+			"- {spell/Regenerate} (spell, self only, 3 investiture points)",
+			"- {spell/Repulsion} (spell, 3 investiture points)"
 		]
 	},
 	"invested_regent_uc": {
+		"name": "Invested Regent (Unchained)",
 		"alternateOf": "invested_regent",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -567,6 +572,7 @@
 		]
 	},
 	"lifting_hand_uc": {
+		"name": "Lifting Hand (Unchained)",
 		"alternateOf": "lifting_hand",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -789,6 +795,7 @@
 		]
 	},
 	"monk_of_the_mantis_uc": {
+		"name": "Monk of the Mantis (Unchained)",
 		"alternateOf": "monk_of_the_mantis",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -945,6 +952,7 @@
 		]
 	},
 	"perfect_scholar_uc": {
+		"name": "Perfect Scholar (Unchained)",
 		"alternateOf": "perfect_scholar",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -1233,6 +1241,7 @@
 		]
 	},
 	"sage_counselor_uc": {
+		"name": "Sage Counselor (Unchained)",
 		"alternateOf": "sage_counselor",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -1265,6 +1274,7 @@
 		]
 	},
 	"scaled_fist_uc": {
+		"name": "Scaled Fist (Unchained)",
 		"alternateOf": "scaled_fist",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -1355,6 +1365,7 @@
 		]
 	},
 	"serpent_fire_adept_uc": {
+		"name": "Serpent-Fire Adept (Unchained)",
 		"alternateOf": "serpent_fire_adept",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -1447,6 +1458,7 @@
 		]
 	},
 	"softstrike_monk_uc": {
+		"name": "Softstrike Monk (Unchained)",
 		"alternateOf": "softstrike_monk",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -1505,6 +1517,7 @@
 		]
 	},
 	"soul_shepherd_uc": {
+		"name": "Soul Shepherd (Unchained)",
 		"alternateOf": "soul_shepherd",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},
@@ -1814,6 +1827,7 @@
 		]
 	},
 	"windstep_master_uc": {
+		"name": "Windstep Master (Unchained)",
 		"alternateOf": "windstep_master",
 		"topLink": [ "Unchained Monk", "class/unchained_monk" ]
 	},

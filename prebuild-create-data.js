@@ -83,7 +83,7 @@ const alternateBlocks = {
 	}
 };
 
-const getAlternateBlocks = (flags, prefix, marked) => {
+const getAlternateBlocks = (flags, prefix, marked = undefined) => {
 	return {...alternateBlocks, renderer: (token) => alternateBlocks.renderer(token, flags, prefix, marked)};
 }
 
@@ -110,15 +110,21 @@ const specialContainerBlocks = {
 				flags.label = true;
 				return (
 					`<IonItem className="mainItem basic"><IonLabel>${
-						removeCurlyBrackets(marked.parse(text))
+						removeCurlyBrackets(marked ? marked.parse(text) : text)
 					}</IonLabel></IonItem>`
+				);
+			case "aside":
+				return (
+					`<${n}>${
+						removeCurlyBrackets(marked ? marked.parse(text) : text)
+					}</${n}>`
 				);
 		}
 		return false;
 	}
 };
 
-const getSpecialContainerBlocks = (flags, marked) => {
+const getSpecialContainerBlocks = (flags, marked = undefined) => {
 	return {...specialContainerBlocks, renderer: (token) => specialContainerBlocks.renderer(token, flags, marked)};
 };
 
@@ -133,7 +139,11 @@ const inlineTags = {
 			(tag === "primary" && !hasAlternateText)
 			|| (tag === "alternate" && hasAlternateText)
 		) {
-			return text;
+			// Do some minor MD replacements for bold/italics.
+			return text
+			.replace(/\*\*\*(.+?)\*\*\*/g, "<strong><em>$1</em></strong>")
+			.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+			.replace(/\*(.+?)\*/g, "<em>$1</em>");
 		}
 		switch(tag) {
 			case "primary":
@@ -384,28 +394,39 @@ const removeCurlyBrackets = (input) => {
 const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", closeTag = "") => {
 	const flags = {...temporaryFlags};
 	const marked = new Marked();
-//	const marked2 = new Marked();
+	const marked2 = new Marked();
 
-//	marked2.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
-//	marked2.use(markedFootnote({prefixId: prefix}));
-//	marked2.use(gfmHeadingId({prefix}));
-//	marked2.use(renderer(flags, prefix));
+	// This secondary instance does not need to pre- or post-process, as it will be done by the regular instance.
+	marked2.use({ gfm: true });
+	marked2.use(createDirectives([
+		...presetDirectiveConfigs,
+		getAlternateBlocks(flags, prefix),
+		getSpecialContainerBlocks(flags), // these do not get tertiary instances... inner text is unchanged
+		getInlineTags(flags, prefix)
+	]));
+	// Footnotes will not work with the secondary instance, so we omit that.
+	marked2.use(gfmHeadingId({prefix}));
+	marked2.use(renderer(flags, prefix));
 
+	// Set up the primary instance, with pre/post-processing, footnotes, etc.
 	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
 	marked.use(createDirectives([
 		...presetDirectiveConfigs,
-		getAlternateBlocks(flags, prefix, marked),
-		getSpecialContainerBlocks(flags, marked),
+		getAlternateBlocks(flags, prefix, marked2),
+		getSpecialContainerBlocks(flags, marked2),
 		getInlineTags(flags, prefix)
 	]));
 	marked.use(markedFootnote({prefixId: prefix}));
 	marked.use(gfmHeadingId({prefix}));
 	marked.use(renderer(flags, prefix));
+
+	// Parse the text
 	const parsed = marked.parse(convertLinks(desc).join("\n"));
 	// Remove temporary flags from the output.
 	Object.keys(temporaryFlags).forEach(prop => {
 		delete flags[prop];
 	});
+	// Return the parsed output, plus flags.
 	return [`<${openTag}>${removeCurlyBrackets(parsed)}</${closeTag}>`, flags];
 };
 
@@ -530,7 +551,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 		let base;
 		if(value.alternateOf) {
 			temporaryFlags.hasAlternateText = true;
-			base = {...value, ...data[value.alternateOf]};
+			base = {...data[value.alternateOf], ...value};
 		} else {
 			base = value;
 		}

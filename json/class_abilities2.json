@@ -1800,10 +1800,10 @@
 			"| [Illusion](/implement/illusion) | Yes | Illusion implements allow the occultist to distort the senses and cloak creatures from sight. |",
 			"| [Necromancy](/implement/necromancy) | Yes | Implements that draw power from necromancy can control undead and harm the living. |",
 			"| [Transmutation](/implement/transmutation) | No | Transmutation implements can alter the properties of both objects and creatures. |",
-			"| [Mage's Paraphernalia (Panoply)](/implement/mages_paraphernalia_panoply) | No | This panoply is associated with the arcane arts and the masters of manipulating magic. |",
-			"| [Performer's Accoutrements (Panoply)](/implement/performers_accoutrements_panoply) | No | This panoply is associated with those who deceive as well as those who entertain. |",
-			"| [Saint's Holy Regalia (Panoply)](/implement/saints_holy_regalia_panoply) | No | This panoply is associated with devoted members of a good-aligned faith and the power of belief. |",
-			"| [Trappings of the Warrior (Panoply)](/implement/trappings_of_the_warrior_panoply) | No | This panoply is associated with brave and stalwart warriors, martial skill, and the defense of one's allies. |"
+			"| [Mage's Paraphernalia (Panoply)](/implement/mages_paraphernalia) | No | This panoply is associated with the arcane arts and the masters of manipulating magic. |",
+			"| [Performer's Accoutrements (Panoply)](/implement/performers_accoutrements) | No | This panoply is associated with those who deceive as well as those who entertain. |",
+			"| [Saint's Holy Regalia (Panoply)](/implement/saints_holy_regalia) | No | This panoply is associated with devoted members of a good-aligned faith and the power of belief. |",
+			"| [Trappings of the Warrior (Panoply)](/implement/trappings_of_the_warrior) | No | This panoply is associated with brave and stalwart warriors, martial skill, and the defense of one's allies. |"
 		],
 		"topLink": [ "Occultist", "class/occultist" ]
 	},
