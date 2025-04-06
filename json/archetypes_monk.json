@@ -90,11 +90,11 @@
 			"",
 			"**Greater Hone Body (Su):** At 11th level, a disciple of wholeness is immune to poison while undamaged and can grant immunity to poison (lasting for 1 day). This ability otherwise functions as per hone body.",
 			"",
-			"This ability replaces the :primary[diamond body ability.] :alternate[ki power gained at 12th level, and prevents the unchained monk from ever selecting the diamond body ki power.]",
+			"This ability replaces the :primary[diamond body ability.] :alternate[ki power gained at 12th level, and prevents the unchained monk from ever selecting the *diamond body* ki power.]",
 			"",
 			"**Hone Soul (Su):** At 13th level, a disciple of wholeness can dispel a spell affecting a living creature by touching it as a standard action and spending 1 point from her ki pool. This power functions like the targeted dispel option of {spell/greater dispel magic}, with the caster level equal to the disciple of wholeness's monk level.",
 			"",
-			"This ability replaces the :primary[diamond soul ability.] :alternate[ki power gained at 14th level, and prevents the unchained monk from ever selecting the diamond soul ki power.]"
+			"This ability replaces the :primary[diamond soul ability.] :alternate[ki power gained at 14th level, and prevents the unchained monk from ever selecting the *diamond soul* ki power.]"
 		]
 	},
 	"disciple_of_wholeness_uc": {
@@ -791,7 +791,7 @@
 			"",
 			"**Debilitating Blows (Ex):** A monk of the mantis's knowledge of anatomy allows her to deal blows that both deal damage and impose debilitating conditions. At :primary[7th] :alternate[6th] level, if a monk of the mantis stuns a target with {feat/Stunning Fist}, the target is also entangled for 1 round after the Stunning Fist effect ends. At :primary[11th] :alternate[10th] level, if the monk of the mantis stuns a target with Stunning Fist, the target is also exhausted for 1 round after the Stunning Fist effect ends. At :primary[13th] :alternate[12th] level, the monk can spend 1 point from her ki pool as part of her Stunning Fist attack to increase the duration of these additional effects to a number of rounds equal to her Wisdom bonus (minimum 2 rounds). This ability replaces :primary[wholeness of body, diamond body, and diamond soul.] :alternate[the ki powers gained at 6th, 10th and 12th levels.]",
 			"",
-			"**Disabling Palm (Su):** At 15th level, a monk of the mantis can render the target of her quivering palm unconscious instead of killing the creature. Upon failing its Fortitude saving throw, the target either is knocked unconscious for a number of minutes equal to the monk of the mantis's monk level or dies (the monk of the mantis's choice). This :primary[alters quivering palm.] :alternate[ability applies only if the monk selects the quivering palm ki power.]"
+			"**Disabling Palm (Su):** At 15th level, a monk of the mantis can render the target of her quivering palm unconscious instead of killing the creature. Upon failing its Fortitude saving throw, the target either is knocked unconscious for a number of minutes equal to the monk of the mantis's monk level or dies (the monk of the mantis's choice). This :primary[alters quivering palm.] :alternate[ability applies only if the monk selects the *quivering palm* ki power.]"
 		]
 	},
 	"monk_of_the_mantis_uc": {
@@ -1450,7 +1450,7 @@
 			"",
 			"**Incapacitating Palm (Su):** At 15th level, a softstrike monk renders the target of his quivering palm unconscious instead of killing the creature. Upon failing its Fortitude saving throw, the target is knocked unconscious for a number of minutes equal to the softstrike monk's level.",
 			"",
-			"This :primary[alters quivering palm.] :alternate[ability applies only if the monk selects the quivering palm ki power.]",
+			"This :primary[alters quivering palm.] :alternate[ability applies only if the monk selects the *quivering palm* ki power.]",
 			"",
 			"**Resilient Body (Su):** At 19th level, a softstrike monk's mastery of nonlethal combat lets him apply his techniques to his defense. A softstrike monk converts any precision damage he takes to nonlethal damage.",
 			"",

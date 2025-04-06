@@ -131,7 +131,29 @@ function isGood(object, what) {
 	if(!Object.entries(object).some(([prop, value]) => {
 		const { copyof, ...etc } = value;
 		const test = copyof ? getCopyOf(object, copyof, etc) : etc;
-		if(
+		if(test && test.alternateOf) {
+			const {alternateOf, topLink, name: n} = test;
+			if(!alternateOf|| alternateOf === prop || !object[alternateOf] || object[alternateOf].alternateOf ) {
+				found = "Invalid alternateOf property of " + prop;
+			} else if (
+				topLink
+				&& (
+					!Array.isArray(topLink)
+					|| topLink.length !== 2
+					|| typeof topLink[0] !== "string"
+					|| typeof topLink[1] !== "string"
+				)
+			) {
+				found = "Invalid topLink property in " + prop;
+			} else if (n && (typeof n !== "string")) {
+				found = "Invalid name in " + prop;
+			}
+			if(found) {
+				msg.push(found);
+				found = true;
+				return true;
+			}
+		} else if (
 			!test
 			|| typeof test !== "object"
 			|| typeof test.name !== "string"

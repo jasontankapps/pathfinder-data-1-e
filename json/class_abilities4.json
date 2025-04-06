@@ -782,6 +782,7 @@
 		],
 		"topLink": [ "Investigator", "class/investigator" ]
 	},
+	"investigator_talent": { "copyof": "investigator_talents" },
 	"ki_powers": {
 		"name": "Ki Powers",
 		"sources": [

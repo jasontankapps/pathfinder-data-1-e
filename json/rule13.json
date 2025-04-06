@@ -1685,7 +1685,7 @@
 			"[^2]: A creature without freedom of movement effects or a swim speed makes grapple checks underwater at a -2 penalty, but deals damage normally when grappling.",
 			"[^3]: A successful Swim check lets a creature move one-quarter its speed as a move action or one-half its speed as a full-round action.",
 			"[^4]: Creatures have firm footing when walking along the bottom, braced against a ship's hull, or the like. A creature can only walk along the bottom if it wears or carries enough gear to weigh itself down: at least 16 pounds for Medium creatures, twice that for each size category larger than Medium, and half that for each size category smaller than Medium.",
-			"[^5]: Aquatic Adventures introduces a rule that [negates cover](rule/physical_attacks) when using piercing weapons, citing spearfishing and harpooning as reasons. This is entirely optional."
+			"[^5]: Aquatic Adventures introduces a rule that [negates cover](rule/physical_attacks_underwater) when using piercing weapons, citing spearfishing and harpooning as reasons. This is entirely optional."
 		],
 		"parent_topics": [
 			"gamemastery",

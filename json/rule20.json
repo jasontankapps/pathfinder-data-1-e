@@ -145,7 +145,7 @@
 			"aquatic_adventures_aa"
 		],
 		"subtopics": [
-			"physical_attacks",
+			"physical_attacks_underwater",
 			"off_balance_and_prone_underwater",
 			"freedom_of_movement",
 			"spells"
@@ -156,7 +156,7 @@
 			"underwater_hazards_and_features"
 		]
 	},
-	"physical_attacks": {
+	"physical_attacks_underwater": {
 		"name": "Physical Attacks",
 		"subtitle": "Fighting Underwater, Aquatic Adventures",
 		"tags": "underwater combat",
@@ -178,7 +178,7 @@
 			"fighting_underwater"
 		],
 		"siblings": [
-			"physical_attacks",
+			"physical_attacks_underwater",
 			"off_balance_and_prone_underwater",
 			"freedom_of_movement",
 			"spells"
@@ -200,7 +200,7 @@
 			"fighting_underwater"
 		],
 		"siblings": [
-			"physical_attacks",
+			"physical_attacks_underwater",
 			"off_balance_and_prone_underwater",
 			"freedom_of_movement",
 			"spells"
@@ -220,7 +220,7 @@
 			"fighting_underwater"
 		],
 		"siblings": [
-			"physical_attacks",
+			"physical_attacks_underwater",
 			"off_balance_and_prone_underwater",
 			"freedom_of_movement",
 			"spells"
@@ -256,7 +256,7 @@
 			"fighting_underwater"
 		],
 		"siblings": [
-			"physical_attacks",
+			"physical_attacks_underwater",
 			"off_balance_and_prone_underwater",
 			"freedom_of_movement",
 			"spells"

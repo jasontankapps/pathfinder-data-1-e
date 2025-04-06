@@ -8,16 +8,23 @@ import checkForEncodedLink from './tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
 import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
 
+// Globally available variables
+
+const $ = {
+	flags: {},
+	prefix: ""
+};
+
 // Handle implicit jumplists
-const jl = (flags, text, id) => {
-	const jl = flags.implicitJumplist || [];
-	flags.implicitJumplist = [...jl, [text, id]];
+const jl = (text, id) => {
+	const jl = $.flags.implicitJumplist || [];
+	$.flags.implicitJumplist = [...jl, [text, id]];
 };
 
 const alternateBlocks = {
 	level: "block",
 	marker: "::",
-	renderer: (token, flags, prefix, marked) => {
+	renderer: (token) => {
 		const {text, attrs = {}, meta} = token;
 		const {id, ind, rev, to, end, endem, bottom} = attrs;
 		const n = meta.name || "";
@@ -37,14 +44,14 @@ const alternateBlocks = {
 			}
 			return `<div className="headerLike">${text}</div>\n`;
 		} else if (n === "mhr") {
-			flags.divider = true;
+			$.flags.divider = true;
 			return `<IonItemDivider className="mainItem divider"></IonItemDivider>`;
 		} else if (n === "mainheader") {
-			flags.divider = true;
-			flags.label = true;
-			return `<IonItemDivider className="mainItem"${id ? ` id="${prefix}${id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
+			$.flags.divider = true;
+			$.flags.label = true;
+			return `<IonItemDivider className="mainItem"${id ? ` id="${$.prefix}${id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
 		} else if (n === "main") {
-			flags.mainlink = true;
+			$.flags.mainlink = true;
 			let cn;
 			let output = "<MainLink ";
 			if(to) {
@@ -70,8 +77,8 @@ const alternateBlocks = {
 			return `${output}info="${text}" />`;
 		} else if ("h2h3h4h5h6".indexOf(n) >= 0) {
 			if(attrs.jl) {
-				const id = prefix + (attrs.id || text.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
-				jl(flags, text, id);
+				const id = $.prefix + (attrs.id || text.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
+				jl(text, id);
 				if(attrs.extra) {
 					return `<${n} id="${id}">${text} ${attrs.extra}</${n}>\n`;
 				}
@@ -83,40 +90,43 @@ const alternateBlocks = {
 	}
 };
 
-const getAlternateBlocks = (flags, prefix, marked = undefined) => {
-	return {...alternateBlocks, renderer: (token) => alternateBlocks.renderer(token, flags, prefix, marked)};
+const getAlternateBlocks = () => {
+	return alternateBlocks;
 }
 
 const specialContainerBlocks = {
 	level: "container",
 	marker: ":::",
-	renderer: (token, flags = {}, marked) => {
+	renderer: (token) => {
 		const {text = "", attrs = {}, meta} = token;
 		const n = meta.name;
 		const { c = "" } = attrs;
+		let marked2;
 		switch(n) {
 			case "archetype":
 				const trimmed = text.trim();
 				const [ title = "", repl = "", desc = "" ] = trimmed.split(/\n+/);
 				const link = title.toLowerCase().replace(/[-/_ ]/g, "_").replace(/[^a-z_0-9]/g, "");
-				flags.link = true;
+				$.flags.link = true;
 				return `<div className="archetype">`
 					+ `<p><Link to="/arc-${c}/${link}">${title}</Link></p>`
 					+ `<p><strong>Modifes or Replaces:</strong> ${repl}</p>`
 					+ `<p>${desc}</p>`
 					+ `</div>\n`;
 			case "item":
-				flags.item = true;
-				flags.label = true;
+				$.flags.item = true;
+				$.flags.label = true;
+				marked2 = makeNewMarkedInstance();
 				return (
 					`<IonItem className="mainItem basic"><IonLabel>${
-						removeCurlyBrackets(marked ? marked.parse(text) : text)
+						removeCurlyBrackets(marked2.parse(text))
 					}</IonLabel></IonItem>`
 				);
 			case "aside":
+				marked2 = makeNewMarkedInstance();
 				return (
 					`<${n}>${
-						removeCurlyBrackets(marked ? marked.parse(text) : text)
+						removeCurlyBrackets(marked2.parse(text))
 					}</${n}>`
 				);
 		}
@@ -124,26 +134,24 @@ const specialContainerBlocks = {
 	}
 };
 
-const getSpecialContainerBlocks = (flags, marked = undefined) => {
-	return {...specialContainerBlocks, renderer: (token) => specialContainerBlocks.renderer(token, flags, marked)};
+const getSpecialContainerBlocks = () => {
+	return specialContainerBlocks;
 };
 
 const inlineTags = {
 	level: "inline",
 	marker: ":",
-	renderer: (token, prefix, flags) => {
+	renderer: (token) => {
 		const {text = "", attrs = {}, meta} = token;
-		const { hasAlternateText } = flags;
+		const { hasAlternateText } = $.flags;
 		let tag = meta.name;
 		if(
 			(tag === "primary" && !hasAlternateText)
 			|| (tag === "alternate" && hasAlternateText)
 		) {
 			// Do some minor MD replacements for bold/italics.
-			return text
-			.replace(/\*\*\*(.+?)\*\*\*/g, "<strong><em>$1</em></strong>")
-			.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-			.replace(/\*(.+?)\*/g, "<em>$1</em>");
+			const marked2 = makeNewMarkedInstance();
+			return marked2.parseInline(text);
 		}
 		switch(tag) {
 			case "primary":
@@ -162,17 +170,18 @@ const inlineTags = {
 			default:
 				return false;
 		}
+		const marked2 = makeNewMarkedInstance();
 		const s = attrs.s || "/";
 		const texts = text.split(s);
-		const id = prefix + (attrs.id || texts[0].replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, ""));
+		const id = $.prefix + (attrs.id || texts[0].replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, ""));
 		// implicit jumplist
-		attrs.jl && jl(flags, texts[0], id);
-		return `<${tag} id="${id}">${texts.join("")}</${tag}>`;
+		attrs.jl && jl(texts[0], id);
+		return `<${tag} id="${id}">${marked2.parseInline(texts.join(""))}</${tag}>`;
 	}
 };
 
-const getInlineTags = (flags, prefix) => {
-	return {...inlineTags, renderer: (token) => inlineTags.renderer(token, prefix, flags)};
+const getInlineTags = () => {
+	return inlineTags;
 };
 
 // Converts {some/Link: Text/s} into [Link: Texts](some/link_text)
@@ -201,25 +210,25 @@ const makeSourceLink = (sourceInfo) => {
 	return `[${sourceText}](source/${link})`;
 };
 // Renderer object for Marked
-const renderer = (flags, prefix) => {
+const renderer = () => {
 	return {
 		renderer: {
-			// Changes <a> to <Link> and <InnerLink> as needed, updating `flags` to note the outside Tags being used
+			// Changes <a> to <Link> and <InnerLink> as needed, updating `$.flags` to note the outside Tags being used
 			link: ({href, text}) => {
 				if (href.match(/^http/)) {
 					return `<a href="${href}">${text}</a>`;
 				} else if(href.match(/^\//)) {
-					// Initial slash indicates this needs a ripple, updating `flags` to note the outside Tag being used
-					flags.link = true;
-					flags.ripple = true;
+					// Initial slash indicates this needs a ripple, updating `$.flags` to note the outside Tag being used
+					$.flags.link = true;
+					$.flags.ripple = true;
 					return `<Link to="${href}">${text}<IonRippleEffect /></Link>`;
 				} else if (href.match(/^#/)) {
-					// Hash indicates internal link, updating `flags` to note the outside Tag being used
+					// Hash indicates internal link, updating `$.flags` to note the outside Tag being used
 //					console.log(id, href);
-					flags.innerlink = true;
-					return `<InnerLink to="${prefix}${href.slice(1)}">${text}</InnerLink>`;
+					$.flags.innerlink = true;
+					return `<InnerLink to="${$.prefix}${href.slice(1)}">${text}</InnerLink>`;
 				}
-				flags.link = true;
+				$.flags.link = true;
 				return `<Link to="/${href}">${text}</Link>`;
 			}
 		}
@@ -244,8 +253,8 @@ const preprocess = () => {
 		return output.join("\n");
 	}
 };
-// Postprocessor object for Marked, updating `flags` to note the outside Tags being used
-const postprocess = (prefix, tables, flags) => {
+// Postprocessor object for Marked, updating `$.flags` to note the outside Tags being used
+const postprocess = (tables) => {
 	let counter = 0;
 	return (html) => {
 		let text = html
@@ -270,7 +279,7 @@ const postprocess = (prefix, tables, flags) => {
 		let m = false;
 		//<sup><a id="footnotey-ref-H" href="#footnotey-H" data-footnotey-ref aria-describedby="footnotey-label">1</a></sup>
 		//Redo footnotes into <InnerLink>s
-		const matcher = new RegExp(`^(.*?)<sup><a id="${prefix}([^"]+)" href="#${prefix}([^"]+)"[^>]*>(.*?)</a></sup>(.*)$`);
+		const matcher = new RegExp(`^(.*?)<sup><a id="${$.prefix}([^"]+)" href="#${$.prefix}([^"]+)"[^>]*>(.*?)</a></sup>(.*)$`);
 		const footnotedata = {};
 		while(m = text.match(matcher)) {
 			const [x, pre, id, to, linktext, post] = m;
@@ -278,21 +287,21 @@ const postprocess = (prefix, tables, flags) => {
 				footnotedata[id] = 0;
 			}
 			const notenumber = ++footnotedata[id];
-			output = output + `${pre}<sup><InnerLink id="${prefix}${id}-${notenumber}" to="${prefix}${to}">${linktext}</InnerLink></sup>`;
+			output = output + `${pre}<sup><InnerLink id="${$.prefix}${id}-${notenumber}" to="${$.prefix}${to}">${linktext}</InnerLink></sup>`;
 			text = post;
-			flags.innerlink = true;
+			$.flags.innerlink = true;
 		}
 		text = output + text;
 		output = "";
 		//<a href="#footnote-prefix-ref-H" data-footnote-prefix-backref aria-label="Back to reference H">↩</a>
 		//Redo footnotes into <InnerLink>s
-		const backmatcher = new RegExp(`^(.*?)<a href="#${prefix}([^"]+)"[^>]*?( aria-label="[^"]*)"[^>]*?>(.*?(?:<sup>([0-9]+)</sup>)?)</a>(.*)$`);
+		const backmatcher = new RegExp(`^(.*?)<a href="#${$.prefix}([^"]+)"[^>]*?( aria-label="[^"]*)"[^>]*?>(.*?(?:<sup>([0-9]+)</sup>)?)</a>(.*)$`);
 		while(m = text.match(backmatcher)) {
 			const [x, pre, to, aria, linktext, linknumber, post] = m;
 			const notenumber = linknumber || "1";
-			output = output + `${pre}<InnerLink to="${prefix}${to}-${notenumber}"${aria}-${notenumber}">${linktext}</InnerLink>`;
+			output = output + `${pre}<InnerLink to="${$.prefix}${to}-${notenumber}"${aria}-${notenumber}">${linktext}</InnerLink>`;
 			text = post;
-			flags.innerlink = true;
+			$.flags.innerlink = true;
 		}
 		text = output + text;
 		output = "";
@@ -300,14 +309,14 @@ const postprocess = (prefix, tables, flags) => {
 		//Create JumpLists out of the plain-text code
 		while(m = text.match(/^(.*?)<p>\{jumplist ([^}]+)\}<\/p>(.*)$/)) {
 			const [x, pre, jumplist, post] = m;
-			output = output + `${pre}<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
+			output = output + `${pre}<div className="jumpList" id="${$.prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			jumplist.split(/ +\/ +/).forEach(input => {
 				const hash = input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
-				output = output + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${prefix}${hash}")} onClick={()=>jumpScroller("${prefix}${hash}")}>${input}</li>`;
+				output = output + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${$.prefix}${hash}")} onClick={()=>jumpScroller("${$.prefix}${hash}")}>${input}</li>`;
 			});
 			output = output + `</ul></div>`;
 			text = post;
-			flags.jumplist = true;
+			$.flags.jumplist = true;
 		}
 		text = output + text;
 		output = "";
@@ -319,9 +328,9 @@ const postprocess = (prefix, tables, flags) => {
 			const index = parseInt(table);
 			if(index >= 0 && tables && index < tables.length) {
 				output = output + `<DisplayTable table={${JSON.stringify(tables[index])}} />`;
-				flags.displaytable = true;
+				$.flags.displaytable = true;
 			} else {
-				console.log(`ERROR: Bad Table: "{table${table}}" in ${prefix}`);
+				console.log(`ERROR: Bad Table: "{table${table}}" in ${$.prefix}`);
 				output = output + `<p><code>\{table${table}\}</code></p>`;
 			}
 			text = post;
@@ -332,9 +341,9 @@ const postprocess = (prefix, tables, flags) => {
 		//Add "tableWrap" <div> around <table> so it can be contained to one pageview and scroll horizontally
 		while(m = text.match(/^(.*?)(<table>.+?<\/table>)(.*)$/)) {
 			const [x, pre, table, post] = m;
-			output = output + `${pre}<ScrollContainer id="${`${prefix}-table-${counter++}`}">${table}</ScrollContainer>`;
+			output = output + `${pre}<ScrollContainer id="${`${$.prefix}-table-${counter++}`}">${table}</ScrollContainer>`;
 			text = post;
-			flags.scrollContainer = true;
+			$.flags.scrollContainer = true;
 		}
 		text = output + text;
 		output = "";
@@ -356,14 +365,14 @@ const postprocess = (prefix, tables, flags) => {
 		}
 		output = output + text;
 		//Create implicit jumplists
-		if(flags.implicitJumplist) {
-			let pre = `<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
-			flags.implicitJumplist.forEach(pair => {
+		if($.flags.implicitJumplist) {
+			let pre = `<div className="jumpList" id="${$.prefix}jumplist"><h2>Jump to:</h2><ul>`;
+			$.flags.implicitJumplist.forEach(pair => {
 				const [text, id] = pair;
 				pre = pre + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${id}")} onClick={()=>jumpScroller("${id}")}>${text}</li>`;
 			});
 			pre = pre + `</ul></div>`;
-			flags.jumplist = true;
+			$.flags.jumplist = true;
 			output = pre + output;
 		}
 		//Restore newlines
@@ -390,39 +399,41 @@ const removeCurlyBrackets = (input) => {
 	}).join("\n");
 };
 
-// Convert markdown code into HTML, updating `flags` to note the outside Tags being used
-const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", closeTag = "") => {
-	const flags = {...temporaryFlags};
+const makeNewMarkedInstance = (initialUse = { gfm: true }, ...midArguments) => {
 	const marked = new Marked();
-	const marked2 = new Marked();
-
-	// This secondary instance does not need to pre- or post-process, as it will be done by the regular instance.
-	marked2.use({ gfm: true });
-	marked2.use(createDirectives([
-		...presetDirectiveConfigs,
-		getAlternateBlocks(flags, prefix),
-		getSpecialContainerBlocks(flags), // these do not get tertiary instances... inner text is unchanged
-		getInlineTags(flags, prefix)
-	]));
-	// Footnotes will not work with the secondary instance, so we omit that.
-	marked2.use(gfmHeadingId({prefix}));
-	marked2.use(renderer(flags, prefix));
-
-	// Set up the primary instance, with pre/post-processing, footnotes, etc.
-	marked.use({ gfm: true, hooks: {postprocess: postprocess(prefix, tables, flags), preprocess: preprocess()} });
+	marked.use(initialUse);
 	marked.use(createDirectives([
 		...presetDirectiveConfigs,
-		getAlternateBlocks(flags, prefix, marked2),
-		getSpecialContainerBlocks(flags, marked2),
-		getInlineTags(flags, prefix)
+		getAlternateBlocks(),
+		getSpecialContainerBlocks(),
+		getInlineTags()
 	]));
-	marked.use(markedFootnote({prefixId: prefix}));
-	marked.use(gfmHeadingId({prefix}));
-	marked.use(renderer(flags, prefix));
+	midArguments.forEach(option => marked.use(option));
+	marked.use(gfmHeadingId({prefix: $.prefix}));
+	marked.use(renderer());
+	return marked;
+};
+
+// Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
+const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", closeTag = "") => {
+	$.prefix = prefix;
+	$.flags = {...temporaryFlags};
+	const marked = makeNewMarkedInstance(
+		{
+			gfm: true,
+			hooks: {
+				postprocess: postprocess(tables),
+				preprocess: preprocess()
+			}
+		},
+		// Add footnotes to this primary instance.
+		markedFootnote({prefixId: prefix})
+	);
 
 	// Parse the text
 	const parsed = marked.parse(convertLinks(desc).join("\n"));
 	// Remove temporary flags from the output.
+	const flags = {...$.flags};
 	Object.keys(temporaryFlags).forEach(prop => {
 		delete flags[prop];
 	});
@@ -543,7 +554,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	const baselink = num ? `${link}${num}` : link;
 	const copies = [];
 	const copyRecord = {};
-	const flags = {};
+	const groupFlags = {};
 	Object.entries(data).forEach(([prop, value]) => {
 		// Temporary flags should NEVER match regular flags.
 		const temporaryFlags = {};
@@ -586,7 +597,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 		switch (datatype) {
 			case "main":
 				info.title = t;
-				flags.list = true;
+				groupFlags.list = true;
 				copyof || (converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList"));
 				break;
 			case "rule":
@@ -602,7 +613,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 		const [convertedDescription, newflags] = converted;
 		convertedDescription !== undefined && (info.description = convertedDescription);
 		info.noFinder = noFinder;
-		Object.keys(newflags).forEach((flag) => {flags[flag] = true});
+		Object.keys(newflags).forEach((flag) => {groupFlags[flag] = true});
 		if(copyof) {
 			copies.push([prop, copyof, {...info}]);
 		} else {
@@ -632,27 +643,27 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	});
 	const imports = [];
 	const ionic = [];
-	// Check flags for Ionic components
-	flags.list && ionic.push("IonList");
-	flags.item && ionic.push("IonItem");
-	flags.label && ionic.push("IonLabel");
-	flags.divider && ionic.push("IonItemDivider");
-	flags.ripple && ionic.push("IonRippleEffect");
+	// Check groupFlags for Ionic components
+	groupFlags.list && ionic.push("IonList");
+	groupFlags.item && ionic.push("IonItem");
+	groupFlags.label && ionic.push("IonLabel");
+	groupFlags.divider && ionic.push("IonItemDivider");
+	groupFlags.ripple && ionic.push("IonRippleEffect");
 	ionic.length > 0 && imports.push(`import {${ionic.join(",")}} from '@ionic/react';`);
-	// Check flags for other components
-	flags.displaytable && imports.push(`import DisplayTable from '../../components/DisplayTable';`);
-	flags.link && imports.push(`import Link from '../../components/Link';`);
-	flags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
-	flags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
-	flags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
-	flags.jumplist && imports.push(
+	// Check groupFlags for other components
+	groupFlags.displaytable && imports.push(`import DisplayTable from '../../components/DisplayTable';`);
+	groupFlags.link && imports.push(`import Link from '../../components/Link';`);
+	groupFlags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
+	groupFlags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
+	groupFlags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
+	groupFlags.jumplist && imports.push(
 		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};"
 	);
 	// Add saved info;
 	const allprops = [];
 	const output = imports.concat(final.map(([prop, object]) => {
 		allprops.push(prop);
-		if(flags.jumplist && object.match(/="jumpList"/)) {
+		if(groupFlags.jumplist && object.match(/="jumpList"/)) {
 			return object.replace(/\{title:/, "{hasJL:true,title:");
 		}
 		return object;
