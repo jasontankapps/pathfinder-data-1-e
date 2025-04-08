@@ -494,6 +494,7 @@
 	"cheetah": { "copyof": "cat_small_cheetah_leopard" },
 	"leopard": { "copyof": "cat_small_cheetah_leopard" },
 	"cat_small": { "copyof": "cat_small_cheetah_leopard" },
+	"small_cat": { "copyof": "cat_small_cheetah_leopard" },
 	"caterpillar_giant": {
 		"name": "Giant Caterpillar",
 		"sources": [ "Ultimate Wilderness" ],
@@ -3009,6 +3010,7 @@
 		]
 	},
 	"constrictor_snake": { "copyof": "snake_constrictor" },
+	"constrictor": { "copyof": "snake_constrictor" },
 	"snake_viper": {
 		"name": "Snake (Viper)",
 		"sources": [ "PRPG Core Rulebook" ],

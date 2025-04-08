@@ -12,7 +12,21 @@ import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
 
 const $ = {
 	flags: {},
-	prefix: ""
+	prefix: "",
+	errorCount: 0
+};
+
+// Get file contents
+const get = (filename, logError = false) => {
+	try {
+		return fs.readFileSync(filename, 'utf8');
+	} catch (err) {
+		if (err.code === 'ENOENT') {
+			logError && console.error(filename + ' does not exist');
+			return "";
+		}
+		throw err;
+	}
 };
 
 // Handle implicit jumplists
@@ -332,6 +346,7 @@ const postprocess = (tables) => {
 			} else {
 				console.log(`ERROR: Bad Table: "{table${table}}" in ${$.prefix}`);
 				output = output + `<p><code>\{table${table}\}</code></p>`;
+				$.errorCount++;
 			}
 			text = post;
 		}
@@ -394,6 +409,7 @@ const removeCurlyBrackets = (input) => {
 		if(test) {
 			console.log("ERROR, non-complete tag?: " + line);
 			console.log(">> " + test);
+			$.errorCount++;
 		}
 		return final;
 	}).join("\n");
@@ -496,6 +512,7 @@ const parseFeatTree = (tree, ids = []) => {
 		const link = "feat/" + prop;
 		const title = getFeatName(prop);
 		if(!title) {
+			$.errorCount++;
 			return output.push(`<div><strong>ERROR</strong> trying to find "${prop}".</div>`);
 		}
 		const id = primary ? (anchor + prop) : undefined;
@@ -511,13 +528,19 @@ const parseFeatTree = (tree, ids = []) => {
 				`<div className="coparents"><strong>Also requires:</strong> `,
 				(coparents || []).map(cp => {
 					const title = getFeatName(cp);
-					if(!title) { return `<strong>ERROR</strong> trying to find "${cp}".` }
+					if(!title) {
+						$.errorCount++;
+						return `<strong>ERROR</strong> trying to find "${cp}".`
+					}
 					const id = ids.join("-") + `-${prop}-coparent-${cp}`;
 					return `<span className="coparent" id="${id}"><InnerLink mid to="${anchor + cp}">${title}</InnerLink></span>`;
 				}).join(", "),
 				(coparentsNolink || []).map(cp => {
 					const title = getFeatName(cp);
-					if(!title) { return `<strong>ERROR</strong> trying to find "${cp}".` }
+					if(!title) {
+						$.errorCount++;
+						return `<strong>ERROR</strong> trying to find "${cp}".`
+					}
 					return `<span className="coparent">${title}</span>`;
 				}).join(", "),
 				"</div>"
@@ -539,12 +562,23 @@ const featTreePage = [
 		+ featTreeData.map(ftd => `<section>${parseFeatTree([ftd])}</section>`).join("")
 		+ "</>;",
 	"export default jsx;"
-];
+].join("\n").trim();;
 
-// Write that file
-fs.writeFileSync(`./src/pages/subpages/__feat_tree_page.tsx`, featTreePage.join("\n"));
-// Announce success
-console.log(`Saved ./src/pages/subpages/__feat_tree_page.tsx`);
+let testfile = get(`./src/pages/subpages/__feat_tree_page.tsx`).trim();
+
+if(testfile === featTreePage) {
+	console.log(`UNCHANGED: ./src/pages/subpages/__feat_tree_page.tsx`);
+} else {
+	// Write that file
+	fs.writeFileSync(`./src/pages/subpages/__feat_tree_page.tsx`, featTreePage);
+	// Announce success
+	console.log(`Saved ./src/pages/subpages/__feat_tree_page.tsx`);
+}
+
+if($.errorCount) {
+	console.log(`>> Found [${$.errorCount}] errors in feat tree.`);
+	$.errorCount = 0;
+}
 
 //   Create all other files, including ___link.tsx files.
 Object.values(all_usable_groups).forEach((group, groupindex) => {
@@ -670,8 +704,21 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	}));
 	// Add an export
 	output.push(`export default {${allprops.map(prop => `${prop}:_${prop}`).join(",")}}`);
-	// Write that file
-	fs.writeFileSync(`./src/pages/subpages/__${baselink}.tsx`, output.join("\n"));
-	// Announce success
-	console.log(`Saved ./src/pages/subpages/__${baselink}.tsx (${groupindex + 1} of ${number_of_groups})`);
+
+	const filename = `./src/pages/subpages/__${baselink}.tsx`;
+	testfile = get(filename).trim();
+	const theOutput = output.join("\n").trim();
+
+	if(testfile === theOutput) {
+		console.log(`UNCHANGED: ${filename} (${groupindex + 1} of ${number_of_groups})`);
+	} else {
+		// Write that file
+		fs.writeFileSync(filename, theOutput);
+		// Announce success
+		console.log(`Saved ${filename} (${groupindex + 1} of ${number_of_groups})`);
+	}
 });
+
+if($.errorCount) {
+	console.log(`\n\n>> Found [${$.errorCount}] errors.`);
+}

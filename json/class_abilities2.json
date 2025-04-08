@@ -1050,7 +1050,7 @@
 		],
 		"topLink": [ "Arcanist", "class/arcanist" ]
 	},
-	"exploits_of_the_outer_rifts": {
+	"outer_rifts_exploits": {
 		"name": "Exploits of the Outer Rifts",
 		"sources": [ "Horror Realms" ],
 		"description": [
@@ -1740,28 +1740,6 @@
 			"[^U]: {source/Heroes of the Wild/ pg. 11}"
 		],
 		"topLink": [ "Witch", "class/witch" ]
-	},
-	"hidden_strike_talents": {
-		"name": "Hidden Strike Talents",
-		"subtitle": "Vigilante Talents",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"## Vigilante Talents - Hidden Strike",
-			"",
-			"{SOURCE Ultimate Intrigue/14}  ",
-			"A stalker vigilante can apply only one talent below to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.",
-			"",
-			"---",
-			"",
-			"**Foe Collision (Ex):** The vigilante can shove one of his foes into another. When the vigilante deals hidden strike damage to a corporeal foe with a melee attack, he can also deal an amount of nonlethal damage equal to his reduced hidden strike damage to an opponent adjacent to the first (even if the second opponent is out of his reach). The damage is bludgeoning damage, and if the colliding foe has any natural attacks, the damage is also considered magic, evil, or any other type of damage the natural attack deals. Unlike normal vigilante talents that affect hidden strikes, this vigilante talent applies in all cases when the target is denied its Dexterity bonus to AC. Only a stalker vigilante can select this talent.",
-			"",
-			"**Leave an Opening (Ex):** The vigilante's hidden strike leaves an unbalancing opening in a foe's defenses, setting up the foe to be attacked again. At the beginning of the foe's next turn, if the vigilante threatens the foe, the foe provokes an attack of opportunity from the vigilante. Multiple attacks against the same foe don't create multiple attacks of opportunity in the same round (but attacks against several foes can cause each to provoke one attack of opportunity). Only a stalker vigilante can select this talent.",
-			"",
-			"**Mighty Ambush (Ex):** Once per round, when the vigilante succeeds at a hidden strike, he can instantly drop the damaged enemy unconscious for 1d4 rounds. A successful Fortitude saving throw negates this effect (DC = 10 + 1/2 the vigilante's class level + the higher of the vigilante's Strength and Dexterity modifiers). Whether or not a creature's saving throw is successful, it can't be affected by that vigilante's mighty ambush again for 24 hours. Only a stalker vigilante of at least 10th level can select this talent.",
-			"",
-			"**Throat Jab (Ex):** The vigilante's hidden strike jabs his opponent in the throat, preventing that opponent from speaking until the vigilante's next turn. (If the vigilante uses this ability on the surprise round, it lasts until the end of his first full turn after the surprise round.) This prevents the target from calling out for help, using spells with verbal components, or doing anything else that requires speaking. The target cannot be affected by that vigilante's throat jab again for 24 hours. Only a stalker vigilante of at least 4th level can select this talent."
-		],
-		"topLink": [ "Vigilante", "class/vigilante" ]
 	},
 	"implements": {
 		"name": "Implements",
