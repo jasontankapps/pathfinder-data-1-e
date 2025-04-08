@@ -13,7 +13,8 @@ import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
 const $ = {
 	flags: {},
 	prefix: "",
-	errorCount: 0
+	errorCount: 0,
+	savedCount: 0
 };
 
 // Get file contents
@@ -573,6 +574,7 @@ if(testfile === featTreePage) {
 	fs.writeFileSync(`./src/pages/subpages/__feat_tree_page.tsx`, featTreePage);
 	// Announce success
 	console.log(`Saved ./src/pages/subpages/__feat_tree_page.tsx`);
+	$.savedCount++;
 }
 
 if($.errorCount) {
@@ -716,8 +718,13 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 		fs.writeFileSync(filename, theOutput);
 		// Announce success
 		console.log(`Saved ${filename} (${groupindex + 1} of ${number_of_groups})`);
+		$.savedCount++;
 	}
 });
+
+if($.savedCount) {
+	console.log(`\n\n>> Saved [${$.savedCount}] files (out of ${number_of_groups + 1}).`);
+}
 
 if($.errorCount) {
 	console.log(`\n\n>> Found [${$.errorCount}] errors.`);
