@@ -80,6 +80,26 @@ import shamanspirit from './json/class_ability_shaman_spirits.json' with {type: 
 import sorcererbloodline from './json/class_ability_sorcerer_bloodlines.json' with {type: 'json'};
 import spirit from './json/class_ability_spirits.json' with {type: 'json'};
 import stanceragepower from './json/class_ability_stance_rage_powers.json' with {type: 'json'};
+
+import talent from './json/class_ability_aspects.json' with {type: 'json'};
+import advancedtalent from './json/class_ability_bardic_masterpieces.json' with {type: 'json'};
+import ninjatrick from './json/class_ability_blessings.json' with {type: 'json'};
+import masterninjatrick from './json/class_ability_bloodrager_bloodlines.json' with {type: 'json'};
+import trick from './json/class_ability_curses.json' with {type: 'json'};
+import masterfultrick from './json/class_ability_disciplines.json' with {type: 'json'};
+import slayertalent from './json/class_ability_domains.json' with {type: 'json'};
+import advancedslayertalent from './json/class_ability_domains2.json' with {type: 'json'};
+import socialtalent from './json/class_ability_druid_companions.json' with {type: 'json'};
+import vigilantetalent from './json/class_ability_druid_domains.json' with {type: 'json'};
+import investigatortalent from './json/class_ability_emotional_focus.json' with {type: 'json'};
+import hex from './json/class_ability_exploits.json' with {type: 'json'};
+import majorhex from './json/class_ability_greater_exploits.json' with {type: 'json'};
+import grandhex from './json/class_ability_hellknight_orders.json' with {type: 'json'};
+import shamanhex from './json/class_ability_implements.json' with {type: 'json'};
+import discovery from './json/class_ability_discoveries.json' with {type: 'json'};
+import granddiscovery from './json/class_ability_kinetic_talents.json' with {type: 'json'};
+import arcanediscovery from './json/class_ability_arcane_discoveries.json' with {type: 'json'};
+
 import constructmod from './json/construct_mods.json' with {type: 'json'};
 import corruption from './json/corruptions.json' with {type: 'json'};
 import curse from './json/curses.json' with {type: 'json'};
@@ -983,6 +1003,22 @@ const basic_data_groups = {
 		link: "stanceragepower",
 		num: 0,
 		type: "Barbarian Stance Rage Power"
+	},
+	"class_ability_discoveries": {
+		data: discovery,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "discovery",
+		num: 0,
+		type: "Alchemist Discovery"
+	},
+	"class_ability_arcane_discoveries": {
+		data: arcanediscovery,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "arcanediscovery",
+		num: 0,
+		type: "Arcane Discovery"
 	},
 	"sidekicks": {
 		data: sidekick,

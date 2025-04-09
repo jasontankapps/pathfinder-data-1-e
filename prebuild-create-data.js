@@ -3,7 +3,7 @@ import { Marked } from 'marked';
 import markedFootnote from 'marked-footnote';
 import { gfmHeadingId } from "marked-gfm-heading-id";
 import { createDirectives, presetDirectiveConfigs } from 'marked-directive';
-import basic_data_groups from './basic_data_groups.js';
+import basic_data_groups, { basic_data_by_link } from './basic_data_groups.js';
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
 import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
@@ -16,6 +16,8 @@ const $ = {
 	errorCount: 0,
 	savedCount: 0
 };
+
+const footnoteNames = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@&%#;?_=+~".split('');
 
 // Get file contents
 const get = (filename, logError = false) => {
@@ -458,6 +460,150 @@ const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", 
 	return [`<${openTag}>${removeCurlyBrackets(parsed)}</${closeTag}>`, flags];
 };
 
+// Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
+const convertCompileableDescription = (temporaryFlags, desc, prefix, sourceInput) => {
+	$.prefix = prefix;
+	$.flags = {...temporaryFlags};
+	const marked = makeNewMarkedInstance(
+		{
+			gfm: true,
+			hooks: {
+				postprocess: postprocess([]),
+				preprocess: preprocess()
+			}
+		},
+		// Add footnotes to this primary instance.
+		markedFootnote({prefixId: prefix})
+	);
+
+	// Handle sources
+	const sources = [];
+	const dSource = [];
+	sourceInput.forEach(s => {
+		const [title, pg] = s;
+		if(pg) {
+			dSource.push(`${title}/${pg}`);
+		} else {
+			dSource.push(title);
+		}
+		sources.push(title);
+	});
+
+	// Parse the text
+	const parsed = marked.parse(convertLinks([`{SOURCE ${dSource.join(";")}}  `, ...desc]).join("\n"));
+	// Remove temporary flags from the output.
+	const flags = {...$.flags};
+	Object.keys(temporaryFlags).forEach(prop => {
+		delete flags[prop];
+	});
+	// Return the parsed output, plus flags, plus source list.
+	return [`<>${removeCurlyBrackets(parsed)}</>`, flags, sources];
+};
+
+// Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
+const compile = (compileFrom, prefix, temporaryFlags) => {
+	const { source, targets } = compileFrom;
+	const {not_found, ...found} = basic_data_by_link[source];
+	const desc = [];
+	const footnotes = { count: 0, found: [] };
+	targets.forEach(info => {
+		if(Array.isArray(info)) {
+			desc.push(...info);
+		} else {
+			const { limit, pre, join, post, translate } = info;
+			const [ender, ...mid] = join;
+			const beginner = mid.pop();
+			const { regex, replacement } = translate;
+			const pool = [];
+			if(typeof limit === "string") {
+				Object.values(found).forEach(v => {
+					v.category === limit && pool.push(v);
+				});
+			} else if (limit.omit) {
+				Object.entries(found).forEach(([prop, v]) => {
+					(limit.omit.indexOf(prop) === -1) && pool.push(v);
+				});
+			} else if (limit.only) {
+				pool.push(...limit.only.map(prop => found[prop]));
+			}
+			if(!pool.length) {
+				desc.push("[Limit not found]");
+				return;
+			}
+			const compilation = [];
+			const rx = new RegExp(`^${regex}$`);
+			const max = pool.length - 1;
+			pool.forEach((obj, i) => {
+				const level = obj.level || 0;
+				let bq = "";
+				let l = level;
+				while(l > 0) {
+					bq = bq + ">";
+					l--;
+				}
+				// Handle the end-bits of `join`
+				const d = obj.description.map((line, j) => bq + (i || j ? "" : beginner) + line).join("@@@") + (i === max ? "" : ender);
+				const sources = obj.compilationSources.map(arr => {
+					const [title, pg] = arr;
+					const detail = pg ? `{source/${title}/ pg. ${pg}}` : `{source/${title}}`;
+					if(!footnotes[detail]) {
+						const plain = pg ? `${title} pg. ${pg}` : title;
+						footnotes[detail] = `[^${footnoteNames[footnotes.count++]}]`;
+						footnotes.found.push([footnotes[detail], detail, plain, title]);
+					}
+					return footnotes[detail];
+				});
+				const repl = replacement
+					.replace(/\[\[TITLE\]\]/, obj.name)
+					.replace(/\[\[\^S\]\]/, sources.join(" "));
+				const final = d.replace(rx, repl);
+				if(level && (i !== max)) {
+					const next = pool[i + 1].level;
+					if(next >= level) {
+						// next level is equal or bigger
+						compilation.push(final, ...mid.map(line => bq + line));
+					} else if (next) {
+						// next level is smaller, but still nonzero
+						const bq2 = bq.slice(1);
+						compilation.push(final, ...mid.map(line => bq2 + line));
+					} else {
+						// next level is zero
+						compilation.push(final, ...mid);
+					}
+				} else {
+					compilation.push(final, ...mid);
+				}
+			});
+			if(pre) {
+				const bit = compilation.shift();
+				compilation.unshift(pre + bit);
+			}
+			if(post) {
+				const bit = compilation.pop();
+				compilation.push(bit + post);
+			}
+			const final = compilation.join("@@@");
+			desc.push(...final.split("@@@"));
+		}
+	});
+	const keep = [];
+	if(footnotes.count) {
+		const noted = {};
+		desc.push("");
+		footnotes.found.forEach(fn => {
+			const [letter, link, plain, title] = fn;
+			if(noted[title]) {
+				desc.push(`${letter}: ${plain}`);
+			} else {
+				desc.push(`${letter}: ${link}`);
+				noted[title] = true;
+				keep.push(title);
+			}
+		});
+	}
+	return [keep, ...convertDescription(temporaryFlags, desc, prefix, [])];
+};
+
 const createItem = (info, prop) => {
 	const { title, description, sources, parent_topics, siblings, subtopics, topLink, noFinder } = info;
 	let output = `const _${prop} = {title: "${title}", sources: ${sources ? JSON.stringify(sources) : "[]"}`;
@@ -606,7 +752,9 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 		const {
 			name: n, title: t, description: d, copyof,
 			sources, tables, topLink, parent_topics,
-			subtopics, siblings, noFinder
+			subtopics, siblings, noFinder,
+			category, compilationSources,
+			compileFrom
 		} = base;
 		// Convert entities in tables
 		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
@@ -636,6 +784,12 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 				groupFlags.list = true;
 				copyof || (converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList"));
 				break;
+			case "compileable":
+				info.title = n;
+				info.category = category;
+				converted = convertCompileableDescription(temporaryFlags, d, `${link}-${prop}-`, compilationSources);
+				info.sources = converted.pop();
+				break;
 			case "rule":
 				info.parent_topics = parent_topics;
 				info.subtopics = subtopics;
@@ -644,7 +798,26 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			default:
 				info.title = n;
 				info.topLink = topLink;
-				copyof || (d && (converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables)));
+				if(!copyof) {
+					if(d) {
+						converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables);
+					} else if (compileFrom) {
+						converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags);
+						const newSources = [...info.sources, ...converted.shift()];
+						let x = null;
+						info.sources = newSources.sort().filter(source => {
+							if(source === x) {
+								return false;
+							}
+							x = source;
+							return true;
+						});
+					} else {
+						console.log(`ERROR: ${link}/${prop} does not have a description or a compileFrom property.`);
+						$.errorCount++;
+						converted = [ "ERROR: This entry has no description.", {} ];
+					}
+				}
 		}
 		const [convertedDescription, newflags] = converted;
 		convertedDescription !== undefined && (info.description = convertedDescription);
