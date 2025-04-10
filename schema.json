@@ -72,6 +72,7 @@
 							"$comment": "Basic Compileable Item",
 							"properties": {
 								"name": { "type": "string" },
+								"nameSuffix": { "type": "string" },
 								"category": { "type": "string" },
 								"compilationSources": {
 									"type": "array",
@@ -85,6 +86,7 @@
 									}
 								},
 								"description": { "$ref": "#description" },
+								"topLink": { "$ref": "#link" },
 								"level": {
 									"type": "number",
 									"minimum": 1,
@@ -175,7 +177,7 @@
 																	},
 																	"replacement": {
 																		"type": "string",
-																		"$comment": "The special phrase [[TITLE]] (with double-brackets) will be replaced by the item's name property. The special phrase [[^S]] (with double-brackets) will be replaced with a footnote leading to the item's source. Otherwise, this is a normal regex replacement string."
+																		"$comment": "The special phrase [[TITLE]] (with double-brackets) will be replaced by the item's name property. The special phrase [[ SUFFIX]] will be replaced by a space (or whatever you put before SUFFIX) and the item's nameSuffix property, or will be replaced by the empty string if there is no nameSuffix. The special phrase [[^S]] (with double-brackets) will be replaced with a footnote leading to the item's source. Otherwise, this is a normal regex replacement string."
 																	}
 																},
 																"required": [ "regex", "replacement" ]
@@ -232,16 +234,20 @@
 			"$anchor": "source",
 			"enum": [
 				"talent", "advancedtalent",
-				"ninjatrick", "mastertrick",
-				"trick", "masterfultrick",
+				"ninjatrick",
+				"trick",
 				"slayertalent", "advancedslayertalent",
 				"socialtalent", "vigilantetalent",
 				"investigatortalent",
-				"hex", "majorhex", "grandhex",
+				"hex",
 				"shamanhex",
-				"discovery", "granddiscovery",
+				"discovery",
 				"arcanediscovery",
-				"trait"
+				"phrenicamp",
+				"trait",
+				"deed",
+				"hellknightdiscipline",
+				"kipower"
 			]
 		},
 		"uniqueArray": {

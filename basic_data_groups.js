@@ -83,22 +83,18 @@ import stanceragepower from './json/class_ability_stance_rage_powers.json' with 
 
 import talent from './json/class_ability_aspects.json' with {type: 'json'};
 import advancedtalent from './json/class_ability_bardic_masterpieces.json' with {type: 'json'};
-import ninjatrick from './json/class_ability_blessings.json' with {type: 'json'};
-import masterninjatrick from './json/class_ability_bloodrager_bloodlines.json' with {type: 'json'};
-import trick from './json/class_ability_curses.json' with {type: 'json'};
-import masterfultrick from './json/class_ability_disciplines.json' with {type: 'json'};
+import ninjatrick from './json/class_ability_ninja_tricks.json' with {type: 'json'};
+import trick from './json/class_ability_tricks.json' with {type: 'json'};
 import slayertalent from './json/class_ability_domains.json' with {type: 'json'};
 import advancedslayertalent from './json/class_ability_domains2.json' with {type: 'json'};
 import socialtalent from './json/class_ability_druid_companions.json' with {type: 'json'};
 import vigilantetalent from './json/class_ability_druid_domains.json' with {type: 'json'};
 import investigatortalent from './json/class_ability_emotional_focus.json' with {type: 'json'};
-import hex from './json/class_ability_exploits.json' with {type: 'json'};
-import majorhex from './json/class_ability_greater_exploits.json' with {type: 'json'};
-import grandhex from './json/class_ability_hellknight_orders.json' with {type: 'json'};
-import shamanhex from './json/class_ability_implements.json' with {type: 'json'};
+import hex from './json/class_ability_hexes.json' with {type: 'json'};
+import shamanhex from './json/class_ability_shaman_hexes.json' with {type: 'json'};
 import discovery from './json/class_ability_discoveries.json' with {type: 'json'};
-import granddiscovery from './json/class_ability_kinetic_talents.json' with {type: 'json'};
 import arcanediscovery from './json/class_ability_arcane_discoveries.json' with {type: 'json'};
+import phrenicamp from './json/class_ability_kinetic_talents.json' with {type: 'json'};
 
 import constructmod from './json/construct_mods.json' with {type: 'json'};
 import corruption from './json/corruptions.json' with {type: 'json'};
@@ -1004,6 +1000,39 @@ const basic_data_groups = {
 		num: 0,
 		type: "Barbarian Stance Rage Power"
 	},
+
+	"class_ability_tricks": {
+		data: trick,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "trick",
+		num: 0,
+		type: "Mesmerist Trick"
+	},
+	"class_ability_ninja_tricks": {
+		data: ninjatrick,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "ninjatrick",
+		num: 0,
+		type: "Ninja Trick"
+	},
+	"class_ability_hexes": {
+		data: hex,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "hex",
+		num: 0,
+		type: "Witch Hex"
+	},
+	"class_ability_shaman_hexes": {
+		data: shamanhex,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "shamanhex",
+		num: 0,
+		type: "Shaman Hex"
+	},
 	"class_ability_discoveries": {
 		data: discovery,
 		datatype: "compileable",
@@ -1020,6 +1049,7 @@ const basic_data_groups = {
 		num: 0,
 		type: "Arcane Discovery"
 	},
+
 	"sidekicks": {
 		data: sidekick,
 		searchgroup: 1, // classes

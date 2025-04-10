@@ -450,8 +450,9 @@
 			"(Drow only) By combining the spores from strange fungi with slivers from extradimensional voids, some drow alchemists create bombs that cause bursts of gravity capable of crushing those inside. Void bombs deals 1d4 points of bludgeoning damage, plus 1d4 points of bludgeoning damage for every 2 alchemist levels beyond 1st, instead of 1d6. A creature hit by the bomb must succeed at a Reflex save against the bomb's DC. If it fails, it is knocked prone and can't get up for 1 round. If it succeeds, all of its movement speeds are reduced to 5 feet for 1 round. Other creatures within 5 feet of the bomb's target take no damage, but must succeed at a Reflex save against the bomb's DC or have all their movement speeds reduced to 5 feet for 1 round. An alchemist must be at least 6th level before selecting this discovery."
 		]
 	},
-	"blackstar_bomb_su": {
-		"name": "Blackstar Bomb (Su)",
+	"blackstar_bomb": {
+		"name": "Blackstar Bomb",
+		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Monster Codex" ] ],
 		"category": "Bomb Discoveries",
 		"level": 1,
@@ -1322,6 +1323,70 @@
 		"category": "Other Bomb Discoveries",
 		"description": [
 			"The alchemist gains batlike, birdlike, or insectlike functional wings, allowing him to fly as the fly spell for a number of minutes per day equal to his caster level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. An alchemist can select this discovery multiple times; each time he does so, he adds his caster level to the number of minutes per day that he can fly with the wings. This flight is an extraordinary ability. An alchemist must be at least 6th level before selecting this discovery."
+		]
+	},
+	"awakened_intellect": {
+		"name": "Awakened Intellect",
+		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"category": "Grand Discoveries",
+		"topLink": [ "Grand Discoveries", "ability/grand_dicoveries" ],
+		"description": [
+			"The alchemist's constant exposure to strange chemicals has expanded his mind. His Intelligence score permanently increases by 2 points."
+		]
+	},
+	"greater_change_alignment": {
+		"name": "Greater Change Alignment",
+		"nameSuffix": "(Su)",
+		"compilationSources": [ [ "Champions of Purity" ] ],
+		"category": "Grand Discoveries",
+		"topLink": [ "Grand Discoveries", "ability/grand_dicoveries" ],
+		"description": [
+			"The effects of the alchemist's change alignment infusion become permanent and can only be reversed by a {spell/wish} or {spell/miracle}. A permanent, forced change of alignment may be devastating, and some believe it is little better than zealous slavery or mind control. Others consider a good alignment brought about by any means but purity of heart an affront to freedom. This discovery remains controversial at best. An alchemist must take the change alignment discovery and the infusion discovery before selecting this discovery."
+		]
+	},
+	"eternal_youth": {
+		"name": "Eternal Youth",
+		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"category": "Grand Discoveries",
+		"topLink": [ "Grand Discoveries", "ability/grand_dicoveries" ],
+		"description": [
+			"he alchemist has discovered a cure for aging, and from this point forward he takes no penalty to his physical ability scores from advanced age. If the alchemist is already taking such penalties, they are removed at this time."
+		]
+	},
+	"fast_healing": {
+		"name": "Fast Healing",
+		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"category": "Grand Discoveries",
+		"topLink": [ "Grand Discoveries", "ability/grand_dicoveries" ],
+		"description": [
+			"The alchemist's flesh responds to damage with shocking speed - he gains fast healing 5."
+		]
+	},
+	"philosophers_stone": {
+		"name": "Philosopher's Stone",
+		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"category": "Grand Discoveries",
+		"topLink": [ "Grand Discoveries", "ability/grand_dicoveries" ],
+		"description": [
+			"The alchemist learns how to create a {magic-artifact/philosopher's stone}, and can do so once per month at no cost. Creating a philosopher's stone takes 1 day of work."
+		]
+	},
+	"poison_touch": {
+		"name": "Poison Touch",
+		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"category": "Grand Discoveries",
+		"topLink": [ "Grand Discoveries", "ability/grand_dicoveries" ],
+		"description": [
+			"The alchemist gains a poisonous touch, as if under the effects of a {spell/poison} spell. He can suppress or activate this ability as a free action. The physical appearance of how the alchemist generates and delivers his poisonous touch varies from alchemist to alchemist."
+		]
+	},
+	"true_mutagen": {
+		"name": "True Mutagen",
+		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"category": "Grand Discoveries",
+		"topLink": [ "Grand Discoveries", "ability/grand_dicoveries" ],
+		"description": [
+			"The alchemist's mutagen now grants a +8 natural armor bonus and a +8 alchemical bonus to Strength, Dexterity, and Constitution. The alchemist takes a -2 penalty to his Intelligence, Wisdom, and Charisma as long as the mutagen persists. An alchemist must possess the grand mutagen discovery before selecting this discovery."
 		]
 	}
 }

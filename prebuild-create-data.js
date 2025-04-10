@@ -461,7 +461,7 @@ const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", 
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
-const convertCompileableDescription = (temporaryFlags, desc, prefix, sourceInput) => {
+const convertCompileableDescription = (temporaryFlags, desc, prefix, compilationSources) => {
 	$.prefix = prefix;
 	$.flags = {...temporaryFlags};
 	const marked = makeNewMarkedInstance(
@@ -479,7 +479,7 @@ const convertCompileableDescription = (temporaryFlags, desc, prefix, sourceInput
 	// Handle sources
 	const sources = [];
 	const dSource = [];
-	sourceInput.forEach(s => {
+	compilationSources.forEach(s => {
 		const [title, pg] = s;
 		if(pg) {
 			dSource.push(`${title}/${pg}`);
@@ -554,8 +554,15 @@ const compile = (compileFrom, prefix, temporaryFlags) => {
 					return footnotes[detail];
 				});
 				const repl = replacement
-					.replace(/\[\[TITLE\]\]/, obj.name)
-					.replace(/\[\[\^S\]\]/, sources.join(" "));
+					.replace(/\[\[TITLE\]\]/g, obj.name)
+					.replace(/\[\[\^S\]\]/g, sources.join(" "))
+					.replace(/\[\[(.*)SUFFIX\]\]/g, (match, sep) => {
+						const nameSuffix = obj.nameSuffix;
+						if(nameSuffix) {
+							return sep + nameSuffix;
+						}
+						return "";
+					});
 				const final = d.replace(rx, repl);
 				if(level && (i !== max)) {
 					const next = pool[i + 1].level;
@@ -786,7 +793,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 				break;
 			case "compileable":
 				info.title = n;
-				info.category = category;
+				info.topLink = topLink;
 				converted = convertCompileableDescription(temporaryFlags, d, `${link}-${prop}-`, compilationSources);
 				info.sources = converted.pop();
 				break;

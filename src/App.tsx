@@ -118,6 +118,7 @@ const SkillPage = lazy(() => import("./pages/SkillPage"));
 const SorcererBloodlinePage = lazy(() => import("./pages/SorcererBloodlinePage"));
 const SourcePage = lazy(() => import("./pages/SourcePage"));
 const SpellDefPage = lazy(() => import("./pages/SpellDefinitionPage"));
+const TalentPage = lazy(() => import("./pages/TalentPage"));
 const TechArmorPage = lazy(() => import("./pages/EquipmentTechArmorPage"));
 const TechArtifactPage = lazy(() => import("./pages/EquipmentTechArtifactPage"));
 const TechCybertechPage = lazy(() => import("./pages/EquipmentTechCybertechPage"));
@@ -553,6 +554,33 @@ const App: FC = () => {
 								<UMRPage />
 							</Suspense>
 						</Route>
+
+						<Route path="/trick/:id">
+							<Suspense fallback={<Loading text="Planning tricks..." />}>
+								<TalentPage prefix="trick" />
+							</Suspense>
+						</Route>
+						<Route path="/ninjatrick/:id">
+							<Suspense fallback={<Loading text="Tricking ninjas..." />}>
+								<TalentPage prefix="ninjatrick" />
+							</Suspense>
+						</Route>
+						<Route path="/hex/:id">
+							<Suspense fallback={<Loading text="Conjuring hexes..." />}>
+								<TalentPage prefix="hex" />
+							</Suspense>
+						</Route>
+						<Route path="/discovery/:id">
+							<Suspense fallback={<Loading text="Making discoveries..." />}>
+								<TalentPage prefix="discovery" />
+							</Suspense>
+						</Route>
+						<Route path="/arcanediscovery/:id">
+							<Suspense fallback={<Loading text="Making discoveries..." />}>
+								<TalentPage prefix="arcanediscovery" />
+							</Suspense>
+						</Route>
+
 						<Route path={/^[/]$/}><FrontPage /></Route>
 						<Route><ErrorPage /></Route>
 					</Switch>
