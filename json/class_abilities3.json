@@ -1494,11 +1494,12 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
-						"replacement": "$1**{arcanediscovery/[[TITLE]]:}** $2 [[^S]]"
+						"replacement": "$1**{shamanhex/[[TITLE]]:}** $2 [[^S]]"
 					}
 				}
 			]
-		}
+		},
+		"topLink": [ "Shaman", "class/shaman" ]
 	},
 	"shaman_spirits": {
 		"name": "Shaman Spirits",

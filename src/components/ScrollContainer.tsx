@@ -28,7 +28,8 @@ interface ScrollContainerProps {
 
 const ScrollContainer: FC<PropsWithChildren<ScrollContainerProps>> = (props) => {
 	const { id, children } = props;
-	const [xPos, yPos] = useAppSelector(state => [state.scroll[`${id}-X`] || 0, state.scroll[`${id}-Y`] || 0]);
+	const xPos = useAppSelector(state => state.scroll[`${id}-X`] || 0);
+	const yPos = useAppSelector(state => state.scroll[`${id}-Y`] || 0);
 	const tableWrapObj = useRef<HTMLDivElement>(null);
 	const dispatch = useAppDispatch();
 	const onScroll: UIEventHandler<HTMLDivElement> = useCallback((event) => {

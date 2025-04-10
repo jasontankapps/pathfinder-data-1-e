@@ -737,13 +737,8 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		sizes
 	} = table;
 	const dispatch = useAppDispatch();
-	const [
-		incomingColumnInfo,
-		incomingFilterInfo
-	]: [SortObject | undefined, TableObject | undefined] = useAppSelector(state => [
-		state.displayTable.actives[id],
-		state.displayTable.filters[id]
-	]);
+	const incomingColumnInfo: SortObject | undefined = useAppSelector(state => state.displayTable.actives[id]);
+	const incomingFilterInfo: TableObject | undefined = useAppSelector(state => state.displayTable.filters[id]);
 	const [initializedId, setInitializedId] = useState(id);
 	const [initializedColumnInfo, setInitializedColumnInfo] = useState<SortObject | undefined>(undefined);
 	const [initializedFilterInfo, setInitializedFilterInfo] = useState<TableObject | undefined>(undefined);

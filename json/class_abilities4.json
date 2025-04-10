@@ -1066,11 +1066,12 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
-						"replacement": "**{hex/[[TITLE]][[/SUFFIX]]:}** $1 [[^S]]"
+						"replacement": "$1**{hex/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
 					}
 				}
 			]
-		}
+		},
+		"topLink": [ "Witch", "class/witch" ]
 	},
 	"major_phrenic_amplifications": {
 		"name": "Major Phrenic Amplifications",
@@ -1153,7 +1154,7 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/SUFFIX]]:}** $2 [[^S]]"
+						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
 					}
 				},
 				[
@@ -1168,7 +1169,7 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/SUFFIX]]:}** $2 [[^S]]"
+						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
 					}
 				},
 				[
@@ -1183,7 +1184,7 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/SUFFIX]]:}** $2 [[^S]]"
+						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
 					}
 				},
 				[
@@ -1196,7 +1197,7 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/SUFFIX]]:}** $2 [[^S]]"
+						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
 					}
 				}
 			]
@@ -1429,7 +1430,7 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/SUFFIX]]:}** $2 [[^S]]"
+						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
 					}
 				},
 				[
@@ -1444,7 +1445,7 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/SUFFIX]]:}** $2 [[^S]]"
+						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
 					}
 				},
 				[
@@ -1459,7 +1460,7 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/SUFFIX]]:}** $2 [[^S]]"
+						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
 					}
 				},
 				[
@@ -1472,7 +1473,7 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/SUFFIX]]:}** $2 [[^S]]"
+						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
 					}
 				}
 			]

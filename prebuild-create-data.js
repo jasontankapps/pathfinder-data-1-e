@@ -339,7 +339,8 @@ const postprocess = (tables) => {
 		output = "";
 		//{table0}
 		//Add <DisplayTable> for plain-text table refs.
-		while(m = text.match(/^(.*?)<p>\{table([0-9]+)\}<\/p>(.*)$/)) {
+		// Check for curly brackets or their HTML entities, as they may get accidentally converted along the way.
+		while(m = text.match(/^(.*?)<p>(?:\{|&#123;)table([0-9]+)(?:\}|&#125;)<\/p>(.*)$/)) {
 			const [x, pre, table, post] = m;
 			output = output + pre;
 			const index = parseInt(table);
@@ -461,7 +462,7 @@ const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", 
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
-const convertCompileableDescription = (temporaryFlags, desc, prefix, compilationSources) => {
+const convertCompileableDescription = (temporaryFlags, desc, title, prefix, compilationSources) => {
 	$.prefix = prefix;
 	$.flags = {...temporaryFlags};
 	const marked = makeNewMarkedInstance(
@@ -490,7 +491,16 @@ const convertCompileableDescription = (temporaryFlags, desc, prefix, compilation
 	});
 
 	// Parse the text
-	const parsed = marked.parse(convertLinks([`{SOURCE ${dSource.join(";")}}  `, ...desc]).join("\n"));
+	const parsed = marked.parse(
+		convertLinks(
+			[
+				`## ${title}`,
+				"",
+				`{SOURCE ${dSource.join(";")}}  `,
+				...desc
+			]
+		).join("\n")
+	);
 	// Remove temporary flags from the output.
 	const flags = {...$.flags};
 	Object.keys(temporaryFlags).forEach(prop => {
@@ -760,7 +770,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			name: n, title: t, description: d, copyof,
 			sources, tables, topLink, parent_topics,
 			subtopics, siblings, noFinder,
-			category, compilationSources,
+			nameSuffix, compilationSources,
 			compileFrom
 		} = base;
 		// Convert entities in tables
@@ -794,7 +804,13 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			case "compileable":
 				info.title = n;
 				info.topLink = topLink;
-				converted = convertCompileableDescription(temporaryFlags, d, `${link}-${prop}-`, compilationSources);
+				converted = convertCompileableDescription(
+					temporaryFlags,
+					d,
+					nameSuffix ? `${n} ${nameSuffix}` : n,
+					`${link}-${prop}-`,
+					compilationSources
+				);
 				info.sources = converted.pop();
 				break;
 			case "rule":

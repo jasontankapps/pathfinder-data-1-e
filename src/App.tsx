@@ -570,6 +570,11 @@ const App: FC = () => {
 								<TalentPage prefix="hex" />
 							</Suspense>
 						</Route>
+						<Route path="/shamanhex/:id">
+							<Suspense fallback={<Loading text="Conjuring hexes..." />}>
+								<TalentPage prefix="shamanhex" />
+							</Suspense>
+						</Route>
 						<Route path="/discovery/:id">
 							<Suspense fallback={<Loading text="Making discoveries..." />}>
 								<TalentPage prefix="discovery" />
