@@ -20,7 +20,7 @@
 								"tags": { "type": "string" },
 								"category": { "type": "string" },
 								"sources": { "$ref": "#uniqueArray" },
-								"description": { "$ref": "#description" },
+								"description": { "$ref": "#stringArray" },
 								"noFinder": { "type": "boolean" },
 								"tables": { "$ref": "#tables" },
 								"parent_topics": { "$ref": "#uniqueArray" },
@@ -39,7 +39,7 @@
 								"subtitle": { "type": "string" },
 								"tags": { "type": "string" },
 								"sources": { "$ref": "#uniqueArray" },
-								"description": { "$ref": "#description" },
+								"description": { "$ref": "#stringArray" },
 								"searchgroup": { "$ref": "#searchgroup" },
 								"noFinder": { "type": "boolean" },
 								"tables": { "$ref": "#tables" },
@@ -85,7 +85,8 @@
 										"items": false
 									}
 								},
-								"description": { "$ref": "#description" },
+								"description": { "$ref": "#stringArray" },
+								"addenda": { "$ref": "#stringArray" },
 								"topLink": { "$ref": "#link" },
 								"level": {
 									"type": "number",
@@ -114,10 +115,7 @@
 											"$comment": "Each target will be assembled by itself, then joined in order, forming a Markdown document. String arrays are kept as-is.",
 											"items": {
 												"anyOf": [
-													{
-														"type": "array",
-														"items": { "type": "string" }
-													},
+													{ "$ref": "#stringArray" },
 													{
 														"type": "object",
 														"properties": {
@@ -131,11 +129,8 @@
 																		"type": "object",
 																		"properties": {
 																			"omit": {
-																				"type": "array",
-																				"$comment": "Items to ignore. All other items will be compiled.",
-																				"items": {
-																					"type": "string"
-																				}
+																				"$ref": "#stringArray",
+																				"$comment": "Items to ignore. All other items will be compiled."
 																			}
 																		}
 																	},
@@ -143,11 +138,8 @@
 																		"type": "object",
 																		"properties": {
 																			"only": {
-																				"type": "array",
-																				"$comment": "Only these items will be compiled.",
-																				"items": {
-																					"type": "string"
-																				}
+																				"$ref": "#stringArray",
+																				"$comment": "Only these items will be compiled."
 																			}
 																		}
 																	}
@@ -217,8 +209,8 @@
 		}
 	],
 	"$defs": {
-		"description": {
-			"$anchor": "description",
+		"stringArray": {
+			"$anchor": "stringArray",
 			"type": "array",
 			"items": { "type": "string" }
 		},
@@ -233,10 +225,10 @@
 		"source": {
 			"$anchor": "source",
 			"enum": [
-				"talent", "advancedtalent",
+				"talent",
 				"ninjatrick",
 				"trick",
-				"slayertalent", "advancedslayertalent",
+				"slayertalent",
 				"socialtalent", "vigilantetalent",
 				"investigatortalent",
 				"hex",
@@ -246,8 +238,15 @@
 				"phrenicamp",
 				"trait",
 				"deed",
-				"hellknightdiscipline",
-				"kipower"
+				"hkdiscipline",
+				"kipower",
+				"stylestrike",
+				"evolution",
+				"unchainedevolution",
+				"eidolon",
+				"patron",
+				"trap",
+				"stare"
 			]
 		},
 		"uniqueArray": {
@@ -272,10 +271,7 @@
 				"type": "object",
 				"properties": {
 					"id": { "type": "string" },
-					"headers": {
-						"type": "array",
-						"items": { "type": "string" }
-					},
+					"headers": { "$ref": "#stringArray" },
 					"types": {
 						"type": "array",
 						"items": { "enum": [ "gp", "lbs", "gp+", "lbs+", "bonus", "num", "pct", null, 0 ] }
@@ -327,11 +323,7 @@
 								},
 								{
 									"properties": {
-										"has": {
-											"type": "array",
-											"items": { "type": "string" },
-											"uniqueItems": true
-										},
+										"has": { "$ref": "#uniqueArray" },
 										"word": { "type": "boolean" }
 									},
 									"requires": [ "has", "col" ]

@@ -1,3 +1,4 @@
+import { ReactElement } from 'react';
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import talent from './subpages/__talent';
@@ -40,6 +41,23 @@ const info: { [key in Talent]: [string, string] } = {
 //	"phrenicamp": [ "Phrenic Amplifications", "ability/phrenic_amplifications" ],
 };
 
+const addendaObj: { [key: string]: string } = {
+	sneakattack: "This type of talent adds effects to a rogue's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made."
+};
+
+const getAddenda = (input: string[], jsx: ReactElement, id: string) => {
+	const found: ReactElement[] = [];
+	input.forEach(bit => {
+		if(addendaObj[bit]) {
+			found.push(<aside key={`${id}-addenda:${bit}`}><p>{addendaObj[bit]}</p></aside>);
+		}
+	});
+	if(found.length > 1) {
+		return <>{jsx}{found}</>;
+	}
+	return jsx;
+};
+
 const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 
 	const data = allTalents[prefix];
@@ -49,7 +67,9 @@ const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, topLink } = getItem<Data>(id, data);
+	const { hasJL, title, jsx, sources, topLink, addenda } = getItem<Data>(id, data);
+
+	const output = addenda ? getAddenda(addenda, jsx, id || "not_found") : jsx;
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -57,7 +77,7 @@ const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 		sources={sources}
 		pageId={`/${prefix}/${id}`}
 		topLink={topLink || info[prefix]}
-	>{jsx}</BasicPage>;
+	>{output}</BasicPage>;
 };
 
 export default TalentPage;

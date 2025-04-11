@@ -9,6 +9,7 @@ export interface JsonDataProps {
 	sources: SourceProp[],
 	topLink?: Hierarchy
 	noFinder?: boolean
+	addenda?: string[]
 }
 
 interface MaybeCopyOf<T> extends Partial<JsonDataProps> {

@@ -622,13 +622,14 @@ const compile = (compileFrom, prefix, temporaryFlags) => {
 };
 
 const createItem = (info, prop) => {
-	const { title, description, sources, parent_topics, siblings, subtopics, topLink, noFinder } = info;
+	const { title, description, sources, parent_topics, siblings, subtopics, topLink, noFinder, addenda } = info;
 	let output = `const _${prop} = {title: "${title}", sources: ${sources ? JSON.stringify(sources) : "[]"}`;
 	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
 	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
 	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
 	noFinder && (output = output + ", noFinder: true");
+	addenda && (output = output + `, addenda: ${JSON.stringify(addenda)}`);
 	output = output + `, jsx: ${description}};`;
 	return output;
 };
@@ -771,7 +772,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			sources, tables, topLink, parent_topics,
 			subtopics, siblings, noFinder,
 			nameSuffix, compilationSources,
-			compileFrom
+			compileFrom, addenda
 		} = base;
 		// Convert entities in tables
 		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
@@ -804,6 +805,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			case "compileable":
 				info.title = n;
 				info.topLink = topLink;
+				info.addenda = addenda;
 				converted = convertCompileableDescription(
 					temporaryFlags,
 					d,
@@ -918,9 +920,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	}
 });
 
-if($.savedCount) {
-	console.log(`\n\n>> Saved [${$.savedCount}] files (out of ${number_of_groups + 1}).`);
-}
+console.log(`\n\n>> Saved [${$.savedCount}] files (out of ${number_of_groups + 1}).`);
 
 if($.errorCount) {
 	console.log(`\n\n>> Found [${$.errorCount}] errors.`);
