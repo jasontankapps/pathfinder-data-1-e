@@ -1,5 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
+import talent from './subpages/__talent';
+import slayertalent from './subpages/__slayertalent';
 import trick from './subpages/__trick';
 import ninjatrick from './subpages/__ninjatrick';
 import hex from './subpages/__hex';
@@ -10,6 +12,8 @@ import BasicPage from './BasicPage';
 import './Page.css';
 
 const allTalents = {
+	talent,
+	slayertalent,
 	trick,
 	ninjatrick,
 	hex,
@@ -21,16 +25,14 @@ const allTalents = {
 type Talent = keyof typeof allTalents;
 
 const info: { [key in Talent]: [string, string] } = {
-//	"talent": [ "Rogue Talent", "ability/rogue_talents" ],
-//	"advancedtalent": [ "Advanced Rogue Talent", "ability/advanced_rogue_talents" ],
-	"ninjatrick": [ "Ninja Tricks", "ability/ninja_tricks" ],
-//	"mastertrick": [ "Master Tricks", "ability/master_tricks" ],
-	"trick": [ "Mesmerist Tricks", "ability/tricks" ],
-//	"slayertalent": [ "Slayer Talents", "ability/slayer_talents" ],
-//	"advancedslayertalent": [ "Advanced Slayer Talents", "ability/advanced_slayer_talents" ],
+	"talent": [ "Rogue Talent", "ability/rogue_talents" ],
+	"slayertalent": [ "Slayer Talents", "ability/slayer_talents" ],
 //	"socialtalent": [ "Social Talents", "ability/social_talents" ],
 //	"vigilantetalent": [ "Vigilante Talents", "ability/vigilante_talents" ],
 //	"investigatortalent": [ "Investigator Talents", "ability/investigator_talents" ],
+	"ninjatrick": [ "Ninja Tricks", "ability/ninja_tricks" ],
+	"trick": [ "Mesmerist Tricks", "ability/tricks" ],
+//	"stare": [ "Mesmerist Stares", "ability/stares" ],
 	"hex": [ "Witch Hexes", "ability/hexes" ],
 	"shamanhex": [ "Shaman Hexes", "ability/shaman_hexes" ],
 	"discovery": [ "Alchemist Discoveries", "ability/discoveries" ],

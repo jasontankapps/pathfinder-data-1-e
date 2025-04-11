@@ -81,12 +81,10 @@ import sorcererbloodline from './json/class_ability_sorcerer_bloodlines.json' wi
 import spirit from './json/class_ability_spirits.json' with {type: 'json'};
 import stanceragepower from './json/class_ability_stance_rage_powers.json' with {type: 'json'};
 
-import talent from './json/class_ability_aspects.json' with {type: 'json'};
-import advancedtalent from './json/class_ability_bardic_masterpieces.json' with {type: 'json'};
+import talent from './json/class_ability_rogue_talents.json' with {type: 'json'};
 import ninjatrick from './json/class_ability_ninja_tricks.json' with {type: 'json'};
 import trick from './json/class_ability_tricks.json' with {type: 'json'};
-import slayertalent from './json/class_ability_domains.json' with {type: 'json'};
-import advancedslayertalent from './json/class_ability_domains2.json' with {type: 'json'};
+import slayertalent from './json/class_ability_slayer_talents.json' with {type: 'json'};
 import socialtalent from './json/class_ability_druid_companions.json' with {type: 'json'};
 import vigilantetalent from './json/class_ability_druid_domains.json' with {type: 'json'};
 import investigatortalent from './json/class_ability_emotional_focus.json' with {type: 'json'};
@@ -1001,6 +999,22 @@ const basic_data_groups = {
 		type: "Barbarian Stance Rage Power"
 	},
 
+	"class_ability_talents": {
+		data: talent,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "talent",
+		num: 0,
+		type: "Rogue Talent"
+	},
+	"class_ability_slayer_talents": {
+		data: slayertalent,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "slayertalent",
+		num: 0,
+		type: "Slayer Talent"
+	},
 	"class_ability_tricks": {
 		data: trick,
 		datatype: "compileable",

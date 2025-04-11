@@ -638,6 +638,8 @@
 			"{SOURCE Pathfinder Unchained}  ",
 			"At 5th level, a monk can learn one type of style strike. Whenever he makes a flurry of blows, he can designate one of his unarmed strikes as a style strike. This attack is resolved as normal, but it has an additional effect depending on the type of strike chosen. At 9th level, and every 4 levels thereafter, a monk learns an additional style strike. He must choose which style strike to apply before the attack roll is made. At 15th level, he can designate up to two of his unarmed strikes each round as a style strike, and each one can be a different type. The monk can choose from any of the following strikes.",
 			"",
+			":::blockquote{className=hanging}",
+			"",
 			"**Break[^A]** The monk combines a writhing twist with a violent strike against a foe that is grappling him. If the monk's attack is successful, he can attempt a grapple combat maneuver check or Escape Artist check as a free action to escape a grapple, adding the strike's damage as a bonus on his check.",
 			"",
 			"**Defensive Spin[^B]** The monk spins about, confounding his foe. If the attack hits, the monk gains a +4 dodge bonus to AC against any attacks made by the target of the style strike until the start of his next turn. This bonus does not stack with itself. The monk must attack with a fist to use this style strike.",
@@ -667,6 +669,8 @@
 			"**Spin Kick[^D]** The monk spins about, delivering a kick his foe did not expect. The monk makes his attack against the foe's flat-footed AC. Creatures with the uncanny dodge class feature or a similar effect cannot be caught flat-footed by this style strike. The monk must attack with a kick to use this style strike.",
 			"",
 			"**Throat Crush[^A]** The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it had the [caster croak spellblight](rule/minor_spellblights). Creatures without a discernible throat, or with multiple vocal organs, are unaffected (subject to GM discretion).",
+			"",
+			":::",
 			"",
 			"[^A]: {source/Martial Arts Handbook/ pg. 7}",
 			"[^B]: {source/Pathfinder Unchained/ pg. 18}",
@@ -1613,6 +1617,8 @@
 			"",
 			"The following ward aspects are available to characters who meet the conditions described above.",
 			"",
+			":::blockquote{className=hanging}",
+			"",
 			"*Road:* The creature gains a +10 foot enhancement bonus to its base speed while running, charging, or withdrawing. This bonus increases to +20 feet at 8th level and +30 feet at 15th level.",
 			"",
 			"*Shrine:* The creature gains a +2 enhancement bonus to Wisdom. This bonus increases to +4 at 8th level and +6 at 15th level.",
@@ -1621,7 +1627,9 @@
 			"",
 			"*Waymarker:* The creature gains a +4 competence bonus on attack rolls with improvised weapons. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"*Well:* The creature gains a +2 shield bonus to AC. This bonus increases to +4 at 8th level and +6 at 15th level."
+			"*Well:* The creature gains a +2 shield bonus to AC. This bonus increases to +4 at 8th level and +6 at 15th level.",
+			"",
+			":::"
 		],
 		"topLink": [ "Hunter", "class/hunter" ]
 	}
