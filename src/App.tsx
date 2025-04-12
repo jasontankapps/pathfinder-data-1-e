@@ -565,6 +565,21 @@ const App: FC = () => {
 								<TalentPage prefix="slayertalent" />
 							</Suspense>
 						</Route>
+						<Route path="/investigatortalent/:id">
+							<Suspense fallback={<Loading text="Finding talents..." />}>
+								<TalentPage prefix="investigatortalent" />
+							</Suspense>
+						</Route>
+						<Route path="/socialtalent/:id">
+							<Suspense fallback={<Loading text="Finding talents..." />}>
+								<TalentPage prefix="socialtalent" />
+							</Suspense>
+						</Route>
+						<Route path="/vigilantetalent/:id">
+							<Suspense fallback={<Loading text="Finding talents..." />}>
+								<TalentPage prefix="vigilantetalent" />
+							</Suspense>
+						</Route>
 						<Route path="/trick/:id">
 							<Suspense fallback={<Loading text="Planning tricks..." />}>
 								<TalentPage prefix="trick" />

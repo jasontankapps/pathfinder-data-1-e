@@ -85,9 +85,9 @@ import talent from './json/class_ability_rogue_talents.json' with {type: 'json'}
 import ninjatrick from './json/class_ability_ninja_tricks.json' with {type: 'json'};
 import trick from './json/class_ability_tricks.json' with {type: 'json'};
 import slayertalent from './json/class_ability_slayer_talents.json' with {type: 'json'};
-import socialtalent from './json/class_ability_druid_companions.json' with {type: 'json'};
-import vigilantetalent from './json/class_ability_druid_domains.json' with {type: 'json'};
-import investigatortalent from './json/class_ability_emotional_focus.json' with {type: 'json'};
+import socialtalent from './json/class_ability_social_talents.json' with {type: 'json'};
+import vigilantetalent from './json/class_ability_vigilante_talents.json' with {type: 'json'};
+import investigatortalent from './json/class_ability_investigator_talents.json' with {type: 'json'};
 import hex from './json/class_ability_hexes.json' with {type: 'json'};
 import shamanhex from './json/class_ability_shaman_hexes.json' with {type: 'json'};
 import discovery from './json/class_ability_discoveries.json' with {type: 'json'};
@@ -1007,6 +1007,14 @@ const basic_data_groups = {
 		num: 0,
 		type: "Rogue Talent"
 	},
+	"class_ability_investigator_talents": {
+		data: investigatortalent,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "investigatortalent",
+		num: 0,
+		type: "Investigator Talent"
+	},
 	"class_ability_slayer_talents": {
 		data: slayertalent,
 		datatype: "compileable",
@@ -1014,6 +1022,22 @@ const basic_data_groups = {
 		link: "slayertalent",
 		num: 0,
 		type: "Slayer Talent"
+	},
+	"class_ability_vigilante_talents": {
+		data: vigilantetalent,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "vigilantetalent",
+		num: 0,
+		type: "vigilante Talent"
+	},
+	"class_ability_social_talents": {
+		data: socialtalent,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "socialtalent",
+		num: 0,
+		type: "Social Talent (Vigilante)"
 	},
 	"class_ability_tricks": {
 		data: trick,

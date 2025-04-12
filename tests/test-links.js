@@ -146,7 +146,18 @@ const {
 	rule,
 	spell,
 	trait,
-	family
+	family,
+	talent,
+	slayertalent,
+	investigatortalent,
+	socialtalent,
+	vigilantetalent,
+	trick,
+	ninjatrick,
+	hex,
+	shamanhex,
+	discovery,
+	arcanediscovery
 } = basic_data_by_link;
 
 const all = [

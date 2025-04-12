@@ -537,7 +537,7 @@ const compile = (compileFrom, prefix, temporaryFlags) => {
 				pool.push(...limit.only.map(prop => found[prop]));
 			}
 			if(!pool.length) {
-				desc.push("[Limit not found]");
+				desc.push("[ERROR: Limit not found]");
 				return;
 			}
 			const compilation = [];

@@ -83,7 +83,7 @@
 		"name": "Advanced Rogue Talents",
 		"sources": [ "PRPG Core Rulebook" ],
 		"compileFrom": {
-			"source": "discovery",
+			"source": "talent",
 			"targets": [
 				[
 					"## Advanced Rogue Talents",
@@ -154,7 +154,7 @@
 		"name": "Advanced Slayer Talents",
 		"sources": [ "Advanced Class Guide" ],
 		"compileFrom": {
-			"source": "discovery",
+			"source": "slayertalent",
 			"targets": [
 				[
 					"## Advanced Slayer Talents",
