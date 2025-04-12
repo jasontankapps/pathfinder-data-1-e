@@ -554,6 +554,11 @@ const App: FC = () => {
 								<UMRPage />
 							</Suspense>
 						</Route>
+						<Route path="/phrenicamp/:id">
+							<Suspense fallback={<Loading text="Amplifying phrenes..." />}>
+								<TalentPage prefix="phrenicamp" />
+							</Suspense>
+						</Route>
 
 						<Route path="/talent/:id">
 							<Suspense fallback={<Loading text="Finding talents..." />}>
@@ -583,6 +588,11 @@ const App: FC = () => {
 						<Route path="/trick/:id">
 							<Suspense fallback={<Loading text="Planning tricks..." />}>
 								<TalentPage prefix="trick" />
+							</Suspense>
+						</Route>
+						<Route path="/stare/:id">
+							<Suspense fallback={<Loading text="Not blinking..." />}>
+								<TalentPage prefix="stare" />
 							</Suspense>
 						</Route>
 						<Route path="/ninjatrick/:id">

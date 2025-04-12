@@ -7,7 +7,9 @@ import investigatortalent from './subpages/__investigatortalent';
 import socialtalent from './subpages/__socialtalent';
 import vigilantetalent from './subpages/__vigilantetalent';
 import trick from './subpages/__trick';
+import stare from './subpages/__stare';
 import ninjatrick from './subpages/__ninjatrick';
+import phrenicamp from './subpages/__phrenicamp';
 import hex from './subpages/__hex';
 import shamanhex from './subpages/__shamanhex';
 import discovery from './subpages/__discovery';
@@ -22,7 +24,9 @@ const allTalents = {
 	socialtalent,
 	vigilantetalent,
 	trick,
+	stare,
 	ninjatrick,
+	phrenicamp,
 	hex,
 	shamanhex,
 	discovery,
@@ -39,12 +43,12 @@ const info: { [key in Talent]: [string, string] } = {
 	"investigatortalent": [ "Investigator Talents", "ability/investigator_talents" ],
 	"ninjatrick": [ "Ninja Tricks", "ability/ninja_tricks" ],
 	"trick": [ "Mesmerist Tricks", "ability/tricks" ],
-//	"stare": [ "Mesmerist Stares", "ability/stares" ],
+	"stare": [ "Mesmerist Stares", "ability/stares" ],
 	"hex": [ "Witch Hexes", "ability/hexes" ],
 	"shamanhex": [ "Shaman Hexes", "ability/shaman_hexes" ],
 	"discovery": [ "Alchemist Discoveries", "ability/discoveries" ],
 	"arcanediscovery": [ "Arcane Discovery", "ability/arcane_discoveries" ],
-//	"phrenicamp": [ "Phrenic Amplifications", "ability/phrenic_amplifications" ],
+	"phrenicamp": [ "Phrenic Amplifications", "ability/phrenic_amplifications" ],
 };
 
 const addendaObj: { [key: string]: string } = {
@@ -52,7 +56,8 @@ const addendaObj: { [key: string]: string } = {
 	studiedstrike: "This type of talent adds effects to an investigator's studied combat or studied strike, and has. Only one of these talents can be applied to an individual attack, but the decision can be made when the damage is dealt.",
 	avenger: "This talent can only be taken by avenger vigilantes.",
 	stalker: "This talent can only be taken by stalker vigilantes.",
-	hiddenstrike: "This type of talent can only be taken by stalker vigilantes, and it has a limitation: only one talent of this type can be added to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted."
+	hiddenstrike: "This type of talent can only be taken by stalker vigilantes, and it has a limitation: only one talent of this type can be added to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.",
+	devilbane: "Devilbane gazes tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well."
 };
 
 const getAddenda = (input: string[], jsx: ReactElement, id: string) => {

@@ -3,7 +3,7 @@
 		"name": "Unknown",
 		"compilationSources": [],
 		"description": [
-			"Unable to find the requested investigator talent."
+			"Unable to find the requested vigilante talent."
 		]
 	},
 	"combat_skill": {
@@ -39,7 +39,7 @@
 	"mad_rush": {
 		"name": "Mad Rush",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Avenger Talents",
 		"addenda": [ "avenger" ],
 		"description": [
@@ -49,7 +49,7 @@
 	"nothing_can_stop_me": {
 		"name": "Nothing Can Stop Me",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Avenger Talents",
 		"addenda": [ "avenger" ],
 		"description": [
@@ -59,7 +59,7 @@
 	"signature_weapon": {
 		"name": "Signature Weapon",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Avenger Talents",
 		"addenda": [ "avenger" ],
 		"description": [
@@ -79,7 +79,7 @@
 	"sucker_punch": {
 		"name": "Sucker Punch",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Avenger Talents",
 		"addenda": [ "avenger" ],
 		"description": [
@@ -99,7 +99,7 @@
 	"unkillable": {
 		"name": "Unkillable",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Avenger Talents",
 		"addenda": [ "avenger" ],
 		"description": [
@@ -119,7 +119,7 @@
 	"blind_spot": {
 		"name": "Blind Spot",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 13 ] ],
 		"category": "Stalker Talents",
 		"addenda": [ "stalker" ],
 		"description": [
@@ -149,7 +149,7 @@
 	"rogue_talent": {
 		"name": "Rogue Talent",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Stalker Talents",
 		"addenda": [ "stalker" ],
 		"description": [
@@ -159,7 +159,7 @@
 	"sniper": {
 		"name": "Sniper",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Stalker Talents",
 		"addenda": [ "stalker" ],
 		"description": [
@@ -169,7 +169,7 @@
 	"stalker_sense": {
 		"name": "Stalker Sense",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Stalker Talents",
 		"addenda": [ "stalker" ],
 		"description": [
@@ -179,7 +179,7 @@
 	"twisting_fear": {
 		"name": "Twisting Fear",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Stalker Talents",
 		"addenda": [ "stalker" ],
 		"description": [
@@ -189,7 +189,7 @@
 	"up_close_and_personal": {
 		"name": "Up Close and Personal",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 17 ] ],
 		"category": "Stalker Talents",
 		"addenda": [ "stalker" ],
 		"description": [
@@ -219,7 +219,7 @@
 	"mighty_ambush": {
 		"name": "Mighty Ambush",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Hidden Strike Talents",
 		"addenda": [ "hiddenstrike" ],
 		"description": [
@@ -229,7 +229,7 @@
 	"throat_jab": {
 		"name": "Throat Jab",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Hidden Strike Talents",
 		"addenda": [ "hiddenstrike" ],
 		"description": [
@@ -248,7 +248,7 @@
 	"another_day": {
 		"name": "Another Day",
 		"nameSuffix": "(Ex, Su)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 13 ] ],
 		"category": "Other Talents",
 		"description": [
 			"When the vigilante is dropped unconscious due to hit point damage, he automatically stabilizes, but he can also appear to be dead, unless an examining creature succeeds at a Heal check (DC = 20 + the vigilante's class level) or, if using magic such as deathwatch, a caster level check with the same DC (the ability to affect spells is supernatural; the rest of the ability is extraordinary). The vigilante counts as having received aid and automatically succeeds at the Constitution check to become conscious after 1 hour (unless he has actually died in the meantime)."
@@ -266,7 +266,7 @@
 	"armor_skin": {
 		"name": "Armor Skin",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 13 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante's armor is like a second skin. He doesn't apply the armor check penalty for light and medium armor on Acrobatics, Escape Artist, or Stealth checks. This penalty applies on other skill checks as normal. At 8th level, he can move at full speed in medium armor."
@@ -345,7 +345,7 @@
 	"swamp_concoctions": {
 		"name": "Swamp Concoctions",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "People of the Wastes", 2 ] ],
+		"compilationSources": [ [ "People of the Wastes", 21 ] ],
 		"category": "Other Talents",
 		"level": 1,
 		"description": [
@@ -427,7 +427,7 @@
 	"lethal_grace": {
 		"name": "Lethal Grace",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante combines strength and speed into incredibly deadly attacks. He gains {feat/Weapon Finesse} as a bonus feat, and if he already has the Weapon Finesse feat, he can immediately swap it for another feat for which he qualified at the level he chose Weapon Finesse. When using Weapon Finesse to make a melee attack using his Dexterity bonus on attack rolls and his Strength bonus on damage rolls, he also adds half his vigilante level on damage rolls. This bonus damage is not reduced or increased if the vigilante is wielding a weapon two-handed or in an off-hand."
@@ -436,7 +436,7 @@
 	"living_shield": {
 		"name": "Living Shield",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Other Talents",
 		"description": [
 			"As an immediate action whenever the vigilante is grappling a creature and is targeted by an attack, he can attempt a combat maneuver check against the target of his grapple (this combat maneuver check doesn't count as a grapple combat maneuver check). If he succeeds, the creature he is grappling becomes the new target of the attack. If the check fails, the creature escapes the grapple and the vigilante is the target of the attack as normal. This ability must be used after the attack is declared against the vigilante, but before the attack is made and the results revealed."
@@ -510,7 +510,7 @@
 	"perfect_fall": {
 		"name": "Perfect Fall",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Other Talents",
 		"description": [
 			"As long as there is a wall or another surface within arm's reach, the vigilante never takes falling damage. Even if no surface is available, he takes only half damage from falling and lands on his feet."
@@ -519,7 +519,7 @@
 	"perfect_vulnerability": {
 		"name": "Perfect Vulnerability",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Other Talents",
 		"description": [
 			"As a standard action, the vigilante can cleverly strike his foe where that foe is weakest. This attack targets the foe's touch AC, and the foe is denied her Dexterity bonus against the attack. Once a foe has been the target of perfect vulnerability, she can't be the target of the same vigilante's perfect vulnerability for 24 hours. A vigilante must be at least 8th level to select this talent."
@@ -537,7 +537,7 @@
 	"pull_into_the_shadows": {
 		"name": "Pull into the Shadows",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Other Talents",
 		"description": [
 			"As a full-round action, the vigilante can move up to his speed toward an opponent who is unaware of his presence (or who considers him an ally) and make a single attack against that opponent. If the attack hits, he can attempt a drag combat maneuver against that enemy with a +4 bonus and without provoking an attack of opportunity. If the drag succeeds, the vigilante doesn't need to have enough movement remaining to move with the enemy. The vigilante can't use this ability on a true ally or a willing target."
@@ -554,7 +554,7 @@
 	"returning_weapon": {
 		"name": "Returning Weapon",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante has a signature type of thrown weapon that returns to him. Choose a type of thrown weapon, such as throwing axes. Whenever the vigilante uses that type of weapon, it automatically returns as if it had the {magic-enh/returning} property. At 14th level, if the vigilante chose a type of thrown weapon that is treated as ammunition, such as shuriken, and buys a set of 50 magic ammunition of that type, he automatically replenishes them at no cost and never runs out. If he chose a non-ammunition thrown weapon instead, he can apply the magical properties of the first weapon he throws in a round to any nonmagical thrown weapons of that type he throws that round. This allows him to make a full attack with the benefits of his magical thrown weapon, even though it only returns next round."
@@ -563,7 +563,7 @@
 	"rooftop_infiltrator": {
 		"name": "Rooftop Infiltrator",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante gains a climb speed equal to half his base speed, which increases to his full base speed when climbing a rope."
@@ -591,7 +591,7 @@
 	"shadows_sight": {
 		"name": "Shadow's Sight",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante gains low-light vision and darkvision 60 feet. If he already had darkvision, its range increases by 30 feet."
@@ -600,7 +600,7 @@
 	"shadows_speed": {
 		"name": "Shadow's Speed",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 15 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante's base speed increases by 10 feet. At 10th level, it increases by an additional 10 feet."
@@ -609,7 +609,7 @@
 	"shield_of_blades": {
 		"name": "Shield of Blades",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante's wild attacks allow him to block his foes' counterattacks. He gains {feat/Power Attack} as a bonus feat. If he already has the Power Attack feat, he can immediately swap it for another feat for which he qualified at the level he chose Power Attack. When he takes an attack or full attack action, if he uses Power Attack on every attack to make melee attacks that use his Strength bonus on attack rolls, he gains a shield bonus to his AC until his next turn equal to his penalty on attack rolls from Power Attack. This bonus applies only if he actually takes that penalty on at least one of the attack rolls."
@@ -618,7 +618,7 @@
 	"shield_of_fury": {
 		"name": "Shield of Fury",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante gains {feat/Improved Shield Bash} as a bonus feat. If he already has the Improved Shield Bash feat, he can immediately swap it for another feat for which he qualified at the level he chose Improved Shield Bash. In addition, if he is at least 6th level, he is treated as if he has the {feat/Two-Weapon Fighting} feat as long as one of the weapons used is a shield. This allows him to take feats that require Two-Weapon Fighting as a prerequisite without meeting the Two-Weapon Fighting or Dexterity prerequisites, but these feats only apply while he is wielding a shield as one of his weapons (unless he takes Two-Weapon Fighting as normal, in which case this restriction is lifted)."
@@ -636,7 +636,7 @@
 	"silent_dispatch": {
 		"name": "Silent Dispatch",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Other Talents",
 		"description": [
 			"When the vigilante ambushes an enemy or enemies unaware of his presence, he can attempt a Stealth check at a -5 penalty. The result indicates the DC of Perception checks to hear the vigilante's attacks until an opponent's first action, when the DC returns to the normal -10 for hearing battle. Other enemies present can still see the attack; this talent only prevents the sounds of battle from alerting others."
@@ -654,7 +654,7 @@
 	"strike_the_unseen": {
 		"name": "Strike the Unseen",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante gains {feat/Blind-Fight} as a bonus feat. He can also deal hidden strike damage against targets with total concealment. At 10th level, he gains {feat/Improved Blind-Fight} as a bonus feat and can deal all types of precision damage against targets with {rule/concealment} or total concealment. At 16th level, he gains {feat/Greater Blind-Fight} as a bonus feat. The vigilante does not have to meet the prerequisites for either Improved Blind-Fight or Greater Blind-Fight to gain these feats with this talent."
@@ -663,7 +663,7 @@
 	"sure_footed": {
 		"name": "Sure-Footed",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante can move at full speed while using the Stealth and Acrobatics skills without penalty. At 8th level, he can move at full speed across difficult terrain."
@@ -672,7 +672,7 @@
 	"surprise_strike": {
 		"name": "Surprise Strike",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante gains a greater advantage when his foe is unable to defend herself. Whenever he makes an attack against a foe that is denied her Dexterity bonus to AC, he gains a +1 bonus on his attack roll. This bonus increases to +2 at 8th level and to +3 at 16th level."
@@ -717,7 +717,7 @@
 	"unexpected_strike": {
 		"name": "Unexpected Strike",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante gains {feat/Quick Draw} as a bonus feat. At 8th level, he can draw hidden weapons as a swift action (instead of a move action)."
@@ -726,7 +726,7 @@
 	"vigilantes_reflexes": {
 		"name": "Vigilante's Reflexes",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Antihero's Handbook", 1 ] ],
+		"compilationSources": [ [ "Antihero's Handbook", 17 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante gains {feat/Combat Reflexes} as a bonus feat. If he already has the Combat Reflexes feat, he instead gains another feat he qualified for at the level when he chose Combat Reflexes. At 8th and 16th levels, the number of additional attacks of opportunity per round the vigilante can make increases by 1, regardless of the vigilante's Dexterity bonus."
@@ -735,7 +735,7 @@
 	"vital_punishment": {
 		"name": "Vital Punishment",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
+		"compilationSources": [ [ "Ultimate Intrigue", 17 ] ],
 		"category": "Other Talents",
 		"description": [
 			"The vigilante gains {feat/Vital Strike} as a bonus feat, though he does not have to meet the prerequisites for this feat. Once per round, before he makes an attack of opportunity, he can declare it to be a vital punishment. If the attack hits, the vigilante can apply the Vital Strike feat. The vigilante can apply the {feat/Improved Vital Strike} or {feat/Greater Vital Strike} feat as his vital punishment instead if he later gains those feats. A vigilante must be at least 6th level to select this talent"
@@ -753,7 +753,7 @@
 	"vortex_splash": {
 		"name": "Vortex Splash",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "People of the Wastes", 2 ] ],
+		"compilationSources": [ [ "People of the Wastes", 21 ] ],
 		"category": "Other Talents",
 		"description": [
 			"When in rain or waist deep in water, the vigilante can make a whirling splash as a full-round action, allowing him to attempt a single dirty trick combat maneuver or feint against each adjacent foe. The vigilante can make a separate choice for each target."

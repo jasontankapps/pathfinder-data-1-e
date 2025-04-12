@@ -358,61 +358,27 @@
 	},
 	"phrenic_amplifications": {
 		"name": "Phrenic Amplifications",
-		"sources": [
-			"Occult Adventures",
-			"Occult Origins",
-			"Heroes of Golarion"
-		],
-		"description": [
-			"{SOURCE Occult Adventures/60;Occult Origins/16;Heroes of Golarion/13}  ",
-			"A psychic develops particular techniques to empower her spellcasting, called phrenic amplifications. The psychic can activate a phrenic amplification only while casting a spell using psychic magic, and the amplification modifies either the spell's effects or the process of casting it. The spell being cast is called the linked spell. The psychic can activate only one amplification each time she casts a spell, and doing so is part of the action used to cast the spell. She can use any amplification she knows with any psychic spell, unless the amplification's description states that it can be linked only to certain types of spells. A psychic learns one phrenic amplification at 1st level, selected from the list below. At 3rd level and every 4 levels thereafter, the psychic learns a new phrenic amplification. A phrenic amplification can't be selected more than once. Once a phrenic amplification has been selected, it can't be changed. Phrenic amplifications require the psychic to expend 1 or more points from her phrenic pool to function.",
-			"",
-			"---",
-			"",
-			"**Biokinetic Healing (Su):** When the psychic casts a linked spell from the transmutation school, she can spend 1 point from her phrenic pool to regain 2 hit points per level of the linked spell.",
-			"",
-			"**Complex Countermeasures (Ex):** The psychic can spend 1 point from her phrenic pool to increase by 2 the DCs of {rule/concentration} checks or caster level checks the linked spell requires enemies to attempt. For example, if the linked spell were {spell/nondetection}, the DC of the caster level check for using a divination on the warded creature or item would increase. This increase also applies to checks to dispel, counterspell, or identify the linked spell. The bonus applies while the spell is cast and lasts for the spell's duration (if appropriate), to a maximum of 24 hours. The psychic can choose to spend 2 points from her phrenic pool to instead increase the linked spell's DCs by 4.",
-			"",
-			"**Conjured Armor (Su):** By spending 1 point from her phrenic pool, the psychic grants any creature she conjures or summons with the linked spell a +2 deflection bonus to AC. This bonus lasts for 1 round per caster level or until the creature disappears, whichever comes first. This amplification can be linked only to conjuration (calling) or conjuration (summoning) spells. The bonus increases to +3 at 8th level and to +4 at 15th level.",
-			"",
-			"**Defensive Prognostication (Su):** When casting a divination spell, the psychic sees a glimmer of her future. By spending 1 point from her phrenic pool as she casts a divination spell, she gains a +2 insight bonus to AC for a number of rounds equal to the linked spell's level. She can instead spend 2 points to increase the bonus to +4. This amplification can be linked only to divination spells.",
-			"",
-			"**Dragon's Breath (Su):** The psychic can spend 2 points from her phrenic pool to change a linked spell that has a line or burst area of effect into a 30-foot cone that emanates from the psychic's mouth as a breath weapon.",
-			"",
-			"**Focused Force (Su):** When casting a force spell, the psychic can increase the spell's damage by spending 1 point from her phrenic pool. Increase the die size for the spell's damage by one step (from 1d4 to 1d6, 1d6 to 1d8, 1d8 to 1d10, or 1d10 to 1d12). This increases the size of each die rolled, so a spell that dealt 4d6+3 points of force damage would deal 4d8+3 points of force damage instead. This amplification can be linked only to spells that deal force damage, and only if that damage includes a die value. A spell that already uses d12s for damage can't be amplified in this way.",
-			"",
-			"**Intense Focus (Ex):** The psychic can spend 1 point from her phrenic pool to gain a +2 bonus on any concentration check she attempts as part of casting the linked spell. She can choose to spend 2 points from her phrenic pool to instead gain a +4 bonus.",
-			"",
-			"**Mind's Eye (Su):** Some psychics train their visual and psychic senses, binding them together into a unified focus to better guide their ranged spells and place them with uncanny precision. While casting a spell that requires a ranged attack roll, the psychic can spend 2 points from her phrenic pool and gain a +4 insight bonus on the attack roll. The psychic can spend 1 additional point to ignore penalties from cover (but not total cover).",
-			"",
-			"**Mindshield (Su):** The psychic can spend 1 point from her phrenic pool to give one target of the linked spell a +2 morale bonus on Will saves for 1 round per psychic level (maximum 10 rounds). The psychic can instead spend 2 points to increase the bonus to +4. If the linked spell affects more than one creature, the psychic can spend the same number of points for each additional creature she wants to affect with this amplification. She must choose to spend either 1 point for each creature or 2 points for each creature; she can't grant different bonuses to different targets.",
-			"",
-			"**Mindtouch (Su):** The psychic can spend 1 point from her phrenic pool to probe one target's mind if that creature is affected by the linked spell. If the target of the linked spell fails its saving throw or is hit by the spell, the psychic detects its surface thoughts (as the 3rd-round effect of {spell/detect thoughts}). If the linked spell doesn't already require an attack roll or allow a saving throw, the target can attempt a Will saving throw to avoid the thought-detection effect only; the DC is calculated using the linked spell's level (and all other bonuses that would apply if the linked spell allowed a Will save). This amplification can be linked only to spells that affect a target or an area. If the linked spell can affect more than one creature, the psychic can attempt to detect more than one target's thoughts by spending 1 additional point per creature beyond the first. She must select these targets when she casts the spell and spends the points. This is a mind-affecting effect.",
-			"",
-			"**Ongoing Defense (Su):** The psychic can increase the duration of spells that improve her psychic defenses. She can spend 1 point from her phrenic pool when she casts any {spell/intellect fortress>_1}, {spell/mental barrier>_1}, {spell/thought shield>_1}, or {spell/tower of iron will>_1} spell to extend the spell's duration by 1 round.",
-			"",
-			"**Overpowering Mind (Ex):** The psychic can spend 2 points from her phrenic pool to increase the Will save DC of the linked spell by 1. At 8th level, she can choose to instead spend 4 points to increase the DC by 2. At 15th level, she can choose to instead spend 6 points to increase the DC by 3. This amplification can be linked only to spells that have the mind-affecting descriptor and require a Will saving throw.",
-			"",
-			"**Perfect Body (Ex):** Some practitioners of psychic techniques extend their training to improve their bodies as well as their minds. When the psychic casts a linked transmutation spell, she can spend 1 point from her phrenic pool to gain a +2 bonus on her next Reflex or Fortitude save.",
-			"",
-			"**Phrenic Strike (Su):** As long as the psychic has at least 1 point in her phrenic pool, she can attempt an unarmed strike in place of a touch attack as part of casting a spell with a range of touch. This unarmed attack still provokes attacks of opportunity as normal unless the psychic can otherwise make unarmed attacks without provoking attacks of opportunity.",
-			"",
-			"**Psychic Defense (Su):** Reading small, invisible cues allows the psychic to take advantage of social circumstances and subtly influence her target. Casting a linked spell during a social encounter and spending 1 point from her phrenic pool allows the psychic to add a +4 bonus on her next Bluff, Diplomacy, Intimidate, or Sense Motive check.",
-			"",
-			"**Psychofeedback (Su):** The psychic can spend 2 points from her phrenic pool to sacrifice a linked spell of 2nd level or higher. Doing so grants the psychic a +1 enhancement bonus to Strength, Dexterity, or Constitution per level of the sacrificed spell. This bonus lasts for 1 minute per psychic level.",
-			"",
-			"**Relentless Casting (Su):** The psychic can spend 1 point from her phrenic pool to roll twice on any caster level checks to overcome spell resistance required for the linked spell and take the better result. Because she must decide to spend points from her phrenic pool when she starts casting a spell, the psychic must decide to use this ability before the GM calls for the caster level check.",
-			"",
-			"**Telempathic Restoration (Su):** When the psychic casts {spell/telepathic bond}, she can spend 1 point from her phrenic pool to remove the dazed, frightened, panicked, shaken, or stunned condition from one target of the bond. Doing so removes the status from the target of the linked spell, but applies it immediately (with any remaining duration) to the psychic.",
-			"",
-			"**Transfer Fear (Su):** When the psychic successfully affects a target with a fear effect, she can spend 1 point from her phrenic pool to remove a fear effect from herself or one ally with whom she is in telepathic contact.",
-			"",
-			"**Undercast Surge (Su):** When the psychic undercasts a spell, she can spend points from her phrenic pool to increase the spell's effective level, essentially using up a lower-level spell slot to cast a higher-level version of the spell. This costs 2 points per spell level increased. She can't use this ability to cast a version higher than the version she knows. For instance, a psychic who knows {spell/mind thrust III} but not {spell/mind thrust IV} could cast {spell/mind thrust II} and spend 2 points to treat it as {spell/mind thrust III}, but couldn't spend 4 points to treat it as {spell/mind thrust IV}. This amplification can be linked only to spells that can be undercast.",
-			"",
-			"**Whisper of Ancients (Ex):** The psychic can send her consciousness into the Astral Plane for a glimpse of synchronous information. While casting a linked divination spell, the psychic can spend 1 point from her phrenic pool to gain a +2 bonus on any associated skill check. She can spend 2 points from her phrenic pool to instead gain a +4 bonus.",
-			"",
-			"**Will of the Dead (Su):** Even undead creatures can be affected by the psychic's mind-affecting spells. The psychic can spend 2 points from her phrenic pool to overcome an undead creature's immunity to mind-affecting effects for the purposes of the linked spell. This ability functions even on mindless undead, but has no effect on creatures that aren't undead. This amplification can be linked only to spells that have the mind-affecting descriptor."
-		],
+		"sources": [ "Occult Adventures" ],
+		"compileFrom": {
+			"source": "phrenicamp",
+			"targets": [
+				[
+					"{SOURCE Occult Adventures/60}  ",
+					"A psychic develops particular techniques to empower her spellcasting, called phrenic amplifications. The psychic can activate a phrenic amplification only while casting a spell using psychic magic, and the amplification modifies either the spell's effects or the process of casting it. The spell being cast is called the linked spell. The psychic can activate only one amplification each time she casts a spell, and doing so is part of the action used to cast the spell. She can use any amplification she knows with any psychic spell, unless the amplification's description states that it can be linked only to certain types of spells. A psychic learns one phrenic amplification at 1st level, selected from the list below. At 3rd level and every 4 levels thereafter, the psychic learns a new phrenic amplification. A phrenic amplification can't be selected more than once. Once a phrenic amplification has been selected, it can't be changed. Phrenic amplifications require the psychic to expend 1 or more points from her phrenic pool to function.",
+					"",
+					"---",
+					""
+				],
+				{
+					"limit": "-",
+					"join": [ "", "", "" ],
+					"translate": {
+						"regex": "(>*)(.+)",
+						"replacement": "$1**{phrenicamp/[[TITLE]]:}** $2 [[^S]]"
+					}
+				}
+			]
+		},
 		"topLink": [ "Psychic", "class/psychic" ]
 	},
 	"psi_tech": {
@@ -1615,69 +1581,31 @@
 			"Occult Origins",
 			"Occult Realms"
 		],
-		"description": [
-			"## Mesmerist Stares",
-			"",
-			"At 3rd level and every 4 levels thereafter, a mesmerist's hypnotic stare imposes a further effect upon its target. The mesmerist chooses one option each time he gains a new bold stare improvement, and the choice can't be changed later. The mesmerist can't choose the same bold stare improvement more than once unless otherwise noted. All of the mesmerist's bold stare improvements affect the target as long as it is affected by the mesmerist's hypnotic stare.",
-			"",
-			"Chelish mesmerists have refined their hypnotic stares to include a suite of gaze attacks useful for negotiating with or undermining outsiders. In the decades since, these secrets have begun to slip beyond the Hell-bound nation's borders, and now can be found throughout the Inner Sea region, especially in areas that interact frequently with outsiders.",
-			"",
-			"Devilbane gazes, which are marked with a dagger (&dagger;) below, can be selected beginning at 3rd level as options for the mesmerist's bold stare improvements. They tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.",
-			"",
-			"**Allure:** The hypnotic stare penalty also applies on initiative checks and Perception checks.[^A]",
-			"",
-			"&dagger;**Devilbane Binding:** The hypnotic stare penalty also applies to all Charisma checks to escape {spell/planar binding} spells, and applies to the target's spell resistance against a planar binding spell.[^B]",
-			"",
-			"&dagger;**Devilbane Dampening:** The hypnotic stare penalty also applies to the target's resistance to a single form of energy, chosen by the mesmerist when he initiates the stare. If the mesmerist targets a form of energy to which his target has no resistance, this improvement has no effect.[^B]",
-			"",
-			"&dagger;**Devilbane Dismissal:** The hypnotic stare reduces the duration of any conjuration (summoning) spells the target casts, or that are currently affecting the target, by half.[^B]",
-			"",
-			"&dagger;**Devilbane Impediment:** The target of your hypnotic stare must succeed at a {rule/concentration} check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended.[^B]",
-			"",
-			"&dagger;**Devilbane Mundanity:** The hypnotic stare penalty also applies to the target's spell resistance. This ability doesn't stack with the sapped magic bold stare improvement.[^B]",
-			"",
-			"&dagger;**Devilbane Withering:** The hypnotic stare penalty also applies to attack rolls and damage rolls, but only if the target is an outsider. Unlike most devilbane gazes, this gaze has no effect on creatures not of the outsider type, and effect's penalty isn't doubled when it targets outsiders.[^B]",
-			"",
-			"**Disorientation:** The hypnotic stare penalty also applies on attack rolls.[^A]",
-			"",
-			"**Disquiet:** The target of the hypnotic stare is shaken while in areas of total darkness.[^C]",
-			"",
-			"**Distracted:** The hypnotic stare penalty also applies to concentration checks.[^D]",
-			"",
-			"**Infiltration:** The hypnotic stare penalty also applies to the target's Perception checks and CMD.[^C]",
-			"",
-			"**Lethality:** The hypnotic stare penalty also applies to the target's Fortitude saves versus poison and diseases.[^C]",
-			"",
-			"**Nightblindness:** The darkvision range of the hypnotic stare's target decreases by 10 feet.[^C]",
-			"",
-			"**Nightmare:** The target of the hypnotic stare rolls twice on all Will saves versus fear, taking the lower result.[^C]",
-			"",
-			"**Oscillation:** The target of the hypnotic stare treats all enemies beyond 30 feet (except the mesmerist) as having concealment (20% miss chance).[^C]",
-			"",
-			"**Psychic Inception:** The hypnotic stare and its penalty can affect creatures that are mindless or immune to mind-affecting effects (such as an undead or vermin). The mesmerist can also partially affect such a creature with his mind-affecting spells and abilities if it's under the effect of his hypnotic stare; it gains a +2 bonus on its saving throw (if any), and if affected, it still has a 50% chance each round of ignoring the effect. Ignoring the effect doesn't end the effect, but does allow the creature to act normally for that round.[^E]",
-			"",
-			"**Restriction:** The target of the hypnotic stare treats all areas of dim light or darker as difficult terrain.[^C]",
-			"",
-			"**Sabotage:** The hypnotic stare penalty also applies to Diplomacy and Intimidate checks.[^C]",
-			"",
-			"**Sapped Magic:** The hypnotic stare penalty also applies to the DCs of spells and spell-like abilities used by the target, and to the target's spell resistance (if any).[^E]",
-			"",
-			"**Sensed:** The hypnotic stare penalty also applies to Stealth checks.[^D]",
-			"",
-			"**Sluggishness:** The target of the hypnotic stare has all of its speeds reduced by 5 feet (to a minimum of 5 feet), and the hypnotic stare penalty also applies to the target's Reflex saving throws.[^E]",
-			"",
-			"**Susceptibility:** The hypnotic stare penalty also applies to the target's Sense Motive checks to oppose Bluff checks, and to the DCs of Diplomacy and Intimidate checks made against the target.[^E]",
-			"",
-			"**Timidity:** The hypnotic stare penalty also applies to damage rolls.[^E]",
-			"",
-			"**Unaided:** The target of the hypnotic stare is not able to grant or receive flanking bonuses.[^D]",
-			"",
-			"[^A]: {source/Occult Adventures/ pg. 42}",
-			"[^B]: {source/Occult Origins/ pg. 13}",
-			"[^C]: {source/Occult Realms/ pg. 16}",
-			"[^D]: {source/Heroes of Golarion/ pg. 9}",
-			"[^E]: Occult Adventures pg. 43"
-		],
+		"compileFrom": {
+			"source": "socialtalent",
+			"targets": [
+				[
+					"## Mesmerist Stares",
+					"",
+					"At 3rd level and every 4 levels thereafter, a mesmerist's hypnotic stare imposes a further effect upon its target. The mesmerist chooses one option each time he gains a new bold stare improvement, and the choice can't be changed later. The mesmerist can't choose the same bold stare improvement more than once unless otherwise noted. All of the mesmerist's bold stare improvements affect the target as long as it is affected by the mesmerist's hypnotic stare.",
+					"",
+					"Chelish mesmerists have refined their hypnotic stares to include a suite of gaze attacks useful for negotiating with or undermining outsiders. In the decades since, these secrets have begun to slip beyond the Hell-bound nation's borders, and now can be found throughout the Inner Sea region, especially in areas that interact frequently with outsiders.",
+					"",
+					"Devilbane gazes (stares that start with \"Devilbane\" below) can be selected beginning at 3rd level as options for the mesmerist's bold stare improvements. They tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.",
+					"",
+					"---",
+					""
+				],
+				{
+					"limit": { "omit": [] },
+					"join": [ "", "", "" ],
+					"translate": {
+						"regex": "(>*)(.+)",
+						"replacement": "$1**{stare/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
+					}
+				}
+			]
+		},
 		"topLink": [ "Mesmerist", "class/mesmerist" ]
 	}
 }

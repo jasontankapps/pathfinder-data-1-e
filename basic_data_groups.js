@@ -84,6 +84,7 @@ import stanceragepower from './json/class_ability_stance_rage_powers.json' with 
 import talent from './json/class_ability_rogue_talents.json' with {type: 'json'};
 import ninjatrick from './json/class_ability_ninja_tricks.json' with {type: 'json'};
 import trick from './json/class_ability_tricks.json' with {type: 'json'};
+import stare from './json/class_ability_stares.json' with {type: 'json'};
 import slayertalent from './json/class_ability_slayer_talents.json' with {type: 'json'};
 import socialtalent from './json/class_ability_social_talents.json' with {type: 'json'};
 import vigilantetalent from './json/class_ability_vigilante_talents.json' with {type: 'json'};
@@ -92,7 +93,7 @@ import hex from './json/class_ability_hexes.json' with {type: 'json'};
 import shamanhex from './json/class_ability_shaman_hexes.json' with {type: 'json'};
 import discovery from './json/class_ability_discoveries.json' with {type: 'json'};
 import arcanediscovery from './json/class_ability_arcane_discoveries.json' with {type: 'json'};
-import phrenicamp from './json/class_ability_kinetic_talents.json' with {type: 'json'};
+import phrenicamp from './json/class_ability_phrenic_amplifications.json' with {type: 'json'};
 
 import constructmod from './json/construct_mods.json' with {type: 'json'};
 import corruption from './json/corruptions.json' with {type: 'json'};
@@ -998,7 +999,6 @@ const basic_data_groups = {
 		num: 0,
 		type: "Barbarian Stance Rage Power"
 	},
-
 	"class_ability_talents": {
 		data: talent,
 		datatype: "compileable",
@@ -1047,6 +1047,14 @@ const basic_data_groups = {
 		num: 0,
 		type: "Mesmerist Trick"
 	},
+	"class_ability_stares": {
+		data: stare,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "stare",
+		num: 0,
+		type: "Mesmerist Stares"
+	},
 	"class_ability_ninja_tricks": {
 		data: ninjatrick,
 		datatype: "compileable",
@@ -1087,7 +1095,14 @@ const basic_data_groups = {
 		num: 0,
 		type: "Arcane Discovery"
 	},
-
+	"class_ability_phrenic_amplifications": {
+		data: phrenicamp,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "phrenicamp",
+		num: 0,
+		type: "Phrenic Amplifications"
+	},
 	"sidekicks": {
 		data: sidekick,
 		searchgroup: 1, // classes

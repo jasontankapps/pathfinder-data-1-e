@@ -19,7 +19,7 @@
 	"befuddling_strike": {
 		"name": "Befuddling Strike",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
 			"**Rogue Only:** When the rogue deals sneak attack damage against an opponent, that opponent takes a -2 penalty on attack rolls against the rogue for 1d4 rounds."
@@ -39,7 +39,7 @@
 	"distracting_attack": {
 		"name": "Distracting Attack",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
 			"A rogue with this talent can make sneak attacks with subtle flourishes that disorient and distract her enemy. When she hits a creature with a melee attack that deals sneak attack damage, she can forgo the additional damage to cause the creature to become flat-footed against one target of her choosing until the beginning of her next turn. The rogue cannot designate herself as the creature gaining the benefit of this talent. Creatures with uncanny dodge are immune to distracting attack."
@@ -89,7 +89,7 @@
 	"offensive_defense": {
 		"name": "Offensive Defense",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
 			"**Rogue Only:** When a rogue with this talent hits a creature with a melee attack that deals sneak attack damage, the rogue gains a +1 dodge bonus to AC for each sneak attack die rolled for 1 round."
@@ -99,7 +99,7 @@
 	"powerful_sneak": {
 		"name": "Powerful Sneak",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
 			"**Rogue Version:** Whenever a rogue with this talent takes a full attack action, she can elect to take a -2 penalty on all attack rolls until the start of her next turn. If an attack during this time is a sneak attack, she treats all 1s on the sneak attack damage dice as 2s.",
@@ -181,7 +181,7 @@
 	"underhanded": {
 		"name": "Underhanded",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
 			"A rogue with this talent gains a +4 circumstance bonus on all Sleight of Hand checks made to conceal a weapon. Furthermore, if she makes a sneak attack during the surprise round using a concealed weapon that her opponent didn't know about, she does not have to roll sneak attack damage, and the sneak attack deals maximum damage. A rogue can only use the underhanded talent a number of times per day equal to her Charisma modifier (minimum 0)."
@@ -227,7 +227,7 @@
 	"fast_getaway": {
 		"name": "Fast Getaway",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Other Sneak Attack Talents",
 		"description": [
 			"After successfully making a sneak attack or Sleight of Hand check, a rogue with this talent can spend a move action to take the withdraw action. She can move no more than her speed during this movement."
@@ -254,7 +254,7 @@
 	"snipers_eye": {
 		"name": "Sniper's Eye",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Other Sneak Attack Talents",
 		"description": [
 			"**Rogue Only:** A rogue with this talent can apply her sneak attack damage on ranged attacks targeting foes within 30 feet that benefit from {rule/concealment}. Foes with total concealment are still immune."
@@ -263,7 +263,7 @@
 	"surprise_attack": {
 		"name": "Surprise Attack",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "PRPG Core Rulebook", 6 ] ],
+		"compilationSources": [ [ "PRPG Core Rulebook", 69 ] ],
 		"category": "Other Sneak Attack Talents",
 		"description": [
 			"**Rogue Version:** During the surprise round, opponents are always considered flat-footed to a rogue with this ability, even if they have already acted.",
@@ -301,7 +301,7 @@
 	"iron_guts": {
 		"name": "Iron Guts",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Poison Talents",
 		"description": [
 			"A rogue with this talent has a cast-iron stomach or has trained herself to withstand poisons, especially ingested ones. She gains a +1 bonus on all saves against ingested poisons as well as a +4 bonus on saves against all spells and effects that cause the rogue to be nauseated or sickened."
@@ -319,7 +319,7 @@
 	"lasting_poison": {
 		"name": "Lasting Poison",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Poison Talents",
 		"description": [
 			"**Rogue Version:** A rogue with this talent can apply poison to a weapon in such a way that it is effective for two successful attacks instead of one. The poison has a reduced effect, however, and saves made against the poison receive a +2 circumstance bonus. Applying poison in this way requires a full-round action, or a standard action if the rogue has the swift poison talent.",
@@ -366,7 +366,7 @@
 	"swift_poison": {
 		"name": "Swift Poison",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Poison Talents",
 		"description": [
 			"A rogue with this talent can apply poison to a weapon as a move action, instead of a standard action."
@@ -384,7 +384,7 @@
 	"deadly_scratch": {
 		"name": "Deadly Scratch",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Race Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
 			"**Rogue Only; Catfolk Only:** A catfolk rogue with this talent can apply poison to her claws without accidentally poisoning herself. A catfolk rogue must have the cat's claws racial trait and the poison use class feature before taking this talent."
@@ -393,7 +393,7 @@
 	"disarming_luck": {
 		"name": "Disarming Luck",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Race Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
 			"**Rogue Only; Catfolk Only:** Once per day, when a catfolk rogue attempts to disable a device and fails by 5 or more, she can reroll the check as a free action. She must take the result of the reroll, even if it's worse than the original roll."
@@ -402,7 +402,7 @@
 	"graceful_faller": {
 		"name": "Graceful Faller",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Race Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
 			"**Rogue Only; Catfolk Only:** A catfolk rogue with this talent lands on her feet even when she takes lethal damage from a fall. If the catfolk rogue also has the nimble faller racial trait, she takes damage from any fall as if it were 20 feet shorter than it actually is."
@@ -411,7 +411,7 @@
 	"nimble_climber_catfolk": {
 		"name": "Nimble Climber",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Race Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
 			"**Rogue Only; Catfolk Only:** A catfolk rogue with this talent gains a +4 bonus on Climb checks. If she has the climber racial trait, she can take 10 on her Climb checks even when in immediate danger or distracted."
@@ -420,7 +420,7 @@
 	"single_minded_appraiser": {
 		"name": "Single-Minded Appraiser",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Race Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
 			"**Rogue Only; Catfolk Only:** A catfolk rogue with this talent is skilled at determining the value of sparkly things. She can always take 10 when appraising gems and jewelry."
@@ -429,7 +429,7 @@
 	"vicious_claws": {
 		"name": "Vicious Claws",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Race Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
 			"**Rogue Only; Catfolk Only:** A catfolk with this talent uses d8s to roll sneak attack damage instead of d6s, but only when she uses her claws to make the sneak attack. A catfolk rogue must have the cat's claws racial trait before taking this talent."
@@ -587,7 +587,7 @@
 	"black_market_connections": {
 		"name": "Black Market Connections",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Other Magic-Related Talents",
 		"description": [
 			"A rogue with this talent gains better access to magic items from black market connections. She treats every settlement as one size greater for the purpose of determining the gp limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful Diplomacy check, the rogue can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful check, the rogue can also sell stolen items on the black market. If the check fails by 5 or more, the rogue does something to spook the market, and treats the city as normal for 1 week. Furthermore, those in control of the black market may alert the authorities to the rogue's presence in an act of reprisal for spooking the market or to divert attention away from their illicit activities. The DCs of the checks are by settlement size and are given in the table below.",
@@ -700,7 +700,7 @@
 	"assault_leader": {
 		"name": "Assault Leader",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Ally-Related Talents",
 		"description": [
 			"Once per day, when the rogue misses with an attack on a flanked opponent, she can designate a single ally who is also flanking the target that her attack missed. That ally can make a single melee attack against the opponent as an immediate action."
@@ -782,7 +782,7 @@
 		"name": "Combat Swipe",
 		"compilationSources": [
 			[ "Pathfinder Unchained", 21 ],
-			[ "Advanced Player's Guide", 1 ]
+			[ "Advanced Player's Guide", 130 ]
 		],
 		"category": "Combat Talents",
 		"description": [
@@ -802,7 +802,7 @@
 	"deft_palm": {
 		"name": "Deft Palm",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Combat Talents",
 		"description": [
 			"A rogue with this talent can make a Sleight of Hand check to conceal a weapon while holding it in plain sight, even while she is being observed."
@@ -863,7 +863,7 @@
 	"firearm_training": {
 		"name": "Firearm Training",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Combat Talents",
 		"description": [
 			"A rogue with this talent gains {feat/Exotic Weapon Proficiency/ (firearms)}."
@@ -872,7 +872,7 @@
 	"grit": {
 		"name": "Grit",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Combat Talents",
 		"level": 1,
 		"description": [
@@ -918,7 +918,7 @@
 	"positioning_attack": {
 		"name": "Positioning Attack",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Combat Talents",
 		"description": [
 			"Once per day, when a rogue with this talent hits a creature with a melee attack, she can move up to 30 feet without provoking attacks of opportunity. The movement must end in a space adjacent to the creature hit with the melee attack."
@@ -956,7 +956,7 @@
 	"snap_shot": {
 		"name": "Snap Shot",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Combat Talents",
 		"description": [
 			"**Rogue Only:** A rogue with this talent may treat her intitiative roll as a 20 for a surprise round, regardless of her initiative, but she may only take an attack action with a ranged weapon. Her normal initiative roll is used in subsequent rounds. If two or more rogues possess this talent, their initiative determines the order in which they act, but they all go before any other creature. If a rogue is prevented from acting in the surprise round, this talent has no effect."
@@ -1009,7 +1009,7 @@
 	},
 	"weapon_training": {
 		"name": "Weapon Training",
-		"compilationSources": [ [ "PRPG Core Rulebook", 6 ] ],
+		"compilationSources": [ [ "PRPG Core Rulebook", 69 ] ],
 		"category": "Combat Talents",
 		"description": [
 			"A rogue that selects this talent gains {feat/Weapon Focus} as a bonus feat."
@@ -1027,7 +1027,7 @@
 	"canny_observer": {
 		"name": "Canny Observer",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Trap Talents",
 		"description": [
 			"When a rogue with this talent makes a Perception check to hear the details of a conversation or to find concealed or secret objects (including doors and traps), she gains a +4 bonus."
@@ -1036,7 +1036,7 @@
 	"cunning_trigger": {
 		"name": "Cunning Trigger",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Trap Talents",
 		"description": [
 			"A rogue with this talent can use a swift action to set off any trap within 30 feet that she constructed."
@@ -1045,7 +1045,7 @@
 	"quick_trapsmith": {
 		"name": "Quick Trapsmith",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Trap Talents",
 		"description": [
 			"As a full-round action, a rogue with this talent can set a simple trap with a CR no greater than 1/2 her rogue level. To do this, she must purchase the components, spend the required time constructing the trap in advance, and have its components at hand. The type of trap that can be constructed in this way is subject to GM discretion."
@@ -1054,7 +1054,7 @@
 	"trap_spotter": {
 		"name": "Trap Spotter",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "PRPG Core Rulebook", 6 ] ],
+		"compilationSources": [ [ "PRPG Core Rulebook", 69 ] ],
 		"category": "Trap Talents",
 		"description": [
 			"Whenever a rogue with this talent comes within 10 feet of a trap, she receives an immediate Perception skill check to notice the trap. This check should be made in secret by the GM."
@@ -1063,7 +1063,7 @@
 	"fast_picks": {
 		"name": "Fast Picks",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Disable Device Talents",
 		"description": [
 			"**Rogue Only:** A rogue with this talent can use the Disable Device skill to attempt to open a lock as a standard action instead of a full-round action."
@@ -1109,7 +1109,7 @@
 	"camouflage": {
 		"name": "Camouflage",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Deception Talents",
 		"description": [
 			"Once per day, a rogue with this talent can craft simple but effective camouflage from the surrounding foliage. The rogue needs 1 minute to prepare the camouflage, but once she does, it is good for the rest of the day or until the rogue fails a saving throw against an area effect spell that deals fire, cold, or acid damage, whichever comes first. The rogue gains a +4 bonus on Stealth checks while within terrain that matches the foliage used to make the camouflage. This ability cannot be used in areas without natural foliage."
@@ -1118,7 +1118,7 @@
 	"charmer": {
 		"name": "Charmer",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Deception Talents",
 		"description": [
 			"**Rogue Only:** Once per day, the rogue can roll two dice while making a Diplomacy check, and take the better result. She must choose to use this talent before making the Diplomacy check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses."
@@ -1128,7 +1128,7 @@
 		"name": "Coax Information",
 		"nameSuffix": "(Ex)",
 		"compilationSources": [
-			[ "Advanced Player's Guide", 1 ],
+			[ "Advanced Player's Guide", 1	 ],
 			[ "Pathfinder Unchained", 21 ]
 		],
 		"category": "Deception Talents",
@@ -1141,7 +1141,7 @@
 	"convincing_lie": {
 		"name": "Convincing Lie",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Deception Talents",
 		"description": [
 			"**Rogue Only:** When a rogue with this talent lies, she creates fabrications so convincing that others treat them as truth. When a rogue with this talent successfully uses the Bluff skill to convince someone that what she is saying is true, if that individual is questioned later about the statement or story, that person uses the rogue's Bluff skill modifier to convince the questioner, rather than his own. If his Bluff skill modifier is better than the rogue's, the individual can use his own modifier and gain a +2 bonus on any check to convince others of the lie. This effect lasts for a number of days equal to 1/2 the rogue's level + the rogue's Charisma modifier."
@@ -1166,7 +1166,7 @@
 	"false_friend": {
 		"name": "False Friend",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Race Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Race Guide", 193 ] ],
 		"category": "Deception Talents",
 		"description": [
 			"A rogue with this talent gains a +4 bonus when making Bluff checks to convince someone she has never met or who doesn't know her well that they are previously acquainted or know each other well."
@@ -1175,7 +1175,7 @@
 	"fast_fingers": {
 		"name": "Fast Fingers",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Deception Talents",
 		"description": [
 			"**Rogue Only:** Once per day, a rogue with this talent can roll two dice while making a Sleight of Hand check and take the better result. She must choose to use this talent before making the Sleight of Hand check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses."
@@ -1193,7 +1193,7 @@
 	"honeyed_words": {
 		"name": "Honeyed Words",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Deception Talents",
 		"description": [
 			"**Rogue Only:** Once per day, the rogue can roll two dice while making a Bluff check, and take the better result. She must choose to use this talent before making the Bluff check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses."
@@ -1220,7 +1220,7 @@
 	"obfuscate_story": {
 		"name": "Obfuscate Story",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Race Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Race Guide", 193 ] ],
 		"category": "Deception Talents",
 		"description": [
 			"**Rogue Only:** While another individual attempts to give an account of an event, the rogue makes an opposed Diplomacy check to deftly interject comments or statements over the course of the storytelling that cause the individual to muddle his ability to recall accurate or specific details. If the rogue succeeds, her target remains unaware that the rogue's interjections caused the confusion. However, if she fails, the target is allowed a Sense Motive check (DC equal to the rogue's failed Diplomacy check) to figure out that she made deliberate attempts to confuse the story."
@@ -1229,7 +1229,7 @@
 	"steal_the_story": {
 		"name": "Steal the Story",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Race Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Race Guide", 193 ] ],
 		"category": "Deception Talents",
 		"level": 1,
 		"description": [
@@ -1239,7 +1239,7 @@
 	"quick_disguise": {
 		"name": "Quick Disguise",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Deception Talents",
 		"description": [
 			"A rogue with this talent can use the items at hand and seemingly innocuous material hidden on her person to create startlingly effective disguises, reducing the amount of time it takes to create a disguise using the Disguise skill.",
@@ -1284,7 +1284,7 @@
 	"terrain_mastery": {
 		"name": "Terrain Mastery",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Deception Talents",
 		"description": [
 			"A rogue with this talent gains a favored terrain as the ranger ability of the same name, though the favored terrain ability does not increase with her level as the ranger's ability does. A rogue can take this ability multiple times, each time applying it to a new terrain."
@@ -1329,7 +1329,7 @@
 	"esoteric_scholar": {
 		"name": "Esoteric Scholar",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Other Talents",
 		"description": [
 			"Once a day, a rogue with this talent may attempt a Knowledge check, even when she is not trained in that Knowledge skill."
@@ -1339,8 +1339,8 @@
 		"name": "Expert Leaper",
 		"nameSuffix": "(Ex)",
 		"compilationSources": [
-			[ "Pathfinder Unchained", 2 ],
-			[ "Advanced Player's Guide", 1 ]
+			[ "Pathfinder Unchained", 21 ],
+			[ "Advanced Player's Guide", 130 ]
 		],
 		"category": "Other Talents",
 		"description": [
@@ -1361,7 +1361,7 @@
 	"follow_clues": {
 		"name": "Follow Clues",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Other Talents",
 		"description": [
 			"A rogue with this talent can use Perception to follow tracks as per the Survival skill."
@@ -1370,7 +1370,7 @@
 	"getaway_artist": {
 		"name": "Getaway Artist",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Other Talents",
 		"description": [
 			"A rogue with this talent adds Fly, Handle Animal, and Ride to her list of class skills, and gains a +2 bonus on all driving checks."
@@ -1388,7 +1388,7 @@
 	"guileful_polyglot": {
 		"name": "Guileful Polyglot",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Other Talents",
 		"description": [
 			"**Rogue Only:** A rogue with this talent who has at least one rank in Linguistics gains four additional languages. A rogue with this talent who does not have any ranks in Linguistics gains two additional languages. If the rogue later gains ranks in Linguistics, she gains two additional languages, to a total of four additional languages above those granted by the Linguistics skill itself."
@@ -1397,7 +1397,7 @@
 	"hard_to_fool": {
 		"name": "Hard to Fool",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Other Talents",
 		"description": [
 			"**Rogue Only:** Once per day, a rogue with this talent can roll two dice while making a Sense Motive check, and take the better result. She must choose to use this talent before making the Sense Motive check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses."
@@ -1406,7 +1406,7 @@
 	"hold_breath": {
 		"name": "Hold Breath",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Other Talents",
 		"description": [
 			"**Rogue Only:** A rogue with this talent increases the number of rounds she can hold her breath by 2. She can take this talent multiple times."
@@ -1415,7 +1415,7 @@
 	"ki_pool": {
 		"name": "Ki Pool",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Other Talents",
 		"description": [
 			"**Rogue Only:** A rogue with this talent gains a small ki pool. This ki pool is similar to a ninja's ki pool, but the rogue's ki pool does not grant any extra attacks. The rogue gains a number of ki points equal to her Wisdom modifier (minimum 1). These ki points replenish at the start of each day. If she already has a ki pool, or gains a ki pool later, she gains half her Wisdom bonus (minimum 1) as bonus ki points to her ki pool. She can spend a ki point to gain a +10-foot bonus to movement until the end of her turn."
@@ -1435,7 +1435,7 @@
 	"multitalented": {
 		"name": "Multitalented",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Pathfinder Unchained", 2 ] ],
+		"compilationSources": [ [ "Pathfinder Unchained", 22 ] ],
 		"category": "Other Talents",
 		"description": [
 			"**Unchained Rogue Only:** The rogue can use her rogue talents more often. Once per day, she can use a rogue talent that is normally only usable once per day one additional time. At 10th level and 18th level, she can use this talent one additional time per day (for a maximum total of 3 additional uses of a rogue talent that can normally only be used once per day). The uses of this talent do not have to be spent on the same rogue talent. This ability cannot be used with an advanced talent."
@@ -1444,7 +1444,7 @@
 	"nimble_climber": {
 		"name": "Nimble Climber",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Pathfinder Unchained", 2 ] ],
+		"compilationSources": [ [ "Pathfinder Unchained", 22 ] ],
 		"category": "Other Talents",
 		"description": [
 			"**Unchained Rogue Only:** Whenever the rogue fails a Climb check by 5 or more, she can attempt a Reflex save (using the same DC as the Climb check) to catch herself and avoid falling."
@@ -1453,7 +1453,7 @@
 	"ninja_trick": {
 		"name": "Ninja Trick",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Other Talents",
 		"description": [
 			"A rogue with this talent can choose a trick from the {ability/ninja trick>s} list. The rogue cannot choose a ninja trick with the same name as a rogue talent. The rogue can choose but cannot use talents that require ki points, unless she has a ki pool. A rogue can pick this talent more than once. The rogue cannot choose a ninja trick with the same name as a rogue talent."
@@ -1462,7 +1462,7 @@
 	"peerless_maneuver": {
 		"name": "Peerless Maneuver",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Other Talents",
 		"description": [
 			"**Rogue Only:** Once per day, a rogue with this talent can roll two dice while making an Acrobatics check, and take the better result. She must choose to use this talent before making the Acrobatics check. A rogue can use this ability one additional time per day for every 5 rogue levels she possesses."
@@ -1505,7 +1505,7 @@
 	"rope_master": {
 		"name": "Rope Master",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Other Talents",
 		"description": [
 			"A rogue with this ability can move at her normal speed when using rope on a Climb check, can take 10 when using Acrobatics to move over narrow surfaces even when in danger or distracted, and gains a +4 bonus when determining the DC to escape bonds when she ties up a creature."
@@ -1513,7 +1513,7 @@
 	},
 	"strong_impression": {
 		"name": "Strong Impression",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Other Talents",
 		"description": [
 			"A rogue who selects this talent gains {feat/Intimidating Prowess} as a bonus feat."
@@ -1522,7 +1522,7 @@
 	"strong_stroke": {
 		"name": "Strong Stroke",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Other Talents",
 		"description": [
 			"A rogue with this talent rolls twice when making Swim checks and takes the better result. If she already rolls twice while making a Swim check because of another ability or effect, she gains a +2 insight bonus on both of those rolls instead. If the rogue is under the effect of a spell or ability that forces her to roll two dice and take the worse result, she only needs to roll 1d20 while making Swim checks."
@@ -1530,7 +1530,7 @@
 	},
 	"survivalist": {
 		"name": "Survivalist",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Other Talents",
 		"description": [
 			"A rogue with this talent adds Heal and Survival to her list of class skills."
@@ -1557,7 +1557,7 @@
 	"wall_scramble": {
 		"name": "Wall Scramble",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Other Talents",
 		"description": [
 			"A rogue with this talent rolls twice when making Climb checks and takes the better of the two rolls. If she already rolls twice while making a Climb check because of another ability or effect, she gains a +2 insight bonus on both of those rolls instead. If the rogue is under the effect of a spell or ability that forces her to roll two dice and take the worse result, she only needs to roll 1d20 while making Climb checks."
@@ -1566,7 +1566,7 @@
 	"confounding_blades": {
 		"name": "Confounding Blades",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Advanced Primary Sneak Attack Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1588,7 +1588,7 @@
 	"deadly_sneak": {
 		"name": "Deadly Sneak",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Advanced Primary Sneak Attack Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1601,7 +1601,7 @@
 	"dispelling_attack": {
 		"name": "Dispelling Attack",
 		"nameSuffix": "(Su)",
-		"compilationSources": [ [ "PRPG Core Rulebook", 7 ] ],
+		"compilationSources": [ [ "PRPG Core Rulebook", 70 ] ],
 		"category": "Advanced Primary Sneak Attack Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1612,7 +1612,7 @@
 	"double_debilitation": {
 		"name": "Double Debilitation",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Pathfinder Unchained", 2 ] ],
+		"compilationSources": [ [ "Pathfinder Unchained", 24 ] ],
 		"category": "Advanced Primary Sneak Attack Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1623,7 +1623,7 @@
 	"entanglement_of_blades": {
 		"name": "Entanglement of Blades",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Advanced Primary Sneak Attack Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1699,7 +1699,7 @@
 	"familiar": {
 		"name": "Familiar",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Advanced Magical Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1738,7 +1738,7 @@
 	"slippery_mind": {
 		"name": "Slippery Mind",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "PRPG Core Rulebook", 7 ] ],
+		"compilationSources": [ [ "PRPG Core Rulebook", 70 ] ],
 		"category": "Advanced Magical Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1758,7 +1758,7 @@
 	"another_day": {
 		"name": "Another Day",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1787,7 +1787,7 @@
 	"deadly_cocktail": {
 		"name": "Deadly Cocktail",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1807,7 +1807,7 @@
 	"fast_tumble": {
 		"name": "Fast Tumble",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1827,7 +1827,7 @@
 	"hard_minded": {
 		"name": "Hard Minded",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1837,7 +1837,7 @@
 	"hunters_surprise": {
 		"name": "Hunter's Surprise",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 132 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1847,7 +1847,7 @@
 	"improved_evasion": {
 		"name": "Improved Evasion",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "PRPG Core Rulebook", 7 ] ],
+		"compilationSources": [ [ "PRPG Core Rulebook", 70 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1857,7 +1857,7 @@
 	"knock_out_blow": {
 		"name": "Knock-Out Blow",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 132 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1867,7 +1867,7 @@
 	"light_walker": {
 		"name": "Light Walker",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Pathfinder Unchained", 2 ] ],
+		"compilationSources": [ [ "Pathfinder Unchained", 24 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1877,7 +1877,7 @@
 	"opportunist": {
 		"name": "Opportunist",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "PRPG Core Rulebook", 7 ] ],
+		"compilationSources": [ [ "PRPG Core Rulebook", 70 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1887,7 +1887,7 @@
 	"quick_shot": {
 		"name": "Quick Shot",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Pathfinder Unchained", 2 ] ],
+		"compilationSources": [ [ "Pathfinder Unchained", 24 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1897,7 +1897,7 @@
 	"redirect_attack": {
 		"name": "Redirect Attack",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 132 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1927,7 +1927,7 @@
 	"stealthy_sniper": {
 		"name": "Stealthy Sniper",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 132 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1937,7 +1937,7 @@
 	"unwitting_ally": {
 		"name": "Unwitting Ally",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 71 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1947,7 +1947,7 @@
 	"weapon_snatcher": {
 		"name": "Weapon Snatcher",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 71 ] ],
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1966,7 +1966,7 @@
 	},
 	"feat": {
 		"name": "Feat",
-		"compilationSources": [ [ "PRPG Core Rulebook", 7 ] ],
+		"compilationSources": [ [ "PRPG Core Rulebook", 70 ] ],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1976,7 +1976,7 @@
 	"frugal_trapsmith": {
 		"name": "Frugal Trapsmith",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 132 ] ],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1986,7 +1986,7 @@
 	"getaway_master": {
 		"name": "Getaway Master",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -1996,7 +1996,7 @@
 	"hide_in_plain_sight": {
 		"name": "Hide in Plain Sight",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 71 ] ],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -2006,7 +2006,7 @@
 	"master_of_disguise": {
 		"name": "Master of Disguise",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 132 ] ],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -2015,17 +2015,17 @@
 	},
 	"master_tricks": {
 		"name": "Master Tricks",
-		"compilationSources": [ [ "Ultimate Combat", 7 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 71 ] ],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
 			"The rogue can select a ninja trick from the list of master tricks in place of a rogue talent. The rogue cannot select a ninja trick that has the same name as a rogue talent. The rogue can choose but cannot use tricks that require ki points, unless she has a ki pool."
 		]
 	},
-	"multitalented_greater": {
-		"name": "Multitalented, Greater",
+	"greater_multitalented": {
+		"name": "Greater Multitalented",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Pathfinder Unchained", 2 ] ],
+		"compilationSources": [ [ "Pathfinder Unchained", 24 ] ],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -2045,7 +2045,7 @@
 	"rumormonger": {
 		"name": "Rumormonger",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat", 1 ] ],
+		"compilationSources": [ [ "Ultimate Combat", 71 ] ],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -2073,8 +2073,8 @@
 	"skill_mastery": {
 		"name": "Skill Mastery",
 		"compilationSources": [
-			[ "PRPG Core Rulebook", 7 ],
-			[ "Pathfinder Unchained", 2 ]
+			[ "PRPG Core Rulebook", 70 ],
+			[ "Pathfinder Unchained", 24 ]
 		],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
@@ -2105,10 +2105,10 @@
 			"A rogue with this talent gains DR 2/adamantine. A rogue can select this talent up to three times; each additional time the rogue selects this talent, the DR granted by this talent increases by 1."
 		]
 	},
-	"terrain_mastery_greater": {
-		"name": "Terrain Mastery, Greater",
+	"greater_terrain_mastery": {
+		"name": "Greater Terrain Mastery",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Pathfinder Unchained", 2 ] ],
+		"compilationSources": [ [ "Pathfinder Unchained", 24 ] ],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
@@ -2118,7 +2118,7 @@
 	"thoughtful_reexamining": {
 		"name": "Thoughtful Reexamining",
 		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide", 1 ] ],
+		"compilationSources": [ [ "Advanced Player's Guide", 132 ] ],
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [

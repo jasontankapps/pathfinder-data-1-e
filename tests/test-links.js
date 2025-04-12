@@ -153,11 +153,13 @@ const {
 	socialtalent,
 	vigilantetalent,
 	trick,
+	stare,
 	ninjatrick,
 	hex,
 	shamanhex,
 	discovery,
-	arcanediscovery
+	arcanediscovery,
+	phrenicamp,
 } = basic_data_by_link;
 
 const all = [
@@ -220,7 +222,12 @@ const all = [
 	["magic-artifact", magicartifact], ["magic-weapon", magicweapon],
 	["magic-wondrous", magicwondrous], ["monster", monster], ["template", template],
 	["rule", rule], ["spell", spell], ["npc", npc], ["prestigeclass", prestigeclass],
-	["race", race], ["trait", trait], ["class", classes], ["family", family]
+	["race", race], ["trait", trait], ["class", classes], ["family", family],
+	["talent", talent],	["slayertalent", slayertalent],	["investigatortalent", investigatortalent],
+	["socialtalent", socialtalent], ["vigilantetalent", vigilantetalent],
+	["trick", trick], ["ninjatrick", ninjatrick], ["hex", hex], ["shamanhex", shamanhex],
+	["discovery", discovery], ["arcanediscovery", arcanediscovery],
+	["stare", stare], ["phrenicamp", phrenicamp],
 ];
 
 const known_props = {};
