@@ -574,7 +574,36 @@ const App: FC = () => {
 								<TalentPage prefix="hkdiscipline" />
 							</Suspense>
 						</Route>
-
+						<Route path="/kipower/:id">
+							<Suspense fallback={<Loading text="Finding powers..." />}>
+								<TalentPage prefix="kipower" />
+							</Suspense>
+						</Route>
+						<Route path="/stylestrike/:id">
+							<Suspense fallback={<Loading text="Training in style..." />}>
+								<TalentPage prefix="stylestrike" />
+							</Suspense>
+						</Route>
+						<Route path="/evolution/:id">
+							<Suspense fallback={<Loading text="Evolving..." />}>
+								<TalentPage prefix="evolution" />
+							</Suspense>
+						</Route>
+						<Route path="/unchainedevolution/:id">
+							<Suspense fallback={<Loading text="Evolving..." />}>
+								<TalentPage prefix="unchainedevolution" />
+							</Suspense>
+						</Route>
+						<Route path="/eidolon/:id">
+							<Suspense fallback={<Loading text="Checking subtypes..." />}>
+								<TalentPage prefix="eidolon" />
+							</Suspense>
+						</Route>
+						<Route path="/rangertrap/:id">
+							<Suspense fallback={<Loading text="Setting traps..." />}>
+								<TalentPage prefix="rangertrap" />
+							</Suspense>
+						</Route>
 						<Route path="/talent/:id">
 							<Suspense fallback={<Loading text="Finding talents..." />}>
 								<TalentPage prefix="talent" />
@@ -618,6 +647,11 @@ const App: FC = () => {
 						<Route path="/hex/:id">
 							<Suspense fallback={<Loading text="Conjuring hexes..." />}>
 								<TalentPage prefix="hex" />
+							</Suspense>
+						</Route>
+						<Route path="/patron/:id">
+							<Suspense fallback={<Loading text="Seeking patrons..." />}>
+								<TalentPage prefix="patron" />
 							</Suspense>
 						</Route>
 						<Route path="/shamanhex/:id">

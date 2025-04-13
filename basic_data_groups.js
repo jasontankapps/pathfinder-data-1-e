@@ -80,7 +80,6 @@ import shamanspirit from './json/class_ability_shaman_spirits.json' with {type: 
 import sorcererbloodline from './json/class_ability_sorcerer_bloodlines.json' with {type: 'json'};
 import spirit from './json/class_ability_spirits.json' with {type: 'json'};
 import stanceragepower from './json/class_ability_stance_rage_powers.json' with {type: 'json'};
-
 import talent from './json/class_ability_rogue_talents.json' with {type: 'json'};
 import ninjatrick from './json/class_ability_ninja_tricks.json' with {type: 'json'};
 import trick from './json/class_ability_tricks.json' with {type: 'json'};
@@ -90,6 +89,7 @@ import socialtalent from './json/class_ability_social_talents.json' with {type: 
 import vigilantetalent from './json/class_ability_vigilante_talents.json' with {type: 'json'};
 import investigatortalent from './json/class_ability_investigator_talents.json' with {type: 'json'};
 import hex from './json/class_ability_hexes.json' with {type: 'json'};
+import patron from './json/class_ability_patrons.json' with {type: 'json'};
 import shamanhex from './json/class_ability_shaman_hexes.json' with {type: 'json'};
 import discovery from './json/class_ability_discoveries.json' with {type: 'json'};
 import arcanediscovery from './json/class_ability_arcane_discoveries.json' with {type: 'json'};
@@ -97,7 +97,12 @@ import phrenicamp from './json/class_ability_phrenic_amplifications.json' with {
 import deed from './json/class_ability_deeds.json' with {type: 'json'};
 import swashdeed from './json/class_ability_swashbuckler_deeds.json' with {type: 'json'};
 import hkdiscipline from './json/class_ability_hellknight_disciplines.json' with {type: 'json'};
-
+import kipower from './json/class_ability_ki_powers.json' with {type: 'json'};
+import stylestrike from './json/class_ability_style_strikes.json' with {type: 'json'};
+import evolution from './json/class_ability_evolutions.json' with {type: 'json'};
+import unchainedevolution from './json/class_ability_unchained_evolutions.json' with {type: 'json'};
+import eidolon from './json/class_ability_unchained_eidolons.json' with {type: 'json'};
+import rangertrap from './json/class_ability_ranger_traps.json' with {type: 'json'};
 import constructmod from './json/construct_mods.json' with {type: 'json'};
 import corruption from './json/corruptions.json' with {type: 'json'};
 import curse from './json/curses.json' with {type: 'json'};
@@ -1074,6 +1079,14 @@ const basic_data_groups = {
 		num: 0,
 		type: "Witch Hex"
 	},
+	"class_ability_patrons": {
+		data: patron,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "patron",
+		num: 0,
+		type: "Witch Patron"
+	},
 	"class_ability_shaman_hexes": {
 		data: shamanhex,
 		datatype: "compileable",
@@ -1129,6 +1142,54 @@ const basic_data_groups = {
 		link: "hkdiscipline",
 		num: 0,
 		type: "Hellknight Discipline"
+	},
+	"class_ability_ki_powers": {
+		data: kipower,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "kipower",
+		num: 0,
+		type: "Ki Power"
+	},
+	"class_ability_style_strikes": {
+		data: stylestrike,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "stylestrike",
+		num: 0,
+		type: "Unchained Monk Style Strike"
+	},
+	"class_ability_evolutions": {
+		data: evolution,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "evolution",
+		num: 0,
+		type: "Eidolon Evolution"
+	},
+	"class_ability_unchained_evolutions": {
+		data: unchainedevolution,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "unchainedevolution",
+		num: 0,
+		type: "Unchained Eidolon Evolution"
+	},
+	"class_ability_unchained_eidolons": {
+		data: eidolon,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "eidolon",
+		num: 0,
+		type: "Unchained Eidolon Subtype"
+	},
+	"class_ability_ranger_traps": {
+		data: rangertrap,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "rangertrap",
+		num: 0,
+		type: "Ranger Trap"
 	},
 	"sidekicks": {
 		data: sidekick,

@@ -14,9 +14,16 @@ import deed from './subpages/__deed';
 import swashdeed from './subpages/__swashdeed';
 import hkdiscipline from './subpages/__hkdiscipline';
 import hex from './subpages/__hex';
+import patron from './subpages/__patron';
 import shamanhex from './subpages/__shamanhex';
 import discovery from './subpages/__discovery';
 import arcanediscovery from './subpages/__arcanediscovery';
+import kipower from './subpages/__kipower';
+import stylestrike from './subpages/__stylestrike';
+import evolution from './subpages/__evolution';
+import unchainedevolution from './subpages/__unchainedevolution';
+import eidolon from './subpages/__eidolon';
+import rangertrap from './subpages/__rangertrap';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -34,9 +41,16 @@ const allTalents = {
 	swashdeed,
 	hkdiscipline,
 	hex,
+	patron,
 	shamanhex,
 	discovery,
-	arcanediscovery
+	arcanediscovery,
+	kipower,
+	stylestrike,
+	evolution,
+	unchainedevolution,
+	eidolon,
+	rangertrap
 };
 
 type Talent = keyof typeof allTalents;
@@ -58,14 +72,14 @@ const info: { [key in Talent]: [string, string] } = {
 	"deed": [ "Gunslinger Deeds", "ability/gunslinger_deeds" ],
 	"swashdeed": [ "Swashbuckler Deeds", "ability/swashbuckler_deeds" ],
 	"hkdiscipline": [ "Hellknight Disciplines", "ability/hellknight_disciplines" ],
+	"kipower": [ "Ki Powers", "ability/ki_powers" ],
+	"stylestrike": [ "Style Strikes", "ability/style_strikes" ],
+	"evolution": [ "Eidolon Evolutions", "ability/evolutions" ],
+	"unchainedevolution": [ "Unchained Eidolon Evolutions", "ability/unchained_evolutions" ],
+	"eidolon": [ "Unchained Eidolon Subtypes", "ability/unchained_eidolon_subtypes" ],
+	"patron": [ "Witch Patrons", "ability/patrons" ],
+	"rangertrap": [ "Ranger Traps", "ability/ranger_traps" ]
 };
-//	"kipower": [ "Ki Powers", "ability/ki_powers" ],
-//	"stylestrike": [ "Style Strikes", "ability/style_strikes" ]
-//	"evolution": [ "Eidolon Evolutions", "ability/evolutions" ],
-//	"unchainedevolution": [ "Unchained Eidolon Evolutions", "ability/unchained_evolutions" ],
-//	"eidolon": [ "Unchained Eidolon Subtypes", "ability/unchained_eidolon_subtypes" ],
-//	"patron": [ "Witch Patrons", "ability/patrons" ],
-//	"trap": [ "Ranger Traps", "ability/ranger_traps" ],
 
 const addendaObj: { [key: string]: string } = {
 	sneakattack: "This type of talent adds effects to a rogue's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
@@ -73,7 +87,12 @@ const addendaObj: { [key: string]: string } = {
 	avenger: "This talent can only be taken by avenger vigilantes.",
 	stalker: "This talent can only be taken by stalker vigilantes.",
 	hiddenstrike: "This type of talent can only be taken by stalker vigilantes, and it has a limitation: only one talent of this type can be added to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.",
-	devilbane: "Devilbane gazes tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well."
+	devilbane: "Devilbane gazes tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.",
+	"1pt": "This is a 1-point evolution.",
+	"2pts": "This is a 2-point evolution.",
+	"3pts": "This is a 3-point evolution.",
+	"4pts": "This is a 4-point evolution.",
+	uniquepatron: "This is a unique patron that modifies aspects of a base patron."
 };
 
 const getAddenda = (input: string[], jsx: ReactElement, id: string) => {

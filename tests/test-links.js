@@ -163,6 +163,13 @@ const {
 	deed,
 	swashdeed,
 	hkdiscipline,
+	kipower,
+	stylestrike,
+	evolution,
+	unchainedevolution,
+	eidolon,
+	patron,
+	rangertrap
 } = basic_data_by_link;
 
 const all = [
@@ -232,6 +239,9 @@ const all = [
 	["discovery", discovery], ["arcanediscovery", arcanediscovery],
 	["stare", stare], ["phrenicamp", phrenicamp],
 	["deed", deed], ["swashdeed", swashdeed], ["hkdiscipline", hkdiscipline],
+	["kipower", kipower], ["stylestrike", stylestrike],
+	["evolution", evolution], ["unchainedevolution", unchainedevolution],
+	["eidolon", eidolon], ["patron", patron], ["rangertrap", rangertrap]
 ];
 
 const known_props = {};

@@ -1,0 +1,542 @@
+{
+	"not_found": {
+		"name": "Unknown",
+		"compilationSources": [],
+		"description": [
+			"Unable to find the requested unchained eidolon subtype."
+		]
+	},
+	"agility": {
+		"name": "Agility",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/jump}, 4th - {spell/cat's grace}, 6th - {spell/haste}, 8th - {spell/freedom of movement}, 10th - {spell/polymorph}, 12th - {spell/mass cat's grace}, 14th - {spell/ethereal jaunt}, 16th - {spell/animal shapes}, 18th - {spell/shapechange}."
+		]
+	},
+	"ancestors": {
+		"name": "Ancestors",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/bless}, 4th - {spell/aid}, 6th - {spell/prayer}, 8th - {spell/blessing of fervor}, 10th - {spell/commune}, 12th - {spell/greater heroism}, 14th - {spell/refuge}, 16th - {spell/euphoric tranquility}, 18th - {spell/weird}."
+		]
+	},
+	"animals": {
+		"name": "Animals",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/charm animal}, 4th - {spell/speak with animals}, 6th - {spell/dominate animal}, 8th - {spell/summon nature's ally IV}, 10th - {spell/animal growth}, 12th - {spell/antilife shell}, 14th - {spell/beast shape IV}, 16th - {spell/animal shapes}, 18th - {spell/summon nature's ally IX}."
+		]
+	},
+	"aurora": {
+		"name": "Aurora",
+		"compilationSources": [ [ "Paths of the Righteous", 31 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/color spray}, 4th - {spell/hypnotic pattern}, 6th - {spell/wall of nausea}, 8th - {spell/rainbow pattern}, 10th - {spell/blazing rainbow}, 12th - {spell/programmed image}, 14th - {spell/prismatic spray}, 16th - {spell/prismatic wall}, 18th - {spell/polar midnight}."
+		]
+	},
+	"autumn": {
+		"name": "Autumn",
+		"compilationSources": [ [ "Ultimate Wilderness", 88 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/ray of enfeeblement}, 4th - {spell/create pit}, 6th - {spell/gentle repose}, 8th - {spell/vitriolic mist}, 10th - {spell/major creation}, 12th - {spell/acid fog}, 14th - {spell/caustic eruption}, 16th - {spell/horrid wilting}, 18th - {spell/wail of the banshee}."
+		]
+	},
+	"boundaries": {
+		"name": "Boundaries",
+		"compilationSources": [ [ "Champions of Purity", 27 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/protection from evil}, 4th - {spell/see invisibility}, 6th - {spell/magic circle against evil}, 8th - {spell/dimensional anchor}, 10th - {spell/control summoned creature}, 12th - {spell/banishment}, 14th - {spell/ethereal jaunt}, 16th - {spell/dimensional lock}, 18th - {spell/gate}."
+		]
+	},
+	"conspiracies": {
+		"name": "Conspiracies",
+		"compilationSources": [ [ "Horror Adventures", 72 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/lock gaze}, 4th - {spell/disguise other}, 6th - {spell/tongues}, 8th - {spell/hypercognition}, 10th - {spell/dominate person}, 12th - {spell/symbol of persuasion}, 14th - {spell/vision}, 16th - {spell/frightful aspect}, 18th - {spell/overwhelming presence}."
+		]
+	},
+	"death": {
+		"name": "Death",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/deathwatch}, 4th - {spell/blessing of courage and life}, 6th - {spell/speak with dead}, 8th - {spell/rest eternal}, 10th - {spell/suffocation}, 12th - {spell/circle of death}, 14th - {spell/finger of death}, 16th - {spell/symbol of death}, 18th - {spell/power word kill}."
+		]
+	},
+	"decadence": {
+		"name": "Decadence",
+		"compilationSources": [ [ "Horror Adventures", 72 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/negative reaction}, 4th - {spell/demand offering}, 6th - {spell/sepia snake sigil}, 8th - {spell/charm monster}, 10th - {spell/dream}, 12th - {spell/envious urge}, 14th - {spell/waves of ecstasy}, 16th - {spell/euphoric tranquility}, 18th - {spell/symbol of strife}."
+		]
+	},
+	"deception": {
+		"name": "Deception",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/ventriloquism}, 4th - {spell/invisibility}, 6th - {spell/blink}, 8th - {spell/confusion}, 10th - {spell/passwall}, 12th - {spell/programmed image}, 14th - {spell/mass invisibility}, 16th - {spell/scintillating pattern}, 18th - {spell/time stop}."
+		]
+	},
+	"devotion": {
+		"name": "Devotion",
+		"compilationSources": [ [ "Champions of Purity", 27 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/divine favor}, 4th - {spell/martyr's bargain}, 6th - {spell/magic vestment}, 8th - {spell/greater magic weapon}, 10th - {spell/flame strike}, 12th - {spell/mass bull's strength}, 14th - {spell/bestow grace of the champion}, 16th - {spell/holy aura}, 18th - {spell/mass heal}."
+		]
+	},
+	"elements": {
+		"name": "Elements",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/shocking grasp}, 4th - {spell/flaming sphere}, 6th - {spell/fireball}, 8th - {spell/wall of ice}, 10th - {spell/flame strike}, 12th - {spell/freezing sphere}, 14th - {spell/vortex}, 16th - {spell/fire storm}, 18th - {spell/meteor swarm}."
+		]
+	},
+	"enchantment": {
+		"name": "Enchantment",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/unnatural lust}, 4th - {spell/calm emotions}, 6th - {spell/unadulterated loathing}, 8th - {spell/overwhelming grief}, 10th - {spell/dominate person}, 12th - {spell/geas}, 14th - {spell/euphoric tranquility}, 16th - {spell/demand}, 18th - {spell/dominate monster}."
+		]
+	},
+	"endurance": {
+		"name": "Endurance",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/endure elements}, 4th - {spell/bear's endurance}, 6th - {spell/protection from energy}, 8th - {spell/spell immunity}, 10th - {spell/spell resistance}, 12th - {spell/mass bear's endurance}, 14th - {spell/greater restoration}, 16th - {spell/iron body}, 18th - {spell/miracle}."
+		]
+	},
+	"entropy": {
+		"name": "Entropy",
+		"compilationSources": [ [ "Horror Adventures", 72 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/lesser confusion}, 4th - {spell/plague carrier}, 6th - {spell/babble}, 8th - {spell/wandering star motes}, 10th - {spell/feeblemind}, 12th - {spell/antimagic field}, 14th - {spell/insanity}, 16th - {spell/symbol of insanity}, 18th - {spell/interplanetary teleport}."
+		]
+	},
+	"ethereal": {
+		"name": "Ethereal",
+		"compilationSources": [ [ "Occult Adventures", 125 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/detect undead}, 4th - {spell/see invisibility}, 6th - {spell/ectoplasmic snare}, 8th - {spell/condensed ether}, 10th - {spell/ethereal envelope}, 12th - {spell/ethereal jaunt}, 14th - {spell/ectoplasmic eruption}, 16th - {spell/ethereal envelopment}, 18th - {spell/etherealness}."
+		]
+	},
+	"fate": {
+		"name": "Fate",
+		"compilationSources": [ [ "Pathfinder #72: The Witch Queen's Revenge", 75 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/doom}, 4th - {spell/anticipate peril}, 6th - {spell/helping hand}, 8th - {spell/blessing of fervor}, 10th - {spell/greater forbid action}, 12th - {spell/contingency}, 14th - {spell/jolting portent}, 16th - {spell/maze}, 18th - {spell/wish}."
+		]
+	},
+	"healing": {
+		"name": "Healing",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/remove fear}, 4th - {spell/lesser restoration}, 6th - {spell/remove disease}, 8th - {spell/restoration}, 10th - {spell/cleanse}, 12th - {spell/pillar of life}, 14th - {spell/greater restoration}, 16th - {spell/mass cure critical wounds}, 18th - {spell/true resurrection}."
+		]
+	},
+	"insanity": {
+		"name": "Insanity",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/memory lapse}, 4th - {spell/hideous laughter}, 6th - {spell/distracting cacophony}, 8th - {spell/confusion}, 10th - {spell/mind fog}, 12th - {spell/envious urge}, 14th - {spell/insanity}, 16th - {spell/symbol of insanity}, 18th - {spell/overwhelming presence}."
+		]
+	},
+	"jynx": {
+		"name": "Jynx",
+		"compilationSources": [ [ "Blood of the Coven", 17 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/ill omen}, 4th - {spell/shatter}, 6th - {spell/bestow curse}, 8th - {spell/retribution}, 10th - {spell/mark of justice}, 12th - {spell/eyebite}, 14th - {spell/spell turning}, 16th - {spell/antipathy}, 18th - {spell/energy drain}."
+		]
+	},
+	"light": {
+		"name": "Light",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/dancing lantern}, 4th - {spell/continual flame}, 6th - {spell/daylight}, 8th - {spell/rainbow pattern}, 10th - {spell/fire snake}, 12th - {spell/sirocco}, 14th - {spell/sunbeam}, 16th - {spell/sunburst}, 18th - {spell/fiery body}."
+		]
+	},
+	"mercy": {
+		"name": "Mercy",
+		"compilationSources": [ [ "Blood of the Coven", 17 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/cure light wounds}, 4th - {spell/eagle's splendor}, 6th - {spell/remove curse}, 8th - {spell/restoration}, 10th - {spell/cleanse}, 12th - {spell/heroes' feast}, 14th - {spell/foe to friend}, 16th - {spell/euphoric tranquility}, 18th - {spell/true resurrection}."
+		]
+	},
+	"mind": {
+		"name": "Mind",
+		"compilationSources": [ [ "Occult Adventures", 125 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/mindlink}, 4th - {spell/mental block}, 6th - {spell/mindscape door}, 8th - {spell/create mindscape}, 10th - {spell/psychic asylum}, 12th - {spell/greater create mindscape}, 14th - {spell/psychic surgery}, 16th - {spell/moment of prescience}, 18th - {spell/microcosm}."
+		]
+	},
+	"moon": {
+		"name": "Moon",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/darkness}, 4th - {spell/darkvision}, 6th - {spell/owl's wisdom}, 8th - {spell/moonstruck}, 10th - {spell/aspect of the wolf}, 12th - {spell/control water}, 14th - {spell/lunar veil}, 16th - {spell/horrid wilting}, 18th - {spell/meteor swarm}."
+		]
+	},
+	"mountain": {
+		"name": "Mountain",
+		"compilationSources": [ [ "Heroes of the Wild", 13 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/stone fist}, 4th - {spell/stone call}, 6th - {spell/stone shape}, 8th - {spell/spike stones}, 10th - {spell/wall of stone}, 12th - {spell/flesh to stone}, 14th - {spell/stone tell}, 16th - {spell/repel metal or stone}, 18th - {spell/clashing rocks}."
+		]
+	},
+	"nightmares": {
+		"name": "Nightmares",
+		"compilationSources": [ [ "Horror Adventures", 72 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/sleep}, 4th - {spell/detect thoughts}, 6th - {spell/oneiric horror}, 8th - {spell/phantasmal killer}, 10th - {spell/nightmare}, 12th - {spell/dream travel}, 14th - {spell/symbol of weakness}, 16th - {spell/demand}, 18th - {spell/polar midnight}."
+		]
+	},
+	"occult": {
+		"name": "Occult",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/detect undead}, 4th - {spell/command undead}, 6th - {spell/twilight knife}, 8th - {spell/black tentacles}, 10th - {spell/snake staff}, 12th - {spell/create undead}, 14th - {spell/waves of exhaustion}, 16th - {spell/trap the soul}, 18th - {spell/gate}."
+		]
+	},
+	"peace": {
+		"name": "Peace",
+		"compilationSources": [ [ "Champions of Purity", 27 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/sanctuary}, 4th - {spell/calm emotions}, 6th - {spell/wind wall}, 8th - {spell/dismissal}, 10th - {spell/serenity}, 12th - {spell/word of recall}, 14th - {spell/forcecage}, 16th - {spell/euphoric tranquility}, 18th - {spell/antipathy}."
+		]
+	},
+	"plague": {
+		"name": "Plague",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/detect undead}, 4th - {spell/command undead}, 6th - {spell/contagion}, 8th - {spell/animate dead}, 10th - {spell/giant vermin}, 12th - {spell/create undead}, 14th - {spell/control undead}, 16th - {spell/create greater undead}, 18th - {spell/energy drain}."
+		]
+	},
+	"plant": {
+		"name": "Plant",
+		"compilationSources": [ [ "Heroes of the Wild", 11 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/entangle}, 4th - {spell/accelerate poison}, 6th - {spell/lily pad stride}, 8th - {spell/grove of respite}, 10th - {spell/tree stride}, 12th - {spell/repel wood}, 14th - {spell/animate plants}, 16th - {spell/control plants}, 18th - {spell/shambler}."
+		]
+	},
+	"portents": {
+		"name": "Portents",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/ill omen}, 4th - {spell/locate object}, 6th - {spell/blood biography}, 8th - {spell/divination}, 10th - {spell/contact other plane}, 12th - {spell/legend lore}, 14th - {spell/vision}, 16th - {spell/moment of prescience}, 18th - {spell/foresight}."
+		]
+	},
+	"protection": {
+		"name": "Protection",
+		"compilationSources": [ [ "Heroes of the High Court", 9 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/sanctuary}, 4th - {spell/resist energy}, 6th - {spell/wrathful mantle}, 8th - {spell/stoneskin}, 10th - {spell/interposing hand}, 12th - {spell/forbiddance}, 14th - {spell/greater spell immunity}, 16th - {spell/prismatic wall}, 18th - {spell/freedom}."
+		]
+	},
+	"recovery": {
+		"name": "Recovery",
+		"compilationSources": [ [ "Healer's Handbook", 16 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/liberating command}, 4th - {spell/remove paralysis}, 6th - {spell/sacred bond}, 8th - {spell/freedom of movement}, 10th - {spell/cleanse}, 12th - {spell/heroes' feast}, 14th - {spell/joyful rapture}, 16th - {spell/protection from spells}, 18th - {spell/mass heal}."
+		]
+	},
+	"revenge": {
+		"name": "Revenge",
+		"compilationSources": [ [ "Horror Adventures", 72 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/magic fang}, 4th - {spell/slipstream}, 6th - {spell/rage}, 8th - {spell/moonstruck}, 10th - {spell/beast shape III}, 12th - {spell/vengeful outrage}, 14th - {spell/phantasmal revenge}, 16th - {spell/seamantle}, 18th - {spell/storm of vengeance}."
+		]
+	},
+	"rot": {
+		"name": "Rot",
+		"compilationSources": [ [ "Blood of the Coven", 17 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/decompose corpse}, 4th - {spell/warp wood}, 6th - {spell/fungal infestation}, 8th - {spell/fleshworm infestation}, 10th - {spell/plague carrier}, 12th - {spell/epidemic}, 14th - {spell/creeping doom}, 16th - {spell/horrid wilting}, 18th - {spell/cursed earth}."
+		]
+	},
+	"shadow": {
+		"name": "Shadow",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/silent image}, 4th - {spell/darkness}, 6th - {spell/deeper darkness}, 8th - {spell/shadow conjuration}, 10th - {spell/shadow evocation}, 12th - {spell/shadow walk}, 14th - {spell/greater shadow conjuration}, 16th - {spell/greater shadow evocation}, 18th - {spell/shades}."
+		]
+	},
+	"space": {
+		"name": "Space",
+		"compilationSources": [ [ "Horror Adventures", 72 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/mirror strike}, 4th - {spell/twisted space}, 6th - {spell/blink}, 8th - {spell/dimension door}, 10th - {spell/hostile juxtaposition}, 12th - {spell/repulsion}, 14th - {spell/walk through space}, 16th - {spell/bilocation}, 18th - {spell/teleportation circle}."
+		]
+	},
+	"spirits": {
+		"name": "Spirits",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/ghostbane dirge}, 4th - {spell/invisibility}, 6th - {spell/speak with dead}, 8th - {spell/spiritual ally}, 10th - {spell/mass ghostbane dirge}, 12th - {spell/shadow walk}, 14th - {spell/ethereal jaunt}, 16th - {spell/planar ally}, 18th - {spell/etherealness}."
+		]
+	},
+	"spring": {
+		"name": "Spring",
+		"compilationSources": [ [ "Ultimate Wilderness", 88 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/feather fall}, 4th - {spell/alter self}, 6th - {spell/pup shape}, 8th - {spell/true form}, 10th - {spell/lightning arc}, 12th - {spell/chain lightning}, 14th - {spell/control weather}, 16th - {spell/stormbolts}, 18th - {spell/time stop}."
+		]
+	},
+	"stars": {
+		"name": "Stars",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/faerie fire}, 4th - {spell/dust of twilight}, 6th - {spell/guiding star}, 8th - {spell/wandering star motes}, 10th - {spell/dream}, 12th - {spell/cloak of dreams}, 14th - {spell/circle of clarity}, 16th - {spell/euphoric tranquility}, 18th - {spell/astral projection}."
+		]
+	},
+	"storms": {
+		"name": "Storms",
+		"compilationSources": [ [ "Heroes of the Wild", 13 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/obscuring mist}, 4th - {spell/fog cloud}, 6th - {spell/call lightning}, 8th - {spell/ice storm}, 10th - {spell/call lightning storm}, 12th - {spell/wind walk}, 14th - {spell/control weather}, 16th - {spell/whirlwind}, 18th - {spell/storm of vengeance}."
+		]
+	},
+	"strength": {
+		"name": "Strength",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/divine favor}, 4th - {spell/bull's strength}, 6th - {spell/greater magic weapon}, 8th - {spell/divine power}, 10th - {spell/righteous might}, 12th - {spell/mass bull's strength}, 14th - {spell/giant form I}, 16th - {spell/giant form II}, 18th - {spell/shapechange}."
+		]
+	},
+	"summer": {
+		"name": "Summer",
+		"compilationSources": [ [ "Heroes of the Wild", 13 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/goodberry}, 4th - {spell/flaming sphere}, 6th - {spell/daylight}, 8th - {spell/greater flaming sphere}, 10th - {spell/wall of fire}, 12th - {spell/sirocco}, 14th - {spell/sunbeam}, 16th - {spell/sunburst}, 18th - {spell/fiery body}.[^D] "
+		]
+	},
+	"thorns": {
+		"name": "Thorns",
+		"compilationSources": [ [ "Heroes of the Wild", 13 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/thorn javelin}, 4th - {spell/wrath}, 6th - {spell/thorny entanglement}, 8th - {spell/thorn body}, 10th - {spell/wall of thorns}, 12th - {spell/blade barrier}, 14th - {spell/repulsion}, 16th - {spell/mage's sword}, 18th - {spell/wooden phalanx}.[^D] "
+		]
+	},
+	"time": {
+		"name": "Time",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/ventriloquism}, 4th - {spell/silence}, 6th - {spell/haste}, 8th - {spell/threefold aspect}, 10th - {spell/teleport}, 12th - {spell/disintegrate}, 14th - {spell/expend}, 16th - {spell/temporal stasis}, 18th - {spell/time stop}."
+		]
+	},
+	"transformation": {
+		"name": "Transformation",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/jump}, 4th - {spell/bear's endurance}, 6th - {spell/beast shape I}, 8th - {spell/beast shape II}, 10th - {spell/beast shape III}, 12th - {spell/form of the dragon I}, 14th - {spell/form of the dragon II}, 16th - {spell/form of the dragon III}, 18th - {spell/shapechange}."
+		]
+	},
+	"trickery": {
+		"name": "Trickery",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/animate rope}, 4th - {spell/mirror image}, 6th - {spell/major image}, 8th - {spell/hallucinatory terrain}, 10th - {spell/mirage arcana}, 12th - {spell/mislead}, 14th - {spell/reverse gravity}, 16th - {spell/screen}, 18th - {spell/time stop}."
+		]
+	},
+	"vengeance": {
+		"name": "Vengeance",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/burning hands}, 4th - {spell/burning gaze}, 6th - {spell/pain strike}, 8th - {spell/shout}, 10th - {spell/symbol of pain}, 12th - {spell/mass pain strike}, 14th - {spell/phantasmal revenge}, 16th - {spell/incendiary cloud}, 18th - {spell/winds of vengeance}."
+		]
+	},
+	"water": {
+		"name": "Water",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/bless water}/{spell/curse water}, 4th - {spell/slipstream}, 6th - {spell/water breathing}, 8th - {spell/control water}, 10th - {spell/geyser}, 12th - {spell/elemental body III/ (water only)}, 14th - {spell/elemental body IV/ (water only)}, 16th - {spell/seamantle}, 18th - {spell/tsunami}."
+		]
+	},
+	"winter": {
+		"name": "Winter",
+		"compilationSources": [ [ "Ultimate Magic", 83 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/unshakable chill}, 4th - {spell/resist energy/ (cold only)}, 6th - {spell/ice storm}, 8th - {spell/wall of ice}, 10th - {spell/cone of cold}, 12th - {spell/freezing sphere}, 14th - {spell/control weather}, 16th - {spell/polar ray}, 18th - {spell/polar midnight}.[^D] "
+		]
+	},
+	"wisdom": {
+		"name": "Wisdom",
+		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/shield of faith}, 4th - {spell/owl's wisdom}, 6th - {spell/magic vestment}, 8th - {spell/lesser globe of invulnerability}, 10th - {spell/dream}, 12th - {spell/globe of invulnerability}, 14th - {spell/spell turning}, 16th - {spell/protection from spells}, 18th - {spell/mage's disjunction}."
+		]
+	},
+	"woodlands": {
+		"name": "Woodlands",
+		"compilationSources": [ [ "Ultimate Wilderness", 89 ] ],
+		"category": "basic",
+		"description": [
+			"2nd - {spell/entangle}, 4th - {spell/accelerate poison}, 6th - {spell/lily pad stride}, 8th - {spell/grove of respite}, 10th - {spell/tree stride}, 12th - {spell/repel wood}, 14th - {spell/animate plants}, 16th - {spell/control plants}, 18th - {spell/shambler}."
+		]
+	},
+	"celestial_agenda": {
+		"name": "Celestial Agenda",
+		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "unique",
+		"addenda": [ "uniquepatron" ],
+		"description": [
+			"While good deities and empyreal lords have organized faiths to carry out their wills, powerfully ranked agathions, angels, and archons - and occasional intersectional councils of good outsiders - sometimes invest white witches with celestial might to defend the weak and heal the sick. You gain the ward hex at 1st level, but your patron holds you to a higher standard: you must be of good alignment, and you take a -2 penalty on Bluff, Intimidate, Sleight of Hand, and other skill checks to deceive or threaten others.",
+			"",
+			"**Available Patron Themes:** Endurance, Healing, Light, Portents",
+			"",
+			"**Spell Changes:** 4th-{spell/castigate}, 10th-{spell/rebuke}, 16th-{spell/greater planar ally} (good outsiders only)."
+		]
+	},
+	"empath": {
+		"name": "Empath",
+		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "unique",
+		"addenda": [ "uniquepatron" ],
+		"description": [
+			"Your patron is a manifestation of the collective living experience - mortal desire and purpose given direction by the beliefs of countless minds and hearts. You gain the tongues hex at 1st level, but you cannot help but feel the despair, pain, and other negative emotions in those around you, taking a -5 penalty on saving throws against emotion effects.",
+			"",
+			"**Available Patron Themes:** Ancestors, Mind, Spirits, Wisdom",
+			"",
+			"**Spell Changes:** 2nd-{spell/burst of insight}, 6th-{spell/analyze aura}, 10th-{spell/retrocognition}."
+		]
+	},
+	"fey_gifts": {
+		"name": "Fey Gifts",
+		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "unique",
+		"addenda": [ "uniquepatron" ],
+		"description": [
+			"A powerful fey or other entity from the First World has offered you magic. You serve as an anchor and scrying focus in the Material Plane for your patron, but you also provide frequent amusement. You gain the charm hex at 1st level, but your fey patron delights in your failure and injury and frequently jinxes you; once each day, the Game Master can demand you reroll a single ability check, attack roll, saving throw, or skill check and use the worse result.",
+			"",
+			"**Available Patron Themes:** Agility, Enchantment, Trickery, Winter",
+			"",
+			"**Spell Changes:** 2nd-{spell/disguise self}, 4th-{spell/hideous laughter}, 16th-{spell/irresistible dance}."
+		]
+	},
+	"green_whispers": {
+		"name": "Green Whispers",
+		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "unique",
+		"addenda": [ "uniquepatron" ],
+		"description": [
+			"Your witch powers are a manifestation of the Green Faith or bestowed by a representative of natural forces, such as an ancient treant or nature spirit, who expects you to wield such gifts on its behalf. You gain the feral speech hex at 1st level, but you cannot abide the touch of iron or steel; contact with either metal deals 1d3 points of damage each round, and wearing metal armor prevents you from casting spells until it is removed.",
+			"",
+			"**Available Patron Themes:** Animals, Endurance, Moon, Transformation",
+			"",
+			"**Spell Changes:** 2nd-{spell/entangle}, 6th-{spell/plant growth}, 10th-{spell/tree stride}."
+		]
+	},
+	"hags_calling": {
+		"name": "Hag's Calling",
+		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "unique",
+		"addenda": [ "uniquepatron" ],
+		"description": [
+			"Hags of exceptional power - most often mute hags and dreamthief hags - sometimes invest mortal agents with the same well of ancient power they have mastered. Hags most often invest their changeling daughters with such power, either once they have proven loyal or else to tempt them into wickedness. You gain the coven hex at 1st level, but you can neither use the aid another action nor receive benefits from others' aid another actions.",
+			"",
+			"**Available Patron Themes:** Moon, Plague, Shadow, Vengeance",
+			"",
+			"**Spell Changes:** 2nd-{spell/disguise self}, 8th-{spell/sending}, 10th-{spell/commune/ (hag/patron rather than deity)}."
+		]
+	},
+	"infernal_contract": {
+		"name": "Infernal Contract",
+		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "unique",
+		"addenda": [ "uniquepatron" ],
+		"description": [
+			"Your power was brokered from a powerful daemon, demon, or devil to speed the corruption and moral decay of mortals. When you die, your soul goes to Abaddon, the Abyss, or Hell, and you can't be raised or resurrected except by extraordinary means - though bold service may earn you a favored position in damnation. You gain the misfortune hex at 1st level, but your magic requires sacrifice; each day when you prepare spells, you must deal 1d6 points of damage to yourself as part of your infernal ritual, feeding the lost blood to your familiar. At 5th level and every 5 levels thereafter, this damage increases by 1d6.",
+			"",
+			"**Available Patron Themes:** Enchantment, Strength, Trickery, Vengeance",
+			"",
+			"**Spell Changes:** 8th-{spell/lesser planar ally}, 12th-{spell/planar ally}, 16th-{spell/greater planar ally/ (your bonus spells can be used to summon only the type of outsider your patron represents)}."
+		]
+	},
+	"shadowbound": {
+		"name": "Shadowbound",
+		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "unique",
+		"addenda": [ "uniquepatron" ],
+		"description": [
+			"Deep exposure to entities from the Plane of Shadow - kytons, nightshades, owbs, and similar ethereal forces - has infused you with shadow. You gain the disguise hex at 1st level, but you also gain {umr/light blindness}.",
+			"",
+			"**Available Patron Themes:** Death, Deception, Ethereal, Shadow",
+			"",
+			"**Spell Changes:** 8th-{spell/shadow conjuration}, 12th-{spell/shadow walk}, 16th-{spell/greater shadow evocation}."
+		]
+	},
+	"the_condition_of_all": {
+		"name": "The Condition of All",
+		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "unique",
+		"addenda": [ "uniquepatron" ],
+		"description": [
+			"Aeons are often patrons to witches, seeking out mortals who share their vested interest in some agenda that helps them promote the cosmic balance. You gain the scar hex at 1st level, but such service requires unwavering commitment to their cause, and you lose your spellcasting and hexes (but not your familiar) if your alignment changes after taking your first witch level; you regain your spellcasting and hexes once you revert to your original alignment.",
+			"",
+			"**Available Patron Themes:** Elements, Time, Transformation, Wisdom",
+			"",
+			"**Spell Changes:** 2nd-{spell/forbid action}, 8th-{spell/dismissal}, 12th-{spell/geas//quest}."
+		]
+	},
+	"touched_by_the_outer_gods": {
+		"name": "Touched by the Outer Gods",
+		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "unique",
+		"addenda": [ "uniquepatron" ],
+		"description": [
+			"Your powers hail from an incomprehensible being from beyond the stars, whose motivations and needs erode your psyche. You gain the unnerve beasts hex at 1st level, but you take a -2 penalty on saving throws against confusion and emotion effects and are affected by such effects for at least 1 round even on a successful saving throw.",
+			"",
+			"**Available Patron Themes:** Insanity, Occult, Stars, Transformation",
+			"",
+			"**Spell Changes:** 2nd-{spell/lesser confusion}, 8th-{spell/dreadscape}, 10th-{spell/compelling rant}."
+		]
+	}
+}
