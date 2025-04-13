@@ -160,6 +160,9 @@ const {
 	discovery,
 	arcanediscovery,
 	phrenicamp,
+	deed,
+	swashdeed,
+	hkdiscipline,
 } = basic_data_by_link;
 
 const all = [
@@ -228,6 +231,7 @@ const all = [
 	["trick", trick], ["ninjatrick", ninjatrick], ["hex", hex], ["shamanhex", shamanhex],
 	["discovery", discovery], ["arcanediscovery", arcanediscovery],
 	["stare", stare], ["phrenicamp", phrenicamp],
+	["deed", deed], ["swashdeed", swashdeed], ["hkdiscipline", hkdiscipline],
 ];
 
 const known_props = {};

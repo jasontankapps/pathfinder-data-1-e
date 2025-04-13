@@ -10,6 +10,9 @@ import trick from './subpages/__trick';
 import stare from './subpages/__stare';
 import ninjatrick from './subpages/__ninjatrick';
 import phrenicamp from './subpages/__phrenicamp';
+import deed from './subpages/__deed';
+import swashdeed from './subpages/__swashdeed';
+import hkdiscipline from './subpages/__hkdiscipline';
 import hex from './subpages/__hex';
 import shamanhex from './subpages/__shamanhex';
 import discovery from './subpages/__discovery';
@@ -27,6 +30,9 @@ const allTalents = {
 	stare,
 	ninjatrick,
 	phrenicamp,
+	deed,
+	swashdeed,
+	hkdiscipline,
 	hex,
 	shamanhex,
 	discovery,
@@ -49,11 +55,21 @@ const info: { [key in Talent]: [string, string] } = {
 	"discovery": [ "Alchemist Discoveries", "ability/discoveries" ],
 	"arcanediscovery": [ "Arcane Discovery", "ability/arcane_discoveries" ],
 	"phrenicamp": [ "Phrenic Amplifications", "ability/phrenic_amplifications" ],
+	"deed": [ "Gunslinger Deeds", "ability/gunslinger_deeds" ],
+	"swashdeed": [ "Swashbuckler Deeds", "ability/swashbuckler_deeds" ],
+	"hkdiscipline": [ "Hellknight Disciplines", "ability/hellknight_disciplines" ],
 };
+//	"kipower": [ "Ki Powers", "ability/ki_powers" ],
+//	"stylestrike": [ "Style Strikes", "ability/style_strikes" ]
+//	"evolution": [ "Eidolon Evolutions", "ability/evolutions" ],
+//	"unchainedevolution": [ "Unchained Eidolon Evolutions", "ability/unchained_evolutions" ],
+//	"eidolon": [ "Unchained Eidolon Subtypes", "ability/unchained_eidolon_subtypes" ],
+//	"patron": [ "Witch Patrons", "ability/patrons" ],
+//	"trap": [ "Ranger Traps", "ability/ranger_traps" ],
 
 const addendaObj: { [key: string]: string } = {
 	sneakattack: "This type of talent adds effects to a rogue's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
-	studiedstrike: "This type of talent adds effects to an investigator's studied combat or studied strike, and has. Only one of these talents can be applied to an individual attack, but the decision can be made when the damage is dealt.",
+	studiedstrike: "This type of talent adds effects to an investigator's studied combat or studied strike, and has this limitation: Only one of these talents can be applied to an individual attack, but the decision can be made when the damage is dealt.",
 	avenger: "This talent can only be taken by avenger vigilantes.",
 	stalker: "This talent can only be taken by stalker vigilantes.",
 	hiddenstrike: "This type of talent can only be taken by stalker vigilantes, and it has a limitation: only one talent of this type can be added to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted.",

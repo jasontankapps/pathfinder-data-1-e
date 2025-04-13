@@ -94,6 +94,9 @@ import shamanhex from './json/class_ability_shaman_hexes.json' with {type: 'json
 import discovery from './json/class_ability_discoveries.json' with {type: 'json'};
 import arcanediscovery from './json/class_ability_arcane_discoveries.json' with {type: 'json'};
 import phrenicamp from './json/class_ability_phrenic_amplifications.json' with {type: 'json'};
+import deed from './json/class_ability_deeds.json' with {type: 'json'};
+import swashdeed from './json/class_ability_swashbuckler_deeds.json' with {type: 'json'};
+import hkdiscipline from './json/class_ability_hellknight_disciplines.json' with {type: 'json'};
 
 import constructmod from './json/construct_mods.json' with {type: 'json'};
 import corruption from './json/corruptions.json' with {type: 'json'};
@@ -1029,7 +1032,7 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "vigilantetalent",
 		num: 0,
-		type: "vigilante Talent"
+		type: "Vigilante Talent"
 	},
 	"class_ability_social_talents": {
 		data: socialtalent,
@@ -1053,7 +1056,7 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "stare",
 		num: 0,
-		type: "Mesmerist Stares"
+		type: "Mesmerist Stare"
 	},
 	"class_ability_ninja_tricks": {
 		data: ninjatrick,
@@ -1101,7 +1104,31 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "phrenicamp",
 		num: 0,
-		type: "Phrenic Amplifications"
+		type: "Phrenic Amplification"
+	},
+	"class_ability_deeds": {
+		data: deed,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "deed",
+		num: 0,
+		type: "Deeds"
+	},
+	"class_ability_swashbuckler_deeds": {
+		data: swashdeed,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "swashdeed",
+		num: 0,
+		type: "Swashbuckler Deed"
+	},
+	"class_ability_hellknight_disciplines": {
+		data: hkdiscipline,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "hkdiscipline",
+		num: 0,
+		type: "Hellknight Discipline"
 	},
 	"sidekicks": {
 		data: sidekick,

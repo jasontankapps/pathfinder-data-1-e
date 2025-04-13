@@ -1,0 +1,198 @@
+{
+	"not_found": {
+		"name": "Unknown",
+		"compilationSources": [],
+		"description": [
+			"Unable to find the requested Hellknight discipline."
+		]
+	},
+	"brand": {
+		"name": "Brand",
+		"nameSuffix": "(Sp; Order of the Pyre)",
+		"compilationSources": [ [ "Inner Sea World Guide", 278 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight can use {spell/mark of justice} as a spell-like ability."
+		]
+	},
+	"call_armor": {
+		"name": "Call Armor",
+		"nameSuffix": "(Su; any order)",
+		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
+		"category": "-",
+		"description": [
+			"As a move action, the Hellknight can cause her armor to instantly appear on her body. Alternatively, she can dismiss it as a move action, causing it to vanish. (Doing either of these counts as one use of this discipline.) Where the armor appears from or vanishes to can be anywhere the Hellknight designates, but it must be a place the Hellknight has seen on the same plane of existence where she is, or be in an extradimensional space she controls, such as a bag of holding. This armor is a specific suit of Hellknight plate that the Hellknight designates when she selects this discipline. The Hellknight can attune this ability to a new set of armor, but doing so takes 1 week."
+		]
+	},
+	"censor": {
+		"name": "Censor",
+		"nameSuffix": "(Su; Order of the Rack)",
+		"compilationSources": [ [ "Inner Sea World Guide", 278 ] ],
+		"category": "-",
+		"description": [
+			"When the Hellknight uses smite chaos on a creature, he can strike the creature mute for 1d4 rounds unless it makes a successful Will save. A mute creature cannot speak, nor can it cast spells that have verbal components or use language-dependant effects."
+		]
+	},
+	"command": {
+		"name": "Command",
+		"nameSuffix": "(Sp; any order)",
+		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight can use {spell/greater command} as a spell-like ability, using her character level as her caster level."
+		]
+	},
+	"dispel_chaos": {
+		"name": "Dispel Chaos",
+		"nameSuffix": "(Sp; any order)",
+		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight can use {spell/dispel chaos} as a spell-like ability, using her character level as her caster level."
+		]
+	},
+	"favored_quarry": {
+		"name": "Favored Quarry",
+		"nameSuffix": "(Ex; any order)",
+		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight chooses a creature type from the {class/ranger} favored enemy table (usually humanoid with a specific subtype, but this is not required). The Hellknight gains a +2 bonus on Bluff, Intimidate, Knowledge, Perception, Sense Motive, and Survival checks against creatures of her selected type. She can also attempt Knowledge skill checks untrained to identify those creatures. Each time the Hellknight chooses an additional discipline, this bonus increases by 2 (to a potential maximum of +6 at 9th level)."
+		]
+	},
+	"fearsomeness": {
+		"name": "Fearsomeness",
+		"nameSuffix": "(Ex; any order)",
+		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
+		"category": "-",
+		"description": [
+			"A Hellknight who uses the Intimidate skill to cause a creature within 10 feet to become shaken can instead cause that creature to become frightened."
+		]
+	},
+	"invoke_glyph": {
+		"name": "Invoke Glyph",
+		"nameSuffix": "(Sp and Ex; Order of the Glyph)",
+		"compilationSources": [ [ "Pathfinder #107: Scourge of the Godclaw", 47 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight can use {spell/glyph of warding} as a spell-like ability. While this ability does not require an expensive material component, a single Hellknight can maintain only one glyph of warding at a time; if he uses this spell-like ability a second time, the previously created glyph of warding vanishes. In addition, the Hellknight gains a +4 bonus on saving throws against glyph of warding or [symbol spells](main/spell_groupings)."
+		]
+	},
+	"mental_intrusion": {
+		"name": "Mental Intrusion",
+		"nameSuffix": "(Sp; any order)",
+		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight can use {spell/telepathy} as a spell-like ability, using her character level as her caster level."
+		]
+	},
+	"onslaught": {
+		"name": "Onslaught",
+		"nameSuffix": "(Su; Order of the Nail)",
+		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
+		"category": "-",
+		"description": [
+			"Once per day as a free action, a Hellknight increases his base speed by +10 feet and gains a +4 bonus to his Strength for 1 round. If the Hellknight is mounted, these bonuses also apply to his mount."
+		]
+	},
+	"pentamic_faith": {
+		"name": "Pentamic Faith",
+		"nameSuffix": "(Ex; Order of the Godclaw only)",
+		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
+		"category": "-",
+		"description": [
+			"This ability allows the Hellknight to select one of the following domains:{domain/Artifice}, {domain/Glory}, {domain/Knowledge}, {domain/Law}, {domain/Magic}, {domain/Nobility}, {domain/Protection}, {domain/Rune}, {domain/Strength}, {domain/Travel}, and {domain/War}. The Hellknight gains all of the granted powers (but not domain spells) of that domain, treating his Hellknight levels as cleric levels to determine what domain abilities he has access to."
+		]
+	},
+	"seek_the_taken": {
+		"name": "Seek the Taken",
+		"nameSuffix": "(any order)",
+		"compilationSources": [ [ "Pathfinder #98: Turn of the Torrent", 67 ] ],
+		"category": "-",
+		"description": [
+			"When a member of the Order of the Torrent becomes a 3rd-level Hellknight, he gains his first discipline: seek the taken. This enables the Hellknight to use an {feat/enlarged} {spell/locate creature} as a spell-like ability with a caster level equal to his total character level. At 9th level, when a Order of the Torrent Hellknight gains his third discipline, he cannot choose the summon devil discipline."
+		]
+	},
+	"shackle": {
+		"name": "Shackle",
+		"nameSuffix": "(Su; Order of the Chain)",
+		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
+		"category": "-",
+		"description": [
+			"When the Hellknight uses smite chaos on a creature, he can impede its mobility. The creature can negate this effect with a Will save; otherwise, it is affected as if by a slow spell for 1d4 rounds."
+		]
+	},
+	"shadow_step": {
+		"name": "Shadow Step",
+		"nameSuffix": "(Sp; any order)",
+		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight can use {feat/enlarged} {spell/shadow step} as a spell-like ability, as if the {feat/Enlarge Spell} metamagic feat were applied to the spell, using her character level as her caster level."
+		]
+	},
+	"summon_devil": {
+		"name": "Summon Devil",
+		"nameSuffix": "(Sp; Order of the Gate)",
+		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight may use {spell/summon monster V} as a spell-like ability to summon 1 {monster/bearded devil}. At 6th level, this spell-like ability is replaced by {spell/summon monster VI}, allowing him to summon 1d3 bearded devils, or 1 {monster/erinyes}. And at 9th level, this spell-like ability is replaced by {spell/summon monster VII}, allowing him to summon 1d4+1 bearded devils, 1d3 erinyes, or 1 {monster/bone devil}."
+		]
+	},
+	"summon_servant_of_law": {
+		"name": "Summon Servant of Law",
+		"nameSuffix": "(Sp; any order)",
+		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight can summon a creature or creatures to help her, as if using a {spell/summon monster>_1} spell. At 3rd level, she can summon 1d3 {monster/hell hound/s}. At 6th level, she can summon 1d3 {template/advanced} hell hounds or one {monster/axiomite}. And at 9th level, she can summon 1d4+1 hell hounds, 1d3 axiomites, or one {monster/zelekhut/ inevitable}."
+		]
+	},
+	"trace": {
+		"name": "Trace",
+		"nameSuffix": "(Su; any order)",
+		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight can study a single personal belonging of a creature for 1 minute, after which she knows the general direction of the creature's current location as long as it is within 1 mile and on the same plane. She also learns the direction the creature is currently moving, if any. This effect lasts for 10 minutes per character level. An object can be used as the focus for this ability only once. For the purposes of this ability, a \"personal belonging\" is any object a creature owned or carried with it for more than a week. If the target is under the effects of {spell/nondetection} or a similar spell or effect, or is on a different plane, this ability gives no result."
+		]
+	},
+	"tracker": {
+		"name": "Tracker",
+		"nameSuffix": "(Sp; any order)",
+		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight can summon a creature to aid him, either in battle or to track an enemy, as if using a summon monster spell, save that the summoned creature lingers for 1 hour before vanishing. A 6th-level Hellknight can summon either an {monster/eagle}, a {monster/riding dog}, a {monster/wolf}, or a {monster/leopard}. A 9th-level Hellknight can instead opt to summon a {monster/dire wolf} or a hell hound."
+		]
+	},
+	"versatile_intimidation": {
+		"name": "Versatile Intimidation",
+		"nameSuffix": "(Ex; any order)",
+		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight can use Intimidate to reproduce the effects of another Charisma-based skill. Choose one of the following: Bluff, Diplomacy, Handle Animal, or Perform (oratory). Each time the Hellknight wishes to use that skill, she can attempt an Intimidate check and treat it as if it were a check of the desired type. At 9th level, the Hellknight can choose an additional skill from the list above and use Intimidate to reproduce its effects."
+		]
+	},
+	"vigilance": {
+		"name": "Vigilance",
+		"nameSuffix": "(Su; Order of the Scourge)",
+		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight gains low-light vision (this effect is constant). In addition, as a full-round action, the Hellknight can see through up to 5 feet of stone, wood, or similar barriers as if they didn't exist. Metal or denser barriers block this effect. Each use of this ability lasts as long as the Hellknight concentrates, up to a number of rounds equal to the Hellknight's level."
+		]
+	},
+	"wrack": {
+		"name": "Wrack",
+		"nameSuffix": "(Su; any order)",
+		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
+		"category": "-",
+		"description": [
+			"The Hellknight may make a touch attack as a standard action to cause a creature to suffer incredible pain. The creature touched takes 1d6 points of damage + the Hellknight's Charisma modifier, and must make a Will save to avoid being staggered for 1d4 rounds."
+		]
+	}
+}

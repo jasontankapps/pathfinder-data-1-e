@@ -489,6 +489,7 @@ const convertCompileableDescription = (temporaryFlags, desc, title, prefix, comp
 		}
 		sources.push(title);
 	});
+	dSource.length && desc.unshift(`{SOURCE ${dSource.join(";")}}  `);
 
 	// Parse the text
 	const parsed = marked.parse(
@@ -496,7 +497,6 @@ const convertCompileableDescription = (temporaryFlags, desc, title, prefix, comp
 			[
 				`## ${title}`,
 				"",
-				`{SOURCE ${dSource.join(";")}}  `,
 				...desc
 			]
 		).join("\n")

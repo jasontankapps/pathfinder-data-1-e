@@ -774,7 +774,7 @@
 			"Ultimate Intrigue"
 		],
 		"compileFrom": {
-			"source": "investigatortalent",
+			"source": "vigilantetalent",
 			"targets": [
 				[
 					"## Vigilante Talents",
@@ -790,7 +790,7 @@
 					""
 				],
 				{
-					"limit": "Vigilante Talents",
+					"limit": "Avenger Talents",
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
