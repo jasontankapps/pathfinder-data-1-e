@@ -462,7 +462,8 @@ const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", 
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
-const convertCompileableDescription = (temporaryFlags, desc, title, prefix, compilationSources) => {
+const convertCompileableDescription = (temporaryFlags, d, title, prefix, compilationSources, sourceEnd, openTag = "", closeTag = "") => {
+	const desc = [...d];
 	$.prefix = prefix;
 	$.flags = {...temporaryFlags};
 	const marked = makeNewMarkedInstance(
@@ -489,7 +490,15 @@ const convertCompileableDescription = (temporaryFlags, desc, title, prefix, comp
 		}
 		sources.push(title);
 	});
-	dSource.length && desc.unshift(`{SOURCE ${dSource.join(";")}}  `);
+	if(dSource.length) {
+		const line = `{SOURCE ${dSource.join(";")}}`;
+		if(sourceEnd) {
+			const last = desc.pop();
+			desc.push(last + "  ", line);
+		} else {
+			desc.unshift(line + "  ");
+		}
+	}
 
 	// Parse the text
 	const parsed = marked.parse(
@@ -507,11 +516,11 @@ const convertCompileableDescription = (temporaryFlags, desc, title, prefix, comp
 		delete flags[prop];
 	});
 	// Return the parsed output, plus flags, plus source list.
-	return [`<>${removeCurlyBrackets(parsed)}</>`, flags, sources];
+	return [`<${openTag}>${removeCurlyBrackets(parsed)}</${closeTag}>`, flags, sources];
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
-const compile = (compileFrom, prefix, temporaryFlags) => {
+const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 	const { source, targets } = compileFrom;
 	const {not_found, ...found} = basic_data_by_link[source];
 	const desc = [];
@@ -553,7 +562,12 @@ const compile = (compileFrom, prefix, temporaryFlags) => {
 				}
 				// Handle the end-bits of `join`
 				const d = obj.description.map((line, j) => bq + (i || j ? "" : beginner) + line).join("@@@") + (i === max ? "" : ender);
-				const sources = obj.compilationSources.map(arr => {
+				const sources = temporaryFlags.mainCompilation ? obj.compilationSources.map(arr => {
+					// main pages don't handle footnotes well, so ignore them
+					const [title, pg] = arr;
+					return pg === undefined ? title : `${title}/${pg}`;
+				}) : obj.compilationSources.map(arr => {
+					// set up footnotes info
 					const [title, pg] = arr;
 					const detail = pg ? `{source/${title}/ pg. ${pg}}` : `{source/${title}}`;
 					if(!footnotes[detail]) {
@@ -566,6 +580,7 @@ const compile = (compileFrom, prefix, temporaryFlags) => {
 				const repl = replacement
 					.replace(/\[\[TITLE\]\]/g, obj.name)
 					.replace(/\[\[\^S\]\]/g, sources.join(" "))
+					.replace(/\[\[SOURCE\]\]/g, `{SOURCE ${sources.join(";")}}`)
 					.replace(/\[\[(.*)SUFFIX\]\]/g, (match, sep) => {
 						const nameSuffix = obj.nameSuffix;
 						if(nameSuffix) {
@@ -618,7 +633,7 @@ const compile = (compileFrom, prefix, temporaryFlags) => {
 			}
 		});
 	}
-	return [keep, ...convertDescription(temporaryFlags, desc, prefix, [])];
+	return [keep, ...convertDescription(temporaryFlags, desc, prefix, [], openTag, closeTag)];
 };
 
 const createItem = (info, prop) => {
@@ -772,7 +787,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			sources, tables, topLink, parent_topics,
 			subtopics, siblings, noFinder,
 			nameSuffix, compilationSources,
-			compileFrom, addenda
+			compileFrom, addenda, sourceEnd
 		} = base;
 		// Convert entities in tables
 		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
@@ -800,7 +815,21 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			case "main":
 				info.title = t;
 				groupFlags.list = true;
-				copyof || (converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList"));
+				if (compileFrom && !copyof) {
+					temporaryFlags.mainCompilation = true;
+					converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags, "IonList lines=\"full\"", "IonList");
+					const newSources = [...info.sources, ...converted.shift()];
+					let x = null;
+					info.sources = newSources.sort().filter(source => {
+						if(source === x) {
+							return false;
+						}
+						x = source;
+						return true;
+					});
+				} else {
+					copyof || (converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList"));
+				}
 				break;
 			case "compileable":
 				info.title = n;
@@ -811,7 +840,8 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 					d,
 					nameSuffix ? `${n} ${nameSuffix}` : n,
 					`${link}-${prop}-`,
-					compilationSources
+					compilationSources,
+					sourceEnd
 				);
 				info.sources = converted.pop();
 				break;

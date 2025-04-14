@@ -627,11 +627,7 @@
 	},
 	"style_strikes": {
 		"name": "Style Strikes",
-		"sources": [
-			"Blood of the Beast",
-			"Martial Arts Handbook",
-			"Pathfinder Unchained"
-		],
+		"sources": [ "Pathfinder Unchained" ],
 		"compileFrom": {
 			"source": "stylestrike",
 			"targets": [

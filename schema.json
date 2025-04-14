@@ -43,10 +43,99 @@
 								"searchgroup": { "$ref": "#searchgroup" },
 								"noFinder": { "type": "boolean" },
 								"tables": { "$ref": "#tables" },
-								"topLink": { "$ref": "#link" },
 								"className": { "type": "string" }
 							},
 							"required": [ "description", "title" ],
+							"unevaluatedProperties": false
+						},
+						{
+							"$comment": "Basic main.json compilation",
+							"properties": {
+								"title": { "type": "string" },
+								"subtitle": { "type": "string" },
+								"tags": { "type": "string" },
+								"sources": { "$ref": "#uniqueArray" },
+								"searchgroup": { "$ref": "#searchgroup" },
+								"noFinder": { "type": "boolean" },
+								"compileFrom": {
+									"type": "object",
+									"properties": {
+										"source": { "$ref": "#source" },
+										"targets": {
+											"type": "array",
+											"$comment": "Each target will be assembled by itself, then joined in order, forming a Markdown document. String arrays are kept as-is.",
+											"items": {
+												"anyOf": [
+													{ "$ref": "#stringArray" },
+													{
+														"type": "object",
+														"properties": {
+															"limit": {
+																"anyOf": [
+																	{
+																		"type": "string",
+																		"$comment": "Only items matching this category will be included."
+																	},
+																	{
+																		"type": "object",
+																		"properties": {
+																			"omit": {
+																				"$ref": "#stringArray",
+																				"$comment": "Items to ignore. All other items will be compiled."
+																			}
+																		}
+																	},
+																	{
+																		"type": "object",
+																		"properties": {
+																			"only": {
+																				"$ref": "#stringArray",
+																				"$comment": "Only these items will be compiled."
+																			}
+																		}
+																	}
+																]
+															},
+															"pre": {
+																"type": "string",
+																"$comment": "This attaches to the beginning of the first item."
+															},
+															"join": {
+																"type": "array",
+																"$comment": "The first element attaches to the end of an item. The last element attaches to the beginning of the next item. Other items are placed in between as separate lines.",
+																"items": { "type": "string" },
+																"minItems": 2
+															},
+															"post": {
+																"type": "string",
+																"$comment": "This attaches to the end of the final item."
+															},
+															"translate": {
+																"$comment": "Items are combined with newlines replaced by three at symbols (@@@), then matched against the regex, combined into the form specified by the replacement, then split into newlines on the triple-at again.",
+																"type": "object",
+																"properties": {
+																	"regex": {
+																		"type": "string",
+																		"$comment": "This will be modified to catch the ENTIRE item (no need to add ^ and $ at start and end)."
+																	},
+																	"replacement": {
+																		"type": "string",
+																		"$comment": "The special phrase [[TITLE]] (with double-brackets) will be replaced by the item's name property. The special phrase [[ SUFFIX]] will be replaced by a space (or whatever you put before SUFFIX) and the item's nameSuffix property, or will be replaced by the empty string if there is no nameSuffix. The special phrase [[^S]] (with double-brackets) will be replaced with a footnote leading to the item's source. Otherwise, this is a normal regex replacement string."
+																	}
+																},
+																"required": [ "regex", "replacement" ]
+															}			
+														},
+														"required": [ "join", "translate", "limit" ]
+													}
+												]
+											}
+										}
+									},
+									"required": [ "source", "targets" ]
+								}
+							},
+							"required": [ "compileFrom", "title" ],
 							"unevaluatedProperties": false
 						},
 						{
@@ -92,7 +181,8 @@
 									"type": "number",
 									"minimum": 1,
 									"multipleOf": 1
-								}
+								},
+								"sourceEnd": { "type": "boolean" }
 							},
 							"required": [ "description", "name", "compilationSources" ],
 							"unevaluatedProperties": false

@@ -3,6 +3,8 @@
 		"title": "Magic Weapons",
 		"sources": [],
 		"description": [
+			"::main[Magic Weapons]{to=rule/magic_weapons}",
+			"",
 			":::item",
 			"",
 			"{table0}",
@@ -518,13 +520,14 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"topLink": [ "Magic Weapons", "rule/magic_weapons" ]
+		]
 	},
 	"magic_rings": {
 		"title": "Magic Rings",
 		"sources": [],
 		"description": [
+			"::main[Rings]{to=rule/rings}",
+			"",
 			":::item",
 			"",
 			"{table0}",
@@ -768,13 +771,14 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"topLink": [ "Rings", "rule/rings" ]
+		]
 	},
 	"magic_rods": {
 		"title": "Magic Rods",
 		"sources": [],
 		"description": [
+			"::main[Rods]{to=rule/rods}",
+			"",
 			":::item",
 			"",
 			"{table0}",
@@ -1039,8 +1043,7 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"topLink": [ "Rods", "rule/rods" ]
+		]
 	},
 	"magic_misc": {
 		"title": "Miscellaneous Magic Items",
@@ -1618,6 +1621,8 @@
 		"title": "Magic Armor",
 		"sources": [],
 		"description": [
+			"::main[Magic Armor]{to=rule/magic_armor}",
+			"",
 			":::item",
 			"",
 			"{table0}",
@@ -1884,13 +1889,14 @@
 				],
 				"initialColumn": 2
 			}
-		],
-		"topLink": [ "Magic Armor", "rule/magic_armor" ]
+		]
 	},
 	"magic_artifacts": {
 		"title": "Artifacts",
 		"sources": [],
 		"description": [
+			"::main[Artifacts]{to=rule/artifacts}",
+			"",
 			":::item",
 			"",
 			"{table0}",
@@ -2240,14 +2246,15 @@
 				],
 				"initialColumn": 0
 			}
-		],
-		"topLink": [ "Artifacts", "rule/artifacts" ]
+		]
 	},
 	"magic_cursed": {
 		"title": "Cursed Items",
 		"sources": [],
 		"searchgroup": "magic",
 		"description": [
+			"::main[Cursed Magic Items]{to=rule/cursed_items}",
+			"",
 			"::mainheader[Armor and Shields]",
 			"",
 			"::main[Armor of Arrow Attraction]{to=magic-armor/armor_of_arrow_attraction}",
@@ -2433,8 +2440,7 @@
 			"::main[Unspeakable One's Vestments]{to=magic-wondrous/unspeakable_ones_vestments}",
 			"",
 			"::main[Vacuous Grimoire]{to=magic-wondrous/vacuous_grimoire}"
-		],
-		"topLink": [ "Cursed Magic Items", "rule/cursed_items" ]
+		]
 	},
 	"magic_enhancements": {
 		"title": "Magic - Enhancements",
@@ -2938,7 +2944,6 @@
 				],
 				"initialColumn": 1
 			}
-		],
-		"topLink": [ "Staves", "rule/staves" ]
+		]
 	}
 }

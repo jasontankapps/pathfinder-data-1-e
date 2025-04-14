@@ -367,11 +367,11 @@ import spell14 from './json/spells14.json' with {type: 'json'};
 import spell15 from './json/spells15.json' with {type: 'json'};
 import spell16 from './json/spells16.json' with {type: 'json'};
 import spell17 from './json/occult_rituals.json' with {type: 'json'};
-import trait1 from './json/traits.json' with {type: 'json'};
-import trait2 from './json/traits2.json' with {type: 'json'};
-import trait3 from './json/traits3.json' with {type: 'json'};
-import trait4 from './json/traits4.json' with {type: 'json'};
-import trait5 from './json/traits5.json' with {type: 'json'};
+import trait1 from './json/traits01.json' with {type: 'json'};
+import trait2 from './json/traits02.json' with {type: 'json'};
+import trait3 from './json/traits03.json' with {type: 'json'};
+import trait4 from './json/traits04.json' with {type: 'json'};
+import trait5 from './json/traits05.json' with {type: 'json'};
 
 // The property names are descriptive and should only be used for error messages and the like.
 const basic_data_groups = {
@@ -1732,6 +1732,7 @@ const basic_data_groups = {
 	},
 	"traits": {
 		data: trait1,
+		datatype: "compileable",
 		searchgroup: 4, // trait
 		link: "trait",
 		num: 1,
@@ -1739,6 +1740,7 @@ const basic_data_groups = {
 	},
 	"traits2": {
 		data: trait2,
+		datatype: "compileable",
 		searchgroup: 4, // trait
 		link: "trait",
 		num: 2,
@@ -1746,6 +1748,7 @@ const basic_data_groups = {
 	},
 	"traits3": {
 		data: trait3,
+		datatype: "compileable",
 		searchgroup: 4, // trait
 		link: "trait",
 		num: 3,
@@ -1753,6 +1756,7 @@ const basic_data_groups = {
 	},
 	"traits4": {
 		data: trait4,
+		datatype: "compileable",
 		searchgroup: 4, // trait
 		link: "trait",
 		num: 4,
@@ -1760,6 +1764,7 @@ const basic_data_groups = {
 	},
 	"traits5": {
 		data: trait5,
+		datatype: "compileable",
 		searchgroup: 4, // trait
 		link: "trait",
 		num: 5,
