@@ -154,7 +154,7 @@ const App: FC = () => {
 								<BookmarksPage />
 							</Suspense>
 						</Route>
-						<Route path="/bookmarks/:color">
+						<Route path="/bookmarks/:id">
 							<Suspense fallback={<Loading />}>
 								<BookmarkPage />
 							</Suspense>

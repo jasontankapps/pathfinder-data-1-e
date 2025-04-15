@@ -22,8 +22,8 @@ import {
 import getPageName from '../components/getPageName';
 import { goTo } from '../store/historySlice';
 import {
-	addDivider, Color, universalBookmarkDividerId, editBookmark, removeBookmark,
-	removeDivider, renameGroup, reorderBookmarks
+	addDivider, Color, universalBookmarkDividerId, editBookmark,
+	removeBookmark, renameGroup, reorderBookmarks
 } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import BasicPage from './BasicPage';
@@ -32,17 +32,18 @@ import './Page.css';
 
 
 interface BookmarkDividerProps {
+	id: string
 	title: string
 	color: Color
+	index: number
 }
 interface BookmarkItemProps extends BookmarkDividerProps {
-	id: string
-	doEdit: (id: string, current: string) => void
+	doEdit: (id: string, position: number) => void
 }
 
 const BookmarkItem: FC<BookmarkItemProps> = (props) => {
-	const { id, title, color, doEdit } = props;
-	const [path, navigate] = useLocation();
+	const { index, id, title, color, doEdit } = props;
+	const [, navigate] = useLocation();
 	const dispatch = useAppDispatch();
 	return (
 		<IonItemSliding key={`orderable-bookmark-${id}-in-group-${color || ""}`}>
@@ -54,11 +55,11 @@ const BookmarkItem: FC<BookmarkItemProps> = (props) => {
 				<IonIcon slot="end" icon="/icons/swipe-left.svg" />
 			</IonItem>
 			<IonItemOptions side="end">
-				<IonItemOption color="secondary" onClick={() => doEdit(id, title)}>
+				<IonItemOption color="secondary" onClick={() => doEdit(id, index)}>
 					<IonIcon slot="top" icon={pencil} />
 					Rename
 				</IonItemOption>
-				<IonItemOption color="danger" onClick={() => color && dispatch(removeBookmark({id, color}))}>
+				<IonItemOption color="danger" onClick={() => color && dispatch(removeBookmark({id, position: index}))}>
 					<IonIcon slot="top" icon={trash} />
 					Delete
 				</IonItemOption>
@@ -68,7 +69,7 @@ const BookmarkItem: FC<BookmarkItemProps> = (props) => {
 };
 //<IonLabel className="ion-text-center"><BookmarkDividerSVG /></IonLabel>
 const BookmarkDivider: FC<BookmarkDividerProps> = (props) => {
-	const { title, color } = props;
+	const { index, id, color } = props;
 	const dispatch = useAppDispatch();
 	return (
 		<IonItemSliding>
@@ -82,7 +83,7 @@ const BookmarkDivider: FC<BookmarkDividerProps> = (props) => {
 				<div slot="end" className="dummy"></div>
 			</IonItem>
 			<IonItemOptions side="end">
-				<IonItemOption color="danger" onClick={() => color && dispatch(removeDivider({color, title}))}>
+				<IonItemOption color="danger" onClick={() => color && dispatch(removeBookmark({id, position: index}))}>
 					<IonIcon slot="icon-only" icon={trash} />
 				</IonItemOption>
 			</IonItemOptions>
@@ -101,22 +102,22 @@ const Fab: FC<{color: Color, func: () => void}> = ({color, func}) => {
 	);
 };
 
-type Params = { color: Color };
+type Params = { id: string };
 
 const blank: [string, string][] = [];
 
 const BookmarkPage: FC<{}> = () => {
-	const { color } = useParams<Params>();
+	const { id } = useParams<Params>();
 	const [doAlert] = useIonAlert();
 	const [scrollObj, setScrollObj] = useState<RefObject<HTMLIonContentElement> | null>(null);
-	const data = useAppSelector(state => state.bookmarks);
-	const {color: c, title, contents} = (color && data[color]) || { color: "", title: "(error)", contents: blank };
+	const data = useAppSelector(state => state.bookmarks.db[id]);
+	const {color, title, contents} = data || { color: "red", title: "(error)", contents: blank };
 
 	const [disabled, setDisabled] = useState(true);
 	const dispatch = useAppDispatch();
-	const defaultTitle = c.slice(0,1).toUpperCase() + c.slice(1);
+	const defaultTitle = color.slice(0,1).toUpperCase() + color.slice(1);
 	const [currentTitle, setCurrentTitle] = useState(title);
-	const [path, navigate] = useLocation();
+	const [, navigate] = useLocation();
 	const titleInput = useRef<HTMLIonInputElement>(null);
 
 	const scrollHook = useCallback((input: RefObject<HTMLIonContentElement>) => {
@@ -133,8 +134,8 @@ const BookmarkPage: FC<{}> = () => {
 		setCurrentTitle(title);
 	}, [title]);
 
-	const doEdit = useCallback((id: string, current: string) => {
-		const list = document.getElementById(color + "BookmarkList") as null | HTMLIonListElement;
+	const doEdit = useCallback((current: string, position: number) => {
+		const list = document.getElementById(id + "BookmarkList") as null | HTMLIonListElement;
 		if(list) {
 			list.closeSlidingItems();
 		}
@@ -158,19 +159,19 @@ const BookmarkPage: FC<{}> = () => {
 					handler: (e: boolean | void | { [key: string]: string }) => {
 						if(e && e !== true) {
 							const title = e["0"] || base; // first input
-							dispatch(editBookmark({id, title, color}));
+							dispatch(editBookmark({id, title, position}));
 						}
 					}
 				}
 			]
 		});
-	}, [doAlert, dispatch, color]);
+	}, [doAlert, dispatch, id]);
 
 	const handleReorder = (event: CustomEvent<ItemReorderEventDetail>) => {
 		const {to, from, complete} = event.detail;
 		// The `from` and `to` properties contain the index of the item
 		// when the drag started and ended, respectively
-		dispatch(reorderBookmarks({color, from, to}));
+		dispatch(reorderBookmarks({id, from, to}));
 
 		// Finish the reorder and position the item in the DOM based on
 		// where the gesture ended. This method can also be called directly
@@ -187,15 +188,16 @@ const BookmarkPage: FC<{}> = () => {
 			return;
 		}
 		setDisabled(true);
-		color && dispatch(renameGroup({color, title: currentTitle.trim() || defaultTitle}));
+		id && dispatch(renameGroup({id, title: currentTitle.trim() || defaultTitle}));
 	};
 
 	const members = useMemo(() => {
-		return contents.map(([id, title]) => {
+		return contents.map((info, position) => {
+			const [id, title] = info;
 			if(id === universalBookmarkDividerId) {
-				return <BookmarkDivider title={title} color={color} key={`orderable-bookmark-${title}-in-group-${color || ""}`} />;
+				return <BookmarkDivider color={color} index={position} title={title} id={id} key={`orderable-bookmark-${title}-in-group-${id || ""}`} />;
 			}
-			return <BookmarkItem id={id} title={title} color={color} doEdit={doEdit} key={`orderable-bookmark-${id}-in-group-${color || ""}`} />;
+			return <BookmarkItem id={id} index={position} title={title} color={color} doEdit={doEdit} key={`orderable-bookmark-${id}-in-group-${color || ""}`} />;
 		});
 	} , [contents, color, doEdit, dispatch, navigate]);
 

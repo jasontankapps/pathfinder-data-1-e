@@ -2,93 +2,86 @@ import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 import { v7 as uuidv7 } from 'uuid';
 
-export type Color = "red" | "orange" | "yellow" | "chartreuse" | "green" | "cyan" | "blue" | "purple" | "magenta" | "pink";
+export type Color =
+	"red" | "redorange" | "orange" | "lightorange"
+	| "yellow" | "chartreuse" | "green" | "bluegreen"
+	| "teal" | "cyan" | "blue" | "skyblue" | "purple"
+	| "magenta" | "pink" | "brown" | "grey" | "bluegrey";
 
-type BookmarkDB = { [key: string]: Color[] }
+export type BookmarkDB = { [key: string]: BookmarkGroup }
+
+type Catalog = { [key: string]: string[] }
 
 type Link = string;
 type Title = string;
 
+type Bookmark = [Link, Title];
+
 export interface BookmarkGroup {
 	color: Color
 	title: string
-	contents: [Link, Title][]
+	contents: Bookmark[]
 	hidden: boolean
 }
 
 export type ColorState = {[key in Color]: BookmarkGroup}
 
-interface BookmarkState extends ColorState {
+interface BookmarkState {
+	catalog: Catalog
 	db: BookmarkDB
-	order: Color[]
+	order: string[]
 }
 
 export const universalBookmarkDividerId = "di-vi-der";
 
 // Define the initial value for the slice state
 export const initialState: BookmarkState = {
-	db: {},
-	order: ["red", "orange", "yellow", "chartreuse", "green", "cyan", "blue", "purple", "magenta", "pink"],
-	red: {
-		color: "red",
-		title: "Red",
-		contents: [],
-		hidden: false
+	db: {
+		"original-red": {
+			color: "red",
+			title: "Red",
+			contents: [],
+			hidden: false
+		},
+		"original-yellow": {
+			color: "yellow",
+			title: "Yellow",
+			contents: [],
+			hidden: false
+		},
+		"original-green": {
+			color: "green",
+			title: "Green",
+			contents: [],
+			hidden: false
+		},
+		"original-cyan": {
+			color: "cyan",
+			title: "Cyan",
+			contents: [],
+			hidden: false
+		},
+		"original-blue": {
+			color: "blue",
+			title: "Blue",
+			contents: [],
+			hidden: false
+		},
+		"original-purple": {
+			color: "purple",
+			title: "Purple",
+			contents: [],
+			hidden: false
+		},
+		"original-bluegrey": {
+			color: "grey",
+			title: "Grey",
+			contents: [],
+			hidden: false
+		}
 	},
-	orange: {
-		color: "orange",
-		title: "Orange",
-		contents: [],
-		hidden: false
-	},
-	yellow: {
-		color: "yellow",
-		title: "Yellow",
-		contents: [],
-		hidden: false
-	},
-	chartreuse: {
-		color: "chartreuse",
-		title: "Chartreuse",
-		contents: [],
-		hidden: false
-	},
-	green: {
-		color: "green",
-		title: "Green",
-		contents: [],
-		hidden: false
-	},
-	cyan: {
-		color: "cyan",
-		title: "Cyan",
-		contents: [],
-		hidden: false
-	},
-	blue: {
-		color: "blue",
-		title: "Blue",
-		contents: [],
-		hidden: false
-	},
-	purple: {
-		color: "purple",
-		title: "Purple",
-		contents: [],
-		hidden: false
-	},
-	magenta: {
-		color: "magenta",
-		title: "Magenta",
-		contents: [],
-		hidden: false
-	},
-	pink: {
-		color: "pink",
-		title: "Pink",
-		contents: [],
-		hidden: false
-	}
+	catalog: {},
+	order: ["red", "yellow", "green", "cyan", "blue", "purple", "grey"]
 };
 
 
@@ -99,116 +92,137 @@ export const bookmarkSlice = createSlice({
 	initialState,
 	// The `reducers` field lets us define reducers and generate associated actions
 	reducers: {
-		addBookmark: (state, action: PayloadAction<{id: string, title: string, color: Color}>) => {
-			const { id, title, color } = action.payload;
-			const { db, ...etc} = state;
-			const total = db[id] || [];
-			const newState = {
-				db: {...db},
-				...etc
+		addBookmark: (state, action: PayloadAction<{id: string, link: string, title: string}>) => {
+			const { id, link, title } = action.payload;
+			const { db, catalog, ...etc} = state;
+			const group = db[id];
+			const newGroup = {
+				...group,
+				contents: [...group.contents, [link, title] as Bookmark]
 			};
-			newState.db[id] = [...total, color];
-			newState[color] = {
-				...etc[color],
-				contents: [...etc[color].contents, [id, title]]
-			};
-			return newState;
-		},
-		removeBookmark: (state, action: PayloadAction<{id: string, color: Color}>) => {
-			const { id, color } = action.payload;
-			const { db, ...etc} = state;
-			const newState = {
-				db: {...db},
-				...etc
-			};
-			newState.db[id] = db[id].filter(x => x !== color);
-			if(newState.db[id].length === 0) {
-				delete newState.db[id];
-			}
-			newState[color] = {
-				...etc[color],
-				contents: etc[color].contents.filter(x => x[0] !== id)
-			};
-			return newState;
-		},
-		editBookmark: (state, action: PayloadAction<{id: string, title: string, color: Color}>) => {
-			const { id, title, color } = action.payload;
-			const { db, ...etc} = state;
-			const newState = {
-				db: {...db},
-				...etc
-			};
-			newState[color] = {
-				...etc[color],
-				contents: etc[color].contents.map(x => {
-					if (x[0] !== id) {
-						return x;
-					}
-					return [x[0], title]
-				})
-			};
-			return newState;
-		},
-		addDivider: (state, action: PayloadAction<Color>) => {
-			const color = action.payload;
-			const newState = {...state};
-			const {contents, ...etc} = newState[color];
-			newState[color] = {
-				...etc,
-				contents: [...contents, [universalBookmarkDividerId, uuidv7()]]
-			}
-			return newState;
-		},
-		removeDivider: (state, action: PayloadAction<{color: Color, title: string}>) => {
-			const { color, title } = action.payload;
-			const newState = {...state};
-			const {contents, ...etc} = newState[color];
-			newState[color] = {
-				...etc,
-				contents: contents.filter(([id, t]) => id !== universalBookmarkDividerId || t !== title)
-			}
-			return newState;
-		},
-		reorderBookmarks: (state, action: PayloadAction<{color: Color, from: number, to: number}>) => {
-			const { color, from, to } = action.payload;
-			const newState = {...state};
-			const {contents: ids, ...etc} = newState[color];
-			if(from > to) {
-				const pre = ids.slice(0, to);
-				const mid = ids.slice(to, from);
-				const end = ids.slice(from + 1);
-				newState[color] = {
-					...etc,
-					contents: [...pre, ids[from], ...mid, ...end]
-				};
+			const newCat = {...catalog};
+			if(newCat[link]) {
+				newCat[link] = [...newCat[link], id];
 			} else {
-				const pre = ids.slice(0, from);
-				const mid = ids.slice(from + 1, to + 1);
-				const end = ids.slice(to + 1);
-				newState[color] = {
-					...etc,
-					contents: [...pre, ...mid, ids[from], ...end]
-				};
+				newCat[link] = [id];
 			}
-			return newState;
-		},
-		toggleHidden: (state, action: PayloadAction<Color>) => {
-			const newState = {...state};
-			const color = action.payload;
-			newState[color] = {
-				...newState[color],
-				hidden: !newState[color].hidden
+			const newState = {
+				db: {
+					...db,
+					id: newGroup
+				},
+				catalog: newCat,
+				...etc
 			};
 			return newState;
 		},
-		renameGroup: (state, action: PayloadAction<{color: Color, title: string}>) => {
-			const { color, title } = action.payload;
-			const newState = {...state};
-			newState[color] = {
-				...state[color],
-				title
+		removeBookmark: (state, action: PayloadAction<{id: string, position: number}>) => {
+			const { id, position } = action.payload;
+			const { db, catalog, ...etc} = state;
+			const group = db[id];
+			const contents = group.contents;
+			const link = contents[position][0];
+			group.contents = contents.slice(0, position).concat(contents.slice(position + 1));
+			const newCat = {...catalog};
+			if(newCat[link]) {
+				const listing = newCat[link].filter(x => x !== id);
+				if(listing.length) {
+					newCat[link] = listing;
+				} else {
+					delete newCat[link];
+				}
+			}
+			const newState = {
+				db: {
+					...db,
+					id: group
+				},
+				catalog: newCat,
+				...etc
 			};
 			return newState;
+		},
+		editBookmark: (state, action: PayloadAction<{id: string, title: string, position: number}>) => {
+			const { id, title, position } = action.payload;
+			const { db, order, catalog } = state;
+			const etc = {...db};
+			const contents = db[id].contents.map(([x, y]) => [x, y] as Bookmark);
+			contents[position][1] = title;
+			const newGroup = {
+				...db[id],
+				contents
+			}
+			etc[id] = newGroup;
+			const newState = {
+				order,
+				db: etc,
+				catalog
+			};
+			return newState;
+		},
+		addDivider: (state, action: PayloadAction<string>) => {
+			const id = action.payload;
+			const {order, db, catalog} = state;
+			const etc = {...db};
+			const group = {...db[id]};
+			group.contents = [...group.contents, [universalBookmarkDividerId, uuidv7()]];
+			etc[id] = group;
+			const newState = {
+				order,
+				catalog,
+				db: etc
+			};
+			return newState;
+		},
+		reorderBookmarks: (state, action: PayloadAction<{id: string, from: number, to: number}>) => {
+			const { id, from, to } = action.payload;
+			const { order, db, catalog } = state;
+			const etc = {...db};
+			const group = {...etc[id]};
+			const contents = [...group.contents];
+			if(from > to) {
+				const pre = contents.slice(0, to);
+				const mid = contents.slice(to, from);
+				const end = contents.slice(from + 1);
+				group.contents = [...pre, contents[from], ...mid, ...end];
+			} else {
+				const pre = contents.slice(0, from);
+				const mid = contents.slice(from + 1, to + 1);
+				const end = contents.slice(to + 1);
+				group.contents = [...pre, ...mid, contents[from], ...end];
+			}
+			etc[id] = group;
+			return {
+				order,
+				catalog,
+				db: etc
+			};
+		},
+		toggleHidden: (state, action: PayloadAction<string>) => {
+			const id = action.payload;
+			const { order, db, catalog } = state;
+			const etc = {...db};
+			const group = etc[id];
+			group.hidden = !group.hidden;
+			etc[id] = group;
+			return {
+				order,
+				catalog,
+				db: etc
+			};
+		},
+		renameGroup: (state, action: PayloadAction<{id: string, title: string}>) => {
+			const { id, title } = action.payload;
+			const { order, db, catalog } = state;
+			const etc = {...db};
+			const group = etc[id];
+			group.title = title;
+			etc[id] = group;
+			return {
+				order,
+				catalog,
+				db: etc
+			};
 		},
 		reorderGroups: (state, action: PayloadAction<{from: number, to: number}>) => {
 			const { from, to } = action.payload;
@@ -227,42 +241,35 @@ export const bookmarkSlice = createSlice({
 			}
 			return newState;
 		},
-		importBookmarksGroup: (state, action: PayloadAction<{color: Color, title: string, contents: [string, string][]}>) => {
-			const { color, title, contents } = action.payload;
-			const { db: dbx, order, ...colors } = state;
-			const db = {...dbx};
-
-			// Get info currently stored in the target bookmark group
-			const { color: c, contents: cx, hidden } = colors[color];
-
-			// Split up pages into two groups
-			//   1) Pages in the current group that are not in the incoming group (remove these)
-			cx.filter(x => contents.indexOf(x) === -1).forEach(([page, x]) => {
-				const final = db[page].filter(x => x !== c);
-				if(final.length > 0) {
-					db[page] = db[page].filter(x => x !== c);
-				} else {
-					delete db[page];
+		addBookmarkGroups: (state, action: PayloadAction<Omit<BookmarkGroup, "hidden">[]>) => {
+			const payload = action.payload;
+			const {order: incoming, db: oldDb, catalog} = state;
+			const db = {...oldDb};
+			const order = [...incoming];
+			payload.forEach((group: Omit<BookmarkGroup, "hidden">) => {
+				const id = uuidv7();
+				db[id] = {
+					...group,
+					hidden: false
 				}
+				order.push(id);
 			});
-			//   2) Pages in the incoming group that are not in the current group (add these)
-			contents.filter(x => cx.indexOf(x) === -1).forEach(([page, x]) => {
-				if(db[page]) {
-					db[page] = [...db[page], c];
-				} else {
-					db[page] = [c];
-				}
-			});
-			// (Pages that are in both groups will remain unaffected)
-
-			// Save the new info
-			const newState = {
-				db,
-				order,
-				...colors
-			};
-			newState[color] = { color: c, title, contents, hidden };
+			const newState = { order, db, catalog };
 			return newState;
+		},
+		deleteBookmarkGroup: (state, action: PayloadAction<string>) => {
+			const id = action.payload;
+			const {order: o, db: d, catalog: c} = state;
+			const order = o.filter(x => x !== id);
+			const catalog: Catalog = {};
+			Object.entries(c).forEach(([link, contents]) => {
+				catalog[link] = contents.filter(x => x !== id);
+			});
+			const db = {...d};
+			delete db[id];
+			return {
+				db, order, catalog
+			};
 		}
 	}
 });
@@ -271,8 +278,9 @@ export const bookmarkSlice = createSlice({
 export const {
 	addBookmark, removeBookmark,
 	editBookmark, reorderBookmarks,
-	toggleHidden, renameGroup, reorderGroups,
-	importBookmarksGroup, addDivider, removeDivider
+	toggleHidden, renameGroup,
+	reorderGroups, addBookmarkGroups,
+	deleteBookmarkGroup, addDivider
 } = bookmarkSlice.actions;
 
 // Export the slice reducer for use in the store configuration

@@ -4,6 +4,12 @@ ion-icon,
 ion-item,
 ion-text,
 ion-toggle {
+	/*
+		--color: Signature color for icons and such
+		--color-text: Color that is readable on the default background
+		--bg: Color that can be used as a background for items, often with colored text on top
+		--*-dim: Dimmer versions of the above, for "inactive" elements
+	*/
 	--red: #d00;
 	--red-fg: #300;
 	--red-fg-dim: #3007;

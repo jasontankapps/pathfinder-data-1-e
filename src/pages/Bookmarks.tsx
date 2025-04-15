@@ -19,9 +19,9 @@ import BasicPage from './BasicPage';
 import './Page.css';
 
 const BookmarksPage: React.FC = () => {
-	const { db, order, ...colors } = useAppSelector(state => state.bookmarks);
+	const { db, order } = useAppSelector(state => state.bookmarks);
 	const dispatch = useAppDispatch();
-	const [path, navigate] = useLocation();
+	const [, navigate] = useLocation();
 
 	const ImportExport = useMemo(() => (
 		<IonButton onClick={() => { navigate(`/importexport`); dispatch(goTo(`/importexport`)); }}>
@@ -31,18 +31,18 @@ const BookmarksPage: React.FC = () => {
 
 	const allBookmarks = useMemo(() => {
 		return order.map(c => {
-			const {title, hidden} = colors[c];
+			const {title, color, hidden} = db[c];
 			return (
 				<IonItem
 					key={`orderable-bookmark-group-${c}`}
 					detail={false}
-					className={"link bmColor color-" + c + (hidden ? " dim" : "")}
+					className={"link bmColor color-" + color + (hidden ? " dim" : "")}
 				>
 					<IonReorder slot="start">
 						<IonIcon icon={reorderTwo} color={hidden ? "medium" : "dark"} />
 					</IonReorder>
 					<IonLabel onClick={() => { navigate(`/bookmarks/${c}`); dispatch(goTo(`/bookmarks/${c}`)); }}>
-						<IonText className={`color-fg-${c}`}>{title}</IonText>
+						<IonText className={`color-${color}`}>{title}</IonText>
 					</IonLabel>
 					<IonButton color={hidden ? "medium" : "dark"} fill="clear" slot="end" onClick={() => dispatch(toggleHidden(c))}>
 						<IonIcon slot="icon-only" icon={hidden ? eyeOff : eye} />
@@ -50,7 +50,7 @@ const BookmarksPage: React.FC = () => {
 				</IonItem>
 			);
 		});
-	}, [db, order, location, colors, dispatch]);
+	}, [db, order, location, dispatch]);
 
 	const handleReorder = (event: CustomEvent<ItemReorderEventDetail>) => {
 		const {to, from, complete} = event.detail;

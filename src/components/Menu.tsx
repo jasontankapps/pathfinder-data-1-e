@@ -198,11 +198,11 @@ const makeItem = (
 const Menu: React.FC = () => {
 	const [loc] = useLocation();
 	const dispatch = useAppDispatch();
-	const [path, navigate] = useLocation();
-	const {db, order, ...colors} = useAppSelector(state => state.bookmarks);
+	const [, navigate] = useLocation();
+	const {db, order} = useAppSelector(state => state.bookmarks);
 	const n = appPages.length;
 	const bookmarked: [Page, string][] = order
-		.map(c => colors[c])
+		.map(c => db[c])
 		.filter(c => !c.hidden && (c.contents.length > 0))
 		.map(c => ([
 			{

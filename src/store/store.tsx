@@ -18,7 +18,7 @@ import scrollReducer, {initialState as scroll} from './scrollSlice';
 import historyReducer, {initialState as history} from './historySlice';
 import searchReducer, {initialState as search} from './searchSlice';
 import displayTableReducer, {initialState as displayTable} from './displayTableSlice';
-import bookmarksReducer, {initialState as bookmarks} from './bookmarksSlice';
+import bookmarksReducer, {BookmarkDB, BookmarkGroup, initialState as bookmarks} from './bookmarksSlice';
 
 //
 //
@@ -36,28 +36,26 @@ const initialAppState = {
 //
 
 const migrations = {
-	3: (state: any) => {
+	5: (state: any) => {
 		const {bookmarks} = state;
-		const {order, teal, ...etc} = bookmarks;
-		teal.color = "chartreuse";
+		const {order, db, ...etc} = bookmarks;
+		const newDb: BookmarkDB = {};
+		Object.entries(etc).forEach(([color, group]) => {
+			newDb[`original-${color as string}`] = group as BookmarkGroup;
+		});
+		const catalog: {[key: string]: string[]} = {};
+		Object.entries(db).forEach(([link, ids]) => {
+			catalog[link] = (ids as string[]).map(id => `original-${id}`);
+		});
 		return {
 			...state,
 			bookmarks: {
-				order: ["red", "orange", "yellow", "chartreuse", "green", "cyan", "blue", "purple", "magenta", "pink"],
-				chartreuse: teal,
-				...etc
+				order: order.map((id: string) => `original-${id}`),
+				db: newDb,
+				catalog
 			}
 		}
 	},
-	4: (state: any) => {
-		return {
-			...state,
-			displayTable: {
-				actives: {},
-				filters: {}
-			}
-		};
-	}
 };
 
 const reducerConfig = {
@@ -73,7 +71,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 4,
+	version: 5,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

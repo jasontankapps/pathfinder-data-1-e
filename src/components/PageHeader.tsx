@@ -1,12 +1,11 @@
-import { Dispatch, PropsWithChildren, useMemo, ReactElement } from 'react';
+import { Dispatch, PropsWithChildren, useMemo, ReactElement, MouseEventHandler } from 'react';
 import {
 	IonButton, IonButtons, IonHeader, IonIcon,
 	IonMenuButton, IonTitle, IonToolbar, IonPopover,
 	IonContent, IonList, IonItem, IonText, IonLabel
 } from '@ionic/react';
-import { bookmark, bookmarkOutline, bookmarks, search } from 'ionicons/icons';
+import { bookmark, bookmarkOutline, bookmarks, } from 'ionicons/icons';
 import { useLocation } from 'wouter';
-import { goTo } from '../store/historySlice';
 import { addBookmark, removeBookmark } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import getPageName from './getPageName';
@@ -14,28 +13,35 @@ import './Bookmarks.css';
 
 const Bookmarks: React.FC<{location: string}> = ({location}) => {
 	const dispatch = useAppDispatch();
-	const { db, order, ...colors } = useAppSelector((state) => state.bookmarks);
-	const bookmarked = db[location] || [];
+	const { db, order, catalog } = useAppSelector((state) => state.bookmarks);
+	const bookmarked = catalog[location] || [];
 	const checkboxes = useMemo(() => {
-		const current = db[location] || [];
-		return order.filter(c => !colors[c].hidden).map(c => {
-			const checked = current.indexOf(c) > -1;
-			const color = colors[c];
-			const addOrRemove = checked ? removeBookmark : addBookmark;
+		return order.filter(id => !db[id].hidden).map(id => {
+			const position = bookmarked.indexOf(id);
+			const checked = position > -1;
+			const {color, title} = db[id];
 			const bookmarkingIcon = checked ? bookmark : bookmarkOutline;
+			let onClick: MouseEventHandler<HTMLIonItemElement>;
+			if(checked) {
+				// Set up to remove
+				onClick = () => dispatch(removeBookmark({id, position}));
+			} else {
+				// Set up to add
+				onClick = () => dispatch(addBookmark({link: location, title: getPageName(location), id}));
+			}
 			return (
 				<IonItem
-					key={`checkbox-bookmark-${c}`}
-					onClick={() => dispatch(addOrRemove({id: location, title: getPageName(location), color: c}))}
+					key={`checkbox-bookmark-${id}`}
+					onClick={onClick}
 					button
 					detail={false}
 				>
-					<IonLabel><IonText className={`color-${c}`}>{color.title}</IonText></IonLabel>
-					<IonIcon className={`color-${c}`} slot="end" icon={bookmarkingIcon} />
+					<IonLabel><IonText className={`color-${color}`}>{title}</IonText></IonLabel>
+					<IonIcon className={`color-${color}`} slot="end" icon={bookmarkingIcon} />
 				</IonItem>
 			);
 		});
-	}, [db, order, location, colors, dispatch]);
+	}, [db, order, location, bookmarked, dispatch]);
 	return (
 		<>
 			<IonButton id={`${location}bookmarker`}>
