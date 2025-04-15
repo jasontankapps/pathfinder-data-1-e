@@ -10,7 +10,7 @@ import {
 	IonRippleEffect
 } from '@ionic/react';
 import { Dispatch } from '@reduxjs/toolkit';
-import { alertCircle, bookmark, bookmarks, shieldCheckmark } from 'ionicons/icons';
+import { alertCircle, bookmark, bookmarks, search, shieldCheckmark } from 'ionicons/icons';
 import { useLocation } from 'wouter';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goTo } from '../store/historySlice';
@@ -63,6 +63,11 @@ const basicBookmarkPage: Page = {
 };
 
 const appPages: AppPage[] = [
+	{
+		title: "Search",
+		url: "/search",
+		icon: search
+	},
 	{
 		title: "Cheatsheet",
 		url: "/main/cheatsheet",

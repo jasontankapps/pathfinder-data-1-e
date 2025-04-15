@@ -324,7 +324,7 @@ const SearchPage: FC = () => {
 
 	return (
 		<IonPage>
-			<PageHeader title="Search" noSearch notBookmarkable>
+			<PageHeader title="Search" notBookmarkable>
 				<IonToolbar>
 					<IonSearchbar
 						ref={ref}

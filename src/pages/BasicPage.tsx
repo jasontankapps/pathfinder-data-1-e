@@ -37,6 +37,9 @@ interface PageProps extends Partial<DisplayItemProps> {
 	scrollHook?: (input: RefObject<HTMLIonContentElement>) => void
 }
 
+const opaque = { opacity: 1 };
+const unopaque = { opacity: 0 };
+
 const debounceNamespace: { [key: string]: any } = {};
 
 const debounce = (fn: Function, ns: string, delay: number = 500) => {
@@ -275,36 +278,34 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		setHighlightedText
 	), [markers, highlightedText, setHighlightedText]);
 
+	const findInPageFunc = useCallback(() => {
+		setSearchBoxOpen(!searchBoxOpen);
+		searchBoxOpen
+			? onInput(null)
+			: (
+				findInPageSearchbarObj
+				&& findInPageSearchbarObj.current
+				&& findInPageSearchbarObj.current.setFocus
+				&& debounce(
+					() => findInPageSearchbarObj
+						&& findInPageSearchbarObj.current
+						&& findInPageSearchbarObj.current.setFocus(),
+					"setting Focus",
+					505
+				)
+			);
+	}, [searchBoxOpen, onInput, findInPageSearchbarObj, findInPageSearchbarObj.current]);
+
 	return (
 		<AnimatePresence>
 		{isMatch && <motion.div
-			initial={{ opacity: 0 }}
-			animate={{ opacity: 1 }}
-			exit={{ opacity: 0 }}
+			initial={unopaque}
+			animate={opaque}
+			exit={unopaque}
 		><IonPage>
 			<PageHeader
 				title={title}
-				findInPage={
-					(!noFinder && marker) ?
-						() => {
-							setSearchBoxOpen(!searchBoxOpen);
-							searchBoxOpen
-								? onInput(null)
-								: (
-									findInPageSearchbarObj
-									&& findInPageSearchbarObj.current
-									&& findInPageSearchbarObj.current.setFocus
-									&& debounce(
-										() => findInPageSearchbarObj
-											&& findInPageSearchbarObj.current
-											&& findInPageSearchbarObj.current.setFocus(),
-										"setting Focus",
-										505
-									)
-								);
-						}
-						: undefined
-				}
+				findInPage={ (!noFinder && marker) ? findInPageFunc : undefined }
 				findingInPage={searchBoxOpen}
 				notBookmarkable={notBookmarkable}
 				extraButton={extraButton}

@@ -67,13 +67,12 @@ const Bookmarks: React.FC<{location: string}> = ({location}) => {
 
 const PageHeader: React.FC<PropsWithChildren<{
 	title: string,
-	noSearch?: boolean,
 	notBookmarkable?: boolean,
 	findInPage?: Dispatch<boolean>,
 	findingInPage?: boolean,
 	className?: string,
 	extraButton?: ReactElement
-}>> = ({ title, children, noSearch, notBookmarkable, findInPage, findingInPage, className, extraButton }) => {
+}>> = ({ title, children, notBookmarkable, findInPage, findingInPage, className, extraButton }) => {
 	const [location, navigate] = useLocation();
 	const dispatch = useAppDispatch();
 	return (
@@ -84,7 +83,7 @@ const PageHeader: React.FC<PropsWithChildren<{
 				</IonButtons>
 				<IonTitle>{title}</IonTitle>
 				{
-					noSearch && !findInPage && notBookmarkable && !extraButton
+					!findInPage && notBookmarkable && !extraButton
 						? <></>
 						: <IonButtons slot="end">
 							{extraButton || <></>}
@@ -96,14 +95,6 @@ const PageHeader: React.FC<PropsWithChildren<{
 								) : <></>
 							}
 							{notBookmarkable ? <></> : <Bookmarks location={location} /> }
-							{noSearch
-								? <></>
-								: (
-									<IonButton onClick={() => { dispatch(goTo("/search")); navigate("/search"); }}>
-										<IonIcon slot="icon-only" icon={search} />
-									</IonButton>
-								)
-							}
 						</IonButtons>
 				}
 			</IonToolbar>
