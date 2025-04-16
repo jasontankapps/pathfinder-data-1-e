@@ -36,7 +36,7 @@ const initialAppState = {
 //
 
 const migrations = {
-	5: (state: any) => {
+	10: (state: any) => {
 		const {bookmarks} = state;
 		const {order, db, ...etc} = bookmarks;
 		const newDb: BookmarkDB = {};
@@ -55,7 +55,7 @@ const migrations = {
 				catalog
 			}
 		}
-	},
+	}
 };
 
 const reducerConfig = {
@@ -71,7 +71,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 5,
+	version: 10,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

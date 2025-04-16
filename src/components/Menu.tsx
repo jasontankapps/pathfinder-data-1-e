@@ -13,6 +13,7 @@ import { Dispatch } from '@reduxjs/toolkit';
 import { alertCircle, bookmark, bookmarks, search, shieldCheckmark } from 'ionicons/icons';
 import { useLocation } from 'wouter';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { BookmarkGroup } from '../store/bookmarksSlice';
 import { goTo } from '../store/historySlice';
 import './Bookmarks.css';
 import './Menu.css';
@@ -202,16 +203,16 @@ const Menu: React.FC = () => {
 	const {db, order} = useAppSelector(state => state.bookmarks);
 	const n = appPages.length;
 	const bookmarked: [Page, string][] = order
-		.map(c => db[c])
-		.filter(c => !c.hidden && (c.contents.length > 0))
-		.map(c => ([
+		.map(id => [id, db[id]] as [string, BookmarkGroup])
+		.filter(([, p]) => !p.hidden && (p.contents.length > 0))
+		.map(([id, p]) => ([
 			{
 				...basicBookmarkPage,
-				title: c.title,
-				iconClassName: `color-${c.color}`,
-				url: basicBookmarkPage.url + c.color
+				title: p.title,
+				iconClassName: `color-${p.color}`,
+				url: basicBookmarkPage.url + id
 			},
-			c.color
+			p.color
 		]));
 
 	return (

@@ -8,6 +8,27 @@ export type Color =
 	| "teal" | "cyan" | "blue" | "skyblue" | "purple"
 	| "magenta" | "pink" | "brown" | "grey" | "bluegrey";
 
+export const colors: {[key in Color]: string} = {
+	red: "#ff1744",
+	redorange: "#ff3d00",
+	orange: "#ff9100",
+	lightorange: "#ffc400",
+	yellow: "#ffea00",
+	chartreuse: "#c6ff00",
+	green: "#76ff03",
+	bluegreen: "#00e676",
+	teal: "#1de9b6",
+	cyan: "#00e5ff",
+	blue: "#00b0ff",
+	skyblue: "#82b1ff",
+	purple: "#b388ff",
+	magenta: "#d500f9",
+	pink: "#ff4081",
+	brown: "#a1887f",
+	grey: "#bdbdbd",
+	bluegrey: "#b0beee"
+};
+
 export type BookmarkDB = { [key: string]: BookmarkGroup }
 
 type Catalog = { [key: string]: string[] }
@@ -73,7 +94,7 @@ export const initialState: BookmarkState = {
 			contents: [],
 			hidden: false
 		},
-		"original-bluegrey": {
+		"original-grey": {
 			color: "grey",
 			title: "Grey",
 			contents: [],
@@ -81,7 +102,7 @@ export const initialState: BookmarkState = {
 		}
 	},
 	catalog: {},
-	order: ["red", "yellow", "green", "cyan", "blue", "purple", "grey"]
+	order: ["original-red", "original-yellow", "original-green", "original-cyan", "original-blue", "original-purple", "original-grey"]
 };
 
 
@@ -100,6 +121,8 @@ export const bookmarkSlice = createSlice({
 				...group,
 				contents: [...group.contents, [link, title] as Bookmark]
 			};
+			const newDb = {...db};
+			newDb[id] = newGroup;
 			const newCat = {...catalog};
 			if(newCat[link]) {
 				newCat[link] = [...newCat[link], id];
@@ -107,10 +130,7 @@ export const bookmarkSlice = createSlice({
 				newCat[link] = [id];
 			}
 			const newState = {
-				db: {
-					...db,
-					id: newGroup
-				},
+				db: newDb,
 				catalog: newCat,
 				...etc
 			};
@@ -119,10 +139,12 @@ export const bookmarkSlice = createSlice({
 		removeBookmark: (state, action: PayloadAction<{id: string, position: number}>) => {
 			const { id, position } = action.payload;
 			const { db, catalog, ...etc} = state;
-			const group = db[id];
+			const newDb = {...db};
+			const group = {...db[id]};
 			const contents = group.contents;
 			const link = contents[position][0];
 			group.contents = contents.slice(0, position).concat(contents.slice(position + 1));
+			newDb[id] = group;
 			const newCat = {...catalog};
 			if(newCat[link]) {
 				const listing = newCat[link].filter(x => x !== id);
@@ -133,10 +155,7 @@ export const bookmarkSlice = createSlice({
 				}
 			}
 			const newState = {
-				db: {
-					...db,
-					id: group
-				},
+				db: newDb,
 				catalog: newCat,
 				...etc
 			};
@@ -202,7 +221,7 @@ export const bookmarkSlice = createSlice({
 			const id = action.payload;
 			const { order, db, catalog } = state;
 			const etc = {...db};
-			const group = etc[id];
+			const group = {...etc[id]};
 			group.hidden = !group.hidden;
 			etc[id] = group;
 			return {
@@ -240,6 +259,24 @@ export const bookmarkSlice = createSlice({
 				newState.order = [...pre, ...mid, ids[from], ...end];
 			}
 			return newState;
+		},
+		makeNewBookmarkGroup: (state, action: PayloadAction<[string, Color]>) => {
+			const [title, color] = action.payload;
+			const {order: incoming, db: oldDb, ...etc} = state;
+			const id = uuidv7();
+			const order = [...incoming, id];
+			const db = {...oldDb};
+			db[id] = {
+				title,
+				color,
+				hidden: false,
+				contents: []
+			};
+			return {
+				...etc,
+				order,
+				db
+			}
 		},
 		addBookmarkGroups: (state, action: PayloadAction<Omit<BookmarkGroup, "hidden">[]>) => {
 			const payload = action.payload;
@@ -280,7 +317,8 @@ export const {
 	editBookmark, reorderBookmarks,
 	toggleHidden, renameGroup,
 	reorderGroups, addBookmarkGroups,
-	deleteBookmarkGroup, addDivider
+	deleteBookmarkGroup, addDivider,
+	makeNewBookmarkGroup
 } = bookmarkSlice.actions;
 
 // Export the slice reducer for use in the store configuration

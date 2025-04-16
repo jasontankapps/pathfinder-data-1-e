@@ -31,22 +31,24 @@ import '../components/Bookmarks.css';
 import './Page.css';
 
 
-interface BookmarkDividerProps {
+interface BaseProps {
 	id: string
 	title: string
-	color: Color
 	index: number
 }
-interface BookmarkItemProps extends BookmarkDividerProps {
+interface BookmarkDividerProps extends BaseProps {
+	color: Color
+}
+interface BookmarkItemProps extends BaseProps {
 	doEdit: (id: string, position: number) => void
 }
 
 const BookmarkItem: FC<BookmarkItemProps> = (props) => {
-	const { index, id, title, color, doEdit } = props;
+	const { index, id, title, doEdit } = props;
 	const [, navigate] = useLocation();
 	const dispatch = useAppDispatch();
 	return (
-		<IonItemSliding key={`orderable-bookmark-${id}-in-group-${color || ""}`}>
+		<IonItemSliding>
 			<IonItem detail={false} className="link">
 				<IonReorder slot="start">
 					<IonIcon icon={reorderTwo} />
@@ -59,7 +61,7 @@ const BookmarkItem: FC<BookmarkItemProps> = (props) => {
 					<IonIcon slot="top" icon={pencil} />
 					Rename
 				</IonItemOption>
-				<IonItemOption color="danger" onClick={() => color && dispatch(removeBookmark({id, position: index}))}>
+				<IonItemOption color="danger" onClick={() => dispatch(removeBookmark({id, position: index}))}>
 					<IonIcon slot="top" icon={trash} />
 					Delete
 				</IonItemOption>
@@ -83,7 +85,7 @@ const BookmarkDivider: FC<BookmarkDividerProps> = (props) => {
 				<div slot="end" className="dummy"></div>
 			</IonItem>
 			<IonItemOptions side="end">
-				<IonItemOption color="danger" onClick={() => color && dispatch(removeBookmark({id, position: index}))}>
+				<IonItemOption color="danger" onClick={() => dispatch(removeBookmark({id, position: index}))}>
 					<IonIcon slot="icon-only" icon={trash} />
 				</IonItemOption>
 			</IonItemOptions>
@@ -91,11 +93,11 @@ const BookmarkDivider: FC<BookmarkDividerProps> = (props) => {
 	);
 };
 
-const Fab: FC<{color: Color, func: () => void}> = ({color, func}) => {
+const Fab: FC<{color: Color, id: string, func: () => void}> = ({color, id, func}) => {
 	const dispatch = useAppDispatch();
 	return (
 		<IonFab slot="fixed" horizontal="center" vertical="bottom">
-			<IonFabButton aria-label="Add Separator" size="small" color="light" onClick={() => { dispatch(addDivider(color)); func(); }}>
+			<IonFabButton aria-label="Add Separator" size="small" color="light" onClick={() => { dispatch(addDivider(id)); func(); }}>
 				<IonIcon className={`color-${color}`} icon={chevronExpand} />
 			</IonFabButton>
 		</IonFab>
@@ -115,7 +117,7 @@ const BookmarkPage: FC<{}> = () => {
 
 	const [disabled, setDisabled] = useState(true);
 	const dispatch = useAppDispatch();
-	const defaultTitle = color.slice(0,1).toUpperCase() + color.slice(1);
+	const defaultTitle = "Bookmarks";
 	const [currentTitle, setCurrentTitle] = useState(title);
 	const [, navigate] = useLocation();
 	const titleInput = useRef<HTMLIonInputElement>(null);
@@ -193,25 +195,25 @@ const BookmarkPage: FC<{}> = () => {
 
 	const members = useMemo(() => {
 		return contents.map((info, position) => {
-			const [id, title] = info;
-			if(id === universalBookmarkDividerId) {
-				return <BookmarkDivider color={color} index={position} title={title} id={id} key={`orderable-bookmark-${title}-in-group-${id || ""}`} />;
+			const [link, title] = info;
+			if(link === universalBookmarkDividerId) {
+				return <BookmarkDivider color={color} index={position} title={title} id={link} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
 			}
-			return <BookmarkItem id={id} index={position} title={title} color={color} doEdit={doEdit} key={`orderable-bookmark-${id}-in-group-${color || ""}`} />;
+			return <BookmarkItem id={link} index={position} title={title} doEdit={doEdit} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
 		});
-	} , [contents, color, doEdit, dispatch, navigate]);
+	} , [contents, id, color, doEdit, dispatch, navigate]);
 
 	return (
 		<BasicPage
 			title={title + " (Bookmarks)"}
 			hideSources
-			pageId={"/bookmarks/" + color}
+			pageId={"/bookmarks/" + id}
 			notBookmarkable
 			className="bookmarks"
-			fab={<Fab color={color} func={scrollToBottom} />}
+			fab={<Fab color={color} id={id} func={scrollToBottom} />}
 			scrollHook={scrollHook}
 		>
-			<IonList lines="full" id={color + "BookmarkList"}>
+			<IonList lines="full" id={id + "BookmarkList"}>
 				<IonItem>
 					<IonIcon className={`color-${color}`} slot="start" icon={bookmark} />
 					<IonInput

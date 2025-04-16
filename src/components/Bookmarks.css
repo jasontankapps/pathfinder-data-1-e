@@ -6,60 +6,120 @@ ion-text,
 ion-toggle {
 	/*
 		--color: Signature color for icons and such
+		--color-bg: Color that can be used as a background for items, often with colored text on top
 		--color-text: Color that is readable on the default background
-		--bg: Color that can be used as a background for items, often with colored text on top
 		--*-dim: Dimmer versions of the above, for "inactive" elements
+
+		For light backgrounds, --color-bg is often the same as --color.
+		Dark backgrounds have --color-text the same as --color.
 	*/
-	--red: #d00;
-	--red-fg: #300;
-	--red-fg-dim: #3007;
+	--red: #ff1744;
 	--red-bg: var(--red);
-	--red-bg-dim: #d008;
-	--orange: #e60;
-	--orange-fg: #520;
-	--orange-fg-dim: #5208;
+	--red-text: #330000;
+	--red-bg-dim: #ffa2b4;
+	--red-text-dim: #a05660;
+
+	--redorange: #ff3d00;
+	--redorange-bg: var(--redorange);
+	--redorange-text: #442200;
+	--redorange-bg-dim: #ffb199;
+	--redorange-text-dim: #a86e52;
+
+	--orange: #ff9100;
 	--orange-bg: var(--orange);
-	--orange-bg-dim: #e608;
-	--yellow: #cc0;
-	--yellow-fg: #440;
-	--yellow-fg-dim: #4408;
+	--orange-text: #552200;
+	--orange-bg-dim: #ffd399;
+	--orange-text-dim: #b08152;
+
+	--lightorange: #ffc400;
+	--lightorange-bg: var(--lightorange);
+	--lightorange-text: #663300;
+	--lightorange-bg-dim: #ffe799;
+	--lightorange-text-dim: #b89352;
+
+	--yellow: #ffea00;
 	--yellow-bg: var(--yellow);
-	--yellow-bg-dim: #cc08;
-	--chartreuse: #7c0;
-	--chartreuse-fg: #240;
-	--chartreuse-fg-dim: #2408;
+	--yellow-text: #333300;
+	--yellow-bg-dim: #fff799;
+	--yellow-text-dim: #a09c52;
+
+	--chartreuse: #c6ff00;
 	--chartreuse-bg: var(--chartreuse);
-	--chartreuse-bg-dim: #6c08;
-	--green: #0b0;
-	--green-fg: #030;
-	--green-fg-dim: #0308;
+	--chartreuse-text: #335500;
+	--chartreuse-bg-dim: #e8ff99;
+	--chartreuse-text-dim: #94b052;
+
+	--green: #76ff03;
 	--green-bg: var(--green);
-	--green-bg-dim: #0b08;
-	--cyan: #0bb;
-	--cyan-fg: #033;
-	--cyan-fg-dim: #0338;
+	--green-text: #33691e;
+	--green-bg-dim: #c8ff9a;
+	--green-text-dim: #83b960;
+
+	--bluegreen: #00e676;
+	--bluegreen-bg: var(--bluegreen);
+	--bluegreen-text: #1b5e20;
+	--bluegreen-bg-dim: #99f5c8;
+	--bluegreen-text-dim: #5faf7a;
+
+	--teal: #1de9b6;
+	--teal-bg: var(--teal);
+	--teal-text: #004d40;
+	--teal-bg-dim: #a5f6e2;
+	--teal-text-dim: #58a797;
+
+	--cyan: #00e5ff;
 	--cyan-bg: var(--cyan);
-	--cyan-bg-dim: #0bb8;
-	--blue: #44d;
-	--blue-fg: #003;
-	--blue-fg-dim: #0036;
+	--cyan-text: #004444;
+	--cyan-bg-dim: #99f5ff;
+	--cyan-text-dim: #52a3a8;
+
+	--blue: #00b0ff;
 	--blue-bg: var(--blue);
-	--blue-bg-dim: #44d8;
-	--purple: #62c;
-	--purple-fg: #203;
-	--purple-fg-dim: #2038;
+	--blue-text: #003355;
+	--blue-bg-dim: #99dfff;
+	--blue-text-dim: #528fb0;
+
+	--skyblue: #82b1ff;
+	--skyblue-bg: var(--skyblue);
+	--skyblue-text: #114466;
+	--skyblue-bg-dim: #cde0ff;
+	--skyblue-text-dim: #7597b8;
+
+	--purple: #b388ff;
 	--purple-bg: var(--purple);
-	--purple-bg-dim: #62c8;
-	--magenta: #d0d;
-	--magenta-fg: #404;
-	--magenta-fg-dim: #4048;
+	--purple-text: #311b92;
+	--purple-bg-dim: #e1cfff;
+	--purple-text-dim: #8f7bcc;
+
+	--magenta: #d500f9;
 	--magenta-bg: var(--magenta);
-	--magenta-bg-dim: #d0d8;
-	--pink: #f6c;
-	--pink-fg: #412;
-	--pink-fg-dim: #4128;
+	--magenta-text: #330055;
+	--magenta-bg-dim: #ee99fd;
+	--magenta-text-dim: #9752af;
+
+	--pink: #ff4081;
 	--pink-bg: var(--pink);
-	--pink-bg-dim: #f6c8;
+	--pink-text: #550033;
+	--pink-bg-dim: #ffb3cd;
+	--pink-text-dim: #b05f85;
+
+	--brown: #a1887f;
+	--brown-bg: var(--brown);
+	--brown-text: #3e2723;
+	--brown-bg-dim: #d9cfcc;
+	--brown-text-dim: #91807d;
+
+	--grey: #bdbdbd;
+	--grey-bg: var(--grey);
+	--grey-text: #212121;
+	--grey-bg-dim: #e5e5e5;
+	--grey-text-dim: #898989;
+
+	--bluegrey: #b0bec5;
+	--bluegrey-bg: var(--bluegrey);
+	--bluegrey-text: #263238;
+	--bluegrey-bg-dim: #dfe5e8;
+	--bluegrey-text-dim: #899196;
 }
 
 /*
@@ -103,138 +163,182 @@ div.basicContent.bookmarks ion-item.divider ion-label ion-icon {
 	ion-item,
 	ion-text,
 	ion-toggle {
-		--red: #c00;
-		--red-fg: var(--red);
-		--red-fg-dim: #d006;
-		--red-bg: #300;
-		--red-bg-dim: #3004;
-		--orange: #d60;
-		--orange-fg: var(--orange);
-		--orange-fg-dim: #e605;
-		--orange-bg: #520;
-		--orange-bg-dim: #5204;
-		--yellow: #cc0;
-		--yellow-fg: var(--yellow);
-		--yellow-fg-dim: #cc04;
-		--yellow-bg: #440;
-		--yellow-bg-dim: #4404;
-		--chartreuse: #7c0;
-		--chartreuse-fg: var(--chartreuse);
-		--chartreuse-fg-dim: #6b05;
-		--chartreuse-bg: #240;
-		--chartreuse-bg-dim: #2404;
-		--green: #0a0;
-		--green-fg: var(--green);
-		--green-fg-dim: #0b04;
-		--green-bg: #030;
-		--green-bg-dim: #0304;
-		--cyan: #599;
-		--cyan-fg: var(--cyan);
-		--cyan-fg-dim: #8bb4;
-		--cyan-bg: #033;
-		--cyan-bg-dim: #0334;
-		--blue: #33d;
-		--blue-fg: #77d;
-		--blue-fg-dim: #66d8;
-		--blue-bg: #114;
-		--blue-bg-dim: #0044;
-		--purple: #73d;
-		--purple-fg: var(--purple);
-		--purple-fg-dim: #64c6;
-		--purple-bg: #203;
-		--purple-bg-dim: #2034;
-		--magenta: #c3b;
-		--magenta-fg: var(--magenta);
-		--magenta-fg-dim: #d3c4;
-		--magenta-bg: #404;
-		--magenta-bg-dim: #4044;
-		--pink: #f6c;
-		--pink-fg: var(--pink);
-		--pink-fg-dim: #f6c4;
-		--pink-bg: #513;
-		--pink-bg-dim: #5134;
+		--red: #ff1744;
+		--red-bg: #330000;
+		--red-text: var(--red);
+		--red-bg-dim: #220000;
+		--red-text-dim: #590613;
+
+		--redorange: #ff3d00;
+		--redorange-bg: #442200;
+		--redorange-text: var(--redorange);
+		--redorange-bg-dim: #2d1700;
+		--redorange-text-dim: #9d2c00;
+
+		--orange: #ff9100;
+		--orange-bg: #552200;
+		--orange-text: var(--orange);
+		--orange-bg-dim: #391700;
+		--orange-text-dim: #a35800;
+
+		--lightorange: #ffc400;
+		--lightorange-bg: #663300;
+		--lightorange-text: var(--lightorange);
+		--lightorange-bg-dim: #442200;
+		--lightorange-text-dim: #a87900;
+
+		--yellow: #ffea00;
+		--yellow-bg: #333300;
+		--yellow-text: var(--yellow);
+		--yellow-bg-dim: #222200;
+		--yellow-text-dim: #988d00;
+
+		--chartreuse: #c6ff00;
+		--chartreuse-bg: #335500;
+		--chartreuse-text: var(--chartreuse);
+		--chartreuse-bg-dim: #223900;
+		--chartreuse-text-dim: #7aa300;
+
+		--green: #76ff03;
+		--green-bg: #33691e;
+		--green-text: var(--green);
+		--green-bg-dim: #224614;
+		--green-text-dim: #4fa90b;
+
+		--bluegreen: #00e676;
+		--bluegreen-bg: #1b5e20;
+		--bluegreen-text: var(--bluegreen);
+		--bluegreen-bg-dim: #123f15;
+		--bluegreen-text-dim: #089849;
+
+		--teal: #1de9b6;
+		--teal-bg: #004d40;
+		--teal-text: var(--teal);
+		--teal-bg-dim: #00332b;
+		--teal-text-dim: #0f9475;
+
+		--cyan: #00e5ff;
+		--cyan-bg: #004444;
+		--cyan-text: var(--cyan);
+		--cyan-bg-dim: #002d2d;
+		--cyan-text-dim: #008f9d;
+
+		--blue: #00b0ff;
+		--blue-bg: #003355;
+		--blue-text: var(--blue);
+		--blue-bg-dim: #002239;
+		--blue-text-dim: #006ea3;
+
+		--skyblue: #82b1ff;
+		--skyblue-bg: #114466;
+		--skyblue-text: var(--skyblue);
+		--skyblue-bg-dim: #0b2d44;
+		--skyblue-text-dim: #4a73a8;
+
+		--purple: #b388ff;
+		--purple-bg: #4527a0;
+		--purple-text: var(--purple);
+		--purple-bg-dim: #211261;
+		--purple-text-dim: #6e51b5;
+
+		--magenta: #d500f9;
+		--magenta-bg: #330055;
+		--magenta-text: var(--magenta);
+		--magenta-bg-dim: #220039;
+		--magenta-text-dim: #8200a0;
+
+		--pink: #ff4081;
+		--pink-bg: #550033;
+		--pink-text: var(--pink);
+		--pink-bg-dim: #390022;
+		--pink-text-dim: #a32255;
+
+		--brown: #a1887f;
+		--brown-bg: #3e2723;
+		--brown-text: var(--brown);
+		--brown-bg-dim: #291a17;
+		--brown-text-dim: #69554f;
+
+		--grey: #bdbdbd;
+		--grey-bg: #212121;
+		--grey-text: var(--grey);
+		--grey-bg-dim: #161616;
+		--grey-text-dim: #6f6f6f;
+
+		--bluegrey: #b0beee;
+		--bluegrey-bg: #263238;
+		--bluegrey-text: var(--bluegrey);
+		--bluegrey-bg-dim: #192125;
+		--bluegrey-text-dim: #6a7490;
 	}
 }
 
 ion-item.color-red {
+	/* colored items get a color suitable as a background */
 	--background: var(--red-bg);
 }
-ion-text.color-fg-red {
-	color: var(--red-fg);
+ion-text.color-red {
+	/* colored text uses a color that should be readable on a bare background */
+	color: var(--red-text);
 }
 ion-item.color-red.dim {
+	/* dim versions are dim */
 	--background: var(--red-bg-dim);
 }
-ion-icon.color-red,
-ion-text.color-red {
+ion-item.dim ion-text.color-red {
+	/* dim versions are dim */
+	color: var(--red-text-dim);
+}
+ion-icon.color-red {
+	/* icons use a pure color */
 	--pickedColor: var(--red);
 	color: var(--red);
 }
 ion-item.color-red ion-toggle {
+	/* toggles use a pure color */
 	--handle-background-checked: var(--red);
 	--track-background-checked: var(--ion-color-light);
 }
-ion-item.dim ion-text.color-fg-red {
-	color: var(--red-fg-dim);
+
+
+ion-item.color-redorange {
+	/* colored items get a color suitable as a background */
+	--background: var(--redorange-bg);
 }
-ion-icon.color-red-orange {
-	color: var(--red);
-	background: var(--orange);
-	border-radius: 0.5rem;
+ion-text.color-redorange {
+	/* colored text uses a color that should be readable on a bare background */
+	color: var(--redorange-text);
 }
-ion-icon.color-red-yellow {
-	color: var(--red);
-	background: var(--yellow);
-	border-radius: 0.5rem;
+ion-item.color-redorange.dim {
+	/* dim versions are dim */
+	--background: var(--redorange-bg-dim);
 }
-ion-icon.color-red-green {
-	color: var(--red);
-	background: var(--green);
-	border-radius: 0.5rem;
+ion-item.dim ion-text.color-redorange {
+	/* dim versions are dim */
+	color: var(--redorange-text-dim);
 }
-ion-icon.color-red-chartreuse {
-	color: var(--red);
-	background: var(--chartreuse);
-	border-radius: 0.5rem;
+ion-icon.color-redorange {
+	/* icons use a pure color */
+	--pickedColor: var(--redorange);
+	color: var(--redorange);
 }
-ion-icon.color-red-cyan {
-	color: var(--red);
-	background: var(--cyan);
-	border-radius: 0.5rem;
-}
-ion-icon.color-red-blue {
-	color: var(--red);
-	background: var(--blue);
-	border-radius: 0.5rem;
-}
-ion-icon.color-red-purple {
-	color: var(--red);
-	background: var(--purple);
-	border-radius: 0.5rem;
-}
-ion-icon.color-red-magenta {
-	color: var(--red);
-	background: var(--magenta);
-	border-radius: 0.5rem;
-}
-ion-icon.color-red-pink {
-	color: var(--red);
-	background: var(--pink);
-	border-radius: 0.5rem;
+ion-item.color-redorange ion-toggle {
+	/* toggles use a pure color */
+	--handle-background-checked: var(--redorange);
+	--track-background-checked: var(--ion-color-light);
 }
 
 
 ion-item.color-orange {
 	--background: var(--orange-bg);
 }
-ion-text.color-fg-orange {
-	color: var(--orange-fg);
+ion-text.color-orange {
+	color: var(--orange-text);
 }
 ion-item.color-orange.dim {
 	--background: var(--orange-bg-dim);
 }
-ion-icon.color-orange,
-ion-text.color-orange {
+ion-icon.color-orange {
 	--pickedColor: var(--orange);
 	color: var(--orange);
 }
@@ -242,67 +346,49 @@ ion-item.color-orange ion-toggle {
 	--handle-background-checked: var(--orange);
 	--track-background-checked: var(--ion-color-light);
 }
-ion-item.dim ion-text.color-fg-orange {
-	color: var(--orange-fg-dim);
+ion-item.dim ion-text.color-orange {
+	color: var(--orange-text-dim);
 }
-ion-icon.color-orange-red {
-	color: var(--orange);
-	background: var(--red);
-	border-radius: 0.5rem;
+
+
+ion-item.color-lightorange {
+	/* colored items get a color suitable as a background */
+	--background: var(--lightorange-bg);
 }
-ion-icon.color-orange-yellow {
-	color: var(--orange);
-	background: var(--yellow);
-	border-radius: 0.5rem;
+ion-text.color-lightorange {
+	/* colored text uses a color that should be readable on a bare background */
+	color: var(--lightorange-text);
 }
-ion-icon.color-orange-green {
-	color: var(--orange);
-	background: var(--green);
-	border-radius: 0.5rem;
+ion-item.color-lightorange.dim {
+	/* dim versions are dim */
+	--background: var(--lightorange-bg-dim);
 }
-ion-icon.color-orange-chartreuse {
-	color: var(--orange);
-	background: var(--chartreuse);
-	border-radius: 0.5rem;
+ion-item.dim ion-text.color-lightorange {
+	/* dim versions are dim */
+	color: var(--lightorange-text-dim);
 }
-ion-icon.color-orange-cyan {
-	color: var(--orange);
-	background: var(--cyan);
-	border-radius: 0.5rem;
+ion-icon.color-lightorange {
+	/* icons use a pure color */
+	--pickedColor: var(--lightorange);
+	color: var(--lightorange);
 }
-ion-icon.color-orange-blue {
-	color: var(--orange);
-	background: var(--blue);
-	border-radius: 0.5rem;
-}
-ion-icon.color-orange-purple {
-	color: var(--orange);
-	background: var(--purple);
-	border-radius: 0.5rem;
-}
-ion-icon.color-orange-magenta {
-	color: var(--orange);
-	background: var(--magenta);
-	border-radius: 0.5rem;
-}
-ion-icon.color-orange-pink {
-	color: var(--orange);
-	background: var(--pink);
-	border-radius: 0.5rem;
+ion-item.color-lightorange ion-toggle {
+	/* toggles use a pure color */
+	--handle-background-checked: var(--lightorange);
+	--track-background-checked: var(--ion-color-light);
 }
 
 
 ion-item.color-yellow {
 	--background: var(--yellow-bg);
 }
-ion-text.color-fg-yellow {
-	color: var(--yellow-fg);
+ion-text.color-yellow {
+	color: var(--yellow-text);
 }
 ion-item.color-yellow.dim {
 	--background: var(--yellow-bg-dim);
 }
-ion-icon.color-yellow,
-ion-text.color-yellow {
+ion-icon.color-yellow {
 	--pickedColor: var(--yellow);
 	color: var(--yellow);
 }
@@ -310,135 +396,21 @@ ion-item.color-yellow ion-toggle {
 	--handle-background-checked: var(--yellow);
 	--track-background-checked: var(--ion-color-light);
 }
-ion-item.dim ion-text.color-fg-yellow {
-	color: var(--yellow-fg-dim);
-}
-ion-icon.color-yellow-red {
-	color: var(--yellow);
-	background: var(--red);
-	border-radius: 0.5rem;
-}
-ion-icon.color-yellow-orange {
-	color: var(--yellow);
-	background: var(--orange);
-	border-radius: 0.5rem;
-}
-ion-icon.color-yellow-green {
-	color: var(--yellow);
-	background: var(--green);
-	border-radius: 0.5rem;
-}
-ion-icon.color-yellow-chartreuse {
-	color: var(--yellow);
-	background: var(--chartreuse);
-	border-radius: 0.5rem;
-}
-ion-icon.color-yellow-cyan {
-	color: var(--yellow);
-	background: var(--cyan);
-	border-radius: 0.5rem;
-}
-ion-icon.color-yellow-blue {
-	color: var(--yellow);
-	background: var(--blue);
-	border-radius: 0.5rem;
-}
-ion-icon.color-yellow-purple {
-	color: var(--yellow);
-	background: var(--purple);
-	border-radius: 0.5rem;
-}
-ion-icon.color-yellow-magenta {
-	color: var(--yellow);
-	background: var(--magenta);
-	border-radius: 0.5rem;
-}
-ion-icon.color-yellow-pink {
-	color: var(--yellow);
-	background: var(--pink);
-	border-radius: 0.5rem;
-}
-
-
-ion-item.color-green {
-	--background: var(--green-bg);
-}
-ion-text.color-fg-green {
-	color: var(--green-fg);
-}
-ion-item.color-green.dim {
-	--background: var(--green-bg-dim);
-}
-ion-icon.color-green,
-ion-text.color-green {
-	--pickedColor: var(--green);
-	color: var(--green);
-}
-ion-item.color-green ion-toggle {
-	--handle-background-checked: var(--green);
-	--track-background-checked: var(--ion-color-light);
-}
-ion-item.dim ion-text.color-fg-green {
-	color: var(--green-fg-dim);
-}
-ion-icon.color-green-red {
-	color: var(--green);
-	background: var(--red);
-	border-radius: 0.5rem;
-}
-ion-icon.color-green-orange {
-	color: var(--green);
-	background: var(--orange);
-	border-radius: 0.5rem;
-}
-ion-icon.color-green-yellow {
-	color: var(--green);
-	background: var(--yellow);
-	border-radius: 0.5rem;
-}
-ion-icon.color-green-chartreuse {
-	color: var(--green);
-	background: var(--chartreuse);
-	border-radius: 0.5rem;
-}
-ion-icon.color-green-cyan {
-	color: var(--green);
-	background: var(--cyan);
-	border-radius: 0.5rem;
-}
-ion-icon.color-green-blue {
-	color: var(--green);
-	background: var(--blue);
-	border-radius: 0.5rem;
-}
-ion-icon.color-green-purple {
-	color: var(--green);
-	background: var(--purple);
-	border-radius: 0.5rem;
-}
-ion-icon.color-green-magenta {
-	color: var(--green);
-	background: var(--magenta);
-	border-radius: 0.5rem;
-}
-ion-icon.color-green-pink {
-	color: var(--green);
-	background: var(--pink);
-	border-radius: 0.5rem;
+ion-item.dim ion-text.color-yellow {
+	color: var(--yellow-text-dim);
 }
 
 
 ion-item.color-chartreuse {
 	--background: var(--chartreuse-bg);
 }
-ion-text.color-fg-chartreuse {
-	color: var(--chartreuse-fg);
+ion-text.color-chartreuse {
+	color: var(--chartreuse-text);
 }
 ion-item.color-chartreuse.dim {
 	--background: var(--chartreuse-bg-dim);
 }
-ion-icon.color-chartreuse,
-ion-text.color-chartreuse {
+ion-icon.color-chartreuse {
 	--pickedColor: var(--chartreuse);
 	color: var(--chartreuse);
 }
@@ -446,67 +418,99 @@ ion-item.color-chartreuse ion-toggle {
 	--handle-background-checked: var(--chartreuse);
 	--track-background-checked: var(--ion-color-light);
 }
-ion-item.dim ion-text.color-fg-chartreuse {
-	color: var(--chartreuse-fg-dim);
+ion-item.dim ion-text.color-chartreuse {
+	color: var(--chartreuse-text-dim);
 }
-ion-icon.color-chartreuse-red {
-	color: var(--chartreuse);
-	background: var(--red);
-	border-radius: 0.5rem;
+
+
+ion-item.color-green {
+	--background: var(--green-bg);
 }
-ion-icon.color-chartreuse-orange {
-	color: var(--chartreuse);
-	background: var(--orange);
-	border-radius: 0.5rem;
+ion-text.color-green {
+	color: var(--green-text);
 }
-ion-icon.color-chartreuse-yellow {
-	color: var(--chartreuse);
-	background: var(--yellow);
-	border-radius: 0.5rem;
+ion-item.color-green.dim {
+	--background: var(--green-bg-dim);
 }
-ion-icon.color-chartreuse-green {
-	color: var(--chartreuse);
-	background: var(--green);
-	border-radius: 0.5rem;
+ion-icon.color-green {
+	--pickedColor: var(--green);
+	color: var(--green);
 }
-ion-icon.color-chartreuse-cyan {
-	color: var(--chartreuse);
-	background: var(--cyan);
-	border-radius: 0.5rem;
+ion-item.color-green ion-toggle {
+	--handle-background-checked: var(--green);
+	--track-background-checked: var(--ion-color-light);
 }
-ion-icon.color-chartreuse-blue {
-	color: var(--chartreuse);
-	background: var(--blue);
-	border-radius: 0.5rem;
+ion-item.dim ion-text.color-green {
+	color: var(--green-text-dim);
 }
-ion-icon.color-chartreuse-purple {
-	color: var(--chartreuse);
-	background: var(--purple);
-	border-radius: 0.5rem;
+
+
+ion-item.color-bluegreen {
+	/* colored items get a color suitable as a background */
+	--background: var(--bluegreen-bg);
 }
-ion-icon.color-chartreuse-magenta {
-	color: var(--chartreuse);
-	background: var(--magenta);
-	border-radius: 0.5rem;
+ion-text.color-bluegreen {
+	/* colored text uses a color that should be readable on a bare background */
+	color: var(--bluegreen-text);
 }
-ion-icon.color-chartreuse-pink {
-	color: var(--chartreuse);
-	background: var(--pink);
-	border-radius: 0.5rem;
+ion-item.color-bluegreen.dim {
+	/* dim versions are dim */
+	--background: var(--bluegreen-bg-dim);
+}
+ion-item.dim ion-text.color-bluegreen {
+	/* dim versions are dim */
+	color: var(--bluegreen-text-dim);
+}
+ion-icon.color-bluegreen {
+	/* icons use a pure color */
+	--pickedColor: var(--bluegreen);
+	color: var(--bluegreen);
+}
+ion-item.color-bluegreen ion-toggle {
+	/* toggles use a pure color */
+	--handle-background-checked: var(--bluegreen);
+	--track-background-checked: var(--ion-color-light);
+}
+
+
+ion-item.color-teal {
+	/* colored items get a color suitable as a background */
+	--background: var(--teal-bg);
+}
+ion-text.color-teal {
+	/* colored text uses a color that should be readable on a bare background */
+	color: var(--teal-text);
+}
+ion-item.color-teal.dim {
+	/* dim versions are dim */
+	--background: var(--teal-bg-dim);
+}
+ion-item.dim ion-text.color-teal {
+	/* dim versions are dim */
+	color: var(--teal-text-dim);
+}
+ion-icon.color-teal {
+	/* icons use a pure color */
+	--pickedColor: var(--teal);
+	color: var(--teal);
+}
+ion-item.color-teal ion-toggle {
+	/* toggles use a pure color */
+	--handle-background-checked: var(--teal);
+	--track-background-checked: var(--ion-color-light);
 }
 
 
 ion-item.color-cyan {
 	--background: var(--cyan-bg);
 }
-ion-text.color-fg-cyan {
-	color: var(--cyan-fg);
+ion-text.color-cyan {
+	color: var(--cyan-text);
 }
 ion-item.color-cyan.dim {
 	--background: var(--cyan-bg-dim);
 }
-ion-icon.color-cyan,
-ion-text.color-cyan {
+ion-icon.color-cyan {
 	--pickedColor: var(--cyan);
 	color: var(--cyan);
 }
@@ -514,67 +518,21 @@ ion-item.color-cyan ion-toggle {
 	--handle-background-checked: var(--cyan);
 	--track-background-checked: var(--ion-color-light);
 }
-ion-item.dim ion-text.color-fg-cyan {
-	color: var(--cyan-fg-dim);
-}
-ion-icon.color-cyan-red {
-	color: var(--cyan);
-	background: var(--red);
-	border-radius: 0.5rem;
-}
-ion-icon.color-cyan-orange {
-	color: var(--cyan);
-	background: var(--orange);
-	border-radius: 0.5rem;
-}
-ion-icon.color-cyan-yellow {
-	color: var(--cyan);
-	background: var(--yellow);
-	border-radius: 0.5rem;
-}
-ion-icon.color-cyan-green {
-	color: var(--cyan);
-	background: var(--green);
-	border-radius: 0.5rem;
-}
-ion-icon.color-cyan-chartreuse {
-	color: var(--cyan);
-	background: var(--chartreuse);
-	border-radius: 0.5rem;
-}
-ion-icon.color-cyan-blue {
-	color: var(--cyan);
-	background: var(--blue);
-	border-radius: 0.5rem;
-}
-ion-icon.color-cyan-purple {
-	color: var(--cyan);
-	background: var(--purple);
-	border-radius: 0.5rem;
-}
-ion-icon.color-cyan-magenta {
-	color: var(--cyan);
-	background: var(--magenta);
-	border-radius: 0.5rem;
-}
-ion-icon.color-cyan-pink {
-	color: var(--cyan);
-	background: var(--pink);
-	border-radius: 0.5rem;
+ion-item.dim ion-text.color-cyan {
+	color: var(--cyan-text-dim);
 }
 
 
 ion-item.color-blue {
 	--background: var(--blue-bg);
 }
-ion-text.color-fg-blue {
-	color: var(--blue-fg);
+ion-text.color-blue {
+	color: var(--blue-text);
 }
 ion-item.color-blue.dim {
 	--background: var(--blue-bg-dim);
 }
-ion-icon.color-blue,
-ion-text.color-blue {
+ion-icon.color-blue {
 	--pickedColor: var(--blue);
 	color: var(--blue);
 }
@@ -582,67 +540,49 @@ ion-item.color-blue ion-toggle {
 	--handle-background-checked: var(--blue);
 	--track-background-checked: var(--ion-color-light);
 }
-ion-item.dim ion-text.color-fg-blue {
-	color: var(--blue-fg-dim);
+ion-item.dim ion-text.color-blue {
+	color: var(--blue-text-dim);
 }
-ion-icon.color-blue-red {
-	color: var(--blue);
-	background: var(--red);
-	border-radius: 0.5rem;
+
+
+ion-item.color-skyblue {
+	/* colored items get a color suitable as a background */
+	--background: var(--skyblue-bg);
 }
-ion-icon.color-blue-orange {
-	color: var(--blue);
-	background: var(--orange);
-	border-radius: 0.5rem;
+ion-text.color-skyblue {
+	/* colored text uses a color that should be readable on a bare background */
+	color: var(--skyblue-text);
 }
-ion-icon.color-blue-yellow {
-	color: var(--blue);
-	background: var(--yellow);
-	border-radius: 0.5rem;
+ion-item.color-skyblue.dim {
+	/* dim versions are dim */
+	--background: var(--skyblue-bg-dim);
 }
-ion-icon.color-blue-green {
-	color: var(--blue);
-	background: var(--green);
-	border-radius: 0.5rem;
+ion-item.dim ion-text.color-skyblue {
+	/* dim versions are dim */
+	color: var(--skyblue-text-dim);
 }
-ion-icon.color-blue-chartreuse {
-	color: var(--blue);
-	background: var(--chartreuse);
-	border-radius: 0.5rem;
+ion-icon.color-skyblue {
+	/* icons use a pure color */
+	--pickedColor: var(--skyblue);
+	color: var(--skyblue);
 }
-ion-icon.color-blue-cyan {
-	color: var(--blue);
-	background: var(--cyan);
-	border-radius: 0.5rem;
-}
-ion-icon.color-blue-purple {
-	color: var(--blue);
-	background: var(--purple);
-	border-radius: 0.5rem;
-}
-ion-icon.color-blue-magenta {
-	color: var(--blue);
-	background: var(--magenta);
-	border-radius: 0.5rem;
-}
-ion-icon.color-blue-pink {
-	color: var(--blue);
-	background: var(--pink);
-	border-radius: 0.5rem;
+ion-item.color-skyblue ion-toggle {
+	/* toggles use a pure color */
+	--handle-background-checked: var(--skyblue);
+	--track-background-checked: var(--ion-color-light);
 }
 
 
 ion-item.color-purple {
 	--background: var(--purple-bg);
 }
-ion-text.color-fg-purple {
-	color: var(--purple-fg);
+ion-text.color-purple {
+	color: var(--purple-text);
 }
 ion-item.color-purple.dim {
 	--background: var(--purple-bg-dim);
 }
-ion-icon.color-purple,
-ion-text.color-purple {
+ion-icon.color-purple {
 	--pickedColor: var(--purple);
 	color: var(--purple);
 }
@@ -650,67 +590,21 @@ ion-item.color-purple ion-toggle {
 	--handle-background-checked: var(--purple);
 	--track-background-checked: var(--ion-color-light);
 }
-ion-item.dim ion-text.color-fg-purple {
-	color: var(--purple-fg-dim);
-}
-ion-icon.color-purple-red {
-	color: var(--purple);
-	background: var(--red);
-	border-radius: 0.5rem;
-}
-ion-icon.color-purple-orange {
-	color: var(--purple);
-	background: var(--orange);
-	border-radius: 0.5rem;
-}
-ion-icon.color-purple-yellow {
-	color: var(--purple);
-	background: var(--yellow);
-	border-radius: 0.5rem;
-}
-ion-icon.color-purple-green {
-	color: var(--purple);
-	background: var(--green);
-	border-radius: 0.5rem;
-}
-ion-icon.color-purple-chartreuse {
-	color: var(--purple);
-	background: var(--chartreuse);
-	border-radius: 0.5rem;
-}
-ion-icon.color-purple-cyan {
-	color: var(--purple);
-	background: var(--cyan);
-	border-radius: 0.5rem;
-}
-ion-icon.color-purple-blue {
-	color: var(--purple);
-	background: var(--blue);
-	border-radius: 0.5rem;
-}
-ion-icon.color-purple-magenta {
-	color: var(--purple);
-	background: var(--magenta);
-	border-radius: 0.5rem;
-}
-ion-icon.color-purple-pink {
-	color: var(--purple);
-	background: var(--pink);
-	border-radius: 0.5rem;
+ion-item.dim ion-text.color-purple {
+	color: var(--purple-text-dim);
 }
 
 
 ion-item.color-magenta {
 	--background: var(--magenta-bg);
 }
-ion-text.color-fg-magenta {
-	color: var(--magenta-fg);
+ion-text.color-magenta {
+	color: var(--magenta-text);
 }
 ion-item.color-magenta.dim {
 	--background: var(--magenta-bg-dim);
 }
-ion-icon.color-magenta,
-ion-text.color-magenta {
+ion-icon.color-magenta {
 	--pickedColor: var(--magenta);
 	color: var(--magenta);
 }
@@ -718,67 +612,21 @@ ion-item.color-magenta ion-toggle {
 	--handle-background-checked: var(--magenta);
 	--track-background-checked: var(--ion-color-light);
 }
-ion-item.dim ion-text.color-fg-magenta {
-	color: var(--magenta-fg-dim);
-}
-ion-icon.color-magenta-red {
-	color: var(--magenta);
-	background: var(--red);
-	border-radius: 0.5rem;
-}
-ion-icon.color-magenta-orange {
-	color: var(--magenta);
-	background: var(--orange);
-	border-radius: 0.5rem;
-}
-ion-icon.color-magenta-yellow {
-	color: var(--magenta);
-	background: var(--yellow);
-	border-radius: 0.5rem;
-}
-ion-icon.color-magenta-green {
-	color: var(--magenta);
-	background: var(--green);
-	border-radius: 0.5rem;
-}
-ion-icon.color-magenta-chartreuse {
-	color: var(--magenta);
-	background: var(--chartreuse);
-	border-radius: 0.5rem;
-}
-ion-icon.color-magenta-cyan {
-	color: var(--magenta);
-	background: var(--cyan);
-	border-radius: 0.5rem;
-}
-ion-icon.color-magenta-blue {
-	color: var(--magenta);
-	background: var(--blue);
-	border-radius: 0.5rem;
-}
-ion-icon.color-magenta-purple {
-	color: var(--magenta);
-	background: var(--purple);
-	border-radius: 0.5rem;
-}
-ion-icon.color-magenta-pink {
-	color: var(--magenta);
-	background: var(--pink);
-	border-radius: 0.5rem;
+ion-item.dim ion-text.color-magenta {
+	color: var(--magenta-text-dim);
 }
 
 
 ion-item.color-pink {
 	--background: var(--pink-bg);
 }
-ion-text.color-fg-pink {
-	color: var(--pink-fg);
+ion-text.color-pink {
+	color: var(--pink-text);
 }
 ion-item.color-pink.dim {
 	--background: var(--pink-bg-dim);
 }
-ion-icon.color-pink,
-ion-text.color-pink {
+ion-icon.color-pink {
 	--pickedColor: var(--pink);
 	color: var(--pink);
 }
@@ -786,53 +634,92 @@ ion-item.color-pink ion-toggle {
 	--handle-background-checked: var(--pink);
 	--track-background-checked: var(--ion-color-light);
 }
-ion-item.dim ion-text.color-fg-pink {
-	color: var(--pink-fg-dim);
+ion-item.dim ion-text.color-pink {
+	color: var(--pink-text-dim);
 }
-ion-icon.color-pink-red {
-	color: var(--pink);
-	background: var(--red);
-	border-radius: 0.5rem;
+
+
+ion-item.color-brown {
+	/* colored items get a color suitable as a background */
+	--background: var(--brown-bg);
 }
-ion-icon.color-pink-orange {
-	color: var(--pink);
-	background: var(--orange);
-	border-radius: 0.5rem;
+ion-text.color-brown {
+	/* colored text uses a color that should be readable on a bare background */
+	color: var(--brown-text);
 }
-ion-icon.color-pink-yellow {
-	color: var(--pink);
-	background: var(--yellow);
-	border-radius: 0.5rem;
+ion-item.color-brown.dim {
+	/* dim versions are dim */
+	--background: var(--brown-bg-dim);
 }
-ion-icon.color-pink-green {
-	color: var(--pink);
-	background: var(--green);
-	border-radius: 0.5rem;
+ion-item.dim ion-text.color-brown {
+	/* dim versions are dim */
+	color: var(--brown-text-dim);
 }
-ion-icon.color-pink-chartreuse {
-	color: var(--pink);
-	background: var(--chartreuse);
-	border-radius: 0.5rem;
+ion-icon.color-brown {
+	/* icons use a pure color */
+	--pickedColor: var(--brown);
+	color: var(--brown);
 }
-ion-icon.color-pink-cyan {
-	color: var(--pink);
-	background: var(--cyan);
-	border-radius: 0.5rem;
+ion-item.color-brown ion-toggle {
+	/* toggles use a pure color */
+	--handle-background-checked: var(--brown);
+	--track-background-checked: var(--ion-color-light);
 }
-ion-icon.color-pink-blue {
-	color: var(--pink);
-	background: var(--blue);
-	border-radius: 0.5rem;
+
+
+ion-item.color-grey {
+	/* colored items get a color suitable as a background */
+	--background: var(--grey-bg);
 }
-ion-icon.color-pink-purple {
-	color: var(--pink);
-	background: var(--purple);
-	border-radius: 0.5rem;
+ion-text.color-grey {
+	/* colored text uses a color that should be readable on a bare background */
+	color: var(--grey-text);
 }
-ion-icon.color-pink-magenta {
-	color: var(--pink);
-	background: var(--magenta);
-	border-radius: 0.5rem;
+ion-item.color-grey.dim {
+	/* dim versions are dim */
+	--background: var(--grey-bg-dim);
+}
+ion-item.dim ion-text.color-grey {
+	/* dim versions are dim */
+	color: var(--grey-text-dim);
+}
+ion-icon.color-grey {
+	/* icons use a pure color */
+	--pickedColor: var(--grey);
+	color: var(--grey);
+}
+ion-item.color-grey ion-toggle {
+	/* toggles use a pure color */
+	--handle-background-checked: var(--grey);
+	--track-background-checked: var(--ion-color-light);
+}
+
+
+ion-item.color-bluegrey {
+	/* colored items get a color suitable as a background */
+	--background: var(--bluegrey-bg);
+}
+ion-text.color-bluegrey {
+	/* colored text uses a color that should be readable on a bare background */
+	color: var(--bluegrey-text);
+}
+ion-item.color-bluegrey.dim {
+	/* dim versions are dim */
+	--background: var(--bluegrey-bg-dim);
+}
+ion-item.dim ion-text.color-bluegrey {
+	/* dim versions are dim */
+	color: var(--bluegrey-text-dim);
+}
+ion-icon.color-bluegrey {
+	/* icons use a pure color */
+	--pickedColor: var(--bluegrey);
+	color: var(--bluegrey);
+}
+ion-item.color-bluegrey ion-toggle {
+	/* toggles use a pure color */
+	--handle-background-checked: var(--bluegrey);
+	--track-background-checked: var(--ion-color-light);
 }
 
 /* Bookmark HTML */

@@ -17,13 +17,20 @@ const Bookmarks: React.FC<{location: string}> = ({location}) => {
 	const bookmarked = catalog[location] || [];
 	const checkboxes = useMemo(() => {
 		return order.filter(id => !db[id].hidden).map(id => {
-			const position = bookmarked.indexOf(id);
-			const checked = position > -1;
-			const {color, title} = db[id];
+			const checked = bookmarked.indexOf(id) > -1;
+			const {color, title, contents} = db[id];
 			const bookmarkingIcon = checked ? bookmark : bookmarkOutline;
 			let onClick: MouseEventHandler<HTMLIonItemElement>;
 			if(checked) {
 				// Set up to remove
+				let position = 0;
+				contents.some(([link], i) => {
+					if(link === location) {
+						position = i;
+						return true;
+					}
+					return false;
+				});
 				onClick = () => dispatch(removeBookmark({id, position}));
 			} else {
 				// Set up to add
@@ -42,9 +49,11 @@ const Bookmarks: React.FC<{location: string}> = ({location}) => {
 			);
 		});
 	}, [db, order, location, bookmarked, dispatch]);
+	const className = bookmarked.length ? `color-${db[bookmarked[bookmarked.length - 1]].color}` : undefined;
+	const trigger = `${location}bookmarker`;
 	return (
 		<>
-			<IonButton id={`${location}bookmarker`}>
+			<IonButton id={trigger}>
 				<IonIcon
 					slot="icon-only"
 					icon={
@@ -53,14 +62,10 @@ const Bookmarks: React.FC<{location: string}> = ({location}) => {
 							: bookmarked.length
 								? bookmark : bookmarkOutline
 					}
-					className={
-						bookmarked.length
-							? `color-${bookmarked.slice(0,2).join('-')}`
-						: undefined
-					}
+					className={className}
 				/>
 			</IonButton>
-			<IonPopover trigger={`${location}bookmarker`} side="bottom" alignment="end">
+			<IonPopover trigger={trigger} side="bottom" alignment="end">
 				<IonContent>
 					<IonList lines="full">
 						{...checkboxes}
