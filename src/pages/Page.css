@@ -11,6 +11,14 @@ ion-toast::part(message) {
 ion-checkbox div.label {
 	white-space: normal;
 }
+ion-alert button.alert-button.delete {
+	background: var(--ion-color-danger);
+	color: var(--ion-color-danger-contrast);
+}
+ion-alert button.alert-button.cancel {
+	background: var(--ion-color-medium);
+	color: var(--ion-color-medium-contrast);
+}
 
 blockquote.hanging p {
 	margin-block: 0.25rem;

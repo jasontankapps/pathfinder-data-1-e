@@ -67,23 +67,24 @@ const BookmarksPage: FC = () => {
 	}, [listRef, listRef.current]);
 
 	const maybeDelete = useCallback((title: string, id: string, number: number) => {
-		closeEm();
 		doAlert({
 			header: `Delete "${title}"`,
-			message: `This group currently has ${number} bookmarks. Deleting it cannot be undone.`,
+			message: `This group currently has ${number} bookmark${number === 1 ? "" : "s"}. Deleting it cannot be undone.`,
 			buttons: [
 				{
 					text: "Cancel",
-					role: "cancel"
+					role: "cancel",
+					cssClass: "cancel"
 				},
 				{
 					text: "Delete",
 					role: "confirm",
+					cssClass: "delete",
 					handler: () => dispatch(deleteBookmarkGroup(id))
 				}
 			]
 		});
-	}, [doAlert, dispatch, closeEm]);
+	}, [doAlert, dispatch]);
 
 	const onLoad = useCallback(() => setNewTitle("New Group"), [setNewTitle]);
 	const maybeSave = useCallback((title: string, color: Color) => {
@@ -115,16 +116,15 @@ const BookmarksPage: FC = () => {
 						<IonLabel onClick={() => { navigate(`/bookmarks/${id}`); dispatch(goTo(`/bookmarks/${id}`)); }}>
 							<IonText className={`color-${color}`}>{title}</IonText>
 						</IonLabel>
+						<IonButton slot="end" fill="clear" onClick={() => dispatch(toggleHidden(id))}>
+							<IonIcon slot="icon-only" color={hidden ? "medium" : "dark"} className={hidden ? undefined : `color-${color}`} icon={hidden ? eyeOff : eye} />
+						</IonButton>
 						<IonIcon slot="end" icon="/icons/swipe-left.svg" />
 					</IonItem>
 					<IonItemOptions side="end">
-						<IonItemOption disabled={order.length < 2} color="danger" onClick={() => maybeDelete(title, id, contents.length)}>
+						<IonItemOption disabled={order.length < 2} color="danger" onClick={() => closeEm() && maybeDelete(title, id, contents.length)}>
 							<IonIcon slot="top" icon={trash} />
 							Delete
-						</IonItemOption>
-						<IonItemOption color="primary" onClick={() => closeEm() && dispatch(toggleHidden(id))}>
-							<IonIcon slot="top" icon={hidden ? eyeOff : eye} />
-							{hidden ? "Show" : "Hide"}
 						</IonItemOption>
 					</IonItemOptions>
 				</IonItemSliding>
@@ -153,6 +153,13 @@ const BookmarksPage: FC = () => {
 			noFinder
 			className="bookmarks"
 			extraButton={ImportExport}
+			fab={
+				<IonFab slot="fixed" horizontal="center" vertical="bottom">
+					<IonFabButton aria-label="Add Separator" size="small" color="primary" onClick={() => setOpenModal(true)}>
+						<IonIcon icon={add} />
+					</IonFabButton>
+				</IonFab>
+			}
 		>
 			<IonList lines="full" ref={listRef}>
 				<IonReorderGroup disabled={false} onIonItemReorder={handleReorder}>
@@ -197,11 +204,6 @@ const BookmarksPage: FC = () => {
 					</IonToolbar>
 				</IonFooter>
 			</IonModal>
-			<IonFab slot="fixed" horizontal="center" vertical="bottom">
-				<IonFabButton aria-label="Add Separator" size="small" color="primary" onClick={() => setOpenModal(true)}>
-					<IonIcon icon={add} />
-				</IonFabButton>
-			</IonFab>
 		</BasicPage>
 	);
 };
