@@ -9,7 +9,7 @@
 			"$comment": "This is for 99% of the JSON files",
 			"type": "object",
 			"patternProperties": {
-				"[a-z0-9_]+": {
+				"^[a-z0-9_]+$": {
 					"type": "object",
 					"anyOf": [
 						{
@@ -296,6 +296,32 @@
 					"unevaluatedProperties": false
 				}
 			]
+		},
+		{
+			"$comment": "This is for colors.json",
+			"type": "object",
+			"properties": {
+				"light": {
+					"patternProperties": {
+						"^[a-z]+(-(bg|text)(-dim)?)?$": {
+							"type": "string",
+							"pattern": "^(var *[(]--[-a-z]+[)]|#[a-f0-9A-F]{6})$"
+						}
+					},
+					"unevaluatedProperties": false
+				},
+				"dark": {
+					"patternProperties": {
+						"^[a-z]+(-(bg|text)(-dim)?)?$": {
+							"type": "string",
+							"pattern": "^(var *[(]--[-a-z]+[)]|#[a-f0-9A-F]{6})$"
+						}
+					},
+					"unevaluatedProperties": false
+				},
+				"required": [ "light", "dark" ]
+			},
+			"unevaluatedProperties": false
 		}
 	],
 	"$defs": {

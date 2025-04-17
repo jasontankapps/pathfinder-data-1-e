@@ -7,6 +7,7 @@ import basic_data_groups, { basic_data_by_link } from './basic_data_groups.js';
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
 import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
+import colorJSON from './json/colors.json' with {type: 'json'};
 
 // Globally available variables
 
@@ -31,6 +32,50 @@ const get = (filename, logError = false) => {
 		throw err;
 	}
 };
+
+// Colors section
+(() => {
+	const {light, dark} = colorJSON;
+	const colors = Object.keys(light).filter(c => c.match(/^[a-z]+$/));
+	const filename = './src/store/generated/__colors.tsx';
+	const output =
+		`export type Color = "${colors.join('" | "')}";\n\n`
+		+`type ColorObject = {[key in Color]: string};\n\n`
+		+ `export const lightColors: ColorObject = {\n\t${colors.map(key => {
+			return `"${key}": "${light[key]}"`;
+		}).join(",\n\t")}\n};\n\n`
+		+ `export const darkColors: ColorObject = {\n\t${colors.map(key => {
+			return `"${key}": "${dark[key]}"`;
+		}).join(",\n\t")}\n};\n`
+	;
+	const test = get(filename).trim();
+	if(test !== output.trim()) {
+		fs.writeFileSync(filename, output);
+		console.log(`Saved ${filename}`);
+		$.savedCount++;
+	} else {
+		console.log(`UNCHANGED ${filename}`);
+	}
+})();
+(() => {
+	const {light, dark} = colorJSON;
+	const colors = Object.keys(light);
+	const filename = './src/components/__Bookmarks.css';
+	const prefix = `ion-icon, ion-item, ion-text ion-toggle {\n`;
+	const output =
+		`${prefix}\t${colors.map(c => `--${c}: ${light[c]}`).join(";\n\t")};\n}\n\n`
+		+`@media (prefers-color-scheme: dark) {\n\t${prefix}\t\t`
+		+`${colors.map(c => `--${c}: ${dark[c]}`).join(";\n\t\t")};\n\t}\n}\n`
+	;
+	const test = get(filename).trim();
+	if(test !== output.trim()) {
+		fs.writeFileSync(filename, output);
+		console.log(`Saved ${filename}`);
+		$.savedCount++;
+	} else {
+		console.log(`UNCHANGED ${filename}`);
+	}
+})();
 
 // Handle implicit jumplists
 const jl = (text, id) => {
@@ -260,7 +305,7 @@ const preprocess = () => {
 			let m = false;
 			let newline = "";
 			let tester = line;
-			while(m = tester.match(/^(.*)\{SOURCE ([^}]+?)\}(.*)$/)) {
+			while(m = tester.match(/^(.*)(?:\{|&#123;)SOURCE ([^}]+?)(?:\}|&#125;)(.*)$/)) {
 				const sources = m[2].split(/;/).map(source => makeSourceLink(source));
 				newline = newline + `${m[1]}**Sources** ${sources.join(", ")}`;
 				tester = m[3];
@@ -324,7 +369,7 @@ const postprocess = (tables) => {
 		output = "";
 		//{jumplist header / etc}
 		//Create JumpLists out of the plain-text code
-		while(m = text.match(/^(.*?)<p>\{jumplist ([^}]+)\}<\/p>(.*)$/)) {
+		while(m = text.match(/^(.*?)<p>(?:\{|&#123;)jumplist ([^}]+)(?:\}|&#125;)<\/p>(.*)$/)) {
 			const [x, pre, jumplist, post] = m;
 			output = output + `${pre}<div className="jumpList" id="${$.prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			jumplist.split(/ +\/ +/).forEach(input => {
@@ -950,7 +995,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	}
 });
 
-console.log(`\n\n>> Saved [${$.savedCount}] files (out of ${number_of_groups + 1}).`);
+console.log(`\n\n>> Saved [${$.savedCount}] files (out of ${number_of_groups + 3}).`);
 
 if($.errorCount) {
 	console.log(`\n\n>> Found [${$.errorCount}] errors.`);

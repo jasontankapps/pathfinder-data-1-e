@@ -1,9 +1,10 @@
 import { Clipboard } from "@capacitor/clipboard";
-import { useRef, useState, FC, RefObject, useEffect, Dispatch } from 'react';
-import { closeCircle, close as closeIcon, copy } from 'ionicons/icons';
+import { useRef, useState, FC, RefObject, useEffect, Dispatch, ReactElement } from 'react';
+import { bookmark, closeCircle, close as closeIcon, copy } from 'ionicons/icons';
 import {
 	IonButton,
 	IonButtons,
+	IonCheckbox,
 	IonContent,
 	IonFooter,
 	IonHeader,
@@ -13,26 +14,23 @@ import {
 	IonLabel,
 	IonList,
 	IonModal,
-	IonPicker,
-	IonPickerColumn,
-	IonPickerColumnOption,
-	IonRadio,
-	IonRadioGroup,
 	IonText,
 	IonTextarea,
 	IonTitle,
 	IonToggle,
 	IonToolbar,
+	useIonAlert,
+	UseIonAlertResult,
 	useIonToast,
 	UseIonToastResult
 } from '@ionic/react';
-import { doesPageExist } from "../components/getPageName";
-import { BookmarkGroup, Color, importBookmarksGroup, universalBookmarkDividerId } from '../store/bookmarksSlice';
+import { BookmarkGroup, importBookmarkGroups } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import BasicPage from './BasicPage';
 import './Page.css';
+import parseImport from "./parseImport";
 
-const toggle = (item: Color, all: Color[]): Color[] => {
+const toggle = (item: string, all: string[]): string[] => {
 	if(all.indexOf(item) > -1) {
 		return all.filter(x => x !== item);
 	}
@@ -63,86 +61,35 @@ const clip = (toaster: UseIonToastResult, ref: RefObject<HTMLIonTextareaElement>
 	}
 };
 
-function assertingAsBookmarkGroup(value: unknown): asserts value is BookmarkGroup[] {}
+type BG = Omit<BookmarkGroup, "hidden">;
+type Pair = [string, BG];
 
-const maybeLaunchModal = (
-	setter: Dispatch<BookmarkGroup[]>,
+const maybeLaunchImportModal = (
+	setter: Dispatch<Pair[]>,
 	ref: RefObject<HTMLIonTextareaElement>,
-	order: Color[],
 	toaster: UseIonToastResult
 ): void => {
-	let msg = "No data to import.";
+	let message = "No data to import.";
 	if(ref && ref.current && ref.current.value) {
 		let data: any;
 		try {
 			data = JSON.parse(ref.current.value);
 		} catch(e) {
 			data = null;
-			msg = "ERR-0.1 Invalid JSON format"
+			message = "ERR-0.1 Invalid JSON format"
 		}
 		if(data) {
-			// Test data for validity
-			if(!Array.isArray(data)) {
-				msg = "ERR-0.2 Invalid Array";
-			} else if(data.every(x => {
-				if(!x || typeof x !== "object") {
-					msg = "ERR-1.1 Malformed item";
-					return false; // data.every fails
-				}
-				const { color, title, contents, hidden, ...etc } = x;
-				if (
-					Object.keys(etc).length > 0
-					|| title === undefined
-					|| !color
-					|| !contents
-					|| hidden === undefined
-					|| typeof title !== "string"
-					|| typeof color !== "string"
-					|| order.indexOf(color as Color) === -1
-					|| !Array.isArray(contents)
-					|| !(hidden === true || hidden === false)
-				) {
-					msg = "ERR-1.1.2 Malformed format";
-					return false; // data.every fails
-				} else if (!contents.every((pair: any) => {
-					if(!Array.isArray(pair)) {
-						msg = "ERR-1.2 Malformed formatting";
-						return false; // contents.every fails
-					}
-					const [link, title, ...etc] = pair;
-					if(
-						etc.length > 0
-						|| typeof link !== "string"
-						|| typeof title !== "string"
-						|| !(link === universalBookmarkDividerId || doesPageExist(link))
-					) {
-						msg = "ERR-1.3 Malformed contents";
-						return false; // contents.every fails
-					}
-					return true; // contents.every SUCCEEDS
-				})) {
-					return false; // data.every fails
-				} else {
-					const subset = contents.filter((pair: any) => pair[0] === universalBookmarkDividerId).map(pair => pair[1]);
-					while(subset.length > 0) {
-						const test = subset.shift()!;
-						if(subset.some(sub => sub === test)) {
-							msg = "ERR-1.4 Duplicate contents";
-							return false; // data.every fails
-						}
-					}
-				}
-				return true; // data.every SUCCEEDS
-			})) {
-				assertingAsBookmarkGroup(data);
-				setter(data);
+			const {ok, msg, found} = parseImport(data);
+			if(ok) {
+				setter(found!);
 				return;
 			}
+			message = msg!;
 		}
 	}
 	const [toast, closeToast] = toaster;
 	closeToast().then(() => toast({
-		message: msg,
+		message,
 		header: "Unable to Import",
 		color: "danger",
 		duration: 3500,
@@ -150,59 +97,125 @@ const maybeLaunchModal = (
 	}));
 };
 
-// IonPicker expects number | string | undefined, but we only use numbers...
-const clamp = (input: string | number | undefined, max: number, min: number = 0): number => {
-	const n = Number(input);
-	if(n !== n) {
-		return min;
-	} else if (n > max) {
-		return max;
-	} else if (n < min) {
-		return min;
-	}
-	return n;
-};
-
 interface ModalProps {
-	importing: BookmarkGroup[]
+	importing: Pair[]
 	close: () => void
 	toaster: UseIonToastResult
+	alert: UseIonAlertResult
 }
 
 const ImportModal: FC<ModalProps> = (props) => {
-	const { db, order, ...colors } = useAppSelector(state => state.bookmarks);
-	const { importing, close, toaster } = props;
-	const [colorToImportAs, setColorToImportAs] = useState<number>(0);
-	const [importOption, setImportOption] = useState<number>(0);
-	const [open, setOpen] = useState(false);
+	const { db } = useAppSelector(state => state.bookmarks);
+	const { importing, close, toaster, alert } = props;
+	const [toImport, setToImport] = useState<number[]>([]);
+	const [danger, setDanger] = useState<number[]>([]);
+	const [output, setOutput] = useState<ReactElement[]>([]);
 	const dispatch = useAppDispatch();
-	const data = importing.map((bit, i) => {
-		const { color, title, contents, hidden } = bit;
-		return (
-			<IonItem className={importOption === i ? "importOption" : "importOption unselected"} key={`import-option-${i}-${title}-${color}/${contents.length}`}>
-				<IonRadio justify="space-between" labelPlacement="start" value={i}>
-					<div className="importBit">
-						<div><strong>Title:</strong> {title}</div>
-						<div><strong>Original Color:</strong> {color}</div>
-						<div><strong>Number of Bookmarks:</strong> {contents.length}</div>
-					</div>
-				</IonRadio>
-			</IonItem>
-		);
-	});
-	const doImport = () => {
+
+	useEffect(() => {
+		const ok: number[] = [];
+		const danger: number[] = [];
+		importing.forEach((input, i) => {
+			const [id] = input;
+			if(db[id]) {
+				danger.push(i);
+			} else {
+				ok.push(i);
+			}
+		});
+		setToImport(ok);
+		setDanger(danger);
+	}, [importing, setToImport, setDanger]);
+
+	useEffect(() => {
+		const data: ReactElement[] = [];
+		importing.forEach((input, i) => {
+			const [id, bit] = input;
+			const { color, title, contents } = bit;
+			const checked = toImport.indexOf(i) > -1;
+			const coloring = danger.indexOf(i) > -1 ? "danger" : "primary";
+			const onClick = checked ? (
+				// Uncheck
+				() => setToImport(toImport.filter(x => x !== i))
+			) : (
+				// Check
+				() => setToImport([...toImport, i])
+			);
+			const el = (
+				<IonItem key={`import-option-${id}-${title}-${color}/${contents.length}`} className={checked ? "importOption" : "importOption unselected"}>
+					<IonCheckbox justify="space-between" checked={checked} onClick={onClick} color={coloring} labelPlacement="start">
+						<div className="importBit">
+							<div className="icon">
+								<IonIcon icon={bookmark} className={`color-${color}`} />
+							</div>
+							<div className="text">
+								<div><strong>Title:</strong> {title}</div>
+								<div><strong>Number of Bookmarks:</strong> {contents.length}</div>
+							</div>
+						</div>
+					</IonCheckbox>
+				</IonItem>
+			);
+			data.push(el);
+		});
+		setOutput(data);
+	}, [importing, setOutput, danger, toImport]);
+
+	const maybeImport = () => {
 		const [toast, closeToast] = toaster;
-		dispatch(importBookmarksGroup({
-			color: order[colorToImportAs],
-			title: importing[importOption].title,
-			contents: importing[importOption].contents
-		}));
-		closeToast().then(() => toast({
-			message: `Imported "${importing[importOption].title}" as ${order[colorToImportAs]} bookmark group.`,
-			color: "success",
-			duration: 3000,
-			position: "middle"
-		}));
+		const doImport = () => {
+			dispatch(importBookmarkGroups(toImport.map(i => importing[i])));
+			closeToast().then(() => toast({
+				message: `Imported ${toImport.length} bookmark group${toImport.length === 1 ? "" : "s"}.`,
+				color: "success",
+				duration: 3000,
+				position: "middle"
+			})).then(() => close());
+		};
+		const dangerous = toImport.filter(i => danger.indexOf(i) > -1).sort();
+		if(dangerous.length) {
+			const s = dangerous.length === 1 ? "" : "s";
+			const is = dangerous.length === 1 ? "is a" : "are";
+			const other = dangerous.length === 1 ? "an existing" : "existing";
+			const that = dangerous.length === 1 ? "that" : "those";
+			let incoming = "", inDanger = "";
+			switch(String(dangerous.length)) {
+				case "1":
+					incoming = `"${importing[dangerous[0]][1].title}"`;
+					inDanger = `"${db[importing[dangerous[0]][0]].title}"`;
+					break;
+				case "2":
+					incoming = `"${importing[dangerous[0]][1].title}" and "${importing[dangerous[1]][1].title}"`;
+					inDanger = `"${db[importing[dangerous[0]][0]].title}" and "${db[importing[dangerous[1]][0]].title}" respectively`;
+					break;
+				default:
+					const pop = dangerous.pop()!;
+					incoming = `"${dangerous.map(i => importing[i][1].title).join(`", "`)}", and "${importing[pop][1].title}"`;
+					inDanger = `"${dangerous.map(i => db[importing[i][0]].title).join(`", "`)}", and "${db[importing[pop][0]].title}" respectively`;
+			}
+			const message = `${incoming} ${is} duplicate${s} of ${other} group${s} ${inDanger}, and will overwrite your current bookmarks in ${that} group${s}.`;
+			alert[0]({
+				header: `Duplicate Group${s}`,
+				subHeader: `This will overwrite current bookmarks`,
+				message,
+				buttons: [
+					{
+						text: "Cancel",
+						role: "cancel",
+						cssClass: "cancel"
+					},
+					{
+						text: "Yes, Overwrite and Import",
+						cssClass: "delete",
+						role: "confirm",
+						handler: doImport
+					}
+				]
+			});
+		} else {
+			// No issues.
+			doImport();
+		}
 	};
 	return (
 		<IonModal isOpen={importing.length > 0} onIonModalDidDismiss={close} className="importExportBookmarkModal">
@@ -219,56 +232,21 @@ const ImportModal: FC<ModalProps> = (props) => {
 			<IonContent>
 				<IonList lines="full">
 					<IonItemDivider>Choose What to Import</IonItemDivider>
-					<IonRadioGroup value={importOption} onIonChange={e => setImportOption(e.detail.value)}>
-						{data}
-					</IonRadioGroup>
-					<IonItemDivider>Save As...</IonItemDivider>
-					<IonItem>
-						<IonModal
-							className="pickerSheet"
-							isOpen={open}
-							onDidDismiss={() => setOpen(false)}
-							breakpoints={[0, 1]}
-							initialBreakpoint={1}
-						>
-							<IonHeader>
-								<IonToolbar>
-									<IonTitle>Filter Table Content</IonTitle>
-									<IonButtons slot="end">
-										<IonButton color="primary" onClick={() => setOpen(false)}>Done</IonButton>
-									</IonButtons>
-								</IonToolbar>
-							</IonHeader>
-							<IonContent>
-								<IonPicker class="myPicker">
-									<IonPickerColumn
-										value={colorToImportAs}
-										onIonChange={e => setColorToImportAs(clamp(e.detail.value, order.length - 1))}
-									>
-										<div slot="prefix">Import as</div>
-										{order.map((opt, i) =>
-											<IonPickerColumnOption key={`color${opt}import${i}:${colors[order[i]].title}`} value={i}>
-												<IonText className={`color-${colors[order[i]].color}`}>{colors[order[i]].title} ({opt})</IonText>
-											</IonPickerColumnOption>
-										)}
-									</IonPickerColumn>
-								</IonPicker>
-							</IonContent>
-						</IonModal>
-						<IonLabel className="picker" onClick={() => setOpen(true)}>Overwrite <IonText className={`pickedText color-${colors[order[colorToImportAs]].color}`}>{colors[order[colorToImportAs]].title} ({order[colorToImportAs]})</IonText> Bookmarks</IonLabel>
-						<IonButton slot="start" color="primary" onClick={doImport}>
-							<IonLabel>Import</IonLabel>
-							<IonIcon icon="/icons/input.svg" slot="end" />
-						</IonButton>
-					</IonItem>
+					{output}
 				</IonList>
 			</IonContent>
 			<IonFooter>
 				<IonToolbar>
-					<IonButtons slot="end">
-						<IonButton onClick={close} fill="solid" shape="round" color="success">
+					<IonButtons slot="start">
+						<IonButton onClick={close} shape="round" color="success">
 							<IonIcon icon={closeIcon} slot="start" />
 							<IonLabel>Done</IonLabel>
+						</IonButton>
+					</IonButtons>
+					<IonButtons slot="end">
+						<IonButton slot="end" fill="solid" color="primary" onClick={maybeImport}>
+							<IonLabel>Import Selected</IonLabel>
+							<IonIcon icon="/icons/input.svg" slot="end" />
 						</IonButton>
 					</IonButtons>
 				</IonToolbar>
@@ -278,17 +256,24 @@ const ImportModal: FC<ModalProps> = (props) => {
 };
 
 const BookmarksImportExportPage: FC = () => {
-	const { db, order, ...colors } = useAppSelector(state => state.bookmarks);
-	const [selected, setSelected] = useState<Color[]>([]);
+	const { db, order } = useAppSelector(state => state.bookmarks);
+	const [selected, setSelected] = useState<string[]>([]);
 	const [output, setOutput] = useState<string>("");
-	const [importing, setImporting] = useState<BookmarkGroup[]>([]);
+	const [importing, setImporting] = useState<Pair[]>([]);
 	const exportRef = useRef<HTMLIonTextareaElement>(null);
 	const importRef = useRef<HTMLIonTextareaElement>(null);
 	const toaster = useIonToast();
-	const exportable = order.filter(c => colors[c].title.toLowerCase() !== c || colors[c].contents.length > 0);
+	const alert = useIonAlert();
+	const exportable = order
+		.filter(c => db[c].title.toLowerCase() !== c || db[c].contents.length > 0);
 
 	useEffect(() => {
-		setOutput(selected.length ? JSON.stringify(selected.map(c => colors[c])) : "");
+		const output: {[key: string]: BG} = {};
+		selected.forEach(id => {
+			const {hidden, ...obj} = db[id]
+			output[id] = obj;
+		});
+		setOutput(selected.length ? JSON.stringify(output) : "");
 	}, [selected, setOutput]);
 
 	const doClose = () => {
@@ -305,23 +290,26 @@ const BookmarksImportExportPage: FC = () => {
 			noFinder
 			className="bookmarks importExport"
 		>
-			<ImportModal importing={importing} toaster={toaster} close={doClose} />
+			<ImportModal importing={importing} toaster={toaster} alert={alert} close={doClose} />
 			<div className="export block">
 				<h2>Export Bookmarks</h2>
 				<p>Choose which group(s) you wish to export.</p>
 				{exportable.length ? <IonList lines="none">
-					{exportable.map(c => (
-						<IonItem key={`export-bookmark-option-${c}`} className={`color-${c}`}>
-							<IonToggle
-								checked={selected.indexOf(c) > -1}
-								onClick={() => setSelected(toggle(c, selected))}
-								labelPlacement="start"
-								justify="space-between"
-							>
-								<IonText className={`color-${c}`}>{colors[c].title}</IonText>
-							</IonToggle>
-						</IonItem>
-					))}
+					{exportable.map(id => {
+						const {title, color} = db[id];
+						return (
+							<IonItem key={`export-bookmark-option-${id}`} className={`color-${color}`}>
+								<IonToggle
+									checked={selected.indexOf(id) > -1}
+									onClick={() => setSelected(toggle(id, selected))}
+									labelPlacement="start"
+									justify="space-between"
+								>
+									<IonText className={`color-${color}`}>{title}</IonText>
+								</IonToggle>
+							</IonItem>
+						)
+					})}
 				</IonList> : <p><IonText color="danger"><em>(Nothing to export: no bookmarks found)</em></IonText></p>}
 				<IonTextarea
 					fill="outline"
@@ -346,7 +334,7 @@ const BookmarksImportExportPage: FC = () => {
 					labelPlacement="stacked"
 					ref={importRef}
 				/>
-				<IonButton size="small" color="tertiary" onClick={() => maybeLaunchModal(setImporting, importRef, order, toaster)}>
+				<IonButton size="small" color="tertiary" onClick={() => maybeLaunchImportModal(setImporting, importRef, toaster)}>
 					<IonIcon icon="/icons/input.svg" slot="start" />
 					<IonLabel>Import</IonLabel>
 				</IonButton>

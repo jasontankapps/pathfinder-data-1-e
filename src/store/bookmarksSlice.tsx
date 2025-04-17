@@ -1,33 +1,24 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 import { v7 as uuidv7 } from 'uuid';
+import { Color as C, lightColors as lC, darkColors as dC } from './generated/__colors';
 
-export type Color =
-	"red" | "redorange" | "orange" | "lightorange"
-	| "yellow" | "chartreuse" | "green" | "bluegreen"
-	| "teal" | "cyan" | "blue" | "skyblue" | "purple"
-	| "magenta" | "pink" | "brown" | "grey" | "bluegrey";
+export type Color = C;
 
-export const colors: {[key in Color]: string} = {
-	red: "#ff1744",
-	redorange: "#ff3d00",
-	orange: "#ff9100",
-	lightorange: "#ffc400",
-	yellow: "#ffea00",
-	chartreuse: "#c6ff00",
-	green: "#76ff03",
-	bluegreen: "#00e676",
-	teal: "#1de9b6",
-	cyan: "#00e5ff",
-	blue: "#00b0ff",
-	skyblue: "#82b1ff",
-	purple: "#b388ff",
-	magenta: "#d500f9",
-	pink: "#ff4081",
-	brown: "#a1887f",
-	grey: "#bdbdbd",
-	bluegrey: "#b0beee"
-};
+export const lightColors = lC;
+export const darkColors = dC;
+
+export const colorNames = Object.keys(lightColors) as Color[];
+
+const hexToColor: {[key: string]: Color} = {};
+colorNames.forEach(color => {
+	hexToColor[lightColors[color]] = color;
+	hexToColor[darkColors[color]] = color;
+});
+
+export const getColor = (input: unknown): Color => {
+	return hexToColor[input as string] || "red";
+}
 
 export type BookmarkDB = { [key: string]: BookmarkGroup }
 
@@ -278,18 +269,18 @@ export const bookmarkSlice = createSlice({
 				db
 			}
 		},
-		addBookmarkGroups: (state, action: PayloadAction<Omit<BookmarkGroup, "hidden">[]>) => {
+		importBookmarkGroups: (state, action: PayloadAction<[string, Omit<BookmarkGroup, "hidden">][]>) => {
 			const payload = action.payload;
 			const {order: incoming, db: oldDb, catalog} = state;
 			const db = {...oldDb};
 			const order = [...incoming];
-			payload.forEach((group: Omit<BookmarkGroup, "hidden">) => {
-				const id = uuidv7();
+			payload.forEach(input => {
+				const [id, group] = input;
+				db[id] || order.push(id);
 				db[id] = {
 					...group,
 					hidden: false
 				}
-				order.push(id);
 			});
 			const newState = { order, db, catalog };
 			return newState;
@@ -307,6 +298,20 @@ export const bookmarkSlice = createSlice({
 			return {
 				db, order, catalog
 			};
+		},
+		changeGroupColor: (state, action: PayloadAction<{id: string, color: Color}>) => {
+			const {id, color} = action.payload;
+			const {db: oldDb, ...etc} = state;
+			const {color: x, ...rest} = oldDb[id];
+			const db = {...oldDb};
+			db[id] = {
+				color,
+				...rest
+			}
+			return {
+				...etc,
+				db
+			};
 		}
 	}
 });
@@ -316,9 +321,9 @@ export const {
 	addBookmark, removeBookmark,
 	editBookmark, reorderBookmarks,
 	toggleHidden, renameGroup,
-	reorderGroups, addBookmarkGroups,
+	reorderGroups, importBookmarkGroups,
 	deleteBookmarkGroup, addDivider,
-	makeNewBookmarkGroup
+	makeNewBookmarkGroup, changeGroupColor
 } = bookmarkSlice.actions;
 
 // Export the slice reducer for use in the store configuration

@@ -1,10 +1,14 @@
 import { FC, RefObject, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useParams, useLocation } from 'wouter';
-import { pencil, reorderTwo, trash, bookmark, chevronExpand } from 'ionicons/icons';
+import { pencil, reorderTwo, trash, bookmark, chevronExpand, closeCircle, save } from 'ionicons/icons';
 import {
 	IonButton,
+	IonButtons,
+	IonContent,
 	IonFab,
 	IonFabButton,
+	IonFooter,
+	IonHeader,
 	IonIcon,
 	IonInput,
 	IonItem,
@@ -14,18 +18,25 @@ import {
 	IonItemSliding,
 	IonLabel,
 	IonList,
+	IonModal,
 	IonReorder,
 	IonReorderGroup,
+	IonTitle,
+	IonToolbar,
 	ItemReorderEventDetail,
 	useIonAlert
 } from '@ionic/react';
+import Circle from '@uiw/react-color-circle';
 import getPageName from '../components/getPageName';
 import { goTo } from '../store/historySlice';
 import {
 	addDivider, Color, universalBookmarkDividerId, editBookmark,
-	removeBookmark, renameGroup, reorderBookmarks
+	removeBookmark, renameGroup, reorderBookmarks,
+	lightColors, darkColors, colorNames,
+	changeGroupColor, getColor
 } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
+import useDarkMode from '../components/useDarkMode';
 import BasicPage from './BasicPage';
 import '../components/Bookmarks.css';
 import './Page.css';
@@ -69,7 +80,7 @@ const BookmarkItem: FC<BookmarkItemProps> = (props) => {
 		</IonItemSliding>
 	);
 };
-//<IonLabel className="ion-text-center"><BookmarkDividerSVG /></IonLabel>
+
 const BookmarkDivider: FC<BookmarkDividerProps> = (props) => {
 	const { index, id, color } = props;
 	const dispatch = useAppDispatch();
@@ -116,12 +127,17 @@ const BookmarkPage: FC<{}> = () => {
 	const {color, title, contents} = data || { color: "red", title: "(error)", contents: blank };
 
 	const [disabled, setDisabled] = useState(true);
+	const [openModal, setOpenModal] = useState(false);
+	const [newColor, setNewColor] = useState<Color>("red");
 	const dispatch = useAppDispatch();
 	const defaultTitle = "Bookmarks";
 	const [currentTitle, setCurrentTitle] = useState(title);
 	const [, navigate] = useLocation();
 	const titleInput = useRef<HTMLIonInputElement>(null);
+	const isDark = useDarkMode();
 
+	const colors = useMemo(() => isDark ? darkColors : lightColors, [isDark]);
+	
 	const scrollHook = useCallback((input: RefObject<HTMLIonContentElement>) => {
 		setScrollObj(input);
 	}, []);
@@ -193,6 +209,11 @@ const BookmarkPage: FC<{}> = () => {
 		id && dispatch(renameGroup({id, title: currentTitle.trim() || defaultTitle}));
 	};
 
+	const maybeSaveColor = useCallback((color: Color) => {
+		dispatch(changeGroupColor({id, color}));
+		setOpenModal(false);
+	}, [dispatch, setOpenModal]);
+
 	const members = useMemo(() => {
 		return contents.map((info, position) => {
 			const [link, title] = info;
@@ -202,6 +223,11 @@ const BookmarkPage: FC<{}> = () => {
 			return <BookmarkItem id={link} index={position} title={title} doEdit={doEdit} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
 		});
 	} , [contents, id, color, doEdit, dispatch, navigate]);
+
+	const openColorModal = () => {
+		setNewColor(color);
+		setOpenModal(true);
+	}
 
 	return (
 		<BasicPage
@@ -213,9 +239,40 @@ const BookmarkPage: FC<{}> = () => {
 			fab={<Fab color={color} id={id} func={scrollToBottom} />}
 			scrollHook={scrollHook}
 		>
+			<IonModal isOpen={openModal} onIonModalDidDismiss={() => setOpenModal(false)}>
+				<IonHeader>
+					<IonToolbar>
+						<IonTitle>Change Group Color</IonTitle>
+						<IonButtons slot="end">
+							<IonButton onClick={() => setOpenModal(false)}>
+								<IonIcon icon={closeCircle} slot="icon-only" />
+							</IonButton>
+						</IonButtons>
+					</IonToolbar>
+				</IonHeader>
+				<IonContent>
+					<IonList lines="full">
+						<IonItem style={{paddingBlock: "0.5rem"}}>
+							<Circle style={{margin: "0.5rem"}} colors={colorNames.map(c => colors[c])} color={colors[newColor]} onChange={hex => setNewColor(getColor(hex.hex))} />
+						</IonItem>
+					</IonList>
+				</IonContent>
+				<IonFooter>
+					<IonToolbar>
+						<IonButtons slot="end">
+							<IonButton color="success" onClick={() => maybeSaveColor(newColor)}>
+								<IonIcon icon={save} slot="start" />
+								Save
+							</IonButton>
+						</IonButtons>
+					</IonToolbar>
+				</IonFooter>
+			</IonModal>
 			<IonList lines="full" id={id + "BookmarkList"}>
 				<IonItem>
-					<IonIcon className={`color-${color}`} slot="start" icon={bookmark} />
+					<IonButton color="secondary" slot="start" fill="clear" onClick={openColorModal}>
+						<IonIcon className={`color-${color}`} slot="icon-only" icon={bookmark} />
+					</IonButton>
 					<IonInput
 						placeholder={`Defaults to "${defaultTitle}"`}
 						label=""

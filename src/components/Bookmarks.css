@@ -1,126 +1,15 @@
 /* Bookmark Colors */
 
-ion-icon,
-ion-item,
-ion-text,
-ion-toggle {
-	/*
-		--color: Signature color for icons and such
-		--color-bg: Color that can be used as a background for items, often with colored text on top
-		--color-text: Color that is readable on the default background
-		--*-dim: Dimmer versions of the above, for "inactive" elements
+/*
+	--color: Signature color for icons and such
+	--color-bg: Color that can be used as a background for items, often with colored text on top
+	--color-text: Color that is readable on the default background
+	--*-dim: Dimmer versions of the above, for "inactive" elements
+	For light backgrounds, --color-bg is often the same as --color.
+	Dark backgrounds have --color-text the same as --color.
+*/
 
-		For light backgrounds, --color-bg is often the same as --color.
-		Dark backgrounds have --color-text the same as --color.
-	*/
-	--red: #ff1744;
-	--red-bg: var(--red);
-	--red-text: #330000;
-	--red-bg-dim: #ffa2b4;
-	--red-text-dim: #a05660;
-
-	--redorange: #ff3d00;
-	--redorange-bg: var(--redorange);
-	--redorange-text: #442200;
-	--redorange-bg-dim: #ffb199;
-	--redorange-text-dim: #a86e52;
-
-	--orange: #ff9100;
-	--orange-bg: var(--orange);
-	--orange-text: #552200;
-	--orange-bg-dim: #ffd399;
-	--orange-text-dim: #b08152;
-
-	--lightorange: #ffc400;
-	--lightorange-bg: var(--lightorange);
-	--lightorange-text: #663300;
-	--lightorange-bg-dim: #ffe799;
-	--lightorange-text-dim: #b89352;
-
-	--yellow: #ffea00;
-	--yellow-bg: var(--yellow);
-	--yellow-text: #333300;
-	--yellow-bg-dim: #fff799;
-	--yellow-text-dim: #a09c52;
-
-	--chartreuse: #c6ff00;
-	--chartreuse-bg: var(--chartreuse);
-	--chartreuse-text: #335500;
-	--chartreuse-bg-dim: #e8ff99;
-	--chartreuse-text-dim: #94b052;
-
-	--green: #76ff03;
-	--green-bg: var(--green);
-	--green-text: #33691e;
-	--green-bg-dim: #c8ff9a;
-	--green-text-dim: #83b960;
-
-	--bluegreen: #00e676;
-	--bluegreen-bg: var(--bluegreen);
-	--bluegreen-text: #1b5e20;
-	--bluegreen-bg-dim: #99f5c8;
-	--bluegreen-text-dim: #5faf7a;
-
-	--teal: #1de9b6;
-	--teal-bg: var(--teal);
-	--teal-text: #004d40;
-	--teal-bg-dim: #a5f6e2;
-	--teal-text-dim: #58a797;
-
-	--cyan: #00e5ff;
-	--cyan-bg: var(--cyan);
-	--cyan-text: #004444;
-	--cyan-bg-dim: #99f5ff;
-	--cyan-text-dim: #52a3a8;
-
-	--blue: #00b0ff;
-	--blue-bg: var(--blue);
-	--blue-text: #003355;
-	--blue-bg-dim: #99dfff;
-	--blue-text-dim: #528fb0;
-
-	--skyblue: #82b1ff;
-	--skyblue-bg: var(--skyblue);
-	--skyblue-text: #114466;
-	--skyblue-bg-dim: #cde0ff;
-	--skyblue-text-dim: #7597b8;
-
-	--purple: #b388ff;
-	--purple-bg: var(--purple);
-	--purple-text: #311b92;
-	--purple-bg-dim: #e1cfff;
-	--purple-text-dim: #8f7bcc;
-
-	--magenta: #d500f9;
-	--magenta-bg: var(--magenta);
-	--magenta-text: #330055;
-	--magenta-bg-dim: #ee99fd;
-	--magenta-text-dim: #9752af;
-
-	--pink: #ff4081;
-	--pink-bg: var(--pink);
-	--pink-text: #550033;
-	--pink-bg-dim: #ffb3cd;
-	--pink-text-dim: #b05f85;
-
-	--brown: #a1887f;
-	--brown-bg: var(--brown);
-	--brown-text: #3e2723;
-	--brown-bg-dim: #d9cfcc;
-	--brown-text-dim: #91807d;
-
-	--grey: #bdbdbd;
-	--grey-bg: var(--grey);
-	--grey-text: #212121;
-	--grey-bg-dim: #e5e5e5;
-	--grey-text-dim: #898989;
-
-	--bluegrey: #b0bec5;
-	--bluegrey-bg: var(--bluegrey);
-	--bluegrey-text: #263238;
-	--bluegrey-bg-dim: #dfe5e8;
-	--bluegrey-text-dim: #899196;
-}
+@import url('./__Bookmarks.css');
 
 /*
 Non-working...
@@ -158,121 +47,6 @@ div.basicContent.bookmarks ion-item.divider ion-label ion-icon {
 	width: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-	ion-icon,
-	ion-item,
-	ion-text,
-	ion-toggle {
-		--red: #ff1744;
-		--red-bg: #660000;
-		--red-text: var(--red);
-		--red-bg-dim: #440000;
-		--red-text-dim: #a80c24;
-
-		--redorange: #ff3d00;
-		--redorange-bg: #663300;
-		--redorange-text: var(--redorange);
-		--redorange-bg-dim: #442200;
-		--redorange-text-dim: #9d2c00;
-
-		--orange: #ff9100;
-		--orange-bg: #884400;
-		--orange-text: var(--orange);
-		--orange-bg-dim: #553300;
-		--orange-text-dim: #a35800;
-
-		--lightorange: #ffc400;
-		--lightorange-bg: #996600;
-		--lightorange-text: var(--lightorange);
-		--lightorange-bg-dim: #665500;
-		--lightorange-text-dim: #a87900;
-
-		--yellow: #ffea00;
-		--yellow-bg: #888800;
-		--yellow-text: var(--yellow);
-		--yellow-bg-dim: #666600;
-		--yellow-text-dim: #989800;
-
-		--chartreuse: #c6ff00;
-		--chartreuse-bg: #668800;
-		--chartreuse-text: var(--chartreuse);
-		--chartreuse-bg-dim: #445500;
-		--chartreuse-text-dim: #7aa300;
-
-		--green: #76ff03;
-		--green-bg: #33771e;
-		--green-text: var(--green);
-		--green-bg-dim: #224614;
-		--green-text-dim: #4fa90b;
-
-		--bluegreen: #00e676;
-		--bluegreen-bg: #006933;
-		--bluegreen-text: var(--bluegreen);
-		--bluegreen-bg-dim: #004422;
-		--bluegreen-text-dim: #089849;
-
-		--teal: #1de9b6;
-		--teal-bg: #006644;
-		--teal-text: var(--teal);
-		--teal-bg-dim: #003f2f;
-		--teal-text-dim: #0f9475;
-
-		--cyan: #00e5ff;
-		--cyan-bg: #006666;
-		--cyan-text: var(--cyan);
-		--cyan-bg-dim: #004444;
-		--cyan-text-dim: #008f9d;
-
-		--blue: #00b0ff;
-		--blue-bg: #224488;
-		--blue-text: var(--blue);
-		--blue-bg-dim: #0f3355;
-		--blue-text-dim: #006ea3;
-
-		--skyblue: #82b1ff;
-		--skyblue-bg: #115090;
-		--skyblue-text: var(--skyblue);
-		--skyblue-bg-dim: #0b2d44;
-		--skyblue-text-dim: #4a73a8;
-
-		--purple: #b388ff;
-		--purple-bg: #601190;
-		--purple-text: var(--purple);
-		--purple-bg-dim: #440055;
-		--purple-text-dim: #6e51b5;
-
-		--magenta: #cc00f9;
-		--magenta-bg: #600077;
-		--magenta-text: var(--magenta);
-		--magenta-bg-dim: #330044;
-		--magenta-text-dim: #8200a0;
-
-		--pink: #cc4081;
-		--pink-bg: #660030;
-		--pink-text: var(--pink);
-		--pink-bg-dim: #440020;
-		--pink-text-dim: #aa2250;
-
-		--brown: #a19988;
-		--brown-bg: #554433;
-		--brown-text: var(--brown);
-		--brown-bg-dim: #291a17;
-		--brown-text-dim: #69554f;
-
-		--grey: #bdbdbd;
-		--grey-bg: #444444;
-		--grey-text: var(--grey);
-		--grey-bg-dim: #303030;
-		--grey-text-dim: #6f6f6f;
-
-		--bluegrey: #b0becc;
-		--bluegrey-bg: #263238;
-		--bluegrey-text: var(--bluegrey);
-		--bluegrey-bg-dim: #192125;
-		--bluegrey-text-dim: #6a6a77;
-	}
-}
-
 ion-item.color-red {
 	/* colored items get a color suitable as a background */
 	--background: var(--red-bg);
@@ -302,28 +76,22 @@ ion-item.color-red ion-toggle {
 
 
 ion-item.color-redorange {
-	/* colored items get a color suitable as a background */
 	--background: var(--redorange-bg);
 }
 ion-text.color-redorange {
-	/* colored text uses a color that should be readable on a bare background */
 	color: var(--redorange-text);
 }
 ion-item.color-redorange.dim {
-	/* dim versions are dim */
 	--background: var(--redorange-bg-dim);
 }
 ion-item.dim ion-text.color-redorange {
-	/* dim versions are dim */
 	color: var(--redorange-text-dim);
 }
 ion-icon.color-redorange {
-	/* icons use a pure color */
 	--pickedColor: var(--redorange);
 	color: var(--redorange);
 }
 ion-item.color-redorange ion-toggle {
-	/* toggles use a pure color */
 	--handle-background-checked: var(--redorange);
 	--track-background-checked: var(--ion-color-light);
 }
@@ -352,28 +120,22 @@ ion-item.dim ion-text.color-orange {
 
 
 ion-item.color-lightorange {
-	/* colored items get a color suitable as a background */
 	--background: var(--lightorange-bg);
 }
 ion-text.color-lightorange {
-	/* colored text uses a color that should be readable on a bare background */
 	color: var(--lightorange-text);
 }
 ion-item.color-lightorange.dim {
-	/* dim versions are dim */
 	--background: var(--lightorange-bg-dim);
 }
 ion-item.dim ion-text.color-lightorange {
-	/* dim versions are dim */
 	color: var(--lightorange-text-dim);
 }
 ion-icon.color-lightorange {
-	/* icons use a pure color */
 	--pickedColor: var(--lightorange);
 	color: var(--lightorange);
 }
 ion-item.color-lightorange ion-toggle {
-	/* toggles use a pure color */
 	--handle-background-checked: var(--lightorange);
 	--track-background-checked: var(--ion-color-light);
 }
@@ -446,56 +208,44 @@ ion-item.dim ion-text.color-green {
 
 
 ion-item.color-bluegreen {
-	/* colored items get a color suitable as a background */
 	--background: var(--bluegreen-bg);
 }
 ion-text.color-bluegreen {
-	/* colored text uses a color that should be readable on a bare background */
 	color: var(--bluegreen-text);
 }
 ion-item.color-bluegreen.dim {
-	/* dim versions are dim */
 	--background: var(--bluegreen-bg-dim);
 }
 ion-item.dim ion-text.color-bluegreen {
-	/* dim versions are dim */
 	color: var(--bluegreen-text-dim);
 }
 ion-icon.color-bluegreen {
-	/* icons use a pure color */
 	--pickedColor: var(--bluegreen);
 	color: var(--bluegreen);
 }
 ion-item.color-bluegreen ion-toggle {
-	/* toggles use a pure color */
 	--handle-background-checked: var(--bluegreen);
 	--track-background-checked: var(--ion-color-light);
 }
 
 
 ion-item.color-teal {
-	/* colored items get a color suitable as a background */
 	--background: var(--teal-bg);
 }
 ion-text.color-teal {
-	/* colored text uses a color that should be readable on a bare background */
 	color: var(--teal-text);
 }
 ion-item.color-teal.dim {
-	/* dim versions are dim */
 	--background: var(--teal-bg-dim);
 }
 ion-item.dim ion-text.color-teal {
-	/* dim versions are dim */
 	color: var(--teal-text-dim);
 }
 ion-icon.color-teal {
-	/* icons use a pure color */
 	--pickedColor: var(--teal);
 	color: var(--teal);
 }
 ion-item.color-teal ion-toggle {
-	/* toggles use a pure color */
 	--handle-background-checked: var(--teal);
 	--track-background-checked: var(--ion-color-light);
 }
@@ -546,28 +296,22 @@ ion-item.dim ion-text.color-blue {
 
 
 ion-item.color-skyblue {
-	/* colored items get a color suitable as a background */
 	--background: var(--skyblue-bg);
 }
 ion-text.color-skyblue {
-	/* colored text uses a color that should be readable on a bare background */
 	color: var(--skyblue-text);
 }
 ion-item.color-skyblue.dim {
-	/* dim versions are dim */
 	--background: var(--skyblue-bg-dim);
 }
 ion-item.dim ion-text.color-skyblue {
-	/* dim versions are dim */
 	color: var(--skyblue-text-dim);
 }
 ion-icon.color-skyblue {
-	/* icons use a pure color */
 	--pickedColor: var(--skyblue);
 	color: var(--skyblue);
 }
 ion-item.color-skyblue ion-toggle {
-	/* toggles use a pure color */
 	--handle-background-checked: var(--skyblue);
 	--track-background-checked: var(--ion-color-light);
 }
@@ -640,84 +384,66 @@ ion-item.dim ion-text.color-pink {
 
 
 ion-item.color-brown {
-	/* colored items get a color suitable as a background */
 	--background: var(--brown-bg);
 }
 ion-text.color-brown {
-	/* colored text uses a color that should be readable on a bare background */
 	color: var(--brown-text);
 }
 ion-item.color-brown.dim {
-	/* dim versions are dim */
 	--background: var(--brown-bg-dim);
 }
 ion-item.dim ion-text.color-brown {
-	/* dim versions are dim */
 	color: var(--brown-text-dim);
 }
 ion-icon.color-brown {
-	/* icons use a pure color */
 	--pickedColor: var(--brown);
 	color: var(--brown);
 }
 ion-item.color-brown ion-toggle {
-	/* toggles use a pure color */
 	--handle-background-checked: var(--brown);
 	--track-background-checked: var(--ion-color-light);
 }
 
 
 ion-item.color-grey {
-	/* colored items get a color suitable as a background */
 	--background: var(--grey-bg);
 }
 ion-text.color-grey {
-	/* colored text uses a color that should be readable on a bare background */
 	color: var(--grey-text);
 }
 ion-item.color-grey.dim {
-	/* dim versions are dim */
 	--background: var(--grey-bg-dim);
 }
 ion-item.dim ion-text.color-grey {
-	/* dim versions are dim */
 	color: var(--grey-text-dim);
 }
 ion-icon.color-grey {
-	/* icons use a pure color */
 	--pickedColor: var(--grey);
 	color: var(--grey);
 }
 ion-item.color-grey ion-toggle {
-	/* toggles use a pure color */
 	--handle-background-checked: var(--grey);
 	--track-background-checked: var(--ion-color-light);
 }
 
 
 ion-item.color-bluegrey {
-	/* colored items get a color suitable as a background */
 	--background: var(--bluegrey-bg);
 }
 ion-text.color-bluegrey {
-	/* colored text uses a color that should be readable on a bare background */
 	color: var(--bluegrey-text);
 }
 ion-item.color-bluegrey.dim {
-	/* dim versions are dim */
 	--background: var(--bluegrey-bg-dim);
 }
 ion-item.dim ion-text.color-bluegrey {
-	/* dim versions are dim */
 	color: var(--bluegrey-text-dim);
 }
 ion-icon.color-bluegrey {
-	/* icons use a pure color */
 	--pickedColor: var(--bluegrey);
 	color: var(--bluegrey);
 }
 ion-item.color-bluegrey ion-toggle {
-	/* toggles use a pure color */
 	--handle-background-checked: var(--bluegrey);
 	--track-background-checked: var(--ion-color-light);
 }
@@ -796,4 +522,17 @@ ion-modal.importExportBookmarkModal ion-list ion-item.importOption {
 }
 ion-modal.importExportBookmarkModal ion-list ion-item.importOption.unselected {
 	--background: var(--ion-background-color);
+}
+
+ion-checkbox div.importBit {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+ion-checkbox div.importBit div.icon {
+	flex: 0 0 2rem;
+}
+ion-checkbox div.importBit div.text {
+	flex: 1 1;
 }

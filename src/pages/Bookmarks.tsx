@@ -28,21 +28,16 @@ import {
 } from '@ionic/react';
 import Circle from '@uiw/react-color-circle';
 import { useLocation } from 'wouter';
+import useDarkMode from '../components/useDarkMode';
+import {
+	Color, deleteBookmarkGroup, reorderGroups, toggleHidden,
+	colorNames, lightColors, darkColors, makeNewBookmarkGroup,
+	getColor
+} from '../store/bookmarksSlice';
 import { goTo } from '../store/historySlice';
-import { Color, deleteBookmarkGroup, reorderGroups, toggleHidden, colors, makeNewBookmarkGroup } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import BasicPage from './BasicPage';
 import './Page.css';
-
-
-const colorNames = Object.keys(colors) as Color[];
-
-const hexToColor: {[key: string]: Color} = {};
-colorNames.forEach(color => (hexToColor[colors[color]] = color));
-
-const getColor = (input: unknown): Color => {
-	return hexToColor[input as string] || "red";
-}
 
 const BookmarksPage: FC = () => {
 	const { db, order } = useAppSelector(state => state.bookmarks);
@@ -53,7 +48,10 @@ const BookmarksPage: FC = () => {
 	const [openModal, setOpenModal] = useState(false);
 	const [newTitle, setNewTitle] = useState("New Group");
 	const [newColor, setNewColor] = useState<Color>("red");
+	const isDark = useDarkMode();
 	const listRef = useRef<HTMLIonListElement>(null);
+
+	const colors = useMemo(() => isDark ? darkColors : lightColors, [isDark]);
 
 	const ImportExport = useMemo(() => (
 		<IonButton onClick={() => { navigate(`/importexport`); dispatch(goTo(`/importexport`)); }}>
