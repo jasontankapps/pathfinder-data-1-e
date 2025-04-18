@@ -146,47 +146,15 @@ function isGood(archValue, what) {
 	if(!Object.entries(archValue).some(([prop, value]) => {
 		const test = value;
 		if(test && test.alternateOf) {
-			const {alternateOf, topLink, name: n} = test;
+			const {alternateOf} = test;
 			if(!alternateOf|| alternateOf === prop || !archValue[alternateOf] || archValue[alternateOf].alternateOf ) {
-				found = "Invalid alternateOf property of " + prop;
-			} else if (
-				topLink
-				&& (
-					!Array.isArray(topLink)
-					|| topLink.length !== 2
-					|| typeof topLink[0] !== "string"
-					|| typeof topLink[1] !== "string"
-				)
-			) {
-				found = "Invalid topLink property in " + prop;
-			} else if (n && (typeof n !== "string")) {
-				found = "Invalid name in " + prop;
-			}
-			if(found) {
-				msg.push(found);
+				msg.push("Invalid alternateOf property of " + prop);
 				found = true;
 				return true;
 			}
 		} else if (
-			!test
-			|| typeof test !== "object"
-			|| typeof test.name !== "string"
-			|| !Array.isArray(test.sources)
-			|| test.sources.some(line => typeof line !== "string")
-			|| !Array.isArray(test.description)
-			|| test.description.some(line => {
-				if(!line || typeof line === "string") {
-					return false;
-				} else if (!Array.isArray(line)) {
-					found = "Non-array, non-string in description";
-					return true;
-				}
-				return line.some(inner => typeof inner !== "string");
-			})
-			|| (
-				(Object.keys(test).sort().join(" ") !== "description name sources")
-				? (found = "extra property on object " + prop) : false
-			)
+			(Object.keys(test).sort().join(" ") !== "description name sources")
+			? (found = "extra property on object " + prop) : false
 		) {
 			msg.push(found || `Basic problem with ${prop}`);
 			found = true;

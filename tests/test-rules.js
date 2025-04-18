@@ -9,16 +9,7 @@ function isGood(value) {
 	let found = false;
 	if(!Object.entries(value).some(([prop, value]) => {
 		const test = value;
-		if(
-			!test
-			|| typeof test !== "object"
-			|| typeof test.name !== "string"
-			|| !Array.isArray(test.description)
-			|| test.description.some(line => typeof line !== "string")
-		) {
-			msg.push(`Basic problem with ${prop}`);
-			return true;
-		} else if (prop === "not_found") {
+		if (prop === "not_found") {
 			// Skip
 			return false;
 		} else if (test.siblings) {

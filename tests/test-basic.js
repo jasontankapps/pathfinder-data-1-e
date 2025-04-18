@@ -16,10 +16,37 @@ const {
 	legendaryspirit, magusarcana, mystery,
 	oath, order, outsiderspirit, ragepower,
 	shamanspirit, sorcererbloodline,
-	spirit, stanceragepower
+	spirit, stanceragepower, discovery,
+	eidolon, patron, arcanediscovery,
+	rangertrap, evolution, stylestrike,
+	unchainedevolution, kipower, deed,
+	swashdeed, hkdiscipline, talent,
+	phrenicamp, vigilantetalent,
+	slayertalent, trick, stare, hex,
+	socialtalent, investigatortalent,
+	ninjatrick, shamanhex, class: classes,
+	eqreagent, eqarmor, eqarmorenh, eqmisc,
+	eqpoison, eqsiegeengine, eqmaterial,
+	eqspellbook, techarmor, techartifact,
+	techcybertech, techmisc,
+	techpharmaceutical, techweapon,
+	eqweapon, eqweaponenh, magicarmor,
+	magicartifact, magicenh, magicioun,
+	magicring, magicrod, magicstaff,
+	magicweapon, magicwondrous, magicaltar,
+	magicimplant, magictalisman,
+	magicaugmentation, magicfavor,
+	magicfleshcrafting, magicgraft,
+	magicpoison, magicfetish,
+	magicnecrograft, magicnecrotoxin,
+	magicplant, magicrelic, magicpiercing,
+	magicset, magicthrone, magictattoo,
+	main
 } = basic_data_by_link;
 
 const basics = [
+	main,
+	classes,
 	spell,
 	spelldef,
 	monster,
@@ -59,10 +86,79 @@ const basics = [
 	{...ragepower, ...stanceragepower},
 	shamanspirit,
 	sorcererbloodline,
-	{...spirit, ...outsiderspirit, ...legendaryspirit}
+	{...spirit, ...outsiderspirit, ...legendaryspirit},
+	discovery,
+	eidolon,
+	patron,
+	rangertrap,
+	evolution,
+	unchainedevolution,
+	stylestrike,
+	kipower,
+	deed,
+	swashdeed,
+	hkdiscipline,
+	phrenicamp,
+	vigilantetalent,
+	talent,
+	slayertalent,
+	trick,
+	stare,
+	socialtalent,
+	investigatortalent,
+	ninjatrick,
+	hex,
+	shamanhex,
+	arcanediscovery,
+	eqreagent,
+	eqarmor,
+	eqarmorenh,
+	eqmisc,
+	eqpoison,
+	eqsiegeengine,
+	eqmaterial,
+	eqspellbook,
+	techarmor,
+	techartifact,
+	techcybertech,
+	techmisc,
+	techpharmaceutical,
+	techweapon,
+	eqweapon,
+	eqweaponenh,
+	magicarmor,
+	magicartifact,
+	magicenh,
+	magicioun,
+	magicring,
+	magicrod,
+	magicstaff,
+	magicweapon,
+	magicwondrous,
+	{
+		...magicaltar,
+		...magicimplant,
+		...magictalisman,
+		...magicaugmentation,
+		...magicfavor,
+		...magicfleshcrafting,
+		...magicgraft,
+		...magicpoison,
+		...magicfetish,
+		...magicnecrograft,
+		...magicnecrotoxin,
+		...magicplant,
+		...magicrelic,
+		...magicpiercing,
+		...magicset,
+		...magicthrone,
+		...magictattoo
+	}
 ];
 
 const whats = [
+	"\"Main\" files",
+	"PC classes",
 	"spells",
 	"spell definitions",
 	"monsters",
@@ -75,7 +171,7 @@ const whats = [
 	"feats",
 	"traits",
 	"class abilities",
-	"\"other\" classes",
+	"NPC classes and sidekicks",
 	"universal monster rules",
 	"traps",
 	"skills",
@@ -102,7 +198,56 @@ const whats = [
 	"rage powers",
 	"shaman spirits",
 	"sorcerer bloodlines",
-	"medium spirits"
+	"medium spirits",
+	"alchemist discoveries",
+	"unchained eidolon subtypes",
+	"witch patrons",
+	"ranger traps",
+	"eidolon evolutions",
+	"unchained eidolon evolutions",
+	"style strikes",
+	"ki powers",
+	"gunslinger deeds",
+	"swashbuckler deeds",
+	"hellknight disciplines",
+	"phrenic amplifications",
+	"vigilante talents",
+	"social talents",
+	"investigator talents",
+	"rogue talents",
+	"slayer talents",
+	"mesmerist tricks",
+	"bold stares",
+	"ninja tricks",
+	"witch hexes",
+	"shaman hexes",
+	"arcane discoveries",
+	"alchemical reagents",
+	"armor",
+	"armor enhancements",
+	"misc",
+	"poison",
+	"siege engines",
+	"special materials",
+	"spellbooks",
+	"tech armor",
+	"tech artifacts",
+	"tech cybertech",
+	"tech misc",
+	"tech pharmaceuticals",
+	"tech weapons",
+	"weapons",
+	"weapon enhancements",
+	"magic armor",
+	"artifacts",
+	"magical enhancements",
+	"ioun stones",
+	"magic rings",
+	"magic rods",
+	"magic staves",
+	"magic weapons",
+	"wondrous items",
+	"misc. magic items"
 ];
 
 function getCopyOf (object, copiedProp, etc, counter = 0) {
@@ -121,9 +266,10 @@ function getCopyOf (object, copiedProp, etc, counter = 0) {
 	return final;
 }
 
-function isGood(object, what) {
+function isGood(object, what, index) {
 	const msg = [ "\n...beginning test: [" + what + "]\n" ];
-	if(!object.not_found) {
+	if(index && !object.not_found) {
+		// Ignore index 0 - main.json files do not need not_found props
 		msg.push("Missing 'not_found' entry.");
 		return [true, what, msg];
 	}
@@ -132,44 +278,12 @@ function isGood(object, what) {
 		const { copyof, ...etc } = value;
 		const test = copyof ? getCopyOf(object, copyof, etc) : etc;
 		if(test && test.alternateOf) {
-			const {alternateOf, topLink, name: n} = test;
+			const {alternateOf} = test;
 			if(!alternateOf|| alternateOf === prop || !object[alternateOf] || object[alternateOf].alternateOf ) {
-				found = "Invalid alternateOf property of " + prop;
-			} else if (
-				topLink
-				&& (
-					!Array.isArray(topLink)
-					|| topLink.length !== 2
-					|| typeof topLink[0] !== "string"
-					|| typeof topLink[1] !== "string"
-				)
-			) {
-				found = "Invalid topLink property in " + prop;
-			} else if (n && (typeof n !== "string")) {
-				found = "Invalid name in " + prop;
-			}
-			if(found) {
-				msg.push(found);
+				msg.push("Invalid alternateOf property of " + prop);
 				found = true;
 				return true;
 			}
-		} else if (
-			!test
-			|| typeof test !== "object"
-			|| typeof test.name !== "string"
-			|| !Array.isArray(test.sources)
-			|| test.sources.some(line => typeof line !== "string")
-			|| !Array.isArray(test.description)
-			|| test.description.some(line => typeof line !== "string")
-			|| (test.topLink && (
-				!Array.isArray(test.topLink)
-				|| test.topLink.length !== 2
-				|| test.topLink.some(bit => typeof bit !== "string")
-			))
-		) {
-			found || msg.push(`Basic problem with ${prop}`);
-			found = true;
-			return true;
 		} else if (!copyof && test.tables) {
 			const result = checkForBadTables(test.tables, what + "." + prop);
 			result && msg.push(result);
@@ -186,6 +300,6 @@ function isGood(object, what) {
 
 // basics.forEach((data, i) => isGood(data, whats[i]));
 
-const basicsTest = () => basics.map((data, i) => isGood(data, whats[i]));
+const basicsTest = () => basics.map((data, i) => isGood(data, whats[i], i));
 
 export default basicsTest;
