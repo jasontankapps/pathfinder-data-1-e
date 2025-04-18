@@ -119,6 +119,9 @@ const SorcererBloodlinePage = lazy(() => import("./pages/SorcererBloodlinePage")
 const SourcePage = lazy(() => import("./pages/SourcePage"));
 const SpellDefPage = lazy(() => import("./pages/SpellDefinitionPage"));
 const TalentPage = lazy(() => import("./pages/TalentPage"));
+const TalentPageTwo = lazy(() => import("./pages/TalentPageTwo"));
+const TalentPageThree = lazy(() => import("./pages/TalentPageThree"));
+const TalentPageFour = lazy(() => import("./pages/TalentPageFour"));
 const TechArmorPage = lazy(() => import("./pages/EquipmentTechArmorPage"));
 const TechArtifactPage = lazy(() => import("./pages/EquipmentTechArtifactPage"));
 const TechCybertechPage = lazy(() => import("./pages/EquipmentTechCybertechPage"));
@@ -574,31 +577,6 @@ const App: FC = () => {
 								<TalentPage prefix="hkdiscipline" />
 							</Suspense>
 						</Route>
-						<Route path="/kipower/:id">
-							<Suspense fallback={<Loading text="Finding powers..." />}>
-								<TalentPage prefix="kipower" />
-							</Suspense>
-						</Route>
-						<Route path="/stylestrike/:id">
-							<Suspense fallback={<Loading text="Training in style..." />}>
-								<TalentPage prefix="stylestrike" />
-							</Suspense>
-						</Route>
-						<Route path="/evolution/:id">
-							<Suspense fallback={<Loading text="Evolving..." />}>
-								<TalentPage prefix="evolution" />
-							</Suspense>
-						</Route>
-						<Route path="/unchainedevolution/:id">
-							<Suspense fallback={<Loading text="Evolving..." />}>
-								<TalentPage prefix="unchainedevolution" />
-							</Suspense>
-						</Route>
-						<Route path="/eidolon/:id">
-							<Suspense fallback={<Loading text="Checking subtypes..." />}>
-								<TalentPage prefix="eidolon" />
-							</Suspense>
-						</Route>
 						<Route path="/rangertrap/:id">
 							<Suspense fallback={<Loading text="Setting traps..." />}>
 								<TalentPage prefix="rangertrap" />
@@ -616,57 +594,82 @@ const App: FC = () => {
 						</Route>
 						<Route path="/investigatortalent/:id">
 							<Suspense fallback={<Loading text="Finding talents..." />}>
-								<TalentPage prefix="investigatortalent" />
+								<TalentPageTwo prefix="investigatortalent" />
 							</Suspense>
 						</Route>
 						<Route path="/socialtalent/:id">
 							<Suspense fallback={<Loading text="Finding talents..." />}>
-								<TalentPage prefix="socialtalent" />
+								<TalentPageTwo prefix="socialtalent" />
 							</Suspense>
 						</Route>
 						<Route path="/vigilantetalent/:id">
 							<Suspense fallback={<Loading text="Finding talents..." />}>
-								<TalentPage prefix="vigilantetalent" />
+								<TalentPageTwo prefix="vigilantetalent" />
 							</Suspense>
 						</Route>
-						<Route path="/trick/:id">
-							<Suspense fallback={<Loading text="Planning tricks..." />}>
-								<TalentPage prefix="trick" />
+						<Route path="/kipower/:id">
+							<Suspense fallback={<Loading text="Finding powers..." />}>
+								<TalentPageTwo prefix="kipower" />
 							</Suspense>
 						</Route>
-						<Route path="/stare/:id">
-							<Suspense fallback={<Loading text="Not blinking..." />}>
-								<TalentPage prefix="stare" />
+						<Route path="/stylestrike/:id">
+							<Suspense fallback={<Loading text="Training in style..." />}>
+								<TalentPageTwo prefix="stylestrike" />
 							</Suspense>
 						</Route>
 						<Route path="/ninjatrick/:id">
 							<Suspense fallback={<Loading text="Tricking ninjas..." />}>
-								<TalentPage prefix="ninjatrick" />
+								<TalentPageTwo prefix="ninjatrick" />
+							</Suspense>
+						</Route>
+						<Route path="/evolution/:id">
+							<Suspense fallback={<Loading text="Evolving..." />}>
+								<TalentPageThree prefix="evolution" />
+							</Suspense>
+						</Route>
+						<Route path="/unchainedevolution/:id">
+							<Suspense fallback={<Loading text="Evolving..." />}>
+								<TalentPageThree prefix="unchainedevolution" />
+							</Suspense>
+						</Route>
+						<Route path="/eidolon/:id">
+							<Suspense fallback={<Loading text="Checking subtypes..." />}>
+								<TalentPageThree prefix="eidolon" />
 							</Suspense>
 						</Route>
 						<Route path="/hex/:id">
 							<Suspense fallback={<Loading text="Conjuring hexes..." />}>
-								<TalentPage prefix="hex" />
+								<TalentPageThree prefix="hex" />
 							</Suspense>
 						</Route>
 						<Route path="/patron/:id">
 							<Suspense fallback={<Loading text="Seeking patrons..." />}>
-								<TalentPage prefix="patron" />
+								<TalentPageThree prefix="patron" />
 							</Suspense>
 						</Route>
 						<Route path="/shamanhex/:id">
 							<Suspense fallback={<Loading text="Conjuring hexes..." />}>
-								<TalentPage prefix="shamanhex" />
+								<TalentPageThree prefix="shamanhex" />
 							</Suspense>
 						</Route>
 						<Route path="/discovery/:id">
 							<Suspense fallback={<Loading text="Making discoveries..." />}>
-								<TalentPage prefix="discovery" />
+								<TalentPageFour prefix="discovery" />
 							</Suspense>
 						</Route>
 						<Route path="/arcanediscovery/:id">
 							<Suspense fallback={<Loading text="Making discoveries..." />}>
-								<TalentPage prefix="arcanediscovery" />
+								<TalentPageFour prefix="arcanediscovery" />
+							</Suspense>
+						</Route>
+						<Route path="/trick/:id">
+							<Suspense fallback={<Loading text="Planning tricks..." />}>
+								<TalentPageFour prefix="trick" />
+							</Suspense>
+						</Route>
+						<Route path="/stare/:id">
+							<Suspense fallback={<Loading text="Not blinking..." />}>
+								<TalentPageFour prefix="stare" />
 							</Suspense>
 						</Route>
 

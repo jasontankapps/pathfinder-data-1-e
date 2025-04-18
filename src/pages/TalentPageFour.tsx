@@ -1,40 +1,34 @@
 import { ReactElement } from 'react';
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
-import talent from './subpages/__talent';
-import slayertalent from './subpages/__slayertalent';
-import phrenicamp from './subpages/__phrenicamp';
-import deed from './subpages/__deed';
-import swashdeed from './subpages/__swashdeed';
-import hkdiscipline from './subpages/__hkdiscipline';
-import rangertrap from './subpages/__rangertrap';
+
+import trick from './subpages/__trick';
+import stare from './subpages/__stare';
+
+import discovery from './subpages/__discovery';
+import arcanediscovery from './subpages/__arcanediscovery';
+
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const allTalents = {
-	talent,
-	slayertalent,
-	phrenicamp,
-	deed,
-	swashdeed,
-	hkdiscipline,
-	rangertrap
+	trick,
+	stare,
+	discovery,
+	arcanediscovery
 };
 
 type Talent = keyof typeof allTalents;
 
 const info: { [key in Talent]: [string, string] } = {
-	"talent": [ "Rogue Talent", "ability/rogue_talents" ],
-	"slayertalent": [ "Slayer Talents", "ability/slayer_talents" ],
-	"phrenicamp": [ "Phrenic Amplifications", "ability/phrenic_amplifications" ],
-	"rangertrap": [ "Ranger Traps", "ability/ranger_traps" ],
-	"deed": [ "Gunslinger Deeds", "ability/gunslinger_deeds" ],
-	"swashdeed": [ "Swashbuckler Deeds", "ability/swashbuckler_deeds" ],
-	"hkdiscipline": [ "Hellknight Disciplines", "ability/hellknight_disciplines" ],
+	"trick": [ "Mesmerist Tricks", "ability/tricks" ],
+	"stare": [ "Mesmerist Stares", "ability/stares" ],
+	"discovery": [ "Alchemist Discoveries", "ability/discoveries" ],
+	"arcanediscovery": [ "Arcane Discovery", "ability/arcane_discoveries" ]
 };
 
 const addendaObj: { [key: string]: string } = {
-	sneakattack: "This type of talent adds effects to a rogue's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made."
+	devilbane: "Devilbane gazes tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well."
 };
 
 const getAddenda = (input: string[], jsx: ReactElement, id: string) => {

@@ -1,40 +1,41 @@
 import { ReactElement } from 'react';
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
-import talent from './subpages/__talent';
-import slayertalent from './subpages/__slayertalent';
-import phrenicamp from './subpages/__phrenicamp';
-import deed from './subpages/__deed';
-import swashdeed from './subpages/__swashdeed';
-import hkdiscipline from './subpages/__hkdiscipline';
-import rangertrap from './subpages/__rangertrap';
+import hex from './subpages/__hex';
+import patron from './subpages/__patron';
+import shamanhex from './subpages/__shamanhex';
+import evolution from './subpages/__evolution';
+import unchainedevolution from './subpages/__unchainedevolution';
+import eidolon from './subpages/__eidolon';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const allTalents = {
-	talent,
-	slayertalent,
-	phrenicamp,
-	deed,
-	swashdeed,
-	hkdiscipline,
-	rangertrap
+	hex,
+	patron,
+	shamanhex,
+	evolution,
+	unchainedevolution,
+	eidolon
 };
 
 type Talent = keyof typeof allTalents;
 
 const info: { [key in Talent]: [string, string] } = {
-	"talent": [ "Rogue Talent", "ability/rogue_talents" ],
-	"slayertalent": [ "Slayer Talents", "ability/slayer_talents" ],
-	"phrenicamp": [ "Phrenic Amplifications", "ability/phrenic_amplifications" ],
-	"rangertrap": [ "Ranger Traps", "ability/ranger_traps" ],
-	"deed": [ "Gunslinger Deeds", "ability/gunslinger_deeds" ],
-	"swashdeed": [ "Swashbuckler Deeds", "ability/swashbuckler_deeds" ],
-	"hkdiscipline": [ "Hellknight Disciplines", "ability/hellknight_disciplines" ],
+	"hex": [ "Witch Hexes", "ability/hexes" ],
+	"shamanhex": [ "Shaman Hexes", "ability/shaman_hexes" ],
+	"evolution": [ "Eidolon Evolutions", "ability/evolutions" ],
+	"unchainedevolution": [ "Unchained Eidolon Evolutions", "ability/unchained_evolutions" ],
+	"eidolon": [ "Unchained Eidolon Subtypes", "ability/unchained_eidolon_subtypes" ],
+	"patron": [ "Witch Patrons", "ability/patrons" ]
 };
 
 const addendaObj: { [key: string]: string } = {
-	sneakattack: "This type of talent adds effects to a rogue's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made."
+	"1pt": "This is a 1-point evolution.",
+	"2pts": "This is a 2-point evolution.",
+	"3pts": "This is a 3-point evolution.",
+	"4pts": "This is a 4-point evolution.",
+	uniquepatron: "This is a unique patron that modifies aspects of a base patron."
 };
 
 const getAddenda = (input: string[], jsx: ReactElement, id: string) => {
