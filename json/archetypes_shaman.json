@@ -58,7 +58,7 @@
 			"",
 			">*Boon Reservoir (Su):* Once per day, a benefactor can perform a 10-minute ritual with one of her allies, plus one additional ally for every 3 shaman levels she has. All creatures that participate in the ritual (including the benefactor) gain a boon reservoir with a number of points equal to 1/2 the benefactor's shaman level (minimum 1) for 24 hours. As an immediate action, a creature can spend 1 point from its boon reservoir to gain a +2 insight bonus on all saving throws it attempts until the start of its next turn. Boon reservoir points that are not spent within 24 hours are wasted.",
 			">",
-			">*Expanded Boon (Su):* When a benefactor gains this hex, she chooses one of the following: ability checks, attack rolls, or skill checks. Instead of gaining an insight bonus on saving throws, any creature with a boon reservoir granted by the benefactor can spend 1 point as an immediate action to gain a +2 insight bonus on rolls or checks of the chosen kind until the start of its next turn. This hex can be chosen multiple times. Each time, it applies to a different roll or check. A benefactor must have the boon reservoir hex before choosing this hex.",
+			">>*Expanded Boon (Su):* When a benefactor gains this hex, she chooses one of the following: ability checks, attack rolls, or skill checks. Instead of gaining an insight bonus on saving throws, any creature with a boon reservoir granted by the benefactor can spend 1 point as an immediate action to gain a +2 insight bonus on rolls or checks of the chosen kind until the start of its next turn. This hex can be chosen multiple times. Each time, it applies to a different roll or check. A benefactor must have the boon reservoir hex before choosing this hex.",
 			">",
 			">*Suppress Curse (Sp):* As a standard action, a benefactor can attempt to suppress one curse effect that is affecting a creature or object with a touch. This functions as per {spell/remove curse}, except the curse's effects are suppressed for 1 hour, even if it is a cursed shield, weapon, or suit of armor. This allows a creature afflicted with any such cursed item to remove or get rid of it. The benefactor uses her shaman level as her caster level for the purpose of this hex."
 		]
@@ -130,7 +130,7 @@
 			"{SOURCE Legacy of Dragons/24}  ",
 			"In some regions of Tian Xia, shamans are unusually common, and may have strong ties to dragon gods and imperial dragons who act as mentors. Some of these shamans draw their powers from the might of dragons, rather than from spirits. These shamans each gain a powerful drake as an ally, and view caring for that drake as a sacred duty.",
 			"",
-			"**Drake Companion:** A draconic shaman gains a {sidekick/drake/ companion} instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains wandering spirit at 4th level. She must select all her hexes (other than her wandering hexes) from the list of shaman hexes, and she can't select the witch hex shaman hex. She doesn't gain spirit magic slots until 4th level when she gains her wandering spirit. Any ability granted by a wandering spirit that would normally affect a spirit animal (such as nature's true spirit ability) has no effect for a draconic shaman.",
+			"**Drake Companion:** A draconic shaman gains a {sidekick/drake/ companion} instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains wandering spirit at 4th level. She must select all her hexes (other than her wandering hexes) from the list of {ability/shaman hexes}, and she can't select the *witch hex* shaman hex. She doesn't gain spirit magic slots until 4th level when she gains her wandering spirit. Any ability granted by a wandering spirit that would normally affect a spirit animal (such as nature's true spirit ability) has no effect for a draconic shaman.",
 			"",
 			"This ability replaces spirit, spirit animal, and the hexes gained at 4th and 10th levels and alters spirit magic."
 		]
@@ -172,13 +172,13 @@
 			"{SOURCE Adventurer's Guide/145}  ",
 			"Pathfinders who perish in the pursuit of greater knowledge are commemorated on the Wall of Names, a curving monument of black glass at the Grand Lodge. Originally started as a humble memorial, the Wall of Names is now a moving testament to all those who have given their lives to further the cause of the [Pathfinder Society](rule/aff_scholars), and for many agents, an expedition to Absalom is as much a chance to visit the Wall of Names and seek out a vanished loved one, relation, or departed friend as it is an opportunity to visit the place where it all began.",
 			"",
-			"A decade ago, a small cadre of agents began studying the fallen names, correlating these adventurers with the quests they were on when they perished or went missing, and then took it upon themselves to finish these incomplete missions' but in so doing these agents made an unexpected discovery. In delving into the storied histories etched into the Wall of Names, these agents have discovered how to commune with the departed spirits of those whose names are memorialized on the monument. These mystical agents soon became known as name-keepers, and they pride themselves on helping their predecessors find peace while preventing other Pathfinders' names from being added to the wall.",
+			"A decade ago, a small cadre of agents began studying the fallen names, correlating these adventurers with the quests they were on when they perished or went missing, and then took it upon themselves to finish these incomplete missions - but in so doing these agents made an unexpected discovery. In delving into the storied histories etched into the Wall of Names, these agents have discovered how to commune with the departed spirits of those whose names are memorialized on the monument. These mystical agents soon became known as name-keepers, and they pride themselves on helping their predecessors find peace while preventing other Pathfinders' names from being added to the wall.",
 			"",
 			"**Class Skills:** A name-keeper gains Knowledge (engineering), Knowledge (history), and Linguistics as class skills, instead of Knowledge (nature), Knowledge (planes), and Survival.",
 			"",
 			"This alters the shaman's class skills.",
 			"",
-			"**Inherited Wayfinder (Su):** A name-keeper forms a powerful bond with a damaged wayfinder inherited from another Pathfinder. It functions for her alone. This functions as a wizard's bonded object except it can be used to cast shaman spells (instead of wizard spells).",
+			"**Inherited Wayfinder (Su):** A name-keeper forms a powerful bond with a damaged {magic-wondrous/wayfinder} inherited from another Pathfinder. It functions for her alone. This functions as a {class/wizard/'s} bonded object except it can be used to cast shaman spells (instead of wizard spells).",
 			"",
 			"This ability replaces spirit animal.",
 			"",
@@ -188,11 +188,11 @@
 			"",
 			"**Pathfinders Past (Su):** At 4th level, a name-keeper can form a temporary bond with a deceased Pathfinder who is commemorated on the Wall of Names. The namekeeper must make this selection each day when preparing her spells. While this feature is active, she gains one or more benefits tied to the Pathfinder's former focus in the Society: Scrolls, Spells, or Swords. Each allows her to select one or more options (such as a weapon or shaman spirit), and she can choose different options each time she forms this bond.",
 			"",
-			"**Scrolls:** The name-keeper selects an oracle mystery. She can use any of the mystery's associated skills untrained, and she treats them as class skills. For any of those skills that were already class skills, she instead gains a +2 sacred bonus on those checks. At 12th level, she gains {feat/Skill Focus} for one of the associated skills as a bonus feat. At 20th level, she gains Skill Focus a second time as a bonus feat, and she always counts as having at least 10 ranks in those skills for calculating these temporary feats' benefits.",
-			"",
-			"**Spells:** The name-keeper selects a second shaman spirit and adds the spells granted by that spirit to her list of spells that she can cast using spirit magic. She gains one additional spirit magic spell slot of her highest spell level. At 12th level, she selects two shaman spirits and adds both their granted spells to the list of spells she can cast using spirit magic. At 20th level, her number of spirit magic spell slots at each spell level increases to two.",
-			"",
-			"**Swords:** The name-keeper gains proficiency in all martial weapons and one exotic weapon of her choice. At 12th level, whenever she makes a full attack, she gains one additional attack at her highest base attack bonus; this ability stacks with the extra attack from haste, but it doesn't stack with other abilities that grant extra attacks. At 20th level, she gains two combat feats for which she qualifies.",
+			">**Scrolls:** The name-keeper selects an oracle mystery. She can use any of the mystery's associated skills untrained, and she treats them as class skills. For any of those skills that were already class skills, she instead gains a +2 sacred bonus on those checks. At 12th level, she gains {feat/Skill Focus} for one of the associated skills as a bonus feat. At 20th level, she gains Skill Focus a second time as a bonus feat, and she always counts as having at least 10 ranks in those skills for calculating these temporary feats' benefits.",
+			">",
+			">**Spells:** The name-keeper selects a second shaman spirit and adds the spells granted by that spirit to her list of spells that she can cast using spirit magic. She gains one additional spirit magic spell slot of her highest spell level. At 12th level, she selects two shaman spirits and adds both their granted spells to the list of spells she can cast using spirit magic. At 20th level, her number of spirit magic spell slots at each spell level increases to two.",
+			">",
+			">**Swords:** The name-keeper gains proficiency in all martial weapons and one exotic weapon of her choice. At 12th level, whenever she makes a full attack, she gains one additional attack at her highest base attack bonus; this ability stacks with the extra attack from haste, but it doesn't stack with other abilities that grant extra attacks. At 20th level, she gains two combat feats for which she qualifies.",
 			"",
 			"This ability replaces wandering spirit.",
 			"",
@@ -272,9 +272,9 @@
 			"## Serendipity Shaman",
 			"",
 			"{SOURCE Blood of the Beast/5}  ",
-			"Although some catfolk venerate elven and human deities, the traditional worship of the so-called \"spirits of creation\" is by far the most prevalent religion among their kind, especially in the catfolk nation of Murraseth. The serendipitous, shamanistic rites associated with this faith focus upon attracting good fortune and banishing ill fortune in the name of these spirits. Although the ancient practices of the serendipity shaman were once exclusive to the mysterious catfolk nation, the catfolk's curiosity and willingness to travel have spread them across Golarion, where today many with a tendency toward good fortune embrace the faith.",
+			"Although some {race/catfolk} venerate elven and human deities, the traditional worship of the so-called \"spirits of creation\" is by far the most prevalent religion among their kind, especially in the catfolk nation of Murraseth. The serendipitous, shamanistic rites associated with this faith focus upon attracting good fortune and banishing ill fortune in the name of these spirits. Although the ancient practices of the serendipity shaman were once exclusive to the mysterious catfolk nation, the catfolk's curiosity and willingness to travel have spread them across Golarion, where today many with a tendency toward good fortune embrace the faith.",
 			"",
-			"**Limited Calling:** A shaman must have a racial trait with \"luck\" in its name to select this archetype, such as cat's luck or halfling luck. A character with the {feat/Defiant Luck} feat also qualifies for this archetype.",
+			"**Limited Calling:** A shaman must have a racial trait with \"luck\" in its name to select this archetype, such as cat's luck or {race/halfling} luck. A character with the {feat/Defiant Luck} feat also qualifies for this archetype.",
 			"",
 			"**Luck Magic:** A serendipity shaman adds the domain spells from the {domain/Luck} cleric domain to the list of spells she can cast with the spirit magic ability instead of her spirit's spirit magic spells.",
 			"",
@@ -302,7 +302,7 @@
 			"{SOURCE Advanced Class Guide/111}  ",
 			"A speaker for the past is a shaman who specifically serves as the voice for spirits from her people's history. A speaker for the past is often an advocate of the ancestors of a specific group, the voice of experience, and a powerful resource that allows the past to aid the present.",
 			"",
-			"**Mysteries of the Past:** A speaker for the past gains Linguistics, Knowledge (history), Knowledge (local), Perception, and Use Magic Device as class skills. She also adds the spells from the {mystery/ancestor} and {mystery/time} oracle mysteries to her class spell list (as the cleric level for those spells).",
+			"**Mysteries of the Past:** A speaker for the past gains Linguistics, Knowledge (history), Knowledge (local), Perception, and Use Magic Device as class skills. She also adds the spells from the {mystery/ancestor} and {mystery/time} oracle mysteries to her class spell list (as the oracle level for those spells).",
 			"",
 			"This ability replaces the shaman's familiar. The speaker for the past must choose a time when she must spend 1 hour each day in quiet contemplation to regain her daily allotment of spells, but does not need to commune with a familiar during this time. Because she has no familiar, she does not gain a spirit familiar feature from any spirit she bonds with.",
 			"",
@@ -322,7 +322,7 @@
 			"",
 			"**Restless Magic (Su):** The spirit warden adds the following spells to the list of spells she can cast using spirit magic: {spell/detect undead} (1st), {spell/command undead} (2nd), {spell/halt undead} (3rd), {spell/death ward} (4th), {spell/possess object} (5th), {spell/undeath to death} (6th), {spell/ethereal jaunt} (7th), {spell/control undead} (8th), {spell/foresight} (9th). This ability replaces the spirit magic spells gained from the shaman's spirit.",
 			"",
-			"**Rebuke Spirits (Su):** At 2nd level, the spirit warden gains the ability to channel positive energy as a cleric of her level. Regardless of her alignment, she can only use this ability to harm undead creatures. The spirit warden can use this ability a number of times per day equal to 3 + her Charisma modifier. This ability replaces the hex gained at 2nd level.",
+			"**Rebuke Spirits (Su):** At 2nd level, the spirit warden gains the ability to channel positive energy as a {class/cleric} of her level. Regardless of her alignment, she can only use this ability to harm undead creatures. The spirit warden can use this ability a number of times per day equal to 3 + her Charisma modifier. This ability replaces the hex gained at 2nd level.",
 			"",
 			"**Laugh at Death (Su):** At 10th level, the spirit warden's familiarity with the dead has filled her with contempt for death itself. She gains a +4 insight bonus on saving throws against death effects and to avoid or remove negative levels. This ability replaces the hex gained at 10th level."
 		]
@@ -358,7 +358,7 @@
 			"{SOURCE Advanced Class Guide/112}  ",
 			"An unsworn shaman never binds herself to one specific spirit, always making new deals as she deems necessary for the circumstances that she finds herself in. While this weakens the powers she can access from any one spirit, it gives her access to a broader overall range of abilities.",
 			"",
-			"**Minor Spirit (Su):** At 1st level, the unsworn shaman also forms a temporary bond with a minor spirit each day, granting her access to a shaman or witch hex of her choosing, but not a major hex or a grand hex. She must make this selection each day when she prepares her spells for the day. Until she changes the minor spirit, she continues to have access to the shaman or witch hex. At 2nd level, she can instead select a hex from one of her wandering spirits selected for that day. If she selects a witch hex, she treats her shaman level as her witch level, and uses her Wisdom in place of her Intelligence for the purpose of that hex.",
+			"**Minor Spirit (Su):** At 1st level, the unsworn shaman also forms a temporary bond with a minor spirit each day, granting her access to a {ability/shaman>_hexes} or {ability/witch |hex>es} of her choosing, but not a major hex or a grand hex. She must make this selection each day when she prepares her spells for the day. Until she changes the minor spirit, she continues to have access to the shaman or witch hex. At 2nd level, she can instead select a hex from one of her wandering spirits selected for that day. If she selects a witch hex, she treats her shaman level as her witch level, and uses her Wisdom in place of her Intelligence for the purpose of that hex.",
 			"",
 			"She can make temporary bonds with two minor spirits (thus gaining two hexes) at 4th level, and with one additional minor spirit (and hex) every 4 levels thereafter. This ability replaces spirit and alters hex.",
 			"",
@@ -406,11 +406,11 @@
 			"",
 			"**Alignment:** A witch doctor cannot be of evil alignment.",
 			"",
-			"**Channel Energy (Su):** At 4th level, the witch doctor can draw transcendental energies to her location, flooding it with positive energy as the cleric class feature. The witch doctor uses her shaman level - 3 as her effective cleric level, and can channel energy a number of times per day equal to 3 + her Charisma modifier. This is a separate pool of channel energy that does not stack with the life spirit's channel spirit ability. This ability replaces the hexes gained at 4th and 12th levels.",
+			"**Channel Energy (Su):** At 4th level, the witch doctor can draw transcendental energies to her location, flooding it with positive energy as the {class/cleric} class feature. The witch doctor uses her shaman level - 3 as her effective cleric level, and can channel energy a number of times per day equal to 3 + her Charisma modifier. This is a separate pool of channel energy that does not stack with the life spirit's channel spirit ability. This ability replaces the hexes gained at 4th and 12th levels.",
 			"",
 			"**Counter Curse (Su):** At 8th level, the witch doctor can choose to lose any prepared spirit magic spell that is 3rd level or higher in order to spontaneously cast {spell/dispel magic} or {spell/remove curse}. This ability can only target a spell effect that is on an ally (including herself). If she forfeits a spirit magic spell higher than 3rd level, she gains a +2 sacred bonus on her caster level check to dispel the spell or to remove the curse for every spell level higher than 3rd that she sacrifices. This ability replaces the hex gained at 8th level.",
 			"",
-			"**Countering Hex (Su):** At 10th level, the witch doctor can use her hex magic to counterspell as a readied action as dispel magic instead. She must succeed at a dispel check (1d20 + her shaman level) with a DC equal to 11 + the spell's caster level. If countering hex succeeds, the spell fizzles away and is lost. Failure means the spell is not countered. In either case, the witch doctor cannot attempt to use this hex against any of that caster's spells again for 24 hours. The witch doctor cannot use countering hex on an ongoing effect, a magic item, or a hex. This ability replaces the hex gained at 10th level."
+			"**Countering Hex (Su):** At 10th level, the witch doctor can use her hex magic to {rule/counterspell>s} as a readied action as dispel magic instead. She must succeed at a dispel check (1d20 + her shaman level) with a DC equal to 11 + the spell's caster level. If countering hex succeeds, the spell fizzles away and is lost. Failure means the spell is not countered. In either case, the witch doctor cannot attempt to use this hex against any of that caster's spells again for 24 hours. The witch doctor cannot use countering hex on an ongoing effect, a magic item, or a hex. This ability replaces the hex gained at 10th level."
 		]
 	}
 }

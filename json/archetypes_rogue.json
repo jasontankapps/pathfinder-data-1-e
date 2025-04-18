@@ -12,9 +12,9 @@
 			"",
 			"**Second Chance (Ex):** At 3rd level, an acrobat can reroll any Acrobatics, Climb, or Fly skill check she has just made. This reroll is made at a -5 penalty. She must take the second result, even if it is worse. An acrobat can use this ability only once on any given skill check. She can use this ability once per day at 3rd level, plus one additional time per day for every 3 levels beyond 3rd. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the acrobat archetype: rogue crawl, and stand up (*Combat Talents* group); fast getaway (*Other Sneak Attack Talents* group); expert leaper, ledge walker, nimble climber, and peerless maneuver (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the acrobat archetype: {talent/rogue crawl}, and {talent/stand up} (*Combat Talents* group); {talent/fast getaway} (*Other Sneak Attack Talents* group); {talent/expert leaper}, {talent/ledge walker}, {talent/nimble climber}, and {talent/peerless maneuver} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the acrobat archetype: defensive roll, fast tumble, and improved evasion (*Combat Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the acrobat archetype: {talent/defensive roll}, {talent/fast tumble}, and {talent/improved evasion} (*Combat Talents* group)."
 		]
 	},
 	"bandit": {
@@ -30,9 +30,9 @@
 			"",
 			"**Fearsome Strike (Ex):** At 8th level, a bandit can terrify an opponent with a single hit. A number of times per day equal to her Charisma modifier (minimum 1), when a bandit confirms a critical hit and deals sneak attack damage to an opponent, she can choose to make the opponent frightened for a number of rounds equal to her Charisma modifier (minimum 1). She cannot use this ability in conjunction with a critical feat. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the bandit archetype: underhanded (*Primary Sneak Attack Talents* group); assault leader (*Ally-Related Talents* group); combat trick, snap shot, and weapon training (*Combat Talents* group); cunning trigger (*Trap Talents* group); surprise attack (*Other Sneak Attack Talents* group); terrain master (*Deception Talents* group); strong impression (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the bandit archetype: {talent/underhanded} (*Primary Sneak Attack Talents* group); {talent/assault leader} (*Ally-Related Talents* group); {talent/combat trick}, {talent/snap shot}, and {talent/weapon training} (*Combat Talents* group); {talent/cunning trigger} (*Trap Talents* group); {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/terrain mastery} (*Deception Talents* group); {talent/strong impression} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the bandit archetype: knock-out blow and opportunist (*Combat Talents* group); hide in plain sight (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the bandit archetype: {talent/knock-out blow} and {talent/opportunist} (*Combat Talents* group); {talent/hide in plain sight} (*Other Talents* group)."
 		]
 	},
 	"bekyar_kidnapper": {
@@ -48,9 +48,9 @@
 			"",
 			"**Abductor (Ex):** At 3rd level, a Bekyar kidnapper gains a +1 bonus on combat maneuver checks to grapple a foe. In addition, the Bekyar kidnapper treats her combat maneuver bonus as 1 higher when a foe tries to grapple her or when a grappled target attempts to break free of her grapple. These bonuses increase by 1 for every 3 levels beyond 3rd. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the Bekyar kidnapper archetype: black market connections (*Other Magic-Related Talents* group); camouflage and terrain mastery (*Deception Talents* group); combat trick (*Combat Talents* group); rope master and survivalist (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the Bekyar kidnapper archetype: {talent/black market connections} (*Other Magic-Related Talents* group); {talent/camouflage} and {talent/terrain mastery} (*Deception Talents* group); {talent/combat trick} (*Combat Talents* group); {talent/rope master} and {talent/survivalist} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the Bekyar kidnapper archetype: crippling strike (*Primary Sneak Attack Talents* group); knock-out blow and weapon snatcher (*Combat Talents* group); rumormonger and hide in plain sight (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the Bekyar kidnapper archetype: {talent/crippling strike} (*Primary Sneak Attack Talents* group); {talent/knock-out blow} and {talent/weapon snatcher} (*Combat Talents* group); {talent/rumormonger} and {talent/hide in plain sight} (*Other Talents* group)."
 		]
 	},
 	"bellflower_irrigator": {
@@ -62,7 +62,7 @@
 			"{SOURCE Adventurer's Guide/43}  ",
 			"Bellflower irrigators take on tasks that many other agents of the [Bellflower Network](rule/aff_antislavery) find distasteful. Rather than focusing on saving slaves, Bellflower irrigators seek to defeat slavery by aiming to eliminate the source. They gauge the precise moment to strike from the shadows and annihilate slave traders and masters alike. Bellflower irrigators realize that for every slave released today, another will be shackled tomorrow - until all the masters are dead. This cynicism leads Bellflower irrigators to target anyone who owns or sells slaves on Golarion, especially cruel masters within Cheliax.",
 			"",
-			"Though most Bellflower irrigators are halflings, this branch of the Network is more diverse than many of the others - anyone with a hatred of slavery and a talent for stealth and martial combat is free to join. Bellflower irrigators employ combat methods that many find questionable, such as the use of poison and calculated strikes meant to kill rather than incapacitate. The Bellflower Network does not knowingly allow evil members, but very few Bellflower irrigators are good - most are chaotic neutral in alignment, as their methods of solving the problem of slavery often force them into moral and ethical gray areas. A few Bellflower irrigators are in fact evil, but these rarities do their best to hide their personal lack of morals and addiction to cruelty in order to maintain their positions and connection to the Bellflowers, for as evil as they may be, they share a hatred of slavery with their more altruistic kin. An evil Bellflower irrigator who is found out is typically exiled from the group, yet most continue to fight slavery even after they are sent away in this way.",
+			"Though most Bellflower irrigators are {race/halfling/s}, this branch of the Network is more diverse than many of the others - anyone with a hatred of slavery and a talent for stealth and martial combat is free to join. Bellflower irrigators employ combat methods that many find questionable, such as the use of poison and calculated strikes meant to kill rather than incapacitate. The Bellflower Network does not knowingly allow evil members, but very few Bellflower irrigators are good - most are chaotic neutral in alignment, as their methods of solving the problem of slavery often force them into moral and ethical gray areas. A few Bellflower irrigators are in fact evil, but these rarities do their best to hide their personal lack of morals and addiction to cruelty in order to maintain their positions and connection to the Bellflowers, for as evil as they may be, they share a hatred of slavery with their more altruistic kin. An evil Bellflower irrigator who is found out is typically exiled from the group, yet most continue to fight slavery even after they are sent away in this way.",
 			"",
 			"**Bellflower Crop (Ex):** As a standard action, a Bellflower irrigator can designate a number of allies equal to 3 + his Charisma modifier as part of his Bellflower crop. Members of a Bellflower crop must remain within 30 feet of the Bellflower irrigator to gain any benefits from abilities that affect a Bellflower crop, regardless of the ability's source (whether it's a Bellflower harvester, irrigator, or tiller). If the allies leave this range, the Bellflower irrigator must designate them again to include them in his crop.",
 			"",
@@ -92,9 +92,9 @@
 			"",
 			"**Distraction (Ex):** At 8th level, whenever a burglar is detected while using Stealth, she can immediately attempt a Bluff skill check opposed by the Sense Motive skill of the creature that spotted her. If this check succeeds, the target assumes that the noise was something innocent and disregards the detection. This only functions if the creature cannot see the rogue. This ability can only be used once during a given Stealth attempt. If the same creature detects the rogue's presence again, the ability has no effect. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the burglar archetype: fast picks, quick disable (*Disable Device Talents* group); fast stealth (*Deception Talents* group); nimble climber (*Other Talents* group); and trap spotter (*Trap Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the burglar archetype: {talent/fast picks}, {talent/quick disable} (*Disable Device Talents* group); {talent/fast stealth} (*Deception Talents* group); {talent/nimble climber} (*Other Talents* group); and {talent/trap spotter} (*Trap Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the burglar archetype: knock-out blow (*Combat Talents* group); skill mastery and thoughtful reexamining (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the burglar archetype: {talent/knock-out blow} (*Combat Talents* group); {talent/skill mastery} and {talent/thoughtful reexamining} (*Other Talents* group)."
 		]
 	},
 	"carnivalist": {
@@ -108,9 +108,9 @@
 			"",
 			"**Class Skills:** A carnivalist gains Handle Animal as a class skill.",
 			"",
-			"**Familiar:** At 1st level, a carnivalist gains a familiar as a wizard of equal level. Levels in a class that grants a familiar stack with carnivalist levels for determining the familiar's abilities.",
+			"**Familiar:** At 1st level, a carnivalist gains a {sidekick/familiar} as a wizard of equal level. Levels in a class that grants a familiar stack with carnivalist levels for determining the familiar's abilities.",
 			"",
-			"**Pet Performance (Ex):** A carnivalist gains use of several bardic performances, making Handle Animal checks in place of any Perform checks. At 2nd level, she gains the distraction bardic performance. At 4th level, she gains the fascinate bardic performance. At 6th level, she also gains use of the following performance.",
+			"**Pet Performance (Ex):** A carnivalist gains use of several {class/bard/ic performances}, making Handle Animal checks in place of any Perform checks. At 2nd level, she gains the distraction bardic performance. At 4th level, she gains the fascinate bardic performance. At 6th level, she also gains use of the following performance.",
 			"",
 			"**Trained Legerdemain (Ex):** At 6th level, a carnivalist can command a familiar or pet within 30 feet to make a Disable Device or Sleight of Hand check as if trained in the skill, using its own skill ranks (if any), Dexterity modifier, and equipment, with a competence bonus equal to 1/2 her rogue level. The check requires the normal amount of time to complete and the DC increases by 5. The carnivalist must maintain this pet performance each round her familiar or pet attempts a Disable Device or Sleight of Hand check.",
 			"",
@@ -134,9 +134,9 @@
 			"",
 			"**Trap Saboteur (Su):** At 8th level, a cat burglar becomes a master of avoiding and manipulating traps and locks. She can attempt to open a lock as a standard action and takes 1/2 the normal amount of time to disable traps (minimum 1 round) . When she has bypassed a trap without disarming it, she can also choose to suppress its trigger for up to 1 minute. If she does, she can also choose to end this suppression prematurely as a free action. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the cat burglar archetype: fast stealth (*Deception Talents* group); fast picks, quick disable (*Disable Device Talents* group); terrain mastery (*Other Talents* group); convincing fakes and dodge trap (these talents do not appear in the source material - the former may refer to the Deception Talent *scarzni smuggler,* though).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the cat burglar archetype: {talent/fast stealth} (*Deception Talents* group); {talent/fast picks}, {talent/quick disable} (*Disable Device Talents* group); {talent/terrain mastery} (*Other Talents* group); *convincing fakes* and *dodge trap* (these talents do not appear in the source material - the former may refer to the Deception Talent {talent/sczarni smuggler}, though).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the cat burglar archetype: another day and fast tumble (*Combat Talents* group); hide in plain sight (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the cat burglar archetype: {talent/another day} and {talent/fast tumble} (*Combat Talents* group); {talent/hide in plain sight} (*Other Talents* group)."
 		]
 	},
 	"chameleon": {
@@ -150,11 +150,11 @@
 			"",
 			"**Misdirection (Ex):** At 1st level, a chameleon begins her career knowing that the secret to disappearing lies in deceiving the senses of her observers. Every day she gains a pool of stealth points equal to her ranks in Bluff. These points refresh at the start of each day. Before making a Stealth check, she can choose to put stealth points into the roll, gaining a bonus on Stealth checks equal to the number of stealth points she puts into the roll. If she gains a bonus on Bluff checks because of a feat (such as {feat/Skill Focus} [Bluff]), she adds a number of points to her stealth pool equal to the bonus the feat grants. This ability replaces trapfinding.",
 			"",
-			"**Effortless Sneak (Sp):** At 3rd level, the chameleon chooses a single terrain from the ranger's favored terrain class feature. While she is within that terrain, she can take 10 on any Stealth check she can make within that terrain. When the chameleon reaches 6th level, and every three levels thereafter, she chooses a new type of terrain from the ranger's favored terrain list. She gains this ability with the newly picked terrain. This ability replaces trap sense.",
+			"**Effortless Sneak (Sp):** At 3rd level, the chameleon chooses a single terrain from the {class/ranger/'s} favored terrain class feature. While she is within that terrain, she can take 10 on any Stealth check she can make within that terrain. When the chameleon reaches 6th level, and every three levels thereafter, she chooses a new type of terrain from the ranger's favored terrain list. She gains this ability with the newly picked terrain. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the chameleon archetype: camouflage, fast stealth, and quick disguise (*Deceptions Talents* group); terrain mastery (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the chameleon archetype: {talent/camouflage}, {talent/fast stealth}, and {talent/quick disguise} (*Deceptions Talents* group); {talent/terrain mastery} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the chameleon archetype: hide in plain sight and master of disguise (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the chameleon archetype: {talent/hide in plain sight} and {talent/master of disguise} (*Other Talents* group)."
 		]
 	},
 	"charlatan": {
@@ -168,11 +168,11 @@
 			"",
 			"**Natural Born Liar (Ex):** At 1st level, when a charlatan successfully deceives a creature with a Bluff, that creature takes a -2 penalty on the charlatan's Bluff checks for the next 24 hours. This ability does not stack with itself. This ability replaces trapfinding.",
 			"",
-			"**Grand Hoax (Ex):** At 3rd level, the charlatan begins to master the art of the grand hoax and learns to create deceptions designed to bestow harm upon her foes. She gains the rumormonger advanced talent, even though she is not yet 10th level. This ability takes the place of trap sense.",
+			"**Grand Hoax (Ex):** At 3rd level, the charlatan begins to master the art of the grand hoax and learns to create deceptions designed to bestow harm upon her foes. She gains the {talent/rumormonger} advanced talent, even though she is not yet 10th level. This ability takes the place of trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the charlatan archetype: black market connections (*Other Magic-Related Talents* group); coax information, convincing lie, and honeyed words (*Deception Talents* group); underhanded (*Primary Sneak Attack Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the charlatan archetype: {talent/black market connections} (*Other Magic-Related Talents* group); {talent/coax information}, {talent/convincing lie}, and {talent/honeyed words} (*Deception Talents* group); {talent/underhanded} (*Primary Sneak Attack Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the charlatan archetype: hard minded and unwitting ally (*Combat Talents* group); skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the charlatan archetype: {talent/hard minded} and {talent/unwitting ally} (*Combat Talents* group); {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"consigliere": {
@@ -188,7 +188,7 @@
 			"",
 			"This alters the rogue's class skills.",
 			"",
-			"**Convincing Attitude (Ex):** At 1st level, a consigliere gains {feat/Persuasive} as a bonus feat. At 2nd level, he gains the charmer rogue talent (or the certainty [Diplomacy] rogue talent if he is an unchained rogue). At 3rd level, if a consigliere attempts a Diplomacy check and fails to influence a creature's attitude by 5 or more, the creature's attitude remains unchanged instead of decreasing by one step.",
+			"**Convincing Attitude (Ex):** At 1st level, a consigliere gains {feat/Persuasive} as a bonus feat. At 2nd level, he gains the {talent/charmer} rogue talent (or the {talent/certainty} [Diplomacy] rogue talent if he is an unchained rogue). At 3rd level, if a consigliere attempts a Diplomacy check and fails to influence a creature's attitude by 5 or more, the creature's attitude remains unchanged instead of decreasing by one step.",
 			"",
 			"This ability replaces trapfinding and evasion.",
 			"",
@@ -196,7 +196,7 @@
 			"",
 			"This ability replaces uncanny dodge and improved uncanny dodge.",
 			"",
-			"**Bonus Feats (Ex):** Starting at 4th level, a consigliere can choose to gain a single teamwork feat instead of a single rogue talent. Starting at 12th level, the consigliere can choose to gain teamwork feats instead of rogue talents as many times as he chooses.",
+			"**Bonus Feats (Ex):** Starting at 4th level, a consigliere can choose to gain a single {main/feats_<teamwork/ feat} instead of a single rogue talent. Starting at 12th level, the consigliere can choose to gain teamwork feats instead of rogue talents as many times as he chooses.",
 			"",
 			"This ability replaces all instances of trap sense.",
 			"",
@@ -204,9 +204,9 @@
 			"",
 			"This ability replaces the rogue talent normally gained at 10th level.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the consigliere archetype: assault leader (*Ally-Related Talents* group); black market connections and shades of gray (*Other Magic-Related Talents* group); coax information and honeyed words (*Deception Talents* group); certainty [Bluff] (*Other Talents* group - unchained rogue only).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the consigliere archetype: {talent/assault leader} (*Ally-Related Talents* group); {talent/black market connections} and {talent/shades of gray} (*Other Magic-Related Talents* group); {talent/coax information} and {talent/honeyed words} (*Deception Talents* group); {talent/certainty} [Bluff] (*Other Talents* group - unchained rogue only).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the consigliere archetype: hard minded, opportunist, redirect attack, and unwitting ally (*Combat Talents* group); slippery mind (*Magical Talents* group); rumormonger and skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the consigliere archetype: {talent/hard minded}, {talent/opportunist}, {talent/redirect attack}, and {talent/unwitting ally} (*Combat Talents* group); {talent/slippery mind} (*Magical Talents* group); {talent/rumormonger} and {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"construct_saboteur": {
@@ -228,13 +228,13 @@
 			"",
 			"**Arcane Sabotage (Su):** At 2nd level, a construct saboteur can user her arcane prowess to hinder constructs. Whenever she uses Arcane Strike to attack a construct, she can activate one of the following sabotage abilities that she has gained. She gains one sabotage ability at 2nd level and can thereafter select any sabotage ability in place of a rogue talent. The DC for any sabotage ability that requires a saving throw is 10 + half the construct saboteur's level + the construct saboteur's Intelligence modifier.",
 			"",
-			"**Diminish Senses:** A jolt of energy overwhelms the construct's senses. The construct is blinded for 1 round. A construct saboteur can forgo dealing sneak attack damage to extend the duration of the blindness by 1 round for every 2d6 points of sneak attack damage forgone in this way. A construct can negate this effect with a successful Will save.",
-			"",
-			"**Magic Vulnerability:** A field of energy enshrouds the construct, disabling its immunity to magic for 1 round. The construct instead gains spell resistance equal to 15 + its CR. A construct saboteur can forgo dealing sneak attack damage to reduce this spell resistance. The construct's spell resistance is reduced by 1 for every 1d6 points of sneak attack damage forgone in this way. A construct can negate this effect with a successful Will save.",
-			"",
-			"**Overwhelming Jolt:** A sudden burst of power moves over the surface of the construct, giving it the staggered condition for 1 round. A construct can negate this effect with a successful Will save.",
-			"",
-			"**Slowing Pulse:** A surge of slowing energy ripples through the construct, reducing its speed by 5 feet for a number of rounds equal to the construct saboteur's Intelligence modifier. A construct saboteur can forgo dealing sneak attack damage to reduce the construct's speed by an additional 5 feet for every 1d6 points of sneak attack damage forgone in this way. This ability cannot lower a construct's movement speed below 5 feet. A construct can reduce the duration of this effect to 1 round with a successful Reflex save.",
+			">**Diminish Senses:** A jolt of energy overwhelms the construct's senses. The construct is blinded for 1 round. A construct saboteur can forgo dealing sneak attack damage to extend the duration of the blindness by 1 round for every 2d6 points of sneak attack damage forgone in this way. A construct can negate this effect with a successful Will save.",
+			">",
+			">**Magic Vulnerability:** A field of energy enshrouds the construct, disabling its immunity to magic for 1 round. The construct instead gains spell resistance equal to 15 + its CR. A construct saboteur can forgo dealing sneak attack damage to reduce this spell resistance. The construct's spell resistance is reduced by 1 for every 1d6 points of sneak attack damage forgone in this way. A construct can negate this effect with a successful Will save.",
+			">",
+			">**Overwhelming Jolt:** A sudden burst of power moves over the surface of the construct, giving it the staggered condition for 1 round. A construct can negate this effect with a successful Will save.",
+			">",
+			">**Slowing Pulse:** A surge of slowing energy ripples through the construct, reducing its speed by 5 feet for a number of rounds equal to the construct saboteur's Intelligence modifier. A construct saboteur can forgo dealing sneak attack damage to reduce the construct's speed by an additional 5 feet for every 1d6 points of sneak attack damage forgone in this way. This ability cannot lower a construct's movement speed below 5 feet. A construct can reduce the duration of this effect to 1 round with a successful Reflex save.",
 			"",
 			"This replaces the rogue talent gained at 2nd level.",
 			"",
@@ -258,9 +258,9 @@
 			"",
 			"**Wand Adept (Ex):** At 6th level, a counterfeit mage can use his Dexterity modifier in place of his Charisma modifier when attempting Use Magic Device checks to activate wands.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the counterfeit mage archetype: deft palm (*Combat Talents* group); trap spotter (*Trap Talents* group); honeyed words (*Deception Talents* group); major magic, minor magic (*Spellcasting Talents* group); esoteric scholar (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the counterfeit mage archetype: {talent/deft palm} (*Combat Talents* group); {talent/trap spotter} (*Trap Talents* group); {talent/honeyed words} (*Deception Talents* group); {talent/major magic}, {talent/minor magic} (*Spellcasting Talents* group); {talent/esoteric scholar} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the counterfeit mage archetype: dispelling attack (*Primary Sneak Attack Talents* group); familiar and slippery mind (*Magical Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the counterfeit mage archetype: {talent/dispelling attack} (*Primary Sneak Attack Talents* group); {talent/familiar} and {talent/slippery mind} (*Magical Talents* group)."
 		]
 	},
 	"cutpurse": {
@@ -276,9 +276,9 @@
 			"",
 			"**Stab and Grab (Ex):** At 3rd level, as a full-round action, a cutpurse can make an attack and also make a Sleight of Hand check to steal something from the target of the attack. If the attack deals sneak attack damage, the rogue can use Sleight of Hand to take an item from the creature during combat; otherwise this ability can only be used in a surprise round before the target has acted. If the attack is successful, the target takes a -5 penalty on the Perception check to notice the theft. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the cutpurse archetype: slow reactions (*Primary Sneak Attack Talents* group); combat swipe (*Combat Talents* group); fast fingers (*Deception Talents* group); fast getaway and surprise attack (*Other Sneak Attack Talents* group); minor magic (*Spellcasting Talents* group); hard to fool (`Other Talents).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the cutpurse archetype: {talent/slow reactions} (*Primary Sneak Attack Talents* group); {talent/combat swipe} (*Combat Talents* group); {talent/fast fingers} (*Deception Talents* group); {talent/fast getaway} and {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/minor magic} (*Spellcasting Talents* group); {talent/hard to fool} (`Other Talents).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the cutpurse archetype: crippling strike (*Primary Sneak Attack Talents* group); fast tumble (*Combat Talents* group); skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the cutpurse archetype: {talent/crippling strike} (*Primary Sneak Attack Talents* group); {talent/fast tumble} (*Combat Talents* group); {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"dark_lurker": {
@@ -290,7 +290,7 @@
 			"{SOURCE Heroes of the Streets/26}  ",
 			"Dark lurkers use darkness as an ally. They are widely feared in many major metropolises, spoken of as \"living shadows\" by guards of Magnimar who patrol under the Irespan and called \"the hungry night\" by citizens of Absalom who mistake them for fetchling assassins.",
 			"",
-			"**Blades from the Shadows (Ex):** At 2nd level, a dark lurker gains shadow strike as a bonus rogue talent. (A character using the unchained rogue class instead gains the ability to make attacks of opportunity against foes with {rule/cover}, though not foes with improved cover or total cover). At 6th level, the dark lurker can deal precision damage to targets with {rule/total |concealment} (though any miss chance applies normally, and may prevent an attack from hitting in the first place).",
+			"**Blades from the Shadows (Ex):** At 2nd level, a dark lurker gains {feat/Shadow Strike} as a bonus feat. (A character using the unchained rogue class instead gains the ability to make attacks of opportunity against foes with {rule/cover}, though not foes with improved cover or total cover). At 6th level, the dark lurker can deal precision damage to targets with {rule/total |concealment} (though any miss chance applies normally, and may prevent an attack from hitting in the first place).",
 			"",
 			"This ability replaces evasion; the dark lurker can take evasion as a rogue talent.",
 			"",
@@ -302,9 +302,9 @@
 			"",
 			"**Instinctual Sense (Ex):** At 20th level, a dark lurker gains blindsight with a range of 30 feet. This ability replaces the rogue talent gained at 20th level.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the dark lurker archetype: befuddling strike (*Primary Sneak Attack Talents* group); fast getaway, sniper's eye, and surprise attack (*Other Sneak Attack Talents* group); fast stealth (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the dark lurker archetype: {talent/befuddling strike} (*Primary Sneak Attack Talents* group); {talent/fast getaway}, {talent/sniper's eye}, and {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/fast stealth} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talent>s} complements the dark lurker archetype: opportunist (*Combat Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talent>s} complements the dark lurker archetype: {talent/opportunist} (*Combat Talents* group)."
 		]
 	},
 	"deadly_courtesan": {
@@ -318,15 +318,15 @@
 			"",
 			"**Class Skills:** At 1st level, a deadly courtesan adds Knowledge (history) and Knowledge (nobility) to her list of class skills and removes Knowledge (dungeoneering) from her list of class skills.",
 			"",
-			"**Bardic Performance (Su):** At 2nd level, a deadly courtesan gains the bardic performance ability and the fascinate bardic performance. Her fascinate DC is 10 + 1/2 her rogue level + her Charisma modifier. She can use this bardic performance for a number of rounds per day equal to 1 + her Charisma modifier. At each level after 2nd, she can use bardic performance for 1 additional round per day. If the courtesan also has bard levels, she may use these rounds for either class's fascinate bardic performance, and her bard and rogue levels stack for determining her fascinate DC. This ability replaces the rogue talent gained at 2nd level.",
+			"**Bardic Performance (Su):** At 2nd level, a deadly courtesan gains the {class/bard/ic performance} ability and the fascinate bardic performance. Her fascinate DC is 10 + 1/2 her rogue level + her Charisma modifier. She can use this bardic performance for a number of rounds per day equal to 1 + her Charisma modifier. At each level after 2nd, she can use bardic performance for 1 additional round per day. If the courtesan also has bard levels, she may use these rounds for either class's fascinate bardic performance, and her bard and rogue levels stack for determining her fascinate DC. This ability replaces the rogue talent gained at 2nd level.",
 			"",
 			"**Inspire Competence (Su):** At 3rd level, a deadly courtesan can use her bardic performance to inspire competence. The bonus begins at +2 and increases by +1 for every six levels the courtesan has attained beyond 3rd (+3 at 9th and +4 at 15th). This ability replaces all levels of trap sense.",
 			"",
 			"**Performance Strike (Sp):** At 8th level, as a swift action, a deadly courtesan may expend rounds of bardic performance to gain a morale bonus on one attack roll. The amount of the bonus is equal to the number of bardic performance rounds expended (maximum bonus equal to 1/2 her deadly courtesan level). This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the deadly courtesan archetype: finesse rogue, stand up, deft palm (*Combat Talents* group); charmer, coax information, fast fingers, honeyed words, convincing lie (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the deadly courtesan archetype: {talent/finesse rogue}, {talent/stand up}, {talent/deft palm} (*Combat Talents* group); {talent/charmer}, {talent/coax information}, {talent/fast fingers}, {talent/honeyed words}, {talent/convincing lie} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the deadly courtesan archetype: slippery mind (*Magical Talents* group); unwitting ally (*Combat Talents* group); master of disguise and rumormonger (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the deadly courtesan archetype: {talent/slippery mind} (*Magical Talents* group); {talent/unwitting ally} (*Combat Talents* group); {talent/master of disguise} and {talent/rumormonger} (*Other Talents* group)."
 		]
 	},
 	"desert_raider": {
@@ -352,9 +352,9 @@
 			"",
 			"This replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the desert raider archetype: surprise attack (*Other Sneak Attack Talents* group); rogue crawl, stand up (*Combat Talents* group); fast stealth (*Deception Talents* group); getaway artist, ledge walker (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the desert raider archetype: {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/rogue crawl}, {talent/stand up} (*Combat Talents* group); {talent/fast stealth} (*Deception Talents* group); {talent/getaway artist}, {talent/ledge walker} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the desert raider archetype: stealthy sniper (*Combat Talents* group); hide in plain sight (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the desert raider archetype: {talent/stealthy sniper} (*Combat Talents* group); {talent/hide in plain sight} (*Other Talents* group)."
 		]
 	},
 	"discretion_specialist": {
@@ -390,9 +390,9 @@
 			"",
 			"This replaces uncanny dodge and improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement this archetype: camouflage, charmer, convincing lie, honeyed words, quick disguise (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement this archetype: {talent/camouflage}, {talent/charmer}, {talent/convincing lie}, {talent/honeyed words}, {talent/quick disguise} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement this archetype: hide in plain sight, master of disguise (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement this archetype: {talent/hide in plain sight}, {talent/master of disguise} (*Other Talents* group)."
 		]
 	},
 	"dreamthief": {
@@ -404,13 +404,13 @@
 			"{SOURCE Planar Adventures/12}  ",
 			"The dreamthief is master of both waking and dreaming worlds. Each dreamthief bears a focused fragment of emotion, known as a dreamshard, within her soul. Some are born with such fragments, while others gain their dreamshards during traumatic moments, especially those involving nightmares, attacks by ethereal beings, or incidents that take place in the Dimension of Dreams. Whether a dreamshard is shaped from the dreamer's aggregated emotions or manifested from a repressed aspect of herself, this metaphysical crystal grants a dreamthief supernatural powers, which she supplements with skill and grace.",
 			"",
-			"Dreamthieves' powers grant them enhanced access to dreamscapes. Using the unique power of her dreamshard, a knowledgeable dreamthief can crystallize and steal dreamers' deepest emotions. Such theft can alter dreamers in profound ways, whether for better or worse.",
+			"Dreamthieves' powers grant them enhanced access to {rule/dimension_of_<dreams/capes}. Using the unique power of her dreamshard, a knowledgeable dreamthief can crystallize and steal dreamers' deepest emotions. Such theft can alter dreamers in profound ways, whether for better or worse.",
 			"",
 			"**Skills:** Knowledge (arcana) and Knowledge (planes) are class skills for a dreamthief.",
 			"",
 			"This alters the rogue's class skills.",
 			"",
-			"**Dreamshard Focus (Su):** At 1st level, a dreamthief selects an emotional focus from among those available to a spiritualist's phantom. She gains the abilities granted by that emotional focus (with the exception of the focus determining her good saving throws - she retains the typical rogue saves). For each of the two skills associated with that emotional focus, a dreamthief gains ranks in that skill equal to her rogue level; this does not allow her ranks in these skills to exceed her Hit Dice.",
+			"**Dreamshard Focus (Su):** At 1st level, a dreamthief selects an {ability/emotional focus} from among those available to a spiritualist's phantom. She gains the abilities granted by that emotional focus (with the exception of the focus determining her good saving throws - she retains the typical rogue saves). For each of the two skills associated with that emotional focus, a dreamthief gains ranks in that skill equal to her rogue level; this does not allow her ranks in these skills to exceed her Hit Dice.",
 			"",
 			"A dreamthief is considered to be both a phantom and a spiritualist for the purpose of emotional focus abilities whose effect references both a phantom and a spiritualist, such as dutiful strike, and she treats her rogue level as both her spiritualist level and her phantom Hit Dice when determining abilities and save DCs.",
 			"",
@@ -422,7 +422,7 @@
 			"",
 			"This replaces trap sense.",
 			"",
-			"**Soothe Dreaming (Su):** At 4th level, a dreamthief can steal negative emotions, freeing allies from harmful conditions. This acts as the mesmerist's touch treatment ability, treating her rogue level as her mesmerist level; a dreamthief can use this ability once per day for every 3 rogue levels she has.",
+			"**Soothe Dreaming (Su):** At 4th level, a dreamthief can steal negative emotions, freeing allies from harmful conditions. This acts as the {class/mesmerist/'s} touch treatment ability, treating her rogue level as her mesmerist level; a dreamthief can use this ability once per day for every 3 rogue levels she has.",
 			"",
 			"This replaces uncanny dodge.",
 			"",
@@ -444,9 +444,9 @@
 			"",
 			"**Driver's Fortitude (Ex):** At 3rd level, the driver learns to keep driving and maintain control of her vehicle, even when mortally wounded. If the driver drops below 0 hit points but is not dead, she can attempt a DC 15 Fortitude save each round to remain conscious and in control of her vehicle, though she may take no other actions. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the driver archetype: firearm training (*Combat Talents* group); getaway artist (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the driver archetype: {talent/firearm training} (*Combat Talents* group); {talent/getaway artist} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the driver archetype: feat, getaway master (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the driver archetype: {talent/feat}, {talent/getaway master} (*Other Talents* group)."
 		]
 	},
 	"earthshadow": {
@@ -474,9 +474,9 @@
 			"",
 			"This ability replaces evasion and the rogue talents gained at 4th, 8th, 12th, and 16th levels.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the earthshadow archetype: extra earthcraft, major magic, minor magic (*Spellcasting Talents* group); fortified position, resiliency (*Combat Talents* group); trap spotter (*Trap Talents* group); favored terrain (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the earthshadow archetype: {talent/extra earthcraft}, {talent/major magic}, {talent/minor magic} (*Spellcasting Talents* group); {talent/fortified position}, {talent/resiliency} (*Combat Talents* group); {talent/trap spotter} (*Trap Talents* group); {talent/favored terrain} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the earthshadow archetype: dispelling attack (*Primary Sneak Attack Talents* group); slippery mind (*Magical Talents* group); against the wall (*Combat Talents* group); hide in plain sight, stony skin (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the earthshadow archetype: {talent/dispelling attack} (*Primary Sneak Attack Talents* group); {talent/slippery mind} (*Magical Talents* group); {talent/against the wall} (*Combat Talents* group); {talent/hide in plain sight}, {talent/stony skin} (*Other Talents* group)."
 		]
 	},
 	"eldritch_raider": {
@@ -492,19 +492,19 @@
 			"",
 			"**Skill Ranks per Level:** 6 + Int modifier.",
 			"",
-			"**Detect Magic (Sp):** At 2nd level, an eldritch raider gains the ability to use {spell/detect magic} at will. The eldritch raider treats her rogue level as her caster level for this ability. This ability counts as the minor magic rogue talent for purposes of qualifying for other rogue talents. This ability replaces the rogue talent rogues gained at 2nd level.",
+			"**Detect Magic (Sp):** At 2nd level, an eldritch raider gains the ability to use {spell/detect magic} at will. The eldritch raider treats her rogue level as her caster level for this ability. This ability counts as the {talent/minor magic} rogue talent for purposes of qualifying for other rogue talents. This ability replaces the rogue talent rogues gained at 2nd level.",
 			"",
 			"**Eldritch Intuition (Ex):** At 3rd level, an eldritch raider gains an intuitive sense that allows her to more easily activate sorcerer and wizard spell completion and spell trigger items. She gains a +1 bonus on Use Magic Device checks for this purpose. This bonus increases to +2 at 6th level, +3 at 9th level, +4 at 12th level, +5 at 15th level, and +6 at 18th level. This ability replaces the trap sense class feature.",
 			"",
 			"**New Talents:** An eldritch raider has access to the following new advanced talents when selecting rogue advanced talents.",
 			"",
-			">**Minor Eldritch Magic (Sp):** The eldritch raider gains the ability to cast a 2nd-level spell from the sorcerer/wizard spell list two times per day as a spell-like ability. The caster level for this ability is equal to her rogue level. The save DC for this spell is 12 + her Intelligence modifier. The eldritch raider must have an Intelligence of at least 12 to select this talent. The eldritch raider must have the major magic and minor magic rogue talents before choosing this talent.",
+			">**Minor Eldritch Magic (Sp):** The eldritch raider gains the ability to cast a 2nd-level spell from the {main/spells<sorcerer|//wizard/ spell list} two times per day as a spell-like ability. The caster level for this ability is equal to her rogue level. The save DC for this spell is 12 + her Intelligence modifier. The eldritch raider must have an Intelligence of at least 12 to select this talent. The eldritch raider must have the {talent/major magic} and minor magic rogue talents before choosing this talent.",
 			">",
 			">>**Major Eldritch Magic (Sp):** The eldritch raider gains the ability to cast a 3rd-level spell from the sorcerer/wizard spell list two times per day as a spell-like ability. The caster level for this ability is equal to her rogue level. The save DC for this spell is 13 + her Intelligence modifier. The eldritch raider must have an Intelligence of at least 13 to select this talent. The eldritch raider must have the major magic, minor eldritch magic, and minor magic rogue talents before choosing this talent.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the eldritch raider archetype: major magic, minor magic (*Spellcasting Talents*); black market connections(*Other Magic-Related Talents* group); trap spotter (*Trap Talents* group); fast picks and quick disable (*Disable Device Talents* group); ninja trick [slow metabolism and wall climber - *Other Tricks* group] and esoteric scholar (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the eldritch raider archetype: major magic, minor magic (*Spellcasting Talents*); {talent/black market connections} (*Other Magic-Related Talents* group); {talent/trap spotter} (*Trap Talents* group); {talent/fast picks} and {talent/quick disable} (*Disable Device Talents* group); {talent/ninja trick} [{ninjatrick/slow metabolism} and {ninjatrick/wall climber} - *Other Tricks* group] and {talent/esoteric scholar} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the eldritch raider archetype: dispelling attack (*Primary Sneak Attack Talents* group); slippery mind, familiar (*Magical Talents* group); improved evasion, hard minded (*Combat Talents* group); thoughtful reexamining (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the eldritch raider archetype: {talent/dispelling attack} (*Primary Sneak Attack Talents* group); {talent/slippery mind}, {talent/familiar} (*Magical Talents* group); {talent/improved evasion}, {talent/hard minded} (*Combat Talents* group); {talent/thoughtful reexamining} (*Other Talents* group)."
 		]
 	},
 	"eldritch_scoundrel": {
@@ -520,15 +520,15 @@
 			"",
 			"**Class Skills:** An eldritch scoundrel gains 4 skill ranks (plus a number of ranks equal to her Intelligence modifier) at each level instead of a normal 8. She gains Knowledge (arcana) and Spellcraft as class skills, but not Diplomacy and Disguise. This alters the rogue's skills.",
 			"",
-			"**Spells:** An eldritch scoundrel casts arcane spells drawn from the wizard spell list. An eldritch scoundrel must choose and prepare her spells ahead of time. She learns, prepares, and casts spells exactly as a wizard does, including adding new spells to her spellbook and gaining two additional spells known (of any level she can cast) each time she gains a rogue level with this archetype.",
+			"**Spells:** An eldritch scoundrel casts arcane spells drawn from the {main/spells_<wizard/ spell list}. An eldritch scoundrel must choose and prepare her spells ahead of time. She learns, prepares, and casts spells exactly as a {class/wizard} does, including adding new spells to her spellbook and gaining two additional spells known (of any level she can cast) each time she gains a rogue level with this archetype.",
 			"",
 			"An eldritch scoundrel can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is the same as the {class/magus} class.",
 			"",
-			"**Alarm Sense (Su):** At 3rd level, an eldritch scoundrel gains an intuitive sense that warns her when she is near a magic trap. This functions as the trap spotter {ability/rogue talent>s}, but applies only if the eldritch scoundrel comes within 10 feet of a magic trap. This ability replaces trap sense.",
+			"**Alarm Sense (Su):** At 3rd level, an eldritch scoundrel gains an intuitive sense that warns her when she is near a magic trap. This functions as the {talent/trap spotter} rogue talent, but applies only if the eldritch scoundrel comes within 10 feet of a magic trap. This ability replaces trap sense.",
 			"",
 			"**Sneak Attack (Ex):** The eldritch scoundrel doesn't acquire the sneak attack class feature until 3rd level, when she gains a +1d6 sneak attack. This increases by 1d6 at 7th level, and again at every 4 rogue levels thereafter. This modifies the rogue's normal sneak attack progression.",
 			"",
-			"**Rogue Talents:** At 4th level and every 4 levels thereafter, the eldritch scoundrel gains a rogue or {ability/ninja talent>s} for which she meets the prerequisites (treating her rogue level as her ninja level). If a talent requires her to expend points from her ki pool, she can instead expend a spell slot with a spell level equal to the number of ki points she would normally expend. If a talent functions only if she has ki in her ki pool, it functions as long as she still has a spell of 1st level or higher prepared. At 12th level, she can select an advanced talent in place of a rogue talent. This modifies the normal rogue talent progression and advanced talent.",
+			"**Rogue Talents:** At 4th level and every 4 levels thereafter, the eldritch scoundrel gains a {ability/rogue talent} or {ability/ninja trick>s} for which she meets the prerequisites (treating her rogue level as her ninja level). If a talent requires her to expend points from her ki pool, she can instead expend a spell slot with a spell level equal to the number of ki points she would normally expend. If a talent functions only if she has ki in her ki pool, it functions as long as she still has a spell of 1st level or higher prepared. At 12th level, she can select an {ability/advanced rogue talent} in place of a rogue talent. This modifies the normal rogue talent progression and advanced talent.",
 			"",
 			"**Uncanny Training:** An eldritch scoundrel does not gain uncanny dodge or improved uncanny dodge. Beginning at 4th level, she can take uncanny dodge instead of a rogue talent. Beginning at 12th level, the eldritch scoundrel can choose to take improved uncanny dodge in place of an advanced talent. This modifies uncanny dodge and improved uncanny dodge."
 		]
@@ -560,15 +560,15 @@
 			"",
 			"**Dim the Lights (Ex):** At 1st level, while in dim light or darkness, a false medium adds 1/2 his rogue level as a bonus on Bluff, Disguise, and Sleight of Hand checks, and creatures without low-light vision or darkvision take an equal penalty on skill checks to oppose the false medium's Bluff, Disguise, and Sleight of Hand checks. This ability replaces trapfinding.",
 			"",
-			"**False Sensitivity (Ex):** At 2nd level, a charlatan can convincingly fake the ability to use occult skill unlocks such as automatic writing and dowsing. An untrained onlooker can't tell the difference between the false medium's scams and a true use of occult skill unlocks. An onlooker capable of using the particular occult skill unlock that the false medium is faking can attempt the appropriate skill check for that unlock, opposed by the false medium's Bluff check, to detect the fraud. In any case, any results of the false medium's charades are fabricated (for instance, the false medium might ask leading questions to elicit false memories while pretending to use hypnotism). This ability replaces the 2nd-level rogue talent.",
+			"**False Sensitivity (Ex):** At 2nd level, a charlatan can convincingly fake the ability to use occult skill unlocks such as {skill/automatic writing} and {skill/dowsing}. An untrained onlooker can't tell the difference between the false medium's scams and a true use of occult skill unlocks. An onlooker capable of using the particular occult skill unlock that the false medium is faking can attempt the appropriate skill check for that unlock, opposed by the false medium's Bluff check, to detect the fraud. In any case, any results of the false medium's charades are fabricated (for instance, the false medium might ask leading questions to elicit false memories while pretending to use hypnotism). This ability replaces the 2nd-level rogue talent.",
 			"",
-			"**Haunting Presences (Ex):** At 3rd level, the false medium exploits his natural talent for deception to convince others of the presence of false supernatural entities. As long as the false medium is in conditions of dim light or darkness, he can use Bluff skill checks to emulate the effects of dancing lights, ghost sound, silent image, or ventriloquism by throwing his voice, subtly misdirecting or convincing subjects, or manipulating light and shadows. The range of these effects is 10 feet from the false medium, plus an additional 5 feet for every 3 rogue levels he possesses beyond 3rd. The effects last for 1 round, though they can be maintained with additional checks. Only one of these effects can be created or maintained in a given round. Observers can attempt either a Perception or Sense Motive check (whichever of their bonuses is higher) to oppose this Bluff check; the GM should roll these checks secretly. This is an extraordinary ability and not an illusion, so if the false medium succeeds at the opposed check, even powerful effects like true seeing don't detect the fakery.",
+			"**Haunting Presences (Ex):** At 3rd level, the false medium exploits his natural talent for deception to convince others of the presence of false supernatural entities. As long as the false medium is in conditions of dim light or darkness, he can use Bluff skill checks to emulate the effects of {spell/dancing lights}, {spell/ghost sound}, {spell/silent image}, or {spell/ventriloquism} by throwing his voice, subtly misdirecting or convincing subjects, or manipulating light and shadows. The range of these effects is 10 feet from the false medium, plus an additional 5 feet for every 3 rogue levels he possesses beyond 3rd. The effects last for 1 round, though they can be maintained with additional checks. Only one of these effects can be created or maintained in a given round. Observers can attempt either a Perception or Sense Motive check (whichever of their bonuses is higher) to oppose this Bluff check; the GM should roll these checks secretly. This is an extraordinary ability and not an illusion, so if the false medium succeeds at the opposed check, even powerful effects like {spell/true seeing} don't detect the fakery.",
 			"",
 			"This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the false medium rogue archetype: major magic, minor magic (*Spellcasting Talents* group); quick trapsmith (*Trap Talents* group); fast fingers, honeyed words (*Deception Talents* group); esoteric scholar (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the false medium rogue archetype: {talent/major magic}, {talent/minor magic} (*Spellcasting Talents* group); {talent/quick trapsmith} (*Trap Talents* group); {talent/fast fingers}, {talent/honeyed words} (*Deception Talents* group); {talent/esoteric scholar} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the false medium rogue archetype: feat, master of disguise, skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the false medium rogue archetype: {talent/feat}, {talent/master of disguise}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"fey_prankster": {
@@ -588,7 +588,7 @@
 			"",
 			"This replaces the rogue talent gained at 2nd level.",
 			"",
-			"**Steal Appearance (Sp):** At 4th level, the fey prankster can exchange the appearance of two adjacent items of the same size. He can also exchange the appearance of two creatures if at least one is willing and both are adjacent. Affecting an unwilling creature or an item it wears or carries requires a successful dirty trick combat maneuver against that creature. If he succeeds, the objects or creatures are each disguised as the other as if with veil cast at his rogue level. The Will save DC to resist or disbelieve the illusion is equal to 10 + half the rogue's level + his Intelligence modifier.",
+			"**Steal Appearance (Sp):** At 4th level, the fey prankster can exchange the appearance of two adjacent items of the same size. He can also exchange the appearance of two creatures if at least one is willing and both are adjacent. Affecting an unwilling creature or an item it wears or carries requires a successful dirty trick combat maneuver against that creature. If he succeeds, the objects or creatures are each disguised as the other as if with {spell/veil} cast at his rogue level. The Will save DC to resist or disbelieve the illusion is equal to 10 + half the rogue's level + his Intelligence modifier.",
 			"",
 			"At 8th level, the fey prankster can also exchange the locations of the two targets by succeeding at a DC 20 Sleight of Hand check. If he succeeds, observers can't tell which is the original based on movement without succeeding at a Perception check against his Sleight of Hand result.",
 			"",
@@ -626,9 +626,9 @@
 			"",
 			"**Superior Filching (Ex):** At 8th level, a filcher becomes a master at separating owners from their property. She gains {feat/Greater Steal} as a bonus feat, and opponents do not gain a +5 bonus to their CMD when she tries to remove items fastened to them. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the filcher archetype: slow reactions (*Primary Sneak Attack Talents* group); fast getaway (*Other Sneak Attack Talents* group); black market connections (*Other Magic-Related Talents* group); deft palm (*Combat Talents* group); fast stealth, fast fingers (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the filcher archetype: {talent/slow reactions} (*Primary Sneak Attack Talents* group); {talent/fast getaway} (*Other Sneak Attack Talents* group); {talent/black market connections} (*Other Magic-Related Talents* group); {talent/deft palm} (*Combat Talents* group); {talent/fast stealth}, {talent/fast fingers} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the filcher archetype: fast tumble, weapon snatcher (*Combat Talents* group); skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the filcher archetype: {talent/fast tumble}, {talent/weapon snatcher} (*Combat Talents* group); {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"galtan_agitator": {
@@ -640,7 +640,7 @@
 			"{SOURCE Inner Sea Intrigue/39}  ",
 			"Galtan agitators fight mightily to cast down the enemies of their ideals within the shambles of the tumultuous nation of Galt. Any rogue (including unchained rogues) can select the Galtan agitator archetype.",
 			"",
-			"**Reputation (Ex):** This ability functions as the renown [vigilante social talent](ability/social_talents). In addition to improving attitudes, it also improves the Galtan agitator's starting {rule/influence} and reputation with {rule/contacts} in the area by one level or step. For the purpose of vigilante social talents, the Galtan agitator does not have a vigilante identity and is always considered to be in her social identity, unless she has another identity (such as from the vigilante class). If the Galtan agitator has another identity, she does not gain any benefits from renown while in that identity unless she has the renown social talent or a similar ability.",
+			"**Reputation (Ex):** This ability functions as the {socialtalent/renown} vigilante social talent. In addition to improving attitudes, it also improves the Galtan agitator's starting {rule/influence} and reputation with {rule/contacts} in the area by one level or step. For the purpose of vigilante social talents, the Galtan agitator does not have a vigilante identity and is always considered to be in her social identity, unless she has another identity (such as from the {class/vigilante} class). If the Galtan agitator has another identity, she does not gain any benefits from renown while in that identity unless she has the renown social talent or a similar ability.",
 			"",
 			"This ability replaces trapfinding.",
 			"",
@@ -648,11 +648,11 @@
 			"",
 			"This ability replaces trap sense.",
 			"",
-			"**Enthralling Agitation (Su):** At 4th level, a Galtan agitator can captivate a crowd once per day, as per the spell enthrall. (DC = 10 + 1/2 the Galtan agitator's rogue level + her Charisma modifier). During the spell's effect, the Galtan agitator can attempt a DC 15 Charisma check to increase her individual or organizational influence with the members of the crowd by 1 rank or step. Or, if the crowd members' attitudes toward the Galtan agitator are indifferent or worse, this check can improve their attitudes by 1 step. The Galtan agitator can never use this ability to increase her individual or organization influence or improve the crowd's attitude by more than 2 ranks or steps.",
+			"**Enthralling Agitation (Su):** At 4th level, a Galtan agitator can captivate a crowd once per day, as per the spell {spell/enthrall}. (DC = 10 + 1/2 the Galtan agitator's rogue level + her Charisma modifier). During the spell's effect, the Galtan agitator can attempt a DC 15 Charisma check to increase her individual or organizational influence with the members of the crowd by 1 rank or step. Or, if the crowd members' attitudes toward the Galtan agitator are indifferent or worse, this check can improve their attitudes by 1 step. The Galtan agitator can never use this ability to increase her individual or organization influence or improve the crowd's attitude by more than 2 ranks or steps.",
 			"",
 			"This replaces the rogue talent gained at 4th level.",
 			"",
-			"**Revolutionary's Cause (Su):** At 8th level, the Galtan agitator can lift an enthralled crowd's emotions and turn them toward a common purpose. As a standard action after she has used her enthralling agitation, but before the enthrall effect wears off, she can target the affected creatures with a plausible suggestion (DC = 10 + 1/2 her rogue level + her Charisma modifier). that has a duration of up to 1 day.",
+			"**Revolutionary's Cause (Su):** At 8th level, the Galtan agitator can lift an enthralled crowd's emotions and turn them toward a common purpose. As a standard action after she has used her enthralling agitation, but before the enthrall effect wears off, she can target the affected creatures with a plausible {spell/suggestion} (DC = 10 + 1/2 her rogue level + her Charisma modifier). that has a duration of up to 1 day.",
 			"",
 			"This ability replaces the rogue talent gained at 8th level.",
 			"",
@@ -660,9 +660,9 @@
 			"",
 			"This replaces the rogue talent gained at 12th level.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the Galtan agitator archetype: canny observer (*Trap Talents* group); coax information (*Deception Talents* group); follow clues, hard to fool, strong impression (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the Galtan agitator archetype: {talent/canny observer} (*Trap Talents* group); {talent/coax information} (*Deception Talents* group); {talent/follow clues}, {talent/hard to fool}, {talent/strong impression} (*Other Talents* group).",
 			"",
-			"**Advanced Rogue Talents:** The following {ability/advanced rogue talents} complement the Galtan agitator archetype: feat, thoughtful reexamining, skill mastery (*Other Talents* group)."
+			"**Advanced Rogue Talents:** The following {ability/advanced rogue talents} complement the Galtan agitator archetype: {talent/feat}, {talent/thoughtful reexamining}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"guerrilla": {
@@ -694,9 +694,9 @@
 			"",
 			"This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the guerrilla archetype: powerful sneak (*Primary Sneak Attack Talents* group); surprise attack (*Other Sneak Attack Talents* group); rogue crawl, stand up (*Combat Talents* group); camouflage, fast stealth (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the guerrilla archetype: {talent/powerful sneak} (*Primary Sneak Attack Talents* group); {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/rogue crawl}, {talent/stand up} (*Combat Talents* group); {talent/camouflage}, {talent/fast stealth} (*Deception Talents* group).",
 			"",
-			"**Advanced Rogue Talents:** The following {ability/advanced rogue talents} complement the guerrilla archetype: deadly sneak (*Primary Sneak Attack Talents* group); stealthy sniper, opportunist (*Combat Talents* group); master of disguise (*Other Talents* group)."
+			"**Advanced Rogue Talents:** The following {ability/advanced rogue talents} complement the guerrilla archetype: {talent/deadly sneak} (*Primary Sneak Attack Talents* group); {talent/stealthy sniper}, {talent/opportunist} (*Combat Talents* group); {talent/master of disguise} (*Other Talents* group)."
 		]
 	},
 	"guild_agent": {
@@ -710,9 +710,9 @@
 			"",
 			"**Honor Among Thieves (Ex):** A guild agent must remain a member in good standing of a thieves' guild (he starts at rank 1 with her guild when using the organizational influence system). If the guild agent leaves his guild, he loses all of the abilities granted by this archetype and does not gain their replacements. If he joins a new guild, the guild agent regains his abilities, though depending on how he joins the guild, he may regain his abilities all at once or gradually over time. Even if the guild in question operates in multiple locations, the guild agent chooses a settlement as a base of operations for his own activities.",
 			"",
-			"**Guild Connections (Ex):** At 2nd level, a guild agent gains the black market connections rogue talent. Furthermore, he can ask his guild for tips about the local scene, granting him a bonus equal to half his rogue level on Knowledge (local) checks and Diplomacy checks to gather information, as long as the information in question pertains to the guild agent's base of operations.",
+			"**Guild Connections (Ex):** At 2nd level, a guild agent gains the {talent/black market connections} rogue talent. Furthermore, he can ask his guild for tips about the local scene, granting him a bonus equal to half his rogue level on Knowledge (local) checks and Diplomacy checks to gather information, as long as the information in question pertains to the guild agent's base of operations.",
 			"",
-			"At 4th level, the guild agent also gains the gossip collector vigilante social talent and his base of operations counts as his area of renown for the purpose of determining the effects of gossip collector.",
+			"At 4th level, the guild agent also gains the {socialtalent/gossip collector} vigilante social talent and his base of operations counts as his area of renown for the purpose of determining the effects of gossip collector.",
 			"",
 			"This ability replaces evasion and uncanny dodge.",
 			"",
@@ -720,13 +720,13 @@
 			"",
 			"This ability replaces improved evasion.",
 			"",
-			"**Criminal Mastermind (Ex):** At 20th level, except in an unusually powerful guild, a guild agent has become the true power behind the guild. The guild agent has built up a nearly worldwide reputation under a particular criminal epithet (such as \"The Silver Shadow\"), known by criminals and law enforcement officers everywhere. This works like the renown vigilante social talent except as follows. It applies in all towns and cities on the same continent as the guild agent's base of operations, without requiring him to select a particular settlement. He has only one identity, and only other criminals and members of the underworld treat their attitudes toward the guild agent as one step closer to helpful at all times (rather than while only in his social identity), while the bonus on Intimidate checks applies against everyone at all times (rather than while only in his vigilante identity).",
+			"**Criminal Mastermind (Ex):** At 20th level, except in an unusually powerful guild, a guild agent has become the true power behind the guild. The guild agent has built up a nearly worldwide reputation under a particular criminal epithet (such as \"The Silver Shadow\"), known by criminals and law enforcement officers everywhere. This works like the {socialtalent/renown} vigilante social talent except as follows. It applies in all towns and cities on the same continent as the guild agent's base of operations, without requiring him to select a particular settlement. He has only one identity, and only other criminals and members of the underworld treat their attitudes toward the guild agent as one step closer to helpful at all times (rather than while only in his social identity), while the bonus on Intimidate checks applies against everyone at all times (rather than while only in his vigilante identity).",
 			"",
 			"This ability replaces master strike.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the guild agent archetype: assault leader (*Ally-Related Talents* group); getaway artist (*Other Talents* group); certainty (*Other Talents* group - unchained rogue only).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the guild agent archetype: {talent/assault leader} (*Ally-Related Talents* group); {talent/getaway artist} (*Other Talents* group); {talent/certainty} (*Other Talents* group - unchained rogue only).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the guild agent archetype: hunter's surprise, opportunist (*Combat Talents* group); getaway master, rumormonger, skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the guild agent archetype: {talent/hunter's surprise}, {talent/opportunist} (*Combat Talents* group); {talent/getaway master}, {talent/rumormonger}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"gun_smuggler": {
@@ -738,7 +738,7 @@
 			"{SOURCE People of the Wastes/13}  ",
 			"Alkenstar protects the secrets of gunpowder and controls the sale of firearms, creating lucrative opportunities for those who can sneak the technology beyond the Mana Wastes. Gun smugglers are adept at procuring firearms and concealing their secret weapons.",
 			"",
-			"**Weapon Proficiency:** A gun smuggler is proficient with all simple weapons and one-handed firearms, plus the rapier, sap, short sword, and sword cane.",
+			"**Weapon Proficiency:** A gun smuggler is proficient with all simple weapons and one-handed firearms, plus the {eq-weapon/rapier}, {eq-weapon/sap}, {eq-weapon/short sword}, and {eq-weapon/sword cane}.",
 			"",
 			"This replaces the rogue's weapon proficiencies.",
 			"",
@@ -746,15 +746,15 @@
 			"",
 			"This replaces trapfinding.",
 			"",
-			"**Secret Sidearm (Ex):** As an expert in discreet and easily concealable weapons and firearms, a gun smuggler gains a battered gun identical to that gained by a 1st-level gunslinger and {feat/Gunsmithing} as a bonus feat (including the ability to restore her battered gun as if she were a gunslinger), though she must select a coat pistol, dagger pistol, or sword cane pistol as her battered weapon.",
+			"**Secret Sidearm (Ex):** As an expert in discreet and easily concealable weapons and firearms, a gun smuggler gains a battered gun identical to that gained by a 1st-level {class/gunslinger} and {feat/Gunsmithing} as a bonus feat (including the ability to restore her battered gun as if she were a gunslinger), though she must select a {eq-weapon/coat pistol}, {eq-weapon/dagger pistol}, or {eq-weapon/sword cane pistol} as her battered weapon.",
 			"",
 			"**Selective Targeting (Ex):** A gun smuggler focuses on concealable firearms for her sneak attacks. When she makes a sneak attack using any weapon other than a coat pistol, dagger pistol, or sword cane pistol (either firing the weapon or making a melee attack), her sneak attack damage dice are d4s instead of d6s.",
 			"",
 			"This alters sneak attack.",
 			"",
-			"**Stolen Shots (Ex):** At 3rd level, a gun smuggler can access small quantities of cutting-edge firearm technology through clandestine dealers. She gains the benefits of the black market connections rogue talent, though only for the purpose of securing firearms and related equipment. At the beginning of each day, the gun smuggler gains a number of bullets (with accompanying black powder) or paper cartridges - referred to as shots - in any combination equal to her rogue level, representing ammunition smuggled to her by contacts. Her contacts provide only enough shots to replenish this small supply, so she can't accumulate ammunition indefinitely, and these shots have a market price of 0 gp.",
+			"**Stolen Shots (Ex):** At 3rd level, a gun smuggler can access small quantities of cutting-edge firearm technology through clandestine dealers. She gains the benefits of the {talent/black market connections} rogue talent, though only for the purpose of securing firearms and related equipment. At the beginning of each day, the gun smuggler gains a number of bullets (with accompanying black powder) or paper cartridges - referred to as shots - in any combination equal to her rogue level, representing ammunition smuggled to her by contacts. Her contacts provide only enough shots to replenish this small supply, so she can't accumulate ammunition indefinitely, and these shots have a market price of 0 gp.",
 			"",
-			"At 6th level, the gun smuggler can elect to gain one or more pieces of magic ammunition, though each one replaces a number of her daily shots equal to the ammunition's enhancement bonus (maximum enhancement bonus of +2 for any one piece of ammunition). She can choose to add any of the following weapon special abilities to the shot, though the shot must have at least a +1 enhancement bonus, and these special abilities use an amount of bonus equal to the ability's normal price: distance, flaming, flaming burst, merciful, seeking, or thundering. At 9th level and every 3 rogue levels thereafter, the maximum enhancement bonus of a gun smuggler's shots increases by 1 (to a maximum of +6 at 18th level).",
+			"At 6th level, the gun smuggler can elect to gain one or more pieces of magic ammunition, though each one replaces a number of her daily shots equal to the ammunition's enhancement bonus (maximum enhancement bonus of +2 for any one piece of ammunition). She can choose to add any of the following weapon special abilities to the shot, though the shot must have at least a +1 enhancement bonus, and these special abilities use an amount of bonus equal to the ability's normal price: {magic-enh/distance}, {magic-enh/flaming}, {magic-enh/flaming burst}, {magic-enh/merciful}, {magic-enh/seeking}, or {magic-enh/thundering}. At 9th level and every 3 rogue levels thereafter, the maximum enhancement bonus of a gun smuggler's shots increases by 1 (to a maximum of +6 at 18th level).",
 			"",
 			"This replaces trap sense and the rogue talent gained at 6th level.",
 			"",
@@ -772,7 +772,7 @@
 			"{SOURCE Ultimate Intrigue/45}  ",
 			"Notorious for their stealth, imagination, and elaborately planned thefts and capers, heisters specialize in breaking into secure locations, stealing items of value, and escaping undetected. Heisters often work as members of or independent operatives contracted to criminal organizations, crime families, or wealthy individuals inclined to unlawful activity.",
 			"",
-			"**Rum Dubber (Ex):** At 2nd level, whenever a heister attempts to open a lock without a set of thieves' tools, the DC increases by 2, instead of 10.",
+			"**Rum Dubber (Ex):** At 2nd level, whenever a heister attempts to open a lock without a set of {eq-misc/thieves' tools}, the DC increases by 2, instead of 10.",
 			"",
 			"This ability replaces the rogue talent gained at 2nd level.",
 			"",
@@ -780,13 +780,13 @@
 			"",
 			"This ability replaces uncanny dodge and the rogue talent gained at 4th level.",
 			"",
-			"**Unseen (Ex):** At 8th level, a heister masters hiding in underground and urban terrain. She can use the Stealth skill to hide in underground and urban terrain, even while being observed. She also gains the terrain mastery rogue talent twice, once each for underground and urban terrain.",
+			"**Unseen (Ex):** At 8th level, a heister masters hiding in underground and urban terrain. She can use the Stealth skill to hide in underground and urban terrain, even while being observed. She also gains the {talent/terrain mastery} rogue talent twice, once each for underground and urban terrain.",
 			"",
 			"This ability replaces improved uncanny dodge and the rogue talent gained at 8th level.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the heister archetype: fast getaway (*Other Sneak Attack Talents* group); fast picks, quick disable (*Disable Device Talents* group); fast stealth (*Deception Talents* group); expert leaper, getaway artist, ledge walker (*Other Talents* group); certainty (*Other Talents* group - unchained rogue only).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the heister archetype: {talent/fast getaway} (*Other Sneak Attack Talents* group); {talent/fast picks}, {talent/quick disable} (*Disable Device Talents* group); {talent/fast stealth} (*Deception Talents* group); {talent/expert leaper}, {talent/getaway artist}, {talent/ledge walker} (*Other Talents* group); {talent/certainty} (*Other Talents* group - unchained rogue only).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the heister archetype: fast tumble (*Combat Talents* group), hidden mind (*Magical Talents* group); cutting edge (unchained rogue only), getaway master, skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the heister archetype: {talent/fast tumble} (*Combat Talents* group), {talent/hidden mind} (*Magical Talents* group); {talent/cutting edge} (unchained rogue only), {talent/getaway master}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"investigator": {
@@ -800,9 +800,9 @@
 			"",
 			"**Follow Up (Ex):** An investigator can roll twice on any Diplomacy check made to gather information, and receives the information for both results. This takes the same amount of time as one check. If the lesser of the two checks reveals false information, the rogue is aware of it. False information is not revealed in this way if the people she questioned do not know it to be false. This ability replaces trapfinding.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the investigator archetype: minor magic (*Spellcasting Talents* group); fast picks (*Disable Device Talents* group); coax information (*Deception Talents* group); follow clues, hard to fool (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the investigator archetype: {talent/minor magic} (*Spellcasting Talents* group); {talent/fast picks} (*Disable Device Talents* group); {talent/coax information} (*Deception Talents* group); {talent/follow clues}, {talent/hard to fool} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the investigator archetype: slippery mind (*Magical Talents* group); hunter's surprise (*Combat Talents* group); thoughtful reexamining (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the investigator archetype: {talent/slippery mind} (*Magical Talents* group); {talent/hunter's surprise} (*Combat Talents* group); {talent/thoughtful reexamining} (*Other Talents* group)."
 		]
 	},
 	"kintargo_rebel": {
@@ -816,11 +816,11 @@
 			"",
 			"**Sophisticated Stealth (Ex):** At 3rd level, a Kintargo rebel gains a +1 bonus on Knowledge (nobility) checks. In addition, she gains a +1 bonus on Bluff checks to convey a secret message and on Sense Motive checks to discern secret messages. These bonuses increase by 1 every 3 rogue levels thereafter. This ability replaces trap sense.",
 			"",
-			"**Misdirection (Sp):** At 4th level, a Kintargo rebel gains the ability to cast misdirection on herself once per day, though instead of choosing an object for the second target, she must choose a creature in range. The caster level for this ability is equal to her class level, and the save DC for this spell is 12 + the Kintargo rebel's Intelligence modifier. The save DC of this ability increases by 1 if the secondary target is lawful or evil. This ability replaces uncanny dodge.",
+			"**Misdirection (Sp):** At 4th level, a Kintargo rebel gains the ability to cast {spell/misdirection} on herself once per day, though instead of choosing an object for the second target, she must choose a creature in range. The caster level for this ability is equal to her class level, and the save DC for this spell is 12 + the Kintargo rebel's Intelligence modifier. The save DC of this ability increases by 1 if the secondary target is lawful or evil. This ability replaces uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the Kintargo rebel archetype: fast getaway (*Other Sneak Attack Talents* group); canny observer (*Trap Talents* group); charmer, false friend, honeyed words, obfuscate story, quick disguise (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the Kintargo rebel archetype: {talent/fast getaway} (*Other Sneak Attack Talents* group); {talent/canny observer} (*Trap Talents* group); {talent/charmer}, {talent/false friend}, {talent/honeyed words}, {talent/obfuscate story}, {talent/quick disguise} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the Kintargo rebel archetype: slippery mind (*Magical Talents* group); hard minded (*Combat Talents* group); master of disguise, skill mastery, thoughtful reexamining (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the Kintargo rebel archetype: {talent/slippery mind} (*Magical Talents* group); {talent/hard minded} (*Combat Talents* group); {talent/master of disguise}, {talent/skill mastery}, {talent/thoughtful reexamining} (*Other Talents* group)."
 		]
 	},
 	"kitsune_trickster": {
@@ -830,15 +830,15 @@
 			"## Kitsune Trickster",
 			"",
 			"{SOURCE Advanced Race Guide/192}  ",
-			"The kitsune trickster combines her sharpened wit with minor arcane powers of charm and persuasion. She uses her talents to spin convincing lies, riddles, and stories. A trickster has the following class features.",
+			"The {race/kitsune} trickster combines her sharpened wit with minor arcane powers of charm and persuasion. She uses her talents to spin convincing lies, riddles, and stories. A trickster has the following class features.",
 			"",
 			"**Kitsune's Guile (Ex):** At 1st level, a trickster relies on her intellect as much as her personality. She adds her Intelligence modifier on Bluff, Diplomacy, Disguise, and Sense Motive checks. This ability replaces trapfinding.",
 			"",
 			"**Kitsune's Charm (Sp):** At 3rd level, a kitsune trickster can use {spell/charm person} once per day as a spell-like ability (caster level equal to her rogue level - 2). At 6th level, and every three levels thereafter, the kitsune trickster gains an additional daily use of this ability. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the kitsune trickster archetype: major magic, minor magic (*Spellcasting Talents* group); false friend, obfuscate story, steal the story, charmer, coax information, honeyed words, convincing lie (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the kitsune trickster archetype: {talent/major magic}, {talent/minor magic} (*Spellcasting Talents* group); {talent/false friend}, {talent/obfuscate story}, {talent/steal the story}, {talent/charmer}, {talent/coax information}, {talent/honeyed words}, {talent/convincing lie} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the kitsune trickster archetype: slippery mind (*Magical Talents* group); skill mastery, master of disguise, rumormonger (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the kitsune trickster archetype: {talent/slippery mind} (*Magical Talents* group); {talent/skill mastery}, {talent/master of disguise}, {talent/rumormonger} (*Other Talents* group)."
 		]
 	},
 	"knife_master": {
@@ -852,13 +852,13 @@
 			"",
 			"**Hidden Blade:** A knife master adds 1/2 her level on Sleight of Hand checks made to conceal a light blade. This ability replaces trapfinding.",
 			"",
-			"**Sneak Stab (Ex):** A knife master focuses her ability to deal sneak attack damage with daggers and similar weapons to such a degree that she can deal more sneak attack damage with those weapons at the expense of sneak attacks with other weapons. When she makes a sneak attack with a dagger, kerambit, kukri, punching daggers, starknife, or swordbreaker dagger, she uses d8s to roll sneak attack damage instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s. This ability is identical in all other ways to sneak attack, and supplements that ability.",
+			"**Sneak Stab (Ex):** A knife master focuses her ability to deal sneak attack damage with daggers and similar weapons to such a degree that she can deal more sneak attack damage with those weapons at the expense of sneak attacks with other weapons. When she makes a sneak attack with a {eq-weapon/dagger}, {eq-weapon/kerambit}, {eq-weapon/kukri}, {eq-weapon/punching dagger/s}, {eq-weapon/starknife}, or {eq-weapon/swordbreaker dagger}, she uses d8s to roll sneak attack damage instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s. This ability is identical in all other ways to sneak attack, and supplements that ability.",
 			"",
 			"**Blade Sense (Ex):** At 3rd level, a knife master is so skilled in combat involving light blades that she gains a +1 dodge bonus to AC against attacks made against her with light blades. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the knife master archetype: befuddling strike, offensive defense, underhanded (*Primary Sneak Attack Talents* group); surprise attack (*Other Sneak Attack Talents* group); combat trick, weapon training (*Combat Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the knife master archetype: {talent/befuddling strike}, {talent/offensive defense}, {talent/underhanded} (*Primary Sneak Attack Talents* group); {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/combat trick}, {talent/weapon training} (*Combat Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the knife master archetype: confounding blades, deadly sneak, entanglement of blades (*Primary Sneak Attack Talents* group); another day, unwitting ally (*Combat Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the knife master archetype: {talent/confounding blades}, {talent/deadly sneak}, {talent/entanglement of blades} (*Primary Sneak Attack Talents* group); {talent/another day}, {talent/unwitting ally} (*Combat Talents* group)."
 		]
 	},
 	"makeshift_scrapper": {
@@ -878,9 +878,9 @@
 			"",
 			"**Improvised Weapon Mastery (Ex):** At 12th level, the makeshift scrapper gains {feat/Improvised Weapon Mastery} as a bonus feat. This ability replaces the rogue talent gained at 12th level.",
 			"",
-			"**Rogue Talents/Ninja Tricks:** The following {ability/rogue talents} complement the makeshift scrapper archetype: offensive defense (*Primary Sneak Attack Talents* group); fast getaway and surprise attack (*Other Sneak Attack Talents* group); expert leaper, ki pool, ninja trick [acrobatic master - *Ki Tricks* group], peerless maneuver (*Other Talents* group).",
+			"**Rogue Talents/Ninja Tricks:** The following {ability/rogue talents} complement the makeshift scrapper archetype: {talent/offensive defense} (*Primary Sneak Attack Talents* group); {talent/fast getaway} and {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/expert leaper}, {talent/ki pool}, {talent/ninja trick} [{ninjatrick/acrobatic master} - *Ki Tricks* group], {talent/peerless maneuver} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the makeshift scrapper archetype: another day, defensive roll, opportunist (*Combat Talents* group); getaway master (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the makeshift scrapper archetype: {talent/another day}, {talent/defensive roll}, {talent/opportunist} (*Combat Talents* group); {talent/getaway master} (*Other Talents* group)."
 		]
 	},
 	"master_of_disguise": {
@@ -892,17 +892,17 @@
 			"{SOURCE Ultimate Intrigue/46}  ",
 			"A master of disguise feels no need to advertise her skills to build a reputation. Instead, she believes that never letting her adversaries know her true identity protects her from bad luck or missteps on a job.",
 			"",
-			"**Consummate Actor (Ex):** A master of disguise adds half her rogue level (minimum 1) on all Disguise checks and on Bluff checks to stay in character while using Disguise. At 2nd level, she gains the quick disguise rogue talent, and she can create a disguise twice as quickly as normal even for that rogue talent (she can create a disguise that encompasses only minor details as a standard action).",
+			"**Consummate Actor (Ex):** A master of disguise adds half her rogue level (minimum 1) on all Disguise checks and on Bluff checks to stay in character while using Disguise. At 2nd level, she gains the {talent/quick disguise} rogue talent, and she can create a disguise twice as quickly as normal even for that rogue talent (she can create a disguise that encompasses only minor details as a standard action).",
 			"",
 			"This ability replaces trapfinding and the rogue talent gained at 2nd level.",
 			"",
-			"**Grandmaster of Disguise (Ex):** At 10th level, a master of disguise gains the master of disguise advanced rogue talent and can use it an unlimited number of times per day. Because she must still don a physical disguise to gain this bonus, it doesn't stack with the bonuses from spells like alter self and disguise self, but since it is completely nonmagical, it is more reliable when scrutinized under magical detection.",
+			"**Grandmaster of Disguise (Ex):** At 10th level, a master of disguise gains the {talent/master of disguise} advanced rogue talent and can use it an unlimited number of times per day. Because she must still don a physical disguise to gain this bonus, it doesn't stack with the bonuses from spells like alter self and disguise self, but since it is completely nonmagical, it is more reliable when scrutinized under magical detection.",
 			"",
 			"This ability replaces the rogue talent gained at 10th level.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the master of disguise archetype: major magic, minor magic (*Spellcasting Talents* group); shades of gray (*Other Magic-Related Talents* group); camouflage, false friend, obfuscate story, steal the story (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the master of disguise archetype: {talent/major magic}, {talent/minor magic} (*Spellcasting Talents* group); {talent/shades of gray} (*Other Magic-Related Talents* group); {talent/camouflage}, {talent/false friend}, {talent/obfuscate story}, {talent/steal the story} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the master of disguise archetype: hidden mind, slippery mind (*Magical Talents* group); hard minded, unwitting ally (*Combat Talents* group); skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the master of disguise archetype: {talent/hidden mind}, {talent/slippery mind} (*Magical Talents* group); {talent/hard minded}, {talent/unwitting ally} (*Combat Talents* group); {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"nameless_shadow": {
@@ -914,7 +914,7 @@
 			"{SOURCE Merchant's Manifest/30}  ",
 			"Where bandits and tyrants prey on merchants and caravans, the nameless shadow preys on bandits and tyrants. Posing as mundane merchants or other harmless travelers, these assassins can hide both within darkness and in the anonymity of a seemingly unimportant crowd. This archetype is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.",
 			"",
-			"**Harmless Guise (Ex):** A nameless shadow gains the dual identity and seamless guise vigilante class features, with the following restrictions. Her social identity must be that of a mundane and non-threatening member of society, such as a farmer or a merchant. At 6th level, the nameless shadow gains the many guises vigilante social talent. At 8th level, the nameless shadow gains the quick change vigilante social talent. At 14th level, the nameless shadow gains the everyman vigilante social talent. At 18th level, the nameless shadow gains the any guise vigilante social talent.",
+			"**Harmless Guise (Ex):** A nameless shadow gains the dual identity and seamless guise {class/vigilante} class features, with the following restrictions. Her social identity must be that of a mundane and non-threatening member of society, such as a farmer or a merchant. At 6th level, the nameless shadow gains the {socialtalent/many guises} vigilante social talent. At 8th level, the nameless shadow gains the {socialtalent/quick change} vigilante social talent. At 14th level, the nameless shadow gains the {socialtalent/everyman} vigilante social talent. At 18th level, the nameless shadow gains the {socialtalent/any guise} vigilante social talent.",
 			"",
 			"Additionally, when a nameless shadow attacks a foe while in a social or mundane identity, her target takes a -2 penalty to AC for the purpose of resolving that attack. This use of harmless guise forces the nameless shadow into her vigilante identity after the attack is completed, and the target (if it survives) then becomes aware of the nameless shadow's secret. This ability cannot be used on targets that are aware of the nameless shadow's dual identity.",
 			"",
@@ -942,7 +942,7 @@
 			"",
 			"This replaces uncanny dodge.",
 			"",
-			"**Needle Poisoner (Ex):** At 6th level, a needler can apply a dose of poison to a weapon as a swift action. This ability counts as swift poisoning for the purpose of meeting prerequisites.",
+			"**Needle Poisoner (Ex):** At 6th level, a needler can apply a dose of poison to a weapon as a swift action. This ability counts as *swift poisoning* for the purpose of meeting prerequisites.",
 			"",
 			"This replaces the rogue talent gained at 6th level.",
 			"",
@@ -982,9 +982,9 @@
 			"",
 			"**Catch Off-Guard (Ex):** At 4th level, the Okeno liberator is adept at improvising weapons. She gains {feat/Catch Off-Guard} as a bonus feat. This ability replaces uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the Okeno liberator archetype: slow reactions, underhanded (*Primary Sneak Attack Talents* group); deft palm (*Combat Talents* group); fast picks (*Disable Device Talents* group); fast stealth, quick disguise (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the Okeno liberator archetype: {talent/slow reactions}, {talent/underhanded} (*Primary Sneak Attack Talents* group); {talent/deft palm} (*Combat Talents* group); {talent/fast picks} (*Disable Device Talents* group); {talent/fast stealth}, {talent/quick disguise} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the Okeno liberator archetype: defensive roll, fast tumble, knock-out blow, weapon snatcher (*Combat Talents* group); skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the Okeno liberator archetype: {talent/defensive roll}, {talent/fast tumble}, {talent/knock-out blow}, {talent/weapon snatcher} (*Combat Talents* group); {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"phantom_thief": {
@@ -1000,7 +1000,7 @@
 			"",
 			"This ability alters the rogue's class skills and replaces sneak attack and trapfinding. For an unchained rogue, it also alters rogue's edge and replaces debilitating injury.",
 			"",
-			"**Broad Education (Ex):** A phantom thief's broad studies with expensive tutors keep her up to speed in both martial and magical knowledge, as well as in her skills. She can select the combat trick, minor magic, and major magic rogue talents as many times as she likes, and she can select the {feat/Skill Focus} feat as a rogue talent, also as many times as she likes. Finally, she can select a vigilante social talent instead of a rogue talent, except for social grace and vigilante social talents that would require her to be a craftsman or professional. For the purpose of vigilante social talents, a phantom thief does not have a vigilante identity and is always considered to be in her social identity.",
+			"**Broad Education (Ex):** A phantom thief's broad studies with expensive tutors keep her up to speed in both martial and magical knowledge, as well as in her skills. She can select the {talent/combat trick}, {talent/minor magic}, and {talent/major magic} rogue talents as many times as she likes, and she can select the {feat/Skill Focus} feat as a rogue talent, also as many times as she likes. Finally, she can select a vigilante {ability/social talent>s} instead of a rogue talent, except for social grace and vigilante social talents that would require her to be a craftsman or professional. For the purpose of vigilante social talents, a phantom thief does not have a vigilante identity and is always considered to be in her social identity.",
 			"",
 			"This ability alters rogue talent.",
 			"",
@@ -1012,9 +1012,9 @@
 			"",
 			"This ability replaces master strike.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the phantom thief archetype: major magic, minor magic (*Spellcasting Talents* group); combat trick (*Combat Talents* group); certainty (*Other Talents* group - unchained rogue only).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the phantom thief archetype: major magic, minor magic (*Spellcasting Talents* group); combat trick (*Combat Talents* group); {talent/certainty} (*Other Talents* group - unchained rogue only).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the phantom thief archetype: hidden mind (*Magical Talents* group), cutting edge (unchained rogue only), feat, rumormonger, and skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the phantom thief archetype: {talent/hidden mind} (*Magical Talents* group), {talent/cutting edge} (unchained rogue only), {talent/feat}, {talent/rumormonger}, and {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"pirate": {
@@ -1032,9 +1032,9 @@
 			"",
 			"**Unflinching (Ex):** Pirates are a salty and steadfast lot. At 3rd level, a pirate gains a +1 bonus on saving throws against fear and mind-affecting effects. This bonus increases by +1 for every three levels, to a maximum of +6 at 18th level. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the pirate archetype: black market connections (*Other Magic-Related Talents* group); combat trick, finesse rogue, firearm training (*Combat Talents* group); hold breath, rope master, strong stroke (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the pirate archetype: {talent/black market connections} (*Other Magic-Related Talents* group); {talent/combat trick}, {talent/finesse rogue}, {talent/firearm training} (*Combat Talents* group); {talent/hold breath}, {talent/rope master}, {talent/strong stroke} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the pirate archetype: hard minded, unwitting ally (*Combat Talents* group); getaway master (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the pirate archetype: {talent/hard minded}, {talent/unwitting ally} (*Combat Talents* group); {talent/getaway master} (*Other Talents* group)."
 		]
 	},
 	"planar_sneak": {
@@ -1054,9 +1054,9 @@
 			"",
 			"This ability replaces uncanny dodge and improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the planar sneak archetype: terrain mastery (*Deception Talents* group); guileful polyglot, strong stroke (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the planar sneak archetype: {talent/terrain mastery} (*Deception Talents* group); {talent/guileful polyglot}, {talent/strong stroke} (*Other Talents* group).",
 			"",
-			"**Advanced Rogue Talents:** The following {ability/advanced rogue talents} complement this archetype: defensive roll (*Combat Talents* group); hide in plain sight, skill mastery (*Other Talents* group)."
+			"**Advanced Rogue Talents:** The following {ability/advanced rogue talents} complement this archetype: {talent/defensive roll} (*Combat Talents* group); {talent/hide in plain sight}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"poisoner": {
@@ -1072,9 +1072,9 @@
 			"",
 			"**Master Poisoner (Ex):** At 3rd level, a poisoner can use Craft (alchemy) to change the type of a poison. This requires 1 hour of work with an alchemist's lab and a Craft (alchemy) skill check with a DC equal to the poison's DC. If successful, the poison's type changes to contact, ingested, inhaled, or injury. If the check fails, the poison is ruined. The poisoner also receives a bonus on Craft (alchemy) skill checks when working with poison equal to 1/2 her rogue level. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the poisoner archetype: distracting attack (*Primary Sneak Attack Talents* group); surprise attack (*Other Sneak Attack Talents* group); lasting poison, swift poison (*Poison Talents* group); weapon training (*Combat Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the poisoner archetype: {talent/distracting attack} (*Primary Sneak Attack Talents* group); {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/lasting poison}, {talent/swift poison} (*Poison Talents* group); {talent/weapon training} (*Combat Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the poisoner archetype: deadly cocktail, hunter's surprise, opportunist (*Combat Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the poisoner archetype: {talent/deadly cocktail}, {talent/hunter's surprise}, {talent/opportunist} (*Combat Talents* group)."
 		]
 	},
 	"rake": {
@@ -1090,9 +1090,9 @@
 			"",
 			"**Rake's Smile (Ex):** At 3rd level, a rake gains a +1 morale bonus on Bluff and Diplomacy checks. This bonus increases by +1 for every 3 levels beyond 3rd. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the rake archetype: befuddling strike (*Primary Sneak Attack Talents* group); surprise attack (*Other Sneak Attack Talents* group); charmer, honeyed words (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the rake archetype: {talent/befuddling strike} (*Primary Sneak Attack Talents* group); {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/charmer}, {talent/honeyed words} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the rake archetype: another day, redirect attack (*Combat Talents* group); skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the rake archetype: {talent/another day}, {talent/redirect attack} (*Combat Talents* group); {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"relic_raider": {
@@ -1143,9 +1143,9 @@
 			"",
 			"This replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the river rat archetype: rogue crawl, stand up (*Combat Talents* group); camouflage (*Deception Talents* group); hold breath, strong stroke, survivalist (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the river rat archetype: {talent/rogue crawl}, {talent/stand up} (*Combat Talents* group); {talent/camouflage} (*Deception Talents* group); {talent/hold breath}, {talent/strong stroke}, {talent/survivalist} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the river rat archetype: opportunist, stealthy sniper (*Combat Talents* group); hide in plain sight, skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the river rat archetype: {talent/opportunist}, {talent/stealthy sniper} (*Combat Talents* group); {talent/hide in plain sight}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"roof_runner": {
@@ -1161,9 +1161,9 @@
 			"",
 			"**Tumbling Descent (Ex):** At 2nd level, a roof runner can use her acrobatics skill to attempt a rapid descent from a rooftop or another surface, ricocheting against another surface and then diving through an opening (such as a balcony or window) directly below. So long as she has at least two surfaces no farther than 10 feet apart to bounce against, she can ricochet her body back from one to the next, descending great distances with a single check. The DC is 10 + 5 for every additional 10-foot increment descended beyond the initial 10 feet dropped. If she fails, she falls the full distance. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the roof runner archetype: stand up (*Combat Talents* group); terrain mastery (*Deception Talents* group); expert leaper, ledge walker, nimble climber (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the roof runner archetype: {talent/stand up} (*Combat Talents* group); {talent/terrain mastery} (*Deception Talents* group); {talent/expert leaper}, {talent/ledge walker}, {talent/nimble climber} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talent>s} complements the roof runner archetype: fast tumble (*Combat Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talent>s} complements the roof runner archetype: {talent/fast tumble} (*Combat Talents* group)."
 		]
 	},
 	"rotdrinker": {
@@ -1185,7 +1185,7 @@
 			"",
 			"Additionally, the rotdrinker gains benefits from the ingested poisons that she ingests depending on the poison's details, as explained below. A rotdrinker can gain hit points and additional benefits from only one ingested poison at a time. If she ingests another poison while she has temporary hit points and additional benefits from another poison, the previous temporary hit points and benefits are lost. At 8th level, the temporary hit points and additional benefits last for a number of minutes equal to the rotdrinker's rogue level.",
 			"",
-			"Ingested poisons provide an alchemical bonus equal to the number of consecutive saving throws required to cure the poison (for example, lich dust provides a +2 bonus). An ingested poison that affects Strength, Dexterity, or Constitution grants this bonus on the rotdrinker's damage rolls and Fortitude saving throws. An ingested poison that affects Intelligence, Wisdom, or Charisma instead grants this bonus on the rotdrinker's attack rolls and Will saving throws. An ingested poison that does not affect any ability scores (such as oil of taggit) grants this bonus to the rotdrinker's AC. If an ingested poison falls into more than one of these categories, the rotdrinker chooses which benefit she receives at the time of ingestion.",
+			"Ingested poisons provide an alchemical bonus equal to the number of consecutive saving throws required to cure the poison (for example, lich dust provides a +2 bonus). An ingested poison that affects Strength, Dexterity, or Constitution grants this bonus on the rotdrinker's damage rolls and Fortitude saving throws. An ingested poison that affects Intelligence, Wisdom, or Charisma instead grants this bonus on the rotdrinker's attack rolls and Will saving throws. An ingested poison that does not affect any ability scores (such as {eq-poison/oil of taggit}) grants this bonus to the rotdrinker's AC. If an ingested poison falls into more than one of these categories, the rotdrinker chooses which benefit she receives at the time of ingestion.",
 			"",
 			"This replaces improved uncanny dodge and uncanny dodge."
 		]
@@ -1201,11 +1201,11 @@
 			"",
 			"**Divine Purpose (Su):** At 4th level, the favor of a deity or religious institution grants a special blessing on a sanctified rogue, shoring up some of her weaknesses. She gains a +1 sacred bonus on Fortitude and Will saving throws. This ability replaces uncanny dodge.",
 			"",
-			"**Divine Epiphany (Su):** At 8th level, once per day, a sanctified rogue can peer into the immediate future and predict the results of a specific action as if she had cast an augury spell. The caster level of this spell is equal to the sanctified rogue's rogue class level. This ability replaces improved uncanny dodge.",
+			"**Divine Epiphany (Su):** At 8th level, once per day, a sanctified rogue can peer into the immediate future and predict the results of a specific action as if she had cast an {spell/augury} spell. The caster level of this spell is equal to the sanctified rogue's rogue class level. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the sanctified rogue archetype: major magic, minor magic (*Spellcasting Talents* group); esoteric scholar (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the sanctified rogue archetype: {talent/major magic}, {talent/minor magic} (*Spellcasting Talents* group); {talent/esoteric scholar} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the sanctified rogue archetype: feat, skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the sanctified rogue archetype: {talent/feat}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"sapper": {
@@ -1237,9 +1237,9 @@
 			"",
 			"**Skirmisher (Ex):** At 8th level, whenever a scout moves more than 10 feet in a round and makes an attack action, the attack deals sneak attack damage as if the target was flat-footed. If the scout makes more than one attack this turn, this ability only applies to the first attack. Foes with uncanny dodge are immune to this ability. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the scout archetype: assault leader (*Ally-Related Talents* group); cunning trigger, trap spotter (*Trap Talents* group); camouflage (*Deception Talents* group); survivalist (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the scout archetype: {talent/assault leader} (*Ally-Related Talents* group); {talent/cunning trigger}, {talent/trap spotter} (*Trap Talents* group); {talent/camouflage} (*Deception Talents* group); {talent/survivalist} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the scout archetype: hunter's surprise, stealthy sniper (*Combat Talents* group); skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the scout archetype: {talent/hunter's surprise}, {talent/stealthy sniper} (*Combat Talents* group); {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"scroll_scoundrel": {
@@ -1281,9 +1281,9 @@
 			"",
 			"**Cheat Fate (Ex):** At 8th level, once per day, the Sczarni swindler can reroll any one d20 roll she has just made before the GM has revealed the result. She must take the result of the second roll, even if it is worse. The swindler can use this ability twice per day at 14th level, and three times per day at 20th. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the Sczarni swindler archetype: major magic, minor magic (*Spellcasting Talents* group); canny observer (*Trap Talents* group); fast fingers, honeyed words (*Deception Talents* group); hard to fool (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the Sczarni swindler archetype: {talent/major magic}, {talent/minor magic} (*Spellcasting Talents* group); {talent/canny observer} (*Trap Talents* group); {talent/fast fingers}, {talent/honeyed words} (*Deception Talents* group); {talent/hard to fool} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the Sczarni swindler archetype: slippery mind (*Magical Talents* group); master of disguise, skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the Sczarni swindler archetype: {talent/slippery mind} (*Magical Talents* group); {talent/master of disguise}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"seeker_of_the_lost": {
@@ -1307,9 +1307,9 @@
 			"",
 			"This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the seeker of the lost archetype: canny observer, trap spotter (*Trap Talents* group); terrain mastery [water] (*Deception Talents* group); strong stroke (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the seeker of the lost archetype: {talent/canny observer}, {talent/trap spotter} (*Trap Talents* group); {talent/terrain mastery} [water] (*Deception Talents* group); {talent/strong stroke} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the seeker of the lost archetype: dispelling attack (*Primary Sneak Attack Talents* group); defensive roll (*Combat Talents* group); hide in plain sight [water] (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the seeker of the lost archetype: {talent/dispelling attack} (*Primary Sneak Attack Talents* group); {talent/defensive roll} (*Combat Talents* group); {talent/hide in plain sight} [water] (*Other Talents* group)."
 		]
 	},
 	"shadow_scion": {
@@ -1333,7 +1333,7 @@
 			"",
 			"This ability replaces the rogue talent gained at 8th level.",
 			"",
-			"**Shadow Speaker (Sp):** At 14th level, a shadow scion can spend 1 minute meditating within a patch of dim light or darkness; at the end of the time, she can draw information from the shadows. This functions as commune with nature, except that it functions in any terrain to a radius of 100 feet per rogue level, and it cannot reveal information about any object or subject that is not currently in dim light or darkness. The shadow scion can use this ability once per day at 14th level and twice per day at 19th level.",
+			"**Shadow Speaker (Sp):** At 14th level, a shadow scion can spend 1 minute meditating within a patch of dim light or darkness; at the end of the time, she can draw information from the shadows. This functions as {spell/commune with nature}, except that it functions in any terrain to a radius of 100 feet per rogue level, and it cannot reveal information about any object or subject that is not currently in dim light or darkness. The shadow scion can use this ability once per day at 14th level and twice per day at 19th level.",
 			"",
 			"This ability replaces the rogue talent gained at 14th level.",
 			"",
@@ -1341,9 +1341,9 @@
 			"",
 			"This ability replaces master strike.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the shadow scion archetype: slow reactions, underhanded (*Primary Sneak Attack Talents* group); surprise attack (*Other Sneak Attack Talents* group); false friend, fast stealth (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the shadow scion archetype: {talent/slow reactions}, {talent/underhanded} (*Primary Sneak Attack Talents* group); {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/false friend}, {talent/fast stealth} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the shadow walker archetype: slippery mind (*Magical Talents* group); improved evasion, unwitting ally (*Combat Talents* group); hide in plain sight (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the shadow walker archetype: {talent/slippery mind} (*Magical Talents* group); {talent/improved evasion}, {talent/unwitting ally} (*Combat Talents* group); {talent/hide in plain sight} (*Other Talents* group)."
 		]
 	},
 	"shadow_walker": {
@@ -1359,7 +1359,7 @@
 			"",
 			"This ability replaces trapfinding.",
 			"",
-			"**Illumination Control (Sp):** At 3rd level, a shadow walker can manipulate nearby illumination. At the start of each day, a shadow walker gains a number of illumination points equal to half her rogue level and can spend illumination points to use certain spell-like abilities. As long as she has at least 1 illumination point, she can cast light at will. She can spend 2 illumination points to cast darkness, and 3 illumination points to cast daylight, deeper darkness, or motes of dusk and dawn. These spell-like abilities have a caster level equal to the shadow walker's rogue level. Using these spell-like abilities does not hamper the shadow walker's vision; for example, she can see through the deeper darkness she creates, and does not take penalties for light sensitivity in the area of her own daylight.",
+			"**Illumination Control (Sp):** At 3rd level, a shadow walker can manipulate nearby illumination. At the start of each day, a shadow walker gains a number of illumination points equal to half her rogue level and can spend illumination points to use certain spell-like abilities. As long as she has at least 1 illumination point, she can cast {spell/light} at will. She can spend 2 illumination points to cast {spell/darkness}, and 3 illumination points to cast {spell/daylight}, {spell/deeper darkness}, or {spell/motes of dusk and dawn}. These spell-like abilities have a caster level equal to the shadow walker's rogue level. Using these spell-like abilities does not hamper the shadow walker's vision; for example, she can see through the deeper darkness she creates, and does not take penalties for light sensitivity in the area of her own daylight.",
 			"",
 			"This ability replaces the rogue talent gained at 2nd level and trap sense.",
 			"",
@@ -1367,9 +1367,9 @@
 			"",
 			"This ability replaces the rogue's uncanny dodge and improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the shadow walker archetype: obscuring blow (*Primary Sneak Attack Talents* group); surprise attack (*Other Sneak Attack Talents* group); gloom magic, greater gloom magic (*Spellcasting Talents* group); umbral gear (*Other Magic-Related Talents* group); deft palm (*Combat Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the shadow walker archetype: {talent/obscuring blow} (*Primary Sneak Attack Talents* group); {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/gloom magic}, {talent/greater gloom magic} (*Spellcasting Talents* group); {talent/umbral gear} (*Other Magic-Related Talents* group); {talent/deft palm} (*Combat Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the shadow walker archetype: slippery mind (*Magical Talents* group); unwitting ally, weapon snatcher (*Combat Talents* group); hide in plain sight, see in darkness (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the shadow walker archetype: {talent/slippery mind} (*Magical Talents* group); {talent/unwitting ally}, {talent/weapon snatcher} (*Combat Talents* group); {talent/hide in plain sight}, {talent/see in darkness} (*Other Talents* group)."
 		]
 	},
 	"sharper": {
@@ -1397,9 +1397,9 @@
 			"",
 			"This ability replaces the rogue talents gained at 4th, 10th, and 16th levels.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the sharper archetype: follow along, shades of gray (*Other Magic-Related Talents* group); deft palm (*Combat Talents* group); charmer, convincing lie, false friend, fast fingers, honeyed words, obfuscate story, steal the story (*Deception Talents* group); certainty (*Other Talents* group - unchained rogue only).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the sharper archetype: {talent/follow along}, {talent/shades of gray} (*Other Magic-Related Talents* group); {talent/deft palm} (*Combat Talents* group); {talent/charmer}, {talent/convincing lie}, {talent/false friend}, {talent/fast fingers}, {talent/honeyed words}, {talent/obfuscate story}, {talent/steal the story} (*Deception Talents* group); {talent/certainty} (*Other Talents* group - unchained rogue only).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the sharper archetype: another day, defensive roll, improved evasion, redirect attack (*Combat Talents* group); hidden mind (*Magical Talents* group); cutting edge (unchained rogue only), skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the sharper archetype: {talent/another day}, {talent/defensive roll}, {talent/improved evasion}, {talent/redirect attack} (*Combat Talents* group); {talent/hidden mind} (*Magical Talents* group); {talent/cutting edge} (unchained rogue only), {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"skulking_slayer": {
@@ -1409,9 +1409,9 @@
 			"## Skulking Slayer",
 			"",
 			"{SOURCE Advanced Race Guide/55}  ",
-			"Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal activities that suit them best. Half-orc rogues leave subtle tactics and finesse to halflings and elves, and rely on brute strength and thuggery when they go about making mischief. Skulking slayers have turned the use of raw strength and surprise into an art form. A skulking slayer has the following class features.",
+			"Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal activities that suit them best. {race/Half-orc} rogues leave subtle tactics and finesse to halflings and elves, and rely on brute strength and thuggery when they go about making mischief. Skulking slayers have turned the use of raw strength and surprise into an art form. A skulking slayer has the following class features.",
 			"",
-			"**Weapon and Armor Proficiency:** The skulking slayer gains proficiency with greatclubs and whips, but loses proficiency with rapiers and hand crossbows.",
+			"**Weapon and Armor Proficiency:** The skulking slayer gains proficiency with {eq-weapon/greatclub/s} and {eq-weapon/whip/s}, but loses proficiency with rapiers and hand crossbows.",
 			"",
 			"**Class Skills:** The skulking slayer does not gain Disable Device, Linguistics, and Sleight of Hand as class skills.",
 			"",
@@ -1429,9 +1429,9 @@
 			"",
 			"**Unexpected Charge (Ex):** At 9th level, a skulking slayer can make a Bluff check to feint as a swift action before a charge. This ability replaces trap sense +3.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the skulking slayer archetype: powerful sneak (*Primary Sneak Attack Talents* group); surprise attack (*Other Sneak Attack Talents* group); combat trick, combat swipe (*Combat Talents* group); terrain mastery (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the skulking slayer archetype: {talent/powerful sneak} (*Primary Sneak Attack Talents* group); {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/combat trick}, {talent/combat swipe} (*Combat Talents* group); {talent/terrain mastery} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the skulking slayer archetype: crippling strike, deadly sneak (*Primary Sneak Attack Talents* group); unwitting ally (*Combat Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the skulking slayer archetype: {talent/crippling strike}, {talent/deadly sneak} (*Primary Sneak Attack Talents* group); {talent/unwitting ally} (*Combat Talents* group)."
 		]
 	},
 	"sly_saboteur": {
@@ -1461,9 +1461,9 @@
 			"",
 			"This replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the sly saboteur archetype: rogue crawl (*Combat Talents* group); cunning trigger, quick trapsmith, trap spotter (*Trap Talents* group); quick disable (*Disable Device Talents* group); fast stealth (*Deception Talents* group); getaway artist, wall scramble (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the sly saboteur archetype: {talent/rogue crawl} (*Combat Talents* group); {talent/cunning trigger}, {talent/quick trapsmith}, {talent/trap spotter} (*Trap Talents* group); {talent/quick disable} (*Disable Device Talents* group); {talent/fast stealth} (*Deception Talents* group); {talent/getaway artist}, {talent/wall scramble} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the sly saboteur archetype: knock-out blow, stealthy sniper (*Combat Talents* group); frugal trapsmith, hide in plain sight, rumormonger, skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the sly saboteur archetype: {talent/knock-out blow}, {talent/stealthy sniper} (*Combat Talents* group); {talent/frugal trapsmith}, {talent/hide in plain sight}, {talent/rumormonger}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"smuggler": {
@@ -1491,7 +1491,7 @@
 			"{SOURCE Kobolds of Golarion/23}  ",
 			"Deep in darkness, the snare setter constructs his deadly traps and brutal mechanisms to confound and destroy any who try to invade his domain.",
 			"",
-			"**Trapper (Ex):** At 1st level, a snare setter gains {feat/Learn Ranger Trap} as a bonus feat. In addition to the trap granted by this feat, he learns how to construct the tripwire trap for free. For the purposes of this feat, he's considered a ranger of his snare setter level, and uses his Intelligence in place of Wisdom to determine uses per day and the DC of his ranger traps. Whenever the snare setter could learn a new rogue trick, he may instead learn a new ranger trap.",
+			"**Trapper (Ex):** At 1st level, a snare setter gains {feat/Learn Ranger Trap} as a bonus feat. In addition to the trap granted by this feat, he learns how to construct the {rangertrap/tripwire} trap for free. For the purposes of this feat, he's considered a ranger of his snare setter level, and uses his Intelligence in place of Wisdom to determine uses per day and the DC of his ranger traps. Whenever the snare setter could learn a new rogue trick, he may instead learn a new ranger trap.",
 			"",
 			"This ability replaces sneak attack (but see below).",
 			"",
@@ -1507,7 +1507,7 @@
 			"",
 			"This ability replaces master strike.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the snare setter archetype: sniper's eye (*Other Sneak Attack Talents* group); cunning trigger (*Trap Talents* group); camouflage, fast stealth (*Deception Talents* group)."
+			"**Rogue Talents:** The following {ability/rogue talents} complement the snare setter archetype: {talent/sniper's eye} (*Other Sneak Attack Talents* group); {talent/cunning trigger} (*Trap Talents* group); {talent/camouflage}, {talent/fast stealth} (*Deception Talents* group)."
 		]
 	},
 	"sniper": {
@@ -1523,9 +1523,9 @@
 			"",
 			"**Deadly Range (Ex):** At 3rd level, a sniper increases the range at which she can apply her sneak attack damage by 10 feet. This range increases by 10 feet for every 3 levels after 3rd. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the sniper archetype: sniper's eye (*Other Sneak Attack Talents* group); snap shot, weapon training (*Combat Talents* group); camouflage (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the sniper archetype: {talent/sniper's eye} (*Other Sneak Attack Talents* group); {talent/snap shot}, {talent/weapon training} (*Combat Talents* group); {talent/camouflage} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the sniper archetype: defensive roll, stealthy sniper (*Combat Talents* group); master of disguise (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the sniper archetype: {talent/defensive roll}, {talent/stealthy sniper} (*Combat Talents* group); {talent/master of disguise} (*Other Talents* group)."
 		]
 	},
 	"snoop": {
@@ -1537,23 +1537,23 @@
 			"{SOURCE Ultimate Intrigue/47}  ",
 			"Snoops are the underworld's version of detectives. They often act as information peddlers, specializing in gathering secrets through investigation, subterfuge, and coercion, and selling or trading those secrets for personal gain.",
 			"",
-			"**Inspiration (Ex):** At 1st level, a snoop gains an ability similar to the {class/investigator}'s inspiration class ability. The snoop begins with an inspiration pool equal to half her rogue level plus her Intelligence modifier (minimum of 1). Unlike an investigator, a snoop can only use inspiration on skill checks, not on attack rolls or saving throws. This ability is otherwise identical to the investigator class ability of the same name.",
+			"**Inspiration (Ex):** At 1st level, a snoop gains an ability similar to the {class/investigator/'s} inspiration class ability. The snoop begins with an inspiration pool equal to half her rogue level plus her Intelligence modifier (minimum of 1). Unlike an investigator, a snoop can only use inspiration on skill checks, not on attack rolls or saving throws. This ability is otherwise identical to the investigator class ability of the same name.",
 			"",
 			"This ability replaces trapfinding and evasion.",
 			"",
-			"**Investigator Talents (Ex):** Beginning at 2nd level, and each time she selects a new rogue talent, a snoop can instead select one of the following {ability/investigator talents}: eidetic recollection, empathy, hidden agendas, inspired alertness, inspired intimidator, item lore, or underworld inspiration. Her effective investigator level for the purpose of these talents is equal to her rogue level. She still can't use inspiration on attack rolls or saving throws (so, for instance, she can't use the second part of hidden agendas).",
+			"**Investigator Talents (Ex):** Beginning at 2nd level, and each time she selects a new rogue talent, a snoop can instead select one of the following investigator talents: {investigatortalent/eidetic recollection}, {investigatortalent/empathy}, {investigatortalent/hidden agendas}, {investigatortalent/inspired alertness}, {investigatortalent/inspired intimidator}, {investigatortalent/item lore}, or {investigatortalent/underworld inspiration}. Her effective investigator level for the purpose of these talents is equal to her rogue level. She still can't use inspiration on attack rolls or saving throws (so, for instance, she can't use the second part of hidden agendas).",
 			"",
 			"**Uncanny Snoop (Ex):** At 4th level, a snoop gains a +2 bonus on Intimidate checks when trying to force an opponent to give her information (or Bluff and Diplomacy checks for the same purpose if she has the coax information rogue talent). She also gains a +2 bonus on Sense Motive checks to tell if someone's information is false. At 8th level, these bonuses increase to +4.",
 			"",
 			"This ability replaces uncanny dodge and improved uncanny dodge.",
 			"",
-			"**Master of Whispers (Ex):** At 8th level, a snoop receives the rumormonger advanced rogue talent.",
+			"**Master of Whispers (Ex):** At 8th level, a snoop receives the {talent/rumormonger} advanced rogue talent.",
 			"",
 			"This ability replaces the rogue talent gained at 8th level.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the snoop archetype: black market connections (*Other Magic-Related Talents* group); coax information, fast stealth (*Deception Talents* group); follow clues, strong impression (*Other Talents* group); certainty (*Other Talents* group - unchained rogue only).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the snoop archetype: {talent/black market connections} (*Other Magic-Related Talents* group); {talent/coax information}, {talent/fast stealth} (*Deception Talents* group); {talent/follow clues}, {talent/strong impression} (*Other Talents* group); {talent/certainty} (*Other Talents* group - unchained rogue only).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the snoop archetype: hard minded (*Combat Talents* group); hidden mind (*Magical Talents* group); cutting edge (unchained rogue only), skill mastery, thoughtful reexamining (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the snoop archetype: {talent/hard minded} (*Combat Talents* group); {talent/hidden mind} (*Magical Talents* group); {talent/cutting edge} (unchained rogue only), {talent/skill mastery}, {talent/thoughtful reexamining} (*Other Talents* group)."
 		]
 	},
 	"spy": {
@@ -1569,9 +1569,9 @@
 			"",
 			"**Poison Use (Ex):** A 3rd level, a spy is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the spy archetype: major magic, minor magic (*Spellcasting Talents* group); canny observer (*Trap Talents* group); honeyed words, quick disguise (*Deception Talents* group); guileful polyglot (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the spy archetype: {talent/major magic}, {talent/minor magic} (*Spellcasting Talents* group); {talent/canny observer} (*Trap Talents* group); {talent/honeyed words}, {talent/quick disguise} (*Deception Talents* group); {talent/guileful polyglot} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the spy archetype: crippling strike (*Primary Sneak Attack Talents* group); stealthy sniper (*Combat Talents* group); master of disguise (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the spy archetype: {talent/crippling strike} (*Primary Sneak Attack Talents* group); {talent/stealthy sniper} (*Combat Talents* group); {talent/master of disguise} (*Other Talents* group)."
 		]
 	},
 	"survivalist": {
@@ -1587,9 +1587,9 @@
 			"",
 			"**Endure Elements (Sp):** At 3rd level, a survivalist rogue can use {spell/endure elements} once per day as a spell-like ability. The survivalist's caster level is the same as her rogue level. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the survivalist archetype: iron guts (*Poison Talents* group); resiliency (*Combat Talents* group); terrain mastery (*Deception Talents* group); hold breath, strong stroke, survivalist, wall scramble (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the survivalist archetype: {talent/iron guts} (*Poison Talents* group); {talent/resiliency} (*Combat Talents* group); {talent/terrain mastery} (*Deception Talents* group); {talent/hold breath}, {talent/strong stroke}, {talent/survivalist}, {talent/wall scramble} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the survivalist archetype: another day, defensive roll (*Combat Talents* group); feat, skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the survivalist archetype: {talent/another day}, {talent/defensive roll} (*Combat Talents* group); {talent/feat}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"swamp_poisoner": {
@@ -1599,7 +1599,7 @@
 			"## Swamp Poisoner",
 			"",
 			"{SOURCE Potions and Poisons/4}  ",
-			"Swamp poisoners use their own toxins to defend their homes and level the playing field. The swamp poisoner is an archetype available to grippli characters, and it is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.",
+			"Swamp poisoners use their own toxins to defend their homes and level the playing field. The swamp poisoner is an archetype available to {race/grippli} characters, and it is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.",
 			"",
 			"**Prerequisites:** A swamp poisoner must have selected the toxic skin grippli alternate racial trait.",
 			"",
@@ -1627,13 +1627,13 @@
 			"{SOURCE Advanced Player's Guide/135}  ",
 			"A paragon of mobile swordplay, the swashbuckler is a rogue who focuses almost exclusively on honing her skill at arms and perfecting daring acrobatic moves and elaborate flourishes that border on performance.",
 			"",
-			"**Martial Training (Ex):** At 1st level, the swashbuckler may select one martial weapon to add to her list of weapon proficiencies. In addition, she may take the combat trick rogue talent up to two times. This ability replaces trapfinding.",
+			"**Martial Training (Ex):** At 1st level, the swashbuckler may select one martial weapon to add to her list of weapon proficiencies. In addition, she may take the {talent/combat trick} rogue talent up to two times. This ability replaces trapfinding.",
 			"",
 			"**Daring (Ex):** At 3rd level, a swashbuckler gains a +1 morale bonus on Acrobatics checks and saving throws against fear. This bonus increases by +1 for every 3 levels beyond 3rd. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the swashbuckler archetype: offensive defense, powerful sneak (*Primary Sneak Attack Talents* group); positioning attack, weapon training (*Combat Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the swashbuckler archetype: {talent/offensive defense}, {talent/powerful sneak} (*Primary Sneak Attack Talents* group); {talent/positioning attack}, {talent/weapon training} (*Combat Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the swashbuckler archetype: crippling strike, entanglement of blades (*Primary Sneak Attack Talents* group); redirect attack (*Combat Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the swashbuckler archetype: {talent/crippling strike}, {talent/entanglement of blades} (*Primary Sneak Attack Talents* group); {talent/redirect attack} (*Combat Talents* group)."
 		]
 	},
 	"swordmaster": {
@@ -1651,23 +1651,23 @@
 			"",
 			"At 3rd level, the swordmaster chooses one trance from the list below. She chooses another trance at 6th, 9th, 12th, 15th, and 18th level. She can only use one type of trance at a time.",
 			"",
-			"**Crane Trance (Ex):** The swordmaster's blade rises and falls with the graceful sweeping arcs of the mountain crane. When in this trance, a swordmaster gains the benefits of the Crane Style feat .",
-			"",
-			"**Dragon Trance (Ex):** Like the dragon, the swordmaster has honed the steadiness of her mind and body. When in this trance, a swordmaster gains the benefits of the {feat/Dragon Style} feat .",
-			"",
-			"**Leopard Trance (Ex):** Using the swiftness of the leopard, a swordmaster's evasive footwork confuses her opponents. When in this trance, a swordmaster gains the benefits of the {feat/Mobility} feat.",
-			"",
-			"**Monkey Trance (Ex):** As the monkey springs, the swordmaster leaps from the reach of her enemies. While in this trance, a swordmaster can make an Acrobatics check opposed by an opponent's CMD. If she succeeds, she may move 5 feet as a swift action within the opponent's threatened area; this movement does not provoke attacks of opportunity and does not count as a 5-foot step.",
-			"",
-			"**Serpent Trance (Ex):** Like the serpent, the swordmaster's quick movements allow her to catch her opponent unawares. While in this trance, a swordmaster receives a +4 bonus on Bluff checks made to feint during combat.",
-			"",
-			"**Tiger Trance (Ex):** The swordmaster pounces upon her opponents, striking with the ferocity and brute force of a wild tiger. While in this trance, a swordmaster can make a combat maneuver check against an opponent within charge range. If she succeeds, she may charge that opponent and make a full attack against that opponent.",
+			">**Crane Trance (Ex):** The swordmaster's blade rises and falls with the graceful sweeping arcs of the mountain crane. When in this trance, a swordmaster gains the benefits of the {feat/Crane Style} feat .",
+			">",
+			">**Dragon Trance (Ex):** Like the dragon, the swordmaster has honed the steadiness of her mind and body. When in this trance, a swordmaster gains the benefits of the {feat/Dragon Style} feat .",
+			">",
+			">**Leopard Trance (Ex):** Using the swiftness of the leopard, a swordmaster's evasive footwork confuses her opponents. When in this trance, a swordmaster gains the benefits of the {feat/Mobility} feat.",
+			">",
+			">**Monkey Trance (Ex):** As the monkey springs, the swordmaster leaps from the reach of her enemies. While in this trance, a swordmaster can make an Acrobatics check opposed by an opponent's CMD. If she succeeds, she may move 5 feet as a swift action within the opponent's threatened area; this movement does not provoke attacks of opportunity and does not count as a 5-foot step.",
+			">",
+			">**Serpent Trance (Ex):** Like the serpent, the swordmaster's quick movements allow her to catch her opponent unawares. While in this trance, a swordmaster receives a +4 bonus on Bluff checks made to feint during combat.",
+			">",
+			">**Tiger Trance (Ex):** The swordmaster pounces upon her opponents, striking with the ferocity and brute force of a wild tiger. While in this trance, a swordmaster can make a combat maneuver check against an opponent within charge range. If she succeeds, she may charge that opponent and make a full attack against that opponent.",
 			"",
 			"This ability replaces all increments of trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the swordmaster archetype: befuddling strike (*Primary Sneak Attack Talents* group); surprise attack (*Other Sneak Attack Talents* group); combat trick, stand up, weapon training, positioning attack (*Combat Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the swordmaster archetype: {talent/befuddling strike} (*Primary Sneak Attack Talents* group); {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/combat trick}, {talent/stand up}, {talent/weapon training}, {talent/positioning attack} (*Combat Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the swordmaster archetype: crippling strike, confounding blades (*Primary Sneak Attack Talents* group); defensive roll, hunter's surprise, redirect attack (*Combat Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the swordmaster archetype: {talent/crippling strike}, {talent/confounding blades} (*Primary Sneak Attack Talents* group); {talent/defensive roll}, {talent/hunter's surprise}, {talent/redirect attack} (*Combat Talents* group)."
 		]
 	},
 	"sylvan_trickster": {
@@ -1683,11 +1683,11 @@
 			"",
 			"This alters the rogue's class skills.",
 			"",
-			"**Wild Empathy (Ex):** A sylvan trickster can improve an animal's attitude. This ability functions as the druid ability of the same name, using the sylvan trickster's rogue level as her effective druid level.",
+			"**Wild Empathy (Ex):** A sylvan trickster can improve an animal's attitude. This ability functions as the {class/druid} ability of the same name, using the sylvan trickster's rogue level as her effective druid level.",
 			"",
 			"This replaces trapfinding.",
 			"",
-			"**Fey Tricks:** A sylvan trickster can select a witch hex in place of a rogue talent. At 10th level, the sylvan trickster can select a hex or major hex in place of a rogue talent. At 18th level, a sylvan trickster can select a hex, major hex, or grand hex in place of a rogue talent. She cannot select any hex more than once.",
+			"**Fey Tricks:** A sylvan trickster can select a witch {ability/hex>es} in place of a rogue talent. At 10th level, the sylvan trickster can select a hex or {ability/major hex>es} in place of a rogue talent. At 18th level, a sylvan trickster can select a hex, major hex, or {ability/grand hex>es} in place of a rogue talent. She cannot select any hex more than once.",
 			"",
 			"This alters rogue talents.",
 			"",
@@ -1699,9 +1699,9 @@
 			"",
 			"This replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the sylvan trickster archetype: major magic, minor magic (*Spellcasting Talents* group); camouflage, charmer, honeyed words, terrain mastery (*Deception Talents* group); survivalist (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the sylvan trickster archetype: {talent/major magic}, {talent/minor magic} (*Spellcasting Talents* group); {talent/camouflage}, {talent/charmer}, {talent/honeyed words}, {talent/terrain mastery} (*Deception Talents* group); {talent/survivalist} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the sylvan trickster archetype: familiar (*Magical Talents* group); hide in plain sight (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the sylvan trickster archetype: {talent/familiar} (*Magical Talents* group); {talent/hide in plain sight} (*Other Talents* group)."
 		]
 	},
 	"thug": {
@@ -1717,9 +1717,9 @@
 			"",
 			"**Brutal Beating (Ex):** At 3rd level, whenever a thug deals sneak attack damage, she can choose to forgo 1d6 points of sneak attack damage to make the target sickened for a number of rounds equal to 1/2 her rogue level. This ability does not stack with itself - only the most recent duration applies. This ability replaces trap sense.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the thug archetype: offensive defense, powerful sneak (*Primary Sneak Attack Talents* group); weapon training (*Combat Talents* group); strong impression (*Other Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the thug archetype: {talent/offensive defense}, {talent/powerful sneak} (*Primary Sneak Attack Talents* group); {talent/weapon training} (*Combat Talents* group); {talent/strong impression} (*Other Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the thug archetype: crippling strike, deadly sneak (*Primary Sneak Attack Talents* group); knock-out blow (*Combat Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the thug archetype: {talent/crippling strike}, {talent/deadly sneak} (*Primary Sneak Attack Talents* group); {talent/knock-out blow} (*Combat Talents* group)."
 		]
 	},
 	"tidal_trickster": {
@@ -1735,7 +1735,7 @@
 			"",
 			"This ability replaces trapfinding and trap sense.",
 			"",
-			"**Liquid Disruption (Ex):** At 4th level, a tidal trickster can use her knowledge of the cohesion of liquids to disrupt certain foes. She can deal sneak attack damage to oozes and creatures with the water subtype that are normally immune to precision damage (such as water elementals), and she ignores a hydrokineticist's chance to negate precision damage from elemental overflow.",
+			"**Liquid Disruption (Ex):** At 4th level, a tidal trickster can use her knowledge of the cohesion of liquids to disrupt certain foes. She can deal sneak attack damage to oozes and creatures with the water subtype that are normally immune to precision damage (such as {family/water elemental/s}), and she ignores a {class/hydro|kineticist/'s} chance to negate precision damage from elemental overflow.",
 			"",
 			"This ability alters sneak attack and replaces uncanny dodge and the 4th-level rogue talent.",
 			"",
@@ -1755,7 +1755,7 @@
 			"",
 			"The use of poisons in the defense of a good nation is controversial, and other branches of the [Eagle Knights](rule/aff_vangard) generally disavow the existence of toxic talons among their organization. Many influential leaders among the Eagle Knights, particularly in the Steel Falcons, have pushed to have the practices of the toxic talons banned from use, but these efforts have only pushed the toxic talons into further obscurity. Their role is particularly protected by the Twilight Talons, who sometimes go as far as to outright lie to others in the Eagle Knights about the operations of a toxic talon. At other times, a toxic talon may choose to martyr his freedom by publicly accepting blame for a mission that has had unfortunate public repercussions. In such a case, the toxic talon is not abandoned by his kin - instead, he is placed on a fair and public trial whose purpose is as much to appease the masses as it is to determine whether any moral lines were crossed. In cases where such a toxic talon is found guilty, he is generally sentenced to hard labor or prison (in which case he often continues to run missions inside of prisons or other fortifications for the Eagle Knights as best suits his talents) or to exile (in which case his role in serving Andoran shifts to one of clandestine missions in other nations). A toxic talon who martyrs his freedom in this way and is then captured again understands that it's unlikely he'll be afforded the same level of support from the Eagle Knights, and that the organization may well disavow any official knowledge of his actions. To a toxic talon, this is all merely a deeper, more significant level of service to the well-being of the nation of Andoran. By serving as a sort of sineater for the rest of the Twilight Talons (and at times, for the other branches of the Eagle Knights), such selfless characters can ensure that the organization survives scandal and public outcry to carry on their good work. In such cases, while public recognition for their deeds may never manifest, their brothers and sisters never forget the toxic talon's sacrifice.",
 			"",
-			"**Forceful Breath (Ex):** A toxic talon is proficient with blowguns instead of hand crossbows. He can use a blowgun without penalty while prone.",
+			"**Forceful Breath (Ex):** A toxic talon is proficient with {eq-weapon/blowgun/s} instead of hand crossbows. He can use a blowgun without penalty while prone.",
 			"",
 			"This alters the rogue's weapon proficiencies.",
 			"",
@@ -1763,7 +1763,7 @@
 			"",
 			"This ability replaces trapfinding.",
 			"",
-			"**Toxin Resistance (Ex):** A toxic talon's constant exposure to varied poisons grants him increasing resistance to them. At 3rd level, a toxic talon gains a +1 bonus on saving throws against diseases and poisons, and he gains a +1 bonus on Heal checks to treat diseases and poisons. He also gains a +1 bonus on caster level checks (including when he activates a magic item) to treat or remove poisons and diseases, such as when using remove disease or neutralize poison. Finally, he gains a +1 bonus on Perception checks to identify traps that utilize diseases or poisons. These bonuses increase to +2 at 6th level, to +3 at 9th level, to +4 at 12th level, to +5 at 15th level, and to +6 at 18th level.",
+			"**Toxin Resistance (Ex):** A toxic talon's constant exposure to varied poisons grants him increasing resistance to them. At 3rd level, a toxic talon gains a +1 bonus on saving throws against diseases and poisons, and he gains a +1 bonus on Heal checks to treat diseases and poisons. He also gains a +1 bonus on caster level checks (including when he activates a magic item) to treat or remove poisons and diseases, such as when using {spell/remove disease} or {spell/neutralize poison}. Finally, he gains a +1 bonus on Perception checks to identify traps that utilize diseases or poisons. These bonuses increase to +2 at 6th level, to +3 at 9th level, to +4 at 12th level, to +5 at 15th level, and to +6 at 18th level.",
 			"",
 			"This replaces trap sense.",
 			"",
@@ -1789,9 +1789,9 @@
 			"",
 			"**Trap Master (Ex):** At 8th level, whenever a trapsmith disarms a trap using Disable Device, she can bypass it even if her check did not exceed the DC by 10 or more. If it is a magic trap that allows specific creatures to pass it without danger, she can modify which creatures it allows to pass, adding her allies and restricting enemies if she desires. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the trapsmith archetype: befuddling strike (*Primary Sneak Attack Talents* group); cunning trigger, quick trapsmith (*Trap Talents* group); quick disable (*Disable Device Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the trapsmith archetype: {talent/befuddling strike} (*Primary Sneak Attack Talents* group); {talent/cunning trigger}, {talent/quick trapsmith} (*Trap Talents* group); {talent/quick disable} (*Disable Device Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the trapsmith archetype: another day (*Combat Talents* group); frugal trapsmith, skill mastery (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the trapsmith archetype: {talent/another day} (*Combat Talents* group); {talent/frugal trapsmith}, {talent/skill mastery} (*Other Talents* group)."
 		]
 	},
 	"underground_chemist": {
@@ -1807,11 +1807,11 @@
 			"",
 			"**Precise Splash Weapons (Ex):** At 4th level, an underground chemist can deal sneak attack damage with splash weapons. The attack must be her first attack that round, qualify for dealing sneak attack damage (such as against a flat-footed target), and be directed at a creature rather than a square. This ability replaces the rogue talent gained at 4th level.",
 			"",
-			"**Discovery (Su):** At 10th level, an underground chemist can select one of the following {ability/alchemist |discoveries} in place of a rogue talent: concentrate poison, dilution, enhance potion, extend potion, mummification, nauseating flesh, poison conversion, preserve organs, spontaneous healing, or sticky poison. She uses her rogue level as her alchemist level for determining the effects of her discoveries and whether she is able to select one. This ability alters advanced talents.",
+			"**Discovery (Su):** At 10th level, an underground chemist can select one of the following {ability/alchemist |discoveries} in place of a rogue talent: {discovery/concentrate poison}, {discovery/dilution}, {discovery/enhance potion}, {discovery/extend potion}, {discovery/mummification}, {discovery/nauseating flesh}, {discovery/poison conversion}, {discovery/preserve organs}, {discovery/spontaneous healing}, or {discovery/sticky poison}. She uses her rogue level as her alchemist level for determining the effects of her discoveries and whether she is able to select one. This ability alters advanced talents.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the underground chemist archetype: sniper's eye (*Other Sneak Attack Talents* group); lasting poison, swift poison (*Poison Talents* group); black market connections (*Other Magic-Related Talents* group); fast fingers (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the underground chemist archetype: {talent/sniper's eye} (*Other Sneak Attack Talents* group); {talent/lasting poison}, {talent/swift poison} (*Poison Talents* group); {talent/black market connections} (*Other Magic-Related Talents* group); {talent/fast fingers} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the underground chemist archetype: deadly cocktail (*Combat Talents* group); thoughtful reexamining (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the underground chemist archetype: {talent/deadly cocktail} (*Combat Talents* group); {talent/thoughtful reexamining} (*Other Talents* group)."
 		]
 	},
 	"vexing_dodger": {
@@ -1833,7 +1833,7 @@
 			"",
 			"**Distracting Climber (Ex):** At 8th level, when a vexing dodger attempts a dirty trick maneuver against a creature she's climbing, she gets a bonus on the combat maneuver check equal to the number of sneak attack dice she has. If she chooses to sicken the target with her dirty trick and succeeds at her combat maneuver check, the target must succeed at a Fortitude saving throw (DC = 10 + 1/2 the vexing dodger's level + her Intelligence modifier) or be nauseated for 1 round. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rogue Talents (Ex):** A vexing dodger can choose uncanny dodge as a rogue talent starting at 4th level, and she can choose improved uncanny dodge as an advanced rogue talent. The following talents complement the vexing dodger archetype: befuddling strike, confounding blades, peerless maneuver, positioning attack, slow reactions, wall scramble."
+			"**Rogue Talents (Ex):** A vexing dodger can choose uncanny dodge as a rogue talent starting at 4th level, and she can choose improved uncanny dodge as an advanced rogue talent. The following talents complement the vexing dodger archetype: {talent/befuddling strike}, {talent/confounding blades}, {talent/peerless maneuver}, {talent/positioning attack}, {talent/slow reactions}, {talent/wall scramble}."
 		]
 	},
 	"waylayer": {
@@ -1855,9 +1855,9 @@
 			"",
 			"**Masterful Reflexes (Ex):** At 20th level, a waylayer's initiative roll is automatically a natural 20. This ability replaces the rogue talent gained at 20th level.",
 			"",
-			"**Rogue Talents:** The following {ability/rogue talents} complement the waylayer archetype: slow reactions, underhanded (*Primary Sneak Attack Talents* group); surprise attack (*Other Sneak Attack Talents* group); cunning trigger, quick trapsmith (*Trap Talents* group); camouflage (*Deception Talents* group).",
+			"**Rogue Talents:** The following {ability/rogue talents} complement the waylayer archetype: {talent/slow reactions}, {talent/underhanded} (*Primary Sneak Attack Talents* group); {talent/surprise attack} (*Other Sneak Attack Talents* group); {talent/cunning trigger}, {talent/quick trapsmith} (*Trap Talents* group); {talent/camouflage} (*Deception Talents* group).",
 			"",
-			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the waylayer archetype: entanglement of blades (*Primary Sneak Attack Talents* group); knock-out blow, weapon snatcher (*Combat Talents* group); hide in plain sight (*Other Talents* group)."
+			"**Advanced Talents:** The following {ability/advanced rogue talents} complement the waylayer archetype: {talent/entanglement of blades} (*Primary Sneak Attack Talents* group); {talent/knock-out blow}, {talent/weapon snatcher} (*Combat Talents* group); {talent/hide in plain sight} (*Other Talents* group)."
 		]
 	}
 }

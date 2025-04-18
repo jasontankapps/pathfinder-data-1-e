@@ -3085,6 +3085,7 @@
 	"dimension_of_dreams": {
 		"name": "Dimension of Dreams",
 		"subtitle": "Occult, Gamemastery",
+		"tags": "dreamscapes",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/241}",
