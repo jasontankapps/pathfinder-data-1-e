@@ -7,8 +7,8 @@ import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
-	...investigator,
-	...spiritualist
+	...investigator, // conflicts with familiar, inquisitor, ranger
+	...spiritualist // conflicts with summoner
 };
 
 type Data = typeof archetypes;

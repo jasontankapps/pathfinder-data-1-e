@@ -1,7 +1,5 @@
 import getItem from '../components/getItem';
-import kineticist from './subpages/__arc-kineticist';
 import rogue from './subpages/__arc-rogue';
-import shaman from './subpages/__arc-shaman';
 import sorcerer from './subpages/__arc-sorcerer';
 import unchained_summoner from './subpages/__arc-unchained_summoner';
 import { ArchetypeProps } from './ArchetypePage';
@@ -10,11 +8,9 @@ import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
-	...kineticist,
-	...rogue,
-	...shaman,
-	...sorcerer,
-	...unchained_summoner
+	...rogue, // conflicts with bard, slayer, hunter
+	...sorcerer, // conflicts with oracle
+	...unchained_summoner // conflicts with summoner
 };
 
 type Data = typeof archetypes;

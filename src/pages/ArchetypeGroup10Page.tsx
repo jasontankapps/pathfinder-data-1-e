@@ -9,7 +9,7 @@ import './Page.css';
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
 	...psychic,
-	...fighter,
+	...fighter, // conflicts with ranger, skald
 	...arcanist
 };
 

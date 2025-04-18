@@ -2,7 +2,7 @@ import getItem from '../components/getItem';
 import druid from './subpages/__arc-druid';
 import medium from './subpages/__arc-medium';
 import ninja from './subpages/__arc-ninja';
-import wizard from './subpages/__arc-wizard';
+import vigilante from './subpages/__arc-vigilante';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -12,7 +12,7 @@ const archetypes = {
 	...druid,
 	...medium,
 	...ninja,
-	...wizard
+	...vigilante // conflicts with barbarian
 };
 
 type Data = typeof archetypes;
