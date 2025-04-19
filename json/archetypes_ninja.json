@@ -24,9 +24,9 @@
 			"",
 			"This replaces improved uncanny dodge.",
 			"",
-			"**Ninja Tricks:** The following {ability/ninja tricks} complement the frozen shadow archetype bleeding attack, darkvision, deadly range, fast stealth, hidden weapons, sudden disguise, vanishing trick, and wall climber.",
+			"**Ninja Tricks:** The following ninja tricks complement the frozen shadow archetype {ninjatrick/bleeding attack}, {ninjatrick/darkvision}, {ninjatrick/deadly range}, {ninjatrick/fast stealth}, {ninjatrick/hidden weapons}, {ninjatrick/sudden disguise}, {ninjatrick/vanishing trick}, and {ninjatrick/wall climber}.",
 			"",
-			"**Advanced Ninja Tricks:** The following {ability/advanced ninja tricks} complement the frozen shadow archetype assassinate, ghost step, invisible blade, master disguise, and see the unseen."
+			"**Advanced Ninja Tricks:** The following advanced ninja tricks complement the frozen shadow archetype {ninjatrick/assassinate}, {ninjatrick/ghost step}, {ninjatrick/invisible blade}, {ninjatrick/master disguise}, and {ninjatrick/see the unseen}."
 		]
 	},
 	"gunpowder_bombardier": {
@@ -104,9 +104,9 @@
 			"",
 			"This replaces no trace.",
 			"",
-			"**Ninja Tricks:** The following {ability/ninja tricks} complement the mask of the Living God archetype: forgotten trick, kamikaze, unarmed combat training, vanishing trick, weapon training.",
+			"**Ninja Tricks:** The following ninja tricks complement the mask of the Living God archetype: {ninjatrick/forgotten trick}, {ninjatrick/kamikaze}, {ninjatrick/unarmed combat training}, {ninjatrick/vanishing trick}, {ninjatrick/weapon training}.",
 			"",
-			"**Master Tricks:** The following {ability/master tricks} complement the mask of the Living God: ghost step, see the unseen, and shadow split."
+			"**Master Tricks:** The following master tricks complement the mask of the Living God: {ninjatrick/ghost step}, {ninjatrick/see the unseen}, and {ninjatrick/shadow split}."
 		]
 	},
 	"petal_ninja": {

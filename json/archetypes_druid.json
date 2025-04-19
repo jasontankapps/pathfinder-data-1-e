@@ -1108,9 +1108,9 @@
 			"",
 			"**Swift Studied Target:** At 9th level, a nature fang can study an opponent as a move or swift action. This ability replaces venom immunity.",
 			"",
-			"**Slayer Talents:** The following slayer talents complement the nature fang archetype: foil scrutiny, poison use, ranger combat style. Additionally, the following {ability/rogue talent/s}, which are also available to slayers, complement the archetype: bleeding attack, camouflage, fast stealth, finesse rogue, lasting poison, rogue crawl, slow reactions, surprise attack, swift poison, terrain mastery.",
+			"**Slayer Talents:** The following slayer talents complement the nature fang archetype: {slayertalent/foil scrutiny}, {slayertalent/poison use}, {slayertalent/ranger combat style}. Additionally, the following {ability/rogue talent/s}, which are also available to slayers, complement the archetype: {talent/bleeding attack}, {talent/camouflage}, {talent/fast stealth}, {talent/finesse rogue}, {talent/lasting poison}, {talent/rogue crawl}, {talent/slow reactions}, {talent/surprise attack}, {talent/swift poison}, {talent/terrain mastery}.",
 			"",
-			"**Advanced Talents:** The following advanced talents complement the nature fang archetype: assassinate, slayer camouflage, woodland stride. The {ability/advanced rogue talent} master of disguise also fits the archetype."
+			"**Advanced Talents:** The following advanced talents complement the nature fang archetype: {slayertalent/assassinate}, {slayertalent/slayer camouflage}, {slayertalent/woodland stride}. The advanced rogue talent {talent/master of disguise} also fits the archetype."
 		]
 	},
 	"nature_priest": {
@@ -2070,7 +2070,7 @@
 			"",
 			"**Investigator Talent:** At 8th level, wild whisperer selects an {ability/investigator talent>s}. This ability replaces the additional use of wild shape at 8th level.",
 			"",
-			"**Investigator Talents:** The following investigator talents complement the wild whisperer archetype: amazing inspiration, effortless aid, eidetic recollection, empathy, inspirational expertise, inspired alertness, inspired intimidator, perceptive tracking, tenacious inspiration."
+			"**Investigator Talents:** The following investigator talents complement the wild whisperer archetype: {investigatortalent/amazing inspiration}, {investigatortalent/effortless aid}, {investigatortalent/eidetic recollection}, {investigatortalent/empathy}, {investigatortalent/inspirational expertise}, {investigatortalent/inspired alertness}, {investigatortalent/inspired intimidator}, {investigatortalent/perceptive tracking}, {investigatortalent/tenacious inspiration}."
 		]
 	},
 	"wolf_shaman": {

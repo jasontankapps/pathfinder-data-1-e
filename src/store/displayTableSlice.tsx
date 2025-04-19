@@ -19,7 +19,7 @@ interface ActiveState {
 	[key: string]: SortObject
 }
 
-interface DisplayTableState {
+export interface DisplayTableState {
 	actives: ActiveState
 	filters: FilterState
 }

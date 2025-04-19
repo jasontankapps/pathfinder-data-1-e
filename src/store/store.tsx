@@ -17,7 +17,7 @@ import storage from 'redux-persist/lib/storage';
 import scrollReducer, {initialState as scroll} from './scrollSlice';
 import historyReducer, {initialState as history} from './historySlice';
 import searchReducer, {initialState as search} from './searchSlice';
-import displayTableReducer, {initialState as displayTable} from './displayTableSlice';
+import displayTableReducer, {initialState as displayTable, DisplayTableState} from './displayTableSlice';
 import bookmarksReducer, {BookmarkDB, BookmarkGroup, initialState as bookmarks} from './bookmarksSlice';
 
 //
@@ -55,6 +55,27 @@ const migrations = {
 				catalog
 			}
 		}
+	},
+	11: (state: any) => {
+		const modifiedTables: string[] = [
+			"sorcerer archetypes",
+			"bloodrager archetypes"
+		];
+		const {displayTable} = state;
+		const {actives: a, filters: f} = displayTable as DisplayTableState;
+		const actives = {...a};
+		const filters = {...f};
+		modifiedTables.forEach(id => {
+			delete actives[id];
+			delete filters[id];
+		});
+		return {
+			...state,
+			displayTable: {
+				actives,
+				filters
+			}
+		}
 	}
 };
 
@@ -71,7 +92,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 10,
+	version: 11,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

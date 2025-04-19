@@ -302,6 +302,7 @@ interface FilterProps {
 	open: boolean
 	setOpen: Dispatch<boolean>
 	saveFunc: SaveFunc
+	hasError: boolean
 }
 
 const makeTestString = (input:boolean[]) => input.map(x => x ? "T" : "F").join("");
@@ -392,7 +393,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		filter,
 		open,
 		setOpen,
-		saveFunc
+		saveFunc,
+		hasError
 	} = props;
 	// Active Headers/Rows are arrays of true/false indicating if the element is visible or not
 	const [activeHeaders, setActiveHeaders] = useState<boolean[]>([]);
@@ -560,7 +562,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		}
 	};
 	const doSave = () => {
-		if(testString === makeTestString([...activeHeaders, ...activeRows])) {
+		if(!hasError && (testString === makeTestString([...activeHeaders, ...activeRows]))) {
 			// No changes to save.
 			setOpen(false);
 			return;
@@ -749,6 +751,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const [latestSortDirection, setLatestSortDirection] = useState(true);
 	const [activeRows, setActiveRows] = useState<number[]>(data.map((x, i) => i));
 	const [open, setOpen] = useState(false);
+	const [hasError, setHasError] = useState(false);
 	const originalRowsAsStrings = makeString(data);
 	const filterModalSaveFunc: SaveFunc = (headersActive, rowsActive) => {
 		const newHeaders = [0]; // The `names` column is always shown
@@ -826,6 +829,10 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	}, [rows, setRows, active, activeRows, setActive, dispatch]);
 	const headerItems = useMemo(() => {
 		return headers.map((th, i) => {
+			if(!th) {
+				setHasError(true);
+				return <blockquote><strong>THIS TABLE HAS AN ERROR.</strong> This is a rare edge case that might happen. Please tap the Filter button (upper right edge of table). Then, use the Toggle All Headers button at top, then toggle all rows On, and then tap "Save" to reset this error.</blockquote>;
+			}
 			return <Th
 				key={`table/${id}/header/${i}`}
 				index={i}
@@ -840,6 +847,10 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const rowItems = useMemo(() => {
 		const visible = (activeRows) ? activeRows.map(n => rows[n]) : rows;
 		return visible.map((row, i) => {
+			if(!row) {
+				setHasError(true);
+				return <blockquote><strong>THIS TABLE HAS AN ERROR.</strong> This is a rare edge case that might happen. Please tap the Filter button (upper right edge of table). Then, use the Toggle All Headers button at top, then toggle all rows On, and then tap "Save" to reset this error.</blockquote>;
+			}
 			const cells = row.filter((cell, j) => activeHeaders.indexOf(j) > -1).map((cell, j) => {
 				const adjustedI = activeHeaders[j];
 				const align = alignments && (alignments[adjustedI] || undefined)
@@ -859,7 +870,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			});
 			return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
 		});
-	}, [activeRows, activeHeaders, rows, types, nullValue, id, ripples]);
+	}, [activeRows, setHasError, activeHeaders, rows, types, nullValue, id, ripples]);
 	const tableWidth = useMemo(() => {
 		if(!sizes) {
 			return undefined;
@@ -909,7 +920,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		incomingColumnInfo, incomingFilterInfo,
 		setInitializedId, setInitializedColumnInfo,
 		setInitializedFilterInfo, activeRows,
-		sorter, setActive, setActiveHeaders,
+		setActive, setActiveHeaders,
 		originalTypes, setTypes, setActiveRows
 	]);
 	const theFilterStuff = (data.length < 10 && headers.length <= 3) ? <></> : <>
@@ -922,6 +933,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			open={open}
 			setOpen={setOpen}
 			saveFunc={filterModalSaveFunc}
+			hasError={hasError}
 		/>
 		<IonButton className="tableFilterButton" color="tertiary" size="small" shape="round" fill="outline" onClick={() => setOpen(true)}>
 			<IonIcon slot="icon-only" icon={filterIcon} />

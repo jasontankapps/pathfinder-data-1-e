@@ -329,7 +329,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"An animated object is not simply one monster, but a whole category. The stats presented here are for a Medium animated object (with 2 CP that have not been spent to gain additional abilities), but any object can become animated, most commonly via the spell animate objects. Permanent animated objects can be built using the {feat/Craft Construct} feat. Unless an animated object uses a Construction Point to be made of another material, all animated objects are made of wood or material of equivalent hardness. Creating an animated object of a different size than Medium can be done simply by adjusting the object's size (and thus adjusting its Strength, Dexterity, natural armor bonus, and size modifier to attack and AC as detailed [here](rule/step_2_add_hit_dice)) and Hit Dice.",
+			"An animated object is not simply one monster, but a whole category. The stats presented here are for a Medium animated object (with 2 CP that have not been spent to gain additional abilities), but any object can become animated, most commonly via the spell animate objects. Permanent animated objects can be built using the {feat/Craft Construct} feat. Unless an animated object uses a Construction Point to be made of another material, all animated objects are made of wood or material of equivalent hardness. Creating an animated object of a different size than Medium can be done simply by adjusting the object's size (and thus adjusting its Strength, Dexterity, natural armor bonus, and size modifier to attack and AC as detailed [here](rule/adding_racial_hit_dice)) and Hit Dice.",
 			"",
 			"| Size | Sample Object | HD | CP | CR |",
 			"| --- | --- | --- | --- | --- |",
