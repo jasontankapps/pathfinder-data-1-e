@@ -3093,6 +3093,7 @@
 		]
 	},
 	"augur": { "copyof": "kyton_augur" },
+	"augur_kyton": { "copyof": "kyton_augur" },
 	"kyton_cantor": {
 		"name": "Cantor (Kyton)",
 		"sources": [
@@ -3385,6 +3386,7 @@
 		]
 	},
 	"interlocutor": { "copyof": "kyton_interlocutor" },
+	"interlocutor_kyton": { "copyof": "kyton_interlocutor" },
 	"kyton_lampadarius": {
 		"name": "Lampadarius (Kyton)",
 		"sources": [

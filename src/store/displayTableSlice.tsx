@@ -55,12 +55,24 @@ export const tableSlice = createSlice({
 			const newState = {...state.actives};
 			newState[id] = data;
 			return {actives: newState, filters: state.filters};
+		},
+		resetTables: (state, action: PayloadAction<string>) => {
+			const id = action.payload;
+			const {actives: a, filters: f} = state;
+			const actives = {...a};
+			const filters = {...f};
+			delete actives[id];
+			delete filters[id];
+			return {
+				actives,
+				filters
+			};
 		}
 	}
 });
 
 // Export the generated action creators for use in components
-export const { setTableFilter, setTableActive, updateTableFilterRows } = tableSlice.actions;
+export const { setTableFilter, setTableActive, updateTableFilterRows, resetTables } = tableSlice.actions;
 
 // Export the slice reducer for use in the store configuration
 export default tableSlice.reducer;

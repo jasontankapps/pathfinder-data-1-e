@@ -51,8 +51,9 @@ import convertLinks, { checkForEncodedLink } from './convertLinks';
 import InnerLink from './InnerLink';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goTo } from '../store/historySlice';
-import { SortObject, TableObject, setTableActive, setTableFilter, updateTableFilterRows } from '../store/displayTableSlice';
+import { SortObject, TableObject, resetTables, setTableActive, setTableFilter, updateTableFilterRows } from '../store/displayTableSlice';
 import ScrollContainer from './ScrollContainer';
+import { AppDispatch } from '../store/store';
 
 type TriggerSortFunc = (index: number, useNormalSort: boolean, activeRows?: number[] | null, save?: boolean) => void;
 
@@ -302,7 +303,6 @@ interface FilterProps {
 	open: boolean
 	setOpen: Dispatch<boolean>
 	saveFunc: SaveFunc
-	hasError: boolean
 }
 
 const makeTestString = (input:boolean[]) => input.map(x => x ? "T" : "F").join("");
@@ -393,8 +393,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		filter,
 		open,
 		setOpen,
-		saveFunc,
-		hasError
+		saveFunc
 	} = props;
 	// Active Headers/Rows are arrays of true/false indicating if the element is visible or not
 	const [activeHeaders, setActiveHeaders] = useState<boolean[]>([]);
@@ -562,7 +561,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		}
 	};
 	const doSave = () => {
-		if(!hasError && (testString === makeTestString([...activeHeaders, ...activeRows]))) {
+		if(testString === makeTestString([...activeHeaders, ...activeRows])) {
 			// No changes to save.
 			setOpen(false);
 			return;
@@ -724,6 +723,20 @@ const makeString = (rows: RawDatum[][]) => {
 	});
 };
 
+interface StoreErrorProps {
+	id: string
+	dispatch: AppDispatch
+}
+
+const StoreError: FC<StoreErrorProps> = (props) => {
+	const {id, dispatch} = props;
+	return (
+		<div>
+			<strong>ERROR IN TABLE.</strong> This is a rare edge case that might happen, please tap on this button to fix it: <IonButton onClick={() => { dispatch(resetTables(id)); }} color="danger">Fix Error</IonButton>
+		</div>
+	);
+};
+
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const {
 		id,
@@ -751,7 +764,6 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const [latestSortDirection, setLatestSortDirection] = useState(true);
 	const [activeRows, setActiveRows] = useState<number[]>(data.map((x, i) => i));
 	const [open, setOpen] = useState(false);
-	const [hasError, setHasError] = useState(false);
 	const originalRowsAsStrings = makeString(data);
 	const filterModalSaveFunc: SaveFunc = (headersActive, rowsActive) => {
 		const newHeaders = [0]; // The `names` column is always shown
@@ -830,8 +842,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const headerItems = useMemo(() => {
 		return headers.map((th, i) => {
 			if(!th) {
-				setHasError(true);
-				return <blockquote><strong>THIS TABLE HAS AN ERROR.</strong> This is a rare edge case that might happen. Please tap the Filter button (upper right edge of table). Then, use the Toggle All Headers button at top, then toggle all rows On, and then tap "Save" to reset this error.</blockquote>;
+				return <StoreError id={id} dispatch={dispatch} />;
 			}
 			return <Th
 				key={`table/${id}/header/${i}`}
@@ -843,13 +854,12 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 				size={sizes && sizes[i]}
 			>{th}</Th>;
 		}).filter((h, i) => (activeHeaders.indexOf(i) > -1))
-	}, [headers, activeHeaders, id, initialColumn, sorter, active, types, sortable, sizes]);
+	}, [headers, activeHeaders, id, initialColumn, sorter, active, types, sortable, sizes, dispatch]);
 	const rowItems = useMemo(() => {
 		const visible = (activeRows) ? activeRows.map(n => rows[n]) : rows;
 		return visible.map((row, i) => {
 			if(!row) {
-				setHasError(true);
-				return <blockquote><strong>THIS TABLE HAS AN ERROR.</strong> This is a rare edge case that might happen. Please tap the Filter button (upper right edge of table). Then, use the Toggle All Headers button at top, then toggle all rows On, and then tap "Save" to reset this error.</blockquote>;
+				return <StoreError id={id} dispatch={dispatch} />;
 			}
 			const cells = row.filter((cell, j) => activeHeaders.indexOf(j) > -1).map((cell, j) => {
 				const adjustedI = activeHeaders[j];
@@ -870,7 +880,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			});
 			return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
 		});
-	}, [activeRows, setHasError, activeHeaders, rows, types, nullValue, id, ripples]);
+	}, [activeRows, activeHeaders, rows, types, nullValue, id, ripples, dispatch]);
 	const tableWidth = useMemo(() => {
 		if(!sizes) {
 			return undefined;
@@ -933,7 +943,6 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			open={open}
 			setOpen={setOpen}
 			saveFunc={filterModalSaveFunc}
-			hasError={hasError}
 		/>
 		<IonButton className="tableFilterButton" color="tertiary" size="small" shape="round" fill="outline" onClick={() => setOpen(true)}>
 			<IonIcon slot="icon-only" icon={filterIcon} />

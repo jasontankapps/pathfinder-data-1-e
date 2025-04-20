@@ -59,7 +59,8 @@ const migrations = {
 	11: (state: any) => {
 		const modifiedTables: string[] = [
 			"sorcerer archetypes",
-			"bloodrager archetypes"
+			"bloodrager archetypes",
+			"unchained summoner archetypes"
 		];
 		const {displayTable} = state;
 		const {actives: a, filters: f} = displayTable as DisplayTableState;
