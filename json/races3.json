@@ -1818,5 +1818,6 @@
 			"[^1]: {source/Ultimate Wilderness/ pg. 31}",
 			"[^2]: {source/Ultimate Intrigue/ pg. 17}"
 		]
-	}
+	},
+	"half_elves": { "copyof": "half_elf" }
 }

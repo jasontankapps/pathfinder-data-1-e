@@ -2462,5 +2462,6 @@
 			"[^Y]: Advanced Class Guide pg. 70",
 			"[^Z]: {source/Ultimate Intrigue/ pg. 17}"
 		]
-	}
+	},
+	"elves": { "copyof": "elf" }
 }

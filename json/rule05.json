@@ -328,7 +328,7 @@
 			"",
 			"***Threatened Squares:*** You threaten all squares into which you can make a melee attack, even when it is not your turn. Generally, that means everything in all squares adjacent to your space (including diagonally). An enemy that takes certain actions while in a threatened square provokes an AoO from you. If you're unarmed, you don't normally threaten any squares and thus can't make AoOs.",
 			"",
-			"***Reach Weapons:*** Most creatures of Medium or smaller size have a reach of only 5 feet. This means that they can make melee attacks only against creatures up to 5 feet (1 square) away. However, Small and Medium creatures wielding reach weapons threaten more squares than a typical creature. In addition, most creatures larger than Medium have a natural reach of 10 feet or more.",
+			"***Reach Weapons:*** Most creatures of Medium or smaller size have a reach of only 5 feet. This means that they can make melee attacks only against creatures up to 5 feet (1 square) away. However, Small and Medium creatures wielding reach weapons threaten more squares than a typical creature. In addition, most creatures larger than Medium have a [natural reach](rule/big_and_little_creatures_in_combat) of 10 feet or more.",
 			"",
 			"***Provoking an Attack of Opportunity:*** Two kinds of actions can provoke AoOs: moving out of a threatened square and performing certain actions within a threatened square.",
 			"",
@@ -1719,6 +1719,7 @@
 	},
 	"big_and_little_creatures_in_combat": {
 		"name": "Big and Little Creatures in Combat",
+		"tags": "creature size monster size creature reach monster reach",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/194}",
