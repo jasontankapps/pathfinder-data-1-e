@@ -122,7 +122,7 @@
 			"",
 			"**Grand Beastform Mutagen:** At 14th level, a beastmorph's mutagen grants him four of the abilities listed in the {spell/beast shape III} spell, which persist as long as the mutagen. He may select four different abilities each time he creates a mutagen. This ability replaces persistent mutagen.",
 			"",
-			"**Discoveries:** The following discoveries complement the beastmorph archetype: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, mummification, spontaneous healing, tentacle, and wings."
+			"**Discoveries:** The following discoveries complement the beastmorph archetype: {discovery/feral mutagen}, {discovery/grand mutagen}, {discovery/greater mutagen}, {discovery/infuse mutagen}, {discovery/mummification}, {discovery/spontaneous healing}, {discovery/tentacle}, and {discovery/wings}."
 		]
 	},
 	"blazing_torchbearer": {
@@ -238,7 +238,7 @@
 			"",
 			"**Discovery Options:** A bogborn alchemist can select the toxic skin grippli racial trait in place of an alchemical discovery.",
 			"",
-			"**Discoveries:** The following discoveries complement the bogborn alchemist archetype: chameleon; concentrate poison, sticky poison; nauseating flesh, poison conversion; bottled ooze, tanglefoot bomb, tentacle ."
+			"**Discoveries:** The following discoveries complement the bogborn alchemist archetype: {discovery/chameleon}; {discovery/concentrate poison}, {discovery/sticky poison}; {discovery/nauseating flesh}, {discovery/poison conversion}; {discovery/bottled ooze}, {discovery/tanglefoot bomb}, {discovery/tentacle}."
 		]
 	},
 	"bramble_brewer": {
@@ -260,7 +260,7 @@
 			"",
 			"**Grand Discovery (Su):** At 20th level, a bramble brewer who selects the true mutagen grand discovery can create a dendrite mutagen that grants a +8 natural armor bonus and a +6 alchemical bonus to Strength, Dexterity, and Constitution. The bramble brewer takes a -2 penalty to his Intelligence, Wisdom, and Charisma scores as long as the mutagen persists. The bramble brewer's gains fast healing 10, but instead of only gaining fast healing in bright light, this fast healing persists in areas of bright or normal light. A bramble brewer must possess the grand mutagen discovery before selecting this discovery.",
 			"",
-			"**Discoveries:** The following discoveries complement the bramble brewer archetype: precise bombs; defoliant bomb; lingering spirit, strafe bomb, sunlight bomb."
+			"**Discoveries:** The following discoveries complement the bramble brewer archetype: {discovery/precise bombs}; {discovery/defoliant bomb}; {discovery/lingering spirit}, {discovery/strafe bomb}, {discovery/sunlight bomb}."
 		]
 	},
 	"chirurgeon": {
@@ -278,7 +278,7 @@
 			"",
 			"**Power Over Death:** At 10th level, a chirurgeon adds {spell/breath of life} to his formula book as a 4th-level extract. His infused curative ability applies to this extract. This ability replaces poison immunity.",
 			"",
-			"**Discoveries:** The following discoveries complement the chirurgeon archetype: elixir of life, healing touch, infusion, and spontaneous healing."
+			"**Discoveries:** The following discoveries complement the chirurgeon archetype: {discovery/elixir of life}, {discovery/healing touch}, {discovery/infusion}, and {discovery/spontaneous healing}."
 		]
 	},
 	"clone_master": {
@@ -300,7 +300,7 @@
 			"",
 			"**Clone:** At 16th level, a clone master adds *clone* to his formula book as a 6th-level extract.",
 			"",
-			"**Discoveries:** The following discoveries complement the clone master archetype: alchemical simulacrum, doppelganger simulacrum, preserve organs, and parasitic twin."
+			"**Discoveries:** The following discoveries complement the clone master archetype: {discovery/alchemical simulacrum}, {discovery/doppelganger simulacrum}, {discovery/preserve organs}, and {discovery/parasitic twin}."
 		]
 	},
 	"concocter": {
@@ -381,15 +381,15 @@
 			"",
 			"This alters discovery.",
 			"",
-			"**Arms of Achaekek:** The small barbs that grow on the crimson chymist's arms when she drinks her mantis mutagen grow significantly in size, granting her two claw attacks as natural weapons. These claws deal damage as appropriate for her size (1d4 for Medium crimson chymists) and function as secondary attacks. These claws do not replace the chymist's hands, and she can still use her hands to wield weapons, attack, hold objects, and otherwise use her hands with ease, but she cannot be wearing any item in the wrists slot or any armor - if she dons magic items that occupy the wrists slot or any armor, her claws shrink back to cosmetic barbs that can't be used in combat as long as the armor or wrist items are worn. A crimson chymist must be at least 6th level before selecting this discovery.",
-			"",
-			"**Blood Sight:** When the crimson chymist is under the effects of her mantis mutagen, her eyes transform, becoming red and multifaceted. This change grants her darkvision to a range of 60 feet and the effects of {spell/deathwatch} for the duration of her mutagen's effects. If the crimson chymist already has darkvision as a benefit of her race, the range of her darkvision increases by 30 feet while using blood sight.",
-			"",
-			"**Improved Arms of Achaekek:** The claws granted by the arms of Achaekek discovery now function as primary weapons when the crimson chymist makes no attacks with manufactured weapons (the claws function as secondary weapons if the chymist attacks with a manufactured weapon). The damage die of the claws increases by one size category (to 1d6 for Medium crimson chymists), and attacks deal 1d4 points of bleed damage on a hit. A crimson chymist must be at least 10th level and have the arms of Achaekek discovery before selecting this discovery.",
-			"",
-			"**Ingest Venom:** Once per day as a standard action, the crimson chymist can ingest one dose of any poison without harming herself. The next time she imbibes her mutagen and uses her arms of Achaekek discovery, both claws are envenomed with a dose of the poison she ingested. An ingested venom remains latent in the alchemist's system until she activates her arms of Achaekek discovery or until 24 hours have passed, whichever comes first. Additional doses of venom ingested during that time affect the alchemist normally. A crimson chymist must have the arms of Achaekek discovery before selecting this discovery.",
-			"",
-			"**Mantis Mutagen (Su):** At 1st level, a crimson chymist discovers how to create a specialized mutagen that grants her aspects of a praying mantis. A mantis mutagen functions as an alchemist mutagen, save that it always enhances Dexterity and applies a penalty to Charisma. When imbibed, the mutagen causes the crimson chymist's flesh to grow red chitinous plates on her body as natural armor and a row of small, cosmetic barbed hooks along her arms.",
+			">**Arms of Achaekek:** The small barbs that grow on the crimson chymist's arms when she drinks her mantis mutagen grow significantly in size, granting her two claw attacks as natural weapons. These claws deal damage as appropriate for her size (1d4 for Medium crimson chymists) and function as secondary attacks. These claws do not replace the chymist's hands, and she can still use her hands to wield weapons, attack, hold objects, and otherwise use her hands with ease, but she cannot be wearing any item in the wrists slot or any armor - if she dons magic items that occupy the wrists slot or any armor, her claws shrink back to cosmetic barbs that can't be used in combat as long as the armor or wrist items are worn. A crimson chymist must be at least 6th level before selecting this discovery.",
+			">",
+			">>**Improved Arms of Achaekek:** The claws granted by the arms of Achaekek discovery now function as primary weapons when the crimson chymist makes no attacks with manufactured weapons (the claws function as secondary weapons if the chymist attacks with a manufactured weapon). The damage die of the claws increases by one size category (to 1d6 for Medium crimson chymists), and attacks deal 1d4 points of bleed damage on a hit. A crimson chymist must be at least 10th level and have the arms of Achaekek discovery before selecting this discovery.",
+			">>",
+			">>**Ingest Venom:** Once per day as a standard action, the crimson chymist can ingest one dose of any poison without harming herself. The next time she imbibes her mutagen and uses her arms of Achaekek discovery, both claws are envenomed with a dose of the poison she ingested. An ingested venom remains latent in the alchemist's system until she activates her arms of Achaekek discovery or until 24 hours have passed, whichever comes first. Additional doses of venom ingested during that time affect the alchemist normally. A crimson chymist must have the arms of Achaekek discovery before selecting this discovery.",
+			">",
+			">**Mantis Mutagen (Su):** At 1st level, a crimson chymist discovers how to create a specialized mutagen that grants her aspects of a praying mantis. A mantis mutagen functions as an alchemist mutagen, save that it always enhances Dexterity and applies a penalty to Charisma. When imbibed, the mutagen causes the crimson chymist's flesh to grow red chitinous plates on her body as natural armor and a row of small, cosmetic barbed hooks along her arms.",
+			">",
+			">>**Blood Sight:** When the crimson chymist is under the effects of her mantis mutagen, her eyes transform, becoming red and multifaceted. This change grants her darkvision to a range of 60 feet and the effects of {spell/deathwatch} for the duration of her mutagen's effects. If the crimson chymist already has darkvision as a benefit of her race, the range of her darkvision increases by 30 feet while using blood sight.",
 			"",
 			"This alters mutagen."
 		]
@@ -425,13 +425,15 @@
 			"",
 			"**Alkahest Bombs (Su):** A crypt breaker's bombs are specially designed to work best against constructs and corporeal undead - two foes commonly encountered in ancient tombs. Known as alkahest bombs, these bombs deal acid damage instead of fire damage. Alkahest is an alchemical fluid that eats away unliving flesh and animated constructs, but it doesn't work as well against other targets. Against constructs and corporeal undead, alkahest bombs deal 1d8 points of damage, plus 1d8 points of damage for every odd-numbered level instead of 1d6. Against all other creatures, alkahest bombs deal 1d4 points of damage, plus 1d4 points of force damage for every odd-numbered level. This ability otherwise functions as and replaces the standard alchemist bomb class feature.",
 			"",
-			"**Crypt Breaker's Draught (Su):** Rather than develop mutagens that increase their natural armor and physical abilities at the expense of their minds, crypt breakers focus on the creation of special draughts that can enhance their senses. When a crypt breaker drinks one of these draughts, he gains a +4 bonus on all Perception checks and gains one of the following special senses: darkvision 60 feet, low-light vision, or scent. While under the effects of a crypt breaker's draught, the alchemist also gains light blindness. This ability replaces the mutagen class ability (a crypt breaker cannot create mutagens unless he selects the mutagen discovery).",
+			"**Crypt Breaker's Draught (Su):** Rather than develop mutagens that increase their natural armor and physical abilities at the expense of their minds, crypt breakers focus on the creation of special draughts that can enhance their senses. When a crypt breaker drinks one of these draughts, he gains a +4 bonus on all Perception checks and gains one of the following special senses: darkvision 60 feet, low-light vision, or {umr/scent}. While under the effects of a crypt breaker's draught, the alchemist also gains {umr/light blindness}. This ability replaces the mutagen class ability (a crypt breaker cannot create mutagens unless he selects the mutagen discovery).",
 			"",
-			"**Trapfinding:** A crypt breaker adds 1/2 his level on Perception checks made to locate traps and to Disable Device checks (minimum +1). A crypt breaker can use Disable Device to disarm magic traps. When determining the ability of a crypt breaker to deal with locks or traps, treat his alchemist levels as rogue levels. This ability replaces the Brew Potion bonus feat.",
+			"**Trapfinding:** A crypt breaker adds 1/2 his level on Perception checks made to locate traps and to Disable Device checks (minimum +1). A crypt breaker can use Disable Device to disarm magic traps. When determining the ability of a crypt breaker to deal with locks or traps, treat his alchemist levels as {class/rogue} levels. This ability replaces the Brew Potion bonus feat.",
 			"",
-			"**Discoveries:** A crypt breaker may take the following rogue talents as discoveries: quick disable, trap sense, and trap spotter. Treat the crypt breaker's alchemist level as his rogue level for these talents.",
+			"**Discoveries:** A crypt breaker may take the following rogue talents as discoveries: {talent/quick disable}, trap sense[^T], and {talent/trap spotter}. Treat the crypt breaker's alchemist level as his rogue level for these talents.",
 			"",
-			"**Enhanced Alkahest (Su):** At 14th level, a crypt breaker's alkahest grows more potent. Against constructs and corporeal undead, the crypt breaker's alkahest bombs deal +1 points of damage per die, and the bomb threatens a critical hit on a 19-20. This does not stack with other effects that improve critical hit threat ranges. This ability replaces persistent mutagen."
+			"**Enhanced Alkahest (Su):** At 14th level, a crypt breaker's alkahest grows more potent. Against constructs and corporeal undead, the crypt breaker's alkahest bombs deal +1 points of damage per die, and the bomb threatens a critical hit on a 19-20. This does not stack with other effects that improve critical hit threat ranges. This ability replaces persistent mutagen.",
+			"",
+			"[^T]: Per [errata](https://paizo.com/threads/rzs2mmn3?Inner-Sea-Magic) (link opens in outside browser), Trap Sense refers to the {class/rogue} class ability. The crypt breaker can take it as a discovery, and it improves as the crypt breaker levels up."
 		]
 	},
 	"deep_bomber": {
@@ -449,7 +451,7 @@
 			"",
 			"**Stonekin:** At 6th level, the deep bomber automatically learns {spell/tree shape} as a 2nd-level extract, except instead of a tree, he takes the form of a stalagmite that is the same size as his current size. At 7th level, he automatically learns {spell/meld into stone} as a 3rd-level extract. This ability replaces swift poisoning.",
 			"",
-			"**Discoveries:** The following discoveries complement the deep bomber archetype: delayed bomb, dispelling bomb, fast bombs, infusion, madness bomb, poison bomb."
+			"**Discoveries:** The following discoveries complement the deep bomber archetype: {discovery/delayed bomb}, {discovery/dispelling bomb}, {discovery/fast bombs}, {discovery/infusion}, {discovery/madness bomb}, {discovery/poison bomb}."
 		]
 	},
 	"dimensional_excavator": {
@@ -519,7 +521,7 @@
 			"",
 			"**Ectochymical Analysis (Sp):** At 10th level, an ectochymist can use alchemical processes to uncover esoteric knowledge from a haunted area that would normally require divinations to ascertain. This process takes 10 minutes and expends one use of ectoplasmic blanche. Treat this effect as {spell/speak with haunt} with a saving throw DC equal to 10 + 1/2 the ectochymist's class level + the ectochymist's Charisma modifier and a caster level equal to the ectochymist's class level. Because the ectochymist is performing an analysis to answer his questions and not speaking with the haunt directly, he uses Craft (alchemy) rather than Sense Motive to oppose any Bluff checks the spirit might attempt in order to mislead him. This ability replaces poison immunity.",
 			"",
-			"**Discoveries:** The following discoveries complement the ectochymist archetype: alchemical simulacrum, cognatogen, grand cognatogen, greater alchemical simulacrum, and mummification."
+			"**Discoveries:** The following discoveries complement the ectochymist archetype: {discovery/alchemical simulacrum}, {discovery/cognatogen}, {discovery/grand cognatogen}, {discovery/greater alchemical simulacrum}, and {discovery/mummification}."
 		]
 	},
 	"ectoplasm_master": {
@@ -578,27 +580,27 @@
 			"",
 			"**Discoveries:** An eldritch poisoner can select any of the following discoveries, in addition to those available to other alchemists. Arcanotoxin discoveries with a save DC use her arcanotoxin's save DC.",
 			"",
-			"**Antidote (Su):** The eldritch poisoner can sacrifice one use of her arcanotoxin to create an extract of {spell/delay poison} which she can feed to an adjacent, willing creature as a standard action. Beginning at 10th level, she can instead use this ability to create an extract of {spell/neutralize poison}.",
-			"",
-			"**Apothecary (Ex, Sp):** The eldritch poisoner can use {spell/detect poison} at will as a spell-like ability and gains a bonus equal to 1/2 her alchemist level on Heal checks to identify or treat poisons and to the bonus she grants when successfully treating a poison.",
-			"",
-			"**Combine Toxins (Ex):** An eldritch poisoner can diversify her arcanotoxin, dealing damage to any two ability scores with a single dose. The alchemist must already know how to target both ability scores with her arcanotoxin. A combined toxin reduces the damage die of its arcanotoxin by one step, to a minimum of 1 point of ability damage to each ability score.",
-			"",
-			"**Contact Toxin (Su):** The eldritch poisoner can create her arcanotoxin as a contact poison. A vial of contact arcanotoxin can be thrown up to 30 feet as a ranged touch attack or smeared onto a surface as a standard action, but it becomes inert after 1 minute. The arcanotoxin's save DC is reduced by 2. The eldritch poisoner must be at least 4th level to select this discovery.",
-			"",
-			"**Envenom (Su):** The eldritch poisoner can create and apply her arcanotoxin to a held weapon (her own or an ally's) as a move action. The toxin lasts 1 minute or until used.",
-			"",
-			"**Lethal Toxin (Su):** The eldritch poisoner's arcanotoxin can deal Constitution damage. She must be at least 10th level to select this discovery.",
-			"",
-			"**Mind-Altering Toxin (Su):** Whenever a creature fails its saving throw against the eldritch poisoner's arcanotoxin, it also becomes dazzled by hallucinations for the toxin's duration as a secondary effect. When the alchemist reaches 10th level, targets become confused instead. The alchemist must be at least 6th level to select this discovery.",
-			"",
-			"**Paralytic Toxin (Su):** Whenever a creature fails its saving throw against the eldritch poisoner's arcanotoxin, it also becomes staggered for the toxin's duration as a secondary effect. Beginning at 15th level, the target becomes paralyzed instead. The poisoner must be at least 8th level to select this discovery.",
-			"",
-			"**Sickening Toxin (Su):** When a creature fails its save against the eldritch poisoner's arcanotoxin, it also becomes sickened for the toxin's duration as a secondary effect. When the alchemist reaches 12th level, targets become nauseated instead.",
-			"",
-			"**Tailored Toxin (Ex):** Choose one creature type (and subtype, for humanoids or outsiders). The eldritch poisoner's arcanotoxin is particularly effective against such creatures, increasing the save DC by 2. This discovery can be selected more than once; each time it applies to a different creature type (or subtype).",
-			"",
-			"**Toxic Fumes (Ex):** The eldritch poisoner can create her arcanotoxin as an inhaled poison. She can throw a vial of arcanotoxin up to 30 feet as a ranged touch attack, affecting all creatures in a 10-foot-by-10-foot square. The arcanotoxin's save DC is reduced by 4, its duration is halved, and a successful save immediately ends the inhaled arcanotoxin's effect. The eldritch poisoner must be at least 6th level to select this discovery.",
+			">**Antidote (Su):** The eldritch poisoner can sacrifice one use of her arcanotoxin to create an extract of {spell/delay poison} which she can feed to an adjacent, willing creature as a standard action. Beginning at 10th level, she can instead use this ability to create an extract of {spell/neutralize poison}.",
+			">",
+			">**Apothecary (Ex, Sp):** The eldritch poisoner can use {spell/detect poison} at will as a spell-like ability and gains a bonus equal to 1/2 her alchemist level on Heal checks to identify or treat poisons and to the bonus she grants when successfully treating a poison.",
+			">",
+			">**Combine Toxins (Ex):** An eldritch poisoner can diversify her arcanotoxin, dealing damage to any two ability scores with a single dose. The alchemist must already know how to target both ability scores with her arcanotoxin. A combined toxin reduces the damage die of its arcanotoxin by one step, to a minimum of 1 point of ability damage to each ability score.",
+			">",
+			">**Contact Toxin (Su):** The eldritch poisoner can create her arcanotoxin as a contact poison. A vial of contact arcanotoxin can be thrown up to 30 feet as a ranged touch attack or smeared onto a surface as a standard action, but it becomes inert after 1 minute. The arcanotoxin's save DC is reduced by 2. The eldritch poisoner must be at least 4th level to select this discovery.",
+			">",
+			">**Envenom (Su):** The eldritch poisoner can create and apply her arcanotoxin to a held weapon (her own or an ally's) as a move action. The toxin lasts 1 minute or until used.",
+			">",
+			">**Lethal Toxin (Su):** The eldritch poisoner's arcanotoxin can deal Constitution damage. She must be at least 10th level to select this discovery.",
+			">",
+			">**Mind-Altering Toxin (Su):** Whenever a creature fails its saving throw against the eldritch poisoner's arcanotoxin, it also becomes dazzled by hallucinations for the toxin's duration as a secondary effect. When the alchemist reaches 10th level, targets become confused instead. The alchemist must be at least 6th level to select this discovery.",
+			">",
+			">**Paralytic Toxin (Su):** Whenever a creature fails its saving throw against the eldritch poisoner's arcanotoxin, it also becomes staggered for the toxin's duration as a secondary effect. Beginning at 15th level, the target becomes paralyzed instead. The poisoner must be at least 8th level to select this discovery.",
+			">",
+			">**Sickening Toxin (Su):** When a creature fails its save against the eldritch poisoner's arcanotoxin, it also becomes sickened for the toxin's duration as a secondary effect. When the alchemist reaches 12th level, targets become nauseated instead.",
+			">",
+			">**Tailored Toxin (Ex):** Choose one creature type (and subtype, for humanoids or outsiders). The eldritch poisoner's arcanotoxin is particularly effective against such creatures, increasing the save DC by 2. This discovery can be selected more than once; each time it applies to a different creature type (or subtype).",
+			">",
+			">**Toxic Fumes (Ex):** The eldritch poisoner can create her arcanotoxin as an inhaled poison. She can throw a vial of arcanotoxin up to 30 feet as a ranged touch attack, affecting all creatures in a 10-foot-by-10-foot square. The arcanotoxin's save DC is reduced by 4, its duration is halved, and a successful save immediately ends the inhaled arcanotoxin's effect. The eldritch poisoner must be at least 6th level to select this discovery.",
 			"",
 			"**Careful Injection (Ex):** At 4th level, an eldritch poisoner can forgo some of her sneak attack damage in order to increase the save DC of a poison or arcanotoxin on the weapon used to make the sneak attack. The poison's DC increases by 1 for every 1d6 points of sneak attack damage forgone. This ability replaces the discovery gained at 4th level."
 		]
@@ -708,7 +710,7 @@
 			"",
 			"**Greater Fire Body (Ex):** At 14th level, fire bombers add {spell/elemental body IV} to their spell list as a 5th-level extract. *Elemental body* extracts prepared using greater fire body are limited to fire elementals only. This ability replaces persistent mutagen.",
 			"",
-			"**Discoveries:** The following discoveries complement the fire bomber archetype: fire brand, rocket bomb; explosive bombs, fast bombs, inferno bomb, precise bombs breath weapon bomb, explosive missile, immolation bomb; bottled ooze, confusion bomb, strafe bomb ."
+			"**Discoveries:** The following discoveries complement the fire bomber archetype: {discovery/fire brand}, {discovery/rocket bomb}; {discovery/explosive bomb}, {discovery/fast bombs}, {discovery/inferno bomb}, {discovery/precise bombs}, {discovery/breath weapon bomb}, {discovery/explosive missile}, {discovery/immolation bomb}; {discovery/bottled ooze}, {discovery/confusion bomb}, {discovery/strafe bomb}."
 		]
 	},
 	"first_world_innovator": {
@@ -770,19 +772,19 @@
 			"",
 			"Only one of these discoveries can be applied to a bomb, and it cannot have another discovery applied to it with the same one-per-bomb limit.",
 			"",
-			"**Debilitating Gloom:** A creature struck by the gloom must make a successful Fortitude save or take a penalty to its Strength equal to 1d4 + 1 per 2 alchemist levels (maximum of 1d4+5) for 1 round per alchemist level. A target's Strength score cannot drop below 1. This penalty does not stack with itself. An alchemist must be at least 6th level before selecting this discovery.",
-			"",
-			"**Draining Gloom:** A creature struck by a direct hit with the gloom must make a successful Fortitude save or gain 1 negative level. An alchemist must be at least 8th level and must have the debilitating gloom discovery before selecting this discovery.",
-			"",
-			"**Glutinous Gloom:** The gloom creates an area in its splash radius that functions as {spell/web}. The webbing lasts for a number of rounds equal to 1/2 the alchemist's level. An alchemist must be at least 6th level before selecting this discovery.",
-			"",
-			"**Grasping Gloom:** The gloom creates an area equal to double its splash radius that functions as {spell/black tentacles}. The effect lasts for a number of rounds equal to half the alchemist's level. An alchemist must be at least 8th level before selecting this discovery.",
-			"",
-			"**Greater Draining Gloom:** A creature struck by the gloom must succeed at a Fortitude save or gain 1d4 negative levels. An alchemist must be at least 12th level and must have the debilitating gloom and draining gloom discoveries before selecting this discovery.",
-			"",
-			"**Mucilaginous Gloom:** The gloom leaves a chilly gray residue that turns each square in its splash radius into difficult terrain. This effect lasts for a number of rounds equal to the alchemist's level.",
-			"",
-			"**Rime-Bound Gloom:** The gloom creates an area of freezing shadow in its splash radius that deals 2d6 points of cold damage to all creatures in the area each turn. This effect lasts 1 round for every 2 alchemist levels. An alchemist must be at least 6th level to select this discovery."
+			">**Debilitating Gloom:** A creature struck by the gloom must make a successful Fortitude save or take a penalty to its Strength equal to 1d4 + 1 per 2 alchemist levels (maximum of 1d4+5) for 1 round per alchemist level. A target's Strength score cannot drop below 1. This penalty does not stack with itself. An alchemist must be at least 6th level before selecting this discovery.",
+			">",
+			">>**Draining Gloom:** A creature struck by a direct hit with the gloom must make a successful Fortitude save or gain 1 negative level. An alchemist must be at least 8th level and must have the debilitating gloom discovery before selecting this discovery.",
+			">>",
+			">>>**Greater Draining Gloom:** A creature struck by the gloom must succeed at a Fortitude save or gain 1d4 negative levels. An alchemist must be at least 12th level and must have the debilitating gloom and draining gloom discoveries before selecting this discovery.",
+			">",
+			">**Glutinous Gloom:** The gloom creates an area in its splash radius that functions as {spell/web}. The webbing lasts for a number of rounds equal to 1/2 the alchemist's level. An alchemist must be at least 6th level before selecting this discovery.",
+			">",
+			">**Grasping Gloom:** The gloom creates an area equal to double its splash radius that functions as {spell/black tentacles}. The effect lasts for a number of rounds equal to half the alchemist's level. An alchemist must be at least 8th level before selecting this discovery.",
+			">",
+			">**Mucilaginous Gloom:** The gloom leaves a chilly gray residue that turns each square in its splash radius into difficult terrain. This effect lasts for a number of rounds equal to the alchemist's level.",
+			">",
+			">**Rime-Bound Gloom:** The gloom creates an area of freezing shadow in its splash radius that deals 2d6 points of cold damage to all creatures in the area each turn. This effect lasts 1 round for every 2 alchemist levels. An alchemist must be at least 6th level to select this discovery."
 		]
 	},
 	"grenadier": {
@@ -972,7 +974,7 @@
 			"",
 			"**Languages:** An inspired chemist can learn three languages in place of a discovery.",
 			"",
-			"**Discoveries:** The following discoveries complement the inspired chemist archetype: grand inspiring cognatogen, greater inspiring cognatogen, and inspired bomb."
+			"**Discoveries:** The following discoveries complement the inspired chemist archetype: {discovery/grand inspiring cognatogen}, {discovery/greater inspiring cognatogen}, and {discovery/inspired bomb}."
 		]
 	},
 	"internal_alchemist": {
@@ -992,7 +994,7 @@
 			"",
 			"**Uncanny Dodge:** Starting at 6th level, an internal alchemist can react to danger before his senses would normally allow him to do so. He cannot be caught flat-footed, nor does he lose his Dexterity bonus to AC if the attacker is invisible. However, he still loses his Dexterity bonus to AC if he is immobilized, or if an opponent successfully uses the feint action (see {skill/Bluff}) against him. If the internal alchemist already has uncanny dodge from a different class, he automatically gains improved uncanny dodge (as a rogue) instead. This ability replaces swift poisoning.",
 			"",
-			"**Discoveries:** The following discoveries complement the internal alchemist archetype: cognatogen, elixir of life, grand cognatogen, greater cognatogen, lingering spirit, mummification, and spontaneous healing."
+			"**Discoveries:** The following discoveries complement the internal alchemist archetype: {discovery/cognatogen}, {discovery/elixir of life}, {discovery/grand cognatogen}, {discovery/greater cognatogen}, {discovery/lingering spirit}, {discovery/mummification}, and {discovery/spontaneous healing}."
 		]
 	},
 	"interrogator": {
@@ -1108,7 +1110,7 @@
 			"",
 			"**Languages:** A mindchemist may learn three languages in place of a discovery.",
 			"",
-			"**Discoveries:** The following discoveries complement the mindchemist archetype: grand cognatogen, greater cognatogen, infuse mutagen."
+			"**Discoveries:** The following discoveries complement the mindchemist archetype: {discovery/grand cognatogen}, {discovery/greater cognatogen}, {discovery/infuse mutagen}."
 		]
 	},
 	"mixologist": {
@@ -1188,7 +1190,7 @@
 			"{SOURCE Inner Sea Magic/37}  ",
 			"Nex is known for its advanced magical lore, and the alchemists of Oenopion are incredibly skilled at making potions, elixirs, and other materials crucial to the country's economy and its monster-creating fleshforges. A Oenopion researcher has the following class features.",
 			"",
-			"**Discoveries:** The following discoveries complement the Oenopion researcher archetype: acid bomb, bottled ooze, feral mutagen, infuse mutagen, infusion, sunlight bomb.",
+			"**Discoveries:** The following discoveries complement the Oenopion researcher archetype: {discovery/acid bomb}, {discovery/bottled ooze}, {discovery/feral mutagen}, {discovery/infuse mutagen}, {discovery/infusion}, {discovery/sunlight bomb}.",
 			"",
 			"**Experimental Mutagen (Su):** At 2nd level, an Oenopion researcher learns how to create an experimental mutagen that benefits others, though not as well as his normal mutagen. The experimental mutagen works just like a standard mutagen, except the natural armor bonus and the alchemical bonus to the ability score are half normal (+1 natural armor bonus and +2 to one ability score). The experimental mutagen has no risk of nauseating a creature who drinks it. The researcher decides when he creates the mutagen if it is a standard mutagen (which gives no benefit if another creature drinks it) or an experimental mutagen (which does); there is no difference in the cost, time to create, or any other aspect of the mutagen. If the researcher has discoveries or other abilities that alter or increase the benefits of the mutagen, these apply to the experimental mutagen (though the drinker only gets half the numerical bonus of the mutagen). This ability replaces poison use.",
 			"",
@@ -1222,7 +1224,7 @@
 			"",
 			"This replaces poison resistance and poison immunity.",
 			"",
-			"**Discoveries:** The following discoveries complement the oozemaster archetype: bottled ooze, ooze blight, and splitting mutagen."
+			"**Discoveries:** The following discoveries complement the oozemaster archetype: {discovery/bottled ooze}, {discovery/ooze blight}, and {discovery/splitting mutagen}."
 		]
 	},
 	"perfumer": {
@@ -1272,7 +1274,7 @@
 			"",
 			"**Disease Resistance (Ex):** At 2nd level, a plague bringer gains a +2 bonus on all saving throws against disease. This bonus increases to +4 at 5th level, and to +6 at 8th level. At 10th level, a plague bringer becomes completely immune to disease (including magical diseases). This ability replaces all increments of poison resistance and poison immunity.",
 			"",
-			"**Discoveries:** The following discoveries complement the plague bringer archetype: explosive bomb, precise bombs, smoke bomb breath weapon bomb, fast bomb, nauseating bomb; plague bomb."
+			"**Discoveries:** The following discoveries complement the plague bringer archetype: {discovery/explosive bomb}, {discovery/precise bombs}, {discovery/smoke bomb}, {discovery/breath weapon bomb}, {discovery/fast bombs}, {discovery/nauseating flesh}; {discovery/plague bomb}."
 		]
 	},
 	"preservationist": {
@@ -1296,7 +1298,7 @@
 			"",
 			"**Bottled Ally VI:** At 18 level, a preservationist adds {spell/summon nature's ally IX} to his formula book as a 6th-level extract. This ability replaces his 18th-level discovery.",
 			"",
-			"**Discoveries:** The following discoveries complement the preservationist archetype: bottled ooze, preserve organs, tentacle, vestigial arm, and wings."
+			"**Discoveries:** The following discoveries complement the preservationist archetype: {discovery/bottled ooze}, {discovery/preserve organs}, {discovery/tentacle}, {discovery/vestigial arm}, and {discovery/wings}."
 		]
 	},
 	"promethean_alchemist": {
@@ -1312,7 +1314,7 @@
 			"",
 			"**Homunculus Companion (Ex):** At 1st level, a promethean alchemist gains the service of a homunculus companion. The means for creating this special homunculus are more exotic than normal and require investiture of the promethean alchemist's own life essence into the homunculus. This construct generally resembles a small humanoid or child when first created; the specific appearance is up to its creator, though a homunculus is always humanoid in shape and obviously unnatural on close inspection. While every homunculus companion is absolutely devoted to its master, some homunculi's loyalty borders on the unsettling; such companions jealously protect their masters from threats or construct strange shrines in their masters' honor. A homunculus companion can be of any alignment, even one that is different from its master's. A destroyed homunculus companion can be restored to life by performing a ritual with its corpse that requires 1 pint of its creator's blood per Hit Die of the homunculus and rare materials worth 100 gp per Hit Die of the homunculus. Performing this ritual takes 1 hour (though it may take some time to gather enough blood at higher levels, so many promethean alchemists keep chilled blood samples in storage just in case). A promethean alchemist can't take the mutagen or cognatogen discoveries. This ability replaces bombs and mutagen.",
 			"",
-			"**Discoveries:** The following discoveries complement this archetype: alchemical simulacrum, doppelganger simulacrum, and greater alchemical simulacrum.",
+			"**Discoveries:** The following discoveries complement this archetype: {discovery/alchemical simulacrum}, {discovery/doppelganger simulacrum}, and {discovery/greater alchemical simulacrum}.",
 			"",
 			"### Homunculus Companion Base Statistics",
 			"",
@@ -1409,7 +1411,7 @@
 			"",
 			"**Master Precognition:** At 17th level, a psychonaut adds {spell/foresight} to his formula book as a 6th-level extract. This ability replaces the increase to bomb damage at this level.",
 			"",
-			"**Discoveries:** The following discoveries complement the psychonaut archetype: confusion bomb, eternal potion, extend potion, lingering spirit, and madness bomb."
+			"**Discoveries:** The following discoveries complement the psychonaut archetype: {discovery/confusion bomb}, {discovery/eternal potion}, {discovery/extend potion}, {discovery/lingering spirit}, and {discovery/madness bomb}."
 		]
 	},
 	"ragechemist": {
@@ -1427,7 +1429,7 @@
 			"",
 			"**Lumbering Rage:** At 10th level, whenever a ragechemist uses his rage mutagen ability, he may have the mutagen also give him a +2 morale bonus to Constitution, but when he takes a penalty on Will saving throws and to Intelligence, he also takes a -1 penalty to Dexterity. This ability replaces poison immunity.",
 			"",
-			"**Discoveries:** The following discoveries complement the ragechemist: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, tentacle, and vestigial arm."
+			"**Discoveries:** The following discoveries complement the ragechemist: {discovery/feral mutagen}, {discovery/grand mutagen}, {discovery/greater mutagen}, {discovery/infuse mutagen}, {discovery/tentacle}, and {discovery/vestigial arm}."
 		]
 	},
 	"reanimator": {
@@ -1447,7 +1449,7 @@
 			"",
 			"**Create Greater Undead:** At 15th level, a reanimator adds {spell/create greater undead} to his formula book as a 5th-level extract. This otherwise acts similarly to a create undead extract. This ability replaces the increase to bomb damage at this level.",
 			"",
-			"**Discoveries:** The following discoveries complement the reanimator archetype: alchemical zombie, elixir of life, eternal potion, mummification, and preserve organs."
+			"**Discoveries:** The following discoveries complement the reanimator archetype: {discovery/alchemical zombie}, {discovery/elixir of life}, {discovery/eternal potion}, {discovery/mummification}, and {discovery/preserve organs}."
 		]
 	},
 	"royal_alchemist": {
@@ -1503,7 +1505,7 @@
 			"",
 			">**True Chameleon Mutagen:** The saboteur's chameleon mutagen now acts as if he was under the effects of the {spell/greater invisibility} and {spell/spider climb} spells, using his alchemist level as the caster level, for the duration of the mutagen. The saboteur must possess the grand chameleon mutagen discovery to select this grand discovery.",
 			"",
-			"**Discoveries:** The following discoveries complement the saboteur archetype: acid bomb, concussive bomb, delayed bomb, explosive bomb, fast bombs, inferno bomb, madness bomb, precise bombs, smoke bomb, stink bomb; explosive missile, immolation bomb, siege bomb; blinding bomb, cognatogen, confusion bomb, tanglefoot bomb."
+			"**Discoveries:** The following discoveries complement the saboteur archetype: {discovery/acid bomb}, {discovery/concussive bomb}, {discovery/delayed bomb}, {discovery/explosive bomb}, {discovery/fast bombs}, {discovery/inferno bomb}, {discovery/madness bomb}, {discovery/precise bombs}, {discovery/smoke bomb}, {discovery/stink bomb}; {discovery/explosive missile}, {discovery/immolation bomb}, {discovery/siege bomb}; {discovery/blinding bomb}, {discovery/cognatogen}, {discovery/confusion bomb}, {discovery/tanglefoot bomb}."
 		]
 	},
 	"sacrament_alchemist": {
@@ -1529,7 +1531,7 @@
 			"",
 			"This ability replaces swift alchemy.",
 			"",
-			"**Discoveries:** The following discoveries complement the sacrament alchemist archetype: combine extracts, dilution, infusion, and ranged baptism."
+			"**Discoveries:** The following discoveries complement the sacrament alchemist archetype: {discovery/combine extracts}, {discovery/dilution}, {discovery/infusion}, and {discovery/ranged baptism}."
 		]
 	},
 	"tinkerer": {
@@ -1589,7 +1591,7 @@
 			"",
 			"This replaces persistent mutagen.",
 			"",
-			"**Discoveries:** The following discoveries complement the tinkerer archetype combine extract, dilution, elixir of life, enhance potion, eternal potion, extend potion, infusion, and promethean disciple."
+			"**Discoveries:** The following discoveries complement the tinkerer archetype: {discovery/combine extracts}, {discovery/dilution}, {discovery/elixir of life}, {discovery/enhance potion}, {discovery/eternal potion}, {discovery/extend potion}, {discovery/infusion}, and {discovery/promethean disciple}."
 		]
 	},
 	"toxicant": {
@@ -1681,7 +1683,7 @@
 			"",
 			"**Crippling Strike:** At 10th level or later, a vivisectionist may select the crippling strike rogue talent in place of a discovery.",
 			"",
-			"**Discoveries:** The following discoveries complement the vivisectionist archetype: alchemical simulacrum, concentrate poison, doppelganger simulacrum, feral mutagen, parasitic twin, preserve organs, tentacle, tumor familiar, vestigial arm, and wings."
+			"**Discoveries:** The following discoveries complement the vivisectionist archetype: {discovery/alchemical simulacrum}, {discovery/concentrate poison}, {discovery/doppelganger simulacrum}, {discovery/feral mutagen}, {discovery/parasitic twin}, {discovery/preserve organs}, {discovery/tentacle}, {discovery/tumor familiar}, {discovery/vestigial arm}, and {discovery/wings}."
 		]
 	},
 	"wasteland_blightbreaker": {
@@ -1705,7 +1707,7 @@
 			"",
 			"This ability replaces poison resistance +6 and the discovery gained at 8th level.",
 			"",
-			"**Discoveries:** The following discoveries complement the wasteland blightbreaker archetype: dispelling bomb, elixir of life, healing bomb, healing touch, infusion, spontaneous healing."
+			"**Discoveries:** The following discoveries complement the wasteland blightbreaker archetype: {discovery/dispelling bomb}, {discovery/elixir of life}, {discovery/healing bomb}, {discovery/healing touch}, {discovery/infusion}, {discovery/spontaneous healing}."
 		]
 	},
 	"winged_marauder": {
@@ -1723,7 +1725,7 @@
 			"",
 			"**Discovery:** A winged marauder can select the following additional discovery.",
 			"",
-			"**Sipping Pet (Ex):** As a standard action, the marauder can administer a dose of a liquid (such as an extract, infusion, potion, or an alchemical liquid like antitoxin) to his animal companion, even if the companion is unconscious. The alchemist must be adjacent to or riding the companion to use this ability. An alchemist must have the infusion discovery to select this discovery."
+			">**Sipping Pet (Ex):** As a standard action, the marauder can administer a dose of a liquid (such as an extract, infusion, potion, or an alchemical liquid like antitoxin) to his animal companion, even if the companion is unconscious. The alchemist must be adjacent to or riding the companion to use this ability. An alchemist must have the {discovery/infusion} discovery to select this discovery."
 		]
 	}
 }

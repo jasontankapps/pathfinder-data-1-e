@@ -1050,6 +1050,7 @@
 			"**Location:** Melee and Ranged."
 		]
 	},
+	"natural_weapons": { "copyof": "natural_attacks" },
 	"spell_like_abilities": {
 		"name": "Spell-Like Abilities",
 		"sources": [ "Bestiary 5" ],

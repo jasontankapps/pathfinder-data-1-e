@@ -695,6 +695,7 @@
 			"[^C]: {source/Blood of the Sea/ pg. 9}"
 		]
 	},
+	"gillmen": { "copyof": "gillman" },
 	"gnome": {
 		"name": "Gnome",
 		"sources": [

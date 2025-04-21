@@ -2141,7 +2141,7 @@
 			"",
 			"***Sacred Ritual:*** A ritual sacred to your faith is performed today at your Temple. Spend 2d4 points of Magic and attempt a DC 20 Knowledge (religion) check - if you succeed, faith runs high and you can choose one of the following effects to persist for 1d6 days: the building gains a +10 bonus on all checks (but only one check to generate capital per day), you gain a +2 bonus on one type of skill check, or you may prepare an additional domain spell of your highest domain spell level each day.",
 			"",
-			"***Scandal:*** This is the same as the [scandal event for a Monastery](rule/monastery_events), except a Temple scandal lasts for 1d8 days. There's a 10% chance the scandal involves the influence of a rival faith, in which case you gain a rivalry as well (see {rule/Generic Building Events}) ."
+			"***Scandal:*** This is the same as the [scandal event for a Monastery](rule/monastery_events), except a Temple scandal lasts for 1d8 days. There's a 10% chance the scandal involves the influence of a rival faith, in which case you gain a rivalry as well (see {rule/Generic Building Events})."
 		],
 		"parent_topics": [
 			"optional_subsystems",
