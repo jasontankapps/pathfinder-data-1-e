@@ -1,0 +1,129 @@
+{
+	"evasion": {
+		"name": "Evasion",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"A character with evasion can avoid damage from many area-effect attacks. If they succeed at a Reflex saving throw against an attack that normally deals half damage on a successful save, they instead take no damage. Evasion can be used only if a character is wearing light armor or no armor. A helpless character does not gain the benefit of evasion.",
+			"",
+			"This ability is gained at 2nd level by the {class/rogue}, {class/monk}, {class/unchained rogue}, {class/unchained monk}, {sidekick/eidolon}, and {sidekick/unchained eidolon}, and at 3rd level by {sidekick/animal companion/s}. A {class/ranger} gains it at 9th level, and it applies when wearing medium armor, too."
+		]
+	},
+	"improved_evasion": {
+		"name": "Improved Evasion",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"This is an improved version of {ability/evasion}. The character still takes no damage on a successful Reflex saving throw against attacks, but henceforth they take only half damage on a failed save. A helpless character does not gain the benefit of improved evasion.",
+			"",
+			"This ability is gained by {sidekick/familiar/s} at 1st level, and at 9th level by the {class/monk} and {class/unchained monk}. Rogues and unchained rogues can access it via the {talent/improved evasion} advanced rogue talent. An {sidekick/eidolon} or {sidekick/unchained eidolon} gains this ability at 14th level, and an {sidekick/animal companion} gains it at 15th level. The {class/ranger} gains it at 16th level, and it applies when wearing medium armor, too."
+		]
+	},
+	"uncanny_dodge": {
+		"name": "Uncanny Dodge",
+		"sources": [],
+		"description": [
+			"A character with this ability van react to danger before their senses would normally allow them to do so. They cannot be caught flat-footed, nor do they lose their Dexterity bonus to AC if the attacker is invisible. They still loses their Dexterity bonus to AC if immobilized, or if an opponent successfully uses the feint action against them.",
+			"",
+			"This ability is gained at 2nd level by the {class/bloodrager}, {class/barbarian}, and {class/unchained barbarian}. It is gained at 4th level by the {class/rogue}, {class/unchained rogue}, {class/ninja}, and {class/skald}.",
+			"",
+			"If a member of these classes already has uncanny dodge from a different class, they automatically gain {ability/improved uncanny dodge} instead."
+		]
+	},
+	"improved_uncanny_dodge": {
+		"name": "Improved Uncanny Dodge",
+		"sources": [],
+		"description": [
+			"A character with this ability can no longer be flanked. This defense denies rogues (or other classes with the sneak attack ability) the ability to sneak attack them by flanking them, unless the attacker has at least four more rogue levels (or levels in the class granting sneak attack) than the target has levels in the class that grants improved uncanny dodge.",
+			"",
+			"This ability is gained at 5th level by the {class/bloodrager}, {class/barbarian}, and {class/unchained barbarian}, and at 8th level by the {class/rogue}, {class/unchained rogue}, {class/ninja}, and {class/skald}.",
+			"",
+			"If a character already has uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum sneak attack level required to flank the character."
+		]
+	},
+	"wild_empathy": {
+		"name": "Wild Empathy",
+		"sources": [],
+		"description": [
+			"A character with this ability can improve the initial attitude of an animal. This ability functions as a {skill/Diplomacy} check to improve the attitude of a person. The character rolls 1d20 and adds their class level (the level of the class that grants them wild empathy) and their Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.",
+			"",
+			"To use wild empathy, the character and the animal must be within 30 feet of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.",
+			"",
+			"This ability can be used to influence a magical beast with an Intelligence score of 1 or 2, but the character takes a -4 penalty on the check.",
+			"",
+			"This is a 1st-level ability of the {class/druid}, {class/ranger}, {class/hunter}, and {class/shifter}."
+		]
+	},
+	"favored_enemy": {
+		"name": "Favored Enemy",
+		"sources": [],
+		"description": [
+			"At 1st level, a {class/ranger} selects a creature type from the options below. He gains a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A ranger may make Knowledge skill checks untrained when attempting to identify these creatures.",
+			"",
+			":::div{className=columnar}",
+			"",
+			"- Aberration",
+			"- Animal",
+			"- Construct",
+			"- Dragon",
+			"- Fey",
+			"- Humanoid (aquatic)",
+			"- Humanoid (dwarf)",
+			"- Humanoid (elf)",
+			"- Humanoid (giant)",
+			"- Humanoid (goblinoid)",
+			"- Humanoid (gnoll)",
+			"- Humanoid (gnome)",
+			"- Humanoid (halfling)",
+			"- Humanoid (human)",
+			"- Humanoid (orc)",
+			"- Humanoid (reptilian)",
+			"- Humanoid (other subtype)",
+			"- Magical beast",
+			"- Monstrous humanoid",
+			"- Ooze",
+			"- Outsider (air)",
+			"- Outsider (chaotic)",
+			"- Outsider (earth)",
+			"- Outsider (evil)",
+			"- Outsider (fire)",
+			"- Outsider (good)",
+			"- Outsider (lawful)",
+			"- Outsider (native)",
+			"- Outsider (water)",
+			"- Plant",
+			"- Undead",
+			"- Vermin",
+			"",
+			":::",
+			"",
+			"At 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by +2.",
+			"",
+			"If the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated above. (Note that there are other types of humanoid to choose from - those called out specifically are merely the most common.) If a specific creature falls into more than one category of favored enemy, the ranger's bonuses do not stack; he simply uses whichever bonus is higher."
+		]
+	},
+	"favored_enemies": { "copyof": "favored_enemy" },
+	"favored_terrain": {
+		"name": "Favored Terrain",
+		"sources": [],
+		"description": [
+			"At 3rd level, a {class/ranger} may select a type of terrain from the Favored Terrains table. The ranger gains a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when he is in this terrain. A ranger traveling through his favored terrain normally leaves no trail and cannot be tracked (though he may leave a trail if he so chooses).",
+			"",
+			"| Favored Terrain |",
+			"| --- |",
+			"| Cold (ice, glaciers, snow, and tundra) |",
+			"| Desert (sand and wastelands) |",
+			"| Forest (coniferous and deciduous) |",
+			"| Jungle |",
+			"| Mountain (including hills) |",
+			"| Plains |",
+			"| Planes (pick one, other than Material Plane) |",
+			"| Swamp |",
+			"| Underground (caves and dungeons) |",
+			"| Urban (buildings, streets, and sewers) |",
+			"| Water (above and below the surface) |",
+			"",
+			"At 8th level and every five levels thereafter, the ranger may select an additional favored terrain. In addition, at each such interval, the skill bonus and initiative bonus in any one favored terrain (including the one just selected, if so desired), increases by +2.",
+			"",
+			"If a specific terrain falls into more than one category of favored terrain, the ranger's bonuses do not stack; he simply uses whichever bonus is higher."
+		]
+	}
+}

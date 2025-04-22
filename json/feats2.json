@@ -2057,7 +2057,7 @@
 			"You are very difficult to follow in the wild, leaving few tracks in your wake.  ",
 			"**Prerequisites:** Survival 3 ranks.  ",
 			"**Benefit:** You increase the DC of Survival checks to track you by 5 when moving at full speed and by 10 when moving at half speed. You can cover the tracks of a number of allies within 30 feet equal to your Wisdom modifier plus half your character level, increasing the DC to track them by 2 if they are moving at full speed or by 5 if they are moving at half speed.  ",
-			"**Special:** If you have the favored terrain class feature and you are in that terrain, you also add your favored terrain bonus to the DC to track you or your allies."
+			"**Special:** If you have the {ability/favored terrain} class feature and you are in that terrain, you also add your favored terrain bonus to the DC to track you or your allies."
 		]
 	},
 	"covering_defense": {
@@ -2597,7 +2597,7 @@
 			"{SOURCE Monster Hunter's Handbook/22}",
 			"",
 			"You have deadly experience with a certain type of creature, granting you an edge in fighting its kind.  ",
-			"**Prerequisites:** No levels in a class that grants the favored enemy class feature.  ",
+			"**Prerequisites:** No levels in a class that grants the {ability/favored enemy} class feature.  ",
 			"**Benefit:** Choose a creature type from the ranger favored enemies table except for humanoid or monstrous humanoid. You gain a +2 bonus on Perception checks, Survival checks, and weapon damage rolls against creatures of the selected type. You can attempt Knowledge skill checks untrained when attempting to identify such creatures.  ",
 			"**Special:** This feat counts as the favored enemy class feature for the purpose of meeting feat prerequisites. If another ability references your favored enemy bonus for the creature type selected, you treat your favored enemy bonus as +2. If you later gain the favored enemy class feature, you can replace this feat with a different feat for which you qualify and whose prerequisites include the favored enemy class feature.",
 			"",
@@ -4157,7 +4157,7 @@
 			"{SOURCE Dirty Tactics Toolbox/10}",
 			"",
 			"Your repeated encounters with a particular type of enemy have honed your skills against that foe.  ",
-			"**Prerequisites:** No levels in a class that has the favored enemy class feature.  ",
+			"**Prerequisites:** No levels in a class that has the {ability/favored enemy} class feature.  ",
 			"**Benefit:** When you select this feat, choose a specific kind of creature, such as wolf, frost giant, goblin, or babau demon. You gain the ranger's favored enemy class ability against this particular type of creature with a bonus of +2. This feat does not grant the favored enemy class feature for the purposes of prerequisites. If you later gain the favored enemy class feature, you can replace this feat with a feat for which you qualify and whose prerequisites include the favored enemy class feature.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different creature."
 		]
@@ -4775,7 +4775,7 @@
 			"{SOURCE Ultimate Wilderness/109;Pathfinder Campaign Setting/138;Inner Sea World Guide/286}",
 			"",
 			"The endless sands and waterless wastes are your home, and neither the heat nor dehydration presents as lethal of a threat to you as it does to other travelers.  ",
-			"**Prerequisites:** Favored terrain (desert) class feature.  ",
+			"**Prerequisites:** {ability/Favored terrain} (desert) class feature.  ",
 			"**Benefit:** You treat hot environments as though they were one step less severe; if you have a similar ability from another feat, such as Torrid Tolerance, the benefits stack and you treat hot conditions as if they were two steps less severe. You need to consume only half the normal amount of water for a creature of your size, and you gain a +4 bonus on Constitution checks to resist the effects of thirst. You also gain a +4 bonus on saving throws and checks to avoid becoming blinded or dazzled by glare or being deceived by a desert mirage."
 		]
 	},

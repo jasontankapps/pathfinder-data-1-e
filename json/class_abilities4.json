@@ -40,24 +40,14 @@
 	},
 	"investigator_talents": {
 		"name": "Investigator Talents",
-		"sources": [
-			"Advanced Class Guide",
-			"Advanced Class Origins",
-			"Adventurer's Guide",
-			"Disciple's Doctrine",
-			"Elemental Master's Handbook",
-			"Inner Sea Intrigue",
-			"Magic Tactics Toolbox",
-			"Potions and Poisons",
-			"Spymaster's Handbook"
-		],
+		"sources": [ "Advanced Class Guide" ],
 		"compileFrom": {
 			"source": "investigatortalent",
 			"targets": [
 				[
 					"## Talents",
 					"",
-					"{SOURCE Advanced Class Guide/32;Advanced Class Origins/15;Inner Sea Intrigue/31;Disciple's Doctrine/17;Spymaster's Handbook/21;Potions and Poisons/15;Adventurer's Guide/147;Elemental Master's Handbook/9;Magic Tactics Toolbox/7}  ",
+					"{SOURCE Advanced Class Guide/32}  ",
 					"At 3rd level and every 2 levels thereafter, an investigator gains an investigator talent. Except where otherwise noted, each investigator talent can only be selected once.",
 					"",
 					"::h3[Studied Strike Talents]{jl}",

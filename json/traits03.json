@@ -1180,7 +1180,7 @@
 			"**Type:** Mount  ",
 			"**Requirements:** Have a Chernasardo riding elk as a mount",
 			"",
-			"While riding a Chernasardo riding elk, you gain a +4 trait bonus on Handle Animal, Ride, and wild empathy checks to resist another creature's unnatural aura."
+			"While riding a Chernasardo riding elk, you gain a +4 trait bonus on Handle Animal, Ride, and {ability/wild empathy} checks to resist another creature's unnatural aura."
 		],
 		"sourceEnd": true,
 		"category": "Mount",
@@ -4184,7 +4184,7 @@
 			"**Religion:** {faith/Calistria}  ",
 			"**Requirements:** Elf",
 			"",
-			"Your association with Calistria's church has toughened your flesh against venom and blessed you with the ability to influence wasps and similar insectile vermin. You gain a +1 trait bonus on Fortitude saving throws against poison. You may make Diplomacy checks (or wild empathy checks if you are a druid or ranger) to improve a Hostile or Unfriendly insectile vermin's attitude toward Indifferent."
+			"Your association with Calistria's church has toughened your flesh against venom and blessed you with the ability to influence wasps and similar insectile vermin. You gain a +1 trait bonus on Fortitude saving throws against poison. You may make Diplomacy checks (or {ability/wild empathy} checks if you are a druid or ranger) to improve a Hostile or Unfriendly insectile vermin's attitude toward Indifferent."
 		],
 		"sourceEnd": true,
 		"category": "-",
@@ -5111,7 +5111,7 @@
 		"description": [
 			"**Type:** Drawback",
 			"",
-			"Animals do not willingly approach within 30 feet of you, unless you or the animal's master succeeds at a DC 20 Handle Animal, Ride, or wild empathy check. Animal companions, familiars, and mounts granted by your class abilities are immune to this effect."
+			"Animals do not willingly approach within 30 feet of you, unless you or the animal's master succeeds at a DC 20 Handle Animal, Ride, or {ability/wild empathy} check. Animal companions, familiars, and mounts granted by your class abilities are immune to this effect."
 		],
 		"sourceEnd": true,
 		"category": "Drawback",

@@ -1,7 +1,7 @@
 {
 	"domains": {
 		"name": "Domains",
-		"sources": [],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Cleric Domains",
 			"",
@@ -737,18 +737,7 @@
 	},
 	"vigilante_talents": {
 		"name": "Vigilante Talents",
-		"sources": [
-			"Adventurer's Guide",
-			"Antihero's Handbook",
-			"Blood of the Beast",
-			"Chronicle of Legends",
-			"Disciple's Doctrine",
-			"Heroes of Golarion",
-			"Inner Sea Intrigue",
-			"People of the Wastes",
-			"Spymaster's Handbook",
-			"Ultimate Intrigue"
-		],
+		"sources": [ "Ultimate Intrigue"],
 		"compileFrom": {
 			"source": "vigilantetalent",
 			"targets": [

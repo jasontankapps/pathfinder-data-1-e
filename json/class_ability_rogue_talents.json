@@ -730,7 +730,7 @@
 		"compilationSources": [ [ "Champions of Purity", 25 ] ],
 		"category": "Ally-Related Talents",
 		"description": [
-			"**Rogue Only:** A rogue who makes a successful Reflex save against an area effect can ignore the benefits of her evasion ability to shield an adjacent ally against the effect, essentially halving the damage that ally would normally take. A rogue with improved evasion can attempt a secondary save against her ally's damage. If the save is successful, neither she nor her ally takes any damage. A rogue must have evasion in order to select this talent, and she must have improved evasion to benefit from the secondary effect."
+			"**Rogue Only:** A rogue who makes a successful Reflex save against an area effect can ignore the benefits of her evasion ability to shield an adjacent ally against the effect, essentially halving the damage that ally would normally take. A rogue with {talent/improved evasion} can attempt a secondary save against her ally's damage. If the save is successful, neither she nor her ally takes any damage. A rogue must have evasion in order to select this talent, and she must have improved evasion to benefit from the secondary effect."
 		]
 	},
 	"shove_aside": {
@@ -739,7 +739,7 @@
 		"compilationSources": [ [ "Cohorts and Companions", 27 ] ],
 		"category": "Ally-Related Talents",
 		"description": [
-			"**Rogue Only:** When you and an adjacent ally are both in the area of an attack that requires a saving throw, you can take a -4 penalty on your saving throw to grant your ally a +4 bonus on his saving throw. You lose the evasion ability against this attack. If you have improved evasion, it is reduced to evasion for this attack instead. A rogue must have evasion to select this rogue talent."
+			"**Rogue Only:** When you and an adjacent ally are both in the area of an attack that requires a saving throw, you can take a -4 penalty on your saving throw to grant your ally a +4 bonus on his saving throw. You lose the {ability/evasion} ability against this attack. If you have {talent/improved evasion}, it is reduced to evasion for this attack instead. A rogue must have evasion to select this rogue talent."
 		]
 	},
 	"acrobatic_stunt": {
@@ -1021,7 +1021,7 @@
 		"compilationSources": [ [ "Ranged Tactics Toolbox", 7 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"**Rogue Only:** When the rogue successfully uses evasion or improved evasion to avoid taking damage, she can attempt to hide as an immediate action. The rogue attempts a Stealth check with a -20 penalty, but gains a +1 bonus on her check for every die of damage the avoided attack would have dealt. The rogue can attempt this check even while being observed, as long as she has {rule/cover} or {rule/concealment} or an ability that allows her to use the Stealth skill while being observed without cover or concealment."
+			"**Rogue Only:** When the rogue successfully uses evasion or {talent/improved evasion} to avoid taking damage, she can attempt to hide as an immediate action. The rogue attempts a Stealth check with a -20 penalty, but gains a +1 bonus on her check for every die of damage the avoided attack would have dealt. The rogue can attempt this check even while being observed, as long as she has {rule/cover} or {rule/concealment} or an ability that allows her to use the Stealth skill while being observed without cover or concealment."
 		]
 	},
 	"canny_observer": {
@@ -1287,7 +1287,7 @@
 		"compilationSources": [ [ "Ultimate Combat", 70 ] ],
 		"category": "Deception Talents",
 		"description": [
-			"A rogue with this talent gains a favored terrain as the ranger ability of the same name, though the favored terrain ability does not increase with her level as the ranger's ability does. A rogue can take this ability multiple times, each time applying it to a new terrain."
+			"A rogue with this talent gains a {ability/favored terrain} as the ranger ability of the same name, though the favored terrain ability does not increase with her level as the ranger's ability does. A rogue can take this ability multiple times, each time applying it to a new terrain."
 		]
 	},
 	"bardic_pretender": {
@@ -1355,7 +1355,7 @@
 		"compilationSources": [ [ "Heroes of the Wild", 21 ] ],
 		"category": "Other Talents",
 		"description": [
-			"The rogue selects one terrain from the ranger's favored terrain list; she gains this as a favored terrain, as the ranger class feature. If the rogue also has or later takes the hide in plain sight {ability/advanced rogue talent}, her favored terrain must match a terrain she has selected for that advanced talent. If the rogue has ranger levels, her effective ranger level is equal to her ranger level + 5 for purposes of improving the bonuses from this favored terrain and gaining new favored terrains. A rogue must be at least 5th level to select this talent."
+			"The rogue selects one terrain from the {class/ranger/'s} {ability/favored terrain} list; she gains this as a favored terrain, as the ranger class feature. If the rogue also has or later takes the {talent/hide in plain sight} advanced rogue talent, her favored terrain must match a terrain she has selected for that advanced talent. If the rogue has ranger levels, her effective ranger level is equal to her ranger level + 5 for purposes of improving the bonuses from this favored terrain and gaining new favored terrains. A rogue must be at least 5th level to select this talent."
 		]
 	},
 	"follow_clues": {
@@ -1851,7 +1851,7 @@
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
-			"This works like evasion, except that while the rogue still takes no damage on a successful Reflex saving throw against attacks, she henceforth takes only half damage on a failed save. A helpless rogue does not gain the benefit of improved evasion."
+			"This works like {ability/evasion}, except that while the rogue still takes no damage on a successful Reflex saving throw against attacks, she henceforth takes only half damage on a failed save. A helpless rogue does not gain the benefit of improved evasion."
 		]
 	},
 	"knock_out_blow": {
@@ -2000,7 +2000,7 @@
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
-			"A rogue with this talent can select a single terrain from the ranger's favored terrain list. She is a master at hiding in that terrain, and while within that terrain, she can use the Stealth skill to hide, even while being observed. A rogue may take this advanced talent more than once, each time selecting a different terrain from the favored terrain list."
+			"A rogue with this talent can select a single terrain from the ranger's {ability/favored terrain} list. She is a master at hiding in that terrain, and while within that terrain, she can use the Stealth skill to hide, even while being observed. A rogue may take this advanced talent more than once, each time selecting a different terrain from the favored terrain list."
 		]
 	},
 	"master_of_disguise": {
@@ -2112,7 +2112,7 @@
 		"category": "Advanced Other Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
-			"**Unchained Rogue Only:** A rogue with this talent can select a single favored terrain. Her bonuses in that terrain increase to +4. At 13th level and 18th level, they increase by an additional +2 (to a maximum of +8). A rogue must have the terrain mastery talent to select this advanced talent."
+			"**Unchained Rogue Only:** A rogue with this talent can select a single {ability/favored terrain}. Her bonuses in that terrain increase to +4. At 13th level and 18th level, they increase by an additional +2 (to a maximum of +8). A rogue must have the {talent/terrain mastery} talent to select this advanced talent."
 		]
 	},
 	"thoughtful_reexamining": {

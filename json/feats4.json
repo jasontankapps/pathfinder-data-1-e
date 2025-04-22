@@ -639,7 +639,7 @@
 			"{SOURCE Giant Hunter's Handbook/23}",
 			"",
 			"You can apply your specialized knowledge of giants' weaknesses in order to make your spells harder for giants to resist.  ",
-			"**Prerequisites:** Caster level 4th, favored enemy (giants) class feature.  ",
+			"**Prerequisites:** Caster level 4th, {ability/favored enemy} (giants) class feature.  ",
 			"**Benefit:** Add 1/2 your favored enemy bonus against giants to the DC of all saving throws against spells you cast against creatures with the giant subtype, as well as to caster level checks made to overcome the spell resistance of creatures with the giant subtype."
 		]
 	},
@@ -1855,7 +1855,7 @@
 			"",
 			"Your allies can target additional foes.  ",
 			"**Prerequisites:** {feat/Improved Hunter's Bond}, hunter's bond (hunting companions) class feature, ranger level 12th.  ",
-			"**Benefit:** When you activate hunter's bond, you can select a number of targets equal to your Wisdom modifier as long as they all count as your favored enemy.  ",
+			"**Benefit:** When you activate hunter's bond, you can select a number of targets equal to your Wisdom modifier as long as they all count as your {ability/favored enemy}.  ",
 			"**Normal:** You select one target against which your allies receive your favored enemy bonus."
 		]
 	},
@@ -2498,7 +2498,7 @@
 			"{SOURCE Ultimate Magic/152}",
 			"",
 			"Your natural empathy stretches across the world of nature.  ",
-			"**Prerequisites:** Knowledge (nature) 5 ranks, wild empathy class feature.  ",
+			"**Prerequisites:** Knowledge (nature) 5 ranks, {ability/wild empathy} class feature.  ",
 			"**Benefit:** You gain a +2 insight bonus on wild empathy checks, and you may use wild empathy to duplicate an Intimidate check rather than a Diplomacy check. In addition, choose one of the following kinds of creatures: elementals, fey, lycanthropes, plants, or vermin. You may influence creatures of that type with wild empathy, if their Intelligence score is 1 or 2, or they do not possess an Intelligence score. Once you choose the type of creature, it cannot be changed.  ",
 			"**Special:** You may select this feat more than once. Each time, you may choose an additional creature type to influence."
 		]
@@ -2738,7 +2738,7 @@
 			"**Prerequisites:** You must have been rendered unconscious and left for dead on a battlefield between warring factions or have the Child Soldier (early event) or Drafted (conflict) [background](rule/bad_beginnings).  ",
 			"**Benefit:** Select a particular nation, organization, or humanoid subtype (such as Cheliax, [Eagle Knights](rule/aff_vangard), or goblinoids). You gain a +4 bonus on Sense Motive checks to determine whether a given creature is affiliated with that group and a +4 bonus on Bluff and Diplomacy checks to conceal your animosity toward members of that group.  ",
 			"**Goal:** Deliver the killing blow to a number of your hated foes whose combined Hit Dice total is equal to 10 &times; your current character level.  ",
-			"**Completion Benefit:** You gain a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against foes of your selected type, and a +2 bonus on weapon attack and damage rolls against them. These bonuses stack with a ranger's favored enemy bonuses.  ",
+			"**Completion Benefit:** You gain a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against foes of your selected type, and a +2 bonus on weapon attack and damage rolls against them. These bonuses stack with a ranger's {ability/favored enemy} bonuses.  ",
 			"**Special:** By meeting the goal of this feat, your name becomes known to your enemy. Creatures of your chosen enemy faction gain a +1 morale bonus on attack and damage rolls against you should they become aware of your identity with a successful Knowledge (local) check (DC = 10 + your character level)."
 		]
 	},
@@ -4158,7 +4158,7 @@
 			"",
 			"You deepen your connection to your allies, granting them higher bonuses.  ",
 			"**Prerequisites:** Hunter's bond (hunting companions) class feature, ranger level 9th.  ",
-			"**Benefit:** When you activate hunter's bond, you can grant your allies your full favored enemy bonus against a single target.  ",
+			"**Benefit:** When you activate hunter's bond, you can grant your allies your full {ability/favored enemy} bonus against a single target.  ",
 			"**Normal:** Your allies receive half your favored enemy bonus against a single target."
 		]
 	},

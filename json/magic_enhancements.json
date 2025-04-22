@@ -428,7 +428,7 @@
 			"**Aura** strong enchantment; **CL** 13th  ",
 			"**Slot** armor quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"Armor with the terrain-striding special ability is attuned to a specific terrain when the armor is created, selected from rangers' favored terrains. The wearer of armor gains a 10-foot enhancement bonus to her speed while in the associated terrain, and the armor's armor check penalty does not apply to Acrobatics, Climb, and Stealth checks attempted in that terrain. The terrain-striding special ability can be applied only to medium armor.",
+			"Armor with the terrain-striding special ability is attuned to a specific terrain when the armor is created, selected from rangers' {ability/favored terrain/s}. The wearer of armor gains a 10-foot enhancement bonus to her speed while in the associated terrain, and the armor's armor check penalty does not apply to Acrobatics, Climb, and Stealth checks attempted in that terrain. The terrain-striding special ability can be applied only to medium armor.",
 			"",
 			"### Construction",
 			"",

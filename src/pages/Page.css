@@ -29,6 +29,33 @@ blockquote.hanging p {
 	text-indent: -1.5rem;
 }
 
+div.columnar {
+	margin-inline: auto;
+	margin-block: 1em;
+}
+div.columnar ul,
+div.columnar ol {
+	margin-block: 0;
+}
+@media (34rem > width > 25rem) {
+	div.columnar:not(.max2) {
+		columns: 2
+	}
+}
+@media (55rem > width > 34rem) {
+	div.columnar:not(.max2) {
+		columns: 3
+	}
+}
+@media (min-width: 55rem) {
+	div.columnar.max2 {
+		columns: 2
+	}
+	div.columnar:not(.max2):not(.max3) {
+		columns: 4
+	}
+}
+
 .capitalize {
 	text-transform: capitalize;
 }

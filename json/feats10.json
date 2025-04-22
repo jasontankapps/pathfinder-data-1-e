@@ -1015,7 +1015,7 @@
 			"{SOURCE Dirty Tactics Toolbox/10}",
 			"",
 			"Your expertise aids you against many similar foes.  ",
-			"**Prerequisites:** Base attack bonus +5, favored enemy (any humanoid or any outsider), favored enemy class feature.  ",
+			"**Prerequisites:** Base attack bonus +5, favored enemy (any humanoid or any outsider), {ability/favored enemy} class feature.  ",
 			"**Benefit:** Once per day as a swift action, you can change the subtype of the humanoid or outsider you chose as your favored enemy. For example, you can change your favored enemy from humanoid (elf) to humanoid (dwarf). The bonus granted by favored enemy when used in this way is always +2, regardless of the original bonus. This change lasts for a number of rounds equal to your character level.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take the feat, you can use this ability one additional time per day."
 		]
@@ -1181,7 +1181,7 @@
 			"{SOURCE Monster Hunter's Handbook/22}",
 			"",
 			"You hold strong against aberrations.  ",
-			"**Prerequisites:** Favored enemy (aberration) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (aberration) class feature.  ",
 			"**Benefit:** Choose either Fortitude saves against transformation effects (including transmutation spells and spell-like abilities) or Will saves against mind-affecting effects. You gain a bonus on the selected saving throw equal to half your favored enemy (aberration) bonus. Against aberrations' spells and abilities, you gain this bonus on Fortitude saves against transmutation effects and on Will saves against mind-affecting effects."
 		]
 	},
@@ -1194,7 +1194,7 @@
 			"{SOURCE Monster Hunter's Handbook/23}",
 			"",
 			"You're skilled at patiently hiding from your favored enemies, particularly animals.  ",
-			"**Prerequisites:** Favored enemy (animal) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (animal) class feature.  ",
 			"**Benefit:** You gain a bonus on Stealth checks equal to half your favored enemy (animal) bonus. Against animals, this bonus is equal to your full favored enemy bonus."
 		]
 	},
@@ -1207,7 +1207,7 @@
 			"{SOURCE Monster Hunter's Handbook/23}",
 			"",
 			"You are skilled at breaking the defenses of constructs and other creatures.  ",
-			"**Prerequisites:** Favored enemy (construct) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (construct) class feature.  ",
 			"**Benefit:** Your weapon attacks ignore a number of points of damage reduction or hardness equal to half your favored enemy (construct) bonus. This feat allows you to only ignore damage reduction that is normally bypassed by adamantine, bludgeoning, piercing, and slashing weapons. Against constructs, the amount of damage reduction and hardness you ignore is equal to your full favored enemy bonus."
 		]
 	},
@@ -1253,7 +1253,7 @@
 			"{SOURCE Monster Hunter's Handbook/23}",
 			"",
 			"Your understanding of dragons helps you to easily avoid breath weapons.  ",
-			"**Prerequisites:** Favored enemy (dragon) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (dragon) class feature.  ",
 			"**Benefit:** You gain a bonus on saving throws against breath weapons and fear effects equal to half your favored enemy (dragon) bonus. Whenever you succeed at a Reflex saving throw against a dragon's extraordinary or supernatural ability that would deal half damage, you instead take no damage. If you already have the evasion class feature, you instead gain an inquisitor's stalwart ability against dragons' extraordinary and supernatural abilities."
 		]
 	},
@@ -1279,7 +1279,7 @@
 			"{SOURCE Monster Hunter's Handbook/23}",
 			"",
 			"Your attacks strike true against capricious targets like fey.  ",
-			"**Prerequisites:** Favored enemy (fey) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (fey) class feature.  ",
 			"**Benefit:** You gain a bonus on attack rolls to confirm critical hits equal to half your favored enemy (fey) bonus. You treat your weapon attacks against fey as cold iron for the purpose of overcoming damage reduction and regeneration."
 		]
 	},
@@ -1305,7 +1305,7 @@
 			"{SOURCE Monster Hunter's Handbook/23}",
 			"",
 			"You move in ways that confound creatures that would strike you repeatedly.  ",
-			"**Prerequisites:** Favored enemy (magical beast) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (magical beast) class feature.  ",
 			"**Benefit:** If a creature makes three or more attacks with natural weapons against you during its turn, you gain partial cover against the third and subsequent natural attacks from that creature. If the creature makes five or more attacks against you with natural weapons, you gain cover (instead of partial cover) against the fifth and subsequent natural attacks. If the attacker is a magical beast, reduce by one the number of natural attacks it must make in order for you to gain cover or partial cover."
 		]
 	},
@@ -1318,7 +1318,7 @@
 			"{SOURCE Monster Hunter's Handbook/23}",
 			"",
 			"You've learned to avoid and overcome the engulfing attacks of your studied prey.  ",
-			"**Prerequisites:** Favored enemy (ooze) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (ooze) class feature.  ",
 			"**Benefit:** You gain a bonus to your CMD equal to half your favored enemy (ooze) bonus. You also gain acid resistance equal to half your favored enemy (ooze) bonus. Against oozes, you instead apply your full favored enemy (ooze) bonus for both benefits."
 		]
 	},
@@ -1331,7 +1331,7 @@
 			"{SOURCE Monster Hunter's Handbook/23}",
 			"",
 			"You've learned to attack in a way that stymies the natural resistances common in outsiders.  ",
-			"**Prerequisites:** Favored enemy (outsider) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (outsider) class feature.  ",
 			"**Benefit:** Your weapon attacks ignore a number of points of damage reduction equal to half your favored enemy (outsider [any one]) bonus. This feat allows you to ignore only damage reduction that is normally bypassed by chaotic-, evil-, good-, or lawful-aligned weapons. Against outsiders that match your favored enemy subtype, the amount of damage reduction and hardness you ignore is equal to your full favored class bonus."
 		]
 	},
@@ -1371,7 +1371,7 @@
 			"{SOURCE Monster Hunter's Handbook/23}",
 			"",
 			"You are quick to dodge and slash anything that would ensnare you.  ",
-			"**Prerequisites:** Favored enemy (plant) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (plant) class feature.  ",
 			"**Benefit:** You gain a bonus equal to half your favored enemy (plant) bonus on Reflex saves to avoid being entangled and to your CMD whenever an opponent attempts to grapple you. Your weapons' critical hit multipliers increase by one against creatures with the plant type."
 		]
 	},
@@ -1432,7 +1432,7 @@
 			"{SOURCE Monster Hunter's Handbook/23}",
 			"",
 			"Your knowledge of the undead makes you especially effective when fighting them.  ",
-			"**Prerequisites:** Favored enemy (undead) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (undead) class feature.  ",
 			"**Benefit:** You gain a bonus equal to half your favored enemy (undead) bonus on saving throws against ability damage, ability drain, energy drain, and negative energy effects. Once per day, when an undead creature's natural attack against you deals ability damage, deals ability drain, or bestows 1 or more negative levels, you can negate the damage, drain, or negative levels as an immediate action."
 		]
 	},
@@ -1445,7 +1445,7 @@
 			"{SOURCE Monster Hunter's Handbook/23}",
 			"",
 			"Your experience with vermin resists the attacks of swarms.  ",
-			"**Prerequisites:** Favored enemy (vermin) class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} (vermin) class feature.  ",
 			"**Benefit:** You gain DR/- equal to half your favored enemy (vermin) bonus against vermin and creatures with the swarm subtype. When attempting Fortitude saves against a swarm's distraction ability, you gain a bonus on the save equal to the damage prevented by this feat. Against vermin with the swarm subtype, the amount of damage reduction is equal to your full favored enemy (vermin) bonus. This damage reduction does not stack with that from other sources."
 		]
 	},
@@ -1493,7 +1493,7 @@
 			"{SOURCE Ultimate Wilderness/112;Heroes of the Wild/26}",
 			"",
 			"The spells you cast are particularly effective against your favored enemies.  ",
-			"**Prerequisites:** Ability to cast 1st-level spells, favored enemy class feature.  ",
+			"**Prerequisites:** Ability to cast 1st-level spells, {ability/favored enemy} class feature.  ",
 			"**Benefit:** Your favored enemies take a -1 penalty on saving throws against spells you cast. Furthermore, you gain your favored enemy bonus on Spellcraft checks to identify spells cast by favored enemies."
 		]
 	},
@@ -1677,7 +1677,7 @@
 			"{SOURCE Ultimate Wilderness/112}",
 			"",
 			"You are a master of woodcraft and forest lore and can move through even the densest of trees with ease and grace.  ",
-			"**Prerequisites:** Favored terrain (forest) class feature.  ",
+			"**Prerequisites:** {ability/Favored terrain} (forest) class feature.  ",
 			"**Benefit:** You ignore difficult terrain created by light or heavy undergrowth, and you ignore increased DCs for Acrobatics and Stealth checks in light or heavy undergrowth. In addition, you can use trees to shield yourself from attacks, gaining a +1 cover bonus to your AC whenever you are adjacent to a tree (including while climbing). If you are adjacent to two or more trees simultaneously, you gain a +2 cover bonus to your AC and a +1 bonus on Reflex saving throws."
 		]
 	},
@@ -1917,7 +1917,7 @@
 			"{SOURCE Dungeon Denizens Revisited/18}",
 			"",
 			"You have acquired a resistance to the acids of oozes.  ",
-			"**Prerequisites:** Favored enemy (ooze) or survived engulfing by an ooze.  ",
+			"**Prerequisites:** {ability/Favored enemy} (ooze) or survived engulfing by an ooze.  ",
 			"**Benefit:** You gain acid resistance 5."
 		]
 	},
@@ -3053,7 +3053,7 @@
 			"{SOURCE Inner Sea Gods/213}",
 			"",
 			"You viciously hunt and sacrifice metallic dragons.  ",
-			"**Prerequisites:** Favored enemy (dragon), worshiper of Dahak.  ",
+			"**Prerequisites:** {ability/Favored enemy} (dragon), worshiper of Dahak.  ",
 			"**Benefit:** Your favored enemy bonuses increase by 2 against metallic dragons."
 		]
 	},
@@ -3863,7 +3863,7 @@
 			"{SOURCE Ultimate Wilderness/115}",
 			"",
 			"You are thoroughly at home in the high peaks and precipices of alpine territory.  ",
-			"**Prerequisites:** Favored terrain (mountains) class feature.  ",
+			"**Prerequisites:** {ability/Favored terrain} (mountains) class feature.  ",
 			"**Benefit:** You gain a +2 bonus on Climb checks on natural stone surfaces and a +4 bonus on Fortitude saves to avoid high-altitude fatigue and altitude sickness. If you spend 24 hours at a dangerous altitude, you treat that altitude as if it were one category lower. If you spend at least 1 week at that altitude, you are immune to altitude fatigue or sickness. If you go to a lower altitude for more than 1 week, you lose this acclimation."
 		]
 	},
@@ -4028,7 +4028,7 @@
 			"You are used to fighting in muck and slime, and happily hurl it in your foes' eyes in the heat of battle.  ",
 			"**Prerequisites:** {feat/Throw Anything}.  ",
 			"**Benefit:** As a standard action when in urban or subterranean terrain, you can scoop filth, sewage, mud, or similar grime off a nearby surface and hurl it at a foe as a ranged touch attack with a range increment of 5 feet. If the attack hits, you can immediately attempt a dirty trick combat maneuver against the target as a free action; this dirty trick can be used only to blind the target. As a ranged touch attack, this action provokes attacks of opportunity, even if your dirty trick attempts normally wouldn't provoke such attacks (such as via the {feat/Improved Dirty Trick} feat).  ",
-			"**Special:** A character with favored terrain (as the ranger class feature) can use this feat when in any of his favored terrains in addition to urban and subterranean."
+			"**Special:** A character with {ability/favored terrain} (as the ranger class feature) can use this feat when in any of his favored terrains in addition to urban and subterranean."
 		]
 	},
 	"muddled_morals": {
@@ -4268,7 +4268,7 @@
 			"{SOURCE Monster Codex/164}",
 			"",
 			"Others hate you, and their hatred feeds your own.  ",
-			"**Benefit:** You gain a +1 bonus on attack rolls and damage rolls against creatures whose hatred racial trait or favored enemy class feature applies to you. For instance, an orc would gain this bonus against all dwarves and against rangers who chose humanoid (orc) as a favored enemy."
+			"**Benefit:** You gain a +1 bonus on attack rolls and damage rolls against creatures whose hatred racial trait or {ability/favored enemy} class feature applies to you. For instance, an orc would gain this bonus against all dwarves and against rangers who chose humanoid (orc) as a favored enemy."
 		]
 	},
 	"my_blade_is_yours": {
@@ -4493,7 +4493,7 @@
 			"{SOURCE Heroes of the Darklands/5}",
 			"",
 			"You use your surroundings to overcome obstacles.  ",
-			"**Prerequisites:** Favored terrain class feature.  ",
+			"**Prerequisites:** {ability/Favored terrain} class feature.  ",
 			"**Benefit:** While you're in any of your favored terrains, you apply half your favored terrain bonus to Acrobatics, Climb, and Swim skill checks."
 		]
 	},
@@ -4684,7 +4684,7 @@
 			"",
 			"You have removed yourself from your heritage so thoroughly that even magic does not recognize you.  ",
 			"**Prerequisites:** {feat/Exile's Path}, {feat/Seen and Unseen}, character level 11th, half-elf.  ",
-			"**Benefit:** You are not considered elven or human for the purpose of harmful spells or effects based on your type, like a bane weapon or a ranger's favored enemy class feature."
+			"**Benefit:** You are not considered elven or human for the purpose of harmful spells or effects based on your type, like a {magic-enh/bane} weapon or a ranger's {ability/favored enemy} class feature."
 		]
 	},
 	"nemesis": {

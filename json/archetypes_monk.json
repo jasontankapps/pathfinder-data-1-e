@@ -466,7 +466,7 @@
 			"",
 			"**Tough as Nails (Ex):** At 6th level, an ironskin monk gains DR 1/-. Subtract 1 point from the damage the ironskin monk takes each time he is dealt damage from a weapon or a natural attack. This damage reduction increases by 1 point at 9th level and every 3 levels thereafter. Damage reduction can reduce damage to 0 but not below 0. This ability replaces fast movement and slow fall.",
 			"",
-			"**Evasion (Ex):** At 9th level, an ironskin monk gains evasion. This ability replaces improved evasion.",
+			"**Evasion (Ex):** At 9th level, an ironskin monk gains {ability/evasion}. This ability replaces improved evasion.",
 			"",
 			"**Surefooted (Ex):** At 17th level, an ironskin monk's speed is not reduced by difficult terrain. This ability replaces tongue of the sun and moon.",
 			"",
@@ -858,7 +858,7 @@
 			"",
 			"**Guardian Feline (Su):** At 7th level, a nimble guardian can transform himself into a feline creature by spending 2 ki points. The effect lasts for 1 hour or until the nimble guardian changes back. Changing form (to animal or back) is a standard action and does not provoke an attack of opportunity. The chosen form must be some form of feline ({monster/cheetah}, {monster/lion}, etc.). This ability is otherwise identical to {spell/beast shape II}. At 9th level, this ability functions as {spell/beast shape III}. This ability replaces wholeness of body.",
 			"",
-			"**Evasion (Ex):** At 9th level, a nimble guardian gains evasion. This ability replaces improved evasion."
+			"**Evasion (Ex):** At 9th level, a nimble guardian gains {ability/evasion}. This ability replaces improved evasion."
 		]
 	},
 	"nornkith": {
@@ -916,7 +916,7 @@
 			"",
 			"An Ouat can use this ability a number of times per day equal to his class level, but no more than once per round. This ability replaces the stunning fist monk class feature and the greed and hatred racial traits.",
 			"",
-			"**Spurn Tradition (Ex):** Ouat dwarves strive to separate themselves from the rest of their race and the traditions that bind them. The bonuses for nonmagical effects that target or specifically affect dwarf subtype creatures (such as a ranger's favored enemy class feature) are all reduced by half. In addition, an Ouat becomes proficient in one martial weapon with the monk property. This ability replaces the dwarf's defensive training, stonecunning, and weapon familiarity racial traits.",
+			"**Spurn Tradition (Ex):** Ouat dwarves strive to separate themselves from the rest of their race and the traditions that bind them. The bonuses for nonmagical effects that target or specifically affect dwarf subtype creatures (such as a ranger's {ability/favored enemy} class feature) are all reduced by half. In addition, an Ouat becomes proficient in one martial weapon with the monk property. This ability replaces the dwarf's defensive training, stonecunning, and weapon familiarity racial traits.",
 			"",
 			"**Know the Unseen Disciples (Su):** At 7th level, an Ouat can spot hidden creatures, as if using the spell {spell/see invisibility}. Using this ability is a standard action that consumes 2 points from his ki pool. His caster level for this effect is equal to his class level. This ability replaces wholeness of body."
 		]
@@ -1765,7 +1765,7 @@
 			"",
 			"**Way of the Weapon Master (Ex):** At 2nd level, a weapon adept gains {feat/Weapon Focus} as a bonus feat with one of his monk weapons. At 6th level, the monk gains {feat/Weapon Specialization} with the same weapon as a bonus feat, even if he does not meet the prerequisites. This ability replaces evasion.",
 			"",
-			"**Evasion (Ex):** At 9th level, the monk gains evasion. This ability replaces improved evasion.",
+			"**Evasion (Ex):** At 9th level, the monk gains {ability/evasion}. This ability replaces improved evasion.",
 			"",
 			"**Uncanny Initiative (Ex):** At 17th level, a weapon adept does not need to roll for initiative. He always treats his initiative roll as if it resulted in any number of his choosing (from 1 to 20). This ability replaces timeless body.",
 			"",

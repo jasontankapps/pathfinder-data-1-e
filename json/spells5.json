@@ -3540,7 +3540,7 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"When casting this spell, you designate a type or type and subtype of creature (using the {class/ranger}'s favored enemy categories) and a type of terrain (using the list of ranger's favored terrain categories). Targets of the spell gain a +2 sacred bonus on Bluff, Perception, Sense Motive, and Survival checks attempted against creatures of the selected type, and a +2 sacred bonus on attack rolls and damage rolls made against creatures of that type. Furthermore, they gain a +2 sacred bonus on initiative checks, Perception, Stealth, and Survival checks while they are in the type of terrain you designate. Lastly, when tracking the designated creature type in the chosen terrain, the targets can follow the tracks of such creatures untrained, even if the DC for the task is 11 or higher."
+			"When casting this spell, you designate a type or type and subtype of creature (using the {class/ranger}'s {ability/favored enemy} categories) and a type of terrain (using the list of ranger's {ability/favored terrain} categories). Targets of the spell gain a +2 sacred bonus on Bluff, Perception, Sense Motive, and Survival checks attempted against creatures of the selected type, and a +2 sacred bonus on attack rolls and damage rolls made against creatures of that type. Furthermore, they gain a +2 sacred bonus on initiative checks, Perception, Stealth, and Survival checks while they are in the type of terrain you designate. Lastly, when tracking the designated creature type in the chosen terrain, the targets can follow the tracks of such creatures untrained, even if the DC for the task is 11 or higher."
 		]
 	},
 	"hunters_eye": {
@@ -3596,7 +3596,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** no",
 			"",
-			"With a single primal howl, you strike fear in your opponents. Until the end of the spell's duration, you treat those affected by it as if they were your favored enemy, gaining a +2 bonus on weapon attack and damage rolls against them, and a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against them. If an affected creature is already one of your favored enemies, it is shaken instead. This is a mind-affecting fear effect."
+			"With a single primal howl, you strike fear in your opponents. Until the end of the spell's duration, you treat those affected by it as if they were your {ability/favored enemy}, gaining a +2 bonus on weapon attack and damage rolls against them, and a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against them. If an affected creature is already one of your favored enemies, it is shaken instead. This is a mind-affecting fear effect."
 		]
 	},
 	"hunters_lore": {
@@ -3633,7 +3633,7 @@
 			"**Duration** 24 hours or until discharged  ",
 			"**Saving Throw** Will negates (harmless, object); **Spell Resistance** yes (harmless, object)",
 			"",
-			"Choose one creature type (and subtype, if applicable) from the ranger's favored enemy list. When you cast this spell, the targeted spear hums with destructive energy and functions as a +1 spear against creatures of the selected type.",
+			"Choose one creature type (and subtype, if applicable) from the ranger's {ability/favored enemy} list. When you cast this spell, the targeted spear hums with destructive energy and functions as a +1 spear against creatures of the selected type.",
 			"",
 			"You can discharge this spell in order to make an especially powerful attack with the spear. The spear's critical range becomes 18-20 and its critical multiplier becomes &times;3. If you make this attack as part of a charge action, you gain an enhancement bonus of +30 feet to your base speed while performing the charge. If you throw the spear as part of this attack, its range increment increases to 80 feet. If you cast this spell on a masterwork spear, it also gains the bane special ability against the selected creature type and automatically bypasses any damage reduction (except DR/-) regardless of the creature's type. After resolving the attack, the spear is completely destroyed in a burst of energy.",
 			"",

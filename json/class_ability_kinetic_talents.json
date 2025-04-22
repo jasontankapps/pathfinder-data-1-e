@@ -1920,7 +1920,7 @@
 			"**Element** air; **Type** utility (Su); **Level** 3; **Burn** 1  ",
 			"**Prerequisite** enveloping winds",
 			"",
-			"You use wind to buffet yourself away from area attacks. Until the next time your burn is removed, you gain evasion, as the rogue class feature."
+			"You use wind to buffet yourself away from area attacks. Until the next time your burn is removed, you gain {ability/evasion}, as the rogue class feature."
 		]
 	},
 	"aether_architect": {

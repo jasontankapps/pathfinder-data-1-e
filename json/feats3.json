@@ -787,7 +787,7 @@
 			"{SOURCE Ultimate Wilderness/110;Heroes of the Wild/26}",
 			"",
 			"You can draw raw magical energy from the ground to empower your spells.  ",
-			"**Prerequisites:** Ability to cast 1st-level spells, favored terrain class feature.  ",
+			"**Prerequisites:** Ability to cast 1st-level spells, {ability/favored terrain} class feature.  ",
 			"**Benefit:** While you're in your favored terrain, your effective caster level increases by 1 for the purpose of improving spell effects dependent on caster level. This increase in effective caster level doesn't grant you access to more spells."
 		]
 	},
@@ -1433,7 +1433,7 @@
 			"{SOURCE Pathfinder #115: Trail of the Hunted/74}",
 			"",
 			"You can better resist arcane trickery from your hated foes.  ",
-			"**Prerequisites:** Favored enemy class feature, hobgoblin.  ",
+			"**Prerequisites:** {ability/Favored enemy} class feature, hobgoblin.  ",
 			"**Benefit:** In addition to the normal benefits against your favored enemies, you add half your favored enemy bonus on saving throws made against arcane spells, spell-like abilities, and supernatural abilities of your favored enemies."
 		]
 	},
@@ -4801,7 +4801,7 @@
 			"{SOURCE Ultimate Magic/150}",
 			"",
 			"Your empathic attunement to nature connects you swiftly with bestial minds.  ",
-			"**Prerequisites:** Handle Animal 5 ranks, wild empathy class feature.  ",
+			"**Prerequisites:** Handle Animal 5 ranks, {ability/wild empathy} class feature.  ",
 			"**Benefit:** Using wild empathy is a standard action for you.  ",
 			"**Normal:** Using wild empathy requires 1 minute.",
 			"",
@@ -4929,7 +4929,7 @@
 			"",
 			"You know your local community like the back of your hand.  ",
 			"**Prerequisites:** Knowledge (local) 2 ranks, must have lived in the settlement for at least 1 year.  ",
-			"**Benefit:** Select a permanent, stationary settlement. While in that settlement, you gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks, as per the ranger's favored terrain class feature. If you already have that class feature and apply its bonuses in your favored community, increase the bonus provided by favored terrain by 2. The bonuses from this feat do not stack with other effects that provide or augment favored terrain bonuses, such as boots of friendly terrain."
+			"**Benefit:** Select a permanent, stationary settlement. While in that settlement, you gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks, as per the ranger's {ability/favored terrain} class feature. If you already have that class feature and apply its bonuses in your favored community, increase the bonus provided by favored terrain by 2. The bonuses from this feat do not stack with other effects that provide or augment favored terrain bonuses, such as boots of friendly terrain."
 		]
 	},
 	"favored_defense": {
@@ -4941,7 +4941,7 @@
 			"{SOURCE Advanced Player's Guide/160}",
 			"",
 			"Your cunning is your shield against your quarry's attacks.  ",
-			"**Prerequisites:** Favored enemy class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} class feature.  ",
 			"**Benefit:** Choose one of your favored enemy types. You add half your favored enemy bonus to your CMD and as a dodge bonus to AC when attacked by a favored enemy.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new favored enemy type."
 		]

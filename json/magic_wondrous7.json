@@ -1060,7 +1060,7 @@
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** shoulders; **Price** 6,500 gp; **Weight** 2 lbs.",
 			"",
-			"Snowborn frequently fight off hostile enemies of both the intelligent and animalistic varieties. The smart half-elf knows that he can't lose a fight that never begins and makes every attempt to stave off combat. This white fur stole helps the wary snowborn, or anyone else, temporarily calm down opponents. While wearing this stole, the wearer gains a +2 competence bonus on Diplomacy checks to improve someone's attitude and on wild empathy checks to improve an animal's attitude. Three times per day on command, the wearer can activate the stole to gain a 20-foot radius aura of either {spell/calm animals} or {spell/calm emotions} for 1 minute (Will DC 13 negates). The stole also functions as cold weather clothing.",
+			"Snowborn frequently fight off hostile enemies of both the intelligent and animalistic varieties. The smart half-elf knows that he can't lose a fight that never begins and makes every attempt to stave off combat. This white fur stole helps the wary snowborn, or anyone else, temporarily calm down opponents. While wearing this stole, the wearer gains a +2 competence bonus on Diplomacy checks to improve someone's attitude and on {ability/wild empathy} checks to improve an animal's attitude. Three times per day on command, the wearer can activate the stole to gain a 20-foot radius aura of either {spell/calm animals} or {spell/calm emotions} for 1 minute (Will DC 13 negates). The stole also functions as cold weather clothing.",
 			"",
 			"### Construction",
 			"",
@@ -1133,7 +1133,7 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 7,500 gp; **Weight** 1 lb.",
 			"",
-			"Usually made from the skins of giant serpents, these cloaks are designed to help rangers, hunters, and trackers blend in with and travel quickly through the areas they are most familiar with. If the wearer has the favored terrain class ability and is traveling through one of his favored terrains, he can transform himself into an animal native to that environment. This works identically to the {spell/beast shape I} spell, save that it is limited to creatures native to the environment (as defined in the appropriate Bestiary entry or per the GMs discretion). This effect lasts for 10 minutes per day. The duration need not be continuous, but it must be used in 1-minute increments.",
+			"Usually made from the skins of giant serpents, these cloaks are designed to help rangers, hunters, and trackers blend in with and travel quickly through the areas they are most familiar with. If the wearer has the {ability/favored terrain} class ability and is traveling through one of his favored terrains, he can transform himself into an animal native to that environment. This works identically to the {spell/beast shape I} spell, save that it is limited to creatures native to the environment (as defined in the appropriate Bestiary entry or per the GMs discretion). This effect lasts for 10 minutes per day. The duration need not be continuous, but it must be used in 1-minute increments.",
 			"",
 			"### Construction",
 			"",
@@ -3871,7 +3871,7 @@
 			"",
 			"The totemic figurine follows all the normal rules for figurines of wondrous power. When animated, the totemic figurine turns into a {monster/megaloceros} that understands Common and is under the command of the figurine's bearer. The totemic figurine can be used up to 3 times per week for up to 1 hour with each use. Should the creature be slain while it is animated, it reverts to the form of a statuette and cannot be activated for 1 week.",
 			"",
-			"**7th Level:** The bearer gains the [wild empathy](class/druid) class feature as a druid of her character level, but the ability is effective only with dinosaurs, dire tigers, mastodons, and other megafauna.",
+			"**7th Level:** The bearer gains the {ability/wild empathy} class feature as a druid of her character level, but the ability is effective only with dinosaurs, dire tigers, mastodons, and other megafauna.",
 			"",
 			"**11th Level:** The totemic figurine can instead take the form of a {monster/dire tiger}.",
 			"",
@@ -3904,7 +3904,7 @@
 			"**16th Level:** Once per day, the wearer can use {spell/find the path} as a spell-like ability.",
 			"",
 			"**Goal:** The wearer must travel 1,000 miles by foot.  ",
-			"**Reward:** Each morning the wearer can designate one type of terrain from the {class/ranger/'s} list of favored terrain as his favored terrain for the day. While in that terrain, he gains a bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
+			"**Reward:** Each morning the wearer can designate one type of terrain from the {class/ranger/'s} list of {ability/favored terrain} as his favored terrain for the day. While in that terrain, he gains a bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
 		]
 	},
 	"wayfinder_of_cooperation": {

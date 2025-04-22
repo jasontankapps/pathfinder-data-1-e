@@ -371,7 +371,13 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 70 ] ],
 		"category": "basic",
 		"description": [
-			"2nd - {spell/jump}, 4th - {spell/bear's endurance}, 6th - {spell/beast shape I}, 8th - {spell/beast shape II}, 10th - {spell/beast shape III}, 12th - {spell/form of the dragon I}, 14th - {spell/form of the dragon II}, 16th - {spell/form of the dragon III}, 18th - {spell/shapechange}."
+			"2nd - {spell/jump}, 4th - {spell/bear's endurance}, 6th - {spell/beast shape I}, 8th - {spell/beast shape II}, 10th - {spell/beast shape III}, 12th - {spell/form of the dragon I}, 14th - {spell/form of the dragon II}, 16th - {spell/form of the dragon III}, 18th - {spell/shapechange}.",
+			"",
+			";;;aside",
+			"",
+			"When a witch with a Transformation patron gains the ability to choose a major hex, they may learn an {ability/annointing>s} in place of a new hex.",
+			"",
+			";;;"
 		]
 	},
 	"trickery": {

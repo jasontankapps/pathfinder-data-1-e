@@ -407,7 +407,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You are adept at tricking favored enemies of your race or those related to your race. You gain a +1 trait bonus on all Bluff checks against favored enemies that share one of your subtypes. You also gain a +1 trait bonus on attack rolls made against such favored enemies during the surprise round."
+			"You are adept at tricking {ability/favored enemies} of your race or those related to your race. You gain a +1 trait bonus on all Bluff checks against favored enemies that share one of your subtypes. You also gain a +1 trait bonus on attack rolls made against such favored enemies during the surprise round."
 		],
 		"sourceEnd": true,
 		"category": "Combat",
@@ -632,7 +632,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You are skilled at subduing your enemies. Whenever you attack one of your favored enemies with a weapon that deals lethal damage and choose to deal nonlethal damage, you take only a -2 penalty on the attack roll instead of the normal -4."
+			"You are skilled at subduing your enemies. Whenever you attack one of your {ability/favored enemies} with a weapon that deals lethal damage and choose to deal nonlethal damage, you take only a -2 penalty on the attack roll instead of the normal -4."
 		],
 		"sourceEnd": true,
 		"category": "Combat",
@@ -656,7 +656,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"Larger enemies have a hard time striking you. You gain a +1 dodge bonus to AC against enemies that are both your favored enemy and at least two size categories larger than you."
+			"Larger enemies have a hard time striking you. You gain a +1 dodge bonus to AC against enemies that are both your {ability/favored enemy} and at least two size categories larger than you."
 		],
 		"sourceEnd": true,
 		"category": "Combat",
@@ -693,7 +693,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"Divine powers smile upon you each time you grievously wound a favored enemy. When you confirm a critical hit against a favored enemy, you may extend the duration of any divine spell affecting you by 1 round. The benefits from multiple critical hits stack. Divine spells with an instantaneous duration can't be extended in this manner."
+			"Divine powers smile upon you each time you grievously wound a favored enemy. When you confirm a critical hit against a {ability/favored enemy}, you may extend the duration of any divine spell affecting you by 1 round. The benefits from multiple critical hits stack. Divine spells with an instantaneous duration can't be extended in this manner."
 		],
 		"sourceEnd": true,
 		"category": "Combat",
@@ -862,7 +862,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"When you watch and wait before attacking, your strike is true. You gain a +1 trait bonus on attack rolls against your favored enemies when you make such attacks as part of a readied action."
+			"When you watch and wait before attacking, your strike is true. You gain a +1 trait bonus on attack rolls against your {ability/favored enemies} when you make such attacks as part of a readied action."
 		],
 		"sourceEnd": true,
 		"category": "Combat",
@@ -1653,7 +1653,7 @@
 			"**Type:** Combat  ",
 			"**Requirements:** Member of The [Pathfinder Society](rule/aff_scholars)",
 			"",
-			"Thanks to your time as a Pathfinder, you've mastered the art of tracking. You gain a +1 trait bonus on initiative checks and a +2 trait bonus on Survival checks made while traveling through any of your favored terrains. This is in addition to any bonuses you receive from your favored terrain class ability."
+			"Thanks to your time as a Pathfinder, you've mastered the art of tracking. You gain a +1 trait bonus on initiative checks and a +2 trait bonus on Survival checks made while traveling through any of your favored terrains. This is in addition to any bonuses you receive from your {ability/favored terrain} class ability."
 		],
 		"sourceEnd": true,
 		"category": "Combat",
@@ -2363,7 +2363,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"Upon overcoming your fear, you become a scourge to your enemies. You gain a +1 trait bonus on all saving throws against fear effects. In addition, if you successfully save against such an effect, you receive a +1 trait bonus on attack rolls against your favored enemies for 1 round."
+			"Upon overcoming your fear, you become a scourge to your enemies. You gain a +1 trait bonus on all saving throws against fear effects. In addition, if you successfully save against such an effect, you receive a +1 trait bonus on attack rolls against your {ability/favored enemies} for 1 round."
 		],
 		"sourceEnd": true,
 		"category": "Faith",
@@ -3211,7 +3211,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"You restlessly pursue your enemies. When you're in pursuit of one of your favored enemies, the DC for the Constitution check to avoid taking lethal damage during a forced march is 10 + 1 per extra hour, instead of 10 + 2 per extra hour."
+			"You restlessly pursue your enemies. When you're in pursuit of one of your {ability/favored enemies}, the DC for the Constitution check to avoid taking lethal damage during a forced march is 10 + 1 per extra hour, instead of 10 + 2 per extra hour."
 		],
 		"sourceEnd": true,
 		"category": "Faith",
@@ -4509,7 +4509,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You know a good deal about your most dire enemies. You gain a +1 trait bonus on checks with the Knowledge skill corresponding to your first favored enemy choice, and that Knowledge skill is always a class skill for you."
+			"You know a good deal about your most dire enemies. You gain a +1 trait bonus on checks with the Knowledge skill corresponding to your first {ability/favored enemy} choice, and that Knowledge skill is always a class skill for you."
 		],
 		"sourceEnd": true,
 		"category": "Social",
@@ -4976,7 +4976,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You gain a +2 trait bonus on Survival checks to track dragons. If you have the favored terrain class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon."
+			"You gain a +2 trait bonus on Survival checks to track dragons. If you have the {ability/favored terrain} class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon."
 		],
 		"sourceEnd": true,
 		"category": "Social",

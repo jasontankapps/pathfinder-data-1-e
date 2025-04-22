@@ -501,7 +501,7 @@
 			"**Prerequisites:** Dex 15, {feat/Nimble Moves}.  ",
 			"**Benefit:** You gain a +2 bonus on Acrobatics checks to keep your balance and Reflex saves to avoid falling. Additionally, select one terrain type from the ranger list of favored terrains. Within that terrain, the maximum number of feet of difficult terrain you can move through as if it were normal terrain increases by 10 feet.  ",
 			"**Normal:** {feat/Nimble Moves} allows you to move through 5 feet of difficult terrain each round as if it were normal terrain.  ",
-			"**Special:** If you have the favored terrain class feature, you do not select a terrain with this feat. Instead, this feat's increased movement through difficult terrain applies to all of your favored terrains."
+			"**Special:** If you have the {ability/favored terrain} class feature, you do not select a terrain with this feat. Instead, this feat's increased movement through difficult terrain applies to all of your favored terrains."
 		]
 	},
 	"bounteous_body": {
@@ -1567,7 +1567,7 @@
 			"{SOURCE Gnomes of Golarion/31}",
 			"",
 			"You know exactly how to insult your favored enemies in order to make them lose their heads.  ",
-			"**Prerequisites:** Bluff 1 rank, favored enemy class feature, gnome.  ",
+			"**Prerequisites:** Bluff 1 rank, {ability/favored enemy} class feature, gnome.  ",
 			"**Benefit:** As a standard action, you can make a Bluff check against one sort of favored enemy. Any creature of that type within 60 feet of you must make a Will saving throw or become angered. If an affected creature attacks you, it's treated as if it were using {feat/Power Attack} (taking a penalty on attack rolls but gaining a bonus on damage rolls). If the creature already has the power attack feat, the attack penalty increases by 1 and the damage bonus increases by 2. These modifiers end when combat ends.",
 			"",
 			"This ability does not work on creatures that cannot understand you, though sometimes a simple gesture is sufficient for an intelligent opponent to catch your gist regardless of any language barrier."
@@ -4244,7 +4244,7 @@
 			"",
 			"Your spells are more effective against creatures that you especially abhor.  ",
 			"**Prerequisites:** Ability to cast spells.  ",
-			"**Benefit:** When you select this feat, choose a creature type or a humanoid subtype from the Ranger Favored Enemies table. When creatures of the chosen type attempt saving throws against your spells, they treat the spells' DCs as 1 higher. If you also have the favored enemy class feature and the chosen type is already a favored enemy of yours, such creatures treat your spells' DCs as 2 higher.  ",
+			"**Benefit:** When you select this feat, choose a creature type or a humanoid subtype from the Ranger {ability/Favored Enemies} table. When creatures of the chosen type attempt saving throws against your spells, they treat the spells' DCs as 1 higher. If you also have the {ability/favored enemy} class feature and the chosen type is already a favored enemy of yours, such creatures treat your spells' DCs as 2 higher.  ",
 			"**Special:** You can take this feat multiple times. Each time you do, it applies to a different creature type."
 		]
 	},

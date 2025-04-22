@@ -311,7 +311,7 @@
 			"{SOURCE Ultimate Wilderness/30}  ",
 			"The aspect of the mouse offers the ability to gain access to hard-to-reach places while avoiding many attacks and effects.",
 			"",
-			"**Minor Form:** You gain evasion, as per the rogue class feature. At 12th level, this benefit becomes improved evasion, as per the rogue advanced talent.",
+			"**Minor Form:** You gain {ability/evasion}, as per the rogue class feature. At 12th level, this benefit becomes {talent/improved evasion}, as per the rogue advanced talent.",
 			"",
 			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a Tiny mouse (as per the {monster/dire rat}, but with a space of 2-1/2 feet and a reach of 0 feet). While in this form, you gain a base speed of 30 feet, a climb speed of 20 feet, a swim speed of 20 feet, low-light vision, scent (30 feet), and a bite attack (1d4 damage), and you use your Dexterity modifier instead of your Strength modifier on Climb and Swim checks. At 8th level, your climb and swim speeds both increase to 40 feet. At 15th level, you do not provoke attacks of opportunity while moving through or out of a creature's threatened area or moving into its space, but you do when you leave its space.",
 			"",

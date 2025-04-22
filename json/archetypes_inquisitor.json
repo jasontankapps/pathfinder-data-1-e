@@ -603,7 +603,7 @@
 			"",
 			"This ability replaces detect alignment.",
 			"",
-			"**Favored Enemy (Ex):** At 3rd level, a royal accuser gains favored enemy, as the {class/ranger} class feature. He must choose his favored enemy from the following list: aberration, dragon, humanoid (orc), humanoid (shapechanger), and undead. He gains another favored enemy at 9th and 15th levels.",
+			"**Favored Enemy (Ex):** At 3rd level, a royal accuser gains {ability/favored enemy}, as the {class/ranger} class feature. He must choose his favored enemy from the following list: aberration, dragon, humanoid (orc), humanoid (shapechanger), and undead. He gains another favored enemy at 9th and 15th levels.",
 			"",
 			"This replaces solo tactics and the teamwork feats gained at 3rd, 9th, and 15th levels.",
 			"",
@@ -860,11 +860,11 @@
 			"",
 			"This ability replaces track.",
 			"",
-			"**Uncanny Dodge (Ex):** At 5th level, a traceless operative can react to danger before her senses would normally allow her to do so. She cannot be caught flat-footed, nor does she lose her Dexterity bonus to AC if the attacker is invisible. She still loses her Dexterity bonus to AC if immobilized. A traceless operative with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint action against her. If the traceless operative already possesses uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.",
+			"**Uncanny Dodge (Ex):** At 5th level, a traceless operative can react to danger before her senses would normally allow her to do so. She cannot be caught flat-footed, nor does she lose her Dexterity bonus to AC if the attacker is invisible. She still loses her Dexterity bonus to AC if immobilized. A traceless operative with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint action against her. If the traceless operative already possesses {ability/uncanny dodge} from a different class, she automatically gains improved uncanny dodge instead.",
 			"",
 			"This ability replaces bane.",
 			"",
-			"**Improved Uncanny Dodge (Ex):** At 12th level, a traceless operative can no longer be flanked. This defense denies {class/rogue/s} (or other classes with the sneak attack ability) the ability to sneak attack the traceless operative by flanking her, unless the attacker has at least 4 more rogue levels (or levels in a class that grants the sneak attack class ability) than the traceless operative has inquisitor levels. If the traceless operative already has improved uncanny dodge from another class, the levels from the classes that grant improved uncanny dodge stack when determining the minimum rogue level (or level in another class with the sneak attack ability) required to flank the character.",
+			"**Improved Uncanny Dodge (Ex):** At 12th level, a traceless operative can no longer be flanked. This defense denies {class/rogue/s} (or other classes with the sneak attack ability) the ability to sneak attack the traceless operative by flanking her, unless the attacker has at least 4 more rogue levels (or levels in a class that grants the sneak attack class ability) than the traceless operative has inquisitor levels. If the traceless operative already has {ability/improved uncanny dodge} from another class, the levels from the classes that grant improved uncanny dodge stack when determining the minimum rogue level (or level in another class with the sneak attack ability) required to flank the character.",
 			"",
 			"This ability replaces greater bane."
 		]

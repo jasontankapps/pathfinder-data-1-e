@@ -30,7 +30,7 @@
 			"{SOURCE Blood of the Sea/8}",
 			"",
 			"You can apply your specialized knowledge of hunting aberrations to make your spells harder for these monsters to resist.  ",
-			"**Prerequisites:** Caster level 4th, gillman, favored enemy (aberrations) class feature.  ",
+			"**Prerequisites:** Caster level 4th, gillman, {ability/favored enemy} (aberrations) class feature.  ",
 			"**Benefit:** Add half of your favored enemy bonus against aberrations to the saving throw DC of spells that you cast against aberrations and on caster level checks to overcome the spell resistance of aberrations."
 		]
 	},
@@ -1385,7 +1385,7 @@
 			"",
 			"You've learn how to replicate a number of animal calls native to wilderness environments.  ",
 			"**Prerequisites:** Bluff 1 rank, Knowledge (nature) 1 rank.  ",
-			"**Benefit:** Pick one of the ranger's favored terrains. You can use your Bluff skill to mimic the calls of animals native to that terrain. Creatures with ranks in Knowledge (nature) can use that skill in place of Sense Motive to detect your mimicry and realize that the sound is false.  ",
+			"**Benefit:** Pick one of the ranger's {ability/favored terrain/s}. You can use your Bluff skill to mimic the calls of animals native to that terrain. Creatures with ranks in Knowledge (nature) can use that skill in place of Sense Motive to detect your mimicry and realize that the sound is false.  ",
 			"**Special:** You can take this feat multiple times. Each time you do, select an additional favored terrain to which this feat applies."
 		]
 	},
@@ -1970,7 +1970,7 @@
 			"{SOURCE Ultimate Wilderness/106}",
 			"",
 			"You are comfortable in the driving snow and glaring ice of frigid climes, and you can survive much longer in such harsh environments than those who are unaccustomed to the cold.  ",
-			"**Prerequisites:** Favored terrain (cold) class feature.  ",
+			"**Prerequisites:** {ability/Favored terrain} (cold) class feature.  ",
 			"**Benefit:** You treat cold environments as though they were one step less severe than they normally are. Additionally, you gain a +2 bonus on Perception checks against creatures that gain a racial bonus on Stealth checks in snowy conditions, and you gain a +4 bonus on saving throws and checks to avoid becoming blinded or dazzled by ice or snow glare."
 		]
 	},
@@ -2646,7 +2646,7 @@
 			"",
 			"You share a strong mystic connection with one type of wilderness terrain.  ",
 			"**Prerequisites:** Elf.  ",
-			"**Benefit:** Select one type of terrain from the ranger class's favored terrain class feature (except urban). While you are in your selected terrain type, your natural healing rate (the amount of hit points and ability damage you heal from a full night's rest) doubles.  ",
+			"**Benefit:** Select one type of terrain from the ranger class's {ability/favored terrain} class feature (except urban). While you are in your selected terrain type, your natural healing rate (the amount of hit points and ability damage you heal from a full night's rest) doubles.  ",
 			"**Special:** You can take this feat multiple times. Its effects do not stack. Each time you take it, it applies to a different terrain type."
 		]
 	},
@@ -3339,7 +3339,7 @@
 			"",
 			"Thanks to your experience hunting in the wilds, you are capable of tracking animals in your most often traveled terrains, and you can easily take down animals larger than yourself.  ",
 			"**Prerequisites:** Base attack bonus +1; Knowledge (nature) or Survival 1 rank.  ",
-			"**Benefit:** Pick one of the ranger's favored terrains. You gain a +2 bonus on Survival checks to track animals native to that terrain. Additionally, against animals native to that terrain that are at least one size category larger than you, you gain a +1 dodge bonus to your AC and a +1 insight bonus on attack rolls.  ",
+			"**Benefit:** Pick one of the ranger's {ability/favored terrain/s}. You gain a +2 bonus on Survival checks to track animals native to that terrain. Additionally, against animals native to that terrain that are at least one size category larger than you, you gain a +1 dodge bonus to your AC and a +1 insight bonus on attack rolls.  ",
 			"**Special:** You can take this feat multiple times. Each time you select this feat, you can choose an additional favored terrain to gain the listed benefits in."
 		]
 	},
@@ -4110,7 +4110,7 @@
 			"You have learned to survive in dangerous environments.  ",
 			"**Prerequisites:** {feat/Skill Focus/ (Survival)}.  ",
 			"**Benefit:** You gain a +3 bonus on saving throws against environmental hazards and weather effects.  ",
-			"**Special:** If you have the favored terrain class feature and the blighted land being explored matches one of those terrains, you can choose to use your favored terrain bonus in place of the +3 bonus granted by this feat."
+			"**Special:** If you have the {ability/favored terrain} class feature and the blighted land being explored matches one of those terrains, you can choose to use your favored terrain bonus in place of the +3 bonus granted by this feat."
 		]
 	},
 	"blighted_critical": {
@@ -4646,7 +4646,7 @@
 			"",
 			"You are skilled at fighting criminal humans such as bandits.  ",
 			"**Prerequisites:** [Bloodstone Swords](rule/f_merceneries) 10 TPA.  ",
-			"**Benefit:** You gain a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against humans, and a +1 bonus on weapon attack and damage rolls against humans. If you have a favored enemy bonus against humans, this feat does not stack with that bonus."
+			"**Benefit:** You gain a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against humans, and a +1 bonus on weapon attack and damage rolls against humans. If you have a {ability/favored enemy} bonus against humans, this feat does not stack with that bonus."
 		]
 	}
 }

@@ -199,6 +199,12 @@ const specialContainerBlocks = {
 const getSpecialContainerBlocks = () => {
 	return specialContainerBlocks;
 };
+const getDuplicateSpecialContainerBlocks = () => {
+	return {
+		...specialContainerBlocks,
+		marker: ";;;"
+	};
+};
 
 const inlineTags = {
 	level: "inline",
@@ -471,6 +477,7 @@ const makeNewMarkedInstance = (initialUse = { gfm: true }, ...midArguments) => {
 		...presetDirectiveConfigs,
 		getAlternateBlocks(),
 		getSpecialContainerBlocks(),
+		getDuplicateSpecialContainerBlocks(),
 		getInlineTags()
 	]));
 	midArguments.forEach(option => marked.use(option));
@@ -606,7 +613,9 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 					l--;
 				}
 				// Handle the end-bits of `join`
-				const d = obj.description.map((line, j) => bq + (i || j ? "" : beginner) + line).join("@@@") + (i === max ? "" : ender);
+				const d = obj.description.map(
+					(line, j) => bq + (i || j ? "" : beginner) + line
+				).join("@@@") + (i === max ? "" : ender);
 				const sources = temporaryFlags.mainCompilation ? obj.compilationSources.map(arr => {
 					// main pages don't handle footnotes well, so ignore them
 					const [title, pg] = arr;
@@ -648,7 +657,8 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 						compilation.push(final, ...mid);
 					}
 				} else {
-					compilation.push(final, ...mid);
+					compilation.push(final);
+					i !== max && compilation.push(...mid);
 				}
 			});
 			if(pre) {

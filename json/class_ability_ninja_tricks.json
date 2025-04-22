@@ -556,7 +556,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Master Other Tricks",
 		"description": [
-			"The ninja can select a {ability/advanced_<rogue talent} from the list of Advanced Talents in place of a ninja trick. The ninja cannot select a rogue talent that has the same name as a ninja trick. The ninja cannot select improved evasion unless she has evasion (either as a class feature or as a ninja master trick)."
+			"The ninja can select a {ability/advanced_<rogue talent} from the list of Advanced Talents in place of a ninja trick. The ninja cannot select a rogue talent that has the same name as a ninja trick. The ninja cannot select {talent/improved evasion} unless she has evasion (either as a class feature or as a ninja master trick)."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},

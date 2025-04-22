@@ -38,7 +38,7 @@
 			"{SOURCE Ultimate Wilderness/117}",
 			"",
 			"Your connection your favored terrain is so intense that you draw strength from the power of nature itself.  ",
-			"**Prerequisites:** Favored terrain class feature.  ",
+			"**Prerequisites:** {ability/Favored terrain} class feature.  ",
 			"**Benefit:** In your favored terrain, you require only half the normal amount of food, water, and sleep, and your rate of natural healing is doubled. You add half your favored terrain bonus as a bonus on saving throws and Constitution checks to stave off the effects of cold exposure, heat exposure, starvation, and thirst in your favored terrain."
 		]
 	},
@@ -77,7 +77,7 @@
 			"{SOURCE Dungeon Denizens Revisited/18}",
 			"",
 			"You have a special bond with slimes and oozes.  ",
-			"**Prerequisites:** Wild empathy class feature.  ",
+			"**Prerequisites:** {ability/Wild empathy} class feature.  ",
 			"**Benefit:** You may target oozes with spells and special abilities that normally only affect animals as if the oozes were magical beasts with Intelligence 1, though they gain a +4 bonus to their saving throws. You may use wild empathy to influence oozes as easily as you influence magical beasts with Intelligence 1."
 		]
 	},
@@ -367,7 +367,7 @@
 			"{SOURCE Inner Sea Combat/12}",
 			"",
 			"You use knowledge of your hated foes to please onlookers.  ",
-			"**Prerequisites:** Base attack bonus +5, favored enemy class feature.  ",
+			"**Prerequisites:** Base attack bonus +5, {ability/favored enemy} class feature.  ",
 			"**Benefit:** When you spend a swift action to attempt a performance combat check, you may add your favored enemy bonus to the check if you're fighting a favored enemy.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -690,7 +690,7 @@
 			"{SOURCE Monster Hunter's Handbook/9}",
 			"",
 			"You are able to calm rampaging animals.  ",
-			"**Prerequisites:** Wild empathy class feature.  ",
+			"**Prerequisites:** {ability/Wild empathy} class feature.  ",
 			"**Benefit:** As a full-round action, you attempt to mollify an animal or magical beast with an Intelligence score of 1 or 2 and an attitude of hostile toward you or your allies. You attempt a wild empathy check (DC = 10 + the target's Hit Dice + the target's Charisma modifier). If you succeed, the target's attitude toward you and your allies becomes indifferent for 1 minute, and it does not attack during this time. If the target is attacked during this time or if the target can see you or your allies after 1 minute, it becomes hostile again. A creature can be affected by this pacification attempt only once in a 24-hour period.  ",
 			"**Special:** Animal companions and creatures under magical compulsion are harder to pacify; the DC for such creatures equals 15 + the target's Hit Dice + the target's Charisma modifier. An animal companion also applies its bonus on Will saves from the devotion ability to this DC, and attacking the animal's master also breaks this effect. An animal companion's master can direct the animal to attack again, but the DC of this Handle Animal check is increased by your wild empathy modifier."
 		]
@@ -1946,7 +1946,7 @@
 			"{SOURCE Ultimate Wilderness/117}",
 			"",
 			"You are a native of the wide and endless prairie, savanna, or steppe.  ",
-			"**Prerequisites:** Favored terrain (plains) class feature.  ",
+			"**Prerequisites:** {ability/Favored terrain} (plains) class feature.  ",
 			"**Benefit:** You and a mount you are riding gain a +2 bonus on Constitution checks to avoid damage and fatigue from hustling or a forced march. In plains terrain, this bonus is doubled and also applies on Survival checks to avoid getting lost, to find food and water, to protect yourself from severe weather, and to predict the weather."
 		]
 	},
@@ -2006,7 +2006,7 @@
 			"{SOURCE Champions of Balance/13}",
 			"",
 			"After careful study of otherworldly environments, you can quickly evaluate how an outsider reacts in its home surroundings. You can use your knowledge of the outsider's native environment to guide your attacks and overcome the outsider's natural resistances.  ",
-			"**Prerequisites:** Knowledge (planes) 5 ranks, favored terrain (any plane) class feature.  ",
+			"**Prerequisites:** Knowledge (planes) 5 ranks, {ability/favored terrain} (any plane) class feature.  ",
 			"**Benefit:** When you are on one of the planes you've selected as a favored terrain, you gain a +2 bonus on weapon attack rolls against outsiders native to that plane. You also ignore up to 5 points of damage reduction when making weapon attacks against outsiders native to that plane, except for damage reduction without a type (such as DR 10/-). In addition, you gain this bonus against extraplanar creatures you encounter and identify as being from one of your planar favored terrains, such as with a successful Knowledge (planes) check, regardless of what plane you or they are on.  ",
 			"**Special:** You may select this feat multiple times. Each time you take it, you apply it to a different qualifying favored terrain."
 		]

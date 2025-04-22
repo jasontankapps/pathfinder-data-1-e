@@ -90,7 +90,7 @@
 			"**Craft DC** 29; **Cost** 7,500 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"This suit of light woven-fiber armor covers the wearer from ankle to wrist and includes a hooded cowl. Its surface consists of millions of tiny, scale-like lenses and LED screens. When powered on, a chameleon suit analyzes its environment and generates digital camouflage. The wearer gains a +10 competence bonus on Stealth checks and can hide in plain sight (as a ranger in his favored terrain)."
+			"This suit of light woven-fiber armor covers the wearer from ankle to wrist and includes a hooded cowl. Its surface consists of millions of tiny, scale-like lenses and LED screens. When powered on, a chameleon suit analyzes its environment and generates digital camouflage. The wearer gains a +10 competence bonus on Stealth checks and can hide in plain sight (as a {class/ranger} in his favored terrain)."
 		]
 	},
 	"neraplast_armor": {

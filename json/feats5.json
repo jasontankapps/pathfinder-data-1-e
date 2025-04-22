@@ -354,7 +354,7 @@
 			"{SOURCE Ultimate Wilderness/115}",
 			"",
 			"You are skilled at intimidating animals with your bluster and fury.  ",
-			"**Prerequisites:** {feat/Greater Wild Empathy}, Intimidate 5 ranks, Knowledge (nature) 5 ranks, wild empathy class feature.  ",
+			"**Prerequisites:** {feat/Greater Wild Empathy}, Intimidate 5 ranks, Knowledge (nature) 5 ranks, {ability/wild empathy} class feature.  ",
 			"**Benefit:** You add your Wisdom modifier on Intimidate checks against animals in addition to your Charisma modifier. An animal with 4 or fewer Hit Dice is frightened instead of shaken on a successful Intimidate check to demoralize it."
 		]
 	},
@@ -536,7 +536,7 @@
 			"{SOURCE Heroes of the High Court/19}",
 			"",
 			"You have spent enough time around dragons to believe that much of their fearsomeness is bluster.  ",
-			"**Prerequisites:** Favored enemy (dragon) or Knowledge (arcana) 1 rank.  ",
+			"**Prerequisites:** {ability/Favored enemy} (dragon) or Knowledge (arcana) 1 rank.  ",
 			"**Benefit:** You gain a +4 bonus on saving throws against extraordinary or supernatural fear effects (such as a dragon's frightful presence). If a failed saving throw against an extraordinary or supernatural fear effect would make you frightened, you are instead shaken; and if a failed saving throw would make you panicked, you are instead frightened."
 		]
 	},
@@ -1012,7 +1012,7 @@
 			"{SOURCE Ultimate Wilderness/115}",
 			"",
 			"Normally pestilential rain forests are a safe haven and home to you.  ",
-			"**Prerequisites:** Favored terrain (jungle) class feature.  ",
+			"**Prerequisites:** {ability/Favored terrain} (jungle) class feature.  ",
 			"**Benefit:** You gain a +2 bonus on saving throws against diseases, poisons, and the distraction ability of creatures with the swarm subtype. You also gain a +2 bonus on Acrobatics and Climb checks when climbing trees and a +2 bonus on Perception checks against creatures that gain a racial bonus on Stealth checks in vegetation."
 		]
 	},
@@ -1860,7 +1860,7 @@
 			"",
 			"Your affinity to nature grants you greater insight into specific biomes.  ",
 			"**Prerequisites:** Animal focus class feature, wild empathy class feature.  ",
-			"**Benefit:** You gain a favored terrain as the ranger ability of the same name, though the favored terrain bonuses you receive do not increase with your level. This ability counts as the favored terrain class feature for the purposes of prerequisites and other effects.  ",
+			"**Benefit:** You gain a {ability/favored terrain} as the ranger ability of the same name, though the favored terrain bonuses you receive do not increase with your level. This ability counts as the favored terrain class feature for the purposes of prerequisites and other effects.  ",
 			"**Special:** You can select this feat up to four times. Each time you take it, you apply it to a different terrain. Unlike with the ranger's favored terrain class feature, the bonuses you gain for previously chosen terrains do not increase."
 		]
 	},
@@ -2715,8 +2715,8 @@
 			"{SOURCE Ultimate Wilderness/115}",
 			"",
 			"You can easily pluck what you need from nature's bounty as you travel.  ",
-			"**Prerequisites:** Favored terrain class feature.  ",
-			"**Benefit:** You (and any allies whom you assist with the Survival skill) can move at full speed while using Survival to gather food and water, and you gain a +4 bonus on Survival checks to do so. If you cast create food and drink, create water, or any similar spell that creates edible and potable provisions while you are in your favored terrain, your caster level increases by an amount equal to half your favored terrain bonus."
+			"**Prerequisites:** {ability/Favored terrain} class feature.  ",
+			"**Benefit:** You (and any allies whom you assist with the Survival skill) can move at full speed while using Survival to gather food and water, and you gain a +4 bonus on Survival checks to do so. If you cast {spell/create food and water}, {spell/create water}, or any similar spell that creates edible and potable provisions while you are in your favored terrain, your caster level increases by an amount equal to half your favored terrain bonus."
 		]
 	},
 	"living_fortress": {
@@ -3573,7 +3573,7 @@
 			"",
 			"You can fire multiple arrows at a single target.  ",
 			"**Prerequisites:** Dex 17, {feat/Rapid Shot}, base attack bonus +6.  ",
-			"**Benefit:** When making a full-attack action with a bow, your first attack fires two arrows. If the attack hits, both arrows hit. Apply precision-based damage (such as sneak attack) and critical hit damage only once for this attack. Damage bonuses from using a composite bow with a high Strength bonus apply to each arrow, as do other damage bonuses, such as a ranger's favored enemy bonus. Damage reduction and resistances apply separately to each arrow.",
+			"**Benefit:** When making a full-attack action with a bow, your first attack fires two arrows. If the attack hits, both arrows hit. Apply precision-based damage (such as sneak attack) and critical hit damage only once for this attack. Damage bonuses from using a composite bow with a high Strength bonus apply to each arrow, as do other damage bonuses, such as a ranger's {ability/favored enemy} bonus. Damage reduction and resistances apply separately to each arrow.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/126}",

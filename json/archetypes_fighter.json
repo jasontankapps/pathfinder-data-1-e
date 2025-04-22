@@ -894,9 +894,9 @@
 			"",
 			"**Shield Ally (Ex):** At 9th level, when a phalanx fighter is using a heavy or tower shield, he can, as a move action, provide partial cover (+2 cover bonus to AC, +1 bonus on Reflex saves) to himself and all adjacent allies until the beginning of his next turn.",
 			"",
-			"At 13th level, he can instead provide cover (+4 cover bonus to AC, +2 bonus on Reflex saves) and evasion (as a {class/rogue}) to one adjacent ally until the beginning of his next turn. This cover does not allow Stealth checks.",
+			"At 13th level, he can instead provide cover (+4 cover bonus to AC, +2 bonus on Reflex saves) and {ability/evasion} (as a {class/rogue}) to one adjacent ally until the beginning of his next turn. This cover does not allow Stealth checks.",
 			"",
-			"At 17th level, he can provide cover to himself and all adjacent allies, or he can provide improved cover (+8 cover bonus to AC, +4 bonus on Reflex saves, improved evasion) to a single adjacent ally. This ability replaces weapon training 2, 3, and 4.",
+			"At 17th level, he can provide cover to himself and all adjacent allies, or he can provide improved cover (+8 cover bonus to AC, +4 bonus on Reflex saves, {ability/improved evasion}) to a single adjacent ally. This ability replaces weapon training 2, 3, and 4.",
 			"",
 			"**Irresistible Advance (Ex):** At 15th level, a phalanx fighter gains a bonus on bull rush and overrun CMB checks. This bonus depends on the type of shield used: +1 with a buckler, +2 with a light shield, +3 with a heavy shield, or +4 with a tower shield. This ability replaces armor training 4.",
 			"",
@@ -1086,13 +1086,13 @@
 			"",
 			"**Guarded Senses (Su):** At 2nd level, a sensate gains a +1 bonus on saves against sonic effects, figments, glamers, patterns, gaze attacks, and scent-based attacks. This bonus increases by 1 for every 4 levels the sensate possesses beyond 2nd. This ability replaces bravery.",
 			"",
-			"**Uncanny Dodge (Su):** At 3rd level, a sensate gains uncanny dodge as the {class/barbarian} ability of the same name, except supernatural in nature. This ability replaces armor training 1.",
+			"**Uncanny Dodge (Su):** At 3rd level, a sensate gains {ability/uncanny dodge} as the {class/barbarian} ability of the same name, except supernatural in nature. This ability replaces armor training 1.",
 			"",
 			"**Centered Senses (Su):** At 5th level, a sensate can center his senses as a move action. While centered, a sensate gains a +1 insight bonus on attack rolls, weapon damage rolls, and Will saves. This bonus increases by 1 at 9th level and every 4 levels thereafter. A sensate loses his centered state if he gains the confused, dazed, fascinated, staggered, or stunned condition; falls unconscious; or fails a Will save. This ability replaces weapon training 2, 3, and 4.",
 			"",
-			"**Improved Uncanny Dodge (Su):** At 7th level, a sensate gains improved uncanny dodge as the barbarian ability of the same name, except supernatural in nature. This ability replaces armor training 2.",
+			"**Improved Uncanny Dodge (Su):** At 7th level, a sensate gains {ability/improved uncanny dodge} as the barbarian ability of the same name, except supernatural in nature. This ability replaces armor training 2.",
 			"",
-			"**Evasion (Su):** At 11th level, a sensate gains evasion while using centered senses. This functions as the rogue ability of the same name, except that it is supernatural in nature and works regardless of the sensate's armor and encumbrance. This ability replaces armor training 3.",
+			"**Evasion (Su):** At 11th level, a sensate gains {ability/evasion} while using centered senses. This functions as the rogue ability of the same name, except that it is supernatural in nature and works regardless of the sensate's armor and encumbrance. This ability replaces armor training 3.",
 			"",
 			"**Steady (Su):** At 15th level, a sensate can center himself as a swift action. This ability replaces armor training 4.",
 			"",
@@ -1122,7 +1122,7 @@
 			"",
 			"**Shield Mastery (Ex):** At 19th level, a shielded fighter gains DR 5/- when wielding a shield. This ability replaces armor mastery.",
 			"",
-			"**Shield Ward (Ex):** At 20th level, a shielded fighter gains evasion (as a {class/rogue}) while wielding a shield, and adds his shield bonus to his AC (not including enhancement bonuses) on Reflex saves and to his touch AC. In addition, his shield cannot be disarmed or sundered. This ability replaces weapon mastery."
+			"**Shield Ward (Ex):** At 20th level, a shielded fighter gains {ability/evasion} (as a {class/rogue}) while wielding a shield, and adds his shield bonus to his AC (not including enhancement bonuses) on Reflex saves and to his touch AC. In addition, his shield cannot be disarmed or sundered. This ability replaces weapon mastery."
 		]
 	},
 	"siegebreaker": {
@@ -1397,7 +1397,7 @@
 			"",
 			"**Immediate Repositioning (Ex):** At 13th level, as an immediate action, a tower shield specialist can reposition his tower shield to another facing, but he cannot use this ability to interrupt an attack. This ability replaces weapon training 3.",
 			"",
-			"**Tower Shield Evasion (Ex):** At 16th level, while using a tower shield, the tower shield specialist gains evasion, as the {class/rogue} class ability. At 20th level, the shield specialist gains improved evasion, as the rogue advanced talent, while using a tower shield. This ability replaces both weapon training 4 and weapon mastery."
+			"**Tower Shield Evasion (Ex):** At 16th level, while using a tower shield, the tower shield specialist gains {ability/evasion}, as the {class/rogue} class ability. At 20th level, the shield specialist gains {talent/improved evasion}, as the rogue advanced talent, while using a tower shield. This ability replaces both weapon training 4 and weapon mastery."
 		]
 	},
 	"trench_fighter": {

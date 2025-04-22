@@ -225,7 +225,7 @@
 			"**Completion Benefit:** The secrets of Heaven and the other goodly Outer Planes are now known to you. You gain the completion benefits of the Blessed story feat.",
 			"",
 			"*Linnorm Head*  ",
-			"**Completion Benefit:** Slaying a linnorm in the northlands of Avistan enables you to become a ruler in the Lands of the Linnorm Kings. You gain favored enemy (dragon) +2, as the ranger class feature of t he same name. T his bonus stacks with favored enemy bonuses granted by other sources.",
+			"**Completion Benefit:** Slaying a linnorm in the northlands of Avistan enables you to become a ruler in the Lands of the Linnorm Kings. You gain {ability/favored enemy} (dragon) +2, as the ranger class feature of t he same name. This bonus stacks with favored enemy bonuses granted by other sources.",
 			"",
 			"*Red Mantis Hit List*  ",
 			"**Completion Benefit:** By stealing a comprehensive list of all the targets slain and being kept dead by the [Red Mantis](rule/aff_assassins) assassins, you gain insights into their deadliest secrets. You gain {feat/Exotic Weapon Proficiency} (sawtooth sabre) and {feat/Weapon Focus} (sawtooth sabre) as bonus feats.",
@@ -1449,7 +1449,7 @@
 			"You have trained to avoid the attacks and effects employed by robots and technology and to combat them effectively.  ",
 			"**Prerequisites:** Knowledge (engineering) 5 ranks  ",
 			"**Benefit:** You gain a +1 bonus on attack and damage rolls against creatures with the robot subtype. Additionally, you gain a +1 dodge bonus to your AC and a +1 bonus on saving throws against attacks and effects from robots. If you have at least 11 ranks in Knowledge (engineering), these bonuses increase to +2. If you have at least 17 ranks in Knowledge (engineering), these bonuses increase to +3.  ",
-			"**Special:** If you have constructs as a favored enemy, you can use your favored enemy bonus toward constructs in place of the bonus granted by this feat if it's larger. These bonuses do not stack with those granted by other abilities that allow you to add your favored enemy bonus to AC or on saving throws."
+			"**Special:** If you have constructs as a {ability/favored enemy}, you can use your favored enemy bonus toward constructs in place of the bonus granted by this feat if it's larger. These bonuses do not stack with those granted by other abilities that allow you to add your favored enemy bonus to AC or on saving throws."
 		]
 	},
 	"robust_stench": {
@@ -2301,7 +2301,7 @@
 			"",
 			"You are strongly linked to natural terrain and to others who share your link.  ",
 			"**Prerequisites:** Survival 1 rank.  ",
-			"**Benefit:** When traveling through terrain in which you can leave no trail and be impossible to track (as a result of favored terrain, trackless step, or a similar class feature), you grant that ability to allies within 60 feet who also have this feat.",
+			"**Benefit:** When traveling through terrain in which you can leave no trail and be impossible to track (as a result of {ability/favored terrain}, trackless step, or a similar class feature), you grant that ability to allies within 60 feet who also have this feat.",
 			"",
 			"If an ally within 60 feet who has this feat is also able to move normally through the current terrain without leaving tracks, you gain a +1 bonus on Knowledge (nature), Perception, and Survival checks while in that terrain."
 		]
@@ -4416,7 +4416,7 @@
 			"{SOURCE Ultimate Wilderness/117}",
 			"",
 			"The soft ground and flowing reeds of fetid bogs and misty marshes are as comfortable to you as any sunny meadow would be for others.  ",
-			"**Prerequisites:** Favored terrain (swamp) class feature.  ",
+			"**Prerequisites:** {ability/Favored terrain} (swamp) class feature.  ",
 			"**Benefit:** You gain a +2 bonus on Climb checks, Swim checks, and Acrobatics checks to maintain your balance when moving across a slippery surface, and you can move at full speed through shallow and deep bog terrain. You can see twice as far as normal in fog, mist, murky water, vegetation, and similarly obscuring conditions, and creatures adjacent to you never gain {rule/concealment} from fog, mist, murky water, or vegetation."
 		]
 	},

@@ -662,7 +662,7 @@
 			"{SOURCE Heroes of the Darklands/5}",
 			"",
 			"You can use your surroundings to accelerate your movement, and your enemy's presence pushes you further.  ",
-			"**Prerequisites:** Favored enemy class feature, favored terrain class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} class feature, favored terrain class feature.  ",
 			"**Benefit:** While you're in any of your favored terrain types, you gain a 5-foot bonus to your movement speed. This bonus increases to 10 feet if a creature of the same type as one of your favored enemies is visible and within the same terrain type."
 		]
 	},
@@ -2192,7 +2192,7 @@
 			"",
 			"Your dual heritage makes you something more than merely a mix of your parent races.  ",
 			"**Prerequisites:** Two subtypes, elf blood or orc blood racial trait.  ",
-			"**Benefit:** For the purposes of any effect related to subtype (such as a ranger's favored enemy and bane weapons), you count as neither of your subtypes, and you no longer count as either of your parent races for the purposes of effects related to race."
+			"**Benefit:** For the purposes of any effect related to subtype (such as a ranger's {ability/favored enemy} and {magic-enh/bane} weapons), you count as neither of your subtypes, and you no longer count as either of your parent races for the purposes of effects related to race."
 		]
 	},
 	"true_deception": {
@@ -3876,7 +3876,7 @@
 			"",
 			"Your rage stretches beyond normal bounds.  ",
 			"**Prerequisites:** Gnome, hatred racial trait.  ",
-			"**Benefit:** Select two creature types (and subtypes where appropriate) from the list of potential favored enemies from the ranger class ability. Your +1 attack bonus from the hatred racial trait applies to creatures of the selected types (and subtypes).  ",
+			"**Benefit:** Select two creature types (and subtypes where appropriate) from the list of potential {ability/favored enemies} from the ranger class ability. Your +1 attack bonus from the hatred racial trait applies to creatures of the selected types (and subtypes).  ",
 			"**Special:** You may take this feat more than once. Its benefits do not stack. Each time you select this feat, you select two additional creature types to which your hatred racial trait applies.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4052,7 +4052,7 @@
 			"{SOURCE Advanced Player's Guide/173;Pathfinder Campaign Setting/219;Revenge of the Kobold King/6}",
 			"",
 			"You have a special bond with things that creep, crawl, skitter, and sting.  ",
-			"**Prerequisites:** Wild empathy class feature.  ",
+			"**Prerequisites:** {ability/Wild empathy} class feature.  ",
 			"**Benefit:** You may target vermin with spells and special abilities that only affect animals (although they are still affected by spells targeting vermin as well). You may use wild empathy to influence vermin as easily as you influence animals."
 		]
 	},

@@ -164,6 +164,7 @@ import ability2 from './json/class_abilities2.json' with {type: 'json'};
 import ability3 from './json/class_abilities3.json' with {type: 'json'};
 import ability4 from './json/class_abilities4.json' with {type: 'json'};
 import ability5 from './json/class_abilities5.json' with {type: 'json'};
+import ability6 from './json/class_abilities6.json' with {type: 'json'};
 import classes1 from './json/classes.json' with {type: 'json'};
 import classes2 from './json/classes2.json' with {type: 'json'};
 import classes3 from './json/classes3.json' with {type: 'json'};
@@ -802,6 +803,13 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "ability",
 		num: 5,
+		type: "Class Ability"
+	},
+	"class_abilities6": {
+		data: ability6,
+		searchgroup: 1, // classes
+		link: "ability",
+		num: 6,
 		type: "Class Ability"
 	},
 	"class_ability_arcane_schools": {

@@ -370,7 +370,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 55 ] ],
 		"category": "Advanced Slayer Talents",
 		"description": [
-			"A slayer can use the Stealth skill to hide in any of his favored terrains, even if the terrain doesn't grant cover or concealment. A slayer must have the terrain mastery talent to select this talent."
+			"A slayer can use the Stealth skill to hide in any of his {ability/favored terrain/s}, even if the terrain doesn't grant cover or concealment. A slayer must have the {talent/terrain mastery} rogue talent to select this talent."
 		],
 		"topLink": [ "Advanced Slayer Talents", "ability/advanced_slayer_talents" ]
 	},

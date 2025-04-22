@@ -284,6 +284,8 @@
 			"",
 			"*Note: In addition to Animal and Terrain domains, this section contains any domain specific for Druid use.*",
 			"",
+			":::div{className=columnar}",
+			"",
 			"- {druiddomain/Aquatic}",
 			"- {druiddomain/Arctic}",
 			"- {druiddomain/Badlands}",
@@ -308,7 +310,9 @@
 			"- {druiddomain/The Uskbond}",
 			"- {druiddomain/Vermin}",
 			"- {druiddomain/Vulture}",
-			"- {druiddomain/Wolf}"
+			"- {druiddomain/Wolf}",
+			"",
+			":::"
 		],
 		"topLink": [ "Druid", "class/druid" ]
 	},

@@ -16,7 +16,7 @@
 			"",
 			"**Bardic Performance:** An animal speaker gains the following types of bardic performance.",
 			"",
-			">**Soothing Performance:** At 3rd level, an animal speaker can use bardic performance to influence animals. This works like the {class/druid} ability wild empathy, except he expends 1 round of bardic performance and makes a Perform check. If the bard already has wild empathy from another class, he adds the class levels that provide wild empathy to the result of his Perform check to influence an animal. This ability replaces inspire competence.",
+			">**Soothing Performance:** At 3rd level, an animal speaker can use bardic performance to influence animals. This works like the {class/druid} ability {ability/wild empathy}, except he expends 1 round of bardic performance and makes a Perform check. If the bard already has wild empathy from another class, he adds the class levels that provide wild empathy to the result of his Perform check to influence an animal. This ability replaces inspire competence.",
 			">",
 			">**Attract Rats:** At 6th level, the animal speaker can use bardic performance to summon 1d3 {monster/rat swarm/s}; they remain as long as he continues performing. At 11th level, he summons 2d3 swarms instead of 1d3 and the swarms have the {template/advanced} creature simple template. At 17th level, the number of swarms he summons increases to 3d3. This ability replaces suggestion.",
 			"",
@@ -78,13 +78,13 @@
 			"",
 			"**Clever Explorer (Ex):** At 2nd level, an archaeologist gains a bonus equal to half his class level on Disable Device and Perception checks. He can disable intricate and complex devices in half the normal amount of time (minimum 1 round) and open a lock as a standard action. At 6th level, an archaeologist can take 10 on Disable Device checks, even if distracted or endangered, and can disarm magical traps. This ability replaces the versatile performance ability.",
 			"",
-			"**Uncanny Dodge (Ex):** At 2nd level, an archaeologist gains uncanny dodge, as the {class/rogue} class feature of the same name. This ability replaces well-versed.",
+			"**Uncanny Dodge (Ex):** At 2nd level, an archaeologist gains {ability/uncanny dodge}, as the {class/rogue} class feature of the same name. This ability replaces well-versed.",
 			"",
 			"**Trap Sense (Ex):** At 3rd level, an archaeologist gains trap sense +1, as the rogue class feature of the same name. This bonus improves by +1 for every three levels gained after 3rd, to a maximum of +6 at 18th level.",
 			"",
 			"**Rogue Talents:** At 4th level, an archaeologist gains a {ability/rogue talent}. He gains an additional rogue talent for every four levels of archaeologist gained after 4th level. Otherwise, this works as the rogue's rogue talent ability.",
 			"",
-			"**Evasion (Ex):** At 6th level, an archaeologist gains evasion, as the rogue ability of the same name.",
+			"**Evasion (Ex):** At 6th level, an archaeologist gains {ability/evasion}, as the rogue ability of the same name.",
 			"",
 			"**Advanced Talent:** At 12th level, and every four levels thereafter, an archaeologist can choose an {ability/advanced rogue talent} in place of a rogue talent."
 		]
@@ -870,7 +870,7 @@
 			"",
 			"This ability alters the First World minstrel's spell list.",
 			"",
-			"**Wild Empathy (Ex):** A First World minstrel gains the wild empathy {class/druid} class feature, using his bard level as his druid level for this ability.",
+			"**Wild Empathy (Ex):** A First World minstrel gains the {ability/wild empathy} {class/druid} class feature, using his bard level as his druid level for this ability.",
 			"",
 			"This ability replaces bardic knowledge.",
 			"",
@@ -1096,7 +1096,7 @@
 			"",
 			"If the juggler is affected by any action or condition that would require a concentration check while he is juggling, he must attempt a Sleight of Hand check to continue juggling and avoid losing concentration. The check's DC is the same as a {rule/concentration} check, treating the spell level as twice the number of objects being juggled. If the juggler fails his Sleight of Hand check, he drops all juggled objects but one, determined randomly. This ability replaces versatile performance.",
 			"",
-			"**Evasion (Ex):** At 2nd level, a juggler gains evasion, as the {class/rogue} class feature of the same name. At 12th level, he gains improved evasion, as the {ability/advanced rogue talent}. This ability replaces well-versed and soothing performance."
+			"**Evasion (Ex):** At 2nd level, a juggler gains {ability/evasion}, as the {class/rogue} class feature of the same name. At 12th level, he gains {talent/improved evasion}, as the advanced rogue talent. This ability replaces well-versed and soothing performance."
 		]
 	},
 	"lotus_geisha": {
@@ -1904,7 +1904,7 @@
 			"",
 			"This replaces bardic knowledge.",
 			"",
-			"**Wasteland Specialist (Ex):** At 3rd level and every 5 levels thereafter, the wasteland chronicler gains the benefits of the favored terrain {class/ranger} class feature, but the wasteland chronicler can choose only cold, desert, mountain, or swamp from the ranger's favored terrain list. In addition, the wasteland chronicler adds half his level (minimum 1) as a bonus on Diplomacy checks to influence the attitude of wasteland dwellers.",
+			"**Wasteland Specialist (Ex):** At 3rd level and every 5 levels thereafter, the wasteland chronicler gains the benefits of the {ability/favored terrain} {class/ranger} class feature, but the wasteland chronicler can choose only cold, desert, mountain, or swamp from the ranger's favored terrain list. In addition, the wasteland chronicler adds half his level (minimum 1) as a bonus on Diplomacy checks to influence the attitude of wasteland dwellers.",
 			"",
 			"If the wasteland chronicler has the favored terrain ability from any other classes, the levels from these different sources stack for the purposes of improving the bonuses of selected favored terrains and choosing new favored terrains.",
 			"",

@@ -309,7 +309,7 @@
 			"",
 			"This alters shifter claws.",
 			"",
-			"**Divine Fury (Su):** A holy beast shifter focuses entirely on hunting down specific outsiders on behalf of her deity. She gains the {class/ranger/'s} favored enemy class feature, except she can select only an outsider type from the favored enemy table. The bonus against her favored enemy automatically increases by 1 at 5th level and every 5 levels thereafter. At 5th level and every 5 levels thereafter, she can forgo gaining an additional shifter aspect to instead gain an additional outsider type as her favored enemy. Her bonuses from the favored enemy feature against new outsider types chosen in this way are equal to the bonus for the type chosen at 1st level.",
+			"**Divine Fury (Su):** A holy beast shifter focuses entirely on hunting down specific outsiders on behalf of her deity. She gains the {class/ranger/'s} {ability/favored enemy} class feature, except she can select only an outsider type from the favored enemy table. The bonus against her favored enemy automatically increases by 1 at 5th level and every 5 levels thereafter. At 5th level and every 5 levels thereafter, she can forgo gaining an additional shifter aspect to instead gain an additional outsider type as her favored enemy. Her bonuses from the favored enemy feature against new outsider types chosen in this way are equal to the bonus for the type chosen at 1st level.",
 			"",
 			"This replaces wild empathy, track, woodland stride, and trackless step."
 		]
@@ -371,7 +371,7 @@
 			"",
 			"**Compression (Ex):** An oozemorph gains {umr/compression} as per the universal monster rule. This ability can be used regardless of the current form the oozemorph has taken.",
 			"",
-			"**Fluidic Body (Su):** An oozemorph's base form is not that of her race but rather that of a protoplasmic blob that has the same volume and weight. An oozemorph treats her creature type as both {type/ooze} and her base creature type from her race for the purposes of effects targeting creatures by type (such as {magic-enh/bane} weapons and a ranger's favored enemy). In this form, the oozemorph is immune to critical hits and precision damage and can't be flanked. However, she has no magic item slots and she cannot benefit from armor; cast spells; hold objects; speak; or use any magic item that requires activation, is held, or is worn on the body.",
+			"**Fluidic Body (Su):** An oozemorph's base form is not that of her race but rather that of a protoplasmic blob that has the same volume and weight. An oozemorph treats her creature type as both {type/ooze} and her base creature type from her race for the purposes of effects targeting creatures by type (such as {magic-enh/bane} weapons and a ranger's {ability/favored enemy}). In this form, the oozemorph is immune to critical hits and precision damage and can't be flanked. However, she has no magic item slots and she cannot benefit from armor; cast spells; hold objects; speak; or use any magic item that requires activation, is held, or is worn on the body.",
 			"",
 			"An oozemorph reverts to this formless state whenever she is unconscious or in an area of antimagic. This is treated as a polymorph effect.",
 			"",
@@ -569,7 +569,7 @@
 			"",
 			"This replaces wild empathy.",
 			"",
-			"**Verdant Body (Su):** At 1st level, a verdant shifter takes on plant qualities as vines grow over her body, flowers bloom in her hair, and bark grows from her skin. The verdant shifter is treated as both her normal creature type and a plant creature for purposes of spells or effects that target a creature by type (such as {magic-enh/bane} weapons and a ranger's favored enemy). Verdant body also grants the verdant shifter a 25% immunity to critical hits and precision damage (such as sneak attack).",
+			"**Verdant Body (Su):** At 1st level, a verdant shifter takes on plant qualities as vines grow over her body, flowers bloom in her hair, and bark grows from her skin. The verdant shifter is treated as both her normal creature type and a plant creature for purposes of spells or effects that target a creature by type (such as {magic-enh/bane} weapons and a ranger's {ability/favored enemy}). Verdant body also grants the verdant shifter a 25% immunity to critical hits and precision damage (such as sneak attack).",
 			"",
 			"At 5th level, the verdant shifter gains a +2 enhancement bonus to her Constitution score. At 8th level, the enhancement bonus to her Constitution score increases to +4 and her immunity to critical hits increases to 50%. At 15th level, the enhancement bonus her Constitution score increases to +6.",
 			"",

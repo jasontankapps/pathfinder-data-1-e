@@ -639,7 +639,7 @@
 			"",
 			"*Zealous Surge (Sp)*: Once per day, when you are reduced to 0 or fewer hit points, you heal a number of hit points equal to your inquisitor level + your Wisdom modifier.",
 			"",
-			"*Scourge of the Enemy (Ex)*: At 8th level, select one religion that is a rival or opponent of your religion. You treat members of this religion as if they were your favored enemy (as the ranger class ability), gaining a +2 bonus on the appropriate rolls. At 13th level, these bonuses increase to +4, and at 18th level, the bonuses increase to +6. These bonuses do not stack with other favored enemy bonuses (use the highest bonus that applies)."
+			"*Scourge of the Enemy (Ex)*: At 8th level, select one religion that is a rival or opponent of your religion. You treat members of this religion as if they were your {ability/favored enemy} (as the ranger class ability), gaining a +2 bonus on the appropriate rolls. At 13th level, these bonuses increase to +4, and at 18th level, the bonuses increase to +6. These bonuses do not stack with other favored enemy bonuses (use the highest bonus that applies)."
 		]
 	}
 }

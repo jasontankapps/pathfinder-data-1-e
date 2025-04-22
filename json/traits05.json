@@ -331,7 +331,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Android",
 			"",
-			"Whenever you are affected by a polymorph spell or effect, your nanites adjust completely at a molecular level. For the duration of the polymorph effect, you are treated as only a humanoid for the purpose of effects that target creatures by type. For example, a ranger's favored enemy bonus against constructs wouldn't apply to you while you are polymorphed, but nor would spells such as make whole. This trait modifies part of the android's constructed racial trait, but otherwise that trait is unchanged (a polymorphed android still can't gain morale bonuses, is still immune to fear, and so on)."
+			"Whenever you are affected by a polymorph spell or effect, your nanites adjust completely at a molecular level. For the duration of the polymorph effect, you are treated as only a humanoid for the purpose of effects that target creatures by type. For example, a ranger's {ability/favored enemy} bonus against constructs wouldn't apply to you while you are polymorphed, but nor would spells such as make whole. This trait modifies part of the android's constructed racial trait, but otherwise that trait is unchanged (a polymorphed android still can't gain morale bonuses, is still immune to fear, and so on)."
 		],
 		"sourceEnd": true,
 		"category": "-",
@@ -1140,7 +1140,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Elf",
 			"",
-			"Choose a favored terrain from those listed in the ranger favored terrain class ability. You can move through naturally occurring difficult terrain without any penalty while within your favored terrain. Terrain created or modified by magic or traps affects you normally."
+			"Choose a favored terrain from those listed in the ranger {ability/favored terrain} class ability. You can move through naturally occurring difficult terrain without any penalty while within your favored terrain. Terrain created or modified by magic or traps affects you normally."
 		],
 		"sourceEnd": true,
 		"category": "-",
@@ -1166,7 +1166,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Elf; Snowcaster",
 			"",
-			"You confound those who think they know about elves. Any creature attempting to make a Knowledge check about your people, a Sense Motive check to determine whether you are lying, or a Survival check to track you takes a -2 penalty on the check. Additionally, any character or creature that normally gains a bonus on attack or damage rolls against elves (such as a ranger's favored enemy ability) has such a bonus reduced by 1 (minimum 0)."
+			"You confound those who think they know about elves. Any creature attempting to make a Knowledge check about your people, a Sense Motive check to determine whether you are lying, or a Survival check to track you takes a -2 penalty on the check. Additionally, any character or creature that normally gains a bonus on attack or damage rolls against elves (such as a ranger's {ability/favored enemy} ability) has such a bonus reduced by 1 (minimum 0)."
 		],
 		"sourceEnd": true,
 		"category": "-",
@@ -1969,7 +1969,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Half-orc",
 			"",
-			"Select one terrain type from the ranger's favored terrain list. While in this terrain type, taking a standard action while disabled does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of orc ferocity or the {feat/Diehard} feat."
+			"Select one terrain type from the ranger's {ability/favored terrain} list. While in this terrain type, taking a standard action while disabled does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of orc ferocity or the {feat/Diehard} feat."
 		],
 		"sourceEnd": true,
 		"category": "-",
@@ -2328,7 +2328,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Halfling",
 			"",
-			"Select one terrain type from the ranger's favored terrain list. You can attempt Stealth checks in this terrain in normal light without having cover or being invisible. You still can't attempt Stealth checks in areas of bright light without invisibility or cover."
+			"Select one terrain type from the ranger's {ability/favored terrain} list. You can attempt Stealth checks in this terrain in normal light without having cover or being invisible. You still can't attempt Stealth checks in areas of bright light without invisibility or cover."
 		],
 		"sourceEnd": true,
 		"category": "-",
@@ -3207,7 +3207,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
 			"",
-			"Your forebears served in an Army of Exploration, and you retain that expansionist spirit. Select a terrain from the {class/ranger/'s} list of favored terrains. Once selected, this choice cannot be changed. Once per day while in the selected terrain, you may move across nonmagical difficult terrain as though it were not difficult terrain until the end of your turn."
+			"Your forebears served in an Army of Exploration, and you retain that expansionist spirit. Select a terrain from the {class/ranger/'s} list of {ability/favored terrain/s}. Once selected, this choice cannot be changed. Once per day while in the selected terrain, you may move across nonmagical difficult terrain as though it were not difficult terrain until the end of your turn."
 		],
 		"sourceEnd": true,
 		"category": "-",
@@ -3298,7 +3298,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ulfen",
 			"",
-			"You grew up with an affinity for predatory animals, and whispers amid your clan suggest somewhere in the past, lycanthropy afflicted an ancestor. Whether or not you share this affliction, you often have animalistic urges. You gain a +1 trait bonus on Handle Animal and Wild Empathy checks."
+			"You grew up with an affinity for predatory animals, and whispers amid your clan suggest somewhere in the past, lycanthropy afflicted an ancestor. Whether or not you share this affliction, you often have animalistic urges. You gain a +1 trait bonus on Handle Animal and {ability/Wild Empathy} checks."
 		],
 		"sourceEnd": true,
 		"category": "-",

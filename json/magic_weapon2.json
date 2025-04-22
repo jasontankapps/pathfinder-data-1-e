@@ -2739,7 +2739,7 @@
 			"**Aura** moderate divination; **CL** 8th  ",
 			"**Slot** none; **Price** 54,400 gp; **Weight** 3 lbs.",
 			"",
-			"Whenever an arrow fired from this +1 {magic-enh/adaptive} {magic-enh/seeking} {eq-weapon/composite longbow} damages the wielder's favored enemy or studied target (as per the ranger and slayer class features, respectively), in addition to its normal effects, it also deals 2 points of bleed damage. As long as the bleed effect continues, the wielder can sense that foe's approximate direction and distance twice per day by smelling the wind as a standard action.",
+			"Whenever an arrow fired from this +1 {magic-enh/adaptive} {magic-enh/seeking} {eq-weapon/composite longbow} damages the wielder's {ability/favored enemy} or studied target (as per the ranger and slayer class features, respectively), in addition to its normal effects, it also deals 2 points of bleed damage. As long as the bleed effect continues, the wielder can sense that foe's approximate direction and distance twice per day by smelling the wind as a standard action.",
 			"",
 			"### Construction",
 			"",
