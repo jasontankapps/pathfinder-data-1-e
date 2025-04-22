@@ -9,7 +9,7 @@
 	"acid_bomb": {
 		"name": "Acid Bomb",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it inflict acid damage. Creatures that take a direct hit from an acid bomb take an additional 1d6 points of acid damage 1 round later."
 		]
@@ -17,7 +17,7 @@
 	"anarchic_bombs": {
 		"name": "Anarchic Bombs",
 		"compilationSources": [ [ "Champions of Balance" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it deal chaotic divine damage. Lawful creatures that take a direct hit from an anarchic bomb must succeed at a Fortitude save or be staggered on their next turn. Against neutral creatures, anarchic bombs deal half damage, and such targets are not affected by their staggering effect. Anarchic bombs have no effect on chaotic-aligned creatures. An alchemist must be at least 8th level before selecting this discovery."
 		]
@@ -25,7 +25,7 @@
 	"anguish_bomb": {
 		"name": "Anguish Bomb",
 		"compilationSources": [ [ "Distant Realms" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"You can throw bombs infused with psychic trauma. This discovery allows other alchemists to duplicate the anguish bombs used by {arc-alchemist/mnemostiller/s}."
 		]
@@ -33,7 +33,7 @@
 	"dread_bomb": {
 		"name": "Dread Bomb",
 		"compilationSources": [ [ "Distant Realms" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
 			"Your anguish bombs are tainted with fear and dread. Creatures who take damage from your anguish bombs become frightened for 1d6 rounds. A target that succeeds at a Will saving throw is instead shaken for a single round. An alchemist must be at least 6th level and have the anguish bomb class feature or the anguish bomb discovery before selecting this discovery."
@@ -42,7 +42,7 @@
 	"melancholy_bomb": {
 		"name": "Melancholy Bomb",
 		"compilationSources": [ [ "Distant Realms" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
 			"Your anguish bombs are filled with memories of sadness and regret. Creatures who take damage from your anguish bombs are also affected as per {spell/crushing despair} for 1 round per alchemist level, or a single round if the target succeeds at a Will saving throw. An alchemist must be at least 10th level and have the anguish bomb class feature or the anguish bomb discovery before selecting this discovery."
@@ -51,7 +51,7 @@
 	"axiomatic_bombs": {
 		"name": "Axiomatic Bombs",
 		"compilationSources": [ [ "Champions of Balance" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it deal lawful divine damage. Chaotic creatures that take a direct hit from an axiomatic bomb must succeed at a Fortitude save or be staggered on their next turn. Against neutral creatures, axiomatic bombs deal half damage, and such targets are not affected by their staggering effect. Axiomatic bombs have no effect on lawful creatures. An alchemist must be at least 8th level before selecting this discovery."
 		]
@@ -59,7 +59,7 @@
 	"blinding_bomb": {
 		"name": "Blinding Bomb",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose for it to detonate very brightly. Creatures that take a direct hit from a blinding bomb are blinded for 1 minute unless they succeed at a Fortitude save. Creatures in the splash area that fail their saves against the bomb are dazzled for 1 minute. This is a light effect. An alchemist must be at least 8th level before selecting this discovery."
 		]
@@ -67,7 +67,7 @@
 	"sunlight_bomb": {
 		"name": "Sunlight Bomb",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
 			"The alchemist can throw bombs that explode with a searing radiance equivalent to that of sunlight and that act as blinding bombs. Undead, fungi, molds, oozes, slimes, and creatures to which sunlight is harmful or unnatural take +2 damage per die from the bomb. Undead that are harmed by sunlight and that fail their saves against the bomb are staggered for 1 round. An alchemist must be at least 10th level and must have the blinding bomb discovery before he can select this discovery."
@@ -77,7 +77,7 @@
 	"boneshard_bomb": {
 		"name": "Boneshard Bomb",
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"This discovery is popular among necromancers and necrologists alike; aside from its offensive potential, necrologists sometimes use it to turn uncooperative live creatures they wish to question into pliable undead. The alchemist's bomb deals piercing damage instead of fire damage, and creatures that take a direct hit from a boneshard bomb must succeed at a Fortitude save or take 1d4 points of bleed damage in addition to normal damage. If a creature is killed by a boneshard bomb or the resulting bleed effect, its corpse immediately reanimates as an undead creature with the {template/skeleton/ template}. Skeletons that are created in this manner count as undead created by {spell/animate dead} for the purposes of determining how many undead the alchemist can control. An alchemist must possess the alchemical zombie discovery to select this discovery."
 		]
@@ -85,7 +85,7 @@
 	"breath_weapon_bomb": {
 		"name": "Breath Weapon Bomb",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"Instead of drawing the components of, creating, and throwing a bomb, the alchemist can draw the components, drink them, mix them within his body, and then expel them as a breath weapon as a standard action. This breath weapon is a 15-foot cone and has the same DC as the bomb. Each creature within the cone takes damage as if it had suffered a direct hit from the alchemist's bomb, but succeeding at a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier) halves the damage. Unlike throwing normal bombs, drawing, drinking, and expelling breath weapon bombs does not provoke attacks of opportunity. An alchemist must be at least 6th level before selecting this discovery."
 		]
@@ -93,7 +93,7 @@
 	"concussive_bomb": {
 		"name": "Concussive Bomb",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it inflict sonic damage. Concussive bombs deal 1d4 points of sonic damage, plus 1d4 points of sonic damage for every odd-numbered level, instead of 1d6. Creatures that take a direct hit from a concussive bomb are deafened for 1 minute unless they succeed at a Fortitude save. An alchemist must be at least 6th level before selecting this discovery."
 		]
@@ -101,7 +101,7 @@
 	"confusion_bomb": {
 		"name": "Confusion Bomb",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"The alchemist's bombs twist the target's perception of friend and foe. A creature that takes a direct hit from a confusion bomb takes damage from the bomb and is under the effect of a {spell/confusion} spell for 1 round per caster level of the alchemist. Reduce the amount of normal damage dealt by the bomb by 2d6 (so a bomb that would normally deal 6d6+4 points of damage deals 4d6+4 points of damage instead). An alchemist must be at least 8th level before selecting this discovery."
 		]
@@ -109,7 +109,7 @@
 	"cursed_bomb": {
 		"name": "Cursed Bomb",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When an alchemist creates a bomb, he can choose to have it deliver a debilitating curse. A creature that takes a direct hit from a cursed bomb must succeed at a Will save or be affected by {spell/bestow curse}. An alchemist must be at least 12th level to select this discovery."
 		]
@@ -117,7 +117,7 @@
 	"cytillesh_bomb": {
 		"name": "Cytillesh Bomb",
 		"compilationSources": [ [ "Inner Sea Monster Codex" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can infuse it with cytillesh extract. Cytillesh bombs deal 1d4 points of damage, plus 1d4 points of damage for every odd-numbered level, instead of 1d6. Creatures that take a direct hit from a cytillesh bomb are sickened for 1 round per alchemist level unless they succeed at Fortitude saves. If a creature is rendered unconscious from this bomb or any other attack before it is able to remove the sickened condition, the victim loses all memory from the last hour and cannot form new memories for 8 hours. The lost and prevented memories might return later as dreams, and can be restored with a {spell/restoration} spell."
 		]
@@ -125,7 +125,7 @@
 	"darkness_bomb": {
 		"name": "Darkness Bomb",
 		"compilationSources": [ [ "Advanced Race Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it suppress light sources on the target. This extinguishes nonmagical light sources carried by the target and dispels magical light sources for 1 round/level as {spell/deeper darkness}."
 		]
@@ -133,7 +133,7 @@
 	"defoliant_bomb": {
 		"name": "Defoliant Bomb",
 		"compilationSources": [ [ "Advanced Race Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"These poisonous bombs clear away foliage, dealing extra damage to plant creatures. When the alchemist creates a bomb, he can choose to have it deal extra damage against plant creatures but less damage against other creatures. Against creatures with the plant type, a defoliant bomb deals 1d8 points of damage, plus 1d8 points of damage for every odd-numbered level the alchemist possesses, instead of 1d6. Against all other creatures, the defoliant bomb only deals 1d4 points of damage, plus 1d4 points of damage for every odd-numbered level, instead of 1d6. This is a poison effect. A defoliant bomb kills all normal vegetation in the target's square and its splash area; any plant-based difficult terrain in the affected area becomes normal terrain."
 		]
@@ -141,7 +141,7 @@
 	"demolition_charge": {
 		"name": "Demolition Charge",
 		"compilationSources": [ [ "Dungeoneer's Handbook" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it deal damage to an object as if by a sunder combat maneuver. If the item is worn or held by an opponent, the item is considered the direct target, and the wearer/holder takes splash damage from the blast. If the object is unattended, a demolition charge deals an additional 2d6 points of damage on a direct hit. This bonus doesn't affect the bomb's splash damage. An alchemist must be at least 8th level before selecting this discovery."
 		]
@@ -149,7 +149,7 @@
 	"ectoplasmic_bomb": {
 		"name": "Ectoplasmic Bomb",
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"The alchemist can infuse her bombs with a special unction that damages incorporeal creatures and reveals the presence of undead creatures hiding in the area. Incorporeal creatures struck by an ectoplasmic bomb take full damage from the bomb. In addition, squares in the affected area of the bomb begin to faintly glow in the spaces where undead creatures have traveled in the last minute, including undead benefiting from invisibility or other forms of obscurity (such as {spell/ethereal jaunt}), effectively creating a glowing trail. Any undead creatures in the affected area at the time of the explosion likewise glow faintly. This glowing effect lasts for 1 minute, and is otherwise identical to {spell/faerie fire}."
 		]
@@ -157,7 +157,7 @@
 	"explosive_bomb": {
 		"name": "Explosive Bomb",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"The alchemist's bombs now have a splash radius of 10 feet rather than 5 feet. Creatures that take a direct hit from an explosive bomb catch fire, taking 1d6 points of fire damage each round until the fire is extinguished. Extinguishing the flames is a full-round action that requires a Reflex save. Rolling on the ground provides the target with a +2 to the save. Dousing the target with at least 2 gallons of water automatically extinguishes the flames."
 		]
@@ -165,7 +165,7 @@
 	"hellfire_bomb": {
 		"name": "Hellfire Bomb",
 		"compilationSources": [ [ "Agents of Evil" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
 			"This discovery is available to tiefling alchemists. When the alchemist creates a bomb, he can have it act as an explosive bomb, but deal half of its damage as fire damage and half as unholy damage that is not subject to fire resistance or immunity. An alchemist must be at least 9th level and have the explosive bomb discovery before selecting this discovery."
@@ -174,7 +174,7 @@
 	"siege_bomb": {
 		"name": "Siege Bomb",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
 			"As a standard action, the alchemist infuses a single piece of ammunition on a loaded siege weapon with the power of his bomb. As long as the siege engine with this ammunition is fired before the start of the alchemist's next turn, the ammunition does damage normally, and also deals the damage of the alchemist's bomb. The splash radius of the bomb effect is 20 feet rather than 5 feet. Creatures that take the bomb's damage (either direct damage or splash damage), take 1d6 points of fire damage each round until the fire is extinguished. Extinguishing the flames is a full-round action that requires a Reflex save. Rolling on the ground provides the target with a +2 bonus on the save. Dousing the target with at least 2 gallons of water automatically extinguishes the flames. An alchemist must be at least 12th level and must possess the explosive bomb discovery before selecting this discovery."
@@ -183,7 +183,7 @@
 	"flesh_eating_bomb": {
 		"name": "Flesh-Eating Bomb",
 		"compilationSources": [ [ "Monster Hunter's Handbook" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"The alchemist can create bombs that devour living matter. The alchemist's bomb deals damage one die step higher than normal (regular bombs deal d8s, concussive bombs deal 1d6, and so on), but they have no effect on inorganic matter. In addition, a creature with at least a +1 armor bonus to AC is less likely to be harmed; such creatures in the bomb's splash radius take no damage on a successful Reflex save, and the target of a direct hit can attempt a Reflex save against the bomb's save DC to take only half damage."
 		]
@@ -191,7 +191,7 @@
 	"force_bomb": {
 		"name": "Force Bomb",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it inflict force damage. Force bombs deal 1d4 points of force damage, plus 1d4 points of force damage for every odd-numbered level, instead of 1d6. Creatures that take a direct hit from a force bomb are knocked prone unless they succeed on a Reflex save. An alchemist must be at least 8th level before selecting this discovery."
 		]
@@ -199,7 +199,7 @@
 	"frost_bomb": {
 		"name": "Frost Bomb",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it inflict cold damage. Creatures that take a direct hit from a frost bomb are staggered on their next turn unless they succeed on a Fortitude save."
 		]
@@ -207,7 +207,7 @@
 	"glassfoot_bomb": {
 		"name": "Glassfoot Bomb",
 		"compilationSources": [ [ "Advanced Race Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it cover the ground in volatile jagged crystals in addition to its normal effects. These crystals act like {eq-misc/caltrops}, evaporating into a smelly but harmless gas in 2d6 rounds."
 		]
@@ -215,7 +215,7 @@
 	"grease_bomb": {
 		"name": "Grease Bomb",
 		"compilationSources": [ [ "Dungeoneer's Handbook" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it create a grease slick upon detonation. When a grease bomb detonates, it coats an area equal to the bomb's splash radius in grease (as the {spell/grease} spell) for 1 round per level. The DC of the Reflex save to avoid falling after a failed Acrobatics check is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier. A grease bomb can't affect items or armor. An alchemist must be at least 6th level before selecting this discovery."
 		]
@@ -223,7 +223,7 @@
 	"grounding_goo": {
 		"name": "Grounding Goo",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"The alchemist's bomb applies a sticky residue after any damage from the bomb is resolved. If a creature damaged by the bomb has a nonmagical fly speed, its flight is severely impaired, and it takes a penalty equal to the alchemist's level on Fly checks for 1 minute."
 		]
@@ -231,7 +231,7 @@
 	"healing_bomb": {
 		"name": "Healing Bomb",
 		"compilationSources": [ [ "Magical Marketplace" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it heal damage instead of dealing it. Creating a healing bomb requires the alchemist to expend an infused extract or potion containing a cure spell. A creature that takes a direct hit from a healing bomb is healed as if she had imbibed the infusion or potion used to create the bomb. Creatures in the splash radius are healed for the minimum amount of damage the cure spell is capable of healing. A healing bomb damages undead instead of healing them."
 		]
@@ -239,7 +239,7 @@
 	"holy_bombs": {
 		"name": "Holy Bombs",
 		"compilationSources": [ [ "Champions of Purity" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it deal good divine damage. Evil creatures that take a direct hit from a holy bomb must succeed at a Fortitude save or be staggered on their next turn. Against neutral creatures, holy bombs deal half damage, and such targets are not affected by their staggering effect. Holy bombs have no effect on good-aligned creatures. An alchemist must be at least 8th level before selecting this discovery."
 		]
@@ -247,7 +247,7 @@
 	"immolation_bomb": {
 		"name": "Immolation Bomb",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have its substance coat the direct target's body, causing the bomb to deal its damage over time instead of all at once. The bomb's effect lasts for a number of rounds equal to the number of damage dice the bomb would normally deal (for instance, a 5d6 bomb lasts for 5 rounds). When the bomb hits the direct target, the bomb deals 1d6 + the alchemist's Intelligence modifier in damage, and those within the splash zone take damage equal to 1 + the alchemist's Intelligence modifier. It repeats this damage against the direct target of the bomb each round the immolation bomb lasts, dealing the damage at the start of the alchemist's turn. Splash damage is dealt again to any creature that is adjacent to the direct target when it takes damage from the immolation bomb. A creature taking damage from an immolation bomb's direct hit can attempt to extinguish the flames as a full-round action that requires a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent modifier). Because of the alchemical nature of this bomb, rolling on the ground does not grant a bonus on the saving throw, and dousing a creature with water does not stop it from burning. These bombs can be used underwater. An alchemist must be at least 3rd level before selecting this discovery."
 		]
@@ -255,7 +255,7 @@
 	"incendiary_charge": {
 		"name": "Incendiary Charge",
 		"compilationSources": [ [ "Villain Codex" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"An incendiary charge is a bomb specifically designed to overcome the effects of any nonmagical object's hardness. As a full-round action, the alchemist can place an incendiary charge that burns and eats away at an object, dealing normal bomb damage to it. (The damage is not halved against an object with hardness, unlike most energy damage.) Furthermore, the incendiary charge ignores the first 5 points of hardness of the material being damaged. The alchemist must be at least 4th level before selecting this discovery."
 		]
@@ -263,7 +263,7 @@
 	"jury_rigged_bomb": {
 		"name": "Jury-Rigged Bomb",
 		"compilationSources": [ [ "Antihero's Handbook" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"Unlike normal bombs, jury-rigged bombs can be created from whatever materials the alchemist has on hand; this makes them particularly handy in situations where the alchemist might find himself imprisoned or stripped of his equipment. Jury-rigged bombs can be crafted and thrown as a swift action (this counts against the alchemist's daily use of bombs), and they deal only 1d4 points of damage + additional damage equal to half the alchemist's Intelligence modifier on a direct hit. This damage increases by 1d4 at 3rd level and every 2 levels thereafter. Despite being useful in a pinch, jury-rigged bombs are nonetheless crudely crafted and highly unstable; if the alchemist's attack roll results in a natural 1, the bomb explodes as he is creating it, and he takes damage as if he had taken a direct hit. An alchemist must be at least 4th level before selecting this discovery."
 		]
@@ -271,7 +271,7 @@
 	"neutralizing_bomb": {
 		"name": "Neutralizing Bomb",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to give it the potential to end certain ongoing effects instead of dealing damage. Each creature in the splash radius can attempt a new saving throw against any poison afflicting it and any ongoing conditions or ongoing acid, cold, electricity, fire, or sonic damage. (If an effect did not allow a saving throw, this bomb doesn't allow affected creatures to attempt one.) Success counts as one successful save toward ending poison and immediately ends other conditions. Exposed poison in the splash radius is also rendered harmless. A creature with poison abilities that is directly struck by the bomb finds those abilities useless for 1d4 rounds unless it succeeds at a Fortitude saving throw."
 		]
@@ -279,7 +279,7 @@
 	"ooze_blight": {
 		"name": "Ooze Blight",
 		"compilationSources": [ [ "Monster Hunter's Handbook" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"A target hit by the alchemist's bomb loses the split special quality for 1d4 rounds. In addition, against creatures with the ooze type, this bomb deals untyped damage that bypasses all resistances."
 		]
@@ -287,7 +287,7 @@
 	"penetrating_charge": {
 		"name": "Penetrating Charge",
 		"compilationSources": [ [ "Villain Codex" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"A penetrating charge is a bomb specifically designed to disable locks and similar mechanisms, though not other means of sealing a door, a container, or other sorts of devices. As a full-round action, the alchemist can place a penetrating charge on a lock. Instead of dealing damage, the penetrating charge seeps into the mechanism and eats away at it, granting a +5 circumstance bonus on any subsequent Disable Device checks against the mechanism. A creature can spend 10 minutes and attempt an appropriate Craft check (DC 15) to fix the lock and remove this bonus."
 		]
@@ -295,7 +295,7 @@
 	"poisoned_explosive": {
 		"name": "Poisoned Explosive",
 		"compilationSources": [ [ "Dirty Tactics Toolbox" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When an alchemist creates a bomb, he can apply a dose of contact or injury poison to it, as if applying poison to a weapon. If the poisoned bomb hits its target, the bomb deals damage as normal, but the target must also succeed at a saving throw against the poison or be affected by that poison. No other creatures are affected by the poison. An alchemist must be at least 4th level and have the poison use class feature before selecting this discovery."
 		]
@@ -303,7 +303,7 @@
 	"profane_bomb": {
 		"name": "Profane Bomb",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it deal evil divine damage. Good creatures that take a direct hit from a profane bomb must succeed at a Fortitude save or be staggered on their next turn. Against a neutral creature, a profane bomb deals half damage, and the target is not affected by the bomb's staggering effect. A profane bomb has no effect against evil-aligned creatures. An alchemist must be at least 8th level to select this discovery."
 		]
@@ -311,7 +311,7 @@
 	"psychoactive_bomb": {
 		"name": "Psychoactive Bomb",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"Psychoactive bombs are mixed with neurotoxic extracts that heighten certain sensations. A creature struck by a psychoactive bomb takes a -1 penalty on saving throws against charm, emotion, fear, and pain effects, and the DC for Intimidate checks against the victim decreases by 2. This effect lasts for 1 hour per alchemist level. These penalties do not stack, and a creature can only be affected by a single psychoactive bomb at a time. A psychoactive bomb deals 1d6 fewer hit points of damage than normal. An alchemist must be at least 6th level before selecting this discovery."
 		]
@@ -319,7 +319,7 @@
 	"rocket_bomb": {
 		"name": "Rocket Bomb",
 		"compilationSources": [ [ "Advanced Race Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"({race/Goblin} only) Alchemists with this discovery can prepare special rockets to deliver their bombs. Rocket bombs travel farther and explode bigger than normal bombs, but cannot target individual creatures. Rocket bombs explode in a 20-foot radius, and all creatures in that area take the alchemist's normal splash damage. The range increment on a rocket bomb is 50 feet. Rocket bombs cannot be used with the precise bomb or fast bomb discoveries. An alchemist must be at least 6th level before selecting this discovery."
 		]
@@ -327,7 +327,7 @@
 	"sand_bomb": {
 		"name": "Sand Bomb",
 		"compilationSources": [ [ "Antihero's Handbook" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can pack the casing full of sand that explodes in an abrasive cloud on impact. A creature that takes a direct hit from a sand bomb is blinded for 1 round, as are any creatures in the splash radius that fail a Reflex save (DC = 10 + half the alchemist's level + his Intelligence modifier)."
 		]
@@ -335,7 +335,7 @@
 	"scrap_bomb": {
 		"name": "Scrap Bomb",
 		"compilationSources": [ [ "Advanced Race Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"({race/Goblin} only) When the alchemist creates a bomb, he can choose to have it explode into shards of shrapnel that deal piercing damage. A creature that takes a direct hit from a scrap bomb takes 1 point of bleed damage per die of bomb damage unless it succeeds at a Reflex save."
 		]
@@ -343,7 +343,7 @@
 	"shock_bomb": {
 		"name": "Shock Bomb",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it inflict electricity damage. Creatures that take a direct hit from a shock bomb are dazzled for 1d4 rounds."
 		]
@@ -351,7 +351,7 @@
 	"smoke_bomb": {
 		"name": "Smoke Bomb",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it create a cloud of thick smoke when it detonates. The cloud functions as {spell/fog cloud}, filling an area equal to twice the bomb's splash radius for 1 round per level."
 		]
@@ -359,7 +359,7 @@
 	"inferno_bomb": {
 		"name": "Inferno Bomb",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
 			"The effects of the smoke created by an alchemist's bomb duplicate the effects of {spell/incendiary cloud} instead of {spell/fog cloud}, filling an area equal to twice the bomb's splash radius for 1 round per level. An alchemist must be at least 16th level and must possess the smoke bomb discovery before selecting this discovery."
@@ -368,7 +368,7 @@
 	"plague_bomb": {
 		"name": "Plague Bomb",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
 			"The effects of the smoke created by an alchemist's bomb duplicates the effects of {spell/contagion} instead of {spell/fog cloud}, filling an area equal to twice the bomb's splash area for 1 round per level. An alchemist must be at least 8th level and must have the smoke bomb discovery before selecting this discovery."
@@ -377,7 +377,7 @@
 	"greater_plague_bomb": {
 		"name": "Greater Plague Bomb",
 		"compilationSources": [ [ "Advanced Race Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 2,
 		"description": [
 			"The effects of the smoke created by an alchemist's bomb duplicates the effects of {spell/greater contagion} instead of {spell/fog cloud}, filling an area equal to twice the bomb's splash radius for 1 round per level. An alchemist must be at least 16th level and must possess the plague bomb and smoke bomb discoveries before selecting this discovery."
@@ -386,7 +386,7 @@
 	"plague_vector": {
 		"name": "Plague Vector",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 2,
 		"description": [
 			"The effects of the alchemist's plague bomb operate as normal except for the following changes. The chosen disease's save DC is equal to 10 + 1/2 the alchemist's level + his Intelligence modifier. Any creatures affected by the chosen disease become vectors for it, spreading the disease to any creatures they come in physical contact with for a number of days equal to the alchemist's Intelligence modifier (minimum 1). The save DC to avoid contracting the disease from the vector is the same as the DC used for this discovery. An alchemist must be at least 14th level and must have the plague bomb discovery to select this discovery."
@@ -395,7 +395,7 @@
 	"poison_bomb": {
 		"name": "Poison Bomb",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
 			"The effects of the smoke created by an alchemist's bomb duplicates the effects of {spell/cloudkill} instead of {spell/fog cloud}, filling an area equal to twice the bomb's splash radius for 1 round per level. An alchemist must be at least 12th level and must possess the smoke bomb discovery before selecting this discovery."
@@ -404,7 +404,7 @@
 	"stink_bomb": {
 		"name": "Stink Bomb",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
 			"The effects of the smoke created by an alchemist's bomb can duplicate the effects of {spell/stinking cloud} instead of {spell/fog cloud}, filling an area equal to twice the bomb's splash radius for 1 round. An alchemist must possess the smoke bomb discovery before selecting this discovery."
@@ -413,7 +413,7 @@
 	"solid_ground": {
 		"name": "Solid Ground",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"The alchemist launches an explosive paste bomb that bonds with any earthen surface. Each application of this paste deals no damage and affects a 5-foot-cube of dirt, loose soil, or stone, transmuting the earth for a number of minutes equal to the alchemist's level. Creatures cannot use burrow, earthmeld, or similar abilities (such as the meld into stone spell) while the ground remains transmuted in this way."
 		]
@@ -421,7 +421,7 @@
 	"substantiating_bomb": {
 		"name": "Substantiating Bomb",
 		"compilationSources": [ [ "Distant Realms" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"Your bombs are infused with ectoplasm and a longing for life, lending ethereal creatures a measure of substance. You can throw a bomb that inflicts no damage but instead creates a 10-foot-radius cloud of fog that functions as {spell/fog cloud} and lasts for 1 round per alchemist level. Incorporeal creatures that pass through this cloud become partially solid, taking half damage from nonmagic attacks and full damage from magic weapons, spells, and spell-like abilities. This effect lasts for the duration of the smoke cloud, even if the incorporeal creature moves outside the cloud's area. A creature affected by the cloud can attempt a Will saving throw to negate the substantiating effects of this bomb. An alchemist must be at least 10th level before selecting this discovery."
 		]
@@ -429,7 +429,7 @@
 	"tanglefoot_bomb": {
 		"name": "Tanglefoot Bomb",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"A creature that takes a direct hit from a tanglefoot bomb must save against the bomb's DC or be entangled and glued to the floor as if it had failed its save against a {eq-weapon/tanglefoot bag}. Creatures in the splash area that fail their saves are entangled but not glued to the floor; those who make this save are not entangled at all."
 		]
@@ -437,7 +437,7 @@
 	"thorny_bomb": {
 		"name": "Thorny Bomb",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it deal piercing damage. Thorny bombs count as magic weapons for the purpose of overcoming damage reduction."
 		]
@@ -445,7 +445,7 @@
 	"void_bomb": {
 		"name": "Void Bomb",
 		"compilationSources": [ [ "Monster Codex" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"description": [
 			"(Drow only) By combining the spores from strange fungi with slivers from extradimensional voids, some drow alchemists create bombs that cause bursts of gravity capable of crushing those inside. Void bombs deals 1d4 points of bludgeoning damage, plus 1d4 points of bludgeoning damage for every 2 alchemist levels beyond 1st, instead of 1d6. A creature hit by the bomb must succeed at a Reflex save against the bomb's DC. If it fails, it is knocked prone and can't get up for 1 round. If it succeeds, all of its movement speeds are reduced to 5 feet for 1 round. Other creatures within 5 feet of the bomb's target take no damage, but must succeed at a Reflex save against the bomb's DC or have all their movement speeds reduced to 5 feet for 1 round. An alchemist must be at least 6th level before selecting this discovery."
 		]
@@ -454,7 +454,7 @@
 		"name": "Blackstar Bomb",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Monster Codex" ] ],
-		"category": "Bomb Discoveries",
+		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
 			"This bomb crushes the target like a void bomb, then repels nearby creatures with a burst of gravity. The target takes damage as if hit by a void bomb. All other creatures within 5 feet of the target are subject to a bull rush. The alchemist uses his alchemist class level in place of his Combat Maneuver Bonus, and adds his Intelligence modifier in place of his Strength or Dexterity modifier to resolve the bull rush attempts. Creatures moved by a blackstar bomb are pushed directly away from the target's square. An alchemist must have the void bomb discovery to create blackstar bombs."

@@ -1060,7 +1060,7 @@
 			"- Immunity to death effects, disease, and poison.",
 			"- Resistance to cold 10 and electricity 10.",
 			"- Psychopomps speak Abyssal, Celestial, and Infernal.",
-			"- **Spirit Touch (Ex):** A psychopomp's natural weapons, as well as any weapon it wields, are treated as though they had the ghost touch weapon special ability.",
+			"- **Spirit Touch (Ex):** A psychopomp's natural weapons, as well as any weapon it wields, are treated as though they had the {magic-enh/ghost touch>_w} weapon special ability.",
 			"- **Spiritsense (Su):** A psychopomp notices, locates, and can distinguish between living and undead creatures within 60 feet, just as if it had the blindsight ability. This sense does not allow it to detect objects, but it does allow it to notice living things that are not creatures."
 		]
 	},
@@ -1168,7 +1168,7 @@
 			"- **Emotional Focus (Ex):** Whenever a sahkil casts a spell or uses a spell-like ability or effect with the emotion or fear descriptors that allows a save, the DC is increased by 2.",
 			"- **Look of Fear (Su):** All sahkils have a gaze attack with a range of 30 feet (though when a sahkil is on the Ethereal Plane, it functions against creatures on the Material Plane that can see ethereal creatures), and can be negated by a Will save. The exact effects caused by a particular sahkil's look of fear depend on the type of sahkil. All sahkils are immune to their own look of fear and that of other sahkils. This is a mind-affecting fear effect. The save DC is Charisma-based and includes the +2 bonus from the sahkil's emotional focus ability.",
 			"- **Skip Between (Su):** Many sahkils can shift between the Ethereal Plane and the Material Plane as a move action. This ability is otherwise identical to ethereal jaunt (CL 15th).",
-			"- **Spirit Touch (Ex):** A sahkil's natural weapons, as well as any weapon it wields, are treated as though they had the ghost touch weapon special ability."
+			"- **Spirit Touch (Ex):** A sahkil's natural weapons, as well as any weapon it wields, are treated as though they had the {magic-enh/ghost touch>_w} weapon special ability."
 		]
 	},
 	"samsaran": {

@@ -293,7 +293,7 @@
 			"",
 			"The fighter can forge a spiritual bond with a weapon that belongs to the associated weapon group, allowing him to unlock the weapon's potential. Each day, he designates one such weapon and gains a number of points of spiritual energy equal to 1 + his weapon training bonus. While wielding this weapon, he can spend 1 point of spiritual energy to grant the weapon an enhancement bonus equal to his weapon training bonus. Enhancement bonuses gained by this advanced weapon training option stack with those of the weapon, to a maximum of +5.",
 			"",
-			"The fighter can also imbue the weapon with any one weapon special ability with an equivalent enhancement bonus less than or equal to his maximum bonus by reducing the granted enhancement bonus by the amount of the equivalent enhancement bonus. The item must have an enhancement bonus of at least +1 (from the item itself or from warrior spirit) to gain a weapon special ability. In either case, these bonuses last for 1 minute.[^B]",
+			"The fighter can also imbue the weapon with any one [weapon special ability](main/magic_enhancements) with an equivalent enhancement bonus less than or equal to his maximum bonus by reducing the granted enhancement bonus by the amount of the equivalent enhancement bonus. The item must have an enhancement bonus of at least +1 (from the item itself or from warrior spirit) to gain a weapon special ability. In either case, these bonuses last for 1 minute.[^B]",
 			"",
 			"::h3[Weapon Mastery]{jl}",
 			"",
@@ -375,7 +375,7 @@
 			"",
 			"The power of transmutation is evident in magical oils and pastes that alter the properties of objects when applied. Though the Runes of Wealth is focused primarily on spells, Haphrama included a remarkable appendix of ingenious theories about transmuting the properties of magical armor and weapons, from which the magical process of anointings has been developed over the centuries. Alchemists can choose any of the following anointings in place of a normal discovery. An alchemist can use any of the anointings he knows a total number of times per day equal to 3 + his alchemist level. Unless an anointing specifies otherwise, all anointings require a standard action to apply (this provokes attacks of opportunity) and last for 1 minute per alchemist level.",
 			"",
-			"{class/Investigator/s} can choose any of these discoveries with the {investigatortalent/alchemist discovery} investigator talent. {class/Cleric/s} with the artifice domain can select an anointing in place of their 8th-level domain ability. {arcaneschool/Transmut/er>ation} {class/wizard/s} can gain anointings in place of wizard bonus feats. {class/Witch/es} with {patron/transformation} patrons can gain a single anointing in place of a major hex. In each of these cases, the character treats levels in the class used to select the anointing as his alchemist level for all relevant anointing calculations.",
+			"{class/Investigator/s} can choose any of these discoveries with the {investigatortalent/alchemist discovery} investigator talent. {class/Cleric/s} with the {domain/Artifice} domain can select an anointing in place of their 8th-level domain ability. {arcaneschool/Transmut/er>ation} {class/wizard/s} can gain anointings in place of wizard bonus feats. {class/Witch/es} with {patron/transformation} patrons can gain a single anointing in place of a major hex. In each of these cases, the character treats levels in the class used to select the anointing as his alchemist level for all relevant anointing calculations.",
 			"",
 			"::h3[Eldritch Enhancement]{jl}",
 			"",
@@ -1169,13 +1169,13 @@
 					"",
 					"At 2nd level, and then again every 2 levels thereafter (up to 18th level), an alchemist makes an incredible alchemical discovery. Unless otherwise noted, an alchemist cannot select an individual discovery more than once. Some discoveries can only be made if the alchemist has met certain prerequisites first, such as uncovering other discoveries. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier.",
 					"",
-					"::h3[Bomb Discoveries]{jl}",
+					"::h3[Primary Bomb Discoveries]{jl}",
 					"",
 					"These discoveries modify bombs, but do not stack. Only one such discovery can be applied to an individual bomb.",
 					""
 				],
 				{
-					"limit": "Bomb Discoveries",
+					"limit": "Primary Bomb Discoveries",
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(>*)(.+)",
