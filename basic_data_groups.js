@@ -71,6 +71,7 @@ import inquisition from './json/class_ability_inquisitions.json' with {type: 'js
 import kinetic from './json/class_ability_kinetic_talents.json' with {type: 'json'};
 import legendaryspirit from './json/class_ability_legendary_spirits.json' with {type: 'json'};
 import magusarcana from './json/class_ability_magus_arcana.json' with {type: 'json'};
+import mercy from './json/class_ability_mercies.json' with {type: 'json'};
 import mystery from './json/class_ability_mysteries.json' with {type: 'json'};
 import oath from './json/class_ability_oaths.json' with {type: 'json'};
 import order from './json/class_ability_orders.json' with {type: 'json'};
@@ -1110,6 +1111,14 @@ const basic_data_groups = {
 		link: "discovery",
 		num: 0,
 		type: "Alchemist Discovery"
+	},
+	"class_ability_mercies": {
+		data: mercy,
+		datatype: "compileable",
+		searchgroup: 1, //classes
+		link: "mercy",
+		num: 0,
+		type: "Paladin Mercy"
 	},
 	"class_ability_arcane_discoveries": {
 		data: arcanediscovery,

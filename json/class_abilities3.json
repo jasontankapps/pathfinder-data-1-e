@@ -182,7 +182,7 @@
 					"join": [ "", "", "" ],
 					"translate": {
 						"regex": "(.+?)@@@(.+)",
-						"replacement": "@@@::h4[[[TITLE]]]@@@@@@$1[[^S]]@@@$2@@@@@@>Bookmarkable page: {patron/[[TITLE]]}"
+						"replacement": "@@@::h4[[[TITLE]]]@@@@@@$1[[^S]]@@@$2@@@@@@>*Bookmarkable page: {patron/[[TITLE]]}*"
 					}
 				}
 			]
@@ -298,11 +298,11 @@
 		"description": [
 			"## Rage Powers",
 			"",
-			"As a barbarian gains levels, she learns to use her rage in new ways. Starting at 2nd level, a barbarian gains a rage power. She gains another rage power for every two levels of barbarian attained after 2nd level. A barbarian gains the benefits of rage powers only while raging, and some of these powers require the barbarian to take an action first. Unless otherwise noted, a barbarian cannot select an individual power more than once.",
+			"As a {class/barbarian} gains levels, she learns to use her rage in new ways. Starting at 2nd level, a barbarian gains a rage power. She gains another rage power for every two levels of barbarian attained after 2nd level. A barbarian gains the benefits of rage powers only while raging, and some of these powers require the barbarian to take an action first. Unless otherwise noted, a barbarian cannot select an individual power more than once.",
 			"",
-			"At 3rd level and every 3 levels thereafter, a skald learns a rage power that affects the skald and any allies under the influence of his inspired rage. This cannot be a rage power that requires the creature to spend a standard action or rounds of rage to activate it. For example, the skald cannot choose *terrifying howl* (which requires a standard action to activate), but can choose knockback (which is made in place of a melee attack).",
+			"At 3rd level and every 3 levels thereafter, a {class/skald} learns a rage power that affects the skald and any allies under the influence of his inspired rage. This cannot be a rage power that requires the creature to spend a standard action or rounds of rage to activate it. For example, the skald cannot choose *terrifying howl* (which requires a standard action to activate), but can choose knockback (which is made in place of a melee attack).",
 			"",
-			"**Elemental** rage powers can be selected by any barbarian or skald who is at least 6th level and has the elemental stance, lesser elemental rage, or lesser elemental blood rage power. A barbarian or skald can use only one of these rage powers at a time, and an unchained barbarian must adopt the elemental stance to do so.",
+			"**Elemental** rage powers can be selected by any barbarian or skald who is at least 6th level and has the {stanceragepower/elemental stance}, {ragepower/lesser elemental rage}, or {ragepower/lesser elemental blood} rage power. A barbarian or skald can use only one of these rage powers at a time, and an {class/unchained barbarian} must adopt the elemental stance to do so.",
 			"",
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers. A barbarian of any level can take a lesser blood rage power. The middle blood rage power (that without \"lesser\" or \"greater\" in the title) can only be taken by a 6th level or higher barbarian that already has the lesser blood rage power of its group. A greater blood rage power can only be taken by a 10th level or higher barbarian that already has the middle blood rage power.",
 			"",
@@ -804,7 +804,7 @@
 			"## Sagas",
 			"",
 			"{SOURCE Magic Tactics Toolbox/19}  ",
-			"Sagas are a form of lore-keeping and tale-telling common in Irrisen and the Lands of the Linnorm Kings. Specialized applications of a skald's raging song ability, sagas function much like bardic masterpieces but are available only to skalds. Sagas are never purely artistic constructs; they are designed to preserve lore or commemorate historical figures, and are usually based in fact. Sagas therefore require ranks in Knowledge (history) as a prerequisite, as well. {class/Bard/s} can learn sagas, using their bardic performance ability instead of raging song.",
+			"Sagas are a form of lore-keeping and tale-telling common in Irrisen and the Lands of the Linnorm Kings. Specialized applications of a skald's raging song ability, sagas function much like {ability/bardic masterpieces} but are available only to skalds. Sagas are never purely artistic constructs; they are designed to preserve lore or commemorate historical figures, and are usually based in fact. Sagas therefore require ranks in Knowledge (history) as a prerequisite, as well. {class/Bard/s} can learn sagas, using their bardic performance ability instead of raging song.",
 			"",
 			"### Lay of Scholar-King",
 			"",

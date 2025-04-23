@@ -672,6 +672,11 @@ const App: FC = () => {
 								<TalentPageFour prefix="stare" />
 							</Suspense>
 						</Route>
+						<Route path="/mercy/:id">
+							<Suspense fallback={<Loading text="Asking for mercy..." />}>
+								<TalentPageFour prefix="mercy" />
+							</Suspense>
+						</Route>
 
 						<Route path={/^[/]$/}><FrontPage /></Route>
 						<Route><ErrorPage /></Route>

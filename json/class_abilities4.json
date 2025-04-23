@@ -8,7 +8,7 @@
 				[
 					"## Subtypes",
 					"",
-					"The first time a summoner calls his {sidekick/unchained_<eidolon}, he must decide on its subtype. The eidolon's subtype determines a number of its base statistics and abilities, as well as its overall look and theme. The subtype also determines what sort of {ability/evolutions} the summoner can select for his eidolon using the evolution pool. Once the choice of subtype is made, it cannot be changed.",
+					"The first time a summoner calls his {sidekick/unchained_<eidolon}, he must decide on its subtype. The eidolon's subtype determines a number of its base statistics and abilities, as well as its overall look and theme. The subtype also determines what sort of {ability/unchained_<evolutions} the summoner can select for his eidolon using the evolution pool. Once the choice of subtype is made, it cannot be changed.",
 					"",
 					"As a summoner gains levels, his eidolon gains specific evolutions based on its subtype. Each subtype entry below includes the following information.",
 					"",
@@ -171,15 +171,15 @@
 			"",
 			"| Outsider | Legend |",
 			"| --- | --- |",
-			"| [Abrogail Thrune I](/legendaryspirit/abrogail_thrune_i) | Hierophant |",
-			"| [Ambras Imre](/legendaryspirit/ambras_imre) | Trickster |",
-			"| [Ardril, the Would-Be King](/legendaryspirit/ardril_the_would_be_king) | Champion |",
-			"| [Arnisant](/legendaryspirit/arnisant) | Guardian |",
-			"| [Azghaad I](/legendaryspirit/azghaad_i) | Marshal |",
+			"| [Abrogail Thrune I](/legendaryspirit/abrogail_thrune_i) | {spirit/Hierophant} |",
+			"| [Ambras Imre](/legendaryspirit/ambras_imre) | {spirit/Trickster} |",
+			"| [Ardril, the Would-Be King](/legendaryspirit/ardril_the_would_be_king) | {spirit/Champion} |",
+			"| [Arnisant](/legendaryspirit/arnisant) | {spirit/Guardian} |",
+			"| [Azghaad I](/legendaryspirit/azghaad_i) | {spirit/Marshal} |",
 			"| [Beldam I](/legendaryspirit/beldam_i) | Trickster |",
 			"| [Butcher](/legendaryspirit/butcher) | Champion |",
 			"| [Cyricas](/legendaryspirit/cyricas) | Hierophant |",
-			"| [Daronlyr XII](/legendaryspirit/daronlyr_xii) | Archmage |",
+			"| [Daronlyr XII](/legendaryspirit/daronlyr_xii) | {spirit/Archmage} |",
 			"| [Deceiver](/legendaryspirit/deceiver) | Trickster |",
 			"| [Father of Legends](/legendaryspirit/father_of_legends) | Marshal |",
 			"| [Gennaris III](/legendaryspirit/gennaris_iii) | Champion |",
@@ -219,7 +219,7 @@
 			"## Magus Arcana",
 			"",
 			"{SOURCE Ultimate Magic}  ",
-			"As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical skill. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana's description, a magus cannot select a particular magus arcana more than once. Magus arcana that affect spells can only be used to modify spells from the magus spell list unless otherwise noted.",
+			"As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical skill. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana's description, a magus cannot select a particular magus arcana more than once. Magus arcana that affect spells can only be used to modify spells from the {main/spells_<magus/ spell list} unless otherwise noted.",
 			"",
 			"{table0}"
 		],
@@ -312,7 +312,7 @@
 					"## Major Hexes",
 					"",
 					"{SOURCE Advanced Player's Guide}  ",
-					"Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new hex.",
+					"Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new {ability/hex>es}.",
 					"",
 					"---",
 					""
@@ -458,80 +458,68 @@
 	"advanced_ninja_tricks": { "copyof": "master_tricks" },
 	"mercies": {
 		"name": "Mercies",
-		"sources": [
-			"Healer's Handbook",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Mercies",
-			"",
-			"{SOURCE PRPG Core Rulebook}  ",
-			"At 3rd level, and every three levels thereafter, a paladin can select one mercy. Each mercy adds an effect to the paladin's lay on hands ability. Whenever the paladin uses lay on hands to heal damage to one target, the target also receives the additional effects from all of the mercies possessed by the paladin. A mercy can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.",
-			"",
-			"::h3[3rd-Level Mercies]{jl}",
-			"",
-			"**Deceived:** The target can immediately attempt a new saving throw to disbelieve any ongoing illusions that it failed to disbelieve within the last minute.[^A]",
-			"",
-			"**Fatigued:** The target is no longer fatigued.[^B]",
-			"",
-			"**Riled:** The paladin's lay on hands also acts as {spell/calm emotions}, but only for the purpose of suppressing morale bonuses (such as from the rage spell) and emotion effects that aren't fear effects. Use the paladin's level as the caster level.[^A]",
-			"",
-			"**Shaken:** The target is no longer shaken.[^B]",
-			"",
-			"**Sickened:** The target is no longer sickened.[^B]",
-			"",
-			"::h3[6th-Level Mercies]{jl}",
-			"",
-			"**Dazed:** The target is no longer dazed.[^B]",
-			"",
-			"**Diseased:** The paladin's lay on hands ability also acts as {spell/remove disease}, using the paladin's level as the caster level.[^B]",
-			"",
-			"**Enfeebled:** The paladin dispels any magical effects that are reducing one of the target's ability scores (paladin's choice).[^A]",
-			"",
-			"**Haunted:** The paladin's lay on hands also acts as {spell/protection from evil}, but only for the purpose of allowing a new saving throw against enchantment (charm) and enchantment (compulsion) effects, making the target immune to any attempts to possess or exercise mental control over the target, or preventing a life force from controlling the target (all as described in the second effect of protection from evil). Use the paladin's level as the caster level.[^A]",
-			"",
-			"**Staggered:** The target is no longer staggered, unless the target is at exactly 0 hit points.[^B]",
-			"",
-			"**Targeted:** The paladin's lay on hands also acts as {spell/sanctuary}, using the paladin's level as the caster level. The saving throw DC to negate this effect is equal to 10 + 1/2 the paladin's level + the paladin's Charisma modifier.[^A]",
-			"",
-			"::h3[9th-Level Mercies]{jl}",
-			"",
-			"**Confused:** The target is no longer confused.[^A]",
-			"",
-			"**Cursed:** The paladin's lay on hands ability also acts as {spell/remove curse}, using the paladin's level as the caster level.[^C]",
-			"",
-			"**Exhausted:** The target is no longer exhausted. The paladin must have the fatigue mercy before selecting this mercy.[^C]",
-			"",
-			"**Frightened:** The target is no longer frightened. The paladin must have the shaken mercy before selecting this mercy.[^C]",
-			"",
-			"**Injured:** The target gains fast healing 3 for a number of rounds equal to 1/2 the paladin's level.[^A]",
-			"",
-			"**Nauseated:** The target is no longer nauseated. The paladin must have the sickened mercy before selecting this mercy.[^C]",
-			"",
-			"**Poisoned:** The paladin's lay on hands ability also acts as {spell/neutralize poison}, using the paladin's level as the caster level.[^C]",
-			"",
-			"**Restorative:** The target heals 1d4 points of ability damage from a single ability score of the paladin's choosing. The paladin must have the enfeebled mercy before selecting this mercy.[^A]",
-			"",
-			"::h3[12th-Level Mercies]{jl}",
-			"",
-			"**Amputated:** The paladin's lay on hands also acts as {spell/regenerate}, but only for the purposes of regrowing severed body members, broken bones, and ruined organs. The paladin must have the injured mercy before she can select this mercy.[^A]",
-			"",
-			"**Blinded:** The target is no longer blinded.[^C]",
-			"",
-			"**Deafened:** The target is no longer deafened.[^C]",
-			"",
-			"**Ensorcelled:** The paladin's lay on hands also acts as {spell/dispel magic}, using the paladin's level as her caster level (maximum 20).[^A]",
-			"",
-			"**Paralyzed:** The target is no longer paralyzed.[^C]",
-			"",
-			"**Petrified:** The paladin's lay on hands ability also acts as {spell/stone to flesh}, but only for the purpose of removing the petrified condition from a creature.[^A]",
-			"",
-			"**Stunned:** The target is no longer stunned.[^C]",
-			"",
-			"[^A]: {source/Healer's Handbook/ pg. 25}",
-			"[^B]: {source/PRPG Core Rulebook/ pg. 61}",
-			"[^C]: PRPG Core Rulebook pg. 62"
-		],
+		"sources": [ "PRPG Core Rulebook" ],
+		"compileFrom": {
+			"source": "mercy",
+			"targets": [
+				[
+					"## Mercies",
+					"",
+					"{SOURCE PRPG Core Rulebook}  ",
+					"At 3rd level, and every three levels thereafter, a paladin can select one mercy. Each mercy adds an effect to the paladin's lay on hands ability. Whenever the paladin uses lay on hands to heal damage to one target, the target also receives the additional effects from all of the mercies possessed by the paladin. A mercy can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.",
+					"",
+					"::h3[3rd-Level Mercies]{jl}",
+					""
+				],
+				{
+					"limit": "3",
+					"join": [ "", "", "" ],
+					"translate": {
+						"regex": "(.+)",
+						"replacement": "**{mercy/[[TITLE]]:}** $1 [[^S]]"
+					}
+				},
+				[
+					"",
+					"::h3[6th-Level Mercies]{jl}",
+					""
+				],
+				{
+					"limit": "6",
+					"join": [ "", "", "" ],
+					"translate": {
+						"regex": "(.+)",
+						"replacement": "**{mercy/[[TITLE]]:}** $1 [[^S]]"
+					}
+				},
+				[
+					"",
+					"::h3[9th-Level Mercies]{jl}",
+					""
+				],
+				{
+					"limit": "9",
+					"join": [ "", "", "" ],
+					"translate": {
+						"regex": "(.+)",
+						"replacement": "**{mercy/[[TITLE]]:}** $1 [[^S]]"
+					}
+				},
+				[
+					"",
+					"::h3[12th-Level Mercies]{jl}",
+					""
+				],
+				{
+					"limit": "12",
+					"join": [ "", "", "" ],
+					"translate": {
+						"regex": "(.+)",
+						"replacement": "**{mercy/[[TITLE]]:}** $1 [[^S]]"
+					}
+				}
+			]
+		},
 		"topLink": [ "Paladin", "class/paladin" ]
 	},
 	"mysteries": {
@@ -743,7 +731,7 @@
 					"## Swashbuckler Deeds",
 					"",
 					"{SOURCE Advanced Class Guide/56-59}  ",
-					"Swashbucklers spend panache points to accomplish deeds. Most deeds grant the swashbuckler a momentary bonus or effect, but some provide longerlasting effects. Some deeds remain in effect while the swashbuckler has at least 1 panache point, but do not require expending panache to be maintained. A swashbuckler can only perform deeds of her level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as the swashbuckler has or spends the required number of panache points to perform the deed.",
+					"Swashbucklers spend panache points to accomplish deeds. Most deeds grant the swashbuckler a momentary bonus or effect, but some provide longer-lasting effects. Some deeds remain in effect while the swashbuckler has at least 1 panache point, but do not require expending panache to be maintained. A swashbuckler can only perform deeds of her level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as the swashbuckler has or spends the required number of panache points to perform the deed.",
 					"",
 					"::h3[1st-Level Deeds]{jl}",
 					""
@@ -837,19 +825,19 @@
 			"",
 			"### 1st-Level Renowned Deed",
 			"",
-			"**Vengeful Heart (Ex):** Some swashbucklers are driven by vengeance above all else. At 1st level, the swashbuckler gains the samurai's resolve class feature, treating her swashbuckler level as her samurai level. Whenever the swashbuckler spends a use of resolve, she must also spend a point of panache or a use of charmed life, or the use of resolve has no effect. This deed replaces the derring-do deed and one other 1st-level deed.",
+			"**Vengeful Heart (Ex):** Some swashbucklers are driven by vengeance above all else. At 1st level, the swashbuckler gains the {class/samurai/'s} resolve class feature, treating her swashbuckler level as her samurai level. Whenever the swashbuckler spends a use of resolve, she must also spend a point of panache or a use of charmed life, or the use of resolve has no effect. This deed replaces the {swashdeed/derring-do} deed and one other 1st-level deed.",
 			"",
 			"### 3rd-Level Renowned Deed",
 			"",
-			"**Hilt Hammer (Ex):** Precise strikes with a slender blade do little to hinder amorphous or incorporeal creatures; when encountering such threats, some swashbucklers abandon precision in favor of brutish strikes. At 3rd level, the swashbuckler can activate this deed before rolling the attack roll when making an attack that would benefit from precise strike. An attack altered this way deals only half the normal damage from precise strike, but this damage is not treated as precision damage. This deed alters (but does not replace) the precise strike deed and replaces one other 3rd-level deed.",
+			"**Hilt Hammer (Ex):** Precise strikes with a slender blade do little to hinder amorphous or incorporeal creatures; when encountering such threats, some swashbucklers abandon precision in favor of brutish strikes. At 3rd level, the swashbuckler can activate this deed before rolling the attack roll when making an attack that would benefit from precise strike. An attack altered this way deals only half the normal damage from precise strike, but this damage is not treated as precision damage. This deed alters (but does not replace) the {swashdeed/precise strike} deed and replaces one other 3rd-level deed.",
 			"",
 			"### 7th-Level Renowned Deed",
 			"",
-			"**Dodging Dance (Ex):** The swashbuckler moves around her opponents' attacks to open them up for strikes. At 7th level, a swashbuckler can spend 1 panache point to move up to half her speed as a move action. If a creature makes an attack of opportunity against her due to this movement, she can attempt an Acrobatics check with a DC equal to the attacking creature's CMD. If she succeeds, the attack of opportunity misses, and the swashbuckler can make an attack of opportunity against the attacking creature instead. She can attempt to evade multiple attacks of opportunity during this movement, but the DC of the Acrobatics check increases by 2 for each additional opponent that makes an attack of opportunity against her during this movement. If the swashbuckler has an ability that grants her additional attacks of opportunity, she can use them to respond to multiple missed attacks of opportunity with her own attacks. This deed replaces the swashbuckler's grace deed and one other 7th-level deed.",
+			"**Dodging Dance (Ex):** The swashbuckler moves around her opponents' attacks to open them up for strikes. At 7th level, a swashbuckler can spend 1 panache point to move up to half her speed as a move action. If a creature makes an attack of opportunity against her due to this movement, she can attempt an Acrobatics check with a DC equal to the attacking creature's CMD. If she succeeds, the attack of opportunity misses, and the swashbuckler can make an attack of opportunity against the attacking creature instead. She can attempt to evade multiple attacks of opportunity during this movement, but the DC of the Acrobatics check increases by 2 for each additional opponent that makes an attack of opportunity against her during this movement. If the swashbuckler has an ability that grants her additional attacks of opportunity, she can use them to respond to multiple missed attacks of opportunity with her own attacks. This deed replaces the {swashdeed/swashbuckler's grace} deed and one other 7th-level deed.",
 			"",
 			"### 11-Level Renowned Deed",
 			"",
-			"**Vengeful Soul (Ex):** Sometimes vengeance can take years or even decades, forcing the aggrieved swashbuckler to push the limits of her endurance. At 11th level, the swashbuckler gains the samurai's greater resolve class feature. At 19th level, the swashbuckler gains the samurai's true resolve class feature. The swashbuckler must have the vengeful heart renowned deed to select this deed. This deed replaces the subtle blade and cheat death deeds, plus an additional 11th-level deed."
+			"**Vengeful Soul (Ex):** Sometimes vengeance can take years or even decades, forcing the aggrieved swashbuckler to push the limits of her endurance. At 11th level, the swashbuckler gains the {class/samurai/'s} greater resolve class feature. At 19th level, the swashbuckler gains the samurai's true resolve class feature. The swashbuckler must have the *vengeful heart* renowned deed to select this deed. This deed replaces the {swashdeed/subtle blade} and {swashdeed/cheat death} deeds, plus an additional 11th-level deed."
 		],
 		"topLink": [ "Swashbuckler", "class/swashbuckler" ]
 	},
