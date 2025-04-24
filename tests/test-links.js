@@ -121,6 +121,7 @@ const {
 	magicstaff,
 	magictattoo,
 	magicthrone,
+	misc,
 	subtype,
 	type: mtype,
 	npcclass,
@@ -172,7 +173,7 @@ const {
 	rangertrap
 } = basic_data_by_link;
 
-const all = [
+const $All = [
 	["main", main],
 	["arc-alchemist", archetypealchemist], ["arc-antipaladin", archetypeantipaladin],
 	["arc-arcanist", archetypearcanist], ["arc-barbarian", archetypebarbarian],
@@ -225,8 +226,9 @@ const all = [
 	["magic-necrotoxin", magicnecrotoxin], ["magic-plant", magicplant], ["magic-relic", magicrelic],
 	["magic-ring", magicring], ["magic-rod", magicrod], ["magic-set", magicset],
 	["magic-piercing", magicpiercing], ["magic-staff", magicstaff], ["magic-tattoo", magictattoo],
-	["magic-throne", magicthrone], ["subtype", subtype], ["type", mtype], ["npcclass", npcclass],
-	["sidekick", sidekick], ["skill", skill], ["spelldef", spelldef], ["trap", trap],
+	["magic-throne", magicthrone], ["misc", misc], ["subtype", subtype], ["type", mtype],
+	["npcclass", npcclass], ["sidekick", sidekick],
+	["skill", skill], ["spelldef", spelldef], ["trap", trap],
 	["umr", umr], ["outsiderspirit", outsiderspirit], ["ability", ability],
 	["eq-misc", eqmisc], ["faith", faith], ["feat", feat],
 	["magic-artifact", magicartifact], ["magic-weapon", magicweapon],
@@ -244,20 +246,20 @@ const all = [
 	["eidolon", eidolon], ["patron", patron], ["rangertrap", rangertrap]
 ];
 
-const known_props = {};
+const $KnownProps = {};
 
-all.forEach(([link, object]) => {
+$All.forEach(([link, object]) => {
 	// Create master list of links
-	known_props[link] = {};
-	Object.keys(object).forEach(key => (known_props[link][key] = true));
+	$KnownProps[link] = {};
+	Object.keys(object).forEach(key => ($KnownProps[link][key] = true));
 });
 
 // Ex:
-//    known_props.race.ratfolk = true
-//    known_props.race.rat = undefined
+//    $KnownProps.race.ratfolk = true
+//    $KnownProps.race.rat = undefined
 
 const parseTree = (tree) => {
-	const feats = known_props.feat;
+	const feats = $KnownProps.feat;
 	const found = new Set();
 	tree.forEach(leaf => {
 		const {prop, coparents = [], coparentsNolink = [], leaves = []} = leaf;
@@ -273,7 +275,7 @@ const parseTree = (tree) => {
 const testLinks = () => {
 	const msg = [ "\n...beginning link validation tests\n" ];
 	let found = false;
-	all.forEach(([link, object]) => {
+	$All.forEach(([link, object]) => {
 		// validate links
 		// `invalid links in ${link} files:`
 		const invalid = [];
@@ -328,7 +330,7 @@ const testLinks = () => {
 							}
 						} else if (m[1].match(/^http/)) {
 							// Skip
-						} else if(!known_props[m[1]] || !known_props[m[1]][m[2]]) {
+						} else if(!$KnownProps[m[1]] || !$KnownProps[m[1]][m[2]]) {
 							invalid.push(m[1] + "/" + m[2]);
 						}
 						temp = m[3];
@@ -356,7 +358,7 @@ const testLinks = () => {
 						if(!allsources[m[2]]) {
 							invalid.push(m[1] + "/" + m[2]);
 						}
-					} else if(!known_props[m[1]] || !known_props[m[1]][m[2]]) {
+					} else if(!$KnownProps[m[1]] || !$KnownProps[m[1]][m[2]]) {
 						invalid.push(`to=${m[1]}/${m[2]}`);
 					}
 					temp = m[3];
@@ -371,7 +373,7 @@ const testLinks = () => {
 						if(!allsources[property]) {
 							invalid.push(potential);
 						}
-					} else if (!known_props[protocol] || !known_props[protocol][property]) {
+					} else if (!$KnownProps[protocol] || !$KnownProps[protocol][property]) {
 						invalid.push(potential)
 					}
 					temp = m.pop();
@@ -380,7 +382,7 @@ const testLinks = () => {
 			if(topLink) {
 				const [ title, link ] = topLink;
 				const m = link.match(/^([-a-z0-9_]+)\/([a-z_0-9]+)$/);
-				if(!m || (!known_props[m[1]] || !known_props[m[1]][m[2]])) {
+				if(!m || (!$KnownProps[m[1]] || !$KnownProps[m[1]][m[2]])) {
 					invalid.push(`[ "${title}", "${link}" ]`);
 				}
 			}

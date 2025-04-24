@@ -1,6 +1,7 @@
 import { lazy } from 'react';
 import { useParams } from 'wouter';
 import data from '../json/_data_main.json';
+import ErrorPage from './ErrorPage';
 import './Page.css';
 
 type Params = { mainpage?: keyof typeof data };
@@ -88,7 +89,7 @@ const MainPage: React.FC = () => {
 	const index = page ? ((data[page] || 0) - 1) : 0;
 
 	if(index < 0) {
-		return <></>;
+		return <ErrorPage />;
 	}
 
 	const Page = pages[index];

@@ -2012,7 +2012,9 @@
 			"",
 			"In melee combat, you can help a friend attack or defend by distracting or interfering with an opponent. If you're in position to make a melee attack on an opponent that is engaging a friend in melee combat, you can attempt to aid your friend as a standard action. You make an attack roll against AC 10. If you succeed, your friend gains either a +2 bonus on his next attack roll against that opponent or a +2 bonus to AC against that opponent's next attack (your choice), as long as that attack comes before the beginning of your next turn. Multiple characters can aid the same friend, and similar bonuses stack.",
 			"",
-			"You can also use this standard action to help a friend in other ways, such as when he is affected by a spell, or to assist another character's skill check."
+			"You can also use this standard action to help a friend in other ways, such as when he is affected by a spell, or to assist another character's skill check.",
+			"",
+			"Also see: {rule/Aid Another} (in the Skills section)."
 		],
 		"parent_topics": [
 			"combat",
@@ -2975,7 +2977,8 @@
 			"",
 			"Panicked is a more extreme state of fear than shaken or frightened.",
 			"",
-			"***Shaken:*** A shaken character takes a -2 penalty on attack rolls, saving throws, skill checks, and ability checks. Shaken is a less severe state of fear than frightened or panicked."		],
+			"***Shaken:*** A shaken character takes a -2 penalty on attack rolls, saving throws, skill checks, and ability checks. Shaken is a less severe state of fear than frightened or panicked."
+		],
 		"parent_topics": [
 			"combat",
 			"conditions"
@@ -3128,7 +3131,7 @@
 		"subtitle": "Nauseated, Sickened",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"***Nauseated:*** Creatures with the nauseated condition experience stomach distress. Nauseated creatures are unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action such a character can take is a single move actions per turn.",
+			"***Nauseated:*** Creatures with the nauseated condition experience stomach distress. Nauseated creatures are unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action such a character can take is a single move action per turn.",
 			"",
 			"***Sickened:*** The character takes a -2 penalty on all attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks."
 		],

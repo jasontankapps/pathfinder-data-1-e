@@ -1,7 +1,7 @@
 import fs from 'fs';
 import basic_data_groups from './basic_data_groups.js';
 
-const searchgroups = [
+const SEARCHGROUPS = [
 	"class", // 1
 	"archetype", // 2
 	"feat", // 3
@@ -15,7 +15,7 @@ const searchgroups = [
 	"monster", // 11
 	"rule", // 12
 ];
-const searchindex = [
+const SEARCHINDEX = [
 	"Classes and Class Abilities", // 1
 	"Class Archetypes", // 2
 	"Feats", // 3
@@ -30,36 +30,41 @@ const searchindex = [
 	"Rules" // 12
 ];
 
-const grouping_data = {};
+const $groupingData = {};
 
 // Gather 'Type' info
-const checkForType = {};
-const types = [];
+const $typesFound = {};
+const $allTypes = [];
 // Gather link prefix info
-const checkForPrefix = {};
-const prefixes = [];
+const $prefixesFound = {};
+const $allPrefixes = [];
 // The bare index of names/titles
-const fuseIndex = [];
+const $fuseIndex = [];
 // The raw info to be used by SearchPage
-const dataIndex = [];
+const $dataIndex = [];
 // A list of plain copies that don't need to be indexed
-const allIncludingCopies = [];
+const $allIncludingCopies = [];
+
+const recordType = (type) => {
+	if(!$typesFound[type]) {
+		$typesFound[type] = $allTypes.length;
+		$allTypes.push(type);
+	}
+};
 
 Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 	const {data, link, num, type, searchgroup: sg} = groupobject;
-	if(!checkForType[type]) {
-		checkForType[type] = types.length;
-		types.push(type);
+	recordType(type);
+	if(!$prefixesFound[link]) {
+		$prefixesFound[link] = $allPrefixes.length;
+		$allPrefixes.push(link);
 	}
-	if(!checkForPrefix[link]) {
-		checkForPrefix[link] = prefixes.length;
-		prefixes.push(link);
-	}
-	if(num && !grouping_data[link]) {
-		grouping_data[link] = {};
+	if(num && !$groupingData[link]) {
+		$groupingData[link] = {};
 	}
 	Object.entries(data).forEach(([prop, value]) => {
-		const { name: n, title, copyof, subtitle, tags, searchgroup: sg2, alternateOf } = value;
+		const { name: n, title, copyof, subtitle, tags, searchgroup: sg2, alternateOf, type: typeOverride } = value;
+		typeOverride && recordType(typeOverride);
 		if(copyof && !data[copyof]) {
 			console.log(`${file}.${prop}.copyof = [${copyof}], not found in same file`);
 			return;
@@ -70,12 +75,12 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		if(prop === "not_found") {
 			// Skip, no need to put this in group data or search index
 			return;
-		} else if (num && grouping_data[link][prop]) {
+		} else if (num && $groupingData[link][prop]) {
 			console.log(`Duplicate [${prop}] in ${link} <${file}>`);
 		}
 		if (num) {
 			// This is a part of a multi-file group.
-			grouping_data[link][prop] = num;
+			$groupingData[link][prop] = num;
 		}
 		const named = n || title || (alternateOf ? (data[alternateOf].name || data[alternateOf].title) : "");
 		if(copyof && !named) {
@@ -89,7 +94,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 			if(!cc) {
 				console.log(`${file}.${prop}.copyof = [${copyof}], which does not lead to a stable entry`);
 			} else {
-				allIncludingCopies.push([`${link}/${prop}`, cc.name || "BLANK"]);
+				$allIncludingCopies.push([`${link}/${prop}`, cc.name || "BLANK"]);
 			}
 			return;
 		}
@@ -97,38 +102,38 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		const indexable = { name: named || "BLANK" };
 		subtitle && (indexable.subtitle = subtitle);
 		tags && (indexable.tags = tags);
-		fuseIndex.push(indexable);
+		$fuseIndex.push(indexable);
 		// Save for extra data to be used by the search page
-		const searchgroup = sg || (sg2 && (searchgroups.indexOf(sg2) + 1));
-		dataIndex.push({
-			t: checkForType[type],
-			p: checkForPrefix[link],
+		const searchgroup = (sg2 && (SEARCHGROUPS.indexOf(sg2) + 1)) || sg;
+		$dataIndex.push({
+			t: $typesFound[typeOverride || type],
+			p: $prefixesFound[link],
 			l: prop,
 			s: searchgroup
 		});
 		// Save for other functions to find a page name quickly
-		allIncludingCopies.push([`${link}/${prop}`, indexable.name]);
+		$allIncludingCopies.push([`${link}/${prop}`, indexable.name]);
 	});
 });
 
-Object.entries(grouping_data).forEach(([prop, value]) => {
+Object.entries($groupingData).forEach(([prop, value]) => {
 	fs.writeFileSync(`./src/json/_data_${prop}.json`, JSON.stringify(value));
 	console.log(`Saved ./src/json/_data_${prop}.json`);
 });
 
 fs.writeFileSync('./src/json/_data__fuse-translated_data.json', JSON.stringify({
-	data: dataIndex,
-	types,
-	prefixes,
-	searchindex
+	data: $dataIndex,
+	types: $allTypes,
+	prefixes: $allPrefixes,
+	searchindex: SEARCHINDEX
 }));
 console.log("Saved ./src/json/_data__fuse-translated-data.json");
 
-fs.writeFileSync('./src/json/_data__fuse-index.json', JSON.stringify(fuseIndex));
+fs.writeFileSync('./src/json/_data__fuse-index.json', JSON.stringify($fuseIndex));
 console.log("Saved ./src/json/_data__fuse-index.json");
 
-const allLinks = {};
-allIncludingCopies.forEach(([link, title]) => (allLinks[link] = title || "BLANK"));
+const $allLinks = {};
+$allIncludingCopies.forEach(([link, title]) => ($allLinks[link] = title || "BLANK"));
 
-fs.writeFileSync('./src/json/_data__all_links.json', JSON.stringify(allLinks));
+fs.writeFileSync('./src/json/_data__all_links.json', JSON.stringify($allLinks));
 console.log("Saved ./src/json/_data__all_links.json");

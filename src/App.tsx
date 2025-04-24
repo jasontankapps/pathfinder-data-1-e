@@ -104,6 +104,7 @@ const MagicRodPage = lazy(() => import("./pages/MagicRodPage"));
 const MagicStaffPage = lazy(() => import("./pages/MagicStaffPage"));
 const MasterpiecePage = lazy(() => import("./pages/MasterpiecePage"));
 const MediumSpiritPage = lazy(() => import("./pages/MediumSpiritPage"));
+const MiscPage = lazy(() => import("./pages/MiscPage"));
 const MonsterFamilyPage = lazy(() => import("./pages/MonsterFamilyPage"));
 const MonsterTypingPage = lazy(() => import("./pages/MonsterTypingPage"));
 const MysteryPage = lazy(() => import("./pages/MysteryPage"));
@@ -675,6 +676,11 @@ const App: FC = () => {
 						<Route path="/mercy/:id">
 							<Suspense fallback={<Loading text="Asking for mercy..." />}>
 								<TalentPageFour prefix="mercy" />
+							</Suspense>
+						</Route>
+						<Route path="/misc/:id">
+							<Suspense fallback={<Loading text="Sweeping out the cobwebs..." />}>
+								<MiscPage />
 							</Suspense>
 						</Route>
 

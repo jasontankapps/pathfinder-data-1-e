@@ -41,10 +41,10 @@ const {
 	magicnecrograft, magicnecrotoxin,
 	magicplant, magicrelic, magicpiercing,
 	magicset, magicthrone, magictattoo,
-	main
+	main, misc
 } = basic_data_by_link;
 
-const basics = [
+const $Basics = [
 	main,
 	classes,
 	spell,
@@ -153,10 +153,11 @@ const basics = [
 		...magicset,
 		...magicthrone,
 		...magictattoo
-	}
+	},
+	misc
 ];
 
-const whats = [
+const $Whats = [
 	"\"Main\" files",
 	"PC classes",
 	"spells",
@@ -225,7 +226,7 @@ const whats = [
 	"alchemical reagents",
 	"armor",
 	"armor enhancements",
-	"misc",
+	"misc. equipment",
 	"poison",
 	"siege engines",
 	"special materials",
@@ -233,7 +234,7 @@ const whats = [
 	"tech armor",
 	"tech artifacts",
 	"tech cybertech",
-	"tech misc",
+	"tech (misc.)",
 	"tech pharmaceuticals",
 	"tech weapons",
 	"weapons",
@@ -247,7 +248,8 @@ const whats = [
 	"magic staves",
 	"magic weapons",
 	"wondrous items",
-	"misc. magic items"
+	"misc. magic items",
+	"misc. topics"
 ];
 
 function getCopyOf (object, copiedProp, etc, counter = 0) {
@@ -298,8 +300,8 @@ function isGood(object, what, index) {
 	return [found, what, msg];
 }
 
-// basics.forEach((data, i) => isGood(data, whats[i]));
+// $Basics.forEach((data, i) => isGood(data, $Whats[i]));
 
-const basicsTest = () => basics.map((data, i) => isGood(data, whats[i], i));
+const basicsTest = () => $Basics.map((data, i) => isGood(data, $Whats[i], i));
 
 export default basicsTest;

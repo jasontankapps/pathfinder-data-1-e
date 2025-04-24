@@ -374,6 +374,7 @@ import trait2 from './json/traits02.json' with {type: 'json'};
 import trait3 from './json/traits03.json' with {type: 'json'};
 import trait4 from './json/traits04.json' with {type: 'json'};
 import trait5 from './json/traits05.json' with {type: 'json'};
+import misc from './json/misc.json' with {type: 'json'};
 
 // The property names are descriptive and should only be used for error messages and the like.
 const basic_data_groups = {
@@ -679,6 +680,13 @@ const basic_data_groups = {
 		link: "rule",
 		num: 37,
 		type: "Rules"
+	},
+	"misc": {
+		data: misc,
+		searchgroup: 12, // rule
+		link: "misc",
+		num: 0,
+		type: "Rule"
 	},
 	"umr": {
 		data: umr,

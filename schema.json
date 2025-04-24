@@ -23,10 +23,12 @@
 								"description": { "$ref": "#stringArray" },
 								"noFinder": { "type": "boolean" },
 								"tables": { "$ref": "#tables" },
+								"searchgroup": { "$ref": "#searchgroup" },
 								"parent_topics": { "$ref": "#uniqueArray" },
 								"siblings": { "$ref": "#uniqueArray" },
 								"subtopics": { "$ref": "#uniqueArray" },
 								"topLink": { "$ref": "#link" },
+								"type": { "type": "string" },
 								"className": { "type": "string" }
 							},
 							"required": [ "description", "name" ],
@@ -378,8 +380,13 @@
 			"type": "array",
 			"prefixItems": [
 				{ "type": "string" },
-				{ "type": "string" }
+				{
+					"type": "string",
+					"pattern": "^[-a-z]+/[a-z_0-9]+$"
+				}
 			],
+			"minItems": 2,
+			"maxItems": 2,
 			"items": false
 		},
 		"tables": {
@@ -395,6 +402,7 @@
 						"items": { "enum": [ "gp", "lbs", "gp+", "lbs+", "bonus", "num", "pct", null, 0 ] }
 					},
 					"alignments": {
+						"$comment": "true = start-aligned, false = end-aligned, null = center-aligned",
 						"type": "array",
 						"items": { "enum": [ true, false, null ] }
 					},
@@ -418,6 +426,7 @@
 							"anyOf": [
 								{
 									"properties": {
+										"col": { "type": "number" },
 										"range": {
 											"type": "array",
 											"prefixItems": [
@@ -425,26 +434,34 @@
 												{ "type": "number" }
 											],
 											"items": false
-										}
+										},
+										"labels": { "$ref": "#uniqueArray" }
 									},
-									"requires": [ "range", "col" ]
+									"requires": [ "range", "col" ],
+									"unevaluatedProperties": false
 								},
 								{
 									"properties": {
+										"col": { "type": "number" },
 										"equals": {
 											"type": "array",
 											"items": { "type": ["string","number"] },
 											"uniqueItems": true
-										}
+										},
+										"labels": { "$ref": "#uniqueArray" }
 									},
-									"requires": [ "equals", "col" ]
+									"requires": [ "equals", "col" ],
+									"unevaluatedProperties": false
 								},
 								{
 									"properties": {
+										"col": { "type": "number" },
 										"has": { "$ref": "#uniqueArray" },
-										"word": { "type": "boolean" }
+										"word": { "type": "boolean" },
+										"labels": { "$ref": "#uniqueArray" }
 									},
-									"requires": [ "has", "col" ]
+									"requires": [ "has", "col" ],
+									"unevaluatedProperties": false
 								}
 							]
 						}
@@ -472,6 +489,8 @@
 											{ "type": ["string", "number"] },
 											{ "type": "string" }
 										],
+										"minItems": 2,
+										"maxItems": 2,
 										"items": false
 									}
 								]
@@ -479,7 +498,8 @@
 						}
 					},
 					"requires": [ "id", "headers", "types", "data", "initialColumn" ]
-				}
+				},
+				"unevaluatedProperties": false
 			}
 		},
 		"subfeat": {
