@@ -182,7 +182,7 @@
 			"**Prerequisite:** Perform (oratory) 7 ranks or Perform (percussion) 7 ranks.  ",
 			"**Cost:** Feat or 3rd-level bard spell known.",
 			"",
-			"**Effect:** Up to one ally per bard level gains the benefits of {spell/haste} while you maintain this masterpiece, except the bonus to AC and on attack rolls and Reflex saves is one-fifth of your bard level. These allies must be within 60 feet of you to receive this benefit. When you cease performing this masterpiece, any creature that received this benefit for at least 3 rounds must succeed at a Fortitude save at this masterpiece's DC or be fatigued for twice as many rounds as they were affected.",
+			"**Effect:** Up to one ally per bard level gains the benefits of {spell/haste} while you maintain this masterpiece, except the bonus to AC and on attack rolls and Reflex saves is one-fifth of your bard level. These allies must be within 60 feet of you to receive this benefit. When you cease performing this masterpiece, any creature that received this benefit for at least 3 rounds must succeed at a Fortitude save at this masterpiece's DC or be {misc/fatigued} for twice as many rounds as they were affected.",
 			"",
 			"**Use:** 1 round of bardic performance per round.  ",
 			"**Action:** 1 standard action."
@@ -201,7 +201,7 @@
 			"**Prerequisite:** Perform (percussion or sing) 10 ranks.  ",
 			"**Cost:** 5th-level bard spell known.",
 			"",
-			"**Effect:** Evil creatures that hear the performance and fail a Will save against the effect are blinded and deafened for the duration. On a successful save, they are shaken instead. Undead or creatures with the evil subtype that fail their saves are stunned for the duration, while those that succeed are staggered.",
+			"**Effect:** Evil creatures that hear the performance and fail a Will save against the effect are {misc/blinded} and {misc/deafened} for the duration. On a successful save, they are {misc/shaken} instead. Undead or creatures with the evil subtype that fail their saves are {misc/stunned} for the duration, while those that succeed are {misc/staggered}.",
 			"",
 			"**Use:** 3 bardic performance rounds, +1 round per additional round of duration.  ",
 			"**Action:** 3 full rounds."
@@ -239,7 +239,7 @@
 			"**Prerequisite:** Perform (oratory) or Perform (sing) 7 ranks.  ",
 			"**Cost:** Feat or 3rd-level bard spell known.",
 			"",
-			"**Effect:** You force one target within 30 feet to perceive his allies as being dragged into Abyssal pits. When you complete the performance, the target must attempt a Will save. On a failed save, the target gains the shaken condition and can't see or hear any allied creature for the duration of the performance. All of the target's allies function as if invisible to it, making conversation impossible and preventing the target from gaining benefits from any effects that require hearing or seeing an ally. This is a fear and illusion (glamer) effect.",
+			"**Effect:** You force one target within 30 feet to perceive his allies as being dragged into Abyssal pits. When you complete the performance, the target must attempt a Will save. On a failed save, the target gains the {misc/shaken} condition and can't see or hear any allied creature for the duration of the performance. All of the target's allies function as if invisible to it, making conversation impossible and preventing the target from gaining benefits from any effects that require hearing or seeing an ally. This is a fear and illusion (glamer) effect.",
 			"",
 			"**Use:** 1 bardic performance round per round.  ",
 			"**Action:** 1 full round."

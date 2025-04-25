@@ -166,6 +166,7 @@
 		"type": "Rule",
 		"topLink": [ "Dying Conditions", "rule/dying_conditions" ]
 	},
+	"stabilize": { "copyof": "stable" },
 	"exhausted": {
 		"name": "Exhausted",
 		"sources": [ "PRPG Core Rulebook" ],

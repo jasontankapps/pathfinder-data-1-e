@@ -33,7 +33,7 @@
 			"",
 			"::h3[Armored Juggernaut]{jl extra=(Ex)}",
 			"",
-			"When wearing heavy armor, the fighter gains DR 1/-. At 7th level, the fighter gains DR 1/- when wearing medium armor, and DR 2/- when wearing heavy armor. At 11th level, the fighter gains DR 1/- when wearing light armor, DR 2/- when wearing medium armor, and DR 3/- when wearing heavy armor. If the fighter is 19th level and has the armor mastery class feature, these DR values increase by 5. The DR from this ability stacks with that provided by {eq-material/adamantine} armor, but not with other forms of damage reduction. This damage reduction does not apply if the fighter is helpless, stunned, or unconscious.",
+			"When wearing heavy armor, the fighter gains DR 1/-. At 7th level, the fighter gains DR 1/- when wearing medium armor, and DR 2/- when wearing heavy armor. At 11th level, the fighter gains DR 1/- when wearing light armor, DR 2/- when wearing medium armor, and DR 3/- when wearing heavy armor. If the fighter is 19th level and has the armor mastery class feature, these DR values increase by 5. The DR from this ability stacks with that provided by {eq-material/adamantine} armor, but not with other forms of damage reduction. This damage reduction does not apply if the fighter is [helpless, stunned, or unconscious](rule/awareness_conditions).",
 			"",
 			"::h3[Armored Master]{jl}",
 			"",
@@ -840,7 +840,7 @@
 			"| [Shapechanger](/bloodragerbloodline/shapechanger) | The blood of doppelgangers, faceless stalkers, lycanthropes, or other shapechangers courses through your veins. |",
 			"| [Sphinx](/bloodragerbloodline/sphinx) | Those who successfully traded riddles with sphinxes sometimes find themselves or their descendants exhibiting both arcane power and violent fury. These bloodragers find being outwitted or outmaneuvered especially infuriating; though they are usually scholarly and erudite, their fits of frenzied rage are all the more terrifying in comparison. |",
 			"| [Undead](/bloodragerbloodline/undead) | The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with your lineage. Your connection to the attributes of the undead bestows frightening power when your bloodrage. |",
-			"| [Verdant](/bloodragerbloodline/verdant) | Your body is suffused with raw plant life. When you bloodrage, your plantlike characteristics bolster your durability and grant you some control over vegetation. |",
+			"| [Verdant](/bloodragerbloodline/verdant) | Your body is suffused with raw plant life. When you bloodrage, your plant-like characteristics bolster your durability and grant you some control over vegetation. |",
 			"| [Vestige](/bloodragerbloodline/vestige) | You are the descendant of great heroes from a lost civilization. |"
 		],
 		"topLink": [ "Bloodrager", "class/bloodrager" ]

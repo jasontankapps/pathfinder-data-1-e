@@ -608,7 +608,7 @@
 			"{SOURCE Advanced Class Guide/92}  ",
 			"A feral shifter internalizes her communion with and mastery over animals. Instead of forming a bond with an animal companion or an aspect of nature, she alters her own essence or being as homage to the noble creatures of the wild. More in tune with transformation and animal bodies than a normal druid, a feral shifter blurs the line between humanoid and beast.",
 			"",
-			"**Animal Focus (Su):** At 1st level, as a swift action, a feral shifter can take on the aspect of an animal, gaining a bonus or special ability based on the type of animal emulated. This functions as the {class/hunter/'s} {ability/animal focus} class feature. The feral shifter can use this ability for a number of minutes per day equal to her druid level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. She can emulate only one animal at a time. This ability replaces nature bond.",
+			"**Animal Focus (Su):** At 1st level, as a swift action, a feral shifter can take on the aspect of an animal, gaining a bonus or special ability based on the type of animal emulated. This functions as the hunter's {ability/animal focus} class feature. The feral shifter can use this ability for a number of minutes per day equal to her druid level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. She can emulate only one animal at a time. This ability replaces nature bond.",
 			"",
 			"**Second Animal Focus (Su):** At 9th level, when a feral shifter uses her animal focus ability, she selects two different animal aspects for herself instead of one. This ability replaces venom immunity, a thousand faces, and timeless body."
 		]
@@ -644,7 +644,7 @@
 			"## Fungal Pilgrim",
 			"",
 			"{SOURCE Heroes of the Darklands/16}  ",
-			"Druids often work to preserve the natural world, but some seek to further emulate it. Fungal pilgrims are druids seeking transformation into a more plantlike existence. These unique adherents of nature's creed see fungi as the means to such ends, as many fungi - particularly those of the Darklands' naturally work their way into the bodies of living creatures.",
+			"Druids often work to preserve the natural world, but some seek to further emulate it. Fungal pilgrims are druids seeking transformation into a more plant-like existence. These unique adherents of nature's creed see fungi as the means to such ends, as many fungi - particularly those of the Darklands' naturally work their way into the bodies of living creatures.",
 			"",
 			"**Devotion to Ascension (Ex):** A fungal pilgrim must select the {domain/Plant} domain for her nature bond if she does not select an animal companion.",
 			"",
@@ -2104,7 +2104,7 @@
 			"{SOURCE Ultimate Combat/43}  ",
 			"While all druids traverse the wilderness with ease, the world walkers take it upon themselves to travel the entire world. Some act as messengers and scouts for druidic circles, while others have a seemingly unquenchable wanderlust; each new land provides new mysteries to discover and new wisdom to be gained from mastering those mysteries.",
 			"",
-			"**Favored Terrain (Ex):** At 3rd level, the world walker gains the {class/ranger/'s} {ability/favored terrain} ability. She treats her druid level as her ranger level for this ability. If she has levels in both classes, both class's levels stack for determining the effect of this ability. This ability replaces trackless step and resist nature's lure.",
+			"**Favored Terrain (Ex):** At 3rd level, the world walker gains the ranger's {ability/favored terrain} ability. She treats her druid level as her ranger level for this ability. If she has levels in both classes, both class's levels stack for determining the effect of this ability. This ability replaces trackless step and resist nature's lure.",
 			"",
 			"**Path of Trees (Su):** At 9th level, once a day, a wanderer can step within a tree and then teleport from that tree to another one in a manner similar to the {spell/tree stride} spell. She gains an extra use of this ability each day at 12th level, and a third use of this ability at 15th level. Furthermore, a world walker of 13th level or higher can use this ability to teleport to any other tree of its type up to 100 miles away. This ability replaces both venom immunity and timeless body."
 		]

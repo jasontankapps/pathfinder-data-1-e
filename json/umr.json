@@ -1659,7 +1659,7 @@
 			"## Mental Static Aura (Su)",
 			"",
 			"{SOURCE Bestiary 5/295}  ",
-			"A creature with this ability creates a field around itself that makes concentrating difficult for those without this ability. Living creatures within 30 feet must succeed at a {rule/concentration} check (DC = 10 + 1/2 the HD of the creature with the mental static aura + that creature's Charisma modifier) to cast a spell with a [thought component](rule/components_oa). Failing this check causes the spell to be lost with no effect. In addition, all spellcasters must attempt this check at the start of their turns if they are concentrating on an active spell or effect. Failing it means that they cease concentrating on the spell or effect. Creatures with this ability are immune to its effects and can cast spells normally.",
+			"A creature with this ability creates a field around itself that makes concentrating difficult for those without this ability. Living creatures within 30 feet must succeed at a {rule/concentration} check (DC = 10 + 1/2 the HD of the creature with the mental static aura + that creature's Charisma modifier) to cast a spell with a {rule/thought |component>s_oa}. Failing this check causes the spell to be lost with no effect. In addition, all spellcasters must attempt this check at the start of their turns if they are concentrating on an active spell or effect. Failing it means that they cease concentrating on the spell or effect. Creatures with this ability are immune to its effects and can cast spells normally.",
 			"",
 			"**Format:** mental static (DC 18)  ",
 			"**Location:** Aura."
@@ -1672,7 +1672,7 @@
 			"## Ability Damage and Drain (Ex or Su)",
 			"",
 			"{SOURCE Bestiary 5/290}  ",
-			"Some attacks or special abilities cause ability damage or drain. While ability damage can be healed naturally, ability drain is permanent and can be restored only through magic.",
+			"Some attacks or special abilities cause {rule/ability «score_»damage [or]«penalty_and» drain}. While ability damage can be healed naturally, ability drain is permanent and can be restored only through magic.",
 			"",
 			"**Format:** 1d4 Str drain  ",
 			"**Location:** Special Attacks and individual attacks."

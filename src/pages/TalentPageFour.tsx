@@ -32,6 +32,7 @@ const info: { [key in Talent]: [string, string] } = {
 };
 
 const addendaObj: { [key: string]: string } = {
+	primarybomb: "This discovery modifies an alchemist's bomb, and has this limitation: These discoveries do not stack - only one such discovery can be applied to an individual bomb.",
 	devilbane: "Devilbane gazes tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well."
 };
 

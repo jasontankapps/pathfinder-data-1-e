@@ -18,6 +18,8 @@
 //     {rule/special_<Link} => [Link](rule/special_link)
 //   Using [brackets] removes text from a link, but preserves it in the text:
 //     {rule/rule[s] of cool} => [rules of cool](rule/rule_of_cool)
+//   Using «quotes» adds text to a link, but not in the text:
+//     {rule/something «with_a_»complicated>_name} => [something complicated](rule/something_with_a_complicated_name)
 // The advanced forms can be used together in the order <|/>
 //   {rule/special_<Pre |Link//Text/ Stuff>_info} => [Pre Link/Text Stuff](rule/special_link_text_info)
 
@@ -63,14 +65,14 @@ const checkForEncodedLink = (input, mayBeRegularLink = false) => {
 		matched = m[1];
 		textpost = m[2];
 	}
-	// enclosed [extra ]text
+	// enclosed [extra]«link_and» text
 	let temp = matched;
 	let linkmatched = "";
 	matched = "";
-	while(m = temp.match(/^(.*?)\[(.*?)\](.*)$/)) {
-		const [, pre, extra, post] = m;
-		matched = matched + pre + extra;
-		linkmatched = linkmatched + pre;
+	while(m = temp.match(/^(.*?)(?:\[(.*?)\]|«(.*?)»)(.*)$/)) {
+		const [, pre, extraText, extraLink, post] = m;
+		matched = matched + pre + (extraText || "");
+		linkmatched = linkmatched + pre + (extraLink || "");
 		temp = post;
 	}
 	matched = matched + temp;

@@ -3383,7 +3383,7 @@
 			"**Price** 12 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This large, coarse blanket covers a single square and has a multi-colored design that blends in with a specific environment type, such as underground, forests, or plains (see the {class/ranger/'s} {ability/Favored Terrain/s} table). A character covered by a camouflage blanket in that blanket's matching terrain has {rule/concealment}. Such characters who are also prone gain a +2 circumstance bonus on Stealth checks. The bonus applies even when the covered character attempts a Stealth check to remain hidden after sniping with a projectile weapon."
+			"This large, coarse blanket covers a single square and has a multi-colored design that blends in with a specific environment type, such as underground, forests, or plains (see the ranger's {ability/Favored Terrain/s} table). A character covered by a camouflage blanket in that blanket's matching terrain has {rule/concealment}. Such characters who are also prone gain a +2 circumstance bonus on Stealth checks. The bonus applies even when the covered character attempts a Stealth check to remain hidden after sniping with a projectile weapon."
 		]
 	},
 	"camouflage_lichen": {
