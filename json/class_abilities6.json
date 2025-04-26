@@ -192,5 +192,19 @@
 			"",
 			"Alternatively, a paladin can use this healing power to deal damage to undead creatures, dealing 1d6 points of damage for every two levels the paladin possesses. Using lay on hands in this way requires a successful melee touch attack and doesn't provoke an attack of opportunity. Undead do not receive a saving throw against this damage."
 		]
+	},
+	"trap_sense": {
+		"name": "Trap Sense",
+		"sources": [
+			"PRPG Core Rulebook",
+			"Advanced Class Guide"
+		],
+		"description": [
+			"This is an intuitive sense that alerts a character to danger from traps, giving her a +1 bonus on Reflex saves made to avoid traps and a +1 dodge bonus to AC against attacks made by traps. These bonuses rise to +2 when she reaches 6th level, to +3 when she reaches 9th level, to +4 when she reaches 12th level, to +5 at 15th, and to +6 at 18th level.",
+			"",
+			"Trap sense bonuses gained from multiple classes stack.",
+			"",
+			"This ability is gained by {class/investigator/s}, {class/rogue/s}, and {class/barbarian/s} at 3rd level."
+		]
 	}
 }

@@ -985,13 +985,13 @@
 		]
 	},
 	"walrus_b4": { "copyof": "walrus_walrus_b4" },
-	"walrus_walrus_ff": {
-		"name": "Walrus (FF)",
+	"walrus_walrus_aa": {
+		"name": "Walrus (AA)",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"*This bulky, thick-skinned, flippered creature has on its face two enormous tusks and what looks like a coarse mustache.*",
 			"",
-			"::mh[Walrus (FF)]{cr=\"4\"}",
+			"::mh[Walrus (AA)]{cr=\"4\"}",
 			"",
 			"{SOURCE Animal Archive/29}  ",
 			"**XP** 1,200  ",
@@ -1033,7 +1033,7 @@
 			"Young walruses start out with gray hides, but their flesh becomes almost pinkish when they reach old age (20-30 years for most walruses). Their hide is up to 4 inches thick, with another 6 inches of blubber hidden underneath that, accounting for their incredible toughness - and for their usefulness to arctic cultures as a source of meat and fuel."
 		]
 	},
-	"walrus_ff": { "copyof": "walrus_walrus_ff" },
+	"walrus_aa": { "copyof": "walrus_walrus_aa" },
 	"wamp": {
 		"name": "Wamp",
 		"sources": [ "Pathfinder #111: Dreams of the Yellow King" ],

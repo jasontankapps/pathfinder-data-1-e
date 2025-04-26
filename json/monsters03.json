@@ -2434,13 +2434,14 @@
 			"",
 			"Variant species of these giant beetles exist as well. The two detailed below are the ones most commonly encountered.",
 			"",
-			"Bombardier Beetle (CR 2): This giant stag beetle has only 2 Hit Dice and is Medium sized, but can spray acid once per round in a 10-foot cone. Those in the cone must make a DC 11 Fortitude save or take 1d4+2 points of acid damage. The save DC is Constitution-based.",
+			"**Bombardier Beetle (CR 2):** This giant stag beetle has only 2 Hit Dice and is Medium sized, but can spray acid once per round in a 10-foot cone. Those in the cone must make a DC 11 Fortitude save or take 1d4+2 points of acid damage. The save DC is Constitution-based.",
 			"",
-			"Goliath Beetle (CR 8): The immense goliath beetle is a Huge stag beetle with 12 HD and the trample special ability."
+			"**Goliath Beetle (CR 8):** The immense goliath beetle is a Huge stag beetle with 12 HD and the {umr/trample} special ability."
 		]
 	},
 	"beetle_giant_stag": { "copyof": "beetle_giant_stag_beetle" },
 	"giant_stag_beetle": { "copyof": "beetle_giant_stag_beetle" },
+	"giant_beetle": { "copyof": "beetle_giant_stag_beetle" },
 	"beetle_goliath_stag_beetle": {
 		"name": "Goliath Stag Beetle",
 		"sources": [ "Bestiary 2" ],

@@ -1053,13 +1053,13 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"gliding_tutle": {
-		"name": "Gliding Tutle",
+	"gliding_turtle": {
+		"name": "Gliding Turtle",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
 		"description": [
 			"*This giant turtle has a large, thin membrane of scaly skin extending from its shell to its legs.*",
 			"",
-			"::mh[Gliding Tutle]{cr=\"2\"}",
+			"::mh[Gliding Turtle]{cr=\"2\"}",
 			"",
 			"{SOURCE Pathfinder #121: The Lost Outpost/82}  ",
 			"**XP** 600  ",
