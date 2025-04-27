@@ -605,7 +605,7 @@
 			"",
 			"A critical hit means that you roll your damage more than once, with all your usual bonuses, and add the rolls together. Unless otherwise specified, the threat range for a critical hit on an attack roll is 20, and the multiplier is &times;2.",
 			"",
-			"***Exception:*** Precision damage (such as from a rogue's sneak attack class feature) and additional damage dice from weapon special abilities (such as {magic-enh/flaming}) are not multiplied when you score a critical hit.",
+			"***Exception:*** Precision damage (such as from a rogue's {ability/sneak attack} class feature) and additional damage dice from weapon special abilities (such as {magic-enh/flaming}) are not multiplied when you score a critical hit.",
 			"",
 			"***Increased Threat Range:*** Sometimes your threat range is greater than 20. That is, you can score a threat on a lower number. In such cases, a roll of lower than 20 is not an automatic hit. Any attack roll that doesn't result in a hit is not a threat.",
 			"",

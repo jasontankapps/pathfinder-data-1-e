@@ -1615,7 +1615,12 @@
 	},
 	"emotional_conduit": {
 		"name": "Emotional Conduit",
-		"sources": [ "Occult Adventures" ],
+		"sources": [
+			"Occult Adventures",
+			"Psychic Anthology",
+			"Occult Origins",
+			"Heroes from the Fringe"
+		],
 		"description": [
 			"## Emotional Conduit",
 			"",
@@ -1623,19 +1628,31 @@
 			"",
 			"The deep emotional resonance you share with your phantom enables you to master the emotions of others.  ",
 			"**Prerequisites:** Shared consciousness class feature.  ",
-			"**Benefit:** You gain familiarity with a number of additional spells based on the emotional focus of your phantom. These spells are added to both your class spell list (if not already on that list) and your list of spells known; they are in addition to the normal number of spells known for your level. The spells you gain are as follows: Anger: 1st-burst of adrenaline, 2nd-rage, 3rd-howling agony, 4th-telekinetic charge, 5th-vengeful outrage, 6th-transformation.",
+			"**Benefit:** You gain familiarity with a number of additional spells based on the {ability/emotional focus} of your phantom. These spells are added to both your class spell list (if not already on that list) and your list of spells known; they are in addition to the normal number of spells known for your level. The spells you gain are as follows:",
 			"",
-			"Despair: 1st-touch of gracelessness, 2nd-death knell, 3rd-ray of exhaustion, 4th-crushing despair, 5th-suffocation, 6th-eyebite.",
+			":::blockquote{className=hanging}",
 			"",
-			"Devotion: 1st-invisibility alarm, 2nd-spiritual weapon, 3rd-cure light wounds, 4th-spell immunity, 5th-vampiric shadow shield, 6th-greater heroism.",
+			"**Anger:** 1st-{spell/burst of adrenaline}, 2nd-{spell/rage}, 3rd-{spell/howling agony}, 4th-{spell/telekinetic charge}, 5th-{spell/vengeful outrage}, 6th-{spell/transformation}.",
 			"",
-			"Fear: 1st-heightened awareness, 2nd-scare, 3rd-fear, 4th-feast on fear, 5th-nightmare, 6th-frightful aspect.",
+			"**Despair:** 1st-{spell/touch of gracelessness}, 2nd-{spell/death knell}, 3rd-{spell/ray of exhaustion}, 4th-{spell/crushing despair}, 5th-{spell/suffocation}, 6th-{spell/eyebite}.",
 			"",
-			"Hatred: 1st-murderous command, 2nd-disfiguring touch, 3rd-bestow curse, 4th-debilitating portent, 5th-foster hatred, 6th-phantasmal revenge.",
+			"**Devotion:** 1st-{spell/invisibility alarm}, 2nd-{spell/spiritual weapon}, 3rd-{spell/cure light wounds}, 4th-{spell/spell immunity}, 5th-{spell/vampiric shadow shield}, 6th-{spell/greater heroism}.",
 			"",
-			"Jealousy: 1st-compel hostility, 2nd-life pact, 3rd-ectoplasmic snare, 4th-entrap spirit, 5th-dominate person, 6th-unwilling shield.",
+			"**Fear:** 1st-{spell/heightened awareness}, 2nd-{spell/scare}, 3rd-fear, 4th-feast on fear, 5th-nightmare, 6th-frightful aspect.",
 			"",
-			"Zeal: 1st-delusional pride, 2nd-false life, 3rd-heroism, 4th-freedom of movement, 5th-joyful rapture, 6th-greater heroism."
+			"**Hatred:** 1st-{spell/murderous command}, 2nd-{spell/disfiguring touch}, 3rd-{spell/bestow curse}, 4th-{spell/debilitating portent}, 5th-{spell/foster hatred}, 6th-{spell/phantasmal revenge}.",
+			"",
+			"**Jealousy:** 1st-{spell/compel hostility}, 2nd-{spell/life pact}, 3rd-{spell/ectoplasmic snare}, 4th-{spell/entrap spirit}, 5th-{spell/dominate person}, 6th-{spell/unwilling shield}.",
+			"",
+			"**Kindess:** 1st-{spell/charm person}, 2nd-{spell/blessing of courage and life}, 3rd-{spell/good hope}, 4th-{spell/mass charm person}, 5th-{spell/waves of ecstasy}, 6th-{spell/sympathy}. &mdash {source/Psychic Anthology/ pg. 4}",
+			"",
+			"**Remorse:** 1st-{spell/inflict light wounds}, 2nd-{spell/disfiguring touch}, 3rd-{spell/howling agony}, 4th-{spell/debilitating portent}, 5th-{spell/nightmare}, 6th-{spell/harm}. &mdash {source/Occult Origins/ pg. 19}",
+			"",
+			"**Whimsey:** 1st-{spell/color spray}, 2nd-{spell/hideous laughter}, 3rd-{spell/major image}, 4th-{spell/hallucinatory terrain}, 5th-{spell/baleful polymorph}, 6th-{spell/mislead}. &mdash {source/Heroes from the Fringe/ pg. 17}",
+			"",
+			"**Zeal:** 1st-{spell/delusional pride}, 2nd-{spell/false life}, 3rd-{spell/heroism}, 4th-{spell/freedom of movement}, 5th-{spell/joyful rapture}, 6th-{spell/greater heroism}.",
+			"",
+			":::"
 		]
 	},
 	"empath": {

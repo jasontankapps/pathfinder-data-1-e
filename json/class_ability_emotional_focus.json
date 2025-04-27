@@ -27,9 +27,9 @@
 			"",
 			"**Aura of Fury (Su):** When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-foot-radius aura of fury. Creatures within the aura gain a +2 bonus on melee attack rolls but take a -2 penalty to AC. Ending the aura is a free action. The phantom can use this ability in either ectoplasmic or incorporeal form.",
 			"",
-			"**Ferocious Mien (Su):** When the spiritualist reaches 12th level, once per day as a swift action, a phantom in ectoplasmic form can grow more ferocious and frightening. It becomes one size category larger than its current size, as affected by an enlarge person spell, and grows fiercer in combat, as if affected by a rage spell. This effect lasts for 1 round per class level of the spiritualist. When the spiritualist reaches 18th level, a phantom using ferocious mien also gains the {umr/frightful presence} extraordinary ability (range 30 feet, duration 5d6 rounds).",
+			"**Ferocious Mien (Su):** When the spiritualist reaches 12th level, once per day as a swift action, a phantom in ectoplasmic form can grow more ferocious and frightening. It becomes one size category larger than its current size, as affected by an {spell/enlarge person} spell, and grows fiercer in combat, as if affected by a {spell/rage} spell. This effect lasts for 1 round per class level of the spiritualist. When the spiritualist reaches 18th level, a phantom using ferocious mien also gains the {umr/frightful presence} extraordinary ability (range 30 feet, duration 5d6 rounds).",
 			"",
-			"**Furious Wail (Su):** When the spiritualist reaches 17th level, once per day as a standard action, the phantom can emit a single angry wail that acts as wail of the banshee. The phantom uses its Hit Dice as its caster level for the effect, and the DC of the effect is 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier. The phantom can use this ability in either ectoplasmic or incorporeal form."
+			"**Furious Wail (Su):** When the spiritualist reaches 17th level, once per day as a standard action, the phantom can emit a single angry wail that acts as {spell/wail of the banshee}. The phantom uses its Hit Dice as its caster level for the effect, and the DC of the effect is 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier. The phantom can use this ability in either ectoplasmic or incorporeal form."
 		]
 	},
 	"dedication": {
@@ -53,7 +53,7 @@
 			"",
 			"**Devoted Servant (Su):** When the spiritualist reaches 12th level and is caught unawares by an attack (such as an attack made in a surprise round or while the spiritualist is asleep or an attack by a creature using Stealth), if the phantom is not fully manifested, it automatically fully manifests from the spiritualist's consciousness to protect its master. The phantom stays manifested as long as the spiritualist is unaware and in danger. This ability requires no action from the spiritualist.",
 			"",
-			"**Steadfast Devotion (Su):** When the spiritualist reaches 17th level, the phantom becomes immune to detrimental mind-affecting effects and all forms of possession, such as {spell/magic jar} and {spell/possession}. Furthermore, the phantom is immune to banishment, dismissal, and similar effects."
+			"**Steadfast Devotion (Su):** When the spiritualist reaches 17th level, the phantom becomes immune to detrimental mind-affecting effects and all forms of possession, such as {spell/magic jar} and {spell/possession}. Furthermore, the phantom is immune to {spell/banishment}, {spell/dismissal}, and similar effects."
 		]
 	},
 	"despair": {
@@ -69,13 +69,13 @@
 			"",
 			"**Good Saves:** Fortitude and Will.",
 			"",
-			"**Power from Despair:** The phantom gains a +2 bonus on attack and damage rolls against creatures that are shaken, frightened, panicked, cowering, or subject to effects such as aura of despair or crushing despair.",
+			"**Power from Despair:** The phantom gains a +2 bonus on attack and damage rolls against creatures that are shaken, frightened, panicked, cowering, or subject to effects such as aura of despair or *crushing despair.*",
 			"",
 			"**Miserable Strike (Su):** If the phantom hits a creature with a slam attack, that creature must succeed at a Will saving throw (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or take a -2 penalty on attack and damage rolls for 1 round. This is a mind-affecting fear and emotion effect. Penalties from multiple hits don't stack with themselves.",
 			"",
 			"**Aura of Despair (Su):** When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 10-foot aura of despair. Enemies within the aura take a -2 penalty on all saving throws. This is a fear effect. Deactivating the aura is a free action.",
 			"",
-			"**Despairing Shout (Su):** When the spiritualist reaches 12th level, three times per day as a standard action, the phantom can emit a shout that acts as crushing despair. The phantom uses its Hit Dice as its caster level for the effect, and the DC of the effect equals 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier. The phantom can use this ability in either ectoplasmic or incorporeal form.",
+			"**Despairing Shout (Su):** When the spiritualist reaches 12th level, three times per day as a standard action, the phantom can emit a shout that acts as {spell/crushing despair}. The phantom uses its Hit Dice as its caster level for the effect, and the DC of the effect equals 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier. The phantom can use this ability in either ectoplasmic or incorporeal form.",
 			"",
 			"**Inescapable Despair (Su):** When the spiritualist reaches 17th level, if the phantom hits with its slam attack, the creature hit doesn't get a save to resist the effects of miserable strike."
 		]
@@ -101,7 +101,7 @@
 			"",
 			"**Clutch of Terror (Su):** When the spiritualist reaches 12th level, the phantom can summon a mass of hands to grapple an enemy within 60 feet as a standard action. The hands immediately attempt a grapple combat maneuver against the target using the phantom's statistics (including the phantom's CMB), except the hands are collectively considered to be the same size as the target. On following rounds, the hands attempt to maintain the grapple (the hands cannot pin the target, however). Each round that the hands successfully grapple a target, the hands also deal the phantom's normal slam damage to the target. The hands immediately disappear and the effect ends if the hands fail to grapple their target, if the target escapes the grapple or dies, or if the phantom ceases to be manifested. The effect also ends if the phantom uses this ability against a different target. The phantom can use this ability three times per day.",
 			"",
-			"**Burst of Desperation (Sp):** When the spiritualist reaches 17th level, once per day as a standard action, the phantom can affect itself and the spiritualist with the effects of haste. The caster level of this effect is equal to the spiritualist's caster level. The phantom or the spiritualist can dismiss this effect as a free action. The duration of this ability must be used all at once, and any of the effect's remaining rounds per day are lost after this ability is dismissed."
+			"**Burst of Desperation (Sp):** When the spiritualist reaches 17th level, once per day as a standard action, the phantom can affect itself and the spiritualist with the effects of {spell/haste}. The caster level of this effect is equal to the spiritualist's caster level. The phantom or the spiritualist can dismiss this effect as a free action. The duration of this ability must be used all at once, and any of the effect's remaining rounds per day are lost after this ability is dismissed."
 		]
 	},
 	"fear": {
@@ -121,7 +121,7 @@
 			"",
 			"**Horrifying Strike (Ex):** If the phantom hits a creature with a slam attack, that creature must succeed at a Will saving throw (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or be shaken for 1d4 rounds. Multiple attacks against the same creature do not cause the creature to become frightened. This is a mind-affecting fear effect.",
 			"",
-			"**Increase Fear (Su):** When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-foot-radius aura that amplifies the fear conditions of enemies within it if they fail their Will saving throws (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier). A shaken enemy in the aura becomes frightened, a frightened creature becomes panicked, and a panicked creature cowers. This effect lasts either as long as the enemy stays within the aura and is under the condition of the initial fear effect, or for a number of rounds after it leaves the aura equal to 1/2 the phantom's Hit Dice, or until the end of the original fear effect's duration, whichever comes first. A creature that succeeds at the saving throw is immune to this effect from the same phantom for 24 hours. This is a mind-affecting fear effect. The phantom can use this ability in either ectoplasmic or incorporeal form.",
+			"**Increase Fear (Su):** When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-foot-radius aura that amplifies the fear conditions of enemies within it if they fail their Will saving throws (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier). A {misc/shaken} enemy in the aura becomes {misc/frightened}, a frightened creature becomes {misc/panicked}, and a panicked creature {misc/cower/s>ing}. This effect lasts either as long as the enemy stays within the aura and is under the condition of the initial fear effect, or for a number of rounds after it leaves the aura equal to 1/2 the phantom's Hit Dice, or until the end of the original fear effect's duration, whichever comes first. A creature that succeeds at the saving throw is immune to this effect from the same phantom for 24 hours. This is a mind-affecting fear effect. The phantom can use this ability in either ectoplasmic or incorporeal form.",
 			"",
 			"**Frightful Attack (Su):** When the spiritualist reaches 12th level, if the phantom hits with a slam attack, it can frighten those it hits instead of causing them to be shaken (the phantom chooses when it makes the attack). This is a mind-affecting fear effect.",
 			"",
@@ -171,7 +171,7 @@
 			"",
 			"**Hateful Aura (Su):** When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 10-foot-radius aura that inflicts pain upon the minds of those who dare damage it or its master. Enemies within the aura that deal damage to the spiritualist or the phantom take an amount of damage equal to the phantom's Charisma bonus. This is a mind-affecting pain effect. The phantom can use this ability in either ectoplasmic or incorporeal form.",
 			"",
-			"**Sneak Attack (Su):** When the spiritualist reaches 12th level, the phantom gains sneak attack +3d6, but only against its hated enemy. At 18th level, the sneak attack damage increases to +5d6.",
+			"**Sneak Attack (Su):** When the spiritualist reaches 12th level, the phantom gains {ability/sneak attack} +3d6, but only against its hated enemy. At 18th level, the sneak attack damage increases to +5d6.",
 			"",
 			"**Shared Hatred (Su):** When the spiritualist reaches 17th level, the phantom can grant its hatred to others. When the phantom designates a hated enemy, its allies also gain a +2 bonus on attack rolls and a +4 bonus on damage rolls against that enemy. Furthermore, the phantom can use its hated target ability even when in incorporeal form; when it does, it can make slam attacks against a corporeal creature, but only if that corporeal creature is its hated target."
 		]
@@ -193,7 +193,7 @@
 			"",
 			"**Jealous Combatant (Su):** Each time the phantom hits a creature with a melee attack, for 1 round that creature takes a -2 penalty on all attack rolls made against anyone other than the phantom. This effect does not stack with itself.",
 			"",
-			"**Resentful Aura (Su):** When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-foot-radius aura that forces enemies within the aura who make an attack or cast a spell that does not include the phantom in its effect to succeed at a Will saving throw (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or become staggered until the end of the enemy's next turn. Ending the aura is a free action. The phantom can use this ability in either ectoplasmic or incorporeal form.",
+			"**Resentful Aura (Su):** When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-foot-radius aura that forces enemies within the aura who make an attack or cast a spell that does not include the phantom in its effect to succeed at a Will saving throw (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or become {misc/staggered} until the end of the enemy's next turn. Ending the aura is a free action. The phantom can use this ability in either ectoplasmic or incorporeal form.",
 			"",
 			"**Retribution (Su):** When the spiritualist reaches 12th level, each time a creature attacks the phantom's master, whether that attack hits or misses, it enrages the phantom. Until the end of the phantom's next turn, any attack the phantom makes that hits the creature that has attacked her deals 2d8 extra points of damage. This extra damage is precision damage.",
 			"",
@@ -213,25 +213,15 @@
 			"",
 			"**Good Saves:** Fortitude and Will.",
 			"",
-			"**Benevolent:** When the phantom uses the aid another action, the bonus granted by a successful check increases by 1. If the phantom aids the spiritualist this way, the bonus instead increases by 2.",
+			"**Benevolent:** When the phantom uses the {rule/aid another} action, the bonus granted by a successful check increases by 1. If the phantom aids the spiritualist this way, the bonus instead increases by 2.",
 			"",
 			"**Opening Strike (Su):** As a standard action, the phantom can make a melee attack against a foe. If this attack hits, the spiritualist designates one ally threatening that enemy. This ally can make a single attack at his full base attack bonus against that enemy as an immediate action.",
 			"",
-			"**Etheric Healing (Su):** When the spiritualist reaches 7th level, the phantom gains the lay on hands ability with an effective paladin level equal to its Hit Dice. The phantom can use this ability on the spiritualist as a swift action.",
+			"**Etheric Healing (Su):** When the spiritualist reaches 7th level, the phantom gains the {ability/lay on hands} ability with an effective paladin level equal to its Hit Dice. The phantom can use this ability on the spiritualist as a swift action.",
 			"",
-			"**Expanded Aid (Su):** When the spiritualist reaches 12th level, the phantom can use the aid another action as a move action. Additionally, the phantom selects four mercies available to a 12th-level paladin that it adds to its lay on hands ability.",
+			"**Expanded Aid (Su):** When the spiritualist reaches 12th level, the phantom can use the aid another action as a move action. Additionally, the phantom selects four {ability/mercies} available to a 12th-level paladin that it adds to its lay on hands ability.",
 			"",
-			"**Exceptional Aid (Su):** When the spiritualist reaches 17th level, the phantom can use the aid another action as a swift action. Additionally, when designating an ally for an opening strike, that ally gains a bonus equal to the phantom's Charisma modifier on damage rolls for the attack granted to him.",
-			"",
-			"### Other Kindness-Focused Ailities",
-			"",
-			"**If a spiritualist archetype allows the selection of an additional focus, add kindness to the list of available foci. In addition, a bloodrager with the {arc-bloodrager/id rager} archetype can select kindness as his emotional focus. Add the following to other character options for spiritualists with kindness phantoms.",
-			"",
-			"**Emotional Conduit (Feat):** 1st-charm person, 2nd-blessing of courage and life, 3rd-good hope, 4th-mass charm person, 5th-waves of ecstasy, 6th-sympathy.",
-			"",
-			"**Fractured Mind (Archetype):** {spell/Bless} (5th), {spell/calm emotions} (7th), {spell/heroism} (9th), {spell/good hope} (16th).",
-			"",
-			"**Spirit-Bound Blade (Spell):** The weapon also gains the allying special ability."
+			"**Exceptional Aid (Su):** When the spiritualist reaches 17th level, the phantom can use the aid another action as a swift action. Additionally, when designating an ally for an opening strike, that ally gains a bonus equal to the phantom's Charisma modifier on damage rolls for the attack granted to him."
 		]
 	},
 	"lust": {
@@ -253,9 +243,9 @@
 			"",
 			"**Mine Alone (Su):** When the spiritualist reaches 7th level, whenever the spiritualist or the phantom is subject to a charm or compulsion effect, the target of the effect can roll twice for its save - once using the spiritualist's Will save modifier and once using the phantom's - and take the better result.",
 			"",
-			"**Aura of Ecstasy (Su):** When the spiritualist reaches 12th level, the lust phantom emanates an aura of ecstasy. All creatures adjacent to the phantom must succeed at a Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or be shaken and staggered each round that they remain within the aura of ecstasy. Creatures that succeed at this save are immune to this phantom's aura of ecstasy for 24 hours.",
+			"**Aura of Ecstasy (Su):** When the spiritualist reaches 12th level, the lust phantom emanates an aura of ecstasy. All creatures adjacent to the phantom must succeed at a Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or be {misc/shaken} and {misc/staggered} each round that they remain within the aura of ecstasy. Creatures that succeed at this save are immune to this phantom's aura of ecstasy for 24 hours.",
 			"",
-			"**Sinful Command (Su):** When the spiritualist reaches 17th level, once per day as a standard action, the phantom can attempt to assume control of another creature's mind as per the dominate monster spell. The DC of the effect is equal to 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier."
+			"**Sinful Command (Su):** When the spiritualist reaches 17th level, once per day as a standard action, the phantom can attempt to assume control of another creature's mind as per the {spell/dominate monster} spell. The DC of the effect is equal to 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier."
 		]
 	},
 	"pride": {
@@ -275,7 +265,7 @@
 			"",
 			"**Flagrant Disregard (Ex):** As a swift action, the phantom can gain a +2 bonus on all attack rolls while taking a -1 penalty to AC for 1 round. For every 4 points of base attack bonus the phantom has, this bonus on attack rolls increases by 1 and the penalty to AC increases by 1.",
 			"",
-			"**Vainglorious Oration (Su):** When the spiritualist reaches 7th level, the phantom can espouse bold lies about its own prowess as a swift action to cause enemies to become shaken. To be affected, an enemy must be within 30 feet of the phantom and able to hear it. This effect persists as long as the enemy is within 30 feet (the phantom can end the oration as a free action). This ability cannot cause a creature to become frightened or panicked, even if the target was already shaken from another effect. This is a mind-affecting fear effect that relies on audible components.",
+			"**Vainglorious Oration (Su):** When the spiritualist reaches 7th level, the phantom can espouse bold lies about its own prowess as a swift action to cause enemies to become {misc/shaken}. To be affected, an enemy must be within 30 feet of the phantom and able to hear it. This effect persists as long as the enemy is within 30 feet (the phantom can end the oration as a free action). This ability cannot cause a creature to become frightened or panicked, even if the target was already shaken from another effect. This is a mind-affecting fear effect that relies on audible components.",
 			"",
 			"**Overwhelming Confidence (Su):** When the spiritualist reaches 12th level, as long as the phantom is immune to fear effects from its resolve ability, any morale bonuses affecting the phantom are doubled. If the phantom loses its immunity to fear, all doubled morale bonuses that are affecting the phantom are instead applied as penalties for the remainder of their duration or until the phantom regains its immunity to fear (whichever comes first).",
 			"",
@@ -303,17 +293,7 @@
 			"",
 			"**Keening (Su):** When the spiritualist reaches 12th level, her phantom can wail about its misdeeds once per day as a standard action, affecting all creatures within a 30-foot cone with the terrible remorse spell. The phantom uses its Hit Dice as its caster level for the effect, and the DC equals 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier. The phantom can use this ability in either ectoplasmic or incorporeal form.",
 			"",
-			"**Utter Misery (Su):** When the spiritualist reaches 17th level, her phantom's long-suffering strike also causes a creature that fails its save to become stunned until the beginning of the phantom's next turn.",
-			"",
-			"### Other Remorse-Focused Abilities",
-			"",
-			"If a spiritualist archetype allows the selection of an additional focus, add remorse to the list of available foci. Add the following to other character options for spiritualists with remorse phantoms.",
-			"",
-			"**Emotional Conduit (Feat):** 1st-inflict light wounds, 2nd-disfiguring touch, 3rd-howling agony, 4th-debilitating portent, 5th-nightmare, 6th-harm.",
-			"",
-			"**Fractured Mind (Archetype):** {spell/Doom} (5th), {spell/inflict pain} (7th), {spell/stricken heart} (9th), {spell/mind fog} (16th).",
-			"",
-			"**Spirit-Bound Blade (Spell):** The weapon also gains the heartseeker special ability."
+			"**Utter Misery (Su):** When the spiritualist reaches 17th level, her phantom's long-suffering strike also causes a creature that fails its save to become {misc/stunned} until the beginning of the phantom's next turn."
 		]
 	},
 	"suffering": {
@@ -333,7 +313,7 @@
 			"",
 			"**Endurance:** The phantom gains {feat/Endurance} as a bonus feat. Furthermore, when the phantom is confined in its master's consciousness, it grants the benefits of {feat/Endurance} to its master if its master doesn't have that feat.",
 			"",
-			"**Repelling Strike (Ex):** When the phantom deals damage with a melee attack, it can attempt to bull rush the target as a swift action without provoking attacks of opportunity, using the result of its attack roll for the combat maneuver check. The phantom can push a creature back only 5 feet with this ability, regardless of the result of its combat maneuver check.",
+			"**Repelling Strike (Ex):** When the phantom deals damage with a melee attack, it can attempt to {rule/bull rush} the target as a swift action without provoking attacks of opportunity, using the result of its attack roll for the combat maneuver check. The phantom can push a creature back only 5 feet with this ability, regardless of the result of its combat maneuver check.",
 			"",
 			"**Numbing Aura (Su):** When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-foot aura of protection. Allies within this aura gain a +4 bonus on saving throws against curse, disease, evil, fear, pain, and poison effects. Deactivating the aura is a free action. The phantom can use this ability in either ectoplasmic or incorporeal form.",
 			"",
@@ -351,7 +331,7 @@
 			"## Whimsey",
 			"",
 			"{SOURCE Heroes from the Fringe/17}  ",
-			"Phantoms with this emotional focus carry a simplistic, childlike wonder and are fond of games and playing tricks. Whimsical phantoms are often the ghosts of gnomes; in the case of bleachling spiritualists, the phantom may even be a psychic vestige of the bleachling's own lost childlike nature. Among other races, most phantoms with the whimsy focus are the spirits of those who died as children and carried their childlike nature into the afterlife.",
+			"Phantoms with this emotional focus carry a simplistic, childlike wonder and are fond of games and playing tricks. Whimsical phantoms are often the ghosts of {race/gnome/s}; in the case of bleachling spiritualists, the phantom may even be a psychic vestige of the bleachling's own lost childlike nature. Among other races, most phantoms with the whimsy focus are the spirits of those who died as children and carried their childlike nature into the afterlife.",
 			"",
 			"**Skills:** The phantom gains a number of ranks in Acrobatics and Perception equal to its number of Hit Dice. While confined in the spiritualist's consciousness, the phantom grants the spiritualist {feat/Skill Focus} in each of these skills.",
 			"",
@@ -365,17 +345,7 @@
 			"",
 			"**Telekinetic Prankster (Sp):** When the spiritualist reaches 12th level, the phantom gains the ability to use limited telekinesis to trip up its foes. It can perform combat maneuvers against creatures up to 15 feet away. When doing so, it can use its Charisma modifier in place of its Strength modifier on its combat maneuver checks.",
 			"",
-			"**Invoke Laughter (Sp):** When the spiritualist reaches 17th level, once per day as a standard action, the phantom can cause nearby creatures to fall into fits of uncontrollable laughter. Each creature in a 30-foot-radius burst centered on the phantom must succeed at a Will save (DC = 10 + half the phantom's Hit Dice + the phantom's Charisma modifier) or begin laughing uncontrollably, as the spell {spell/hideous laughter}. The phantom can use this ability in either ectoplasmic or incorporeal form.",
-			"",
-			"### Other Whimsy-Focused Abilities",
-			"",
-			"If a spiritualist archetype allows the selection of an additional focus, add whimsy to the list of available foci. In addition, a bloodrager with the id rager archetype can select whimsy as his emotional focus. Add the following to the other character options for spiritualists with whimsy phantoms.",
-			"",
-			"**Emotional Conduit (Feat):** 1st-{spell/color spray}, 2nd-{spell/hideous laughter}, 3rd-{spell/major image}, 4th-{spell/hallucinatory terrain}, 5th-{spell/baleful polymorph}, 6th-{spell/mislead}.",
-			"",
-			"**Fractured Mind (Archetype):** {spell/ventriloquism} (5th), {spell/absurdity} (7th), {spell/major image} (9th), {spell/rainbow pattern} (16th).",
-			"",
-			"**Spirit-Bound Blade (Spell):** The weapon also gains the merciful special ability."
+			"**Invoke Laughter (Sp):** When the spiritualist reaches 17th level, once per day as a standard action, the phantom can cause nearby creatures to fall into fits of uncontrollable laughter. Each creature in a 30-foot-radius burst centered on the phantom must succeed at a Will save (DC = 10 + half the phantom's Hit Dice + the phantom's Charisma modifier) or begin laughing uncontrollably, as the spell {spell/hideous laughter}. The phantom can use this ability in either ectoplasmic or incorporeal form."
 		]
 	},
 	"zeal": {

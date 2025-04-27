@@ -623,7 +623,7 @@
 					"",
 					"::h3[Primary Sneak Attack Talents]{jl}",
 					"",
-					"These talents add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
+					"These talents add effects to a rogue's {ability/sneak attack}. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
 					""
 				],
 				{
@@ -964,7 +964,7 @@
 					"",
 					"::h3[Primary Sneak Attack Talents]{jl}",
 					"",
-					"These talents add effects to a slayer's sneak attack. Only one of these talents can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.",
+					"These talents add effects to a slayer's {ability/sneak attack}. Only one of these talents can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.",
 					""
 				],
 				{

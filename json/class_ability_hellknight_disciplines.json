@@ -21,7 +21,7 @@
 		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
 		"category": "-",
 		"description": [
-			"As a move action, the Hellknight can cause her armor to instantly appear on her body. Alternatively, she can dismiss it as a move action, causing it to vanish. (Doing either of these counts as one use of this discipline.) Where the armor appears from or vanishes to can be anywhere the Hellknight designates, but it must be a place the Hellknight has seen on the same plane of existence where she is, or be in an extradimensional space she controls, such as a bag of holding. This armor is a specific suit of Hellknight plate that the Hellknight designates when she selects this discipline. The Hellknight can attune this ability to a new set of armor, but doing so takes 1 week."
+			"As a move action, the Hellknight can cause her armor to instantly appear on her body. Alternatively, she can dismiss it as a move action, causing it to vanish. (Doing either of these counts as one use of this discipline.) Where the armor appears from or vanishes to can be anywhere the Hellknight designates, but it must be a place the Hellknight has seen on the same plane of existence where she is, or be in an extradimensional space she controls, such as a bag of holding. This armor is a specific suit of {eq-armor/Hellknight plate} that the Hellknight designates when she selects this discipline. The Hellknight can attune this ability to a new set of armor, but doing so takes 1 week."
 		]
 	},
 	"censor": {
@@ -57,7 +57,7 @@
 		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
 		"category": "-",
 		"description": [
-			"The Hellknight chooses a creature type from the {class/ranger} {ability/favored enemy} table (usually humanoid with a specific subtype, but this is not required). The Hellknight gains a +2 bonus on Bluff, Intimidate, Knowledge, Perception, Sense Motive, and Survival checks against creatures of her selected type. She can also attempt Knowledge skill checks untrained to identify those creatures. Each time the Hellknight chooses an additional discipline, this bonus increases by 2 (to a potential maximum of +6 at 9th level)."
+			"The Hellknight chooses a creature type from the ranger {ability/favored enemy} table (usually humanoid with a specific subtype, but this is not required). The Hellknight gains a +2 bonus on Bluff, Intimidate, Knowledge, Perception, Sense Motive, and Survival checks against creatures of her selected type. She can also attempt Knowledge skill checks untrained to identify those creatures. Each time the Hellknight chooses an additional discipline, this bonus increases by 2 (to a potential maximum of +6 at 9th level)."
 		]
 	},
 	"fearsomeness": {
@@ -66,7 +66,7 @@
 		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
 		"category": "-",
 		"description": [
-			"A Hellknight who uses the Intimidate skill to cause a creature within 10 feet to become shaken can instead cause that creature to become frightened."
+			"A Hellknight who uses the Intimidate skill to cause a creature within 10 feet to become shaken can instead cause that creature to become {misc/frightened}."
 		]
 	},
 	"invoke_glyph": {
@@ -75,7 +75,7 @@
 		"compilationSources": [ [ "Pathfinder #107: Scourge of the Godclaw", 47 ] ],
 		"category": "-",
 		"description": [
-			"The Hellknight can use {spell/glyph of warding} as a spell-like ability. While this ability does not require an expensive material component, a single Hellknight can maintain only one glyph of warding at a time; if he uses this spell-like ability a second time, the previously created glyph of warding vanishes. In addition, the Hellknight gains a +4 bonus on saving throws against glyph of warding or [symbol spells](main/spell_groupings)."
+			"The Hellknight can use {spell/glyph of warding} as a spell-like ability. While this ability does not require an expensive material component, a single Hellknight can maintain only one *glyph of warding* at a time; if he uses this spell-like ability a second time, the previously created *glyph of warding* vanishes. In addition, the Hellknight gains a +4 bonus on saving throws against *glyph of warding* or {main/symbol |spell/s>_groupings}."
 		]
 	},
 	"mental_intrusion": {
@@ -102,7 +102,7 @@
 		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
 		"category": "-",
 		"description": [
-			"This ability allows the Hellknight to select one of the following domains:{domain/Artifice}, {domain/Glory}, {domain/Knowledge}, {domain/Law}, {domain/Magic}, {domain/Nobility}, {domain/Protection}, {domain/Rune}, {domain/Strength}, {domain/Travel}, and {domain/War}. The Hellknight gains all of the granted powers (but not domain spells) of that domain, treating his Hellknight levels as cleric levels to determine what domain abilities he has access to."
+			"This ability allows the Hellknight to select one of the following domains: {domain/Artifice}, {domain/Glory}, {domain/Knowledge}, {domain/Law}, {domain/Magic}, {domain/Nobility}, {domain/Protection}, {domain/Rune}, {domain/Strength}, {domain/Travel}, and {domain/War}. The Hellknight gains all of the granted powers (but not domain spells) of that domain, treating his Hellknight levels as cleric levels to determine what domain abilities he has access to."
 		]
 	},
 	"seek_the_taken": {
@@ -111,7 +111,7 @@
 		"compilationSources": [ [ "Pathfinder #98: Turn of the Torrent", 67 ] ],
 		"category": "-",
 		"description": [
-			"When a member of the Order of the Torrent becomes a 3rd-level Hellknight, he gains his first discipline: seek the taken. This enables the Hellknight to use an {feat/enlarged} {spell/locate creature} as a spell-like ability with a caster level equal to his total character level. At 9th level, when a Order of the Torrent Hellknight gains his third discipline, he cannot choose the summon devil discipline."
+			"When a member of the {hellknightorder/Order of the Torrent} becomes a 3rd-level Hellknight, he gains his first discipline: seek the taken. This enables the Hellknight to use an {feat/enlarged} {spell/locate creature} as a spell-like ability with a caster level equal to his total character level. At 9th level, when a Order of the Torrent Hellknight gains his third discipline, he cannot choose the {hkdiscipline/summon devil} discipline."
 		]
 	},
 	"shackle": {
@@ -129,7 +129,7 @@
 		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
 		"category": "-",
 		"description": [
-			"The Hellknight can use {feat/enlarged} {spell/shadow step} as a spell-like ability, as if the {feat/Enlarge Spell} metamagic feat were applied to the spell, using her character level as her caster level."
+			"The Hellknight can use {feat/enlarged} {spell/shadow step} as a spell-like ability, as if the Enlarge Spell metamagic feat were applied to the spell, using her character level as her caster level."
 		]
 	},
 	"summon_devil": {
@@ -165,7 +165,7 @@
 		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
 		"category": "-",
 		"description": [
-			"The Hellknight can summon a creature to aid him, either in battle or to track an enemy, as if using a summon monster spell, save that the summoned creature lingers for 1 hour before vanishing. A 6th-level Hellknight can summon either an {monster/eagle}, a {monster/riding dog}, a {monster/wolf}, or a {monster/leopard}. A 9th-level Hellknight can instead opt to summon a {monster/dire wolf} or a hell hound."
+			"The Hellknight can summon a creature to aid him, either in battle or to track an enemy, as if using a summon monster spell, save that the summoned creature lingers for 1 hour before vanishing. A 6th-level Hellknight can summon either an {monster/eagle}, a {monster/riding dog}, a {monster/wolf}, or a {monster/leopard}. A 9th-level Hellknight can instead opt to summon a {monster/dire wolf} or a {monster/hell hound}."
 		]
 	},
 	"versatile_intimidation": {
@@ -192,7 +192,7 @@
 		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
 		"category": "-",
 		"description": [
-			"The Hellknight may make a touch attack as a standard action to cause a creature to suffer incredible pain. The creature touched takes 1d6 points of damage + the Hellknight's Charisma modifier, and must make a Will save to avoid being staggered for 1d4 rounds."
+			"The Hellknight may make a touch attack as a standard action to cause a creature to suffer incredible pain. The creature touched takes 1d6 points of damage + the Hellknight's Charisma modifier, and must make a Will save to avoid being {misc/staggered} for 1d4 rounds."
 		]
 	}
 }

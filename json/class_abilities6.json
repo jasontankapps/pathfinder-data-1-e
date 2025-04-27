@@ -32,7 +32,7 @@
 		"name": "Improved Uncanny Dodge",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"A character with this ability can no longer be flanked. This defense denies rogues (or other classes with the sneak attack ability) the ability to sneak attack them by flanking them, unless the attacker has at least four more rogue levels (or levels in the class granting sneak attack) than the target has levels in the class that grants improved uncanny dodge.",
+			"A character with this ability can no longer be flanked. This defense denies rogues (or other classes with the {ability/sneak attack} ability) the ability to sneak attack them by flanking them, unless the attacker has at least four more rogue levels (or levels in the class granting sneak attack) than the target has levels in the class that grants improved uncanny dodge.",
 			"",
 			"This ability is gained at 5th level by the {class/bloodrager}, {class/barbarian}, and {class/unchained barbarian}, and at 8th level by the {class/rogue}, {class/unchained rogue}, {class/ninja}, and {class/skald}.",
 			"",
@@ -205,6 +205,26 @@
 			"Trap sense bonuses gained from multiple classes stack.",
 			"",
 			"This ability is gained by {class/investigator/s}, {class/rogue/s}, and {class/barbarian/s} at 3rd level."
+		]
+	},
+	"sneak_attack": {
+		"name": "Sneak Attack",
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Combat"
+		],
+		"description": [
+			"Sneak Attack is a signature ability of the {class/rogue} (and {class/unchained rogue).",
+			"",
+			"If a rogue can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.",
+			"",
+			"The rogue's attack deals extra damage anytime her target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the rogue flanks her target. This extra damage is 1d6 at 1st level, and increases by 1d6 every two rogue levels thereafter. Should the rogue score a critical hit with a sneak attack, this extra damage is not multiplied. Ranged attacks can count as sneak attacks only if the target is within 30 feet.",
+			"",
+			"With a weapon that deals nonlethal damage (like a {eq-weapon/sap}, {eq-weapon/whip}, or an unarmed strike), a rogue can make a sneak attack that deals nonlethal damage instead of lethal damage. She cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.",
+			"",
+			"The rogue must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. A rogue cannot sneak attack while striking a creature with {rule/concealment}.",
+			"",
+			"Rogues and {class/ninja/s} gain this ability at 1st level. {class/Slayer/s} gain it at 3rd level, starting at 1d6 damage and increasing by 1d6 every two slayer levels."
 		]
 	}
 }
