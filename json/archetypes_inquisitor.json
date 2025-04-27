@@ -409,7 +409,7 @@
 			"{SOURCE Horror Adventures/53}  ",
 			"The living grimoire literally wields the sacred word of his deity, using his holy tome to smite the foes of his god with divine might. Unlike most inquisitors, a living grimoire focuses on careful study of divine scripture, valuing knowledge over intuition.",
 			"",
-			"**Holy Book (Su):** At 1st level, a living grimoire forms a supernatural bond with a large ironbound tome containing the holy text of his deity and learns to use it as a weapon. When wielding the holy book as a weapon, he deals base damage as if it were a cold iron {eq-weapon/light mace} (but see Sacred Word below), is considered proficient with the book, takes no improvised weapon penalty, and gains a +1 bonus on attack rolls with the book. The tome serves as his holy symbol and divine focus, and can be enchanted as a magic weapon. He can replace his bonded tome with another book at any time, though he must perform a 24-hour binding ritual to attune himself to the new book.",
+			"**Holy Book (Su):** At 1st level, a living grimoire forms a supernatural bond with a large ironbound tome containing the holy text of his deity and learns to use it as a weapon. When wielding the holy book as a weapon, he deals base damage as if it were a cold iron {eq-weapon/light mace} (but see Sacred Word below), is considered proficient with the book, takes no {misc/improvised weapon} penalty, and gains a +1 bonus on attack rolls with the book. The tome serves as his holy symbol and divine focus, and can be enchanted as a magic weapon. He can replace his bonded tome with another book at any time, though he must perform a 24-hour binding ritual to attune himself to the new book.",
 			"",
 			"This ability replaces monster lore.",
 			"",

@@ -56,7 +56,7 @@
 			"",
 			"**Destructive (Ex):** Whenever the breaker barbarian makes a melee attack that targets an unattended object or makes a sunder combat maneuver, she adds half her barbarian level (minimum +1) on the damage roll. This ability replaces fast movement.",
 			"",
-			"**Battle Scavenger (Ex):** At 3rd level, the breaker barbarian suffers no penalty on attack rolls when using an improvised weapon or a weapon with the broken condition. In addition, she gains a +1 bonus on damage rolls with improvised or broken weapons for every three levels beyond 3rd. This ability replaces trap sense.",
+			"**Battle Scavenger (Ex):** At 3rd level, the breaker barbarian suffers no penalty on attack rolls when using an {misc/improvised weapon} or a weapon with the {rule/broken>_and_fragile} condition. In addition, she gains a +1 bonus on damage rolls with improvised or broken weapons for every three levels beyond 3rd. This ability replaces trap sense.",
 			"",
 			"**Rage Powers:** The following rage powers complement the breaker archetype: {ragepower/ground breaker}, {ragepower/smasher}, {ragepower/strength surge}."
 		]

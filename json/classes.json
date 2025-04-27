@@ -1084,7 +1084,7 @@
 			"",
 			":b[Consume Spells/ (Su):] At 1st level, an arcanist can expend an available arcanist spell slot as a move action, making it unavailable for the rest of the day, just as if she had used it to cast a spell. She can use this ability a number of times per day equal to her Charisma modifier (minimum 1). Doing this adds a number of points to her arcane reservoir equal to the level of the spell slot consumed. She cannot consume cantrips (0 level spells) in this way. Points gained in excess of the reservoir's maximum are lost.",
 			"",
-			":b[Greater Exploits:]{id=other-abilities} At 11th level and every 2 levels thereafter, an arcanist can choose a [greater exploit](ability/greater_exploits) in place of an arcanist exploit.",
+			":b[Greater Exploits:]{id=other-abilities} At 11th level and every 2 levels thereafter, an arcanist can choose a {ability/greater exploit>s} in place of an arcanist exploit.",
 			"",
 			"**Magical Supremacy (Su):** At 20th level, the arcanist learns how to convert her arcane reservoir into spells and back again. She can cast any spell she has prepared by expending a number of points from her arcane reservoir equal to 1 + the level of the spell to be cast instead of expending a spell slot. When she casts a spell in this fashion, she treats her caster level as 2 higher than normal, and the DCs of any saving throws associated with the spell increase by 2. She cannot further expend points from her arcane reservoir to enhance a spell cast in this way.",
 			"",

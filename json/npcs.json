@@ -354,7 +354,7 @@
 			"**Feats** {feat/Catch Off-Guard}, {feat/Endurance}  ",
 			"**Skills** Climb +5, Perception +3  ",
 			"**Languages** Common  ",
-			"**Gear** [improvised](rule/weapon_encumbrance) {eq-weapon/club}, {eq-weapon/sling} with 10 stones, turnip  ",
+			"**Gear** {misc/improvised>_weapon} {eq-weapon/club}, {eq-weapon/sling} with 10 stones, turnip  ",
 			"**Boon** The village idiot can lead PCs to something secret or hidden inside the town that he has come across, granting a +5 bonus on one Perception check to search an area.",
 			"",
 			"::sh[Description]",

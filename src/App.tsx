@@ -298,7 +298,7 @@ const App: FC = () => {
 								<EquipmentWeaponEnhancementsPage />
 							</Suspense>
 						</Route>
-						<Route path={/^[/](greater)?exploit[/](?<id>[a-z_0-9]+)[/]?$/}>
+						<Route path="/exploit/:id">
 							<Suspense fallback={<Loading text="Seeking exploits..." />}>
 								<ExploitPage />
 							</Suspense>

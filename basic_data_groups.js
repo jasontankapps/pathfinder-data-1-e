@@ -64,7 +64,6 @@ import druidcompanion from './json/class_ability_druid_companions.json' with {ty
 import druiddomain from './json/class_ability_druid_domains.json' with {type: 'json'};
 import emotionalfocus from './json/class_ability_emotional_focus.json' with {type: 'json'};
 import exploit from './json/class_ability_exploits.json' with {type: 'json'};
-import greaterexploit from './json/class_ability_greater_exploits.json' with {type: 'json'};
 import hellknightorder from './json/class_ability_hellknight_orders.json' with {type: 'json'};
 import implement from './json/class_ability_implements.json' with {type: 'json'};
 import inquisition from './json/class_ability_inquisitions.json' with {type: 'json'};
@@ -911,13 +910,6 @@ const basic_data_groups = {
 		link: "exploit",
 		num: 0,
 		type: "Arcanist Exploit"
-	},
-	"class_ability_greater_exploits": {
-		data: greaterexploit,
-		searchgroup: 1, // classes
-		link: "greaterexploit",
-		num: 0,
-		type: "Greater Arcanist Exploit"
 	},
 	"class_ability_hellknight_orders": {
 		data: hellknightorder,

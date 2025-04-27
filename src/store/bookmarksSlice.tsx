@@ -20,9 +20,7 @@ export const getColor = (input: unknown): Color => {
 	return hexToColor[input as string] || "red";
 }
 
-export type BookmarkDB = { [key: string]: BookmarkGroup }
-
-type Catalog = { [key: string]: string[] }
+export type Catalog = { [key: string]: string[] }
 
 type Link = string;
 type Title = string;
@@ -30,17 +28,24 @@ type Title = string;
 type Bookmark = [Link, Title];
 
 export interface BookmarkGroup {
+	// color of the bookmark
 	color: Color
+	// title of the bookmark
 	title: string
-	contents: Bookmark[]
+	// pages (and dividers) being bookmarked here
+	contents: Bookmark[] // [Link, Title]
+	// whether or not we appear in the bookmark drop-down menu
 	hidden: boolean
 }
 
-export type ColorState = {[key in Color]: BookmarkGroup}
+export type BookmarkDB = { [key: string]: BookmarkGroup }
 
 interface BookmarkState {
+	// "link/url" : [ "id of bookmark group", ... ]
 	catalog: Catalog
+	// "id": BookmarkGroup
 	db: BookmarkDB
+	// [ "id of bookmark group", ... ]
 	order: string[]
 }
 

@@ -18,7 +18,7 @@ import scrollReducer, {initialState as scroll} from './scrollSlice';
 import historyReducer, {initialState as history} from './historySlice';
 import searchReducer, {initialState as search} from './searchSlice';
 import displayTableReducer, {initialState as displayTable, DisplayTableState} from './displayTableSlice';
-import bookmarksReducer, {BookmarkDB, BookmarkGroup, initialState as bookmarks} from './bookmarksSlice';
+import bookmarksReducer, {BookmarkDB, BookmarkGroup, initialState as bookmarks, Catalog} from './bookmarksSlice';
 
 //
 //
@@ -37,18 +37,18 @@ const initialAppState = {
 
 const migrations = {
 	10: (state: any) => {
-		const {bookmarks} = state;
+		const {bookmarks, ...unchangedState} = state;
 		const {order, db, ...etc} = bookmarks;
 		const newDb: BookmarkDB = {};
 		Object.entries(etc).forEach(([color, group]) => {
 			newDb[`original-${color as string}`] = group as BookmarkGroup;
 		});
-		const catalog: {[key: string]: string[]} = {};
+		const catalog: Catalog = {};
 		Object.entries(db).forEach(([link, ids]) => {
 			catalog[link] = (ids as string[]).map(id => `original-${id}`);
 		});
 		return {
-			...state,
+			...unchangedState,
 			bookmarks: {
 				order: order.map((id: string) => `original-${id}`),
 				db: newDb,
@@ -57,12 +57,13 @@ const migrations = {
 		}
 	},
 	11: (state: any) => {
+		const {displayTable, bookmarks, ...unchangedState} = state;
+		// Reset tables that have been modified since the last update
 		const modifiedTables: string[] = [
 			"sorcerer archetypes",
 			"bloodrager archetypes",
 			"unchained summoner archetypes"
 		];
-		const {displayTable} = state;
 		const {actives: a, filters: f} = displayTable as DisplayTableState;
 		const actives = {...a};
 		const filters = {...f};
@@ -70,11 +71,35 @@ const migrations = {
 			delete actives[id];
 			delete filters[id];
 		});
+		// Fix any link changes since the last update
+		const {order, db: oldDB, catalog: oldCat} = bookmarks;
+		// FIX: greaterexploit => exploit
+		const db: BookmarkDB = {};
+		const catalog: Catalog = {};
+		const replacer = /(^[/]?)greater(exploit[/])/
+		Object.keys(oldDB).forEach(id => {
+			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
+			db[id] = {
+				color,
+				title,
+				contents: c.map(pair => [ pair[0].replace(replacer, "$1$2"), pair[1] ] as [string, string]),
+				hidden
+			}
+		});
+		Object.keys(oldCat).forEach(link => {
+			const newLink = link.replace(replacer, "$1$2");
+			catalog[newLink] = oldCat[link] as string[];
+		});
 		return {
-			...state,
+			...unchangedState,
 			displayTable: {
 				actives,
 				filters
+			},
+			bookmarks: {
+				order,
+				db,
+				catalog
 			}
 		}
 	}
