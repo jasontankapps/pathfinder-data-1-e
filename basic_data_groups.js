@@ -68,18 +68,15 @@ import hellknightorder from './json/class_ability_hellknight_orders.json' with {
 import implement from './json/class_ability_implements.json' with {type: 'json'};
 import inquisition from './json/class_ability_inquisitions.json' with {type: 'json'};
 import kinetic from './json/class_ability_kinetic_talents.json' with {type: 'json'};
-import legendaryspirit from './json/class_ability_legendary_spirits.json' with {type: 'json'};
-import magusarcana from './json/class_ability_magus_arcana.json' with {type: 'json'};
+import arcana from './json/class_ability_magus_arcana.json' with {type: 'json'};
 import mercy from './json/class_ability_mercies.json' with {type: 'json'};
 import mystery from './json/class_ability_mysteries.json' with {type: 'json'};
 import oath from './json/class_ability_oaths.json' with {type: 'json'};
 import order from './json/class_ability_orders.json' with {type: 'json'};
-import outsiderspirit from './json/class_ability_outsider_spirits.json' with {type: 'json'};
 import ragepower from './json/class_ability_rage_powers.json' with {type: 'json'};
 import shamanspirit from './json/class_ability_shaman_spirits.json' with {type: 'json'};
 import sorcererbloodline from './json/class_ability_sorcerer_bloodlines.json' with {type: 'json'};
 import spirit from './json/class_ability_spirits.json' with {type: 'json'};
-import stanceragepower from './json/class_ability_stance_rage_powers.json' with {type: 'json'};
 import talent from './json/class_ability_rogue_talents.json' with {type: 'json'};
 import ninjatrick from './json/class_ability_ninja_tricks.json' with {type: 'json'};
 import trick from './json/class_ability_tricks.json' with {type: 'json'};
@@ -939,17 +936,10 @@ const basic_data_groups = {
 		num: 0,
 		type: "Kinetic Talent"
 	},
-	"class_ability_legendary_spirits": {
-		data: legendaryspirit,
-		searchgroup: 1, // classes
-		link: "legendaryspirit",
-		num: 0,
-		type: "Legendary Medium Spirit"
-	},
 	"class_ability_magus_arcana": {
-		data: magusarcana,
+		data: arcana,
 		searchgroup: 1, // classes
-		link: "magusarcana",
+		link: "arcana",
 		num: 0,
 		type: "Magus Arcana"
 	},
@@ -973,13 +963,6 @@ const basic_data_groups = {
 		link: "order",
 		num: 0,
 		type: "Cavalier/Samurai Order"
-	},
-	"class_ability_outsider_spirits": {
-		data: outsiderspirit,
-		searchgroup: 2, // archetype
-		link: "outsiderspirit",
-		num: 0,
-		type: "Medium Outsider Spirit"
 	},
 	"class_ability_rage_powers": {
 		data: ragepower,
@@ -1008,13 +991,6 @@ const basic_data_groups = {
 		link: "spirit",
 		num: 0,
 		type: "Medium Spirit"
-	},
-	"class_ability_stance_rage_powers": {
-		data: stanceragepower,
-		searchgroup: 1, // classes
-		link: "stanceragepower",
-		num: 0,
-		type: "Barbarian Stance Rage Power"
 	},
 	"class_ability_talents": {
 		data: talent,

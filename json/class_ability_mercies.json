@@ -195,7 +195,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "12",
 		"description": [
-			"The paladin's lay on hands ability also acts as {spell/stone to flesh}, but only for the purpose of removing the petrified condition from a creature."
+			"The paladin's lay on hands ability also acts as {spell/stone to flesh}, but only for the purpose of removing the {rule/petrified} condition from a creature."
 		]
 	},
 	"stunned": {

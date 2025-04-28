@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import arcana from './subpages/__magusarcana';
+import arcana from './subpages/__arcana';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -21,7 +21,7 @@ const ArcanaPage: React.FC = () => {
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
-		pageId={"/magusarcana/" + id}
+		pageId={"/arcana/" + id}
 		topLink={topLink}
 	>{jsx}</BasicPage>;
 };

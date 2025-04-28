@@ -42,7 +42,7 @@
 			"{SOURCE Familiar Folio/8}  ",
 			"Beastblade magi work in tandem with their familiars, using spell, steel, and claw to clear the battlefield of foes.",
 			"",
-			"**Familiar (Ex):** At 3rd level, the beastblade gains the {magusarcana/familiar} magus arcana. This ability replaces the magus arcana gained at 3rd level.",
+			"**Familiar (Ex):** At 3rd level, the beastblade gains the {arcana/familiar} magus arcana. This ability replaces the magus arcana gained at 3rd level.",
 			"",
 			"**Tandem Touch (Su):** At 4th level, while the beastblade's familiar is holding the charge for a touch spell, the beastblade can cast another spell without discharging the familiar's held charge. This ability replaces spell recall.",
 			"",
@@ -76,11 +76,11 @@
 			"| 17th-18th | +5 | 18 | 14 | 22 | Spell defense |",
 			"| 19th-20th | +5 | 19 | 15 | 24 | Life drinker |",
 			"",
-			"**Black Blade (Ex):** At 3rd level, the bladebound magus' gains a powerful sentient weapon called a black blade, whose weapon type is chosen by the magus. A magus with this class feature cannot take the {magusarcana/familiar} magus arcana, and cannot have a familiar of any kind, even from another class.",
+			"**Black Blade (Ex):** At 3rd level, the bladebound magus' gains a powerful sentient weapon called a black blade, whose weapon type is chosen by the magus. A magus with this class feature cannot take the {arcana/familiar} magus arcana, and cannot have a familiar of any kind, even from another class.",
 			"",
 			"Instead of the normal arcane pool amount, the bladebound magus's arcane pool has a number of points equal to 1/3 his level (minimum 1) plus his Intelligence bonus. This ability changes the Arcane Pool class feature and replaces the magus arcana gained at 3rd level.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the bladebound magus archetype: {magusarcana/arcane accuracy}, {magusarcana/broad study}, {magusarcana/dispelling strike}, and {magusarcana/reflection}.",
+			"**Magus Arcana:** The following magus arcana complement the bladebound magus archetype: {arcana/arcane accuracy}, {arcana/broad study}, {arcana/dispelling strike}, and {arcana/reflection}.",
 			"",
 			"**Black Blade Basics:** A black blade is bonded to a particular magus, much like a familiar, but in more of a partnership than a master-servant relationship.",
 			"",
@@ -202,7 +202,7 @@
 			"",
 			"**Eldritch Pool (Su):** An eldritch scion gains an eldritch pool of personal magical energy, equal to 1/2 his magus level (minimum 1) + his Charisma modifier. As a swift action, he can spend a point of eldritch energy to enter a state of mystical focus for 2 rounds. This allows him to use abilities from his bloodrager bloodline as though he were in a bloodrage, though he gains none of the other benefits or drawbacks of bloodraging. At 4th level, an eldritch scion can also use his eldritch pool as an arcane pool, gaining all the benefits listed with the magus's arcane pool class feature.",
 			"",
-			"Additionally, any magus's class feature or spell from the magus spell list that normally uses a calculation based on Intelligence is instead based on Charisma for an eldritch scion. For example, an eldritch scion with the {magusarcana/arcane accuracy} magus arcana grants himself an insight bonus on attacks equal to his Charisma bonus, not his Intelligence bonus. This has no effect on the eldritch scion's skills or skill points. This ability replaces arcane pool, and abilities that modify arcane pool also modify eldritch pool.",
+			"Additionally, any magus's class feature or spell from the magus spell list that normally uses a calculation based on Intelligence is instead based on Charisma for an eldritch scion. For example, an eldritch scion with the {arcana/arcane accuracy} magus arcana grants himself an insight bonus on attacks equal to his Charisma bonus, not his Intelligence bonus. This has no effect on the eldritch scion's skills or skill points. This ability replaces arcane pool, and abilities that modify arcane pool also modify eldritch pool.",
 			"",
 			"**Spell Combat (Ex):** An eldritch scion can only use spell combat while in a state of mystic focus (see eldritch pool, above). At 8th level, an eldritch scion can use spell combat at any time. This ability alters spell combat.",
 			"",
@@ -226,13 +226,13 @@
 			"",
 			">**Assault Synergy (Su):** As a swift action, the elemental knight can expend 1 round of duration from elemental assault to add +1d6 points of energy damage to an offensive spell he casts that round. The spell must have the acid, cold, electricity or fire descriptor. This extra energy damage matches the energy damage of the spell. At 10th level, he may expend 2 rounds instead of 1 to add +2d6 points of energy damage to the spell.",
 			">",
-			">**Energy Reflection (Su):** This functions like the {magusarcana/reflection} magus arcana, except it only works on spells that deal acid, cold, electricity, or fire damage. As long as the elemental knight spends at least 1 point from her arcane pool to activate this arcana, he may expend rounds of elemental assault as if they were arcane pool points. For example, the knight could spend 1 arcane pool point and 3 rounds of elemental assault to reflect a spell of 4th-level or lower. The elemental knight must be at least 12th level before selecting this arcana.",
+			">**Energy Reflection (Su):** This functions like the {arcana/reflection} magus arcana, except it only works on spells that deal acid, cold, electricity, or fire damage. As long as the elemental knight spends at least 1 point from her arcane pool to activate this arcana, he may expend rounds of elemental assault as if they were arcane pool points. For example, the knight could spend 1 arcane pool point and 3 rounds of elemental assault to reflect a spell of 4th-level or lower. The elemental knight must be at least 12th level before selecting this arcana.",
 			">",
 			">**Energy Resistance Boost (Su):** As a swift action, the elemental knight can expend 1 point from his arcane pool or 1 round of elemental assault to increase all of his racial energy resistances by +5 for 1 round.",
 			"",
 			"**Elemental Matrix (Su):** At 4th level, an elemental knight gains {feat/Incremental Elemental Assault} as a bonus feat. In addition, at 4th level, as a swift action, an elemental knight may expend rounds of duration from her elemental assault ability. For every 4 rounds expended, he gains 1 arcane pool point. This ability replaces spell recall.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the elemental knight archetype: {magusarcana/empowered magic}, {magusarcana/pool strike}, {magusarcana/spell shield}."
+			"**Magus Arcana:** The following magus arcana complement the elemental knight archetype: {arcana/empowered magic}, {arcana/pool strike}, {arcana/spell shield}."
 		]
 	},
 	"esoteric": {
@@ -306,7 +306,7 @@
 			"",
 			"**Improved Evasion (Ex):** At 13th level, the greensting slayer gains {talent/improved evasion}, as the advanced rogue talent of the same name. This replaces the heavy armor ability.",
 			"",
-			"**Magus Arcana:** In addition to the new magus arcana presented below, the following magus arcana complement the greensting slayer archetype: {magusarcana/close range}, {magusarcana/hasted assault}, {magusarcana/maneuver mastery}, {magusarcana/pool strike}, and {magusarcana/silent magic}.",
+			"**Magus Arcana:** In addition to the new magus arcana presented below, the following magus arcana complement the greensting slayer archetype: {arcana/close range}, {arcana/hasted assault}, {arcana/maneuver mastery}, {arcana/pool strike}, and {arcana/silent magic}.",
 			"",
 			">**Dark Shifter (Su):** The magus can expend 1 point from his arcane pool as a move action to change the target of an ongoing spell effect with the {spelldef/darkness} descriptor within 60 feet. The new target must be within the spell's range, using the magus's level as the effective caster level for the purpose of determining the maximum range the effect can be moved from the magus. If the spell effect the magus is moving originated from another creature, the magus must succeed at a caster level check to reposition the effect (DC = 11 + the effect's caster level). Failure wastes the magus's move action, but does not expend the point from his arcane pool. The magus must be at least 6th level before selecting this arcana."
 		]
@@ -336,7 +336,7 @@
 			">",
 			">**Wracking Dispel (Su):** Whenever the hexbreaker successfully dispels a spell using break enchantment, {spell/dispel magic}, or remove curse, he can expend 1 point from his arcane pool to wrack the original caster with pain, dealing 1d4 points of damage per spell level of the effect dispelled. If the target succeeds at a Will save (DC = 15 + the level of the spell dispelled + the hexbreaker's Intelligence modifier) it takes only 1 point of damage per spell level. The hexbreaker cannot target the same caster more than once per round with this ability, regardless of how many effects he dispels.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the hexbreaker: {magusarcana/bane blade}, {magusarcana/dispelling strike}, {magusarcana/disruptive}, {magusarcana/lingering pain}, {magusarcana/spellbreaker}, and {magusarcana/reflection}."
+			"**Magus Arcana:** The following magus arcana complement the hexbreaker: {arcana/bane blade}, {arcana/dispelling strike}, {arcana/disruptive}, {arcana/lingering pain}, {arcana/spellbreaker}, and {arcana/reflection}."
 		]
 	},
 	"hexcrafter": {
@@ -356,7 +356,7 @@
 			"",
 			"**Spells:** A hexcrafter magus adds the following spells to his magus spell list: bestow curse, major curse, and all other spells of 6th level or lower that have the curse descriptor.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the hexcrafter archetype: {magusarcana/arcane accuracy}, {magusarcana/broad study}, {magusarcana/familiar}, and {magusarcana/quickened magic}."
+			"**Magus Arcana:** The following magus arcana complement the hexcrafter archetype: {arcana/arcane accuracy}, {arcana/broad study}, {arcana/familiar}, and {arcana/quickened magic}."
 		]
 	},
 	"iron_ring_striker": {
@@ -472,7 +472,7 @@
 			">",
 			">**Spirit Step (Su):** Whenever the kapenia dancer scores a critical hit with a bladed scarf, he may expend 1 point from his arcane pool to teleport to any point within 30 feet. The kapenia dancer's turn ends after being teleported. The kapenia dancer must be at least 12th level before selecting this arcana.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the kapenia dancer archetype: {magusarcana/arcane cloak}, {magusarcana/dispelling strike}, {magusarcana/hasted assault}, {magusarcana/maneuver mastery}, {magusarcana/prescient attack}, {magusarcana/prescient defense}."
+			"**Magus Arcana:** The following magus arcana complement the kapenia dancer archetype: {arcana/arcane cloak}, {arcana/dispelling strike}, {arcana/hasted assault}, {arcana/maneuver mastery}, {arcana/prescient attack}, {arcana/prescient defense}."
 		]
 	},
 	"kensai": {
@@ -510,7 +510,7 @@
 			"",
 			"**Weapon Mastery (Ex):** At 20th level, a kensai gains weapon mastery with his favored weapon, as the {class/fighter} class ability. This ability replaces true magus.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the kensai archetype: {magusarcana/concentrate}, {magusarcana/critical strike}, {magusarcana/prescient attack}, {magusarcana/prescient defense}, {magusarcana/spell shield}."
+			"**Magus Arcana:** The following magus arcana complement the kensai archetype: {arcana/concentrate}, {arcana/critical strike}, {arcana/prescient attack}, {arcana/prescient defense}, {arcana/spell shield}."
 		]
 	},
 	"magic_warrior": {
@@ -545,7 +545,7 @@
 			"",
 			"This replaces greater spell access.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the Magic Warrior archetype: {magusarcana/accurate strike}, {magusarcana/arcane accuracy}, {magusarcana/arcane cloak}, {magusarcana/arcane edge}, {magusarcana/bane blade}, {magusarcana/devoted blade}, {magusarcana/empowered magic}, {magusarcana/maximized magic}, {magusarcana/quickened magic}, {magusarcana/silent magic}, {magusarcana/spell blending}, and {magusarcana/still magic}."
+			"**Magus Arcana:** The following magus arcana complement the Magic Warrior archetype: {arcana/accurate strike}, {arcana/arcane accuracy}, {arcana/arcane cloak}, {arcana/arcane edge}, {arcana/bane blade}, {arcana/devoted blade}, {arcana/empowered magic}, {arcana/maximized magic}, {arcana/quickened magic}, {arcana/silent magic}, {arcana/spell blending}, and {arcana/still magic}."
 		]
 	},
 	"mindblade": {
@@ -573,7 +573,7 @@
 			"",
 			"This ability replaces arcane pool, and counts as arcane pool for the purpose of feats, abilities, and class features.",
 			"",
-			"**Psychic Access (Su):** At 4th level, the mindblade gains access to an expanded spell list. She adds two spells from the {main/spells_<psychic/ class spell list} to her magus spell list as magus spells of the same spell level. These must be spells of levels the mindblade is able to cast. At 7th, 11th, 14th, and 19th levels, she adds two more psychic class spells to her spell list, following the same restrictions. When a mindblade takes the {magusarcana/spell blending} arcana, she gains spells from the psychic class spell list instead of the wizard spell list.",
+			"**Psychic Access (Su):** At 4th level, the mindblade gains access to an expanded spell list. She adds two spells from the {main/spells_<psychic/ class spell list} to her magus spell list as magus spells of the same spell level. These must be spells of levels the mindblade is able to cast. At 7th, 11th, 14th, and 19th levels, she adds two more psychic class spells to her spell list, following the same restrictions. When a mindblade takes the {arcana/spell blending} arcana, she gains spells from the psychic class spell list instead of the wizard spell list.",
 			"",
 			"This ability replaces spell recall, knowledge pool, improved spell recall, greater spell combat, and greater spell access.",
 			"",
@@ -607,7 +607,7 @@
 			"",
 			"**Armor Mastery (Ex):** At 20th level, a myrmidarch gains DR 5/- when wearing armor. This ability replaces true magus.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the myrmidarch archetype: {magusarcana/accurate strike}, {magusarcana/arcane edge}, {magusarcana/lingering pain}, {magusarcana/prescient attack}, {magusarcana/prescient defense}, {magusarcana/spell shield}, {magusarcana/spellbreaker}."
+			"**Magus Arcana:** The following magus arcana complement the myrmidarch archetype: {arcana/accurate strike}, {arcana/arcane edge}, {arcana/lingering pain}, {arcana/prescient attack}, {arcana/prescient defense}, {arcana/spell shield}, {arcana/spellbreaker}."
 		]
 	},
 	"nature_bonded_magus": {
@@ -621,7 +621,7 @@
 			"",
 			"**Natural Magic:** A nature-bonded magus adds one 0-level and one 1st-level spell from the {main/spells_<druid/ spell list} to the magus spell list and his spellbook. Each time a nature-bonded magus gains the ability to cast a new level of spells, he can add one spell of that level from the druid spell list to both the magus spell list and his spellbook.",
 			"",
-			"**Plant Familiar:** A nature-bonded magus gains the {magusarcana/familiar} magus arcana. A nature-bonded magus must choose a plant familiar as his familiar.",
+			"**Plant Familiar:** A nature-bonded magus gains the {arcana/familiar} magus arcana. A nature-bonded magus must choose a plant familiar as his familiar.",
 			"",
 			"This replaces arcane pool.",
 			"",
@@ -721,7 +721,7 @@
 			"",
 			"**Greater Spellshield (Su):** At 16th level, a skirnir may activate a stored spell as an immediate action after being struck in combat. He may choose to have the spell affect himself or the creature that struck him. This ability replaces counterstrike.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the skirnir archetype: {magusarcana/arcane redoubt}, {magusarcana/greater arcane redoubt}, {magusarcana/enduring blade} (may use on weapon or shield), {magusarcana/pool strike}, {magusarcana/pool strike (arcing)}, {magusarcana/pool strike (clinging)}, {magusarcana/pool strike (thunderous)}, {magusarcana/prescient defense}, {magusarcana/reflection}."
+			"**Magus Arcana:** The following magus arcana complement the skirnir archetype: {arcana/arcane redoubt}, {arcana/greater arcane redoubt}, {arcana/enduring blade} (may use on weapon or shield), {arcana/pool strike}, {arcana/pool strike (arcing)}, {arcana/pool strike (clinging)}, {arcana/pool strike (thunderous)}, {arcana/prescient defense}, {arcana/reflection}."
 		]
 	},
 	"sorrowblade": {
@@ -775,7 +775,7 @@
 			"",
 			"**Instantaneous Reconstruction (Su):** At 19th level, a soul forger can reforge a destroyed item by touch as a standard action that does not provoke attacks of opportunity. This ability replaces greater spell access.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the soul forger archetype: {magusarcana/arcane accuracy}, {magusarcana/bane blade}, {magusarcana/devoted blade}, {magusarcana/dispelling strike}, {magusarcana/enduring blade}, and {magusarcana/ghost blade}."
+			"**Magus Arcana:** The following magus arcana complement the soul forger archetype: {arcana/arcane accuracy}, {arcana/bane blade}, {arcana/devoted blade}, {arcana/dispelling strike}, {arcana/enduring blade}, and {arcana/ghost blade}."
 		]
 	},
 	"spell_dancer": {
@@ -801,7 +801,7 @@
 			"",
 			"**Greater Dance of Avoidance (Su):** At 13th level, while wearing light armor or no armor, a spell dancer's insight bonus to Armor Class increases to +4. This ability replaces the heavy armor class feature.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the spell dancer archetype: {magusarcana/arcane cloak}, {magusarcana/prescient defense}, {magusarcana/close range}, {magusarcana/concentrate}, {magusarcana/hasted assault}, {magusarcana/spell shield}."
+			"**Magus Arcana:** The following magus arcana complement the spell dancer archetype: {arcana/arcane cloak}, {arcana/prescient defense}, {arcana/close range}, {arcana/concentrate}, {arcana/hasted assault}, {arcana/spell shield}."
 		]
 	},
 	"spell_trapper": {
@@ -851,7 +851,7 @@
 			">",
 			">**Throw Athame (Su):** As a standard action, a spellblade magus can throw his athame up to 60 feet as a ranged attack (no range penalty). If the athame misses, it returns automatically to the magus' hand just before his next turn. If the athame hits, it deals damage and its duration ends; the magus can choose to spend up to 2 points from his arcane pool to increase the thrown athame's damage by +1d6 for each point spent.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the spellblade archetype: {magusarcana/critical strike}, {magusarcana/hasted assault}, {magusarcana/pool strike}, and {magusarcana/spell shield}."
+			"**Magus Arcana:** The following magus arcana complement the spellblade archetype: {arcana/critical strike}, {arcana/hasted assault}, {arcana/pool strike}, and {arcana/spell shield}."
 		]
 	},
 	"spire_defender": {
@@ -887,7 +887,7 @@
 			"",
 			"**Staff Weapon (Su):** At 10th level, a staff magus treats any {main/magic[al] sta/ff>ves} he is wielding as a magical quarterstaff with an enhancement bonus to attack and damage equal to the staff's caster level divided by 4 (minimum +1). The staff must have at least 1 charge for the magus to use this ability. A staff magus can restore 1 charge to a staff by expending a number of points from his arcane pool equal to the level of the highest-level spell cast in the staff, as long as at least one spell in the staff is on the magus spell list. The magus cannot restore charges to more than one staff per day. This ability replaces fighter training.",
 			"",
-			"**Magus Arcana:** The following magus arcana complement the staff magus archetype: {magusarcana/critical strike}, {magusarcana/dispelling strike}, {magusarcana/maneuver mastery}, and {magusarcana/spell shield}."
+			"**Magus Arcana:** The following magus arcana complement the staff magus archetype: {arcana/critical strike}, {arcana/dispelling strike}, {arcana/maneuver mastery}, and {arcana/spell shield}."
 		]
 	}
 }

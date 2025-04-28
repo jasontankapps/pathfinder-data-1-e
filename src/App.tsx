@@ -234,7 +234,7 @@ const App: FC = () => {
 							</Suspense>
 						</Route>
 						<Route path="/drug/:id">
-							<Suspense fallback={<Loading />}>
+							<Suspense fallback={<Loading text="Trying not to get sued..." />}>
 								<DrugPage />
 							</Suspense>
 						</Route>
@@ -319,7 +319,7 @@ const App: FC = () => {
 							</Suspense>
 						</Route>
 						<Route path="/feattreespage">
-							<Suspense fallback={<Loading />}>
+							<Suspense fallback={<Loading text="Growing a tree..." />}>
 								<FeatTreePage />
 							</Suspense>
 						</Route>
@@ -349,7 +349,7 @@ const App: FC = () => {
 							</Suspense>
 						</Route>
 						<Route path="/madness/:id">
-							<Suspense fallback={<Loading />}>
+							<Suspense fallback={<Loading text="Categorizing madness..." />}>
 								<MadnessPage />
 							</Suspense>
 						</Route>
@@ -403,7 +403,7 @@ const App: FC = () => {
 								<MagicMiscPage />
 							</Suspense>
 						</Route>
-						<Route path="/magusarcana/:id">
+						<Route path="/arcana/:id">
 							<Suspense fallback={<Loading text="Studying arcana..." />}>
 								<ArcanaPage />
 							</Suspense>
@@ -448,7 +448,7 @@ const App: FC = () => {
 								<RacePage />
 							</Suspense>
 						</Route>
-						<Route path={/^[/](stance)?ragepower[/](?<id>[a-z_0-9]+)[/]?$/}>
+						<Route path="/ragepower/:id">
 							<Suspense fallback={<Loading text="Getting powers..." />}>
 								<RagePowerPage />
 							</Suspense>
@@ -469,7 +469,7 @@ const App: FC = () => {
 							</Suspense>
 						</Route>
 						<Route path={/^[/](npcclass|sidekick)[/](?<id>[a-z_0-9]+)[/]?$/}>
-							<Suspense fallback={<Loading />}>
+							<Suspense fallback={<Loading text="Organizing classes..." />}>
 								<OtherClassPage />
 							</Suspense>
 						</Route>
@@ -484,7 +484,7 @@ const App: FC = () => {
 							</Suspense>
 						</Route>
 						<Route path="/source/:id">
-							<Suspense fallback={<Loading />}>
+							<Suspense fallback={<Loading text="Finding sources..." />}>
 								<SourcePage />
 							</Suspense>
 						</Route>
@@ -498,7 +498,7 @@ const App: FC = () => {
 								<SpellDefPage />
 							</Suspense>
 						</Route>
-						<Route path={/^[/](legendary|outsider)?spirit[/](?<id>[a-z_0-9]+)[/]?$/}>
+						<Route path="/spirit/:id">
 							<Suspense fallback={<Loading text="Summoning spirits..." />}>
 								<MediumSpiritPage />
 							</Suspense>

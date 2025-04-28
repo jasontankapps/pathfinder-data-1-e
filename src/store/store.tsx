@@ -73,21 +73,41 @@ const migrations = {
 		});
 		// Fix any link changes since the last update
 		const {order, db: oldDB, catalog: oldCat} = bookmarks;
-		// FIX: greaterexploit => exploit
+		// FIX:
+		//   greaterexploit => exploit,
+		//   legendaryspirit, outsiderspirit => spirit
+		//   stanceragepower => ragepower
+		//   magusarcana => arcana
 		const db: BookmarkDB = {};
 		const catalog: Catalog = {};
-		const replacer = /(^[/]?)greater(exploit[/])/
+		const replacerExploit = /(^[/]?)greater(exploit[/])/
+		const replacerSpirit = /(^[/]?)(?:outsider|legendary)(spirit[/])/
+		const replacerRagePower = /(^[/]?)stance(ragepower[/])/
+		const replacerArcana = /(^[/]?)magus(arcana[/])/
 		Object.keys(oldDB).forEach(id => {
 			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
 			db[id] = {
 				color,
 				title,
-				contents: c.map(pair => [ pair[0].replace(replacer, "$1$2"), pair[1] ] as [string, string]),
+				contents: c.map(pair =>
+					[
+						pair[0]
+							.replace(replacerExploit, "$1$2")
+							.replace(replacerSpirit, "$1$2")
+							.replace(replacerRagePower, "$1$2")
+							.replace(replacerArcana, "$1$2"),
+						pair[1]
+					] as [string, string]
+				),
 				hidden
 			}
 		});
 		Object.keys(oldCat).forEach(link => {
-			const newLink = link.replace(replacer, "$1$2");
+			const newLink = link
+				.replace(replacerExploit, "$1$2")
+				.replace(replacerSpirit, "$1$2")
+				.replace(replacerRagePower, "$1$2")
+				.replace(replacerArcana, "$1$2");
 			catalog[newLink] = oldCat[link] as string[];
 		});
 		return {

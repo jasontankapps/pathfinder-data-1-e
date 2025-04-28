@@ -3510,7 +3510,7 @@
 			"{SOURCE Occult Adventures/27}  ",
 			"**Element** aether; **Type** utility (Sp); **Level** 7; **Burn** 0",
 			"",
-			"You weave strands of aether around yourself in order to deflect targeted magic back at the caster. Until the beginning of your next turn, every time you are targeted by a spell that could be affected by spell turning, roll 1d10-1 and determine the effects of the spell as if you had spell turning with that many spell levels remaining. You can accept 1 point of burn to increase the duration to 10 minutes per kineticist level you possess, but in that case, it deflects only 10 spell levels in total (still rolled 1d10-1 at a time) before ending early."
+			"You weave strands of aether around yourself in order to deflect targeted magic back at the caster. Until the beginning of your next turn, every time you are targeted by a spell that could be affected by {spell/spell turning}, roll 1d10-1 and determine the effects of the spell as if you had spell turning with that many spell levels remaining. You can accept 1 point of burn to increase the duration to 10 minutes per kineticist level you possess, but in that case, it deflects only 10 spell levels in total (still rolled 1d10-1 at a time) before ending early."
 		]
 	},
 	"splash_of_the_styx": {
@@ -3522,7 +3522,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/8}  ",
 			"**Element** water; **Type** utility (Sp); **Level** 5; **Burn** 1  ",
-			"**Prerequisite** tiefling or {feat/Planar Infusion/ (Abaddon, Abyss, or Hell)}  ",
+			"**Prerequisite** {race/tiefling} or {feat/Planar Infusion/ (Abaddon, Abyss, or Hell)}  ",
 			"**Saving Throw** Will negates; **SR** yes",
 			"",
 			"You can spend 1 full round to draw upon the waters of the River Styx to erase memories of a target. This functions as {spell/modify memory}, except that it can only eliminate memories."
@@ -3537,9 +3537,9 @@
 			"",
 			"{SOURCE Ultimate Intrigue/66}  ",
 			"**Element** aether; **Type** utility (Sp); **Level** 4; **Burn** 0  ",
-			"**Prerequisite** touchsight",
+			"**Prerequisite** {kinetic/touchsight}",
 			"",
-			"You attach a sticky strand of invisible aether to a target and then project your senses along the strand, allowing you to spy on that target. Attaching the strand of aether requires a ranged touch attack, but if you activate this ability while your target is under the effect of your touchsight, you can use the strands from your touchsight instead. Once you have activated spying touchsight, you can concentrate on it to spy on your target with any of your five senses (though your own body no longer benefits from the senses you project); the strand lasts as long you concentrate, though you can switch which senses you are projecting each round. A creature using see invisibility or a similar effect can notice the trailing strand of aether and follow it back to you. A creature can break your spying touchsight by dispelling it, but otherwise, the only way to break the strand is if one of you uses a teleportation effect, moves more than 1 mile from the other, or is completely blocked from the other in all directions (such as if one of you were inside a telekinetic sphere)."
+			"You attach a sticky strand of invisible aether to a target and then project your senses along the strand, allowing you to spy on that target. Attaching the strand of aether requires a ranged touch attack, but if you activate this ability while your target is under the effect of your touchsight, you can use the strands from your touchsight instead. Once you have activated spying touchsight, you can concentrate on it to spy on your target with any of your five senses (though your own body no longer benefits from the senses you project); the strand lasts as long you concentrate, though you can switch which senses you are projecting each round. A creature using {spell/see invisibility} or a similar effect can notice the trailing strand of aether and follow it back to you. A creature can break your spying touchsight by dispelling it, but otherwise, the only way to break the strand is if one of you uses a teleportation effect, moves more than 1 mile from the other, or is completely blocked from the other in all directions (such as if one of you were inside a {spell/telekinetic sphere})."
 		]
 	},
 	"stone_sculptor": {
@@ -3566,7 +3566,7 @@
 			"**Element** aether, air, void, water; **Type** utility (Sp); **Level** 6; **Burn** 0  ",
 			"**Saving Throw** Fortitude partial; **SR** yes",
 			"",
-			"You use aether to choke a creature within 120 feet, air to create an area of unbreathable air around it, or water to fill its throat with water. If your target needs to breathe, it must hold its breath for as long as you concentrate. On each of its turns, it can attempt a Fortitude save in order to speak, but it can breathe only if your concentration breaks, you leave the 120-foot range, or you break line of effect. You can accept 1 point of burn when activating this wild talent in order to expel the air from your target's lungs. If you do so and the target fails its first Fortitude save, it becomes disabled and is reduced to 0 hit points, and on its second failed Fortitude save, it falls unconscious and is reduced to -1 hit points."
+			"You use aether to choke a creature within 120 feet, air to create an area of unbreathable air around it, or water to fill its throat with water. If your target needs to breathe, it must hold its breath for as long as you concentrate. On each of its turns, it can attempt a Fortitude save in order to speak, but it can breathe only if your concentration breaks, you leave the 120-foot range, or you break line of effect. You can accept 1 point of burn when activating this wild talent in order to expel the air from your target's lungs. If you do so and the target fails its first Fortitude save, it becomes {misc/disabled} and is reduced to 0 hit points, and on its second failed Fortitude save, it falls unconscious and is reduced to -1 hit points."
 		]
 	},
 	"telekinetic_deflection": {
@@ -3604,7 +3604,7 @@
 			"",
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** aether; **Type** utility (Sp); **Level** 8; **Burn** 0  ",
-			"**Prerequisite** force barrier, force ward",
+			"**Prerequisite** {kinetic/force barrier}, {kinetic/force ward}",
 			"",
 			"You can create a globe of force, as the {spell/telekinetic sphere} spell, that lasts as long as you concentrate as a standard action, and you can move the globe as a move action. You can accept 1 point of burn to increase the duration to 1 minute per level and eliminate the need to concentrate to maintain the globe."
 		]
@@ -3618,9 +3618,9 @@
 			"",
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** aether; **Type** utility (Sp); **Level** 2; **Burn** 0  ",
-			"**Prerequisite** basic telekinesis",
+			"**Prerequisite** {kinetic/basic telekinesis}",
 			"",
-			"When using basic telekinesis, you can move an object that weighs up to 100 pounds per kineticist level you possess. When using your telekinetic blast, you can throw an object weighing up to 100 pounds per kineticist level you possess, but this doesn't increase the damage. If you accept 1 point of burn, the maximum weight increases to 1,000 pounds per kineticist level you possess and the duration increases to 1 minute per kineticist level you possess."
+			"When using basic telekinesis, you can move an object that weighs up to 100 pounds per kineticist level you possess. When using your {kinetic/telekinetic blast}, you can throw an object weighing up to 100 pounds per kineticist level you possess, but this doesn't increase the damage. If you accept 1 point of burn, the maximum weight increases to 1,000 pounds per kineticist level you possess and the duration increases to 1 minute per kineticist level you possess."
 		]
 	},
 	"telekinetic_invisibility": {
@@ -3633,7 +3633,7 @@
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** aether; **Type** utility (Sp); **Level** 3; **Burn** 0",
 			"",
-			"You weave strands of aether, bending light and dampening sound; this works as invisibility except that the aetheric bending is easier to notice than normal invisibility, so your bonus on Stealth checks is halved (+10 while moving and +20 while perfectly still). However, the dampened sound allows you to avoid automatic detection via sound-based blindsense and blindsight, but you do not receive the bonus on Stealth checks from this wild talent against a creature with such abilities."
+			"You weave strands of aether, bending light and dampening sound; this works as {spell/invisibility} except that the aetheric bending is easier to notice than normal invisibility, so your bonus on Stealth checks is halved (+10 while moving and +20 while perfectly still). However, the dampened sound allows you to avoid automatic detection via sound-based {umr/blindsense} and {umr/blindsight}, but you do not receive the bonus on Stealth checks from this wild talent against a creature with such abilities."
 		]
 	},
 	"telekinetic_maneuvers": {
@@ -3647,7 +3647,7 @@
 			"**Element** aether; **Type** utility (Sp); **Level** 4; **Burn** 0  ",
 			"**Saving Throw** none; **SR** yes",
 			"",
-			"You can perform combat maneuvers as telekinesis, but you use your Constitution modifier to determine your Combat Maneuver Bonus rather than your Intelligence or Charisma modifier. If you possess the telekinetic finesse wild talent, add dirty trick and steal combat maneuvers to the list of combat maneuvers you can perform; when performing these maneuvers, determine your Combat Maneuver Bonus using your Dexterity modifier instead of your Constitution modifier."
+			"You can perform combat maneuvers as {spell/telekinesis}, but you use your Constitution modifier to determine your Combat Maneuver Bonus rather than your Intelligence or Charisma modifier. If you possess the {kinetic/telekinetic finesse} wild talent, add {rule/dirty trick} and {rule/steal} combat maneuvers to the list of combat maneuvers you can perform; when performing these maneuvers, determine your Combat Maneuver Bonus using your Dexterity modifier instead of your Constitution modifier."
 		]
 	},
 	"tengu_blade_lore": {
@@ -3661,7 +3661,7 @@
 			"**Element** universal; **Type** utility (Su); **Level** 1; **Burn** 0  ",
 			"**Prerequisite** {race/tengu}",
 			"",
-			"Whenever you use kinetic blade or an infusion that lists kinetic blade as a prerequisite, the weapon you create counts as having one of the following weapon special features of your choice: blocking, brace, deadly, disarm, distracting, sunder, or trip."
+			"Whenever you use {kinetic/kinetic blade} or an infusion that lists kinetic blade as a prerequisite, the weapon you create counts as having one of the following {rule/weapon special features} of your choice: blocking, brace, deadly, disarm, distracting, sunder, or trip."
 		]
 	},
 	"thorn_flesh": {
@@ -3676,9 +3676,9 @@
 			"",
 			"{SOURCE Ultimate Wilderness/60;Occult Origins/9}  ",
 			"**Element** wood; **Type** utility (Sp); **Level** 3; **Burn** 1  ",
-			"**Prerequisite** flesh of wood",
+			"**Prerequisite** {kinetic/flesh of wood}",
 			"",
-			"You cover your body in barbed thorns that injure foes who strike you. This functions as the jagged flesh wild talent."
+			"You cover your body in barbed thorns that injure foes who strike you. This functions as the {kinetic/jagged flesh} wild talent."
 		]
 	},
 	"tidal_wave": {
@@ -3691,7 +3691,7 @@
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** water; **Type** utility (Sp); **Level** 9; **Burn** 1",
 			"",
-			"You call forth a powerful tidal wave, as tsunami."
+			"You call forth a powerful tidal wave, as {spell/tsunami}."
 		]
 	},
 	"touchsight": {
@@ -3704,7 +3704,7 @@
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** aether; **Type** utility (Su); **Level** 3; **Burn** 0",
 			"",
-			"You attach strands of aether to everything your telekinesis touches. Any time you damage a creature using your telekinetic blast, as long as that creature doesn't use a teleportation effect, you can see that creature at any distance as if using blindsight until the end of your next turn. Immediately after damaging a creature, you can accept 1 point of burn to strengthen the strands of aether attached to that creature, increasing the duration of the touchsight on that creature to 1 round per kineticist level."
+			"You attach strands of aether to everything your telekinesis touches. Any time you damage a creature using your {kinetic/telekinetic blast}, as long as that creature doesn't use a teleportation effect, you can see that creature at any distance as if using {umr/blindsight} until the end of your next turn. Immediately after damaging a creature, you can accept 1 point of burn to strengthen the strands of aether attached to that creature, increasing the duration of the touchsight on that creature to 1 round per kineticist level."
 		]
 	},
 	"reactive_touchsight": {
@@ -3716,9 +3716,9 @@
 			"",
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** aether; **Type** utility (Su); **Level** 5; **Burn** 0  ",
-			"**Prerequisite** touchsight",
+			"**Prerequisite** {kinetic/touchsight}",
 			"",
-			"Your strands of aether surround you, making it virtually impossible for a violent motion to catch you off guard, so long as the motion originates within their range. You are never denied your Dexterity bonus to AC against attacks from within 30 feet because of being flat-footed or because your assailant is unseen or invisible. You always succeed at any Perception check to act on the surprise round against opponents within 30 feet."
+			"Your strands of aether surround you, making it virtually impossible for a violent motion to catch you off guard, so long as the motion originates within their range. You are never denied your Dexterity bonus to AC against attacks from within 30 feet because of being {rule/flat-footed} or because your assailant is unseen or invisible. You always succeed at any Perception check to act on the surprise round against opponents within 30 feet."
 		]
 	},
 	"touchsight_reactive": { "copyof": "reactive_touchsight" },
@@ -3733,7 +3733,7 @@
 			"**Element** fire; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
 			"**Saving Throw** none; **SR** yes",
 			"",
-			"When you take the withdraw or run action, you can leave a wall of fire in all squares you exit that lasts for 1 round."
+			"When you take the withdraw or run action, you can leave a {spell/wall of fire} in all squares you exit that lasts for 1 round."
 		]
 	},
 	"tree_step": {
@@ -3748,9 +3748,9 @@
 			"",
 			"{SOURCE Ultimate Wilderness/61;Psychic Anthology/23}  ",
 			"**Element** wood; **Type** utility (Sp); **Level** 7; **Burn** 1  ",
-			"**Prerequisite** greater woodland step, woodland step",
+			"**Prerequisite** {kinetic/greater woodland step}, {kinetic/woodland step}",
 			"",
-			"You can enter a tree and magically transport to a different tree of the same type within range, as per tree stride. Each time you activate this ability, it lasts until you have taken a number of tree steps equal to your kineticist level, your burn is removed, or you accept burn again to refresh it. Each time your burn is removed, you can automatically activate this ability once and ignore the burn cost. You can accept 1 additional point of burn while this ability is active to use all remaining tree steps at once, adding up the total distance traveled and instantly reaching your destination tree even if there wouldn't have been enough trees along the way to make the journey one at a time."
+			"You can enter a tree and magically transport to a different tree of the same type within range, as per {spell/tree stride}. Each time you activate this ability, it lasts until you have taken a number of tree steps equal to your kineticist level, your burn is removed, or you accept burn again to refresh it. Each time your burn is removed, you can automatically activate this ability once and ignore the burn cost. You can accept 1 additional point of burn while this ability is active to use all remaining tree steps at once, adding up the total distance traveled and instantly reaching your destination tree even if there wouldn't have been enough trees along the way to make the journey one at a time."
 		]
 	},
 	"tremorsense": {
@@ -3763,7 +3763,7 @@
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** earth; **Type** utility (Su); **Level** 3; **Burn** 0",
 			"",
-			"You can take a move action to gain tremorsense 30 feet for 1 round on any earth or stone surface that you touch. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess. While benefiting from this tremorsense, your earth blasts and composite blasts that include earth components don't suffer a miss chance from {rule/concealment} or total concealment against creatures you detect with your tremorsense."
+			"You can take a move action to gain {umr/tremorsense} 30 feet for 1 round on any earth or stone surface that you touch. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess. While benefiting from this tremorsense, your {kinetic/earth blast/s} and composite blasts that include earth components don't suffer a miss chance from {rule/concealment} or total concealment against creatures you detect with your tremorsense."
 		]
 	},
 	"greater_tremorsense": {
@@ -3775,9 +3775,9 @@
 			"",
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** earth; **Type** utility (Su); **Level** 5; **Burn** 0  ",
-			"**Prerequisite** tremorsense",
+			"**Prerequisite** {kinetic/tremorsense}",
 			"",
-			"You can spend 10 minutes to extend your tremorsense outward while in a natural underground setting, letting you learn three facts as if using commune with nature, except your tremorsense can't tell if a creature is a woodland creature or a powerful unnatural creature."
+			"You can spend 10 minutes to extend your tremorsense outward while in a natural underground setting, letting you learn three facts as if using {spell/commune with nature}, except your tremorsense can't tell if a creature is a woodland creature or a powerful unnatural creature."
 		]
 	},
 	"tremorsense_greater": { "copyof": "greater_tremorsense" },
@@ -3792,7 +3792,7 @@
 			"**Element** void; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
 			"**Saving Throw** Will negates; **SR** yes",
 			"",
-			"This functions as elemental grip, except it works on a single undead creature as per {spell/halt undead}. Unintelligent undead must succeed at a saving throw with a -4 penalty to negate the effects."
+			"This functions as {kinetic/elemental grip}, except it works on a single undead creature as per {spell/halt undead}. Unintelligent undead must succeed at a saving throw with a -4 penalty to negate the effects."
 		]
 	},
 	"veil_of_mists": {
@@ -3805,7 +3805,7 @@
 			"{SOURCE Occult Adventures/28}  ",
 			"**Element** water; **Type** utility (Su); **Level** 2; **Burn** 0",
 			"",
-			"You create a misty veil over your features, disguising yourself as disguise self for a number of minutes equal to your Constitution modifier. If you accept 1 point of burn, until the next time your burn is removed, each use of this wild talent lasts until you dismiss it."
+			"You create a misty veil over your features, disguising yourself as {spell/disguise self} for a number of minutes equal to your Constitution modifier. If you accept 1 point of burn, until the next time your burn is removed, each use of this wild talent lasts until you dismiss it."
 		]
 	},
 	"venom_speaker": {
@@ -3818,7 +3818,7 @@
 			"{SOURCE Heroes of Golarion/26}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 1; **Burn** 0",
 			"",
-			"You gain the {class/investigator/'s} poison lore class feature, using your kineticist level as your investigator level, and can use your gather power ability even while holding a dose of poison in one of your hands or appendages as long as you could otherwise use that ability. If you are at least 6th level, you can learn the {class/alchemist/'s} swift poisoning class feature or one of the following alchemist discoveries in place of a utility wild talent, using your kineticist level as your alchemist level: concentrate poison, poison conversion, or sticky poison."
+			"You gain the {class/investigator/'s} poison lore class feature, using your kineticist level as your investigator level, and can use your gather power ability even while holding a dose of poison in one of your hands or appendages as long as you could otherwise use that ability. If you are at least 6th level, you can learn the {class/alchemist/'s} swift poisoning class feature or one of the following alchemist discoveries in place of a utility wild talent, using your kineticist level as your alchemist level: {discovery/concentrate poison}, {discovery/poison conversion}, or {discovery/sticky poison}."
 		]
 	},
 	"voice_of_the_wind": {
@@ -3832,7 +3832,7 @@
 			"**Element** air; **Type** utility (Sp); **Level** 1; **Burn** 0  ",
 			"**Saving Throw** none; **SR** yes",
 			"",
-			"When you whisper, you can have the wind carry your voice to the ears of anyone you can see within 120 feet, as if they were one of the targets of a message spell you cast. Alternatively, you can send your voice to a distant location as if casting whispering wind."
+			"When you whisper, you can have the wind carry your voice to the ears of anyone you can see within 120 feet, as if they were one of the targets of a {spell/message} spell you cast. Alternatively, you can send your voice to a distant location as if casting {spell/whispering wind}."
 		]
 	},
 	"greater_voice_of_the_wind": {
@@ -3844,9 +3844,9 @@
 			"",
 			"{SOURCE Ultimate Intrigue/66}  ",
 			"**Element** air; **Type** utility (Sp); **Level** 2; **Burn** 0  ",
-			"**Prerequisite** voice of the wind",
+			"**Prerequisite** {kinetic/voice of the wind}",
 			"",
-			"Your voice of the wind ability gains both power and finesse. You can use voice of the wind to create unusual sounds, as ghost sound, to throw your voice, as {spell/ventriloquism}, and even to alter your voice, as vocal alteration. You can send messages at a much greater distance than before and at a faster rate. When using voice of the wind's whispering wind effect, you can choose to have the wind rise high into the sky, where it can gust at 50 miles per hour before descending to deliver the message. While the gust is still small, abnormal wind that fast is noticeable, unlike the normal gentle zephyr from whispering wind. If you choose to use the faster gust, you can deliver a message as far as 50 miles per kineticist level, instead of 1 mile per kineticist level."
+			"Your voice of the wind ability gains both power and finesse. You can use voice of the wind to create unusual sounds, as {spell/ghost sound}, to throw your voice, as {spell/ventriloquism}, and even to alter your voice, as {spell/vocal alteration}. You can send messages at a much greater distance than before and at a faster rate. When using voice of the wind's whispering wind effect, you can choose to have the wind rise high into the sky, where it can gust at 50 miles per hour before descending to deliver the message. While the gust is still small, abnormal wind that fast is noticeable, unlike the normal gentle zephyr from whispering wind. If you choose to use the faster gust, you can deliver a message as far as 50 miles per kineticist level, instead of 1 mile per kineticist level."
 		]
 	},
 	"voice_of_the_wind_greater": { "copyof": "greater_voice_of_the_wind" },
@@ -3876,7 +3876,7 @@
 			"{SOURCE Ultimate Wilderness/61;Occult Origins/9}  ",
 			"**Element** wood; **Type** utility (Sp); **Level** 3; **Burn** 0",
 			"",
-			"You can bend and twist plants and wooden objects. This functions as warp wood."
+			"You can bend and twist plants and wooden objects. This functions as {spell/warp wood}."
 		]
 	},
 	"water_alteration": {
@@ -3905,10 +3905,10 @@
 			"",
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** water; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
-			"**Prerequisite** kinetic cover  ",
+			"**Prerequisite** {kinetic/kinetic cover}  ",
 			"**Saving Throw** none; see text; **SR** no",
 			"",
-			"You can manipulate massive quantities of water. As a standard action, you can raise or lower the level of water as if using control water, or move an amount of water equal to 1/1,000th the amount controlled by that spell to a different location in range. The water remains where you placed it for as long as you remain motionless and take a standard action each round to concentrate on this effect. This wild talent causes a slow effect on creatures made of water, just like control water (Will negates). When you cease concentrating, the water flows normally unless you accept 1 point of burn to extend the duration and hold the water in its current position for 10 minutes per kineticist level you possess."
+			"You can manipulate massive quantities of water. As a standard action, you can raise or lower the level of water as if using {spell/control water}, or move an amount of water equal to 1/1,000th the amount controlled by that spell to a different location in range. The water remains where you placed it for as long as you remain motionless and take a standard action each round to concentrate on this effect. This wild talent causes a {spell/slow} effect on creatures made of water, just like control water (Will negates). When you cease concentrating, the water flows normally unless you accept 1 point of burn to extend the duration and hold the water in its current position for 10 minutes per kineticist level you possess."
 		]
 	},
 	"waterdancer": {
@@ -3921,7 +3921,7 @@
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** water; **Type** utility (Sp); **Level** 3; **Burn** 0",
 			"",
-			"You call forth a current of water to increase your speed and allow you to swim with ease, as if under the effects of slipstream with unlimited duration."
+			"You call forth a current of water to increase your speed and allow you to swim with ease, as if under the effects of {spell/slipstream} with unlimited duration."
 		]
 	},
 	"greater_waterdancer": {
@@ -3933,9 +3933,9 @@
 			"",
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** water; **Type** utility (Su); **Level** 5; **Burn** 0  ",
-			"**Prerequisite** waterdancer",
+			"**Prerequisite** {kinetic/waterdancer}",
 			"",
-			"You can move across water (as water walk) at will and breathe underwater, and your slashing and bludgeoning attacks don't take the usual penalties when you're underwater."
+			"You can move across water (as {spell/water walk}) at will and breathe underwater, and your slashing and bludgeoning attacks don't take the usual penalties when you're underwater."
 		]
 	},
 	"waterdancer_greater": { "copyof": "greater_waterdancer" },
@@ -3949,7 +3949,7 @@
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** water; **Type** utility (Su); **Level** 4; **Burn** 0",
 			"",
-			"You gain tremorsense with a range of 30 feet to detect anything in contact with the same body of water as you. While you are benefiting from this tremorsense, your water blasts and composite blasts that include water don't suffer a miss chance from {rule/concealment} or total concealment against creatures you detect with this tremorsense."
+			"You gain {umr/tremorsense} with a range of 30 feet to detect anything in contact with the same body of water as you. While you are benefiting from this tremorsense, your {kinetic/water blast/s} and composite blasts that include water don't suffer a miss chance from {rule/concealment} or total concealment against creatures you detect with this tremorsense."
 		]
 	},
 	"greater_watersense": {
@@ -3961,9 +3961,9 @@
 			"",
 			"{SOURCE Ultimate Intrigue/66}  ",
 			"**Element** water; **Type** utility (Su); **Level** 5; **Burn** 0  ",
-			"**Prerequisite** watersense",
+			"**Prerequisite** {kinetic/watersense}",
 			"",
-			"You project your watersense outward through the tides and water around you, allowing you to spy on others at a distance. You can take 10 minutes to project your senses, choosing a location within 480 feet that is connected to your current location via the same continuous body of water, or you can take 1 hour to attempt to spy on a specific creature within 1 mile per kineticist level that is visible from a location connected to your current location via the same continuous body of water. In the latter case, the creature receives a Will save as per scrying (including bonuses and penalties based on connection and knowledge); a target that saves is immune to your greater watersense for 24 hours. In either case, an extremely thin funnel of water, lasting for 1 minute per kineticist level, carries light and sound to your location, where your target area or location appears in the water next to you and you can view it as if through a scrying sensor, allowing you to both see and hear the area immediately surrounding the other end of the funnel. In the case of a distance greater than 480 feet, the sound comes 1 round later than its corresponding visual information for every mile away you are (for instance, if you were 5 miles away, you would see your target start talking 5 rounds before you heard what it said). When you are tracking a creature, the funnel moves as best it can through the water to follow that creature, up to 150 feet per round, but the target can escape by simply moving away from the water. If you also possess the voice of the wind wild talent, you can use its message effect to send your voice through the funnel with a delay of 1 round per mile. This wild talent is a divination and scrying effect."
+			"You project your watersense outward through the tides and water around you, allowing you to spy on others at a distance. You can take 10 minutes to project your senses, choosing a location within 480 feet that is connected to your current location via the same continuous body of water, or you can take 1 hour to attempt to spy on a specific creature within 1 mile per kineticist level that is visible from a location connected to your current location via the same continuous body of water. In the latter case, the creature receives a Will save as per {spell/scrying} (including bonuses and penalties based on connection and knowledge); a target that saves is immune to your greater watersense for 24 hours. In either case, an extremely thin funnel of water, lasting for 1 minute per kineticist level, carries light and sound to your location, where your target area or location appears in the water next to you and you can view it as if through a scrying sensor, allowing you to both see and hear the area immediately surrounding the other end of the funnel. In the case of a distance greater than 480 feet, the sound comes 1 round later than its corresponding visual information for every mile away you are (for instance, if you were 5 miles away, you would see your target start talking 5 rounds before you heard what it said). When you are tracking a creature, the funnel moves as best it can through the water to follow that creature, up to 150 feet per round, but the target can escape by simply moving away from the water. If you also possess the {kinetic/voice of the wind} wild talent, you can use its message effect to send your voice through the funnel with a delay of 1 round per mile. This wild talent is a divination and scrying effect."
 		]
 	},
 	"watersense_greater": { "copyof": "greater_watersense" },
@@ -3977,7 +3977,7 @@
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** air; **Type** utility (Sp); **Level** 8; **Burn** 0",
 			"",
-			"By focusing on your connection to air and seeding the air around you for 10 minutes, you can create powerful weather effects, as control weather. You can create tornadoes or hurricane-force winds, as appropriate for the season. If you have access to the fire element, you can create hot weather, a heat wave, a thaw, or an early spring. If you have access to the water element, you can create all other types of weather listed in control weather."
+			"By focusing on your connection to air and seeding the air around you for 10 minutes, you can create powerful weather effects, as {spell/control weather}. You can create tornadoes or hurricane-force winds, as appropriate for the season. If you have access to the fire element, you can create hot weather, a heat wave, a thaw, or an early spring. If you have access to the water element, you can create all other types of weather listed in control weather."
 		]
 	},
 	"wild_growth": {
@@ -3993,7 +3993,7 @@
 			"{SOURCE Ultimate Wilderness/61;Occult Origins/9}  ",
 			"**Element** wood; **Type** utility (Sp); **Level** 5; **Burn** 0",
 			"",
-			"You can charge plants with life energy, hindering your enemies or aiding local farmers. This functions as plant growth."
+			"You can charge plants with life energy, hindering your enemies or aiding local farmers. This functions as {spell/plant growth}."
 		]
 	},
 	"wind_manipulator": {
@@ -4005,9 +4005,9 @@
 			"",
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** air; **Type** utility (Sp); **Level** 6; **Burn** 0  ",
-			"**Prerequisite** engulfing winds",
+			"**Prerequisite** {kinetic/engulfing winds}",
 			"",
-			"You can call forth mighty winds in an enormous area. As a standard action, you can alter the wind around you as if using control winds, but the change remains only for as long as you continue to take a standard action to concentrate on this effect. If you accept 1 point of burn, you can extend the duration to 10 minutes per kineticist level you possess without your needing to concentrate."
+			"You can call forth mighty winds in an enormous area. As a standard action, you can alter the wind around you as if using {spell/control winds}, but the change remains only for as long as you continue to take a standard action to concentrate on this effect. If you accept 1 point of burn, you can extend the duration to 10 minutes per kineticist level you possess without your needing to concentrate."
 		]
 	},
 	"windsight": {
@@ -4032,7 +4032,7 @@
 			"",
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** air; **Type** utility (Su); **Level** 5; **Burn** 0  ",
-			"**Prerequisite** windsight",
+			"**Prerequisite** {kinetic/windsight}",
 			"",
 			"You can send a slight breeze in a path up to 480 feet long and then back to where you wait. This allows you to use your windsight wild talent to catch a quick glimpse and hear a tiny snippet from any location that could be reached by the wind traveling that distance (the wind's path can't pass through openings smaller than 1 inch in diameter). The breeze travels 100 feet per round, so what you see and hear is delayed by 1 round for every 50 feet of the path. If you spend at least 10 minutes to set up a steady flow of wind, you can concentrate for up to 1 minute per level to gain continuous visual and auditory information for as long as you concentrate, delayed by 1 round for every 100 feet the wind travels (since the steady flow of wind has to travel only one way). While there is no invisible sensor to detect with this ability, creatures along the path of the breeze may notice a light wind, though it may not seem out of the ordinary."
 		]
@@ -4047,9 +4047,9 @@
 			"",
 			"{SOURCE Occult Adventures/29}  ",
 			"**Element** air; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
-			"**Prerequisite** air cushion or air's leap",
+			"**Prerequisite** {kinetic/air cushion} or {kinetic/air's leap}",
 			"",
-			"The air bends to your will, allowing you to soar to great heights. You are constantly under the effects of fly. If this effect is dispelled, you can call it forth again as a standard action."
+			"The air bends to your will, allowing you to soar to great heights. You are constantly under the effects of {spell/fly}. If this effect is dispelled, you can call it forth again as a standard action."
 		]
 	},
 	"wood_healer": {
@@ -4064,10 +4064,10 @@
 			"",
 			"{SOURCE Ultimate Wilderness/61;Psychic Anthology/23}  ",
 			"**Element** wood; **Type** utility (Sp); **Level** 1; **Burn** 1  ",
-			"**Prerequisite** positive blast  ",
+			"**Prerequisite** {kinetic/positive blast}  ",
 			"**Saving Throw** none; **SR** yes",
 			"",
-			"This functions as kinetic healer, but you must base the amount of healing on your positive blast, not wood blast. A phytokineticist with positive blast as her first blast qualifies for the kinetic chirurgeon archetype and gains this utility talent instead of kinetic healer. This wild talent counts as kinetic healer for prerequisites for selecting other kineticist wild talents."
+			"This functions as {kinetic/kinetic healer}, but you must base the amount of healing on your positive blast, not wood blast. A phytokineticist with positive blast as her first blast qualifies for the {arc-kineticist/kinetic chirurgeon} archetype and gains this utility talent instead of kinetic healer. This wild talent counts as kinetic healer for prerequisites for selecting other kineticist wild talents."
 		]
 	},
 	"wood_soldiers": {
@@ -4083,7 +4083,7 @@
 			"{SOURCE Ultimate Wilderness/61;Occult Origins/9}  ",
 			"**Element** wood; **Type** utility (Su); **Level** 8; **Burn** 1",
 			"",
-			"Your presence animates surrounding plant life and causes it to fight by your side. Each time you recover burn, you automatically use this ability once and ignore the burn cost. This functions as wooden phalanx, except you always animate four golems, and the duration lasts until the next time you recover burn. If you have spring blast, one of your golems gains a 30-foot fly speed (average maneuverability). If you have summer blast, one of your golems is healed by fire damage, is vulnerable to cold, and deals 1d6 extra points of fire damage on slam attacks and when splintering. If you have autumn blast, one of your golems gains a 20-foot burrow speed. If you have winter blast, one of your golems deals 1d6 extra points of cold damage on its slam attacks and when splintering. Each of the above modifications must apply to a different golem."
+			"Your presence animates surrounding plant life and causes it to fight by your side. Each time you recover burn, you automatically use this ability once and ignore the burn cost. This functions as {spell/wooden phalanx}, except you always animate four golems, and the duration lasts until the next time you recover burn. If you have {kinetic/spring blast}, one of your golems gains a 30-foot fly speed (average maneuverability). If you have {kinetic/summer blast}, one of your golems is healed by fire damage, is vulnerable to cold, and deals 1d6 extra points of fire damage on slam attacks and when splintering. If you have {kinetic/autumn blast}, one of your golems gains a 20-foot burrow speed. If you have {kinetic/winter blast}, one of your golems deals 1d6 extra points of cold damage on its slam attacks and when splintering. Each of the above modifications must apply to a different golem."
 		]
 	},
 	"woodland_step": {
@@ -4099,7 +4099,7 @@
 			"{SOURCE Ultimate Wilderness/61;Occult Origins/9}  ",
 			"**Element** wood; **Type** utility (Su); **Level** 1; **Burn** 0",
 			"",
-			"You gain woodland stride, as per the druid ability. Due to your ability to manipulate plants, you can attempt a caster level check (DC = 11 + the spell's caster level) as a standard action to also ignore magically manipulated plants (but not creatures of the plant type)."
+			"You gain {ability/woodland stride}, as per the druid ability. Due to your ability to manipulate plants, you can attempt a caster level check (DC = 11 + the spell's caster level) as a standard action to also ignore magically manipulated plants (but not creatures of the plant type)."
 		]
 	},
 	"greater_woodland_step": {
@@ -4114,9 +4114,9 @@
 			"",
 			"{SOURCE Ultimate Wilderness/61;Occult Origins/9}  ",
 			"**Element** wood; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
-			"**Prerequisite** woodland step",
+			"**Prerequisite** {kinetic/woodland step}",
 			"",
-			"The plants actively assist you and nearby allies. You and all allies within 30 feet benefit as per forest friend."
+			"The plants actively assist you and nearby allies. You and all allies within 30 feet benefit as per {spell/forest friend}."
 		]
 	},
 	"woodland_step_greater": { "copyof": "greater_woodland_step" }

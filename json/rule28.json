@@ -338,7 +338,7 @@
 			"",
 			"***Archetypes:*** {arc-bard/Brazen Deceiver} (Bard), {arc-swashbuckler/Dashing Thief} (Swashbuckler)",
 			"",
-			"***Class Options:*** [The Twice-Damned Prince](legendaryspirit/twice_damned_prince) (Legendary Medium spirit); these {ability/rogue talents} are designed specifically for rogues working for the council, either as full members or merely as affiliates: Aspexia's Mysticism, Careful Stab, Hairpin Trick, Knockout Queen, Silencing Strike, Founders' Blessing, Shrinewalk"
+			"***Class Options:*** [The Twice-Damned Prince](spirit/twice_damned_prince) (Legendary Medium spirit); these {ability/rogue talents} are designed specifically for rogues working for the council, either as full members or merely as affiliates: {talent/Aspexia's Mysticism}, {talent/Careful Stab}, {talent/Hairpin Trick}, {talent/Knockout Queen}, {talent/Silencing Strike}, {talent/Founders' Blessing}, {talent/Shrinewalk}"
 		],
 		"parent_topics": [
 			"optional_subsystems",
