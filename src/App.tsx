@@ -328,7 +328,7 @@ const App: FC = () => {
 								<HauntPage />
 							</Suspense>
 						</Route>
-						<Route path="/hellknightorder/:id">
+						<Route path="/hkorder/:id">
 							<Suspense fallback={<Loading text="Loading orders..." />}>
 								<HellknightOrderPage />
 							</Suspense>

@@ -1613,6 +1613,7 @@
 			">**Lycanthrope:** While a ghoul cannot become a lycanthrope, a living lycanthrope who succumbs to ghoul fever could rise as a ghoul. In most cases, this transformation removes the lycanthropic curse, resulting in a standard ghoul, but in rare events the resulting monster is a true ghoul lycanthrope. To create stats for such a creature, simply apply the {template/lycanthrope} template to a ghoul-this is an exception to the general rule that you can normally only add the lycanthrope template to a humanoid."
 		]
 	},
+	"ghast": { "copyof": "ghoul" },
 	"ghoul_hound": {
 		"name": "Ghoul Hound",
 		"sources": [

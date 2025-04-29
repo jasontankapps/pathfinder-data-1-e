@@ -2794,7 +2794,7 @@
 					[ "{spell/Touch of Idiocy}", 2, "enchantment", "Subject takes 1d6 penalty to Int, Wis, and Cha.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Touch of Mercy}", 2, "enchantment", "Change the damage a creature can deal from lethal to nonlethal.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Touch of Slime}", 4, "conjuration", "Touch infests a target with green slime.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Touch of Slumber}", [ 5.311, "5, 6" ], "enchantment", "Touched nonhostile creature falls asleep", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Touch of Slumber}", [ 5.311, "5, 6" ], "enchantment", "Touched non-hostile creature falls asleep", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Touch of the Sea}", 1, "transmutation", "Swim speed becomes 30 ft.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Tough Crowd}", [ 3.751, "3, 4" ], "abjuration", "Grant allies a +4 bonus to resist enchantments/illusions.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Tower of Iron Will I}", 5, "abjuration", "As an immediate action, gives creatures in a 10-ft. radius spell resistance against psychic magic and mind-affecting effects.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

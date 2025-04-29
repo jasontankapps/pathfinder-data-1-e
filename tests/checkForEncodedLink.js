@@ -23,11 +23,21 @@
 // The advanced forms can be used together in the order <|/>
 //   {rule/special_<Pre |Link//Text/ Stuff>_info} => [Pre Link/Text Stuff](rule/special_link_text_info)
 
-const checkForEncodedLink = (input, mayBeRegularLink = false) => {
-	let m = input.match(/(^.*?)\{([-a-z_]+)\/([^}]+)\}(.*$)/);
-	const m2 = mayBeRegularLink && input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)\/([^)]+)\)(.*$)/);
+const checkForEncodedLink = (input, options = {}) => {
+	const { basic, bare } = options;
+	let m = input.match(
+		bare ? /^([-a-z_]+?)[/](.+)($)/
+		: /(^.*?)\{([-a-z_]+)[/]([^}]+)\}(.*$)/
+	);
+	const m2 = basic && input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)[/]([^)]+)\)(.*$)/);
 	if(!m && !m2) {
 		return false;
+	} else if (bare && m) {
+		// rearrange `m`, starting with: [full, protocol, matchedx]
+		const full = m.shift();
+		m.unshift(full, "");
+		m.push("");
+		// `m` is now [full, "", protocol, matchedx, ""]
 	} else if (m2) {
 		// See if we have a {match}, then figure out who has the earlier match.
 		if(!m || (m[1].length > m2[1].length)) {
@@ -42,26 +52,26 @@ const checkForEncodedLink = (input, mayBeRegularLink = false) => {
 	const [, pre, protocol, matchedx, post] = m;
 	let matched = matchedx, linkpre = "", linkpost = "", textpre = "", textpost = "";
 	// pre_<link
-	if(m = matched.match(/(^.+?)<(.+$)/)) {
+	if(m = matched.match(/(^.*?)<(.*$)/)) {
 		matched = m[2];
 		linkpre = m[1];
 	}
 	// post>_link
-	if(m = matched.match(/(^.+)>(.+$)/)) {
+	if(m = matched.match(/(^.*)>(.*$)/)) {
 		matched = m[1];
 		linkpost = m[2];
 	}
 	// Double-slashes
-	while(m = matched.match(/(^.+?)\/\/(.+$)/)) {
+	while(m = matched.match(/(^.*?)[/]{2}(.*$)/)) {
 		matched = `${m[1]}=slAsh=${m[2]}`;
 	}
 	// pre|text
-	if(m = matched.match(/(^.+?)\|(.+$)/)) {
+	if(m = matched.match(/(^.*?)\|(.*$)/)) {
 		matched = m[2];
 		textpre = m[1];
 	}
 	// post/text
-	if(m = matched.match(/(^.+?)\/(.+$)/)) {
+	if(m = matched.match(/(^.*?)[/](.*$)/)) {
 		matched = m[1];
 		textpost = m[2];
 	}

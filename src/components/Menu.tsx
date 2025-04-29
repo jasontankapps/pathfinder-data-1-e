@@ -172,7 +172,7 @@ const makeItem = (
 	if(loc === url) {
 		cn = "selected";
 	} else if (prefix) {
-		const m = loc.match(/^(?:\/(?!main)|\/main\/)([^-_/]+?)(?:\/|s?_|s?-)/);
+		const m = loc.match(/^(?:[/](?!main)|[/]main[/])([^-_/]+?)(?:[/]|s?_|s?-)/);
 		if(m) {
 			const rx = new RegExp(`\\b${m[1]}\\b`);
 			if(prefix.match(rx)) {

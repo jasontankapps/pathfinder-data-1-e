@@ -82,9 +82,6 @@ const a = (props: MDaProps) => {
 	const { href = "", children, id, "aria-label": ariaLabel } = props;
 	if (href.match(/^http/)) {
 		return <a href={href} id={id} aria-label={ariaLabel}>{children}</a>
-	} else if(href.match(/^\//)) {
-		// Initial slash indicates this needs a ripple.
-		return <Link to={href} id={id} aria-label={ariaLabel}>{children}<IonRippleEffect /></Link>
 	} else if (href.match(/^#/)) {
 		// Hash indicates internal link
 		return <InnerLink aria-label={ariaLabel} id={id} to={href}>{children}</InnerLink>
@@ -118,7 +115,7 @@ function getCheckableValue (item: RawDatum, nullish: string, fromArray: boolean 
 	} else if (typeof(item) === "number") {
 		return {number: item};
 	} else if (fromArray) {
-		return {string: item.replace(/^[-a-z]+\//g, "") + " "};
+		return {string: item.replace(/^[-a-z]+[/]/g, "") + " "};
 	}
 	const m = checkForEncodedLink(item);
 	return m ?
@@ -266,7 +263,7 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 	const dispatch = useAppDispatch();
 	// datum will be either `{linkString}` or `[ sortableThing, {linkString} ]`
 	const linkString = Array.isArray(datum) ? datum[1] : datum;
-	const m = (typeof linkString === "string") ? checkForEncodedLink(linkString, true) : false;
+	const m = (typeof linkString === "string") ? checkForEncodedLink(linkString, { basic: true }) : false;
 	if(!m) {
 		return (
 			<td className={align === false ? "ion-text-end" : (align === null ? "ion-text-center" : (align && "ion-text-start"))}>LINK EXPECTED: {linkString}</td>

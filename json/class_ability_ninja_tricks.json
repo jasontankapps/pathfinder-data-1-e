@@ -12,7 +12,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Primary Sneak Attack Tricks",
 		"description": [
-			"A ninja with this trick can cause living opponents to bleed by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the ninja's sneak attack. Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleed damage from this ability does not stack with itself. Bleed damage bypasses any DR the creature might possess."
+			"A ninja with this trick can cause living opponents to {rule/bleed} by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the ninja's sneak attack. Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleed damage from this ability does not stack with itself. Bleed damage bypasses any DR the creature might possess."
 		]
 	},
 	"ki_block": {
@@ -67,7 +67,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Ki Tricks",
 		"description": [
-			"When a ninja with this trick makes a high jump, the DC for that jump is half the normal DC. The ninja must have the acrobatic master trick before taking this talent."
+			"When a ninja with this trick makes a [high jump](skill/acrobatics), the DC for that jump is half the normal DC. The ninja must have the acrobatic master trick before taking this talent."
 		]
 	},
 	"blood_debt": {
@@ -85,7 +85,7 @@
 		"compilationSources": [ [ "Legacy of Dragons" ] ],
 		"category": "Ki Tricks",
 		"description": [
-			"The ninja chooses one imperial dragon type (forest, sea, sky, sovereign, or underworld) when she gains this trick, and the choice can't be changed. She can use supplies similar to those used for ninja smoke bombs to produce an alchemical breath weapon that deals the same kind of damage as the selected dragon (piercing damage for forest dragons, fire for sea dragons, and so on). The breath weapon deals the same amount of damage as the ninja's sneak attack, with a Reflex save allowed for half damage. The breath weapon is a 15-foot cone (or a 30-foot line if the underworld dragon is selected). The save DC is equal to 10 + 1/2 the ninja's class level + the ninja's Intelligence modifier. Using this ability is a standard action that expends up 2 ki points, and once used it cannot be used again for 1d4 rounds."
+			"The ninja chooses one {family/imperial dragon} type (forest, sea, sky, sovereign, or underworld) when she gains this trick, and the choice can't be changed. She can use supplies similar to those used for ninja {ninjatrick/smoke bomb/s} to produce an alchemical breath weapon that deals the same kind of damage as the selected dragon (piercing damage for forest dragons, fire for sea dragons, and so on). The breath weapon deals the same amount of damage as the ninja's sneak attack, with a Reflex save allowed for half damage. The breath weapon is a 15-foot cone (or a 30-foot line if the underworld dragon is selected). The save DC is equal to 10 + 1/2 the ninja's class level + the ninja's Intelligence modifier. Using this ability is a standard action that expends up 2 ki points, and once used it cannot be used again for 1d4 rounds."
 		]
 	},
 	"darkvision": {
@@ -112,7 +112,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Ki Tricks",
 		"description": [
-			"A ninja with this ability can expend 1 ki point from her ki pool as a swift action before she makes a full-attack attack with shuriken. During that attack, she can throw two additional shuriken at her highest attack bonus, but all of her shuriken attacks are made at a -2 penalty, including the two extra attacks."
+			"A ninja with this ability can expend 1 ki point from her ki pool as a swift action before she makes a full-attack attack with {eq-weapon/shuriken}. During that attack, she can throw two additional shuriken at her highest attack bonus, but all of her shuriken attacks are made at a -2 penalty, including the two extra attacks."
 		]
 	},
 	"forgotten_trick": {
@@ -148,7 +148,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Ki Tricks",
 		"description": [
-			"A ninja with this trick can invest a portion of her ki into a single thrown weapon, such as a shuriken, and throw it as a standard action. The thrown weapon explodes on impact in a 5-foot burst, dealing 1d6 points of fire damage plus 1d6 points of fire damage for every four levels of the ninja above 2nd, to a maximum 4d6 at 18th level. Creatures caught in the blast receive a Reflex save to halve the damage. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. If the thrown weapon hits a creature, that creature takes a -2 penalty on the saving throw. If the thrown weapon misses, treat it as a thrown splash weapon. Using this ability expends 1 ki point from her ki pool."
+			"A ninja with this trick can invest a portion of her ki into a single thrown weapon, such as a {eq-weapon/shuriken}, and throw it as a standard action. The thrown weapon explodes on impact in a 5-foot burst, dealing 1d6 points of fire damage plus 1d6 points of fire damage for every four levels of the ninja above 2nd, to a maximum 4d6 at 18th level. Creatures caught in the blast receive a Reflex save to halve the damage. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. If the thrown weapon hits a creature, that creature takes a -2 penalty on the saving throw. If the thrown weapon misses, treat it as a {rule/throw[n] splash weapon}. Using this ability expends 1 ki point from her ki pool."
 		]
 	},
 	"ki_venom": {
@@ -179,7 +179,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Ki Tricks",
 		"description": [
-			"This ability allows a ninja to throw a smoke bomb that creates a cloud of smoke with a 15-foot radius. This acts like the smoke from a smokestick. The ninja can center this smoke on herself, or throw the bomb as a ranged touch attack with a range of 20 feet. Using this ability is a standard action. Each use of this ability uses up 1 ki point."
+			"This ability allows a ninja to throw a smoke bomb that creates a cloud of smoke with a 15-foot radius. This acts like the smoke from a {eq-misc/smokestick}. The ninja can center this smoke on herself, or throw the bomb as a ranged touch attack with a range of 20 feet. Using this ability is a standard action. Each use of this ability uses up 1 ki point."
 		]
 	},
 	"poison_bomb": {
@@ -189,7 +189,7 @@
 		"category": "Ki Tricks",
 		"level": 1,
 		"description": [
-			"Whenever the ninja throws a smoke bomb, she can decide to include 1 dose of any inhaled poison she possesses. This poison affects all creatures in the smoke and lasts as long as the smoke lasts. She must pay for the poison normally. The ninja must have the smoke bomb ninja trick before selecting this trick."
+			"Whenever the ninja throws a smoke bomb, she can decide to include 1 dose of any inhaled poison she possesses. This poison affects all creatures in the smoke and lasts as long as the smoke lasts. She must pay for the poison normally. The ninja must have the {ninjatrick/smoke bomb} ninja trick before selecting this trick."
 		]
 	},
 	"choking_bomb": {
@@ -199,7 +199,7 @@
 		"category": "Ki Tricks",
 		"level": 2,
 		"description": [
-			"Whenever a ninja throws a smoke bomb, all living creatures in the resulting cloud must make a Fortitude save or become staggered by the choking black smoke for 1d4 rounds. The DC of this saving throw is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. The ninja can decide to create an ordinary smoke bomb or add poison to this smoke bomb as normal. The ninja must have the poison bomb ninja trick before selecting this trick."
+			"Whenever a ninja throws a smoke bomb, all living creatures in the resulting cloud must make a Fortitude save or become staggered by the choking black smoke for 1d4 rounds. The DC of this saving throw is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. The ninja can decide to create an ordinary smoke bomb or add poison to this smoke bomb as normal. The ninja must have the {ninjatrick/poison bomb} ninja trick before selecting this trick."
 		]
 	},
 	"strangler": {
@@ -208,7 +208,7 @@
 		"compilationSources": [ [ "Martial Arts Handbook" ] ],
 		"category": "Ki Tricks",
 		"description": [
-			"A ninja with this trick knows how to use a scarf, usually with a coin or large knot, as a lethal garrote. The ninja takes no penalties when using a scarf as an improvised garrote. In addition, as a free action when attempting a grapple combat maneuver check, the ninja can spend 1 ki point to gain the constrict special attack on that maneuver with damage equal to half the ninja's sneak attack dice (minimum 1d6)."
+			"A ninja with this trick knows how to use a scarf, usually with a coin or large knot, as a lethal {eq-weapon/garrote}. The ninja takes no penalties when using a scarf as an improvised garrote. In addition, as a free action when attempting a grapple combat maneuver check, the ninja can spend 1 ki point to gain the {umr/constrict} special attack on that maneuver with damage equal to half the ninja's sneak attack dice (minimum 1d6)."
 		]
 	},
 	"sudden_disguise": {
@@ -235,7 +235,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Ki Tricks",
 		"description": [
-			"As a swift action, the ninja can throw her voice as if using the spell ventriloquism. She can use this ability for 1 minute per ninja level. Each use of this ability uses up 1 ki point."
+			"As a swift action, the ninja can throw her voice as if using the spell {spell/ventriloquism}. She can use this ability for 1 minute per ninja level. Each use of this ability uses up 1 ki point."
 		]
 	},
 	"arcane_backfire": {
@@ -253,16 +253,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Other Tricks",
 		"description": [
-			"A ninja who selects this trick gains a bonus combat feat."
-		]
-	},
-	"deflect_arrows": {
-		"name": "Deflect Arrows",
-		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Ultimate Combat" ] ],
-		"category": "Other Tricks",
-		"description": [
-			"A ninja who selects this ninja trick gains the {feat/Deflect Arrows} feat as a bonus feat. The ninja must have the {feat/Improved Unarmed Strike} combat feat before taking this trick."
+			"A ninja who selects this trick gains a bonus {main/feats_<combat/ feat}."
 		]
 	},
 	"fast_stealth": {
@@ -306,15 +297,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Other Tricks",
 		"description": [
-			"The ninja has a slower-than-normal metabolism. She can hold her breath for twice as long as normal before needing to make Constitution checks (four times her Constitution score). In addition, whenever the ninja is poisoned, the time between saving throws (the poison's frequency) is doubled. Thus, a poison that has a frequency of *1/round for 6 rounds* would instead be *1/2 rounds for 12 rounds.*"
-		]
-	},
-	"snatch_arrows": {
-		"name": "Snatch Arrows",
-		"compilationSources": [ [ "Ultimate Combat" ] ],
-		"category": "Other Tricks",
-		"description": [
-			"A ninja who selects this ninja trick gains the {feat/Snatch Arrows} feat as a bonus feat. The ninja must have the {feat/Improved Unarmed Strike} feat and the {feat/Deflect Arrows} feat before taking this trick."
+			"The ninja has a slower-than-normal metabolism. She can [hold her breath](rule/suffocation) for twice as long as normal before needing to make Constitution checks (four times her Constitution score). In addition, whenever the ninja is poisoned, the time between saving throws (the poison's frequency) is doubled. Thus, a poison that has a frequency of *1/round for 6 rounds* would instead be *1/2 rounds for 12 rounds.*"
 		]
 	},
 	"style_master": {
@@ -330,7 +313,7 @@
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
 		"category": "Other Tricks",
 		"description": [
-			"Ratfolk ninjas use their large numbers to overwhelm their enemies with countless attacks. While using the swarming racial trait to share a space with an ally, a ninja with this talent gains a bonus on damage roles equal to the number of sneak attack dice her ally has. For example, a ninja would gain +3 damage if her ally has sneak attack 3d6."
+			"{race/Ratfolk} ninjas use their large numbers to overwhelm their enemies with countless attacks. While using the swarming racial trait to share a space with an ally, a ninja with this talent gains a bonus on damage roles equal to the number of sneak attack dice her ally has. For example, a ninja would gain +3 damage if her ally has sneak attack 3d6."
 		]
 	},
 	"swift_poisoner": {
@@ -349,6 +332,25 @@
 		"category": "Other Tricks",
 		"description": [
 			"A ninja who selects this ninja trick gains {feat/Improved Unarmed Strike} as a bonus feat."
+		]
+	},
+	"deflect_arrows": {
+		"name": "Deflect Arrows",
+		"nameSuffix": "(Ex)",
+		"compilationSources": [ [ "Ultimate Combat" ] ],
+		"category": "Other Tricks",
+		"level": 1,
+		"description": [
+			"A ninja who selects this ninja trick gains the {feat/Deflect Arrows} feat as a bonus feat. The ninja must have the {feat/Improved Unarmed Strike} combat feat before taking this trick."
+		]
+	},
+	"snatch_arrows": {
+		"name": "Snatch Arrows",
+		"compilationSources": [ [ "Ultimate Combat" ] ],
+		"category": "Other Tricks",
+		"level": 2,
+		"description": [
+			"A ninja who selects this ninja trick gains the {feat/Snatch Arrows} feat as a bonus feat. The ninja must have the {feat/Improved Unarmed Strike} feat and the {feat/Deflect Arrows} feat before taking this trick."
 		]
 	},
 	"undetected_sabotage": {
@@ -386,7 +388,7 @@
 		"description": [
 			"A ninja with this master trick can kill foes that are unable to defend themselves. To attempt to assassinate a target, the ninja must first study her target for 1 round as a standard action. On the following round, if the ninja makes a sneak attack against the target and the target is denied its Dexterity bonus to AC, the sneak attack has the additional effect of possibly killing the target. This attempt automatically fails if the target recognizes the ninja as an enemy. If the sneak attack is successful and the target of this attack fails a Fortitude save, it dies. The DC of this save is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. If the save is successful, the target still takes the sneak attack damage as normal, but it is immune to that ninja's assassinate ability for 1 day.",
 			"",
-			"You can only apply this trick to an individual attack if you do not apply any other similarly-limited sneak attack tricks to it, such as bleeding attack or ki block. This decision must be made before the attack is made."
+			"You can only apply this trick to an individual attack if you do not apply any other similarly-limited sneak attack tricks to it, such as {ninjatrick/bleeding attack} or {ninjatrick/ki block}. This decision must be made before the attack is made."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -396,7 +398,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Master Improved Tricks",
 		"description": [
-			"Whenever the ninja throws a smoke bomb, all living creatures in the cloud must make a Fortitude save or be blinded by the black smoke for 1d4 rounds. The DC of this saving throw is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This trick cannot be combined with a choking bomb, but the ninja can combine a blinding bomb with a poison bomb. The ninja must have the choking bomb ninja trick before selecting this trick."
+			"Whenever the ninja throws a {ninjatrick/smoke bomb}, all living creatures in the cloud must make a Fortitude save or be blinded by the black smoke for 1d4 rounds. The DC of this saving throw is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This trick cannot be combined with a choking bomb, but the ninja can combine a blinding bomb with a poison bomb. The ninja must have the {ninjatrick/choking bomb} ninja trick before selecting this trick."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -406,7 +408,7 @@
 		"compilationSources": [ [ "Chronicle of Legends" ] ],
 		"category": "Master Improved Tricks",
 		"description": [
-			"By sending phantom selves across the battlefield, one may fight as many. When a ninja with this trick uses the shadow clone ninja trick, she gains an additional clone for every 3 ninja levels she has, to a maximum of eight clones. In addition, while she has shadow clones deployed, the ninja can cause any number of her clones to split from herself as part of a move action. The shadow clones move up to the ninja's speed at her will each time she uses a move action to move. Shadow clones separated in this way are not considered part of the shadow clone trick until they return to the ninja's square, though they can still be destroyed while separated. Shadow clones separated from the ninja have an AC equal to the ninja's AC - 5 and cannot take any actions, though they can provide flanking. Shadow clones do not occupy any space and a creature can freely enter a shadow clone's square. The ninja must have the shadow clone ninja trick to select this trick."
+			"By sending phantom selves across the battlefield, one may fight as many. When a ninja with this trick uses the shadow clone ninja trick, she gains an additional clone for every 3 ninja levels she has, to a maximum of eight clones. In addition, while she has shadow clones deployed, the ninja can cause any number of her clones to split from herself as part of a move action. The shadow clones move up to the ninja's speed at her will each time she uses a move action to move. Shadow clones separated in this way are not considered part of the shadow clone trick until they return to the ninja's square, though they can still be destroyed while separated. Shadow clones separated from the ninja have an AC equal to the ninja's AC - 5 and cannot take any actions, though they can provide flanking. Shadow clones do not occupy any space and a creature can freely enter a shadow clone's square. The ninja must have the {ninjatrick/shadow clone} ninja trick to select this trick."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -416,7 +418,7 @@
 		"compilationSources": [ [ "Martial Arts Handbook" ] ],
 		"category": "Master Improved Tricks",
 		"description": [
-			"A ninja with this trick can further improve her ki venom. The ninja can spend 2 ki points to increase the damage die to a d8 or spend 2 ki points to change the ability damage dealt to Constitution damage. The ninja must have the ki venom ninja trick before selecting this trick."
+			"A ninja with this trick can further improve her ki venom. The ninja can spend 2 ki points to increase the damage die to a d8 or spend 2 ki points to change the ability damage dealt to Constitution damage. The ninja must have the {ninjatrick/ki venom} ninja trick before selecting this trick."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -426,7 +428,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Master Improved Tricks",
 		"description": [
-			"Whenever a ninja uses the vanishing trick ninja trick, she is treated as if she were under the effects of {spell/greater invisibility}. The ninja must have the vanishing trick ninja trick before selecting this ninja trick."
+			"Whenever a ninja uses the vanishing trick ninja trick, she is treated as if she were under the effects of {spell/greater invisibility}. The ninja must have the {ninjatrick/vanishing trick} ninja trick before selecting this ninja trick."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -436,7 +438,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Master Improved Tricks",
 		"description": [
-			"A ninja with this trick can take on the appearance of other creatures and individuals. Whenever the ninja uses the sudden disguise ninja trick, the duration increases to 10 minutes per level. Alternatively, the ninja can use the sudden disguise ninja trick to take on the appearance of a specific individual that the ninja has seen before for 1 minute per level. Creatures that are familiar with the individual receive a Will saving throw to see through the illusion. The DC of this saving throw is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This illusion also changes the ninja's speech, if she has heard the individual talk and can speak his language. The ninja must have the sudden disguise ninja trick before selecting this trick."
+			"A ninja with this trick can take on the appearance of other creatures and individuals. Whenever the ninja uses the sudden disguise ninja trick, the duration increases to 10 minutes per level. Alternatively, the ninja can use the sudden disguise ninja trick to take on the appearance of a specific individual that the ninja has seen before for 1 minute per level. Creatures that are familiar with the individual receive a Will saving throw to see through the illusion. The DC of this saving throw is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This illusion also changes the ninja's speech, if she has heard the individual talk and can speak his language. The ninja must have the {ninjatrick/sudden disguise} ninja trick before selecting this trick."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -446,7 +448,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Master Improved Tricks",
 		"description": [
-			"This trick allows the ninja to create an illusory double of herself that moves away from her, allowing the ninja to create a distraction. When she uses this ability, an illusory double appears and moves away from the ninja, heading in one direction. The double climbs walls, jumps pits, or simply passes through obstacles, moving at twice the ninja's speed in the direction indicated by the ninja when the ability is used. Its course cannot be changed. The double persists for 1 round per level of the ninja. Those who interact with the double receive a Will saving throw to recognize that it is fake. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. Each use of this ability uses up 1 ki point. The ninja must possess the shadow clone ninja trick before selecting this trick."
+			"This trick allows the ninja to create an illusory double of herself that moves away from her, allowing the ninja to create a distraction. When she uses this ability, an illusory double appears and moves away from the ninja, heading in one direction. The double climbs walls, jumps pits, or simply passes through obstacles, moving at twice the ninja's speed in the direction indicated by the ninja when the ability is used. Its course cannot be changed. The double persists for 1 round per level of the ninja. Those who interact with the double receive a Will saving throw to recognize that it is fake. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. Each use of this ability uses up 1 ki point. The ninja must possess the {ninjatrick/shadow clone} ninja trick before selecting this trick."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -466,7 +468,7 @@
 		"compilationSources": [ [ "Martial Arts Handbook" ] ],
 		"category": "Master Ki Tricks",
 		"description": [
-			"A ninja with this trick gains the dual identity and seamless guise class feature as a {class/vigilante}, except that the ninja can spend 1 ki point to change identities as a move action. The ninja's identities are referred to as social and ninja, rather than social and vigilante."
+			"A ninja with this trick gains the *dual identity* and *seamless guise* class feature as a {class/vigilante}, except that the ninja can spend 1 ki point to change identities as a move action. The ninja's identities are referred to as social and ninja, rather than social and vigilante."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -477,7 +479,7 @@
 		"level": 1,
 		"category": "Master Ki Tricks",
 		"description": [
-			"A ninja with this trick gains the {class/vigilante} social talent of the same name. The ninja must have the deep cover ninja trick before selecting this trick."
+			"A ninja with this trick gains the {class/vigilante} social talent of the same name. The ninja must have the {ninjatrick/deep cover} ninja trick before selecting this trick."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -547,7 +549,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Master Ki Tricks",
 		"description": [
-			"This trick allows a ninja to use her ki to walk through the air. Whenever the ninja uses the light steps class feature, she can walk on air, rising or descending as she desires. She must end her move on a solid surface. Each use of this ability uses up 1 ki point."
+			"This trick allows a ninja to use her ki to walk through the air. Whenever the ninja uses the *light steps* class feature, she can walk on air, rising or descending as she desires. She must end her move on a solid surface. Each use of this ability uses up 1 ki point."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -556,7 +558,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Master Other Tricks",
 		"description": [
-			"The ninja can select a {ability/advanced_<rogue talent} from the list of Advanced Talents in place of a ninja trick. The ninja cannot select a rogue talent that has the same name as a ninja trick. The ninja cannot select {talent/improved evasion} unless she has evasion (either as a class feature or as a ninja master trick)."
+			"The ninja can select a {ability/advanced_<rogue talent} from the list of Advanced Talents in place of a ninja trick. The ninja cannot select a rogue talent that has the same name as a ninja trick. The ninja cannot select {talent/improved evasion} unless she has {ability/evasion} (either as a class feature or as a [ninja master trick](ninjatrick/evasion))."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -566,7 +568,7 @@
 		"compilationSources": [ [ "Chronicle of Legends" ] ],
 		"category": "Master Other Tricks",
 		"description": [
-			"Certain master ninjas possess a seemingly limitless supply of their trusted weapons. Whenever a ninja with this trick buys a set of 50 identical magic shuriken, she thereafter replenishes them at no cost and never runs out. This stock of magical shuriken can be upgraded as though it were a normal magic weapon, and shuriken upgraded this way likewise never run out."
+			"Certain master ninjas possess a seemingly limitless supply of their trusted weapons. Whenever a ninja with this trick buys a set of 50 identical magic {eq-weapon/shuriken}, she thereafter replenishes them at no cost and never runs out. This stock of magical shuriken can be upgraded as though it were a normal magic weapon, and shuriken upgraded this way likewise never run out."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -576,7 +578,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Master Other Tricks",
 		"description": [
-			"As a full-round action, a ninja with this master trick can take careful aim and pool all of her attack potential into a single, deadly shuriken throw. When she does this, she throws a single shuriken at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the attack hits. For each additional successful attack roll beyond the first, the ninja increases the damage by 1d6. Precision damage and extra damage from weapon special abilities (such as flaming) are added with damage modifiers and are not increased by this advanced talent. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus -5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0)."
+			"As a full-round action, a ninja with this master trick can take careful aim and pool all of her attack potential into a single, deadly {eq-weapon/shuriken} throw. When she does this, she throws a single shuriken at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the attack hits. For each additional successful attack roll beyond the first, the ninja increases the damage by 1d6. Precision damage and extra damage from weapon special abilities (such as flaming) are added with damage modifiers and are not increased by this advanced talent. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus -5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0)."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -586,7 +588,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Master Other Tricks",
 		"description": [
-			"A ninja can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if the ninja is wearing light armor or no armor. A helpless ninja does not gain the benefit of evasion."
+			"A ninja can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. {ability/Evasion} can be used only if the ninja is wearing light armor or no armor. A helpless ninja does not gain the benefit of evasion."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},
@@ -615,7 +617,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Master Other Tricks",
 		"description": [
-			"A ninja who selects this trick deals damage with her unarmed strikes as if she were a monk of her ninja level - 4. If the ninja has levels in monk, this ability stacks with monk levels to determine how much damage she can do with her unarmed strikes. A ninja must have the {feat/Improved Unarmed Strike} feat before taking this trick."
+			"A ninja who selects this trick deals damage with her unarmed strikes as if she were a {class/monk} of her ninja level - 4. If the ninja has levels in monk, this ability stacks with monk levels to determine how much damage she can do with her unarmed strikes. A ninja must have the {feat/Improved Unarmed Strike} feat (which can come from the {ninjatrick/unarmed combat training} trick) before taking this trick."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	}

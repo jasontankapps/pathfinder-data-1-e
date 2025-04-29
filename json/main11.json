@@ -1808,7 +1808,7 @@
 					[ "{spell/Teleport}", "conjuration", "teleportation", null, "Instantly transports you as far as 100 miles per level.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Thoughtsense}", "divination", null, "mind-affecting", "Automatically detect nearby conscious creatures.", [ 0, "V" ], [ 1, "" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Torpid Reanimation}", "necromancy", null, "evil", "Animate dead when a specific trigger condition occurs.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Touch of Slumber}", "enchantment", "compulsion", "mind-affecting", "Touched nonhostile creature falls asleep", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Touch of Slumber}", "enchantment", "compulsion", "mind-affecting", "Touched non-hostile creature falls asleep", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Trace Teleport}", "divination", null, null, "Determine where and when teleportation occurred, and glimpse the origin or destination.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ],
 					[ "{spell/Transmute Mud to Rock}", "transmutation", null, "earth", "Transforms two 10-ft. cubes per level.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Transmute Rock to Mud}", "transmutation", null, "earth", "Transforms two 10-ft. cubes per level.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

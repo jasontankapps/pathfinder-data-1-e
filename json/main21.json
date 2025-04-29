@@ -1512,7 +1512,7 @@
 					[ "{spell/Toilsome Chant}", 1, null, null, "Allow inspire competence to last for the duration of the skill affected." ],
 					[ "{spell/Touch of Idiocy}", 2, "compulsion", "mind-affecting", "Subject takes 1d6 penalty to Int, Wis, and Cha." ],
 					[ "{spell/Touch of Mercy}", 2, "compulsion", "good, mind-affecting", "Change the damage a creature can deal from lethal to nonlethal." ],
-					[ "{spell/Touch of Slumber}", [ 5.311, "5, 6" ], "compulsion", "mind-affecting", "Touched nonhostile creature falls asleep" ],
+					[ "{spell/Touch of Slumber}", [ 5.311, "5, 6" ], "compulsion", "mind-affecting", "Touched non-hostile creature falls asleep" ],
 					[ "{spell/Triggered Suggestion}", [ 3.631, "3, 4" ], "compulsion", "language-dependent, mind-affecting", "As suggestion, but triggered only and target doesn't remember the suggestion." ],
 					[ "{spell/Unadulterated Loathing}", [ 2.561, "2, 3" ], "compulsion", "emotion, mind-affecting", "Target is compelled to avoid another creature." ],
 					[ "{spell/Unbreakable Heart}", 1, "compulsion", "mind-affecting", "Give a +4 bonus on saves against effects which rely on negative emotions." ],

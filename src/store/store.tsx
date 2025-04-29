@@ -78,12 +78,14 @@ const migrations = {
 		//   legendaryspirit, outsiderspirit => spirit
 		//   stanceragepower => ragepower
 		//   magusarcana => arcana
+		//   hellknightorder => hkorder
 		const db: BookmarkDB = {};
 		const catalog: Catalog = {};
 		const replacerExploit = /(^[/]?)greater(exploit[/])/
 		const replacerSpirit = /(^[/]?)(?:outsider|legendary)(spirit[/])/
 		const replacerRagePower = /(^[/]?)stance(ragepower[/])/
 		const replacerArcana = /(^[/]?)magus(arcana[/])/
+		const replacerHKOrder = /(^[/]?)hellknight(order[/])/
 		Object.keys(oldDB).forEach(id => {
 			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
 			db[id] = {
@@ -95,7 +97,8 @@ const migrations = {
 							.replace(replacerExploit, "$1$2")
 							.replace(replacerSpirit, "$1$2")
 							.replace(replacerRagePower, "$1$2")
-							.replace(replacerArcana, "$1$2"),
+							.replace(replacerArcana, "$1$2")
+							.replace(replacerHKOrder, "$1hk$2"),
 						pair[1]
 					] as [string, string]
 				),
@@ -107,7 +110,8 @@ const migrations = {
 				.replace(replacerExploit, "$1$2")
 				.replace(replacerSpirit, "$1$2")
 				.replace(replacerRagePower, "$1$2")
-				.replace(replacerArcana, "$1$2");
+				.replace(replacerArcana, "$1$2")
+				.replace(replacerHKOrder, "$1hk$2");
 			catalog[newLink] = oldCat[link] as string[];
 		});
 		return {

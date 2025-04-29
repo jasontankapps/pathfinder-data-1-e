@@ -59,7 +59,7 @@ const {
 	druiddomain,
 	emotionalfocus,
 	exploit,
-	hellknightorder,
+	hkorder,
 	implement,
 	inquisition,
 	kinetic,
@@ -198,7 +198,7 @@ const $All = [
 	["bloodragerbloodline", bloodragerbloodline], ["oraclecurse", oraclecurse],
 	["discipline", discipline], ["domain", domain], ["druidcompanion", druidcompanion],
 	["druiddomain", druiddomain], ["emotionalfocus", emotionalfocus],
-	["exploit", exploit], ["hellknightorder", hellknightorder],
+	["exploit", exploit], ["hkorder", hkorder],
 	["implement", implement], ["inquisition", inquisition], ["kinetic", kinetic],
 	["arcana", arcana], ["mystery", mystery],
 	["oath", oath], ["order", order], ["ragepower", ragepower], ["shamanspirit", shamanspirit],
@@ -316,7 +316,7 @@ const testLinks = () => {
 			TESTING.forEach(line => {
 				let temp = line;
 				let m = false;
-				while(m = temp.match(/\]\(\/?([^)]+)\/([^)/]+)\)(.*$)/)) {
+				while(m = temp.match(/\]\([/]?([^)]+)[/]([^)/]+)\)(.*$)/)) {
 					// Checking [Links](whatever/link)
 					if(m) {
 						if(m[1] === "source") {
@@ -336,7 +336,7 @@ const testLinks = () => {
 					// Testing {SOURCE Title/##}
 					if (m) {
 						m[1].split(/;/).forEach(bit => {
-							const xx = bit.match(/([^/]+)(\/[-, 0-9]+)?$/);
+							const xx = bit.match(/([^/]+)([/][-, 0-9]+)?$/);
 							if(!xx) {
 								msg.push(`\t{SOURCE} error [${bit}]`);
 							} else if (!allsources[xx[1]]) {
@@ -359,6 +359,24 @@ const testLinks = () => {
 					temp = m[3];
 				}
 				temp = line;
+				while(m = temp.match(/:ripple\[(.+?)(?<!\\)\](.*$)/)) {
+					// Testing :ripple[link/text]
+					const q = checkForEncodedLink(m[1].replace(/\\/g, ""), { bare: true });
+					if(!q) {
+						invalid.push(`:ripple[${m[1]}]`)
+					} else {
+						let [, link, , , protocol, property] = q;
+						if(protocol === "source") {
+							if(!allsources[property]) {
+								invalid.push(`:ripple[${link}]`);
+							}
+						} else if(!$KnownProps[protocol] || !$KnownProps[protocol][property]) {
+							invalid.push(`:ripple[${link}]`);
+						}
+					}
+					temp = m[2];
+				}
+				temp = line;
 				while(m = checkForEncodedLink(temp)) {
 					// m = [...post, protocol, property, fullmatch]
 					const property = (m.pop() || 1) && m.pop();
@@ -376,7 +394,7 @@ const testLinks = () => {
 			});
 			if(topLink) {
 				const [ title, link ] = topLink;
-				const m = link.match(/^([-a-z0-9_]+)\/([a-z_0-9]+)$/);
+				const m = link.match(/^([-a-z0-9_]+)[/]([a-z_0-9]+)$/);
 				if(!m || (!$KnownProps[m[1]] || !$KnownProps[m[1]][m[2]])) {
 					invalid.push(`[ "${title}", "${link}" ]`);
 				}

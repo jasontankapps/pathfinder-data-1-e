@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import orders from './subpages/__hellknightorder';
+import orders from './subpages/__hkorder';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -21,7 +21,7 @@ const HellknightOrderPage: React.FC = () => {
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
-		pageId={"/hellknightorder/" + id}
+		pageId={"/hkorder/" + id}
 		topLink={topLink}
 	>{jsx}</BasicPage>;
 };

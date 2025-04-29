@@ -213,7 +213,19 @@ const inlineTags = {
 		const {text = "", attrs = {}, meta} = token;
 		const { hasAlternateText } = $.flags;
 		let tag = meta.name;
-		if(
+		if(tag === "ripple") {
+			// :ripple[link/Text]
+			$.flags.link = true;
+			$.flags.ripple = true;
+			const m = checkForEncodedLink(text, { bare: true });
+			if(m) {
+				const [, link, text] = m;
+				return `<Link to="${link}">${text}<IonRippleEffect /></Link>`;
+			}
+			console.log(`Bad :ripple => [${text}]`);
+			$.errorCount++;
+			tag = "b";
+		} else if(
 			(tag === "primary" && !hasAlternateText)
 			|| (tag === "alternate" && hasAlternateText)
 		) {
@@ -271,7 +283,7 @@ const convertLinks = (input) => {
 // Converts 'Source Title/1' to [Source Title pg. 1](source/source_title)
 //    and 'Source Title' to [Source Title](source/source_title)
 const makeSourceLink = (sourceInfo) => {
-	const m = sourceInfo.match(/(.+?)\/([-, 0-9]+)/);
+	const m = sourceInfo.match(/(.+?)[/]([-, 0-9]+)/);
 	const source = m ? m[1] : sourceInfo;
 	const sourceText = m ? `${source} pg. ${m[2]}` : source;
 	const link = source.toLowerCase().replace(/[- ]/g, "_").replace(/[^-a-z_0-9]/g, "");
@@ -285,11 +297,6 @@ const renderer = () => {
 			link: ({href, text}) => {
 				if (href.match(/^http/)) {
 					return `<a href="${href}">${text}</a>`;
-				} else if(href.match(/^\//)) {
-					// Initial slash indicates this needs a ripple, updating `$.flags` to note the outside Tag being used
-					$.flags.link = true;
-					$.flags.ripple = true;
-					return `<Link to="${href}">${text}<IonRippleEffect /></Link>`;
 				} else if (href.match(/^#/)) {
 					// Hash indicates internal link, updating `$.flags` to note the outside Tag being used
 //					console.log(id, href);
@@ -332,11 +339,11 @@ const postprocess = (tables) => {
 //			// Remove unneeded newlines between HTML tags
 //			.replace(/>\s*%%% split here %%%\s*</g, "><")
 //			// Remove <section> tag (introduced by footnotes extension)
-//			.replace(/<\/?section[^>]*>/g, "")
+//			.replace(/<[/]?section[^>]*>/g, "")
 			// Remove invalid `class` attributes (introduced by footnotes extension)
 			.replace(/ class="[^"]*"/g, "")
 			// Redo Footnotes header
-			.replace(/<h2([^>]+)>Footnotes<\/h2>/g, "<h3$1>Footnotes</h3>")
+			.replace(/<h2([^>]+)>Footnotes<[/]h2>/g, "<h3$1>Footnotes</h3>")
 			// Replace unneeded HTML entity for the apostrophe
 			.replace(/&#39;/g, "'")
 			// Replace unneeded HTML entity for the quotation mark
@@ -375,10 +382,10 @@ const postprocess = (tables) => {
 		output = "";
 		//{jumplist header / etc}
 		//Create JumpLists out of the plain-text code
-		while(m = text.match(/^(.*?)<p>(?:\{|&#123;)jumplist ([^}]+)(?:\}|&#125;)<\/p>(.*)$/)) {
+		while(m = text.match(/^(.*?)<p>(?:\{|&#123;)jumplist ([^}]+)(?:\}|&#125;)<[/]p>(.*)$/)) {
 			const [x, pre, jumplist, post] = m;
 			output = output + `${pre}<div className="jumpList" id="${$.prefix}jumplist"><h2>Jump to:</h2><ul>`;
-			jumplist.split(/ +\/ +/).forEach(input => {
+			jumplist.split(/ +[/] +/).forEach(input => {
 				const hash = input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
 				output = output + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${$.prefix}${hash}")} onClick={()=>jumpScroller("${$.prefix}${hash}")}>${input}</li>`;
 			});
@@ -391,7 +398,7 @@ const postprocess = (tables) => {
 		//{table0}
 		//Add <DisplayTable> for plain-text table refs.
 		// Check for curly brackets or their HTML entities, as they may get accidentally converted along the way.
-		while(m = text.match(/^(.*?)<p>(?:\{|&#123;)table([0-9]+)(?:\}|&#125;)<\/p>(.*)$/)) {
+		while(m = text.match(/^(.*?)<p>(?:\{|&#123;)table([0-9]+)(?:\}|&#125;)<[/]p>(.*)$/)) {
 			const [x, pre, table, post] = m;
 			output = output + pre;
 			const index = parseInt(table);
@@ -409,7 +416,7 @@ const postprocess = (tables) => {
 		output = "";
 		//<table>
 		//Add "tableWrap" <div> around <table> so it can be contained to one pageview and scroll horizontally
-		while(m = text.match(/^(.*?)(<table>.+?<\/table>)(.*)$/)) {
+		while(m = text.match(/^(.*?)(<table>.+?<[/]table>)(.*)$/)) {
 			const [x, pre, table, post] = m;
 			output = output + `${pre}<ScrollContainer id="${`${$.prefix}-table-${counter++}`}">${table}</ScrollContainer>`;
 			text = post;
@@ -419,16 +426,16 @@ const postprocess = (tables) => {
 		output = "";
 		//<td>
 		//Add "ion-activatable" class to <td>
-		while(m = text.match(/^(.*?)<td>(.*?<\/td>)(.*)$/)) {
-			const [x, pre, td, post] = m;
-			output = output + `${pre}<td className="ion-activatable">${td}`;
+		while(m = text.match(/^(.*?)<td( align="[^"]+")?>(.*?<[/]td>)(.*)$/)) {
+			const [x, pre, align, td, post] = m;
+			output = output + `${pre}<td${align || ""} className="ion-activatable">${td}`;
 			text = post;
 		}
 		text = output + text;
 		output = "";
 		//<br> and <hr>
 		//Reformat <br> and <hr> into JSX <br/> and <hr/>
-		while(m = text.match(/^(.*?)(<[bh]r[^>]*)(?<!\/)>(.*)$/)) {
+		while(m = text.match(/^(.*?)(<[bh]r[^>]*)(?<![/])>(.*)$/)) {
 			const [x, pre, br, post] = m;
 			output = output + `${pre}${br}/>`;
 			text = post;

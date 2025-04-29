@@ -226,5 +226,23 @@
 			"",
 			"Rogues and {class/ninja/s} gain this ability at 1st level. {class/Slayer/s} gain it at 3rd level, starting at 1d6 damage and increasing by 1d6 every two slayer levels."
 		]
-	}
+	},
+	"channel_energy": {
+		"name": "Channel Energy",
+		"sources": [
+			"PRPG Core Rulebook",
+			"Advanced Player's Guide"
+		],
+		"description": [
+			"At 1st level, regardless of alignment, any {class/cleric} can release a wave of energy by channeling the power of her faith through her holy (or unholy) symbol. This energy can be used to cause or heal damage, depending on the type of energy channeled and the creatures targeted.",
+			"",
+			"A good cleric (or one who worships a good deity) channels positive energy and can choose to deal damage to undead creatures or to heal living creatures. An evil cleric (or one who worships an evil deity) channels negative energy and can choose to deal damage to living creatures or to heal undead creatures. A neutral cleric who worships a neutral deity (or one who is not devoted to a particular deity) must choose whether she channels positive or negative energy. Once this choice is made, it cannot be reversed. This decision also determines whether the cleric casts spontaneous {main/cure or inflict |spell/s>_groupings}.",
+			"",
+			"Channeling energy causes a burst that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the cleric. The amount of damage dealt or healed is equal to 1d6 points of damage plus 1d6 points of damage for every two cleric levels beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from channeled energy receive a Will save to halve the damage. The DC of this save is equal to 10 + 1/2 the cleric's level + the cleric's Charisma modifier. Creatures healed by channeled energy cannot exceed their maximum hit point total - all excess healing is lost. A cleric may channel energy a number of times per day equal to 3 + her Charisma modifier. This is a standard action that does not provoke an attack of opportunity. A cleric can choose whether or not to include herself in this effect. A cleric must be able to present her holy symbol to use this ability.",
+			"",
+			"{class/Warpriest/s}, {class/paladin/s}, and {class/antipaladin/s} gain this ability at 4th level. Warpriests channel positive or negative energy depending on whether they chose \"cure\" or \"inflict\" spells at 1st level. Paladins can only channel positive energy, while antipaladins can only channel negative energy. Using this ability costs two uses of the fervor (warpriest), lay on hands (paladin), or touch of corruption (antipaladin) ability."
+		]
+	},
+	"channel_positive_energy": { "copyof": "channel_energy" },
+	"channel_negative_energy": { "copyof": "channel_energy" }
 }

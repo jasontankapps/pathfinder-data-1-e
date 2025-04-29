@@ -343,7 +343,7 @@
 		"category": "2",
 		"addenda": [ "2pts" ],
 		"description": [
-			"An eidolon becomes less easily affected by the channel energy ability of clerics or paladins. The eidolon gains a +2 bonus on any saves that are made to resist the effects of channel energy, including effects that rely on the use of channel energy (such as the {feat/Command Undead} feat). At 7th level, this bonus can be increased to +4 by spending 2 additional evolution points. The eidolon must possess the {evolution/undead appearance} evolution to take this evolution."
+			"An eidolon becomes less easily affected by the {ability/channel energy} ability of clerics or paladins. The eidolon gains a +2 bonus on any saves that are made to resist the effects of channel energy, including effects that rely on the use of channel energy (such as the {feat/Command Undead} feat). At 7th level, this bonus can be increased to +4 by spending 2 additional evolution points. The eidolon must possess the {evolution/undead appearance} evolution to take this evolution."
 		]
 	},
 	"constrict": {
@@ -561,7 +561,7 @@
 		"category": "2",
 		"addenda": [ "2pts" ],
 		"description": [
-			"An eidolon appears as an undead creature, and mimics some of an undead creature's abilities and weaknesses. Negative energy heals the eidolon, and positive energy (including a cleric's channel energy ability) harms it. Spells and effects that target undead or have specific effects against undead (such as {spell/Command Undead}, {spell/halt undead}, and {spell/searing light}) affect the eidolon as if it were undead. The eidolon gains a +2 bonus on saves against disease, exhaustion, fatigue, paralysis, poison, sleep effects, and stunning.",
+			"An eidolon appears as an undead creature, and mimics some of an undead creature's abilities and weaknesses. Negative energy heals the eidolon, and positive energy (including a cleric's {ability/channel energy} ability) harms it. Spells and effects that target undead or have specific effects against undead (such as {spell/Command Undead}, {spell/halt undead}, and {spell/searing light}) affect the eidolon as if it were undead. The eidolon gains a +2 bonus on saves against disease, exhaustion, fatigue, paralysis, poison, sleep effects, and stunning.",
 			"",
 			"At 7th level, this bonus on saves can be increased to +4 by spending 2 additional evolution points. At 12th level, this protection can be increased to immunity against these attacks by spending 2 additional evolution points (the summoner must pay for the 7th-level upgrade before paying for this 12th-level upgrade).",
 			"",
