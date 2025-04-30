@@ -29,10 +29,11 @@
 				{
 					"limit": "-",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+?)@@@(?!@)(.+)",
-						"replacement": "@@@::h3[[[TITLE]]]{jl}@@@@@@$1[[^S]]@@@$2@@@>Bookmarkable page: {eidolon/[[TITLE]]}"
-					}
+					"modifyDescription": {
+						"regex": "(.+?)((?:\\[\\[N\\]\\])+)(.+)",
+						"replacement": "$1[[^S]]$2$3"
+					},
+					"template": "[[N]]::h3[[[TITLE]]]{jl}[[N]][[N]][[DESC]][[N]][[N]]>*Bookmarkable page: {eidolon/[[TITLE]]}*"
 				}
 			]
 		},
@@ -58,10 +59,11 @@
 				{
 					"limit": "Studied Strike Talents",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{investigatortalent/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{investigatortalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -73,10 +75,11 @@
 				{
 					"limit": "Other Studied Strike Talents",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{investigatortalent/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{investigatortalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -88,10 +91,11 @@
 				{
 					"limit": "Inspiration Talents",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{investigatortalent/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{investigatortalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -103,10 +107,11 @@
 				{
 					"limit": "Alchemist and Poison Talents",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{investigatortalent/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{investigatortalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -116,10 +121,11 @@
 				{
 					"limit": "Other Talents",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{investigatortalent/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{investigatortalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},
@@ -142,10 +148,11 @@
 				{
 					"limit": "-",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{kipower/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{kipower/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},
@@ -272,10 +279,11 @@
 				{
 					"limit": "majorhex",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{hex/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{hex/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},
@@ -299,10 +307,11 @@
 				{
 					"limit": "MajorAmp",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{phrenicamp/[[TITLE]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{phrenicamp/[[TITLE]]:}** [[DESC]] [[^S]]"
 				}
 			]
 		},
@@ -326,10 +335,11 @@
 				{
 					"limit": "masterfultrick",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{trick/[[TITLE]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{trick/[[TITLE]]:}** [[DESC]] [[^S]]"
 				}
 			]
 		},
@@ -355,10 +365,11 @@
 				{
 					"limit": "Master Sneak Attack Trick",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -370,10 +381,11 @@
 				{
 					"limit": "Master Improved Tricks",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -385,10 +397,11 @@
 				{
 					"limit": "Master Ki Tricks",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -398,10 +411,11 @@
 				{
 					"limit": "Master Other Tricks",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},
@@ -426,10 +440,11 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{mercy/[[TITLE]]:}** $1 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "**{mercy/[[TITLE]]:}** [[DESC]][[^S]]"
 				},
 				[
 					"",
@@ -439,10 +454,11 @@
 				{
 					"limit": "6",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{mercy/[[TITLE]]:}** $1 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "**{mercy/[[TITLE]]:}** [[DESC]][[^S]]"
 				},
 				[
 					"",
@@ -452,10 +468,11 @@
 				{
 					"limit": "9",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{mercy/[[TITLE]]:}** $1 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "**{mercy/[[TITLE]]:}** [[DESC]][[^S]]"
 				},
 				[
 					"",
@@ -465,10 +482,11 @@
 				{
 					"limit": "12",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{mercy/[[TITLE]]:}** $1 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "**{mercy/[[TITLE]]:}** [[DESC]][[^S]]"
 				}
 			]
 		},
@@ -621,10 +639,11 @@
 				{
 					"limit": "Primary Sneak Attack Tricks",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -636,10 +655,11 @@
 				{
 					"limit": "Other Sneak Attack Tricks",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -651,10 +671,11 @@
 				{
 					"limit": "Ki Tricks",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -664,10 +685,11 @@
 				{
 					"limit": "Other Tricks",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{ninjatrick/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				}
 			]
 		},
@@ -691,10 +713,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{swashdeed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				},
 				[
 					"",
@@ -704,10 +723,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{swashdeed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				},
 				[
 					"",
@@ -717,10 +733,7 @@
 				{
 					"limit": "7",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{swashdeed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				},
 				[
 					"",
@@ -730,10 +743,7 @@
 				{
 					"limit": "11",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{swashdeed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				},
 				[
 					"",
@@ -743,10 +753,7 @@
 				{
 					"limit": "15",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{swashdeed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				},
 				[
 					"",
@@ -756,10 +763,7 @@
 				{
 					"limit": "19",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{swashdeed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				}
 			]
 		},
@@ -817,10 +821,11 @@
 				{
 					"limit": "trick",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{trick/[[TITLE]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{trick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},

@@ -648,10 +648,7 @@
 				{
 					"limit": "-",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{stylestrike/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{stylestrike/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]][[^S]]"
 				},
 				[
 					"",
@@ -762,10 +759,11 @@
 				{
 					"limit": "Avenger Talents",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{vigilantetalent/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{vigilantetalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -777,10 +775,11 @@
 				{
 					"limit": "Stalker Talents",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{vigilantetalent/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{vigilantetalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -792,10 +791,11 @@
 				{
 					"limit": "Hidden Strike Talents",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{vigilantetalent/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{vigilantetalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -807,10 +807,11 @@
 				{
 					"limit": "Other Talents",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{vigilantetalent/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{vigilantetalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},

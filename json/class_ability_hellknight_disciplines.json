@@ -8,7 +8,7 @@
 	},
 	"brand": {
 		"name": "Brand",
-		"nameSuffix": "(Sp; Order of the Pyre)",
+		"nameSuffix": "(Sp; {hkorder/Order of the Pyre})",
 		"compilationSources": [ [ "Inner Sea World Guide", 278 ] ],
 		"category": "-",
 		"description": [
@@ -26,7 +26,7 @@
 	},
 	"censor": {
 		"name": "Censor",
-		"nameSuffix": "(Su; Order of the Rack)",
+		"nameSuffix": "(Su; {hkorder/Order of the Rack})",
 		"compilationSources": [ [ "Inner Sea World Guide", 278 ] ],
 		"category": "-",
 		"description": [
@@ -71,7 +71,7 @@
 	},
 	"invoke_glyph": {
 		"name": "Invoke Glyph",
-		"nameSuffix": "(Sp and Ex; Order of the Glyph)",
+		"nameSuffix": "(Sp and Ex; {hkorder/Order of the Glyph})",
 		"compilationSources": [ [ "Pathfinder #107: Scourge of the Godclaw", 47 ] ],
 		"category": "-",
 		"description": [
@@ -89,7 +89,7 @@
 	},
 	"onslaught": {
 		"name": "Onslaught",
-		"nameSuffix": "(Su; Order of the Nail)",
+		"nameSuffix": "(Su; {hkorder/Order of the Nail})",
 		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
 		"category": "-",
 		"description": [
@@ -98,7 +98,7 @@
 	},
 	"pentamic_faith": {
 		"name": "Pentamic Faith",
-		"nameSuffix": "(Ex; Order of the Godclaw only)",
+		"nameSuffix": "(Ex; {hkorder/Order of the Godclaw} only)",
 		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
 		"category": "-",
 		"description": [
@@ -116,7 +116,7 @@
 	},
 	"shackle": {
 		"name": "Shackle",
-		"nameSuffix": "(Su; Order of the Chain)",
+		"nameSuffix": "(Su; {hkorder/Order of the Chain})",
 		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
 		"category": "-",
 		"description": [
@@ -134,7 +134,7 @@
 	},
 	"summon_devil": {
 		"name": "Summon Devil",
-		"nameSuffix": "(Sp; Order of the Gate)",
+		"nameSuffix": "(Sp; {hkorder/Order of the Gate})",
 		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
 		"category": "-",
 		"description": [
@@ -179,7 +179,7 @@
 	},
 	"vigilance": {
 		"name": "Vigilance",
-		"nameSuffix": "(Su; Order of the Scourge)",
+		"nameSuffix": "(Su; {hkorder/Order of the Scourge})",
 		"compilationSources": [ [ "Inner Sea World Guide", 279 ] ],
 		"category": "-",
 		"description": [

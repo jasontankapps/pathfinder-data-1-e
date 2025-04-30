@@ -703,10 +703,11 @@
 				{
 					"limit": "Drawback",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": ":::item@@@@@@## {trait/[[TITLE]]}@@@@@@$1  @@@[[SOURCE]]@@@@@@:::"
-					}
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
+						"replacement": "$1[[SOURCE]]  [[N]]$2"
+					},
+					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
 				}
 			]
 		}
@@ -721,10 +722,11 @@
 				{
 					"limit": "Equipment",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": ":::item@@@@@@## {trait/[[TITLE]]}@@@@@@$1  @@@[[SOURCE]]@@@@@@:::"
-					}
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
+						"replacement": "$1[[SOURCE]]  [[N]]$2"
+					},
+					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
 				}
 			]
 		}
@@ -739,10 +741,11 @@
 				{
 					"limit": "Family",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": ":::item@@@@@@## {trait/[[TITLE]]}@@@@@@$1  @@@[[SOURCE]]@@@@@@:::"
-					}
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
+						"replacement": "$1[[SOURCE]]  [[N]]$2"
+					},
+					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
 				}
 			]
 		}
@@ -757,10 +760,11 @@
 				{
 					"limit": "Mount",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": ":::item@@@@@@## {trait/[[TITLE]]}@@@@@@$1  @@@[[SOURCE]]@@@@@@:::"
-					}
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
+						"replacement": "$1[[SOURCE]]  [[N]]$2"
+					},
+					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
 				}
 			]
 		}
@@ -775,10 +779,11 @@
 				{
 					"limit": "Cosmic",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": ":::item@@@@@@## {trait/[[TITLE]]}@@@@@@$1  @@@[[SOURCE]]@@@@@@:::"
-					}
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
+						"replacement": "$1[[SOURCE]]  [[N]]$2"
+					},
+					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
 				}
 			]
 		}

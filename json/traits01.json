@@ -16,7 +16,6 @@
 			"",
 			"You learned to fight while serving as a bodyguard in the taverns of Absalom, where keeping the patrons alive through bloody bar brawls was just part of your job. When you make an attack that deals nonlethal damage with an unarmed strike, you gain a +1 bonus on your damage roll."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -28,7 +27,6 @@
 			"",
 			"You gain the one-time ability to immediately cast {spell/atonement} upon yourself as a spell-like ability upon performing an act or being subjected to an effect that spell affects. This ability can only be used while you are acting in the service of your liege (an individual of higher social standing chosen when you take this feat)."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -40,7 +38,6 @@
 			"",
 			"You know how to drink a potion efficiently, such as by not using your hands, tossing it in the air and catching it in your mouth, or opening it with your teeth. You may drink a potion as a move action instead of a standard as long as you start your turn with the potion in your hand."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -52,7 +49,6 @@
 			"",
 			"You learned defensive moves from Aldori trainers. You gain an additional +1 dodge bonus to Armor Class while you fight defensively or use the total defense action."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -64,7 +60,6 @@
 			"",
 			"You've learned that taking an enemy by surprise can end a combat before it begins. You gain a +1 trait bonus on initiative checks and a +1 trait bonus on weapon damage rolls during any surprise round in which you act."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -80,7 +75,6 @@
 			"",
 			"You have studied the workings of anatomy, either as a student at university or as an apprentice mortician or necromancer. You know where to aim your blows to strike vital organs. You gain a +1 trait bonus on all rolls made to confirm critical hits."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -92,7 +86,6 @@
 			"",
 			"You make an impression during a standoff. As long as you have a firearm drawn, you gain a +2 trait bonus on saving throws against fear and the DCs of Intimidate checks to demoralize you increase by 2."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -108,7 +101,6 @@
 			"",
 			"You have worn armor as long as you can remember, either as part of your training to become a knight's squire or simply because you were seeking to emulate a hero. Your childhood armor wasn't the real thing as far as protection, but it did encumber you as much as real armor would have, and you've grown used to moving in such suits with relative grace. When you wear armor of any sort, reduce that suit's armor check penalty by 1, to a minimum check penalty of 0."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -120,7 +112,6 @@
 			"",
 			"You gain a +1 trait bonus on Ride checks, and Ride is a class skill for you. You don't take an armor check penalty on Ride checks while wearing light or medium armor."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -132,7 +123,6 @@
 			"",
 			"When wearing armor or using a shield, you gain a +1 trait bonus on saving throws against divine spells that deal damage."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -144,7 +134,6 @@
 			"",
 			"Your family has passed down training in Aroden's favored weapon, even though the god no longer answers their prayers. You are proficient with the longsword. If your class grants longsword proficiency as well, you gain a +1 trait bonus on attacks of opportunity with longswords."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -156,7 +145,6 @@
 			"",
 			"There is a fire in your heart that can't be quenched. You gain a +1 trait bonus on damage against foes who are threatened by only you."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -168,7 +156,6 @@
 			"",
 			"Anytime an opponent confirms a critical hit against you, you gain a +2 morale bonus on attack rolls and damage rolls against that foe until the end of your next turn."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -180,7 +167,6 @@
 			"",
 			"You are skilled at supporting your allies in the heat of battle. You gain a +2 trait bonus on Heal checks made to stabilize a dying creature. In addition, when you successfully use the aid another action in combat to grant an ally a bonus on her next attack roll, the bonus you grant increases by 1."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -196,7 +182,6 @@
 			"",
 			"Your time spent as a Pathfinder has taught you new truths about the origins of the your rage ability. You may use your rage ability for 3 additional rounds per day."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -208,7 +193,6 @@
 			"",
 			"You are particularly successful when using deeds. Once per day, when you perform a deed that requires an attack roll and you miss with that roll, you can reroll it. You must take the second result even if it is worse."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -220,7 +204,6 @@
 			"",
 			"You have little to fear when there's a gun in your hand. As long as you are wielding a firearm, you gain a +2 trait bonus on all saving throws against curse, fear, and emotion effects."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -232,7 +215,6 @@
 			"",
 			"Your confidence rises when you foil spellcasting. Once per day, when you interrupt the casting of a spell with a firearm attack, you may regain 1 grit point."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -244,7 +226,6 @@
 			"",
 			"You trained with the Blackjackets of Druma to make optimal use of magic weapons. Whenever you roll a natural 20 (the die shows a -20-) on a combat maneuver check with a magic weapon, you gain a +5 trait bonus on the check."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -260,7 +241,6 @@
 			"",
 			"The Society gave you access to charts detailing the weak spots of hundreds of humanoids and monsters. You gain a +1 trait bonus on damage rolls from sneak attacks."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -272,7 +252,6 @@
 			"",
 			"You are trained in the destruction of blights. You gain a +2 trait bonus to confirm critical hits against a creature that has a template affiliated with some kind of communicable condition, such as a blighted fey or a fungal creature."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -284,7 +263,6 @@
 			"",
 			"You have a vicious streak, and nothing satisfies you more than warm blood on your hands and blade. Whenever you make an attack that reduces a foe to 0 hit points or fewer or you confirm a critical hit, your attack deals 1 additional point of damage. The additional damage is a trait bonus, and is multiplied by your weapon's critical hit multiplier."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -296,7 +274,6 @@
 			"",
 			"You are always ready for bloodshed. You gain a +1 trait bonus on initiative and Intimidate checks."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -308,7 +285,6 @@
 			"",
 			"Your birth sign aligned significantly with Bretheda on the day you were born, granting you a knack for cooperation in the heat of battle. You gain a +2 trait bonus on attack rolls to perform the aid another action."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -320,7 +296,6 @@
 			"",
 			"Your birth sign aligned significantly with Liavara on the day you were born, and you are touched by the instinctual dreaming spirit of that planet, making you naturally poised and hard to surprise. Once per day as a free action, you can take 10 on your initiative check."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -332,7 +307,6 @@
 			"",
 			"Your birth was marked by the alignment of Aucturn with your birth sign and by strange happenings, giving you a link to alien beings. When feinting against aberrations, you do not take a -4 penalty for feinting against a non-humanoid creature, and you take only a -4 penalty if you feint against an aberration of animal Intelligence (instead of -8). You still cannot feint against mindless creatures."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -344,7 +318,6 @@
 			"",
 			"You automatically stabilize when reduced below 0 hit points. Once per day when brought below 0 hit points, you can accept 1 point of damage to regain consciousness for 1 round, though you remain staggered and only able to take a single move or standard action."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -360,7 +333,6 @@
 			"",
 			"You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes-you must have a level in monk, the {feat/Improved Unarmed Strike} feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -372,7 +344,6 @@
 			"",
 			"You have a strong sense of self-preservation, believing it is more important to safely extract yourself from a fight that has turned hopeless than to stubbornly stand your ground and risk death - for when you're dead, you can't protect the innocent. When using the withdraw action, both the first and second squares of your movement are not considered threatened by any opponents you can see, rather than just the first square."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -384,7 +355,6 @@
 			"",
 			"You have experience with the ancient clockwork constructs that roam certain wastelands, and this has granted you an understanding of these guardians. You gain a +2 trait bonus on damage rolls against creatures with the clockwork subtype."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -397,7 +367,6 @@
 			"",
 			"Your determination allows you to hold onto a shred of your rational mind at all times. Select one of the following skills: Bluff, Escape Artist, Handle Animal, or Stealth. You may use this skill normally while raging."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -409,7 +378,6 @@
 			"",
 			"You are adept at tricking {ability/favored enemies} of your race or those related to your race. You gain a +1 trait bonus on all Bluff checks against favored enemies that share one of your subtypes. You also gain a +1 trait bonus on attack rolls made against such favored enemies during the surprise round."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -425,7 +393,6 @@
 			"",
 			"Your childhood was brutal, but you persevered through force of will and faith. No matter how hard things got, you knew you'd make it through as long as you kept a level head. You gain a +2 trait bonus on saving throws against fear effects."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -437,7 +404,6 @@
 			"",
 			"A combination of armor and agility protects you from deadly attacks. When wearing light armor and fighting defensively or using {feat/Combat Expertise}, you receive a +2 trait bonus to your AC against attack rolls to confirm a critical threat."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -451,7 +417,6 @@
 			"",
 			"Suggested Characters: Absalom natives, Chelaxians, Lion Blades."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -463,7 +428,6 @@
 			"",
 			"When a companion is down, you fight harder. You gain a +1 trait bonus on attack rolls and on checks made to overcome spell resistance while you are adjacent to a dying or disabled ally, animal companion, eidolon, familiar, or mount."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -479,7 +443,6 @@
 			"",
 			"Your time spent studying the greatest warriors of the Society taught you new defensive skills while wearing armor. You gain a +1 trait bonus to Armor Class when wearing medium or heavy armor."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -495,7 +458,6 @@
 			"",
 			"Growing up in a rough neighborhood or a dangerous environment has honed your senses. You gain a +1 trait bonus on Reflex saves."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -508,7 +470,6 @@
 			"",
 			"By studying a demonic opponent, you can sense and target its weak spots. You can attempt a Knowledge (planes) check to find a demon's weak spot. (DC 10 + the demon's CR). If you succeed, you gain a +3 trait bonus on rolls to confirm critical hits against that demon until the end of the battle. This effect only works on demons."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -520,7 +481,6 @@
 			"",
 			"You grew up around those who fight the demons streaming out of the Worldwound, and from their stories you learned about the demons' weaknesses. You are likely from Mendev or have joined that nation's cause as a crusader. Once per day when fighting demons, you gain a +4 trait bonus on a single attack roll."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -532,7 +492,6 @@
 			"",
 			"Learning how devils think helps you resist their trickery. You gain a +1 trait bonus to your AC against attacks made by lawful outsiders."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -548,7 +507,6 @@
 			"",
 			"You wouldn't have lived to make it out of childhood without the aid of a sibling, friend, or companion you could always count on to distract your enemies long enough for you to do a little bit more damage than normal. That companion may be another PC or an NPC (who may even be recently departed from your side). When you hit a foe you are flanking, you deal 1 additional point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -560,7 +518,6 @@
 			"",
 			"You learned early that there's no point in fighting fair when you're fighting for your life. Others may look down their noses at your tactics, but you know you wouldn't have survived this long without breaking a few conventions of fair play. You can take the {feat/Improved Dirty Trick} feat without meeting its prerequisites, and you gain a +1 trait bonus on combat maneuver checks to attempt a dirty trick."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -574,7 +531,6 @@
 			"",
 			"Suggested Characters: Galtans, [Hellknights](rule/aff_lawknights), Nidalese."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -586,7 +542,6 @@
 			"",
 			"When deprived of magic, you fight harder. You gain a +1 trait bonus on weapon attack and damage rolls while within an area of antimagic such as that created by an {spell/antimagic field}. You also gain this bonus for 1 round after you are subject to an area or targeted {spell/dispel magic} spell, regardless of the effect's success or failure in dispelling your spells and magical effects."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -598,7 +553,6 @@
 			"",
 			"Your body never lets down its defenses, even when you rest. The DC for Perception checks you attempt while asleep increases only by 7 (instead of the normal +10 increase). While you are dazed, stunned, or helpless, each critical hit or sneak attack scored against you has a 25% chance of being negated; when a critical hit or sneak attack is negated, roll its damage normally. This doesn't stack with the fortification armor special ability and similar effects."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -610,7 +564,6 @@
 			"",
 			"Xa Hoi's elite warriors are trained to deflect energy attacks. Choose an energy type (acid, cold, electricity, fire, or sonic) when you acquire this trait. When you are wearing medium or heavy armor, you gain a +2 trait bonus on Reflex saves against spells and effects of the chosen energy type."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -622,7 +575,6 @@
 			"",
 			"You are trained in using your cloak to disguise your body and deceive your enemies. While wearing a cloak and using an Aldori dueling sword, you gain a +2 trait bonus on Bluff checks made to feint. Additionally, every time you successfully feint while wearing a cloak, you gain a +1 dodge bonus to your Armor Class until your next turn."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -634,7 +586,6 @@
 			"",
 			"You are skilled at subduing your enemies. Whenever you attack one of your {ability/favored enemies} with a weapon that deals lethal damage and choose to deal nonlethal damage, you take only a -2 penalty on the attack roll instead of the normal -4."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -646,7 +597,6 @@
 			"",
 			"You spent your childhood in a region of Golarion where the use of elemental magic is commonplace or the environment is heavily infused with elemental energies, such as the volcano Asuulek's Mouth or the hurricane-lashed Sodden Lands. Your time near raw elemental energies has inured you to taking damage from them. At character creation, select acid, cold, electricity, or fire (once chosen, this damage type can't be changed). Once per day as a free action, when you hit a creature with a melee weapon, you can convert an amount of damage dealt by your attack equal to your character level into the selected energy type. You cannot convert this damage if any damage from the attack would normally deal a different type of energy damage (such as that of a flaming weapon)."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -658,7 +608,6 @@
 			"",
 			"Larger enemies have a hard time striking you. You gain a +1 dodge bonus to AC against enemies that are both your {ability/favored enemy} and at least two size categories larger than you."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -671,7 +620,6 @@
 			"",
 			"You demand that everything must happen right now, no matter what, and are too impatient to wait for everyone else to catch up. You finish people's sentences, blurt out the punch lines to slowly-told jokes, rarely make plans, and leap headlong into anything that looks like it might get interesting. While this has sometimes gotten you in trouble, it's also trained you to start moving a split second before everyone else, and that's saved your hide a few times as well. You gain a +2 trait bonus on all Initiative checks."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -683,7 +631,6 @@
 			"",
 			"You've failed the trials to gain entry to one of the [Houses of Perfection](rule/aff_monasteries). Though you are disappointed, you were able to pick up one trick from the monks. Choose a single combat maneuver. Once per day, you can perform that combat maneuver without provoking an attack of opportunity, and you gain a +2 bonus on that attempt."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -695,7 +642,6 @@
 			"",
 			"Divine powers smile upon you each time you grievously wound a favored enemy. When you confirm a critical hit against a {ability/favored enemy}, you may extend the duration of any divine spell affecting you by 1 round. The benefits from multiple critical hits stack. Divine spells with an instantaneous duration can't be extended in this manner."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -711,7 +657,6 @@
 			"",
 			"You trained with blades for long hours as a youth, either taking lessons in the genteel art of fencing from tutors paid for by your parents or being taken under the wing of a disenfranchised fencer who may have turned to a life of crime. You gain a +1 trait bonus on attack of opportunity attack rolls made with daggers, swords, and similar bladed weapons."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -725,7 +670,6 @@
 			"",
 			"Suggested Characters: Alkenstar natives, Katapeshi, Thuvians."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -737,7 +681,6 @@
 			"",
 			"You crossed the law (or those in charge thought you did), and you are now a wanted criminal. As such, you have grown used to looking over your shoulder wherever you go. While in settlements, you gain a +3 trait bonus on Perception checks to determine awareness for the purpose of a surprise round."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -749,7 +692,6 @@
 			"",
 			"You gain a +2 trait bonus on Stealth checks and Initiative checks in forests."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -761,7 +703,6 @@
 			"",
 			"Your strong will to live and spread good combined with your pure physicality makes you a tough opponent to take down. You may have discovered this as a child after a tragic accident or during the course of your first battle. When you are attempting a Constitution check to stabilize when dying, the penalty on the check is only half your negative hit point total instead of your full negative hit point total."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -773,7 +714,6 @@
 			"",
 			"Your family has strong ties to a [Hellknight](rule/aff_lawknights) order, and you harness this belief as a weapon. Once per day as a swift action, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -785,7 +725,6 @@
 			"",
 			"You have laboriously studied the training rites of various [Hellknight](rule/aff_lawknights) orders with the intent of joining one yourself. You gain a +2 trait bonus on damage rolls against outsiders summoned through conjuration (calling) and conjuration (summoning) spells and effects."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -797,7 +736,6 @@
 			"",
 			"You always know the best way to assist your companions, be it assisting them with a task, defending them in battle, or helping them place a well-aimed strike. When using the aid another action, you grant your ally a +3 bonus instead of a +2 bonus."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -809,7 +747,6 @@
 			"",
 			"Your concealed weapons strike fast and true. You gain a +1 trait bonus on Sleight of Hand checks made to conceal light weapons and a +1 trait bonus on attack rolls when making an attack with a light weapon during a surprise round."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -822,7 +759,6 @@
 			"",
 			"You are used to fighting in [hilly environments](rule/hills_terrain). You may run or charge downhill on a steep slope (moving up to your base speed) without making an Acrobatics check to avoid stumbling - but if you travel farther than this distance, the normal rules for steep slopes apply."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -836,7 +772,6 @@
 			"",
 			"Suggested Characters: Half-orcs, River Kingdoms natives, Varisians."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -852,7 +787,6 @@
 			"",
 			"You have studied dozens of ancient texts on martial arts that only the Society possesses, and are more learned in these arts than most. You increase your ki pool by 1 point."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -864,7 +798,6 @@
 			"",
 			"When you watch and wait before attacking, your strike is true. You gain a +1 trait bonus on attack rolls against your {ability/favored enemies} when you make such attacks as part of a readied action."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -876,7 +809,6 @@
 			"",
 			"You draw strength from adhering to the Ichimeiyo honor code in combat. Once per day, if an effect would compel you to harm an ally, abandon an ally, or break your word, you can attempt a Will save at the usual DC to end the effect. If the effect normally allows a Will save at this point, you can roll twice and take the better result."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -888,7 +820,6 @@
 			"",
 			"You're never defenseless, even when you are caught off guard. Whenever you wield an improvised weapon, you gain a +1 shield bonus to AC. If you use the improvised weapon to attack, you lose this shield bonus until the beginning of your next turn."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -900,7 +831,6 @@
 			"",
 			"When you are gravely wounded, you're stirred to greater combat focus. Each time a critical hit is confirmed against you, you gain a +1 trait bonus on attack rolls for 1 round."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -914,7 +844,6 @@
 			"",
 			"Suggested Characters: [Eagle Knights](rule/aff_vangard), Iomedaeans, Mendevian crusaders."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -926,7 +855,6 @@
 			"",
 			"Your charge inspires nearby companions to new heights of daring. Once per day when you make a charge attack, you gain a +1 trait bonus on both your attack and damage rolls, as do any allies who make a charge attack before the beginning of your next turn."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -938,7 +866,6 @@
 			"",
 			"You can treat an armored coat as light armor. This choice must be made when you don the armor, and can't be changed until you remove and redon the armor. You must still be proficient in wearing medium armor to avoid adding the armor's check penalty on all attack rolls and skill checks that involve moving."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -951,7 +878,6 @@
 			"",
 			"You are sure-footed in jungle environments, and your speed may not be reduced to less than 10 feet by difficult terrain in jungles (meaning you may take a 5-foot step in difficult terrain and not provoke an attack of opportunity)."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -963,7 +889,6 @@
 			"",
 			"Broken firearms are not problems: they are challenges. Your first attempt to remove the broken condition from your starting firearm and to upgrade it to a masterwork weapon costs 150 gp instead of 300 gp. In addition, when wielding a firearm that has the broken condition or is treated as if it had the broken condition, you take a -1 penalty on attack rolls made with it instead of the normal -2."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -979,7 +904,6 @@
 			"",
 			"You made your first kill at a very young age and found the task of war or murder to your liking. You either take particular pride in a well-placed blow, or find vile pleasure in twisting the blade to maximize your target's pain. You deal an amount of additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon; this additional damage is added to the final total, and is not multiplied by the critical hit multiple itself. This extra damage is a trait bonus."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -991,7 +915,6 @@
 			"",
 			"You are dedicated to defending members of your family. When you use the aid another action to give a member of your family a bonus to AC, increase the bonus by 2. This increase is a trait bonus (and therefore doesn't stack with increases granted by other family members using this trait). This trait has no effect when using the aid another action to increase a family member's next attack roll."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1003,7 +926,6 @@
 			"",
 			"You wield firearms with truly terrifying menace. When you use the Intimidate skill on a creature while wielding a firearm, you are considered one size category larger than your actual size."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1015,7 +937,6 @@
 			"",
 			"Your military service in Lastwall taught you how to identify undead creatures, changing them in your mind from mysterious terrors to concrete foes you know how to deal with. You gain a +1 trait bonus on attack and damage rolls against undead creatures that you have personally identified using the Knowledge (religion) skill."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1027,7 +948,6 @@
 			"",
 			"Your training has made you a martial performer. When you gain a monk bonus feat, you may instead take a performance feat for which you meet the prerequisites."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1039,7 +959,6 @@
 			"",
 			"You learned from worshipers of Sarenrae to cut foes with a scimitar without killing them. You can deal nonlethal damage with a scimitar without taking a penalty on your attack rolls."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1051,7 +970,6 @@
 			"",
 			"Your exposure to teaching from the [Houses of Perfection](rule/aff_monasteries) makes your attacks with monk weapons even more deadly. Select one monk weapon with which you are proficient (unarmed attacks do not qualify for this purpose). You gain a +1 trait bonus on damage rolls with this weapon."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1063,7 +981,6 @@
 			"",
 			"You have made it your mission to bring down a fearsome beast. Choose two of the following: aberrations, animals, dragons, fey, magical beasts, oozes, and vermin. You can move at full speed without penalty while using Survival to follow tracks left by your chosen creature types."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1075,7 +992,6 @@
 			"",
 			"You've escaped with your life after a terrible monster attack. You gain a +4 dodge bonus to AC against attacks of opportunity made against you by Large or larger opponents when you're making a withdraw action."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1087,7 +1003,6 @@
 			"",
 			"Your intense training with the Swords has taught you how to infiltrate otherwise inaccessible ruins and extract their treasures without too much exertion. You gain a +2 trait bonus on Strength checks made to break doors and lift portcullises, and you treat your Strength score as 2 higher for the purpose of determining your carrying capacity."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1099,7 +1014,6 @@
 			"",
 			"All your life, the sky has beckoned to you, and you have dreamed of reveling in the freedom and bliss of flight. You gain a +1 trait bonus on Fly checks, as well as Acrobatics checks attempted while flying. Fly is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1111,7 +1025,6 @@
 			"",
 			"Your knowledge of nature informs your fighting style, and that style gives you insight into related aspects of the natural world. You gain a +1 trait bonus on all Knowledge (nature) checks, and Knowledge (nature) is always a class skill for you. You can make Knowledge (nature) checks pertaining to animals that correspond to your style feats untrained."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1123,7 +1036,6 @@
 			"",
 			"Even when the chips are down, you keep on shooting. If your hit point total drops to 0 or lower but you are not dead, you may act as if disabled rather than dying (as if you possessed the {feat/Diehard} feat). However, you can use your actions only to draw a firearm, reload a firearm, or attack with a firearm. If you have the Diehard feat, this trait also allows you to substitute your Wisdom score for your Constitution score for the purpose of determining the negative hit point total at which you die."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1135,7 +1047,6 @@
 			"",
 			"Struggle as they might, ne'er-do-wells and vagrants are hard pressed to evade the law once in your clutches. You gain a +1 trait bonus on combat maneuver checks to lawfully and nonlethally restrain a creature you've witnessed commit a crime."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1147,7 +1058,6 @@
 			"",
 			"You've spent years aboard ships traveling the lucrative Obari Crossing, transporting Garundi and Vudrani goods. You gain +1 bonus on Profession (sailor) checks, and Profession (sailor) is a class skill for you. You also gain a +1 trait bonus on weapon damage rolls against creatures with the aquatic subtype."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1159,7 +1069,6 @@
 			"",
 			"You have practiced defensive maneuvers to avoid being caught by ogres, whose grasps you know are tight and unforgiving. You gain a +2 trait bonus to CMD against bull rush and grapple combat maneuvers."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1171,7 +1080,6 @@
 			"",
 			"Tales of the Knights of Ozem have inspired you since childhood to lash out reflexively against the undead. You gain a +1 trait bonus on attack rolls and damage rolls when making attacks of opportunity against undead. While you wield a shield, your shield bonus to AC improves by 1 against attacks of opportunity made by undead."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1183,7 +1091,6 @@
 			"",
 			"You are practiced at the surprising combat tricks of Varisian wanderers. Against foes denied their Dexterity bonus to AC, you gain a +1 trait bonus on damage rolls with improvised weapons, exotic weapons, and thrown weapons."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1195,7 +1102,6 @@
 			"",
 			"You carry the physical and emotional scars of your [Gray Maiden](rule/aff_scarred_ladies) initiation as mental armor. You receive a +2 trait bonus on saving throws against emotion and pain spells and effects."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1209,7 +1115,6 @@
 			"",
 			"Suggested Characters: Halflings, River Kingdoms natives, Shackles natives."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1221,7 +1126,6 @@
 			"",
 			"Your superiors have identified you as an [Eagle Knights](rule/aff_vangard) candidate, and their praise encourages you to strive to meet their expectations. Each day after getting a full night's sleep, you gain a +1 trait bonus to your AC when wearing armor or carrying a shield. This bonus lasts until you are first hit by an attack within the next 24 hours."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1233,7 +1137,6 @@
 			"",
 			"You relish reminding people who's in charge. Against members of the same organization or hierarchy who formally answer to you, you gain a +1 trait bonus on attack and damage rolls. You also gain this bonus against members who have openly defied the authority or rules of that body, provided the infraction is serious enough that their standing is now less than yours."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1249,7 +1152,6 @@
 			"",
 			"You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on initiative checks."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1261,7 +1163,6 @@
 			"",
 			"You have a tendency for rash behavior, often disregarding your own safety as you move across the battlefield. You gain a +1 bonus on Acrobatics checks, and Acrobatics is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1273,7 +1174,6 @@
 			"",
 			"You do not fear the threat of lesser weapons. Whenever you provoke an attack of opportunity by firing a firearm, you gain a +1 trait bonus on the attack roll that provoked the attack of opportunity."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1285,7 +1185,6 @@
 			"",
 			"You witnessed the training of [Red Mantis](rule/aff_assassins) assassins, either as a child on Mediogalti Island or as an aspirant, and learned to leave bleeding wounds. Whenever you confirm a critical hit with a slashing weapon, you also deal 1 point of bleed damage."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1301,7 +1200,6 @@
 			"",
 			"Growing up in a poor neighborhood or in the unforgiving wilds often forced you to subsist on food and water from doubtful sources. You've built up your constitution as a result, and gain a +1 trait bonus on Fortitude saves."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1313,7 +1211,6 @@
 			"",
 			"Some disagree with your choice to wield a firearm, and their scorn has only hardened your resolve in battle. You gain a +1 trait bonus on all saving throws against charm and compulsion effects. Also, once per day when you succeed at a saving throw against such an effect, you regain 1 grit point."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1327,7 +1224,6 @@
 			"",
 			"Your mount keenly understands your commands. If you gain a horse as an animal companion or mount as one of your class abilities, it gains two bonus tricks that don't count against the normal limit of tricks known by the animal."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1340,7 +1236,6 @@
 			"",
 			"You are used to fighting while swimming. You may swim downstream or cross-current as a charge if you make your Swim DC by 5 or more."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1352,7 +1247,6 @@
 			"",
 			"You learned from pirates to make the most of ranged attacks as you close with targets. Increase the range increment of ranged weapons (but not thrown weapons) you wield by 5 feet."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1364,7 +1258,6 @@
 			"",
 			"You have been trained to hunt and fight on the open plains since birth. You gain a +1 trait bonus on attacks of opportunity attack rolls made with a shortspear, as well as a +1 racial bonus on Constitution checks to continue running and avoid nonlethal damage from a forced march"
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1376,7 +1269,6 @@
 			"",
 			"You were attacked by Vercite space pirates in your youth, inspiring you to find ways to deal with the alien interlopers should they return. You gain a +1 trait bonus on attack rolls against humanoids from beyond Golarion, including androids, kasathas, Triaxians, and Vercites, among others."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1388,7 +1280,6 @@
 			"",
 			"Your own people are your favored enemy. You gain a +1 trait bonus on rolls to confirm critical hits against favored enemies of your own subtype and on Survival checks made to track such creatures."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1402,7 +1293,6 @@
 			"",
 			"You have experience fighting in darkness. Your miss chance while fighting in areas of dim light is only 10%."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1414,7 +1304,6 @@
 			"",
 			"Aroden taught the people of Absalom to survive any siege with proper preparation and cooperation, and those teachings were passed on to you. You gain a +1 trait bonus on melee damage rolls when you attack a target from higher ground."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1427,7 +1316,6 @@
 			"",
 			"You have escaped from so many dangerous situations in your life that you've gotten quite good at not getting caught. You gain a +1 trait bonus on Stealth checks and Stealth is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1441,7 +1329,6 @@
 			"",
 			"Suggested Characters: Chelaxians, gnomes, Korvosans."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1453,7 +1340,6 @@
 			"",
 			"You are skilled at slipping away from crowds. Once per day, you can attempt a Bluff check to create a diversion to hide with a +2 trait bonus on the check, and if successful, you take only a -5 penalty on your Stealth check to get to an unobserved place while observers are distracted (instead of the normal -10 penalty)."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1465,7 +1351,6 @@
 			"",
 			"You have seen the rules of society endlessly twisted in their implementation, and as such, you are especially wary of those who exploit the law to impose their own will. You gain a +1 trait bonus on attacks against lawful-aligned humanoids and a +2 trait bonus on saving throws against effects with the lawful descriptor."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1477,7 +1362,6 @@
 			"",
 			"You catch others off-guard when a confrontation escalates. As long as you are standing in or adjacent to water, or holding at least a pint of liquid (including insoluble liquids like oil or alchemist's fire), you can perform a dirty trick combat maneuver to blind a foe within reach without provoking an attack of opportunity. If you select the {feat/Improved Dirty Trick} feat, you gain a +2 trait bonus on dirty trick combat maneuvers to blind foes as long as you are standing in or adjacent to water or holding a pint of liquid."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1490,7 +1374,6 @@
 			"",
 			"You were taught from a young age that the world is full of big, fast, dangerous foes, and that sometimes the best course of action is to put your head down and run. Your parents taught you how to make the most of a solid mid-length sprint and how to squeeze just a little extra speed out of yourself. If you do nothing but move in a turn (that is, if you run or use both of your actions in a round to move your speed) and you are in no armor or light armor, you may move an extra 5 feet."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1502,7 +1385,6 @@
 			"",
 			"Through either perfect timing or the determination of your action, the sound of your firearm going off sets your enemies on edge. When you shoot a firearm, you gain a +2 trait bonus on Intimidate checks for 1 round against those who heard the shot."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1514,7 +1396,6 @@
 			"",
 			"You gain the ability to don or remove heavy armor in half the normal time. Additionally, you begin play with a great helm bearing the iconography of your family (this helm grants no special defensive benefits). While wearing this helm with a suit of heavy armor, you gain a +2 trait bonus on Intimidate checks."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1529,7 +1410,6 @@
 			"",
 			"You have been trained in the javelin and the spear, and you know how to make the best use of your momentum. When you move at least 10 feet before making an attack with a thrown weapon, you can add 10 feet to the range increment of the weapon thrown. You can gain this benefit only once per round."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1541,7 +1421,6 @@
 			"",
 			"You understand that gravity is far from constant when traversing the Great Beyond. You gain a +2 trait bonus on Wisdom checks to move on a plane with subjective directional gravity, and you gain a +10-foot enhancement bonus to your speed when \"falling\" on such a plane."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1553,7 +1432,6 @@
 			"",
 			"You are skilled at fighting with objects not traditionally considered weapons. You gain a +2 trait bonus on attack rolls with improvised weapons."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1567,7 +1445,6 @@
 			"",
 			"Suggested Characters: Dwarves, Isgeri, Mendevian crusaders."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1579,7 +1456,6 @@
 			"",
 			"You know how to take advantage of enemies who are unprepared for your assault. You gain a +1 trait bonus on initiative checks. In addition, once per day when you make an attack of opportunity, you gain a +2 trait bonus on the attack roll."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1591,7 +1467,6 @@
 			"",
 			"You know the ancient fighting techniques of the Tar Taargadth Empire. You gain a +1 trait bonus on damage rolls when using any weapon with the word \"dwarven\" in its name."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1603,7 +1478,6 @@
 			"",
 			"You evaded Technic League patrols with the Blood Gar pirates. When you move at least 10 feet, you gain a +1 trait bonus on attack rolls with firearms and technological weapons and a +1 dodge bonus to your AC against such weapons until the start of your next turn."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1615,7 +1489,6 @@
 			"",
 			"You know how to avoid a blow while still maintaining your offensive posture. When you use {feat/Combat Expertise}, reduce the number you subtract from your melee attack rolls by 1."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1627,7 +1500,6 @@
 			"",
 			"You learned from Shoanti champions to take advantage of the dramatic swings required by heavy weapons like the earth breaker. You gain a +2 trait bonus on Intimidate checks while wielding a two-handed melee weapon."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1639,7 +1511,6 @@
 			"",
 			"Choose one type of medium or heavy armor (such as chainmail or half-plate). If you have no allies within 60 feet when you are wearing that type of armor, you gain DR 1/-. This stacks with any one other source of damage resistance you have."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1655,7 +1526,6 @@
 			"",
 			"Thanks to your time as a Pathfinder, you've mastered the art of tracking. You gain a +1 trait bonus on initiative checks and a +2 trait bonus on Survival checks made while traveling through any of your favored terrains. This is in addition to any bonuses you receive from your {ability/favored terrain} class ability."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1667,7 +1537,6 @@
 			"",
 			"Your skill with firearms speeds your repair of such weapons. You gain a +1 trait bonus on Craft (alchemy) and Craft (weapons) checks, and it takes you only 30 minutes to remove the broken condition from a firearm."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1679,7 +1548,6 @@
 			"",
 			"You've trained yourself to move in and out of undergrowth with ease. The DCs of Acrobatics checks don't increase for you when you're moving through light undergrowth, and the DCs of Acrobatics checks you attempt while you're moving through heavy undergrowth increase only by 2."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1691,7 +1559,6 @@
 			"",
 			"Your reactions to combat beginning aren't what people expect. You gain a +1 trait bonus on attack rolls made during the surprise round of combat."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1703,7 +1570,6 @@
 			"",
 			"You gain a +2 bonus on Strength checks to break objects, and when damaging an object with a weapon, natural weapon, or unarmed attack, you ignore 2 points of its hardness."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1717,7 +1583,6 @@
 			"",
 			"Suggested Characters: Calistrians, Galtan refugees, Gyronna worshipers."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1729,7 +1594,6 @@
 			"",
 			"You have spent considerable time in arid wastelands where girtablilus and other venomous creatures are common, and you have built up a resistance to poison. You gain a +2 trait bonus on Fortitude saving throws against poison, and once per day when attempting a saving throw to resist girtablilu poison, you can roll twice and take the higher result."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1741,7 +1605,6 @@
 			"",
 			"You are hard to fool and harder to trick with a feint. You gain a +1 trait bonus on all Sense Motive checks. This trait bonus increases to +2 when used to counter a feint in combat."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1753,7 +1616,6 @@
 			"",
 			"Firearms you wield are especially dangerous to you and everyone nearby. Whenever a firearm you wield misfires or explodes, roll a d%. On a result of 1-25, the misfire or explosion is delayed; reroll the attack with a -5 penalty (penalties from the broken condition are not applied to this reroll, and a firearm that was already broken does not explode). After the reroll is resolved, apply the effects of the misfire or explosion as normal. (If the d% roll result is 26 or higher, the misfire or explosion happens as normal.) Whenever a firearm you wield explodes due to a misfire, increase the explosion's damage by 1d6 plus 1d6 for every 4 character levels you have."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1765,7 +1627,6 @@
 			"",
 			"You know that you could be exposed at any time. Even your closest friends could someday become enemies, and so you have trained yourself to never be surprised by a betrayal. At the beginning of combat, before initiative checks are revealed, you can select one opponent you are aware of to be the subject of this trait. If you succeed at a Wisdom check opposed by the subject's initiative check, you are not considered flat-footed against this subject for this combat, even if you normally would be. You can use this trait in a surprise round, even if you cannot otherwise act that round."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1777,7 +1638,6 @@
 			"",
 			"Even though you are a trained combatant, proficient with any number of weapons, you don't relish killing your enemies. It's not that you're afraid of seeing blood, but rather that disabling a foe is superior to killing someone capable of admitting defeat. When using a melee weapon that deals lethal damage to instead deal nonlethal damage, you take only a -2 penalty instead of -4."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1790,7 +1650,6 @@
 			"",
 			"You are quick with your tongue and have always possessed the talent to quickly admonish your enemies. You gain a +1 trait bonus on Bluff checks and Bluff is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1802,7 +1661,6 @@
 			"",
 			"You were trained from a young age to ambush the enemies of your order or organization, which makes you hard to trust for most outside your organization if they learn your affiliation. You gain a +1 trait bonus on attack rolls against flat-footed foes, as long as they have not seen you make an attack with this bonus before."
 		],
-		"sourceEnd": true,
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
 	},
@@ -1814,7 +1672,6 @@
 			"",
 			"You cling tenaciously to a faith that is doubted by many, perhaps based around a god who has vanished, or was never a god in the first place. You refuse to forsake your beliefs despite all evidence, perhaps due to a need to belong, respect for tradition, or a religious experience. As a result, it is nearly impossible to convince you of your deity's absence. You gain a +2 trait bonus on Will saving throws against fear effects."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -1826,7 +1683,6 @@
 			"",
 			"Like a climber ascending a mountain, you gradually grow acclimatized to an opposing planar alignment. For each consecutive day you remain on a mildly aligned plane that opposes your alignment, reduce your penalty on Charisma-based checks by 1, to a minimum of 0. This does not affect the penalty from a strongly aligned plane."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -1870,7 +1726,6 @@
 			"",
 			""
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -1882,7 +1737,6 @@
 			"",
 			"During your studies of The Majestic Book of the Prime Ascended, you learned some minor magical tricks. Select a single 0-level spell from the {main/spells<sorcerer|//wizard/ spell list}. You can cast this spell 1 time per day as a spell-like ability."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -1894,7 +1748,6 @@
 			"",
 			"Study of the \"Prime Archmage\" chapter has broadened your magical knowledge. Choose either Knowledge (arcana) or Spellcraft; you gain a +1 trait bonus on that skill and it is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -1922,7 +1775,6 @@
 			"",
 			""
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -1936,7 +1788,6 @@
 			"",
 			"Suggested Characters: Abadarans, [Hellknights](rule/aff_lawknights), Hermeans."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -1948,7 +1799,6 @@
 			"",
 			"You wield the might of your faith with power and clarity. Once per day as a free action, you may treat your caster level as if it were 2 levels higher when using one of the granted powers of your domain or inquisition, or when casting one of your domain spells."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -1964,7 +1814,6 @@
 			"",
 			"You were born with a strange birthmark that looks very similar to the holy symbol of the god you chose to worship later in life. This birthmark can serve you as a divine focus for casting spells, and as a physical manifestation of your faith, and it increases your devotion to your god. You gain a +2 trait bonus on all saving throws against charm and compulsion effects."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -1976,7 +1825,6 @@
 			"",
 			"Some divine agent watches over you and heeds your call. Once per day as a swift action, you gain a +1 trait bonus on all saving throws for 1 round."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -1988,7 +1836,6 @@
 			"",
 			"You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others. You heal 1 additional point of damage when using lay on hands, channeling energy, or casting a cure spell."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2000,7 +1847,6 @@
 			"",
 			"You were introduced to an individualistic belief as a youth. Thriving under the promise of control of your own destiny, you soon began to demonstrate the truth of this ideal. Though others may mock you for your unwillingness to go along with a group or accept the easy security and comfort promised by more ecclesiastical faiths, you know that the revelations and destiny you seek can only be brought about through your own actions and individual search for meaning. Once per day, after you roll a saving throw against a compulsion effect, you can choose to roll again as an immediate action before the result of the saving throw is announced. You must keep the new roll, even if it is worse."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2012,7 +1858,6 @@
 			"",
 			"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose {rule/Honor Points}, you may make a new saving throw against the original DC to end the effect."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2026,7 +1871,6 @@
 			"",
 			"Suggested Characters: Oracles, paladins, Ulfen."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2038,7 +1882,6 @@
 			"",
 			"You find the pursuit of earning money to be a religious experience. Appraise is a class skill for you. So long as you are carrying coins worth an amount equal to at least 100 gp per character level you have, you gain a +1 trait bonus on Will saves. This bonus increases to +2 against effects that would force you to discard, drop, or give away coins, gems, or trade goods in your possession."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2054,7 +1897,6 @@
 			"",
 			"As the child of an herbalist or an assistant in a temple infirmary, you often had to assist in tending to the sick and wounded. You gain a +1 trait bonus on Heal checks, and Heal is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2070,7 +1912,6 @@
 			"",
 			"You have long served at a temple in a city, where you picked up on many of the nobility's customs in addition to spending much time in the temple libraries studying your faith. You gain a +1 trait bonus on Knowledge (nobility) and Knowledge (religion) checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2082,7 +1923,6 @@
 			"",
 			"At your birth, your parents dedicated your soul to Iomedae to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will. You may cast {spell/light} once per day as a spell-like ability (caster level 1st), and you begin play with a masterwork longsword. In addition, whenever light is cast upon this sword, the radius of light and its duration is doubled."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2094,7 +1934,6 @@
 			"",
 			"Your mentor in the Wagons of Light taught you to hide holy symbols quickly. You can draw or stow a holy symbol as a swift action."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2106,7 +1945,6 @@
 			"",
 			"You were raised to uphold a specific set of tenets, and you never had reason to doubt their veracity. Recent events, however, have undermined that certainty, and you now find yourself wondering if any of the universal truths you once believed in can actually hold up to scrutiny. Perhaps you witnessed a mentor or church official fall from grace or violate your shared tenets. Maybe you watched a friend injured terribly despite (or because of) her pure faith. Whatever the case, your shaken confidence grants you a +1 trait bonus on saving throws against illusions. You may replace any other faith trait with the Crisis of Faith trait whenever you gain a level. This replacement is permanent until you receive atonement."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2118,7 +1956,6 @@
 			"",
 			"From studying \"Prime Commander\" and reading accounts of the battles in the Worldwound, you have trained to be a crusader against demonic forces. You gain a +1 trait bonus on attack rolls against outsiders with the chaotic subtype."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2130,7 +1967,6 @@
 			"",
 			"Your devotion sustains you when others would fall to despair. You gain a +2 trait bonus on saving throws against spells with the emotion, fear, or pain descriptor. Once per day, you can increase this bonus to +4 for a single save, but you must make this decision before you attempt the saving throw."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2142,7 +1978,6 @@
 			"",
 			"Your deity was born of the depths, and you're a child of such realms. Whenever you cast a spell granted by the earth domain (or associated subdomains) while in the Darklands, that spell functions at 1 caster level higher than your actual caster level."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2155,7 +1990,6 @@
 			"",
 			"Your direct involvement with supernatural and alien forces has left you less vulnerable to the insanity they cause. You gain a +1 trait bonus on any saving throws against confusion, insanity, madness, and Wisdom damage and drain."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2169,7 +2003,6 @@
 			"",
 			"Suggested Characters: Battle clerics, Iomedaeans, Kellids."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2185,7 +2018,6 @@
 			"",
 			"Your faith in the natural world or one of the gods of nature makes it easy for you to pick up on related concepts. You gain a +1 trait bonus on Knowledge (geography) and Knowledge (nature) checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2197,7 +2029,6 @@
 			"",
 			"As a child, you had a strange vision while suffering from a terrible illness, and only found your way back to the mundane world by following the call of a spiritual leader-perhaps a shaman's drum or a druid's lilting poetry. Since then, you have studied symbolism and dreams in the hope that you might understand your own vision, though your lessons prove just as helpful to others. You gain a +1 trait bonus on Will saving throws against spells and effects that grant the confused or dazed condition. Once per day as a full-round action, you may grant an adjacent ally a new Will saving throw to end an effect that grants the confused or dazed condition."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2209,7 +2040,6 @@
 			"",
 			"You are resistant to the magic of other faiths. You gain a +2 trait bonus on all Will saves you attempt against divine spells. This bonus does not apply against divine spells cast by a caster who worships the same deity you do."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2221,7 +2051,6 @@
 			"",
 			"You were inspired with the reverence offered by worshipers to priests and other spiritual leaders, so you assisted them. You gain a +3 trait bonus on Sense Motive checks to get hunches about those who discuss matters of faith, mythology, morality, religion, or the Outer Planes with you. Sense Motive is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2233,7 +2062,6 @@
 			"",
 			"You can't bring yourself to accept the authority of the gods, even though friends might hound you relentlessly to change your ways. Perhaps you're a Rahadoumi objecting on ideological grounds, or perhaps you just want to be left alone. Your doubt causes you to shrug off divine magic more quickly than others. Once per day when you are affected by a divine spell, you may reduce that spell's duration to half (minimum 1 round) for you alone."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2245,7 +2073,6 @@
 			"",
 			"Drawing inspiration from the Cult of the Failed, you refuse to let setbacks stop you, no matter how disastrous. Once per day when you roll a natural 1 on an attack roll, saving throw, skill check, or ability check, you gain a +1 trait bonus on any one roll you attempt before the end of the next round."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2258,7 +2085,6 @@
 			"",
 			"Your druid spells use a handful of earth or sand as a divine focus in addition to the normal components. While you are touching the ground, you add a +2 trait bonus to saving throw DCs and on caster level checks to overcome spell resistance for all spells you cast against creatures with the air subtype."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2274,7 +2100,6 @@
 			"",
 			"Your mentor, the person who invested your faith in you from an early age, took steps to ensure you understood that what powers your divine magic is no different from that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views. You gain a +1 bonus on Diplomacy checks, and Diplomacy is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2287,7 +2112,6 @@
 			"",
 			"You are learned in the secret lore of the forge, rituals handed down for generations that some say come from Torag himself. Whenever you use the Craft skill or a crafting feat to make a stone or metal item, you reduce the cost of making the item by 5%. This includes metal-headed weapons with nonmetal parts, such as axes and spears."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2299,7 +2123,6 @@
 			"",
 			"Your faith in the empyreal lords accommodates numerous gods, and you are gifted at adapting their wide variety of focuses and lessons to your own life. Select either the law or chaos alignment descriptor. You may cast spells with that descriptor, even if your alignment or that of your god would normally not allow it. Doing so applies the good descriptor to the spell if it does not already apply."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2315,7 +2138,6 @@
 			"",
 			"The vaults of the Grand Lodge in Absalom contain many secrets of the divine powers of the gods, and you have studied your deity extensively. You may channel energy one additional time per day."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2328,7 +2150,6 @@
 			"",
 			"Your experience with magic items clues you in to their properties more quickly than others. You can identify the properties of a magic item using {spell/detect magic} in 1 round."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2341,7 +2162,6 @@
 			"",
 			"A shared religious fervor makes your healing magic more effective. Whenever you cast a spell belonging to the healing subschool on someone of your religion, increase the hit points healed by +1."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2353,7 +2173,6 @@
 			"",
 			"The fates watch over you. Whenever you are under the effect of a luck bonus of any kind, that bonus increases by 1."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2365,7 +2184,6 @@
 			"",
 			"Upon overcoming your fear, you become a scourge to your enemies. You gain a +1 trait bonus on all saving throws against fear effects. In addition, if you successfully save against such an effect, you receive a +1 trait bonus on attack rolls against your {ability/favored enemies} for 1 round."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2378,7 +2196,6 @@
 			"",
 			"For your whole life, you've felt there was a world just beyond the fabric of the material objects around you, and sometimes you can hear the north wind calling you or smell the dread taint of polluted water before you taste it. You do not gain the normal list of spell-like abilities for the gnome magic racial trait presented in the Pathfinder RPG Core Rulebook. Instead, if you have a Wisdom of 11 of higher, you gain the following spell-like abilities: 1/day-detect poison, know direction, stabilize, and speak with animals. The caster level for these effects is equal to your character level. The DC for these spells is equal to 10 + the spell's level + your Wisdom modifier."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2390,7 +2207,6 @@
 			"",
 			"When weaker wills falter, you keep a clear mind. You gain a +2 trait bonus on saving throws against charm and compulsion effects."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2402,7 +2218,6 @@
 			"",
 			"You worship the amalgamation of lawful deities known as the Godclaw. You gain a +2 trait bonus on Knowledge (religion) checks related to lawful deities, their clergy, their mythology, and their tenets. Additionally, Knowledge (religion) is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2418,7 +2233,6 @@
 			"",
 			"Months of meditation and practice with the greatest spellcasters of the Society have given you an increased capacity for arcane knowledge. You gain one additional 0-level spell slot."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2434,7 +2248,6 @@
 			"",
 			"Through countless hours studying vast libraries of arcane power, you have learned how to cause greater damage to your foes. Whenever you cast a spell that deals damage, you gain a +1 trait bonus to the total damage dealt. This damage is considered force damage regardless of the type of damage dealt by the spell."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2446,7 +2259,6 @@
 			"",
 			"Your years of meditation and mindfulness allow you to act correctly on a moment's notice. Once per day, you can add your Wisdom modifier to an initiative check."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2458,7 +2270,6 @@
 			"",
 			"If you are an inquisitor, you can select any inquisition associated with your preferred [Hellknight](rule/aff_lawknights) order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2470,7 +2281,6 @@
 			"",
 			"You were raised in a faith that did not center on a traditional god or that followed a heretical interpretation of a traditional deity. You learned to deflect attention, especially from ecclesiastical figures. You gain a +1 trait bonus on Bluff checks. This bonus increases to +3 on Bluff checks opposed by religious authorities' Sense Motive checks."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2482,7 +2292,6 @@
 			"",
 			"You were raised in a religion forbidden by your government, and draw strength from your hidden faith. You gain a +1 trait bonus on saving throws against the divine spells of creatures that worship a god other than your own."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2498,7 +2307,6 @@
 			"",
 			"You were raised with heretical views that have made it difficult for you to accept most religious beliefs and often caused you or those you love to be treated as pariahs. As a result, you have turned your back on religious teachings. As long as you do not possess any levels in a class that grants divine spellcasting power, you gain a +1 trait bonus on all saving throws against divine spells."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2512,7 +2320,6 @@
 			"",
 			"Suggested Characters: Diabolists, paladins, Sarenrae worshipers."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2524,7 +2331,6 @@
 			"",
 			"Your belief in reincarnation, as taught by the Sangpotshi philosophy and in lands that were once Imperial Lung Wa, has been reinforced by personal experience. In moments of great stress, you sometimes experience flashes of deja vu in which you recall information you don't remember ever having known. Once per day while you are in danger or distracted, you gain a +3 bonus on a single Knowledge skill check."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2540,7 +2346,6 @@
 			"",
 			"You were born in a region where your faith was not popular, but you still have never abandoned it. Your constant struggle to maintain your own faith has bolstered your drive. You gain a +1 trait bonus on Will saves."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2554,7 +2359,6 @@
 			"",
 			"Your experience with illusions allows you to discern them easily. When you first encounter an illusion, you can attempt a Will saving throw with a -2 penalty to disbelieve it, even if you don't suspect the illusion. The GM rolls this saving throw in secret."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2566,7 +2370,6 @@
 			"",
 			"A positive force, philosophy, or divine presence fills you with hope, and is a guiding force of inspiration. Once per day as a free action, roll twice and take the better result on a skill check or ability check."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2580,7 +2383,6 @@
 			"",
 			"Suggested Characters: Gnomes, Keleshites, Shelyn worshipers."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2592,7 +2394,6 @@
 			"",
 			"You are suspicious of those who lead spiritual lives and are quick to seek out the smallest hypocrisy in even the most pious individuals. Of course, you are also keenly aware of the power the faithful can draw from their worship, and you are stubbornly resistant to it. You gain a +2 trait bonus on saving throws against divine spells that target only you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2606,7 +2407,6 @@
 			"",
 			"Your presence dampens curses and other ill effects. You gain a +1 trait bonus on saves against curses, including the hex class ability of shamans and witches. Once per day, you can grant this bonus to all allies within 30 feet for 1 round as an immediate action."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2618,7 +2418,6 @@
 			"",
 			"You were raised under the [Prophecies of Kalistrade](rule/f_profits), and were inspired to seize upon an untapped business opportunity. Up to once per week, when you work to advance this opportunity with at least 1 day of effort, you can attempt an appropriate Profession check to earn money or gain capital using the downtime rules with a +2 trait bonus. In the event of a failed check, your opportunity is discovered by rivals and you cannot employ this trait for 1 month while you look for a new opportunity."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2630,7 +2429,6 @@
 			"",
 			"You're destined to bring light to the darkness and expunge the faithless from the deep. Whenever you cast a spell granted by the {domain/sun} domain (or associated subdomains) while in the Darklands, the spell functions at 1 caster level higher than your actual caster level."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2642,7 +2440,6 @@
 			"",
 			"You and your eidolon share a link that seems to span multiple lifetimes. Your eidolon treats its Constitution score as if it were 2 points higher for the purposes of determining when its negative hit point total sends it back to its home plane. In addition, your eidolon gains a +1 trait bonus on Will saves against enchantment spells and effects."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2655,7 +2452,6 @@
 			"",
 			"Your dreams are a special place of power that only you get to enjoy; driving away threats to your subconscious is as easy as slamming a door. You receive a +1 trait bonus on Knowledge (planes) checks and a +2 trait bonus on Will saves against effects on your dreaming mind or subconscious, such as a night hag's dream haunting ability, the nightmare spell, and illusions of the phantasm subschool."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2667,7 +2463,6 @@
 			"",
 			"You either carry or have memorized a sacred text from your school, temple, or monastery, and its wisdom gives you insight that makes your attacks more devastating. You gain a +2 trait bonus on rolls to confirm critical hits when you're using an unarmed strike or monk weapon."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2679,7 +2474,6 @@
 			"",
 			"You learned from \"Prime Conspirator\" that keeping secrets often means hiding your true identity. Once per day, when attempting a Disguise check, roll twice and take the better result."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2691,7 +2485,6 @@
 			"",
 			"When you rest, you ignore the first time you are interrupted during that rest for the purposes of determining how long you need to rest in full to regain the capacity to regain spells, provided the interruption lasts no more than 15 minutes. If you cast spells during this interruption, you don't count these against your daily limit of spells when you wake and prepare spells."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2703,7 +2496,6 @@
 			"",
 			"Either your parents sent you to be raised in a monastery, or you traveled there yourself later in life in order to escape the conflict and distractions of the greater world. There you learned to eschew the material concerns that plague so many and cloud their minds, instead embracing an ascetic lifestyle. You readily let go and step away from trouble, free from any tie or baggage that might slow your path to enlightenment-figuratively or literally. Once per day as a swift action, you gain a +1 trait bonus to Armor Class as long as you are wearing no armor, not using a shield, carrying a light load, and have nothing in your hands. This bonus lasts for 1 minute."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2717,7 +2509,6 @@
 			"",
 			"Suggested Characters: Mystery cultists, Nethys worshipers, Norgorber worshipers."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2729,7 +2520,6 @@
 			"",
 			"You venerate nature, either by paying homage to your Shoanti totem spirit or by appeasing the kami around you in accordance with Tamashigo. In return, the spirits bless your path. Once per week, you can build a small shrine of natural materials and pay your respects in a ritual that takes 15 minutes. Spellcasters can do this as part of their daily spell preparation. You gain a +2 trait bonus on Knowledge (nature) and Survival checks for 24 hours."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2742,7 +2532,6 @@
 			"",
 			"For unknown reasons, you have deeper reserves of magical energy than those around you. Perhaps you are descended from a family of powerful arcane casters, or maybe you believe this trait marks you as destined for magical greatness. Wherever the truth lies, you gain an additional use of one of your gnome magic spell-like abilities each day. This does not always have to be the same spell-like ability - one day you might use {spell/dancing lights} twice, only to use the additional casting for {spell/speak with animals} the next day."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2754,7 +2543,6 @@
 			"",
 			"When you were young, you saw a dead creature's body fertilize a field. Witnessing the connection between life and death moved you to recognize your own connection with the world, and ever since you have revered nature and feared death less. You gain a +1 trait bonus on saving throws against death effects and effects that use negative energy, such as energy drain and {main/inflict |spell/s>_groupings}."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2767,7 +2555,6 @@
 			"",
 			"Your exposure to the necromantic arts has strengthened your defenses against its vile rot. You gain a +1 trait bonus on saving throws against spells from the necromancy school or any effect that deals negative energy damage."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2779,7 +2566,6 @@
 			"",
 			"You have made a solemn oath, and you pursue that oath with headstrong determination. Once per day, you may reroll a saving throw against a charm or compulsion effect. You must take the second result even if it is worse."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2791,7 +2577,6 @@
 			"",
 			"You are the harbinger of some future event. Whether this event bodes good or ill, you exude an ominous presence. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you. Once per day, you may attempt to demoralize an opponent as a swift action."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2803,7 +2588,6 @@
 			"",
 			"The faith of Holomog focuses on finding the good in unusual places and appreciating the nuances of virtue in the world. You may treat Asmodeus as if he were a lawful neutral deity for the purposes of determining your own alignment as a cleric, inquisitor, or other divine spellcaster. You may not select the evil domain unless your own alignment also contains an evil aspect."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2817,7 +2601,6 @@
 			"",
 			"Suggested Characters: Asmodeans, Drumans, Irorans."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2829,7 +2612,6 @@
 			"",
 			"You are bolstered against fear when your eidolon is near. You gain a +2 trait bonus on all saving throws against fear effects whenever your eidolon is within 30 feet."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2841,7 +2623,6 @@
 			"",
 			"You were converted to your faith or taught to bargain with spirits for magic by a figure of inspiring insight who taught you to use keen observation in all dealings. You can use your Wisdom modifier in place of your Charisma modifier on Diplomacy checks to ask favors or gain influence. During a verbal duel, you can use your Wisdom modifier in place of your Charisma modifier when using tactics you assigned to Diplomacy or Wisdom-based skills."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2853,7 +2634,6 @@
 			"",
 			"You have always had an innate sense of the workings of the planes and their denizens. You may use your Charisma modifier when making Knowledge (planes) checks instead of your Intelligence modifier."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2865,7 +2645,6 @@
 			"",
 			"You were guided to maturity by a trusted priest of an ecclesiastical tradition, who inspired you and made you understand that the authority exerted by a religious hierarchy is a blessing rather than a restriction, allowing the faithful to always feel confident in their direction and the righteousness of the guided actions. Now, your faith wells up whenever you are aided by divine magic, and you find it easy to open up to the magic and succor of any faith, seeing the similarities between all such traditions. Three times per day when you are the target of a harmless divine spell, you may increase its caster level by 1 for purposes of its effect on you alone."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2877,7 +2656,6 @@
 			"",
 			"You hold yourself to a strict code of behavior that guides all of your decisions and actions. You take a -2 penalty on Bluff checks and gain a +2 trait bonus on saving throws against charm, compulsion, and emotion effects."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2889,7 +2667,6 @@
 			"",
 			"Your coming was foretold in prophecy, and people familiar with your legend regard you with awe and fear. You gain a +1 trait bonus on Diplomacy checks and Intimidate checks when interacting with anyone familiar with you or your reputation."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2901,7 +2678,6 @@
 			"",
 			"As a pantheist, you are accustomed to calling on aid from a variety of sources, and have a pragmatic sense for how to best make use of any ally. You gain a +2 trait bonus on Diplomacy checks made to request a favor from a creature that has not performed a favor for you in the past week. This bonus increases to +4 if you have performed a favor for that creature since it last did a favor for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2913,7 +2689,6 @@
 			"",
 			"Once per day, you can attempt to suppress the effects of a curse on a single creature with a touch. This functions as a {spell/remove curse} spell, treating your character level as your caster level. If you succeed at your caster level check against the curse, the curse's effects are negated for 1 minute. This trait does not allow a person burdened with a cursed item to remove or discard it. Use of this trait is a supernatural ability."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2925,7 +2700,6 @@
 			"",
 			"You've always held the strong belief that morality is everyone's choice, and that those who act in wicked ways have simply never been shown how their actions truly affect others. If they could be shown their errors, then they would accept a more positive course of action - and you have just enough patience to see this through. When acting as a sponsor for an evil creature seeking redemption, your patience and kindness grant the creature a +3 bonus on its save rather than a +1 bonus."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2937,7 +2711,6 @@
 			"",
 			"You lived a previous life as someone - or something - else. For you, life and death are a cycle, and you have no fear of death. You gain a +2 trait bonus on saving throws against fear and death effects."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2949,7 +2722,6 @@
 			"",
 			"You have spent many years studying the tenets of your faith, and now believe that the dominant factions within the church have deviated from its true meaning and purpose. Rather than breaking with your misguided church, you've decided to stand up and fight to reform the organization you love. You have fervently studied scripture and steeled your will to combat the divergent beliefs of your peers. You gain a +2 trait bonus on Knowledge (religion) checks that pertain to your own religion or spiritual practice, and you gain a +2 trait bonus on saving throws against spells cast by others who worship your god or adhere to your philosophy."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2961,7 +2733,6 @@
 			"",
 			"Your connection with the river and its tributaries has blended with your reverence for the gods of the river passages so much so that you seem divinely blessed while plying river waters. You gain a +2 trait bonus on Swim checks in rivers or streams, and a +2 trait bonus on Survival checks to forage for food in or near a river or stream."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2977,7 +2748,6 @@
 			"",
 			"Your birth was particularly painful and difficult for your mother, who needed potent divine magic to ensure that you survived (your mother may or may not have survived). In any event, that magic infused you from an early age, and you now channel divine energy with greater ease than most. Whenever you channel energy, you gain a +1 trait bonus to the save DC of your channeled energy."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -2993,7 +2763,6 @@
 			"",
 			"You were exposed to a potent source of positive energy as a child, perhaps by being born under the right cosmic sign, or maybe because one of your parents was a gifted healer. As a standard action, you may automatically stabilize a dying creature merely by touching it."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3009,7 +2778,6 @@
 			"",
 			"Your greatest interests as a child did not lie with current events or the mundane; you have always felt out of place, as if you were born in the wrong era. You take to philosophical discussions of the Great Beyond and of historical events with ease. You gain a +1 trait bonus on Knowledge (history) and Knowledge (planes) checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3021,7 +2789,6 @@
 			"",
 			"Your additional training aids in identifying the wiles of your faith's enemies. You gain a +2 trait bonus on all Knowledge (planes) and Knowledge (religion) checks made to identify the abilities and weaknesses of creatures."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3033,7 +2800,6 @@
 			"",
 			"Stories of the depredations present in the Darklands drive you to explore its shadowy depths and purge the corruption from within. You gain a +1 trait bonus on saving throws against fear while in the Darklands and a +1 trait bonus on Intimidate checks against creatures native to the Darklands."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3046,7 +2812,6 @@
 			"",
 			"Using an ancient and painful surgical technique, you've reshaped your tongue. These surgical mutilations permit you to speak ancient words unpronounceable to most mortals, enhancing your ability to work magic associated with the Great Old Ones. Any summoning or divination spell you cast to summon or contact a Great Old One or one of their minions is cast at +1 caster level."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3058,7 +2823,6 @@
 			"",
 			"Avoiding inquisitors and agents of your enemies has required you to become a practiced liar. You gain a +3 trait bonus on Bluff checks when they are opposed by another's Sense Motive check."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3070,7 +2834,6 @@
 			"",
 			"Inspired by stories of mortals ascending to godhood, you're certain that you can do the same, and do all you can to hone your talents and reach your utmost potential. Once per day, when you take 20 on a roll or check, you can complete the action in only five times the normal amount of time for that action, rather than 20 times the normal amount."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3083,7 +2846,6 @@
 			"",
 			"As a follower of Razmir, the [Prophecies of Kalistrade](rule/f_profits), or some other tradition that preaches self-reliance, you make a point of not seeking divine aid for minor matters. When you gain this trait, choose one of the following 0-level spells: {spell/create water}, {spell/mending}, {spell/purify food and drink}, or {spell/stabilize}. You can cast this spell once per day as a spell-like ability, using your character level as your caster level. Once chosen, this selection can't change."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3096,7 +2858,6 @@
 			"",
 			"Your introspections have taught you to understand your own flaws and proclivities and how to work with them. Choose one saving throw. You gain a +1 trait bonus on saving throws of the chosen kind."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3110,7 +2871,6 @@
 			"",
 			"Suggested Characters: Gebbites, Nethys worshipers, Nexians."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3122,7 +2882,6 @@
 			"",
 			"You are so attuned to the spiritual world that it is hard to get the jump on you. You gain a +2 trait bonus on Perception checks to avoid being surprised and to detect invisible or incorporeal creatures."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3135,7 +2894,6 @@
 			"",
 			"You have learned the secrets of an ancient prayer that wards off the attacks of demons. As a standard action, you can recite a holy chant that affects demons as if you were under the effect of a sanctuary spell (caster level equal to 1/2 your Hit Dice + your Charisma modifier)."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3151,7 +2909,6 @@
 			"",
 			"The courageous powers of Golarion's ancient paladin orders are open to you thanks to the Society's records of heroic deeds. As a result, your aura of courage class ability grants an additional +1 trait bonus on saving throws against fear effects."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3163,7 +2920,6 @@
 			"",
 			"Your faith in the church of Razmir and willingness to surrender yourself to him lend you strength and clarity. Whenever you are under the effects of a compulsion effect, you gain a +1 trait bonus on attack and damage rolls."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3176,7 +2932,6 @@
 			"",
 			"You are able to tap into the living energy of the world to shatter lesser magic. You gain a +1 trait bonus on caster level checks while touching the ground or unworked stone. This includes dispel checks and checks to overcome spell resistance."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3188,7 +2943,6 @@
 			"",
 			"One can move toward enlightenment by understanding the mistakes of past generations. You gain a +1 trait bonus on Knowledge (history) checks, and Knowledge (history) is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3201,7 +2955,6 @@
 			"",
 			"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast {spell/sotto voce} as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3213,7 +2966,6 @@
 			"",
 			"You restlessly pursue your enemies. When you're in pursuit of one of your {ability/favored enemies}, the DC for the Constitution check to avoid taking lethal damage during a forced march is 10 + 1 per extra hour, instead of 10 + 2 per extra hour."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3225,7 +2977,6 @@
 			"",
 			"You grew up in a culture where the touch of totem spirits was felt in everyday life, their subtle urgings constantly guiding you and keeping you safe. As a result, you learned quickly to ask for their help when trouble arises. Once per day, you may call upon your totem's wisdom as a standard action. You gain the benefits of guidance, except that the granted competence bonus is equal to half your character level (minimum +1). This is a supernatural ability."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3240,7 +2991,6 @@
 			"",
 			"You attempt to maintain older traditions despite changing social norms, and find great value in the trappings and codes of the aristocracy. You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3253,7 +3003,6 @@
 			"",
 			"You are particularly adept with your racial spell-like abilities, and as child you quickly learned how dancing lights and ghost sound could be used to amuse your friends and fool your elders. This natural talent for illusion continued as you grew older, and before long you were being offered training in more advanced figments and glamers. You gain a +1 trait bonus to your caster level when determining the duration, range, and area of all spells from the illusion school."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3266,7 +3015,6 @@
 			"",
 			"You have bridged the gap between the natural magic of the Mwangi peoples and the refined magic of the Chelish colonists. Select one 0-level spell from a class spell list other than your own. This spell is a 0-level spell on your class spell list (or a 1st-level spell if your class doesn't have 0-level spells). For example, if you are a druid, you could select mage hand and thereafter prepare it as a 0-level druid spell; if you are a sorcerer, you could select know direction as a 0-level sorcerer spell known."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3278,7 +3026,6 @@
 			"",
 			"Following the path of freedom has resulted in you being threatened by ruffians and bullies throughout your childhood, and it now takes a lot to rattle you. You increase the DC to demoralize you with an Intimidate check by 2."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3291,7 +3038,6 @@
 			"",
 			"Your prolonged association with alien forces leaks from your pores. You can use your Intimidate skill to demoralize animals and vermin; Intimidate is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3303,7 +3049,6 @@
 			"",
 			"You have escaped slavery or other imprisonment and have vowed never to be shackled again. You gain a +1 trait bonus on Escape Artist checks, and Escape Artist is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3315,7 +3060,6 @@
 			"",
 			"While scholarship is not your primary focus, you have spent enough time in classrooms and libraries to learn a few things. Once per day, you can attempt a Knowledge (geography), Knowledge (history) or Knowledge (local) check untrained with a +2 trait bonus."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3327,7 +3071,6 @@
 			"",
 			"Growing up in a city has broadened your philosophy, and helped you interpret your patron's divine will in a novel way. You gain Knowledge (local) as a class skill. Additionally, you can select one of the following subdomains using the normal rules for subdomains so long as your deity grants access to its associated domain: {domain/Competition}, {domain/Duels}, {domain/Espionage}, {domain/Fortifications}, {domain/Industry}, {domain/Legislation}, {domain/Plague}, or {domain/Riot}."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3339,7 +3082,6 @@
 			"",
 			"Your connection with a malignant force has granted you great power. Choose a domain granted by an evil aligned deity, such as an archdevil, demon lord, or Great Old One. You gain a +1 trait bonus to your caster level when casting spells that are granted by that domain. This doesn't grant you the ability to cast such spells-you must still have access to the spells through some other means."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3351,7 +3093,6 @@
 			"",
 			"Your wanderings often go unnoticed. Efforts to use the Diplomacy skill to gather information about you take a -1 penalty, and you gain a +1 trait bonus on all saving throws against scrying and mindreading effects that allow saving throws."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3363,7 +3104,6 @@
 			"",
 			"For a time during your childhood, you were left in the care of a juju oracle or wendifa, who saw your potential and taught you simple juju magic to influence the weakminded for brief periods of time. You can use {spell/daze} as a spell-like ability once per day, using your character level as your caster level (minimum 1). The save DC of this effect is Charisma-based. The dazed individual looks ashen and deathly for the duration of the effect."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3376,7 +3116,6 @@
 			"",
 			"You aren't just faithful to the worship of your patron deity - you are obsessively loyal to all of the faith's tenets and guidelines. Your devotion is an anchor that keeps you from drifting away into the throes of the Bleaching, and you cling to it like the life raft it is. You must match the alignment of your chosen deity exactly. You gain a +1 trait bonus on Knowledge (religion) checks, and that skill is a class skill for you. As long as you remain completely faithful to the tenets of your faith (as determined by the GM), you never suffer from the Bleaching."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3388,7 +3127,6 @@
 			"",
 			"Your fiery passion for your faith or philosophy is obvious to everyone around you. Those who share your convictions automatically find themselves wanting to defer to your zealous authority, making you a natural leader of your faith. Unfortunately, your scorn for those who haven't yet seen the wisdom of converting is equally obvious, and makes you a poor ambassador or missionary to the \"ignorant masses\" (as you not-so secretly think of them). You gain a +2 bonus on Diplomacy and Intimidate checks when dealing with adherents of your faith or philosophy, but a -1 penalty on Diplomacy and Intimidate checks when dealing with anyone else."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3400,7 +3138,6 @@
 			"",
 			"Your zeal is a danger to those of \"lesser\" faiths. While you have the destruction judgment active, you gain a +1 trait bonus on damage rolls when attacking a foe who can cast divine spells and worships a different deity than you."
 		],
-		"sourceEnd": true,
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
 	},
@@ -3412,7 +3149,6 @@
 			"",
 			"Having trained from a young age, you're capable of amazing feats of daring. You gain a +1 bonus on Acrobatics checks, and you take only a -2 penalty instead of the normal -5 penalty when using the Climb skill to attempt an accelerated climb."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3428,7 +3164,6 @@
 			"",
 			"You were adopted and raised by someone not of your race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a {main/traits_<race/ trait} from your adoptive parents' race."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3440,7 +3175,6 @@
 			"",
 			"You have a genial personality and make it a point to befriend and help people wherever you go. In your travels, you stop to aid others, tell interesting stories, and often buy rounds of drinks for patrons at the local taverns. You bring good cheer to those you encounter, and for this reason, you often find yourself attending important events or fruitful gatherings, and have even become an honorary member of many families. People find you trustworthy, and they are willing to share information with you. You gain a +2 trait bonus on Diplomacy checks to gather information, and can do so in half the normal time. In addition, Diplomacy and Knowledge (local) are always class skills for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3452,7 +3186,6 @@
 			"",
 			"You've learned to deal amicably with individuals of questionable morals when necessary. You gain a +1 trait bonus on Charisma-based skill checks to influence evil creatures."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3464,7 +3197,6 @@
 			"",
 			"You exude confidence in the presence of those more powerful than you - sometimes unreasonably so. You gain a +4 trait bonus on Diplomacy checks made to influence creatures with at least 5 Hit Dice more than you possess."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3476,7 +3208,6 @@
 			"",
 			"Your easy-going demeanor allows you to sometimes recover from potentially awkward social situations or even condemnatory faux pas. Once per day when you fail a Diplomacy check by 5 or more and would cause an NPC's attitude toward you to worsen, you can immediately attempt another Diplomacy check against the same DC as a free action. If you succeed at this second Diplomacy check, the character's attitude doesn't change, as though you had failed the original check by 4 or less."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3489,7 +3220,6 @@
 			"",
 			"Your attempts to bribe others usually come off as playful or as a gag. The first time someone refuses a bribe you offer, that person's attitude toward you doesn't worsen, even if the offer would normally offend the person (as though you had failed a Diplomacy check by 5 or more)."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3501,7 +3231,6 @@
 			"",
 			"You inherited an ancient set of Tar Taargadth armor. You begin play with a set of masterwork armor of your choice. You must be proficient in wearing this armor, and the armor's total cost cannot exceed 300 gp."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3513,7 +3242,6 @@
 			"",
 			"You believe there is much useful information to glean from the mark Aroden left on history, and learn all you can about his exploits and teachings. This has given you significant insights on how different kinds of information are interconnected. If you fail a Knowledge (arcana, history, or religion) check, you can reroll the check 1 round later using your bonus for one of the other two skills."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3525,7 +3253,6 @@
 			"",
 			"You spent time working under artisans, or your parents were artisans who were particularly skilled at their trade. You gain a +2 trait bonus on a single Craft skill (your choice)."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3539,7 +3266,6 @@
 			"",
 			"**Suggested Characters:** Osirians, Pathfinders, Taldans."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3551,7 +3277,6 @@
 			"",
 			"You've come to appreciate the balanced approach taken by sovereign dragons. Once per day, before attempting a saving throw against a spell ability originating from another creature, you can invoke the determination of those dragons. You take 10 on the saving throw (treat the d20 die result as if it were a 10)."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3563,7 +3288,6 @@
 			"",
 			"You were born out of wedlock. You have always been an outsider in society, and in your own family. This perspective has sharpened your insight. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3575,7 +3299,6 @@
 			"",
 			"You share a close bond with animals. You gain a +1 bonus on Handle Animal checks and Ride checks. One of these skills (your choice) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3587,7 +3310,6 @@
 			"",
 			"Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race. You gain a +1 trait bonus on Survival checks and can use {spell/speak with animals} as a spell-like ability at will to communicate with the type of animal that raised you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3599,7 +3321,6 @@
 			"",
 			"Your lineage features a large number of genie callers, granting you insight into the intricacies of genie binding. You gain a +2 trait bonus on any Charisma-based checks when directly interacting with a genie."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3612,7 +3333,6 @@
 			"",
 			"Your time among the gnome elite of Brastlewark in Cheliax has led to an extensive knowledge of alchemy and ready connections in the business. You gain a +2 trait bonus on all Craft (alchemy) checks."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3624,7 +3344,6 @@
 			"",
 			"Your sharp intellect and rapier-like wit bruise egos. Intimidate is always a class skill for you, and you may use your Intelligence modifier when making Intimidate checks instead of your Charisma modifier."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3640,7 +3359,6 @@
 			"",
 			"You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3654,7 +3372,6 @@
 			"",
 			"You have gained favor with the government of Sothis. Once per week, you can attempt a DC 20 Diplomacy or Intimidate check to gain access to an exclusive site or event, such as a government building or an aristocrat's ball."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3667,7 +3384,6 @@
 			"",
 			"If you follow this code, you are keenly aware of the value of actions as well as goods. Once per day while haggling with a merchant or striking a bargain with another intelligent creature, you can spend a number of gold pieces equal to your level &times; 10 in order to reroll a Diplomacy check you just made, before the results are revealed. You must take the result of the reroll, even if it's worse than the original roll. In addition, you begin play with a set of extravagant noble's clothes worth 100 gp."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3679,7 +3395,6 @@
 			"",
 			"You have endured many hardships throughout your life, and this has hardened you to the suffering of others to the point that you are not easily swayed by a sad story. You gain a +4 trait bonus on Sense Motive checks that oppose the Bluff checks of creatures that attempt to deceive you by winning your sympathy."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3695,7 +3410,6 @@
 			"",
 			"You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest. Anyone who attempts to use Bluff to deliver a secret message to you gains a +5 bonus on her Bluff check. When you attempt to intercept a secret message using Sense Motive, you gain a +5 trait bonus on the attempt."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3707,7 +3421,6 @@
 			"",
 			"You know how to ask the wrong questions the right way, granting you a +2 trait bonus on Diplomacy (gather information) and Knowledge (local) checks regarding whichever vice fascinates you: drugs, forbidden lore, gambling, illegal fighting, or a similar debauchery or indecency."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3723,7 +3436,6 @@
 			"",
 			"Blessed with good looks, you've come to depend on the fact that others find you attractive. You gain a +1 trait bonus when you use Bluff or Diplomacy on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3735,7 +3447,6 @@
 			"",
 			"You feed intelligence to the Thrice-Damned House of Thrune for your own gain or ideological reasons and are given valuable clues gathered by other Chelish spies in exchange. Once per month while in an Inner Sea region settlement of at least 2,000 people, you can call upon these connections to gain an edge in a verbal duel or gain a +2 bonus on one Bluff, Diplomacy, or Intimidate check."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3751,7 +3462,6 @@
 			"",
 			"You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person. You gain a +1 trait bonus on Sleight of Hand checks, and Sleight of Hand is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3763,7 +3473,6 @@
 			"",
 			"When someone pushes you, you push back. Whenever a creature fails an Intimidate check against you, you gain a +2 trait bonus on your next Intimidate check against that creature. Intimidate becomes a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3775,7 +3484,6 @@
 			"",
 			"You are well versed in the local laws, customs, and politics. You gain a +1 trait bonus on Knowledge (nobility) checks and Knowledge (local) checks. Knowledge (local) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3787,7 +3495,6 @@
 			"",
 			"Your cunning and logic are more than a match for another's confidence and poise. Choose one Charisma-based skill. You attempt checks with that skill using your Intelligence modifier instead of your Charisma modifier."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3800,7 +3507,6 @@
 			"",
 			"You have a small, bizarre collection of apparently worthless items, such as rusty nails, animal droppings, clockwork cogs, or bent spoons. You find this strange menagerie useful in ways no non-gnome could understand. Seeking new items to add to this collection is endlessly fascinating to you, and while no one else may understand why a Chelish horsenail is worthy to add to your collection when a dwarven wheelbarrow nail is not, it all makes sense to you. Select one of the following skills: Craft (any one), Disable Device, Escape Artist, Perform (any one), or Spellcraft. Whenever you have your collection within 5 feet of you, you gain a +2 trait bonus on all checks made with the selected skill. Once this skill has been selected, it cannot be changed, nor can you gain it for any other collection you begin amassing."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3814,7 +3520,6 @@
 			"",
 			"**Suggested Characters:** Brevans, Kurgess worshipers, Sargavans."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3827,7 +3532,6 @@
 			"",
 			"If you follow this code, you gain a +1 trait bonus on Will saves against fear. In addition, any allies adjacent to you receive a +1 morale bonus on Will saves against fear."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3839,7 +3543,6 @@
 			"",
 			"Whether you are a commoner who has come to despise the haughty upper crust or a holier-than-thou noble who can't stand being around the unwashed masses, your contempt drives you to study carefully, making sure you always have the upper hand in social exchanges with them. You gain a +1 trait bonus on Knowledge (local) checks and Knowledge (nobility) checks, and one of these skills becomes a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3852,7 +3555,6 @@
 			"",
 			"You've spent your life perfecting the art of half-truths in order to accomplish what you need to. You gain a +1 trait bonus on Bluff or Intimidate checks and one of these skills (your choice) is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3864,7 +3566,6 @@
 			"",
 			"You spent your early life robbing and stealing to get by. Select one of the following skills: Disable Device, Intimidate, or Sleight of Hand. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3876,7 +3577,6 @@
 			"",
 			"Your family has long operated outside the law. You gain a +2 trait bonus on Diplomacy checks to influence criminals and on Intimidate checks to influence law-abiding citizens, but take a -2 penalty on Diplomacy checks to influence law-abiding citizens. Diplomacy or Intimidate (your choice) is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3888,7 +3588,6 @@
 			"",
 			"You have spent a lot of time dealing with the criminal underworld - so much that it might be hard for observers to see you as distinct from it. However, this familiarity gives you a leg up on heroes who refuse to muddy their reputation. While in settlements, you gain a +1 trait bonus on Knowledge (local) checks and on Diplomacy checks to gather information."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3900,7 +3599,6 @@
 			"",
 			"The Sable Company has taught you to quickly get compliance from those in your way. You gain a +2 trait bonus on Intimidate checks to force a creature to act friendly towards you, and can attempt such checks in half the normal time."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3912,7 +3610,6 @@
 			"",
 			"You have seen many heroes in your time, but you see only their capacity for failure and the ways they fall short of being truly good. This practice in looking past facades has proven a useful skill. You gain a +1 trait bonus on saving throws against illusions and charm effects."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3924,7 +3621,6 @@
 			"",
 			"Neither honeyed tongues or righteous wrath move you much. Add 2 when determining your Hit Dice for Intimidate checks, and increase the DC or all Diplomacy checks against you by 2."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3936,7 +3632,6 @@
 			"",
 			"Unsatisfied with mere stories, you have spent years researching journals and firsthand accounts of those who explored the Darklands before you. You gain a +2 trait bonus on Knowledge checks to identify the weaknesses of Darklands creatures."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3948,7 +3643,6 @@
 			"",
 			"You're familiar with Nar-Voth's trade routes and negotiation involving the denizens of the Darklands. You gain a +1 trait bonus on Diplomacy checks relating to subterranean trade and on Knowledge (dungeoneering) checks relating to subterranean creatures. Select one of these skills to be a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3962,7 +3656,6 @@
 			"",
 			"You are particularly adept at resisting addiction. You must fail two saving throws in a row to become addicted to a drug."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3974,7 +3667,6 @@
 			"",
 			"You have lived a double life since your youth, perhaps to avoid persecution for your true identity or in service to an enemy of the people or group associated with your cover identity. You can always take 10 on Bluff and Disguise checks to assume and maintain your cover identity. Bluff or Disguise (your choice) is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3986,7 +3678,6 @@
 			"",
 			"Your relationship with your eidolon gives you some clout with other outsiders. You gain a +2 trait bonus on Diplomacy checks toward outsiders, and Diplomacy is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -3998,7 +3689,6 @@
 			"",
 			"You have an uncanny ability to spot a mutiny brewing. You gain a +2 trait bonus on Sense Motive checks to detect when an underling is trying to hide something from you, and can attempt such checks instead of Perception checks to notice and react to a subordinate's surprise attack against you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4011,7 +3701,6 @@
 			"",
 			"If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease. Once per day, you can use {spell/detect law} as a spell-like ability (caster level 1st). If you have levels in a class that can cast detect law, your caster level for this spell-like ability is equal to that class level."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4023,7 +3712,6 @@
 			"",
 			"It isn't what you say - it's how you say it. You gain a +2 trait bonus on Bluff checks to pass along secret messages."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4035,7 +3723,6 @@
 			"",
 			"Whether you are aware of it or not, the moment of your birth was but one part of a far-reaching machination in a dragon's grand design, and the influence of that mysterious plan makes you a little harder to kill. When dying, you gain a +2 trait bonus on Constitution checks to become stable. In addition, you die from hit point loss only once your hit points equal or exceed a negative amount equal to your Constitution score + 2."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4047,7 +3734,6 @@
 			"",
 			"You've survived being hunted by the draconic nightmares on the Shackles islands of Dahak's Fang, Dahak's Horn, or Dahak's Tooth. You gain a +1 trait bonus on Will saves against fear effects, and against any saving throw from a spell or effect created by a dragon."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4059,7 +3745,6 @@
 			"",
 			"At some point your family served a dragon, and acted as its emissary to others. Some members of your family have benefited from this arrangement, gaining some small fraction of that dragon's noble bearing. Choose one category of true dragon (chromatic, metallic, primal, etc.). You gain a +1 trait bonus on Diplomacy checks against that category of dragon and a +1 trait bonus on Intimidate checks against all creatures of the dragon type that are not of the same category of true dragon."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4071,7 +3756,6 @@
 			"",
 			"You gain a +1 trait bonus on damage rolls against creatures with the dragon creature type, and a +2 trait bonus on Knowledge (arcana) checks to identify dragons and their special powers and vulnerabilities."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4083,7 +3767,6 @@
 			"",
 			"You learned how to bribe by watching Dusk Market merchants interact with Westcrown's dottari guards. Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4095,7 +3778,6 @@
 			"",
 			"Your childhood in Magnimar (or in a similar cosmopolitan city) taught you to recognize signs of worship of demigods such as empyreal lords. You gain a +2 trait bonus on Knowledge (religion) checks involving entities other than the most influential gods. You also gain a +2 trait bonus on Diplomacy checks to influence worshipers of such entities."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4107,7 +3789,6 @@
 			"",
 			"You have traveled to the Elemental Planes under the protection of a powerful group of merchants or spellcasters. At character creation, you learn one of the following languages as a bonus language: Aquan, Auran, Ignan, or Terran. Additionally, your options for bonus languages from having a high Intelligence score include the other three elemental languages, in addition to those language options allowed by your race and class. You gain a +2 trait bonus on Diplomacy and Bluff checks when using one of these languages to communicate with a creature originating from the language's corresponding Elemental Plane."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4120,7 +3801,6 @@
 			"",
 			"If you follow this code, you are known to be single-minded with regard to slavery, and this fervent belief is easily perceived by others. Those who deal in flesh have a greater desire to appease you before matters escalate to confrontation, knowing that your wrath will be unwavering and swift. You gain a +2 trait bonus on Diplomacy and Intimidate checks made to sway the minds of slavers and anyone who otherwise keeps innocent people against their will."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4132,7 +3812,6 @@
 			"",
 			"Whether you were on your way to becoming a drow slave or slated for the ghoul chattel pits, you very narrowly avoided a life of miserable captivity. You make a habit of avoiding restraints or tight spaces, gaining a +1 trait bonus on Escape Artist checks and a +2 trait bonus to CMD to avoid being pinned."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4145,7 +3824,6 @@
 			"",
 			"When you, like all other young gnomes, were taught the hodgepodge Gnome language, you became curious about the original meaning of each word and what language it was derived from. Anytime you come across a new language, you are immediately absorbed by both how it works and what words you can co-opt from it for the Gnome language. You gain a +1 trait bonus on Linguistics checks, know one additional bonus language, and treat Linguistics as a class skill."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4157,7 +3835,6 @@
 			"",
 			"You are a master of calligraphy, an art once highly valued in Lung Wa and still held in high esteem in Lingshen. The DC to detect forgeries you create increases by 2. If you attempt to persuade someone via a written message, you gain a +2 bonus on any Bluff, Diplomacy, or Intimidate check attempted for that communication. Linguistics is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4170,7 +3847,6 @@
 			"",
 			"Though many gnomes settle down in communities large enough and interesting enough to provide them with all the stimulation they need to ward off the Bleaching, you're never going to be one of them. You are always looking around the next bend in the road or over the next hill, past the borders of where you are to where you want to be. At the beginning of each character level, select one desired terrain type from the following list: cold, desert, forest, jungle, mountains (including hills), plains, planes (other than the Material Plane), swamp, underground (including caves and dungeons), urban, or water. You gain a +2 bonus on all Survival checks made in your desired terrain type. At the beginning of each level, you must select a new desired terrain type to replace the old one (you cannot take the same desired terrain type two levels in a row)."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4182,7 +3858,6 @@
 			"",
 			"You have learned to express yourself without having to depend on words. When attempting a Bluff check to deliver a secret message, you can take a -5 penalty on the check to communicate a simple message even to creatures that do not share a language with you. You cannot communicate with mindless creatures."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4198,7 +3873,6 @@
 			"",
 			"You had a knack for getting yourself into trouble as a child, and as a result developed a silver tongue at an early age. You gain a +1 trait bonus on Bluff checks, and Bluff is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4210,7 +3884,6 @@
 			"",
 			"You were raised in a community that included numerous individuals who spoke with creatures of the wild. You gain one of the following languages of your choice as a bonus language: Aklo, Aquan, Auran, Giant, Ignan, or Sylvan. With your GM's permission, you can instead select Druidic, but druids are protective of their language - you are likely to find yourself hunted by druids wishing to eliminate you as a threat to their sole ownership of their secrets."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4222,7 +3895,6 @@
 			"",
 			"You gain a +2 trait bonus on skill checks to haggle prices or negotiate payment; this bonus increases to +4 if you are in a position of military or economic power over your target. You also gain a +1 trait bonus on Appraise checks and Appraise is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4234,7 +3906,6 @@
 			"",
 			"You can trace your family line back to one of the founding families of Absalom that was called by Aroden to aid him in establishing the city because of their vision and potential. You gain a +1 trait bonus on Charisma-based skill checks to influence citizens of Absalom."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4248,7 +3919,6 @@
 			"",
 			"**Suggested Characters:** Andorens, Desnans, Erastil worshipers."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4260,7 +3930,6 @@
 			"",
 			"You have no problem making friends and learning information from them wherever you go. You gain a +1 trait bonus on all Knowledge (local) checks and Diplomacy checks. One of these skills (your choice) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4274,7 +3943,6 @@
 			"",
 			"**Suggested Characters:** Absalom natives, [Aspis Consortium](rule/aff_profiteers) agents, Taldans."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4286,7 +3954,6 @@
 			"",
 			"Outcasts know their own, and that knowledge opens doors and loosens tongues. Gathering information in lower quarters, such as vice dens and poorer districts, takes you 1d2 hours (instead of 1d4 hours). In addition, the attitudes of any destitute or impoverished NPCs you interact with begin one step closer to helpful."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4298,7 +3965,6 @@
 			"",
 			"Somewhere in your family line, the mystic power of red dragons was infused into one of your relatives. If you ever take a class that requires you to select a draconic heritage, you must select a red dragon as your type. After successfully completing a charge attack, you gain a +2 trait bonus on Will saves for a full round."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4310,7 +3976,6 @@
 			"",
 			"You are adept at nonverbal communication. You can use a sign language or gestural system to send complex messages quickly in combat, and with a successful DC 15 Linguistics check, you can express yourself clearly enough to communicate basic messages to people who do not understand your gestures. You gain a +2 trait bonus to send secret messages via gestures using the Bluff skill, and to understand gestures with the Linguistics skill."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4323,7 +3988,6 @@
 			"",
 			"You have a knack for hiding goods on your person. Any small object you attempt to hide on your body is treated as an extraordinarily small object for the purpose of Sleight of Hand checks."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4337,7 +4001,6 @@
 			"",
 			"**Suggested Characters:** [Eagle Knights](rule/aff_vangard), Garundi, Pathfinders."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4349,7 +4012,6 @@
 			"",
 			"You are no stranger to loss and intense emotions. You gain a +2 trait bonus on all saving throws against emotion spells and effects."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4363,7 +4025,6 @@
 			"",
 			"**Suggested Characters:** Galtans, Rahadoumi, Ustalavs."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4375,7 +4036,6 @@
 			"",
 			"You have always been able to ferret out lies and deception. Maybe you worked as an investigator for a time, you came from a place rife with lies, or you've studied the human condition long enough to read a person's face and get to the heart of his message. You gain a +1 trait bonus on Sense Motive checks and a +1 trait bonus on saving throws against illusion effects."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4387,7 +4047,6 @@
 			"",
 			"You were trained to harvest all parts of an animal with care and precision. You gain a +1 trait bonus on Profession (tanner) or Profession (trapper) checks, and you may make these checks as if you were trained in the skill even if you have no ranks. Additionally, you do not risk poisoning yourself whenever you handle or apply poison taken from a venomous creature."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4399,7 +4058,6 @@
 			"",
 			"Born into a world split in twain, you are particularly skilled at understanding and empathizing with those around you. You gain a +2 trait bonus on Diplomacy and Sense Motive checks involving creatures that belong to the same race (or, if human, ethnicity) as your mother or father."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4411,7 +4069,6 @@
 			"",
 			"At least one of your parents was a [Hellknight](rule/aff_lawknights), and you see the orders as the embodiment of civic virtue. You gain a +2 trait bonus on Diplomacy checks to influence Hellknights and a +2 trait bonus on Intimidate checks to influence enemies of the Hellknights."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4423,7 +4080,6 @@
 			"",
 			"The reputation of your bloodline grants you a degree of fearful respect. You gain a +1 trait bonus on Intimidate checks. If your bloodline is keyed to a specific creature type, your trait bonus increases to +2 when interacting with creatures of that type."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4435,7 +4091,6 @@
 			"",
 			"When you speak with the full weight of law, your conviction lends you a terrible presence. You gain a +2 trait bonus on Intimidate checks when enforcing or pronouncing a lawful judgment that you're legitimately deputed to enforce or pronounce."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4449,7 +4104,6 @@
 			"",
 			"Your experience working with devils has given you nerves of steel. You gain a +2 trait bonus on Will saves to resist fear effects created by outsiders."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4461,7 +4115,6 @@
 			"",
 			"Your position in society grants you special insight into others, and special consideration or outright awe from others. Choose one of the following skills: Diplomacy, Intimidate, or Sense Motive. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4473,7 +4126,6 @@
 			"",
 			"You have specialized in studying Jistkan history and culture. You gain Jistka as a bonus language and a +1 trait bonus on all Knowledge checks related to the Jistka Imperium."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4487,7 +4139,6 @@
 			"",
 			"You have been raised to expect obedience from those around you, regardless of their station, and are not shy about demanding what you want. You gain a +1 trait bonus to Diplomacy and Intimidate checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4499,7 +4150,6 @@
 			"",
 			"You've been raised with tales of the great linnorms, and taught that the death curses of these vile dragons cannot stop the truly mighty. You gain a +1 trait bonus on saves to resist curses and spells with the curse descriptor and a +3 trait bonus on saves to resist curses originating from a linnorm."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4511,7 +4161,6 @@
 			"",
 			"You know a good deal about your most dire enemies. You gain a +1 trait bonus on checks with the Knowledge skill corresponding to your first {ability/favored enemy} choice, and that Knowledge skill is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4524,7 +4173,6 @@
 			"",
 			"If you follow this code, you are always alert to those who transgress against the laws of civilization. You receive a +2 bonus on Sense Motive checks to gain a hunch from social situations, and begin play with a pair of masterwork manacles."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4536,7 +4184,6 @@
 			"",
 			"You have lived a physically taxing life, working long hours for a master or to support a trade. Hard physical labor has toughened your body and mind. You gain a +1 trait bonus on Fortitude saves."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4548,7 +4195,6 @@
 			"",
 			"Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you. You hold every Chelish government official (including [Hellknights](rule/aff_lawknights)) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4564,7 +4210,6 @@
 			"",
 			"The skills of Golarion's greatest musicians are at your fingertips, thanks to the vast treasure trove of musical knowledge in the vaults beneath the Grand Lodge in Absalom. Studying this knowledge gives you the ability to use your bardic performance an additional 3 rounds per day."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4576,7 +4221,6 @@
 			"",
 			"You have resisted or escaped the temptations of a disguised hag, and you learned much from your encounter. You gain a +1 trait bonus on Sense Motive checks and a +2 trait bonus on saving throws to disbelieve illusions."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4588,7 +4232,6 @@
 			"",
 			"That which has marked you for power has also given you proof to show others. You may cast {spell/light} three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth - a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers)."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4601,7 +4244,6 @@
 			"",
 			"Your secret messages are rarely misunderstood. If you fail your Bluff check to pass a simple message by 5 or more, you deliver no message instead of delivering the wrong message."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4613,7 +4255,6 @@
 			"",
 			"You have a way with calming tempers, using cool logic to sooth heated disagreements, and you were always the one to settle arguments among your friends, family, and community. You receive a +1 trait bonus on Diplomacy checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion effect that does not provide ongoing control and results in peaceful acts, such as calm emotions, sleep, or a suggestion to lay down arms."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4627,7 +4268,6 @@
 			"",
 			"**Suggested Characters:** Free Captains, gnomes, Keleshites."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4639,7 +4279,6 @@
 			"",
 			"A tutor or private instructor guided you in learning your art, profession, or trade, and through your education, you became capable of teaching and guiding others. Choose a single Craft, Perform, or Profession skill. You gain a +1 trait bonus on checks with that skill. You also gain a +1 trait bonus when you aid another's skill check with any skill."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4651,7 +4290,6 @@
 			"",
 			"For everything there is a price, and you are a negotiator at heart. You gain a +2 trait bonus on Diplomacy, Intimidate, and Sense Motive checks made while negotiating payment for a quest or a service that you provide."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4663,7 +4301,6 @@
 			"",
 			"You lived your life as a merchant, buying and selling goods. You gain a +1 trait bonus on any Appraise and Sense Motive checks you attempt while bargaining for the price of goods. Appraise is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4675,7 +4312,6 @@
 			"",
 			"You have learned how to work a crowd in Magnimar's mock-gladiator fights. Choose one weapon. You take no penalty on attack rolls when dealing nonlethal damage with that weapon, and once per day if you score a critical hit with the weapon, you can immediately attempt an Intimidate check to demoralize your target."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4687,7 +4323,6 @@
 			"",
 			"Your study of monsters keeps you well informed. Choose either Knowledge (arcana), Knowledge (dungeoneering), or Knowledge (nature). Whenever you succeed at a Knowledge check to identify a creature and its special powers - or vulnerabilities - with the chosen skill, you gain one additional piece of useful information (as if your skill check result had been 5 higher)."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4699,7 +4334,6 @@
 			"",
 			"You've been raised to hunt certain beasts. Choose either aberrations, animals, dragons, fey, magical beasts, oozes, or vermin. You gain a limited version of the scent ability (15 feet normal, 30 feet upwind, 5 feet downwind) that detects only your chosen creature type."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4715,7 +4349,6 @@
 			"",
 			"You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the {feat/Leadership} feat, you gain a +1 trait bonus to your Leadership score."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4727,7 +4360,6 @@
 			"",
 			"Long exposure to the endless variety of the Nightstalls grants you a +2 trait bonus on Diplomacy checks to gather information and on Knowledge (local) checks to recall information about criminal activities. One of these (your choice) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4740,7 +4372,6 @@
 			"",
 			"You hail from the fringes of civilization or the bottommost strata of society, but something in your character makes that seem endearing. You gain a +2 trait bonus on Diplomacy and Perform checks when dealing with people of high social standing."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4752,7 +4383,6 @@
 			"",
 			"You are adept at keeping witnesses from noticing that anything is wrong. You gain a +4 trait bonus on Bluff checks to keep others from noticing your aggressive actions."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4766,7 +4396,6 @@
 			"",
 			"You have tasted Numerian fluids many times. Once per day after rolling to determine the side effects of consuming a Numerian fluid, you can roll on the table again, but you must take the second result."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4778,7 +4407,6 @@
 			"",
 			"You have long since forgotten to care what people think about you - though your interactions are always memorable, at the very least. Choose Perform (act), Perform (comedy), Perform (oratory), or Perform (sing); you gain a +1 trait bonus on checks with the chosen skill and gain it as a class skill."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4790,7 +4418,6 @@
 			"",
 			"You maintain a friendship with one or more figures of authority. You have minor sway with one of these figures if your game uses individual influence. You gain a +2 trait bonus on Diplomacy checks to influence people in positions of authority aware of your contact and who have an attitude of no worse than indifferent toward the government the contact represents. You also take a -2 penalty on Diplomacy checks to influence criminals and agents of opposing governments, if those characters are aware of your association with authorities. If you lose your contact, you lose the benefits of this trait for 1 month, after which you can make a new contact."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4802,7 +4429,6 @@
 			"",
 			"The only thing extraordinary about your appearance is its ordinariness. You carry yourself in an understated way, and many people who see your face soon forget it. You gain a +4 trait bonus on Stealth checks whenever you attempt to hide in a crowd."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4814,7 +4440,6 @@
 			"",
 			"You grew up separated from your birth parents, and had to learn to watch out for yourself. You gain a +1 trait bonus on Survival checks, and Survival is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4826,7 +4451,6 @@
 			"",
 			"One of your ancestors was a conjurer who specialized in binding outsiders of a particular type. You have inherited some of his skills, but also some of his enemies. Choose a single outsider subtype. The DC of your spells increases by 1 against outsiders of the chosen subtype. Outsiders of the chosen subtype gain a +1 morale bonus on attack and damage rolls made against you, and their starting attitude toward you is reduced by one step."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4838,7 +4462,6 @@
 			"",
 			"You have learned how to gain the respect of gnolls in your region, and you know something of their social structure. You gain a +3 trait bonus on Charisma-based skill checks when dealing with gnolls."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4850,7 +4473,6 @@
 			"",
 			"Your passions drive your thinking so irresistibly that even magic struggles to change your mind. You gain a +2 trait bonus on Will saves to resist having your mind changed about something, but you take a -1 penalty on Will saves to resist temptation and compulsions you might reasonably be already inclined toward."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4866,7 +4488,6 @@
 			"",
 			"Your childhood was tough, and your parents always had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild. You gain a +1 bonus on Survival checks, and Survival is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4878,7 +4499,6 @@
 			"",
 			"You are experienced at facing off against spellcasters. You can attempt Knowledge (arcana) checks untrained; if you have ranks in that skill, you instead gain a +1 trait bonus on those checks. The concentration DC to cast a spell defensively in your threatened area increases by 1."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4890,7 +4510,6 @@
 			"",
 			"Multiple encounters with fell magic have left you wary. You gain a +2 trait bonus on Perception and Sense Motive checks to notice cursed objects, haunts, and magically disguised creatures."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4902,7 +4521,6 @@
 			"",
 			"You are a quick study when it comes to local laws. Once per day, you can attempt a Knowledge (local) check untrained to recall information about local laws, rulers, and popular locations. Additionally, you gain a +1 trait bonus on Knowledge (local) checks, and Knowledge (local) is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4914,7 +4532,6 @@
 			"",
 			"You've studied the speeches and writings of a leader or thinker who served as a reassuring voice in her community in the turbulent times after Aroden died, painfully learning which portions of Aroden's advice no longer applied and what of his writings could still be usefully applied. Once per day, you can speak Aroden's words of encouragement to grant any human a +1 insight bonus on any attack roll, saving throw, or skill check of his choice within the following hour. The choice to use the insight bonus must be made before the related roll is made."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4926,7 +4543,6 @@
 			"",
 			"You learned from the Forthright Men, the Coins' peace-keeping thieves' guild, to use candor to avoid trouble. You gain a +5 trait bonus on Diplomacy checks to convince others to overlook offensive or illegal acts. Diplomacy is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4938,7 +4554,6 @@
 			"",
 			"Your experiments - both your successes and failures - have inured you to the effects of stored magic. You gain a +1 trait bonus on saving throws against effects produced by spell completion and spell trigger items."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4950,7 +4565,6 @@
 			"",
 			"Often forced to go without food or stimulation for days at a time, you have learned to use prolonged sleep as a means of escape and a way to heal your wounds. You heal temporary ability damage at a rate of 3 points per day of complete bed rest. A normal night of rest (8 hours) still heals you at a rate of only 1 point of temporary ability damage per night of rest."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4966,7 +4580,6 @@
 			"",
 			"You were born into a rich family, perhaps even the nobility, and even though you turned to a life of adventure, you enjoy a one-time benefit to your initial finances: your starting wealth increases to 900 gp."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4978,7 +4591,6 @@
 			"",
 			"You gain a +2 trait bonus on Survival checks to track dragons. If you have the {ability/favored terrain} class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -4990,7 +4602,6 @@
 			"",
 			"You were born and raised in untamed lands far from civilization. You learned to survive in the elements among brutal humanoids and beasts. You gain a +1 trait bonus on Knowledge (nature) checks and a +1 trait bonus on Survival checks to get along in the wild. Knowledge (nature) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5003,7 +4614,6 @@
 			"",
 			"From a very young age, the ability to master performance types has come quite naturally to you. Choose a performance type. You gain a +2 trait bonus on all Perform checks made using that performance type. Perform is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5015,7 +4625,6 @@
 			"",
 			"The Wave Riders' fame helps you convince seafarers to cooperate. You gain a +1 trait bonus on Diplomacy and Intimidate checks against sailors and residents of Absalom."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5029,7 +4638,6 @@
 			"",
 			"**Suggested Characters:** Chelaxians, Galtans, Nidalese."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5041,7 +4649,6 @@
 			"",
 			"You are always on the lookout for reward and danger. You gain a +1 trait bonus on Perception checks, and Perception is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5053,7 +4660,6 @@
 			"",
 			"You know how to work with your hands and aren't dependent on complex tools. When attempting Craft checks, you take no penalty when using improvised tools. At the GM's discretion, you can attempt certain Craft checks even when no tools are available, though you take a -2 penalty."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5065,7 +4671,6 @@
 			"",
 			"You're known for some unique item that has become your trademark. Your starting equipment includes a single masterwork item worth less than 900 gp, and you gain a +1 trait bonus on Bluff and Intimidate checks while wielding this item in one or both hands."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5077,7 +4682,6 @@
 			"",
 			"You picked up skill in a craft or a profession during your time at a monastery. You gain a +1 trait bonus on checks with a Profession or Craft skill of your choice."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5089,7 +4693,6 @@
 			"",
 			"You witnessed or were party to the rescue of a halfling from Chelish slavery by the [Bellflower Network](rule/aff_antislavery) or [Eagle Knights](rule/aff_vangard). Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an Acrobatics check, an Escape Artist check, a Stealth check, or a skill check attempted as part of a heist or pursuit"
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5103,7 +4706,6 @@
 			"",
 			"**Suggested Characters:** Irriseni, Kellids, Ulfen."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5115,7 +4717,6 @@
 			"",
 			"You were trained in a now-defunct philosophical tradition - such as that of the now-destroyed Galtan universities or Lirgeni astrologers - and learned to use logic and reason to persuade others. You can use your Intelligence modifier in place of your Charisma modifier on Diplomacy checks to persuade others and on Bluff checks to convince others that a lie is true. (This trait does not affect Diplomacy checks to gather information or Bluff checks to feint in combat.) Suggested Characters: Arodenites, Galtans, Sodden Lands natives."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5127,7 +4728,6 @@
 			"",
 			"You have a passion for history and news concerning monastic disciplines. You gain a +1 trait bonus on checks with your choice of either Knowledge (local) or Knowledge (history), and the one you choose is always a class skill for you. In addition, you gain a +1 trait bonus on Diplomacy checks made to gather information about any person with levels in monk."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5139,7 +4739,6 @@
 			"",
 			"You are able to divorce your knowledge of the facts from your beliefs about the truth, and thus from your facial expressions and body language. You gain a +2 trait bonus on Bluff checks to lie, provided the person you're lying to has never known you to lie to him. Failing this check counts as being caught in a lie by the target, negating any future use of this bonus against that person."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5153,7 +4752,6 @@
 			"",
 			"**Suggested Characters:** Halflings, Mwangi, Tians."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5169,7 +4767,6 @@
 			"",
 			"You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and lied often, about something you had taken for granted, leaving you quick to question the claims of others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5181,7 +4778,6 @@
 			"",
 			"You are a virtuoso musician, actor, or storyteller. You gain a +1 trait bonus on checks with a single Perform skill (your choice), and all Perform skills are always class skills for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5193,7 +4789,6 @@
 			"",
 			"Your curious mind figures out even the most complex problems. Once per day when you make an Intelligence-based skill check or ability check, you can roll twice and take the better result."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5205,7 +4800,6 @@
 			"",
 			"You have been trained in intricate dragon-handling techniques that originated on Triaxus. You gain a +1 trait bonus on Perception checks, and a +1 trait bonus on skill checks attempted as part of trying to influence a dragon."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5219,7 +4813,6 @@
 			"",
 			"**Suggested Characters:** Garundi, Keleshites, Mwangi."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5231,7 +4824,6 @@
 			"",
 			"People find it easy to put their faith in you. You gain a +1 trait bonus on Bluff checks made to fool someone. You also gain a +1 trait bonus on Diplomacy checks, and Diplomacy is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5243,7 +4835,6 @@
 			"",
 			"You are skilled at weeding out information. You gain a +1 trait bonus on all Diplomacy checks made to gather information and all Knowledge (local) checks. Knowledge (local) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5255,7 +4846,6 @@
 			"",
 			"Your total indifference to the law even as you're breaking it is such that those watching you are stunned. Whenever you commit an unexpected and outrageously unlawful act (such as knowingly destroying or stealing something) that would elicit a hostile response from another creature, you may attempt a Bluff check opposed by the opponent's Sense Motive check. If you're successful, you and any allies who were willfully expecting your unlawful deed may act in a surprise round. For each ally willfully expecting your unlawful deed, you take a cumulative -2 penalty on your Bluff check. If your Bluff check fails, there is no surprise round. Regardless of whether your Bluff check succeeds, you and any allies willfully taking advantage of your unlawful deed treat your initiative checks for the duration of combat as though you had each rolled a 1."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5267,7 +4857,6 @@
 			"",
 			"You gain Aklo as a bonus language, and gain a +2 trait bonus on all saving throws to resist any effects or spells originating from aberrations that cause confusion or fear."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5279,7 +4868,6 @@
 			"",
 			"You can speak with outsiders. You gain a +1 trait bonus on all Linguistics checks, and you begin play knowing one of the following languages (in addition to those granted by your race and Intelligence modifier): Abyssal, Aquan, Celestial, Ignan, Infernal, Protean, or Terran."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5291,7 +4879,6 @@
 			"",
 			"You gain a +2 trait bonus on all Intimidate checks against creatures of the animal, fey, or plant type, and Intimidate is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5303,7 +4890,6 @@
 			"",
 			"Your actions often seem random and chaotic to others, but there is a method to your madness. You gain a +1 trait bonus on Bluff checks, and Bluff is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5315,7 +4901,6 @@
 			"",
 			"You've been part of one of Mengkare's minor experiments. Once per day, you can cast {spell/detect psychic significance} or {spell/telekinetic projectile} as a spell-like ability, with a caster level equal to your character level."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5327,7 +4912,6 @@
 			"",
 			"You specialize in delivering or procuring shipments where those commodities are not allowed or where your identity would elicit negative bias. You gain a +1 trait bonus on Disguise or Sleight of Hand checks, and that skill becomes a class skill for you. In addition, choose one humanoid species; you ignore the -2 penalty on Disguise checks to disguise yourself as a member of that species."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5339,7 +4923,6 @@
 			"",
 			"Trained in espionage, you're skilled at passing messages and staying on task. You gain a +1 trait bonus on Bluff checks made to pass secret messages and a +1 trait bonus on saving throws against charm and compulsion effects."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5351,7 +4934,6 @@
 			"",
 			"You were brutally betrayed, and you have dedicated yourself to pursuing revenge. Choose a humanoid subtype that is not your own from the following list: dwarf, elf, gnome, halfling, or human. You gain a +2 trait bonus on Intimidate checks against creatures with that subtype."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5363,7 +4945,6 @@
 			"",
 			"Paranoid parents or a military trainer taught you to keep vigilant for spies. If you roll less than 10 on Perception checks to see through disguises, determine your result as if you had rolled 10."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5375,7 +4956,6 @@
 			"",
 			"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the [confused condition table](rule/awareness_conditions), and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5389,7 +4969,6 @@
 			"",
 			"**Suggested Characters:** Desnans, halflings, Varisians."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5401,7 +4980,6 @@
 			"",
 			"You have spent most of your life learning how to survive in wastelands, and a lack of normal survival resources apparent in the environment is not a problem for you. When you gain this trait, pick one type of wasteland from the following list: blighted, Abyssal, desert, or waterlogged. You gain a +2 trait bonus on Survival checks in that type of wasteland terrain. (The GM determines whether terrain falls into the chosen type of wasteland.) Once you choose a type of wasteland terrain to gain this benefit in, you cannot change it later."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5413,7 +4991,6 @@
 			"",
 			"Your travels in the wildlands gave you insight into how to survive their dangers and communicate with their inhabitants. You gain a +1 trait bonus on all Linguistics and Survival checks, and Linguistics is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5425,7 +5002,6 @@
 			"",
 			"You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the {feat/Leadership} feat or the {feat/Vile Leadership} feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5437,7 +5013,6 @@
 			"",
 			"You have a keen ear for the movements of thieves and monsters. You can always take 10 on Perception checks, even when stress and distractions would normally prevent you from doing so."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	},
@@ -5449,7 +5024,6 @@
 			"",
 			"You have acquired an unusual breadth of life experience - more than others of your age, race, or culture. Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result."
 		],
-		"sourceEnd": true,
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
 	}

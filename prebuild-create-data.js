@@ -3,7 +3,7 @@ import { Marked } from 'marked';
 import markedFootnote from 'marked-footnote';
 import { gfmHeadingId } from "marked-gfm-heading-id";
 import { createDirectives, presetDirectiveConfigs } from 'marked-directive';
-import basic_data_groups, { basic_data_by_link } from './basic_data_groups.js';
+import basic_data_groups, { basic_data_by_link, templates_by_link } from './basic_data_groups.js';
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
 import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
@@ -520,8 +520,43 @@ const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", 
 	return [`<${openTag}>${removeCurlyBrackets(parsed)}</${closeTag}>`, flags];
 };
 
+const parseTemplate = (template, title, suffix, sourceText, desc, split = true) => {
+	// [[DESC]] becomes the entry description
+	// [[TITLE]] becomes the entry title
+	// [[SUFFIX]] becomes the entry nameSuffix
+	// [[SOURCE]] becomes a {SOURCE ...} line
+	// [[N]] is a newline
+	// [[^S]] is a footnote leading to Source info (not handled in this function)
+	// ??SOURCE:...?? only adds "..." if a Source exists
+	// ??SUFFIX:...?? only adds "..." if a nameSuffix exists
+	let constructed = template;
+	let m;
+	while(m = constructed.match(/^(.*?)\?\?([A-Z]+):(.+?)\?\?(.*$)/)) {
+		const [, pre, looking, maybe, post] = m;
+		if(
+			(looking === "SOURCE" && sourceText)
+			|| (looking === "SUFFIX" && suffix)
+		) {
+			constructed = `${pre}${maybe}${post}`;
+		} else {
+			constructed = `${pre}${post}`;
+		}
+	}
+	constructed = constructed
+		.replace(/\[\[DESC\]\]/g, desc.join("[[N]]"))
+		.replace(/\[\[TITLE\]\]/g, title)
+		.replace(/\[\[SUFFIX\]\]/g, suffix)
+		.replace(/\[\[SOURCE\]\]/g, sourceText);
+
+	return split ? constructed.split(/\[\[N\]\]/) : constructed;
+};
+
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
-const convertCompileableDescription = (temporaryFlags, d, title, prefix, compilationSources, sourceEnd, openTag = "", closeTag = "") => {
+const convertCompileableDescription = (
+	temporaryFlags, template, d, title, suffix,
+	prefix, compilationSources,
+	openTag = "", closeTag = ""
+) => {
 	const desc = [...d];
 	$.prefix = prefix;
 	$.flags = {...temporaryFlags};
@@ -549,25 +584,11 @@ const convertCompileableDescription = (temporaryFlags, d, title, prefix, compila
 		}
 		sources.push(title);
 	});
-	if(dSource.length) {
-		const line = `{SOURCE ${dSource.join(";")}}`;
-		if(sourceEnd) {
-			const last = desc.pop();
-			desc.push(last + "  ", line);
-		} else {
-			desc.unshift(line + "  ");
-		}
-	}
+	const sourceText = dSource.length > 0 ? `{SOURCE ${dSource.join(";")}}` : "";
 
 	// Parse the text
 	const parsed = marked.parse(
-		convertLinks(
-			[
-				`## ${title}`,
-				"",
-				...desc
-			]
-		).join("\n")
+		convertLinks(parseTemplate(template, title, suffix, sourceText, desc)).join("\n")
 	);
 	// Remove temporary flags from the output.
 	const flags = {...$.flags};
@@ -588,10 +609,10 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 		if(Array.isArray(info)) {
 			desc.push(...info);
 		} else {
-			const { limit, pre, join, post, translate } = info;
+			const { limit, pre, join, post, modifyDescription = {}, template } = info;
 			const [ender, ...mid] = join;
 			const beginner = mid.pop();
-			const { regex, replacement } = translate;
+			const { regex, replacement } = modifyDescription;
 			const pool = [];
 			if(typeof limit === "string") {
 				Object.values(found).forEach(v => {
@@ -609,7 +630,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				return;
 			}
 			const compilation = [];
-			const rx = new RegExp(`^${regex}$`);
+			const rx = regex && new RegExp(`^${regex}$`);
 			const max = pool.length - 1;
 			pool.forEach((obj, i) => {
 				const level = obj.level || 0;
@@ -622,7 +643,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				// Handle the end-bits of `join`
 				const d = obj.description.map(
 					(line, j) => bq + (i || j ? "" : beginner) + line
-				).join("@@@") + (i === max ? "" : ender);
+				).join("[[N]]") + (i === max ? "" : ender);
 				const sources = temporaryFlags.mainCompilation ? obj.compilationSources.map(arr => {
 					// main pages don't handle footnotes well, so ignore them
 					const [title, pg] = arr;
@@ -638,18 +659,11 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 					}
 					return footnotes[detail];
 				});
-				const repl = replacement
-					.replace(/\[\[TITLE\]\]/g, obj.name)
+				const dd = (rx ? d.replace(rx, replacement) : d).split(/\[\[N\]\]/);
+				const parsing = parseTemplate(template, obj.name, obj.nameSuffix, `{SOURCE ${sources.join(";")}}`, dd, false);
+				const final = parsing
 					.replace(/\[\[\^S\]\]/g, sources.join(" "))
-					.replace(/\[\[SOURCE\]\]/g, `{SOURCE ${sources.join(";")}}`)
-					.replace(/\[\[(.*)SUFFIX\]\]/g, (match, sep) => {
-						const nameSuffix = obj.nameSuffix;
-						if(nameSuffix) {
-							return sep + nameSuffix;
-						}
-						return "";
-					});
-				const final = d.replace(rx, repl);
+					.replace(/\[\[BQ\]\]/g, bq);
 				if(level && (i !== max)) {
 					const next = pool[i + 1].level;
 					if(next >= level) {
@@ -668,16 +682,16 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 					i !== max && compilation.push(...mid);
 				}
 			});
-			if(pre) {
+			if(pre && compilation.length) {
 				const bit = compilation.shift();
 				compilation.unshift(pre + bit);
 			}
-			if(post) {
+			if(post && compilation.length) {
 				const bit = compilation.pop();
 				compilation.push(bit + post);
 			}
-			const final = compilation.join("@@@");
-			desc.push(...final.split("@@@"));
+			const final = compilation.join("[[N]]");
+			desc.push(...final.split("[[N]]"));
 		}
 	});
 	const keep = [];
@@ -826,12 +840,18 @@ if($.errorCount) {
 //   Create all other files, including ___link.tsx files.
 Object.values(all_usable_groups).forEach((group, groupindex) => {
 //Object.values({"main01": all_usable_groups["main01"]}).forEach((group, groupindex) => {
-	const {data, datatype, link, num} = group;
+	const {
+		data,
+		datatype,
+		link,
+		num
+	} = group;
 	const final = [];
 	const baselink = num ? `${link}${num}` : link;
 	const copies = [];
 	const copyRecord = {};
 	const groupFlags = {};
+	const template = templates_by_link[link] || templates_by_link._basic;
 	Object.entries(data).forEach(([prop, value]) => {
 		// Temporary flags should NEVER match regular flags.
 		const temporaryFlags = {};
@@ -849,7 +869,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			sources, tables, topLink, parent_topics,
 			subtopics, siblings, noFinder,
 			nameSuffix, compilationSources,
-			compileFrom, addenda, sourceEnd
+			compileFrom, addenda
 		} = base;
 		// Convert entities in tables
 		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
@@ -899,11 +919,12 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 				info.addenda = addenda;
 				converted = convertCompileableDescription(
 					temporaryFlags,
+					template,
 					d,
-					nameSuffix ? `${n} ${nameSuffix}` : n,
+					n,
+					nameSuffix,
 					`${link}-${prop}-`,
-					compilationSources,
-					sourceEnd
+					compilationSources
 				);
 				info.sources = converted.pop();
 				break;

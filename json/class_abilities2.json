@@ -609,10 +609,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{evolution/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{evolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -624,10 +621,7 @@
 				{
 					"limit": "2",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{evolution/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{evolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -639,10 +633,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{evolution/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{evolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -654,10 +645,7 @@
 				{
 					"limit": "4",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{evolution/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{evolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				}
 			]
 		},
@@ -689,10 +677,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{unchainedevolution/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{unchainedevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -704,10 +689,7 @@
 				{
 					"limit": "2",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{unchainedevolution/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{unchainedevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -719,10 +701,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{unchainedevolution/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{unchainedevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -734,10 +713,7 @@
 				{
 					"limit": "4",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{unchainedevolution/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{unchainedevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				}
 			]
 		},
@@ -1025,10 +1001,7 @@
 				{
 					"limit": "Grand Discoveries",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{discovery/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{discovery/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},
@@ -1052,10 +1025,7 @@
 				{
 					"limit": "grandhex",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{hex/[[TITLE]][[/ SUFFIX]]:}** $1 [[^S]]"
-					}
+					"template": "**{hex/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},
@@ -1121,10 +1091,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{deed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				},
 				[
 					"",
@@ -1134,10 +1101,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{deed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				},
 				[
 					"",
@@ -1147,10 +1111,7 @@
 				{
 					"limit": "7",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{deed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				},
 				[
 					"",
@@ -1160,10 +1121,7 @@
 				{
 					"limit": "11",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{deed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				},
 				[
 					"",
@@ -1173,10 +1131,7 @@
 				{
 					"limit": "15",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{deed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				},
 				[
 					"",
@@ -1186,10 +1141,7 @@
 				{
 					"limit": "19",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(?:\\{SOURCE.+?\\} *@@@)(.+)",
-						"replacement": "**{deed/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
 				}
 			]
 		},
@@ -1237,10 +1189,7 @@
 				{
 					"limit": { "omit": [] },
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(.+)",
-						"replacement": "**{hkdiscipline/[[TITLE]][[/ SUFFIX]]:}** $1"
-					}
+					"template": "**{hkdiscipline/[[TITLE]]}??SUFFIX: [[SUFFIX]]??:** [[DESC]]"
 				}
 			]
 		},
@@ -1297,10 +1246,11 @@
 				{
 					"limit": "hex",
 					"join": [ "", "", "" ],
-					"translate": {
-						"regex": "(>*)(.+)",
-						"replacement": "$1**{hex/[[TITLE]][[/ SUFFIX]]:}** $2 [[^S]]"
-					}
+					"modifyDescription": {
+						"regex": ">*(.+)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{hex/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},

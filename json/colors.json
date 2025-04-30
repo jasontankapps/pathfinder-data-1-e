@@ -5,108 +5,108 @@
 		"red-text": "#330000",
 		"red-bg-dim": "#ffa2b4",
 		"red-text-dim": "#a05660",
-	
+
 		"redorange": "#ff3d00",
 		"redorange-bg": "var(--redorange)",
 		"redorange-text": "#442200",
 		"redorange-bg-dim": "#ffb199",
 		"redorange-text-dim": "#a86e52",
-	
+
 		"orange": "#ff9100",
 		"orange-bg": "var(--orange)",
 		"orange-text": "#552200",
 		"orange-bg-dim": "#ffd399",
 		"orange-text-dim": "#b08152",
-	
+
 		"lightorange": "#ffc400",
 		"lightorange-bg": "var(--lightorange)",
 		"lightorange-text": "#663300",
 		"lightorange-bg-dim": "#ffe799",
 		"lightorange-text-dim": "#b89352",
-	
+
 		"yellow": "#ffea00",
 		"yellow-bg": "var(--yellow)",
 		"yellow-text": "#333300",
 		"yellow-bg-dim": "#fff799",
 		"yellow-text-dim": "#a09c52",
-	
+
 		"chartreuse": "#c6ff00",
 		"chartreuse-bg": "var(--chartreuse)",
 		"chartreuse-text": "#335500",
 		"chartreuse-bg-dim": "#e8ff99",
 		"chartreuse-text-dim": "#94b052",
-	
+
 		"green": "#76ff03",
 		"green-bg": "var(--green)",
 		"green-text": "#33691e",
 		"green-bg-dim": "#c8ff9a",
 		"green-text-dim": "#83b960",
-	
+
 		"bluegreen": "#00e676",
 		"bluegreen-bg": "var(--bluegreen)",
 		"bluegreen-text": "#1b5e20",
 		"bluegreen-bg-dim": "#99f5c8",
 		"bluegreen-text-dim": "#5faf7a",
-	
+
 		"teal": "#1de9b6",
 		"teal-bg": "var(--teal)",
 		"teal-text": "#004d40",
 		"teal-bg-dim": "#a5f6e2",
 		"teal-text-dim": "#58a797",
-	
+
 		"cyan": "#00e5ff",
 		"cyan-bg": "var(--cyan)",
 		"cyan-text": "#004444",
 		"cyan-bg-dim": "#99f5ff",
 		"cyan-text-dim": "#52a3a8",
-	
+
 		"blue": "#00b0ff",
 		"blue-bg": "var(--blue)",
 		"blue-text": "#003355",
 		"blue-bg-dim": "#99dfff",
 		"blue-text-dim": "#528fb0",
-	
+
 		"skyblue": "#82b1ff",
 		"skyblue-bg": "var(--skyblue)",
 		"skyblue-text": "#114466",
 		"skyblue-bg-dim": "#cde0ff",
 		"skyblue-text-dim": "#7597b8",
-	
+
 		"purple": "#b388ff",
 		"purple-bg": "var(--purple)",
 		"purple-text": "#311b92",
 		"purple-bg-dim": "#e1cfff",
 		"purple-text-dim": "#8f7bcc",
-	
+
 		"magenta": "#d500f9",
 		"magenta-bg": "var(--magenta)",
 		"magenta-text": "#330055",
 		"magenta-bg-dim": "#ee99fd",
 		"magenta-text-dim": "#9752af",
-	
+
 		"pink": "#ff4081",
 		"pink-bg": "var(--pink)",
 		"pink-text": "#550033",
 		"pink-bg-dim": "#ffb3cd",
 		"pink-text-dim": "#b05f85",
-	
+
 		"brown": "#a1887f",
 		"brown-bg": "var(--brown)",
 		"brown-text": "#3e2723",
 		"brown-bg-dim": "#d9cfcc",
 		"brown-text-dim": "#91807d",
-	
+
 		"grey": "#bdbdbd",
 		"grey-bg": "var(--grey)",
 		"grey-text": "#212121",
 		"grey-bg-dim": "#e5e5e5",
 		"grey-text-dim": "#898989",
-	
+
 		"bluegrey": "#b0bec5",
 		"bluegrey-bg": "var(--bluegrey)",
 		"bluegrey-text": "#263238",
 		"bluegrey-bg-dim": "#dfe5e8",
-		"bluegrey-text-dim": "#899196"	
+		"bluegrey-text-dim": "#899196"
 	},
 	"dark": {
 		"red": "#ff1744",

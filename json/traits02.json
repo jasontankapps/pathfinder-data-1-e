@@ -7,7 +7,6 @@
 			"",
 			"You have shown a significant talent for the magical arts, gaining the attention of the famed Acadamae of Korvosa. Whenever you succeed at a Knowledge (planes) check to identify a creature and its special powers or vulnerabilities, you gain one additional piece of useful information (as if your skill check result had been 5 higher)."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -19,7 +18,6 @@
 			"",
 			"One of your distant ancestors was either a powerful aeromancer or a creature of elemental air, granting you greater skill with air magic. You treat your caster level as 1 higher when casting spells with the air or electricity descriptor."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -31,7 +29,6 @@
 			"",
 			"You share an affinity with elemental air. You gain DR 1/- against creatures and attacks with the air type."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -43,7 +40,6 @@
 			"",
 			"You are skilled in creating alchemical items. You gain a +2 trait bonus on all Craft (alchemy) checks made to craft alchemical items. Furthermore, when you fail a Craft (alchemy) check by 5 or more but don't roll a natural 1, you don't ruin any raw materials or have to pay that cost again."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -55,7 +51,6 @@
 			"",
 			"You are often struck with epiphanies about alchemical processes and substances. Once per day as a free action, you may gain a trait bonus equal to your Charisma modifier (minimum 0) on a Craft (alchemy) check you make. You can apply this bonus after you roll the check, possibly turning a failure into a success."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -67,7 +62,6 @@
 			"",
 			"Your curiosity and ingenuity have driven you to experiment and push new boundaries, and you have a knack for tampering with magic. You gain a +4 trait bonus on Knowledge (arcana) and Spellcraft checks to research, modify, and create new spells."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -79,7 +73,6 @@
 			"",
 			"Your martial prowess can feed your arcane power. Once per day, when you confirm a critical hit with a weapon attack, you regain 1 arcane pool point. You can't exceed your maximum number of arcane pool points."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -91,7 +84,6 @@
 			"",
 			"You have quick reactions and fierce concentration. You gain a +1 trait bonus on concentration and initiative checks."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -103,7 +95,6 @@
 			"",
 			"Your first bloodline power is particularly strong. Your sorcerer level is considered to be 1 level higher when determining the effects of your 1st-level bloodline power."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -115,7 +106,6 @@
 			"",
 			"The interference of the Outer Planes in mortal affairs angers you to no end and invigorates the potency of your magic. As long as you remain neutral, whenever you cast a spell that would send an outsider with the chaotic, evil, good, or lawful subtype back to its home plane, the spell's saving throw DC increases by 1."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -127,7 +117,6 @@
 			"",
 			"One of your ancestors came in contact with the mystical black blood, granting you an affinity for the substance. You are immune to the negative effects of black blood. Once per day as a swift action, you can channel the essence of black blood, increasing your effective caster level by 1 for any 1st- or 2nd-level necromancy spell you cast. Your blood is pitch black as a result of this trait."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -139,7 +128,6 @@
 			"",
 			"You have an innate talent for using magical weaponry and those weapons capable of becoming magical. You gain a +1 trait bonus on Craft checks made to craft magic or masterwork weapons. In addition, when you use your arcane pool class ability to grant a weapon an enhancement bonus, that bonus lasts for 2 minutes instead of 1."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -151,7 +139,6 @@
 			"",
 			"Your lunar gift becomes much more powerful when the moon is full. Choose either Climb, Stealth, or Swim. You gain a +1 trait bonus on checks made with the chosen skill. On dates during and after the first quarter of a lunar phase but before end of the last quarter (the half of the lunar cycle where the moon is fuller), this bonus increases to +2. During the full moon, this bonus increases to +4."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -167,7 +154,6 @@
 			"",
 			"Your apprenticeship or early education was particularly focused on the direct application of magic. You gain a +1 trait bonus on Spellcraft checks, and Spellcraft is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -179,7 +165,6 @@
 			"",
 			"You have belonged to a coven or magical cabal and know how to coordinate your spellcasting with others. When within 30 feet of an allied spellcaster, you both gain a +2 trait bonus on {rule/concentration} checks."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -191,7 +176,6 @@
 			"",
 			"Your dabbling has granted you greater insight into the proper casting of certain spells. Once per day, you may cast a spell you have prepared that appears on both the magus and wizard spell lists as if your caster level were 1 level higher."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -203,7 +187,6 @@
 			"",
 			"Once per day, you may treat an extract you drink as if your caster level were 1 level higher as long as that extract appears on the wizard spell list and the alchemist list of formulae."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -217,7 +200,6 @@
 			"",
 			"Suggested Characters: Drumans, Eldest worshipers, Ulfen."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -229,7 +211,6 @@
 			"",
 			"You share an affinity with elemental fire. You gain DR 1/- against creatures and attacks with the fire type."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -241,7 +222,6 @@
 			"",
 			"You know the secret of making punishing fire bombs. Any bombs you have that deal fire damage deal 1 additional point of fire damage on a direct hit per 2d6 of fire damage normally dealt (minimum 1 point). This additional damage does not apply to the bomb's splash damage."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -257,7 +237,6 @@
 			"",
 			"Your childhood was dominated either by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand. You gain a +2 trait bonus on {rule/concentration} checks."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -271,7 +250,6 @@
 			"",
 			"Suggested Characters: Calistrians, harrow deck readers, Vudrani."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -287,7 +265,6 @@
 			"",
 			"Your interest in magic was inspired by witnessing a spell being cast in a particularly dramatic method, perhaps even one that affected you physically or spiritually. This early exposure to magic has made it easier for you to work similar magic on your own. Pick one spell when you choose this trait - from this point on, whenever you cast that spell, its effects manifest at +1 caster level."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -299,7 +276,6 @@
 			"",
 			"The link between you and your eidolon is stronger than most. Your eidolon's current and maximum hit point totals are not reduced by 50% until you are separated by 110 feet or more. Your eidolon's current and maximum hit point totals are not reduced by 75% until you are separated by 1,100 feet or more. All other aspects of your life link class feature are unaffected."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -311,7 +287,6 @@
 			"",
 			"You are convinced you're alive to achieve a great purpose. You gain a +1 trait bonus on all saving throws to resist death effects and a +1 trait bonus on Constitution checks made to stabilize while dying."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -323,7 +298,6 @@
 			"",
 			"You are touched by the supernatural essence of nature, marking you since birth as something other than purely mortal. Choose a single 0-level {main/spells_<druid/ spell}. You can cast this spell once per day as a spell-like ability with a caster level equal to your character level."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -335,7 +309,6 @@
 			"",
 			"Few understand the medium's willingness to harbor powerful spirits, but even if you aren't one of these talented few, you've always identified with their abilities. you've always felt that you were not alone in this world and that a mysterious guiding spirit watches over you with singular focus. You may have briefly glimpsed this strange spirit - or maybe you simply feel its presence in times of need. Once per day as a swift action, you can look to your guiding spirit for advice. The next time you roll a d20 in that same round, roll twice and pick the better result. If one of these two rolls is a natural 20, you can use this ability again that same day."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -351,7 +324,6 @@
 			"",
 			"You apprenticed for a time to an artisan who often built magic items, and he taught you many handy shortcuts and cost-saving techniques. Whenever you craft a magic item, you reduce the required gp cost to make the item by 5%."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -363,7 +335,6 @@
 			"",
 			"You've dealt too often with cruel fey magic, and so gain a +2 bonus on Will saves against hexes and fey creatures' spells and spell-like abilities."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -375,7 +346,6 @@
 			"",
 			"When a nonevil humanoid attempts to read your mind via a magical effect, the reader must attempt a Will save opposed by your Wisdom or Charisma check (your choice). If the reader fails this save, she is shaken for 1 round. If she fails by 10 or more, she is instead frightened for 1 round, then shaken for 1 round."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -387,7 +357,6 @@
 			"",
 			"You studied at Anuli's center for druidic magic long enough to begin bonding with a familiar. You gain a +1 trait bonus on Handle Animal checks. You may substitute this trait for {feat/Iron Will} as the prerequisite for the {feat/Familiar Bond} feat."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -399,7 +368,6 @@
 			"",
 			"Pathfinders of different backgrounds don't always realize what's best for them, and you have perfected the art of forcing your magical boons on your allies. Whenever you cast a harmless spell, you gain a +2 trait bonus on caster level checks to overcome spell resistance, and the saving throw DC of the spell (if any) is increased by 2."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -411,7 +379,6 @@
 			"",
 			"You maintain a sense of direction, even on planes where direction is relative. If you are on a plane that has no analogue to north, you automatically know the direction toward the plane's major dominating feature (for instance, Pharasma's Spire in the Boneyard, or the sun in Nirvana). If there is no such dominating feature, you instead know the direction of the closest feature significant to one of the plane's divinities or demigods."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -425,7 +392,6 @@
 			"",
 			"Suggested Characters: Gebbites, Urgathoans, Ustalavs."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -439,7 +405,6 @@
 			"",
 			"Suggested Characters: Drumans, dwarves, Torag worshipers."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -451,7 +416,6 @@
 			"",
 			"The bond between you and a close sibling is nearly mystical. Choose a single sibling with whom to share this bond. Once per day when you fail a saving throw while your sibling is within 30 feet, you may reroll that saving throw using your sibling's saving throw modifier. If you and the sibling are twins or otherwise part of a multiple birth, you gain a +2 trait bonus on the rerolled saving throw. Your sibling must be willing to grant you the reroll. If you fail the saving throw, you and your sibling are dazed for 1 round."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -463,7 +427,6 @@
 			"",
 			"Once per day when you cast a divination spell, you can cast that spell as if your caster level were 1 level higher in the appropriate class. You also gain a +1 trait bonus on any Knowledge checks associated with your sorcerer bloodline, if any."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -475,7 +438,6 @@
 			"",
 			"You have been exposed to the magical energies of lamias in your past, or you have heard innumerable stories about your family's dealings with lamias, and you have built up a resistance to their charms. You gain a +1 trait bonus on saving throws against enchantment effects and a +2 trait bonus on saving throws against the spells and spell-like abilities of lamias."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -487,7 +449,6 @@
 			"",
 			"Select one spell belonging to the abjuration or transmutation school on your spell list. When you cast that spell or it is cast on you, treat the caster level as 2 higher for the purpose of determining the duration."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -499,7 +460,6 @@
 			"",
 			"Once per day, you may make a Strength- or Constitution-based ability check or skill check using you eidolon's ability score in place of your own. Your eidolon must be summoned and with 30 feet for you to use this trait."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -511,7 +471,6 @@
 			"",
 			"When targeting a good-aligned creature with a spell or spell-like ability with the pain descriptor or that imposes a morale penalty, increase its effective caster level by 1. If you are of an evil alignment, increase the save DC of the effect by 1 as well."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -523,7 +482,6 @@
 			"",
 			"Born during a lunar eclipse, you were forever marked by the moon's mysterious and ancient magic. You gain a +1 trait bonus on saving throws against the spells and spell-like abilities cast by humans."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -535,7 +493,6 @@
 			"",
 			"Your early magical training involved study of the properties and creation of magic items. You gain a +1 trait bonus on Appraise checks and a +1 bonus on any Craft checks attempted while making magic items."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -549,7 +506,6 @@
 			"",
 			"Suggested Characters: Gnomes, Razmir worshipers, witches."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -565,7 +521,6 @@
 			"",
 			"You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Pick a class when you gain this trait - your caster level in that class gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -581,7 +536,6 @@
 			"",
 			"One of your parents was a gifted spellcaster who not only used metamagic often, but also developed many magical items and perhaps even a new spell or two - and you have inherited a fragment of this greatness. Pick one spell when you choose this trait. When you apply metamagic feats to this spell that add at least 1 level to the spell, treat its actual level as 1 lower for determining the spell's final adjusted level."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -597,7 +551,6 @@
 			"",
 			"Either from inborn talent, the whimsy of the gods, or obsessive study of strange tomes, you have mastered the use of a cantrip. Choose a 0-level spell. You may cast that spell once per day as a spell-like ability. This spell-like ability is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st. The spell-like ability's save DC is Charisma-based."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -609,7 +562,6 @@
 			"",
 			"Once per day as a swift action, you can lose a single 1st-, 2nd- or 3rd-level magus spell to regain 1 arcane pool point. You can't exceed the maximum number of arcane pool points in your arcane pool by using this trait."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -625,7 +577,6 @@
 			"",
 			"Mathematics has always come easily for you, and you have always been able to \"see the math\" in the physical and magical world. You gain a +1 bonus on Knowledge (arcana) and Knowledge (engineering) checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -637,7 +588,6 @@
 			"",
 			"You have learned much from tinkering with ancient technology from the Jistka Imperium. Choose one of the following skills: Disable Device, Knowledge (engineering), or Use Magic Device. Once per day, you can reroll a check with that skill before the outcome of the check is revealed. You must take the second result, even if it is worse."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -649,7 +599,6 @@
 			"",
 			"Your meticulous carefulness makes your bombs and extracts more potent. Once per day, you can either add a +2 trait bonus to the save DC for one bomb you throw or extend the duration of one extract you imbibe by 2 rounds. Extracts with an instantaneous duration are not affected by this trait."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -661,7 +610,6 @@
 			"",
 			"While some figure out how to use magical devices with stubborn resolve, your approach is more pragmatic. You may use your Intelligence modifier when making Use Magic Device checks instead of your Charisma modifier."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -673,7 +621,6 @@
 			"",
 			"You treat others with a clear and calculating intellect. You gain a +1 trait bonus on all Heal checks, and you may use your Intelligence modifier when making Heal checks instead of your Wisdom modifier."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -685,7 +632,6 @@
 			"",
 			"You've learned how to infuse your healing magic with lingering traces of light. Whenever you cast a spell from the conjuration (healing) school that has a casting time of a standard action, you can extend its casting time to a full-round action to imbue the target with light, as per light, with a duration of 1 round per caster level."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -697,7 +643,6 @@
 			"",
 			"Your early training grants you knowledge of the arcane. You gain a +1 trait bonus on Knowledge (arcana) checks, and are considered trained in that skill even if you have no ranks in it."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -709,7 +654,6 @@
 			"",
 			"Your great force of will makes your magic harder to dispel. Your caster level is treated as 1 level higher whenever someone attempts to dispel one of your spells."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -721,7 +665,6 @@
 			"",
 			"[Rivethun](rule/aff_animists) is an ancient tradition of dwarven shamans who learned to listen to and affect the world around them by reflecting on the friction between body and spirit. As someone who feels a similar friction between your inner spirit and physical body, you have picked up some old rivethun meditation techniques, even if you aren't a dwarf. While you suffer a physical ailment, such as disease, poison, or ability damage to Strength, Dexterity, or Constitution (but not including hit point damage), you gain a +2 trait bonus on Will saving throws. While you suffer a mental ailment, including insanity, any charm or compulsion effect, or ability damage to Intelligence, Wisdom, or Charisma, you gain a +2 trait bonus on Fortitude saving throws."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -733,7 +676,6 @@
 			"",
 			"You studied various Analects of Aroden from a young age and became skilled at using magic written by others. You can cast {spell/read magic} as a spell-like ability three times per day, using your character level as your caster level."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -747,7 +689,6 @@
 			"",
 			"Suggested Characters: Kellids, Mana Wastes natives, Shoanti."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -759,7 +700,6 @@
 			"",
 			"You were inducted into a secret magical tradition such as the Esoteric Order of the Palatine Eye. You can cast {spell/read magic} once per day as a spell-like ability, and gain a +1 trait bonus on Use Magic Device checks to activate scrolls you cannot normally use."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -771,7 +711,6 @@
 			"",
 			"Being self-taught has made it necessary for you to scour all documentation you can get your hands on. You gain a +1 trait bonus on Linguistics checks to decipher unfamiliar languages, and Linguistics is always a class skill for you. In addition, you gain a +1 trait bonus on Spellcraft checks made to decipher the writing on a scroll."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -783,7 +722,6 @@
 			"",
 			"You have learned the secret to casting some spells without lesser material components. Choose one school of magic when you pick this trait. You can cast spells from that school as if you had the {feat/Eschew Materials} feat."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -799,7 +737,6 @@
 			"",
 			"Growing up, you were always around magical effects to the extent that you realized much of it was mere smoke and mirrors. You gain a +2 trait bonus on all saving throws against illusions."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -811,7 +748,6 @@
 			"",
 			"You have always had a knack for making useful things, and your talent as an artisan was evident even at an early age. You gain a +1 trait bonus on Craft checks, and the cost of creating magic items is reduced by 5%."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -823,7 +759,6 @@
 			"",
 			"The union between spirits and spiritualists is one of the strongest (and strangest) bonds shared between the mortal realm and the spirit world. Spiritualists can use the knowledge of their linked phantoms to better negotiate with other spirits. Whether you're a spiritualist or not, you've always had a similar knack when it comes to interactions with the spirit world. You gain a +4 trait bonus on checks to notice haunts, and when interacting with someone who is possessed by an incorporeal undead creature, you gain a +2 trait bonus n Bluff, Diplomacy, Intimidate, and Sense Motive checks against that target."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -835,7 +770,6 @@
 			"",
 			"Aroden wrote much about ways to use weapons to enhance magic's effectiveness, and you have taken to heart the insights gleaned from his words. Whenever you strike a foe with a weapon, you gain a +2 trait bonus on caster level checks to overcome that foe's spell resistance until the end of your next turn."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -847,7 +781,6 @@
 			"",
 			"You share an affinity with elemental lightning. You gain DR 1/- against creatures and attacks with the electricity type."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -859,7 +792,6 @@
 			"",
 			"You can channel extra power into one of your bloodline spells. Once per day as a free action, you gain a +1 trait bonus to the DC of the saving throw of one of your bonus bloodline spells."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -871,7 +803,6 @@
 			"",
 			"Your birth came at a time when the sun was auspiciously aligned with your birth sign. As a result, you have a natural affinity for light and life. Whenever you're affected by a healing effect that would heal more hit points than your maximum hit point total, you gain the excess healing as temporary hit points. You can gain up to a number of temporary hit points per day equal to your character level in this way. These temporary hit points last for 1 minute."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -883,7 +814,6 @@
 			"",
 			"You've discovered the secret of stable transmutations. Any transmutation spell you cast upon yourself has its duration increased by 2 rounds. Transmutation spells with an instantaneous duration are not affected by this trait."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -895,7 +825,6 @@
 			"",
 			"You've studied more magic than what you can actually perform. You gain a +2 trait bonus on Spellcraft checks, or a +3 bonus if you aren't a spellcaster."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -911,7 +840,6 @@
 			"",
 			"You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and frequently caused quite a bit of damage and headaches for your parent as a result. You gain a +1 bonus on Use Magic Device checks, and Use Magic Device is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -923,7 +851,6 @@
 			"",
 			"Your exposure to powerful energies instilled in you a supernatural resistance to diseases, particularly those of a demonic bent. You gain a +3 trait bonus on saving throws against diseases you are exposed to while fighting one or more creatures of the demon subtype, or while such a hostile creature is within 100 feet."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -935,7 +862,6 @@
 			"",
 			"You've often found yourself in situations where a lack of focus can lead to worse than a lost spell. You gain a +2 trait bonus on {rule/concentration} checks."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -947,7 +873,6 @@
 			"",
 			"You are adept at casting spells even in the most precarious situations. You gain a +1 trait bonus on {rule/concentration} checks. This trait bonus increases to +4 when you are grappled, pinned, in violent weather, or entangled."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -959,7 +884,6 @@
 			"",
 			"Your eidolon excels at a movement type you do not possess. Your eidolon receives a +5-foot enhancement bonus to one type of speed it has that you do not, such as a climb or swim speed. If your eidolon doesn't already possess such a mode of movement, you may apply this trait bonus later if it gains an evolution that grants it such a mode. Once this bonus is applied to a mode of movement, it can't be switched to another mode."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -971,7 +895,6 @@
 			"",
 			"Each fiendish animal you conjure with any summon spell gains +1 hit point per hit die for the duration of the spell that summoned it."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -985,7 +908,6 @@
 			"",
 			"Suggested Characters: Elves, Numerians, Sarkorians."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -999,7 +921,6 @@
 			"",
 			"Suggested Characters: Chelaxians, Irriseni, Mwangi."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1011,7 +932,6 @@
 			"",
 			"You were exposed to an artifact or other powerful magic that infused you with the power of dragons. Choose the acid, cold, electricity, or fire spell descriptor when you take this trait. Once per day for every 2 caster levels you have (minimum once per day), when you cast a spell that has your chosen elemental descriptor, you can deal an additional 1d4 points of damage of that energy type to one target of that spell."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1023,7 +943,6 @@
 			"",
 			"You share an affinity with elemental earth. You gain DR 1/- against creatures and attacks with the earth type."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1035,7 +954,6 @@
 			"",
 			"You are a magically adept merchant who has learned tricks to protect your own goods, or you serve a city as an impartial auditor who guards against arcane trickery in the bazaars. You gain a +2 trait bonus on Spellcraft checks and Will saves to identify an item's true properties, such as against spells like magic aura."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1047,7 +965,6 @@
 			"",
 			"You have an unquenchable thirst for knowledge about the world and desire to obtain it firsthand. You gain a +1 trait bonus on all Knowledge (dungeoneering) and Knowledge (history) checks, and you may treat your caster level as 1 level higher for all conjuration spells of the teleportation subschool."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1059,7 +976,6 @@
 			"",
 			"A traumatic experience in your childhood, such as surviving a violent earthquake, fleeing a shipwreck, escaping a devastating fire, or getting struck by lightning, caused you to develop a fear of the corresponding element. You can instinctively shield yourself against elemental dangers of that type. Select acid, cold, electricity, or fire at character creation (once chosen, this damage type can't be changed). Once per day when you are subjected to an attack or effect that deals energy damage of that type, you can gain resistance 10 against that damage type for 1 round as an immediate action. This resistance does not stack with any existing resistance you might have against that energy type."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1071,7 +987,6 @@
 			"",
 			"Because of special training, your unique body chemistry, or the uncovering of an alchemical secret, your mutagens last longer. The bonuses and penalties granted by your mutagens last for 1 additional minute per alchemist level."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1083,7 +998,6 @@
 			"",
 			"You are able to sense the motives of others and use that sense to bolster your magic against dispelling. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you. In addition, your caster level is treated as 1 level higher for the purposes of any attempts to dispel your magic."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1101,7 +1015,6 @@
 			"**Void:** Cold energy, 30-foot cone  ",
 			"**Vortex:** Fire energy, 30-foot cone"
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1113,7 +1026,6 @@
 			"",
 			"An outsider visited you at a young age, and you have had a significant affinity with that type of outsider ever since. Choose a subtype of outsider, such as {subtype/angel} or {subtype/elemental}. When you summon an outsider of that subtype via {spell/summon monster>_1}, {spell/planar ally}, {spell/planar binding}, or similar spells and abilities, the summoned creature gains a number of temporary hit points equal to the level of spell used to summon it."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1125,7 +1037,6 @@
 			"",
 			"Your wiles are particularly potent against people who share a race with you, as your beauty is often held up as a symbol of perfection. The DC of your mind-affecting effects increases by 1 against creatures that have at least one of the same subtypes as you."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1137,7 +1048,6 @@
 			"",
 			"You are adept at disguising your true talents. You gain a +1 trait bonus on Bluff checks and on Use Magic Device checks made to emulate a class feature."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1149,7 +1059,6 @@
 			"",
 			"You can select a magnetic compass for your arcane bond class feature; this compass is nonmagical, but you can later spend 250 gp to upgrade it into a wayfinder. Choosing this trait allows you to upgrade this wayfinder to a variant or unique wayfinder per the normal rules for [improving magic items](rule/adding_new_abilities). A bonded wayfinder must be held in your hand to grant the benefits of being a bonded object."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1161,7 +1070,6 @@
 			"",
 			"You know that potion recipes should be followed with exact precision. You gain a +2 trait bonus on all Craft (alchemy) checks and on Spellcraft checks made to brew potions."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1173,7 +1081,6 @@
 			"",
 			"You were a prisoner or slave in a city on the Elemental Planes, such as the cruel efreet's City of Brass on the Plane of Fire or the dwarven city of Urgashaz on the Plane of Earth. When you escaped that city, you had to use your captors' weapons and magic against them in addition to your sheer wits, and you learned how to find weaknesses in their natural resistances. At character creation, select acid, cold, electricity, or fire (once chosen, this selection can't be changed). Once per day as a swift action, you can choose a single creature that is within 30 feet of you and within your line of sight; treat that creature's resistance against your chosen energy as 5 lower than its normal energy resistance for 1 round. This ability has no effect if the creature has no resistance to the chosen energy or if the creature has immunity to the chosen energy."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1185,7 +1092,6 @@
 			"",
 			"You were, or are, possessed in some way by another entity that grants you occasional access to its knowledge. Once per day, you can attempt a Knowledge check of your choice even if you are not trained in that skill and it is not usually possible to use that skill untrained. If you can normally use that skill untrained, you gain a +2 trait bonus on the check."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1199,7 +1105,6 @@
 			"",
 			"Suggested Characters: Lamashtans, Mana Wastes natives, Nexians."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1211,7 +1116,6 @@
 			"",
 			"You learned the secrets of transmutation from a follower of the empyreal lord Korada. Whenever you cast a spell from the transmutation school, its effects manifest at +1 caster level. Additionally, select one of the following transmutation spells: bear's endurance, bull's strength, cat's grace, eagle's splendor, fox's cunning, or owl's wisdom. Once per day when you cast that spell, its duration is doubled. A spell affected by this trait cannot be modified further by the {feat/Extend Spell} metamagic feat or similar abilities."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1223,7 +1127,6 @@
 			"",
 			"Your eidolon - and your connection to it - makes others ill at ease. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you. In addition, if your eidolon is summoned and within 30 feet, and its size exceeds your own, use its size modifier on any Intimidate checks you make."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1235,7 +1138,6 @@
 			"",
 			"Your exposure to eldritch phenomena has caused your skin to develop a strange pattern. Once per day as you cast a spell whose casting time is 1 round or less, you can roll 1d4-2 (no minimum) and add the result to that spell's effective caster level. In an area of {rule/primal magic}, the minimum result of this roll is 0, not -1."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1247,7 +1149,6 @@
 			"",
 			"You are amazingly resistant to energy attacks because of either your upbringing or magical experimentation. Each type of energy resistance you have (if any) increases by 2 points."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1259,7 +1160,6 @@
 			"",
 			"Without a single gesture, you can unleash a bloodline spell. Once per day, you can cast a bloodline spell as if you had the {feat/Still Spell} feat. Using this trait does not modify the spell's level."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1282,7 +1182,6 @@
 			"",
 			""
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1294,7 +1193,6 @@
 			"",
 			"You discovered a secret that enhances the energy of some spells. Once per day as a free action, when you cast a spell that deals acid, cold, electricity, or fire damage, you can enhance that spell with volatile energy. When you do, it deals 1d4 points of extra damage of the same energy type."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1306,7 +1204,6 @@
 			"",
 			"You share an affinity with elemental water. You gain DR 1/- against creatures and attacks with the water type."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1318,7 +1215,6 @@
 			"",
 			"You narrowly escaped death when a Winter Witch punished you for supporting the Heralds. You gain cold resistance 5 against the first cold damage you take each day, and gain a +2 bonus on saving throws against the fear effects of creatures with the cold subtype."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1334,7 +1230,6 @@
 			"",
 			"A druid at the Grand Lodge revealed to you secrets changing your form into that of an animal. Whenever you use your wild shape class ability to turn yourself into a Small or Medium animal, the effect lasts for 2 hours per druid level instead of 1 hour per druid level."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1347,7 +1242,6 @@
 			"",
 			"Once per day after 10 minutes of foraging, you can sprinkle nutritious herbs into a magical consumable item (such as a potion of cure light wounds). If the item is consumed within 1 minute, it provides nourishment as if it were a normal meal to the creature that partakes of it."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1360,7 +1254,6 @@
 			"",
 			"Your talent for illusion goes beyond a mere knack for figments and phantasms. You can actually channel spell energy into simple illusions that augment your attempts at deception. As a swift action, you may expend one prepared spell or spell slot to gain a bonus on the next Bluff check you make, provided the check takes place before the beginning of your next turn. The bonus on this check is equal to the level of the spell consumed. You may use this ability 3 times per day. Only gnomes of nonlawful alignment may take this trait."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1373,7 +1266,6 @@
 			"",
 			"The subtle power of the deep places of the world flows within you, and grants you mastery of summoning beings of earth and stone. Any creature you conjure with a summon spell that has the earth subtype or a burrow speed gains a +1 morale bonus on attack rolls and a +1 enhancement bonus to Armor Class for the duration of the spell that summoned it."
 		],
-		"sourceEnd": true,
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
 	},
@@ -1388,7 +1280,6 @@
 			"",
 			"Your ability to think quickly on your feet has stayed with you, and you quite often feel that you're in the right place at the right time. You gain a +2 trait bonus on Initiative checks."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1403,7 +1294,6 @@
 			"",
 			"Choose one spell you can cast. From now on, you always cast this spell at +1 caster level."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1418,7 +1308,6 @@
 			"",
 			"Years of living with the fear and uncertainty of the unclaimed debt to Professor Lorrimor have inured you to extreme anxiety. You gain a +2 trait bonus on saves against fear effects."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1433,7 +1322,6 @@
 			"",
 			"Your years of hard work have paid off, granting you an additional 150 gp in starting wealth."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1448,7 +1336,6 @@
 			"",
 			"Years of study have improved your combat effectiveness against your chosen foe. Choose a non-humanoid creature type (and subtype if outsider). You gain a +1 bonus on damage rolls against creatures of this type. See the ranger {ability/favored enemy} suggestions for a list of creature types most likely to appear in this campaign."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1463,7 +1350,6 @@
 			"",
 			"You gain a +2 trait bonus to one Knowledge skill of your choosing and consider it a class skill."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1476,7 +1362,6 @@
 			"",
 			"Your family has long been in show business. Perhaps it was your parents, or an older sibling, or an uncle or aunt-whatever the case, one of your close relatives is, or was, a well-known and well-loved actor or actress. That this relation died in some compromising and embarrassing way has done little to alter your family's name and fame - if anything, the unfortunate death has increased it. When folk learn your last name, they are quick to assume you live a wild life like your ill-fated relative, and whether you bask in this notoriety or do your best to hide your heritage, the years of association with the acting scene have had their effect. You've certainly inherited your relative's talents, and are a larger-than-life figure, a melodramatic attention-hound, or a sly manipulator of emotions. You gain a +1 trait bonus on Perform (act) skill checks, and the skill is always considered a class skill for you. Furthermore, You've inherited some of your relative's funds, and begin play with a nest egg of 300 gp that you can spend however you wish."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1489,7 +1374,6 @@
 			"",
 			"You've long heard rumors of dark deeds afoot in Westcrown. Shipments of valuable cargo that go missing with nary a trace or question asked. People who disappear as though they never existed. Lords of business and nobles who speak in veiled references and accidental slips of masters even they must obey. What lords rule the Westcrown underworld? Do the tales of far-reaching criminal organizations hold a hint of truth? Could the fabled {rule/aff<Council of| Thieves}, said to have been purged from the city ages ago, have somehow survived or reformed? And what hold do they hold over the city today? You don't know, but you're determined to find out! Choose one of the following skills: Bluff, Diplomacy, Knowledge (local), Perception, Sense Motive, or Stealth. You gain a +1 trait bonus on this skill and it is always considered a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1502,7 +1386,6 @@
 			"",
 			"All your life you've lived within the grip of devil-possessed Cheliax. You care little for the religion of your country, but that is the way of life in the most magnificent empire in the world, and who are you to question the faith of the empire's rulers? Certainly not a fool like some of your more idealistic acquaintances, possessed of bizarre ideals about personal freedoms and egalitarian rulership-who can say whatever happened to them? You know of Hell and the rigidity of its grim rulers, you've seen devils and how they might be employed to the betterment of those with the might to control them, and you know of the dark faith of your country. You might not be a devil worshiper yourself, but there are realities to living in Cheliax, and it's always good to know what's really going on behind the scenes. Your knowledge of diabolism grants you a +1 bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks made against Westcrown's nobility, and a +1 bonus on all saving throws made against mind-affecting attacks from devils."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1515,7 +1398,6 @@
 			"",
 			"You are a tiefling. You might be an escaped slave, a hidden shame, or a homeless vagabond, but whatever your upbringing, life has been particularly hard on you. You have suffered greatly, nearly starving to death one winter, nearly being beaten to death by racist sailors one summer, and so on. Whether or not these experiences have made you a bitter and cynical scoundrel or a pious and hopeful optimist is up to you, but one thing is certain-you are something less than even your tiefling kin. Perhaps it is a result of your hard life, or perhaps it is due to some fault in your fiendish heritage, but you lack a tiefling's standard resistances to cold, electricity, and fire-instead, you merely have a +2 bonus on all saving throws made against these effects. Likewise, you do not have the ability to use {spell/darkness} as a spell-like ability once per day-instead, you may choose any one 0-level spell that you can instead use at will as a spell-like ability."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1528,7 +1410,6 @@
 			"",
 			"Westcrown has long suffered under a peculiar curse, a blight that rises every night, bringing with it fell beasts that hunt the shadows. No one can say from whence these night-horrors come - though some blame the mysterious wizards of Nidal, other claim that it's some curse laid by fallen Aroden, while still others suggest some shadowy mastermind manipulates an ebon brood from the depths of Westcrown's northern ruins. Whatever the case, the people of Westcrown have long feared the night, but not you. You're goal is to reclaim the darkness from the beasts that hide within. You've acclimated yourself to the dark, and thus act with greater precision in the shadow than most. When attacking targets in areas of dim light, you do not suffer the standard 20% miss chance on attack rolls for being in the poorly lit area."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1541,7 +1422,6 @@
 			"",
 			"Westcrown's dilapidated Pathfinder lodge of Delvehaven has long excited your imagination. Forcibly closed by the order of the city's diabolical rulers, the Pathfinders of Westcrown were exiled, forcing them to leave behind untold knowledge and the treasures of countless expeditions. Today, Delvehaven lies under the pale of fearful rumors and dark magic, and bureaucratic red tape has prevented trespass on the lodge's well-protected grounds. Having secretly and illegally contacted agents of the Pathfinders, you've expressed your interest in aiding their ventures in Cheliax-with a particular eye toward investigating Delvehaven, the source of your long-standing adventuresome interests. To your surprise, some days ago you received a message back from an unnamed Pathfinder operating underground in the country. Along with encouraging you to investigate the lodge and report your findings to the Grand Lodge in Absalom, he's sent along a battered and tarnished, yet still functional wayfinder. you've promised yourself to pay back your unknown contact the 500 gp cost of the item someday, but until then, it's yours to use. A wayfinder is a magical compass that grants you a +2 circumstance bonus on Survival checks to avoid becoming lost, and can be commanded to emit {spell/light} as the spell (CL 5th) as a standard action."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1554,7 +1434,6 @@
 			"",
 			"There's something very wrong with the world. Spouses were not meant to huddle at their windows hoping and fearing day after day that their loved ones returned from work safely. Parents were not meant to hush their children when questioned about what happened to their neighbors. Citizens were not meant to avert their eyes and hurry by as guardsmen beat old friends in the street. The people of Westcrown have suffered long enough! It's time for a change. But how? You've heard rumors of bands of free-thinking individuals meeting after the citywide curfew. Perhaps they might share your ideals? You are quick to react to opportunity, both physically and mentally, and know that it is with sudden and swift action that many conflicts are best resolved. You gain a +1 trait bonus on Initiative checks, and if you act in a surprise round, you gain a +1 trait bonus on all attack rolls."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1573,7 +1452,6 @@
 			"",
 			"**Reformed Criminal:** You've given up the life of crime, and managed to talk your way out of any repercussions such as jail time or fines. You've told yourself that you would rather leave your past behind, yet the concept of seeing Gaedren Lamm pay for his crimes still appeals to you. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1586,7 +1464,6 @@
 			"",
 			"No crime is too despicable for Gaedren Lamm and his thugs - a gang of lowlife murderers, kidnappers, and drug dealers that operate in Korvosa's Midland district. You've lost someone to Lamm and now you're out for revenge. While Lamm remains alive and free, you are not slain until your hit point total reaches a negative number equal to your Constitution score + 3. Once Lamm is imprisoned or killed, you lose the former benefit but gain 3 permanent hit points."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1608,7 +1485,6 @@
 			"",
 			"**Personal Addiction:** You were the addict. You blame Gaedren for your brush with death and hate how his drugs are causing similar problems among other youths. Fortunately, your body recovers quickly from toxins, and you gain a +1 trait bonus on Fortitude saving throws."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1630,7 +1506,6 @@
 			"",
 			"**Family Honor:** The person who was framed was a family member, perhaps a father or sister. You managed to trick the fisherman into revealing the truth with your skilled tongue. You gain a +1 trait bonus on Bluff checks, and Bluff is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1652,7 +1527,6 @@
 			"",
 			"**Orphaned:** The murder victim was your only surviving parent. You had to work hard to make ends meet for yourself and any siblings, and often had to scavenge for food. You gain a +1 trait bonus on Survival checks, and Survival is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1674,7 +1548,6 @@
 			"",
 			"**Missing Son or Daughter:** The missing child is your own son or daughter, a niece or nephew, or a child you were charged with protecting. The child was abducted during a trip to the market or other daily event. Your stubbornness and long hours spent searching for rumors grant you a +1 trait bonus on Will saves."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1696,7 +1569,6 @@
 			"",
 			"**Torturedv:** After you made one too many errors, Gaedren tortured you and left you for dead in a garbage heap. Your scars and memories have motivated you to hone your reaction speed and make you rather jumpy. You gain a +1 trait bonus on Reflex saves."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1709,7 +1581,6 @@
 			"",
 			"Your family is particularly hearty, and has even passed down tales of a Varisian ancestor who sought to cure (or, some loose-lipped relatives say, create) diseases. You gain a +1 trait bonus on saving throws made to resist diseases. Additionally, you are immune to the diseases Vorel's phage and blood veil. You do not need to be of the Varisian ethnicity to take this campaign trait, but if you're not, your background should explain how you have a Varisian ancestor."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1725,7 +1596,6 @@
 			"",
 			"You've always had an interest in magic, but you're fascinated with those legendary magic items known as artifacts. You've spent years researching these mythical relics and committed the stories and legends about them to memory, making you something of an expert on the subject. You gain a +1 trait bonus on Spellcraft checks to identify the properties of magic items and a +1 trait bonus on Use Magic Device checks, and one of these skills (your choice) becomes a class skill for you. In addition, whenever you first encounter an artifact, there is a 50% chance (+1% per level) that you recognize the artifact and know its name, origin, and something of that artifact's powers, abilities, or dangers. Exactly how much knowledge you possess is left to the GM's discretion."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1741,7 +1611,6 @@
 			"",
 			"You've always hated dragons. Perhaps one of your ancestors was a well-known dragonslayer, or a rampaging dragon killed your family or friends. Maybe the stories you grew up hearing about knights rescuing captive princes and princesses from the clutches of evil dragons inspired you to slay dragons. Whatever the reason for your obsession, it has driven you to study how to fight dragons and defend yourself against their fearsome attacks. You gain a +1 dodge bonus to AC against creatures with the dragon type and a +2 trait bonus on Reflex saves against breath weapon attacks."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1757,7 +1626,6 @@
 			"",
 			"Dwarves are well acquainted with the threats posed by giants and orcs, and they have spent centuries honing their techniques for fighting these foes. You have trained with the dwarves and have learned some of the tactics they use against their hated enemies. You gain a +2 dodge bonus to AC against creatures with the giant subtype (this does not stack with the bonus granted by the defensive training racial trait of dwarves and gnomes) and a +1 trait bonus on attack rolls against creatures with the orc subtype (this does not stack with the bonus granted by the dwarf hatred racial trait). Dwarves and gnomes can't choose this trait."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1773,7 +1641,6 @@
 			"",
 			"Your family has always been dogged by rumors that a bit of giant blood got into the family's veins at some point. Whether this was through alchemical or magical experimentation, or because your great-great-grandfather married a giant, it has made you big for your race, and may have given you other minor cosmetic features of giants, such as flaming red hair, a bluish tinge to your skin, or oversized hands. When you wield a weapon that is larger than your size, the penalty on attack rolls for using inappropriately sized weapons is reduced by half. In addition, you gain a +2 trait bonus to your CMD against awesome blow combat maneuvers. If you're a dwarf, your stability racial trait applies to awesome blow combat maneuvers as well."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1789,7 +1656,6 @@
 			"",
 			"You grew up listening to tales of a famed ancestor's mighty battles against giant foes. Just the mention of your ancestor's name is enough to strike fear into the heart of the most stalwart giant warrior, and you've resolved to follow in your forebear's footsteps. You take no penalty on Intimidate checks against creatures with the giant subtype that are larger than you, and you gain a +1 trait bonus to the DC of any fear-based effect you use against a creature with the giant subtype."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1805,7 +1671,6 @@
 			"",
 			"You grew up in a tranquil, happy home near the mountains, but that peace was shattered when giants came down from the mountains to raid your settlement. The giants killed your parents and left you a young orphan, and since that day, you've sworn to avenge the deaths of your kin. You gain a +1 trait bonus on attack rolls against creatures with the giant subtype, and a +2 trait bonus on rolls to confirm critical hits against creatures with the giant subtype."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1821,7 +1686,6 @@
 			"",
 			"You've trained with some of the best giantslayers out there, and have learned how to avoid the worst effects of a giant's powerful attacks. You gain a +1 trait bonus on Reflex saves. In addition, once per day, when a creature with the giant subtype successfully confirms a critical hit against you with a weapon or a slam attack (not a spell or special ability), you can roll with the attack. You take normal damage from the blow, as if the critical had not been confirmed. You must be aware of the attack and able to react to it - if you are denied your Dexterity bonus to AC, you can't use this ability. If you are a dwarf or a gnome, you can use this ability twice per day."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1837,7 +1701,6 @@
 			"",
 			"You've always been fascinated by the giant races, and have devoted a considerable amount of time to studying their history and societies, gaining insight into the way they think and use their abilities. You gain a +1 trait bonus on Diplomacy checks against creatures with the giant subtype and a +1 trait bonus on Knowledge (local) checks regarding creatures with the giant subtype, and one of these skills (your choice) becomes a class skill for you. In addition, you know the Giant language (this does not count toward your number of languages)."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1853,7 +1716,6 @@
 			"",
 			"You were born and raised in the town of Trunau, one of the few human settlements in the orc-dominated Hold of Belkzen. Orc attacks are an ever-present threat, and like all Trunauans, you have made the Standing Vow: to hold Trunau against all attackers, orc or otherwise, to stand your ground, and to live free or die trying. Upon coming of age, you were given a hopeknife - a small, sheathed dagger, usually worn on a chain under your clothes - and taught how to use it to take your own life to avoid capture by orcs, or to grant the mercy of a quick death to the wounded. As a native, you have served in Trunau's militia, and fought alongside Patrol Captains Kurst and Rodrik Grath. You begin play with a hopeknife (a masterwork dagger), and your tenacity in the face of adversity grants you a +1 trait bonus on Will saves."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1869,7 +1731,6 @@
 			"",
 			"You're trained in fighting opponents that are larger than you, and you are skilled at keeping them on their toes, pestering them from all directions. You gain a +1 trait bonus on Acrobatics checks, and Acrobatics becomes a class skill for you. In addition, you gain a +4 trait bonus on Acrobatics checks to move through an enemy's space without provoking an attack of opportunity, provided that enemy is larger than you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1884,7 +1745,6 @@
 			"",
 			"You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is always a class skill for you. The Noble Scion feat does not have a Charisma prerequisite for you. In addition, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp. If you take the Noble Scion feat, your last name is probably Aulamaxa, Aulorian, Delronge, Jarvis, Jhaltero, Sarini, Tanessen, or Vashnarstill; if you're not human, you were adopted into the family. If you don't take this feat, you can make up your last name."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1899,7 +1759,6 @@
 			"",
 			"Choose one type of Perform skill. You gain a +1 trait bonus in that specific Perform skill, and all Perform skills are class skills for you. You also increase the save DCs of all language-dependent spells and effects you create by 1."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1914,7 +1773,6 @@
 			"",
 			"Choose one: you gain a +1 trait bonus on attack rolls and weapon damage rolls or you gain a +1 trait bonus on the save DCs of your spells against agents of House Thrune and worshipers of Asmodeus, including most (but not all) devils."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1931,7 +1789,6 @@
 			"",
 			"You're good at hiding your true colors and faith to avoid attracting the wrong kind of attention. You gain a +1 bonus on Disguise checks, and Disguise is always a class skill for you. In addition, when someone uses {spell/detect good} or {spell/detect law} on you, your effective Hit Dice are 4 lower than their actual total when someone discerns the strength of your aura. If you are a cleric, paladin, or similar divine spellcaster, you treat yourself as if you were a standard-aligned creature rather than a divine spellcaster for these purposes. This means that until you become 9th level, you won't radiate an aura of good or law at all when someone casts one of these detection spells. Finally, your internal convictions that you're on the actual right of law help bolster your mindset, and you gain a +1 trait bonus on all saving throws against mind-affecting effects."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1946,7 +1803,6 @@
 			"",
 			"You gain a +1 trait bonus on Linguistics checks, and Linguistics is always a class skill for you. In addition, your irreverent attitude grants you a +2 trait bonus on all saving throws against fear effects."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1961,7 +1817,6 @@
 			"",
 			"Your familiarity with rebel groups allows you to grant a +2 bonus on an Organization check of your choice once the party reestablishes the Silver Ravens during the first adventure. You can change which check you assign this bonus to once at the start of the rebellion's Upkeep phase. Your time preparing for joining the Silver Ravens has also honed your skill at remaining unseen. You gain a +1 trait bonus on Stealth checks, and Stealth is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1976,7 +1831,6 @@
 			"",
 			"You excel in the role of manager. You treat your Charisma score as if it were 14 (or 2 points higher than its actual score if your actual Charisma is already 14 or higher) for the purposes of determining how many teams you can manage in the rebellion, and for the purposes of determining the bonus you add to your managed teams' actions. In addition, you gain a +1 trait bonus to your Leadership score if you take the {feat/Leadership} feat."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -1991,7 +1845,6 @@
 			"",
 			"You gain a +1 trait bonus on all Perception checks, and Perception is always a class skill for you. In addition, you increase the save DC of any illusion (pattern) spell you cast by 1, and you gain a +1 trait bonus on all saving throws against illusion effects."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2014,7 +1867,6 @@
 			"",
 			""
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2034,7 +1886,6 @@
 			"**Professor Mangvhune:** Knowledge (local) or Knowledge (planes).  ",
 			"**Silver Ravens:** Knowledge (local) or Knowledge (history)."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2049,7 +1900,6 @@
 			"",
 			"You've got a keen eye for what makes a good arrangement and when to walk away from a bad deal. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you. In addition, as an immediate action once per day, you can shift your effective alignment so that you are considered neutral instead of evil for the purpose of good effects that target evil creatures (such as {spell/holy smite} or a {class/paladin/'s} smite evil ability). Your alignment does not actually change when you use this ability."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2064,7 +1914,6 @@
 			"",
 			"When you cast a {spell/summon monster>_1} spell to summon a devil or fiendish creature, the duration of that spell increases by 1 round. In addition, you gain a +1 trait bonus on opposed Charisma checks against devils conjured with {spell/planar binding} spells, and payments to devils you conjure with {spell/planar ally} spells are reduced by 10%."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2077,7 +1926,6 @@
 			"",
 			"You grew up in the church of {faith/Asmodeus}, and have served as a faithful follower your entire life. You've studied the unholy texts, committed the rigid hierarchies of Hell to memory, and striven to eliminate emotion and mercy from your mind in emulation of the Prince of Darkness. You may have continued your career in the church, officially joining the priesthood and aspiring to advance to positions of higher authority and greater power, or you may have left the church, deciding the life of a priest was not for you. In either case, the education you received in the church has remained with you. You gain a +1 trait bonus on Diplomacy, Knowledge (planes), and Knowledge (religion) checks, and one of these skills (your choice) is a class skill for you. You also know the Infernal tongue (this does not count toward your number of languages)."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2094,7 +1942,6 @@
 			"",
 			"You gain a +1 trait bonus on Knowledge (nobility) checks, and Knowledge (nobility) is a class skill for you. In addition, you gain a +1 trait bonus on Charisma-based checks against other members of the Chelish aristocracy. The {feat/Noble Scion} feat does not have a Charisma prerequisite for you. Lastly, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2109,7 +1956,6 @@
 			"",
 			"Your unpredictability and volatile temperament gives you an advantage over your foes. You gain a +2 trait bonus on initiative checks. In addition, you are willing to work with others, and have learned to use your allies' strengths to reinforce your own skills and abilities. Once per day, as long as an ally is within 10 feet of you, you can reroll a single attack roll or skill check before success or failure is known. You must take the results of the second roll, even if it is worse."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2124,7 +1970,6 @@
 			"",
 			"Choose one: against followers of Iomedae, including many (but not all) archons and angels, you gain a +1 trait bonus on attack rolls and weapon damage rolls, or you gain a +1 trait bonus on the save DCs of your spells."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2140,7 +1985,6 @@
 			"",
 			"You are skilled at prevaricating and dissembling, both to deflect blame away from yourself and to mislead others as to your true abilities and role. You gain a +1 trait bonus on Bluff checks, and Bluff is a class skill for you. In addition, your tacit support of Cheliax's social structure, and the clear knowledge of your own place in society, strengthens your resolve. Once per day, when you are adjacent to a human ally of Chelish descent, you can reroll a Will saving throw before success or failure is known. You must take the results of the second roll, even if it is worse."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2164,7 +2008,6 @@
 			"**Order of the Rack:** Longsword or whip.  ",
 			"**Order of the Scourge:** Heavy mace or whip."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2177,7 +2020,6 @@
 			"",
 			"You were born and raised in the town of Longacre on the southwestern fringes of the Whisperwood, or at least have lived there long enough that you're considered a native. You've never been one for the quiet life, and have been considered a miscreant and reprobate since you were a child. As an adult, You've made something of a name for yourself as a thug, enforcer, and petty thief in town, hiring yourself out to anybody who needs muscle in exchange for a few coins. In the course of such employment, You've worked with another local troublemaker named Cimri Staelish and have become friends. Cimri has recently gotten involved with some shadowy, though powerful, characters, and as Hell's Vengeance begins, you and a group of other ne'er-do-wells have agreed to help Cimri burgle a tannery just outside town. With luck, this could be the start of bigger and better things than just working as hired muscle. You gain a +1 trait bonus on Intimidate checks, and Intimidate is a class skill for you. In addition, you gain a +1 trait bonus on weapon damage rolls when you are flanking a foe with an ally."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2192,7 +2034,6 @@
 			"",
 			"You gain a +1 trait bonus on Knowledge (planes) checks, and Knowledge (planes) is a class skill for you. You also know the Infernal tongue (this does not count toward your number of languages). In addition, your studies of Hell's underlying structure give strength to your determination. You gain a +2 trait bonus on Will saves against the mind-affecting effects of outsiders with the good subtype."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2205,7 +2046,6 @@
 			"",
 			"The Thrice-Damned House of Thrune rules Cheliax with autocratic power, and its representatives can be found throughout the empire, drawn from all walks of life. Most of these agents do not work directly as government employees, but they still serve House Thrune in whatever ways they can. You are a true patriot of Cheliax, and have long worked for House Thrune as a paid informant. You report what you see to the authorities, and occasionally carry out specific tasks suited to your skill set and abilities when asked. People like you help prevent potential traitors and other \"undesirables\" from undermining Thrune's authority and keep Chelish society running smoothly. You hope that with continued faithful service, you will eventually be rewarded with greater authority and autonomy as a sworn agent of House Thrune. You gain a +1 trait bonus on Diplomacy checks to gather information, Disguise checks, and Knowledge (local) checks, and one of these skills (your choice) is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2221,7 +2061,6 @@
 			"",
 			"In addition, you receive an invisible {spell/arcane mark} of the encircled cross emblem of Cheliax as a symbol of your loyalty. This mark does not fade and is visible only to other creatures with this trait, or creatures with the ability to perceive the invisible (via {spell/see invisibility} or {spell/true seeing}, for example). You can make this mark visible to other creatures for 1 round as a swift action. If the mark is dispelled or removed (such as with {spell/erase}), it can be replaced with another casting of {spell/arcane mark}, which thereafter functions as detailed in this trait."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2237,7 +2076,6 @@
 			"",
 			"Although the Black Sovereign rules Numeria in name, it's the spellcasters of the Technic League who hold the real power. While their influence is certainly strongest in the capital of Starfall, their touch can be felt even here in Torch - the League takes a significant cut of the town's income as tithes every month. For some reason, you have a grudge against the Technic League. Perhaps your parents lost their jobs as the result of an act they took that displeased the League-you might even suspect the League was responsible for their deaths. Alternatively, you could just rankle at the League's open acceptance of slavery, their reputation for sadism and cruelty, or their penchant for hoarding and controlling technological wonders. Talk to your GM to refine the reasons why you hate the Technic League, but you're convinced that they are somehow responsible for putting out the town's torch and that evidence of their tampering can be found in the caverns below - if you can find evidence of the Technic League working against Torch's better interests, that could well be a step toward the town's independence from the League. Choose either weapons or spells. If you choose weapons, you gain a +2 trait bonus on all damage rolls made against targets you know are associated with the Technic League. If you choose spells, increase the save DC of your spells by 1 when you target such a foe."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2253,7 +2091,6 @@
 			"",
 			"You have ties to a prominent local in the town of Torch - the missing wizard Khonnir Baine. If you're a wizard, alchemist, or other scholarly type, he may have been your tutor or teacher. If you're of a more martial bent, Khonnir could instead have been a friend or business associate of your mother, father, or patron. He may even have been your adoptive father, in which case you likely have a bond of friendship or rivalry with his adopted daughter Val (your GM has more information on her in this case if you wish to know more for your character's background). Your association with Khonnir has given you insight into how technology works. Choose Disable Device or Knowledge (engineering). You gain a +1 trait bonus on checks with this skill, and it is a class skill for you. In addition, you are treated as if you possessed the {feat/Technologist} feat for the purposes of resolving checks associated with that skill. If you gain the Technologist feat, your trait bonus for the selected skill increases to +3."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2269,7 +2106,6 @@
 			"",
 			"Numeria is a land ripe for archaeological exploration, since so many of the strange technological dungeons have been either avoided by the superstitious barbarian tribes or have been locked down by the Technic League, leaving many of them untouched and ripe for exploration. You've studied the strange language associated with these eerie technological ruins, and are eager to start exploring them-you suspect that Torch's namesake is in fact part of a larger buried ruin, and you hope to enter these ruins and learn their original purpose by exploring the caves below town. You gain Androffan as an additional language. In addition, you possess a knack for technological items; when you use a timeworn technological item, roll twice when determining any glitches the item might cause and choose which result to use as your actual result. Talk to your GM for more information about resolving glitches."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2285,7 +2121,6 @@
 			"",
 			"The strange automatons that plague the wilds of Numeria are a blight upon the world, and the idea that there could be countless more of these creatures lying in wait in the unknown ruins scattered throughout the region chills your blood. Khonnir's recovery of a deactivated robot from the caves below Torch worries you-not only could that thing wake up and run amok in town, but there may well be more lurking below! You want to explore the caves under Torch to determine if there is indeed a lurking robot threat below town. You gain a +1 trait bonus on attack rolls against robots and a +1 dodge bonus to AC against attacks made by robots."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2301,7 +2136,6 @@
 			"",
 			"The fires atop Torch Hill have long been a boon to smiths and metalworkers, and your family is no exception. Whether you grew up in Torch or simply made several trips here with your parents to use the fire, this was to be your first time to use the torch for your own project. You managed to use the fires to craft a small weapon or piece of armor from skymetal, but not long thereafter the fires went out. The violet flames are as much a part of your upbringing as anything else, and their loss distresses you; you hope to find a way to rekindle the torch below the hill. You've long hoped to work with skymetal, and begin the game with a small metal bauble made of the skymetal of your choice-you made this item yourself. The item is nothing more than a valuable art object worth 100 gp. You can sell it to gain an additional 100 gp when creating your character, but if you keep it, your pride in its crafting grants you a +2 trait bonus on Will saving throws made against emotion and fear effects. You lose this bonus if you willingly sell or give up the item, but if it is destroyed or lost through no fault of your own, you retain a +1 trait bonus on such Will saves."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2317,7 +2151,6 @@
 			"",
 			"They say the strange technological ruins scattered throughout Numeria came from the skies several thousand years ago. The concept of life on other planets far beyond Golarion has always fascinated you, and you've long hoped to learn more about what life on those other planets may have been like. you've heard stories about the strange alien creatures found in Numerian dungeons and hope to learn all you can about them-perhaps some of these aliens can be found in the caverns below Torch! You gain a +2 trait bonus on Knowledge checks to identify alien monsters' abilities and weaknesses. In addition, you gain a +1 trait bonus on Knowledge (geography) checks, and this skill is a class skill for you. You are treated as if you possessed the {feat/Technologist} feat for the purposes of resolving checks to identify an alien creature using a Knowledge skill and for all Knowledge (geography) checks. If you already possess the Technologist feat, then your trait bonus on Knowledge (geography) checks increases to +3."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2330,7 +2163,6 @@
 			"",
 			"You've spent more of your life around animals than people, and find them easier to understand. You gain a +1 trait bonus on Handle Animal checks, and Handle Animal is always a class skill for you. Your trait bonus increases to +5 whenever you attempt to \"push\" a wild animal to perform a trick for you, so long as its attitude is indifferent or friendlier. You may target creatures of the animal type with charm or compulsion spells as if they were humanoids, but unless you have another ability to make yourself understood to animals, you must still succeed at a Handle Animal check to \"push\" your target in order to communicate specific requests."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2343,7 +2175,6 @@
 			"",
 			"You were raised deep in the Fangwood Forest, but in your childhood the Darkblight overtook your community, and blighted fey attacked your friends and family. Even after escaping, you barely survived infection by the otherworldly fungal disease and still bear a terrible scar from your ordeal. You gain a +2 trait bonus on Fortitude saving throws against disease or poison (your choice), and your scar now throbs painfully in the presence of unnatural creatures, immediately alerting you to their presence. This sixth sense alerts you to the presence of aberrations, oozes, and all creatures with the {template/blighted fey} and {template/fungal creature} templates within 30 feet (though it doesn't indicate their exact location). You can always act during the surprise round against such creatures, and you aren't considered flat-footed against such creatures in the first round of combat."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2356,7 +2187,6 @@
 			"",
 			"You've pledged your skills and your life to the Chernasardo rangers, studying to protect your homeland from foreign invaders. You currently remain a neophyte in this secretive guerrilla army. You have yet to be entrusted with many of their secrets, and spend a great deal of time training with the old ranger Aubrin in Phaendar to hone your skills of hunting and tracking. In forest or plains terrain, you may reduce a single target's effective level of concealment against you (from total concealment to concealment to not concealed) by studying your natural surroundings as a move action. This reduced concealment ends immediately once the target moves from its current location. At 10th level, you may study your terrain as a swift action instead."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2369,7 +2199,6 @@
 			"",
 			"You are part of Nirmathas's informal network of hunters and scouts known as the Foxclaws, and study the secret vulnerabilities of those dangerous beasts that prey upon your fellow settlers. You gain a +2 trait bonus to confirm critical hits against creatures of the animal, magical beast, and vermin types, and while wearing a trophy from an animal, magical beast, or vermin whose CR was higher than your current class level, you gain a +1 morale bonus on Will saves."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2382,7 +2211,6 @@
 			"",
 			"You make your way in life by putting people back together after the rigors of the world take their toll-brewing herbal remedies, setting broken bones, and treating diseases. You gain a +1 trait bonus on all Heal and Knowledge (nature) checks, and one of these skills is always a class skill for you. Any time you restore hit points using the Heal skill or a cure spell (but not with channeled energy, lay on hands, or a magic device such as a potion or wand), you restore 1 additional hit point, plus 1 for every 2 class levels you have beyond 1st."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2395,7 +2223,6 @@
 			"",
 			"Whether you were serving in the military or simply beset by a surprise attack, you barely survived an encounter with the Ironfang Legion, one of Molthune's infamous monster regiments. Maybe you even survived the horrors of the Ramgate Massacre. You can't scrub the memories of their brutality from your waking or sleeping mind, and you keenly recall their distinctive fighting styles. You gain a +2 dodge bonus to AC against goblinoids, and once per day when you attempt an Intimidate, Sense Motive, or Stealth check against a goblinoid, you can roll two dice and use the better result."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2409,7 +2236,6 @@
 			"",
 			"You hail from the dwarven Sky Citadel of Kraggodan in southern Nirmathas and have spent the past several years among the surface people serving as a mercenary in the war, trading with Nirmathi towns, or simply seeing the surface world. Molthune's recent siege of Kraggodan has squelched any hopes you had of returning home, and now you struggle to find a home on the surface. Thanks to your travels, you gain one of the following as a bonus language: Common, Hallit, Varisian, or Undercommon. In addition, your homesickness means time spent underground revitalizes your spirits; whenever you are underground - either in natural caverns or an artificial complex - you automatically stabilize if brought below 0 hit points, and if reduced to 0 hit points (or you are stable and conscious when below 0 hit points) you do not take the usual 1 point of damage disabled characters take from performing a standard action. This revitalizing effect fades after 4 consecutive days spent underground, but returns after you spend more than a week above ground again."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2422,7 +2248,6 @@
 			"",
 			"Over a decade ago, bandits took everything you valued in life and left you barely alive. You managed to rebuild your life in the years since, and your tenacity has made you a local legend. Once per day as a full round action, you may shrug off some of your injuries and immediately heal a number of hit points equal to your Constitution modifier + 1 per Hit Die. Your reputation for tenacity inspires your neighbors, and you gain a +1 trait bonus whenever you attempt to influence residents of Phaendar with Diplomacy or Intimidate checks. At 6th level, your reputation spreads further across the nation, and you may apply your trait bonus on Diplomacy and Intimidate checks to influence all humanoids in Nirmathas."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2435,7 +2260,6 @@
 			"",
 			"You've seen the horrors of war, and had hoped you'd seen the end of it. You've retreated from the fighting - likely from the front line with Molthune, but maybe from the crusade of Lastwall or the political infighting of Ustalav - and now just want to protect and provide for those you care about. You gain one of the following as a permanent class skill: Appraise, Heal, Knowledge (history), Sense Motive, or Survival. When you perform an aid another action to improve a creature's Armor Class, you increase its AC by +4 rather than +2."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2450,7 +2274,6 @@
 			"",
 			"**NPC Choices:** Ameiko, Sandru."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2465,7 +2288,6 @@
 			"",
 			"**NPC Choices:** Ameiko, Sandru."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2480,7 +2302,6 @@
 			"",
 			"**NPC Choices:** Sandru."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2495,7 +2316,6 @@
 			"",
 			"**NPC Choices:** Ameiko, Sandru, Shalelu."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2516,7 +2336,6 @@
 			"",
 			""
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2531,7 +2350,6 @@
 			"",
 			"**NPC Choices:** Koya."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2546,7 +2364,6 @@
 			"",
 			"**NPC Choices:** Koya."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2561,7 +2378,6 @@
 			"",
 			"**NPC Choices:** Ameiko, Shalelu."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2576,7 +2392,6 @@
 			"",
 			"**NPC Choices:** Koya, Shalelu."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2591,7 +2406,6 @@
 			"",
 			"**NPC Choices:** Shalelu."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2608,7 +2422,6 @@
 			"",
 			"**NPC Choices:** Ameiko, Sandru, Shalelu."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2622,7 +2435,6 @@
 			"",
 			"One of your parents was a member of one of the great families of Brevoy, perhaps even of the line of Rogarvia itself. Yet you have no substantive proof of your nobility, and you've learned that claiming nobility without evidence makes you as good as a liar. While you might own a piece of jewelry, a scrap of once-rich fabric, or an aged confession of love, none of this directly supports your claim. Thus, you've lived your life in the shadow of nobility, knowing that you deserve the comforts and esteem of the elite, even though the contempt of fate brings you nothing but their scorn. Whether a recent attempt to prove your heritage has brought down the wrath of a noble family's henchmen or you merely seek to prove the worth of the blood in your veins, you've joined an expedition into the Stolen Lands, hoping to make a name all your own. You take a -1 penalty on all Charisma-based skill checks made when dealing with members of Brevic nobility but gain a +1 trait bonus on Will saves as a result of your stubbornness and individuality. (The penalty aspect of this trait is removed if you ever manage to establish yourself as a true noble.)"
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2635,7 +2447,6 @@
 			"",
 			"You hail from the River Kingdoms or the more lawless reaches of Brevoy. Life has been hard for you. Perhaps your parents and siblings were crooks and con artists, or maybe your rough, lonely life lead you to fall in with thieves and worse. You know how to ambush travelers, bully traders, avoid the law, and camp where no one might find you. Recently, you've run into some trouble, either with the law or with other bandits, and you're looking to get away to somewhere no one would ever think to look for you. An expedition into the rugged wilderness seems like a perfect way to lie low until the trouble blows over. You begin the campaign with an extra 100 gp in ill-gotten gains. You also gain a +1 trait bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks when dealing with brigands, thieves, bandits, and their ilk."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2648,7 +2459,6 @@
 			"",
 			"You were raised northern Brevoy, a land of misty shores and harsh hill lands, of snowy vistas and violet-hued mountains. You are descended from an able and intelligent people, and you have grand ambitions, a mind alert for opportunity, and the tenacity to fight for your goals no matter the challenge. You care for little more than achieving your aspirations and opportunities to win wealthy and grandeur, for which few costs prove too great. You see yourself as a citizen of Brevoy through and through. The call for champions willing to help take back your country's rightful holdings in the Stolen Lands has inflamed your dreams of profit and possibilities, so you have joined an expedition to quest south. Your agile mind grants you a +1 trait bonus on all Will saves made to resist mind-affecting effects."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2670,7 +2480,6 @@
 			"",
 			""
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2683,7 +2492,6 @@
 			"",
 			"You have long lived along the southern border of Brevoy, in the shadow of wilderness known as the Stolen Lands. Life has been hard, but through hunting, trapping, trading, and coaxing crops from the freezing earth, you've learned how to survive on the rugged frontier. With the wilderness ever at your door, you've also learned much about its denizens and the wild creatures that lurk in that unwholesome land. Your family might even claim holdings in the Stolen Lands, with elders telling stories of being driven from or robbed of a lost ancestral homestead, fertile farmlands, bountiful orchards, or a hidden mining claim. Whether because of your personal expertise and familiarity with the borderlands or in order to reclaim your family's land, you've joined the expedition into the Stolen Lands. You begin play with a horse. Also, choose one of the following skills: Climb, Handle Animal, Knowledge (nature), Perception, Ride, Survival, or Swim-you gain a +1 trait bonus on this skill."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2696,7 +2504,6 @@
 			"",
 			"You were raised in the south of Brevoy, a land of dense forests and rolling plains, of crystalline rivers and endless sapphire skies. You come from hearty stock and were raised with simple sensibilities of hard work winning well-deserved gains, the importance of charity and compassion, and the value of personal and familial honor. Yours is the country of the Aldori swordlords and the heroes who refused to bend before the armies of a violent conqueror. You care little for matters of politics and nobles or of deception and schemes. As you are thoroughly Brevic, the call for champions willing to expand your land's influence into the Stolen Lands has inflamed your sense of patriotism and honor, and so you have joined an expedition to quest southward. Your hardy nature grants you a +1 trait bonus on all Fortitude saves."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2709,7 +2516,6 @@
 			"",
 			"You have lived all your life in and around the city of Restov, growing up on tales of Baron Sirian Aldori and the exploits of your home city's heroic and legendary swordlords. Perhaps one of your family members was an Aldori swordlord, you have a contact among their members, or you have dreamed since childhood of joining. Regardless, you idolize the heroes, styles, and philosophies of the Aldori and have sought to mimic their vaunted art. Before you can petition to join their ranks, however, you feel that you must test your mettle. Joining an expedition into the Stolen Lands seems like a perfect way to improve your skills and begin a legend comparable to that of Baron Aldori. You begin play with a longsword or Aldori dueling sword and gain a +1 trait bonus on all attacks and combat maneuvers made with such weapons."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2722,7 +2528,6 @@
 			"",
 			"You've been a slave your whole life, and have passed from master to master more times than you can count. Some of those masters were cruel, others kindly. In all cases, You've yearned to be free. When your most recent master fell on hard times, he sold many of his slaves to the city government, and as luck would have it, a recent opportunity to earn your freedom has manifested. The Pactmasters of Katapesh are looking to revitalize an old trade route to Osirion, and a band of mercenaries and guards is gathering to go out and supplement forces already in place near the ruined village of Kelmarane, now said to be infested by gnolls. You've secured a place among those mercenaries, under the watchful eye of Garavel. If you help in retaking Kelmarane, You've been promised your freedom. In any event, your life as a slave has toughened you and made you more resistant to hardship. Choose one of the three categories of saving throw; you gain a +1 trait bonus on all saving throws of that type."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2735,7 +2540,6 @@
 			"",
 			"You never knew your parents-perhaps they died when you were a child, or maybe you were taken from them and raised elsewhere as a slave. You owe your sanity and your life to a woman named Haleen. She could be your sister or merely a childhood companion, but whatever your relationship to her, she took care of you and protected you. She's always been a part of your life, and although her temper often kept her from making friends or keeping a job, she's always been kind to you. Haleen was instrumental in securing your freedom from slavery or making sure you got a good apprenticeship or job in society - but recently, she'd been growing strangely morose and depressed. You and Haleen normally kept no secrets, but whatever was bothering her wasn't something she shared with you. One night, she vanished, leaving you a brief note, begging you to forget her and to get on with your life, but something about the note bothered you-something in the way she phrased her words struck you as forced. You may be convinced she'd been kidnapped, forced to leave against her will, or even magically controlled, but you also suspect that she left you to protect you from something-that was ever her way. You're now convinced that it's time for you to step in and protect her, but you had no idea where she may have gone until recently. Several months have passed since she disappeared, and you've spent those months searching for clues to her location, and you've finally found a lead - a mysterious note, a strange dream, the result of a back-alley divination, or a report of a sighting of a woman matching Haleen's description has come to you, placing Haleen in the vicinity of an old ghost town named Kelmarane. What she's doing there and how she came to be there makes no sense to you yet, but the lead is the strongest one you've had. This and Garavel's advertisement for mercenaries to accompany him to the region is all the omen you need. You joined Garavel's group and eagerly await the day you'll be leaving for Kelmarane. Although Haleen chose to become a swashbuckling adventurer, she always encouraged you to seek your own path, and her support is the primary reason you chose the class you did at 1st level. This class is always a favored class to you, and your dedication to it is such that every time you take a level in the class, you gain +1 hit point and 1 additional skill point over and above what you would normally gain. If multiple PCs take this trait, they should be siblings who were both protected and raised by Haleen."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2748,7 +2552,6 @@
 			"",
 			"You grew up in rural Katapesh, in a region where gnoll activity was a fact of life. You killed your first gnoll at a young age when a group of gnoll slavers attacked your village, home, or caravan, and your hatred of gnolls has only grown since then. Something in your past fueled your hatred of gnolls even further; perhaps your family was slaughtered by gnolls, or maybe you even served a few harrowing weeks as a prisoner of a gnoll tribe before a miraculous escape. When you heard that Garavel was looking for brave men and women to aid in retaking the village of Kelmarane from a tribe of gnolls in the service of the notorious Carrion King, you knew you had to be part of the group, and signed up immediately. You gain a +1 trait bonus on attack rolls and weapon damage rolls made against gnolls. If you are a barbarian and you're fighting gnolls, your rage lasts 1 round longer than normal. If you're a ranger and you select humanoid (gnoll) as a {ability/favored enemy}, your trait bonus on attack rolls and weapon damage rolls against gnolls increases to +2. If you're a spellcaster, you gain a +1 trait bonus to spell save DCs for damaging spells against gnolls."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2761,7 +2564,6 @@
 			"",
 			"You've spent much of the last several years serving your faith, and the conviction and dedication to your church has impressed many. Perhaps You've donated much of your personal wealth or time to serving the church, or you're the child of a powerful or well-loved member of the church, an orphan raised by the church, or a foundling with a strange birthmark that bears more than a passing resemblance to your faith's holy symbol. The faith has long supported you, and you are eager to repay the church in some way. In Katapesh, the establishment of a new village is always cause for interest to the nation's churches, as establishing new temples in villages is an excellent way to expand upon the church's resources and bring in more faithful. If the Pactmasters' plans to revitalize and rebuild Kelmarane are successful, the village will need a temple, and your faith is keenly interested in being represented there. This campaign trait is particularly suited to worshipers of Sarenrae, as Kelmarane was founded near an old monastery dedicated to the Dawnflower, and reconsecrating that monastery is of great interest to Sarenrae's church. Furthermore, a temple dedicated to her once stood in Kelmarane itself, but it has long since fallen into ruin; whispers among the religion tell that the church's old pastor may have fallen from grace and may even have been part of the cause of the hard times that befell the village. You've joined Garavel's band in hopes of helping to establish a new temple in the soon-to-be revitalized village. You've been selected for your dedication to the church and your strong social graces-pick one of the following skills: Bluff, Diplomacy, Intimidate, Knowledge (religion), Perform (any), or Sense Motive. You gain a +1 trait bonus on checks using that skill, and it is always considered a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2774,7 +2576,6 @@
 			"",
 			"Your interest in the village of Kelmarane is more personal than most of the others who are heading out to aid in the reclamation. You aren't seeking revenge against gnolls, glory, money, or anything else - to you, this is purely a matter of honor, as Kelmarane is where you were born. Your were forced to flee the village when you were only a few years old, and you didn't discoverer this until a few years ago-perhaps you found an old document that revealed the truth, or maybe you learned the news from a relative. Both of your parents are now dead, and from what you've been able to piece together, one of your parents actually died in the village when whatever happened there happened. Your surviving parent spirited you away to safety to grow up elsewhere, but never spoke of Kelmarane and always told you that your other parent died when you were a child in a horrific tragedy like a fire or a flood that swept away the body. Now that you've started to uncover the truth, you are convinced that your heritage remains hidden in Kelmarane. Whether you just wish to find out what really happened to your parent that died there or you want to rebuild the village in his or her honor is up to you - but Garavel's caravan to the village is just the opportunity you've been waiting for. When your other parent died recently, among his or her effects was a single item that once belonged to the parent who died at Kelmarane. This item is your most valued possession - a piece of jewelry worth 350 gp, any masterwork weapon or armor worth no more than 350 gp, or a wand containing any 1st-level spell (CL 1st) with only 20 charges remaining. If you ever lose this item, your resulting depression imposes a -1 penalty on Will saves for 1 year."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2787,7 +2588,6 @@
 			"",
 			"The [Pathfinder Society](rule/aff_scholars) has long intrigued you-tales of the exotic lands and strange discoveries made by Pathfinders have enchanted your dreams and fired your imagination since childhood. When Pathfinders came through your village or neighborhood, they immediately enthralled you with their stories and knowledge. Yet at the time, you were far too young to join them, and when they left for adventure you had to stay behind. Now that you are of age, you've traveled to Absalom to apply for membership. The application process went well, and you're now a full member. Your first assignment is to accompany Garavel's group to Kelmarane - the Pathfinder Society has heard rumors of several ancient structures in the area, including a ruined monastery once dedicated to Sarenrae, and would like to learn more about them. Even more pressing is the mystery of what brought about Kelmarane's ruin in the first place-reports of which are vague at best. If you can determine the cause of the village's abandonment so many years ago, you're sure the Society would be impressed. You begin the game with your own wayfinder, a loan from your venture-captain. you've promised to pay your venturecaptain 500 gp for the wayfinder some day, but for now it's yours to use. A wayfinder is a magical compass that grants you a +2 circumstance bonus on Survival checks to avoid becoming lost, and can be commanded to emit {spell/light} as the spell (CL 5th) as a standard action."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2803,7 +2603,6 @@
 			"",
 			"Long ago, one of your ancestors ruled over the lands of Osirion. Although you are many generations removed and the line of descent is hard to prove, his or her blood still runs in your veins. Perhaps you may find some proof of your lineage in the tombs of Wati's necropolis. You gain a +1 trait bonus on Will saves. You also gain a +1 trait bonus on Knowledge (nobility) checks and that skill is always a class skill for you. In addition, you may choose Ancient Osiriani as one of your bonus languages."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2819,7 +2618,6 @@
 			"",
 			"Osirion has a history stretching back over 8,000 years, and the deities worshiped today in modern Osirion are not the same ones revered in Ancient Osirion's heyday-deities with names like Anubis, Osiris, Ra, and Set, among others. Your family never lost the faith of your ancestors, however, and your devotion to one of the deities of Ancient Osirion has helped keep the memory of Osirion's past alive - a past that still lingers on in the untouched necropolis of Wati. You gain a +1 trait bonus on Knowledge (history) and Knowledge (religion) checks, and one of those skills is always a class skill for you. In addition, your faith in the old gods of Osirion grants you a +1 trait bonus on saving throws against divine magic. For more information on the deities of Ancient Osirion, see *Pathfinder Adventure Path #80: Empty Graves.*"
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2835,7 +2633,6 @@
 			"",
 			"You're not a native Osirian, but the opportunity to explore the tombs of Ancient Osirion - and \"liberate\" the treasures they hold - is too good to pass up. Whether or not you're interested in the history of this land, you're definitely interested in the wealth that's lain hidden in dusty crypts for millennia: such as the tombs in the newly opened necropolis of Wati. You gain a +2 trait bonus on Appraise checks, and that skill is always a class skill for you. In addition, your contacts in the antiquities markets allow you to sell relics of Ancient Osirion for 60% of their listed price, rather than the normal 50% value. What is considered a relic of Ancient Osirion is left to the GM's discretion."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2851,7 +2648,6 @@
 			"",
 			"You have studied the architectural styles of nations throughout the Inner Sea region, but none have fascinated you like the architecture of Ancient Osirion. Hearing that the famed necropolis of Wati has finally been opened for exploration, you've come to that city to get firsthand experience with the lost secrets of Ancient Osirion's master builders. You gain a +2 trait bonus on Knowledge (engineering) checks, and that skill is always a class skill for you. In addition, you gain a +2 trait bonus on Perception checks to find concealed or secret doors in structures built in the style of Ancient Osirion."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2867,7 +2663,6 @@
 			"",
 			"One of your ancestors ran afoul of a mummy's curse while exploring an ancient tomb. This curse was passed down to later generations of your family, but over time, your line has become more resistant to curses. You've come to Wati to explore its untouched necropolis, and while you hope you won't have to face a real undead mummy, at least you have some defense if you do. You gain a +2 trait bonus on saving throws against curses and curse effects (including mummy rot and spells with the curse descriptor) and a +2 trait bonus on saving throws against a mummy's aura of despair."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2883,7 +2678,6 @@
 			"",
 			"At some time in the recent past you died, but you were brought back to life - whether because of magic, a blessing of the gods, a destiny you have to fulfill, or perhaps it just wasn't your time to die yet. Whatever the nature of your resurrection, your experience gave you a fascination with death, and you hope to find some insight into the nature of mortality by exploring the tombs of Wati's famous necropolis. You gain a +2 trait bonus on saving throws against death effects. In addition, you do not die until your hit points drop to a negative amount equal to or lower than your Constitution score + 4."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2899,7 +2693,6 @@
 			"",
 			"You've always been fascinated with the ancient race of sphinxes, and are inspired by them to love puzzles and riddles and enjoy solving difficult dilemmas. Like so many others, You've come to Wati to explore its ancient necropolis, but You've also heard that sphinxes occasionally visit a sphinx-shaped ruin called Ubet's Folly in the city-perhaps you'll have the chance to meet and talk with a sphinx yourself! You gain a +1 trait bonus on Bluff and Diplomacy checks against sphinxes, and a +1 trait bonus on any skill check to decipher a puzzle or riddle. In addition, you may choose Sphinx as one of your bonus languages."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2915,7 +2708,6 @@
 			"",
 			"Forgotten dungeons and ancient tombs have always held an appeal for you, and you've never been able to resist the urge to delve into these lost sites in search of knowledge, treasure, or both. You may not have received any formal training in the roguish arts, but you've nonetheless become skilled at spotting and disabling hidden traps. The tombs of Wati's necropolis, just opened for exploration, seem like the perfect place to put your skills to the test. You gain a +1 trait bonus on Disable Device checks, and that skill is always a class skill for you. In addition, you can use Disable Device to disarm magic traps, like a rogue."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2931,7 +2723,6 @@
 			"",
 			"You have dedicated your life to eradicating the scourge of the undead from Golarion. You have spent countless hours studying the different types of undead and have trained endlessly to learn the best ways to defeat them. If any undead creatures come out of the tombs of Wati's necropolis, you'll be ready for them! You gain a +1 trait bonus on damage rolls against undead creatures. In addition, you gain a +1 trait bonus on Knowledge (religion) checks, and that skill is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2947,7 +2738,6 @@
 			"",
 			"You were born and raised in the city of Wati, and you know its streets and secrets well. Although it's frowned upon by the city's authorities, you have sneaked into the necropolis on multiple occasions to wander its dusty, abandoned streets. Out of respect for the deceased, you've never actually entered one of the necropolis's silent tombs, but you have no fear of what might lie inside. You gain a +2 trait bonus on saves against fear effects. In addition, your knowledge of the city grants you a +1 trait bonus on Knowledge (local) checks, and that skill is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2963,7 +2753,6 @@
 			"",
 			"The wonders of magic have always fascinated you, and you find the urge to tinker and experiment with magic almost irresistible. You could be the child of an alchemist, wizard, or witch; a member of the [Pathfinder Society](rule/aff_scholars); or maybe someone with a touch of fey or dragon blood. You may not be trained in magic, and you've had your share of accidental mishaps, but you possess a natural knack for activating magic items. you've always been intrigued by the cold magic of the winter witches and ice mages of the North, and would love to get your hands on some of their magic items. You gain a +1 trait bonus on Knowledge (arcana) and Use Magic Device checks, and Use Magic Device is a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2979,7 +2768,6 @@
 			"",
 			"You're a big person, and people have always said you've got some giant blood in you. Even as a child, you towered over your friends, and as you grew older, you grew even taller and stronger. Maybe your hair has a tint of blue as well, or your skin is as pale as snow. Perhaps someday you'll get the opportunity to travel to the North and meet some real giants, and see whether the rumors about you are true. You gain a +1 trait bonus on combat maneuver checks to sunder, and a +1 trait bonus to your CMD against bull rush and overrun combat maneuvers."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2995,7 +2783,6 @@
 			"",
 			"As a child, you were apprenticed as a winter witch in the frozen land of Irrisen, but you did not complete your training. Perhaps you disagreed with the politics of Irrisen's White Witches, or you had an altercation with one of your teachers, or maybe you were just ill-suited to the practice of witchcraft. Whatever the reason, you left the ranks of the winter witches and left Irrisen. Whether or not you have continued your training on your own, you still retain some small knowledge of witchery and the magic of the icy north. You gain a +1 trait bonus on Knowledge (arcana) and Spellcraft checks to identify spells or magical effects with the cold descriptor, and one of these skills (your choice) is a class skill for you. In addition, you gain Hallit or Skald (this does not count toward your number of languages)."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3011,7 +2798,6 @@
 			"",
 			"One of your parents came from the North, and the tales of the frozen lands at the top of the world that you grew up listening to excited your imagination. Alternatively, maybe one of your ancestors passed on the blood of some frost-rimed creature. You feel most alive during the chill of winter, and as a child, you spent hours playing in the snow. You rarely feel the cold, and you've always had a restless longing to travel north. You gain a +1 trait bonus on Fortitude saves, as well as cold resistance 2; this resistance does not stack with cold resistance gained from any other source."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3027,7 +2813,6 @@
 			"",
 			"You have long led a nomadic life-perhaps because your parents were travelers (whether roaming Varisian caravaneers or traveling merchants who traded far and wide), you belonged to a nomadic tribe, or you ran away from home to discover the world at a young age. Some call it wanderlust, but to you the thought of new places and experiences is truly what makes life worth living, and no region catches your imagination like the windswept wilderness of the North. You are used to getting along in unfamiliar lands and interacting with interesting new people. You gain a +1 trait bonus on Knowledge (geography) and Knowledge (local) checks, and one of these skills (your choice) is a class skill for you. You can also speak one additional language (this does not count toward your number of languages)."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3043,7 +2828,6 @@
 			"",
 			"You don't trust witches. They deal with otherworldly beings, consort with beasts, and brew vile poisons in their cauldrons. As a child, perhaps you barely escaped some horrid fate at the hands of an evil witch, or maybe a loved one was stolen from you by a witch's charms. Perhaps you wanted to be a witch yourself, but the local witch refused to take you on as an apprentice. Whatever the reason, you now hate witches, and have dedicated your life to ferreting them out and exposing their wickedness for all to see. You know that the North is full of winter witches, and should you ever find yourself there, you'll relish bringing your justice to them as well. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you. In addition, you begin the campaign with 1d4 {magic-wondrous/hex nail/s}."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3059,7 +2843,6 @@
 			"",
 			"Sometime in your youth, you encountered a location, object, or being steeped in the power of evil witchcraft. Whether you were the victim of this force, were a conduit for it, or merely witnessed its effects, the event changed your life. You have tried to put the strange incident behind you and forget it, but nebulous premonitions of danger and eerie feelings of deja vu have dogged your steps ever since. For some inexplicable reason, you feel drawn to the lands of the North, though you fear another encounter with the evil witchcraft that touched you once before. Whether through your purity, the blessing of goodly spirits, an innate determination, or an intuitive and inexplicable familiarity with the ways of black magic, you have acquired a resilience against the power of the dark arts. You gain a +1 trait bonus on saving throws against the spells, spell-like abilities, and supernatural abilities of evil arcane spellcasters, and a +1 trait bonus on Spellcraft checks to identify spells cast by evil arcane spellcasters."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3081,7 +2864,6 @@
 			"",
 			"Unless the GM approves, only one PC in the group can have the Accidental Clone trait."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3102,7 +2884,6 @@
 			"",
 			"Once per adventure as a standard action, you may concentrate on the bond you and Audrahni share. The strong emotions brought on by these memories bolster your desire to forge ahead and remain alive, granting you the effects of one of the following spells at a caster level equal to your character level: {spell/calm emotions}, {spell/cure moderate wounds}, or {spell/lesser restoration}."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3123,7 +2904,6 @@
 			"",
 			"Once per adventure as an immediate action, you may grant your close ally a bonus equal to the result of 1d6 to a single d20 roll. You must have line of sight to your ally to use this ability. You may choose to grant this bonus after your ally has rolled, but must do so before the result of the roll is known."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3140,7 +2920,6 @@
 			"",
 			"Once per adventure, you may either take 20 on a Use Magic Device check or activate a charged magic item without expending any charges."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3157,7 +2936,6 @@
 			"",
 			"Once per adventure as a free action, you can call upon a previously forgotten bit of advice or lore imparted to you by the hero to gain an insight bonus equal to your class level (minimum +10) to a skill check. You may choose to apply this bonus after you roll the skill check, but must do so before the result of the roll is known."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3174,7 +2952,6 @@
 			"",
 			"Once per adventure, you may automatically succeed at a Constitution check to stabilize or a saving throw to remove a negative level."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3189,7 +2966,6 @@
 			"",
 			"You have a knack for knowing when to act a few instants in advance and gain a +2 trait bonus on Initiative checks. Once per adventure as an immediate action, you may use your strange link to the flow of time to force the GM to reroll a single d20 roll. You must declare the use of this ability immediately after the GM rolls the d20, but you can choose to do so after learning the results of the roll."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3202,7 +2978,6 @@
 			"",
 			"Hearing that Sandpoint had a theater rivaling those found in large cities like Magnimar and Korvosa, you decided to try your luck getting stage time there. After sending a letter to Cyrdak Drokkus requesting an audition and not hearing back, you've taken it upon yourself to travel to Sandpoint and meet him in person, trusting your force of will and charming influence will get you what you want. You gain a +1 trait bonus on checks for any one Perform skill. Additionally, choose any one spell of the enchantment school; its save DC increases by +1."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3215,7 +2990,6 @@
 			"",
 			"While not ethnically a Varisian, you have been raised among Varisians and they consider you one of their own. Furthermore, you managed to get in good with a group of Sczarni and consider them your new family. After being run out of the last place your Sczarni family camped, you tracked down a friend of the family in Sandpoint - a ruthless thug named Jubrayl Vhiski at the Fatman's Feedbag. During your time with the Sczarni, you learned a few tricks of the trade. You gain a +1 trait bonus on Knowledge (local) checks and Knowledge (local) is always a class skill for you. In addition, you begin play able to speak and read Varisian."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3228,7 +3002,6 @@
 			"",
 			"One of your family members, perhaps a parent, cousin, aunt, or uncle, helped Daviren Hosk put down a group of goblins near Sandpoint. Since then, your family member passed away, but not before telling you about that day and the offer Daviren made her should she ever be in need. Once you make it to Sandpoint and meet up with Daviren Hosk at the Goblin Squash Stables, he gives you one of his best steeds and all the necessary accoutrements as gratitude for your family member's help: a heavy combat trained horse, a military saddle, saddlebags, bit and bridle, a month's worth of feed, and lifetime stabling at the Goblin Squash Stables."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3241,7 +3014,6 @@
 			"",
 			"Your family's village was plundered by giants in the wilds of Varisia, leaving nothing but a smoldering ruin. After the destruction of your village, your family trained for combat against giants to prevent such a tragedy from ever happening again. Since hearing of giants mobilizing throughout the countryside, you ventured to Sandpoint to help the town prepare for a possible incursion. You gain a +1 trait bonus on Bluff, Perception, and Sense Motive checks and +1 trait bonus on attack rolls and damage rolls against creatures of the giant subtype."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3254,7 +3026,6 @@
 			"",
 			"You grew up in Sandpoint staring off the cliff across the Varisian Gulf. Spending so much time there at Junker's Edge watching the goblins below as they scrounged through the discarded junk and seeing what they made out of the garbage, you developed an eye for spotting the most useful and valuable discarded items. You gain a +1 trait bonus on Perception and Appraise checks, and a +5 trait bonus on Appraise checks to determine the most valuable item visible in a treasure hoard."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3267,7 +3038,6 @@
 			"",
 			"Ever since passing through Sandpoint when you were a child and hearing about the contest at the popular tavern known as the Hagfish, you wanted to take that coin purse as your own and carve your name on the ceiling beam above the bar. Training yourself to choke down indigestible food and drink water a pig would refuse, you've built up quite a strong resistance to all things putrid and gross. You gain a +2 trait bonus on Fortitude saves against disease and poison."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3280,7 +3050,6 @@
 			"",
 			"You are related to one of the four noble families from Magnimar who founded the Mercantile League of Sandpoint. You either grew up in Magnimar as a cousin in the Valdemar or Deverin family or were born and raised in Sandpoint. Education in running a business and years of looking after the family enterprise have given you a knack for trade. You increase the gp limit of any settlement by 20% and can resell items at an additional 10% over the amount of gp you normally would get from selling off treasure."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3293,7 +3062,6 @@
 			"",
 			"Perhaps you came to the Varisian Gulf in search of the Sandpoint Devil, or maybe you followed fisherman's tales of Old Murdermaw; regardless, you've ventured through Varisia to hunt down famous monsters. While they have all eluded you so far, you made it to Sandpoint to research and restock before heading back out into the wilderness. Because of your training, you gain a +1 trait bonus on attack rolls and weapon damage rolls against aberrations and magical beasts."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3306,7 +3074,6 @@
 			"",
 			"As a faithful adherent of Abadar, Desna, Erastil, Gozreh, Sarenrae, or Shelyn, you've come to the Swallowtail Festival to celebrate the consecration of Sandpoint Cathedral. You gain a silver holy symbol of your chosen deity, and so long as you worship that deity and openly wear his or her symbol, you regain +1 additional hit point every time you receive magical healing."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3319,7 +3086,6 @@
 			"",
 			"Growing up with your nose in books, you've had a great interest in past cultures and ancient history. Furthermore, having grown up in Varisia, you know the monuments dotting the landscape belong to an ancient civilization known as Thassilon. From your life of study and dogged research, you've pieced together the language and partial history of this once-great empire. You gain a +1 trait bonus on Knowledge (arcana) and Knowledge (history) checks, and begin play able to speak and read Thassilonian."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3332,7 +3098,6 @@
 			"",
 			"While you have personally dedicated your life to a single deity, you study all religions and mortal faiths. Upon hearing that the town of Sandpoint recently completed a cathedral dedicated to the six deities most popular in the area, you had to see the place for yourself, and have arrived in time for the consecration of this holy edifice. Because of your strong faith and broad range of study, you cast all {main/cure |spell/s>_groupings} at +1 caster level, and whenever you channel energy, you gain a +1 trait bonus to the save DC of your channeled energy."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3345,7 +3110,6 @@
 			"",
 			"You've grown up in or around Sandpoint and are the heir to your family's modest farm, shop, or fishing boat, but You've always dreamed of more. Searching for a taste of excitement, You've come into town to participate in this year's Swallowtail festival. The thrill of danger grants you an additional +5 feet of movement during the first round of any combat. Additionally, you begin play with three star candle fireworks."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3360,7 +3124,6 @@
 			"",
 			"You reduce your armor check penalty by a number equal to one-third your character level (minimum 1) for purposes of Acrobatics, Climb, and Swim checks, and you gain a +1 trait bonus to one of these three skills, chosen when you take this trait."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3375,7 +3138,6 @@
 			"",
 			"You gain a +1 trait bonus on Knowledge (history), Knowledge (local), and Use Magic Device checks, and one of these skills is a class skill for you. In addition, you gain Azlanti as a bonus language."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3390,7 +3152,6 @@
 			"",
 			"You begin play with a breastplate, a longsword (or some other martial or simple weapon), and an additional 100 gp of gear. In addition, you gain a +1 trait bonus on saving throws against mind-affecting effects."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3405,7 +3166,6 @@
 			"",
 			"You begin play with an additional 150 gp of equipment and know (at least in some capacity) one of the other company employees: Lyra Heatherly, Perrell Beys, or Ramona Avandth. Due to your association with the Bountiful Venture Company, your words and ideas may carry additional weight with the other employees of the company. (Your GM can grant a +1 circumstance bonus on Diplomacy checks in regards to these people in certain situations.) In addition, you gain a +1 trait bonus on Bluff checks, and Bluff is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3420,7 +3180,6 @@
 			"",
 			"Choose one Knowledge skill when you gain this trait. You gain a +1 trait bonus to check with that Knowledge skill and Survival checks, and either that Knowledge skill or Survival is a class skill for you. In addition, you treat the machete as a simple weapon."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3435,7 +3194,6 @@
 			"",
 			"Whenever you use the aid another action to aid an adjacent ally, increase the bonus you grant your ally by 1. In addition, due to your positive and helpful nature, you gain a +1 trait bonus on Diplomacy checks."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3450,7 +3208,6 @@
 			"",
 			"You gain a +1 trait bonus on Fortitude saves, Swim checks to prevent nonlethal damage from fatigue after swimming for more than an hour at a time, and Constitution checks to prevent fatigue. In addition, you can hold your breath for a number of rounds equal to 3 times your Constitution score."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3463,7 +3220,6 @@
 			"",
 			"Explore, report, and cooperate. This is the credo you've lived by since you've joined the [Pathfinder Society](rule/aff_scholars), and after hearing about the expedition to found Talmandor's Bounty you applied, eager to see the remains of Azlant. However, you quickly learned that the Bountiful Venture Company wasn't interested in involving the Pathfinder Society in the formation of the colony. This struck you as strange, because who else has as keen an understanding of some of the elements of ancient Azlant as the Pathfinder Society? Regardless, you went through the application process, making sure to highlight all of your applicable skills and experience while keeping your involvement in the Society to yourself. You were elated to receive notice that you were selected for the second wave of colonists bound for the broken continent of Azlant. You begin play with a standard {magic-wondrous/wayfinder} and you gain a +1 trait bonus on initiative checks."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3478,7 +3234,6 @@
 			"",
 			"Choose one Craft or Profession skill when you gain this trait. You gain a +1 trait bonus on checks with that skill. In addition, the time required for you to create a magic item is decreased. You require only 8 hours for every 1,500 gp in the item's base price (instead of the normal 8 hours per 1,000 gp). You can create potions and scrolls whose base price is 375 gp in just 2 hours; potions and scrolls with a base price more than 375 gp but less than 1,500 gp take 8 hours to create, just like any other magic item."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3493,7 +3248,6 @@
 			"",
 			"Pick one of the following creature types: aberration, animal, magical beast, or vermin. You gain a +1 trait bonus on attack rolls or damage rolls (choose one; once chosen it can't be changed) against creatures of that type."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3508,7 +3262,6 @@
 			"",
 			"Once per day when you fail a saving throw against a charm or compulsion effect that would cause you to act differently than you normally would, you can immediately reroll that saving throw as a free action. You must take the second result, even if it's worse."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3523,7 +3276,6 @@
 			"",
 			"Once per day when you fail an Acrobatics, Climb, Spellcraft, Stealth, or Use Magic Device check, you can immediately reroll that check as a free action. You must take the second result, even if it's worse."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3536,7 +3288,6 @@
 			"",
 			"The end times are coming, and the shadow in the sky over Riddleport is just the first piece of proof. Convinced that the end of the world is nigh, you've decided to take part in the Golden Goblin's gambling tournament-after all, what do you have to lose? Whenever you roll a **1** on an attack roll, you gain a +1 trait bonus on your next attack roll so long as it is made within 1 minute. You also begin play with a placard bearing an apocalyptic slogan of your choice; this wooden sign can be used as a club."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3549,7 +3300,6 @@
 			"",
 			"You're going to win the Golden Goblin's upcoming \"Cheat the Devil and Take His Gold\" tournament one way or the other. You gain a +1 trait bonus on Profession (gambling) checks, and creatures searching you for objects hidden on your body don't gain the usual +4 bonus on their Perception checks. Additionally, you begin play with a \"fixed\" six-sided die (it has two 6s and no 1) and a dagger."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3562,7 +3312,6 @@
 			"",
 			"You don't think of yourself as a gambler. In fact, you rather detest the whole thing. Unfortunately, one or more of your friends (pick one or more of the other players' characters) doesn't think so, and you've recently learned that friend - or friends - have decided to go to the Gold Goblin's \"Cheat the Devil and Take his Gold\" tournament. Which pretty much means you have to go as well, since if no one's there to watch out for them, they'll lose all their money and respect. Again. Sometimes it's hard being the responsible one. Your devotion to your friendships (even when said friends seem, at times, to be trying to test that devotion) is a point of pride to you. Whenever you take the {rule/Aid Another} action to help an ally, or whenever an ally [aids you](rule/aid_another_2) in this manner, a successful check grants an additional +1 trait bonus to the check for which aid was being rendered. Additionally, as long as one of your friends is within 30 feet, you gain a +1 trait bonus on all saving throws against charm and compulsion effects."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3575,7 +3324,6 @@
 			"",
 			"The shadow in the sky is visible from all around Riddleport, not just in town. It's certainly come to the attention of several druids, rangers, and other rural folk who dwell in the nearby mountains, forests, and swamps-among them, yourself. You've consulted with several seers and Harrowers, and may even have performed some simple auguries yourself, and all the signs point the same way-something or someone in Riddleport is connected to the blot, and it means bad news for the region. You've avoided the sleazy, dirty town for most of your life, traveling there only when absolutely necessary, and although you don't relish the prospect of going there now, you see little other choice (especially if one of your superiors is ordering you to go investigate). Fortunately, an eccentric friend of yours (pick another PC) is in town, and You've heard this friend will be taking part in some gambling thing at a place called the Gold Goblin. Your friend's always had better luck interacting with the cityfolk, so You've decided to accompany your friend to this gambling tournament and plan on letting him find a safe place for you to stay while you're in town. Your long life of self-sustenance has toughened you and made you more resistant to hardship, in any event-pick one of the three categories of saving throw. You gain a +1 trait bonus on all saving throws of that type."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3588,7 +3336,6 @@
 			"",
 			"Although out of work, you aren't particularly keen on the prospect of gambling away your last remaining coins simply for a chance at riches. That said, if the Gold Goblin's fortunes reverse after this big gambling tournament, you're relatively certain its owner, Saul Vancaskerkin, will be needing to hire on some new staff members. You've secured payment for the tournament, and intend on attending mostly to check the place out, to decide if it's a place you'd want to work at (as a bouncer, bartender, croupier, server, entertainer, spotter, or cook), and hopefully get a chance to catch Saul's eye and make an impression. You've long worked at honing your skills, and are quite accomplished and certain that you have something to offer. Pick one of the following skills: Bluff, Craft (any), Diplomacy, Intimidate, Perform (any), Profession (gambler), or Perception. You gain a +1 trait bonus in that skill, and that skill is always considered a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3601,7 +3348,6 @@
 			"",
 			"You've always seemed to have trouble keeping money. Worse, you always seem to have debts looming over your head. When you heard about the \"Cheat the Devil and Take His Gold\" gambling tournament, you felt in your gut that your luck was about to change. You've always been optimistic, in fact, and even though right now is one of those rare times where you don't owe anyone any money (you just paid off a recent loan from local moneylender Lymas Smeed), you know that'll change soon enough. Better to start amassing money now when you're at one of those rare windfall times! You've set aside a gold coin for the entrance fee, and look forward to making it big-you can feel it in your bones! This time's gonna be the big one! Your boundless optimism, even in the face of crushing situations, has always bolstered your spirit. Effects that grant you morale bonuses persist 1d4 rounds longer than they normally would as a result."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3614,7 +3360,6 @@
 			"",
 			"You've come (or been sent) to Riddleport to observe the strange Blot that has appeared in the city's sky. You've decided to put your keen senses to the test at the Golden Goblin's upcoming gambling competition while you're here. Your sharp eyesight makes it easier for you to notice things at a distance. For you, Perception checks only start increasing in difficulty at a range of 20 feet or farther, as opposed to the normal 10. This has no effect on checks made to perceive things within 10 feet."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3627,7 +3372,6 @@
 			"",
 			"You may or may not be seeking membership into Riddleport's most prestigious magical guild, the Order of Cyphers, but you certainly have heard their call for aid in determining the nature of the strange shadow in the sky above Riddleport. You arrived in town several days ago and had some issues with security and safety at several inns before you finally settled on the Gold Goblin; you've been staying there as a guest for several days now, and the owner, Saul Vancaskerkin, seems like a nice guy. He's even given you a pass to attend the gambling tournament he's about to throw-you're not sure how into gambling you'll be, but perhaps there'll be some visitors from out of town you can talk to about the strange shadow in the sky. At the very least, you're hoping someone at the tourney will be into magic-there's not really enough folk in this town who seem all that interested in magic, you've found. Your interest in magic dates back quite far, and as a result, you've developed a knack for identifying common magical items at a glance. You can use Spellcraft to identify magic items in the same way you can use Spellcraft to identify a potion. The DC to identify a magic item is equal to 20 + the item's caster level."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3640,7 +3384,6 @@
 			"",
 			"You belong to an organization (most likely a religion) that has definite views on the menace posed by the lower planes. The willfulness with which the city of Korvosa (they even allow a temple of Asmodeus to operate in broad daylight!) tolerates infernal influences is, to you and your organization, the greatest symbol of what's wrong with civilization today. And now, in Riddleport, there's news that a gambling tournament is using devils and Hell as an idle decoration. It's likely that this is just an example of poor taste, but there's a chance that something sinister may be lurking beneath the goings-on at the Gold Goblin. You have been contacted by your organization (or may have decided on your own) to travel to Riddleport (if you don't already live there) and attend this tournament under the guise of a patron. Keep an eye on things there, even after the tournament is over; if you can, get a job working for the owner. Demons and devils can be subtle, and it could take weeks or even months to find proof of their involvement. Your near-obsessive hatred of all things fiendish grants you a +1 trait bonus on all attack rolls made against foes you know to be evil outsiders."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3653,7 +3396,6 @@
 			"",
 			"While you aren't necessarily a native of Cheliax, you boarded the Jenivere at one of that country's port cities. As the people of Cheliax generally know the Mwangi Expanse as a near legendary land home to strange beasts and exotic treasures, your views of the region have a distinctly romantic tinge, and the desire for fame, wealth, and adventure likely motivate your travels. You begin the campaign with a detailed map of the Mwangi Expanse (this grants +2 competence bonus on all Knowledge [geography] checks made regarding this region) and 200 gp worth of mundane equipment to aid your exploration of the jungle."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3666,7 +3408,6 @@
 			"",
 			"Your travels have brought you to the Jenivere through the dangerous port of Ilizmagorti, home to both pirates and assassins. Perhaps you're fleeing a price on your head, perhaps you've jumped ship from another vessel, or perhaps you're merely looking for a new start in a land where the dangers make themselves more obvious. Your familiarity with subtle slayings and toxins grants you a +2 trait bonus on all saves against poison. In addition, you can pick one type of poison listed below to be immune to, having undergone a long and painful process of building up an immunity to its effects: blue whinnis, giant wasp poison, medium spider venom, small centipede poison, or spider vine poison (a poison derived from a toxic plant native to the Mwangi Expanse)."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3679,7 +3420,6 @@
 			"",
 			"You boarded the Jenivere in the Mwangi Expanse, where you've lived or recently traveled through. You harbor no illusions regarding the deadliness of the jungles, the creatures that inhabit it, or the peoples that make their home therein. You gain Polyglot as a bonus language and receive a +1 trait bonus on all Knowledge (nature) checks regarding the jungle."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3692,7 +3432,6 @@
 			"",
 			"Traveling from lands far to the north, you likely have little experience with the jungle, its denizens, or its strange forces. Just as the lands of Garund are wild and exotic to you, so are you to them. This unusualness manifests in one of two ways. Choose to gain either a +2 trait bonus on all Bluff checks made against inhabitants of the jungle, or treat your spells with the mind-affecting descriptor as being +1 caster level higher when cast against creatures and natives of the jungle."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3705,7 +3444,6 @@
 			"",
 			"Your last home was in the Shackles, a dangerous land of pirates and treachery, but also of fantastic opportunity. A life of weal and woe on the sea and amid the pirate controlled lands has toughened you to a variety of hardships. Pick one of the three categories of saving throws-you gain a +1 trait bonus on all saving throws of that type."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3720,7 +3458,6 @@
 			"",
 			"Characters with this trait are Sargavan natives and might be returning via any city, but especially from the Chelish ports of Kintargo, Pezzack, or Corentyn."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3735,7 +3472,6 @@
 			"",
 			"Characters with this trait likely boarded in Magnimar, Corentyn, Ilizmagorti, Port Peril, or Bloodcove."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3750,7 +3486,6 @@
 			"",
 			"Characters with this trait have likely been on the Jenivere since it departed Magnimar."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3765,7 +3500,6 @@
 			"",
 			"Characters with this trait likely boarded the Jenivere in Ilizmagorti or one of the cities of the Shackles or the Mwangi Expanse."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3780,7 +3514,6 @@
 			"",
 			"Characters with this trait might have boarded the Jenivere at any port, but especially in the cities of the Shackles."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3796,7 +3529,6 @@
 			"",
 			"You are a member of one of Magnimar's wealthiest families - or rather, you used to be. A falling-out left you disowned and disinherited. Now you hope to get away from the city and find fortune enough to shame your former kinsfolk-goals which led you to the [Pathfinder Society](rule/aff_scholars). Despite your exile, your name still carries considerable weight in Magnimar, and you gain a +1 trait bonus on Diplomacy and Intimidate checks made within the city. Additionally, you start play with a noble's outfit, a signet ring, and a single additional nonmagical item worth no more than 200 gp. Your last name is probably Derexhi, Kaddren, Mindurian, Niroden, Scarnetti, Valdemar, Vanderale, or Versade (but may be another of your choosing)."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3812,7 +3544,6 @@
 			"",
 			"Though you were raised as a member of one of Magnimar's various Sczarni gangs, you never fit in with the rest of your settled, metropolitan brethren. The [Pathfinder Society](rule/aff_scholars) in particular recognized your wanderlust and potential as an agent, and on more than one occasion you impressed or bamboozled their agents with your street smarts and finesse. Over the years, you fell out of favor with the Sczarni, and eventually left to pursue interests outside of simple banditry, though you still remember the lessons your criminal relations taught you. You gain a +2 trait bonus on Bluff checks to pass hidden messages. Also, anytime you deliver a coup de grace, you deal an additional 1d6 points of damage."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3828,7 +3559,6 @@
 			"",
 			"Although you're a relative newcomer to Magnimar, you're not some naive stranger. You've been sent by the [Pathfinder Society](rule/aff_scholars) lodge in your home country to learn more about Varisia by experiencing the frontier firsthand. After arriving, you reported to the Magnimar lodge and placed your expertise at the venture-captain's disposal. To represent your experience in distant lands, choose a country other than Varisia as your homeland and gain one of the languages spoken in that country as a bonus language. Additionally, choose one of the following skills: Handle Animal, Knowledge (geography), Linguistics, or Survival. You gain a +1 trait bonus on checks made with this skill and it is always a class skill for you."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3844,7 +3574,6 @@
 			"",
 			"As a child in Magnimar, the city's ancient monuments inspired you with wonder. Your fascination with these relics has only grown in the years since, encouraging you to join the ranks of the [Pathfinder Society](rule/aff_scholars) so you can further quench your thirst for knowledge. Though you know little about the actual lore of the monuments, you've studied these colossal works extensively, developing an in-depth knowledge of some of the city's most famous landmarks. You gain a +1 trait bonus on Knowledge (history) checks made in Varisia due to your familiarity with its historical remnants. This bonus increases to +2 if the check relates to the city of Magnimar. Additionally, you gain a +2 trait bonus on any skill check made to receive a boon from one of Magnimar's magically imbued monuments."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3864,7 +3593,6 @@
 			"",
 			"If you are a Shoanti, you gain a +1 trait bonus on Survival checks made while in Varisia and gain a +1 trait bonus on rolls to confirm critical hits made using an earth breaker or a klar."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3880,7 +3608,6 @@
 			"",
 			"While the mercantile industries of Magnimar appeal to your keen eye for monetary gain, you know that the boldest route to true fortune lays in hunting down rare relics and selling them to the highest bidder. Becoming a Pathfinder seemed like an obvious decision, allowing you to travel throughout Varisia in your search for wealth, so you signed up right away. You brought with you a sharp eye and keen ability to distinguish fakes from the genuine article. You gain a +1 trait bonus on Appraise checks. Additionally, you gain a +4 bonus on Perception checks made to distinguish statue-like creatures (like caryatid columns and gargoyles) from actual sculptures."
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3902,7 +3629,6 @@
 			"",
 			""
 		],
-		"sourceEnd": true,
 		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	}

@@ -3099,4 +3099,9 @@ Object.values(basic_data_groups).forEach(object => {
 	basic_data_by_link[exportablelink || link] = info;
 });
 
+export const templates_by_link = {
+	_basic: "## [[TITLE]]??SUFFIX: [[SUFFIX]]??[[N]][[N]]??SOURCE:[[SOURCE]]  [[N]]??[[DESC]]",
+	trait: "## [[TITLE]]??SUFFIX: [[SUFFIX]]??[[N]][[N]][[DESC]]??SOURCE:[[N]][[N]]>[[SOURCE]]??"
+};
+
 export default basic_data_groups;
