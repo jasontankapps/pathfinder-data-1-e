@@ -153,7 +153,7 @@ function isGood(archValue, what) {
 				return true;
 			}
 		} else if (
-			(Object.keys(test).sort().join(" ") !== "description name sources")
+			(["description name sources", "compileFrom name sources"].indexOf(Object.keys(test).sort().join(" ")) == -1)
 			? (found = "extra property on object " + prop) : false
 		) {
 			msg.push(found || `Basic problem with ${prop}`);

@@ -818,14 +818,33 @@
 	"totem_warrior": {
 		"name": "Totem Warrior",
 		"sources": [ "Advanced Player's Guide" ],
-		"description": [
-			"## Totem Warrior",
-			"",
-			"{SOURCE Advanced Player's Guide/79}  ",
-			"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from totem {ability/rage powers} that match their totem.",
-			"",
-			"**Rage Powers:** The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): {ragepower/animal fury}, {ragepower/low-light vision}, {ragepower/night vision}, {ragepower/raging climber}, {ragepower/raging leaper}, {ragepower/raging swimmer}, and {ragepower/swift foot}."
-		]
+		"compileFrom": {
+			"source": "ragepower",
+			"targets": [
+				[
+					"## Totem Warrior",
+					"",
+					"{SOURCE Advanced Player's Guide/79}  ",
+					"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from totem {ability/rage powers} that match their totem.",
+					"",
+					"**Rage Powers:** The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): {ragepower/animal fury}, {ragepower/low-light vision}, {ragepower/night vision}, {ragepower/raging climber}, {ragepower/raging leaper}, {ragepower/raging swimmer}, and {ragepower/swift foot}.",
+					"",
+					"### Totem Rage Powers",
+					"",
+					"Totem rage powers are only available to barbarians taking the {arc-barbarian/Totem Warrior} archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title).",
+					""
+				],
+				{
+					"limit": "Totem",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": ">*(.+?)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{ragepower/[[TITLE]]:}** [[^S]] [[DESC]]"
+				}
+			]
+		}
 	},
 	"true_primitive": {
 		"name": "True Primitive",

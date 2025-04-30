@@ -244,5 +244,78 @@
 		]
 	},
 	"channel_positive_energy": { "copyof": "channel_energy" },
-	"channel_negative_energy": { "copyof": "channel_energy" }
+	"channel_negative_energy": { "copyof": "channel_energy" },
+	"rage_powers": {
+		"name": "Rage Powers",
+		"sources": [
+			"PRPG Core Rulebook",
+			"Advanced Class Guide",
+			"Planes of Power"
+		],
+		"compileFrom": {
+			"source": "ragepower",
+			"targets": [
+				[
+					"## Rage Powers",
+					"",
+					"{SOURCE PRPG Core Rulebook}  ",
+					"As a {class/barbarian} gains levels, she learns to use her rage in new ways. Starting at 2nd level, a barbarian gains a rage power. She gains another rage power for every two levels of barbarian attained after 2nd level. A barbarian gains the benefits of rage powers only while raging, and some of these powers require the barbarian to take an action first. Unless otherwise noted, a barbarian cannot select an individual power more than once.",
+					"",
+					"{SOURCE Advanced Class Guide}  ",
+					"At 3rd level and every 3 levels thereafter, a {class/skald} learns a rage power that affects the skald and any allies under the influence of his inspired rage. This cannot be a rage power that requires the creature to spend a standard action or rounds of rage to activate it. For example, the skald cannot choose {ragepower/terrifying howl} (which requires a standard action to activate), but can choose {ragepower/knockback} (which is made in place of a melee attack).",
+					"",
+					"---",
+					""
+				],
+				{
+					"limit": "-",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": ">*(.+?)",
+						"replacement": "$1"
+					},
+					"template": "[[BQ]]**{ragepower/[[TITLE]]:}** [[^S]] [[DESC]]"
+				},
+				[
+					"",
+					"::h2[Elemental Rage Powers]{jl}",
+					"",
+					"{SOURCE Planes of Power}  ",
+					"Elemental rage powers can be selected by any barbarian or {class/skald} who is at least 6th level and has the {ragepower/lesser elemental rage} or {ragepower/lesser elemental blood} rage power, or the {ragepower/elemental stance} stance rage power (unchained barbarian only). A barbarian or skald can use only one of these rage powers at a time, and an {class/unchained barbarian} must adopt the elemental stance to do so.",
+					"",
+					"---",
+					""
+				],
+				{
+					"limit": "Elemental",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "(.+?)(\\[\\[N\\]\\])+\\*\\*Elemental Power:\\*\\*.+",
+						"replacement": "$1"
+					},
+					"template": "**{ragepower/[[TITLE]]:}** [[^S]] [[DESC]]"
+				},
+				[
+					"",
+					"::h2[Blood Rage Powers]{jl}",
+					"",
+					"{SOURCE Advanced Class Guide}  ",
+					"Blood rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers.",
+					"",
+					"---",
+					""
+				],
+				{
+					"limit": "Blood",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "(.+?)(?:\\[\\[N\\]\\])+\\*\\*Blood\\*\\* rage powers grant powers in a theme\\..+$|^>*(.+)",
+						"replacement": "$1$2"
+					},
+					"template": "[[BQ]]**{ragepower/[[TITLE]]:}** [[^S]] [[DESC]]"
+				}
+			]
+		},
+		"topLink": [ "Barbarian", "class/barbarian" ]
+	}
 }

@@ -3,8 +3,8 @@ import index from '../json/_data__all_links.json';
 interface LinkTitleObject {
 	[key: string]: string
 }
-function isBoolean(value: unknown): asserts value is LinkTitleObject {}
-isBoolean(index);
+function isObject(value: unknown): asserts value is LinkTitleObject {}
+isObject(index);
 
 const switchback = (link: string) => {
 	// This matches only the non-fused pages

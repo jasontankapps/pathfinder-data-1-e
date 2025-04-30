@@ -220,7 +220,7 @@ const inlineTags = {
 			const m = checkForEncodedLink(text, { bare: true });
 			if(m) {
 				const [, link, text] = m;
-				return `<Link to="${link}">${text}<IonRippleEffect /></Link>`;
+				return `<Link to="/${link}">${text}<IonRippleEffect /></Link>`;
 			}
 			console.log(`Bad :ripple => [${text}]`);
 			$.errorCount++;
@@ -527,6 +527,7 @@ const parseTemplate = (template, title, suffix, sourceText, desc, split = true) 
 	// [[SOURCE]] becomes a {SOURCE ...} line
 	// [[N]] is a newline
 	// [[^S]] is a footnote leading to Source info (not handled in this function)
+	// [[BQ]] is a MarkDown blockquote notation (not handled in this function)
 	// ??SOURCE:...?? only adds "..." if a Source exists
 	// ??SUFFIX:...?? only adds "..." if a nameSuffix exists
 	let constructed = template;
