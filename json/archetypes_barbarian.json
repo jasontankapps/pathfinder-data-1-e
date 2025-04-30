@@ -825,7 +825,7 @@
 					"## Totem Warrior",
 					"",
 					"{SOURCE Advanced Player's Guide/79}  ",
-					"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from totem {ability/rage powers} that match their totem.",
+					"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from totem rage powers that match their totem.",
 					"",
 					"**Rage Powers:** The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): {ragepower/animal fury}, {ragepower/low-light vision}, {ragepower/night vision}, {ragepower/raging climber}, {ragepower/raging leaper}, {ragepower/raging swimmer}, and {ragepower/swift foot}.",
 					"",
@@ -838,8 +838,8 @@
 					"limit": "Totem",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": ">*(.+?)",
-						"replacement": "$1"
+						"regex": "(.+?)(?:\\[\\[N\\]\\])+\\*\\*Totem\\*\\* rage powers are only available.+$|^>*(.+?)",
+						"replacement": "$1$2"
 					},
 					"template": "[[BQ]]**{ragepower/[[TITLE]]:}** [[^S]] [[DESC]]"
 				}

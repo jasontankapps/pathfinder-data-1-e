@@ -232,6 +232,9 @@ const inlineTags = {
 			// Do some minor MD replacements for bold/italics.
 			const marked2 = makeNewMarkedInstance();
 			return marked2.parseInline(text);
+		} else if (tag === "hl" || tag === "HL") {
+			const marked2 = makeNewMarkedInstance();
+			return `<strong className="hl">${marked2.parseInline(text)}</strong>`;
 		}
 		switch(tag) {
 			case "primary":

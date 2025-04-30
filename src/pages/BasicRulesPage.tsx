@@ -93,7 +93,7 @@ const BasicRulesPage: FC<BasicRulesProps> = ({
 	return (
 		<BasicPage title={title} sources={sources} pageId={`/rule/${id}`} hasJL={hasJL} noFinder={noFinder}>
 			<HierarchyRulesInset extraHierarchy={h} />
-			<div className={cn ? cn + " highlight" : "highlight"}>
+			<div className={cn}>
 				<h2>{title}</h2>
 				{jsx}
 			</div>

@@ -1739,7 +1739,6 @@
 	"dragon_totem": {
 		"name": "Dragon Totem",
 		"nameSuffix": "(Su)",
-		"level": 1,
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [

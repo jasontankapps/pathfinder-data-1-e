@@ -32,7 +32,7 @@
 			"",
 			"A Craft skill is specifically focused on creating something. If an endeavor does not result in a created product, it probably falls under the heading of a Profession skill.",
 			"",
-			"***Check:*** You can practice your trade and make a decent living, earning your check result in silver pieces per day. You know how to use the tools of your trade, how to perform the craft's daily tasks, how to supervise untrained helpers, and how to handle common problems. (Untrained laborers and assistants earn an average of 1 silver piece per day.)",
+			":HL[Check:] You can practice your trade and make a decent living, earning your check result in silver pieces per day. You know how to use the tools of your trade, how to perform the craft's daily tasks, how to supervise untrained helpers, and how to handle common problems. (Untrained laborers and assistants earn an average of 1 silver piece per day.)",
 			"",
 			"The basic function of the Craft skill, however, is to make an item of the appropriate type. Most items created with a Craft skill fall into one of several broad categories of complexity. Others have Craft DCs based on CR (in the case of traps) or on the Fortitude saves required to avoid or minimize their effects (in the case of poisons).",
 			"",
@@ -42,11 +42,11 @@
 			"",
 			"If you fail the check, no progress is made that day. If you fail the check by 5 or more, you waste an amount of your raw materials equal to the item's base progress per day, up to a maximum of the initial cost of the raw materials. Such wasted material must be replenished before you can continue crafting the item.",
 			"",
-			"***Setting Aside Crafting Items:*** As long as you can store an item in a secure and safe place, you can set aside an item that you began crafting and return to it again later with little or no effect. Your GM may rule that this is not possible, especially in the case of volatile alchemical items or perishable goods.",
+			":HL[Setting Aside Crafting Items:] As long as you can store an item in a secure and safe place, you can set aside an item that you began crafting and return to it again later with little or no effect. Your GM may rule that this is not possible, especially in the case of volatile alchemical items or perishable goods.",
 			"",
-			"***Crafting Masterwork and Special Material Items:*** When you're crafting a masterwork item or an item made of a special material, its crafting difficulty increases by one step. For example, a longsword (which has a base difficulty of normal) is considered a complex item when crafted as a masterwork item (DC 20; 4 gp base progress per day). In the case of items crafted from special materials that also count as masterwork (such as adamantine armor and weapons), the complexity of the item increases by two steps.",
+			":HL[Crafting Masterwork and Special Material Items:] When you're crafting a masterwork item or an item made of a special material, its crafting difficulty increases by one step. For example, a longsword (which has a base difficulty of normal) is considered a complex item when crafted as a masterwork item (DC 20; 4 gp base progress per day). In the case of items crafted from special materials that also count as masterwork (such as adamantine armor and weapons), the complexity of the item increases by two steps.",
 			"",
-			"***Repairing Items:*** You can use the appropriate Craft skill to repair items of that type. Repairing an item with the broken condition or that has taken damage (or both) requires tools and a work area, and you must pay 1/10 the item's cost in raw materials. Repairing an item has the same DC as crafting the item, but takes an amount of time based on the item's complexity. Extremely simple items take an hour to repair. Simple and normal items take 1d4 hours to repair. Complex and intricate items take a day to repair, and all other items take 1d4 days to repair.",
+			":HL[Repairing Items:] You can use the appropriate Craft skill to repair items of that type. Repairing an item with the broken condition or that has taken damage (or both) requires tools and a work area, and you must pay 1/10 the item's cost in raw materials. Repairing an item has the same DC as crafting the item, but takes an amount of time based on the item's complexity. Extremely simple items take an hour to repair. Simple and normal items take 1d4 hours to repair. Complex and intricate items take a day to repair, and all other items take 1d4 days to repair.",
 			"",
 			"### Table 2-4: Crafting DCs and Progress Values",
 			"",
@@ -96,77 +96,77 @@
 			"",
 			"### Extremely Simple (DC 5)",
 			"",
-			"***Alchemical Items:*** Casting plaster.",
+			":HL[Alchemical Items:] Casting plaster.",
 			"",
-			"***Mundane Items:*** Very simple items such as wooden spoons, other carved one-piece items.",
+			":HL[Mundane Items:] Very simple items such as wooden spoons, other carved one-piece items.",
 			"",
-			"***Weapons:*** Manufactured clubs, quarterstaffs, slings.",
+			":HL[Weapons:] Manufactured clubs, quarterstaffs, slings.",
 			"",
 			"### Simple (DC 10)",
 			"",
-			"***Alchemical Items:*** Light detector.",
+			":HL[Alchemical Items:] Light detector.",
 			"",
-			"***Armor:*** Light armor, wooden shields.",
+			":HL[Armor:] Light armor, wooden shields.",
 			"",
-			"***Mundane Items:*** Typical household items such as iron pots.",
+			":HL[Mundane Items:] Typical household items such as iron pots.",
 			"",
-			"***Vehicles:*** Cart, raft.",
+			":HL[Vehicles:] Cart, raft.",
 			"",
-			"***Weapons:*** Simple weapons (except crossbows).",
+			":HL[Weapons:] Simple weapons (except crossbows).",
 			"",
 			"### Normal (DC 15)",
 			"",
-			"***Alchemical Items:*** Acid; alchemical cement; alchemical grease; armor ointment; bladeguard; buoyant balloon; chill cream; glowing ink; invisible ink, simple; keros oil; liquid blade; marker dye; soothe syrup; water purification sponge.",
+			":HL[Alchemical Items:] Acid; alchemical cement; alchemical grease; armor ointment; bladeguard; buoyant balloon; chill cream; glowing ink; invisible ink, simple; keros oil; liquid blade; marker dye; soothe syrup; water purification sponge.",
 			"",
-			"***Armor:*** Medium armor, steel shields.",
+			":HL[Armor:] Medium armor, steel shields.",
 			"",
-			"***Mundane Items:*** Most adventuring gear.",
+			":HL[Mundane Items:] Most adventuring gear.",
 			"",
-			"***Vehicles:*** Chariot, light; chariot, medium; chariot, heavy; rowboat; sleigh; wagon, light; wagon, medium; wagon, heavy.",
+			":HL[Vehicles:] Chariot, light; chariot, medium; chariot, heavy; rowboat; sleigh; wagon, light; wagon, medium; wagon, heavy.",
 			"",
-			"***Weapons:*** Martial weapons and crossbows.",
+			":HL[Weapons:] Martial weapons and crossbows.",
 			"",
 			"### Complex (DC 20)",
 			"",
-			"***Alchemical Items:*** Alchemical glue; alchemical solvent; alchemist's fire; alchemist's kindness; alkali flask; blackfire clay; candlerod; flash powder; foaming powder; ghast retch flask; impact foam; invisible ink, average; invisible ink, good; meditation tea; nushadir; paper candle firework; scent cloak; shard gel; smoke pellet; smokestick; star candle firework; tindertwig; vermin repellent; weapon blanch, cold iron; weapon blanch, silver; wismuth salix.",
+			":HL[Alchemical Items:] Alchemical glue; alchemical solvent; alchemist's fire; alchemist's kindness; alkali flask; blackfire clay; candlerod; flash powder; foaming powder; ghast retch flask; impact foam; invisible ink, average; invisible ink, good; meditation tea; nushadir; paper candle firework; scent cloak; shard gel; smoke pellet; smokestick; star candle firework; tindertwig; vermin repellent; weapon blanch, cold iron; weapon blanch, silver; wismuth salix.",
 			"",
-			"***Armor:*** Heavy armor.",
+			":HL[Armor:] Heavy armor.",
 			"",
-			"***Mundane Items:*** Jewelry, kits, locks, complicated adventuring gear.",
+			":HL[Mundane Items:] Jewelry, kits, locks, complicated adventuring gear.",
 			"",
-			"***Traps:*** All traps CR 1-5.",
+			":HL[Traps:] All traps CR 1-5.",
 			"",
-			"***Vehicles:*** Carriage, glider, keelboat, longship.",
+			":HL[Vehicles:] Carriage, glider, keelboat, longship.",
 			"",
-			"***Weapons:*** Early firearm ammunition, early one-handed firearms, early two-handed firearms, exotic weapons.",
+			":HL[Weapons:] Early firearm ammunition, early one-handed firearms, early two-handed firearms, exotic weapons.",
 			"",
 			"### Intricate (DC 25)",
 			"",
-			"***Alchemical Items:*** Alchemical glue accelerant; antiplague; antitoxin; bloodblock; bottled lightning; burst jar; defoliant; embalming fluid; fire ward gel; frost ward gel; fuse grenade; invisible ink, superior; itching powder; liquid ice; mending paste; padzahr; pellet grenade; skyrocket firework; smelling salts; sneezing powder; starfountain firework; sunrod; tanglefoot bag; thunderstone; twitch tonic; weapon blanch, adamantine.",
+			":HL[Alchemical Items:] Alchemical glue accelerant; antiplague; antitoxin; bloodblock; bottled lightning; burst jar; defoliant; embalming fluid; fire ward gel; frost ward gel; fuse grenade; invisible ink, superior; itching powder; liquid ice; mending paste; padzahr; pellet grenade; skyrocket firework; smelling salts; sneezing powder; starfountain firework; sunrod; tanglefoot bag; thunderstone; twitch tonic; weapon blanch, adamantine.",
 			"",
-			"***Mundane Items:*** Clocks, other intricate items.",
+			":HL[Mundane Items:] Clocks, other intricate items.",
 			"",
-			"***Traps:*** All traps CR 6-10.",
+			":HL[Traps:] All traps CR 6-10.",
 			"",
-			"***Vehicles:*** Galley, sailing ship, warship.",
+			":HL[Vehicles:] Galley, sailing ship, warship.",
 			"",
-			"***Weapons:*** Advanced firearm ammunition, advanced firearms, non-alchemical and non-firearm siege weapons.",
+			":HL[Weapons:] Advanced firearm ammunition, advanced firearms, non-alchemical and non-firearm siege weapons.",
 			"",
 			"### Very Intricate (DC 30)",
 			"",
-			"***Alchemical Items:*** Banshee ballerina firework, flame fountain firework, rusting powder, soul stimulant, tangleburn bag, troll oil.",
+			":HL[Alchemical Items:] Banshee ballerina firework, flame fountain firework, rusting powder, soul stimulant, tangleburn bag, troll oil.",
 			"",
-			"***Traps:*** All traps CR 11-15.",
+			":HL[Traps:] All traps CR 11-15.",
 			"",
-			"***Vehicles:*** Airship.",
+			":HL[Vehicles:] Airship.",
 			"",
-			"***Weapons:*** Alchemical siege engines, siege firearms.",
+			":HL[Weapons:] Alchemical siege engines, siege firearms.",
 			"",
 			"### Extremely Intricate (DC 35)",
 			"",
-			"***Traps:*** All traps CR 16+.",
+			":HL[Traps:] All traps CR 16+.",
 			"",
-			"***Vehicles:*** Alchemical dragon, steam giant."
+			":HL[Vehicles:] Alchemical dragon, steam giant."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -222,7 +222,7 @@
 			"",
 			"When crafting items, you need tools and an appropriate workspace. What constitutes an appropriate workspace is often situational. Repairing weapons or armor in the field requires only a relatively quiet and clear area, while crafting a suit of full plate requires a workshop and a forge. Typically, items of normal or greater complexity require a workshop of some sort, but under certain circumstances, the GM can rule that such items can be created in the field. Alchemical items and poisons are exceptions to these guidelines, as their compact nature makes them easier to craft in the field, especially with the help of an alchemist's lab.",
 			"",
-			"***Masterwork Workspaces:*** Large, well-stocked workspaces can also aid in the crafting of items, particularly when you use trained and untrained labor. These masterwork workspaces grant trained and untrained laborers a +2 circumstance bonus on checks to aid another when they aid your Craft check. Furthermore, if a trained or untrained laborer succeeds at the check to aid another by 5 or more, that laborer grants you a +3 bonus on your check instead of the normal +2. It typically costs 5 gp per day to rent a masterwork workspace for crafting relatively small items (such as most adventuring gear, alchemical items, armor, poisons, and weapons) and 20 gp per day to rent a masterwork workspace for creating larger items (such as siege engines and vehicles)."
+			":HL[Masterwork Workspaces:] Large, well-stocked workspaces can also aid in the crafting of items, particularly when you use trained and untrained labor. These masterwork workspaces grant trained and untrained laborers a +2 circumstance bonus on checks to aid another when they aid your Craft check. Furthermore, if a trained or untrained laborer succeeds at the check to aid another by 5 or more, that laborer grants you a +3 bonus on your check instead of the normal +2. It typically costs 5 gp per day to rent a masterwork workspace for crafting relatively small items (such as most adventuring gear, alchemical items, armor, poisons, and weapons) and 20 gp per day to rent a masterwork workspace for creating larger items (such as siege engines and vehicles)."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -250,13 +250,13 @@
 			"",
 			"Special raw materials' crafting costs are always half their actual cost. They also have special traits when used as the raw material for crafting in the alternate Craft skill rules presented above. A special material cannot have more than one of the following special traits.",
 			"",
-			"***Easily Worked Raw Materials:*** This type of raw material makes it easier to craft items faster. When using this raw material, the item's base progress per day is doubled. For example, if you are creating a suit of chainmail using easily worked steel, your base progress per day is 4 gp rather than 2 gp.",
+			":HL[Easily Worked Raw Materials:] This type of raw material makes it easier to craft items faster. When using this raw material, the item's base progress per day is doubled. For example, if you are creating a suit of chainmail using easily worked steel, your base progress per day is 4 gp rather than 2 gp.",
 			"",
-			"***Flawless Raw Materials:*** This material is so flawless that it can be used to create high-quality items with ease. When using flawless raw materials to create either masterwork or specialmaterial items, the crafting difficulty doesn't increase. For example, if you craft a suit of masterwork chainmail using flawless steel, the difficulty of the check remains normal (DC 15) rather than becoming complex (DC 20).",
+			":HL[Flawless Raw Materials:] This material is so flawless that it can be used to create high-quality items with ease. When using flawless raw materials to create either masterwork or specialmaterial items, the crafting difficulty doesn't increase. For example, if you craft a suit of masterwork chainmail using flawless steel, the difficulty of the check remains normal (DC 15) rather than becoming complex (DC 20).",
 			"",
-			"***Malleable Raw Materials:*** This type of special raw material can withstand crafting errors better than other normal materials of the same type. If you fail a Craft check by 5 or more when using malleable raw materials, you don't lose an amount of raw material equal to the item's base progress per day.",
+			":HL[Malleable Raw Materials:] This type of special raw material can withstand crafting errors better than other normal materials of the same type. If you fail a Craft check by 5 or more when using malleable raw materials, you don't lose an amount of raw material equal to the item's base progress per day.",
 			"",
-			"***Pure Raw Materials:*** This raw material makes it easier to craft an item. When using this raw material, you roll twice when attempting your Craft check and take the better result.",
+			":HL[Pure Raw Materials:] This raw material makes it easier to craft an item. When using this raw material, you roll twice when attempting your Craft check and take the better result.",
 			"",
 			"### Table 2-6: Special Raw Material Cost",
 			"",
@@ -319,7 +319,7 @@
 			"",
 			"You are skilled at a specific job. Like Craft, Knowledge, and Perform, Profession is actually a number of separate skills. You could have several Profession skills, each with its own ranks. While a Craft skill represents ability in creating an item, a Profession skill represents an aptitude in a vocation requiring a broader range of less specific knowledge. The most common Profession skills are architect, baker, barrister, brewer, butcher, clerk, cook, courtesan, driver, engineer, farmer, fisherman, gambler, gardener, herbalist, innkeeper, librarian, merchant, midwife, miller, miner, porter, sailor, scribe, shepherd, stable master, soldier, tanner, trapper, and woodcutter.",
 			"",
-			"***Check:*** You know how to use the tools of your trade, how to perform the profession's daily tasks, how to supervise apprentices and helpers, and how to handle common problems. You can also answer questions about your Profession. Basic questions have a DC of 10, while more complex questions have a DC of 15 or higher."
+			":HL[Check:] You know how to use the tools of your trade, how to perform the profession's daily tasks, how to supervise apprentices and helpers, and how to handle common problems. You can also answer questions about your Profession. Basic questions have a DC of 10, while more complex questions have a DC of 15 or higher."
 		],
 		"parent_topics": [ "optional_skill_changes" ],
 		"siblings": [
@@ -355,23 +355,23 @@
 			"| Medium | -5 | 5 | 10 | 2 weeks | 1,000 gp/rank | 100 |",
 			"| Large | -10 | 10 | 20 | 1 month | 5,000 gp/rank | 1,000 |",
 			"",
-			"***Labor Factor:*** This value indicates the minimum labor \"cost\" of running your business. It serves as a penalty on your Profession skill check to determine profits, accounting for the various laborers, assistants, experts, and apprentices you must employ to maintain a business of the associated size. Typically, your business can have a maximum number of employees equal to 2 &times; the positive value of its base Labor Factor (or a maximum of two employees for a mobile business), but each employee your business has beyond the minimum increases the Labor Factor penalty by 1.",
+			":HL[Labor Factor:] This value indicates the minimum labor \"cost\" of running your business. It serves as a penalty on your Profession skill check to determine profits, accounting for the various laborers, assistants, experts, and apprentices you must employ to maintain a business of the associated size. Typically, your business can have a maximum number of employees equal to 2 &times; the positive value of its base Labor Factor (or a maximum of two employees for a mobile business), but each employee your business has beyond the minimum increases the Labor Factor penalty by 1.",
 			"",
-			"***Minimum Employees:*** This is the minimum number of employees needed to run a business.",
+			":HL[Minimum Employees:] This is the minimum number of employees needed to run a business.",
 			"",
-			"***Maximum Employees:*** This is the maximum number of employees a business can maintain.",
+			":HL[Maximum Employees:] This is the maximum number of employees a business can maintain.",
 			"",
-			"***Initial/Upgrade Costs:*** The cost listed is the amount required to either establish (for a Mobile or Small business) or upgrade (from Small to Medium, or Medium to Large) a business. The value is multiplied by the number of ranks you have in the appropriate Profession skill, and reflects the quality of tools, equipment, decor, advertising, and so forth needed to maximize your talents and effectiveness at running a business of that size. If you gain more skill ranks, you must pay for the increased cost associated with those ranks in order to gain the benefit of those ranks on checks to determine profits - otherwise, all checks made to determine profits are capped at the highest skill rank for which you've paid. If you spend 125% of the listed cost, you set up a masterwork operation, with the finest equipment, tools, and furnishings available. Such a workspace grants you a +2 circumstance bonus on all associated Profession checks (including ones to determine profits).",
+			":HL[Initial/Upgrade Costs:] The cost listed is the amount required to either establish (for a Mobile or Small business) or upgrade (from Small to Medium, or Medium to Large) a business. The value is multiplied by the number of ranks you have in the appropriate Profession skill, and reflects the quality of tools, equipment, decor, advertising, and so forth needed to maximize your talents and effectiveness at running a business of that size. If you gain more skill ranks, you must pay for the increased cost associated with those ranks in order to gain the benefit of those ranks on checks to determine profits - otherwise, all checks made to determine profits are capped at the highest skill rank for which you've paid. If you spend 125% of the listed cost, you set up a masterwork operation, with the finest equipment, tools, and furnishings available. Such a workspace grants you a +2 circumstance bonus on all associated Profession checks (including ones to determine profits).",
 			"",
-			"***Monthly Profits Factor:*** This value is used to calculate net income earned after the cost of goods, overhead, and labor are taken into account.",
+			":HL[Monthly Profits Factor:] This value is used to calculate net income earned after the cost of goods, overhead, and labor are taken into account.",
 			"",
-			"***Mobile Business:*** Your business functions as a traveling operation, either as a small street-side setup within a town or city (such as a rug to display wares at a bazaar or a cart or wagon pulled through the city while the proprietor hawks the goods), as a roving professional service moving between multiple communities, or as a service that actually involves travel (such as that of a sailor, merchant, etc.).",
+			":HL[Mobile Business:] Your business functions as a traveling operation, either as a small street-side setup within a town or city (such as a rug to display wares at a bazaar or a cart or wagon pulled through the city while the proprietor hawks the goods), as a roving professional service moving between multiple communities, or as a service that actually involves travel (such as that of a sailor, merchant, etc.).",
 			"",
-			"***Small Business:*** Your business is a small shop, usually one of several within a single building. A Small business might cater to a community as small as a hamlet or to a single neighborhood within a metropolis.",
+			":HL[Small Business:] Your business is a small shop, usually one of several within a single building. A Small business might cater to a community as small as a hamlet or to a single neighborhood within a metropolis.",
 			"",
-			"***Medium Business:*** Your business is either a large shop occupying all of a single building or multiple smaller storefronts (each equivalent to a small business). A Medium business usually occupies a small town or larger community.",
+			":HL[Medium Business:] Your business is either a large shop occupying all of a single building or multiple smaller storefronts (each equivalent to a small business). A Medium business usually occupies a small town or larger community.",
 			"",
-			"***Large Business:*** Your operations are sizable, either functioning as several Medium businesses within a single small city or larger settlement, or as multiple businesses of any size distributed among several small towns or larger communities."
+			":HL[Large Business:] Your operations are sizable, either functioning as several Medium businesses within a single small city or larger settlement, or as multiple businesses of any size distributed among several small towns or larger communities."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -437,65 +437,65 @@
 			"",
 			"Listed below are each of the professions featured in the Pathfinder RPG, along with a quick description of how a character could operate that business either as a traveling service or from a storefront. Of course, other professions are possible, limited only by a character's imagination.",
 			"",
-			"***Architect:*** Mobile architects are very uncommon, and most often travel from noble to noble, providing expertise in the construction of manor houses and strongholds. A mobile architect might also serve as an attachment to a military unit or a mercenary company, training the soldiers in construction of defenses on the field of battle. More often, architects operate small businesses in larger towns and cities, creating and selling plans for construction or overseeing projects already under way.",
+			":HL[Architect:] Mobile architects are very uncommon, and most often travel from noble to noble, providing expertise in the construction of manor houses and strongholds. A mobile architect might also serve as an attachment to a military unit or a mercenary company, training the soldiers in construction of defenses on the field of battle. More often, architects operate small businesses in larger towns and cities, creating and selling plans for construction or overseeing projects already under way.",
 			"",
-			"***Baker:*** A baker can peddle goods (usually cooked at home) as a street vendor, often from a bazaar stall or cart. In rare instances, a renowned baker might travel the countryside, offering to create masterfully made baked goods in smaller communities, most often during holidays and other celebrations (and sometimes while in search of apprentices). A baker can also establish a storefront to sell all manner of breads, cakes, pastries, and pies, probably in conjunction with various Craft (baked goods) skill checks. The baker might also take special orders for custom creations, particularly catering to the wealthy within a sizable town.",
+			":HL[Baker:] A baker can peddle goods (usually cooked at home) as a street vendor, often from a bazaar stall or cart. In rare instances, a renowned baker might travel the countryside, offering to create masterfully made baked goods in smaller communities, most often during holidays and other celebrations (and sometimes while in search of apprentices). A baker can also establish a storefront to sell all manner of breads, cakes, pastries, and pies, probably in conjunction with various Craft (baked goods) skill checks. The baker might also take special orders for custom creations, particularly catering to the wealthy within a sizable town.",
 			"",
-			"***Barrister:*** Traveling barristers might operate on a predetermined circuit, attending to legal matters in small communities scattered through rural areas, often at the behest of the local nobility. However, most barristers serve in a fixed location, performing their legal duties in conjunction with an established court of law. Depending on the type of government that exists within a locale, the barrister might serve a set of clients among the general populace, or he might act more as judge and jury in all disputes.",
+			":HL[Barrister:] Traveling barristers might operate on a predetermined circuit, attending to legal matters in small communities scattered through rural areas, often at the behest of the local nobility. However, most barristers serve in a fixed location, performing their legal duties in conjunction with an established court of law. Depending on the type of government that exists within a locale, the barrister might serve a set of clients among the general populace, or he might act more as judge and jury in all disputes.",
 			"",
-			"***Brewer:*** A traveling brewer likely functions as a microbrewer, crafting his beverages at home then selling them from a wagon or cart, sometimes even between multiple communities or at local fairs. Larger brewing operations may set up shop in a rural community where the ingredients are fresh and then ship the finished product in larger towns, or they might receive the ingredients from elsewhere and craft their brews within the city walls.",
+			":HL[Brewer:] A traveling brewer likely functions as a microbrewer, crafting his beverages at home then selling them from a wagon or cart, sometimes even between multiple communities or at local fairs. Larger brewing operations may set up shop in a rural community where the ingredients are fresh and then ship the finished product in larger towns, or they might receive the ingredients from elsewhere and craft their brews within the city walls.",
 			"",
-			"***Butcher:*** A mobile butcher might move among several very small, rural communities, either buying livestock or offering to slaughter and dress them on the premises. Most butchers operate butcher's shops, selling fresh cuts of meat delivered from elsewhere. Very large operations might sell to nobles or armies in need of sustenance.",
+			":HL[Butcher:] A mobile butcher might move among several very small, rural communities, either buying livestock or offering to slaughter and dress them on the premises. Most butchers operate butcher's shops, selling fresh cuts of meat delivered from elsewhere. Very large operations might sell to nobles or armies in need of sustenance.",
 			"",
-			"***Clerk:*** Traveling clerks, while not common, are not unheard of. They frequently roam from town to town, preparing paperwork on behalf of clergy members, mayors, and minor nobles. Clerks who operate storefront businesses tend to provide bookkeeping services to other businesses, and also offer the creation of announcements, invitations, and other printed materials.",
+			":HL[Clerk:] Traveling clerks, while not common, are not unheard of. They frequently roam from town to town, preparing paperwork on behalf of clergy members, mayors, and minor nobles. Clerks who operate storefront businesses tend to provide bookkeeping services to other businesses, and also offer the creation of announcements, invitations, and other printed materials.",
 			"",
-			"***Cook:*** Cooks who travel often do so in the company of military units or caravans, while those who want to settle down frequently run restaurants or pubs. Some cooks also make a living serving fantastic dishes at court or operating catering services for other businesses.",
+			":HL[Cook:] Cooks who travel often do so in the company of military units or caravans, while those who want to settle down frequently run restaurants or pubs. Some cooks also make a living serving fantastic dishes at court or operating catering services for other businesses.",
 			"",
-			"***Courtesan:*** There are very few instances of traveling courtesans; most who claim to be are grifters or con artists, offering companionship only as part of some elaborate scheme. Most true courtesans are found either at court or working in a bawdy house. An individual could run a brothel as a full-time business using this Profession skill.",
+			":HL[Courtesan:] There are very few instances of traveling courtesans; most who claim to be are grifters or con artists, offering companionship only as part of some elaborate scheme. Most true courtesans are found either at court or working in a bawdy house. An individual could run a brothel as a full-time business using this Profession skill.",
 			"",
-			"***Driver:*** By its nature, the profession of driving requires travel, so most mobile drivers work independently, serving military units or caravans, handling carts, wagons, carriages, and the animals that pull them. Localized driving businesses could offer dray work to other shops in a community, provide carriage service (like a taxi service), or even contract out full caravan service. Alternatively, mercenary drivers might participate in chariot games for sponsors willing to pay enough.",
+			":HL[Driver:] By its nature, the profession of driving requires travel, so most mobile drivers work independently, serving military units or caravans, handling carts, wagons, carriages, and the animals that pull them. Localized driving businesses could offer dray work to other shops in a community, provide carriage service (like a taxi service), or even contract out full caravan service. Alternatively, mercenary drivers might participate in chariot games for sponsors willing to pay enough.",
 			"",
-			"***Engineer:*** Engineers function in much the same way as architects. Mercenary captains who lead bands of military engineers for hire typically have some skill in this profession.",
+			":HL[Engineer:] Engineers function in much the same way as architects. Mercenary captains who lead bands of military engineers for hire typically have some skill in this profession.",
 			"",
-			"***Farmer:*** Mobile farmers often serve as traveling workers, moving between farms to gather crops on behalf of wealthy landowners. Some highly skilled farmers also travel between communities, demonstrating and selling new kinds of plant breeds or diagnosing diseases. Otherwise, farmers operate plots of land, growing produce to sell in urban areas.",
+			":HL[Farmer:] Mobile farmers often serve as traveling workers, moving between farms to gather crops on behalf of wealthy landowners. Some highly skilled farmers also travel between communities, demonstrating and selling new kinds of plant breeds or diagnosing diseases. Otherwise, farmers operate plots of land, growing produce to sell in urban areas.",
 			"",
-			"***Fisherman:*** Fishermen must go where there is water, but some truly do travel, by either taking wealthy clients on fishing expeditions for sport or finding work as an independent contractor on a commercial fishing vessel. Fishermen who wish to start a local business often run a dockside company with one or more boats or ships with crews that bring in large catches, which the business owner then sells to local inns, taverns, and so forth.",
+			":HL[Fisherman:] Fishermen must go where there is water, but some truly do travel, by either taking wealthy clients on fishing expeditions for sport or finding work as an independent contractor on a commercial fishing vessel. Fishermen who wish to start a local business often run a dockside company with one or more boats or ships with crews that bring in large catches, which the business owner then sells to local inns, taverns, and so forth.",
 			"",
-			"***Gambler:*** A lone gambler who makes a living winning coin usually moves from place to place once her skills are noted and she wears out her welcome. Some occasionally hire on to teach others how to gamble effectively (this is particularly popular among nobles who are constantly trying to one-up one another). Gamblers who want to make a business of it often set up betting houses, bookie services, and casinos.",
+			":HL[Gambler:] A lone gambler who makes a living winning coin usually moves from place to place once her skills are noted and she wears out her welcome. Some occasionally hire on to teach others how to gamble effectively (this is particularly popular among nobles who are constantly trying to one-up one another). Gamblers who want to make a business of it often set up betting houses, bookie services, and casinos.",
 			"",
-			"***Gardener:*** Mobile gardeners serve as landscapers, hiring out to grow and groom public parks. Some gardeners start local businesses that cater to either the city or wealthy nobles who want flower gardens, hedge mazes, and the like. Their employees visit clients regularly to plant new starts, trim and train established plants and trees, and ready gardens for the changing seasons.",
+			":HL[Gardener:] Mobile gardeners serve as landscapers, hiring out to grow and groom public parks. Some gardeners start local businesses that cater to either the city or wealthy nobles who want flower gardens, hedge mazes, and the like. Their employees visit clients regularly to plant new starts, trim and train established plants and trees, and ready gardens for the changing seasons.",
 			"",
-			"***Herbalist:*** A traveling herbalist rides alone or with a caravan, moving between locales to gather fresh herbs and sell dried ones. Stationary herbalists sell their wares from small cottages in the rural parts of the country or from shops in big cities. The largest herbalist businesses conduct trade with large-scale food suppliers and hospitals, providing seasonings and remedies, respectively.",
+			":HL[Herbalist:] A traveling herbalist rides alone or with a caravan, moving between locales to gather fresh herbs and sell dried ones. Stationary herbalists sell their wares from small cottages in the rural parts of the country or from shops in big cities. The largest herbalist businesses conduct trade with large-scale food suppliers and hospitals, providing seasonings and remedies, respectively.",
 			"",
-			"***Innkeeper:*** A traveling innkeeper serves as a hired hand who helps get struggling businesses back into profitable shape by arranging for better entertainment, bouncers, victuals, and other amenities. Inns run as businesses can range in size from small bed-and-breakfasts to large military barracks.",
+			":HL[Innkeeper:] A traveling innkeeper serves as a hired hand who helps get struggling businesses back into profitable shape by arranging for better entertainment, bouncers, victuals, and other amenities. Inns run as businesses can range in size from small bed-and-breakfasts to large military barracks.",
 			"",
-			"***Librarian:*** A traveling librarian moves about the land, dealing in books (particularly rare ones) with communities that either don't have access to a library of their own or with folks who simply can't afford much in the way of reading material. Permanent libraries can be anything from small, specialized shops that deal with very specific subjects to massive cultural edifices that represent the pinnacle of a given civilization. Private libraries that are run as businesses are rare and usually cater to clients with large amounts of money to spend.",
+			":HL[Librarian:] A traveling librarian moves about the land, dealing in books (particularly rare ones) with communities that either don't have access to a library of their own or with folks who simply can't afford much in the way of reading material. Permanent libraries can be anything from small, specialized shops that deal with very specific subjects to massive cultural edifices that represent the pinnacle of a given civilization. Private libraries that are run as businesses are rare and usually cater to clients with large amounts of money to spend.",
 			"",
-			"***Merchant:*** Traveling merchants can bring goods either on pack mules or as part of a great caravan, and can be found hawking their wares on nearly every street corner. Shopkeepers of all ilks buy and sell every trade good imaginable. The largest trade consortiums manage hundreds of caravans, storefronts, and warehouses.",
+			":HL[Merchant:] Traveling merchants can bring goods either on pack mules or as part of a great caravan, and can be found hawking their wares on nearly every street corner. Shopkeepers of all ilks buy and sell every trade good imaginable. The largest trade consortiums manage hundreds of caravans, storefronts, and warehouses.",
 			"",
-			"***Midwife:*** Some midwives travel between communities, helping to deliver babies at each stop. In more urban communities, they can be hired on by temples and hospitals that specialize in infant birthing.",
+			":HL[Midwife:] Some midwives travel between communities, helping to deliver babies at each stop. In more urban communities, they can be hired on by temples and hospitals that specialize in infant birthing.",
 			"",
-			"***Miller:*** A traveling miller might go from village to village with a portable mill and set up shop for a few days or a week, grinding the community's grain before moving on to the next place. Millers running established operations in farming country would work out of a mill built near a flowing water source, while larger commercial milling operations in urban areas could serve all the farms and merchants for miles around.",
+			":HL[Miller:] A traveling miller might go from village to village with a portable mill and set up shop for a few days or a week, grinding the community's grain before moving on to the next place. Millers running established operations in farming country would work out of a mill built near a flowing water source, while larger commercial milling operations in urban areas could serve all the farms and merchants for miles around.",
 			"",
-			"***Miner:*** Miners must find work wherever the ore, stone, or precious materials they mine are found. However, a lone miner could make a living excavating foundations and basements, live as a prospector hunting for gems and panning for gold in the wild, or work as a mercenary employed to assist a military unit in building defenses or sapping the enemy's walls.",
+			":HL[Miner:] Miners must find work wherever the ore, stone, or precious materials they mine are found. However, a lone miner could make a living excavating foundations and basements, live as a prospector hunting for gems and panning for gold in the wild, or work as a mercenary employed to assist a military unit in building defenses or sapping the enemy's walls.",
 			"",
-			"***Porter:*** Portage work tends to operate out of hubs of civilization, whether in small frontier towns where the need for porters to carry exploration and adventuring gear is high, or in great cities where merchants are in constant need of strong backs to carry, load, and unload cargo. A lone porter could hire out to anyone needing assistance on a short- or long-term basis, while a businessperson could run a portage and delivery service in any sized community.",
+			":HL[Porter:] Portage work tends to operate out of hubs of civilization, whether in small frontier towns where the need for porters to carry exploration and adventuring gear is high, or in great cities where merchants are in constant need of strong backs to carry, load, and unload cargo. A lone porter could hire out to anyone needing assistance on a short- or long-term basis, while a businessperson could run a portage and delivery service in any sized community.",
 			"",
-			"***Sailor:*** Individual sailors not tied to a particular port simply hire on to ships that need an extra hand. However, organized groups of sailors sometimes hire themselves out to those with ships in need of full crews.",
+			":HL[Sailor:] Individual sailors not tied to a particular port simply hire on to ships that need an extra hand. However, organized groups of sailors sometimes hire themselves out to those with ships in need of full crews.",
 			"",
-			"***Scribe:*** Lone scribes who travel from town to town offer not only writing services, but also sell fine papers, inks, pens, and scroll and map cases to customers. Larger enterprises can provide a full range of copying, translating, and illuminating services to a broad range of customers in villages, towns, and cities.",
+			":HL[Scribe:] Lone scribes who travel from town to town offer not only writing services, but also sell fine papers, inks, pens, and scroll and map cases to customers. Larger enterprises can provide a full range of copying, translating, and illuminating services to a broad range of customers in villages, towns, and cities.",
 			"",
-			"***Shepherd:*** A single shepherd will travel to find work wherever there is a need for tending sheep, especially during shearing and birthing season. Someone with a mind to run a shepherding business would have the skill to operate sheep ranches and wool-processing facilities, as well as working in conjunction with butchers to process meat.",
+			":HL[Shepherd:] A single shepherd will travel to find work wherever there is a need for tending sheep, especially during shearing and birthing season. Someone with a mind to run a shepherding business would have the skill to operate sheep ranches and wool-processing facilities, as well as working in conjunction with butchers to process meat.",
 			"",
-			"***Soldier:*** Soldiers go where there is fighting. Individual mercenaries, guards, or marines serving aboard ships accept coin in exchange for their combat prowess. Mercenary captains in charge of whole units or armies effectively run sizable businesses. Urban organizations offering escort and guard services to wealthy nobles and merchants can also grow quite large.",
+			":HL[Soldier:] Soldiers go where there is fighting. Individual mercenaries, guards, or marines serving aboard ships accept coin in exchange for their combat prowess. Mercenary captains in charge of whole units or armies effectively run sizable businesses. Urban organizations offering escort and guard services to wealthy nobles and merchants can also grow quite large.",
 			"",
-			"***Stable Master:*** Anyone who has a way with horses could travel with caravans or armies, serving as a horse handler, while operations in small villages might exist side by side with inns and taprooms. Larger businesses could offer a full-service stable that buys, heals, races, sells, and trains horses.",
+			":HL[Stable Master:] Anyone who has a way with horses could travel with caravans or armies, serving as a horse handler, while operations in small villages might exist side by side with inns and taprooms. Larger businesses could offer a full-service stable that buys, heals, races, sells, and trains horses.",
 			"",
-			"***Tanner:*** A lone tanner might provide his leatherworking services to a number of communities in proximity to one another, and small businesses that offer both tanning services and finished goods for sale are common enough. Bigger operations usually set up near cities where large numbers of livestock are gathered for processing.",
+			":HL[Tanner:] A lone tanner might provide his leatherworking services to a number of communities in proximity to one another, and small businesses that offer both tanning services and finished goods for sale are common enough. Bigger operations usually set up near cities where large numbers of livestock are gathered for processing.",
 			"",
-			"***Trapper:*** Solo trappers can catch and skin enough game to make a living in a frontier or wooded region, and small groups of them might establish a trading post where they could sell their wares along with other goods. A large trapping company might hire scores of individual trappers, bringing in massive quantities of furs that are then shipped to other parts of the world.",
+			":HL[Trapper:] Solo trappers can catch and skin enough game to make a living in a frontier or wooded region, and small groups of them might establish a trading post where they could sell their wares along with other goods. A large trapping company might hire scores of individual trappers, bringing in massive quantities of furs that are then shipped to other parts of the world.",
 			"",
-			"***Woodcutter:*** Individual loggers might move from place to place, felling enough timber to sell to one small community at a time. Large logging operations can potentially clear entire regions of forest in a short time, preparing and shipping the wood - either as whole logs or sawn lumber - by water or caravan to sell anywhere growth and development occurs. Shipyards also require substantial amounts of lumber and make good customers."
+			":HL[Woodcutter:] Individual loggers might move from place to place, felling enough timber to sell to one small community at a time. Large logging operations can potentially clear entire regions of forest in a short time, preparing and shipping the wood - either as whole logs or sawn lumber - by water or caravan to sell anywhere growth and development occurs. Shipyards also require substantial amounts of lumber and make good customers."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -732,7 +732,7 @@
 			"",
 			"Like Craft, an Artistry skill is focused on creating something. However, what it creates is not necessarily a physical object; it could be a pattern or blueprint for an item, or a better method for crafting a type of item. Thus, an Artistry (musical composition) check could be used to create a new song, but the important act of creation is the song itself, not the paper on which it is written or even the performance. An artist is not necessarily a skilled performer, though she might be. An artist's province is the creation of ideas and concepts, and the realization of those ideas in a way that can be enjoyed by others and contribute to the broader culture of the arts. Some art forms (such as painting or sculpture) skirt the line between Artistry and Craft. It's up to the GM to rule whether certain Craft skills can be taken as Artistry skills instead.",
 			"",
-			"***Check:*** You can create works of art and try to earn a living by impressing possible patrons with your talent and ideas.",
+			":HL[Check:] You can create works of art and try to earn a living by impressing possible patrons with your talent and ideas.",
 			"",
 			"| Artistry DC | Workmanship |",
 			"| --- | --- |",
@@ -744,7 +744,7 @@
 			"",
 			"Since works of art are products of imagination, masterwork tools are of no use in their creation.",
 			"",
-			"***Creating a Commissioned Work:*** If you are creating a specific commissioned work, determine the value of the work you wish to create by looking at the table below, then follow the listed steps. You must have a patron willing to pay this value to attempt to create a commissioned work. The amount earned from trying to make a living using Artistry is for works that are distributed among many people and publications, not bought by one patron.",
+			":HL[Creating a Commissioned Work:] If you are creating a specific commissioned work, determine the value of the work you wish to create by looking at the table below, then follow the listed steps. You must have a patron willing to pay this value to attempt to create a commissioned work. The amount earned from trying to make a living using Artistry is for works that are distributed among many people and publications, not bought by one patron.",
 			"",
 			"| Quality of Work | DC | Commission Fee |",
 			"| --- | --- | --- |",
@@ -756,17 +756,17 @@
 			"",
 			"To determine how much time and money it takes to complete a work of art, follow these steps.",
 			"",
-			"***Step 1:*** Find the DC and price corresponding to the quality of the work you intend to create.",
+			":HL[Step 1:] Find the DC and price corresponding to the quality of the work you intend to create.",
 			"",
-			"***Step 2:*** Spend 1/4 the price of the work you intend to create. This represents buying supplies such as parchment and ink, hiring the services of musicians, paying for research materials, and the like.",
+			":HL[Step 2:] Spend 1/4 the price of the work you intend to create. This represents buying supplies such as parchment and ink, hiring the services of musicians, paying for research materials, and the like.",
 			"",
-			"***Step 3:*** Attempt an Artistry check with the appropriate DC, representing 1 week's worth of work. If you succeed, multiply your check result by the DC. If the resulting value equals the price of the item in sp, then you have completed the work of art and gain your commission fee. (If the resulting value equals double or triple the price of the work in silver pieces, then you've completed the task in half or one-third of the time. Other multiples of the DC reduce the completion time in the same manner.) If the resulting value doesn't equal the price, then it represents the progress you've made this week in sp. If the check fails, you make no progress.",
+			":HL[Step 3:] Attempt an Artistry check with the appropriate DC, representing 1 week's worth of work. If you succeed, multiply your check result by the DC. If the resulting value equals the price of the item in sp, then you have completed the work of art and gain your commission fee. (If the resulting value equals double or triple the price of the work in silver pieces, then you've completed the task in half or one-third of the time. Other multiples of the DC reduce the completion time in the same manner.) If the resulting value doesn't equal the price, then it represents the progress you've made this week in sp. If the check fails, you make no progress.",
 			"",
 			"If you didn't complete the work of art, you can either continue working or call it done and cut your losses. If you continue working, you must spend 1/4 the price again for each week you work. Record the result of your check from the first week, and add your progress for each subsequent week to the total until you either complete the item or cut your losses. If you decide to cut your losses, you gain the commission of the highest-quality level that your total could have completed. For instance, if you were trying to create a memorable work (a commission price of 1,000 sp) and have made only 600 sp worth of progress, you can cut your losses to gain a commission fee for an impressive work (500 sp, or 50 gp). You can't earn the value for a higher quality than you were aiming for, so if you aimed to create a memorable work but ended up creating a masterful work, you couldn't gain a commission price higher than 100 gp. When you cut your losses, you don't gain back any money you spent on supplies and services. So if you spent 250 sp when trying to create a memorable work, selling an impressive work would net you only 250 sp total if you spent 1 week of work, and would cause you to break even if you spent 2 weeks. It's possible to lose money working on a commission.",
 			"",
-			"***Action:*** Varies. Trying to earn money by creating minor works of art typically involves a full week's work. If you work less than 1 week, you earn the daily average amount appropriate for your level of workmanship. Creating a commissioned work typically takes a week or more.",
+			":HL[Action:] Varies. Trying to earn money by creating minor works of art typically involves a full week's work. If you work less than 1 week, you earn the daily average amount appropriate for your level of workmanship. Creating a commissioned work typically takes a week or more.",
 			"",
-			"***Try Again:*** Yes. Retries are allowed, but they don't negate previous failures. If you're trying to earn a living as an artist in a city where the public hasn't been impressed with your work (because you failed a DC 15 Artistry check in the previous week), you have a hard time breaking into the marketplace with future artwork (increase the DC by 2 for each previous failure). If you leave the area for a month or more before trying again, this increase resets to 0."
+			":HL[Try Again:] Yes. Retries are allowed, but they don't negate previous failures. If you're trying to earn a living as an artist in a city where the public hasn't been impressed with your work (because you failed a DC 15 Artistry check in the previous week), you have a hard time breaking into the marketplace with future artwork (increase the DC by 2 for each previous failure). If you leave the area for a month or more before trying again, this increase resets to 0."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -791,7 +791,7 @@
 			"",
 			"A Lore skill must be narrow - far narrower than the most relevant Knowledge skill. The broader the scope of a given category of Lore, the shallower your knowledge is on that topic. If you know about taverns in a wide region, you know less about each of them than you would if you had Lore in taverns of a specific city. Lore skills normally can't be used to identify monsters the way Knowledge skills can, unless they refer to a specific type of monster (such as owlbears or vampires). If Lore involves a common, broad category of race or monster, it needs to be more specific. Lore (elves) would be too broad, as would Lore (dragons).",
 			"",
-			"***Check:*** Lore skills use the same DC scale as Knowledge skills: DC 10 to answer easy questions, DC 15 for basic questions, and DC 20 to 30 for really tough questions. In many cases, Lore can substitute for a Knowledge skill, such as Lore (elven history) filling in for Knowledge (history) in a check involving elves. At the GM's discretion, a player might be able to apply a Lore skill that's only partially related to a subject with a -5 penalty, such as using a Lore skill about a region to recall information about a particular city in that region or applying knowledge of distilling to winemaking.",
+			":HL[Check:] Lore skills use the same DC scale as Knowledge skills: DC 10 to answer easy questions, DC 15 for basic questions, and DC 20 to 30 for really tough questions. In many cases, Lore can substitute for a Knowledge skill, such as Lore (elven history) filling in for Knowledge (history) in a check involving elves. At the GM's discretion, a player might be able to apply a Lore skill that's only partially related to a subject with a -5 penalty, such as using a Lore skill about a region to recall information about a particular city in that region or applying knowledge of distilling to winemaking.",
 			"",
 			"The table below describes some examples of Lore skills alongside examples of skills that would be too broad. This is by no means a comprehensive list, and the GM has final say on whether a particular Lore skill is appropriate.",
 			"",
@@ -820,7 +820,7 @@
 			"| Trees | Plants |",
 			"| Tattoos | Art |",
 			"",
-			"***Bards:*** Lore is treated as a Knowledge skill for the purposes of bardic knowledge and lore master, as well as similar abilities found in other classes, creatures, and archetypes. This applies only to Lore skills in which a character is trained. In other circumstances, use the more relevant Knowledge skill."
+			":HL[Bards:] Lore is treated as a Knowledge skill for the purposes of bardic knowledge and lore master, as well as similar abilities found in other classes, creatures, and archetypes. This applies only to Lore skills in which a character is trained. In other circumstances, use the more relevant Knowledge skill."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1250,15 +1250,15 @@
 			"| Undead | Religion |",
 			"| Vermin | Nature |",
 			"",
-			"***Action:*** None.",
+			":HL[Action:] None.",
 			"",
 			"### Recall Knowledge",
 			"",
 			"Some skills have the recall knowledge function. This lets you answer questions about the subjects in question. This has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).",
 			"",
-			"***Action:*** Usually none. Using a library (see Untrained, below) takes 1d4 hours.",
+			":HL[Action:] Usually none. Using a library (see Untrained, below) takes 1d4 hours.",
 			"",
-			"***Untrained:*** You can't attempt an untrained knowledge check with a DC higher than 10 unless you have access to an extensive library on the subject."
+			":HL[Untrained:] You can't attempt an untrained knowledge check with a DC higher than 10 unless you have access to an extensive library on the subject."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1297,11 +1297,11 @@
 			"",
 			"You have a talent for balance and coordination, including aerial maneuvers, gymnastics, and tumbling.",
 			"",
-			"***Functions:*** Balance, escape from restraints, execute flying maneuvers, ride mounts, soften falls, squeeze, tumble.",
+			":HL[Functions:] Balance, escape from restraints, execute flying maneuvers, ride mounts, soften falls, squeeze, tumble.",
 			"",
-			"***Core Skills:*** Acrobatics (except jumping), Escape Artist, Fly, Ride.",
+			":HL[Core Skills:] Acrobatics (except jumping), Escape Artist, Fly, Ride.",
 			"",
-			"***Acrobatics Modifiers:*** The circumstances listed on the table below apply modifiers to Acrobatics check DCs. Although modifiers from different categories (such as slippery, sloped, etc.) stack with each other, only the most severe modifier from each particular category applies.",
+			":HL[Acrobatics Modifiers:] The circumstances listed on the table below apply modifiers to Acrobatics check DCs. Although modifiers from different categories (such as slippery, sloped, etc.) stack with each other, only the most severe modifier from each particular category applies.",
 			"",
 			"| Acrobatics Circumstance | Acrobatics DC Modifier |",
 			"| --- | --- |",
@@ -1361,7 +1361,7 @@
 			"",
 			"You can attempt an Acrobatics check to keep your balance while crossing narrow surfaces or treacherous ground. If you fail, you fall or are knocked prone. You move at half speed while balancing, but you can move at full speed if you increase the DC by 5. You're considered flat-footed while balancing. You need to attempt a check to balance only once per round, but if you take damage, you must attempt another check with the same DC. You don't need to attempt a check if the DC is lower than 10, but modifiers might raise a low DC to 10 or higher.",
 			"",
-			"***Action:*** None.",
+			":HL[Action:] None.",
 			"",
 			"| Surface Width | Acrobatics DC |",
 			"| --- | --- |",
@@ -1404,9 +1404,9 @@
 			"| Masterwork manacles | 35 |",
 			"| Grappler | Grappler's CMD |",
 			"",
-			"***Action:*** 1 minute for restraints, full-round action for a net or a listed spell, standard action for a grapple or pin.",
+			":HL[Action:] 1 minute for restraints, full-round action for a net or a listed spell, standard action for a grapple or pin.",
 			"",
-			"***Try Again:*** Yes. You can even take 20 if you're not being actively opposed."
+			":HL[Try Again:] Yes. You can even take 20 if you're not being actively opposed."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1432,7 +1432,7 @@
 			"",
 			"This use of Acrobatics functions as the {skill/Fly/ core skill} The skill alone doesn't give you the ability to fly.",
 			"",
-			"***Action:*** None."
+			":HL[Action:] None."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1458,7 +1458,7 @@
 			"",
 			"This use of Acrobatics functions as the {skill/Ride/ core skill}.",
 			"",
-			"***Action:*** Varies. Mounting or dismounting is normally a move action."
+			":HL[Action:] Varies. Mounting or dismounting is normally a move action."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1484,7 +1484,7 @@
 			"",
 			"When you deliberately fall any distance, even as a result of a missed jump, you can attempt a DC 15 Acrobatics check to ignore the first 10 feet fallen. You still end up prone if you take damage from the fall.",
 			"",
-			"***Action:*** None."
+			":HL[Action:] None."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1510,9 +1510,9 @@
 			"",
 			"A successful DC 30 Acrobatics check allows you to squeeze through a gap through which your head fits but your shoulders don't. You can't fit through spaces smaller than your head.",
 			"",
-			"***Action:*** 1 minute or longer, possibly requiring multiple checks.",
+			":HL[Action:] 1 minute or longer, possibly requiring multiple checks.",
 			"",
-			"***Try Again:*** Yes. You can even take 20 if you're not being actively opposed."
+			":HL[Try Again:] Yes. You can even take 20 if you're not being actively opposed."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1538,16 +1538,16 @@
 			"",
 			"You can attempt an Acrobatics check to avoid provoking an attack of opportunity when moving through a threatened square. If you fail, your movement ends and you provoke an attack of opportunity from the threatening opponent. You move at half speed when you tumble, but you can move at full speed if you increase the DC by 10. If you try to tumble past multiple opponents in the same round, attempt an Acrobatics check against each of them. The DC increases by 2 for each opponent beyond the first.",
 			"",
-			"***Action:*** None.",
+			":HL[Action:] None.",
 			"",
 			"| Intended Movement | Acrobatics DC |",
 			"| --- | --- |",
 			"| Move through a threatened area | Opponent's CMD |",
 			"| Move through an enemy's space | 5 + opponent's CMD |",
 			"",
-			"***Loads:*** You can't tumble when carrying a medium or heavy load or wearing medium or heavy armor unless an ability allows you to move at full speed in such conditions.",
+			":HL[Loads:] You can't tumble when carrying a medium or heavy load or wearing medium or heavy armor unless an ability allows you to move at full speed in such conditions.",
 			"",
-			"***Prone:*** You can tumble while prone, but this is a full-round action to move 5 feet, and the DC increases by 5."
+			":HL[Prone:] You can tumble while prone, but this is a full-round action to move 5 feet, and the DC increases by 5."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1575,9 +1575,9 @@
 			"",
 			"You are skilled at deeds of physical prowess such as leaping, scaling walls, and swimming. Raw lifting ability uses a Strength check rather than an Athletics check.",
 			"",
-			"***Functions:*** Catch, climb, jump, swim.",
+			":HL[Functions:] Catch, climb, jump, swim.",
 			"",
-			"***Core Skills:*** Acrobatics (jumping only), Climb, Swim."
+			":HL[Core Skills:] Acrobatics (jumping only), Climb, Swim."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1622,7 +1622,7 @@
 			"",
 			"To catch another character that falls while within your reach, you must succeed at a melee touch attack (the target can forgo her Dexterity bonus to AC). If you hit, you then attempt an Athletics check with a DC equal to the wall's climb DC + 10. If you succeed, you catch the falling character, but if her total weight (with equipment) exceeds your heavy load limit, you fall. If you fail by 4 or less, you don't stop the character's fall but don't lose your grip. If you fail by 5 or more, you fail to stop her fall and you begin falling as well.",
 			"",
-			"***Action:*** None."
+			":HL[Action:] None."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1661,7 +1661,7 @@
 			"| Rough surface (natural rock or brick wall) | 25 |",
 			"| Overhang or ceiling with handholds only | 30 |",
 			"",
-			"***Climbing Modifiers:*** The circumstances listed on the table modify Athletics DCs. They stack with each other.",
+			":HL[Climbing Modifiers:] The circumstances listed on the table modify Athletics DCs. They stack with each other.",
 			"",
 			"| Climbing Circumstance | Athletics DC Modifier |",
 			"| --- | --- |",
@@ -1669,13 +1669,13 @@
 			"| Bracing against perpendicular walls (corner) | -5 |",
 			"| Surface is slippery | +5 |",
 			"",
-			"***Action:*** None. Each move action you take requires a separate Athletics check.",
+			":HL[Action:] None. Each move action you take requires a separate Athletics check.",
 			"",
-			"***Making Handholds and Footholds:*** You can pound pitons into a wall to change the wall's base DC to 15. This takes 1 minute per piton, and one piton is needed per 5 feet of distance. You can cut your own handholds into an ice wall for the same purpose if you have a handaxe or similar implement.",
+			":HL[Making Handholds and Footholds:] You can pound pitons into a wall to change the wall's base DC to 15. This takes 1 minute per piton, and one piton is needed per 5 feet of distance. You can cut your own handholds into an ice wall for the same purpose if you have a handaxe or similar implement.",
 			"",
-			"***Climb Speeds:*** A creature with a climb speed gains a +8 racial bonus on Athletics checks to climb. See the {skill/Climb/ skill} for more information on climb speeds.",
+			":HL[Climb Speeds:] A creature with a climb speed gains a +8 racial bonus on Athletics checks to climb. See the {skill/Climb/ skill} for more information on climb speeds.",
 			"",
-			"***Hauling:*** You can haul a character up or down on a rope by sheer strength so that character doesn't need to attempt Athletics checks. You can lift double your maximum load in this manner."
+			":HL[Hauling:] You can haul a character up or down on a rope by sheer strength so that character doesn't need to attempt Athletics checks. You can lift double your maximum load in this manner."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1706,11 +1706,11 @@
 			"| 20 feet | 20 | 4 feet | 16 |",
 			"| Greater than 20 feet | +5 per 5 feet | Greater than 4 feet | +4 per foot |",
 			"",
-			"***Action:*** None.",
+			":HL[Action:] None.",
 			"",
-			"***Acrobatics:*** You can attempt to use Acrobatics instead of Athletics to jump, at a -5 penalty.",
+			":HL[Acrobatics:] You can attempt to use Acrobatics instead of Athletics to jump, at a -5 penalty.",
 			"",
-			"***Speed Bonus:*** If your base land speed is 40 feet or more, you gain a +4 racial bonus on Athletics checks to jump for every 10 feet by which your base land speed exceeds 30 feet. Likewise, you take a -4 racial penalty for every 10 feet your speed is below 30 feet."
+			":HL[Speed Bonus:] If your base land speed is 40 feet or more, you gain a +4 racial bonus on Athletics checks to jump for every 10 feet by which your base land speed exceeds 30 feet. Likewise, you take a -4 racial penalty for every 10 feet your speed is below 30 feet."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1741,13 +1741,13 @@
 			"",
 			"\\* You can't take 10 on an Athletics check to swim in stormy water.",
 			"",
-			"***Action:*** Move action at one-quarter your speed or full-round action at half your speed.",
+			":HL[Action:] Move action at one-quarter your speed or full-round action at half your speed.",
 			"",
-			"***Holding Your Breath:*** When you're underwater, you can hold your breath for a number of rounds equal to twice your Constitution score. If you take a standard or full-round action, reduce the duration you can continue to hold your breath by 1 round. After you run out of rounds, you must succeed at a DC 10 Constitution check each round or begin to drown. Each round, the DC to resist drowning increases by 1. See the {rule/Drowning} rules from the Core Rulebook.",
+			":HL[Holding Your Breath:] When you're underwater, you can hold your breath for a number of rounds equal to twice your Constitution score. If you take a standard or full-round action, reduce the duration you can continue to hold your breath by 1 round. After you run out of rounds, you must succeed at a DC 10 Constitution check each round or begin to drown. Each round, the DC to resist drowning increases by 1. See the {rule/Drowning} rules from the Core Rulebook.",
 			"",
-			"***Extended Swimming:*** Each hour you swim, you must succeed at a DC 20 Swim check or take 1d6 points of nonlethal damage.",
+			":HL[Extended Swimming:] Each hour you swim, you must succeed at a DC 20 Swim check or take 1d6 points of nonlethal damage.",
 			"",
-			"***Swim Speeds:*** A creature with a swim speed gains a +8 racial bonus on Athletics checks to swim. See the {skill/Swim} skill from the Core Rulebook for more information on swim speeds."
+			":HL[Swim Speeds:] A creature with a swim speed gains a +8 racial bonus on Athletics checks to swim. See the {skill/Swim} skill from the Core Rulebook for more information on swim speeds."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1772,9 +1772,9 @@
 			"",
 			"Your deft hands allow you to perform tasks that require fine manipulation.",
 			"",
-			"***Functions:*** Conceal objects on your body, disarm traps or devices, open locks, palm objects, pilfer objects from creatures.",
+			":HL[Functions:] Conceal objects on your body, disarm traps or devices, open locks, palm objects, pilfer objects from creatures.",
 			"",
-			"***Core Skills:*** Disable Device, Sleight of Hand."
+			":HL[Core Skills:] Disable Device, Sleight of Hand."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1824,11 +1824,11 @@
 			"| Extraordinarily small object (coin, ring, shuriken) | +4 |",
 			"| Heavy or baggy clothing | +2 |",
 			"",
-			"***Action:*** Standard, or move at a -20 penalty.",
+			":HL[Action:] Standard, or move at a -20 penalty.",
 			"",
-			"***Try Again:*** Yes, but a second attempt against the same target increases the DC by 10.",
+			":HL[Try Again:] Yes, but a second attempt against the same target increases the DC by 10.",
 			"",
-			"***Drawing Weapons:*** Drawing a hidden weapon is a standard action that doesn't provoke attacks of opportunity."
+			":HL[Drawing Weapons:] Drawing a hidden weapon is a standard action that doesn't provoke attacks of opportunity."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1861,9 +1861,9 @@
 			"| Difficult | 2d4 rounds | 20 | Disarm or reset a trap |",
 			"| Extreme | 2d4 rounds | 25 | Disarm a complex trap, cleverly sabotage a clockwork device |",
 			"",
-			"***Action:*** Varies (see table). Beginning or continuing the process of disarming is a full-round action.",
+			":HL[Action:] Varies (see table). Beginning or continuing the process of disarming is a full-round action.",
 			"",
-			"***Try Again:*** Yes, but only if you fail by 4 or less."
+			":HL[Try Again:] Yes, but only if you fail by 4 or less."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1895,9 +1895,9 @@
 			"| Superior | 40 |",
 			"| Lacking thieves' tools | +10 |",
 			"",
-			"***Action:*** Full-round.",
+			":HL[Action:] Full-round.",
 			"",
-			"***Try Again:*** Yes."
+			":HL[Try Again:] Yes."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1921,9 +1921,9 @@
 			"",
 			"Performing a minor feat of legerdemain or palming a coin-sized, unattended object requires a successful DC 10 Finesse check. If you're under close observation, the observer notices your action if it succeeds at an opposed Perception check against your Finesse check.",
 			"",
-			"***Action:*** Standard, or move at a -20 penalty.",
+			":HL[Action:] Standard, or move at a -20 penalty.",
 			"",
-			"***Try Again:*** Yes, but a second attempt against the same target increases the DC by 10."
+			":HL[Try Again:] Yes, but a second attempt against the same target increases the DC by 10."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1947,9 +1947,9 @@
 			"",
 			"Surreptitiously stealing an item from a creature requires a successful DC 20 Finesse check. The opponent attempts an opposed Perception check against the result of your Finesse check. If she succeeds, she notices your attempt regardless of whether you got the item. You can't attempt to pilfer an object during combat from a creature that's aware of your presence.",
 			"",
-			"***Action:*** Standard, or move at a -20 penalty.",
+			":HL[Action:] Standard, or move at a -20 penalty.",
 			"",
-			"***Try Again:*** Yes, but a second attempt against the same target increases the DC by 10."
+			":HL[Try Again:] Yes, but a second attempt against the same target increases the DC by 10."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -1975,9 +1975,9 @@
 			"",
 			"You can manipulate other people through negotiation, deceit, or intimidation.",
 			"",
-			"***Functions:*** Change others' attitudes, create diversions, demoralize, feint in combat, gather information, intimidate, lie, make requests, pass secret messages.",
+			":HL[Functions:] Change others' attitudes, create diversions, demoralize, feint in combat, gather information, intimidate, lie, make requests, pass secret messages.",
 			"",
-			"***Core Skills:*** Bluff, Diplomacy, Intimidate."
+			":HL[Core Skills:] Bluff, Diplomacy, Intimidate."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2035,9 +2035,9 @@
 			"| Friendly | 10 + target's Cha modifier |",
 			"| Helpful | 0 + target's Cha modifier |",
 			"",
-			"***Action:*** 1 minute of continuous interaction.",
+			":HL[Action:] 1 minute of continuous interaction.",
 			"",
-			"***Try Again:*** You can't attempt to change a creature's attitude more than once per 24-hour period."
+			":HL[Try Again:] You can't attempt to change a creature's attitude more than once per 24-hour period."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2065,9 +2065,9 @@
 			"",
 			"You can create a diversion to hide. You attempt an Influence check against the viewer's opposed Perception check to sense motive. If you succeed, you can attempt a Stealth check. When applicable, use the same modifiers from the lie function.",
 			"",
-			"***Action:*** Standard.",
+			":HL[Action:] Standard.",
 			"",
-			"***Try Again:*** Yes."
+			":HL[Try Again:] Yes."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2095,11 +2095,11 @@
 			"",
 			"You can cause an opponent to become shaken. The DC equals 10 + the target's Hit Dice + the target's Wisdom modifier. If you succeed, the target is shaken for 1 round, plus 1 round for every 5 by which you exceeded the DC. Your target must be within 30 feet and able to clearly see and hear you. Demoralizing the same creature again extends the duration; it doesn't cause a stronger fear condition.",
 			"",
-			"***Action:*** Standard.",
+			":HL[Action:] Standard.",
 			"",
-			"***Try Again:*** Yes, but each additional check against the same target increases the DC by 5. This increase resets after 1 hour.",
+			":HL[Try Again:] Yes, but each additional check against the same target increases the DC by 5. This increase resets after 1 hour.",
 			"",
-			"***Size Bonus:*** You gain a +4 bonus on checks to demoralize creatures smaller than you and take a -4 penalty on checks to demoralize creatures larger than you."
+			":HL[Size Bonus:] You gain a +4 bonus on checks to demoralize creatures smaller than you and take a -4 penalty on checks to demoralize creatures larger than you."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2127,9 +2127,9 @@
 			"",
 			"{rule/Feint/ing in combat is described here.} You use Influence instead of the Bluff core skill, and your opponent uses Perception instead of the Sense Motive core skill.",
 			"",
-			"***Action:*** Standard.",
+			":HL[Action:] Standard.",
 			"",
-			"***Try Again:*** Yes."
+			":HL[Try Again:] Yes."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2162,9 +2162,9 @@
 			"| Common facts or rumors | 10 |",
 			"| Obscure or secret knowledge | 20 or higher |",
 			"",
-			"***Action:*** 1d4 hours.",
+			":HL[Action:] 1d4 hours.",
 			"",
-			"***Try Again:*** Yes."
+			":HL[Try Again:] Yes."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2192,11 +2192,11 @@
 			"",
 			"You can force an opponent to act friendly toward you for 1d6 &times; 10 minutes with a successful Influence check. The DC of this check is equal to 10 + the target's Hit Dice + the target's Wisdom modifier. If you succeed, the target gives you the information you desire, takes actions that don't endanger it, and otherwise offers limited assistance. Once the intimidation expires, the target becomes unfriendly and might report you to the authorities. If you fail by 5 or more, the target attempts to deceive you or otherwise hinder your activities.",
 			"",
-			"***Action:*** 1 minute of conversation.",
+			":HL[Action:] 1 minute of conversation.",
 			"",
-			"***Try Again:*** Yes, but each additional check increases the DC by 5. This increase resets after 1 hour.",
+			":HL[Try Again:] Yes, but each additional check increases the DC by 5. This increase resets after 1 hour.",
 			"",
-			"***Size Bonus:*** You gain a +4 bonus on checks to intimidate creatures smaller than you and take a -4 penalty on checks to intimidate creatures larger than you."
+			":HL[Size Bonus:] You gain a +4 bonus on checks to intimidate creatures smaller than you and take a -4 penalty on checks to intimidate creatures larger than you."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2234,9 +2234,9 @@
 			"| Target is drunk or impaired | +5 |",
 			"| You have convincing proof | Up to +10 |",
 			"",
-			"***Action:*** 1 round, or longer if the lie is elaborate.",
+			":HL[Action:] 1 round, or longer if the lie is elaborate.",
 			"",
-			"***Try Again:*** Yes. Further checks against the same target take a -10 penalty."
+			":HL[Try Again:] Yes. Further checks against the same target take a -10 penalty."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2276,9 +2276,9 @@
 			"| Give aid that could result in punishment | +15 or more |",
 			"| Additional requests | +5 per request |",
 			"",
-			"***Action:*** 1 or more rounds, depending on the complexity of the request.",
+			":HL[Action:] 1 or more rounds, depending on the complexity of the request.",
 			"",
-			"***Try Again:*** No, though you can make other requests of the same target."
+			":HL[Try Again:] No, though you can make other requests of the same target."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2311,9 +2311,9 @@
 			"| Simple message | 15 |",
 			"| Complex message | 20 |",
 			"",
-			"***Action:*** Twice as long as it would take to convey the message normally.",
+			":HL[Action:] Twice as long as it would take to convey the message normally.",
 			"",
-			"***Try Again:*** Yes."
+			":HL[Try Again:] Yes."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2343,9 +2343,9 @@
 			"",
 			"You know a great deal about the natural world, and have the ability to command and train wild creatures.",
 			"",
-			"***Functions:*** Handle animals, identify monsters (aberrations, animals, fey, monstrous humanoids, oozes, plants, vermin), recall knowledge (about dungeons, geography, or nature).",
+			":HL[Functions:] Handle animals, identify monsters (aberrations, animals, fey, monstrous humanoids, oozes, plants, vermin), recall knowledge (about dungeons, geography, or nature).",
 			"",
-			"***Core Skills:*** Handle Animal, Knowledge (dungeoneering), Knowledge (geography), Knowledge (nature)."
+			":HL[Core Skills:] Handle Animal, Knowledge (dungeoneering), Knowledge (geography), Knowledge (nature)."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2387,9 +2387,9 @@
 			"",
 			"This use of Nature functions as the {skill/Handle Animal/ core skill}, but uses Intelligence instead of Charisma.",
 			"",
-			"***Action:*** Varies. Handling an animal is a move action, while \"pushing\" an animal is a full-round action.",
+			":HL[Action:] Varies. Handling an animal is a move action, while \"pushing\" an animal is a full-round action.",
 			"",
-			"***Try Again:*** Yes, except for rearing an animal."
+			":HL[Try Again:] Yes, except for rearing an animal."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2465,9 +2465,9 @@
 			"",
 			"The acuity of your senses allows you to notice fine details, see danger coming, and tell when people are lying or otherwise behaving suspiciously.",
 			"",
-			"***Functions:*** Discern secret messages, get hunches, notice creatures and details, search locations, sense enchantments, sense motives.",
+			":HL[Functions:] Discern secret messages, get hunches, notice creatures and details, search locations, sense enchantments, sense motives.",
 			"",
-			"***Core Skills:*** Perception, Sense Motive."
+			":HL[Core Skills:] Perception, Sense Motive."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2512,9 +2512,9 @@
 			"",
 			"You can use Perception to detect that a secret message is being transmitted by someone using the Influence skill. Your Perception check is opposed by the sender's Influence check. You take a -2 penalty for each piece of information you lack relating to the message. If you succeed by 4 or less, you know there's a hidden message but don't know its content. If you exceed the DC by 5 or more, you intercept and understand the message. If you fail by 4 or less, you don't detect any hidden communication. If you fail by 5 or more, you might infer false information. See the [pass secret message](rule/pass_secret_messages) function of Influence for rules on sending a secret message.",
 			"",
-			"***Action:*** None. This function is included in the time spent receiving the message.",
+			":HL[Action:] None. This function is included in the time spent receiving the message.",
 			"",
-			"***Try Again:*** No, though you can attempt a check against another hidden message."
+			":HL[Try Again:] No, though you can attempt a check against another hidden message."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2539,7 +2539,7 @@
 			"",
 			"You can make a gut assessment of a social situation with a successful DC 20 Perception check. You get a feeling that indicates whether something is wrong or if a person is generally untrustworthy, though you don't receive specific information. To attempt to determine whether a particular statement is a lie, use the sense motive function.",
 			"",
-			"***Action:*** 1 minute."
+			":HL[Action:] 1 minute."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2595,11 +2595,11 @@
 			"| Creature attempting the check is asleep | +10 |",
 			"| Source, object, or creature is invisible | +20 |",
 			"",
-			"***Action:*** None. This function is largely reactive in response to observable stimuli.",
+			":HL[Action:] None. This function is largely reactive in response to observable stimuli.",
 			"",
-			"***Try Again:*** Yes.",
+			":HL[Try Again:] Yes.",
 			"",
-			"***Conditions:*** Favorable, unfavorable, and terrible conditions depend on the sense being used. Bright light might be a favorable condition if the check involves sight, while dimmer conditions such as torchlight or moonlight could be unfavorable. Background noise could increase the DC for a check involving hearing, and competing odors could increase the DC of a scent-based check. Terrible conditions could include candlelight impeding a sight check, a dragon's roar drowning out other sounds, or an overpowering stench occluding a subtler smell."
+			":HL[Conditions:] Favorable, unfavorable, and terrible conditions depend on the sense being used. Bright light might be a favorable condition if the check involves sight, while dimmer conditions such as torchlight or moonlight could be unfavorable. Background noise could increase the DC for a check involving hearing, and competing odors could increase the DC of a scent-based check. Terrible conditions could include candlelight impeding a sight check, a dragon's roar drowning out other sounds, or an overpowering stench occluding a subtler smell."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2630,9 +2630,9 @@
 			"| Find an average secret door | 20 |",
 			"| Find a hidden trap | Varies by trap |",
 			"",
-			"***Action:*** Move. Each move action spent allows you to search a 10-foot-by-10-foot area.",
+			":HL[Action:] Move. Each move action spent allows you to search a 10-foot-by-10-foot area.",
 			"",
-			"***Try Again:*** Yes."
+			":HL[Try Again:] Yes."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2657,7 +2657,7 @@
 			"",
 			"Determining that a creature's behavior is influenced by enchantment magic requires succeeding at a DC 25 Perception check (DC 15 if the creature is dominated).",
 			"",
-			"***Action:*** 1 minute."
+			":HL[Action:] 1 minute."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2682,9 +2682,9 @@
 			"",
 			"With an opposed Perception check, you can tell when a creature is lying to you. See the [lie function of the Influence skill](rule/influence_cha).",
 			"",
-			"***Action:*** None.",
+			":HL[Action:] None.",
 			"",
-			"***Try Again:*** No, though you can attempt a Perception check against each lie."
+			":HL[Try Again:] No, though you can attempt a Perception check against each lie."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2711,9 +2711,9 @@
 			"",
 			"You can compel an emotional reaction through a musical, oratory, or physical performance. Your ability to act convincingly and use stagecraft also makes you better at disguising yourself. This skill applies to performances of any type (unlike in the Core Rulebook).",
 			"",
-			"***Functions:*** Disguise yourself, impress audiences.",
+			":HL[Functions:] Disguise yourself, impress audiences.",
 			"",
-			"***Core Skills:*** Disguise, Perform (all)."
+			":HL[Core Skills:] Disguise, Perform (all)."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2754,9 +2754,9 @@
 			"",
 			"This use of Performance functions as the {skill/Disguise/ core skill}.",
 			"",
-			"***Action:*** 1d3 &times; 10 minutes. Using magic (such as disguise self) reduces this to the time required to cast the spell or trigger the effect.",
+			":HL[Action:] 1d3 &times; 10 minutes. Using magic (such as disguise self) reduces this to the time required to cast the spell or trigger the effect.",
 			"",
-			"***Try Again:*** Yes, though if others know a disguise was attempted, they'll be more suspicious."
+			":HL[Try Again:] Yes, though if others know a disguise was attempted, they'll be more suspicious."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2785,11 +2785,11 @@
 			"| Memorable | 25 | 1d6 gp per day |",
 			"| Extraordinary | 30 | 3d6 gp per day |",
 			"",
-			"***Action:*** Anywhere between one evening and a full day.",
+			":HL[Action:] Anywhere between one evening and a full day.",
 			"",
-			"***Try Again:*** Yes, though the DC increases by 2 for each previous routine performance the same audience has witnessed you make.",
+			":HL[Try Again:] Yes, though the DC increases by 2 for each previous routine performance the same audience has witnessed you make.",
 			"",
-			"***Masterwork Instrument:*** A masterwork instrument grants a +2 bonus on Performance checks to impress an audience."
+			":HL[Masterwork Instrument:] A masterwork instrument grants a +2 bonus on Performance checks to impress an audience."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2812,9 +2812,9 @@
 			"",
 			"The secrets of deities, holy lore, and the extraplanar realms are open to you.",
 			"",
-			"***Functions:*** Identify monsters (outsiders and undead), recall knowledge (about the planes or religions).",
+			":HL[Functions:] Identify monsters (outsiders and undead), recall knowledge (about the planes or religions).",
 			"",
-			"***Core Skills:*** Knowledge (planes), Knowledge (religion)."
+			":HL[Core Skills:] Knowledge (planes), Knowledge (religion)."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2904,9 +2904,9 @@
 			"",
 			"You understand the people and systems that make civilization run, and you know the historical events that made societies what they are today. Part of this expertise includes a greater understanding of languages.",
 			"",
-			"***Functions:*** Create or detect forgeries, decipher writing, identify monsters (humanoids), learn languages, recall knowledge (about history, locales, or nobility).",
+			":HL[Functions:] Create or detect forgeries, decipher writing, identify monsters (humanoids), learn languages, recall knowledge (about history, locales, or nobility).",
 			"",
-			"***Core Skills:*** Knowledge (history), Knowledge (local), Knowledge (nobility), Linguistics."
+			":HL[Core Skills:] Knowledge (history), Knowledge (local), Knowledge (nobility), Linguistics."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2952,9 +2952,9 @@
 			"",
 			"The GM rolls a Society check to create a forgery secretly, so you're not sure how good your forgery is until someone examines the work. The examiner attempts an opposed Society check, modified by any applicable bonuses or penalties listed under the decipher writing function of Society.",
 			"",
-			"***Action:*** 1 minute to 1d4 minutes per page to create a forgery, or 1 round per page to detect a forgery.",
+			":HL[Action:] 1 minute to 1d4 minutes per page to create a forgery, or 1 round per page to detect a forgery.",
 			"",
-			"***Try Again:*** Yes, though examiners who encounter forged documents will be more cautious of future documents."
+			":HL[Try Again:] Yes, though examiners who encounter forged documents will be more cautious of future documents."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -2984,9 +2984,9 @@
 			"| Standard text | 20 |",
 			"| Intricate, exotic, or very old writing | 20 |",
 			"",
-			"***Action:*** 1 minute per page.",
+			":HL[Action:] 1 minute per page.",
 			"",
-			"***Try Again:*** Yes."
+			":HL[Try Again:] Yes."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3032,7 +3032,7 @@
 			"",
 			"Each time you put a rank in Society, you learn to speak and read a new language. See the {skill/Linguistics/ core skill} for a list of common languages.",
 			"",
-			"***Action:*** None. Unlike with other skill uses, you gain this benefit at all times."
+			":HL[Action:] None. Unlike with other skill uses, you gain this benefit at all times."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3091,11 +3091,11 @@
 			"",
 			"You know how spells and magic items work, and have picked up numerous bits of magical lore. Regardless of whether you're a spellcaster, you can use magic items even if you wouldn't normally be able to.",
 			"",
-			"***Functions:*** Activate magic items (that you would normally be unable to use), craft magic items, identify magic, identify monsters (constructs, dragons, and magical beasts), learn or borrow spells (from spellbooks and scrolls), recall knowledge (about arcana).",
+			":HL[Functions:] Activate magic items (that you would normally be unable to use), craft magic items, identify magic, identify monsters (constructs, dragons, and magical beasts), learn or borrow spells (from spellbooks and scrolls), recall knowledge (about arcana).",
 			"",
-			"***Core Skills:*** Knowledge (arcana), Spellcraft, Use Magic Device.",
+			":HL[Core Skills:] Knowledge (arcana), Spellcraft, Use Magic Device.",
 			"",
-			"***Specialist Wizards:*** If you're a specialist wizard, you gain a +2 bonus on Spellcraft checks to identify, learn, and prepare spells from your chosen school. However, you take a -5 penalty on similar checks concerning spells from your opposition schools."
+			":HL[Specialist Wizards:] If you're a specialist wizard, you gain a +2 bonus on Spellcraft checks to identify, learn, and prepare spells from your chosen school. However, you take a -5 penalty on similar checks concerning spells from your opposition schools."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3140,9 +3140,9 @@
 			"",
 			"This use of Spellcraft functions as the {skill/Use Magic Device/ core skill}, but uses Intelligence instead of Charisma.",
 			"",
-			"***Action:*** None.",
+			":HL[Action:] None.",
 			"",
-			"***Try Again:*** Yes, but if you ever roll a natural 1 while attempting to activate an item and you fail, you can't try to activate that item again for 24 hours."
+			":HL[Try Again:] Yes, but if you ever roll a natural 1 while attempting to activate an item and you fail, you can't try to activate that item again for 24 hours."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3167,7 +3167,7 @@
 			"",
 			"You must attempt a Spellcraft check as part of the process of crafting a magic item. The DC varies by the item. [See the full rules on creating magic items](rule/magic_item_creation).",
 			"",
-			"***Action:*** None."
+			":HL[Action:] None."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3201,11 +3201,11 @@
 			"| Identify a spell effect that is in place | 20 + spell level |",
 			"| Identify a spell that just targeted you | 25 + spell level |",
 			"",
-			"***Action:*** None, in most cases. Deciphering a scroll is a full-round action, and attempting to identify the properties of a magic item takes 3 rounds per item.",
+			":HL[Action:] None, in most cases. Deciphering a scroll is a full-round action, and attempting to identify the properties of a magic item takes 3 rounds per item.",
 			"",
-			"***Try Again:*** You can retry checks to identify a spell. When using {spell/detect magic} and {spell/identify} to learn the properties of magic items, you can make only one attempt per item per day.",
+			":HL[Try Again:] You can retry checks to identify a spell. When using {spell/detect magic} and {spell/identify} to learn the properties of magic items, you can make only one attempt per item per day.",
 			"",
-			"***Perception Penalties:*** Attempting to identify a spell as it's being cast incurs the same penalties as a Perception check due to distance, poor conditions, and other factors."
+			":HL[Perception Penalties:] Attempting to identify a spell as it's being cast incurs the same penalties as a Perception check due to distance, poor conditions, and other factors."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3258,9 +3258,9 @@
 			"| Learn a spell from a spellbook or scroll | 15 + spell level |",
 			"| Prepare a spell from a borrowed spellbook | 15 + spell level |",
 			"",
-			"***Action:*** Learning a spell takes 1 hour per level of the spell (or 30 minutes for a 0-level spell). Preparing a borrowed spell is a part of spell preparation and doesn't add any extra time.",
+			":HL[Action:] Learning a spell takes 1 hour per level of the spell (or 30 minutes for a 0-level spell). Preparing a borrowed spell is a part of spell preparation and doesn't add any extra time.",
 			"",
-			"***Try Again:*** If you fail to learn a spell from a spellbook, you can try again after 1 week. If you fail to prepare a spell from a borrowed spellbook, you can't try again until the next day."
+			":HL[Try Again:] If you fail to learn a spell from a spellbook, you can try again after 1 week. If you fail to prepare a spell from a borrowed spellbook, you can't try again until the next day."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3315,9 +3315,9 @@
 			"",
 			"You are skilled at avoiding detection, allowing you to slip past foes or strike from an unseen position. This skill covers hiding and moving silently.",
 			"",
-			"***Functions:*** Avoid being noticed.",
+			":HL[Functions:] Avoid being noticed.",
 			"",
-			"***Core Skills:*** Stealth."
+			":HL[Core Skills:] Stealth."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3355,7 +3355,7 @@
 			"",
 			"This use of Stealth functions as the {skill/Stealth/ core skill}.",
 			"",
-			"***Action:*** None, though using Stealth immediately after making a ranged attack is a move action."
+			":HL[Action:] None, though using Stealth immediately after making a ranged attack is a move action."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3375,9 +3375,9 @@
 			"",
 			"You know how to survive in the wild, navigate the wilderness, and tend wounds.",
 			"",
-			"***Functions:*** Determine true north, follow tracks, survive in the wild, tend wounds and ailments.",
+			":HL[Functions:] Determine true north, follow tracks, survive in the wild, tend wounds and ailments.",
 			"",
-			"***Core Skills:*** Heal, Survival."
+			":HL[Core Skills:] Heal, Survival."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3420,7 +3420,7 @@
 			"",
 			"If you are trained in Survival, you can automatically determine where true north lies in relation to yourself.",
 			"",
-			"***Action:*** None."
+			":HL[Action:] None."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3482,25 +3482,25 @@
 			"| Rain since the tracks were made | +1 per hour of rain |",
 			"| Fresh snow since the tracks were made | +10 |",
 			"",
-			"***Action:*** Full-round action or longer.",
+			":HL[Action:] Full-round action or longer.",
 			"",
-			"***Try Again:*** You can retry a failed check after 1 hour (outdoors) or 10 minutes (indoors).",
+			":HL[Try Again:] You can retry a failed check after 1 hour (outdoors) or 10 minutes (indoors).",
 			"",
-			"***Untrained:*** You can follow tracks untrained, but only if the DC is 10 or lower.",
+			":HL[Untrained:] You can follow tracks untrained, but only if the DC is 10 or lower.",
 			"",
-			"***Perception:*** Detecting a footprint or similar sign of a creature's passage with the Perception skill uses the same DCs as Survival checks to follow tracks, but you can't use Perception to follow tracks.",
+			":HL[Perception:] Detecting a footprint or similar sign of a creature's passage with the Perception skill uses the same DCs as Survival checks to follow tracks, but you can't use Perception to follow tracks.",
 			"",
 			"### Surfaces",
 			"",
 			"This section gives examples of surfaces for the first table presented above.",
 			"",
-			"***Very Soft Ground:*** Any surface (fresh snow, thick dust, wet mud) that holds deep, clear impressions of footprints.",
+			":HL[Very Soft Ground:] Any surface (fresh snow, thick dust, wet mud) that holds deep, clear impressions of footprints.",
 			"",
-			"***Soft Ground:*** Any surface soft enough to yield to pressure, but firmer than wet mud or fresh snow, in which a creature leaves frequent but shallow footprints.",
+			":HL[Soft Ground:] Any surface soft enough to yield to pressure, but firmer than wet mud or fresh snow, in which a creature leaves frequent but shallow footprints.",
 			"",
-			"***Firm Ground:*** Most normal outdoor surfaces (such as lawns, fields, woods, and the like) or exceptionally soft or dirty indoor surfaces (thick rugs and very dirty or dusty floors). The creature might leave some traces (broken branches or tufts of hair), but it leaves only occasional or partial footprints.",
+			":HL[Firm Ground:] Most normal outdoor surfaces (such as lawns, fields, woods, and the like) or exceptionally soft or dirty indoor surfaces (thick rugs and very dirty or dusty floors). The creature might leave some traces (broken branches or tufts of hair), but it leaves only occasional or partial footprints.",
 			"",
-			"***Hard Ground:*** Any surface that doesn't hold footprints at all, such as bare rock or an indoor floor. Most streambeds fall into this category, since any footprints left behind are obscured or washed away. The creature leaves only traces (scuff marks or displaced pebbles)."
+			":HL[Hard Ground:] Any surface that doesn't hold footprints at all, such as bare rock or an indoor floor. Most streambeds fall into this category, since any footprints left behind are obscured or washed away. The creature leaves only traces (scuff marks or displaced pebbles)."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3537,9 +3537,9 @@
 			"",
 			"When you predict the weather, you can predict the weather for one additional day in advance for every 5 points by which your check exceeds 15.",
 			"",
-			"***Action:*** Varies. A single check could represent activity over the course of hours or a full day.",
+			":HL[Action:] Varies. A single check could represent activity over the course of hours or a full day.",
 			"",
-			"***Try Again:*** You can attempt a Survival check only once every 24 hours to get along in the wild or endure severe weather. You can attempt a check to avoid getting lost or avoid natural hazards for each situation that calls for one, but you can't retry a check to avoid getting lost in a specific situation or to avoid a specific natural hazard."
+			":HL[Try Again:] You can attempt a Survival check only once every 24 hours to get along in the wild or endure severe weather. You can attempt a check to avoid getting lost or avoid natural hazards for each situation that calls for one, but you can't retry a check to avoid getting lost in a specific situation or to avoid a specific natural hazard."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3562,9 +3562,9 @@
 			"",
 			"This use of Survival functions as the {skill/Heal/ core skill}.",
 			"",
-			"***Action:*** Providing first aid, treating a wound, or treating poison is a standard action. Treating a disease or tending to a creature that has been wounded by a spike growth or spike stones spell requires 10 minutes of work. Treating deadly wounds requires 1 hour of work. Providing long-term care requires 8 hours of light activity.",
+			":HL[Action:] Providing first aid, treating a wound, or treating poison is a standard action. Treating a disease or tending to a creature that has been wounded by a spike growth or spike stones spell requires 10 minutes of work. Treating deadly wounds requires 1 hour of work. Providing long-term care requires 8 hours of light activity.",
 			"",
-			"***Try Again:*** Varies. Generally speaking, you can't try to tend wounds and ailments without witnessing proof of the original check's failure. You can always retry a check to provide first aid if the target is still alive."
+			":HL[Try Again:] Varies. Generally speaking, you can't try to tend wounds and ailments without witnessing proof of the original check's failure. You can always retry a check to provide first aid if the target is still alive."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3587,17 +3587,17 @@
 			"",
 			"The races of the Core Rulebook that gain bonuses to skills should change in the following ways.",
 			"",
-			"***Dwarf:*** Greed functions the same way if the campaign uses background skills; otherwise, its bonus instead applies to Spellcraft checks to identify magic items that contain precious metals or gemstones.",
+			":HL[Dwarf:] Greed functions the same way if the campaign uses background skills; otherwise, its bonus instead applies to Spellcraft checks to identify magic items that contain precious metals or gemstones.",
 			"",
-			"***Elf:*** Keen senses grants a +1 bonus on Perception checks.",
+			":HL[Elf:] Keen senses grants a +1 bonus on Perception checks.",
 			"",
-			"***Gnome:*** Keen senses grants a +1 bonus on Perception checks. Obsessive functions the same way if the campaign uses background skills; otherwise, it instead grants a +1 bonus on the character's choice of Perform or Spellcraft checks.",
+			":HL[Gnome:] Keen senses grants a +1 bonus on Perception checks. Obsessive functions the same way if the campaign uses background skills; otherwise, it instead grants a +1 bonus on the character's choice of Perform or Spellcraft checks.",
 			"",
-			"***Half-Elf:*** Keen senses grants a +1 bonus on Perception checks.",
+			":HL[Half-Elf:] Keen senses grants a +1 bonus on Perception checks.",
 			"",
-			"***Half-Orc:*** Intimidating applies only to Influence checks to demoralize or intimidate.",
+			":HL[Half-Orc:] Intimidating applies only to Influence checks to demoralize or intimidate.",
 			"",
-			"***Halfling:*** Keen senses grants a +1 bonus on Perception checks. Sure-footed grants a +1 racial bonus on Acrobatics and Athletics checks."
+			":HL[Halfling:] Keen senses grants a +1 bonus on Perception checks. Sure-footed grants a +1 racial bonus on Acrobatics and Athletics checks."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -3846,13 +3846,13 @@
 			"",
 			"Feats that give bonuses on skill checks need to be adjusted or removed in the consolidated skills system. This section presents a list of the skill feats in the Core Rulebook that shouldn't be used with this system. It also presents an alternative version of {feat/Skill Focus} that replaces the core version to make its power level work better with this system. If an ability or class feature would grant access to one of the banned feats, use the most appropriate {feat/Skill Focus} feat instead, as determined by the GM. For example, a familiar that grants {feat/Alertness} would instead grant {feat/Skill Focus/ (Perception)}. For feats that modify skills in other ways, see the {rule/Bonuses for Function} section.",
 			"",
-			"***Removed Feats:*** {feat/Acrobatic}, {feat/Alertness}, {feat/Animal Affinity}, {feat/Athletic}, {feat/Deceitful}, {feat/Deft Hands}, {feat/Magical Aptitude}, {feat/Persuasive}, {feat/Self-Sufficient}, {feat/Stealthy}.",
+			":HL[Removed Feats:] {feat/Acrobatic}, {feat/Alertness}, {feat/Animal Affinity}, {feat/Athletic}, {feat/Deceitful}, {feat/Deft Hands}, {feat/Magical Aptitude}, {feat/Persuasive}, {feat/Self-Sufficient}, {feat/Stealthy}.",
 			"",
 			"### Skill Focus",
 			"",
 			"Choose a skill. You are particularly adept at that skill.",
 			"",
-			"***Benefit:*** You gain a +2 bonus on all checks involving the chosen skill. If you have 10 or more ranks in that skill, this bonus increases to +4.",
+			":HL[Benefit:] You gain a +2 bonus on all checks involving the chosen skill. If you have 10 or more ranks in that skill, this bonus increases to +4.",
 			"",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new skill."
 		],
@@ -3926,49 +3926,49 @@
 			"",
 			"Some class features function differently because of the consolidated skills list. Clarifications appear here, divided by class. These entries cover only the main class features, so the GM might need to adjudicate how certain arcane schools, domains, and the like interact with the consolidated skills system. Class features are omitted if they can be handled with a simple substitution, such as changing an ability that requires a Disable Device check to instead require a Finesse check.",
 			"",
-			"***Alchemist:*** Because the consolidated skills system removes Craft skills by default, the GM should either treat the alchemist's Craft (alchemy) bonus as though it were equal to his character level + his Intelligence modifier + 3 or use the background skills system.",
+			":HL[Alchemist:] Because the consolidated skills system removes Craft skills by default, the GM should either treat the alchemist's Craft (alchemy) bonus as though it were equal to his character level + his Intelligence modifier + 3 or use the background skills system.",
 			"",
-			"***Barbarian:*** The Acrobatics skill and the intimidate function of Influence can be used while raging.",
+			":HL[Barbarian:] The Acrobatics skill and the intimidate function of Influence can be used while raging.",
 			"",
 			">**Rage Powers:** Raging climber, raging leaper, and raging swimmer are replaced with raging athlete, which adds the barbarian's level as an enhancement bonus on all Athletics checks and treats all such checks to jump as though the character had a running start.",
 			"",
-			"***Bard:*** Note that Performance applies to all types of performance, rather than being broken down like the core Perform skills. Bardic knowledge adds 1/2 the bard's class level (minimum 1) on all Nature, Religion, Society, and Spellcraft checks, and the bard can attempt checks with these skills untrained. Versatile performance allows the bard to substitute Performance when attempting either Acrobatics or Influence checks. He must choose only one of these two skills, and doesn't increase the number of substituted skills at higher levels. Lore master applies to Nature, Religion, Society, and Spellcraft checks.",
+			":HL[Bard:] Note that Performance applies to all types of performance, rather than being broken down like the core Perform skills. Bardic knowledge adds 1/2 the bard's class level (minimum 1) on all Nature, Religion, Society, and Spellcraft checks, and the bard can attempt checks with these skills untrained. Versatile performance allows the bard to substitute Performance when attempting either Acrobatics or Influence checks. He must choose only one of these two skills, and doesn't increase the number of substituted skills at higher levels. Lore master applies to Nature, Religion, Society, and Spellcraft checks.",
 			"",
-			"***Bloodrager:*** The Acrobatics skill and the intimidate function of Influence can be used while bloodraging.",
+			":HL[Bloodrager:] The Acrobatics skill and the intimidate function of Influence can be used while bloodraging.",
 			"",
-			"***Cavalier:*** A cavalier order adds only one skill to the cavalier's list of class skills (of the GM's choice, but the choice can't overlap with the cavalier's normal class skills). The bonus on checks applies only to the specific skill function listed.",
+			":HL[Cavalier:] A cavalier order adds only one skill to the cavalier's list of class skills (of the GM's choice, but the choice can't overlap with the cavalier's normal class skills). The bonus on checks applies only to the specific skill function listed.",
 			"",
-			"***Druid:*** Nature sense instead grants a +1 bonus on Nature and Survival checks.",
+			":HL[Druid:] Nature sense instead grants a +1 bonus on Nature and Survival checks.",
 			"",
-			"***Hunter:*** The bonus from the monkey aspect applies only to Athletics checks to climb.",
+			":HL[Hunter:] The bonus from the monkey aspect applies only to Athletics checks to climb.",
 			"",
-			"***Inquisitor:*** Stern gaze grants the inquisitor a bonus on Influence checks to intimidate and on Perception checks to sense motive.",
+			":HL[Inquisitor:] Stern gaze grants the inquisitor a bonus on Influence checks to intimidate and on Perception checks to sense motive.",
 			"",
-			"***Investigator:*** Because the consolidated skills system removes Craft skills by default, the GM should either treat the investigator's Craft (alchemy) bonus as though it were equal to his character level + his Intelligence modifier + 3 or use the background skills system. The investigator's ability to apply inspiration without expending uses applies to Nature, Religion, Society, and Spellcraft checks (he must still be trained in the skill). The trapfinding bonus applies to both Perception checks to locate traps and Finesse checks to disable traps. An investigator can use Finesse to disable magical traps. Keen recollection applies to Nature, Religion, Society, and Spellcraft checks.",
+			":HL[Investigator:] Because the consolidated skills system removes Craft skills by default, the GM should either treat the investigator's Craft (alchemy) bonus as though it were equal to his character level + his Intelligence modifier + 3 or use the background skills system. The investigator's ability to apply inspiration without expending uses applies to Nature, Religion, Society, and Spellcraft checks (he must still be trained in the skill). The trapfinding bonus applies to both Perception checks to locate traps and Finesse checks to disable traps. An investigator can use Finesse to disable magical traps. Keen recollection applies to Nature, Religion, Society, and Spellcraft checks.",
 			"",
 			">**Investigator Talents:** Device talent allows the investigator to use Spellcraft untrained, but has no effect if the investigator is trained in Spellcraft. Empathy applies only when the investigator uses Perception to sense motive. Expanded inspiration can be used with Perception and Survival checks. Inspirational expertise applies when the investigator identifies a monster's special powers or vulnerabilities using whichever skill is appropriate. Inspired intelligence applies to Nature, Religion, Society, and Spellcraft checks. Underworld inspiration applies to Finesse and Influence checks.",
 			"",
-			"***Oracle:*** An oracle gains two class skills from her mystery (chosen by the GM).",
+			":HL[Oracle:] An oracle gains two class skills from her mystery (chosen by the GM).",
 			"",
-			"***Ranger:*** The favored enemy bonus applies to Perception and Survival checks against creatures of the selected type, and to checks with the monster knowledge function of the relevant skill. The favored terrain bonus applies to initiative checks, Nature checks, Perception checks to notice things, Stealth checks, and Survival checks.",
+			":HL[Ranger:] The favored enemy bonus applies to Perception and Survival checks against creatures of the selected type, and to checks with the monster knowledge function of the relevant skill. The favored terrain bonus applies to initiative checks, Nature checks, Perception checks to notice things, Stealth checks, and Survival checks.",
 			"",
-			"***Rogue:*** The trapfinding bonus applies to both Perception checks to locate traps and Finesse checks to disable traps. A rogue can use Finesse to disable magical traps.",
+			":HL[Rogue:] The trapfinding bonus applies to both Perception checks to locate traps and Finesse checks to disable traps. A rogue can use Finesse to disable magical traps.",
 			"",
 			">**Rogue Talents:** The skill mastery talent applies to a number of skills equal to 1 + 1/2 the rogue's Intelligence modifier. It can still be taken multiple times.",
 			"",
-			"***Skald:*** Note that Performance applies to all types of performance, rather than being broken down like the core Perform skills. Bardic knowledge adds 1/2 the skald's class level (minimum 1) on all Nature, Religion, Society, and Spellcraft checks, and the skald can attempt checks with these skills untrained. The Acrobatics skill and the intimidate function of Influence can be used while in an inspired rage. Versatile performance allows the skald to substitute Performance when attempting either Influence checks or Perception checks to sense motive. He must choose only one of these two skills, and doesn't increase the number of skills substituted at higher levels. Lore master applies to Nature, Religion, Society, and Spellcraft checks.",
+			":HL[Skald:] Note that Performance applies to all types of performance, rather than being broken down like the core Perform skills. Bardic knowledge adds 1/2 the skald's class level (minimum 1) on all Nature, Religion, Society, and Spellcraft checks, and the skald can attempt checks with these skills untrained. The Acrobatics skill and the intimidate function of Influence can be used while in an inspired rage. Versatile performance allows the skald to substitute Performance when attempting either Influence checks or Perception checks to sense motive. He must choose only one of these two skills, and doesn't increase the number of skills substituted at higher levels. Lore master applies to Nature, Religion, Society, and Spellcraft checks.",
 			"",
-			"***Slayer:*** The studied target bonus applies to Influence checks to bluff, Perception checks, and Survival checks against the studied target. The stalker bonus applies to Influence checks to intimidate a creature, Perform checks to use a disguise, and Stealth checks.",
+			":HL[Slayer:] The studied target bonus applies to Influence checks to bluff, Perception checks, and Survival checks against the studied target. The stalker bonus applies to Influence checks to intimidate a creature, Perform checks to use a disguise, and Stealth checks.",
 			"",
 			">**Slayer Talents:** Foil scrutiny applies to Influence checks to bluff a creature and Perform checks to use a disguise. Trapfinding grants Finesse as a class skill. The bonus from trapfinding applies to both Perception checks to locate traps and Finesse checks to disable traps. A slayer with trapfinding can use Finesse to disable magical traps.",
 			"",
-			"***Sorcerer:*** A bloodline's class skill applies to all uses of the corresponding consolidated skill.",
+			":HL[Sorcerer:] A bloodline's class skill applies to all uses of the corresponding consolidated skill.",
 			"",
-			"***Summoner:*** Change the eidolon's class skills to Perception and Stealth. The summoner can choose two additional class skills for the eidolon. An eidolon with a fly speed does not gain Acrobatics as a class skill.",
+			":HL[Summoner:] Change the eidolon's class skills to Perception and Stealth. The summoner can choose two additional class skills for the eidolon. An eidolon with a fly speed does not gain Acrobatics as a class skill.",
 			"",
-			"***Swashbuckler:*** Derring-do can be used on Acrobatics and Athletics checks. Swashbuckler's edge can be used on Acrobatics and Athletics checks.",
+			":HL[Swashbuckler:] Derring-do can be used on Acrobatics and Athletics checks. Swashbuckler's edge can be used on Acrobatics and Athletics checks.",
 			"",
-			"***Witch:*** The bonus from the flight hex is a +4 racial bonus on Athletics checks to swim."
+			":HL[Witch:] The bonus from the flight hex is a +4 racial bonus on Athletics checks to swim."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -4006,9 +4006,9 @@
 			"",
 			"Abilities that aren't tied only to one class appear here.",
 			"",
-			"***Animal Companions:*** Change animal skills to Acrobatics, Athletics\\*, Perception\\*, Stealth\\*, and Survival. An asterisk (\\*) indicates a class skill.",
+			":HL[Animal Companions:] Change animal skills to Acrobatics, Athletics\\*, Perception\\*, Stealth\\*, and Survival. An asterisk (\\*) indicates a class skill.",
 			"",
-			"***Familiars:*** The skill bonus from the familiar applies to all uses of the corresponding consolidated skill, but the bonus is reduced to +2. The raven familiar grants a +2 bonus on Society checks."
+			":HL[Familiars:] The skill bonus from the familiar applies to all uses of the corresponding consolidated skill, but the bonus is reduced to +2. The raven familiar grants a +2 bonus on Society checks."
 		],
 		"parent_topics": [
 			"optional_skill_changes",
@@ -4032,9 +4032,9 @@
 			"",
 			"With a bit of adaptation, skill groups can work alongside the background skills or consolidated skills systems.",
 			"",
-			"***Background Skills:*** Instead of gaining background skill ranks at every level, a character gains one additional skill specialty at 1st level that can be used only to select a background skill. She can expend her normal skill specialties to select either background or adventuring skills. The Artistry and Lore skills fall under the Scholarly skill group. The character can take a specialty in Lore any number of times, choosing a different type of Lore each time. To attempt a check with a Lore skill, a character must have a specialty in it. Having training in the Scholarly skill group doesn't allow a character to use all the potential Lore skills untrained, but it does enable a character with one or more Lore skills to add her full level as a bonus on those checks, rather than just 1/2 her level.",
+			":HL[Background Skills:] Instead of gaining background skill ranks at every level, a character gains one additional skill specialty at 1st level that can be used only to select a background skill. She can expend her normal skill specialties to select either background or adventuring skills. The Artistry and Lore skills fall under the Scholarly skill group. The character can take a specialty in Lore any number of times, choosing a different type of Lore each time. To attempt a check with a Lore skill, a character must have a specialty in it. Having training in the Scholarly skill group doesn't allow a character to use all the potential Lore skills untrained, but it does enable a character with one or more Lore skills to add her full level as a bonus on those checks, rather than just 1/2 her level.",
 			"",
-			"***Consolidated Skills:*** Reduce both the number of skill groups and the number of skill specialties characters gain by 1/2 (rounded down, to a minimum of 1). Use 1/2 the class's skill ranks per level from the core rules to determine that class's number of skill groups and specialties, not 1/2 the adjusted values presented in the [Class Skills](rule/class_skills_2) section.",
+			":HL[Consolidated Skills:] Reduce both the number of skill groups and the number of skill specialties characters gain by 1/2 (rounded down, to a minimum of 1). Use 1/2 the class's skill ranks per level from the core rules to determine that class's number of skill groups and specialties, not 1/2 the adjusted values presented in the [Class Skills](rule/class_skills_2) section.",
 			"",
 			"You also need to change the skill groups to the following.",
 			"",

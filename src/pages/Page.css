@@ -162,12 +162,8 @@ section.footnotes li {
 	font-size: 0.875rem;
 }
 
-div.highlight em strong,
-div.highlight i b,
-div.highlight strong em,
-div.highlight b i {
+strong.hl {
 	color: var(--ion-color-tertiary);
-	font-style: normal;
 }
 
 ion-content {
