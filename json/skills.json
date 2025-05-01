@@ -285,6 +285,7 @@
 			"**20 Ranks:** As a full-round action, you can make a {spell/suggestion} (as the spell, maximum duration 1 hour) to a creature within 30 feet (Will negates, DC = 15 + your Charisma modifier). A creature that saves against your {spell/suggestion} is immune to further uses of this effect for 24 hours, and whenever the suggested creature is specifically confronted with proof of your manipulation, it receives another saving throw. This is an extraordinary mind-affecting compulsion."
 		]
 	},
+	"feint": { "copyof": "bluff" },
 	"climb": {
 		"name": "Climb",
 		"sources": [

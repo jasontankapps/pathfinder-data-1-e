@@ -55,7 +55,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"When using the animal fury rage power while raging, the barbarian's bite is able to pierce most resistances. At 4th level, her bite is treated as a magic weapon for the purpose of overcoming damage reduction. At 7th level, her bite is also treated as cold iron and silver for the purpose of overcoming damage reduction. At 10th level, her bite is also treated as a chaotic weapon for the purpose of overcoming damage reduction. At 16th level, her bite is treated as an adamantine weapon for the purpose of overcoming damage reduction and bypassing hardness. A barbarian must have the {ragepower/animal fury} rage power and be at least 4th level to select this rage power."
+			"When using the animal fury rage power while raging, the barbarian's bite is able to pierce most resistances. At 4th level, her bite is treated as a magic weapon for the purpose of overcoming damage reduction. At 7th level, her bite is also treated as cold iron and silver for the purpose of overcoming damage reduction. At 10th level, her bite is also treated as a chaotic weapon for the purpose of overcoming damage reduction. At 16th level, her bite is treated as an {eq-material/adamantine} weapon for the purpose of overcoming damage reduction and bypassing hardness. A barbarian must have the {ragepower/animal fury} rage power and be at least 4th level to select this rage power."
 		]
 	},
 	"savage_jaw": {
@@ -65,7 +65,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"While raging, the barbarian can open her jaw wide and latch her teeth firmly onto her opponent. While using the animal fury power, the barbarian can activate this power as a free action and gain the grab ability with her bite attack until the start of her next turn. This power can be used only once per rage. A barbarian must have the {ragepower/animal fury} rage power to select this rage power."
+			"While raging, the barbarian can open her jaw wide and latch her teeth firmly onto her opponent. While using the animal fury power, the barbarian can activate this power as a free action and gain the {umr/grab} ability with her bite attack until the start of her next turn. This power can be used only once per rage. A barbarian must have the {ragepower/animal fury} rage power to select this rage power."
 		]
 	},
 	"vipers_kiss": {
@@ -157,7 +157,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"category": "-",
 		"description": [
-			"While raging, the barbarian can incite a creature to attack her by making an Intimidate check to demoralize. If the check succeeds, the target is also shaken as long as the barbarian is visible and raging or until it makes a melee attack against the barbarian. The barbarian receives a +2 circumstance bonus on this check for every alcoholic drink she has consumed during this rage. This is a language-dependent mind-affecting effect, and it relies on audible components. The barbarian must be at least 6th level to select this power."
+			"While raging, the barbarian can incite a creature to attack her by making an Intimidate check to demoralize. If the check succeeds, the target is also {misc/shaken} as long as the barbarian is visible and raging or until it makes a melee attack against the barbarian. The barbarian receives a +2 circumstance bonus on this check for every alcoholic drink she has consumed during this rage. This is a language-dependent mind-affecting effect, and it relies on audible components. The barbarian must be at least 6th level to select this power."
 		]
 	},
 	"body_bludgeon": {
@@ -166,7 +166,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "-",
 		"description": [
-			"While raging, if the barbarian pins an opponent that is smaller than her, she can then use that opponent as a two-handed improvised weapon that deals 1d8 points of bludgeoning damage, assuming the opponent is sized Small. Larger or smaller creatures used as a bludgeon deal damage based on their size using this base damage. A size Tiny creature deals 1d6 points of damage, a size Medium creature deals 1d10 points of damage, and so on. The barbarian can make a single attack using the pinned opponent as part of the action she uses to maintain the grapple, using her highest attack bonus. Whenever the barbarian hits using the pinned opponent as a weapon, she deals damage to her target normally, and the grappled opponent used as a bludgeon also takes the same damage she dealt to the target. If the pinned opponent is unable to resist being pinned for any reason, the barbarian can use that opponent as an improvised weapon without grappling or pinning the opponent, until the creature is reduced to 0 or fewer hit points, at which point the creature becomes useless as an improvised weapon. A barbarian must be at least 10th level before selecting this rage power."
+			"While raging, if the barbarian pins an opponent that is smaller than her, she can then use that opponent as a two-handed {misc/improvised weapon} that deals 1d8 points of bludgeoning damage, assuming the opponent is sized Small. Larger or smaller creatures used as a bludgeon deal damage based on their size using this base damage. A size Tiny creature deals 1d6 points of damage, a size Medium creature deals 1d10 points of damage, and so on. The barbarian can make a single attack using the pinned opponent as part of the action she uses to maintain the grapple, using her highest attack bonus. Whenever the barbarian hits using the pinned opponent as a weapon, she deals damage to her target normally, and the grappled opponent used as a bludgeon also takes the same damage she dealt to the target. If the pinned opponent is unable to resist being pinned for any reason, the barbarian can use that opponent as an improvised weapon without grappling or pinning the opponent, until the creature is reduced to 0 or fewer hit points, at which point the creature becomes useless as an improvised weapon. A barbarian must be at least 10th level before selecting this rage power."
 		]
 	},
 	"brawler": {
@@ -254,7 +254,7 @@
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"category": "-",
 		"description": [
-			"While the barbarian is raging, the light level within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability. Multiple barbarians with this rage power don't further reduce the light level. A barbarian must be at least 6th level to choose this rage power."
+			"While the barbarian is raging, {rule/vision_and<the| light/ level} within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability. Multiple barbarians with this rage power don't further reduce the light level. A barbarian must be at least 6th level to choose this rage power."
 		]
 	},
 	"greater_eclipsing_rage": {
@@ -264,7 +264,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"Whenever the barbarian rages, the light level within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability. A barbarian must be at least 10th level and have the {ragepower/eclipsing rage} rage power to choose this rage power."
+			"Whenever the barbarian rages, {rule/vision_and<the| light/ level} within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability. A barbarian must be at least 10th level and have the {ragepower/eclipsing rage} rage power to choose this rage power."
 		]
 	},
 	"eclipsing_rage_greater": { "copyof": "greater_eclipsing_rage" },
@@ -416,7 +416,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"While raging and mounted, the barbarian's mount gains the trample special attack. This attack inflicts 1d8 points of damage for a Medium mount, 2d6 for a Large mount, or 2d8 for a Huge mount, plus 1-1/2 times the mount's Strength modifier. A successful Reflex save (DC 10 + 1/2 the barbarian's level + the mount's Strength modifier) halves this damage. Creatures in the mount's path or that threaten squares it passes through may make attacks of opportunity against either the barbarian or the mount, but not both. A barbarian must have the {ragepower/ferocious mount} rage power to select this rage power. A barbarian must be at least 8th level to select this rage power."
+			"While raging and mounted, the barbarian's mount gains the {umr/trample} special attack. This attack inflicts 1d8 points of damage for a Medium mount, 2d6 for a Large mount, or 2d8 for a Huge mount, plus 1-1/2 times the mount's Strength modifier. A successful Reflex save (DC 10 + 1/2 the barbarian's level + the mount's Strength modifier) halves this damage. Creatures in the mount's path or that threaten squares it passes through may make attacks of opportunity against either the barbarian or the mount, but not both. A barbarian must have the {ragepower/ferocious mount} rage power to select this rage power. A barbarian must be at least 8th level to select this rage power."
 		]
 	},
 	"greater_ferocious_trample": {
@@ -426,7 +426,7 @@
 		"category": "-",
 		"level": 2,
 		"description": [
-			"A barbarian's mount can affect creatures up to its own size with its ferocious trample. In addition, it can make an overrun combat maneuver check as a free action against a creature that fails its Reflex save (or chooses not to save in order to take an attack of opportunity) against its trample. A barbarian must have the {ragepower/ferocious trample} rage power to select this rage power. A barbarian must be at least 12th level to select this rage power."
+			"A barbarian's mount can affect creatures up to its own size with its ferocious trample. In addition, it can make an {rule/overrun} combat maneuver check as a free action against a creature that fails its Reflex save (or chooses not to save in order to take an attack of opportunity) against its trample. A barbarian must have the {ragepower/ferocious trample} rage power to select this rage power. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
 	"ferocious_trample_greater": { "copyof": "greater_ferocious_trample" },
@@ -516,7 +516,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"category": "-",
 		"description": [
-			"Once per rage, the barbarian can attack the floor around her as a standard action. This attack automatically hits and deals damage normally. If the barbarian manages to deal more damage than the floor's hardness, the space she occupies and all of the squares adjacent to her become difficult terrain. Creatures in these squares, except the barbarian, must make a DC 15 Reflex save or be knocked prone. A barbarian must be at least 6th level to select this rage power."
+			"Once per rage, the barbarian can attack the floor around her as a standard action. This attack automatically hits and deals damage normally. If the barbarian manages to deal more damage than the floor's hardness, the space she occupies and all of the squares adjacent to her become difficult terrain. Creatures in these squares, except the barbarian, must make a DC 15 Reflex save or be knocked {rule/prone}. A barbarian must be at least 6th level to select this rage power."
 		]
 	},
 	"greater_ground_breaker": {
@@ -536,7 +536,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"category": "-",
 		"description": [
-			"While raging, if the barbarian is reduced below 0 hit points, 1 hit point of lethal damage per barbarian level is converted to nonlethal damage. If the barbarian is at negative hit points due to lethal damage, she immediately stabilizes."
+			"While raging, if the barbarian is reduced below 0 hit points, 1 hit point of lethal damage per barbarian level is converted to nonlethal damage. If the barbarian is at negative hit points due to lethal damage, she immediately {misc/stabilize/s}."
 		]
 	},
 	"greater_guarded_life": {
@@ -567,7 +567,7 @@
 		"description": [
 			"Once per hour, the barbarian can spit venom at an adjacent enemy as a standard action. She must make a touch attack to successfully spit on a foe in this way, but she can also apply this poison as a swift action when she hits with a bite attack. The DC of the save against this poison is equal to 10 + half the barbarian's level + the barbarian's Constitution modifier.",
 			"",
-			">**Hissing Rage Poison (Su) Bite**-contact or injury; *save* Fort; *frequency* 1/round for 6 rounds; *effect* 1d2 Str damage; *cure* 2 consecutive saves."
+			">**Hissing Rage Poison (Su)** Bite-contact or injury; *save* Fort; *frequency* 1/round for 6 rounds; *effect* 1d2 Str damage; *cure* 2 consecutive saves."
 		]
 	},
 	"lesser_hurling": {
@@ -576,7 +576,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"category": "-",
 		"description": [
-			"As a full-round action while raging, the barbarian can lift and hurl an object up to one size category smaller than herself with both hands or two size categories smaller with one hand as an improvised weapon with a range increment of 10 feet. This inflicts damage as a [falling object](rule/falling_objects) plus the barbarian's Strength bonus. This damage is halved if the object is not made of stone, metal, or similar material. This is a ranged touch attack, and the target may attempt a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) for half damage. The barbarian may apply {feat/Power Attack} to this attack as a one- or two-handed weapon, as appropriate."
+			"As a full-round action while raging, the barbarian can lift and hurl an object up to one size category smaller than herself with both hands or two size categories smaller with one hand as an improvised weapon with a range increment of 10 feet. This inflicts damage as a {rule/falling object>s} plus the barbarian's Strength bonus. This damage is halved if the object is not made of stone, metal, or similar material. This is a ranged touch attack, and the target may attempt a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) for half damage. The barbarian may apply {feat/Power Attack} to this attack as a one- or two-handed weapon, as appropriate."
 		]
 	},
 	"hurling_lesser": { "copyof": "lesser_hurling" },
@@ -590,16 +590,6 @@
 			"As lesser hurling, but the barbarian can increase the range increment to 20 feet or increase the size of a hurled object by one size category. A barbarian must have the {ragepower/lesser hurling} rage power to select this rage power. A barbarian must be at least 8th level to select this rage power."
 		]
 	},
-	"hurling_charge": {
-		"name": "Hurling Charge",
-		"nameSuffix": "(Ex)",
-		"compilationSources": [ [ "Advanced Player's Guide" ] ],
-		"category": "-",
-		"level": 1,
-		"description": [
-			"While raging and making a charge attack, the barbarian may draw and throw a hurled weapon during her charge, gaining the normal +2 attack roll bonus on the thrown weapon attack as well as on the melee attack at the end of the charge. The barbarian must move at least 10 feet before using a thrown weapon and at least 10 additional feet before making a melee attack at the end of her charge. The barbarian must have a thrown weapon in hand or have one hand free at the beginning of her charge. A barbarian must have the {ragepower/lesser hurling} rage power to select this rage power. A barbarian must be at least 6th level to select this rage power."
-		]
-	},
 	"greater_hurling": {
 		"name": "Greater Hurling",
 		"nameSuffix": "(Ex)",
@@ -611,13 +601,23 @@
 		]
 	},
 	"hurling_greater": { "copyof": "greater_hurling" },
+	"hurling_charge": {
+		"name": "Hurling Charge",
+		"nameSuffix": "(Ex)",
+		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"category": "-",
+		"level": 1,
+		"description": [
+			"While raging and making a charge attack, the barbarian may draw and throw a hurled weapon during her charge, gaining the normal +2 attack roll bonus on the thrown weapon attack as well as on the melee attack at the end of the charge. The barbarian must move at least 10 feet before using a thrown weapon and at least 10 additional feet before making a melee attack at the end of her charge. The barbarian must have a thrown weapon in hand or have one hand free at the beginning of her charge. A barbarian must have the {ragepower/lesser hurling} rage power to select this rage power. A barbarian must be at least 6th level to select this rage power."
+		]
+	},
 	"impelling_disarm": {
 		"name": "Impelling Disarm",
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Champions of Balance" ] ],
 		"category": "-",
 		"description": [
-			"Once per rage, the barbarian can make a disarm attempt against a target in place of a melee attack. This attempt does not provoke attacks of opportunity. If successful, the barbarian sends the target's weapon flying - either straight at the target, or spinning away to strike another foe up to 20 feet away. This ranged attack has a -4 penalty, as it is treated as {rule/throwing a |weapon[ that i]s/n't designed to be thrown}, even if the weapon disarmed is a thrown weapon. The barbarian makes a ranged attack, which doesn't provoke attacks of opportunity, at either the target of his disarm maneuver or another creature within 20 feet. If the barbarian is aiming for the disarmed creature, the foe doesn't count as being in melee for determining any penalty on the ranged attack from throwing a ranged weapon into melee. If the ranged attack hits, the disarmed weapon deals damage as if the barbarian had thrown it. The barbarian can choose to aim the disarmed weapon at a square rather than at a foe. A barbarian must be at least 4th level to select this rage power."
+			"Once per rage, the barbarian can make a {rule/disarm} attempt against a target in place of a melee attack. This attempt does not provoke attacks of opportunity. If successful, the barbarian sends the target's weapon flying - either straight at the target, or spinning away to strike another foe up to 20 feet away. This ranged attack has a -4 penalty, as it is treated as {rule/throwing a |weapon[ that i]s/n't designed to be thrown}, even if the weapon disarmed is a thrown weapon. The barbarian makes a ranged attack, which doesn't provoke attacks of opportunity, at either the target of his disarm maneuver or another creature within 20 feet. If the barbarian is aiming for the disarmed creature, the foe doesn't count as being in melee for determining any penalty on the ranged attack from throwing a ranged weapon into melee. If the ranged attack hits, the disarmed weapon deals damage as if the barbarian had thrown it. The barbarian can choose to aim the disarmed weapon at a square rather than at a foe. A barbarian must be at least 4th level to select this rage power."
 		]
 	},
 	"increased_damage_reduction": {
@@ -681,7 +681,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"category": "-",
 		"description": [
-			"Once per round, the barbarian can make a bull rush attempt against one target in place of a melee attack. If successful, the target takes damage equal to the barbarian's Strength modifier and is moved back as normal. The barbarian does not need to move with the target if successful. This does not provoke an attack of opportunity."
+			"Once per round, the barbarian can make a {rule/bull rush} attempt against one target in place of a melee attack. If successful, the target takes damage equal to the barbarian's Strength modifier and is moved back as normal. The barbarian does not need to move with the target if successful. This does not provoke an attack of opportunity."
 		]
 	},
 	"knockdown": {
@@ -690,7 +690,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"category": "-",
 		"description": [
-			"Once per rage, the barbarian can make a trip attack against one target in place of a melee attack. If successful, the target takes damage equal to the barbarian's Strength modifier and is knocked prone. This does not provoke an attack of opportunity."
+			"Once per rage, the barbarian can make a trip attack against one target in place of a melee attack. If successful, the target takes damage equal to the barbarian's Strength modifier and is knocked {rule/prone}. This does not provoke an attack of opportunity."
 		]
 	},
 	"cairn_linnorm_death_curse": {
@@ -725,7 +725,7 @@
 		"description": [
 			"The character channels the power of a {monster/fjord linnorm}. The character's melee attacks deal an additional 1 point of cold damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of drowning* (Will negates). A character must be at least 4th level to select this rage power.",
 			"",
-			">**Curse of Drowning:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is sickened whenever it holds its breath."
+			">**Curse of Drowning:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is {misc/sickened} whenever it holds its breath."
 		]
 	},
 	"linnorm_death_curse_fjord": { "copyof": "fjord_linnorm_death_curse" },
@@ -773,7 +773,7 @@
 		"description": [
 			"The character channels the power of a {monster/tor linnorm}. The character's melee attacks deal an additional 1 point of fire damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of boiling blood* (Will negates). A character must be at least 8th level to select this rage power.",
 			"",
-			">**Curse of Boiling Blood:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target gains vulnerability to fire and is permanently staggered from the pain of its boiling blood (this is a pain effect)."
+			">**Curse of Boiling Blood:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target gains vulnerability to fire and is permanently {misc/staggered} from the pain of its boiling blood (this is a pain effect)."
 		]
 	},
 	"linnorm_death_curse_tor": { "copyof": "tor_linnorm_death_curse" },
@@ -811,7 +811,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"The barbarian's senses grow incredibly sharp while raging and she gains darkvision 60 feet. A barbarian must have {ragepower/low-light vision/ as a rage power} or a racial trait to select this rage power."
+			"The barbarian's senses grow incredibly sharp while raging and she gains darkvision 60 feet. A barbarian must have {ragepower/low-light vision} as a rage power or a racial trait to select this rage power."
 		]
 	},
 	"master_of_the_deep": {
@@ -858,7 +858,7 @@
 		"category": "-",
 		"level": 2,
 		"description": [
-			"Once per rage, the character can refine her senses, seeing through normal and magical darkness (including from magical effects such as {spell/blur} and {spell/displacement}), invisibility, and illusions; she can also discern the exact locations of creatures with {rule/concealment}. This lasts for 1 round. A character must be at least 6th level and have the {ragepower/moment of clarity} and {ragepower/perfect clarity} rage powers to select this rage power. The character does not need to be using moment of clarity to use this rage power."
+			"Once per rage, the character can refine her senses, seeing through normal and magical darkness (including from magical effects such as {spell/blur} and {spell/displacement}), {spell/invisibility}, and illusions; she can also discern the exact locations of creatures with {rule/concealment}. This lasts for 1 round. A character must be at least 6th level and have the {ragepower/moment of clarity} and {ragepower/perfect clarity} rage powers to select this rage power. The character does not need to be using moment of clarity to use this rage power."
 		]
 	},
 	"overbearing_advance": {
@@ -867,7 +867,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"category": "-",
 		"description": [
-			"While raging, the barbarian inflicts damage equal to her Strength bonus whenever she succeeds at an overrun combat maneuver."
+			"While raging, the barbarian inflicts damage equal to her Strength bonus whenever she succeeds at an {rule/overrun} combat maneuver."
 		]
 	},
 	"overbearing_onslaught": {
@@ -877,7 +877,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"While raging, the barbarian may overrun more than one target per round, with a -2 penalty on her CMB for each overrun check after the first. A barbarian must have the {ragepower/overbearing advance} rage power to select this rage power. A barbarian must be at least 6th level to select this rage power."
+			"While raging, the barbarian may {rule/overrun} more than one target per round, with a -2 penalty on her CMB for each overrun check after the first. A barbarian must have the {ragepower/overbearing advance} rage power to select this rage power. A barbarian must be at least 6th level to select this rage power."
 		]
 	},
 	"no_escape": {
@@ -886,7 +886,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"category": "-",
 		"description": [
-			"The barbarian can move up to double her normal speed as an immediate action but she can only use this ability when an adjacent foe uses a withdraw action to move away from her. She must end her movement adjacent to the enemy that used the withdraw action. The barbarian provokes attacks of opportunity as normal during this movement. This power can only be used once per rage."
+			"The barbarian can move up to double her normal speed as an immediate action but she can only use this ability when an adjacent foe uses a {rule/withdraw} action to move away from her. She must end her movement adjacent to the enemy that used the withdraw action. The barbarian provokes attacks of opportunity as normal during this movement. This power can only be used once per rage."
 		]
 	},
 	"pack_rage": {
@@ -914,7 +914,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"When she uses her powerful blow rage power, the barbarian also deals bleed damage equal to her bonus damage with the powerful blow. This bleed damage bypasses damage reduction. A barbarian must have the {ragepower/powerful blow} rage power and be at least 8th level before selecting this rage power."
+			"When she uses her powerful blow rage power, the barbarian also deals {rule/bleed} damage equal to her bonus damage with the powerful blow. This bleed damage bypasses damage reduction. A barbarian must have the {ragepower/powerful blow} rage power and be at least 8th level before selecting this rage power."
 		]
 	},
 	"crippling_blow": {
@@ -980,7 +980,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"category": "-",
 		"description": [
-			"When raging, the barbarian adds her level as an enhancement bonus on all Acrobatics skill checks made to jump. When making a jump in this way, the barbarian is always considered to have a running start."
+			"When raging, the barbarian adds her level as an enhancement bonus on all {skill/Acrobatics} skill checks made to jump. When making a jump in this way, the barbarian is always considered to have a running start."
 		]
 	},
 	"bestial_leaper": {
@@ -1009,7 +1009,7 @@
 		"compilationSources": [ [ "People of the River" ] ],
 		"category": "-",
 		"description": [
-			"While raging, the barbarian grapples her foes with the power and viciousness of a river crocodile. As long as she is raging, whenever the barbarian succeeds at a check to start a grapple, she can choose to deal damage as if she had also succeeded at a check to maintain the grapple. In addition, while she is raging, whenever the barbarian succeeds at a combat maneuver check to maintain a grapple, she can choose to give herself, the target of her grapple, or both the prone condition as a free action while continuing to maintain the grapple."
+			"While raging, the barbarian grapples her foes with the power and viciousness of a river crocodile. As long as she is raging, whenever the barbarian succeeds at a check to start a {rule/grapple}, she can choose to deal damage as if she had also succeeded at a check to maintain the grapple. In addition, while she is raging, whenever the barbarian succeeds at a combat maneuver check to maintain a grapple, she can choose to give herself, the target of her grapple, or both the {rule/prone} condition as a free action while continuing to maintain the grapple."
 		]
 	},
 	"raging_swimmer": {
@@ -1075,7 +1075,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"After using her renewed vigor rage power until her current rage ends, the barbarian gains fast healing 1 for every 6 barbarian levels she has (maximum fast healing 3). She regains hit points from fast healing at the start of each of her turns. A barbarian must have the {ragepower/renewed vigor} rage power and be at least 6th level before selecting this rage power."
+			"After using her renewed vigor rage power until her current rage ends, the barbarian gains {umr/fast healing} 1 for every 6 barbarian levels she has (maximum fast healing 3). She regains hit points from fast healing at the start of each of her turns. A barbarian must have the {ragepower/renewed vigor} rage power and be at least 6th level before selecting this rage power."
 		]
 	},
 	"renewed_vitality": {
@@ -1132,7 +1132,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook" ] ],
 		"category": "-",
 		"description": [
-			"The barbarian may enter a rage even if fatigued. While raging after using this ability, the barbarian is immune to the fatigued condition. Once this rage ends, the barbarian is exhausted for 10 minutes per round spent raging."
+			"The barbarian may enter a rage even if fatigued. While raging after using this ability, the barbarian is immune to the {misc/fatigued} condition. Once this rage ends, the barbarian is {misc/exhausted} for 10 minutes per round spent raging."
 		]
 	},
 	"savage_dirty_trick": {
@@ -1141,15 +1141,15 @@
 		"compilationSources": [ [ "Champions of Balance" ] ],
 		"category": "-",
 		"description": [
-			"Once per round while raging, (6th) the barbarian can attempt a {rule/dirty trick/ combat maneuver} in place of a melee attack. This attempt does not provoke attacks of opportunity. If successful, the target takes an amount of damage equal to the barbarian's Strength modifier and must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or take an additional penalty from the dirty trick based on the type of dirty trick performed and the following table.",
+			"Once per round while raging, (6th) the barbarian can attempt a {rule/dirty trick} combat maneuver in place of a melee attack. This attempt does not provoke attacks of opportunity. If successful, the target takes an amount of damage equal to the barbarian's Strength modifier and must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or take an additional penalty from the dirty trick based on the type of dirty trick performed and the following table.",
 			"",
 			"| Initial Penalty | Additional Penalty |",
 			"| --- | --- |",
-			"| Blinded | Staggered |",
-			"| Dazzled | Dazed |",
-			"| Deafened | Staggered |",
-			"| Entangled | Anchored in place and unable to move from that square |",
-			"| Sickened | Nauseated |",
+			"| :ripple[misc/Blinded] | :ripple[misc/Staggered] |",
+			"| :ripple[misc/Dazzled] | :ripple[misc/Dazed] |",
+			"| :ripple[misc/Deafened] | Staggered |",
+			"| :ripple[rule/Entangled] | Anchored in place and unable to move from that square |",
+			"| :ripple[misc/Sickened] | :ripple[misc/Nauseated] |",
 			"",
 			"On a failed Fortitude save, the opponent takes this additional penalty on top of the dirty trick's original effect. The additional penalty lasts for 1 round (though the initial penalty lasts as long as normal), and can be removed with a move action. The initial effect cannot be removed via mundane means until the additional penalty is removed (though magical effects like {spell/remove blindness//deafness} work). Removing the initial effect also removes the additional penalty. If the target is immune to the initial penalty, then it is unaffected by the additional penalty.",
 			"",
@@ -1200,7 +1200,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"category": "-",
 		"description": [
-			"Once per rage, whenever the barbarian makes an attack against an unattended object or a sunder combat maneuver, she can ignore the object's hardness. This ability must be used before the attack roll or sunder check is made."
+			"Once per rage, whenever the barbarian makes an attack against an unattended object or a {rule/sunder} combat maneuver, she can ignore the object's hardness. This ability must be used before the attack roll or sunder check is made."
 		]
 	},
 	"gearbreaker": {
@@ -1227,7 +1227,7 @@
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"category": "-",
 		"description": [
-			"The barbarian's rage rejuvenates her physically and spiritually. While raging, she ignores penalties to her ability scores due to aging. She also ignores penalties from negative levels, though she retains any negative levels she has until they are removed normally. A barbarian can have only one season-themed rage power, choosing between spring, {ragepower/summer>_rage}, {ragepower/autumn>_rage}, or {ragepower/winter>_rage} rage."
+			"The barbarian's rage rejuvenates her physically and spiritually. While raging, she ignores penalties to her ability scores due to {rule/ag/ing>e}. She also ignores penalties from negative levels, though she retains any negative levels she has until they are removed normally. A barbarian can have only one season-themed rage power, choosing between spring, {ragepower/summer>_rage}, {ragepower/autumn>_rage}, or {ragepower/winter>_rage} rage."
 		]
 	},
 	"staggering_drunk": {
@@ -1254,7 +1254,7 @@
 		"compilationSources": [ [ "Legacy of the First World" ] ],
 		"category": "-",
 		"description": [
-			"While raging, when the barbarian successfully maintains a grapple, she can choke her opponent instead of dealing damage to, moving, pinning, or tying up her opponent. The grappled opponent cannot speak or breathe and must hold its breath or begin suffocating. The grappled opponent can take a breath during any round in which the barbarian does not maintain the grapple. Creatures that do not breathe are not affected by this ability."
+			"While raging, when the barbarian successfully maintains a grapple, she can choke her opponent instead of dealing damage to, moving, pinning, or tying up her opponent. The grappled opponent cannot speak or breathe and must hold its breath or begin {rule/suffocati/ng>on}. The grappled opponent can take a breath during any round in which the barbarian does not maintain the grapple. Creatures that do not breathe are not affected by this ability."
 		]
 	},
 	"greater_suffocating_grip": {
@@ -1264,7 +1264,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"When the barbarian is using the suffocating grip rage power, the grappled creature cannot hold its breath and immediately begins suffocating. A barbarian must be at least 12th level and have the {ragepower/suffocating grip} rage power to select this rage power."
+			"When the barbarian is using the suffocating grip rage power, the grappled creature cannot hold its breath and immediately begins {rule/suffocati/ng>on}. A barbarian must be at least 12th level and have the {ragepower/suffocating grip} rage power to select this rage power."
 		]
 	},
 	"suffocating_grip_greater": { "copyof": "greater_suffocating_grip" },
@@ -1274,7 +1274,7 @@
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"category": "-",
 		"description": [
-			"The barbarian channels the heat of late summer, making the air around her hot and oppressive. A creature within the barbarian's reach becomes fatigued as long as it remains within the barbarian's reach unless it succeeds at a Fortitude save (DC = 10 + half the barbarian's level + her Constitution modifier) to become immune for 24 hours. A barbarian can have only one season-themed rage power, choosing between {ragepower/spring>_rage}, summer, {ragepower/autumn>_rage}, or {ragepower/winter>_rage} rage."
+			"The barbarian channels the heat of late summer, making the air around her hot and oppressive. A creature within the barbarian's reach becomes {misc/fatigued} as long as it remains within the barbarian's reach unless it succeeds at a Fortitude save (DC = 10 + half the barbarian's level + her Constitution modifier) to become immune for 24 hours. A barbarian can have only one season-themed rage power, choosing between {ragepower/spring>_rage}, summer, {ragepower/autumn>_rage}, or {ragepower/winter>_rage} rage."
 		]
 	},
 	"superstition": {
@@ -1331,7 +1331,7 @@
 		"category": "-",
 		"level": 2,
 		"description": [
-			"Once per rage, the barbarian can attempt to sunder an ongoing spell effect by succeeding at a combat maneuver check. For any effect other than one on a creature, the barbarian must make her combat maneuver check against a CMD of 15 plus the effect's caster level. To sunder an effect on a creature, the barbarian must succeed at a normal sunder combat maneuver against the creature's CMD + 5, ignoring any miss chance caused by a spell or spell-like ability. If successful, the barbarian suppresses the effect for 1 round, or 2 rounds if she exceeded the CMD by 5 to 9. If she exceeds the CMD by 10 or more, the effect is dispelled. A barbarian must have the {ragepower/witch hunter} rage power and be at least 6th level before selecting this rage power."
+			"Once per rage, the barbarian can attempt to {rule/sunder} an ongoing spell effect by succeeding at a combat maneuver check. For any effect other than one on a creature, the barbarian must make her combat maneuver check against a CMD of 15 plus the effect's caster level. To sunder an effect on a creature, the barbarian must succeed at a normal sunder combat maneuver against the creature's CMD + 5, ignoring any miss chance caused by a spell or spell-like ability. If successful, the barbarian suppresses the effect for 1 round, or 2 rounds if she exceeded the CMD by 5 to 9. If she exceeds the CMD by 10 or more, the effect is dispelled. A barbarian must have the {ragepower/witch hunter} rage power and be at least 6th level before selecting this rage power."
 		]
 	},
 	"sunder_enchantment": {
@@ -1407,7 +1407,7 @@
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"category": "-",
 		"description": [
-			"If the barbarian is wielding a pair of daggers, kukris, or punching daggers, she can attack once with each of the two weapons when she charges. If she does, she loses the bonus on attack rolls for charging and takes an additional -2 penalty to her AC, and she applies precision damage or effects that occur on a hit only once, even if she hits with both attacks."
+			"If the barbarian is wielding a pair of {eq-weapon/dagger/s}, {eq-weapon/kukri/s}, or {eq-weapon/punching dagger/s}, she can attack once with each of the two weapons when she charges. If she does, she loses the bonus on attack rolls for charging and takes an additional -2 penalty to her AC, and she applies precision damage or effects that occur on a hit only once, even if she hits with both attacks."
 		]
 	},
 	"unexpected_strike": {
@@ -1424,7 +1424,7 @@
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
 		"category": "-",
 		"description": [
-			"While raging, the barbarian is immune to paralysis. If the barbarian is targeted by an effect that would cause her to become paralyzed, she can enter a rage as an immediate action, as long as she still has rounds of rage remaining. A barbarian must be at least 12th level to select this rage power."
+			"While raging, the barbarian is immune to paralysis. If the barbarian is targeted by an effect that would cause her to become {rule/paralyzed}, she can enter a rage as an immediate action, as long as she still has rounds of rage remaining. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
 	"water_sense": {
@@ -1433,7 +1433,7 @@
 		"compilationSources": [ [ "People of the River" ] ],
 		"category": "-",
 		"description": [
-			"The barbarian's senses are no longer fooled by the rippling surface and confounding reflections seen in water that is being used as cover by her foes. While the barbarian is raging and on land, opponents in the water gain only partial cover from her attacks, instead of improved cover. In addition, while on land and targeting an opponent in water, she takes only a -1 penalty on attacks with ranged weapons (including thrown weapons) for every 5 feet of water they pass through (instead of the usual -2 penalty for every 5 feet of water)."
+			"The barbarian's senses are no longer fooled by the rippling surface and confounding reflections seen in water that is being used as {rule/cover} by her foes. While the barbarian is raging and on land, opponents in the water gain only partial cover from her attacks, instead of improved cover. In addition, while on land and targeting an opponent in water, she takes only a -1 penalty on attacks with ranged weapons (including thrown weapons) for every 5 feet of water they pass through (instead of the usual -2 penalty for every 5 feet of water)."
 		]
 	},
 	"winter_rage": {
@@ -1453,7 +1453,7 @@
 		"description": [
 			"When raging, the barbarian emanates a 5-foot-radius aura of radioactivity. Each round that another creature begins its turn within this aura, it takes a cumulative -2 penalty to Strength (Fortitude negates, DC = 10 + 1/2 the barbarian's level + her Constitution modifier) for the duration of the rage. A creature's Strength penalty from this ability cannot exceed the barbarian's class level. At 12th level, the barbarian can choose to create a 10-foot-radius aura of radioactivity when she begins her rage.",
 			"",
-			"**Elemental Power:** You must be at least 6th level to take this power, and you can only use one elemental rage power at a time. An unchained barbarian can take this if they have the {ragepower/elemental stance} stance rage power, and must adopt that stance to use this power. A barbarian or skald must have the {ragepower/lesser elemental rage} or {ragepower/lesser elemental blood} rage power."
+			"**Elemental Power:** You must be at least 6th level to take this power, and you can only use one elemental rage power at a time. An {class/unchained barbarian} can take this if they have the {ragepower/elemental stance} stance rage power, and must adopt that stance to use this power. A barbarian or {class/skald} must have the {ragepower/lesser elemental rage} or {ragepower/lesser elemental blood} rage power."
 		]
 	},
 	"hshurhas_veil": {
@@ -1464,7 +1464,7 @@
 		"description": [
 			"When raging, the barbarian can use Stealth, and she gains a bonus equal to 1/2 her barbarian level on Stealth checks plus the benefits of {rule/concealment} against ranged attacks and attacks of opportunity.",
 			"",
-			"**Elemental Power:** You must be at least 6th level to take this power, and you can only use one elemental rage power at a time. An unchained barbarian can take this if they have the {ragepower/elemental stance} stance rage power, and must adopt that stance to use this power. A barbarian or skald must have the {ragepower/lesser elemental rage} or {ragepower/lesser elemental blood} rage power."
+			"**Elemental Power:** You must be at least 6th level to take this power, and you can only use one elemental rage power at a time. An {class/unchained barbarian} can take this if they have the {ragepower/elemental stance} stance rage power, and must adopt that stance to use this power. A barbarian or {class/skald} must have the {ragepower/lesser elemental rage} or {ragepower/lesser elemental blood} rage power."
 		]
 	},
 	"kelizandris_tide": {
@@ -1475,7 +1475,7 @@
 		"description": [
 			"When the barbarian rages, enemies find it difficult to escape the vortex of her fury. As a full-round action while raging, the barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her. Once per day after attempting this maneuver, she can attack each adjacent creature as a free action as if using the {feat/Whirlwind Attack} feat. If she has the {feat/Whirlwind Attack} feat, she can also use it as a free action in this way one additional time per day.",
 			"",
-			"**Elemental Power:** You must be at least 6th level to take this power, and you can only use one elemental rage power at a time. An unchained barbarian can take this if they have the {ragepower/elemental stance} stance rage power, and must adopt that stance to use this power. A barbarian or skald must have the {ragepower/lesser elemental rage} or {ragepower/lesser elemental blood} rage power."
+			"**Elemental Power:** You must be at least 6th level to take this power, and you can only use one elemental rage power at a time. An {class/unchained barbarian} can take this if they have the {ragepower/elemental stance} stance rage power, and must adopt that stance to use this power. A barbarian or {class/skald} must have the {ragepower/lesser elemental rage} or {ragepower/lesser elemental blood} rage power."
 		]
 	},
 	"ymeris_pyre": {
@@ -1486,7 +1486,7 @@
 		"description": [
 			"The barbarian visibly burns with an inner flame that consumes all impurities affecting her. Each round that the barbarian rages reduces the duration of negative spells and effects inflicted upon her as if 2 rounds had passed; this has no effect on the duration of such effects against other creatures. Once per day, the barbarian can expend 5 rounds of rage to attempt a new saving throw against each non-permanent effect currently affecting her. Each successful saving throw ends the related effect, and she can choose not to make a save against an effect.",
 			"",
-			"**Elemental Power:** You must be at least 6th level to take this power, and you can only use one elemental rage power at a time. An unchained barbarian can take this if they have the {ragepower/elemental stance} stance rage power, and must adopt that stance to use this power. A barbarian or skald must have the {ragepower/lesser elemental rage} or {ragepower/lesser elemental blood} rage power."
+			"**Elemental Power:** You must be at least 6th level to take this power, and you can only use one elemental rage power at a time. An {class/unchained barbarian} can take this if they have the {ragepower/elemental stance} stance rage power, and must adopt that stance to use this power. A barbarian or {class/skald} must have the {ragepower/lesser elemental rage} or {ragepower/lesser elemental blood} rage power."
 		]
 	},
 	"lesser_ancestor_totem": {
@@ -1541,7 +1541,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"description": [
-			"The barbarian gains ferocity. A barbarian must be at least 6th level and have the {ragepower/lesser atavism totem} to select this rage power."
+			"The barbarian gains {umr/ferocity}. A barbarian must be at least 6th level and have the {ragepower/lesser atavism totem} to select this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1552,7 +1552,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"description": [
-			"The barbarian gains trample. She must be at least 10th level and have the {ragepower/atavism totem} to select this rage power."
+			"The barbarian gains {umr/trample}. She must be at least 10th level and have the {ragepower/atavism totem} to select this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1588,7 +1588,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While raging, the barbarian gains the pounce special ability, allowing her to make a full attack at the end of a charge. In addition, the damage from her claws increases to 1d8 (1d6 if Small) and the claws deal &times;3 damage on a critical hit. A barbarian must have the {ragepower/beast totem} rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
+			"While raging, the barbarian gains the {umr/pounce} special ability, allowing her to make a full attack at the end of a charge. In addition, the damage from her claws increases to 1d8 (1d6 if Small) and the claws deal &times;3 damage on a critical hit. A barbarian must have the {ragepower/beast totem} rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1696,7 +1696,7 @@
 		"category": "Totem",
 		"compilationSources": [ [ "Horror Adventures" ] ],
 		"description": [
-			"While the barbarian is raging, when she takes hit point damage that would render her dying or dead, she remains conscious and raging until the end of her next turn after taking that damage, though she is disabled during that turn. She becomes dying or dead at the end of her next turn as normal for her current hit point total. This ability has no effect if the barbarian dies from a cause other than hit point damage, such as from a death effect or if her Constitution damage exceeds her Constitution score. A barbarian must be at least 10th level and have the {ragepower/lesser cult totem} and {ragepower/cult totem} rage powers to select this rage power."
+			"While the barbarian is raging, when she takes hit point damage that would render her dying or dead, she remains conscious and raging until the end of her next turn after taking that damage, though she is {misc/disabled} during that turn. She becomes {misc/dying} or {misc/dead} at the end of her next turn as normal for her current hit point total. This ability has no effect if the barbarian dies from a cause other than hit point damage, such as from a death effect or if her Constitution damage exceeds her Constitution score. A barbarian must be at least 10th level and have the {ragepower/lesser cult totem} and {ragepower/cult totem} rage powers to select this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1801,7 +1801,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"While raging, the barbarian is surrounded by an aura of howling winds. Creatures attempting to cast spells while adjacent to the barbarian must succeed at a {rule/concentration} check (DC 15 + spell level), and ranged attack rolls against the barbarian take a -4 penalty. Creatures smaller than the barbarian that attack the barbarian in melee with a natural weapon or touch attack must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) or the attack fails and the creature is flung back 5 feet and knocked prone. The barbarian can suspend this aura as a free action. You must be 10th level and have the {ragepower/air totem} rage power before you can select this."
+			"While raging, the barbarian is surrounded by an aura of howling winds. Creatures attempting to cast spells while adjacent to the barbarian must succeed at a {rule/concentration} check (DC 15 + spell level), and ranged attack rolls against the barbarian take a -4 penalty. Creatures smaller than the barbarian that attack the barbarian in melee with a natural weapon or touch attack must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) or the attack fails and the creature is flung back 5 feet and knocked {rule/prone}. The barbarian can suspend this aura as a free action. You must be 10th level and have the {ragepower/air totem} rage power before you can select this."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1870,7 +1870,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"While raging, the barbarian gains tremorsense to a range of 30 feet while underwater. She can attack and move underwater as if affected by {spell/freedom of movement}. You must be 10th level and have the {ragepower/water totem} rage power before you can select this."
+			"While raging, the barbarian gains {umr/tremorsense} to a range of 30 feet while underwater. She can attack and move underwater as if affected by {spell/freedom of movement}. You must be 10th level and have the {ragepower/water totem} rage power before you can select this."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1906,7 +1906,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"While raging, the barbarian is surrounded by an aura of menace. Good creatures adjacent to the barbarian are shaken and take 2d6 points of slashing damage at the beginning of the barbarian's turn as dozens of small cuts open across their flesh. Neutral creatures that are adjacent to the barbarian are shaken, but do not take any damage. Evil creatures are unaffected. A barbarian must have the {ragepower/fiend totem} rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
+			"While raging, the barbarian is surrounded by an aura of menace. Good creatures adjacent to the barbarian are {misc/shaken} and take 2d6 points of slashing damage at the beginning of the barbarian's turn as dozens of small cuts open across their flesh. Neutral creatures that are adjacent to the barbarian are shaken, but do not take any damage. Evil creatures are unaffected. A barbarian must have the {ragepower/fiend totem} rage power to select this rage power. A barbarian must be at least 10th level to select this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1941,7 +1941,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While raging, the barbarian increases her bite damage die type with the animal fury rage power by one die type and decreases the penalty on attack rolls with that bite to -2. Once per rage, a bite that hits can deliver an injury toxin that has a frequency of once per round for 4 rounds, deals 1d3 points of Constitution damage, and has a cure of one save. The saving throw has a Fortitude save DC of 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier. A barbarian must have the {ragepower/hive totem} and {ragepower/hive totem resilience} rage powers and be at least 8th level before selecting this rage power."
+			"While raging, the barbarian increases her bite damage die type with the {ragepower/animal fury} rage power [by one die type](umr/natural_attacks) and decreases the penalty on attack rolls with that bite to -2. Once per rage, a bite that hits can deliver an injury toxin that has a frequency of once per round for 4 rounds, deals 1d3 points of Constitution damage, and has a cure of one save. The saving throw has a Fortitude save DC of 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier. A barbarian must have the {ragepower/hive totem} and {ragepower/hive totem resilience} rage powers and be at least 8th level before selecting this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1999,7 +1999,7 @@
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
 		"category": "Totem",
 		"description": [
-			"The first time each round a creature with regeneration or fast healing is struck by the barbarian while she is raging, the creature must succeed at a Will save (DC = 10 + half the barbarian's level + the barbarian's Strength modifier) or that ability is suppressed for 1 round. A barbarian must have the {ragepower/lesser psychopomp totem} rage power and be at least 6th level to select this rage power."
+			"The first time each round a creature with {umr/regeneration} or {umr/fast healing} is struck by the barbarian while she is raging, the creature must succeed at a Will save (DC = 10 + half the barbarian's level + the barbarian's Strength modifier) or that ability is suppressed for 1 round. A barbarian must have the {ragepower/lesser psychopomp totem} rage power and be at least 6th level to select this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -2009,7 +2009,7 @@
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
 		"category": "Totem",
 		"description": [
-			"While raging, the barbarian can detect and locate undead creatures within 30 feet, just as if it had the blindsight ability, and any weapons she wields are treated as if they had the ghost touch special ability. A barbarian must have the {ragepower/psychopomp totem} rage power and be at least 10th level to select this rage power."
+			"While raging, the barbarian can detect and locate undead creatures within 30 feet, just as if it had the {umr/blindsight} ability, and any weapons she wields are treated as if they had the {magic-enh/ghost touch} special ability. A barbarian must have the {ragepower/psychopomp totem} rage power and be at least 10th level to select this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -2092,7 +2092,7 @@
 		"category": "Totem",
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
 		"description": [
-			"The sun's fire invigorates the barbarian. She is immune to environmental effects from heat and severe heat, and she gains a +2 bonus on Fortitude saves against the effects of extreme heat. In addition, the barbarian gains fire resistance 5 while raging.",
+			"The sun's fire invigorates the barbarian. She is immune to environmental effects from {rule/heat /and severe heat>dangers}, and she gains a +2 bonus on Fortitude saves against the effects of extreme heat. In addition, the barbarian gains fire resistance 5 while raging.",
 			"",
 			"**Totem** rage powers are only available to barbarians taking the {arc-barbarian/Totem Warrior} archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
 		],
@@ -2128,7 +2128,7 @@
 		"category": "Totem",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"While raging, the barbarian's bite attack deals damage as if the barbarian were one size larger than her actual size. The barbarian must have the {ragepower/animal fury} rage power or a natural bite attack to choose this rage power.",
+			"While raging, the barbarian's bite attack deals damage as if the barbarian were [one size larger](umr/natural_attacks) than her actual size. The barbarian must have the {ragepower/animal fury} rage power or a natural bite attack to choose this rage power.",
 			"",
 			"**Totem** rage powers are only available to barbarians taking the {arc-barbarian/Totem Warrior} archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
 		],
@@ -2142,7 +2142,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"While raging, the barbarian can begin a grapple as a free action against any creature she hits with her bite attack. A barbarian must be at least 8th level and have the {ragepower/lesser tyrant totem} to choose this rage power."
+			"While raging, the barbarian can begin a {rule/grapple} as a free action against any creature she hits with her bite attack. A barbarian must be at least 8th level and have the {ragepower/lesser tyrant totem} to choose this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -2188,7 +2188,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While raging, the barbarian doubles her fast movement bonus to land speed and cannot be knocked prone. She also doubles her world serpent totem insight bonus to AC against attack rolls made by an outsider or aberration to confirm a critical hit against her. A barbarian must have the {ragepower/world serpent totem} and {ragepower/world serpent spirit} rage powers and be at least 10th level before selecting this rage power."
+			"While raging, the barbarian doubles her fast movement bonus to land speed and cannot be knocked {rule/prone}. She also doubles her world serpent totem insight bonus to AC against attack rolls made by an outsider or aberration to confirm a critical hit against her. A barbarian must have the {ragepower/world serpent totem} and {ragepower/world serpent spirit} rage powers and be at least 10th level before selecting this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -2330,7 +2330,7 @@
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			"While raging, each time the barbarian confirms a critical hit, the target must succeed at a Will saving throw (DC = 10 + 1/2 the barbarian's level + her Constitution modifier) or be confused for one round. This is a mind-affecting compulsion effect.",
+			"While raging, each time the barbarian confirms a critical hit, the target must succeed at a Will saving throw (DC = 10 + 1/2 the barbarian's level + her Constitution modifier) or be {misc/confused} for one round. This is a mind-affecting compulsion effect.",
 			"",
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers."
 		]
@@ -2396,7 +2396,7 @@
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			"While raging, when the barbarian hits a creature with a charge attack, the creature she hit becomes shaken for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.",
+			"While raging, when the barbarian hits a creature with a charge attack, the creature she hit becomes {misc/shaken} for a number of rounds equal to 1/2 her barbarian level (minimum 1). This effect does not stack with other fear effects to cause a stronger condition.",
 			"",
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers."
 		]
@@ -2469,7 +2469,7 @@
 		"category": "Stance",
 		"compilationSources": [ [ "Pathfinder Unchained" ] ],
 		"description": [
-			"The barbarian can focus on toppling her foes. Once per round, she can make a trip attack against one target in place of a melee attack. If she succeeds, the target is knocked prone. This trip attempt doesn't provoke an attack of opportunity."
+			"The barbarian can focus on toppling her foes. Once per round, she can make a {rule/trip} attack against one target in place of a melee attack. If she succeeds, the target is knocked {rule/prone}. This trip attempt doesn't provoke an attack of opportunity."
 		],
 		"topLink": ["Stance Rage Powers", "ability/stance_rage_powers"]
 	},

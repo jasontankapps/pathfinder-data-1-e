@@ -12,7 +12,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
 		"description": [
-			"**Effect:** The target is splattered with acid, taking a number of points of acid damage equal to 1d6 + 1/2 the ranger's level to the triggering creature (Reflex negates). If it is an extraordinary trap, the ranger must supply a dose of acid when setting the trap.",
+			"**Effect:** The target is splattered with acid, taking a number of points of acid damage equal to 1d6 + 1/2 the ranger's level to the triggering creature (Reflex negates). If it is an extraordinary trap, the ranger must supply a dose of {eq-weapon/acid} when setting the trap.",
 			"",
 			"**Magical Component:** *scroll of {spell/corrosive touch}*"
 		]
@@ -32,7 +32,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
 		"description": [
-			"**Effect:** This trap can be added to a supernatural *snare trap*. The trap briefly imprisons any called creature (such as those called by the {spell/planar binding} spells) for 1d4 rounds (Will negates). During this time the creature may not move from the location of the trap, though it may still use ranged effects and attack any creature within its reach. Additionally, anchoring traps disable the creature's ability to travel within or between dimensions. This includes casting {spell/astral projection}, {spell/blink}, {spell/dimension door}, {spell/ethereal jaunt}, {spell/etherealness}, {spell/gate}, {spell/maze}, {spell/plane shift}, {spell/shadow walk}, {spell/teleport}, {spell/teleportation circle}, and similar spell-like abilities. The trap does not prevent the creature from using magic items that produce these effects, like {magic-wondrous/cubic gate/s}, [helms of teleportation](magic-wondrous/helm_of_teleportation), or [amulets of the planes](magic-wondrous/amulet_of_the_planes). The trap can hold up to a Medium creature; each extra daily use of the ranger's trap ability spent when the trap is set increases the maximum size of creature the trap can hold by one size category."
+			"**Effect:** This trap can be added to a supernatural {rangertrap/snare trap}. The trap briefly imprisons any called creature (such as those called by the {spell/planar binding} spells) for 1d4 rounds (Will negates). During this time the creature may not move from the location of the trap, though it may still use ranged effects and attack any creature within its reach. Additionally, anchoring traps disable the creature's ability to travel within or between dimensions. This includes casting {spell/astral projection}, {spell/blink}, {spell/dimension door}, {spell/ethereal jaunt}, {spell/etherealness}, {spell/gate}, {spell/maze}, {spell/plane shift}, {spell/shadow walk}, {spell/teleport}, {spell/teleportation circle}, and similar spell-like abilities. The trap does not prevent the creature from using magic items that produce these effects, like {magic-wondrous/cubic gate/s}, {magic-wondrous/helm[s] of teleportation}, or {magic-wondrous/amulet[s] of the planes}. The trap can hold up to a Medium creature; each extra daily use of the ranger's trap ability spent when the trap is set increases the maximum size of creature the trap can hold by one size category."
 		]
 	},
 	"blightburn_trap": {
@@ -50,7 +50,7 @@
 		"category": "-",
 		"compilationSources": [ [ "People of the Wastes" ] ],
 		"description": [
-			"**Effect:** Effect This trap stains the victim with blighted plant matter, increasing its susceptibility to the attacks of creatures created or enthralled by the affliction. The target takes a -2 penalty to Armor Class against the attacks of creatures closely affiliated with the specific blight (typically demons, fey, plants, or undead) and on saving throws against effects created by such creatures. This effect lasts for 10 minutes per ranger level. A successful Will save negates this effect. Regardless of whether this is a extraordinary or supernatural trap, the ranger must supply a sample of the specific blight when setting this trap."
+			"**Effect:** This trap stains the victim with blighted plant matter, increasing its susceptibility to the attacks of creatures created or enthralled by the affliction. The target takes a -2 penalty to Armor Class against the attacks of creatures closely affiliated with the specific blight (typically demons, fey, plants, or undead) and on saving throws against effects created by such creatures. This effect lasts for 10 minutes per ranger level. A successful Will save negates this effect. Regardless of whether this is a extraordinary or supernatural trap, the ranger must supply a sample of the specific blight when setting this trap."
 		]
 	},
 	"bludgeoning_trap": {
@@ -68,7 +68,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
 		"description": [
-			"**Effect:** A ranger can only add this to a *fire trap*. If the triggering creature fails its Reflex save, it catches on fire, taking 1d6 points of fire damage at the start of its turn for 1d4 rounds. The burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save."
+			"**Effect:** A ranger can only add this to a {rangertrap/fire trap}. If the triggering creature fails its Reflex save, it catches on fire, taking 1d6 points of fire damage at the start of its turn for 1d4 rounds. The burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save."
 		]
 	},
 	"channeled_energy_trap": {
@@ -86,7 +86,7 @@
 		"category": "-",
 		"compilationSources": [ [ "People of the Wastes" ] ],
 		"description": [
-			"**Effect:** Effect The trap suppresses the target's ability to use one randomly selected attack, ability, or quality that creates a disease or poison effect; this lasts for 1 round per ranger level. If the creature has more than one such attack, ability, or quality that creates a disease or poison effect, the attack, ability, or quality to be suppressed when the creature is affected by this trap is determined at random from those not already suppressed."
+			"**Effect:** The trap suppresses the target's ability to use one randomly selected attack, ability, or quality that creates a disease or poison effect; this lasts for 1 round per ranger level. If the creature has more than one such attack, ability, or quality that creates a disease or poison effect, the attack, ability, or quality to be suppressed when the creature is affected by this trap is determined at random from those not already suppressed."
 		]
 	},
 	"decoy_trap": {
@@ -104,7 +104,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Ranged Tactics Toolbox" ] ],
 		"description": [
-			"**Effect:** If the triggering creature fails its saving throw against the trap or is struck by the trap's attack, the trap also attempts a dirty trick combat maneuver against the triggering creature. The type of dirty trick is chosen when the trap is created, and if it isn't possible or isn't applicable to the triggering creature, the combat maneuver is wasted. The trap's CMB for the dirty trick is equal to the ranger's level + his Wisdom modifier."
+			"**Effect:** If the triggering creature fails its saving throw against the trap or is struck by the trap's attack, the trap also attempts a {rule/dirty trick} combat maneuver against the triggering creature. The type of dirty trick is chosen when the trap is created, and if it isn't possible or isn't applicable to the triggering creature, the combat maneuver is wasted. The trap's CMB for the dirty trick is equal to the ranger's level + his Wisdom modifier."
 		]
 	},
 	"distraction_trap": {
@@ -124,7 +124,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
 		"description": [
-			"**Effect:** A ranger can only add this to a *fire trap*. The trap explodes in fire, filling all squares adjacent to the trap and dealing a number of points of fire damage equal to 1d6 + 1/2 the ranger's level (Reflex negates). If it is an extraordinary trap, the ranger must use an explosive material such as {eq-weapon/alchemist's fire} when setting the trap."
+			"**Effect:** A ranger can only add this to a {rangertrap/fire trap}. The trap explodes in fire, filling all squares adjacent to the trap and dealing a number of points of fire damage equal to 1d6 + 1/2 the ranger's level (Reflex negates). If it is an extraordinary trap, the ranger must use an explosive material such as {eq-weapon/alchemist's fire} when setting the trap."
 		]
 	},
 	"fire_trap": {
@@ -142,7 +142,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Champions of Balance" ] ],
 		"description": [
-			"**Effect:** A ranger can add this augmentation to a *fire* or *smoke trap*. The trap explodes in a flash of colored lights. All creatures within 10 feet must succeed at a saving throw (Fortitude if an extraordinary firework trap, Will if supernatural) or be blinded for 1d4+1 rounds. If this is an extraordinary trap, the ranger must use an alchemical weapon when setting the trap, such as {eq-weapon/flash powder} or a {eq-weapon/firework>_star_candle}."
+			"**Effect:** A ranger can add this augmentation to a {rangertrap/fire>_trap} or {rangertrap/smoke trap}. The trap explodes in a flash of colored lights. All creatures within 10 feet must succeed at a saving throw (Fortitude if an extraordinary firework trap, Will if supernatural) or be blinded for 1d4+1 rounds. If this is an extraordinary trap, the ranger must use an alchemical weapon when setting the trap, such as {eq-weapon/flash powder} or a {eq-weapon/firework>_star_candle}."
 		]
 	},
 	"freezing_trap": {
@@ -151,7 +151,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
 		"description": [
-			"**Effect:** The trap creates a burst of ice that damages and encases the triggering creature. The creature takes 1d3 points of cold damage + 1/4 the ranger's level and is entangled and stuck to the ground, similar to the effect of a tanglefoot bag. A successful Reflex save halves the damage and means the creature is not stuck to the floor by the ice. The ice is 1 inch thick per 2 Hit Dice of the ranger (minimum 1), has hardness 0 and 3 hit points per inch of thickness, and melts in 2d4 rounds."
+			"**Effect:** The trap creates a burst of ice that damages and encases the triggering creature. The creature takes 1d3 points of cold damage + 1/4 the ranger's level and is entangled and stuck to the ground, similar to the effect of a {eq-weapon/tanglefoot bag}. A successful Reflex save halves the damage and means the creature is not stuck to the floor by the ice. The ice is 1 inch thick per 2 Hit Dice of the ranger (minimum 1), has hardness 0 and 3 hit points per inch of thickness, and melts in 2d4 rounds."
 		]
 	},
 	"infected_snare_trap": {
@@ -160,7 +160,7 @@
 		"category": "-",
 		"compilationSources": [ [ "People of the Wastes" ] ],
 		"description": [
-			"**Effect:** Effect A ranger can add this only to a snare trap. The snare is made of diseased materials, which contain an aggressive blight that saps the energy and bodily health from the target creature. When initially caught in the snare, the trapped creature must succeed at a Fortitude saving throw or immediately take 2 points of Constitution damage. Each subsequent hour, the creature must succeed at a Fortitude saving throw or take 2 points of Constitution damage. This effect lasts for 12 hours or until the creature makes two successful saving throws in a row, whichever comes first. This is a poison effect."
+			"**Effect:** A ranger can add this only to a {rangertrap/snare trap}. The snare is made of diseased materials, which contain an aggressive blight that saps the energy and bodily health from the target creature. When initially caught in the snare, the trapped creature must succeed at a Fortitude saving throw or immediately take 2 points of Constitution damage. Each subsequent hour, the creature must succeed at a Fortitude saving throw or take 2 points of Constitution damage. This effect lasts for 12 hours or until the creature makes two successful saving throws in a row, whichever comes first. This is a poison effect."
 		]
 	},
 	"lazurite_trap": {
@@ -169,7 +169,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
 		"description": [
-			"**Effect:** Lazurite radiation increases the victim's susceptibility to the attacks of undead creatures that are bolstered by the radiation. The target takes a -2 penalty to Armor Class against the attacks of undead creatures and on saving throws against effects created by undead. This effect lasts for 10 minutes per ranger level. A successful Will save negates this effect. If this is an extraordinary trap, the ranger must supply a {eq-material/sliver of |lazurite}."
+			"**Effect:** {eq-material/Lazurite} radiation increases the victim's susceptibility to the attacks of undead creatures that are bolstered by the radiation. The target takes a -2 penalty to Armor Class against the attacks of undead creatures and on saving throws against effects created by undead. This effect lasts for 10 minutes per ranger level. A successful Will save negates this effect. If this is an extraordinary trap, the ranger must supply a {eq-material/sliver of |lazurite}."
 		]
 	},
 	"limning_trap": {
@@ -187,7 +187,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
 		"description": [
-			"**Effect:** If the triggering creature fails its save against the trap, it is marked with a dye and/or scent of the ranger's choosing. A scent mark decreases the DC of tracking the marked creature by scent by 4. The mark can be washed off with vigorous scrubbing, but fades on its own over several days."
+			"**Effect:** If the triggering creature fails its save against the trap, it is marked with a dye and/or scent of the ranger's choosing. A scent mark decreases the DC of tracking the marked creature by {umr/scent} by 4. The mark can be washed off with vigorous scrubbing, but fades on its own over several days."
 		]
 	},
 	"oversized_barbs": {
@@ -205,7 +205,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Magical Marketplace" ] ],
 		"description": [
-			"**Effect:** A ranger can only add this to a wounding trap. The damage die of a penetrating trap increases to 1d8. Choose either adamantine, cold iron, or silver. The trap counts as that material for the purposes of overcoming damage reduction. If this is an extraordinary trap, the ranger must provide 1 pound of the chosen material during the trap's construction."
+			"**Effect:** A ranger can only add this to a {rangertrap/wounding trap}. The damage die of a penetrating trap increases to 1d8. Choose either {eq-material/adamantine}, {eq-material/cold iron}, or {eq-material/silver}. The trap counts as that material for the purposes of overcoming damage reduction. If this is an extraordinary trap, the ranger must provide 1 pound of the chosen material during the trap's construction."
 		]
 	},
 	"pit_trap": {
@@ -234,7 +234,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Magical Marketplace" ] ],
 		"description": [
-			"**Effect:** The trap and all adjacent squares become quicksand as long as they contain loose sand or soil. The Swim DC to move in this quicksand is equal to the trap's save DC, and the Swim DC to tread in the quicksand is equal to the trap's DC - 5. The quicksand lasts for a number of rounds equal to the ranger's level. When the effect ends, any creature still in the quicksand is returned to the surface prone."
+			"**Effect:** The trap and all adjacent squares become quicksand as long as they contain loose sand or soil. The Swim DC to move in this quicksand is equal to the trap's save DC, and the Swim DC to tread in the quicksand is equal to the trap's DC - 5. The quicksand lasts for a number of rounds equal to the ranger's level. When the effect ends, any creature still in the quicksand is returned to the surface {rule/prone}."
 		]
 	},
 	"rust_monster_trap": {
@@ -274,7 +274,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Champions of Balance" ] ],
 		"description": [
-			"**Effect:** This trap bellows out thick, choking smoke that fills the trapped square and all adjacent squares. Any breathing creature in these squares must succeed at a Fortitude saving throws or take a -4 penalty to Strength and Dexterity every round it's within the smoke and for 1d4+1 rounds after leaving the smoke. All sight, even darkvision, is ineffective in or through the smoke. The smoke lasts for 1 round per 2 ranger levels, and is dispersed by wind as fog cloud. If this is an extraordinary trap, the ranger must use an alchemical component when setting the trap, such as a {eq-misc/smokestick}."
+			"**Effect:** This trap bellows out thick, choking smoke that fills the trapped square and all adjacent squares. Any breathing creature in these squares must succeed at a Fortitude saving throws or take a -4 penalty to Strength and Dexterity every round it's within the smoke and for 1d4+1 rounds after leaving the smoke. All sight, even darkvision, is ineffective in or through the smoke. The smoke lasts for 1 round per 2 ranger levels, and is dispersed by wind as {spell/fog cloud}. If this is an extraordinary trap, the ranger must use an alchemical component when setting the trap, such as a {eq-misc/smokestick}."
 		]
 	},
 	"snare_trap": {
@@ -330,7 +330,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
 		"description": [
-			"**Effect:** The target is coated in a thin layer of sticky tar unless it succeeds at a Reflex save. It is entangled, and becomes susceptible to catching fire from any source of flame. If lit on fire, the tar burns intensely for 1 round; it deals 2d6 points of fire damage and is destroyed in the process. Unless burned away, the tar remains for 1 round per ranger level. If this is an extraordinary trap, the ranger must supply a dose of tar."
+			"**Effect:** The target is coated in a thin layer of sticky tar unless it succeeds at a Reflex save. It is entangled, and becomes susceptible to catching fire from any source of flame. If lit on fire, the tar burns intensely for 1 round; it deals 2d6 points of fire damage and is destroyed in the process. Unless burned away, the tar remains for 1 round per ranger level. If this is an extraordinary trap, the ranger must supply a dose of {eq-weapon/tar>_bomb}."
 		]
 	},
 	"telepathy_trap": {
@@ -348,7 +348,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Champions of Balance" ] ],
 		"description": [
-			"**Effect:** A ranger can add this to a smoke trap. The smoke this trap creates is extremely noxious. Any breathing creature must succeed at a Fortitude saving throw (in addition to the Fortitude save for the smoke trap) or be nauseated every round it's within the smoke and for 1d4+1 rounds after leaving the smoke. If this is an extraordinary trap, the ranger must use a toxic material when setting the trap, such as [noxious aromatic](eq-weapon/noxious_aromatic_flask)."
+			"**Effect:** A ranger can add this to a {rangertrap/smoke trap}. The smoke this trap creates is extremely noxious. Any breathing creature must succeed at a Fortitude saving throw (in addition to the Fortitude save for the smoke trap) or be {misc/nauseated} every round it's within the smoke and for 1d4+1 rounds after leaving the smoke. If this is an extraordinary trap, the ranger must use a toxic material when setting the trap, such as {eq-weapon/noxious aromatic>_flask}."
 		]
 	},
 	"transdimensional_trap": {
@@ -377,7 +377,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
 		"description": [
-			"**Effect:** A taut wire stretched between two vertical surfaces knocks the target prone unless it succeeds at a Reflex save. A running or charging creature takes a -6 penalty on its save."
+			"**Effect:** A taut wire stretched between two vertical surfaces knocks the target {rule/prone} unless it succeeds at a Reflex save. A running or charging creature takes a -6 penalty on its save."
 		]
 	},
 	"wounding_trap": {

@@ -32,7 +32,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 68 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
-			"A rogue with this ability can cause living opponents to bleed by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the rogue's sneak attack (e.g., 4d6 equals 4 points of bleed). Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleeding damage from this ability does not stack with itself. Bleeding damage bypasses any damage reduction the creature might possess."
+			"A rogue with this ability can cause living opponents to bleed by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the rogue's sneak attack (e.g., 4d6 equals 4 points of {rule/bleed}). Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleeding damage from this ability does not stack with itself. Bleeding damage bypasses any damage reduction the creature might possess."
 		],
 		"addenda": [ "sneakattack" ]
 	},
@@ -42,7 +42,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
-			"A rogue with this talent can make sneak attacks with subtle flourishes that disorient and distract her enemy. When she hits a creature with a melee attack that deals sneak attack damage, she can forgo the additional damage to cause the creature to become flat-footed against one target of her choosing until the beginning of her next turn. The rogue cannot designate herself as the creature gaining the benefit of this talent. Creatures with uncanny dodge are immune to distracting attack."
+			"A rogue with this talent can make sneak attacks with subtle flourishes that disorient and distract her enemy. When she hits a creature with a melee attack that deals sneak attack damage, she can forgo the additional damage to cause the creature to become {rule/flat-footed} against one target of her choosing until the beginning of her next turn. The rogue cannot designate herself as the creature gaining the benefit of this talent. Creatures with {ability/uncanny dodge} are immune to distracting attack."
 		],
 		"addenda": [ "sneakattack" ]
 	},
@@ -72,7 +72,7 @@
 		"compilationSources": [ [ "Blood of Shadows", 8 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
-			"When a rogue selects this talent, she must choose the confused, shaken, or sickened condition. When the rogue has the selected condition and hits a creature with a melee attack that deals sneak attack damage, the rogue no longer has that condition. A rogue can take this talent up to three times. Each time, she must select a different condition that she is able to remove from herself with a melee attack that deals sneak attack damage. Even if the rogue has taken this talent multiple times, she can remove only a single effect on herself with each melee attack that deals sneak attack damage."
+			"When a rogue selects this talent, she must choose the {misc/confused}, {misc/shaken}, or {misc/sickened} condition. When the rogue has the selected condition and hits a creature with a melee attack that deals sneak attack damage, the rogue no longer has that condition. A rogue can take this talent up to three times. Each time, she must select a different condition that she is able to remove from herself with a melee attack that deals sneak attack damage. Even if the rogue has taken this talent multiple times, she can remove only a single effect on herself with each melee attack that deals sneak attack damage."
 		],
 		"addenda": [ "sneakattack" ]
 	},
@@ -82,7 +82,7 @@
 		"compilationSources": [ [ "Blood of Shadows", 8 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
-			"Once per day, the rogue can forgo her potential to deal sneak attack damage to attempt to cloud an opponent's vision. She must declare the use of obscuring blow before she makes the attack. If the attack hits, it does normal damage but, instead of dealing sneak attack damage (and any effect that triggers when the rogue deals sneak attack damage), the target treats all other creatures as if they had concealment, suffering a 20% miss chance on all attack rolls for a number of rounds equal to half the rogue's level. A successful Fortitude saving throw reduces this effect to 1 round. The DC of this saving throw is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence modifier."
+			"Once per day, the rogue can forgo her potential to deal sneak attack damage to attempt to cloud an opponent's vision. She must declare the use of obscuring blow before she makes the attack. If the attack hits, it does normal damage but, instead of dealing sneak attack damage (and any effect that triggers when the rogue deals sneak attack damage), the target treats all other creatures as if they had {rule/concealment}, suffering a 20% miss chance on all attack rolls for a number of rounds equal to half the rogue's level. A successful Fortitude saving throw reduces this effect to 1 round. The DC of this saving throw is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence modifier."
 		],
 		"addenda": [ "sneakattack" ]
 	},
@@ -124,7 +124,7 @@
 		"compilationSources": [ [ "Distant Realms", 13 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
-			"When making a sneak attack against an opponent with an alignment subtype, a rogue with this talent can forgo her sneak attack damage to scramble the creature's metaphysical nature. If the attack succeeds, the rogue deals weapon damage as normal, and the target must succeed at a Fortitude save (DC = 10 + half the rogue's level + the rogue's Intelligence modifier) or lose all damage reduction overcome by aligned weapons (such as DR 10/good), lose all regeneration overcome by aligned sources (such as regeneration 10 [good]. The rogue must have the aligned sneak attack talent (see next section) to select this talent."
+			"When making a sneak attack against an opponent with an alignment subtype, a rogue with this talent can forgo her sneak attack damage to scramble the creature's metaphysical nature. If the attack succeeds, the rogue deals weapon damage as normal, and the target must succeed at a Fortitude save (DC = 10 + half the rogue's level + the rogue's Intelligence modifier) or lose all damage reduction overcome by aligned weapons (such as DR 10/good), lose all regeneration overcome by aligned sources (such as regeneration 10 [good]). The rogue must have the {talent/aligned sneak attack} talent to select this talent."
 		],
 		"addenda": [ "sneakattack" ]
 	},
@@ -164,7 +164,7 @@
 		"compilationSources": [ [ "Magical Marketplace", 26 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
-			"**Rogue Only:** Anytime a rogue with this talent could hit an opponent with a melee sneak attack on her turn, she may take a -2 penalty on her attack roll and attempt a dirty trick, disarm, steal, sunder, or trip combat maneuver instead of dealing sneak attack damage. If the attack succeeds, the rogue deals weapon damage as normal and then attempts a combat maneuver check as a swift action (the -2 penalty only applies to the initial attack roll, not the combat maneuver check). This combat maneuver still provokes attacks of opportunity unless the rogue has a feat or ability that allows her to perform it without provoking attacks of opportunity."
+			"**Rogue Only:** Anytime a rogue with this talent could hit an opponent with a melee sneak attack on her turn, she may take a -2 penalty on her attack roll and attempt a {rule/dirty trick}, {rule/disarm}, {rule/steal}, {rule/sunder}, or {rule/trip} combat maneuver instead of dealing sneak attack damage. If the attack succeeds, the rogue deals weapon damage as normal and then attempts a combat maneuver check as a swift action (the -2 penalty only applies to the initial attack roll, not the combat maneuver check). This combat maneuver still provokes attacks of opportunity unless the rogue has a feat or ability that allows her to perform it without provoking attacks of opportunity."
 		],
 		"addenda": [ "sneakattack" ]
 	},
@@ -174,7 +174,7 @@
 		"compilationSources": [ [ "Champions of Purity", 25 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
-			"**Rogue Only:** When making a successful sneak attack against a creature with the ability to channel energy, the rogue may forgo 3d6 points of sneak attack damage to instead prevent the target from channeling energy for a number of rounds equal to half her rogue level."
+			"**Rogue Only:** When making a successful sneak attack against a creature with the ability to {ability/channel energy}, the rogue may forgo 3d6 points of sneak attack damage to instead prevent the target from channeling energy for a number of rounds equal to half her rogue level."
 		],
 		"addenda": [ "sneakattack" ]
 	},
@@ -230,7 +230,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Other Sneak Attack Talents",
 		"description": [
-			"After successfully making a sneak attack or Sleight of Hand check, a rogue with this talent can spend a move action to take the withdraw action. She can move no more than her speed during this movement."
+			"After successfully making a sneak attack or Sleight of Hand check, a rogue with this talent can spend a move action to take the {rule/withdraw} action. She can move no more than her speed during this movement."
 		]
 	},
 	"set_up": {
@@ -239,7 +239,7 @@
 		"compilationSources": [ [ "Cohorts and Companions", 27 ] ],
 		"category": "Other Sneak Attack Talents",
 		"description": [
-			"**Rogue Only:** When you successfully hit a target with a sneak attack in melee, you can choose to forgo your additional sneak attack damage to make the target more vulnerable to one of your allies adjacent to it. The first melee attack that ally makes against the target before the beginning of your next turn treats the target as flanked, even if your ally is not flanking the target. This has no effect on creatures you could not flank with that ally, even if the ally was properly positioned."
+			"**Rogue Only:** When you successfully hit a target with a sneak attack in melee, you can choose to forgo your additional sneak attack damage to make the target more vulnerable to one of your allies adjacent to it. The first melee attack that ally makes against the target before the beginning of your next turn treats the target as {rule/flank/ed>ing}, even if your ally is not flanking the target. This has no effect on creatures you could not flank with that ally, even if the ally was properly positioned."
 		]
 	},
 	"sneak_training": {
@@ -266,7 +266,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 69 ] ],
 		"category": "Other Sneak Attack Talents",
 		"description": [
-			"**Rogue Version:** During the surprise round, opponents are always considered flat-footed to a rogue with this ability, even if they have already acted.",
+			"**Rogue Version:** During the surprise round, opponents are always considered {rule/flat-footed} to a rogue with this ability, even if they have already acted.",
 			"",
 			"**Unchained Rogue Version:** During the surprise round, opponents are always considered flat-footed to a rogue with this ability, even if they have already acted. A rogue with this ability adds 1/2 her rogue level to her sneak attack damage rolls made during the surprise round."
 		]
@@ -277,7 +277,7 @@
 		"compilationSources": [ [ "Inner Sea Combat", 16 ] ],
 		"category": "Other Sneak Attack Talents",
 		"description": [
-			"**Rogue Only:** Once per round, when making an attack against an opponent underwater that qualifies for sneak attack damage, a rogue with this talent can attempt a Swim check as a free action against her opponent's CMD. If the attack and Swim check are both successful, and the attack deals sneak attack damage, the rogue can choose to forgo one or more of her sneak attack dice to reduce the number of total rounds her opponent can hold its breath by 1 round per die. A rogue must be trained in Swim to select this talent."
+			"**Rogue Only:** Once per round, when making an attack against an opponent underwater that qualifies for sneak attack damage, a rogue with this talent can attempt a Swim check as a free action against her opponent's CMD. If the attack and Swim check are both successful, and the attack deals sneak attack damage, the rogue can choose to forgo one or more of her sneak attack dice to reduce the number of total rounds her opponent can [hold its breath](rule/suffocation) by 1 round per die. A rogue must be trained in Swim to select this talent."
 		]
 	},
 	"accurate_poisoner": {
@@ -286,7 +286,7 @@
 		"compilationSources": [ [ "Potions and Poisons", 13 ] ],
 		"category": "Poison Talents",
 		"description": [
-			"A rogue with this talent delivers poisons with deadly precision. When the rogue successfully hits an opponent with a poisoned weapon and would deal sneak attack damage, she can forgo the sneak attack damage and increase the poison's potency. If she does, the poison's duration increases by 2 (for example, large scorpion venom lasts for 8 rounds instead of 6 rounds, and drow poison lasts for 4 minutes instead of 2 minutes)."
+			"A rogue with this talent delivers poisons with deadly precision. When the rogue successfully hits an opponent with a poisoned weapon and would deal sneak attack damage, she can forgo the sneak attack damage and increase the poison's potency. If she does, the poison's duration increases by 2 (for example, {eq-poison/large scorpion venom} lasts for 8 rounds instead of 6 rounds, and {eq-poison/drow poison} lasts for 4 minutes instead of 2 minutes)."
 		]
 	},
 	"developed_poison_immunity": {
@@ -313,7 +313,7 @@
 		"compilationSources": [ [ "Adventurer's Guide", 53 ] ],
 		"category": "Poison Talents",
 		"description": [
-			"Sabriune has passed on the secret of swiftly manufacturing drow poison. Once per day, the rogue can create 1 or more doses of drow poison by spending 25 gp per dose; this process takes 30 minutes of work, regardless of the number of doses she creates. She can create no more than 1 dose for every 3 rogue levels she has (minimum 1 dose). Creating drow poison in this way does not require a skill check, but the created poison spoils if not used within 24 hours. (This spoilage means that selling doses of this poison for a profit to unsuspecting merchants might well result in unwanted repercussions and reprisals!)"
+			"Sabriune has passed on the secret of swiftly manufacturing {eq-poison/drow poison}. Once per day, the rogue can create 1 or more doses of drow poison by spending 25 gp per dose; this process takes 30 minutes of work, regardless of the number of doses she creates. She can create no more than 1 dose for every 3 rogue levels she has (minimum 1 dose). Creating drow poison in this way does not require a skill check, but the created poison spoils if not used within 24 hours. (This spoilage means that selling doses of this poison for a profit to unsuspecting merchants might well result in unwanted repercussions and reprisals!)"
 		]
 	},
 	"lasting_poison": {
@@ -322,9 +322,9 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 131 ] ],
 		"category": "Poison Talents",
 		"description": [
-			"**Rogue Version:** A rogue with this talent can apply poison to a weapon in such a way that it is effective for two successful attacks instead of one. The poison has a reduced effect, however, and saves made against the poison receive a +2 circumstance bonus. Applying poison in this way requires a full-round action, or a standard action if the rogue has the swift poison talent.",
+			"**Rogue Version:** A rogue with this talent can apply poison to a weapon in such a way that it is effective for two successful attacks instead of one. The poison has a reduced effect, however, and saves made against the poison receive a +2 circumstance bonus. Applying poison in this way requires a full-round action, or a standard action if the rogue has the {talent/swift poison} talent.",
 			"",
-			"**Unchained Rogue Version:** A rogue with this talent can apply poison to a weapon in such a way that it is effective for a number of successful attacks equal to her Dexterity modifier (minimum two) instead of one. This poison has a reduced effect, however, and saves made against the poison gain a +2 circumstance bonus. Applying poison in this way is a full-round action, or a standard action if the rogue has the swift poison rogue talent."
+			"**Unchained Rogue Version:** A rogue with this talent can apply poison to a weapon in such a way that it is effective for a number of successful attacks equal to her Dexterity modifier (minimum two) instead of one. This poison has a reduced effect, however, and saves made against the poison gain a +2 circumstance bonus. Applying poison in this way is a full-round action, or a standard action if the rogue has the *swift poison* rogue talent."
 		]
 	},
 	"lingering_poison": {
@@ -333,7 +333,7 @@
 		"compilationSources": [ [ "Potions and Poisons", 13 ] ],
 		"category": "Poison Talents",
 		"description": [
-			"A rogue with this talent can have a poison remain inert until a later time. When she delivers a contact or injury poison, instead of the poison's normal onset time, the rogue can delay the poison's effects until up to 1 day from when it is delivered (minimum 1 round). The delayed poison can be detected as normal by spells such as detect poison and similar abilities."
+			"A rogue with this talent can have a poison remain inert until a later time. When she delivers a contact or injury poison, instead of the poison's normal onset time, the rogue can delay the poison's effects until up to 1 day from when it is delivered (minimum 1 round). The delayed poison can be detected as normal by spells such as {spell/detect poison} and similar abilities."
 		]
 	},
 	"poison_use": {
@@ -387,7 +387,7 @@
 		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
-			"**Rogue Only; Catfolk Only:** A catfolk rogue with this talent can apply poison to her claws without accidentally poisoning herself. A catfolk rogue must have the cat's claws racial trait and the poison use class feature before taking this talent."
+			"**Rogue Only; Catfolk Only:** A {race/catfolk} rogue with this talent can apply poison to her claws without accidentally poisoning herself. A catfolk rogue must have the cat's claws racial trait and the poison use class feature before taking this talent."
 		]
 	},
 	"disarming_luck": {
@@ -396,7 +396,7 @@
 		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
-			"**Rogue Only; Catfolk Only:** Once per day, when a catfolk rogue attempts to disable a device and fails by 5 or more, she can reroll the check as a free action. She must take the result of the reroll, even if it's worse than the original roll."
+			"**Rogue Only; Catfolk Only:** Once per day, when a {race/catfolk} rogue attempts to disable a device and fails by 5 or more, she can reroll the check as a free action. She must take the result of the reroll, even if it's worse than the original roll."
 		]
 	},
 	"graceful_faller": {
@@ -405,7 +405,7 @@
 		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
-			"**Rogue Only; Catfolk Only:** A catfolk rogue with this talent lands on her feet even when she takes lethal damage from a fall. If the catfolk rogue also has the nimble faller racial trait, she takes damage from any fall as if it were 20 feet shorter than it actually is."
+			"**Rogue Only; Catfolk Only:** A {race/catfolk} rogue with this talent lands on her feet even when she takes lethal damage from a fall. If the catfolk rogue also has the nimble faller racial trait, she takes damage from any fall as if it were 20 feet shorter than it actually is."
 		]
 	},
 	"nimble_climber_catfolk": {
@@ -414,7 +414,7 @@
 		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
-			"**Rogue Only; Catfolk Only:** A catfolk rogue with this talent gains a +4 bonus on Climb checks. If she has the climber racial trait, she can take 10 on her Climb checks even when in immediate danger or distracted."
+			"**Rogue Only; Catfolk Only:** A {race/catfolk} rogue with this talent gains a +4 bonus on Climb checks. If she has the climber racial trait, she can take 10 on her Climb checks even when in immediate danger or distracted."
 		]
 	},
 	"single_minded_appraiser": {
@@ -423,7 +423,7 @@
 		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
-			"**Rogue Only; Catfolk Only:** A catfolk rogue with this talent is skilled at determining the value of sparkly things. She can always take 10 when appraising gems and jewelry."
+			"**Rogue Only; Catfolk Only:** A {race/catfolk} rogue with this talent is skilled at determining the value of sparkly things. She can always take 10 when appraising gems and jewelry."
 		]
 	},
 	"vicious_claws": {
@@ -432,7 +432,7 @@
 		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
-			"**Rogue Only; Catfolk Only:** A catfolk with this talent uses d8s to roll sneak attack damage instead of d6s, but only when she uses her claws to make the sneak attack. A catfolk rogue must have the cat's claws racial trait before taking this talent."
+			"**Rogue Only; Catfolk Only:** A {race/catfolk} with this talent uses d8s to roll sneak attack damage instead of d6s, but only when she uses her claws to make the sneak attack. A catfolk rogue must have the cat's claws racial trait before taking this talent."
 		]
 	},
 	"cloying_shades": {
@@ -441,16 +441,7 @@
 		"compilationSources": [ [ "Blood of Shadows", 7 ] ],
 		"category": "Spellcasting Talents",
 		"description": [
-			"When a rogue with this talent uses {spell/dimension door} as a spell or spell-like ability, including the abundant step or shadow jump class feature, then all creatures adjacent to the rogue at the start and end of her teleportation are entangled by grasping shadows for 1 round (although the creatures are not anchored in place). A successful Reflex saving throw negates this effect. The DC of this saving throw is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence or Charisma modifier (whichever is higher). The rogue must have dimension door as a spell or spell-like ability (including the abundant step or shadow jump class feature) before choosing this talent."
-		]
-	},
-	"demon_lantern": {
-		"name": "Demon Lantern",
-		"nameSuffix": "(Sp)",
-		"compilationSources": [ [ "The Harrow Handbook", 20 ] ],
-		"category": "Spellcasting Talents",
-		"description": [
-			"**Rogue Only:** Once per day when she casts {spell/dancing lights}, the rogue can conjure a single demon's lantern instead of the usual four lights. A demon lantern acts in all ways as a {spell/hypnotic pattern} spell cast by a wizard, except it also casts light as a torch and it fascinates only a single target whose Hit Dice do not exceed the rogue's class level. The save DC of this effect is equal to 11 + the rogue's Intelligence modifier. The rogue must have an Intelligence score of at least 11 to select this talent. A rogue must have selected the minor magic rogue talent and selected dancing lights as her spell of choice or otherwise be able to cast dancing lights before choosing this talent."
+			"When a rogue with this talent uses {spell/dimension door} as a spell or spell-like ability, including the abundant step or shadow jump class feature, then all creatures adjacent to the rogue at the start and end of her teleportation are {rule/entangled} by grasping shadows for 1 round (although the creatures are not anchored in place). A successful Reflex saving throw negates this effect. The DC of this saving throw is equal to 10 + 1/2 the rogue's level + the rogue's Intelligence or Charisma modifier (whichever is higher). The rogue must have *dimension door* as a spell or spell-like ability (including the abundant step or shadow jump class feature) before choosing this talent."
 		]
 	},
 	"extra_earthcraft": {
@@ -470,6 +461,16 @@
 			"A rogue with this talent gains the ability to cast a 0-level spell from the {main/spells_<sorcerer//|wizard} spell list. This spell can be cast three times a day as a spell-like ability. The caster level for this ability is equal to the rogue's level. The save DC for this spell is 10 + the rogue's Intelligence modifier. The rogue must have an Intelligence of at least 10 to select this talent."
 		]
 	},
+	"demon_lantern": {
+		"name": "Demon Lantern",
+		"nameSuffix": "(Sp)",
+		"compilationSources": [ [ "The Harrow Handbook", 20 ] ],
+		"category": "Spellcasting Talents",
+		"level": 1,
+		"description": [
+			"**Rogue Only:** Once per day when she casts {spell/dancing lights}, the rogue can conjure a single demon's lantern instead of the usual four lights. A demon lantern acts in all ways as a {spell/hypnotic pattern} spell cast by a wizard, except it also casts light as a torch and it {misc/fascinate/s>d} only a single target whose Hit Dice do not exceed the rogue's class level. The save DC of this effect is equal to 11 + the rogue's Intelligence modifier. The rogue must have an Intelligence score of at least 11 to select this talent. A rogue must have selected the {talent/minor magic} rogue talent and selected *dancing lights* as her spell of choice or otherwise be able to cast *dancing lights* before choosing this talent."
+		]
+	},
 	"gloom_magic": {
 		"name": "Gloom Magic",
 		"nameSuffix": "(Sp)",
@@ -477,7 +478,7 @@
 		"category": "Spellcasting Talents",
 		"level": 1,
 		"description": [
-			"A rogue with this talent gains the ability to cast {spell/darkness} two times per day as a spell-like ability. The darkness created by this ability does not impair the rogue's vision. The caster level for this ability is equal to the rogue's level. A rogue must have an Intelligence score of at least 12 and the minor magic rogue talent before choosing this talent."
+			"A rogue with this talent gains the ability to cast {spell/darkness} two times per day as a spell-like ability. The darkness created by this ability does not impair the rogue's vision. The caster level for this ability is equal to the rogue's level. A rogue must have an Intelligence score of at least 12 and the {talent/minor magic} rogue talent before choosing this talent."
 		]
 	},
 	"greater_gloom_magic": {
@@ -487,7 +488,7 @@
 		"category": "Spellcasting Talents",
 		"level": 2,
 		"description": [
-			"A rogue with this talent gains the ability to cast {spell/deeper darkness} once each day as a spell-like ability. The darkness created by this ability does not impair the rogue's vision. The caster level for this ability is equal to the rogue's level. A rogue must have an Intelligence score of at least 13 and the gloom magic and minor magic rogue talents before choosing this talent."
+			"A rogue with this talent gains the ability to cast {spell/deeper darkness} once each day as a spell-like ability. The darkness created by this ability does not impair the rogue's vision. The caster level for this ability is equal to the rogue's level. A rogue must have an Intelligence score of at least 13 and the {talent/gloom magic} and {talent/minor magic} rogue talents before choosing this talent."
 		]
 	},
 	"innocent_facade": {
@@ -497,7 +498,7 @@
 		"category": "Spellcasting Talents",
 		"level": 1,
 		"description": [
-			"Once per day, a rogue with this talent can use {spell/innocence} as a spell-like ability, using her rogue level as the spell's caster level. A rogue must have the minor magic talent before selecting this talent. An investigator can select the innocent facade rogue talent in place of an investigator talent. She must have the underworld inspiration investigator talent before selecting this talent, instead of minor magic."
+			"Once per day, a rogue with this talent can use {spell/innocence} as a spell-like ability, using her rogue level as the spell's caster level. A rogue must have the {talent/minor magic} talent before selecting this talent."
 		]
 	},
 	"major_magic": {
@@ -507,7 +508,7 @@
 		"category": "Spellcasting Talents",
 		"level": 1,
 		"description": [
-			"A rogue with this talent gains the ability to cast a 1st-level spell from the {main/spells_<sorcerer}/wizard spell list two times a day as a spell-like ability. The caster level for this ability is equal to the rogue's level. The save DC for this spell is 11 + the rogue's Intelligence modifier. The rogue must have an Intelligence of at least 11 to select this talent. A rogue must have the minor magic rogue talent before choosing this talent."
+			"A rogue with this talent gains the ability to cast a 1st-level spell from the {main/spells_<sorcerer}/wizard spell list two times a day as a spell-like ability. The caster level for this ability is equal to the rogue's level. The save DC for this spell is 11 + the rogue's Intelligence modifier. The rogue must have an Intelligence of at least 11 to select this talent. A rogue must have the {talent/minor magic} rogue talent before choosing this talent."
 		]
 	},
 	"one_of_those_faces": {
@@ -525,7 +526,7 @@
 		"compilationSources": [ [ "Blood of Shadows", 8 ] ],
 		"category": "Spellcasting Talents",
 		"description": [
-			"Once per day as an immediate action when the rogue is hit, the rogue can create a single shadow duplicate of herself, as per {spell/mirror image}. The GM randomly determines whether the attack hit the rogue or the shadow duplicate. The shadow duplicate lasts for a number of rounds equal to the rogue's level, or until the shadow duplicate is dispelled or destroyed. This ability does not stack with the mirror image spell. The caster level for this ability is equal to the rogue's level. A rogue can use this ability one additional time per day for every 5 rogue levels she has."
+			"Once per day as an immediate action when the rogue is hit, the rogue can create a single shadow duplicate of herself, as per {spell/mirror image}. The GM randomly determines whether the attack hit the rogue or the shadow duplicate. The shadow duplicate lasts for a number of rounds equal to the rogue's level, or until the shadow duplicate is dispelled or destroyed. This ability does not stack with the *mirror image* spell. The caster level for this ability is equal to the rogue's level. A rogue can use this ability one additional time per day for every 5 rogue levels she has."
 		]
 	},
 	"wild_magic": {
@@ -552,7 +553,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 7 ] ],
 		"category": "Use Magic Device Talents",
 		"description": [
-			"Street thieves in Absalom expect wares to be securely locked, and sometimes it takes high-quality tools and magic training to ensure there's a meal at the end of the day. A rogue with this ability can use spell-trigger and spell-completion items as if the following spells were on a spell list to which he has access: {spell/detect secret doors}, {spell/detect snares and pits}, {spell/knock}, {spell/locate object}, and {spell/obscure object}. If the spell-trigger device allows a wielder to apply his own caster level (such as with a staff), the rogue may use his class level as his caster level. The rogue may also use knock as a supernatural ability once per day, using his rogue level as his caster level."
+			"Street thieves in Absalom expect wares to be securely locked, and sometimes it takes high-quality tools and magic training to ensure there's a meal at the end of the day. A rogue with this ability can use spell-trigger and spell-completion items as if the following spells were on a spell list to which he has access: {spell/detect secret doors}, {spell/detect snares and pits}, {spell/knock}, {spell/locate object}, and {spell/obscure object}. If the spell-trigger device allows a wielder to apply his own caster level (such as with a staff), the rogue may use his class level as his caster level. The rogue may also use *knock* as a supernatural ability once per day, using his rogue level as his caster level."
 		]
 	},
 	"spell_storing": {
@@ -570,7 +571,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 7 ] ],
 		"category": "Use Magic Device Talents",
 		"description": [
-			"Mercenaries in the employ of the [Aspis Consortium](rule/aff_profiteers) often use wands of invisibility to attack protected targets, then blend into the crowd to escape or disguise the source of the next attack. A rogue with this ability is practiced at attacking from magical concealment. He can use spell-trigger and spell completion items as if the following spells were on a spell list to which he has access: {spell/greater invisibility}, {spell/invisibility}, and {spell/vanish}.",
+			"Mercenaries in the employ of the [Aspis Consortium](rule/aff_profiteers) often use *wands of invisibility* to attack protected targets, then blend into the crowd to escape or disguise the source of the next attack. A rogue with this ability is practiced at attacking from magical concealment. He can use spell-trigger and spell completion items as if the following spells were on a spell list to which he has access: {spell/greater invisibility}, {spell/invisibility}, and {spell/vanish}.",
 			"",
 			"Additionally, if the rogue becomes visible as a result of a weapon or spell attack, he can sheathe his weapon as a free action and instantly adopt a neutral posture. With a successful Bluff or Disguise check (opposed by witnesses' Sense Motive or Perception checks, whichever is higher), there is no obvious sign that the rogue is the source of the attack (though a lack of any other reasonable candidate can still lead observers to draw the correct conclusion)."
 		]
@@ -590,7 +591,7 @@
 		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Other Magic-Related Talents",
 		"description": [
-			"A rogue with this talent gains better access to magic items from black market connections. She treats every settlement as one size greater for the purpose of determining the gp limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful Diplomacy check, the rogue can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful check, the rogue can also sell stolen items on the black market. If the check fails by 5 or more, the rogue does something to spook the market, and treats the city as normal for 1 week. Furthermore, those in control of the black market may alert the authorities to the rogue's presence in an act of reprisal for spooking the market or to divert attention away from their illicit activities. The DCs of the checks are by settlement size and are given in the table below.",
+			"A rogue with this talent gains better access to magic items from black market connections. She treats every {rule/settlement>s_and_disricts} as one size greater for the purpose of determining the gp limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful Diplomacy check, the rogue can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful check, the rogue can also sell stolen items on the black market. If the check fails by 5 or more, the rogue does something to spook the market, and treats the city as normal for 1 week. Furthermore, those in control of the black market may alert the authorities to the rogue's presence in an act of reprisal for spooking the market or to divert attention away from their illicit activities. The DCs of the checks are by settlement size and are given in the table below.",
 			"",
 			"| Community Size | DC |",
 			"| :---: | :---: |",
@@ -610,7 +611,7 @@
 		"compilationSources": [ [ "Ranged Tactics Toolbox", 7 ] ],
 		"category": "Other Magic-Related Talents",
 		"description": [
-			"**Rogue Only:** A rogue with this talent can make a number of bombs per day equal to her Intelligence modifier (minimum 1). These bombs act as {class/alchemist/'s} bombs, except they deal damage equal to the damage dealt by the rogue's sneak attack (the rogue doesn't add her Intelligence modifier to this damage)."
+			"**Rogue Only:** A rogue with this talent can make a number of bombs per day equal to her Intelligence modifier (minimum 1). These bombs act as {class/alchemist/'s} bombs, except they deal damage equal to the damage dealt by the rogue's {ability/sneak attack} (the rogue doesn't add her Intelligence modifier to this damage)."
 		]
 	},
 	"bombers_discovery": {
@@ -620,7 +621,7 @@
 		"category": "Other Magic-Related Talents",
 		"level": 1,
 		"description": [
-			"**Rogue Only:** A rogue with this talent gains an alchemist's discovery that modifies a bomb. A rogue must have the bomber rogue talent to select this talent."
+			"**Rogue Only:** A rogue with this talent gains an alchemist's {ability/discover/y>ies} that modifies a bomb. A rogue must have the {talent/bomber} rogue talent to select this talent."
 		]
 	},
 	"eldritch_conduit": {
@@ -638,7 +639,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 44 ] ],
 		"category": "Other Magic-Related Talents",
 		"description": [
-			"A rogue with this talent is familiar enough with enchantment magic to fool it, using spellcasters' complacency to set them up for a surprise attack. Whenever she succeeds at a saving throw against an enchantment effect, the rogue learns the spell's effect on a failed save, allowing her to play along and pretend to have failed her save. If she does so, the spellcaster does not learn that she succeeded at her saving throw, even if she was the only target, though she must succeed at an opposed Bluff check against a spellcaster's Sense Motive check to determine whether she is under the enchantment's effects. While this ruse is in place, the spellcaster is flat-footed against the rogue's first attack. If the spellcaster sees the rogue perform (or fail to perform) an action that would be impossible if she were under the enchantment's effect, he automatically discovers her ruse."
+			"A rogue with this talent is familiar enough with enchantment magic to fool it, using spellcasters' complacency to set them up for a surprise attack. Whenever she succeeds at a saving throw against an enchantment effect, the rogue learns the spell's effect on a failed save, allowing her to play along and pretend to have failed her save. If she does so, the spellcaster does not learn that she succeeded at her saving throw, even if she was the only target, though she must succeed at an opposed Bluff check against a spellcaster's Sense Motive check to determine whether she is under the enchantment's effects. While this ruse is in place, the spellcaster is {rule/flat-footed} against the rogue's first attack. If the spellcaster sees the rogue perform (or fail to perform) an action that would be impossible if she were under the enchantment's effect, he automatically discovers her ruse."
 		]
 	},
 	"grig_jig": {
@@ -647,7 +648,7 @@
 		"compilationSources": [ [ "The Harrow Handbook", 20 ] ],
 		"category": "Other Magic-Related Talents",
 		"description": [
-			"**Rogue Only:** Once per day, the rogue can weave a bit of old Varisian magic into her footwork, dancing with an infectious passion that compels another nearby to join in. The rogue can target one humanoid within 30 feet and attempt a Perform (dance) check as a full-round action that does not provoke an attack of opportunity. Her target must succeed at a Will save (DC equal to the rogue's Perform [dance] or it begins to dance uncontrollably. So long as the rogue continues to spend a full-round action dancing each round, the affected target does so as well. If the target is attacked or otherwise in immediate danger while dancing, the effect ends. Each round on its turn, the target can attempt an Acrobatics or Perform (dance) check or a Will save (target's choice) against the rogue's Perform (dance) check to end the effect. A target who resists the jig can not be affected by the same rogue's jig for 24 hours. The grig jig is a mind-affecting effect. The rogue must have an Intelligence score of at least 12 to select this talent. A rogue can use this ability once per day, plus one additional time per day for every 5 rogue levels she possesses."
+			"**Rogue Only:** Once per day, the rogue can weave a bit of old Varisian magic into her footwork, dancing with an infectious passion that compels another nearby to join in. The rogue can target one humanoid within 30 feet and attempt a Perform (dance) check as a full-round action that does not provoke an attack of opportunity. Her target must succeed at a Will save (DC equal to the rogue's Perform [dance]) or it begins to dance uncontrollably. So long as the rogue continues to spend a full-round action dancing each round, the affected target does so as well. If the target is attacked or otherwise in immediate danger while dancing, the effect ends. Each round on its turn, the target can attempt an Acrobatics or Perform (dance) check or a Will save (target's choice) against the rogue's Perform (dance) check to end the effect. A target who resists the jig can not be affected by the same rogue's jig for 24 hours. The grig jig is a mind-affecting effect. The rogue must have an Intelligence score of at least 12 to select this talent. A rogue can use this ability once per day, plus one additional time per day for every 5 rogue levels she possesses."
 		]
 	},
 	"scry_slip": {
@@ -656,7 +657,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 27 ] ],
 		"category": "Other Magic-Related Talents",
 		"description": [
-			"Whenever a rogue with this talent is targeted by a scrying effect that allows a Will save, the caster of the divination must succeed at a caster level check (DC = 15 + the rogue's class level). This talent wards the rogue and any objects she is holding or carrying. An investigator can select this talent in place of an investigator talent."
+			"Whenever a rogue with this talent is targeted by a scrying effect that allows a Will save, the caster of the divination must succeed at a caster level check (DC = 15 + the rogue's class level). This talent wards the rogue and any objects she is holding or carrying."
 		]
 	},
 	"scrying_familiarity": {
@@ -694,7 +695,7 @@
 		"compilationSources": [ [ "Cohorts and Companions", 27 ] ],
 		"category": "Ally-Related Talents",
 		"description": [
-			"**Rogue Only:** You can expend an attack of opportunity to perform an aid another action to assist an adjacent ally's Acrobatics check, so long as he makes the check as part of movement that passes through your space or an adjacent space. Additionally, whenever you use the aid another action to assist an ally in making an Acrobatics check and you succeed, your ally gains a +1 dodge bonus to AC against attacks of opportunity caused when he moves out of or within a threatened area, until the end of his turn."
+			"**Rogue Only:** You can expend an attack of opportunity to perform an {rule/aid another} action to assist an adjacent ally's Acrobatics check, so long as he makes the check as part of movement that passes through your space or an adjacent space. Additionally, whenever you use the aid another action to assist an ally in making an Acrobatics check and you succeed, your ally gains a +1 dodge bonus to AC against attacks of opportunity caused when he moves out of or within a threatened area, until the end of his turn."
 		]
 	},
 	"assault_leader": {
@@ -712,7 +713,7 @@
 		"compilationSources": [ [ "Cohorts and Companions", 27 ] ],
 		"category": "Ally-Related Talents",
 		"description": [
-			"**Rogue Only:** Once per round as an immediate action, you may expend an attack of opportunity to attempt an aid another check to improve an ally's attack. You and your ally must both be flanking the same opponent. This counts as an attack of opportunity."
+			"**Rogue Only:** Once per round as an immediate action, you may expend an attack of opportunity to attempt an {rule/aid another>_2} check to improve an ally's attack. You and your ally must both be flanking the same opponent. This counts as an attack of opportunity."
 		]
 	},
 	"heads_up": {
@@ -730,7 +731,7 @@
 		"compilationSources": [ [ "Champions of Purity", 25 ] ],
 		"category": "Ally-Related Talents",
 		"description": [
-			"**Rogue Only:** A rogue who makes a successful Reflex save against an area effect can ignore the benefits of her evasion ability to shield an adjacent ally against the effect, essentially halving the damage that ally would normally take. A rogue with {talent/improved evasion} can attempt a secondary save against her ally's damage. If the save is successful, neither she nor her ally takes any damage. A rogue must have evasion in order to select this talent, and she must have improved evasion to benefit from the secondary effect."
+			"**Rogue Only:** A rogue who makes a successful Reflex save against an area effect can ignore the benefits of her {ability/evasion} ability to shield an adjacent ally against the effect, essentially halving the damage that ally would normally take. A rogue with {talent/improved evasion} can attempt a secondary save against her ally's damage. If the save is successful, neither she nor her ally takes any damage. A rogue must have evasion in order to select this talent, and she must have improved evasion to benefit from the secondary effect."
 		]
 	},
 	"shove_aside": {
@@ -775,7 +776,7 @@
 		"compilationSources": [ [ "Elemental Master's Handbook", 9 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"The rogue treats soft cover granted by creatures of her size or larger as though it were cover instead. Cover the rogue gains from this talent does not allow her to attempt Stealth checks."
+			"The rogue treats soft cover granted by creatures of her size or larger as though it were {rule/cover} instead. Cover the rogue gains from this talent does not allow her to attempt Stealth checks."
 		]
 	},
 	"combat_swipe": {
@@ -831,7 +832,7 @@
 		"compilationSources": [ [ "Inner Sea Combat", 16 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"**Rogue Only:** A rogue with this talent can, as an immediate action, attempt an Escape Artist check in place of a Reflex saving throw against any effect that would impose the entangled condition on her. Additionally, once per day when she is the target of a grapple combat maneuver, a rogue with this talent can attempt an Escape Artist check as an immediate action, using the result of the skill check in place of her CMD against that combat maneuver attempt. A rogue can use this second ability one additional time per day for every 5 rogue levels she possesses. A rogue must be trained in Escape Artist to select this talent."
+			"**Rogue Only:** A rogue with this talent can, as an immediate action, attempt an Escape Artist check in place of a Reflex saving throw against any effect that would impose the {rule/entangled} condition on her. Additionally, once per day when she is the target of a grapple combat maneuver, a rogue with this talent can attempt an Escape Artist check as an immediate action, using the result of the skill check in place of her CMD against that combat maneuver attempt. A rogue can use this second ability one additional time per day for every 5 rogue levels she possesses. A rogue must be trained in Escape Artist to select this talent."
 		]
 	},
 	"false_attacker": {
@@ -849,7 +850,7 @@
 		"compilationSources": [ [ "Blood of Shadows", 8 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"A rogue with this talent can feint in combat using a ranged weapon against a target within 30 feet and cause the opponent to lose his Dexterity modifier against her next melee or ranged attack. The rogue must have {rule/concealment} (but not full concealment) from the target of the feint."
+			"A rogue with this talent can {skill/feint) in combat using a ranged weapon against a target within 30 feet and cause the opponent to lose his Dexterity modifier against her next melee or ranged attack. The rogue must have {rule/concealment} (but not full concealment) from the target of the feint."
 		]
 	},
 	"finesse_rogue": {
@@ -876,7 +877,7 @@
 		"category": "Combat Talents",
 		"level": 1,
 		"description": [
-			"A rogue with this talent gains the {feat/Amateur Gunslinger} feat and one {main/feats_<grit/ feat} of her choice. She must fulfill the prerequisites of the grit feat in order to choose it. A rogue must have the firearm training talent before choosing this one."
+			"A rogue with this talent gains the {feat/Amateur Gunslinger} feat and one {main/feats_<grit/ feat} of her choice. She must fulfill the prerequisites of the grit feat in order to choose it. A rogue must have the `firearm training` talent before choosing this one."
 		]
 	},
 	"flying_stunt": {
@@ -912,7 +913,7 @@
 		"compilationSources": [ [ "Blood of Shadows", 8 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"When a rogue with this talent successfully demoralizes an opponent using the Intimidate skill or performs a successful feint against an opponent, the opponent loses any morale bonuses and cannot benefit from any morale bonuses for 1d4+1 rounds."
+			"When a rogue with this talent successfully demoralizes an opponent using the Intimidate skill or performs a successful {skill/feint} against an opponent, the opponent loses any morale bonuses and cannot benefit from any morale bonuses for 1d4+1 rounds."
 		]
 	},
 	"positioning_attack": {
@@ -930,7 +931,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 68 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"Once per day, a rogue with this ability can gain a number of temporary hit points equal to the rogue's level. Activating this ability is an immediate action that can only be performed when she is brought to below 0 hit points. This ability can be used to prevent her from dying. These temporary hit points last for 1 minute. If the rogue's hit points drop below 0 due to the loss of these temporary hit points, she falls unconscious and is dying as normal."
+			"Once per day, a rogue with this ability can gain a number of temporary hit points equal to the rogue's level. Activating this ability is an immediate action that can only be performed when she is brought to below 0 hit points. This ability can be used to prevent her from dying. These temporary hit points last for 1 minute. If the rogue's hit points drop below 0 due to the loss of these temporary hit points, she falls unconscious and is {misc/dying} as normal."
 		]
 	},
 	"rogue_crawl": {
@@ -939,7 +940,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 68 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"**Rogue Version:** While prone, a rogue with this ability can move at half speed. This movement provokes attacks of opportunity as normal. A rogue with this talent can take a 5-foot step while crawling.",
+			"**Rogue Version:** While {rule/prone}, a rogue with this ability can move at half speed. This movement provokes attacks of opportunity as normal. A rogue with this talent can take a 5-foot step while crawling.",
 			"",
 			"**Unchained Rogue Version:** While prone, a rogue with this ability can move at half speed. This movement provokes attacks of opportunity as normal. A rogue with this talent can take a 5-foot step while crawling and she reduces her attack roll and AC penalties for being prone by 2."
 		]
@@ -979,7 +980,7 @@
 		"compilationSources": [ [ "Inner Sea Combat", 16 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"**Rogue Only:** When benefiting from concealment, a rogue with this talent can forgo an attack of opportunity to attempt a Stealth check against the provoking opponent's CMD. Success allows the rogue to treat her opponent as flat-footed against the rogue's first melee attack before the end of her next turn. Using this ability does not count against the rogue's available attacks of opportunity for the round. A rogue must be trained in Stealth to select this talent."
+			"**Rogue Only:** When benefiting from {rule/concealment}, a rogue with this talent can forgo an attack of opportunity to attempt a Stealth check against the provoking opponent's CMD. Success allows the rogue to treat her opponent as {rule/flat-footed} against the rogue's first melee attack before the end of her next turn. Using this ability does not count against the rogue's available attacks of opportunity for the round. A rogue must be trained in Stealth to select this talent."
 		]
 	},
 	"superior_sniper": {
@@ -1004,7 +1005,7 @@
 		"compilationSources": [ [ "Blood of Shadows", 8 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"A rogue who selects this talent gains {feat/Improved Dirty Trick} as a bonus feat, even if she does not meet the prerequisites. At 6th level, she is treated as if she meets all the prerequisites for {feat/Greater Dirty Trick} (although she must take the feat as normal). If she succeeds in giving her target the blinded condition, the target cannot remove the condition during the first round of blindness."
+			"A rogue who selects this talent gains {feat/Improved Dirty Trick} as a bonus feat, even if she does not meet the prerequisites. At 6th level, she is treated as if she meets all the prerequisites for {feat/Greater Dirty Trick} (although she must take the feat as normal). If she succeeds in giving her target the {misc/blinded} condition, the target cannot remove the condition during the first round of blindness."
 		]
 	},
 	"weapon_training": {
@@ -1021,7 +1022,7 @@
 		"compilationSources": [ [ "Ranged Tactics Toolbox", 7 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"**Rogue Only:** When the rogue successfully uses evasion or {talent/improved evasion} to avoid taking damage, she can attempt to hide as an immediate action. The rogue attempts a Stealth check with a -20 penalty, but gains a +1 bonus on her check for every die of damage the avoided attack would have dealt. The rogue can attempt this check even while being observed, as long as she has {rule/cover} or {rule/concealment} or an ability that allows her to use the Stealth skill while being observed without cover or concealment."
+			"**Rogue Only:** When the rogue successfully uses {ability/evasion} or {talent/improved evasion} to avoid taking damage, she can attempt to hide as an immediate action. The rogue attempts a Stealth check with a -20 penalty, but gains a +1 bonus on her check for every die of damage the avoided attack would have dealt. The rogue can attempt this check even while being observed, as long as she has {rule/cover} or {rule/concealment} or an ability that allows her to use the Stealth skill while being observed without cover or concealment."
 		]
 	},
 	"canny_observer": {
