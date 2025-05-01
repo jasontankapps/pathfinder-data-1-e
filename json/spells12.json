@@ -1604,7 +1604,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** no",
 			"",
-			"You strengthen the bond between your divine bond weapon and its celestial spirit. The weapon gains the ghost touch property. You may change your weapon's damage type (bludgeoning, piercing, slashing) as a swift action. You gain a sacred bonus to your CMD against disarm and sunder attacks directed at your bonded weapon; this bonus is equal to half your caster level."
+			"You strengthen the bond between your divine bond weapon and its celestial spirit. The weapon gains the {magic-enh/ghost touch} property. You may change your weapon's damage type (bludgeoning, piercing, slashing) as a swift action. You gain a sacred bonus to your CMD against disarm and sunder attacks directed at your bonded weapon; this bonus is equal to half your caster level."
 		]
 	},
 	"blade_of_dark_triumph": {
@@ -1622,7 +1622,7 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** no",
 			"",
-			"You strengthen the bond between your fiendish boon weapon and its unholy spirit. The weapon gains the ghost touch property. You may change your weapon's damage type (bludgeoning, piercing, slashing) as a swift action. You gain a profane bonus to your CMD against disarm and sunder attacks directed at your boon weapon; this bonus is equal to half your caster level."
+			"You strengthen the bond between your fiendish boon weapon and its unholy spirit. The weapon gains the {magic-enh/ghost touch} property. You may change your weapon's damage type (bludgeoning, piercing, slashing) as a swift action. You gain a profane bonus to your CMD against disarm and sunder attacks directed at your boon weapon; this bonus is equal to half your caster level."
 		]
 	},
 	"blade_of_light": {
@@ -1640,7 +1640,7 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell infuses a weapon with pure sunlight (the weapon need not be a bladed weapon). A weapon enhanced by this spell sheds light as if {spell/daylight} had been cast on it. It functions as a magic and good weapon for the purposes of overcoming damage reduction. The weapon grants a +2 sacred bonus on attack rolls against undead and deals +1d6 points of damage on a successful hit against such foes; against incorporeal undead, it functions as if it had the {magic-enh/ghost touch>_w} weapon special ability. The weapon automatically confirms critical hits against foes that are vulnerable to sunlight."
+			"This spell infuses a weapon with pure sunlight (the weapon need not be a bladed weapon). A weapon enhanced by this spell sheds light as if {spell/daylight} had been cast on it. It functions as a magic and good weapon for the purposes of overcoming damage reduction. The weapon grants a +2 sacred bonus on attack rolls against undead and deals +1d6 points of damage on a successful hit against such foes; against incorporeal undead, it functions as if it had the {magic-enh/ghost touch} weapon special ability. The weapon automatically confirms critical hits against foes that are vulnerable to sunlight."
 		]
 	},
 	"blade_snare": {

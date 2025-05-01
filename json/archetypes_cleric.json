@@ -480,7 +480,7 @@
 			">",
 			">*Forgemaster's Blessing:* The inscribed nonmagical item functions as a masterwork item.",
 			">",
-			">*Ghostglyph\\*:* The inscribed weapon, shield, or armor gains the ghost touch ([armor](magic-enh/ghost_touch) or {magic-enh/ghost_touch_<weapon}) special ability. The forgemaster must be at least 4th level before learning this rune.",
+			">*Ghostglyph\\*:* The inscribed weapon, shield, or armor gains the ghost touch ({magic-enh/ghost_touch_<armor} or {magic-enh/ghost_touch_<weapon}) special ability. The forgemaster must be at least 4th level before learning this rune.",
 			">",
 			">*Glowglyph:* The inscribed item sheds light as a torch. As a standard action, the bearer can command the rune to erupt in a burst of light as a shield with the {magic-enh/blinding} special ability with a burst radius of 5 feet per glowglyph rune inscribed on the item. This expends all glowglyph runes on the item.",
 			">",

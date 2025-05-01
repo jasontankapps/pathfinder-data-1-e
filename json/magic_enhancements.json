@@ -1311,10 +1311,10 @@
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/etherealness}; **Price** +3 bonus",
 			"",
-			"See also: {magic-enh/ghost touch w/eapon enhancement}"
+			"See also: {magic-enh/ghost touch weapon/ enhancement}"
 		]
 	},
-	"ghost_touch": { "copyof": "ghost_touch_armor" },
+	"ghost_touch_a": { "copyof": "ghost_touch_armor" },
 	"invulnerability": {
 		"name": "Invulnerability",
 		"sources": [
@@ -3059,7 +3059,7 @@
 			"See also: {magic-enh/ghost touch armor/ enhancement}"
 		]
 	},
-	"ghost_touch_w": { "copyof": "ghost_touch_weapon" },
+	"ghost_touch": { "copyof": "ghost_touch_weapon" },
 	"grayflame": {
 		"name": "Grayflame",
 		"sources": [
