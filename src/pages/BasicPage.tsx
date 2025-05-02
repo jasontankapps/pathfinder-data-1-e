@@ -162,7 +162,17 @@ const doFocus = (
 	});
 };
 
-const $obj: { [key: string]: HTMLIonContentElement | null } = {};
+type ElementRef = (node: HTMLIonContentElement | null) => void;
+
+const useElement = (): [HTMLIonContentElement | null, ElementRef] => {
+	const [el, setEl] = useState<HTMLIonContentElement | null>(null);
+	const ref: ElementRef = useCallback((node: HTMLIonContentElement | null) => {
+		if(node && node !== el) {
+			setEl(node);
+		}
+	}, []);
+	return [el, ref];
+};
 
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const {
@@ -194,36 +204,31 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const [numberOfTextsFound, setNumberOfTextsFound] = useState<number>(0);
 	const [markers, setMarkers] = useState<(HTMLElement| HTMLElement[])[]>([]);
 	const [highlightedText, setHighlightedText] = useState<number>(-1);
-
-	const refContentObj = useCallback((node: HTMLIonContentElement|null) => {
-		if(node && (node !== $obj[pageId])) {
-			$obj[pageId] = node;
-		}
-	}, []);
-
+	const [contentObject, refContentObject] = useElement();
 	const [path] = useLocation();
+
 	useEffect(() => {
 		debounce(() => {
-			if($obj[pageId]) {
+			if(contentObject) {
 				// Stop this scroll event from triggering other scroll events
 				freezeDebounce(pageId);
 				// Do the scrolling
-				$obj[pageId].scrollToPoint(0, storedPos);
+				contentObject.scrollToPoint(0, storedPos);
 				setGoToTopFlag(storedPos < 200);
 			}
 		}, pageId + "/enter", 10);
-	}, [path, pageId]);
+	}, [path, pageId, contentObject]);
 	useEffect(() => {
-		scrollHook && scrollHook($obj[pageId]);
-	}, [scrollHook, pageId]);
+		scrollHook && scrollHook(contentObject);
+	}, [scrollHook, pageId, contentObject]);
 	const onScroll = useCallback((event: ScrollCustomEvent) => {
 		debounce(() => dispatch(setPosition({id: pageId, pos: event.detail.scrollTop})), pageId);
-		if (hasJL && $obj[pageId] && ((event.detail.scrollTop < 200) !== goToTopFlag)) {
+		if (hasJL && contentObject && ((event.detail.scrollTop < 200) !== goToTopFlag)) {
 			setGoToTopFlag(!goToTopFlag);
 		}
 	}, [pageId, dispatch, goToTopFlag, setGoToTopFlag]);
 	const goToTop = useCallback(
-		() => ($obj[pageId] && $obj[pageId].scrollToTop(500)),
+		() => (contentObject && contentObject.scrollToTop(500)),
 		[pageId]
 	);
 	const [isMatch] = error ? [true] : useRoute(pageId);
@@ -317,7 +322,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				notBookmarkable={notBookmarkable}
 				extraButton={extraButton}
 			/>
-			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={refContentObj}>
+			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={refContentObject}>
 				{hideSources ?
 					<></>
 				:

@@ -77,7 +77,7 @@ const parseArrayInput = (data: unknown[], cat: number): [true, BG[]] | [false, s
 				etc.length > 0
 				|| typeof link !== "string"
 				|| typeof title !== "string"
-				|| !(link === universalBookmarkDividerId || doesPageExist(link))
+				|| !(title === universalBookmarkDividerId || doesPageExist(link))
 			) {
 				msg = error + ".3 Malformed contents in old Array import";
 				return false; // contents.every fails
@@ -86,7 +86,7 @@ const parseArrayInput = (data: unknown[], cat: number): [true, BG[]] | [false, s
 		})) {
 			return false; // data.every fails
 		} else {
-			const subset = contents.filter((pair: any) => pair[0] === universalBookmarkDividerId).map(pair => pair[1]);
+			const subset = contents.filter((pair: any) => pair[1] === universalBookmarkDividerId).map(pair => pair[1]);
 			while (subset.length > 0) {
 				const test = subset.shift()!;
 				if (subset.some(sub => sub === test)) {

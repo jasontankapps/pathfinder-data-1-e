@@ -271,7 +271,24 @@ const debounce = (fn: Function, delay: number = 300) => {
 	}, delay);
 };
 
-let $searchbar: HTMLIonSearchbarElement|null = null;
+type ElementRef = (node: HTMLIonSearchbarElement | null) => void;
+
+const useElement = (text: string): [HTMLIonSearchbarElement | null, ElementRef] => {
+	const [el, setEl] = useState<HTMLIonSearchbarElement | null>(null);
+	const ref: ElementRef = useCallback((node: HTMLIonSearchbarElement | null) => {
+		if(node) {
+			setEl(node);
+			debounce(() => {
+				node.getInputElement().then(input => {
+					if(!input.value) {
+						node.setFocus();
+					}
+				});
+			}, 100);
+		}
+	}, []);
+	return [el, ref];
+};
 
 const SearchPage: FC = () => {
 	const { searchtext = "", filter: incomingFilter = [] } = useAppSelector(state => state.search);
@@ -281,6 +298,14 @@ const SearchPage: FC = () => {
 	const [filter, setFilter] = useState<SearchIndex[]>(incomingFilter);
 	const [filterOpen, setFilterOpen] = useState<boolean>(false);
 	const [helpOpen, setHelpOpen] = useState<boolean>(false);
+
+	const [searchBar, refSearchBar] = useElement(searchtext);
+
+	searchBar && searchtext && !searchBar.value && searchBar.getInputElement().then(input => {
+		if(!input.value) {
+			input.value = searchtext;
+		}
+	});
 
 	const doFilterUpdate = useCallback(
 		(input: SearchIndex[]) => startTransition(() => setFilter(input)),
@@ -297,18 +322,6 @@ const SearchPage: FC = () => {
 		},
 		[setSearchText, dispatch]
 	);
-
-	const refSearchBar = useCallback((node: HTMLIonSearchbarElement|null) => {
-		if(node && (node !== $searchbar)) {
-			$searchbar = node;
-			node.getInputElement().then(input => {
-				input.value = searchtext;
-			});
-			debounce(() => {
-				!searchtext && node && !node.value && node.setFocus && node.setFocus();
-			}, 100);
-		}
-	}, []);
 
 	// Might want to store scroll state, too?
 

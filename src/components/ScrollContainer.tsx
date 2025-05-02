@@ -1,4 +1,4 @@
-import { FC, PropsWithChildren, UIEventHandler, useCallback } from "react";
+import { FC, PropsWithChildren, UIEventHandler, useCallback, useState } from "react";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { setPosition } from "../store/scrollSlice";
 
@@ -26,12 +26,29 @@ interface ScrollContainerProps {
 	id: string
 }
 
-const $wrappers: { [key: string]: HTMLDivElement } = {};
+type ElementRef<T> = (node: T | null) => void;
+
+const useElement = <T extends Element>(id: string, xPos: number, yPos: number): ElementRef<T> => {
+	const [el, setEl] = useState<T | null>(null);
+	const ref: ElementRef<T> = useCallback((node: T | null) => {
+		if(node && node !== el) {
+			setEl(node);
+			debounce(() => {
+				// Stop this scroll event from triggering other scroll events
+				freezeDebounce(id);
+				// Do the scrolling
+				node && node.scrollTo({top: yPos, left: xPos, behavior: "instant"});
+			}, "loadingscroll" + id, 100);
+		}
+	}, []);
+	return ref;
+};
 
 const ScrollContainer: FC<PropsWithChildren<ScrollContainerProps>> = (props) => {
 	const { id, children } = props;
 	const xPos = useAppSelector(state => state.scroll[`${id}-X`] || 0);
 	const yPos = useAppSelector(state => state.scroll[`${id}-Y`] || 0);
+	const ref = useElement<HTMLDivElement>(id, xPos, yPos);
 	const dispatch = useAppDispatch();
 	const onScroll: UIEventHandler<HTMLDivElement> = useCallback((event) => {
 		event.stopPropagation();
@@ -40,21 +57,8 @@ const ScrollContainer: FC<PropsWithChildren<ScrollContainerProps>> = (props) => 
 			dispatch(setPosition({id: `${id}-Y`, pos: (event.currentTarget || event.target).scrollTop}));
 		}, id);
 	}, [id, dispatch]);
-	const refWrapper = useCallback((node:HTMLDivElement|null) => {
-		if(node && id && $wrappers[id] !== node) {
-			$wrappers[id] = node;
-			if(xPos || yPos) {
-				debounce(() => {
-					// Stop this scroll event from triggering other scroll events
-					freezeDebounce(id);
-					// Do the scrolling
-					node && node.scrollTo({top: yPos, left: xPos, behavior: "instant"});
-				}, "loadingscroll" + id, 100);
-			}
-		}
-	}, []);
 	return (
-		<div className="tableWrap" onScroll={onScroll} ref={refWrapper}>{children}</div>
+		<div className="tableWrap" onScroll={onScroll} ref={ref}>{children}</div>
 	);
 };
 

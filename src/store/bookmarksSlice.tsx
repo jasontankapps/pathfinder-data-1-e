@@ -180,7 +180,7 @@ export const bookmarkSlice = createSlice({
 			const {order, db, catalog} = state;
 			const etc = {...db};
 			const group = {...db[id]};
-			group.contents = [...group.contents, [universalBookmarkDividerId, uuidv7()]];
+			group.contents = [...group.contents, [uuidv7(), universalBookmarkDividerId]];
 			etc[id] = group;
 			const newState = {
 				order,

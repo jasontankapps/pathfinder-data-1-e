@@ -124,7 +124,17 @@ type Params = { id: string };
 
 const blank: [string, string][] = [];
 
-const $inputs: { [key: string]: [HTMLIonInputElement, string] } = {};
+type ElementRef = (node: HTMLIonInputElement | null) => void;
+
+const useElement = (): [HTMLIonInputElement | null, ElementRef] => {
+	const [el, setEl] = useState<HTMLIonInputElement | null>(null);
+	const ref: ElementRef = useCallback((node: HTMLIonInputElement | null) => {
+		if(node && node !== el) {
+			setEl(node);
+		}
+	}, []);
+	return [el, ref];
+};
 
 const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const [doAlert] = useIonAlert();
@@ -141,17 +151,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const [, navigate] = useLocation();
 	const isDark = useDarkMode();
 
-	const inputRef = useCallback((node:HTMLIonInputElement|null) => {
-		if(node && id) {
-			if(!$inputs[id] || $inputs[id][0] !== node) {
-				$inputs[id] = [node, title];
-				setPossiblyUnsavedTitle(title);
-			} else if($inputs[id][1] !== title) {
-				$inputs[id][1] = title;
-				setPossiblyUnsavedTitle(title);
-			}
-		}
-	}, []);
+	const [inputElement, inputRef] = useElement();
 
 	const colors = useMemo(() => isDark ? darkColors : lightColors, [isDark]);
 	
@@ -214,7 +214,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 		if(disabled) {
 			setDisabled(false);
 			setTimeout(
-				() => $inputs[id] && $inputs[id][0].setFocus && $inputs[id][0].setFocus(),
+				() => inputElement && inputElement.setFocus(),
 				10
 			);
 			return;
@@ -231,10 +231,10 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const members = useMemo(() => {
 		return contents.map((info, position) => {
 			const [link, title] = info;
-			if(link === universalBookmarkDividerId) {
-				return <BookmarkDivider color={color} index={position} title={title} id={link} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
+			if(title === universalBookmarkDividerId) {
+				return <BookmarkDivider color={color} index={position} title={title} id={id} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
 			}
-			return <BookmarkItem id={link} index={position} title={title} doEdit={doEdit} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
+			return <BookmarkItem id={id} index={position} title={title} doEdit={doEdit} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
 		});
 	} , [contents, id, color, doEdit, dispatch, navigate]);
 
