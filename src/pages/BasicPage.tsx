@@ -1,7 +1,7 @@
 import {
 	Dispatch, FC, FormEvent, PropsWithChildren,
 	ReactElement, useCallback, useEffect,
-	useRef, useState, RefObject
+	useRef, useState
 } from 'react';
 import {
 	IonButton, IonCheckbox, IonContent, IonFab,
@@ -34,7 +34,7 @@ interface PageProps extends Partial<DisplayItemProps> {
 	notBookmarkable?: boolean
 	extraButton?: ReactElement
 	fab?: ReactElement
-	scrollHook?: (input: RefObject<HTMLIonContentElement>) => void
+	scrollHook?: (input:HTMLIonContentElement | null) => void
 }
 
 const opaque = { opacity: 1 };
@@ -162,6 +162,8 @@ const doFocus = (
 	});
 };
 
+const $obj: { [key: string]: HTMLIonContentElement | null } = {};
+
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const {
 		hasJL,
@@ -182,7 +184,6 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const dispatch = useAppDispatch();
 	const { separateWordSearch, caseSensitive, wholeWords } = useAppSelector(state => state.search)
 	const { markerRef, marker } = useMarker<HTMLDivElement>();
-	const contentObj = useRef<HTMLIonContentElement>(null);
 	const findInPageSearchbarObj = useRef<HTMLIonSearchbarElement>(null);
 	const storedPos = useAppSelector(state => state.scroll[pageId] || 0);
 	// Create state for sources modal
@@ -194,30 +195,36 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const [markers, setMarkers] = useState<(HTMLElement| HTMLElement[])[]>([]);
 	const [highlightedText, setHighlightedText] = useState<number>(-1);
 
+	const refContentObj = useCallback((node: HTMLIonContentElement|null) => {
+		if(node && (node !== $obj[pageId])) {
+			$obj[pageId] = node;
+		}
+	}, []);
+
 	const [path] = useLocation();
 	useEffect(() => {
 		debounce(() => {
-			if(contentObj && contentObj.current && contentObj.current.scrollToPoint) {
+			if($obj[pageId]) {
 				// Stop this scroll event from triggering other scroll events
 				freezeDebounce(pageId);
 				// Do the scrolling
-				contentObj.current.scrollToPoint(0, storedPos);
+				$obj[pageId].scrollToPoint(0, storedPos);
 				setGoToTopFlag(storedPos < 200);
 			}
 		}, pageId + "/enter", 10);
-	}, [contentObj, path]);
+	}, [path, pageId]);
 	useEffect(() => {
-		scrollHook && contentObj && scrollHook(contentObj);
-	}, [scrollHook]);
+		scrollHook && scrollHook($obj[pageId]);
+	}, [scrollHook, pageId]);
 	const onScroll = useCallback((event: ScrollCustomEvent) => {
 		debounce(() => dispatch(setPosition({id: pageId, pos: event.detail.scrollTop})), pageId);
-		if (hasJL && contentObj && contentObj.current && ((event.detail.scrollTop < 200) !== goToTopFlag)) {
+		if (hasJL && $obj[pageId] && ((event.detail.scrollTop < 200) !== goToTopFlag)) {
 			setGoToTopFlag(!goToTopFlag);
 		}
 	}, [pageId, dispatch, goToTopFlag, setGoToTopFlag]);
 	const goToTop = useCallback(
-		() => (contentObj && contentObj.current && contentObj.current.scrollToTop(500)),
-		[contentObj]
+		() => ($obj[pageId] && $obj[pageId].scrollToTop(500)),
+		[pageId]
 	);
 	const [isMatch] = error ? [true] : useRoute(pageId);
 	const cN = "basicContent " + (className || "simple") + (topLink ? " hasInset" : "");
@@ -310,7 +317,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				notBookmarkable={notBookmarkable}
 				extraButton={extraButton}
 			/>
-			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={contentObj}>
+			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={refContentObj}>
 				{hideSources ?
 					<></>
 				:

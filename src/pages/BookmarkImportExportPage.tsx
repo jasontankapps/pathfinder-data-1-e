@@ -1,5 +1,5 @@
 import { Clipboard } from "@capacitor/clipboard";
-import { useRef, useState, FC, RefObject, useEffect, Dispatch, ReactElement } from 'react';
+import { useRef, useState, FC, RefObject, Dispatch } from 'react';
 import { bookmark, closeCircle, close as closeIcon, copy } from 'ionicons/icons';
 import {
 	IonButton,
@@ -107,59 +107,14 @@ interface ModalProps {
 const ImportModal: FC<ModalProps> = (props) => {
 	const { db } = useAppSelector(state => state.bookmarks);
 	const { importing, close, toaster, alert } = props;
-	const [toImport, setToImport] = useState<number[]>([]);
-	const [danger, setDanger] = useState<number[]>([]);
-	const [output, setOutput] = useState<ReactElement[]>([]);
 	const dispatch = useAppDispatch();
 
-	useEffect(() => {
-		const ok: number[] = [];
-		const danger: number[] = [];
-		importing.forEach((input, i) => {
-			const [id] = input;
-			if(db[id]) {
-				danger.push(i);
-			} else {
-				ok.push(i);
-			}
-		});
-		setToImport(ok);
-		setDanger(danger);
-	}, [importing, setToImport, setDanger]);
-
-	useEffect(() => {
-		const data: ReactElement[] = [];
-		importing.forEach((input, i) => {
-			const [id, bit] = input;
-			const { color, title, contents } = bit;
-			const checked = toImport.indexOf(i) > -1;
-			const coloring = danger.indexOf(i) > -1 ? "danger" : "primary";
-			const onClick = checked ? (
-				// Uncheck
-				() => setToImport(toImport.filter(x => x !== i))
-			) : (
-				// Check
-				() => setToImport([...toImport, i])
-			);
-			const el = (
-				<IonItem key={`import-option-${id}-${title}-${color}/${contents.length}`} className={checked ? "importOption" : "importOption unselected"}>
-					<IonCheckbox justify="space-between" checked={checked} onClick={onClick} color={coloring} labelPlacement="start">
-						<div className="importBit">
-							<div className="icon">
-								<IonIcon icon={bookmark} className={`color-${color}`} />
-							</div>
-							<div className="text">
-								<div><strong>Title:</strong> {title}</div>
-								<div><strong>Number of Bookmarks:</strong> {contents.length}</div>
-							</div>
-						</div>
-					</IonCheckbox>
-				</IonItem>
-			);
-			data.push(el);
-		});
-		setOutput(data);
-	}, [importing, setOutput, danger, toImport]);
+	const [toImport, setToImport] = useState<number[]>(
+		importing.map((input, i) => { const [id] = input; return db[id] ? null : i; }).filter(x => x !== null)
+	);
+	const danger = (
+		importing.map((input, i) => { const [id] = input; return db[id] ? i : null; }).filter(x => x !== null)
+	);
 
 	const maybeImport = () => {
 		const [toast, closeToast] = toaster;
@@ -232,7 +187,35 @@ const ImportModal: FC<ModalProps> = (props) => {
 			<IonContent>
 				<IonList lines="full">
 					<IonItemDivider>Choose What to Import</IonItemDivider>
-					{output}
+					{importing.map((input, i) => {
+						const [id, bit] = input;
+						const { color, title, contents } = bit;
+						const checked = toImport.indexOf(i) > -1;
+						const coloring = danger.indexOf(i) > -1 ? "danger" : "primary";
+						const onClick = checked ? (
+							// Uncheck
+							() => setToImport(toImport.filter(x => x !== i))
+						) : (
+							// Check
+							() => setToImport([...toImport, i])
+						);
+						console.log(color, title, JSON.stringify(contents));
+						return (
+							<IonItem key={`import-option-${id}-${title}-${color}/${contents.length}`} className={checked ? "importOption" : "importOption unselected"}>
+								<IonCheckbox justify="space-between" checked={checked} onClick={onClick} color={coloring} labelPlacement="start">
+									<div className="importBit">
+										<div className="icon">
+											<IonIcon icon={bookmark} className={`color-${color}`} />
+										</div>
+										<div className="text">
+											<div><strong>Title:</strong> {title}</div>
+											<div><strong>Bookmarks:</strong> {contents.length}</div>
+										</div>
+									</div>
+								</IonCheckbox>
+							</IonItem>
+						);
+					})}
 				</IonList>
 			</IonContent>
 			<IonFooter>
@@ -258,7 +241,6 @@ const ImportModal: FC<ModalProps> = (props) => {
 const BookmarksImportExportPage: FC = () => {
 	const { db, order } = useAppSelector(state => state.bookmarks);
 	const [selected, setSelected] = useState<string[]>([]);
-	const [output, setOutput] = useState<string>("");
 	const [importing, setImporting] = useState<Pair[]>([]);
 	const exportRef = useRef<HTMLIonTextareaElement>(null);
 	const importRef = useRef<HTMLIonTextareaElement>(null);
@@ -267,14 +249,22 @@ const BookmarksImportExportPage: FC = () => {
 	const exportable = order
 		.filter(c => db[c].title.toLowerCase() !== c || db[c].contents.length > 0);
 
-	useEffect(() => {
-		const output: {[key: string]: BG} = {};
-		selected.forEach(id => {
-			const {hidden, ...obj} = db[id]
-			output[id] = obj;
-		});
-		setOutput(selected.length ? JSON.stringify(output) : "");
-	}, [selected, setOutput]);
+	const toggleSelected = (toggling: string) => {
+		if(exportRef && exportRef.current) {
+			const newSelected = toggle(toggling, selected);
+			if(newSelected.length) {
+				const temp: {[key: string]: BG} = {};
+				toggle(toggling, selected).forEach(id => {
+					const {hidden, ...obj} = db[id]
+					temp[id] = obj;
+				});
+				exportRef.current.value = JSON.stringify(temp);
+			} else {
+				exportRef.current.value = "";
+			}
+			setSelected(newSelected);
+		}
+	};
 
 	const doClose = () => {
 		setImporting([]);
@@ -301,7 +291,7 @@ const BookmarksImportExportPage: FC = () => {
 							<IonItem key={`export-bookmark-option-${id}`} className={`color-${color}`}>
 								<IonToggle
 									checked={selected.indexOf(id) > -1}
-									onClick={() => setSelected(toggle(id, selected))}
+									onClick={() => toggleSelected(id)}
 									labelPlacement="start"
 									justify="space-between"
 								>
@@ -317,7 +307,7 @@ const BookmarksImportExportPage: FC = () => {
 					autoGrow
 					labelPlacement="stacked"
 					ref={exportRef}
-					value={output}
+					defaultValue=""
 					readonly
 				/>
 				<IonButton size="small" color="tertiary" onClick={() => clip(toaster, exportRef)}>

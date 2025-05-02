@@ -5,10 +5,8 @@ import {
 	FormEvent,
 	PropsWithChildren,
 	useCallback,
-	useEffect,
 	useState,
-	useTransition,
-	useRef
+	useTransition
 } from 'react';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList } from 'react-window';
@@ -39,7 +37,6 @@ import {
 	filter as filterIcon,
 	helpCircle
 } from 'ionicons/icons';
-import { useLocation } from 'wouter';
 import { RangeInSliceFormat } from '../types';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
@@ -274,21 +271,21 @@ const debounce = (fn: Function, delay: number = 300) => {
 	}, delay);
 };
 
+let $searchbar: HTMLIonSearchbarElement|null = null;
+
 const SearchPage: FC = () => {
 	const { searchtext = "", filter: incomingFilter = [] } = useAppSelector(state => state.search);
 	const dispatch = useAppDispatch();
-	const [initialized, setInitialized] = useState(false);
 	const [searchText, setSearchText] = useState<string>(searchtext);
 	const [isPending, startTransition] = useTransition();
 	const [filter, setFilter] = useState<SearchIndex[]>(incomingFilter);
 	const [filterOpen, setFilterOpen] = useState<boolean>(false);
 	const [helpOpen, setHelpOpen] = useState<boolean>(false);
 
-	const doFilterUpdate = (input: SearchIndex[]) => startTransition(() => setFilter(input));
-
-	const ref = useRef<HTMLIonSearchbarElement>(null);
-
-	const [path] = useLocation();
+	const doFilterUpdate = useCallback(
+		(input: SearchIndex[]) => startTransition(() => setFilter(input)),
+		[setFilter, startTransition]
+	);
 
 	const onInput = useCallback(
 		(input: FormEvent<HTMLIonSearchbarElement>) => {
@@ -301,24 +298,17 @@ const SearchPage: FC = () => {
 		[setSearchText, dispatch]
 	);
 
-	useEffect(() => {
-		if (!initialized && ref && ref.current) {
-			debounce(() => {
-				!searchtext && ref && ref.current && !ref.current.value && ref.current.setFocus && ref.current.setFocus();
-				if(ref && ref.current) {
-					if(searchtext) {
-						ref.current.value = searchtext;
-					} else if (!ref.current.value && ref.current.setFocus) {
-						ref.current.setFocus();
-					}
-				}
-			}, 10);
-			ref.current.getInputElement().then(input => {
-				setInitialized(true);
+	const refSearchBar = useCallback((node: HTMLIonSearchbarElement|null) => {
+		if(node && (node !== $searchbar)) {
+			$searchbar = node;
+			node.getInputElement().then(input => {
 				input.value = searchtext;
 			});
+			debounce(() => {
+				!searchtext && node && !node.value && node.setFocus && node.setFocus();
+			}, 100);
 		}
-	}, [ref, initialized, setInitialized, searchtext]);
+	}, []);
 
 	// Might want to store scroll state, too?
 
@@ -327,7 +317,7 @@ const SearchPage: FC = () => {
 			<PageHeader title="Search" notBookmarkable>
 				<IonToolbar>
 					<IonSearchbar
-						ref={ref}
+						ref={refSearchBar}
 						inputmode="text"
 						type="text"
 						placeholder="Search for titles and topics"

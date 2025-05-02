@@ -153,7 +153,6 @@ const getStyle = (size: number | undefined) => {
 
 const Th: FC<ThProps> = ({index, sorter, sortState = true, children, active, sortable, size}) => {
 	const [ useNormalSort, setUseNormalSort ] = useState(sortState);
-	useEffect(() => setUseNormalSort(sortState), [sortState]);
 	const onClick = useCallback(() => {
 		const newDescending = active ? !useNormalSort : true;
 		sorter(index, newDescending);

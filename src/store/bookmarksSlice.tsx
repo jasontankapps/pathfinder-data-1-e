@@ -230,7 +230,7 @@ export const bookmarkSlice = createSlice({
 			const { id, title } = action.payload;
 			const { order, db, catalog } = state;
 			const etc = {...db};
-			const group = etc[id];
+			const group = {...etc[id]};
 			group.title = title;
 			etc[id] = group;
 			return {

@@ -1,4 +1,4 @@
-import { FC, RefObject, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { FC, useCallback, useMemo, useState } from 'react';
 import { useParams, useLocation } from 'wouter';
 import { pencil, reorderTwo, trash, bookmark, chevronExpand, closeCircle, save } from 'ionicons/icons';
 import {
@@ -108,7 +108,12 @@ const Fab: FC<{color: Color, id: string, func: () => void}> = ({color, id, func}
 	const dispatch = useAppDispatch();
 	return (
 		<IonFab slot="fixed" horizontal="center" vertical="bottom">
-			<IonFabButton aria-label="Add Separator" size="small" color="light" onClick={() => { dispatch(addDivider(id)); func(); }}>
+			<IonFabButton
+				aria-label="Add Separator"
+				size="small"
+				color="light"
+				onClick={() => { dispatch(addDivider(id)); func(); }}
+			>
 				<IonIcon className={`color-${color}`} icon={chevronExpand} />
 			</IonFabButton>
 		</IonFab>
@@ -119,10 +124,11 @@ type Params = { id: string };
 
 const blank: [string, string][] = [];
 
-const BookmarkPage: FC<{}> = () => {
-	const { id } = useParams<Params>();
+const $inputs: { [key: string]: [HTMLIonInputElement, string] } = {};
+
+const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const [doAlert] = useIonAlert();
-	const [scrollObj, setScrollObj] = useState<RefObject<HTMLIonContentElement> | null>(null);
+	const [scrollObj, setScrollObj] = useState<HTMLIonContentElement | null>(null);
 	const data = useAppSelector(state => state.bookmarks.db[id]);
 	const {color, title, contents} = data || { color: "red", title: "(error)", contents: blank };
 
@@ -131,26 +137,33 @@ const BookmarkPage: FC<{}> = () => {
 	const [newColor, setNewColor] = useState<Color>("red");
 	const dispatch = useAppDispatch();
 	const defaultTitle = "Bookmarks";
-	const [currentTitle, setCurrentTitle] = useState(title);
+	const [possiblyUnsavedTitle, setPossiblyUnsavedTitle] = useState(title);
 	const [, navigate] = useLocation();
-	const titleInput = useRef<HTMLIonInputElement>(null);
 	const isDark = useDarkMode();
+
+	const inputRef = useCallback((node:HTMLIonInputElement|null) => {
+		if(node && id) {
+			if(!$inputs[id] || $inputs[id][0] !== node) {
+				$inputs[id] = [node, title];
+				setPossiblyUnsavedTitle(title);
+			} else if($inputs[id][1] !== title) {
+				$inputs[id][1] = title;
+				setPossiblyUnsavedTitle(title);
+			}
+		}
+	}, []);
 
 	const colors = useMemo(() => isDark ? darkColors : lightColors, [isDark]);
 	
-	const scrollHook = useCallback((input: RefObject<HTMLIonContentElement>) => {
+	const scrollHook = useCallback((input: HTMLIonContentElement | null) => {
 		setScrollObj(input);
-	}, []);
+	}, [setScrollObj]);
 	const scrollToBottom = useCallback(() => {
 		setTimeout(
-			() => scrollObj && scrollObj.current && scrollObj.current.scrollToBottom(250),
+			() => scrollObj && scrollObj.scrollToBottom(250),
 			10
 		);
 	}, [scrollObj]);
-
-	useEffect(() => {
-		setCurrentTitle(title);
-	}, [title]);
 
 	const doEdit = useCallback((current: string, position: number) => {
 		const list = document.getElementById(id + "BookmarkList") as null | HTMLIonListElement;
@@ -197,16 +210,17 @@ const BookmarkPage: FC<{}> = () => {
 		complete();
 	};
 
-	const maybeSaveTitle = () => {
+	const beginOrEndEditingtitle = () => {
 		if(disabled) {
 			setDisabled(false);
 			setTimeout(
-				() => titleInput && titleInput.current && titleInput.current.setFocus && titleInput.current.setFocus(),
-			10);
+				() => $inputs[id] && $inputs[id][0].setFocus && $inputs[id][0].setFocus(),
+				10
+			);
 			return;
 		}
 		setDisabled(true);
-		id && dispatch(renameGroup({id, title: currentTitle.trim() || defaultTitle}));
+		id && dispatch(renameGroup({id, title: possiblyUnsavedTitle.trim() || defaultTitle}));
 	};
 
 	const maybeSaveColor = useCallback((color: Color) => {
@@ -276,13 +290,13 @@ const BookmarkPage: FC<{}> = () => {
 					<IonInput
 						placeholder={`Defaults to "${defaultTitle}"`}
 						label=""
-						value={currentTitle}
+						value={possiblyUnsavedTitle}
 						inputmode="text"
 						disabled={disabled}
-						onIonInput={(e) => setCurrentTitle(e.detail.value || "")}
-						ref={titleInput}
+						onIonInput={(e) => setPossiblyUnsavedTitle(e.detail.value || "")}
+						ref={inputRef}
 					/>
-					<IonButton color="secondary" slot="end" onClick={maybeSaveTitle}>
+					<IonButton color="secondary" slot="end" onClick={beginOrEndEditingtitle}>
 						<IonLabel>{disabled ? "Edit Title" : "Save"}</IonLabel>
 					</IonButton>
 				</IonItem>
@@ -295,6 +309,11 @@ const BookmarkPage: FC<{}> = () => {
 			</IonList>
 		</BasicPage>
 	);
+};
+
+const BookmarkPage: FC<{}> = () => {
+	const { id } = useParams<Params>();
+	return <KeyedBookmarkPage id={id} key={`bookmarkpage-${id}`} />;
 };
 
 export default BookmarkPage;
