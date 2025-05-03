@@ -1,7 +1,6 @@
 import {
 	Dispatch, FC, FormEvent, PropsWithChildren,
-	ReactElement, useCallback, useEffect,
-	useRef, useState
+	ReactElement, useCallback, useEffect, useState
 } from 'react';
 import {
 	IonButton, IonCheckbox, IonContent, IonFab,
@@ -162,11 +161,11 @@ const doFocus = (
 	});
 };
 
-type ElementRef = (node: HTMLIonContentElement | null) => void;
+type ElementRef<T extends Element> = (node: T | null) => void;
 
-const useElement = (): [HTMLIonContentElement | null, ElementRef] => {
-	const [el, setEl] = useState<HTMLIonContentElement | null>(null);
-	const ref: ElementRef = useCallback((node: HTMLIonContentElement | null) => {
+const useElement = <T extends Element>(): [T | null, ElementRef<T>] => {
+	const [el, setEl] = useState<T | null>(null);
+	const ref: ElementRef<T> = useCallback((node: T | null) => {
 		if(node && node !== el) {
 			setEl(node);
 		}
@@ -194,7 +193,6 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const dispatch = useAppDispatch();
 	const { separateWordSearch, caseSensitive, wholeWords } = useAppSelector(state => state.search)
 	const { markerRef, marker } = useMarker<HTMLDivElement>();
-	const findInPageSearchbarObj = useRef<HTMLIonSearchbarElement>(null);
 	const storedPos = useAppSelector(state => state.scroll[pageId] || 0);
 	// Create state for sources modal
 	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
@@ -204,7 +202,8 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const [numberOfTextsFound, setNumberOfTextsFound] = useState<number>(0);
 	const [markers, setMarkers] = useState<(HTMLElement| HTMLElement[])[]>([]);
 	const [highlightedText, setHighlightedText] = useState<number>(-1);
-	const [contentObject, refContentObject] = useElement();
+	const [contentObject, refContentObject] = useElement<HTMLIonContentElement>();
+	const [findInPageSearchbarObj, findInPageSearchRef] = useElement<HTMLIonSearchbarElement>();
 	const [path] = useLocation();
 
 	useEffect(() => {
@@ -276,7 +275,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				});
 			}, "marking search terms");
 		}
-		input || (findInPageSearchbarObj && findInPageSearchbarObj.current && (findInPageSearchbarObj.current.value = ""));
+		input || (findInPageSearchbarObj && (findInPageSearchbarObj.value = ""));
 	}, [
 		marker, markerRef, markers, findInPageSearchbarObj,
 		setNumberOfTextsFound, setHighlightedText, setMarkers,
@@ -296,17 +295,14 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			? onInput(null)
 			: (
 				findInPageSearchbarObj
-				&& findInPageSearchbarObj.current
-				&& findInPageSearchbarObj.current.setFocus
 				&& debounce(
 					() => findInPageSearchbarObj
-						&& findInPageSearchbarObj.current
-						&& findInPageSearchbarObj.current.setFocus(),
+						&& findInPageSearchbarObj.setFocus(),
 					"setting Focus",
 					505
 				)
 			);
-	}, [searchBoxOpen, onInput, findInPageSearchbarObj, findInPageSearchbarObj.current]);
+	}, [searchBoxOpen, onInput, findInPageSearchbarObj]);
 
 	return (
 		<AnimatePresence>
@@ -376,7 +372,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 						</IonContent>
 					</IonPopover>
 					<IonSearchbar
-						ref={findInPageSearchbarObj}
+						ref={findInPageSearchRef}
 						searchIcon="/icons/find-in-page.svg"
 						placeholder="Find in page"
 						type="text"

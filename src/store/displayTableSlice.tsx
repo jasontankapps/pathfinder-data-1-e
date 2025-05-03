@@ -1,33 +1,23 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 
-export interface TableObject {
-	headers: number[]
-	rows: number[]
-	order: number[]
+export interface HiddenObject {
+	hiddencols: number[]
+	hiddenrows: number[]
 }
-export interface SortObject {
-	sortingOn: number
-	normalSort: boolean
-}
-
-interface FilterState {
-	[key: string]: TableObject
+export interface TableObject extends HiddenObject {
+	sortcol?: number | undefined
+	alpha: boolean
 }
 
-interface ActiveState {
-	[key: string]: SortObject
-}
-
-export interface DisplayTableState {
-	actives: ActiveState
-	filters: FilterState
-}
+export type DisplayTableState = { [key: string]: TableObject };
 
 // Define the initial value for the slice state
-export const initialState: DisplayTableState = {
-	actives: {},
-	filters: {}
+export const initialState: DisplayTableState = {};
+
+const tester = (test: TableObject) => {
+	const {sortcol, alpha, hiddencols, hiddenrows} = test;
+	return (sortcol === undefined && alpha && hiddencols.length === 0 && hiddenrows.length === 0);
 };
 
 // Slices contain Redux reducer logic for updating state, and
@@ -37,42 +27,50 @@ export const tableSlice = createSlice({
 	initialState,
 	// The `reducers` field lets us define reducers and generate associated actions
 	reducers: {
-		setTableFilter: (state, action: PayloadAction<{ id: string, data: TableObject }>) => {
+		setTableFilter: (state, action: PayloadAction<{ id: string, data: HiddenObject }>) => {
 			const { id, data } = action.payload;
-			const newState = {...state.filters};
-			newState[id] = data;
-			return {actives: state.actives, filters: newState};
+			const newState = {...state};
+			const newObject: TableObject = state[id] ? {...state[id], ...data} : {alpha: true, ...data};
+			if(tester(newObject)) {
+				delete newState[id];
+				return newState;
+			}
+			newState[id] = newObject;
+			return newState;
 		},
-		updateTableFilterRows: (state, action: PayloadAction<{ id: string, data: Omit<TableObject, "headers"> }>) => {
-			const { id, data } = action.payload;
-			const newState = {...state.filters};
-			const bit = state.filters[id];
-			newState[id] = {headers: bit ? bit.headers : [-1], ...data};
-			return {actives: state.actives, filters: newState};
+		setTableSortDir: (state, action: PayloadAction<{id: string, dir: boolean}>) => {
+			const { id, dir } = action.payload;
+			const newState = {...state};
+			const newObject: TableObject = state[id] ? {...state[id], alpha: dir} : {alpha: dir, hiddencols: [], hiddenrows: []};
+			if(tester(newObject)) {
+				delete newState[id];
+				return newState;
+			}
+			newState[id] = newObject;
+			return newState;
 		},
-		setTableActive: (state, action: PayloadAction<{ id: string, data: SortObject }>) => {
-			const { id, data } = action.payload;
-			const newState = {...state.actives};
-			newState[id] = data;
-			return {actives: newState, filters: state.filters};
+		setTableSortCol: (state, action: PayloadAction<{id: string, col: number | undefined}>) => {
+			const { id, col } = action.payload;
+			const newState = {...state};
+			const newObject: TableObject = state[id] ? {...state[id], sortcol: col} : {sortcol: col, alpha: true, hiddencols: [], hiddenrows: []};
+			if(tester(newObject)) {
+				delete newState[id];
+				return newState;
+			}
+			newState[id] = newObject;
+			return newState;
 		},
 		resetTables: (state, action: PayloadAction<string>) => {
 			const id = action.payload;
-			const {actives: a, filters: f} = state;
-			const actives = {...a};
-			const filters = {...f};
-			delete actives[id];
-			delete filters[id];
-			return {
-				actives,
-				filters
-			};
+			const newState = {...state};
+			delete newState[id];
+			return newState;
 		}
 	}
 });
 
 // Export the generated action creators for use in components
-export const { setTableFilter, setTableActive, updateTableFilterRows, resetTables } = tableSlice.actions;
+export const { setTableFilter, setTableSortCol, setTableSortDir, resetTables } = tableSlice.actions;
 
 // Export the slice reducer for use in the store configuration
 export default tableSlice.reducer;

@@ -5,7 +5,6 @@ import {
 	FC,
 	PropsWithChildren,
 	useCallback,
-	useEffect,
 	useMemo,
 	useState
 } from 'react';
@@ -49,11 +48,11 @@ import { Datum, Filter, RawDatum, Table, TableColumnInfoTypes } from '../types';
 import Link from './Link';
 import convertLinks, { checkForEncodedLink } from './convertLinks';
 import InnerLink from './InnerLink';
+import { AppDispatch } from '../store/store';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goTo } from '../store/historySlice';
-import { SortObject, TableObject, resetTables, setTableActive, setTableFilter, updateTableFilterRows } from '../store/displayTableSlice';
+import { resetTables, setTableFilter, setTableSortCol, setTableSortDir, TableObject } from '../store/displayTableSlice';
 import ScrollContainer from './ScrollContainer';
-import { AppDispatch } from '../store/store';
 
 type TriggerSortFunc = (index: number, useNormalSort: boolean, activeRows?: number[] | null, save?: boolean) => void;
 
@@ -138,6 +137,16 @@ const normalSort = (a: RawDatum, b: RawDatum) => {
 const reverseSort = (a: RawDatum, b: RawDatum) => {
 	// z, y, x...
 	return 0 - normalSort(a, b);
+};
+type SortableRow = [RawDatum[], number];
+const sortOnColumn = (column: number, direction: boolean) => {
+	// Returns a sort() function.
+	return (a: SortableRow, b: SortableRow) => {
+		if(direction) {
+			return normalSort(a[0][column], b[0][column]);
+		}
+		return reverseSort(a[0][column], b[0][column]);
+	};
 };
 
 const DirectionIcon: FC<{down:boolean}> = ({down}) => {
@@ -286,23 +295,19 @@ interface FilterObject {
 }
 
 type SaveFunc = (
-	headersActive: boolean[],
-	rowsActive: boolean[]
+	hiddenColumns: number[],
+	hiddenRows: number[]
 ) => void;
-
 interface FilterProps {
-	originalHeaders: string[]
-	displayedHeaders: number[]
-	originalRows: RawDatum[][]
-	displayedRows: number[]
+	headers: string[]
+	rows: SortableRow[]
+	currentHiddenRows: number[]
+	currentHiddenColumns: number[]
 	filter?: Filter[]
 	open: boolean
 	setOpen: Dispatch<boolean>
 	saveFunc: SaveFunc
 }
-
-const makeTestString = (input:boolean[]) => input.map(x => x ? "T" : "F").join("");
-
 const getLinkText = (input: string) => {
 	const m = checkForEncodedLink(input);
 	return m ? m[2] : input;
@@ -318,7 +323,7 @@ interface RowItem {
 		[key: string]: any
 	}
 	data: {
-		activeRows: boolean[]
+		rowStates: boolean[]
 		rowTitles: string[]
 	}
 }
@@ -382,30 +387,45 @@ const FilterOption: FC<{
 
 const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const {
-		originalHeaders: oh, // original headers
-		displayedHeaders: dh, // indexes of displayed headers
-		originalRows, // original rows
-		displayedRows, // indexes of displayed rows
+		headers: h,
+		rows,
+		currentHiddenRows,
+		currentHiddenColumns,
 		filter,
 		open,
 		setOpen,
 		saveFunc
 	} = props;
-	// Active Headers/Rows are arrays of true/false indicating if the element is visible or not
-	const [activeHeaders, setActiveHeaders] = useState<boolean[]>([]);
-	const [activeRows, setActiveRows] = useState<boolean[]>([]);
-	const [rowTitles, setRowTitles] = useState<string[]>([]);
-	const [testString, setTestString] = useState<string>("");
+	const [columnStates, setColumnStates] = useState<boolean[]>([]);
+	const [rowStates, setRowStates] = useState<boolean[]>([]);
+	const [modified, setModified] = useState<boolean>(false);
 	const [filterObjects, setFilterObjects] = useState<null | FilterObject[]>(null);
-	const [doAlert] = useIonAlert();
-	const [toast, closeToast] = useIonToast();
-	const originalHeaders = oh.slice(1);
-	const displayedHeaders = dh.slice(1);
-	const toggleAllHeaders = () => {
-		const which = !activeHeaders[0];
-		setActiveHeaders(originalHeaders.map(x => which));
-	};
+	const rowTitles = rows.map(sortableRow => {
+		const title = sortableRow[0][0];
+		if(Array.isArray(title)) {
+			return getLinkText(title[1]);
+		} else if (typeof title !== "string") {
+			return String(title);
+		}
+		return getLinkText(title);
+	});
+
+	const headers = h.slice(1);
+
 	const onLoad = useCallback(() => {
+		setModified(false);
+		const cols: boolean[] = [];
+		for(let x = 0; x < headers.length; x++) {
+			// headers is 1 smaller than expected, because we omit the Title (index 0)
+			cols.push(currentHiddenColumns.every(y => y !== x));
+		}
+		setColumnStates(cols);
+		const rs: boolean[] = [];
+		rows.forEach(pair => {
+			const [, i] = pair;
+			rs.push(currentHiddenRows.every(r => r !== i));
+		});
+		setRowStates(rs);
 		// Set up filters
 		if(filter) {
 			const filters: FilterObject[] = [];
@@ -420,8 +440,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					let x = min, i = 0;
 					while(x <= max) {
 						const found: number[] = [];
-						originalRows.forEach((row, i) => {
-							const test = getValue(row[col]) as number;
+						rows.forEach((row, i) => {
+							const test = getValue(row[0][col]) as number;
 							if(test === x) {
 								found.push(i);
 							}
@@ -440,8 +460,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					});
 					if(f.word) {
 						const hasRx = has.map(h => new RegExp(`\\b${h}\\b`));
-						originalRows.forEach((row, i) => {
-							const test = String(getValue(row[col]));
+						rows.forEach((row, i) => {
+							const test = String(getValue(row[0][col]));
 							hasRx.forEach((looking, j) => {
 								if(test.match(looking)) {
 									toggles[j].push(i);
@@ -449,8 +469,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 							});
 						});
 					} else {
-						originalRows.forEach((row, i) => {
-							const test = String(getValue(row[col]));
+						rows.forEach((row, i) => {
+							const test = String(getValue(row[0][col]));
 							has.forEach((looking, j) => {
 								if(test.indexOf(looking) > -1) {
 									toggles[j].push(i);
@@ -464,8 +484,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						toggles.push([]);
 						options.push(labels ? labels[i] : `${e}`)
 					});
-					originalRows.forEach((row, i) => {
-						const test = getValue(row[col]);
+					rows.forEach((row, i) => {
+						const test = getValue(row[0][col]);
 						equals.forEach((looking, j) => {
 							if(test === looking) {
 								toggles[j].push(i);
@@ -478,8 +498,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 				}
 				// Add filter to list of filters
 				const obj: FilterObject = {
-					text: `${header || oh[col]} ${how}`,
-					otherText: `${header || oh[col]} ${other}`,
+					text: `${header || headers[col]} ${how}`,
+					otherText: `${header || headers[col]} ${other}`,
 					options,
 					toggles
 				};
@@ -487,56 +507,43 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 			});
 			setFilterObjects(filters);
 		}
-		// Set up headers info
-		const finalHeaders: boolean[] = [];
-			// displayedHeaders will always be equal to or shorter than originalHeaders
-		originalHeaders.forEach((h, i) => {
-			finalHeaders.push(displayedHeaders.indexOf(i + 1) > -1);
-		});
-		setActiveHeaders(finalHeaders);
-		// Set up rows info - an array of titles and an array of booleans showing if that row is active
-		const finalRows: boolean[] = [];
-		const titles: string[] = [];
-		originalRows.forEach((r, i) => {
-			const title = r[0];
-			if(Array.isArray(title)) {
-				titles.push(getLinkText(title[1]));
-			} else if (typeof title !== "string") {
-				titles.push(String(title));
-			} else {
-				titles.push(getLinkText(title));
-			}
-			finalRows.push(displayedRows && (displayedRows.indexOf(i) > -1) ? true : false);
-		});
-		setRowTitles(titles);
-		setActiveRows(finalRows);
-		// Make something to test quickly
-		setTestString(makeTestString([...finalHeaders, ...finalRows]));
-	}, [
-		filter,
-		displayedHeaders,
-		originalHeaders,
-		originalRows,
-		displayedRows,
-		setRowTitles,
-		setActiveHeaders,
-		setActiveRows,
-		setTestString
-	]);
-	const toggleHeader = (i: number) => {
-		// Toggle the header at index `i`
-		const newHeaders = [...activeHeaders];
-		newHeaders[i] = !newHeaders[i];
-		setActiveHeaders(newHeaders);
+	}, [headers, rows, currentHiddenColumns, currentHiddenRows, filter, setFilterObjects]);
+
+	const rowVisibilityData = useMemo(() => {
+		return {rowTitles, rowStates};
+	}, [rowTitles, rowStates]);
+
+/*
+
+STATE is NOT inferred from props
+STATE is NOT computable from props and/or other state
+STATE is user input
+
+State =
+	hidden rows
+	hidden columns
+
+*/
+
+	const [doAlert] = useIonAlert();
+	const [toast, closeToast] = useIonToast();
+	const toggleAllHeaders = () => {
+		const which = !columnStates[0];
+		setColumnStates(columnStates.map(x => which));
+		setModified(true);
 	};
-	const toggleRow = (i: number) => {
-		// Toggle the row at index `i`
-		const newRows = [...activeRows];
-		newRows[i] = !newRows[i];
-		setActiveRows(newRows);
+	const toggleAllRows = (bool: boolean) => {
+		setRowStates(rowStates.map(x => bool));
+		setModified(true);
+		closeToast().then(() => toast({
+			message: `Toggled ${bool ? "ON" : "OFF"} all rows.`,
+			color: bool ? "success" : "danger",
+			duration: 2500,
+			position: "top"
+		}));
 	};
 	const maybeCancel = () => {
-		if(testString === makeTestString([...activeHeaders, ...activeRows])) {
+		if(!modified) {
 			setOpen(false);
 		} else {
 			doAlert({
@@ -556,28 +563,50 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 			});
 		}
 	};
+	const toggleHeader = (i: number) => {
+		// Toggle the header at index `i`
+		const newHeaders = [...columnStates];
+		newHeaders[i] = !newHeaders[i];
+		setColumnStates(newHeaders);
+		setModified(true);
+	};
+	const toggleRow = (i: number) => {
+		// Toggle the row at index `i`
+		const newRows = [...rowStates];
+		newRows[i] = !newRows[i];
+		setRowStates(newRows);
+		setModified(true);
+	};
+
 	const doSave = () => {
-		if(testString === makeTestString([...activeHeaders, ...activeRows])) {
+		if(!modified) {
 			// No changes to save.
 			setOpen(false);
 			return;
 		}
+		// Calculate data
+		const hiddenHeaders: number[] = [];
+		columnStates.forEach((bool, i) => {
+			if(!bool) {
+				// Hidden column
+				// Add 1 because we omit the Title (index 0) in this modal
+				hiddenHeaders.push(i + 1);
+			}
+		});
+		const hiddenRows: number[] = [];
+		rowStates.forEach((bool, i) => {
+			if(!bool) {
+				// format: [ [...row], originalRowIndex ]
+				hiddenRows.push(rows[i][1]);
+			}
+		});
 		// Save data
-		saveFunc(activeHeaders, activeRows);
+		saveFunc(hiddenHeaders, hiddenRows);
 		// Close
 		setOpen(false);
 	};
-	const toggleAllRows = (bool: boolean) => {
-		setActiveRows(activeRows.map(x => bool));
-		closeToast().then(() => toast({
-			message: `Toggled ${bool ? "ON" : "OFF"} all rows.`,
-			color: bool ? "success" : "danger",
-			duration: 2500,
-			position: "top"
-		}));
-	};
 	const toggleRows = (output: number[], text: string, value: string, bool: boolean) => {
-		const newRows = [...activeRows];
+		const newRows = [...rowStates];
 		let total = 0;
 		output.forEach(i => {
 			if(newRows[i] !== bool) {
@@ -585,7 +614,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 				total++;
 			}
 		});
-		setActiveRows(newRows);
+		setRowStates(newRows);
+		setModified(true);
 		closeToast().then(() => toast({
 			message: `Toggled ${bool ? "ON" : "OFF"} ${total} rows where ${text} ${value}.`,
 			color: bool ? "success" : "danger",
@@ -596,7 +626,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const intersectRows = (output: number[], text: string, value: string) => {
 		let total = 0;
 		let saved = 0;
-		const newRows = activeRows.map((r, i) => {
+		const newRows = rowStates.map((r, i) => {
 			if((output.indexOf(i) === -1) && r) {
 				// If this is NOT in the target output,
 				//   AND it's already on,
@@ -607,7 +637,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 			r && saved++;
 			return r;
 		});
-		setActiveRows(newRows);
+		setRowStates(newRows);
+		setModified(true);
 		closeToast().then(() => toast({
 			message: `Toggled OFF ${total} rows where ${text} ${value}, leaving ${saved} rows ON.`,
 			color: "secondary",
@@ -619,7 +650,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		<IonItem style={style} lines="full" className="itemLike">
 			<IonToggle
 				labelPlacement="start"
-				checked={data.activeRows[index]}
+				checked={rowStates[index]}
 				onIonChange={() => toggleRow(index)}
 			>{data.rowTitles[index]}</IonToggle>
 		</IonItem>
@@ -643,11 +674,11 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						</IonButton>
 					</IonItem>
 					<IonItemDivider>Table Headers</IonItemDivider>
-					{originalHeaders.map((oh, i) => (
+					{headers.map((oh, i) => (
 						<IonItem key={`head${i}/-/${oh}`}>
 							<IonToggle
 								labelPlacement="start"
-								checked={activeHeaders[i]}
+								checked={columnStates[i]}
 								onIonChange={() => toggleHeader(i)}
 							>{oh}</IonToggle>
 						</IonItem>
@@ -681,7 +712,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 							width={width}
 							itemCount={rowTitles.length}
 							itemSize={50}
-							itemData={{rowTitles, activeRows}}
+							itemData={rowVisibilityData}
 						>{Row}</FixedSizeList>
 				}</AutoSizer>
 			</IonContent>
@@ -705,19 +736,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	);
 };
 
-const makeString = (rows: RawDatum[][]) => {
-	return rows.map((row, i) => {
-		let output = "";
-		row.forEach(bit => {
-			if(Array.isArray(bit)) {
-				output = output + bit.join(',');
-			} else {
-				output = output + String(bit);
-			}
-		});
-		return output;
-	});
-};
+const noRipples: number[] = [];
 
 interface StoreErrorProps {
 	id: string
@@ -733,232 +752,150 @@ const StoreError: FC<StoreErrorProps> = (props) => {
 	);
 };
 
+const blankSortInfo: TableObject = {
+	alpha: true,
+	hiddencols: [],
+	hiddenrows: []
+};
+
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const {
 		id,
 		headers,
-		types: originalTypes,
+		types,
 		data,
 		initialColumn,
 		nullValue = "&mdash;",
-		ripples = [],
+		ripples = noRipples,
 		sortable = true,
 		filter,
 		alignments,
 		sizes
 	} = table;
+	const {sortcol, alpha, hiddencols, hiddenrows} = useAppSelector(state => state.displayTable[id] || blankSortInfo);
+	const [sortingColumn, setSortingColumn] = useState<number>(sortcol !== undefined ? sortcol : initialColumn);
+	const [sortDirection, setSortDirection] = useState<boolean>(alpha); // true = a-z, false = z-a
+	const [hiddenRows, setHiddenRows] = useState<number[]>(hiddenrows);
+	const [hiddenColumns, setHiddenColumns] = useState<number[]>(hiddencols);
+	const [open, setOpen] = useState<boolean>(false);
 	const dispatch = useAppDispatch();
-	const incomingColumnInfo: SortObject | undefined = useAppSelector(state => state.displayTable.actives[id]);
-	const incomingFilterInfo: TableObject | undefined = useAppSelector(state => state.displayTable.filters[id]);
-	const [initializedId, setInitializedId] = useState(id);
-	const [initializedColumnInfo, setInitializedColumnInfo] = useState<SortObject | undefined>(undefined);
-	const [initializedFilterInfo, setInitializedFilterInfo] = useState<TableObject | undefined>(undefined);
-	const [activeHeaders, setActiveHeaders] = useState<number[]>(headers.map((h, i) => i));
-	const [types, setTypes] = useState(originalTypes);
-	const [rows, setRows] = useState(data);
-	const [active, setActive] = useState(initialColumn);
-	const [latestSortDirection, setLatestSortDirection] = useState(true);
-	const [activeRows, setActiveRows] = useState<number[]>(data.map((x, i) => i));
-	const [open, setOpen] = useState(false);
-	const originalRowsAsStrings = makeString(data);
-	const filterModalSaveFunc: SaveFunc = (headersActive, rowsActive) => {
-		const newHeaders = [0]; // The `names` column is always shown
-		const newTypes = [originalTypes[0]];
-		headers.forEach((h, i) => {
-			if(i && headersActive[i - 1]) {
-				newHeaders.push(i);
-				newTypes.push(originalTypes[i])
-			}
-		});
-		setActiveHeaders(newHeaders);
-		setTypes(newTypes);
-		const newActiveRows: number[] = [];
-		const newRows: RawDatum[][] = [];
-		if(newHeaders.indexOf(active) === -1) {
-			// The sorted header has gone away; reset to the first column and sort
-			setActive(0);
-			dispatch(setTableActive({id, data: {sortingOn: 0, normalSort: true}}));
-			const sortedMixedData: [RawDatum[], boolean][] = rows.map((data, i) => [data, rowsActive[i]]);
-			sortedMixedData.sort((a, b) => normalSort(a[0][0], b[0][0]));
-			newActiveRows.push(
-				...(sortedMixedData.map((data, i) => [i, ...data]) as [number, RawDatum[], boolean][])
-				.filter(data => data[2])
-				.map(data => data[0])
-			);
-			newRows.push(...sortedMixedData.map(data => data[0]));
-		} else {
-			// Set active rows
-			newActiveRows.push(...rowsActive.map((r, i) => r ? i : -1).filter(r => r > -1));
-			newRows.push(...rows);
-		}
-		// If rows are blank, reset to ALL rows
-		setActiveRows(newActiveRows.length ? newActiveRows : data.map((r, i) => i));
-		setRows(newRows);
-		// Determine relative order of new rows order compared to original rows order
-		//    old [A, B, C, D, E]
-		//    new [E, B, A, D, C]
-		//    result = [4, 1, 0, 3, 2]
-		const compare = makeString(newRows);
-		const newRowPositions = compare.map(c => originalRowsAsStrings.indexOf(c));
-		// Save state
-		dispatch(setTableFilter({id, data: { headers: newHeaders, rows: newActiveRows, order: newRowPositions }}));
-	};
-	const sorter: TriggerSortFunc = useCallback((index, sortDirection, rowsToSort = activeRows, save = true) => {
-		// sorter(index: number, sortDirection: boolean)
-		//   Returns the new sortDirection (true for normal, false for reverse)
-		// This function reorganizes the rows and sets the 'active' column
-		const sortfunc = sortDirection ? normalSort : reverseSort;
-		const newAcRows: number[] = [];
-		const newRows: RawDatum[][] = [];
-		if(rowsToSort) {
-			const testRows: [boolean, RawDatum[]][] = rows.map(r => [false, r]);
-			rowsToSort.forEach(r => (testRows[r][0] = true));
-			testRows.sort((a, b) => sortfunc(a[1][index], b[1][index]));
-			testRows.forEach((r, i) => {
-				const [ flag, row ] = r;
-				flag && newAcRows.push(i);
-				newRows.push(row);
-			});
-		} else {
-			newRows.push(...rows);
-			newRows.sort((a, b) => sortfunc(a[index], b[index]));
-			newRows.forEach((m, i) => newAcRows.push(i));
-		}
-		setActiveRows(newAcRows);
-		setRows(newRows);
-		setActive(index);
-		setLatestSortDirection(sortDirection);
-		if(save) {
-			const compare = makeString(newRows);
-			const newRowPositions = compare.map(c => originalRowsAsStrings.indexOf(c));
-			dispatch(updateTableFilterRows({id, data: {rows: newAcRows, order: newRowPositions}}));
-			dispatch(setTableActive({id, data: {sortingOn: index, normalSort: sortDirection}}));
-		}
-	}, [rows, setRows, active, activeRows, setActive, dispatch]);
-	const headerItems = useMemo(() => {
-		return headers.map((th, i) => {
-			if(!th) {
-				return <StoreError id={id} dispatch={dispatch} />;
-			}
-			return <Th
-				key={`table/${id}/header/${i}`}
-				index={i}
-				sortState={i === active ? latestSortDirection : undefined}
-				active={i === active}
-				sorter={sorter}
-				sortable={sortable && (types[i] !== 0)}
-				size={sizes && sizes[i]}
-			>{th}</Th>;
-		}).filter((h, i) => (activeHeaders.indexOf(i) > -1))
-	}, [headers, activeHeaders, id, initialColumn, sorter, active, types, sortable, sizes, dispatch]);
-	const rowItems = useMemo(() => {
-		const visible = (activeRows) ? activeRows.map(n => rows[n]) : rows;
-		return visible.map((row, i) => {
-			if(!row) {
-				return <StoreError id={id} dispatch={dispatch} />;
-			}
-			const cells = row.filter((cell, j) => activeHeaders.indexOf(j) > -1).map((cell, j) => {
-				const adjustedI = activeHeaders[j];
-				const align = alignments && (alignments[adjustedI] || undefined)
-				return (ripples.indexOf(adjustedI) > -1) ?
-					<TdRouterLink
-						datum={cell === null ? nullValue : cell}
-						align={align}
-						key={`table/${id}/row/${i}/cell/link/${adjustedI}`}
-					/>
-				:
-					<Td
-						type={types[j]}
-						datum={cell === null ? nullValue : cell}
-						align={align}
-						key={`table/${id}/row/${i}/cell/${adjustedI}`}
-					/>;
-			});
-			return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
-		});
-	}, [activeRows, activeHeaders, rows, types, nullValue, id, ripples, dispatch]);
+
+	const saveFromFilter = useCallback((hiddencols: number[], hiddenrows: number[]) => {
+		setHiddenColumns(hiddencols);
+		setHiddenRows(hiddenrows);
+		dispatch(setTableFilter({id, data: {hiddencols, hiddenrows}}));
+	}, [setHiddenColumns, setHiddenRows, id]);
+
+	const sortedAndFilteredHeaders = headers
+		.map((header, i) => [header, i] as [string, number])
+		.filter(([, i]) => hiddenColumns.every(hCol => hCol !== i));
+	const {sortedRowsWithOriginalIndices, sortedAndFilteredRows} = useMemo(() => {
+		const sortedRowsWithOriginalIndices = data
+			.map((row, j) => [row, j] as SortableRow)
+			.sort(sortOnColumn(sortingColumn, sortDirection))
+			.map(([row, i]) => [row.filter((cell, i) => hiddenColumns.every(hCol => hCol !== i)), i] as SortableRow);
+		//const sortedRows = sortedRowsWithOriginalIndices
+		//	.map(([row]) => row)
+		const sortedAndFilteredRows = sortedRowsWithOriginalIndices
+			.filter(([, i]) => hiddenRows.every(hRow => hRow !== i))
+			.map(([row]) => row);
+		return {sortedRowsWithOriginalIndices, sortedAndFilteredRows};
+	}, [data, hiddenColumns, hiddenRows, sortingColumn, sortDirection]);
+		
 	const tableWidth = useMemo(() => {
 		if(!sizes) {
 			return undefined;
 		}
-		return { width: `${activeHeaders.reduce((total, i) => total + sizes[i], 0) + activeHeaders.length}rem` };
-	}, [sizes, activeHeaders]);
-	useEffect(() => {
-		// Restore saved table filters and sort status
-		if(
-			initializedId === id
-			&& initializedColumnInfo === incomingColumnInfo
-			&& initializedFilterInfo == incomingFilterInfo
-		) {
-			return;
-		}
-		if(incomingFilterInfo !== initializedFilterInfo && incomingFilterInfo) {
-			const { headers, rows, order } = incomingFilterInfo;
-			// incoming headers may be [-1], which indicates the active headers were never changed
-			if(!(headers.length && (headers[0] === -1))) {
-				setActiveHeaders(headers);
-				const newTypes = headers.map(h => originalTypes[h]);
-				setTypes(newTypes);
+		const total = sizes
+			.filter((cell, i) => hiddenColumns.every(hCol => hCol !== i))
+			.reduce((total, size) => total + size, sizes.length - hiddenColumns.length);
+		return { width: `${total}rem` };
+	}, [sizes, hiddenColumns]);
+
+	const sorter = (col: number) => {
+		return () => {
+			if(col === sortingColumn) {
+				setSortDirection(!sortDirection);
+				dispatch(setTableSortDir({id, dir: !sortDirection}));
+			} else {
+				setSortDirection(true);
+				setSortingColumn(col);
+				dispatch(setTableSortCol({id, col: col === initialColumn ? undefined : col}));
 			}
-			setActiveRows(rows);
-			const orderedRows = order.map(i => data[i]);
-			setRows(orderedRows);
-		} else {
-			setActiveHeaders(headers.map((h, i) => i));
-			setTypes(originalTypes);
-			setActiveRows(data.map((x, i) => i));
-			setRows(data);
-		}
-		if(initializedColumnInfo !== incomingColumnInfo && incomingColumnInfo) {
-			const { sortingOn, normalSort } = incomingColumnInfo;
-			setActive(sortingOn);
-			setLatestSortDirection(normalSort);
-		} else {
-			setActive(initialColumn);
-			setLatestSortDirection(true);
-		}
-		initializedId !== id && setInitializedId(id);
-		initializedColumnInfo !== incomingColumnInfo && setInitializedColumnInfo(incomingColumnInfo);
-		initializedFilterInfo !== incomingFilterInfo && setInitializedFilterInfo(incomingFilterInfo);
-	}, [
-		id, data, initializedId,
-		initializedFilterInfo, initializedColumnInfo,
-		incomingColumnInfo, incomingFilterInfo,
-		setInitializedId, setInitializedColumnInfo,
-		setInitializedFilterInfo, activeRows,
-		setActive, setActiveHeaders,
-		originalTypes, setTypes, setActiveRows
-	]);
+		};
+	};
+
+	// Only bother with a filter if we have a lot of rows or at least four headers
 	const theFilterStuff = (data.length < 10 && headers.length <= 3) ? <></> : <>
 		<DisplayTableFilterModal
-			originalHeaders={headers}
-			displayedHeaders={activeHeaders}
-			originalRows={rows}
-			displayedRows={activeRows}
+			headers={headers}
+			rows={sortedRowsWithOriginalIndices}
 			filter={filter}
 			open={open}
 			setOpen={setOpen}
-			saveFunc={filterModalSaveFunc}
+			saveFunc={saveFromFilter}
+			currentHiddenColumns={hiddenColumns}
+			currentHiddenRows={hiddenRows}
 		/>
-		<IonButton className="tableFilterButton" color="tertiary" size="small" shape="round" fill="outline" onClick={() => setOpen(true)}>
-			<IonIcon slot="icon-only" icon={filterIcon} />
-		</IonButton>
-	</>;
+			<IonButton className="tableFilterButton" color="tertiary" size="small" shape="round" fill="outline" onClick={() => setOpen(true)}>
+				<IonIcon slot="icon-only" icon={filterIcon} />
+			</IonButton>
+		</>;
+
 	return (
 		<div className="displayTable">
 			{theFilterStuff}
 			<ScrollContainer id={id}>
 				<table key={`table/${id}`} style={tableWidth}>
 					<thead>
-						<tr>{headerItems}</tr>
+						<tr>{
+							sortedAndFilteredHeaders.map((pair) => {
+								const [th, i] = pair;
+								if(!th) {
+									return <StoreError id={id} dispatch={dispatch} />;
+								}
+								return <Th
+									key={`table/${id}/header/${i}`}
+									index={i}
+									sortState={i === sortingColumn ? sortDirection : undefined}
+									active={i === sortingColumn}
+									sorter={sorter(i)}
+									sortable={sortable && (types[i] !== 0)}
+									size={sizes && sizes[i]}
+								>{th}</Th>;
+							})
+						}</tr>
 					</thead>
 					<tbody>
-						{rowItems}
+						{
+							sortedAndFilteredRows.map((row, i) => {
+								if(!row) {
+									return <StoreError id={id} dispatch={dispatch} />;
+								}
+								const cells = row.map((cell, j) => {
+									const align = alignments && (alignments[j] || undefined)
+									return (ripples.indexOf(j) > -1) ?
+										<TdRouterLink
+											datum={cell === null ? nullValue : cell}
+											align={align}
+											key={`table/${id}/row/${i}/cell/link/${j}`}
+										/>
+									:
+										<Td
+											type={types[j]}
+											datum={cell === null ? nullValue : cell}
+											align={align}
+											key={`table/${id}/row/${i}/cell/${j}`}
+										/>;
+								});
+								return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
+							})
+						}
 					</tbody>
 				</table>
 			</ScrollContainer>
 		</div>
 	);
-};
+}
 
 export default DisplayTable;

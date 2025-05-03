@@ -56,8 +56,8 @@ const migrations = {
 			}
 		}
 	},
-	11: (state: any) => {
-		const {displayTable, bookmarks, ...unchangedState} = state;
+/*	11: (state: any) => {
+		const {displayTable, ...unchangedState} = state;
 		// Reset tables that have been modified since the last update
 		const modifiedTables: string[] = [
 			"sorcerer archetypes",
@@ -71,6 +71,18 @@ const migrations = {
 			delete actives[id];
 			delete filters[id];
 		});
+		return {
+			...unchangedState,
+			displayTable: {
+				actives,
+				filters
+			}
+		}
+	}, */
+	12: (state: any) => {
+		const {displayTable: dt, bookmarks, ...unchangedState} = state;
+		// Reset all tables, as the store format has greatly changed
+		const displayTable: DisplayTableState = {};
 		// Fix any link changes since the last update
 		const {order, db: oldDB, catalog: oldCat} = bookmarks;
 		// FIX:
@@ -116,16 +128,13 @@ const migrations = {
 		});
 		return {
 			...unchangedState,
-			displayTable: {
-				actives,
-				filters
-			},
+			displayTable,
 			bookmarks: {
 				order,
 				db,
 				catalog
 			}
-		}
+		};
 	}
 };
 
@@ -142,7 +151,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 11,
+	version: 12,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

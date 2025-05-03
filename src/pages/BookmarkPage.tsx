@@ -51,7 +51,7 @@ interface BookmarkDividerProps extends BaseProps {
 	color: Color
 }
 interface BookmarkItemProps extends BaseProps {
-	doEdit: (id: string, position: number) => void
+	doEdit: (title: string, position: number) => void
 }
 
 const BookmarkItem: FC<BookmarkItemProps> = (props) => {
@@ -68,7 +68,7 @@ const BookmarkItem: FC<BookmarkItemProps> = (props) => {
 				<IonIcon slot="end" icon="/icons/swipe-left.svg" />
 			</IonItem>
 			<IonItemOptions side="end">
-				<IonItemOption color="secondary" onClick={() => doEdit(id, index)}>
+				<IonItemOption color="secondary" onClick={() => doEdit(title, index)}>
 					<IonIcon slot="top" icon={pencil} />
 					Rename
 				</IonItemOption>
@@ -124,11 +124,11 @@ type Params = { id: string };
 
 const blank: [string, string][] = [];
 
-type ElementRef = (node: HTMLIonInputElement | null) => void;
+type ElementRef<T> = (node: T | null) => void;
 
-const useElement = (): [HTMLIonInputElement | null, ElementRef] => {
-	const [el, setEl] = useState<HTMLIonInputElement | null>(null);
-	const ref: ElementRef = useCallback((node: HTMLIonInputElement | null) => {
+const useElement = <T extends Element>(): [T | null, ElementRef<T>] => {
+	const [el, setEl] = useState<T | null>(null);
+	const ref: ElementRef<T> = useCallback((node: T | null) => {
 		if(node && node !== el) {
 			setEl(node);
 		}
@@ -151,7 +151,8 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const [, navigate] = useLocation();
 	const isDark = useDarkMode();
 
-	const [inputElement, inputRef] = useElement();
+	const [inputElement, inputRef] = useElement<HTMLIonInputElement>();
+	const [listElement, listRef] = useElement<HTMLIonListElement>();
 
 	const colors = useMemo(() => isDark ? darkColors : lightColors, [isDark]);
 	
@@ -166,10 +167,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	}, [scrollObj]);
 
 	const doEdit = useCallback((current: string, position: number) => {
-		const list = document.getElementById(id + "BookmarkList") as null | HTMLIonListElement;
-		if(list) {
-			list.closeSlidingItems();
-		}
+		listElement && listElement.closeSlidingItems();
 		const base = getPageName(id);
 		doAlert({
 			header: "Rename Bookmark",
@@ -196,7 +194,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 				}
 			]
 		});
-	}, [doAlert, dispatch, id]);
+	}, [doAlert, dispatch, id, listElement]);
 
 	const handleReorder = (event: CustomEvent<ItemReorderEventDetail>) => {
 		const {to, from, complete} = event.detail;
@@ -282,7 +280,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 					</IonToolbar>
 				</IonFooter>
 			</IonModal>
-			<IonList lines="full" id={id + "BookmarkList"}>
+			<IonList lines="full" id={id + "BookmarkList"} ref={listRef}>
 				<IonItem>
 					<IonButton color="secondary" slot="start" fill="clear" onClick={openColorModal}>
 						<IonIcon className={`color-${color}`} slot="icon-only" icon={bookmark} />
