@@ -73,7 +73,7 @@
 		"category": "Studied Strike Talents",
 		"addenda": [ "studiedstrike" ],
 		"description": [
-			"Once per day, when the investigator has confirmed a critical hit with a studied strike, he can deal the strike's maximum damage instead of rolling damage as normal. This includes the damage dealt by the successful attack as well as the additional damage from the studied strike. He can expend a use of inspiration to use this ability a second time per day. Using this ability doesn't require an action. The investigator must have the {investigatortalent/numerical strike} talent and be at least 13th level to select this talent."
+			"Once per day, when the investigator has confirmed a critical hit with a studied strike, he can deal the strike's maximum damage instead of rolling damage as normal. This includes the damage dealt by the successful attack as well as the additional damage from the studied strike. He can expend a use of inspiration to use this ability a second time per day. Using this ability doesn't require an action. The investigator must have the {invtalent/numerical strike} talent and be at least 13th level to select this talent."
 		]
 	},
 	"masterful_numerical_strike": {
@@ -83,7 +83,7 @@
 		"category": "Studied Strike Talents",
 		"addenda": [ "studiedstrike" ],
 		"description": [
-			"The investigator can use both numerical strike and greater numerical strike three times per day. The investigator doesn't need to expend uses of inspiration to use either ability, but he can never use either more than three times per day each. The investigator must have the {investigatortalent/numerical strike} and {investigatortalent/greater numerical strike} talents and be at least 17th level to select this talent."
+			"The investigator can use both numerical strike and greater numerical strike three times per day. The investigator doesn't need to expend uses of inspiration to use either ability, but he can never use either more than three times per day each. The investigator must have the {invtalent/numerical strike} and {invtalent/greater numerical strike} talents and be at least 17th level to select this talent."
 		]
 	},
 	"prolonged_study": {
@@ -278,7 +278,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 32 ] ],
 		"category": "Inspiration Talents",
 		"description": [
-			"Choose a single weapon type (such as {eq-weapon/sword cane} or {eq-weapon/short sword}). As long as the investigator has at least 1 inspiration point in his inspiration pool, he no longer has to expend a use of inspiration to use that ability with attacks made with this weapon. An investigator must have the {investigatortalent/combat inspiration} investigator talent and be at least 19th level to select this talent."
+			"Choose a single weapon type (such as {eq-weapon/sword cane} or {eq-weapon/short sword}). As long as the investigator has at least 1 inspiration point in his inspiration pool, he no longer has to expend a use of inspiration to use that ability with attacks made with this weapon. An investigator must have the {invtalent/combat inspiration} investigator talent and be at least 19th level to select this talent."
 		]
 	},
 	"eidetic_recollection": {
@@ -315,7 +315,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 27 ] ],
 		"category": "Inspiration Talents",
 		"description": [
-			"An investigator with this talent can attempt a Perception check to intentionally search for a specific item or creature as a swift action instead of a move action. If she is intentionally searching for an invisible creature, the creature's bonus on its Stealth check from its {spell/invisibility} is halved. An investigator must have the {investigatortalent/expanded inspiration} investigator talent before selecting this talent."
+			"An investigator with this talent can attempt a Perception check to intentionally search for a specific item or creature as a swift action instead of a move action. If she is intentionally searching for an invisible creature, the creature's bonus on its Stealth check from its {spell/invisibility} is halved. An investigator must have the {invtalent/expanded inspiration} investigator talent before selecting this talent."
 		]
 	},
 	"hidden_agendas": {
@@ -343,7 +343,7 @@
 		"compilationSources": [ [ "Inner Sea Intrigue", 31 ] ],
 		"category": "Inspiration Talents",
 		"description": [
-			"When granting a bonus to allies via the inspirational expertise investigator talent, the investigator can spend one use of inspiration as a swift action the following round to extend the duration of the granted bonus for 1 additional round. The insight bonus granted decreases by 1 each round this ability is used. The investigator must be at least 11th level and have the {investigatortalent/inspirational expertise} talent to select this talent."
+			"When granting a bonus to allies via the inspirational expertise investigator talent, the investigator can spend one use of inspiration as a swift action the following round to extend the duration of the granted bonus for 1 additional round. The insight bonus granted decreases by 1 each round this ability is used. The investigator must be at least 11th level and have the {invtalent/inspirational expertise} talent to select this talent."
 		]
 	},
 	"inspired_alertness": {
@@ -370,7 +370,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 32 ] ],
 		"category": "Inspiration Talents",
 		"description": [
-			"When the investigator succeeds at an Intimidate check to demoralize an opponent, he can expend one use of inspiration to automatically increase the result of the check by 5 for the purpose of determining the duration of the demoralize effect. He can choose to spend multiple uses to inspiration in this manner to further increase the duration of the demoralize effect. He must be trained in Intimidate to take this talent. The {investigatortalent/underworld inspiration} investigator talent has no effect on this talent."
+			"When the investigator succeeds at an Intimidate check to demoralize an opponent, he can expend one use of inspiration to automatically increase the result of the check by 5 for the purpose of determining the duration of the demoralize effect. He can choose to spend multiple uses to inspiration in this manner to further increase the duration of the demoralize effect. He must be trained in Intimidate to take this talent. The {invtalent/underworld inspiration} investigator talent has no effect on this talent."
 		]
 	},
 	"tenacious_inspiration": {
@@ -407,7 +407,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 27 ] ],
 		"category": "Inspiration Talents",
 		"description": [
-			"Once per day, an investigator with this talent can use {spell/innocence} as a spell-like ability, using her investigator level as the spell's caster level. An investigator must have the {investigatortalent/underworld inspiration} investigator talent before selecting this talent."
+			"Once per day, an investigator with this talent can use {spell/innocence} as a spell-like ability, using her investigator level as the spell's caster level. An investigator must have the {invtalent/underworld inspiration} investigator talent before selecting this talent."
 		]
 	},
 	"alchemist_discovery": {
@@ -437,7 +437,7 @@
 		"compilationSources": [ [ "Potions and Poisons", 15 ] ],
 		"category": "Alchemist and Poison Talents",
 		"description": [
-			"The ability reduction of the investigator's anathemas increases to 10, and he adds DR/- and regeneration to the list of abilities he can lower with an anathema. In addition, when an investigator creates an anathema, he can designate a specific kind of creature (such as {template/vampire/s}) in addition to the creature type. When used against this specific foe, the DC of the save against the anathema is 2 higher than the component poison. An investigator must have the {investigatortalent/anathema} investigator talent to select this talent."
+			"The ability reduction of the investigator's anathemas increases to 10, and he adds DR/- and regeneration to the list of abilities he can lower with an anathema. In addition, when an investigator creates an anathema, he can designate a specific kind of creature (such as {template/vampire/s}) in addition to the creature type. When used against this specific foe, the DC of the save against the anathema is 2 higher than the component poison. An investigator must have the {invtalent/anathema} investigator talent to select this talent."
 		]
 	},
 	"false_spellcaster": {
@@ -474,7 +474,7 @@
 		"compilationSources": [ [ "Disciple's Doctrine", 17 ] ],
 		"category": "Alchemist and Poison Talents",
 		"description": [
-			"The investigator can calculate his movements and account for his reactions to danger or unexpected situations with lightning speed. He can expend a use of inspiration to mix an extract as a standard action. The investigator must have the {investigatortalent/numerical alchemy} talent and be at least 11th level to select this talent."
+			"The investigator can calculate his movements and account for his reactions to danger or unexpected situations with lightning speed. He can expend a use of inspiration to mix an extract as a standard action. The investigator must have the {invtalent/numerical alchemy} talent and be at least 11th level to select this talent."
 		]
 	},
 	"castling": {
@@ -527,7 +527,7 @@
 		"compilationSources": [ [ "Inner Sea Intrigue", 31 ] ],
 		"category": "Other Talents",
 		"description": [
-			"The investigator is familiar with a specific community in which she gains the benefits of renown. She gains the {socialtalent/renown} vigilante social talent. This community can be an entire settlement or portions of a settlement (such as a particular district or neighborhood) depending on the population, as allowed by the renown social talent. Anytime she could select another investigator talent, the investigator can also select from the following list of vigilante social talents, using her investigator level as her vigilante level for the purposes of meeting prerequisites: {socialtalent/celebrity discount}, {socialtalent/celebrity perks}, {socialtalent/gossip collector}, {socialtalent/great renown}, {socialtalent/incredible renown}, and {socialtalent/loyal aid}. For the purpose of vigilante social talents, the investigator does not have a vigilante identity and is always considered to be in her social identity."
+			"The investigator is familiar with a specific community in which she gains the benefits of renown. She gains the {soctalent/renown} vigilante social talent. This community can be an entire settlement or portions of a settlement (such as a particular district or neighborhood) depending on the population, as allowed by the renown social talent. Anytime she could select another investigator talent, the investigator can also select from the following list of vigilante social talents, using her investigator level as her vigilante level for the purposes of meeting prerequisites: {soctalent/celebrity discount}, {soctalent/celebrity perks}, {soctalent/gossip collector}, {soctalent/great renown}, {soctalent/incredible renown}, and {soctalent/loyal aid}. For the purpose of vigilante social talents, the investigator does not have a vigilante identity and is always considered to be in her social identity."
 		]
 	},
 	"fortified_position": {

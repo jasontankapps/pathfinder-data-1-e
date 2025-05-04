@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import equipment from './subpages/__tech-cybertech';
+import equipment from './subpages/__tech-cyber';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -21,7 +21,7 @@ const EquipmentTechCybertechPage: React.FC = () => {
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
-		pageId={"/tech-cybertech/" + id}
+		pageId={"/tech-cyber/" + id}
 		topLink={topLink}
 	>{jsx}</BasicPage>;
 };

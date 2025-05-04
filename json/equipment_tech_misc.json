@@ -27,7 +27,7 @@
 			"",
 			"An access card is a small strip of stiff plastic with a colorcoded stripe on one side. Some access cards are further decorated with names or titles written in Androffan, or even photographs of long-dead crew members. An access card functions as a key - when swiped through an electronic lock (a move action), an access card unlocks any lock of its color code or a color code of a lower rating. Although access cards do not consume energy themselves, they work in only electronic locks that currently have power. Among certain societies in Numeria, access cards are also used as decorations, worn as affectations, and incorporated into ceremonial regalia.",
 			"",
-			"Access cards must be encoded to specific locks before they can function. Often, all of the doors in a complex are keyed to a unique set of cards that don't work on doors found in other complexes, much like a skeleton key might open all the doors in one castle but none in another. Coding an access card for specific locks requires a [lock coder](tech-misc/lock_coder_black). Some access cards could be worth far more than the prices listed above if they're specifically encoded to locks that protect more valuable or significant contents."
+			"Access cards must be encoded to specific locks before they can function. Often, all of the doors in a complex are keyed to a unique set of cards that don't work on doors found in other complexes, much like a skeleton key might open all the doors in one castle but none in another. Coding an access card for specific locks requires a {tech-misc/lock coder>_brown}. Some access cards could be worth far more than the prices listed above if they're specifically encoded to locks that protect more valuable or significant contents."
 		]
 	},
 	"access_card_blue": {
@@ -153,7 +153,7 @@
 			"**Cost** 1,000 gp (black), 36,000 gp (blue), 300 gp (brown), 9,000 gp (gray), 16,000 gp (green), 49,000 gp (orange), 100,000 gp (prismatic), 25,000 gp (red), 4,000 gp (white)  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"A lock coder is a bulky device capable of encoding an [access card](tech-misc/access_card_black) with the capability to open specific electronic locks of a rating equal to or lower than its own. The device can also be used to encode an electronic lock to a different color code of access, allowing it to be opened by lower-rated access cards. A lock coder can code any color access equal to or lower than its color. Encoding an access card or an electronic lock requires a successful Disable Device check as if the user were attempting to disable an electronic device. The DC to encode a lock or card to a specific color code is given on the table below (these DCs are equal to the DCs required to use Disable Device to pick the locks). It takes 1 minute to use a lock coder. The user can take 20 on this check if the lock coder isn't timeworn. An [e-pick](tech-misc/e_pick_black) can be used with a lock coder to increase the chance of success; for locks with a higher color rating, an e-pick is all but required even for the most gifted of technicians.",
+			"A lock coder is a bulky device capable of encoding an {tech-misc/access card>_brown} with the capability to open specific electronic locks of a rating equal to or lower than its own. The device can also be used to encode an electronic lock to a different color code of access, allowing it to be opened by lower-rated access cards. A lock coder can code any color access equal to or lower than its color. Encoding an access card or an electronic lock requires a successful Disable Device check as if the user were attempting to disable an electronic device. The DC to encode a lock or card to a specific color code is given on the table below (these DCs are equal to the DCs required to use Disable Device to pick the locks). It takes 1 minute to use a lock coder. The user can take 20 on this check if the lock coder isn't timeworn. An {tech-misc/e-pick>_brown} can be used with a lock coder to increase the chance of success; for locks with a higher color rating, an e-pick is all but required even for the most gifted of technicians.",
 			"",
 			"| Color | Encode |",
 			"| --- | --- |",
@@ -298,7 +298,7 @@
 			"**Craft DC** 23; **Cost** 250 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"A detonator is a small device that can be used to trigger {tech-cybertech/cranial bomb/s}, {tech-misc/cylex}, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet, though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a {tech-misc/signal booster}.",
+			"A detonator is a small device that can be used to trigger {tech-cyber/cranial bomb/s}, {tech-misc/cylex}, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet, though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a {tech-misc/signal booster}.",
 			"",
 			"### On Signals",
 			"",
@@ -780,7 +780,7 @@
 			"**Cost** 200 gp (mark I), 800 gp (mark II), 1,800 gp (mark III), 3,200 gp (mark IV), 5,000 gp (mark V)  ",
 			"{feat/Craft Technological Item}, at least 10 ranks in skill to be encoded, {rule/crafting<cybernetics| lab>oratories}",
 			"",
-			"A skillchip contains a wealth of knowledge and lore concerning a single skill. Skillchips for skills like Craft, Knowledge, Perform, and Profession that have multiple subcategories each encode only one subcategory; a user can have a Knowledge (engineering) skillchip, but there are no general Knowledge or Craft skillchips. In order for a user to access a skillchip's lore, it must be inserted into an active {tech-cybertech/skillslot}.",
+			"A skillchip contains a wealth of knowledge and lore concerning a single skill. Skillchips for skills like Craft, Knowledge, Perform, and Profession that have multiple subcategories each encode only one subcategory; a user can have a Knowledge (engineering) skillchip, but there are no general Knowledge or Craft skillchips. In order for a user to access a skillchip's lore, it must be inserted into an active {tech-cyber/skillslot}.",
 			"",
 			"The magnitude of the bonus granted by a skillchip varies, ranging from a +2 enhancement bonus to a +10 enhancement bonus, as summarized on the following table.",
 			"",

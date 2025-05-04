@@ -948,7 +948,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 1,
 		"description": [
-			"The alchemist's inspiring cognatogen now grants a +2 dodge bonus to AC and a +2 bonus to Reflex saving throws; a -4 penalty to Strength and Constitution; and the effects of having the {investigatortalent/amazing inspiration}, {investigatortalent/eidetic recollection}, and {investigatortalent/expanded inspiration} investigator talents. An alchemist must be at least 12th level and must have the {discovery/inspiring cognatogen} discovery or class feature to select this discovery."
+			"The alchemist's inspiring cognatogen now grants a +2 dodge bonus to AC and a +2 bonus to Reflex saving throws; a -4 penalty to Strength and Constitution; and the effects of having the {invtalent/amazing inspiration}, {invtalent/eidetic recollection}, and {invtalent/expanded inspiration} investigator talents. An alchemist must be at least 12th level and must have the {discovery/inspiring cognatogen} discovery or class feature to select this discovery."
 		]
 	},
 	"grand_inspiring_cognatogen": {
@@ -957,7 +957,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 2,
 		"description": [
-			"The alchemist's inspiring cognatogen now grants a +4 dodge bonus to AC and a +4 bonus to Reflex saving throws; a -6 penalty to Strength and Constitution; and the effects of having the {investigatortalent/item lore}, {investigatortalent/tenacious inspiration}, and {investigatortalent/underworld inspiration} investigator talents. An alchemist must be at least 16th level and have the {discovery/greater inspiring cognatogen} discovery to select this discovery."
+			"The alchemist's inspiring cognatogen now grants a +4 dodge bonus to AC and a +4 bonus to Reflex saving throws; a -6 penalty to Strength and Constitution; and the effects of having the {invtalent/item lore}, {invtalent/tenacious inspiration}, and {invtalent/underworld inspiration} investigator talents. An alchemist must be at least 16th level and have the {discovery/greater inspiring cognatogen} discovery to select this discovery."
 		]
 	},
 	"mutagen": {

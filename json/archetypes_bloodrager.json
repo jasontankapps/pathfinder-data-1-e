@@ -40,7 +40,7 @@
 			"{SOURCE Familiar Folio/16}  ",
 			"Those with an inherent connection to magic often attract creatures who feel a similar instinctive pull toward magical forces. At 1st level, a sorcerer, bloodrager, or any other character with one of the following bloodlines can choose to gain a bloodline familiar. The character gains a {sidekick/familiar} (as a wizard's {ability/familiar}), treating her class level as her wizard level for the purposes of this ability. This familiar has an additional ability listed below based on the master's bloodline.",
 			"",
-			"This replaces the 1st-level bloodline power granted by the character's bloodline; in addition, the character gains bonus spells from her bloodline one level later than she normally would. For example, a sorcerer with the {sorcererbloodline/aberrant} bloodline who takes a bloodline familiar would not gain the acidic ray bloodline power, and she would gain her first bonus spell at 4th level, her second bonus spell at 6th level, and so on.",
+			"This replaces the 1st-level bloodline power granted by the character's bloodline; in addition, the character gains bonus spells from her bloodline one level later than she normally would. For example, a sorcerer with the {sorcbloodline/aberrant} bloodline who takes a bloodline familiar would not gain the acidic ray bloodline power, and she would gain her first bonus spell at 4th level, her second bonus spell at 6th level, and so on.",
 			"",
 			"GMs may use the following bloodline familiar abilities as written, or employ them as guidelines for devising bloodline familiar abilities for bloodlines not listed below.",
 			"",
@@ -120,7 +120,7 @@
 			"",
 			"**Bonus Spells:** A crossblooded rager can select his bonus spells from either of his bloodlines. He can also learn a lower-level bonus spell he did not choose in place of the higher-level bonus spell he would normally gain. Lower-level bonus spells learned in this manner are always the spell level that they would be if the crossblooded rager had learned them with the appropriate bonus spell.",
 			"",
-			"For example: A 7th-level {bloodragerbloodline/aberrant}/{bloodragerbloodline/abyssal} crossblooded rager has the choice of learning {spell/enlarge person} or {spell/ray of enfeeblement} as his bloodline bonus spell. If he selected ray of enfeeblement as his 7th-level bonus spell, at 10th level he could use his new bonus spell to learn enlarge person instead of {spell/bull's strength} or {spell/see invisibility}, and he would add it to his list of 1st-level spells known (just as if he had learned it as his 7th-level bonus spell).",
+			"For example: A 7th-level {blrgbloodline/aberrant}/{blrgbloodline/abyssal} crossblooded rager has the choice of learning {spell/enlarge person} or {spell/ray of enfeeblement} as his bloodline bonus spell. If he selected ray of enfeeblement as his 7th-level bonus spell, at 10th level he could use his new bonus spell to learn enlarge person instead of {spell/bull's strength} or {spell/see invisibility}, and he would add it to his list of 1st-level spells known (just as if he had learned it as his 7th-level bonus spell).",
 			"",
 			"**Bloodline Powers:** At 1st, 4th, 8th, 12th, 16th, and 20th levels, a crossblooded rager gains one of the two new bloodline powers available to him at that level. He can instead select a lower-level bloodline power he did not choose in place of one of these high-level powers.",
 			"",
@@ -189,7 +189,7 @@
 			"",
 			"The painful rituals that create a hag-riven can work for any creatures tenacious enough to endure them, and the art has sprung up as a defense against the devastating power of hags in various remote communities.",
 			"",
-			"**Arcane Influence:** A hag-riven bloodrager does not gain proficiency with martial weapons and must choose from one of the following bloodrager bloodlines: {bloodragerbloodline/arcane}, {bloodragerbloodline/destined}, {bloodragerbloodline/elemental}, {bloodragerbloodline/fey}, or {bloodragerbloodline/hag}.",
+			"**Arcane Influence:** A hag-riven bloodrager does not gain proficiency with martial weapons and must choose from one of the following bloodrager bloodlines: {blrgbloodline/arcane}, {blrgbloodline/destined}, {blrgbloodline/elemental}, {blrgbloodline/fey}, or {blrgbloodline/hag}.",
 			"",
 			"This alters the bloodrager's weapon and armor proficiencies.",
 			"",
@@ -325,7 +325,7 @@
 			"",
 			"**Bestial Aspect (Su):** At 4th level, whenever a rageshaper gains a natural attack through the use of a polymorph spell, he can increase the damage done by that attack by one die. If the spell grants multiple natural attacks, the rageshaper must choose one kind of natural attack for the ability to enhance. At 9th level, if the rageshaper's altered form grants him a new mode of movement, that movement's base speed increases by 10 feet. This is an enhancement bonus. If the rageshaper's bloodrage powers already grant natural attacks or alternate modes of movement, then the bonuses granted by bestial aspect also apply to these bloodrage powers. This ability replaces blood sanctuary.",
 			"",
-			"**Furious Transformation (Su):** At 5th level, a rageshaper can attempt to bolster any transmutation spell from the bloodrager spell list with the polymorph subschool while bloodraging. The rageshaper must succeed at a {rule/concentration} check as if casting defensively to modify the spell; otherwise, the spell is wasted. If he succeeds, the spell is treated as if the rageshaper had the {feat/Extend Spell} metamagic feat. The rageshaper must be the spell's intended target or cast a spell with a range of personal to gain this effect. If the rageshaper casts a spell that is linked to the rageshaper's own bloodline, such as a rageshaper with the {bloodragerbloodline/elemental} bloodline who casts {spell/elemental body I}, the spell is automatically extended without forcing the concentration check, so long as the rageshaper casts it while in a bloodrage. This ability replaces improved uncanny dodge."
+			"**Furious Transformation (Su):** At 5th level, a rageshaper can attempt to bolster any transmutation spell from the bloodrager spell list with the polymorph subschool while bloodraging. The rageshaper must succeed at a {rule/concentration} check as if casting defensively to modify the spell; otherwise, the spell is wasted. If he succeeds, the spell is treated as if the rageshaper had the {feat/Extend Spell} metamagic feat. The rageshaper must be the spell's intended target or cast a spell with a range of personal to gain this effect. If the rageshaper casts a spell that is linked to the rageshaper's own bloodline, such as a rageshaper with the {blrgbloodline/elemental} bloodline who casts {spell/elemental body I}, the spell is automatically extended without forcing the concentration check, so long as the rageshaper casts it while in a bloodrage. This ability replaces improved uncanny dodge."
 		]
 	},
 	"spelleater": {
@@ -423,7 +423,7 @@
 			"",
 			"**Adopted Magic:** At 7th level, an urban bloodrager learns some of the secrets of other magical traditions from other denizens of the city. She can select from the {main/spells_<bard} or {main/spells_<magus} spell list any spell of a level she can cast, and add it to her bloodrager spell list and to her bloodrager spells known. At 10th level and every 3 levels thereafter, the urban bloodrager can add another such spell to her spell list and spells known. If she chooses to learn a new spell in place of an old one, she can exchange a bard or magus spell for another. This ability replaces damage reduction.",
 			"",
-			"**Bloodline:** The following bloodlines are especially suitable for an urban bloodrager, reflecting either a more nuanced origin or ancestry from city-dwelling magical creatures: {bloodragerbloodline/aberrant}, {bloodragerbloodline/arcane}, {bloodragerbloodline/celestial}, {bloodragerbloodline/destined}, {bloodragerbloodline/infernal}, and {bloodragerbloodline/undead}."
+			"**Bloodline:** The following bloodlines are especially suitable for an urban bloodrager, reflecting either a more nuanced origin or ancestry from city-dwelling magical creatures: {blrgbloodline/aberrant}, {blrgbloodline/arcane}, {blrgbloodline/celestial}, {blrgbloodline/destined}, {blrgbloodline/infernal}, and {blrgbloodline/undead}."
 		]
 	}
 }

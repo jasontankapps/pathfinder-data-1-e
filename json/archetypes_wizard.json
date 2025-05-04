@@ -606,7 +606,7 @@
 			"",
 			"Upon reaching 4th level, and every two levels thereafter, a spellbinder can choose to select a new spell as a bonded spell in place of one with which he is already bonded. In effect, the spellbinder loses the bond with the old spell (though it is still one of his spells known) in exchange for forging a spell bond with a new spell. The new spell's level must be the same as that of the spell being exchanged. A spellbinder may swap only one spell bond at any given level, and must choose whether or not to swap the spell bond at the same time that he gains two new spells known for the level. This ability replaces arcane bond.",
 			"",
-			"**Discoveries:** The following discoveries complement the spellbinder archetype: {arcanediscovery/Fast Study}, {arcanediscovery/Split Slot}."
+			"**Discoveries:** The following discoveries complement the spellbinder archetype: {arcanedisc/Fast Study}, {arcanedisc/Split Slot}."
 		]
 	},
 	"spellslinger": {
@@ -759,7 +759,7 @@
 			"",
 			"This ability replaces the bonus feats gained at 5th, 10th, and 15th levels.",
 			"",
-			"**Lich-Loved (Su):** At 20th level, an undead master gains the benefits of the {sorcererbloodline/undead} sorcerer bloodline's one of us ability.",
+			"**Lich-Loved (Su):** At 20th level, an undead master gains the benefits of the {sorcbloodline/undead} sorcerer bloodline's one of us ability.",
 			"",
 			"This ability replaces the bonus feat gained at 20th level."
 		]

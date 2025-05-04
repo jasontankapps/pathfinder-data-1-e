@@ -875,8 +875,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"deskari": {
@@ -1132,8 +1132,8 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Sphere Singer}",
-			">- {prestigeclass/Spherewalker}",
+			">- {pclass/Sphere Singer}",
+			">- {pclass/Spherewalker}",
 			">",
 			">### Spells",
 			">",
@@ -2014,7 +2014,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Hinterlander}",
+			">- {pclass/Hinterlander}",
 			">",
 			">### Spells",
 			">",
@@ -4068,7 +4068,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Rose Warden}",
+			">- {pclass/Rose Warden}",
 			">",
 			">### Spells",
 			">",

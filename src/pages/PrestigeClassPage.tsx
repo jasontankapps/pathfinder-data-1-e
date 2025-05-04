@@ -1,6 +1,6 @@
 import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_prestigeclass.json';
+import data from '../json/_data_pclass.json';
 import './Page.css';
 
 type Params = { id?: keyof typeof data };

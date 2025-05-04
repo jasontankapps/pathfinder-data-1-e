@@ -1252,7 +1252,7 @@
 			"",
 			"This replaces resist nature's lure.",
 			"",
-			"**Planar Aspect (Su):** At 4th level, as a standard action, a planar extremist can gain the benefits of the bloodrager bloodline associated with her alignment (choosing from {bloodragerbloodline/Abyssal}, {bloodragerbloodline/Celestial}, or {bloodragerbloodline/Infernal}), as if she were a {class/bloodrager} of her druid level. She can gain these benefits for 1 minute per druid level as if she were bloodraging (but she gains no other benefits or penalties of bloodrage) or until she dismisses it as a swift action; this duration need not be used consecutively but must be spent in 1-minute increments. She can use this ability an additional time per day at 6th level and every 4 levels thereafter, for a total of five times per day at 18th level. At 20th level, a planar extremist can use planar aspect at will.",
+			"**Planar Aspect (Su):** At 4th level, as a standard action, a planar extremist can gain the benefits of the bloodrager bloodline associated with her alignment (choosing from {blrgbloodline/Abyssal}, {blrgbloodline/Celestial}, or {blrgbloodline/Infernal}), as if she were a {class/bloodrager} of her druid level. She can gain these benefits for 1 minute per druid level as if she were bloodraging (but she gains no other benefits or penalties of bloodrage) or until she dismisses it as a swift action; this duration need not be used consecutively but must be spent in 1-minute increments. She can use this ability an additional time per day at 6th level and every 4 levels thereafter, for a total of five times per day at 18th level. At 20th level, a planar extremist can use planar aspect at will.",
 			"",
 			"This replaces wild shape."
 		]
@@ -2070,7 +2070,7 @@
 			"",
 			"**Investigator Talent:** At 8th level, wild whisperer selects an {ability/investigator talent>s}. This ability replaces the additional use of wild shape at 8th level.",
 			"",
-			"**Investigator Talents:** The following investigator talents complement the wild whisperer archetype: {investigatortalent/amazing inspiration}, {investigatortalent/effortless aid}, {investigatortalent/eidetic recollection}, {investigatortalent/empathy}, {investigatortalent/inspirational expertise}, {investigatortalent/inspired alertness}, {investigatortalent/inspired intimidator}, {investigatortalent/perceptive tracking}, {investigatortalent/tenacious inspiration}."
+			"**Investigator Talents:** The following investigator talents complement the wild whisperer archetype: {invtalent/amazing inspiration}, {invtalent/effortless aid}, {invtalent/eidetic recollection}, {invtalent/empathy}, {invtalent/inspirational expertise}, {invtalent/inspired alertness}, {invtalent/inspired intimidator}, {invtalent/perceptive tracking}, {invtalent/tenacious inspiration}."
 		]
 	},
 	"wolf_shaman": {

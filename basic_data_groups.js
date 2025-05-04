@@ -53,9 +53,9 @@ import archetypewitch from './json/archetypes_witch.json' with {type: 'json'};
 import archetypewizard from './json/archetypes_wizard.json' with {type: 'json'};
 import arcaneschool from './json/class_ability_arcane_schools.json' with {type: 'json'};
 import aspect from './json/class_ability_aspects.json' with {type: 'json'};
-import bardicmasterpiece from './json/class_ability_bardic_masterpieces.json' with {type: 'json'};
+import masterpiece from './json/class_ability_bardic_masterpieces.json' with {type: 'json'};
 import blessing from './json/class_ability_blessings.json' with {type: 'json'};
-import bloodragerbloodline from './json/class_ability_bloodrager_bloodlines.json' with {type: 'json'};
+import blrgbloodline from './json/class_ability_bloodrager_bloodlines.json' with {type: 'json'};
 import oraclecurse from './json/class_ability_curses.json' with {type: 'json'};
 import discipline from './json/class_ability_disciplines.json' with {type: 'json'};
 import domain1 from './json/class_ability_domains.json' with {type: 'json'};
@@ -75,21 +75,21 @@ import oath from './json/class_ability_oaths.json' with {type: 'json'};
 import order from './json/class_ability_orders.json' with {type: 'json'};
 import ragepower from './json/class_ability_rage_powers.json' with {type: 'json'};
 import shamanspirit from './json/class_ability_shaman_spirits.json' with {type: 'json'};
-import sorcererbloodline from './json/class_ability_sorcerer_bloodlines.json' with {type: 'json'};
+import sorcbloodline from './json/class_ability_sorcerer_bloodlines.json' with {type: 'json'};
 import spirit from './json/class_ability_spirits.json' with {type: 'json'};
 import talent from './json/class_ability_rogue_talents.json' with {type: 'json'};
 import ninjatrick from './json/class_ability_ninja_tricks.json' with {type: 'json'};
 import trick from './json/class_ability_tricks.json' with {type: 'json'};
 import stare from './json/class_ability_stares.json' with {type: 'json'};
 import slayertalent from './json/class_ability_slayer_talents.json' with {type: 'json'};
-import socialtalent from './json/class_ability_social_talents.json' with {type: 'json'};
-import vigilantetalent from './json/class_ability_vigilante_talents.json' with {type: 'json'};
-import investigatortalent from './json/class_ability_investigator_talents.json' with {type: 'json'};
+import soctalent from './json/class_ability_social_talents.json' with {type: 'json'};
+import vigtalent from './json/class_ability_vigilante_talents.json' with {type: 'json'};
+import invtalent from './json/class_ability_investigator_talents.json' with {type: 'json'};
 import hex from './json/class_ability_hexes.json' with {type: 'json'};
 import patron from './json/class_ability_patrons.json' with {type: 'json'};
 import shamanhex from './json/class_ability_shaman_hexes.json' with {type: 'json'};
 import discovery from './json/class_ability_discoveries.json' with {type: 'json'};
-import arcanediscovery from './json/class_ability_arcane_discoveries.json' with {type: 'json'};
+import arcanedisc from './json/class_ability_arcane_discoveries.json' with {type: 'json'};
 import phrenicamp from './json/class_ability_phrenic_amplifications.json' with {type: 'json'};
 import deed from './json/class_ability_deeds.json' with {type: 'json'};
 import swashdeed from './json/class_ability_swashbuckler_deeds.json' with {type: 'json'};
@@ -97,7 +97,7 @@ import hkdiscipline from './json/class_ability_hellknight_disciplines.json' with
 import kipower from './json/class_ability_ki_powers.json' with {type: 'json'};
 import stylestrike from './json/class_ability_style_strikes.json' with {type: 'json'};
 import evolution from './json/class_ability_evolutions.json' with {type: 'json'};
-import unchainedevolution from './json/class_ability_unchained_evolutions.json' with {type: 'json'};
+import unchevolution from './json/class_ability_unchained_evolutions.json' with {type: 'json'};
 import eidolon from './json/class_ability_unchained_eidolons.json' with {type: 'json'};
 import rangertrap from './json/class_ability_ranger_traps.json' with {type: 'json'};
 import constructmod from './json/construct_mods.json' with {type: 'json'};
@@ -114,9 +114,9 @@ import eqmaterial from './json/equipment_special_materials.json' with {type: 'js
 import eqspellbook from './json/equipment_spellbooks.json' with {type: 'json'};
 import techarmor from './json/equipment_tech_armor.json' with {type: 'json'};
 import techartifact from './json/equipment_tech_artifacts.json' with {type: 'json'};
-import techcybertech from './json/equipment_tech_cybertech.json' with {type: 'json'};
+import techcyber from './json/equipment_tech_cybertech.json' with {type: 'json'};
 import techmisc from './json/equipment_tech_misc.json' with {type: 'json'};
-import techpharmaceutical from './json/equipment_tech_pharmaceuticals.json' with {type: 'json'};
+import techpharma from './json/equipment_tech_pharmaceuticals.json' with {type: 'json'};
 import techweapon from './json/equipment_tech_weapons.json' with {type: 'json'};
 import equipmentweapon1 from './json/equipment_weapons.json' with {type: 'json'};
 import equipmentweapon2 from './json/equipment_weapons2.json' with {type: 'json'};
@@ -128,11 +128,11 @@ import magicaltar from './json/magic_altar.json' with {type: 'json'};
 import magicarmor from './json/magic_armor.json' with {type: 'json'};
 import magicimplant from './json/magic_demonic_implants.json' with {type: 'json'};
 import magictalisman from './json/magic_devil_talismans.json' with {type: 'json'};
-import magicaugmentation from './json/magic_elemental_augmentations.json' with {type: 'json'};
+import magicaug from './json/magic_elemental_augmentations.json' with {type: 'json'};
 import magicenhancement1 from './json/magic_enhancements.json' with {type: 'json'};
 import magicenhancement2 from './json/magic_enhancements2.json' with {type: 'json'};
 import magicfavor from './json/magic_favor.json' with {type: 'json'};
-import magicfleshcrafting from './json/magic_fleshcrafting.json' with {type: 'json'};
+import magicfleshcraft from './json/magic_fleshcrafting.json' with {type: 'json'};
 import magicgraft from './json/magic_fungal_grafts.json' with {type: 'json'};
 import magicpoison from './json/magic_infused_poisons.json' with {type: 'json'};
 import magicioun from './json/magic_ioun_stones.json' with {type: 'json'};
@@ -303,10 +303,10 @@ import npc5 from './json/npcs5.json' with {type: 'json'};
 import npc6 from './json/npcs6.json' with {type: 'json'};
 import npc7 from './json/npcs7.json' with {type: 'json'};
 import npc8 from './json/npcs8.json' with {type: 'json'};
-import prestigeclass1 from './json/prestige_classes.json' with {type: 'json'};
-import prestigeclass2 from './json/prestige_classes2.json' with {type: 'json'};
-import prestigeclass3 from './json/prestige_classes3.json' with {type: 'json'};
-import prestigeclass4 from './json/prestige_classes4.json' with {type: 'json'};
+import pclass1 from './json/prestige_classes.json' with {type: 'json'};
+import pclass2 from './json/prestige_classes2.json' with {type: 'json'};
+import pclass3 from './json/prestige_classes3.json' with {type: 'json'};
+import pclass4 from './json/prestige_classes4.json' with {type: 'json'};
 import race1 from './json/races.json' with {type: 'json'};
 import race2 from './json/races2.json' with {type: 'json'};
 import race3 from './json/races3.json' with {type: 'json'};
@@ -832,16 +832,16 @@ const basic_data_groups = {
 		type: "Shifter Aspect"
 	},
 	"class_ability_bardic_masterpieces": {
-		data: bardicmasterpiece,
+		data: masterpiece,
 		searchgroup: 1, // classes
-		link: "bardicmasterpiece",
+		link: "masterpiece",
 		num: 0,
 		type: "Bardic Masterpiece"
 	},
 	"class_ability_bloodrager_bloodlines": {
-		data: bloodragerbloodline,
+		data: blrgbloodline,
 		searchgroup: 1, // classes
-		link: "bloodragerbloodline",
+		link: "blrgbloodline",
 		num: 0,
 		type: "Bloodrager Bloodline"
 	},
@@ -979,9 +979,9 @@ const basic_data_groups = {
 		type: "Shaman Spirit"
 	},
 	"class_ability_sorcerer_bloodlines": {
-		data: sorcererbloodline,
+		data: sorcbloodline,
 		searchgroup: 1, // classes
-		link: "sorcererbloodline",
+		link: "sorcbloodline",
 		num: 0,
 		type: "Sorcerer Bloodline"
 	},
@@ -1001,10 +1001,10 @@ const basic_data_groups = {
 		type: "Rogue Talent"
 	},
 	"class_ability_investigator_talents": {
-		data: investigatortalent,
+		data: invtalent,
 		datatype: "compileable",
 		searchgroup: 1, //classes
-		link: "investigatortalent",
+		link: "invtalent",
 		num: 0,
 		type: "Investigator Talent"
 	},
@@ -1017,18 +1017,18 @@ const basic_data_groups = {
 		type: "Slayer Talent"
 	},
 	"class_ability_vigilante_talents": {
-		data: vigilantetalent,
+		data: vigtalent,
 		datatype: "compileable",
 		searchgroup: 1, //classes
-		link: "vigilantetalent",
+		link: "vigtalent",
 		num: 0,
 		type: "Vigilante Talent"
 	},
 	"class_ability_social_talents": {
-		data: socialtalent,
+		data: soctalent,
 		datatype: "compileable",
 		searchgroup: 1, //classes
-		link: "socialtalent",
+		link: "soctalent",
 		num: 0,
 		type: "Social Talent (Vigilante)"
 	},
@@ -1097,10 +1097,10 @@ const basic_data_groups = {
 		type: "Paladin Mercy"
 	},
 	"class_ability_arcane_discoveries": {
-		data: arcanediscovery,
+		data: arcanedisc,
 		datatype: "compileable",
 		searchgroup: 1, //classes
-		link: "arcanediscovery",
+		link: "arcanedisc",
 		num: 0,
 		type: "Arcane Discovery"
 	},
@@ -1161,10 +1161,10 @@ const basic_data_groups = {
 		type: "Eidolon Evolution"
 	},
 	"class_ability_unchained_evolutions": {
-		data: unchainedevolution,
+		data: unchevolution,
 		datatype: "compileable",
 		searchgroup: 1, //classes
-		link: "unchainedevolution",
+		link: "unchevolution",
 		num: 0,
 		type: "Unchained Eidolon Evolution"
 	},
@@ -1192,30 +1192,30 @@ const basic_data_groups = {
 		type: "Companion"
 	},
 	"prestige_classes": {
-		data: prestigeclass1,
+		data: pclass1,
 		searchgroup: 1, // classes
-		link: "prestigeclass",
+		link: "pclass",
 		num: 1,
 		type: "Prestige Class"
 	},
 	"prestige_classes2": {
-		data: prestigeclass2,
+		data: pclass2,
 		searchgroup: 1, // classes
-		link: "prestigeclass",
+		link: "pclass",
 		num: 2,
 		type: "Prestige Class"
 	},
 	"prestige_classes3": {
-		data: prestigeclass3,
+		data: pclass3,
 		searchgroup: 1, // classes
-		link: "prestigeclass",
+		link: "pclass",
 		num: 3,
 		type: "Prestige Class"
 	},
 	"prestige_classes4": {
-		data: prestigeclass4,
+		data: pclass4,
 		searchgroup: 1, // classes
-		link: "prestigeclass",
+		link: "pclass",
 		num: 4,
 		type: "Prestige Class"
 	},
@@ -1668,10 +1668,10 @@ const basic_data_groups = {
 		type: "Tech Artifact"
 	},
 	"equipment_tech_cybertech": {
-		data: techcybertech,
+		data: techcyber,
 		searchgroup: 7, // tech
-		link: "tech-cybertech",
-		exportablelink: "techcybertech",
+		link: "tech-cyber",
+		exportablelink: "techcyber",
 		num: 0,
 		type: "Tech Cybertech"
 	},
@@ -1684,10 +1684,10 @@ const basic_data_groups = {
 		type: "Misc. Tech"
 	},
 	"equipment_tech_pharmaceuticals": {
-		data: techpharmaceutical,
+		data: techpharma,
 		searchgroup: 7, // tech
-		link: "tech-pharmaceutical",
-		exportablelink: "techpharmaceutical",
+		link: "tech-pharma",
+		exportablelink: "techpharma",
 		num: 0,
 		type: "Tech Pharmaceutical"
 	},
@@ -1946,10 +1946,10 @@ const basic_data_groups = {
 		type: "Devil Talisman"
 	},
 	"magic_elemental_augmentations": {
-		data: magicaugmentation,
+		data: magicaug,
 		searchgroup: 5, // magic
-		link: "magic-augmentation",
-		exportablelink: "magicaugmentation",
+		link: "magic-aug",
+		exportablelink: "magicaug",
 		num: 0,
 		type: "Elemental Augmentation"
 	},
@@ -1978,10 +1978,10 @@ const basic_data_groups = {
 		type: "Court Favor"
 	},
 	"magic_fleshcrafting": {
-		data: magicfleshcrafting,
+		data: magicfleshcraft,
 		searchgroup: 5, // magic
-		link: "magic-fleshcrafting",
-		exportablelink: "magicfleshcrafting",
+		link: "magic-fleshcraft",
+		exportablelink: "magicfleshcraft",
 		num: 0,
 		type: "Fleshcrafting"
 	},

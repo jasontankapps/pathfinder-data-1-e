@@ -80,10 +80,17 @@ const migrations = {
 		}
 	}, */
 	12: (state: any) => {
-		const {displayTable: dt, bookmarks, ...unchangedState} = state;
+		const {displayTable: dt, ...unchangedState} = state;
 		// Reset all tables, as the store format has greatly changed
 		const displayTable: DisplayTableState = {};
-		// Fix any link changes since the last update
+		return {
+			...unchangedState,
+			displayTable
+		};
+	},
+	13: (state: any) => {
+		const {bookmarks, ...unchangedState} = state;
+		// Fix all link changes since the last update
 		const {order, db: oldDB, catalog: oldCat} = bookmarks;
 		// FIX:
 		//   greaterexploit => exploit,
@@ -91,13 +98,40 @@ const migrations = {
 		//   stanceragepower => ragepower
 		//   magusarcana => arcana
 		//   hellknightorder => hkorder
+		//   bardicmasterpiece => masterpiece
+		//   bloodragebloodline => blrgbloodline
+		//   sorcererbloodline => sorcbloodline
+		//   socialtalent => soctalent
+		//   vigilantetalent => vigtalent
+		//   investigatortalent => invtalent
+		//   arcanediscovery => arcanedisc
+		//   unchainedevolution => unchevolution
+		//   tech-cybertech => tech-cyber
+		//   tech-pharmaceutical => tech-pharma
+		//   magic-augmentation => magic-aug
+		//   magic-fleshcrafting => magic-fleshcraft
+		//   prestigeclass => pclass
+		//
+		//   oath/oath_against_X, oath/oath_of_X => oath/X
+
 		const db: BookmarkDB = {};
 		const catalog: Catalog = {};
-		const replacerExploit = /(^[/]?)greater(exploit[/])/
-		const replacerSpirit = /(^[/]?)(?:outsider|legendary)(spirit[/])/
-		const replacerRagePower = /(^[/]?)stance(ragepower[/])/
-		const replacerArcana = /(^[/]?)magus(arcana[/])/
-		const replacerHKOrder = /(^[/]?)hellknight(order[/])/
+
+		const replacerHKOrder = /(^[/]?)hellknight(order[/])/;
+		const replacementHKOrder = "$1hk$2";
+		const replacerTalents = /(?:(^[/]?soc)ial|(^[/]?vig)ilante|(^[/]?inv)estigator)(talent[/])/;
+		const replacementTalents = "$1$2$3$4";
+		const replacerBloodrager = /(^[/]?)bloodrager(bloodline[/])/;
+		const replacementBloodrager = "$1blrg$2";
+		const replacerExploitSpiritRagePowerArcanaMstrPiece = /(^[/]?)(?:greater(exploit[/])|(?:outsider|legendary)(spirit[/])|stance(ragepower[/])|magus(arcana[/])|bardic(masterpiece[/]))/;
+		const replacementExploitSpiritRagePowerArcanaMstrPiece = "$1$2$3$4$5$6";
+		const replacerTechMagicArcane = /(?:(^[/]?tech-cyber)tech|(^[/]?tech-pharma)ceutical|(^[/]?magic-aug)mentation|(^[/]?magic-fleshcraft)ing|(^[/]?arcanedisc)overy)([/])/;
+		const replacementTechMagicArcane = "$1$2$3$4$5$6";
+		const replacerMstrPieceSorcUnchEvoPClass = /(^[/]?sorc)erer(bloodline[/])|(^[/]?unch)ained(evolution[/])|(^[/]?p)restige(class[/])/;
+		const replacementMstrPieceSorcUnchEvoPClass = "$1$2$3$4$5$6";
+		const replacerOaths = /(^[/]?oath[/])oath_(?:against|of)_/;
+		const replacementOaths = "$1";
+
 		Object.keys(oldDB).forEach(id => {
 			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
 			db[id] = {
@@ -106,11 +140,13 @@ const migrations = {
 				contents: c.map(pair =>
 					[
 						pair[0]
-							.replace(replacerExploit, "$1$2")
-							.replace(replacerSpirit, "$1$2")
-							.replace(replacerRagePower, "$1$2")
-							.replace(replacerArcana, "$1$2")
-							.replace(replacerHKOrder, "$1hk$2"),
+							.replace(replacerTalents, replacementTalents)
+							.replace(replacerBloodrager, replacementBloodrager)
+							.replace(replacerExploitSpiritRagePowerArcanaMstrPiece, replacementExploitSpiritRagePowerArcanaMstrPiece)
+							.replace(replacerTechMagicArcane, replacementTechMagicArcane)
+							.replace(replacerMstrPieceSorcUnchEvoPClass, replacementMstrPieceSorcUnchEvoPClass)
+							.replace(replacerHKOrder, replacementHKOrder)
+							.replace(replacerOaths, replacementOaths),
 						pair[1]
 					] as [string, string]
 				),
@@ -119,16 +155,17 @@ const migrations = {
 		});
 		Object.keys(oldCat).forEach(link => {
 			const newLink = link
-				.replace(replacerExploit, "$1$2")
-				.replace(replacerSpirit, "$1$2")
-				.replace(replacerRagePower, "$1$2")
-				.replace(replacerArcana, "$1$2")
-				.replace(replacerHKOrder, "$1hk$2");
+				.replace(replacerTalents, replacementTalents)
+				.replace(replacerBloodrager, replacementBloodrager)
+				.replace(replacerExploitSpiritRagePowerArcanaMstrPiece, replacementExploitSpiritRagePowerArcanaMstrPiece)
+				.replace(replacerTechMagicArcane, replacementTechMagicArcane)
+				.replace(replacerMstrPieceSorcUnchEvoPClass, replacementMstrPieceSorcUnchEvoPClass)
+				.replace(replacerHKOrder, replacementHKOrder)
+				.replace(replacerOaths, replacementOaths);
 			catalog[newLink] = oldCat[link] as string[];
 		});
 		return {
 			...unchangedState,
-			displayTable,
 			bookmarks: {
 				order,
 				db,
@@ -151,7 +188,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 12,
+	version: 13,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

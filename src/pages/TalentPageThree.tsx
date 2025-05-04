@@ -5,7 +5,7 @@ import hex from './subpages/__hex';
 import patron from './subpages/__patron';
 import shamanhex from './subpages/__shamanhex';
 import evolution from './subpages/__evolution';
-import unchainedevolution from './subpages/__unchainedevolution';
+import unchevolution from './subpages/__unchevolution';
 import eidolon from './subpages/__eidolon';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -15,7 +15,7 @@ const allTalents = {
 	patron,
 	shamanhex,
 	evolution,
-	unchainedevolution,
+	unchevolution,
 	eidolon
 };
 
@@ -25,7 +25,7 @@ const info: { [key in Talent]: [string, string] } = {
 	"hex": [ "Witch Hexes", "ability/hexes" ],
 	"shamanhex": [ "Shaman Hexes", "ability/shaman_hexes" ],
 	"evolution": [ "Eidolon Evolutions", "ability/evolutions" ],
-	"unchainedevolution": [ "Unchained Eidolon Evolutions", "ability/unchained_evolutions" ],
+	"unchevolution": [ "Unchained Eidolon Evolutions", "ability/unchained_evolutions" ],
 	"eidolon": [ "Unchained Eidolon Subtypes", "ability/unchained_eidolon_subtypes" ],
 	"patron": [ "Witch Patrons", "ability/patrons" ]
 };

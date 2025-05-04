@@ -740,7 +740,7 @@
 		"name": "Social Talents",
 		"sources": [ "Ultimate Intrigue" ],
 		"compileFrom": {
-			"source": "socialtalent",
+			"source": "soctalent",
 			"targets": [
 				[
 					"## Social Talents",
@@ -758,7 +758,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{socialtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "[[BQ]]**{soctalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},

@@ -75,7 +75,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante's social identity is that of a skilled and respected artisan or professional, rather than a merchant or noble. In order to complete his day's work while still continuing his vigilante activities, he has learned to work faster than normal, hiding his progress so it seems like he is working full shifts at his day job rather than spending some of that time on other pursuits. The vigilante needs to spend only 6 hours each day for mundane uses of the Craft or Profession skill, rather than 8 hours. If he has the {socialtalent/social grace} social talent, he needs to spend only 4 hours for any skill he's chosen with social grace. A vigilante must have a social identity appropriate to the chosen skill to select this talent."
+			"The vigilante's social identity is that of a skilled and respected artisan or professional, rather than a merchant or noble. In order to complete his day's work while still continuing his vigilante activities, he has learned to work faster than normal, hiding his progress so it seems like he is working full shifts at his day job rather than spending some of that time on other pursuits. The vigilante needs to spend only 6 hours each day for mundane uses of the Craft or Profession skill, rather than 8 hours. If he has the {soctalent/social grace} social talent, he needs to spend only 4 hours for any skill he's chosen with social grace. A vigilante must have a social identity appropriate to the chosen skill to select this talent."
 		]
 	},
 	"in_vogue": {
@@ -85,7 +85,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante's crafting or professional business is always at the height of the local trends, allowing the vigilante to gain more profits than usual. Goods he crafts with a Craft skill he chose with social grace are worth 1/3 more gp than normal due to his celebrity, without increasing the cost to create. Whenever he uses a Profession skill he chose with social grace to make money, he makes twice as much money. A vigilante must be at least 5th level and have both the {socialtalent/double time} and {socialtalent/social grace} social talents to take this talent."
+			"The vigilante's crafting or professional business is always at the height of the local trends, allowing the vigilante to gain more profits than usual. Goods he crafts with a Craft skill he chose with social grace are worth 1/3 more gp than normal due to his celebrity, without increasing the cost to create. Whenever he uses a Profession skill he chose with social grace to make money, he makes twice as much money. A vigilante must be at least 5th level and have both the {soctalent/double time} and {soctalent/social grace} social talents to take this talent."
 		]
 	},
 	"entrepreneur": {
@@ -94,7 +94,7 @@
 		"compilationSources": [ [ "Spymaster's Handbook", 26 ] ],
 		"category": "-",
 		"description": [
-			"Select any one Intelligence-, Wisdom-, or Charisma-based skill other than Perception or Use Magic Device. The vigilante can use the selected skill to earn money as if he were using a Profession skill. If he selects Perform or Profession, the vigilante instead gains the skill unlock powers for those skills as appropriate for his number of ranks in that skill. If he has the {socialtalent/social grace} social talent, he can apply this benefit to all skills selected with the social grace talent."
+			"Select any one Intelligence-, Wisdom-, or Charisma-based skill other than Perception or Use Magic Device. The vigilante can use the selected skill to earn money as if he were using a Profession skill. If he selects Perform or Profession, the vigilante instead gains the skill unlock powers for those skills as appropriate for his number of ranks in that skill. If he has the {soctalent/social grace} social talent, he can apply this benefit to all skills selected with the social grace talent."
 		]
 	},
 	"gossip_collector": {
@@ -103,7 +103,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante sits at the center of a web of gossip, granting him access to the latest scuttlebutt with baffling speed. Whenever the vigilante is presented with a topic about which he would normally need to spend 1d4 hours to gather information, he must spend only 1d2 hours instead. If he has the {socialtalent/renown} social talent and gathers the information in his area of renown, he must instead spend only 1d4 &times; 10 minutes, and if he beats the DC to gather a piece of information by 20 or more, he knows that piece of information without spending any time at all; he has simply already heard that gossip. This ability doesn't allow him to gather information that isn't available in the locale he is canvassing, even if that locale is his area of renown."
+			"The vigilante sits at the center of a web of gossip, granting him access to the latest scuttlebutt with baffling speed. Whenever the vigilante is presented with a topic about which he would normally need to spend 1d4 hours to gather information, he must spend only 1d2 hours instead. If he has the {soctalent/renown} social talent and gathers the information in his area of renown, he must instead spend only 1d4 &times; 10 minutes, and if he beats the DC to gather a piece of information by 20 or more, he knows that piece of information without spending any time at all; he has simply already heard that gossip. This ability doesn't allow him to gather information that isn't available in the locale he is canvassing, even if that locale is his area of renown."
 		]
 	},
 	"guise_of_life": {
@@ -167,7 +167,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante can take on the appearance of a specific individual whenever he assumes a mundane guise using his many guises social talent. The individual must be a farmer, laborer, or peasant. While disguised as this individual, the vigilante receives a +20 circumstance bonus on Disguise checks to appear as that individual. Any spell or ability designed to locate the individual has a 50% chance of finding the vigilante instead of the actual individual, and divination spells and abilities used on the vigilante give results as if he were the actual individual. Although this doesn't grant the vigilante any special knowledge of the individual, the vigilante's training grants him a +10 circumstance bonus on Bluff checks to properly play the part of the individual. A vigilante must be at least 11th level and have the {socialtalent/many guises} social talent to select this talent."
+			"The vigilante can take on the appearance of a specific individual whenever he assumes a mundane guise using his many guises social talent. The individual must be a farmer, laborer, or peasant. While disguised as this individual, the vigilante receives a +20 circumstance bonus on Disguise checks to appear as that individual. Any spell or ability designed to locate the individual has a 50% chance of finding the vigilante instead of the actual individual, and divination spells and abilities used on the vigilante give results as if he were the actual individual. Although this doesn't grant the vigilante any special knowledge of the individual, the vigilante's training grants him a +10 circumstance bonus on Bluff checks to properly play the part of the individual. A vigilante must be at least 11th level and have the {soctalent/many guises} social talent to select this talent."
 		]
 	},
 	"any_guise": {
@@ -177,7 +177,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 10 ] ],
 		"category": "-",
 		"description": [
-			"A vigilante can use his everyman social talent to disguise himself as any specific person, even a king or high priest. Furthermore, if the actual individual wouldn't normally be able to be found via magic (such as by being dead or protected from divinations designed to locate the individual), such divinations always find the vigilante instead. A vigilante must be at least 17th level and have the {socialtalent/everyman} social talent to select this talent."
+			"A vigilante can use his everyman social talent to disguise himself as any specific person, even a king or high priest. Furthermore, if the actual individual wouldn't normally be able to be found via magic (such as by being dead or protected from divinations designed to locate the individual), such divinations always find the vigilante instead. A vigilante must be at least 17th level and have the {soctalent/everyman} social talent to select this talent."
 		]
 	},
 	"mockingbird": {
@@ -213,7 +213,7 @@
 		"compilationSources": [ [ "Blood of the Beast", 15 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante is relatively unknown socially. In fact, he makes a point of keeping the life of his social identity as ordinary as possible. This social talent functions exactly as the renown social talent, but instead of improving the starting attitude of all NPCs within the community, it empowers the vigilante so that he no longer needs to succeed at Disguise checks to appear as his social identity while assuming that identity within his area of obscurity. He still has to attempt Disguise checks when NPCs within this settlement are confronted with indisputable proof that the vigilante could be more than he appears to be, such as when he uses a vigilante talent while in his social identity. This social talent counts as {socialtalent/renown} for the purpose of meeting the prerequisites of social talents that list renown as a prerequisite and can be improved by such talents. A vigilante with this talent cannot select renown, nor can he select any social talent that requires him to be famous (such as {socialtalent/celebrity discount} or {socialtalent/celebrity perks})."
+			"The vigilante is relatively unknown socially. In fact, he makes a point of keeping the life of his social identity as ordinary as possible. This social talent functions exactly as the renown social talent, but instead of improving the starting attitude of all NPCs within the community, it empowers the vigilante so that he no longer needs to succeed at Disguise checks to appear as his social identity while assuming that identity within his area of obscurity. He still has to attempt Disguise checks when NPCs within this settlement are confronted with indisputable proof that the vigilante could be more than he appears to be, such as when he uses a vigilante talent while in his social identity. This social talent counts as {soctalent/renown} for the purpose of meeting the prerequisites of social talents that list renown as a prerequisite and can be improved by such talents. A vigilante with this talent cannot select renown, nor can he select any social talent that requires him to be famous (such as {soctalent/celebrity discount} or {soctalent/celebrity perks})."
 		]
 	},
 	"owls_sight": {
@@ -241,7 +241,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante can change identities as a move action, and he no longer needs to spend extra time to adjust his appearance and persona. A vigilante must be at least 13th level and must have the {socialtalent/quick change} social talent to select this talent."
+			"The vigilante can change identities as a move action, and he no longer needs to spend extra time to adjust his appearance and persona. A vigilante must be at least 13th level and must have the {soctalent/quick change} social talent to select this talent."
 		]
 	},
 	"renown": {
@@ -262,7 +262,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 10 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante's social identity is popular enough to receive discounts in his area of renown. Whenever he buys an item in his area of renown that costs 500 gp or less, he can buy it at 90% of the market price, rather than the full price. If he has the {socialtalent/great renown} social talent, the gp limit increases to 2,000 gp, and if he possesses the {socialtalent/incredible renown} social talent, the gp limit increases to 8,000 gp. A vigilante must be at least 3rd level and have the {socialtalent/renown} social talent to select this talent."
+			"The vigilante's social identity is popular enough to receive discounts in his area of renown. Whenever he buys an item in his area of renown that costs 500 gp or less, he can buy it at 90% of the market price, rather than the full price. If he has the {soctalent/great renown} social talent, the gp limit increases to 2,000 gp, and if he possesses the {soctalent/incredible renown} social talent, the gp limit increases to 8,000 gp. A vigilante must be at least 3rd level and have the {soctalent/renown} social talent to select this talent."
 		]
 	},
 	"celebrity_perks": {
@@ -272,7 +272,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante is a celebrity in his area of renown, and adoring fans are all too eager to shower him with the fundamental necessities. While within his area of renown, he can always receive common meals or lodging (worth up to 1 gp per meal or night) for free, and can avoid paying taxes or bribes of 1 gp or less. If he wants a particular nonmagical item worth 1 gp or less, he can spend 1d10 minutes interacting with people in his area of renown to receive the item from a fan (if he ever sells such a gift from a fan, he loses this social talent permanently). If he has the {socialtalent/great renown} social talent, he can receive gifts of up to 5 gp, receive fine food and lodgings (worth up to 10 gp per meal or night) for free, and avoid paying taxes or bribes of 10 gp or less. If he has {socialtalent/incredible renown}, he can receive gifts of up to 25 gp, receive exquisite food and lodgings (worth up to 100 gp per meal or night) for free, and avoid paying taxes or bribes of 100 gp or less. A vigilante must be at least 5th level and have the {socialtalent/renown} social talent to select this talent."
+			"The vigilante is a celebrity in his area of renown, and adoring fans are all too eager to shower him with the fundamental necessities. While within his area of renown, he can always receive common meals or lodging (worth up to 1 gp per meal or night) for free, and can avoid paying taxes or bribes of 1 gp or less. If he wants a particular nonmagical item worth 1 gp or less, he can spend 1d10 minutes interacting with people in his area of renown to receive the item from a fan (if he ever sells such a gift from a fan, he loses this social talent permanently). If he has the {soctalent/great renown} social talent, he can receive gifts of up to 5 gp, receive fine food and lodgings (worth up to 10 gp per meal or night) for free, and avoid paying taxes or bribes of 10 gp or less. If he has {soctalent/incredible renown}, he can receive gifts of up to 25 gp, receive exquisite food and lodgings (worth up to 100 gp per meal or night) for free, and avoid paying taxes or bribes of 100 gp or less. A vigilante must be at least 5th level and have the {soctalent/renown} social talent to select this talent."
 		]
 	},
 	"discreet_inquiries": {
@@ -282,7 +282,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"The vigilante can attempt Diplomacy checks to gather information without being obvious he is seeking any, whether by buying the silence of informants or by talking foes into revealing information without realizing they are doing so. While the vigilante is in his area of {socialtalent/renown}, gathering information in this way takes 2d4 hours and costs 2d4 gp. Anyone who might take notice of the information gathering does not notice unless she succeeds at a Sense Motive check opposed by the vigilante's Bluff check. The vigilante gains a +4 bonus on this Bluff check."
+			"The vigilante can attempt Diplomacy checks to gather information without being obvious he is seeking any, whether by buying the silence of informants or by talking foes into revealing information without realizing they are doing so. While the vigilante is in his area of {soctalent/renown}, gathering information in this way takes 2d4 hours and costs 2d4 gp. Anyone who might take notice of the information gathering does not notice unless she succeeds at a Sense Motive check opposed by the vigilante's Bluff check. The vigilante gains a +4 bonus on this Bluff check."
 		]
 	},
 	"feign_innocence": {
@@ -292,7 +292,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante's social identity seems so innocent that it is hard to believe he was involved in wrongdoing. Within his area of renown, this provides a nonmagical effect identical to the {spell/innocence} spell. A vigilante must be at least 5th level and have the {socialtalent/renown} social talent to take this talent."
+			"The vigilante's social identity seems so innocent that it is hard to believe he was involved in wrongdoing. Within his area of renown, this provides a nonmagical effect identical to the {spell/innocence} spell. A vigilante must be at least 5th level and have the {soctalent/renown} social talent to take this talent."
 		]
 	},
 	"subjective_truth": {
@@ -302,7 +302,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante's disparate identities allow him to defeat magic that detects lies. As long as what he says is true from the point of view of his current identity, it detects as true to effects such as discern lies, and he can say it in effects such as {spell/zone of truth} that force him to speak the truth. A vigilante must be at least 9th level and have the {socialtalent/feign innocence} social talent to select this talent."
+			"The vigilante's disparate identities allow him to defeat magic that detects lies. As long as what he says is true from the point of view of his current identity, it detects as true to effects such as discern lies, and he can say it in effects such as {spell/zone of truth} that force him to speak the truth. A vigilante must be at least 9th level and have the {soctalent/feign innocence} social talent to select this talent."
 		]
 	},
 	"great_renown": {
@@ -312,7 +312,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante is known on a broader scale. He can gain renown in a single community of up to 5,000 individuals (a large town) or up to two communities of no more than 2,000 individuals each (two small towns). The bonus while he is in his social identity remains unchanged, but the circumstance bonus on Intimidate checks from his renown social talent while he is in his vigilante identity increases to +6. A vigilante must be at least 7th level and have the {socialtalent/renown} social talent to select this talent."
+			"The vigilante is known on a broader scale. He can gain renown in a single community of up to 5,000 individuals (a large town) or up to two communities of no more than 2,000 individuals each (two small towns). The bonus while he is in his social identity remains unchanged, but the circumstance bonus on Intimidate checks from his renown social talent while he is in his vigilante identity increases to +6. A vigilante must be at least 7th level and have the {soctalent/renown} social talent to select this talent."
 		]
 	},
 	"incredible_renown": {
@@ -322,7 +322,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante is incredibly famous in both identities. He can gain renown in a single community of up to 25,000 individuals (a large city) or up to two smaller cities of no more than 10,000 individuals each (two small cities). The bonus while he is in his social identity remains unchanged, but the circumstance bonus to Intimidate from his great renown social talent while in he is in his vigilante identity increases to +8. A vigilante must be at least 11th level and have the {socialtalent/great renown} social talent to select this talent."
+			"The vigilante is incredibly famous in both identities. He can gain renown in a single community of up to 25,000 individuals (a large city) or up to two smaller cities of no more than 10,000 individuals each (two small cities). The bonus while he is in his social identity remains unchanged, but the circumstance bonus to Intimidate from his great renown social talent while in he is in his vigilante identity increases to +8. A vigilante must be at least 11th level and have the {soctalent/great renown} social talent to select this talent."
 		]
 	},
 	"instant_recognition": {
@@ -332,7 +332,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante is so well known that his name precedes him, even to other communities. It only takes 4 hours of effort to get the word out to transfer his renown benefits to a new community. A vigilante must be at least 13th level and have both the {socialtalent/incredible renown} and {socialtalent/triumphant return} social talents to select this talent."
+			"The vigilante is so well known that his name precedes him, even to other communities. It only takes 4 hours of effort to get the word out to transfer his renown benefits to a new community. A vigilante must be at least 13th level and have both the {soctalent/incredible renown} and {soctalent/triumphant return} social talents to select this talent."
 		]
 	},
 	"loyal_aid": {
@@ -346,7 +346,7 @@
 			"",
 			"In addition, if the vigilante wants, he can task his friends to help cover for him by spreading false tales of his location and activities to others. This has the effect of increasing the DC of Diplomacy checks to gather information about the vigilante and Survival checks to track him by an amount equal to his level. This lasts for 1 day, and can be used only once per week.",
 			"",
-			"Finally, once per day, the vigilante can ask his allies to perform a minor task for him. This usually involves delivering a message, purchasing a piece of mundane gear worth 100 gp or less (which the vigilante must pay for), or retrieving an object owned by the vigilante (that would be easily accessible by the ally). This task might take other forms as well, subject to GM discretion, but can never involve combat or danger. A vigilante must be at least 3rd level and have the {socialtalent/renown} social talent to select this talent."
+			"Finally, once per day, the vigilante can ask his allies to perform a minor task for him. This usually involves delivering a message, purchasing a piece of mundane gear worth 100 gp or less (which the vigilante must pay for), or retrieving an object owned by the vigilante (that would be easily accessible by the ally). This task might take other forms as well, subject to GM discretion, but can never involve combat or danger. A vigilante must be at least 3rd level and have the {soctalent/renown} social talent to select this talent."
 		]
 	},
 	"triumphant_return": {
@@ -356,7 +356,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante's tales are never truly forgotten. This makes it easier to establish his renown in a place he has established it before. In any settlement where the vigilante previously gained renown, it takes only 3 days, rather than 1 week, to gain renown again. A vigilante must be at least 3rd level and have the {socialtalent/renown} social talent to select this talent."
+			"The vigilante's tales are never truly forgotten. This makes it easier to establish his renown in a place he has established it before. In any settlement where the vigilante previously gained renown, it takes only 3 days, rather than 1 week, to gain renown again. A vigilante must be at least 3rd level and have the {soctalent/renown} social talent to select this talent."
 		]
 	},
 	"safe_house": {
@@ -365,7 +365,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 1 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante can establish a safe house in his area of renown, and he can change it every time he changes his area of renown. If he doesn't have the {socialtalent/renown} talent, he can still select this talent and place the safe house in a single location to which he has access, but he can never move the safe house from its initial location until he gains the renown talent. This safe house must be an area no larger in volume than a cube that is a number of feet per side equal to 10 feet per vigilante level. The safe house can be arranged any way he likes and it can be part of a larger building, like a secret room or an underground cave. Objects within this safe house can't be located by any effect that is less powerful than a {spell/discern location} spell. At 7th level, this protection from being located also applies to creatures in the safe house. At 13th level, the entire area is protected from scrying effects (though not mundane snooping) like a {spell/mage's private sanctum}."
+			"The vigilante can establish a safe house in his area of renown, and he can change it every time he changes his area of renown. If he doesn't have the {soctalent/renown} talent, he can still select this talent and place the safe house in a single location to which he has access, but he can never move the safe house from its initial location until he gains the renown talent. This safe house must be an area no larger in volume than a cube that is a number of feet per side equal to 10 feet per vigilante level. The safe house can be arranged any way he likes and it can be part of a larger building, like a secret room or an underground cave. Objects within this safe house can't be located by any effect that is less powerful than a {spell/discern location} spell. At 7th level, this protection from being located also applies to creatures in the safe house. At 13th level, the entire area is protected from scrying effects (though not mundane snooping) like a {spell/mage's private sanctum}."
 		]
 	},
 	"seemless_shapechanger": {
@@ -411,7 +411,7 @@
 		"compilationSources": [ [ "Heroes of Golarion", 19 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante can cast {spell/charm animal} once per day as a spell-like ability, with a caster level equal to his level. The vigilante must have the {socialtalent/songbird} talent to select this talent."
+			"The vigilante can cast {spell/charm animal} once per day as a spell-like ability, with a caster level equal to his level. The vigilante must have the {soctalent/songbird} talent to select this talent."
 		]
 	},
 	"beast_speech": {
@@ -421,7 +421,7 @@
 		"compilationSources": [ [ "Heroes of Golarion", 19 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante can cast {spell/speak with animals} once per day as a spell-like ability, with a caster level equal to his character level. The vigilante must have the {socialtalent/songbird} talent to select this talent."
+			"The vigilante can cast {spell/speak with animals} once per day as a spell-like ability, with a caster level equal to his character level. The vigilante must have the {soctalent/songbird} talent to select this talent."
 		]
 	},
 	"transformation_sequence": {
@@ -430,7 +430,7 @@
 		"compilationSources": [ [ "Blood of the Beast", 15 ] ],
 		"category": "-",
 		"description": [
-			"The vigilante's transformation between identities is assisted by magic. This makes it faster than usual, but also more noticeable. The vigilante can complete the switch between his identities in 5 rounds, improving to a standard action if he has the {socialtalent/quick change} social talent, and to a swift action if he has the immediate change social talent. However, the transformation causes quite a spectacle, involving loud sounds or music, brilliant colorful energies, and swift motions. A vigilante can select this talent only if he is able to cast spells or spell-like abilities (this needn't be from his vigilante class). A vigilante with the {arc-vigilante/magical child} archetype effectively gets this social talent for free at 1st level."
+			"The vigilante's transformation between identities is assisted by magic. This makes it faster than usual, but also more noticeable. The vigilante can complete the switch between his identities in 5 rounds, improving to a standard action if he has the {soctalent/quick change} social talent, and to a swift action if he has the immediate change social talent. However, the transformation causes quite a spectacle, involving loud sounds or music, brilliant colorful energies, and swift motions. A vigilante can select this talent only if he is able to cast spells or spell-like abilities (this needn't be from his vigilante class). A vigilante with the {arc-vigilante/magical child} archetype effectively gets this social talent for free at 1st level."
 		]
 	},
 	"well_known_expert": {

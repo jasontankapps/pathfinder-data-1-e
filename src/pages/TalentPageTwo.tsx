@@ -1,9 +1,9 @@
 import { ReactElement } from 'react';
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
-import investigatortalent from './subpages/__investigatortalent';
-import socialtalent from './subpages/__socialtalent';
-import vigilantetalent from './subpages/__vigilantetalent';
+import invtalent from './subpages/__invtalent';
+import soctalent from './subpages/__soctalent';
+import vigtalent from './subpages/__vigtalent';
 import ninjatrick from './subpages/__ninjatrick';
 import kipower from './subpages/__kipower';
 import stylestrike from './subpages/__stylestrike';
@@ -11,9 +11,9 @@ import BasicPage from './BasicPage';
 import './Page.css';
 
 const allTalents = {
-	investigatortalent,
-	socialtalent,
-	vigilantetalent,
+	invtalent,
+	soctalent,
+	vigtalent,
 	ninjatrick,
 	kipower,
 	stylestrike
@@ -22,9 +22,9 @@ const allTalents = {
 type Talent = keyof typeof allTalents;
 
 const info: { [key in Talent]: [string, string] } = {
-	"socialtalent": [ "Social Talents", "ability/social_talents" ],
-	"vigilantetalent": [ "Vigilante Talents", "ability/vigilante_talents" ],
-	"investigatortalent": [ "Investigator Talents", "ability/investigator_talents" ],
+	"soctalent": [ "Social Talents", "ability/social_talents" ],
+	"vigtalent": [ "Vigilante Talents", "ability/vigilante_talents" ],
+	"invtalent": [ "Investigator Talents", "ability/investigator_talents" ],
 	"ninjatrick": [ "Ninja Tricks", "ability/ninja_tricks" ],
 	"kipower": [ "Ki Powers", "ability/ki_powers" ],
 	"stylestrike": [ "Style Strikes", "ability/style_strikes" ],

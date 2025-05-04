@@ -188,7 +188,7 @@ const App: FC = () => {
 								<AspectPage />
 							</Suspense>
 						</Route>
-						<Route path="/bardicmasterpiece/:id">
+						<Route path="/masterpiece/:id">
 							<Suspense fallback={<Loading text="Recording masterpieces..." />}>
 								<MasterpiecePage />
 							</Suspense>
@@ -198,7 +198,7 @@ const App: FC = () => {
 								<BlessingPage />
 							</Suspense>
 						</Route>
-						<Route path="/bloodragerbloodline/:id">
+						<Route path="/blrgbloodline/:id">
 							<Suspense fallback={<Loading text="Grabbing bloodlines..." />}>
 								<BloodragerBloodlinePage />
 							</Suspense>
@@ -398,7 +398,7 @@ const App: FC = () => {
 								<MagicWondrousPage />
 							</Suspense>
 						</Route>
-						<Route path={/^[/]magic-(altar|augmentation|favor|fetish|fleshcrafting|graft|implant|necro(graft|toxin)|piercing|plant|poison|relic|set|talisman|tattoo|throne)[/](?<id>[a-z_0-9]+)[/]?$/}>
+						<Route path={/^[/]magic-(altar|aug|favor|fetish|fleshcraft|graft|implant|necro(graft|toxin)|piercing|plant|poison|relic|set|talisman|tattoo|throne)[/](?<id>[a-z_0-9]+)[/]?$/}>
 							<Suspense fallback={<Loading text="Loading magic..." />}>
 								<MagicMiscPage />
 							</Suspense>
@@ -438,7 +438,7 @@ const App: FC = () => {
 								<OrderPage />
 							</Suspense>
 						</Route>
-						<Route path="/prestigeclass/:id">
+						<Route path="/pclass/:id">
 							<Suspense fallback={<Loading text="Indexing prestige classes..." />}>
 								<PrestigeClassPage />
 							</Suspense>
@@ -478,7 +478,7 @@ const App: FC = () => {
 								<SkillPage />
 							</Suspense>
 						</Route>
-						<Route path="/sorcererbloodline/:id">
+						<Route path="/sorcbloodline/:id">
 							<Suspense fallback={<Loading text="Awakening bloodlines..." />}>
 								<SorcererBloodlinePage />
 							</Suspense>
@@ -518,7 +518,7 @@ const App: FC = () => {
 								<TechArtifactPage />
 							</Suspense>
 						</Route>
-						<Route path="/tech-cybertech/:id">
+						<Route path="/tech-cyber/:id">
 							<Suspense fallback={<Loading text="Downloading tech..." />}>
 								<TechCybertechPage />
 							</Suspense>
@@ -528,7 +528,7 @@ const App: FC = () => {
 								<TechMiscPage />
 							</Suspense>
 						</Route>
-						<Route path="/tech-pharmaceutical/:id">
+						<Route path="/tech-pharma/:id">
 							<Suspense fallback={<Loading text="Downloading tech..." />}>
 								<TechPharmaceuticalsPage />
 							</Suspense>
@@ -593,19 +593,19 @@ const App: FC = () => {
 								<TalentPage prefix="slayertalent" />
 							</Suspense>
 						</Route>
-						<Route path="/investigatortalent/:id">
+						<Route path="/invtalent/:id">
 							<Suspense fallback={<Loading text="Finding talents..." />}>
-								<TalentPageTwo prefix="investigatortalent" />
+								<TalentPageTwo prefix="invtalent" />
 							</Suspense>
 						</Route>
-						<Route path="/socialtalent/:id">
+						<Route path="/soctalent/:id">
 							<Suspense fallback={<Loading text="Finding talents..." />}>
-								<TalentPageTwo prefix="socialtalent" />
+								<TalentPageTwo prefix="soctalent" />
 							</Suspense>
 						</Route>
-						<Route path="/vigilantetalent/:id">
+						<Route path="/vigtalent/:id">
 							<Suspense fallback={<Loading text="Finding talents..." />}>
-								<TalentPageTwo prefix="vigilantetalent" />
+								<TalentPageTwo prefix="vigtalent" />
 							</Suspense>
 						</Route>
 						<Route path="/kipower/:id">
@@ -628,9 +628,9 @@ const App: FC = () => {
 								<TalentPageThree prefix="evolution" />
 							</Suspense>
 						</Route>
-						<Route path="/unchainedevolution/:id">
+						<Route path="/unchevolution/:id">
 							<Suspense fallback={<Loading text="Evolving..." />}>
-								<TalentPageThree prefix="unchainedevolution" />
+								<TalentPageThree prefix="unchevolution" />
 							</Suspense>
 						</Route>
 						<Route path="/eidolon/:id">
@@ -658,9 +658,9 @@ const App: FC = () => {
 								<TalentPageFour prefix="discovery" />
 							</Suspense>
 						</Route>
-						<Route path="/arcanediscovery/:id">
+						<Route path="/arcanedisc/:id">
 							<Suspense fallback={<Loading text="Making discoveries..." />}>
-								<TalentPageFour prefix="arcanediscovery" />
+								<TalentPageFour prefix="arcanedisc" />
 							</Suspense>
 						</Route>
 						<Route path="/trick/:id">

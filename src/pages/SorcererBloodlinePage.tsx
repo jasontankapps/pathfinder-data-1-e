@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import bloodlines from './subpages/__sorcererbloodline';
+import bloodlines from './subpages/__sorcbloodline';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -21,7 +21,7 @@ const SorcererBloodlinePage: React.FC = () => {
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
-		pageId={"/sorcererbloodline/" + id}
+		pageId={"/sorcbloodline/" + id}
 		topLink={topLink}
 	>{jsx}</BasicPage>;
 };

@@ -167,7 +167,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Brewkeeper}",
+			">- {pclass/Brewkeeper}",
 			">",
 			">### Spells",
 			">",
@@ -282,8 +282,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"chadali": {
@@ -1539,8 +1539,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"thamir_gixx": {
@@ -1821,8 +1821,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"thisamet": {
@@ -2193,7 +2193,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Sacred Sentinel}",
+			">- {pclass/Sacred Sentinel}",
 			">",
 			">### Spells",
 			">",
@@ -2839,7 +2839,7 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Proctor}"
 		]
 	},
 	"mordiggian": {
@@ -2952,8 +2952,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"mrtyu": {
@@ -2991,8 +2991,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"murnath": {
@@ -3350,8 +3350,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"narriseminek": {
@@ -3389,7 +3389,7 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Proctor}"
 		]
 	},
 	"nataka": {

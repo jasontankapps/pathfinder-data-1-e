@@ -6,7 +6,7 @@ import trick from './subpages/__trick';
 import stare from './subpages/__stare';
 
 import discovery from './subpages/__discovery';
-import arcanediscovery from './subpages/__arcanediscovery';
+import arcanedisc from './subpages/__arcanedisc';
 
 import mercy from './subpages/__mercy';
 
@@ -17,7 +17,7 @@ const allTalents = {
 	trick,
 	stare,
 	discovery,
-	arcanediscovery,
+	arcanedisc,
 	mercy
 };
 
@@ -27,7 +27,7 @@ const info: { [key in Talent]: [string, string] } = {
 	"trick": [ "Mesmerist Tricks", "ability/tricks" ],
 	"stare": [ "Mesmerist Stares", "ability/stares" ],
 	"discovery": [ "Alchemist Discoveries", "ability/discoveries" ],
-	"arcanediscovery": [ "Arcane Discovery", "ability/arcane_discoveries" ],
+	"arcanedisc": [ "Arcane Discovery", "ability/arcane_discoveries" ],
 	"mercy": [ "Paladin Mercy", "ability/mercies" ]
 };
 

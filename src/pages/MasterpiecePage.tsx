@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import masterpieces from './subpages/__bardicmasterpiece';
+import masterpieces from './subpages/__masterpiece';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -21,7 +21,7 @@ const MasterpiecePage: React.FC = () => {
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
-		pageId={"/bardicmasterpiece/" + id}
+		pageId={"/masterpiece/" + id}
 		topLink={topLink}
 	>{jsx}</BasicPage>;
 };

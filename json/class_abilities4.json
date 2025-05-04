@@ -43,7 +43,7 @@
 		"name": "Investigator Talents",
 		"sources": [ "Advanced Class Guide" ],
 		"compileFrom": {
-			"source": "investigatortalent",
+			"source": "invtalent",
 			"targets": [
 				[
 					"## Talents",
@@ -63,7 +63,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{investigatortalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "[[BQ]]**{invtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -79,7 +79,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{investigatortalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "[[BQ]]**{invtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -95,7 +95,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{investigatortalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "[[BQ]]**{invtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -111,7 +111,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{investigatortalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "[[BQ]]**{invtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				},
 				[
 					"",
@@ -125,7 +125,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{investigatortalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "[[BQ]]**{invtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
 				}
 			]
 		},
@@ -865,64 +865,64 @@
 			"## Sorcerer Bloodlines",
 			"",
 			"{SOURCE PRPG Core Rulebook}  ",
-			"The following bloodlines represent only some of the possible sources of power that a sorcerer can draw upon. Unless otherwise noted, most sorcerers are assumed to have the {sorcererbloodline/arcane} bloodline.",
+			"The following bloodlines represent only some of the possible sources of power that a sorcerer can draw upon. Unless otherwise noted, most sorcerers are assumed to have the {sorcbloodline/arcane} bloodline.",
 			"",
 			"{SOURCE Ultimate Magic}  ",
 			"A **wildblooded** sorcerer has a mutated version of a more common bloodline, with one arcana and at least one bloodline power that are different from those of an unmutated bloodline. When creating a wildblooded sorcerer, select an existing bloodline, then select one of the mutated bloodlines associated with that bloodline. Use the normal bloodline's class skill, bonus spells, and bonus feats, and the mutated bloodline's *bloodline arcana*. Use the normal bloodline's *bloodline powers*, except when the mutated bloodline replaces one of those powers.",
 			"",
 			"| Bloodline | Description | Wildblooded Mutation |",
 			"| :---: | --- | :---: |",
-			"| :ripple[sorcererbloodline/Aberrant] | There is a taint in your blood, one that is alien and bizarre. | Warped |",
-			"| :ripple[sorcererbloodline/Abyssal] | Generations ago, a demon spread its filth into your heritage. | Brutal |",
-			"| :ripple[sorcererbloodline/Accursed] | Misfortune, pestilence, and nightmares follow your family like vermin drawn to carrion. | |",
-			"| :ripple[sorcererbloodline/Aquatic] | Your family traces its heritage back to the ocean depths, whether scions of undersea empires left in the wake of nomadic sea-tribes, or the spawn of creeping ichthyic infiltrators into remote seaside villages. | Seaborn |",
-			"| :ripple[sorcererbloodline/Arcane] | Your family has always been skilled in the eldritch art of magic. | Sage |",
-			"| :ripple[sorcererbloodline/Astral] | Whether you were raised on the Astral Plane, had an ancestor with a strong connection to the Astral, or simply had a freak brush with an astral conduit in your youth, you have an unusual connection to both time and space. | |",
-			"| :ripple[sorcererbloodline/Boreal] | Descended from inhabitants of the lands of ice and snow, you count among your ancestors giant-kin, troll-born, and frost-rimed spirits. | Rime-Blooded |",
-			"| :ripple[sorcererbloodline/Celestial] | Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention. | Empyreal |",
-			"| :ripple[sorcererbloodline/Daemon] | Your powers derive from daemons, who take pleasure and gain power from manipulating mortal frailties like aging, pestilence, famine, and the horrors of war. | |",
-			"| :ripple[sorcererbloodline/Deep Earth] | The echoing cave-songs and the rumble and creak of primal spirits deep below the ground thrum in your soul and in all your family line. | Bedrock |",
-			"| :ripple[sorcererbloodline/Destined] | Your family is destined for greatness in some way. | Karmic |",
-			"| :ripple[sorcererbloodline/Div] | You can trace your ancestry to one of the foul, corrupted genies known as divs. | |",
-			"| :ripple[sorcererbloodline/Djinni] | You were born with the power of air genies, and the magic of the djinn is strong in you. | |",
-			"| :ripple[sorcererbloodline/Draconic] | At some point in your family's history, a dragon interbred with your bloodline, and now its ancient power flows through your veins. | Linnorm |",
-			"| :ripple[sorcererbloodline/Dreamspun] | Your family is a long line of dreamers, who dream not as ordinary mortals do but rather as those who reach through and touch the supernal realm of dreams and the farthest shores of night. | Visionary |",
-			"| :ripple[sorcererbloodline/Ectoplasm] | The power of the Ethereal Plane thrums in your mind and pulls at your flesh. | |",
-			"| :ripple[sorcererbloodline/Efreeti] | You were born with the power of fire genies, and the magic of the efreet is strong in you. | |",
-			"| :ripple[sorcererbloodline/Elemental] | The power of the elements resides in you, and at times you can hardly control its fury. | Lifewater, Primal |",
-			"| :ripple[sorcererbloodline/Fey] | The capricious nature of the fey runs in your family due to some intermingling of fey blood or magic. | Dark Fey, Sylvan |",
-			"| :ripple[sorcererbloodline/Ghoul] | Your connection to the hungering undead shapes your magic. | |",
-			"| :ripple[sorcererbloodline/Harrow] | Just as knowledge of the harrow has passed from generation to generation since time immemorial, so too has a deep spiritual connection to the otherworldly forces bound by the harrow passed through the ages. | |",
-			"| :ripple[sorcererbloodline/Imperious] | (Human Only) A scion of forgotten kings, with a lineage rich with the dust of ancient empires spanning every golden age of humanity's history, an imperious embodies the apex of human potential, as well as human temerity and uninhibited hubris. | |",
-			"| :ripple[sorcererbloodline/Impossible] | You can see beyond the mundane, and are capable of visualizing the improbable, and even the impossible. | |",
-			"| :ripple[sorcererbloodline/Infernal] | Somewhere in your family's history, a relative made a deal with a devil, and that pact has influenced your family line ever since. | Pit-Touched |",
-			"| :ripple[sorcererbloodline/Kobold Sorcerer] | (Kobold Only) While many kobold sorcerers tout their purely draconic bloodline, over generations of eldritch training, some such spellcasters have created a bloodline that, while tinged with some draconic magic, is the embodiment of the race's virtue distilled into arcane form. | |",
-			"| :ripple[sorcererbloodline/Maestro] | The spiritual power of art and song runs strongly through your family line. | |",
-			"| :ripple[sorcererbloodline/Marid] | You were born with the power of water genies, and the magic of the marids is strong in you. | Shahzada |",
-			"| :ripple[sorcererbloodline/Martyred] | One of your ancestors paid the ultimate price for your beliefs. | Retribution |",
-			"| :ripple[sorcererbloodline/Naga] | Naga blood flows within your veins. Perhaps a curious naga experimented upon one of your ancestors in an attempt to create the perfect servant, or maybe one of your ancestors was a shapeshifting naga. Either way, you boast powers similar to those of true nagas. | |",
-			"| :ripple[sorcererbloodline/Nanite] | Either you were born from one of the forgewombs scattered throughout the wastelands, or you were infected by nanites, which now course through your blood. | |",
-			"| :ripple[sorcererbloodline/Oni] | As slaves of capricious oni lords, your ancestors were forced to yield to their masters' hedonistic desires, inevitably tainting their descendents with oni blood. | |",
-			"| :ripple[sorcererbloodline/Orc] | The rage of your ancestors burns within you, and the taint of savage orc blood flows through your veins. | |",
-			"| :ripple[sorcererbloodline/Pestilence] | You were born during the height of a great magical plague, to a mother suffering from an eldritch disease, or you suffered an eldritch pox as a child, such that your very soul now carries a blight of pestilence within it. | |",
-			"| :ripple[sorcererbloodline/Phoenix] | One of your ancestors bore witness to a phoenix's resurrection and formed a bond with the magical creature. The resurrecting flames still course through your veins, surging with power. | |",
-			"| :ripple[sorcererbloodline/Possessed] | The mystical connection with your possessing spirit allows you to gain more control over your body and mind. | |",
-			"| :ripple[sorcererbloodline/Protean] | You have in your veins the ever-changing wildness of primal chaos, the raw essence of unbound creation. | Anarchic |",
-			"| :ripple[sorcererbloodline/Psychic] | Psychic power runs thorough your blood, whether it be from a familial predisposition to psychic power or exposure to a powerful psychic phenomenon. Whatever the source of this power, your mind is a dangerous weapon. | |",
-			"| :ripple[sorcererbloodline/Rakshasa] | At some point in your family's history, one of your ancestors was tainted by the influence of a rakshasa. | |",
-			"| :ripple[sorcererbloodline/Salamander] | You are descended from the elemental outsiders known as salamanders. You wield flame as a weapon and a tool, and your smithing skills are unrivaled. | |",
-			"| :ripple[sorcererbloodline/Scorpion] | Whether your ancestors served a scorpion goddess or simply worked closely with more mundane members of the species, the venom from these arachnids has seeped down through generations into your blood. | |",
-			"| :ripple[sorcererbloodline/Serpentine] | Your bloodline carries the lingering stain of ancient serpent races that ruled when the world was young. | Envenomed |",
-			"| :ripple[sorcererbloodline/Shadow] | Spirits from the shadow plane dally at times in the world of light, and such as these lay with your ancestors once upon a time, imparting the mystery of shadow-stuff into your lineage. | Umbral |",
-			"| :ripple[sorcererbloodline/Shaitan] | You were born with the power of earth genies, and the magic of the shaitans is strong in you. | |",
-			"| :ripple[sorcererbloodline/Shapechanger] | Channeling the power of your shapeshifting ancestors that you carry in your blood, you gain powers that allow you to change your shape and alter your appearance and physical abilities. | |",
-			"| :ripple[sorcererbloodline/Solar] | Sorcerers who serve in the sun goddess's court display powers infused with the glory of the sun itself. | |",
-			"| :ripple[sorcererbloodline/Starsoul] | You come from a line of stargazers and explorers who delved deeply into the darkness beyond the stars. | Void-Touched |",
-			"| :ripple[sorcererbloodline/Stormborn] | You trace your heritage to fierce and proud spirits of storm and sky, and living lightning sings in your veins. | Arial |",
-			"| :ripple[sorcererbloodline/Undead] | The taint of the grave runs through your family. | Sanguine |",
-			"| :ripple[sorcererbloodline/Unicorn] | Deeply empathetic and fiercely protective, unicorns on occasion form close bonds with humans, often young and noble-hearted women. When the two have a particularly strong bond, the unicorn's magic can become a part of the bonded human, and sometimes is even passed on to her children. These children, blessed by their parent's connection to that force of true good, grow up to become sorcerers of the unicorn bloodline. | |",
-			"| :ripple[sorcererbloodline/Verdant] | Your progenitors infused themselves with raw plant life, binding it into their own tissue and passing it down to their literal seed, giving you innate communion with nature. | Groveborn |",
-			"| :ripple[sorcererbloodline/Vestige] | You trace your ancestry to a bygone civilization and can call upon its forgotten people or places for power. | |"
+			"| :ripple[sorcbloodline/Aberrant] | There is a taint in your blood, one that is alien and bizarre. | Warped |",
+			"| :ripple[sorcbloodline/Abyssal] | Generations ago, a demon spread its filth into your heritage. | Brutal |",
+			"| :ripple[sorcbloodline/Accursed] | Misfortune, pestilence, and nightmares follow your family like vermin drawn to carrion. | |",
+			"| :ripple[sorcbloodline/Aquatic] | Your family traces its heritage back to the ocean depths, whether scions of undersea empires left in the wake of nomadic sea-tribes, or the spawn of creeping ichthyic infiltrators into remote seaside villages. | Seaborn |",
+			"| :ripple[sorcbloodline/Arcane] | Your family has always been skilled in the eldritch art of magic. | Sage |",
+			"| :ripple[sorcbloodline/Astral] | Whether you were raised on the Astral Plane, had an ancestor with a strong connection to the Astral, or simply had a freak brush with an astral conduit in your youth, you have an unusual connection to both time and space. | |",
+			"| :ripple[sorcbloodline/Boreal] | Descended from inhabitants of the lands of ice and snow, you count among your ancestors giant-kin, troll-born, and frost-rimed spirits. | Rime-Blooded |",
+			"| :ripple[sorcbloodline/Celestial] | Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention. | Empyreal |",
+			"| :ripple[sorcbloodline/Daemon] | Your powers derive from daemons, who take pleasure and gain power from manipulating mortal frailties like aging, pestilence, famine, and the horrors of war. | |",
+			"| :ripple[sorcbloodline/Deep Earth] | The echoing cave-songs and the rumble and creak of primal spirits deep below the ground thrum in your soul and in all your family line. | Bedrock |",
+			"| :ripple[sorcbloodline/Destined] | Your family is destined for greatness in some way. | Karmic |",
+			"| :ripple[sorcbloodline/Div] | You can trace your ancestry to one of the foul, corrupted genies known as divs. | |",
+			"| :ripple[sorcbloodline/Djinni] | You were born with the power of air genies, and the magic of the djinn is strong in you. | |",
+			"| :ripple[sorcbloodline/Draconic] | At some point in your family's history, a dragon interbred with your bloodline, and now its ancient power flows through your veins. | Linnorm |",
+			"| :ripple[sorcbloodline/Dreamspun] | Your family is a long line of dreamers, who dream not as ordinary mortals do but rather as those who reach through and touch the supernal realm of dreams and the farthest shores of night. | Visionary |",
+			"| :ripple[sorcbloodline/Ectoplasm] | The power of the Ethereal Plane thrums in your mind and pulls at your flesh. | |",
+			"| :ripple[sorcbloodline/Efreeti] | You were born with the power of fire genies, and the magic of the efreet is strong in you. | |",
+			"| :ripple[sorcbloodline/Elemental] | The power of the elements resides in you, and at times you can hardly control its fury. | Lifewater, Primal |",
+			"| :ripple[sorcbloodline/Fey] | The capricious nature of the fey runs in your family due to some intermingling of fey blood or magic. | Dark Fey, Sylvan |",
+			"| :ripple[sorcbloodline/Ghoul] | Your connection to the hungering undead shapes your magic. | |",
+			"| :ripple[sorcbloodline/Harrow] | Just as knowledge of the harrow has passed from generation to generation since time immemorial, so too has a deep spiritual connection to the otherworldly forces bound by the harrow passed through the ages. | |",
+			"| :ripple[sorcbloodline/Imperious] | (Human Only) A scion of forgotten kings, with a lineage rich with the dust of ancient empires spanning every golden age of humanity's history, an imperious embodies the apex of human potential, as well as human temerity and uninhibited hubris. | |",
+			"| :ripple[sorcbloodline/Impossible] | You can see beyond the mundane, and are capable of visualizing the improbable, and even the impossible. | |",
+			"| :ripple[sorcbloodline/Infernal] | Somewhere in your family's history, a relative made a deal with a devil, and that pact has influenced your family line ever since. | Pit-Touched |",
+			"| :ripple[sorcbloodline/Kobold Sorcerer] | (Kobold Only) While many kobold sorcerers tout their purely draconic bloodline, over generations of eldritch training, some such spellcasters have created a bloodline that, while tinged with some draconic magic, is the embodiment of the race's virtue distilled into arcane form. | |",
+			"| :ripple[sorcbloodline/Maestro] | The spiritual power of art and song runs strongly through your family line. | |",
+			"| :ripple[sorcbloodline/Marid] | You were born with the power of water genies, and the magic of the marids is strong in you. | Shahzada |",
+			"| :ripple[sorcbloodline/Martyred] | One of your ancestors paid the ultimate price for your beliefs. | Retribution |",
+			"| :ripple[sorcbloodline/Naga] | Naga blood flows within your veins. Perhaps a curious naga experimented upon one of your ancestors in an attempt to create the perfect servant, or maybe one of your ancestors was a shapeshifting naga. Either way, you boast powers similar to those of true nagas. | |",
+			"| :ripple[sorcbloodline/Nanite] | Either you were born from one of the forgewombs scattered throughout the wastelands, or you were infected by nanites, which now course through your blood. | |",
+			"| :ripple[sorcbloodline/Oni] | As slaves of capricious oni lords, your ancestors were forced to yield to their masters' hedonistic desires, inevitably tainting their descendents with oni blood. | |",
+			"| :ripple[sorcbloodline/Orc] | The rage of your ancestors burns within you, and the taint of savage orc blood flows through your veins. | |",
+			"| :ripple[sorcbloodline/Pestilence] | You were born during the height of a great magical plague, to a mother suffering from an eldritch disease, or you suffered an eldritch pox as a child, such that your very soul now carries a blight of pestilence within it. | |",
+			"| :ripple[sorcbloodline/Phoenix] | One of your ancestors bore witness to a phoenix's resurrection and formed a bond with the magical creature. The resurrecting flames still course through your veins, surging with power. | |",
+			"| :ripple[sorcbloodline/Possessed] | The mystical connection with your possessing spirit allows you to gain more control over your body and mind. | |",
+			"| :ripple[sorcbloodline/Protean] | You have in your veins the ever-changing wildness of primal chaos, the raw essence of unbound creation. | Anarchic |",
+			"| :ripple[sorcbloodline/Psychic] | Psychic power runs thorough your blood, whether it be from a familial predisposition to psychic power or exposure to a powerful psychic phenomenon. Whatever the source of this power, your mind is a dangerous weapon. | |",
+			"| :ripple[sorcbloodline/Rakshasa] | At some point in your family's history, one of your ancestors was tainted by the influence of a rakshasa. | |",
+			"| :ripple[sorcbloodline/Salamander] | You are descended from the elemental outsiders known as salamanders. You wield flame as a weapon and a tool, and your smithing skills are unrivaled. | |",
+			"| :ripple[sorcbloodline/Scorpion] | Whether your ancestors served a scorpion goddess or simply worked closely with more mundane members of the species, the venom from these arachnids has seeped down through generations into your blood. | |",
+			"| :ripple[sorcbloodline/Serpentine] | Your bloodline carries the lingering stain of ancient serpent races that ruled when the world was young. | Envenomed |",
+			"| :ripple[sorcbloodline/Shadow] | Spirits from the shadow plane dally at times in the world of light, and such as these lay with your ancestors once upon a time, imparting the mystery of shadow-stuff into your lineage. | Umbral |",
+			"| :ripple[sorcbloodline/Shaitan] | You were born with the power of earth genies, and the magic of the shaitans is strong in you. | |",
+			"| :ripple[sorcbloodline/Shapechanger] | Channeling the power of your shapeshifting ancestors that you carry in your blood, you gain powers that allow you to change your shape and alter your appearance and physical abilities. | |",
+			"| :ripple[sorcbloodline/Solar] | Sorcerers who serve in the sun goddess's court display powers infused with the glory of the sun itself. | |",
+			"| :ripple[sorcbloodline/Starsoul] | You come from a line of stargazers and explorers who delved deeply into the darkness beyond the stars. | Void-Touched |",
+			"| :ripple[sorcbloodline/Stormborn] | You trace your heritage to fierce and proud spirits of storm and sky, and living lightning sings in your veins. | Arial |",
+			"| :ripple[sorcbloodline/Undead] | The taint of the grave runs through your family. | Sanguine |",
+			"| :ripple[sorcbloodline/Unicorn] | Deeply empathetic and fiercely protective, unicorns on occasion form close bonds with humans, often young and noble-hearted women. When the two have a particularly strong bond, the unicorn's magic can become a part of the bonded human, and sometimes is even passed on to her children. These children, blessed by their parent's connection to that force of true good, grow up to become sorcerers of the unicorn bloodline. | |",
+			"| :ripple[sorcbloodline/Verdant] | Your progenitors infused themselves with raw plant life, binding it into their own tissue and passing it down to their literal seed, giving you innate communion with nature. | Groveborn |",
+			"| :ripple[sorcbloodline/Vestige] | You trace your ancestry to a bygone civilization and can call upon its forgotten people or places for power. | |"
 		],
 		"topLink": [ "Sorcerer", "class/sorcerer" ]
 	},

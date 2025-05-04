@@ -1803,7 +1803,7 @@
 			"",
 			"- Subjective Directional Gravity: Inhabitants of the plane determine their own \"down\" direction. Objects not under the motive force of others do not move.",
 			"- Air-Dominant",
-			"- Enhanced Magic: Spells and spell-like abilities with the {spelldef/air} descriptor or that use, manipulate, or create air (including those of the {domain/Air} domain and the {sorcererbloodline/elemental} [air] bloodline) are enhanced.",
+			"- Enhanced Magic: Spells and spell-like abilities with the {spelldef/air} descriptor or that use, manipulate, or create air (including those of the {domain/Air} domain and the {sorcbloodline/elemental} [air] bloodline) are enhanced.",
 			"- Impeded Magic: Spells and spell-like abilities with the {spelldef/earth} descriptor or that use or create earth (including those of the {domain/Earth} domain, spell-like abilities of the elemental [earth] bloodline, and spells that summon earth elementals or outsiders with the {subtype/earth} subtype) are impeded."
 		],
 		"parent_topics": [
@@ -1847,7 +1847,7 @@
 			"The Plane of Earth has the following traits:",
 			"",
 			"- Earth-Dominant",
-			"- Enhanced Magic: Spells and spell-like abilities with the {spelldef/earth} descriptor or that use, manipulate, or create earth or stone (including those of the {domain/Earth} domain and the {sorcererbloodline/elemental} [earth] bloodline) are enhanced.",
+			"- Enhanced Magic: Spells and spell-like abilities with the {spelldef/earth} descriptor or that use, manipulate, or create earth or stone (including those of the {domain/Earth} domain and the {sorcbloodline/elemental} [earth] bloodline) are enhanced.",
 			"- Impeded Magic: Spells and spell-like abilities with the {spelldef/air} descriptor or that use or create air (including those of the {domain/Air} domain, spell-like abilities of the elemental [air] bloodline, and spells that summon air elementals or outsiders with the {subtype/air} subtype) are impeded."
 		],
 		"parent_topics": [
@@ -1891,7 +1891,7 @@
 			"The Plane of Fire has the following traits:",
 			"",
 			"- Fire-Dominant",
-			"- Enhanced Magic: Spells and spell-like abilities with the {spelldef/fire} descriptor or that use, manipulate, or create fire (including those of the {domain/Fire} domain or the {sorcererbloodline/elemental} [fire] bloodline) are enhanced.",
+			"- Enhanced Magic: Spells and spell-like abilities with the {spelldef/fire} descriptor or that use, manipulate, or create fire (including those of the {domain/Fire} domain or the {sorcbloodline/elemental} [fire] bloodline) are enhanced.",
 			"- Impeded Magic: Spells and spell-like abilities with the {spelldef/water} descriptor or that use or create water (including spells of the {domain/Water} domain, spell-like abilities of the elemental [water] bloodline, and spells that summon water elementals or outsiders with the {subtype/water} subtype) are impeded."
 		],
 		"parent_topics": [
@@ -1938,7 +1938,7 @@
 			"",
 			"- Subjective Directional Gravity: The gravity here works similarly to that of the Plane of Air, but sinking or rising on the Plane of Water is slower (and less dangerous) than on the Plane of Air.",
 			"- Water-Dominant",
-			"- Enhanced Magic: Spells and spell-like abilities with the {spelldef/water} descriptor or that use or create water (including those of the {domain/Water} domain or the {sorcererbloodline/elemental} [water] bloodline) are enhanced.",
+			"- Enhanced Magic: Spells and spell-like abilities with the {spelldef/water} descriptor or that use or create water (including those of the {domain/Water} domain or the {sorcbloodline/elemental} [water] bloodline) are enhanced.",
 			"- Impeded Magic: Spells and spell-like abilities with the {spelldef/fire} descriptor or that use or create fire (including spells of the {domain/Fire} domain, spell-like abilities of the elemental [fire] bloodline, and spells that summon fire elementals or outsiders with the {subtype/fire} subtype) are impeded."
 		],
 		"parent_topics": [

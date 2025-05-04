@@ -1836,8 +1836,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"valmallos": {
@@ -1875,7 +1875,7 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Proctor}"
 		]
 	},
 	"vapula": {
@@ -1985,8 +1985,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"velgaas": {
@@ -2221,7 +2221,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Scar Seeker}",
+			">- {pclass/Scar Seeker}",
 			">",
 			">### Traits",
 			">",
@@ -2310,8 +2310,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"vorasha": {
@@ -3111,7 +3111,7 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Proctor}"
 		]
 	},
 	"ydersius": {
@@ -4028,8 +4028,8 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Pain Taster}",
-			">- {prestigeclass/Umbral Court Agent}",
+			">- {pclass/Pain Taster}",
+			">- {pclass/Umbral Court Agent}",
 			">",
 			">### Spells",
 			">",

@@ -54,7 +54,7 @@
 			"",
 			"This replaces the investigator talent gained at 7th level.",
 			"",
-			"**Investigator Talents:** The following investigator talents complement the bonded investigator archetype: {investigatortalent/effortless aid}, {investigatortalent/perceptive tracking}, {investigatortalent/tenacious inspiration}, and {investigatortalent/unconventional inspiration}."
+			"**Investigator Talents:** The following investigator talents complement the bonded investigator archetype: {invtalent/effortless aid}, {invtalent/perceptive tracking}, {invtalent/tenacious inspiration}, and {invtalent/unconventional inspiration}."
 		]
 	},
 	"cartographer": {
@@ -380,7 +380,7 @@
 			"",
 			"This replaces the investigator talent gained at 13th level.",
 			"",
-			"**Investigator Talents:** The following investigator talents complement the guardian of immortality archetype: {investigatortalent/alchemist discovery}, {investigatortalent/combat inspiration}, {investigatortalent/greater combat inspiration}, {investigatortalent/inspired alertness}, {investigatortalent/stealing strike}, and {investigatortalent/toppling strike}."
+			"**Investigator Talents:** The following investigator talents complement the guardian of immortality archetype: {invtalent/alchemist discovery}, {invtalent/combat inspiration}, {invtalent/greater combat inspiration}, {invtalent/inspired alertness}, {invtalent/stealing strike}, and {invtalent/toppling strike}."
 		]
 	},
 	"hallucinist": {
@@ -771,7 +771,7 @@
 			"",
 			"**Phrenic Dabbler (Su):** At 3rd level, a psychic detective gains a small pool of phrenic points equal to 1/2 her psychic detective level, as well as one phrenic amplification, as the {class/psychic} class feature. This does not allow the psychic detective to qualify for the {feat/Extra Amplification} feat. This ability replaces the investigator talent gained at 3rd level.",
 			"",
-			"**Investigator Talents:** A psychic detective selects investigator talents as normal, except she cannot select the {investigatortalent/alchemist discovery} investigator talent. She can select the {feat/Expanded Phrenic Pool} feat as a discovery even though she doesn't meet that feat's prerequisites, and she can select an extra phrenic amplification once as a discovery. The following investigator talents complement the psychic detective archetype: {investigatortalent/confusing strike}, {investigatortalent/device talent}, {investigatortalent/effortless aid}, {investigatortalent/hidden agendas}, {investigatortalent/inspired intelligence}, {investigatortalent/item lore}, and {investigatortalent/unconventional inspiration}. This ability alters investigator talents."
+			"**Investigator Talents:** A psychic detective selects investigator talents as normal, except she cannot select the {invtalent/alchemist discovery} investigator talent. She can select the {feat/Expanded Phrenic Pool} feat as a discovery even though she doesn't meet that feat's prerequisites, and she can select an extra phrenic amplification once as a discovery. The following investigator talents complement the psychic detective archetype: {invtalent/confusing strike}, {invtalent/device talent}, {invtalent/effortless aid}, {invtalent/hidden agendas}, {invtalent/inspired intelligence}, {invtalent/item lore}, and {invtalent/unconventional inspiration}. This ability alters investigator talents."
 		]
 	},
 	"questioner": {
@@ -799,11 +799,11 @@
 			"",
 			"**Know-It-All (Ex):** At 2nd level, a questioner receives a +1 bonus on skill checks for all Knowledge skills in which he is trained. This bonus increases by 1 at 5th level and every 3 investigator levels thereafter, to a maximum of +6 at 17th level. If he has the perceptive tracking investigator talent, he also adds this bonus on Perception checks to find and follow tracks. At 5th level, the questioner gains the eidetic recollection investigator talent as a bonus talent, ignoring its prerequisites. This ability replaces poison lore.",
 			"",
-			"**Restricted Talents:** A questioner selects {ability/investigator talents} as normal, except he cannot select the {investigatortalent/alchemist discovery} investigator talent.",
+			"**Restricted Talents:** A questioner selects {ability/investigator talents} as normal, except he cannot select the {invtalent/alchemist discovery} investigator talent.",
 			"",
 			"This ability alters investigator talents.",
 			"",
-			"**Investigator Talents:** The following investigator talents complement the questioner archetype particularly well: {investigatortalent/expanded inspiration}, {investigatortalent/inspirational expertise}, {investigatortalent/perceptive tracking}, {investigatortalent/rogue talent}, and {investigatortalent/underworld inspiration}."
+			"**Investigator Talents:** The following investigator talents complement the questioner archetype particularly well: {invtalent/expanded inspiration}, {invtalent/inspirational expertise}, {invtalent/perceptive tracking}, {invtalent/rogue talent}, and {invtalent/underworld inspiration}."
 		]
 	},
 	"reckless_epicurean": {
@@ -961,7 +961,7 @@
 			"",
 			"**Second Chance (Ex):** At 4th level, when a sleuth rolls an inspiration die or uses the daring deed, he can spend 1 luck point to reroll either the inspiration or the daring deed die. If he rolls a 6 or higher on this reroll, he does not regain a luck point, and no matter what he rolls on either roll, he must keep the reroll result, even if it is lower.",
 			"",
-			"**Investigator Talents:** The following investigator talents complement the sleuth archetype: {investigatortalent/amazing inspiration}, {investigatortalent/combat inspiration}, {investigatortalent/device talent}, {investigatortalent/effortless aid}, {investigatortalent/expanded inspiration}, {investigatortalent/hidden agendas}, {investigatortalent/inspirational expertise}, {investigatortalent/inspired alertness}, {investigatortalent/inspired intimidator}, {investigatortalent/perceptive tracking}, {investigatortalent/quick study}, {investigatortalent/rogue talent}, {investigatortalent/tenacious inspiration}, and {investigatortalent/underworld inspiration}.",
+			"**Investigator Talents:** The following investigator talents complement the sleuth archetype: {invtalent/amazing inspiration}, {invtalent/combat inspiration}, {invtalent/device talent}, {invtalent/effortless aid}, {invtalent/expanded inspiration}, {invtalent/hidden agendas}, {invtalent/inspirational expertise}, {invtalent/inspired alertness}, {invtalent/inspired intimidator}, {invtalent/perceptive tracking}, {invtalent/quick study}, {invtalent/rogue talent}, {invtalent/tenacious inspiration}, and {invtalent/underworld inspiration}.",
 			"",
 			"**Grit, Luck, and Panache:** [Grit](class/gunslinger), luck, and [panache](class/swashbuckler) represent three different means by which heroes can gain access to the same heroic pool, using it to accomplish fantastic feats. For characters with a mix of grit, luck, and panache, they pool the three resources together into a combined pool. (Those who use panache and luck do not gain twice their Charisma bonus in their pool.) For feats, magic items, and other effects, a panache user can spend and gain luck points in place of grit or panache points, and vice versa.",
 			"",
@@ -993,7 +993,7 @@
 			"",
 			"**Touched by the Beyond (Su):** At 11th level, the spiritualist's ability to touch the beyond grants him further protection against the dangers of death and negative energy. The spiritualist becomes immune to death effects, and he takes half damage from negative energy. This ability replaces poison immunity.",
 			"",
-			"**Investigator Talents:** The following investigator talents complement the spiritualist archetype: {investigatortalent/amazing inspiration}, {investigatortalent/combat inspiration}, {investigatortalent/effortless aid}, {investigatortalent/eidetic recollection}, {investigatortalent/empathy}, {investigatortalent/expanded inspiration}, {investigatortalent/hidden agendas}, {investigatortalent/inspirational expertise}, {investigatortalent/item lore}, {investigatortalent/studied defense}, and {investigatortalent/tenacious inspiration}."
+			"**Investigator Talents:** The following investigator talents complement the spiritualist archetype: {invtalent/amazing inspiration}, {invtalent/combat inspiration}, {invtalent/effortless aid}, {invtalent/eidetic recollection}, {invtalent/empathy}, {invtalent/expanded inspiration}, {invtalent/hidden agendas}, {invtalent/inspirational expertise}, {invtalent/item lore}, {invtalent/studied defense}, and {invtalent/tenacious inspiration}."
 		]
 	},
 	"star_watcher": {

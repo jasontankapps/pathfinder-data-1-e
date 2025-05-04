@@ -81,7 +81,7 @@ const appPages: AppPage[] = [
 		title: "Pathfinder Rules",
 		url: "/main/rules",
 		icon: "/icons/read.svg",
-		prefix: "rule umr corruption disease trap drug haunt madness curse infestation"
+		prefix: "rule umr corruption disease trap drug haunt madness curse infestation misc"
 	},
 	{
 		title: "Races",
@@ -93,7 +93,7 @@ const appPages: AppPage[] = [
 		title: "Classes",
 		url: "/main/classes",
 		icon: "/icons/robe.svg",
-		prefix: "class prestigeclass npcclass sidekick archetype ability"
+		prefix: "class pclass npcclass sidekick arc ability"
 	},
 	{
 		title: "Skills",
@@ -117,7 +117,7 @@ const appPages: AppPage[] = [
 		title: "Equipment",
 		url: "/main/equipment",
 		icon: "/icons/battle-gear.svg",
-		prefix: "equipment tech"
+		prefix: "eq tech"
 	},
 	{
 		title: "Magic Items",
@@ -172,6 +172,10 @@ const makeItem = (
 	if(loc === url) {
 		cn = "selected";
 	} else if (prefix) {
+		// Isolate the portion of the link that contains the most relevant info
+		//   main/spells_wizard => 'spell'
+		//   magic-staff/spark_staff =? 'magic'
+		//   feat/craft_staff => 'feat'
 		const m = loc.match(/^(?:[/](?!main)|[/]main[/])([^-_/]+?)(?:[/]|s?_|s?-)/);
 		if(m) {
 			const rx = new RegExp(`\\b${m[1]}\\b`);

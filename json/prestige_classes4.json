@@ -204,7 +204,7 @@
 			"**Race:** Any non-dragon.  ",
 			"**Skills:** Knowledge (arcana) 5 ranks.  ",
 			"**Languages:** Draconic.  ",
-			"**Spellcasting:** Ability to cast 1st-level arcane spells without preparation. If the character has {class/sorcerer} levels, he must have the {sorcererbloodline/draconic} bloodline. If the character gains levels of sorcerer after taking this class, he must take the draconic bloodline.",
+			"**Spellcasting:** Ability to cast 1st-level arcane spells without preparation. If the character has {class/sorcerer} levels, he must have the {sorcbloodline/draconic} bloodline. If the character gains levels of sorcerer after taking this class, he must take the draconic bloodline.",
 			"",
 			"### Class Skills",
 			"",
@@ -609,7 +609,7 @@
 			">",
 			">**Phantom's Armory (Su):** By expending a 2nd-level spell slot as a swift action, the esoteric knight can cause her attacks (whether weapon attacks or kinetic blasts) and her armor to be treated as {magic-enh/ghost touch weapon/s} and {magic-enh/ghost touch armor} for 1 minute, regardless of weapon or armor type or any other abilities modifying the weapons and armor.",
 			">",
-			">**Shadow Projection (Su):** By expending a 3rd-level spell slot as a standard action, the esoteric knight can summon a phantom ally resembling herself. This ability functions as the {prestigeclass/shadowdancer/'s summon shadow} ability except that the summoned creature remains for 1 minute per esoteric knight level, and there is no penalty for the creature's death or dismissal.",
+			">**Shadow Projection (Su):** By expending a 3rd-level spell slot as a standard action, the esoteric knight can summon a phantom ally resembling herself. This ability functions as the {pclass/shadowdancer/'s summon shadow} ability except that the summoned creature remains for 1 minute per esoteric knight level, and there is no penalty for the creature's death or dismissal.",
 			">",
 			">**Step through Reality (Sp):** By expending a 3rd-level spell slot as a swift action, the esoteric knight can teleport to a space within 30 feet as if using {spell/dimension door}. This movement does not provoke attacks of opportunity. The esoteric knight cannot bring other creatures with her."
 		]
@@ -1619,7 +1619,7 @@
 			"",
 			"**Shadow Chains (Sp):** At 3rd level, an Umbral Court agent can use his touch of darkness ability one additional time per day. When using the touch of darkness ability, the Umbral Court agent manifests shadowy chains that increase the reach of his melee touch attack by 5 feet. A creature struck by these chains must succeed at a Reflex save (DC 10 + the Umbral Court agent's level + the Umbral Court agent's Wisdom modifier) or be entangled for 1d4 rounds in addition to the normal effects of the ability.",
 			"",
-			"**Shadow Jump (Su):** At 4th level, an Umbral Court agent gains the ability to supernaturally travel between shadows. This ability functions exactly like the {prestigeclass/shadowdancer} ability of the same name.",
+			"**Shadow Jump (Su):** At 4th level, an Umbral Court agent gains the ability to supernaturally travel between shadows. This ability functions exactly like the {pclass/shadowdancer} ability of the same name.",
 			"",
 			"**Unnerving Gaze (Su):** At 5th level, an Umbral Court agent gains a gaze attack similar to the {subtype/kyton} ability of the same name. Creatures within 30 feet of the Umbral Court agent must succeed at a Will save (DC 10 + the Umbral Court agent's level + the Umbral Court agent's Wisdom modifier) or be shaken for 1 round. The Umbral Court agent can use this ability for a number of rounds per day equal to his level; these rounds do not need to be consecutive. Activating this ability is a swift action. The Umbral Court agent is immune to the unnerving gaze of kytons (whether or not his own unnerving gaze is active). This is a mind-affecting fear effect that follows all the normal rules for a gaze attack.",
 			"",

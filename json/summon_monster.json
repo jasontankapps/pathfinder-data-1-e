@@ -1239,7 +1239,7 @@
 		"grantor": "[Cyphermage](rule/aff_i_tradition)",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"## Prestige Class: {prestigeclass/Cyphermage}",
+			"## Prestige Class: {pclass/Cyphermage}",
 			"",
 			"{SOURCE Inner Sea Magic}",
 			"",
@@ -2273,7 +2273,7 @@
 		"grantor": "Genie Binder",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"## Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
+			"## Prestige Class: [Genie Binder](pclass/genie_binder)",
 			"",
 			"{SOURCE Elemental Master's Handbook}",
 			"",
@@ -2835,7 +2835,7 @@
 		"grantor": "[Cyphermage](rule/aff_i_tradition)",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"## Prestige Class: {prestigeclass/Cyphermage}",
+			"## Prestige Class: {pclass/Cyphermage}",
 			"",
 			"{SOURCE Inner Sea Magic}",
 			"",
@@ -2849,7 +2849,7 @@
 		"grantor": "Genie Binder",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"## Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
+			"## Prestige Class: [Genie Binder](pclass/genie_binder)",
 			"",
 			"{SOURCE Elemental Master's Handbook}",
 			"",
@@ -3358,7 +3358,7 @@
 		"grantor": "Genie Binder",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"## Prestige Class: [Genie Binder](prestigeclass/genie_binder)",
+			"## Prestige Class: [Genie Binder](pclass/genie_binder)",
 			"",
 			"{SOURCE Elemental Master's Handbook}",
 			"",
@@ -4124,7 +4124,7 @@
 		"grantor": "[Cyphermage](rule/aff_i_tradition)",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"## Prestige Class: {prestigeclass/Cyphermage}",
+			"## Prestige Class: {pclass/Cyphermage}",
 			"",
 			"{SOURCE Inner Sea Magic}",
 			"",

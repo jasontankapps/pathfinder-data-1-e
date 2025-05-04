@@ -307,7 +307,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Storm Kindler}",
+			">- {pclass/Storm Kindler}",
 			">",
 			">### Spells",
 			">",
@@ -508,7 +508,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Green Faith Acolyte}",
+			">- {pclass/Green Faith Acolyte}",
 			">",
 			">### Spells",
 			">",
@@ -1772,7 +1772,7 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Proctor}"
 		]
 	},
 	"imbrex": {
@@ -1908,8 +1908,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"inkariax": {
@@ -2149,9 +2149,9 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Heritor Knight}",
-			">- {prestigeclass/Inheritor's Crusader}",
-			">- {prestigeclass/Knight of Ozem}",
+			">- {pclass/Heritor Knight}",
+			">- {pclass/Inheritor's Crusader}",
+			">- {pclass/Knight of Ozem}",
 			">",
 			">### Spells",
 			">",
@@ -2439,7 +2439,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Champion of Irori}",
+			">- {pclass/Champion of Irori}",
 			">",
 			">### Spells",
 			">",
@@ -2846,7 +2846,7 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Proctor}"
 		]
 	},
 	"jezelda": {
@@ -3484,7 +3484,7 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Proctor}"
 		]
 	},
 	"ketephys": {
@@ -4007,7 +4007,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Darechaser}",
+			">- {pclass/Darechaser}",
 			">",
 			">### Traits",
 			">",

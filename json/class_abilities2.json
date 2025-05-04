@@ -659,7 +659,7 @@
 			"Legacy of the First World"
 		],
 		"compileFrom": {
-			"source": "unchainedevolution",
+			"source": "unchevolution",
 			"targets": [
 				[
 					"## Unchained Evolutions",
@@ -677,7 +677,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"template": "**{unchainedevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "**{unchevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -689,7 +689,7 @@
 				{
 					"limit": "2",
 					"join": [ "", "", "" ],
-					"template": "**{unchainedevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "**{unchevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -701,7 +701,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"template": "**{unchainedevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "**{unchevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				},
 				[
 					"",
@@ -713,7 +713,7 @@
 				{
 					"limit": "4",
 					"join": [ "", "", "" ],
-					"template": "**{unchainedevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "**{unchevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
 				}
 			]
 		},
@@ -1193,7 +1193,7 @@
 				}
 			]
 		},
-		"topLink": [ "Hellknight", "prestigeclass/hellknight" ]
+		"topLink": [ "Hellknight", "pclass/hellknight" ]
 	},
 	"hellknight_orders": {
 		"name": "Hellknight Orders",
@@ -1224,7 +1224,7 @@
 			"| :ripple[hkorder/Order of the Torrent (Minor Order)] | A good order of Hellknights that focus their efforts on rescuing hostages and kidnapping victims. |",
 			"| :ripple[hkorder/Order of the Wall (Minor Order)] | These hellknights serve as guardians and watchmen against the forces that would intrude on the borders of civilization |"
 		],
-		"topLink": [ "Hellknight", "prestigeclass/hellknight" ]
+		"topLink": [ "Hellknight", "pclass/hellknight" ]
 	},
 	"hexes": {
 		"name": "Hexes",

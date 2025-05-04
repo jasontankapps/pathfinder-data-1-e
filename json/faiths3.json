@@ -331,7 +331,7 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Proctor}"
 		]
 	},
 	"ovonovo": {
@@ -655,7 +655,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
+			">- {pclass/Mortal Usher}",
 			">",
 			">### Spells",
 			">",
@@ -780,8 +780,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"picoperi": {
@@ -1006,7 +1006,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Stargazer}",
+			">- {pclass/Stargazer}",
 			">",
 			">### Traits",
 			">",
@@ -1264,7 +1264,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Crimson Templar}",
+			">- {pclass/Crimson Templar}",
 			">",
 			">### Spells",
 			">",
@@ -1985,8 +1985,8 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Mortal Usher}",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Mortal Usher}",
+			">- {pclass/Proctor}"
 		]
 	},
 	"sarenrae": {
@@ -2143,8 +2143,8 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Dawnflower Anchorite}",
-			">- {prestigeclass/Dawnflower Dissident}",
+			">- {pclass/Dawnflower Anchorite}",
+			">- {pclass/Dawnflower Dissident}",
 			">",
 			">### Spells",
 			">",
@@ -2766,7 +2766,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Devoted Muse}",
+			">- {pclass/Devoted Muse}",
 			">",
 			">### Spells",
 			">",
@@ -3660,7 +3660,7 @@
 			">",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Runeguard}",
+			">- {pclass/Runeguard}",
 			">",
 			">### Traits",
 			">",
@@ -3724,7 +3724,7 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {prestigeclass/Proctor}"
+			">- {pclass/Proctor}"
 		]
 	},
 	"stygidvod": {
