@@ -34,7 +34,8 @@ const info: { [key in Talent]: [string, string] } = {
 };
 
 const addendaObj: { [key: string]: string } = {
-	sneakattack: "This type of talent adds effects to a rogue's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made."
+	sneakattack: "This type of talent adds effects to a rogue's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
+	slayersneak: "This type of talent adds effects to a slayer's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made."
 };
 
 const getAddenda = (input: string[], jsx: ReactElement, id: string) => {
