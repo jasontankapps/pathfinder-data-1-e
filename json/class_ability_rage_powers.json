@@ -559,7 +559,7 @@
 			"The barbarian gains a +1 dodge bonus to her Armor Class against melee attacks for a number of rounds equal to the barbarian's current Constitution modifier (minimum 1). This bonus increases by +1 for every 6 levels the barbarian has attained. Activating this ability is a move action that does not provoke an attack of opportunity."
 		]
 	},
-	"hissing_rage": {	
+	"hissing_rage": {
 		"name": "Hissing Rage",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
@@ -1790,7 +1790,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"Once per rage, the barbarian can move for 1 round as if affected by {spell/air walk}.  You must be at least 6th level and must have selected air when you gained the {ragepower/lesser elemental totem} rage power."
+			"Once per rage, the barbarian can move for 1 round as if affected by {spell/air walk}. You must be at least 6th level and must have selected air when you gained the {ragepower/lesser elemental totem} rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
@@ -1813,7 +1813,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Blood of the Elements" ] ],
 		"description": [
-			"While raging, the barbarian can burrow through sand, loose soil, or gravel at a speed of 20 feet. This does not give the barbarian the ability to breathe underground. Loose material collapses behind the target 1 round after it leaves the area.  You must be at least 6th level and must have selected earth when you gained the {ragepower/lesser elemental totem} rage power."
+			"While raging, the barbarian can burrow through sand, loose soil, or gravel at a speed of 20 feet. This does not give the barbarian the ability to breathe underground. Loose material collapses behind the target 1 round after it leaves the area. You must be at least 6th level and must have selected earth when you gained the {ragepower/lesser elemental totem} rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},

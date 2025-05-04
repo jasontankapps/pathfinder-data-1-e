@@ -359,7 +359,15 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Unspeakable Bond}"
+			">- {trait/Unspeakable Bond}",
+			"",
+			"### Description",
+			"",
+			"When mortals die, their souls slip from the flesh and enter the River of Souls, where they are eventually carried to {faith/Pharasma/'s} Boneyard to be judged. Yet this river, as with any river, is not wholly without peril. Predators hunt the metaphysical banks and depths of the River of Souls, eager to pluck out and devour drifting souls before they can be sent on to their final rewards. Mysterious Nhimbaloth feeds upon those predators, and revels in the digestion of souls already being digested in the gullets of those who would deem themselves the hunters of the dead.",
+			"",
+			"Nhimbaloth's presence is most often felt in tangled swamps, desolate shorelines, or remote stretches of river. Her cultists hold that {monster/will-o'wisp/s} are her eyes and believe that the fear one endures when one knows death is near is her breath. While those who die know grief and pain, their souls can one day go on to be something greater. But those touched by Nhimbaloth know only the agony of death. They do not go on. They simply end.",
+			"",
+			"The Empty Death is shapeless, yet evidence of her presence can be seen in the tortured, faceless undead that often haunt places she has brushed against. Wildlife rows more antagonistic in these areas, and plants grow strangely hateful to the eye and eager to tear the flesh. Strange markings on riverbanks or island shores &mdash; clusters of seven perfectly spaced divots of crumbling dry earth &mdash; are thought to be her fingerprints. Where Nhimbaloth has hunted, the world itself recoils."
 		]
 	},
 	"nightripper": {
@@ -820,7 +828,10 @@
 	},
 	"nyarlathotep_black_pharaoh": {
 		"name": "Nyarlathotep (Black Pharaoh)",
-		"sources": [ "Pathfinder #109: In Search of Sanity" ],
+		"sources": [
+			"Pathfinder #109: In Search of Sanity",
+			"Pathfinder #46: Wake of the Watcher"
+		],
 		"description": [
 			"::fh[Nyarlathotep]{sub=\"Black Pharaoh\"}",
 			"",
@@ -833,6 +844,7 @@
 			"**Pantheon** Outer Gods  ",
 			"**Areas of Concern** Conspiracies, dangerous secrets, forbidden magic  ",
 			"**Domains** {domain/Chaos}, {domain/Evil}, {domain/Knowledge}, {domain/Magic}, {domain/Trickery}  ",
+			"**Subdomains** {domain/Arcane}, {domain/Divine}, {domain/Memory}, {domain/Thought}, plus two more associated with the Trickery domain (Ambush, Deception, Espionage, Greed, Innuendo, and Thievery)  ",
 			"**Favored Weapon** {eq-weapon/Quarterstaff}  ",
 			"**Symbol** Inverted ankh  ",
 			"**Sacred Animal(s)** Panther  ",
@@ -850,12 +862,24 @@
 			">",
 			">### Special",
 			">",
-			">Nyarlathotep has thousands of forms, but the three most prominent are the Black Pharoah, the [Faceless Sphinx](faith/nyarlathotep_faceless_sphinx), and the [Haunter of the Dark](faith/nyarlathotep_haunter_of_the_dark)."
+			">Nyarlathotep has thousands of forms, but the three most prominent are the Black Pharoah, the [Faceless Sphinx](faith/nyarlathotep_faceless_sphinx), and the [Haunter of the Dark](faith/nyarlathotep_haunter_of_the_dark).",
+			"",
+			"### Description",
+			"",
+			"{SOURCE Pathfinder #46: Wake of the Watcher/66}  ",
+			"Said to possess a thousand different forms, the god Nyarlathotep is unusual among the Outer Gods in that he seems to possesses a singular desire to toy with and cause discord among mortal races, rather than leaving this to his cultists. Scholars of the Dark Tapestry believe that Nyarlathotep himself is the prime mover in preparing countless worlds for the devastating return of the Great Old Ones, nudging events along in subtle ways to encourage various apocalyptic ends.",
+			"",
+			"It is said that one can see Nyarlathotep's influence in every major disaster or calamity if one looks hard enough, and that he has had a hand in guiding entire societies into peril. Some believe that it was his advice that moved Taldor to launch the Armies of Exploration that would ultimately presage that nation's fall from glory, and that led the dwarves of Dongun Hold to invent the first firearm. Certainly his influence can be seen throughout the history of Osirion, a culture he seems particularly interested in.",
+			"",
+			"Each of Nyarlathotep's forms is associated with its own distinct cult, and has a different symbol, favored weapon, and special domain (and associated subdomains). The god's two most well-known manifestations are the Haunter of the Dark (a batlike entity with a tri-lobed burning eye) and the Black Pharaoh (a humanoid form that has links to Ancient Osirion as well as to many modern witch cults)."
 		]
 	},
 	"nyarlathotep_faceless_sphinx": {
 		"name": "Nyarlathotep (Faceless Sphinx)",
-		"sources": [ "Pathfinder #65: Into the Nightmare Rift" ],
+		"sources": [
+			"Pathfinder #65: Into the Nightmare Rift",
+			"Pathfinder #46: Wake of the Watcher"
+		],
 		"description": [
 			"::fh[Nyarlathotep]{sub=\"Faceless Sphinx\"}",
 			"",
@@ -868,6 +892,7 @@
 			"**Pantheon** Outer Gods  ",
 			"**Areas of Concern** Conspiracies, dangerous secrets, forbidden magic  ",
 			"**Domains** {domain/Air}, {domain/Chaos}, {domain/Evil}, {domain/Knowledge}, {domain/Magic}  ",
+			"**Subdomains** {domain/Arcane}, {domain/Cloud}, {domain/Divine}, {domain/Memory}, {domain/Thought}, {domain/Wind}  ",
 			"**Favored Weapon** {eq-weapon/Punching dagger}  ",
 			"**Symbol** Image of a featureless face",
 			"",
@@ -883,12 +908,25 @@
 			">",
 			">### Special",
 			">",
-			">Nyarlathotep has thousands of forms, but the three most prominent are the [Black Pharoah](faith/nyarlathotep_black_pharaoh), the Faceless Sphinx, and the [Haunter of the Dark](faith/nyarlathotep_haunter_of_the_dark)."
+			">Nyarlathotep has thousands of forms, but the three most prominent are the [Black Pharoah](faith/nyarlathotep_black_pharaoh), the Faceless Sphinx, and the [Haunter of the Dark](faith/nyarlathotep_haunter_of_the_dark).",
+			"",
+			"### Description",
+			"",
+			"{SOURCE Pathfinder #46: Wake of the Watcher/66}  ",
+			"Said to possess a thousand different forms, the god Nyarlathotep is unusual among the Outer Gods in that he seems to possesses a singular desire to toy with and cause discord among mortal races, rather than leaving this to his cultists. Scholars of the Dark Tapestry believe that Nyarlathotep himself is the prime mover in preparing countless worlds for the devastating return of the Great Old Ones, nudging events along in subtle ways to encourage various apocalyptic ends.",
+			"",
+			"It is said that one can see Nyarlathotep's influence in every major disaster or calamity if one looks hard enough, and that he has had a hand in guiding entire societies into peril. Some believe that it was his advice that moved Taldor to launch the Armies of Exploration that would ultimately presage that nation's fall from glory, and that led the dwarves of Dongun Hold to invent the first firearm. Certainly his influence can be seen throughout the history of Osirion, a culture he seems particularly interested in.",
+			"",
+			"Each of Nyarlathotep's forms is associated with its own distinct cult, and has a different symbol, favored weapon, and special domain (and associated subdomains). The god's two most well-known manifestations are the Haunter of the Dark (a batlike entity with a tri-lobed burning eye) and the Black Pharaoh (a humanoid form that has links to Ancient Osirion as well as to many modern witch cults)."
 		]
 	},
+	"nyarlathotep": { "copyof": "nyarlathotep_faceless_sphinx" },
 	"nyarlathotep_haunter_of_the_dark": {
 		"name": "Nyarlathotep (Haunter of the Dark)",
-		"sources": [ "Pathfinder #109: In Search of Sanity" ],
+		"sources": [
+			"Pathfinder #109: In Search of Sanity",
+			"Pathfinder #46: Wake of the Watcher"
+		],
 		"description": [
 			"::fh[Nyarlathotep]{sub=\"Haunter of the Dark\"}",
 			"",
@@ -901,6 +939,7 @@
 			"**Pantheon** Outer Gods  ",
 			"**Areas of Concern** Conspiracies, dangerous secrets, forbidden magic  ",
 			"**Domains** {domain/Chaos}, {domain/Darkness}, {domain/Evil}, {domain/Knowledge}, {domain/Magic}  ",
+			"**Subdomains** {domain/Arcane}, {domain/Divine}, {domain/Memory}, {domain/Thought}, {domain/Magic}, plus two more associated with the Darkness domain (Loss, Moon, Night, and Shadow)  ",
 			"**Favored Weapon** {eq-weapon/Dagger}  ",
 			"**Symbol** Circle with winglike arms  ",
 			"**Sacred Animal(s)** Bat  ",
@@ -918,7 +957,16 @@
 			">",
 			">### Special",
 			">",
-			">Nyarlathotep has thousands of forms, but the three most prominent are the [Black Pharoah](faith/nyarlathotep_black_pharaoh), the [Faceless Sphinx](faith/nyarlathotep_faceless_sphinx), and the Haunter of the Dark."
+			">Nyarlathotep has thousands of forms, but the three most prominent are the [Black Pharoah](faith/nyarlathotep_black_pharaoh), the [Faceless Sphinx](faith/nyarlathotep_faceless_sphinx), and the Haunter of the Dark.",
+			"",
+			"### Description",
+			"",
+			"{SOURCE Pathfinder #46: Wake of the Watcher/66}  ",
+			"Said to possess a thousand different forms, the god Nyarlathotep is unusual among the Outer Gods in that he seems to possesses a singular desire to toy with and cause discord among mortal races, rather than leaving this to his cultists. Scholars of the Dark Tapestry believe that Nyarlathotep himself is the prime mover in preparing countless worlds for the devastating return of the Great Old Ones, nudging events along in subtle ways to encourage various apocalyptic ends.",
+			"",
+			"It is said that one can see Nyarlathotep's influence in every major disaster or calamity if one looks hard enough, and that he has had a hand in guiding entire societies into peril. Some believe that it was his advice that moved Taldor to launch the Armies of Exploration that would ultimately presage that nation's fall from glory, and that led the dwarves of Dongun Hold to invent the first firearm. Certainly his influence can be seen throughout the history of Osirion, a culture he seems particularly interested in.",
+			"",
+			"Each of Nyarlathotep's forms is associated with its own distinct cult, and has a different symbol, favored weapon, and special domain (and associated subdomains). The god's two most well-known manifestations are the Haunter of the Dark (a batlike entity with a tri-lobed burning eye) and the Black Pharaoh (a humanoid form that has links to Ancient Osirion as well as to many modern witch cults)."
 		]
 	},
 	"oaur_ooung": {
@@ -2386,7 +2434,7 @@
 			"",
 			"### On Golarion",
 			"",
-			"**Centers of Worship** : Mwangi Expanse (Kibwe, Mzali), Sargava (Kalabuto), The Shackles (Mgange Cove)   ",
+			"**Centers of Worship** : Mwangi Expanse (Kibwe, Mzali), Sargava (Kalabuto), The Shackles (Mgange Cove)  ",
 			"**Nationality** Mwangi",
 			"",
 			"## Follower Options",
@@ -2594,7 +2642,16 @@
 			">",
 			">- **{spell/Summon Monster IV}:** {monster/Phycomid}",
 			">- **{spell/Summon Monster V}:** {monster/Basidirond}",
-			">- **{spell/Summon Monster VI}:** {monster/Mi-go}"
+			">- **{spell/Summon Monster VI}:** {monster/Mi-go}",
+			"",
+			"### Description",
+			"",
+			"{SOURCE Pathfinder #109: In Search of Sanity/72}  ",
+			"The sentient infestation known as Xhamen-Dor, first cultivated in the sewers of the alien city of Carcosa, infected and transformed countless worlds before some ancient catastrophe or miscalculation nearly destroyed it. Reduced to a single blot of fungoid sentience trapped within a comet, the Great Old One eventually came to Golarion during Earthfall, accidentally plucked from the sky just as the Starstone was in the aboleths' assault upon the doomed nation of Azlant. Where Xhamen-Dor's comet came to rest is unknown, but its cult agrees that the fallen star that bears the Great Old One's core lies in the depths of a large but remote lake somewhere in the world.",
+			"",
+			"Since that date, Xhamen-Dor has slowly begun wakening, growing and sending filaments of its fungoid body throughout the world to rise up here and there to infest and spread. Those infected by the Inmost Blot first become sickly, then begin to simultaneously decay and transform, eventually becoming undead monsters animated by a combination of necromantic energy and the alien fungal masses that writhe in their cores. Cultists of Xhamen-Dor often take these parasitic creatures into themselves under the belief that they will live on as part of the creatures that emerge from their bodies, but just as often use unsuspecting sacrifices to serve as hosts.",
+			"",
+			"Foul Xhamen-Dor is said to have once resembled a tangled mass of fungoid tendrils growing from the shattered bones of some ancient reptilian life form, though what nightmarish shape the slowly growing blight has taken on today is unknown."
 		]
 	},
 	"xhasnaphar": {
@@ -3224,7 +3281,15 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Unspeakable Bond}"
+			">- {trait/Unspeakable Bond}",
+			"",
+			"### Description",
+			"",
+			"Of all the Great Old Ones &mdash; indeed, of all the gods of the Elder Mythos &mdash; the Father of Serpents is without a doubt the most benign. Yet those who would be so foolish as to expect kindness from Yig would do well to think again, for Yig does not suffer fools and is as likely to devour those who beseech him for aid as he is to provide aid. Even Yig's most devout worshipers realize the god may simply wish to feed at times, and on these occasions, no amount of devotion can protect the supplicant from death.",
+			"",
+			"Yig is worshiped primarily by nomadic societies and those who live with a close connection to the land; veneration of him is all but unknown in urban regions. He protects communities that honor him in the right ways, particularly if they follow the complex rituals required of his worship through the seasons. His favor can result in bountiful harvests, good hunts, and strong and healthy babies &mdash; at times immaculate conceptions are attributed to Yig, particularly if the resulting children bear crescent-shaped birthmarks upon their brows. Conversely, when a society has displeased or failed Yig, its children are born with crippling or monstrous deformities that leave mothers dead and fathers insane. Yig speaks through the actions of serpents, yet he is rarely worshiped by serpentfolk. Indeed, the Father of Serpents has long been at war with the god Ydersius, although since the decapitation of Ydersius, Yig has turned his attentions elsewhere.",
+			"",
+			"Yig appears as a scaled, humanoid creature with a serpent's head and lashing tail, or as an immense rattlesnake with a crescent-shaped mark upon the brow."
 		]
 	},
 	"ylimancha": {
@@ -3342,7 +3407,13 @@
 			">",
 			">- {trait/Unspeakable Bond}",
 			"",
-			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
+			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
+			"",
+			"### Description",
+			"",
+			"According to some, the Dark Tapestry is not so much a location as a thing that connects all places and possibilities. These texts go on to suggest that it is conscious &mdash; that it is aware. Yog-Sothoth is normally said to dwell within the Dark Tapestry, but some ancient legends say he *is* the Dark Tapestry. Certainly he has great power over time and space, and can exist at multiple times in multiple realities. Distance has no meaning to him, yet he seems unable to properly exist in the reality shared by most mortal life. He can only partially intrude upon this dimension, taking on the shape of a slithering mass of iridescent spheres or glowing motes of light when he does. Or perhaps Yog-Sothoth can exist in this world but has no reason to do so, and what mortals see and tremble before is but his shadow.",
+			"",
+			"Yog-Sothoth's cultists believe he is slowly preparing the many worlds of the universe for a new age presaged by the wakening of the Great Old Ones, during which time the inhabitants of these worlds will be wiped out to make way for the true masters. Cults often call upon Yog-Sothoth to bless unborn children, turning them into monstrous hybrids that help to prepare the unsuspecting world for the time when the stars themselves shall be right for the Great Old Ones to rule once again."
 		]
 	},
 	"yuelral": {

@@ -155,7 +155,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const [listElement, listRef] = useElement<HTMLIonListElement>();
 
 	const colors = useMemo(() => isDark ? darkColors : lightColors, [isDark]);
-	
+
 	const scrollHook = useCallback((input: HTMLIonContentElement | null) => {
 		setScrollObj(input);
 	}, [setScrollObj]);

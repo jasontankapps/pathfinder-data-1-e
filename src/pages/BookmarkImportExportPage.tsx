@@ -52,12 +52,12 @@ const clip = (toaster: UseIonToastResult, ref: RefObject<HTMLIonTextareaElement>
 	} else {
 		closeToast().then(
 			() => toast({
-			   message: `Nothing to copy`,
-			   color: "danger",
-			   duration: 1500,
-			   position: "middle"
-		   })
-	   );
+				message: `Nothing to copy`,
+				color: "danger",
+				duration: 1500,
+				position: "middle"
+			})
+		);
 	}
 };
 

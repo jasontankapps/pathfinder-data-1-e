@@ -801,7 +801,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			.map(([row]) => row);
 		return {sortedRowsWithOriginalIndices, sortedAndFilteredRows};
 	}, [data, hiddenColumns, hiddenRows, sortingColumn, sortDirection]);
-		
+
 	const tableWidth = useMemo(() => {
 		if(!sizes) {
 			return undefined;

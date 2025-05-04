@@ -16,7 +16,7 @@ const Loading: React.FC<{ text?: string, color?: string, barColor?: string }> = 
 			<IonContent>
 				<div className="loadingPage">
 					<IonText color={color}><h1>{text}</h1></IonText>
-					<IonProgressBar type="indeterminate"  color={barColor}/>
+					<IonProgressBar type="indeterminate" color={barColor}/>
 				</div>
 			</IonContent>
 		</IonPage>

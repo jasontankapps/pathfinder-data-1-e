@@ -1327,7 +1327,15 @@
 			">{SOURCE Pathfinder #110: The Thrushmoor Terror/71}",
 			">",
 			">- **{spell/Summon Monster IV}:** {monster/Byakhee}",
-			">- **{spell/Summon Monster V}:** {monster/Keeper of the Yellow Sign}"
+			">- **{spell/Summon Monster V}:** {monster/Keeper of the Yellow Sign}",
+			"",
+			"### Description",
+			"",
+			"As with many of the Great Old Ones, Hastur is imprisoned on a distant world. Yet unlike most of the imprisoned Great Old Ones, Hastur can manifest an avatar on other worlds as long as the light from the strange star in the sky of his prison world shines upon the targeted portion of the second world. He requires the assistance of powerful magic in order to manifest this avatar, known as the King in Yellow, but such magic need not be consciously wrought.",
+			"",
+			"His cultists are masters of subtle magics that can trick unsuspecting victims into opening the way for the King in Yellow. Hastur's symbol, the Yellow Sign, is often used in conjunction with such magic, and often those who find the Yellow Sign become doomed to host the King in Yellow in their own minds, slowly transforming into his agents. Some of his followers regard him as a patron of shepherds, believing that the bulk of humanity are but sheep to be gathered for an unknown future use.",
+			"",
+			"None know what Hastur looks like, for he has been imprisoned far longer than mortal life has existed. Those he takes as avatars when manifesting as the King in Yellow appear as entities clad in what seem to be frayed and tattered yellow robes. Only upon closer inspection are the “robes” revealed to be the creatures' flesh, and what lies hidden under the darkened hoods is horror incarnate."
 		]
 	},
 	"hataam": {
@@ -2578,7 +2586,17 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Unspeakable Bond}"
+			">- {trait/Unspeakable Bond}",
+			"",
+			"### Description",
+			"",
+			"The frozen lands at all the worlds' northern poles are the domains of Ithaqua, the Wind-Walker. He is capable of striding the gulfs between planets on icy winds to visit any world that might catch his interest, yet his explorations and influence over the worlds he treads upon seem to be curiously limited in scope to those regions above each world's arctic circle. He can, for short periods of time, venture south, but never for long, and his touch is unknown in the southern reaches of these worlds.",
+			"",
+			"Yet in his realm, he is greatly feared, for cannibalism and the monstrous creatures known as wendigos are rampant in the times before and after his visits. Ithaqua often takes a personal interest in certain souls, be they worshipers or unbelievers. He takes these folk into the skies and may even bring them to other worlds, yet his purpose in these abductions is unclear, for those who walk with Ithaqua always meet the same fate &mdash; a devastating fall from a great height resulting in either death in some frozen wilderness or transformation into a wendigo and the loss of all memories of a previous life.",
+			"",
+			"Ithaqua is known by many names in icy regions. He appears humanoid in form, yet his limbs are long and gaunt, and his feet are often concealed in gusts and blasts of blizzard winds. When he visits, despite these winds that surround him, he leaves monstrous tracks in the snow that show webbing between the toes. Those who gaze upon the Wind-Walker often don't remember his shape at all, only the two points of light &mdash; so like strange sparkling stars in the night sky &mdash; that are in fact his eyes.",
+			"",
+			"Note that while Ithaqua does not grant the domain of Water Water, his clerics can take the subdomain of Ice."
 		]
 	},
 	"izyagna": {

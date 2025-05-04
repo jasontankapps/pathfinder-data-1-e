@@ -126,7 +126,7 @@
 																	}
 																},
 																"required": [ "regex", "replacement" ]
-															},		
+															},
 															"template": { "type": "string" }
 														},
 														"required": [ "join", "template", "limit" ]
@@ -265,7 +265,7 @@
 																	}
 																},
 																"required": [ "regex", "replacement" ]
-															},		
+															},
 															"template": { "type": "string" }
 														},
 														"required": [ "join", "template", "limit" ]

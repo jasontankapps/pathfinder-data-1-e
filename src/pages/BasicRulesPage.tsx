@@ -97,7 +97,7 @@ const BasicRulesPage: FC<BasicRulesProps> = ({
 				<h2>{title}</h2>
 				{jsx}
 			</div>
-			{subs.length > 0 ?  (
+			{subs.length > 0 ? (
 				<div className="subtopics">
 					<header>Subtopics:</header>
 					<ul>

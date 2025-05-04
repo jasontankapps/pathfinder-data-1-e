@@ -1850,7 +1850,7 @@
 			"| Feat | Prerequisites | Description |",
 			"| --- | --- | --- |",
 			"| {feat/Blood of Heroes} | Hero's Fortune. | Gain 2 hero points when leveling up. |",
-			"| {feat/Hero's Fortune} |  | Gain a hero point and increase your maximum. |",
+			"| {feat/Hero's Fortune} | | Gain a hero point and increase your maximum. |",
 			"| {feat/Luck of Heroes} | Hero's Fortune. | 25% chance to not spend a Hero Point when using one |",
 			"",
 			":::",
